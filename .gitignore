@@ -1,0 +1,17 @@
+# throwaway dry-run output
+_scratch/
+
+# obsidian machine-specific
+.obsidian/workspace*
+.obsidian/cache
+.obsidian/.DS_Store
+
+# os
+.DS_Store
+.trash/
+
+# never — no pipeline secrets/state belong in the vault
+*.sqlite
+.env
+*.token
+*.key
