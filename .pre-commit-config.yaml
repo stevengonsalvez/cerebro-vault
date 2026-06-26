@@ -1,0 +1,24 @@
+# Secret + junk scanning before anything reaches the (private) vault repo.
+# Activate once:  pre-commit install
+# No API-key dependency (gitleaks is self-contained) so the daily auto-commit never blocks.
+repos:
+  - repo: https://github.com/gitleaks/gitleaks
+    rev: v8.21.2
+    hooks:
+      - id: gitleaks
+
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v5.0.0
+    hooks:
+      - id: detect-private-key
+      - id: check-added-large-files
+        args: ["--maxkb=1024"]      # blocks the 6 MB chat.json class of junk; notes are tiny
+      - id: check-merge-conflict
+
+  - repo: local
+    hooks:
+      - id: no-junk-or-secrets
+        name: block agent logs / scratch / secret files
+        entry: bash -c 'm=$(git diff --cached --name-only | grep -E "(^|/)(logs/|_scratch/|chat\.json|.*_tool_use\.json|\.env$|.*\.(token|key|sqlite))" || true); if [ -n "$m" ]; then echo "blocked — must not be in the vault:"; echo "$m"; exit 1; fi'
+        language: system
+        pass_filenames: false

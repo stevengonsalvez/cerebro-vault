@@ -1,6 +1,13 @@
 # throwaway dry-run output
 _scratch/
 
+# agent / tooling logs — NOT vault content (Claude Code hooks write here)
+logs/
+*.log
+post_tool_use.json
+pre_tool_use.json
+chat.json
+
 # obsidian machine-specific
 .obsidian/workspace*
 .obsidian/cache
