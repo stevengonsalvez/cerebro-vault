@@ -1,25 +1,32 @@
 ---
-title: "Shubhamsaboo/awesome-llm-apps: 100+ AI Agent & RAG apps you can actually run — clone, customize, ship."
-category: vibe-coding
-tags: [vibe-coding, repo/trending, ai/agents]
+title: "Shubhamsaboo/awesome-llm-apps: 100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source."
+category: coding-agents-llm
+tags: [ai/agents, cerebro/signal, repo/trending, vibe-coding]
+topic_tags: [ai/agents, repo/trending, vibe-coding]
+source_tags: []
+entity_tags: []
+artifact_tags: [cerebro/signal]
+workflow_tags: []
 source: github
 url: https://github.com/Shubhamsaboo/awesome-llm-apps
-score: 0.75
-reason: "Curated 100+ agent/RAG apps, rising repo interest"
-captured: 2026-07-13T06:00:03.578926+00:00
+score: 0.85
+reason: "Curated collection of 100+ AI agents and RAG apps"
+repo: "Shubhamsaboo/awesome-llm-apps"
+stars: "161"
+captured: 2026-08-26T06:00:04.227927+00:00
 rating:
 ---
-# Shubhamsaboo/awesome-llm-apps: 100+ AI Agent & RAG apps you can actually run — clone, customize, ship.
+# Shubhamsaboo/awesome-llm-apps: 100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.
 
-> Curated 100+ agent/RAG apps, rising repo interest
+> Curated collection of 100+ AI agents and RAG apps
 
-Deutsch | Español | français | 日本語 | 한국어 | Português | Русский | 中文
-100+ AI Agent & RAG apps you can actually run — clone, customize, ship.
-AI Agents · Always-on Agents · Multi-agent Teams · MCP Agents · RAG · Voice Agents · Agent Skills · Fine-tuning
-Free step-by-step tutorials on Unwind AI
-Works with Claude · Gemini · OpenAI · xAI · Qwen · Llama
-🚀 Quick Start 📂 Browse Templates 📚 Step-by-Step Tutorials
-You shouldn't have to rebuild the same RAG pipeline, agent loop, or MCP integration from scratch every time you start a new LLM project.
-Awesome LLM Apps is a cookbook of ready-to-run template
+100+ open-source AI agents, agent skills, and RAG apps. Hand-built, tested end-to-end, Apache-2.0.
+Clone it, ship it, sell it - 100% free and open-source
+Works with Claude, Gemini, GPT, DeepSeek, Llama, Qwen and other open-source models.
+Step-by-step tutorials on Unwind AI · Quick start · Browse all templates
+| Project Graveyard | Insurance Claim Live Agent Team | AI Fraud Investigation Agent | 
+| Self-Improving Agent Skills | AI Home Renovation Agent | Always-on HN Briefing Agent | 
+Give your coding agent a new skill in 10 seconds:
+npx skills add https://github.com/Shubhamsaboo/awesome-llm-ap
 
 [Open ↗](https://github.com/Shubhamsaboo/awesome-llm-apps)
