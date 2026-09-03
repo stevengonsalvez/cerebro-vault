@@ -1,0 +1,165 @@
+---
+login: "elithrar"
+name: null
+discovered_via: "fanout"
+discovered_via_all:
+  - "fanout"
+provenance_repos:
+  - "anomalyco/opencode"
+  - "cloudflare/cloudflare-os"
+admitted: true
+low_n: false
+repos_populated: true
+generated_at: "2026-09-03T13:56:17.862335+00:00"
+provenance:
+  - "386c24cf5e18fd90"
+  - "ffccace0ba14fd15"
+pushes_per_week: [18, 25, 19, 13, 2, 14, 7, 11, 0, 6, 1, 6, 2]
+windows:
+  "7d":
+    pushes: 2
+    distinct_repos: 2
+    active_days: 1
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
+  "30d":
+    pushes: 15
+    distinct_repos: 8
+    active_days: 7
+    repos_not_owned: 4
+    not_owned_basenames: 3
+    not_owned_owners: 3
+  "90d":
+    pushes: 124
+    distinct_repos: 23
+    active_days: 38
+    repos_not_owned: 11
+    not_owned_basenames: 4
+    not_owned_owners: 9
+automation:
+  state: "clear"
+  push_per_day: 3.2632
+  repo_per_active_day: 0.6053
+  not_owned_ratio: 0.4783
+  basename_concentration: 0.3043
+  shapes: []
+  shape_evidence: []
+  cleared_by: null
+  cleared_on: null
+  fork_provenance: null
+  prefilter: "rest_verified"
+facets:
+  "7d":
+    pushes: 2
+    distinct_repos: 2
+    pushes_per_repo: 1.0000
+    active_days: 1
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
+  "30d":
+    pushes: 15
+    distinct_repos: 8
+    pushes_per_repo: 1.8750
+    active_days: 7
+    repos_not_owned: 4
+    not_owned_basenames: 3
+    not_owned_owners: 3
+  "90d":
+    pushes: 124
+    distinct_repos: 23
+    pushes_per_repo: 5.3913
+    active_days: 38
+    repos_not_owned: 11
+    not_owned_basenames: 4
+    not_owned_owners: 9
+reasons:
+  - "provenance: 2 vault signal(s) — pass"
+  - "activity: 38 active days in 90d — pass"
+  - "automation: clear — pass"
+repos:
+  - name: "greyUI"
+    title: "greyUI"
+    description: "A greyscale UI component library, built on BaseUI and inspired by BeOS, HaikuOS and operating systems of old."
+    language: "TypeScript"
+    topics:
+      - "baseui"
+      - "beos"
+      - "components"
+      - "haikuos"
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-09-01"
+  - name: "dotfiles"
+    title: "dotfiles"
+    description: "dotfiles for my macOS & Linux environments ⌨️"
+    language: "TypeScript"
+    topics:
+      - "dotfiles"
+      - "linux"
+      - "macos"
+      - "shell"
+      - "stow"
+      - "tmux"
+      - "zsh"
+    stars_fact: 203
+    first_seen: null
+    last_push: "2026-08-13"
+  - name: "elithrar.github.io"
+    title: "elithrar.github.io"
+    description: "GitHub Pages repo for my technical blog."
+    language: "CSS"
+    topics: []
+    stars_fact: 6
+    first_seen: null
+    last_push: "2026-08-29"
+  - name: "xgecu-web"
+    title: "xgecu-web"
+    description: "Browser WebUSB toolkit for reading and writing ROMs with XGecu T48/T56 programmers, powered by a Zig core, Wasm ABI, and TypeScript API."
+    language: "Zig"
+    topics:
+      - "eeprom-programmer"
+      - "motronic"
+      - "porsche"
+      - "t48"
+      - "t56"
+      - "wasm"
+      - "xgecu"
+      - "zig"
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-07-30"
+  - name: "artifacts-sync"
+    title: "artifacts-sync"
+    description: "Sync Cloudflare Artifacts repos from GitHub repos. Or vice-versa. You choose."
+    language: "TypeScript"
+    topics:
+      - "cloudflare-artifacts"
+      - "git"
+      - "github"
+      - "workers"
+    stars_fact: 10
+    first_seen: null
+    last_push: "2026-08-28"
+  - name: "cursor-origin-webhooks"
+    title: "cursor-origin-webhooks"
+    description: "Verify, validate and get a typed response to consume when handling a Cursor Origin webhook event in any TypeScript app. Works in Cloudflare Workers, Deno and Node.js alike."
+    language: "TypeScript"
+    topics:
+      - "cloudflare-workers"
+      - "cursor"
+      - "deno"
+      - "typescript"
+      - "webcrypto"
+      - "webhooks"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-28"
+---
+
+# elithrar
+
+124 pushes across 23 repositories on 38 active days in the last 90 days of public GitHub push activity.
+
+https://github.com/elithrar
