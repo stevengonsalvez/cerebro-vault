@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [10, 0, 7, 2, 11, 18, 42, 0, 14, 13, 17, 16, 0]
+pushes_per_week: [9, 0, 7, 2, 17, 27, 27, 0, 15, 12, 17, 16, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,25 +22,25 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 55
+    pushes: 53
     distinct_repos: 6
-    active_days: 11
+    active_days: 10
     repos_not_owned: 6
     not_owned_basenames: 6
     not_owned_owners: 1
   "90d":
-    pushes: 150
-    distinct_repos: 27
-    active_days: 36
+    pushes: 149
+    distinct_repos: 26
+    active_days: 35
     repos_not_owned: 24
     not_owned_basenames: 23
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 4.1667
-  repo_per_active_day: 0.7500
-  not_owned_ratio: 0.8889
-  basename_concentration: 0.0741
+  push_per_day: 4.2571
+  repo_per_active_day: 0.7429
+  not_owned_ratio: 0.9231
+  basename_concentration: 0.0769
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -57,30 +57,30 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 55
+    pushes: 53
     distinct_repos: 6
-    pushes_per_repo: 9.1667
-    active_days: 11
+    pushes_per_repo: 8.8333
+    active_days: 10
     repos_not_owned: 6
     not_owned_basenames: 6
     not_owned_owners: 1
   "90d":
-    pushes: 150
-    distinct_repos: 27
-    pushes_per_repo: 5.5556
-    active_days: 36
+    pushes: 149
+    distinct_repos: 26
+    pushes_per_repo: 5.7308
+    active_days: 35
     repos_not_owned: 24
     not_owned_basenames: 23
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 36 active days in 90d — pass"
+  - "activity: 35 active days in 90d — pass"
   - "automation: clear — pass"
 repos: []
 ---
 
 # any-victor
 
-150 pushes across 27 repositories on 36 active days in the last 90 days of public GitHub push activity.
+149 pushes across 26 repositories on 35 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/any-victor

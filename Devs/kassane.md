@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "4138778ebbc75ba6"
-pushes_per_week: [40, 2, 2, 12, 1, 0, 1, 3, 1, 7, 0, 1, 0]
+pushes_per_week: [30, 3, 2, 12, 0, 0, 1, 3, 1, 7, 0, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 70
-    distinct_repos: 17
-    active_days: 23
+    pushes: 60
+    distinct_repos: 15
+    active_days: 22
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 3.0435
-  repo_per_active_day: 0.7391
-  not_owned_ratio: 0.1765
-  basename_concentration: 0.1176
+  push_per_day: 2.7273
+  repo_per_active_day: 0.6818
+  not_owned_ratio: 0.2000
+  basename_concentration: 0.1333
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 70
-    distinct_repos: 17
-    pushes_per_repo: 4.1176
-    active_days: 23
+    pushes: 60
+    distinct_repos: 15
+    pushes_per_repo: 4.0000
+    active_days: 22
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 23 active days in 90d — pass"
+  - "activity: 22 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "kassane"
@@ -165,6 +165,6 @@ repos:
 
 # kassane
 
-70 pushes across 17 repositories on 23 active days in the last 90 days of public GitHub push activity.
+60 pushes across 15 repositories on 22 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/kassane

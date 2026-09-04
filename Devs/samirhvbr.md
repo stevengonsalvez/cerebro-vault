@@ -8,11 +8,11 @@ provenance_repos:
   - "akitaonrails/ai-memory"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+repos_populated: true
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "4138778ebbc75ba6"
-pushes_per_week: [17, 2, 4, 21, 5, 15, 11, 19, 0, 1, 0, 2, 0]
+pushes_per_week: [17, 2, 4, 23, 8, 11, 15, 14, 0, 1, 0, 2, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 34 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "samirhv-site"
+    title: "samirhv-site"
+    description: "Claude, Grok, Gemma4, GLM, Minimax, GPT"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-03"
+  - name: "linux"
+    title: "linux"
+    description: "Description? Need?"
+    language: "Shell"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-03"
+  - name: "GIT"
+    title: "GIT"
+    description: "automacao"
+    language: "Shell"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-03"
+  - name: "skill-committer"
+    title: "skill-committer"
+    description: "Skill que tira dos agentes principais o compromisso de commitar: mensagem via version.md (deterministico; Sonnet so fallback), commit e push em ciclo"
+    language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-03"
+  - name: "shvia-bench"
+    title: "shvia-bench"
+    description: "Ambiente isolado e instrumentação reprodutível para benchmark de LLMs em engenharia de software — camada de execução/medição do LEB (env -i + HOME sandbox, proxy de verdade-base, auditoria de isenção)."
+    language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-03"
+  - name: "kids-memoria"
+    title: "kids-memoria"
+    description: "KIDS - Jogo da memoria - Rafaela 5 anos"
+    language: "PHP"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-03"
 ---
 
 # samirhvbr

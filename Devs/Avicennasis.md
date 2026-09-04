@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [23, 36, 39, 62, 15, 12, 4, 6, 4, 3, 6, 7, 0]
+pushes_per_week: [24, 42, 35, 55, 20, 7, 5, 6, 3, 9, 1, 6, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 217
+    pushes: 213
     distinct_repos: 35
-    active_days: 48
+    active_days: 47
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 4.5208
-  repo_per_active_day: 0.7292
+  push_per_day: 4.5319
+  repo_per_active_day: 0.7447
   not_owned_ratio: 0.1143
   basename_concentration: 0.0571
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 217
+    pushes: 213
     distinct_repos: 35
-    pushes_per_repo: 6.2000
-    active_days: 48
+    pushes_per_repo: 6.0857
+    active_days: 47
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 48 active days in 90d — pass"
+  - "activity: 47 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "BluePaper"
@@ -129,6 +129,6 @@ repos:
 
 # Avicennasis
 
-217 pushes across 35 repositories on 48 active days in the last 90 days of public GitHub push activity.
+213 pushes across 35 repositories on 47 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Avicennasis

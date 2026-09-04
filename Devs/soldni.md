@@ -8,11 +8,11 @@ provenance_repos:
   - "allenai/olmocr"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+repos_populated: true
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "ae05babd8ff3098f"
-pushes_per_week: [0, 1, 2, 2, 0, 0, 0, 0, 1, 0, 0, 0, 0]
+pushes_per_week: [0, 2, 1, 2, 0, 0, 0, 0, 1, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -76,7 +76,56 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "dotfiles"
+    title: "dotfiles"
+    description: "my dot files"
+    language: "Python"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-08-26"
+  - name: "paperpile-database"
+    title: "paperpile-database"
+    description: "A sync of my paperpile database."
+    language: "TeX"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-21"
+  - name: "personal-website"
+    title: "personal-website"
+    description: "My personal website"
+    language: "TeX"
+    topics:
+      - "personal-website"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-08-01"
+  - name: "keio"
+    title: "keio"
+    description: "Google Keep I/O: Python tool to synchronize Google Keep with a directory of MarkDown files."
+    language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-08-01"
+  - name: "monokai-filtersun-spectrum"
+    title: "monokai-filtersun-spectrum"
+    description: null
+    language: "CSS"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-02-17"
+  - name: "gandi-dns-updater"
+    title: "gandi-dns-updater"
+    description: "update A records on gandi"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2025-11-15"
 ---
 
 # soldni

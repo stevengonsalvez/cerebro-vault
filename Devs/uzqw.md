@@ -8,11 +8,11 @@ provenance_repos:
   - "apache/maka"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+repos_populated: true
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [1, 0, 0, 1, 1, 0, 1, 1, 0, 0, 0, 0, 0]
+pushes_per_week: [1, 0, 0, 1, 1, 1, 0, 1, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "openchat"
+    title: "openchat"
+    description: null
+    language: "Go"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-02"
+  - name: "dotfiles"
+    title: "dotfiles"
+    description: "uzqw's dotfiles"
+    language: "Lua"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-26"
+  - name: "utips"
+    title: "utips"
+    description: "utips is an open-source personal workspace for notes, todos, reminders, accounting, mobile PWA, and weather, refined through over a year of daily use."
+    language: "Vue"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-08-23"
+  - name: "ebook"
+    title: "ebook"
+    description: "A self-hosted eBook reader with a web interface. Supports EPUB and PDF."
+    language: "Vue"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-07-31"
+  - name: "uzqw"
+    title: "uzqw"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-07-12"
+  - name: "vex"
+    title: "vex"
+    description: "A production-grade, lightweight, in-memory vector database built with Go."
+    language: "Go"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-05-10"
 ---
 
 # uzqw

@@ -8,11 +8,11 @@ provenance_repos:
   - "AstrBotDevs/AstrBot"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+repos_populated: true
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 3, 3, 8, 11, 2, 0, 0]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 3, 4, 8, 11, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,7 +22,7 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 19
+    pushes: 16
     distinct_repos: 3
     active_days: 7
     repos_not_owned: 0
@@ -57,9 +57,9 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 19
+    pushes: 16
     distinct_repos: 3
-    pushes_per_repo: 6.3333
+    pushes_per_repo: 5.3333
     active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 13 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "WorlditorMCP"
+    title: "WorlditorMCP"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-01"
+  - name: "astrbot_plugin_testbench"
+    title: "astrbot_plugin_testbench"
+    description: "面向 AstrBot 的测试工具平台"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-28"
+  - name: "astrbot_plugin_worlditor"
+    title: "astrbot_plugin_worlditor"
+    description: "世界编辑器、世界观察者"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-17"
+  - name: "astrbot_plugin_flowbar"
+    title: "astrbot_plugin_flowbar"
+    description: "滑动、动态、灵活的状态栏"
+    language: "Batchfile"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-03"
+  - name: "astrbot_plugin_ssh_execute_shell"
+    title: "astrbot_plugin_ssh_execute_shell"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-07-31"
+  - name: "HotkeyCommand"
+    title: "HotkeyCommand"
+    description: null
+    language: "Java"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2024-07-31"
 ---
 
 # Rail1bc

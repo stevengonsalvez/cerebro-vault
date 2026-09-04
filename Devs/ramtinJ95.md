@@ -8,16 +8,16 @@ provenance_repos:
   - "agavra/tuicr"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+repos_populated: true
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [14, 4, 8, 3, 9, 20, 3, 5, 0, 5, 1, 3, 0]
+pushes_per_week: [14, 5, 8, 2, 10, 19, 4, 4, 0, 5, 1, 3, 0]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -76,7 +76,64 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 33 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "homebrew-tap"
+    title: "homebrew-tap"
+    description: "Homebrew tap for Archivist"
+    language: "Ruby"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-04"
+  - name: "macarchy"
+    title: "macarchy"
+    description: null
+    language: "Swift"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-04"
+  - name: "opencode-tokenscope"
+    title: "opencode-tokenscope"
+    description: "Comprehensive token usage analysis and cost tracking for opencode sessions"
+    language: "TypeScript"
+    topics:
+      - "ai-tools"
+      - "cost-tracking"
+      - "developer-tools"
+      - "opencode"
+      - "opencode-plugins"
+    stars_fact: 273
+    first_seen: null
+    last_push: "2026-07-29"
+  - name: "dotfiles"
+    title: "dotfiles"
+    description: "Manually managed dotfiles"
+    language: "Shell"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-08-30"
+  - name: "voxcraft"
+    title: "voxcraft"
+    description: "tool for turning youtube video into summarized documents"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-16"
+  - name: "scribebase"
+    title: "scribebase"
+    description: "Local-first OCR, Markdown, and Weaviate RAG"
+    language: "Python"
+    topics:
+      - "local-first"
+      - "ocr"
+      - "rag"
+      - "weaviate"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-15"
 ---
 
 # ramtinJ95

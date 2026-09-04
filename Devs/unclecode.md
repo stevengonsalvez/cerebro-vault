@@ -8,11 +8,11 @@ provenance_repos:
   - "unclecode/crawl4ai"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+repos_populated: true
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "d46d1480c37c463a"
-pushes_per_week: [0, 0, 0, 0, 1, 0, 0, 2, 1, 9, 6, 3, 2]
+pushes_per_week: [0, 0, 0, 1, 0, 0, 1, 2, 2, 9, 4, 4, 1]
 windows:
   "7d":
     pushes: 2
@@ -76,7 +76,78 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 17 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "crawl4ai"
+    title: "crawl4ai"
+    description: "🚀🤖 Crawl4AI: Open-source LLM Friendly Web Crawler & Scraper. Don't be shy, join here: https://discord.gg/jP8KfhDhyN"
+    language: "Python"
+    topics: []
+    stars_fact: 81235
+    first_seen: "2026-08-31T06:00:05.898998+00:00"
+    last_push: "2026-09-01"
+  - name: "crawl4ai-status"
+    title: "crawl4ai-status"
+    description: "Live status of the Crawl4AI crawling API and services"
+    language: "Markdown"
+    topics:
+      - "status-page"
+      - "upptime"
+      - "uptime-monitor"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-04"
+  - name: "modelprint"
+    title: "modelprint"
+    description: "Who is really behind that API? Fingerprint any OpenAI-compatible endpoint in the browser: 9 infrastructure probes, side-by-side comparison, community-extensible."
+    language: "JavaScript"
+    topics:
+      - "ai-tools"
+      - "fingerprinting"
+      - "llm"
+      - "openrouter"
+    stars_fact: 115
+    first_seen: null
+    last_push: "2026-09-03"
+  - name: "whats-cooking"
+    title: "whats-cooking"
+    description: "🔥 Find out what's roasting your MacBook - down to the exact Chrome tab - and end it. Menu bar heat monitor with real CPU die temp + per-tab Chrome CPU."
+    language: "Swift"
+    topics: []
+    stars_fact: 10
+    first_seen: null
+    last_push: "2026-08-04"
+  - name: "toolshrink"
+    title: "toolshrink"
+    description: "Cut large agent tool output by what it means, not by where it was cut. 13 content-aware reducers + DeepSeek Harness plugin."
+    language: "TypeScript"
+    topics:
+      - "ai-agents"
+      - "claude-code"
+      - "context-engineering"
+      - "deepseek-harness"
+      - "developer-tools"
+      - "dsh-plugin"
+      - "llm"
+    stars_fact: 12
+    first_seen: null
+    last_push: "2026-08-19"
+  - name: "ccswitch"
+    title: "ccswitch"
+    description: "Switch Claude Code between your Max subscription and OpenRouter or Groq models, inside the same chat session, and switch back without breaking anything."
+    language: "TypeScript"
+    topics:
+      - "ai"
+      - "anthropic"
+      - "claude"
+      - "claude-code"
+      - "cli"
+      - "developer-tools"
+      - "groq"
+      - "llm"
+      - "openrouter"
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-08-27"
 ---
 
 # unclecode

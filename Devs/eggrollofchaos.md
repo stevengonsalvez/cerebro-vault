@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "73468cde177ddae6"
-pushes_per_week: [10, 1, 2, 1, 1, 0, 0, 10, 0, 2, 0, 0, 0]
+pushes_per_week: [8, 1, 2, 1, 1, 0, 0, 10, 0, 2, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 27
-    distinct_repos: 13
-    active_days: 10
+    pushes: 25
+    distinct_repos: 12
+    active_days: 9
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 4
 automation:
   state: "clear"
-  push_per_day: 2.7000
-  repo_per_active_day: 1.3000
-  not_owned_ratio: 0.3846
-  basename_concentration: 0.1538
+  push_per_day: 2.7778
+  repo_per_active_day: 1.3333
+  not_owned_ratio: 0.4167
+  basename_concentration: 0.1667
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 27
-    distinct_repos: 13
-    pushes_per_repo: 2.0769
-    active_days: 10
+    pushes: 25
+    distinct_repos: 12
+    pushes_per_repo: 2.0833
+    active_days: 9
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 4
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 10 active days in 90d — pass"
+  - "activity: 9 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "qurrhea-legal"
@@ -150,6 +150,6 @@ repos:
 
 # eggrollofchaos
 
-27 pushes across 13 repositories on 10 active days in the last 90 days of public GitHub push activity.
+25 pushes across 12 repositories on 9 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/eggrollofchaos

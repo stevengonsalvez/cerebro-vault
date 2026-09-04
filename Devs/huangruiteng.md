@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "7ae06cb99d6d4f9f"
-pushes_per_week: [67, 43, 245, 197, 201, 126, 89, 40, 22, 49, 10, 13, 1]
+pushes_per_week: [61, 75, 224, 231, 171, 130, 76, 37, 22, 49, 7, 11, 1]
 windows:
   "7d":
     pushes: 1
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 78
+    pushes: 77
     distinct_repos: 5
     active_days: 21
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
   "90d":
-    pushes: 1103
+    pushes: 1095
     distinct_repos: 9
-    active_days: 77
+    active_days: 76
     repos_not_owned: 4
     not_owned_basenames: 2
     not_owned_owners: 4
 automation:
   state: "clear"
-  push_per_day: 14.3247
-  repo_per_active_day: 0.1169
+  push_per_day: 14.4079
+  repo_per_active_day: 0.1184
   not_owned_ratio: 0.4444
   basename_concentration: 0.4444
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 78
+    pushes: 77
     distinct_repos: 5
-    pushes_per_repo: 15.6000
+    pushes_per_repo: 15.4000
     active_days: 21
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
   "90d":
-    pushes: 1103
+    pushes: 1095
     distinct_repos: 9
-    pushes_per_repo: 122.5556
-    active_days: 77
+    pushes_per_repo: 121.6667
+    active_days: 76
     repos_not_owned: 4
     not_owned_basenames: 2
     not_owned_owners: 4
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 77 active days in 90d — pass"
+  - "activity: 76 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "loopx"
@@ -140,6 +140,6 @@ repos:
 
 # huangruiteng
 
-1103 pushes across 9 repositories on 77 active days in the last 90 days of public GitHub push activity.
+1095 pushes across 9 repositories on 76 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/huangruiteng

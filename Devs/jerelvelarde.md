@@ -11,11 +11,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "229b322ed982d40b"
   - "c4281af03270173b"
-pushes_per_week: [12, 15, 14, 11, 0, 2, 3, 12, 13, 3, 1, 0, 0]
+pushes_per_week: [14, 19, 13, 5, 0, 2, 5, 20, 3, 3, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -25,23 +25,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 5
-    distinct_repos: 3
-    active_days: 4
-    repos_not_owned: 2
-    not_owned_basenames: 2
-    not_owned_owners: 2
+    pushes: 4
+    distinct_repos: 2
+    active_days: 3
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "90d":
-    pushes: 86
+    pushes: 85
     distinct_repos: 18
-    active_days: 30
+    active_days: 29
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 2.8667
-  repo_per_active_day: 0.6000
+  push_per_day: 2.9310
+  repo_per_active_day: 0.6207
   not_owned_ratio: 0.2778
   basename_concentration: 0.1111
   shapes: []
@@ -60,24 +60,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 5
-    distinct_repos: 3
-    pushes_per_repo: 1.6667
-    active_days: 4
-    repos_not_owned: 2
-    not_owned_basenames: 2
-    not_owned_owners: 2
+    pushes: 4
+    distinct_repos: 2
+    pushes_per_repo: 2.0000
+    active_days: 3
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "90d":
-    pushes: 86
+    pushes: 85
     distinct_repos: 18
-    pushes_per_repo: 4.7778
-    active_days: 30
+    pushes_per_repo: 4.7222
+    active_days: 29
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 2
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 30 active days in 90d — pass"
+  - "activity: 29 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "opentag"
@@ -132,6 +132,6 @@ repos:
 
 # jerelvelarde
 
-86 pushes across 18 repositories on 30 active days in the last 90 days of public GitHub push activity.
+85 pushes across 18 repositories on 29 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/jerelvelarde

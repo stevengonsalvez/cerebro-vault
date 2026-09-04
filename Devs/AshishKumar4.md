@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "386c24cf5e18fd90"
-pushes_per_week: [32, 8, 0, 3, 9, 41, 12, 27, 5, 34, 11, 6, 1]
+pushes_per_week: [33, 0, 0, 5, 10, 43, 14, 20, 6, 33, 11, 6, 1]
 windows:
   "7d":
     pushes: 1
@@ -22,25 +22,25 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 55
+    pushes: 54
     distinct_repos: 8
     active_days: 15
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 189
-    distinct_repos: 14
-    active_days: 41
+    pushes: 182
+    distinct_repos: 13
+    active_days: 40
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 4.6098
-  repo_per_active_day: 0.3415
-  not_owned_ratio: 0.0714
-  basename_concentration: 0.0714
+  push_per_day: 4.5500
+  repo_per_active_day: 0.3250
+  not_owned_ratio: 0.0769
+  basename_concentration: 0.0769
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 55
+    pushes: 54
     distinct_repos: 8
-    pushes_per_repo: 6.8750
+    pushes_per_repo: 6.7500
     active_days: 15
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 189
-    distinct_repos: 14
-    pushes_per_repo: 13.5000
-    active_days: 41
+    pushes: 182
+    distinct_repos: 13
+    pushes_per_repo: 14.0000
+    active_days: 40
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 41 active days in 90d — pass"
+  - "activity: 40 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "dew"
@@ -159,6 +159,6 @@ repos:
 
 # AshishKumar4
 
-189 pushes across 14 repositories on 41 active days in the last 90 days of public GitHub push activity.
+182 pushes across 13 repositories on 40 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/AshishKumar4

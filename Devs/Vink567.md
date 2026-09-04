@@ -8,11 +8,11 @@ provenance_repos:
   - "bozhouDev/codex-orange-book"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+repos_populated: true
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "122530937a82ec1d"
-pushes_per_week: [0, 1, 6, 0, 4, 0, 1, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [0, 1, 6, 0, 4, 1, 0, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,62 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "GrowVault"
+    title: "GrowVault"
+    description: "A local-first, agent-maintained growing knowledge base for Obsidian."
+    language: "TypeScript"
+    topics:
+      - "ai-agent"
+      - "claude-code"
+      - "codex"
+      - "knowledge-base"
+      - "local-first"
+      - "markdown"
+      - "obsidian"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-30"
+  - name: "agent-orange-book"
+    title: "agent-orange-book"
+    description: "Agent 橙皮书：一份给普通人的 AI Agent 入门手册（非官方开源指南）"
+    language: "HTML"
+    topics: []
+    stars_fact: 42
+    first_seen: null
+    last_push: "2026-07-09"
+  - name: "vercel-orange-book"
+    title: "vercel-orange-book"
+    description: "Vercel 橙皮书：让 Agent 帮你完成从网站代码到域名上线的中文入门手册"
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-23"
+  - name: "Vink-skills"
+    title: "Vink-skills"
+    description: "Vink Codex Skills 中转目录：集中展示简介并跳转到独立仓库"
+    language: "PowerShell"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-08-05"
+  - name: "Skill-Desktop-Manager"
+    title: "Skill-Desktop-Manager"
+    description: "一个用于集中管理 Codex 与 Claude Code skills 的桌面应用"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 5
+    first_seen: null
+    last_push: "2026-06-25"
+  - name: "codex-skin"
+    title: "codex-skin"
+    description: "专门为codex 换肤设计，每个组件都能替换成自己想要的样子，不仅仅是更换一个背景"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-07-18"
 ---
 
 # Vink567

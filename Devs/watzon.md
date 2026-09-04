@@ -8,11 +8,11 @@ provenance_repos:
   - "can1357/oh-my-pi"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+repos_populated: true
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [0, 0, 0, 10, 15, 7, 4, 0, 0, 0, 0, 1, 0]
+pushes_per_week: [0, 0, 0, 12, 13, 9, 2, 0, 0, 0, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,111 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 14 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "watzon"
+    title: "watzon"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-09-03"
+  - name: "datastar.cr"
+    title: "datastar.cr"
+    description: "Datastar SDK for Crystal. What else is there to know?"
+    language: "Crystal"
+    topics: []
+    stars_fact: 10
+    first_seen: null
+    last_push: "2025-12-24"
+  - name: "pindrop"
+    title: "pindrop"
+    description: "A native macOS menu bar dictation app using local speech-to-text with WhisperKit"
+    language: "Swift"
+    topics:
+      - "apple-silicon"
+      - "dictation"
+      - "macos"
+      - "menu-bar"
+      - "open-source"
+      - "privacy"
+      - "speech-to-text"
+      - "swift"
+      - "swiftui"
+      - "test-verify"
+      - "whisperkit"
+    stars_fact: 620
+    first_seen: null
+    last_push: "2026-07-22"
+  - name: "caravan"
+    title: "caravan"
+    description: "Self-hosted media manager: discovery, indexers, embedded torrent and Usenet downloads, imports, and playback handoff in one binary"
+    language: "Go"
+    topics:
+      - "anime"
+      - "dlna"
+      - "golang"
+      - "jellyfin"
+      - "media-server"
+      - "movies"
+      - "newznab"
+      - "prowlarr"
+      - "self-hosted"
+      - "sqlite"
+      - "svelte"
+      - "torrent"
+      - "torznab"
+      - "tv-shows"
+      - "usenet"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-03"
+  - name: "goshot"
+    title: "goshot"
+    description: "🎨 Create beautiful code screenshots with customizable styles"
+    language: "Go"
+    topics:
+      - "carbon-alternative"
+      - "cli-tool"
+      - "code-snippets"
+      - "developer-tools"
+      - "documentation-tools"
+      - "golang"
+      - "image-generation"
+      - "presentation-tools"
+      - "screenshots"
+      - "syntax-highlighting"
+    stars_fact: 324
+    first_seen: null
+    last_push: "2026-07-04"
+  - name: "0x45"
+    title: "0x45"
+    description: "🚀 Modern, high-performance file sharing and URL shortening service with S3 support, rate limiting, and API keys. Built with Go and inspired by 0x0.st 📤"
+    language: "Go"
+    topics:
+      - "0x0"
+      - "api"
+      - "docker"
+      - "file-sharing"
+      - "file-upload"
+      - "go"
+      - "gofiber"
+      - "golang"
+      - "high-performance"
+      - "microservice"
+      - "paste"
+      - "pastebin"
+      - "pastebin-service"
+      - "rate-limiting"
+      - "rest-api"
+      - "s3-compatible"
+      - "s3-storage"
+      - "self-hosted"
+      - "url-shortener"
+      - "web-service"
+    stars_fact: 88
+    first_seen: null
+    last_push: "2025-03-04"
 ---
 
 # watzon

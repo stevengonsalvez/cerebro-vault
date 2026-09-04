@@ -8,11 +8,11 @@ provenance_repos:
   - "citrolabs/ego-lite"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+repos_populated: true
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "dbbcb182b33b2dd8"
-pushes_per_week: [2, 4, 4, 2, 5, 1, 2, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [2, 4, 5, 3, 3, 2, 1, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,15 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 15 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "skills"
+    title: "skills"
+    description: "A focused collection of reusable skills for AI agents."
+    language: "Objective-C"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-07-25"
 ---
 
 # WUXM5

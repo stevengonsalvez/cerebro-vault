@@ -8,11 +8,11 @@ provenance_repos:
   - "agavra/tuicr"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+repos_populated: true
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [0, 1, 2, 1, 0, 1, 1, 0, 1, 0, 0, 0, 0]
+pushes_per_week: [1, 0, 2, 1, 0, 1, 1, 0, 1, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "pkg_extractor"
+    title: "pkg_extractor"
+    description: "Rust implementation to extract apple `.pkg` files as 'root filesystem'"
+    language: "Rust"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-31"
+  - name: "git-recworktree"
+    title: "git-recworktree"
+    description: "Recursive git worktrees"
+    language: "Rust"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-07-16"
+  - name: "omp-vim"
+    title: "omp-vim"
+    description: "Vim-style modal editing for Pi and omp TUI editors (omp-native fork)"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-07-02"
+  - name: "tree-sitter-validatetest"
+    title: "tree-sitter-validatetest"
+    description: "GStreamer ValidateTest grammar for tree-sitter\""
+    language: "Rust"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-01"
+  - name: "gststructure-ts"
+    title: "gststructure-ts"
+    description: "Pure TypeScript parser and serializer for GStreamer Structure and Caps"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-01"
+  - name: "gst-integration-testsuites"
+    title: "gst-integration-testsuites"
+    description: "GStreamer Integration testsuites. This module has been merged into the main GStreamer repo for further development."
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-04-07"
 ---
 
 # thiblahute

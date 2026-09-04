@@ -8,8 +8,8 @@ provenance_repos:
   - "AlexsJones/llmfit"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+repos_populated: true
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "234088bc43763aa2"
 pushes_per_week: [1, 0, 0, 9, 1, 1, 0, 0, 1, 1, 2, 0, 0]
@@ -76,7 +76,66 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 8 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "labplus_for_gitlab"
+    title: "labplus_for_gitlab"
+    description: "Lab+ for Gitlab is an App to manage your interactions with your Gitlab Instance from your phone or Desktop"
+    language: "Dart"
+    topics:
+      - "android"
+      - "dart"
+      - "f-droid"
+      - "fdroid"
+      - "flutter"
+      - "gitlab"
+    stars_fact: 73
+    first_seen: null
+    last_push: "2026-09-03"
+  - name: "gcx-aur"
+    title: "gcx-aur"
+    description: "Arch Linux (AUR) packaging for Grafana's gcx CLI, with Dagger-powered auto-update CI"
+    language: "Shell"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-26"
+  - name: "EventChecker"
+    title: "EventChecker"
+    description: "Tool for Minecraft Developers to check which events get fired"
+    language: "Kotlin"
+    topics:
+      - "developer-tools"
+      - "hacktoberfest"
+      - "minecraft"
+      - "papermc"
+      - "spigot"
+    stars_fact: 9
+    first_seen: null
+    last_push: "2026-08-15"
+  - name: "apollo-rr-loader-repro"
+    title: "apollo-rr-loader-repro"
+    description: "Minimal repro: Apollo react-router integration breaks hydration when a query outlasts React Router's streamTimeout (RR7 + RR8)"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-03"
+  - name: "procflow"
+    title: "procflow"
+    description: null
+    language: "Rust"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-07-06"
+  - name: "Interaktive-Systeme"
+    title: "Interaktive-Systeme"
+    description: null
+    language: "C++"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-07-05"
 ---
 
 # thelooter

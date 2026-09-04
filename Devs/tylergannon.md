@@ -8,11 +8,11 @@ provenance_repos:
   - "anomalyco/opencode"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+repos_populated: true
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [0, 0, 2, 1, 3, 14, 4, 2, 0, 0, 2, 0, 0]
+pushes_per_week: [0, 2, 0, 1, 5, 13, 4, 1, 0, 0, 2, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 17 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "tractor"
+    title: "tractor"
+    description: "Tractor Go module"
+    language: "Go"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-09-03"
+  - name: "agents"
+    title: "agents"
+    description: null
+    language: "Go"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-20"
+  - name: "astro-template"
+    title: "astro-template"
+    description: "Astro 7 starter managed by Vite+, with Tailwind, icons, agent skills, and Astro Docs MCP"
+    language: "Svelte"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-18"
+  - name: "go-gen-jsonschema"
+    title: "go-gen-jsonschema"
+    description: "Static generation of JSON Schema"
+    language: "Go"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-08-17"
+  - name: "merger-herder-validation"
+    title: "merger-herder-validation"
+    description: "Independent proof contracts and validation harness design for MergeHerder"
+    language: "Go"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-07-13"
+  - name: "go-github-server"
+    title: "go-github-server"
+    description: "Generate typed Go server endpoints for GitHub-compatible services"
+    language: "Go"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-07-13"
 ---
 
 # tylergannon

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "c4281af03270173b"
-pushes_per_week: [16, 10, 12, 7, 10, 7, 4, 2, 1, 7, 3, 3, 0]
+pushes_per_week: [21, 5, 12, 6, 12, 5, 4, 2, 2, 8, 1, 3, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 3
     not_owned_owners: 2
   "90d":
-    pushes: 82
+    pushes: 81
     distinct_repos: 16
-    active_days: 36
+    active_days: 35
     repos_not_owned: 12
     not_owned_basenames: 4
     not_owned_owners: 11
 automation:
   state: "clear"
-  push_per_day: 2.2778
-  repo_per_active_day: 0.4444
+  push_per_day: 2.3143
+  repo_per_active_day: 0.4571
   not_owned_ratio: 0.7500
   basename_concentration: 0.5000
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 3
     not_owned_owners: 2
   "90d":
-    pushes: 82
+    pushes: 81
     distinct_repos: 16
-    pushes_per_repo: 5.1250
-    active_days: 36
+    pushes_per_repo: 5.0625
+    active_days: 35
     repos_not_owned: 12
     not_owned_basenames: 4
     not_owned_owners: 11
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 36 active days in 90d — pass"
+  - "activity: 35 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "home-agui-agent"
@@ -132,6 +132,6 @@ repos:
 
 # contextablemark
 
-82 pushes across 16 repositories on 36 active days in the last 90 days of public GitHub push activity.
+81 pushes across 16 repositories on 35 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/contextablemark

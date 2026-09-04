@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "48dbbdd8fd0d3029"
-pushes_per_week: [21, 15, 14, 12, 6, 3, 6, 4, 4, 18, 5, 6, 2]
+pushes_per_week: [19, 15, 18, 8, 8, 5, 2, 4, 6, 17, 4, 6, 2]
 windows:
   "7d":
     pushes: 2
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 4
     not_owned_owners: 4
   "90d":
-    pushes: 116
+    pushes: 114
     distinct_repos: 19
-    active_days: 49
+    active_days: 47
     repos_not_owned: 9
     not_owned_basenames: 9
     not_owned_owners: 6
 automation:
   state: "clear"
-  push_per_day: 2.3673
-  repo_per_active_day: 0.3878
+  push_per_day: 2.4255
+  repo_per_active_day: 0.4043
   not_owned_ratio: 0.4737
   basename_concentration: 0.1053
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 4
     not_owned_owners: 4
   "90d":
-    pushes: 116
+    pushes: 114
     distinct_repos: 19
-    pushes_per_repo: 6.1053
-    active_days: 49
+    pushes_per_repo: 6.0000
+    active_days: 47
     repos_not_owned: 9
     not_owned_basenames: 9
     not_owned_owners: 6
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 49 active days in 90d — pass"
+  - "activity: 47 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "brand"
@@ -149,6 +149,6 @@ repos:
 
 # PsiACE
 
-116 pushes across 19 repositories on 49 active days in the last 90 days of public GitHub push activity.
+114 pushes across 19 repositories on 47 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/PsiACE

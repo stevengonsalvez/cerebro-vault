@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "90688bf127241ceb"
-pushes_per_week: [8, 9, 24, 11, 0, 2, 4, 4, 2, 14, 7, 1, 1]
+pushes_per_week: [7, 11, 31, 2, 0, 3, 3, 4, 3, 15, 5, 1, 1]
 windows:
   "7d":
     pushes: 1
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 87
+    pushes: 86
     distinct_repos: 12
-    active_days: 31
+    active_days: 30
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.8065
-  repo_per_active_day: 0.3871
+  push_per_day: 2.8667
+  repo_per_active_day: 0.4000
   not_owned_ratio: 0.0000
   basename_concentration: 0.0833
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 87
+    pushes: 86
     distinct_repos: 12
-    pushes_per_repo: 7.2500
-    active_days: 31
+    pushes_per_repo: 7.1667
+    active_days: 30
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 31 active days in 90d — pass"
+  - "activity: 30 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "SessionReviewer"
@@ -136,6 +136,6 @@ repos:
 
 # NeoMei
 
-87 pushes across 12 repositories on 31 active days in the last 90 days of public GitHub push activity.
+86 pushes across 12 repositories on 30 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/NeoMei

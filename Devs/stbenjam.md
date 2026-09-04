@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "03604cccd7e9402d"
   - "0754e13e69e8f4d3"
@@ -40,6 +40,7 @@ provenance:
   - "85ddda4d481a7d84"
   - "860864df5583b9ff"
   - "8eafdf1e65e79a0b"
+  - "93601d11e4db33a8"
   - "a3ec5261dfb4f2cd"
   - "b56da077d21ad4f4"
   - "b7b96dd0ccd56642"
@@ -52,7 +53,7 @@ provenance:
   - "f672838de330e86f"
   - "f9a1870648a6375a"
   - "fe9e50bf2d5b21fe"
-pushes_per_week: [18, 15, 15, 39, 32, 1, 4, 18, 4, 14, 2, 1, 7]
+pushes_per_week: [22, 10, 16, 42, 28, 1, 4, 20, 7, 9, 2, 4, 4]
 windows:
   "7d":
     pushes: 7
@@ -69,18 +70,18 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 170
-    distinct_repos: 28
-    active_days: 44
-    repos_not_owned: 12
-    not_owned_basenames: 10
-    not_owned_owners: 6
+    pushes: 169
+    distinct_repos: 27
+    active_days: 43
+    repos_not_owned: 11
+    not_owned_basenames: 9
+    not_owned_owners: 5
 automation:
   state: "clear"
-  push_per_day: 3.8636
-  repo_per_active_day: 0.6364
-  not_owned_ratio: 0.4286
-  basename_concentration: 0.1429
+  push_per_day: 3.9302
+  repo_per_active_day: 0.6279
+  not_owned_ratio: 0.4074
+  basename_concentration: 0.1481
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -105,16 +106,16 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 170
-    distinct_repos: 28
-    pushes_per_repo: 6.0714
-    active_days: 44
-    repos_not_owned: 12
-    not_owned_basenames: 10
-    not_owned_owners: 6
+    pushes: 169
+    distinct_repos: 27
+    pushes_per_repo: 6.2593
+    active_days: 43
+    repos_not_owned: 11
+    not_owned_basenames: 9
+    not_owned_owners: 5
 reasons:
-  - "provenance: 41 vault signal(s) — pass"
-  - "activity: 44 active days in 90d — pass"
+  - "provenance: 42 vault signal(s) — pass"
+  - "activity: 43 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "skillsaw"
@@ -169,6 +170,6 @@ repos:
 
 # stbenjam
 
-170 pushes across 28 repositories on 44 active days in the last 90 days of public GitHub push activity.
+169 pushes across 27 repositories on 43 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/stbenjam

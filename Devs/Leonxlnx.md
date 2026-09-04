@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "291d5eb46511b79f"
-pushes_per_week: [12, 6, 7, 2, 2, 0, 25, 12, 0, 10, 0, 1, 0]
+pushes_per_week: [11, 5, 7, 2, 2, 0, 26, 11, 0, 10, 0, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 77
-    distinct_repos: 17
-    active_days: 24
+    pushes: 75
+    distinct_repos: 16
+    active_days: 23
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 3.2083
-  repo_per_active_day: 0.7083
+  push_per_day: 3.2609
+  repo_per_active_day: 0.6957
   not_owned_ratio: 0.0000
-  basename_concentration: 0.0588
+  basename_concentration: 0.0625
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 77
-    distinct_repos: 17
-    pushes_per_repo: 4.5294
-    active_days: 24
+    pushes: 75
+    distinct_repos: 16
+    pushes_per_repo: 4.6875
+    active_days: 23
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 24 active days in 90d — pass"
+  - "activity: 23 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "taste-skill"
@@ -175,6 +175,6 @@ repos:
 
 # Leonxlnx
 
-77 pushes across 17 repositories on 24 active days in the last 90 days of public GitHub push activity.
+75 pushes across 16 repositories on 23 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Leonxlnx

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [10, 7, 19, 6, 1, 10, 1, 0, 0, 1, 0, 0, 0]
+pushes_per_week: [8, 5, 20, 6, 4, 7, 0, 0, 0, 1, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 55
+    pushes: 51
     distinct_repos: 2
-    active_days: 22
+    active_days: 21
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.5000
-  repo_per_active_day: 0.0909
+  push_per_day: 2.4286
+  repo_per_active_day: 0.0952
   not_owned_ratio: 1.0000
   basename_concentration: 0.5000
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 55
+    pushes: 51
     distinct_repos: 2
-    pushes_per_repo: 27.5000
-    active_days: 22
+    pushes_per_repo: 25.5000
+    active_days: 21
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 22 active days in 90d — pass"
+  - "activity: 21 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "good-repo"
@@ -132,6 +132,6 @@ repos:
 
 # adamdotdevin
 
-55 pushes across 2 repositories on 22 active days in the last 90 days of public GitHub push activity.
+51 pushes across 2 repositories on 21 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/adamdotdevin

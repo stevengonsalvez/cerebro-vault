@@ -8,11 +8,11 @@ provenance_repos:
   - "ChromeDevTools/chrome-devtools-mcp"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+repos_populated: true
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "379642deb53f3714"
-pushes_per_week: [2, 3, 2, 3, 0, 1, 0, 2, 0, 0, 0, 0, 0]
+pushes_per_week: [3, 2, 3, 2, 0, 1, 0, 2, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,62 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 9 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "tailwindplus-downloader"
+    title: "tailwindplus-downloader"
+    description: "Tools for downloading TailwindPlus components to a local file"
+    language: "JavaScript"
+    topics:
+      - "tailwind"
+      - "tailwind-css"
+      - "tailwindplus"
+      - "tailwindui"
+    stars_fact: 54
+    first_seen: null
+    last_push: "2026-09-03"
+  - name: "mcp-tailwindplus"
+    title: "mcp-tailwindplus"
+    description: "TailwindPlus MCP server"
+    language: "Python"
+    topics: []
+    stars_fact: 41
+    first_seen: null
+    last_push: "2026-07-11"
+  - name: "claude-rodin"
+    title: "claude-rodin"
+    description: "A collection of skills, subagents, and hooks for Claude Code."
+    language: "Python"
+    topics:
+      - "claude-code"
+      - "claude-code-skills"
+      - "claude-skills"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-20"
+  - name: "fizzy-time_tracking"
+    title: "fizzy-time_tracking"
+    description: "Rails engine adding time-tracking to Fizzy cards"
+    language: "Ruby"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-03"
+  - name: "vim-json-validate"
+    title: "vim-json-validate"
+    description: "Validate JSON Schema configuration files in vim"
+    language: "Vim Script"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-03-23"
+  - name: "github-bookmarked-issues"
+    title: "github-bookmarked-issues"
+    description: "Browser extension to bookmark GitHub Issues"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-03-18"
 ---
 
 # richardkmichael

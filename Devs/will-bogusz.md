@@ -8,11 +8,11 @@ provenance_repos:
   - "can1357/oh-my-pi"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+repos_populated: true
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [3, 0, 1, 0, 0, 0, 1, 0, 0, 1, 2, 0, 0]
+pushes_per_week: [3, 0, 1, 0, 0, 0, 1, 0, 0, 2, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "schwab-agent"
+    title: "schwab-agent"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-06-11"
+  - name: "primerl-experiments"
+    title: "primerl-experiments"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2025-11-05"
+  - name: "Portfolio-Website"
+    title: "Portfolio-Website"
+    description: null
+    language: "CSS"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2025-09-22"
+  - name: "ephemera"
+    title: "ephemera"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2025-08-01"
+  - name: "RepoReader"
+    title: "RepoReader"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2025-03-26"
+  - name: "cursor-companion"
+    title: "cursor-companion"
+    description: "A foundational framework for structuring AI-assisted code development with Cursor IDE. Provides standardized templates and guidelines for managing LLM coding assistant interactions, enabling more intelligent and context-aware code generation and modifications."
+    language: "JavaScript"
+    topics: []
+    stars_fact: 8
+    first_seen: null
+    last_push: "2025-03-26"
 ---
 
 # will-bogusz

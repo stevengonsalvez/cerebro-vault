@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "379642deb53f3714"
-pushes_per_week: [64, 74, 86, 88, 63, 51, 82, 55, 39, 53, 34, 18, 6]
+pushes_per_week: [65, 77, 87, 100, 42, 62, 81, 51, 36, 62, 21, 19, 4]
 windows:
   "7d":
     pushes: 6
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 2
   "30d":
-    pushes: 119
+    pushes: 115
     distinct_repos: 18
-    active_days: 25
+    active_days: 24
     repos_not_owned: 13
     not_owned_basenames: 13
     not_owned_owners: 5
   "90d":
-    pushes: 713
+    pushes: 707
     distinct_repos: 34
-    active_days: 85
+    active_days: 84
     repos_not_owned: 26
     not_owned_basenames: 26
     not_owned_owners: 5
 automation:
   state: "clear"
-  push_per_day: 8.3882
-  repo_per_active_day: 0.4000
+  push_per_day: 8.4167
+  repo_per_active_day: 0.4048
   not_owned_ratio: 0.7647
   basename_concentration: 0.0294
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 2
   "30d":
-    pushes: 119
+    pushes: 115
     distinct_repos: 18
-    pushes_per_repo: 6.6111
-    active_days: 25
+    pushes_per_repo: 6.3889
+    active_days: 24
     repos_not_owned: 13
     not_owned_basenames: 13
     not_owned_owners: 5
   "90d":
-    pushes: 713
+    pushes: 707
     distinct_repos: 34
-    pushes_per_repo: 20.9706
-    active_days: 85
+    pushes_per_repo: 20.7941
+    active_days: 84
     repos_not_owned: 26
     not_owned_basenames: 26
     not_owned_owners: 5
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 85 active days in 90d — pass"
+  - "activity: 84 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "tibia-boosted-boss"
@@ -132,6 +132,6 @@ repos:
 
 # mathiasbynens
 
-713 pushes across 34 repositories on 85 active days in the last 90 days of public GitHub push activity.
+707 pushes across 34 repositories on 84 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/mathiasbynens

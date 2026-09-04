@@ -10,10 +10,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "3cb7ff1cdcf97c6b"
-pushes_per_week: [25, 5, 6, 8, 5, 5, 3, 0, 2, 8, 0, 4, 0]
+pushes_per_week: [27, 1, 5, 10, 3, 8, 0, 0, 2, 8, 2, 2, 0]
 windows:
   "7d":
     pushes: 0
@@ -30,16 +30,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 71
+    pushes: 68
     distinct_repos: 4
-    active_days: 22
+    active_days: 21
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 3.2273
-  repo_per_active_day: 0.1818
+  push_per_day: 3.2381
+  repo_per_active_day: 0.1905
   not_owned_ratio: 0.0000
   basename_concentration: 0.2500
   shapes: []
@@ -66,16 +66,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 71
+    pushes: 68
     distinct_repos: 4
-    pushes_per_repo: 17.7500
-    active_days: 22
+    pushes_per_repo: 17.0000
+    active_days: 21
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 22 active days in 90d — pass"
+  - "activity: 21 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "claude-skills"
@@ -104,7 +104,7 @@ repos:
       - "openclaw-skills"
       - "prompt-engineering"
     stars_fact: 25457
-    first_seen: "2026-08-10T06:00:04.550142+00:00"
+    first_seen: "2026-09-04T06:00:17.162497+00:00"
     last_push: "2026-08-30"
   - name: "alirezarezvani"
     title: "alirezarezvani"
@@ -202,6 +202,6 @@ repos:
 
 # alirezarezvani
 
-71 pushes across 4 repositories on 22 active days in the last 90 days of public GitHub push activity.
+68 pushes across 4 repositories on 21 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/alirezarezvani

@@ -8,11 +8,11 @@ provenance_repos:
   - "CopilotKit/channels-sdk"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+repos_populated: true
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "c4281af03270173b"
-pushes_per_week: [7, 4, 9, 4, 0, 14, 1, 2, 1, 5, 0, 0, 0]
+pushes_per_week: [7, 6, 9, 2, 4, 10, 1, 2, 1, 5, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,58 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 22 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "egghead-angular"
+    title: "egghead-angular"
+    description: "Angular basics for egghead."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2023-01-06"
+  - name: "budget-copilot"
+    title: "budget-copilot"
+    description: "AI-powered expense tracker"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-03-07"
+  - name: "dotfiles"
+    title: "dotfiles"
+    description: "Dotfiles for tools like Bash and VS Code"
+    language: "Shell"
+    topics:
+      - "bash-profile"
+      - "dotfiles"
+      - "vscode-settings"
+    stars_fact: 3
+    first_seen: null
+    last_push: "2019-04-30"
+  - name: "writer-dev-workshop"
+    title: "writer-dev-workshop"
+    description: "A collection of developer resources used in Writer workshops."
+    language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2024-10-15"
+  - name: "ngconf2019-slides"
+    title: "ngconf2019-slides"
+    description: "A central place to keep track of the speakers' slides from ng-conf 2019."
+    language: null
+    topics: []
+    stars_fact: 71
+    first_seen: null
+    last_push: "2019-05-20"
+  - name: "code_animation_videos"
+    title: "code_animation_videos"
+    description: "A project for creating code animation videos using Remotion."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2025-03-14"
 ---
 
 # samjulien

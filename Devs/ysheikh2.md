@@ -8,11 +8,11 @@ provenance_repos:
   - "chopratejas/headroom"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+repos_populated: true
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "73468cde177ddae6"
-pushes_per_week: [10, 63, 10, 0, 0, 3, 0, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [24, 49, 10, 0, 0, 3, 0, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,41 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 14 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "headway"
+    title: "headway"
+    description: "Headway local AI gateway for OpenAI-compatible and Bedrock-native clients via Headroom + LiteLLM"
+    language: "HTML"
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-07-23"
+  - name: "aws-bedrock-for-copilot"
+    title: "aws-bedrock-for-copilot"
+    description: "Fork of rangan2510/aws-bedrock-for-copilot"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-06-01"
+  - name: "aws-tab-closer"
+    title: "aws-tab-closer"
+    description: "Browser extension to automatically closes tabs opened by AWS CLI login and AWS VPN"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-03-10"
+  - name: "ysheikh2"
+    title: "ysheikh2"
+    description: "Config files for my GitHub profile."
+    language: null
+    topics:
+      - "config"
+      - "github-config"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2024-02-26"
 ---
 
 # ysheikh2

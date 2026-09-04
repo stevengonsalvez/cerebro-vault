@@ -8,11 +8,11 @@ provenance_repos:
   - "chopratejas/headroom"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+repos_populated: true
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "73468cde177ddae6"
-pushes_per_week: [1, 5, 23, 16, 19, 0, 5, 7, 3, 2, 3, 0, 0]
+pushes_per_week: [2, 6, 22, 16, 18, 0, 7, 5, 3, 5, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,67 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 33 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "vaultlock"
+    title: "vaultlock"
+    description: "Time-locked APFS vault for macOS, sealed with drand tlock until a deadline you choose."
+    language: "Shell"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-04"
+  - name: "speedups"
+    title: "speedups"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 10
+    first_seen: null
+    last_push: "2026-08-29"
+  - name: "numpy-stl"
+    title: "numpy-stl"
+    description: "Simple library to make working with STL files (and 3D objects in general) fast and easy."
+    language: "Python"
+    topics:
+      - "3d"
+      - "fast"
+      - "high-performance"
+      - "numpy"
+      - "python"
+      - "python2"
+      - "python3"
+      - "stl"
+    stars_fact: 686
+    first_seen: null
+    last_push: "2026-07-06"
+  - name: "mt940"
+    title: "mt940"
+    description: "A library to parse MT940 files and returns smart Python collections for statistics and manipulation."
+    language: "Python"
+    topics: []
+    stars_fact: 105
+    first_seen: null
+    last_push: "2026-09-02"
+  - name: "portalocker"
+    title: "portalocker"
+    description: "An easy library for Python file locking. It works on Windows, Linux, BSD and Unix systems and can even perform distributed locking. Naturally it also supports the with statement."
+    language: "Python"
+    topics:
+      - "distributed"
+      - "lock"
+      - "locking"
+      - "python"
+    stars_fact: 326
+    first_seen: null
+    last_push: "2026-09-01"
+  - name: "python-utils"
+    title: "python-utils"
+    description: "Python Utils is a module with some convenient utilities not included with the standard Python install"
+    language: "Python"
+    topics: []
+    stars_fact: 98
+    first_seen: null
+    last_push: "2026-08-30"
 ---
 
 # wolph

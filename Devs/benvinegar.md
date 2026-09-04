@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [14, 71, 74, 50, 26, 7, 9, 26, 3, 17, 23, 3, 1]
+pushes_per_week: [15, 81, 68, 48, 18, 7, 11, 24, 3, 24, 16, 3, 1]
 windows:
   "7d":
     pushes: 1
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 324
-    distinct_repos: 17
-    active_days: 60
-    repos_not_owned: 14
-    not_owned_basenames: 7
-    not_owned_owners: 8
+    pushes: 319
+    distinct_repos: 14
+    active_days: 59
+    repos_not_owned: 11
+    not_owned_basenames: 6
+    not_owned_owners: 6
 automation:
   state: "clear"
-  push_per_day: 5.4000
-  repo_per_active_day: 0.2833
-  not_owned_ratio: 0.8235
-  basename_concentration: 0.4118
+  push_per_day: 5.4068
+  repo_per_active_day: 0.2373
+  not_owned_ratio: 0.7857
+  basename_concentration: 0.3571
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 324
-    distinct_repos: 17
-    pushes_per_repo: 19.0588
-    active_days: 60
-    repos_not_owned: 14
-    not_owned_basenames: 7
-    not_owned_owners: 8
+    pushes: 319
+    distinct_repos: 14
+    pushes_per_repo: 22.7857
+    active_days: 59
+    repos_not_owned: 11
+    not_owned_basenames: 6
+    not_owned_owners: 6
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 60 active days in 90d — pass"
+  - "activity: 59 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "counterscale"
@@ -134,6 +134,6 @@ repos:
 
 # benvinegar
 
-324 pushes across 17 repositories on 60 active days in the last 90 days of public GitHub push activity.
+319 pushes across 14 repositories on 59 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/benvinegar

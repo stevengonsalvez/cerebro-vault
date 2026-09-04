@@ -8,11 +8,11 @@ provenance_repos:
   - "agentscope-ai/QwenPaw"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+repos_populated: true
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "541318303a272608"
-pushes_per_week: [4, 1, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0]
+pushes_per_week: [5, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,15 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "Travel_Agent"
+    title: "Travel_Agent"
+    description: "基于 LangGraph 和 LLM 的智能旅行规划系统"
+    language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-03-26"
 ---
 
 # Saint-Yin

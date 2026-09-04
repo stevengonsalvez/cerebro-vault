@@ -10,11 +10,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "73468cde177ddae6"
   - "c489e6fb5febf2ab"
-pushes_per_week: [12, 13, 22, 0, 3, 8, 13, 20, 7, 4, 22, 5, 0]
+pushes_per_week: [5, 15, 20, 0, 3, 8, 17, 17, 6, 5, 22, 4, 0]
 windows:
   "7d":
     pushes: 0
@@ -24,23 +24,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 33
-    distinct_repos: 19
-    active_days: 13
+    pushes: 31
+    distinct_repos: 18
+    active_days: 12
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 129
+    pushes: 122
     distinct_repos: 38
-    active_days: 41
+    active_days: 40
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 3.1463
-  repo_per_active_day: 0.9268
+  push_per_day: 3.0500
+  repo_per_active_day: 0.9500
   not_owned_ratio: 0.0526
   basename_concentration: 0.0526
   shapes: []
@@ -59,24 +59,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 33
-    distinct_repos: 19
-    pushes_per_repo: 1.7368
-    active_days: 13
+    pushes: 31
+    distinct_repos: 18
+    pushes_per_repo: 1.7222
+    active_days: 12
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 129
+    pushes: 122
     distinct_repos: 38
-    pushes_per_repo: 3.3947
-    active_days: 41
+    pushes_per_repo: 3.2105
+    active_days: 40
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 41 active days in 90d — pass"
+  - "activity: 40 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "ousamabenyounes"
@@ -107,6 +107,6 @@ repos:
 
 # ousamabenyounes
 
-129 pushes across 38 repositories on 41 active days in the last 90 days of public GitHub push activity.
+122 pushes across 38 repositories on 40 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ousamabenyounes

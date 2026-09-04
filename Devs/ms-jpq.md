@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "1be978947e68d1f2"
-pushes_per_week: [70, 86, 78, 24, 50, 30, 20, 8, 12, 19, 8, 15, 0]
+pushes_per_week: [67, 98, 59, 24, 57, 23, 21, 11, 8, 24, 3, 15, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 46
+    pushes: 45
     distinct_repos: 5
-    active_days: 16
+    active_days: 15
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 420
+    pushes: 410
     distinct_repos: 8
-    active_days: 65
+    active_days: 64
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 6.4615
-  repo_per_active_day: 0.1231
+  push_per_day: 6.4062
+  repo_per_active_day: 0.1250
   not_owned_ratio: 0.0000
   basename_concentration: 0.1250
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 46
+    pushes: 45
     distinct_repos: 5
-    pushes_per_repo: 9.2000
-    active_days: 16
+    pushes_per_repo: 9.0000
+    active_days: 15
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 420
+    pushes: 410
     distinct_repos: 8
-    pushes_per_repo: 52.5000
-    active_days: 65
+    pushes_per_repo: 51.2500
+    active_days: 64
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 65 active days in 90d — pass"
+  - "activity: 64 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "ai"
@@ -136,6 +136,6 @@ repos:
 
 # ms-jpq
 
-420 pushes across 8 repositories on 65 active days in the last 90 days of public GitHub push activity.
+410 pushes across 8 repositories on 64 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ms-jpq

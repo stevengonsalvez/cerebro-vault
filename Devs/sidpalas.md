@@ -8,11 +8,11 @@ provenance_repos:
   - "ColeMurray/background-agents"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+repos_populated: true
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "8311cfc3055f8fea"
-pushes_per_week: [7, 5, 1, 2, 9, 4, 8, 2, 0, 0, 0, 0, 0]
+pushes_per_week: [9, 3, 1, 2, 12, 1, 8, 2, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,64 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 22 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "devops-directive-github-actions-course"
+    title: "devops-directive-github-actions-course"
+    description: "Companion repo for the DevOps Directive \"Github Actions: Beginner to Pro\" course"
+    language: "Python"
+    topics: []
+    stars_fact: 926
+    first_seen: null
+    last_push: "2026-02-08"
+  - name: "devops-directive-docker-course"
+    title: "devops-directive-docker-course"
+    description: "Companion repo for complete Docker course"
+    language: "Roff"
+    topics: []
+    stars_fact: 3355
+    first_seen: null
+    last_push: "2025-08-13"
+  - name: "devops-directive-kubernetes-course"
+    title: "devops-directive-kubernetes-course"
+    description: "This is the companion repo for the DevOps Directive \"Kubernetes: Beginner to Pro\" course!"
+    language: "Smarty"
+    topics: []
+    stars_fact: 1969
+    first_seen: null
+    last_push: "2025-10-06"
+  - name: "devops-directive-terraform-course"
+    title: "devops-directive-terraform-course"
+    description: "Companion repo for complete Terraform course"
+    language: "HCL"
+    topics:
+      - "aws"
+      - "devops"
+      - "infrastructure"
+      - "infrastructure-as-code"
+      - "terraform"
+    stars_fact: 1467
+    first_seen: null
+    last_push: "2024-06-14"
+  - name: "deputies"
+    title: "deputies"
+    description: "Engineering agents for delegated work."
+    language: "TypeScript"
+    topics:
+      - "agents"
+      - "ai"
+      - "control-plane"
+      - "development"
+    stars_fact: 108
+    first_seen: null
+    last_push: "2026-08-04"
+  - name: "devops-directive"
+    title: "devops-directive"
+    description: "Code samples from the DevOps Directive YouTube channel"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 354
+    first_seen: null
+    last_push: "2023-02-07"
 ---
 
 # sidpalas

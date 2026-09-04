@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "379642deb53f3714"
-pushes_per_week: [33, 13, 36, 22, 5, 18, 17, 12, 1, 5, 2, 3, 0]
+pushes_per_week: [28, 9, 44, 15, 6, 16, 19, 10, 1, 6, 1, 3, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 11
+    pushes: 10
     distinct_repos: 2
-    active_days: 7
+    active_days: 6
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 167
+    pushes: 158
     distinct_repos: 10
-    active_days: 52
+    active_days: 51
     repos_not_owned: 6
     not_owned_basenames: 6
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 3.2115
-  repo_per_active_day: 0.1923
+  push_per_day: 3.0980
+  repo_per_active_day: 0.1961
   not_owned_ratio: 0.6000
   basename_concentration: 0.1000
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 11
+    pushes: 10
     distinct_repos: 2
-    pushes_per_repo: 5.5000
-    active_days: 7
+    pushes_per_repo: 5.0000
+    active_days: 6
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 167
+    pushes: 158
     distinct_repos: 10
-    pushes_per_repo: 16.7000
-    active_days: 52
+    pushes_per_repo: 15.8000
+    active_days: 51
     repos_not_owned: 6
     not_owned_basenames: 6
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 52 active days in 90d — pass"
+  - "activity: 51 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "antoinekm"
@@ -129,6 +129,6 @@ repos:
 
 # antoinekm
 
-167 pushes across 10 repositories on 52 active days in the last 90 days of public GitHub push activity.
+158 pushes across 10 repositories on 51 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/antoinekm

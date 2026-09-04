@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [14, 7, 7, 9, 4, 5, 2, 0, 2, 2, 1, 0, 0]
+pushes_per_week: [12, 10, 6, 8, 4, 4, 2, 0, 2, 2, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 53
-    distinct_repos: 19
+    pushes: 51
+    distinct_repos: 18
     active_days: 30
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.7667
-  repo_per_active_day: 0.6333
+  push_per_day: 1.7000
+  repo_per_active_day: 0.6000
   not_owned_ratio: 0.0000
-  basename_concentration: 0.0526
+  basename_concentration: 0.0556
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,9 +65,9 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 53
-    distinct_repos: 19
-    pushes_per_repo: 2.7895
+    pushes: 51
+    distinct_repos: 18
+    pushes_per_repo: 2.8333
     active_days: 30
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -154,6 +154,6 @@ repos:
 
 # koriyoshi2041
 
-53 pushes across 19 repositories on 30 active days in the last 90 days of public GitHub push activity.
+51 pushes across 18 repositories on 30 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/koriyoshi2041

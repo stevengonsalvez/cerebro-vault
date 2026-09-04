@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "4138778ebbc75ba6"
-pushes_per_week: [24, 18, 4, 17, 10, 1, 5, 3, 2, 0, 5, 2, 2]
+pushes_per_week: [12, 15, 10, 11, 10, 1, 5, 4, 1, 4, 1, 2, 2]
 windows:
   "7d":
     pushes: 2
@@ -22,14 +22,14 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 10
-    distinct_repos: 6
-    active_days: 6
+    pushes: 9
+    distinct_repos: 5
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 93
+    pushes: 78
     distinct_repos: 17
     active_days: 34
     repos_not_owned: 0
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.7353
+  push_per_day: 2.2941
   repo_per_active_day: 0.5000
   not_owned_ratio: 0.0000
   basename_concentration: 0.0588
@@ -57,17 +57,17 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 10
-    distinct_repos: 6
-    pushes_per_repo: 1.6667
-    active_days: 6
+    pushes: 9
+    distinct_repos: 5
+    pushes_per_repo: 1.8000
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 93
+    pushes: 78
     distinct_repos: 17
-    pushes_per_repo: 5.4706
+    pushes_per_repo: 4.5882
     active_days: 34
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -129,6 +129,6 @@ repos:
 
 # djalmajr
 
-93 pushes across 17 repositories on 34 active days in the last 90 days of public GitHub push activity.
+78 pushes across 17 repositories on 34 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/djalmajr

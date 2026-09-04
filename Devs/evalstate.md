@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "48dbbdd8fd0d3029"
-pushes_per_week: [30, 26, 21, 23, 12, 13, 17, 19, 9, 7, 1, 3, 2]
+pushes_per_week: [25, 31, 16, 24, 11, 14, 21, 14, 10, 5, 1, 4, 1]
 windows:
   "7d":
     pushes: 2
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 3
     not_owned_owners: 2
   "90d":
-    pushes: 183
+    pushes: 177
     distinct_repos: 24
-    active_days: 63
+    active_days: 62
     repos_not_owned: 17
     not_owned_basenames: 13
     not_owned_owners: 9
 automation:
   state: "clear"
-  push_per_day: 2.9048
-  repo_per_active_day: 0.3810
+  push_per_day: 2.8548
+  repo_per_active_day: 0.3871
   not_owned_ratio: 0.7083
   basename_concentration: 0.1667
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 3
     not_owned_owners: 2
   "90d":
-    pushes: 183
+    pushes: 177
     distinct_repos: 24
-    pushes_per_repo: 7.6250
-    active_days: 63
+    pushes_per_repo: 7.3750
+    active_days: 62
     repos_not_owned: 17
     not_owned_basenames: 13
     not_owned_owners: 9
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 63 active days in 90d — pass"
+  - "activity: 62 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "fast-agent"
@@ -141,6 +141,6 @@ repos:
 
 # evalstate
 
-183 pushes across 24 repositories on 63 active days in the last 90 days of public GitHub push activity.
+177 pushes across 24 repositories on 62 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/evalstate

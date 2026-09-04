@@ -8,11 +8,11 @@ provenance_repos:
   - "alirezarezvani/claude-skills"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+repos_populated: true
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "3cb7ff1cdcf97c6b"
-pushes_per_week: [2, 0, 0, 4, 0, 0, 24, 29, 2, 3, 0, 0, 0]
+pushes_per_week: [2, 0, 0, 4, 0, 3, 30, 20, 2, 3, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,115 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 15 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "vaddisrinivas"
+    title: "vaddisrinivas"
+    description: "Srinivas — LLM skills & plugins"
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-03"
+  - name: "framecraft"
+    title: "framecraft"
+    description: "Claude skill + MCP config for demo video creation. Stitches playwright, ffmpeg, and edge-tts together. Not a framework — a recipe."
+    language: "Python"
+    topics: []
+    stars_fact: 8
+    first_seen: null
+    last_push: "2026-07-28"
+  - name: "meanwhile"
+    title: "meanwhile"
+    description: "Side quests from your AI: a restrained skill plus static catalogue."
+    language: "HTML"
+    topics:
+      - "agent-skills"
+      - "ai-agents"
+      - "claude-code"
+      - "claude-code-plugin"
+      - "codex"
+      - "cursor"
+      - "gemini-cli"
+      - "gemini-cli-extension"
+      - "github-copilot"
+      - "github-pages"
+      - "opencode"
+      - "productivity"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-08-13"
+  - name: "utopia"
+    title: "utopia"
+    description: "Local-first package runtime for personal, family, group, and small-company apps"
+    language: "TypeScript"
+    topics:
+      - "ai-agents"
+      - "app-factory"
+      - "app-platform"
+      - "cross-platform"
+      - "expo"
+      - "json-renderer"
+      - "local-first"
+      - "low-code"
+      - "mobile-app"
+      - "no-code"
+      - "offline-first"
+      - "openai"
+      - "package-runtime"
+      - "personal-os"
+      - "personal-software"
+      - "react-native"
+      - "self-hosted"
+      - "sqlite"
+      - "typescript"
+      - "workflow-automation"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-08-31"
+  - name: "codecks"
+    title: "codecks"
+    description: "A local-first Android command deck, trackpad, and automation surface for Mac."
+    language: "Kotlin"
+    topics:
+      - "android"
+      - "android-app"
+      - "automation"
+      - "bluetooth-hid"
+      - "command-deck"
+      - "foss"
+      - "jetpack-compose"
+      - "kotlin"
+      - "local-first"
+      - "macos"
+      - "productivity"
+      - "samsung-dex"
+      - "ssh"
+      - "trackpad"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-01"
+  - name: "gtabs"
+    title: "gtabs"
+    description: "AI-Powered Tab Organizer for Chrome — groups your tabs using any LLM"
+    language: "TypeScript"
+    topics:
+      - "ai-tools"
+      - "browser-extension"
+      - "chrome-ai"
+      - "chrome-extension"
+      - "claude-code"
+      - "extensions-chrome"
+      - "free"
+      - "gemini"
+      - "llm"
+      - "ollama"
+      - "productivity"
+      - "tab-management"
+      - "tab-manager"
+      - "tab-organizer"
+    stars_fact: 18
+    first_seen: null
+    last_push: "2026-07-08"
 ---
 
 # vaddisrinivas

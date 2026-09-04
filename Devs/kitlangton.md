@@ -9,13 +9,13 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [38, 1, 58, 50, 53, 34, 40, 27, 28, 71, 17, 10, 14]
+pushes_per_week: [21, 1, 70, 48, 46, 41, 34, 37, 14, 83, 6, 20, 3]
 windows:
   "7d":
-    pushes: 14
+    pushes: 8
     distinct_repos: 2
     active_days: 3
     repos_not_owned: 2
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 4
     not_owned_owners: 1
   "90d":
-    pushes: 441
+    pushes: 424
     distinct_repos: 23
-    active_days: 65
+    active_days: 64
     repos_not_owned: 6
     not_owned_basenames: 6
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 6.7846
-  repo_per_active_day: 0.3538
+  push_per_day: 6.6250
+  repo_per_active_day: 0.3594
   not_owned_ratio: 0.2609
   basename_concentration: 0.0870
   shapes: []
@@ -49,9 +49,9 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 14
+    pushes: 8
     distinct_repos: 2
-    pushes_per_repo: 7.0000
+    pushes_per_repo: 4.0000
     active_days: 3
     repos_not_owned: 2
     not_owned_basenames: 2
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 4
     not_owned_owners: 1
   "90d":
-    pushes: 441
+    pushes: 424
     distinct_repos: 23
-    pushes_per_repo: 19.1739
-    active_days: 65
+    pushes_per_repo: 18.4348
+    active_days: 64
     repos_not_owned: 6
     not_owned_basenames: 6
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 65 active days in 90d — pass"
+  - "activity: 64 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "ghui"
@@ -135,6 +135,6 @@ repos:
 
 # kitlangton
 
-441 pushes across 23 repositories on 65 active days in the last 90 days of public GitHub push activity.
+424 pushes across 23 repositories on 64 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/kitlangton

@@ -8,11 +8,11 @@ provenance_repos:
   - "virgiliojr94/book-to-skill"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+repos_populated: true
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "16a73b8e53c5832a"
-pushes_per_week: [3, 7, 6, 1, 1, 0, 1, 4, 2, 4, 2, 1, 0]
+pushes_per_week: [3, 10, 3, 1, 1, 0, 1, 4, 2, 4, 2, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 9
-    distinct_repos: 2
-    active_days: 7
+    pushes: 7
+    distinct_repos: 1
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 9
-    distinct_repos: 2
-    pushes_per_repo: 4.5000
-    active_days: 7
+    pushes: 7
+    distinct_repos: 1
+    pushes_per_repo: 7.0000
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -76,7 +76,72 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 21 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "book-to-skill"
+    title: "book-to-skill"
+    description: "Turn any technical book PDF into a Claude Code skill — ready to study, reference, and use while you work."
+    language: "Python"
+    topics:
+      - "agent-skills"
+      - "ai-agents"
+      - "book-to-skill"
+      - "context-engineering"
+      - "document-processing"
+      - "edtech"
+      - "knowledge-base"
+      - "knowledge-management"
+      - "llm"
+      - "pdf-to-markdown"
+      - "rag"
+      - "self-study"
+      - "study-tools"
+    stars_fact: 28350
+    first_seen: "2026-08-15T06:00:05.480011+00:00"
+    last_push: "2026-09-01"
+  - name: "book-to-skill-use-cases"
+    title: "book-to-skill-use-cases"
+    description: "Community use cases for book-to-skill — one line here, the full account in the author's own Gist. No generated skills, no book content."
+    language: null
+    topics:
+      - "agent-skills"
+      - "book-to-skill"
+      - "showcase"
+      - "use-cases"
+    stars_fact: 11
+    first_seen: null
+    last_push: "2026-08-13"
+  - name: "virgiliojr94"
+    title: "virgiliojr94"
+    description: "my profile README"
+    language: null
+    topics: []
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-09-03"
+  - name: "x-to-skill"
+    title: "x-to-skill"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 10
+    first_seen: null
+    last_push: "2026-08-27"
+  - name: "opencode-zen-bench"
+    title: "opencode-zen-bench"
+    description: "Objective smoke test for free LLM models via OpenCode — fixed prompts, deterministic gates, clean-room judging"
+    language: "Shell"
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-06-28"
+  - name: "localpdf.io"
+    title: "localpdf.io"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 267
+    first_seen: null
+    last_push: "2026-05-11"
 ---
 
 # virgiliojr94

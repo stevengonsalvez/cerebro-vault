@@ -8,11 +8,11 @@ provenance_repos:
   - "affaan-m/ECC"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+repos_populated: true
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "edb3a626875732de"
-pushes_per_week: [4, 0, 4, 8, 0, 0, 8, 47, 3, 4, 30, 0, 0]
+pushes_per_week: [4, 0, 10, 2, 0, 0, 11, 44, 5, 2, 30, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,73 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 20 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "Sync"
+    title: "Sync"
+    description: "Self-maintaining API integrations — watches the third-party APIs your code calls and opens CI-verified pull requests when one breaks, drifts, or wastes money."
+    language: "Python"
+    topics:
+      - "ai-agents"
+      - "api-monitoring"
+      - "breaking-changes"
+      - "codemod"
+      - "dependency-management"
+      - "developer-tools"
+      - "langgraph"
+      - "openapi"
+      - "python"
+      - "tree-sitter"
+    stars_fact: 5
+    first_seen: null
+    last_push: "2026-08-26"
+  - name: "telos"
+    title: "telos"
+    description: "The Code Sentinel — scan any codebase into a living architecture map."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 5
+    first_seen: null
+    last_push: "2026-07-27"
+  - name: "Arete"
+    title: "Arete"
+    description: "The Next Generation Autonomous Agentic Ecosystem"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-07-26"
+  - name: "Wavy-Labs-Code-Base-"
+    title: "Wavy-Labs-Code-Base-"
+    description: "Free, open-source AI-powered DAW forked from LMMS — Qt6/C++, GPL-2.0. Bring your own API keys."
+    language: "Python"
+    topics:
+      - "ai"
+      - "cpp"
+      - "daw"
+      - "lmms"
+      - "music"
+      - "music-production"
+      - "open-source"
+      - "qt6"
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-04-04"
+  - name: "Maestro"
+    title: "Maestro"
+    description: "Run parallel AI coding agents on Windows. Maestro is a desktop control room for orchestrating multiple Claude Code sessions at once — each isolated in its own git worktree so agents never step on each other's changes."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-06-09"
+  - name: "Cloud"
+    title: "Cloud"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-07-07"
 ---
 
 # stroland02

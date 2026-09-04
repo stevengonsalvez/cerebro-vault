@@ -8,11 +8,11 @@ provenance_repos:
   - "BigPizzaV3/CodexPlusPlus"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+repos_populated: true
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "90688bf127241ceb"
-pushes_per_week: [4, 5, 3, 0, 1, 1, 3, 1, 2, 2, 0, 0, 0]
+pushes_per_week: [4, 5, 3, 0, 1, 2, 2, 2, 1, 2, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 18 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "gpt-image-panel"
+    title: "gpt-image-panel"
+    description: "Self-hosted web panel for GPT-compatible image generation APIs — generate, edit, and manage your images in one place."
+    language: "Python"
+    topics: []
+    stars_fact: 98
+    first_seen: null
+    last_push: "2026-08-30"
+  - name: "gargantua"
+    title: "gargantua"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-08-17"
+  - name: "auto-monitor-ip"
+    title: "auto-monitor-ip"
+    description: "A simple script for monitoring dynamic ip."
+    language: "Shell"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-03"
+  - name: "NodeSeek-Rulings-Search"
+    title: "NodeSeek-Rulings-Search"
+    description: "🔍 专注于 NodeSeek 论坛管理记录（Ruling）的抓取与查询工具。支持 Telegram Bot 交互、自动定时抓取、精确/模糊搜索及操作详情自动翻译，内置 SQLite 存储与频率限制。"
+    language: "Python"
+    topics: []
+    stars_fact: 6
+    first_seen: null
+    last_push: "2026-04-19"
+  - name: "auto_download_from_drive"
+    title: "auto_download_from_drive"
+    description: "Watch mounted drives or rclone remotes and download only newly added files. Lightweight Linux daemon with systemd support."
+    language: "Python"
+    topics: []
+    stars_fact: 12
+    first_seen: null
+    last_push: "2026-06-18"
+  - name: "reading-helper"
+    title: "reading-helper"
+    description: "一个基于 Node.js + Express 的英语阅读助手。提供静态前端页面和轻量后端，支持多用户访问控制、文本上传与管理、提示词管理、多轮对话历史持久化，以及将 AI 请求以流式方式转发到各用户自己的上游模型服务。"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-04-25"
 ---
 
 # Z1rconium

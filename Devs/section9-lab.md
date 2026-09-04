@@ -9,8 +9,8 @@ provenance_repos:
   - "citrolabs/ego-lite"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+repos_populated: true
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "dbbcb182b33b2dd8"
 pushes_per_week: [7, 8, 2, 1, 0, 0, 1, 4, 1, 6, 0, 0, 0]
@@ -77,7 +77,72 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 19 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "section9-lab"
+    title: "section9-lab"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-01"
+  - name: "pi-work"
+    title: "pi-work"
+    description: "Your personal coding assistant for macOS"
+    language: "Swift"
+    topics:
+      - "agent"
+      - "agentic"
+      - "agents"
+      - "coding"
+      - "coding-agent"
+      - "office-assistant"
+      - "personal-assistant"
+      - "vibe-coding"
+      - "work"
+      - "workshop"
+    stars_fact: 5
+    first_seen: null
+    last_push: "2026-08-15"
+  - name: "vibe-hud"
+    title: "vibe-hud"
+    description: "A macOS notch overlay for Claude Code that keeps your sessions, approvals, replies, and updates within reach."
+    language: "Swift"
+    topics:
+      - "island"
+      - "macos"
+      - "vibecoding"
+    stars_fact: 5
+    first_seen: null
+    last_push: "2026-08-27"
+  - name: "SwiftHarnessAgent"
+    title: "SwiftHarnessAgent"
+    description: "A Swift agent runtime for embedding coding agents into macOS and iOS apps."
+    language: "Swift"
+    topics:
+      - "agentframework"
+      - "macos-package"
+      - "swift"
+      - "swift-package-manager"
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-05-10"
+  - name: "AppleSPUAccelerometer"
+    title: "AppleSPUAccelerometer"
+    description: "A Swift Package for reading the undocumented MEMS accelerometer (Bosch BMI286 IMU) on Apple Silicon MacBooks via IOKit HID."
+    language: "Swift"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-04-13"
+  - name: "Kara"
+    title: "Kara"
+    description: null
+    language: "Swift"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-06-25"
 ---
 
 # section9-lab

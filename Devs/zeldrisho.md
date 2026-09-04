@@ -8,11 +8,11 @@ provenance_repos:
   - "AlexsJones/llmfit"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+repos_populated: true
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [7, 14, 5, 5, 5, 0, 4, 3, 4, 10, 2, 11, 0]
+pushes_per_week: [7, 14, 5, 5, 4, 0, 4, 3, 4, 10, 2, 11, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 70
+    pushes: 69
     distinct_repos: 13
-    active_days: 39
+    active_days: 38
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.7949
-  repo_per_active_day: 0.3333
+  push_per_day: 1.8158
+  repo_per_active_day: 0.3421
   not_owned_ratio: 0.0000
   basename_concentration: 0.0769
   shapes: []
@@ -65,22 +65,38 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 70
+    pushes: 69
     distinct_repos: 13
-    pushes_per_repo: 5.3846
-    active_days: 39
+    pushes_per_repo: 5.3077
+    active_days: 38
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 39 active days in 90d — pass"
+  - "activity: 38 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "scoop-bucket"
+    title: "scoop-bucket"
+    description: "Yet another Scoop bucket"
+    language: "PowerShell"
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-09-04"
+  - name: "pi-packages"
+    title: "pi-packages"
+    description: "Monorepo for my personal Pi extensions."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-03"
 ---
 
 # zeldrisho
 
-70 pushes across 13 repositories on 39 active days in the last 90 days of public GitHub push activity.
+69 pushes across 13 repositories on 38 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/zeldrisho

@@ -8,11 +8,11 @@ provenance_repos:
   - "apache/maka"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+repos_populated: true
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [0, 1, 7, 0, 0, 0, 0, 0, 0, 0, 1, 2, 0]
+pushes_per_week: [1, 0, 7, 0, 0, 0, 0, 0, 0, 0, 1, 2, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,57 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "git-poet"
+    title: "git-poet"
+    description: "Turn your GitHub commit history into a stream of poetry with scheduled GitHub Actions."
+    language: null
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-09-04"
+  - name: "Ding"
+    title: "Ding"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-01"
+  - name: "somewan820.github.io"
+    title: "somewan820.github.io"
+    description: null
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-25"
+  - name: "somewan820"
+    title: "somewan820"
+    description: "Config files for my GitHub profile."
+    language: null
+    topics:
+      - "config"
+      - "github-config"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-17"
+  - name: "overnight-picker"
+    title: "overnight-picker"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-12"
+  - name: "PerpSense"
+    title: "PerpSense"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-09"
 ---
 
 # somewan820

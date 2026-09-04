@@ -11,12 +11,12 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "16389f32495280ea"
   - "541318303a272608"
   - "d1946b21c02e5fa5"
-pushes_per_week: [12, 22, 36, 46, 19, 10, 3, 2, 1, 0, 0, 0, 0]
+pushes_per_week: [20, 14, 68, 17, 17, 9, 1, 3, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -33,16 +33,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 151
+    pushes: 149
     distinct_repos: 11
-    active_days: 33
+    active_days: 32
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 4.5758
-  repo_per_active_day: 0.3333
+  push_per_day: 4.6562
+  repo_per_active_day: 0.3438
   not_owned_ratio: 0.0909
   basename_concentration: 0.1818
   shapes: []
@@ -69,16 +69,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 151
+    pushes: 149
     distinct_repos: 11
-    pushes_per_repo: 13.7273
-    active_days: 33
+    pushes_per_repo: 13.5455
+    active_days: 32
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 3 vault signal(s) — pass"
-  - "activity: 33 active days in 90d — pass"
+  - "activity: 32 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "ai-engineering-from-scratch-zh"
@@ -201,6 +201,6 @@ repos:
 
 # fancyboi999
 
-151 pushes across 11 repositories on 33 active days in the last 90 days of public GitHub push activity.
+149 pushes across 11 repositories on 32 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/fancyboi999

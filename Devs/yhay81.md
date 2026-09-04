@@ -8,11 +8,11 @@ provenance_repos:
   - "agavra/tuicr"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+repos_populated: true
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [1, 2, 5, 5, 40, 42, 51, 195, 21, 114, 0, 0, 0]
+pushes_per_week: [1, 2, 6, 4, 43, 41, 59, 190, 16, 114, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,90 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 46 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "yhay81"
+    title: "yhay81"
+    description: "GitHub public profile"
+    language: "Python"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-09-03"
+  - name: "gh-freshclone"
+    title: "gh-freshclone"
+    description: "Compile and prove the fastest trustworthy baseline for a GitHub repository."
+    language: "Python"
+    topics:
+      - "containers"
+      - "developer-tools"
+      - "github"
+      - "macos"
+      - "python"
+      - "testing"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-08-09"
+  - name: "sqrail"
+    title: "sqrail"
+    description: "A bounded SQL-on-files CLI for coding agents. SQL in, files out."
+    language: "C++"
+    topics:
+      - "ai-agents"
+      - "ai-tools"
+      - "cli"
+      - "command-line-tool"
+      - "cpp"
+      - "cpp20"
+      - "csv"
+      - "data-engineering"
+      - "data-processing"
+      - "developer-tools"
+      - "duckdb"
+      - "file-processing"
+      - "jsonl"
+      - "parquet"
+      - "sql"
+      - "sql-on-files"
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-09-03"
+  - name: "armbench-minilm"
+    title: "armbench-minilm"
+    description: "Reproducible FP32-to-INT8 MiniLM optimization benchmarks on native Arm64 runners"
+    language: "Python"
+    topics:
+      - "arm64"
+      - "benchmark"
+      - "minilm"
+      - "onnxruntime"
+      - "quantization"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-12"
+  - name: "homebrew-tap"
+    title: "homebrew-tap"
+    description: "Homebrew formulae for yhay81 projects"
+    language: "Ruby"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-09"
+  - name: "noopcheck"
+    title: "noopcheck"
+    description: "Checks whether a \"this is just a refactor\" change really changes nothing — and points at the exact files where it does"
+    language: "TypeScript"
+    topics:
+      - "ast"
+      - "cli"
+      - "code-review"
+      - "continuous-integration"
+      - "developer-tools"
+      - "git"
+      - "refactoring"
+      - "typescript"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-09"
 ---
 
 # yhay81

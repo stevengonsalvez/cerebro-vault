@@ -8,19 +8,19 @@ provenance_repos:
   - "anomalyco/opencode"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+repos_populated: true
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [101, 137, 78, 170, 88, 18, 11, 20, 8, 2, 11, 2, 7]
+pushes_per_week: [166, 77, 95, 173, 76, 7, 9, 21, 8, 2, 11, 4, 4]
 windows:
   "7d":
-    pushes: 7
-    distinct_repos: 2
+    pushes: 5
+    distinct_repos: 1
     active_days: 3
-    repos_not_owned: 2
+    repos_not_owned: 1
     not_owned_basenames: 1
-    not_owned_owners: 2
+    not_owned_owners: 1
   "30d":
     pushes: 27
     distinct_repos: 4
@@ -49,13 +49,13 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 7
-    distinct_repos: 2
-    pushes_per_repo: 3.5000
+    pushes: 5
+    distinct_repos: 1
+    pushes_per_repo: 5.0000
     active_days: 3
-    repos_not_owned: 2
+    repos_not_owned: 1
     not_owned_basenames: 1
-    not_owned_owners: 2
+    not_owned_owners: 1
   "30d":
     pushes: 27
     distinct_repos: 4
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 61 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "shiptalkers"
+    title: "shiptalkers"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 796
+    first_seen: null
+    last_push: "2026-02-12"
+  - name: "nextjs-mobile-app-template"
+    title: "nextjs-mobile-app-template"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 156
+    first_seen: null
+    last_push: "2026-03-16"
+  - name: "tenant-kit"
+    title: "tenant-kit"
+    description: "A collection of documentation, components, and resources for building multi-tenant applications."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 193
+    first_seen: null
+    last_push: "2025-03-20"
+  - name: "epstein-files-browser"
+    title: "epstein-files-browser"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 765
+    first_seen: null
+    last_push: "2025-12-20"
+  - name: "create-epoch-app"
+    title: "create-epoch-app"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 104
+    first_seen: null
+    last_push: "2026-01-11"
+  - name: "twitter-account-location-in-username"
+    title: "twitter-account-location-in-username"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 327
+    first_seen: null
+    last_push: "2025-11-23"
 ---
 
 # RhysSullivan

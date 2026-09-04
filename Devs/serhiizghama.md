@@ -8,11 +8,11 @@ provenance_repos:
   - "ChromeDevTools/chrome-devtools-mcp"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+repos_populated: true
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "379642deb53f3714"
-pushes_per_week: [5, 1, 0, 1, 1, 6, 1, 0, 1, 4, 0, 1, 0]
+pushes_per_week: [5, 1, 1, 0, 1, 6, 1, 0, 1, 4, 0, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,65 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 14 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "lesson-loop"
+    title: "lesson-loop"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-03"
+  - name: "serhiizghama"
+    title: "serhiizghama"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-02"
+  - name: "viber-mcp"
+    title: "viber-mcp"
+    description: "MCP server for Viber messenger (Rakuten Viber Bot API) — TypeScript"
+    language: "TypeScript"
+    topics:
+      - "bot"
+      - "chatbot"
+      - "claude"
+      - "llm"
+      - "mcp"
+      - "mcp-server"
+      - "messaging"
+      - "model-context-protocol"
+      - "typescript"
+      - "viber"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-29"
+  - name: "claudo-ii"
+    title: "claudo-ii"
+    description: "claudo-ii"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-29"
+  - name: "last-signal"
+    title: "last-signal"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-21"
+  - name: "astrodust"
+    title: "astrodust"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-11"
 ---
 
 # serhiizghama

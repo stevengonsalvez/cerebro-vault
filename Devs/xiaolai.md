@@ -8,11 +8,11 @@ provenance_repos:
   - "0xNyk/council-of-high-intelligence"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+repos_populated: true
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "635453fe3b6ecc12"
-pushes_per_week: [22, 32, 40, 50, 33, 26, 26, 25, 23, 28, 20, 6, 3]
+pushes_per_week: [24, 34, 40, 50, 34, 23, 27, 28, 19, 33, 13, 6, 3]
 windows:
   "7d":
     pushes: 3
@@ -22,7 +22,7 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 60
+    pushes: 59
     distinct_repos: 10
     active_days: 18
     repos_not_owned: 0
@@ -57,9 +57,9 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 60
+    pushes: 59
     distinct_repos: 10
-    pushes_per_repo: 6.0000
+    pushes_per_repo: 5.9000
     active_days: 18
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -76,7 +76,72 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 77 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "nlpm"
+    title: "nlpm"
+    description: "Natural-Language Programming Manager — scan, lint, and score NL artifacts with Claude-native quality scoring"
+    language: "HTML"
+    topics: []
+    stars_fact: 135
+    first_seen: null
+    last_push: "2026-09-04"
+  - name: "type-review"
+    title: "type-review"
+    description: "TYPE — adaptive typing practice that lives in your browser. Live at https://type.review"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 249
+    first_seen: null
+    last_push: "2026-05-21"
+  - name: "claude-octopus"
+    title: "claude-octopus"
+    description: "One brain, many arms — spawn multiple specialized Claude Code agents as MCP servers"
+    language: "TypeScript"
+    topics:
+      - "agent-sdk"
+      - "claude-agent-sdk"
+      - "claude-code"
+      - "mcp"
+      - "mcp-server"
+      - "model-context-protocol"
+    stars_fact: 19
+    first_seen: null
+    last_push: "2026-09-04"
+  - name: "codex-octopus"
+    title: "codex-octopus"
+    description: "One brain, many arms — spawn multiple specialized Codex agents as MCP servers"
+    language: "TypeScript"
+    topics:
+      - "codex"
+      - "codex-sdk"
+      - "mcp"
+      - "mcp-server"
+      - "model-context-protocol"
+      - "openai"
+    stars_fact: 19
+    first_seen: null
+    last_push: "2026-09-04"
+  - name: "claudepot-app"
+    title: "claudepot-app"
+    description: "A control panel for Claude Code and Claude Desktop."
+    language: "Rust"
+    topics:
+      - "ai"
+      - "claude"
+      - "tutorial"
+      - "vibe"
+      - "vibe-coding"
+    stars_fact: 118
+    first_seen: null
+    last_push: "2026-09-03"
+  - name: "cc-suite"
+    title: "cc-suite"
+    description: "One plugin to bridge and delegate across Claude Code, Codex CLI, and AGY CLI, etc. — single-source AGENTS.md, shared skills, mirrored hooks and MCP servers, and full Claude↔Codex bidirectional delegation."
+    language: "JavaScript"
+    topics: []
+    stars_fact: 44
+    first_seen: null
+    last_push: "2026-09-02"
 ---
 
 # xiaolai

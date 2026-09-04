@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "379642deb53f3714"
-pushes_per_week: [6, 9, 2, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0]
+pushes_per_week: [6, 8, 2, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 18
+    pushes: 17
     distinct_repos: 3
-    active_days: 8
+    active_days: 7
     repos_not_owned: 3
     not_owned_basenames: 2
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 2.2500
-  repo_per_active_day: 0.3750
+  push_per_day: 2.4286
+  repo_per_active_day: 0.4286
   not_owned_ratio: 1.0000
   basename_concentration: 0.6667
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 18
+    pushes: 17
     distinct_repos: 3
-    pushes_per_repo: 6.0000
-    active_days: 8
+    pushes_per_repo: 5.6667
+    active_days: 7
     repos_not_owned: 3
     not_owned_basenames: 2
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 8 active days in 90d — pass"
+  - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "kbd"
@@ -97,6 +97,6 @@ repos:
 
 # nroscino
 
-18 pushes across 3 repositories on 8 active days in the last 90 days of public GitHub push activity.
+17 pushes across 3 repositories on 7 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/nroscino

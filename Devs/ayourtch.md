@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "3eacb4655aba2497"
-pushes_per_week: [6, 5, 4, 7, 6, 9, 3, 14, 1, 41, 0, 1, 0]
+pushes_per_week: [4, 5, 4, 7, 6, 9, 3, 14, 4, 38, 0, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 43
+    pushes: 42
     distinct_repos: 5
-    active_days: 7
+    active_days: 6
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 2
   "90d":
-    pushes: 97
+    pushes: 95
     distinct_repos: 12
-    active_days: 40
+    active_days: 39
     repos_not_owned: 9
     not_owned_basenames: 9
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 2.4250
-  repo_per_active_day: 0.3000
+  push_per_day: 2.4359
+  repo_per_active_day: 0.3077
   not_owned_ratio: 0.7500
   basename_concentration: 0.0833
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 43
+    pushes: 42
     distinct_repos: 5
-    pushes_per_repo: 8.6000
-    active_days: 7
+    pushes_per_repo: 8.4000
+    active_days: 6
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 2
   "90d":
-    pushes: 97
+    pushes: 95
     distinct_repos: 12
-    pushes_per_repo: 8.0833
-    active_days: 40
+    pushes_per_repo: 7.9167
+    active_days: 39
     repos_not_owned: 9
     not_owned_basenames: 9
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 40 active days in 90d — pass"
+  - "activity: 39 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "nat46-kvm-test-harness"
@@ -129,6 +129,6 @@ repos:
 
 # ayourtch
 
-97 pushes across 12 repositories on 40 active days in the last 90 days of public GitHub push activity.
+95 pushes across 12 repositories on 39 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ayourtch

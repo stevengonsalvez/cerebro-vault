@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [156, 71, 125, 103, 52, 33, 40, 42, 23, 9, 4, 1, 0]
+pushes_per_week: [174, 48, 148, 85, 41, 42, 39, 39, 22, 5, 4, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 18
+    pushes: 17
     distinct_repos: 4
-    active_days: 10
+    active_days: 9
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 659
+    pushes: 648
     distinct_repos: 13
-    active_days: 68
+    active_days: 67
     repos_not_owned: 6
     not_owned_basenames: 5
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 9.6912
-  repo_per_active_day: 0.1912
+  push_per_day: 9.6716
+  repo_per_active_day: 0.1940
   not_owned_ratio: 0.4615
   basename_concentration: 0.1538
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 18
+    pushes: 17
     distinct_repos: 4
-    pushes_per_repo: 4.5000
-    active_days: 10
+    pushes_per_repo: 4.2500
+    active_days: 9
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 659
+    pushes: 648
     distinct_repos: 13
-    pushes_per_repo: 50.6923
-    active_days: 68
+    pushes_per_repo: 49.8462
+    active_days: 67
     repos_not_owned: 6
     not_owned_basenames: 5
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 68 active days in 90d — pass"
+  - "activity: 67 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "loreai"
@@ -132,6 +132,6 @@ repos:
 
 # BYK
 
-659 pushes across 13 repositories on 68 active days in the last 90 days of public GitHub push activity.
+648 pushes across 13 repositories on 67 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/BYK

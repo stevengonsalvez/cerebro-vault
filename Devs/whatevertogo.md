@@ -8,11 +8,11 @@ provenance_repos:
   - "AstrBotDevs/AstrBot"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+repos_populated: true
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [2, 3, 3, 19, 7, 1, 4, 4, 3, 1, 0, 0, 0]
+pushes_per_week: [2, 4, 3, 18, 7, 1, 4, 6, 1, 1, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 22 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "astrcode-pr-review-agent"
+    title: "astrcode-pr-review-agent"
+    description: "Astrcodey 的自动化 GitHub PR 审查插件"
+    language: "Rust"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-01"
+  - name: "astrcodey"
+    title: "astrcodey"
+    description: "一个开源的rust code agent，可扩展性非常强，与deepseek-harness架构同源并且比它早写两个月"
+    language: "Rust"
+    topics: []
+    stars_fact: 62
+    first_seen: null
+    last_push: "2026-09-03"
+  - name: "HexGridSystem"
+    title: "HexGridSystem"
+    description: null
+    language: "C#"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-08-26"
+  - name: "Unity-SaveSystem"
+    title: "Unity-SaveSystem"
+    description: null
+    language: "C#"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-26"
+  - name: "VFXSystem"
+    title: "VFXSystem"
+    description: null
+    language: "C#"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-26"
+  - name: "UnityUGUI-UISystem"
+    title: "UnityUGUI-UISystem"
+    description: null
+    language: "C#"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-08-26"
 ---
 
 # whatevertogo

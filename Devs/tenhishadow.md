@@ -8,11 +8,11 @@ provenance_repos:
   - "akitaonrails/ai-memory"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+repos_populated: true
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "4138778ebbc75ba6"
-pushes_per_week: [0, 0, 2, 2, 13, 2, 0, 0, 0, 1, 0, 3, 0]
+pushes_per_week: [0, 0, 4, 10, 3, 2, 0, 0, 0, 1, 0, 3, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,114 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 10 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "tenhishadow"
+    title: "tenhishadow"
+    description: null
+    language: null
+    topics:
+      - "devops"
+      - "devsecops"
+      - "github-profile"
+      - "gitops"
+      - "kubernetes"
+      - "platform-engineering"
+      - "profile-readme"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-03"
+  - name: "dotfiles"
+    title: "dotfiles"
+    description: "Arch Linux dotfiles and opt-in workstation automation with Ansible, go-task, uv, and Neovim"
+    language: null
+    topics:
+      - "ansible"
+      - "archlinux"
+      - "browser-policies"
+      - "cli-tools"
+      - "devops"
+      - "dotfiles"
+      - "go-task"
+      - "linux"
+      - "neovim"
+      - "systemd"
+      - "taskfile"
+      - "uv"
+      - "workstation"
+      - "workstation-automation"
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-09-04"
+  - name: "golden-microservice"
+    title: "golden-microservice"
+    description: "Minimal HTTP service for Docker and Kubernetes deployment testing"
+    language: "Python"
+    topics:
+      - "container"
+      - "docker"
+      - "ghcr"
+      - "healthcheck"
+      - "json-logging"
+      - "kubernetes"
+      - "microservice"
+      - "platform-engineering"
+      - "python"
+      - "smoke-testing"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-03"
+  - name: "mbkp"
+    title: "mbkp"
+    description: "Encrypted MikroTik backup automation over SSH"
+    language: "Shell"
+    topics:
+      - "backup"
+      - "bash"
+      - "cron"
+      - "encrypted-backup"
+      - "linux"
+      - "mikrotik"
+      - "network-automation"
+      - "openssl"
+      - "routeros"
+      - "shell-script"
+      - "ssh"
+    stars_fact: 26
+    first_seen: null
+    last_push: "2026-07-31"
+  - name: "github_actions_templates"
+    title: "github_actions_templates"
+    description: "Reusable GitHub Actions workflows for Taskfile, uv, and Python automation"
+    language: null
+    topics:
+      - "automation"
+      - "ci-cd"
+      - "devops"
+      - "github-actions"
+      - "go-task"
+      - "python"
+      - "reusable-workflows"
+      - "taskfile"
+      - "uv"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-01-22"
+  - name: "lvm_snapshot"
+    title: "lvm_snapshot"
+    description: "Manage lvm snapshots"
+    language: "Shell"
+    topics:
+      - "backup"
+      - "bash"
+      - "filesystem"
+      - "linux"
+      - "lvm"
+      - "lvm2"
+      - "shell-script"
+      - "snapshot"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2017-11-27"
 ---
 
 # tenhishadow

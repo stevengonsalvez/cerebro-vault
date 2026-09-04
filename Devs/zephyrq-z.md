@@ -8,11 +8,11 @@ provenance_repos:
   - "alibaba/open-code-review"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+repos_populated: true
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "c489e6fb5febf2ab"
-pushes_per_week: [1, 1, 5, 18, 0, 0, 0, 4, 0, 0, 0, 0, 0]
+pushes_per_week: [1, 1, 13, 10, 0, 0, 0, 4, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,47 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 11 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "jsonRs"
+    title: "jsonRs"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-06-27"
+  - name: "llm_test"
+    title: "llm_test"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-06-17"
+  - name: "fhash"
+    title: "fhash"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-06-15"
+  - name: "modelOutput-to-feishu"
+    title: "modelOutput-to-feishu"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-05-11"
+  - name: "DocuCoder"
+    title: "DocuCoder"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-05-20"
 ---
 
 # zephyrq-z

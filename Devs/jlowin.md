@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "2bd11e9b6557176e"
-pushes_per_week: [2, 0, 12, 7, 21, 0, 83, 30, 1, 0, 0, 1, 0]
+pushes_per_week: [0, 1, 11, 7, 21, 12, 77, 24, 1, 0, 0, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 157
+    pushes: 155
     distinct_repos: 8
-    active_days: 24
+    active_days: 23
     repos_not_owned: 7
     not_owned_basenames: 1
     not_owned_owners: 7
 automation:
   state: "clear"
-  push_per_day: 6.5417
-  repo_per_active_day: 0.3333
+  push_per_day: 6.7391
+  repo_per_active_day: 0.3478
   not_owned_ratio: 0.8750
   basename_concentration: 0.8750
   shapes:
@@ -81,16 +81,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 157
+    pushes: 155
     distinct_repos: 8
-    pushes_per_repo: 19.6250
-    active_days: 24
+    pushes_per_repo: 19.3750
+    active_days: 23
     repos_not_owned: 7
     not_owned_basenames: 1
     not_owned_owners: 7
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 24 active days in 90d — pass"
+  - "activity: 23 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "copychat"
@@ -153,6 +153,6 @@ repos:
 
 # jlowin
 
-157 pushes across 8 repositories on 24 active days in the last 90 days of public GitHub push activity.
+155 pushes across 8 repositories on 23 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/jlowin

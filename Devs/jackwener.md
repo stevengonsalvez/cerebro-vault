@@ -10,10 +10,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [9, 46, 140, 29, 28, 12, 23, 9, 14, 53, 0, 15, 0]
+pushes_per_week: [12, 68, 117, 39, 13, 14, 22, 11, 11, 53, 0, 15, 0]
 windows:
   "7d":
     pushes: 0
@@ -30,22 +30,22 @@ windows:
     not_owned_basenames: 3
     not_owned_owners: 9
   "90d":
-    pushes: 378
-    distinct_repos: 33
-    active_days: 51
-    repos_not_owned: 28
+    pushes: 375
+    distinct_repos: 32
+    active_days: 50
+    repos_not_owned: 27
     not_owned_basenames: 4
-    not_owned_owners: 26
+    not_owned_owners: 25
 automation:
   state: "clear"
-  push_per_day: 7.4118
-  repo_per_active_day: 0.6471
-  not_owned_ratio: 0.8485
-  basename_concentration: 0.7273
+  push_per_day: 7.5000
+  repo_per_active_day: 0.6400
+  not_owned_ratio: 0.8438
+  basename_concentration: 0.7188
   shapes:
     - "fork_farm_own_upstream"
   shape_evidence:
-    - "basename concentration 0.7273 (24 of 33 repos share one basename), 28 not owned across 4 basenames — 5 of 5 sampled repos resolved; 5 fork an upstream this account owns; upstreams: jackwener/OpenCLI"
+    - "basename concentration 0.7188 (23 of 32 repos share one basename), 27 not owned across 4 basenames — 5 of 5 sampled repos resolved; 5 fork an upstream this account owns; upstreams: jackwener/OpenCLI"
   cleared_by: "e01-builder"
   cleared_on: "2026-08-26"
   fork_provenance:
@@ -82,16 +82,16 @@ facets:
     not_owned_basenames: 3
     not_owned_owners: 9
   "90d":
-    pushes: 378
-    distinct_repos: 33
-    pushes_per_repo: 11.4545
-    active_days: 51
-    repos_not_owned: 28
+    pushes: 375
+    distinct_repos: 32
+    pushes_per_repo: 11.7188
+    active_days: 50
+    repos_not_owned: 27
     not_owned_basenames: 4
-    not_owned_owners: 26
+    not_owned_owners: 25
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 51 active days in 90d — pass"
+  - "activity: 50 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "OpenCLI"
@@ -158,6 +158,6 @@ repos:
 
 # jackwener
 
-378 pushes across 33 repositories on 51 active days in the last 90 days of public GitHub push activity.
+375 pushes across 32 repositories on 50 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/jackwener

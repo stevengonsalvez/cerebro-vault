@@ -8,11 +8,11 @@ provenance_repos:
   - "AstrBotDevs/AstrBot"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+repos_populated: true
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [4, 4, 24, 16, 5, 2, 0, 2, 2, 1, 0, 0, 0]
+pushes_per_week: [5, 4, 27, 12, 5, 2, 0, 2, 2, 1, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 28 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "astrbot_plugin_palette"
+    title: "astrbot_plugin_palette"
+    description: "AstrBot调色盘是一个 AstrBot WebUI 美化插件"
+    language: "Python"
+    topics: []
+    stars_fact: 46
+    first_seen: null
+    last_push: "2026-09-02"
+  - name: "astrbot_plugin_AstrNa"
+    title: "astrbot_plugin_AstrNa"
+    description: "AstrNa是一款AstrBot优化插件"
+    language: "Python"
+    topics: []
+    stars_fact: 70
+    first_seen: null
+    last_push: "2026-09-02"
+  - name: "astrbot_plugin_period"
+    title: "astrbot_plugin_period"
+    description: "为 AstrBot 设计的生理周期模拟插件，让女性人格 Bot 拥有真实的身体感知。低侵入式提示词注入，支持四阶段周期计算、全局默认值、会话级权限控制和 UMO 白名单过滤。"
+    language: "Python"
+    topics: []
+    stars_fact: 37
+    first_seen: null
+    last_push: "2026-08-14"
+  - name: "astrbot_plugin_AstrI"
+    title: "astrbot_plugin_AstrI"
+    description: "AstrBot赤石科技"
+    language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-08-23"
+  - name: "astrbot_plugin_wuer"
+    title: "astrbot_plugin_wuer"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-08-19"
+  - name: "astrbot_plugin_what_to_eat"
+    title: "astrbot_plugin_what_to_eat"
+    description: "是啊，吃什么"
+    language: "Python"
+    topics: []
+    stars_fact: 39
+    first_seen: null
+    last_push: "2026-04-26"
 ---
 
 # Sisyphbaous-DT-Project

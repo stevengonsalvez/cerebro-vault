@@ -8,11 +8,11 @@ provenance_repos:
   - "anomalyco/opencode"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+repos_populated: true
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [0, 14, 0, 0, 0, 0, 5, 1, 2, 0, 0, 0, 0]
+pushes_per_week: [7, 7, 0, 0, 0, 0, 5, 1, 2, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,63 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 10 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "subtask2"
+    title: "subtask2"
+    description: "A stronger opencode /command handler"
+    language: "TypeScript"
+    topics:
+      - "opencode"
+      - "plugin"
+      - "slash-command"
+      - "subtask"
+    stars_fact: 251
+    first_seen: null
+    last_push: "2026-01-31"
+  - name: "pocket-universe"
+    title: "pocket-universe"
+    description: "Agentic closed loop with async capabilities"
+    language: "TypeScript"
+    topics:
+      - "communication"
+      - "opencode"
+      - "plugin"
+      - "subagent"
+    stars_fact: 50
+    first_seen: null
+    last_push: "2026-01-28"
+  - name: "hunkle"
+    title: "hunkle"
+    description: null
+    language: "Rust"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-08-22"
+  - name: "skills"
+    title: "skills"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-07-11"
+  - name: "crosstalk"
+    title: "crosstalk"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-06-15"
+  - name: "aa"
+    title: "aa"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-03-17"
 ---
 
 # spoons-and-mirrors

@@ -8,11 +8,11 @@ provenance_repos:
   - "chopratejas/headroom"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+repos_populated: true
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "73468cde177ddae6"
-pushes_per_week: [0, 0, 0, 1, 9, 8, 7, 4, 6, 0, 0, 3, 0]
+pushes_per_week: [0, 0, 0, 1, 9, 10, 5, 4, 6, 0, 2, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 4
-    distinct_repos: 4
-    active_days: 3
+    pushes: 3
+    distinct_repos: 3
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 4
-    distinct_repos: 4
+    pushes: 3
+    distinct_repos: 3
     pushes_per_repo: 1.0000
-    active_days: 3
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 17 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "mikrotik-zed"
+    title: "mikrotik-zed"
+    description: "Zed editor extension for MikroTik RouterOS Script (RSC) — syntax highlighting, autocompletion, and hover documentation"
+    language: "Rust"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-21"
+  - name: "mikrotik-rsc-grammar"
+    title: "mikrotik-rsc-grammar"
+    description: "Tree-sitter grammar for MikroTik RouterOS Script (RSC) language"
+    language: "C"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-21"
+  - name: "vue-docsets"
+    title: "vue-docsets"
+    description: "Vue Docsets: vuex, vue-router, quasar."
+    language: "HTML"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2023-01-05"
+  - name: "phoenix-elixir-dokku"
+    title: "phoenix-elixir-dokku"
+    description: null
+    language: "Elixir"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2023-01-06"
+  - name: "opencl_embedded_tests"
+    title: "opencl_embedded_tests"
+    description: null
+    language: "C++"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2019-12-24"
+  - name: "dircnt"
+    title: "dircnt"
+    description: null
+    language: "C"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2019-03-05"
 ---
 
 # rNoz

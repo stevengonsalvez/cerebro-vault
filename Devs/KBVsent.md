@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [9, 1, 4, 3, 0, 9, 4, 2, 2, 1, 2, 1, 0]
+pushes_per_week: [8, 0, 4, 3, 0, 10, 5, 0, 2, 2, 2, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,7 +29,7 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 38
+    pushes: 36
     distinct_repos: 4
     active_days: 23
     repos_not_owned: 0
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.6522
+  push_per_day: 1.5652
   repo_per_active_day: 0.1739
   not_owned_ratio: 0.0000
   basename_concentration: 0.2500
@@ -65,9 +65,9 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 38
+    pushes: 36
     distinct_repos: 4
-    pushes_per_repo: 9.5000
+    pushes_per_repo: 9.0000
     active_days: 23
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -129,6 +129,6 @@ repos:
 
 # KBVsent
 
-38 pushes across 4 repositories on 23 active days in the last 90 days of public GitHub push activity.
+36 pushes across 4 repositories on 23 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/KBVsent

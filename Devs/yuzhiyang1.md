@@ -8,8 +8,8 @@ provenance_repos:
   - "apache/maka"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+repos_populated: true
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "4d1450729e6ff44d"
 pushes_per_week: [0, 0, 0, 0, 2, 2, 0, 2, 0, 0, 0, 0, 0]
@@ -76,7 +76,65 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "AI-ME"
+    title: "AI-ME"
+    description: "AI-ME：开发中的个人工作驾驶舱，用 LLM 作为大脑调度 Codex / Claude Code 等 AI 员工。"
+    language: "Python"
+    topics:
+      - "agent"
+      - "ai"
+      - "claude-code"
+      - "codex"
+      - "personal-workspace"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-27"
+  - name: "whysignal"
+    title: "whysignal"
+    description: "Evidence-first BTC market signal investigation agent powered by Semantica."
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-25"
+  - name: "floatnote"
+    title: "floatnote"
+    description: "A transparent always-on-top Markdown scratchpad for Windows, built with Tauri, React, and TypeScript."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-13"
+  - name: "pressure-lens"
+    title: "pressure-lens"
+    description: "A local-first Windows cognitive workload visualizer powered by Rust, Tauri, and WebGL."
+    language: "Rust"
+    topics:
+      - "productivity"
+      - "rust"
+      - "tauri"
+      - "webgl"
+      - "windows"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-07-29"
+  - name: "pyagent"
+    title: "pyagent"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-07-27"
+  - name: "proofgate-okx-asp"
+    title: "proofgate-okx-asp"
+    description: "Evidence-first delivery audit MCP service for OKX.AI agents"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-07-14"
 ---
 
 # yuzhiyang1

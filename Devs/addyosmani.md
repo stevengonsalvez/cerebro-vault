@@ -10,10 +10,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "dae9f02535f7c22f"
-pushes_per_week: [7, 6, 11, 2, 2, 7, 0, 1, 2, 2, 0, 0, 1]
+pushes_per_week: [6, 9, 8, 2, 6, 3, 0, 1, 2, 2, 0, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -30,7 +30,7 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 41
+    pushes: 40
     distinct_repos: 8
     active_days: 24
     repos_not_owned: 2
@@ -38,7 +38,7 @@ windows:
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 1.7083
+  push_per_day: 1.6667
   repo_per_active_day: 0.3333
   not_owned_ratio: 0.2500
   basename_concentration: 0.1250
@@ -66,9 +66,9 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 41
+    pushes: 40
     distinct_repos: 8
-    pushes_per_repo: 5.1250
+    pushes_per_repo: 5.0000
     active_days: 24
     repos_not_owned: 2
     not_owned_basenames: 2
@@ -155,6 +155,6 @@ repos:
 
 # addyosmani
 
-41 pushes across 8 repositories on 24 active days in the last 90 days of public GitHub push activity.
+40 pushes across 8 repositories on 24 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/addyosmani

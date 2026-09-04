@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "16389f32495280ea"
-pushes_per_week: [4, 11, 2, 9, 20, 30, 41, 7, 7, 8, 4, 1, 2]
+pushes_per_week: [3, 11, 1, 10, 22, 35, 34, 6, 7, 9, 3, 2, 1]
 windows:
   "7d":
-    pushes: 2
+    pushes: 1
     distinct_repos: 1
-    active_days: 2
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 19
+    pushes: 16
     distinct_repos: 1
     active_days: 10
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 146
+    pushes: 144
     distinct_repos: 1
-    active_days: 47
+    active_days: 46
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 3.1064
-  repo_per_active_day: 0.0213
+  push_per_day: 3.1304
+  repo_per_active_day: 0.0217
   not_owned_ratio: 0.0000
   basename_concentration: 1.0000
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
+    pushes: 1
     distinct_repos: 1
-    pushes_per_repo: 2.0000
-    active_days: 2
+    pushes_per_repo: 1.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 19
+    pushes: 16
     distinct_repos: 1
-    pushes_per_repo: 19.0000
+    pushes_per_repo: 16.0000
     active_days: 10
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 146
+    pushes: 144
     distinct_repos: 1
-    pushes_per_repo: 146.0000
-    active_days: 47
+    pushes_per_repo: 144.0000
+    active_days: 46
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 47 active days in 90d — pass"
+  - "activity: 46 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "termcanvas"
@@ -171,6 +171,6 @@ repos:
 
 # blueberrycongee
 
-146 pushes across 1 repository on 47 active days in the last 90 days of public GitHub push activity.
+144 pushes across 1 repository on 46 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/blueberrycongee

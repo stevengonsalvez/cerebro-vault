@@ -8,8 +8,8 @@ provenance_repos:
   - "anomalyco/opencode"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+repos_populated: true
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "ffccace0ba14fd15"
 pushes_per_week: [0, 1, 1, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0]
@@ -76,7 +76,59 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "dotfiles"
+    title: "dotfiles"
+    description: "dotfiles: neovim, nix, fish, kitty, starship"
+    language: "Lua"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-27"
+  - name: "docfs"
+    title: "docfs"
+    description: "Mount any docs site publishing llms.txt / llms-full.txt as a read-only filesystem"
+    language: "Rust"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-06"
+  - name: "ghfs"
+    title: "ghfs"
+    description: "a FUSE file system that lazily and automatically downloads github repos for agent context"
+    language: "Rust"
+    topics: []
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-08-01"
+  - name: "docs-starter"
+    title: "docs-starter"
+    description: null
+    language: "MDX"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-07-22"
+  - name: "stockfish-trainer"
+    title: "stockfish-trainer"
+    description: "faster rewrite of stockfish's nnue-pytorch focusing on multinode & distributed training"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-05-03"
+  - name: "portfolio"
+    title: "portfolio"
+    description: "A website to show off my projects and my blog."
+    language: "Astro"
+    topics:
+      - "astro"
+      - "solidjs"
+      - "tailwindcss"
+      - "unocss"
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-04-23"
 ---
 
 # rgodha24

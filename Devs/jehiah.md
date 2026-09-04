@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "8311cfc3055f8fea"
-pushes_per_week: [6, 22, 9, 5, 1, 4, 3, 5, 4, 2, 0, 1, 0]
+pushes_per_week: [9, 19, 8, 5, 1, 5, 3, 5, 3, 2, 0, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 6
-    distinct_repos: 4
-    active_days: 4
+    pushes: 3
+    distinct_repos: 3
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 62
+    pushes: 61
     distinct_repos: 7
-    active_days: 33
+    active_days: 32
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.8788
-  repo_per_active_day: 0.2121
+  push_per_day: 1.9062
+  repo_per_active_day: 0.2188
   not_owned_ratio: 0.2857
   basename_concentration: 0.1429
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 6
-    distinct_repos: 4
-    pushes_per_repo: 1.5000
-    active_days: 4
+    pushes: 3
+    distinct_repos: 3
+    pushes_per_repo: 1.0000
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 62
+    pushes: 61
     distinct_repos: 7
-    pushes_per_repo: 8.8571
-    active_days: 33
+    pushes_per_repo: 8.7143
+    active_days: 32
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 33 active days in 90d — pass"
+  - "activity: 32 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "nyc_legislation"
@@ -141,6 +141,6 @@ repos:
 
 # jehiah
 
-62 pushes across 7 repositories on 33 active days in the last 90 days of public GitHub push activity.
+61 pushes across 7 repositories on 32 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/jehiah

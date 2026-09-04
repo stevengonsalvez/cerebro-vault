@@ -8,11 +8,11 @@ provenance_repos:
   - "bytedance/deer-flow"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+repos_populated: true
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "16389f32495280ea"
-pushes_per_week: [2, 0, 4, 6, 1, 3, 0, 0, 1, 1, 0, 0, 0]
+pushes_per_week: [2, 0, 4, 6, 2, 2, 0, 0, 1, 1, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 2
-    distinct_repos: 2
-    active_days: 2
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 2
-    distinct_repos: 2
+    pushes: 1
+    distinct_repos: 1
     pushes_per_repo: 1.0000
-    active_days: 2
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -76,7 +76,41 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 14 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "whhe"
+    title: "whhe"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-19"
+  - name: "code-review-bot"
+    title: "code-review-bot"
+    description: "Extensible AI code review bot with pluggable coding agents, review skills, and Git platform adapters (GitLab & GitHub)."
+    language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-08-05"
+  - name: "ai-workshop"
+    title: "ai-workshop"
+    description: "My coding configurations and skills."
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-03"
+  - name: "docker-images-downloader"
+    title: "docker-images-downloader"
+    description: "Use GitHub Action to cache Docker image files."
+    language: null
+    topics:
+      - "docker-hub"
+      - "docker-image"
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-08-13"
 ---
 
 # whhe

@@ -8,11 +8,11 @@ provenance_repos:
   - "addyosmani/agent-skills"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+repos_populated: true
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "dae9f02535f7c22f"
-pushes_per_week: [5, 1, 2, 11, 5, 5, 4, 0, 1, 3, 0, 0, 0]
+pushes_per_week: [6, 0, 2, 11, 5, 5, 4, 0, 1, 3, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,64 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 19 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "shihyuho"
+    title: "shihyuho"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-04"
+  - name: "skills"
+    title: "skills"
+    description: "Shihyu's curated collection of agent skills."
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-03"
+  - name: "opencode-command-inject"
+    title: "opencode-command-inject"
+    description: "Turn your project commands, loaded skills into ready-to-run OpenCode commands."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 6
+    first_seen: null
+    last_push: "2026-08-19"
+  - name: "pangu.skill"
+    title: "pangu.skill"
+    description: "An agent skill that brings paranoid text spacing (盤古之白) for AI coding agents."
+    language: "JavaScript"
+    topics:
+      - "agent-skills"
+      - "ai-agents"
+      - "antigravity"
+      - "cjk"
+      - "claude-code"
+      - "codex"
+      - "opencode"
+      - "pangu"
+      - "text-spacing"
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-08-28"
+  - name: "berth"
+    title: "berth"
+    description: "Keep your Dock where it belongs."
+    language: "Swift"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-08-21"
+  - name: "homebrew-tap"
+    title: "homebrew-tap"
+    description: "Shihyu's homebrew tap"
+    language: "Ruby"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-21"
 ---
 
 # shihyuho

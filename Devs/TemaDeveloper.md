@@ -8,11 +8,11 @@ provenance_repos:
   - "alirezarezvani/claude-skills"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+repos_populated: true
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "3cb7ff1cdcf97c6b"
-pushes_per_week: [13, 6, 20, 6, 3, 0, 0, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [11, 7, 19, 6, 3, 0, 0, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 48
+    pushes: 46
     distinct_repos: 1
-    active_days: 13
+    active_days: 11
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 3.6923
-  repo_per_active_day: 0.0769
+  push_per_day: 4.1818
+  repo_per_active_day: 0.0909
   not_owned_ratio: 0.0000
   basename_concentration: 1.0000
   shapes: []
@@ -65,22 +65,89 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 48
+    pushes: 46
     distinct_repos: 1
-    pushes_per_repo: 48.0000
-    active_days: 13
+    pushes_per_repo: 46.0000
+    active_days: 11
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 13 active days in 90d — pass"
+  - "activity: 11 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "personal_planner"
+    title: "personal_planner"
+    description: "Free, open-source personal planner -- track gym, work, habits, finances, study & more. Self-hostable. No subscription."
+    language: "TypeScript"
+    topics:
+      - "ai"
+      - "framer-motion"
+      - "goal-tracker"
+      - "habit-tracker"
+      - "journal"
+      - "mistral"
+      - "mongodb"
+      - "nextauth"
+      - "nextjs"
+      - "open-source"
+      - "personal-finance"
+      - "personalization"
+      - "planner"
+      - "productivity"
+      - "react"
+      - "self-hosted"
+      - "tailwindcss"
+      - "typescript"
+      - "vercel"
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-08-25"
+  - name: "surveys_app_project"
+    title: "surveys_app_project"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2024-09-05"
+  - name: "spectra"
+    title: "spectra"
+    description: null
+    language: "Makefile"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2024-10-24"
+  - name: "assignment4"
+    title: "assignment4"
+    description: null
+    language: "EJS"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2025-07-03"
+  - name: "A5_ARTEMII"
+    title: "A5_ARTEMII"
+    description: null
+    language: "CSS"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2025-07-16"
+  - name: "chat_application"
+    title: "chat_application"
+    description: null
+    language: "Dart"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2025-08-16"
 ---
 
 # TemaDeveloper
 
-48 pushes across 1 repository on 13 active days in the last 90 days of public GitHub push activity.
+46 pushes across 1 repository on 11 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/TemaDeveloper

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [5, 0, 2, 1, 0, 10, 51, 3, 0, 7, 0, 0, 0]
+pushes_per_week: [0, 0, 2, 1, 0, 21, 41, 2, 0, 7, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 79
-    distinct_repos: 9
-    active_days: 17
-    repos_not_owned: 4
-    not_owned_basenames: 4
-    not_owned_owners: 4
+    pushes: 74
+    distinct_repos: 8
+    active_days: 15
+    repos_not_owned: 3
+    not_owned_basenames: 3
+    not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 4.6471
-  repo_per_active_day: 0.5294
-  not_owned_ratio: 0.4444
-  basename_concentration: 0.1111
+  push_per_day: 4.9333
+  repo_per_active_day: 0.5333
+  not_owned_ratio: 0.3750
+  basename_concentration: 0.1250
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 79
-    distinct_repos: 9
-    pushes_per_repo: 8.7778
-    active_days: 17
-    repos_not_owned: 4
-    not_owned_basenames: 4
-    not_owned_owners: 4
+    pushes: 74
+    distinct_repos: 8
+    pushes_per_repo: 9.2500
+    active_days: 15
+    repos_not_owned: 3
+    not_owned_basenames: 3
+    not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 17 active days in 90d — pass"
+  - "activity: 15 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "maatheusgois-dd"
@@ -129,6 +129,6 @@ repos:
 
 # maatheusgois-dd
 
-79 pushes across 9 repositories on 17 active days in the last 90 days of public GitHub push activity.
+74 pushes across 8 repositories on 15 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/maatheusgois-dd

@@ -8,11 +8,11 @@ provenance_repos:
   - "AlexsJones/llmfit"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+repos_populated: true
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [1, 0, 0, 1, 1, 0, 0, 11, 5, 13, 0, 0, 4]
+pushes_per_week: [1, 0, 0, 1, 1, 0, 1, 10, 5, 13, 0, 0, 4]
 windows:
   "7d":
     pushes: 4
@@ -76,7 +76,83 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 17 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "agentic-synth"
+    title: "agentic-synth"
+    description: null
+    language: "C++"
+    topics: []
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-09-02"
+  - name: "crusade-rts"
+    title: "crusade-rts"
+    description: "Crusade — a polished 2D isometric RTS engine & in-game map editor in Godot 4.4 (SC2-style look). Pure-GDScript, headless-tested cores. Fork it to build your own RTS."
+    language: "GDScript"
+    topics:
+      - "game-development"
+      - "game-engine"
+      - "gamedev"
+      - "gdscript"
+      - "godot"
+      - "godot4"
+      - "isometric"
+      - "real-time-strategy"
+      - "rts"
+      - "tilemap"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-07-26"
+  - name: "homebrew-tap"
+    title: "homebrew-tap"
+    description: "Homebrew tap for Shipmates CLI"
+    language: "Ruby"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-01"
+  - name: "shipmates"
+    title: "shipmates"
+    description: "A crew of specialist AI agents and command workflows that drive a GitHub issue to a reviewed, CI-green pull request autonomously. Multi-harness."
+    language: "HTML"
+    topics:
+      - "agent-orchestration"
+      - "agentic"
+      - "agents"
+      - "ai-agents"
+      - "anthropic"
+      - "automation"
+      - "claude"
+      - "claude-ai"
+      - "claude-code"
+      - "cli"
+      - "coding-assistant"
+      - "developer-tools"
+      - "llm"
+      - "multi-agent"
+      - "productivity"
+      - "slash-commands"
+      - "subagents"
+      - "workflow-automation"
+    stars_fact: 7
+    first_seen: null
+    last_push: "2026-09-02"
+  - name: "saman-mb"
+    title: "saman-mb"
+    description: "Profile README"
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-29"
+  - name: "mac-studio-m5-analysis"
+    title: "mac-studio-m5-analysis"
+    description: null
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-30"
 ---
 
 # saman-mb

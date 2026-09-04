@@ -8,11 +8,11 @@ provenance_repos:
   - "AstrBotDevs/AstrBot"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+repos_populated: true
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [23, 16, 4, 15, 12, 1, 3, 0, 0, 8, 3, 0, 0]
+pushes_per_week: [25, 14, 5, 15, 10, 1, 3, 0, 2, 7, 2, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 85
+    pushes: 84
     distinct_repos: 20
-    active_days: 31
+    active_days: 30
     repos_not_owned: 5
     not_owned_basenames: 4
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 2.7419
-  repo_per_active_day: 0.6452
+  push_per_day: 2.8000
+  repo_per_active_day: 0.6667
   not_owned_ratio: 0.2500
   basename_concentration: 0.1500
   shapes: []
@@ -65,22 +65,70 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 85
+    pushes: 84
     distinct_repos: 20
-    pushes_per_repo: 4.2500
-    active_days: 31
+    pushes_per_repo: 4.2000
+    active_days: 30
     repos_not_owned: 5
     not_owned_basenames: 4
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 31 active days in 90d — pass"
+  - "activity: 30 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "remove-duplicate-files"
+    title: "remove-duplicate-files"
+    description: "A safe and efficient PowerShell utility for finding and removing duplicate files"
+    language: "PowerShell"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-03"
+  - name: "auto-aur-update"
+    title: "auto-aur-update"
+    description: "auto-aur-update"
+    language: "Shell"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-03"
+  - name: "PixelTerm-C"
+    title: "PixelTerm-C"
+    description: "A high-performance terminal image/video/book browser based on Chafa."
+    language: "C"
+    topics: []
+    stars_fact: 27
+    first_seen: null
+    last_push: "2026-09-02"
+  - name: "astrbot_plugin_agentmemory"
+    title: "astrbot_plugin_agentmemory"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 9
+    first_seen: null
+    last_push: "2026-05-25"
+  - name: "zimage-webui"
+    title: "zimage-webui"
+    description: null
+    language: "HTML"
+    topics: []
+    stars_fact: 5
+    first_seen: null
+    last_push: "2026-08-17"
+  - name: "astrbot_plugin_web_searcher_pro"
+    title: "astrbot_plugin_web_searcher_pro"
+    description: "基于SearXNG的高性能的Web搜索插件"
+    language: "Python"
+    topics: []
+    stars_fact: 19
+    first_seen: null
+    last_push: "2026-06-15"
 ---
 
 # zouyonghe
 
-85 pushes across 20 repositories on 31 active days in the last 90 days of public GitHub push activity.
+84 pushes across 20 repositories on 30 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/zouyonghe

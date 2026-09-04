@@ -8,11 +8,11 @@ provenance_repos:
   - "AlexsJones/llmfit"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+repos_populated: true
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [3, 3, 4, 2, 0, 2, 2, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [3, 5, 2, 2, 0, 3, 1, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,60 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 12 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "actions-runner"
+    title: "actions-runner"
+    description: null
+    language: "Dockerfile"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-03"
+  - name: "community-catalog"
+    title: "community-catalog"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-08-20"
+  - name: "artifacthub-catalog"
+    title: "artifacthub-catalog"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2025-02-23"
+  - name: "demo-catalog"
+    title: "demo-catalog"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2025-09-25"
+  - name: "esphome-paradox"
+    title: "esphome-paradox"
+    description: "ESPhome config for Paradox Alarm integration"
+    language: "C++"
+    topics:
+      - "alarm"
+      - "esphome"
+      - "home-assistant"
+      - "integration"
+      - "paradox"
+    stars_fact: 2
+    first_seen: null
+    last_push: "2022-01-18"
+  - name: "eric-demo"
+    title: "eric-demo"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2025-02-19"
 ---
 
 # tuxtof

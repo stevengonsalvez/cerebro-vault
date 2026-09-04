@@ -8,11 +8,11 @@ provenance_repos:
   - "BigPizzaV3/CodexPlusPlus"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+repos_populated: true
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "90688bf127241ceb"
-pushes_per_week: [7, 2, 5, 6, 2, 15, 20, 3, 0, 3, 0, 1, 0]
+pushes_per_week: [7, 2, 6, 6, 2, 18, 19, 0, 0, 3, 0, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,57 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 31 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "healing-planet"
+    title: "healing-planet"
+    description: "面向绿植爱好者的智能养植与绿植社区平台"
+    language: "Java"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-02"
+  - name: "re-bookmarks"
+    title: "re-bookmarks"
+    description: "智能整理浏览器书签插件"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 18
+    first_seen: null
+    last_push: "2026-08-11"
+  - name: "RepoGuardian"
+    title: "RepoGuardian"
+    description: "智能代码审查 Agent"
+    language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-08-29"
+  - name: "waangzh"
+    title: "waangzh"
+    description: "Config files for my GitHub profile."
+    language: null
+    topics:
+      - "config"
+      - "github-config"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-03"
+  - name: "FormulaLite"
+    title: "FormulaLite"
+    description: "轻量级公式识别模型"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-12"
+  - name: "Intelligent-Power-Inspection"
+    title: "Intelligent-Power-Inspection"
+    description: null
+    language: "Java"
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-08-09"
 ---
 
 # waangzh

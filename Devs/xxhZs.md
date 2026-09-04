@@ -8,11 +8,11 @@ provenance_repos:
   - "apache/maka"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+repos_populated: true
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [3, 3, 3, 17, 12, 6, 0, 0, 3, 2, 0, 2, 0]
+pushes_per_week: [4, 2, 3, 24, 6, 5, 0, 1, 2, 2, 0, 2, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,39 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 22 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "search_lun"
+    title: "search_lun"
+    description: "wip"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-04-05"
+  - name: "test_ai"
+    title: "test_ai"
+    description: "test_ai"
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-03-12"
+  - name: "AIScreenshotAssi"
+    title: "AIScreenshotAssi"
+    description: "(🚧 WIP)"
+    language: "Rust"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-03-02"
+  - name: "xxhZs"
+    title: "xxhZs"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2022-08-09"
 ---
 
 # xxhZs

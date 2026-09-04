@@ -8,11 +8,11 @@ provenance_repos:
   - "can1357/oh-my-pi"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+repos_populated: true
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [8, 24, 239, 81, 1, 6, 105, 69, 19, 10, 2, 3, 6]
+pushes_per_week: [9, 33, 243, 67, 1, 15, 98, 79, 7, 10, 2, 3, 6]
 windows:
   "7d":
     pushes: 6
@@ -76,7 +76,91 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 47 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "wolfppt-oss"
+    title: "wolfppt-oss"
+    description: "Loss-aware PowerPoint editing runtime with package preservation and verification. OpenXML-native text, table, chart, and notes edits with byte-level fidelity."
+    language: "Python"
+    topics:
+      - "openxml"
+      - "powerpoint"
+      - "pptx"
+      - "presentationml"
+      - "pyo3"
+      - "python"
+      - "rust"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-04"
+  - name: "agenttab"
+    title: "agenttab"
+    description: "Drive a real, logged-in Chrome profile from local scripts via a Native Messaging bridge — no remote-debugging popup. Agent-ready: navigation, tabs, waits, screenshots, extraction, input, forms, diagnostics."
+    language: "TypeScript"
+    topics:
+      - "agent"
+      - "browser-automation"
+      - "cdp"
+      - "chrome-devtools-protocol"
+      - "chrome-extension"
+      - "native-messaging"
+      - "python"
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-09-03"
+  - name: "omp-cua"
+    title: "omp-cua"
+    description: "Low-overhead Cua Driver integration for Oh My Pi"
+    language: "TypeScript"
+    topics:
+      - "computer-use"
+      - "cua"
+      - "desktop-automation"
+      - "mcp"
+      - "oh-my-pi"
+      - "omp"
+      - "typescript"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-03"
+  - name: "ompclaw"
+    title: "ompclaw"
+    description: "OmpClaw: authenticated remote access to one persistent Oh My Pi session"
+    language: "TypeScript"
+    topics:
+      - "ai-agent"
+      - "bun"
+      - "coding-agent"
+      - "oh-my-pi"
+      - "rpc"
+      - "telegram-bot"
+      - "typescript"
+      - "websocket"
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-09-03"
+  - name: "modeldb"
+    title: "modeldb"
+    description: "Provenance-backed AI model database and analytical observatory"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-03"
+  - name: "omp-episodic-memory"
+    title: "omp-episodic-memory"
+    description: "Hybrid semantic and keyword search over Oh My Pi session transcripts"
+    language: "TypeScript"
+    topics:
+      - "agent-transcr"
+      - "agentic-memory-system"
+      - "episodic-memory"
+      - "episodic-memory-ai"
+      - "oh-my-pi"
+      - "omp"
+      - "rag"
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-08-19"
 ---
 
 # wolfiesch

@@ -8,11 +8,11 @@ provenance_repos:
   - "agavra/tuicr"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+repos_populated: true
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [4, 4, 10, 5, 3, 1, 4, 3, 0, 0, 1, 0, 0]
+pushes_per_week: [4, 4, 14, 1, 3, 1, 4, 3, 0, 0, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,69 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 21 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "better-ghsa"
+    title: "better-ghsa"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-09-04"
+  - name: "runj"
+    title: "runj"
+    description: "runj is an experimental, proof-of-concept OCI-compatible runtime for FreeBSD jails."
+    language: "Go"
+    topics:
+      - "containers"
+      - "freebsd"
+      - "freebsd-jail"
+      - "jails"
+      - "oci"
+      - "open-containers"
+    stars_fact: 674
+    first_seen: null
+    last_push: "2026-09-02"
+  - name: "samuelkarp.com"
+    title: "samuelkarp.com"
+    description: "https://samuelkarp.com"
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-17"
+  - name: "go.sbk.wtf"
+    title: "go.sbk.wtf"
+    description: null
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-07-20"
+  - name: "ambient-glance"
+    title: "ambient-glance"
+    description: "An ambient information display based on a LD220-HP POS pole display"
+    language: "Go"
+    topics:
+      - "ads-b"
+      - "hardware"
+      - "serialport"
+      - "transit-data"
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-03-30"
+  - name: "purple-docker"
+    title: "purple-docker"
+    description: "purple-docker: A libpurple protocol plugin for your Docker containers"
+    language: "Go"
+    topics:
+      - "containers"
+      - "docker"
+      - "libpurple"
+      - "libpurple-plugin"
+    stars_fact: 44
+    first_seen: null
+    last_push: "2020-06-13"
 ---
 
 # samuelkarp

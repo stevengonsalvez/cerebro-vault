@@ -8,11 +8,11 @@ provenance_repos:
   - "AstrBotDevs/AstrBot"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+repos_populated: true
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [0, 2, 0, 0, 0, 1, 4, 2, 3, 1, 4, 0, 1]
+pushes_per_week: [0, 2, 0, 0, 0, 3, 2, 2, 3, 3, 2, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 13 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "MemeManager"
+    title: "MemeManager"
+    description: "一个表情包管理器 , 基于dotnet10 + WinUI3开发"
+    language: "C#"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-09-01"
+  - name: "shuiping233-blog"
+    title: "shuiping233-blog"
+    description: null
+    language: "Vue"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-10"
+  - name: "openwrt-system-monitor"
+    title: "openwrt-system-monitor"
+    description: "一个由 golang+ebpf+vue3+TailwindCSS4 编写的OpenWrt监控仪表板"
+    language: "Vue"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-06-16"
+  - name: "map-storage-cnb"
+    title: "map-storage-cnb"
+    description: "Storage RA2 Map file to cnb.cool repository , just like OSS"
+    language: "Go"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2025-12-12"
+  - name: "MFC-Edit-CtrlBackspace-Undo"
+    title: "MFC-Edit-CtrlBackspace-Undo"
+    description: "MFC Ctrl-Backspace delete test"
+    language: "C++"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2025-12-10"
+  - name: "test_repo"
+    title: "test_repo"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2025-11-30"
 ---
 
 # shuiping233

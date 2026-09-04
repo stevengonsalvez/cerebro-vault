@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "edb3a626875732de"
-pushes_per_week: [25, 0, 0, 38, 21, 8, 1, 3, 0, 0, 0, 0, 0]
+pushes_per_week: [20, 0, 0, 41, 19, 7, 1, 3, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 96
+    pushes: 91
     distinct_repos: 35
-    active_days: 23
+    active_days: 22
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 4.1739
-  repo_per_active_day: 1.5217
+  push_per_day: 4.1364
+  repo_per_active_day: 1.5909
   not_owned_ratio: 0.0857
   basename_concentration: 0.0286
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 96
+    pushes: 91
     distinct_repos: 35
-    pushes_per_repo: 2.7429
-    active_days: 23
+    pushes_per_repo: 2.6000
+    active_days: 22
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 23 active days in 90d — pass"
+  - "activity: 22 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "gaurav0107"
@@ -149,6 +149,6 @@ repos:
 
 # gaurav0107
 
-96 pushes across 35 repositories on 23 active days in the last 90 days of public GitHub push activity.
+91 pushes across 35 repositories on 22 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/gaurav0107

@@ -8,11 +8,11 @@ provenance_repos:
   - "antirez/ds4"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+repos_populated: true
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "3eacb4655aba2497"
-pushes_per_week: [2, 0, 0, 4, 0, 0, 10, 0, 0, 1, 1, 0, 0]
+pushes_per_week: [2, 0, 0, 4, 0, 0, 10, 0, 1, 1, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,97 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 9 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "apple-neural-engine-field-guide"
+    title: "apple-neural-engine-field-guide"
+    description: "Reverse-engineering field guide for Apple Neural Engine (ANE) — hardware constraints, IOSurface layout, MIL programming, and undocumented behavior."
+    language: "C++"
+    topics:
+      - "ane"
+      - "apple-neural-engine"
+      - "apple-silicon"
+      - "coreml"
+      - "documentation"
+      - "ios"
+      - "machine-learning"
+      - "macos"
+      - "neural-engine"
+      - "reverse-engineering"
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-04-25"
+  - name: "pi-boss"
+    title: "pi-boss"
+    description: "Spawn and manage sub-agents in visible tmux panes — the orchestrator that makes multi-agent boss mode work for pi coding agent."
+    language: "TypeScript"
+    topics:
+      - "ai-agent"
+      - "boss-mode"
+      - "multi-agent"
+      - "orchestration"
+      - "parallel-agents"
+      - "pi-coding-agent"
+      - "sub-agent"
+      - "tmux"
+      - "typescript"
+    stars_fact: 10
+    first_seen: null
+    last_push: "2026-04-25"
+  - name: "swagger-stripey"
+    title: "swagger-stripey"
+    description: "Stripe-style API docs from any OpenAPI spec. One HTML file. Zero dependencies. Beautiful, responsive, dark mode."
+    language: "HTML"
+    topics:
+      - "api-docs"
+      - "api-documentation"
+      - "developer-tools"
+      - "html"
+      - "openapi"
+      - "openapi-spec"
+      - "rest-api"
+      - "swagger"
+      - "swagger-ui"
+      - "zero-dependency"
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-04-25"
+  - name: "pi-projects"
+    title: "pi-projects"
+    description: "Self-contained project directories for the pi coding agent"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-08-07"
+  - name: "pi-vertex-anthropic"
+    title: "pi-vertex-anthropic"
+    description: "Pi coding agent extension for Claude via Google Cloud Vertex AI"
+    language: "TypeScript"
+    topics:
+      - "ai"
+      - "anthropic"
+      - "claude"
+      - "claude-code"
+      - "coding-agent"
+      - "extension"
+      - "gcp"
+      - "google-cloud"
+      - "llm"
+      - "pi"
+      - "pi-coding-agent"
+      - "typescript"
+      - "vertex-ai"
+    stars_fact: 7
+    first_seen: null
+    last_push: "2026-04-25"
+  - name: "skyfallsin.github.io"
+    title: "skyfallsin.github.io"
+    description: null
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-05"
 ---
 
 # skyfallsin

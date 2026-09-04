@@ -8,11 +8,11 @@ provenance_repos:
   - "THU-MAIC/OpenMAIC"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+repos_populated: true
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "ceaf2f7365569375"
-pushes_per_week: [17, 11, 28, 25, 15, 25, 10, 8, 9, 4, 5, 10, 0]
+pushes_per_week: [18, 10, 34, 22, 13, 31, 3, 8, 9, 6, 3, 10, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,31 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 56 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "TeachCraft"
+    title: "TeachCraft"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-01-05"
+  - name: "EduCraft"
+    title: "EduCraft"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 4
+    first_seen: null
+    last_push: "2025-05-24"
+  - name: "github-feishu-notify"
+    title: "github-feishu-notify"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-04-13"
 ---
 
 # wyuc

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [23, 54, 92, 57, 143, 74, 51, 90, 57, 49, 2, 25, 1]
+pushes_per_week: [22, 72, 76, 64, 139, 83, 54, 78, 54, 47, 2, 24, 1]
 windows:
   "7d":
     pushes: 1
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 8
     not_owned_owners: 3
   "90d":
-    pushes: 718
+    pushes: 716
     distinct_repos: 53
-    active_days: 75
+    active_days: 74
     repos_not_owned: 42
     not_owned_basenames: 41
     not_owned_owners: 4
 automation:
   state: "clear"
-  push_per_day: 9.5733
-  repo_per_active_day: 0.7067
+  push_per_day: 9.6757
+  repo_per_active_day: 0.7162
   not_owned_ratio: 0.7925
   basename_concentration: 0.0377
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 8
     not_owned_owners: 3
   "90d":
-    pushes: 718
+    pushes: 716
     distinct_repos: 53
-    pushes_per_repo: 13.5472
-    active_days: 75
+    pushes_per_repo: 13.5094
+    active_days: 74
     repos_not_owned: 42
     not_owned_basenames: 41
     not_owned_owners: 4
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 75 active days in 90d — pass"
+  - "activity: 74 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "s2replay"
@@ -129,6 +129,6 @@ repos:
 
 # paralin
 
-718 pushes across 53 repositories on 75 active days in the last 90 days of public GitHub push activity.
+716 pushes across 53 repositories on 74 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/paralin

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "379642deb53f3714"
-pushes_per_week: [16, 9, 17, 30, 0, 0, 3, 1, 8, 10, 1, 0, 3]
+pushes_per_week: [15, 6, 28, 19, 0, 0, 3, 2, 7, 11, 0, 1, 2]
 windows:
   "7d":
     pushes: 3
@@ -22,25 +22,25 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 19
+    pushes: 18
     distinct_repos: 5
     active_days: 8
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 98
-    distinct_repos: 23
-    active_days: 31
+    pushes: 94
+    distinct_repos: 22
+    active_days: 30
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 3.1613
-  repo_per_active_day: 0.7419
-  not_owned_ratio: 0.0435
-  basename_concentration: 0.0435
+  push_per_day: 3.1333
+  repo_per_active_day: 0.7333
+  not_owned_ratio: 0.0455
+  basename_concentration: 0.0455
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 19
+    pushes: 18
     distinct_repos: 5
-    pushes_per_repo: 3.8000
+    pushes_per_repo: 3.6000
     active_days: 8
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 98
-    distinct_repos: 23
-    pushes_per_repo: 4.2609
-    active_days: 31
+    pushes: 94
+    distinct_repos: 22
+    pushes_per_repo: 4.2727
+    active_days: 30
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 31 active days in 90d — pass"
+  - "activity: 30 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "Miniblog.Core"
@@ -129,6 +129,6 @@ repos:
 
 # madskristensen
 
-98 pushes across 23 repositories on 31 active days in the last 90 days of public GitHub push activity.
+94 pushes across 22 repositories on 30 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/madskristensen

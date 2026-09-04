@@ -8,11 +8,11 @@ provenance_repos:
   - "antirez/ds4"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+repos_populated: true
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "3eacb4655aba2497"
-pushes_per_week: [27, 38, 11, 3, 0, 1, 0, 0, 1, 0, 0, 1, 0]
+pushes_per_week: [34, 38, 4, 3, 0, 1, 0, 0, 1, 0, 0, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 19 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "glm-flash-exl3-tp4-switchless"
+    title: "glm-flash-exl3-tp4-switchless"
+    description: "A mashup of MiaAI's EXL3 TP=2, and AlexEllis's Switchless for GLM 5.3 Flash"
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-03"
+  - name: "hermes-nostr"
+    title: "hermes-nostr"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-26"
+  - name: "brain-scan"
+    title: "brain-scan"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-25"
+  - name: "nostrmix-bot"
+    title: "nostrmix-bot"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-01"
+  - name: "nostrbot-sdk"
+    title: "nostrbot-sdk"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-01"
+  - name: "ds4-kvcache-tui"
+    title: "ds4-kvcache-tui"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-01"
 ---
 
 # unsaltedbutter-ai

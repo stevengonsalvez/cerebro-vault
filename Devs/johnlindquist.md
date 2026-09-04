@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "8baedcc9c29d068b"
-pushes_per_week: [5, 1, 1, 5, 16, 12, 5, 0, 0, 0, 4, 1, 0]
+pushes_per_week: [4, 1, 4, 2, 18, 14, 1, 0, 0, 4, 0, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,7 +29,7 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 50
+    pushes: 49
     distinct_repos: 10
     active_days: 23
     repos_not_owned: 0
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.1739
+  push_per_day: 2.1304
   repo_per_active_day: 0.4348
   not_owned_ratio: 0.0000
   basename_concentration: 0.1000
@@ -65,9 +65,9 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 50
+    pushes: 49
     distinct_repos: 10
-    pushes_per_repo: 5.0000
+    pushes_per_repo: 4.9000
     active_days: 23
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -129,6 +129,6 @@ repos:
 
 # johnlindquist
 
-50 pushes across 10 repositories on 23 active days in the last 90 days of public GitHub push activity.
+49 pushes across 10 repositories on 23 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/johnlindquist

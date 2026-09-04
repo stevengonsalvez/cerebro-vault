@@ -8,11 +8,11 @@ provenance_repos:
   - "EveryInc/compound-engineering-plugin"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+repos_populated: true
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "47dca59f5e85d3b9"
-pushes_per_week: [129, 104, 154, 107, 91, 69, 61, 47, 23, 36, 47, 11, 0]
+pushes_per_week: [126, 101, 178, 75, 93, 76, 72, 35, 16, 42, 44, 7, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 98
-    distinct_repos: 13
+    pushes: 97
+    distinct_repos: 12
     active_days: 20
-    repos_not_owned: 10
+    repos_not_owned: 9
     not_owned_basenames: 4
-    not_owned_owners: 8
+    not_owned_owners: 7
   "90d":
-    pushes: 879
+    pushes: 865
     distinct_repos: 106
-    active_days: 74
+    active_days: 73
     repos_not_owned: 94
     not_owned_basenames: 5
     not_owned_owners: 87
 automation:
   state: "clear"
-  push_per_day: 11.8784
-  repo_per_active_day: 1.4324
+  push_per_day: 11.8493
+  repo_per_active_day: 1.4521
   not_owned_ratio: 0.8868
   basename_concentration: 0.5000
   shapes: []
@@ -57,30 +57,89 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 98
-    distinct_repos: 13
-    pushes_per_repo: 7.5385
+    pushes: 97
+    distinct_repos: 12
+    pushes_per_repo: 8.0833
     active_days: 20
-    repos_not_owned: 10
+    repos_not_owned: 9
     not_owned_basenames: 4
-    not_owned_owners: 8
+    not_owned_owners: 7
   "90d":
-    pushes: 879
+    pushes: 865
     distinct_repos: 106
-    pushes_per_repo: 8.2925
-    active_days: 74
+    pushes_per_repo: 8.1604
+    active_days: 73
     repos_not_owned: 94
     not_owned_basenames: 5
     not_owned_owners: 87
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 74 active days in 90d — pass"
+  - "activity: 73 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "illo-skill"
+    title: "illo-skill"
+    description: "illo skill — an AI agent skill that turns ideas and articles into original print-style editorial illustrations, starring a recurring mascot. 30+ characters packs, with ability to create your own."
+    language: "Python"
+    topics:
+      - "agent-skills"
+      - "claude-code"
+      - "illustration"
+      - "image-generation"
+      - "skill"
+    stars_fact: 371
+    first_seen: null
+    last_push: "2026-08-29"
+  - name: "ringdown-skill"
+    title: "ringdown-skill"
+    description: "Agent skill for Ringdown, a temporary two-agent pipe."
+    language: null
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-01"
+  - name: "agent-skills"
+    title: "agent-skills"
+    description: "Cross-platform AI agent skills (SKILL.md) installable via npx skills / gh skills"
+    language: null
+    topics: []
+    stars_fact: 64
+    first_seen: null
+    last_push: "2026-08-17"
+  - name: "hermes-kids-profile-blueprint"
+    title: "hermes-kids-profile-blueprint"
+    description: "Parent-operated starter kit for designing a private, child-facing Hermes Agent profile"
+    language: "Python"
+    topics:
+      - "ai-agents"
+      - "ai-safety"
+      - "child-safety"
+      - "education"
+      - "hermes-agent"
+      - "parenting"
+    stars_fact: 18
+    first_seen: null
+    last_push: "2026-08-29"
+  - name: "image-sprout"
+    title: "image-sprout"
+    description: "A local web app and CLI for generating consistent images from reusable project context, not one-off prompts."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 8
+    first_seen: null
+    last_push: "2026-05-02"
+  - name: "illo-characters"
+    title: "illo-characters"
+    description: "Community character packs for the illo editorial-illustration agent skill"
+    language: null
+    topics: []
+    stars_fact: 33
+    first_seen: null
+    last_push: "2026-08-01"
 ---
 
 # tmchow
 
-879 pushes across 106 repositories on 74 active days in the last 90 days of public GitHub push activity.
+865 pushes across 106 repositories on 73 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/tmchow

@@ -8,11 +8,11 @@ provenance_repos:
   - "anomalyco/opencode"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+repos_populated: true
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [38, 81, 143, 136, 48, 46, 44, 37, 24, 4, 12, 3, 2]
+pushes_per_week: [47, 93, 130, 140, 37, 56, 34, 36, 23, 4, 12, 3, 2]
 windows:
   "7d":
     pushes: 2
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 2
   "30d":
-    pushes: 29
-    distinct_repos: 10
-    active_days: 12
-    repos_not_owned: 9
-    not_owned_basenames: 9
+    pushes: 25
+    distinct_repos: 9
+    active_days: 10
+    repos_not_owned: 8
+    not_owned_basenames: 8
     not_owned_owners: 4
   "90d":
-    pushes: 618
+    pushes: 617
     distinct_repos: 43
-    active_days: 66
+    active_days: 65
     repos_not_owned: 26
     not_owned_basenames: 25
     not_owned_owners: 8
 automation:
   state: "clear"
-  push_per_day: 9.3636
-  repo_per_active_day: 0.6515
+  push_per_day: 9.4923
+  repo_per_active_day: 0.6615
   not_owned_ratio: 0.6047
   basename_concentration: 0.0698
   shapes: []
@@ -57,30 +57,50 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 2
   "30d":
-    pushes: 29
-    distinct_repos: 10
-    pushes_per_repo: 2.9000
-    active_days: 12
-    repos_not_owned: 9
-    not_owned_basenames: 9
+    pushes: 25
+    distinct_repos: 9
+    pushes_per_repo: 2.7778
+    active_days: 10
+    repos_not_owned: 8
+    not_owned_basenames: 8
     not_owned_owners: 4
   "90d":
-    pushes: 618
+    pushes: 617
     distinct_repos: 43
-    pushes_per_repo: 14.3721
-    active_days: 66
+    pushes_per_repo: 14.3488
+    active_days: 65
     repos_not_owned: 26
     not_owned_basenames: 25
     not_owned_owners: 8
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 66 active days in 90d — pass"
+  - "activity: 65 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "yordis"
+    title: "yordis"
+    description: "About me"
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-07-21"
+  - name: "postcss-google-font"
+    title: "postcss-google-font"
+    description: "PostCSS plugin for import Google fonts"
+    language: "JavaScript"
+    topics:
+      - "font"
+      - "google-fonts"
+      - "postcss"
+      - "postcss-google-font"
+    stars_fact: 5
+    first_seen: null
+    last_push: "2024-06-18"
 ---
 
 # yordis
 
-618 pushes across 43 repositories on 66 active days in the last 90 days of public GitHub push activity.
+617 pushes across 43 repositories on 65 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/yordis

@@ -8,11 +8,11 @@ provenance_repos:
   - "anomalyco/opencode"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+repos_populated: true
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [0, 0, 0, 3, 5, 1, 3, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [0, 0, 0, 4, 4, 1, 3, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,69 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 8 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "starptech.com"
+    title: "starptech.com"
+    description: "My personal website"
+    language: "CSS"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-04"
+  - name: "starptech"
+    title: "starptech"
+    description: "Personal GitHub Readme"
+    language: null
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-03"
+  - name: "branch-comparer"
+    title: "branch-comparer"
+    description: "Checkout multiple git branches, execute scripts and log the results"
+    language: "JavaScript"
+    topics:
+      - "checkout"
+      - "git"
+      - "nodejs"
+    stars_fact: 26
+    first_seen: null
+    last_push: "2022-12-07"
+  - name: "k-andy"
+    title: "k-andy"
+    description: "Low cost Kubernetes stack for startups, prototypes, and playgrounds on Hetzner Cloud."
+    language: "HCL"
+    topics:
+      - "kubernetes"
+    stars_fact: 156
+    first_seen: null
+    last_push: "2022-08-26"
+  - name: "go-web"
+    title: "go-web"
+    description: "Modern Web Application with Golang"
+    language: "Go"
+    topics:
+      - "custom-elements"
+      - "go"
+      - "gorm"
+      - "starter-kit"
+    stars_fact: 313
+    first_seen: null
+    last_push: "2023-04-30"
+  - name: "profiling-nodejs"
+    title: "profiling-nodejs"
+    description: "🌌 Collection of articles and tools to efficiently profile Node.js"
+    language: null
+    topics:
+      - "benchmarking"
+      - "flamegraphs"
+      - "monitoring"
+      - "nodejs"
+      - "profiling"
+      - "v8"
+    stars_fact: 165
+    first_seen: null
+    last_push: "2019-09-18"
 ---
 
 # StarpTech

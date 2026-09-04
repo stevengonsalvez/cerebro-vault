@@ -10,11 +10,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "48dbbdd8fd0d3029"
   - "de6bf05613f3ae04"
-pushes_per_week: [13, 6, 7, 15, 10, 12, 16, 7, 7, 7, 4, 3, 0]
+pushes_per_week: [11, 6, 10, 14, 9, 14, 15, 7, 5, 7, 4, 3, 0]
 windows:
   "7d":
     pushes: 0
@@ -31,18 +31,18 @@ windows:
     not_owned_basenames: 3
     not_owned_owners: 3
   "90d":
-    pushes: 107
-    distinct_repos: 41
+    pushes: 105
+    distinct_repos: 40
     active_days: 47
     repos_not_owned: 13
     not_owned_basenames: 11
     not_owned_owners: 5
 automation:
   state: "clear"
-  push_per_day: 2.2766
-  repo_per_active_day: 0.8723
-  not_owned_ratio: 0.3171
-  basename_concentration: 0.0732
+  push_per_day: 2.2340
+  repo_per_active_day: 0.8511
+  not_owned_ratio: 0.3250
+  basename_concentration: 0.0750
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -67,9 +67,9 @@ facets:
     not_owned_basenames: 3
     not_owned_owners: 3
   "90d":
-    pushes: 107
-    distinct_repos: 41
-    pushes_per_repo: 2.6098
+    pushes: 105
+    distinct_repos: 40
+    pushes_per_repo: 2.6250
     active_days: 47
     repos_not_owned: 13
     not_owned_basenames: 11
@@ -171,6 +171,6 @@ repos:
 
 # mrexodia
 
-107 pushes across 41 repositories on 47 active days in the last 90 days of public GitHub push activity.
+105 pushes across 40 repositories on 47 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/mrexodia

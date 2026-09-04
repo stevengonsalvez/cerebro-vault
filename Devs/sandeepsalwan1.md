@@ -8,11 +8,11 @@ provenance_repos:
   - "browser-use/browser-use"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+repos_populated: true
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "c1af6b58492f9bf4"
-pushes_per_week: [1, 0, 0, 0, 1, 5, 7, 20, 8, 0, 0, 0, 1]
+pushes_per_week: [1, 0, 0, 0, 1, 6, 12, 18, 4, 0, 0, 1, 0]
 windows:
   "7d":
     pushes: 1
@@ -76,7 +76,60 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 15 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "mac-setup"
+    title: "mac-setup"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-31"
+  - name: "saveFoster"
+    title: "saveFoster"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-06"
+  - name: "Vet"
+    title: "Vet"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-29"
+  - name: "lastpage"
+    title: "lastpage"
+    description: "Your PDFs remember where you stopped reading. Local-first resume and recent-close history."
+    language: "JavaScript"
+    topics:
+      - "local-first"
+      - "pdf-reader"
+      - "pdfjs"
+      - "privacy"
+      - "reading-progress"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-07"
+  - name: "sandeepsalwan1.github.io"
+    title: "sandeepsalwan1.github.io"
+    description: "Web"
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-05"
+  - name: "AgentHackathon"
+    title: "AgentHackathon"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-07-04"
 ---
 
 # sandeepsalwan1

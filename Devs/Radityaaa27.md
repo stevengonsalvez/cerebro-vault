@@ -8,8 +8,8 @@ provenance_repos:
   - "asamassekou10/ship-safe"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+repos_populated: true
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "9e2ff10d772b1e71"
 pushes_per_week: [0, 0, 2, 12, 1, 1, 1, 1, 0, 2, 0, 0, 0]
@@ -76,7 +76,47 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 10 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "fuzzy-adventure"
+    title: "fuzzy-adventure"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-01"
+  - name: "Radityaaa27"
+    title: "Radityaaa27"
+    description: "My Github Profile"
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-09"
+  - name: "my-portfolio"
+    title: "my-portfolio"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-09"
+  - name: "cosmos-explorer"
+    title: "cosmos-explorer"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-09"
+  - name: "Seapedia"
+    title: "Seapedia"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-07-16"
 ---
 
 # Radityaaa27

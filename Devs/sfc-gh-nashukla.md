@@ -8,11 +8,11 @@ provenance_repos:
   - "chopratejas/headroom"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+repos_populated: true
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "73468cde177ddae6"
-pushes_per_week: [9, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [8, 0, 3, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 14
+    pushes: 13
     distinct_repos: 4
-    active_days: 7
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.0000
-  repo_per_active_day: 0.5714
+  push_per_day: 2.1667
+  repo_per_active_day: 0.6667
   not_owned_ratio: 0.0000
   basename_concentration: 0.2500
   shapes: []
@@ -65,22 +65,46 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 14
+    pushes: 13
     distinct_repos: 4
-    pushes_per_repo: 3.5000
-    active_days: 7
+    pushes_per_repo: 3.2500
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 7 active days in 90d — pass"
+  - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "unifieddashboard"
+    title: "unifieddashboard"
+    description: "Unified Cortex REST API Dashboard - built and maintained by the Cortex REST API SE team"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-07-21"
+  - name: "sfguide-getting-started-turbovec-on-spcs"
+    title: "sfguide-getting-started-turbovec-on-spcs"
+    description: "Deploy TurboVec (data-oblivious vector index) on Snowpark Container Services — 8x compression, 96% recall, 63x faster search, multi-tenant filtered retrieval. Tested on 100K vectors from public Qdrant/DBpedia dataset."
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-06-12"
+  - name: "test1"
+    title: "test1"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-04-27"
 ---
 
 # sfc-gh-nashukla
 
-14 pushes across 4 repositories on 7 active days in the last 90 days of public GitHub push activity.
+13 pushes across 4 repositories on 6 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/sfc-gh-nashukla

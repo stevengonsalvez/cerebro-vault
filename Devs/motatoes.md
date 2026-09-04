@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "8311cfc3055f8fea"
-pushes_per_week: [11, 6, 8, 20, 9, 6, 3, 0, 7, 11, 2, 2, 0]
+pushes_per_week: [6, 5, 17, 11, 7, 8, 1, 0, 7, 11, 2, 2, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,25 +22,25 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 18
+    pushes: 16
     distinct_repos: 4
     active_days: 8
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 1
   "90d":
-    pushes: 85
-    distinct_repos: 14
-    active_days: 32
-    repos_not_owned: 9
-    not_owned_basenames: 9
+    pushes: 77
+    distinct_repos: 13
+    active_days: 30
+    repos_not_owned: 8
+    not_owned_basenames: 8
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.6562
-  repo_per_active_day: 0.4375
-  not_owned_ratio: 0.6429
-  basename_concentration: 0.0714
+  push_per_day: 2.5667
+  repo_per_active_day: 0.4333
+  not_owned_ratio: 0.6154
+  basename_concentration: 0.0769
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 18
+    pushes: 16
     distinct_repos: 4
-    pushes_per_repo: 4.5000
+    pushes_per_repo: 4.0000
     active_days: 8
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 1
   "90d":
-    pushes: 85
-    distinct_repos: 14
-    pushes_per_repo: 6.0714
-    active_days: 32
-    repos_not_owned: 9
-    not_owned_basenames: 9
+    pushes: 77
+    distinct_repos: 13
+    pushes_per_repo: 5.9231
+    active_days: 30
+    repos_not_owned: 8
+    not_owned_basenames: 8
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 32 active days in 90d — pass"
+  - "activity: 30 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "nslabs-test"
@@ -129,6 +129,6 @@ repos:
 
 # motatoes
 
-85 pushes across 14 repositories on 32 active days in the last 90 days of public GitHub push activity.
+77 pushes across 13 repositories on 30 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/motatoes

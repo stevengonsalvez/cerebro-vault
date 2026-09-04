@@ -8,11 +8,11 @@ provenance_repos:
   - "agentskills/agentskills"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+repos_populated: true
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "48dbbdd8fd0d3029"
-pushes_per_week: [25, 9, 6, 2, 0, 0, 0, 2, 0, 1, 0, 0, 0]
+pushes_per_week: [27, 8, 5, 2, 0, 0, 0, 2, 0, 1, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,68 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 20 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "voxxeddays2026-demo"
+    title: "voxxeddays2026-demo"
+    description: null
+    language: "Java"
+    topics: []
+    stars_fact: 35
+    first_seen: null
+    last_push: "2026-08-26"
+  - name: "vagrant-pivotalhd"
+    title: "vagrant-pivotalhd"
+    description: "Use Vagrant and Ambari Blueprint API to install PivotalHD 3.0 (or Hortonworks HDP2.x) Hadoop cluster with HAWQ 1.3 (SQL on Hadoop) and Spring XD 1.2"
+    language: "Shell"
+    topics: []
+    stars_fact: 22
+    first_seen: null
+    last_push: "2016-07-20"
+  - name: "playground-flight-booking"
+    title: "playground-flight-booking"
+    description: "Spring AI powered expert system demo"
+    language: "Java"
+    topics:
+      - "artificial-intelligence"
+      - "expert-system"
+      - "generative-ai"
+    stars_fact: 361
+    first_seen: null
+    last_push: "2026-02-14"
+  - name: "calcite-sql-rewriter"
+    title: "calcite-sql-rewriter"
+    description: "JDBC driver that converts any INSERT, UPDATE and DELETE statements into append-only INSERTs. Instead of updating rows in-place it inserts the new version of the row along with version metadata"
+    language: "Java"
+    topics: []
+    stars_fact: 83
+    first_seen: null
+    last_push: "2017-03-27"
+  - name: "mtcnn-java"
+    title: "mtcnn-java"
+    description: "Java MTCNN face detection using ND4J and trained TensorFlow models"
+    language: "Java"
+    topics:
+      - "face-detection"
+      - "java"
+      - "mtcnn"
+      - "nd4j"
+      - "spring-cloud-stream"
+      - "tensorflow"
+    stars_fact: 74
+    first_seen: null
+    last_push: "2018-11-26"
+  - name: "spring-ai-cli-chatbot"
+    title: "spring-ai-cli-chatbot"
+    description: "A command-line chatbot built with Spring AI that demonstrates Retrieval-Augmented Generation (RAG) and conversational memory capabilities."
+    language: "Java"
+    topics:
+      - "chatmemory"
+      - "rag"
+      - "spring-boot"
+      - "springai"
+    stars_fact: 66
+    first_seen: null
+    last_push: "2026-01-03"
 ---
 
 # tzolov

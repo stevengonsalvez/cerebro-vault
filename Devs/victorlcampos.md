@@ -8,8 +8,8 @@ provenance_repos:
   - "akitaonrails/ai-memory"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+repos_populated: true
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "4138778ebbc75ba6"
 pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 1, 0, 3, 5, 0, 0]
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "slop-games"
+    title: "slop-games"
+    description: "Jogos que rodam inteiros no navegador, cada um em um único arquivo HTML. Sem servidor, sem instalação."
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-27"
+  - name: "omarchy-slop-games"
+    title: "omarchy-slop-games"
+    description: "The slop-games catalog on your Omarchy bar: ten browser games, one HTML file each, each opening in its own window."
+    language: "QML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-22"
+  - name: "agents_mds"
+    title: "agents_mds"
+    description: "Architecture and best practices guides (agents.md) for Rails applications: Campfire, Fizzy, and V360"
+    language: null
+    topics: []
+    stars_fact: 7
+    first_seen: null
+    last_push: "2026-01-21"
+  - name: "aprenda_rails_da_maneira_facil"
+    title: "aprenda_rails_da_maneira_facil"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 61
+    first_seen: null
+    last_push: "2023-04-06"
+  - name: "gen_guardian"
+    title: "gen_guardian"
+    description: "Nice generators for Guardian"
+    language: "Elixir"
+    topics: []
+    stars_fact: 9
+    first_seen: null
+    last_push: "2016-02-14"
+  - name: "convitefacil"
+    title: "convitefacil"
+    description: null
+    language: "Ruby"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2025-08-07"
 ---
 
 # victorlcampos

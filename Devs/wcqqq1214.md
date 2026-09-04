@@ -8,11 +8,11 @@ provenance_repos:
   - "AstrBotDevs/AstrBot"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+repos_populated: true
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [0, 3, 11, 2, 10, 6, 0, 3, 4, 7, 1, 0, 0]
+pushes_per_week: [0, 3, 11, 7, 6, 5, 1, 2, 5, 6, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,70 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 25 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "wcqqq1214"
+    title: "wcqqq1214"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-02"
+  - name: "Undergraduate-Thesis"
+    title: "Undergraduate-Thesis"
+    description: "基于机器学习方法的水库滑坡位移预测及预警研究——以藕塘滑坡为例"
+    language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-06-01"
+  - name: "astrbot_plugin_openai_oauth"
+    title: "astrbot_plugin_openai_oauth"
+    description: "AstrBot 插件：ChatGPT 订阅 (Codex OAuth) 登录，作为模型 provider 使用账号订阅额度"
+    language: "Python"
+    topics:
+      - "astrbot"
+      - "astrbot-plugin"
+      - "chatgpt"
+      - "codex"
+      - "llm"
+      - "oauth"
+      - "openai"
+      - "provider"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-08-27"
+  - name: "gxu-score-script"
+    title: "gxu-score-script"
+    description: "广西大学成绩抓取脚本"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-30"
+  - name: "astrbot_plugin_aihot"
+    title: "astrbot_plugin_aihot"
+    description: "✨ AstrBot 插件：聚合 AI HOT 的 AI 行业动态、热点榜与 AI 日报，支持关键词搜索与每日定时推送"
+    language: "Python"
+    topics:
+      - "ai"
+      - "astrbot"
+      - "astrbot-plugin"
+      - "chatbot"
+      - "news"
+      - "python"
+      - "qqbot"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-10"
+  - name: "astrbot_plugin_finance_agents"
+    title: "astrbot_plugin_finance_agents"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-07"
 ---
 
 # wcqqq1214

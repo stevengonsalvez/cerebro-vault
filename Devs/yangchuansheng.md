@@ -8,11 +8,11 @@ provenance_repos:
   - "BigPizzaV3/CodexPlusPlus"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+repos_populated: true
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "90688bf127241ceb"
-pushes_per_week: [1, 24, 7, 70, 7, 8, 3, 3, 4, 14, 5, 1, 0]
+pushes_per_week: [2, 23, 31, 46, 7, 8, 4, 3, 3, 15, 4, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 21
+    pushes: 20
     distinct_repos: 8
-    active_days: 10
+    active_days: 9
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 21
+    pushes: 20
     distinct_repos: 8
-    pushes_per_repo: 2.6250
-    active_days: 10
+    pushes_per_repo: 2.5000
+    active_days: 9
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 39 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "auto-green"
+    title: "auto-green"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-04"
+  - name: "browser-harness-rust"
+    title: "browser-harness-rust"
+    description: "Self-healing browser harness that enables LLMs to complete any task. This is the Rust version."
+    language: "Rust"
+    topics: []
+    stars_fact: 9
+    first_seen: null
+    last_push: "2026-09-02"
+  - name: "anki-sync-server"
+    title: "anki-sync-server"
+    description: "Docker image for Anki built-in sync server(Rust)"
+    language: "Dockerfile"
+    topics: []
+    stars_fact: 75
+    first_seen: null
+    last_push: "2025-09-18"
+  - name: "ip_derper"
+    title: "ip_derper"
+    description: "无需域名的 derper"
+    language: "Dockerfile"
+    topics: []
+    stars_fact: 456
+    first_seen: null
+    last_push: "2025-02-16"
+  - name: "learnseo-zh"
+    title: "learnseo-zh"
+    description: null
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-28"
+  - name: "eaglerXserver"
+    title: "eaglerXserver"
+    description: null
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-03"
 ---
 
 # yangchuansheng

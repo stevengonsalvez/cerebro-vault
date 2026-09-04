@@ -8,11 +8,11 @@ provenance_repos:
   - "agavra/tuicr"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+repos_populated: true
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [14, 9, 13, 0, 4, 14, 2, 2, 0, 0, 1, 2, 0]
+pushes_per_week: [15, 14, 7, 0, 4, 14, 2, 2, 0, 0, 1, 2, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,61 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 20 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "yabai3"
+    title: "yabai3"
+    description: "i3 sanity layer for yabai"
+    language: "Shell"
+    topics: []
+    stars_fact: 22
+    first_seen: null
+    last_push: "2023-11-26"
+  - name: "GenesisZ"
+    title: "GenesisZ"
+    description: "Mine the Genesis Block for your Zcashy altcoin"
+    language: "Python"
+    topics:
+      - "bitcoin"
+      - "blockchain"
+      - "genesis"
+      - "mining"
+      - "solver"
+      - "zcash"
+    stars_fact: 28
+    first_seen: null
+    last_push: "2018-05-17"
+  - name: "sebastianst.github.io"
+    title: "sebastianst.github.io"
+    description: "Github Page of Sebastian Stammler"
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-01-30"
+  - name: "astronvim.cfg"
+    title: "astronvim.cfg"
+    description: "Seb's AstroNvim v4+ configuration"
+    language: "Lua"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2025-12-01"
+  - name: "UnsafeVolumeXposedMod"
+    title: "UnsafeVolumeXposedMod"
+    description: "Xposed mod to disables the Safe Media Volume Popup"
+    language: "Shell"
+    topics: []
+    stars_fact: 8
+    first_seen: null
+    last_push: "2013-06-24"
+  - name: "tbpurge"
+    title: "tbpurge"
+    description: ":put_litter_in_its_place: :gear: Purge Titanium Backup directory, only keeping newest backup(s) for each app"
+    language: "Python"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2019-07-06"
 ---
 
 # sebastianst

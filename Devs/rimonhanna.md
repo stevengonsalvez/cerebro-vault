@@ -8,8 +8,8 @@ provenance_repos:
   - "ayghri/i-have-adhd"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+repos_populated: true
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "46f3c1d6124190bd"
 pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 0, 1, 2]
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "Spindle"
+    title: "Spindle"
+    description: "Spindle — a self-hostable vinyl app that identifies the record playing by listening, logs it, scrobbles to Last.fm, and recommends what to spin next. Source-available (PolyForm Noncommercial)."
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-24"
+  - name: "Spotify-To-Youtube"
+    title: "Spotify-To-Youtube"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 67
+    first_seen: null
+    last_push: "2024-07-06"
+  - name: "sf-package-version-update-action"
+    title: "sf-package-version-update-action"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-04-10"
+  - name: "rimonhanna"
+    title: "rimonhanna"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2025-10-28"
+  - name: "file-upload-box"
+    title: "file-upload-box"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2022-08-31"
+  - name: "GoogleWorkspace"
+    title: "GoogleWorkspace"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 6
+    first_seen: null
+    last_push: "2026-02-05"
 ---
 
 # rimonhanna

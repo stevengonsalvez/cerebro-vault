@@ -8,11 +8,11 @@ provenance_repos:
   - "K-Dense-AI/scientific-agent-skills"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+repos_populated: true
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "c8f3d928a400ca53"
-pushes_per_week: [5, 4, 0, 3, 10, 5, 4, 11, 1, 7, 2, 0, 0]
+pushes_per_week: [6, 3, 0, 3, 11, 5, 4, 11, 1, 6, 2, 0, 0]
 windows:
   "7d":
     pushes: 0

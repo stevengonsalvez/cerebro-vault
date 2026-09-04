@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "03604cccd7e9402d"
   - "0754e13e69e8f4d3"
@@ -40,6 +40,7 @@ provenance:
   - "85ddda4d481a7d84"
   - "860864df5583b9ff"
   - "8eafdf1e65e79a0b"
+  - "93601d11e4db33a8"
   - "a3ec5261dfb4f2cd"
   - "b56da077d21ad4f4"
   - "b7b96dd0ccd56642"
@@ -52,7 +53,7 @@ provenance:
   - "f672838de330e86f"
   - "f9a1870648a6375a"
   - "fe9e50bf2d5b21fe"
-pushes_per_week: [19, 0, 0, 15, 22, 15, 1, 4, 0, 27, 3, 0, 0]
+pushes_per_week: [8, 0, 0, 22, 15, 15, 1, 4, 0, 28, 2, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -69,16 +70,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 106
+    pushes: 95
     distinct_repos: 2
-    active_days: 27
+    active_days: 26
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 3.9259
-  repo_per_active_day: 0.0741
+  push_per_day: 3.6538
+  repo_per_active_day: 0.0769
   not_owned_ratio: 0.5000
   basename_concentration: 0.5000
   shapes: []
@@ -105,16 +106,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 106
+    pushes: 95
     distinct_repos: 2
-    pushes_per_repo: 53.0000
-    active_days: 27
+    pushes_per_repo: 47.5000
+    active_days: 26
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
-  - "provenance: 41 vault signal(s) — pass"
-  - "activity: 27 active days in 90d — pass"
+  - "provenance: 42 vault signal(s) — pass"
+  - "activity: 26 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "claude-code-xtras"
@@ -167,6 +168,6 @@ repos:
 
 # rquintino
 
-106 pushes across 2 repositories on 27 active days in the last 90 days of public GitHub push activity.
+95 pushes across 2 repositories on 26 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/rquintino

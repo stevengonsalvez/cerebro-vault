@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "36da1b921f121c1d"
-pushes_per_week: [10, 14, 2, 7, 4, 0, 2, 3, 3, 7, 2, 0, 0]
+pushes_per_week: [8, 14, 3, 6, 4, 0, 3, 4, 1, 9, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 54
+    pushes: 52
     distinct_repos: 5
-    active_days: 23
+    active_days: 22
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.3478
-  repo_per_active_day: 0.2174
+  push_per_day: 2.3636
+  repo_per_active_day: 0.2273
   not_owned_ratio: 1.0000
   basename_concentration: 0.2000
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 54
+    pushes: 52
     distinct_repos: 5
-    pushes_per_repo: 10.8000
-    active_days: 23
+    pushes_per_repo: 10.4000
+    active_days: 22
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 23 active days in 90d — pass"
+  - "activity: 22 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "demo-codemode-host-execution"
@@ -121,6 +121,6 @@ repos:
 
 # aron-cf
 
-54 pushes across 5 repositories on 23 active days in the last 90 days of public GitHub push activity.
+52 pushes across 5 repositories on 22 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/aron-cf

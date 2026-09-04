@@ -8,16 +8,16 @@ provenance_repos:
   - "ruvnet/ruflo"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+repos_populated: true
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "c60b77ce50fb8910"
-pushes_per_week: [43, 327, 212, 242, 81, 29, 39, 25, 39, 34, 11, 21, 2]
+pushes_per_week: [55, 346, 220, 216, 71, 39, 26, 29, 35, 36, 9, 21, 2]
 windows:
   "7d":
-    pushes: 3
-    distinct_repos: 3
-    active_days: 3
+    pushes: 2
+    distinct_repos: 2
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 3
-    distinct_repos: 3
+    pushes: 2
+    distinct_repos: 2
     pushes_per_repo: 1.0000
-    active_days: 3
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -76,7 +76,95 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 76 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "ruflo"
+    title: "ruflo"
+    description: "🌊 The original agent meta-harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, RAG integration, and native Claude Code / Codex / Hermes and many more Integrated"
+    language: "TypeScript"
+    topics:
+      - "agentic-ai"
+      - "agentic-framework"
+      - "agentic-workflow"
+      - "agents"
+      - "ai-agents"
+      - "ai-assistant"
+      - "ai-skills"
+      - "autonomous-agents"
+      - "claude-code"
+      - "codex"
+      - "dsh-plugin"
+      - "harness"
+      - "mcp-server"
+      - "multi-agent"
+      - "multi-agent-systems"
+      - "npm"
+      - "skills"
+      - "swarm"
+      - "swarm-intelligence"
+      - "typescript"
+    stars_fact: 70391
+    first_seen: "2026-08-22T06:00:04.021788+00:00"
+    last_push: "2026-09-03"
+  - name: "RuView"
+    title: "RuView"
+    description: "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video."
+    language: "Rust"
+    topics:
+      - "awesome"
+      - "claude"
+      - "densepose"
+      - "esp32"
+      - "firmware"
+      - "home-assistant"
+      - "home-automation"
+      - "iot"
+      - "monitoring"
+      - "networking"
+      - "npm"
+      - "pose-estimation"
+      - "react"
+      - "rf"
+      - "self-learning"
+      - "skills"
+      - "spatial-intelligence"
+      - "typescript"
+      - "wifi"
+      - "wifi-security"
+    stars_fact: 92464
+    first_seen: null
+    last_push: "2026-09-04"
+  - name: "powerprompt"
+    title: "powerprompt"
+    description: "Power Prompt - Enhance ChatGPT & OpenAi interaction. Seamless conversations. Choose models, save templates, set temp, length & tokens."
+    language: "JavaScript"
+    topics: []
+    stars_fact: 21
+    first_seen: null
+    last_push: "2023-02-15"
+  - name: "AiHCC"
+    title: "AiHCC"
+    description: "AI Hackerspace Consulting Collective (AiHCC)"
+    language: "Shell"
+    topics: []
+    stars_fact: 25
+    first_seen: null
+    last_push: "2024-05-07"
+  - name: "aws-dev"
+    title: "aws-dev"
+    description: "AWS Dev enviroment"
+    language: "Python"
+    topics: []
+    stars_fact: 22
+    first_seen: null
+    last_push: "2024-05-20"
+  - name: "Agent-Name-Service"
+    title: "Agent-Name-Service"
+    description: "Agent Name Service (ANS) Protocol, introduced by the OWASP GenAI Security Project, is a foundational framework designed to facilitate secure discovery and interaction among AI agents."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 81
+    first_seen: null
+    last_push: "2025-05-16"
 ---
 
 # ruvnet

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [17, 9, 30, 81, 0, 7, 7, 1, 1, 2, 3, 1, 0]
+pushes_per_week: [15, 12, 39, 69, 0, 11, 4, 0, 1, 5, 0, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,7 +29,7 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 159
+    pushes: 157
     distinct_repos: 7
     active_days: 30
     repos_not_owned: 0
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 5.3000
+  push_per_day: 5.2333
   repo_per_active_day: 0.2333
   not_owned_ratio: 0.0000
   basename_concentration: 0.1429
@@ -65,9 +65,9 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 159
+    pushes: 157
     distinct_repos: 7
-    pushes_per_repo: 22.7143
+    pushes_per_repo: 22.4286
     active_days: 30
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -139,6 +139,6 @@ repos:
 
 # junnhwan
 
-159 pushes across 7 repositories on 30 active days in the last 90 days of public GitHub push activity.
+157 pushes across 7 repositories on 30 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/junnhwan

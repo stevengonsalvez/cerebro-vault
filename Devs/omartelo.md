@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "4138778ebbc75ba6"
-pushes_per_week: [5, 1, 7, 15, 16, 19, 10, 22, 6, 28, 9, 5, 0]
+pushes_per_week: [2, 1, 8, 14, 18, 19, 8, 23, 5, 33, 4, 5, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 143
+    pushes: 140
     distinct_repos: 9
-    active_days: 46
+    active_days: 44
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 3.1087
-  repo_per_active_day: 0.1957
+  push_per_day: 3.1818
+  repo_per_active_day: 0.2045
   not_owned_ratio: 0.3333
   basename_concentration: 0.2222
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 143
+    pushes: 140
     distinct_repos: 9
-    pushes_per_repo: 15.8889
-    active_days: 46
+    pushes_per_repo: 15.5556
+    active_days: 44
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 46 active days in 90d — pass"
+  - "activity: 44 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "lich-oceanic-next"
@@ -144,6 +144,6 @@ repos:
 
 # omartelo
 
-143 pushes across 9 repositories on 46 active days in the last 90 days of public GitHub push activity.
+140 pushes across 9 repositories on 44 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/omartelo

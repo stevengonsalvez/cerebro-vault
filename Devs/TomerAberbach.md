@@ -8,11 +8,11 @@ provenance_repos:
   - "anthropics/anthropic-sdk-python"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+repos_populated: true
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "1be978947e68d1f2"
-pushes_per_week: [8, 35, 30, 17, 39, 21, 12, 2, 3, 14, 5, 1, 0]
+pushes_per_week: [17, 27, 33, 14, 38, 22, 11, 2, 6, 11, 5, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 23
+    pushes: 22
     distinct_repos: 1
-    active_days: 12
+    active_days: 11
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 23
+    pushes: 22
     distinct_repos: 1
-    pushes_per_repo: 23.0000
-    active_days: 12
+    pushes_per_repo: 22.0000
+    active_days: 11
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -76,7 +76,90 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 48 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "cover-letter"
+    title: "cover-letter"
+    description: "📄 A LaTeX document for my cover letters."
+    language: "TeX"
+    topics:
+      - "cover-letter"
+      - "cover-letter-templates"
+      - "cover-letters"
+      - "document"
+      - "latex"
+      - "latex-document"
+      - "overleaf"
+      - "pdf"
+      - "tex"
+      - "ubuntu"
+    stars_fact: 16
+    first_seen: null
+    last_push: "2024-10-15"
+  - name: "profiler-md"
+    title: "profiler-md"
+    description: "🔥 Converts performance profiles to human and LLM friendly Markdown."
+    language: "TypeScript"
+    topics:
+      - "cli"
+      - "markdown"
+      - "performance"
+      - "performance-analysis"
+      - "performance-optimization"
+      - "profiler-data"
+    stars_fact: 11
+    first_seen: null
+    last_push: "2026-08-27"
+  - name: "homebrew-tap"
+    title: "homebrew-tap"
+    description: "🍻"
+    language: "Ruby"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-08-21"
+  - name: "grfn"
+    title: "grfn"
+    description: "🦅 A tiny (~315B) utility that executes a dependency graph of async functions as concurrently as possible."
+    language: "TypeScript"
+    topics:
+      - "async"
+      - "concurrency"
+      - "graph"
+      - "node-module"
+      - "node-package"
+      - "package"
+    stars_fact: 630
+    first_seen: null
+    last_push: "2025-09-01"
+  - name: "claude-config"
+    title: "claude-config"
+    description: "🤖 My Claude Code config!"
+    language: "Shell"
+    topics:
+      - "claude"
+      - "claude-code"
+      - "claude-code-config"
+      - "claude-code-skills"
+      - "claude-config"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-04"
+  - name: "limit-concur"
+    title: "limit-concur"
+    description: "⚖️ Limit an async function's concurrency with ease!"
+    language: "TypeScript"
+    topics:
+      - "async"
+      - "concurrency"
+      - "javascript"
+      - "nodejs"
+      - "npm-module"
+      - "npm-package"
+      - "promise"
+      - "rate-limiting"
+    stars_fact: 29
+    first_seen: null
+    last_push: "2025-09-01"
 ---
 
 # TomerAberbach

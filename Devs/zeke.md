@@ -8,11 +8,11 @@ provenance_repos:
   - "anomalyco/opencode"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+repos_populated: true
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [8, 17, 28, 26, 9, 14, 8, 4, 5, 12, 2, 2, 0]
+pushes_per_week: [7, 18, 33, 21, 8, 13, 8, 5, 6, 10, 2, 2, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 135
+    pushes: 133
     distinct_repos: 21
-    active_days: 57
+    active_days: 56
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.3684
-  repo_per_active_day: 0.3684
+  push_per_day: 2.3750
+  repo_per_active_day: 0.3750
   not_owned_ratio: 0.0952
   basename_concentration: 0.0476
   shapes: []
@@ -65,22 +65,70 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 135
+    pushes: 133
     distinct_repos: 21
-    pushes_per_repo: 6.4286
-    active_days: 57
+    pushes_per_repo: 6.3333
+    active_days: 56
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 57 active days in 90d — pass"
+  - "activity: 56 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "faster-chrome-devtools-skill"
+    title: "faster-chrome-devtools-skill"
+    description: "Agent skill that makes Chrome DevTools faster"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 83
+    first_seen: null
+    last_push: "2026-07-31"
+  - name: "small-app-gardener"
+    title: "small-app-gardener"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-04"
+  - name: "make-video-transparent"
+    title: "make-video-transparent"
+    description: "Convert green screen video to transparent WebM and MOV for the web"
+    language: "Shell"
+    topics: []
+    stars_fact: 5
+    first_seen: null
+    last_push: "2026-03-12"
+  - name: "obs-skill"
+    title: "obs-skill"
+    description: "An agent skill for controlling OBS Studio with natural language"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-09-02"
+  - name: "404_color_bars"
+    title: "404_color_bars"
+    description: "The interweb equivalent of an off-air television."
+    language: null
+    topics: []
+    stars_fact: 5
+    first_seen: null
+    last_push: "2022-05-25"
+  - name: "swiss-design-skill"
+    title: "swiss-design-skill"
+    description: "A Swiss International Style design system skill for AI agents"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 138
+    first_seen: null
+    last_push: "2026-06-29"
 ---
 
 # zeke
 
-135 pushes across 21 repositories on 57 active days in the last 90 days of public GitHub push activity.
+133 pushes across 21 repositories on 56 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/zeke

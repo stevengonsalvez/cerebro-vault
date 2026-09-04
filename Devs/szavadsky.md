@@ -8,11 +8,11 @@ provenance_repos:
   - "can1357/oh-my-pi"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+repos_populated: true
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [0, 4, 5, 7, 12, 0, 2, 2, 4, 10, 1, 8, 2]
+pushes_per_week: [0, 4, 6, 10, 8, 1, 1, 2, 4, 11, 1, 7, 2]
 windows:
   "7d":
     pushes: 2
@@ -76,7 +76,31 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 29 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "python-setup"
+    title: "python-setup"
+    description: "Linter setup and coding rules for python projects"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-07-22"
+  - name: "agentic-swarm"
+    title: "agentic-swarm"
+    description: "A system to define agents and orchestrated workflows for coding assistants (hybrid orchestration, script first, horizon is script enforced, structural model split - bulk of work by cheap \"Flash\" models\"."
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-07-19"
+  - name: "agentic-setup-examples"
+    title: "agentic-setup-examples"
+    description: "Configurations for AI coding agents (sometimes used as general assistant) that I find usefull"
+    language: null
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-02-21"
 ---
 
 # szavadsky

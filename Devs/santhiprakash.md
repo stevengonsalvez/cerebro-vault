@@ -8,11 +8,11 @@ provenance_repos:
   - "affaan-m/ECC"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+repos_populated: true
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "edb3a626875732de"
-pushes_per_week: [0, 0, 0, 0, 0, 1, 6, 15, 10, 17, 13, 15, 1]
+pushes_per_week: [0, 0, 0, 0, 0, 1, 7, 20, 5, 19, 11, 14, 1]
 windows:
   "7d":
     pushes: 1
@@ -76,7 +76,52 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 30 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "santhiprakash"
+    title: "santhiprakash"
+    description: "Profile README"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-03"
+  - name: "shopmatic"
+    title: "shopmatic"
+    description: "Shopmatic — open-source SaaS platform for influencers and affiliate marketers to showcase and organize product recommendations with AI-powered Quick Add"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-08-13"
+  - name: "freshlane"
+    title: "freshlane"
+    description: "FreshLane — open-source neighborhood supermarket digital storefront (Next.js MVP)"
+    language: "TypeScript"
+    topics:
+      - "ecommerce"
+      - "nextjs"
+      - "opensource"
+      - "supermarket"
+      - "tailwindcss"
+      - "typescript"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-08-13"
+  - name: "restromenu"
+    title: "restromenu"
+    description: "Open-source restaurant menu cards with PDF/PNG export (Next.js)"
+    language: "TypeScript"
+    topics:
+      - "menu"
+      - "nextjs"
+      - "opensource"
+      - "pdf"
+      - "restaurant"
+      - "tailwindcss"
+      - "typescript"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-07-30"
 ---
 
 # santhiprakash

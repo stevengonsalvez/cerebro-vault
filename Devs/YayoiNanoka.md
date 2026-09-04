@@ -8,11 +8,11 @@ provenance_repos:
   - "apache/maka"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+repos_populated: true
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [0, 2, 0, 0, 3, 1, 4, 0, 0, 0, 1, 0, 0]
+pushes_per_week: [0, 2, 0, 1, 2, 1, 4, 0, 0, 0, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,31 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 8 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "YayoiNanoka"
+    title: "YayoiNanoka"
+    description: "Building reliable AI agent systems."
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-03"
+  - name: "rAgent"
+    title: "rAgent"
+    description: "一个 rust adk"
+    language: "Rust"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-07-04"
+  - name: "common-agent-patterns"
+    title: "common-agent-patterns"
+    description: "常见 agent 行为模式实现"
+    language: "Rust"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-06-16"
 ---
 
 # YayoiNanoka

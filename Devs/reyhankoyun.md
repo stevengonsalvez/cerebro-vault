@@ -8,11 +8,11 @@ provenance_repos:
   - "aws/agent-toolkit-for-aws"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+repos_populated: true
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "a50b0e08dbaee74a"
-pushes_per_week: [0, 4, 0, 1, 1, 1, 2, 0, 1, 0, 0, 0, 0]
+pushes_per_week: [0, 4, 0, 1, 2, 0, 2, 1, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0

@@ -8,16 +8,16 @@ provenance_repos:
   - "AlexsJones/llmfit"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+repos_populated: true
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [1, 7, 4, 3, 2, 2, 4, 3, 1, 3, 2, 1, 1]
+pushes_per_week: [1, 6, 4, 3, 2, 2, 5, 2, 1, 3, 2, 2, 0]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 34
+    pushes: 33
     distinct_repos: 4
-    active_days: 33
+    active_days: 32
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.0303
-  repo_per_active_day: 0.1212
+  push_per_day: 1.0312
+  repo_per_active_day: 0.1250
   not_owned_ratio: 0.0000
   basename_concentration: 0.2500
   shapes: []
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -65,22 +65,100 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 34
+    pushes: 33
     distinct_repos: 4
-    pushes_per_repo: 8.5000
-    active_days: 33
+    pushes_per_repo: 8.2500
+    active_days: 32
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 33 active days in 90d — pass"
+  - "activity: 32 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "sloweyyy"
+    title: "sloweyyy"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-09-04"
+  - name: "cloud-native-ecommerce-platform"
+    title: "cloud-native-ecommerce-platform"
+    description: "Cloud-native e-commerce on .NET 10 LTS microservices with React + Nx Module Federation microfrontends, deployed to AWS EKS via Terraform with Istio service mesh. MongoDB / Redis / PostgreSQL / SQL Server, RabbitMQ, Ocelot gateway. Legacy Angular UI in /client."
+    language: "TypeScript"
+    topics:
+      - "angular"
+      - "aws"
+      - "cloud-native"
+      - "csharp"
+      - "devops"
+      - "docker"
+      - "dotnet"
+      - "eks"
+      - "elk-stack"
+      - "grafana"
+      - "istio"
+      - "jaeger"
+      - "kubernetes"
+      - "microfrontend"
+      - "microservice"
+      - "nx"
+      - "opentelemetry"
+      - "prometheus"
+      - "react"
+      - "terraform"
+    stars_fact: 23
+    first_seen: null
+    last_push: "2026-09-03"
+  - name: "relay"
+    title: "relay"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-07-10"
+  - name: "GreenLedger"
+    title: "GreenLedger"
+    description: "GreenLedger is a modular carbon credit and footprint tracking system built with Go microservices. Includes JWT auth, Kafka events, Prometheus metrics, and Kubernetes support - designed for DevOps practice and real-world sustainability apps."
+    language: "Go"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-08-31"
+  - name: "3d-portfolio"
+    title: "3d-portfolio"
+    description: "This repository contains the source code for my 3D portfolio website, showcasing my projects and skills in a three-dimensional web environment."
+    language: "JavaScript"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-05-16"
+  - name: "DSA"
+    title: "DSA"
+    description: "This repository contains solutions to various LeetCode problems and contests in C++, C#, Python, Java, and JavaScript, helping you improve your problem-solving skills and prepare for coding interviews."
+    language: "Java"
+    topics:
+      - "algorithms"
+      - "cpp"
+      - "csharp"
+      - "dart"
+      - "java"
+      - "javascript"
+      - "leetcode"
+      - "leetcode-solutions"
+      - "python"
+      - "typescript"
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-05-16"
 ---
 
 # sloweyyy
 
-34 pushes across 4 repositories on 33 active days in the last 90 days of public GitHub push activity.
+33 pushes across 4 repositories on 32 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/sloweyyy

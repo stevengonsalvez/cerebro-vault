@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "3eacb4655aba2497"
-pushes_per_week: [6, 0, 0, 0, 25, 5, 0, 0, 0, 3, 2, 1, 0]
+pushes_per_week: [4, 0, 0, 2, 27, 1, 0, 0, 0, 3, 2, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,7 +29,7 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 42
+    pushes: 40
     distinct_repos: 15
     active_days: 13
     repos_not_owned: 0
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 3.2308
+  push_per_day: 3.0769
   repo_per_active_day: 1.1538
   not_owned_ratio: 0.0000
   basename_concentration: 0.0667
@@ -65,9 +65,9 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 42
+    pushes: 40
     distinct_repos: 15
-    pushes_per_repo: 2.8000
+    pushes_per_repo: 2.6667
     active_days: 13
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -166,6 +166,6 @@ repos:
 
 # jyatesdotdev
 
-42 pushes across 15 repositories on 13 active days in the last 90 days of public GitHub push activity.
+40 pushes across 15 repositories on 13 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/jyatesdotdev

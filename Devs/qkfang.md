@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "c1af6b58492f9bf4"
-pushes_per_week: [38, 17, 4, 2, 14, 7, 9, 3, 2, 1, 1, 0, 0]
+pushes_per_week: [30, 17, 5, 2, 13, 7, 11, 3, 0, 1, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,7 +29,7 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 98
+    pushes: 90
     distinct_repos: 16
     active_days: 30
     repos_not_owned: 0
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 3.2667
+  push_per_day: 3.0000
   repo_per_active_day: 0.5333
   not_owned_ratio: 0.0000
   basename_concentration: 0.0625
@@ -65,9 +65,9 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 98
+    pushes: 90
     distinct_repos: 16
-    pushes_per_repo: 6.1250
+    pushes_per_repo: 5.6250
     active_days: 30
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -129,6 +129,6 @@ repos:
 
 # qkfang
 
-98 pushes across 16 repositories on 30 active days in the last 90 days of public GitHub push activity.
+90 pushes across 16 repositories on 30 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/qkfang

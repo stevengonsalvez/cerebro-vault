@@ -8,11 +8,11 @@ provenance_repos:
   - "agavra/tuicr"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+repos_populated: true
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [2, 9, 1, 0, 14, 1, 0, 0, 2, 0, 0, 0, 0]
+pushes_per_week: [4, 8, 0, 6, 9, 0, 0, 2, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 13 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "nix-git-hooks"
+    title: "nix-git-hooks"
+    description: "Track and install git hooks with nix"
+    language: "Nix"
+    topics: []
+    stars_fact: 6
+    first_seen: null
+    last_push: "2025-12-30"
+  - name: "ysndr.github.io"
+    title: "ysndr.github.io"
+    description: null
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-04-06"
+  - name: "n2p"
+    title: "n2p"
+    description: null
+    language: "Rust"
+    topics: []
+    stars_fact: 12
+    first_seen: null
+    last_push: "2025-12-18"
+  - name: "blog"
+    title: "blog"
+    description: "Sources for my Blog"
+    language: "TeX"
+    topics: []
+    stars_fact: 28
+    first_seen: null
+    last_push: "2023-10-08"
+  - name: "MSc-Thesis"
+    title: "MSc-Thesis"
+    description: "Master Thesis @ KTH x Tweag"
+    language: "TeX"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2025-02-22"
+  - name: "nixos-config"
+    title: "nixos-config"
+    description: null
+    language: "Nix"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2025-07-31"
 ---
 
 # ysndr

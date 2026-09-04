@@ -8,8 +8,8 @@ provenance_repos:
   - "anomalyco/opencode"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+repos_populated: true
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "ffccace0ba14fd15"
 pushes_per_week: [0, 2, 0, 2, 6, 0, 0, 0, 0, 1, 0, 1, 1]
@@ -76,7 +76,23 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 8 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "markdown-helper-mcp"
+    title: "markdown-helper-mcp"
+    description: "A Powerful MCP markdown editor for AI agents — document editor, externalized brain, and requirements refinement surface in one tool."
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-05-20"
+  - name: "testcode"
+    title: "testcode"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2024-05-22"
 ---
 
 # ryangamerdev

@@ -8,11 +8,11 @@ provenance_repos:
   - "anthropics/anthropic-sdk-python"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+repos_populated: true
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "1be978947e68d1f2"
-pushes_per_week: [0, 2, 2, 4, 1, 0, 0, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [1, 3, 0, 4, 1, 0, 0, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,63 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "pyright-python"
+    title: "pyright-python"
+    description: "Python command line wrapper for pyright, a static type checker"
+    language: "Python"
+    topics:
+      - "cli"
+      - "pip"
+      - "python"
+      - "typechecking"
+    stars_fact: 277
+    first_seen: null
+    last_push: "2026-08-15"
+  - name: "dotfiles"
+    title: "dotfiles"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-07-19"
+  - name: "craigie.dev"
+    title: "craigie.dev"
+    description: "Personal blog"
+    language: "HTML"
+    topics:
+      - "blog"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-04-02"
+  - name: "prisma-py-async-quickstart"
+    title: "prisma-py-async-quickstart"
+    description: "Quickstart example from the Prisma Client Python documentation"
+    language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2024-02-21"
+  - name: "pytest-pyright"
+    title: "pytest-pyright"
+    description: "Pytest plugin for type checking code with Pyright"
+    language: "Python"
+    topics:
+      - "pytest"
+      - "pytest-plugin"
+      - "typing"
+    stars_fact: 15
+    first_seen: null
+    last_push: "2024-01-26"
+  - name: "pydantic-bug-repro"
+    title: "pydantic-bug-repro"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2025-01-10"
 ---
 
 # RobertCraigie

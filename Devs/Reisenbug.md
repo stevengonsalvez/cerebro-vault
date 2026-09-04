@@ -8,16 +8,16 @@ provenance_repos:
   - "AstrBotDevs/AstrBot"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+repos_populated: true
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [3, 10, 8, 3, 0, 1, 5, 0, 2, 11, 1, 7, 0]
+pushes_per_week: [5, 8, 8, 3, 1, 2, 3, 0, 3, 11, 0, 7, 0]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -76,7 +76,57 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 28 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "TerraBlind"
+    title: "TerraBlind"
+    description: "tModLoader mod exposing full game state over HTTP and accepting real-time control inputs for AI agents."
+    language: "C#"
+    topics:
+      - "terraria"
+      - "terraria-mod"
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-09-02"
+  - name: "Tairaria"
+    title: "Tairaria"
+    description: "LLM-driven Terraria bot –– pure AI control with mod-side reflexes."
+    language: "Python"
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-08-31"
+  - name: "terraria-speedrun-practice-tool-for-mac"
+    title: "terraria-speedrun-practice-tool-for-mac"
+    description: null
+    language: "C#"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-08-17"
+  - name: "AstrBot_Plugin_Cirno"
+    title: "AstrBot_Plugin_Cirno"
+    description: "一只baka"
+    language: "Python"
+    topics: []
+    stars_fact: 6
+    first_seen: null
+    last_push: "2026-08-10"
+  - name: "AstrBot_Plugin_Terraria_Server_Manager"
+    title: "AstrBot_Plugin_Terraria_Server_Manager"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-04-04"
+  - name: "TShock-cctg-plugins"
+    title: "TShock-cctg-plugins"
+    description: null
+    language: "C#"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-04-23"
 ---
 
 # Reisenbug

@@ -10,11 +10,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "386c24cf5e18fd90"
   - "ffccace0ba14fd15"
-pushes_per_week: [18, 25, 19, 13, 2, 14, 7, 11, 0, 6, 1, 6, 2]
+pushes_per_week: [23, 18, 21, 12, 1, 17, 4, 11, 0, 6, 1, 8, 0]
 windows:
   "7d":
     pushes: 2
@@ -31,18 +31,18 @@ windows:
     not_owned_basenames: 3
     not_owned_owners: 3
   "90d":
-    pushes: 124
-    distinct_repos: 23
-    active_days: 38
-    repos_not_owned: 11
+    pushes: 122
+    distinct_repos: 22
+    active_days: 37
+    repos_not_owned: 10
     not_owned_basenames: 4
-    not_owned_owners: 9
+    not_owned_owners: 8
 automation:
   state: "clear"
-  push_per_day: 3.2632
-  repo_per_active_day: 0.6053
-  not_owned_ratio: 0.4783
-  basename_concentration: 0.3043
+  push_per_day: 3.2973
+  repo_per_active_day: 0.5946
+  not_owned_ratio: 0.4545
+  basename_concentration: 0.2727
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -67,16 +67,16 @@ facets:
     not_owned_basenames: 3
     not_owned_owners: 3
   "90d":
-    pushes: 124
-    distinct_repos: 23
-    pushes_per_repo: 5.3913
-    active_days: 38
-    repos_not_owned: 11
+    pushes: 122
+    distinct_repos: 22
+    pushes_per_repo: 5.5455
+    active_days: 37
+    repos_not_owned: 10
     not_owned_basenames: 4
-    not_owned_owners: 9
+    not_owned_owners: 8
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 38 active days in 90d — pass"
+  - "activity: 37 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "greyUI"
@@ -160,6 +160,6 @@ repos:
 
 # elithrar
 
-124 pushes across 23 repositories on 38 active days in the last 90 days of public GitHub push activity.
+122 pushes across 22 repositories on 37 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/elithrar

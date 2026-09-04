@@ -8,8 +8,8 @@ provenance_repos:
   - "ColeMurray/background-agents"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+repos_populated: true
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "8311cfc3055f8fea"
 pushes_per_week: [4, 25, 7, 1, 0, 1, 0, 0, 0, 0, 1, 0, 0]
@@ -76,7 +76,61 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 13 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "resume"
+    title: "resume"
+    description: "Private source for Vaibhav Chopra's interactive web resume"
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-15"
+  - name: "zellij-pane-colors"
+    title: "zellij-pane-colors"
+    description: "Subtle, persistent background colours for Zellij terminal panes"
+    language: "Rust"
+    topics:
+      - "developer-tools"
+      - "plugin"
+      - "rust"
+      - "terminal"
+      - "wasm"
+      - "zellij"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-07-11"
+  - name: "file-explorer"
+    title: "file-explorer"
+    description: "Browser-based local file manager built on the File System Access API. Browse, preview, organize and edit your files — no backend, files never leave your machine."
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-06-29"
+  - name: "lazyvim"
+    title: "lazyvim"
+    description: null
+    language: "Lua"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-05-17"
+  - name: "pr-diff-plus"
+    title: "pr-diff-plus"
+    description: "Better GitHub PR diff review: sticky tree sidebar, per-file approve, hide-approved filter, complexity scoring. Chrome + Firefox. MV3."
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-04-27"
+  - name: "agent-harness"
+    title: "agent-harness"
+    description: null
+    language: "Shell"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-04-01"
 ---
 
 # sudo-vaibhav

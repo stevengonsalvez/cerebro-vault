@@ -8,11 +8,11 @@ provenance_repos:
   - "AstrBotDevs/AstrBot"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+repos_populated: true
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [4, 0, 0, 3, 6, 8, 4, 3, 4, 11, 2, 2, 0]
+pushes_per_week: [4, 0, 1, 3, 8, 5, 5, 2, 4, 13, 0, 2, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,7 +22,7 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 17
+    pushes: 16
     distinct_repos: 2
     active_days: 6
     repos_not_owned: 0
@@ -57,9 +57,9 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 17
+    pushes: 16
     distinct_repos: 2
-    pushes_per_repo: 8.5000
+    pushes_per_repo: 8.0000
     active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 26 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "command-code-reverse"
+    title: "command-code-reverse"
+    description: "Converts Command Code API to OpenAI chat completions"
+    language: "Go"
+    topics: []
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-09-02"
+  - name: "wg-quic"
+    title: "wg-quic"
+    description: null
+    language: "Go"
+    topics: []
+    stars_fact: 5
+    first_seen: null
+    last_push: "2026-09-03"
+  - name: "ReuleauxCoder"
+    title: "ReuleauxCoder"
+    description: "Reinventing the wheel, but only for those who prefer it non-circular."
+    language: "Python"
+    topics: []
+    stars_fact: 16
+    first_seen: null
+    last_push: "2026-09-02"
+  - name: "edge640-fan-control"
+    title: "edge640-fan-control"
+    description: "Safe fan control daemon for Dell EMC EDGE640 on FreeBSD and OPNsense"
+    language: "Go"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-01"
+  - name: "StdoutCMS"
+    title: "StdoutCMS"
+    description: "Pipe your thoughts to standard output"
+    language: "Vue"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-31"
+  - name: "idrac-controller"
+    title: "idrac-controller"
+    description: null
+    language: "Go"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-08-28"
 ---
 
 # RC-CHN

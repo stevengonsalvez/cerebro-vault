@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [92, 42, 3, 25, 50, 20, 23, 26, 19, 21, 3, 15, 2]
+pushes_per_week: [75, 42, 3, 48, 28, 21, 20, 27, 21, 19, 2, 17, 0]
 windows:
   "7d":
-    pushes: 3
-    distinct_repos: 2
-    active_days: 2
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
-    pushes: 43
+    pushes: 42
     distinct_repos: 10
-    active_days: 15
+    active_days: 14
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 2
   "90d":
-    pushes: 341
+    pushes: 323
     distinct_repos: 20
-    active_days: 63
+    active_days: 62
     repos_not_owned: 9
     not_owned_basenames: 9
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 5.4127
-  repo_per_active_day: 0.3175
+  push_per_day: 5.2097
+  repo_per_active_day: 0.3226
   not_owned_ratio: 0.4500
   basename_concentration: 0.1000
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 3
-    distinct_repos: 2
-    pushes_per_repo: 1.5000
-    active_days: 2
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
-    pushes: 43
+    pushes: 42
     distinct_repos: 10
-    pushes_per_repo: 4.3000
-    active_days: 15
+    pushes_per_repo: 4.2000
+    active_days: 14
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 2
   "90d":
-    pushes: 341
+    pushes: 323
     distinct_repos: 20
-    pushes_per_repo: 17.0500
-    active_days: 63
+    pushes_per_repo: 16.1500
+    active_days: 62
     repos_not_owned: 9
     not_owned_basenames: 9
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 63 active days in 90d — pass"
+  - "activity: 62 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "omp-plugin-nomnoml-better-diagram"
@@ -147,6 +147,6 @@ repos:
 
 # metaphorics
 
-341 pushes across 20 repositories on 63 active days in the last 90 days of public GitHub push activity.
+323 pushes across 20 repositories on 62 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/metaphorics

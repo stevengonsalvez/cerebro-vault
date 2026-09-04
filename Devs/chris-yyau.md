@@ -10,16 +10,16 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "73468cde177ddae6"
   - "edb3a626875732de"
-pushes_per_week: [19, 27, 50, 70, 73, 31, 75, 34, 11, 30, 6, 12, 2]
+pushes_per_week: [29, 24, 43, 85, 70, 39, 62, 26, 11, 32, 5, 11, 2]
 windows:
   "7d":
-    pushes: 3
+    pushes: 2
     distinct_repos: 1
-    active_days: 2
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -31,16 +31,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 440
+    pushes: 439
     distinct_repos: 6
-    active_days: 73
+    active_days: 72
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 6.0274
-  repo_per_active_day: 0.0822
+  push_per_day: 6.0972
+  repo_per_active_day: 0.0833
   not_owned_ratio: 0.0000
   basename_concentration: 0.1667
   shapes: []
@@ -51,10 +51,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 3
+    pushes: 2
     distinct_repos: 1
-    pushes_per_repo: 3.0000
-    active_days: 2
+    pushes_per_repo: 2.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -67,16 +67,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 440
+    pushes: 439
     distinct_repos: 6
-    pushes_per_repo: 73.3333
-    active_days: 73
+    pushes_per_repo: 73.1667
+    active_days: 72
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 73 active days in 90d — pass"
+  - "activity: 72 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "busdriver"
@@ -129,6 +129,6 @@ repos:
 
 # chris-yyau
 
-440 pushes across 6 repositories on 73 active days in the last 90 days of public GitHub push activity.
+439 pushes across 6 repositories on 72 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/chris-yyau

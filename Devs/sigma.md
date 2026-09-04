@@ -8,11 +8,11 @@ provenance_repos:
   - "agavra/tuicr"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+repos_populated: true
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [2, 1, 7, 1, 3, 1, 6, 4, 4, 1, 0, 4, 0]
+pushes_per_week: [2, 1, 7, 3, 2, 1, 5, 4, 4, 1, 0, 4, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 22 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "okf-tools"
+    title: "okf-tools"
+    description: null
+    language: "Go"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-02"
+  - name: "systems"
+    title: "systems"
+    description: null
+    language: "Nix"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-02"
+  - name: "callctl"
+    title: "callctl"
+    description: "Control surfaces for video conferencing systems (Google Meet)"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-08-23"
+  - name: "sd-herdr"
+    title: "sd-herdr"
+    description: "Stream Deck plugin for managing herdr status"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-18"
+  - name: "sd-tailscale"
+    title: "sd-tailscale"
+    description: "Stream Deck plugin for Tailscale"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-07-28"
+  - name: "pcache"
+    title: "pcache"
+    description: "persistent caching for Emacs"
+    language: "Emacs Lisp"
+    topics: []
+    stars_fact: 83
+    first_seen: null
+    last_push: "2026-07-28"
 ---
 
 # sigma

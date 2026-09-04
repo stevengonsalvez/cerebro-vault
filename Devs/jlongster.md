@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [10, 2, 2, 55, 37, 11, 21, 5, 1, 4, 0, 8, 0]
+pushes_per_week: [9, 1, 2, 73, 21, 12, 18, 5, 1, 4, 0, 8, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 156
+    pushes: 154
     distinct_repos: 8
-    active_days: 33
+    active_days: 32
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 4.7273
-  repo_per_active_day: 0.2424
+  push_per_day: 4.8125
+  repo_per_active_day: 0.2500
   not_owned_ratio: 0.5000
   basename_concentration: 0.1250
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 156
+    pushes: 154
     distinct_repos: 8
-    pushes_per_repo: 19.5000
-    active_days: 33
+    pushes_per_repo: 19.2500
+    active_days: 32
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 33 active days in 90d — pass"
+  - "activity: 32 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "opencode-gateway"
@@ -129,6 +129,6 @@ repos:
 
 # jlongster
 
-156 pushes across 8 repositories on 33 active days in the last 90 days of public GitHub push activity.
+154 pushes across 8 repositories on 32 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/jlongster

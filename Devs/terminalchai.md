@@ -8,11 +8,11 @@ provenance_repos:
   - "chopratejas/headroom"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+repos_populated: true
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "73468cde177ddae6"
-pushes_per_week: [0, 0, 3, 0, 2, 0, 1, 2, 0, 0, 0, 0, 0]
+pushes_per_week: [0, 1, 2, 0, 2, 0, 3, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,67 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "terminalchai"
+    title: "terminalchai"
+    description: "GitHub profile README for Terminal Chai"
+    language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-05-27"
+  - name: "cron-help"
+    title: "cron-help"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-07-09"
+  - name: "devshots"
+    title: "devshots"
+    description: "Beautiful code screenshots — 22+ themes, gradients, PNG/SVG export"
+    language: "JavaScript"
+    topics:
+      - "code-screenshot"
+      - "developer-tools"
+      - "react"
+      - "shiki"
+      - "tailwindcss"
+      - "vite"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-05-28"
+  - name: "mockdata-run"
+    title: "mockdata-run"
+    description: "Seeded mock datasets for prototypes, demos, and QA. Write a schema, hit run, export JSON/CSV/API payloads."
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-04-05"
+  - name: "flow-timer"
+    title: "flow-timer"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-04-05"
+  - name: "statcards"
+    title: "statcards"
+    description: "Beautiful GitHub stats cards — 6 themes, PNG export, zero backend"
+    language: "JavaScript"
+    topics:
+      - "developer-tools"
+      - "github-profile"
+      - "github-stats"
+      - "react"
+      - "tailwindcss"
+      - "vite"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-04-05"
 ---
 
 # terminalchai

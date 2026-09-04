@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "1f49d0119cedbc84"
-pushes_per_week: [21, 0, 11, 0, 0, 0, 1, 0, 1, 2, 2, 0, 0]
+pushes_per_week: [18, 0, 11, 0, 0, 0, 1, 0, 1, 2, 2, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 38
-    distinct_repos: 18
+    pushes: 35
+    distinct_repos: 16
     active_days: 13
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.9231
-  repo_per_active_day: 1.3846
-  not_owned_ratio: 0.0556
-  basename_concentration: 0.0556
+  push_per_day: 2.6923
+  repo_per_active_day: 1.2308
+  not_owned_ratio: 0.0625
+  basename_concentration: 0.0625
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,9 +65,9 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 38
-    distinct_repos: 18
-    pushes_per_repo: 2.1111
+    pushes: 35
+    distinct_repos: 16
+    pushes_per_repo: 2.1875
     active_days: 13
     repos_not_owned: 1
     not_owned_basenames: 1
@@ -173,6 +173,6 @@ repos:
 
 # byigitt
 
-38 pushes across 18 repositories on 13 active days in the last 90 days of public GitHub push activity.
+35 pushes across 16 repositories on 13 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/byigitt

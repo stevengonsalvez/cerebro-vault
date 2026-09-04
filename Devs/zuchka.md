@@ -8,8 +8,8 @@ provenance_repos:
   - "BuilderIO/agent-native"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+repos_populated: true
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "745308b2b7085095"
 pushes_per_week: [6, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
@@ -76,7 +76,62 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "remove-markdown"
+    title: "remove-markdown"
+    description: "Strip Markdown stuff from text"
+    language: "JavaScript"
+    topics:
+      - "javascript"
+      - "markdown"
+      - "nodejs"
+    stars_fact: 376
+    first_seen: null
+    last_push: "2026-08-31"
+  - name: "obsidian-readability"
+    title: "obsidian-readability"
+    description: "score the readability of your Obsidian documents using the Flesch Reading Ease (FRE) formula"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 23
+    first_seen: null
+    last_push: "2025-03-21"
+  - name: "free-design-md"
+    title: "free-design-md"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-07-02"
+  - name: "free-design-md-catalog"
+    title: "free-design-md-catalog"
+    description: "Public CLI and curated design.md catalog from freedesign.md"
+    language: "TypeScript"
+    topics:
+      - "design-to-code"
+      - "design-tokens"
+      - "designmd"
+      - "designsystem"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-07-02"
+  - name: "railway-prometheus"
+    title: "railway-prometheus"
+    description: "one-click deployment of Prometheus to Railway"
+    language: "Dockerfile"
+    topics: []
+    stars_fact: 7
+    first_seen: null
+    last_push: "2026-05-07"
+  - name: "ag-coinchase"
+    title: "ag-coinchase"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-06-24"
 ---
 
 # zuchka

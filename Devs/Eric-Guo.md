@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [98, 83, 75, 87, 51, 49, 47, 30, 21, 30, 8, 7, 3]
+pushes_per_week: [103, 79, 86, 78, 57, 49, 36, 35, 15, 33, 5, 6, 3]
 windows:
   "7d":
     pushes: 3
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 589
+    pushes: 585
     distinct_repos: 24
-    active_days: 81
+    active_days: 80
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 7.2716
-  repo_per_active_day: 0.2963
+  push_per_day: 7.3125
+  repo_per_active_day: 0.3000
   not_owned_ratio: 0.1667
   basename_concentration: 0.0417
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 589
+    pushes: 585
     distinct_repos: 24
-    pushes_per_repo: 24.5417
-    active_days: 81
+    pushes_per_repo: 24.3750
+    active_days: 80
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 81 active days in 90d — pass"
+  - "activity: 80 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "opencode-agent-7777"
@@ -139,6 +139,6 @@ repos:
 
 # Eric-Guo
 
-589 pushes across 24 repositories on 81 active days in the last 90 days of public GitHub push activity.
+585 pushes across 24 repositories on 80 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Eric-Guo

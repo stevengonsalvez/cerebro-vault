@@ -8,11 +8,11 @@ provenance_repos:
   - "can1357/oh-my-pi"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+repos_populated: true
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [0, 6, 1, 15, 1, 3, 0, 0, 0, 0, 1, 0, 0]
+pushes_per_week: [0, 6, 13, 3, 1, 3, 0, 0, 0, 0, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 9 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "parallel_frontier"
+    title: "parallel_frontier"
+    description: "Unordered vector of elements with constant time concurrent push."
+    language: "Rust"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-07-23"
+  - name: "mem_dbg-rs"
+    title: "mem_dbg-rs"
+    description: "A trait + derive to recursively compute / print the memory usage of a data structure."
+    language: "Rust"
+    topics: []
+    stars_fact: 43
+    first_seen: null
+    last_push: "2026-07-23"
+  - name: "common_traits"
+    title: "common_traits"
+    description: "Rust traits I write way too often"
+    language: "Rust"
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-07-13"
+  - name: "bfs_bench"
+    title: "bfs_bench"
+    description: "benchmark of different frontier data structurers for squential BFS"
+    language: "Rust"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-06-30"
+  - name: "heaps"
+    title: "heaps"
+    description: "Experiments with different heaps implementations in Rust"
+    language: "Rust"
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2023-05-20"
+  - name: "gcups-rs"
+    title: "gcups-rs"
+    description: "Rust library and CLI for monitoring and controlling GreenCell UPS devices over USB HID, with a reverse-engineered protocol implementation replacing the proprietary Electron app."
+    language: "Rust"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-06-06"
 ---
 
 # zommiommy

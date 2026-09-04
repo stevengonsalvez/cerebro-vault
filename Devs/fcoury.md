@@ -9,8 +9,9 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
+  - "0388a4f55f4206c8"
   - "0577669e18ed3998"
   - "2204ba57be324ff7"
   - "3509861ced217170"
@@ -19,10 +20,11 @@ provenance:
   - "8c3dc2a0187cafcc"
   - "97091dd244ea12f9"
   - "9ba6f4189d8fbd6b"
+  - "9f28e3e9d3a9b17b"
   - "a8d513fb104884f5"
   - "c6b4a874521ceb02"
   - "e26852201e6f38fc"
-pushes_per_week: [30, 5, 3, 0, 3, 4, 16, 11, 3, 12, 22, 2, 0]
+pushes_per_week: [25, 7, 1, 1, 3, 4, 17, 9, 3, 22, 12, 2, 0]
 windows:
   "7d":
     pushes: 0
@@ -39,7 +41,7 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 111
+    pushes: 106
     distinct_repos: 11
     active_days: 37
     repos_not_owned: 4
@@ -47,7 +49,7 @@ windows:
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 3.0000
+  push_per_day: 2.8649
   repo_per_active_day: 0.2973
   not_owned_ratio: 0.3636
   basename_concentration: 0.1818
@@ -75,15 +77,15 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 111
+    pushes: 106
     distinct_repos: 11
-    pushes_per_repo: 10.0909
+    pushes_per_repo: 9.6364
     active_days: 37
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 2
 reasons:
-  - "provenance: 11 vault signal(s) — pass"
+  - "provenance: 13 vault signal(s) — pass"
   - "activity: 37 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
@@ -139,6 +141,6 @@ repos:
 
 # fcoury
 
-111 pushes across 11 repositories on 37 active days in the last 90 days of public GitHub push activity.
+106 pushes across 11 repositories on 37 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/fcoury

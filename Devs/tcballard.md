@@ -10,11 +10,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "c954be1eb1223fa4"
   - "eb166180687b6629"
-pushes_per_week: [48, 90, 128, 66, 75, 34, 33, 35, 25, 24, 2, 6, 10]
+pushes_per_week: [65, 89, 112, 75, 66, 38, 34, 31, 23, 24, 2, 6, 10]
 windows:
   "7d":
     pushes: 10
@@ -31,16 +31,16 @@ windows:
     not_owned_basenames: 8
     not_owned_owners: 1
   "90d":
-    pushes: 576
+    pushes: 575
     distinct_repos: 53
-    active_days: 78
+    active_days: 77
     repos_not_owned: 29
     not_owned_basenames: 26
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 7.3846
-  repo_per_active_day: 0.6795
+  push_per_day: 7.4675
+  repo_per_active_day: 0.6883
   not_owned_ratio: 0.5472
   basename_concentration: 0.0566
   shapes: []
@@ -67,16 +67,16 @@ facets:
     not_owned_basenames: 8
     not_owned_owners: 1
   "90d":
-    pushes: 576
+    pushes: 575
     distinct_repos: 53
-    pushes_per_repo: 10.8679
-    active_days: 78
+    pushes_per_repo: 10.8491
+    active_days: 77
     repos_not_owned: 29
     not_owned_basenames: 26
     not_owned_owners: 3
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 78 active days in 90d — pass"
+  - "activity: 77 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "omarchy-plugin-workbench"
@@ -131,6 +131,6 @@ repos:
 
 # tcballard
 
-576 pushes across 53 repositories on 78 active days in the last 90 days of public GitHub push activity.
+575 pushes across 53 repositories on 77 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/tcballard

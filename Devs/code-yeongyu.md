@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [180, 163, 121, 81, 102, 69, 62, 70, 41, 63, 36, 11, 13]
+pushes_per_week: [166, 152, 121, 76, 99, 89, 35, 77, 36, 67, 27, 11, 12]
 windows:
   "7d":
     pushes: 13
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 2
   "30d":
-    pushes: 125
+    pushes: 124
     distinct_repos: 10
     active_days: 24
     repos_not_owned: 6
     not_owned_basenames: 4
     not_owned_owners: 5
   "90d":
-    pushes: 1012
+    pushes: 968
     distinct_repos: 74
-    active_days: 84
+    active_days: 83
     repos_not_owned: 45
     not_owned_basenames: 7
     not_owned_owners: 42
 automation:
   state: "clear"
-  push_per_day: 12.0476
-  repo_per_active_day: 0.8810
+  push_per_day: 11.6627
+  repo_per_active_day: 0.8916
   not_owned_ratio: 0.6081
   basename_concentration: 0.3784
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 2
   "30d":
-    pushes: 125
+    pushes: 124
     distinct_repos: 10
-    pushes_per_repo: 12.5000
+    pushes_per_repo: 12.4000
     active_days: 24
     repos_not_owned: 6
     not_owned_basenames: 4
     not_owned_owners: 5
   "90d":
-    pushes: 1012
+    pushes: 968
     distinct_repos: 74
-    pushes_per_repo: 13.6757
-    active_days: 84
+    pushes_per_repo: 13.0811
+    active_days: 83
     repos_not_owned: 45
     not_owned_basenames: 7
     not_owned_owners: 42
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 84 active days in 90d — pass"
+  - "activity: 83 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "oh-my-openagent"
@@ -185,6 +185,6 @@ repos:
 
 # code-yeongyu
 
-1012 pushes across 74 repositories on 84 active days in the last 90 days of public GitHub push activity.
+968 pushes across 74 repositories on 83 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/code-yeongyu

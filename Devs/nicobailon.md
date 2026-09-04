@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [1, 4, 66, 78, 36, 27, 14, 43, 63, 78, 33, 22, 3]
+pushes_per_week: [0, 13, 57, 107, 11, 31, 19, 39, 61, 85, 21, 21, 2]
 windows:
   "7d":
     pushes: 3
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 160
-    distinct_repos: 25
-    active_days: 25
+    pushes: 156
+    distinct_repos: 24
+    active_days: 24
     repos_not_owned: 13
     not_owned_basenames: 5
     not_owned_owners: 13
   "90d":
-    pushes: 468
+    pushes: 467
     distinct_repos: 53
-    active_days: 57
+    active_days: 56
     repos_not_owned: 39
     not_owned_basenames: 7
     not_owned_owners: 39
 automation:
   state: "clear"
-  push_per_day: 8.2105
-  repo_per_active_day: 0.9298
+  push_per_day: 8.3393
+  repo_per_active_day: 0.9464
   not_owned_ratio: 0.7358
   basename_concentration: 0.3774
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 160
-    distinct_repos: 25
-    pushes_per_repo: 6.4000
-    active_days: 25
+    pushes: 156
+    distinct_repos: 24
+    pushes_per_repo: 6.5000
+    active_days: 24
     repos_not_owned: 13
     not_owned_basenames: 5
     not_owned_owners: 13
   "90d":
-    pushes: 468
+    pushes: 467
     distinct_repos: 53
-    pushes_per_repo: 8.8302
-    active_days: 57
+    pushes_per_repo: 8.8113
+    active_days: 56
     repos_not_owned: 39
     not_owned_basenames: 7
     not_owned_owners: 39
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 57 active days in 90d — pass"
+  - "activity: 56 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "pi-subagents"
@@ -141,6 +141,6 @@ repos:
 
 # nicobailon
 
-468 pushes across 53 repositories on 57 active days in the last 90 days of public GitHub push activity.
+467 pushes across 53 repositories on 56 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/nicobailon

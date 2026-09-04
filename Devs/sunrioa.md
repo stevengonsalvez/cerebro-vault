@@ -8,11 +8,11 @@ provenance_repos:
   - "apache/maka"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+repos_populated: true
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 1, 8, 0, 1, 1, 0, 0]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 1, 8, 0, 2, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,47 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "rin"
+    title: "rin"
+    description: "一款通用框架,用于快速开发Ren'Py / Unity / Godot / Unreal 等游戏框架游戏中AI NPC （目前处于前期开发阶段）"
+    language: "Go"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-26"
+  - name: "douyin-llmwiki-skill"
+    title: "douyin-llmwiki-skill"
+    description: "douyin-llmwiki-skill"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-06-05"
+  - name: "local-river"
+    title: "local-river"
+    description: "Markdown-first local AI agent workspace with a bilingual GUI, local Bridge, and coding-agent shim for task threads, decisions, actions, and reviewer corrections."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-06-09"
+  - name: "douyin-llmwiki"
+    title: "douyin-llmwiki"
+    description: "本地 CLI 工作流：输入单个公开视频的抖音分享链接，提取音频，调用阿里云百炼 ASR 转写，再用通义千问总结，最后写入 Obsidian Vault 的 LLMWiki Markdown 笔记。"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-06-13"
+  - name: "schquery-ai"
+    title: "schquery-ai"
+    description: "基于Spring Boot和Spring AI实现的问答助手"
+    language: "Java"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-06-05"
 ---
 
 # sunrioa

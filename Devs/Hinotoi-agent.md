@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "16389f32495280ea"
-pushes_per_week: [12, 8, 5, 12, 6, 0, 3, 3, 2, 0, 0, 0, 0]
+pushes_per_week: [12, 9, 4, 11, 6, 1, 2, 3, 2, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,7 +29,7 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 51
+    pushes: 50
     distinct_repos: 9
     active_days: 30
     repos_not_owned: 0
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.7000
+  push_per_day: 1.6667
   repo_per_active_day: 0.3000
   not_owned_ratio: 0.0000
   basename_concentration: 0.1111
@@ -65,9 +65,9 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 51
+    pushes: 50
     distinct_repos: 9
-    pushes_per_repo: 5.6667
+    pushes_per_repo: 5.5556
     active_days: 30
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -132,6 +132,6 @@ repos:
 
 # Hinotoi-agent
 
-51 pushes across 9 repositories on 30 active days in the last 90 days of public GitHub push activity.
+50 pushes across 9 repositories on 30 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Hinotoi-agent

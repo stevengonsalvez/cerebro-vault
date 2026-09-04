@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "48dbbdd8fd0d3029"
-pushes_per_week: [15, 9, 1, 6, 10, 1, 1, 4, 1, 0, 0, 0, 0]
+pushes_per_week: [12, 8, 1, 6, 10, 1, 1, 4, 1, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 48
+    pushes: 44
     distinct_repos: 11
-    active_days: 18
+    active_days: 17
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.6667
-  repo_per_active_day: 0.6111
+  push_per_day: 2.5882
+  repo_per_active_day: 0.6471
   not_owned_ratio: 0.1818
   basename_concentration: 0.0909
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 48
+    pushes: 44
     distinct_repos: 11
-    pushes_per_repo: 4.3636
-    active_days: 18
+    pushes_per_repo: 4.0000
+    active_days: 17
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 18 active days in 90d — pass"
+  - "activity: 17 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "jamiechicago312"
@@ -129,6 +129,6 @@ repos:
 
 # jamiechicago312
 
-48 pushes across 11 repositories on 18 active days in the last 90 days of public GitHub push activity.
+44 pushes across 11 repositories on 17 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/jamiechicago312

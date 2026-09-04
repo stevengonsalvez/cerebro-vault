@@ -8,11 +8,11 @@ provenance_repos:
   - "calesthio/OpenMontage"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+repos_populated: true
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "6d3bd03b49986330"
-pushes_per_week: [13, 17, 92, 41, 86, 73, 62, 39, 19, 39, 35, 22, 3]
+pushes_per_week: [12, 22, 87, 45, 94, 65, 64, 34, 16, 50, 26, 20, 3]
 windows:
   "7d":
     pushes: 3
@@ -22,25 +22,25 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 102
+    pushes: 101
     distinct_repos: 1
-    active_days: 21
+    active_days: 20
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 541
-    distinct_repos: 4
-    active_days: 78
+    pushes: 538
+    distinct_repos: 3
+    active_days: 77
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 6.9359
-  repo_per_active_day: 0.0513
+  push_per_day: 6.9870
+  repo_per_active_day: 0.0390
   not_owned_ratio: 0.0000
-  basename_concentration: 0.2500
+  basename_concentration: 0.3333
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -57,30 +57,78 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 102
+    pushes: 101
     distinct_repos: 1
-    pushes_per_repo: 102.0000
-    active_days: 21
+    pushes_per_repo: 101.0000
+    active_days: 20
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 541
-    distinct_repos: 4
-    pushes_per_repo: 135.2500
-    active_days: 78
+    pushes: 538
+    distinct_repos: 3
+    pushes_per_repo: 179.3333
+    active_days: 77
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 78 active days in 90d — pass"
+  - "activity: 77 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "video_generation"
+    title: "video_generation"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-03"
+  - name: "harness_dev"
+    title: "harness_dev"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-06-06"
+  - name: "bun_remotion"
+    title: "bun_remotion"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-05-04"
+  - name: "dev_mlx"
+    title: "dev_mlx"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-04-07"
+  - name: "ziyu4huang.github.io"
+    title: "ziyu4huang.github.io"
+    description: null
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2025-10-04"
+  - name: "i2c"
+    title: "i2c"
+    description: "i2c code for study GAI"
+    language: "Verilog"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2025-02-24"
 ---
 
 # ziyu4huang
 
-541 pushes across 4 repositories on 78 active days in the last 90 days of public GitHub push activity.
+538 pushes across 3 repositories on 77 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ziyu4huang

@@ -8,11 +8,11 @@ provenance_repos:
   - "affaan-m/ECC"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+repos_populated: true
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "edb3a626875732de"
-pushes_per_week: [0, 24, 12, 111, 27, 14, 8, 4, 0, 0, 1, 0, 0]
+pushes_per_week: [0, 24, 36, 88, 29, 16, 4, 3, 0, 1, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,66 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 29 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "mino-workspace"
+    title: "mino-workspace"
+    description: "MoneyAI-Agents 产品 Demo + 路演工作区模板：7 阶段全流程 + 机械校验门 + 模型档位适配层"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-27"
+  - name: "hollow-compliance-detector"
+    title: "hollow-compliance-detector"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-15"
+  - name: "YuhaoLin2005"
+    title: "YuhaoLin2005"
+    description: "Profile README"
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-14"
+  - name: "hermes-workspace"
+    title: "hermes-workspace"
+    description: "Does your AI agent actually follow rules? 13 pre-registered experiments + 5-layer verification architecture. Paper, data, code — all public."
+    language: "Python"
+    topics:
+      - "ai-alignment"
+      - "ai-product"
+      - "causal-verification"
+      - "cognitive-architecture"
+      - "deepseek"
+      - "global-workspace-theory"
+      - "j-space"
+      - "llm-architecture"
+      - "open-source"
+      - "prompt-engineering"
+      - "self-referential-systems"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-08-14"
+  - name: "paper-validator"
+    title: "paper-validator"
+    description: "One-command audit: python -m paper_validator claim --claim all --trials 30. Validates 8 governance claims against live LLM APIs."
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-14"
+  - name: "self-loop"
+    title: "self-loop"
+    description: "A mechanical freshness gate for a source→derived AI memory loop. Two scripts, no model in the decision."
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-13"
 ---
 
 # YuhaoLin2005

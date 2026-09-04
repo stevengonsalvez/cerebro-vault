@@ -8,11 +8,11 @@ provenance_repos:
   - "agavra/tuicr"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+repos_populated: true
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [4, 2, 5, 3, 3, 4, 4, 2, 0, 4, 2, 0, 0]
+pushes_per_week: [4, 2, 5, 3, 3, 6, 2, 2, 0, 5, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 24 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "rye-agent"
+    title: "rye-agent"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-03"
+  - name: "my_dotfiles"
+    title: "my_dotfiles"
+    description: "my user configs"
+    language: "Shell"
+    topics: []
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-09-03"
+  - name: "translate-cat"
+    title: "translate-cat"
+    description: "🐱 Translate YouTube subtitles and any selected text with your own AI provider."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-09-03"
+  - name: "kash-server"
+    title: "kash-server"
+    description: null
+    language: "Rust"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-31"
+  - name: "pi-usage"
+    title: "pi-usage"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-28"
+  - name: "pi-web-codex"
+    title: "pi-web-codex"
+    description: "Codex-style web.run web search and browsing tool as a Pi extension."
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-27"
 ---
 
 # yuhua99

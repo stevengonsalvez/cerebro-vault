@@ -8,11 +8,11 @@ provenance_repos:
   - "chopratejas/headroom"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+repos_populated: true
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "73468cde177ddae6"
-pushes_per_week: [2, 0, 8, 5, 5, 0, 1, 0, 0, 5, 0, 0, 0]
+pushes_per_week: [2, 0, 8, 7, 3, 0, 1, 0, 0, 5, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,67 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 11 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "tenderdeve"
+    title: "tenderdeve"
+    description: "Config files for my GitHub profile."
+    language: null
+    topics:
+      - "config"
+      - "github-config"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-20"
+  - name: "orders-settlements"
+    title: "orders-settlements"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-12"
+  - name: "defi-explainer"
+    title: "defi-explainer"
+    description: "AI-powered DeFi portfolio explainer — plain English reports, chat, and optimization suggestions"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-05-26"
+  - name: "crypto-will"
+    title: "crypto-will"
+    description: "Dead man's switch for crypto wallets — create wills, monthly alive checks, auto-transfer on inactivity"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-05-14"
+  - name: "defi-dashboard"
+    title: "defi-dashboard"
+    description: "Real-time DeFi portfolio dashboard — token prices, LP positions, P&L tracking — Next.js + wagmi + TailwindCSS"
+    language: "TypeScript"
+    topics:
+      - "dashboard"
+      - "defi"
+      - "ethers"
+      - "nextjs"
+      - "portfolio-tracker"
+      - "react"
+      - "tailwindcss"
+      - "typescript"
+      - "wagmi"
+      - "web3"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-04-28"
+  - name: "wallet-profiler"
+    title: "wallet-profiler"
+    description: "On-chain wallet analytics platform"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-03-27"
 ---
 
 # tenderdeve

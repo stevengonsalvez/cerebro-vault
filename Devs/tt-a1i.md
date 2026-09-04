@@ -11,11 +11,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "26de699d3e5c651e"
   - "4d1450729e6ff44d"
-pushes_per_week: [58, 16, 24, 12, 5, 11, 12, 10, 3, 3, 4, 15, 4]
+pushes_per_week: [47, 24, 17, 11, 6, 9, 12, 10, 3, 7, 0, 16, 3]
 windows:
   "7d":
     pushes: 4
@@ -32,7 +32,7 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 177
+    pushes: 165
     distinct_repos: 26
     active_days: 46
     repos_not_owned: 4
@@ -40,7 +40,7 @@ windows:
     not_owned_owners: 4
 automation:
   state: "clear"
-  push_per_day: 3.8478
+  push_per_day: 3.5870
   repo_per_active_day: 0.5652
   not_owned_ratio: 0.1538
   basename_concentration: 0.0769
@@ -68,9 +68,9 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 177
+    pushes: 165
     distinct_repos: 26
-    pushes_per_repo: 6.8077
+    pushes_per_repo: 6.3462
     active_days: 46
     repos_not_owned: 4
     not_owned_basenames: 3
@@ -193,6 +193,6 @@ repos:
 
 # tt-a1i
 
-177 pushes across 26 repositories on 46 active days in the last 90 days of public GitHub push activity.
+165 pushes across 26 repositories on 46 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/tt-a1i

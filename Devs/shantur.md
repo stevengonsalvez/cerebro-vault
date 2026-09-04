@@ -8,11 +8,11 @@ provenance_repos:
   - "anomalyco/opencode"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+repos_populated: true
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [6, 8, 2, 0, 0, 1, 0, 2, 0, 0, 0, 1, 0]
+pushes_per_week: [6, 10, 0, 0, 0, 1, 0, 2, 0, 0, 0, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,56 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 11 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "jarvis-mcp"
+    title: "jarvis-mcp"
+    description: "Bring your AI to life—talk to assistants instantly in your browser. Zero hassle, No API keys, No Whisper"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 93
+    first_seen: null
+    last_push: "2025-09-28"
+  - name: "opencode-gemini-auth"
+    title: "opencode-gemini-auth"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 29
+    first_seen: null
+    last_push: "2025-09-29"
+  - name: "Three-4G-Hub-Firmware-Analysis"
+    title: "Three-4G-Hub-Firmware-Analysis"
+    description: null
+    language: "Shell"
+    topics: []
+    stars_fact: 4
+    first_seen: null
+    last_push: "2023-05-27"
+  - name: "amd-strix-halo-fine-tuning-toolboxes"
+    title: "amd-strix-halo-fine-tuning-toolboxes"
+    description: "LLM Fine Tuning Toolbox images for Ryzen AI 395+ Strix Halo"
+    language: "Shell"
+    topics: []
+    stars_fact: 66
+    first_seen: null
+    last_push: "2025-09-12"
+  - name: "Hackintosh-Haswell-GA-Z97-RX-480"
+    title: "Hackintosh-Haswell-GA-Z97-RX-480"
+    description: "Repository for config I used for my hackintosh config on GA-Z97P-D3, i7 4790S and RX 480"
+    language: null
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2020-12-13"
+  - name: "github-webhook-firebase-pub-sub"
+    title: "github-webhook-firebase-pub-sub"
+    description: "Pub-Sub to get Github webhooks delivered to services behind NAT / Firewall"
+    language: "JavaScript"
+    topics:
+      - "webhooks"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2021-03-10"
 ---
 
 # shantur

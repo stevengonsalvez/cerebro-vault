@@ -8,11 +8,11 @@ provenance_repos:
   - "anomalyco/opencode"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+repos_populated: true
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [23, 7, 13, 3, 14, 10, 8, 4, 2, 6, 3, 5, 1]
+pushes_per_week: [24, 8, 13, 4, 13, 11, 7, 2, 2, 7, 3, 4, 1]
 windows:
   "7d":
     pushes: 1
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 46 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "opentui-tex"
+    title: "opentui-tex"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-03"
+  - name: "opentui-bench"
+    title: "opentui-bench"
+    description: null
+    language: "Go"
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-08-25"
+  - name: "godis"
+    title: "godis"
+    description: "godis - an old Redis client for Go"
+    language: "Go"
+    topics: []
+    stars_fact: 88
+    first_seen: null
+    last_push: "2020-02-17"
+  - name: "node-demo"
+    title: "node-demo"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-07-09"
+  - name: "tigerstyle"
+    title: "tigerstyle"
+    description: null
+    language: "HTML"
+    topics: []
+    stars_fact: 44
+    first_seen: null
+    last_push: "2025-11-29"
+  - name: "noeqd"
+    title: "noeqd"
+    description: null
+    language: "Go"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2013-12-15"
 ---
 
 # simonklee

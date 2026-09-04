@@ -8,11 +8,11 @@ provenance_repos:
   - "chopratejas/headroom"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+repos_populated: true
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "73468cde177ddae6"
-pushes_per_week: [3, 0, 0, 0, 35, 44, 29, 13, 1, 1, 0, 0, 0]
+pushes_per_week: [3, 0, 0, 0, 42, 44, 25, 10, 1, 1, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 25 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "myelin"
+    title: "myelin"
+    description: "The neural insulation layer for AI coding agents. 93% token reduction, 6× longer sessions. Serena + Semble + Headroom + RTK + mem0 in one installer."
+    language: "JavaScript"
+    topics:
+      - "ai-tools"
+      - "claude-code"
+      - "context-compression"
+      - "copilot"
+      - "developer-tools"
+      - "llm"
+      - "mcp"
+      - "token-efficiency"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-31"
+  - name: "headroom-lite"
+    title: "headroom-lite"
+    description: "Deterministic, infosec-safe token-compression sidecar - a Headroom replacement with no ML model, no unreviewed dependencies"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-07-27"
+  - name: "MongoDB-reindexer"
+    title: "MongoDB-reindexer"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-02-25"
+  - name: "netfree-shortcuts"
+    title: "netfree-shortcuts"
+    description: "keyboard shortcuts for netfree.link website"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2022-06-12"
+  - name: "netwiki-tippy"
+    title: "netwiki-tippy"
+    description: "add a tippy to netfrees wiki"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2022-06-12"
 ---
 
 # yehsuf

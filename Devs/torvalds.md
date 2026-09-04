@@ -8,11 +8,11 @@ provenance_repos:
   - "torvalds/linux"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+repos_populated: true
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "8a1948cc7f7c09c4"
-pushes_per_week: [14, 17, 13, 4, 4, 3, 5, 2, 4, 2, 3, 1, 0]
+pushes_per_week: [13, 18, 9, 4, 4, 4, 5, 4, 1, 2, 3, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 72
+    pushes: 68
     distinct_repos: 2
-    active_days: 41
+    active_days: 40
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.7561
-  repo_per_active_day: 0.0488
+  push_per_day: 1.7000
+  repo_per_active_day: 0.0500
   not_owned_ratio: 0.0000
   basename_concentration: 0.5000
   shapes: []
@@ -65,22 +65,70 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 72
+    pushes: 68
     distinct_repos: 2
-    pushes_per_repo: 36.0000
-    active_days: 41
+    pushes_per_repo: 34.0000
+    active_days: 40
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 41 active days in 90d — pass"
+  - "activity: 40 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "linux"
+    title: "linux"
+    description: "Linux kernel source tree"
+    language: "C"
+    topics: []
+    stars_fact: 246544
+    first_seen: "2026-08-23T06:00:01.522669+00:00"
+    last_push: "2026-09-04"
+  - name: "GuitarPedal"
+    title: "GuitarPedal"
+    description: "Linus learns analog circuits"
+    language: "C"
+    topics: []
+    stars_fact: 2286
+    first_seen: null
+    last_push: "2026-09-03"
+  - name: "uemacs"
+    title: "uemacs"
+    description: "Random version of microemacs with my private modificatons"
+    language: "C"
+    topics: []
+    stars_fact: 2123
+    first_seen: null
+    last_push: "2026-08-06"
+  - name: "test-tlb"
+    title: "test-tlb"
+    description: "Stupid memory latency and TLB tester"
+    language: "C"
+    topics: []
+    stars_fact: 1053
+    first_seen: null
+    last_push: "2024-08-19"
+  - name: "AudioNoise"
+    title: "AudioNoise"
+    description: "Random digital audio effects"
+    language: "C"
+    topics: []
+    stars_fact: 4484
+    first_seen: null
+    last_push: "2026-05-08"
+  - name: "ScrollWheel"
+    title: "ScrollWheel"
+    description: "Minimalist RP2350 magnetic sensor scroll wheel toy project"
+    language: "C"
+    topics: []
+    stars_fact: 369
+    first_seen: null
+    last_push: "2026-06-02"
 ---
 
 # torvalds
 
-72 pushes across 2 repositories on 41 active days in the last 90 days of public GitHub push activity.
+68 pushes across 2 repositories on 40 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/torvalds

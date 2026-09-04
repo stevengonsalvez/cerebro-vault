@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "c1af6b58492f9bf4"
-pushes_per_week: [44, 29, 37, 33, 26, 21, 21, 20, 8, 6, 2, 1, 0]
+pushes_per_week: [52, 16, 45, 29, 24, 22, 23, 19, 4, 7, 1, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 248
+    pushes: 243
     distinct_repos: 5
-    active_days: 50
+    active_days: 49
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 4.9600
-  repo_per_active_day: 0.1000
+  push_per_day: 4.9592
+  repo_per_active_day: 0.1020
   not_owned_ratio: 0.6000
   basename_concentration: 0.2000
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 248
+    pushes: 243
     distinct_repos: 5
-    pushes_per_repo: 49.6000
-    active_days: 50
+    pushes_per_repo: 48.6000
+    active_days: 49
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 50 active days in 90d — pass"
+  - "activity: 49 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "breakout-helper"
@@ -129,6 +129,6 @@ repos:
 
 # matt-greathouse
 
-248 pushes across 5 repositories on 50 active days in the last 90 days of public GitHub push activity.
+243 pushes across 5 repositories on 49 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/matt-greathouse

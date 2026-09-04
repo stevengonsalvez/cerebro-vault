@@ -8,11 +8,11 @@ provenance_repos:
   - "zachahn/vomit"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+repos_populated: true
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "09523f683853cee9"
-pushes_per_week: [1, 6, 0, 1, 3, 0, 0, 1, 0, 0, 1, 0, 0]
+pushes_per_week: [2, 5, 0, 1, 3, 0, 0, 1, 0, 0, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,58 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 11 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "vomit"
+    title: "vomit"
+    description: "Clean up Claude's token vomit with a separate LLM. Save your tokens, Opus is hopeless"
+    language: "Go"
+    topics:
+      - "ai"
+      - "ai-tools"
+      - "claude-code"
+    stars_fact: 188
+    first_seen: "2026-08-21T06:00:20.713166+00:00"
+    last_push: "2026-08-31"
+  - name: "disqualified"
+    title: "disqualified"
+    description: "A small background job framework for Rails apps"
+    language: "Ruby"
+    topics: []
+    stars_fact: 37
+    first_seen: null
+    last_push: "2024-12-08"
+  - name: "measured"
+    title: "measured"
+    description: "An agentic skills framework & software development methodology that works."
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-20"
+  - name: "git-cgi-server"
+    title: "git-cgi-server"
+    description: "cgit + git-http-backend + lighttpd in one container: browse, clone, and push git over HTTP"
+    language: "Rust"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-02"
+  - name: "Plunger"
+    title: "Plunger"
+    description: null
+    language: "Swift"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-07-12"
+  - name: "petite_vite_rails"
+    title: "petite_vite_rails"
+    description: null
+    language: "Ruby"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-08-21"
 ---
 
 # zachahn

@@ -8,8 +8,8 @@ provenance_repos:
   - "harveyai/harvey-labs"
 admitted: true
 low_n: true
-repos_populated: false
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+repos_populated: true
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "b1dcbece28dae08b"
 pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
@@ -76,7 +76,31 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 0 active days in 90d — below the 5-day line, LABELLED low-n (never suppressed)"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "nephy"
+    title: "nephy"
+    description: "Project for Bayes Hack 2016"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2016-04-28"
+  - name: "RZVision"
+    title: "RZVision"
+    description: null
+    language: "Swift"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2015-07-21"
+  - name: "shorb"
+    title: "shorb"
+    description: "Code used in controlling and analyzing data from ME135 - Microprocessor-Based Mechanical Systems"
+    language: "Arduino"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2013-06-09"
 ---
 
 # spencerp

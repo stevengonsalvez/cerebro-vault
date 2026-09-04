@@ -8,11 +8,11 @@ provenance_repos:
   - "allenai/olmocr"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+repos_populated: true
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "ae05babd8ff3098f"
-pushes_per_week: [4, 4, 3, 10, 1, 0, 0, 2, 0, 0, 0, 0, 0]
+pushes_per_week: [6, 2, 3, 10, 1, 0, 1, 1, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 12 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "VFMC"
+    title: "VFMC"
+    description: "VFMC is a tool for practicing FMC attempts virtually, using techniques typically used in Rubik's cube fewest-moves competitions"
+    language: "Python"
+    topics: []
+    stars_fact: 11
+    first_seen: null
+    last_push: "2026-08-25"
+  - name: "fmc-meta"
+    title: "fmc-meta"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2025-04-10"
+  - name: "scalark"
+    title: "scalark"
+    description: null
+    language: "Scala"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2016-10-02"
+  - name: "quisp"
+    title: "quisp"
+    description: "QUick Interactive Scala Plots"
+    language: "Scala"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2015-06-23"
+  - name: "tamc"
+    title: "tamc"
+    description: "Tyee Applied Math Club project"
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2015-05-04"
+  - name: "rulenlg"
+    title: "rulenlg"
+    description: "Generated natural-language sentences for Aristo rules from AI2 hackathon project"
+    language: "Scala"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2014-08-11"
 ---
 
 # rodneykinney

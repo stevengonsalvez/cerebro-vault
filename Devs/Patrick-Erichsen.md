@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "48dbbdd8fd0d3029"
-pushes_per_week: [60, 79, 58, 26, 25, 19, 84, 39, 32, 27, 10, 4, 5]
+pushes_per_week: [66, 68, 59, 18, 31, 39, 66, 41, 28, 25, 6, 7, 2]
 windows:
   "7d":
-    pushes: 7
-    distinct_repos: 3
-    active_days: 4
-    repos_not_owned: 3
+    pushes: 3
+    distinct_repos: 2
+    active_days: 3
+    repos_not_owned: 2
     not_owned_basenames: 2
-    not_owned_owners: 2
+    not_owned_owners: 1
   "30d":
-    pushes: 56
+    pushes: 54
     distinct_repos: 11
-    active_days: 17
+    active_days: 16
     repos_not_owned: 10
     not_owned_basenames: 5
     not_owned_owners: 7
   "90d":
-    pushes: 468
+    pushes: 456
     distinct_repos: 32
-    active_days: 67
+    active_days: 66
     repos_not_owned: 25
     not_owned_basenames: 13
     not_owned_owners: 13
 automation:
   state: "clear"
-  push_per_day: 6.9851
-  repo_per_active_day: 0.4776
+  push_per_day: 6.9091
+  repo_per_active_day: 0.4848
   not_owned_ratio: 0.7812
   basename_concentration: 0.2812
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 7
-    distinct_repos: 3
-    pushes_per_repo: 2.3333
-    active_days: 4
-    repos_not_owned: 3
+    pushes: 3
+    distinct_repos: 2
+    pushes_per_repo: 1.5000
+    active_days: 3
+    repos_not_owned: 2
     not_owned_basenames: 2
-    not_owned_owners: 2
+    not_owned_owners: 1
   "30d":
-    pushes: 56
+    pushes: 54
     distinct_repos: 11
-    pushes_per_repo: 5.0909
-    active_days: 17
+    pushes_per_repo: 4.9091
+    active_days: 16
     repos_not_owned: 10
     not_owned_basenames: 5
     not_owned_owners: 7
   "90d":
-    pushes: 468
+    pushes: 456
     distinct_repos: 32
-    pushes_per_repo: 14.6250
-    active_days: 67
+    pushes_per_repo: 14.2500
+    active_days: 66
     repos_not_owned: 25
     not_owned_basenames: 13
     not_owned_owners: 13
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 67 active days in 90d — pass"
+  - "activity: 66 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "openclaw-barnacle-fixture-131619-maintainer"
@@ -129,6 +129,6 @@ repos:
 
 # Patrick-Erichsen
 
-468 pushes across 32 repositories on 67 active days in the last 90 days of public GitHub push activity.
+456 pushes across 32 repositories on 66 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Patrick-Erichsen

@@ -8,11 +8,11 @@ provenance_repos:
   - "topoteretes/cognee"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+repos_populated: true
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "d399d99ef4e490b6"
-pushes_per_week: [21, 21, 24, 7, 3, 5, 11, 7, 2, 14, 3, 2, 1]
+pushes_per_week: [28, 20, 22, 2, 3, 6, 11, 7, 1, 15, 3, 1, 1]
 windows:
   "7d":
     pushes: 1
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 3
     not_owned_owners: 2
   "90d":
-    pushes: 121
+    pushes: 120
     distinct_repos: 9
-    active_days: 48
+    active_days: 47
     repos_not_owned: 9
     not_owned_basenames: 6
     not_owned_owners: 5
 automation:
   state: "clear"
-  push_per_day: 2.5208
-  repo_per_active_day: 0.1875
+  push_per_day: 2.5532
+  repo_per_active_day: 0.1915
   not_owned_ratio: 1.0000
   basename_concentration: 0.4444
   shapes: []
@@ -65,22 +65,70 @@ facets:
     not_owned_basenames: 3
     not_owned_owners: 2
   "90d":
-    pushes: 121
+    pushes: 120
     distinct_repos: 9
-    pushes_per_repo: 13.4444
-    active_days: 48
+    pushes_per_repo: 13.3333
+    active_days: 47
     repos_not_owned: 9
     not_owned_basenames: 6
     not_owned_owners: 5
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 48 active days in 90d — pass"
+  - "activity: 47 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "karpathy-wiki"
+    title: "karpathy-wiki"
+    description: "A wiki concept of Andrej Karpathy inspired by Andrej Karpathy"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-05-31"
+  - name: "docs"
+    title: "docs"
+    description: null
+    language: "MDX"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2025-08-16"
+  - name: "architecture"
+    title: "architecture"
+    description: "Demo"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2023-11-19"
+  - name: "ai_music"
+    title: "ai_music"
+    description: null
+    language: "Jupyter Notebook"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2022-07-12"
+  - name: "personal_site"
+    title: "personal_site"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2016-04-28"
+  - name: "stock_analysis"
+    title: "stock_analysis"
+    description: "Analysis of a random stock portfolio and aggregation of data"
+    language: "Jupyter Notebook"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2016-04-27"
 ---
 
 # Vasilije1990
 
-121 pushes across 9 repositories on 48 active days in the last 90 days of public GitHub push activity.
+120 pushes across 9 repositories on 47 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Vasilije1990

@@ -3,17 +3,16 @@ login: "DavidBabinec"
 name: null
 discovered_via: "vault"
 discovered_via_all:
-  - "fanout"
   - "vault"
 provenance_repos:
   - "CoreBunch/Instatic"
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "1d1683888d78abfd"
-pushes_per_week: [22, 29, 4, 26, 12, 3, 0, 3, 0, 2, 1, 0, 1]
+pushes_per_week: [33, 18, 6, 34, 4, 1, 1, 2, 0, 2, 1, 1, 0]
 windows:
   "7d":
     pushes: 1

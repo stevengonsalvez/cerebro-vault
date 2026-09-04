@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "379642deb53f3714"
-pushes_per_week: [4, 2, 13, 7, 5, 8, 7, 3, 2, 2, 5, 0, 0]
+pushes_per_week: [3, 2, 14, 6, 6, 11, 4, 2, 2, 3, 4, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,7 +29,7 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 58
+    pushes: 57
     distinct_repos: 8
     active_days: 34
     repos_not_owned: 1
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.7059
+  push_per_day: 1.6765
   repo_per_active_day: 0.2353
   not_owned_ratio: 0.1250
   basename_concentration: 0.1250
@@ -65,9 +65,9 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 58
+    pushes: 57
     distinct_repos: 8
-    pushes_per_repo: 7.2500
+    pushes_per_repo: 7.1250
     active_days: 34
     repos_not_owned: 1
     not_owned_basenames: 1
@@ -137,6 +137,6 @@ repos:
 
 # liby
 
-58 pushes across 8 repositories on 34 active days in the last 90 days of public GitHub push activity.
+57 pushes across 8 repositories on 34 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/liby

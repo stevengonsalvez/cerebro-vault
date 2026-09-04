@@ -8,11 +8,11 @@ provenance_repos:
   - "bytedance/deer-flow"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+repos_populated: true
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "16389f32495280ea"
-pushes_per_week: [0, 2, 1, 1, 4, 0, 1, 1, 1, 1, 3, 0, 0]
+pushes_per_week: [0, 3, 0, 1, 4, 0, 1, 1, 1, 2, 2, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,63 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 13 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "dsh-queue-plus"
+    title: "dsh-queue-plus"
+    description: "DSH 排队消息增强面板：编辑、删除、插话、排序与批量删除功能"
+    language: "TypeScript"
+    topics:
+      - "deepseek"
+      - "deepseek-harness"
+      - "dsh-plugin"
+      - "prompt-queue"
+    stars_fact: 16
+    first_seen: null
+    last_push: "2026-08-16"
+  - name: "dsh-blue-whale"
+    title: "dsh-blue-whale"
+    description: "复刻 DeepSeek Chat 蓝鲸配色的皮肤，亮色/深色跟随系统外观。"
+    language: "JavaScript"
+    topics:
+      - "deepseek-harness"
+      - "dsh"
+      - "dsh-plugin"
+      - "theme"
+    stars_fact: 7
+    first_seen: null
+    last_push: "2026-08-17"
+  - name: "qidianAgent"
+    title: "qidianAgent"
+    description: null
+    language: "Go"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-01"
+  - name: "paperReviewAgent"
+    title: "paperReviewAgent"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-03-19"
+  - name: "twitter-listening-agent"
+    title: "twitter-listening-agent"
+    description: "Python FastAPI + Next.js Social Listening Agent"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2025-11-30"
+  - name: "Mobile-wheeled-robot-master-ackermann-model"
+    title: "Mobile-wheeled-robot-master-ackermann-model"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2025-09-23"
 ---
 
 # starslittle

@@ -8,11 +8,11 @@ provenance_repos:
   - "abhigyanpatwari/GitNexus"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+repos_populated: true
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [0, 6, 1, 0, 3, 4, 0, 0, 0, 1, 0, 0, 0]
+pushes_per_week: [1, 5, 1, 2, 1, 4, 0, 0, 0, 1, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,47 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 11 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "provenance-web"
+    title: "provenance-web"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-03-20"
+  - name: "GPU_Simulator"
+    title: "GPU_Simulator"
+    description: "GPU simulator for showing the pipeline of how a GPU can take input data such as a matrix during ML training and break it down into parts all the way to binary to run parallel operations"
+    language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2025-02-21"
+  - name: "cog_bias_model"
+    title: "cog_bias_model"
+    description: "I had to teach a robot how to learn to like music... wouldn't recommend"
+    language: "C++"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2024-12-06"
+  - name: "rust-wallet"
+    title: "rust-wallet"
+    description: "lowkey just used this for setting up custom wallets for my trading bots"
+    language: "Makefile"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-01-31"
+  - name: "backprop_training_NNCD"
+    title: "backprop_training_NNCD"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2024-11-11"
 ---
 
 # zander-raycraft

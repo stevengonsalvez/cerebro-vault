@@ -8,8 +8,8 @@ provenance_repos:
   - "chopratejas/headroom"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+repos_populated: true
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "73468cde177ddae6"
 pushes_per_week: [0, 3, 0, 1, 1, 0, 7, 0, 1, 0, 0, 0, 0]
@@ -76,7 +76,49 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "VoiceLink"
+    title: "VoiceLink"
+    description: "RapidX AI voice agent: VoiceLink telephony + Gemini Live. Inbound + outbound AI phone calls, dashboard to place calls."
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-06-17"
+  - name: "shekharcharles"
+    title: "shekharcharles"
+    description: "Config files for my GitHub profile."
+    language: null
+    topics:
+      - "config"
+      - "github-config"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-06-16"
+  - name: "allchat"
+    title: "allchat"
+    description: null
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2025-06-20"
+  - name: "AndroSuite"
+    title: "AndroSuite"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2025-06-14"
+  - name: "shekharcharles.github.io"
+    title: "shekharcharles.github.io"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2022-06-04"
 ---
 
 # shekharcharles

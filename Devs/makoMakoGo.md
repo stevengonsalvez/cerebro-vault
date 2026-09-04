@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "c489e6fb5febf2ab"
-pushes_per_week: [44, 21, 28, 21, 42, 55, 31, 3, 1, 0, 6, 0, 0]
+pushes_per_week: [44, 22, 29, 21, 42, 57, 23, 3, 1, 4, 2, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 7
-    distinct_repos: 3
-    active_days: 3
+    pushes: 6
+    distinct_repos: 2
+    active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 252
+    pushes: 248
     distinct_repos: 18
-    active_days: 51
+    active_days: 50
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 4.9412
-  repo_per_active_day: 0.3529
+  push_per_day: 4.9600
+  repo_per_active_day: 0.3600
   not_owned_ratio: 0.1111
   basename_concentration: 0.1111
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 7
-    distinct_repos: 3
-    pushes_per_repo: 2.3333
-    active_days: 3
+    pushes: 6
+    distinct_repos: 2
+    pushes_per_repo: 3.0000
+    active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 252
+    pushes: 248
     distinct_repos: 18
-    pushes_per_repo: 14.0000
-    active_days: 51
+    pushes_per_repo: 13.7778
+    active_days: 50
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 51 active days in 90d — pass"
+  - "activity: 50 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "fish-claude"
@@ -152,6 +152,6 @@ repos:
 
 # makoMakoGo
 
-252 pushes across 18 repositories on 51 active days in the last 90 days of public GitHub push activity.
+248 pushes across 18 repositories on 50 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/makoMakoGo

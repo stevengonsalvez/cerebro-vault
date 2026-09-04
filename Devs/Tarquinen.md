@@ -8,11 +8,11 @@ provenance_repos:
   - "anomalyco/opencode"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+repos_populated: true
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [0, 4, 6, 1, 0, 1, 0, 0, 0, 0, 1, 0, 0]
+pushes_per_week: [0, 4, 7, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "oc-tps"
+    title: "oc-tps"
+    description: "OpenCode plugin for viewing LLM Tokens Per Second (TPS) rates"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 150
+    first_seen: null
+    last_push: "2026-08-19"
+  - name: "codex-fast-tier-repro"
+    title: "codex-fast-tier-repro"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-27"
+  - name: "opencode-smart-title"
+    title: "opencode-smart-title"
+    description: "Auto-generate meaningful session titles for OpenCode conversations using AI"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 52
+    first_seen: null
+    last_push: "2025-12-25"
+  - name: "opencodex-fast"
+    title: "opencodex-fast"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 14
+    first_seen: null
+    last_push: "2026-04-01"
+  - name: "opencode-vim"
+    title: "opencode-vim"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 20
+    first_seen: null
+    last_push: "2026-08-21"
+  - name: "statusline"
+    title: "statusline"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-05-09"
 ---
 
 # Tarquinen

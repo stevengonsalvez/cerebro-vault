@@ -8,11 +8,11 @@ provenance_repos:
   - "BuilderIO/agent-native"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+repos_populated: true
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "745308b2b7085095"
-pushes_per_week: [0, 3, 9, 5, 3, 0, 1, 0, 0, 0, 0, 0, 1]
+pushes_per_week: [0, 4, 10, 3, 3, 1, 0, 0, 0, 0, 0, 1, 0]
 windows:
   "7d":
     pushes: 1
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 12 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "mui-vite-qa-bot"
+    title: "mui-vite-qa-bot"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-02-17"
+  - name: "native-app-landmar"
+    title: "native-app-landmar"
+    description: null
+    language: "Swift"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2025-10-16"
+  - name: "native-app-test"
+    title: "native-app-test"
+    description: null
+    language: "Swift"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2025-10-14"
+  - name: "rn-test"
+    title: "rn-test"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2025-10-07"
+  - name: "wizard"
+    title: "wizard"
+    description: null
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2025-07-04"
+  - name: "walkthrough-components"
+    title: "walkthrough-components"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2025-07-04"
 ---
 
 # teleaziz

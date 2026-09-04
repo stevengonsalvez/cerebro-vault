@@ -8,11 +8,11 @@ provenance_repos:
   - "agavra/tuicr"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+repos_populated: true
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [0, 0, 0, 0, 1, 5, 3, 0, 0, 2, 2, 0, 0]
+pushes_per_week: [0, 0, 0, 0, 1, 5, 3, 0, 0, 4, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,57 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "travel-planner"
+    title: "travel-planner"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-15"
+  - name: "wishlist-bot"
+    title: "wishlist-bot"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-03-22"
+  - name: "boardgame-shopper"
+    title: "boardgame-shopper"
+    description: "App to automatically search for second-hand offers for games and notify via telegram"
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-03-17"
+  - name: "notify-bot"
+    title: "notify-bot"
+    description: "Telegram notifications bot"
+    language: "TypeScript"
+    topics:
+      - "telegram-bot"
+      - "webhook"
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-03-05"
+  - name: "notes-recorder"
+    title: "notes-recorder"
+    description: "A voice notes recorder that saves them as markdown"
+    language: "Swift"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-01-23"
+  - name: "gamecache"
+    title: "gamecache"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-02-16"
 ---
 
 # vandamm

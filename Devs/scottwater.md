@@ -8,16 +8,16 @@ provenance_repos:
   - "ColeMurray/background-agents"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+repos_populated: true
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "8311cfc3055f8fea"
-pushes_per_week: [4, 1, 1, 0, 0, 2, 0, 0, 0, 1, 0, 1, 1]
+pushes_per_week: [2, 1, 1, 0, 0, 2, 0, 0, 0, 1, 0, 1, 1]
 windows:
   "7d":
-    pushes: 2
-    distinct_repos: 2
-    active_days: 2
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 11
+    pushes: 9
     distinct_repos: 4
-    active_days: 9
+    active_days: 8
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.2222
-  repo_per_active_day: 0.4444
+  push_per_day: 1.1250
+  repo_per_active_day: 0.5000
   not_owned_ratio: 0.0000
   basename_concentration: 0.2500
   shapes: []
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
-    distinct_repos: 2
+    pushes: 1
+    distinct_repos: 1
     pushes_per_repo: 1.0000
-    active_days: 2
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -65,22 +65,74 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 11
+    pushes: 9
     distinct_repos: 4
-    pushes_per_repo: 2.7500
-    active_days: 9
+    pushes_per_repo: 2.2500
+    active_days: 8
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 9 active days in 90d — pass"
+  - "activity: 8 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "skills"
+    title: "skills"
+    description: null
+    language: "Shell"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-02"
+  - name: "dotfiles"
+    title: "dotfiles"
+    description: "Mi Dots"
+    language: "Shell"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-31"
+  - name: "parallel_specs"
+    title: "parallel_specs"
+    description: null
+    language: "Ruby"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-08-27"
+  - name: "stooges"
+    title: "stooges"
+    description: "A CLI for working with multiple git branches without worktrees"
+    language: "Go"
+    topics:
+      - "branches"
+      - "copy-on-write"
+      - "git"
+      - "productivity"
+    stars_fact: 5
+    first_seen: null
+    last_push: "2026-08-21"
+  - name: "lewp"
+    title: "lewp"
+    description: "Lew is a macOS local domain router/proxy"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-08-09"
+  - name: "lewp-reader"
+    title: "lewp-reader"
+    description: "Lewp reference web application"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-31"
 ---
 
 # scottwater
 
-11 pushes across 4 repositories on 9 active days in the last 90 days of public GitHub push activity.
+9 pushes across 4 repositories on 8 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/scottwater

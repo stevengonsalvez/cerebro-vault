@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "5cf3a28e1bfde5ac"
-pushes_per_week: [133, 168, 226, 81, 80, 67, 54, 43, 22, 7, 0, 18, 2]
+pushes_per_week: [172, 165, 195, 84, 66, 70, 47, 46, 20, 4, 0, 18, 2]
 windows:
   "7d":
-    pushes: 3
+    pushes: 2
     distinct_repos: 2
-    active_days: 2
+    active_days: 1
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
   "30d":
-    pushes: 36
-    distinct_repos: 6
-    active_days: 12
-    repos_not_owned: 3
-    not_owned_basenames: 3
+    pushes: 34
+    distinct_repos: 5
+    active_days: 11
+    repos_not_owned: 2
+    not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 901
+    pushes: 889
     distinct_repos: 18
-    active_days: 65
+    active_days: 64
     repos_not_owned: 9
     not_owned_basenames: 6
     not_owned_owners: 5
 automation:
   state: "clear"
-  push_per_day: 13.8615
-  repo_per_active_day: 0.2769
+  push_per_day: 13.8906
+  repo_per_active_day: 0.2812
   not_owned_ratio: 0.5000
   basename_concentration: 0.2778
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 3
+    pushes: 2
     distinct_repos: 2
-    pushes_per_repo: 1.5000
-    active_days: 2
+    pushes_per_repo: 1.0000
+    active_days: 1
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
   "30d":
-    pushes: 36
-    distinct_repos: 6
-    pushes_per_repo: 6.0000
-    active_days: 12
-    repos_not_owned: 3
-    not_owned_basenames: 3
+    pushes: 34
+    distinct_repos: 5
+    pushes_per_repo: 6.8000
+    active_days: 11
+    repos_not_owned: 2
+    not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 901
+    pushes: 889
     distinct_repos: 18
-    pushes_per_repo: 50.0556
-    active_days: 65
+    pushes_per_repo: 49.3889
+    active_days: 64
     repos_not_owned: 9
     not_owned_basenames: 6
     not_owned_owners: 5
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 65 active days in 90d — pass"
+  - "activity: 64 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "copilot-session-map-canvas"
@@ -151,6 +151,6 @@ repos:
 
 # Evangelink
 
-901 pushes across 18 repositories on 65 active days in the last 90 days of public GitHub push activity.
+889 pushes across 18 repositories on 64 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Evangelink

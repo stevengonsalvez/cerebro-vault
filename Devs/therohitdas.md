@@ -8,8 +8,8 @@ provenance_repos:
   - "alirezarezvani/claude-skills"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+repos_populated: true
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "3cb7ff1cdcf97c6b"
 pushes_per_week: [0, 0, 0, 5, 5, 0, 0, 1, 1, 1, 0, 4, 0]
@@ -76,7 +76,74 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 10 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "slkcli"
+    title: "slkcli"
+    description: "Slack CLI for macOS, so your agents can read and send messages 💬"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 12
+    first_seen: null
+    last_push: "2026-08-20"
+  - name: "Youtube-Transcript-Generator"
+    title: "Youtube-Transcript-Generator"
+    description: "Create transcripts of YouTube video in your favorite language. Use it for note-taking, chat with YouTube videos and for training data."
+    language: "Jupyter Notebook"
+    topics:
+      - "notes"
+      - "subtitles"
+      - "transcription"
+      - "youtube"
+      - "youtube-transcription"
+    stars_fact: 27
+    first_seen: null
+    last_push: "2024-02-11"
+  - name: "copy-env"
+    title: "copy-env"
+    description: "Copy local .env files to created worktrees. Works with all coding agents."
+    language: null
+    topics:
+      - "amp-code"
+      - "claude-code"
+      - "cursor-cli"
+      - "git-hooks"
+      - "opencode"
+    stars_fact: 25
+    first_seen: null
+    last_push: "2026-02-25"
+  - name: "ScreenFocus"
+    title: "ScreenFocus"
+    description: "A native macOS menu-bar utility that aligns keyboard focus with the display under your pointer."
+    language: "Swift"
+    topics:
+      - "accessibility"
+      - "macos"
+      - "menu-bar-app"
+      - "multi-monitor"
+      - "swift"
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-07-29"
+  - name: "therohitdas"
+    title: "therohitdas"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-12"
+  - name: "ship-a-product-skill"
+    title: "ship-a-product-skill"
+    description: "AI product planning skill for MVP scoping, feature prioritization, UX decisions, startup product strategy, and lean product launches."
+    language: null
+    topics:
+      - "agent-skill"
+      - "mvp"
+      - "product-strategy"
+      - "startup"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-07-04"
 ---
 
 # therohitdas

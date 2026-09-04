@@ -8,11 +8,11 @@ provenance_repos:
   - "abhigyanpatwari/GitNexus"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+repos_populated: true
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [2, 2, 4, 0, 5, 3, 2, 1, 3, 12, 9, 11, 0]
+pushes_per_week: [2, 2, 4, 0, 5, 5, 0, 1, 6, 13, 5, 11, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,80 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 27 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "Event-Horizon"
+    title: "Event-Horizon"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-04"
+  - name: "whiz"
+    title: "whiz"
+    description: "Transcribe, diarize, and analyze meetings with whisper.cpp — multi-speaker labels, cross-recording voice profiles, on-screen screenshots, AI summaries, and self-contained HTML transcripts. Pure Python stdlib."
+    language: "Python"
+    topics:
+      - "cli"
+      - "diarization"
+      - "ffmpeg"
+      - "meeting-notes"
+      - "ollama"
+      - "speaker-recognition"
+      - "speech-to-text"
+      - "transcription"
+      - "whisper"
+      - "whisper-cpp"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-04"
+  - name: "bearing"
+    title: "bearing"
+    description: "An intel layer for AI coding agents that assumes its own rules might be wrong — and keeps the evidence. Authoritative north-stars the agent must cite, a task-core written before compaction eats it, review by an expert in YOUR domain, and an installer that verifies its own claims instead of printing success. Claude Code, Cursor, Zed, Codex."
+    language: "JavaScript"
+    topics:
+      - "agentic-ai"
+      - "ai"
+      - "ai-agents"
+      - "claude"
+      - "claude-code"
+      - "code-review"
+      - "codex"
+      - "context-engineering"
+      - "cursor"
+      - "developer-tools"
+      - "gitnexus"
+      - "llm"
+      - "mcp"
+      - "prompt-engineering"
+      - "zed"
+    stars_fact: 6
+    first_seen: null
+    last_push: "2026-09-01"
+  - name: "alienware-x16r2-linux-speaker-fix"
+    title: "alienware-x16r2-linux-speaker-fix"
+    description: "Enable the Alienware x16 R2 internal speakers on Linux (Realtek ALC289 + dual Cirrus CS35L41 over SPI): SSDT overlay, kernel quirk, kernel-update automation, and the upstream patch series."
+    language: "Shell"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-07-14"
+  - name: "article-parser"
+    title: "article-parser"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-05-21"
+  - name: "NGIO_AutomationSuite"
+    title: "NGIO_AutomationSuite"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-04-28"
 ---
 
 # ReidenXerx

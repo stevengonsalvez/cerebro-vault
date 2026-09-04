@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [78, 30, 33, 64, 64, 43, 17, 26, 19, 18, 7, 4, 1]
+pushes_per_week: [68, 43, 17, 70, 62, 39, 21, 20, 21, 16, 6, 5, 0]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 404
+    pushes: 388
     distinct_repos: 32
-    active_days: 64
+    active_days: 63
     repos_not_owned: 6
     not_owned_basenames: 6
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 6.3125
-  repo_per_active_day: 0.5000
+  push_per_day: 6.1587
+  repo_per_active_day: 0.5079
   not_owned_ratio: 0.1875
   basename_concentration: 0.0312
   shapes: []
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 404
+    pushes: 388
     distinct_repos: 32
-    pushes_per_repo: 12.6250
-    active_days: 64
+    pushes_per_repo: 12.1250
+    active_days: 63
     repos_not_owned: 6
     not_owned_basenames: 6
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 64 active days in 90d — pass"
+  - "activity: 63 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "claude"
@@ -134,6 +134,6 @@ repos:
 
 # bendrucker
 
-404 pushes across 32 repositories on 64 active days in the last 90 days of public GitHub push activity.
+388 pushes across 32 repositories on 63 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/bendrucker

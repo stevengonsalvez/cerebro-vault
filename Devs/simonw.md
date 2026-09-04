@@ -21,7 +21,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "0726bc457d4dcf89"
   - "1be978947e68d1f2"
@@ -37,7 +37,7 @@ provenance:
   - "d61fc285c7155696"
   - "e76a6eae5d38637b"
   - "e7c647c4d0689526"
-pushes_per_week: [34, 38, 51, 14, 61, 25, 5, 24, 12, 19, 2, 2, 0]
+pushes_per_week: [34, 36, 53, 15, 58, 26, 4, 25, 10, 21, 1, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -47,23 +47,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 28
+    pushes: 26
     distinct_repos: 15
-    active_days: 10
+    active_days: 9
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 287
+    pushes: 284
     distinct_repos: 53
-    active_days: 60
+    active_days: 59
     repos_not_owned: 13
     not_owned_basenames: 12
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 4.7833
-  repo_per_active_day: 0.8833
+  push_per_day: 4.8136
+  repo_per_active_day: 0.8983
   not_owned_ratio: 0.2453
   basename_concentration: 0.0566
   shapes: []
@@ -82,24 +82,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 28
+    pushes: 26
     distinct_repos: 15
-    pushes_per_repo: 1.8667
-    active_days: 10
+    pushes_per_repo: 1.7333
+    active_days: 9
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 287
+    pushes: 284
     distinct_repos: 53
-    pushes_per_repo: 5.4151
-    active_days: 60
+    pushes_per_repo: 5.3585
+    active_days: 59
     repos_not_owned: 13
     not_owned_basenames: 12
     not_owned_owners: 3
 reasons:
   - "provenance: 14 vault signal(s) — pass"
-  - "activity: 60 active days in 90d — pass"
+  - "activity: 59 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "scrape-florida-outages"
@@ -155,6 +155,6 @@ repos:
 
 # simonw
 
-287 pushes across 53 repositories on 60 active days in the last 90 days of public GitHub push activity.
+284 pushes across 53 repositories on 59 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/simonw

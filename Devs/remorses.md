@@ -8,11 +8,11 @@ provenance_repos:
   - "anomalyco/opencode"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+repos_populated: true
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [17, 13, 12, 12, 5, 4, 7, 4, 1, 6, 0, 6, 1]
+pushes_per_week: [14, 11, 11, 15, 2, 5, 6, 4, 1, 6, 0, 6, 1]
 windows:
   "7d":
     pushes: 1
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 88
+    pushes: 82
     distinct_repos: 29
-    active_days: 43
+    active_days: 42
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.0465
-  repo_per_active_day: 0.6744
+  push_per_day: 1.9524
+  repo_per_active_day: 0.6905
   not_owned_ratio: 0.0345
   basename_concentration: 0.0345
   shapes: []
@@ -65,22 +65,81 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 88
+    pushes: 82
     distinct_repos: 29
-    pushes_per_repo: 3.0345
-    active_days: 43
+    pushes_per_repo: 2.8276
+    active_days: 42
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 43 active days in 90d — pass"
+  - "activity: 42 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "playwriter"
+    title: "playwriter"
+    description: "Chrome extension & CLI to let agents control your browser. Runs Playwright snippets in a stateful sandbox. Available as CLI or MCP"
+    language: "HTML"
+    topics:
+      - "mcp"
+      - "playwright"
+    stars_fact: 3853
+    first_seen: null
+    last_push: "2026-08-27"
+  - name: "gpuix"
+    title: "gpuix"
+    description: "Node.js & React bindings for Zed’s GPUI. Build memory efficient native apps with React and no Electron"
+    language: "Rust"
+    topics:
+      - "gpui"
+      - "zed"
+    stars_fact: 1495
+    first_seen: null
+    last_push: "2026-09-02"
+  - name: "kimaki"
+    title: "kimaki"
+    description: "all opencode features deeply integrated inside Discord. each project is a channel. each session a thread"
+    language: "TypeScript"
+    topics:
+      - "clawdbot"
+      - "discord"
+      - "openclaw-alternative"
+      - "opencode"
+    stars_fact: 1395
+    first_seen: null
+    last_push: "2026-09-02"
+  - name: "tuitube"
+    title: "tuitube"
+    description: "Download videos from the command line with a TUI"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 789
+    first_seen: null
+    last_push: "2026-01-12"
+  - name: "usecomputer"
+    title: "usecomputer"
+    description: "Fast computer automation CLI for AI agents. Control any desktop with screenshots, clicks, typing, scrolling, and more."
+    language: "Zig"
+    topics: []
+    stars_fact: 318
+    first_seen: null
+    last_push: "2026-07-21"
+  - name: "critique"
+    title: "critique"
+    description: "TUI & website for reviewing git changes"
+    language: "TypeScript"
+    topics:
+      - "diff"
+      - "opentui"
+      - "tui"
+    stars_fact: 1270
+    first_seen: null
+    last_push: "2026-09-02"
 ---
 
 # remorses
 
-88 pushes across 29 repositories on 43 active days in the last 90 days of public GitHub push activity.
+82 pushes across 29 repositories on 42 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/remorses

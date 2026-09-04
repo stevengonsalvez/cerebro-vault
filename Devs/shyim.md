@@ -8,11 +8,11 @@ provenance_repos:
   - "alibaba/open-code-review"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+repos_populated: true
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "c489e6fb5febf2ab"
-pushes_per_week: [38, 47, 81, 57, 29, 17, 11, 11, 12, 6, 9, 2, 2]
+pushes_per_week: [38, 54, 81, 52, 33, 12, 11, 10, 13, 7, 7, 3, 1]
 windows:
   "7d":
     pushes: 2
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 23
+    pushes: 22
     distinct_repos: 9
-    active_days: 15
+    active_days: 14
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 2
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 23
+    pushes: 22
     distinct_repos: 9
-    pushes_per_repo: 2.5556
-    active_days: 15
+    pushes_per_repo: 2.4444
+    active_days: 14
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 2
@@ -76,7 +76,75 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 64 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "shyim"
+    title: "shyim"
+    description: "✨ special ✨ repository ✨"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-04"
+  - name: "mochi"
+    title: "mochi"
+    description: null
+    language: "Makefile"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-04"
+  - name: "go-queue"
+    title: "go-queue"
+    description: "Type-safe message queue library for Go with generics"
+    language: "Go"
+    topics:
+      - "amqp"
+      - "generics"
+      - "go"
+      - "golang"
+      - "message-queue"
+      - "opentelemetry"
+      - "postgresql"
+      - "queue"
+      - "rabbitmq"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-04"
+  - name: "local-s3"
+    title: "local-s3"
+    description: "Lightweight S3-compatible server for local development and testing"
+    language: "Go"
+    topics:
+      - "development-tools"
+      - "docker"
+      - "golang"
+      - "object-storage"
+      - "s3"
+      - "s3-compatible"
+    stars_fact: 8
+    first_seen: null
+    last_push: "2026-04-08"
+  - name: "agm"
+    title: "agm"
+    description: "Multi-account CLI for Antigravity (agy / IDE / desktop)"
+    language: "Go"
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-07-13"
+  - name: "docker-backup"
+    title: "docker-backup"
+    description: "A powerful, label-driven backup daemon for Docker containers with scheduled backups, multiple storage backends, and a beautiful web dashboard."
+    language: "Go"
+    topics:
+      - "backup"
+      - "backup-script"
+      - "backup-too"
+      - "container"
+      - "docker"
+    stars_fact: 8
+    first_seen: null
+    last_push: "2026-09-03"
 ---
 
 # shyim

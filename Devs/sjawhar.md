@@ -8,11 +8,11 @@ provenance_repos:
   - "can1357/oh-my-pi"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+repos_populated: true
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [6, 3, 15, 1, 2, 13, 17, 5, 8, 3, 24, 3, 1]
+pushes_per_week: [8, 6, 10, 1, 2, 17, 13, 6, 8, 2, 24, 3, 1]
 windows:
   "7d":
     pushes: 1
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 33
+    pushes: 32
     distinct_repos: 11
-    active_days: 12
+    active_days: 11
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 33
+    pushes: 32
     distinct_repos: 11
-    pushes_per_repo: 3.0000
-    active_days: 12
+    pushes_per_repo: 2.9091
+    active_days: 11
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
@@ -76,7 +76,63 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 45 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "dotfiles"
+    title: "dotfiles"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-09-04"
+  - name: "knives"
+    title: "knives"
+    description: "Fork maintenance status across many repos at once: branch vs origin vs upstream, pull request and CI state, dated releases, and which agent is holding what."
+    language: "Rust"
+    topics:
+      - "ai-agents"
+      - "cli"
+      - "downstream-patches"
+      - "fork-maintenance"
+      - "jj"
+      - "jujutsu"
+      - "opencode"
+      - "rust"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-04"
+  - name: "legion"
+    title: "legion"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-09-04"
+  - name: "mailbox"
+    title: "mailbox"
+    description: null
+    language: "Go"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-01"
+  - name: "time-tracker"
+    title: "time-tracker"
+    description: null
+    language: "Rust"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-08-31"
+  - name: "forward"
+    title: "forward"
+    description: "Open devbox URLs and files in the laptop browser over the devbox SSH tunnel"
+    language: "Rust"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-30"
 ---
 
 # sjawhar

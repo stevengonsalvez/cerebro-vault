@@ -8,11 +8,11 @@ provenance_repos:
   - "can1357/oh-my-pi"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+repos_populated: true
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [34, 52, 44, 77, 30, 25, 15, 13, 8, 10, 1, 7, 0]
+pushes_per_week: [32, 50, 47, 79, 24, 30, 12, 11, 7, 11, 0, 7, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 19
+    pushes: 18
     distinct_repos: 1
-    active_days: 10
+    active_days: 9
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 316
+    pushes: 310
     distinct_repos: 1
-    active_days: 62
+    active_days: 61
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 5.0968
-  repo_per_active_day: 0.0161
+  push_per_day: 5.0820
+  repo_per_active_day: 0.0164
   not_owned_ratio: 1.0000
   basename_concentration: 1.0000
   shapes: []
@@ -57,30 +57,30 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 19
+    pushes: 18
     distinct_repos: 1
-    pushes_per_repo: 19.0000
-    active_days: 10
+    pushes_per_repo: 18.0000
+    active_days: 9
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 316
+    pushes: 310
     distinct_repos: 1
-    pushes_per_repo: 316.0000
-    active_days: 62
+    pushes_per_repo: 310.0000
+    active_days: 61
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 62 active days in 90d — pass"
+  - "activity: 61 active days in 90d — pass"
   - "automation: clear — pass"
 repos: []
 ---
 
 # roboomp
 
-316 pushes across 1 repository on 62 active days in the last 90 days of public GitHub push activity.
+310 pushes across 1 repository on 61 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/roboomp

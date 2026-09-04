@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [16, 0, 8, 24, 84, 43, 50, 24, 10, 15, 5, 8, 7]
+pushes_per_week: [15, 1, 8, 38, 73, 47, 53, 14, 9, 16, 4, 8, 7]
 windows:
   "7d":
-    pushes: 9
+    pushes: 7
     distinct_repos: 2
-    active_days: 3
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 39
+    pushes: 37
     distinct_repos: 4
-    active_days: 14
+    active_days: 13
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 294
-    distinct_repos: 7
-    active_days: 52
+    pushes: 293
+    distinct_repos: 6
+    active_days: 51
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 5.6538
-  repo_per_active_day: 0.1346
+  push_per_day: 5.7451
+  repo_per_active_day: 0.1176
   not_owned_ratio: 0.0000
-  basename_concentration: 0.1429
+  basename_concentration: 0.1667
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 9
+    pushes: 7
     distinct_repos: 2
-    pushes_per_repo: 4.5000
-    active_days: 3
+    pushes_per_repo: 3.5000
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 39
+    pushes: 37
     distinct_repos: 4
-    pushes_per_repo: 9.7500
-    active_days: 14
+    pushes_per_repo: 9.2500
+    active_days: 13
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 294
-    distinct_repos: 7
-    pushes_per_repo: 42.0000
-    active_days: 52
+    pushes: 293
+    distinct_repos: 6
+    pushes_per_repo: 48.8333
+    active_days: 51
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 52 active days in 90d — pass"
+  - "activity: 51 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "breadboard"
@@ -134,6 +134,6 @@ repos:
 
 # kmccleary3301
 
-294 pushes across 7 repositories on 52 active days in the last 90 days of public GitHub push activity.
+293 pushes across 6 repositories on 51 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/kmccleary3301

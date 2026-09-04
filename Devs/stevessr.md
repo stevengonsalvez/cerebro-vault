@@ -8,14 +8,14 @@ provenance_repos:
   - "AstrBotDevs/AstrBot"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+repos_populated: true
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [12, 11, 16, 7, 5, 3, 12, 32, 5, 2, 3, 8, 14]
+pushes_per_week: [14, 9, 16, 9, 5, 3, 11, 33, 3, 3, 3, 13, 8]
 windows:
   "7d":
-    pushes: 14
+    pushes: 13
     distinct_repos: 3
     active_days: 5
     repos_not_owned: 0
@@ -49,9 +49,9 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 14
+    pushes: 13
     distinct_repos: 3
-    pushes_per_repo: 4.6667
+    pushes_per_repo: 4.3333
     active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 48 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "custom_lib_build"
+    title: "custom_lib_build"
+    description: null
+    language: "Shell"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-04"
+  - name: "Extera"
+    title: "Extera"
+    description: null
+    language: "Dart"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-02"
+  - name: "web-bridge"
+    title: "web-bridge"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-03"
+  - name: "Neurogate"
+    title: "Neurogate"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-02"
+  - name: "agent-ebpf-filter"
+    title: "agent-ebpf-filter"
+    description: null
+    language: "Go"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-04"
+  - name: "mcp-file-bridge"
+    title: "mcp-file-bridge"
+    description: "Remote MCP file bridge for sandbox artifacts"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-31"
 ---
 
 # stevessr

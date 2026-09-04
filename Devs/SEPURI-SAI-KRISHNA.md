@@ -8,11 +8,11 @@ provenance_repos:
   - "Alishahryar1/free-claude-code"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+repos_populated: true
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "9d67ce648f6a8919"
-pushes_per_week: [2, 3, 14, 4, 3, 0, 3, 2, 2, 7, 1, 1, 0]
+pushes_per_week: [2, 4, 17, 0, 3, 0, 4, 1, 3, 6, 1, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 27 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "SEPURI-SAI-KRISHNA"
+    title: "SEPURI-SAI-KRISHNA"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-04"
+  - name: "Hackathon-Radar"
+    title: "Hackathon-Radar"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-03"
+  - name: "twolang-lab"
+    title: "twolang-lab"
+    description: null
+    language: "Jupyter Notebook"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-30"
+  - name: "data-engineering-playbook"
+    title: "data-engineering-playbook"
+    description: "My data-engineering playbook — system design, architecture, migrations, Spark/Flink/Postgres"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-24"
+  - name: "til-everything"
+    title: "til-everything"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-18"
+  - name: "Strivers_without_leetcode"
+    title: "Strivers_without_leetcode"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-17"
 ---
 
 # SEPURI-SAI-KRISHNA

@@ -8,11 +8,11 @@ provenance_repos:
   - "affaan-m/ECC"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+repos_populated: true
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "edb3a626875732de"
-pushes_per_week: [0, 1, 2, 2, 2, 0, 0, 0, 0, 1, 0, 0, 0]
+pushes_per_week: [0, 1, 3, 1, 2, 0, 0, 0, 0, 1, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "vladyslavTEZYK"
+    title: "vladyslavTEZYK"
+    description: "My personal repo"
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-31"
+  - name: "lab-aihero-skills"
+    title: "lab-aihero-skills"
+    description: null
+    language: "Shell"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-12"
+  - name: "zod-matt-pocock"
+    title: "zod-matt-pocock"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-07-29"
+  - name: "ts-errors-messages-mattpocock"
+    title: "ts-errors-messages-mattpocock"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-07-28"
+  - name: "ts-pro-essential-mattpocock"
+    title: "ts-pro-essential-mattpocock"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-07-17"
+  - name: "typescript-for-react-mattpocock"
+    title: "typescript-for-react-mattpocock"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-07-17"
 ---
 
 # vladyslavTezyk

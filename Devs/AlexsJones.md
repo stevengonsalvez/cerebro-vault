@@ -10,10 +10,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [11, 38, 17, 19, 43, 25, 16, 2, 9, 18, 4, 1, 2]
+pushes_per_week: [13, 36, 17, 31, 34, 23, 14, 4, 7, 22, 0, 2, 1]
 windows:
   "7d":
     pushes: 2
@@ -23,23 +23,23 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 29
+    pushes: 27
     distinct_repos: 6
     active_days: 12
     repos_not_owned: 4
     not_owned_basenames: 3
     not_owned_owners: 3
   "90d":
-    pushes: 205
+    pushes: 204
     distinct_repos: 17
-    active_days: 54
+    active_days: 53
     repos_not_owned: 8
     not_owned_basenames: 6
     not_owned_owners: 4
 automation:
   state: "clear"
-  push_per_day: 3.7963
-  repo_per_active_day: 0.3148
+  push_per_day: 3.8491
+  repo_per_active_day: 0.3208
   not_owned_ratio: 0.4706
   basename_concentration: 0.1765
   shapes: []
@@ -58,24 +58,24 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 29
+    pushes: 27
     distinct_repos: 6
-    pushes_per_repo: 4.8333
+    pushes_per_repo: 4.5000
     active_days: 12
     repos_not_owned: 4
     not_owned_basenames: 3
     not_owned_owners: 3
   "90d":
-    pushes: 205
+    pushes: 204
     distinct_repos: 17
-    pushes_per_repo: 12.0588
-    active_days: 54
+    pushes_per_repo: 12.0000
+    active_days: 53
     repos_not_owned: 8
     not_owned_basenames: 6
     not_owned_owners: 4
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 54 active days in 90d — pass"
+  - "activity: 53 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "llmfit"
@@ -136,6 +136,6 @@ repos:
 
 # AlexsJones
 
-205 pushes across 17 repositories on 54 active days in the last 90 days of public GitHub push activity.
+204 pushes across 17 repositories on 53 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/AlexsJones

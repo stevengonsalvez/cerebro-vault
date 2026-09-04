@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [30, 14, 11, 15, 0, 1, 1, 7, 5, 3, 3, 0, 0]
+pushes_per_week: [22, 18, 7, 15, 0, 1, 2, 7, 4, 6, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,7 +29,7 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 90
+    pushes: 82
     distinct_repos: 12
     active_days: 23
     repos_not_owned: 1
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 3.9130
+  push_per_day: 3.5652
   repo_per_active_day: 0.5217
   not_owned_ratio: 0.0833
   basename_concentration: 0.0833
@@ -65,9 +65,9 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 90
+    pushes: 82
     distinct_repos: 12
-    pushes_per_repo: 7.5000
+    pushes_per_repo: 6.8333
     active_days: 23
     repos_not_owned: 1
     not_owned_basenames: 1
@@ -129,6 +129,6 @@ repos:
 
 # lingyun14beta
 
-90 pushes across 12 repositories on 23 active days in the last 90 days of public GitHub push activity.
+82 pushes across 12 repositories on 23 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/lingyun14beta

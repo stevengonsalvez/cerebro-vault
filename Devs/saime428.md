@@ -8,11 +8,11 @@ provenance_repos:
   - "AlexsJones/llmfit"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+repos_populated: true
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [0, 4, 1, 0, 3, 1, 5, 1, 1, 0, 1, 0, 0]
+pushes_per_week: [1, 3, 1, 0, 3, 5, 2, 0, 1, 1, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,87 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 12 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "ai-code-usage-tray"
+    title: "ai-code-usage-tray"
+    description: "Windows tray monitor for Claude Code and Codex usage, limits, and sessions"
+    language: "JavaScript"
+    topics:
+      - "anthropic"
+      - "claude-code"
+      - "codex"
+      - "electron"
+      - "openai"
+      - "system-tray"
+      - "usage-monitor"
+      - "windows"
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-08-27"
+  - name: "saime428"
+    title: "saime428"
+    description: "Personal GitHub profile"
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-04"
+  - name: "agent-archive"
+    title: "agent-archive"
+    description: "Local coding agent core: MCP runtime, multi-provider LLM, sandboxed tools. 988 tests."
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-14"
+  - name: "fxlab"
+    title: "fxlab"
+    description: "Copy-paste web motion patterns with live demos. Zero-deps demos, AI-friendly INDEX + Claude skill."
+    language: "HTML"
+    topics:
+      - "agent-skills"
+      - "claude"
+      - "creative-coding"
+      - "css"
+      - "demo"
+      - "frontend"
+      - "javascript"
+      - "landing-page"
+      - "motion-design"
+      - "opensource"
+      - "pattern-library"
+      - "ui"
+      - "view-transitions"
+      - "web-animation"
+      - "webgl"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-07-28"
+  - name: "web-fx-lab"
+    title: "web-fx-lab"
+    description: null
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-07-28"
+  - name: "DreamLoop"
+    title: "DreamLoop"
+    description: "Local-first AI dream journal. Pattern discovery with Ollama. Your dreams never leave your machine."
+    language: "Python"
+    topics:
+      - "ai-analysis"
+      - "dream-journal"
+      - "fastapi"
+      - "local-first"
+      - "obsidian"
+      - "ollama"
+      - "privacy"
+      - "python"
+      - "self-hosted"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-07-27"
 ---
 
 # saime428

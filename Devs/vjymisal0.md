@@ -8,16 +8,16 @@ provenance_repos:
   - "alibaba/open-code-review"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+repos_populated: true
+generated_at: "2026-09-04T06:06:21.234597+00:00"
 provenance:
   - "c489e6fb5febf2ab"
-pushes_per_week: [0, 0, 3, 1, 4, 0, 4, 0, 0, 6, 2, 1, 2]
+pushes_per_week: [0, 3, 0, 1, 4, 0, 4, 0, 1, 5, 2, 3, 0]
 windows:
   "7d":
-    pushes: 2
-    distinct_repos: 2
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
-    distinct_repos: 2
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -76,7 +76,78 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 15 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "portfolio-vijay"
+    title: "portfolio-vijay"
+    description: "Personal portfolio — Next.js, TypeScript, Tailwind, shadcn/ui, Framer Motion"
+    language: "TypeScript"
+    topics:
+      - "framer-motion"
+      - "nextjs"
+      - "nodemailer"
+      - "portfolio"
+      - "shadcn-ui"
+      - "tailwindcss"
+      - "typescript"
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-09-03"
+  - name: "vjymisal0"
+    title: "vjymisal0"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-08-28"
+  - name: "sandbox-contrib-test"
+    title: "sandbox-contrib-test"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-17"
+  - name: "pan-validator"
+    title: "pan-validator"
+    description: "Validate and parse Indian PAN (Permanent Account Number) card numbers — published npm package"
+    language: "JavaScript"
+    topics:
+      - "india"
+      - "javascript"
+      - "npm-package"
+      - "pan-card"
+      - "validation"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-07"
+  - name: "gstin-validate"
+    title: "gstin-validate"
+    description: "Validate and parse Indian GSTIN numbers with checksum verification — published npm package"
+    language: "JavaScript"
+    topics:
+      - "gstin"
+      - "india"
+      - "javascript"
+      - "npm-package"
+      - "tax"
+      - "validation"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-07"
+  - name: "blur-score"
+    title: "blur-score"
+    description: "Detect how blurry an image is (0-1 sharpness score) using Laplacian variance — published npm package"
+    language: "JavaScript"
+    topics:
+      - "image-processing"
+      - "javascript"
+      - "laplacian"
+      - "npm-package"
+      - "sharpness"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-07"
 ---
 
 # vjymisal0
