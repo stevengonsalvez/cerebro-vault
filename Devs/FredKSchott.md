@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-04T06:06:21.234597+00:00"
+generated_at: "2026-09-05T06:07:00.404056+00:00"
 provenance:
   - "b1a4604cc570de42"
-pushes_per_week: [18, 29, 20, 8, 1, 0, 1, 0, 1, 0, 0, 0, 0]
+pushes_per_week: [21, 26, 20, 8, 0, 0, 1, 0, 1, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 78
+    pushes: 77
     distinct_repos: 3
-    active_days: 28
+    active_days: 27
     repos_not_owned: 3
     not_owned_basenames: 1
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 2.7857
-  repo_per_active_day: 0.1071
+  push_per_day: 2.8519
+  repo_per_active_day: 0.1111
   not_owned_ratio: 1.0000
   basename_concentration: 1.0000
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 78
+    pushes: 77
     distinct_repos: 3
-    pushes_per_repo: 26.0000
-    active_days: 28
+    pushes_per_repo: 25.6667
+    active_days: 27
     repos_not_owned: 3
     not_owned_basenames: 1
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 28 active days in 90d — pass"
+  - "activity: 27 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "snowpack"
@@ -132,6 +132,6 @@ repos:
 
 # FredKSchott
 
-78 pushes across 3 repositories on 28 active days in the last 90 days of public GitHub push activity.
+77 pushes across 3 repositories on 27 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/FredKSchott

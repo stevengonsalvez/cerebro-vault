@@ -10,11 +10,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-04T06:06:21.234597+00:00"
+generated_at: "2026-09-05T06:07:00.404056+00:00"
 provenance:
   - "16389f32495280ea"
   - "d1946b21c02e5fa5"
-pushes_per_week: [44, 27, 19, 2, 6, 1, 0, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [27, 32, 14, 6, 1, 1, 0, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -31,18 +31,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 99
-    distinct_repos: 29
-    active_days: 23
+    pushes: 81
+    distinct_repos: 18
+    active_days: 22
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 4.3043
-  repo_per_active_day: 1.2609
-  not_owned_ratio: 0.0345
-  basename_concentration: 0.0690
+  push_per_day: 3.6818
+  repo_per_active_day: 0.8182
+  not_owned_ratio: 0.0556
+  basename_concentration: 0.1111
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -67,16 +67,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 99
-    distinct_repos: 29
-    pushes_per_repo: 3.4138
-    active_days: 23
+    pushes: 81
+    distinct_repos: 18
+    pushes_per_repo: 4.5000
+    active_days: 22
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 23 active days in 90d — pass"
+  - "activity: 22 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "studio-director"
@@ -140,6 +140,6 @@ repos:
 
 # 64johnlee
 
-99 pushes across 29 repositories on 23 active days in the last 90 days of public GitHub push activity.
+81 pushes across 18 repositories on 22 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/64johnlee

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-04T06:06:21.234597+00:00"
+generated_at: "2026-09-05T06:07:00.404056+00:00"
 provenance:
   - "379642deb53f3714"
-pushes_per_week: [9, 9, 4, 7, 12, 9, 9, 9, 4, 7, 3, 5, 5]
+pushes_per_week: [11, 6, 6, 6, 13, 9, 8, 9, 3, 10, 3, 2, 5]
 windows:
   "7d":
     pushes: 5
@@ -29,7 +29,7 @@ windows:
     not_owned_basenames: 3
     not_owned_owners: 2
   "90d":
-    pushes: 92
+    pushes: 91
     distinct_repos: 14
     active_days: 51
     repos_not_owned: 7
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 1.8039
+  push_per_day: 1.7843
   repo_per_active_day: 0.2745
   not_owned_ratio: 0.5000
   basename_concentration: 0.0714
@@ -65,9 +65,9 @@ facets:
     not_owned_basenames: 3
     not_owned_owners: 2
   "90d":
-    pushes: 92
+    pushes: 91
     distinct_repos: 14
-    pushes_per_repo: 6.5714
+    pushes_per_repo: 6.5000
     active_days: 51
     repos_not_owned: 7
     not_owned_basenames: 7
@@ -129,6 +129,6 @@ repos:
 
 # ashutoshpw
 
-92 pushes across 14 repositories on 51 active days in the last 90 days of public GitHub push activity.
+91 pushes across 14 repositories on 51 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ashutoshpw

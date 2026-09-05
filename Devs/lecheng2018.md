@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-04T06:06:21.234597+00:00"
+generated_at: "2026-09-05T06:07:00.404056+00:00"
 provenance:
   - "541318303a272608"
-pushes_per_week: [7, 4, 17, 25, 6, 0, 3, 1, 5, 0, 1, 0, 0]
+pushes_per_week: [1, 4, 18, 27, 3, 0, 3, 1, 5, 0, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 6
-    distinct_repos: 3
-    active_days: 3
+    pushes: 3
+    distinct_repos: 2
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 69
+    pushes: 63
     distinct_repos: 9
-    active_days: 26
+    active_days: 25
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.6538
-  repo_per_active_day: 0.3462
+  push_per_day: 2.5200
+  repo_per_active_day: 0.3600
   not_owned_ratio: 0.1111
   basename_concentration: 0.1111
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 6
-    distinct_repos: 3
-    pushes_per_repo: 2.0000
-    active_days: 3
+    pushes: 3
+    distinct_repos: 2
+    pushes_per_repo: 1.5000
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 69
+    pushes: 63
     distinct_repos: 9
-    pushes_per_repo: 7.6667
-    active_days: 26
+    pushes_per_repo: 7.0000
+    active_days: 25
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 26 active days in 90d — pass"
+  - "activity: 25 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "adblock-rules"
@@ -105,6 +105,6 @@ repos:
 
 # lecheng2018
 
-69 pushes across 9 repositories on 26 active days in the last 90 days of public GitHub push activity.
+63 pushes across 9 repositories on 25 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/lecheng2018

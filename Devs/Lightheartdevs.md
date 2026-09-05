@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-04T06:06:21.234597+00:00"
+generated_at: "2026-09-05T06:07:00.404056+00:00"
 provenance:
   - "e12e7a321e45ada2"
-pushes_per_week: [24, 12, 8, 12, 14, 16, 67, 30, 0, 1, 0, 0, 0]
+pushes_per_week: [20, 11, 16, 4, 15, 20, 67, 25, 0, 1, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,7 +29,7 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 184
+    pushes: 179
     distinct_repos: 10
     active_days: 35
     repos_not_owned: 8
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 6
 automation:
   state: "clear"
-  push_per_day: 5.2571
+  push_per_day: 5.1143
   repo_per_active_day: 0.2857
   not_owned_ratio: 0.8000
   basename_concentration: 0.5000
@@ -65,9 +65,9 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 184
+    pushes: 179
     distinct_repos: 10
-    pushes_per_repo: 18.4000
+    pushes_per_repo: 17.9000
     active_days: 35
     repos_not_owned: 8
     not_owned_basenames: 3
@@ -89,6 +89,6 @@ repos:
 
 # Lightheartdevs
 
-184 pushes across 10 repositories on 35 active days in the last 90 days of public GitHub push activity.
+179 pushes across 10 repositories on 35 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Lightheartdevs

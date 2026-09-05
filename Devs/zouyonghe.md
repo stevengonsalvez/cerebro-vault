@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-04T06:06:21.234597+00:00"
+generated_at: "2026-09-05T06:07:00.404056+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [25, 14, 5, 15, 10, 1, 3, 0, 2, 7, 2, 0, 0]
+pushes_per_week: [24, 14, 5, 15, 10, 1, 3, 0, 2, 8, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 84
+    pushes: 83
     distinct_repos: 20
-    active_days: 30
+    active_days: 29
     repos_not_owned: 5
     not_owned_basenames: 4
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 2.8000
-  repo_per_active_day: 0.6667
+  push_per_day: 2.8621
+  repo_per_active_day: 0.6897
   not_owned_ratio: 0.2500
   basename_concentration: 0.1500
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 84
+    pushes: 83
     distinct_repos: 20
-    pushes_per_repo: 4.2000
-    active_days: 30
+    pushes_per_repo: 4.1500
+    active_days: 29
     repos_not_owned: 5
     not_owned_basenames: 4
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 30 active days in 90d — pass"
+  - "activity: 29 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "remove-duplicate-files"
@@ -129,6 +129,6 @@ repos:
 
 # zouyonghe
 
-84 pushes across 20 repositories on 30 active days in the last 90 days of public GitHub push activity.
+83 pushes across 20 repositories on 29 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/zouyonghe

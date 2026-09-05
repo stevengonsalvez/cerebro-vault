@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-04T06:06:21.234597+00:00"
+generated_at: "2026-09-05T06:07:00.404056+00:00"
 provenance:
   - "83e0e833f0504fcd"
-pushes_per_week: [12, 16, 1, 0, 0, 8, 4, 7, 6, 9, 0, 3, 0]
+pushes_per_week: [4, 16, 1, 0, 0, 8, 5, 6, 6, 9, 0, 3, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,25 +22,25 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 15
+    pushes: 14
     distinct_repos: 1
-    active_days: 8
+    active_days: 7
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 66
-    distinct_repos: 13
-    active_days: 25
-    repos_not_owned: 8
-    not_owned_basenames: 6
-    not_owned_owners: 4
+    pushes: 58
+    distinct_repos: 12
+    active_days: 24
+    repos_not_owned: 7
+    not_owned_basenames: 5
+    not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 2.6400
-  repo_per_active_day: 0.5200
-  not_owned_ratio: 0.6154
-  basename_concentration: 0.2308
+  push_per_day: 2.4167
+  repo_per_active_day: 0.5000
+  not_owned_ratio: 0.5833
+  basename_concentration: 0.2500
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 15
+    pushes: 14
     distinct_repos: 1
-    pushes_per_repo: 15.0000
-    active_days: 8
+    pushes_per_repo: 14.0000
+    active_days: 7
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 66
-    distinct_repos: 13
-    pushes_per_repo: 5.0769
-    active_days: 25
-    repos_not_owned: 8
-    not_owned_basenames: 6
-    not_owned_owners: 4
+    pushes: 58
+    distinct_repos: 12
+    pushes_per_repo: 4.8333
+    active_days: 24
+    repos_not_owned: 7
+    not_owned_basenames: 5
+    not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 25 active days in 90d — pass"
+  - "activity: 24 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "obsidian-skills"
@@ -184,6 +184,6 @@ repos:
 
 # kepano
 
-66 pushes across 13 repositories on 25 active days in the last 90 days of public GitHub push activity.
+58 pushes across 12 repositories on 24 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/kepano

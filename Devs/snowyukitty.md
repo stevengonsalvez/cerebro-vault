@@ -10,11 +10,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-04T06:06:21.234597+00:00"
+generated_at: "2026-09-05T06:07:00.404056+00:00"
 provenance:
   - "386c24cf5e18fd90"
   - "9e2ff10d772b1e71"
-pushes_per_week: [2, 2, 10, 6, 1, 2, 5, 7, 5, 6, 3, 3, 0]
+pushes_per_week: [1, 2, 12, 4, 1, 2, 9, 3, 5, 7, 2, 3, 0]
 windows:
   "7d":
     pushes: 0
@@ -31,16 +31,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 52
+    pushes: 51
     distinct_repos: 23
-    active_days: 36
+    active_days: 35
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.4444
-  repo_per_active_day: 0.6389
+  push_per_day: 1.4571
+  repo_per_active_day: 0.6571
   not_owned_ratio: 0.0000
   basename_concentration: 0.0435
   shapes: []
@@ -67,16 +67,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 52
+    pushes: 51
     distinct_repos: 23
-    pushes_per_repo: 2.2609
-    active_days: 36
+    pushes_per_repo: 2.2174
+    active_days: 35
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 36 active days in 90d — pass"
+  - "activity: 35 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "morflo"
@@ -204,6 +204,6 @@ repos:
 
 # snowyukitty
 
-52 pushes across 23 repositories on 36 active days in the last 90 days of public GitHub push activity.
+51 pushes across 23 repositories on 35 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/snowyukitty

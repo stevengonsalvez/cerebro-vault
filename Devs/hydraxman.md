@@ -11,12 +11,12 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-04T06:06:21.234597+00:00"
+generated_at: "2026-09-05T06:07:00.404056+00:00"
 provenance:
   - "4a45ac7a449df20e"
   - "4d1450729e6ff44d"
   - "8311cfc3055f8fea"
-pushes_per_week: [6, 8, 6, 0, 0, 3, 5, 1, 1, 4, 4, 2, 0]
+pushes_per_week: [5, 7, 6, 0, 0, 3, 5, 1, 1, 5, 3, 2, 0]
 windows:
   "7d":
     pushes: 0
@@ -33,7 +33,7 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 40
+    pushes: 38
     distinct_repos: 8
     active_days: 29
     repos_not_owned: 2
@@ -41,7 +41,7 @@ windows:
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 1.3793
+  push_per_day: 1.3103
   repo_per_active_day: 0.2759
   not_owned_ratio: 0.2500
   basename_concentration: 0.1250
@@ -69,9 +69,9 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 40
+    pushes: 38
     distinct_repos: 8
-    pushes_per_repo: 5.0000
+    pushes_per_repo: 4.7500
     active_days: 29
     repos_not_owned: 2
     not_owned_basenames: 2
@@ -144,6 +144,6 @@ repos:
 
 # hydraxman
 
-40 pushes across 8 repositories on 29 active days in the last 90 days of public GitHub push activity.
+38 pushes across 8 repositories on 29 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/hydraxman

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-04T06:06:21.234597+00:00"
+generated_at: "2026-09-05T06:07:00.404056+00:00"
 provenance:
   - "16389f32495280ea"
-pushes_per_week: [10, 1, 0, 5, 7, 7, 2, 4, 1, 8, 5, 1, 1]
+pushes_per_week: [10, 0, 0, 5, 9, 5, 2, 4, 4, 8, 2, 1, 1]
 windows:
   "7d":
     pushes: 1
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 52
+    pushes: 51
     distinct_repos: 13
-    active_days: 29
+    active_days: 28
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.7931
-  repo_per_active_day: 0.4483
+  push_per_day: 1.8214
+  repo_per_active_day: 0.4643
   not_owned_ratio: 0.0000
   basename_concentration: 0.0769
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 52
+    pushes: 51
     distinct_repos: 13
-    pushes_per_repo: 4.0000
-    active_days: 29
+    pushes_per_repo: 3.9231
+    active_days: 28
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 29 active days in 90d — pass"
+  - "activity: 28 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "pi-zen-mode"
@@ -144,6 +144,6 @@ repos:
 
 # wutongyuonce
 
-52 pushes across 13 repositories on 29 active days in the last 90 days of public GitHub push activity.
+51 pushes across 13 repositories on 28 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/wutongyuonce

@@ -11,16 +11,16 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-04T06:06:21.234597+00:00"
+generated_at: "2026-09-05T06:07:00.404056+00:00"
 provenance:
   - "26de699d3e5c651e"
   - "4d1450729e6ff44d"
-pushes_per_week: [47, 24, 17, 11, 6, 9, 12, 10, 3, 7, 0, 16, 3]
+pushes_per_week: [6, 29, 20, 4, 4, 9, 12, 10, 3, 7, 4, 13, 2]
 windows:
   "7d":
-    pushes: 4
+    pushes: 3
     distinct_repos: 1
-    active_days: 3
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -32,16 +32,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 165
+    pushes: 123
     distinct_repos: 26
-    active_days: 46
+    active_days: 45
     repos_not_owned: 4
     not_owned_basenames: 3
     not_owned_owners: 4
 automation:
   state: "clear"
-  push_per_day: 3.5870
-  repo_per_active_day: 0.5652
+  push_per_day: 2.7333
+  repo_per_active_day: 0.5778
   not_owned_ratio: 0.1538
   basename_concentration: 0.0769
   shapes: []
@@ -52,10 +52,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 4
+    pushes: 3
     distinct_repos: 1
-    pushes_per_repo: 4.0000
-    active_days: 3
+    pushes_per_repo: 3.0000
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -68,16 +68,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 165
+    pushes: 123
     distinct_repos: 26
-    pushes_per_repo: 6.3462
-    active_days: 46
+    pushes_per_repo: 4.7308
+    active_days: 45
     repos_not_owned: 4
     not_owned_basenames: 3
     not_owned_owners: 4
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 46 active days in 90d — pass"
+  - "activity: 45 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "archify"
@@ -193,6 +193,6 @@ repos:
 
 # tt-a1i
 
-165 pushes across 26 repositories on 46 active days in the last 90 days of public GitHub push activity.
+123 pushes across 26 repositories on 45 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/tt-a1i

@@ -10,10 +10,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-04T06:06:21.234597+00:00"
+generated_at: "2026-09-05T06:07:00.404056+00:00"
 provenance:
   - "edb3a626875732de"
-pushes_per_week: [32, 19, 9, 16, 11, 0, 10, 7, 4, 1, 0, 1, 0]
+pushes_per_week: [9, 20, 8, 26, 1, 0, 11, 6, 4, 1, 0, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -30,7 +30,7 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 110
+    pushes: 87
     distinct_repos: 6
     active_days: 26
     repos_not_owned: 2
@@ -38,7 +38,7 @@ windows:
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 4.2308
+  push_per_day: 3.3462
   repo_per_active_day: 0.2308
   not_owned_ratio: 0.3333
   basename_concentration: 0.3333
@@ -66,9 +66,9 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 110
+    pushes: 87
     distinct_repos: 6
-    pushes_per_repo: 18.3333
+    pushes_per_repo: 14.5000
     active_days: 26
     repos_not_owned: 2
     not_owned_basenames: 2
@@ -159,6 +159,6 @@ repos:
 
 # affaan-m
 
-110 pushes across 6 repositories on 26 active days in the last 90 days of public GitHub push activity.
+87 pushes across 6 repositories on 26 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/affaan-m

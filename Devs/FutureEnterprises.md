@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-04T06:06:21.234597+00:00"
+generated_at: "2026-09-05T06:07:00.404056+00:00"
 provenance:
   - "b7bec34541d2ddb0"
-pushes_per_week: [49, 29, 62, 94, 33, 20, 54, 22, 14, 25, 17, 7, 2]
+pushes_per_week: [69, 20, 55, 90, 36, 31, 41, 21, 17, 25, 19, 1, 2]
 windows:
   "7d":
     pushes: 2
@@ -22,14 +22,14 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 58
+    pushes: 56
     distinct_repos: 2
-    active_days: 18
+    active_days: 17
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 428
+    pushes: 427
     distinct_repos: 8
     active_days: 71
     repos_not_owned: 1
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 6.0282
+  push_per_day: 6.0141
   repo_per_active_day: 0.1127
   not_owned_ratio: 0.1250
   basename_concentration: 0.1250
@@ -57,17 +57,17 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 58
+    pushes: 56
     distinct_repos: 2
-    pushes_per_repo: 29.0000
-    active_days: 18
+    pushes_per_repo: 28.0000
+    active_days: 17
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 428
+    pushes: 427
     distinct_repos: 8
-    pushes_per_repo: 53.5000
+    pushes_per_repo: 53.3750
     active_days: 71
     repos_not_owned: 1
     not_owned_basenames: 1
@@ -97,6 +97,6 @@ repos:
 
 # FutureEnterprises
 
-428 pushes across 8 repositories on 71 active days in the last 90 days of public GitHub push activity.
+427 pushes across 8 repositories on 71 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/FutureEnterprises

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-04T06:06:21.234597+00:00"
+generated_at: "2026-09-05T06:07:00.404056+00:00"
 provenance:
   - "90688bf127241ceb"
-pushes_per_week: [7, 2, 6, 6, 2, 18, 19, 0, 0, 3, 0, 1, 0]
+pushes_per_week: [7, 5, 2, 6, 2, 18, 19, 0, 2, 1, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 64
+    pushes: 63
     distinct_repos: 6
-    active_days: 31
+    active_days: 30
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.0645
-  repo_per_active_day: 0.1935
+  push_per_day: 2.1000
+  repo_per_active_day: 0.2000
   not_owned_ratio: 0.0000
   basename_concentration: 0.1667
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 64
+    pushes: 63
     distinct_repos: 6
-    pushes_per_repo: 10.6667
-    active_days: 31
+    pushes_per_repo: 10.5000
+    active_days: 30
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 31 active days in 90d — pass"
+  - "activity: 30 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "healing-planet"
@@ -131,6 +131,6 @@ repos:
 
 # waangzh
 
-64 pushes across 6 repositories on 31 active days in the last 90 days of public GitHub push activity.
+63 pushes across 6 repositories on 30 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/waangzh

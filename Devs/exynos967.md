@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-04T06:06:21.234597+00:00"
+generated_at: "2026-09-05T06:07:00.404056+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [14, 17, 13, 31, 0, 27, 1, 1, 0, 7, 0, 0, 0]
+pushes_per_week: [14, 14, 13, 31, 0, 27, 2, 0, 1, 6, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 111
-    distinct_repos: 18
+    pushes: 108
+    distinct_repos: 17
     active_days: 25
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 4.4400
-  repo_per_active_day: 0.7200
+  push_per_day: 4.3200
+  repo_per_active_day: 0.6800
   not_owned_ratio: 0.0000
-  basename_concentration: 0.0556
+  basename_concentration: 0.0588
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,9 +65,9 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 111
-    distinct_repos: 18
-    pushes_per_repo: 6.1667
+    pushes: 108
+    distinct_repos: 17
+    pushes_per_repo: 6.3529
     active_days: 25
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -129,6 +129,6 @@ repos:
 
 # exynos967
 
-111 pushes across 18 repositories on 25 active days in the last 90 days of public GitHub push activity.
+108 pushes across 17 repositories on 25 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/exynos967

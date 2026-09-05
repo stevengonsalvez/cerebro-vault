@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-04T06:06:21.234597+00:00"
+generated_at: "2026-09-05T06:07:00.404056+00:00"
 provenance:
   - "16389f32495280ea"
-pushes_per_week: [22, 14, 11, 23, 19, 12, 4, 7, 2, 6, 3, 2, 0]
+pushes_per_week: [20, 13, 12, 24, 18, 11, 4, 7, 2, 6, 3, 2, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,7 +29,7 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 125
+    pushes: 122
     distinct_repos: 3
     active_days: 53
     repos_not_owned: 0
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.3585
+  push_per_day: 2.3019
   repo_per_active_day: 0.0566
   not_owned_ratio: 0.0000
   basename_concentration: 0.3333
@@ -65,9 +65,9 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 125
+    pushes: 122
     distinct_repos: 3
-    pushes_per_repo: 41.6667
+    pushes_per_repo: 40.6667
     active_days: 53
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -145,6 +145,6 @@ repos:
 
 # Abeautifulsnow
 
-125 pushes across 3 repositories on 53 active days in the last 90 days of public GitHub push activity.
+122 pushes across 3 repositories on 53 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Abeautifulsnow

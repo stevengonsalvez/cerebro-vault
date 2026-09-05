@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-04T06:06:21.234597+00:00"
+generated_at: "2026-09-05T06:07:00.404056+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [75, 42, 3, 48, 28, 21, 20, 27, 21, 19, 2, 17, 0]
+pushes_per_week: [56, 14, 6, 58, 17, 29, 17, 26, 27, 7, 4, 15, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 42
+    pushes: 41
     distinct_repos: 10
-    active_days: 14
+    active_days: 13
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 2
   "90d":
-    pushes: 323
+    pushes: 276
     distinct_repos: 20
-    active_days: 62
+    active_days: 61
     repos_not_owned: 9
     not_owned_basenames: 9
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 5.2097
-  repo_per_active_day: 0.3226
+  push_per_day: 4.5246
+  repo_per_active_day: 0.3279
   not_owned_ratio: 0.4500
   basename_concentration: 0.1000
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 42
+    pushes: 41
     distinct_repos: 10
-    pushes_per_repo: 4.2000
-    active_days: 14
+    pushes_per_repo: 4.1000
+    active_days: 13
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 2
   "90d":
-    pushes: 323
+    pushes: 276
     distinct_repos: 20
-    pushes_per_repo: 16.1500
-    active_days: 62
+    pushes_per_repo: 13.8000
+    active_days: 61
     repos_not_owned: 9
     not_owned_basenames: 9
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 62 active days in 90d — pass"
+  - "activity: 61 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "omp-plugin-nomnoml-better-diagram"
@@ -147,6 +147,6 @@ repos:
 
 # metaphorics
 
-323 pushes across 20 repositories on 62 active days in the last 90 days of public GitHub push activity.
+276 pushes across 20 repositories on 61 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/metaphorics

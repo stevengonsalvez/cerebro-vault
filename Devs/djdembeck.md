@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-04T06:06:21.234597+00:00"
+generated_at: "2026-09-05T06:07:00.404056+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [11, 2, 3, 2, 0, 9, 19, 24, 9, 25, 1, 1, 0]
+pushes_per_week: [9, 3, 2, 2, 0, 11, 26, 19, 17, 13, 1, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 30
+    pushes: 28
     distinct_repos: 10
-    active_days: 11
+    active_days: 9
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 106
+    pushes: 104
     distinct_repos: 12
-    active_days: 41
+    active_days: 40
     repos_not_owned: 3
     not_owned_basenames: 2
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 2.5854
-  repo_per_active_day: 0.2927
+  push_per_day: 2.6000
+  repo_per_active_day: 0.3000
   not_owned_ratio: 0.2500
   basename_concentration: 0.1667
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 30
+    pushes: 28
     distinct_repos: 10
-    pushes_per_repo: 3.0000
-    active_days: 11
+    pushes_per_repo: 2.8000
+    active_days: 9
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 106
+    pushes: 104
     distinct_repos: 12
-    pushes_per_repo: 8.8333
-    active_days: 41
+    pushes_per_repo: 8.6667
+    active_days: 40
     repos_not_owned: 3
     not_owned_basenames: 2
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 41 active days in 90d — pass"
+  - "activity: 40 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "Audnexus.bundle"
@@ -173,6 +173,6 @@ repos:
 
 # djdembeck
 
-106 pushes across 12 repositories on 41 active days in the last 90 days of public GitHub push activity.
+104 pushes across 12 repositories on 40 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/djdembeck

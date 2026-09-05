@@ -11,12 +11,12 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-04T06:06:21.234597+00:00"
+generated_at: "2026-09-05T06:07:00.404056+00:00"
 provenance:
   - "16389f32495280ea"
   - "234088bc43763aa2"
   - "4d1450729e6ff44d"
-pushes_per_week: [32, 48, 47, 35, 37, 21, 36, 19, 18, 53, 20, 9, 2]
+pushes_per_week: [26, 64, 27, 35, 37, 25, 37, 12, 18, 60, 17, 5, 2]
 windows:
   "7d":
     pushes: 2
@@ -26,25 +26,25 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 96
-    distinct_repos: 31
-    active_days: 19
+    pushes: 88
+    distinct_repos: 29
+    active_days: 18
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 2
   "90d":
-    pushes: 377
-    distinct_repos: 76
-    active_days: 71
+    pushes: 365
+    distinct_repos: 74
+    active_days: 70
     repos_not_owned: 7
     not_owned_basenames: 7
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 5.3099
-  repo_per_active_day: 1.0704
-  not_owned_ratio: 0.0921
-  basename_concentration: 0.0263
+  push_per_day: 5.2143
+  repo_per_active_day: 1.0571
+  not_owned_ratio: 0.0946
+  basename_concentration: 0.0270
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -61,24 +61,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 96
-    distinct_repos: 31
-    pushes_per_repo: 3.0968
-    active_days: 19
+    pushes: 88
+    distinct_repos: 29
+    pushes_per_repo: 3.0345
+    active_days: 18
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 2
   "90d":
-    pushes: 377
-    distinct_repos: 76
-    pushes_per_repo: 4.9605
-    active_days: 71
+    pushes: 365
+    distinct_repos: 74
+    pushes_per_repo: 4.9324
+    active_days: 70
     repos_not_owned: 7
     not_owned_basenames: 7
     not_owned_owners: 3
 reasons:
   - "provenance: 3 vault signal(s) — pass"
-  - "activity: 71 active days in 90d — pass"
+  - "activity: 70 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "Agent-Harness-Runtime"
@@ -141,6 +141,6 @@ repos:
 
 # luojiyin1987
 
-377 pushes across 76 repositories on 71 active days in the last 90 days of public GitHub push activity.
+365 pushes across 74 repositories on 70 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/luojiyin1987

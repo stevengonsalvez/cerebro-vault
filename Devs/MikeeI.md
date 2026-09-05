@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-04T06:06:21.234597+00:00"
+generated_at: "2026-09-05T06:07:00.404056+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [18, 10, 5, 5, 7, 7, 7, 5, 3, 24, 2, 5, 0]
+pushes_per_week: [15, 10, 5, 5, 9, 6, 6, 6, 2, 25, 2, 4, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 98
+    pushes: 95
     distinct_repos: 15
-    active_days: 46
+    active_days: 44
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.1304
-  repo_per_active_day: 0.3261
+  push_per_day: 2.1591
+  repo_per_active_day: 0.3409
   not_owned_ratio: 0.0000
   basename_concentration: 0.0667
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 98
+    pushes: 95
     distinct_repos: 15
-    pushes_per_repo: 6.5333
-    active_days: 46
+    pushes_per_repo: 6.3333
+    active_days: 44
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 46 active days in 90d — pass"
+  - "activity: 44 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "tp-link-pg2400p-reverse-engineering"
@@ -135,6 +135,6 @@ repos:
 
 # MikeeI
 
-98 pushes across 15 repositories on 46 active days in the last 90 days of public GitHub push activity.
+95 pushes across 15 repositories on 44 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/MikeeI

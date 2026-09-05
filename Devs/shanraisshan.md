@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-04T06:06:21.234597+00:00"
+generated_at: "2026-09-05T06:07:00.404056+00:00"
 provenance:
   - "beef767476532531"
-pushes_per_week: [23, 19, 20, 21, 19, 7, 1, 6, 6, 11, 2, 2, 0]
+pushes_per_week: [22, 20, 16, 25, 15, 6, 1, 10, 2, 12, 2, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,7 +29,7 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 137
+    pushes: 132
     distinct_repos: 1
     active_days: 58
     repos_not_owned: 0
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.3621
+  push_per_day: 2.2759
   repo_per_active_day: 0.0172
   not_owned_ratio: 0.0000
   basename_concentration: 1.0000
@@ -65,9 +65,9 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 137
+    pushes: 132
     distinct_repos: 1
-    pushes_per_repo: 137.0000
+    pushes_per_repo: 132.0000
     active_days: 58
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -223,6 +223,6 @@ repos:
 
 # shanraisshan
 
-137 pushes across 1 repository on 58 active days in the last 90 days of public GitHub push activity.
+132 pushes across 1 repository on 58 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/shanraisshan

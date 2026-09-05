@@ -10,10 +10,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-04T06:06:21.234597+00:00"
+generated_at: "2026-09-05T06:07:00.404056+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [41, 71, 39, 57, 23, 17, 12, 13, 8, 5, 0, 2, 1]
+pushes_per_week: [45, 63, 61, 35, 21, 20, 8, 13, 8, 4, 0, 2, 1]
 windows:
   "7d":
     pushes: 1
@@ -30,16 +30,16 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 289
+    pushes: 281
     distinct_repos: 15
-    active_days: 61
+    active_days: 60
     repos_not_owned: 12
     not_owned_basenames: 4
     not_owned_owners: 10
 automation:
   state: "clear"
-  push_per_day: 4.7377
-  repo_per_active_day: 0.2459
+  push_per_day: 4.6833
+  repo_per_active_day: 0.2500
   not_owned_ratio: 0.8000
   basename_concentration: 0.6000
   shapes:
@@ -82,16 +82,16 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 289
+    pushes: 281
     distinct_repos: 15
-    pushes_per_repo: 19.2667
-    active_days: 61
+    pushes_per_repo: 18.7333
+    active_days: 60
     repos_not_owned: 12
     not_owned_basenames: 4
     not_owned_owners: 10
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 61 active days in 90d — pass"
+  - "activity: 60 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "somo"
@@ -150,6 +150,6 @@ repos:
 
 # Soulter
 
-289 pushes across 15 repositories on 61 active days in the last 90 days of public GitHub push activity.
+281 pushes across 15 repositories on 60 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Soulter

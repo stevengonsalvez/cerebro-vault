@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-04T06:06:21.234597+00:00"
+generated_at: "2026-09-05T06:07:00.404056+00:00"
 provenance:
   - "98a99d0df7599b35"
-pushes_per_week: [43, 50, 30, 55, 48, 7, 13, 11, 5, 12, 5, 32, 3]
+pushes_per_week: [39, 52, 38, 49, 43, 5, 14, 10, 7, 11, 17, 19, 3]
 windows:
   "7d":
     pushes: 3
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 56
+    pushes: 55
     distinct_repos: 18
     active_days: 18
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 2
   "90d":
-    pushes: 314
+    pushes: 307
     distinct_repos: 34
-    active_days: 70
+    active_days: 69
     repos_not_owned: 6
     not_owned_basenames: 6
     not_owned_owners: 4
 automation:
   state: "clear"
-  push_per_day: 4.4857
-  repo_per_active_day: 0.4857
+  push_per_day: 4.4493
+  repo_per_active_day: 0.4928
   not_owned_ratio: 0.1765
   basename_concentration: 0.0588
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 56
+    pushes: 55
     distinct_repos: 18
-    pushes_per_repo: 3.1111
+    pushes_per_repo: 3.0556
     active_days: 18
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 2
   "90d":
-    pushes: 314
+    pushes: 307
     distinct_repos: 34
-    pushes_per_repo: 9.2353
-    active_days: 70
+    pushes_per_repo: 9.0294
+    active_days: 69
     repos_not_owned: 6
     not_owned_basenames: 6
     not_owned_owners: 4
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 70 active days in 90d — pass"
+  - "activity: 69 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "claude-howto"
@@ -144,6 +144,6 @@ repos:
 
 # luongnv89
 
-314 pushes across 34 repositories on 70 active days in the last 90 days of public GitHub push activity.
+307 pushes across 34 repositories on 69 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/luongnv89

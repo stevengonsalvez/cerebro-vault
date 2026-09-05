@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-04T06:06:21.234597+00:00"
+generated_at: "2026-09-05T06:07:00.404056+00:00"
 provenance:
   - "9d67ce648f6a8919"
-pushes_per_week: [3, 2, 0, 0, 19, 6, 7, 7, 0, 0, 0, 0, 0]
+pushes_per_week: [1, 2, 0, 0, 24, 2, 6, 7, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 44
+    pushes: 42
     distinct_repos: 2
-    active_days: 16
+    active_days: 15
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.7500
-  repo_per_active_day: 0.1250
+  push_per_day: 2.8000
+  repo_per_active_day: 0.1333
   not_owned_ratio: 0.0000
   basename_concentration: 0.5000
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 44
+    pushes: 42
     distinct_repos: 2
-    pushes_per_repo: 22.0000
-    active_days: 16
+    pushes_per_repo: 21.0000
+    active_days: 15
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 16 active days in 90d — pass"
+  - "activity: 15 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "new-skool"
@@ -89,6 +89,6 @@ repos:
 
 # jankeydadondc-byte
 
-44 pushes across 2 repositories on 16 active days in the last 90 days of public GitHub push activity.
+42 pushes across 2 repositories on 15 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/jankeydadondc-byte

@@ -5,16 +5,14 @@ discovered_via: "fanout"
 discovered_via_all:
   - "fanout"
 provenance_repos:
-  - "AstrBotDevs/AstrBot"
   - "browser-use/browser-use"
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-04T06:06:21.234597+00:00"
+generated_at: "2026-09-05T06:07:00.404056+00:00"
 provenance:
-  - "78a5846a75cc0fbb"
   - "c1af6b58492f9bf4"
-pushes_per_week: [20, 102, 47, 59, 96, 16, 17, 11, 31, 7, 7, 2, 0]
+pushes_per_week: [20, 101, 62, 56, 84, 22, 11, 20, 22, 9, 5, 2, 0]
 windows:
   "7d":
     pushes: 0
@@ -31,16 +29,16 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 415
+    pushes: 414
     distinct_repos: 49
-    active_days: 56
+    active_days: 55
     repos_not_owned: 13
     not_owned_basenames: 12
     not_owned_owners: 12
 automation:
   state: "clear"
-  push_per_day: 7.4107
-  repo_per_active_day: 0.8750
+  push_per_day: 7.5273
+  repo_per_active_day: 0.8909
   not_owned_ratio: 0.2653
   basename_concentration: 0.0408
   shapes: []
@@ -67,16 +65,16 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 415
+    pushes: 414
     distinct_repos: 49
-    pushes_per_repo: 8.4694
-    active_days: 56
+    pushes_per_repo: 8.4490
+    active_days: 55
     repos_not_owned: 13
     not_owned_basenames: 12
     not_owned_owners: 12
 reasons:
-  - "provenance: 2 vault signal(s) — pass"
-  - "activity: 56 active days in 90d — pass"
+  - "provenance: 1 vault signal(s) — pass"
+  - "activity: 55 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "itinerant-tester"
@@ -137,6 +135,6 @@ repos:
 
 # cclauss
 
-415 pushes across 49 repositories on 56 active days in the last 90 days of public GitHub push activity.
+414 pushes across 49 repositories on 55 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/cclauss

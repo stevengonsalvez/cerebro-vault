@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-04T06:06:21.234597+00:00"
+generated_at: "2026-09-05T06:07:00.404056+00:00"
 provenance:
   - "386c24cf5e18fd90"
-pushes_per_week: [33, 0, 0, 5, 10, 43, 14, 20, 6, 33, 11, 6, 1]
+pushes_per_week: [29, 0, 0, 5, 12, 41, 33, 1, 10, 29, 12, 5, 1]
 windows:
   "7d":
     pushes: 1
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 54
+    pushes: 52
     distinct_repos: 8
-    active_days: 15
+    active_days: 14
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 182
+    pushes: 178
     distinct_repos: 13
-    active_days: 40
+    active_days: 39
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 4.5500
-  repo_per_active_day: 0.3250
+  push_per_day: 4.5641
+  repo_per_active_day: 0.3333
   not_owned_ratio: 0.0769
   basename_concentration: 0.0769
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 54
+    pushes: 52
     distinct_repos: 8
-    pushes_per_repo: 6.7500
-    active_days: 15
+    pushes_per_repo: 6.5000
+    active_days: 14
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 182
+    pushes: 178
     distinct_repos: 13
-    pushes_per_repo: 14.0000
-    active_days: 40
+    pushes_per_repo: 13.6923
+    active_days: 39
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 40 active days in 90d — pass"
+  - "activity: 39 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "dew"
@@ -159,6 +159,6 @@ repos:
 
 # AshishKumar4
 
-182 pushes across 13 repositories on 40 active days in the last 90 days of public GitHub push activity.
+178 pushes across 13 repositories on 39 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/AshishKumar4

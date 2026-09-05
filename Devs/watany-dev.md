@@ -9,18 +9,18 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-04T06:06:21.234597+00:00"
+generated_at: "2026-09-05T06:07:00.404056+00:00"
 provenance:
   - "97c4e9cb8b163ddb"
   - "c7515e0fa4368a55"
   - "d3abe74726b22711"
   - "e7c647c4d0689526"
-pushes_per_week: [21, 22, 6, 18, 8, 0, 0, 3, 0, 5, 0, 0, 1]
+pushes_per_week: [27, 14, 7, 21, 4, 0, 0, 3, 0, 5, 0, 1, 0]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -32,7 +32,7 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 84
+    pushes: 82
     distinct_repos: 9
     active_days: 29
     repos_not_owned: 0
@@ -40,7 +40,7 @@ windows:
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.8966
+  push_per_day: 2.8276
   repo_per_active_day: 0.3103
   not_owned_ratio: 0.0000
   basename_concentration: 0.1111
@@ -52,10 +52,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -68,9 +68,9 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 84
+    pushes: 82
     distinct_repos: 9
-    pushes_per_repo: 9.3333
+    pushes_per_repo: 9.1111
     active_days: 29
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -132,6 +132,6 @@ repos:
 
 # watany-dev
 
-84 pushes across 9 repositories on 29 active days in the last 90 days of public GitHub push activity.
+82 pushes across 9 repositories on 29 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/watany-dev

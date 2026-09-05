@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-04T06:06:21.234597+00:00"
+generated_at: "2026-09-05T06:07:00.404056+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [13, 10, 10, 6, 18, 5, 2, 0, 0, 4, 0, 0, 0]
+pushes_per_week: [9, 14, 6, 12, 13, 4, 2, 0, 1, 3, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 68
-    distinct_repos: 12
-    active_days: 30
+    pushes: 64
+    distinct_repos: 11
+    active_days: 29
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.2667
-  repo_per_active_day: 0.4000
+  push_per_day: 2.2069
+  repo_per_active_day: 0.3793
   not_owned_ratio: 0.0000
-  basename_concentration: 0.0833
+  basename_concentration: 0.0909
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 68
-    distinct_repos: 12
-    pushes_per_repo: 5.6667
-    active_days: 30
+    pushes: 64
+    distinct_repos: 11
+    pushes_per_repo: 5.8182
+    active_days: 29
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 30 active days in 90d — pass"
+  - "activity: 29 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "astrbot_plugin_cost_control"
@@ -129,6 +129,6 @@ repos:
 
 # leafliber
 
-68 pushes across 12 repositories on 30 active days in the last 90 days of public GitHub push activity.
+64 pushes across 11 repositories on 29 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/leafliber

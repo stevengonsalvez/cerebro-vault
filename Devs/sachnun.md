@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-04T06:06:21.234597+00:00"
+generated_at: "2026-09-05T06:07:00.404056+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [8, 16, 22, 6, 2, 6, 2, 1, 14, 13, 0, 8, 4]
+pushes_per_week: [6, 23, 15, 6, 3, 5, 2, 4, 19, 5, 0, 11, 1]
 windows:
   "7d":
-    pushes: 6
-    distinct_repos: 2
-    active_days: 3
+    pushes: 4
+    distinct_repos: 1
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 30
+    pushes: 27
     distinct_repos: 4
-    active_days: 12
+    active_days: 11
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 102
+    pushes: 100
     distinct_repos: 5
     active_days: 40
     repos_not_owned: 0
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.5500
+  push_per_day: 2.5000
   repo_per_active_day: 0.1250
   not_owned_ratio: 0.0000
   basename_concentration: 0.2000
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 6
-    distinct_repos: 2
-    pushes_per_repo: 3.0000
-    active_days: 3
+    pushes: 4
+    distinct_repos: 1
+    pushes_per_repo: 4.0000
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 30
+    pushes: 27
     distinct_repos: 4
-    pushes_per_repo: 7.5000
-    active_days: 12
+    pushes_per_repo: 6.7500
+    active_days: 11
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 102
+    pushes: 100
     distinct_repos: 5
-    pushes_per_repo: 20.4000
+    pushes_per_repo: 20.0000
     active_days: 40
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -146,6 +146,6 @@ repos:
 
 # sachnun
 
-102 pushes across 5 repositories on 40 active days in the last 90 days of public GitHub push activity.
+100 pushes across 5 repositories on 40 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/sachnun

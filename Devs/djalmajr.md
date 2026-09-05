@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-04T06:06:21.234597+00:00"
+generated_at: "2026-09-05T06:07:00.404056+00:00"
 provenance:
   - "4138778ebbc75ba6"
-pushes_per_week: [12, 15, 10, 11, 10, 1, 5, 4, 1, 4, 1, 2, 2]
+pushes_per_week: [11, 18, 12, 6, 10, 3, 3, 4, 1, 4, 1, 2, 2]
 windows:
   "7d":
     pushes: 2
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 78
+    pushes: 77
     distinct_repos: 17
-    active_days: 34
+    active_days: 33
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.2941
-  repo_per_active_day: 0.5000
+  push_per_day: 2.3333
+  repo_per_active_day: 0.5152
   not_owned_ratio: 0.0000
   basename_concentration: 0.0588
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 78
+    pushes: 77
     distinct_repos: 17
-    pushes_per_repo: 4.5882
-    active_days: 34
+    pushes_per_repo: 4.5294
+    active_days: 33
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 34 active days in 90d — pass"
+  - "activity: 33 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "pinar"
@@ -129,6 +129,6 @@ repos:
 
 # djalmajr
 
-78 pushes across 17 repositories on 34 active days in the last 90 days of public GitHub push activity.
+77 pushes across 17 repositories on 33 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/djalmajr

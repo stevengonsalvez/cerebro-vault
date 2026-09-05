@@ -10,11 +10,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-04T06:06:21.234597+00:00"
+generated_at: "2026-09-05T06:07:00.404056+00:00"
 provenance:
   - "1f49d0119cedbc84"
   - "82a901da1b9bedec"
-pushes_per_week: [4, 36, 45, 34, 10, 3, 6, 3, 6, 14, 0, 0, 0]
+pushes_per_week: [3, 38, 43, 34, 11, 6, 3, 2, 11, 9, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -24,23 +24,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 15
+    pushes: 14
     distinct_repos: 2
-    active_days: 6
+    active_days: 5
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 161
+    pushes: 160
     distinct_repos: 8
-    active_days: 36
+    active_days: 35
     repos_not_owned: 8
     not_owned_basenames: 8
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 4.4722
-  repo_per_active_day: 0.2222
+  push_per_day: 4.5714
+  repo_per_active_day: 0.2286
   not_owned_ratio: 1.0000
   basename_concentration: 0.1250
   shapes: []
@@ -59,24 +59,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 15
+    pushes: 14
     distinct_repos: 2
-    pushes_per_repo: 7.5000
-    active_days: 6
+    pushes_per_repo: 7.0000
+    active_days: 5
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 161
+    pushes: 160
     distinct_repos: 8
-    pushes_per_repo: 20.1250
-    active_days: 36
+    pushes_per_repo: 20.0000
+    active_days: 35
     repos_not_owned: 8
     not_owned_basenames: 8
     not_owned_owners: 2
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 36 active days in 90d — pass"
+  - "activity: 35 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "deeplearning-fall-2025-homework-1"
@@ -131,6 +131,6 @@ repos:
 
 # allenzhou101
 
-161 pushes across 8 repositories on 36 active days in the last 90 days of public GitHub push activity.
+160 pushes across 8 repositories on 35 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/allenzhou101

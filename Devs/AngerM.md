@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+generated_at: "2026-09-05T06:07:00.404056+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [10, 1, 5, 7, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [8, 1, 5, 7, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,7 +29,7 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 23
+    pushes: 21
     distinct_repos: 6
     active_days: 5
     repos_not_owned: 0
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 4.6000
+  push_per_day: 4.2000
   repo_per_active_day: 1.2000
   not_owned_ratio: 0.0000
   basename_concentration: 0.1667
@@ -65,9 +65,9 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 23
+    pushes: 21
     distinct_repos: 6
-    pushes_per_repo: 3.8333
+    pushes_per_repo: 3.5000
     active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -105,6 +105,6 @@ repos:
 
 # AngerM
 
-23 pushes across 6 repositories on 5 active days in the last 90 days of public GitHub push activity.
+21 pushes across 6 repositories on 5 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/AngerM

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-04T06:06:21.234597+00:00"
+generated_at: "2026-09-05T06:07:00.404056+00:00"
 provenance:
   - "ef17663e884139a8"
-pushes_per_week: [8, 7, 5, 3, 3, 1, 0, 0, 4, 20, 2, 7, 1]
+pushes_per_week: [4, 7, 4, 3, 3, 1, 0, 0, 4, 20, 3, 6, 1]
 windows:
   "7d":
     pushes: 1
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 61
+    pushes: 56
     distinct_repos: 4
-    active_days: 37
+    active_days: 36
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.6486
-  repo_per_active_day: 0.1081
+  push_per_day: 1.5556
+  repo_per_active_day: 0.1111
   not_owned_ratio: 0.2500
   basename_concentration: 0.2500
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 61
+    pushes: 56
     distinct_repos: 4
-    pushes_per_repo: 15.2500
-    active_days: 37
+    pushes_per_repo: 14.0000
+    active_days: 36
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 37 active days in 90d — pass"
+  - "activity: 36 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "pranshugupta54"
@@ -144,6 +144,6 @@ repos:
 
 # pranshugupta54
 
-61 pushes across 4 repositories on 37 active days in the last 90 days of public GitHub push activity.
+56 pushes across 4 repositories on 36 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/pranshugupta54

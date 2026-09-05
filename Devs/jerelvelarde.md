@@ -11,11 +11,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-04T06:06:21.234597+00:00"
+generated_at: "2026-09-05T06:07:00.404056+00:00"
 provenance:
   - "229b322ed982d40b"
   - "c4281af03270173b"
-pushes_per_week: [14, 19, 13, 5, 0, 2, 5, 20, 3, 3, 1, 0, 0]
+pushes_per_week: [12, 19, 13, 5, 0, 2, 5, 21, 3, 2, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -32,18 +32,18 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 85
-    distinct_repos: 18
-    active_days: 29
+    pushes: 83
+    distinct_repos: 17
+    active_days: 28
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 2.9310
-  repo_per_active_day: 0.6207
-  not_owned_ratio: 0.2778
-  basename_concentration: 0.1111
+  push_per_day: 2.9643
+  repo_per_active_day: 0.6071
+  not_owned_ratio: 0.2941
+  basename_concentration: 0.1176
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -68,16 +68,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 85
-    distinct_repos: 18
-    pushes_per_repo: 4.7222
-    active_days: 29
+    pushes: 83
+    distinct_repos: 17
+    pushes_per_repo: 4.8824
+    active_days: 28
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 2
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 29 active days in 90d — pass"
+  - "activity: 28 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "opentag"
@@ -132,6 +132,6 @@ repos:
 
 # jerelvelarde
 
-85 pushes across 18 repositories on 29 active days in the last 90 days of public GitHub push activity.
+83 pushes across 17 repositories on 28 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/jerelvelarde

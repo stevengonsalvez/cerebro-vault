@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-04T06:06:21.234597+00:00"
+generated_at: "2026-09-05T06:07:00.404056+00:00"
 provenance:
   - "0388a4f55f4206c8"
   - "0577669e18ed3998"
@@ -22,9 +22,11 @@ provenance:
   - "9ba6f4189d8fbd6b"
   - "9f28e3e9d3a9b17b"
   - "a8d513fb104884f5"
+  - "bca8f082890e2800"
   - "c6b4a874521ceb02"
+  - "cf565721454d59f8"
   - "e26852201e6f38fc"
-pushes_per_week: [25, 7, 1, 1, 3, 4, 17, 9, 3, 22, 12, 2, 0]
+pushes_per_week: [14, 8, 0, 1, 4, 4, 20, 6, 2, 27, 7, 2, 0]
 windows:
   "7d":
     pushes: 0
@@ -41,16 +43,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 106
+    pushes: 95
     distinct_repos: 11
-    active_days: 37
+    active_days: 36
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 2.8649
-  repo_per_active_day: 0.2973
+  push_per_day: 2.6389
+  repo_per_active_day: 0.3056
   not_owned_ratio: 0.3636
   basename_concentration: 0.1818
   shapes: []
@@ -77,16 +79,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 106
+    pushes: 95
     distinct_repos: 11
-    pushes_per_repo: 9.6364
-    active_days: 37
+    pushes_per_repo: 8.6364
+    active_days: 36
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 2
 reasons:
-  - "provenance: 13 vault signal(s) — pass"
-  - "activity: 37 active days in 90d — pass"
+  - "provenance: 15 vault signal(s) — pass"
+  - "activity: 36 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "fracturedjson-rs"
@@ -141,6 +143,6 @@ repos:
 
 # fcoury
 
-106 pushes across 11 repositories on 37 active days in the last 90 days of public GitHub push activity.
+95 pushes across 11 repositories on 36 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/fcoury

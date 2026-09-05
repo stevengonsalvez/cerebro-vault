@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-04T06:06:21.234597+00:00"
+generated_at: "2026-09-05T06:07:00.404056+00:00"
 provenance:
   - "f458b196520daad6"
-pushes_per_week: [28, 18, 5, 11, 7, 40, 27, 30, 4, 6, 8, 0, 0]
+pushes_per_week: [27, 15, 5, 15, 9, 48, 15, 27, 5, 5, 8, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 18
+    pushes: 16
     distinct_repos: 3
-    active_days: 8
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 184
+    pushes: 179
     distinct_repos: 8
-    active_days: 50
+    active_days: 49
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 3.6800
-  repo_per_active_day: 0.1600
+  push_per_day: 3.6531
+  repo_per_active_day: 0.1633
   not_owned_ratio: 0.1250
   basename_concentration: 0.2500
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 18
+    pushes: 16
     distinct_repos: 3
-    pushes_per_repo: 6.0000
-    active_days: 8
+    pushes_per_repo: 5.3333
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 184
+    pushes: 179
     distinct_repos: 8
-    pushes_per_repo: 23.0000
-    active_days: 50
+    pushes_per_repo: 22.3750
+    active_days: 49
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 50 active days in 90d — pass"
+  - "activity: 49 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "academic-research-skills"
@@ -166,6 +166,6 @@ repos:
 
 # Imbad0202
 
-184 pushes across 8 repositories on 50 active days in the last 90 days of public GitHub push activity.
+179 pushes across 8 repositories on 49 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Imbad0202

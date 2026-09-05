@@ -10,10 +10,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-04T06:06:21.234597+00:00"
+generated_at: "2026-09-05T06:07:00.404056+00:00"
 provenance:
   - "2a7f0fddd2dac162"
-pushes_per_week: [51, 20, 19, 52, 50, 61, 45, 40, 11, 16, 4, 10, 0]
+pushes_per_week: [47, 18, 21, 76, 35, 59, 51, 26, 16, 10, 4, 10, 0]
 windows:
   "7d":
     pushes: 0
@@ -30,16 +30,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 379
+    pushes: 373
     distinct_repos: 12
-    active_days: 67
+    active_days: 65
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 5.6567
-  repo_per_active_day: 0.1791
+  push_per_day: 5.7385
+  repo_per_active_day: 0.1846
   not_owned_ratio: 0.0000
   basename_concentration: 0.0833
   shapes: []
@@ -66,16 +66,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 379
+    pushes: 373
     distinct_repos: 12
-    pushes_per_repo: 31.5833
-    active_days: 67
+    pushes_per_repo: 31.0833
+    active_days: 65
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 67 active days in 90d — pass"
+  - "activity: 65 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "mermaid-rs-renderer"
@@ -148,6 +148,6 @@ repos:
 
 # 1jehuang
 
-379 pushes across 12 repositories on 67 active days in the last 90 days of public GitHub push activity.
+373 pushes across 12 repositories on 65 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/1jehuang

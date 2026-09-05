@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-04T06:06:21.234597+00:00"
+generated_at: "2026-09-05T06:07:00.404056+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [22, 72, 76, 64, 139, 83, 54, 78, 54, 47, 2, 24, 1]
+pushes_per_week: [27, 68, 81, 74, 137, 79, 52, 70, 65, 34, 13, 13, 1]
 windows:
   "7d":
     pushes: 1
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 87
+    pushes: 79
     distinct_repos: 13
-    active_days: 16
+    active_days: 15
     repos_not_owned: 8
     not_owned_basenames: 8
     not_owned_owners: 3
   "90d":
-    pushes: 716
+    pushes: 714
     distinct_repos: 53
-    active_days: 74
+    active_days: 73
     repos_not_owned: 42
     not_owned_basenames: 41
     not_owned_owners: 4
 automation:
   state: "clear"
-  push_per_day: 9.6757
-  repo_per_active_day: 0.7162
+  push_per_day: 9.7808
+  repo_per_active_day: 0.7260
   not_owned_ratio: 0.7925
   basename_concentration: 0.0377
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 87
+    pushes: 79
     distinct_repos: 13
-    pushes_per_repo: 6.6923
-    active_days: 16
+    pushes_per_repo: 6.0769
+    active_days: 15
     repos_not_owned: 8
     not_owned_basenames: 8
     not_owned_owners: 3
   "90d":
-    pushes: 716
+    pushes: 714
     distinct_repos: 53
-    pushes_per_repo: 13.5094
-    active_days: 74
+    pushes_per_repo: 13.4717
+    active_days: 73
     repos_not_owned: 42
     not_owned_basenames: 41
     not_owned_owners: 4
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 74 active days in 90d — pass"
+  - "activity: 73 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "s2replay"
@@ -129,6 +129,6 @@ repos:
 
 # paralin
 
-716 pushes across 53 repositories on 74 active days in the last 90 days of public GitHub push activity.
+714 pushes across 53 repositories on 73 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/paralin

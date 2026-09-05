@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-04T06:06:21.234597+00:00"
+generated_at: "2026-09-05T06:07:00.404056+00:00"
 provenance:
   - "91ad171deae90329"
-pushes_per_week: [35, 34, 11, 4, 5, 3, 0, 14, 4, 0, 3, 2, 1]
+pushes_per_week: [28, 25, 10, 5, 6, 1, 1, 16, 1, 0, 4, 1, 1]
 windows:
   "7d":
     pushes: 1
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 116
-    distinct_repos: 13
-    active_days: 35
+    pushes: 99
+    distinct_repos: 12
+    active_days: 34
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 3.3143
-  repo_per_active_day: 0.3714
+  push_per_day: 2.9118
+  repo_per_active_day: 0.3529
   not_owned_ratio: 0.0000
-  basename_concentration: 0.0769
+  basename_concentration: 0.0833
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 116
-    distinct_repos: 13
-    pushes_per_repo: 8.9231
-    active_days: 35
+    pushes: 99
+    distinct_repos: 12
+    pushes_per_repo: 8.2500
+    active_days: 34
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 35 active days in 90d — pass"
+  - "activity: 34 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "swarm-forge"
@@ -129,6 +129,6 @@ repos:
 
 # unclebob
 
-116 pushes across 13 repositories on 35 active days in the last 90 days of public GitHub push activity.
+99 pushes across 12 repositories on 34 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/unclebob

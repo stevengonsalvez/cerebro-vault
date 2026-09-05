@@ -10,11 +10,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-04T06:06:21.234597+00:00"
+generated_at: "2026-09-05T06:07:00.404056+00:00"
 provenance:
   - "16389f32495280ea"
   - "c489e6fb5febf2ab"
-pushes_per_week: [10, 3, 16, 1, 4, 1, 1, 0, 0, 0, 1, 2, 0]
+pushes_per_week: [8, 5, 14, 4, 1, 1, 1, 0, 0, 0, 1, 2, 0]
 windows:
   "7d":
     pushes: 0
@@ -31,16 +31,16 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 39
+    pushes: 37
     distinct_repos: 10
-    active_days: 20
+    active_days: 18
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.9500
-  repo_per_active_day: 0.5000
+  push_per_day: 2.0556
+  repo_per_active_day: 0.5556
   not_owned_ratio: 0.4000
   basename_concentration: 0.1000
   shapes: []
@@ -67,16 +67,16 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 39
+    pushes: 37
     distinct_repos: 10
-    pushes_per_repo: 3.9000
-    active_days: 20
+    pushes_per_repo: 3.7000
+    active_days: 18
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 1
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 20 active days in 90d — pass"
+  - "activity: 18 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "llm-gateway"
@@ -139,6 +139,6 @@ repos:
 
 # zhfeng
 
-39 pushes across 10 repositories on 20 active days in the last 90 days of public GitHub push activity.
+37 pushes across 10 repositories on 18 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/zhfeng

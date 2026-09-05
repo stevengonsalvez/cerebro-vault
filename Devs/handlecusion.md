@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-04T06:06:21.234597+00:00"
+generated_at: "2026-09-05T06:07:00.404056+00:00"
 provenance:
   - "73468cde177ddae6"
-pushes_per_week: [14, 3, 1, 1, 1, 7, 0, 5, 1, 6, 3, 0, 2]
+pushes_per_week: [11, 3, 1, 1, 1, 7, 0, 5, 1, 7, 2, 0, 2]
 windows:
   "7d":
     pushes: 2
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 44
+    pushes: 41
     distinct_repos: 11
-    active_days: 26
+    active_days: 24
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.6923
-  repo_per_active_day: 0.4231
+  push_per_day: 1.7083
+  repo_per_active_day: 0.4583
   not_owned_ratio: 0.0000
   basename_concentration: 0.0909
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 44
+    pushes: 41
     distinct_repos: 11
-    pushes_per_repo: 4.0000
-    active_days: 26
+    pushes_per_repo: 3.7273
+    active_days: 24
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 26 active days in 90d — pass"
+  - "activity: 24 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "tokcat"
@@ -165,6 +165,6 @@ repos:
 
 # handlecusion
 
-44 pushes across 11 repositories on 26 active days in the last 90 days of public GitHub push activity.
+41 pushes across 11 repositories on 24 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/handlecusion

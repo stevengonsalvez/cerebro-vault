@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-04T06:06:21.234597+00:00"
+generated_at: "2026-09-05T06:07:00.404056+00:00"
 provenance:
   - "6d3bd03b49986330"
-pushes_per_week: [3, 4, 0, 3, 16, 5, 0, 4, 1, 2, 0, 0, 0]
+pushes_per_week: [2, 4, 0, 4, 16, 4, 0, 4, 1, 2, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 38
+    pushes: 37
     distinct_repos: 16
-    active_days: 18
+    active_days: 17
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 2.1111
-  repo_per_active_day: 0.8889
+  push_per_day: 2.1765
+  repo_per_active_day: 0.9412
   not_owned_ratio: 0.1875
   basename_concentration: 0.0625
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 38
+    pushes: 37
     distinct_repos: 16
-    pushes_per_repo: 2.3750
-    active_days: 18
+    pushes_per_repo: 2.3125
+    active_days: 17
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 18 active days in 90d — pass"
+  - "activity: 17 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "PromptInvoice"
@@ -151,6 +151,6 @@ repos:
 
 # prasanthsasikumar
 
-38 pushes across 16 repositories on 18 active days in the last 90 days of public GitHub push activity.
+37 pushes across 16 repositories on 17 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/prasanthsasikumar

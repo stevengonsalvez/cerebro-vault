@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-04T06:06:21.234597+00:00"
+generated_at: "2026-09-05T06:07:00.404056+00:00"
 provenance:
   - "f74d5b6b78b8a1a4"
-pushes_per_week: [29, 0, 33, 32, 42, 20, 10, 26, 8, 22, 6, 3, 1]
+pushes_per_week: [21, 0, 40, 46, 25, 20, 15, 17, 14, 19, 3, 4, 0]
 windows:
   "7d":
     pushes: 1
@@ -22,25 +22,25 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 33
+    pushes: 32
     distinct_repos: 1
-    active_days: 13
+    active_days: 12
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 232
-    distinct_repos: 5
-    active_days: 57
+    pushes: 224
+    distinct_repos: 4
+    active_days: 56
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 4.0702
-  repo_per_active_day: 0.0877
-  not_owned_ratio: 0.2000
-  basename_concentration: 0.4000
+  push_per_day: 4.0000
+  repo_per_active_day: 0.0714
+  not_owned_ratio: 0.2500
+  basename_concentration: 0.5000
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 33
+    pushes: 32
     distinct_repos: 1
-    pushes_per_repo: 33.0000
-    active_days: 13
+    pushes_per_repo: 32.0000
+    active_days: 12
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 232
-    distinct_repos: 5
-    pushes_per_repo: 46.4000
-    active_days: 57
+    pushes: 224
+    distinct_repos: 4
+    pushes_per_repo: 56.0000
+    active_days: 56
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 57 active days in 90d — pass"
+  - "activity: 56 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "codebase-memory-mcp"
@@ -117,6 +117,6 @@ repos:
 
 # DeusData
 
-232 pushes across 5 repositories on 57 active days in the last 90 days of public GitHub push activity.
+224 pushes across 4 repositories on 56 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/DeusData

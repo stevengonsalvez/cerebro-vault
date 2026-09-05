@@ -12,12 +12,12 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-04T06:06:21.234597+00:00"
+generated_at: "2026-09-05T06:07:00.404056+00:00"
 provenance:
   - "06b6387dd3484f1c"
   - "c133b93b912dffd6"
   - "de6bf05613f3ae04"
-pushes_per_week: [38, 0, 11, 3, 6, 6, 4, 5, 3, 12, 3, 1, 1]
+pushes_per_week: [31, 0, 11, 3, 6, 6, 4, 5, 4, 13, 1, 1, 1]
 windows:
   "7d":
     pushes: 1
@@ -27,25 +27,25 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 19
+    pushes: 17
     distinct_repos: 1
-    active_days: 9
+    active_days: 8
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 93
-    distinct_repos: 8
-    active_days: 35
+    pushes: 86
+    distinct_repos: 7
+    active_days: 34
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 2.6571
-  repo_per_active_day: 0.2286
-  not_owned_ratio: 0.5000
-  basename_concentration: 0.2500
+  push_per_day: 2.5294
+  repo_per_active_day: 0.2059
+  not_owned_ratio: 0.5714
+  basename_concentration: 0.2857
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -62,24 +62,24 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 19
+    pushes: 17
     distinct_repos: 1
-    pushes_per_repo: 19.0000
-    active_days: 9
+    pushes_per_repo: 17.0000
+    active_days: 8
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 93
-    distinct_repos: 8
-    pushes_per_repo: 11.6250
-    active_days: 35
+    pushes: 86
+    distinct_repos: 7
+    pushes_per_repo: 12.2857
+    active_days: 34
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 3
 reasons:
   - "provenance: 3 vault signal(s) — pass"
-  - "activity: 35 active days in 90d — pass"
+  - "activity: 34 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "sitegeist"
@@ -140,6 +140,6 @@ repos:
 
 # badlogic
 
-93 pushes across 8 repositories on 35 active days in the last 90 days of public GitHub push activity.
+86 pushes across 7 repositories on 34 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/badlogic

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+generated_at: "2026-09-05T06:07:00.404056+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [8, 5, 10, 1, 4, 2, 3, 15, 0, 0, 1, 0, 0]
+pushes_per_week: [4, 5, 11, 0, 5, 1, 3, 15, 0, 0, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 49
+    pushes: 45
     distinct_repos: 8
-    active_days: 20
+    active_days: 19
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.4500
-  repo_per_active_day: 0.4000
+  push_per_day: 2.3684
+  repo_per_active_day: 0.4211
   not_owned_ratio: 0.0000
   basename_concentration: 0.1250
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 49
+    pushes: 45
     distinct_repos: 8
-    pushes_per_repo: 6.1250
-    active_days: 20
+    pushes_per_repo: 5.6250
+    active_days: 19
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 20 active days in 90d — pass"
+  - "activity: 19 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "0-start-skill"
@@ -129,6 +129,6 @@ repos:
 
 # CxHsin
 
-49 pushes across 8 repositories on 20 active days in the last 90 days of public GitHub push activity.
+45 pushes across 8 repositories on 19 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/CxHsin

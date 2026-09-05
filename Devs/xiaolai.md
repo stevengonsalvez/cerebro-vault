@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-04T06:06:21.234597+00:00"
+generated_at: "2026-09-05T06:07:00.404056+00:00"
 provenance:
   - "635453fe3b6ecc12"
-pushes_per_week: [24, 34, 40, 50, 34, 23, 27, 28, 19, 33, 13, 6, 3]
+pushes_per_week: [29, 38, 36, 46, 33, 29, 21, 30, 18, 36, 8, 6, 1]
 windows:
   "7d":
-    pushes: 3
-    distinct_repos: 2
-    active_days: 2
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 59
+    pushes: 57
     distinct_repos: 10
-    active_days: 18
+    active_days: 16
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 334
+    pushes: 331
     distinct_repos: 17
-    active_days: 77
+    active_days: 76
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 4.3377
-  repo_per_active_day: 0.2208
+  push_per_day: 4.3553
+  repo_per_active_day: 0.2237
   not_owned_ratio: 0.0000
   basename_concentration: 0.0588
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 3
-    distinct_repos: 2
-    pushes_per_repo: 1.5000
-    active_days: 2
+    pushes: 1
+    distinct_repos: 1
+    pushes_per_repo: 1.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 59
+    pushes: 57
     distinct_repos: 10
-    pushes_per_repo: 5.9000
-    active_days: 18
+    pushes_per_repo: 5.7000
+    active_days: 16
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 334
+    pushes: 331
     distinct_repos: 17
-    pushes_per_repo: 19.6471
-    active_days: 77
+    pushes_per_repo: 19.4706
+    active_days: 76
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 77 active days in 90d — pass"
+  - "activity: 76 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "nlpm"
@@ -146,6 +146,6 @@ repos:
 
 # xiaolai
 
-334 pushes across 17 repositories on 77 active days in the last 90 days of public GitHub push activity.
+331 pushes across 17 repositories on 76 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/xiaolai

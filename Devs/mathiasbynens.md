@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-04T06:06:21.234597+00:00"
+generated_at: "2026-09-05T06:07:00.404056+00:00"
 provenance:
   - "379642deb53f3714"
-pushes_per_week: [65, 77, 87, 100, 42, 62, 81, 51, 36, 62, 21, 19, 4]
+pushes_per_week: [85, 64, 87, 96, 35, 75, 76, 51, 34, 64, 12, 21, 2]
 windows:
   "7d":
-    pushes: 6
-    distinct_repos: 5
-    active_days: 3
+    pushes: 4
+    distinct_repos: 3
+    active_days: 2
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
   "30d":
-    pushes: 115
-    distinct_repos: 18
-    active_days: 24
-    repos_not_owned: 13
-    not_owned_basenames: 13
+    pushes: 111
+    distinct_repos: 17
+    active_days: 22
+    repos_not_owned: 12
+    not_owned_basenames: 12
     not_owned_owners: 5
   "90d":
-    pushes: 707
+    pushes: 702
     distinct_repos: 34
-    active_days: 84
+    active_days: 83
     repos_not_owned: 26
     not_owned_basenames: 26
     not_owned_owners: 5
 automation:
   state: "clear"
-  push_per_day: 8.4167
-  repo_per_active_day: 0.4048
+  push_per_day: 8.4578
+  repo_per_active_day: 0.4096
   not_owned_ratio: 0.7647
   basename_concentration: 0.0294
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 6
-    distinct_repos: 5
-    pushes_per_repo: 1.2000
-    active_days: 3
+    pushes: 4
+    distinct_repos: 3
+    pushes_per_repo: 1.3333
+    active_days: 2
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
   "30d":
-    pushes: 115
-    distinct_repos: 18
-    pushes_per_repo: 6.3889
-    active_days: 24
-    repos_not_owned: 13
-    not_owned_basenames: 13
+    pushes: 111
+    distinct_repos: 17
+    pushes_per_repo: 6.5294
+    active_days: 22
+    repos_not_owned: 12
+    not_owned_basenames: 12
     not_owned_owners: 5
   "90d":
-    pushes: 707
+    pushes: 702
     distinct_repos: 34
-    pushes_per_repo: 20.7941
-    active_days: 84
+    pushes_per_repo: 20.6471
+    active_days: 83
     repos_not_owned: 26
     not_owned_basenames: 26
     not_owned_owners: 5
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 84 active days in 90d — pass"
+  - "activity: 83 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "tibia-boosted-boss"
@@ -132,6 +132,6 @@ repos:
 
 # mathiasbynens
 
-707 pushes across 34 repositories on 84 active days in the last 90 days of public GitHub push activity.
+702 pushes across 34 repositories on 83 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/mathiasbynens

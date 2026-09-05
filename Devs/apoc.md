@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-04T06:06:21.234597+00:00"
+generated_at: "2026-09-05T06:07:00.404056+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [2, 0, 12, 3, 5, 9, 1, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [1, 4, 8, 3, 9, 5, 1, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 32
+    pushes: 31
     distinct_repos: 4
-    active_days: 15
+    active_days: 14
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.1333
-  repo_per_active_day: 0.2667
+  push_per_day: 2.2143
+  repo_per_active_day: 0.2857
   not_owned_ratio: 0.0000
   basename_concentration: 0.2500
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 32
+    pushes: 31
     distinct_repos: 4
-    pushes_per_repo: 8.0000
-    active_days: 15
+    pushes_per_repo: 7.7500
+    active_days: 14
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 15 active days in 90d — pass"
+  - "activity: 14 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "omp-desktop"
@@ -121,6 +121,6 @@ repos:
 
 # apoc
 
-32 pushes across 4 repositories on 15 active days in the last 90 days of public GitHub push activity.
+31 pushes across 4 repositories on 14 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/apoc

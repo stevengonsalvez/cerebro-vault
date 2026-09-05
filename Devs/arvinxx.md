@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-04T06:06:21.234597+00:00"
+generated_at: "2026-09-05T06:07:00.404056+00:00"
 provenance:
   - "51d6155061d60774"
-pushes_per_week: [105, 122, 85, 109, 89, 61, 29, 13, 11, 26, 24, 2, 4]
+pushes_per_week: [113, 125, 67, 119, 77, 56, 28, 13, 20, 23, 17, 3, 3]
 windows:
   "7d":
     pushes: 4
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 63
+    pushes: 61
     distinct_repos: 1
-    active_days: 19
+    active_days: 18
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 680
+    pushes: 664
     distinct_repos: 5
-    active_days: 77
+    active_days: 76
     repos_not_owned: 4
     not_owned_basenames: 3
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 8.8312
-  repo_per_active_day: 0.0649
+  push_per_day: 8.7368
+  repo_per_active_day: 0.0658
   not_owned_ratio: 0.8000
   basename_concentration: 0.4000
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 63
+    pushes: 61
     distinct_repos: 1
-    pushes_per_repo: 63.0000
-    active_days: 19
+    pushes_per_repo: 61.0000
+    active_days: 18
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 680
+    pushes: 664
     distinct_repos: 5
-    pushes_per_repo: 136.0000
-    active_days: 77
+    pushes_per_repo: 132.8000
+    active_days: 76
     repos_not_owned: 4
     not_owned_basenames: 3
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 77 active days in 90d — pass"
+  - "activity: 76 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "arvinxx"
@@ -138,6 +138,6 @@ repos:
 
 # arvinxx
 
-680 pushes across 5 repositories on 77 active days in the last 90 days of public GitHub push activity.
+664 pushes across 5 repositories on 76 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/arvinxx

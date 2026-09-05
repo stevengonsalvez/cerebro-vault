@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-04T06:06:21.234597+00:00"
+generated_at: "2026-09-05T06:07:00.404056+00:00"
 provenance:
   - "745308b2b7085095"
-pushes_per_week: [18, 11, 12, 8, 11, 8, 3, 8, 5, 10, 1, 8, 3]
+pushes_per_week: [18, 8, 12, 8, 11, 9, 2, 9, 4, 10, 1, 9, 2]
 windows:
   "7d":
-    pushes: 3
+    pushes: 2
     distinct_repos: 2
-    active_days: 3
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 106
+    pushes: 103
     distinct_repos: 13
-    active_days: 45
+    active_days: 44
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.3556
-  repo_per_active_day: 0.2889
+  push_per_day: 2.3409
+  repo_per_active_day: 0.2955
   not_owned_ratio: 0.0000
   basename_concentration: 0.0769
   shapes: []
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 3
+    pushes: 2
     distinct_repos: 2
-    pushes_per_repo: 1.5000
-    active_days: 3
+    pushes_per_repo: 1.0000
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 106
+    pushes: 103
     distinct_repos: 13
-    pushes_per_repo: 8.1538
-    active_days: 45
+    pushes_per_repo: 7.9231
+    active_days: 44
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 45 active days in 90d — pass"
+  - "activity: 44 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "moodring"
@@ -168,6 +168,6 @@ repos:
 
 # WenyuChiou
 
-106 pushes across 13 repositories on 45 active days in the last 90 days of public GitHub push activity.
+103 pushes across 13 repositories on 44 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/WenyuChiou

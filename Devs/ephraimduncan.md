@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-04T06:06:21.234597+00:00"
+generated_at: "2026-09-05T06:07:00.404056+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [1, 3, 8, 20, 10, 1, 0, 3, 0, 1, 2, 5, 0]
+pushes_per_week: [0, 3, 8, 20, 10, 1, 0, 3, 0, 2, 1, 5, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 3
     not_owned_owners: 3
   "90d":
-    pushes: 54
-    distinct_repos: 10
-    active_days: 23
-    repos_not_owned: 4
-    not_owned_basenames: 4
-    not_owned_owners: 4
+    pushes: 53
+    distinct_repos: 9
+    active_days: 22
+    repos_not_owned: 3
+    not_owned_basenames: 3
+    not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 2.3478
-  repo_per_active_day: 0.4348
-  not_owned_ratio: 0.4000
-  basename_concentration: 0.2000
+  push_per_day: 2.4091
+  repo_per_active_day: 0.4091
+  not_owned_ratio: 0.3333
+  basename_concentration: 0.2222
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 3
     not_owned_owners: 3
   "90d":
-    pushes: 54
-    distinct_repos: 10
-    pushes_per_repo: 5.4000
-    active_days: 23
-    repos_not_owned: 4
-    not_owned_basenames: 4
-    not_owned_owners: 4
+    pushes: 53
+    distinct_repos: 9
+    pushes_per_repo: 5.8889
+    active_days: 22
+    repos_not_owned: 3
+    not_owned_basenames: 3
+    not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 23 active days in 90d — pass"
+  - "activity: 22 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "openstatus-railway"
@@ -142,6 +142,6 @@ repos:
 
 # ephraimduncan
 
-54 pushes across 10 repositories on 23 active days in the last 90 days of public GitHub push activity.
+53 pushes across 9 repositories on 22 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ephraimduncan

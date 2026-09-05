@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-04T06:06:21.234597+00:00"
+generated_at: "2026-09-05T06:07:00.404056+00:00"
 provenance:
   - "bac657e60ae022eb"
-pushes_per_week: [3, 0, 0, 5, 1, 4, 0, 0, 0, 2, 2, 0, 1]
+pushes_per_week: [3, 0, 0, 5, 1, 4, 0, 0, 0, 2, 2, 1, 0]
 windows:
   "7d":
     pushes: 1
@@ -93,7 +93,7 @@ repos:
       - "skill"
       - "tokens"
     stars_fact: 102919
-    first_seen: "2026-08-21T06:00:19.440846+00:00"
+    first_seen: "2026-09-05T06:00:07.666453+00:00"
     last_push: "2026-09-02"
   - name: "cavemem"
     title: "cavemem"

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-04T06:06:21.234597+00:00"
+generated_at: "2026-09-05T06:07:00.404056+00:00"
 provenance:
   - "a50d216def4cada3"
-pushes_per_week: [32, 5, 3, 0, 7, 9, 4, 4, 0, 0, 0, 0, 0]
+pushes_per_week: [15, 5, 3, 0, 10, 6, 4, 4, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 64
-    distinct_repos: 9
-    active_days: 20
-    repos_not_owned: 4
+    pushes: 47
+    distinct_repos: 8
+    active_days: 19
+    repos_not_owned: 3
     not_owned_basenames: 2
-    not_owned_owners: 4
+    not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 3.2000
-  repo_per_active_day: 0.4500
-  not_owned_ratio: 0.4444
-  basename_concentration: 0.4444
+  push_per_day: 2.4737
+  repo_per_active_day: 0.4211
+  not_owned_ratio: 0.3750
+  basename_concentration: 0.3750
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 64
-    distinct_repos: 9
-    pushes_per_repo: 7.1111
-    active_days: 20
-    repos_not_owned: 4
+    pushes: 47
+    distinct_repos: 8
+    pushes_per_repo: 5.8750
+    active_days: 19
+    repos_not_owned: 3
     not_owned_basenames: 2
-    not_owned_owners: 4
+    not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 20 active days in 90d — pass"
+  - "activity: 19 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "brainmaxxing"
@@ -136,6 +136,6 @@ repos:
 
 # poteto
 
-64 pushes across 9 repositories on 20 active days in the last 90 days of public GitHub push activity.
+47 pushes across 8 repositories on 19 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/poteto

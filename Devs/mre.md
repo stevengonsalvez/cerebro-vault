@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-04T06:06:21.234597+00:00"
+generated_at: "2026-09-05T06:07:00.404056+00:00"
 provenance:
   - "1f49d0119cedbc84"
-pushes_per_week: [27, 14, 19, 11, 9, 4, 3, 2, 0, 3, 0, 1, 0]
+pushes_per_week: [27, 14, 18, 11, 9, 4, 3, 2, 0, 3, 0, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 93
+    pushes: 92
     distinct_repos: 13
-    active_days: 28
+    active_days: 27
     repos_not_owned: 8
     not_owned_basenames: 8
     not_owned_owners: 5
 automation:
   state: "clear"
-  push_per_day: 3.3214
-  repo_per_active_day: 0.4643
+  push_per_day: 3.4074
+  repo_per_active_day: 0.4815
   not_owned_ratio: 0.6154
   basename_concentration: 0.0769
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 93
+    pushes: 92
     distinct_repos: 13
-    pushes_per_repo: 7.1538
-    active_days: 28
+    pushes_per_repo: 7.0769
+    active_days: 27
     repos_not_owned: 8
     not_owned_basenames: 8
     not_owned_owners: 5
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 28 active days in 90d — pass"
+  - "activity: 27 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "rust-jokes"
@@ -141,6 +141,6 @@ repos:
 
 # mre
 
-93 pushes across 13 repositories on 28 active days in the last 90 days of public GitHub push activity.
+92 pushes across 13 repositories on 27 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/mre

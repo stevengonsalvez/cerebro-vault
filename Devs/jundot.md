@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-04T06:06:21.234597+00:00"
+generated_at: "2026-09-05T06:07:00.404056+00:00"
 provenance:
   - "0bcb55082c56199e"
-pushes_per_week: [39, 17, 13, 15, 23, 7, 13, 7, 4, 6, 10, 2, 0]
+pushes_per_week: [40, 10, 13, 15, 23, 7, 13, 9, 3, 6, 9, 2, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 156
+    pushes: 150
     distinct_repos: 2
-    active_days: 48
+    active_days: 46
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 3.2500
-  repo_per_active_day: 0.0417
+  push_per_day: 3.2609
+  repo_per_active_day: 0.0435
   not_owned_ratio: 0.0000
   basename_concentration: 0.5000
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 156
+    pushes: 150
     distinct_repos: 2
-    pushes_per_repo: 78.0000
-    active_days: 48
+    pushes_per_repo: 75.0000
+    active_days: 46
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 48 active days in 90d — pass"
+  - "activity: 46 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "omlx"
@@ -95,6 +95,6 @@ repos:
 
 # jundot
 
-156 pushes across 2 repositories on 48 active days in the last 90 days of public GitHub push activity.
+150 pushes across 2 repositories on 46 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/jundot

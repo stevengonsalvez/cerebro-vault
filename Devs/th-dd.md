@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-04T06:06:21.234597+00:00"
+generated_at: "2026-09-05T06:07:00.404056+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [39, 9, 32, 19, 1, 4, 2, 1, 2, 7, 0, 0, 0]
+pushes_per_week: [32, 12, 40, 7, 2, 3, 2, 1, 2, 7, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,7 +29,7 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 116
+    pushes: 108
     distinct_repos: 13
     active_days: 31
     repos_not_owned: 6
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 3.7419
+  push_per_day: 3.4839
   repo_per_active_day: 0.4194
   not_owned_ratio: 0.4615
   basename_concentration: 0.0769
@@ -65,9 +65,9 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 116
+    pushes: 108
     distinct_repos: 13
-    pushes_per_repo: 8.9231
+    pushes_per_repo: 8.3077
     active_days: 31
     repos_not_owned: 6
     not_owned_basenames: 6
@@ -113,6 +113,6 @@ repos:
 
 # th-dd
 
-116 pushes across 13 repositories on 31 active days in the last 90 days of public GitHub push activity.
+108 pushes across 13 repositories on 31 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/th-dd

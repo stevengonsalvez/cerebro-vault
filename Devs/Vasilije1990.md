@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-04T06:06:21.234597+00:00"
+generated_at: "2026-09-05T06:07:00.404056+00:00"
 provenance:
   - "d399d99ef4e490b6"
-pushes_per_week: [28, 20, 22, 2, 3, 6, 11, 7, 1, 15, 3, 1, 1]
+pushes_per_week: [23, 29, 11, 1, 3, 10, 12, 2, 12, 4, 3, 1, 1]
 windows:
   "7d":
     pushes: 1
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 3
     not_owned_owners: 2
   "90d":
-    pushes: 120
+    pushes: 112
     distinct_repos: 9
-    active_days: 47
+    active_days: 46
     repos_not_owned: 9
     not_owned_basenames: 6
     not_owned_owners: 5
 automation:
   state: "clear"
-  push_per_day: 2.5532
-  repo_per_active_day: 0.1915
+  push_per_day: 2.4348
+  repo_per_active_day: 0.1957
   not_owned_ratio: 1.0000
   basename_concentration: 0.4444
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 3
     not_owned_owners: 2
   "90d":
-    pushes: 120
+    pushes: 112
     distinct_repos: 9
-    pushes_per_repo: 13.3333
-    active_days: 47
+    pushes_per_repo: 12.4444
+    active_days: 46
     repos_not_owned: 9
     not_owned_basenames: 6
     not_owned_owners: 5
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 47 active days in 90d — pass"
+  - "activity: 46 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "karpathy-wiki"
@@ -129,6 +129,6 @@ repos:
 
 # Vasilije1990
 
-120 pushes across 9 repositories on 47 active days in the last 90 days of public GitHub push activity.
+112 pushes across 9 repositories on 46 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Vasilije1990

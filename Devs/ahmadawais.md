@@ -6,13 +6,11 @@ discovered_via_all:
   - "fanout"
 provenance_repos:
   - "agentskills/agentskills"
-  - "ChromeDevTools/chrome-devtools-mcp"
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-04T06:06:21.234597+00:00"
+generated_at: "2026-09-05T06:07:00.404056+00:00"
 provenance:
-  - "379642deb53f3714"
   - "48dbbdd8fd0d3029"
 pushes_per_week: [1, 1, 2, 2, 0, 1, 4, 1, 0, 1, 0, 1, 0]
 windows:
@@ -75,7 +73,7 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
-  - "provenance: 2 vault signal(s) — pass"
+  - "provenance: 1 vault signal(s) — pass"
   - "activity: 9 active days in 90d — pass"
   - "automation: clear — pass"
 repos:

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-04T06:06:21.234597+00:00"
+generated_at: "2026-09-05T06:07:00.404056+00:00"
 provenance:
   - "47dca59f5e85d3b9"
-pushes_per_week: [126, 101, 178, 75, 93, 76, 72, 35, 16, 42, 44, 7, 0]
+pushes_per_week: [122, 102, 183, 66, 97, 82, 74, 28, 13, 54, 32, 5, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 97
+    pushes: 94
     distinct_repos: 12
-    active_days: 20
+    active_days: 18
     repos_not_owned: 9
     not_owned_basenames: 4
     not_owned_owners: 7
   "90d":
-    pushes: 865
+    pushes: 858
     distinct_repos: 106
-    active_days: 73
+    active_days: 72
     repos_not_owned: 94
     not_owned_basenames: 5
     not_owned_owners: 87
 automation:
   state: "clear"
-  push_per_day: 11.8493
-  repo_per_active_day: 1.4521
+  push_per_day: 11.9167
+  repo_per_active_day: 1.4722
   not_owned_ratio: 0.8868
   basename_concentration: 0.5000
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 97
+    pushes: 94
     distinct_repos: 12
-    pushes_per_repo: 8.0833
-    active_days: 20
+    pushes_per_repo: 7.8333
+    active_days: 18
     repos_not_owned: 9
     not_owned_basenames: 4
     not_owned_owners: 7
   "90d":
-    pushes: 865
+    pushes: 858
     distinct_repos: 106
-    pushes_per_repo: 8.1604
-    active_days: 73
+    pushes_per_repo: 8.0943
+    active_days: 72
     repos_not_owned: 94
     not_owned_basenames: 5
     not_owned_owners: 87
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 73 active days in 90d — pass"
+  - "activity: 72 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "illo-skill"
@@ -140,6 +140,6 @@ repos:
 
 # tmchow
 
-865 pushes across 106 repositories on 73 active days in the last 90 days of public GitHub push activity.
+858 pushes across 106 repositories on 72 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/tmchow

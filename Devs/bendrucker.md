@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-04T06:06:21.234597+00:00"
+generated_at: "2026-09-05T06:07:00.404056+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [68, 43, 17, 70, 62, 39, 21, 20, 21, 16, 6, 5, 0]
+pushes_per_week: [69, 41, 17, 70, 64, 37, 25, 16, 30, 7, 7, 4, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 388
+    pushes: 387
     distinct_repos: 32
-    active_days: 63
+    active_days: 62
     repos_not_owned: 6
     not_owned_basenames: 6
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 6.1587
-  repo_per_active_day: 0.5079
+  push_per_day: 6.2419
+  repo_per_active_day: 0.5161
   not_owned_ratio: 0.1875
   basename_concentration: 0.0312
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 388
+    pushes: 387
     distinct_repos: 32
-    pushes_per_repo: 12.1250
-    active_days: 63
+    pushes_per_repo: 12.0938
+    active_days: 62
     repos_not_owned: 6
     not_owned_basenames: 6
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 63 active days in 90d — pass"
+  - "activity: 62 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "claude"
@@ -134,6 +134,6 @@ repos:
 
 # bendrucker
 
-388 pushes across 32 repositories on 63 active days in the last 90 days of public GitHub push activity.
+387 pushes across 32 repositories on 62 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/bendrucker

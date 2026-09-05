@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-04T06:06:21.234597+00:00"
+generated_at: "2026-09-05T06:07:00.404056+00:00"
 provenance:
   - "229b322ed982d40b"
-pushes_per_week: [17, 18, 14, 7, 3, 14, 3, 6, 7, 4, 1, 3, 0]
+pushes_per_week: [18, 16, 13, 7, 3, 16, 2, 5, 8, 3, 2, 2, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 97
+    pushes: 95
     distinct_repos: 9
-    active_days: 47
+    active_days: 45
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.0638
-  repo_per_active_day: 0.1915
+  push_per_day: 2.1111
+  repo_per_active_day: 0.2000
   not_owned_ratio: 0.1111
   basename_concentration: 0.2222
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 97
+    pushes: 95
     distinct_repos: 9
-    pushes_per_repo: 10.7778
-    active_days: 47
+    pushes_per_repo: 10.5556
+    active_days: 45
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 47 active days in 90d — pass"
+  - "activity: 45 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "gitlawb-apps"
@@ -136,6 +136,6 @@ repos:
 
 # beardthelion
 
-97 pushes across 9 repositories on 47 active days in the last 90 days of public GitHub push activity.
+95 pushes across 9 repositories on 45 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/beardthelion

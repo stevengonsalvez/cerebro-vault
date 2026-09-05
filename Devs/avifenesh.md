@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-04T06:06:21.234597+00:00"
+generated_at: "2026-09-05T06:07:00.404056+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [28, 48, 65, 115, 157, 96, 19, 36, 19, 43, 22, 28, 6]
+pushes_per_week: [30, 72, 49, 126, 150, 81, 21, 40, 15, 45, 19, 23, 6]
 windows:
   "7d":
-    pushes: 9
-    distinct_repos: 2
-    active_days: 4
+    pushes: 6
+    distinct_repos: 1
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 104
+    pushes: 103
     distinct_repos: 10
     active_days: 24
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 682
-    distinct_repos: 41
-    active_days: 79
+    pushes: 677
+    distinct_repos: 40
+    active_days: 78
     repos_not_owned: 8
     not_owned_basenames: 7
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 8.6329
-  repo_per_active_day: 0.5190
-  not_owned_ratio: 0.1951
-  basename_concentration: 0.0488
+  push_per_day: 8.6795
+  repo_per_active_day: 0.5128
+  not_owned_ratio: 0.2000
+  basename_concentration: 0.0500
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 9
-    distinct_repos: 2
-    pushes_per_repo: 4.5000
-    active_days: 4
+    pushes: 6
+    distinct_repos: 1
+    pushes_per_repo: 6.0000
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 104
+    pushes: 103
     distinct_repos: 10
-    pushes_per_repo: 10.4000
+    pushes_per_repo: 10.3000
     active_days: 24
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 682
-    distinct_repos: 41
-    pushes_per_repo: 16.6341
-    active_days: 79
+    pushes: 677
+    distinct_repos: 40
+    pushes_per_repo: 16.9250
+    active_days: 78
     repos_not_owned: 8
     not_owned_basenames: 7
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 79 active days in 90d — pass"
+  - "activity: 78 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "memra"
@@ -194,6 +194,6 @@ repos:
 
 # avifenesh
 
-682 pushes across 41 repositories on 79 active days in the last 90 days of public GitHub push activity.
+677 pushes across 40 repositories on 78 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/avifenesh

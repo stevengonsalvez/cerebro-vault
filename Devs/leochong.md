@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-04T06:06:21.234597+00:00"
+generated_at: "2026-09-05T06:07:00.404056+00:00"
 provenance:
   - "40eb8bc568eaac35"
-pushes_per_week: [64, 12, 7, 0, 1, 2, 0, 1, 2, 1, 0, 2, 0]
+pushes_per_week: [52, 8, 3, 0, 1, 2, 0, 2, 2, 0, 0, 2, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 92
+    pushes: 72
     distinct_repos: 5
-    active_days: 23
+    active_days: 22
     repos_not_owned: 5
     not_owned_basenames: 4
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 4.0000
-  repo_per_active_day: 0.2174
+  push_per_day: 3.2727
+  repo_per_active_day: 0.2273
   not_owned_ratio: 1.0000
   basename_concentration: 0.4000
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 92
+    pushes: 72
     distinct_repos: 5
-    pushes_per_repo: 18.4000
-    active_days: 23
+    pushes_per_repo: 14.4000
+    active_days: 22
     repos_not_owned: 5
     not_owned_basenames: 4
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 23 active days in 90d — pass"
+  - "activity: 22 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "Lateos"
@@ -137,6 +137,6 @@ repos:
 
 # leochong
 
-92 pushes across 5 repositories on 23 active days in the last 90 days of public GitHub push activity.
+72 pushes across 5 repositories on 22 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/leochong

@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-04T06:06:21.234597+00:00"
+generated_at: "2026-09-05T06:07:00.404056+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [23, 22, 28, 16, 14, 14, 8, 9, 8, 30, 8, 29, 3]
+pushes_per_week: [14, 19, 29, 16, 13, 15, 7, 9, 8, 34, 7, 26, 3]
 windows:
   "7d":
-    pushes: 4
+    pushes: 3
     distinct_repos: 1
-    active_days: 3
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 76
+    pushes: 72
     distinct_repos: 4
-    active_days: 19
+    active_days: 18
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 212
+    pushes: 200
     distinct_repos: 10
     active_days: 59
     repos_not_owned: 3
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 3.5932
+  push_per_day: 3.3898
   repo_per_active_day: 0.1695
   not_owned_ratio: 0.3000
   basename_concentration: 0.3000
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 4
+    pushes: 3
     distinct_repos: 1
-    pushes_per_repo: 4.0000
-    active_days: 3
+    pushes_per_repo: 3.0000
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 76
+    pushes: 72
     distinct_repos: 4
-    pushes_per_repo: 19.0000
-    active_days: 19
+    pushes_per_repo: 18.0000
+    active_days: 18
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 212
+    pushes: 200
     distinct_repos: 10
-    pushes_per_repo: 21.2000
+    pushes_per_repo: 20.0000
     active_days: 59
     repos_not_owned: 3
     not_owned_basenames: 2
@@ -138,6 +138,6 @@ repos:
 
 # Hona
 
-212 pushes across 10 repositories on 59 active days in the last 90 days of public GitHub push activity.
+200 pushes across 10 repositories on 59 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Hona

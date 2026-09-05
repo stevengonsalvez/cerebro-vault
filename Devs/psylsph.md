@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-04T06:06:21.234597+00:00"
+generated_at: "2026-09-05T06:07:00.404056+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [81, 47, 35, 27, 6, 5, 4, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [69, 54, 32, 20, 6, 5, 4, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 205
+    pushes: 190
     distinct_repos: 8
-    active_days: 39
+    active_days: 38
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 5.2564
-  repo_per_active_day: 0.2051
+  push_per_day: 5.0000
+  repo_per_active_day: 0.2105
   not_owned_ratio: 0.1250
   basename_concentration: 0.2500
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 205
+    pushes: 190
     distinct_repos: 8
-    pushes_per_repo: 25.6250
-    active_days: 39
+    pushes_per_repo: 23.7500
+    active_days: 38
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 39 active days in 90d — pass"
+  - "activity: 38 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "home-energy-manager"
@@ -147,6 +147,6 @@ repos:
 
 # psylsph
 
-205 pushes across 8 repositories on 39 active days in the last 90 days of public GitHub push activity.
+190 pushes across 8 repositories on 38 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/psylsph

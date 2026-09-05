@@ -6,43 +6,41 @@ discovered_via_all:
   - "fanout"
 provenance_repos:
   - "anomalyco/opencode"
-  - "ChromeDevTools/chrome-devtools-mcp"
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-04T06:06:21.234597+00:00"
+generated_at: "2026-09-05T06:07:00.404056+00:00"
 provenance:
-  - "379642deb53f3714"
   - "ffccace0ba14fd15"
-pushes_per_week: [140, 106, 138, 218, 111, 77, 75, 51, 27, 44, 12, 19, 2]
+pushes_per_week: [156, 82, 201, 175, 89, 81, 72, 52, 23, 43, 14, 17, 2]
 windows:
   "7d":
-    pushes: 3
-    distinct_repos: 2
-    active_days: 2
-    repos_not_owned: 2
-    not_owned_basenames: 2
+    pushes: 2
+    distinct_repos: 1
+    active_days: 1
+    repos_not_owned: 1
+    not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 84
+    pushes: 81
     distinct_repos: 4
-    active_days: 20
+    active_days: 18
     repos_not_owned: 4
     not_owned_basenames: 2
     not_owned_owners: 3
   "90d":
-    pushes: 1020
-    distinct_repos: 31
-    active_days: 79
-    repos_not_owned: 30
+    pushes: 1007
+    distinct_repos: 30
+    active_days: 78
+    repos_not_owned: 29
     not_owned_basenames: 4
-    not_owned_owners: 29
+    not_owned_owners: 28
 automation:
   state: "clear"
-  push_per_day: 12.9114
-  repo_per_active_day: 0.3924
-  not_owned_ratio: 0.9677
-  basename_concentration: 0.5161
+  push_per_day: 12.9103
+  repo_per_active_day: 0.3846
+  not_owned_ratio: 0.9667
+  basename_concentration: 0.5333
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -51,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 3
-    distinct_repos: 2
-    pushes_per_repo: 1.5000
-    active_days: 2
-    repos_not_owned: 2
-    not_owned_basenames: 2
+    pushes: 2
+    distinct_repos: 1
+    pushes_per_repo: 2.0000
+    active_days: 1
+    repos_not_owned: 1
+    not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 84
+    pushes: 81
     distinct_repos: 4
-    pushes_per_repo: 21.0000
-    active_days: 20
+    pushes_per_repo: 20.2500
+    active_days: 18
     repos_not_owned: 4
     not_owned_basenames: 2
     not_owned_owners: 3
   "90d":
-    pushes: 1020
-    distinct_repos: 31
-    pushes_per_repo: 32.9032
-    active_days: 79
-    repos_not_owned: 30
+    pushes: 1007
+    distinct_repos: 30
+    pushes_per_repo: 33.5667
+    active_days: 78
+    repos_not_owned: 29
     not_owned_basenames: 4
-    not_owned_owners: 29
+    not_owned_owners: 28
 reasons:
-  - "provenance: 2 vault signal(s) — pass"
-  - "activity: 79 active days in 90d — pass"
+  - "provenance: 1 vault signal(s) — pass"
+  - "activity: 78 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "skills"
@@ -139,6 +137,6 @@ repos:
 
 # rekram1-node
 
-1020 pushes across 31 repositories on 79 active days in the last 90 days of public GitHub push activity.
+1007 pushes across 30 repositories on 78 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/rekram1-node

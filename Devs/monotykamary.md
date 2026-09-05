@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-04T06:06:21.234597+00:00"
+generated_at: "2026-09-05T06:07:00.404056+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [84, 99, 75, 54, 41, 49, 33, 46, 33, 28, 29, 18, 6]
+pushes_per_week: [80, 101, 76, 60, 35, 49, 34, 48, 27, 42, 17, 16, 5]
 windows:
   "7d":
     pushes: 6
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 595
+    pushes: 590
     distinct_repos: 97
-    active_days: 80
+    active_days: 79
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 7.4375
-  repo_per_active_day: 1.2125
+  push_per_day: 7.4684
+  repo_per_active_day: 1.2278
   not_owned_ratio: 0.0515
   basename_concentration: 0.0206
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 595
+    pushes: 590
     distinct_repos: 97
-    pushes_per_repo: 6.1340
-    active_days: 80
+    pushes_per_repo: 6.0825
+    active_days: 79
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 80 active days in 90d — pass"
+  - "activity: 79 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "pi-fabric"
@@ -140,6 +140,6 @@ repos:
 
 # monotykamary
 
-595 pushes across 97 repositories on 80 active days in the last 90 days of public GitHub push activity.
+590 pushes across 97 repositories on 79 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/monotykamary

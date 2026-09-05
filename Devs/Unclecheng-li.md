@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-04T06:06:21.234597+00:00"
+generated_at: "2026-09-05T06:07:00.404056+00:00"
 provenance:
   - "135bded64aec62fb"
-pushes_per_week: [15, 11, 11, 9, 11, 7, 1, 2, 5, 6, 0, 0, 1]
+pushes_per_week: [11, 14, 8, 9, 11, 7, 2, 1, 5, 6, 0, 1, 0]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 79
+    pushes: 75
     distinct_repos: 10
-    active_days: 37
+    active_days: 35
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.1351
-  repo_per_active_day: 0.2703
+  push_per_day: 2.1429
+  repo_per_active_day: 0.2857
   not_owned_ratio: 0.1000
   basename_concentration: 0.2000
   shapes: []
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 79
+    pushes: 75
     distinct_repos: 10
-    pushes_per_repo: 7.9000
-    active_days: 37
+    pushes_per_repo: 7.5000
+    active_days: 35
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 37 active days in 90d — pass"
+  - "activity: 35 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "AI_Animation"
@@ -167,6 +167,6 @@ repos:
 
 # Unclecheng-li
 
-79 pushes across 10 repositories on 37 active days in the last 90 days of public GitHub push activity.
+75 pushes across 10 repositories on 35 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Unclecheng-li

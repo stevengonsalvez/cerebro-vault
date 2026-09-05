@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-04T06:06:21.234597+00:00"
+generated_at: "2026-09-05T06:07:00.404056+00:00"
 provenance:
   - "379642deb53f3714"
-pushes_per_week: [38, 5, 8, 13, 1, 0, 7, 16, 1, 19, 0, 0, 0]
+pushes_per_week: [36, 5, 8, 13, 1, 0, 7, 16, 1, 19, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 108
-    distinct_repos: 11
-    active_days: 24
-    repos_not_owned: 11
+    pushes: 106
+    distinct_repos: 10
+    active_days: 23
+    repos_not_owned: 10
     not_owned_basenames: 9
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 4.5000
-  repo_per_active_day: 0.4583
+  push_per_day: 4.6087
+  repo_per_active_day: 0.4348
   not_owned_ratio: 1.0000
-  basename_concentration: 0.2727
+  basename_concentration: 0.2000
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 108
-    distinct_repos: 11
-    pushes_per_repo: 9.8182
-    active_days: 24
-    repos_not_owned: 11
+    pushes: 106
+    distinct_repos: 10
+    pushes_per_repo: 10.6000
+    active_days: 23
+    repos_not_owned: 10
     not_owned_basenames: 9
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 24 active days in 90d — pass"
+  - "activity: 23 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "slides-test"
@@ -130,6 +130,6 @@ repos:
 
 # dkastl
 
-108 pushes across 11 repositories on 24 active days in the last 90 days of public GitHub push activity.
+106 pushes across 10 repositories on 23 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/dkastl
