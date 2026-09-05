@@ -13,7 +13,7 @@ score: 0.95
 reason: "Anthropic official agent skills repo, must-read"
 repo: "anthropics/skills"
 stars: "281"
-captured: 2026-09-04T06:00:06.818153+00:00
+captured: 2026-08-12T06:00:08.419954+00:00
 rating:
 ---
 # anthropics/skills: Public repository for Agent Skills

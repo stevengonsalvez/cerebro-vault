@@ -13,7 +13,7 @@ score: 0.85
 reason: "Open-source coding agent, rising viral repo"
 repo: "anomalyco/opencode"
 stars: "345"
-captured: 2026-09-05T06:00:07.668487+00:00
+captured: 2026-06-28T06:00:06.756438+00:00
 rating:
 ---
 # anomalyco/opencode: The open source coding agent.

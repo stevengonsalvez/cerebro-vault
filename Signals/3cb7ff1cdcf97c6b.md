@@ -19,7 +19,7 @@ github_query: "github profile into cursor skill generator"
 stars_gained_7d: 380
 growth_score: 0.5586
 momentum_score: 0.6689
-captured: 2026-09-04T06:00:17.162497+00:00
+captured: 2026-08-10T06:00:04.550142+00:00
 rating:
 ---
 # alirezarezvani/claude-skills: 380 Claude Code skills & agent skills & plugins (30+ Agents, 70+ custom commands, 380+ skills, customizable references, scripts)for Claude Code, Codex, Gemini CLI, Cursor, and 8 more coding agents — engineering, marketing, product, compliance, C-level advisory, research, business operations, commercial & finance, and your daily productivity skills.

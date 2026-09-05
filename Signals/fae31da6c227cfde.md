@@ -13,7 +13,7 @@ score: 0.85
 reason: "Curated collection of 100+ AI agents and RAG apps"
 repo: "Shubhamsaboo/awesome-llm-apps"
 stars: "161"
-captured: 2026-08-26T06:00:04.227927+00:00
+captured: 2026-07-13T06:00:03.578926+00:00
 rating:
 ---
 # Shubhamsaboo/awesome-llm-apps: 100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.
