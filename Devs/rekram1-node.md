@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-05T06:07:00.404056+00:00"
+generated_at: "2026-09-06T06:09:03.028501+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [156, 82, 201, 175, 89, 81, 72, 52, 23, 43, 14, 17, 2]
+pushes_per_week: [163, 67, 212, 174, 88, 75, 72, 51, 31, 37, 10, 17, 2]
 windows:
   "7d":
     pushes: 2
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 81
+    pushes: 79
     distinct_repos: 4
     active_days: 18
     repos_not_owned: 4
     not_owned_basenames: 2
     not_owned_owners: 3
   "90d":
-    pushes: 1007
+    pushes: 999
     distinct_repos: 30
-    active_days: 78
+    active_days: 77
     repos_not_owned: 29
     not_owned_basenames: 4
     not_owned_owners: 28
 automation:
   state: "clear"
-  push_per_day: 12.9103
-  repo_per_active_day: 0.3846
+  push_per_day: 12.9740
+  repo_per_active_day: 0.3896
   not_owned_ratio: 0.9667
   basename_concentration: 0.5333
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 81
+    pushes: 79
     distinct_repos: 4
-    pushes_per_repo: 20.2500
+    pushes_per_repo: 19.7500
     active_days: 18
     repos_not_owned: 4
     not_owned_basenames: 2
     not_owned_owners: 3
   "90d":
-    pushes: 1007
+    pushes: 999
     distinct_repos: 30
-    pushes_per_repo: 33.5667
-    active_days: 78
+    pushes_per_repo: 33.3000
+    active_days: 77
     repos_not_owned: 29
     not_owned_basenames: 4
     not_owned_owners: 28
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 78 active days in 90d — pass"
+  - "activity: 77 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "skills"
@@ -137,6 +137,6 @@ repos:
 
 # rekram1-node
 
-1007 pushes across 30 repositories on 78 active days in the last 90 days of public GitHub push activity.
+999 pushes across 30 repositories on 77 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/rekram1-node

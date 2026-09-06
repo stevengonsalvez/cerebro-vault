@@ -6,13 +6,15 @@ discovered_via_all:
   - "vault"
 provenance_repos:
   - "humanlayer/advanced-context-engineering-for-coding-agents"
+  - "humanlayer/skills"
 admitted: true
 low_n: true
 repos_populated: true
-generated_at: "2026-09-04T06:06:21.234597+00:00"
+generated_at: "2026-09-06T06:09:03.028501+00:00"
 provenance:
   - "6a454934fcba31af"
-pushes_per_week: [0, 1, 0, 1, 0, 0, 5, 0, 0, 0, 0, 0, 0]
+  - "de0577c71825884c"
+pushes_per_week: [0, 1, 1, 0, 0, 4, 1, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -73,7 +75,7 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 1
 reasons:
-  - "provenance: 1 vault signal(s) — pass"
+  - "provenance: 2 vault signal(s) — pass"
   - "activity: 4 active days in 90d — below the 5-day line, LABELLED low-n (never suppressed)"
   - "automation: clear — pass"
 repos:

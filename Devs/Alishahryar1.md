@@ -10,10 +10,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-05T06:07:00.404056+00:00"
+generated_at: "2026-09-06T06:09:03.028501+00:00"
 provenance:
   - "9d67ce648f6a8919"
-pushes_per_week: [0, 19, 5, 5, 16, 18, 3, 1, 1, 13, 2, 3, 1]
+pushes_per_week: [0, 19, 6, 11, 11, 16, 3, 1, 2, 12, 2, 4, 0]
 windows:
   "7d":
     pushes: 1
@@ -84,7 +84,7 @@ repos:
     language: "Python"
     topics: []
     stars_fact: 52913
-    first_seen: "2026-08-24T06:00:06.398707+00:00"
+    first_seen: "2026-08-04T06:00:05.827253+00:00"
     last_push: "2026-09-03"
   - name: "gpu-ops-platform"
     title: "gpu-ops-platform"

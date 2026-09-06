@@ -10,11 +10,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-05T06:07:00.404056+00:00"
+generated_at: "2026-09-06T06:09:03.028501+00:00"
 provenance:
   - "73468cde177ddae6"
   - "c489e6fb5febf2ab"
-pushes_per_week: [3, 16, 19, 0, 8, 4, 16, 17, 6, 11, 17, 3, 0]
+pushes_per_week: [5, 12, 19, 0, 8, 7, 14, 16, 6, 23, 7, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -31,18 +31,18 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 120
-    distinct_repos: 37
-    active_days: 39
+    pushes: 118
+    distinct_repos: 35
+    active_days: 38
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 3.0769
-  repo_per_active_day: 0.9487
-  not_owned_ratio: 0.0541
-  basename_concentration: 0.0541
+  push_per_day: 3.1053
+  repo_per_active_day: 0.9211
+  not_owned_ratio: 0.0571
+  basename_concentration: 0.0571
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -67,16 +67,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 120
-    distinct_repos: 37
-    pushes_per_repo: 3.2432
-    active_days: 39
+    pushes: 118
+    distinct_repos: 35
+    pushes_per_repo: 3.3714
+    active_days: 38
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 39 active days in 90d — pass"
+  - "activity: 38 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "ousamabenyounes"
@@ -107,6 +107,6 @@ repos:
 
 # ousamabenyounes
 
-120 pushes across 37 repositories on 39 active days in the last 90 days of public GitHub push activity.
+118 pushes across 35 repositories on 38 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ousamabenyounes

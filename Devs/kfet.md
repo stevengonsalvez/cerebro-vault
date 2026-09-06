@@ -9,40 +9,40 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-05T06:07:00.404056+00:00"
+generated_at: "2026-09-06T06:09:03.028501+00:00"
 provenance:
   - "1be978947e68d1f2"
   - "98a2deac3e2f9725"
   - "b949a65ff91f9791"
-pushes_per_week: [48, 26, 3, 6, 5, 1, 4, 5, 6, 9, 3, 5, 1]
+pushes_per_week: [40, 23, 1, 6, 5, 1, 4, 9, 7, 5, 4, 3, 2]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
+    pushes: 2
+    distinct_repos: 2
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 19
+    pushes: 20
     distinct_repos: 8
-    active_days: 13
+    active_days: 14
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 122
-    distinct_repos: 18
+    pushes: 110
+    distinct_repos: 17
     active_days: 42
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.9048
-  repo_per_active_day: 0.4286
+  push_per_day: 2.6190
+  repo_per_active_day: 0.4048
   not_owned_ratio: 0.0000
-  basename_concentration: 0.0556
+  basename_concentration: 0.0588
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -51,25 +51,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
+    pushes: 2
+    distinct_repos: 2
     pushes_per_repo: 1.0000
-    active_days: 1
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 19
+    pushes: 20
     distinct_repos: 8
-    pushes_per_repo: 2.3750
-    active_days: 13
+    pushes_per_repo: 2.5000
+    active_days: 14
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 122
-    distinct_repos: 18
-    pushes_per_repo: 6.7778
+    pushes: 110
+    distinct_repos: 17
+    pushes_per_repo: 6.4706
     active_days: 42
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -136,6 +136,6 @@ repos:
 
 # kfet
 
-122 pushes across 18 repositories on 42 active days in the last 90 days of public GitHub push activity.
+110 pushes across 17 repositories on 42 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/kfet

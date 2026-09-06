@@ -10,10 +10,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-05T06:07:00.404056+00:00"
+generated_at: "2026-09-06T06:09:03.028501+00:00"
 provenance:
   - "90688bf127241ceb"
-pushes_per_week: [7, 10, 9, 8, 6, 4, 2, 0, 1, 6, 2, 1, 0]
+pushes_per_week: [8, 8, 9, 8, 7, 2, 2, 0, 1, 8, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -30,16 +30,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 56
+    pushes: 54
     distinct_repos: 4
-    active_days: 32
+    active_days: 31
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.7500
-  repo_per_active_day: 0.1250
+  push_per_day: 1.7419
+  repo_per_active_day: 0.1290
   not_owned_ratio: 0.0000
   basename_concentration: 0.2500
   shapes: []
@@ -66,16 +66,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 56
+    pushes: 54
     distinct_repos: 4
-    pushes_per_repo: 14.0000
-    active_days: 32
+    pushes_per_repo: 13.5000
+    active_days: 31
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 32 active days in 90d — pass"
+  - "activity: 31 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "CodexPlusPlus"
@@ -134,6 +134,6 @@ repos:
 
 # BigPizzaV3
 
-56 pushes across 4 repositories on 32 active days in the last 90 days of public GitHub push activity.
+54 pushes across 4 repositories on 31 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/BigPizzaV3

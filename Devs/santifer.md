@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-05T06:07:00.404056+00:00"
+generated_at: "2026-09-06T06:09:03.028501+00:00"
 provenance:
   - "b68d90c0788819fd"
-pushes_per_week: [73, 56, 25, 83, 44, 38, 22, 20, 5, 28, 9, 4, 2]
+pushes_per_week: [81, 46, 32, 80, 40, 37, 22, 21, 4, 28, 9, 4, 2]
 windows:
   "7d":
     pushes: 2
@@ -29,34 +29,34 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 6
   "90d":
-    pushes: 409
+    pushes: 406
     distinct_repos: 45
-    active_days: 63
+    active_days: 62
     repos_not_owned: 38
     not_owned_basenames: 3
     not_owned_owners: 38
 automation:
   state: "clear"
-  push_per_day: 6.4921
-  repo_per_active_day: 0.7143
+  push_per_day: 6.5484
+  repo_per_active_day: 0.7258
   not_owned_ratio: 0.8444
   basename_concentration: 0.8222
   shapes:
-    - "fork_farm"
+    - "fork_farm_third_party"
   shape_evidence:
-    - "basename concentration 0.8222 (37 of 45 repos share one basename), 38 not owned across 3 basenames"
+    - "basename concentration 0.8222 (37 of 45 repos share one basename), 38 not owned across 3 basenames — 5 of 5 sampled repos resolved; 5 fork somebody else's repo; upstreams: career-ops-hq/career-ops"
   cleared_by: "e01-builder"
   cleared_on: "2026-08-26"
   fork_provenance:
-    checked: 4
+    checked: 5
     own_upstream: 0
-    third_party: 4
+    third_party: 5
     no_upstream: 0
-    unresolved: 1
+    unresolved: 0
     truncated: false
     sampled:
       - "abankar1/career-ops"
-      - "abuzarai/career-ops"
+      - "akashgaikwad28/career-ops"
       - "BorisSavage/career-ops"
       - "ctrlbar/career-ops"
       - "d-ulker/career-ops"
@@ -81,16 +81,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 6
   "90d":
-    pushes: 409
+    pushes: 406
     distinct_repos: 45
-    pushes_per_repo: 9.0889
-    active_days: 63
+    pushes_per_repo: 9.0222
+    active_days: 62
     repos_not_owned: 38
     not_owned_basenames: 3
     not_owned_owners: 38
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 63 active days in 90d — pass"
+  - "activity: 62 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "warpchart"
@@ -182,6 +182,6 @@ repos:
 
 # santifer
 
-409 pushes across 45 repositories on 63 active days in the last 90 days of public GitHub push activity.
+406 pushes across 45 repositories on 62 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/santifer

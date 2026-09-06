@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-05T06:07:00.404056+00:00"
+generated_at: "2026-09-06T06:09:03.028501+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [26, 5, 5, 12, 3, 1, 0, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [22, 6, 7, 9, 4, 0, 0, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 52
-    distinct_repos: 19
-    active_days: 22
+    pushes: 48
+    distinct_repos: 17
+    active_days: 21
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.3636
-  repo_per_active_day: 0.8636
-  not_owned_ratio: 0.0526
-  basename_concentration: 0.0526
+  push_per_day: 2.2857
+  repo_per_active_day: 0.8095
+  not_owned_ratio: 0.0588
+  basename_concentration: 0.0588
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 52
-    distinct_repos: 19
-    pushes_per_repo: 2.7368
-    active_days: 22
+    pushes: 48
+    distinct_repos: 17
+    pushes_per_repo: 2.8235
+    active_days: 21
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 22 active days in 90d — pass"
+  - "activity: 21 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "doubao-tts-webui"
@@ -147,6 +147,6 @@ repos:
 
 # VanillaNahida
 
-52 pushes across 19 repositories on 22 active days in the last 90 days of public GitHub push activity.
+48 pushes across 17 repositories on 21 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/VanillaNahida

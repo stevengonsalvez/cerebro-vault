@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-05T06:07:00.404056+00:00"
+generated_at: "2026-09-06T06:09:03.028501+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [29, 72, 65, 49, 14, 12, 6, 24, 6, 26, 11, 4, 0]
+pushes_per_week: [30, 78, 61, 49, 15, 10, 8, 20, 6, 30, 7, 4, 1]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "30d":
-    pushes: 44
+    pushes: 45
     distinct_repos: 3
-    active_days: 15
+    active_days: 16
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 318
+    pushes: 319
     distinct_repos: 14
-    active_days: 58
+    active_days: 59
     repos_not_owned: 11
     not_owned_basenames: 6
     not_owned_owners: 6
 automation:
   state: "clear"
-  push_per_day: 5.4828
-  repo_per_active_day: 0.2414
+  push_per_day: 5.4068
+  repo_per_active_day: 0.2373
   not_owned_ratio: 0.7857
   basename_concentration: 0.3571
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    pushes: 1
+    distinct_repos: 1
+    pushes_per_repo: 1.0000
+    active_days: 1
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "30d":
-    pushes: 44
+    pushes: 45
     distinct_repos: 3
-    pushes_per_repo: 14.6667
-    active_days: 15
+    pushes_per_repo: 15.0000
+    active_days: 16
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 318
+    pushes: 319
     distinct_repos: 14
-    pushes_per_repo: 22.7143
-    active_days: 58
+    pushes_per_repo: 22.7857
+    active_days: 59
     repos_not_owned: 11
     not_owned_basenames: 6
     not_owned_owners: 6
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 58 active days in 90d — pass"
+  - "activity: 59 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "counterscale"
@@ -134,6 +134,6 @@ repos:
 
 # benvinegar
 
-318 pushes across 14 repositories on 58 active days in the last 90 days of public GitHub push activity.
+319 pushes across 14 repositories on 59 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/benvinegar

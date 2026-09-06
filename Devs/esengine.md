@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-05T06:07:00.404056+00:00"
+generated_at: "2026-09-06T06:09:03.028501+00:00"
 provenance:
   - "b5590ec052a4f771"
-pushes_per_week: [135, 50, 73, 63, 69, 41, 30, 19, 32, 48, 17, 5, 1]
+pushes_per_week: [128, 46, 69, 76, 56, 43, 30, 17, 42, 42, 14, 3, 1]
 windows:
   "7d":
     pushes: 1
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 95
+    pushes: 93
     distinct_repos: 3
     active_days: 19
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 583
+    pushes: 567
     distinct_repos: 6
-    active_days: 76
+    active_days: 75
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 7.6711
-  repo_per_active_day: 0.0789
+  push_per_day: 7.5600
+  repo_per_active_day: 0.0800
   not_owned_ratio: 0.3333
   basename_concentration: 0.5000
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 95
+    pushes: 93
     distinct_repos: 3
-    pushes_per_repo: 31.6667
+    pushes_per_repo: 31.0000
     active_days: 19
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 583
+    pushes: 567
     distinct_repos: 6
-    pushes_per_repo: 97.1667
-    active_days: 76
+    pushes_per_repo: 94.5000
+    active_days: 75
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 76 active days in 90d — pass"
+  - "activity: 75 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "DeepSeek-Reasonix"
@@ -180,6 +180,6 @@ repos:
 
 # esengine
 
-583 pushes across 6 repositories on 76 active days in the last 90 days of public GitHub push activity.
+567 pushes across 6 repositories on 75 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/esengine

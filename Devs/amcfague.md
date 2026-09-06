@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-05T06:07:00.404056+00:00"
+generated_at: "2026-09-06T06:09:03.028501+00:00"
 provenance:
   - "73468cde177ddae6"
-pushes_per_week: [5, 0, 2, 4, 2, 6, 2, 1, 0, 1, 0, 0, 0]
+pushes_per_week: [2, 0, 2, 6, 0, 6, 2, 1, 0, 1, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,7 +29,7 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 23
+    pushes: 20
     distinct_repos: 6
     active_days: 12
     repos_not_owned: 0
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.9167
+  push_per_day: 1.6667
   repo_per_active_day: 0.5000
   not_owned_ratio: 0.0000
   basename_concentration: 0.1667
@@ -65,9 +65,9 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 23
+    pushes: 20
     distinct_repos: 6
-    pushes_per_repo: 3.8333
+    pushes_per_repo: 3.3333
     active_days: 12
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -89,6 +89,6 @@ repos:
 
 # amcfague
 
-23 pushes across 6 repositories on 12 active days in the last 90 days of public GitHub push activity.
+20 pushes across 6 repositories on 12 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/amcfague

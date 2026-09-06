@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-05T06:07:00.404056+00:00"
+generated_at: "2026-09-06T06:09:03.028501+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [7, 0, 0, 15, 9, 4, 24, 17, 2, 28, 3, 3, 0]
+pushes_per_week: [4, 0, 0, 15, 9, 4, 33, 8, 3, 27, 4, 2, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 112
+    pushes: 109
     distinct_repos: 17
-    active_days: 36
+    active_days: 35
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 3.1111
-  repo_per_active_day: 0.4722
+  push_per_day: 3.1143
+  repo_per_active_day: 0.4857
   not_owned_ratio: 0.0000
   basename_concentration: 0.0588
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 112
+    pushes: 109
     distinct_repos: 17
-    pushes_per_repo: 6.5882
-    active_days: 36
+    pushes_per_repo: 6.4118
+    active_days: 35
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 36 active days in 90d — pass"
+  - "activity: 35 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "amplifier-bundle-preceptor"
@@ -135,6 +135,6 @@ repos:
 
 # michaeljabbour
 
-112 pushes across 17 repositories on 36 active days in the last 90 days of public GitHub push activity.
+109 pushes across 17 repositories on 35 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/michaeljabbour

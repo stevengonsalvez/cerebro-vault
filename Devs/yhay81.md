@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-05T06:07:00.404056+00:00"
+generated_at: "2026-09-06T06:09:03.028501+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [1, 3, 6, 4, 53, 34, 82, 169, 107, 17, 0, 0, 0]
+pushes_per_week: [1, 3, 5, 5, 68, 21, 109, 148, 112, 3, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 7
     not_owned_owners: 2
   "90d":
-    pushes: 476
+    pushes: 475
     distinct_repos: 103
-    active_days: 46
+    active_days: 45
     repos_not_owned: 18
     not_owned_basenames: 18
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 10.3478
-  repo_per_active_day: 2.2391
+  push_per_day: 10.5556
+  repo_per_active_day: 2.2889
   not_owned_ratio: 0.1748
   basename_concentration: 0.0097
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 7
     not_owned_owners: 2
   "90d":
-    pushes: 476
+    pushes: 475
     distinct_repos: 103
-    pushes_per_repo: 4.6214
-    active_days: 46
+    pushes_per_repo: 4.6117
+    active_days: 45
     repos_not_owned: 18
     not_owned_basenames: 18
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 46 active days in 90d — pass"
+  - "activity: 45 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "yhay81"
@@ -164,6 +164,6 @@ repos:
 
 # yhay81
 
-476 pushes across 103 repositories on 46 active days in the last 90 days of public GitHub push activity.
+475 pushes across 103 repositories on 45 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/yhay81

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-05T06:07:00.404056+00:00"
+generated_at: "2026-09-06T06:09:03.028501+00:00"
 provenance:
   - "c1af6b58492f9bf4"
-pushes_per_week: [92, 26, 9, 23, 3, 21, 42, 7, 9, 0, 2, 0, 2]
+pushes_per_week: [85, 17, 12, 20, 4, 20, 43, 6, 9, 0, 2, 0, 2]
 windows:
   "7d":
     pushes: 2
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 8
-    distinct_repos: 3
-    active_days: 4
-    repos_not_owned: 3
-    not_owned_basenames: 3
-    not_owned_owners: 3
+    pushes: 7
+    distinct_repos: 2
+    active_days: 3
+    repos_not_owned: 2
+    not_owned_basenames: 2
+    not_owned_owners: 2
   "90d":
-    pushes: 236
+    pushes: 220
     distinct_repos: 11
-    active_days: 51
+    active_days: 50
     repos_not_owned: 8
     not_owned_basenames: 8
     not_owned_owners: 4
 automation:
   state: "clear"
-  push_per_day: 4.6275
-  repo_per_active_day: 0.2157
+  push_per_day: 4.4000
+  repo_per_active_day: 0.2200
   not_owned_ratio: 0.7273
   basename_concentration: 0.1818
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 8
-    distinct_repos: 3
-    pushes_per_repo: 2.6667
-    active_days: 4
-    repos_not_owned: 3
-    not_owned_basenames: 3
-    not_owned_owners: 3
+    pushes: 7
+    distinct_repos: 2
+    pushes_per_repo: 3.5000
+    active_days: 3
+    repos_not_owned: 2
+    not_owned_basenames: 2
+    not_owned_owners: 2
   "90d":
-    pushes: 236
+    pushes: 220
     distinct_repos: 11
-    pushes_per_repo: 21.4545
-    active_days: 51
+    pushes_per_repo: 20.0000
+    active_days: 50
     repos_not_owned: 8
     not_owned_basenames: 8
     not_owned_owners: 4
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 51 active days in 90d — pass"
+  - "activity: 50 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "yasithdev.github.io"
@@ -130,6 +130,6 @@ repos:
 
 # yasithdev
 
-236 pushes across 11 repositories on 51 active days in the last 90 days of public GitHub push activity.
+220 pushes across 11 repositories on 50 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/yasithdev

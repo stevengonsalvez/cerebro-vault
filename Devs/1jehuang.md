@@ -10,10 +10,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-05T06:07:00.404056+00:00"
+generated_at: "2026-09-06T06:09:03.028501+00:00"
 provenance:
   - "2a7f0fddd2dac162"
-pushes_per_week: [47, 18, 21, 76, 35, 59, 51, 26, 16, 10, 4, 10, 0]
+pushes_per_week: [52, 15, 22, 83, 25, 68, 39, 28, 15, 8, 8, 6, 0]
 windows:
   "7d":
     pushes: 0
@@ -23,23 +23,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 31
+    pushes: 30
     distinct_repos: 3
-    active_days: 14
+    active_days: 13
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 373
+    pushes: 369
     distinct_repos: 12
-    active_days: 65
+    active_days: 64
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 5.7385
-  repo_per_active_day: 0.1846
+  push_per_day: 5.7656
+  repo_per_active_day: 0.1875
   not_owned_ratio: 0.0000
   basename_concentration: 0.0833
   shapes: []
@@ -58,24 +58,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 31
+    pushes: 30
     distinct_repos: 3
-    pushes_per_repo: 10.3333
-    active_days: 14
+    pushes_per_repo: 10.0000
+    active_days: 13
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 373
+    pushes: 369
     distinct_repos: 12
-    pushes_per_repo: 31.0833
-    active_days: 65
+    pushes_per_repo: 30.7500
+    active_days: 64
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 65 active days in 90d — pass"
+  - "activity: 64 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "mermaid-rs-renderer"
@@ -148,6 +148,6 @@ repos:
 
 # 1jehuang
 
-373 pushes across 12 repositories on 65 active days in the last 90 days of public GitHub push activity.
+369 pushes across 12 repositories on 64 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/1jehuang

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-04T06:06:21.234597+00:00"
+generated_at: "2026-09-06T06:09:03.028501+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [16, 1, 1, 2, 1, 0, 0, 2, 1, 4, 1, 1, 0]
+pushes_per_week: [12, 0, 3, 1, 0, 0, 0, 2, 1, 5, 0, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 7
-    distinct_repos: 4
-    active_days: 5
+    pushes: 6
+    distinct_repos: 3
+    active_days: 4
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 30
+    pushes: 25
     distinct_repos: 8
-    active_days: 16
+    active_days: 15
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.8750
-  repo_per_active_day: 0.5000
+  push_per_day: 1.6667
+  repo_per_active_day: 0.5333
   not_owned_ratio: 0.1250
   basename_concentration: 0.2500
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 7
-    distinct_repos: 4
-    pushes_per_repo: 1.7500
-    active_days: 5
+    pushes: 6
+    distinct_repos: 3
+    pushes_per_repo: 2.0000
+    active_days: 4
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 30
+    pushes: 25
     distinct_repos: 8
-    pushes_per_repo: 3.7500
-    active_days: 16
+    pushes_per_repo: 3.1250
+    active_days: 15
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 16 active days in 90d — pass"
+  - "activity: 15 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "opencode-browser"
@@ -134,6 +134,6 @@ repos:
 
 # neriousy
 
-30 pushes across 8 repositories on 16 active days in the last 90 days of public GitHub push activity.
+25 pushes across 8 repositories on 15 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/neriousy

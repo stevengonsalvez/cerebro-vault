@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-05T06:07:00.404056+00:00"
+generated_at: "2026-09-06T06:09:03.028501+00:00"
 provenance:
   - "c489e6fb5febf2ab"
-pushes_per_week: [33, 0, 0, 2, 1, 7, 4, 2, 2, 0, 0, 2, 1]
+pushes_per_week: [28, 0, 0, 2, 1, 9, 2, 3, 1, 0, 2, 1, 0]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -29,7 +29,7 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 54
+    pushes: 49
     distinct_repos: 16
     active_days: 17
     repos_not_owned: 0
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 3.1765
+  push_per_day: 2.8824
   repo_per_active_day: 0.9412
   not_owned_ratio: 0.0000
   basename_concentration: 0.0625
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -65,9 +65,9 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 54
+    pushes: 49
     distinct_repos: 16
-    pushes_per_repo: 3.3750
+    pushes_per_repo: 3.0625
     active_days: 17
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -89,6 +89,6 @@ repos:
 
 # pollychen-lab
 
-54 pushes across 16 repositories on 17 active days in the last 90 days of public GitHub push activity.
+49 pushes across 16 repositories on 17 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/pollychen-lab

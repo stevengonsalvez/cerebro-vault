@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-05T06:07:00.404056+00:00"
+generated_at: "2026-09-06T06:09:03.028501+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [9, 17, 52, 49, 0, 11, 4, 0, 1, 5, 0, 1, 0]
+pushes_per_week: [10, 17, 92, 3, 0, 12, 3, 0, 1, 5, 0, 1, 1]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 6
-    distinct_repos: 2
-    active_days: 3
+    pushes: 7
+    distinct_repos: 3
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 149
+    pushes: 145
     distinct_repos: 7
     active_days: 29
     repos_not_owned: 0
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 5.1379
+  push_per_day: 5.0000
   repo_per_active_day: 0.2414
   not_owned_ratio: 0.0000
   basename_concentration: 0.1429
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
+    pushes: 1
+    distinct_repos: 1
+    pushes_per_repo: 1.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 6
-    distinct_repos: 2
-    pushes_per_repo: 3.0000
-    active_days: 3
+    pushes: 7
+    distinct_repos: 3
+    pushes_per_repo: 2.3333
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 149
+    pushes: 145
     distinct_repos: 7
-    pushes_per_repo: 21.2857
+    pushes_per_repo: 20.7143
     active_days: 29
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -139,6 +139,6 @@ repos:
 
 # junnhwan
 
-149 pushes across 7 repositories on 29 active days in the last 90 days of public GitHub push activity.
+145 pushes across 7 repositories on 29 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/junnhwan

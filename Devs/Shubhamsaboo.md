@@ -10,10 +10,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-05T06:07:00.404056+00:00"
+generated_at: "2026-09-06T06:09:03.028501+00:00"
 provenance:
   - "fae31da6c227cfde"
-pushes_per_week: [0, 0, 0, 0, 7, 3, 3, 2, 2, 4, 0, 0, 0]
+pushes_per_week: [0, 0, 0, 0, 7, 4, 2, 4, 3, 1, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -88,7 +88,7 @@ repos:
       - "python"
       - "rag"
     stars_fact: 135969
-    first_seen: "2026-08-26T06:00:04.227927+00:00"
+    first_seen: "2026-07-13T06:00:03.578926+00:00"
     last_push: "2026-09-02"
   - name: "google-memorybank-plugin"
     title: "google-memorybank-plugin"

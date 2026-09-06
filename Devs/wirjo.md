@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-05T06:07:00.404056+00:00"
+generated_at: "2026-09-06T06:09:03.028501+00:00"
 provenance:
   - "a50b0e08dbaee74a"
-pushes_per_week: [56, 106, 89, 66, 19, 14, 1, 2, 17, 14, 0, 1, 0]
+pushes_per_week: [38, 114, 95, 48, 18, 14, 1, 3, 19, 11, 0, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 7
     not_owned_owners: 4
   "90d":
-    pushes: 385
-    distinct_repos: 29
-    active_days: 52
-    repos_not_owned: 12
+    pushes: 362
+    distinct_repos: 27
+    active_days: 51
+    repos_not_owned: 10
     not_owned_basenames: 7
-    not_owned_owners: 8
+    not_owned_owners: 6
 automation:
   state: "clear"
-  push_per_day: 7.4038
-  repo_per_active_day: 0.5577
-  not_owned_ratio: 0.4138
-  basename_concentration: 0.2069
+  push_per_day: 7.0980
+  repo_per_active_day: 0.5294
+  not_owned_ratio: 0.3704
+  basename_concentration: 0.1481
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 7
     not_owned_owners: 4
   "90d":
-    pushes: 385
-    distinct_repos: 29
-    pushes_per_repo: 13.2759
-    active_days: 52
-    repos_not_owned: 12
+    pushes: 362
+    distinct_repos: 27
+    pushes_per_repo: 13.4074
+    active_days: 51
+    repos_not_owned: 10
     not_owned_basenames: 7
-    not_owned_owners: 8
+    not_owned_owners: 6
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 52 active days in 90d — pass"
+  - "activity: 51 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "pipecat-turn-detection-demo"
@@ -129,6 +129,6 @@ repos:
 
 # wirjo
 
-385 pushes across 29 repositories on 52 active days in the last 90 days of public GitHub push activity.
+362 pushes across 27 repositories on 51 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/wirjo

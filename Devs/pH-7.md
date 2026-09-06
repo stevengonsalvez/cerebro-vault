@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-05T06:07:00.404056+00:00"
+generated_at: "2026-09-06T06:09:03.028501+00:00"
 provenance:
   - "1f49d0119cedbc84"
-pushes_per_week: [2, 3, 7, 4, 0, 16, 5, 5, 1, 5, 0, 2, 0]
+pushes_per_week: [3, 6, 2, 4, 1, 15, 5, 6, 3, 2, 2, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 3
     not_owned_owners: 3
   "90d":
-    pushes: 50
+    pushes: 49
     distinct_repos: 15
-    active_days: 24
+    active_days: 23
     repos_not_owned: 10
     not_owned_basenames: 10
     not_owned_owners: 7
 automation:
   state: "clear"
-  push_per_day: 2.0833
-  repo_per_active_day: 0.6250
+  push_per_day: 2.1304
+  repo_per_active_day: 0.6522
   not_owned_ratio: 0.6667
   basename_concentration: 0.0667
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 3
     not_owned_owners: 3
   "90d":
-    pushes: 50
+    pushes: 49
     distinct_repos: 15
-    pushes_per_repo: 3.3333
-    active_days: 24
+    pushes_per_repo: 3.2667
+    active_days: 23
     repos_not_owned: 10
     not_owned_basenames: 10
     not_owned_owners: 7
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 24 active days in 90d — pass"
+  - "activity: 23 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "pH-7"
@@ -219,6 +219,6 @@ repos:
 
 # pH-7
 
-50 pushes across 15 repositories on 24 active days in the last 90 days of public GitHub push activity.
+49 pushes across 15 repositories on 23 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/pH-7

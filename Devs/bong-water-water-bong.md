@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-05T06:07:00.404056+00:00"
+generated_at: "2026-09-06T06:09:03.028501+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [0, 5, 95, 121, 140, 103, 187, 69, 30, 20, 8, 10, 2]
+pushes_per_week: [0, 5, 106, 142, 127, 94, 192, 56, 30, 20, 10, 6, 3]
 windows:
   "7d":
     pushes: 3
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 4
     not_owned_owners: 2
   "90d":
-    pushes: 790
+    pushes: 791
     distinct_repos: 49
-    active_days: 67
+    active_days: 68
     repos_not_owned: 6
     not_owned_basenames: 6
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 11.7910
-  repo_per_active_day: 0.7313
+  push_per_day: 11.6324
+  repo_per_active_day: 0.7206
   not_owned_ratio: 0.1224
   basename_concentration: 0.0408
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 4
     not_owned_owners: 2
   "90d":
-    pushes: 790
+    pushes: 791
     distinct_repos: 49
-    pushes_per_repo: 16.1224
-    active_days: 67
+    pushes_per_repo: 16.1429
+    active_days: 68
     repos_not_owned: 6
     not_owned_basenames: 6
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 67 active days in 90d — pass"
+  - "activity: 68 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "AMD-gui"
@@ -129,6 +129,6 @@ repos:
 
 # bong-water-water-bong
 
-790 pushes across 49 repositories on 67 active days in the last 90 days of public GitHub push activity.
+791 pushes across 49 repositories on 68 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/bong-water-water-bong

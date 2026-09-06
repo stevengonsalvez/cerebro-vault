@@ -12,12 +12,12 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-05T06:07:00.404056+00:00"
+generated_at: "2026-09-06T06:09:03.028501+00:00"
 provenance:
   - "06b6387dd3484f1c"
   - "c133b93b912dffd6"
   - "de6bf05613f3ae04"
-pushes_per_week: [31, 0, 11, 3, 6, 6, 4, 5, 4, 13, 1, 1, 1]
+pushes_per_week: [21, 0, 11, 3, 6, 6, 4, 5, 4, 13, 1, 1, 1]
 windows:
   "7d":
     pushes: 1
@@ -34,18 +34,18 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 86
-    distinct_repos: 7
-    active_days: 34
+    pushes: 76
+    distinct_repos: 5
+    active_days: 33
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 2.5294
-  repo_per_active_day: 0.2059
-  not_owned_ratio: 0.5714
-  basename_concentration: 0.2857
+  push_per_day: 2.3030
+  repo_per_active_day: 0.1515
+  not_owned_ratio: 0.8000
+  basename_concentration: 0.4000
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -70,16 +70,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 86
-    distinct_repos: 7
-    pushes_per_repo: 12.2857
-    active_days: 34
+    pushes: 76
+    distinct_repos: 5
+    pushes_per_repo: 15.2000
+    active_days: 33
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 3
 reasons:
   - "provenance: 3 vault signal(s) — pass"
-  - "activity: 34 active days in 90d — pass"
+  - "activity: 33 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "sitegeist"
@@ -140,6 +140,6 @@ repos:
 
 # badlogic
 
-86 pushes across 7 repositories on 34 active days in the last 90 days of public GitHub push activity.
+76 pushes across 5 repositories on 33 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/badlogic

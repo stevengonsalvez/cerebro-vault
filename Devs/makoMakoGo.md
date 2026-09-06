@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-05T06:07:00.404056+00:00"
+generated_at: "2026-09-06T06:09:03.028501+00:00"
 provenance:
   - "c489e6fb5febf2ab"
-pushes_per_week: [44, 23, 31, 31, 49, 37, 22, 3, 1, 4, 2, 0, 0]
+pushes_per_week: [43, 26, 28, 38, 46, 48, 7, 2, 1, 4, 2, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 247
+    pushes: 245
     distinct_repos: 18
-    active_days: 49
+    active_days: 48
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 5.0408
-  repo_per_active_day: 0.3673
+  push_per_day: 5.1042
+  repo_per_active_day: 0.3750
   not_owned_ratio: 0.1111
   basename_concentration: 0.1111
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 247
+    pushes: 245
     distinct_repos: 18
-    pushes_per_repo: 13.7222
-    active_days: 49
+    pushes_per_repo: 13.6111
+    active_days: 48
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 49 active days in 90d — pass"
+  - "activity: 48 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "fish-claude"
@@ -152,6 +152,6 @@ repos:
 
 # makoMakoGo
 
-247 pushes across 18 repositories on 49 active days in the last 90 days of public GitHub push activity.
+245 pushes across 18 repositories on 48 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/makoMakoGo

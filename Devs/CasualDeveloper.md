@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-05T06:07:00.404056+00:00"
+generated_at: "2026-09-06T06:09:03.028501+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [5, 21, 16, 4, 18, 30, 10, 4, 4, 2, 0, 2, 1]
+pushes_per_week: [13, 13, 17, 3, 26, 24, 11, 1, 5, 1, 2, 1, 1]
 windows:
   "7d":
-    pushes: 1
+    pushes: 2
     distinct_repos: 1
-    active_days: 1
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 8
+    pushes: 9
     distinct_repos: 3
-    active_days: 5
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 117
+    pushes: 118
     distinct_repos: 7
-    active_days: 30
+    active_days: 31
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 3.9000
-  repo_per_active_day: 0.2333
+  push_per_day: 3.8065
+  repo_per_active_day: 0.2258
   not_owned_ratio: 0.0000
   basename_concentration: 0.1429
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
+    pushes: 2
     distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes_per_repo: 2.0000
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 8
+    pushes: 9
     distinct_repos: 3
-    pushes_per_repo: 2.6667
-    active_days: 5
+    pushes_per_repo: 3.0000
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 117
+    pushes: 118
     distinct_repos: 7
-    pushes_per_repo: 16.7143
-    active_days: 30
+    pushes_per_repo: 16.8571
+    active_days: 31
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 30 active days in 90d — pass"
+  - "activity: 31 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "homebrew-tap"
@@ -105,6 +105,6 @@ repos:
 
 # CasualDeveloper
 
-117 pushes across 7 repositories on 30 active days in the last 90 days of public GitHub push activity.
+118 pushes across 7 repositories on 31 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/CasualDeveloper

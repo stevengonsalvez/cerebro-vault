@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-05T06:07:00.404056+00:00"
+generated_at: "2026-09-06T06:09:03.028501+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [80, 101, 76, 60, 35, 49, 34, 48, 27, 42, 17, 16, 5]
+pushes_per_week: [83, 117, 64, 55, 24, 54, 30, 56, 23, 45, 10, 15, 6]
 windows:
   "7d":
     pushes: 6
@@ -22,25 +22,25 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 83
+    pushes: 82
     distinct_repos: 44
     active_days: 23
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 590
-    distinct_repos: 97
+    pushes: 582
+    distinct_repos: 96
     active_days: 79
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 7.4684
-  repo_per_active_day: 1.2278
-  not_owned_ratio: 0.0515
-  basename_concentration: 0.0206
+  push_per_day: 7.3671
+  repo_per_active_day: 1.2152
+  not_owned_ratio: 0.0521
+  basename_concentration: 0.0208
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -57,17 +57,17 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 83
+    pushes: 82
     distinct_repos: 44
-    pushes_per_repo: 1.8864
+    pushes_per_repo: 1.8636
     active_days: 23
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 590
-    distinct_repos: 97
-    pushes_per_repo: 6.0825
+    pushes: 582
+    distinct_repos: 96
+    pushes_per_repo: 6.0625
     active_days: 79
     repos_not_owned: 5
     not_owned_basenames: 5
@@ -140,6 +140,6 @@ repos:
 
 # monotykamary
 
-590 pushes across 97 repositories on 79 active days in the last 90 days of public GitHub push activity.
+582 pushes across 96 repositories on 79 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/monotykamary

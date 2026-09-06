@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-05T06:07:00.404056+00:00"
+generated_at: "2026-09-06T06:09:03.028501+00:00"
 provenance:
   - "a50b0e08dbaee74a"
-pushes_per_week: [63, 16, 32, 25, 7, 7, 8, 2, 1, 9, 8, 2, 0]
+pushes_per_week: [58, 15, 26, 26, 7, 6, 8, 2, 1, 10, 9, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 3
     not_owned_owners: 2
   "90d":
-    pushes: 180
+    pushes: 168
     distinct_repos: 16
-    active_days: 47
+    active_days: 46
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 3.8298
-  repo_per_active_day: 0.3404
+  push_per_day: 3.6522
+  repo_per_active_day: 0.3478
   not_owned_ratio: 0.2500
   basename_concentration: 0.0625
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 3
     not_owned_owners: 2
   "90d":
-    pushes: 180
+    pushes: 168
     distinct_repos: 16
-    pushes_per_repo: 11.2500
-    active_days: 47
+    pushes_per_repo: 10.5000
+    active_days: 46
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 47 active days in 90d — pass"
+  - "activity: 46 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "ai-gateway"
@@ -165,6 +165,6 @@ repos:
 
 # theagenticguy
 
-180 pushes across 16 repositories on 47 active days in the last 90 days of public GitHub push activity.
+168 pushes across 16 repositories on 46 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/theagenticguy

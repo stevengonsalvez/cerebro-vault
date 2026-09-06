@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-05T06:07:00.404056+00:00"
+generated_at: "2026-09-06T06:09:03.028501+00:00"
 provenance:
   - "386c24cf5e18fd90"
-pushes_per_week: [29, 0, 0, 5, 12, 41, 33, 1, 10, 29, 12, 5, 1]
+pushes_per_week: [28, 0, 0, 5, 12, 43, 31, 3, 8, 29, 14, 3, 1]
 windows:
   "7d":
     pushes: 1
@@ -29,7 +29,7 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 178
+    pushes: 177
     distinct_repos: 13
     active_days: 39
     repos_not_owned: 1
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 4.5641
+  push_per_day: 4.5385
   repo_per_active_day: 0.3333
   not_owned_ratio: 0.0769
   basename_concentration: 0.0769
@@ -65,9 +65,9 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 178
+    pushes: 177
     distinct_repos: 13
-    pushes_per_repo: 13.6923
+    pushes_per_repo: 13.6154
     active_days: 39
     repos_not_owned: 1
     not_owned_basenames: 1
@@ -159,6 +159,6 @@ repos:
 
 # AshishKumar4
 
-178 pushes across 13 repositories on 39 active days in the last 90 days of public GitHub push activity.
+177 pushes across 13 repositories on 39 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/AshishKumar4

@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-05T06:07:00.404056+00:00"
+generated_at: "2026-09-06T06:09:03.028501+00:00"
 provenance:
   - "83e0e833f0504fcd"
-pushes_per_week: [4, 16, 1, 0, 0, 8, 5, 6, 6, 9, 0, 3, 0]
+pushes_per_week: [3, 16, 1, 0, 0, 8, 5, 6, 6, 9, 1, 2, 1]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
-  "30d":
-    pushes: 14
+    pushes: 1
     distinct_repos: 1
-    active_days: 7
+    active_days: 1
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
+  "30d":
+    pushes: 13
+    distinct_repos: 1
+    active_days: 6
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
     pushes: 58
     distinct_repos: 12
-    active_days: 24
+    active_days: 25
     repos_not_owned: 7
     not_owned_basenames: 5
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 2.4167
-  repo_per_active_day: 0.5000
+  push_per_day: 2.3200
+  repo_per_active_day: 0.4800
   not_owned_ratio: 0.5833
   basename_concentration: 0.2500
   shapes: []
@@ -49,18 +49,18 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
-  "30d":
-    pushes: 14
+    pushes: 1
     distinct_repos: 1
-    pushes_per_repo: 14.0000
-    active_days: 7
+    pushes_per_repo: 1.0000
+    active_days: 1
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
+  "30d":
+    pushes: 13
+    distinct_repos: 1
+    pushes_per_repo: 13.0000
+    active_days: 6
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -68,13 +68,13 @@ facets:
     pushes: 58
     distinct_repos: 12
     pushes_per_repo: 4.8333
-    active_days: 24
+    active_days: 25
     repos_not_owned: 7
     not_owned_basenames: 5
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 24 active days in 90d — pass"
+  - "activity: 25 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "obsidian-skills"
@@ -184,6 +184,6 @@ repos:
 
 # kepano
 
-58 pushes across 12 repositories on 24 active days in the last 90 days of public GitHub push activity.
+58 pushes across 12 repositories on 25 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/kepano

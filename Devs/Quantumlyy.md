@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-05T06:07:00.404056+00:00"
+generated_at: "2026-09-06T06:09:03.028501+00:00"
 provenance:
   - "8311cfc3055f8fea"
-pushes_per_week: [13, 2, 12, 9, 1, 1, 3, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [7, 2, 12, 9, 1, 1, 3, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 41
+    pushes: 35
     distinct_repos: 11
-    active_days: 16
+    active_days: 15
     repos_not_owned: 7
     not_owned_basenames: 7
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 2.5625
-  repo_per_active_day: 0.6875
+  push_per_day: 2.3333
+  repo_per_active_day: 0.7333
   not_owned_ratio: 0.6364
   basename_concentration: 0.0909
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 41
+    pushes: 35
     distinct_repos: 11
-    pushes_per_repo: 3.7273
-    active_days: 16
+    pushes_per_repo: 3.1818
+    active_days: 15
     repos_not_owned: 7
     not_owned_basenames: 7
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 16 active days in 90d — pass"
+  - "activity: 15 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "nejc.dev"
@@ -129,6 +129,6 @@ repos:
 
 # Quantumlyy
 
-41 pushes across 11 repositories on 16 active days in the last 90 days of public GitHub push activity.
+35 pushes across 11 repositories on 15 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Quantumlyy

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-05T06:07:00.404056+00:00"
+generated_at: "2026-09-06T06:09:03.028501+00:00"
 provenance:
   - "ef17663e884139a8"
-pushes_per_week: [53, 50, 61, 71, 28, 45, 17, 29, 20, 38, 7, 5, 0]
+pushes_per_week: [50, 53, 60, 71, 28, 43, 19, 24, 25, 32, 7, 4, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 424
+    pushes: 416
     distinct_repos: 48
-    active_days: 78
+    active_days: 77
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 5.4359
-  repo_per_active_day: 0.6154
+  push_per_day: 5.4026
+  repo_per_active_day: 0.6234
   not_owned_ratio: 0.0833
   basename_concentration: 0.0208
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 424
+    pushes: 416
     distinct_repos: 48
-    pushes_per_repo: 8.8333
-    active_days: 78
+    pushes_per_repo: 8.6667
+    active_days: 77
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 78 active days in 90d — pass"
+  - "activity: 77 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "Surge"
@@ -153,6 +153,6 @@ repos:
 
 # SukkaW
 
-424 pushes across 48 repositories on 78 active days in the last 90 days of public GitHub push activity.
+416 pushes across 48 repositories on 77 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/SukkaW

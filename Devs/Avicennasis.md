@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-05T06:07:00.404056+00:00"
+generated_at: "2026-09-06T06:09:03.028501+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [29, 38, 36, 53, 20, 7, 5, 7, 3, 8, 7, 0, 0]
+pushes_per_week: [32, 32, 36, 64, 9, 8, 4, 7, 4, 7, 7, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 17
+    pushes: 16
     distinct_repos: 9
-    active_days: 7
+    active_days: 6
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 213
+    pushes: 210
     distinct_repos: 35
-    active_days: 47
+    active_days: 46
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 4.5319
-  repo_per_active_day: 0.7447
+  push_per_day: 4.5652
+  repo_per_active_day: 0.7609
   not_owned_ratio: 0.1143
   basename_concentration: 0.0571
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 17
+    pushes: 16
     distinct_repos: 9
-    pushes_per_repo: 1.8889
-    active_days: 7
+    pushes_per_repo: 1.7778
+    active_days: 6
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 213
+    pushes: 210
     distinct_repos: 35
-    pushes_per_repo: 6.0857
-    active_days: 47
+    pushes_per_repo: 6.0000
+    active_days: 46
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 47 active days in 90d — pass"
+  - "activity: 46 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "BluePaper"
@@ -129,6 +129,6 @@ repos:
 
 # Avicennasis
 
-213 pushes across 35 repositories on 47 active days in the last 90 days of public GitHub push activity.
+210 pushes across 35 repositories on 46 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Avicennasis

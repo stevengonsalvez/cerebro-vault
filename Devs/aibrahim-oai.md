@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-05T06:07:00.404056+00:00"
+generated_at: "2026-09-06T06:09:03.028501+00:00"
 provenance:
   - "0388a4f55f4206c8"
   - "0577669e18ed3998"
@@ -26,7 +26,7 @@ provenance:
   - "c6b4a874521ceb02"
   - "cf565721454d59f8"
   - "e26852201e6f38fc"
-pushes_per_week: [73, 8, 21, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [69, 8, 21, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -43,17 +43,17 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 107
-    distinct_repos: 2
-    active_days: 14
+    pushes: 103
+    distinct_repos: 1
+    active_days: 13
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 7.6429
-  repo_per_active_day: 0.1429
-  not_owned_ratio: 0.5000
+  push_per_day: 7.9231
+  repo_per_active_day: 0.0769
+  not_owned_ratio: 1.0000
   basename_concentration: 1.0000
   shapes: []
   shape_evidence: []
@@ -79,22 +79,22 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 107
-    distinct_repos: 2
-    pushes_per_repo: 53.5000
-    active_days: 14
+    pushes: 103
+    distinct_repos: 1
+    pushes_per_repo: 103.0000
+    active_days: 13
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 15 vault signal(s) — pass"
-  - "activity: 14 active days in 90d — pass"
+  - "activity: 13 active days in 90d — pass"
   - "automation: clear — pass"
 repos: []
 ---
 
 # aibrahim-oai
 
-107 pushes across 2 repositories on 14 active days in the last 90 days of public GitHub push activity.
+103 pushes across 1 repository on 13 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/aibrahim-oai

@@ -9,14 +9,14 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-05T06:07:00.404056+00:00"
+generated_at: "2026-09-06T06:09:03.028501+00:00"
 provenance:
   - "c60b77ce50fb8910"
-pushes_per_week: [96, 327, 248, 193, 52, 32, 25, 33, 38, 31, 13, 16, 1]
+pushes_per_week: [162, 284, 255, 177, 37, 40, 19, 41, 28, 33, 14, 11, 2]
 windows:
   "7d":
-    pushes: 2
-    distinct_repos: 2
+    pushes: 3
+    distinct_repos: 3
     active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -29,7 +29,7 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 1105
+    pushes: 1103
     distinct_repos: 44
     active_days: 76
     repos_not_owned: 5
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 14.5395
+  push_per_day: 14.5132
   repo_per_active_day: 0.5789
   not_owned_ratio: 0.1136
   basename_concentration: 0.0455
@@ -49,8 +49,8 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
-    distinct_repos: 2
+    pushes: 3
+    distinct_repos: 3
     pushes_per_repo: 1.0000
     active_days: 2
     repos_not_owned: 0
@@ -65,9 +65,9 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 1105
+    pushes: 1103
     distinct_repos: 44
-    pushes_per_repo: 25.1136
+    pushes_per_repo: 25.0682
     active_days: 76
     repos_not_owned: 5
     not_owned_basenames: 5
@@ -169,6 +169,6 @@ repos:
 
 # ruvnet
 
-1105 pushes across 44 repositories on 76 active days in the last 90 days of public GitHub push activity.
+1103 pushes across 44 repositories on 76 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ruvnet

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-05T06:07:00.404056+00:00"
+generated_at: "2026-09-06T06:09:03.028501+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [20, 3, 13, 11, 0, 3, 3, 3, 2, 2, 1, 0, 0]
+pushes_per_week: [15, 3, 16, 8, 0, 4, 3, 3, 1, 2, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 61
-    distinct_repos: 19
-    active_days: 32
-    repos_not_owned: 18
-    not_owned_basenames: 18
+    pushes: 56
+    distinct_repos: 18
+    active_days: 31
+    repos_not_owned: 17
+    not_owned_basenames: 17
     not_owned_owners: 4
 automation:
   state: "clear"
-  push_per_day: 1.9062
-  repo_per_active_day: 0.5938
-  not_owned_ratio: 0.9474
-  basename_concentration: 0.0526
+  push_per_day: 1.8065
+  repo_per_active_day: 0.5806
+  not_owned_ratio: 0.9444
+  basename_concentration: 0.0556
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 61
-    distinct_repos: 19
-    pushes_per_repo: 3.2105
-    active_days: 32
-    repos_not_owned: 18
-    not_owned_basenames: 18
+    pushes: 56
+    distinct_repos: 18
+    pushes_per_repo: 3.1111
+    active_days: 31
+    repos_not_owned: 17
+    not_owned_basenames: 17
     not_owned_owners: 4
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 32 active days in 90d — pass"
+  - "activity: 31 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "zealt-agent"
@@ -132,6 +132,6 @@ repos:
 
 # zwpaper
 
-61 pushes across 19 repositories on 32 active days in the last 90 days of public GitHub push activity.
+56 pushes across 18 repositories on 31 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/zwpaper

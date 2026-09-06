@@ -11,11 +11,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-05T06:07:00.404056+00:00"
+generated_at: "2026-09-06T06:09:03.028501+00:00"
 provenance:
   - "637c99109af31ed2"
   - "b22ecd25e4a0f368"
-pushes_per_week: [6, 23, 3, 35, 24, 19, 6, 5, 3, 7, 0, 5, 0]
+pushes_per_week: [6, 23, 3, 39, 20, 19, 6, 5, 4, 6, 3, 2, 0]
 windows:
   "7d":
     pushes: 0
@@ -86,7 +86,7 @@ repos:
     language: "Shell"
     topics: []
     stars_fact: 246312
-    first_seen: "2026-08-22T06:00:02.523946+00:00"
+    first_seen: "2026-07-31T06:00:08.910931+00:00"
     last_push: "2026-08-24"
   - name: "mattpocock"
     title: "mattpocock"

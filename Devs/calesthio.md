@@ -10,10 +10,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-05T06:07:00.404056+00:00"
+generated_at: "2026-09-06T06:09:03.028501+00:00"
 provenance:
   - "6d3bd03b49986330"
-pushes_per_week: [0, 0, 13, 9, 13, 5, 2, 0, 0, 13, 1, 0, 0]
+pushes_per_week: [0, 0, 15, 12, 9, 5, 1, 0, 0, 13, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -119,7 +119,7 @@ repos:
       - "video-generation"
       - "video-production"
     stars_fact: 55904
-    first_seen: "2026-08-12T06:00:08.422592+00:00"
+    first_seen: "2026-06-19T17:17:11.400096+00:00"
     last_push: "2026-08-22"
   - name: "Crucix"
     title: "Crucix"

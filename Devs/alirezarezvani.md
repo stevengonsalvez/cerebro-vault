@@ -10,10 +10,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-05T06:07:00.404056+00:00"
+generated_at: "2026-09-06T06:09:03.028501+00:00"
 provenance:
   - "3cb7ff1cdcf97c6b"
-pushes_per_week: [23, 3, 3, 10, 5, 6, 0, 2, 0, 8, 2, 2, 0]
+pushes_per_week: [23, 3, 3, 10, 5, 6, 0, 2, 8, 0, 2, 2, 0]
 windows:
   "7d":
     pushes: 0
@@ -104,7 +104,7 @@ repos:
       - "openclaw-skills"
       - "prompt-engineering"
     stars_fact: 25457
-    first_seen: "2026-09-04T06:00:17.162497+00:00"
+    first_seen: "2026-08-10T06:00:04.550142+00:00"
     last_push: "2026-08-30"
   - name: "alirezarezvani"
     title: "alirezarezvani"

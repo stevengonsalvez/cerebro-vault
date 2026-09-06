@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-05T06:07:00.404056+00:00"
+generated_at: "2026-09-06T06:09:03.028501+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [69, 41, 17, 70, 64, 37, 25, 16, 30, 7, 7, 4, 0]
+pushes_per_week: [62, 42, 44, 56, 49, 40, 22, 24, 22, 8, 6, 4, 3]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
+    pushes: 3
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 30
+    pushes: 31
     distinct_repos: 8
-    active_days: 13
+    active_days: 14
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 387
+    pushes: 382
     distinct_repos: 32
     active_days: 62
     repos_not_owned: 6
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 6.2419
+  push_per_day: 6.1613
   repo_per_active_day: 0.5161
   not_owned_ratio: 0.1875
   basename_concentration: 0.0312
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
+    pushes: 3
+    distinct_repos: 1
+    pushes_per_repo: 3.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 30
+    pushes: 31
     distinct_repos: 8
-    pushes_per_repo: 3.7500
-    active_days: 13
+    pushes_per_repo: 3.8750
+    active_days: 14
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 387
+    pushes: 382
     distinct_repos: 32
-    pushes_per_repo: 12.0938
+    pushes_per_repo: 11.9375
     active_days: 62
     repos_not_owned: 6
     not_owned_basenames: 6
@@ -134,6 +134,6 @@ repos:
 
 # bendrucker
 
-387 pushes across 32 repositories on 62 active days in the last 90 days of public GitHub push activity.
+382 pushes across 32 repositories on 62 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/bendrucker

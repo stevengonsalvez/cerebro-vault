@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-05T06:07:00.404056+00:00"
+generated_at: "2026-09-06T06:09:03.028501+00:00"
 provenance:
   - "541318303a272608"
-pushes_per_week: [11, 18, 16, 20, 9, 12, 2, 2, 4, 6, 3, 1, 0]
+pushes_per_week: [10, 18, 16, 20, 9, 12, 2, 2, 4, 6, 3, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,7 +29,7 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 104
+    pushes: 103
     distinct_repos: 1
     active_days: 38
     repos_not_owned: 0
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.7368
+  push_per_day: 2.7105
   repo_per_active_day: 0.0263
   not_owned_ratio: 0.0000
   basename_concentration: 1.0000
@@ -65,9 +65,9 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 104
+    pushes: 103
     distinct_repos: 1
-    pushes_per_repo: 104.0000
+    pushes_per_repo: 103.0000
     active_days: 38
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -89,6 +89,6 @@ repos:
 
 # wangfei010313
 
-104 pushes across 1 repository on 38 active days in the last 90 days of public GitHub push activity.
+103 pushes across 1 repository on 38 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/wangfei010313

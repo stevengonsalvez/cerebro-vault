@@ -11,43 +11,43 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-05T06:07:00.404056+00:00"
+generated_at: "2026-09-06T06:09:03.028501+00:00"
 provenance:
   - "668711a6e1072822"
   - "73468cde177ddae6"
-pushes_per_week: [19, 18, 9, 26, 20, 116, 12, 16, 12, 9, 4, 1, 0]
+pushes_per_week: [20, 14, 16, 19, 24, 110, 16, 14, 10, 10, 4, 0, 1]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
-  "30d":
-    pushes: 15
+    pushes: 1
     distinct_repos: 1
-    active_days: 9
+    active_days: 1
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
+  "30d":
+    pushes: 16
+    distinct_repos: 1
+    active_days: 10
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 262
-    distinct_repos: 25
-    active_days: 55
-    repos_not_owned: 24
+    pushes: 258
+    distinct_repos: 23
+    active_days: 56
+    repos_not_owned: 22
     not_owned_basenames: 2
-    not_owned_owners: 24
+    not_owned_owners: 22
 automation:
   state: "clear"
-  push_per_day: 4.7636
-  repo_per_active_day: 0.4545
-  not_owned_ratio: 0.9600
-  basename_concentration: 0.9600
+  push_per_day: 4.6071
+  repo_per_active_day: 0.4107
+  not_owned_ratio: 0.9565
+  basename_concentration: 0.9565
   shapes:
     - "fork_farm_third_party"
   shape_evidence:
-    - "basename concentration 0.9600 (24 of 25 repos share one basename), 24 not owned across 2 basenames — 5 of 5 sampled repos resolved; 5 fork somebody else's repo; upstreams: headroomlabs-ai/headroom"
+    - "basename concentration 0.9565 (22 of 23 repos share one basename), 22 not owned across 2 basenames — 5 of 5 sampled repos resolved; 5 fork somebody else's repo; upstreams: headroomlabs-ai/headroom"
   cleared_by: "e01-builder"
   cleared_on: "2026-08-26"
   fork_provenance:
@@ -68,32 +68,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
-  "30d":
-    pushes: 15
+    pushes: 1
     distinct_repos: 1
-    pushes_per_repo: 15.0000
-    active_days: 9
+    pushes_per_repo: 1.0000
+    active_days: 1
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
+  "30d":
+    pushes: 16
+    distinct_repos: 1
+    pushes_per_repo: 16.0000
+    active_days: 10
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 262
-    distinct_repos: 25
-    pushes_per_repo: 10.4800
-    active_days: 55
-    repos_not_owned: 24
+    pushes: 258
+    distinct_repos: 23
+    pushes_per_repo: 11.2174
+    active_days: 56
+    repos_not_owned: 22
     not_owned_basenames: 2
-    not_owned_owners: 24
+    not_owned_owners: 22
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 55 active days in 90d — pass"
+  - "activity: 56 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "vitals"
@@ -158,6 +158,6 @@ repos:
 
 # chopratejas
 
-262 pushes across 25 repositories on 55 active days in the last 90 days of public GitHub push activity.
+258 pushes across 23 repositories on 56 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/chopratejas

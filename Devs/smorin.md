@@ -9,21 +9,21 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-05T06:07:00.404056+00:00"
+generated_at: "2026-09-06T06:09:03.028501+00:00"
 provenance:
   - "97c4e9cb8b163ddb"
   - "c7515e0fa4368a55"
   - "d3abe74726b22711"
   - "e7c647c4d0689526"
-pushes_per_week: [87, 106, 34, 17, 21, 10, 17, 12, 3, 9, 11, 0, 1]
+pushes_per_week: [75, 98, 39, 6, 21, 16, 20, 3, 4, 9, 10, 1, 0]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
     pushes: 23
     distinct_repos: 8
@@ -32,16 +32,16 @@ windows:
     not_owned_basenames: 8
     not_owned_owners: 1
   "90d":
-    pushes: 328
+    pushes: 302
     distinct_repos: 29
-    active_days: 49
+    active_days: 48
     repos_not_owned: 22
     not_owned_basenames: 22
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 6.6939
-  repo_per_active_day: 0.5918
+  push_per_day: 6.2917
+  repo_per_active_day: 0.6042
   not_owned_ratio: 0.7586
   basename_concentration: 0.0690
   shapes: []
@@ -52,13 +52,13 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
     pushes: 23
     distinct_repos: 8
@@ -68,16 +68,16 @@ facets:
     not_owned_basenames: 8
     not_owned_owners: 1
   "90d":
-    pushes: 328
+    pushes: 302
     distinct_repos: 29
-    pushes_per_repo: 11.3103
-    active_days: 49
+    pushes_per_repo: 10.4138
+    active_days: 48
     repos_not_owned: 22
     not_owned_basenames: 22
     not_owned_owners: 2
 reasons:
   - "provenance: 4 vault signal(s) — pass"
-  - "activity: 49 active days in 90d — pass"
+  - "activity: 48 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "release-proto-a"
@@ -132,6 +132,6 @@ repos:
 
 # smorin
 
-328 pushes across 29 repositories on 49 active days in the last 90 days of public GitHub push activity.
+302 pushes across 29 repositories on 48 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/smorin

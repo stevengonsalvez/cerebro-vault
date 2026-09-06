@@ -9,28 +9,28 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-05T06:07:00.404056+00:00"
+generated_at: "2026-09-06T06:09:03.028501+00:00"
 provenance:
   - "73468cde177ddae6"
-pushes_per_week: [5, 4, 17, 2, 13, 9, 11, 3, 5, 3, 5, 0, 1]
+pushes_per_week: [4, 4, 17, 4, 12, 8, 11, 3, 5, 4, 4, 0, 2]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
+    pushes: 2
+    distinct_repos: 2
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
     pushes: 10
-    distinct_repos: 3
+    distinct_repos: 4
     active_days: 9
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
     pushes: 78
-    distinct_repos: 11
+    distinct_repos: 12
     active_days: 42
     repos_not_owned: 3
     not_owned_basenames: 2
@@ -38,9 +38,9 @@ windows:
 automation:
   state: "clear"
   push_per_day: 1.8571
-  repo_per_active_day: 0.2619
-  not_owned_ratio: 0.2727
-  basename_concentration: 0.2727
+  repo_per_active_day: 0.2857
+  not_owned_ratio: 0.2500
+  basename_concentration: 0.2500
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
+    pushes: 2
+    distinct_repos: 2
     pushes_per_repo: 1.0000
-    active_days: 1
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
     pushes: 10
-    distinct_repos: 3
-    pushes_per_repo: 3.3333
+    distinct_repos: 4
+    pushes_per_repo: 2.5000
     active_days: 9
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
     pushes: 78
-    distinct_repos: 11
-    pushes_per_repo: 7.0909
+    distinct_repos: 12
+    pushes_per_repo: 6.5000
     active_days: 42
     repos_not_owned: 3
     not_owned_basenames: 2
@@ -144,6 +144,6 @@ repos:
 
 # khaosdoctor
 
-78 pushes across 11 repositories on 42 active days in the last 90 days of public GitHub push activity.
+78 pushes across 12 repositories on 42 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/khaosdoctor

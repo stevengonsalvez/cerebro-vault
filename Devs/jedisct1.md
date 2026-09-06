@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-05T06:07:00.404056+00:00"
+generated_at: "2026-09-06T06:09:03.028501+00:00"
 provenance:
   - "3eacb4655aba2497"
-pushes_per_week: [46, 53, 28, 32, 18, 28, 11, 7, 5, 7, 1, 1, 0]
+pushes_per_week: [45, 55, 23, 37, 14, 30, 8, 8, 5, 6, 1, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 11
-    distinct_repos: 10
-    active_days: 8
-    repos_not_owned: 6
-    not_owned_basenames: 6
-    not_owned_owners: 5
+    pushes: 10
+    distinct_repos: 9
+    active_days: 7
+    repos_not_owned: 5
+    not_owned_basenames: 5
+    not_owned_owners: 4
   "90d":
-    pushes: 237
+    pushes: 233
     distinct_repos: 69
-    active_days: 58
+    active_days: 57
     repos_not_owned: 38
     not_owned_basenames: 35
     not_owned_owners: 14
 automation:
   state: "clear"
-  push_per_day: 4.0862
-  repo_per_active_day: 1.1897
+  push_per_day: 4.0877
+  repo_per_active_day: 1.2105
   not_owned_ratio: 0.5507
   basename_concentration: 0.0580
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 11
-    distinct_repos: 10
-    pushes_per_repo: 1.1000
-    active_days: 8
-    repos_not_owned: 6
-    not_owned_basenames: 6
-    not_owned_owners: 5
+    pushes: 10
+    distinct_repos: 9
+    pushes_per_repo: 1.1111
+    active_days: 7
+    repos_not_owned: 5
+    not_owned_basenames: 5
+    not_owned_owners: 4
   "90d":
-    pushes: 237
+    pushes: 233
     distinct_repos: 69
-    pushes_per_repo: 3.4348
-    active_days: 58
+    pushes_per_repo: 3.3768
+    active_days: 57
     repos_not_owned: 38
     not_owned_basenames: 35
     not_owned_owners: 14
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 58 active days in 90d — pass"
+  - "activity: 57 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "libsodium.js"
@@ -157,6 +157,6 @@ repos:
 
 # jedisct1
 
-237 pushes across 69 repositories on 58 active days in the last 90 days of public GitHub push activity.
+233 pushes across 69 repositories on 57 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/jedisct1

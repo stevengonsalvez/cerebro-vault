@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-04T06:06:21.234597+00:00"
+generated_at: "2026-09-06T06:09:03.028501+00:00"
 provenance:
   - "541318303a272608"
-pushes_per_week: [5, 6, 12, 4, 6, 4, 3, 3, 2, 1, 0, 1, 0]
+pushes_per_week: [4, 6, 12, 4, 6, 4, 3, 3, 2, 1, 0, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 3
+    pushes: 2
     distinct_repos: 1
-    active_days: 3
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 47
+    pushes: 46
     distinct_repos: 3
-    active_days: 32
+    active_days: 31
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 1.4688
-  repo_per_active_day: 0.0938
+  push_per_day: 1.4839
+  repo_per_active_day: 0.0968
   not_owned_ratio: 0.6667
   basename_concentration: 0.6667
   shapes: []
@@ -57,30 +57,30 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 3
+    pushes: 2
     distinct_repos: 1
-    pushes_per_repo: 3.0000
-    active_days: 3
+    pushes_per_repo: 2.0000
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 47
+    pushes: 46
     distinct_repos: 3
-    pushes_per_repo: 15.6667
-    active_days: 32
+    pushes_per_repo: 15.3333
+    active_days: 31
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 32 active days in 90d — pass"
+  - "activity: 31 active days in 90d — pass"
   - "automation: clear — pass"
 repos: []
 ---
 
 # hongxicheng
 
-47 pushes across 3 repositories on 32 active days in the last 90 days of public GitHub push activity.
+46 pushes across 3 repositories on 31 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/hongxicheng

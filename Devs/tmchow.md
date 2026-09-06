@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-05T06:07:00.404056+00:00"
+generated_at: "2026-09-06T06:09:03.028501+00:00"
 provenance:
   - "47dca59f5e85d3b9"
-pushes_per_week: [122, 102, 183, 66, 97, 82, 74, 28, 13, 54, 32, 5, 0]
+pushes_per_week: [89, 116, 163, 65, 106, 79, 72, 30, 7, 59, 29, 3, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 4
     not_owned_owners: 7
   "90d":
-    pushes: 858
+    pushes: 818
     distinct_repos: 106
-    active_days: 72
+    active_days: 71
     repos_not_owned: 94
     not_owned_basenames: 5
     not_owned_owners: 87
 automation:
   state: "clear"
-  push_per_day: 11.9167
-  repo_per_active_day: 1.4722
+  push_per_day: 11.5211
+  repo_per_active_day: 1.4930
   not_owned_ratio: 0.8868
   basename_concentration: 0.5000
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 4
     not_owned_owners: 7
   "90d":
-    pushes: 858
+    pushes: 818
     distinct_repos: 106
-    pushes_per_repo: 8.0943
-    active_days: 72
+    pushes_per_repo: 7.7170
+    active_days: 71
     repos_not_owned: 94
     not_owned_basenames: 5
     not_owned_owners: 87
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 72 active days in 90d — pass"
+  - "activity: 71 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "illo-skill"
@@ -140,6 +140,6 @@ repos:
 
 # tmchow
 
-858 pushes across 106 repositories on 72 active days in the last 90 days of public GitHub push activity.
+818 pushes across 106 repositories on 71 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/tmchow

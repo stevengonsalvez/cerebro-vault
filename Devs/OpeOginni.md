@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-05T06:07:00.404056+00:00"
+generated_at: "2026-09-06T06:09:03.028501+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [21, 12, 11, 15, 13, 14, 3, 0, 5, 1, 0, 1, 0]
+pushes_per_week: [21, 12, 11, 14, 13, 14, 3, 0, 5, 1, 0, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 96
+    pushes: 95
     distinct_repos: 7
-    active_days: 41
+    active_days: 40
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.3415
-  repo_per_active_day: 0.1707
+  push_per_day: 2.3750
+  repo_per_active_day: 0.1750
   not_owned_ratio: 0.1429
   basename_concentration: 0.2857
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 96
+    pushes: 95
     distinct_repos: 7
-    pushes_per_repo: 13.7143
-    active_days: 41
+    pushes_per_repo: 13.5714
+    active_days: 40
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 41 active days in 90d — pass"
+  - "activity: 40 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "gitterm"
@@ -131,6 +131,6 @@ repos:
 
 # OpeOginni
 
-96 pushes across 7 repositories on 41 active days in the last 90 days of public GitHub push activity.
+95 pushes across 7 repositories on 40 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/OpeOginni

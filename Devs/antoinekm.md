@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-05T06:07:00.404056+00:00"
+generated_at: "2026-09-06T06:09:03.028501+00:00"
 provenance:
   - "379642deb53f3714"
-pushes_per_week: [23, 6, 45, 15, 6, 15, 20, 9, 1, 7, 1, 2, 0]
+pushes_per_week: [15, 24, 28, 15, 6, 14, 22, 7, 1, 7, 1, 2, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 150
+    pushes: 142
     distinct_repos: 10
-    active_days: 50
+    active_days: 49
     repos_not_owned: 6
     not_owned_basenames: 6
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 3.0000
-  repo_per_active_day: 0.2000
+  push_per_day: 2.8980
+  repo_per_active_day: 0.2041
   not_owned_ratio: 0.6000
   basename_concentration: 0.1000
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 150
+    pushes: 142
     distinct_repos: 10
-    pushes_per_repo: 15.0000
-    active_days: 50
+    pushes_per_repo: 14.2000
+    active_days: 49
     repos_not_owned: 6
     not_owned_basenames: 6
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 50 active days in 90d — pass"
+  - "activity: 49 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "antoinekm"
@@ -129,6 +129,6 @@ repos:
 
 # antoinekm
 
-150 pushes across 10 repositories on 50 active days in the last 90 days of public GitHub push activity.
+142 pushes across 10 repositories on 49 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/antoinekm

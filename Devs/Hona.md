@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-05T06:07:00.404056+00:00"
+generated_at: "2026-09-06T06:09:03.028501+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [14, 19, 29, 16, 13, 15, 7, 9, 8, 34, 7, 26, 3]
+pushes_per_week: [13, 14, 29, 20, 10, 15, 7, 8, 8, 34, 7, 28, 1]
 windows:
   "7d":
-    pushes: 3
+    pushes: 1
     distinct_repos: 1
-    active_days: 2
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 72
+    pushes: 70
     distinct_repos: 4
-    active_days: 18
+    active_days: 16
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 200
+    pushes: 194
     distinct_repos: 10
-    active_days: 59
+    active_days: 57
     repos_not_owned: 3
     not_owned_basenames: 2
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 3.3898
-  repo_per_active_day: 0.1695
+  push_per_day: 3.4035
+  repo_per_active_day: 0.1754
   not_owned_ratio: 0.3000
   basename_concentration: 0.3000
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 3
+    pushes: 1
     distinct_repos: 1
-    pushes_per_repo: 3.0000
-    active_days: 2
+    pushes_per_repo: 1.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 72
+    pushes: 70
     distinct_repos: 4
-    pushes_per_repo: 18.0000
-    active_days: 18
+    pushes_per_repo: 17.5000
+    active_days: 16
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 200
+    pushes: 194
     distinct_repos: 10
-    pushes_per_repo: 20.0000
-    active_days: 59
+    pushes_per_repo: 19.4000
+    active_days: 57
     repos_not_owned: 3
     not_owned_basenames: 2
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 59 active days in 90d — pass"
+  - "activity: 57 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "opencode-desktop-extensions"
@@ -138,6 +138,6 @@ repos:
 
 # Hona
 
-200 pushes across 10 repositories on 59 active days in the last 90 days of public GitHub push activity.
+194 pushes across 10 repositories on 57 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Hona

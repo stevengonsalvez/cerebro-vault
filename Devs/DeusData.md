@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-05T06:07:00.404056+00:00"
+generated_at: "2026-09-06T06:09:03.028501+00:00"
 provenance:
   - "f74d5b6b78b8a1a4"
-pushes_per_week: [21, 0, 40, 46, 25, 20, 15, 17, 14, 19, 3, 4, 0]
+pushes_per_week: [18, 0, 44, 49, 20, 18, 20, 13, 15, 18, 2, 4, 0]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 224
+    pushes: 221
     distinct_repos: 4
-    active_days: 56
+    active_days: 55
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 4.0000
-  repo_per_active_day: 0.0714
+  push_per_day: 4.0182
+  repo_per_active_day: 0.0727
   not_owned_ratio: 0.2500
   basename_concentration: 0.5000
   shapes: []
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 224
+    pushes: 221
     distinct_repos: 4
-    pushes_per_repo: 56.0000
-    active_days: 56
+    pushes_per_repo: 55.2500
+    active_days: 55
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 56 active days in 90d — pass"
+  - "activity: 55 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "codebase-memory-mcp"
@@ -103,7 +103,7 @@ repos:
       - "tree-sitter"
       - "windsurf"
     stars_fact: 42019
-    first_seen: "2026-07-11T06:00:03.534037+00:00"
+    first_seen: "2026-06-19T17:17:11.396487+00:00"
     last_push: "2026-09-03"
   - name: "airbyte"
     title: "airbyte"
@@ -117,6 +117,6 @@ repos:
 
 # DeusData
 
-224 pushes across 4 repositories on 56 active days in the last 90 days of public GitHub push activity.
+221 pushes across 4 repositories on 55 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/DeusData

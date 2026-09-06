@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-05T06:07:00.404056+00:00"
+generated_at: "2026-09-06T06:09:03.028501+00:00"
 provenance:
   - "3eacb4655aba2497"
-pushes_per_week: [26, 16, 4, 1, 9, 3, 3, 3, 1, 7, 2, 2, 0]
+pushes_per_week: [26, 14, 4, 1, 11, 1, 5, 1, 1, 7, 2, 2, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 77
+    pushes: 75
     distinct_repos: 13
-    active_days: 38
+    active_days: 37
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.0263
-  repo_per_active_day: 0.3421
+  push_per_day: 2.0270
+  repo_per_active_day: 0.3514
   not_owned_ratio: 0.0769
   basename_concentration: 0.0769
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 77
+    pushes: 75
     distinct_repos: 13
-    pushes_per_repo: 5.9231
-    active_days: 38
+    pushes_per_repo: 5.7692
+    active_days: 37
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 38 active days in 90d — pass"
+  - "activity: 37 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "amd-strix-halo-toolboxes"
@@ -129,6 +129,6 @@ repos:
 
 # kyuz0
 
-77 pushes across 13 repositories on 38 active days in the last 90 days of public GitHub push activity.
+75 pushes across 13 repositories on 37 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/kyuz0

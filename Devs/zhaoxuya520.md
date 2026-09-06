@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-05T06:07:00.404056+00:00"
+generated_at: "2026-09-06T06:09:03.028501+00:00"
 provenance:
   - "0396398dad51ec9d"
-pushes_per_week: [0, 0, 3, 4, 0, 2, 0, 1, 0, 0, 1, 1, 1]
+pushes_per_week: [0, 0, 3, 4, 0, 2, 0, 1, 0, 0, 1, 2, 0]
 windows:
   "7d":
     pushes: 1
@@ -83,7 +83,7 @@ repos:
     language: "PowerShell"
     topics: []
     stars_fact: 34454
-    first_seen: "2026-08-31T06:00:17.161865+00:00"
+    first_seen: "2026-08-07T06:00:03.597556+00:00"
     last_push: "2026-09-03"
   - name: "MeshLAN"
     title: "MeshLAN"

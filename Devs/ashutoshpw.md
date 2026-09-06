@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-05T06:07:00.404056+00:00"
+generated_at: "2026-09-06T06:09:03.028501+00:00"
 provenance:
   - "379642deb53f3714"
-pushes_per_week: [11, 6, 6, 6, 13, 9, 8, 9, 3, 10, 3, 2, 5]
+pushes_per_week: [10, 5, 7, 7, 11, 11, 8, 9, 1, 10, 5, 1, 4]
 windows:
   "7d":
     pushes: 5
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 3
     not_owned_owners: 2
   "90d":
-    pushes: 91
+    pushes: 89
     distinct_repos: 14
-    active_days: 51
+    active_days: 49
     repos_not_owned: 7
     not_owned_basenames: 7
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 1.7843
-  repo_per_active_day: 0.2745
+  push_per_day: 1.8163
+  repo_per_active_day: 0.2857
   not_owned_ratio: 0.5000
   basename_concentration: 0.0714
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 3
     not_owned_owners: 2
   "90d":
-    pushes: 91
+    pushes: 89
     distinct_repos: 14
-    pushes_per_repo: 6.5000
-    active_days: 51
+    pushes_per_repo: 6.3571
+    active_days: 49
     repos_not_owned: 7
     not_owned_basenames: 7
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 51 active days in 90d — pass"
+  - "activity: 49 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "asc-cli"
@@ -129,6 +129,6 @@ repos:
 
 # ashutoshpw
 
-91 pushes across 14 repositories on 51 active days in the last 90 days of public GitHub push activity.
+89 pushes across 14 repositories on 49 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ashutoshpw

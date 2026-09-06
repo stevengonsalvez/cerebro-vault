@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-05T06:07:00.404056+00:00"
+generated_at: "2026-09-06T06:09:03.028501+00:00"
 provenance:
   - "876fe6c1edb8596c"
-pushes_per_week: [20, 14, 17, 21, 5, 15, 7, 6, 0, 3, 2, 3, 1]
+pushes_per_week: [18, 14, 17, 21, 5, 16, 6, 6, 0, 3, 2, 3, 1]
 windows:
   "7d":
     pushes: 1
@@ -29,7 +29,7 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 3
   "90d":
-    pushes: 114
+    pushes: 112
     distinct_repos: 8
     active_days: 41
     repos_not_owned: 8
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 8
 automation:
   state: "clear"
-  push_per_day: 2.7805
+  push_per_day: 2.7317
   repo_per_active_day: 0.1951
   not_owned_ratio: 1.0000
   basename_concentration: 1.0000
@@ -81,9 +81,9 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 3
   "90d":
-    pushes: 114
+    pushes: 112
     distinct_repos: 8
-    pushes_per_repo: 14.2500
+    pushes_per_repo: 14.0000
     active_days: 41
     repos_not_owned: 8
     not_owned_basenames: 1
@@ -129,6 +129,6 @@ repos:
 
 # qin-ctx
 
-114 pushes across 8 repositories on 41 active days in the last 90 days of public GitHub push activity.
+112 pushes across 8 repositories on 41 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/qin-ctx

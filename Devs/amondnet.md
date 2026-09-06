@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-05T06:07:00.404056+00:00"
+generated_at: "2026-09-06T06:09:03.028501+00:00"
 provenance:
   - "c489e6fb5febf2ab"
-pushes_per_week: [33, 50, 60, 56, 90, 110, 17, 14, 6, 10, 3, 3, 0]
+pushes_per_week: [32, 50, 63, 66, 91, 96, 17, 14, 6, 11, 2, 3, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 3
     not_owned_owners: 3
   "90d":
-    pushes: 452
+    pushes: 451
     distinct_repos: 33
-    active_days: 54
+    active_days: 53
     repos_not_owned: 28
     not_owned_basenames: 27
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 8.3704
-  repo_per_active_day: 0.6111
+  push_per_day: 8.5094
+  repo_per_active_day: 0.6226
   not_owned_ratio: 0.8485
   basename_concentration: 0.0606
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 3
     not_owned_owners: 3
   "90d":
-    pushes: 452
+    pushes: 451
     distinct_repos: 33
-    pushes_per_repo: 13.6970
-    active_days: 54
+    pushes_per_repo: 13.6667
+    active_days: 53
     repos_not_owned: 28
     not_owned_basenames: 27
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 54 active days in 90d — pass"
+  - "activity: 53 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "yoonmoon"
@@ -138,6 +138,6 @@ repos:
 
 # amondnet
 
-452 pushes across 33 repositories on 54 active days in the last 90 days of public GitHub push activity.
+451 pushes across 33 repositories on 53 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/amondnet

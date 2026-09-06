@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-05T06:07:00.404056+00:00"
+generated_at: "2026-09-06T06:09:03.028501+00:00"
 provenance:
   - "379642deb53f3714"
-pushes_per_week: [5, 2, 6, 7, 2, 2, 7, 2, 0, 1, 0, 0, 0]
+pushes_per_week: [4, 3, 6, 6, 2, 4, 5, 2, 0, 1, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 34
+    pushes: 33
     distinct_repos: 3
-    active_days: 23
+    active_days: 22
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.4783
-  repo_per_active_day: 0.1304
+  push_per_day: 1.5000
+  repo_per_active_day: 0.1364
   not_owned_ratio: 0.0000
   basename_concentration: 0.3333
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 34
+    pushes: 33
     distinct_repos: 3
-    pushes_per_repo: 11.3333
-    active_days: 23
+    pushes_per_repo: 11.0000
+    active_days: 22
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 23 active days in 90d — pass"
+  - "activity: 22 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "dotfiles"
@@ -129,6 +129,6 @@ repos:
 
 # jackfranklin
 
-34 pushes across 3 repositories on 23 active days in the last 90 days of public GitHub push activity.
+33 pushes across 3 repositories on 22 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/jackfranklin

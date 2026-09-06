@@ -7,13 +7,15 @@ discovered_via_all:
   - "vault"
 provenance_repos:
   - "affaan-m/ECC"
+  - "WorldFlowAI/everything-claude-code"
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-05T06:07:00.404056+00:00"
+generated_at: "2026-09-06T06:09:03.028501+00:00"
 provenance:
   - "edb3a626875732de"
-pushes_per_week: [9, 20, 8, 26, 1, 0, 11, 6, 4, 1, 0, 1, 0]
+  - "fdafcfb7d7e67acd"
+pushes_per_week: [7, 21, 7, 26, 1, 0, 15, 2, 4, 1, 0, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -30,16 +32,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 87
+    pushes: 85
     distinct_repos: 6
-    active_days: 26
+    active_days: 25
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 3.3462
-  repo_per_active_day: 0.2308
+  push_per_day: 3.4000
+  repo_per_active_day: 0.2400
   not_owned_ratio: 0.3333
   basename_concentration: 0.3333
   shapes: []
@@ -66,16 +68,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 87
+    pushes: 85
     distinct_repos: 6
-    pushes_per_repo: 14.5000
-    active_days: 26
+    pushes_per_repo: 14.1667
+    active_days: 25
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 reasons:
-  - "provenance: 1 vault signal(s) — pass"
-  - "activity: 26 active days in 90d — pass"
+  - "provenance: 2 vault signal(s) — pass"
+  - "activity: 25 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "ECC"
@@ -92,7 +94,7 @@ repos:
       - "mcp"
       - "productivity"
     stars_fact: 246741
-    first_seen: "2026-08-22T06:00:04.021013+00:00"
+    first_seen: "2026-07-31T06:00:07.665057+00:00"
     last_push: "2026-09-03"
   - name: "affaan-m"
     title: "affaan-m"
@@ -159,6 +161,6 @@ repos:
 
 # affaan-m
 
-87 pushes across 6 repositories on 26 active days in the last 90 days of public GitHub push activity.
+85 pushes across 6 repositories on 25 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/affaan-m

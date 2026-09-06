@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-05T06:07:00.404056+00:00"
+generated_at: "2026-09-06T06:09:03.028501+00:00"
 provenance:
   - "0388a4f55f4206c8"
   - "0577669e18ed3998"
@@ -26,7 +26,7 @@ provenance:
   - "c6b4a874521ceb02"
   - "cf565721454d59f8"
   - "e26852201e6f38fc"
-pushes_per_week: [28, 37, 111, 9, 1, 15, 34, 16, 5, 5, 2, 6, 2]
+pushes_per_week: [29, 38, 110, 7, 4, 14, 33, 15, 5, 5, 7, 3, 0]
 windows:
   "7d":
     pushes: 2
@@ -43,16 +43,16 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 271
+    pushes: 270
     distinct_repos: 33
-    active_days: 52
+    active_days: 51
     repos_not_owned: 8
     not_owned_basenames: 7
     not_owned_owners: 5
 automation:
   state: "clear"
-  push_per_day: 5.2115
-  repo_per_active_day: 0.6346
+  push_per_day: 5.2941
+  repo_per_active_day: 0.6471
   not_owned_ratio: 0.2424
   basename_concentration: 0.0909
   shapes: []
@@ -79,16 +79,16 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 271
+    pushes: 270
     distinct_repos: 33
-    pushes_per_repo: 8.2121
-    active_days: 52
+    pushes_per_repo: 8.1818
+    active_days: 51
     repos_not_owned: 8
     not_owned_basenames: 7
     not_owned_owners: 5
 reasons:
   - "provenance: 15 vault signal(s) — pass"
-  - "activity: 52 active days in 90d — pass"
+  - "activity: 51 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "public-inbox"
@@ -127,6 +127,6 @@ repos:
 
 # tamird
 
-271 pushes across 33 repositories on 52 active days in the last 90 days of public GitHub push activity.
+270 pushes across 33 repositories on 51 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/tamird

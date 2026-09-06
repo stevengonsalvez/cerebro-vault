@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: true
 repos_populated: true
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+generated_at: "2026-09-06T06:09:03.028501+00:00"
 provenance:
   - "759119abe3ffdb8f"
 pushes_per_week: [0, 1, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0]
@@ -96,7 +96,7 @@ repos:
       - "open-source-models"
       - "qlora"
     stars_fact: 33611
-    first_seen: "2026-08-10T06:00:06.365560+00:00"
+    first_seen: "2026-06-23T06:00:02.600201+00:00"
     last_push: "2026-09-03"
   - name: "godmodeanimation"
     title: "godmodeanimation"

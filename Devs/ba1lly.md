@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-05T06:07:00.404056+00:00"
+generated_at: "2026-09-06T06:09:03.028501+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [109, 123, 108, 118, 78, 57, 0, 0, 0, 0, 2, 0, 0]
+pushes_per_week: [105, 121, 113, 114, 70, 51, 0, 0, 0, 0, 2, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 595
-    distinct_repos: 8
-    active_days: 43
+    pushes: 576
+    distinct_repos: 7
+    active_days: 42
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 13.8372
-  repo_per_active_day: 0.1860
-  not_owned_ratio: 0.1250
-  basename_concentration: 0.1250
+  push_per_day: 13.7143
+  repo_per_active_day: 0.1667
+  not_owned_ratio: 0.1429
+  basename_concentration: 0.1429
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 595
-    distinct_repos: 8
-    pushes_per_repo: 74.3750
-    active_days: 43
+    pushes: 576
+    distinct_repos: 7
+    pushes_per_repo: 82.2857
+    active_days: 42
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 43 active days in 90d — pass"
+  - "activity: 42 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "OpenPrism"
@@ -166,6 +166,6 @@ repos:
 
 # ba1lly
 
-595 pushes across 8 repositories on 43 active days in the last 90 days of public GitHub push activity.
+576 pushes across 7 repositories on 42 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ba1lly

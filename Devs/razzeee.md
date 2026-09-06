@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-05T06:07:00.404056+00:00"
+generated_at: "2026-09-06T06:09:03.028501+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [16, 43, 24, 27, 31, 27, 7, 2, 7, 5, 2, 5, 0]
+pushes_per_week: [28, 31, 28, 30, 22, 28, 6, 2, 7, 6, 4, 2, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 15
+    pushes: 14
     distinct_repos: 8
-    active_days: 9
+    active_days: 8
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 3
   "90d":
-    pushes: 196
+    pushes: 194
     distinct_repos: 31
-    active_days: 58
+    active_days: 57
     repos_not_owned: 15
     not_owned_basenames: 13
     not_owned_owners: 8
 automation:
   state: "clear"
-  push_per_day: 3.3793
-  repo_per_active_day: 0.5345
+  push_per_day: 3.4035
+  repo_per_active_day: 0.5439
   not_owned_ratio: 0.4839
   basename_concentration: 0.1290
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 15
+    pushes: 14
     distinct_repos: 8
-    pushes_per_repo: 1.8750
-    active_days: 9
+    pushes_per_repo: 1.7500
+    active_days: 8
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 3
   "90d":
-    pushes: 196
+    pushes: 194
     distinct_repos: 31
-    pushes_per_repo: 6.3226
-    active_days: 58
+    pushes_per_repo: 6.2581
+    active_days: 57
     repos_not_owned: 15
     not_owned_basenames: 13
     not_owned_owners: 8
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 58 active days in 90d — pass"
+  - "activity: 57 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "skills"
@@ -129,6 +129,6 @@ repos:
 
 # razzeee
 
-196 pushes across 31 repositories on 58 active days in the last 90 days of public GitHub push activity.
+194 pushes across 31 repositories on 57 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/razzeee

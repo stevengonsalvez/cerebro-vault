@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-05T06:07:00.404056+00:00"
+generated_at: "2026-09-06T06:09:03.028501+00:00"
 provenance:
   - "3cb7ff1cdcf97c6b"
-pushes_per_week: [21, 24, 18, 21, 13, 19, 6, 12, 7, 14, 2, 3, 1]
+pushes_per_week: [21, 24, 20, 21, 10, 18, 7, 14, 5, 13, 3, 3, 0]
 windows:
   "7d":
     pushes: 1
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 161
+    pushes: 159
     distinct_repos: 2
-    active_days: 63
+    active_days: 62
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.5556
-  repo_per_active_day: 0.0317
+  push_per_day: 2.5645
+  repo_per_active_day: 0.0323
   not_owned_ratio: 0.0000
   basename_concentration: 0.5000
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 161
+    pushes: 159
     distinct_repos: 2
-    pushes_per_repo: 80.5000
-    active_days: 63
+    pushes_per_repo: 79.5000
+    active_days: 62
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 63 active days in 90d — pass"
+  - "activity: 62 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "nix-config"
@@ -130,6 +130,6 @@ repos:
 
 # telometto
 
-161 pushes across 2 repositories on 63 active days in the last 90 days of public GitHub push activity.
+159 pushes across 2 repositories on 62 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/telometto

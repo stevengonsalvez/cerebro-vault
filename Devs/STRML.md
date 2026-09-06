@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-05T06:07:00.404056+00:00"
+generated_at: "2026-09-06T06:09:03.028501+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [11, 10, 0, 2, 4, 1, 2, 11, 12, 10, 1, 4, 0]
+pushes_per_week: [6, 10, 0, 2, 4, 1, 2, 11, 12, 10, 1, 4, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 16
+    pushes: 15
     distinct_repos: 5
-    active_days: 8
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 68
+    pushes: 63
     distinct_repos: 13
-    active_days: 31
+    active_days: 30
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 2.1935
-  repo_per_active_day: 0.4194
+  push_per_day: 2.1000
+  repo_per_active_day: 0.4333
   not_owned_ratio: 0.3077
   basename_concentration: 0.1538
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 16
+    pushes: 15
     distinct_repos: 5
-    pushes_per_repo: 3.2000
-    active_days: 8
+    pushes_per_repo: 3.0000
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 68
+    pushes: 63
     distinct_repos: 13
-    pushes_per_repo: 5.2308
-    active_days: 31
+    pushes_per_repo: 4.8462
+    active_days: 30
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 31 active days in 90d — pass"
+  - "activity: 30 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "strml.net"
@@ -131,6 +131,6 @@ repos:
 
 # STRML
 
-68 pushes across 13 repositories on 31 active days in the last 90 days of public GitHub push activity.
+63 pushes across 13 repositories on 30 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/STRML

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-05T06:07:00.404056+00:00"
+generated_at: "2026-09-06T06:09:03.028501+00:00"
 provenance:
   - "0af70dc4df451a55"
-pushes_per_week: [37, 17, 31, 32, 88, 22, 15, 14, 6, 1, 2, 4, 0]
+pushes_per_week: [35, 19, 30, 41, 78, 22, 15, 16, 4, 1, 4, 2, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 269
+    pushes: 267
     distinct_repos: 1
-    active_days: 47
+    active_days: 46
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 5.7234
-  repo_per_active_day: 0.0213
+  push_per_day: 5.8043
+  repo_per_active_day: 0.0217
   not_owned_ratio: 1.0000
   basename_concentration: 1.0000
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 269
+    pushes: 267
     distinct_repos: 1
-    pushes_per_repo: 269.0000
-    active_days: 47
+    pushes_per_repo: 267.0000
+    active_days: 46
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 47 active days in 90d — pass"
+  - "activity: 46 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "darya"
@@ -129,6 +129,6 @@ repos:
 
 # steventohme
 
-269 pushes across 1 repository on 47 active days in the last 90 days of public GitHub push activity.
+267 pushes across 1 repository on 46 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/steventohme

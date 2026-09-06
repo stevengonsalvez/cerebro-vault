@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-04T06:06:21.234597+00:00"
+generated_at: "2026-09-06T06:09:03.028501+00:00"
 provenance:
   - "541318303a272608"
-pushes_per_week: [13, 18, 20, 11, 1, 0, 1, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [12, 18, 20, 11, 1, 0, 1, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,7 +29,7 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 64
+    pushes: 63
     distinct_repos: 3
     active_days: 18
     repos_not_owned: 2
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 3.5556
+  push_per_day: 3.5000
   repo_per_active_day: 0.1667
   not_owned_ratio: 0.6667
   basename_concentration: 1.0000
@@ -65,9 +65,9 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 64
+    pushes: 63
     distinct_repos: 3
-    pushes_per_repo: 21.3333
+    pushes_per_repo: 21.0000
     active_days: 18
     repos_not_owned: 2
     not_owned_basenames: 1
@@ -129,6 +129,6 @@ repos:
 
 # pan-x-c
 
-64 pushes across 3 repositories on 18 active days in the last 90 days of public GitHub push activity.
+63 pushes across 3 repositories on 18 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/pan-x-c

@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-05T06:07:00.404056+00:00"
+generated_at: "2026-09-06T06:09:03.028501+00:00"
 provenance:
   - "0a8884baa5f55aa6"
-pushes_per_week: [73, 98, 7, 110, 67, 41, 88, 108, 44, 109, 36, 35, 6]
+pushes_per_week: [37, 98, 18, 103, 66, 38, 101, 100, 59, 99, 43, 20, 10]
 windows:
   "7d":
-    pushes: 7
-    distinct_repos: 2
-    active_days: 4
+    pushes: 12
+    distinct_repos: 1
+    active_days: 5
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 211
+    pushes: 214
     distinct_repos: 6
-    active_days: 26
+    active_days: 27
     repos_not_owned: 5
     not_owned_basenames: 1
     not_owned_owners: 5
   "90d":
-    pushes: 822
+    pushes: 792
     distinct_repos: 30
-    active_days: 77
+    active_days: 78
     repos_not_owned: 29
     not_owned_basenames: 3
     not_owned_owners: 27
 automation:
   state: "clear"
-  push_per_day: 10.6753
-  repo_per_active_day: 0.3896
+  push_per_day: 10.1538
+  repo_per_active_day: 0.3846
   not_owned_ratio: 0.9667
   basename_concentration: 0.9333
   shapes:
@@ -65,32 +65,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 7
-    distinct_repos: 2
-    pushes_per_repo: 3.5000
-    active_days: 4
+    pushes: 12
+    distinct_repos: 1
+    pushes_per_repo: 12.0000
+    active_days: 5
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 211
+    pushes: 214
     distinct_repos: 6
-    pushes_per_repo: 35.1667
-    active_days: 26
+    pushes_per_repo: 35.6667
+    active_days: 27
     repos_not_owned: 5
     not_owned_basenames: 1
     not_owned_owners: 5
   "90d":
-    pushes: 822
+    pushes: 792
     distinct_repos: 30
-    pushes_per_repo: 27.4000
-    active_days: 77
+    pushes_per_repo: 26.4000
+    active_days: 78
     repos_not_owned: 29
     not_owned_basenames: 3
     not_owned_owners: 27
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 77 active days in 90d — pass"
+  - "activity: 78 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "agent-browser-local"
@@ -145,6 +145,6 @@ repos:
 
 # nwparker
 
-822 pushes across 30 repositories on 77 active days in the last 90 days of public GitHub push activity.
+792 pushes across 30 repositories on 78 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/nwparker

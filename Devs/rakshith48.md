@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-04T06:06:21.234597+00:00"
+generated_at: "2026-09-06T06:09:03.028501+00:00"
 provenance:
   - "745308b2b7085095"
-pushes_per_week: [8, 8, 12, 1, 0, 1, 1, 0, 0, 2, 1, 1, 0]
+pushes_per_week: [4, 15, 5, 1, 0, 1, 1, 0, 0, 2, 1, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 35
-    distinct_repos: 17
-    active_days: 14
+    pushes: 31
+    distinct_repos: 15
+    active_days: 13
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.5000
-  repo_per_active_day: 1.2143
-  not_owned_ratio: 0.1176
-  basename_concentration: 0.1176
+  push_per_day: 2.3846
+  repo_per_active_day: 1.1538
+  not_owned_ratio: 0.1333
+  basename_concentration: 0.1333
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 35
-    distinct_repos: 17
-    pushes_per_repo: 2.0588
-    active_days: 14
+    pushes: 31
+    distinct_repos: 15
+    pushes_per_repo: 2.0667
+    active_days: 13
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 14 active days in 90d — pass"
+  - "activity: 13 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "firecrawl-grok-plugin"
@@ -137,6 +137,6 @@ repos:
 
 # rakshith48
 
-35 pushes across 17 repositories on 14 active days in the last 90 days of public GitHub push activity.
+31 pushes across 15 repositories on 13 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/rakshith48

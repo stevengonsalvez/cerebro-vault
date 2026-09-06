@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-05T06:07:00.404056+00:00"
+generated_at: "2026-09-06T06:09:03.028501+00:00"
 provenance:
   - "6d3bd03b49986330"
-pushes_per_week: [50, 3, 0, 24, 11, 22, 14, 0, 0, 0, 8, 4, 0]
+pushes_per_week: [12, 2, 0, 24, 11, 22, 14, 0, 0, 5, 3, 4, 1]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 12
-    distinct_repos: 9
-    active_days: 4
+    pushes: 13
+    distinct_repos: 10
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 136
+    pushes: 98
     distinct_repos: 22
     active_days: 17
     repos_not_owned: 0
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 8.0000
+  push_per_day: 5.7647
   repo_per_active_day: 1.2941
   not_owned_ratio: 0.0000
   basename_concentration: 0.0455
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
+    pushes: 1
+    distinct_repos: 1
+    pushes_per_repo: 1.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 12
-    distinct_repos: 9
-    pushes_per_repo: 1.3333
-    active_days: 4
+    pushes: 13
+    distinct_repos: 10
+    pushes_per_repo: 1.3000
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 136
+    pushes: 98
     distinct_repos: 22
-    pushes_per_repo: 6.1818
+    pushes_per_repo: 4.4545
     active_days: 17
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -147,6 +147,6 @@ repos:
 
 # kweinmeister
 
-136 pushes across 22 repositories on 17 active days in the last 90 days of public GitHub push activity.
+98 pushes across 22 repositories on 17 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/kweinmeister

@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-05T06:07:00.404056+00:00"
+generated_at: "2026-09-06T06:09:03.028501+00:00"
 provenance:
   - "8c6014a36ca90e3f"
-pushes_per_week: [44, 98, 19, 42, 10, 11, 10, 4, 28, 31, 11, 39, 4]
+pushes_per_week: [58, 81, 19, 44, 10, 11, 8, 4, 29, 36, 10, 34, 6]
 windows:
   "7d":
-    pushes: 4
+    pushes: 6
     distinct_repos: 1
-    active_days: 2
+    active_days: 4
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 98
-    distinct_repos: 19
-    active_days: 21
-    repos_not_owned: 13
-    not_owned_basenames: 13
+    pushes: 96
+    distinct_repos: 17
+    active_days: 22
+    repos_not_owned: 12
+    not_owned_basenames: 12
     not_owned_owners: 1
   "90d":
-    pushes: 351
+    pushes: 350
     distinct_repos: 32
-    active_days: 62
+    active_days: 63
     repos_not_owned: 22
     not_owned_basenames: 22
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 5.6613
-  repo_per_active_day: 0.5161
+  push_per_day: 5.5556
+  repo_per_active_day: 0.5079
   not_owned_ratio: 0.6875
   basename_concentration: 0.0312
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 4
+    pushes: 6
     distinct_repos: 1
-    pushes_per_repo: 4.0000
-    active_days: 2
+    pushes_per_repo: 6.0000
+    active_days: 4
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 98
-    distinct_repos: 19
-    pushes_per_repo: 5.1579
-    active_days: 21
-    repos_not_owned: 13
-    not_owned_basenames: 13
+    pushes: 96
+    distinct_repos: 17
+    pushes_per_repo: 5.6471
+    active_days: 22
+    repos_not_owned: 12
+    not_owned_basenames: 12
     not_owned_owners: 1
   "90d":
-    pushes: 351
+    pushes: 350
     distinct_repos: 32
-    pushes_per_repo: 10.9688
-    active_days: 62
+    pushes_per_repo: 10.9375
+    active_days: 63
     repos_not_owned: 22
     not_owned_basenames: 22
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 62 active days in 90d — pass"
+  - "activity: 63 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "superpowers"
@@ -91,7 +91,7 @@ repos:
       - "subagent-driven-development"
       - "superpowers"
     stars_fact: 281149
-    first_seen: "2026-08-22T06:00:04.019390+00:00"
+    first_seen: "2026-06-19T17:17:11.402108+00:00"
     last_push: "2026-08-31"
   - name: "superpowers-marketplace"
     title: "superpowers-marketplace"
@@ -137,6 +137,6 @@ repos:
 
 # obra
 
-351 pushes across 32 repositories on 62 active days in the last 90 days of public GitHub push activity.
+350 pushes across 32 repositories on 63 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/obra

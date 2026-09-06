@@ -10,11 +10,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-05T06:07:00.404056+00:00"
+generated_at: "2026-09-06T06:09:03.028501+00:00"
 provenance:
   - "576c6507cbdd1cf3"
   - "c87b77df69f1bb71"
-pushes_per_week: [24, 22, 17, 20, 17, 15, 14, 15, 15, 18, 7, 4, 0]
+pushes_per_week: [22, 17, 15, 22, 16, 18, 14, 14, 15, 15, 7, 4, 0]
 windows:
   "7d":
     pushes: 0
@@ -31,22 +31,22 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 2
   "90d":
-    pushes: 188
-    distinct_repos: 19
-    active_days: 68
-    repos_not_owned: 15
+    pushes: 179
+    distinct_repos: 18
+    active_days: 67
+    repos_not_owned: 14
     not_owned_basenames: 2
-    not_owned_owners: 14
+    not_owned_owners: 13
 automation:
   state: "clear"
-  push_per_day: 2.7647
-  repo_per_active_day: 0.2794
-  not_owned_ratio: 0.7895
-  basename_concentration: 0.7895
+  push_per_day: 2.6716
+  repo_per_active_day: 0.2687
+  not_owned_ratio: 0.7778
+  basename_concentration: 0.7778
   shapes:
     - "fork_farm"
   shape_evidence:
-    - "basename concentration 0.7895 (15 of 19 repos share one basename), 15 not owned across 2 basenames"
+    - "basename concentration 0.7778 (14 of 18 repos share one basename), 14 not owned across 2 basenames"
   cleared_by: "e01-builder"
   cleared_on: "2026-08-26"
   fork_provenance:
@@ -83,16 +83,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 2
   "90d":
-    pushes: 188
-    distinct_repos: 19
-    pushes_per_repo: 9.8947
-    active_days: 68
-    repos_not_owned: 15
+    pushes: 179
+    distinct_repos: 18
+    pushes_per_repo: 9.9444
+    active_days: 67
+    repos_not_owned: 14
     not_owned_basenames: 2
-    not_owned_owners: 14
+    not_owned_owners: 13
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 68 active days in 90d — pass"
+  - "activity: 67 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "pi-extensions"
@@ -161,6 +161,6 @@ repos:
 
 # ogulcancelik
 
-188 pushes across 19 repositories on 68 active days in the last 90 days of public GitHub push activity.
+179 pushes across 18 repositories on 67 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ogulcancelik

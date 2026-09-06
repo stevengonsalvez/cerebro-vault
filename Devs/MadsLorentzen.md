@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-05T06:07:00.404056+00:00"
+generated_at: "2026-09-06T06:09:03.028501+00:00"
 provenance:
   - "7af184c03e7ab7a7"
-pushes_per_week: [0, 0, 0, 0, 13, 5, 2, 1, 2, 0, 1, 0, 0]
+pushes_per_week: [0, 0, 0, 1, 12, 6, 2, 1, 1, 1, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -95,7 +95,7 @@ repos:
       - "latex"
       - "resume"
     stars_fact: 40492
-    first_seen: "2026-08-25T06:00:03.135618+00:00"
+    first_seen: "2026-07-21T06:00:01.757189+00:00"
     last_push: "2026-09-03"
   - name: "MadsLorentzen"
     title: "MadsLorentzen"

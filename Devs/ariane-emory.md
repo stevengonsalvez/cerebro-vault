@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-05T06:07:00.404056+00:00"
+generated_at: "2026-09-06T06:09:03.028501+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [46, 8, 2, 12, 23, 0, 0, 12, 0, 0, 0, 0, 0]
+pushes_per_week: [42, 8, 2, 17, 18, 0, 0, 12, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 103
+    pushes: 99
     distinct_repos: 4
-    active_days: 19
+    active_days: 18
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 5.4211
-  repo_per_active_day: 0.2105
+  push_per_day: 5.5000
+  repo_per_active_day: 0.2222
   not_owned_ratio: 0.0000
   basename_concentration: 0.2500
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 103
+    pushes: 99
     distinct_repos: 4
-    pushes_per_repo: 25.7500
-    active_days: 19
+    pushes_per_repo: 24.7500
+    active_days: 18
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 19 active days in 90d — pass"
+  - "activity: 18 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "opencode-config"
@@ -129,6 +129,6 @@ repos:
 
 # ariane-emory
 
-103 pushes across 4 repositories on 19 active days in the last 90 days of public GitHub push activity.
+99 pushes across 4 repositories on 18 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ariane-emory

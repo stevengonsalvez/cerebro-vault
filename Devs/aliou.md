@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-05T06:07:00.404056+00:00"
+generated_at: "2026-09-06T06:09:03.028501+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [15, 31, 22, 20, 21, 11, 13, 13, 3, 6, 0, 1, 0]
+pushes_per_week: [13, 38, 18, 21, 18, 12, 11, 14, 2, 6, 0, 1, 1]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -29,7 +29,7 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 156
+    pushes: 155
     distinct_repos: 26
     active_days: 50
     repos_not_owned: 1
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 3.1200
+  push_per_day: 3.1000
   repo_per_active_day: 0.5200
   not_owned_ratio: 0.0385
   basename_concentration: 0.0769
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
+    pushes: 1
+    distinct_repos: 1
+    pushes_per_repo: 1.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -65,9 +65,9 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 156
+    pushes: 155
     distinct_repos: 26
-    pushes_per_repo: 6.0000
+    pushes_per_repo: 5.9615
     active_days: 50
     repos_not_owned: 1
     not_owned_basenames: 1
@@ -144,6 +144,6 @@ repos:
 
 # aliou
 
-156 pushes across 26 repositories on 50 active days in the last 90 days of public GitHub push activity.
+155 pushes across 26 repositories on 50 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/aliou

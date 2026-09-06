@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-05T06:07:00.404056+00:00"
+generated_at: "2026-09-06T06:09:03.028501+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [18, 23, 20, 10, 21, 9, 6, 5, 3, 8, 3, 1, 0]
+pushes_per_week: [18, 21, 23, 11, 18, 8, 6, 6, 2, 8, 4, 0, 1]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 12
+    pushes: 13
     distinct_repos: 5
-    active_days: 6
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 127
-    distinct_repos: 29
+    pushes: 126
+    distinct_repos: 28
     active_days: 53
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.3962
-  repo_per_active_day: 0.5472
+  push_per_day: 2.3774
+  repo_per_active_day: 0.5283
   not_owned_ratio: 0.0000
-  basename_concentration: 0.0345
+  basename_concentration: 0.0357
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
+    pushes: 1
+    distinct_repos: 1
+    pushes_per_repo: 1.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 12
+    pushes: 13
     distinct_repos: 5
-    pushes_per_repo: 2.4000
-    active_days: 6
+    pushes_per_repo: 2.6000
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 127
-    distinct_repos: 29
-    pushes_per_repo: 4.3793
+    pushes: 126
+    distinct_repos: 28
+    pushes_per_repo: 4.5000
     active_days: 53
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -136,6 +136,6 @@ repos:
 
 # scaryrawr
 
-127 pushes across 29 repositories on 53 active days in the last 90 days of public GitHub push activity.
+126 pushes across 28 repositories on 53 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/scaryrawr

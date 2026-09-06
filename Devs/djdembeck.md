@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-05T06:07:00.404056+00:00"
+generated_at: "2026-09-06T06:09:03.028501+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [9, 3, 2, 2, 0, 11, 26, 19, 17, 13, 1, 1, 0]
+pushes_per_week: [8, 3, 2, 2, 6, 6, 29, 16, 17, 12, 2, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 104
+    pushes: 103
     distinct_repos: 12
-    active_days: 40
+    active_days: 39
     repos_not_owned: 3
     not_owned_basenames: 2
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 2.6000
-  repo_per_active_day: 0.3000
+  push_per_day: 2.6410
+  repo_per_active_day: 0.3077
   not_owned_ratio: 0.2500
   basename_concentration: 0.1667
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 104
+    pushes: 103
     distinct_repos: 12
-    pushes_per_repo: 8.6667
-    active_days: 40
+    pushes_per_repo: 8.5833
+    active_days: 39
     repos_not_owned: 3
     not_owned_basenames: 2
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 40 active days in 90d — pass"
+  - "activity: 39 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "Audnexus.bundle"
@@ -173,6 +173,6 @@ repos:
 
 # djdembeck
 
-104 pushes across 12 repositories on 40 active days in the last 90 days of public GitHub push activity.
+103 pushes across 12 repositories on 39 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/djdembeck

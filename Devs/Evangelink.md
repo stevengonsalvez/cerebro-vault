@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-05T06:07:00.404056+00:00"
+generated_at: "2026-09-06T06:09:03.028501+00:00"
 provenance:
   - "5cf3a28e1bfde5ac"
-pushes_per_week: [175, 185, 175, 81, 74, 62, 49, 44, 20, 4, 0, 18, 2]
+pushes_per_week: [164, 170, 181, 83, 64, 62, 53, 42, 19, 3, 0, 18, 2]
 windows:
   "7d":
     pushes: 2
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 2
   "30d":
-    pushes: 30
-    distinct_repos: 4
-    active_days: 10
+    pushes: 24
+    distinct_repos: 3
+    active_days: 8
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 889
+    pushes: 861
     distinct_repos: 18
-    active_days: 64
+    active_days: 63
     repos_not_owned: 9
     not_owned_basenames: 6
     not_owned_owners: 5
 automation:
   state: "clear"
-  push_per_day: 13.8906
-  repo_per_active_day: 0.2812
+  push_per_day: 13.6667
+  repo_per_active_day: 0.2857
   not_owned_ratio: 0.5000
   basename_concentration: 0.2778
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 2
   "30d":
-    pushes: 30
-    distinct_repos: 4
-    pushes_per_repo: 7.5000
-    active_days: 10
+    pushes: 24
+    distinct_repos: 3
+    pushes_per_repo: 8.0000
+    active_days: 8
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 889
+    pushes: 861
     distinct_repos: 18
-    pushes_per_repo: 49.3889
-    active_days: 64
+    pushes_per_repo: 47.8333
+    active_days: 63
     repos_not_owned: 9
     not_owned_basenames: 6
     not_owned_owners: 5
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 64 active days in 90d — pass"
+  - "activity: 63 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "copilot-session-map-canvas"
@@ -151,6 +151,6 @@ repos:
 
 # Evangelink
 
-889 pushes across 18 repositories on 64 active days in the last 90 days of public GitHub push activity.
+861 pushes across 18 repositories on 63 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Evangelink
