@@ -9,37 +9,37 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [10, 3, 2, 0, 1, 5, 7, 3, 0, 4, 2, 0, 0]
+pushes_per_week: [0, 1, 5, 1, 8, 1, 1, 4, 1, 0, 1, 2, 2]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
+    pushes: 2
+    distinct_repos: 2
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 6
-    distinct_repos: 3
-    active_days: 5
+    pushes: 5
+    distinct_repos: 4
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 37
+    pushes: 27
     distinct_repos: 6
-    active_days: 25
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    active_days: 20
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.4800
-  repo_per_active_day: 0.2400
-  not_owned_ratio: 0.1667
+  push_per_day: 1.3500
+  repo_per_active_day: 0.3000
+  not_owned_ratio: 0.0000
   basename_concentration: 0.1667
   shapes: []
   shape_evidence: []
@@ -49,42 +49,34 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
+    pushes: 2
+    distinct_repos: 2
+    pushes_per_repo: 1.0000
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 6
-    distinct_repos: 3
-    pushes_per_repo: 2.0000
-    active_days: 5
+    pushes: 5
+    distinct_repos: 4
+    pushes_per_repo: 1.2500
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 37
+    pushes: 27
     distinct_repos: 6
-    pushes_per_repo: 6.1667
-    active_days: 25
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes_per_repo: 4.5000
+    active_days: 20
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 25 active days in 90d — pass"
+  - "activity: 20 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "dotfiles"
-    title: "dotfiles"
-    description: null
-    language: "Shell"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-09-03"
   - name: "omp-cache-miss-oof"
     title: "omp-cache-miss-oof"
     description: "OMP extension that plays rotating original damage and oof sounds on prompt-cache misses"
@@ -92,7 +84,39 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-02"
+    last_push: "2026-09-23"
+  - name: "dotfiles"
+    title: "dotfiles"
+    description: null
+    language: "Shell"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-09-23"
+  - name: "omp-code-review"
+    title: "omp-code-review"
+    description: "Interactive local diff annotation and code review plugin for Oh My Pi"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-09-14"
+  - name: "omp-model-service-tier"
+    title: "omp-model-service-tier"
+    description: "Inject per-model service tiers into OMP provider requests"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-09-12"
+  - name: "omp-completion-ding"
+    title: "omp-completion-ding"
+    description: "Microwave hum and ding for successful interactive Oh My Pi completions on macOS. Install: omp plugin install github:anatoli-tsinovoy/omp-completion-ding. Preview: /completion-ding."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-08"
   - name: "omp-subagent-costs"
     title: "omp-subagent-costs"
     description: "Show asynchronous subagent spend in the OMP status line"
@@ -101,34 +125,10 @@ repos:
     stars_fact: 1
     first_seen: null
     last_push: "2026-08-30"
-  - name: "omp-model-service-tier"
-    title: "omp-model-service-tier"
-    description: "Inject per-model service tiers into OMP provider requests"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-08-18"
-  - name: "omp-prompt-stash"
-    title: "omp-prompt-stash"
-    description: "Persistent per-session prompt stash plugin for Oh My Pi"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-08-07"
-  - name: "omp-code-review"
-    title: "omp-code-review"
-    description: "Interactive local diff annotation and code review plugin for Oh My Pi"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-07"
 ---
 
 # anatoli-tsinovoy
 
-37 pushes across 6 repositories on 25 active days in the last 90 days of public GitHub push activity.
+27 pushes across 6 repositories on 20 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/anatoli-tsinovoy

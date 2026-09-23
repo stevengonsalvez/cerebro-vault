@@ -8,11 +8,11 @@ provenance_repos:
   - "alirezarezvani/claude-skills"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+repos_populated: false
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "3cb7ff1cdcf97c6b"
-pushes_per_week: [1, 10, 8, 3, 0, 2, 22, 10, 1, 16, 0, 1, 0]
+pushes_per_week: [4, 0, 2, 11, 18, 4, 6, 10, 0, 1, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,25 +22,25 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 17
-    distinct_repos: 6
-    active_days: 4
+    pushes: 2
+    distinct_repos: 2
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 74
-    distinct_repos: 15
-    active_days: 24
+    pushes: 57
+    distinct_repos: 10
+    active_days: 20
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 3.0833
-  repo_per_active_day: 0.6250
+  push_per_day: 2.8500
+  repo_per_active_day: 0.5000
   not_owned_ratio: 0.0000
-  basename_concentration: 0.0667
+  basename_concentration: 0.1000
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -57,121 +57,30 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 17
-    distinct_repos: 6
-    pushes_per_repo: 2.8333
-    active_days: 4
+    pushes: 2
+    distinct_repos: 2
+    pushes_per_repo: 1.0000
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 74
-    distinct_repos: 15
-    pushes_per_repo: 4.9333
-    active_days: 24
+    pushes: 57
+    distinct_repos: 10
+    pushes_per_repo: 5.7000
+    active_days: 20
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 24 active days in 90d — pass"
+  - "activity: 20 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "olgasafonova"
-    title: "olgasafonova"
-    description: "GitHub profile README"
-    language: null
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-08-25"
-  - name: "mediawiki-mcp-server"
-    title: "mediawiki-mcp-server"
-    description: "MCP server for MediaWiki wikis - search, read, and edit wiki content from AI assistants"
-    language: "Go"
-    topics:
-      - "anthropic"
-      - "claude"
-      - "go"
-      - "golang"
-      - "mcp"
-      - "mcp-server"
-      - "mediawiki"
-      - "model-context-protocol"
-      - "starred"
-      - "wiki"
-      - "wikipedia"
-    stars_fact: 20
-    first_seen: null
-    last_push: "2026-08-31"
-  - name: "SkillCheck-Free"
-    title: "SkillCheck-Free"
-    description: "Validate Claude Code skills against the agentskills specification (Free tier)"
-    language: null
-    topics:
-      - "agentskills"
-      - "ai-tools"
-      - "claude-code"
-      - "claude-skills"
-      - "linter"
-      - "mcp"
-      - "skill-validation"
-      - "skillsmp"
-    stars_fact: 36
-    first_seen: null
-    last_push: "2026-08-31"
-  - name: "miro-mcp-server"
-    title: "miro-mcp-server"
-    description: "MCP server for controlling Miro whiteboards with AI assistants"
-    language: "Go"
-    topics:
-      - "anthropic"
-      - "claude"
-      - "collaboration"
-      - "go"
-      - "golang"
-      - "mcp"
-      - "mcp-server"
-      - "miro"
-      - "miro-api"
-      - "model-context-protocol"
-      - "whiteboard"
-    stars_fact: 26
-    first_seen: null
-    last_push: "2026-08-31"
-  - name: "pm-github-training"
-    title: "pm-github-training"
-    description: "GitHub vocabulary + local AI agent setup training for product managers (demo-driven, 90 min)"
-    language: "HTML"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-08-07"
-  - name: "nordic-registry-mcp-server"
-    title: "nordic-registry-mcp-server"
-    description: "MCP server for Nordic company registries (Norway, Denmark, Finland, Sweden)"
-    language: "Go"
-    topics:
-      - "anthropic"
-      - "brreg"
-      - "claude"
-      - "company-registry"
-      - "denmark"
-      - "finland"
-      - "go"
-      - "golang"
-      - "mcp"
-      - "mcp-server"
-      - "model-context-protocol"
-      - "norway"
-      - "sweden"
-    stars_fact: 8
-    first_seen: null
-    last_push: "2026-08-31"
+repos: []
 ---
 
 # olgasafonova
 
-74 pushes across 15 repositories on 24 active days in the last 90 days of public GitHub push activity.
+57 pushes across 10 repositories on 20 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/olgasafonova

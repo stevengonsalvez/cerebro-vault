@@ -9,40 +9,40 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "1be978947e68d1f2"
   - "98a2deac3e2f9725"
   - "b949a65ff91f9791"
-pushes_per_week: [13, 1, 1, 2, 0, 0, 0, 1, 3, 0, 0, 0, 0]
+pushes_per_week: [2, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 4, 2]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
+    pushes: 2
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
+    pushes: 6
+    distinct_repos: 4
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 21
-    distinct_repos: 10
-    active_days: 12
+    pushes: 12
+    distinct_repos: 7
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.7500
-  repo_per_active_day: 0.8333
+  push_per_day: 1.7143
+  repo_per_active_day: 1.0000
   not_owned_ratio: 0.0000
-  basename_concentration: 0.1000
+  basename_concentration: 0.1429
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -51,32 +51,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
+    pushes: 2
+    distinct_repos: 1
+    pushes_per_repo: 2.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
+    pushes: 6
+    distinct_repos: 4
+    pushes_per_repo: 1.5000
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 21
-    distinct_repos: 10
-    pushes_per_repo: 2.1000
-    active_days: 12
+    pushes: 12
+    distinct_repos: 7
+    pushes_per_repo: 1.7143
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 3 vault signal(s) — pass"
-  - "activity: 12 active days in 90d — pass"
+  - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "nba_data"
@@ -84,9 +84,17 @@ repos:
     description: "Up to date NBA data dumps from stats.nba.com and ESPN Analytics"
     language: "Jupyter Notebook"
     topics: []
-    stars_fact: 10
+    stars_fact: 11
     first_seen: null
-    last_push: "2026-09-03"
+    last_push: "2026-09-23"
+  - name: "spireweb"
+    title: "spireweb"
+    description: null
+    language: "Go"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-22"
   - name: "obsidian-archive"
     title: "obsidian-archive"
     description: null
@@ -94,37 +102,26 @@ repos:
     topics: []
     stars_fact: 2
     first_seen: null
-    last_push: "2026-08-31"
-  - name: "limbo"
-    title: "limbo"
-    description: "A simple, clean, easy to modify Slack chatbot"
-    language: "Python"
-    topics:
-      - "chatbot"
-      - "docker"
-      - "python"
-      - "slack"
-    stars_fact: 401
-    first_seen: null
-    last_push: "2024-03-17"
-  - name: "mdriver"
-    title: "mdriver"
-    description: "A streaming markdown printer"
-    language: "HTML"
+    last_push: "2026-09-22"
+  - name: "homebrew-tap"
+    title: "homebrew-tap"
+    description: null
+    language: "Ruby"
     topics: []
-    stars_fact: 24
+    stars_fact: 0
     first_seen: null
-    last_push: "2026-08-30"
-  - name: "node-esbuild-executable"
-    title: "node-esbuild-executable"
-    description: "A demonstration of how to build a single file executable from a node program using esbuild"
-    language: "Makefile"
+    last_push: "2026-09-21"
+  - name: "bloomfilter-tutorial"
+    title: "bloomfilter-tutorial"
+    description: "A Bloom Filter Tutorial"
+    language: "HTML"
     topics:
-      - "esbuild"
-      - "node"
-    stars_fact: 19
+      - "bloomfilter"
+      - "javascript"
+      - "tutorial"
+    stars_fact: 695
     first_seen: null
-    last_push: "2026-02-05"
+    last_push: "2024-10-09"
   - name: "pymag-trees"
     title: "pymag-trees"
     description: "Code from the article \"Drawing Good-looking Trees\" in Python Magazine"
@@ -133,13 +130,13 @@ repos:
       - "graphics"
       - "python"
       - "trees"
-    stars_fact: 195
+    stars_fact: 196
     first_seen: null
     last_push: "2024-05-28"
 ---
 
 # llimllib
 
-21 pushes across 10 repositories on 12 active days in the last 90 days of public GitHub push activity.
+12 pushes across 7 repositories on 7 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/llimllib

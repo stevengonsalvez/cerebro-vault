@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "c489e6fb5febf2ab"
-pushes_per_week: [3, 6, 2, 1, 5, 1, 15, 4, 0, 3, 6, 2, 0]
+pushes_per_week: [2, 4, 2, 4, 15, 0, 2, 1, 8, 0, 4, 6, 1]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
+    pushes: 2
+    distinct_repos: 2
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 11
-    distinct_repos: 4
-    active_days: 7
+    pushes: 13
+    distinct_repos: 2
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 48
-    distinct_repos: 14
-    active_days: 24
-    repos_not_owned: 2
-    not_owned_basenames: 2
-    not_owned_owners: 2
+    pushes: 49
+    distinct_repos: 11
+    active_days: 23
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.0000
-  repo_per_active_day: 0.5833
-  not_owned_ratio: 0.1429
-  basename_concentration: 0.1429
+  push_per_day: 2.1304
+  repo_per_active_day: 0.4783
+  not_owned_ratio: 0.0000
+  basename_concentration: 0.0909
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,47 +49,34 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
+    pushes: 2
+    distinct_repos: 2
+    pushes_per_repo: 1.0000
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 11
-    distinct_repos: 4
-    pushes_per_repo: 2.7500
-    active_days: 7
+    pushes: 13
+    distinct_repos: 2
+    pushes_per_repo: 6.5000
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 48
-    distinct_repos: 14
-    pushes_per_repo: 3.4286
-    active_days: 24
-    repos_not_owned: 2
-    not_owned_basenames: 2
-    not_owned_owners: 2
+    pushes: 49
+    distinct_repos: 11
+    pushes_per_repo: 4.4545
+    active_days: 23
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 24 active days in 90d — pass"
+  - "activity: 23 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "unicode-segmenter"
-    title: "unicode-segmenter"
-    description: "A lightweight implementation of the Unicode Text Segmentation (UAX #29)"
-    language: "JavaScript"
-    topics:
-      - "emoji"
-      - "grapheme"
-      - "grapheme-cluster"
-      - "uax29"
-      - "unicode"
-    stars_fact: 112
-    first_seen: null
-    last_push: "2026-07-29"
   - name: "asdf-bun"
     title: "asdf-bun"
     description: "asdf-vm plugin for installing Bun"
@@ -100,31 +87,21 @@ repos:
       - "bun"
       - "bunjs"
       - "mise"
-    stars_fact: 150
+    stars_fact: 151
     first_seen: null
     last_push: "2025-06-17"
-  - name: "ulottie"
-    title: "ulottie"
-    description: "AOT compiler to target lightweight Lottie animation for Web"
+  - name: "fast-grapheme-segmenter"
+    title: "fast-grapheme-segmenter"
+    description: "Fast, lightweight, forward-only Unicode extended grapheme cluster segmentation (UAX #29)"
     language: "Rust"
     topics:
-      - "compiler"
-      - "lottie"
-      - "lottie-web"
-    stars_fact: 18
+      - "emoji"
+      - "grapheme"
+      - "uax29"
+      - "unicode"
+    stars_fact: 6
     first_seen: null
-    last_push: "2026-08-20"
-  - name: "rkyv-js"
-    title: "rkyv-js"
-    description: "An unofficial library to use rkyv (Zero-copy deserialization framework for Rust) in JavaScript/TypeScript projects."
-    language: "TypeScript"
-    topics:
-      - "interoperability"
-      - "rkyv"
-      - "serialization"
-    stars_fact: 17
-    first_seen: null
-    last_push: "2026-08-26"
+    last_push: "2026-09-17"
   - name: "op-fast"
     title: "op-fast"
     description: "1Password CLI proxy for instant access to secrets."
@@ -134,25 +111,48 @@ repos:
       - "keyring"
       - "password-manager"
       - "rust-cli"
-    stars_fact: 37
+    stars_fact: 39
     first_seen: null
-    last_push: "2026-08-29"
-  - name: "kourl"
-    title: "kourl"
-    description: "Custom kotlinx.serialization format for URL payloads; a handy adapter between your URL parser and Kotlin data classes"
-    language: "Kotlin"
+    last_push: "2026-09-20"
+  - name: "cc-monitor-worker"
+    title: "cc-monitor-worker"
+    description: "Claude Code monitoring with Cloudflare Workers & Workers Analytics Engine"
+    language: "TypeScript"
     topics:
-      - "kotlin-library"
-      - "kotlin-multiplatform"
-      - "kotlin-serialization"
-      - "url-parser"
-    stars_fact: 2
+      - "claude-code"
+      - "cloudflare-workers"
+      - "opentelemetry"
+    stars_fact: 22
     first_seen: null
-    last_push: "2026-08-13"
+    last_push: "2026-08-12"
+  - name: "dotfiles"
+    title: "dotfiles"
+    description: "My OS configuration files"
+    language: "Shell"
+    topics:
+      - "dotfiles"
+      - "macos"
+      - "ubuntu"
+    stars_fact: 18
+    first_seen: null
+    last_push: "2026-09-04"
+  - name: "gatsby-plugin-linaria"
+    title: "gatsby-plugin-linaria"
+    description: "Gatsby plugin for styling with Linaria"
+    language: "TypeScript"
+    topics:
+      - "css-in-js"
+      - "gatsby"
+      - "gatsby-plugin"
+      - "linaria"
+      - "react"
+    stars_fact: 59
+    first_seen: null
+    last_push: "2026-09-18"
 ---
 
 # cometkim
 
-48 pushes across 14 repositories on 24 active days in the last 90 days of public GitHub push activity.
+49 pushes across 11 repositories on 23 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/cometkim

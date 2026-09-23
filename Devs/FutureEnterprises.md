@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "b7bec34541d2ddb0"
-pushes_per_week: [71, 23, 62, 80, 36, 41, 31, 23, 14, 27, 14, 2, 1]
+pushes_per_week: [75, 59, 26, 49, 24, 13, 27, 20, 7, 2, 0, 5, 0]
 windows:
   "7d":
-    pushes: 2
-    distinct_repos: 1
-    active_days: 2
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
-    pushes: 53
+    pushes: 7
     distinct_repos: 2
-    active_days: 16
-    repos_not_owned: 1
+    active_days: 4
+    repos_not_owned: 2
     not_owned_basenames: 1
-    not_owned_owners: 1
+    not_owned_owners: 2
   "90d":
-    pushes: 425
-    distinct_repos: 8
-    active_days: 70
-    repos_not_owned: 1
+    pushes: 307
+    distinct_repos: 6
+    active_days: 57
+    repos_not_owned: 2
     not_owned_basenames: 1
-    not_owned_owners: 1
+    not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 6.0714
-  repo_per_active_day: 0.1143
-  not_owned_ratio: 0.1250
-  basename_concentration: 0.1250
+  push_per_day: 5.3860
+  repo_per_active_day: 0.1053
+  not_owned_ratio: 0.3333
+  basename_concentration: 0.3333
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
-    distinct_repos: 1
-    pushes_per_repo: 2.0000
-    active_days: 2
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
-    pushes: 53
+    pushes: 7
     distinct_repos: 2
-    pushes_per_repo: 26.5000
-    active_days: 16
-    repos_not_owned: 1
+    pushes_per_repo: 3.5000
+    active_days: 4
+    repos_not_owned: 2
     not_owned_basenames: 1
-    not_owned_owners: 1
+    not_owned_owners: 2
   "90d":
-    pushes: 425
-    distinct_repos: 8
-    pushes_per_repo: 53.1250
-    active_days: 70
-    repos_not_owned: 1
+    pushes: 307
+    distinct_repos: 6
+    pushes_per_repo: 51.1667
+    active_days: 57
+    repos_not_owned: 2
     not_owned_basenames: 1
-    not_owned_owners: 1
+    not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 70 active days in 90d — pass"
+  - "activity: 57 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "chief-of-staff"
@@ -85,6 +85,14 @@ repos:
     stars_fact: 1
     first_seen: null
     last_push: "2026-08-12"
+  - name: "tensorfeed"
+    title: "tensorfeed"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-06-30"
   - name: "unihodl"
     title: "unihodl"
     description: "UNIHODL Agent Handoff SDK — pass human session context to AI agents (Claude, Gemini, OpenAI, MCP)."
@@ -97,6 +105,6 @@ repos:
 
 # FutureEnterprises
 
-425 pushes across 8 repositories on 70 active days in the last 90 days of public GitHub push activity.
+307 pushes across 6 repositories on 57 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/FutureEnterprises

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "1f49d0119cedbc84"
-pushes_per_week: [0, 0, 0, 9, 9, 1, 0, 0, 0, 3, 0, 0, 0]
+pushes_per_week: [6, 6, 7, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 3
-    distinct_repos: 1
-    active_days: 2
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 3
-    distinct_repos: 1
-    pushes_per_repo: 3.0000
-    active_days: 2
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -77,6 +77,14 @@ reasons:
   - "activity: 11 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "starmap"
+    title: "starmap"
+    description: "Browser-based star map for the Roblox game Waste of Space"
+    language: "Svelte"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-20"
   - name: "cosmic-fecundity"
     title: "cosmic-fecundity"
     description: null
@@ -86,14 +94,6 @@ repos:
       - "particle-system"
       - "simulation"
       - "space"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-29"
-  - name: "starmap"
-    title: "starmap"
-    description: "Browser-based star map for the Roblox game Waste of Space"
-    language: "Svelte"
-    topics: []
     stars_fact: 0
     first_seen: null
     last_push: "2026-08-29"

@@ -8,11 +8,11 @@ provenance_repos:
   - "affaan-m/ECC"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+repos_populated: false
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "edb3a626875732de"
-pushes_per_week: [1, 3, 0, 1, 0, 8, 14, 3, 2, 1, 0, 0, 0]
+pushes_per_week: [1, 0, 2, 14, 8, 3, 0, 1, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,25 +22,25 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 33
-    distinct_repos: 13
-    active_days: 18
+    pushes: 29
+    distinct_repos: 11
+    active_days: 14
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.8333
-  repo_per_active_day: 0.7222
+  push_per_day: 2.0714
+  repo_per_active_day: 0.7857
   not_owned_ratio: 0.0000
-  basename_concentration: 0.0769
+  basename_concentration: 0.0909
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -57,88 +57,30 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 33
-    distinct_repos: 13
-    pushes_per_repo: 2.5385
-    active_days: 18
+    pushes: 29
+    distinct_repos: 11
+    pushes_per_repo: 2.6364
+    active_days: 14
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 18 active days in 90d — pass"
+  - "activity: 14 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "github-contribution-filler"
-    title: "github-contribution-filler"
-    description: "🎯 Fill GitHub contribution graph with backdated commits • Custom date ranges • Auto-removal tool"
-    language: "Shell"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-09-03"
-  - name: "hidden-pixels"
-    title: "hidden-pixels"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-02"
-  - name: "awesome-privacy"
-    title: "awesome-privacy"
-    description: "Awesome Privacy - A curated list of services and alternatives that respect your privacy because PRIVACY MATTERS."
-    language: null
-    topics: []
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-08-02"
-  - name: "case-intake-suite"
-    title: "case-intake-suite"
-    description: "Local case intake and evidence pack generator for moderation workflows — CLI + Flask dashboard + Markdown/PDF export"
-    language: "Python"
-    topics: []
-    stars_fact: 6
-    first_seen: null
-    last_push: "2026-07-23"
-  - name: "NEXUS-CSI-Sensor"
-    title: "NEXUS-CSI-Sensor"
-    description: "WiFi Channel State Information presence & motion sensor for ESP32. No camera, no mic — just radio waves and math."
-    language: "C"
-    topics:
-      - "csi"
-      - "esp-idf"
-      - "esp32"
-      - "freertos"
-      - "home-automation"
-      - "iot"
-      - "presence-detection"
-      - "privacy"
-      - "wifi-sensing"
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-08-22"
-  - name: "ctias-lab"
-    title: "ctias-lab"
-    description: "Multi-language cybersecurity platform for threat intelligence, IOC analysis, attack surface mapping, and collaborative threat detection"
-    language: "Python"
-    topics:
-      - "cybersecurity"
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-02-16"
+repos: []
 ---
 
 # pangerlkr
 
-33 pushes across 13 repositories on 18 active days in the last 90 days of public GitHub push activity.
+29 pushes across 11 repositories on 14 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/pangerlkr

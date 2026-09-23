@@ -8,39 +8,39 @@ provenance_repos:
   - "AstrBotDevs/AstrBot"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+repos_populated: false
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [21, 13, 5, 20, 5, 1, 3, 0, 4, 6, 1, 0, 0]
+pushes_per_week: [3, 24, 1, 2, 1, 0, 8, 3, 0, 0, 0, 1, 1]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 11
-    distinct_repos: 6
-    active_days: 7
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 2
+    distinct_repos: 2
+    active_days: 2
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
-    pushes: 79
-    distinct_repos: 20
-    active_days: 27
-    repos_not_owned: 5
-    not_owned_basenames: 4
+    pushes: 44
+    distinct_repos: 13
+    active_days: 19
+    repos_not_owned: 3
+    not_owned_basenames: 2
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 2.9259
-  repo_per_active_day: 0.7407
-  not_owned_ratio: 0.2500
-  basename_concentration: 0.1500
+  push_per_day: 2.3158
+  repo_per_active_day: 0.6842
+  not_owned_ratio: 0.2308
+  basename_concentration: 0.2308
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,86 +49,38 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
+    pushes: 1
+    distinct_repos: 1
+    pushes_per_repo: 1.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 11
-    distinct_repos: 6
-    pushes_per_repo: 1.8333
-    active_days: 7
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 2
+    distinct_repos: 2
+    pushes_per_repo: 1.0000
+    active_days: 2
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
-    pushes: 79
-    distinct_repos: 20
-    pushes_per_repo: 3.9500
-    active_days: 27
-    repos_not_owned: 5
-    not_owned_basenames: 4
+    pushes: 44
+    distinct_repos: 13
+    pushes_per_repo: 3.3846
+    active_days: 19
+    repos_not_owned: 3
+    not_owned_basenames: 2
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 27 active days in 90d — pass"
+  - "activity: 19 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "remove-duplicate-files"
-    title: "remove-duplicate-files"
-    description: "A safe and efficient PowerShell utility for finding and removing duplicate files"
-    language: "PowerShell"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-03"
-  - name: "auto-aur-update"
-    title: "auto-aur-update"
-    description: "auto-aur-update"
-    language: "Shell"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-03"
-  - name: "PixelTerm-C"
-    title: "PixelTerm-C"
-    description: "A high-performance terminal image/video/book browser based on Chafa."
-    language: "C"
-    topics: []
-    stars_fact: 27
-    first_seen: null
-    last_push: "2026-09-02"
-  - name: "astrbot_plugin_agentmemory"
-    title: "astrbot_plugin_agentmemory"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 9
-    first_seen: null
-    last_push: "2026-05-25"
-  - name: "zimage-webui"
-    title: "zimage-webui"
-    description: null
-    language: "HTML"
-    topics: []
-    stars_fact: 5
-    first_seen: null
-    last_push: "2026-08-17"
-  - name: "astrbot_plugin_web_searcher_pro"
-    title: "astrbot_plugin_web_searcher_pro"
-    description: "基于SearXNG的高性能的Web搜索插件"
-    language: "Python"
-    topics: []
-    stars_fact: 19
-    first_seen: null
-    last_push: "2026-06-15"
+repos: []
 ---
 
 # zouyonghe
 
-79 pushes across 20 repositories on 27 active days in the last 90 days of public GitHub push activity.
+44 pushes across 13 repositories on 19 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/zouyonghe

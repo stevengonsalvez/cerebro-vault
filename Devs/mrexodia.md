@@ -10,39 +10,39 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "48dbbdd8fd0d3029"
   - "de6bf05613f3ae04"
-pushes_per_week: [8, 3, 15, 14, 4, 22, 9, 6, 8, 3, 7, 0, 0]
+pushes_per_week: [14, 9, 6, 22, 8, 6, 7, 6, 3, 0, 0, 2, 5]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    pushes: 5
+    distinct_repos: 4
+    active_days: 4
+    repos_not_owned: 2
+    not_owned_basenames: 2
+    not_owned_owners: 2
   "30d":
-    pushes: 14
-    distinct_repos: 9
+    pushes: 7
+    distinct_repos: 6
     active_days: 6
-    repos_not_owned: 4
+    repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 3
   "90d":
-    pushes: 99
-    distinct_repos: 38
-    active_days: 45
+    pushes: 88
+    distinct_repos: 36
+    active_days: 42
     repos_not_owned: 13
     not_owned_basenames: 11
-    not_owned_owners: 5
+    not_owned_owners: 6
 automation:
   state: "clear"
-  push_per_day: 2.2000
-  repo_per_active_day: 0.8444
-  not_owned_ratio: 0.3421
-  basename_concentration: 0.0789
+  push_per_day: 2.0952
+  repo_per_active_day: 0.8571
+  not_owned_ratio: 0.3611
+  basename_concentration: 0.0833
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -51,34 +51,47 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    pushes: 5
+    distinct_repos: 4
+    pushes_per_repo: 1.2500
+    active_days: 4
+    repos_not_owned: 2
+    not_owned_basenames: 2
+    not_owned_owners: 2
   "30d":
-    pushes: 14
-    distinct_repos: 9
-    pushes_per_repo: 1.5556
+    pushes: 7
+    distinct_repos: 6
+    pushes_per_repo: 1.1667
     active_days: 6
-    repos_not_owned: 4
+    repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 3
   "90d":
-    pushes: 99
-    distinct_repos: 38
-    pushes_per_repo: 2.6053
-    active_days: 45
+    pushes: 88
+    distinct_repos: 36
+    pushes_per_repo: 2.4444
+    active_days: 42
     repos_not_owned: 13
     not_owned_basenames: 11
-    not_owned_owners: 5
+    not_owned_owners: 6
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 45 active days in 90d — pass"
+  - "activity: 42 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "zeromcp"
+    title: "zeromcp"
+    description: "Zero-dependency MCP server implementation."
+    language: "Python"
+    topics:
+      - "mcp"
+      - "mcp-sdk"
+      - "modelcontextprotocol"
+      - "python"
+      - "python-mcp"
+    stars_fact: 91
+    first_seen: null
+    last_push: "2026-09-23"
   - name: "ida-pro-mcp"
     title: "ida-pro-mcp"
     description: "AI-powered reverse engineering assistant that bridges IDA Pro with language models through MCP."
@@ -93,67 +106,9 @@ repos:
       - "mcp-server"
       - "modelcontextprotocol"
       - "reverse-engineering"
-    stars_fact: 11804
+    stars_fact: 12282
     first_seen: null
-    last_push: "2026-08-28"
-  - name: "dumpulator"
-    title: "dumpulator"
-    description: "An easy-to-use library for emulating memory dumps. Useful for malware analysis (config extraction, unpacking) and dynamic analysis in general (sandboxing)."
-    language: "C"
-    topics:
-      - "cross-platform"
-      - "debugging-tools"
-      - "easy-to-use"
-      - "emulator"
-      - "hacktoberfest"
-      - "malware"
-      - "malware-analysis"
-      - "malware-analyzer"
-      - "malware-research"
-      - "minidump"
-      - "python"
-      - "python3"
-      - "reverse-engineering"
-      - "sandbox"
-      - "unicorn"
-      - "unpacking"
-      - "windows"
-      - "windows-internals"
-      - "x64"
-    stars_fact: 882
-    first_seen: null
-    last_push: "2024-02-02"
-  - name: "dos-agent-environment"
-    title: "dos-agent-environment"
-    description: "A scriptable DOS 7.1 VM for coding agents."
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-19"
-  - name: "toilet-pi"
-    title: "toilet-pi"
-    description: "Control pi sessions across machines with your browser (or mobile PWA)."
-    language: "TypeScript"
-    topics:
-      - "pi"
-      - "pi-extension"
-    stars_fact: 32
-    first_seen: null
-    last_push: "2026-08-19"
-  - name: "zeromcp"
-    title: "zeromcp"
-    description: "Zero-dependency MCP server implementation."
-    language: "Python"
-    topics:
-      - "mcp"
-      - "mcp-sdk"
-      - "modelcontextprotocol"
-      - "python"
-      - "python-mcp"
-    stars_fact: 88
-    first_seen: null
-    last_push: "2026-09-01"
+    last_push: "2026-09-22"
   - name: "TitanHide"
     title: "TitanHide"
     description: "Hiding kernel-driver for x86/x64."
@@ -164,13 +119,45 @@ repos:
       - "hacktoberfest"
       - "rootkit"
       - "windows"
-    stars_fact: 2848
+    stars_fact: 2875
     first_seen: null
     last_push: "2026-07-18"
+  - name: "agent-cost-dashboard"
+    title: "agent-cost-dashboard"
+    description: "Interactive web dashboard to monitor and analyze your coding agent API costs."
+    language: "Python"
+    topics: []
+    stars_fact: 36
+    first_seen: null
+    last_push: "2026-08-09"
+  - name: "zig-cross"
+    title: "zig-cross"
+    description: "Example of using as a CMake Toolchain for cross compiling."
+    language: "CMake"
+    topics:
+      - "cmake"
+      - "cmake-toolchain"
+      - "cpp"
+      - "cross-compilation"
+      - "cross-compiler-toolchain"
+      - "zig"
+    stars_fact: 191
+    first_seen: null
+    last_push: "2025-06-16"
+  - name: "toilet-pi"
+    title: "toilet-pi"
+    description: "Control pi sessions across machines with your browser (or mobile PWA)."
+    language: "TypeScript"
+    topics:
+      - "pi"
+      - "pi-extension"
+    stars_fact: 34
+    first_seen: null
+    last_push: "2026-09-19"
 ---
 
 # mrexodia
 
-99 pushes across 38 repositories on 45 active days in the last 90 days of public GitHub push activity.
+88 pushes across 36 repositories on 42 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/mrexodia

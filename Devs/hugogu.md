@@ -8,39 +8,39 @@ provenance_repos:
   - "abhigyanpatwari/GitNexus"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+repos_populated: false
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [11, 26, 8, 24, 20, 7, 8, 1, 3, 0, 4, 3, 0]
+pushes_per_week: [10, 25, 12, 8, 6, 0, 3, 1, 4, 2, 2, 1, 12]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
+    pushes: 12
+    distinct_repos: 1
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 7
-    distinct_repos: 1
-    active_days: 5
+    pushes: 17
+    distinct_repos: 3
+    active_days: 8
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 115
-    distinct_repos: 8
-    active_days: 44
+    pushes: 86
+    distinct_repos: 7
+    active_days: 39
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.6136
-  repo_per_active_day: 0.1818
+  push_per_day: 2.2051
+  repo_per_active_day: 0.1795
   not_owned_ratio: 0.0000
-  basename_concentration: 0.1250
+  basename_concentration: 0.1429
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,86 +49,38 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
+    pushes: 12
+    distinct_repos: 1
+    pushes_per_repo: 12.0000
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 7
-    distinct_repos: 1
-    pushes_per_repo: 7.0000
-    active_days: 5
+    pushes: 17
+    distinct_repos: 3
+    pushes_per_repo: 5.6667
+    active_days: 8
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 115
-    distinct_repos: 8
-    pushes_per_repo: 14.3750
-    active_days: 44
+    pushes: 86
+    distinct_repos: 7
+    pushes_per_repo: 12.2857
+    active_days: 39
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 44 active days in 90d — pass"
+  - "activity: 39 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "next-wiki"
-    title: "next-wiki"
-    description: "An AI native personal knowledge management & sharing platform"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-09-03"
-  - name: "next-wiki-portal"
-    title: "next-wiki-portal"
-    description: "Official Site for Next-Wiki"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-03"
-  - name: "wiki-pages"
-    title: "wiki-pages"
-    description: null
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-03"
-  - name: "calculator-service"
-    title: "calculator-service"
-    description: null
-    language: "Java"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-07-28"
-  - name: "ai-training"
-    title: "ai-training"
-    description: null
-    language: "Jupyter Notebook"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-07-26"
-  - name: "llm-from-scratch-lab"
-    title: "llm-from-scratch-lab"
-    description: "9-step runnable lab for Goal B of Build-a-LLM-from-Scratch (Manning 2024). Each step independently runnable; step 09 is the experiment zoo."
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-07-18"
+repos: []
 ---
 
 # hugogu
 
-115 pushes across 8 repositories on 44 active days in the last 90 days of public GitHub push activity.
+86 pushes across 7 repositories on 39 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/hugogu

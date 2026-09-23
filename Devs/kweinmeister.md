@@ -8,38 +8,38 @@ provenance_repos:
   - "calesthio/OpenMontage"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+repos_populated: false
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "6d3bd03b49986330"
-pushes_per_week: [12, 2, 0, 24, 11, 22, 14, 0, 0, 5, 3, 4, 1]
+pushes_per_week: [7, 18, 10, 22, 14, 0, 0, 8, 4, 0, 1, 2, 17]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
-  "30d":
-    pushes: 13
-    distinct_repos: 10
+    pushes: 17
+    distinct_repos: 11
     active_days: 5
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
+  "30d":
+    pushes: 24
+    distinct_repos: 13
+    active_days: 8
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "90d":
-    pushes: 98
+    pushes: 103
     distinct_repos: 22
-    active_days: 17
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    active_days: 18
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 5.7647
-  repo_per_active_day: 1.2941
-  not_owned_ratio: 0.0000
+  push_per_day: 5.7222
+  repo_per_active_day: 1.2222
+  not_owned_ratio: 0.0455
   basename_concentration: 0.0455
   shapes: []
   shape_evidence: []
@@ -49,104 +49,38 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
-  "30d":
-    pushes: 13
-    distinct_repos: 10
-    pushes_per_repo: 1.3000
+    pushes: 17
+    distinct_repos: 11
+    pushes_per_repo: 1.5455
     active_days: 5
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
+  "30d":
+    pushes: 24
+    distinct_repos: 13
+    pushes_per_repo: 1.8462
+    active_days: 8
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "90d":
-    pushes: 98
+    pushes: 103
     distinct_repos: 22
-    pushes_per_repo: 4.4545
-    active_days: 17
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    pushes_per_repo: 4.6818
+    active_days: 18
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 17 active days in 90d — pass"
+  - "activity: 18 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "agentitest"
-    title: "agentitest"
-    description: "Write browser tests in natural language, built on pytest and allure."
-    language: "Python"
-    topics:
-      - "agent"
-      - "ai"
-      - "allure-report"
-      - "browser-use"
-      - "gemini"
-      - "llm"
-      - "playwright"
-      - "pytest"
-      - "qa"
-      - "test-automation"
-      - "testing"
-      - "web-testing"
-    stars_fact: 49
-    first_seen: null
-    last_push: "2026-08-25"
-  - name: "gemini-model-router"
-    title: "gemini-model-router"
-    description: "A model router that dynamically routes queries to the best Gemini model for the job, based on semantic meaning."
-    language: "Python"
-    topics:
-      - "cloud-run"
-      - "gemini"
-      - "google-cloud"
-      - "llm"
-      - "router"
-      - "vertex-ai"
-    stars_fact: 8
-    first_seen: null
-    last_push: "2026-08-31"
-  - name: "voting-agent"
-    title: "voting-agent"
-    description: "Agent and UI example showcasing best-of-n pattern, memory, and sessions"
-    language: "Python"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-08-31"
-  - name: "dependency-director"
-    title: "dependency-director"
-    description: "Antigravity SDK agent that auto-merges green dependency PRs and patches failures."
-    language: "Python"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-08-31"
-  - name: "toon-mcp"
-    title: "toon-mcp"
-    description: "MCP server for converting JSON ↔ TOON to reduce LLM token usage."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 13
-    first_seen: null
-    last_push: "2026-08-29"
-  - name: "onnx-inference"
-    title: "onnx-inference"
-    description: "ONNX-based LLM inference server"
-    language: "Python"
-    topics: []
-    stars_fact: 6
-    first_seen: null
-    last_push: "2026-08-28"
+repos: []
 ---
 
 # kweinmeister
 
-98 pushes across 22 repositories on 17 active days in the last 90 days of public GitHub push activity.
+103 pushes across 22 repositories on 18 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/kweinmeister

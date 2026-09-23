@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-04T06:06:21.234597+00:00"
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "6d3bd03b49986330"
-pushes_per_week: [0, 3, 19, 24, 7, 4, 4, 1, 0, 0, 0, 0, 0]
+pushes_per_week: [14, 18, 6, 3, 1, 1, 0, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 62
-    distinct_repos: 8
-    active_days: 19
+    pushes: 43
+    distinct_repos: 5
+    active_days: 14
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 3.2632
-  repo_per_active_day: 0.4211
+  push_per_day: 3.0714
+  repo_per_active_day: 0.3571
   not_owned_ratio: 0.0000
-  basename_concentration: 0.1250
+  basename_concentration: 0.2000
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,26 +65,18 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 62
-    distinct_repos: 8
-    pushes_per_repo: 7.7500
-    active_days: 19
+    pushes: 43
+    distinct_repos: 5
+    pushes_per_repo: 8.6000
+    active_days: 14
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 19 active days in 90d — pass"
+  - "activity: 14 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "Rust-Algorithms"
-    title: "Rust-Algorithms"
-    description: "Classical algorithms in idiomatic Rust with thorough test suites"
-    language: "Rust"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-05-07"
   - name: "0xDevNinja"
     title: "0xDevNinja"
     description: "Personal GitHub profile — settlement infra, cross-chain systems, auditable Rust/Solidity/Go."
@@ -99,7 +91,15 @@ repos:
       - "solidity"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-03"
+    last_push: "2026-09-23"
+  - name: "Rust-Algorithms"
+    title: "Rust-Algorithms"
+    description: "Classical algorithms in idiomatic Rust with thorough test suites"
+    language: "Rust"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-05-07"
   - name: "zenith"
     title: "zenith"
     description: "Zenith — a dynamic liquidity protocol on Solana: a concentrated-liquidity AMM and a bin-based liquidity-book DEX, with a TypeScript SDK and web app."
@@ -158,6 +158,6 @@ repos:
 
 # 0xDevNinja
 
-62 pushes across 8 repositories on 19 active days in the last 90 days of public GitHub push activity.
+43 pushes across 5 repositories on 14 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/0xDevNinja

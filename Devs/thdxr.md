@@ -9,37 +9,37 @@ provenance_repos:
   - "anomalyco/opencode"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+repos_populated: false
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [31, 9, 51, 25, 25, 18, 4, 3, 3, 12, 5, 1, 0]
+pushes_per_week: [32, 25, 23, 10, 4, 2, 9, 7, 2, 1, 1, 5, 8]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
-    repos_not_owned: 1
-    not_owned_basenames: 1
+    pushes: 8
+    distinct_repos: 2
+    active_days: 5
+    repos_not_owned: 2
+    not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 18
-    distinct_repos: 1
-    active_days: 10
-    repos_not_owned: 1
-    not_owned_basenames: 1
+    pushes: 15
+    distinct_repos: 2
+    active_days: 11
+    repos_not_owned: 2
+    not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 187
+    pushes: 129
     distinct_repos: 3
-    active_days: 53
+    active_days: 51
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 3.5283
-  repo_per_active_day: 0.0566
+  push_per_day: 2.5294
+  repo_per_active_day: 0.0588
   not_owned_ratio: 1.0000
   basename_concentration: 0.3333
   shapes: []
@@ -50,86 +50,38 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
-    repos_not_owned: 1
-    not_owned_basenames: 1
+    pushes: 8
+    distinct_repos: 2
+    pushes_per_repo: 4.0000
+    active_days: 5
+    repos_not_owned: 2
+    not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 18
-    distinct_repos: 1
-    pushes_per_repo: 18.0000
-    active_days: 10
-    repos_not_owned: 1
-    not_owned_basenames: 1
+    pushes: 15
+    distinct_repos: 2
+    pushes_per_repo: 7.5000
+    active_days: 11
+    repos_not_owned: 2
+    not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 187
+    pushes: 129
     distinct_repos: 3
-    pushes_per_repo: 62.3333
-    active_days: 53
+    pushes_per_repo: 43.0000
+    active_days: 51
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 53 active days in 90d — pass"
+  - "activity: 51 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "environment"
-    title: "environment"
-    description: null
-    language: "Lua"
-    topics: []
-    stars_fact: 153
-    first_seen: null
-    last_push: "2026-07-02"
-  - name: "docs"
-    title: "docs"
-    description: null
-    language: "MDX"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2025-12-05"
-  - name: "blog"
-    title: "blog"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 4
-    first_seen: null
-    last_push: "2021-10-11"
-  - name: "twitch"
-    title: "twitch"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2023-07-27"
-  - name: "ampt-api"
-    title: "ampt-api"
-    description: "Ampt app for ampt-api"
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2023-09-22"
-  - name: "overlay"
-    title: "overlay"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2022-08-14"
+repos: []
 ---
 
 # thdxr
 
-187 pushes across 3 repositories on 53 active days in the last 90 days of public GitHub push activity.
+129 pushes across 3 repositories on 51 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/thdxr

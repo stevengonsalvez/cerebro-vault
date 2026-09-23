@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [21, 100, 31, 13, 5, 9, 5, 5, 3, 2, 1, 7, 2]
+pushes_per_week: [16, 6, 12, 2, 9, 2, 3, 1, 5, 4, 5, 1, 22]
 windows:
   "7d":
-    pushes: 4
-    distinct_repos: 1
-    active_days: 3
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 22
+    distinct_repos: 8
+    active_days: 6
+    repos_not_owned: 2
+    not_owned_basenames: 2
+    not_owned_owners: 2
   "30d":
-    pushes: 14
-    distinct_repos: 5
-    active_days: 10
-    repos_not_owned: 2
-    not_owned_basenames: 2
-    not_owned_owners: 1
+    pushes: 35
+    distinct_repos: 11
+    active_days: 16
+    repos_not_owned: 3
+    not_owned_basenames: 3
+    not_owned_owners: 2
   "90d":
-    pushes: 204
-    distinct_repos: 15
-    active_days: 39
-    repos_not_owned: 2
-    not_owned_basenames: 2
-    not_owned_owners: 1
+    pushes: 88
+    distinct_repos: 17
+    active_days: 37
+    repos_not_owned: 3
+    not_owned_basenames: 3
+    not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 5.2308
-  repo_per_active_day: 0.3846
-  not_owned_ratio: 0.1333
-  basename_concentration: 0.0667
+  push_per_day: 2.3784
+  repo_per_active_day: 0.4595
+  not_owned_ratio: 0.1765
+  basename_concentration: 0.0588
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,37 +49,61 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 4
-    distinct_repos: 1
-    pushes_per_repo: 4.0000
-    active_days: 3
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 22
+    distinct_repos: 8
+    pushes_per_repo: 2.7500
+    active_days: 6
+    repos_not_owned: 2
+    not_owned_basenames: 2
+    not_owned_owners: 2
   "30d":
-    pushes: 14
-    distinct_repos: 5
-    pushes_per_repo: 2.8000
-    active_days: 10
-    repos_not_owned: 2
-    not_owned_basenames: 2
-    not_owned_owners: 1
+    pushes: 35
+    distinct_repos: 11
+    pushes_per_repo: 3.1818
+    active_days: 16
+    repos_not_owned: 3
+    not_owned_basenames: 3
+    not_owned_owners: 2
   "90d":
-    pushes: 204
-    distinct_repos: 15
-    pushes_per_repo: 13.6000
-    active_days: 39
-    repos_not_owned: 2
-    not_owned_basenames: 2
-    not_owned_owners: 1
+    pushes: 88
+    distinct_repos: 17
+    pushes_per_repo: 5.1765
+    active_days: 37
+    repos_not_owned: 3
+    not_owned_basenames: 3
+    not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 39 active days in 90d — pass"
+  - "activity: 37 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "tanstack-plugin-seo"
-    title: "tanstack-plugin-seo"
-    description: "Route-declared SEO for TanStack Router: graph, sitemap/robots, React head helpers, Vite coverage gate, and CLI"
+  - name: "coding-agent-plugins"
+    title: "coding-agent-plugins"
+    description: "Collection of plugins for Claude Code and OpenCode"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-09-23"
+  - name: "opencode-plugin-executor"
+    title: "opencode-plugin-executor"
+    description: "OpenCode plugin that exposes the Executor tool catalog natively in Code Mode"
+    language: "TypeScript"
+    topics:
+      - "bun"
+      - "code-mode"
+      - "effect"
+      - "effect-ts"
+      - "executor"
+      - "opencode"
+      - "opencode-plugin"
+      - "typescript"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-22"
+  - name: "pagegraph"
+    title: "pagegraph"
+    description: "Route-declared SEO graph and audit toolkit for TanStack Start: sitemap/robots, React head, JSON-LD, Vite coverage gate, live audit, and Jev-backed link decisions."
     language: "TypeScript"
     topics:
       - "json-ld"
@@ -92,17 +116,9 @@ repos:
       - "tanstack-router"
       - "typescript"
       - "vite"
-    stars_fact: 0
+    stars_fact: 1
     first_seen: null
-    last_push: "2026-09-01"
-  - name: "CapsuleDB"
-    title: "CapsuleDB"
-    description: "A TypeScript library for adding isolated, typed data modules and migrations to your app's existing database."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-03"
+    last_push: "2026-09-22"
   - name: "wt"
     title: "wt"
     description: "Git worktree helper — create worktrees with gitignored file sync and automatic dependency install"
@@ -117,49 +133,27 @@ repos:
       - "worktree"
     stars_fact: 1
     first_seen: null
-    last_push: "2026-08-30"
-  - name: "effect-platform-cloudflare"
-    title: "effect-platform-cloudflare"
-    description: null
+    last_push: "2026-09-18"
+  - name: "opencode-codex-control"
+    title: "opencode-codex-control"
+    description: "OpenCode plugin exposing Codex Computer Use and Chrome as native tools"
     language: "TypeScript"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-07-26"
-  - name: "fumadocs-mdx-cloudflare"
-    title: "fumadocs-mdx-cloudflare"
-    description: "Remote MDX rendering on Cloudflare Workers for fumadocs"
+    last_push: "2026-09-16"
+  - name: "CapsuleDB"
+    title: "CapsuleDB"
+    description: "A TypeScript library for adding isolated, typed data modules and migrations to your app's existing database."
     language: "TypeScript"
-    topics:
-      - "cloudflare"
-      - "cloudflare-workers"
-      - "dynamic-worker"
-      - "fumadocs"
-      - "mdx"
-      - "remote-mdx"
-    stars_fact: 2
+    topics: []
+    stars_fact: 0
     first_seen: null
-    last_push: "2026-04-08"
-  - name: "vite-plugin-agent-skills"
-    title: "vite-plugin-agent-skills"
-    description: "Import Agent Skills from SKILL.md files in Vite."
-    language: "TypeScript"
-    topics:
-      - "agent-skills"
-      - "bun"
-      - "import-attributes"
-      - "markdown"
-      - "skills"
-      - "typescript"
-      - "vite"
-      - "vite-plugin"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-07-02"
+    last_push: "2026-09-03"
 ---
 
 # aryasaatvik
 
-204 pushes across 15 repositories on 39 active days in the last 90 days of public GitHub push activity.
+88 pushes across 17 repositories on 37 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/aryasaatvik

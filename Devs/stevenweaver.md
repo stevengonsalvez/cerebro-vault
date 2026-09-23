@@ -9,41 +9,41 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "97c4e9cb8b163ddb"
   - "c7515e0fa4368a55"
   - "d3abe74726b22711"
   - "e7c647c4d0689526"
-pushes_per_week: [7, 0, 1, 2, 0, 13, 0, 1, 2, 9, 1, 0, 0]
+pushes_per_week: [1, 2, 3, 10, 0, 3, 7, 3, 0, 0, 0, 8, 7]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    pushes: 7
+    distinct_repos: 1
+    active_days: 1
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "30d":
-    pushes: 10
+    pushes: 15
     distinct_repos: 3
-    active_days: 6
+    active_days: 2
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 36
-    distinct_repos: 5
-    active_days: 19
-    repos_not_owned: 3
-    not_owned_basenames: 3
+    pushes: 44
+    distinct_repos: 7
+    active_days: 18
+    repos_not_owned: 5
+    not_owned_basenames: 5
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.8947
-  repo_per_active_day: 0.2632
-  not_owned_ratio: 0.6000
-  basename_concentration: 0.2000
+  push_per_day: 2.4444
+  repo_per_active_day: 0.3889
+  not_owned_ratio: 0.7143
+  basename_concentration: 0.1429
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -52,34 +52,52 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    pushes: 7
+    distinct_repos: 1
+    pushes_per_repo: 7.0000
+    active_days: 1
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "30d":
-    pushes: 10
+    pushes: 15
     distinct_repos: 3
-    pushes_per_repo: 3.3333
-    active_days: 6
+    pushes_per_repo: 5.0000
+    active_days: 2
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 36
-    distinct_repos: 5
-    pushes_per_repo: 7.2000
-    active_days: 19
-    repos_not_owned: 3
-    not_owned_basenames: 3
+    pushes: 44
+    distinct_repos: 7
+    pushes_per_repo: 6.2857
+    active_days: 18
+    repos_not_owned: 5
+    not_owned_basenames: 5
     not_owned_owners: 1
 reasons:
   - "provenance: 4 vault signal(s) — pass"
-  - "activity: 19 active days in 90d — pass"
+  - "activity: 18 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "kmer-diversity-sieve"
+    title: "kmer-diversity-sieve"
+    description: "Alignment-free k-mer diversity sieve for archive-scale FASTA: a streaming C filter (Count-Min-sketch admission + MinHash/LSH novelty) that reduces tens of millions of sequences to a QC'd, diversity-preserving subset in one pass. Three backends from one source — serial (no deps), pthreads, MPI. Code only."
+    language: "C"
+    topics:
+      - "bioinformatics"
+      - "c"
+      - "count-min-sketch"
+      - "fasta"
+      - "genomics"
+      - "locality-sensitive-hashing"
+      - "minhash"
+      - "mpi"
+      - "pthreads"
+      - "subsampling"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-17"
   - name: "hyphy-scope"
     title: "hyphy-scope"
     description: "Visualizations for HyPhy methods and related selection analysis tools"
@@ -120,18 +138,10 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-05-01"
-  - name: "alivibe"
-    title: "alivibe"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-03-11"
 ---
 
 # stevenweaver
 
-36 pushes across 5 repositories on 19 active days in the last 90 days of public GitHub push activity.
+44 pushes across 7 repositories on 18 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/stevenweaver

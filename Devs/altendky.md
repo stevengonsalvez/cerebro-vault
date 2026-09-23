@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [12, 10, 8, 0, 0, 3, 5, 3, 3, 0, 0, 0, 0]
+pushes_per_week: [8, 0, 0, 5, 3, 3, 3, 0, 0, 0, 1, 4, 7]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
+    pushes: 7
+    distinct_repos: 4
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 3
-    distinct_repos: 3
-    active_days: 2
+    pushes: 12
+    distinct_repos: 6
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 44
-    distinct_repos: 7
-    active_days: 21
+    pushes: 34
+    distinct_repos: 9
+    active_days: 20
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.0952
-  repo_per_active_day: 0.3333
+  push_per_day: 1.7000
+  repo_per_active_day: 0.4500
   not_owned_ratio: 0.0000
-  basename_concentration: 0.1429
+  basename_concentration: 0.1111
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,34 +49,45 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
+    pushes: 7
+    distinct_repos: 4
+    pushes_per_repo: 1.7500
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 3
-    distinct_repos: 3
-    pushes_per_repo: 1.0000
-    active_days: 2
+    pushes: 12
+    distinct_repos: 6
+    pushes_per_repo: 2.0000
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 44
-    distinct_repos: 7
-    pushes_per_repo: 6.2857
-    active_days: 21
+    pushes: 34
+    distinct_repos: 9
+    pushes_per_repo: 3.7778
+    active_days: 20
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 21 active days in 90d — pass"
+  - "activity: 20 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "onshape-export"
+    title: "onshape-export"
+    description: "Export curated Onshape CAD models"
+    language: "Rust"
+    topics:
+      - "cad"
+      - "onshape"
+      - "rust"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-23"
   - name: "onshape-mcp"
     title: "onshape-mcp"
     description: "AI-assisted access to your Onshape CAD documents"
@@ -86,9 +97,9 @@ repos:
       - "mcp"
       - "onshape"
       - "rust"
-    stars_fact: 16
+    stars_fact: 18
     first_seen: null
-    last_push: "2026-09-03"
+    last_push: "2026-09-23"
   - name: "hamster-mcp"
     title: "hamster-mcp"
     description: "Full AI debugging and maintenance access to your Home Assistant via MCP"
@@ -103,27 +114,22 @@ repos:
       - "model-context-protocol"
     stars_fact: 5
     first_seen: null
-    last_push: "2026-09-01"
-  - name: "s_home"
-    title: "s_home"
-    description: "General configuration files"
-    language: "Rust"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-08-21"
-  - name: "opencode-beacon"
-    title: "opencode-beacon"
-    description: "Discover and monitor local OpenCode servers"
+    last_push: "2026-09-23"
+  - name: "mujou"
+    title: "mujou"
+    description: "Convert raster images to vector paths for sand tables, pen plotters, and CNC devices"
     language: "Rust"
     topics:
-      - "developer-tools"
-      - "monitoring"
-      - "opencode"
+      - "cnc"
+      - "image-processing"
+      - "pen-plotter"
       - "rust"
+      - "sand-table"
+      - "vector-graphics"
+      - "wasm"
     stars_fact: 1
     first_seen: null
-    last_push: "2026-08-21"
+    last_push: "2026-09-23"
   - name: "scansor"
     title: "scansor"
     description: "Research toward constrained parametric geometric model fitting with explicit topology and correspondence"
@@ -137,22 +143,22 @@ repos:
       - "python"
     stars_fact: 1
     first_seen: null
-    last_push: "2026-08-10"
-  - name: "onshape-export"
-    title: "onshape-export"
-    description: "Export curated Onshape CAD models"
+    last_push: "2026-09-23"
+  - name: "openapi-mcp"
+    title: "openapi-mcp"
+    description: "Reusable Rust libraries and a standalone MCP server for OpenAPI specifications"
     language: "Rust"
     topics:
-      - "cad"
-      - "onshape"
+      - "mcp"
+      - "openapi"
       - "rust"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-02"
+    last_push: "2026-09-23"
 ---
 
 # altendky
 
-44 pushes across 7 repositories on 21 active days in the last 90 days of public GitHub push activity.
+34 pushes across 9 repositories on 20 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/altendky

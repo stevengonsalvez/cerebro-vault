@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "0388a4f55f4206c8"
   - "0577669e18ed3998"
@@ -26,33 +26,33 @@ provenance:
   - "c6b4a874521ceb02"
   - "cf565721454d59f8"
   - "e26852201e6f38fc"
-pushes_per_week: [0, 15, 61, 0, 16, 0, 0, 1, 0, 0, 0, 0, 0]
+pushes_per_week: [45, 13, 3, 0, 1, 0, 0, 0, 0, 0, 0, 0, 3]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
+    pushes: 3
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
+    pushes: 3
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 93
+    pushes: 65
     distinct_repos: 2
-    active_days: 15
+    active_days: 11
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 6.2000
-  repo_per_active_day: 0.1333
+  push_per_day: 5.9091
+  repo_per_active_day: 0.1818
   not_owned_ratio: 0.5000
   basename_concentration: 0.5000
   shapes: []
@@ -63,38 +63,38 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
+    pushes: 3
+    distinct_repos: 1
+    pushes_per_repo: 3.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
+    pushes: 3
+    distinct_repos: 1
+    pushes_per_repo: 3.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 93
+    pushes: 65
     distinct_repos: 2
-    pushes_per_repo: 46.5000
-    active_days: 15
+    pushes_per_repo: 32.5000
+    active_days: 11
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 15 vault signal(s) — pass"
-  - "activity: 15 active days in 90d — pass"
+  - "activity: 11 active days in 90d — pass"
   - "automation: clear — pass"
 repos: []
 ---
 
 # stevenlee-oai
 
-93 pushes across 2 repositories on 15 active days in the last 90 days of public GitHub push activity.
+65 pushes across 2 repositories on 11 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/stevenlee-oai

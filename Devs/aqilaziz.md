@@ -10,11 +10,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "541318303a272608"
   - "dae9f02535f7c22f"
-pushes_per_week: [26, 6, 19, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [13, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -31,18 +31,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 57
-    distinct_repos: 16
-    active_days: 16
+    pushes: 16
+    distinct_repos: 6
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 3.5625
-  repo_per_active_day: 1.0000
+  push_per_day: 2.2857
+  repo_per_active_day: 0.8571
   not_owned_ratio: 0.0000
-  basename_concentration: 0.0625
+  basename_concentration: 0.1667
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -67,16 +67,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 57
-    distinct_repos: 16
-    pushes_per_repo: 3.5625
-    active_days: 16
+    pushes: 16
+    distinct_repos: 6
+    pushes_per_repo: 2.6667
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 16 active days in 90d — pass"
+  - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "aqilaziz"
@@ -86,7 +86,15 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-02"
+    last_push: "2026-09-22"
+  - name: "qr_generator_itcp1"
+    title: "qr_generator_itcp1"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-14"
   - name: "mardown-ebook"
     title: "mardown-ebook"
     description: null
@@ -119,18 +127,10 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-07-05"
-  - name: "beasiswacoach-ai"
-    title: "beasiswacoach-ai"
-    description: "🎓 AI-powered scholarship coach — helps Indonesian students find and apply for scholarships with personalized guidance"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-06-30"
 ---
 
 # aqilaziz
 
-57 pushes across 16 repositories on 16 active days in the last 90 days of public GitHub push activity.
+16 pushes across 6 repositories on 7 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/aqilaziz

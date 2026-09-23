@@ -9,21 +9,21 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-05T06:07:00.404056+00:00"
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "97c4e9cb8b163ddb"
   - "c7515e0fa4368a55"
   - "d3abe74726b22711"
   - "e7c647c4d0689526"
-pushes_per_week: [7, 6, 2, 8, 0, 0, 0, 2, 0, 0, 2, 0, 0]
+pushes_per_week: [7, 3, 0, 0, 0, 2, 0, 1, 1, 0, 0, 1, 1]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "30d":
     pushes: 2
     distinct_repos: 2
@@ -32,18 +32,18 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 27
-    distinct_repos: 7
-    active_days: 14
-    repos_not_owned: 5
-    not_owned_basenames: 5
+    pushes: 16
+    distinct_repos: 6
+    active_days: 10
+    repos_not_owned: 4
+    not_owned_basenames: 4
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.9286
-  repo_per_active_day: 0.5000
-  not_owned_ratio: 0.7143
-  basename_concentration: 0.1429
+  push_per_day: 1.6000
+  repo_per_active_day: 0.6000
+  not_owned_ratio: 0.6667
+  basename_concentration: 0.1667
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -52,13 +52,13 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    pushes: 1
+    distinct_repos: 1
+    pushes_per_repo: 1.0000
+    active_days: 1
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "30d":
     pushes: 2
     distinct_repos: 2
@@ -68,18 +68,34 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 27
-    distinct_repos: 7
-    pushes_per_repo: 3.8571
-    active_days: 14
-    repos_not_owned: 5
-    not_owned_basenames: 5
+    pushes: 16
+    distinct_repos: 6
+    pushes_per_repo: 2.6667
+    active_days: 10
+    repos_not_owned: 4
+    not_owned_basenames: 4
     not_owned_owners: 1
 reasons:
   - "provenance: 4 vault signal(s) — pass"
-  - "activity: 14 active days in 90d — pass"
+  - "activity: 10 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "threat-modeling-ssg"
+    title: "threat-modeling-ssg"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-09-01"
+  - name: "slides"
+    title: "slides"
+    description: "My slides"
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-03"
   - name: "hops-datasets"
     title: "hops-datasets"
     description: "Some datasets about hop varieties (oils, lineage, age, etc)"
@@ -96,14 +112,6 @@ repos:
     stars_fact: 76
     first_seen: null
     last_push: "2026-08-04"
-  - name: "threat-modeling-ssg"
-    title: "threat-modeling-ssg"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-09-01"
   - name: "gnome-background-generator"
     title: "gnome-background-generator"
     description: "Utilities to manage gnome wallpapers"
@@ -128,18 +136,10 @@ repos:
     stars_fact: 26
     first_seen: null
     last_push: "2023-10-20"
-  - name: "slides"
-    title: "slides"
-    description: "My slides"
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-04-10"
 ---
 
 # almet
 
-27 pushes across 7 repositories on 14 active days in the last 90 days of public GitHub push activity.
+16 pushes across 6 repositories on 10 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/almet

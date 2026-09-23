@@ -8,39 +8,39 @@ provenance_repos:
   - "AstrBotDevs/AstrBot"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+repos_populated: false
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [51, 40, 35, 20, 4, 17, 13, 3, 3, 1, 0, 0, 0]
+pushes_per_week: [28, 10, 9, 17, 9, 0, 3, 1, 0, 0, 0, 1, 5]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    pushes: 6
+    distinct_repos: 3
+    active_days: 6
+    repos_not_owned: 3
+    not_owned_basenames: 3
+    not_owned_owners: 1
   "30d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
-    repos_not_owned: 1
-    not_owned_basenames: 1
+    pushes: 6
+    distinct_repos: 3
+    active_days: 6
+    repos_not_owned: 3
+    not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 187
-    distinct_repos: 17
-    active_days: 45
-    repos_not_owned: 12
-    not_owned_basenames: 11
-    not_owned_owners: 5
+    pushes: 83
+    distinct_repos: 15
+    active_days: 34
+    repos_not_owned: 10
+    not_owned_basenames: 9
+    not_owned_owners: 4
 automation:
   state: "clear"
-  push_per_day: 4.1556
-  repo_per_active_day: 0.3778
-  not_owned_ratio: 0.7059
-  basename_concentration: 0.1176
+  push_per_day: 2.4412
+  repo_per_active_day: 0.4412
+  not_owned_ratio: 0.6667
+  basename_concentration: 0.1333
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,108 +49,38 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    pushes: 6
+    distinct_repos: 3
+    pushes_per_repo: 2.0000
+    active_days: 6
+    repos_not_owned: 3
+    not_owned_basenames: 3
+    not_owned_owners: 1
   "30d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
-    repos_not_owned: 1
-    not_owned_basenames: 1
+    pushes: 6
+    distinct_repos: 3
+    pushes_per_repo: 2.0000
+    active_days: 6
+    repos_not_owned: 3
+    not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 187
-    distinct_repos: 17
-    pushes_per_repo: 11.0000
-    active_days: 45
-    repos_not_owned: 12
-    not_owned_basenames: 11
-    not_owned_owners: 5
+    pushes: 83
+    distinct_repos: 15
+    pushes_per_repo: 5.5333
+    active_days: 34
+    repos_not_owned: 10
+    not_owned_basenames: 9
+    not_owned_owners: 4
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 45 active days in 90d — pass"
+  - "activity: 34 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "free-one-api"
-    title: "free-one-api"
-    description: "LLM 逆向工程接口管理 | 通过标准 OpenAI API 访问 ChatGPT / gpt4free / Bard / Claude / HuggingChat / 通义千问 等 AI 的破解版 || ChatGPT reverse engineering API management | Access all reverse engineered LLM libs by standard OpenAI API format || 免费 ChatGPT Free GPT LLM API | 逆向工程 转 OpenAI API | converts all llm libs to OpenAI API"
-    language: "Python"
-    topics:
-      - "bard"
-      - "chatbot"
-      - "chatgpt"
-      - "claude"
-      - "free"
-      - "free-gpt"
-      - "freechatgpt"
-      - "gpt"
-      - "gpt4free"
-      - "huggingchat"
-      - "one-api"
-      - "openai"
-      - "proxy"
-      - "revchatgpt"
-      - "reverse-engineering"
-      - "tongyiqianwen"
-    stars_fact: 896
-    first_seen: null
-    last_push: "2026-08-31"
-  - name: "revLibs"
-    title: "revLibs"
-    description: "【已弃用】ChatGPT、Claude QQ 机器人，以插件形式为 QChatGPT 项目接入ChatGPT、Claude、Bard、gpt4free等接口的逆向工程库"
-    language: "Python"
-    topics:
-      - "chatgpt"
-      - "claude"
-      - "gpt4free"
-      - "plugin"
-      - "qchatgpt"
-      - "qq"
-    stars_fact: 200
-    first_seen: null
-    last_push: "2024-01-23"
-  - name: "csdcc_wiki"
-    title: "csdcc_wiki"
-    description: "全国大学生计算机系统能力大赛 非官方 Wiki知识库"
-    language: null
-    topics: []
-    stars_fact: 4
-    first_seen: null
-    last_push: "2024-05-21"
-  - name: "RockChinQ"
-    title: "RockChinQ"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 16
-    first_seen: null
-    last_push: "2026-08-10"
-  - name: "harhub"
-    title: "harhub"
-    description: "Your private vault for Agent Harness assets, including Skills, MCPs and rules. 🤩📚 Self-hostable skills hub for everyone: yourself, your team, even your family."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-08-07"
-  - name: "blog"
-    title: "blog"
-    description: "Personal blog powered by Hugo"
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-06"
+repos: []
 ---
 
 # RockChinQ
 
-187 pushes across 17 repositories on 45 active days in the last 90 days of public GitHub push activity.
+83 pushes across 15 repositories on 34 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/RockChinQ

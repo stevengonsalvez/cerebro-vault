@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [2, 6, 4, 0, 9, 4, 1, 1, 0, 4, 0, 0, 0]
+pushes_per_week: [0, 1, 11, 1, 1, 1, 2, 2, 0, 0, 0, 0, 3]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
+    pushes: 3
+    distinct_repos: 1
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 4
-    distinct_repos: 2
-    active_days: 3
+    pushes: 3
+    distinct_repos: 1
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 31
-    distinct_repos: 9
-    active_days: 21
+    pushes: 22
+    distinct_repos: 6
+    active_days: 14
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.4762
+  push_per_day: 1.5714
   repo_per_active_day: 0.4286
   not_owned_ratio: 0.0000
-  basename_concentration: 0.1111
+  basename_concentration: 0.1667
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,42 +49,60 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
+    pushes: 3
+    distinct_repos: 1
+    pushes_per_repo: 3.0000
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 4
-    distinct_repos: 2
-    pushes_per_repo: 2.0000
-    active_days: 3
+    pushes: 3
+    distinct_repos: 1
+    pushes_per_repo: 3.0000
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 31
-    distinct_repos: 9
-    pushes_per_repo: 3.4444
-    active_days: 21
+    pushes: 22
+    distinct_repos: 6
+    pushes_per_repo: 3.6667
+    active_days: 14
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 21 active days in 90d — pass"
+  - "activity: 14 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: ".github"
-    title: ".github"
-    description: null
-    language: "Nushell"
+  - name: "plankevm-flake"
+    title: "plankevm-flake"
+    description: "Flake for plankc, nightly and stable releases."
+    language: "Nix"
     topics: []
-    stars_fact: 1
+    stars_fact: 0
     first_seen: null
-    last_push: "2026-09-03"
+    last_push: "2026-09-23"
+  - name: "agent-box"
+    title: "agent-box"
+    description: "Sandboxed containers for AI coding agents with disposable Git/Jujutsu workspaces"
+    language: "Rust"
+    topics:
+      - "agent-sandbox"
+      - "claude-code"
+      - "codex"
+      - "codex-cli"
+      - "coding-agents"
+      - "docker"
+      - "nix"
+      - "pi-coding-agent"
+      - "podman"
+      - "sandbox"
+    stars_fact: 37
+    first_seen: null
+    last_push: "2026-05-17"
   - name: "CodexBar-flake"
     title: "CodexBar-flake"
     description: "Nix flake packaging the Linux CodexBar CLI, with automated updates from upstream GitHub releases."
@@ -92,7 +110,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-02"
+    last_push: "2026-09-23"
   - name: "0xferrous.github.io"
     title: "0xferrous.github.io"
     description: null
@@ -100,7 +118,15 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-01"
+    last_push: "2026-09-22"
+  - name: ".github"
+    title: ".github"
+    description: null
+    language: "Nushell"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-22"
   - name: "my-nix"
     title: "my-nix"
     description: "My public nix config, with some reusable modules"
@@ -108,36 +134,11 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-01"
-  - name: "ansi.nvim"
-    title: "ansi.nvim"
-    description: "A Neovim plugin that renders ANSI color escape codes as actual colors in buffers using concealer."
-    language: "Lua"
-    topics:
-      - "ansi"
-      - "neovim"
-      - "neovim-plugin"
-    stars_fact: 21
-    first_seen: null
-    last_push: "2026-06-24"
-  - name: "ash"
-    title: "ash"
-    description: "ash is a CLI for spawning, attaching to, suspending, resuming, mounting into, and deleting NixOS agent VMs through virtle."
-    language: "OCaml"
-    topics:
-      - "agent"
-      - "ocaml"
-      - "qemu"
-      - "sandbox"
-      - "vm"
-      - "vmm"
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-08-30"
+    last_push: "2026-09-23"
 ---
 
 # 0xferrous
 
-31 pushes across 9 repositories on 21 active days in the last 90 days of public GitHub push activity.
+22 pushes across 6 repositories on 14 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/0xferrous

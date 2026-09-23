@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-05T06:07:00.404056+00:00"
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [1, 2, 1, 0, 0, 0, 4, 1, 0, 1, 0, 0, 0]
+pushes_per_week: [1, 0, 0, 2, 2, 1, 1, 0, 0, 0, 0, 0, 4]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
+    pushes: 4
+    distinct_repos: 4
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
+    pushes: 4
+    distinct_repos: 4
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 10
-    distinct_repos: 6
+    pushes: 11
+    distinct_repos: 8
     active_days: 9
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.1111
-  repo_per_active_day: 0.6667
+  push_per_day: 1.2222
+  repo_per_active_day: 0.8889
   not_owned_ratio: 0.0000
-  basename_concentration: 0.1667
+  basename_concentration: 0.1250
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
+    pushes: 4
+    distinct_repos: 4
+    pushes_per_repo: 1.0000
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 1
-    distinct_repos: 1
+    pushes: 4
+    distinct_repos: 4
     pushes_per_repo: 1.0000
-    active_days: 1
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 10
-    distinct_repos: 6
-    pushes_per_repo: 1.6667
+    pushes: 11
+    distinct_repos: 8
+    pushes_per_repo: 1.3750
     active_days: 9
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -77,58 +77,58 @@ reasons:
   - "activity: 9 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "Hackintool"
-    title: "Hackintool"
-    description: "The Swiss army knife of vanilla Hackintoshing"
-    language: "Objective-C"
-    topics: []
-    stars_fact: 3482
-    first_seen: null
-    last_push: "2026-03-26"
   - name: "Pigtail"
     title: "Pigtail"
     description: "Anti-stalker and surveillance detection software"
     language: "C++"
     topics: []
-    stars_fact: 53
+    stars_fact: 57
     first_seen: null
     last_push: "2026-05-14"
-  - name: "stspeech"
-    title: "stspeech"
-    description: "C port of the stspeech.exe based on the STSPEECH.TOS speech synthesizer for the Atari ST"
-    language: "Assembly"
+  - name: "Hackintool"
+    title: "Hackintool"
+    description: "The Swiss army knife of vanilla Hackintoshing"
+    language: "Objective-C"
     topics: []
-    stars_fact: 5
+    stars_fact: 3491
     first_seen: null
-    last_push: "2026-08-25"
-  - name: "jagfx"
-    title: "jagfx"
-    description: "Atari Jaguar graphics extractor and ROM searcher"
-    language: "Python"
+    last_push: "2026-03-26"
+  - name: "EFI-Agent"
+    title: "EFI-Agent"
+    description: "Simple, low resource, efficient and no frills tool to mount EFI partitions."
+    language: "Objective-C"
     topics: []
-    stars_fact: 2
+    stars_fact: 129
     first_seen: null
-    last_push: "2026-08-02"
-  - name: "femto8"
-    title: "femto8"
-    description: "femto8 is an open-source reimplementation of the PICO-8 fantasy console, designed specifically for embedded systems."
-    language: "C"
-    topics: []
-    stars_fact: 47
-    first_seen: null
-    last_push: "2026-08-02"
-  - name: "CPWizard"
-    title: "CPWizard"
-    description: "CPWizard is a control panel editor and viewer for arcade machines."
+    last_push: "2023-06-06"
+  - name: "CoinDrop"
+    title: "CoinDrop"
+    description: "This program will allow you to send coin drops to MAME from within your front-end."
     language: "C#"
     topics: []
-    stars_fact: 10
+    stars_fact: 3
     first_seen: null
-    last_push: "2025-10-18"
+    last_push: "2025-06-28"
+  - name: "Tiled2Bin"
+    title: "Tiled2Bin"
+    description: "Tiled2Bin is a command-line utility designed to convert Tiled .tmx files into binary files representing tile data."
+    language: "Assembly"
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2025-07-27"
+  - name: "VortexTracker"
+    title: "VortexTracker"
+    description: "Music tracker for AY/YM chips"
+    language: "C#"
+    topics: []
+    stars_fact: 46
+    first_seen: null
+    last_push: "2026-07-06"
 ---
 
 # benbaker76
 
-10 pushes across 6 repositories on 9 active days in the last 90 days of public GitHub push activity.
+11 pushes across 8 repositories on 9 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/benbaker76

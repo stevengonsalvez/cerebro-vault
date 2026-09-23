@@ -11,40 +11,40 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "16389f32495280ea"
   - "73468cde177ddae6"
   - "dae9f02535f7c22f"
-pushes_per_week: [0, 5, 0, 3, 5, 4, 0, 0, 3, 0, 0, 0, 0]
+pushes_per_week: [1, 2, 8, 1, 0, 0, 3, 0, 0, 0, 2, 1, 1]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
-  "30d":
-    pushes: 2
-    distinct_repos: 2
+    pushes: 1
+    distinct_repos: 1
     active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
+  "30d":
+    pushes: 4
+    distinct_repos: 3
+    active_days: 3
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
-    pushes: 20
-    distinct_repos: 16
+    pushes: 19
+    distinct_repos: 15
     active_days: 11
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.8182
-  repo_per_active_day: 1.4545
+  push_per_day: 1.7273
+  repo_per_active_day: 1.3636
   not_owned_ratio: 0.0000
-  basename_concentration: 0.0625
+  basename_concentration: 0.0667
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -53,25 +53,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
-  "30d":
-    pushes: 2
-    distinct_repos: 2
+    pushes: 1
+    distinct_repos: 1
     pushes_per_repo: 1.0000
     active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
+  "30d":
+    pushes: 4
+    distinct_repos: 3
+    pushes_per_repo: 1.3333
+    active_days: 3
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
-    pushes: 20
-    distinct_repos: 16
-    pushes_per_repo: 1.2500
+    pushes: 19
+    distinct_repos: 15
+    pushes_per_repo: 1.2667
     active_days: 11
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -91,10 +91,95 @@ repos:
       - "profile-readme"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-02"
+    last_push: "2026-09-23"
+  - name: "x402-seller-testkit"
+    title: "x402-seller-testkit"
+    description: "Seller-side x402 conformance and regression harness."
+    language: "TypeScript"
+    topics:
+      - "cli"
+      - "conformance"
+      - "harness"
+      - "payments"
+      - "seller"
+      - "testing"
+      - "typescript"
+      - "x402"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-22"
+  - name: "claude-usage-monitor"
+    title: "claude-usage-monitor"
+    description: "System tray app showing real-time Claude Code usage — rate limits, reset timers, token stats. pip install claude-usage-tray"
+    language: "Python"
+    topics:
+      - "anthropic"
+      - "claude"
+      - "claude-ai"
+      - "claude-code"
+      - "cli"
+      - "developer-tools"
+      - "linux"
+      - "macos"
+      - "monitoring"
+      - "python"
+      - "rate-limit"
+      - "system-tray"
+      - "usage"
+      - "usage-monitor"
+      - "windows"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-21"
+  - name: "x402-insights"
+    title: "x402-insights"
+    description: "AgentOps Ledger: flight recorder for enterprise agents, x402 payments, approvals, audit exports, and Splunk-ready telemetry."
+    language: "JavaScript"
+    topics:
+      - "agent-observability"
+      - "agentops"
+      - "audit-log"
+      - "enterprise-agents"
+      - "hackathon"
+      - "payments"
+      - "splunk"
+      - "sqlite"
+      - "typescript"
+      - "x402"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-05-21"
+  - name: "bitcoin-mcp"
+    title: "bitcoin-mcp"
+    description: "50 standard Bitcoin tools for MCP agents, with 6 prompts and 8 resources. Uses a local node or explicitly configured compatible API."
+    language: "Python"
+    topics:
+      - "ai-agents"
+      - "anthropic"
+      - "bitcoin"
+      - "bitcoin-api"
+      - "bitcoin-core"
+      - "bitcoin-mcp"
+      - "bitcoin-node"
+      - "blockchain"
+      - "claude"
+      - "claude-desktop"
+      - "cryptocurrency"
+      - "cursor"
+      - "fee-estimation"
+      - "llm"
+      - "mcp"
+      - "mcp-server"
+      - "mempool"
+      - "model-context-protocol"
+      - "python"
+      - "self-hosted"
+    stars_fact: 5
+    first_seen: null
+    last_push: "2026-09-10"
   - name: "bitcoin-api"
     title: "bitcoin-api"
-    description: "Bitcoin fee intelligence API — 108 endpoints, 751 non-e2e tests, self-hostable, Apache 2.0. Hosted demo paused for infrastructure review."
+    description: "Self-hostable Bitcoin fee intelligence API with optional MCP and x402 integrations. Former public hosting is paused."
     language: "Python"
     topics:
       - "ai"
@@ -118,96 +203,11 @@ repos:
       - "self-hosted"
     stars_fact: 5
     first_seen: null
-    last_push: "2026-08-08"
-  - name: "chainpulse"
-    title: "chainpulse"
-    description: "AI-powered Bitcoin network intelligence in your terminal. Ask questions, get structured analysis."
-    language: "Python"
-    topics:
-      - "ai"
-      - "bitcoin"
-      - "blockchain"
-      - "cli"
-      - "cryptocurrency"
-      - "intelligence"
-      - "mempool"
-      - "network-analysis"
-      - "python"
-      - "terminal"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-03-21"
-  - name: "comfyui-bridge"
-    title: "comfyui-bridge"
-    description: "ComfyUI bridge server + OpenClaw skill. Local image gen, faceswap, LivePortrait, style transfer via chat."
-    language: "Python"
-    topics:
-      - "ai"
-      - "comfyui"
-      - "faceswap"
-      - "generative-ai"
-      - "image-generation"
-      - "mcp"
-      - "openclaw"
-      - "python"
-      - "stable-diffusion"
-      - "style-transfer"
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-03-21"
-  - name: "bitcoin-mcp"
-    title: "bitcoin-mcp"
-    description: "Bitcoin MCP server with 50 standard tools for fees, mempool, blocks, transactions, mining, price, and supply. Supports Bitcoin Core and compatible API backends."
-    language: "Python"
-    topics:
-      - "ai-agents"
-      - "anthropic"
-      - "bitcoin"
-      - "bitcoin-api"
-      - "bitcoin-core"
-      - "bitcoin-mcp"
-      - "bitcoin-node"
-      - "blockchain"
-      - "claude"
-      - "claude-desktop"
-      - "cryptocurrency"
-      - "cursor"
-      - "fee-estimation"
-      - "llm"
-      - "mcp"
-      - "mcp-server"
-      - "mempool"
-      - "model-context-protocol"
-      - "python"
-      - "self-hosted"
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-08-07"
-  - name: "ibit-btc-ratio-calculator"
-    title: "ibit-btc-ratio-calculator"
-    description: "Open-source IBIT to BTC ratio calculator and weekend price estimator for BlackRock Bitcoin ETF traders"
-    language: "TypeScript"
-    topics:
-      - "api"
-      - "bitcoin"
-      - "bitcoin-etf"
-      - "blackrock"
-      - "btc"
-      - "calculator"
-      - "etf"
-      - "finance"
-      - "ibit"
-      - "open-source"
-      - "spot-bitcoin-etf"
-      - "trading-tools"
-      - "widget"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-06"
+    last_push: "2026-09-21"
 ---
 
 # Bortlesboat
 
-20 pushes across 16 repositories on 11 active days in the last 90 days of public GitHub push activity.
+19 pushes across 15 repositories on 11 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Bortlesboat

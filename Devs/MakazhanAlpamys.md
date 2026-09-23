@@ -8,39 +8,39 @@ provenance_repos:
   - "MakazhanAlpamys/Soup"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+repos_populated: false
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "82f6447f851685ec"
-pushes_per_week: [3, 1, 3, 11, 2, 3, 0, 2, 3, 7, 7, 1, 3]
+pushes_per_week: [3, 11, 2, 1, 0, 2, 6, 8, 4, 2, 5, 13, 13]
 windows:
   "7d":
-    pushes: 3
+    pushes: 13
     distinct_repos: 1
-    active_days: 2
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 21
+    pushes: 34
     distinct_repos: 3
-    active_days: 14
-    repos_not_owned: 2
-    not_owned_basenames: 1
-    not_owned_owners: 2
+    active_days: 15
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
-    pushes: 46
-    distinct_repos: 5
-    active_days: 30
+    pushes: 70
+    distinct_repos: 6
+    active_days: 38
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 1.5333
-  repo_per_active_day: 0.1667
-  not_owned_ratio: 0.4000
-  basename_concentration: 0.6000
+  push_per_day: 1.8421
+  repo_per_active_day: 0.1579
+  not_owned_ratio: 0.3333
+  basename_concentration: 0.5000
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,128 +49,38 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 3
+    pushes: 13
     distinct_repos: 1
-    pushes_per_repo: 3.0000
-    active_days: 2
+    pushes_per_repo: 13.0000
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 21
+    pushes: 34
     distinct_repos: 3
-    pushes_per_repo: 7.0000
-    active_days: 14
-    repos_not_owned: 2
-    not_owned_basenames: 1
-    not_owned_owners: 2
+    pushes_per_repo: 11.3333
+    active_days: 15
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
-    pushes: 46
-    distinct_repos: 5
-    pushes_per_repo: 9.2000
-    active_days: 30
+    pushes: 70
+    distinct_repos: 6
+    pushes_per_repo: 11.6667
+    active_days: 38
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 30 active days in 90d — pass"
+  - "activity: 38 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "Soup"
-    title: "Soup"
-    description: "Fine-tune LLMs from one YAML. Layer streaming trains an 8B model on a 4 GB laptop GPU."
-    language: "Python"
-    topics:
-      - "cli"
-      - "consumer-gpu"
-      - "dpo"
-      - "fine-tuning"
-      - "gguf"
-      - "huggingface"
-      - "llm"
-      - "llmops"
-      - "local-ai"
-      - "local-llm"
-      - "lora"
-      - "low-vram"
-      - "machine-learning"
-      - "ollama"
-      - "peft"
-      - "python"
-      - "pytorch"
-      - "qlora"
-      - "sft"
-      - "transformers"
-    stars_fact: 5051
-    first_seen: "2026-08-16T06:00:08.851157+00:00"
-    last_push: "2026-09-03"
-  - name: "MakazhanAlpamys"
-    title: "MakazhanAlpamys"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 4
-    first_seen: null
-    last_push: "2026-09-03"
-  - name: "AutoContent"
-    title: "AutoContent"
-    description: "Turns long videos into short social clips automatically — detects highlight moments and renders platform-ready cuts. Built for the SkillSet AI Hackathon."
-    language: "JavaScript"
-    topics:
-      - "ai"
-      - "automation"
-      - "hackathon"
-      - "javascript"
-      - "video-processing"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2025-06-24"
-  - name: "whatsapp-bot"
-    title: "whatsapp-bot"
-    description: "WhatsApp group analytics bot — real-time message capture into PostgreSQL with AI-generated daily summaries. Node.js + Gemini."
-    language: "JavaScript"
-    topics:
-      - "analytics"
-      - "gemini"
-      - "nodejs"
-      - "postgresql"
-      - "whatsapp-bot"
-    stars_fact: 2
-    first_seen: null
-    last_push: "2025-10-24"
-  - name: "Telegram-Chat-Scraper"
-    title: "Telegram-Chat-Scraper"
-    description: "A three-stage Python pipeline for **audience research** on public"
-    language: "Python"
-    topics:
-      - "audience-research"
-      - "mtproto"
-      - "python"
-      - "telegram"
-      - "telethon"
-      - "web-scraping"
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-06-03"
-  - name: "Permit-Forge"
-    title: "Permit-Forge"
-    description: "AI assistant for Dubai building-code compliance — hybrid RAG over 5 Dubai Municipality regulations. Next.js 15, Gemini 2.5 Flash, Supabase pgvector, 1202 passing tests."
-    language: "TypeScript"
-    topics:
-      - "compliance"
-      - "gemini"
-      - "nextjs"
-      - "pgvector"
-      - "rag"
-      - "supabase"
-    stars_fact: 6
-    first_seen: null
-    last_push: "2026-06-24"
+repos: []
 ---
 
 # MakazhanAlpamys
 
-46 pushes across 5 repositories on 30 active days in the last 90 days of public GitHub push activity.
+70 pushes across 6 repositories on 38 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/MakazhanAlpamys

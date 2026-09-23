@@ -8,11 +8,11 @@ provenance_repos:
   - "BuilderIO/agent-native"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+repos_populated: false
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "745308b2b7085095"
-pushes_per_week: [2, 0, 2, 19, 4, 0, 2, 4, 1, 1, 0, 1, 0]
+pushes_per_week: [1, 23, 0, 0, 2, 5, 1, 0, 0, 1, 0, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 36
+    pushes: 34
     distinct_repos: 10
-    active_days: 15
+    active_days: 14
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.4000
-  repo_per_active_day: 0.6667
+  push_per_day: 2.4286
+  repo_per_active_day: 0.7143
   not_owned_ratio: 0.1000
   basename_concentration: 0.2000
   shapes: []
@@ -65,72 +65,22 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 36
+    pushes: 34
     distinct_repos: 10
-    pushes_per_repo: 3.6000
-    active_days: 15
+    pushes_per_repo: 3.4000
+    active_days: 14
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 15 active days in 90d — pass"
+  - "activity: 14 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "kapunahelewong.github.io"
-    title: "kapunahelewong.github.io"
-    description: "My site that showcases some of my favorite work and projects."
-    language: "CSS"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-07-07"
-  - name: "ci-cd-demo"
-    title: "ci-cd-demo"
-    description: "Companion repo for a GitHub Actions CI/CD series, covering matrices, artifacts, and a docs generation pipeline"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-07-07"
-  - name: "explore-openapi"
-    title: "explore-openapi"
-    description: "Explore and learn OpenAPI"
-    language: "Python"
-    topics:
-      - "openapi-specification"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-07-05"
-  - name: "stripe-openapi-demo"
-    title: "stripe-openapi-demo"
-    description: "Static Stripe API reference site, built by parsing Stripe's OpenAPI spec from scratch and deploying to GitHub Pages."
-    language: "TypeScript"
-    topics:
-      - "openapi-specification"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-07-03"
-  - name: "pepa"
-    title: "pepa"
-    description: "Full-featured docs platform. API docs ready for OpenAPI, Reference docs, Diátaxis-friendly"
-    language: "CSS"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-07-04"
-  - name: "custom-actions"
-    title: "custom-actions"
-    description: null
-    language: "Dockerfile"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-07-02"
+repos: []
 ---
 
 # kapunahelewong
 
-36 pushes across 10 repositories on 15 active days in the last 90 days of public GitHub push activity.
+34 pushes across 10 repositories on 14 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/kapunahelewong

@@ -8,37 +8,37 @@ provenance_repos:
   - "antirez/ds4"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+repos_populated: false
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "3eacb4655aba2497"
-pushes_per_week: [108, 124, 6, 62, 36, 5, 23, 37, 22, 34, 7, 10, 3]
+pushes_per_week: [5, 84, 13, 5, 32, 33, 35, 18, 10, 7, 16, 15, 60]
 windows:
   "7d":
-    pushes: 3
-    distinct_repos: 1
-    active_days: 3
-    repos_not_owned: 1
-    not_owned_basenames: 1
+    pushes: 62
+    distinct_repos: 2
+    active_days: 7
+    repos_not_owned: 2
+    not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 68
+    pushes: 100
     distinct_repos: 2
-    active_days: 20
+    active_days: 21
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 477
+    pushes: 333
     distinct_repos: 4
-    active_days: 63
+    active_days: 62
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 7.5714
-  repo_per_active_day: 0.0635
+  push_per_day: 5.3710
+  repo_per_active_day: 0.0645
   not_owned_ratio: 1.0000
   basename_concentration: 0.2500
   shapes: []
@@ -49,78 +49,38 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 3
-    distinct_repos: 1
-    pushes_per_repo: 3.0000
-    active_days: 3
-    repos_not_owned: 1
-    not_owned_basenames: 1
+    pushes: 62
+    distinct_repos: 2
+    pushes_per_repo: 31.0000
+    active_days: 7
+    repos_not_owned: 2
+    not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 68
+    pushes: 100
     distinct_repos: 2
-    pushes_per_repo: 34.0000
-    active_days: 20
+    pushes_per_repo: 50.0000
+    active_days: 21
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 477
+    pushes: 333
     distinct_repos: 4
-    pushes_per_repo: 119.2500
-    active_days: 63
+    pushes_per_repo: 83.2500
+    active_days: 62
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 63 active days in 90d — pass"
+  - "activity: 62 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "llm-interrogation"
-    title: "llm-interrogation"
-    description: "Mossad, CIA and FBI interrogation techniques to extract non-public LLM training data from any model"
-    language: "Python"
-    topics:
-      - "cia"
-      - "fbi"
-      - "interrogator"
-      - "jailbreaking"
-      - "kubark"
-      - "mossad"
-      - "peace"
-      - "reid-techniques"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-01-19"
-  - name: "lowratingsacademyawards.com"
-    title: "lowratingsacademyawards.com"
-    description: "The 1st Annual Low Ratings Academy Awards. \"Virtually Unwatchable.\" Hosted by \"Horrible\" Jimmy Kimmel."
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-02-03"
-  - name: "scanner-app"
-    title: "scanner-app"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2021-07-15"
-  - name: "google-glog"
-    title: "google-glog"
-    description: "Automatically exported from code.google.com/p/google-glog"
-    language: "C++"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2016-01-18"
+repos: []
 ---
 
 # joelteply
 
-477 pushes across 4 repositories on 63 active days in the last 90 days of public GitHub push activity.
+333 pushes across 4 repositories on 62 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/joelteply

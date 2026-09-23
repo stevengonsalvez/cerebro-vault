@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "3eacb4655aba2497"
-pushes_per_week: [0, 13, 9, 3, 3, 9, 1, 1, 2, 5, 1, 1, 2]
+pushes_per_week: [6, 0, 9, 4, 0, 1, 6, 2, 1, 0, 2, 0, 2]
 windows:
   "7d":
     pushes: 2
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 11
+    pushes: 5
     distinct_repos: 2
-    active_days: 8
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 50
+    pushes: 33
     distinct_repos: 5
-    active_days: 24
+    active_days: 19
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.0833
-  repo_per_active_day: 0.2083
+  push_per_day: 1.7368
+  repo_per_active_day: 0.2632
   not_owned_ratio: 0.0000
   basename_concentration: 0.2000
   shapes: []
@@ -57,29 +57,45 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 11
+    pushes: 5
     distinct_repos: 2
-    pushes_per_repo: 5.5000
-    active_days: 8
+    pushes_per_repo: 2.5000
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 50
+    pushes: 33
     distinct_repos: 5
-    pushes_per_repo: 10.0000
-    active_days: 24
+    pushes_per_repo: 6.6000
+    active_days: 19
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 24 active days in 90d — pass"
+  - "activity: 19 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "biometric-template-leakage"
+    title: "biometric-template-leakage"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-09-20"
+  - name: "phpcsfixer-parallel-worker-poc"
+    title: "phpcsfixer-parallel-worker-poc"
+    description: "Repro for PHP-CS-Fixer#9854: a parallel worker killed by a non-exception fatal silently drops its file chunk while the run still exits 0"
+    language: "Shell"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-20"
   - name: "argo"
     title: "argo"
-    description: "👁️ LLM-native static vulnerability detection. An LLM reads your source like a human auditor, point it at any local folder or repo and get a reviewable vuln report. Auto-enriched prompts, adversarial validation, opt-in fix-verify. Runs on Claude Code / Codex / local OSS. Bug-bounty triage is one mode. Detection-only, read-only."
+    description: "LLM-native static vulnerability detection: point it at a repo and get a reviewable vuln report, the way a human auditor would."
     language: "Python"
     topics:
       - "agentic-ai"
@@ -102,9 +118,17 @@ repos:
       - "security-tools"
       - "static-analysis"
       - "vulnerability-detection"
-    stars_fact: 56
+    stars_fact: 59
     first_seen: null
-    last_push: "2026-09-02"
+    last_push: "2026-09-23"
+  - name: "gigioneggiando"
+    title: "gigioneggiando"
+    description: "Luigi Colluto — SWE student @ SDU · LLM-native security tooling & full-stack. 2 CVEs, LiveKit Security Hall of Fame."
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-18"
   - name: "os-distr-sys-labs"
     title: "os-distr-sys-labs"
     description: "Operating Systems & Distributed Systems course lab packages (E01-E11)"
@@ -112,15 +136,7 @@ repos:
     topics: []
     stars_fact: 3
     first_seen: null
-    last_push: "2026-08-30"
-  - name: "biometric-template-leakage"
-    title: "biometric-template-leakage"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-08-26"
+    last_push: "2026-09-12"
   - name: "ager-web"
     title: "ager-web"
     description: "Next.js (App Router) frontend for Ager, featuring auth (httpOnly refresh token cookies), i18n (it/en), and core views for feed, articles, search, lists, and profile."
@@ -129,26 +145,10 @@ repos:
     stars_fact: 1
     first_seen: null
     last_push: "2026-07-10"
-  - name: "ager-app"
-    title: "ager-app"
-    description: "AGER — link-first Italian civic news aggregator (web + mobile frontend)"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-07-13"
-  - name: "linkDB"
-    title: "linkDB"
-    description: "Private link sharing app - FastAPI + React + MySQL"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-04-15"
 ---
 
 # gigioneggiando
 
-50 pushes across 5 repositories on 24 active days in the last 90 days of public GitHub push activity.
+33 pushes across 5 repositories on 19 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/gigioneggiando

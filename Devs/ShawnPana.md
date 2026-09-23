@@ -10,39 +10,39 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "c1af6b58492f9bf4"
   - "ddd7486148a91958"
-pushes_per_week: [6, 14, 1, 4, 0, 0, 1, 0, 1, 4, 4, 0, 0]
+pushes_per_week: [3, 2, 0, 0, 1, 0, 5, 2, 2, 0, 0, 1, 1]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 9
-    distinct_repos: 3
-    active_days: 5
+    pushes: 2
+    distinct_repos: 2
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 35
-    distinct_repos: 13
-    active_days: 18
-    repos_not_owned: 7
-    not_owned_basenames: 7
+    pushes: 17
+    distinct_repos: 7
+    active_days: 13
+    repos_not_owned: 2
+    not_owned_basenames: 2
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.9444
-  repo_per_active_day: 0.7222
-  not_owned_ratio: 0.5385
-  basename_concentration: 0.1538
+  push_per_day: 1.3077
+  repo_per_active_day: 0.5385
+  not_owned_ratio: 0.2857
+  basename_concentration: 0.2857
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -51,34 +51,42 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
+    pushes: 1
+    distinct_repos: 1
+    pushes_per_repo: 1.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 9
-    distinct_repos: 3
-    pushes_per_repo: 3.0000
-    active_days: 5
+    pushes: 2
+    distinct_repos: 2
+    pushes_per_repo: 1.0000
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 35
-    distinct_repos: 13
-    pushes_per_repo: 2.6923
-    active_days: 18
-    repos_not_owned: 7
-    not_owned_basenames: 7
+    pushes: 17
+    distinct_repos: 7
+    pushes_per_repo: 2.4286
+    active_days: 13
+    repos_not_owned: 2
+    not_owned_basenames: 2
     not_owned_owners: 1
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 18 active days in 90d — pass"
+  - "activity: 13 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "screenstudio-cli"
+    title: "screenstudio-cli"
+    description: "an agent-ready CLI tool to automate Screen Studio"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 19
+    first_seen: null
+    last_push: "2026-04-12"
   - name: "phone-harness"
     title: "phone-harness"
     description: "let your agent control your phone"
@@ -88,58 +96,45 @@ repos:
       - "ai"
       - "automation"
       - "developer-tools"
-    stars_fact: 2273
+    stars_fact: 2986
     first_seen: null
-    last_push: "2026-09-02"
+    last_push: "2026-09-22"
   - name: "smux"
     title: "smux"
     description: "tmux config with built-in terminal automation and agent-to-agent communication."
     language: "Shell"
     topics: []
-    stars_fact: 1527
+    stars_fact: 1530
     first_seen: null
     last_push: "2026-08-26"
-  - name: "aurl"
-    title: "aurl"
-    description: "A command line tool for turning any API into a CLI command, supporting OpenAPI 3.0, OpenAPI 3.1, Swagger 2.0, and GraphQL. aurl auto-detects authentication, validates requests against the spec, and generates documentation from introspection."
-    language: "Go"
+  - name: "personal-portfolio"
+    title: "personal-portfolio"
+    description: "A personal portfolio using Three.js"
+    language: "JavaScript"
     topics: []
-    stars_fact: 167
+    stars_fact: 1
     first_seen: null
-    last_push: "2026-03-21"
-  - name: "screenstudio-cli"
-    title: "screenstudio-cli"
-    description: "an agent-ready CLI tool to automate Screen Studio"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 16
-    first_seen: null
-    last_push: "2026-04-12"
-  - name: "shanframe"
-    title: "shanframe"
-    description: "Your machines, from anywhere — for you and your agents. The shanframe agent + CLI."
-    language: "Go"
-    topics:
-      - "ai-agents"
-      - "cli"
-      - "remote-access"
-      - "terminal"
-      - "webrtc"
-    stars_fact: 14
-    first_seen: null
-    last_push: "2026-08-22"
-  - name: "phonebench"
-    title: "phonebench"
-    description: null
+    last_push: "2026-09-23"
+  - name: "open-dd-cli"
+    title: "open-dd-cli"
+    description: "open source DoorDash CLI"
     language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-07-17"
+  - name: "studio-use"
+    title: "studio-use"
+    description: "Let your agent record and edit video with you. Screen recording with event streams, a real timeline, and an attributed, undoable op surface any agent can drive."
+    language: "TypeScript"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-08-22"
+    last_push: "2026-09-18"
 ---
 
 # ShawnPana
 
-35 pushes across 13 repositories on 18 active days in the last 90 days of public GitHub push activity.
+17 pushes across 7 repositories on 13 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ShawnPana

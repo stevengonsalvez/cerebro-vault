@@ -8,11 +8,11 @@ provenance_repos:
   - "alibaba/open-code-review"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+repos_populated: false
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "c489e6fb5febf2ab"
-pushes_per_week: [28, 0, 0, 2, 1, 9, 2, 3, 1, 0, 2, 1, 0]
+pushes_per_week: [2, 0, 6, 5, 2, 3, 0, 0, 2, 1, 0, 3, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,25 +22,25 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 3
-    distinct_repos: 2
-    active_days: 2
+    pushes: 4
+    distinct_repos: 4
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 49
-    distinct_repos: 16
+    pushes: 24
+    distinct_repos: 18
     active_days: 17
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.8824
-  repo_per_active_day: 0.9412
+  push_per_day: 1.4118
+  repo_per_active_day: 1.0588
   not_owned_ratio: 0.0000
-  basename_concentration: 0.0625
+  basename_concentration: 0.0556
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -57,17 +57,17 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 3
-    distinct_repos: 2
-    pushes_per_repo: 1.5000
-    active_days: 2
+    pushes: 4
+    distinct_repos: 4
+    pushes_per_repo: 1.0000
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 49
-    distinct_repos: 16
-    pushes_per_repo: 3.0625
+    pushes: 24
+    distinct_repos: 18
+    pushes_per_repo: 1.3333
     active_days: 17
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -76,19 +76,11 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 17 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "TheraSync"
-    title: "TheraSync"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-02"
+repos: []
 ---
 
 # pollychen-lab
 
-49 pushes across 16 repositories on 17 active days in the last 90 days of public GitHub push activity.
+24 pushes across 18 repositories on 17 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/pollychen-lab

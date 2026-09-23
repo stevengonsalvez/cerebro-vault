@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [0, 3, 8, 20, 10, 1, 0, 3, 1, 1, 1, 5, 1]
+pushes_per_week: [3, 27, 3, 1, 1, 2, 1, 1, 5, 1, 2, 0, 3]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
+    pushes: 3
+    distinct_repos: 2
+    active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 9
+    pushes: 10
     distinct_repos: 4
     active_days: 7
-    repos_not_owned: 3
-    not_owned_basenames: 3
-    not_owned_owners: 3
+    repos_not_owned: 2
+    not_owned_basenames: 2
+    not_owned_owners: 1
   "90d":
-    pushes: 54
-    distinct_repos: 9
-    active_days: 23
-    repos_not_owned: 3
-    not_owned_basenames: 3
+    pushes: 50
+    distinct_repos: 11
+    active_days: 21
+    repos_not_owned: 4
+    not_owned_basenames: 4
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 2.3478
-  repo_per_active_day: 0.3913
-  not_owned_ratio: 0.3333
-  basename_concentration: 0.2222
+  push_per_day: 2.3810
+  repo_per_active_day: 0.5238
+  not_owned_ratio: 0.3636
+  basename_concentration: 0.1818
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,99 +49,96 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes: 3
+    distinct_repos: 2
+    pushes_per_repo: 1.5000
+    active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 9
+    pushes: 10
     distinct_repos: 4
-    pushes_per_repo: 2.2500
+    pushes_per_repo: 2.5000
     active_days: 7
-    repos_not_owned: 3
-    not_owned_basenames: 3
-    not_owned_owners: 3
+    repos_not_owned: 2
+    not_owned_basenames: 2
+    not_owned_owners: 1
   "90d":
-    pushes: 54
-    distinct_repos: 9
-    pushes_per_repo: 6.0000
-    active_days: 23
-    repos_not_owned: 3
-    not_owned_basenames: 3
+    pushes: 50
+    distinct_repos: 11
+    pushes_per_repo: 4.5455
+    active_days: 21
+    repos_not_owned: 4
+    not_owned_basenames: 4
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 23 active days in 90d — pass"
+  - "activity: 21 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "openstatus-railway"
-    title: "openstatus-railway"
-    description: "Deploy OpenStatus (status pages + uptime monitoring) on Railway with one click, fully self-contained"
-    language: "Shell"
-    topics: []
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-09-02"
-  - name: "opencode-cursor"
-    title: "opencode-cursor"
-    description: "Use your cursor subscription in opencode"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 274
-    first_seen: null
-    last_push: "2026-08-21"
   - name: "blocks"
     title: "blocks"
     description: "An open-source library of UI blocks. Built with React, Tailwind and shadcn/ui"
     language: "TypeScript"
     topics: []
-    stars_fact: 1733
+    stars_fact: 1832
     first_seen: null
-    last_push: "2026-07-10"
-  - name: "minimal-youtube"
-    title: "minimal-youtube"
-    description: "Minimal YouTube is an extension that replaces the YouTube UI with a minimal design containing no recommendations, shorts, or distractions."
-    language: "JavaScript"
-    topics:
-      - "brave"
-      - "browser"
-      - "browser-extension"
-      - "chrome"
-      - "chrome-extension"
-      - "firefox"
-      - "firefox-extension"
-    stars_fact: 301
-    first_seen: null
-    last_push: "2024-06-23"
-  - name: "pi-omp-tools"
-    title: "pi-omp-tools"
-    description: "oh-my-pi-inspired file & search tools (read, write, hashline edit, search, find, ast_grep, ast_edit) as separate pi / prime-agent extension packages"
+    last_push: "2026-09-17"
+  - name: "opencode-cursor"
+    title: "opencode-cursor"
+    description: "Use your cursor subscription in opencode"
     language: "TypeScript"
-    topics:
-      - "coding-agent"
-      - "oh-my-pi"
-      - "pi"
-      - "pi-extension"
-      - "pi-package"
-      - "prime-agent"
-    stars_fact: 3
+    topics: []
+    stars_fact: 279
     first_seen: null
-    last_push: "2026-08-28"
-  - name: "worktrees"
-    title: "worktrees"
+    last_push: "2026-08-21"
+  - name: "weekday"
+    title: "weekday"
+    description: "open source google calendar"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 189
+    first_seen: null
+    last_push: "2026-09-01"
+  - name: "shadcn-playground"
+    title: "shadcn-playground"
     description: null
     language: "TypeScript"
     topics: []
-    stars_fact: 18
+    stars_fact: 55
     first_seen: null
-    last_push: "2025-10-24"
+    last_push: "2026-07-10"
+  - name: "minimal.so"
+    title: "minimal.so"
+    description: "simple bookmarking for everyone"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 166
+    first_seen: null
+    last_push: "2026-06-12"
+  - name: "mac-download-manager"
+    title: "mac-download-manager"
+    description: "Open source download manager for Mac"
+    language: "Swift"
+    topics:
+      - "download-manager"
+      - "download-manager-tools"
+      - "downloader"
+      - "free-download-manager"
+      - "mac-download-manager"
+      - "macos"
+      - "manager"
+      - "moltix"
+      - "swift"
+      - "swiftui"
+    stars_fact: 89
+    first_seen: null
+    last_push: "2026-03-24"
 ---
 
 # ephraimduncan
 
-54 pushes across 9 repositories on 23 active days in the last 90 days of public GitHub push activity.
+50 pushes across 11 repositories on 21 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ephraimduncan

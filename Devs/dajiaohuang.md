@@ -5,44 +5,50 @@ discovered_via: "fanout"
 discovered_via_all:
   - "fanout"
 provenance_repos:
+  - "addyosmani/agent-skills"
   - "affaan-m/ECC"
-  - "CopilotKit/OpenBot"
+  - "akitaonrails/ai-memory"
+  - "AlexsJones/llmfit"
+  - "ChromeDevTools/chrome-devtools-mcp"
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
-  - "229b322ed982d40b"
+  - "234088bc43763aa2"
+  - "379642deb53f3714"
+  - "4138778ebbc75ba6"
+  - "dae9f02535f7c22f"
   - "edb3a626875732de"
-pushes_per_week: [13, 69, 24, 14, 32, 19, 83, 42, 7, 22, 3, 7, 1]
+pushes_per_week: [21, 29, 24, 15, 95, 16, 20, 9, 2, 7, 11, 15, 18]
 windows:
   "7d":
-    pushes: 3
-    distinct_repos: 3
-    active_days: 2
+    pushes: 18
+    distinct_repos: 10
+    active_days: 5
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 39
-    distinct_repos: 24
-    active_days: 13
-    repos_not_owned: 15
-    not_owned_basenames: 15
+    pushes: 51
+    distinct_repos: 25
+    active_days: 18
+    repos_not_owned: 5
+    not_owned_basenames: 5
     not_owned_owners: 1
   "90d":
-    pushes: 336
-    distinct_repos: 47
-    active_days: 52
+    pushes: 282
+    distinct_repos: 49
+    active_days: 53
     repos_not_owned: 17
     not_owned_basenames: 16
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 6.4615
-  repo_per_active_day: 0.9038
-  not_owned_ratio: 0.3617
-  basename_concentration: 0.0426
+  push_per_day: 5.3208
+  repo_per_active_day: 0.9245
+  not_owned_ratio: 0.3469
+  basename_concentration: 0.0408
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -51,63 +57,34 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 3
-    distinct_repos: 3
-    pushes_per_repo: 1.0000
-    active_days: 2
+    pushes: 18
+    distinct_repos: 10
+    pushes_per_repo: 1.8000
+    active_days: 5
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 39
-    distinct_repos: 24
-    pushes_per_repo: 1.6250
-    active_days: 13
-    repos_not_owned: 15
-    not_owned_basenames: 15
+    pushes: 51
+    distinct_repos: 25
+    pushes_per_repo: 2.0400
+    active_days: 18
+    repos_not_owned: 5
+    not_owned_basenames: 5
     not_owned_owners: 1
   "90d":
-    pushes: 336
-    distinct_repos: 47
-    pushes_per_repo: 7.1489
-    active_days: 52
+    pushes: 282
+    distinct_repos: 49
+    pushes_per_repo: 5.7551
+    active_days: 53
     repos_not_owned: 17
     not_owned_basenames: 16
     not_owned_owners: 1
 reasons:
-  - "provenance: 2 vault signal(s) — pass"
-  - "activity: 52 active days in 90d — pass"
+  - "provenance: 5 vault signal(s) — pass"
+  - "activity: 53 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "dajiaohuang"
-    title: "dajiaohuang"
-    description: "Wu Shuwen｜智能体系统、科学交互与开源维护"
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-03"
-  - name: "facefusion-mcp"
-    title: "facefusion-mcp"
-    description: "Focused on conversational multi-actor and multi-face orchestration, preview approval, and shot-level retry workflows."
-    language: "Python"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-06-09"
-  - name: "RepoStew_skills"
-    title: "RepoStew_skills"
-    description: "RepoStew｜把贡献做成维护闭环的可移植 Agent Skill"
-    language: "Python"
-    topics:
-      - "agent-skills"
-      - "coding-agents"
-      - "github"
-      - "open-source"
-      - "repository-maintenance"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-02"
   - name: "evo"
     title: "evo"
     description: null
@@ -115,7 +92,15 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-01"
+    last_push: "2026-09-23"
+  - name: "dajiaohuang"
+    title: "dajiaohuang"
+    description: "Wu Shuwen｜智能体系统、科学交互与开源维护"
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-23"
   - name: "solar"
     title: "solar"
     description: "Browser-native Solar System dynamics and small-body atlas"
@@ -132,11 +117,11 @@ repos:
       - "webgl"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-01"
+    last_push: "2026-09-23"
 ---
 
 # dajiaohuang
 
-336 pushes across 47 repositories on 52 active days in the last 90 days of public GitHub push activity.
+282 pushes across 49 repositories on 53 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/dajiaohuang

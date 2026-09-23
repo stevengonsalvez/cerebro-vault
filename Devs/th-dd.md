@@ -8,39 +8,39 @@ provenance_repos:
   - "AstrBotDevs/AstrBot"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+repos_populated: false
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [18, 27, 28, 3, 2, 3, 2, 2, 4, 4, 0, 0, 0]
+pushes_per_week: [18, 2, 3, 3, 1, 2, 3, 4, 0, 0, 0, 2, 2]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
-  "30d":
-    pushes: 7
+    pushes: 2
     distinct_repos: 2
     active_days: 2
-    repos_not_owned: 1
-    not_owned_basenames: 1
+    repos_not_owned: 2
+    not_owned_basenames: 2
+    not_owned_owners: 1
+  "30d":
+    pushes: 4
+    distinct_repos: 4
+    active_days: 4
+    repos_not_owned: 3
+    not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 93
-    distinct_repos: 12
-    active_days: 30
-    repos_not_owned: 6
-    not_owned_basenames: 6
+    pushes: 40
+    distinct_repos: 9
+    active_days: 19
+    repos_not_owned: 4
+    not_owned_basenames: 4
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 3.1000
-  repo_per_active_day: 0.4000
-  not_owned_ratio: 0.5000
-  basename_concentration: 0.0833
+  push_per_day: 2.1053
+  repo_per_active_day: 0.4737
+  not_owned_ratio: 0.4444
+  basename_concentration: 0.1111
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,70 +49,38 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
-  "30d":
-    pushes: 7
+    pushes: 2
     distinct_repos: 2
-    pushes_per_repo: 3.5000
+    pushes_per_repo: 1.0000
     active_days: 2
-    repos_not_owned: 1
-    not_owned_basenames: 1
+    repos_not_owned: 2
+    not_owned_basenames: 2
+    not_owned_owners: 1
+  "30d":
+    pushes: 4
+    distinct_repos: 4
+    pushes_per_repo: 1.0000
+    active_days: 4
+    repos_not_owned: 3
+    not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 93
-    distinct_repos: 12
-    pushes_per_repo: 7.7500
-    active_days: 30
-    repos_not_owned: 6
-    not_owned_basenames: 6
+    pushes: 40
+    distinct_repos: 9
+    pushes_per_repo: 4.4444
+    active_days: 19
+    repos_not_owned: 4
+    not_owned_basenames: 4
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 30 active days in 90d — pass"
+  - "activity: 19 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "th-dd"
-    title: "th-dd"
-    description: "叹号の个人主页"
-    language: "Astro"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-03"
-  - name: "npmjs-chinese"
-    title: "npmjs-chinese"
-    description: "将 npmjs.com 网页翻译为中文"
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-03"
-  - name: "koishi-plugin-tnd"
-    title: "koishi-plugin-tnd"
-    description: "Koishi小说下载插件 - 支持番茄小说等平台的TXT/EPUB格式电子书下载"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-07-16"
-  - name: "th-dd.github.io"
-    title: "th-dd.github.io"
-    description: "404 page"
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-05-06"
+repos: []
 ---
 
 # th-dd
 
-93 pushes across 12 repositories on 30 active days in the last 90 days of public GitHub push activity.
+40 pushes across 9 repositories on 19 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/th-dd

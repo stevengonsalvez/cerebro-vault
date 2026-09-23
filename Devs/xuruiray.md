@@ -8,11 +8,11 @@ provenance_repos:
   - "apache/maka"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+repos_populated: false
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [12, 7, 1, 0, 0, 3, 4, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [0, 0, 0, 6, 1, 0, 0, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 27
-    distinct_repos: 9
-    active_days: 9
+    pushes: 7
+    distinct_repos: 2
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 3.0000
-  repo_per_active_day: 1.0000
+  push_per_day: 1.4000
+  repo_per_active_day: 0.4000
   not_owned_ratio: 0.0000
-  basename_concentration: 0.1111
+  basename_concentration: 0.5000
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,78 +65,22 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 27
-    distinct_repos: 9
-    pushes_per_repo: 3.0000
-    active_days: 9
+    pushes: 7
+    distinct_repos: 2
+    pushes_per_repo: 3.5000
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 9 active days in 90d — pass"
+  - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "information"
-    title: "information"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-09-04"
-  - name: "Stopwatch-Micro"
-    title: "Stopwatch-Micro"
-    description: "Dedicated M5Stack StopWatch firmware with an unofficial Codex Micro compatibility layer"
-    language: "C++"
-    topics: []
-    stars_fact: 5
-    first_seen: null
-    last_push: "2026-07-18"
-  - name: "magicstick"
-    title: "magicstick"
-    description: null
-    language: "C"
-    topics:
-      - "bluetooth"
-      - "esp32"
-      - "input-device"
-      - "vibecoding"
-    stars_fact: 6
-    first_seen: null
-    last_push: "2026-06-05"
-  - name: "stackchan-local"
-    title: "stackchan-local"
-    description: "Local-first desktop daemon and firmware overlay for a Codex-connected StackChan robot."
-    language: "C++"
-    topics:
-      - "esp32"
-      - "m5stack"
-      - "react"
-      - "stackchan"
-    stars_fact: 7
-    first_seen: null
-    last_push: "2026-06-02"
-  - name: "Ratchet-StopWatch"
-    title: "Ratchet-StopWatch"
-    description: "Ratchet Mooncake app extracted from M5StopWatch-UserDemo"
-    language: "C"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-06-15"
-  - name: "Schulte-StopWatch"
-    title: "Schulte-StopWatch"
-    description: null
-    language: "C"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-06-15"
+repos: []
 ---
 
 # xuruiray
 
-27 pushes across 9 repositories on 9 active days in the last 90 days of public GitHub push activity.
+7 pushes across 2 repositories on 5 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/xuruiray

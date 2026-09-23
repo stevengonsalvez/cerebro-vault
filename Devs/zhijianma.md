@@ -8,37 +8,37 @@ provenance_repos:
   - "agentscope-ai/QwenPaw"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+repos_populated: false
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "541318303a272608"
-pushes_per_week: [8, 8, 22, 13, 4, 8, 1, 0, 4, 1, 0, 2, 0]
+pushes_per_week: [12, 7, 5, 5, 0, 2, 3, 0, 2, 0, 2, 2, 13]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
-  "30d":
-    pushes: 4
+    pushes: 13
     distinct_repos: 2
-    active_days: 3
+    active_days: 5
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
+  "30d":
+    pushes: 17
+    distinct_repos: 2
+    active_days: 9
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 71
+    pushes: 53
     distinct_repos: 4
-    active_days: 31
+    active_days: 30
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.2903
-  repo_per_active_day: 0.1290
+  push_per_day: 1.7667
+  repo_per_active_day: 0.1333
   not_owned_ratio: 0.2500
   basename_concentration: 0.5000
   shapes: []
@@ -49,38 +49,38 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
-  "30d":
-    pushes: 4
+    pushes: 13
     distinct_repos: 2
-    pushes_per_repo: 2.0000
-    active_days: 3
+    pushes_per_repo: 6.5000
+    active_days: 5
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
+  "30d":
+    pushes: 17
+    distinct_repos: 2
+    pushes_per_repo: 8.5000
+    active_days: 9
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 71
+    pushes: 53
     distinct_repos: 4
-    pushes_per_repo: 17.7500
-    active_days: 31
+    pushes_per_repo: 13.2500
+    active_days: 30
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 31 active days in 90d — pass"
+  - "activity: 30 active days in 90d — pass"
   - "automation: clear — pass"
 repos: []
 ---
 
 # zhijianma
 
-71 pushes across 4 repositories on 31 active days in the last 90 days of public GitHub push activity.
+53 pushes across 4 repositories on 30 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/zhijianma

@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [1, 2, 10, 5, 0, 0, 0, 0, 1, 0, 0, 1, 0]
+pushes_per_week: [2, 3, 0, 0, 0, 0, 1, 0, 0, 1, 0, 1, 1]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 2
+    pushes: 3
     distinct_repos: 2
-    active_days: 2
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 20
-    distinct_repos: 8
-    active_days: 10
+    pushes: 9
+    distinct_repos: 5
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.0000
-  repo_per_active_day: 0.8000
+  push_per_day: 1.5000
+  repo_per_active_day: 0.8333
   not_owned_ratio: 0.0000
-  basename_concentration: 0.1250
+  basename_concentration: 0.2000
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,42 +49,58 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
+    pushes: 1
+    distinct_repos: 1
+    pushes_per_repo: 1.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 2
+    pushes: 3
     distinct_repos: 2
-    pushes_per_repo: 1.0000
-    active_days: 2
+    pushes_per_repo: 1.5000
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 20
-    distinct_repos: 8
-    pushes_per_repo: 2.5000
-    active_days: 10
+    pushes: 9
+    distinct_repos: 5
+    pushes_per_repo: 1.8000
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 10 active days in 90d — pass"
+  - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "astrbot-frontend"
     title: "astrbot-frontend"
     description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-22"
+  - name: "astrbot_add_prompt_tags_livingmemory_compatible"
+    title: "astrbot_add_prompt_tags_livingmemory_compatible"
+    description: null
     language: "Python"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-03"
+    last_push: "2026-09-16"
+  - name: "astrbot_plugin_message_editor"
+    title: "astrbot_plugin_message_editor"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-14"
   - name: "astrbot_plugin_lorebook"
     title: "astrbot_plugin_lorebook"
     description: null
@@ -109,26 +125,10 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-08-29"
-  - name: "astrbot_plugin_show_tool_call"
-    title: "astrbot_plugin_show_tool_call"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-25"
-  - name: "astrbot_plugin_fix_fable_cot"
-    title: "astrbot_plugin_fix_fable_cot"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-07-03"
 ---
 
 # EmilyCheoh
 
-20 pushes across 8 repositories on 10 active days in the last 90 days of public GitHub push activity.
+9 pushes across 5 repositories on 6 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/EmilyCheoh

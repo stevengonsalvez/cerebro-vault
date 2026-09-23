@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "745308b2b7085095"
-pushes_per_week: [4, 3, 0, 0, 0, 2, 3, 2, 1, 5, 0, 0, 0]
+pushes_per_week: [0, 0, 1, 2, 4, 0, 2, 4, 0, 0, 0, 24, 4]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
+    pushes: 4
+    distinct_repos: 3
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 5
-    distinct_repos: 1
+    pushes: 28
+    distinct_repos: 3
     active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 20
-    distinct_repos: 8
+    pushes: 41
+    distinct_repos: 10
     active_days: 12
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.6667
-  repo_per_active_day: 0.6667
+  push_per_day: 3.4167
+  repo_per_active_day: 0.8333
   not_owned_ratio: 0.0000
-  basename_concentration: 0.1250
+  basename_concentration: 0.1000
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
+    pushes: 4
+    distinct_repos: 3
+    pushes_per_repo: 1.3333
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 5
-    distinct_repos: 1
-    pushes_per_repo: 5.0000
+    pushes: 28
+    distinct_repos: 3
+    pushes_per_repo: 9.3333
     active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 20
-    distinct_repos: 8
-    pushes_per_repo: 2.5000
+    pushes: 41
+    distinct_repos: 10
+    pushes_per_repo: 4.1000
     active_days: 12
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -77,6 +77,15 @@ reasons:
   - "activity: 12 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "synccenter"
+    title: "synccenter"
+    description: null
+    language: "TypeScript"
+    topics:
+      - "homelab"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-22"
   - name: "whisperlog"
     title: "whisperlog"
     description: "Local-first audio transcription pipeline (Whisper + SQLite/FTS5, optional Claude/Ollama enrichment, MCP). Auto-detects Sony ICD-UX570; works with any audio source."
@@ -94,16 +103,23 @@ repos:
       - "whisper"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-08-28"
-  - name: "synccenter"
-    title: "synccenter"
-    description: null
-    language: "TypeScript"
-    topics:
-      - "homelab"
+    last_push: "2026-09-19"
+  - name: "memgov-bakeoff-store"
+    title: "memgov-bakeoff-store"
+    description: "memgov Phase 0 bake-off store, synthetic and throwaway"
+    language: null
+    topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-08-26"
+    last_push: "2026-09-18"
+  - name: "clickstream"
+    title: "clickstream"
+    description: "Local-first browser and YouTube activity timeline with cross-device shard sync"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-07"
   - name: "vorssaint-cli"
     title: "vorssaint-cli"
     description: "Command line control for Vorssaint, the macOS menu bar utility app"
@@ -120,26 +136,10 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-08-16"
-  - name: "trip"
-    title: "trip"
-    description: "Agent-native trip compiler: ranks months by dew-point comfort, then compiles a segment library into a day-by-day itinerary with clock times."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-07-28"
-  - name: "halo-screen"
-    title: "halo-screen"
-    description: "Interactive 360x360 round-screen engine for the HALO TOUCH USB dock — knob-driven situation-aware faces (clock, system, weather, media, timer) with a live browser panel and SD/MJPEG hardware bridge."
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-07-24"
 ---
 
 # BaruchEric
 
-20 pushes across 8 repositories on 12 active days in the last 90 days of public GitHub push activity.
+41 pushes across 10 repositories on 12 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/BaruchEric

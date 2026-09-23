@@ -10,36 +10,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [7, 9, 3, 4, 1, 6, 16, 2, 0, 2, 0, 1, 0]
+pushes_per_week: [2, 2, 1, 17, 5, 2, 1, 1, 1, 0, 0, 0, 2]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
+    pushes: 2
+    distinct_repos: 1
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 3
+    pushes: 2
     distinct_repos: 1
-    active_days: 3
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 51
+    pushes: 34
     distinct_repos: 3
-    active_days: 21
+    active_days: 17
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 2.4286
-  repo_per_active_day: 0.1429
+  push_per_day: 2.0000
+  repo_per_active_day: 0.1765
   not_owned_ratio: 0.6667
   basename_concentration: 1.0000
   shapes: []
@@ -50,42 +50,42 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
+    pushes: 2
+    distinct_repos: 1
+    pushes_per_repo: 2.0000
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 3
+    pushes: 2
     distinct_repos: 1
-    pushes_per_repo: 3.0000
-    active_days: 3
+    pushes_per_repo: 2.0000
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 51
+    pushes: 34
     distinct_repos: 3
-    pushes_per_repo: 17.0000
-    active_days: 21
+    pushes_per_repo: 11.3333
+    active_days: 17
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 21 active days in 90d — pass"
+  - "activity: 17 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "GitNexus"
     title: "GitNexus"
-    description: "GitNexus: The Zero-Server Code Intelligence Engine - GitNexus is a client-side knowledge graph creator that runs entirely in your browser. Drop in a git repository (Github, Gitlab, Azure, Local) or ZIP file, and get an interactive knowledge graph with a built in Graph RAG Agent. Perfect for code exploration"
+    description: "GitNexus: The Zero-Server Code Intelligence Engine"
     language: "TypeScript"
     topics: []
-    stars_fact: 46947
+    stars_fact: 47538
     first_seen: "2026-08-29T06:00:06.818585+00:00"
-    last_push: "2026-09-03"
+    last_push: "2026-09-23"
   - name: "prowl"
     title: "prowl"
     description: "Interactive knowledge graph for codebases, vibe coder companion"
@@ -130,6 +130,6 @@ repos:
 
 # abhigyanpatwari
 
-51 pushes across 3 repositories on 21 active days in the last 90 days of public GitHub push activity.
+34 pushes across 3 repositories on 17 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/abhigyanpatwari

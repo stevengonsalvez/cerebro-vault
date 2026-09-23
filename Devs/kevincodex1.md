@@ -8,11 +8,11 @@ provenance_repos:
   - "Gitlawb/openclaude"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+repos_populated: false
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "3876228ad226052b"
-pushes_per_week: [36, 33, 64, 59, 46, 19, 21, 8, 3, 7, 0, 3, 0]
+pushes_per_week: [35, 67, 28, 28, 9, 4, 4, 4, 3, 0, 0, 5, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,25 +22,25 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 11
-    distinct_repos: 2
-    active_days: 10
-    repos_not_owned: 2
+    pushes: 6
+    distinct_repos: 3
+    active_days: 6
+    repos_not_owned: 3
     not_owned_basenames: 2
-    not_owned_owners: 1
+    not_owned_owners: 2
   "90d":
-    pushes: 299
+    pushes: 187
     distinct_repos: 10
-    active_days: 57
+    active_days: 47
     repos_not_owned: 8
-    not_owned_basenames: 6
-    not_owned_owners: 3
+    not_owned_basenames: 7
+    not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 5.2456
-  repo_per_active_day: 0.1754
+  push_per_day: 3.9787
+  repo_per_active_day: 0.2128
   not_owned_ratio: 0.8000
-  basename_concentration: 0.4000
+  basename_concentration: 0.2000
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -57,30 +57,30 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 11
-    distinct_repos: 2
-    pushes_per_repo: 5.5000
-    active_days: 10
-    repos_not_owned: 2
+    pushes: 6
+    distinct_repos: 3
+    pushes_per_repo: 2.0000
+    active_days: 6
+    repos_not_owned: 3
     not_owned_basenames: 2
-    not_owned_owners: 1
+    not_owned_owners: 2
   "90d":
-    pushes: 299
+    pushes: 187
     distinct_repos: 10
-    pushes_per_repo: 29.9000
-    active_days: 57
+    pushes_per_repo: 18.7000
+    active_days: 47
     repos_not_owned: 8
-    not_owned_basenames: 6
-    not_owned_owners: 3
+    not_owned_basenames: 7
+    not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 57 active days in 90d — pass"
+  - "activity: 47 active days in 90d — pass"
   - "automation: clear — pass"
 repos: []
 ---
 
 # kevincodex1
 
-299 pushes across 10 repositories on 57 active days in the last 90 days of public GitHub push activity.
+187 pushes across 10 repositories on 47 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/kevincodex1

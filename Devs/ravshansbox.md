@@ -6,12 +6,12 @@ discovered_via_all:
   - "fanout"
 provenance_repos:
   - "anthropics/claude-code"
-  - "can1357/oh-my-pi"
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
+  - "01cd6a498d377caf"
   - "03604cccd7e9402d"
   - "0754e13e69e8f4d3"
   - "0880c239db0357ef"
@@ -23,6 +23,7 @@ provenance:
   - "20cf339db543fe6b"
   - "2180229dc69461fd"
   - "228dddec5b6b8ab4"
+  - "23966244d47d35ba"
   - "246a4c93052ef3c1"
   - "2f4818ccad349c12"
   - "31d0f6b1d6dddfa7"
@@ -32,6 +33,7 @@ provenance:
   - "3f88ef2405b8fae7"
   - "44423c0a85b4d691"
   - "557818547b5e5732"
+  - "5744b97e5a176886"
   - "69930101e09d4f35"
   - "6d9f931d3f4a007e"
   - "7389d4b9c5e1318a"
@@ -47,16 +49,16 @@ provenance:
   - "b56da077d21ad4f4"
   - "b7b96dd0ccd56642"
   - "ba2a3cbea388e94b"
+  - "bb098ef13f310da7"
   - "bef41a8d82a61cb7"
   - "c2db1cf2bc94be3c"
   - "cc2a7fed69a6e4ac"
   - "d46568f6f6a488d8"
-  - "de6bf05613f3ae04"
   - "e2ea6ef4c9fbfceb"
   - "f672838de330e86f"
   - "f9a1870648a6375a"
   - "fe9e50bf2d5b21fe"
-pushes_per_week: [14, 8, 12, 3, 2, 2, 0, 10, 0, 0, 3, 3, 0]
+pushes_per_week: [6, 4, 1, 1, 6, 4, 0, 3, 3, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -66,25 +68,25 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 6
-    distinct_repos: 4
-    active_days: 2
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 57
-    distinct_repos: 22
-    active_days: 21
+    pushes: 28
+    distinct_repos: 15
+    active_days: 11
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.7143
-  repo_per_active_day: 1.0476
+  push_per_day: 2.5455
+  repo_per_active_day: 1.3636
   not_owned_ratio: 0.0000
-  basename_concentration: 0.0455
+  basename_concentration: 0.0667
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -101,24 +103,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 6
-    distinct_repos: 4
-    pushes_per_repo: 1.5000
-    active_days: 2
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 57
-    distinct_repos: 22
-    pushes_per_repo: 2.5909
-    active_days: 21
+    pushes: 28
+    distinct_repos: 15
+    pushes_per_repo: 1.8667
+    active_days: 11
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
-  - "provenance: 44 vault signal(s) — pass"
-  - "activity: 21 active days in 90d — pass"
+  - "provenance: 47 vault signal(s) — pass"
+  - "activity: 11 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "next-issue"
@@ -128,7 +130,17 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-03"
+    last_push: "2026-09-08"
+  - name: "youtube-downloader"
+    title: "youtube-downloader"
+    description: null
+    language: "JavaScript"
+    topics:
+      - "download"
+      - "youtube"
+    stars_fact: 3
+    first_seen: null
+    last_push: "2025-12-01"
   - name: "log-service"
     title: "log-service"
     description: null
@@ -161,18 +173,10 @@ repos:
     stars_fact: 1
     first_seen: null
     last_push: "2026-08-18"
-  - name: "pi-question"
-    title: "pi-question"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-08-18"
 ---
 
 # ravshansbox
 
-57 pushes across 22 repositories on 21 active days in the last 90 days of public GitHub push activity.
+28 pushes across 15 repositories on 11 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ravshansbox

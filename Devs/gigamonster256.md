@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [8, 2, 9, 10, 22, 7, 4, 2, 1, 1, 2, 0, 0]
+pushes_per_week: [7, 13, 18, 6, 1, 1, 1, 1, 2, 0, 0, 0, 1]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 4
-    distinct_repos: 3
-    active_days: 3
-    repos_not_owned: 2
-    not_owned_basenames: 2
-    not_owned_owners: 1
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
-    pushes: 68
-    distinct_repos: 10
-    active_days: 29
+    pushes: 51
+    distinct_repos: 8
+    active_days: 22
     repos_not_owned: 6
     not_owned_basenames: 6
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.3448
-  repo_per_active_day: 0.3448
-  not_owned_ratio: 0.6000
-  basename_concentration: 0.1000
+  push_per_day: 2.3182
+  repo_per_active_day: 0.3636
+  not_owned_ratio: 0.7500
+  basename_concentration: 0.1250
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,34 +49,42 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
+    pushes: 1
+    distinct_repos: 1
+    pushes_per_repo: 1.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 4
-    distinct_repos: 3
-    pushes_per_repo: 1.3333
-    active_days: 3
-    repos_not_owned: 2
-    not_owned_basenames: 2
-    not_owned_owners: 1
+    pushes: 1
+    distinct_repos: 1
+    pushes_per_repo: 1.0000
+    active_days: 1
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
-    pushes: 68
-    distinct_repos: 10
-    pushes_per_repo: 6.8000
-    active_days: 29
+    pushes: 51
+    distinct_repos: 8
+    pushes_per_repo: 6.3750
+    active_days: 22
     repos_not_owned: 6
     not_owned_basenames: 6
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 29 active days in 90d — pass"
+  - "activity: 22 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "protean"
+    title: "protean"
+    description: "https://blog.janestreet.com/protocol-emulator-asic-competition"
+    language: "Nix"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-21"
   - name: "nix-config"
     title: "nix-config"
     description: "laptops & servers & dev environments, oh my!"
@@ -84,7 +92,7 @@ repos:
     topics: []
     stars_fact: 3
     first_seen: null
-    last_push: "2026-09-03"
+    last_push: "2026-09-23"
   - name: "ComputerNetworking_TAMU"
     title: "ComputerNetworking_TAMU"
     description: "Echo, Chat Service, TFTP, and HTTP servers and clients"
@@ -92,7 +100,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-08-26"
+    last_push: "2026-09-04"
   - name: "gigamonster256"
     title: "gigamonster256"
     description: "My personal repository."
@@ -117,18 +125,10 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-06-24"
-  - name: "persistence"
-    title: "persistence"
-    description: "Flake-parts module set for managing impermanence"
-    language: "Nix"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-06-22"
 ---
 
 # gigamonster256
 
-68 pushes across 10 repositories on 29 active days in the last 90 days of public GitHub push activity.
+51 pushes across 8 repositories on 22 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/gigamonster256

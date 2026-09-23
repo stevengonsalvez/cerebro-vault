@@ -8,11 +8,11 @@ provenance_repos:
   - "BuilderIO/agent-native"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+repos_populated: false
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "745308b2b7085095"
-pushes_per_week: [0, 0, 4, 0, 5, 4, 2, 0, 1, 1, 4, 0, 0]
+pushes_per_week: [4, 2, 3, 6, 0, 0, 2, 0, 4, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,12 +22,12 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 6
-    distinct_repos: 1
-    active_days: 4
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
     pushes: 21
     distinct_repos: 2
@@ -57,13 +57,13 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 6
-    distinct_repos: 1
-    pushes_per_repo: 6.0000
-    active_days: 4
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
     pushes: 21
     distinct_repos: 2
@@ -76,61 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 12 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "ask-board"
-    title: "ask-board"
-    description: "A personal board of directors built out of subagents that structurally cannot know what you want to hear. Skills for Claude Code."
-    language: null
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-08-17"
-  - name: "sse"
-    title: "sse"
-    description: "Server-Sent Events implementation in Go. Used by the Gin Framework."
-    language: "Go"
-    topics: []
-    stars_fact: 281
-    first_seen: null
-    last_push: "2019-06-02"
-  - name: "noise-lang"
-    title: "noise-lang"
-    description: "Noise is an expression-based, probabilistic language: variables don't hold exact values, they hold random variables (probability distributions). Monte Carlo simulations in one line."
-    language: "Rust"
-    topics:
-      - "language"
-      - "mathematics"
-      - "monte-carlo"
-      - "probability"
-      - "rust"
-      - "stocastic-analysis"
-    stars_fact: 38
-    first_seen: null
-    last_push: "2026-07-22"
-  - name: "OBME"
-    title: "OBME"
-    description: "OBME: OBfuscated MEmory. Fast and easy to use tool in simple C++ to avoid memory cheating by scanning (searching). See igameguardian, \"Cheat Engine\"..."
-    language: "C"
-    topics: []
-    stars_fact: 35
-    first_seen: null
-    last_push: "2017-06-16"
-  - name: "try"
-    title: "try"
-    description: "Try/catch/finally in Go. This is an experiment that tries to bring the exception behaviour of java/python/c++ to Golang using the same syntax."
-    language: "Go"
-    topics: []
-    stars_fact: 211
-    first_seen: null
-    last_push: "2017-06-09"
-  - name: "pics-qwik"
-    title: "pics-qwik"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 9
-    first_seen: null
-    last_push: "2023-05-04"
+repos: []
 ---
 
 # manucorporat

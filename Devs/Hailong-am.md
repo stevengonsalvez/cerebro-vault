@@ -8,39 +8,39 @@ provenance_repos:
   - "aws/agent-toolkit-for-aws"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+repos_populated: false
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "a50b0e08dbaee74a"
-pushes_per_week: [0, 1, 9, 3, 5, 15, 3, 5, 2, 7, 0, 0, 0]
+pushes_per_week: [6, 5, 16, 2, 4, 2, 6, 3, 0, 0, 1, 5, 5]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    pushes: 5
+    distinct_repos: 2
+    active_days: 3
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "30d":
-    pushes: 7
-    distinct_repos: 4
-    active_days: 4
+    pushes: 11
+    distinct_repos: 3
+    active_days: 7
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 50
-    distinct_repos: 14
-    active_days: 25
-    repos_not_owned: 9
-    not_owned_basenames: 8
-    not_owned_owners: 3
+    pushes: 55
+    distinct_repos: 13
+    active_days: 31
+    repos_not_owned: 7
+    not_owned_basenames: 7
+    not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 2.0000
-  repo_per_active_day: 0.5600
-  not_owned_ratio: 0.6429
-  basename_concentration: 0.1429
+  push_per_day: 1.7742
+  repo_per_active_day: 0.4194
+  not_owned_ratio: 0.5385
+  basename_concentration: 0.1538
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,86 +49,38 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    pushes: 5
+    distinct_repos: 2
+    pushes_per_repo: 2.5000
+    active_days: 3
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "30d":
-    pushes: 7
-    distinct_repos: 4
-    pushes_per_repo: 1.7500
-    active_days: 4
+    pushes: 11
+    distinct_repos: 3
+    pushes_per_repo: 3.6667
+    active_days: 7
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 50
-    distinct_repos: 14
-    pushes_per_repo: 3.5714
-    active_days: 25
-    repos_not_owned: 9
-    not_owned_basenames: 8
-    not_owned_owners: 3
+    pushes: 55
+    distinct_repos: 13
+    pushes_per_repo: 4.2308
+    active_days: 31
+    repos_not_owned: 7
+    not_owned_basenames: 7
+    not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 25 active days in 90d — pass"
+  - "activity: 31 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "opensearch-api-docs"
-    title: "opensearch-api-docs"
-    description: "OpenSearch API Reference - distribution-aware (OSS/AOS/AOSS)"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-03"
-  - name: "strands-java"
-    title: "strands-java"
-    description: null
-    language: "Java"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-05-14"
-  - name: "os-build"
-    title: "os-build"
-    description: null
-    language: "Shell"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-03-19"
-  - name: "dashboards-document-editor"
-    title: "dashboards-document-editor"
-    description: "editor for document in system index"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-02-02"
-  - name: "ag-ui-server-bedrock"
-    title: "ag-ui-server-bedrock"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2025-10-20"
-  - name: "strand-agent-poc"
-    title: "strand-agent-poc"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2025-08-19"
+repos: []
 ---
 
 # Hailong-am
 
-50 pushes across 14 repositories on 25 active days in the last 90 days of public GitHub push activity.
+55 pushes across 13 repositories on 31 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Hailong-am

@@ -8,11 +8,11 @@ provenance_repos:
   - "agavra/tuicr"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+repos_populated: false
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [3, 5, 1, 5, 1, 7, 1, 2, 0, 6, 0, 0, 0]
+pushes_per_week: [2, 4, 3, 5, 1, 1, 2, 4, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,25 +22,25 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 6
-    distinct_repos: 3
-    active_days: 4
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 31
-    distinct_repos: 10
-    active_days: 23
+    pushes: 22
+    distinct_repos: 8
+    active_days: 16
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.3478
-  repo_per_active_day: 0.4348
+  push_per_day: 1.3750
+  repo_per_active_day: 0.5000
   not_owned_ratio: 0.0000
-  basename_concentration: 0.1000
+  basename_concentration: 0.1250
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -57,78 +57,30 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 6
-    distinct_repos: 3
-    pushes_per_repo: 2.0000
-    active_days: 4
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 31
-    distinct_repos: 10
-    pushes_per_repo: 3.1000
-    active_days: 23
+    pushes: 22
+    distinct_repos: 8
+    pushes_per_repo: 2.7500
+    active_days: 16
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 23 active days in 90d — pass"
+  - "activity: 16 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "rye-agent"
-    title: "rye-agent"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-03"
-  - name: "my_dotfiles"
-    title: "my_dotfiles"
-    description: "my user configs"
-    language: "Shell"
-    topics: []
-    stars_fact: 4
-    first_seen: null
-    last_push: "2026-09-03"
-  - name: "translate-cat"
-    title: "translate-cat"
-    description: "🐱 Translate YouTube subtitles and any selected text with your own AI provider."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-09-03"
-  - name: "kash-server"
-    title: "kash-server"
-    description: null
-    language: "Rust"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-31"
-  - name: "pi-usage"
-    title: "pi-usage"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-28"
-  - name: "pi-web-codex"
-    title: "pi-web-codex"
-    description: "Codex-style web.run web search and browsing tool as a Pi extension."
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-27"
+repos: []
 ---
 
 # yuhua99
 
-31 pushes across 10 repositories on 23 active days in the last 90 days of public GitHub push activity.
+22 pushes across 8 repositories on 16 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/yuhua99

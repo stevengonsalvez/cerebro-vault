@@ -10,38 +10,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "4138778ebbc75ba6"
-pushes_per_week: [29, 28, 23, 58, 53, 26, 28, 38, 6, 16, 12, 4, 5]
+pushes_per_week: [29, 55, 50, 32, 23, 26, 11, 15, 9, 1, 8, 10, 33]
 windows:
   "7d":
-    pushes: 6
-    distinct_repos: 3
-    active_days: 3
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
-  "30d":
-    pushes: 39
+    pushes: 34
     distinct_repos: 11
-    active_days: 14
+    active_days: 7
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
+  "30d":
+    pushes: 55
+    distinct_repos: 15
+    active_days: 20
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 326
-    distinct_repos: 45
+    pushes: 302
+    distinct_repos: 42
     active_days: 67
-    repos_not_owned: 18
-    not_owned_basenames: 5
-    not_owned_owners: 16
+    repos_not_owned: 14
+    not_owned_basenames: 2
+    not_owned_owners: 13
 automation:
   state: "clear"
-  push_per_day: 4.8657
-  repo_per_active_day: 0.6716
-  not_owned_ratio: 0.4000
-  basename_concentration: 0.2444
+  push_per_day: 4.5075
+  repo_per_active_day: 0.6269
+  not_owned_ratio: 0.3333
+  basename_concentration: 0.2381
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -50,86 +50,86 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 6
-    distinct_repos: 3
-    pushes_per_repo: 2.0000
-    active_days: 3
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
-  "30d":
-    pushes: 39
+    pushes: 34
     distinct_repos: 11
-    pushes_per_repo: 3.5455
-    active_days: 14
+    pushes_per_repo: 3.0909
+    active_days: 7
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
+  "30d":
+    pushes: 55
+    distinct_repos: 15
+    pushes_per_repo: 3.6667
+    active_days: 20
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 326
-    distinct_repos: 45
-    pushes_per_repo: 7.2444
+    pushes: 302
+    distinct_repos: 42
+    pushes_per_repo: 7.1905
     active_days: 67
-    repos_not_owned: 18
-    not_owned_basenames: 5
-    not_owned_owners: 16
+    repos_not_owned: 14
+    not_owned_basenames: 2
+    not_owned_owners: 13
 reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 67 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "ai-jail"
-    title: "ai-jail"
-    description: "Multi-OS sandbox to run AI agents with better constraints (it is not 100% secure, but enough)"
-    language: "Rust"
-    topics: []
-    stars_fact: 1175
-    first_seen: null
-    last_push: "2026-09-02"
   - name: "ai-memory"
     title: "ai-memory"
     description: "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors"
     language: "Rust"
     topics: []
-    stars_fact: 5585
+    stars_fact: 8157
     first_seen: "2026-08-18T06:00:11.655353+00:00"
-    last_push: "2026-09-02"
+    last_push: "2026-09-22"
+  - name: "FrankMD"
+    title: "FrankMD"
+    description: "Self-hosted, Simple Markdown Web Editor and Notes Organizer"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 556
+    first_seen: null
+    last_push: "2026-09-22"
+  - name: "my-skills"
+    title: "my-skills"
+    description: "akitaonrails' personal skills (not tailored for general usage)"
+    language: "Python"
+    topics: []
+    stars_fact: 120
+    first_seen: null
+    last_push: "2026-09-18"
+  - name: "ai-jail"
+    title: "ai-jail"
+    description: "Multi-OS sandbox to run AI agents with better constraints (it is not 100% secure, but enough)"
+    language: "Rust"
+    topics: []
+    stars_fact: 1280
+    first_seen: null
+    last_push: "2026-09-21"
   - name: "ai-usagebar"
     title: "ai-usagebar"
     description: "Rust-based waybar widget to monitor status of Claude, GPT, GLM, OpenRouter plans/credits - inspired by claudebar/codexbar"
     language: "Rust"
     topics: []
-    stars_fact: 392
+    stars_fact: 543
     first_seen: null
-    last_push: "2026-09-03"
-  - name: "tiktok_analysis"
-    title: "tiktok_analysis"
-    description: "Claude Fable 5 based source code analysis of TikTok app - does it leak your privacy? how?"
-    language: "Java"
+    last_push: "2026-09-22"
+  - name: "omarchy-games-menu"
+    title: "omarchy-games-menu"
+    description: "Personal game launcher connected to my distrobox-gaming to launch my custom PC ports and emulators"
+    language: "Rust"
     topics: []
     stars_fact: 16
     first_seen: null
-    last_push: "2026-07-08"
-  - name: "llm-coding-benchmark"
-    title: "llm-coding-benchmark"
-    description: "Simple benchmark to test the most popular open source and commercial LLMs with automated OpenCode"
-    language: "Python"
-    topics: []
-    stars_fact: 303
-    first_seen: null
-    last_push: "2026-08-22"
-  - name: "my-skills"
-    title: "my-skills"
-    description: "akitaonrails' personal skills (not tailored for general usage)"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 29
-    first_seen: null
-    last_push: "2026-09-02"
+    last_push: "2026-09-23"
 ---
 
 # akitaonrails
 
-326 pushes across 45 repositories on 67 active days in the last 90 days of public GitHub push activity.
+302 pushes across 42 repositories on 67 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/akitaonrails

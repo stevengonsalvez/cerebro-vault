@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "16389f32495280ea"
-pushes_per_week: [4, 5, 5, 3, 3, 8, 1, 1, 0, 1, 0, 0, 0]
+pushes_per_week: [5, 4, 2, 7, 1, 0, 1, 0, 0, 0, 0, 1, 1]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
-  "30d":
     pushes: 1
     distinct_repos: 1
     active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
+  "30d":
+    pushes: 2
+    distinct_repos: 1
+    active_days: 2
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
-    pushes: 31
-    distinct_repos: 5
-    active_days: 23
+    pushes: 22
+    distinct_repos: 4
+    active_days: 16
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.3478
-  repo_per_active_day: 0.2174
+  push_per_day: 1.3750
+  repo_per_active_day: 0.2500
   not_owned_ratio: 0.0000
-  basename_concentration: 0.2000
+  basename_concentration: 0.2500
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,14 +49,6 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
-  "30d":
     pushes: 1
     distinct_repos: 1
     pushes_per_repo: 1.0000
@@ -64,19 +56,35 @@ facets:
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
+  "30d":
+    pushes: 2
+    distinct_repos: 1
+    pushes_per_repo: 2.0000
+    active_days: 2
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
-    pushes: 31
-    distinct_repos: 5
-    pushes_per_repo: 6.2000
-    active_days: 23
+    pushes: 22
+    distinct_repos: 4
+    pushes_per_repo: 5.5000
+    active_days: 16
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 23 active days in 90d — pass"
+  - "activity: 16 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "airene.github.io"
+    title: "airene.github.io"
+    description: "ti.bi"
+    language: "Vue"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-21"
   - name: "vitepress-blog-pure"
     title: "vitepress-blog-pure"
     description: "a vitepress theme for blog, demo ↓"
@@ -87,9 +95,17 @@ repos:
       - "vitepress"
       - "vitepress-blog"
       - "vitepress-theme"
-    stars_fact: 291
+    stars_fact: 289
     first_seen: null
-    last_push: "2026-08-26"
+    last_push: "2026-09-21"
+  - name: "algo-ner"
+    title: "algo-ner"
+    description: "ner 模型的例子"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-19"
   - name: "opensource-version"
     title: "opensource-version"
     description: "常用软件版本"
@@ -106,14 +122,6 @@ repos:
     stars_fact: 4
     first_seen: null
     last_push: "2026-07-19"
-  - name: "algo-ner"
-    title: "algo-ner"
-    description: "ner 模型的例子"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-02"
   - name: "sqlite-gui"
     title: "sqlite-gui"
     description: "tauri v2 demo - sqlite db viewer"
@@ -122,18 +130,10 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-08-12"
-  - name: "vllm-api"
-    title: "vllm-api"
-    description: "vllm 来部署一个小模型的例子"
-    language: "Python"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-08-23"
 ---
 
 # airene
 
-31 pushes across 5 repositories on 23 active days in the last 90 days of public GitHub push activity.
+22 pushes across 4 repositories on 16 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/airene

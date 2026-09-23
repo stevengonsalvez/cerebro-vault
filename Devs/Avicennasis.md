@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [32, 32, 36, 64, 9, 8, 4, 7, 4, 7, 7, 0, 0]
+pushes_per_week: [52, 24, 11, 6, 4, 5, 4, 6, 7, 0, 0, 16, 13]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    pushes: 13
+    distinct_repos: 7
+    active_days: 3
+    repos_not_owned: 3
+    not_owned_basenames: 3
+    not_owned_owners: 1
   "30d":
-    pushes: 16
-    distinct_repos: 9
-    active_days: 6
+    pushes: 29
+    distinct_repos: 13
+    active_days: 8
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 210
-    distinct_repos: 35
-    active_days: 46
-    repos_not_owned: 4
-    not_owned_basenames: 4
+    pushes: 148
+    distinct_repos: 28
+    active_days: 39
+    repos_not_owned: 5
+    not_owned_basenames: 5
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 4.5652
-  repo_per_active_day: 0.7609
-  not_owned_ratio: 0.1143
-  basename_concentration: 0.0571
+  push_per_day: 3.7949
+  repo_per_active_day: 0.7179
+  not_owned_ratio: 0.1786
+  basename_concentration: 0.0714
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,50 +49,42 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    pushes: 13
+    distinct_repos: 7
+    pushes_per_repo: 1.8571
+    active_days: 3
+    repos_not_owned: 3
+    not_owned_basenames: 3
+    not_owned_owners: 1
   "30d":
-    pushes: 16
-    distinct_repos: 9
-    pushes_per_repo: 1.7778
-    active_days: 6
+    pushes: 29
+    distinct_repos: 13
+    pushes_per_repo: 2.2308
+    active_days: 8
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 210
-    distinct_repos: 35
-    pushes_per_repo: 6.0000
-    active_days: 46
-    repos_not_owned: 4
-    not_owned_basenames: 4
+    pushes: 148
+    distinct_repos: 28
+    pushes_per_repo: 5.2857
+    active_days: 39
+    repos_not_owned: 5
+    not_owned_basenames: 5
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 46 active days in 90d — pass"
+  - "activity: 39 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "BluePaper"
-    title: "BluePaper"
-    description: "Cross-platform Bluetooth label printer app — KMP + Compose Multiplatform"
-    language: "Kotlin"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-03"
-  - name: "link-scrubber"
-    title: "link-scrubber"
-    description: "Cross-browser extension that strips or rewrites tracking parameters from URLs"
+  - name: "jules-mcp"
+    title: "jules-mcp"
+    description: "MCP server for the Google Jules coding-agent API (12 tools: sessions, activities, scheduling, session-diff)"
     language: "TypeScript"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-03"
+    last_push: "2026-09-23"
   - name: "redmine-mcp-workflows"
     title: "redmine-mcp-workflows"
     description: "Schema-aware MCP server for Redmine — validates workflow transitions, custom fields, and required fields before round-tripping the API"
@@ -100,23 +92,15 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-08-30"
-  - name: "pyncua"
-    title: "pyncua"
-    description: "Python client for the NCUA Credit Union Mapping API — sync & async, typed Pydantic v2 models"
-    language: "Python"
+    last_push: "2026-09-23"
+  - name: "BluePaper"
+    title: "BluePaper"
+    description: "Cross-platform Bluetooth label printer app — KMP + Compose Multiplatform"
+    language: "Kotlin"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-08-29"
-  - name: "porkbun-mcp-server"
-    title: "porkbun-mcp-server"
-    description: "Model Context Protocol server for Porkbun's API v3 — domains, DNS, DNSSEC, SSL with pluggable audit-log emit on every mutation"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-29"
+    last_push: "2026-09-23"
   - name: "flipoff"
     title: "flipoff"
     description: "Turn any TV into a retro split-flap display. Free, open-source, zero dependencies."
@@ -124,11 +108,27 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-08-27"
+    last_push: "2026-09-22"
+  - name: "pyncua"
+    title: "pyncua"
+    description: "Python client for the NCUA Credit Union Mapping API — sync & async, typed Pydantic v2 models"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-19"
+  - name: "porkbun-mcp-server"
+    title: "porkbun-mcp-server"
+    description: "Model Context Protocol server for Porkbun's API v3 — domains, DNS, DNSSEC, SSL with pluggable audit-log emit on every mutation"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-19"
 ---
 
 # Avicennasis
 
-210 pushes across 35 repositories on 46 active days in the last 90 days of public GitHub push activity.
+148 pushes across 28 repositories on 39 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Avicennasis

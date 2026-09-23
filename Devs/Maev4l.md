@@ -8,11 +8,11 @@ provenance_repos:
   - "chaitanyagiri/munder-difflin"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+repos_populated: false
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "e5b23adc376a62a9"
-pushes_per_week: [3, 2, 2, 14, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [5, 11, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 21
+    pushes: 16
     distinct_repos: 9
-    active_days: 9
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.3333
-  repo_per_active_day: 1.0000
+  push_per_day: 3.2000
+  repo_per_active_day: 1.8000
   not_owned_ratio: 0.0000
   basename_concentration: 0.1111
   shapes: []
@@ -65,70 +65,22 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 21
+    pushes: 16
     distinct_repos: 9
-    pushes_per_repo: 2.3333
-    active_days: 9
+    pushes_per_repo: 1.7778
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 9 active days in 90d — pass"
+  - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "brigitte-le-roux-website"
-    title: "brigitte-le-roux-website"
-    description: null
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-01"
-  - name: "alexandria"
-    title: "alexandria"
-    description: null
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-29"
-  - name: "meal-planner"
-    title: "meal-planner"
-    description: null
-    language: "Go"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-25"
-  - name: "letsencrypt-lambda"
-    title: "letsencrypt-lambda"
-    description: null
-    language: "JavaScript"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-07-30"
-  - name: "visual-resumes"
-    title: "visual-resumes"
-    description: null
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-07-30"
-  - name: "terraform-modules"
-    title: "terraform-modules"
-    description: null
-    language: "HCL"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-07-30"
+repos: []
 ---
 
 # Maev4l
 
-21 pushes across 9 repositories on 9 active days in the last 90 days of public GitHub push activity.
+16 pushes across 9 repositories on 5 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Maev4l

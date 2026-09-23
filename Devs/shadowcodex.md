@@ -8,39 +8,39 @@ provenance_repos:
   - "BuilderIO/agent-native"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+repos_populated: false
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "745308b2b7085095"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 1, 6, 12, 8, 6, 0, 0]
+pushes_per_week: [0, 0, 0, 0, 6, 3, 18, 3, 3, 0, 0, 0, 4]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    pushes: 4
+    distinct_repos: 2
+    active_days: 3
+    repos_not_owned: 2
+    not_owned_basenames: 2
+    not_owned_owners: 1
   "30d":
-    pushes: 22
-    distinct_repos: 3
-    active_days: 9
-    repos_not_owned: 3
-    not_owned_basenames: 3
+    pushes: 4
+    distinct_repos: 2
+    active_days: 3
+    repos_not_owned: 2
+    not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 33
-    distinct_repos: 5
-    active_days: 14
-    repos_not_owned: 4
-    not_owned_basenames: 4
+    pushes: 37
+    distinct_repos: 7
+    active_days: 17
+    repos_not_owned: 6
+    not_owned_basenames: 6
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 2.3571
-  repo_per_active_day: 0.3571
-  not_owned_ratio: 0.8000
-  basename_concentration: 0.2000
+  push_per_day: 2.1765
+  repo_per_active_day: 0.4118
+  not_owned_ratio: 0.8571
+  basename_concentration: 0.1429
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,102 +49,38 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    pushes: 4
+    distinct_repos: 2
+    pushes_per_repo: 2.0000
+    active_days: 3
+    repos_not_owned: 2
+    not_owned_basenames: 2
+    not_owned_owners: 1
   "30d":
-    pushes: 22
-    distinct_repos: 3
-    pushes_per_repo: 7.3333
-    active_days: 9
-    repos_not_owned: 3
-    not_owned_basenames: 3
+    pushes: 4
+    distinct_repos: 2
+    pushes_per_repo: 2.0000
+    active_days: 3
+    repos_not_owned: 2
+    not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 33
-    distinct_repos: 5
-    pushes_per_repo: 6.6000
-    active_days: 14
-    repos_not_owned: 4
-    not_owned_basenames: 4
+    pushes: 37
+    distinct_repos: 7
+    pushes_per_repo: 5.2857
+    active_days: 17
+    repos_not_owned: 6
+    not_owned_basenames: 6
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 14 active days in 90d — pass"
+  - "activity: 17 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "agentic-loop-todotxt"
-    title: "agentic-loop-todotxt"
-    description: "Use todotxt plus some nifty claude commands to loop until done with good stuff."
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-07-29"
-  - name: "data-theory"
-    title: "data-theory"
-    description: "Data science and theory implemented in JavaScript."
-    language: "JavaScript"
-    topics: []
-    stars_fact: 6
-    first_seen: null
-    last_push: "2026-07-26"
-  - name: "vibe-coder-docs"
-    title: "vibe-coder-docs"
-    description: "Engineering wisdom and best practices for vibe coders."
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-03-10"
-  - name: "codex-ui"
-    title: "codex-ui"
-    description: ":icecream: Vanilla Bootstrap Components. :electric_plug: Plug and Play, Copy and Paste."
-    language: "HTML"
-    topics:
-      - "bootstrap"
-      - "codex-ui"
-      - "components"
-      - "copy-paste"
-      - "css"
-      - "font"
-      - "font-awesome"
-      - "html"
-      - "icons"
-      - "kit"
-      - "mit-license"
-      - "plug"
-      - "plug-n-play"
-      - "ui"
-      - "vanilla"
-      - "vanilla-bootstrap"
-    stars_fact: 50
-    first_seen: null
-    last_push: "2021-01-20"
-  - name: "c9.ide.desktop"
-    title: "c9.ide.desktop"
-    description: "Adds a desktop GUI to cloud9's ide using x11"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 61
-    first_seen: null
-    last_push: "2020-09-14"
-  - name: "c9.ide.pigments"
-    title: "c9.ide.pigments"
-    description: "A plugin to mark color codes with pigments."
-    language: "JavaScript"
-    topics: []
-    stars_fact: 14
-    first_seen: null
-    last_push: "2020-09-14"
+repos: []
 ---
 
 # shadowcodex
 
-33 pushes across 5 repositories on 14 active days in the last 90 days of public GitHub push activity.
+37 pushes across 7 repositories on 17 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/shadowcodex

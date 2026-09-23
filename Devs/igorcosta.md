@@ -8,39 +8,39 @@ provenance_repos:
   - "agentskills/agentskills"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-09-04T06:06:21.234597+00:00"
+repos_populated: false
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "48dbbdd8fd0d3029"
-pushes_per_week: [1, 0, 11, 3, 2, 15, 6, 1, 1, 4, 0, 0, 0]
+pushes_per_week: [10, 4, 6, 14, 2, 1, 4, 0, 0, 0, 4, 1, 2]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    pushes: 2
+    distinct_repos: 2
+    active_days: 2
+    repos_not_owned: 2
+    not_owned_basenames: 2
+    not_owned_owners: 1
   "30d":
-    pushes: 4
-    distinct_repos: 1
-    active_days: 1
-    repos_not_owned: 1
-    not_owned_basenames: 1
+    pushes: 7
+    distinct_repos: 6
+    active_days: 5
+    repos_not_owned: 6
+    not_owned_basenames: 6
     not_owned_owners: 1
   "90d":
-    pushes: 44
-    distinct_repos: 14
-    active_days: 19
-    repos_not_owned: 14
-    not_owned_basenames: 14
+    pushes: 48
+    distinct_repos: 13
+    active_days: 21
+    repos_not_owned: 13
+    not_owned_basenames: 13
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.3158
-  repo_per_active_day: 0.7368
+  push_per_day: 2.2857
+  repo_per_active_day: 0.6190
   not_owned_ratio: 1.0000
-  basename_concentration: 0.0714
+  basename_concentration: 0.0769
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,54 +49,38 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    pushes: 2
+    distinct_repos: 2
+    pushes_per_repo: 1.0000
+    active_days: 2
+    repos_not_owned: 2
+    not_owned_basenames: 2
+    not_owned_owners: 1
   "30d":
-    pushes: 4
-    distinct_repos: 1
-    pushes_per_repo: 4.0000
-    active_days: 1
-    repos_not_owned: 1
-    not_owned_basenames: 1
+    pushes: 7
+    distinct_repos: 6
+    pushes_per_repo: 1.1667
+    active_days: 5
+    repos_not_owned: 6
+    not_owned_basenames: 6
     not_owned_owners: 1
   "90d":
-    pushes: 44
-    distinct_repos: 14
-    pushes_per_repo: 3.1429
-    active_days: 19
-    repos_not_owned: 14
-    not_owned_basenames: 14
+    pushes: 48
+    distinct_repos: 13
+    pushes_per_repo: 3.6923
+    active_days: 21
+    repos_not_owned: 13
+    not_owned_basenames: 13
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 19 active days in 90d — pass"
+  - "activity: 21 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "ng-filters-br"
-    title: "ng-filters-br"
-    description: "Filtros dos padrões Brasileiros para quem usa o Angular e seus filtros."
-    language: "JavaScript"
-    topics: []
-    stars_fact: 71
-    first_seen: null
-    last_push: "2019-07-08"
-  - name: "cycle.js"
-    title: "cycle.js"
-    description: "A javascript library for Applications on Web"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2013-04-23"
+repos: []
 ---
 
 # igorcosta
 
-44 pushes across 14 repositories on 19 active days in the last 90 days of public GitHub push activity.
+48 pushes across 13 repositories on 21 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/igorcosta

@@ -7,12 +7,12 @@ discovered_via_all:
 provenance_repos:
   - "Fission-AI/OpenSpec"
 admitted: true
-low_n: false
-repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+low_n: true
+repos_populated: false
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "ed2f687a3182c848"
-pushes_per_week: [5, 0, 3, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [1, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 11
-    distinct_repos: 3
-    active_days: 7
-    repos_not_owned: 3
+    pushes: 4
+    distinct_repos: 2
+    active_days: 3
+    repos_not_owned: 2
     not_owned_basenames: 1
-    not_owned_owners: 3
+    not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 1.5714
-  repo_per_active_day: 0.4286
+  push_per_day: 1.3333
+  repo_per_active_day: 0.6667
   not_owned_ratio: 1.0000
   basename_concentration: 1.0000
   shapes: []
@@ -65,72 +65,22 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 11
-    distinct_repos: 3
-    pushes_per_repo: 3.6667
-    active_days: 7
-    repos_not_owned: 3
+    pushes: 4
+    distinct_repos: 2
+    pushes_per_repo: 2.0000
+    active_days: 3
+    repos_not_owned: 2
     not_owned_basenames: 1
-    not_owned_owners: 3
+    not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 7 active days in 90d — pass"
+  - "activity: 3 active days in 90d — below the 5-day line, LABELLED low-n (never suppressed)"
   - "automation: clear — pass"
-repos:
-  - name: "TabishB"
-    title: "TabishB"
-    description: "Config files for my GitHub profile."
-    language: null
-    topics:
-      - "config"
-      - "github-config"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2025-07-08"
-  - name: "robocode"
-    title: "robocode"
-    description: "Robocode competition for EE'24"
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2024-11-15"
-  - name: "dotfiles"
-    title: "dotfiles"
-    description: "My dotfile configurations"
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2022-08-04"
-  - name: "TabishB.github.io"
-    title: "TabishB.github.io"
-    description: "Personal Portfolio Website"
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2019-08-26"
-  - name: "Churro-Web-App"
-    title: "Churro-Web-App"
-    description: "Chores, tasks and bills splitter for share-houses."
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2019-04-09"
-  - name: "NLP-Document-Visualiser"
-    title: "NLP-Document-Visualiser"
-    description: "NLP Based document visualiser. Creates word clouds and topic clouds based off input document. Created as part of University of Sydney Industry Project"
-    language: "Java"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2022-12-08"
+repos: []
 ---
 
 # TabishB
 
-11 pushes across 3 repositories on 7 active days in the last 90 days of public GitHub push activity.
+4 pushes across 2 repositories on 3 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/TabishB

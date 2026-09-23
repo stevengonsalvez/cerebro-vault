@@ -9,13 +9,13 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "97c4e9cb8b163ddb"
   - "c7515e0fa4368a55"
   - "d3abe74726b22711"
   - "e7c647c4d0689526"
-pushes_per_week: [12, 9, 8, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0]
+pushes_per_week: [3, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -25,25 +25,25 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 31
-    distinct_repos: 7
-    active_days: 14
+    pushes: 5
+    distinct_repos: 2
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.2143
-  repo_per_active_day: 0.5000
+  push_per_day: 1.0000
+  repo_per_active_day: 0.4000
   not_owned_ratio: 0.0000
-  basename_concentration: 0.1429
+  basename_concentration: 0.5000
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -60,24 +60,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 31
-    distinct_repos: 7
-    pushes_per_repo: 4.4286
-    active_days: 14
+    pushes: 5
+    distinct_repos: 2
+    pushes_per_repo: 2.5000
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 4 vault signal(s) — pass"
-  - "activity: 14 active days in 90d — pass"
+  - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "dotfiles"
@@ -85,25 +85,35 @@ repos:
     description: "My dotfiles"
     language: "TypeScript"
     topics: []
-    stars_fact: 15
+    stars_fact: 16
     first_seen: null
-    last_push: "2026-08-31"
+    last_push: "2026-09-11"
   - name: "infra"
     title: "infra"
     description: "selfhosted infra scripts"
     language: "Jsonnet"
     topics: []
-    stars_fact: 160
+    stars_fact: 161
     first_seen: null
-    last_push: "2026-08-30"
+    last_push: "2026-09-12"
   - name: "llm-cmd-comp"
     title: "llm-cmd-comp"
     description: "Shell completion using LLM"
     language: "Python"
     topics: []
-    stars_fact: 62
+    stars_fact: 61
     first_seen: null
     last_push: "2025-06-18"
+  - name: "dfm"
+    title: "dfm"
+    description: "dotfile manager with 0 dependencies, minimal configuration, and automatic cleanup"
+    language: "Go"
+    topics:
+      - "dotfile-manager"
+      - "dotfiles"
+    stars_fact: 71
+    first_seen: null
+    last_push: "2026-06-12"
   - name: "sqlite3_ext"
     title: "sqlite3_ext"
     description: "Build loadable extensions for SQLite using Rust"
@@ -120,20 +130,10 @@ repos:
     stars_fact: 54
     first_seen: null
     last_push: "2025-03-31"
-  - name: "dfm"
-    title: "dfm"
-    description: "dotfile manager with 0 dependencies, minimal configuration, and automatic cleanup"
-    language: "Go"
-    topics:
-      - "dotfile-manager"
-      - "dotfiles"
-    stars_fact: 72
-    first_seen: null
-    last_push: "2026-06-12"
 ---
 
 # CGamesPlay
 
-31 pushes across 7 repositories on 14 active days in the last 90 days of public GitHub push activity.
+5 pushes across 2 repositories on 5 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/CGamesPlay

@@ -8,39 +8,39 @@ provenance_repos:
   - "can1357/oh-my-pi"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+repos_populated: false
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [4, 19, 47, 107, 11, 31, 30, 47, 55, 86, 15, 15, 0]
+pushes_per_week: [27, 87, 25, 13, 37, 63, 55, 63, 21, 6, 2, 17, 37]
 windows:
   "7d":
-    pushes: 2
-    distinct_repos: 1
-    active_days: 1
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    pushes: 37
+    distinct_repos: 7
+    active_days: 5
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "30d":
-    pushes: 133
-    distinct_repos: 21
-    active_days: 22
-    repos_not_owned: 11
-    not_owned_basenames: 5
-    not_owned_owners: 11
+    pushes: 70
+    distinct_repos: 9
+    active_days: 15
+    repos_not_owned: 3
+    not_owned_basenames: 2
+    not_owned_owners: 3
   "90d":
-    pushes: 467
-    distinct_repos: 53
-    active_days: 56
-    repos_not_owned: 39
-    not_owned_basenames: 7
-    not_owned_owners: 39
+    pushes: 453
+    distinct_repos: 51
+    active_days: 60
+    repos_not_owned: 37
+    not_owned_basenames: 8
+    not_owned_owners: 37
 automation:
   state: "clear"
-  push_per_day: 8.3393
-  repo_per_active_day: 0.9464
-  not_owned_ratio: 0.7358
-  basename_concentration: 0.3774
+  push_per_day: 7.5500
+  repo_per_active_day: 0.8500
+  not_owned_ratio: 0.7255
+  basename_concentration: 0.4118
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,98 +49,38 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
-    distinct_repos: 1
-    pushes_per_repo: 2.0000
-    active_days: 1
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    pushes: 37
+    distinct_repos: 7
+    pushes_per_repo: 5.2857
+    active_days: 5
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "30d":
-    pushes: 133
-    distinct_repos: 21
-    pushes_per_repo: 6.3333
-    active_days: 22
-    repos_not_owned: 11
-    not_owned_basenames: 5
-    not_owned_owners: 11
+    pushes: 70
+    distinct_repos: 9
+    pushes_per_repo: 7.7778
+    active_days: 15
+    repos_not_owned: 3
+    not_owned_basenames: 2
+    not_owned_owners: 3
   "90d":
-    pushes: 467
-    distinct_repos: 53
-    pushes_per_repo: 8.8113
-    active_days: 56
-    repos_not_owned: 39
-    not_owned_basenames: 7
-    not_owned_owners: 39
+    pushes: 453
+    distinct_repos: 51
+    pushes_per_repo: 8.8824
+    active_days: 60
+    repos_not_owned: 37
+    not_owned_basenames: 8
+    not_owned_owners: 37
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 56 active days in 90d — pass"
+  - "activity: 60 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "pi-subagents"
-    title: "pi-subagents"
-    description: "Pi extension for async subagent delegation with truncation, artifacts, and session sharing"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 3446
-    first_seen: null
-    last_push: "2026-09-03"
-  - name: "pi-discord"
-    title: "pi-discord"
-    description: "Discord bot that routes mentions, DMs, and slash commands to persistent Pi sessions"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 37
-    first_seen: null
-    last_push: "2026-04-04"
-  - name: "pi-web-access"
-    title: "pi-web-access"
-    description: "Web search and content extraction extension for Pi coding agent"
-    language: "TypeScript"
-    topics:
-      - "perplexity"
-      - "pi-coding-agent"
-      - "typescript"
-      - "web-search"
-    stars_fact: 1348
-    first_seen: null
-    last_push: "2026-09-03"
-  - name: "pi-mcp-adapter"
-    title: "pi-mcp-adapter"
-    description: "Token-efficient MCP adapter for Pi coding agent"
-    language: "TypeScript"
-    topics:
-      - "ai"
-      - "claude"
-      - "coding-agent"
-      - "extension"
-      - "llm"
-      - "mcp"
-      - "model-context-protocol"
-      - "pi"
-    stars_fact: 1404
-    first_seen: null
-    last_push: "2026-09-03"
-  - name: "pi-boomerang"
-    title: "pi-boomerang"
-    description: "Token-efficient autonomous task execution with context collapse for pi coding agent"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 299
-    first_seen: null
-    last_push: "2026-08-03"
-  - name: "pi-powerline-footer"
-    title: "pi-powerline-footer"
-    description: "Powerline-style status bar extension for pi coding agent"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 414
-    first_seen: null
-    last_push: "2026-09-01"
+repos: []
 ---
 
 # nicobailon
 
-467 pushes across 53 repositories on 56 active days in the last 90 days of public GitHub push activity.
+453 pushes across 51 repositories on 60 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/nicobailon

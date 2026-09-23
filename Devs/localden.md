@@ -6,39 +6,41 @@ discovered_via_all:
   - "fanout"
 provenance_repos:
   - "anthropics/claude-plugins-official"
+  - "anthropics/knowledge-work-plugins"
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "02eab667df448997"
-pushes_per_week: [3, 5, 4, 13, 1, 1, 1, 11, 0, 0, 0, 0, 0]
+  - "2d6ba8fc0269fd52"
+pushes_per_week: [8, 7, 1, 0, 8, 4, 0, 0, 0, 0, 0, 1, 2]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    pushes: 2
+    distinct_repos: 2
+    active_days: 2
+    repos_not_owned: 2
+    not_owned_basenames: 2
+    not_owned_owners: 1
   "30d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    pushes: 3
+    distinct_repos: 2
+    active_days: 3
+    repos_not_owned: 2
+    not_owned_basenames: 2
+    not_owned_owners: 1
   "90d":
-    pushes: 39
+    pushes: 31
     distinct_repos: 3
-    active_days: 19
+    active_days: 15
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.0526
-  repo_per_active_day: 0.1579
+  push_per_day: 2.0667
+  repo_per_active_day: 0.2000
   not_owned_ratio: 1.0000
   basename_concentration: 0.3333
   shapes: []
@@ -49,34 +51,42 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    pushes: 2
+    distinct_repos: 2
+    pushes_per_repo: 1.0000
+    active_days: 2
+    repos_not_owned: 2
+    not_owned_basenames: 2
+    not_owned_owners: 1
   "30d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    pushes: 3
+    distinct_repos: 2
+    pushes_per_repo: 1.5000
+    active_days: 3
+    repos_not_owned: 2
+    not_owned_basenames: 2
+    not_owned_owners: 1
   "90d":
-    pushes: 39
+    pushes: 31
     distinct_repos: 3
-    pushes_per_repo: 13.0000
-    active_days: 19
+    pushes_per_repo: 10.3333
+    active_days: 15
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
 reasons:
-  - "provenance: 1 vault signal(s) — pass"
-  - "activity: 19 active days in 90d — pass"
+  - "provenance: 2 vault signal(s) — pass"
+  - "activity: 15 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "mcp-repo-data-tracker"
+    title: "mcp-repo-data-tracker"
+    description: "Tracker that gives visibility into the issues/PRs that are currently open in the MCP repo."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 10
+    first_seen: null
+    last_push: "2026-09-23"
   - name: "ant-repo-data-tracker"
     title: "ant-repo-data-tracker"
     description: "Tracking the issues and PRs in open-source Anthropic SDK repositories."
@@ -84,15 +94,7 @@ repos:
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-09-03"
-  - name: "mcp-repo-data-tracker"
-    title: "mcp-repo-data-tracker"
-    description: "Tracker that gives visibility into the issues/PRs that are currently open in the MCP repo."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 9
-    first_seen: null
-    last_push: "2026-09-03"
+    last_push: "2026-09-23"
   - name: "claude-mcpapp-onestate"
     title: "claude-mcpapp-onestate"
     description: "Sample demo-ing how Claude can maintain one single widget."
@@ -129,6 +131,6 @@ repos:
 
 # localden
 
-39 pushes across 3 repositories on 19 active days in the last 90 days of public GitHub push activity.
+31 pushes across 3 repositories on 15 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/localden

@@ -8,11 +8,11 @@ provenance_repos:
   - "agentplugins/agent-plugins-spec"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+repos_populated: false
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "8baedcc9c29d068b"
-pushes_per_week: [2, 1, 4, 6, 18, 10, 1, 0, 0, 4, 1, 0, 0]
+pushes_per_week: [5, 12, 15, 6, 0, 0, 0, 4, 1, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,25 +22,25 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 5
-    distinct_repos: 2
-    active_days: 2
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 47
-    distinct_repos: 10
-    active_days: 21
+    pushes: 43
+    distinct_repos: 9
+    active_days: 18
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.2381
-  repo_per_active_day: 0.4762
+  push_per_day: 2.3889
+  repo_per_active_day: 0.5000
   not_owned_ratio: 0.0000
-  basename_concentration: 0.1000
+  basename_concentration: 0.1111
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -57,78 +57,30 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 5
-    distinct_repos: 2
-    pushes_per_repo: 2.5000
-    active_days: 2
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 47
-    distinct_repos: 10
-    pushes_per_repo: 4.7000
-    active_days: 21
+    pushes: 43
+    distinct_repos: 9
+    pushes_per_repo: 4.7778
+    active_days: 18
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 21 active days in 90d — pass"
+  - "activity: 18 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "n8n-nodes-claudecode"
-    title: "n8n-nodes-claudecode"
-    description: "n8n node for Claude Code SDK integration with MCP support"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 79
-    first_seen: null
-    last_push: "2025-08-01"
-  - name: "this-or-that"
-    title: "this-or-that"
-    description: "Compare interactive UI designs, record notes, and rank candidates."
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-01"
-  - name: "dotagent"
-    title: "dotagent"
-    description: "Universal AI agent configuration parser and converter"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 145
-    first_seen: null
-    last_push: "2026-04-14"
-  - name: "mdflow"
-    title: "mdflow"
-    description: "Multi-backend CLI for executable markdown prompts. Run .md files against Claude, Codex, Gemini, or Copilot."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 603
-    first_seen: null
-    last_push: "2026-08-30"
-  - name: "claude-hooks"
-    title: "claude-hooks"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 389
-    first_seen: null
-    last_push: "2025-08-08"
-  - name: "kit"
-    title: "kit"
-    description: "Script Kit. Automate Anything."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 4185
-    first_seen: null
-    last_push: "2025-12-05"
+repos: []
 ---
 
 # johnlindquist
 
-47 pushes across 10 repositories on 21 active days in the last 90 days of public GitHub push activity.
+43 pushes across 9 repositories on 18 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/johnlindquist

@@ -8,39 +8,39 @@ provenance_repos:
   - "ChromeDevTools/chrome-devtools-mcp"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+repos_populated: false
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "379642deb53f3714"
-pushes_per_week: [3, 1, 0, 1, 4, 2, 1, 0, 0, 3, 1, 0, 0]
+pushes_per_week: [0, 5, 1, 1, 1, 0, 0, 4, 0, 0, 0, 0, 11]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
-  "30d":
-    pushes: 4
+    pushes: 11
     distinct_repos: 2
-    active_days: 3
-    repos_not_owned: 2
-    not_owned_basenames: 2
+    active_days: 2
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
+  "30d":
+    pushes: 11
+    distinct_repos: 2
+    active_days: 2
+    repos_not_owned: 1
+    not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 16
-    distinct_repos: 11
-    active_days: 12
-    repos_not_owned: 4
-    not_owned_basenames: 4
-    not_owned_owners: 2
+    pushes: 23
+    distinct_repos: 10
+    active_days: 10
+    repos_not_owned: 5
+    not_owned_basenames: 5
+    not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 1.3333
-  repo_per_active_day: 0.9167
-  not_owned_ratio: 0.3636
-  basename_concentration: 0.0909
+  push_per_day: 2.3000
+  repo_per_active_day: 1.0000
+  not_owned_ratio: 0.5000
+  basename_concentration: 0.1000
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,96 +49,38 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
-  "30d":
-    pushes: 4
+    pushes: 11
     distinct_repos: 2
-    pushes_per_repo: 2.0000
-    active_days: 3
-    repos_not_owned: 2
-    not_owned_basenames: 2
+    pushes_per_repo: 5.5000
+    active_days: 2
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
+  "30d":
+    pushes: 11
+    distinct_repos: 2
+    pushes_per_repo: 5.5000
+    active_days: 2
+    repos_not_owned: 1
+    not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 16
-    distinct_repos: 11
-    pushes_per_repo: 1.4545
-    active_days: 12
-    repos_not_owned: 4
-    not_owned_basenames: 4
-    not_owned_owners: 2
+    pushes: 23
+    distinct_repos: 10
+    pushes_per_repo: 2.3000
+    active_days: 10
+    repos_not_owned: 5
+    not_owned_basenames: 5
+    not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 12 active days in 90d — pass"
+  - "activity: 10 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "openclaw-termux"
-    title: "openclaw-termux"
-    description: "Run OpenClaw AI Gateway on Android — standalone Flutter app with built-in terminal, web dashboard, and one-tap setup. Also available as a Termux CLI package."
-    language: "Dart"
-    topics:
-      - "ai"
-      - "android"
-      - "claude"
-      - "gateway"
-      - "gemini"
-      - "openai"
-      - "openclaw"
-      - "termux"
-    stars_fact: 1695
-    first_seen: null
-    last_push: "2026-08-25"
-  - name: "ascii-profile-kit"
-    title: "ascii-profile-kit"
-    description: "Animated GitHub profile toolkit: typing ASCII portrait, neofetch info card, and daily-refreshed contribution heatmap as self-hosted SVGs."
-    language: "Python"
-    topics: []
-    stars_fact: 11
-    first_seen: null
-    last_push: "2026-09-03"
-  - name: "mithun50"
-    title: "mithun50"
-    description: "Config files for my GitHub profile."
-    language: "TypeScript"
-    topics:
-      - "config"
-      - "github-config"
-    stars_fact: 17
-    first_seen: null
-    last_push: "2026-09-03"
-  - name: "zcode-android"
-    title: "zcode-android"
-    description: "ZCode Android - standalone Flutter WebView client for the ZCode webapp (com.z.zcode)"
-    language: "Dart"
-    topics: []
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-08-25"
-  - name: "SuperGravity"
-    title: "SuperGravity"
-    description: "Configuration framework for Google Antigravity IDE with structured workflows and MCP integrations"
-    language: "Python"
-    topics: []
-    stars_fact: 31
-    first_seen: null
-    last_push: "2026-02-02"
-  - name: "Quilonix-Resend-Automation"
-    title: "Quilonix-Resend-Automation"
-    description: "Send personalized bulk emails via the Resend API. CSV recipients, Markdown content, email-client-safe HTML template."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-08-20"
+repos: []
 ---
 
 # mithun50
 
-16 pushes across 11 repositories on 12 active days in the last 90 days of public GitHub push activity.
+23 pushes across 10 repositories on 10 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/mithun50

@@ -8,11 +8,11 @@ provenance_repos:
   - "abhigyanpatwari/GitNexus"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+repos_populated: false
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [27, 20, 1, 7, 4, 3, 4, 2, 5, 6, 0, 0, 1]
+pushes_per_week: [0, 10, 1, 6, 1, 4, 6, 3, 0, 0, 4, 3, 0]
 windows:
   "7d":
     pushes: 1
@@ -22,25 +22,25 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 10
-    distinct_repos: 4
-    active_days: 7
+    pushes: 7
+    distinct_repos: 6
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 80
-    distinct_repos: 8
-    active_days: 30
+    pushes: 38
+    distinct_repos: 11
+    active_days: 22
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.6667
-  repo_per_active_day: 0.2667
+  push_per_day: 1.7273
+  repo_per_active_day: 0.5000
   not_owned_ratio: 0.0000
-  basename_concentration: 0.1250
+  basename_concentration: 0.0909
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -57,83 +57,30 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 10
-    distinct_repos: 4
-    pushes_per_repo: 2.5000
-    active_days: 7
+    pushes: 7
+    distinct_repos: 6
+    pushes_per_repo: 1.1667
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 80
-    distinct_repos: 8
-    pushes_per_repo: 10.0000
-    active_days: 30
+    pushes: 38
+    distinct_repos: 11
+    pushes_per_repo: 3.4545
+    active_days: 22
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 30 active days in 90d — pass"
+  - "activity: 22 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "MinidoracatModLangFor42"
-    title: "MinidoracatModLangFor42"
-    description: "[B42] Project Zomboid 模組翻譯包：670+ 個 Workshop 模組（830+ 個模組 ID）的繁體/簡體中文翻譯（如一漢化組授權繁中版）"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-03"
-  - name: "workshop-resources"
-    title: "workshop-resources"
-    description: "Shared image assets for Steam Workshop descriptions"
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-03"
-  - name: "MinidoracatMiniMapModMapsFor42"
-    title: "MinidoracatMiniMapModMapsFor42"
-    description: "Minidoracat 小地圖的地圖包 addon——多張地圖 MOD 的小地圖圖資（pyramid）與範圍框線資料"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-03"
-  - name: "mcp-feedback-enhanced"
-    title: "mcp-feedback-enhanced"
-    description: "Enhanced MCP server for interactive user feedback and command execution in AI-assisted development, featuring dual interface support (Web UI and Desktop Application) with intelligent environment detection and cross-platform compatibility."
-    language: "JavaScript"
-    topics: []
-    stars_fact: 3774
-    first_seen: null
-    last_push: "2026-08-25"
-  - name: "MinidoracatAutoDriveFor42"
-    title: "MinidoracatAutoDriveFor42"
-    description: "Project Zomboid B42 — item-driven GPS navigation & AutoDrive addon for Minidoracat MiniMap"
-    language: "Lua"
-    topics:
-      - "autodrive"
-      - "build-42"
-      - "mod"
-      - "navigation"
-      - "project-zomboid"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-02"
-  - name: "MinidoracatJavaPatchFor42"
-    title: "MinidoracatJavaPatchFor42"
-    description: "PZ B42 專用伺服器 loose-class 優化 patch——ASM bytecode 手術，不改 jar 本體，裝了下次重啟生效，uninstall 即回退"
-    language: "Java"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-02"
+repos: []
 ---
 
 # Minidoracat
 
-80 pushes across 8 repositories on 30 active days in the last 90 days of public GitHub push activity.
+38 pushes across 11 repositories on 22 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Minidoracat

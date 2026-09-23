@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "386c24cf5e18fd90"
-pushes_per_week: [0, 0, 0, 2, 0, 0, 0, 0, 0, 5, 2, 1, 0]
+pushes_per_week: [1, 1, 0, 0, 0, 0, 1, 6, 1, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 8
+    pushes: 1
     distinct_repos: 1
-    active_days: 5
+    active_days: 1
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 8
+    pushes: 1
     distinct_repos: 1
-    pushes_per_repo: 8.0000
-    active_days: 5
+    pushes_per_repo: 1.0000
+    active_days: 1
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -77,6 +77,14 @@ reasons:
   - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "discord-gateway-cloudflare-do"
+    title: "discord-gateway-cloudflare-do"
+    description: "Persistent Discord Gateway WebSocket on Cloudflare Workers via Durable Objects. Drop-in replacement for Chat SDK's startGatewayListener()."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 20
+    first_seen: null
+    last_push: "2026-03-03"
   - name: "opencode-talk"
     title: "opencode-talk"
     description: "Voice interface for OpenCode - speak to your codebase"
@@ -85,14 +93,6 @@ repos:
     stars_fact: 11
     first_seen: null
     last_push: "2026-01-09"
-  - name: "discord-gateway-cloudflare-do"
-    title: "discord-gateway-cloudflare-do"
-    description: "Persistent Discord Gateway WebSocket on Cloudflare Workers via Durable Objects. Drop-in replacement for Chat SDK's startGatewayListener()."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 18
-    first_seen: null
-    last_push: "2026-03-03"
   - name: "chat-state-cloudflare-do"
     title: "chat-state-cloudflare-do"
     description: "Cloudflare Durable Objects state adapter for Chat SDK"

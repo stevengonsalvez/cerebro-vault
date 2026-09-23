@@ -8,11 +8,11 @@ provenance_repos:
   - "alibaba/open-code-review"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-09-04T06:06:21.234597+00:00"
+repos_populated: false
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "c489e6fb5febf2ab"
-pushes_per_week: [0, 0, 0, 1, 4, 0, 0, 7, 2, 0, 0, 0, 0]
+pushes_per_week: [0, 2, 3, 0, 7, 2, 0, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,31 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "memorycheck"
-    title: "memorycheck"
-    description: "A behavioural release gate for agent memory: prove your agent remembers, updates, scopes and forgets — behaviourally, not just at the storage API."
-    language: "Python"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-08-07"
-  - name: "yinkametrics.github.io"
-    title: "yinkametrics.github.io"
-    description: "Portfolio website"
-    language: "CSS"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-07-19"
-  - name: "PortFolioProject"
-    title: "PortFolioProject"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-07-01"
+repos: []
 ---
 
 # YinkaMetrics

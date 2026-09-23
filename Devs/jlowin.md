@@ -8,11 +8,11 @@ provenance_repos:
   - "PrefectHQ/fastmcp"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+repos_populated: false
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "2bd11e9b6557176e"
-pushes_per_week: [0, 1, 18, 6, 15, 53, 43, 17, 1, 0, 0, 1, 0]
+pushes_per_week: [7, 18, 3, 73, 40, 0, 1, 0, 1, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,39 +29,23 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 155
-    distinct_repos: 8
-    active_days: 23
-    repos_not_owned: 7
+    pushes: 143
+    distinct_repos: 6
+    active_days: 21
+    repos_not_owned: 6
     not_owned_basenames: 1
-    not_owned_owners: 7
+    not_owned_owners: 6
 automation:
   state: "clear"
-  push_per_day: 6.7391
-  repo_per_active_day: 0.3478
-  not_owned_ratio: 0.8750
-  basename_concentration: 0.8750
-  shapes:
-    - "fork_farm"
-  shape_evidence:
-    - "basename concentration 0.8750 (7 of 8 repos share one basename), 7 not owned across 1 basenames"
+  push_per_day: 6.8095
+  repo_per_active_day: 0.2857
+  not_owned_ratio: 1.0000
+  basename_concentration: 1.0000
+  shapes: []
+  shape_evidence: []
   cleared_by: "e01-builder"
   cleared_on: "2026-08-26"
-  fork_provenance:
-    checked: 4
-    own_upstream: 0
-    third_party: 3
-    no_upstream: 1
-    unresolved: 1
-    truncated: false
-    sampled:
-      - "bobbyjames839/fastmcp"
-      - "Educg550/fastmcp"
-      - "gaokevin1/fastmcp"
-      - "hxaxd/fastmcp"
-      - "PrefectHQ/fastmcp"
-    upstreams:
-      - "PrefectHQ/fastmcp"
+  fork_provenance: null
   prefilter: "rest_verified"
 facets:
   "7d":
@@ -81,78 +65,22 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 155
-    distinct_repos: 8
-    pushes_per_repo: 19.3750
-    active_days: 23
-    repos_not_owned: 7
+    pushes: 143
+    distinct_repos: 6
+    pushes_per_repo: 23.8333
+    active_days: 21
+    repos_not_owned: 6
     not_owned_basenames: 1
-    not_owned_owners: 7
+    not_owned_owners: 6
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 23 active days in 90d — pass"
+  - "activity: 21 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "copychat"
-    title: "copychat"
-    description: "📋💬 Simple code-to-context utility"
-    language: "Python"
-    topics:
-      - "ai"
-      - "aiengineering"
-      - "llm"
-      - "prompt"
-    stars_fact: 59
-    first_seen: null
-    last_push: "2025-06-19"
-  - name: "claude-wt"
-    title: "claude-wt"
-    description: "🌴 Simple utility for managing parallel Claude Code instances"
-    language: "Python"
-    topics:
-      - "agent"
-      - "claude"
-      - "claude-ai"
-      - "claude-code"
-    stars_fact: 44
-    first_seen: null
-    last_push: "2025-07-07"
-  - name: "aimages"
-    title: "aimages"
-    description: "Generate images with hidden text"
-    language: "Python"
-    topics: []
-    stars_fact: 88
-    first_seen: null
-    last_push: "2024-03-25"
-  - name: "jlowin"
-    title: "jlowin"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-06-19"
-  - name: "ai-labeler"
-    title: "ai-labeler"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 29
-    first_seen: null
-    last_push: "2024-12-03"
-  - name: "mintlify-docs"
-    title: "mintlify-docs"
-    description: null
-    language: "MDX"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2025-03-06"
+repos: []
 ---
 
 # jlowin
 
-155 pushes across 8 repositories on 23 active days in the last 90 days of public GitHub push activity.
+143 pushes across 6 repositories on 21 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/jlowin

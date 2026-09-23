@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "f74d5b6b78b8a1a4"
-pushes_per_week: [18, 0, 44, 49, 20, 18, 20, 13, 15, 18, 2, 4, 0]
+pushes_per_week: [36, 46, 21, 13, 24, 14, 15, 14, 2, 2, 2, 1, 2]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
+    pushes: 2
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 32
-    distinct_repos: 1
-    active_days: 12
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
-  "90d":
-    pushes: 221
-    distinct_repos: 4
-    active_days: 55
+    pushes: 9
+    distinct_repos: 2
+    active_days: 7
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
+  "90d":
+    pushes: 192
+    distinct_repos: 3
+    active_days: 52
+    repos_not_owned: 2
+    not_owned_basenames: 1
+    not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 4.0182
-  repo_per_active_day: 0.0727
-  not_owned_ratio: 0.2500
-  basename_concentration: 0.5000
+  push_per_day: 3.6923
+  repo_per_active_day: 0.0577
+  not_owned_ratio: 0.6667
+  basename_concentration: 1.0000
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
+    pushes: 2
+    distinct_repos: 1
+    pushes_per_repo: 2.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 32
-    distinct_repos: 1
-    pushes_per_repo: 32.0000
-    active_days: 12
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
-  "90d":
-    pushes: 221
-    distinct_repos: 4
-    pushes_per_repo: 55.2500
-    active_days: 55
+    pushes: 9
+    distinct_repos: 2
+    pushes_per_repo: 4.5000
+    active_days: 7
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
+  "90d":
+    pushes: 192
+    distinct_repos: 3
+    pushes_per_repo: 64.0000
+    active_days: 52
+    repos_not_owned: 2
+    not_owned_basenames: 1
+    not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 55 active days in 90d — pass"
+  - "activity: 52 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "codebase-memory-mcp"
@@ -102,9 +102,9 @@ repos:
       - "sqlite"
       - "tree-sitter"
       - "windsurf"
-    stars_fact: 42019
+    stars_fact: 44348
     first_seen: "2026-06-19T17:17:11.396487+00:00"
-    last_push: "2026-09-03"
+    last_push: "2026-09-22"
   - name: "airbyte"
     title: "airbyte"
     description: "Data integration platform for ELT pipelines from APIs, databases & files to warehouses & lakes."
@@ -117,6 +117,6 @@ repos:
 
 # DeusData
 
-221 pushes across 4 repositories on 55 active days in the last 90 days of public GitHub push activity.
+192 pushes across 3 repositories on 52 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/DeusData

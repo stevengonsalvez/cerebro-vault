@@ -9,13 +9,13 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "97c4e9cb8b163ddb"
   - "c7515e0fa4368a55"
   - "d3abe74726b22711"
   - "e7c647c4d0689526"
-pushes_per_week: [1, 4, 1, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 2, 0]
 windows:
   "7d":
     pushes: 0
@@ -25,25 +25,25 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 3
-    distinct_repos: 3
-    active_days: 3
+    pushes: 2
+    distinct_repos: 2
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 9
-    distinct_repos: 4
-    active_days: 6
+    pushes: 5
+    distinct_repos: 5
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.5000
-  repo_per_active_day: 0.6667
+  push_per_day: 1.0000
+  repo_per_active_day: 1.0000
   not_owned_ratio: 0.0000
-  basename_concentration: 0.2500
+  basename_concentration: 0.2000
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -60,26 +60,50 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 3
-    distinct_repos: 3
+    pushes: 2
+    distinct_repos: 2
     pushes_per_repo: 1.0000
-    active_days: 3
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 9
-    distinct_repos: 4
-    pushes_per_repo: 2.2500
-    active_days: 6
+    pushes: 5
+    distinct_repos: 5
+    pushes_per_repo: 1.0000
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 4 vault signal(s) — pass"
-  - "activity: 6 active days in 90d — pass"
+  - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "opencode-lmstudio"
+    title: "opencode-lmstudio"
+    description: "OpenCode plugin for enhanced LM Studio support with auto-detection and dynamic model discovery"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 152
+    first_seen: null
+    last_push: "2026-09-11"
+  - name: "rust-sandbox-bridge"
+    title: "rust-sandbox-bridge"
+    description: "Artifact factory: official Rust toolchain + approved cargo-vendor bundles for ChatGPT Linux sandbox offline builds"
+    language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-08-10"
+  - name: "bun-arcus"
+    title: "bun-arcus"
+    description: "Public, upstream-first Bun patch queue for Arcus CI runtime qualification. No production releases."
+    language: "Rust"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-18"
   - name: "effect-zfs"
     title: "effect-zfs"
     description: "Effect v4 library for Linux OpenZFS"
@@ -87,7 +111,7 @@ repos:
     topics: []
     stars_fact: 2
     first_seen: null
-    last_push: "2026-08-25"
+    last_push: "2026-09-13"
   - name: "castcli"
     title: "castcli"
     description: null
@@ -95,7 +119,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-01"
+    last_push: "2026-09-10"
   - name: "homebrew-tap"
     title: "homebrew-tap"
     description: "Homebrew tap for agustif/slk (OG-parity Slack TUI fork)"
@@ -104,34 +128,10 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-09-01"
-  - name: "machine-run"
-    title: "machine-run"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-02"
-  - name: "opencode-lmstudio"
-    title: "opencode-lmstudio"
-    description: "OpenCode plugin for enhanced LM Studio support with auto-detection and dynamic model discovery"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 147
-    first_seen: null
-    last_push: "2026-08-20"
-  - name: "bb-plugin-todo"
-    title: "bb-plugin-todo"
-    description: "BB plugin: hierarchical session todos with multi-agent dispatch"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-08-09"
 ---
 
 # agustif
 
-9 pushes across 4 repositories on 6 active days in the last 90 days of public GitHub push activity.
+5 pushes across 5 repositories on 5 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/agustif

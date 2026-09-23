@@ -9,10 +9,11 @@ provenance_repos:
   - "anthropics/claude-code"
   - "anthropics/claude-plugins-official"
 admitted: true
-low_n: true
+low_n: false
 repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
+  - "01cd6a498d377caf"
   - "02eab667df448997"
   - "03604cccd7e9402d"
   - "0754e13e69e8f4d3"
@@ -25,6 +26,7 @@ provenance:
   - "20cf339db543fe6b"
   - "2180229dc69461fd"
   - "228dddec5b6b8ab4"
+  - "23966244d47d35ba"
   - "246a4c93052ef3c1"
   - "2f4818ccad349c12"
   - "31d0f6b1d6dddfa7"
@@ -34,6 +36,7 @@ provenance:
   - "3f88ef2405b8fae7"
   - "44423c0a85b4d691"
   - "557818547b5e5732"
+  - "5744b97e5a176886"
   - "69930101e09d4f35"
   - "6d9f931d3f4a007e"
   - "7389d4b9c5e1318a"
@@ -49,6 +52,7 @@ provenance:
   - "b56da077d21ad4f4"
   - "b7b96dd0ccd56642"
   - "ba2a3cbea388e94b"
+  - "bb098ef13f310da7"
   - "bef41a8d82a61cb7"
   - "c2db1cf2bc94be3c"
   - "cc2a7fed69a6e4ac"
@@ -57,12 +61,12 @@ provenance:
   - "f672838de330e86f"
   - "f9a1870648a6375a"
   - "fe9e50bf2d5b21fe"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 6, 1, 1, 0, 0, 0]
+pushes_per_week: [0, 0, 0, 0, 0, 7, 0, 1, 0, 0, 0, 0, 1]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -74,18 +78,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 8
-    distinct_repos: 1
-    active_days: 4
+    pushes: 9
+    distinct_repos: 2
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.0000
-  repo_per_active_day: 0.2500
+  push_per_day: 1.8000
+  repo_per_active_day: 0.4000
   not_owned_ratio: 0.0000
-  basename_concentration: 1.0000
+  basename_concentration: 0.5000
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -94,10 +98,10 @@ automation:
   prefilter: "curated_roster"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
+    pushes: 1
+    distinct_repos: 1
+    pushes_per_repo: 1.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -110,34 +114,26 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 8
-    distinct_repos: 1
-    pushes_per_repo: 8.0000
-    active_days: 4
+    pushes: 9
+    distinct_repos: 2
+    pushes_per_repo: 4.5000
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
-  - "provenance: 44 vault signal(s) — pass"
-  - "activity: 4 active days in 90d — below the 5-day line, LABELLED low-n (never suppressed)"
+  - "provenance: 48 vault signal(s) — pass"
+  - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "bst-next"
-    title: "bst-next"
-    description: "Find the next node in a Binary Search Tree"
-    language: "Haskell"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2018-11-19"
-  - name: "js-math"
-    title: "js-math"
-    description: null
+  - name: "fibonacci"
+    title: "fibonacci"
+    description: "A simple iterative fibonacci spiral generator that demonstrates geometric recursion"
     language: "JavaScript"
     topics: []
-    stars_fact: 2
+    stars_fact: 1
     first_seen: null
-    last_push: "2020-02-24"
+    last_push: "2012-12-11"
   - name: "json-schema-to-typescript"
     title: "json-schema-to-typescript"
     description: "Compile JSON Schema to TypeScript type declarations"
@@ -145,29 +141,30 @@ repos:
     topics:
       - "json-schema"
       - "typescript"
-    stars_fact: 3345
+    stars_fact: 3347
     first_seen: null
-    last_push: "2026-09-03"
-  - name: "programming-typescript-answers"
-    title: "programming-typescript-answers"
-    description: "Official answers for exercises from Orielly's Programming TypeScript"
+    last_push: "2026-09-07"
+  - name: "bcherny.github.io"
+    title: "bcherny.github.io"
+    description: "My blog"
+    language: "SCSS"
+    topics: []
+    stars_fact: 18
+    first_seen: null
+    last_push: "2026-09-20"
+  - name: "undux"
+    title: "undux"
+    description: "⚡️ Dead simple state for React. Now with Hooks support."
     language: "TypeScript"
     topics:
+      - "flux"
+      - "react"
+      - "redux"
+      - "typesafe"
       - "typescript"
-    stars_fact: 557
+    stars_fact: 1562
     first_seen: null
-    last_push: "2021-08-10"
-  - name: "draggable"
-    title: "draggable"
-    description: "High performance, fully cross browser, full featured drag and drop in a tiny (2k gzipped), dependency-free package"
-    language: "JavaScript"
-    topics:
-      - "drag-and-drop"
-      - "microlib"
-      - "vanilla-javascript"
-    stars_fact: 203
-    first_seen: null
-    last_push: "2022-12-08"
+    last_push: "2025-05-08"
   - name: "frontend-interview-questions"
     title: "frontend-interview-questions"
     description: "Answers for https://borischerny.com/javascript/%22functional/programming%22/2017/06/09/Frontend-Interview-Questions.html"
@@ -180,10 +177,19 @@ repos:
     stars_fact: 1141
     first_seen: null
     last_push: "2023-01-21"
+  - name: "programming-typescript-answers"
+    title: "programming-typescript-answers"
+    description: "Official answers for exercises from Orielly's Programming TypeScript"
+    language: "TypeScript"
+    topics:
+      - "typescript"
+    stars_fact: 555
+    first_seen: null
+    last_push: "2021-08-10"
 ---
 
 # bcherny
 
-8 pushes across 1 repository on 4 active days in the last 90 days of public GitHub push activity.
+9 pushes across 2 repositories on 5 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/bcherny

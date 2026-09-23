@@ -10,37 +10,37 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "541318303a272608"
   - "c489e6fb5febf2ab"
-pushes_per_week: [0, 0, 1, 9, 16, 13, 0, 34, 20, 13, 0, 0, 0]
+pushes_per_week: [3, 18, 13, 4, 3, 35, 28, 1, 0, 0, 0, 0, 3]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
+    pushes: 3
+    distinct_repos: 3
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 22
-    distinct_repos: 11
-    active_days: 5
+    pushes: 3
+    distinct_repos: 3
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 106
+    pushes: 108
     distinct_repos: 18
-    active_days: 24
+    active_days: 25
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 4.4167
-  repo_per_active_day: 0.7500
+  push_per_day: 4.3200
+  repo_per_active_day: 0.7200
   not_owned_ratio: 0.0000
   basename_concentration: 0.0556
   shapes: []
@@ -51,38 +51,46 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
+    pushes: 3
+    distinct_repos: 3
+    pushes_per_repo: 1.0000
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 22
-    distinct_repos: 11
-    pushes_per_repo: 2.0000
-    active_days: 5
+    pushes: 3
+    distinct_repos: 3
+    pushes_per_repo: 1.0000
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 106
+    pushes: 108
     distinct_repos: 18
-    pushes_per_repo: 5.8889
-    active_days: 24
+    pushes_per_repo: 6.0000
+    active_days: 25
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 24 active days in 90d — pass"
+  - "activity: 25 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "RerankerGuo.github.io"
+    title: "RerankerGuo.github.io"
+    description: null
+    language: "SCSS"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-22"
 ---
 
 # RerankerGuo
 
-106 pushes across 18 repositories on 24 active days in the last 90 days of public GitHub push activity.
+108 pushes across 18 repositories on 25 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/RerankerGuo

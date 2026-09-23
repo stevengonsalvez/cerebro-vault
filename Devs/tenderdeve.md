@@ -8,11 +8,11 @@ provenance_repos:
   - "chopratejas/headroom"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-09-04T06:06:21.234597+00:00"
+repos_populated: false
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "73468cde177ddae6"
-pushes_per_week: [2, 0, 8, 7, 3, 0, 1, 0, 0, 5, 0, 0, 0]
+pushes_per_week: [1, 7, 2, 1, 0, 0, 5, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,25 +22,25 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 5
-    distinct_repos: 2
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 26
-    distinct_repos: 7
-    active_days: 11
+    pushes: 16
+    distinct_repos: 6
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.3636
-  repo_per_active_day: 0.6364
+  push_per_day: 2.2857
+  repo_per_active_day: 0.8571
   not_owned_ratio: 0.0000
-  basename_concentration: 0.1429
+  basename_concentration: 0.1667
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -57,90 +57,30 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 5
-    distinct_repos: 2
-    pushes_per_repo: 2.5000
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 26
-    distinct_repos: 7
-    pushes_per_repo: 3.7143
-    active_days: 11
+    pushes: 16
+    distinct_repos: 6
+    pushes_per_repo: 2.6667
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 11 active days in 90d — pass"
+  - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "tenderdeve"
-    title: "tenderdeve"
-    description: "Config files for my GitHub profile."
-    language: null
-    topics:
-      - "config"
-      - "github-config"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-20"
-  - name: "orders-settlements"
-    title: "orders-settlements"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-12"
-  - name: "defi-explainer"
-    title: "defi-explainer"
-    description: "AI-powered DeFi portfolio explainer — plain English reports, chat, and optimization suggestions"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-05-26"
-  - name: "crypto-will"
-    title: "crypto-will"
-    description: "Dead man's switch for crypto wallets — create wills, monthly alive checks, auto-transfer on inactivity"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-05-14"
-  - name: "defi-dashboard"
-    title: "defi-dashboard"
-    description: "Real-time DeFi portfolio dashboard — token prices, LP positions, P&L tracking — Next.js + wagmi + TailwindCSS"
-    language: "TypeScript"
-    topics:
-      - "dashboard"
-      - "defi"
-      - "ethers"
-      - "nextjs"
-      - "portfolio-tracker"
-      - "react"
-      - "tailwindcss"
-      - "typescript"
-      - "wagmi"
-      - "web3"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-04-28"
-  - name: "wallet-profiler"
-    title: "wallet-profiler"
-    description: "On-chain wallet analytics platform"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-03-27"
+repos: []
 ---
 
 # tenderdeve
 
-26 pushes across 7 repositories on 11 active days in the last 90 days of public GitHub push activity.
+16 pushes across 6 repositories on 7 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/tenderdeve

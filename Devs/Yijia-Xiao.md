@@ -7,20 +7,20 @@ discovered_via_all:
 provenance_repos:
   - "TauricResearch/TradingAgents"
 admitted: true
-low_n: false
-repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+low_n: true
+repos_populated: false
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "626a5e4fcb233d8d"
-pushes_per_week: [8, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0]
+pushes_per_week: [0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
     pushes: 1
     distinct_repos: 1
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 12
+    pushes: 2
     distinct_repos: 1
-    active_days: 6
+    active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.0000
-  repo_per_active_day: 0.1667
+  push_per_day: 1.0000
+  repo_per_active_day: 0.5000
   not_owned_ratio: 1.0000
   basename_concentration: 1.0000
   shapes: []
@@ -49,13 +49,13 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
     pushes: 1
     distinct_repos: 1
@@ -65,84 +65,22 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 12
+    pushes: 2
     distinct_repos: 1
-    pushes_per_repo: 12.0000
-    active_days: 6
+    pushes_per_repo: 2.0000
+    active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 6 active days in 90d — pass"
+  - "activity: 2 active days in 90d — below the 5-day line, LABELLED low-n (never suppressed)"
   - "automation: clear — pass"
-repos:
-  - name: "FinanceHarness"
-    title: "FinanceHarness"
-    description: "FinanceHarness: Autonomous Financial Deep Research Framework"
-    language: "Python"
-    topics:
-      - "agentic-framework"
-      - "finance"
-      - "harness"
-    stars_fact: 118
-    first_seen: null
-    last_push: "2026-08-22"
-  - name: "PrivacyMind"
-    title: "PrivacyMind"
-    description: "Large Language Models Can Be Contextual Privacy Protection Learners"
-    language: "Python"
-    topics: []
-    stars_fact: 17
-    first_seen: null
-    last_push: "2024-10-28"
-  - name: "Know2BIO"
-    title: "Know2BIO"
-    description: "Know2BIO: A Comprehensive Dual-View Benchmark for Evolving Biomedical Knowledge Graphs"
-    language: "Python"
-    topics:
-      - "benchmark"
-      - "biomedical"
-      - "knowledge-graph"
-    stars_fact: 17
-    first_seen: null
-    last_push: "2026-02-10"
-  - name: "Protein-LLM-Survey"
-    title: "Protein-LLM-Survey"
-    description: "Large Language Models in Protein: A Comprehensive Survey"
-    language: null
-    topics:
-      - "awes"
-      - "comprehensive"
-      - "large-language-models"
-      - "llm"
-      - "papers"
-      - "papers-with-code"
-      - "protein"
-      - "survey"
-    stars_fact: 193
-    first_seen: null
-    last_push: "2025-04-02"
-  - name: "Yijia-Xiao"
-    title: "Yijia-Xiao"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 5
-    first_seen: null
-    last_push: "2023-12-26"
-  - name: "LogicVista"
-    title: "LogicVista"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 18
-    first_seen: null
-    last_push: "2024-08-01"
+repos: []
 ---
 
 # Yijia-Xiao
 
-12 pushes across 1 repository on 6 active days in the last 90 days of public GitHub push activity.
+2 pushes across 1 repository on 2 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Yijia-Xiao

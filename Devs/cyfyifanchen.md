@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "c1958731fdb78e2d"
-pushes_per_week: [0, 9, 12, 13, 5, 4, 2, 1, 1, 2, 1, 2, 0]
+pushes_per_week: [16, 4, 5, 2, 3, 1, 1, 1, 2, 1, 0, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 5
-    distinct_repos: 4
-    active_days: 5
-    repos_not_owned: 4
-    not_owned_basenames: 4
+    pushes: 2
+    distinct_repos: 1
+    active_days: 2
+    repos_not_owned: 1
+    not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 52
+    pushes: 37
     distinct_repos: 4
-    active_days: 25
+    active_days: 19
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.0800
-  repo_per_active_day: 0.1600
+  push_per_day: 1.9474
+  repo_per_active_day: 0.2105
   not_owned_ratio: 1.0000
   basename_concentration: 0.2500
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 5
-    distinct_repos: 4
-    pushes_per_repo: 1.2500
-    active_days: 5
-    repos_not_owned: 4
-    not_owned_basenames: 4
+    pushes: 2
+    distinct_repos: 1
+    pushes_per_repo: 2.0000
+    active_days: 2
+    repos_not_owned: 1
+    not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 52
+    pushes: 37
     distinct_repos: 4
-    pushes_per_repo: 13.0000
-    active_days: 25
+    pushes_per_repo: 9.2500
+    active_days: 19
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 25 active days in 90d — pass"
+  - "activity: 19 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "one-person-company"
@@ -86,15 +86,23 @@ repos:
       - "information"
       - "productivity"
       - "tools"
-    stars_fact: 2730
+    stars_fact: 2735
     first_seen: null
     last_push: "2025-05-08"
+  - name: "macOS-shortcuts-collection"
+    title: "macOS-shortcuts-collection"
+    description: "I like shortcuts, I hope you do as well ~~."
+    language: null
+    topics: []
+    stars_fact: 9
+    first_seen: null
+    last_push: "2016-08-09"
   - name: "dotfiles-and-tools"
     title: "dotfiles-and-tools"
     description: "Making Vim acts cool, also looks unique."
     language: "Vim Script"
     topics: []
-    stars_fact: 14
+    stars_fact: 15
     first_seen: null
     last_push: "2025-03-24"
   - name: "ruminer-browser-agent"
@@ -113,14 +121,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-03-31"
-  - name: "macOS-shortcuts-collection"
-    title: "macOS-shortcuts-collection"
-    description: "I like shortcuts, I hope you do as well ~~."
-    language: null
-    topics: []
-    stars_fact: 10
-    first_seen: null
-    last_push: "2016-08-09"
   - name: "cyfyifanchen"
     title: "cyfyifanchen"
     description: null
@@ -133,6 +133,6 @@ repos:
 
 # cyfyifanchen
 
-52 pushes across 4 repositories on 25 active days in the last 90 days of public GitHub push activity.
+37 pushes across 4 repositories on 19 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/cyfyifanchen

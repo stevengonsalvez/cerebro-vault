@@ -8,11 +8,11 @@ provenance_repos:
   - "ChromeDevTools/chrome-devtools-mcp"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-09-05T06:07:00.404056+00:00"
+repos_populated: false
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "379642deb53f3714"
-pushes_per_week: [1, 0, 0, 1, 1, 1, 0, 2, 0, 0, 0, 0, 0]
+pushes_per_week: [1, 1, 0, 1, 0, 2, 0, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 6
+    pushes: 5
     distinct_repos: 3
-    active_days: 6
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
   push_per_day: 1.0000
-  repo_per_active_day: 0.5000
+  repo_per_active_day: 0.6000
   not_owned_ratio: 0.0000
   basename_concentration: 0.3333
   shapes: []
@@ -65,38 +65,22 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 6
+    pushes: 5
     distinct_repos: 3
-    pushes_per_repo: 2.0000
-    active_days: 6
+    pushes_per_repo: 1.6667
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 6 active days in 90d — pass"
+  - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "Power-Automate-FlowSorter"
-    title: "Power-Automate-FlowSorter"
-    description: "Power Automate FlowSorterは、Power Automateのフローを種類ごとに自動で並べ替える拡張機能です。"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-24"
-  - name: "ChromeExtensionPrivacyPolicy"
-    title: "ChromeExtensionPrivacyPolicy"
-    description: "GoogleChromeExtension PrivacyPolicy"
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2020-02-19"
+repos: []
 ---
 
 # masamaru0513
 
-6 pushes across 3 repositories on 6 active days in the last 90 days of public GitHub push activity.
+5 pushes across 3 repositories on 5 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/masamaru0513

@@ -8,39 +8,39 @@ provenance_repos:
   - "agavra/tuicr"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+repos_populated: false
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [7, 6, 3, 2, 19, 10, 4, 4, 4, 1, 2, 2, 0]
+pushes_per_week: [2, 6, 24, 3, 3, 2, 5, 1, 2, 1, 5, 0, 1]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 9
-    distinct_repos: 4
-    active_days: 7
+    pushes: 8
+    distinct_repos: 2
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 64
-    distinct_repos: 11
-    active_days: 31
+    pushes: 55
+    distinct_repos: 12
+    active_days: 28
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.0645
-  repo_per_active_day: 0.3548
+  push_per_day: 1.9643
+  repo_per_active_day: 0.4286
   not_owned_ratio: 0.0000
-  basename_concentration: 0.0909
+  basename_concentration: 0.0833
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,95 +49,38 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
+    pushes: 1
+    distinct_repos: 1
+    pushes_per_repo: 1.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 9
-    distinct_repos: 4
-    pushes_per_repo: 2.2500
-    active_days: 7
+    pushes: 8
+    distinct_repos: 2
+    pushes_per_repo: 4.0000
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 64
-    distinct_repos: 11
-    pushes_per_repo: 5.8182
-    active_days: 31
+    pushes: 55
+    distinct_repos: 12
+    pushes_per_repo: 4.5833
+    active_days: 28
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 31 active days in 90d — pass"
+  - "activity: 28 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "homebrew-tap"
-    title: "homebrew-tap"
-    description: "Homebrew tap for Archivist"
-    language: "Ruby"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-04"
-  - name: "macarchy"
-    title: "macarchy"
-    description: null
-    language: "Swift"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-04"
-  - name: "opencode-tokenscope"
-    title: "opencode-tokenscope"
-    description: "Comprehensive token usage analysis and cost tracking for opencode sessions"
-    language: "TypeScript"
-    topics:
-      - "ai-tools"
-      - "cost-tracking"
-      - "developer-tools"
-      - "opencode"
-      - "opencode-plugins"
-    stars_fact: 273
-    first_seen: null
-    last_push: "2026-07-29"
-  - name: "dotfiles"
-    title: "dotfiles"
-    description: "Manually managed dotfiles"
-    language: "Shell"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-08-30"
-  - name: "voxcraft"
-    title: "voxcraft"
-    description: "tool for turning youtube video into summarized documents"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-16"
-  - name: "scribebase"
-    title: "scribebase"
-    description: "Local-first OCR, Markdown, and Weaviate RAG"
-    language: "Python"
-    topics:
-      - "local-first"
-      - "ocr"
-      - "rag"
-      - "weaviate"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-15"
+repos: []
 ---
 
 # ramtinJ95
 
-64 pushes across 11 repositories on 31 active days in the last 90 days of public GitHub push activity.
+55 pushes across 12 repositories on 28 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ramtinJ95

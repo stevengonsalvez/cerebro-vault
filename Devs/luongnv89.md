@@ -8,39 +8,39 @@ provenance_repos:
   - "luongnv89/claude-howto"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+repos_populated: false
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "98a99d0df7599b35"
-pushes_per_week: [51, 39, 39, 68, 24, 8, 11, 8, 7, 11, 21, 17, 2]
+pushes_per_week: [66, 48, 16, 8, 12, 5, 16, 4, 30, 6, 15, 32, 62]
 windows:
   "7d":
-    pushes: 3
-    distinct_repos: 2
-    active_days: 3
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    pushes: 62
+    distinct_repos: 15
+    active_days: 7
+    repos_not_owned: 3
+    not_owned_basenames: 3
+    not_owned_owners: 2
   "30d":
-    pushes: 54
-    distinct_repos: 18
-    active_days: 18
-    repos_not_owned: 4
-    not_owned_basenames: 4
+    pushes: 124
+    distinct_repos: 28
+    active_days: 24
+    repos_not_owned: 5
+    not_owned_basenames: 5
     not_owned_owners: 2
   "90d":
-    pushes: 306
-    distinct_repos: 34
-    active_days: 69
-    repos_not_owned: 6
-    not_owned_basenames: 6
+    pushes: 320
+    distinct_repos: 40
+    active_days: 68
+    repos_not_owned: 8
+    not_owned_basenames: 8
     not_owned_owners: 4
 automation:
   state: "clear"
-  push_per_day: 4.4348
-  repo_per_active_day: 0.4928
-  not_owned_ratio: 0.1765
-  basename_concentration: 0.0588
+  push_per_day: 4.7059
+  repo_per_active_day: 0.5882
+  not_owned_ratio: 0.2000
+  basename_concentration: 0.0500
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,101 +49,38 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 3
-    distinct_repos: 2
-    pushes_per_repo: 1.5000
-    active_days: 3
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    pushes: 62
+    distinct_repos: 15
+    pushes_per_repo: 4.1333
+    active_days: 7
+    repos_not_owned: 3
+    not_owned_basenames: 3
+    not_owned_owners: 2
   "30d":
-    pushes: 54
-    distinct_repos: 18
-    pushes_per_repo: 3.0000
-    active_days: 18
-    repos_not_owned: 4
-    not_owned_basenames: 4
+    pushes: 124
+    distinct_repos: 28
+    pushes_per_repo: 4.4286
+    active_days: 24
+    repos_not_owned: 5
+    not_owned_basenames: 5
     not_owned_owners: 2
   "90d":
-    pushes: 306
-    distinct_repos: 34
-    pushes_per_repo: 9.0000
-    active_days: 69
-    repos_not_owned: 6
-    not_owned_basenames: 6
+    pushes: 320
+    distinct_repos: 40
+    pushes_per_repo: 8.0000
+    active_days: 68
+    repos_not_owned: 8
+    not_owned_basenames: 8
     not_owned_owners: 4
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 69 active days in 90d — pass"
+  - "activity: 68 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "claude-howto"
-    title: "claude-howto"
-    description: "A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, with copy-paste templates that bring immediate value."
-    language: "Python"
-    topics:
-      - "claude-code"
-      - "guide"
-      - "tutorial"
-    stars_fact: 41340
-    first_seen: "2026-06-28T06:00:06.755641+00:00"
-    last_push: "2026-09-02"
-  - name: "asm"
-    title: "asm"
-    description: "The universal skill manager for AI coding agents."
-    language: "TypeScript"
-    topics:
-      - "agents"
-      - "ai"
-      - "aiagents"
-      - "coding"
-      - "skills"
-    stars_fact: 906
-    first_seen: null
-    last_push: "2026-09-03"
-  - name: "pi-extensions"
-    title: "pi-extensions"
-    description: "Collection of extensions and themes for Pi Coding Agent"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 106
-    first_seen: null
-    last_push: "2026-09-03"
-  - name: "free-llm-models"
-    title: "free-llm-models"
-    description: "List of openrouter free models"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-03"
-  - name: "freetokens"
-    title: "freetokens"
-    description: "Free AI Credits — aggregated, hand-verified free AI token/credit offers"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-09-03"
-  - name: "focus-paw"
-    title: "focus-paw"
-    description: "🐾 Privacy-first Chrome extension that tracks focus-switching habits with beautiful visualizations. Set limits, build streaks, improve productivity. All data stays on your device."
-    language: "JavaScript"
-    topics:
-      - "chrome-extension"
-      - "chrome-web-store"
-      - "focus-tracker"
-      - "javascript"
-      - "mv3"
-      - "privacy"
-      - "productivity"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-02"
+repos: []
 ---
 
 # luongnv89
 
-306 pushes across 34 repositories on 69 active days in the last 90 days of public GitHub push activity.
+320 pushes across 40 repositories on 68 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/luongnv89

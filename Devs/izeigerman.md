@@ -8,11 +8,11 @@ provenance_repos:
   - "izeigerman/claude-thermos"
 admitted: true
 low_n: true
-repos_populated: true
-generated_at: "2026-09-04T06:06:21.234597+00:00"
+repos_populated: false
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "daa338753d6df9fd"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,64 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 1 active days in 90d — below the 5-day line, LABELLED low-n (never suppressed)"
   - "automation: clear — pass"
-repos:
-  - name: "claude-thermos"
-    title: "claude-thermos"
-    description: "Keeps your Claude session warm for you"
-    language: "Python"
-    topics:
-      - "ai-agents"
-      - "claude-code"
-    stars_fact: 214
-    first_seen: "2026-07-24T06:00:05.187645+00:00"
-    last_push: "2026-07-27"
-  - name: "mindshard"
-    title: "mindshard"
-    description: "A Rust-based HTTP proxy that captures and indexes HTTP traffic using vector embeddings."
-    language: "Rust"
-    topics: []
-    stars_fact: 15
-    first_seen: null
-    last_push: "2026-01-03"
-  - name: "parsecat"
-    title: "parsecat"
-    description: "Pure functional parser combinator library which supports both applicative and monadic styles of parsing."
-    language: "Scala"
-    topics: []
-    stars_fact: 33
-    first_seen: null
-    last_push: "2021-09-20"
-  - name: "pittacus"
-    title: "pittacus"
-    description: "Gossip protocol implementation in C"
-    language: "C"
-    topics: []
-    stars_fact: 63
-    first_seen: null
-    last_push: "2017-02-01"
-  - name: "sqlglot-tokenizer"
-    title: "sqlglot-tokenizer"
-    description: null
-    language: "Rust"
-    topics: []
-    stars_fact: 4
-    first_seen: null
-    last_push: "2023-12-05"
-  - name: "akkeeper"
-    title: "akkeeper"
-    description: "An easy way to deploy your Akka services to a distributed environment."
-    language: "Scala"
-    topics:
-      - "akka"
-      - "deployment"
-      - "distributed-actors"
-      - "distributed-systems"
-      - "hadoop"
-      - "monitoring"
-      - "yarn"
-    stars_fact: 30
-    first_seen: null
-    last_push: "2022-12-23"
+repos: []
 ---
 
 # izeigerman

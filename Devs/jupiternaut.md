@@ -8,37 +8,37 @@ provenance_repos:
   - "BigPizzaV3/CodexPlusPlus"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+repos_populated: false
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "90688bf127241ceb"
-pushes_per_week: [0, 6, 17, 25, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [8, 21, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 48
+    pushes: 30
     distinct_repos: 20
-    active_days: 9
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 5.3333
-  repo_per_active_day: 2.2222
+  push_per_day: 5.0000
+  repo_per_active_day: 3.3333
   not_owned_ratio: 0.0000
   basename_concentration: 0.0500
   shapes: []
@@ -49,91 +49,38 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
+    pushes: 1
+    distinct_repos: 1
+    pushes_per_repo: 1.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
+    pushes: 1
+    distinct_repos: 1
+    pushes_per_repo: 1.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 48
+    pushes: 30
     distinct_repos: 20
-    pushes_per_repo: 2.4000
-    active_days: 9
+    pushes_per_repo: 1.5000
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 9 active days in 90d — pass"
+  - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "np-hard"
-    title: "np-hard"
-    description: "Two Keys One Lock: finite obstruction note and repro. Not a P vs NP proof."
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-18"
-  - name: "ecliptic-vlm-public"
-    title: "ecliptic-vlm-public"
-    description: "Reproducible research artifacts for monocular SLAM cold-start readiness"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-18"
-  - name: "draw-research-system-figure"
-    title: "draw-research-system-figure"
-    description: "Evidence-bounded Codex skill for turning context into editable scientific system figures"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-14"
-  - name: "python-world-map"
-    title: "python-world-map"
-    description: null
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-07-11"
-  - name: "world-compiler-gitbook"
-    title: "world-compiler-gitbook"
-    description: "Standalone GitBook and NotebookLM source for eight leaders across world models, robotics, compilers, optimization, and formal verification."
-    language: "HTML"
-    topics:
-      - "ai-education"
-      - "compilers"
-      - "gitbook"
-      - "notebooklm"
-      - "robotics"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-07-10"
-  - name: "mirror-doctor-gitbook"
-    title: "mirror-doctor-gitbook"
-    description: "GitBook-style project page for the Mirror + Doctor local context runtime"
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-07-10"
+repos: []
 ---
 
 # jupiternaut
 
-48 pushes across 20 repositories on 9 active days in the last 90 days of public GitHub push activity.
+30 pushes across 20 repositories on 6 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/jupiternaut

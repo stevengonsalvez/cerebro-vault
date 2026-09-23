@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "c1af6b58492f9bf4"
-pushes_per_week: [31, 98, 83, 46, 65, 28, 5, 29, 13, 10, 5, 1, 0]
+pushes_per_week: [70, 100, 15, 18, 10, 35, 3, 10, 3, 0, 15, 27, 38]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    pushes: 40
+    distinct_repos: 31
+    active_days: 7
+    repos_not_owned: 29
+    not_owned_basenames: 5
+    not_owned_owners: 29
   "30d":
-    pushes: 16
-    distinct_repos: 10
-    active_days: 11
-    repos_not_owned: 2
-    not_owned_basenames: 2
-    not_owned_owners: 2
+    pushes: 81
+    distinct_repos: 47
+    active_days: 16
+    repos_not_owned: 43
+    not_owned_basenames: 9
+    not_owned_owners: 43
   "90d":
-    pushes: 414
-    distinct_repos: 49
-    active_days: 55
-    repos_not_owned: 13
-    not_owned_basenames: 12
-    not_owned_owners: 12
+    pushes: 344
+    distinct_repos: 78
+    active_days: 56
+    repos_not_owned: 48
+    not_owned_basenames: 13
+    not_owned_owners: 48
 automation:
   state: "clear"
-  push_per_day: 7.5273
-  repo_per_active_day: 0.8909
-  not_owned_ratio: 0.2653
-  basename_concentration: 0.0408
+  push_per_day: 6.1429
+  repo_per_active_day: 1.3929
+  not_owned_ratio: 0.6154
+  basename_concentration: 0.4744
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    pushes: 40
+    distinct_repos: 31
+    pushes_per_repo: 1.2903
+    active_days: 7
+    repos_not_owned: 29
+    not_owned_basenames: 5
+    not_owned_owners: 29
   "30d":
-    pushes: 16
-    distinct_repos: 10
-    pushes_per_repo: 1.6000
-    active_days: 11
-    repos_not_owned: 2
-    not_owned_basenames: 2
-    not_owned_owners: 2
+    pushes: 81
+    distinct_repos: 47
+    pushes_per_repo: 1.7234
+    active_days: 16
+    repos_not_owned: 43
+    not_owned_basenames: 9
+    not_owned_owners: 43
   "90d":
-    pushes: 414
-    distinct_repos: 49
-    pushes_per_repo: 8.4490
-    active_days: 55
-    repos_not_owned: 13
-    not_owned_basenames: 12
-    not_owned_owners: 12
+    pushes: 344
+    distinct_repos: 78
+    pushes_per_repo: 4.4103
+    active_days: 56
+    repos_not_owned: 48
+    not_owned_basenames: 13
+    not_owned_owners: 48
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 55 active days in 90d — pass"
+  - "activity: 56 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "itinerant-tester"
@@ -85,9 +85,9 @@ repos:
       - "continuous-testing"
       - "github-actions"
       - "python"
-    stars_fact: 41
+    stars_fact: 43
     first_seen: null
-    last_push: "2026-09-01"
+    last_push: "2026-09-17"
   - name: "claussoft-dominos"
     title: "claussoft-dominos"
     description: "Racehorse dominos"
@@ -98,43 +98,43 @@ repos:
       - "pyscript"
     stars_fact: 2
     first_seen: null
-    last_push: "2026-08-31"
-  - name: "Ten-lines-or-less"
-    title: "Ten-lines-or-less"
-    description: "Python scripts that are short but useful or interesting"
+    last_push: "2026-09-21"
+  - name: "apt-get-inn2-docker"
+    title: "apt-get-inn2-docker"
+    description: null
     language: "Python"
     topics: []
-    stars_fact: 616
+    stars_fact: 4
     first_seen: null
-    last_push: "2026-08-03"
+    last_push: "2026-09-21"
   - name: "pythonista-module-versions"
     title: "pythonista-module-versions"
     description: "Compare the version numbers of extra modules in Pythonista with PyPI"
     language: "Python"
     topics: []
-    stars_fact: 49
+    stars_fact: 50
     first_seen: null
-    last_push: "2026-09-01"
-  - name: "Travis-CI-Python-versions"
-    title: "Travis-CI-Python-versions"
-    description: "What versions of Python are available on Travis CI default installs"
+    last_push: "2026-09-23"
+  - name: "Pythonista-and-Working-Copy"
+    title: "Pythonista-and-Working-Copy"
+    description: "Allow Pythonista to download a git file, folder, or repo from the Working Copy app"
     language: "Python"
     topics: []
-    stars_fact: 3
+    stars_fact: 133
     first_seen: null
-    last_push: "2019-05-09"
-  - name: "pydantic-books-example"
-    title: "pydantic-books-example"
-    description: null
-    language: "Python"
+    last_push: "2020-04-06"
+  - name: "GitHub-Action-for-pytest"
+    title: "GitHub-Action-for-pytest"
+    description: "A GitHub Action to run a pytest command when new code is pushed into your repo"
+    language: "Dockerfile"
     topics: []
-    stars_fact: 7
+    stars_fact: 59
     first_seen: null
-    last_push: "2026-08-03"
+    last_push: "2025-10-14"
 ---
 
 # cclauss
 
-414 pushes across 49 repositories on 55 active days in the last 90 days of public GitHub push activity.
+344 pushes across 78 repositories on 56 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/cclauss

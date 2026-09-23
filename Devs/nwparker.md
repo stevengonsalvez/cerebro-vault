@@ -8,143 +8,95 @@ provenance_repos:
   - "stablyai/orca"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+repos_populated: false
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "0a8884baa5f55aa6"
-pushes_per_week: [37, 98, 18, 103, 66, 38, 101, 100, 59, 99, 43, 20, 10]
+pushes_per_week: [62, 72, 62, 41, 122, 75, 82, 80, 39, 10, 36, 60, 111]
 windows:
   "7d":
-    pushes: 12
-    distinct_repos: 1
-    active_days: 5
-    repos_not_owned: 1
+    pushes: 113
+    distinct_repos: 5
+    active_days: 7
+    repos_not_owned: 4
     not_owned_basenames: 1
-    not_owned_owners: 1
+    not_owned_owners: 4
   "30d":
-    pushes: 214
-    distinct_repos: 6
+    pushes: 227
+    distinct_repos: 11
     active_days: 27
-    repos_not_owned: 5
-    not_owned_basenames: 1
-    not_owned_owners: 5
+    repos_not_owned: 10
+    not_owned_basenames: 2
+    not_owned_owners: 10
   "90d":
-    pushes: 792
-    distinct_repos: 30
-    active_days: 78
-    repos_not_owned: 29
+    pushes: 852
+    distinct_repos: 34
+    active_days: 83
+    repos_not_owned: 33
     not_owned_basenames: 3
-    not_owned_owners: 27
+    not_owned_owners: 32
 automation:
   state: "clear"
-  push_per_day: 10.1538
-  repo_per_active_day: 0.3846
-  not_owned_ratio: 0.9667
-  basename_concentration: 0.9333
+  push_per_day: 10.2651
+  repo_per_active_day: 0.4096
+  not_owned_ratio: 0.9706
+  basename_concentration: 0.9412
   shapes:
-    - "fork_farm"
+    - "fork_farm_third_party"
   shape_evidence:
-    - "basename concentration 0.9333 (28 of 30 repos share one basename), 29 not owned across 3 basenames"
+    - "basename concentration 0.9412 (32 of 34 repos share one basename), 33 not owned across 3 basenames — 5 of 5 sampled repos resolved; 5 fork somebody else's repo; upstreams: stablyai/orca"
   cleared_by: "e01-builder"
   cleared_on: "2026-08-26"
   fork_provenance:
-    checked: 4
+    checked: 5
     own_upstream: 0
-    third_party: 4
+    third_party: 5
     no_upstream: 0
-    unresolved: 1
+    unresolved: 0
     truncated: false
     sampled:
       - "AvichalDwivedi2205/orca"
+      - "beattlekid/orca"
       - "bioinformatist/orca"
-      - "devajmeireles/orca"
+      - "dngur6344/orca"
       - "dracpet/orca"
-      - "gatsby74/orca"
     upstreams:
       - "stablyai/orca"
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 12
-    distinct_repos: 1
-    pushes_per_repo: 12.0000
-    active_days: 5
-    repos_not_owned: 1
+    pushes: 113
+    distinct_repos: 5
+    pushes_per_repo: 22.6000
+    active_days: 7
+    repos_not_owned: 4
     not_owned_basenames: 1
-    not_owned_owners: 1
+    not_owned_owners: 4
   "30d":
-    pushes: 214
-    distinct_repos: 6
-    pushes_per_repo: 35.6667
+    pushes: 227
+    distinct_repos: 11
+    pushes_per_repo: 20.6364
     active_days: 27
-    repos_not_owned: 5
-    not_owned_basenames: 1
-    not_owned_owners: 5
+    repos_not_owned: 10
+    not_owned_basenames: 2
+    not_owned_owners: 10
   "90d":
-    pushes: 792
-    distinct_repos: 30
-    pushes_per_repo: 26.4000
-    active_days: 78
-    repos_not_owned: 29
+    pushes: 852
+    distinct_repos: 34
+    pushes_per_repo: 25.0588
+    active_days: 83
+    repos_not_owned: 33
     not_owned_basenames: 3
-    not_owned_owners: 27
+    not_owned_owners: 32
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 78 active days in 90d — pass"
+  - "activity: 83 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "agent-browser-local"
-    title: "agent-browser-local"
-    description: "Claude Code skill: browser automation using your local Comet browser profile via CDP"
-    language: "Shell"
-    topics: []
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-03-11"
-  - name: "orca-pr-evidence"
-    title: "orca-pr-evidence"
-    description: "Screenshot evidence for Orca PRs"
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-07-26"
-  - name: "Duel"
-    title: "Duel"
-    description: "Star Duel"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2016-01-04"
-  - name: "oxlint-annotation-repro"
-    title: "oxlint-annotation-repro"
-    description: null
-    language: "Shell"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-01-15"
-  - name: "chain-trigger"
-    title: "chain-trigger"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2025-01-28"
-  - name: "mintlify-docs"
-    title: "mintlify-docs"
-    description: null
-    language: "MDX"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2024-04-03"
+repos: []
 ---
 
 # nwparker
 
-792 pushes across 30 repositories on 78 active days in the last 90 days of public GitHub push activity.
+852 pushes across 34 repositories on 83 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/nwparker

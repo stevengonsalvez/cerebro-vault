@@ -8,127 +8,79 @@ provenance_repos:
   - "volcengine/OpenViking"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+repos_populated: false
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "876fe6c1edb8596c"
-pushes_per_week: [18, 14, 17, 21, 5, 16, 6, 6, 0, 3, 2, 3, 1]
+pushes_per_week: [15, 14, 10, 11, 5, 2, 3, 2, 3, 1, 3, 5, 11]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
-    repos_not_owned: 1
+    pushes: 11
+    distinct_repos: 2
+    active_days: 4
+    repos_not_owned: 2
     not_owned_basenames: 1
-    not_owned_owners: 1
+    not_owned_owners: 2
   "30d":
-    pushes: 9
+    pushes: 21
     distinct_repos: 3
-    active_days: 6
+    active_days: 10
     repos_not_owned: 3
     not_owned_basenames: 1
     not_owned_owners: 3
   "90d":
-    pushes: 112
-    distinct_repos: 8
-    active_days: 41
-    repos_not_owned: 8
+    pushes: 85
+    distinct_repos: 6
+    active_days: 36
+    repos_not_owned: 6
     not_owned_basenames: 1
-    not_owned_owners: 8
+    not_owned_owners: 6
 automation:
   state: "clear"
-  push_per_day: 2.7317
-  repo_per_active_day: 0.1951
+  push_per_day: 2.3611
+  repo_per_active_day: 0.1667
   not_owned_ratio: 1.0000
   basename_concentration: 1.0000
-  shapes:
-    - "fork_farm_third_party"
-  shape_evidence:
-    - "basename concentration 1.0000 (8 of 8 repos share one basename), 8 not owned across 1 basenames — 5 of 5 sampled repos resolved; 5 fork somebody else's repo; upstreams: volcengine/OpenViking"
+  shapes: []
+  shape_evidence: []
   cleared_by: "e01-builder"
   cleared_on: "2026-08-26"
-  fork_provenance:
-    checked: 5
-    own_upstream: 0
-    third_party: 5
-    no_upstream: 0
-    unresolved: 0
-    truncated: false
-    sampled:
-      - "ByteDanceLiuYang/OpenViking"
-      - "Chen17-sq/OpenViking"
-      - "Dicoangelo/OpenViking"
-      - "MaojiaSheng/OpenViking"
-      - "ntdat812/OpenViking"
-    upstreams:
-      - "volcengine/OpenViking"
+  fork_provenance: null
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
-    repos_not_owned: 1
+    pushes: 11
+    distinct_repos: 2
+    pushes_per_repo: 5.5000
+    active_days: 4
+    repos_not_owned: 2
     not_owned_basenames: 1
-    not_owned_owners: 1
+    not_owned_owners: 2
   "30d":
-    pushes: 9
+    pushes: 21
     distinct_repos: 3
-    pushes_per_repo: 3.0000
-    active_days: 6
+    pushes_per_repo: 7.0000
+    active_days: 10
     repos_not_owned: 3
     not_owned_basenames: 1
     not_owned_owners: 3
   "90d":
-    pushes: 112
-    distinct_repos: 8
-    pushes_per_repo: 14.0000
-    active_days: 41
-    repos_not_owned: 8
+    pushes: 85
+    distinct_repos: 6
+    pushes_per_repo: 14.1667
+    active_days: 36
+    repos_not_owned: 6
     not_owned_basenames: 1
-    not_owned_owners: 8
+    not_owned_owners: 6
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 41 active days in 90d — pass"
+  - "activity: 36 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "qin-ctx"
-    title: "qin-ctx"
-    description: "Profile README"
-    language: null
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-02"
-  - name: "openviking-browser-extension"
-    title: "openviking-browser-extension"
-    description: "Browser extension for saving the current page URL to OpenViking resources"
-    language: "HTML"
-    topics: []
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-07-03"
-  - name: "openviking-blog"
-    title: "openviking-blog"
-    description: "Standalone OpenViking blog site"
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-06-15"
-  - name: "github-feishu-topic-sync"
-    title: "github-feishu-topic-sync"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-03-25"
+repos: []
 ---
 
 # qin-ctx
 
-112 pushes across 8 repositories on 41 active days in the last 90 days of public GitHub push activity.
+85 pushes across 6 repositories on 36 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/qin-ctx

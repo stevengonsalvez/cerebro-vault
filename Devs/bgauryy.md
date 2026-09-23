@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "716cf9e2237ac9db"
-pushes_per_week: [0, 4, 2, 7, 5, 5, 2, 0, 2, 3, 0, 0, 0]
+pushes_per_week: [5, 4, 9, 1, 1, 0, 4, 1, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,25 +22,25 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 5
-    distinct_repos: 2
-    active_days: 4
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 30
-    distinct_repos: 4
-    active_days: 18
+    pushes: 25
+    distinct_repos: 3
+    active_days: 16
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.6667
-  repo_per_active_day: 0.2222
+  push_per_day: 1.5625
+  repo_per_active_day: 0.1875
   not_owned_ratio: 0.0000
-  basename_concentration: 0.2500
+  basename_concentration: 0.3333
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -57,34 +57,26 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 5
-    distinct_repos: 2
-    pushes_per_repo: 2.5000
-    active_days: 4
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 30
-    distinct_repos: 4
-    pushes_per_repo: 7.5000
-    active_days: 18
+    pushes: 25
+    distinct_repos: 3
+    pushes_per_repo: 8.3333
+    active_days: 16
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 18 active days in 90d — pass"
+  - "activity: 16 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "naviquest"
-    title: "naviquest"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-03"
   - name: "octocode"
     title: "octocode"
     description: "Code research platform for AI agents; find, understand, and prove context across your code and all of GitHub, in a fraction of the tokens. One toolset, MCP or CLI"
@@ -110,17 +102,9 @@ repos:
       - "octocode"
       - "semantic-search"
       - "vibe-coding"
-    stars_fact: 921
+    stars_fact: 943
     first_seen: null
-    last_push: "2026-08-25"
-  - name: "FreeLlama"
-    title: "FreeLlama"
-    description: null
-    language: "Rust"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-01"
+    last_push: "2026-09-18"
   - name: "open-docs"
     title: "open-docs"
     description: "This repository contains documentation created to better understand the open project"
@@ -136,9 +120,25 @@ repos:
       - "gemini"
       - "gemini-cli"
       - "llm"
-    stars_fact: 508
+    stars_fact: 513
     first_seen: null
     last_push: "2026-01-20"
+  - name: "naviquest"
+    title: "naviquest"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-04"
+  - name: "FreeLlama"
+    title: "FreeLlama"
+    description: null
+    language: "Rust"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-18"
   - name: "octocode-agent"
     title: "octocode-agent"
     description: null
@@ -159,6 +159,6 @@ repos:
 
 # bgauryy
 
-30 pushes across 4 repositories on 18 active days in the last 90 days of public GitHub push activity.
+25 pushes across 3 repositories on 16 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/bgauryy

@@ -9,28 +9,28 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-05T06:07:00.404056+00:00"
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "90688bf127241ceb"
-pushes_per_week: [1, 1, 0, 0, 0, 0, 0, 5, 0, 1, 0, 0, 0]
+pushes_per_week: [0, 0, 0, 0, 2, 3, 0, 1, 0, 0, 0, 0, 2]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
+    pushes: 2
+    distinct_repos: 2
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
+    pushes: 2
+    distinct_repos: 2
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
     pushes: 8
-    distinct_repos: 3
+    distinct_repos: 4
     active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -38,9 +38,9 @@ windows:
 automation:
   state: "clear"
   push_per_day: 1.3333
-  repo_per_active_day: 0.5000
+  repo_per_active_day: 0.6667
   not_owned_ratio: 0.0000
-  basename_concentration: 0.3333
+  basename_concentration: 0.2500
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
+    pushes: 2
+    distinct_repos: 2
+    pushes_per_repo: 1.0000
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 1
-    distinct_repos: 1
+    pushes: 2
+    distinct_repos: 2
     pushes_per_repo: 1.0000
-    active_days: 1
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
     pushes: 8
-    distinct_repos: 3
-    pushes_per_repo: 2.6667
+    distinct_repos: 4
+    pushes_per_repo: 2.0000
     active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -77,6 +77,14 @@ reasons:
   - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "ACL4SSR-Luyuyun"
+    title: "ACL4SSR-Luyuyun"
+    description: "基于ACL4SSR订阅地址-针对鹿语云机场定制的订阅转换文件，主要新增鹿语云emby节点解析与规则引流"
+    language: null
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-18"
   - name: "bilibili-copy-subtitles"
     title: "bilibili-copy-subtitles"
     description: "Bilibili 一键复制纯文字字幕的 Tampermonkey 用户脚本"
@@ -85,14 +93,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-08-19"
-  - name: "ACL4SSR-Luyuyun"
-    title: "ACL4SSR-Luyuyun"
-    description: "基于ACL4SSR订阅地址-针对鹿语云机场定制的订阅转换文件，主要新增鹿语云emby节点解析与规则引流"
-    language: null
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-08-09"
   - name: "xiguang"
     title: "xiguang"
     description: "隙光是一款私人多媒体碎片记录与回看工具，让日常的细碎感受不再分散丢失，而是在时间河流中自然沉淀成只属于自己的内在脉络。"
@@ -100,7 +100,7 @@ repos:
     topics: []
     stars_fact: 4
     first_seen: null
-    last_push: "2026-08-26"
+    last_push: "2026-09-16"
   - name: "hermes-installer-skill"
     title: "hermes-installer-skill"
     description: "Hermes Agent Installer Skill for OpenClaw"
@@ -129,6 +129,6 @@ repos:
 
 # dongyu23
 
-8 pushes across 3 repositories on 6 active days in the last 90 days of public GitHub push activity.
+8 pushes across 4 repositories on 6 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/dongyu23

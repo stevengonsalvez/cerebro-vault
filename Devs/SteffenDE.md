@@ -8,11 +8,11 @@ provenance_repos:
   - "anomalyco/opencode"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+repos_populated: false
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [19, 15, 10, 12, 7, 3, 7, 0, 0, 4, 1, 1, 0]
+pushes_per_week: [10, 10, 3, 6, 2, 0, 1, 3, 1, 1, 1, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,25 +22,25 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 6
+    pushes: 3
     distinct_repos: 2
-    active_days: 4
+    active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 79
-    distinct_repos: 12
-    active_days: 34
-    repos_not_owned: 8
-    not_owned_basenames: 7
+    pushes: 39
+    distinct_repos: 9
+    active_days: 23
+    repos_not_owned: 7
+    not_owned_basenames: 6
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 2.3235
-  repo_per_active_day: 0.3529
-  not_owned_ratio: 0.6667
-  basename_concentration: 0.1667
+  push_per_day: 1.6957
+  repo_per_active_day: 0.3913
+  not_owned_ratio: 0.7778
+  basename_concentration: 0.2222
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -57,78 +57,30 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 6
+    pushes: 3
     distinct_repos: 2
-    pushes_per_repo: 3.0000
-    active_days: 4
+    pushes_per_repo: 1.5000
+    active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 79
-    distinct_repos: 12
-    pushes_per_repo: 6.5833
-    active_days: 34
-    repos_not_owned: 8
-    not_owned_basenames: 7
+    pushes: 39
+    distinct_repos: 9
+    pushes_per_repo: 4.3333
+    active_days: 23
+    repos_not_owned: 7
+    not_owned_basenames: 6
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 34 active days in 90d — pass"
+  - "activity: 23 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "popcorn_live_view"
-    title: "popcorn_live_view"
-    description: null
-    language: "Elixir"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-02-24"
-  - name: "phx_colocated_postcss_example"
-    title: "phx_colocated_postcss_example"
-    description: null
-    language: "Elixir"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-03-18"
-  - name: "ex_dav"
-    title: "ex_dav"
-    description: "An extendable WebDAV server implemented in Elixir"
-    language: "Elixir"
-    topics: []
-    stars_fact: 6
-    first_seen: null
-    last_push: "2021-05-12"
-  - name: "tmp_phx_upload_bug_demo"
-    title: "tmp_phx_upload_bug_demo"
-    description: null
-    language: "Elixir"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-01-09"
-  - name: "phx-reconnect-example-tmp"
-    title: "phx-reconnect-example-tmp"
-    description: null
-    language: "Elixir"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2025-11-14"
-  - name: "nerves_hetzner_cloud"
-    title: "nerves_hetzner_cloud"
-    description: "Instructions for running Elixir Nerves systems on Hetzner Cloud"
-    language: "Shell"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2025-10-09"
+repos: []
 ---
 
 # SteffenDE
 
-79 pushes across 12 repositories on 34 active days in the last 90 days of public GitHub push activity.
+39 pushes across 9 repositories on 23 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/SteffenDE

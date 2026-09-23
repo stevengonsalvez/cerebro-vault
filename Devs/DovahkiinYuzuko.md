@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "46f3c1d6124190bd"
-pushes_per_week: [2, 3, 6, 5, 4, 1, 1, 4, 3, 9, 0, 1, 0]
+pushes_per_week: [7, 4, 2, 1, 2, 4, 6, 4, 1, 0, 0, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,25 +22,25 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 11
-    distinct_repos: 4
-    active_days: 7
+    pushes: 2
+    distinct_repos: 2
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 39
-    distinct_repos: 20
-    active_days: 26
+    pushes: 32
+    distinct_repos: 16
+    active_days: 23
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.5000
-  repo_per_active_day: 0.7692
+  push_per_day: 1.3913
+  repo_per_active_day: 0.6957
   not_owned_ratio: 0.0000
-  basename_concentration: 0.0500
+  basename_concentration: 0.0625
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -57,26 +57,65 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 11
-    distinct_repos: 4
-    pushes_per_repo: 2.7500
-    active_days: 7
+    pushes: 2
+    distinct_repos: 2
+    pushes_per_repo: 1.0000
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 39
-    distinct_repos: 20
-    pushes_per_repo: 1.9500
-    active_days: 26
+    pushes: 32
+    distinct_repos: 16
+    pushes_per_repo: 2.0000
+    active_days: 23
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 26 active days in 90d — pass"
+  - "activity: 23 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "i-hate-decimal-calc"
+    title: "i-hate-decimal-calc"
+    description: "[ENG] A strict CAS calculator CLI that completely rejects decimal approximations, converting all decimals to exact fractions. / [JPN] 小数を一切許さず、すべての小数を即座に分数化して厳密計算するCAS電卓CLIツール。"
+    language: "Go"
+    topics:
+      - "calculator"
+      - "cas"
+      - "cli"
+      - "computer-algebra-system"
+      - "exact-arithmetic"
+      - "go"
+      - "golang"
+      - "math"
+      - "rational-numbers"
+      - "symbolic-computation"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-20"
+  - name: "myuujik"
+    title: "myuujik"
+    description: "[ENG] High-performance, multi-format TUI music player with WASAPI exclusive mode, 10-band EQ, synchronized lyrics, and FFT visualizer / [JPN] WASAPI排他モード・10バンドEQ・歌詞同期・FFTアナライザーを搭載した高性能TUI音楽プレーヤー"
+    language: "Rust"
+    topics:
+      - "audio-player"
+      - "cli"
+      - "cross-platform"
+      - "equalizer"
+      - "lrc"
+      - "lyrics"
+      - "music-player"
+      - "ratatui"
+      - "rust"
+      - "spectrum-analyzer"
+      - "terminal"
+      - "tui"
+      - "wasapi"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-03"
   - name: "easy-rickroll-generator"
     title: "easy-rickroll-generator"
     description: null
@@ -129,44 +168,10 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-08-20"
-  - name: "loop-limiter"
-    title: "loop-limiter"
-    description: "[ENG]Hook plugin for controlling attempt limits and fallback execution in AI agents / [JPN]AIエージェントの試行回数上限とフォールバック実行を制御するフックプラグイン"
-    language: "Python"
-    topics:
-      - "agent-plugin"
-      - "ai-agent"
-      - "antigravity"
-      - "hooks"
-      - "loop-limiter"
-      - "python"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-16"
-  - name: "tehbr"
-    title: "tehbr"
-    description: "[ENG] Multipurpose CLI tool for bidirectional table format conversion (CSV, TSV, Markdown, HTML, JSON, SQL) with streaming, multi-encoding, and interactive mode / [JPN] テーブルフォーマット（CSV, TSV, Markdown, HTML, JSON, SQL）を相互変換する多機能CLIツール。ストリーミング、多言語文字コード、対話モード対応"
-    language: "TypeScript"
-    topics:
-      - "cli"
-      - "csv"
-      - "html-table"
-      - "i18n"
-      - "json-converter"
-      - "markdown-table"
-      - "nodejs"
-      - "sql-generator"
-      - "streaming"
-      - "table-converter"
-      - "tsv"
-      - "typescript"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-13"
 ---
 
 # DovahkiinYuzuko
 
-39 pushes across 20 repositories on 26 active days in the last 90 days of public GitHub push activity.
+32 pushes across 16 repositories on 23 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/DovahkiinYuzuko

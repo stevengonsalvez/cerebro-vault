@@ -8,37 +8,37 @@ provenance_repos:
   - "apache/maka"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+repos_populated: false
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [0, 0, 0, 14, 12, 4, 2, 4, 5, 7, 7, 2, 1]
+pushes_per_week: [6, 15, 8, 1, 3, 5, 6, 9, 4, 0, 5, 4, 0]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 19
-    distinct_repos: 4
-    active_days: 11
+    pushes: 11
+    distinct_repos: 2
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 58
+    pushes: 66
     distinct_repos: 11
-    active_days: 32
+    active_days: 37
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.8125
-  repo_per_active_day: 0.3438
+  push_per_day: 1.7838
+  repo_per_active_day: 0.2973
   not_owned_ratio: 0.0000
   basename_concentration: 0.0909
   shapes: []
@@ -49,54 +49,38 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 19
-    distinct_repos: 4
-    pushes_per_repo: 4.7500
-    active_days: 11
+    pushes: 11
+    distinct_repos: 2
+    pushes_per_repo: 5.5000
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 58
+    pushes: 66
     distinct_repos: 11
-    pushes_per_repo: 5.2727
-    active_days: 32
+    pushes_per_repo: 6.0000
+    active_days: 37
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 32 active days in 90d — pass"
+  - "activity: 37 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "orangeCatDeveloper"
-    title: "orangeCatDeveloper"
-    description: "Profile"
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-07-26"
-  - name: "streameast-ad-blocker"
-    title: "streameast-ad-blocker"
-    description: "A Chrome extension that blocks overlay ads, click hijacking, popunders, and malicious downloads on streaming sites like streameast."
-    language: "JavaScript"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-03-19"
+repos: []
 ---
 
 # orangeCatDeveloper
 
-58 pushes across 11 repositories on 32 active days in the last 90 days of public GitHub push activity.
+66 pushes across 11 repositories on 37 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/orangeCatDeveloper

@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "0388a4f55f4206c8"
   - "0577669e18ed3998"
@@ -26,35 +26,35 @@ provenance:
   - "c6b4a874521ceb02"
   - "cf565721454d59f8"
   - "e26852201e6f38fc"
-pushes_per_week: [8, 4, 9, 5, 6, 10, 3, 6, 2, 7, 0, 1, 0]
+pushes_per_week: [9, 7, 9, 4, 3, 5, 3, 5, 0, 1, 0, 1, 1]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 9
+    pushes: 3
     distinct_repos: 1
-    active_days: 7
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 61
-    distinct_repos: 2
-    active_days: 38
+    pushes: 48
+    distinct_repos: 1
+    active_days: 29
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.6053
-  repo_per_active_day: 0.0526
+  push_per_day: 1.6552
+  repo_per_active_day: 0.0345
   not_owned_ratio: 0.0000
-  basename_concentration: 0.5000
+  basename_concentration: 1.0000
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -63,38 +63,38 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
+    pushes: 1
+    distinct_repos: 1
+    pushes_per_repo: 1.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 9
+    pushes: 3
     distinct_repos: 1
-    pushes_per_repo: 9.0000
-    active_days: 7
+    pushes_per_repo: 3.0000
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 61
-    distinct_repos: 2
-    pushes_per_repo: 30.5000
-    active_days: 38
+    pushes: 48
+    distinct_repos: 1
+    pushes_per_repo: 48.0000
+    active_days: 29
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 15 vault signal(s) — pass"
-  - "activity: 38 active days in 90d — pass"
+  - "activity: 29 active days in 90d — pass"
   - "automation: clear — pass"
 repos: []
 ---
 
 # zsol-openai
 
-61 pushes across 2 repositories on 38 active days in the last 90 days of public GitHub push activity.
+48 pushes across 1 repository on 29 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/zsol-openai

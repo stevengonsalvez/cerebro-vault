@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "0388a4f55f4206c8"
   - "0577669e18ed3998"
@@ -26,7 +26,7 @@ provenance:
   - "c6b4a874521ceb02"
   - "cf565721454d59f8"
   - "e26852201e6f38fc"
-pushes_per_week: [31, 7, 10, 0, 23, 1, 0, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [3, 17, 7, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -43,16 +43,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 72
+    pushes: 27
     distinct_repos: 1
-    active_days: 21
+    active_days: 9
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 3.4286
-  repo_per_active_day: 0.0476
+  push_per_day: 3.0000
+  repo_per_active_day: 0.1111
   not_owned_ratio: 1.0000
   basename_concentration: 1.0000
   shapes: []
@@ -79,22 +79,22 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 72
+    pushes: 27
     distinct_repos: 1
-    pushes_per_repo: 72.0000
-    active_days: 21
+    pushes_per_repo: 27.0000
+    active_days: 9
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 15 vault signal(s) — pass"
-  - "activity: 21 active days in 90d — pass"
+  - "activity: 9 active days in 90d — pass"
   - "automation: clear — pass"
 repos: []
 ---
 
 # celia-oai
 
-72 pushes across 1 repository on 21 active days in the last 90 days of public GitHub push activity.
+27 pushes across 1 repository on 9 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/celia-oai

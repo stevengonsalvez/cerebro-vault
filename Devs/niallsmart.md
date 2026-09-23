@@ -9,41 +9,41 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-05T06:07:00.404056+00:00"
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "97c4e9cb8b163ddb"
   - "c7515e0fa4368a55"
   - "d3abe74726b22711"
   - "e7c647c4d0689526"
-pushes_per_week: [7, 2, 0, 0, 0, 0, 1, 0, 2, 5, 0, 0, 1]
+pushes_per_week: [0, 0, 0, 1, 0, 2, 0, 5, 0, 1, 0, 8, 0]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 6
-    distinct_repos: 3
-    active_days: 3
+    pushes: 9
+    distinct_repos: 1
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 18
-    distinct_repos: 6
+    pushes: 17
+    distinct_repos: 4
     active_days: 9
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.0000
-  repo_per_active_day: 0.6667
+  push_per_day: 1.8889
+  repo_per_active_day: 0.4444
   not_owned_ratio: 0.0000
-  basename_concentration: 0.1667
+  basename_concentration: 0.2500
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -52,25 +52,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 6
-    distinct_repos: 3
-    pushes_per_repo: 2.0000
-    active_days: 3
+    pushes: 9
+    distinct_repos: 1
+    pushes_per_repo: 9.0000
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 18
-    distinct_repos: 6
-    pushes_per_repo: 3.0000
+    pushes: 17
+    distinct_repos: 4
+    pushes_per_repo: 4.2500
     active_days: 9
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -80,6 +80,14 @@ reasons:
   - "activity: 9 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "conference-planner-skill"
+    title: "conference-planner-skill"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-22"
   - name: "dhb-ax-buildroot"
     title: "dhb-ax-buildroot"
     description: "Mainline Linux and Buildroot port for the TVT DHB_AX V1.2 board (HiSilicon Hi3531), sold as the LTS LTD2704XE-P DVR"
@@ -97,15 +105,7 @@ repos:
       - "u-boot"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-02"
-  - name: "find-my-mini"
-    title: "find-my-mini"
-    description: "A macOS menu bar app to play the Find My alert sound on any of your devices or items"
-    language: "Swift"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-22"
+    last_push: "2026-09-14"
   - name: "dhb-ax-guide"
     title: "dhb-ax-guide"
     description: "Hardware reference for the TVT DHB_AX V1.2 board (HiSilicon Hi3531), sold as the LTS LTD2704XE-P DVR"
@@ -122,7 +122,15 @@ repos:
       - "reverse-engineering"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-08-15"
+    last_push: "2026-09-11"
+  - name: "find-my-mini"
+    title: "find-my-mini"
+    description: "A macOS menu bar app to play the Find My alert sound on any of your devices or items"
+    language: "Swift"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-22"
   - name: "bravia-decoder-deadlock-repro"
     title: "bravia-decoder-deadlock-repro"
     description: "Minimal Android TV reproducer for a Sony Bravia (MT5891) media-pipeline deadlock: re-driving the ExoPlayer decoder on background instead of releasing it hard-reboots the TV under load."
@@ -139,18 +147,10 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-07-20"
-  - name: "claude_transcript"
-    title: "claude_transcript"
-    description: "Render captured Anthropic Messages API traffic as a readable conversation transcript"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-06-30"
 ---
 
 # niallsmart
 
-18 pushes across 6 repositories on 9 active days in the last 90 days of public GitHub push activity.
+17 pushes across 4 repositories on 9 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/niallsmart

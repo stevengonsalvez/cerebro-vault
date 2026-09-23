@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "c1af6b58492f9bf4"
-pushes_per_week: [0, 2, 9, 66, 6, 11, 0, 7, 5, 2, 2, 1, 0]
+pushes_per_week: [30, 51, 10, 1, 1, 11, 0, 4, 0, 1, 0, 1, 4]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
+    pushes: 4
+    distinct_repos: 2
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 5
+    pushes: 6
     distinct_repos: 4
     active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 111
-    distinct_repos: 27
-    active_days: 27
+    pushes: 114
+    distinct_repos: 28
+    active_days: 29
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 4.1111
-  repo_per_active_day: 1.0000
+  push_per_day: 3.9310
+  repo_per_active_day: 0.9655
   not_owned_ratio: 0.0000
-  basename_concentration: 0.0370
+  basename_concentration: 0.0357
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,34 +49,71 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
+    pushes: 4
+    distinct_repos: 2
+    pushes_per_repo: 2.0000
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 5
+    pushes: 6
     distinct_repos: 4
-    pushes_per_repo: 1.2500
+    pushes_per_repo: 1.5000
     active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 111
-    distinct_repos: 27
-    pushes_per_repo: 4.1111
-    active_days: 27
+    pushes: 114
+    distinct_repos: 28
+    pushes_per_repo: 4.0714
+    active_days: 29
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 27 active days in 90d — pass"
+  - "activity: 29 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "enodia"
+    title: "enodia"
+    description: "Wardriving on foot, without GPS or internet."
+    language: "Python"
+    topics:
+      - "geolocation"
+      - "linux"
+      - "offline"
+      - "openstreetmap"
+      - "privacy"
+      - "python"
+      - "radio-fingerprinting"
+      - "wardriving"
+      - "wifi"
+    stars_fact: 6
+    first_seen: null
+    last_push: "2026-09-23"
+  - name: "spidercreator"
+    title: "spidercreator"
+    description: "Automated web scraping spider generation using Browser Use and LLMs. Streamline the creation of Playwright-based spiders with minimal manual coding. Ideal for large enterprises with recurring data extraction needs."
+    language: "Python"
+    topics:
+      - "ai"
+      - "automation"
+      - "browser-use"
+      - "crawling"
+      - "llm"
+      - "low-code"
+      - "no-code"
+      - "python"
+      - "rpa"
+      - "scraping"
+      - "spider"
+      - "vibe-coding"
+    stars_fact: 225
+    first_seen: null
+    last_push: "2025-08-25"
   - name: "carlosplanchon"
     title: "carlosplanchon"
     description: "That's me!"
@@ -84,40 +121,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-08-29"
-  - name: "wifireconnect"
-    title: "wifireconnect"
-    description: "A small Linux network watchdog that diagnoses connectivity failures and recovers Wi-Fi connections through iwd."
-    language: "Python"
-    topics:
-      - "connectivity"
-      - "dbus"
-      - "iwd"
-      - "linux"
-      - "linux-networking"
-      - "netlink"
-      - "network-monitoring"
-      - "network-recovery"
-      - "reconnect"
-      - "systemd"
-      - "watchdog"
-      - "wifi"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-08-29"
-  - name: "betterhtmlchunking"
-    title: "betterhtmlchunking"
-    description: "BetterHTMLChunking is a Python library for intelligent HTML segmentation. It builds a DOM tree from raw HTML and extracts content-rich regions of interest, making content analysis effortless. Great for LLM based processing."
-    language: "Python"
-    topics:
-      - "ai"
-      - "chunking"
-      - "html"
-      - "llm"
-      - "splitting"
-    stars_fact: 57
-    first_seen: null
-    last_push: "2026-07-05"
+    last_push: "2026-09-20"
   - name: "ifpeek"
     title: "ifpeek"
     description: "Inspect Linux network interfaces, Wi-Fi state, routes, DNS, and network events from Python."
@@ -145,53 +149,58 @@ repos:
       - "wpa-supplicant"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-08-29"
-  - name: "firmauy"
-    title: "firmauy"
-    description: "Sign and verify PDF (PAdES), XML (XAdES) and arbitrary files (CAdES/.p7s) with the Uruguayan cédula via PKCS#11."
+    last_push: "2026-09-17"
+  - name: "sqlitexplorer"
+    title: "sqlitexplorer"
+    description: "A modern CLI for exploring SQLite databases: inspect schemas, query and search data, compute stats, chart results, diff databases, and import/export from the terminal."
     language: "Python"
     topics:
-      - "cades"
-      - "cedula"
-      - "civic-tech"
-      - "digital-signature"
-      - "eid"
-      - "middleware"
-      - "opensc"
-      - "p7s"
-      - "pades"
-      - "pkcs11"
-      - "smartcard"
-      - "uruguay"
-      - "xades"
-    stars_fact: 8
-    first_seen: null
-    last_push: "2026-08-28"
-  - name: "checkcorruptedimages"
-    title: "checkcorruptedimages"
-    description: "Detect corrupted images by fully decoding them in crash-isolated worker processes."
-    language: "Python"
-    topics:
-      - "batch-processing"
+      - "charts"
       - "cli"
-      - "corrupted-images"
-      - "fault-tolerance"
-      - "heic"
-      - "heif"
-      - "image-corruption"
-      - "image-decoding"
-      - "image-processing"
-      - "image-validation"
-      - "multiprocessing"
-      - "pillow"
+      - "command-line"
+      - "data-analysis"
+      - "data-exploration"
+      - "database"
+      - "database-cli"
+      - "database-explorer"
+      - "database-tools"
+      - "developer-tools"
       - "python"
-    stars_fact: 0
+      - "query-tool"
+      - "repl"
+      - "sql"
+      - "sqlite"
+      - "sqlite-tools"
+      - "sqlite3"
+      - "terminal"
+      - "terminal-ui"
+    stars_fact: 2
     first_seen: null
-    last_push: "2026-08-28"
+    last_push: "2026-09-15"
+  - name: "plotilleresample"
+    title: "plotilleresample"
+    description: "Data resampling for efficient Plotille terminal plots, with stride, min/max, LTTB and MinMaxLTTB."
+    language: "Python"
+    topics:
+      - "ascii"
+      - "data-visualization"
+      - "downsampling"
+      - "lttb"
+      - "minmax"
+      - "plotille"
+      - "plotting"
+      - "python"
+      - "resampling"
+      - "terminal"
+      - "terminal-graphics"
+      - "time-series"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-15"
 ---
 
 # carlosplanchon
 
-111 pushes across 27 repositories on 27 active days in the last 90 days of public GitHub push activity.
+114 pushes across 28 repositories on 29 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/carlosplanchon

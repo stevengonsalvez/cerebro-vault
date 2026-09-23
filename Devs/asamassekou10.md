@@ -10,36 +10,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "9e2ff10d772b1e71"
-pushes_per_week: [0, 0, 27, 41, 8, 11, 3, 10, 5, 3, 6, 1, 0]
+pushes_per_week: [30, 32, 7, 6, 8, 4, 5, 6, 2, 1, 3, 0, 3]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
+    pushes: 3
+    distinct_repos: 2
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 14
-    distinct_repos: 4
-    active_days: 10
+    pushes: 7
+    distinct_repos: 3
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 115
+    pushes: 107
     distinct_repos: 10
-    active_days: 36
+    active_days: 37
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 3.1944
-  repo_per_active_day: 0.2778
+  push_per_day: 2.8919
+  repo_per_active_day: 0.2703
   not_owned_ratio: 0.0000
   basename_concentration: 0.1000
   shapes: []
@@ -50,54 +50,34 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
+    pushes: 3
+    distinct_repos: 2
+    pushes_per_repo: 1.5000
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 14
-    distinct_repos: 4
-    pushes_per_repo: 3.5000
-    active_days: 10
+    pushes: 7
+    distinct_repos: 3
+    pushes_per_repo: 2.3333
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 115
+    pushes: 107
     distinct_repos: 10
-    pushes_per_repo: 11.5000
-    active_days: 36
+    pushes_per_repo: 10.7000
+    active_days: 37
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 36 active days in 90d — pass"
+  - "activity: 37 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "ship-safe"
-    title: "ship-safe"
-    description: "CLI security scanner built for the agentic era. Detects CI/CD misconfigs, agent permission risks, MCP tool injection, hardcoded secrets, and DMCA-flagged AI dependencies."
-    language: "JavaScript"
-    topics:
-      - "agentic-ai"
-      - "ai-security"
-      - "cli"
-      - "devscops"
-      - "llm-security"
-      - "mcp"
-      - "npm"
-      - "owasp"
-      - "secrets"
-      - "security"
-      - "security-tools"
-      - "static-analysis"
-    stars_fact: 830
-    first_seen: "2026-08-06T06:00:05.901982+00:00"
-    last_push: "2026-09-01"
   - name: "demo-gitskins"
     title: "demo-gitskins"
     description: "A premium GitHub profile README, built entirely from live GitSkins sections — animated, no workflows, no committed assets."
@@ -107,17 +87,58 @@ repos:
       - "github-profile"
       - "readme"
       - "svg-animation"
-    stars_fact: 13
+    stars_fact: 14
     first_seen: null
-    last_push: "2026-09-03"
+    last_push: "2026-09-23"
+  - name: "ship-safe"
+    title: "ship-safe"
+    description: "The independent security agent for AI-written software. Finds issues, investigates whether they are real, and shows you the evidence. Deterministic core, no API key needed, JSON and SARIF output."
+    language: "JavaScript"
+    topics:
+      - "agent-security"
+      - "agentic-ai"
+      - "ai-security"
+      - "cli"
+      - "devsecops"
+      - "hermes"
+      - "llm-security"
+      - "mcp"
+      - "npm"
+      - "owasp"
+      - "prompt-injection"
+      - "sarif"
+      - "secrets"
+      - "security"
+      - "security-tools"
+      - "static-analysis"
+      - "supply-chain-security"
+    stars_fact: 848
+    first_seen: "2026-08-06T06:00:05.901982+00:00"
+    last_push: "2026-09-21"
+  - name: "AgentChaos"
+    title: "AgentChaos"
+    description: "Safely attack your AI agent before someone else does. Local-first security testing CLI that injects controlled attacks into agent tool responses and verifies security boundaries."
+    language: "TypeScript"
+    topics:
+      - "agent-security"
+      - "ai-agent-security"
+      - "cli"
+      - "llm-security"
+      - "prompt-injection"
+      - "red-team"
+      - "security-testing"
+      - "typescript"
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-09-08"
   - name: "asamassekou10"
     title: "asamassekou10"
     description: null
-    language: null
+    language: "JavaScript"
     topics: []
     stars_fact: 23
     first_seen: null
-    last_push: "2026-09-03"
+    last_push: "2026-09-23"
   - name: "gitskins-portfolio-demo"
     title: "gitskins-portfolio-demo"
     description: "My developer portfolio, built with GitSkins"
@@ -134,18 +155,10 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-08-18"
-  - name: "Vector-Search"
-    title: "Vector-Search"
-    description: "A multi-modal search engine using CLIP and a vector database to power both text-to-image and image-to-image search across a 44,000-item fashion catalog."
-    language: "Jupyter Notebook"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2025-12-11"
 ---
 
 # asamassekou10
 
-115 pushes across 10 repositories on 36 active days in the last 90 days of public GitHub push activity.
+107 pushes across 10 repositories on 37 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/asamassekou10

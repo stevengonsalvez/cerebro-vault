@@ -8,37 +8,37 @@ provenance_repos:
   - "apache/maka"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+repos_populated: false
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [4, 2, 3, 24, 7, 4, 0, 3, 0, 2, 0, 2, 0]
+pushes_per_week: [8, 21, 4, 2, 0, 3, 2, 0, 2, 0, 0, 0, 5]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
-  "30d":
-    pushes: 4
-    distinct_repos: 1
+    pushes: 5
+    distinct_repos: 2
     active_days: 4
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
+  "30d":
+    pushes: 7
+    distinct_repos: 2
+    active_days: 6
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "90d":
-    pushes: 51
+    pushes: 47
     distinct_repos: 3
-    active_days: 22
+    active_days: 21
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 2.3182
-  repo_per_active_day: 0.1364
+  push_per_day: 2.2381
+  repo_per_active_day: 0.1429
   not_owned_ratio: 0.6667
   basename_concentration: 0.3333
   shapes: []
@@ -49,70 +49,38 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
-  "30d":
-    pushes: 4
-    distinct_repos: 1
-    pushes_per_repo: 4.0000
+    pushes: 5
+    distinct_repos: 2
+    pushes_per_repo: 2.5000
     active_days: 4
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
+  "30d":
+    pushes: 7
+    distinct_repos: 2
+    pushes_per_repo: 3.5000
+    active_days: 6
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "90d":
-    pushes: 51
+    pushes: 47
     distinct_repos: 3
-    pushes_per_repo: 17.0000
-    active_days: 22
+    pushes_per_repo: 15.6667
+    active_days: 21
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 22 active days in 90d — pass"
+  - "activity: 21 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "search_lun"
-    title: "search_lun"
-    description: "wip"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-04-05"
-  - name: "test_ai"
-    title: "test_ai"
-    description: "test_ai"
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-03-12"
-  - name: "AIScreenshotAssi"
-    title: "AIScreenshotAssi"
-    description: "(🚧 WIP)"
-    language: "Rust"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-03-02"
-  - name: "xxhZs"
-    title: "xxhZs"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2022-08-09"
+repos: []
 ---
 
 # xxhZs
 
-51 pushes across 3 repositories on 22 active days in the last 90 days of public GitHub push activity.
+47 pushes across 3 repositories on 21 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/xxhZs

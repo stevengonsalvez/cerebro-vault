@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "541318303a272608"
-pushes_per_week: [10, 8, 23, 22, 0, 3, 0, 0, 0, 0, 4, 0, 0]
+pushes_per_week: [17, 17, 2, 1, 0, 0, 0, 4, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,25 +22,25 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 4
-    distinct_repos: 1
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 70
-    distinct_repos: 9
-    active_days: 19
+    pushes: 41
+    distinct_repos: 8
+    active_days: 13
     repos_not_owned: 4
     not_owned_basenames: 3
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 3.6842
-  repo_per_active_day: 0.4737
-  not_owned_ratio: 0.4444
-  basename_concentration: 0.3333
+  push_per_day: 3.1538
+  repo_per_active_day: 0.6154
+  not_owned_ratio: 0.5000
+  basename_concentration: 0.3750
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 4
-    distinct_repos: 1
-    pushes_per_repo: 4.0000
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 70
-    distinct_repos: 9
-    pushes_per_repo: 7.7778
-    active_days: 19
+    pushes: 41
+    distinct_repos: 8
+    pushes_per_repo: 5.1250
+    active_days: 13
     repos_not_owned: 4
     not_owned_basenames: 3
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 19 active days in 90d — pass"
+  - "activity: 13 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "datasketch"
@@ -96,9 +96,17 @@ repos:
       - "search"
       - "top-k"
       - "weighted-quantiles"
-    stars_fact: 2962
+    stars_fact: 2967
     first_seen: null
     last_push: "2026-08-09"
+  - name: "chess-extension-for-vscode"
+    title: "chess-extension-for-vscode"
+    description: "Play chess in VSCode and get help from Copilot"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 6
+    first_seen: null
+    last_push: "2025-06-08"
   - name: "mcp-server-sparql"
     title: "mcp-server-sparql"
     description: "An MCP server for querying SPARQL endpoint."
@@ -131,21 +139,10 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-06-08"
-  - name: "SetSimilaritySearch"
-    title: "SetSimilaritySearch"
-    description: "All-pair set similarity search on millions of sets in Python and on a laptop"
-    language: "Python"
-    topics:
-      - "all-pairs"
-      - "set-similarity-search"
-      - "similarity-search"
-    stars_fact: 603
-    first_seen: null
-    last_push: "2022-10-11"
 ---
 
 # ekzhu
 
-70 pushes across 9 repositories on 19 active days in the last 90 days of public GitHub push activity.
+41 pushes across 8 repositories on 13 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ekzhu

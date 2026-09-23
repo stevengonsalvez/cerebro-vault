@@ -8,11 +8,11 @@ provenance_repos:
   - "agavra/tuicr"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+repos_populated: false
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [8, 2, 3, 5, 1, 8, 3, 0, 0, 0, 0, 1, 0]
+pushes_per_week: [4, 4, 6, 5, 1, 0, 0, 0, 0, 1, 0, 2, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,25 +22,25 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
+    pushes: 3
+    distinct_repos: 2
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 31
-    distinct_repos: 5
-    active_days: 17
+    pushes: 23
+    distinct_repos: 6
+    active_days: 13
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.8235
-  repo_per_active_day: 0.2941
+  push_per_day: 1.7692
+  repo_per_active_day: 0.4615
   not_owned_ratio: 0.0000
-  basename_concentration: 0.2000
+  basename_concentration: 0.1667
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -57,128 +57,30 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes: 3
+    distinct_repos: 2
+    pushes_per_repo: 1.5000
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 31
-    distinct_repos: 5
-    pushes_per_repo: 6.2000
-    active_days: 17
+    pushes: 23
+    distinct_repos: 6
+    pushes_per_repo: 3.8333
+    active_days: 13
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 17 active days in 90d — pass"
+  - "activity: 13 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "nushellWith"
-    title: "nushellWith"
-    description: "Isolated nushell envs with specific plugins and libraries (with Nix)"
-    language: "Nix"
-    topics:
-      - "nix"
-      - "nix-flakes"
-      - "nu"
-      - "nushell"
-    stars_fact: 49
-    first_seen: null
-    last_push: "2026-09-04"
-  - name: "rigup.nix"
-    title: "rigup.nix"
-    description: "AI agents and Nix: parametrable skills/instructions and tools, packaged together in a reproducible and modular fashion"
-    language: "Nix"
-    topics:
-      - "agent-rig-system"
-      - "ai-agents"
-      - "claude-code"
-      - "claude-skills"
-      - "harness"
-      - "llm-agents"
-      - "nix"
-      - "nix-flake"
-      - "nix-modules"
-      - "opencode"
-      - "pi"
-      - "riglets"
-      - "skills"
-    stars_fact: 86
-    first_seen: null
-    last_push: "2026-09-04"
-  - name: "monurepo"
-    title: "monurepo"
-    description: "Collection of Nushell libraries"
-    language: "Nushell"
-    topics:
-      - "defer"
-      - "deferred"
-      - "deferred-execution"
-      - "fzf"
-      - "jj"
-      - "jujutsu"
-      - "monorepo"
-      - "nu"
-      - "nushell"
-      - "nushell-config"
-      - "prompt"
-      - "resources"
-      - "scoped"
-      - "vcs"
-    stars_fact: 21
-    first_seen: null
-    last_push: "2026-08-24"
-  - name: "agent-skills"
-    title: "agent-skills"
-    description: "Various skills for AI coding assistants"
-    language: "Shell"
-    topics:
-      - "agent-rig-system"
-      - "claude"
-      - "jj"
-      - "nix"
-      - "skills"
-      - "typst"
-    stars_fact: 30
-    first_seen: null
-    last_push: "2026-08-29"
-  - name: "arpligner"
-    title: "arpligner"
-    description: "A multi-track & polyphonic arpeggiator plugin that takes both chords and arp patterns as live MIDI data"
-    language: "C++"
-    topics:
-      - "arpeggiator"
-      - "juce"
-      - "juce-application"
-      - "juce-plugins"
-      - "ladspa-plugin"
-      - "lv2-plugin"
-      - "midi"
-      - "midi-plugin"
-      - "midi-processing"
-      - "music"
-      - "protoplug"
-      - "vst"
-      - "vst3-plugin"
-    stars_fact: 45
-    first_seen: null
-    last_push: "2023-10-11"
-  - name: "toptle"
-    title: "toptle"
-    description: "Monitor processes from your terminal title"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-07-25"
+repos: []
 ---
 
 # YPares
 
-31 pushes across 5 repositories on 17 active days in the last 90 days of public GitHub push activity.
+23 pushes across 6 repositories on 13 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/YPares

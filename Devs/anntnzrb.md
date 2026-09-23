@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [0, 2, 5, 3, 1, 4, 1, 2, 2, 6, 0, 0, 0]
+pushes_per_week: [7, 0, 3, 3, 0, 2, 3, 5, 0, 0, 0, 3, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 8
-    distinct_repos: 2
-    active_days: 5
+    pushes: 3
+    distinct_repos: 1
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 8
-    distinct_repos: 2
-    pushes_per_repo: 4.0000
-    active_days: 5
+    pushes: 3
+    distinct_repos: 1
+    pushes_per_repo: 3.0000
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -84,7 +84,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-03"
+    last_push: "2026-09-23"
   - name: "agents"
     title: "agents"
     description: "Configurations for LLM Harnesses"
@@ -92,15 +92,41 @@ repos:
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-09-02"
-  - name: "bin"
-    title: "bin"
-    description: "annt's ~/bin"
+    last_push: "2026-09-23"
+  - name: "_nixrice"
+    title: "_nixrice"
+    description: "@anntnzrb's *nix environment; managed by the Nix ecosystem"
     language: "Nix"
-    topics: []
+    topics:
+      - "dotfiles"
+      - "nix"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-21"
+  - name: "windozing"
+    title: "windozing"
+    description: "Collection of PowerShell scripts for Windows systems."
+    language: "PowerShell"
+    topics:
+      - "powershell"
+      - "regedit"
+      - "windows"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2025-05-30"
+  - name: "homebrew-tap"
+    title: "homebrew-tap"
+    description: "Homebrew formulae and casks"
+    language: "Ruby"
+    topics:
+      - "cask"
+      - "homebrew"
+      - "homebrew-cask"
+      - "homebrew-tap"
+      - "macos"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-02"
+    last_push: "2026-09-11"
   - name: "Melaffeine"
     title: "Melaffeine"
     description: "Lightweight native macOS menu-bar utility & CLI to prevent sleep using IOKit assertions. 100% Rust with modern objc2 bindings."
@@ -118,28 +144,7 @@ repos:
       - "sleep-prevention"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-08-29"
-  - name: "_nixrice"
-    title: "_nixrice"
-    description: "@anntnzrb's *nix environment; managed by the Nix ecosystem"
-    language: "Nix"
-    topics:
-      - "dotfiles"
-      - "nix"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-08-27"
-  - name: "nixvim"
-    title: "nixvim"
-    description: "annt's nixified neovim"
-    language: "Nix"
-    topics:
-      - "neovim"
-      - "nix"
-      - "vim"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-27"
+    last_push: "2026-09-11"
 ---
 
 # anntnzrb

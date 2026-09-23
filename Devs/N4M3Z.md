@@ -8,39 +8,39 @@ provenance_repos:
   - "agavra/tuicr"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+repos_populated: false
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [0, 32, 8, 0, 11, 16, 1, 23, 24, 26, 1, 6, 0]
+pushes_per_week: [0, 1, 23, 3, 2, 46, 9, 17, 5, 2, 0, 4, 19]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    pushes: 19
+    distinct_repos: 5
+    active_days: 4
+    repos_not_owned: 4
+    not_owned_basenames: 4
+    not_owned_owners: 1
   "30d":
-    pushes: 33
-    distinct_repos: 7
-    active_days: 10
-    repos_not_owned: 6
-    not_owned_basenames: 6
+    pushes: 29
+    distinct_repos: 6
+    active_days: 11
+    repos_not_owned: 5
+    not_owned_basenames: 5
     not_owned_owners: 1
   "90d":
-    pushes: 148
-    distinct_repos: 20
+    pushes: 131
+    distinct_repos: 12
     active_days: 32
     repos_not_owned: 7
     not_owned_basenames: 7
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 4.6250
-  repo_per_active_day: 0.6250
-  not_owned_ratio: 0.3500
-  basename_concentration: 0.1000
+  push_per_day: 4.0938
+  repo_per_active_day: 0.3750
+  not_owned_ratio: 0.5833
+  basename_concentration: 0.0833
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    pushes: 19
+    distinct_repos: 5
+    pushes_per_repo: 3.8000
+    active_days: 4
+    repos_not_owned: 4
+    not_owned_basenames: 4
+    not_owned_owners: 1
   "30d":
-    pushes: 33
-    distinct_repos: 7
-    pushes_per_repo: 4.7143
-    active_days: 10
-    repos_not_owned: 6
-    not_owned_basenames: 6
+    pushes: 29
+    distinct_repos: 6
+    pushes_per_repo: 4.8333
+    active_days: 11
+    repos_not_owned: 5
+    not_owned_basenames: 5
     not_owned_owners: 1
   "90d":
-    pushes: 148
-    distinct_repos: 20
-    pushes_per_repo: 7.4000
+    pushes: 131
+    distinct_repos: 12
+    pushes_per_repo: 10.9167
     active_days: 32
     repos_not_owned: 7
     not_owned_basenames: 7
@@ -76,59 +76,11 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 32 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "forge-provision"
-    title: "forge-provision"
-    description: "Best-practice provisioning for developer machines — macOS, Linux, Windows"
-    language: "Shell"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-27"
-  - name: "dotfiles"
-    title: "dotfiles"
-    description: "chezmoi-managed dotfiles"
-    language: "Shell"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-01"
-  - name: "forge-core"
-    title: "forge-core"
-    description: "Module-building skills for your AI ecosystem — build skills, build agents, architect repositories into modules and plugins in a scaffolding of your choice"
-    language: "Python"
-    topics: []
-    stars_fact: 5
-    first_seen: null
-    last_push: "2026-08-19"
-  - name: "homebrew-tap"
-    title: "homebrew-tap"
-    description: "Personal Homebrew tap (proton-drive-cli: official Proton Drive CLI binary)"
-    language: "Ruby"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-09-01"
-  - name: "forge-cli"
-    title: "forge-cli"
-    description: "Assemble, validate, and deploy markdown content across AI coding providers"
-    language: "Rust"
-    topics: []
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-07-13"
-  - name: "forge-council"
-    title: "forge-council"
-    description: "Multi-agent council orchestration via Claude Code agent teams"
-    language: "Shell"
-    topics: []
-    stars_fact: 10
-    first_seen: null
-    last_push: "2026-07-13"
+repos: []
 ---
 
 # N4M3Z
 
-148 pushes across 20 repositories on 32 active days in the last 90 days of public GitHub push activity.
+131 pushes across 12 repositories on 32 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/N4M3Z

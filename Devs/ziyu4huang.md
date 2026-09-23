@@ -8,37 +8,37 @@ provenance_repos:
   - "calesthio/OpenMontage"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+repos_populated: false
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "6d3bd03b49986330"
-pushes_per_week: [18, 60, 41, 94, 70, 75, 45, 29, 22, 50, 19, 9, 2]
+pushes_per_week: [31, 89, 73, 66, 37, 23, 37, 39, 22, 3, 1, 1, 0]
 windows:
   "7d":
-    pushes: 2
-    distinct_repos: 1
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 99
+    pushes: 11
     distinct_repos: 1
-    active_days: 19
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 534
+    pushes: 422
     distinct_repos: 3
-    active_days: 75
+    active_days: 61
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 7.1200
-  repo_per_active_day: 0.0400
+  push_per_day: 6.9180
+  repo_per_active_day: 0.0492
   not_owned_ratio: 0.0000
   basename_concentration: 0.3333
   shapes: []
@@ -49,86 +49,38 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
-    distinct_repos: 1
-    pushes_per_repo: 2.0000
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 99
+    pushes: 11
     distinct_repos: 1
-    pushes_per_repo: 99.0000
-    active_days: 19
+    pushes_per_repo: 11.0000
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 534
+    pushes: 422
     distinct_repos: 3
-    pushes_per_repo: 178.0000
-    active_days: 75
+    pushes_per_repo: 140.6667
+    active_days: 61
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 75 active days in 90d — pass"
+  - "activity: 61 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "video_generation"
-    title: "video_generation"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-03"
-  - name: "harness_dev"
-    title: "harness_dev"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-06-06"
-  - name: "bun_remotion"
-    title: "bun_remotion"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-05-04"
-  - name: "dev_mlx"
-    title: "dev_mlx"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-04-07"
-  - name: "ziyu4huang.github.io"
-    title: "ziyu4huang.github.io"
-    description: null
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2025-10-04"
-  - name: "i2c"
-    title: "i2c"
-    description: "i2c code for study GAI"
-    language: "Verilog"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2025-02-24"
+repos: []
 ---
 
 # ziyu4huang
 
-534 pushes across 3 repositories on 75 active days in the last 90 days of public GitHub push activity.
+422 pushes across 3 repositories on 61 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ziyu4huang

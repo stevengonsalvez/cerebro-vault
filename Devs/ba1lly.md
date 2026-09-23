@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [105, 121, 113, 114, 70, 51, 0, 0, 0, 0, 2, 0, 0]
+pushes_per_week: [111, 98, 62, 22, 0, 0, 0, 2, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,25 +22,25 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 2
-    distinct_repos: 2
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 576
-    distinct_repos: 7
-    active_days: 42
+    pushes: 295
+    distinct_repos: 3
+    active_days: 25
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 13.7143
-  repo_per_active_day: 0.1667
-  not_owned_ratio: 0.1429
-  basename_concentration: 0.1429
+  push_per_day: 11.8000
+  repo_per_active_day: 0.1200
+  not_owned_ratio: 0.3333
+  basename_concentration: 0.3333
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -57,26 +57,53 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 2
-    distinct_repos: 2
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 576
-    distinct_repos: 7
-    pushes_per_repo: 82.2857
-    active_days: 42
+    pushes: 295
+    distinct_repos: 3
+    pushes_per_repo: 98.3333
+    active_days: 25
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 42 active days in 90d — pass"
+  - "activity: 25 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "ba1lly"
+    title: "ba1lly"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-22"
+  - name: "Mynah"
+    title: "Mynah"
+    description: "Record Discord voice calls and transcribe them locally with accurate per-speaker labels, no bot, nothing leaves your machine."
+    language: "Python"
+    topics:
+      - "ai"
+      - "ai-tools"
+      - "discord"
+      - "local-first"
+      - "meeting-notes"
+      - "privacy"
+      - "speaker-diarization"
+      - "speech-to-text"
+      - "transcription"
+      - "whisperx"
+      - "windows"
+    stars_fact: 8
+    first_seen: null
+    last_push: "2026-08-18"
   - name: "OpenPrism"
     title: "OpenPrism"
     description: "Multi-model panel and judge (OpenRouter-Fusion style) for Claude Code, opencode, and any MCP host. Diverse models answer in parallel, then a judge reconciles them into one better answer."
@@ -101,25 +128,6 @@ repos:
     stars_fact: 6
     first_seen: null
     last_push: "2026-08-29"
-  - name: "Mynah"
-    title: "Mynah"
-    description: "Record Discord voice calls and transcribe them locally with accurate per-speaker labels, no bot, nothing leaves your machine."
-    language: "Python"
-    topics:
-      - "ai"
-      - "ai-tools"
-      - "discord"
-      - "local-first"
-      - "meeting-notes"
-      - "privacy"
-      - "speaker-diarization"
-      - "speech-to-text"
-      - "transcription"
-      - "whisperx"
-      - "windows"
-    stars_fact: 7
-    first_seen: null
-    last_push: "2026-08-18"
   - name: "nocturne"
     title: "nocturne"
     description: "Autonomous coding orchestrator. Label a GitHub issue and Nocturne drives opencode to fix it on an isolated branch, reviews its own work, and opens a clean PR — while you sleep. Multi-repo, multi-provider, safe-by-default: never merges, force-pushes, or touches main."
@@ -146,14 +154,6 @@ repos:
     stars_fact: 5
     first_seen: null
     last_push: "2026-07-22"
-  - name: "ba1lly"
-    title: "ba1lly"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-06-23"
   - name: "nocturne-playground"
     title: "nocturne-playground"
     description: "Nocturne dogfood sandbox"
@@ -166,6 +166,6 @@ repos:
 
 # ba1lly
 
-576 pushes across 7 repositories on 42 active days in the last 90 days of public GitHub push activity.
+295 pushes across 3 repositories on 25 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ba1lly

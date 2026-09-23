@@ -8,11 +8,11 @@ provenance_repos:
   - "agentscope-ai/QwenPaw"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+repos_populated: false
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "541318303a272608"
-pushes_per_week: [0, 17, 22, 19, 2, 1, 0, 0, 2, 0, 0, 0, 0]
+pushes_per_week: [20, 16, 1, 0, 0, 0, 2, 0, 0, 0, 0, 2, 0]
 windows:
   "7d":
     pushes: 0
@@ -24,21 +24,21 @@ windows:
   "30d":
     pushes: 2
     distinct_repos: 1
-    active_days: 1
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 63
+    pushes: 41
     distinct_repos: 8
-    active_days: 21
+    active_days: 15
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 3.0000
-  repo_per_active_day: 0.3810
+  push_per_day: 2.7333
+  repo_per_active_day: 0.5333
   not_owned_ratio: 0.0000
   basename_concentration: 0.1250
   shapes: []
@@ -60,79 +60,27 @@ facets:
     pushes: 2
     distinct_repos: 1
     pushes_per_repo: 2.0000
-    active_days: 1
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 63
+    pushes: 41
     distinct_repos: 8
-    pushes_per_repo: 7.8750
-    active_days: 21
+    pushes_per_repo: 5.1250
+    active_days: 15
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 21 active days in 90d — pass"
+  - "activity: 15 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "todomvc-react-antigravity"
-    title: "todomvc-react-antigravity"
-    description: "A modern, production-grade TodoMVC application implemented in React 18+ and TypeScript."
-    language: "TypeScript"
-    topics:
-      - "production-ready"
-      - "react"
-      - "todoapp"
-      - "typescript"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-30"
-  - name: "nguyenthanhthe"
-    title: "nguyenthanhthe"
-    description: "Profile README - Nguyễn Thanh Thế"
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-23"
-  - name: "my-rotary-inverted-pendulum"
-    title: "my-rotary-inverted-pendulum"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-23"
-  - name: "Clipboard-LLM-Daemon"
-    title: "Clipboard-LLM-Daemon"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-18"
-  - name: "ros2-unitree-g1-imitation"
-    title: "ros2-unitree-g1-imitation"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-17"
-  - name: "ros2-ail-navigation"
-    title: "ros2-ail-navigation"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-17"
+repos: []
 ---
 
 # nguyenthanhthe
 
-63 pushes across 8 repositories on 21 active days in the last 90 days of public GitHub push activity.
+41 pushes across 8 repositories on 15 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/nguyenthanhthe

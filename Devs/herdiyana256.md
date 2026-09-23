@@ -8,11 +8,11 @@ provenance_repos:
   - "ChromeDevTools/chrome-devtools-mcp"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+repos_populated: false
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "379642deb53f3714"
-pushes_per_week: [5, 8, 4, 2, 3, 3, 2, 2, 2, 2, 0, 0, 0]
+pushes_per_week: [5, 2, 4, 1, 2, 1, 3, 1, 0, 0, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,25 +22,25 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 2
-    distinct_repos: 2
-    active_days: 2
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 33
-    distinct_repos: 13
-    active_days: 22
+    pushes: 20
+    distinct_repos: 12
+    active_days: 17
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.5000
-  repo_per_active_day: 0.5909
+  push_per_day: 1.1765
+  repo_per_active_day: 0.7059
   not_owned_ratio: 0.0000
-  basename_concentration: 0.0769
+  basename_concentration: 0.0833
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -57,78 +57,30 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 2
-    distinct_repos: 2
+    pushes: 1
+    distinct_repos: 1
     pushes_per_repo: 1.0000
-    active_days: 2
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 33
-    distinct_repos: 13
-    pushes_per_repo: 2.5385
-    active_days: 22
+    pushes: 20
+    distinct_repos: 12
+    pushes_per_repo: 1.6667
+    active_days: 17
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 22 active days in 90d — pass"
+  - "activity: 17 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "supernesia"
-    title: "supernesia"
-    description: "supernesia website"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-08-31"
-  - name: "herdiyana256"
-    title: "herdiyana256"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-25"
-  - name: "security-compliance-tool"
-    title: "security-compliance-tool"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-05-30"
-  - name: "mcp-poc-merge-attack"
-    title: "mcp-poc-merge-attack"
-    description: "Automated dependency audit report"
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-05-28"
-  - name: "mcp-poc-fork-attack"
-    title: "mcp-poc-fork-attack"
-    description: "Security compliance toolkit for automated repository maintenance"
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-05-28"
-  - name: "mcp-poc-push-attack"
-    title: "mcp-poc-push-attack"
-    description: "CI/CD pipeline configuration guide"
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-05-28"
+repos: []
 ---
 
 # herdiyana256
 
-33 pushes across 13 repositories on 22 active days in the last 90 days of public GitHub push activity.
+20 pushes across 12 repositories on 17 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/herdiyana256

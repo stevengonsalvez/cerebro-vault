@@ -8,39 +8,39 @@ provenance_repos:
   - "apache/maka"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+repos_populated: false
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [0, 3, 0, 0, 0, 0, 0, 1, 8, 15, 1, 4, 1]
+pushes_per_week: [0, 0, 0, 0, 0, 6, 5, 14, 3, 1, 1, 1, 0]
 windows:
   "7d":
-    pushes: 2
-    distinct_repos: 1
-    active_days: 2
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 23
-    distinct_repos: 2
-    active_days: 11
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 4
+    distinct_repos: 1
+    active_days: 4
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
-    pushes: 33
-    distinct_repos: 4
+    pushes: 31
+    distinct_repos: 3
     active_days: 17
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.9412
-  repo_per_active_day: 0.2353
-  not_owned_ratio: 0.2500
-  basename_concentration: 0.5000
+  push_per_day: 1.8235
+  repo_per_active_day: 0.1765
+  not_owned_ratio: 0.3333
+  basename_concentration: 0.6667
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
-    distinct_repos: 1
-    pushes_per_repo: 2.0000
-    active_days: 2
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 23
-    distinct_repos: 2
-    pushes_per_repo: 11.5000
-    active_days: 11
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 4
+    distinct_repos: 1
+    pushes_per_repo: 4.0000
+    active_days: 4
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
-    pushes: 33
-    distinct_repos: 4
-    pushes_per_repo: 8.2500
+    pushes: 31
+    distinct_repos: 3
+    pushes_per_repo: 10.3333
     active_days: 17
     repos_not_owned: 1
     not_owned_basenames: 1
@@ -76,64 +76,11 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 17 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "awesome_llm_benchmark"
-    title: "awesome_llm_benchmark"
-    description: null
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-06-15"
-  - name: "info_collect"
-    title: "info_collect"
-    description: "一个基于 Python 和 Flask 构建的信息收集工具，用于自动聚合来自多个主流网站的文章。该工具支持关键词检索、查看文章来源、每日推荐最热文章，并提供友好的用户界面。通过插件化设计，您可以轻松扩展和集成更多的数据源。"
-    language: "Python"
-    topics:
-      - "collection"
-      - "news"
-      - "wiki"
-    stars_fact: 4
-    first_seen: null
-    last_push: "2024-12-26"
-  - name: "local_code_agent"
-    title: "local_code_agent"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2025-07-09"
-  - name: "llm-demo"
-    title: "llm-demo"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2025-02-07"
-  - name: "gpu_resource_calculator"
-    title: "gpu_resource_calculator"
-    description: null
-    language: "HTML"
-    topics: []
-    stars_fact: 3
-    first_seen: null
-    last_push: "2024-10-02"
-  - name: "liugddx"
-    title: "liugddx"
-    description: "Config files for my GitHub profile."
-    language: null
-    topics:
-      - "config"
-      - "github-config"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2024-11-10"
+repos: []
 ---
 
 # liugddx
 
-33 pushes across 4 repositories on 17 active days in the last 90 days of public GitHub push activity.
+31 pushes across 3 repositories on 17 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/liugddx

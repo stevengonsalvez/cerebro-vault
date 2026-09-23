@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "3eacb4655aba2497"
-pushes_per_week: [0, 0, 2, 17, 20, 16, 3, 4, 3, 0, 0, 0, 0]
+pushes_per_week: [8, 22, 14, 14, 3, 2, 2, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 2
-    distinct_repos: 2
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 2
-    distinct_repos: 2
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -77,14 +77,6 @@ reasons:
   - "activity: 25 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "glm-5.3-flash-exl3-2x-spark"
-    title: "glm-5.3-flash-exl3-2x-spark"
-    description: "GLM-5.3-Flash (EXL3 4bpw + DFlash2) on 2x NVIDIA DGX Spark: one-shot installer, 33-74 tok/s c1, 1.3M+ context, vision"
-    language: "Shell"
-    topics: []
-    stars_fact: 31
-    first_seen: null
-    last_push: "2026-09-02"
   - name: "ds4-on-spark"
     title: "ds4-on-spark"
     description: "Entrpi/ds4, a Blackwell CUDA perf fork of antirez/ds4 on NVIDIA DGX Spark: one-command install, ~3x upstream prefill, ~1.5x decode, DSpark, and full continuous batch support"
@@ -99,9 +91,41 @@ repos:
       - "inference"
       - "llm"
       - "moe"
-    stars_fact: 389
+    stars_fact: 404
     first_seen: null
     last_push: "2026-08-27"
+  - name: "eemicrogpt"
+    title: "eemicrogpt"
+    description: "The most extreme way to train a GPT in pure, dependency-free C. 84000x faster than Python. Optimized for Apple Silicon with SME2."
+    language: "C"
+    topics: []
+    stars_fact: 64
+    first_seen: null
+    last_push: "2026-07-10"
+  - name: "glm-5.3-flash-exl3-2x-spark"
+    title: "glm-5.3-flash-exl3-2x-spark"
+    description: "GLM-5.3-Flash (EXL3 4bpw + DFlash2) on 2x NVIDIA DGX Spark: one-shot installer, 33-74 tok/s c1, 1.3M+ context, vision"
+    language: "Shell"
+    topics: []
+    stars_fact: 42
+    first_seen: null
+    last_push: "2026-09-02"
+  - name: "autoresearch-everywhere"
+    title: "autoresearch-everywhere"
+    description: "Optimized cross-platform expansion of autoresearch."
+    language: "Python"
+    topics: []
+    stars_fact: 18
+    first_seen: null
+    last_push: "2026-03-23"
+  - name: "qwen3.5-122B-A10B-on-spark"
+    title: "qwen3.5-122B-A10B-on-spark"
+    description: "Qwen3.5-122B-A10B on a DGX Spark with DFlash speculative decode. One-shot Docker/vLLM installer. 80+ tok/s!"
+    language: "Python"
+    topics: []
+    stars_fact: 60
+    first_seen: null
+    last_push: "2026-06-29"
   - name: "dgx-spark-serving-mode"
     title: "dgx-spark-serving-mode"
     description: "Headless / multi-user serving-mode for the DGX Spark: free unified memory for vLLM by paring back the desktop. Companion to qwen3.5-122B-A10B-on-spark."
@@ -110,30 +134,6 @@ repos:
     stars_fact: 18
     first_seen: null
     last_push: "2026-06-29"
-  - name: "vllm-glm-5.3-flash-spark"
-    title: "vllm-glm-5.3-flash-spark"
-    description: "vLLM fork branch serving GLM-5.3-Flash on 2x DGX Spark (GB10): glm5_next port + sm121 fixes + EXL3 fused serving + DFlash2 speculative decode + ring draft-KV. Community derivative; setup repo: Entrpi/glm-5.3-flash-exl3-2x-spark"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-02"
-  - name: "ds4-spark-vllm"
-    title: "ds4-spark-vllm"
-    description: "antirez/ds4-style hybrid quant DeepSeek V4 Flash on a single DGX Spark via vLLM"
-    language: "Python"
-    topics: []
-    stars_fact: 17
-    first_seen: null
-    last_push: "2026-05-11"
-  - name: "autoresearch-everywhere"
-    title: "autoresearch-everywhere"
-    description: "Optimized cross-platform expansion of autoresearch."
-    language: "Python"
-    topics: []
-    stars_fact: 17
-    first_seen: null
-    last_push: "2026-03-23"
 ---
 
 # Entrpi

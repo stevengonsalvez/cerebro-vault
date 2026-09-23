@@ -5,42 +5,46 @@ discovered_via: "fanout"
 discovered_via_all:
   - "fanout"
 provenance_repos:
+  - "affaan-m/ECC"
   - "alibaba/open-code-review"
+  - "ayghri/i-have-adhd"
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
+  - "46f3c1d6124190bd"
   - "c489e6fb5febf2ab"
-pushes_per_week: [2, 4, 0, 16, 18, 39, 20, 0, 16, 16, 6, 4, 2]
+  - "edb3a626875732de"
+pushes_per_week: [0, 18, 16, 51, 8, 0, 29, 7, 5, 1, 4, 6, 8]
 windows:
   "7d":
-    pushes: 2
-    distinct_repos: 1
-    active_days: 1
+    pushes: 8
+    distinct_repos: 7
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 44
+    pushes: 22
     distinct_repos: 18
-    active_days: 15
+    active_days: 10
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 143
-    distinct_repos: 24
-    active_days: 33
+    pushes: 153
+    distinct_repos: 36
+    active_days: 37
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 4.3333
-  repo_per_active_day: 0.7273
-  not_owned_ratio: 0.0833
-  basename_concentration: 0.0417
+  push_per_day: 4.1351
+  repo_per_active_day: 0.9730
+  not_owned_ratio: 0.0556
+  basename_concentration: 0.0278
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,34 +53,42 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
-    distinct_repos: 1
-    pushes_per_repo: 2.0000
-    active_days: 1
+    pushes: 8
+    distinct_repos: 7
+    pushes_per_repo: 1.1429
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 44
+    pushes: 22
     distinct_repos: 18
-    pushes_per_repo: 2.4444
-    active_days: 15
+    pushes_per_repo: 1.2222
+    active_days: 10
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 143
-    distinct_repos: 24
-    pushes_per_repo: 5.9583
-    active_days: 33
+    pushes: 153
+    distinct_repos: 36
+    pushes_per_repo: 4.2500
+    active_days: 37
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 reasons:
-  - "provenance: 1 vault signal(s) — pass"
-  - "activity: 33 active days in 90d — pass"
+  - "provenance: 3 vault signal(s) — pass"
+  - "activity: 37 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "ai-visibility-skills"
+    title: "ai-visibility-skills"
+    description: "Canonical AI visibility skills, aggregated by wakqasahmed/skills"
+    language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-23"
   - name: "ai-engineering-workflow-skills"
     title: "ai-engineering-workflow-skills"
     description: "Canonical AI engineering workflow skills, aggregated by wakqasahmed/skills"
@@ -94,7 +106,15 @@ repos:
       - "workflow"
     stars_fact: 2
     first_seen: null
-    last_push: "2026-09-03"
+    last_push: "2026-09-23"
+  - name: "agent-reliability-skills"
+    title: "agent-reliability-skills"
+    description: "Provider-agnostic agent skills for operating customer-facing AI agents reliably: answer scoping, abstention, sampled accuracy measurement, error budgets, and accuracy ownership"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-11"
   - name: "php-laravel-filament-skills"
     title: "php-laravel-filament-skills"
     description: "Canonical PHP, Laravel, and Filament skills, aggregated by wakqasahmed/skills"
@@ -102,15 +122,7 @@ repos:
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-09-03"
-  - name: "ai-visibility-skills"
-    title: "ai-visibility-skills"
-    description: "Canonical AI visibility skills, aggregated by wakqasahmed/skills"
-    language: "Python"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-01"
+    last_push: "2026-09-10"
   - name: "wakqasahmed"
     title: "wakqasahmed"
     description: null
@@ -127,18 +139,10 @@ repos:
     stars_fact: 2
     first_seen: null
     last_push: "2026-08-26"
-  - name: "skill-model-bench"
-    title: "skill-model-bench"
-    description: "Benchmark any AI model against any agent skill, using the skill's own fixtures as ground truth — cost, quality, and latency, per skill or per workflow step"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-18"
 ---
 
 # wakqasahmed
 
-143 pushes across 24 repositories on 33 active days in the last 90 days of public GitHub push activity.
+153 pushes across 36 repositories on 37 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/wakqasahmed

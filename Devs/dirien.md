@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-05T06:07:00.404056+00:00"
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "48dbbdd8fd0d3029"
-pushes_per_week: [3, 1, 4, 12, 3, 5, 0, 1, 0, 2, 0, 0, 0]
+pushes_per_week: [7, 7, 3, 4, 0, 1, 2, 0, 0, 0, 0, 3, 2]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
-  "30d":
     pushes: 2
     distinct_repos: 2
-    active_days: 1
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    active_days: 2
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
+  "30d":
+    pushes: 5
+    distinct_repos: 4
+    active_days: 5
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "90d":
-    pushes: 31
-    distinct_repos: 16
-    active_days: 15
+    pushes: 29
+    distinct_repos: 14
+    active_days: 16
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 2.0667
-  repo_per_active_day: 1.0667
-  not_owned_ratio: 0.1250
-  basename_concentration: 0.0625
+  push_per_day: 1.8125
+  repo_per_active_day: 0.8750
+  not_owned_ratio: 0.1429
+  basename_concentration: 0.0714
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
-  "30d":
     pushes: 2
     distinct_repos: 2
     pushes_per_repo: 1.0000
-    active_days: 1
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    active_days: 2
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
+  "30d":
+    pushes: 5
+    distinct_repos: 4
+    pushes_per_repo: 1.2500
+    active_days: 5
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "90d":
-    pushes: 31
-    distinct_repos: 16
-    pushes_per_repo: 1.9375
-    active_days: 15
+    pushes: 29
+    distinct_repos: 14
+    pushes_per_repo: 2.0714
+    active_days: 16
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 15 active days in 90d — pass"
+  - "activity: 16 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "dirien"
@@ -84,23 +84,39 @@ repos:
     topics: []
     stars_fact: 9
     first_seen: null
-    last_push: "2026-09-03"
-  - name: "devcontainer-feature-codex"
-    title: "devcontainer-feature-codex"
-    description: "Dev Container feature to install OpenAI Codex CLI"
-    language: "Shell"
-    topics: []
-    stars_fact: 7
-    first_seen: null
-    last_push: "2026-08-10"
-  - name: "claude-skills"
-    title: "claude-skills"
-    description: "Custom Claude Code skills for Pulumi infrastructure as code"
+    last_push: "2026-09-23"
+  - name: "pulumi-fly"
+    title: "pulumi-fly"
+    description: "Pulumi provider for Fly.io"
     language: "Python"
-    topics: []
-    stars_fact: 13
+    topics:
+      - "fly"
+      - "pulumi"
+    stars_fact: 57
     first_seen: null
-    last_push: "2026-03-30"
+    last_push: "2026-08-24"
+  - name: "herdr-sbx-plugin"
+    title: "herdr-sbx-plugin"
+    description: "Herdr plugin that runs coding agents inside Docker Sandboxes (sbx), one microVM per agent"
+    language: "JavaScript"
+    topics:
+      - "coding-agents"
+      - "docker-sandboxes"
+      - "herdr"
+      - "herdr-plugin"
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-09-13"
+  - name: "pulumi-vultr"
+    title: "pulumi-vultr"
+    description: "Pulumi provider for Vultr"
+    language: "Python"
+    topics:
+      - "pulumi"
+      - "vultr"
+    stars_fact: 25
+    first_seen: null
+    last_push: "2026-02-01"
   - name: "infrastructure-sandbox-kit"
     title: "infrastructure-sandbox-kit"
     description: "Docker Sandboxes template + kit: an IaC (Pulumi/Terraform/OpenTofu + AWS/Azure/GCP CLIs) Claude Code workstation with APM baked into the agent home."
@@ -108,34 +124,24 @@ repos:
     topics: []
     stars_fact: 2
     first_seen: null
-    last_push: "2026-08-30"
-  - name: "minecraft-prometheus-exporter"
-    title: "minecraft-prometheus-exporter"
-    description: "Minecraft Prometheus exporter"
-    language: "Go"
-    topics:
-      - "go"
-      - "hacktoberfest"
-      - "metrics"
-      - "minecraft"
-      - "minectl"
-      - "prometheus"
-      - "prometheus-exporter"
-    stars_fact: 139
-    first_seen: null
-    last_push: "2026-08-26"
-  - name: "devcontainer-coding-agents"
-    title: "devcontainer-coding-agents"
-    description: "Devcontainer with four AI coding agents (Claude Code, Copilot, OpenCode, Codex) and yaah for unified config generation"
+    last_push: "2026-09-17"
+  - name: "my-claude-apm-setup"
+    title: "my-claude-apm-setup"
+    description: "A self-contained APM-managed Claude Code + Codex setup — pinned skills, agents, guardrail hooks, MCP, LSP, and single-source generated context."
     language: "Shell"
-    topics: []
-    stars_fact: 4
+    topics:
+      - "agent-package-manager"
+      - "ai-agents"
+      - "apm"
+      - "claude-code"
+      - "codex"
+    stars_fact: 1
     first_seen: null
-    last_push: "2026-04-03"
+    last_push: "2026-09-17"
 ---
 
 # dirien
 
-31 pushes across 16 repositories on 15 active days in the last 90 days of public GitHub push activity.
+29 pushes across 14 repositories on 16 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/dirien

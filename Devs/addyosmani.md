@@ -10,38 +10,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "dae9f02535f7c22f"
-pushes_per_week: [6, 11, 4, 1, 8, 1, 0, 1, 2, 2, 0, 1, 0]
+pushes_per_week: [3, 3, 6, 1, 1, 0, 3, 1, 0, 1, 0, 0, 2]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
+    pushes: 2
+    distinct_repos: 1
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
     pushes: 3
-    distinct_repos: 3
+    distinct_repos: 2
     active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 37
-    distinct_repos: 8
-    active_days: 22
-    repos_not_owned: 2
-    not_owned_basenames: 2
-    not_owned_owners: 2
+    pushes: 21
+    distinct_repos: 5
+    active_days: 15
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.6818
-  repo_per_active_day: 0.3636
-  not_owned_ratio: 0.2500
-  basename_concentration: 0.1250
+  push_per_day: 1.4000
+  repo_per_active_day: 0.3333
+  not_owned_ratio: 0.0000
+  basename_concentration: 0.2000
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -50,32 +50,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
+    pushes: 2
+    distinct_repos: 1
+    pushes_per_repo: 2.0000
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
     pushes: 3
-    distinct_repos: 3
-    pushes_per_repo: 1.0000
+    distinct_repos: 2
+    pushes_per_repo: 1.5000
     active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 37
-    distinct_repos: 8
-    pushes_per_repo: 4.6250
-    active_days: 22
-    repos_not_owned: 2
-    not_owned_basenames: 2
-    not_owned_owners: 2
+    pushes: 21
+    distinct_repos: 5
+    pushes_per_repo: 4.2000
+    active_days: 15
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 22 active days in 90d — pass"
+  - "activity: 15 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "agent-skills"
@@ -89,22 +89,45 @@ repos:
       - "codex"
       - "cursor"
       - "skills"
-    stars_fact: 91863
+    stars_fact: 98622
     first_seen: "2026-06-19T17:17:12.671343+00:00"
-    last_push: "2026-09-03"
-  - name: "clarity"
-    title: "clarity"
-    description: "Clarity - an Agent skill for clearer writing"
-    language: "JavaScript"
+    last_push: "2026-09-23"
+  - name: "factory"
+    title: "factory"
+    description: "A reference software factory for Claude Code and Codex"
+    language: "Shell"
     topics:
-      - "ai-writing"
-      - "ai-writing-assistant"
-      - "writing"
-      - "writing-assistant"
-      - "writing-tools"
-    stars_fact: 158
+      - "agentic-engineering"
+      - "claude-code"
+      - "codex"
+      - "software-factory"
+    stars_fact: 202
     first_seen: null
-    last_push: "2026-08-29"
+    last_push: "2026-08-21"
+  - name: "bg-remove"
+    title: "bg-remove"
+    description: "Free image background removal - private, client-side and powered by Transformers.js"
+    language: "TypeScript"
+    topics:
+      - "background-image"
+      - "background-image-remover"
+      - "background-remover"
+      - "images"
+    stars_fact: 1018
+    first_seen: null
+    last_push: "2025-01-05"
+  - name: "chatty"
+    title: "chatty"
+    description: "ChattyUI - your private AI chat for running LLMs in the browser"
+    language: "TypeScript"
+    topics:
+      - "ai"
+      - "chatbot"
+      - "huggingface"
+      - "local"
+    stars_fact: 837
+    first_seen: null
+    last_push: "2026-08-09"
   - name: "web-quality-skills"
     title: "web-quality-skills"
     description: "Agent Skills for optimizing web quality based on Lighthouse and Core Web Vitals."
@@ -118,43 +141,24 @@ repos:
       - "skills"
       - "testing"
       - "web-performance"
-    stars_fact: 2742
+    stars_fact: 2831
     first_seen: null
     last_push: "2026-08-24"
-  - name: "chatty"
-    title: "chatty"
-    description: "ChattyUI - your private AI chat for running LLMs in the browser"
-    language: "TypeScript"
+  - name: "agent-engineer"
+    title: "agent-engineer"
+    description: "Agent Engineer - a practical course for software engineers"
+    language: null
     topics:
-      - "ai"
-      - "chatbot"
-      - "huggingface"
-      - "local"
-    stars_fact: 837
+      - "agentic-framework"
+      - "ai-agents"
+      - "generative-ai"
+    stars_fact: 497
     first_seen: null
-    last_push: "2026-08-09"
-  - name: "elevenlabs-rapscribe"
-    title: "elevenlabs-rapscribe"
-    description: "Demo of ElevenLabs new Scribe ASR model"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 16
-    first_seen: null
-    last_push: "2025-03-02"
-  - name: "react-flow"
-    title: "react-flow"
-    description: "A React Coverflow component using Scroll-driven Animations"
-    language: "CSS"
-    topics:
-      - "coverflow"
-      - "coverflowview"
-    stars_fact: 36
-    first_seen: null
-    last_push: "2025-04-06"
+    last_push: "2026-07-16"
 ---
 
 # addyosmani
 
-37 pushes across 8 repositories on 22 active days in the last 90 days of public GitHub push activity.
+21 pushes across 5 repositories on 15 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/addyosmani

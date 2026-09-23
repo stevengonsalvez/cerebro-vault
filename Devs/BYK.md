@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [136, 84, 105, 101, 34, 41, 33, 41, 16, 7, 1, 1, 0]
+pushes_per_week: [81, 77, 32, 40, 36, 31, 11, 4, 1, 0, 4, 9, 18]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
-  "30d":
-    pushes: 14
+    pushes: 18
     distinct_repos: 4
-    active_days: 7
+    active_days: 5
+    repos_not_owned: 2
+    not_owned_basenames: 2
+    not_owned_owners: 1
+  "30d":
+    pushes: 32
+    distinct_repos: 5
+    active_days: 14
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 600
+    pushes: 344
     distinct_repos: 13
-    active_days: 65
+    active_days: 61
     repos_not_owned: 6
-    not_owned_basenames: 5
-    not_owned_owners: 2
+    not_owned_basenames: 6
+    not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 9.2308
-  repo_per_active_day: 0.2000
+  push_per_day: 5.6393
+  repo_per_active_day: 0.2131
   not_owned_ratio: 0.4615
-  basename_concentration: 0.1538
+  basename_concentration: 0.0769
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
-  "30d":
-    pushes: 14
+    pushes: 18
     distinct_repos: 4
-    pushes_per_repo: 3.5000
-    active_days: 7
+    pushes_per_repo: 4.5000
+    active_days: 5
+    repos_not_owned: 2
+    not_owned_basenames: 2
+    not_owned_owners: 1
+  "30d":
+    pushes: 32
+    distinct_repos: 5
+    pushes_per_repo: 6.4000
+    active_days: 14
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 600
+    pushes: 344
     distinct_repos: 13
-    pushes_per_repo: 46.1538
-    active_days: 65
+    pushes_per_repo: 26.4615
+    active_days: 61
     repos_not_owned: 6
-    not_owned_basenames: 5
-    not_owned_owners: 2
+    not_owned_basenames: 6
+    not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 65 active days in 90d — pass"
+  - "activity: 61 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "loreai"
@@ -85,25 +85,17 @@ repos:
       - "ai-agents"
       - "context-management"
       - "memory"
-    stars_fact: 109
+    stars_fact: 120
     first_seen: null
-    last_push: "2026-09-03"
-  - name: "byk.github.io"
-    title: "byk.github.io"
-    description: "Read at BYK's"
-    language: "MDX"
+    last_push: "2026-09-23"
+  - name: "jev-mcp"
+    title: "jev-mcp"
+    description: "An eval-first MCP server for TypeSafe's Jev, a System One model that returns typed judgments (noul, choice, score) with probabilities instead of generated text."
+    language: "TypeScript"
     topics: []
     stars_fact: 2
     first_seen: null
-    last_push: "2026-08-07"
-  - name: "binpatch"
-    title: "binpatch"
-    description: "Reusable binary delta-update engine: apply TRDIFF10/bsdiff+zstd patch chains to a binary, discover chains from a pluggable source (OCI/GHCR or GitHub Releases), and generate+publish patches via a composite GitHub Action. Zero product coupling."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 32
-    first_seen: null
-    last_push: "2026-08-08"
+    last_push: "2026-09-18"
   - name: "fossilize"
     title: "fossilize"
     description: "Create Node SEA binaries across platforms with ease"
@@ -111,27 +103,35 @@ repos:
     topics: []
     stars_fact: 35
     first_seen: null
-    last_push: "2026-06-11"
-  - name: "dotskills"
-    title: "dotskills"
-    description: "All of my LLM skills like dotfiles"
-    language: null
+    last_push: "2026-09-19"
+  - name: "binpatch"
+    title: "binpatch"
+    description: "Reusable binary delta-update engine: apply TRDIFF10/bsdiff+zstd patch chains to a binary, discover chains from a pluggable source (OCI/GHCR or GitHub Releases), and generate+publish patches via a composite GitHub Action. Zero product coupling."
+    language: "TypeScript"
     topics: []
-    stars_fact: 10
+    stars_fact: 32
     first_seen: null
-    last_push: "2026-06-15"
-  - name: "zmk-config-corneview"
-    title: "zmk-config-corneview"
-    description: null
-    language: null
+    last_push: "2026-09-17"
+  - name: "byk.github.io"
+    title: "byk.github.io"
+    description: "Read at BYK's"
+    language: "MDX"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-09-17"
+  - name: "attaquer-framework"
+    title: "attaquer-framework"
+    description: "Zebar widget pack for Framework laptops — CPU temp, fan speed, battery, auto-extracted app icons. Based on the attaquer theme."
+    language: "TypeScript"
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-07-17"
+    last_push: "2026-09-17"
 ---
 
 # BYK
 
-600 pushes across 13 repositories on 65 active days in the last 90 days of public GitHub push activity.
+344 pushes across 13 repositories on 61 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/BYK

@@ -11,12 +11,12 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "6d3bd03b49986330"
   - "716cf9e2237ac9db"
   - "dae9f02535f7c22f"
-pushes_per_week: [0, 2, 0, 3, 12, 8, 0, 16, 7, 12, 0, 0, 0]
+pushes_per_week: [2, 9, 12, 0, 0, 16, 16, 3, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -26,23 +26,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 19
-    distinct_repos: 6
-    active_days: 5
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 60
+    pushes: 58
     distinct_repos: 23
-    active_days: 22
+    active_days: 21
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.7273
-  repo_per_active_day: 1.0455
+  push_per_day: 2.7619
+  repo_per_active_day: 1.0952
   not_owned_ratio: 0.0435
   basename_concentration: 0.0435
   shapes: []
@@ -61,26 +61,61 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 19
-    distinct_repos: 6
-    pushes_per_repo: 3.1667
-    active_days: 5
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 60
+    pushes: 58
     distinct_repos: 23
-    pushes_per_repo: 2.6087
-    active_days: 22
+    pushes_per_repo: 2.5217
+    active_days: 21
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 3 vault signal(s) — pass"
-  - "activity: 22 active days in 90d — pass"
+  - "activity: 21 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "vmware-guest-bridge"
+    title: "vmware-guest-bridge"
+    description: "Control VMware guests from Windows, Linux, and macOS: PowerShell, POSIX shell, file transfers, screenshots, and console input."
+    language: "Python"
+    topics:
+      - "automation"
+      - "bash"
+      - "cli"
+      - "cross-platform"
+      - "freebsd"
+      - "guest-operations"
+      - "linux"
+      - "macos"
+      - "posix"
+      - "powershell"
+      - "python"
+      - "rfb"
+      - "virtual-machine"
+      - "vmrun"
+      - "vmware"
+      - "vmware-fusion"
+      - "vmware-workstation"
+      - "vnc"
+      - "windows"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-10"
+  - name: "viral-moment-clipper"
+    title: "viral-moment-clipper"
+    description: "Local viral moment clipper for phone-safe Shorts and TikTok rendering"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-04"
   - name: "skills"
     title: "skills"
     description: "Roblox Studio skill and local MCP bridge for Claude Code, Codex, and other coding agents."
@@ -96,15 +131,7 @@ repos:
       - "skills"
     stars_fact: 1
     first_seen: null
-    last_push: "2026-09-03"
-  - name: "viral-moment-clipper"
-    title: "viral-moment-clipper"
-    description: "Local viral moment clipper for phone-safe Shorts and TikTok rendering"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-11"
+    last_push: "2026-09-21"
   - name: "rustferry"
     title: "rustferry"
     description: "Ship Android & iOS apps from one Rust codebase - no Gradle or Xcode project maintenance. Cargo CLI, Slint UI, VS Code, CI, signing, and remote macOS builds."
@@ -132,7 +159,7 @@ repos:
       - "xcode"
     stars_fact: 2
     first_seen: null
-    last_push: "2026-09-03"
+    last_push: "2026-09-21"
   - name: "ShiroKSH"
     title: "ShiroKSH"
     description: null
@@ -159,6 +186,6 @@ repos:
 
 # ShiroKSH
 
-60 pushes across 23 repositories on 22 active days in the last 90 days of public GitHub push activity.
+58 pushes across 23 repositories on 21 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ShiroKSH

@@ -9,13 +9,13 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "97c4e9cb8b163ddb"
   - "c7515e0fa4368a55"
   - "d3abe74726b22711"
   - "e7c647c4d0689526"
-pushes_per_week: [1, 5, 0, 2, 1, 1, 0, 1, 0, 0, 0, 0, 0]
+pushes_per_week: [0, 3, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -32,18 +32,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 11
-    distinct_repos: 6
-    active_days: 9
+    pushes: 5
+    distinct_repos: 4
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.2222
-  repo_per_active_day: 0.6667
+  push_per_day: 1.0000
+  repo_per_active_day: 0.8000
   not_owned_ratio: 0.0000
-  basename_concentration: 0.1667
+  basename_concentration: 0.2500
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -68,16 +68,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 11
-    distinct_repos: 6
-    pushes_per_repo: 1.8333
-    active_days: 9
+    pushes: 5
+    distinct_repos: 4
+    pushes_per_repo: 1.2500
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 4 vault signal(s) — pass"
-  - "activity: 9 active days in 90d — pass"
+  - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "sukhbinder"
@@ -87,7 +87,34 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-03"
+    last_push: "2026-09-23"
+  - name: "gifsicle-static"
+    title: "gifsicle-static"
+    description: "A Python wrapper for the `gifsicle` command-line tool."
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-22"
+  - name: "llm-llamacpp-plugin"
+    title: "llm-llamacpp-plugin"
+    description: "A plugin for LLM providing access to models running on a llama.cpp server"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-06-26"
+  - name: "intersection"
+    title: "intersection"
+    description: "Intersection of curves in python"
+    language: "Python"
+    topics:
+      - "intersection"
+      - "numpy"
+      - "pythhon"
+    stars_fact: 94
+    first_seen: null
+    last_push: "2025-04-27"
   - name: "vidtoolz-cmd"
     title: "vidtoolz-cmd"
     description: "Run Command"
@@ -104,34 +131,10 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-08-23"
-  - name: "presentations"
-    title: "presentations"
-    description: "A repo to keep my presentations that I make and present"
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-19"
-  - name: "timesheet"
-    title: "timesheet"
-    description: "Simple timesheet app for logging shifts"
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-13"
-  - name: "vidtoolz-highlights"
-    title: "vidtoolz-highlights"
-    description: "Make highlights from videos and Stitch videos to a song"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-08"
 ---
 
 # sukhbinder
 
-11 pushes across 6 repositories on 9 active days in the last 90 days of public GitHub push activity.
+5 pushes across 4 repositories on 5 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/sukhbinder

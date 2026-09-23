@@ -8,39 +8,39 @@ provenance_repos:
   - "anomalyco/opencode"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+repos_populated: false
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [1, 8, 72, 47, 43, 54, 18, 41, 21, 72, 7, 17, 2]
+pushes_per_week: [60, 57, 35, 41, 25, 28, 55, 38, 9, 15, 0, 3, 10]
 windows:
   "7d":
-    pushes: 2
-    distinct_repos: 1
-    active_days: 1
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
-  "30d":
-    pushes: 112
-    distinct_repos: 7
-    active_days: 17
-    repos_not_owned: 4
-    not_owned_basenames: 4
-    not_owned_owners: 1
-  "90d":
-    pushes: 403
-    distinct_repos: 22
-    active_days: 62
+    pushes: 11
+    distinct_repos: 6
+    active_days: 6
     repos_not_owned: 6
     not_owned_basenames: 6
     not_owned_owners: 1
+  "30d":
+    pushes: 31
+    distinct_repos: 6
+    active_days: 13
+    repos_not_owned: 6
+    not_owned_basenames: 6
+    not_owned_owners: 1
+  "90d":
+    pushes: 376
+    distinct_repos: 23
+    active_days: 63
+    repos_not_owned: 8
+    not_owned_basenames: 8
+    not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 6.5000
-  repo_per_active_day: 0.3548
-  not_owned_ratio: 0.2727
-  basename_concentration: 0.0909
+  push_per_day: 5.9683
+  repo_per_active_day: 0.3651
+  not_owned_ratio: 0.3478
+  basename_concentration: 0.0870
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,92 +49,38 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
-    distinct_repos: 1
-    pushes_per_repo: 2.0000
-    active_days: 1
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
-  "30d":
-    pushes: 112
-    distinct_repos: 7
-    pushes_per_repo: 16.0000
-    active_days: 17
-    repos_not_owned: 4
-    not_owned_basenames: 4
-    not_owned_owners: 1
-  "90d":
-    pushes: 403
-    distinct_repos: 22
-    pushes_per_repo: 18.3182
-    active_days: 62
+    pushes: 11
+    distinct_repos: 6
+    pushes_per_repo: 1.8333
+    active_days: 6
     repos_not_owned: 6
     not_owned_basenames: 6
     not_owned_owners: 1
+  "30d":
+    pushes: 31
+    distinct_repos: 6
+    pushes_per_repo: 5.1667
+    active_days: 13
+    repos_not_owned: 6
+    not_owned_basenames: 6
+    not_owned_owners: 1
+  "90d":
+    pushes: 376
+    distinct_repos: 23
+    pushes_per_repo: 16.3478
+    active_days: 63
+    repos_not_owned: 8
+    not_owned_basenames: 8
+    not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 62 active days in 90d — pass"
+  - "activity: 63 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "ghui"
-    title: "ghui"
-    description: "A GitHub TUI"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 1096
-    first_seen: null
-    last_push: "2026-09-02"
-  - name: "Hex"
-    title: "Hex"
-    description: "Legacy Swift Hex app. Try the Rust rewrite at hex.kitlangton.com; new source at github.com/anomalyco/hex."
-    language: "Swift"
-    topics:
-      - "composable-architecture"
-      - "macos"
-      - "swift"
-      - "swiftui"
-      - "transcription"
-      - "whisper"
-    stars_fact: 2894
-    first_seen: null
-    last_push: "2026-08-27"
-  - name: "effect-solutions"
-    title: "effect-solutions"
-    description: "A guide to writing idiomatic Effect code."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 438
-    first_seen: null
-    last_push: "2026-04-29"
-  - name: "neotype"
-    title: "neotype"
-    description: "A friendly newtype library for Scala 3"
-    language: "Scala"
-    topics: []
-    stars_fact: 261
-    first_seen: null
-    last_push: "2026-09-02"
-  - name: "homebrew-tap"
-    title: "homebrew-tap"
-    description: "Homebrew tap for Kit Langton's projects"
-    language: "Ruby"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-02"
-  - name: "motel"
-    title: "motel"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 286
-    first_seen: null
-    last_push: "2026-09-02"
+repos: []
 ---
 
 # kitlangton
 
-403 pushes across 22 repositories on 62 active days in the last 90 days of public GitHub push activity.
+376 pushes across 23 repositories on 63 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/kitlangton

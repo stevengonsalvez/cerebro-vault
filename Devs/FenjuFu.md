@@ -6,43 +6,45 @@ discovered_via_all:
   - "fanout"
 provenance_repos:
   - "alibaba/open-code-review"
+  - "ayghri/i-have-adhd"
   - "chaitanyagiri/munder-difflin"
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
+  - "46f3c1d6124190bd"
   - "c489e6fb5febf2ab"
   - "e5b23adc376a62a9"
-pushes_per_week: [6, 15, 7, 14, 3, 9, 2, 0, 2, 13, 2, 3, 0]
+pushes_per_week: [11, 7, 9, 0, 2, 2, 9, 6, 3, 0, 4, 0, 2]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
+    pushes: 2
+    distinct_repos: 2
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 18
-    distinct_repos: 9
-    active_days: 9
-    repos_not_owned: 4
-    not_owned_basenames: 4
-    not_owned_owners: 2
+    pushes: 8
+    distinct_repos: 6
+    active_days: 5
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
-    pushes: 76
-    distinct_repos: 22
-    active_days: 30
-    repos_not_owned: 11
-    not_owned_basenames: 11
+    pushes: 55
+    distinct_repos: 20
+    active_days: 24
+    repos_not_owned: 8
+    not_owned_basenames: 8
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 2.5333
-  repo_per_active_day: 0.7333
-  not_owned_ratio: 0.5000
-  basename_concentration: 0.0909
+  push_per_day: 2.2917
+  repo_per_active_day: 0.8333
+  not_owned_ratio: 0.4000
+  basename_concentration: 0.1000
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -51,34 +53,42 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
+    pushes: 2
+    distinct_repos: 2
+    pushes_per_repo: 1.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 18
-    distinct_repos: 9
-    pushes_per_repo: 2.0000
-    active_days: 9
-    repos_not_owned: 4
-    not_owned_basenames: 4
-    not_owned_owners: 2
+    pushes: 8
+    distinct_repos: 6
+    pushes_per_repo: 1.3333
+    active_days: 5
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
-    pushes: 76
-    distinct_repos: 22
-    pushes_per_repo: 3.4545
-    active_days: 30
-    repos_not_owned: 11
-    not_owned_basenames: 11
+    pushes: 55
+    distinct_repos: 20
+    pushes_per_repo: 2.7500
+    active_days: 24
+    repos_not_owned: 8
+    not_owned_basenames: 8
     not_owned_owners: 2
 reasons:
-  - "provenance: 2 vault signal(s) — pass"
-  - "activity: 30 active days in 90d — pass"
+  - "provenance: 3 vault signal(s) — pass"
+  - "activity: 24 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "astron-images"
+    title: "astron-images"
+    description: null
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-23"
   - name: "xhtoken-images"
     title: "xhtoken-images"
     description: "Public image library for xhtoken-trending-content distribution (file name = title, model picks images by content)"
@@ -86,7 +96,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-03"
+    last_push: "2026-09-11"
   - name: "Awesome-Astron-Workflow"
     title: "Awesome-Astron-Workflow"
     description: "A curated collection of Astron workflow examples and user cases for AI-powered applications, featuring real-world implementations including AI Resume Assistant, Translator, Content Writing, Podcast Generator, and Course Generator."
@@ -95,15 +105,7 @@ repos:
       - "agent"
     stars_fact: 17
     first_seen: null
-    last_push: "2026-08-31"
-  - name: "astron-images"
-    title: "astron-images"
-    description: null
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-25"
+    last_push: "2026-09-07"
   - name: "FenjuFu"
     title: "FenjuFu"
     description: "GitHub profile README"
@@ -132,6 +134,6 @@ repos:
 
 # FenjuFu
 
-76 pushes across 22 repositories on 30 active days in the last 90 days of public GitHub push activity.
+55 pushes across 20 repositories on 24 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/FenjuFu

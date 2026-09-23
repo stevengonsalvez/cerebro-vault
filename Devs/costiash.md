@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "1f49d0119cedbc84"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 4, 1, 5, 0, 0, 0]
+pushes_per_week: [0, 0, 0, 0, 0, 5, 3, 2, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 5
-    distinct_repos: 1
-    active_days: 2
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 5
-    distinct_repos: 1
-    pushes_per_repo: 5.0000
-    active_days: 2
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -102,9 +102,17 @@ repos:
       - "interactive-courses"
       - "mcp"
       - "prompt-engineering"
-    stars_fact: 49
+    stars_fact: 53
     first_seen: null
-    last_push: "2026-09-03"
+    last_push: "2026-09-23"
+  - name: "termcraft"
+    title: "termcraft"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-18"
   - name: "eliviz"
     title: "eliviz"
     description: "Claude Code plugin: turn any data file into an interactive single-file HTML report or a static infographic PNG — with switchable design identities"
@@ -182,22 +190,6 @@ repos:
     stars_fact: 1
     first_seen: null
     last_push: "2021-06-03"
-  - name: "TensorFlow-Advanced-Techniques"
-    title: "TensorFlow-Advanced-Techniques"
-    description: "Jupyter notebooks of interesting assignments from the TensorFlow: Advanced Techniques Specialization"
-    language: "Jupyter Notebook"
-    topics:
-      - "computer-vision"
-      - "custom-model"
-      - "deep-learning"
-      - "keras-tensorflow"
-      - "neural-network"
-      - "tensorflow-examples"
-      - "tensorflow2"
-      - "vgg"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2021-06-20"
 ---
 
 # costiash

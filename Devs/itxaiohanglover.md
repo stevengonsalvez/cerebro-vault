@@ -11,40 +11,40 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "379642deb53f3714"
   - "c1af6b58492f9bf4"
   - "d1946b21c02e5fa5"
-pushes_per_week: [3, 18, 17, 3, 4, 6, 1, 1, 0, 10, 1, 2, 2]
+pushes_per_week: [4, 5, 3, 3, 1, 1, 1, 10, 0, 4, 0, 0, 0]
 windows:
   "7d":
-    pushes: 2
-    distinct_repos: 1
-    active_days: 1
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
-    pushes: 15
+    pushes: 4
     distinct_repos: 2
-    active_days: 6
+    active_days: 2
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 68
-    distinct_repos: 24
-    active_days: 26
+    pushes: 32
+    distinct_repos: 9
+    active_days: 17
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.6154
-  repo_per_active_day: 0.9231
-  not_owned_ratio: 0.0833
-  basename_concentration: 0.0417
+  push_per_day: 1.8824
+  repo_per_active_day: 0.5294
+  not_owned_ratio: 0.2222
+  basename_concentration: 0.1111
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -53,32 +53,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
-    distinct_repos: 1
-    pushes_per_repo: 2.0000
-    active_days: 1
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
-    pushes: 15
+    pushes: 4
     distinct_repos: 2
-    pushes_per_repo: 7.5000
-    active_days: 6
+    pushes_per_repo: 2.0000
+    active_days: 2
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 68
-    distinct_repos: 24
-    pushes_per_repo: 2.8333
-    active_days: 26
+    pushes: 32
+    distinct_repos: 9
+    pushes_per_repo: 3.5556
+    active_days: 17
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 reasons:
   - "provenance: 3 vault signal(s) — pass"
-  - "activity: 26 active days in 90d — pass"
+  - "activity: 17 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "deep-code-research"
@@ -129,7 +129,7 @@ repos:
     topics: []
     stars_fact: 6
     first_seen: null
-    last_push: "2026-09-03"
+    last_push: "2026-09-23"
   - name: "patent-writing"
     title: "patent-writing"
     description: null
@@ -142,6 +142,6 @@ repos:
 
 # itxaiohanglover
 
-68 pushes across 24 repositories on 26 active days in the last 90 days of public GitHub push activity.
+32 pushes across 9 repositories on 17 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/itxaiohanglover

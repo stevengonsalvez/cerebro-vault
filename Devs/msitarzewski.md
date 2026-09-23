@@ -8,11 +8,11 @@ provenance_repos:
   - "msitarzewski/agency-agents"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+repos_populated: false
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "0b6244279772ea4c"
-pushes_per_week: [8, 6, 14, 14, 7, 12, 4, 4, 4, 1, 0, 0, 0]
+pushes_per_week: [6, 17, 6, 11, 4, 2, 3, 1, 0, 0, 0, 3, 0]
 windows:
   "7d":
     pushes: 0
@@ -23,24 +23,24 @@ windows:
     not_owned_owners: 0
   "30d":
     pushes: 3
-    distinct_repos: 3
+    distinct_repos: 2
     active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 74
-    distinct_repos: 12
-    active_days: 36
+    pushes: 53
+    distinct_repos: 11
+    active_days: 27
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.0556
-  repo_per_active_day: 0.3333
-  not_owned_ratio: 0.0833
-  basename_concentration: 0.1667
+  push_per_day: 1.9630
+  repo_per_active_day: 0.4074
+  not_owned_ratio: 0.0909
+  basename_concentration: 0.1818
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -58,77 +58,29 @@ facets:
     not_owned_owners: 0
   "30d":
     pushes: 3
-    distinct_repos: 3
-    pushes_per_repo: 1.0000
+    distinct_repos: 2
+    pushes_per_repo: 1.5000
     active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 74
-    distinct_repos: 12
-    pushes_per_repo: 6.1667
-    active_days: 36
+    pushes: 53
+    distinct_repos: 11
+    pushes_per_repo: 4.8182
+    active_days: 27
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 36 active days in 90d — pass"
+  - "activity: 27 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "agency-agents"
-    title: "agency-agents"
-    description: "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables."
-    language: "Shell"
-    topics: []
-    stars_fact: 149852
-    first_seen: "2026-08-14T06:00:04.069258+00:00"
-    last_push: "2026-09-03"
-  - name: "agency-agents-app"
-    title: "agency-agents-app"
-    description: "Agency Agents is a small, native app for browsing, installing, and tracking the agent personas from msitarzewski/agency-agents across the AI coding tools you actually use."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 466
-    first_seen: null
-    last_push: "2026-08-10"
-  - name: "openstudio"
-    title: "openstudio"
-    description: "OpenStudio is a self-hosted, open-source virtual broadcast studio that puts power back in the hands of creators. Run live call-in shows, multi-host podcasts, and community radio—all from infrastructure you control."
-    language: "JavaScript"
-    topics: []
-    stars_fact: 115
-    first_seen: null
-    last_push: "2026-07-07"
-  - name: "AGENT-ZERO"
-    title: "AGENT-ZERO"
-    description: "Operational framework and patterns for high-quality, AI-assisted software development. This repository provides a single canonical guide for AGENTS.md and a lightweight workflow for repeatable, auditable, and architecture-first delivery."
-    language: null
-    topics: []
-    stars_fact: 274
-    first_seen: null
-    last_push: "2026-03-05"
-  - name: "duh"
-    title: "duh"
-    description: "Multi-model consensus engine — because one LLM opinion isn't enough"
-    language: "Python"
-    topics: []
-    stars_fact: 71
-    first_seen: null
-    last_push: "2026-06-22"
-  - name: "glassdb.app"
-    title: "glassdb.app"
-    description: "glassdb is a database management client designed from the ground up for visionOS. Glass materials, ornaments, multi-window spatial layout. Connect to MySQL servers directly or through SSH tunnels, write queries, browse schemas, and pin results in your space."
-    language: "Swift"
-    topics: []
-    stars_fact: 7
-    first_seen: null
-    last_push: "2026-09-03"
+repos: []
 ---
 
 # msitarzewski
 
-74 pushes across 12 repositories on 36 active days in the last 90 days of public GitHub push activity.
+53 pushes across 11 repositories on 27 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/msitarzewski

@@ -8,39 +8,39 @@ provenance_repos:
   - "anomalyco/opencode"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+repos_populated: false
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [8, 18, 30, 22, 7, 16, 5, 5, 8, 7, 4, 0, 0]
+pushes_per_week: [23, 12, 11, 9, 6, 5, 11, 3, 2, 0, 0, 3, 4]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    pushes: 4
+    distinct_repos: 2
+    active_days: 4
+    repos_not_owned: 2
+    not_owned_basenames: 2
+    not_owned_owners: 1
   "30d":
-    pushes: 14
-    distinct_repos: 5
-    active_days: 9
+    pushes: 7
+    distinct_repos: 2
+    active_days: 7
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 130
-    distinct_repos: 21
-    active_days: 55
+    pushes: 89
+    distinct_repos: 15
+    active_days: 45
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.3636
-  repo_per_active_day: 0.3818
-  not_owned_ratio: 0.0952
-  basename_concentration: 0.0476
+  push_per_day: 1.9778
+  repo_per_active_day: 0.3333
+  not_owned_ratio: 0.1333
+  basename_concentration: 0.0667
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,86 +49,38 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    pushes: 4
+    distinct_repos: 2
+    pushes_per_repo: 2.0000
+    active_days: 4
+    repos_not_owned: 2
+    not_owned_basenames: 2
+    not_owned_owners: 1
   "30d":
-    pushes: 14
-    distinct_repos: 5
-    pushes_per_repo: 2.8000
-    active_days: 9
+    pushes: 7
+    distinct_repos: 2
+    pushes_per_repo: 3.5000
+    active_days: 7
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 130
-    distinct_repos: 21
-    pushes_per_repo: 6.1905
-    active_days: 55
+    pushes: 89
+    distinct_repos: 15
+    pushes_per_repo: 5.9333
+    active_days: 45
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 55 active days in 90d — pass"
+  - "activity: 45 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "faster-chrome-devtools-skill"
-    title: "faster-chrome-devtools-skill"
-    description: "Agent skill that makes Chrome DevTools faster"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 83
-    first_seen: null
-    last_push: "2026-07-31"
-  - name: "small-app-gardener"
-    title: "small-app-gardener"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-04"
-  - name: "make-video-transparent"
-    title: "make-video-transparent"
-    description: "Convert green screen video to transparent WebM and MOV for the web"
-    language: "Shell"
-    topics: []
-    stars_fact: 5
-    first_seen: null
-    last_push: "2026-03-12"
-  - name: "obs-skill"
-    title: "obs-skill"
-    description: "An agent skill for controlling OBS Studio with natural language"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-09-02"
-  - name: "404_color_bars"
-    title: "404_color_bars"
-    description: "The interweb equivalent of an off-air television."
-    language: null
-    topics: []
-    stars_fact: 5
-    first_seen: null
-    last_push: "2022-05-25"
-  - name: "swiss-design-skill"
-    title: "swiss-design-skill"
-    description: "A Swiss International Style design system skill for AI agents"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 138
-    first_seen: null
-    last_push: "2026-06-29"
+repos: []
 ---
 
 # zeke
 
-130 pushes across 21 repositories on 55 active days in the last 90 days of public GitHub push activity.
+89 pushes across 15 repositories on 45 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/zeke

@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "c489e6fb5febf2ab"
-pushes_per_week: [2, 15, 14, 7, 12, 10, 5, 5, 0, 1, 0, 0, 0]
+pushes_per_week: [9, 10, 14, 2, 6, 3, 0, 1, 0, 0, 0, 0, 1]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "30d":
     pushes: 1
     distinct_repos: 1
     active_days: 1
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "90d":
-    pushes: 71
-    distinct_repos: 18
-    active_days: 34
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    pushes: 46
+    distinct_repos: 13
+    active_days: 25
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.0882
-  repo_per_active_day: 0.5294
-  not_owned_ratio: 0.0000
-  basename_concentration: 0.0556
+  push_per_day: 1.8400
+  repo_per_active_day: 0.5200
+  not_owned_ratio: 0.0769
+  basename_concentration: 0.0769
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    pushes: 1
+    distinct_repos: 1
+    pushes_per_repo: 1.0000
+    active_days: 1
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "30d":
     pushes: 1
     distinct_repos: 1
     pushes_per_repo: 1.0000
     active_days: 1
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "90d":
-    pushes: 71
-    distinct_repos: 18
-    pushes_per_repo: 3.9444
-    active_days: 34
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    pushes: 46
+    distinct_repos: 13
+    pushes_per_repo: 3.5385
+    active_days: 25
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 34 active days in 90d — pass"
+  - "activity: 25 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "amh1k"
@@ -84,7 +84,15 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-03"
+    last_push: "2026-09-23"
+  - name: "proofpay"
+    title: "proofpay"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-04"
   - name: "load-balancer"
     title: "load-balancer"
     description: null
@@ -123,18 +131,10 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-07-23"
-  - name: "effective-typescript"
-    title: "effective-typescript"
-    description: "Notes for the effective typescript book along with code snippets"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-07-23"
 ---
 
 # amh1k
 
-71 pushes across 18 repositories on 34 active days in the last 90 days of public GitHub push activity.
+46 pushes across 13 repositories on 25 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/amh1k

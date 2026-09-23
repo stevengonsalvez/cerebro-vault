@@ -10,36 +10,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "90688bf127241ceb"
-pushes_per_week: [8, 8, 9, 8, 7, 2, 2, 0, 1, 8, 1, 0, 0]
+pushes_per_week: [12, 7, 5, 2, 0, 1, 4, 4, 1, 0, 0, 1, 0]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 9
-    distinct_repos: 2
-    active_days: 5
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 54
+    pushes: 37
     distinct_repos: 4
-    active_days: 31
+    active_days: 21
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.7419
-  repo_per_active_day: 0.1290
+  push_per_day: 1.7619
+  repo_per_active_day: 0.1905
   not_owned_ratio: 0.0000
   basename_concentration: 0.2500
   shapes: []
@@ -50,32 +50,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
+    pushes: 1
+    distinct_repos: 1
+    pushes_per_repo: 1.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 9
-    distinct_repos: 2
-    pushes_per_repo: 4.5000
-    active_days: 5
+    pushes: 1
+    distinct_repos: 1
+    pushes_per_repo: 1.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 54
+    pushes: 37
     distinct_repos: 4
-    pushes_per_repo: 13.5000
-    active_days: 31
+    pushes_per_repo: 9.2500
+    active_days: 21
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 31 active days in 90d — pass"
+  - "activity: 21 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "CodexPlusPlus"
@@ -83,41 +83,17 @@ repos:
     description: "An enhanced tool for CodexApp, striving to make Codex better to use and more comfortable 一个CodexApp的增强工具，努力让Codex变得更好用更舒服"
     language: "Rust"
     topics: []
-    stars_fact: 30136
+    stars_fact: 31443
     first_seen: "2026-06-27T06:00:03.973664+00:00"
-    last_push: "2026-09-02"
+    last_push: "2026-09-22"
   - name: "CodexPlusPlusScriptMarket"
     title: "CodexPlusPlusScriptMarket"
     description: null
     language: "JavaScript"
     topics: []
-    stars_fact: 31
+    stars_fact: 38
     first_seen: null
-    last_push: "2026-08-25"
-  - name: "ai-status-monitor"
-    title: "ai-status-monitor"
-    description: "Lightweight self-hosted AI endpoint status monitor with real model checks"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-08-19"
-  - name: "Ad-List"
-    title: "Ad-List"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-17"
-  - name: "BigPizzaV3.github.io"
-    title: "BigPizzaV3.github.io"
-    description: null
-    language: "HTML"
-    topics: []
-    stars_fact: 9
-    first_seen: null
-    last_push: "2026-05-15"
+    last_push: "2026-09-16"
   - name: "CodexPlusPlus-Themes"
     title: "CodexPlusPlus-Themes"
     description: "Codex++ 社区主题市场：浏览、安装和通过 Pull Request 投稿 Dream Skin 主题"
@@ -129,11 +105,35 @@ repos:
       - "themes"
     stars_fact: 5
     first_seen: null
-    last_push: "2026-07-18"
+    last_push: "2026-09-16"
+  - name: "Ad-List"
+    title: "Ad-List"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-14"
+  - name: "ai-status-monitor"
+    title: "ai-status-monitor"
+    description: "Lightweight self-hosted AI endpoint status monitor with real model checks"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-08-19"
+  - name: "BigPizzaV3.github.io"
+    title: "BigPizzaV3.github.io"
+    description: null
+    language: "HTML"
+    topics: []
+    stars_fact: 9
+    first_seen: null
+    last_push: "2026-05-15"
 ---
 
 # BigPizzaV3
 
-54 pushes across 4 repositories on 31 active days in the last 90 days of public GitHub push activity.
+37 pushes across 4 repositories on 21 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/BigPizzaV3

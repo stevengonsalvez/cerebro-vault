@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "b5590ec052a4f771"
-pushes_per_week: [128, 46, 69, 76, 56, 43, 30, 17, 42, 42, 14, 3, 1]
+pushes_per_week: [75, 65, 37, 37, 25, 16, 58, 28, 8, 2, 6, 9, 34]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
+    pushes: 35
+    distinct_repos: 3
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 93
+    pushes: 52
     distinct_repos: 3
-    active_days: 19
+    active_days: 15
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 567
-    distinct_repos: 6
-    active_days: 75
-    repos_not_owned: 2
-    not_owned_basenames: 1
-    not_owned_owners: 2
+    pushes: 400
+    distinct_repos: 4
+    active_days: 70
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 7.5600
-  repo_per_active_day: 0.0800
-  not_owned_ratio: 0.3333
-  basename_concentration: 0.5000
+  push_per_day: 5.7143
+  repo_per_active_day: 0.0571
+  not_owned_ratio: 0.0000
+  basename_concentration: 0.2500
   shapes: []
   shape_evidence: []
   cleared_by: "e01-builder"
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes: 35
+    distinct_repos: 3
+    pushes_per_repo: 11.6667
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 93
+    pushes: 52
     distinct_repos: 3
-    pushes_per_repo: 31.0000
-    active_days: 19
+    pushes_per_repo: 17.3333
+    active_days: 15
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 567
-    distinct_repos: 6
-    pushes_per_repo: 94.5000
-    active_days: 75
-    repos_not_owned: 2
-    not_owned_basenames: 1
-    not_owned_owners: 2
+    pushes: 400
+    distinct_repos: 4
+    pushes_per_repo: 100.0000
+    active_days: 70
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 75 active days in 90d — pass"
+  - "activity: 70 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "DeepSeek-Reasonix"
@@ -100,9 +100,9 @@ repos:
       - "tool-use"
       - "tui"
       - "typescript"
-    stars_fact: 35375
+    stars_fact: 35688
     first_seen: "2026-08-03T06:00:03.957834+00:00"
-    last_push: "2026-09-03"
+    last_push: "2026-09-23"
   - name: "estella"
     title: "estella"
     description: "A fast 2D game engine — TypeScript SDK, C++/WebAssembly core, visual editor. Ship one project to web, desktop, WeChat MiniGames, playable ads, and native Android / iOS."
@@ -121,17 +121,9 @@ repos:
       - "webgl"
       - "webgpu"
       - "wechat-minigame"
-    stars_fact: 665
+    stars_fact: 679
     first_seen: null
-    last_push: "2026-09-03"
-  - name: "homebrew-reasonix"
-    title: "homebrew-reasonix"
-    description: "Homebrew tap for Reasonix — the cache-first DeepSeek coding agent."
-    language: "Ruby"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-02"
+    last_push: "2026-09-23"
   - name: "esengine"
     title: "esengine"
     description: "ESEngine - High-performance TypeScript ECS Framework for Game Development"
@@ -151,7 +143,7 @@ repos:
       - "typescript"
       - "wasm"
       - "webgl"
-    stars_fact: 912
+    stars_fact: 918
     first_seen: null
     last_push: "2026-07-30"
   - name: "BehaviourTree-ai"
@@ -165,9 +157,17 @@ repos:
       - "fsm"
       - "laya"
       - "selector"
-    stars_fact: 145
+    stars_fact: 148
     first_seen: null
     last_push: "2026-02-23"
+  - name: "homebrew-reasonix"
+    title: "homebrew-reasonix"
+    description: "Homebrew tap for Reasonix — the cache-first DeepSeek coding agent."
+    language: "Ruby"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-20"
   - name: "MAPEDITOR"
     title: "MAPEDITOR"
     description: "游戏地图编辑器"
@@ -180,6 +180,6 @@ repos:
 
 # esengine
 
-567 pushes across 6 repositories on 75 active days in the last 90 days of public GitHub push activity.
+400 pushes across 4 repositories on 70 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/esengine

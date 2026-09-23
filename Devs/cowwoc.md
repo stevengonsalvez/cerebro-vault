@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "73468cde177ddae6"
-pushes_per_week: [0, 0, 0, 1, 19, 1, 4, 0, 0, 1, 0, 0, 0]
+pushes_per_week: [0, 7, 13, 5, 0, 0, 0, 1, 0, 0, 4, 0, 29]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
-  "30d":
-    pushes: 1
+    pushes: 29
     distinct_repos: 1
-    active_days: 1
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    active_days: 6
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
+  "30d":
+    pushes: 33
+    distinct_repos: 2
+    active_days: 9
+    repos_not_owned: 2
+    not_owned_basenames: 1
+    not_owned_owners: 2
   "90d":
-    pushes: 26
-    distinct_repos: 3
-    active_days: 7
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    pushes: 59
+    distinct_repos: 5
+    active_days: 16
+    repos_not_owned: 2
+    not_owned_basenames: 1
+    not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 3.7143
-  repo_per_active_day: 0.4286
-  not_owned_ratio: 0.0000
-  basename_concentration: 0.3333
+  push_per_day: 3.6875
+  repo_per_active_day: 0.3125
+  not_owned_ratio: 0.4000
+  basename_concentration: 0.4000
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
-  "30d":
-    pushes: 1
+    pushes: 29
     distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    pushes_per_repo: 29.0000
+    active_days: 6
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
+  "30d":
+    pushes: 33
+    distinct_repos: 2
+    pushes_per_repo: 16.5000
+    active_days: 9
+    repos_not_owned: 2
+    not_owned_basenames: 1
+    not_owned_owners: 2
   "90d":
-    pushes: 26
-    distinct_repos: 3
-    pushes_per_repo: 8.6667
-    active_days: 7
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    pushes: 59
+    distinct_repos: 5
+    pushes_per_repo: 11.8000
+    active_days: 16
+    repos_not_owned: 2
+    not_owned_basenames: 1
+    not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 7 active days in 90d — pass"
+  - "activity: 16 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "requirements.java"
@@ -142,6 +142,6 @@ repos:
 
 # cowwoc
 
-26 pushes across 3 repositories on 7 active days in the last 90 days of public GitHub push activity.
+59 pushes across 5 repositories on 16 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/cowwoc

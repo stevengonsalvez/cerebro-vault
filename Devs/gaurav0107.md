@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "edb3a626875732de"
-pushes_per_week: [6, 0, 16, 36, 10, 5, 1, 3, 0, 0, 0, 0, 0]
+pushes_per_week: [29, 28, 10, 0, 4, 0, 0, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 77
-    distinct_repos: 32
-    active_days: 20
+    pushes: 71
+    distinct_repos: 30
+    active_days: 18
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 3.8500
-  repo_per_active_day: 1.6000
-  not_owned_ratio: 0.0625
-  basename_concentration: 0.0312
+  push_per_day: 3.9444
+  repo_per_active_day: 1.6667
+  not_owned_ratio: 0.0667
+  basename_concentration: 0.0333
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 77
-    distinct_repos: 32
-    pushes_per_repo: 2.4062
-    active_days: 20
+    pushes: 71
+    distinct_repos: 30
+    pushes_per_repo: 2.3667
+    active_days: 18
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 20 active days in 90d — pass"
+  - "activity: 18 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "gaurav0107"
@@ -84,7 +84,15 @@ repos:
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-09-03"
+    last_push: "2026-09-23"
+  - name: "rubric"
+    title: "rubric"
+    description: "Prompt Finetuning framework"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-05-03"
   - name: "superhuman"
     title: "superhuman"
     description: "Autonomous open-source contribution agent for Claude Code & Codex. A multi-agent harness that picks an issue, writes the fix, scores its own pull request on a 10-dimension merge-probability rubric, and iterates until a maintainer would merge it — a closed-loop, self-improving AI coding agent."
@@ -137,18 +145,10 @@ repos:
     stars_fact: 1
     first_seen: null
     last_push: "2015-11-09"
-  - name: "node-boilerplate"
-    title: "node-boilerplate"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2016-08-04"
 ---
 
 # gaurav0107
 
-77 pushes across 32 repositories on 20 active days in the last 90 days of public GitHub push activity.
+71 pushes across 30 repositories on 18 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/gaurav0107

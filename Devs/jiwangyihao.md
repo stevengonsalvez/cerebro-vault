@@ -8,39 +8,39 @@ provenance_repos:
   - "can1357/oh-my-pi"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+repos_populated: false
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [1, 7, 11, 9, 4, 0, 0, 1, 0, 36, 7, 5, 1]
+pushes_per_week: [11, 6, 0, 0, 0, 1, 23, 14, 11, 1, 23, 1, 34]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    pushes: 34
+    distinct_repos: 34
+    active_days: 2
+    repos_not_owned: 34
+    not_owned_basenames: 34
+    not_owned_owners: 1
   "30d":
-    pushes: 49
-    distinct_repos: 30
+    pushes: 64
+    distinct_repos: 57
     active_days: 8
-    repos_not_owned: 26
-    not_owned_basenames: 26
+    repos_not_owned: 54
+    not_owned_basenames: 54
     not_owned_owners: 1
   "90d":
-    pushes: 82
-    distinct_repos: 33
-    active_days: 24
-    repos_not_owned: 26
-    not_owned_basenames: 26
+    pushes: 125
+    distinct_repos: 80
+    active_days: 23
+    repos_not_owned: 74
+    not_owned_basenames: 74
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 3.4167
-  repo_per_active_day: 1.3750
-  not_owned_ratio: 0.7879
-  basename_concentration: 0.0303
+  push_per_day: 5.4348
+  repo_per_active_day: 3.4783
+  not_owned_ratio: 0.9250
+  basename_concentration: 0.0125
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,86 +49,38 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
+    pushes: 34
+    distinct_repos: 34
     pushes_per_repo: 1.0000
-    active_days: 1
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    active_days: 2
+    repos_not_owned: 34
+    not_owned_basenames: 34
+    not_owned_owners: 1
   "30d":
-    pushes: 49
-    distinct_repos: 30
-    pushes_per_repo: 1.6333
+    pushes: 64
+    distinct_repos: 57
+    pushes_per_repo: 1.1228
     active_days: 8
-    repos_not_owned: 26
-    not_owned_basenames: 26
+    repos_not_owned: 54
+    not_owned_basenames: 54
     not_owned_owners: 1
   "90d":
-    pushes: 82
-    distinct_repos: 33
-    pushes_per_repo: 2.4848
-    active_days: 24
-    repos_not_owned: 26
-    not_owned_basenames: 26
+    pushes: 125
+    distinct_repos: 80
+    pushes_per_repo: 1.5625
+    active_days: 23
+    repos_not_owned: 74
+    not_owned_basenames: 74
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 24 active days in 90d — pass"
+  - "activity: 23 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "source-j-legado"
-    title: "source-j-legado"
-    description: "My book source set for legado, mainly focused on light novels and maybe later manga (?)"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 646
-    first_seen: null
-    last_push: "2026-08-28"
-  - name: "opencode-copilot-account-switcher"
-    title: "opencode-copilot-account-switcher"
-    description: null
-    language: "JavaScript"
-    topics: []
-    stars_fact: 75
-    first_seen: null
-    last_push: "2026-05-15"
-  - name: "new-api"
-    title: "new-api"
-    description: "Downstream deployment fork of new-api"
-    language: "Go"
-    topics: []
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-09-02"
-  - name: "gtp-runtime"
-    title: "gtp-runtime"
-    description: "Evidence-driven Android game translation runtime research"
-    language: "Java"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-31"
-  - name: "omp-acp"
-    title: "omp-acp"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 5
-    first_seen: null
-    last_push: "2026-05-12"
-  - name: "app_config"
-    title: "app_config"
-    description: null
-    language: "Kotlin"
-    topics: []
-    stars_fact: 65
-    first_seen: null
-    last_push: "2025-06-11"
+repos: []
 ---
 
 # jiwangyihao
 
-82 pushes across 33 repositories on 24 active days in the last 90 days of public GitHub push activity.
+125 pushes across 80 repositories on 23 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/jiwangyihao

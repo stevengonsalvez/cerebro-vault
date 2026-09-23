@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "c7d59e96ede9112e"
-pushes_per_week: [0, 18, 11, 1, 0, 26, 22, 5, 2, 25, 7, 3, 0]
+pushes_per_week: [8, 0, 9, 28, 13, 4, 16, 10, 8, 2, 0, 0, 9]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
+    pushes: 9
+    distinct_repos: 1
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 36
-    distinct_repos: 3
-    active_days: 12
-    repos_not_owned: 2
-    not_owned_basenames: 1
-    not_owned_owners: 2
+    pushes: 12
+    distinct_repos: 1
+    active_days: 7
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
-    pushes: 120
+    pushes: 107
     distinct_repos: 4
-    active_days: 38
+    active_days: 36
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 3.1579
-  repo_per_active_day: 0.1053
+  push_per_day: 2.9722
+  repo_per_active_day: 0.1111
   not_owned_ratio: 0.5000
   basename_concentration: 0.7500
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
+    pushes: 9
+    distinct_repos: 1
+    pushes_per_repo: 9.0000
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 36
-    distinct_repos: 3
+    pushes: 12
+    distinct_repos: 1
     pushes_per_repo: 12.0000
-    active_days: 12
-    repos_not_owned: 2
-    not_owned_basenames: 1
-    not_owned_owners: 2
+    active_days: 7
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
-    pushes: 120
+    pushes: 107
     distinct_repos: 4
-    pushes_per_repo: 30.0000
-    active_days: 38
+    pushes_per_repo: 26.7500
+    active_days: 36
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 38 active days in 90d — pass"
+  - "activity: 36 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "nodeterm"
@@ -102,9 +102,9 @@ repos:
       - "terminal-multiplexer"
       - "tmux"
       - "workspace-manager"
-    stars_fact: 1639
+    stars_fact: 1883
     first_seen: "2026-08-23T06:00:02.975209+00:00"
-    last_push: "2026-09-03"
+    last_push: "2026-09-23"
   - name: "linkedinpostgenerator"
     title: "linkedinpostgenerator"
     description: null
@@ -125,6 +125,6 @@ repos:
 
 # eneskirca
 
-120 pushes across 4 repositories on 38 active days in the last 90 days of public GitHub push activity.
+107 pushes across 4 repositories on 36 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/eneskirca

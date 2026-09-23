@@ -8,11 +8,11 @@ provenance_repos:
   - "aws/agent-toolkit-for-aws"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+repos_populated: false
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "a50b0e08dbaee74a"
-pushes_per_week: [38, 114, 95, 48, 18, 14, 1, 3, 19, 11, 0, 1, 0]
+pushes_per_week: [91, 29, 19, 5, 2, 7, 19, 5, 1, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,25 +22,25 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 25
-    distinct_repos: 12
-    active_days: 9
-    repos_not_owned: 8
-    not_owned_basenames: 7
-    not_owned_owners: 4
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
-    pushes: 362
-    distinct_repos: 27
-    active_days: 51
-    repos_not_owned: 10
+    pushes: 178
+    distinct_repos: 23
+    active_days: 34
+    repos_not_owned: 9
     not_owned_basenames: 7
-    not_owned_owners: 6
+    not_owned_owners: 5
 automation:
   state: "clear"
-  push_per_day: 7.0980
-  repo_per_active_day: 0.5294
-  not_owned_ratio: 0.3704
-  basename_concentration: 0.1481
+  push_per_day: 5.2353
+  repo_per_active_day: 0.6765
+  not_owned_ratio: 0.3913
+  basename_concentration: 0.1304
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -57,78 +57,30 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 25
-    distinct_repos: 12
-    pushes_per_repo: 2.0833
-    active_days: 9
-    repos_not_owned: 8
-    not_owned_basenames: 7
-    not_owned_owners: 4
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
-    pushes: 362
-    distinct_repos: 27
-    pushes_per_repo: 13.4074
-    active_days: 51
-    repos_not_owned: 10
+    pushes: 178
+    distinct_repos: 23
+    pushes_per_repo: 7.7391
+    active_days: 34
+    repos_not_owned: 9
     not_owned_basenames: 7
-    not_owned_owners: 6
+    not_owned_owners: 5
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 51 active days in 90d — pass"
+  - "activity: 34 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "pipecat-turn-detection-demo"
-    title: "pipecat-turn-detection-demo"
-    description: "Simple pipecat examples demonstrating barge-in and turn detection with Cartesia STT/TTS and Amazon Bedrock"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-06-25"
-  - name: "model-marketplace-matrix"
-    title: "model-marketplace-matrix"
-    description: "Managed vs open mental model: Bedrock, Fireworks, OpenRouter"
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-03"
-  - name: "0xtechno-toys"
-    title: "0xtechno-toys"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-29"
-  - name: "voice-ai-benchmarks"
-    title: "voice-ai-benchmarks"
-    description: "Compare STT and LLM providers for voice agents"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-27"
-  - name: "sample-herdr-on-agentcore"
-    title: "sample-herdr-on-agentcore"
-    description: "Run herdr on AWS Bedrock AgentCore Runtime — code sample + remote-attach client"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-12"
-  - name: "agent-toolkit-for-aws"
-    title: "agent-toolkit-for-aws"
-    description: "Official, AWS-supported MCP servers, skills, and plugins to help AI agents build on AWS"
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-10"
+repos: []
 ---
 
 # wirjo
 
-362 pushes across 27 repositories on 51 active days in the last 90 days of public GitHub push activity.
+178 pushes across 23 repositories on 34 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/wirjo

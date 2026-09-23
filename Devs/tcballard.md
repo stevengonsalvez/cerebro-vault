@@ -10,39 +10,39 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "c954be1eb1223fa4"
   - "eb166180687b6629"
-pushes_per_week: [71, 128, 71, 77, 54, 39, 31, 32, 25, 12, 3, 5, 10]
+pushes_per_week: [47, 93, 34, 28, 40, 25, 24, 3, 6, 10, 3, 18, 33]
 windows:
   "7d":
-    pushes: 11
-    distinct_repos: 8
-    active_days: 4
-    repos_not_owned: 1
-    not_owned_basenames: 1
+    pushes: 33
+    distinct_repos: 16
+    active_days: 7
+    repos_not_owned: 2
+    not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 43
-    distinct_repos: 18
-    active_days: 17
-    repos_not_owned: 8
-    not_owned_basenames: 8
+    pushes: 67
+    distinct_repos: 32
+    active_days: 20
+    repos_not_owned: 4
+    not_owned_basenames: 4
     not_owned_owners: 1
   "90d":
-    pushes: 558
-    distinct_repos: 53
-    active_days: 76
-    repos_not_owned: 29
-    not_owned_basenames: 26
+    pushes: 364
+    distinct_repos: 68
+    active_days: 72
+    repos_not_owned: 26
+    not_owned_basenames: 24
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 7.3421
-  repo_per_active_day: 0.6974
-  not_owned_ratio: 0.5472
-  basename_concentration: 0.0566
+  push_per_day: 5.0556
+  repo_per_active_day: 0.9444
+  not_owned_ratio: 0.3824
+  basename_concentration: 0.0441
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -51,32 +51,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 11
-    distinct_repos: 8
-    pushes_per_repo: 1.3750
-    active_days: 4
-    repos_not_owned: 1
-    not_owned_basenames: 1
+    pushes: 33
+    distinct_repos: 16
+    pushes_per_repo: 2.0625
+    active_days: 7
+    repos_not_owned: 2
+    not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 43
-    distinct_repos: 18
-    pushes_per_repo: 2.3889
-    active_days: 17
-    repos_not_owned: 8
-    not_owned_basenames: 8
+    pushes: 67
+    distinct_repos: 32
+    pushes_per_repo: 2.0938
+    active_days: 20
+    repos_not_owned: 4
+    not_owned_basenames: 4
     not_owned_owners: 1
   "90d":
-    pushes: 558
-    distinct_repos: 53
-    pushes_per_repo: 10.5283
-    active_days: 76
-    repos_not_owned: 29
-    not_owned_basenames: 26
+    pushes: 364
+    distinct_repos: 68
+    pushes_per_repo: 5.3529
+    active_days: 72
+    repos_not_owned: 26
+    not_owned_basenames: 24
     not_owned_owners: 3
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 76 active days in 90d — pass"
+  - "activity: 72 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "omarchy-plugin-workbench"
@@ -84,53 +84,53 @@ repos:
     description: null
     language: "Rust"
     topics: []
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-09-03"
-  - name: "build-omarchy-plugins"
-    title: "build-omarchy-plugins"
-    description: null
-    language: "Python"
-    topics: []
     stars_fact: 4
     first_seen: null
-    last_push: "2026-09-01"
-  - name: "OmaSheets"
-    title: "OmaSheets"
-    description: null
-    language: "Rust"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-03"
-  - name: "omarchy-apps"
-    title: "omarchy-apps"
-    description: null
-    language: "TypeScript"
+    last_push: "2026-09-23"
+  - name: "omarchy-theme-familiar"
+    title: "omarchy-theme-familiar"
+    description: "A little Windows familiarity for your Omarchy desktop."
+    language: "Python"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-03"
-  - name: "omarchy-localwrap"
-    title: "omarchy-localwrap"
+    last_push: "2026-09-23"
+  - name: "omarchy-task-manager"
+    title: "omarchy-task-manager"
     description: null
-    language: "Python"
+    language: "Rust"
+    topics: []
+    stars_fact: 31
+    first_seen: null
+    last_push: "2026-09-23"
+  - name: "omarchy-markets"
+    title: "omarchy-markets"
+    description: "Omarchy Markets builds on the ticker-first pattern established by omarchy-stocks, then adds omakase profiles, native management, offline resilience and a stricter long-running service contract."
+    language: "QML"
     topics: []
     stars_fact: 2
     first_seen: null
-    last_push: "2026-09-02"
-  - name: "omarchy-agentwire"
-    title: "omarchy-agentwire"
+    last_push: "2026-09-23"
+  - name: "omarchy-plugin-rss-feed"
+    title: "omarchy-plugin-rss-feed"
     description: null
-    language: "JavaScript"
+    language: "QML"
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-09-02"
+    last_push: "2026-09-22"
+  - name: "command-and-conquer-omarchy"
+    title: "command-and-conquer-omarchy"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-23"
 ---
 
 # tcballard
 
-558 pushes across 53 repositories on 76 active days in the last 90 days of public GitHub push activity.
+364 pushes across 68 repositories on 72 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/tcballard

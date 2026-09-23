@@ -8,37 +8,37 @@ provenance_repos:
   - "torvalds/linux"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+repos_populated: false
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "8a1948cc7f7c09c4"
-pushes_per_week: [9, 18, 10, 2, 3, 4, 4, 5, 0, 3, 2, 1, 0]
+pushes_per_week: [6, 4, 2, 4, 4, 4, 2, 3, 1, 0, 0, 0, 3]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
+    pushes: 3
+    distinct_repos: 2
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 6
+    pushes: 4
     distinct_repos: 2
-    active_days: 5
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 61
+    pushes: 33
     distinct_repos: 2
-    active_days: 37
+    active_days: 25
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.6486
-  repo_per_active_day: 0.0541
+  push_per_day: 1.3200
+  repo_per_active_day: 0.0800
   not_owned_ratio: 0.0000
   basename_concentration: 0.5000
   shapes: []
@@ -49,86 +49,38 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
+    pushes: 3
+    distinct_repos: 2
+    pushes_per_repo: 1.5000
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 6
+    pushes: 4
     distinct_repos: 2
-    pushes_per_repo: 3.0000
-    active_days: 5
+    pushes_per_repo: 2.0000
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 61
+    pushes: 33
     distinct_repos: 2
-    pushes_per_repo: 30.5000
-    active_days: 37
+    pushes_per_repo: 16.5000
+    active_days: 25
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 37 active days in 90d — pass"
+  - "activity: 25 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "linux"
-    title: "linux"
-    description: "Linux kernel source tree"
-    language: "C"
-    topics: []
-    stars_fact: 246544
-    first_seen: "2026-08-23T06:00:01.522669+00:00"
-    last_push: "2026-09-04"
-  - name: "GuitarPedal"
-    title: "GuitarPedal"
-    description: "Linus learns analog circuits"
-    language: "C"
-    topics: []
-    stars_fact: 2286
-    first_seen: null
-    last_push: "2026-09-03"
-  - name: "uemacs"
-    title: "uemacs"
-    description: "Random version of microemacs with my private modificatons"
-    language: "C"
-    topics: []
-    stars_fact: 2123
-    first_seen: null
-    last_push: "2026-08-06"
-  - name: "test-tlb"
-    title: "test-tlb"
-    description: "Stupid memory latency and TLB tester"
-    language: "C"
-    topics: []
-    stars_fact: 1053
-    first_seen: null
-    last_push: "2024-08-19"
-  - name: "AudioNoise"
-    title: "AudioNoise"
-    description: "Random digital audio effects"
-    language: "C"
-    topics: []
-    stars_fact: 4484
-    first_seen: null
-    last_push: "2026-05-08"
-  - name: "ScrollWheel"
-    title: "ScrollWheel"
-    description: "Minimalist RP2350 magnetic sensor scroll wheel toy project"
-    language: "C"
-    topics: []
-    stars_fact: 369
-    first_seen: null
-    last_push: "2026-06-02"
+repos: []
 ---
 
 # torvalds
 
-61 pushes across 2 repositories on 37 active days in the last 90 days of public GitHub push activity.
+33 pushes across 2 repositories on 25 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/torvalds

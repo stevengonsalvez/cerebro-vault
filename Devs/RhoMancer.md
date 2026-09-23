@@ -8,11 +8,11 @@ provenance_repos:
   - "AlexsJones/llmfit"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+repos_populated: false
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [4, 72, 58, 10, 1, 7, 4, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [12, 10, 1, 9, 2, 0, 0, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 156
+    pushes: 34
     distinct_repos: 6
-    active_days: 17
+    active_days: 9
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 9.1765
-  repo_per_active_day: 0.3529
+  push_per_day: 3.7778
+  repo_per_active_day: 0.6667
   not_owned_ratio: 0.0000
   basename_concentration: 0.1667
   shapes: []
@@ -65,30 +65,22 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 156
+    pushes: 34
     distinct_repos: 6
-    pushes_per_repo: 26.0000
-    active_days: 17
+    pushes_per_repo: 5.6667
+    active_days: 9
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 17 active days in 90d — pass"
+  - "activity: 9 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "RhoMancer"
-    title: "RhoMancer"
-    description: "My Personal GitHub Profile Repo"
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-16"
+repos: []
 ---
 
 # RhoMancer
 
-156 pushes across 6 repositories on 17 active days in the last 90 days of public GitHub push activity.
+34 pushes across 6 repositories on 9 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/RhoMancer

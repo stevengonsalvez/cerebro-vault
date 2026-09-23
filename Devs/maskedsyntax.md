@@ -8,39 +8,39 @@ provenance_repos:
   - "AlexsJones/llmfit"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+repos_populated: false
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [6, 12, 14, 19, 6, 5, 4, 6, 0, 7, 2, 1, 0]
+pushes_per_week: [12, 23, 1, 9, 4, 2, 1, 7, 2, 0, 0, 4, 3]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    pushes: 3
+    distinct_repos: 2
+    active_days: 3
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "30d":
-    pushes: 10
-    distinct_repos: 6
+    pushes: 8
+    distinct_repos: 4
     active_days: 7
-    repos_not_owned: 3
-    not_owned_basenames: 3
-    not_owned_owners: 2
+    repos_not_owned: 2
+    not_owned_basenames: 2
+    not_owned_owners: 1
   "90d":
-    pushes: 82
-    distinct_repos: 29
-    active_days: 33
+    pushes: 68
+    distinct_repos: 27
+    active_days: 29
     repos_not_owned: 10
     not_owned_basenames: 10
     not_owned_owners: 6
 automation:
   state: "clear"
-  push_per_day: 2.4848
-  repo_per_active_day: 0.8788
-  not_owned_ratio: 0.3448
-  basename_concentration: 0.0690
+  push_per_day: 2.3448
+  repo_per_active_day: 0.9310
+  not_owned_ratio: 0.3704
+  basename_concentration: 0.0741
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,95 +49,38 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    pushes: 3
+    distinct_repos: 2
+    pushes_per_repo: 1.5000
+    active_days: 3
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "30d":
-    pushes: 10
-    distinct_repos: 6
-    pushes_per_repo: 1.6667
+    pushes: 8
+    distinct_repos: 4
+    pushes_per_repo: 2.0000
     active_days: 7
-    repos_not_owned: 3
-    not_owned_basenames: 3
-    not_owned_owners: 2
+    repos_not_owned: 2
+    not_owned_basenames: 2
+    not_owned_owners: 1
   "90d":
-    pushes: 82
-    distinct_repos: 29
-    pushes_per_repo: 2.8276
-    active_days: 33
+    pushes: 68
+    distinct_repos: 27
+    pushes_per_repo: 2.5185
+    active_days: 29
     repos_not_owned: 10
     not_owned_basenames: 10
     not_owned_owners: 6
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 33 active days in 90d — pass"
+  - "activity: 29 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "tumble"
-    title: "tumble"
-    description: "A tiny lock-screen camera that makes you wait to see what you shot."
-    language: "Swift"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-03"
-  - name: "motion-and-code"
-    title: "motion-and-code"
-    description: "Code behind my YouTube videos covering app development, UI design, Swift, Flutter, and software engineering"
-    language: "Dart"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-08-31"
-  - name: "steepr"
-    title: "steepr"
-    description: "For people who take tea way too seriously 🍵"
-    language: "Makefile"
-    topics:
-      - "ios"
-      - "ios-swift"
-      - "steep"
-      - "swift"
-      - "tea"
-      - "vuejs"
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-08-27"
-  - name: "wallpapers"
-    title: "wallpapers"
-    description: "4K/HD wallpapers"
-    language: "Lua"
-    topics:
-      - "desktop-background"
-      - "hd"
-      - "wallpaper"
-    stars_fact: 4
-    first_seen: null
-    last_push: "2025-08-31"
-  - name: "glidewheel"
-    title: "glidewheel"
-    description: "Open-source macOS utility for independent mouse and trackpad scrolling."
-    language: "Swift"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-19"
-  - name: "streamz"
-    title: "streamz"
-    description: "Streaming Music App"
-    language: "Rust"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-19"
+repos: []
 ---
 
 # maskedsyntax
 
-82 pushes across 29 repositories on 33 active days in the last 90 days of public GitHub push activity.
+68 pushes across 27 repositories on 29 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/maskedsyntax

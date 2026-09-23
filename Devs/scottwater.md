@@ -8,11 +8,11 @@ provenance_repos:
   - "ColeMurray/background-agents"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+repos_populated: false
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "8311cfc3055f8fea"
-pushes_per_week: [1, 1, 1, 0, 0, 2, 0, 0, 0, 1, 0, 2, 0]
+pushes_per_week: [0, 0, 2, 0, 0, 0, 1, 0, 0, 2, 0, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 8
-    distinct_repos: 4
-    active_days: 7
+    pushes: 6
+    distinct_repos: 3
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.1429
-  repo_per_active_day: 0.5714
+  push_per_day: 1.2000
+  repo_per_active_day: 0.6000
   not_owned_ratio: 0.0000
-  basename_concentration: 0.2500
+  basename_concentration: 0.3333
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,74 +65,22 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 8
-    distinct_repos: 4
+    pushes: 6
+    distinct_repos: 3
     pushes_per_repo: 2.0000
-    active_days: 7
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 7 active days in 90d — pass"
+  - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "skills"
-    title: "skills"
-    description: null
-    language: "Shell"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-02"
-  - name: "dotfiles"
-    title: "dotfiles"
-    description: "Mi Dots"
-    language: "Shell"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-31"
-  - name: "parallel_specs"
-    title: "parallel_specs"
-    description: null
-    language: "Ruby"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-08-27"
-  - name: "stooges"
-    title: "stooges"
-    description: "A CLI for working with multiple git branches without worktrees"
-    language: "Go"
-    topics:
-      - "branches"
-      - "copy-on-write"
-      - "git"
-      - "productivity"
-    stars_fact: 5
-    first_seen: null
-    last_push: "2026-08-21"
-  - name: "lewp"
-    title: "lewp"
-    description: "Lew is a macOS local domain router/proxy"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 4
-    first_seen: null
-    last_push: "2026-08-09"
-  - name: "lewp-reader"
-    title: "lewp-reader"
-    description: "Lewp reference web application"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-31"
+repos: []
 ---
 
 # scottwater
 
-8 pushes across 4 repositories on 7 active days in the last 90 days of public GitHub push activity.
+6 pushes across 3 repositories on 5 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/scottwater

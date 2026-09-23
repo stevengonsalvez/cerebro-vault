@@ -21,7 +21,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "0726bc457d4dcf89"
   - "1be978947e68d1f2"
@@ -37,35 +37,35 @@ provenance:
   - "d61fc285c7155696"
   - "e76a6eae5d38637b"
   - "e7c647c4d0689526"
-pushes_per_week: [44, 44, 34, 45, 36, 19, 8, 24, 6, 21, 2, 0, 0]
+pushes_per_week: [13, 62, 26, 5, 17, 17, 12, 11, 2, 0, 1, 9, 5]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
-  "30d":
-    pushes: 23
-    distinct_repos: 12
-    active_days: 7
+    pushes: 7
+    distinct_repos: 5
+    active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
+  "30d":
+    pushes: 15
+    distinct_repos: 7
+    active_days: 7
+    repos_not_owned: 2
+    not_owned_basenames: 2
+    not_owned_owners: 2
   "90d":
-    pushes: 283
-    distinct_repos: 52
-    active_days: 58
-    repos_not_owned: 13
-    not_owned_basenames: 12
-    not_owned_owners: 3
+    pushes: 180
+    distinct_repos: 42
+    active_days: 48
+    repos_not_owned: 12
+    not_owned_basenames: 11
+    not_owned_owners: 4
 automation:
   state: "clear"
-  push_per_day: 4.8793
-  repo_per_active_day: 0.8966
-  not_owned_ratio: 0.2500
-  basename_concentration: 0.0577
+  push_per_day: 3.7500
+  repo_per_active_day: 0.8750
+  not_owned_ratio: 0.2857
+  basename_concentration: 0.0714
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -74,32 +74,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
-  "30d":
-    pushes: 23
-    distinct_repos: 12
-    pushes_per_repo: 1.9167
-    active_days: 7
+    pushes: 7
+    distinct_repos: 5
+    pushes_per_repo: 1.4000
+    active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
+  "30d":
+    pushes: 15
+    distinct_repos: 7
+    pushes_per_repo: 2.1429
+    active_days: 7
+    repos_not_owned: 2
+    not_owned_basenames: 2
+    not_owned_owners: 2
   "90d":
-    pushes: 283
-    distinct_repos: 52
-    pushes_per_repo: 5.4423
-    active_days: 58
-    repos_not_owned: 13
-    not_owned_basenames: 12
-    not_owned_owners: 3
+    pushes: 180
+    distinct_repos: 42
+    pushes_per_repo: 4.2857
+    active_days: 48
+    repos_not_owned: 12
+    not_owned_basenames: 11
+    not_owned_owners: 4
 reasons:
   - "provenance: 14 vault signal(s) — pass"
-  - "activity: 58 active days in 90d — pass"
+  - "activity: 48 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "scrape-florida-outages"
@@ -109,15 +109,7 @@ repos:
     topics: []
     stars_fact: 13
     first_seen: null
-    last_push: "2026-09-03"
-  - name: "usgs-scraper"
-    title: "usgs-scraper"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 13
-    first_seen: null
-    last_push: "2026-09-03"
+    last_push: "2026-09-23"
   - name: "scrape-fema-shelters"
     title: "scrape-fema-shelters"
     description: null
@@ -126,35 +118,58 @@ repos:
       - "git-scraping"
     stars_fact: 15
     first_seen: null
-    last_push: "2026-09-03"
-  - name: "claude-code-transcripts"
-    title: "claude-code-transcripts"
-    description: "Tools for publishing transcripts for Claude Code sessions"
-    language: "Python"
-    topics: []
-    stars_fact: 1682
-    first_seen: null
-    last_push: "2026-02-12"
-  - name: "llm-mlx"
-    title: "llm-mlx"
-    description: "Support for MLX models in LLM"
-    language: "Python"
-    topics: []
-    stars_fact: 251
-    first_seen: null
-    last_push: "2025-04-23"
-  - name: "claude-skills"
-    title: "claude-skills"
-    description: "The contents of /mnt/skills in Claude's code interpreter environment"
+    last_push: "2026-09-23"
+  - name: "usgs-scraper"
+    title: "usgs-scraper"
+    description: null
     language: null
     topics: []
-    stars_fact: 929
+    stars_fact: 13
     first_seen: null
-    last_push: "2025-12-12"
+    last_push: "2026-09-23"
+  - name: "llm"
+    title: "llm"
+    description: "Access large language models from the command-line"
+    language: "Python"
+    topics:
+      - "ai"
+      - "llms"
+      - "openai"
+    stars_fact: 12547
+    first_seen: "2026-07-31T06:00:06.780986+00:00"
+    last_push: "2026-09-22"
+  - name: "scrape-fediverse"
+    title: "scrape-fediverse"
+    description: "Git scrapers for scraping the fediverse"
+    language: null
+    topics:
+      - "git-scraping"
+    stars_fact: 23
+    first_seen: null
+    last_push: "2026-09-23"
+  - name: "datasette"
+    title: "datasette"
+    description: "An open source multi-tool for exploring and publishing data"
+    language: "Python"
+    topics:
+      - "asgi"
+      - "automatic-api"
+      - "csv"
+      - "datasets"
+      - "datasette"
+      - "datasette-io"
+      - "docker"
+      - "json"
+      - "python"
+      - "sql"
+      - "sqlite"
+    stars_fact: 11479
+    first_seen: null
+    last_push: "2026-09-22"
 ---
 
 # simonw
 
-283 pushes across 52 repositories on 58 active days in the last 90 days of public GitHub push activity.
+180 pushes across 42 repositories on 48 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/simonw

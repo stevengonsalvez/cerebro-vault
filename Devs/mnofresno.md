@@ -8,11 +8,11 @@ provenance_repos:
   - "ayghri/i-have-adhd"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+repos_populated: false
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "46f3c1d6124190bd"
-pushes_per_week: [5, 10, 5, 9, 1, 42, 15, 2, 0, 2, 0, 0, 0]
+pushes_per_week: [6, 4, 36, 7, 17, 0, 2, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,25 +22,25 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 2
-    distinct_repos: 1
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 91
-    distinct_repos: 10
-    active_days: 23
+    pushes: 72
+    distinct_repos: 7
+    active_days: 15
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 3.9565
-  repo_per_active_day: 0.4348
-  not_owned_ratio: 0.2000
-  basename_concentration: 0.1000
+  push_per_day: 4.8000
+  repo_per_active_day: 0.4667
+  not_owned_ratio: 0.2857
+  basename_concentration: 0.1429
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -57,82 +57,30 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 2
-    distinct_repos: 1
-    pushes_per_repo: 2.0000
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 91
-    distinct_repos: 10
-    pushes_per_repo: 9.1000
-    active_days: 23
+    pushes: 72
+    distinct_repos: 7
+    pushes_per_repo: 10.2857
+    active_days: 15
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 23 active days in 90d — pass"
+  - "activity: 15 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "mariano-portfolio-preview"
-    title: "mariano-portfolio-preview"
-    description: "Preview environment for Mariano Fresno portfolio redesigns"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-02"
-  - name: "bambu-ai-guard"
-    title: "bambu-ai-guard"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-25"
-  - name: "voip-audio-probe"
-    title: "voip-audio-probe"
-    description: "Minimal Android hardware probe for two-way VoIP audio debugging"
-    language: "Java"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-12"
-  - name: "qwen-ui-annotations"
-    title: "qwen-ui-annotations"
-    description: "Chrome extension for marking web UI annotations for local Qwen Code"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-03"
-  - name: "bionic-reading-skill"
-    title: "bionic-reading-skill"
-    description: "Standalone bionic reading Agent Skill, enabled by default."
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-06"
-  - name: "github-autodeploy"
-    title: "github-autodeploy"
-    description: "Automatic :robot: deploying webhook app for git repos to deploy your code into your production server :computer: to save your time :hourglass: and spend it with your family :baby: instead of manually deploying your personal projects :turtle:"
-    language: "PHP"
-    topics:
-      - "automation"
-      - "continuous-delivery"
-      - "continuous-integration"
-      - "deployment"
-    stars_fact: 5
-    first_seen: null
-    last_push: "2026-08-04"
+repos: []
 ---
 
 # mnofresno
 
-91 pushes across 10 repositories on 23 active days in the last 90 days of public GitHub push activity.
+72 pushes across 7 repositories on 15 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/mnofresno

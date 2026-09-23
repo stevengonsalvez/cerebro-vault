@@ -10,13 +10,13 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "1be978947e68d1f2"
   - "98a2deac3e2f9725"
   - "b949a65ff91f9791"
   - "edb3a626875732de"
-pushes_per_week: [0, 0, 0, 6, 20, 0, 0, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [0, 24, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -96,7 +96,7 @@ repos:
       - "typescript"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-03"
+    last_push: "2026-09-22"
   - name: "marquee"
     title: "marquee"
     description: "Kinetic typography playground. Framer Motion variants + variable Inter. Type a phrase, pick a treatment, watch each glyph animate independently."
@@ -164,7 +164,7 @@ repos:
       - "typescript"
     stars_fact: 1
     first_seen: null
-    last_push: "2026-09-03"
+    last_push: "2026-09-23"
 ---
 
 # c-tonneslan

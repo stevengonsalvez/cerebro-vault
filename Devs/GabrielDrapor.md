@@ -9,37 +9,37 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [4, 0, 1, 12, 4, 1, 2, 0, 1, 12, 2, 5, 0]
+pushes_per_week: [4, 12, 2, 1, 1, 1, 5, 9, 3, 2, 0, 3, 9]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
-  "30d":
-    pushes: 19
-    distinct_repos: 5
-    active_days: 8
+    pushes: 9
+    distinct_repos: 1
+    active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
+  "30d":
+    pushes: 17
+    distinct_repos: 4
+    active_days: 8
+    repos_not_owned: 2
+    not_owned_basenames: 2
+    not_owned_owners: 1
   "90d":
-    pushes: 44
+    pushes: 52
     distinct_repos: 7
-    active_days: 24
-    repos_not_owned: 1
-    not_owned_basenames: 1
+    active_days: 27
+    repos_not_owned: 2
+    not_owned_basenames: 2
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.8333
-  repo_per_active_day: 0.2917
-  not_owned_ratio: 0.1429
+  push_per_day: 1.9259
+  repo_per_active_day: 0.2593
+  not_owned_ratio: 0.2857
   basename_concentration: 0.2857
   shapes: []
   shape_evidence: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
-  "30d":
-    pushes: 19
-    distinct_repos: 5
-    pushes_per_repo: 3.8000
-    active_days: 8
+    pushes: 9
+    distinct_repos: 1
+    pushes_per_repo: 9.0000
+    active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
+  "30d":
+    pushes: 17
+    distinct_repos: 4
+    pushes_per_repo: 4.2500
+    active_days: 8
+    repos_not_owned: 2
+    not_owned_basenames: 2
+    not_owned_owners: 1
   "90d":
-    pushes: 44
+    pushes: 52
     distinct_repos: 7
-    pushes_per_repo: 6.2857
-    active_days: 24
-    repos_not_owned: 1
-    not_owned_basenames: 1
+    pushes_per_repo: 7.4286
+    active_days: 27
+    repos_not_owned: 2
+    not_owned_basenames: 2
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 24 active days in 90d — pass"
+  - "activity: 27 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "ovid"
@@ -96,14 +96,6 @@ repos:
     stars_fact: 3
     first_seen: null
     last_push: "2026-08-12"
-  - name: "yt-article"
-    title: "yt-article"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-07-23"
   - name: "GabrielDrapor"
     title: "GabrielDrapor"
     description: "My profile README"
@@ -128,10 +120,18 @@ repos:
     stars_fact: 1
     first_seen: null
     last_push: "2026-04-29"
+  - name: "railway-xray"
+    title: "railway-xray"
+    description: null
+    language: "Shell"
+    topics: []
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-02-09"
 ---
 
 # GabrielDrapor
 
-44 pushes across 7 repositories on 24 active days in the last 90 days of public GitHub push activity.
+52 pushes across 7 repositories on 27 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/GabrielDrapor

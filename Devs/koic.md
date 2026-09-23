@@ -8,39 +8,39 @@ provenance_repos:
   - "agentskills/agentskills"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+repos_populated: false
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "48dbbdd8fd0d3029"
-pushes_per_week: [15, 14, 24, 25, 9, 16, 3, 4, 3, 8, 3, 1, 0]
+pushes_per_week: [35, 11, 13, 10, 4, 2, 7, 4, 3, 1, 1, 1, 6]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    pushes: 6
+    distinct_repos: 4
+    active_days: 4
+    repos_not_owned: 2
+    not_owned_basenames: 2
+    not_owned_owners: 2
   "30d":
-    pushes: 15
-    distinct_repos: 8
-    active_days: 10
-    repos_not_owned: 4
-    not_owned_basenames: 4
+    pushes: 9
+    distinct_repos: 4
+    active_days: 7
+    repos_not_owned: 2
+    not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 125
-    distinct_repos: 19
-    active_days: 50
-    repos_not_owned: 12
-    not_owned_basenames: 12
-    not_owned_owners: 6
+    pushes: 98
+    distinct_repos: 17
+    active_days: 42
+    repos_not_owned: 10
+    not_owned_basenames: 10
+    not_owned_owners: 4
 automation:
   state: "clear"
-  push_per_day: 2.5000
-  repo_per_active_day: 0.3800
-  not_owned_ratio: 0.6316
-  basename_concentration: 0.1053
+  push_per_day: 2.3333
+  repo_per_active_day: 0.4048
+  not_owned_ratio: 0.5882
+  basename_concentration: 0.1176
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,98 +49,38 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    pushes: 6
+    distinct_repos: 4
+    pushes_per_repo: 1.5000
+    active_days: 4
+    repos_not_owned: 2
+    not_owned_basenames: 2
+    not_owned_owners: 2
   "30d":
-    pushes: 15
-    distinct_repos: 8
-    pushes_per_repo: 1.8750
-    active_days: 10
-    repos_not_owned: 4
-    not_owned_basenames: 4
+    pushes: 9
+    distinct_repos: 4
+    pushes_per_repo: 2.2500
+    active_days: 7
+    repos_not_owned: 2
+    not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 125
-    distinct_repos: 19
-    pushes_per_repo: 6.5789
-    active_days: 50
-    repos_not_owned: 12
-    not_owned_basenames: 12
-    not_owned_owners: 6
+    pushes: 98
+    distinct_repos: 17
+    pushes_per_repo: 5.7647
+    active_days: 42
+    repos_not_owned: 10
+    not_owned_basenames: 10
+    not_owned_owners: 4
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 50 active days in 90d — pass"
+  - "activity: 42 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "minifyrb"
-    title: "minifyrb"
-    description: "A minifier of Ruby files."
-    language: "Ruby"
-    topics:
-      - "minify"
-      - "minify-ruby"
-      - "ruby"
-      - "uglify"
-    stars_fact: 23
-    first_seen: null
-    last_push: "2025-01-02"
-  - name: "rubocop-faker"
-    title: "rubocop-faker"
-    description: "A RuboCop extension for Faker."
-    language: "Ruby"
-    topics:
-      - "converter"
-      - "faker"
-      - "linter"
-      - "rubocop"
-      - "ruby"
-      - "static-code-analysis"
-    stars_fact: 22
-    first_seen: null
-    last_push: "2025-02-18"
-  - name: "ruby_ast_visualizer"
-    title: "ruby_ast_visualizer"
-    description: ":evergreen_tree: Ruby AST Visualizer. Based on Parser."
-    language: "Ruby"
-    topics:
-      - "ast"
-      - "ruby"
-    stars_fact: 28
-    first_seen: null
-    last_push: "2018-03-23"
-  - name: "dotfiles"
-    title: "dotfiles"
-    description: "koic's dotfiles"
-    language: "Emacs Lisp"
-    topics: []
-    stars_fact: 6
-    first_seen: null
-    last_push: "2024-12-18"
-  - name: "rubocop-oracle"
-    title: "rubocop-oracle"
-    description: "A RuboCop extension for Active Record Oracle enhanced adapter."
-    language: "Ruby"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2025-04-05"
-  - name: "death-command"
-    title: "death-command"
-    description: ":metal: Say \"DEATH\" with death voice."
-    language: "Ruby"
-    topics: []
-    stars_fact: 14
-    first_seen: null
-    last_push: "2022-12-19"
+repos: []
 ---
 
 # koic
 
-125 pushes across 19 repositories on 50 active days in the last 90 days of public GitHub push activity.
+98 pushes across 17 repositories on 42 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/koic

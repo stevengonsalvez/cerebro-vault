@@ -8,39 +8,39 @@ provenance_repos:
   - "unicity-aos/aos-ce"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+repos_populated: false
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "7216827ad52eded1"
-pushes_per_week: [31, 34, 177, 69, 32, 114, 42, 11, 7, 19, 4, 6, 4]
+pushes_per_week: [107, 53, 96, 49, 33, 15, 9, 13, 8, 4, 5, 2, 14]
 windows:
   "7d":
-    pushes: 4
-    distinct_repos: 2
-    active_days: 3
-    repos_not_owned: 2
-    not_owned_basenames: 2
+    pushes: 14
+    distinct_repos: 4
+    active_days: 5
+    repos_not_owned: 4
+    not_owned_basenames: 4
     not_owned_owners: 2
   "30d":
-    pushes: 35
-    distinct_repos: 5
-    active_days: 17
+    pushes: 30
+    distinct_repos: 4
+    active_days: 15
     repos_not_owned: 4
-    not_owned_basenames: 3
-    not_owned_owners: 3
+    not_owned_basenames: 4
+    not_owned_owners: 2
   "90d":
-    pushes: 550
-    distinct_repos: 39
-    active_days: 66
-    repos_not_owned: 38
-    not_owned_basenames: 32
+    pushes: 408
+    distinct_repos: 29
+    active_days: 63
+    repos_not_owned: 28
+    not_owned_basenames: 23
     not_owned_owners: 4
 automation:
   state: "clear"
-  push_per_day: 8.3333
-  repo_per_active_day: 0.5909
-  not_owned_ratio: 0.9744
-  basename_concentration: 0.0769
+  push_per_day: 6.4762
+  repo_per_active_day: 0.4603
+  not_owned_ratio: 0.9655
+  basename_concentration: 0.1034
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,86 +49,38 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 4
-    distinct_repos: 2
-    pushes_per_repo: 2.0000
-    active_days: 3
-    repos_not_owned: 2
-    not_owned_basenames: 2
+    pushes: 14
+    distinct_repos: 4
+    pushes_per_repo: 3.5000
+    active_days: 5
+    repos_not_owned: 4
+    not_owned_basenames: 4
     not_owned_owners: 2
   "30d":
-    pushes: 35
-    distinct_repos: 5
-    pushes_per_repo: 7.0000
-    active_days: 17
+    pushes: 30
+    distinct_repos: 4
+    pushes_per_repo: 7.5000
+    active_days: 15
     repos_not_owned: 4
-    not_owned_basenames: 3
-    not_owned_owners: 3
+    not_owned_basenames: 4
+    not_owned_owners: 2
   "90d":
-    pushes: 550
-    distinct_repos: 39
-    pushes_per_repo: 14.1026
-    active_days: 66
-    repos_not_owned: 38
-    not_owned_basenames: 32
+    pushes: 408
+    distinct_repos: 29
+    pushes_per_repo: 14.0690
+    active_days: 63
+    repos_not_owned: 28
+    not_owned_basenames: 23
     not_owned_owners: 4
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 66 active days in 90d — pass"
+  - "activity: 63 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "aos-dj"
-    title: "aos-dj"
-    description: "Personal AI DJ station pack for Unicity AOS (standalone constellation, not CE)"
-    language: "Rust"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-07-21"
-  - name: "joshuajbouw"
-    title: "joshuajbouw"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-02-17"
-  - name: "pokemonmarket-mcp"
-    title: "pokemonmarket-mcp"
-    description: "An MCP built primarily for Unicity in mind which enables a Pokemon Market for shops to integrate into."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-04-16"
-  - name: "b58"
-    title: "b58"
-    description: "Simply base58 from argument tool."
-    language: "Rust"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2023-06-05"
-  - name: "aurora-workspace-demo"
-    title: "aurora-workspace-demo"
-    description: null
-    language: "Rust"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2022-11-17"
-  - name: "bevy_p2p"
-    title: "bevy_p2p"
-    description: null
-    language: "Rust"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2021-02-21"
+repos: []
 ---
 
 # joshuajbouw
 
-550 pushes across 39 repositories on 66 active days in the last 90 days of public GitHub push activity.
+408 pushes across 29 repositories on 63 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/joshuajbouw

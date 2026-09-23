@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [6, 3, 3, 4, 2, 3, 1, 2, 1, 0, 0, 2, 0]
+pushes_per_week: [5, 4, 1, 3, 1, 2, 0, 0, 1, 1, 1, 0, 5]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
-  "30d":
-    pushes: 2
+    pushes: 5
     distinct_repos: 2
-    active_days: 2
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    active_days: 3
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
+  "30d":
+    pushes: 7
+    distinct_repos: 4
+    active_days: 5
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "90d":
-    pushes: 27
-    distinct_repos: 21
-    active_days: 22
-    repos_not_owned: 3
-    not_owned_basenames: 3
-    not_owned_owners: 3
+    pushes: 24
+    distinct_repos: 17
+    active_days: 19
+    repos_not_owned: 2
+    not_owned_basenames: 2
+    not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 1.2273
-  repo_per_active_day: 0.9545
-  not_owned_ratio: 0.1429
-  basename_concentration: 0.0952
+  push_per_day: 1.2632
+  repo_per_active_day: 0.8947
+  not_owned_ratio: 0.1176
+  basename_concentration: 0.0588
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,58 +49,34 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
-  "30d":
-    pushes: 2
+    pushes: 5
     distinct_repos: 2
-    pushes_per_repo: 1.0000
-    active_days: 2
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    pushes_per_repo: 2.5000
+    active_days: 3
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
+  "30d":
+    pushes: 7
+    distinct_repos: 4
+    pushes_per_repo: 1.7500
+    active_days: 5
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "90d":
-    pushes: 27
-    distinct_repos: 21
-    pushes_per_repo: 1.2857
-    active_days: 22
-    repos_not_owned: 3
-    not_owned_basenames: 3
-    not_owned_owners: 3
+    pushes: 24
+    distinct_repos: 17
+    pushes_per_repo: 1.4118
+    active_days: 19
+    repos_not_owned: 2
+    not_owned_basenames: 2
+    not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 22 active days in 90d — pass"
+  - "activity: 19 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "astrbot_plugin_keywords_reply"
-    title: "astrbot_plugin_keywords_reply"
-    description: "一款为 AstrBot 设计的关键词回复插件。"
-    language: "Python"
-    topics: []
-    stars_fact: 12
-    first_seen: null
-    last_push: "2026-09-03"
-  - name: "astrbot_plugin_multi_execute"
-    title: "astrbot_plugin_multi_execute"
-    description: "一款为 AstrBot 设计的指令模拟器。"
-    language: "Python"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-01"
-  - name: "astrbot_plugin_CloudImg"
-    title: "astrbot_plugin_CloudImg"
-    description: "一款为 AstrBot 设计的图床插件。"
-    language: "Python"
-    topics: []
-    stars_fact: 4
-    first_seen: null
-    last_push: "2026-08-29"
   - name: "astrbot_plugin_video_analysis"
     title: "astrbot_plugin_video_analysis"
     description: "一款为 AstrBot 设计的多平台分享链接解析插件。"
@@ -108,27 +84,51 @@ repos:
     topics: []
     stars_fact: 9
     first_seen: null
-    last_push: "2026-08-28"
-  - name: "astrbot_plugin_admin_card"
-    title: "astrbot_plugin_admin_card"
-    description: "一款为 AstrBot 设计的管理体验插件。"
+    last_push: "2026-09-22"
+  - name: "astrbot_plugin_file_checker"
+    title: "astrbot_plugin_file_checker"
+    description: "一款为 AstrBot 设计的新上传文件检查插件。"
     language: "Python"
     topics: []
-    stars_fact: 0
+    stars_fact: 1
     first_seen: null
-    last_push: "2026-08-27"
-  - name: "astrbot_plugin_anti_flood"
-    title: "astrbot_plugin_anti_flood"
-    description: null
+    last_push: "2026-09-21"
+  - name: "astrbot_plugin_anti_revoke"
+    title: "astrbot_plugin_anti_revoke"
+    description: "一款为 AstrBot 设计的 QQ 防撤回插件。"
     language: "Python"
     topics: []
-    stars_fact: 0
+    stars_fact: 16
     first_seen: null
-    last_push: "2026-08-25"
+    last_push: "2026-09-21"
+  - name: "astrbot_plugin_soushuba"
+    title: "astrbot_plugin_soushuba"
+    description: "一款为 AstrBot 设计的搜书吧适配插件。"
+    language: "Python"
+    topics: []
+    stars_fact: 7
+    first_seen: null
+    last_push: "2026-09-20"
+  - name: "astrbot_plugin_GroupFS"
+    title: "astrbot_plugin_GroupFS"
+    description: "一款为 AstrBot 设计的 QQ 群文件管理插件。"
+    language: "Python"
+    topics: []
+    stars_fact: 10
+    first_seen: null
+    last_push: "2026-08-12"
+  - name: "astrbot_plugin_magnet_preview"
+    title: "astrbot_plugin_magnet_preview"
+    description: "一款为 AstrBot 设计的磁链预览插件。"
+    language: "Python"
+    topics: []
+    stars_fact: 5
+    first_seen: null
+    last_push: "2026-09-17"
 ---
 
 # Foolllll-J
 
-27 pushes across 21 repositories on 22 active days in the last 90 days of public GitHub push activity.
+24 pushes across 17 repositories on 19 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Foolllll-J

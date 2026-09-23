@@ -8,11 +8,11 @@ provenance_repos:
   - "AstrBotDevs/AstrBot"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+repos_populated: false
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [3, 0, 7, 0, 0, 11, 4, 0, 2, 3, 1, 0, 0]
+pushes_per_week: [3, 0, 8, 5, 2, 1, 1, 3, 1, 0, 0, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,25 +22,25 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 4
-    distinct_repos: 2
-    active_days: 4
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 31
-    distinct_repos: 4
-    active_days: 20
+    pushes: 25
+    distinct_repos: 5
+    active_days: 16
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.5500
-  repo_per_active_day: 0.2000
+  push_per_day: 1.5625
+  repo_per_active_day: 0.3125
   not_owned_ratio: 0.0000
-  basename_concentration: 0.2500
+  basename_concentration: 0.2000
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -57,78 +57,30 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 4
-    distinct_repos: 2
-    pushes_per_repo: 2.0000
-    active_days: 4
+    pushes: 1
+    distinct_repos: 1
+    pushes_per_repo: 1.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 31
-    distinct_repos: 4
-    pushes_per_repo: 7.7500
-    active_days: 20
+    pushes: 25
+    distinct_repos: 5
+    pushes_per_repo: 5.0000
+    active_days: 16
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 20 active days in 90d — pass"
+  - "activity: 16 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "mcmai-docs"
-    title: "mcmai-docs"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-21"
-  - name: "group-insight"
-    title: "group-insight"
-    description: "Yunzai 群聊分析插件，提供 AI 驱动的深度洞察、词云生成和消息追踪功能。"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 24
-    first_seen: null
-    last_push: "2026-04-07"
-  - name: "card_ac_ocr"
-    title: "card_ac_ocr"
-    description: "可以在浏览器中自动定位 Aime 卡片、校正方向与透视，并提取 20 位 ACCESS CODE。"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-07-21"
-  - name: "astrbot_plugin_gitsync"
-    title: "astrbot_plugin_gitsync"
-    description: "一条指令拉取并热重载所有由 git 管理的 AstrBot 插件。"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-07-20"
-  - name: "qqc_keyboard_test"
-    title: "qqc_keyboard_test"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-07-18"
-  - name: "voicevox-plugin"
-    title: "voicevox-plugin"
-    description: null
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2025-11-21"
+repos: []
 ---
 
 # KBVsent
 
-31 pushes across 4 repositories on 20 active days in the last 90 days of public GitHub push activity.
+25 pushes across 5 repositories on 16 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/KBVsent

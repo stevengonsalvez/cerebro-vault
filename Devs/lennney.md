@@ -10,11 +10,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "73468cde177ddae6"
   - "90688bf127241ceb"
-pushes_per_week: [14, 12, 27, 23, 9, 8, 9, 5, 0, 3, 2, 0, 0]
+pushes_per_week: [11, 16, 9, 11, 7, 2, 1, 4, 0, 0, 0, 2, 0]
 windows:
   "7d":
     pushes: 0
@@ -24,25 +24,25 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 5
-    distinct_repos: 1
-    active_days: 3
+    pushes: 2
+    distinct_repos: 2
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 112
-    distinct_repos: 22
-    active_days: 40
+    pushes: 63
+    distinct_repos: 16
+    active_days: 29
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.8000
-  repo_per_active_day: 0.5500
+  push_per_day: 2.1724
+  repo_per_active_day: 0.5517
   not_owned_ratio: 0.0000
-  basename_concentration: 0.0455
+  basename_concentration: 0.0625
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -59,24 +59,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 5
-    distinct_repos: 1
-    pushes_per_repo: 5.0000
-    active_days: 3
+    pushes: 2
+    distinct_repos: 2
+    pushes_per_repo: 1.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 112
-    distinct_repos: 22
-    pushes_per_repo: 5.0909
-    active_days: 40
+    pushes: 63
+    distinct_repos: 16
+    pushes_per_repo: 3.9375
+    active_days: 29
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 40 active days in 90d — pass"
+  - "activity: 29 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "stop-that-shit"
@@ -99,37 +99,9 @@ repos:
       - "overengineering"
       - "scope-control"
       - "yagni"
-    stars_fact: 1408
+    stars_fact: 2217
     first_seen: null
-    last_push: "2026-09-03"
-  - name: "mcp-slim-guard"
-    title: "mcp-slim-guard"
-    description: "Context compression for MCP. Same upstream call, exact results recoverable."
-    language: "TypeScript"
-    topics:
-      - "ai-agent"
-      - "compression"
-      - "context-compression"
-      - "mcp"
-      - "mcp-compression"
-      - "model-context-protocol"
-      - "nodejs"
-      - "payload-compression"
-      - "schema-compression"
-      - "token-optimization"
-      - "tool-discovery"
-      - "typescript"
-    stars_fact: 189
-    first_seen: null
-    last_push: "2026-08-14"
-  - name: "lennney"
-    title: "lennney"
-    description: "lennney's profile"
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-02"
+    last_push: "2026-09-21"
   - name: "agent-search-mcp"
     title: "agent-search-mcp"
     description: "Free-first Chinese and English web search MCP using zero-key sources and inspectable evidence."
@@ -155,29 +127,60 @@ repos:
       - "web-search"
       - "zero-api-key"
       - "zero-config"
-    stars_fact: 108
+    stars_fact: 111
     first_seen: null
-    last_push: "2026-08-17"
-  - name: "dsh-hermeslike"
-    title: "dsh-hermeslike"
-    description: "Hermes-style learning for DeepSeek Harness: automatic cross-session Memory and agent-owned Skills."
+    last_push: "2026-09-21"
+  - name: "mcp-slim-guard"
+    title: "mcp-slim-guard"
+    description: "Context compression for MCP. Same upstream call, exact results recoverable."
     language: "TypeScript"
-    topics: []
-    stars_fact: 0
+    topics:
+      - "ai-agent"
+      - "compression"
+      - "context-compression"
+      - "mcp"
+      - "mcp-compression"
+      - "model-context-protocol"
+      - "nodejs"
+      - "payload-compression"
+      - "schema-compression"
+      - "token-optimization"
+      - "tool-discovery"
+      - "typescript"
+    stars_fact: 188
     first_seen: null
     last_push: "2026-08-14"
-  - name: "ddg-kit"
-    title: "ddg-kit"
-    description: null
-    language: "TypeScript"
+  - name: "lennney"
+    title: "lennney"
+    description: "lennney's profile"
+    language: null
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-08-02"
+    last_push: "2026-09-15"
+  - name: "account-tracker-tool"
+    title: "account-tracker-tool"
+    description: "社媒账号数据采集工具 — YouTube/TikTok/Instagram/Facebook 多平台追踪，内置多层爬虫降级 + 断点续传"
+    language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-07-29"
+  - name: "ticketpilot"
+    title: "ticketpilot"
+    description: "基于 Python、PostgreSQL/pgvector、Pydantic 与 Streamlit 的中文客服工单 AI Workflow，支持分层检索、证据化草稿、人审记录和离线评测。"
+    language: "Python"
+    topics:
+      - "ai"
+      - "customer-service"
+      - "ticket"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-09"
 ---
 
 # lennney
 
-112 pushes across 22 repositories on 40 active days in the last 90 days of public GitHub push activity.
+63 pushes across 16 repositories on 29 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/lennney

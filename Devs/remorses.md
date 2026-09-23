@@ -8,39 +8,39 @@ provenance_repos:
   - "anomalyco/opencode"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+repos_populated: false
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [15, 9, 16, 11, 0, 7, 4, 5, 2, 4, 2, 5, 0]
+pushes_per_week: [10, 7, 3, 7, 4, 2, 6, 0, 6, 1, 1, 3, 4]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
+    pushes: 4
+    distinct_repos: 2
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 13
-    distinct_repos: 9
-    active_days: 7
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 11
+    distinct_repos: 5
+    active_days: 9
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
-    pushes: 80
-    distinct_repos: 29
-    active_days: 41
+    pushes: 54
+    distinct_repos: 22
+    active_days: 33
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.9512
-  repo_per_active_day: 0.7073
-  not_owned_ratio: 0.0345
-  basename_concentration: 0.0345
+  push_per_day: 1.6364
+  repo_per_active_day: 0.6667
+  not_owned_ratio: 0.0455
+  basename_concentration: 0.0455
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,97 +49,38 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
+    pushes: 4
+    distinct_repos: 2
+    pushes_per_repo: 2.0000
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 13
-    distinct_repos: 9
-    pushes_per_repo: 1.4444
-    active_days: 7
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 11
+    distinct_repos: 5
+    pushes_per_repo: 2.2000
+    active_days: 9
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
-    pushes: 80
-    distinct_repos: 29
-    pushes_per_repo: 2.7586
-    active_days: 41
+    pushes: 54
+    distinct_repos: 22
+    pushes_per_repo: 2.4545
+    active_days: 33
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 41 active days in 90d — pass"
+  - "activity: 33 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "playwriter"
-    title: "playwriter"
-    description: "Chrome extension & CLI to let agents control your browser. Runs Playwright snippets in a stateful sandbox. Available as CLI or MCP"
-    language: "HTML"
-    topics:
-      - "mcp"
-      - "playwright"
-    stars_fact: 3853
-    first_seen: null
-    last_push: "2026-08-27"
-  - name: "gpuix"
-    title: "gpuix"
-    description: "Node.js & React bindings for Zed’s GPUI. Build memory efficient native apps with React and no Electron"
-    language: "Rust"
-    topics:
-      - "gpui"
-      - "zed"
-    stars_fact: 1495
-    first_seen: null
-    last_push: "2026-09-02"
-  - name: "kimaki"
-    title: "kimaki"
-    description: "all opencode features deeply integrated inside Discord. each project is a channel. each session a thread"
-    language: "TypeScript"
-    topics:
-      - "clawdbot"
-      - "discord"
-      - "openclaw-alternative"
-      - "opencode"
-    stars_fact: 1395
-    first_seen: null
-    last_push: "2026-09-02"
-  - name: "tuitube"
-    title: "tuitube"
-    description: "Download videos from the command line with a TUI"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 789
-    first_seen: null
-    last_push: "2026-01-12"
-  - name: "usecomputer"
-    title: "usecomputer"
-    description: "Fast computer automation CLI for AI agents. Control any desktop with screenshots, clicks, typing, scrolling, and more."
-    language: "Zig"
-    topics: []
-    stars_fact: 318
-    first_seen: null
-    last_push: "2026-07-21"
-  - name: "critique"
-    title: "critique"
-    description: "TUI & website for reviewing git changes"
-    language: "TypeScript"
-    topics:
-      - "diff"
-      - "opentui"
-      - "tui"
-    stars_fact: 1270
-    first_seen: null
-    last_push: "2026-09-02"
+repos: []
 ---
 
 # remorses
 
-80 pushes across 29 repositories on 41 active days in the last 90 days of public GitHub push activity.
+54 pushes across 22 repositories on 33 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/remorses

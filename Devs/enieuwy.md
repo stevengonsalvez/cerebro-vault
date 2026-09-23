@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [5, 3, 11, 1, 35, 27, 18, 6, 6, 10, 5, 2, 1]
+pushes_per_week: [1, 23, 16, 36, 6, 7, 9, 7, 4, 2, 4, 2, 0]
 windows:
   "7d":
-    pushes: 3
-    distinct_repos: 3
-    active_days: 2
-    repos_not_owned: 2
-    not_owned_basenames: 2
-    not_owned_owners: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
-    pushes: 23
-    distinct_repos: 7
-    active_days: 10
-    repos_not_owned: 4
-    not_owned_basenames: 4
+    pushes: 8
+    distinct_repos: 5
+    active_days: 5
+    repos_not_owned: 3
+    not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 130
-    distinct_repos: 16
-    active_days: 40
+    pushes: 117
+    distinct_repos: 13
+    active_days: 33
     repos_not_owned: 7
     not_owned_basenames: 7
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 3.2500
-  repo_per_active_day: 0.4000
-  not_owned_ratio: 0.4375
-  basename_concentration: 0.0625
+  push_per_day: 3.5455
+  repo_per_active_day: 0.3939
+  not_owned_ratio: 0.5385
+  basename_concentration: 0.0769
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 3
-    distinct_repos: 3
-    pushes_per_repo: 1.0000
-    active_days: 2
-    repos_not_owned: 2
-    not_owned_basenames: 2
-    not_owned_owners: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
-    pushes: 23
-    distinct_repos: 7
-    pushes_per_repo: 3.2857
-    active_days: 10
-    repos_not_owned: 4
-    not_owned_basenames: 4
+    pushes: 8
+    distinct_repos: 5
+    pushes_per_repo: 1.6000
+    active_days: 5
+    repos_not_owned: 3
+    not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 130
-    distinct_repos: 16
-    pushes_per_repo: 8.1250
-    active_days: 40
+    pushes: 117
+    distinct_repos: 13
+    pushes_per_repo: 9.0000
+    active_days: 33
     repos_not_owned: 7
     not_owned_basenames: 7
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 40 active days in 90d — pass"
+  - "activity: 33 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "showy-quota"
@@ -98,9 +98,9 @@ repos:
       - "statusline"
       - "tmux"
       - "zellij"
-    stars_fact: 18
+    stars_fact: 19
     first_seen: null
-    last_push: "2026-08-31"
+    last_push: "2026-09-23"
   - name: "immich-shuttle"
     title: "immich-shuttle"
     description: "Cross-platform desktop importer for Immich — GUI over immich-go"
@@ -119,7 +119,7 @@ repos:
       - "windows-app"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-03"
+    last_push: "2026-09-21"
   - name: "enieuwy"
     title: "enieuwy"
     description: null
@@ -157,11 +157,11 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-08-31"
+    last_push: "2026-09-21"
 ---
 
 # enieuwy
 
-130 pushes across 16 repositories on 40 active days in the last 90 days of public GitHub push activity.
+117 pushes across 13 repositories on 33 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/enieuwy

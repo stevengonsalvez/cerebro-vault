@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [8, 16, 1, 3, 1, 0, 4, 0, 8, 15, 0, 0, 0]
+pushes_per_week: [0, 4, 0, 2, 2, 5, 10, 8, 0, 0, 0, 0, 2]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
+    pushes: 2
+    distinct_repos: 2
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 17
-    distinct_repos: 1
-    active_days: 6
+    pushes: 2
+    distinct_repos: 2
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 56
-    distinct_repos: 10
-    active_days: 21
+    pushes: 33
+    distinct_repos: 9
+    active_days: 16
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.6667
-  repo_per_active_day: 0.4762
+  push_per_day: 2.0625
+  repo_per_active_day: 0.5625
   not_owned_ratio: 0.0000
-  basename_concentration: 0.1000
+  basename_concentration: 0.1111
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,34 +49,74 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
+    pushes: 2
+    distinct_repos: 2
+    pushes_per_repo: 1.0000
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 17
-    distinct_repos: 1
-    pushes_per_repo: 17.0000
-    active_days: 6
+    pushes: 2
+    distinct_repos: 2
+    pushes_per_repo: 1.0000
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 56
-    distinct_repos: 10
-    pushes_per_repo: 5.6000
-    active_days: 21
+    pushes: 33
+    distinct_repos: 9
+    pushes_per_repo: 3.6667
+    active_days: 16
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 21 active days in 90d — pass"
+  - "activity: 16 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "qqbot-plugin-pixiv"
+    title: "qqbot-plugin-pixiv"
+    description: "Pixiv 随机美图 / 作品详情查询（pixiv.yuki.sh 第三方图床）— qqbot-workers 插件"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-22"
+  - name: "qqbot-workers"
+    title: "qqbot-workers"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-20"
+  - name: "qqbot-plugin-jrys"
+    title: "qqbot-plugin-jrys"
+    description: "QQ 机器人今日运势海报生成插件，支持 T2I 渲染、每日固定运势与节假日爆率加权"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-20"
+  - name: "qqbot-plugin-wifepicker"
+    title: "qqbot-plugin-wifepicker"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-19"
+  - name: "qqbot-plugin-hello"
+    title: "qqbot-plugin-hello"
+    description: "QQ 机器人插件示例（qqbot-workers 框架）：命令、正则、事件与按键"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-18"
   - name: "cardputer_adv_remote_win"
     title: "cardputer_adv_remote_win"
     description: null
@@ -85,57 +125,10 @@ repos:
     stars_fact: 1
     first_seen: null
     last_push: "2026-07-07"
-  - name: "serverless-agent"
-    title: "serverless-agent"
-    description: "Cloudflare-native serverless runtime for multi-platform AI agents."
-    language: "TypeScript"
-    topics:
-      - "ai-agent"
-      - "cloudflare-workers"
-      - "d1"
-      - "durable-objects"
-      - "r2"
-      - "serverless"
-      - "typescript"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-08-24"
-  - name: "astrbot_plugin_t2i_health_monitor"
-    title: "astrbot_plugin_t2i_health_monitor"
-    description: "AstrBot plugin that directly monitors multiple t2i services and pushes health reports."
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-23"
-  - name: "astrbot_plugin_tts_llm"
-    title: "astrbot_plugin_tts_llm"
-    description: "Astrbot的语音合成插件"
-    language: "Python"
-    topics: []
-    stars_fact: 14
-    first_seen: null
-    last_push: "2026-08-18"
-  - name: "genie-tts"
-    title: "genie-tts"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-18"
-  - name: "cardputer_adv_ssh"
-    title: "cardputer_adv_ssh"
-    description: "Native ESP-IDF SSH terminal firmware for M5Stack Cardputer-Adv"
-    language: "C"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-07-05"
 ---
 
 # clown145
 
-56 pushes across 10 repositories on 21 active days in the last 90 days of public GitHub push activity.
+33 pushes across 9 repositories on 16 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/clown145

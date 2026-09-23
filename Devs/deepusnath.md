@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "edb3a626875732de"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 11, 6, 7, 14, 3, 3, 0]
+pushes_per_week: [0, 0, 0, 1, 13, 8, 12, 7, 3, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 20
-    distinct_repos: 5
-    active_days: 6
+    pushes: 3
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 20
-    distinct_repos: 5
-    pushes_per_repo: 4.0000
-    active_days: 6
+    pushes: 3
+    distinct_repos: 1
+    pushes_per_repo: 3.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -77,6 +77,22 @@ reasons:
   - "activity: 17 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "conference-copilot"
+    title: "conference-copilot"
+    description: "Conference CFP tracker + agent playbook for PhD researchers (SDT × gamified learning)"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-22"
+  - name: "ai-business-map"
+    title: "ai-business-map"
+    description: "An interactive map of the AI landscape in 2026 for business decisions: what to buy, what to skip, what it costs, and what will get you into trouble"
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-04"
   - name: "ai-field-map"
     title: "ai-field-map"
     description: "An interactive survey map of the AI and ML landscape: 7 territories, 224 tagged terms, two reading levels. An instrument of Capability Commons."
@@ -100,14 +116,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-09-02"
-  - name: "conference-copilot"
-    title: "conference-copilot"
-    description: "Conference CFP tracker + agent playbook for PhD researchers (SDT × gamified learning)"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-01"
   - name: "beyond-syllabus-platform"
     title: "beyond-syllabus-platform"
     description: "Public platform for Beyond Syllabus (Bridge The Gap 4.0) — The Purple Movement"
@@ -115,7 +123,7 @@ repos:
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-08-26"
+    last_push: "2026-09-04"
   - name: "Beyond-Gatekeepers"
     title: "Beyond-Gatekeepers"
     description: "The Evolve network — Beyond Gatekeepers pillar of The Purple Movement. Successor to FAYA:80: monthly, peer-led communities of practice."
@@ -124,14 +132,6 @@ repos:
     stars_fact: 1
     first_seen: null
     last_push: "2026-07-26"
-  - name: "living-syllabus"
-    title: "living-syllabus"
-    description: "The flipped-classroom operating layer built on the WikiSyllabus commons — a Beyond Syllabus project by The Purple Movement"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-08-18"
 ---
 
 # deepusnath

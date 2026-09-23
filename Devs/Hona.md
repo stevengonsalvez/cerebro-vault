@@ -8,39 +8,39 @@ provenance_repos:
   - "anomalyco/opencode"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+repos_populated: false
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [13, 14, 29, 20, 10, 15, 7, 8, 8, 34, 7, 28, 1]
+pushes_per_week: [24, 20, 16, 9, 9, 3, 14, 29, 18, 14, 8, 4, 22]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    pushes: 22
+    distinct_repos: 5
+    active_days: 7
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "30d":
-    pushes: 70
-    distinct_repos: 4
-    active_days: 16
+    pushes: 61
+    distinct_repos: 7
+    active_days: 19
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 194
-    distinct_repos: 10
+    pushes: 190
+    distinct_repos: 13
     active_days: 57
     repos_not_owned: 3
     not_owned_basenames: 2
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 3.4035
-  repo_per_active_day: 0.1754
-  not_owned_ratio: 0.3000
-  basename_concentration: 0.3000
+  push_per_day: 3.3333
+  repo_per_active_day: 0.2281
+  not_owned_ratio: 0.2308
+  basename_concentration: 0.2308
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    pushes: 22
+    distinct_repos: 5
+    pushes_per_repo: 4.4000
+    active_days: 7
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "30d":
-    pushes: 70
-    distinct_repos: 4
-    pushes_per_repo: 17.5000
-    active_days: 16
+    pushes: 61
+    distinct_repos: 7
+    pushes_per_repo: 8.7143
+    active_days: 19
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 194
-    distinct_repos: 10
-    pushes_per_repo: 19.4000
+    pushes: 190
+    distinct_repos: 13
+    pushes_per_repo: 14.6154
     active_days: 57
     repos_not_owned: 3
     not_owned_basenames: 2
@@ -76,68 +76,11 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 57 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "opencode-desktop-extensions"
-    title: "opencode-desktop-extensions"
-    description: "Mod loader for OpenCode Desktop"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 17
-    first_seen: null
-    last_push: "2026-07-17"
-  - name: "opencode-changelog-x"
-    title: "opencode-changelog-x"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-09-02"
-  - name: "playsrc"
-    title: "playsrc"
-    description: "Play Team Fortress 2 in the browser"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 21
-    first_seen: null
-    last_push: "2026-09-01"
-  - name: "opencode-ralph"
-    title: "opencode-ralph"
-    description: "Ralph Driven Development using OpenCode SDK and OpenTUI"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 129
-    first_seen: null
-    last_push: "2026-01-06"
-  - name: "VerticalSliceArchitecture"
-    title: "VerticalSliceArchitecture"
-    description: "Spend less time over-engineering, and more time coding. The template has a focus on convenience, and developer confidence. Vertical Slice Architecture 🎈"
-    language: "C#"
-    topics:
-      - "asp-net-core"
-      - "enterprise"
-      - "fast-endpoints"
-      - "vertical-slice-architecture"
-    stars_fact: 126
-    first_seen: null
-    last_push: "2024-11-13"
-  - name: "bsp-to-glb"
-    title: "bsp-to-glb"
-    description: "Fast, first-principles Source 1 BSP brush geometry exporter for glTF"
-    language: "Rust"
-    topics:
-      - "bsp"
-      - "gltf"
-      - "rust"
-      - "source-engine"
-      - "tf2"
-    stars_fact: 5
-    first_seen: null
-    last_push: "2026-07-16"
+repos: []
 ---
 
 # Hona
 
-194 pushes across 10 repositories on 57 active days in the last 90 days of public GitHub push activity.
+190 pushes across 13 repositories on 57 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Hona

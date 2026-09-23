@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "25bff0b4a0ece6bc"
-pushes_per_week: [5, 2, 3, 14, 9, 7, 2, 7, 3, 3, 1, 2, 0]
+pushes_per_week: [4, 12, 14, 2, 5, 6, 0, 3, 2, 1, 1, 2, 5]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
+    pushes: 6
+    distinct_repos: 2
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 6
+    pushes: 10
     distinct_repos: 2
-    active_days: 5
+    active_days: 8
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 58
+    pushes: 57
     distinct_repos: 5
-    active_days: 31
+    active_days: 33
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.8710
-  repo_per_active_day: 0.1613
+  push_per_day: 1.7273
+  repo_per_active_day: 0.1515
   not_owned_ratio: 0.0000
   basename_concentration: 0.2000
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
+    pushes: 6
+    distinct_repos: 2
+    pushes_per_repo: 3.0000
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 6
+    pushes: 10
     distinct_repos: 2
-    pushes_per_repo: 3.0000
-    active_days: 5
+    pushes_per_repo: 5.0000
+    active_days: 8
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 58
+    pushes: 57
     distinct_repos: 5
-    pushes_per_repo: 11.6000
-    active_days: 31
+    pushes_per_repo: 11.4000
+    active_days: 33
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 31 active days in 90d — pass"
+  - "activity: 33 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "claude-code-templates"
@@ -86,61 +86,53 @@ repos:
       - "anthropic-claude"
       - "claude"
       - "claude-code"
-    stars_fact: 30512
+    stars_fact: 31340
     first_seen: "2026-07-11T06:00:03.582945+00:00"
-    last_push: "2026-09-03"
-  - name: "langchain-101"
-    title: "langchain-101"
-    description: "Langchain 101 en Español"
-    language: "Python"
-    topics: []
-    stars_fact: 81
-    first_seen: null
-    last_push: "2023-12-12"
-  - name: "ast-asg-graph-rag"
-    title: "ast-asg-graph-rag"
-    description: null
-    language: "Jupyter Notebook"
-    topics: []
-    stars_fact: 12
-    first_seen: null
-    last_push: "2025-03-02"
-  - name: "agent-code-academy"
-    title: "agent-code-academy"
-    description: "An open catalog of technical learning paths for AI coding agents."
-    language: "TypeScript"
-    topics:
-      - "ai-coding"
-      - "claude-code"
-      - "codex"
-      - "coding-agents"
-      - "cursor"
-      - "github-copilot"
-      - "learning-resources"
-      - "open-source"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-30"
-  - name: "llm-wiki-bench"
-    title: "llm-wiki-bench"
-    description: "LLM Wiki Bench"
-    language: "Python"
-    topics: []
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-07-27"
-  - name: "whatsapp-dispatcher"
-    title: "whatsapp-dispatcher"
-    description: "Whatsapp Dispatcher"
+    last_push: "2026-09-23"
+  - name: "jev-explained"
+    title: "jev-explained"
+    description: "Jev Explained"
     language: "TypeScript"
     topics: []
-    stars_fact: 4
+    stars_fact: 27
     first_seen: null
-    last_push: "2026-08-30"
+    last_push: "2026-09-20"
+  - name: "davila7"
+    title: "davila7"
+    description: "Profile"
+    language: null
+    topics: []
+    stars_fact: 32
+    first_seen: null
+    last_push: "2026-09-22"
+  - name: "youtube-gpt"
+    title: "youtube-gpt"
+    description: "Youtube GPT: OpenAI Whisper + Embedding + Davinci"
+    language: "Python"
+    topics: []
+    stars_fact: 384
+    first_seen: null
+    last_push: "2023-02-10"
+  - name: "computer-skills"
+    title: "computer-skills"
+    description: "Perplexity Computer Skills"
+    language: null
+    topics: []
+    stars_fact: 5
+    first_seen: null
+    last_push: "2026-03-24"
+  - name: "claude-cowork-guide"
+    title: "claude-cowork-guide"
+    description: "Claude Cowork Guide"
+    language: null
+    topics: []
+    stars_fact: 16
+    first_seen: null
+    last_push: "2026-03-06"
 ---
 
 # davila7
 
-58 pushes across 5 repositories on 31 active days in the last 90 days of public GitHub push activity.
+57 pushes across 5 repositories on 33 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/davila7

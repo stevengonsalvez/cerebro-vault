@@ -8,11 +8,11 @@ provenance_repos:
   - "agavra/tuicr"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+repos_populated: false
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 18, 9, 0, 0, 0, 0]
+pushes_per_week: [0, 0, 0, 0, 2, 23, 2, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 2
-    distinct_repos: 2
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 2
-    distinct_repos: 2
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -76,22 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 8 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "samever"
-    title: "samever"
-    description: "Catch runtime version drift before CI does."
-    language: "JavaScript"
-    topics:
-      - "ci"
-      - "cli"
-      - "developer-tools"
-      - "docker"
-      - "nodejs"
-      - "python"
-      - "version-management"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-08-02"
+repos: []
 ---
 
 # Guflly

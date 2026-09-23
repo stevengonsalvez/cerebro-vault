@@ -8,11 +8,11 @@ provenance_repos:
   - "anthropics/anthropic-sdk-python"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+repos_populated: false
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "1be978947e68d1f2"
-pushes_per_week: [9, 30, 48, 32, 7, 6, 17, 15, 0, 3, 1, 1, 0]
+pushes_per_week: [55, 7, 7, 11, 25, 1, 1, 3, 1, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 5
+    pushes: 1
     distinct_repos: 1
-    active_days: 4
+    active_days: 1
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 169
+    pushes: 111
     distinct_repos: 3
-    active_days: 40
+    active_days: 28
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 4.2250
-  repo_per_active_day: 0.0750
+  push_per_day: 3.9643
+  repo_per_active_day: 0.1071
   not_owned_ratio: 0.6667
   basename_concentration: 0.3333
   shapes: []
@@ -57,30 +57,30 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 5
+    pushes: 1
     distinct_repos: 1
-    pushes_per_repo: 5.0000
-    active_days: 4
+    pushes_per_repo: 1.0000
+    active_days: 1
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 169
+    pushes: 111
     distinct_repos: 3
-    pushes_per_repo: 56.3333
-    active_days: 40
+    pushes_per_repo: 37.0000
+    active_days: 28
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 40 active days in 90d — pass"
+  - "activity: 28 active days in 90d — pass"
   - "automation: clear — pass"
 repos: []
 ---
 
 # maxisbey
 
-169 pushes across 3 repositories on 40 active days in the last 90 days of public GitHub push activity.
+111 pushes across 3 repositories on 28 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/maxisbey

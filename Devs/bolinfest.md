@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "0388a4f55f4206c8"
   - "0577669e18ed3998"
@@ -26,7 +26,7 @@ provenance:
   - "c6b4a874521ceb02"
   - "cf565721454d59f8"
   - "e26852201e6f38fc"
-pushes_per_week: [9, 0, 67, 29, 45, 0, 0, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [39, 40, 27, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -43,16 +43,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 150
+    pushes: 106
     distinct_repos: 2
-    active_days: 18
+    active_days: 12
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 8.3333
-  repo_per_active_day: 0.1111
+  push_per_day: 8.8333
+  repo_per_active_day: 0.1667
   not_owned_ratio: 1.0000
   basename_concentration: 0.5000
   shapes: []
@@ -79,18 +79,26 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 150
+    pushes: 106
     distinct_repos: 2
-    pushes_per_repo: 75.0000
-    active_days: 18
+    pushes_per_repo: 53.0000
+    active_days: 12
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 reasons:
   - "provenance: 15 vault signal(s) — pass"
-  - "activity: 18 active days in 90d — pass"
+  - "activity: 12 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "monaco-tm"
+    title: "monaco-tm"
+    description: "Attempt to get TextMate grammars working in standalone Monaco"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 155
+    first_seen: null
+    last_push: "2024-01-06"
   - name: "puzzle-dependency-chart"
     title: "puzzle-dependency-chart"
     description: "Tool for maintaining puzzle dependency charts for adventure games."
@@ -107,14 +115,6 @@ repos:
     stars_fact: 5
     first_seen: null
     last_push: "2026-01-07"
-  - name: "monaco-tm"
-    title: "monaco-tm"
-    description: "Attempt to get TextMate grammars working in standalone Monaco"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 154
-    first_seen: null
-    last_push: "2024-01-06"
   - name: "node-google-closure-latitude-experiment"
     title: "node-google-closure-latitude-experiment"
     description: "An approach to using Node and Google Closure that leverages Closure Compiler externs."
@@ -143,6 +143,6 @@ repos:
 
 # bolinfest
 
-150 pushes across 2 repositories on 18 active days in the last 90 days of public GitHub push activity.
+106 pushes across 2 repositories on 12 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/bolinfest

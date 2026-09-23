@@ -8,11 +8,11 @@ provenance_repos:
   - "chopratejas/headroom"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-09-04T06:06:21.234597+00:00"
+repos_populated: false
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "73468cde177ddae6"
-pushes_per_week: [0, 3, 4, 2, 1, 1, 3, 1, 0, 1, 0, 0, 0]
+pushes_per_week: [1, 2, 0, 2, 3, 0, 0, 1, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 16
+    pushes: 9
     distinct_repos: 1
-    active_days: 13
+    active_days: 8
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.2308
-  repo_per_active_day: 0.0769
+  push_per_day: 1.1250
+  repo_per_active_day: 0.1250
   not_owned_ratio: 0.0000
   basename_concentration: 1.0000
   shapes: []
@@ -57,38 +57,30 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 16
+    pushes: 9
     distinct_repos: 1
-    pushes_per_repo: 16.0000
-    active_days: 13
+    pushes_per_repo: 9.0000
+    active_days: 8
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 13 active days in 90d — pass"
+  - "activity: 8 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "Rete.js"
-    title: "Rete.js"
-    description: "Created with CodeSandbox"
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2025-04-14"
+repos: []
 ---
 
 # Parideboy
 
-16 pushes across 1 repository on 13 active days in the last 90 days of public GitHub push activity.
+9 pushes across 1 repository on 8 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Parideboy

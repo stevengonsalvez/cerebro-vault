@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "379642deb53f3714"
-pushes_per_week: [11, 3, 0, 41, 4, 3, 5, 9, 5, 9, 0, 0, 0]
+pushes_per_week: [20, 25, 0, 6, 9, 4, 7, 5, 0, 0, 2, 0, 7]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
+    pushes: 7
+    distinct_repos: 2
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 10
+    pushes: 9
     distinct_repos: 2
-    active_days: 4
+    active_days: 8
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 90
+    pushes: 85
     distinct_repos: 5
     active_days: 30
     repos_not_owned: 1
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 3.0000
+  push_per_day: 2.8333
   repo_per_active_day: 0.1667
   not_owned_ratio: 0.2000
   basename_concentration: 0.4000
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
+    pushes: 7
+    distinct_repos: 2
+    pushes_per_repo: 3.5000
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 10
+    pushes: 9
     distinct_repos: 2
-    pushes_per_repo: 5.0000
-    active_days: 4
+    pushes_per_repo: 4.5000
+    active_days: 8
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 90
+    pushes: 85
     distinct_repos: 5
-    pushes_per_repo: 18.0000
+    pushes_per_repo: 17.0000
     active_days: 30
     repos_not_owned: 1
     not_owned_basenames: 1
@@ -79,7 +79,7 @@ reasons:
 repos:
   - name: "cctv-camera-database"
     title: "cctv-camera-database"
-    description: "Open database of 6,300+ CCTV camera specs across 123+ brands, with Frigate and ONVIF/RTS integration, CC0"
+    description: "Open database of 15,000+ CCTV camera specs across 180+ brands, with Frigate and ONVIF/RTS integration, CC0"
     language: "JavaScript"
     topics:
       - "blue-iris"
@@ -102,9 +102,9 @@ repos:
       - "rtsp"
       - "security-camera"
       - "surveillance"
-    stars_fact: 243
+    stars_fact: 252
     first_seen: null
-    last_push: "2026-09-03"
+    last_push: "2026-09-23"
   - name: "threejs-sims-house-builder"
     title: "threejs-sims-house-builder"
     description: "A browser-based 3D house builder inspired by The Sims. Design multi-floor homes with furniture, walls, roofs, and walkthrough mode. Built with Three.js + Next.js."
@@ -127,9 +127,9 @@ repos:
       - "threejs"
       - "typescript"
       - "webgl"
-    stars_fact: 43
+    stars_fact: 70
     first_seen: null
-    last_push: "2026-09-03"
+    last_push: "2026-09-22"
   - name: "frontfamily-community"
     title: "frontfamily-community"
     description: "Bug reports, feature requests, and component mapping contributions for FrontFamily"
@@ -186,6 +186,6 @@ repos:
 
 # ch-bas
 
-90 pushes across 5 repositories on 30 active days in the last 90 days of public GitHub push activity.
+85 pushes across 5 repositories on 30 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ch-bas

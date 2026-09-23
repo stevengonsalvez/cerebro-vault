@@ -8,12 +8,12 @@ discovered_via_all:
 provenance_repos:
   - "ConardLi/garden-skills"
 admitted: true
-low_n: false
+low_n: true
 repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "593d8a1dc9504a09"
-pushes_per_week: [10, 1, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -30,18 +30,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 14
-    distinct_repos: 6
-    active_days: 6
+    pushes: 2
+    distinct_repos: 2
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.3333
+  push_per_day: 1.0000
   repo_per_active_day: 1.0000
   not_owned_ratio: 0.0000
-  basename_concentration: 0.1667
+  basename_concentration: 0.5000
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -66,16 +66,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 14
-    distinct_repos: 6
-    pushes_per_repo: 2.3333
-    active_days: 6
+    pushes: 2
+    distinct_repos: 2
+    pushes_per_repo: 1.0000
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 6 active days in 90d — pass"
+  - "activity: 2 active days in 90d — below the 5-day line, LABELLED low-n (never suppressed)"
   - "automation: clear — pass"
 repos:
   - name: "garden-skills"
@@ -89,8 +89,32 @@ repos:
       - "rag"
       - "skills"
       - "web-design"
-    stars_fact: 12108
+    stars_fact: 12591
     first_seen: "2026-08-27T06:00:05.568199+00:00"
+    last_push: "2026-07-12"
+  - name: "easy-llm-cli"
+    title: "easy-llm-cli"
+    description: "An open-source AI agent that is compatible with multiple LLM models"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 1318
+    first_seen: null
+    last_push: "2026-02-05"
+  - name: "easy-agent"
+    title: "easy-agent"
+    description: "Fully recreating Claude Code from scratch, so anyone can learn how it works."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 1000
+    first_seen: null
+    last_push: "2026-09-18"
+  - name: "easy-learn-ai"
+    title: "easy-learn-ai"
+    description: "Easy-to-understand AI learning resources for beginners."
+    language: "HTML"
+    topics: []
+    stars_fact: 1411
+    first_seen: null
     last_push: "2026-07-12"
   - name: "easy-dataset"
     title: "easy-dataset"
@@ -102,45 +126,21 @@ repos:
       - "javascript"
       - "llm"
       - "rag"
-    stars_fact: 14877
+    stars_fact: 14946
     first_seen: null
     last_push: "2026-05-01"
-  - name: "easy-llm-cli"
-    title: "easy-llm-cli"
-    description: "An open-source AI agent that is compatible with multiple LLM models"
+  - name: "reacticle"
+    title: "reacticle"
+    description: "An HTML article protocol for the AI era — instead of letting AI hand-write raw HTML, give it a constrained, semantic React component contract that produces stable, beautiful, interactive, self-contained HTML articles and reports."
     language: "TypeScript"
     topics: []
-    stars_fact: 1321
+    stars_fact: 87
     first_seen: null
-    last_push: "2026-02-05"
-  - name: "easy-learn-ai"
-    title: "easy-learn-ai"
-    description: "Easy-to-understand AI learning resources for beginners."
-    language: "HTML"
-    topics: []
-    stars_fact: 1397
-    first_seen: null
-    last_push: "2026-07-12"
-  - name: "easy-agent"
-    title: "easy-agent"
-    description: "Fully recreating Claude Code from scratch, so anyone can learn how it works."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 989
-    first_seen: null
-    last_push: "2026-08-16"
-  - name: "rag-skill"
-    title: "rag-skill"
-    description: "A Skill dedicated to local knowledge base retrieval"
-    language: "Python"
-    topics: []
-    stars_fact: 711
-    first_seen: null
-    last_push: "2026-04-25"
+    last_push: "2026-06-10"
 ---
 
 # ConardLi
 
-14 pushes across 6 repositories on 6 active days in the last 90 days of public GitHub push activity.
+2 pushes across 2 repositories on 2 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ConardLi

@@ -8,11 +8,11 @@ provenance_repos:
   - "chopratejas/headroom"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+repos_populated: false
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "73468cde177ddae6"
-pushes_per_week: [0, 0, 7, 1, 0, 9, 5, 5, 1, 5, 0, 1, 0]
+pushes_per_week: [3, 1, 4, 9, 5, 2, 4, 1, 1, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 6
-    distinct_repos: 1
-    active_days: 3
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 34
+    pushes: 30
     distinct_repos: 2
-    active_days: 18
+    active_days: 15
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.8889
-  repo_per_active_day: 0.1111
+  push_per_day: 2.0000
+  repo_per_active_day: 0.1333
   not_owned_ratio: 0.0000
   basename_concentration: 0.5000
   shapes: []
@@ -57,78 +57,30 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 6
-    distinct_repos: 1
-    pushes_per_repo: 6.0000
-    active_days: 3
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 34
+    pushes: 30
     distinct_repos: 2
-    pushes_per_repo: 17.0000
-    active_days: 18
+    pushes_per_repo: 15.0000
+    active_days: 15
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 18 active days in 90d — pass"
+  - "activity: 15 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "AlphaZero-Gomoku"
-    title: "AlphaZero-Gomoku"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-05-17"
-  - name: "P4AIDS-EDA"
-    title: "P4AIDS-EDA"
-    description: null
-    language: "Jupyter Notebook"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-05-01"
-  - name: "ViLipSync"
-    title: "ViLipSync"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-04-19"
-  - name: "P4AIDS-EDA-Tabular"
-    title: "P4AIDS-EDA-Tabular"
-    description: null
-    language: "Jupyter Notebook"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-04-01"
-  - name: "APAssignment2-Real-time-Stock-Monitoring-System"
-    title: "APAssignment2-Real-time-Stock-Monitoring-System"
-    description: null
-    language: "Java"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2025-03-24"
-  - name: "multiLLM-crossCheck-mcp-server"
-    title: "multiLLM-crossCheck-mcp-server"
-    description: "Mirror of https://github.com/lior-ps/multi-llm-cross-check-mcp-server"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2025-11-15"
+repos: []
 ---
 
 # nangsontay
 
-34 pushes across 2 repositories on 18 active days in the last 90 days of public GitHub push activity.
+30 pushes across 2 repositories on 15 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/nangsontay

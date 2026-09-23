@@ -10,39 +10,39 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "16389f32495280ea"
   - "edb3a626875732de"
-pushes_per_week: [0, 0, 4, 6, 19, 49, 0, 0, 0, 0, 2, 0, 0]
+pushes_per_week: [5, 8, 57, 8, 0, 0, 0, 2, 0, 0, 0, 0, 6]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
+    pushes: 6
+    distinct_repos: 4
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 2
-    distinct_repos: 1
+    pushes: 6
+    distinct_repos: 4
     active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 80
-    distinct_repos: 18
-    active_days: 18
+    pushes: 86
+    distinct_repos: 19
+    active_days: 19
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 4.4444
+  push_per_day: 4.5263
   repo_per_active_day: 1.0000
   not_owned_ratio: 0.0000
-  basename_concentration: 0.0556
+  basename_concentration: 0.0526
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -51,32 +51,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
+    pushes: 6
+    distinct_repos: 4
+    pushes_per_repo: 1.5000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 2
-    distinct_repos: 1
-    pushes_per_repo: 2.0000
+    pushes: 6
+    distinct_repos: 4
+    pushes_per_repo: 1.5000
     active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 80
-    distinct_repos: 18
-    pushes_per_repo: 4.4444
-    active_days: 18
+    pushes: 86
+    distinct_repos: 19
+    pushes_per_repo: 4.5263
+    active_days: 19
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 18 active days in 90d — pass"
+  - "activity: 19 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "PoseMamba"
@@ -91,7 +91,7 @@ repos:
       - "pose-estimation"
       - "pytorch"
       - "ssm"
-    stars_fact: 108
+    stars_fact: 111
     first_seen: null
     last_push: "2026-06-26"
   - name: "agent-web-superpower"
@@ -130,6 +130,6 @@ repos:
 
 # nankingjing
 
-80 pushes across 18 repositories on 18 active days in the last 90 days of public GitHub push activity.
+86 pushes across 19 repositories on 19 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/nankingjing

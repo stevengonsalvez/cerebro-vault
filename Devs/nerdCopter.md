@@ -8,39 +8,39 @@ provenance_repos:
   - "abhigyanpatwari/GitNexus"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+repos_populated: false
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [45, 12, 21, 22, 16, 7, 19, 14, 2, 11, 3, 0, 2]
+pushes_per_week: [24, 15, 13, 11, 20, 7, 2, 12, 0, 1, 1, 6, 9]
 windows:
   "7d":
-    pushes: 2
-    distinct_repos: 2
-    active_days: 2
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
-  "30d":
-    pushes: 16
-    distinct_repos: 7
-    active_days: 6
+    pushes: 9
+    distinct_repos: 6
+    active_days: 5
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
+  "30d":
+    pushes: 17
+    distinct_repos: 11
+    active_days: 10
+    repos_not_owned: 2
+    not_owned_basenames: 2
+    not_owned_owners: 2
   "90d":
-    pushes: 174
-    distinct_repos: 18
-    active_days: 50
-    repos_not_owned: 4
-    not_owned_basenames: 4
+    pushes: 121
+    distinct_repos: 19
+    active_days: 46
+    repos_not_owned: 5
+    not_owned_basenames: 5
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 3.4800
-  repo_per_active_day: 0.3600
-  not_owned_ratio: 0.2222
-  basename_concentration: 0.1111
+  push_per_day: 2.6304
+  repo_per_active_day: 0.4130
+  not_owned_ratio: 0.2632
+  basename_concentration: 0.1053
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,86 +49,38 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
-    distinct_repos: 2
-    pushes_per_repo: 1.0000
-    active_days: 2
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
-  "30d":
-    pushes: 16
-    distinct_repos: 7
-    pushes_per_repo: 2.2857
-    active_days: 6
+    pushes: 9
+    distinct_repos: 6
+    pushes_per_repo: 1.5000
+    active_days: 5
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
+  "30d":
+    pushes: 17
+    distinct_repos: 11
+    pushes_per_repo: 1.5455
+    active_days: 10
+    repos_not_owned: 2
+    not_owned_basenames: 2
+    not_owned_owners: 2
   "90d":
-    pushes: 174
-    distinct_repos: 18
-    pushes_per_repo: 9.6667
-    active_days: 50
-    repos_not_owned: 4
-    not_owned_basenames: 4
+    pushes: 121
+    distinct_repos: 19
+    pushes_per_repo: 6.3684
+    active_days: 46
+    repos_not_owned: 5
+    not_owned_basenames: 5
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 50 active days in 90d — pass"
+  - "activity: 46 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "BlackBox_CSV_Render"
-    title: "BlackBox_CSV_Render"
-    description: null
-    language: "Rust"
-    topics: []
-    stars_fact: 4
-    first_seen: null
-    last_push: "2026-09-02"
-  - name: "bbl_parser"
-    title: "bbl_parser"
-    description: null
-    language: "Rust"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-02"
-  - name: "ELRS-Finder-Pro"
-    title: "ELRS-Finder-Pro"
-    description: "Lost-model finder for ExpressLRS/EdgeTX with automatic TX power management"
-    language: "Lua"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-31"
-  - name: "copilot-prompts"
-    title: "copilot-prompts"
-    description: "VS Code Copilot prompt/instructions repository: agents, skills, instructions, and prompt files for advanced Copilot customization."
-    language: "Shell"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-08-03"
-  - name: "target-convert"
-    title: "target-convert"
-    description: "bf to ef target converter script"
-    language: "Shell"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-02"
-  - name: "XPS-hibernate"
-    title: "XPS-hibernate"
-    description: null
-    language: "Shell"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-06-12"
+repos: []
 ---
 
 # nerdCopter
 
-174 pushes across 18 repositories on 50 active days in the last 90 days of public GitHub push activity.
+121 pushes across 19 repositories on 46 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/nerdCopter

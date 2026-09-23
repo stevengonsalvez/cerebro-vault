@@ -12,40 +12,40 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "06b6387dd3484f1c"
   - "c133b93b912dffd6"
   - "de6bf05613f3ae04"
-pushes_per_week: [21, 0, 11, 3, 6, 6, 4, 5, 4, 13, 1, 1, 1]
+pushes_per_week: [3, 3, 6, 5, 3, 7, 9, 6, 1, 1, 0, 2, 4]
 windows:
   "7d":
-    pushes: 1
+    pushes: 4
     distinct_repos: 1
-    active_days: 1
+    active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 17
+    pushes: 8
     distinct_repos: 1
-    active_days: 8
+    active_days: 7
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 76
-    distinct_repos: 5
-    active_days: 33
-    repos_not_owned: 4
-    not_owned_basenames: 4
-    not_owned_owners: 3
+    pushes: 50
+    distinct_repos: 4
+    active_days: 31
+    repos_not_owned: 3
+    not_owned_basenames: 3
+    not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 2.3030
-  repo_per_active_day: 0.1515
-  not_owned_ratio: 0.8000
-  basename_concentration: 0.4000
+  push_per_day: 1.6129
+  repo_per_active_day: 0.1290
+  not_owned_ratio: 0.7500
+  basename_concentration: 0.5000
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -54,92 +54,86 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
+    pushes: 4
     distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes_per_repo: 4.0000
+    active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 17
+    pushes: 8
     distinct_repos: 1
-    pushes_per_repo: 17.0000
-    active_days: 8
+    pushes_per_repo: 8.0000
+    active_days: 7
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 76
-    distinct_repos: 5
-    pushes_per_repo: 15.2000
-    active_days: 33
-    repos_not_owned: 4
-    not_owned_basenames: 4
-    not_owned_owners: 3
+    pushes: 50
+    distinct_repos: 4
+    pushes_per_repo: 12.5000
+    active_days: 31
+    repos_not_owned: 3
+    not_owned_basenames: 3
+    not_owned_owners: 2
 reasons:
   - "provenance: 3 vault signal(s) — pass"
-  - "activity: 33 active days in 90d — pass"
+  - "activity: 31 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "sitegeist"
-    title: "sitegeist"
-    description: "An AI assistant that lives in your browser. Built for collaboration, not autonomy theater. You guide, it executes. Automate repetitive web tasks, extract data from any website, and transform it into whatever you need."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 786
-    first_seen: null
-    last_push: "2026-03-18"
-  - name: "yakety"
-    title: "yakety"
-    description: "Voice recording and transcription app"
-    language: "C"
-    topics: []
-    stars_fact: 119
-    first_seen: null
-    last_push: "2026-02-01"
-  - name: "pi-telegram"
-    title: "pi-telegram"
-    description: "Telegram DM bridge extension for pi"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 289
-    first_seen: null
-    last_push: "2026-04-04"
   - name: "pi-skills"
     title: "pi-skills"
     description: "Skills for pi coding agent (compatible with Claude Code and Codex CLI)"
     language: "JavaScript"
     topics: []
-    stars_fact: 2481
+    stars_fact: 2554
     first_seen: null
     last_push: "2026-06-06"
-  - name: "r96"
-    title: "r96"
-    description: "Repository for the blog post series \"Rendering like it's 1996\""
-    language: "C"
-    topics:
-      - "emscripten"
-      - "game-development"
-      - "game-engine"
-      - "game-engine-framework"
-      - "graphics-programming"
-      - "webassembly"
-    stars_fact: 172
-    first_seen: null
-    last_push: "2023-01-28"
-  - name: "blargh"
-    title: "blargh"
-    description: "Static site generator, 23423th attempt, this time in TypeScript/Node"
+  - name: "sitegeist"
+    title: "sitegeist"
+    description: "An AI assistant that lives in your browser. Built for collaboration, not autonomy theater. You guide, it executes. Automate repetitive web tasks, extract data from any website, and transform it into whatever you need."
     language: "TypeScript"
     topics: []
-    stars_fact: 28
+    stars_fact: 849
     first_seen: null
-    last_push: "2025-11-30"
+    last_push: "2026-03-18"
+  - name: "lemmy"
+    title: "lemmy"
+    description: "Wrapper around tool using LLMs for agentic workflows"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 1640
+    first_seen: null
+    last_push: "2025-08-13"
+  - name: "pi-telegram"
+    title: "pi-telegram"
+    description: "Telegram DM bridge extension for pi"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 301
+    first_seen: null
+    last_push: "2026-04-04"
+  - name: "claude-commands"
+    title: "claude-commands"
+    description: "Global Claude Code commands and workflows"
+    language: null
+    topics: []
+    stars_fact: 523
+    first_seen: null
+    last_push: "2025-08-11"
+  - name: "vs-claude"
+    title: "vs-claude"
+    description: "VS Code extension and MCP server so Claude Code can open files, diffs and manipulate VS Code in other ways."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 42
+    first_seen: null
+    last_push: "2025-08-11"
 ---
 
 # badlogic
 
-76 pushes across 5 repositories on 33 active days in the last 90 days of public GitHub push activity.
+50 pushes across 4 repositories on 31 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/badlogic

@@ -9,22 +9,22 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "ae05babd8ff3098f"
-pushes_per_week: [0, 1, 1, 0, 0, 0, 0, 1, 0, 0, 2, 0, 0]
+pushes_per_week: [1, 0, 0, 0, 1, 0, 0, 2, 0, 0, 0, 0, 1]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 2
+    pushes: 1
     distinct_repos: 1
-    active_days: 2
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,18 +49,18 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
+    pushes: 1
+    distinct_repos: 1
+    pushes_per_repo: 1.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 2
+    pushes: 1
     distinct_repos: 1
-    pushes_per_repo: 2.0000
-    active_days: 2
+    pushes_per_repo: 1.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -77,6 +77,14 @@ reasons:
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "datapipeline-ocr"
+    title: "datapipeline-ocr"
+    description: "Data pipeline for OCR"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-19"
   - name: "encoder-experiments"
     title: "encoder-experiments"
     description: null
@@ -85,14 +93,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-08-19"
-  - name: "datapipeline-ocr"
-    title: "datapipeline-ocr"
-    description: "Data pipeline for OCR"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-18"
   - name: "pytorch-tutorial"
     title: "pytorch-tutorial"
     description: "PyTorch basics"

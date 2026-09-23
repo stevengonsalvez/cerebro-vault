@@ -8,37 +8,37 @@ provenance_repos:
   - "akitaonrails/ai-memory"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+repos_populated: false
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "4138778ebbc75ba6"
-pushes_per_week: [5, 0, 0, 2, 1, 2, 0, 0, 2, 1, 0, 0, 1]
+pushes_per_week: [0, 3, 1, 1, 0, 0, 2, 1, 0, 1, 0, 0, 0]
 windows:
   "7d":
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
+  "30d":
     pushes: 1
     distinct_repos: 1
     active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
-  "30d":
-    pushes: 4
-    distinct_repos: 2
-    active_days: 3
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
   "90d":
-    pushes: 14
+    pushes: 9
     distinct_repos: 4
-    active_days: 10
+    active_days: 7
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.4000
-  repo_per_active_day: 0.4000
+  push_per_day: 1.2857
+  repo_per_active_day: 0.5714
   not_owned_ratio: 0.2500
   basename_concentration: 0.2500
   shapes: []
@@ -49,6 +49,14 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
+  "30d":
     pushes: 1
     distinct_repos: 1
     pushes_per_repo: 1.0000
@@ -56,87 +64,23 @@ facets:
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
-  "30d":
-    pushes: 4
-    distinct_repos: 2
-    pushes_per_repo: 2.0000
-    active_days: 3
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
   "90d":
-    pushes: 14
+    pushes: 9
     distinct_repos: 4
-    pushes_per_repo: 3.5000
-    active_days: 10
+    pushes_per_repo: 2.2500
+    active_days: 7
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 10 active days in 90d — pass"
+  - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "quarterdeck"
-    title: "quarterdeck"
-    description: "Quarterdeck - central command panel for fleet state, deck and shipshape"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-02"
-  - name: "jTDS"
-    title: "jTDS"
-    description: "jTDS JDBC Driver"
-    language: "Java"
-    topics:
-      - "java"
-      - "jdbc"
-      - "jdbc-driver"
-    stars_fact: 84
-    first_seen: null
-    last_push: "2024-03-07"
-  - name: "task-management"
-    title: "task-management"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-01-23"
-  - name: "b3"
-    title: "b3"
-    description: "Market Data | B3"
-    language: "JavaScript"
-    topics:
-      - "b3"
-      - "bovespa"
-      - "exchange"
-      - "market"
-      - "stock"
-    stars_fact: 5
-    first_seen: null
-    last_push: "2022-03-26"
-  - name: "noh-ek"
-    title: "noh-ek"
-    description: "venus"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2023-03-07"
-  - name: "post-it-in"
-    title: "post-it-in"
-    description: null
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2023-04-22"
+repos: []
 ---
 
 # milesibastos
 
-14 pushes across 4 repositories on 10 active days in the last 90 days of public GitHub push activity.
+9 pushes across 4 repositories on 7 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/milesibastos

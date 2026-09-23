@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "0388a4f55f4206c8"
   - "0577669e18ed3998"
@@ -26,35 +26,35 @@ provenance:
   - "c6b4a874521ceb02"
   - "cf565721454d59f8"
   - "e26852201e6f38fc"
-pushes_per_week: [7, 7, 0, 1, 5, 11, 14, 4, 4, 26, 7, 1, 0]
+pushes_per_week: [0, 1, 6, 16, 10, 4, 2, 32, 2, 0, 0, 0, 1]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "30d":
-    pushes: 36
-    distinct_repos: 3
-    active_days: 9
+    pushes: 2
+    distinct_repos: 1
+    active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 87
-    distinct_repos: 11
-    active_days: 35
+    pushes: 74
+    distinct_repos: 10
+    active_days: 28
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 2.4857
-  repo_per_active_day: 0.3143
-  not_owned_ratio: 0.3636
-  basename_concentration: 0.1818
+  push_per_day: 2.6429
+  repo_per_active_day: 0.3571
+  not_owned_ratio: 0.4000
+  basename_concentration: 0.2000
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -63,50 +63,74 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    pushes: 1
+    distinct_repos: 1
+    pushes_per_repo: 1.0000
+    active_days: 1
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "30d":
-    pushes: 36
-    distinct_repos: 3
-    pushes_per_repo: 12.0000
-    active_days: 9
+    pushes: 2
+    distinct_repos: 1
+    pushes_per_repo: 2.0000
+    active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 87
-    distinct_repos: 11
-    pushes_per_repo: 7.9091
-    active_days: 35
+    pushes: 74
+    distinct_repos: 10
+    pushes_per_repo: 7.4000
+    active_days: 28
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 2
 reasons:
   - "provenance: 15 vault signal(s) — pass"
-  - "activity: 35 active days in 90d — pass"
+  - "activity: 28 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "fracturedjson-rs"
-    title: "fracturedjson-rs"
-    description: null
-    language: "Rust"
-    topics: []
-    stars_fact: 40
-    first_seen: null
-    last_push: "2026-01-17"
   - name: "tsql"
     title: "tsql"
     description: "🐘 tsql — A modern PostgreSQL and MongoDB manager TUI"
     language: "Rust"
     topics: []
-    stars_fact: 457
+    stars_fact: 462
     first_seen: null
     last_push: "2026-08-15"
+  - name: "local-models"
+    title: "local-models"
+    description: null
+    language: "Shell"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-19"
+  - name: "config"
+    title: "config"
+    description: null
+    language: "Shell"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-15"
+  - name: "fatsecret-mcp"
+    title: "fatsecret-mcp"
+    description: "🍽️ MCP server to access to the FatSecret API."
+    language: "JavaScript"
+    topics: []
+    stars_fact: 9
+    first_seen: null
+    last_push: "2025-07-17"
+  - name: "fracturedjson-rs"
+    title: "fracturedjson-rs"
+    description: null
+    language: "Rust"
+    topics: []
+    stars_fact: 41
+    first_seen: null
+    last_push: "2026-01-17"
   - name: "conductor"
     title: "conductor"
     description: null
@@ -115,34 +139,10 @@ repos:
     stars_fact: 27
     first_seen: null
     last_push: "2025-12-23"
-  - name: "local-models"
-    title: "local-models"
-    description: null
-    language: "Shell"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-30"
-  - name: "meda"
-    title: "meda"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-27"
-  - name: "config"
-    title: "config"
-    description: null
-    language: "Shell"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-08-23"
 ---
 
 # fcoury
 
-87 pushes across 11 repositories on 35 active days in the last 90 days of public GitHub push activity.
+74 pushes across 10 repositories on 28 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/fcoury

@@ -8,39 +8,39 @@ provenance_repos:
   - "AstrBotDevs/AstrBot"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+repos_populated: false
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [85, 39, 108, 119, 43, 25, 11, 27, 21, 79, 32, 16, 3]
+pushes_per_week: [148, 69, 26, 18, 23, 14, 41, 69, 26, 9, 3, 99, 295]
 windows:
   "7d":
-    pushes: 5
-    distinct_repos: 3
-    active_days: 2
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    pushes: 306
+    distinct_repos: 12
+    active_days: 7
+    repos_not_owned: 5
+    not_owned_basenames: 4
+    not_owned_owners: 2
   "30d":
-    pushes: 144
-    distinct_repos: 18
-    active_days: 21
-    repos_not_owned: 3
-    not_owned_basenames: 3
+    pushes: 410
+    distinct_repos: 17
+    active_days: 22
+    repos_not_owned: 5
+    not_owned_basenames: 4
     not_owned_owners: 2
   "90d":
-    pushes: 608
-    distinct_repos: 45
+    pushes: 840
+    distinct_repos: 41
     active_days: 75
-    repos_not_owned: 7
-    not_owned_basenames: 6
-    not_owned_owners: 5
+    repos_not_owned: 11
+    not_owned_basenames: 8
+    not_owned_owners: 7
 automation:
   state: "clear"
-  push_per_day: 8.1067
-  repo_per_active_day: 0.6000
-  not_owned_ratio: 0.1556
-  basename_concentration: 0.0667
+  push_per_day: 11.2000
+  repo_per_active_day: 0.5467
+  not_owned_ratio: 0.2683
+  basename_concentration: 0.1220
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,99 +49,38 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 5
-    distinct_repos: 3
-    pushes_per_repo: 1.6667
-    active_days: 2
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    pushes: 306
+    distinct_repos: 12
+    pushes_per_repo: 25.5000
+    active_days: 7
+    repos_not_owned: 5
+    not_owned_basenames: 4
+    not_owned_owners: 2
   "30d":
-    pushes: 144
-    distinct_repos: 18
-    pushes_per_repo: 8.0000
-    active_days: 21
-    repos_not_owned: 3
-    not_owned_basenames: 3
+    pushes: 410
+    distinct_repos: 17
+    pushes_per_repo: 24.1176
+    active_days: 22
+    repos_not_owned: 5
+    not_owned_basenames: 4
     not_owned_owners: 2
   "90d":
-    pushes: 608
-    distinct_repos: 45
-    pushes_per_repo: 13.5111
+    pushes: 840
+    distinct_repos: 41
+    pushes_per_repo: 20.4878
     active_days: 75
-    repos_not_owned: 7
-    not_owned_basenames: 6
-    not_owned_owners: 5
+    repos_not_owned: 11
+    not_owned_basenames: 8
+    not_owned_owners: 7
 reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 75 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "MagicMihomo"
-    title: "MagicMihomo"
-    description: "MagicNet-mihomo"
-    language: "HTML"
-    topics: []
-    stars_fact: 11
-    first_seen: null
-    last_push: "2026-09-03"
-  - name: "lightjunction"
-    title: "lightjunction"
-    description: "I'M LIghtJUNction"
-    language: "TypeScript"
-    topics:
-      - "agent"
-      - "agent-skills"
-      - "ai"
-      - "android"
-      - "bash"
-      - "openpgp"
-      - "shell-script"
-      - "termux"
-      - "typescript"
-      - "vite"
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-09-02"
-  - name: "MagicNet"
-    title: "MagicNet"
-    description: "Consciously set all groups to block"
-    language: "Shell"
-    topics: []
-    stars_fact: 159
-    first_seen: null
-    last_push: "2026-09-03"
-  - name: "api.lmm.best"
-    title: "api.lmm.best"
-    description: "Global-oriented AI open source collaborative incentive platform"
-    language: "Go"
-    topics: []
-    stars_fact: 12
-    first_seen: null
-    last_push: "2026-09-02"
-  - name: "cortexfs"
-    title: "cortexfs"
-    description: "“Everything is a file” for the AGI era — an agent framework masquerading as a POSIX file system for LLM context, memory, and reasoning."
-    language: "Rust"
-    topics:
-      - "agent"
-      - "fuse"
-      - "linux"
-    stars_fact: 4
-    first_seen: null
-    last_push: "2026-09-01"
-  - name: "matchplane"
-    title: "matchplane"
-    description: "Federated marketplace with explainable matching and isolated payments"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-08-31"
+repos: []
 ---
 
 # LIghtJUNction
 
-608 pushes across 45 repositories on 75 active days in the last 90 days of public GitHub push activity.
+840 pushes across 41 repositories on 75 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/LIghtJUNction

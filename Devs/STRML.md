@@ -8,39 +8,39 @@ provenance_repos:
   - "can1357/oh-my-pi"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+repos_populated: false
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [6, 10, 0, 2, 4, 1, 2, 11, 12, 10, 1, 4, 0]
+pushes_per_week: [2, 2, 3, 2, 5, 17, 7, 5, 4, 0, 1, 12, 8]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
+    pushes: 9
+    distinct_repos: 3
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 15
-    distinct_repos: 5
-    active_days: 7
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    pushes: 25
+    distinct_repos: 9
+    active_days: 12
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "90d":
-    pushes: 63
-    distinct_repos: 13
-    active_days: 30
+    pushes: 68
+    distinct_repos: 17
+    active_days: 32
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 2.1000
-  repo_per_active_day: 0.4333
-  not_owned_ratio: 0.3077
-  basename_concentration: 0.1538
+  push_per_day: 2.1250
+  repo_per_active_day: 0.5312
+  not_owned_ratio: 0.2353
+  basename_concentration: 0.1176
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,88 +49,38 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
+    pushes: 9
+    distinct_repos: 3
+    pushes_per_repo: 3.0000
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 15
-    distinct_repos: 5
-    pushes_per_repo: 3.0000
-    active_days: 7
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    pushes: 25
+    distinct_repos: 9
+    pushes_per_repo: 2.7778
+    active_days: 12
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "90d":
-    pushes: 63
-    distinct_repos: 13
-    pushes_per_repo: 4.8462
-    active_days: 30
+    pushes: 68
+    distinct_repos: 17
+    pushes_per_repo: 4.0000
+    active_days: 32
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 30 active days in 90d — pass"
+  - "activity: 32 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "strml.net"
-    title: "strml.net"
-    description: "STRML: Projects & Work"
-    language: "JavaScript"
-    topics:
-      - "homepage"
-      - "javascript"
-    stars_fact: 2640
-    first_seen: null
-    last_push: "2023-03-04"
-  - name: "cc-debate"
-    title: "cc-debate"
-    description: "Multi-AI Plan Debate Skill for Claude Code. Rope in Codex and Gemini to make your plans rock-solid."
-    language: "Shell"
-    topics: []
-    stars_fact: 9
-    first_seen: null
-    last_push: "2026-08-14"
-  - name: "omp-classifier"
-    title: "omp-classifier"
-    description: "Model-judged permission gate for OMP: classifies bash commands and spawn-bearing eval payloads before they run, prompts on risk, fails closed"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-01"
-  - name: "textFit"
-    title: "textFit"
-    description: "A jQuery-free component that quickly fits single and multi-line text to the width (and optionally height) of its container."
-    language: "JavaScript"
-    topics: []
-    stars_fact: 686
-    first_seen: null
-    last_push: "2023-01-29"
-  - name: "cc-autodream"
-    title: "cc-autodream"
-    description: "Nightly cross-session pattern analyzer for Claude Code. Reads yesterday's session transcripts, ranks recurring patterns (missed skills, sandbox friction, fabricated IDs), writes a daily report, and pin-marks high-confidence findings into project MEMORY.md. Symbiotic with cc-simple-memory / built-in Auto Dream."
-    language: "Shell"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-26"
-  - name: "omp-autodream"
-    title: "omp-autodream"
-    description: null
-    language: "Shell"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-25"
+repos: []
 ---
 
 # STRML
 
-63 pushes across 13 repositories on 30 active days in the last 90 days of public GitHub push activity.
+68 pushes across 17 repositories on 32 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/STRML

@@ -8,37 +8,37 @@ provenance_repos:
   - "alibaba/open-code-review"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+repos_populated: false
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "c489e6fb5febf2ab"
-pushes_per_week: [0, 0, 0, 2, 6, 28, 9, 5, 5, 10, 0, 3, 0]
+pushes_per_week: [1, 1, 20, 19, 5, 5, 8, 6, 3, 0, 1, 0, 6]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
+    pushes: 6
+    distinct_repos: 1
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 16
-    distinct_repos: 6
-    active_days: 8
-    repos_not_owned: 2
-    not_owned_basenames: 2
-    not_owned_owners: 2
+    pushes: 8
+    distinct_repos: 1
+    active_days: 6
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
-    pushes: 68
+    pushes: 75
     distinct_repos: 11
-    active_days: 29
+    active_days: 34
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 2.3448
-  repo_per_active_day: 0.3793
+  push_per_day: 2.2059
+  repo_per_active_day: 0.3235
   not_owned_ratio: 0.3636
   basename_concentration: 0.0909
   shapes: []
@@ -49,62 +49,38 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
+    pushes: 6
+    distinct_repos: 1
+    pushes_per_repo: 6.0000
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 16
-    distinct_repos: 6
-    pushes_per_repo: 2.6667
-    active_days: 8
-    repos_not_owned: 2
-    not_owned_basenames: 2
-    not_owned_owners: 2
+    pushes: 8
+    distinct_repos: 1
+    pushes_per_repo: 8.0000
+    active_days: 6
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
-    pushes: 68
+    pushes: 75
     distinct_repos: 11
-    pushes_per_repo: 6.1818
-    active_days: 29
+    pushes_per_repo: 6.8182
+    active_days: 34
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 29 active days in 90d — pass"
+  - "activity: 34 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "Qiyuanqiii"
-    title: "Qiyuanqiii"
-    description: "Profile README · Go · AI Agents · Cybersecurity · Open Source"
-    language: null
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-09-02"
-  - name: "codex-401-doctor"
-    title: "codex-401-doctor"
-    description: "Diagnose and repair common Codex 401 Unauthorized issues on Windows"
-    language: "PowerShell"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-08-29"
-  - name: "Jump-Terminator"
-    title: "Jump-Terminator"
-    description: "Jump Terminator Android 跨应用跳转控制工具（S0 技术可行性验证）"
-    language: "Python"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-08-09"
+repos: []
 ---
 
 # Qiyuanqiii
 
-68 pushes across 11 repositories on 29 active days in the last 90 days of public GitHub push activity.
+75 pushes across 11 repositories on 34 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Qiyuanqiii

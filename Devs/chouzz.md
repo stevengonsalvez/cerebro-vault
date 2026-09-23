@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [3, 0, 3, 0, 0, 1, 0, 2, 15, 0, 1, 1, 0]
+pushes_per_week: [0, 0, 1, 0, 2, 0, 15, 1, 1, 0, 0, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,25 +22,25 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 17
-    distinct_repos: 3
-    active_days: 5
+    pushes: 2
+    distinct_repos: 2
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 26
-    distinct_repos: 6
-    active_days: 10
+    pushes: 21
+    distinct_repos: 4
+    active_days: 9
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.6000
-  repo_per_active_day: 0.6000
+  push_per_day: 2.3333
+  repo_per_active_day: 0.4444
   not_owned_ratio: 0.0000
-  basename_concentration: 0.1667
+  basename_concentration: 0.2500
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -57,50 +57,50 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 17
-    distinct_repos: 3
-    pushes_per_repo: 5.6667
-    active_days: 5
+    pushes: 2
+    distinct_repos: 2
+    pushes_per_repo: 1.0000
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 26
-    distinct_repos: 6
-    pushes_per_repo: 4.3333
-    active_days: 10
+    pushes: 21
+    distinct_repos: 4
+    pushes_per_repo: 5.2500
+    active_days: 9
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 10 active days in 90d — pass"
+  - "activity: 9 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "minecraft-mod-dev"
-    title: "minecraft-mod-dev"
-    description: "Claude Code skill for Minecraft mod development with NeoForge/Fabric support and inter-mod integration (JEI/AE2/Create)"
-    language: "Shell"
-    topics: []
-    stars_fact: 16
-    first_seen: null
-    last_push: "2026-08-07"
   - name: "llm-interceptor"
     title: "llm-interceptor"
     description: "A MITM proxy tool to intercept, analyze and log AI coding assistant (Claude Code, Open Code, etc.) communications with LLM APIs"
     language: "Python"
     topics: []
-    stars_fact: 70
+    stars_fact: 72
     first_seen: null
-    last_push: "2026-09-02"
+    last_push: "2026-09-07"
   - name: "remoteShell-mcp"
     title: "remoteShell-mcp"
     description: "A Model Context Protocol (MCP) server that enables AI models to manage SSH connections and execute commands on remote machines without repeatedly entering credentials."
     language: "Python"
     topics: []
-    stars_fact: 1
+    stars_fact: 2
     first_seen: null
-    last_push: "2026-08-31"
+    last_push: "2026-09-14"
+  - name: "minecraft-mod-dev"
+    title: "minecraft-mod-dev"
+    description: "Claude Code skill for Minecraft mod development with NeoForge/Fabric support and inter-mod integration (JEI/AE2/Create)"
+    language: "Shell"
+    topics: []
+    stars_fact: 17
+    first_seen: null
+    last_push: "2026-08-07"
   - name: "vscode-better-align"
     title: "vscode-better-align"
     description: "Better vertical alignment with/without selection in any language."
@@ -132,6 +132,6 @@ repos:
 
 # chouzz
 
-26 pushes across 6 repositories on 10 active days in the last 90 days of public GitHub push activity.
+21 pushes across 4 repositories on 9 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/chouzz

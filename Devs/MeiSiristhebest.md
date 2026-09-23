@@ -10,39 +10,39 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "16389f32495280ea"
   - "c489e6fb5febf2ab"
-pushes_per_week: [2, 4, 1, 0, 0, 5, 20, 37, 2, 9, 1, 5, 0]
+pushes_per_week: [0, 0, 5, 19, 1, 37, 2, 9, 6, 0, 2, 1, 10]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
-  "30d":
-    pushes: 15
-    distinct_repos: 9
+    pushes: 10
+    distinct_repos: 2
     active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
+  "30d":
+    pushes: 18
+    distinct_repos: 8
+    active_days: 9
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
-    pushes: 86
-    distinct_repos: 17
-    active_days: 17
+    pushes: 92
+    distinct_repos: 19
+    active_days: 22
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 5.0588
-  repo_per_active_day: 1.0000
+  push_per_day: 4.1818
+  repo_per_active_day: 0.8636
   not_owned_ratio: 0.0000
-  basename_concentration: 0.0588
+  basename_concentration: 0.0526
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -51,32 +51,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
-  "30d":
-    pushes: 15
-    distinct_repos: 9
-    pushes_per_repo: 1.6667
+    pushes: 10
+    distinct_repos: 2
+    pushes_per_repo: 5.0000
     active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
+  "30d":
+    pushes: 18
+    distinct_repos: 8
+    pushes_per_repo: 2.2500
+    active_days: 9
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
-    pushes: 86
-    distinct_repos: 17
-    pushes_per_repo: 5.0588
-    active_days: 17
+    pushes: 92
+    distinct_repos: 19
+    pushes_per_repo: 4.8421
+    active_days: 22
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 17 active days in 90d — pass"
+  - "activity: 22 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "MeiSiristhebest"
@@ -86,38 +86,7 @@ repos:
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-09-03"
-  - name: "pixelForge"
-    title: "pixelForge"
-    description: "AI-Powered Pixel Character Generator SaaS Platform"
-    language: "TypeScript"
-    topics:
-      - "ai"
-      - "image-generation"
-      - "pixel-art"
-      - "saas"
-      - "typescript"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-03"
-  - name: "recipe-planner-app"
-    title: "recipe-planner-app"
-    description: "Cross-platform meal planning, recipe sharing & smart shopping list assistant (Next.js + React Native + Prisma)"
-    language: "TypeScript"
-    topics:
-      - "expo"
-      - "meal-planner"
-      - "monorepo"
-      - "nextjs"
-      - "postgresql"
-      - "prisma"
-      - "react-native"
-      - "recipe"
-      - "turborepo"
-      - "typescript"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-03"
+    last_push: "2026-09-23"
   - name: "opencontrib"
     title: "opencontrib"
     description: "The Agent-Native Open Source Contribution Engine — 6-Dimension Weapon Arsenal, 24-Command CLI, Top-K Smart Pointer Triage, 20 MCP Tools & Worktree Sandbox"
@@ -133,7 +102,24 @@ repos:
       - "typescript"
     stars_fact: 1
     first_seen: null
-    last_push: "2026-09-02"
+    last_push: "2026-09-22"
+  - name: "inkpi-desktop"
+    title: "inkpi-desktop"
+    description: "Cross-Platform AI-Powered Creative Writing Workstation built with Tauri 2 and React"
+    language: "TypeScript"
+    topics:
+      - "ai-agent"
+      - "creative-writing"
+      - "desktop-app"
+      - "inkpi"
+      - "knowledge-graph"
+      - "novel"
+      - "react"
+      - "tauri"
+      - "tiptap"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-21"
   - name: "inkpi"
     title: "inkpi"
     description: "InkPi - Extensible AI Agent Harness & Workstation Platform"
@@ -154,28 +140,40 @@ repos:
       - "tui"
     stars_fact: 1
     first_seen: null
-    last_push: "2026-09-02"
-  - name: "inkpi-desktop"
-    title: "inkpi-desktop"
-    description: "Cross-Platform AI-Powered Creative Writing Workstation built with Tauri 2 and React"
+    last_push: "2026-09-21"
+  - name: "youju"
+    title: "youju"
+    description: "YouJu - AI-powered contract loophole & chat-risk analysis workbench (React + Express + Gemini + Heuristic Engine)"
     language: "TypeScript"
     topics:
-      - "ai-agent"
-      - "creative-writing"
-      - "desktop-app"
-      - "inkpi"
-      - "knowledge-graph"
-      - "novel"
+      - "contract-analysis"
+      - "ddd"
+      - "express"
+      - "gemini-api"
       - "react"
-      - "tauri"
-      - "tiptap"
-    stars_fact: 1
+      - "risk-assessment"
+      - "typescript"
+    stars_fact: 3
     first_seen: null
-    last_push: "2026-09-01"
+    last_push: "2026-09-06"
+  - name: "timelog-web"
+    title: "timelog-web"
+    description: "Cross-generational family story preservation & governance web console (Next.js + Supabase)"
+    language: "TypeScript"
+    topics:
+      - "family-stories"
+      - "nextjs"
+      - "react"
+      - "supabase"
+      - "typescript"
+      - "web-console"
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-09-06"
 ---
 
 # MeiSiristhebest
 
-86 pushes across 17 repositories on 17 active days in the last 90 days of public GitHub push activity.
+92 pushes across 19 repositories on 22 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/MeiSiristhebest

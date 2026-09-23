@@ -11,99 +11,99 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "668711a6e1072822"
   - "73468cde177ddae6"
-pushes_per_week: [20, 14, 16, 19, 24, 110, 16, 14, 10, 10, 4, 0, 1]
+pushes_per_week: [18, 29, 90, 37, 17, 15, 10, 5, 1, 0, 1, 3, 6]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
-    repos_not_owned: 1
+    pushes: 6
+    distinct_repos: 3
+    active_days: 4
+    repos_not_owned: 2
     not_owned_basenames: 1
-    not_owned_owners: 1
+    not_owned_owners: 2
   "30d":
-    pushes: 16
-    distinct_repos: 1
-    active_days: 10
-    repos_not_owned: 1
+    pushes: 10
+    distinct_repos: 4
+    active_days: 7
+    repos_not_owned: 3
     not_owned_basenames: 1
-    not_owned_owners: 1
+    not_owned_owners: 3
   "90d":
-    pushes: 258
-    distinct_repos: 23
-    active_days: 56
-    repos_not_owned: 22
+    pushes: 232
+    distinct_repos: 19
+    active_days: 52
+    repos_not_owned: 18
     not_owned_basenames: 2
-    not_owned_owners: 22
+    not_owned_owners: 18
 automation:
   state: "clear"
-  push_per_day: 4.6071
-  repo_per_active_day: 0.4107
-  not_owned_ratio: 0.9565
-  basename_concentration: 0.9565
+  push_per_day: 4.4615
+  repo_per_active_day: 0.3654
+  not_owned_ratio: 0.9474
+  basename_concentration: 0.8947
   shapes:
-    - "fork_farm_third_party"
+    - "fork_farm"
   shape_evidence:
-    - "basename concentration 0.9565 (22 of 23 repos share one basename), 22 not owned across 2 basenames — 5 of 5 sampled repos resolved; 5 fork somebody else's repo; upstreams: headroomlabs-ai/headroom"
+    - "basename concentration 0.8947 (17 of 19 repos share one basename), 18 not owned across 2 basenames"
   cleared_by: "e01-builder"
   cleared_on: "2026-08-26"
   fork_provenance:
-    checked: 5
+    checked: 4
     own_upstream: 0
-    third_party: 5
+    third_party: 4
     no_upstream: 0
-    unresolved: 0
+    unresolved: 1
     truncated: false
     sampled:
       - "abhay-codes07/headroom"
       - "abhishek-mittal/headroom"
-      - "agaonker/headroom"
+      - "axelray-dev/headroom"
       - "Bortlesboat/headroom"
-      - "dspv/headroom"
+      - "BradleyAllanDavis/headroom"
     upstreams:
       - "headroomlabs-ai/headroom"
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
-    repos_not_owned: 1
+    pushes: 6
+    distinct_repos: 3
+    pushes_per_repo: 2.0000
+    active_days: 4
+    repos_not_owned: 2
     not_owned_basenames: 1
-    not_owned_owners: 1
+    not_owned_owners: 2
   "30d":
-    pushes: 16
-    distinct_repos: 1
-    pushes_per_repo: 16.0000
-    active_days: 10
-    repos_not_owned: 1
+    pushes: 10
+    distinct_repos: 4
+    pushes_per_repo: 2.5000
+    active_days: 7
+    repos_not_owned: 3
     not_owned_basenames: 1
-    not_owned_owners: 1
+    not_owned_owners: 3
   "90d":
-    pushes: 258
-    distinct_repos: 23
-    pushes_per_repo: 11.2174
-    active_days: 56
-    repos_not_owned: 22
+    pushes: 232
+    distinct_repos: 19
+    pushes_per_repo: 12.2105
+    active_days: 52
+    repos_not_owned: 18
     not_owned_basenames: 2
-    not_owned_owners: 22
+    not_owned_owners: 18
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 56 active days in 90d — pass"
+  - "activity: 52 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "vitals"
-    title: "vitals"
-    description: "Codebase vital signs for Claude Code — finds hotspots, diagnoses root causes, ranks fixes by ROI"
+  - name: "invalidate"
+    title: "invalidate"
+    description: "The invalidation layer for AI memory. Every fact gets a lease; new evidence ends it. Built on TypeSafe Jev."
     language: "Python"
     topics: []
-    stars_fact: 43
+    stars_fact: 18
     first_seen: null
-    last_push: "2026-03-04"
+    last_push: "2026-09-21"
   - name: "headroom-zed"
     title: "headroom-zed"
     description: "Zed extension for Headroom — context compression for AI agents"
@@ -119,9 +119,17 @@ repos:
       - "wasm"
       - "zed"
       - "zed-extension"
-    stars_fact: 59
+    stars_fact: 68
     first_seen: null
     last_push: "2026-03-18"
+  - name: "vitals"
+    title: "vitals"
+    description: "Codebase vital signs for Claude Code — finds hotspots, diagnoses root causes, ranks fixes by ROI"
+    language: "Python"
+    topics: []
+    stars_fact: 43
+    first_seen: null
+    last_push: "2026-03-04"
   - name: "docs"
     title: "docs"
     description: null
@@ -146,18 +154,10 @@ repos:
     stars_fact: 9
     first_seen: null
     last_push: "2026-03-24"
-  - name: "memcached"
-    title: "memcached"
-    description: "memcached implementation"
-    language: "Java"
-    topics: []
-    stars_fact: 14
-    first_seen: null
-    last_push: "2024-11-20"
 ---
 
 # chopratejas
 
-258 pushes across 23 repositories on 56 active days in the last 90 days of public GitHub push activity.
+232 pushes across 19 repositories on 52 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/chopratejas

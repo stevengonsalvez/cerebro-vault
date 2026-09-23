@@ -8,39 +8,39 @@ provenance_repos:
   - "ayghri/i-have-adhd"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+repos_populated: false
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "46f3c1d6124190bd"
-pushes_per_week: [16, 3, 41, 23, 20, 19, 39, 9, 3, 0, 1, 0, 0]
+pushes_per_week: [32, 16, 29, 37, 9, 9, 0, 1, 0, 0, 0, 1, 6]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
-  "30d":
-    pushes: 1
-    distinct_repos: 1
+    pushes: 6
+    distinct_repos: 3
     active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
+  "30d":
+    pushes: 7
+    distinct_repos: 4
+    active_days: 2
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
-    pushes: 174
-    distinct_repos: 46
-    active_days: 36
+    pushes: 140
+    distinct_repos: 41
+    active_days: 32
     repos_not_owned: 10
     not_owned_basenames: 10
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 4.8333
-  repo_per_active_day: 1.2778
-  not_owned_ratio: 0.2174
-  basename_concentration: 0.0435
+  push_per_day: 4.3750
+  repo_per_active_day: 1.2812
+  not_owned_ratio: 0.2439
+  basename_concentration: 0.0488
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,86 +49,38 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
-  "30d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
+    pushes: 6
+    distinct_repos: 3
+    pushes_per_repo: 2.0000
     active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
+  "30d":
+    pushes: 7
+    distinct_repos: 4
+    pushes_per_repo: 1.7500
+    active_days: 2
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
-    pushes: 174
-    distinct_repos: 46
-    pushes_per_repo: 3.7826
-    active_days: 36
+    pushes: 140
+    distinct_repos: 41
+    pushes_per_repo: 3.4146
+    active_days: 32
     repos_not_owned: 10
     not_owned_basenames: 10
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 36 active days in 90d — pass"
+  - "activity: 32 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "stock-research-agent-starter"
-    title: "stock-research-agent-starter"
-    description: "Starter: stock research runs inside one HTTP request (Render Tutorials)"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-03"
-  - name: "openinstinct"
-    title: "openinstinct"
-    description: "OpenInstinct iMessage assistant on Render (Next.js + Postgres)"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-27"
-  - name: "firstdeploy-starter"
-    title: "firstdeploy-starter"
-    description: "Service Card starter for render.com/tutorials/firstdeploy (TypeScript + Python)"
-    language: "CSS"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-12"
-  - name: "atlanta-guestbook"
-    title: "atlanta-guestbook"
-    description: "Tiny in-memory guestbook for Learn Blueprints by shipping a live app"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-12"
-  - name: "stock-research-agent-starter-tutorial-run"
-    title: "stock-research-agent-starter-tutorial-run"
-    description: "Tutorial walkthrough deploy of stock-research-agent-starter"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-11"
-  - name: "stock-research-agent-complete"
-    title: "stock-research-agent-complete"
-    description: "Complete: stock research via Render Workflows with recoverable runs"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-10"
+repos: []
 ---
 
 # ojusave
 
-174 pushes across 46 repositories on 36 active days in the last 90 days of public GitHub push activity.
+140 pushes across 41 repositories on 32 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ojusave

@@ -10,38 +10,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "8311cfc3055f8fea"
-pushes_per_week: [14, 24, 17, 23, 48, 62, 12, 32, 10, 22, 2, 4, 4]
+pushes_per_week: [21, 31, 39, 57, 14, 33, 15, 11, 6, 1, 7, 9, 23]
 windows:
   "7d":
-    pushes: 4
+    pushes: 24
     distinct_repos: 1
-    active_days: 3
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 35
+    pushes: 41
     distinct_repos: 1
     active_days: 16
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 274
-    distinct_repos: 4
-    active_days: 68
-    repos_not_owned: 2
-    not_owned_basenames: 1
-    not_owned_owners: 2
+    pushes: 267
+    distinct_repos: 1
+    active_days: 67
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 4.0294
-  repo_per_active_day: 0.0588
-  not_owned_ratio: 0.5000
-  basename_concentration: 0.7500
+  push_per_day: 3.9851
+  repo_per_active_day: 0.0149
+  not_owned_ratio: 0.0000
+  basename_concentration: 1.0000
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -50,76 +50,53 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 4
+    pushes: 24
     distinct_repos: 1
-    pushes_per_repo: 4.0000
-    active_days: 3
+    pushes_per_repo: 24.0000
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 35
+    pushes: 41
     distinct_repos: 1
-    pushes_per_repo: 35.0000
+    pushes_per_repo: 41.0000
     active_days: 16
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 274
-    distinct_repos: 4
-    pushes_per_repo: 68.5000
-    active_days: 68
-    repos_not_owned: 2
-    not_owned_basenames: 1
-    not_owned_owners: 2
+    pushes: 267
+    distinct_repos: 1
+    pushes_per_repo: 267.0000
+    active_days: 67
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 68 active days in 90d — pass"
+  - "activity: 67 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "background-agents"
     title: "background-agents"
     description: "An open-source background agents coding system"
     language: "TypeScript"
-    topics: []
-    stars_fact: 2721
-    first_seen: "2026-07-13T06:00:03.585427+00:00"
-    last_push: "2026-09-03"
-  - name: "medium-facenet-tutorial"
-    title: "medium-facenet-tutorial"
-    description: "Facial Recognition Pipeline using Dlib and Tensorflow"
-    language: "Python"
     topics:
-      - "dlib"
-      - "docker"
-      - "facial-recognition"
-      - "python3"
-      - "tensorflow"
-      - "tensorflow-tutorials"
-    stars_fact: 217
-    first_seen: null
-    last_push: "2023-03-24"
+      - "background-agents"
+      - "cloud-agents"
+      - "software-factory"
+    stars_fact: 3269
+    first_seen: "2026-07-13T06:00:03.585427+00:00"
+    last_push: "2026-09-23"
   - name: "claude-code-otel"
     title: "claude-code-otel"
     description: "A comprehensive observability solution for monitoring Claude Code usage, performance, and costs."
     language: "Makefile"
     topics: []
-    stars_fact: 494
+    stars_fact: 504
     first_seen: null
     last_push: "2025-06-17"
-  - name: "aws-rag-s3-vectors"
-    title: "aws-rag-s3-vectors"
-    description: "AWS RAG Application Using AWS S3 Vectors and AWS Bedrock"
-    language: "Python"
-    topics:
-      - "artificial-intelligence"
-      - "aws"
-      - "llm"
-      - "rag"
-    stars_fact: 6
-    first_seen: null
-    last_push: "2025-08-01"
   - name: "gmail-llm-labeler"
     title: "gmail-llm-labeler"
     description: "An application for labeling Gmail emails with an LLM"
@@ -127,7 +104,7 @@ repos:
     topics:
       - "gmail"
       - "llm"
-    stars_fact: 13
+    stars_fact: 14
     first_seen: null
     last_push: "2025-10-10"
   - name: "moondream-mcp"
@@ -139,13 +116,29 @@ repos:
       - "mcp-server"
       - "moondream"
       - "python"
-    stars_fact: 48
+    stars_fact: 47
     first_seen: null
     last_push: "2025-07-02"
+  - name: "test-pr-repo"
+    title: "test-pr-repo"
+    description: null
+    language: "Shell"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-16"
+  - name: "aws-athena-mcp"
+    title: "aws-athena-mcp"
+    description: "AWS Athena MCP using FastMCP"
+    language: "Python"
+    topics: []
+    stars_fact: 23
+    first_seen: null
+    last_push: "2026-09-21"
 ---
 
 # ColeMurray
 
-274 pushes across 4 repositories on 68 active days in the last 90 days of public GitHub push activity.
+267 pushes across 1 repository on 67 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ColeMurray

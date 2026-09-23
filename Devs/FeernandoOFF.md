@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-05T06:07:00.404056+00:00"
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [0, 0, 0, 1, 0, 4, 2, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [1, 0, 3, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -80,11 +80,11 @@ repos:
   - name: "dotfiles"
     title: "dotfiles"
     description: "Dotfiles for my personal workflow"
-    language: "Lua"
+    language: "Python"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-07-30"
+    last_push: "2026-09-18"
   - name: "my-pi-setup"
     title: "my-pi-setup"
     description: "My customized Pi coding agent setup and extensions"
@@ -92,7 +92,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-07-27"
+    last_push: "2026-09-14"
   - name: "Anytype-Digital-Garden"
     title: "Anytype-Digital-Garden"
     description: "Publishing a full website form your Anytype Space, query and filter only the data you want to publish, while keeping the rest of the content private"

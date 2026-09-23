@@ -3,7 +3,6 @@ login: "jerelvelarde"
 name: null
 discovered_via: "vault"
 discovered_via_all:
-  - "fanout"
   - "vault"
 provenance_repos:
   - "CopilotKit/channels-sdk"
@@ -11,39 +10,39 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "229b322ed982d40b"
   - "c4281af03270173b"
-pushes_per_week: [12, 19, 13, 5, 0, 2, 5, 21, 5, 0, 1, 0, 0]
+pushes_per_week: [14, 0, 1, 4, 12, 13, 3, 1, 0, 0, 0, 1, 4]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
-  "30d":
     pushes: 4
+    distinct_repos: 2
+    active_days: 2
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
+  "30d":
+    pushes: 5
     distinct_repos: 2
     active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 83
-    distinct_repos: 17
-    active_days: 28
+    pushes: 53
+    distinct_repos: 12
+    active_days: 21
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 2.9643
-  repo_per_active_day: 0.6071
-  not_owned_ratio: 0.2941
-  basename_concentration: 0.1176
+  push_per_day: 2.5238
+  repo_per_active_day: 0.5714
+  not_owned_ratio: 0.4167
+  basename_concentration: 0.1667
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -52,86 +51,101 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
-  "30d":
     pushes: 4
     distinct_repos: 2
     pushes_per_repo: 2.0000
+    active_days: 2
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
+  "30d":
+    pushes: 5
+    distinct_repos: 2
+    pushes_per_repo: 2.5000
     active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 83
-    distinct_repos: 17
-    pushes_per_repo: 4.8824
-    active_days: 28
+    pushes: 53
+    distinct_repos: 12
+    pushes_per_repo: 4.4167
+    active_days: 21
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 2
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 28 active days in 90d — pass"
+  - "activity: 21 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "opentag"
-    title: "opentag"
-    description: "An open-source, self-hosted alternative to Claude in Slack — run your own AI agent on your infra, with your model and tools. Built on CopilotKit's @copilotkit/bot SDK. Also runs on Discord, Telegram & WhatsApp."
+  - name: "jev-copilotkit"
+    title: "jev-copilotkit"
+    description: "CopilotKit and Jev agent arenas: Wikipedia race and visual tool-calling benchmark"
     language: "TypeScript"
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-06-26"
-  - name: "world-monitor-copilotkit"
-    title: "world-monitor-copilotkit"
-    description: null
+    last_push: "2026-09-21"
+  - name: "openmuse"
+    title: "openmuse"
+    description: "An open-source personal agent with a persistent browser computer, CopilotKit rich chat, and a React Native app."
     language: "TypeScript"
-    topics: []
-    stars_fact: 63
+    topics:
+      - "ag-ui"
+      - "ai-agents"
+      - "copilotkit"
+      - "expo"
+      - "personal-assistant"
+      - "react-native"
+      - "self-hosted"
+    stars_fact: 1
     first_seen: null
-    last_push: "2026-04-01"
-  - name: "awesome-openbot-templates"
-    title: "awesome-openbot-templates"
-    description: "Bot templates for OpenBot. Configuration travels; capability does not."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-31"
-  - name: "generative-ui-london-hackathon-starter"
-    title: "generative-ui-london-hackathon-starter"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 7
-    first_seen: null
-    last_push: "2026-06-13"
-  - name: "ChessMCP"
-    title: "ChessMCP"
+    last_push: "2026-09-22"
+  - name: "building-agentic-applications-book"
+    title: "building-agentic-applications-book"
     description: null
     language: "Python"
     topics: []
     stars_fact: 2
     first_seen: null
-    last_push: "2025-11-19"
-  - name: "copilotkit-docker-sandbox"
-    title: "copilotkit-docker-sandbox"
-    description: "A CopilotKit agent that operates Docker Sandboxes microVMs from natural language. Localhost control panel over the docker sandbox CLI."
+    last_push: "2026-07-15"
+  - name: "oracle-cookbook"
+    title: "oracle-cookbook"
+    description: "Oracle AI Database × CopilotKit cookbook — Agent Memory + Agent Spec, with live Playwright E2E"
+    language: "MDX"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-06-29"
+  - name: "agents-everywhere-starter-kit"
+    title: "agents-everywhere-starter-kit"
+    description: "Starter kit for the Agents, Everywhere: Bots, Channels & More global hackathon (AI Tinkerers x OpenAI, 12 Sep 2026). One agent, every surface — Slack/Teams via CopilotKit Channels, zero tunnel."
+    language: "TypeScript"
+    topics:
+      - "ag-ui"
+      - "ai-agents"
+      - "copilotkit"
+      - "generative-ui"
+      - "hackathon"
+      - "mcp"
+      - "slack-bot"
+      - "starter-kit"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-12"
+  - name: "Generative-UI-Global-Hackathon-Starter-Kit"
+    title: "Generative-UI-Global-Hackathon-Starter-Kit"
+    description: null
     language: "TypeScript"
     topics: []
-    stars_fact: 5
+    stars_fact: 40
     first_seen: null
-    last_push: "2026-08-28"
+    last_push: "2026-05-09"
 ---
 
 # jerelvelarde
 
-83 pushes across 17 repositories on 28 active days in the last 90 days of public GitHub push activity.
+53 pushes across 12 repositories on 21 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/jerelvelarde

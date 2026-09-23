@@ -8,39 +8,39 @@ provenance_repos:
   - "AlexsJones/llmfit"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+repos_populated: false
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [39, 52, 35, 16, 4, 6, 3, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [33, 7, 4, 5, 1, 0, 0, 0, 0, 0, 0, 0, 2]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
+    pushes: 2
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
+    pushes: 2
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 155
-    distinct_repos: 8
-    active_days: 37
+    pushes: 52
+    distinct_repos: 6
+    active_days: 21
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 4.1892
-  repo_per_active_day: 0.2162
-  not_owned_ratio: 0.1250
-  basename_concentration: 0.2500
+  push_per_day: 2.4762
+  repo_per_active_day: 0.2857
+  not_owned_ratio: 0.1667
+  basename_concentration: 0.3333
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,104 +49,38 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
+    pushes: 2
+    distinct_repos: 1
+    pushes_per_repo: 2.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
+    pushes: 2
+    distinct_repos: 1
+    pushes_per_repo: 2.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 155
-    distinct_repos: 8
-    pushes_per_repo: 19.3750
-    active_days: 37
+    pushes: 52
+    distinct_repos: 6
+    pushes_per_repo: 8.6667
+    active_days: 21
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 37 active days in 90d — pass"
+  - "activity: 21 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "home-energy-manager"
-    title: "home-energy-manager"
-    description: "Desktop app for monitoring and controlling GivEnergy solar inverters over your local network — no cloud account needed"
-    language: "Rust"
-    topics:
-      - "battery"
-      - "energy-monitoring"
-      - "givenergy"
-      - "home-automation"
-      - "inverter"
-      - "modbus"
-      - "solar"
-      - "tauri"
-    stars_fact: 34
-    first_seen: null
-    last_push: "2026-09-02"
-  - name: "givenergy-simulator"
-    title: "givenergy-simulator"
-    description: "Digital twin of a GivEnergy solar + battery plant for testing client apps"
-    language: "Rust"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-08-28"
-  - name: "milsymbol-sidc"
-    title: "milsymbol-sidc"
-    description: "Fluent TypeScript builder for MIL-STD-2525E / APP-6 numeric (20-character) SIDC strings, for use with the milsymbol library"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-27"
-  - name: "autonomous-booksmith"
-    title: "autonomous-booksmith"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-04-16"
-  - name: "Word-Battler"
-    title: "Word-Battler"
-    description: null
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-20"
-  - name: "military-thriller-team"
-    title: "military-thriller-team"
-    description: "Complete professional novel development system — 8 editorial personas, 10-stage workflow, templates, and structured knowledge repository for AI-assisted fiction writing."
-    language: null
-    topics:
-      - "ai-writing"
-      - "creative-writing"
-      - "editorial"
-      - "fiction"
-      - "hermes-agent"
-      - "novel"
-      - "novel-writing"
-      - "story-development"
-      - "writing-tool"
-      - "writing-workflow"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-07-30"
+repos: []
 ---
 
 # psylsph
 
-155 pushes across 8 repositories on 37 active days in the last 90 days of public GitHub push activity.
+52 pushes across 6 repositories on 21 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/psylsph

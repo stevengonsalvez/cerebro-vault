@@ -8,11 +8,11 @@ provenance_repos:
   - "ColeMurray/background-agents"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+repos_populated: false
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "8311cfc3055f8fea"
-pushes_per_week: [0, 0, 8, 14, 2, 0, 0, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [21, 2, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,39 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 9 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "kite"
-    title: "kite"
-    description: null
-    language: "Swift"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-04-21"
-  - name: "n8n-nodes-incidentio"
-    title: "n8n-nodes-incidentio"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2025-11-05"
-  - name: "n8n-nodes-productive"
-    title: "n8n-nodes-productive"
-    description: "n8n community node for Productive.io API integration - Track bookings, absences, and resource allocation"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2025-10-08"
-  - name: "rubenlangeweg"
-    title: "rubenlangeweg"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2022-04-26"
+repos: []
 ---
 
 # rubenlangeweg

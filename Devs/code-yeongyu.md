@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [141, 150, 112, 82, 77, 98, 41, 72, 29, 67, 21, 15, 7]
+pushes_per_week: [67, 106, 62, 77, 63, 50, 48, 49, 9, 17, 40, 65, 73]
 windows:
   "7d":
-    pushes: 11
-    distinct_repos: 2
-    active_days: 4
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    pushes: 75
+    distinct_repos: 4
+    active_days: 7
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "30d":
-    pushes: 119
+    pushes: 196
     distinct_repos: 10
-    active_days: 24
-    repos_not_owned: 6
-    not_owned_basenames: 4
-    not_owned_owners: 5
+    active_days: 26
+    repos_not_owned: 7
+    not_owned_basenames: 3
+    not_owned_owners: 6
   "90d":
-    pushes: 912
-    distinct_repos: 72
+    pushes: 726
+    distinct_repos: 45
     active_days: 82
-    repos_not_owned: 45
-    not_owned_basenames: 7
-    not_owned_owners: 42
+    repos_not_owned: 27
+    not_owned_basenames: 5
+    not_owned_owners: 23
 automation:
   state: "clear"
-  push_per_day: 11.1220
-  repo_per_active_day: 0.8780
-  not_owned_ratio: 0.6250
-  basename_concentration: 0.3889
+  push_per_day: 8.8537
+  repo_per_active_day: 0.5488
+  not_owned_ratio: 0.6000
+  basename_concentration: 0.3333
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,29 +49,29 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 11
-    distinct_repos: 2
-    pushes_per_repo: 5.5000
-    active_days: 4
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    pushes: 75
+    distinct_repos: 4
+    pushes_per_repo: 18.7500
+    active_days: 7
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "30d":
-    pushes: 119
+    pushes: 196
     distinct_repos: 10
-    pushes_per_repo: 11.9000
-    active_days: 24
-    repos_not_owned: 6
-    not_owned_basenames: 4
-    not_owned_owners: 5
+    pushes_per_repo: 19.6000
+    active_days: 26
+    repos_not_owned: 7
+    not_owned_basenames: 3
+    not_owned_owners: 6
   "90d":
-    pushes: 912
-    distinct_repos: 72
-    pushes_per_repo: 12.6667
+    pushes: 726
+    distinct_repos: 45
+    pushes_per_repo: 16.1333
     active_days: 82
-    repos_not_owned: 45
-    not_owned_basenames: 7
-    not_owned_owners: 42
+    repos_not_owned: 27
+    not_owned_basenames: 5
+    not_owned_owners: 23
 reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 82 active days in 90d — pass"
@@ -79,7 +79,7 @@ reasons:
 repos:
   - name: "oh-my-openagent"
     title: "oh-my-openagent"
-    description: "omo/lazycodex: The coding agent for tokenmaxxers;the one and only agent harness for complex codebases. For your Codex, for your OpenCode"
+    description: "OmO: Just type \"mass ulw\" keyword with your prompt. Now you are the master of graph engineering."
     language: "TypeScript"
     topics:
       - "ai"
@@ -97,9 +97,9 @@ repos:
       - "orchestration"
       - "tui"
       - "typescript"
-    stars_fact: 68645
+    stars_fact: 69318
     first_seen: null
-    last_push: "2026-09-03"
+    last_push: "2026-09-23"
   - name: "senpi"
     title: "senpi"
     description: "pi had nothing (nothing), so I made something (something) — sorry mariozechner-senpai, I went ahead and lovingly soiled your pure pi for you. opinionated fork of badlogic/pi-mono with extension-first additions. ganbare ganbare senpi 頑張れ頑張れ先輩"
@@ -117,24 +117,9 @@ repos:
       - "senpi"
       - "tui"
       - "typescript"
-    stars_fact: 418
+    stars_fact: 444
     first_seen: null
-    last_push: "2026-09-03"
-  - name: "codex-lsp"
-    title: "codex-lsp"
-    description: "Codex plugin that exposes Language Server Protocol diagnostics and MCP tools"
-    language: "TypeScript"
-    topics:
-      - "codex"
-      - "codex-plugin"
-      - "diagnostics"
-      - "language-server-protocol"
-      - "lsp"
-      - "mcp"
-      - "typescript"
-    stars_fact: 26
-    first_seen: null
-    last_push: "2026-07-25"
+    last_push: "2026-09-23"
   - name: "lazycodex"
     title: "lazycodex"
     description: "The one and only agent harness for complex codebases. Project memory, planning, execution, and verified completion inside Codex."
@@ -154,37 +139,67 @@ repos:
       - "openai"
       - "orchestration"
       - "typescript"
-    stars_fact: 3377
+    stars_fact: 3607
     first_seen: null
-    last_push: "2026-08-09"
-  - name: "go-claude-code-comment-checker"
-    title: "go-claude-code-comment-checker"
-    description: "Multi-language comment detection hook for Claude Code. 100% vibe coded by Claude Opus 4.5."
-    language: "Go"
-    topics: []
-    stars_fact: 22
+    last_push: "2026-09-23"
+  - name: "omowright"
+    title: "omowright"
+    description: "Playwright, but built for AI agents: the browser API models already know, token-efficient a11y snapshots, and scroll-driven collection over the network. Zero-port CDP underneath."
+    language: "JavaScript"
+    topics:
+      - "accessibility-tree"
+      - "agent-browser"
+      - "agent-skills"
+      - "ai-agents"
+      - "browser-agent"
+      - "browser-automation"
+      - "bun"
+      - "cdp"
+      - "chrome-devtools-protocol"
+      - "chromium"
+      - "cloakbrowser"
+      - "headless-chrome"
+      - "llm"
+      - "omowright"
+      - "web-automation"
+    stars_fact: 0
     first_seen: null
-    last_push: "2026-05-18"
-  - name: "pi-ast-grep"
-    title: "pi-ast-grep"
-    description: "AST-aware code search and rewrite for the pi coding agent. Faithful port of the ast-grep tools from oh-my-openagent."
+    last_push: "2026-09-23"
+  - name: "pi-lsp-client"
+    title: "pi-lsp-client"
+    description: "Language Server Protocol integration for the pi coding agent. Faithful port of the LSP tools from oh-my-openagent: shared server pool, refCount lifecycle, idle/init reaping, typed crash retry, and a /lsp inspector."
     language: "TypeScript"
     topics:
-      - "ast"
-      - "ast-grep"
-      - "code-search"
+      - "code-intelligence"
       - "coding-agent"
+      - "language-server-protocol"
+      - "lsp"
+      - "pi-coding-agent"
       - "pi-extension"
       - "pi-package"
-      - "refactor"
       - "typescript"
-    stars_fact: 16
+    stars_fact: 17
     first_seen: null
-    last_push: "2026-06-05"
+    last_push: "2026-07-25"
+  - name: "codex-lsp"
+    title: "codex-lsp"
+    description: "Codex plugin that exposes Language Server Protocol diagnostics and MCP tools"
+    language: "TypeScript"
+    topics:
+      - "codex"
+      - "codex-plugin"
+      - "diagnostics"
+      - "language-server-protocol"
+      - "lsp"
+      - "mcp"
+      - "typescript"
+    stars_fact: 28
+    first_seen: null
+    last_push: "2026-07-25"
 ---
 
 # code-yeongyu
 
-912 pushes across 72 repositories on 82 active days in the last 90 days of public GitHub push activity.
+726 pushes across 45 repositories on 82 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/code-yeongyu

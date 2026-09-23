@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "c1af6b58492f9bf4"
-pushes_per_week: [3, 4, 0, 1, 1, 10, 42, 34, 1, 0, 0, 0, 0]
+pushes_per_week: [1, 0, 4, 12, 55, 16, 1, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 96
-    distinct_repos: 3
-    active_days: 25
-    repos_not_owned: 2
-    not_owned_basenames: 2
+    pushes: 89
+    distinct_repos: 2
+    active_days: 21
+    repos_not_owned: 1
+    not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 3.8400
-  repo_per_active_day: 0.1200
-  not_owned_ratio: 0.6667
-  basename_concentration: 0.3333
+  push_per_day: 4.2381
+  repo_per_active_day: 0.0952
+  not_owned_ratio: 0.5000
+  basename_concentration: 0.5000
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 96
-    distinct_repos: 3
-    pushes_per_repo: 32.0000
-    active_days: 25
-    repos_not_owned: 2
-    not_owned_basenames: 2
+    pushes: 89
+    distinct_repos: 2
+    pushes_per_repo: 44.5000
+    active_days: 21
+    repos_not_owned: 1
+    not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 25 active days in 90d — pass"
+  - "activity: 21 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "RA.Aid"
@@ -85,7 +85,7 @@ repos:
       - "agents"
       - "ai"
       - "software-engineering"
-    stars_fact: 2221
+    stars_fact: 2220
     first_seen: null
     last_push: "2026-01-30"
   - name: "RA.Aid-evals"
@@ -132,6 +132,6 @@ repos:
 
 # ai-christianson
 
-96 pushes across 3 repositories on 25 active days in the last 90 days of public GitHub push activity.
+89 pushes across 2 repositories on 21 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ai-christianson

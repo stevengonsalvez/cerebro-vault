@@ -8,39 +8,39 @@ provenance_repos:
   - "antirez/ds4"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+repos_populated: false
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "3eacb4655aba2497"
-pushes_per_week: [45, 55, 23, 37, 14, 30, 8, 8, 5, 6, 1, 1, 0]
+pushes_per_week: [34, 17, 35, 12, 5, 7, 6, 4, 1, 0, 2, 8, 11]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    pushes: 11
+    distinct_repos: 7
+    active_days: 4
+    repos_not_owned: 5
+    not_owned_basenames: 5
+    not_owned_owners: 4
   "30d":
-    pushes: 10
+    pushes: 22
     distinct_repos: 9
-    active_days: 7
+    active_days: 9
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 4
   "90d":
-    pushes: 233
-    distinct_repos: 69
-    active_days: 57
-    repos_not_owned: 38
-    not_owned_basenames: 35
-    not_owned_owners: 14
+    pushes: 142
+    distinct_repos: 56
+    active_days: 48
+    repos_not_owned: 29
+    not_owned_basenames: 29
+    not_owned_owners: 10
 automation:
   state: "clear"
-  push_per_day: 4.0877
-  repo_per_active_day: 1.2105
-  not_owned_ratio: 0.5507
-  basename_concentration: 0.0580
+  push_per_day: 2.9583
+  repo_per_active_day: 1.1667
+  not_owned_ratio: 0.5179
+  basename_concentration: 0.0357
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,114 +49,38 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    pushes: 11
+    distinct_repos: 7
+    pushes_per_repo: 1.5714
+    active_days: 4
+    repos_not_owned: 5
+    not_owned_basenames: 5
+    not_owned_owners: 4
   "30d":
-    pushes: 10
+    pushes: 22
     distinct_repos: 9
-    pushes_per_repo: 1.1111
-    active_days: 7
+    pushes_per_repo: 2.4444
+    active_days: 9
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 4
   "90d":
-    pushes: 233
-    distinct_repos: 69
-    pushes_per_repo: 3.3768
-    active_days: 57
-    repos_not_owned: 38
-    not_owned_basenames: 35
-    not_owned_owners: 14
+    pushes: 142
+    distinct_repos: 56
+    pushes_per_repo: 2.5357
+    active_days: 48
+    repos_not_owned: 29
+    not_owned_basenames: 29
+    not_owned_owners: 10
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 57 active days in 90d — pass"
+  - "activity: 48 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "libsodium.js"
-    title: "libsodium.js"
-    description: "libsodium compiled to Webassembly and pure JavaScript, with convenient wrappers."
-    language: "HTML"
-    topics:
-      - "crypto"
-      - "cryptography"
-      - "javascript"
-      - "libsodium"
-      - "webassembly"
-    stars_fact: 1153
-    first_seen: null
-    last_push: "2026-07-14"
-  - name: "dsvpn"
-    title: "dsvpn"
-    description: "A Dead Simple VPN."
-    language: "C"
-    topics:
-      - "privacy"
-      - "reallysimple"
-      - "simple"
-      - "vpn"
-    stars_fact: 5819
-    first_seen: null
-    last_push: "2026-05-27"
-  - name: "EtchDNS"
-    title: "EtchDNS"
-    description: "A new DNS proxy designed for simplicity, security and extensibility with WebAssembly plugins."
-    language: "Rust"
-    topics:
-      - "cache"
-      - "dns"
-      - "edgedns"
-      - "extism"
-      - "proxy"
-      - "security"
-      - "wasm"
-      - "webassembly"
-    stars_fact: 83
-    first_seen: null
-    last_push: "2026-09-02"
-  - name: "libsodium"
-    title: "libsodium"
-    description: "A modern, portable, easy to use crypto library."
-    language: "C"
-    topics:
-      - "c"
-      - "crypto"
-      - "cryptography"
-      - "zig-package"
-    stars_fact: 13928
-    first_seen: null
-    last_push: "2026-08-31"
-  - name: "rust-aegis"
-    title: "rust-aegis"
-    description: "AEGIS high performance ciphers for Rust."
-    language: "Rust"
-    topics:
-      - "aead"
-      - "aegis"
-      - "aegis128"
-      - "aegis128l"
-      - "aegis256"
-      - "cipher"
-      - "crypto"
-    stars_fact: 50
-    first_seen: null
-    last_push: "2026-07-15"
-  - name: "prusaslicer-lua-plugins-api-doc"
-    title: "prusaslicer-lua-plugins-api-doc"
-    description: "Unofficial documentation of the Prusaslicer 3 plugin API (Lua)"
-    language: null
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-09-02"
+repos: []
 ---
 
 # jedisct1
 
-233 pushes across 69 repositories on 57 active days in the last 90 days of public GitHub push activity.
+142 pushes across 56 repositories on 48 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/jedisct1

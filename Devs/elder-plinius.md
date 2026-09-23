@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "3b439583676e3165"
-pushes_per_week: [0, 2, 0, 5, 2, 4, 0, 2, 0, 1, 0, 1, 0]
+pushes_per_week: [0, 7, 2, 2, 0, 2, 0, 1, 1, 0, 3, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,25 +22,25 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 2
+    pushes: 4
     distinct_repos: 2
     active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 17
-    distinct_repos: 9
-    active_days: 12
+    pushes: 18
+    distinct_repos: 7
+    active_days: 11
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.4167
-  repo_per_active_day: 0.7500
+  push_per_day: 1.6364
+  repo_per_active_day: 0.6364
   not_owned_ratio: 0.0000
-  basename_concentration: 0.1111
+  basename_concentration: 0.1429
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 2
+    pushes: 4
     distinct_repos: 2
-    pushes_per_repo: 1.0000
+    pushes_per_repo: 2.0000
     active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 17
-    distinct_repos: 9
-    pushes_per_repo: 1.8889
-    active_days: 12
+    pushes: 18
+    distinct_repos: 7
+    pushes_per_repo: 2.5714
+    active_days: 11
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 12 active days in 90d — pass"
+  - "activity: 11 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "CL4R1T4S"
@@ -102,47 +102,15 @@ repos:
       - "system-prompts"
       - "tools"
       - "transparency"
-    stars_fact: 48748
+    stars_fact: 50444
     first_seen: null
-    last_push: "2026-09-01"
-  - name: "ST3GG"
-    title: "ST3GG"
-    description: "All-in-one steganography suite"
-    language: "HTML"
-    topics:
-      - "steganalysis"
-      - "steganography"
-      - "stego"
-    stars_fact: 1758
-    first_seen: null
-    last_push: "2026-06-15"
-  - name: "T3MP3ST"
-    title: "T3MP3ST"
-    description: "autonomous red teaming platform; multi-agent offensive-security meta-harness"
-    language: "TypeScript"
-    topics:
-      - "agents"
-      - "ai"
-      - "multi-agent"
-      - "offensive-security"
-      - "redteam"
-    stars_fact: 5961
-    first_seen: "2026-07-06T06:00:04.675259+00:00"
-    last_push: "2026-09-03"
-  - name: "OBLITERATUS"
-    title: "OBLITERATUS"
-    description: "OBLITERATE THE CHAINS THAT BIND YOU"
-    language: "Python"
-    topics: []
-    stars_fact: 8181
-    first_seen: null
-    last_push: "2026-09-02"
+    last_push: "2026-09-22"
   - name: "G0DM0D3"
     title: "G0DM0D3"
     description: "LIBERATED AI CHAT"
     language: "TypeScript"
     topics: []
-    stars_fact: 10964
+    stars_fact: 11278
     first_seen: null
     last_push: "2026-07-15"
   - name: "L1B3RT4S"
@@ -167,13 +135,42 @@ repos:
       - "red-teaming"
       - "roleplay"
       - "scenario"
-    stars_fact: 21316
+    stars_fact: 21538
     first_seen: null
     last_push: "2026-02-17"
+  - name: "OBLITERATUS"
+    title: "OBLITERATUS"
+    description: "OBLITERATE THE CHAINS THAT BIND YOU"
+    language: "Python"
+    topics: []
+    stars_fact: 8444
+    first_seen: null
+    last_push: "2026-09-21"
+  - name: "V3SP3R"
+    title: "V3SP3R"
+    description: "AI Flipper control"
+    language: "Java"
+    topics: []
+    stars_fact: 1427
+    first_seen: null
+    last_push: "2026-03-24"
+  - name: "T3MP3ST"
+    title: "T3MP3ST"
+    description: "autonomous red teaming platform; multi-agent offensive-security meta-harness"
+    language: "TypeScript"
+    topics:
+      - "agents"
+      - "ai"
+      - "multi-agent"
+      - "offensive-security"
+      - "redteam"
+    stars_fact: 6222
+    first_seen: "2026-07-06T06:00:04.675259+00:00"
+    last_push: "2026-09-08"
 ---
 
 # elder-plinius
 
-17 pushes across 9 repositories on 12 active days in the last 90 days of public GitHub push activity.
+18 pushes across 7 repositories on 11 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/elder-plinius

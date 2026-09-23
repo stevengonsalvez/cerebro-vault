@@ -10,11 +10,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "16389f32495280ea"
   - "d1946b21c02e5fa5"
-pushes_per_week: [20, 32, 11, 6, 1, 1, 0, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [6, 7, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -31,18 +31,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 71
-    distinct_repos: 15
-    active_days: 21
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 14
+    distinct_repos: 4
+    active_days: 7
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 3.3810
-  repo_per_active_day: 0.7143
-  not_owned_ratio: 0.0667
-  basename_concentration: 0.1333
+  push_per_day: 2.0000
+  repo_per_active_day: 0.5714
+  not_owned_ratio: 0.0000
+  basename_concentration: 0.2500
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -67,18 +67,26 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 71
-    distinct_repos: 15
-    pushes_per_repo: 4.7333
-    active_days: 21
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 14
+    distinct_repos: 4
+    pushes_per_repo: 3.5000
+    active_days: 7
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 21 active days in 90d — pass"
+  - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "why-film"
+    title: "why-film"
+    description: "WHY? — AI short film (Higgsfield Global Film Festival entry)"
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-15"
   - name: "studio-director"
     title: "studio-director"
     description: "An agent that runs a real 7-channel AI video factory on its ClickHouse memory — Agentic Cinema hackathon entry (ClickHouse track)"
@@ -86,7 +94,15 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-08-30"
+    last_push: "2026-09-07"
+  - name: "chainobserver"
+    title: "chainobserver"
+    description: "AI agent that diagnoses failed Ethereum transactions in under 30 seconds"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-05"
   - name: "wdk-multichain-extension"
     title: "wdk-multichain-extension"
     description: "Multi-chain browser extension wallet starter built on Tether WDK — EVM, Solana, and TRON with native USDt support"
@@ -120,26 +136,10 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-07-08"
-  - name: "pulse-uptime"
-    title: "pulse-uptime"
-    description: "Uptime monitoring SaaS — built by AI agents via Paperclip"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-07-04"
-  - name: "autopr"
-    title: "autopr"
-    description: "Autonomous open-source bounty agent — scans GitHub, writes fixes, submits PRs · Qwen × Alibaba Cloud"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-07-04"
 ---
 
 # 64johnlee
 
-71 pushes across 15 repositories on 21 active days in the last 90 days of public GitHub push activity.
+14 pushes across 4 repositories on 7 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/64johnlee

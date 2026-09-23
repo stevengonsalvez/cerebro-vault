@@ -8,11 +8,11 @@ provenance_repos:
   - "agavra/tuicr"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+repos_populated: false
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [1, 3, 5, 5, 68, 21, 109, 148, 112, 3, 0, 0, 0]
+pushes_per_week: [5, 27, 55, 40, 197, 31, 114, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,25 +22,25 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 114
-    distinct_repos: 77
-    active_days: 5
-    repos_not_owned: 7
-    not_owned_basenames: 7
-    not_owned_owners: 2
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
-    pushes: 475
-    distinct_repos: 103
-    active_days: 45
-    repos_not_owned: 18
-    not_owned_basenames: 18
+    pushes: 469
+    distinct_repos: 102
+    active_days: 40
+    repos_not_owned: 17
+    not_owned_basenames: 17
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 10.5556
-  repo_per_active_day: 2.2889
-  not_owned_ratio: 0.1748
-  basename_concentration: 0.0097
+  push_per_day: 11.7250
+  repo_per_active_day: 2.5500
+  not_owned_ratio: 0.1667
+  basename_concentration: 0.0098
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -57,113 +57,30 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 114
-    distinct_repos: 77
-    pushes_per_repo: 1.4805
-    active_days: 5
-    repos_not_owned: 7
-    not_owned_basenames: 7
-    not_owned_owners: 2
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
-    pushes: 475
-    distinct_repos: 103
-    pushes_per_repo: 4.6117
-    active_days: 45
-    repos_not_owned: 18
-    not_owned_basenames: 18
+    pushes: 469
+    distinct_repos: 102
+    pushes_per_repo: 4.5980
+    active_days: 40
+    repos_not_owned: 17
+    not_owned_basenames: 17
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 45 active days in 90d — pass"
+  - "activity: 40 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "yhay81"
-    title: "yhay81"
-    description: "GitHub public profile"
-    language: "Python"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-09-03"
-  - name: "gh-freshclone"
-    title: "gh-freshclone"
-    description: "Compile and prove the fastest trustworthy baseline for a GitHub repository."
-    language: "Python"
-    topics:
-      - "containers"
-      - "developer-tools"
-      - "github"
-      - "macos"
-      - "python"
-      - "testing"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-08-09"
-  - name: "sqrail"
-    title: "sqrail"
-    description: "A bounded SQL-on-files CLI for coding agents. SQL in, files out."
-    language: "C++"
-    topics:
-      - "ai-agents"
-      - "ai-tools"
-      - "cli"
-      - "command-line-tool"
-      - "cpp"
-      - "cpp20"
-      - "csv"
-      - "data-engineering"
-      - "data-processing"
-      - "developer-tools"
-      - "duckdb"
-      - "file-processing"
-      - "jsonl"
-      - "parquet"
-      - "sql"
-      - "sql-on-files"
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-09-03"
-  - name: "armbench-minilm"
-    title: "armbench-minilm"
-    description: "Reproducible FP32-to-INT8 MiniLM optimization benchmarks on native Arm64 runners"
-    language: "Python"
-    topics:
-      - "arm64"
-      - "benchmark"
-      - "minilm"
-      - "onnxruntime"
-      - "quantization"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-12"
-  - name: "homebrew-tap"
-    title: "homebrew-tap"
-    description: "Homebrew formulae for yhay81 projects"
-    language: "Ruby"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-09"
-  - name: "noopcheck"
-    title: "noopcheck"
-    description: "Checks whether a \"this is just a refactor\" change really changes nothing — and points at the exact files where it does"
-    language: "TypeScript"
-    topics:
-      - "ast"
-      - "cli"
-      - "code-review"
-      - "continuous-integration"
-      - "developer-tools"
-      - "git"
-      - "refactoring"
-      - "typescript"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-09"
+repos: []
 ---
 
 # yhay81
 
-475 pushes across 103 repositories on 45 active days in the last 90 days of public GitHub push activity.
+469 pushes across 102 repositories on 40 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/yhay81

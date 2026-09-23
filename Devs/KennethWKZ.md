@@ -8,39 +8,39 @@ provenance_repos:
   - "chopratejas/headroom"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+repos_populated: false
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "73468cde177ddae6"
-pushes_per_week: [0, 16, 6, 24, 25, 19, 6, 5, 2, 4, 2, 0, 0]
+pushes_per_week: [8, 33, 21, 17, 3, 4, 3, 3, 1, 0, 0, 0, 3]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
+    pushes: 3
+    distinct_repos: 2
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 6
+    pushes: 3
     distinct_repos: 2
-    active_days: 6
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 109
-    distinct_repos: 12
-    active_days: 36
+    pushes: 96
+    distinct_repos: 11
+    active_days: 37
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 3.0278
-  repo_per_active_day: 0.3333
+  push_per_day: 2.5946
+  repo_per_active_day: 0.2973
   not_owned_ratio: 0.0000
-  basename_concentration: 0.0833
+  basename_concentration: 0.0909
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,73 +49,38 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
+    pushes: 3
+    distinct_repos: 2
+    pushes_per_repo: 1.5000
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 6
+    pushes: 3
     distinct_repos: 2
-    pushes_per_repo: 3.0000
-    active_days: 6
+    pushes_per_repo: 1.5000
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 109
-    distinct_repos: 12
-    pushes_per_repo: 9.0833
-    active_days: 36
+    pushes: 96
+    distinct_repos: 11
+    pushes_per_repo: 8.7273
+    active_days: 37
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 36 active days in 90d — pass"
+  - "activity: 37 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "herdr-ccs"
-    title: "herdr-ccs"
-    description: "Make `ccs claude` behave like native Claude Code in Herdr: pane detection + launcher-aware restore through ccs."
-    language: "Shell"
-    topics:
-      - "herdr-plugin"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-29"
-  - name: "KennethWKZ"
-    title: "KennethWKZ"
-    description: "Config files for my GitHub profile."
-    language: null
-    topics:
-      - "config"
-      - "github-config"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2021-10-02"
-  - name: "mysimpleweatherapp"
-    title: "mysimpleweatherapp"
-    description: null
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2018-06-04"
-  - name: "DigitalOceanCP"
-    title: "DigitalOceanCP"
-    description: "Digital Ocean API Control Panel"
-    language: "C#"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2016-05-15"
+repos: []
 ---
 
 # KennethWKZ
 
-109 pushes across 12 repositories on 36 active days in the last 90 days of public GitHub push activity.
+96 pushes across 11 repositories on 37 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/KennethWKZ

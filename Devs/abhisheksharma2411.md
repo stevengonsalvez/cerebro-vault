@@ -10,39 +10,39 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "4138778ebbc75ba6"
   - "dae9f02535f7c22f"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 1, 3, 1, 0, 0]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 2, 2, 1, 0, 0, 2, 5]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
+    pushes: 5
+    distinct_repos: 3
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 5
-    distinct_repos: 5
-    active_days: 5
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 7
+    distinct_repos: 4
+    active_days: 4
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
-    pushes: 5
-    distinct_repos: 5
-    active_days: 5
+    pushes: 12
+    distinct_repos: 9
+    active_days: 9
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.0000
+  push_per_day: 1.3333
   repo_per_active_day: 1.0000
-  not_owned_ratio: 0.2000
-  basename_concentration: 0.4000
+  not_owned_ratio: 0.1111
+  basename_concentration: 0.2222
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -51,32 +51,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
+    pushes: 5
+    distinct_repos: 3
+    pushes_per_repo: 1.6667
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 5
-    distinct_repos: 5
-    pushes_per_repo: 1.0000
-    active_days: 5
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 7
+    distinct_repos: 4
+    pushes_per_repo: 1.7500
+    active_days: 4
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
-    pushes: 5
-    distinct_repos: 5
-    pushes_per_repo: 1.0000
-    active_days: 5
+    pushes: 12
+    distinct_repos: 9
+    pushes_per_repo: 1.3333
+    active_days: 9
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 5 active days in 90d — pass"
+  - "activity: 9 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "causalloss-fin"
@@ -86,7 +86,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-03"
+    last_push: "2026-09-22"
   - name: "holdspec"
     title: "holdspec"
     description: "Machine-checked TLA+ model and generated conformance suite for the payment authorization hold lifecycle: authorize, partial and multiple capture, void, expiry, and release of held funds."
@@ -94,7 +94,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-03"
+    last_push: "2026-09-16"
   - name: "finalitybench"
     title: "finalitybench"
     description: "An effect-level benchmark for agent decisions under delayed and conflicting financial finality"
@@ -102,47 +102,44 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-03"
-  - name: "STREAM-BSG"
-    title: "STREAM-BSG"
-    description: "STREAM-BSG is a streaming graph architecture for real-time fraud detection in B2B payment networks"
-    language: "Python"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-02"
-  - name: "abhisheksharma2411"
-    title: "abhisheksharma2411"
-    description: "Profile README"
-    language: null
+    last_push: "2026-09-16"
+  - name: "retry-safe-payment-idempotency-artifact"
+    title: "retry-safe-payment-idempotency-artifact"
+    description: "Bounded TLA+ model and deterministic conformance artifact for retry-safe payment idempotency."
+    language: "Go"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-02"
-  - name: "justonce"
-    title: "justonce"
-    description: "Make side effects happen exactly once. Idempotency keys, atomic claims, and an effect ledger for code that charges money, sends messages, or mutates state."
-    language: "Python"
+    last_push: "2026-09-14"
+  - name: "distributed-systems-skills"
+    title: "distributed-systems-skills"
+    description: "Agent skills for production correctness: idempotency, exactly-once effects, failure-mode analysis, and money-movement integrity."
+    language: "JavaScript"
     topics:
-      - "deduplication"
+      - "agent-skills"
+      - "claude-code"
       - "distributed-systems"
       - "exactly-once"
-      - "fintech"
       - "idempotency"
       - "payments"
-      - "postgres"
-      - "python"
-      - "reconciliation"
       - "reliability"
-      - "retry"
-      - "sqlite"
+      - "site-reliability-engineering"
+      - "skills"
     stars_fact: 1
     first_seen: null
-    last_push: "2026-08-28"
+    last_push: "2026-09-22"
+  - name: "synb2b-fraud-stream"
+    title: "synb2b-fraud-stream"
+    description: "Budget-constrained conformal risk control for fraud decisioning under drift and endogenous label arrival"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-05"
 ---
 
 # abhisheksharma2411
 
-5 pushes across 5 repositories on 5 active days in the last 90 days of public GitHub push activity.
+12 pushes across 9 repositories on 9 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/abhisheksharma2411

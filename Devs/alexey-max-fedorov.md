@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "716cf9e2237ac9db"
-pushes_per_week: [9, 27, 12, 2, 3, 6, 6, 2, 2, 1, 2, 0, 0]
+pushes_per_week: [9, 2, 7, 2, 7, 1, 1, 3, 0, 0, 0, 3, 1]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -25,22 +25,22 @@ windows:
     pushes: 4
     distinct_repos: 3
     active_days: 3
-    repos_not_owned: 2
-    not_owned_basenames: 2
-    not_owned_owners: 2
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "90d":
-    pushes: 72
-    distinct_repos: 15
-    active_days: 27
-    repos_not_owned: 5
-    not_owned_basenames: 5
+    pushes: 36
+    distinct_repos: 12
+    active_days: 19
+    repos_not_owned: 4
+    not_owned_basenames: 4
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 2.6667
-  repo_per_active_day: 0.5556
+  push_per_day: 1.8947
+  repo_per_active_day: 0.6316
   not_owned_ratio: 0.3333
-  basename_concentration: 0.1333
+  basename_concentration: 0.1667
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
+    pushes: 1
+    distinct_repos: 1
+    pushes_per_repo: 1.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -61,20 +61,20 @@ facets:
     distinct_repos: 3
     pushes_per_repo: 1.3333
     active_days: 3
-    repos_not_owned: 2
-    not_owned_basenames: 2
-    not_owned_owners: 2
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "90d":
-    pushes: 72
-    distinct_repos: 15
-    pushes_per_repo: 4.8000
-    active_days: 27
-    repos_not_owned: 5
-    not_owned_basenames: 5
+    pushes: 36
+    distinct_repos: 12
+    pushes_per_repo: 3.0000
+    active_days: 19
+    repos_not_owned: 4
+    not_owned_basenames: 4
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 27 active days in 90d — pass"
+  - "activity: 19 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "gizmo-ai-unlimited"
@@ -92,9 +92,25 @@ repos:
       - "gizmo-ai"
       - "hack"
       - "mod"
-    stars_fact: 6
+    stars_fact: 8
     first_seen: null
-    last_push: "2026-09-03"
+    last_push: "2026-09-23"
+  - name: "gaia-ai"
+    title: "gaia-ai"
+    description: "GAIA Code - Most powerful Perplexity Assistant for any software development. Agentic coding capabilities like Claude Code."
+    language: "Markdown"
+    topics:
+      - "ai"
+      - "code"
+      - "harness"
+      - "mcp"
+      - "perplexity"
+      - "prompts"
+      - "spaces"
+      - "trending"
+    stars_fact: 53
+    first_seen: null
+    last_push: "2026-09-22"
   - name: "dripwriter-origin"
     title: "dripwriter-origin"
     description: "Dripwriter Origin browser extension: Simulates human typing on any website — Google Docs, Canvas, and more: natural speed, realistic typos, false starts, and breaks."
@@ -110,9 +126,9 @@ repos:
       - "redirect"
       - "stealth"
       - "typer"
-    stars_fact: 16
+    stars_fact: 17
     first_seen: null
-    last_push: "2026-09-01"
+    last_push: "2026-09-22"
   - name: "ics-calendar-dxt"
     title: "ics-calendar-dxt"
     description: "iCloud Calendar MCP / Integration for Claude Desktop on MacOS"
@@ -120,7 +136,7 @@ repos:
     topics: []
     stars_fact: 4
     first_seen: null
-    last_push: "2026-09-01"
+    last_push: "2026-09-21"
   - name: "deskview-mcp"
     title: "deskview-mcp"
     description: "MacOS Desk view plugin for Claude Chat, Cowork, Code (Desktop Extension)"
@@ -128,23 +144,7 @@ repos:
     topics: []
     stars_fact: 3
     first_seen: null
-    last_push: "2026-09-01"
-  - name: "gaia-ai"
-    title: "gaia-ai"
-    description: "GAIA Code - Most powerful Perplexity Assistant for any software development. Agentic coding capabilities like Claude Code."
-    language: "Markdown"
-    topics:
-      - "ai"
-      - "code"
-      - "harness"
-      - "mcp"
-      - "perplexity"
-      - "prompts"
-      - "spaces"
-      - "trending"
-    stars_fact: 50
-    first_seen: null
-    last_push: "2026-09-01"
+    last_push: "2026-09-21"
   - name: "terminal-dxt"
     title: "terminal-dxt"
     description: "Claude Desktop extension exposing a run_command MCP tool: execute a bash command in a working directory and get back stdout, stderr, and exit code. Local only."
@@ -152,11 +152,11 @@ repos:
     topics: []
     stars_fact: 2
     first_seen: null
-    last_push: "2026-09-01"
+    last_push: "2026-09-23"
 ---
 
 # alexey-max-fedorov
 
-72 pushes across 15 repositories on 27 active days in the last 90 days of public GitHub push activity.
+36 pushes across 12 repositories on 19 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/alexey-max-fedorov

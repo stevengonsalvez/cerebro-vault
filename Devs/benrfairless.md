@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "3cb7ff1cdcf97c6b"
-pushes_per_week: [6, 10, 35, 15, 5, 3, 11, 6, 5, 35, 10, 5, 0]
+pushes_per_week: [36, 10, 6, 10, 7, 5, 15, 28, 8, 0, 4, 4, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,25 +22,25 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 50
-    distinct_repos: 19
-    active_days: 11
-    repos_not_owned: 18
-    not_owned_basenames: 18
+    pushes: 11
+    distinct_repos: 9
+    active_days: 6
+    repos_not_owned: 9
+    not_owned_basenames: 9
     not_owned_owners: 2
   "90d":
-    pushes: 146
-    distinct_repos: 63
-    active_days: 43
-    repos_not_owned: 59
-    not_owned_basenames: 57
-    not_owned_owners: 3
+    pushes: 133
+    distinct_repos: 56
+    active_days: 37
+    repos_not_owned: 55
+    not_owned_basenames: 54
+    not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 3.3953
-  repo_per_active_day: 1.4651
-  not_owned_ratio: 0.9365
-  basename_concentration: 0.0317
+  push_per_day: 3.5946
+  repo_per_active_day: 1.5135
+  not_owned_ratio: 0.9821
+  basename_concentration: 0.0357
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 50
-    distinct_repos: 19
-    pushes_per_repo: 2.6316
-    active_days: 11
-    repos_not_owned: 18
-    not_owned_basenames: 18
+    pushes: 11
+    distinct_repos: 9
+    pushes_per_repo: 1.2222
+    active_days: 6
+    repos_not_owned: 9
+    not_owned_basenames: 9
     not_owned_owners: 2
   "90d":
-    pushes: 146
-    distinct_repos: 63
-    pushes_per_repo: 2.3175
-    active_days: 43
-    repos_not_owned: 59
-    not_owned_basenames: 57
-    not_owned_owners: 3
+    pushes: 133
+    distinct_repos: 56
+    pushes_per_repo: 2.3750
+    active_days: 37
+    repos_not_owned: 55
+    not_owned_basenames: 54
+    not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 43 active days in 90d — pass"
+  - "activity: 37 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "user-profile-migration"
@@ -93,14 +93,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2025-04-07"
-  - name: "gh-actions-missive"
-    title: "gh-actions-missive"
-    description: "A GitHub action that updates issues if a Missive issue is linked"
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2025-12-05"
   - name: "github-org-audit"
     title: "github-org-audit"
     description: "Github Organisation Audit tool"
@@ -109,6 +101,14 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2025-11-05"
+  - name: "gh-actions-missive"
+    title: "gh-actions-missive"
+    description: "A GitHub action that updates issues if a Missive issue is linked"
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2025-12-05"
   - name: "docs"
     title: "docs"
     description: null
@@ -129,6 +129,6 @@ repos:
 
 # benrfairless
 
-146 pushes across 63 repositories on 43 active days in the last 90 days of public GitHub push activity.
+133 pushes across 56 repositories on 37 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/benrfairless

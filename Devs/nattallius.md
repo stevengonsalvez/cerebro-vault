@@ -8,11 +8,11 @@ provenance_repos:
   - "ChromeDevTools/chrome-devtools-mcp"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-09-04T06:06:21.234597+00:00"
+repos_populated: false
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "379642deb53f3714"
-pushes_per_week: [1, 0, 0, 0, 4, 0, 0, 0, 0, 3, 0, 0, 0]
+pushes_per_week: [0, 3, 1, 0, 0, 0, 3, 0, 0, 0, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,12 +22,12 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 3
-    distinct_repos: 2
-    active_days: 2
-    repos_not_owned: 2
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
+    repos_not_owned: 1
     not_owned_basenames: 1
-    not_owned_owners: 2
+    not_owned_owners: 1
   "90d":
     pushes: 8
     distinct_repos: 4
@@ -57,13 +57,13 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 3
-    distinct_repos: 2
-    pushes_per_repo: 1.5000
-    active_days: 2
-    repos_not_owned: 2
+    pushes: 1
+    distinct_repos: 1
+    pushes_per_repo: 1.0000
+    active_days: 1
+    repos_not_owned: 1
     not_owned_basenames: 1
-    not_owned_owners: 2
+    not_owned_owners: 1
   "90d":
     pushes: 8
     distinct_repos: 4
@@ -76,31 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "File-Manager-nodejs"
-    title: "File-Manager-nodejs"
-    description: null
-    language: "JavaScript"
-    topics: []
-    stars_fact: 3
-    first_seen: null
-    last_push: "2024-02-05"
-  - name: "CRUD-API-nodejs"
-    title: "CRUD-API-nodejs"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2024-02-13"
-  - name: "chromedriver-bug-repro"
-    title: "chromedriver-bug-repro"
-    description: null
-    language: "Ruby"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-01-09"
+repos: []
 ---
 
 # nattallius

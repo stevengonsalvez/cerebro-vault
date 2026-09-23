@@ -8,39 +8,39 @@ provenance_repos:
   - "ruvnet/ruflo"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+repos_populated: false
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "c60b77ce50fb8910"
-pushes_per_week: [162, 284, 255, 177, 37, 40, 19, 41, 28, 33, 14, 11, 2]
+pushes_per_week: [256, 87, 32, 40, 19, 43, 28, 19, 17, 6, 9, 29, 12]
 windows:
   "7d":
-    pushes: 3
-    distinct_repos: 3
-    active_days: 2
+    pushes: 14
+    distinct_repos: 8
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 70
-    distinct_repos: 17
-    active_days: 20
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 60
+    distinct_repos: 15
+    active_days: 21
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
-    pushes: 1103
-    distinct_repos: 44
-    active_days: 76
-    repos_not_owned: 5
-    not_owned_basenames: 5
-    not_owned_owners: 3
+    pushes: 597
+    distinct_repos: 39
+    active_days: 73
+    repos_not_owned: 4
+    not_owned_basenames: 4
+    not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 14.5132
-  repo_per_active_day: 0.5789
-  not_owned_ratio: 0.1136
-  basename_concentration: 0.0455
+  push_per_day: 8.1781
+  repo_per_active_day: 0.5342
+  not_owned_ratio: 0.1026
+  basename_concentration: 0.0513
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,126 +49,38 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 3
-    distinct_repos: 3
-    pushes_per_repo: 1.0000
-    active_days: 2
+    pushes: 14
+    distinct_repos: 8
+    pushes_per_repo: 1.7500
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 70
-    distinct_repos: 17
-    pushes_per_repo: 4.1176
-    active_days: 20
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 60
+    distinct_repos: 15
+    pushes_per_repo: 4.0000
+    active_days: 21
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
-    pushes: 1103
-    distinct_repos: 44
-    pushes_per_repo: 25.0682
-    active_days: 76
-    repos_not_owned: 5
-    not_owned_basenames: 5
-    not_owned_owners: 3
+    pushes: 597
+    distinct_repos: 39
+    pushes_per_repo: 15.3077
+    active_days: 73
+    repos_not_owned: 4
+    not_owned_basenames: 4
+    not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 76 active days in 90d — pass"
+  - "activity: 73 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "ruflo"
-    title: "ruflo"
-    description: "🌊 The original agent meta-harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, RAG integration, and native Claude Code / Codex / Hermes and many more Integrated"
-    language: "TypeScript"
-    topics:
-      - "agentic-ai"
-      - "agentic-framework"
-      - "agentic-workflow"
-      - "agents"
-      - "ai-agents"
-      - "ai-assistant"
-      - "ai-skills"
-      - "autonomous-agents"
-      - "claude-code"
-      - "codex"
-      - "dsh-plugin"
-      - "harness"
-      - "mcp-server"
-      - "multi-agent"
-      - "multi-agent-systems"
-      - "npm"
-      - "skills"
-      - "swarm"
-      - "swarm-intelligence"
-      - "typescript"
-    stars_fact: 70391
-    first_seen: "2026-08-22T06:00:04.021788+00:00"
-    last_push: "2026-09-03"
-  - name: "RuView"
-    title: "RuView"
-    description: "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video."
-    language: "Rust"
-    topics:
-      - "awesome"
-      - "claude"
-      - "densepose"
-      - "esp32"
-      - "firmware"
-      - "home-assistant"
-      - "home-automation"
-      - "iot"
-      - "monitoring"
-      - "networking"
-      - "npm"
-      - "pose-estimation"
-      - "react"
-      - "rf"
-      - "self-learning"
-      - "skills"
-      - "spatial-intelligence"
-      - "typescript"
-      - "wifi"
-      - "wifi-security"
-    stars_fact: 92464
-    first_seen: null
-    last_push: "2026-09-04"
-  - name: "powerprompt"
-    title: "powerprompt"
-    description: "Power Prompt - Enhance ChatGPT & OpenAi interaction. Seamless conversations. Choose models, save templates, set temp, length & tokens."
-    language: "JavaScript"
-    topics: []
-    stars_fact: 21
-    first_seen: null
-    last_push: "2023-02-15"
-  - name: "AiHCC"
-    title: "AiHCC"
-    description: "AI Hackerspace Consulting Collective (AiHCC)"
-    language: "Shell"
-    topics: []
-    stars_fact: 25
-    first_seen: null
-    last_push: "2024-05-07"
-  - name: "aws-dev"
-    title: "aws-dev"
-    description: "AWS Dev enviroment"
-    language: "Python"
-    topics: []
-    stars_fact: 22
-    first_seen: null
-    last_push: "2024-05-20"
-  - name: "Agent-Name-Service"
-    title: "Agent-Name-Service"
-    description: "Agent Name Service (ANS) Protocol, introduced by the OWASP GenAI Security Project, is a foundational framework designed to facilitate secure discovery and interaction among AI agents."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 81
-    first_seen: null
-    last_push: "2025-05-16"
+repos: []
 ---
 
 # ruvnet
 
-1103 pushes across 44 repositories on 76 active days in the last 90 days of public GitHub push activity.
+597 pushes across 39 repositories on 73 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ruvnet

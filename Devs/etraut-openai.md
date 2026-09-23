@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "0388a4f55f4206c8"
   - "0577669e18ed3998"
@@ -26,7 +26,7 @@ provenance:
   - "c6b4a874521ceb02"
   - "cf565721454d59f8"
   - "e26852201e6f38fc"
-pushes_per_week: [46, 9, 7, 4, 12, 0, 0, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [5, 11, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -43,16 +43,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 78
+    pushes: 19
     distinct_repos: 1
-    active_days: 17
+    active_days: 8
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 4.5882
-  repo_per_active_day: 0.0588
+  push_per_day: 2.3750
+  repo_per_active_day: 0.1250
   not_owned_ratio: 1.0000
   basename_concentration: 1.0000
   shapes: []
@@ -79,22 +79,22 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 78
+    pushes: 19
     distinct_repos: 1
-    pushes_per_repo: 78.0000
-    active_days: 17
+    pushes_per_repo: 19.0000
+    active_days: 8
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 15 vault signal(s) — pass"
-  - "activity: 17 active days in 90d — pass"
+  - "activity: 8 active days in 90d — pass"
   - "automation: clear — pass"
 repos: []
 ---
 
 # etraut-openai
 
-78 pushes across 1 repository on 17 active days in the last 90 days of public GitHub push activity.
+19 pushes across 1 repository on 8 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/etraut-openai

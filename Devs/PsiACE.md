@@ -8,39 +8,39 @@ provenance_repos:
   - "agentskills/agentskills"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+repos_populated: false
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "48dbbdd8fd0d3029"
-pushes_per_week: [18, 12, 19, 10, 5, 5, 2, 5, 9, 13, 5, 6, 1]
+pushes_per_week: [12, 6, 3, 6, 1, 7, 18, 4, 6, 3, 1, 3, 8]
 windows:
   "7d":
-    pushes: 2
-    distinct_repos: 2
-    active_days: 2
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 8
+    distinct_repos: 4
+    active_days: 3
+    repos_not_owned: 2
+    not_owned_basenames: 2
+    not_owned_owners: 2
   "30d":
-    pushes: 29
+    pushes: 18
     distinct_repos: 10
-    active_days: 16
-    repos_not_owned: 4
-    not_owned_basenames: 4
-    not_owned_owners: 4
+    active_days: 12
+    repos_not_owned: 5
+    not_owned_basenames: 5
+    not_owned_owners: 5
   "90d":
-    pushes: 110
-    distinct_repos: 18
-    active_days: 46
-    repos_not_owned: 8
-    not_owned_basenames: 8
+    pushes: 78
+    distinct_repos: 19
+    active_days: 41
+    repos_not_owned: 9
+    not_owned_basenames: 9
     not_owned_owners: 6
 automation:
   state: "clear"
-  push_per_day: 2.3913
-  repo_per_active_day: 0.3913
-  not_owned_ratio: 0.4444
-  basename_concentration: 0.1111
+  push_per_day: 1.9024
+  repo_per_active_day: 0.4634
+  not_owned_ratio: 0.4737
+  basename_concentration: 0.1053
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,106 +49,38 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
-    distinct_repos: 2
-    pushes_per_repo: 1.0000
-    active_days: 2
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 8
+    distinct_repos: 4
+    pushes_per_repo: 2.0000
+    active_days: 3
+    repos_not_owned: 2
+    not_owned_basenames: 2
+    not_owned_owners: 2
   "30d":
-    pushes: 29
+    pushes: 18
     distinct_repos: 10
-    pushes_per_repo: 2.9000
-    active_days: 16
-    repos_not_owned: 4
-    not_owned_basenames: 4
-    not_owned_owners: 4
+    pushes_per_repo: 1.8000
+    active_days: 12
+    repos_not_owned: 5
+    not_owned_basenames: 5
+    not_owned_owners: 5
   "90d":
-    pushes: 110
-    distinct_repos: 18
-    pushes_per_repo: 6.1111
-    active_days: 46
-    repos_not_owned: 8
-    not_owned_basenames: 8
+    pushes: 78
+    distinct_repos: 19
+    pushes_per_repo: 4.1053
+    active_days: 41
+    repos_not_owned: 9
+    not_owned_basenames: 9
     not_owned_owners: 6
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 46 active days in 90d — pass"
+  - "activity: 41 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "brand"
-    title: "brand"
-    description: "logo assets and brand guidelines"
-    language: null
-    topics: []
-    stars_fact: 4
-    first_seen: null
-    last_push: "2023-11-01"
-  - name: "unlink"
-    title: "unlink"
-    description: "Fuck the resume, I don't want to write it."
-    language: "Typst"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-08-30"
-  - name: "skills"
-    title: "skills"
-    description: "A small, shared skill library by builders, for builders."
-    language: "HTML"
-    topics:
-      - "agent"
-      - "best-practices"
-      - "claude-code"
-      - "codex"
-      - "python"
-      - "rust"
-      - "skills"
-    stars_fact: 170
-    first_seen: null
-    last_push: "2026-08-19"
-  - name: "riteraft"
-    title: "riteraft"
-    description: "RiteRaft - A raft framework, for regular people"
-    language: "Rust"
-    topics:
-      - "distributed"
-      - "distributed-systems"
-      - "raft"
-      - "raft-framework"
-      - "rust"
-    stars_fact: 333
-    first_seen: null
-    last_push: "2024-02-18"
-  - name: "ritelinked"
-    title: "ritelinked"
-    description: "RiteLinked - LinkedHashMap & LinkedHashSet in Rust"
-    language: "Rust"
-    topics:
-      - "data-structures"
-      - "hash"
-      - "hashmap"
-      - "hashset"
-      - "indexmap"
-      - "linked-hash-map"
-      - "linked-hash-set"
-      - "rust"
-    stars_fact: 52
-    first_seen: null
-    last_push: "2025-03-21"
-  - name: "breve"
-    title: "breve"
-    description: "In-memory cache implementation with Uno as the admission policy and S3-FIFO as the eviction policy"
-    language: "Rust"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2025-03-12"
+repos: []
 ---
 
 # PsiACE
 
-110 pushes across 18 repositories on 46 active days in the last 90 days of public GitHub push activity.
+78 pushes across 19 repositories on 41 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/PsiACE

@@ -8,39 +8,39 @@ provenance_repos:
   - "abhigyanpatwari/GitNexus"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+repos_populated: false
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [0, 0, 19, 5, 22, 13, 22, 12, 5, 5, 3, 0, 0]
+pushes_per_week: [15, 23, 8, 22, 17, 9, 1, 7, 0, 0, 0, 1, 2]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    pushes: 2
+    distinct_repos: 2
+    active_days: 1
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "30d":
-    pushes: 8
-    distinct_repos: 4
-    active_days: 4
+    pushes: 3
+    distinct_repos: 3
+    active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 106
-    distinct_repos: 27
+    pushes: 105
+    distinct_repos: 29
     active_days: 34
-    repos_not_owned: 10
-    not_owned_basenames: 10
-    not_owned_owners: 1
+    repos_not_owned: 11
+    not_owned_basenames: 11
+    not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 3.1176
-  repo_per_active_day: 0.7941
-  not_owned_ratio: 0.3704
-  basename_concentration: 0.0741
+  push_per_day: 3.0882
+  repo_per_active_day: 0.8529
+  not_owned_ratio: 0.3793
+  basename_concentration: 0.0690
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,86 +49,38 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    pushes: 2
+    distinct_repos: 2
+    pushes_per_repo: 1.0000
+    active_days: 1
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "30d":
-    pushes: 8
-    distinct_repos: 4
-    pushes_per_repo: 2.0000
-    active_days: 4
+    pushes: 3
+    distinct_repos: 3
+    pushes_per_repo: 1.0000
+    active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 106
-    distinct_repos: 27
-    pushes_per_repo: 3.9259
+    pushes: 105
+    distinct_repos: 29
+    pushes_per_repo: 3.6207
     active_days: 34
-    repos_not_owned: 10
-    not_owned_basenames: 10
-    not_owned_owners: 1
+    repos_not_owned: 11
+    not_owned_basenames: 11
+    not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 34 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "scalekit-render-mtkybajd"
-    title: "scalekit-render-mtkybajd"
-    description: "Created from render-examples/scalekit-render template"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-03"
-  - name: "odysseus-render-msp0hfy2"
-    title: "odysseus-render-msp0hfy2"
-    description: "Created from render-examples/odysseus-render template"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-01"
-  - name: "cursor-self-hosted-agent-msoxw5g9"
-    title: "cursor-self-hosted-agent-msoxw5g9"
-    description: "Created from render-examples/cursor-self-hosted-agent template"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-11"
-  - name: "ho1yshif.github.io"
-    title: "ho1yshif.github.io"
-    description: "New portfolio site"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-07-09"
-  - name: "interval-audio"
-    title: "interval-audio"
-    description: "Code for interval audio website"
-    language: "CSS"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-07-05"
-  - name: "eitan"
-    title: "eitan"
-    description: "Portfolio website for Eitan"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-06-28"
+repos: []
 ---
 
 # Ho1yShif
 
-106 pushes across 27 repositories on 34 active days in the last 90 days of public GitHub push activity.
+105 pushes across 29 repositories on 34 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Ho1yShif

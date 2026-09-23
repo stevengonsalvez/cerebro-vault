@@ -8,11 +8,11 @@ provenance_repos:
   - "AstrBotDevs/AstrBot"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+repos_populated: false
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [7, 0, 17, 26, 3, 1, 0, 2, 0, 0, 0, 0, 0]
+pushes_per_week: [29, 13, 0, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 56
+    pushes: 45
     distinct_repos: 6
-    active_days: 15
+    active_days: 12
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 3.7333
-  repo_per_active_day: 0.4000
+  push_per_day: 3.7500
+  repo_per_active_day: 0.5000
   not_owned_ratio: 0.1667
   basename_concentration: 0.3333
   shapes: []
@@ -65,70 +65,22 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 56
+    pushes: 45
     distinct_repos: 6
-    pushes_per_repo: 9.3333
-    active_days: 15
+    pushes_per_repo: 7.5000
+    active_days: 12
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 15 active days in 90d — pass"
+  - "activity: 12 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "PaloMiku-AUR-Action"
-    title: "PaloMiku-AUR-Action"
-    description: null
-    language: "Shell"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-03"
-  - name: "blog-public"
-    title: "blog-public"
-    description: null
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-14"
-  - name: "Steam_Profile_API_Server"
-    title: "Steam_Profile_API_Server"
-    description: "一个简单的无服务器 API，用于展示你自己的 Steam 用户信息。"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 7
-    first_seen: null
-    last_push: "2026-01-12"
-  - name: "profile-api"
-    title: "profile-api"
-    description: null
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-05-07"
-  - name: "MoeKey-AUR-Action"
-    title: "MoeKey-AUR-Action"
-    description: null
-    language: "Shell"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-05-01"
-  - name: "drcom-armbian-wfsp"
-    title: "drcom-armbian-wfsp"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-04-24"
+repos: []
 ---
 
 # PaloMiku
 
-56 pushes across 6 repositories on 15 active days in the last 90 days of public GitHub push activity.
+45 pushes across 6 repositories on 12 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/PaloMiku

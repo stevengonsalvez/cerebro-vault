@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-04T06:06:21.234597+00:00"
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "d1946b21c02e5fa5"
-pushes_per_week: [11, 4, 3, 9, 10, 1, 2, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [4, 17, 2, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 40
+    pushes: 25
     distinct_repos: 3
-    active_days: 15
+    active_days: 10
     repos_not_owned: 3
     not_owned_basenames: 2
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 2.6667
-  repo_per_active_day: 0.2000
+  push_per_day: 2.5000
+  repo_per_active_day: 0.3000
   not_owned_ratio: 1.0000
   basename_concentration: 0.6667
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 40
+    pushes: 25
     distinct_repos: 3
-    pushes_per_repo: 13.3333
-    active_days: 15
+    pushes_per_repo: 8.3333
+    active_days: 10
     repos_not_owned: 3
     not_owned_basenames: 2
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 15 active days in 90d — pass"
+  - "activity: 10 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "ai-motion"
@@ -86,9 +86,9 @@ repos:
       - "ai"
       - "animation"
       - "webgl"
-    stars_fact: 32
+    stars_fact: 33
     first_seen: null
-    last_push: "2026-09-01"
+    last_push: "2026-09-22"
   - name: "page-agent-ext-dev"
     title: "page-agent-ext-dev"
     description: "Chrome extension experiments"
@@ -133,6 +133,6 @@ repos:
 
 # gaomeng1900
 
-40 pushes across 3 repositories on 15 active days in the last 90 days of public GitHub push activity.
+25 pushes across 3 repositories on 10 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/gaomeng1900

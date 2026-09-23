@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [2, 2, 29, 18, 7, 7, 1, 2, 3, 4, 0, 0, 0]
+pushes_per_week: [18, 16, 9, 0, 3, 3, 3, 1, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,25 +22,25 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 4
-    distinct_repos: 1
-    active_days: 2
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 75
-    distinct_repos: 7
-    active_days: 25
-    repos_not_owned: 2
-    not_owned_basenames: 2
+    pushes: 53
+    distinct_repos: 5
+    active_days: 19
+    repos_not_owned: 1
+    not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 3.0000
-  repo_per_active_day: 0.2800
-  not_owned_ratio: 0.2857
-  basename_concentration: 0.2857
+  push_per_day: 2.7895
+  repo_per_active_day: 0.2632
+  not_owned_ratio: 0.2000
+  basename_concentration: 0.4000
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -57,26 +57,34 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 4
-    distinct_repos: 1
-    pushes_per_repo: 4.0000
-    active_days: 2
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 75
-    distinct_repos: 7
-    pushes_per_repo: 10.7143
-    active_days: 25
-    repos_not_owned: 2
-    not_owned_basenames: 2
+    pushes: 53
+    distinct_repos: 5
+    pushes_per_repo: 10.6000
+    active_days: 19
+    repos_not_owned: 1
+    not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 25 active days in 90d — pass"
+  - "activity: 19 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "InfoCat"
+    title: "InfoCat"
+    description: "InfoCat, 家庭光猫工厂配置获取工具"
+    language: "C++"
+    topics: []
+    stars_fact: 26
+    first_seen: null
+    last_push: "2025-09-07"
   - name: "MisideTrainer"
     title: "MisideTrainer"
     description: "A game modifier for MiSide that offers useful features such as changing the probability of the alternative menu (secrect menu) and alternative menu music to 100% to set it to always show, providing modifications to almost all built-in mini-games. The tool supports multiple languages, including English, Simplified Chinese and Russian"
@@ -89,14 +97,6 @@ repos:
     stars_fact: 4
     first_seen: null
     last_push: "2025-02-22"
-  - name: "InfoCat"
-    title: "InfoCat"
-    description: "InfoCat, 家庭光猫工厂配置获取工具"
-    language: "C++"
-    topics: []
-    stars_fact: 25
-    first_seen: null
-    last_push: "2025-09-07"
   - name: "CatGuard"
     title: "CatGuard"
     description: null
@@ -143,6 +143,6 @@ repos:
 
 # CN-Scars
 
-75 pushes across 7 repositories on 25 active days in the last 90 days of public GitHub push activity.
+53 pushes across 5 repositories on 19 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/CN-Scars

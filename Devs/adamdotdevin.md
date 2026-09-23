@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [6, 19, 6, 6, 4, 7, 0, 0, 1, 0, 0, 0, 0]
+pushes_per_week: [7, 2, 9, 2, 0, 0, 1, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
-    pushes: 49
+    pushes: 21
     distinct_repos: 2
-    active_days: 20
+    active_days: 11
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.4500
-  repo_per_active_day: 0.1000
+  push_per_day: 1.9091
+  repo_per_active_day: 0.1818
   not_owned_ratio: 1.0000
   basename_concentration: 0.5000
   shapes: []
@@ -57,34 +57,26 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
-    pushes: 49
+    pushes: 21
     distinct_repos: 2
-    pushes_per_repo: 24.5000
-    active_days: 20
+    pushes_per_repo: 10.5000
+    active_days: 11
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 20 active days in 90d — pass"
+  - "activity: 11 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "good-repo"
-    title: "good-repo"
-    description: "Preeeeetty, pretty good"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 1264
-    first_seen: null
-    last_push: "2023-02-06"
   - name: "dotfiles"
     title: "dotfiles"
     description: "My dotfiles, heyyyy"
@@ -93,9 +85,17 @@ repos:
       - "dotfiles"
       - "neovim"
       - "tmux"
-    stars_fact: 49
+    stars_fact: 50
     first_seen: null
     last_push: "2026-07-03"
+  - name: "good-repo"
+    title: "good-repo"
+    description: "Preeeeetty, pretty good"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 1264
+    first_seen: null
+    last_push: "2023-02-06"
   - name: "adamdotdev"
     title: "adamdotdev"
     description: "personal site at https://adam.dev"
@@ -132,6 +132,6 @@ repos:
 
 # adamdotdevin
 
-49 pushes across 2 repositories on 20 active days in the last 90 days of public GitHub push activity.
+21 pushes across 2 repositories on 11 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/adamdotdevin

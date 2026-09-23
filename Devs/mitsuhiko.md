@@ -8,39 +8,39 @@ provenance_repos:
   - "antirez/ds4"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+repos_populated: false
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "3eacb4655aba2497"
-pushes_per_week: [27, 32, 20, 9, 8, 8, 6, 8, 10, 6, 2, 1, 0]
+pushes_per_week: [6, 11, 9, 6, 5, 12, 11, 1, 3, 0, 0, 0, 3]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    pushes: 3
+    distinct_repos: 1
+    active_days: 3
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "30d":
-    pushes: 13
-    distinct_repos: 7
-    active_days: 10
-    repos_not_owned: 3
-    not_owned_basenames: 3
+    pushes: 4
+    distinct_repos: 1
+    active_days: 4
+    repos_not_owned: 1
+    not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 137
-    distinct_repos: 18
-    active_days: 49
-    repos_not_owned: 11
-    not_owned_basenames: 7
-    not_owned_owners: 7
+    pushes: 67
+    distinct_repos: 13
+    active_days: 36
+    repos_not_owned: 6
+    not_owned_basenames: 5
+    not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 2.7959
-  repo_per_active_day: 0.3673
-  not_owned_ratio: 0.6111
-  basename_concentration: 0.2222
+  push_per_day: 1.8611
+  repo_per_active_day: 0.3611
+  not_owned_ratio: 0.4615
+  basename_concentration: 0.1538
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,97 +49,38 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    pushes: 3
+    distinct_repos: 1
+    pushes_per_repo: 3.0000
+    active_days: 3
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "30d":
-    pushes: 13
-    distinct_repos: 7
-    pushes_per_repo: 1.8571
-    active_days: 10
-    repos_not_owned: 3
-    not_owned_basenames: 3
+    pushes: 4
+    distinct_repos: 1
+    pushes_per_repo: 4.0000
+    active_days: 4
+    repos_not_owned: 1
+    not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 137
-    distinct_repos: 18
-    pushes_per_repo: 7.6111
-    active_days: 49
-    repos_not_owned: 11
-    not_owned_basenames: 7
-    not_owned_owners: 7
+    pushes: 67
+    distinct_repos: 13
+    pushes_per_repo: 5.1538
+    active_days: 36
+    repos_not_owned: 6
+    not_owned_basenames: 5
+    not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 49 active days in 90d — pass"
+  - "activity: 36 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "insta"
-    title: "insta"
-    description: "A snapshot testing library for rust"
-    language: "Rust"
-    topics:
-      - "rust"
-      - "snapshot-tests"
-      - "vscode-extension"
-    stars_fact: 2954
-    first_seen: null
-    last_push: "2026-08-17"
-  - name: "fragile"
-    title: "fragile"
-    description: "Utility wrapper to send non send types to other threads safely"
-    language: "Rust"
-    topics: []
-    stars_fact: 193
-    first_seen: null
-    last_push: "2026-09-03"
-  - name: "memo-map"
-    title: "memo-map"
-    description: "A crate implementing a synchronized map for memoization"
-    language: "Rust"
-    topics: []
-    stars_fact: 31
-    first_seen: null
-    last_push: "2026-09-03"
-  - name: "agent-stuff"
-    title: "agent-stuff"
-    description: "These are commands I use with agents, mostly Claude"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 3043
-    first_seen: null
-    last_push: "2026-09-01"
-  - name: "similar"
-    title: "similar"
-    description: "A high level diffing library for rust based on diffs"
-    language: "Rust"
-    topics:
-      - "diff"
-      - "patch"
-      - "rust"
-      - "unified-diff"
-    stars_fact: 1317
-    first_seen: null
-    last_push: "2026-08-29"
-  - name: "minijinja"
-    title: "minijinja"
-    description: "MiniJinja is a powerful but minimal dependency template engine for Rust compatible with Jinja/Jinja2"
-    language: "Rust"
-    topics:
-      - "jinja"
-      - "jinja2"
-      - "rust"
-      - "templates"
-    stars_fact: 2755
-    first_seen: null
-    last_push: "2026-08-31"
+repos: []
 ---
 
 # mitsuhiko
 
-137 pushes across 18 repositories on 49 active days in the last 90 days of public GitHub push activity.
+67 pushes across 13 repositories on 36 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/mitsuhiko

@@ -9,41 +9,41 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "97c4e9cb8b163ddb"
   - "c7515e0fa4368a55"
   - "d3abe74726b22711"
   - "e7c647c4d0689526"
-pushes_per_week: [10, 11, 7, 2, 3, 4, 6, 2, 1, 0, 0, 0, 0]
+pushes_per_week: [6, 4, 2, 6, 4, 1, 0, 0, 0, 0, 0, 0, 3]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    pushes: 3
+    distinct_repos: 2
+    active_days: 2
+    repos_not_owned: 2
+    not_owned_basenames: 2
+    not_owned_owners: 2
   "30d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    pushes: 3
+    distinct_repos: 2
+    active_days: 2
+    repos_not_owned: 2
+    not_owned_basenames: 2
+    not_owned_owners: 2
   "90d":
-    pushes: 46
-    distinct_repos: 15
-    active_days: 24
-    repos_not_owned: 12
-    not_owned_basenames: 11
+    pushes: 26
+    distinct_repos: 11
+    active_days: 17
+    repos_not_owned: 9
+    not_owned_basenames: 9
     not_owned_owners: 4
 automation:
   state: "clear"
-  push_per_day: 1.9167
-  repo_per_active_day: 0.6250
-  not_owned_ratio: 0.8000
-  basename_concentration: 0.1333
+  push_per_day: 1.5294
+  repo_per_active_day: 0.6471
+  not_owned_ratio: 0.8182
+  basename_concentration: 0.0909
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -52,32 +52,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    pushes: 3
+    distinct_repos: 2
+    pushes_per_repo: 1.5000
+    active_days: 2
+    repos_not_owned: 2
+    not_owned_basenames: 2
+    not_owned_owners: 2
   "30d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    pushes: 3
+    distinct_repos: 2
+    pushes_per_repo: 1.5000
+    active_days: 2
+    repos_not_owned: 2
+    not_owned_basenames: 2
+    not_owned_owners: 2
   "90d":
-    pushes: 46
-    distinct_repos: 15
-    pushes_per_repo: 3.0667
-    active_days: 24
-    repos_not_owned: 12
-    not_owned_basenames: 11
+    pushes: 26
+    distinct_repos: 11
+    pushes_per_repo: 2.3636
+    active_days: 17
+    repos_not_owned: 9
+    not_owned_basenames: 9
     not_owned_owners: 4
 reasons:
   - "provenance: 4 vault signal(s) — pass"
-  - "activity: 24 active days in 90d — pass"
+  - "activity: 17 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "bsky-backup"
@@ -87,6 +87,31 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
+    last_push: "2026-09-23"
+  - name: "feedyour.email"
+    title: "feedyour.email"
+    description: "(rss) feed your emails"
+    language: "Ruby"
+    topics: []
+    stars_fact: 49
+    first_seen: null
+    last_push: "2026-09-22"
+  - name: "andre.arko.net"
+    title: "andre.arko.net"
+    description: "blog"
+    language: "CSS"
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-09-17"
+  - name: "dotfiles"
+    title: "dotfiles"
+    description: null
+    language: "Shell"
+    topics:
+      - "dotfiles"
+    stars_fact: 23
+    first_seen: null
     last_push: "2026-09-03"
   - name: "rails-footnotes"
     title: "rails-footnotes"
@@ -95,32 +120,7 @@ repos:
     topics: []
     stars_fact: 1521
     first_seen: null
-    last_push: "2026-09-02"
-  - name: "feedyour.email"
-    title: "feedyour.email"
-    description: "(rss) feed your emails"
-    language: "Ruby"
-    topics: []
-    stars_fact: 49
-    first_seen: null
-    last_push: "2026-08-31"
-  - name: "dotfiles"
-    title: "dotfiles"
-    description: null
-    language: "Shell"
-    topics:
-      - "dotfiles"
-    stars_fact: 22
-    first_seen: null
-    last_push: "2026-08-20"
-  - name: "andre.arko.net"
-    title: "andre.arko.net"
-    description: "blog"
-    language: "CSS"
-    topics: []
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-07-31"
+    last_push: "2026-09-23"
   - name: "actually.men"
     title: "actually.men"
     description: "is tech a meritocracy? actually, men,"
@@ -133,6 +133,6 @@ repos:
 
 # indirect
 
-46 pushes across 15 repositories on 24 active days in the last 90 days of public GitHub push activity.
+26 pushes across 11 repositories on 17 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/indirect

@@ -8,37 +8,37 @@ provenance_repos:
   - "anthropics/anthropic-sdk-python"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+repos_populated: false
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "1be978947e68d1f2"
-pushes_per_week: [0, 3, 3, 3, 2, 3, 3, 1, 5, 2, 0, 2, 0]
+pushes_per_week: [2, 3, 3, 2, 2, 1, 7, 0, 2, 0, 1, 1, 1]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 9
-    distinct_repos: 2
-    active_days: 6
+    pushes: 5
+    distinct_repos: 1
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 27
+    pushes: 25
     distinct_repos: 2
-    active_days: 24
+    active_days: 22
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.1250
-  repo_per_active_day: 0.0833
+  push_per_day: 1.1364
+  repo_per_active_day: 0.0909
   not_owned_ratio: 0.0000
   basename_concentration: 0.5000
   shapes: []
@@ -49,134 +49,38 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
+    pushes: 1
+    distinct_repos: 1
+    pushes_per_repo: 1.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 9
-    distinct_repos: 2
-    pushes_per_repo: 4.5000
-    active_days: 6
+    pushes: 5
+    distinct_repos: 1
+    pushes_per_repo: 5.0000
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 27
+    pushes: 25
     distinct_repos: 2
-    pushes_per_repo: 13.5000
-    active_days: 24
+    pushes_per_repo: 12.5000
+    active_days: 22
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 24 active days in 90d — pass"
+  - "activity: 22 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "kozistr"
-    title: "kozistr"
-    description: "my simple profile"
-    language: null
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-09-02"
-  - name: "hashcodecs-rs"
-    title: "hashcodecs-rs"
-    description: "A blazing fast hash & codecs implementations in pure Rust"
-    language: "Rust"
-    topics:
-      - "base64"
-      - "murmur3"
-      - "python"
-      - "rust"
-      - "simd"
-      - "xxhash"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-02"
-  - name: "pytorch_optimizer"
-    title: "pytorch_optimizer"
-    description: "optimizer & lr scheduler & loss function collections in PyTorch"
-    language: "Python"
-    topics:
-      - "adabelief"
-      - "adai"
-      - "adamp"
-      - "adan"
-      - "ademamix"
-      - "deep-learning"
-      - "diffgrad"
-      - "gradient-centralization"
-      - "learning-rate-scheduling"
-      - "lookahead"
-      - "loss-functions"
-      - "madgrad"
-      - "muon"
-      - "optimizer"
-      - "pytorch"
-      - "radam"
-      - "ranger"
-      - "sam"
-      - "scion"
-    stars_fact: 427
-    first_seen: null
-    last_push: "2026-08-24"
-  - name: "semantic-search-rs"
-    title: "semantic-search-rs"
-    description: "semantic vector search demo with gRPC server in Rust"
-    language: "Rust"
-    topics:
-      - "deep-learning"
-      - "grpc"
-      - "hnsw"
-      - "language-model"
-      - "libtorch"
-      - "quantize"
-      - "rust"
-      - "search-engine"
-      - "semantic-search"
-      - "simd"
-    stars_fact: 10
-    first_seen: null
-    last_push: "2023-08-29"
-  - name: "catboost-server-rs"
-    title: "catboost-server-rs"
-    description: "CatBoost server in Rust + gRPC"
-    language: "Rust"
-    topics:
-      - "catboost"
-      - "grpc"
-      - "machine-learning"
-      - "rust"
-      - "server"
-      - "serving"
-    stars_fact: 3
-    first_seen: null
-    last_push: "2022-09-09"
-  - name: "improved-ContentDisentanglement"
-    title: "improved-ContentDisentanglement"
-    description: "PyTorch implementation of \"Emerging Disentanglement in Auto-Encoder Based Unsupervised Image Content Transfer\" - tuned version"
-    language: "Python"
-    topics:
-      - "auto-encoder"
-      - "bald"
-      - "content-transitions"
-      - "disentangled-representations"
-      - "gan"
-      - "i2i"
-      - "pytorch"
-    stars_fact: 5
-    first_seen: null
-    last_push: "2019-09-21"
+repos: []
 ---
 
 # kozistr
 
-27 pushes across 2 repositories on 24 active days in the last 90 days of public GitHub push activity.
+25 pushes across 2 repositories on 22 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/kozistr

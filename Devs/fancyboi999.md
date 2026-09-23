@@ -11,40 +11,40 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "16389f32495280ea"
   - "541318303a272608"
   - "d1946b21c02e5fa5"
-pushes_per_week: [22, 12, 74, 16, 12, 10, 0, 3, 0, 0, 0, 0, 0]
+pushes_per_week: [51, 20, 7, 6, 2, 1, 0, 0, 0, 0, 1, 0, 9]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
+    pushes: 9
+    distinct_repos: 5
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
+    pushes: 10
+    distinct_repos: 6
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 149
-    distinct_repos: 11
-    active_days: 32
+    pushes: 97
+    distinct_repos: 13
+    active_days: 27
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 4.6562
-  repo_per_active_day: 0.3438
-  not_owned_ratio: 0.0909
-  basename_concentration: 0.1818
+  push_per_day: 3.5926
+  repo_per_active_day: 0.4815
+  not_owned_ratio: 0.0769
+  basename_concentration: 0.1538
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -53,32 +53,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
+    pushes: 9
+    distinct_repos: 5
+    pushes_per_repo: 1.8000
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
+    pushes: 10
+    distinct_repos: 6
+    pushes_per_repo: 1.6667
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 149
-    distinct_repos: 11
-    pushes_per_repo: 13.5455
-    active_days: 32
+    pushes: 97
+    distinct_repos: 13
+    pushes_per_repo: 7.4615
+    active_days: 27
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 3 vault signal(s) — pass"
-  - "activity: 32 active days in 90d — pass"
+  - "activity: 27 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "ai-engineering-from-scratch-zh"
@@ -106,9 +106,28 @@ repos:
       - "reinforcement-learning"
       - "transformers"
       - "tutorial"
-    stars_fact: 1031
+    stars_fact: 1095
     first_seen: null
-    last_push: "2026-08-31"
+    last_push: "2026-09-21"
+  - name: "goofish-cli"
+    title: "goofish-cli"
+    description: "闲鱼 CLI · 原生支持 MCP · 为 AI Agent 而生 | Goofish (Xianyu) automation CLI · MCP-ready · Built for AI Agents"
+    language: "Python"
+    topics:
+      - "ai-agent"
+      - "automation"
+      - "claude"
+      - "cli"
+      - "goofish"
+      - "mcp"
+      - "mcp-server"
+      - "python"
+      - "typer"
+      - "websocket"
+      - "xianyu"
+    stars_fact: 277
+    first_seen: null
+    last_push: "2026-09-17"
   - name: "Loomic"
     title: "Loomic"
     description: "Open-source AI canvas design agent — alternative to Lovart / CapCut Video Studio / Canva AI. Chat-driven image & video generation on an infinite canvas."
@@ -134,28 +153,25 @@ repos:
       - "text-to-video"
       - "typescript"
       - "video-generation"
-    stars_fact: 210
+    stars_fact: 264
     first_seen: null
     last_push: "2026-09-03"
-  - name: "goofish-cli"
-    title: "goofish-cli"
-    description: "闲鱼 CLI · 原生支持 MCP · 为 AI Agent 而生 | Goofish (Xianyu) automation CLI · MCP-ready · Built for AI Agents"
-    language: "Python"
+  - name: "pi-cliproxy-search"
+    title: "pi-cliproxy-search"
+    description: "⚡ Blazing-fast multi-engine web search for Pi Coding Agent via CLIProxyAPI (Codex Alpha Search & Google Antigravity Grounding)"
+    language: "TypeScript"
     topics:
       - "ai-agent"
-      - "automation"
-      - "claude"
-      - "cli"
-      - "goofish"
-      - "mcp"
-      - "mcp-server"
-      - "python"
-      - "typer"
-      - "websocket"
-      - "xianyu"
-    stars_fact: 147
+      - "antigravity"
+      - "cliproxyapi"
+      - "coding-agent"
+      - "developer-tools"
+      - "openai-codex"
+      - "pi-package"
+      - "web-search"
+    stars_fact: 0
     first_seen: null
-    last_push: "2026-09-02"
+    last_push: "2026-09-22"
   - name: "open-tag"
     title: "open-tag"
     description: "Open-source, self-hostable alternative to Claude Tag — a Slack-style workspace where your team and its AI agents (Claude Code, Codex, GitHub Copilot, and more) work as teammates in channels, threads, DMs, and shared tasks. Your data stays on your machines."
@@ -178,29 +194,21 @@ repos:
       - "slack-alternative"
       - "typescript"
       - "websocket"
-    stars_fact: 181
+    stars_fact: 198
     first_seen: null
     last_push: "2026-08-22"
-  - name: "Banana-Studio"
-    title: "Banana-Studio"
-    description: "🍌 Banana-Studio: The Next.js 16 AI Image Editor. Generate, Edit, and Segment images with Google Gemini & Meta SAM-2. Fast, Local, & Open Source."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 8
-    first_seen: null
-    last_push: "2026-01-24"
-  - name: "weixin_search_mcp"
-    title: "weixin_search_mcp"
-    description: "微信公众号搜索，及文章内容获取，大模型mcp服务"
+  - name: "ockev"
+    title: "ockev"
+    description: "Ship the result, not the conversation. 35ms discriminative decision engine for AI agent deliverables (inspired by TypeSafe Jev & Occam's razor)."
     language: "Python"
     topics: []
-    stars_fact: 175
+    stars_fact: 0
     first_seen: null
-    last_push: "2026-08-17"
+    last_push: "2026-09-21"
 ---
 
 # fancyboi999
 
-149 pushes across 11 repositories on 32 active days in the last 90 days of public GitHub push activity.
+97 pushes across 13 repositories on 27 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/fancyboi999

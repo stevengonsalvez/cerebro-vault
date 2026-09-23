@@ -11,11 +11,11 @@ provenance_repos:
 admitted: true
 low_n: true
 repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "3eacb4655aba2497"
   - "f0fa1fe670d03028"
-pushes_per_week: [4, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0]
+pushes_per_week: [0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -32,16 +32,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 6
+    pushes: 3
     distinct_repos: 2
-    active_days: 4
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.5000
-  repo_per_active_day: 0.5000
+  push_per_day: 1.0000
+  repo_per_active_day: 0.6667
   not_owned_ratio: 0.0000
   basename_concentration: 0.5000
   shapes: []
@@ -68,74 +68,70 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 6
+    pushes: 3
     distinct_repos: 2
-    pushes_per_repo: 3.0000
-    active_days: 4
+    pushes_per_repo: 1.5000
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 4 active days in 90d — below the 5-day line, LABELLED low-n (never suppressed)"
+  - "activity: 3 active days in 90d — below the 5-day line, LABELLED low-n (never suppressed)"
   - "automation: clear — pass"
 repos:
-  - name: "iris.c"
-    title: "iris.c"
-    description: "Flux 2 image generation model pure C inference"
-    language: "C"
-    topics: []
-    stars_fact: 1988
-    first_seen: null
-    last_push: "2026-02-13"
   - name: "ds4"
     title: "ds4"
     description: "DeepSeek 4 Flash and PRO local inference engine for Metal, CUDA and ROCm"
     language: "C"
     topics: []
-    stars_fact: 22035
+    stars_fact: 22659
     first_seen: "2026-08-04T06:00:05.826189+00:00"
-    last_push: "2026-09-03"
-  - name: "gguf-tools"
-    title: "gguf-tools"
-    description: "GGUF implementation in C as a library and a tools CLI program"
-    language: "C"
-    topics:
-      - "ai"
-      - "gguf"
-      - "llm"
-      - "ml"
-    stars_fact: 360
-    first_seen: null
-    last_push: "2026-05-16"
-  - name: "h3.c"
-    title: "h3.c"
-    description: "MiniMax H3 inference engine for Mac computers"
-    language: "C"
-    topics: []
-    stars_fact: 2549
-    first_seen: "2026-08-11T06:00:08.519332+00:00"
-    last_push: "2026-08-11"
-  - name: "qwen-asr"
-    title: "qwen-asr"
-    description: "C inference for Qwen3-ASR 0.6b and 1.7b transcriptions models"
-    language: "C"
-    topics: []
-    stars_fact: 603
-    first_seen: null
-    last_push: "2026-02-17"
+    last_push: "2026-09-20"
   - name: "kilo"
     title: "kilo"
     description: "A text editor in less than 1000 LOC with syntax highlight and search."
     language: "C"
     topics: []
-    stars_fact: 9103
+    stars_fact: 9138
     first_seen: null
     last_push: "2025-01-04"
+  - name: "iris.c"
+    title: "iris.c"
+    description: "Flux 2 image generation model pure C inference"
+    language: "C"
+    topics: []
+    stars_fact: 1992
+    first_seen: null
+    last_push: "2026-02-13"
+  - name: "h3.c"
+    title: "h3.c"
+    description: "MiniMax H3 inference engine for Mac computers"
+    language: "C"
+    topics: []
+    stars_fact: 2742
+    first_seen: "2026-08-11T06:00:08.519332+00:00"
+    last_push: "2026-08-11"
+  - name: "sds"
+    title: "sds"
+    description: "Simple Dynamic Strings library for C"
+    language: "C"
+    topics: []
+    stars_fact: 5562
+    first_seen: null
+    last_push: "2025-04-18"
+  - name: "smallchat"
+    title: "smallchat"
+    description: "A minimal programming example for a chat server"
+    language: "C"
+    topics: []
+    stars_fact: 7495
+    first_seen: null
+    last_push: "2024-01-27"
 ---
 
 # antirez
 
-6 pushes across 2 repositories on 4 active days in the last 90 days of public GitHub push activity.
+3 pushes across 2 repositories on 3 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/antirez

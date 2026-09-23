@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "46f3c1d6124190bd"
-pushes_per_week: [0, 1, 0, 11, 8, 9, 4, 0, 0, 0, 0, 1, 0]
+pushes_per_week: [0, 18, 6, 6, 2, 0, 0, 0, 0, 1, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 34
-    distinct_repos: 9
-    active_days: 16
+    pushes: 33
+    distinct_repos: 8
+    active_days: 15
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.1250
-  repo_per_active_day: 0.5625
+  push_per_day: 2.2000
+  repo_per_active_day: 0.5333
   not_owned_ratio: 0.0000
-  basename_concentration: 0.1111
+  basename_concentration: 0.1250
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,18 +65,44 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 34
-    distinct_repos: 9
-    pushes_per_repo: 3.7778
-    active_days: 16
+    pushes: 33
+    distinct_repos: 8
+    pushes_per_repo: 4.1250
+    active_days: 15
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 16 active days in 90d — pass"
+  - "activity: 15 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "ipod-movie-maker"
+    title: "ipod-movie-maker"
+    description: "Download, convert & organise video for an iPod touch (5th gen) — a single-file yt-dlp + FFmpeg CLI that picks the cheapest of three plans, numbers each podcast as a TV show, and ffprobes what it wrote."
+    language: "Python"
+    topics:
+      - "apple-a5"
+      - "cli"
+      - "ffmpeg"
+      - "ffprobe"
+      - "h264"
+      - "hardware-decoding"
+      - "ios"
+      - "ipod"
+      - "ipod-touch"
+      - "m4v"
+      - "macos"
+      - "metadata"
+      - "podcast"
+      - "python"
+      - "subtitles"
+      - "video-converter"
+      - "video-transcoding"
+      - "yt-dlp"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-09"
   - name: "i-cant-draw"
     title: "i-cant-draw"
     description: "Turn a rough idea into a ready-to-paste image-generation prompt for ChatGPT (GPT Image) or Gemini (Nano Banana) — a Claude Code skill that writes the prompt, not the image."
@@ -197,34 +223,10 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-08-28"
-  - name: "streamlist"
-    title: "streamlist"
-    description: "Download YouTube & YouTube Music playlists (or an Excel list) as tagged M4A tracks with album art & .m3u playlists — an interactive CLI with resumable caching and Premium/private cookie access, on yt-dlp and FFmpeg."
-    language: "Python"
-    topics:
-      - "album-art"
-      - "cli"
-      - "ffmpeg"
-      - "m3u-playlist"
-      - "m4a"
-      - "macos"
-      - "metadata-tags"
-      - "music-downloader"
-      - "music-library"
-      - "offline-music"
-      - "playlist-downloader"
-      - "python"
-      - "resumable-download"
-      - "youtube-music"
-      - "youtube-playlist"
-      - "yt-dlp"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-28"
 ---
 
 # AdinathChaudhari
 
-34 pushes across 9 repositories on 16 active days in the last 90 days of public GitHub push activity.
+33 pushes across 8 repositories on 15 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/AdinathChaudhari

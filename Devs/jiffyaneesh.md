@@ -8,11 +8,11 @@ provenance_repos:
   - "browser-use/browser-use"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+repos_populated: false
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "c1af6b58492f9bf4"
-pushes_per_week: [0, 0, 0, 0, 0, 1, 2, 2, 0, 6, 1, 0, 0]
+pushes_per_week: [0, 0, 0, 3, 0, 2, 2, 4, 1, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 7
-    distinct_repos: 6
-    active_days: 4
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 7
-    distinct_repos: 6
-    pushes_per_repo: 1.1667
-    active_days: 4
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -76,57 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 9 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "ironclad"
-    title: "ironclad"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-23"
-  - name: "jiffyaneesh"
-    title: "jiffyaneesh"
-    description: "Config files for my GitHub profile."
-    language: null
-    topics:
-      - "config"
-      - "github-config"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-03"
-  - name: "cryptopulse"
-    title: "cryptopulse"
-    description: null
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-16"
-  - name: "ai-structure-gen"
-    title: "ai-structure-gen"
-    description: null
-    language: "Rust"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-12"
-  - name: "api-client"
-    title: "api-client"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-03"
-  - name: "mybase"
-    title: "mybase"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-07-12"
+repos: []
 ---
 
 # jiffyaneesh

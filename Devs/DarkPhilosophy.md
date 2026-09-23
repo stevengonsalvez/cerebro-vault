@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [30, 41, 12, 7, 13, 24, 13, 2, 0, 0, 5, 6, 0]
+pushes_per_week: [11, 11, 19, 16, 9, 0, 0, 0, 11, 0, 6, 20, 8]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
+    pushes: 8
+    distinct_repos: 1
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 11
+    pushes: 36
     distinct_repos: 2
-    active_days: 4
+    active_days: 9
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 153
-    distinct_repos: 7
-    active_days: 43
+    pushes: 111
+    distinct_repos: 6
+    active_days: 39
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 3.5581
-  repo_per_active_day: 0.1628
+  push_per_day: 2.8462
+  repo_per_active_day: 0.1538
   not_owned_ratio: 0.0000
-  basename_concentration: 0.1429
+  basename_concentration: 0.1667
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,34 +49,42 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
+    pushes: 8
+    distinct_repos: 1
+    pushes_per_repo: 8.0000
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 11
+    pushes: 36
     distinct_repos: 2
-    pushes_per_repo: 5.5000
-    active_days: 4
+    pushes_per_repo: 18.0000
+    active_days: 9
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 153
-    distinct_repos: 7
-    pushes_per_repo: 21.8571
-    active_days: 43
+    pushes: 111
+    distinct_repos: 6
+    pushes_per_repo: 18.5000
+    active_days: 39
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 43 active days in 90d — pass"
+  - "activity: 39 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "omp-headroom"
+    title: "omp-headroom"
+    description: "Headroom context-compression integration for Oh My Pi (OMP): extension, proxy stats plugin, GPU-aware installer"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 12
+    first_seen: null
+    last_push: "2026-07-27"
   - name: "omp-relay"
     title: "omp-relay"
     description: null
@@ -114,14 +122,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-08-28"
-  - name: "omp-headroom"
-    title: "omp-headroom"
-    description: "Headroom context-compression integration for Oh My Pi (OMP): extension, proxy stats plugin, GPU-aware installer"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 9
-    first_seen: null
-    last_push: "2026-07-27"
   - name: "batt-watt-power-monitor"
     title: "batt-watt-power-monitor"
     description: "Battery Time Remaining, Percentage, Watt Meter in Panel for GNOME Shell"
@@ -149,6 +149,6 @@ repos:
 
 # DarkPhilosophy
 
-153 pushes across 7 repositories on 43 active days in the last 90 days of public GitHub push activity.
+111 pushes across 6 repositories on 39 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/DarkPhilosophy

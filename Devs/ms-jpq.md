@@ -8,39 +8,39 @@ provenance_repos:
   - "anthropics/anthropic-sdk-python"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+repos_populated: false
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "1be978947e68d1f2"
-pushes_per_week: [86, 94, 35, 34, 48, 26, 8, 8, 14, 20, 4, 12, 0]
+pushes_per_week: [24, 39, 41, 20, 8, 10, 19, 11, 11, 4, 3, 2, 2]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
+    pushes: 2
+    distinct_repos: 2
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 42
-    distinct_repos: 5
-    active_days: 14
+    pushes: 17
+    distinct_repos: 4
+    active_days: 8
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 389
-    distinct_repos: 8
-    active_days: 62
+    pushes: 194
+    distinct_repos: 7
+    active_days: 51
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 6.2742
-  repo_per_active_day: 0.1290
+  push_per_day: 3.8039
+  repo_per_active_day: 0.1373
   not_owned_ratio: 0.0000
-  basename_concentration: 0.1250
+  basename_concentration: 0.1429
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,93 +49,38 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
+    pushes: 2
+    distinct_repos: 2
+    pushes_per_repo: 1.0000
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 42
-    distinct_repos: 5
-    pushes_per_repo: 8.4000
-    active_days: 14
+    pushes: 17
+    distinct_repos: 4
+    pushes_per_repo: 4.2500
+    active_days: 8
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 389
-    distinct_repos: 8
-    pushes_per_repo: 48.6250
-    active_days: 62
+    pushes: 194
+    distinct_repos: 7
+    pushes_per_repo: 27.7143
+    active_days: 51
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 62 active days in 90d — pass"
+  - "activity: 51 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "ai"
-    title: "ai"
-    description: null
-    language: "Shell"
-    topics: []
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-09-03"
-  - name: "coq_nvim"
-    title: "coq_nvim"
-    description: "Fast as FUCK nvim completion. SQLite, concurrent scheduler, hundreds of hours of optimization."
-    language: "Lua"
-    topics:
-      - "completion"
-      - "neovim"
-      - "neovim-plugin"
-    stars_fact: 3814
-    first_seen: null
-    last_push: "2026-09-03"
-  - name: "isomorphic_copy"
-    title: "isomorphic_copy"
-    description: "Cross platform clipboard | networkless! remote copy"
-    language: "Python"
-    topics:
-      - "clipboard"
-      - "tmux"
-      - "vim"
-      - "xclip"
-    stars_fact: 233
-    first_seen: null
-    last_push: "2025-07-16"
-  - name: "shell_rc"
-    title: "shell_rc"
-    description: null
-    language: "Shell"
-    topics: []
-    stars_fact: 6
-    first_seen: null
-    last_push: "2026-09-03"
-  - name: "deb"
-    title: "deb"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-09-03"
-  - name: "lab"
-    title: "lab"
-    description: "We have cloud at home"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 15
-    first_seen: null
-    last_push: "2026-09-01"
+repos: []
 ---
 
 # ms-jpq
 
-389 pushes across 8 repositories on 62 active days in the last 90 days of public GitHub push activity.
+194 pushes across 7 repositories on 51 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ms-jpq

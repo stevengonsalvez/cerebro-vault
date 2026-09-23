@@ -8,39 +8,39 @@ provenance_repos:
   - "ColeMurray/background-agents"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+repos_populated: false
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "8311cfc3055f8fea"
-pushes_per_week: [11, 17, 8, 6, 0, 7, 1, 5, 3, 2, 1, 0, 0]
+pushes_per_week: [5, 3, 3, 4, 3, 6, 2, 0, 1, 0, 0, 1, 1]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 3
-    distinct_repos: 3
+    pushes: 2
+    distinct_repos: 1
     active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 61
-    distinct_repos: 7
-    active_days: 32
-    repos_not_owned: 2
-    not_owned_basenames: 2
-    not_owned_owners: 1
+    pushes: 29
+    distinct_repos: 5
+    active_days: 21
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.9062
-  repo_per_active_day: 0.2188
-  not_owned_ratio: 0.2857
-  basename_concentration: 0.1429
+  push_per_day: 1.3810
+  repo_per_active_day: 0.2381
+  not_owned_ratio: 0.0000
+  basename_concentration: 0.2000
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,98 +49,38 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
+    pushes: 1
+    distinct_repos: 1
+    pushes_per_repo: 1.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 3
-    distinct_repos: 3
-    pushes_per_repo: 1.0000
+    pushes: 2
+    distinct_repos: 1
+    pushes_per_repo: 2.0000
     active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 61
-    distinct_repos: 7
-    pushes_per_repo: 8.7143
-    active_days: 32
-    repos_not_owned: 2
-    not_owned_basenames: 2
-    not_owned_owners: 1
+    pushes: 29
+    distinct_repos: 5
+    pushes_per_repo: 5.8000
+    active_days: 21
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 32 active days in 90d — pass"
+  - "activity: 21 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "nyc_legislation"
-    title: "nyc_legislation"
-    description: "A Mirror of NYC Legislation"
-    language: "Go"
-    topics:
-      - "legislation"
-      - "nyc-council"
-      - "nyc-opendata"
-      - "open-government"
-    stars_fact: 11
-    first_seen: null
-    last_push: "2026-09-03"
-  - name: "ny_legislation"
-    title: "ny_legislation"
-    description: "A Mirror of NY State Legislation"
-    language: "Go"
-    topics:
-      - "legislation"
-      - "ny-assembly"
-      - "ny-senate"
-      - "open-government"
-      - "open-government-data"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-02"
-  - name: "nyc_code_archive"
-    title: "nyc_code_archive"
-    description: "An archive of NYC Charter, Admin Code, Rules"
-    language: "Go"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-31"
-  - name: "private_s3_httpd"
-    title: "private_s3_httpd"
-    description: "Private HTTP Server for Amazon S3 content"
-    language: "Go"
-    topics: []
-    stars_fact: 20
-    first_seen: null
-    last_push: "2026-08-26"
-  - name: "socrata_to_bigquery"
-    title: "socrata_to_bigquery"
-    description: "A tool to copy public data to BigQuery"
-    language: "Go"
-    topics:
-      - "bigquery"
-      - "opendata"
-      - "socrata"
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-08-21"
-  - name: "background_agents_bridge"
-    title: "background_agents_bridge"
-    description: "Go implementation of the sandbox bridge for opencode <-> control plane for https://backgroundagents.dev/"
-    language: "Go"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-20"
+repos: []
 ---
 
 # jehiah
 
-61 pushes across 7 repositories on 32 active days in the last 90 days of public GitHub push activity.
+29 pushes across 5 repositories on 21 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/jehiah

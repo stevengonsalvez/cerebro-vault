@@ -8,11 +8,11 @@ provenance_repos:
   - "chaitanyagiri/munder-difflin"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+repos_populated: false
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "e5b23adc376a62a9"
-pushes_per_week: [11, 4, 9, 6, 18, 16, 0, 1, 1, 3, 1, 0, 0]
+pushes_per_week: [9, 19, 12, 9, 0, 2, 0, 3, 1, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,25 +22,25 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 4
-    distinct_repos: 3
-    active_days: 2
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 70
-    distinct_repos: 11
-    active_days: 20
+    pushes: 55
+    distinct_repos: 9
+    active_days: 17
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 3.5000
-  repo_per_active_day: 0.5500
+  push_per_day: 3.2353
+  repo_per_active_day: 0.5294
   not_owned_ratio: 0.0000
-  basename_concentration: 0.0909
+  basename_concentration: 0.1111
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -57,129 +57,30 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 4
-    distinct_repos: 3
-    pushes_per_repo: 1.3333
-    active_days: 2
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 70
-    distinct_repos: 11
-    pushes_per_repo: 6.3636
-    active_days: 20
+    pushes: 55
+    distinct_repos: 9
+    pushes_per_repo: 6.1111
+    active_days: 17
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 20 active days in 90d — pass"
+  - "activity: 17 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "fire-releases"
-    title: "fire-releases"
-    description: "Sparkle update feed (appcast.xml) for the Fire maintained fork of jordanbaird/Ice. https://github.com/pdurlej/Ice"
-    language: "HTML"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-08-23"
-  - name: "openclaw-skill-safe-update"
-    title: "openclaw-skill-safe-update"
-    description: "Dry-run rehearsal kit and agent skill for safer OpenClaw upgrades"
-    language: "Python"
-    topics:
-      - "ai-agents"
-      - "codex-skill"
-      - "devops"
-      - "dry-run"
-      - "evidence"
-      - "fail-closed"
-      - "linux"
-      - "matrix"
-      - "mcp"
-      - "npm"
-      - "openclaw"
-      - "openclaw-skill"
-      - "release-engineering"
-      - "rollback"
-      - "signal"
-      - "supply-chain-security"
-      - "upgrade"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-23"
-  - name: "KOS2"
-    title: "KOS2"
-    description: "🐦‍⬛ Knowledge Operating System for Obsidian. Open, local-first, built for excellence in boring work."
-    language: "TypeScript"
-    topics:
-      - "knowledge-management"
-      - "local-first"
-      - "obsidian-md"
-      - "obsidian-plugin"
-      - "ollama"
-      - "pkm"
-      - "productivity"
-      - "typescript"
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-06-08"
-  - name: "jan-subagent"
-    title: "jan-subagent"
-    description: "Jan MCP: turn dry GitHub release bullets into polished Polish release notes, changelogs, and PR descriptions."
-    language: "Python"
-    topics:
-      - "bielik"
-      - "changelog"
-      - "jan-kochanowski"
-      - "language-correction"
-      - "mcp"
-      - "nvidia"
-      - "polish-language"
-      - "release-notes"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-04-04"
-  - name: "ia-presenter-know-how"
-    title: "ia-presenter-know-how"
-    description: "Community-driven know-how repository for creating beautiful iA Presenter presentations. Complete syntax reference, tutorials, examples, and best practices from official docs and community contributions. Perfect for beginners, advanced users, and AI/LLM integration."
-    language: "Python"
-    topics:
-      - "ai-assistant"
-      - "best-practices"
-      - "community"
-      - "documentation"
-      - "education"
-      - "know-how"
-      - "llm"
-      - "markdown"
-      - "presentation"
-      - "presentation-software"
-      - "presentation-tips"
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-08-04"
-  - name: "BMADX"
-    title: "BMADX"
-    description: "BMAD-first guardrails for Codex: small changes stay small, risky work escalates, messy repos get Rescue Mode."
-    language: "Python"
-    topics:
-      - "agentic-ai"
-      - "architecture"
-      - "bmad"
-      - "codex"
-      - "developer-tools"
-      - "guardrails"
-      - "workflow"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-07-16"
+repos: []
 ---
 
 # pdurlej
 
-70 pushes across 11 repositories on 20 active days in the last 90 days of public GitHub push activity.
+55 pushes across 9 repositories on 17 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/pdurlej

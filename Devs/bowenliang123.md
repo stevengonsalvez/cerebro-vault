@@ -6,43 +6,41 @@ discovered_via_all:
   - "fanout"
 provenance_repos:
   - "agentscope-ai/QwenPaw"
-  - "apache/maka"
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
-  - "4d1450729e6ff44d"
   - "541318303a272608"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 2, 0, 6, 18, 1, 2, 0]
+pushes_per_week: [0, 0, 0, 0, 2, 0, 13, 11, 2, 1, 1, 5, 4]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    pushes: 4
+    distinct_repos: 2
+    active_days: 3
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "30d":
-    pushes: 27
-    distinct_repos: 6
-    active_days: 8
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
-  "90d":
-    pushes: 29
-    distinct_repos: 7
+    pushes: 12
+    distinct_repos: 2
     active_days: 9
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
+  "90d":
+    pushes: 39
+    distinct_repos: 8
+    active_days: 16
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 3.2222
-  repo_per_active_day: 0.7778
-  not_owned_ratio: 0.0000
-  basename_concentration: 0.1429
+  push_per_day: 2.4375
+  repo_per_active_day: 0.5000
+  not_owned_ratio: 0.1250
+  basename_concentration: 0.2500
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -51,37 +49,37 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    pushes: 4
+    distinct_repos: 2
+    pushes_per_repo: 2.0000
+    active_days: 3
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "30d":
-    pushes: 27
-    distinct_repos: 6
-    pushes_per_repo: 4.5000
-    active_days: 8
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
-  "90d":
-    pushes: 29
-    distinct_repos: 7
-    pushes_per_repo: 4.1429
+    pushes: 12
+    distinct_repos: 2
+    pushes_per_repo: 6.0000
     active_days: 9
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
+  "90d":
+    pushes: 39
+    distinct_repos: 8
+    pushes_per_repo: 4.8750
+    active_days: 16
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
 reasons:
-  - "provenance: 2 vault signal(s) — pass"
-  - "activity: 9 active days in 90d — pass"
+  - "provenance: 1 vault signal(s) — pass"
+  - "activity: 16 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "dsh-context"
     title: "dsh-context"
-    description: "The best DeepSeek Harness plugin for context insight and management, with context dashboard / browser and context command, for context statistics, composition, breakdown, evolution details, understanding how the context is made of, and how it evolves. 一站式 DeepSeek Harness 上下文可视化插件，Context 面板及浏览器与 Context 命令，透视上下文组成、演进、压缩、剪枝等事件与动作。"
+    description: "The best DeepSeek Harness plugin for context insight and management, with context dashboard / browser / sidebar and context command, for context statistics, composition, breakdown, evolution details, understanding how the context is made of, and how it evolves. 一站式 DeepSeek Harness 上下文可视化插件，Context 面板及浏览器和侧边栏与 Context 命令，透视上下文组成、演进、压缩、剪枝等事件与动作。"
     language: "TypeScript"
     topics:
       - "cordis-plugin"
@@ -90,17 +88,17 @@ repos:
       - "dsh-external"
       - "dsh-plugin"
       - "dsh-plugins"
-    stars_fact: 1260
+    stars_fact: 1499
     first_seen: null
-    last_push: "2026-09-03"
-  - name: "dsh-tokener"
-    title: "dsh-tokener"
-    description: "Tokener.ai gateway LLM provider plugin for DeepSeek Harness"
+    last_push: "2026-09-23"
+  - name: "dify-grafana-dashboard"
+    title: "dify-grafana-dashboard"
+    description: "Grafana dashboard for Dify"
     language: null
     topics: []
-    stars_fact: 1
+    stars_fact: 34
     first_seen: null
-    last_push: "2026-09-03"
+    last_push: "2025-10-20"
   - name: "markdown-exporter"
     title: "markdown-exporter"
     description: "An Agent Skill and Dify plugin to transform Markdown to files of DOCX, PPTX, XLSX, PNG, PDF, HTML, MD, CSV, JSON, XML."
@@ -110,9 +108,17 @@ repos:
       - "dify"
       - "dify-plugin"
       - "markdown"
-    stars_fact: 267
+    stars_fact: 269
     first_seen: null
     last_push: "2026-08-13"
+  - name: "dsh-tokener"
+    title: "dsh-tokener"
+    description: "Tokener.ai gateway LLM provider plugin for DeepSeek Harness"
+    language: null
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-03"
   - name: "Quico"
     title: "Quico"
     description: null
@@ -132,18 +138,10 @@ repos:
     stars_fact: 1
     first_seen: null
     last_push: "2026-08-18"
-  - name: "py-noto-cjk"
-    title: "py-noto-cjk"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-13"
 ---
 
 # bowenliang123
 
-29 pushes across 7 repositories on 9 active days in the last 90 days of public GitHub push activity.
+39 pushes across 8 repositories on 16 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/bowenliang123

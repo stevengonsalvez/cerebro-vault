@@ -8,11 +8,11 @@ provenance_repos:
   - "anomalyco/opencode"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+repos_populated: false
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [12, 0, 3, 1, 0, 0, 0, 2, 1, 5, 0, 1, 0]
+pushes_per_week: [2, 1, 0, 0, 0, 2, 4, 2, 1, 0, 0, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,25 +22,25 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 6
-    distinct_repos: 3
-    active_days: 4
+    pushes: 2
+    distinct_repos: 1
+    active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 25
-    distinct_repos: 8
-    active_days: 15
+    pushes: 13
+    distinct_repos: 6
+    active_days: 10
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.6667
-  repo_per_active_day: 0.5333
-  not_owned_ratio: 0.1250
-  basename_concentration: 0.2500
+  push_per_day: 1.3000
+  repo_per_active_day: 0.6000
+  not_owned_ratio: 0.1667
+  basename_concentration: 0.3333
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -57,83 +57,30 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 6
-    distinct_repos: 3
+    pushes: 2
+    distinct_repos: 1
     pushes_per_repo: 2.0000
-    active_days: 4
+    active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 25
-    distinct_repos: 8
-    pushes_per_repo: 3.1250
-    active_days: 15
+    pushes: 13
+    distinct_repos: 6
+    pushes_per_repo: 2.1667
+    active_days: 10
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 15 active days in 90d — pass"
+  - "activity: 10 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "opencode-browser"
-    title: "opencode-browser"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 28
-    first_seen: null
-    last_push: "2026-08-01"
-  - name: "opentui-browser"
-    title: "opentui-browser"
-    description: "A Chromium browser surface for OpenTUI using the Kitty graphics protocol"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 6
-    first_seen: null
-    last_push: "2026-08-01"
-  - name: "aevum"
-    title: "aevum"
-    description: "Private, local voice-to-text for Windows"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-11"
-  - name: "opentui-math"
-    title: "opentui-math"
-    description: "Beautiful LaTeX math rendering for OpenTUI"
-    language: "TypeScript"
-    topics:
-      - "latex"
-      - "math"
-      - "opentui"
-      - "terminal"
-      - "tui"
-    stars_fact: 7
-    first_seen: null
-    last_push: "2026-07-30"
-  - name: "opencode-chatgpt-websearch"
-    title: "opencode-chatgpt-websearch"
-    description: "Experimental OpenCode2 web search provider using ChatGPT OAuth"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 10
-    first_seen: null
-    last_push: "2026-08-08"
-  - name: "gemini-mcp"
-    title: "gemini-mcp"
-    description: "A simple MCP server for using the Gemini CLI."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 7
-    first_seen: null
-    last_push: "2025-07-14"
+repos: []
 ---
 
 # neriousy
 
-25 pushes across 8 repositories on 15 active days in the last 90 days of public GitHub push activity.
+13 pushes across 6 repositories on 10 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/neriousy

@@ -8,37 +8,37 @@ provenance_repos:
   - "agentscope-ai/QwenPaw"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+repos_populated: false
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "541318303a272608"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 4, 7, 16, 3, 1, 3, 0]
+pushes_per_week: [0, 0, 0, 3, 7, 13, 7, 0, 3, 1, 0, 5, 4]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
+    pushes: 4
+    distinct_repos: 1
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 8
+    pushes: 12
     distinct_repos: 1
-    active_days: 6
+    active_days: 9
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 34
+    pushes: 43
     distinct_repos: 3
-    active_days: 16
+    active_days: 23
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 2.1250
-  repo_per_active_day: 0.1875
+  push_per_day: 1.8696
+  repo_per_active_day: 0.1304
   not_owned_ratio: 0.6667
   basename_concentration: 1.0000
   shapes: []
@@ -49,38 +49,38 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
+    pushes: 4
+    distinct_repos: 1
+    pushes_per_repo: 4.0000
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 8
+    pushes: 12
     distinct_repos: 1
-    pushes_per_repo: 8.0000
-    active_days: 6
+    pushes_per_repo: 12.0000
+    active_days: 9
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 34
+    pushes: 43
     distinct_repos: 3
-    pushes_per_repo: 11.3333
-    active_days: 16
+    pushes_per_repo: 14.3333
+    active_days: 23
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 16 active days in 90d — pass"
+  - "activity: 23 active days in 90d — pass"
   - "automation: clear — pass"
 repos: []
 ---
 
 # xuanrui-L
 
-34 pushes across 3 repositories on 16 active days in the last 90 days of public GitHub push activity.
+43 pushes across 3 repositories on 23 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/xuanrui-L

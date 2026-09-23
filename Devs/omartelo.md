@@ -8,39 +8,39 @@ provenance_repos:
   - "akitaonrails/ai-memory"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+repos_populated: false
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "4138778ebbc75ba6"
-pushes_per_week: [2, 1, 12, 14, 15, 18, 18, 13, 7, 31, 5, 4, 0]
+pushes_per_week: [12, 15, 20, 11, 21, 7, 25, 15, 5, 0, 4, 3, 3]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
+    pushes: 3
+    distinct_repos: 2
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 42
-    distinct_repos: 5
-    active_days: 12
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 12
+    distinct_repos: 3
+    active_days: 6
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
-    pushes: 140
-    distinct_repos: 9
-    active_days: 44
+    pushes: 141
+    distinct_repos: 10
+    active_days: 45
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 3.1818
-  repo_per_active_day: 0.2045
-  not_owned_ratio: 0.3333
-  basename_concentration: 0.2222
+  push_per_day: 3.1333
+  repo_per_active_day: 0.2222
+  not_owned_ratio: 0.3000
+  basename_concentration: 0.2000
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,101 +49,38 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
+    pushes: 3
+    distinct_repos: 2
+    pushes_per_repo: 1.5000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 42
-    distinct_repos: 5
-    pushes_per_repo: 8.4000
-    active_days: 12
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 12
+    distinct_repos: 3
+    pushes_per_repo: 4.0000
+    active_days: 6
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
-    pushes: 140
-    distinct_repos: 9
-    pushes_per_repo: 15.5556
-    active_days: 44
+    pushes: 141
+    distinct_repos: 10
+    pushes_per_repo: 14.1000
+    active_days: 45
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 44 active days in 90d — pass"
+  - "activity: 45 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "lich-oceanic-next"
-    title: "lich-oceanic-next"
-    description: "Tema Oceanic Next (app + terminal) para o lich"
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-03"
-  - name: "lich-plugin"
-    title: "lich-plugin"
-    description: null
-    language: "JavaScript"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-02"
-  - name: "lich"
-    title: "lich"
-    description: "A terminal-first harness for coding with AI agents — real PTYs, git worktrees, diffs and pull requests in one window"
-    language: "Go"
-    topics:
-      - "agentic-coding"
-      - "ai-agents"
-      - "claude-code"
-      - "code-review"
-      - "codex"
-      - "desktop-app"
-      - "developer-tools"
-      - "git-worktree"
-      - "golang"
-      - "opencode"
-      - "pty"
-      - "terminal"
-    stars_fact: 34
-    first_seen: null
-    last_push: "2026-09-02"
-  - name: "homebrew-tap"
-    title: "homebrew-tap"
-    description: "Homebrew tap for omartelo's tools"
-    language: "Ruby"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-02"
-  - name: "youtrack-tui"
-    title: "youtrack-tui"
-    description: "TUi Youtrack issue tracker"
-    language: "Go"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-08-25"
-  - name: "catppuccin-lich"
-    title: "catppuccin-lich"
-    description: "🧙 Soothing pastel theme for lich"
-    language: null
-    topics:
-      - "catppuccin"
-      - "lich"
-      - "theme"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-14"
+repos: []
 ---
 
 # omartelo
 
-140 pushes across 9 repositories on 44 active days in the last 90 days of public GitHub push activity.
+141 pushes across 10 repositories on 45 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/omartelo

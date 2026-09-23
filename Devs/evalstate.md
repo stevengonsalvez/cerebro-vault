@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "48dbbdd8fd0d3029"
-pushes_per_week: [29, 23, 21, 19, 11, 19, 18, 14, 8, 4, 0, 4, 1]
+pushes_per_week: [22, 17, 14, 17, 19, 9, 7, 2, 3, 2, 0, 0, 4]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    pushes: 4
+    distinct_repos: 2
+    active_days: 3
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "30d":
-    pushes: 11
+    pushes: 9
     distinct_repos: 5
-    active_days: 7
+    active_days: 6
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
   "90d":
-    pushes: 171
-    distinct_repos: 24
-    active_days: 61
-    repos_not_owned: 17
-    not_owned_basenames: 13
-    not_owned_owners: 9
+    pushes: 116
+    distinct_repos: 17
+    active_days: 50
+    repos_not_owned: 10
+    not_owned_basenames: 9
+    not_owned_owners: 6
 automation:
   state: "clear"
-  push_per_day: 2.8033
-  repo_per_active_day: 0.3934
-  not_owned_ratio: 0.7083
-  basename_concentration: 0.1667
+  push_per_day: 2.3200
+  repo_per_active_day: 0.3400
+  not_owned_ratio: 0.5882
+  basename_concentration: 0.1176
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,34 +49,42 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    pushes: 4
+    distinct_repos: 2
+    pushes_per_repo: 2.0000
+    active_days: 3
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "30d":
-    pushes: 11
+    pushes: 9
     distinct_repos: 5
-    pushes_per_repo: 2.2000
-    active_days: 7
+    pushes_per_repo: 1.8000
+    active_days: 6
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
   "90d":
-    pushes: 171
-    distinct_repos: 24
-    pushes_per_repo: 7.1250
-    active_days: 61
-    repos_not_owned: 17
-    not_owned_basenames: 13
-    not_owned_owners: 9
+    pushes: 116
+    distinct_repos: 17
+    pushes_per_repo: 6.8235
+    active_days: 50
+    repos_not_owned: 10
+    not_owned_basenames: 9
+    not_owned_owners: 6
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 61 active days in 90d — pass"
+  - "activity: 50 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "mcp-hfspace"
+    title: "mcp-hfspace"
+    description: "MCP Server to Use HuggingFace spaces, easy configuration and Claude Desktop mode."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 388
+    first_seen: null
+    last_push: "2025-06-13"
   - name: "fast-agent"
     title: "fast-agent"
     description: "Code, Build and Evaluate agents - excellent Model and Skills/MCP/ACP/A2A Support"
@@ -94,53 +102,45 @@ repos:
       - "python"
       - "skills"
       - "tui"
-    stars_fact: 3909
+    stars_fact: 3920
     first_seen: null
-    last_push: "2026-09-01"
-  - name: "mcp-miro"
-    title: "mcp-miro"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 112
-    first_seen: null
-    last_push: "2024-12-23"
-  - name: "mcp-webcam"
-    title: "mcp-webcam"
-    description: "Capture live images from your webcam with a tool or resource request"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 120
-    first_seen: null
-    last_push: "2025-10-22"
-  - name: "mcp-hfspace"
-    title: "mcp-hfspace"
-    description: "MCP Server to Use HuggingFace spaces, easy configuration and Claude Desktop mode."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 387
-    first_seen: null
-    last_push: "2025-06-13"
+    last_push: "2026-09-23"
   - name: "fast-agent-docs"
     title: "fast-agent-docs"
     description: "Documentation site for fast-agent"
     language: "Python"
     topics: []
-    stars_fact: 32
+    stars_fact: 33
     first_seen: null
     last_push: "2026-05-10"
-  - name: "fastcontext"
-    title: "fastcontext"
+  - name: "miscellany"
+    title: "miscellany"
+    description: null
+    language: "HTML"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-15"
+  - name: "mcp-webcam"
+    title: "mcp-webcam"
+    description: "Capture live images from your webcam with a tool or resource request"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 121
+    first_seen: null
+    last_push: "2025-10-22"
+  - name: "tb21-run"
+    title: "tb21-run"
     description: null
     language: "Python"
     topics: []
-    stars_fact: 2
+    stars_fact: 0
     first_seen: null
-    last_push: "2026-07-03"
+    last_push: "2026-09-03"
 ---
 
 # evalstate
 
-171 pushes across 24 repositories on 61 active days in the last 90 days of public GitHub push activity.
+116 pushes across 17 repositories on 50 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/evalstate

@@ -8,39 +8,39 @@ provenance_repos:
   - "anomalyco/opencode"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+repos_populated: false
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [42, 153, 137, 75, 34, 74, 24, 38, 14, 7, 11, 1, 1]
+pushes_per_week: [136, 49, 37, 57, 31, 26, 8, 12, 3, 2, 2, 47, 29]
 windows:
   "7d":
-    pushes: 2
-    distinct_repos: 2
-    active_days: 2
-    repos_not_owned: 2
-    not_owned_basenames: 2
-    not_owned_owners: 2
-  "30d":
-    pushes: 21
+    pushes: 31
     distinct_repos: 8
-    active_days: 9
+    active_days: 7
     repos_not_owned: 7
     not_owned_basenames: 7
+    not_owned_owners: 2
+  "30d":
+    pushes: 80
+    distinct_repos: 15
+    active_days: 17
+    repos_not_owned: 14
+    not_owned_basenames: 14
     not_owned_owners: 4
   "90d":
-    pushes: 611
-    distinct_repos: 43
-    active_days: 64
-    repos_not_owned: 26
-    not_owned_basenames: 25
+    pushes: 439
+    distinct_repos: 42
+    active_days: 63
+    repos_not_owned: 31
+    not_owned_basenames: 30
     not_owned_owners: 8
 automation:
   state: "clear"
-  push_per_day: 9.5469
-  repo_per_active_day: 0.6719
-  not_owned_ratio: 0.6047
-  basename_concentration: 0.0698
+  push_per_day: 6.9683
+  repo_per_active_day: 0.6667
+  not_owned_ratio: 0.7381
+  basename_concentration: 0.0714
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,58 +49,38 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
-    distinct_repos: 2
-    pushes_per_repo: 1.0000
-    active_days: 2
-    repos_not_owned: 2
-    not_owned_basenames: 2
-    not_owned_owners: 2
-  "30d":
-    pushes: 21
+    pushes: 31
     distinct_repos: 8
-    pushes_per_repo: 2.6250
-    active_days: 9
+    pushes_per_repo: 3.8750
+    active_days: 7
     repos_not_owned: 7
     not_owned_basenames: 7
+    not_owned_owners: 2
+  "30d":
+    pushes: 80
+    distinct_repos: 15
+    pushes_per_repo: 5.3333
+    active_days: 17
+    repos_not_owned: 14
+    not_owned_basenames: 14
     not_owned_owners: 4
   "90d":
-    pushes: 611
-    distinct_repos: 43
-    pushes_per_repo: 14.2093
-    active_days: 64
-    repos_not_owned: 26
-    not_owned_basenames: 25
+    pushes: 439
+    distinct_repos: 42
+    pushes_per_repo: 10.4524
+    active_days: 63
+    repos_not_owned: 31
+    not_owned_basenames: 30
     not_owned_owners: 8
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 64 active days in 90d — pass"
+  - "activity: 63 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "yordis"
-    title: "yordis"
-    description: "About me"
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-07-21"
-  - name: "postcss-google-font"
-    title: "postcss-google-font"
-    description: "PostCSS plugin for import Google fonts"
-    language: "JavaScript"
-    topics:
-      - "font"
-      - "google-fonts"
-      - "postcss"
-      - "postcss-google-font"
-    stars_fact: 5
-    first_seen: null
-    last_push: "2024-06-18"
+repos: []
 ---
 
 # yordis
 
-611 pushes across 43 repositories on 64 active days in the last 90 days of public GitHub push activity.
+439 pushes across 42 repositories on 63 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/yordis

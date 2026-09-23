@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-05T06:07:00.404056+00:00"
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "46f3c1d6124190bd"
-pushes_per_week: [0, 1, 2, 0, 1, 1, 2, 2, 0, 1, 0, 0, 0]
+pushes_per_week: [2, 0, 2, 2, 1, 1, 1, 0, 0, 0, 0, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -25,21 +25,21 @@ windows:
     pushes: 1
     distinct_repos: 1
     active_days: 1
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "90d":
     pushes: 10
     distinct_repos: 6
     active_days: 9
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
 automation:
   state: "clear"
   push_per_day: 1.1111
   repo_per_active_day: 0.6667
-  not_owned_ratio: 0.0000
+  not_owned_ratio: 0.1667
   basename_concentration: 0.1667
   shapes: []
   shape_evidence: []
@@ -61,17 +61,17 @@ facets:
     distinct_repos: 1
     pushes_per_repo: 1.0000
     active_days: 1
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "90d":
     pushes: 10
     distinct_repos: 6
     pushes_per_repo: 1.6667
     active_days: 9
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 9 active days in 90d — pass"
@@ -86,7 +86,25 @@ repos:
       - "yadm"
     stars_fact: 2
     first_seen: null
-    last_push: "2026-08-26"
+    last_push: "2026-09-21"
+  - name: "speedboat"
+    title: "speedboat"
+    description: "A Discord bot for managing large communities"
+    language: "Python"
+    topics:
+      - "hacktoberfest"
+    stars_fact: 30
+    first_seen: null
+    last_push: "2024-09-16"
+  - name: "DeJayDev"
+    title: "DeJayDev"
+    description: null
+    language: "Go"
+    topics:
+      - "hacktoberfest"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-14"
   - name: "kirigo"
     title: "kirigo"
     description: null
@@ -103,15 +121,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-08-25"
-  - name: "DeJayDev"
-    title: "DeJayDev"
-    description: null
-    language: "Go"
-    topics:
-      - "hacktoberfest"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-08-14"
   - name: "claude-peers"
     title: "claude-peers"
     description: "Allow all your Claude Codes to message each other ad-hoc!"
@@ -120,14 +129,6 @@ repos:
     stars_fact: 1
     first_seen: null
     last_push: "2026-08-04"
-  - name: "triplesec"
-    title: "triplesec"
-    description: null
-    language: "Swift"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-07-31"
 ---
 
 # DeJayDev

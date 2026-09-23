@@ -7,12 +7,12 @@ discovered_via_all:
 provenance_repos:
   - "Tencent/TencentDB-Agent-Memory"
 admitted: true
-low_n: false
-repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+low_n: true
+repos_populated: false
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "b599dd2f1ad43e10"
-pushes_per_week: [1, 1, 0, 0, 0, 2, 0, 0, 0, 2, 0, 0, 0]
+pushes_per_week: [0, 0, 1, 1, 0, 0, 2, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 2
-    distinct_repos: 1
-    active_days: 2
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 6
+    pushes: 4
     distinct_repos: 1
-    active_days: 6
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
   push_per_day: 1.0000
-  repo_per_active_day: 0.1667
+  repo_per_active_day: 0.2500
   not_owned_ratio: 0.0000
   basename_concentration: 1.0000
   shapes: []
@@ -57,30 +57,30 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 2
-    distinct_repos: 1
-    pushes_per_repo: 2.0000
-    active_days: 2
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 6
+    pushes: 4
     distinct_repos: 1
-    pushes_per_repo: 6.0000
-    active_days: 6
+    pushes_per_repo: 4.0000
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 6 active days in 90d — pass"
+  - "activity: 4 active days in 90d — below the 5-day line, LABELLED low-n (never suppressed)"
   - "automation: clear — pass"
 repos: []
 ---
 
 # Yuntong8888
 
-6 pushes across 1 repository on 6 active days in the last 90 days of public GitHub push activity.
+4 pushes across 1 repository on 4 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Yuntong8888

@@ -8,11 +8,11 @@ provenance_repos:
   - "ColeMurray/background-agents"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+repos_populated: false
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "8311cfc3055f8fea"
-pushes_per_week: [22, 19, 3, 0, 0, 0, 0, 2, 3, 2, 1, 0, 0]
+pushes_per_week: [0, 0, 0, 0, 0, 3, 3, 2, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,25 +22,25 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 5
-    distinct_repos: 3
-    active_days: 5
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
-    pushes: 52
-    distinct_repos: 6
-    active_days: 20
+    pushes: 8
+    distinct_repos: 4
+    active_days: 8
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.6000
-  repo_per_active_day: 0.3000
-  not_owned_ratio: 0.1667
-  basename_concentration: 0.1667
+  push_per_day: 1.0000
+  repo_per_active_day: 0.5000
+  not_owned_ratio: 0.2500
+  basename_concentration: 0.2500
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -57,78 +57,30 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 5
-    distinct_repos: 3
-    pushes_per_repo: 1.6667
-    active_days: 5
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
-    pushes: 52
-    distinct_repos: 6
-    pushes_per_repo: 8.6667
-    active_days: 20
+    pushes: 8
+    distinct_repos: 4
+    pushes_per_repo: 2.0000
+    active_days: 8
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 20 active days in 90d — pass"
+  - "activity: 8 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "astro-resume"
-    title: "astro-resume"
-    description: null
-    language: "Astro"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-30"
-  - name: "momo-log"
-    title: "momo-log"
-    description: null
-    language: "Go"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-27"
-  - name: "workout-tracker"
-    title: "workout-tracker"
-    description: null
-    language: "Blade"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-10"
-  - name: "phoenix_fintech"
-    title: "phoenix_fintech"
-    description: null
-    language: "Elixir"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-03"
-  - name: "nvim-config"
-    title: "nvim-config"
-    description: null
-    language: "Lua"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-06-17"
-  - name: "rust-fintech"
-    title: "rust-fintech"
-    description: null
-    language: "Rust"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-05-21"
+repos: []
 ---
 
 # leejayhsu
 
-52 pushes across 6 repositories on 20 active days in the last 90 days of public GitHub push activity.
+8 pushes across 4 repositories on 8 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/leejayhsu

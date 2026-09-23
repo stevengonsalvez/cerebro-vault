@@ -8,11 +8,11 @@ provenance_repos:
   - "BigPizzaV3/CodexPlusPlus"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+repos_populated: false
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "90688bf127241ceb"
-pushes_per_week: [7, 5, 2, 6, 4, 17, 17, 0, 2, 1, 1, 0, 0]
+pushes_per_week: [6, 2, 13, 20, 5, 0, 3, 0, 1, 0, 2, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 4
-    distinct_repos: 4
-    active_days: 3
+    pushes: 2
+    distinct_repos: 2
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 62
+    pushes: 52
     distinct_repos: 6
-    active_days: 29
+    active_days: 24
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.1379
-  repo_per_active_day: 0.2069
+  push_per_day: 2.1667
+  repo_per_active_day: 0.2500
   not_owned_ratio: 0.0000
   basename_concentration: 0.1667
   shapes: []
@@ -57,80 +57,30 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 4
-    distinct_repos: 4
+    pushes: 2
+    distinct_repos: 2
     pushes_per_repo: 1.0000
-    active_days: 3
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 62
+    pushes: 52
     distinct_repos: 6
-    pushes_per_repo: 10.3333
-    active_days: 29
+    pushes_per_repo: 8.6667
+    active_days: 24
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 29 active days in 90d — pass"
+  - "activity: 24 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "healing-planet"
-    title: "healing-planet"
-    description: "面向绿植爱好者的智能养植与绿植社区平台"
-    language: "Java"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-02"
-  - name: "re-bookmarks"
-    title: "re-bookmarks"
-    description: "智能整理浏览器书签插件"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 18
-    first_seen: null
-    last_push: "2026-08-11"
-  - name: "RepoGuardian"
-    title: "RepoGuardian"
-    description: "智能代码审查 Agent"
-    language: "Python"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-08-29"
-  - name: "waangzh"
-    title: "waangzh"
-    description: "Config files for my GitHub profile."
-    language: null
-    topics:
-      - "config"
-      - "github-config"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-03"
-  - name: "FormulaLite"
-    title: "FormulaLite"
-    description: "轻量级公式识别模型"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-12"
-  - name: "Intelligent-Power-Inspection"
-    title: "Intelligent-Power-Inspection"
-    description: null
-    language: "Java"
-    topics: []
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-08-09"
+repos: []
 ---
 
 # waangzh
 
-62 pushes across 6 repositories on 29 active days in the last 90 days of public GitHub push activity.
+52 pushes across 6 repositories on 24 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/waangzh

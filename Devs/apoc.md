@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [1, 6, 8, 1, 11, 3, 1, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [3, 0, 13, 2, 0, 0, 0, 0, 0, 0, 0, 1, 3]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
+    pushes: 3
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
+    pushes: 4
+    distinct_repos: 1
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 31
+    pushes: 22
     distinct_repos: 4
-    active_days: 14
+    active_days: 10
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.2143
-  repo_per_active_day: 0.2857
+  push_per_day: 2.2000
+  repo_per_active_day: 0.4000
   not_owned_ratio: 0.0000
   basename_concentration: 0.2500
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
+    pushes: 3
+    distinct_repos: 1
+    pushes_per_repo: 3.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
+    pushes: 4
+    distinct_repos: 1
+    pushes_per_repo: 4.0000
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 31
+    pushes: 22
     distinct_repos: 4
-    pushes_per_repo: 7.7500
-    active_days: 14
+    pushes_per_repo: 5.5000
+    active_days: 10
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 14 active days in 90d — pass"
+  - "activity: 10 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "omp-desktop"
@@ -82,9 +82,9 @@ repos:
     description: "Desktop application for interacting with oh-my-pi"
     language: "JavaScript"
     topics: []
-    stars_fact: 38
+    stars_fact: 60
     first_seen: null
-    last_push: "2026-05-11"
+    last_push: "2026-09-23"
   - name: "dspark-hydra"
     title: "dspark-hydra"
     description: "DSpark experiment with MoE model"
@@ -121,6 +121,6 @@ repos:
 
 # apoc
 
-31 pushes across 4 repositories on 14 active days in the last 90 days of public GitHub push activity.
+22 pushes across 4 repositories on 10 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/apoc

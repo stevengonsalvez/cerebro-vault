@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "ca6e9330cc1b2a53"
-pushes_per_week: [1, 8, 6, 1, 16, 18, 3, 9, 4, 11, 3, 0, 0]
+pushes_per_week: [3, 6, 26, 5, 4, 9, 6, 8, 1, 0, 3, 6, 2]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
-  "30d":
-    pushes: 15
-    distinct_repos: 3
-    active_days: 8
-    repos_not_owned: 2
-    not_owned_basenames: 2
+    pushes: 2
+    distinct_repos: 1
+    active_days: 1
+    repos_not_owned: 1
+    not_owned_basenames: 1
     not_owned_owners: 1
+  "30d":
+    pushes: 11
+    distinct_repos: 2
+    active_days: 7
+    repos_not_owned: 2
+    not_owned_basenames: 1
+    not_owned_owners: 2
   "90d":
-    pushes: 80
+    pushes: 79
     distinct_repos: 5
     active_days: 31
     repos_not_owned: 3
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 2.5806
+  push_per_day: 2.5484
   repo_per_active_day: 0.1613
   not_owned_ratio: 0.6000
   basename_concentration: 0.4000
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
-  "30d":
-    pushes: 15
-    distinct_repos: 3
-    pushes_per_repo: 5.0000
-    active_days: 8
-    repos_not_owned: 2
-    not_owned_basenames: 2
+    pushes: 2
+    distinct_repos: 1
+    pushes_per_repo: 2.0000
+    active_days: 1
+    repos_not_owned: 1
+    not_owned_basenames: 1
     not_owned_owners: 1
+  "30d":
+    pushes: 11
+    distinct_repos: 2
+    pushes_per_repo: 5.5000
+    active_days: 7
+    repos_not_owned: 2
+    not_owned_basenames: 1
+    not_owned_owners: 2
   "90d":
-    pushes: 80
+    pushes: 79
     distinct_repos: 5
-    pushes_per_repo: 16.0000
+    pushes_per_repo: 15.8000
     active_days: 31
     repos_not_owned: 3
     not_owned_basenames: 2
@@ -77,6 +77,46 @@ reasons:
   - "activity: 31 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "youtube-reader"
+    title: "youtube-reader"
+    description: "CLI to turn YouTube transcripts into readable articles (supports API, yt-dlp subtitles, and Whisper transcription)"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 30
+    first_seen: null
+    last_push: "2026-02-03"
+  - name: "forrestchang"
+    title: "forrestchang"
+    description: "Jiayuan Zhang's GitHub Profile"
+    language: null
+    topics: []
+    stars_fact: 27
+    first_seen: null
+    last_push: "2026-04-01"
+  - name: "practical-python-programming-cn"
+    title: "practical-python-programming-cn"
+    description: "翻译 Practical Python Programming https://dabeaz-course.github.io/practical-python/"
+    language: null
+    topics: []
+    stars_fact: 33
+    first_seen: null
+    last_push: "2020-06-30"
+  - name: "roam-vim-mode"
+    title: "roam-vim-mode"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 6
+    first_seen: null
+    last_push: "2026-08-27"
+  - name: "roam-research-cli"
+    title: "roam-research-cli"
+    description: "A CLI wrapper for the Roam Research APIs (Backend + Append + Desktop Local), built for AI agents and shell pipelines."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 10
+    first_seen: null
+    last_push: "2026-08-01"
   - name: "programmer-soft-skills"
     title: "programmer-soft-skills"
     description: "程序员的软技能"
@@ -85,50 +125,10 @@ repos:
     stars_fact: 491
     first_seen: null
     last_push: "2022-06-30"
-  - name: "roam-logbook"
-    title: "roam-logbook"
-    description: "org-mode style clock tracking (LOGBOOK / CLOCK) for Roam Research TODOs"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-08-17"
-  - name: "worktree-workflow"
-    title: "worktree-workflow"
-    description: "A toolkit for parallel development with git worktrees, designed for Claude Code"
-    language: "Shell"
-    topics: []
-    stars_fact: 109
-    first_seen: null
-    last_push: "2026-02-01"
-  - name: "roam-vim-mode"
-    title: "roam-vim-mode"
-    description: null
-    language: "JavaScript"
-    topics: []
-    stars_fact: 5
-    first_seen: null
-    last_push: "2026-08-27"
-  - name: "forrestchang"
-    title: "forrestchang"
-    description: "Jiayuan Zhang's GitHub Profile"
-    language: null
-    topics: []
-    stars_fact: 26
-    first_seen: null
-    last_push: "2026-04-01"
-  - name: "roam-research-cli"
-    title: "roam-research-cli"
-    description: "A CLI wrapper for the Roam Research APIs (Backend + Append + Desktop Local), built for AI agents and shell pipelines."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 9
-    first_seen: null
-    last_push: "2026-08-01"
 ---
 
 # forrestchang
 
-80 pushes across 5 repositories on 31 active days in the last 90 days of public GitHub push activity.
+79 pushes across 5 repositories on 31 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/forrestchang

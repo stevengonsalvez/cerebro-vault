@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "0dadaefdea9260e5"
-pushes_per_week: [29, 25, 39, 20, 12, 29, 35, 35, 11, 32, 9, 2, 1]
+pushes_per_week: [34, 15, 21, 29, 36, 30, 24, 20, 3, 2, 1, 4, 13]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
-    repos_not_owned: 1
-    not_owned_basenames: 1
+    pushes: 14
+    distinct_repos: 4
+    active_days: 6
+    repos_not_owned: 4
+    not_owned_basenames: 4
     not_owned_owners: 1
   "30d":
-    pushes: 49
-    distinct_repos: 2
-    active_days: 16
-    repos_not_owned: 2
-    not_owned_basenames: 2
+    pushes: 20
+    distinct_repos: 5
+    active_days: 11
+    repos_not_owned: 5
+    not_owned_basenames: 5
     not_owned_owners: 1
   "90d":
-    pushes: 279
-    distinct_repos: 11
-    active_days: 66
-    repos_not_owned: 11
-    not_owned_basenames: 11
+    pushes: 232
+    distinct_repos: 10
+    active_days: 60
+    repos_not_owned: 10
+    not_owned_basenames: 10
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 4.2273
+  push_per_day: 3.8667
   repo_per_active_day: 0.1667
   not_owned_ratio: 1.0000
-  basename_concentration: 0.0909
+  basename_concentration: 0.1000
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
-    repos_not_owned: 1
-    not_owned_basenames: 1
+    pushes: 14
+    distinct_repos: 4
+    pushes_per_repo: 3.5000
+    active_days: 6
+    repos_not_owned: 4
+    not_owned_basenames: 4
     not_owned_owners: 1
   "30d":
-    pushes: 49
-    distinct_repos: 2
-    pushes_per_repo: 24.5000
-    active_days: 16
-    repos_not_owned: 2
-    not_owned_basenames: 2
+    pushes: 20
+    distinct_repos: 5
+    pushes_per_repo: 4.0000
+    active_days: 11
+    repos_not_owned: 5
+    not_owned_basenames: 5
     not_owned_owners: 1
   "90d":
-    pushes: 279
-    distinct_repos: 11
-    pushes_per_repo: 25.3636
-    active_days: 66
-    repos_not_owned: 11
-    not_owned_basenames: 11
+    pushes: 232
+    distinct_repos: 10
+    pushes_per_repo: 23.2000
+    active_days: 60
+    repos_not_owned: 10
+    not_owned_basenames: 10
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 66 active days in 90d — pass"
+  - "activity: 60 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "3d-model-generator"
@@ -82,17 +82,9 @@ repos:
     description: "Generate 3D models with AI"
     language: "TypeScript"
     topics: []
-    stars_fact: 206
+    stars_fact: 221
     first_seen: null
     last_push: "2026-02-05"
-  - name: "snow-back"
-    title: "snow-back"
-    description: "A fast-paced skiing game"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2025-12-07"
   - name: "openui"
     title: "openui"
     description: "AI-Native Specification for UIs"
@@ -102,9 +94,17 @@ repos:
       - "openui-specification"
       - "ui"
       - "ui-components"
-    stars_fact: 68
+    stars_fact: 69
     first_seen: null
     last_push: "2025-12-11"
+  - name: "snow-back"
+    title: "snow-back"
+    description: "A fast-paced skiing game"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2025-12-07"
   - name: "codeless"
     title: "codeless"
     description: "Use AI to craft UIs"
@@ -138,6 +138,6 @@ repos:
 
 # ctate
 
-279 pushes across 11 repositories on 66 active days in the last 90 days of public GitHub push activity.
+232 pushes across 10 repositories on 60 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ctate

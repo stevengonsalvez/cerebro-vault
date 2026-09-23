@@ -8,37 +8,37 @@ provenance_repos:
   - "BigPizzaV3/CodexPlusPlus"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+repos_populated: false
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "90688bf127241ceb"
-pushes_per_week: [0, 12, 7, 38, 14, 1, 0, 2, 3, 4, 6, 0, 0]
+pushes_per_week: [24, 20, 12, 0, 0, 3, 2, 7, 3, 0, 0, 4, 1]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 11
+    pushes: 5
     distinct_repos: 3
-    active_days: 7
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 87
+    pushes: 76
     distinct_repos: 10
-    active_days: 30
+    active_days: 29
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.9000
-  repo_per_active_day: 0.3333
+  push_per_day: 2.6207
+  repo_per_active_day: 0.3448
   not_owned_ratio: 0.0000
   basename_concentration: 0.1000
   shapes: []
@@ -49,92 +49,38 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
+    pushes: 1
+    distinct_repos: 1
+    pushes_per_repo: 1.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 11
+    pushes: 5
     distinct_repos: 3
-    pushes_per_repo: 3.6667
-    active_days: 7
+    pushes_per_repo: 1.6667
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 87
+    pushes: 76
     distinct_repos: 10
-    pushes_per_repo: 8.7000
-    active_days: 30
+    pushes_per_repo: 7.6000
+    active_days: 29
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 30 active days in 90d — pass"
+  - "activity: 29 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "AppPilotKit"
-    title: "AppPilotKit"
-    description: "Agent-native inspection and control for iOS and Android apps"
-    language: "Rust"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-03"
-  - name: "voice-memos-cli"
-    title: "voice-memos-cli"
-    description: "Agent-friendly CLI for searching, exporting, renaming, and deleting macOS Voice Memos"
-    language: "Swift"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-02"
-  - name: "awesome-skills"
-    title: "awesome-skills"
-    description: "Patrick's excellent publicly shareable skills."
-    language: "Python"
-    topics: []
-    stars_fact: 57
-    first_seen: null
-    last_push: "2026-09-02"
-  - name: "cpa-codex-app-multisession-compat"
-    title: "cpa-codex-app-multisession-compat"
-    description: "Default-off CLIProxyAPI compatibility plugin for Codex App multi-session orphan outputs"
-    language: "Go"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-02"
-  - name: "cpa-codex-compact-bridge"
-    title: "cpa-codex-compact-bridge"
-    description: "Native plugin that bridges Codex remote compaction to configured third-party model providers behind a local API proxy."
-    language: "Go"
-    topics:
-      - "api-proxy"
-      - "codex"
-      - "compact"
-      - "go"
-      - "llm"
-      - "plugin"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-03"
-  - name: "frontend-harness-slides"
-    title: "frontend-harness-slides"
-    description: "Build slide decks as a harness-guarded engineering project — robust, maintainable, and hard to break. A step up from single-file HTML slides."
-    language: null
-    topics: []
-    stars_fact: 41
-    first_seen: null
-    last_push: "2026-08-02"
+repos: []
 ---
 
 # patrick-fu
 
-87 pushes across 10 repositories on 30 active days in the last 90 days of public GitHub push activity.
+76 pushes across 10 repositories on 29 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/patrick-fu

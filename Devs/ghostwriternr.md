@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "36da1b921f121c1d"
-pushes_per_week: [11, 17, 12, 26, 0, 20, 9, 0, 1, 4, 0, 0, 0]
+pushes_per_week: [11, 18, 16, 10, 3, 0, 4, 1, 0, 0, 0, 1, 7]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
-  "30d":
-    pushes: 5
+    pushes: 7
     distinct_repos: 3
-    active_days: 4
-    repos_not_owned: 2
-    not_owned_basenames: 2
+    active_days: 2
+    repos_not_owned: 3
+    not_owned_basenames: 3
+    not_owned_owners: 1
+  "30d":
+    pushes: 8
+    distinct_repos: 4
+    active_days: 3
+    repos_not_owned: 3
+    not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 100
-    distinct_repos: 9
-    active_days: 28
+    pushes: 71
+    distinct_repos: 7
+    active_days: 21
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 3.5714
-  repo_per_active_day: 0.3214
-  not_owned_ratio: 0.4444
-  basename_concentration: 0.2222
+  push_per_day: 3.3810
+  repo_per_active_day: 0.3333
+  not_owned_ratio: 0.5714
+  basename_concentration: 0.2857
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,34 +49,58 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
-  "30d":
-    pushes: 5
+    pushes: 7
     distinct_repos: 3
-    pushes_per_repo: 1.6667
-    active_days: 4
-    repos_not_owned: 2
-    not_owned_basenames: 2
+    pushes_per_repo: 2.3333
+    active_days: 2
+    repos_not_owned: 3
+    not_owned_basenames: 3
+    not_owned_owners: 1
+  "30d":
+    pushes: 8
+    distinct_repos: 4
+    pushes_per_repo: 2.0000
+    active_days: 3
+    repos_not_owned: 3
+    not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 100
-    distinct_repos: 9
-    pushes_per_repo: 11.1111
-    active_days: 28
+    pushes: 71
+    distinct_repos: 7
+    pushes_per_repo: 10.1429
+    active_days: 21
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 28 active days in 90d — pass"
+  - "activity: 21 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "claude-code-containers"
+    title: "claude-code-containers"
+    description: "Use Claude Code on Cloudflare to solve GitHub issues"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 245
+    first_seen: null
+    last_push: "2025-06-24"
+  - name: "container-outbound-example"
+    title: "container-outbound-example"
+    description: "Durable Object container example: intercept outbound HTTP(S) through a Worker allowlist"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-14"
+  - name: "marked-register"
+    title: "marked-register"
+    description: "Local-first marked register digitisation and review"
+    language: "Python"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-08-13"
   - name: "sandbox-vite-snapshot-repro"
     title: "sandbox-vite-snapshot-repro"
     description: "Reproduce Vite cache rename failures after Cloudflare Sandbox restore"
@@ -85,14 +109,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-09-01"
-  - name: "claude-code-containers"
-    title: "claude-code-containers"
-    description: "Use Claude Code on Cloudflare to solve GitHub issues"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 244
-    first_seen: null
-    last_push: "2025-06-24"
   - name: "awesome-cloudflare"
     title: "awesome-cloudflare"
     description: null
@@ -114,26 +130,10 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-08-28"
-  - name: "karishma"
-    title: "karishma"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-25"
-  - name: "nightona"
-    title: "nightona"
-    description: "DIY Lovable"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 85
-    first_seen: null
-    last_push: "2025-07-07"
 ---
 
 # ghostwriternr
 
-100 pushes across 9 repositories on 28 active days in the last 90 days of public GitHub push activity.
+71 pushes across 7 repositories on 21 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ghostwriternr

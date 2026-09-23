@@ -8,39 +8,39 @@ provenance_repos:
   - "chopratejas/headroom"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+repos_populated: false
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "73468cde177ddae6"
-pushes_per_week: [4, 4, 17, 4, 12, 8, 11, 3, 5, 4, 4, 0, 2]
+pushes_per_week: [4, 6, 13, 9, 8, 5, 3, 3, 3, 1, 3, 1, 0]
 windows:
   "7d":
-    pushes: 2
-    distinct_repos: 2
-    active_days: 2
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 10
-    distinct_repos: 4
-    active_days: 9
+    pushes: 5
+    distinct_repos: 3
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 78
-    distinct_repos: 12
-    active_days: 42
-    repos_not_owned: 3
-    not_owned_basenames: 2
-    not_owned_owners: 3
+    pushes: 59
+    distinct_repos: 10
+    active_days: 36
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.8571
-  repo_per_active_day: 0.2857
-  not_owned_ratio: 0.2500
-  basename_concentration: 0.2500
+  push_per_day: 1.6389
+  repo_per_active_day: 0.2778
+  not_owned_ratio: 0.1000
+  basename_concentration: 0.1000
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,101 +49,38 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
-    distinct_repos: 2
-    pushes_per_repo: 1.0000
-    active_days: 2
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 10
-    distinct_repos: 4
-    pushes_per_repo: 2.5000
-    active_days: 9
+    pushes: 5
+    distinct_repos: 3
+    pushes_per_repo: 1.6667
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 78
-    distinct_repos: 12
-    pushes_per_repo: 6.5000
-    active_days: 42
-    repos_not_owned: 3
-    not_owned_basenames: 2
-    not_owned_owners: 3
+    pushes: 59
+    distinct_repos: 10
+    pushes_per_repo: 5.9000
+    active_days: 36
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 42 active days in 90d — pass"
+  - "activity: 36 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "dotfiles"
-    title: "dotfiles"
-    description: "My dotFiles"
-    language: "CSS"
-    topics:
-      - "dotfiles"
-      - "personal"
-    stars_fact: 12
-    first_seen: null
-    last_push: "2026-09-03"
-  - name: "dontquotetheai"
-    title: "dontquotetheai"
-    description: "Don't paste the ai response at me, please"
-    language: "HTML"
-    topics:
-      - "ai"
-      - "fun"
-      - "satire-sites"
-      - "slop"
-    stars_fact: 145
-    first_seen: null
-    last_push: "2026-08-31"
-  - name: "sigil"
-    title: "sigil"
-    description: "Compressed memory format for Claude Code — up to 50× token compression at 100% decode accuracy"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 7
-    first_seen: null
-    last_push: "2026-06-12"
-  - name: "event-sourcing-demo-app"
-    title: "event-sourcing-demo-app"
-    description: "Demo application to demonstrate the power of the event sourcing architecture for DevelopersBR livestream"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 55
-    first_seen: null
-    last_push: "2023-03-02"
-  - name: "blog"
-    title: "blog"
-    description: "My personal blog, revamped"
-    language: "MDX"
-    topics:
-      - "astro"
-      - "blog"
-      - "github-pages"
-      - "mdx"
-      - "obsidian"
-      - "static-site"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-03"
-  - name: "scriba"
-    title: "scriba"
-    description: "Handles my journaling in obsidian"
-    language: "TypeScript"
-    topics:
-      - "journal"
-      - "markdown"
-      - "obsidian"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-01"
+repos: []
 ---
 
 # khaosdoctor
 
-78 pushes across 12 repositories on 42 active days in the last 90 days of public GitHub push activity.
+59 pushes across 10 repositories on 36 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/khaosdoctor

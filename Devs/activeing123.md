@@ -10,36 +10,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "69d1a861b67c373a"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 4, 1, 0]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 2, 4, 1, 0, 4, 0, 1]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 7
-    distinct_repos: 2
-    active_days: 5
+    pushes: 6
+    distinct_repos: 1
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 7
+    pushes: 12
     distinct_repos: 2
-    active_days: 5
+    active_days: 8
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.4000
-  repo_per_active_day: 0.4000
+  push_per_day: 1.5000
+  repo_per_active_day: 0.2500
   not_owned_ratio: 0.0000
   basename_concentration: 0.5000
   shapes: []
@@ -50,57 +50,92 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
+    pushes: 1
+    distinct_repos: 1
+    pushes_per_repo: 1.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 7
-    distinct_repos: 2
-    pushes_per_repo: 3.5000
-    active_days: 5
+    pushes: 6
+    distinct_repos: 1
+    pushes_per_repo: 6.0000
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 7
+    pushes: 12
     distinct_repos: 2
-    pushes_per_repo: 3.5000
-    active_days: 5
+    pushes_per_repo: 6.0000
+    active_days: 8
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 5 active days in 90d — pass"
+  - "activity: 8 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "mcptoon"
     title: "mcptoon"
-    description: "A magical tool that changes how you use Agents. Install once — every Agent automatically discovers and uses all your MCP tools, and saves your tokens along the way."
+    description: "MCP tool schemas + agent skills: 71,929 tokens -> 581 (-99.2%, measured). mcptoon syncs them to every agent. A zero-dependency CLI, no hand-written config."
     language: "HTML"
     topics:
+      - "agent-skills"
       - "ai"
       - "ai-agents"
-      - "ai-tools"
       - "claude"
       - "claude-code"
+      - "claude-desktop"
+      - "claude-skills"
       - "cli"
-      - "configuration-management"
+      - "codex"
+      - "context-compression"
       - "cursor"
-      - "developer-tools"
+      - "gemini-cli-extension"
       - "llm"
       - "mcp"
+      - "mcp-client"
       - "mcp-server"
       - "model-context-protocol"
       - "python"
-      - "workflow-automation"
-    stars_fact: 195
+      - "skill-management"
+      - "token-optimization"
+    stars_fact: 203
     first_seen: "2026-08-11T06:00:08.519377+00:00"
-    last_push: "2026-09-03"
+    last_push: "2026-09-20"
+  - name: "homebrew-mcptoon"
+    title: "homebrew-mcptoon"
+    description: "Homebrew tap for mcptoon — MCP client with token-efficient tool manifests"
+    language: "Ruby"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-20"
+  - name: "dsh-mcptoon"
+    title: "dsh-mcptoon"
+    description: "DeepSeek Harness bundle: mount mcptoon as an MCP server in one command. Tool discovery 71,929 -> 581 tokens across 255 tools (-99.2%, measured); encoding is lossless."
+    language: "JavaScript"
+    topics:
+      - "cordis"
+      - "deepseek-harness"
+      - "dsh-plugin"
+      - "mcptoon"
+      - "model-context-protocol"
+      - "token-compression"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-16"
+  - name: "choco-mcptoon"
+    title: "choco-mcptoon"
+    description: "Chocolatey package sources for mcptoon"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-13"
   - name: "dsh-forge"
     title: "dsh-forge"
     description: "Skill self-forging plugin for DeepSeek Harness — watch session traces, detect repeated successful tasks, forge them into reusable skills"
@@ -112,7 +147,7 @@ repos:
       - "dsh-plugin"
       - "plugin"
       - "skill"
-    stars_fact: 2
+    stars_fact: 1
     first_seen: null
     last_push: "2026-08-18"
   - name: "activeing123"
@@ -122,19 +157,11 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-08-22"
-  - name: "test-repo"
-    title: "test-repo"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-07-27"
+    last_push: "2026-09-11"
 ---
 
 # activeing123
 
-7 pushes across 2 repositories on 5 active days in the last 90 days of public GitHub push activity.
+12 pushes across 2 repositories on 8 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/activeing123

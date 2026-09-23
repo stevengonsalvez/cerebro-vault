@@ -8,38 +8,38 @@ provenance_repos:
   - "abi/screenshot-to-code"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+repos_populated: false
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "ef17663e884139a8"
-pushes_per_week: [24, 8, 5, 11, 1, 0, 0, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [13, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 17, 11]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
-  "30d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
-  "90d":
-    pushes: 49
+    pushes: 11
     distinct_repos: 2
-    active_days: 12
-    repos_not_owned: 2
-    not_owned_basenames: 2
+    active_days: 4
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
+  "30d":
+    pushes: 29
+    distinct_repos: 2
+    active_days: 10
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
+  "90d":
+    pushes: 43
+    distinct_repos: 2
+    active_days: 14
+    repos_not_owned: 1
+    not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 4.0833
-  repo_per_active_day: 0.1667
-  not_owned_ratio: 1.0000
+  push_per_day: 3.0714
+  repo_per_active_day: 0.1429
+  not_owned_ratio: 0.5000
   basename_concentration: 0.5000
   shapes: []
   shape_evidence: []
@@ -49,112 +49,38 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
-  "30d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
-  "90d":
-    pushes: 49
+    pushes: 11
     distinct_repos: 2
-    pushes_per_repo: 24.5000
-    active_days: 12
-    repos_not_owned: 2
-    not_owned_basenames: 2
+    pushes_per_repo: 5.5000
+    active_days: 4
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
+  "30d":
+    pushes: 29
+    distinct_repos: 2
+    pushes_per_repo: 14.5000
+    active_days: 10
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
+  "90d":
+    pushes: 43
+    distinct_repos: 2
+    pushes_per_repo: 21.5000
+    active_days: 14
+    repos_not_owned: 1
+    not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 12 active days in 90d — pass"
+  - "activity: 14 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "ntsd"
-    title: "ntsd"
-    description: "My Github Profile"
-    language: null
-    topics:
-      - "github-profile"
-      - "github-profile-readme"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-30"
-  - name: "dotai"
-    title: "dotai"
-    description: "Local VLLM on Nvidia DGX Spark and hermes agent on any Linux or Reaspberry PI setup"
-    language: "Makefile"
-    topics:
-      - "dgx-spark"
-      - "hermes"
-      - "local-llm"
-      - "vllm"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-26"
-  - name: "cross-clipboard"
-    title: "cross-clipboard"
-    description: "An open source cross-platform clipboard sharing."
-    language: "Go"
-    topics:
-      - "clipboard"
-      - "golang"
-      - "hacktoberfest"
-      - "libp2p"
-      - "p2p"
-      - "tview"
-    stars_fact: 57
-    first_seen: null
-    last_push: "2025-05-17"
-  - name: "zero-share"
-    title: "zero-share"
-    description: "A secure P2P file sharing using WebRTC without server-side need."
-    language: "Svelte"
-    topics:
-      - "astro"
-      - "data-sharing"
-      - "data-transfer"
-      - "file-sharing"
-      - "file-transfer"
-      - "hacktoberfest"
-      - "p2p"
-      - "svelte"
-      - "webrtc"
-    stars_fact: 150
-    first_seen: null
-    last_push: "2026-01-04"
-  - name: "lol-chat-timer"
-    title: "lol-chat-timer"
-    description: "Overwolf plugin to track spell and ability by in game chat"
-    language: "Svelte"
-    topics:
-      - "hacktoberfest"
-      - "league-of-legends"
-      - "lol"
-      - "overlay"
-      - "overwolf"
-    stars_fact: 3
-    first_seen: null
-    last_push: "2023-11-24"
-  - name: "freqtrade-configs"
-    title: "freqtrade-configs"
-    description: "My Freqtrade strategies and config"
-    language: "Python"
-    topics: []
-    stars_fact: 45
-    first_seen: null
-    last_push: "2022-04-03"
+repos: []
 ---
 
 # ntsd
 
-49 pushes across 2 repositories on 12 active days in the last 90 days of public GitHub push activity.
+43 pushes across 2 repositories on 14 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ntsd

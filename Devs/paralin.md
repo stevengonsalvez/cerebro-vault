@@ -8,39 +8,39 @@ provenance_repos:
   - "can1357/oh-my-pi"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+repos_populated: false
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [37, 66, 75, 132, 89, 69, 61, 77, 50, 28, 23, 3, 2]
+pushes_per_week: [54, 145, 71, 57, 85, 58, 48, 10, 25, 2, 8, 7, 20]
 windows:
   "7d":
-    pushes: 2
-    distinct_repos: 2
-    active_days: 2
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 20
+    distinct_repos: 8
+    active_days: 5
+    repos_not_owned: 4
+    not_owned_basenames: 4
+    not_owned_owners: 2
   "30d":
-    pushes: 78
+    pushes: 37
     distinct_repos: 12
-    active_days: 15
-    repos_not_owned: 8
-    not_owned_basenames: 8
-    not_owned_owners: 3
+    active_days: 13
+    repos_not_owned: 7
+    not_owned_basenames: 7
+    not_owned_owners: 2
   "90d":
-    pushes: 712
-    distinct_repos: 53
-    active_days: 73
-    repos_not_owned: 42
-    not_owned_basenames: 41
+    pushes: 590
+    distinct_repos: 47
+    active_days: 67
+    repos_not_owned: 37
+    not_owned_basenames: 37
     not_owned_owners: 4
 automation:
   state: "clear"
-  push_per_day: 9.7534
-  repo_per_active_day: 0.7260
-  not_owned_ratio: 0.7925
-  basename_concentration: 0.0377
+  push_per_day: 8.8060
+  repo_per_active_day: 0.7015
+  not_owned_ratio: 0.7872
+  basename_concentration: 0.0213
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,86 +49,38 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
-    distinct_repos: 2
-    pushes_per_repo: 1.0000
-    active_days: 2
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 20
+    distinct_repos: 8
+    pushes_per_repo: 2.5000
+    active_days: 5
+    repos_not_owned: 4
+    not_owned_basenames: 4
+    not_owned_owners: 2
   "30d":
-    pushes: 78
+    pushes: 37
     distinct_repos: 12
-    pushes_per_repo: 6.5000
-    active_days: 15
-    repos_not_owned: 8
-    not_owned_basenames: 8
-    not_owned_owners: 3
+    pushes_per_repo: 3.0833
+    active_days: 13
+    repos_not_owned: 7
+    not_owned_basenames: 7
+    not_owned_owners: 2
   "90d":
-    pushes: 712
-    distinct_repos: 53
-    pushes_per_repo: 13.4340
-    active_days: 73
-    repos_not_owned: 42
-    not_owned_basenames: 41
+    pushes: 590
+    distinct_repos: 47
+    pushes_per_repo: 12.5532
+    active_days: 67
+    repos_not_owned: 37
+    not_owned_basenames: 37
     not_owned_owners: 4
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 73 active days in 90d — pass"
+  - "activity: 67 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "s2replay"
-    title: "s2replay"
-    description: "Modern Source 2 replay parser in Go."
-    language: "Go"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-09-02"
-  - name: "go-deadlock"
-    title: "go-deadlock"
-    description: "Deadlock game coordinator client for go-steam"
-    language: "Go"
-    topics: []
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-08-22"
-  - name: "sendgmailapi"
-    title: "sendgmailapi"
-    description: "git send-email using the gmail api"
-    language: "Go"
-    topics: []
-    stars_fact: 4
-    first_seen: null
-    last_push: "2026-09-02"
-  - name: "go-dota2"
-    title: "go-dota2"
-    description: "Go implementation of the DOTA2 game-coordinator client."
-    language: "Go"
-    topics: []
-    stars_fact: 181
-    first_seen: null
-    last_push: "2026-09-03"
-  - name: "ts2go"
-    title: "ts2go"
-    description: "experimental"
-    language: "Go"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-08-05"
-  - name: "go-quickjs-wasi"
-    title: "go-quickjs-wasi"
-    description: "Go module containing an embedded quickjs wasi binary."
-    language: "JavaScript"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-07-05"
+repos: []
 ---
 
 # paralin
 
-712 pushes across 53 repositories on 73 active days in the last 90 days of public GitHub push activity.
+590 pushes across 47 repositories on 67 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/paralin

@@ -10,40 +10,40 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "16389f32495280ea"
   - "50b9cd6dfa9f75d1"
   - "939f60d749009d51"
-pushes_per_week: [16, 6, 7, 6, 17, 10, 6, 16, 7, 10, 0, 0, 0]
+pushes_per_week: [8, 10, 12, 7, 13, 13, 5, 8, 0, 0, 1, 0, 2]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
+    pushes: 2
+    distinct_repos: 2
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 13
-    distinct_repos: 4
-    active_days: 7
+    pushes: 3
+    distinct_repos: 3
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 101
-    distinct_repos: 19
-    active_days: 42
+    pushes: 79
+    distinct_repos: 15
+    active_days: 37
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.4048
-  repo_per_active_day: 0.4524
+  push_per_day: 2.1351
+  repo_per_active_day: 0.4054
   not_owned_ratio: 0.0000
-  basename_concentration: 0.0526
+  basename_concentration: 0.0667
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -52,42 +52,78 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
+    pushes: 2
+    distinct_repos: 2
+    pushes_per_repo: 1.0000
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 13
-    distinct_repos: 4
-    pushes_per_repo: 3.2500
-    active_days: 7
+    pushes: 3
+    distinct_repos: 3
+    pushes_per_repo: 1.0000
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 101
-    distinct_repos: 19
-    pushes_per_repo: 5.3158
-    active_days: 42
+    pushes: 79
+    distinct_repos: 15
+    pushes_per_repo: 5.2667
+    active_days: 37
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 3 vault signal(s) — pass"
-  - "activity: 42 active days in 90d — pass"
+  - "activity: 37 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "laptop-llm-cn"
+    title: "laptop-llm-cn"
+    description: "中文 LLM 研究教学实验室：Sparse Attention、MLA、MoE、PPO/GRPO、RLVR、在线蒸馏与本地网页 Serving"
+    language: "Python"
+    topics:
+      - "chinese"
+      - "dpo"
+      - "education"
+      - "fastapi"
+      - "grpo"
+      - "knowledge-distillation"
+      - "laptop"
+      - "llm"
+      - "llm-training"
+      - "moe"
+      - "pytorch"
+      - "rlhf"
+      - "sparse-attention"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-22"
+  - name: "delta-mfp-local-agents"
+    title: "delta-mfp-local-agents"
+    description: "Delta-MFP: counterfactual-replay failure diagnosis for local tool-use agents (FAGEN @ ICML 2026)"
+    language: "Python"
+    topics:
+      - "ai-agents"
+      - "counterfactual-replay"
+      - "failure-analysis"
+      - "local-llm"
+      - "reproducible-research"
+      - "tool-use"
+    stars_fact: 51
+    first_seen: null
+    last_push: "2026-07-30"
   - name: "mini-verl"
     title: "mini-verl"
-    description: "Run a documented subset of verl-style OPD on one consumer GPU—typed config, Parquet prompts, and PEFT scale-out artifacts."
+    description: "verl for a single consumer GPU. PPO, GRPO and on-policy distillation on NVIDIA GPUs."
     language: "Python"
     topics:
       - "agentic-rl"
       - "alignment"
       - "consumer-gpu"
+      - "grpo"
       - "knowledge-distillation"
       - "llm"
       - "llm-agents"
@@ -95,14 +131,50 @@ repos:
       - "on-policy-distillation"
       - "peft"
       - "post-training"
+      - "ppo"
       - "qlora"
       - "qwen"
+      - "reinforcement-learning"
       - "single-gpu"
       - "tool-use"
       - "verl"
-    stars_fact: 234
+    stars_fact: 304
     first_seen: null
-    last_push: "2026-09-01"
+    last_push: "2026-09-15"
+  - name: "RepoGuardBench"
+    title: "RepoGuardBench"
+    description: "Benchmarking repository-borne prompt injection attacks and lightweight defenses for local coding agents. DL4C @ ICML 2026."
+    language: "Python"
+    topics:
+      - "ai-security"
+      - "benchmark"
+      - "coding-agents"
+      - "llm-security"
+      - "local-llm"
+      - "prompt-injection"
+      - "reproducible-research"
+      - "software-engineering"
+    stars_fact: 70
+    first_seen: null
+    last_push: "2026-07-30"
+  - name: "rsna-2024-lumbar-spine"
+    title: "rsna-2024-lumbar-spine"
+    description: "Silver Medal Solution for the Kaggle Competition: RSNA 2024 Lumbar Spine Degenerative Classification"
+    language: "Jupyter Notebook"
+    topics:
+      - "deep-learning"
+      - "dicom"
+      - "kaggle-competition"
+      - "kaggle-solution"
+      - "medical-imaging"
+      - "mri"
+      - "object-detection"
+      - "rsna"
+      - "silver-medal"
+      - "yolov8"
+    stars_fact: 31
+    first_seen: null
+    last_push: "2026-07-11"
   - name: "can-i-finetune-this"
     title: "can-i-finetune-this"
     description: "Estimate whether a Hugging Face model fits and fine-tunes on your local GPU."
@@ -123,78 +195,10 @@ repos:
     stars_fact: 792
     first_seen: null
     last_push: "2026-07-23"
-  - name: "laptop-llm-cn"
-    title: "laptop-llm-cn"
-    description: "一台笔记本跑通中文 LLM 的 BPE、预训练、SFT、DPO、评测与 OpenAI 兼容 Serving"
-    language: "Python"
-    topics:
-      - "chinese"
-      - "dpo"
-      - "education"
-      - "fastapi"
-      - "laptop"
-      - "llm"
-      - "llm-training"
-      - "pytorch"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-01"
-  - name: "RepoGuardBench"
-    title: "RepoGuardBench"
-    description: "Benchmarking repository-borne prompt injection attacks and lightweight defenses for local coding agents. DL4C @ ICML 2026."
-    language: "Python"
-    topics:
-      - "ai-security"
-      - "benchmark"
-      - "coding-agents"
-      - "llm-security"
-      - "local-llm"
-      - "prompt-injection"
-      - "reproducible-research"
-      - "software-engineering"
-    stars_fact: 69
-    first_seen: null
-    last_push: "2026-07-30"
-  - name: "tracedistill"
-    title: "tracedistill"
-    description: "Distill teacher chains-of-thought into a LoRA adapter via a strict boxed-answer format contract + two-phase Train→Nudge (silver-medal NVIDIA Nemotron reasoning recipe, as a tested library)."
-    language: "Python"
-    topics:
-      - "chain-of-thought"
-      - "fine-tuning"
-      - "kaggle"
-      - "llm"
-      - "lora"
-      - "mamba"
-      - "mixture-of-experts"
-      - "nemotron"
-      - "nvidia"
-      - "peft"
-      - "reasoning"
-      - "sft"
-      - "trace-distillation"
-      - "trl"
-    stars_fact: 85
-    first_seen: null
-    last_push: "2026-07-27"
-  - name: "delta-mfp-local-agents"
-    title: "delta-mfp-local-agents"
-    description: "Delta-MFP: counterfactual-replay failure diagnosis for local tool-use agents (FAGEN @ ICML 2026)"
-    language: "Python"
-    topics:
-      - "ai-agents"
-      - "counterfactual-replay"
-      - "failure-analysis"
-      - "local-llm"
-      - "reproducible-research"
-      - "tool-use"
-    stars_fact: 50
-    first_seen: null
-    last_push: "2026-07-30"
 ---
 
 # DaoyuanLi2816
 
-101 pushes across 19 repositories on 42 active days in the last 90 days of public GitHub push activity.
+79 pushes across 15 repositories on 37 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/DaoyuanLi2816

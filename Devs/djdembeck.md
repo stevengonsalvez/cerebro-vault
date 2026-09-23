@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [8, 3, 2, 2, 6, 6, 29, 16, 17, 12, 2, 0, 0]
+pushes_per_week: [1, 1, 9, 10, 31, 9, 19, 9, 1, 0, 0, 0, 2]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
+    pushes: 2
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 28
-    distinct_repos: 10
-    active_days: 9
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 2
+    distinct_repos: 1
+    active_days: 1
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
-    pushes: 103
+    pushes: 92
     distinct_repos: 12
-    active_days: 39
+    active_days: 33
     repos_not_owned: 3
     not_owned_basenames: 2
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 2.6410
-  repo_per_active_day: 0.3077
+  push_per_day: 2.7879
+  repo_per_active_day: 0.3636
   not_owned_ratio: 0.2500
   basename_concentration: 0.1667
   shapes: []
@@ -49,34 +49,52 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
+    pushes: 2
+    distinct_repos: 1
+    pushes_per_repo: 2.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 28
-    distinct_repos: 10
-    pushes_per_repo: 2.8000
-    active_days: 9
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 2
+    distinct_repos: 1
+    pushes_per_repo: 2.0000
+    active_days: 1
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
-    pushes: 103
+    pushes: 92
     distinct_repos: 12
-    pushes_per_repo: 8.5833
-    active_days: 39
+    pushes_per_repo: 7.6667
+    active_days: 33
     repos_not_owned: 3
     not_owned_basenames: 2
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 39 active days in 90d — pass"
+  - "activity: 33 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "annalist"
+    title: "annalist"
+    description: "Self-hosted AI release notes for GitHub and Forgejo releases"
+    language: "Go"
+    topics:
+      - "ai"
+      - "devops"
+      - "forgejo"
+      - "github-actions"
+      - "go"
+      - "llm"
+      - "release-notes"
+      - "self-hosted"
+      - "sveltekit"
+      - "webhooks"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-23"
   - name: "Audnexus.bundle"
     title: "Audnexus.bundle"
     description: "An Audnexus client proof of concept for Plex, providing rich author and audiobook data. Developed in Python, offering enhanced user experiences via Plex's legacy plugin agent system."
@@ -95,46 +113,17 @@ repos:
       - "proof-of-concept"
       - "python"
       - "user-experience"
-    stars_fact: 652
+    stars_fact: 651
     first_seen: null
     last_push: "2026-02-10"
-  - name: "annalist"
-    title: "annalist"
-    description: "Self-hosted AI release notes for GitHub and Forgejo releases"
+  - name: "reddit-upvote-media-downloader"
+    title: "reddit-upvote-media-downloader"
+    description: "A lightweight, efficient Reddit media downloader written in Go. Fetches upvoted and saved posts, downloads images and videos (including from external sites), and tracks downloads to avoid duplicates."
     language: "Go"
-    topics:
-      - "ai"
-      - "devops"
-      - "forgejo"
-      - "github-actions"
-      - "go"
-      - "llm"
-      - "release-notes"
-      - "self-hosted"
-      - "sveltekit"
-      - "webhooks"
-    stars_fact: 0
+    topics: []
+    stars_fact: 2
     first_seen: null
-    last_push: "2026-09-02"
-  - name: "bragibooks"
-    title: "bragibooks"
-    description: "An audiobook library cleanup and management tool built with Python and Django. Leveraging m4b-merge for audiobook standardization and editing. Ideal for enhancing audiobook library management."
-    language: "Python"
-    topics:
-      - "audible"
-      - "audiobook-cleanup"
-      - "audiobooks"
-      - "audnexus"
-      - "django"
-      - "docker"
-      - "library-management"
-      - "m4b"
-      - "metadata-management"
-      - "metadata-parser"
-      - "python"
-    stars_fact: 217
-    first_seen: null
-    last_push: "2026-08-10"
+    last_push: "2026-08-09"
   - name: "m4b-merge"
     title: "m4b-merge"
     description: "A high-performance Rust CLI to merge audiobooks into consistently tagged M4B files. Zero runtime deps, native chapter embedding, and 10x faster processing."
@@ -150,9 +139,9 @@ repos:
       - "metadata"
       - "mp3"
       - "rust"
-    stars_fact: 91
+    stars_fact: 92
     first_seen: null
-    last_push: "2026-08-31"
+    last_push: "2026-09-14"
   - name: "media-archive-sync"
     title: "media-archive-sync"
     description: "Download and organize media from web archives"
@@ -160,19 +149,19 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-08-31"
-  - name: "forgejo-cli"
-    title: "forgejo-cli"
-    description: null
-    language: "Shell"
+    last_push: "2026-09-20"
+  - name: "pr-review-tools"
+    title: "pr-review-tools"
+    description: "Programmatic tools for posting feedback to Mira PR review threads — reject false positives, acknowledge valid findings, and close the review learning loop."
+    language: "Go"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-03"
+    last_push: "2026-09-09"
 ---
 
 # djdembeck
 
-103 pushes across 12 repositories on 39 active days in the last 90 days of public GitHub push activity.
+92 pushes across 12 repositories on 33 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/djdembeck

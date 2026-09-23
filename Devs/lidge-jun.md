@@ -8,39 +8,39 @@ provenance_repos:
   - "lidge-jun/opencodex"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+repos_populated: false
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "c47cbc7eb3e22410"
-pushes_per_week: [64, 115, 102, 70, 65, 48, 47, 33, 68, 97, 32, 21, 17]
+pushes_per_week: [65, 55, 83, 24, 53, 41, 72, 89, 24, 15, 64, 66, 203]
 windows:
   "7d":
-    pushes: 18
-    distinct_repos: 4
-    active_days: 4
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
-  "30d":
     pushes: 204
-    distinct_repos: 9
-    active_days: 25
-    repos_not_owned: 2
-    not_owned_basenames: 2
-    not_owned_owners: 2
+    distinct_repos: 20
+    active_days: 7
+    repos_not_owned: 11
+    not_owned_basenames: 1
+    not_owned_owners: 11
+  "30d":
+    pushes: 360
+    distinct_repos: 25
+    active_days: 26
+    repos_not_owned: 13
+    not_owned_basenames: 1
+    not_owned_owners: 13
   "90d":
-    pushes: 779
-    distinct_repos: 27
-    active_days: 83
-    repos_not_owned: 9
-    not_owned_basenames: 4
-    not_owned_owners: 9
+    pushes: 854
+    distinct_repos: 40
+    active_days: 84
+    repos_not_owned: 20
+    not_owned_basenames: 3
+    not_owned_owners: 20
 automation:
   state: "clear"
-  push_per_day: 9.3855
-  repo_per_active_day: 0.3253
-  not_owned_ratio: 0.3333
-  basename_concentration: 0.2593
+  push_per_day: 10.1667
+  repo_per_active_day: 0.4762
+  not_owned_ratio: 0.5000
+  basename_concentration: 0.4750
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,137 +49,38 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 18
-    distinct_repos: 4
-    pushes_per_repo: 4.5000
-    active_days: 4
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
-  "30d":
     pushes: 204
-    distinct_repos: 9
-    pushes_per_repo: 22.6667
-    active_days: 25
-    repos_not_owned: 2
-    not_owned_basenames: 2
-    not_owned_owners: 2
+    distinct_repos: 20
+    pushes_per_repo: 10.2000
+    active_days: 7
+    repos_not_owned: 11
+    not_owned_basenames: 1
+    not_owned_owners: 11
+  "30d":
+    pushes: 360
+    distinct_repos: 25
+    pushes_per_repo: 14.4000
+    active_days: 26
+    repos_not_owned: 13
+    not_owned_basenames: 1
+    not_owned_owners: 13
   "90d":
-    pushes: 779
-    distinct_repos: 27
-    pushes_per_repo: 28.8519
-    active_days: 83
-    repos_not_owned: 9
-    not_owned_basenames: 4
-    not_owned_owners: 9
+    pushes: 854
+    distinct_repos: 40
+    pushes_per_repo: 21.3500
+    active_days: 84
+    repos_not_owned: 20
+    not_owned_basenames: 3
+    not_owned_owners: 20
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 83 active days in 90d — pass"
+  - "activity: 84 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "opencodex"
-    title: "opencodex"
-    description: "Universal provider proxy for OpenAI Codex & Claude Code — use any LLM (Claude, Gemini, Grok, DeepSeek, Ollama…) with Codex CLI, App, SDK, and Claude Code"
-    language: "TypeScript"
-    topics:
-      - "ai-gateway"
-      - "ai-tools"
-      - "anthropic"
-      - "chatgpt"
-      - "claude"
-      - "claude-code"
-      - "codex"
-      - "codex-cli"
-      - "deepseek"
-      - "developer-tools"
-      - "gemini"
-      - "grok"
-      - "kiro"
-      - "llm"
-      - "llm-proxy"
-      - "ollama"
-      - "openai"
-      - "openrouter"
-      - "proxy"
-      - "typescript"
-    stars_fact: 13148
-    first_seen: "2026-08-09T06:00:06.171867+00:00"
-    last_push: "2026-09-03"
-  - name: "ima2-gen"
-    title: "ima2-gen"
-    description: "Local-first visual generation runtime and studio for people and coding agents, with reproducible image and video workflows across multiple providers."
-    language: "TypeScript"
-    topics:
-      - "ai-agent"
-      - "gemini"
-      - "grok"
-      - "image-generation"
-      - "local-first"
-      - "mcp"
-      - "node-editor"
-      - "openai"
-      - "video-generation"
-      - "visual-workflow"
-    stars_fact: 739
-    first_seen: null
-    last_push: "2026-09-03"
-  - name: "aside-skill"
-    title: "aside-skill"
-    description: "Codex skill for driving the Aside browser CLI without triggering unrecoverable hangs"
-    language: "Shell"
-    topics: []
-    stars_fact: 8
-    first_seen: null
-    last_push: "2026-09-03"
-  - name: "cli-jaw"
-    title: "cli-jaw"
-    description: "🦈 2-line install personal AI assistant. 11 AI runtime surfaces (Claude, Codex, Cursor, Gemini, Grok, Antigravity, OpenCode, Copilot), 200+ skills, zero ban risk."
-    language: "TypeScript"
-    topics:
-      - "ai"
-      - "assistant"
-      - "automation"
-      - "claude"
-      - "cli"
-      - "codex"
-      - "copilot"
-      - "gemini"
-      - "mcp"
-      - "multi-agent"
-      - "opencode"
-      - "orchestrator"
-      - "telegram-bot"
-      - "typescript"
-    stars_fact: 201
-    first_seen: null
-    last_push: "2026-09-02"
-  - name: "pabcd_initiative"
-    title: "pabcd_initiative"
-    description: "PABCD Initiative: capability-responsive harness for AI coding agents. Plan-Audit-Build-Check-Done FSM + 13 dev skills + arXiv-grounded methodology."
-    language: "HTML"
-    topics:
-      - "agent-harness"
-      - "ai-agents"
-      - "coding-agents"
-      - "developer-tools"
-      - "llm"
-      - "pabcd"
-      - "software-methodology"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-02"
-  - name: "cli-jaw-skills"
-    title: "cli-jaw-skills"
-    description: "Reference skills for CLI-JAW (105 bundled skills)"
-    language: "Python"
-    topics: []
-    stars_fact: 5
-    first_seen: null
-    last_push: "2026-09-02"
+repos: []
 ---
 
 # lidge-jun
 
-779 pushes across 27 repositories on 83 active days in the last 90 days of public GitHub push activity.
+854 pushes across 40 repositories on 84 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/lidge-jun

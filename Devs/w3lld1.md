@@ -8,11 +8,11 @@ provenance_repos:
   - "apache/maka"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-09-05T06:07:00.404056+00:00"
+repos_populated: false
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [0, 0, 0, 3, 6, 4, 3, 3, 3, 2, 0, 0, 0]
+pushes_per_week: [0, 3, 9, 2, 4, 3, 3, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 3
-    distinct_repos: 3
-    active_days: 3
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 3
-    distinct_repos: 3
-    pushes_per_repo: 1.0000
-    active_days: 3
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -76,23 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 15 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "universal-news-digest"
-    title: "universal-news-digest"
-    description: "Config-driven collector and renderer for recurring news digests on any topic"
-    language: "Python"
-    topics:
-      - "automation"
-      - "cron"
-      - "hermes-agent"
-      - "llm"
-      - "news-digest"
-      - "python"
-      - "rss"
-      - "telegram"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-23"
+repos: []
 ---
 
 # w3lld1

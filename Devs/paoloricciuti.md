@@ -8,11 +8,11 @@ provenance_repos:
   - "anomalyco/opencode"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+repos_populated: false
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [2, 0, 6, 7, 5, 6, 5, 2, 5, 2, 0, 0, 0]
+pushes_per_week: [9, 4, 8, 5, 2, 5, 1, 2, 0, 0, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,25 +22,25 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 3
-    distinct_repos: 2
-    active_days: 2
-    repos_not_owned: 2
-    not_owned_basenames: 2
-    not_owned_owners: 2
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "90d":
-    pushes: 40
-    distinct_repos: 10
-    active_days: 26
+    pushes: 37
+    distinct_repos: 9
+    active_days: 24
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 1.5385
-  repo_per_active_day: 0.3846
-  not_owned_ratio: 0.4000
-  basename_concentration: 0.1000
+  push_per_day: 1.5417
+  repo_per_active_day: 0.3750
+  not_owned_ratio: 0.4444
+  basename_concentration: 0.1111
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -57,85 +57,30 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 3
-    distinct_repos: 2
-    pushes_per_repo: 1.5000
-    active_days: 2
-    repos_not_owned: 2
-    not_owned_basenames: 2
-    not_owned_owners: 2
+    pushes: 1
+    distinct_repos: 1
+    pushes_per_repo: 1.0000
+    active_days: 1
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "90d":
-    pushes: 40
-    distinct_repos: 10
-    pushes_per_repo: 4.0000
-    active_days: 26
+    pushes: 37
+    distinct_repos: 9
+    pushes_per_repo: 4.1111
+    active_days: 24
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 26 active days in 90d — pass"
+  - "activity: 24 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "letmediff"
-    title: "letmediff"
-    description: "Monorepo for the letmediff MCP Server + WebAPP"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-03"
-  - name: "ecampus-questions"
-    title: "ecampus-questions"
-    description: "Quick webapp for my wife to check questions in"
-    language: "Svelte"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-03"
-  - name: "embedding-svelte-test"
-    title: "embedding-svelte-test"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-02"
-  - name: "sveltekit-search-params"
-    title: "sveltekit-search-params"
-    description: "The easiest way to read and WRITE from query parameters in sveltekit."
-    language: "TypeScript"
-    topics:
-      - "hacktoberfest"
-      - "query-params"
-      - "search-params"
-      - "svelte"
-      - "svelte-store"
-      - "svelte-stores"
-      - "sveltekit"
-    stars_fact: 671
-    first_seen: null
-    last_push: "2026-09-03"
-  - name: "ricciuti.me"
-    title: "ricciuti.me"
-    description: "my personal website"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-08-30"
-  - name: "transmit"
-    title: "transmit"
-    description: "A simple chat app that is completely progressively enhanced"
-    language: "Svelte"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-06-01"
+repos: []
 ---
 
 # paoloricciuti
 
-40 pushes across 10 repositories on 26 active days in the last 90 days of public GitHub push activity.
+37 pushes across 9 repositories on 24 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/paoloricciuti

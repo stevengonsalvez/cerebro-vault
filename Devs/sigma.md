@@ -8,11 +8,11 @@ provenance_repos:
   - "agavra/tuicr"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+repos_populated: false
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [0, 4, 4, 4, 1, 2, 5, 6, 1, 1, 4, 0, 0]
+pushes_per_week: [2, 4, 1, 4, 6, 4, 1, 0, 4, 0, 1, 4, 0]
 windows:
   "7d":
     pushes: 0
@@ -23,22 +23,22 @@ windows:
     not_owned_owners: 0
   "30d":
     pushes: 5
-    distinct_repos: 1
-    active_days: 2
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    distinct_repos: 2
+    active_days: 3
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "90d":
-    pushes: 32
+    pushes: 31
     distinct_repos: 6
-    active_days: 21
+    active_days: 20
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.5238
-  repo_per_active_day: 0.2857
+  push_per_day: 1.5500
+  repo_per_active_day: 0.3000
   not_owned_ratio: 0.3333
   basename_concentration: 0.1667
   shapes: []
@@ -58,77 +58,29 @@ facets:
     not_owned_owners: 0
   "30d":
     pushes: 5
-    distinct_repos: 1
-    pushes_per_repo: 5.0000
-    active_days: 2
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    distinct_repos: 2
+    pushes_per_repo: 2.5000
+    active_days: 3
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "90d":
-    pushes: 32
+    pushes: 31
     distinct_repos: 6
-    pushes_per_repo: 5.3333
-    active_days: 21
+    pushes_per_repo: 5.1667
+    active_days: 20
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 21 active days in 90d — pass"
+  - "activity: 20 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "okf-tools"
-    title: "okf-tools"
-    description: null
-    language: "Go"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-02"
-  - name: "systems"
-    title: "systems"
-    description: null
-    language: "Nix"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-02"
-  - name: "callctl"
-    title: "callctl"
-    description: "Control surfaces for video conferencing systems (Google Meet)"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-08-23"
-  - name: "sd-herdr"
-    title: "sd-herdr"
-    description: "Stream Deck plugin for managing herdr status"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-18"
-  - name: "sd-tailscale"
-    title: "sd-tailscale"
-    description: "Stream Deck plugin for Tailscale"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-07-28"
-  - name: "pcache"
-    title: "pcache"
-    description: "persistent caching for Emacs"
-    language: "Emacs Lisp"
-    topics: []
-    stars_fact: 83
-    first_seen: null
-    last_push: "2026-07-28"
+repos: []
 ---
 
 # sigma
 
-32 pushes across 6 repositories on 21 active days in the last 90 days of public GitHub push activity.
+31 pushes across 6 repositories on 20 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/sigma

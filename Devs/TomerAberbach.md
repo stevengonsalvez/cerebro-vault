@@ -8,39 +8,39 @@ provenance_repos:
   - "anthropics/anthropic-sdk-python"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+repos_populated: false
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "1be978947e68d1f2"
-pushes_per_week: [24, 35, 22, 28, 28, 23, 3, 1, 11, 7, 4, 1, 0]
+pushes_per_week: [13, 41, 21, 14, 2, 1, 16, 5, 1, 0, 1, 1, 3]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
+    pushes: 3
+    distinct_repos: 2
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 17
-    distinct_repos: 1
-    active_days: 9
+    pushes: 6
+    distinct_repos: 4
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 187
-    distinct_repos: 9
-    active_days: 48
-    repos_not_owned: 3
-    not_owned_basenames: 3
-    not_owned_owners: 2
+    pushes: 119
+    distinct_repos: 5
+    active_days: 37
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 3.8958
-  repo_per_active_day: 0.1875
-  not_owned_ratio: 0.3333
-  basename_concentration: 0.1111
+  push_per_day: 3.2162
+  repo_per_active_day: 0.1351
+  not_owned_ratio: 0.0000
+  basename_concentration: 0.2000
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,121 +49,38 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
+    pushes: 3
+    distinct_repos: 2
+    pushes_per_repo: 1.5000
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 17
-    distinct_repos: 1
-    pushes_per_repo: 17.0000
-    active_days: 9
+    pushes: 6
+    distinct_repos: 4
+    pushes_per_repo: 1.5000
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 187
-    distinct_repos: 9
-    pushes_per_repo: 20.7778
-    active_days: 48
-    repos_not_owned: 3
-    not_owned_basenames: 3
-    not_owned_owners: 2
+    pushes: 119
+    distinct_repos: 5
+    pushes_per_repo: 23.8000
+    active_days: 37
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 48 active days in 90d — pass"
+  - "activity: 37 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "cover-letter"
-    title: "cover-letter"
-    description: "📄 A LaTeX document for my cover letters."
-    language: "TeX"
-    topics:
-      - "cover-letter"
-      - "cover-letter-templates"
-      - "cover-letters"
-      - "document"
-      - "latex"
-      - "latex-document"
-      - "overleaf"
-      - "pdf"
-      - "tex"
-      - "ubuntu"
-    stars_fact: 16
-    first_seen: null
-    last_push: "2024-10-15"
-  - name: "profiler-md"
-    title: "profiler-md"
-    description: "🔥 Converts performance profiles to human and LLM friendly Markdown."
-    language: "TypeScript"
-    topics:
-      - "cli"
-      - "markdown"
-      - "performance"
-      - "performance-analysis"
-      - "performance-optimization"
-      - "profiler-data"
-    stars_fact: 11
-    first_seen: null
-    last_push: "2026-08-27"
-  - name: "homebrew-tap"
-    title: "homebrew-tap"
-    description: "🍻"
-    language: "Ruby"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-08-21"
-  - name: "grfn"
-    title: "grfn"
-    description: "🦅 A tiny (~315B) utility that executes a dependency graph of async functions as concurrently as possible."
-    language: "TypeScript"
-    topics:
-      - "async"
-      - "concurrency"
-      - "graph"
-      - "node-module"
-      - "node-package"
-      - "package"
-    stars_fact: 630
-    first_seen: null
-    last_push: "2025-09-01"
-  - name: "claude-config"
-    title: "claude-config"
-    description: "🤖 My Claude Code config!"
-    language: "Shell"
-    topics:
-      - "claude"
-      - "claude-code"
-      - "claude-code-config"
-      - "claude-code-skills"
-      - "claude-config"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-04"
-  - name: "limit-concur"
-    title: "limit-concur"
-    description: "⚖️ Limit an async function's concurrency with ease!"
-    language: "TypeScript"
-    topics:
-      - "async"
-      - "concurrency"
-      - "javascript"
-      - "nodejs"
-      - "npm-module"
-      - "npm-package"
-      - "promise"
-      - "rate-limiting"
-    stars_fact: 29
-    first_seen: null
-    last_push: "2025-09-01"
+repos: []
 ---
 
 # TomerAberbach
 
-187 pushes across 9 repositories on 48 active days in the last 90 days of public GitHub push activity.
+119 pushes across 5 repositories on 37 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/TomerAberbach

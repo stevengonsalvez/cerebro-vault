@@ -8,11 +8,11 @@ provenance_repos:
   - "addyosmani/agent-skills"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+repos_populated: false
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "dae9f02535f7c22f"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 3, 7, 4, 1, 0]
+pushes_per_week: [0, 0, 0, 0, 0, 3, 0, 9, 2, 1, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 12
-    distinct_repos: 6
-    active_days: 6
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 12
-    distinct_repos: 6
-    pushes_per_repo: 2.0000
-    active_days: 6
+    pushes: 1
+    distinct_repos: 1
+    pushes_per_repo: 1.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -76,73 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "dsh-neonforge"
-    title: "dsh-neonforge"
-    description: "Neonforge post-punk magazine-collage visual skin for DeepSeek Harness"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-01"
-  - name: "liyuk.github.io"
-    title: "liyuk.github.io"
-    description: "Personal site: writing, research, projects & photography. Bilingual, built with Astro."
-    language: "JavaScript"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-08-29"
-  - name: "awesome-promptquest"
-    title: "awesome-promptquest"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-29"
-  - name: "astro-fourfold"
-    title: "astro-fourfold"
-    description: "A static-first personal publication theme for Astro: writing, columns, tags, projects, research, photo essays, search, favorites, RSS, and GitHub Pages support."
-    language: "Astro"
-    topics:
-      - "astro"
-      - "astro-blog"
-      - "astro-starter"
-      - "astro-template"
-      - "astro-theme"
-      - "github-pages"
-      - "markdown"
-      - "personal-blog"
-      - "personal-website"
-      - "static-site-generator"
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-08-21"
-  - name: "dsh-quota-router"
-    title: "dsh-quota-router"
-    description: "Policy-only multi-source quota router for DeepSeek Harness: deterministic task profiles, ordered candidate chains, health-aware fallback, subtask model leases, and observable decisions / DSH 多源配额路由插件"
-    language: "TypeScript"
-    topics:
-      - "cost-control"
-      - "deepseek-harness"
-      - "dsh"
-      - "dsh-plugin"
-      - "fallback"
-      - "llm-routing"
-      - "model-router"
-      - "quota-router"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-08-21"
-  - name: "neo-matrix"
-    title: "neo-matrix"
-    description: "A shared AI API gateway built on one-api: pool idle keys into one OpenAI-compatible entry, with per-use cost sharing for providers."
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-25"
+repos: []
 ---
 
 # Liyuk

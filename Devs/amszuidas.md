@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "16389f32495280ea"
-pushes_per_week: [0, 0, 0, 2, 1, 5, 1, 2, 1, 2, 0, 0, 0]
+pushes_per_week: [0, 3, 4, 1, 2, 2, 1, 1, 0, 0, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 2
+    pushes: 1
     distinct_repos: 1
-    active_days: 2
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 14
+    pushes: 15
     distinct_repos: 3
-    active_days: 10
+    active_days: 11
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.4000
-  repo_per_active_day: 0.3000
+  push_per_day: 1.3636
+  repo_per_active_day: 0.2727
   not_owned_ratio: 0.3333
   basename_concentration: 0.6667
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 2
+    pushes: 1
     distinct_repos: 1
-    pushes_per_repo: 2.0000
-    active_days: 2
+    pushes_per_repo: 1.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 14
+    pushes: 15
     distinct_repos: 3
-    pushes_per_repo: 4.6667
-    active_days: 10
+    pushes_per_repo: 5.0000
+    active_days: 11
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 10 active days in 90d — pass"
+  - "activity: 11 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "ai-trend-reports"
@@ -84,13 +84,13 @@ repos:
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-09-03"
+    last_push: "2026-09-19"
   - name: "mini-opencode"
     title: "mini-opencode"
     description: "mini-OpenCode is a lightweight experimental Coding Agent inspired by Deer-Code and OpenCode. It explores how LLMs can plan, reason, and iteratively write code with minimal infrastructure, aiming to provide a simple, hackable foundation for understanding and building agentic coding systems."
     language: "Python"
     topics: []
-    stars_fact: 118
+    stars_fact: 119
     first_seen: null
     last_push: "2026-02-12"
   - name: "minimax-desktop-buddy"
@@ -129,6 +129,6 @@ repos:
 
 # amszuidas
 
-14 pushes across 3 repositories on 10 active days in the last 90 days of public GitHub push activity.
+15 pushes across 3 repositories on 11 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/amszuidas

@@ -11,39 +11,39 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "edb3a626875732de"
   - "fdafcfb7d7e67acd"
-pushes_per_week: [7, 21, 7, 26, 1, 0, 15, 2, 4, 1, 0, 1, 0]
+pushes_per_week: [18, 11, 0, 1, 16, 0, 5, 0, 1, 0, 0, 1, 15]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
-  "30d":
-    pushes: 6
-    distinct_repos: 2
+    pushes: 15
+    distinct_repos: 3
     active_days: 3
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
+  "30d":
+    pushes: 17
+    distinct_repos: 3
+    active_days: 5
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "90d":
-    pushes: 85
-    distinct_repos: 6
-    active_days: 25
+    pushes: 68
+    distinct_repos: 5
+    active_days: 18
     repos_not_owned: 2
     not_owned_basenames: 2
-    not_owned_owners: 1
+    not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 3.4000
-  repo_per_active_day: 0.2400
-  not_owned_ratio: 0.3333
-  basename_concentration: 0.3333
+  push_per_day: 3.7778
+  repo_per_active_day: 0.2778
+  not_owned_ratio: 0.4000
+  basename_concentration: 0.4000
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -52,32 +52,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
-  "30d":
-    pushes: 6
-    distinct_repos: 2
-    pushes_per_repo: 3.0000
+    pushes: 15
+    distinct_repos: 3
+    pushes_per_repo: 5.0000
     active_days: 3
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
+  "30d":
+    pushes: 17
+    distinct_repos: 3
+    pushes_per_repo: 5.6667
+    active_days: 5
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "90d":
-    pushes: 85
-    distinct_repos: 6
-    pushes_per_repo: 14.1667
-    active_days: 25
+    pushes: 68
+    distinct_repos: 5
+    pushes_per_repo: 13.6000
+    active_days: 18
     repos_not_owned: 2
     not_owned_basenames: 2
-    not_owned_owners: 1
+    not_owned_owners: 2
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 25 active days in 90d — pass"
+  - "activity: 18 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "ECC"
@@ -93,9 +93,17 @@ repos:
       - "llm"
       - "mcp"
       - "productivity"
-    stars_fact: 246741
+    stars_fact: 265881
     first_seen: "2026-07-31T06:00:07.665057+00:00"
-    last_push: "2026-09-03"
+    last_push: "2026-09-22"
+  - name: "JARVIS"
+    title: "JARVIS"
+    description: "JARVIS: a real-time agentic intelligence-gathering platform powered by autonomous web scraping & OSINT, streamed via Meta Ray-Ban smart glasses"
+    language: "Python"
+    topics: []
+    stars_fact: 447
+    first_seen: null
+    last_push: "2026-06-04"
   - name: "affaan-m"
     title: "affaan-m"
     description: "Config files for my GitHub profile."
@@ -103,28 +111,9 @@ repos:
     topics:
       - "config"
       - "github-config"
-    stars_fact: 242
+    stars_fact: 295
     first_seen: null
     last_push: "2026-07-24"
-  - name: "agentofcommerce"
-    title: "agentofcommerce"
-    description: "AI-powered e-commerce automation agent"
-    language: null
-    topics:
-      - "ai-agents"
-      - "automation"
-      - "ecommerce"
-    stars_fact: 23
-    first_seen: null
-    last_push: "2025-02-09"
-  - name: "JARVIS"
-    title: "JARVIS"
-    description: "JARVIS: a real-time agentic intelligence-gathering platform powered by autonomous web scraping & OSINT, streamed via Meta Ray-Ban smart glasses"
-    language: "Python"
-    topics: []
-    stars_fact: 374
-    first_seen: null
-    last_push: "2026-06-04"
   - name: "agentshield"
     title: "agentshield"
     description: "AI agent security scanner. Detect vulnerabilities in agent configurations, MCP servers, and tool permissions. Available as CLI, GitHub Action, ECC plugin, and GitHub App integration. 🛡️"
@@ -137,9 +126,20 @@ repos:
       - "mcp"
       - "opus"
       - "security"
-    stars_fact: 1116
+    stars_fact: 1214
     first_seen: null
-    last_push: "2026-07-22"
+    last_push: "2026-09-10"
+  - name: "agentofcommerce"
+    title: "agentofcommerce"
+    description: "AI-powered e-commerce automation agent"
+    language: null
+    topics:
+      - "ai-agents"
+      - "automation"
+      - "ecommerce"
+    stars_fact: 27
+    first_seen: null
+    last_push: "2025-02-09"
   - name: "claude-swarm"
     title: "claude-swarm"
     description: "Multi-agent orchestration for Claude Code — decompose tasks, coordinate agents, visualize everything in a rich terminal UI"
@@ -154,13 +154,13 @@ repos:
       - "multi-agent"
       - "orchestration"
       - "swarm"
-    stars_fact: 335
+    stars_fact: 376
     first_seen: null
     last_push: "2026-02-11"
 ---
 
 # affaan-m
 
-85 pushes across 6 repositories on 25 active days in the last 90 days of public GitHub push activity.
+68 pushes across 5 repositories on 18 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/affaan-m

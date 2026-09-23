@@ -8,37 +8,37 @@ provenance_repos:
   - "can1357/oh-my-pi"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+repos_populated: false
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [15, 1, 9, 70, 42, 81, 21, 11, 9, 18, 7, 7, 2]
+pushes_per_week: [7, 95, 43, 56, 17, 17, 8, 11, 7, 9, 0, 1, 4]
 windows:
   "7d":
-    pushes: 2
-    distinct_repos: 2
-    active_days: 1
+    pushes: 4
+    distinct_repos: 1
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 35
-    distinct_repos: 4
-    active_days: 12
+    pushes: 14
+    distinct_repos: 2
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 293
+    pushes: 275
     distinct_repos: 6
-    active_days: 51
+    active_days: 47
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 5.7451
-  repo_per_active_day: 0.1176
+  push_per_day: 5.8511
+  repo_per_active_day: 0.1277
   not_owned_ratio: 0.0000
   basename_concentration: 0.1667
   shapes: []
@@ -49,91 +49,38 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
-    distinct_repos: 2
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes: 4
+    distinct_repos: 1
+    pushes_per_repo: 4.0000
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 35
-    distinct_repos: 4
-    pushes_per_repo: 8.7500
-    active_days: 12
+    pushes: 14
+    distinct_repos: 2
+    pushes_per_repo: 7.0000
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 293
+    pushes: 275
     distinct_repos: 6
-    pushes_per_repo: 48.8333
-    active_days: 51
+    pushes_per_repo: 45.8333
+    active_days: 47
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 51 active days in 90d — pass"
+  - "activity: 47 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "breadboard"
-    title: "breadboard"
-    description: "A Programmable Harness Calculus"
-    language: "Python"
-    topics: []
-    stars_fact: 22
-    first_seen: null
-    last_push: "2026-09-03"
-  - name: "nested_learning"
-    title: "nested_learning"
-    description: "A Reproduction of GDM's Nested Learning Paper"
-    language: "Python"
-    topics: []
-    stars_fact: 713
-    first_seen: null
-    last_push: "2026-02-25"
-  - name: "breadboard-tui"
-    title: "breadboard-tui"
-    description: "Primary BreadBoard terminal interface, maintained as a governed downstream of Oh My Pi"
-    language: "TypeScript"
-    topics:
-      - "breadboard"
-      - "bun"
-      - "coding-agent"
-      - "oh-my-pi"
-      - "tui"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-02"
-  - name: "QueryLake"
-    title: "QueryLake"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 5
-    first_seen: null
-    last_push: "2026-05-14"
-  - name: "drift_models"
-    title: "drift_models"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 32
-    first_seen: null
-    last_push: "2026-03-05"
-  - name: "memory_caching"
-    title: "memory_caching"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 8
-    first_seen: null
-    last_push: "2026-03-09"
+repos: []
 ---
 
 # kmccleary3301
 
-293 pushes across 6 repositories on 51 active days in the last 90 days of public GitHub push activity.
+275 pushes across 6 repositories on 47 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/kmccleary3301

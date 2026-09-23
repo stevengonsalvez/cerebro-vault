@@ -8,11 +8,11 @@ provenance_repos:
   - "anthropics/claude-plugins-official"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+repos_populated: false
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "02eab667df448997"
-pushes_per_week: [3, 0, 2, 1, 1, 1, 0, 1, 0, 0, 0, 0, 0]
+pushes_per_week: [3, 0, 2, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 9
+    pushes: 6
     distinct_repos: 1
-    active_days: 9
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
   push_per_day: 1.0000
-  repo_per_active_day: 0.1111
+  repo_per_active_day: 0.1667
   not_owned_ratio: 0.0000
   basename_concentration: 1.0000
   shapes: []
@@ -65,70 +65,22 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 9
+    pushes: 6
     distinct_repos: 1
-    pushes_per_repo: 9.0000
-    active_days: 9
+    pushes_per_repo: 6.0000
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 9 active days in 90d — pass"
+  - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "Ballr"
-    title: "Ballr"
-    description: "A simple 2D game language"
-    language: "C"
-    topics: []
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-09-02"
-  - name: "noahzweben.github.io"
-    title: "noahzweben.github.io"
-    description: "Personal Website"
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-06-03"
-  - name: "AirHockey"
-    title: "AirHockey"
-    description: "An air-hockey game that uses computer vision and colored objects to control the paddles on the screen"
-    language: "Python"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2015-10-01"
-  - name: "fakeMarketplace"
-    title: "fakeMarketplace"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-01-24"
-  - name: "demo"
-    title: "demo"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2025-04-17"
-  - name: "lsm_tree"
-    title: "lsm_tree"
-    description: null
-    language: "C"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2023-05-07"
+repos: []
 ---
 
 # noahzweben
 
-9 pushes across 1 repository on 9 active days in the last 90 days of public GitHub push activity.
+6 pushes across 1 repository on 6 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/noahzweben

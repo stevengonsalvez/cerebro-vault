@@ -11,39 +11,39 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "c1af6b58492f9bf4"
   - "ddd7486148a91958"
-pushes_per_week: [14, 0, 1, 0, 1, 1, 12, 4, 5, 7, 4, 1, 1]
+pushes_per_week: [0, 1, 1, 1, 11, 9, 0, 8, 3, 2, 3, 3, 0]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
-    pushes: 13
-    distinct_repos: 4
-    active_days: 6
-    repos_not_owned: 3
+    pushes: 8
+    distinct_repos: 7
+    active_days: 5
+    repos_not_owned: 5
     not_owned_basenames: 2
-    not_owned_owners: 2
+    not_owned_owners: 4
   "90d":
-    pushes: 51
-    distinct_repos: 8
-    active_days: 18
-    repos_not_owned: 6
-    not_owned_basenames: 5
-    not_owned_owners: 2
+    pushes: 42
+    distinct_repos: 11
+    active_days: 16
+    repos_not_owned: 7
+    not_owned_basenames: 4
+    not_owned_owners: 4
 automation:
   state: "clear"
-  push_per_day: 2.8333
-  repo_per_active_day: 0.4444
-  not_owned_ratio: 0.7500
-  basename_concentration: 0.3750
+  push_per_day: 2.6250
+  repo_per_active_day: 0.6875
+  not_owned_ratio: 0.6364
+  basename_concentration: 0.4545
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -52,34 +52,42 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
-    pushes: 13
-    distinct_repos: 4
-    pushes_per_repo: 3.2500
-    active_days: 6
-    repos_not_owned: 3
+    pushes: 8
+    distinct_repos: 7
+    pushes_per_repo: 1.1429
+    active_days: 5
+    repos_not_owned: 5
     not_owned_basenames: 2
-    not_owned_owners: 2
+    not_owned_owners: 4
   "90d":
-    pushes: 51
-    distinct_repos: 8
-    pushes_per_repo: 6.3750
-    active_days: 18
-    repos_not_owned: 6
-    not_owned_basenames: 5
-    not_owned_owners: 2
+    pushes: 42
+    distinct_repos: 11
+    pushes_per_repo: 3.8182
+    active_days: 16
+    repos_not_owned: 7
+    not_owned_basenames: 4
+    not_owned_owners: 4
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 18 active days in 90d — pass"
+  - "activity: 16 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "sensor-calibration"
+    title: "sensor-calibration"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-13"
   - name: "hi-bro"
     title: "hi-bro"
     description: "Voice-controlled Browser Use Cloud dispatcher. Trigger word + ElevenLabs Scribe + Browser Use."
@@ -120,18 +128,10 @@ repos:
     stars_fact: 2
     first_seen: null
     last_push: "2024-08-19"
-  - name: "sensor-calibration"
-    title: "sensor-calibration"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2025-06-16"
 ---
 
 # MagMueller
 
-51 pushes across 8 repositories on 18 active days in the last 90 days of public GitHub push activity.
+42 pushes across 11 repositories on 16 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/MagMueller

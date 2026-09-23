@@ -10,11 +10,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "16389f32495280ea"
   - "541318303a272608"
-pushes_per_week: [5, 14, 41, 32, 0, 6, 1, 0, 1, 3, 0, 1, 0]
+pushes_per_week: [55, 4, 2, 5, 0, 0, 1, 3, 0, 1, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -24,25 +24,25 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 5
-    distinct_repos: 2
-    active_days: 3
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 104
-    distinct_repos: 12
-    active_days: 23
+    pushes: 71
+    distinct_repos: 7
+    active_days: 15
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 4.5217
-  repo_per_active_day: 0.5217
+  push_per_day: 4.7333
+  repo_per_active_day: 0.4667
   not_owned_ratio: 0.0000
-  basename_concentration: 0.0833
+  basename_concentration: 0.1429
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -59,24 +59,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 5
-    distinct_repos: 2
-    pushes_per_repo: 2.5000
-    active_days: 3
+    pushes: 1
+    distinct_repos: 1
+    pushes_per_repo: 1.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 104
-    distinct_repos: 12
-    pushes_per_repo: 8.6667
-    active_days: 23
+    pushes: 71
+    distinct_repos: 7
+    pushes_per_repo: 10.1429
+    active_days: 15
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 23 active days in 90d — pass"
+  - "activity: 15 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "engram"
@@ -84,9 +84,17 @@ repos:
     description: "Engram — an open-source long-term memory engine for LLM agents: bi-temporal facts, hybrid retrieval, reproducible benchmarks."
     language: "Python"
     topics: []
-    stars_fact: 13
+    stars_fact: 19
     first_seen: null
-    last_push: "2026-08-31"
+    last_push: "2026-09-10"
+  - name: "fanqie-author-cli"
+    title: "fanqie-author-cli"
+    description: "番茄小说作者 CLI 与 Codex 技能：本地稿件与后台读取已验证，保存及投稿执行待验收。"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-08"
   - name: "focusflowai-legal"
     title: "focusflowai-legal"
     description: null
@@ -124,18 +132,10 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-07-03"
-  - name: "deer-flow-archived-old"
-    title: "deer-flow-archived-old"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-06-08"
 ---
 
 # ly-wang19
 
-104 pushes across 12 repositories on 23 active days in the last 90 days of public GitHub push activity.
+71 pushes across 7 repositories on 15 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ly-wang19

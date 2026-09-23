@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "379642deb53f3714"
-pushes_per_week: [17, 12, 6, 26, 4, 3, 6, 5, 3, 4, 0, 0, 0]
+pushes_per_week: [27, 1, 5, 5, 4, 5, 2, 3, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,25 +22,25 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 5
-    distinct_repos: 2
-    active_days: 4
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 86
-    distinct_repos: 6
-    active_days: 36
+    pushes: 52
+    distinct_repos: 4
+    active_days: 21
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.3889
-  repo_per_active_day: 0.1667
+  push_per_day: 2.4762
+  repo_per_active_day: 0.1905
   not_owned_ratio: 0.0000
-  basename_concentration: 0.1667
+  basename_concentration: 0.2500
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 5
-    distinct_repos: 2
-    pushes_per_repo: 2.5000
-    active_days: 4
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 86
-    distinct_repos: 6
-    pushes_per_repo: 14.3333
-    active_days: 36
+    pushes: 52
+    distinct_repos: 4
+    pushes_per_repo: 13.0000
+    active_days: 21
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 36 active days in 90d — pass"
+  - "activity: 21 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "dora"
@@ -89,7 +89,7 @@ repos:
       - "jit"
       - "rust"
       - "x86-64"
-    stars_fact: 511
+    stars_fact: 510
     first_seen: null
     last_push: "2026-08-28"
   - name: "budgeting"
@@ -99,7 +99,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-01"
+    last_push: "2026-09-15"
   - name: "heap-snapshot"
     title: "heap-snapshot"
     description: "HeapSnapshot Viewer"
@@ -136,6 +136,6 @@ repos:
 
 # dinfuehr
 
-86 pushes across 6 repositories on 36 active days in the last 90 days of public GitHub push activity.
+52 pushes across 4 repositories on 21 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/dinfuehr

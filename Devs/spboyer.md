@@ -10,37 +10,37 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "379642deb53f3714"
   - "dae9f02535f7c22f"
-pushes_per_week: [0, 11, 20, 8, 2, 5, 4, 8, 3, 5, 2, 4, 1]
+pushes_per_week: [28, 2, 4, 5, 8, 3, 0, 7, 3, 2, 0, 0, 1]
 windows:
   "7d":
     pushes: 1
     distinct_repos: 1
     active_days: 1
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "30d":
-    pushes: 12
+    pushes: 6
     distinct_repos: 2
-    active_days: 5
+    active_days: 4
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 73
+    pushes: 63
     distinct_repos: 5
-    active_days: 21
+    active_days: 18
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 3.4762
-  repo_per_active_day: 0.2381
+  push_per_day: 3.5000
+  repo_per_active_day: 0.2778
   not_owned_ratio: 0.6000
   basename_concentration: 0.4000
   shapes: []
@@ -55,30 +55,46 @@ facets:
     distinct_repos: 1
     pushes_per_repo: 1.0000
     active_days: 1
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "30d":
-    pushes: 12
+    pushes: 6
     distinct_repos: 2
-    pushes_per_repo: 6.0000
-    active_days: 5
+    pushes_per_repo: 3.0000
+    active_days: 4
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 73
+    pushes: 63
     distinct_repos: 5
-    pushes_per_repo: 14.6000
-    active_days: 21
+    pushes_per_repo: 12.6000
+    active_days: 18
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 21 active days in 90d — pass"
+  - "activity: 18 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "pycontainer-build"
+    title: "pycontainer-build"
+    description: "Docker-free OCI image builder for Python projects"
+    language: "Python"
+    topics: []
+    stars_fact: 11
+    first_seen: null
+    last_push: "2025-11-21"
+  - name: "aspire-beast-social3"
+    title: "aspire-beast-social3"
+    description: "Beast Mode Social Creator - Complete .NET Aspire 9.4.0 AI-powered social media content creation platform with microservices architecture, modern Tailwind CSS UI, and Azure cloud integration"
+    language: "C#"
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2025-08-11"
   - name: "sensei"
     title: "sensei"
     description: "Skill for iteratively improving SKILL.md frontmatter compliance using the Ralph loop pattern"
@@ -90,7 +106,7 @@ repos:
       - "quality"
       - "skills"
       - "testing-tools"
-    stars_fact: 55
+    stars_fact: 58
     first_seen: null
     last_push: "2026-06-01"
   - name: "microsoft-foundry-plugin"
@@ -122,32 +138,10 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-08-13"
-  - name: "pycontainer-build"
-    title: "pycontainer-build"
-    description: "Docker-free OCI image builder for Python projects"
-    language: "Python"
-    topics: []
-    stars_fact: 10
-    first_seen: null
-    last_push: "2025-11-21"
-  - name: "copydocfile-example"
-    title: "copydocfile-example"
-    description: "Example of ASP.NET Core copying Documentation file when `dotnet publish` called. This is not a built in feature since project.json conversion -> csproj"
-    language: "C#"
-    topics:
-      - "aspnet-core"
-      - "aspnetcore"
-      - "msbuild"
-      - "msbuild-files"
-      - "msbuild-task"
-      - "swagger"
-    stars_fact: 8
-    first_seen: null
-    last_push: "2021-06-05"
 ---
 
 # spboyer
 
-73 pushes across 5 repositories on 21 active days in the last 90 days of public GitHub push activity.
+63 pushes across 5 repositories on 18 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/spboyer

@@ -10,10 +10,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "dc9094c987231bcf"
-pushes_per_week: [3, 0, 7, 1, 5, 0, 1, 1, 0, 14, 0, 2, 0]
+pushes_per_week: [8, 5, 0, 0, 2, 0, 13, 1, 2, 0, 0, 2, 0]
 windows:
   "7d":
     pushes: 0
@@ -23,14 +23,14 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 16
-    distinct_repos: 6
+    pushes: 4
+    distinct_repos: 4
     active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 34
+    pushes: 33
     distinct_repos: 14
     active_days: 15
     repos_not_owned: 0
@@ -38,7 +38,7 @@ windows:
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.2667
+  push_per_day: 2.2000
   repo_per_active_day: 0.9333
   not_owned_ratio: 0.0000
   basename_concentration: 0.0714
@@ -58,17 +58,17 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 16
-    distinct_repos: 6
-    pushes_per_repo: 2.6667
+    pushes: 4
+    distinct_repos: 4
+    pushes_per_repo: 1.0000
     active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 34
+    pushes: 33
     distinct_repos: 14
-    pushes_per_repo: 2.4286
+    pushes_per_repo: 2.3571
     active_days: 15
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -90,9 +90,32 @@ repos:
       - "marketing-automation"
       - "open-source"
       - "seo"
-    stars_fact: 16199
+    stars_fact: 17514
     first_seen: null
-    last_push: "2026-08-26"
+    last_push: "2026-09-11"
+  - name: "compass"
+    title: "compass"
+    description: "Compass: run your whole life out of Obsidian. Daily questions, quarterly retreats, planning, habits, tasks, writing, and an AI assistant in the vault."
+    language: "JavaScript"
+    topics:
+      - "claude-code"
+      - "journaling"
+      - "life-os"
+      - "obsidian"
+      - "obsidian-vault"
+      - "pkm"
+      - "template"
+    stars_fact: 101
+    first_seen: null
+    last_push: "2026-09-13"
+  - name: "jev-seo"
+    title: "jev-seo"
+    description: "Live SEO audit for any website from one homepage URL, judged by Jev. PDF, XLSX and Markdown reports."
+    language: "Python"
+    topics: []
+    stars_fact: 52
+    first_seen: null
+    last_push: "2026-09-22"
   - name: "claude-obsidian"
     title: "claude-obsidian"
     description: "Self-organizing AI second brain for Obsidian + Claude Code. Drop any source and Claude reads, links, and files it into one connected knowledge graph of plain Markdown you own. AI note-taking, personal knowledge management (PKM), and an open-source Notion alternative. Based on Karpathy's LLM Wiki pattern."
@@ -118,37 +141,9 @@ repos:
       - "personal-knowledge-management"
       - "pkm"
       - "second-brain"
-    stars_fact: 14584
+    stars_fact: 15159
     first_seen: "2026-08-25T06:00:03.138196+00:00"
-    last_push: "2026-08-26"
-  - name: "claude-blog"
-    title: "claude-blog"
-    description: "Claude Code blog skill suite: 30 sub-skills, 5 agents, 5-gate v1.9.0 Blog Delivery Contract, dual-optimized for Google rankings and AI citations. Active development at AI-Marketing-Hub/claude-blog (AI Marketing Hub Pro community); public releases ship here."
-    language: "Python"
-    topics:
-      - "agent-skills"
-      - "ai"
-      - "ai-citations"
-      - "ai-content"
-      - "ai-marketing"
-      - "ai-marketing-hub"
-      - "blog"
-      - "blog-writing"
-      - "claude-code"
-      - "claude-code-skill"
-      - "claude-plugin"
-      - "claude-skill"
-      - "content-creation"
-      - "content-optimization"
-      - "content-strategy"
-      - "eeat"
-      - "geo"
-      - "multilingual"
-      - "open-source"
-      - "seo"
-    stars_fact: 2034
-    first_seen: null
-    last_push: "2026-08-28"
+    last_push: "2026-09-10"
   - name: "claude-ads"
     title: "claude-ads"
     description: "Claude-first paid-media operations skill for Claude Code across 12 ad platforms (Google, Meta, YouTube, LinkedIn, TikTok, Microsoft, Apple, Amazon, Reddit, Pinterest, Snapchat, X): source-grounded audits, deterministic scoring, versioned JSON reports, and capability-gated account changes."
@@ -165,43 +160,41 @@ repos:
       - "open-source"
       - "paid-advertising"
       - "ppc"
-    stars_fact: 8709
+    stars_fact: 9498
     first_seen: null
-    last_push: "2026-07-13"
-  - name: "claude-youtube"
-    title: "claude-youtube"
-    description: "Claude Code skill for YouTube creators — channel audits, video SEO, retention scripts, thumbnails, content strategy, Shorts optimization, analytics, monetization, and more."
+    last_push: "2026-09-18"
+  - name: "codex-seo"
+    title: "codex-seo"
+    description: "Codex-first SEO skill suite. 26 workflows, 24 TOML agents, DataForSEO/Gemini/Google/Firecrawl integrations, GEO/AEO, CWV, schema, backlinks, local/maps, and deterministic reports."
     language: "Python"
     topics:
-      - "ai"
-      - "ai-content"
-      - "claude-code"
-      - "claude-code-skill"
-      - "content-creation"
-      - "open-source"
-    stars_fact: 347
-    first_seen: null
-    last_push: "2026-04-10"
-  - name: "keywordpro"
-    title: "keywordpro"
-    description: "Local-first keyword research with guided reports, charts, saved sessions, and PDF, CSV, and JSON exports."
-    language: "TypeScript"
-    topics:
-      - "byok"
+      - "ai-search"
+      - "ai-seo"
+      - "automation"
+      - "codex"
+      - "codex-cli"
+      - "codex-skills"
+      - "content-strategy"
+      - "core-web-vitals"
       - "dataforseo"
-      - "keyword-research"
-      - "local-first"
-      - "nextjs"
+      - "ecommerce-seo"
+      - "generative-engine-optimization"
+      - "google-search-console"
+      - "local-seo"
+      - "marketing-automation"
+      - "mcp"
+      - "open-source"
+      - "python"
+      - "schema-markup"
       - "seo"
-      - "serp-analysis"
-      - "typescript"
-    stars_fact: 153
+      - "technical-seo"
+    stars_fact: 747
     first_seen: null
-    last_push: "2026-08-31"
+    last_push: "2026-09-11"
 ---
 
 # AgriciDaniel
 
-34 pushes across 14 repositories on 15 active days in the last 90 days of public GitHub push activity.
+33 pushes across 14 repositories on 15 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/AgriciDaniel

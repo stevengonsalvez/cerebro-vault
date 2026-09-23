@@ -8,11 +8,11 @@ provenance_repos:
   - "anomalyco/opencode"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+repos_populated: false
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [0, 0, 0, 0, 3, 0, 1, 4, 1, 0, 0, 2, 0]
+pushes_per_week: [0, 0, 3, 1, 1, 4, 0, 0, 1, 1, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,65 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "ProdigyRahul"
-    title: "ProdigyRahul"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-26"
-  - name: "clearbreath"
-    title: "clearbreath"
-    description: "Free, open-source pranayama and breathing app"
-    language: "Dart"
-    topics:
-      - "astro"
-      - "breathing"
-      - "flutter"
-      - "go"
-      - "golang"
-      - "health"
-      - "meditation"
-      - "mobile"
-      - "open-source"
-      - "pranayama"
-    stars_fact: 5
-    first_seen: null
-    last_push: "2026-04-27"
-  - name: "dotfiles"
-    title: "dotfiles"
-    description: "omarchy arch linux + hyprland dotfiles"
-    language: "Shell"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-23"
-  - name: "dotvim"
-    title: "dotvim"
-    description: "My Neovim config with LSP, Telescope, and modern plugin"
-    language: "Lua"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-23"
-  - name: "keyvault"
-    title: "keyvault"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-08-06"
-  - name: "instapitch"
-    title: "instapitch"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-05-31"
+repos: []
 ---
 
 # ProdigyRahul

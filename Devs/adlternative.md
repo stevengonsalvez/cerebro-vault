@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "c489e6fb5febf2ab"
-pushes_per_week: [0, 14, 12, 4, 0, 0, 0, 0, 1, 1, 1, 0, 0]
+pushes_per_week: [2, 4, 0, 0, 0, 1, 0, 2, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,25 +22,25 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 2
-    distinct_repos: 2
-    active_days: 2
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 33
-    distinct_repos: 5
-    active_days: 8
+    pushes: 9
+    distinct_repos: 3
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 4.1250
-  repo_per_active_day: 0.6250
+  push_per_day: 1.8000
+  repo_per_active_day: 0.6000
   not_owned_ratio: 0.0000
-  basename_concentration: 0.2000
+  basename_concentration: 0.3333
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -57,30 +57,63 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 2
-    distinct_repos: 2
-    pushes_per_repo: 1.0000
-    active_days: 2
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 33
-    distinct_repos: 5
-    pushes_per_repo: 6.6000
-    active_days: 8
+    pushes: 9
+    distinct_repos: 3
+    pushes_per_repo: 3.0000
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 8 active days in 90d — pass"
+  - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "my-github-home-page"
-    title: "my-github-home-page"
-    description: "把 GitHub 首页推荐 feed 换成「关注的人 → 仓库 → 做了什么」的汇总 (browser extension)"
-    language: "JavaScript"
+  - name: "tally"
+    title: "tally"
+    description: "Turn a pile of comments into an auditable distribution: Jev judges each item, code counts the percentages. React workspace + Python engine with pluggable data sources."
+    language: "Python"
+    topics:
+      - "data-analysis"
+      - "i18n"
+      - "jev"
+      - "jev-ai"
+      - "llm"
+      - "llm-evaluation"
+      - "python"
+      - "react"
+      - "shadcn-ui"
+      - "tailwindcss"
+      - "typescript"
+      - "vite"
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-09-22"
+  - name: "tally-android"
+    title: "tally-android"
+    description: "Android app that reads visible Bilibili comments and shows a floating sentiment distribution, powered by TypeSafe Jev."
+    language: "Kotlin"
+    topics:
+      - "accessibility-service"
+      - "android"
+      - "bilibili"
+      - "kotlin"
+      - "sentiment-analysis"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-23"
+  - name: "pi-fork-orca"
+    title: "pi-fork-orca"
+    description: "pi extension: fork the current session into a new Orca terminal"
+    language: "TypeScript"
     topics: []
     stars_fact: 0
     first_seen: null
@@ -92,7 +125,15 @@ repos:
     topics: []
     stars_fact: 3
     first_seen: null
-    last_push: "2026-09-02"
+    last_push: "2026-09-03"
+  - name: "my-github-home-page"
+    title: "my-github-home-page"
+    description: "把 GitHub 首页推荐 feed 换成「关注的人 → 仓库 → 做了什么」的汇总 (browser extension)"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-03"
   - name: "dsh-subagent-qoder-cloud"
     title: "dsh-subagent-qoder-cloud"
     description: "DeepSeek Harness (dsh) subagent provider for Qoder Cloud Agents"
@@ -103,34 +144,10 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-08-14"
-  - name: "what-you-did"
-    title: "what-you-did"
-    description: "AI agent skill: structured per-file change summary for any branch/workspace vs baseline"
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-16"
-  - name: "agent-historian"
-    title: "agent-historian"
-    description: "Search and read past AI coding-agent conversation history (OpenCode, Claude Code, …) from the CLI. Pluggable per-agent sources, project/global scope, subagent-aware."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 4
-    first_seen: null
-    last_push: "2026-08-04"
-  - name: "await-mcp"
-    title: "await-mcp"
-    description: "MCP server that blocks agent execution until a condition is met (await_command, await_url, await_file)"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-07-12"
 ---
 
 # adlternative
 
-33 pushes across 5 repositories on 8 active days in the last 90 days of public GitHub push activity.
+9 pushes across 3 repositories on 5 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/adlternative

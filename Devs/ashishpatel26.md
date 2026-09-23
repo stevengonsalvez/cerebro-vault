@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "73468cde177ddae6"
-pushes_per_week: [23, 21, 12, 10, 0, 2, 3, 1, 0, 0, 0, 0, 0]
+pushes_per_week: [2, 10, 2, 0, 4, 0, 0, 0, 0, 0, 0, 0, 3]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
+    pushes: 3
+    distinct_repos: 3
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
+    pushes: 3
+    distinct_repos: 3
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 72
-    distinct_repos: 18
-    active_days: 21
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 21
+    distinct_repos: 10
+    active_days: 12
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 3.4286
-  repo_per_active_day: 0.8571
-  not_owned_ratio: 0.0556
-  basename_concentration: 0.0556
+  push_per_day: 1.7500
+  repo_per_active_day: 0.8333
+  not_owned_ratio: 0.0000
+  basename_concentration: 0.1000
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,34 +49,44 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
+    pushes: 3
+    distinct_repos: 3
+    pushes_per_repo: 1.0000
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
+    pushes: 3
+    distinct_repos: 3
+    pushes_per_repo: 1.0000
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 72
-    distinct_repos: 18
-    pushes_per_repo: 4.0000
-    active_days: 21
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 21
+    distinct_repos: 10
+    pushes_per_repo: 2.1000
+    active_days: 12
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 21 active days in 90d — pass"
+  - "activity: 12 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "500-AI-Agents-Projects"
+    title: "500-AI-Agents-Projects"
+    description: "The 500 AI Agents Projects is a curated collection of AI agent use cases across various industries. It showcases practical applications and provides links to open-source projects for implementation, illustrating how AI agents are transforming sectors such as healthcare, finance, education, retail, and more."
+    language: "Python"
+    topics:
+      - "ai-agents"
+      - "genai"
+    stars_fact: 38009
+    first_seen: null
+    last_push: "2026-07-27"
   - name: "500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code"
     title: "500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code"
     description: "500 AI Machine learning Deep learning Computer vision NLP Projects with code"
@@ -95,91 +105,102 @@ repos:
       - "nlp"
       - "nlp-projects"
       - "python"
-    stars_fact: 36702
+    stars_fact: 36957
     first_seen: null
     last_push: "2025-08-01"
-  - name: "500-AI-Agents-Projects"
-    title: "500-AI-Agents-Projects"
-    description: "The 500 AI Agents Projects is a curated collection of AI agent use cases across various industries. It showcases practical applications and provides links to open-source projects for implementation, illustrating how AI agents are transforming sectors such as healthcare, finance, education, retail, and more."
-    language: "Python"
-    topics:
-      - "ai-agents"
-      - "genai"
-    stars_fact: 37357
-    first_seen: null
-    last_push: "2026-07-27"
-  - name: "Andrew-NG-Notes"
-    title: "Andrew-NG-Notes"
-    description: "This is Andrew NG Coursera Handwritten Notes."
+  - name: "ResourceBank_CV_NLP_MLOPS_2022"
+    title: "ResourceBank_CV_NLP_MLOPS_2022"
+    description: "This repository offers a goldmine of materials for students of computer vision, natural language processing, and machine learning operations."
     language: "Jupyter Notebook"
     topics:
-      - "andrew-ng"
-      - "andrew-ng-course"
-      - "andrew-ng-machine-learning"
-      - "andrewng"
-      - "coursera"
-      - "coursera-machine-learning"
+      - "computer-vision"
       - "data-science"
       - "deep-learning"
-      - "deep-neural-networks"
-      - "dl"
-      - "machine-learning"
-      - "ml"
-      - "neural-network"
-      - "neural-networks"
-      - "numpy"
-      - "pandas"
-      - "python"
-      - "pytorch"
-      - "reinforcement-learning"
-    stars_fact: 3808
+      - "mlops"
+      - "natural-language-processing"
+    stars_fact: 422
     first_seen: null
-    last_push: "2025-08-01"
-  - name: "Last-Minute-Notes-of-Machine-learning-and-Deep-learning"
-    title: "Last-Minute-Notes-of-Machine-learning-and-Deep-learning"
-    description: "Last Minute Note of Machine learning and Deep learning by Jason Brownlee"
-    language: null
-    topics: []
-    stars_fact: 95
-    first_seen: null
-    last_push: "2019-08-06"
-  - name: "Real-time-ML-Project"
-    title: "Real-time-ML-Project"
-    description: "A curated list of applied machine learning and data science notebooks and libraries across different industries."
+    last_push: "2022-10-31"
+  - name: "365-Days-Computer-Vision-Learning-Linkedin-Post"
+    title: "365-Days-Computer-Vision-Learning-Linkedin-Post"
+    description: "365 Days Computer Vision Learning Linkedin Post"
     language: null
     topics:
-      - "application"
+      - "computer-vision"
+      - "cvpr"
+      - "cvpr2018"
+      - "cvpr2019"
+      - "cvpr2020"
       - "deep-learning"
-      - "deeplearning"
-      - "dl"
-      - "keras"
-      - "machine-learning"
-      - "machine-learning-algorithms"
-      - "machinelearning"
-      - "ml"
-      - "ml-application"
-      - "project"
+      - "eccv"
+      - "eccv-2018"
+      - "eccv2019"
+      - "eccv2020"
+      - "iclr"
+      - "iclr2018"
+      - "iclr2019"
+      - "iclr2020"
+      - "iclr2021"
+      - "jmlr"
+      - "linkedin"
+    stars_fact: 841
+    first_seen: null
+    last_push: "2022-06-03"
+  - name: "Treasure-of-Transformers"
+    title: "Treasure-of-Transformers"
+    description: "💁 Awesome Treasure of Transformers Models for Natural Language processing contains papers, videos, blogs, official repo along with colab Notebooks. 🛫☑️"
+    language: "Jupyter Notebook"
+    topics:
+      - "awesome"
+      - "bert"
+      - "jax"
+      - "language-model"
+      - "language-models"
+      - "model-hub"
+      - "natural-language-generation"
+      - "natural-language-processing"
+      - "natural-language-understanding"
+      - "nlp"
+      - "nlp-library"
+      - "pretrained-models"
+      - "python"
       - "pytorch"
-      - "real-time"
-      - "real-time-data"
-      - "rl"
+      - "pytorch-transformers"
+      - "seq2seq"
+      - "speech-recognition"
       - "tensorflow"
-      - "theano"
-    stars_fact: 770
+      - "transformer"
+    stars_fact: 1179
     first_seen: null
-    last_push: "2023-12-12"
-  - name: "VoiceForge-Text-to-Speech"
-    title: "VoiceForge-Text-to-Speech"
-    description: "Created with StackBlitz ⚡️"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 2
+    last_push: "2025-08-01"
+  - name: "Tools-to-Design-or-Visualize-Architecture-of-Neural-Network"
+    title: "Tools-to-Design-or-Visualize-Architecture-of-Neural-Network"
+    description: "Tools to Design or Visualize Architecture of Neural Network"
+    language: null
+    topics:
+      - "alexnet"
+      - "cnn"
+      - "deeplearning"
+      - "keras"
+      - "machinelearning"
+      - "resnet"
+      - "resnet-50"
+      - "semantic-segmentation"
+      - "tensorflow"
+      - "tensorflow2"
+      - "tools"
+      - "visu"
+      - "visualization-neural-network"
+      - "visualize"
+      - "visualize-data"
+      - "visualize-networks"
+    stars_fact: 5397
     first_seen: null
-    last_push: "2024-11-28"
+    last_push: "2025-08-01"
 ---
 
 # ashishpatel26
 
-72 pushes across 18 repositories on 21 active days in the last 90 days of public GitHub push activity.
+21 pushes across 10 repositories on 12 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ashishpatel26

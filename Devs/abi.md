@@ -9,13 +9,13 @@ provenance_repos:
   - "abi/screenshot-to-code"
   - "anthropics/anthropic-sdk-python"
 admitted: true
-low_n: false
+low_n: true
 repos_populated: true
-generated_at: "2026-09-05T06:07:00.404056+00:00"
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "1be978947e68d1f2"
   - "ef17663e884139a8"
-pushes_per_week: [2, 11, 0, 4, 0, 0, 4, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [2, 2, 0, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -32,16 +32,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 21
+    pushes: 8
     distinct_repos: 2
-    active_days: 9
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.3333
-  repo_per_active_day: 0.2222
+  push_per_day: 2.0000
+  repo_per_active_day: 0.5000
   not_owned_ratio: 0.0000
   basename_concentration: 0.5000
   shapes: []
@@ -68,16 +68,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 21
+    pushes: 8
     distinct_repos: 2
-    pushes_per_repo: 10.5000
-    active_days: 9
+    pushes_per_repo: 4.0000
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 9 active days in 90d — pass"
+  - "activity: 4 active days in 90d — below the 5-day line, LABELLED low-n (never suppressed)"
   - "automation: clear — pass"
 repos:
   - name: "screenshot-to-code"
@@ -85,41 +85,41 @@ repos:
     description: "Drop in a screenshot and convert it to clean code (HTML/Tailwind/React/Vue)"
     language: "Python"
     topics: []
-    stars_fact: 77306
+    stars_fact: 79586
     first_seen: "2026-08-29T06:00:06.819639+00:00"
-    last_push: "2026-08-14"
-  - name: "autocommit"
-    title: "autocommit"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 154
-    first_seen: null
-    last_push: "2023-01-17"
+    last_push: "2026-09-09"
   - name: "secret-llama"
     title: "secret-llama"
     description: "Fully private LLM chatbot that runs entirely with a browser with no server needed. Supports Mistral and LLama 3."
     language: "TypeScript"
     topics: []
-    stars_fact: 2680
+    stars_fact: 2678
     first_seen: null
     last_push: "2024-06-05"
-  - name: "Yip"
-    title: "Yip"
-    description: "A Unified Notification System for the Web"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 37
-    first_seen: null
-    last_push: "2010-05-07"
   - name: "lilo"
     title: "lilo"
     description: null
     language: "TypeScript"
     topics: []
-    stars_fact: 43
+    stars_fact: 44
     first_seen: null
     last_push: "2026-07-17"
+  - name: "autocommit"
+    title: "autocommit"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 155
+    first_seen: null
+    last_push: "2023-01-17"
+  - name: "Yip"
+    title: "Yip"
+    description: "A Unified Notification System for the Web"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 36
+    first_seen: null
+    last_push: "2010-05-07"
   - name: "dotfiles"
     title: "dotfiles"
     description: "Dotfiles."
@@ -132,6 +132,6 @@ repos:
 
 # abi
 
-21 pushes across 2 repositories on 9 active days in the last 90 days of public GitHub push activity.
+8 pushes across 2 repositories on 4 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/abi

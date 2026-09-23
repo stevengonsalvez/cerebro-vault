@@ -8,11 +8,11 @@ provenance_repos:
   - "anomalyco/opencode"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+repos_populated: false
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [20, 0, 0, 10, 2, 1, 15, 9, 3, 1, 1, 2, 0]
+pushes_per_week: [5, 7, 1, 7, 10, 10, 0, 1, 2, 1, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,25 +22,25 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 4
-    distinct_repos: 2
-    active_days: 4
+    pushes: 2
+    distinct_repos: 1
+    active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 64
-    distinct_repos: 7
-    active_days: 30
-    repos_not_owned: 4
-    not_owned_basenames: 4
-    not_owned_owners: 2
+    pushes: 44
+    distinct_repos: 6
+    active_days: 24
+    repos_not_owned: 3
+    not_owned_basenames: 3
+    not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.1333
-  repo_per_active_day: 0.2333
-  not_owned_ratio: 0.5714
-  basename_concentration: 0.2857
+  push_per_day: 1.8333
+  repo_per_active_day: 0.2500
+  not_owned_ratio: 0.5000
+  basename_concentration: 0.3333
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -57,78 +57,30 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 4
-    distinct_repos: 2
+    pushes: 2
+    distinct_repos: 1
     pushes_per_repo: 2.0000
-    active_days: 4
+    active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 64
-    distinct_repos: 7
-    pushes_per_repo: 9.1429
-    active_days: 30
-    repos_not_owned: 4
-    not_owned_basenames: 4
-    not_owned_owners: 2
+    pushes: 44
+    distinct_repos: 6
+    pushes_per_repo: 7.3333
+    active_days: 24
+    repos_not_owned: 3
+    not_owned_basenames: 3
+    not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 30 active days in 90d — pass"
+  - "activity: 24 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "tts-lab"
-    title: "tts-lab"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 33
-    first_seen: null
-    last_push: "2026-08-12"
-  - name: "xtui"
-    title: "xtui"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 6
-    first_seen: null
-    last_push: "2026-08-04"
-  - name: "oc-plugin-vault-tec"
-    title: "oc-plugin-vault-tec"
-    description: "A RobCo terminal personality that rewires your coding agent into a cheerful Vault-Tec Overseer -- bugs are containment breaches, deploys are surface excursions, and nuclear optimism is mandatory."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 182
-    first_seen: null
-    last_push: "2026-05-13"
-  - name: "bun-webgpu"
-    title: "bun-webgpu"
-    description: "WebGPU (Dawn) FFI bindings for bun."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 40
-    first_seen: null
-    last_push: "2026-04-28"
-  - name: "oc-plugin-smoke-test"
-    title: "oc-plugin-smoke-test"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-04-03"
-  - name: "unicode-width-exploration"
-    title: "unicode-width-exploration"
-    description: null
-    language: "Zig"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2025-08-24"
+repos: []
 ---
 
 # kommander
 
-64 pushes across 7 repositories on 30 active days in the last 90 days of public GitHub push activity.
+44 pushes across 6 repositories on 24 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/kommander

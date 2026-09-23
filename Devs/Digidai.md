@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "3cb7ff1cdcf97c6b"
-pushes_per_week: [14, 22, 6, 10, 1, 1, 3, 0, 2, 4, 0, 0, 0]
+pushes_per_week: [4, 10, 1, 0, 3, 0, 3, 3, 0, 0, 0, 3, 4]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
+    pushes: 4
+    distinct_repos: 3
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 6
-    distinct_repos: 3
-    active_days: 5
+    pushes: 7
+    distinct_repos: 4
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 63
+    pushes: 31
     distinct_repos: 8
-    active_days: 28
+    active_days: 22
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.2500
-  repo_per_active_day: 0.2857
+  push_per_day: 1.4091
+  repo_per_active_day: 0.3636
   not_owned_ratio: 0.0000
   basename_concentration: 0.1250
   shapes: []
@@ -49,34 +49,56 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
+    pushes: 4
+    distinct_repos: 3
+    pushes_per_repo: 1.3333
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 6
-    distinct_repos: 3
-    pushes_per_repo: 2.0000
-    active_days: 5
+    pushes: 7
+    distinct_repos: 4
+    pushes_per_repo: 1.7500
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 63
+    pushes: 31
     distinct_repos: 8
-    pushes_per_repo: 7.8750
-    active_days: 28
+    pushes_per_repo: 3.8750
+    active_days: 22
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 28 active days in 90d — pass"
+  - "activity: 22 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "metix-reports"
+    title: "metix-reports"
+    description: "Public catalog of Metix AI talent reports (canonical links to metix.ai)"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-23"
+  - name: "venturedex-co"
+    title: "venturedex-co"
+    description: "Source-backed startup research with product evidence, funding citations, investor context, and editorial risk notes."
+    language: "TypeScript"
+    topics:
+      - "astro"
+      - "cloudflare-workers"
+      - "market-intelligence"
+      - "startup-database"
+      - "startup-research"
+      - "venture-capital"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-23"
   - name: "product-manager-skills"
     title: "product-manager-skills"
     description: "PM skill for Claude Code, Codex, Cursor, and Windsurf: diagnose SaaS metrics, critique PRDs, plan roadmaps, run discovery, and coach PM career transitions."
@@ -102,25 +124,9 @@ repos:
       - "saas-metrics"
       - "skill-md"
       - "windsurf-skill"
-    stars_fact: 156
+    stars_fact: 176
     first_seen: null
     last_push: "2026-04-12"
-  - name: "raltic"
-    title: "raltic"
-    description: "Slack for humans and AI agents — chat workspace where Claude Code agents are first-class members"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-08-15"
-  - name: "project-watchtower"
-    title: "project-watchtower"
-    description: "Bounded health monitoring for Digidai public projects"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-01"
   - name: "recruit-ai-framework"
     title: "recruit-ai-framework"
     description: "Recruit-AI-Framework — Built by Genedai, Co-Founder of OpenJobs AI （https://openjobs-ai.com/）"
@@ -128,41 +134,27 @@ repos:
     topics: []
     stars_fact: 2
     first_seen: null
-    last_push: "2026-08-31"
-  - name: "venturedex-co"
-    title: "venturedex-co"
-    description: "Source-backed startup research with product evidence, funding citations, investor context, and editorial risk notes."
+    last_push: "2026-09-21"
+  - name: "digidai"
+    title: "digidai"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-21"
+  - name: "MonsterTracker"
+    title: "MonsterTracker"
+    description: null
     language: "TypeScript"
-    topics:
-      - "astro"
-      - "cloudflare-workers"
-      - "market-intelligence"
-      - "startup-database"
-      - "startup-research"
-      - "venture-capital"
+    topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-01"
-  - name: "website2markdown"
-    title: "website2markdown"
-    description: "Convert any URL to clean Markdown. Cloudflare Worker with 14 site adapters, MCP Server, Agent Skills, llms.txt. Open source, Apache-2.0."
-    language: "TypeScript"
-    topics:
-      - "ai-agents"
-      - "cloudflare-workers"
-      - "llms-txt"
-      - "markdown"
-      - "mcp"
-      - "typescript"
-      - "url-to-markdown"
-      - "web-scraping"
-    stars_fact: 8
-    first_seen: null
-    last_push: "2026-07-15"
+    last_push: "2026-09-16"
 ---
 
 # Digidai
 
-63 pushes across 8 repositories on 28 active days in the last 90 days of public GitHub push activity.
+31 pushes across 8 repositories on 22 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Digidai

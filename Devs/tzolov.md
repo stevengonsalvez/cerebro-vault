@@ -8,39 +8,39 @@ provenance_repos:
   - "agentskills/agentskills"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+repos_populated: false
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "48dbbdd8fd0d3029"
-pushes_per_week: [17, 11, 2, 2, 0, 0, 0, 2, 1, 0, 0, 0, 0]
+pushes_per_week: [0, 2, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 6]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
-  "30d":
-    pushes: 1
+    pushes: 6
     distinct_repos: 1
-    active_days: 1
+    active_days: 3
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
+  "30d":
+    pushes: 6
+    distinct_repos: 1
+    active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 35
-    distinct_repos: 9
-    active_days: 18
-    repos_not_owned: 6
-    not_owned_basenames: 5
-    not_owned_owners: 5
+    pushes: 11
+    distinct_repos: 5
+    active_days: 7
+    repos_not_owned: 4
+    not_owned_basenames: 4
+    not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 1.9444
-  repo_per_active_day: 0.5000
-  not_owned_ratio: 0.6667
-  basename_concentration: 0.3333
+  push_per_day: 1.5714
+  repo_per_active_day: 0.7143
+  not_owned_ratio: 0.8000
+  basename_concentration: 0.4000
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,99 +49,38 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
-  "30d":
-    pushes: 1
+    pushes: 6
     distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes_per_repo: 6.0000
+    active_days: 3
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
+  "30d":
+    pushes: 6
+    distinct_repos: 1
+    pushes_per_repo: 6.0000
+    active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 35
-    distinct_repos: 9
-    pushes_per_repo: 3.8889
-    active_days: 18
-    repos_not_owned: 6
-    not_owned_basenames: 5
-    not_owned_owners: 5
+    pushes: 11
+    distinct_repos: 5
+    pushes_per_repo: 2.2000
+    active_days: 7
+    repos_not_owned: 4
+    not_owned_basenames: 4
+    not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 18 active days in 90d — pass"
+  - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "voxxeddays2026-demo"
-    title: "voxxeddays2026-demo"
-    description: null
-    language: "Java"
-    topics: []
-    stars_fact: 35
-    first_seen: null
-    last_push: "2026-08-26"
-  - name: "vagrant-pivotalhd"
-    title: "vagrant-pivotalhd"
-    description: "Use Vagrant and Ambari Blueprint API to install PivotalHD 3.0 (or Hortonworks HDP2.x) Hadoop cluster with HAWQ 1.3 (SQL on Hadoop) and Spring XD 1.2"
-    language: "Shell"
-    topics: []
-    stars_fact: 22
-    first_seen: null
-    last_push: "2016-07-20"
-  - name: "playground-flight-booking"
-    title: "playground-flight-booking"
-    description: "Spring AI powered expert system demo"
-    language: "Java"
-    topics:
-      - "artificial-intelligence"
-      - "expert-system"
-      - "generative-ai"
-    stars_fact: 361
-    first_seen: null
-    last_push: "2026-02-14"
-  - name: "calcite-sql-rewriter"
-    title: "calcite-sql-rewriter"
-    description: "JDBC driver that converts any INSERT, UPDATE and DELETE statements into append-only INSERTs. Instead of updating rows in-place it inserts the new version of the row along with version metadata"
-    language: "Java"
-    topics: []
-    stars_fact: 83
-    first_seen: null
-    last_push: "2017-03-27"
-  - name: "mtcnn-java"
-    title: "mtcnn-java"
-    description: "Java MTCNN face detection using ND4J and trained TensorFlow models"
-    language: "Java"
-    topics:
-      - "face-detection"
-      - "java"
-      - "mtcnn"
-      - "nd4j"
-      - "spring-cloud-stream"
-      - "tensorflow"
-    stars_fact: 74
-    first_seen: null
-    last_push: "2018-11-26"
-  - name: "spring-ai-cli-chatbot"
-    title: "spring-ai-cli-chatbot"
-    description: "A command-line chatbot built with Spring AI that demonstrates Retrieval-Augmented Generation (RAG) and conversational memory capabilities."
-    language: "Java"
-    topics:
-      - "chatmemory"
-      - "rag"
-      - "spring-boot"
-      - "springai"
-    stars_fact: 66
-    first_seen: null
-    last_push: "2026-01-03"
+repos: []
 ---
 
 # tzolov
 
-35 pushes across 9 repositories on 18 active days in the last 90 days of public GitHub push activity.
+11 pushes across 5 repositories on 7 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/tzolov

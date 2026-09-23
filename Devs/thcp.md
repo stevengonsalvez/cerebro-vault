@@ -8,37 +8,37 @@ provenance_repos:
   - "stemdeckapp/stemdeck"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-09-06T06:09:03.028501+00:00"
+repos_populated: false
+generated_at: "2026-09-23T13:24:09.259904+00:00"
 provenance:
   - "f067a4ae268cdf65"
-pushes_per_week: [7, 2, 13, 10, 2, 9, 2, 0, 3, 7, 0, 1, 0]
+pushes_per_week: [17, 1, 3, 7, 2, 0, 10, 0, 0, 1, 1, 0, 1]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
-  "30d":
-    pushes: 11
+    pushes: 1
     distinct_repos: 1
-    active_days: 5
+    active_days: 1
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
+  "30d":
+    pushes: 3
+    distinct_repos: 1
+    active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 56
+    pushes: 43
     distinct_repos: 1
-    active_days: 24
+    active_days: 20
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.3333
-  repo_per_active_day: 0.0417
+  push_per_day: 2.1500
+  repo_per_active_day: 0.0500
   not_owned_ratio: 1.0000
   basename_concentration: 1.0000
   shapes: []
@@ -49,86 +49,38 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
-  "30d":
-    pushes: 11
+    pushes: 1
     distinct_repos: 1
-    pushes_per_repo: 11.0000
-    active_days: 5
+    pushes_per_repo: 1.0000
+    active_days: 1
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
+  "30d":
+    pushes: 3
+    distinct_repos: 1
+    pushes_per_repo: 3.0000
+    active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 56
+    pushes: 43
     distinct_repos: 1
-    pushes_per_repo: 56.0000
-    active_days: 24
+    pushes_per_repo: 43.0000
+    active_days: 20
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 24 active days in 90d — pass"
+  - "activity: 20 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "PedalBoardManager"
-    title: "PedalBoardManager"
-    description: "Create, organize, and manage pedalboard profiles and signal chains."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-08-08"
-  - name: "dockerclaw"
-    title: "dockerclaw"
-    description: "OpenClaw On Docker"
-    language: "Shell"
-    topics: []
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-03-29"
-  - name: "thcp"
-    title: "thcp"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-03-26"
-  - name: "jenkins-agent-dod"
-    title: "jenkins-agent-dod"
-    description: "Jenkins agent with auto restart and DoD"
-    language: "Shell"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-03-03"
-  - name: "cloudflare-tunnel"
-    title: "cloudflare-tunnel"
-    description: "cloudflare tunnel compose"
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-01-16"
-  - name: "redash"
-    title: "redash"
-    description: "Redash Helm Chart"
-    language: "Smarty"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2025-06-01"
+repos: []
 ---
 
 # thcp
 
-56 pushes across 1 repository on 24 active days in the last 90 days of public GitHub push activity.
+43 pushes across 1 repository on 20 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/thcp
