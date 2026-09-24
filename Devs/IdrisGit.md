@@ -8,11 +8,11 @@ provenance_repos:
   - "anomalyco/opencode"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+repos_populated: true
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [2, 1, 4, 0, 0, 2, 0, 1, 0, 0, 0, 0, 0]
+pushes_per_week: [2, 2, 3, 0, 0, 2, 0, 1, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,65 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 9 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "opencode-notification"
+    title: "opencode-notification"
+    description: "OpenCode plugin for desktop notifications in TUI."
+    language: "TypeScript"
+    topics:
+      - "notifications"
+      - "opencode"
+      - "opencode-plugin"
+    stars_fact: 5
+    first_seen: null
+    last_push: "2026-03-15"
+  - name: "opencode-subagent-model-selector"
+    title: "opencode-subagent-model-selector"
+    description: "OpenCode plugin that routes subagents to configured models based on the primary session's model and variant."
+    language: "TypeScript"
+    topics:
+      - "model-routing"
+      - "opencode"
+      - "opencode-plugin"
+      - "opencode-plugins"
+      - "subagents"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-08-22"
+  - name: "idrisGit"
+    title: "idrisGit"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-08-16"
+  - name: "MarkUp"
+    title: "MarkUp"
+    description: "A simple local-first notes app build on React+Typescript with Markdown support"
+    language: "TypeScript"
+    topics:
+      - "chakra-ui"
+      - "react"
+      - "react-markdown"
+      - "reactrouter6"
+      - "typescript"
+      - "zustand"
+    stars_fact: 4
+    first_seen: null
+    last_push: "2024-06-24"
+  - name: "cli-blogsnest"
+    title: "cli-blogsnest"
+    description: "CLI app for reading blogs and articles."
+    language: "JavaScript"
+    topics:
+      - "blogs"
+      - "cli"
+      - "inquirer"
+      - "javascript"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2023-12-31"
 ---
 
 # IdrisGit

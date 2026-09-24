@@ -8,11 +8,11 @@ provenance_repos:
   - "affaan-m/ECC"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+repos_populated: true
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "edb3a626875732de"
-pushes_per_week: [1, 0, 2, 14, 8, 3, 0, 1, 0, 0, 0, 0, 0]
+pushes_per_week: [1, 0, 2, 17, 6, 2, 0, 1, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,56 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 14 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "github-contribution-filler"
+    title: "github-contribution-filler"
+    description: "🎯 Fill GitHub contribution graph with backdated commits • Custom date ranges • Auto-removal tool"
+    language: "Shell"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-09-24"
+  - name: "network-intrusion-detection-system"
+    title: "network-intrusion-detection-system"
+    description: "Advanced Network Intrusion Detection System (NIDS) - ML-based cybersecurity project using Python with real-time packet analysis, anomaly detection, and web-based monitoring dashboard"
+    language: "Python"
+    topics: []
+    stars_fact: 11
+    first_seen: null
+    last_push: "2026-09-05"
+  - name: "hidden-pixels"
+    title: "hidden-pixels"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-13"
+  - name: "ctias-lab"
+    title: "ctias-lab"
+    description: "Multi-language cybersecurity platform for threat intelligence, IOC analysis, attack surface mapping, and collaborative threat detection"
+    language: "TypeScript"
+    topics:
+      - "cybersecurity"
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-09-05"
+  - name: "awesome-privacy"
+    title: "awesome-privacy"
+    description: "Awesome Privacy - A curated list of services and alternatives that respect your privacy because PRIVACY MATTERS."
+    language: null
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-08-02"
+  - name: "case-intake-suite"
+    title: "case-intake-suite"
+    description: "Local case intake and evidence pack generator for moderation workflows — CLI + Flask dashboard + Markdown/PDF export"
+    language: "Python"
+    topics: []
+    stars_fact: 6
+    first_seen: null
+    last_push: "2026-07-23"
 ---
 
 # pangerlkr

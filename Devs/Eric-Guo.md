@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [75, 62, 39, 51, 29, 27, 23, 17, 5, 5, 10, 14, 32]
+pushes_per_week: [71, 51, 49, 47, 30, 21, 30, 8, 7, 3, 10, 17, 36]
 windows:
   "7d":
-    pushes: 32
-    distinct_repos: 5
+    pushes: 36
+    distinct_repos: 6
     active_days: 7
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 63
-    distinct_repos: 13
-    active_days: 19
+    pushes: 69
+    distinct_repos: 14
+    active_days: 20
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 389
+    pushes: 380
     distinct_repos: 22
     active_days: 75
     repos_not_owned: 4
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 5.1867
+  push_per_day: 5.0667
   repo_per_active_day: 0.2933
   not_owned_ratio: 0.1818
   basename_concentration: 0.0455
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 32
-    distinct_repos: 5
-    pushes_per_repo: 6.4000
+    pushes: 36
+    distinct_repos: 6
+    pushes_per_repo: 6.0000
     active_days: 7
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 63
-    distinct_repos: 13
-    pushes_per_repo: 4.8462
-    active_days: 19
+    pushes: 69
+    distinct_repos: 14
+    pushes_per_repo: 4.9286
+    active_days: 20
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 389
+    pushes: 380
     distinct_repos: 22
-    pushes_per_repo: 17.6818
+    pushes_per_repo: 17.2727
     active_days: 75
     repos_not_owned: 4
     not_owned_basenames: 4
@@ -137,6 +137,6 @@ repos:
 
 # Eric-Guo
 
-389 pushes across 22 repositories on 75 active days in the last 90 days of public GitHub push activity.
+380 pushes across 22 repositories on 75 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Eric-Guo

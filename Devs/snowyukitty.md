@@ -10,11 +10,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "386c24cf5e18fd90"
   - "9e2ff10d772b1e71"
-pushes_per_week: [11, 1, 2, 3, 8, 4, 8, 2, 4, 0, 1, 0, 0]
+pushes_per_week: [7, 1, 2, 4, 7, 4, 8, 2, 4, 0, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -24,25 +24,25 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 2
-    distinct_repos: 2
-    active_days: 2
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 44
-    distinct_repos: 22
+    pushes: 40
+    distinct_repos: 21
     active_days: 31
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.4194
-  repo_per_active_day: 0.7097
+  push_per_day: 1.2903
+  repo_per_active_day: 0.6774
   not_owned_ratio: 0.0000
-  basename_concentration: 0.0455
+  basename_concentration: 0.0476
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -59,17 +59,17 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 2
-    distinct_repos: 2
+    pushes: 1
+    distinct_repos: 1
     pushes_per_repo: 1.0000
-    active_days: 2
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 44
-    distinct_repos: 22
-    pushes_per_repo: 2.0000
+    pushes: 40
+    distinct_repos: 21
+    pushes_per_repo: 1.9048
     active_days: 31
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -193,6 +193,6 @@ repos:
 
 # snowyukitty
 
-44 pushes across 22 repositories on 31 active days in the last 90 days of public GitHub push activity.
+40 pushes across 21 repositories on 31 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/snowyukitty

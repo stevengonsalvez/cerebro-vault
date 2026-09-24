@@ -8,11 +8,11 @@ provenance_repos:
   - "abhigyanpatwari/GitNexus"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+repos_populated: true
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [10, 25, 12, 8, 6, 0, 3, 1, 4, 2, 2, 1, 12]
+pushes_per_week: [18, 22, 9, 7, 5, 2, 1, 1, 4, 2, 2, 1, 12]
 windows:
   "7d":
     pushes: 12
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 39 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "orbit"
+    title: "orbit"
+    description: "A online solar system and sky event simulator"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-24"
+  - name: "next-wiki"
+    title: "next-wiki"
+    description: "An AI native personal knowledge management & sharing platform"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-09-18"
+  - name: "skills"
+    title: "skills"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-17"
+  - name: "solar-explorer"
+    title: "solar-explorer"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-09"
+  - name: "solaris"
+    title: "solaris"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-07"
+  - name: "octopus-llm"
+    title: "octopus-llm"
+    description: "An LLM aggregator that allow communicate with multiple LLMs side-by-side in realtime"
+    language: "Kotlin"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-05"
 ---
 
 # hugogu

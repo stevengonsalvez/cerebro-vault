@@ -8,8 +8,8 @@ provenance_repos:
   - "anthropics/knowledge-work-plugins"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+repos_populated: true
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "2d6ba8fc0269fd52"
 pushes_per_week: [29, 0, 1, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0]
@@ -76,7 +76,47 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "nabab"
+    title: "nabab"
+    description: "Bayesian network engine that supports arbitrary networks (reads XMLBIF files) and exact inference (with or without evidence)"
+    language: "Java"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-11"
+  - name: "LibCL"
+    title: "LibCL"
+    description: "Library of shared OpenCL code that can be reused between different binding libraries. Uses StringTemplate templates."
+    language: null
+    topics: []
+    stars_fact: 6
+    first_seen: null
+    last_push: "2011-02-05"
+  - name: "homebrew-llama.cpp"
+    title: "homebrew-llama.cpp"
+    description: "Homebrew Tap for llama.cpp"
+    language: "Ruby"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-03-02"
+  - name: "talk"
+    title: "talk"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-02-11"
+  - name: "webtop-mcp"
+    title: "webtop-mcp"
+    description: "MCP for (webtop) dockerized desktop environments (chrome devtools + debugger + computer use)"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-02-06"
 ---
 
 # ochafik

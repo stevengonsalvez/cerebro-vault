@@ -8,11 +8,11 @@ provenance_repos:
   - "apache/maka"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+repos_populated: true
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [6, 15, 8, 1, 3, 5, 6, 9, 4, 0, 5, 4, 0]
+pushes_per_week: [9, 14, 6, 1, 4, 5, 7, 8, 3, 0, 5, 4, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 11
-    distinct_repos: 2
-    active_days: 7
+    pushes: 9
+    distinct_repos: 1
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 11
-    distinct_repos: 2
-    pushes_per_repo: 5.5000
-    active_days: 7
+    pushes: 9
+    distinct_repos: 1
+    pushes_per_repo: 9.0000
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -76,7 +76,23 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 37 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "orangeCatDeveloper"
+    title: "orangeCatDeveloper"
+    description: "Profile"
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-07-26"
+  - name: "streameast-ad-blocker"
+    title: "streameast-ad-blocker"
+    description: "A Chrome extension that blocks overlay ads, click hijacking, popunders, and malicious downloads on streaming sites like streameast."
+    language: "JavaScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-03-19"
 ---
 
 # orangeCatDeveloper

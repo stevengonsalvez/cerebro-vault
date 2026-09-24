@@ -8,11 +8,11 @@ provenance_repos:
   - "BuilderIO/agent-native"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+repos_populated: true
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "745308b2b7085095"
-pushes_per_week: [0, 1, 2, 5, 2, 1, 0, 0, 0, 0, 0, 1, 1]
+pushes_per_week: [1, 0, 2, 5, 3, 0, 0, 0, 0, 0, 0, 1, 1]
 windows:
   "7d":
     pushes: 1
@@ -76,7 +76,58 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 10 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "trakoo"
+    title: "trakoo"
+    description: "A highly typed, zero-dependency, provider-agnostic analytics library for TypeScript"
+    language: "TypeScript"
+    topics:
+      - "analytics"
+      - "analytics-tracking"
+      - "tracking"
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-09-24"
+  - name: "better-auth-ui-svelte"
+    title: "better-auth-ui-svelte"
+    description: "Beautiful shadcn/ui components in Svelte built for better-auth."
+    language: "Svelte"
+    topics: []
+    stars_fact: 17
+    first_seen: null
+    last_push: "2026-07-02"
+  - name: "stamppot"
+    title: "stamppot"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-05"
+  - name: "po-genie"
+    title: "po-genie"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-20"
+  - name: "eve-studio"
+    title: "eve-studio"
+    description: "Visual observability workspace for Eve agents: inspect live sessions, messages, tool calls, steps, and usage."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-07-29"
+  - name: "leat-docs"
+    title: "leat-docs"
+    description: null
+    language: "MDX"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-07-29"
 ---
 
 # multiplehats

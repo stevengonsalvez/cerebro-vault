@@ -8,8 +8,8 @@ provenance_repos:
   - "can1357/oh-my-pi"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+repos_populated: true
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "de6bf05613f3ae04"
 pushes_per_week: [0, 1, 0, 2, 0, 0, 0, 2, 0, 0, 0, 1, 4]
@@ -76,7 +76,65 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 9 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "noble"
+    title: "noble"
+    description: "A retro-futurist HUD terminal workspace: real shells, git projects, system sensors and AI coding quota in one cockpit. Rust + ratatui."
+    language: "Rust"
+    topics:
+      - "claude-code"
+      - "codex"
+      - "developer-tools"
+      - "ratatui"
+      - "rust"
+      - "terminal"
+      - "terminal-emulator"
+      - "tui"
+      - "windows"
+      - "workspace"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-24"
+  - name: "Portfolio"
+    title: "Portfolio"
+    description: "A clean and modern portfolio to showcase my projects and skills."
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-04"
+  - name: "cv-orman"
+    title: "cv-orman"
+    description: "See my project in 3D forest"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-07-27"
+  - name: "MertSoylu"
+    title: "MertSoylu"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-11"
+  - name: "aislopfixer"
+    title: "aislopfixer"
+    description: "Terminal TUI that finds and fixes AI-generated slop in local web projects. Fully offline, rule-based, no API keys"
+    language: "Python"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-08-01"
+  - name: "WalkKittie_App"
+    title: "WalkKittie_App"
+    description: "WalkKittie Source Codes"
+    language: "Kotlin"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-05-14"
 ---
 
 # MertSoylu

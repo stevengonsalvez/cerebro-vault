@@ -8,11 +8,11 @@ provenance_repos:
   - "leonickson1/Swiftlet"
 admitted: true
 low_n: true
-repos_populated: false
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+repos_populated: true
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "2c81603e7aea49b9"
-pushes_per_week: [0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,69 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 2 active days in 90d — below the 5-day line, LABELLED low-n (never suppressed)"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "chatcn"
+    title: "chatcn"
+    description: "Beautiful, open-source chat UI components for React. Messages, threads, reactions, file upload, 4 themes. Built on shadcn/ui + Tailwind CSS."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 99
+    first_seen: null
+    last_push: "2026-04-03"
+  - name: "Swiftlet"
+    title: "Swiftlet"
+    description: "Swiftlet is a Swift and Metal runtime that runs large Qwen Mixture-of-Experts models locally on Apple devices by streaming expert weights from storage, enabling 35B and 80B models to run with low RAM, including on iPhone."
+    language: "Swift"
+    topics:
+      - "local-llm"
+      - "mixture-of-experts"
+      - "on-device-ai"
+      - "qwen"
+      - "swift"
+    stars_fact: 644
+    first_seen: "2026-08-04T06:00:07.487421+00:00"
+    last_push: "2026-09-14"
+  - name: "demoreel"
+    title: "demoreel"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 6
+    first_seen: null
+    last_push: "2026-08-10"
+  - name: "localLLM"
+    title: "localLLM"
+    description: "Privacy-first iOS app with on-device LLM inference via llama.cpp. Chat with local models, get AI health insights from HealthKit, and track finances from PDF statements."
+    language: "Swift"
+    topics: []
+    stars_fact: 32
+    first_seen: null
+    last_push: "2026-08-03"
+  - name: "oats"
+    title: "oats"
+    description: "Local meeting notes for your Mac. No bot joins your calls, no audio leaves your machine, no account. Summaries, action items, and a knowledge graph, all from a model that runs on-device."
+    language: "Swift"
+    topics:
+      - "apple-silicon"
+      - "local-first"
+      - "macos"
+      - "meeting-notes"
+      - "note-taking"
+      - "on-device-ai"
+      - "swiftui"
+      - "transcription"
+      - "whisper"
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-09-07"
+  - name: "leonickson1"
+    title: "leonickson1"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-08"
 ---
 
 # leonickson1

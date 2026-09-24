@@ -9,16 +9,16 @@ provenance_repos:
   - "bytedance/deer-flow"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+repos_populated: true
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "16389f32495280ea"
-pushes_per_week: [3, 23, 24, 11, 13, 6, 3, 3, 0, 0, 0, 2, 2]
+pushes_per_week: [6, 24, 25, 10, 9, 8, 1, 3, 0, 0, 1, 2, 1]
 windows:
   "7d":
-    pushes: 2
+    pushes: 1
     distinct_repos: 1
-    active_days: 2
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -50,10 +50,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
+    pushes: 1
     distinct_repos: 1
-    pushes_per_repo: 2.0000
-    active_days: 2
+    pushes_per_repo: 1.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -77,7 +77,62 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 31 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "helixent"
+    title: "helixent"
+    description: "Helixent is a small library for building ReAct-style AI agent loops based on the Bun stack."
+    language: "TypeScript"
+    topics:
+      - "agent"
+      - "agent-loop"
+      - "ai"
+      - "bun"
+      - "cli"
+      - "coding"
+      - "skills"
+    stars_fact: 673
+    first_seen: null
+    last_push: "2026-05-21"
+  - name: "dayring-mono"
+    title: "dayring-mono"
+    description: "PaperMono application platform"
+    language: "C++"
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-09-22"
+  - name: "agentara"
+    title: "agentara"
+    description: "Your 24/7 personal assistant powered by Claude Code and OpenAI Codex. Multi-channel messaging, long-term memory, skills, task scheduling, session management, and more — all running locally."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 515
+    first_seen: null
+    last_push: "2026-05-11"
+  - name: "free-ink-on-paper-mono"
+    title: "free-ink-on-paper-mono"
+    description: "Local Loop Engineering and WYSIWYG FreeInk UI demos for M5Stack PaperMono-Lite"
+    language: "C++"
+    topics: []
+    stars_fact: 8
+    first_seen: null
+    last_push: "2026-08-27"
+  - name: "hyper-hinge"
+    title: "hyper-hinge"
+    description: "Did you know there's a hinge sensor in your Macbook? Three little apps. One shared hinge API."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 10
+    first_seen: null
+    last_push: "2026-09-10"
+  - name: "paper-mono-hands-on"
+    title: "paper-mono-hands-on"
+    description: null
+    language: "C"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-08-27"
 ---
 
 # MagicCube

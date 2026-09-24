@@ -8,11 +8,11 @@ provenance_repos:
   - "ovenpasta/adi2"
 admitted: true
 low_n: true
-repos_populated: false
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+repos_populated: true
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "422d724d1779eadb"
-pushes_per_week: [1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0]
+pushes_per_week: [1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,65 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 2 active days in 90d — below the 5-day line, LABELLED low-n (never suppressed)"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "adi2"
+    title: "adi2"
+    description: "A modern GUI library for Ada: CSS styling, XML UI, SDL3"
+    language: "Ada"
+    topics:
+      - "ada"
+      - "ada2022"
+      - "css"
+      - "graphics"
+      - "gui"
+      - "sdl3"
+      - "toolkit"
+      - "ui"
+      - "widgets"
+    stars_fact: 50
+    first_seen: "2026-08-25T06:00:02.050180+00:00"
+    last_push: "2026-09-07"
+  - name: "aht"
+    title: "aht"
+    description: "Ada HTTP/1.1 and WebSocket client with TLS via OpenSSL or mbedTLS"
+    language: "Ada"
+    topics: []
+    stars_fact: 5
+    first_seen: null
+    last_push: "2026-09-07"
+  - name: "message_pack"
+    title: "message_pack"
+    description: "MessagePack for Ada, over Ada.Streams"
+    language: "Ada"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-22"
+  - name: "thunderchez"
+    title: "thunderchez"
+    description: "libraries for chez scheme productivity"
+    language: "Common Lisp"
+    topics:
+      - "scheme"
+    stars_fact: 163
+    first_seen: null
+    last_push: "2024-09-27"
+  - name: "miogui"
+    title: "miogui"
+    description: "MIOGUI - More Immediate Operation GUI - Develop GUI in scheme in incremental & immediate mode!"
+    language: "Scheme"
+    topics: []
+    stars_fact: 8
+    first_seen: null
+    last_push: "2016-12-17"
+  - name: "premake5-cmake"
+    title: "premake5-cmake"
+    description: "cmake target for premake5"
+    language: "Lua"
+    topics: []
+    stars_fact: 4
+    first_seen: null
+    last_push: "2019-12-24"
 ---
 
 # ovenpasta

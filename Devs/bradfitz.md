@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "e2f800cf55605b30"
-pushes_per_week: [22, 3, 23, 5, 3, 2, 1, 0, 0, 1, 1, 3, 7]
+pushes_per_week: [23, 3, 22, 5, 3, 2, 1, 0, 0, 1, 1, 3, 9]
 windows:
   "7d":
-    pushes: 7
-    distinct_repos: 3
-    active_days: 4
+    pushes: 9
+    distinct_repos: 4
+    active_days: 5
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 12
-    distinct_repos: 5
-    active_days: 9
+    pushes: 14
+    distinct_repos: 6
+    active_days: 10
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 1
   "90d":
-    pushes: 71
-    distinct_repos: 12
-    active_days: 32
+    pushes: 73
+    distinct_repos: 13
+    active_days: 33
     repos_not_owned: 7
     not_owned_basenames: 7
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.2188
-  repo_per_active_day: 0.3750
-  not_owned_ratio: 0.5833
-  basename_concentration: 0.0833
+  push_per_day: 2.2121
+  repo_per_active_day: 0.3939
+  not_owned_ratio: 0.5385
+  basename_concentration: 0.0769
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 7
-    distinct_repos: 3
-    pushes_per_repo: 2.3333
-    active_days: 4
+    pushes: 9
+    distinct_repos: 4
+    pushes_per_repo: 2.2500
+    active_days: 5
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 12
-    distinct_repos: 5
-    pushes_per_repo: 2.4000
-    active_days: 9
+    pushes: 14
+    distinct_repos: 6
+    pushes_per_repo: 2.3333
+    active_days: 10
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 1
   "90d":
-    pushes: 71
-    distinct_repos: 12
-    pushes_per_repo: 5.9167
-    active_days: 32
+    pushes: 73
+    distinct_repos: 13
+    pushes_per_repo: 5.6154
+    active_days: 33
     repos_not_owned: 7
     not_owned_basenames: 7
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 32 active days in 90d — pass"
+  - "activity: 33 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "autocertdelegate"
@@ -129,6 +129,6 @@ repos:
 
 # bradfitz
 
-71 pushes across 12 repositories on 32 active days in the last 90 days of public GitHub push activity.
+73 pushes across 13 repositories on 33 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/bradfitz

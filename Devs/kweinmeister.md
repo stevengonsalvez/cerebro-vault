@@ -8,28 +8,28 @@ provenance_repos:
   - "calesthio/OpenMontage"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+repos_populated: true
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "6d3bd03b49986330"
-pushes_per_week: [7, 18, 10, 22, 14, 0, 0, 8, 4, 0, 1, 2, 17]
+pushes_per_week: [24, 4, 7, 22, 14, 0, 0, 8, 4, 0, 1, 2, 18]
 windows:
   "7d":
-    pushes: 17
+    pushes: 18
     distinct_repos: 11
     active_days: 5
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 24
-    distinct_repos: 13
-    active_days: 8
+    pushes: 21
+    distinct_repos: 12
+    active_days: 7
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 103
+    pushes: 104
     distinct_repos: 22
     active_days: 18
     repos_not_owned: 1
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 5.7222
+  push_per_day: 5.7778
   repo_per_active_day: 1.2222
   not_owned_ratio: 0.0455
   basename_concentration: 0.0455
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 17
+    pushes: 18
     distinct_repos: 11
-    pushes_per_repo: 1.5455
+    pushes_per_repo: 1.6364
     active_days: 5
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 24
-    distinct_repos: 13
-    pushes_per_repo: 1.8462
-    active_days: 8
+    pushes: 21
+    distinct_repos: 12
+    pushes_per_repo: 1.7500
+    active_days: 7
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 103
+    pushes: 104
     distinct_repos: 22
-    pushes_per_repo: 4.6818
+    pushes_per_repo: 4.7273
     active_days: 18
     repos_not_owned: 1
     not_owned_basenames: 1
@@ -76,11 +76,59 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 18 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "ai-audio-engineer-app"
+    title: "ai-audio-engineer-app"
+    description: "AI Audio Engineer App"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-21"
+  - name: "kweinmeister"
+    title: "kweinmeister"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-22"
+  - name: "voting-agent"
+    title: "voting-agent"
+    description: "Agent and UI example showcasing best-of-n pattern, memory, and sessions"
+    language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-21"
+  - name: "vllm-gke-terraform"
+    title: "vllm-gke-terraform"
+    description: "Terraform module to deploy vLLM on GKE for high-performance LLM inference. Supports speculative decoding."
+    language: "HCL"
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-09-21"
+  - name: "toon-mcp"
+    title: "toon-mcp"
+    description: "MCP server for converting JSON ↔ TOON to reduce LLM token usage."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 13
+    first_seen: null
+    last_push: "2026-09-21"
+  - name: "text-to-sql-agent"
+    title: "text-to-sql-agent"
+    description: "Natural language to text agent built with Google's Python ADK"
+    language: "Python"
+    topics: []
+    stars_fact: 7
+    first_seen: null
+    last_push: "2026-09-21"
 ---
 
 # kweinmeister
 
-103 pushes across 22 repositories on 18 active days in the last 90 days of public GitHub push activity.
+104 pushes across 22 repositories on 18 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/kweinmeister

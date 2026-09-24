@@ -8,11 +8,11 @@ provenance_repos:
   - "ayghri/i-have-adhd"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+repos_populated: true
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "46f3c1d6124190bd"
-pushes_per_week: [0, 0, 4, 10, 2, 6, 0, 1, 1, 0, 0, 2, 1]
+pushes_per_week: [0, 0, 5, 9, 2, 6, 0, 1, 1, 0, 1, 1, 1]
 windows:
   "7d":
     pushes: 1
@@ -76,7 +76,61 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 16 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "fomomo"
+    title: "fomomo"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 42
+    first_seen: null
+    last_push: "2026-09-17"
+  - name: "gemini-teacher"
+    title: "gemini-teacher"
+    description: "English pronunciation correction teacher built with gemini"
+    language: "Python"
+    topics: []
+    stars_fact: 1204
+    first_seen: null
+    last_push: "2026-08-31"
+  - name: "moss"
+    title: "moss"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 85
+    first_seen: null
+    last_push: "2026-09-22"
+  - name: "zktls-ai"
+    title: "zktls-ai"
+    description: "Primus zkTLS proof of real DeepSeek requests with Monad escrow settlement"
+    language: "Solidity"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-07"
+  - name: "claude-style-subagent"
+    title: "claude-style-subagent"
+    description: "Claude Code-style controllable subagents for Pi"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-04"
+  - name: "monad-passkey-4337-starter"
+    title: "monad-passkey-4337-starter"
+    description: "Mac Passkey smart account starter for Monad using ERC-4337 and WebAuthn P-256"
+    language: "TypeScript"
+    topics:
+      - "account-abstraction"
+      - "erc-4337"
+      - "monad"
+      - "p256"
+      - "passkey"
+      - "webauthn"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-07-27"
 ---
 
 # nishuzumi

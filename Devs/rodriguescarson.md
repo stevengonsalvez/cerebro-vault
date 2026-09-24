@@ -8,11 +8,11 @@ provenance_repos:
   - "affaan-m/ECC"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+repos_populated: true
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "edb3a626875732de"
-pushes_per_week: [14, 2, 0, 2, 1, 0, 0, 0, 0, 1, 0, 1, 1]
+pushes_per_week: [15, 1, 0, 2, 1, 0, 0, 0, 0, 1, 0, 1, 1]
 windows:
   "7d":
     pushes: 1
@@ -76,7 +76,61 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 10 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "eligible-scroll-atlas"
+    title: "eligible-scroll-atlas"
+    description: "Every published mesh on the eight prize-eligible 9um Vesuvius scrolls, rendered in the team's layout and screened for ink under a pre-registered recipe"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-21"
+  - name: "labelscope"
+    title: "labelscope"
+    description: "Diagnostics for Vesuvius Challenge surface-label datasets: split leakage, label topology, and how far labels sit from the ridge the scan actually shows."
+    language: "Python"
+    topics:
+      - "data-quality"
+      - "herculaneum"
+      - "nnunet"
+      - "scroll-prize"
+      - "segmentation"
+      - "vesuvius-challenge"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-14"
+  - name: "scripty"
+    title: "scripty"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-09"
+  - name: "dentacopilot-artifact"
+    title: "dentacopilot-artifact"
+    description: "Reproducibility artifact for the paper 'DentaCoPilot: An LLM-Augmented Next-Procedure Recommender for General Dentistry'"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-05"
+  - name: "cad-silent-failure-bench"
+    title: "cad-silent-failure-bench"
+    description: "Benchmark, harness, and full attempt corpus for 'Done Is Not Correct: Measuring Silent Failures and Self-Verification Calibration When LLM Agents Take CAD Actions'"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-04"
+  - name: "underwrite"
+    title: "underwrite"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-04"
 ---
 
 # rodriguescarson

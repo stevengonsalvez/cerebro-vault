@@ -8,23 +8,23 @@ provenance_repos:
   - "alirezarezvani/claude-skills"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+repos_populated: true
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "3cb7ff1cdcf97c6b"
-pushes_per_week: [4, 0, 2, 11, 18, 4, 6, 10, 0, 1, 1, 0, 0]
+pushes_per_week: [3, 0, 2, 11, 20, 2, 6, 10, 1, 0, 1, 0, 1]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 2
-    distinct_repos: 2
-    active_days: 2
+    pushes: 3
+    distinct_repos: 3
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,18 +49,18 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
+    pushes: 1
+    distinct_repos: 1
+    pushes_per_repo: 1.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 2
-    distinct_repos: 2
+    pushes: 3
+    distinct_repos: 3
     pushes_per_repo: 1.0000
-    active_days: 2
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -76,7 +76,116 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 20 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "productplan-mcp-server"
+    title: "productplan-mcp-server"
+    description: "MCP server for ProductPlan - enables AI assistants to interact with roadmaps, OKRs, and discovery features"
+    language: "Go"
+    topics:
+      - "anthropic"
+      - "claude"
+      - "go"
+      - "golang"
+      - "mcp"
+      - "mcp-server"
+      - "model-context-protocol"
+      - "okr"
+      - "product-management"
+      - "productplan"
+      - "roadmap"
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-09-24"
+  - name: "tilbudstrolden-mcp"
+    title: "tilbudstrolden-mcp"
+    description: "MCP server for Nordic grocery deal hunting via the Tjek API (Denmark, Norway, Sweden, Finland)"
+    language: "TypeScript"
+    topics:
+      - "anthropic"
+      - "claude"
+      - "danish"
+      - "deals"
+      - "etilbudsavis"
+      - "finland"
+      - "grocery"
+      - "grocery-deals"
+      - "mcp"
+      - "mcp-server"
+      - "meal-planning"
+      - "model-context-protocol"
+      - "nordic"
+      - "norway"
+      - "price-comparison"
+      - "recipe-manager"
+      - "shopping-list"
+      - "sweden"
+      - "tilbud"
+      - "typescript"
+    stars_fact: 39
+    first_seen: null
+    last_push: "2026-09-14"
+  - name: "miro-mcp-server"
+    title: "miro-mcp-server"
+    description: "MCP server for controlling Miro whiteboards with AI assistants"
+    language: "Go"
+    topics:
+      - "anthropic"
+      - "claude"
+      - "collaboration"
+      - "go"
+      - "golang"
+      - "mcp"
+      - "mcp-server"
+      - "miro"
+      - "miro-api"
+      - "model-context-protocol"
+      - "whiteboard"
+    stars_fact: 27
+    first_seen: null
+    last_push: "2026-09-21"
+  - name: "mediawiki-mcp-server"
+    title: "mediawiki-mcp-server"
+    description: "MCP server for MediaWiki wikis - search, read, and edit wiki content from AI assistants"
+    language: "Go"
+    topics:
+      - "anthropic"
+      - "claude"
+      - "go"
+      - "golang"
+      - "mcp"
+      - "mcp-server"
+      - "mediawiki"
+      - "model-context-protocol"
+      - "starred"
+      - "wiki"
+      - "wikipedia"
+    stars_fact: 20
+    first_seen: null
+    last_push: "2026-09-21"
+  - name: "mcp-cache-go"
+    title: "mcp-cache-go"
+    description: "ttlMs cache-hint middleware for Go MCP servers (go-sdk, SEP-2549)"
+    language: "Go"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-21"
+  - name: "SkillCheck-Free"
+    title: "SkillCheck-Free"
+    description: "Validate Claude Code skills against the agentskills specification (Free tier)"
+    language: null
+    topics:
+      - "agentskills"
+      - "ai-tools"
+      - "claude-code"
+      - "claude-skills"
+      - "linter"
+      - "mcp"
+      - "skill-validation"
+      - "skillsmp"
+    stars_fact: 39
+    first_seen: null
+    last_push: "2026-09-19"
 ---
 
 # olgasafonova

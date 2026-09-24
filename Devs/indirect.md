@@ -9,13 +9,13 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "97c4e9cb8b163ddb"
   - "c7515e0fa4368a55"
   - "d3abe74726b22711"
   - "e7c647c4d0689526"
-pushes_per_week: [6, 4, 2, 6, 4, 1, 0, 0, 0, 0, 0, 0, 3]
+pushes_per_week: [4, 3, 2, 8, 2, 1, 0, 0, 0, 0, 0, 0, 3]
 windows:
   "7d":
     pushes: 3
@@ -32,16 +32,16 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 26
+    pushes: 23
     distinct_repos: 11
-    active_days: 17
+    active_days: 16
     repos_not_owned: 9
     not_owned_basenames: 9
     not_owned_owners: 4
 automation:
   state: "clear"
-  push_per_day: 1.5294
-  repo_per_active_day: 0.6471
+  push_per_day: 1.4375
+  repo_per_active_day: 0.6875
   not_owned_ratio: 0.8182
   basename_concentration: 0.0909
   shapes: []
@@ -68,16 +68,16 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 26
+    pushes: 23
     distinct_repos: 11
-    pushes_per_repo: 2.3636
-    active_days: 17
+    pushes_per_repo: 2.0909
+    active_days: 16
     repos_not_owned: 9
     not_owned_basenames: 9
     not_owned_owners: 4
 reasons:
   - "provenance: 4 vault signal(s) — pass"
-  - "activity: 17 active days in 90d — pass"
+  - "activity: 16 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "bsky-backup"
@@ -133,6 +133,6 @@ repos:
 
 # indirect
 
-26 pushes across 11 repositories on 17 active days in the last 90 days of public GitHub push activity.
+23 pushes across 11 repositories on 16 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/indirect

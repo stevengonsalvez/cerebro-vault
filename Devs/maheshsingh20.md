@@ -8,16 +8,16 @@ provenance_repos:
   - "ChromeDevTools/chrome-devtools-mcp"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+repos_populated: true
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "379642deb53f3714"
-pushes_per_week: [0, 0, 4, 1, 0, 0, 0, 1, 0, 0, 2, 1, 1]
+pushes_per_week: [0, 0, 4, 1, 0, 0, 1, 0, 0, 0, 2, 2, 0]
 windows:
   "7d":
-    pushes: 2
-    distinct_repos: 1
-    active_days: 2
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
-    distinct_repos: 1
-    pushes_per_repo: 2.0000
-    active_days: 2
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -76,7 +76,70 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "maheshsingh20"
+    title: "maheshsingh20"
+    description: "Config files for my GitHub profile."
+    language: null
+    topics:
+      - "config"
+      - "github-config"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-24"
+  - name: "MerchantRail"
+    title: "MerchantRail"
+    description: null
+    language: "Java"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-12"
+  - name: "Loan-Management-System"
+    title: "Loan-Management-System"
+    description: null
+    language: "Java"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-11"
+  - name: "aegis-crime-bigdata-pipeline"
+    title: "aegis-crime-bigdata-pipeline"
+    description: "Enterprise End-to-End Big Data Crime Hotspot Prediction Platform (HDFS, Spark/Scala, PySpark, Databricks, Delta Lake, AWS S3, MongoDB 2dsphere, Airflow, ReactJS)"
+    language: "Python"
+    topics:
+      - "apache-airflow"
+      - "apache-spark"
+      - "aws-s3"
+      - "big-data"
+      - "databricks"
+      - "delta-lake"
+      - "hadoop-hdfs"
+      - "leaflet"
+      - "machine-learning"
+      - "mongodb"
+      - "pyspark"
+      - "reactjs"
+      - "scala"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-10"
+  - name: "YumDee-MCP-Studio"
+    title: "YumDee-MCP-Studio"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-10"
+  - name: "FreshMart"
+    title: "FreshMart"
+    description: null
+    language: "C#"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-08-31"
 ---
 
 # maheshsingh20

@@ -8,23 +8,23 @@ provenance_repos:
   - "anomalyco/opencode"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+repos_populated: true
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [11, 12, 22, 1, 2, 3, 3, 0, 1, 0, 0, 1, 1]
+pushes_per_week: [13, 10, 20, 1, 2, 5, 1, 0, 1, 0, 0, 1, 3]
 windows:
   "7d":
-    pushes: 2
+    pushes: 3
     distinct_repos: 2
     active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 2
+    pushes: 4
     distinct_repos: 2
-    active_days: 2
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,18 +49,18 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
+    pushes: 3
     distinct_repos: 2
-    pushes_per_repo: 1.0000
+    pushes_per_repo: 1.5000
     active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 2
+    pushes: 4
     distinct_repos: 2
-    pushes_per_repo: 1.0000
-    active_days: 2
+    pushes_per_repo: 2.0000
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -76,7 +76,57 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 26 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "gitterm"
+    title: "gitterm"
+    description: "an open-source, self-hostable control plane for running coding agents on your own cloud, with your own keys."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 35
+    first_seen: null
+    last_push: "2026-09-24"
+  - name: "oc-plugins"
+    title: "oc-plugins"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-09-21"
+  - name: "opencode-copilot-auto"
+    title: "opencode-copilot-auto"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-09-22"
+  - name: "tui-invaders"
+    title: "tui-invaders"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-17"
+  - name: "aws-cloud-cafe"
+    title: "aws-cloud-cafe"
+    description: "A local coffee-ordering app for a GitTerm and AWS live demo."
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-09"
+  - name: "oc-convert"
+    title: "oc-convert"
+    description: "Convert Configs, MCP and Skills from Claude Code to Support Opencode"
+    language: "TypeScript"
+    topics:
+      - "claude-code"
+      - "opencode"
+    stars_fact: 3
+    first_seen: null
+    last_push: "2025-12-27"
 ---
 
 # OpeOginni

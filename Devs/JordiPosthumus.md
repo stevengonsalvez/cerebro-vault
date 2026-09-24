@@ -8,16 +8,16 @@ provenance_repos:
   - "antirez/ds4"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+repos_populated: true
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "3eacb4655aba2497"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 16, 15]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 28, 3]
 windows:
   "7d":
-    pushes: 16
+    pushes: 4
     distinct_repos: 1
-    active_days: 4
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 16
+    pushes: 4
     distinct_repos: 1
-    pushes_per_repo: 16.0000
-    active_days: 4
+    pushes_per_repo: 4.0000
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -76,7 +76,57 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 9 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "dwarf-star-gate"
+    title: "dwarf-star-gate"
+    description: "Seamless Continuity — a local gateway for DS4 and OpenAI-compatible servers across Macs, DGX Sparks and mixed fleets, with Gate Genie, session-affinity routing, server controls and telemetry."
+    language: "JavaScript"
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-09-23"
+  - name: "pi-extensions"
+    title: "pi-extensions"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-20"
+  - name: "hourglass"
+    title: "hourglass"
+    description: "One hour. How much can your agent solve? A local AI-agent benchmark harness. Bring your own questions."
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-20"
+  - name: "hermes-agent"
+    title: "hermes-agent"
+    description: "Fork of Hermes optimized for running with local AI: long timeouts for self-hosted gateways and no automatic cloud updates."
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-11"
+  - name: "hy4-preview-metal"
+    title: "hy4-preview-metal"
+    description: "Custom Apple Metal kernels for Hy4-preview (770B ternary MoE) in llama.cpp — makes AngelSlim's STQ1_0 GGUF runnable on Apple Silicon"
+    language: "Metal"
+    topics:
+      - "apple-silicon"
+      - "ggml"
+      - "gguf"
+      - "hunyuan"
+      - "llama-cpp"
+      - "m3-ultra"
+      - "metal"
+      - "moe"
+      - "quantization"
+      - "ternary-quantization"
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-09-02"
 ---
 
 # JordiPosthumus

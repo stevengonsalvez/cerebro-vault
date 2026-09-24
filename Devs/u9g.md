@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: false
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "379642deb53f3714"
-pushes_per_week: [4, 6, 3, 4, 5, 10, 2, 4, 3, 10, 10, 7, 15]
+pushes_per_week: [10, 0, 4, 3, 10, 5, 4, 2, 11, 2, 10, 8, 15]
 windows:
   "7d":
-    pushes: 16
+    pushes: 15
     distinct_repos: 10
-    active_days: 6
+    active_days: 4
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
   "30d":
-    pushes: 42
+    pushes: 43
     distinct_repos: 18
     active_days: 15
     repos_not_owned: 6
     not_owned_basenames: 6
     not_owned_owners: 3
   "90d":
-    pushes: 83
+    pushes: 84
     distinct_repos: 23
     active_days: 37
     repos_not_owned: 11
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 4
 automation:
   state: "clear"
-  push_per_day: 2.2432
+  push_per_day: 2.2703
   repo_per_active_day: 0.6216
   not_owned_ratio: 0.4783
   basename_concentration: 0.0870
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 16
+    pushes: 15
     distinct_repos: 10
-    pushes_per_repo: 1.6000
-    active_days: 6
+    pushes_per_repo: 1.5000
+    active_days: 4
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
   "30d":
-    pushes: 42
+    pushes: 43
     distinct_repos: 18
-    pushes_per_repo: 2.3333
+    pushes_per_repo: 2.3889
     active_days: 15
     repos_not_owned: 6
     not_owned_basenames: 6
     not_owned_owners: 3
   "90d":
-    pushes: 83
+    pushes: 84
     distinct_repos: 23
-    pushes_per_repo: 3.6087
+    pushes_per_repo: 3.6522
     active_days: 37
     repos_not_owned: 11
     not_owned_basenames: 11
@@ -81,6 +81,6 @@ repos: []
 
 # u9g
 
-83 pushes across 23 repositories on 37 active days in the last 90 days of public GitHub push activity.
+84 pushes across 23 repositories on 37 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/u9g

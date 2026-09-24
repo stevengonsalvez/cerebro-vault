@@ -8,11 +8,11 @@ provenance_repos:
   - "alibaba/open-code-review"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+repos_populated: true
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "c489e6fb5febf2ab"
-pushes_per_week: [7, 9, 1, 3, 1, 0, 0, 0, 0, 0, 0, 2, 0]
+pushes_per_week: [13, 3, 2, 2, 1, 0, 0, 0, 0, 0, 0, 2, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 15 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "ai-newsroom"
+    title: "ai-newsroom"
+    description: "Autonomous AI news website with strict editorial quality gates."
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-23"
+  - name: "cc-autopilot"
+    title: "cc-autopilot"
+    description: "Cron + watchdog for unattended AI coding agents. Schedule Codex, Claude Code, Gemini CLI or any command with retries, timeouts, silent-failure detection and health logs."
+    language: null
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-07-13"
+  - name: "notion-2-ical"
+    title: "notion-2-ical"
+    description: "This is a small class library intended to be used with a web api/website in order to expose an iCal feed to be imported in apps such as Google Calendar or Microsoft Outlook. It maps the way I arranged the structure of my task items in Notion, so it should be adapted based on your specific way of using Notion."
+    language: "C#"
+    topics: []
+    stars_fact: 8
+    first_seen: null
+    last_push: "2026-07-03"
+  - name: "agent-plugins"
+    title: "agent-plugins"
+    description: "Claude Code plugin: 3-agent parallel code reviewer (Geddy/Alex/Neil) covering security, architecture, and testability dimensions."
+    language: "Shell"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-05-05"
+  - name: "pippo-baudo-extension"
+    title: "pippo-baudo-extension"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-02-23"
+  - name: "multi-agent-poc"
+    title: "multi-agent-poc"
+    description: null
+    language: "C#"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2025-11-20"
 ---
 
 # lesbass

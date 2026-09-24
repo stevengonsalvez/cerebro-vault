@@ -8,11 +8,11 @@ provenance_repos:
   - "ChromeDevTools/chrome-devtools-mcp"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+repos_populated: true
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "379642deb53f3714"
-pushes_per_week: [0, 5, 1, 1, 1, 0, 0, 4, 0, 0, 0, 0, 11]
+pushes_per_week: [0, 5, 2, 0, 1, 0, 1, 3, 0, 0, 0, 0, 11]
 windows:
   "7d":
     pushes: 11
@@ -76,7 +76,73 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 10 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "openclaw-termux"
+    title: "openclaw-termux"
+    description: "Run OpenClaw AI Gateway on Android — standalone Flutter app with built-in terminal, web dashboard, and one-tap setup. Also available as a Termux CLI package."
+    language: "Dart"
+    topics:
+      - "ai"
+      - "android"
+      - "claude"
+      - "gateway"
+      - "gemini"
+      - "openai"
+      - "openclaw"
+      - "termux"
+    stars_fact: 1719
+    first_seen: null
+    last_push: "2026-09-14"
+  - name: "ascii-profile-kit"
+    title: "ascii-profile-kit"
+    description: "Animated GitHub profile toolkit: typing ASCII portrait, neofetch info card, and daily-refreshed contribution heatmap as self-hosted SVGs."
+    language: "Python"
+    topics: []
+    stars_fact: 11
+    first_seen: null
+    last_push: "2026-09-24"
+  - name: "mithun50"
+    title: "mithun50"
+    description: "Config files for my GitHub profile."
+    language: "TypeScript"
+    topics:
+      - "config"
+      - "github-config"
+    stars_fact: 17
+    first_seen: null
+    last_push: "2026-09-24"
+  - name: "ORCA"
+    title: "ORCA"
+    description: "Agentic AI marine intelligence platform for Indian waters. Natural-language queries over ISRO/MOSDAC, INCOIS and IMD data with multi-RAG retrieval, n8n request routing and explainable, evidence-backed recommendations. SIH prototype."
+    language: "Python"
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-09-22"
+  - name: "groq-rag"
+    title: "groq-rag"
+    description: "Extended Groq SDK with RAG (Retrieval-Augmented Generation), web browsing, and AI agent capabilities. Features include document retrieval, web search, URL parsing, and ReAct-style agents with tool use."
+    language: "TypeScript"
+    topics:
+      - "ai-agent"
+      - "embeddings"
+      - "groq"
+      - "llm"
+      - "rag"
+      - "retrieval-augmented-generation"
+      - "typescript"
+      - "web-search"
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-01-30"
+  - name: "B24CS53-Computer-Graphics"
+    title: "B24CS53-Computer-Graphics"
+    description: "Interactive web slide deck for B24CS53 Computer Graphics with OpenGL (Lecturer: Mr. Bharath)"
+    language: "HTML"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-12"
 ---
 
 # mithun50

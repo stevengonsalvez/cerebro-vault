@@ -8,11 +8,11 @@ provenance_repos:
   - "anomalyco/opencode"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+repos_populated: true
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [10, 7, 3, 7, 4, 2, 6, 0, 6, 1, 1, 3, 4]
+pushes_per_week: [12, 5, 4, 7, 4, 1, 6, 0, 6, 1, 1, 3, 4]
 windows:
   "7d":
     pushes: 4
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 11
-    distinct_repos: 5
-    active_days: 9
+    pushes: 10
+    distinct_repos: 4
+    active_days: 8
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 11
-    distinct_repos: 5
-    pushes_per_repo: 2.2000
-    active_days: 9
+    pushes: 10
+    distinct_repos: 4
+    pushes_per_repo: 2.5000
+    active_days: 8
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -76,7 +76,66 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 33 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "critique"
+    title: "critique"
+    description: "TUI & website for reviewing git changes"
+    language: "TypeScript"
+    topics:
+      - "diff"
+      - "opentui"
+      - "tui"
+    stars_fact: 1270
+    first_seen: null
+    last_push: "2026-09-24"
+  - name: "gpuix"
+    title: "gpuix"
+    description: "Node.js & React bindings for Zed’s GPUI. Build memory efficient native apps with React and no Electron"
+    language: "Rust"
+    topics:
+      - "gpui"
+      - "zed"
+    stars_fact: 2290
+    first_seen: null
+    last_push: "2026-09-23"
+  - name: "playwriter"
+    title: "playwriter"
+    description: "Chrome extension & CLI to let agents control your browser. Runs Playwright snippets in a stateful sandbox. Available as CLI or MCP"
+    language: "TypeScript"
+    topics:
+      - "mcp"
+      - "playwright"
+    stars_fact: 3918
+    first_seen: null
+    last_push: "2026-09-16"
+  - name: "unframer"
+    title: "unframer"
+    description: "Use Framer components in your React codebase"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 255
+    first_seen: null
+    last_push: "2026-09-24"
+  - name: "kimaki"
+    title: "kimaki"
+    description: "all opencode features deeply integrated inside Discord. each project is a channel. each session a thread"
+    language: "TypeScript"
+    topics:
+      - "clawdbot"
+      - "discord"
+      - "openclaw-alternative"
+      - "opencode"
+    stars_fact: 1422
+    first_seen: null
+    last_push: "2026-09-24"
+  - name: "tuitube"
+    title: "tuitube"
+    description: "Download videos from the command line with a TUI"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 789
+    first_seen: null
+    last_push: "2026-01-12"
 ---
 
 # remorses

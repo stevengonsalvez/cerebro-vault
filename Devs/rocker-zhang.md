@@ -8,8 +8,8 @@ provenance_repos:
   - "chopratejas/headroom"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+repos_populated: true
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "73468cde177ddae6"
 pushes_per_week: [35, 0, 0, 0, 2, 0, 1, 0, 1, 0, 0, 2, 1]
@@ -76,7 +76,65 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 9 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "opendps"
+    title: "opendps"
+    description: "Open-source GPU dynamic power management for datacenter — Python brain, Rust agent, Prometheus/Grafana"
+    language: "Python"
+    topics:
+      - "datacenter"
+      - "dcgm"
+      - "gpu"
+      - "grafana"
+      - "mlops"
+      - "nvidia"
+      - "power-management"
+      - "prometheus"
+      - "python"
+      - "rust"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-07-26"
+  - name: "pollen"
+    title: "pollen"
+    description: "Sybil-resistant newsletter referral bounties on WorldChain. USDC escrow + World ID = no bots, no platform fees, no rule changes."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-06-30"
+  - name: "gpufleet-rca"
+    title: "gpufleet-rca"
+    description: null
+    language: "Go"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-06-29"
+  - name: "gpufleet-proto"
+    title: "gpufleet-proto"
+    description: null
+    language: "Makefile"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-06-29"
+  - name: "gpufleet-agent"
+    title: "gpufleet-agent"
+    description: null
+    language: "Go"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-06-28"
+  - name: "gpufleet-cli"
+    title: "gpufleet-cli"
+    description: null
+    language: "Go"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-06-28"
 ---
 
 # rocker-zhang

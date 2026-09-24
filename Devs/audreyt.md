@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "3eacb4655aba2497"
-pushes_per_week: [35, 62, 75, 26, 12, 2, 11, 5, 9, 2, 2, 5, 10]
+pushes_per_week: [22, 98, 36, 28, 9, 2, 11, 5, 9, 2, 2, 5, 10]
 windows:
   "7d":
     pushes: 10
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 256
+    pushes: 239
     distinct_repos: 30
-    active_days: 54
+    active_days: 53
     repos_not_owned: 11
     not_owned_basenames: 11
     not_owned_owners: 4
 automation:
   state: "clear"
-  push_per_day: 4.7407
-  repo_per_active_day: 0.5556
+  push_per_day: 4.5094
+  repo_per_active_day: 0.5660
   not_owned_ratio: 0.3667
   basename_concentration: 0.0667
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 256
+    pushes: 239
     distinct_repos: 30
-    pushes_per_repo: 8.5333
-    active_days: 54
+    pushes_per_repo: 7.9667
+    active_days: 53
     repos_not_owned: 11
     not_owned_basenames: 11
     not_owned_owners: 4
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 54 active days in 90d — pass"
+  - "activity: 53 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "paseo-spacedock"
@@ -129,6 +129,6 @@ repos:
 
 # audreyt
 
-256 pushes across 30 repositories on 54 active days in the last 90 days of public GitHub push activity.
+239 pushes across 30 repositories on 53 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/audreyt

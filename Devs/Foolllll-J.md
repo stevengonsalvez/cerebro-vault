@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [5, 4, 1, 3, 1, 2, 0, 0, 1, 1, 1, 0, 5]
+pushes_per_week: [3, 4, 1, 3, 1, 2, 0, 0, 1, 1, 1, 0, 5]
 windows:
   "7d":
     pushes: 5
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 24
-    distinct_repos: 17
-    active_days: 19
+    pushes: 22
+    distinct_repos: 16
+    active_days: 18
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 1.2632
-  repo_per_active_day: 0.8947
-  not_owned_ratio: 0.1176
-  basename_concentration: 0.0588
+  push_per_day: 1.2222
+  repo_per_active_day: 0.8889
+  not_owned_ratio: 0.1250
+  basename_concentration: 0.0625
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 24
-    distinct_repos: 17
-    pushes_per_repo: 1.4118
-    active_days: 19
+    pushes: 22
+    distinct_repos: 16
+    pushes_per_repo: 1.3750
+    active_days: 18
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 19 active days in 90d — pass"
+  - "activity: 18 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "astrbot_plugin_video_analysis"
@@ -129,6 +129,6 @@ repos:
 
 # Foolllll-J
 
-24 pushes across 17 repositories on 19 active days in the last 90 days of public GitHub push activity.
+22 pushes across 16 repositories on 18 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Foolllll-J

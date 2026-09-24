@@ -8,11 +8,11 @@ provenance_repos:
   - "bytedance/deer-flow"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+repos_populated: true
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "16389f32495280ea"
-pushes_per_week: [11, 6, 1, 3, 2, 2, 1, 0, 0, 0, 0, 1, 1]
+pushes_per_week: [12, 6, 0, 3, 3, 2, 0, 0, 0, 0, 0, 1, 1]
 windows:
   "7d":
     pushes: 1
@@ -76,7 +76,58 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 20 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "Hinotoi-agent.github.io"
+    title: "Hinotoi-agent.github.io"
+    description: "Hinotoi daily build log, takeaways, and merged PR journal"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-23"
+  - name: "merlion-radar"
+    title: "merlion-radar"
+    description: "Singapore-first configurable static GitHub Pages opportunity radar for any career focus"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-21"
+  - name: "vulnweave"
+    title: "vulnweave"
+    description: "Local-first vulnerability research graph for source-code review, proof planning, and finding-vault workflows"
+    language: "Python"
+    topics:
+      - "cli"
+      - "knowledge-graph"
+      - "obsidian"
+      - "sast"
+      - "security"
+      - "vulnerability-research"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-06-20"
+  - name: "hinotoi-agent"
+    title: "hinotoi-agent"
+    description: "Security research profile — every report and fix is human-reviewed."
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-05-28"
+  - name: "Verifymate"
+    title: "Verifymate"
+    description: "Repo-grounded verification assistant for vulnerability reports, inspired by MADBugs: https://blog.calif.io/t/madbugs"
+    language: "Python"
+    topics:
+      - "ai-agents"
+      - "cli"
+      - "security"
+      - "verification"
+      - "vulnerability-research"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-05-21"
 ---
 
 # Hinotoi-agent

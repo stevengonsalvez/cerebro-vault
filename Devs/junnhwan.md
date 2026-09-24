@@ -8,39 +8,39 @@ provenance_repos:
   - "AlexsJones/llmfit"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+repos_populated: true
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [82, 1, 7, 7, 1, 1, 2, 3, 1, 0, 2, 2, 3]
+pushes_per_week: [69, 0, 7, 7, 1, 1, 2, 3, 1, 0, 2, 2, 9]
 windows:
   "7d":
-    pushes: 3
+    pushes: 9
     distinct_repos: 3
-    active_days: 2
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 8
+    pushes: 14
     distinct_repos: 5
-    active_days: 6
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 112
-    distinct_repos: 8
-    active_days: 23
+    pushes: 104
+    distinct_repos: 7
+    active_days: 22
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 4.8696
-  repo_per_active_day: 0.3478
+  push_per_day: 4.7273
+  repo_per_active_day: 0.3182
   not_owned_ratio: 0.0000
-  basename_concentration: 0.1250
+  basename_concentration: 0.1429
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,38 +49,92 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 3
+    pushes: 9
     distinct_repos: 3
-    pushes_per_repo: 1.0000
-    active_days: 2
+    pushes_per_repo: 3.0000
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 8
+    pushes: 14
     distinct_repos: 5
-    pushes_per_repo: 1.6000
-    active_days: 6
+    pushes_per_repo: 2.8000
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 112
-    distinct_repos: 8
-    pushes_per_repo: 14.0000
-    active_days: 23
+    pushes: 104
+    distinct_repos: 7
+    pushes_per_repo: 14.8571
+    active_days: 22
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 23 active days in 90d — pass"
+  - "activity: 22 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "vid-lens"
+    title: "vid-lens"
+    description: "基于 Go 与 Next.js 的视频知识库与 Agent 问答平台，支持多模态检索、跨视频分析与来源回放"
+    language: "Go"
+    topics:
+      - "agents"
+      - "ai-agent"
+      - "golang"
+      - "knowledge-base"
+      - "rag"
+      - "video-understanding"
+    stars_fact: 40
+    first_seen: null
+    last_push: "2026-09-24"
+  - name: "hwan-pr-learn"
+    title: "hwan-pr-learn"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-21"
+  - name: "junnhwan"
+    title: "junnhwan"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-20"
+  - name: "junnhwan.github.io"
+    title: "junnhwan.github.io"
+    description: "My Blog"
+    language: "Astro"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-19"
+  - name: "video-feed"
+    title: "video-feed"
+    description: "基于 Go/Gin 的短视频 Feed 流系统，支持账号鉴权、视频发布、游标分页、Redis 热榜缓存、RabbitMQ 异步 Worker、互动关系、通知私信和分片上传"
+    language: "Go"
+    topics: []
+    stars_fact: 6
+    first_seen: null
+    last_push: "2026-06-05"
+  - name: "Agent-Learning"
+    title: "Agent-Learning"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-08"
 ---
 
 # junnhwan
 
-112 pushes across 8 repositories on 23 active days in the last 90 days of public GitHub push activity.
+104 pushes across 7 repositories on 22 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/junnhwan

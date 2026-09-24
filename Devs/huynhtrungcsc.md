@@ -8,11 +8,11 @@ provenance_repos:
   - "ChromeDevTools/chrome-devtools-mcp"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+repos_populated: true
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "379642deb53f3714"
-pushes_per_week: [2, 8, 4, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [3, 8, 3, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,115 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 11 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "cisco-images-gns3-eve-ng"
+    title: "cisco-images-gns3-eve-ng"
+    description: "A curated collection of Cisco IOS images for GNS3 and EVE-NG network simulation platforms. Hosted on Google Drive for easy download."
+    language: null
+    topics:
+      - "ccna"
+      - "ccnp"
+      - "cisco"
+      - "cisco-ios"
+      - "dynamips"
+      - "eve-ng"
+      - "gns3"
+      - "ios"
+      - "lab"
+      - "network-simulation"
+      - "networking"
+      - "qemu-image-namings"
+      - "qemu-passwords"
+      - "router"
+    stars_fact: 7
+    first_seen: null
+    last_push: "2026-04-06"
+  - name: "genai-soc-labs"
+    title: "genai-soc-labs"
+    description: "Portfolio monorepo of 29 Generative AI labs for SOC workflows and AI cybersecurity engineering."
+    language: "Python"
+    topics:
+      - "ai-security"
+      - "blue-team"
+      - "cybersecurity"
+      - "fastapi"
+      - "genai"
+      - "incident-response"
+      - "llm"
+      - "nextjs"
+      - "rag"
+      - "siem"
+      - "soar"
+      - "soc"
+      - "threat-hunting"
+      - "threat-intelligence"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-07-05"
+  - name: "memory-augmented-agentic-ai-soc"
+    title: "memory-augmented-agentic-ai-soc"
+    description: "Memory-augmented SOC alert-triage research prototype with reproducible CIC-IDS2017 validation, leakage-aware controls, and publication-ready figures."
+    language: "Python"
+    topics:
+      - "ai-security"
+      - "alert-triage"
+      - "cic-ids2017"
+      - "false-positive-reduction"
+      - "intrusion-detection"
+      - "machine-learning"
+      - "memory-augmented-ai"
+      - "python"
+      - "reproducible-research"
+      - "research-prototype"
+      - "security-operations"
+      - "soc"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-06-08"
+  - name: "sonaro-gate"
+    title: "sonaro-gate"
+    description: "Sonaro Gate is an open-source, Next-Generation Firewall (NGFW) management system designed for deployment on Ubuntu 24.04 LTS bare-metal servers."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 5
+    first_seen: null
+    last_push: "2026-04-27"
+  - name: "local-llm-security-engine"
+    title: "local-llm-security-engine"
+    description: "Self-hosted LLM security engine for SOC teams. Use any Ollama model to analyze threats, classify attacks, and score risk - fully offline, no cloud APIs, your data never leaves your network."
+    language: "Python"
+    topics:
+      - "ai-security"
+      - "air-gapped"
+      - "cybersecurity"
+      - "fastapi"
+      - "incident-response"
+      - "llm"
+      - "local-llm"
+      - "nodejs"
+      - "ollama"
+      - "open-source"
+      - "phi4-mini"
+      - "privacy"
+      - "python"
+      - "security-automation"
+      - "security-operations"
+      - "self-hosted"
+      - "soc"
+      - "threat-analysis"
+      - "threat-detection"
+      - "typescript"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-04-14"
+  - name: "bach-dang-waf"
+    title: "bach-dang-waf"
+    description: "Open-source management console for Nginx + ModSecurity WAF. OWASP CRS rule management, domain proxying, SSL automation, IP ACLs, alerting, and multi-node cluster support. Self-hosted. No vendor lock-in."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-04-12"
 ---
 
 # huynhtrungcsc

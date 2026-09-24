@@ -8,11 +8,11 @@ provenance_repos:
   - "abhigyanpatwari/GitNexus"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+repos_populated: true
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [10, 3, 0, 0, 0, 1, 0, 3, 2, 0, 1, 1, 2]
+pushes_per_week: [6, 2, 0, 0, 0, 1, 0, 5, 0, 0, 1, 1, 2]
 windows:
   "7d":
     pushes: 2
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 23
+    pushes: 18
     distinct_repos: 9
-    active_days: 15
+    active_days: 14
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.5333
-  repo_per_active_day: 0.6000
+  push_per_day: 1.2857
+  repo_per_active_day: 0.6429
   not_owned_ratio: 0.0000
   basename_concentration: 0.1111
   shapes: []
@@ -65,22 +65,70 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 23
+    pushes: 18
     distinct_repos: 9
-    pushes_per_repo: 2.5556
-    active_days: 15
+    pushes_per_repo: 2.0000
+    active_days: 14
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 15 active days in 90d — pass"
+  - "activity: 14 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "claude-skills-central"
+    title: "claude-skills-central"
+    description: null
+    language: "Shell"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-23"
+  - name: "pb-hcf"
+    title: "pb-hcf"
+    description: "Context-wire bundle for HCF: to add in custom playbook into v2 hook to extend capabilities"
+    language: "Shell"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-09-22"
+  - name: "pb-graphiti"
+    title: "pb-graphiti"
+    description: "Cross-session, cross-project memory for Claude Code via Graphiti + Neo4j. Ships MCP client config, usage skill, and host docker-compose recipe."
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-08"
+  - name: "claude-skills"
+    title: "claude-skills"
+    description: "Claude skills (experimentation)"
+    language: null
+    topics: []
+    stars_fact: 17
+    first_seen: null
+    last_push: "2026-09-04"
+  - name: "pb-codegraph"
+    title: "pb-codegraph"
+    description: "Cross-module impact analysis for Magento 2 / Mage-OS. Detects blast radius (callers, plugin chains, observers, cron data dependencies) before deploy. LLM-driven v0.1.0; deterministic tree-sitter graph in v0.2+."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-02"
+  - name: "pb-chatroom"
+    title: "pb-chatroom"
+    description: "Self-hosted multi-Claude coordination chatroom. FastAPI + SQLite + MCP tools. Lets host Claude Code sessions, DDEV-container sessions, and their subagents exchange threaded messages — handovers, status, requests — without human relay. All data local; 127.0.0.1 bound only."
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-02"
 ---
 
 # ProxiBlue
 
-23 pushes across 9 repositories on 15 active days in the last 90 days of public GitHub push activity.
+18 pushes across 9 repositories on 14 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ProxiBlue

@@ -8,39 +8,39 @@ provenance_repos:
   - "apache/maka"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+repos_populated: true
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [11, 6, 0, 1, 1, 0, 0, 0, 3, 3, 1, 21, 4]
+pushes_per_week: [8, 6, 1, 1, 0, 0, 0, 0, 4, 2, 3, 19, 5]
 windows:
   "7d":
-    pushes: 4
-    distinct_repos: 1
-    active_days: 2
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
-  "30d":
-    pushes: 31
+    pushes: 5
     distinct_repos: 2
-    active_days: 9
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
-  "90d":
-    pushes: 51
-    distinct_repos: 4
-    active_days: 23
+    active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
+  "30d":
+    pushes: 32
+    distinct_repos: 3
+    active_days: 10
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
+  "90d":
+    pushes: 49
+    distinct_repos: 5
+    active_days: 22
+    repos_not_owned: 2
+    not_owned_basenames: 2
+    not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.2174
-  repo_per_active_day: 0.1739
-  not_owned_ratio: 0.2500
-  basename_concentration: 0.5000
+  push_per_day: 2.2273
+  repo_per_active_day: 0.2273
+  not_owned_ratio: 0.4000
+  basename_concentration: 0.4000
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,38 +49,86 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 4
-    distinct_repos: 1
-    pushes_per_repo: 4.0000
-    active_days: 2
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
-  "30d":
-    pushes: 31
+    pushes: 5
     distinct_repos: 2
-    pushes_per_repo: 15.5000
-    active_days: 9
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
-  "90d":
-    pushes: 51
-    distinct_repos: 4
-    pushes_per_repo: 12.7500
-    active_days: 23
+    pushes_per_repo: 2.5000
+    active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
+  "30d":
+    pushes: 32
+    distinct_repos: 3
+    pushes_per_repo: 10.6667
+    active_days: 10
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
+  "90d":
+    pushes: 49
+    distinct_repos: 5
+    pushes_per_repo: 9.8000
+    active_days: 22
+    repos_not_owned: 2
+    not_owned_basenames: 2
+    not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 23 active days in 90d — pass"
+  - "activity: 22 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "HGSparkConnectorExample"
+    title: "HGSparkConnectorExample"
+    description: null
+    language: "Scala"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2023-10-08"
+  - name: "rtd-tutorial"
+    title: "rtd-tutorial"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2023-09-30"
+  - name: "aliyunpan-autosignin"
+    title: "aliyunpan-autosignin"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2023-08-16"
+  - name: "HugeGraphSpark"
+    title: "HugeGraphSpark"
+    description: "Spark 3.2.2 + HugeGraph Client 1.0.0"
+    language: "Java"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2023-07-29"
+  - name: "JVM-Study"
+    title: "JVM-Study"
+    description: null
+    language: "Java"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2021-08-18"
+  - name: "spark3datasourcev2demo"
+    title: "spark3datasourcev2demo"
+    description: null
+    language: "Scala"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2023-05-16"
 ---
 
 # liuxiaocs7
 
-51 pushes across 4 repositories on 23 active days in the last 90 days of public GitHub push activity.
+49 pushes across 5 repositories on 22 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/liuxiaocs7

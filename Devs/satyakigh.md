@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: false
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "a50b0e08dbaee74a"
-pushes_per_week: [23, 37, 22, 8, 16, 3, 11, 10, 3, 1, 1, 6, 4]
+pushes_per_week: [30, 32, 21, 10, 10, 3, 13, 8, 3, 1, 2, 5, 4]
 windows:
   "7d":
-    pushes: 6
+    pushes: 4
     distinct_repos: 3
-    active_days: 4
+    active_days: 3
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 15
-    distinct_repos: 5
+    pushes: 13
+    distinct_repos: 4
     active_days: 10
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 145
+    pushes: 142
     distinct_repos: 8
     active_days: 47
     repos_not_owned: 2
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 3.0851
+  push_per_day: 3.0213
   repo_per_active_day: 0.1702
   not_owned_ratio: 0.2500
   basename_concentration: 0.1250
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 6
+    pushes: 4
     distinct_repos: 3
-    pushes_per_repo: 2.0000
-    active_days: 4
+    pushes_per_repo: 1.3333
+    active_days: 3
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 15
-    distinct_repos: 5
-    pushes_per_repo: 3.0000
+    pushes: 13
+    distinct_repos: 4
+    pushes_per_repo: 3.2500
     active_days: 10
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 145
+    pushes: 142
     distinct_repos: 8
-    pushes_per_repo: 18.1250
+    pushes_per_repo: 17.7500
     active_days: 47
     repos_not_owned: 2
     not_owned_basenames: 2
@@ -81,6 +81,6 @@ repos: []
 
 # satyakigh
 
-145 pushes across 8 repositories on 47 active days in the last 90 days of public GitHub push activity.
+142 pushes across 8 repositories on 47 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/satyakigh

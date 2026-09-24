@@ -8,8 +8,8 @@ provenance_repos:
   - "apache/maka"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+repos_populated: true
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "4d1450729e6ff44d"
 pushes_per_week: [6, 2, 0, 0, 0, 1, 0, 2, 0, 0, 0, 0, 0]
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "gtr-release-config"
+    title: "gtr-release-config"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-17"
+  - name: "corp-finance-monitor"
+    title: "corp-finance-monitor"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-16"
+  - name: "nas-deployment-public"
+    title: "nas-deployment-public"
+    description: "Public"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-01"
+  - name: "lynskylate.github.io"
+    title: "lynskylate.github.io"
+    description: null
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-06-23"
+  - name: "blogs"
+    title: "blogs"
+    description: "使用hugo搭建的个人博客"
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-06-23"
+  - name: "serde_hessian"
+    title: "serde_hessian"
+    description: "A Hessian serialize/deserialize rust implemention."
+    language: "Rust"
+    topics: []
+    stars_fact: 13
+    first_seen: null
+    last_push: "2024-03-25"
 ---
 
 # Lynskylate

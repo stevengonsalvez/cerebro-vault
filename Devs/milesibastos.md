@@ -8,11 +8,11 @@ provenance_repos:
   - "akitaonrails/ai-memory"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+repos_populated: true
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "4138778ebbc75ba6"
-pushes_per_week: [0, 3, 1, 1, 0, 0, 2, 1, 0, 1, 0, 0, 0]
+pushes_per_week: [2, 1, 1, 1, 0, 0, 2, 1, 0, 1, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,63 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "quarterdeck"
+    title: "quarterdeck"
+    description: "Quarterdeck - central command panel for fleet state, deck and shipshape"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-04"
+  - name: "jTDS"
+    title: "jTDS"
+    description: "jTDS JDBC Driver"
+    language: "Java"
+    topics:
+      - "java"
+      - "jdbc"
+      - "jdbc-driver"
+    stars_fact: 84
+    first_seen: null
+    last_push: "2024-03-07"
+  - name: "task-management"
+    title: "task-management"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-01-23"
+  - name: "b3"
+    title: "b3"
+    description: "Market Data | B3"
+    language: "JavaScript"
+    topics:
+      - "b3"
+      - "bovespa"
+      - "exchange"
+      - "market"
+      - "stock"
+    stars_fact: 5
+    first_seen: null
+    last_push: "2022-03-26"
+  - name: "noh-ek"
+    title: "noh-ek"
+    description: "venus"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2023-03-07"
+  - name: "post-it-in"
+    title: "post-it-in"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2023-04-22"
 ---
 
 # milesibastos

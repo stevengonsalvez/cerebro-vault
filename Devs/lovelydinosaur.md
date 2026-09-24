@@ -8,8 +8,8 @@ provenance_repos:
   - "pydantic/httpx2"
 admitted: true
 low_n: true
-repos_populated: false
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+repos_populated: true
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "1be978947e68d1f2"
 pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
@@ -76,7 +76,23 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 0 active days in 90d — below the 5-day line, LABELLED low-n (never suppressed)"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "mkdocs-theme"
+    title: "mkdocs-theme"
+    description: "Testing"
+    language: "CSS"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-02-13"
+  - name: "kelp-theme"
+    title: "kelp-theme"
+    description: "A Kelp UI theme for MkDocs 2.0"
+    language: "CSS"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-02-13"
 ---
 
 # lovelydinosaur

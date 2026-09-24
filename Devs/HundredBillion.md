@@ -8,8 +8,8 @@ provenance_repos:
   - "chaitanyagiri/munder-difflin"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+repos_populated: true
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "e5b23adc376a62a9"
 pushes_per_week: [0, 0, 1, 0, 0, 0, 1, 0, 4, 0, 3, 0, 10]
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 9 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "svgtree.nvim"
+    title: "svgtree.nvim"
+    description: null
+    language: "Lua"
+    topics: []
+    stars_fact: 31
+    first_seen: null
+    last_push: "2026-09-23"
+  - name: "Sprite"
+    title: "Sprite"
+    description: null
+    language: "Rust"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-22"
+  - name: "promiseKits"
+    title: "promiseKits"
+    description: "promiseKits website"
+    language: "Ruby"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-21"
+  - name: "dmi_superpowers"
+    title: "dmi_superpowers"
+    description: "David Lee's personal consolidation of obra/superpowers and mattpocock/skills — a methodology engine of skills/plugins (PRD/TSP vocabulary, Matt's TDD, grill-with-docs)."
+    language: "JavaScript"
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-09-20"
+  - name: "sprite.nvim"
+    title: "sprite.nvim"
+    description: "Neovim plugin that draws Neovim through Sprite's native Surfaces"
+    language: "Lua"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-19"
+  - name: "scm.nvim"
+    title: "scm.nvim"
+    description: "Multi-repo source-control panel for Neovim"
+    language: "Lua"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-07"
 ---
 
 # HundredBillion

@@ -8,11 +8,11 @@ provenance_repos:
   - "akitaonrails/ai-memory"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+repos_populated: true
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "4138778ebbc75ba6"
-pushes_per_week: [0, 4, 5, 0, 0, 0, 4, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [2, 2, 5, 0, 0, 0, 4, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "macedot"
+    title: "macedot"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-20"
+  - name: "omacash"
+    title: "omacash"
+    description: "Local-first cashflow forecast for the Omarchy desktop"
+    language: "QML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-11"
+  - name: "cashflow"
+    title: "cashflow"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-10"
+  - name: "deslogou"
+    title: "deslogou"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-05"
+  - name: "macedot.github.io"
+    title: "macedot.github.io"
+    description: null
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-03"
+  - name: "vovozinha"
+    title: "vovozinha"
+    description: "Offline kids bedtime stories for iOS (on-device LLM + page art)"
+    language: "Swift"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-07"
 ---
 
 # macedot

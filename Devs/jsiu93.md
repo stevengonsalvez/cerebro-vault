@@ -8,8 +8,8 @@ provenance_repos:
   - "apache/maka"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+repos_populated: true
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "4d1450729e6ff44d"
 pushes_per_week: [2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 1]
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "raycast-move-cursor-next-display"
+    title: "raycast-move-cursor-next-display"
+    description: null
+    language: "Swift"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-05-31"
+  - name: "kafka-observer-rs"
+    title: "kafka-observer-rs"
+    description: null
+    language: "Rust"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-04-23"
+  - name: "voice-input"
+    title: "voice-input"
+    description: null
+    language: "Swift"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-04-12"
+  - name: "modbus-kit"
+    title: "modbus-kit"
+    description: null
+    language: "Rust"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-03-22"
+  - name: "NetDebug"
+    title: "NetDebug"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-03-22"
+  - name: "testRepository"
+    title: "testRepository"
+    description: null
+    language: "Java"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2018-04-22"
 ---
 
 # jsiu93

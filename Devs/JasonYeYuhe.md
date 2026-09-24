@@ -8,39 +8,39 @@ provenance_repos:
   - "AlexsJones/llmfit"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+repos_populated: true
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [27, 40, 24, 6, 3, 8, 7, 1, 4, 3, 2, 4, 6]
+pushes_per_week: [26, 41, 22, 5, 5, 6, 7, 1, 5, 2, 2, 10, 1]
 windows:
   "7d":
-    pushes: 7
-    distinct_repos: 2
-    active_days: 2
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
     pushes: 18
-    distinct_repos: 5
+    distinct_repos: 6
     active_days: 9
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 135
-    distinct_repos: 10
-    active_days: 46
+    pushes: 133
+    distinct_repos: 11
+    active_days: 45
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.9348
-  repo_per_active_day: 0.2174
-  not_owned_ratio: 0.3000
-  basename_concentration: 0.2000
+  push_per_day: 2.9556
+  repo_per_active_day: 0.2444
+  not_owned_ratio: 0.2727
+  basename_concentration: 0.1818
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,38 +49,86 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 7
-    distinct_repos: 2
-    pushes_per_repo: 3.5000
-    active_days: 2
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 1
+    distinct_repos: 1
+    pushes_per_repo: 1.0000
+    active_days: 1
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
     pushes: 18
-    distinct_repos: 5
-    pushes_per_repo: 3.6000
+    distinct_repos: 6
+    pushes_per_repo: 3.0000
     active_days: 9
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 135
-    distinct_repos: 10
-    pushes_per_repo: 13.5000
-    active_days: 46
+    pushes: 133
+    distinct_repos: 11
+    pushes_per_repo: 12.0909
+    active_days: 45
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 46 active days in 90d — pass"
+  - "activity: 45 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "ColorArchive"
+    title: "ColorArchive"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-20"
+  - name: "Soundpost"
+    title: "Soundpost"
+    description: "Soundpost — capture how a moment sounds, seal it, and let your future self open it like a postcard. SwiftUI / SwiftData / StoreKit 2 / CloudKit."
+    language: "Swift"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-16"
+  - name: "RoastMate"
+    title: "RoastMate"
+    description: "RoastMate — On-device AI for witty, safe self-expression"
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-16"
+  - name: "soundpost-site"
+    title: "soundpost-site"
+    description: "Soundpost — landing page & privacy policy"
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-15"
+  - name: "nihongo-ride"
+    title: "nihongo-ride"
+    description: "Nihongo Ride — macOS Japanese typing-practice app. Site, privacy policy & support."
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-11"
+  - name: "cli-pulse"
+    title: "cli-pulse"
+    description: "Legacy URL redirects — shipped app builds hardcode jasonyeyuhe.github.io/cli-pulse/{privacy,terms}.html. Source lives at github.com/cli-pulse/cli-pulse"
+    language: null
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-07-31"
 ---
 
 # JasonYeYuhe
 
-135 pushes across 10 repositories on 46 active days in the last 90 days of public GitHub push activity.
+133 pushes across 11 repositories on 45 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/JasonYeYuhe

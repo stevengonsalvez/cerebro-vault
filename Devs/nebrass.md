@@ -8,8 +8,8 @@ provenance_repos:
   - "ChromeDevTools/chrome-devtools-mcp"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+repos_populated: true
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "379642deb53f3714"
 pushes_per_week: [1, 0, 0, 0, 2, 1, 2, 0, 0, 0, 0, 0, 0]
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "hve-video-director"
+    title: "hve-video-director"
+    description: "AI-powered video production pipeline for Claude Code, Github Copilot, Codex, Cursor, OpenCode and PI — 6 automated phases from design thinking to final render"
+    language: "Python"
+    topics: []
+    stars_fact: 105
+    first_seen: null
+    last_push: "2026-09-22"
+  - name: "hve-flow-recorder"
+    title: "hve-flow-recorder"
+    description: "Cross-browser WebExtension that records browsing flows as DevTools-Recorder-compatible JSON with real timing — the recorder companion of hve-video-director"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-31"
+  - name: "playing-with-cqrs-and-event-sourcing-in-spring-boot-and-axon"
+    title: "playing-with-cqrs-and-event-sourcing-in-spring-boot-and-axon"
+    description: "Sample code for Playing with CQRS and Event Sourcing in Spring Boot and Axon tutorial"
+    language: "Java"
+    topics: []
+    stars_fact: 39
+    first_seen: null
+    last_push: "2019-12-20"
+  - name: "nebrass"
+    title: "nebrass"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-06-29"
+  - name: "sample-screencast-code"
+    title: "sample-screencast-code"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-06-12"
+  - name: "zorn-mesh"
+    title: "zorn-mesh"
+    description: "Secure local messaging and coordination for autonomous coding agents"
+    language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-04-30"
 ---
 
 # nebrass

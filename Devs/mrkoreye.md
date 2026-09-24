@@ -8,11 +8,11 @@ provenance_repos:
   - "BuilderIO/agent-native"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+repos_populated: true
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "745308b2b7085095"
-pushes_per_week: [0, 0, 0, 2, 1, 0, 1, 3, 0, 0, 0, 0, 0]
+pushes_per_week: [0, 0, 0, 2, 1, 0, 3, 1, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "sgs-nextjs-website"
+    title: "sgs-nextjs-website"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2025-05-28"
+  - name: "spectrum-nextjs"
+    title: "spectrum-nextjs"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2025-03-26"
+  - name: "app-router"
+    title: "app-router"
+    description: "Builder + Next.js App Router with app directory"
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2023-06-14"
+  - name: "metronomnom"
+    title: "metronomnom"
+    description: "Metronome for the hungry musician"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2021-03-13"
+  - name: "firebase-cache-test"
+    title: "firebase-cache-test"
+    description: null
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2020-10-21"
+  - name: "creak-website"
+    title: "creak-website"
+    description: "Website for The Creak"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2018-09-21"
 ---
 
 # mrkoreye

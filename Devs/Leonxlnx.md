@@ -8,23 +8,23 @@ provenance_repos:
   - "Leonxlnx/taste-skill"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+repos_populated: true
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "291d5eb46511b79f"
-pushes_per_week: [2, 2, 0, 24, 10, 3, 10, 0, 1, 0, 1, 10, 22]
+pushes_per_week: [2, 2, 0, 25, 12, 0, 10, 0, 1, 0, 1, 15, 17]
 windows:
   "7d":
-    pushes: 23
+    pushes: 22
     distinct_repos: 2
-    active_days: 6
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 34
-    distinct_repos: 4
-    active_days: 13
+    pushes: 33
+    distinct_repos: 3
+    active_days: 12
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,18 +49,18 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 23
+    pushes: 22
     distinct_repos: 2
-    pushes_per_repo: 11.5000
-    active_days: 6
+    pushes_per_repo: 11.0000
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 34
-    distinct_repos: 4
-    pushes_per_repo: 8.5000
-    active_days: 13
+    pushes: 33
+    distinct_repos: 3
+    pushes_per_repo: 11.0000
+    active_days: 12
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -76,7 +76,87 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 27 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "taste-skill"
+    title: "taste-skill"
+    description: "Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop"
+    language: "JavaScript"
+    topics:
+      - "agent"
+      - "ai"
+      - "claude"
+      - "claude-code"
+      - "codex"
+      - "coding"
+      - "design"
+      - "frontend"
+      - "lowcode"
+      - "nocode"
+      - "skill"
+      - "skills"
+      - "vibecoding"
+    stars_fact: 89804
+    first_seen: "2026-07-07T06:00:04.098731+00:00"
+    last_push: "2026-09-23"
+  - name: "unlazy"
+    title: "unlazy"
+    description: "Anti-laziness skill for AI agents. Core: the Depth Tree method, which splits a task N layers deep and gives every leaf the full time budget of the whole task, so effort multiplies with depth. Grounded in 2025-2026 research on model laziness, underthinking and premature completion."
+    language: "JavaScript"
+    topics:
+      - "ai-agents"
+      - "claude"
+      - "claude-code"
+      - "llm"
+      - "productivity"
+      - "prompt-engineering"
+      - "skill"
+    stars_fact: 3574
+    first_seen: null
+    last_push: "2026-09-03"
+  - name: "agentic-ai-prompt-research"
+    title: "agentic-ai-prompt-research"
+    description: "Research into how agentic AI coding assistants work. Reconstructed prompt patterns, agent coordination, and security classification"
+    language: null
+    topics:
+      - "agentic-ai"
+      - "ai-research"
+      - "claude"
+      - "prompt-engineering"
+      - "system-prompts"
+    stars_fact: 2538
+    first_seen: null
+    last_push: "2026-03-31"
+  - name: "verdant-forest"
+    title: "verdant-forest"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 48
+    first_seen: null
+    last_push: "2026-09-09"
+  - name: "lumenshaders"
+    title: "lumenshaders"
+    description: "LUMEN, a generative shader studio. 9 WebGL2 art modes plus synth style blending, perfect-loop animation, gradient sets, share codes and PNG/WebM/GIF export. Zero dependencies."
+    language: "JavaScript"
+    topics:
+      - "creative-coding"
+      - "generative-art"
+      - "gif"
+      - "glsl"
+      - "javascript"
+      - "shaders"
+      - "webgl"
+    stars_fact: 354
+    first_seen: null
+    last_push: "2026-06-12"
+  - name: "zeldaremake"
+    title: "zeldaremake"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-24"
 ---
 
 # Leonxlnx

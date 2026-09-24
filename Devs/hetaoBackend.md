@@ -8,14 +8,14 @@ provenance_repos:
   - "bytedance/deer-flow"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+repos_populated: true
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "16389f32495280ea"
-pushes_per_week: [8, 4, 3, 1, 0, 5, 1, 1, 2, 0, 0, 1, 17]
+pushes_per_week: [10, 1, 3, 1, 0, 6, 0, 1, 2, 0, 0, 2, 17]
 windows:
   "7d":
-    pushes: 17
+    pushes: 18
     distinct_repos: 2
     active_days: 7
     repos_not_owned: 2
@@ -30,7 +30,7 @@ windows:
     not_owned_owners: 1
   "90d":
     pushes: 43
-    distinct_repos: 11
+    distinct_repos: 10
     active_days: 26
     repos_not_owned: 4
     not_owned_basenames: 4
@@ -38,9 +38,9 @@ windows:
 automation:
   state: "clear"
   push_per_day: 1.6538
-  repo_per_active_day: 0.4231
-  not_owned_ratio: 0.3636
-  basename_concentration: 0.1818
+  repo_per_active_day: 0.3846
+  not_owned_ratio: 0.4000
+  basename_concentration: 0.2000
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,9 +49,9 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 17
+    pushes: 18
     distinct_repos: 2
-    pushes_per_repo: 8.5000
+    pushes_per_repo: 9.0000
     active_days: 7
     repos_not_owned: 2
     not_owned_basenames: 2
@@ -66,8 +66,8 @@ facets:
     not_owned_owners: 1
   "90d":
     pushes: 43
-    distinct_repos: 11
-    pushes_per_repo: 3.9091
+    distinct_repos: 10
+    pushes_per_repo: 4.3000
     active_days: 26
     repos_not_owned: 4
     not_owned_basenames: 4
@@ -76,11 +76,62 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 26 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "deer-trade"
+    title: "deer-trade"
+    description: "The Trading Research Framework inspired by Deerflow Multi-Agent!"
+    language: "Python"
+    topics: []
+    stars_fact: 115
+    first_seen: null
+    last_push: "2025-10-24"
+  - name: "harness-tap"
+    title: "harness-tap"
+    description: "Trace OpenAI Chat Completions traffic from configurable harnesses through a local reverse proxy."
+    language: "Python"
+    topics: []
+    stars_fact: 6
+    first_seen: null
+    last_push: "2026-09-13"
+  - name: "agentforge"
+    title: "agentforge"
+    description: "A macOS desktop app for orchestrating AI coding agents. Manage, schedule, and monitor Claude Code tasks through a kanban-style task board — or remotely via Telegram, Slack, and Feishu."
+    language: "TypeScript"
+    topics:
+      - "claude-code"
+      - "openclaw"
+      - "superagent"
+    stars_fact: 10
+    first_seen: null
+    last_push: "2026-09-02"
+  - name: "comic-alpha"
+    title: "comic-alpha"
+    description: "The Magic Repository For Comic Auto-Generation"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 16
+    first_seen: null
+    last_push: "2026-07-18"
+  - name: "mcp-github-trending"
+    title: "mcp-github-trending"
+    description: "MCP server for getting github trending repos & developers"
+    language: "Python"
+    topics: []
+    stars_fact: 57
+    first_seen: null
+    last_push: "2026-03-18"
+  - name: "mcode-evolve"
+    title: "mcode-evolve"
+    description: "A coding agent that learns the repository it works in."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-08-13"
 ---
 
 # hetaoBackend
 
-43 pushes across 11 repositories on 26 active days in the last 90 days of public GitHub push activity.
+43 pushes across 10 repositories on 26 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/hetaoBackend

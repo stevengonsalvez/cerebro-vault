@@ -8,28 +8,28 @@ provenance_repos:
   - "anomalyco/opencode"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+repos_populated: true
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [24, 20, 16, 9, 9, 3, 14, 29, 18, 14, 8, 4, 22]
+pushes_per_week: [15, 15, 13, 9, 9, 7, 26, 13, 25, 7, 8, 7, 25]
 windows:
   "7d":
-    pushes: 22
+    pushes: 25
     distinct_repos: 5
     active_days: 7
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 61
+    pushes: 65
     distinct_repos: 7
-    active_days: 19
+    active_days: 18
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 190
+    pushes: 179
     distinct_repos: 13
     active_days: 57
     repos_not_owned: 3
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 3.3333
+  push_per_day: 3.1404
   repo_per_active_day: 0.2281
   not_owned_ratio: 0.2308
   basename_concentration: 0.2308
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 22
+    pushes: 25
     distinct_repos: 5
-    pushes_per_repo: 4.4000
+    pushes_per_repo: 5.0000
     active_days: 7
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 61
+    pushes: 65
     distinct_repos: 7
-    pushes_per_repo: 8.7143
-    active_days: 19
+    pushes_per_repo: 9.2857
+    active_days: 18
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 190
+    pushes: 179
     distinct_repos: 13
-    pushes_per_repo: 14.6154
+    pushes_per_repo: 13.7692
     active_days: 57
     repos_not_owned: 3
     not_owned_basenames: 2
@@ -76,11 +76,59 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 57 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "opencode-changelog-x"
+    title: "opencode-changelog-x"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-09-24"
+  - name: "playsrc"
+    title: "playsrc"
+    description: "Play Team Fortress 2 in the browser"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 28
+    first_seen: null
+    last_push: "2026-09-01"
+  - name: "dotnet-opencode"
+    title: "dotnet-opencode"
+    description: "A 1:1 OpenCode V2 port in C# and .NET 11, currently in development."
+    language: "C#"
+    topics: []
+    stars_fact: 78
+    first_seen: null
+    last_push: "2026-09-05"
+  - name: "opencode-ralph"
+    title: "opencode-ralph"
+    description: "Ralph Driven Development using OpenCode SDK and OpenTUI"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 128
+    first_seen: null
+    last_push: "2026-01-06"
+  - name: "github-alignment"
+    title: "github-alignment"
+    description: "Are you selfish or selfless on GitHub? One line, one dot."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-20"
+  - name: "libghostty-js"
+    title: "libghostty-js"
+    description: "JavaScript/TypeScript bindings and WebGL renderer for libghostty-vt (Wasm). Ghostty in the browser, the way Ghostty does it."
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-20"
 ---
 
 # Hona
 
-190 pushes across 13 repositories on 57 active days in the last 90 days of public GitHub push activity.
+179 pushes across 13 repositories on 57 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Hona

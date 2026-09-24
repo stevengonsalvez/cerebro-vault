@@ -8,11 +8,11 @@ provenance_repos:
   - "agentscope-ai/QwenPaw"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+repos_populated: true
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "541318303a272608"
-pushes_per_week: [0, 0, 0, 0, 4, 0, 0, 2, 0, 0, 0, 0, 0]
+pushes_per_week: [0, 0, 0, 1, 3, 0, 0, 2, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "kaoyan-math-ai"
+    title: "kaoyan-math-ai"
+    description: "kaoyan-math-ai 是一个基于 Obsidian 的考研数学一复习资料库，围绕高数、线代、概率论整理知识点、方法、题型与思维导图。项目结合 PDF 按章拆分、PaddleOCR、AI 草稿整理、Markdown 双链和笔记模板，把纸质/扫描资料逐步转成可检索、可链接、可复盘的本地知识库，帮助减少重复抄写，提高长期复习和回顾效率。"
+    language: "Python"
+    topics: []
+    stars_fact: 77
+    first_seen: null
+    last_push: "2026-06-02"
+  - name: "patrick-andstar.github.io"
+    title: "patrick-andstar.github.io"
+    description: "用于记录我自己学习的知识库"
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-23"
+  - name: "obsidian-wiki"
+    title: "obsidian-wiki"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-16"
+  - name: "module3-alert-agent"
+    title: "module3-alert-agent"
+    description: null
+    language: "Go"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-06-23"
+  - name: "mathnotes-skill"
+    title: "mathnotes-skill"
+    description: null
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-07-28"
+  - name: "learn-math-skill-with-obsidian"
+    title: "learn-math-skill-with-obsidian"
+    description: null
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-06-29"
 ---
 
 # patrick-andstar

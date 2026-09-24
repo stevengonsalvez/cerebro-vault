@@ -8,8 +8,8 @@ provenance_repos:
   - "lyogavin/airllm"
 admitted: true
 low_n: true
-repos_populated: false
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+repos_populated: true
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "759119abe3ffdb8f"
 pushes_per_week: [1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0]
@@ -76,7 +76,68 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 2 active days in 90d — below the 5-day line, LABELLED low-n (never suppressed)"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "airllm"
+    title: "airllm"
+    description: "AirLLM 70B inference with single 4GB GPU"
+    language: "Jupyter Notebook"
+    topics:
+      - "chinese-llm"
+      - "chinese-nlp"
+      - "finetune"
+      - "generative-ai"
+      - "instruct-gpt"
+      - "instruction-set"
+      - "llama"
+      - "llm"
+      - "lora"
+      - "open-models"
+      - "open-source"
+      - "open-source-models"
+      - "qlora"
+    stars_fact: 34768
+    first_seen: "2026-06-23T06:00:02.600201+00:00"
+    last_push: "2026-09-24"
+  - name: "train_your_own_sora"
+    title: "train_your_own_sora"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 228
+    first_seen: null
+    last_push: "2024-03-07"
+  - name: "godmodeanimation"
+    title: "godmodeanimation"
+    description: "2D Game Animation in God Mode"
+    language: "Python"
+    topics: []
+    stars_fact: 282
+    first_seen: null
+    last_push: "2025-06-29"
+  - name: "Anima"
+    title: "Anima"
+    description: "Moved to here: https://github.com/lyogavin/airllm"
+    language: null
+    topics: []
+    stars_fact: 37
+    first_seen: null
+    last_push: "2024-08-01"
+  - name: "godmodeai-sprites-skill"
+    title: "godmodeai-sprites-skill"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-07-07"
+  - name: "Pistachio"
+    title: "Pistachio"
+    description: "Low latency, strong consistency, fault tolerant distributed key value store. Colocate data and compute to achieve best performance cloud compute."
+    language: "Java"
+    topics: []
+    stars_fact: 116
+    first_seen: null
+    last_push: "2015-06-14"
 ---
 
 # lyogavin

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [3, 27, 3, 1, 1, 2, 1, 1, 5, 1, 2, 0, 3]
+pushes_per_week: [12, 16, 3, 0, 3, 0, 1, 1, 6, 0, 2, 0, 3]
 windows:
   "7d":
     pushes: 3
@@ -22,25 +22,25 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 10
+    pushes: 8
     distinct_repos: 4
-    active_days: 7
+    active_days: 6
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 50
-    distinct_repos: 11
-    active_days: 21
+    pushes: 47
+    distinct_repos: 10
+    active_days: 19
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 2.3810
-  repo_per_active_day: 0.5238
-  not_owned_ratio: 0.3636
-  basename_concentration: 0.1818
+  push_per_day: 2.4737
+  repo_per_active_day: 0.5263
+  not_owned_ratio: 0.4000
+  basename_concentration: 0.2000
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 10
+    pushes: 8
     distinct_repos: 4
-    pushes_per_repo: 2.5000
-    active_days: 7
+    pushes_per_repo: 2.0000
+    active_days: 6
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 50
-    distinct_repos: 11
-    pushes_per_repo: 4.5455
-    active_days: 21
+    pushes: 47
+    distinct_repos: 10
+    pushes_per_repo: 4.7000
+    active_days: 19
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 21 active days in 90d — pass"
+  - "activity: 19 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "blocks"
@@ -139,6 +139,6 @@ repos:
 
 # ephraimduncan
 
-50 pushes across 11 repositories on 21 active days in the last 90 days of public GitHub push activity.
+47 pushes across 10 repositories on 19 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ephraimduncan

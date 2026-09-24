@@ -8,11 +8,11 @@ provenance_repos:
   - "juggler-ai/juggler"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+repos_populated: true
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "ffbd582f5e4111de"
-pushes_per_week: [2, 3, 17, 10, 10, 6, 2, 3, 4, 1, 0, 2, 1]
+pushes_per_week: [2, 3, 19, 12, 8, 4, 2, 3, 4, 1, 0, 2, 1]
 windows:
   "7d":
     pushes: 1
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 6
+    pushes: 5
     distinct_repos: 1
-    active_days: 6
+    active_days: 5
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 6
+    pushes: 5
     distinct_repos: 1
-    pushes_per_repo: 6.0000
-    active_days: 6
+    pushes_per_repo: 5.0000
+    active_days: 5
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -76,7 +76,15 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 32 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "GLADriver"
+    title: "GLADriver"
+    description: "GLA device driver"
+    language: "C++"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-04-29"
 ---
 
 # julianstorer

@@ -8,11 +8,11 @@ provenance_repos:
   - "alibaba/open-code-review"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+repos_populated: true
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "c489e6fb5febf2ab"
-pushes_per_week: [1, 6, 1, 1, 4, 0, 0, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [1, 6, 2, 0, 4, 0, 0, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,31 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "LKL-ZREO"
+    title: "LKL-ZREO"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-07-29"
+  - name: "LKL-ZREO.github.io"
+    title: "LKL-ZREO.github.io"
+    description: null
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-07-28"
+  - name: "openclaw-onebot"
+    title: "openclaw-onebot"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-07-04"
 ---
 
 # LKL-ZREO

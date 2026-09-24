@@ -8,11 +8,11 @@ provenance_repos:
   - "chopratejas/headroom"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+repos_populated: true
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "73468cde177ddae6"
-pushes_per_week: [8, 33, 21, 17, 3, 4, 3, 3, 1, 0, 0, 0, 3]
+pushes_per_week: [8, 35, 18, 17, 4, 4, 2, 4, 0, 0, 0, 0, 3]
 windows:
   "7d":
     pushes: 3
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 96
+    pushes: 95
     distinct_repos: 11
-    active_days: 37
+    active_days: 36
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.5946
-  repo_per_active_day: 0.2973
+  push_per_day: 2.6389
+  repo_per_active_day: 0.3056
   not_owned_ratio: 0.0000
   basename_concentration: 0.0909
   shapes: []
@@ -65,22 +65,57 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 96
+    pushes: 95
     distinct_repos: 11
-    pushes_per_repo: 8.7273
-    active_days: 37
+    pushes_per_repo: 8.6364
+    active_days: 36
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 37 active days in 90d — pass"
+  - "activity: 36 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "herdr-ccs"
+    title: "herdr-ccs"
+    description: "Make `ccs claude` behave like native Claude Code in Herdr: pane detection + launcher-aware restore through ccs."
+    language: "Shell"
+    topics:
+      - "herdr-plugin"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-29"
+  - name: "KennethWKZ"
+    title: "KennethWKZ"
+    description: "Config files for my GitHub profile."
+    language: null
+    topics:
+      - "config"
+      - "github-config"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2021-10-02"
+  - name: "mysimpleweatherapp"
+    title: "mysimpleweatherapp"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2018-06-04"
+  - name: "DigitalOceanCP"
+    title: "DigitalOceanCP"
+    description: "Digital Ocean API Control Panel"
+    language: "C#"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2016-05-15"
 ---
 
 # KennethWKZ
 
-96 pushes across 11 repositories on 37 active days in the last 90 days of public GitHub push activity.
+95 pushes across 11 repositories on 36 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/KennethWKZ

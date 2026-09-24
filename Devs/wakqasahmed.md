@@ -8,15 +8,17 @@ provenance_repos:
   - "affaan-m/ECC"
   - "alibaba/open-code-review"
   - "ayghri/i-have-adhd"
+  - "chopratejas/headroom"
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "46f3c1d6124190bd"
+  - "73468cde177ddae6"
   - "c489e6fb5febf2ab"
   - "edb3a626875732de"
-pushes_per_week: [0, 18, 16, 51, 8, 0, 29, 7, 5, 1, 4, 6, 8]
+pushes_per_week: [0, 29, 8, 48, 8, 0, 29, 7, 6, 0, 4, 6, 8]
 windows:
   "7d":
     pushes: 8
@@ -77,7 +79,7 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 1
 reasons:
-  - "provenance: 3 vault signal(s) — pass"
+  - "provenance: 4 vault signal(s) — pass"
   - "activity: 37 active days in 90d — pass"
   - "automation: clear — pass"
 repos:

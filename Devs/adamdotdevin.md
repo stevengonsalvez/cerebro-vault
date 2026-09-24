@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [7, 2, 9, 2, 0, 0, 1, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [6, 1, 10, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 21
+    pushes: 19
     distinct_repos: 2
-    active_days: 11
+    active_days: 10
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.9091
-  repo_per_active_day: 0.1818
+  push_per_day: 1.9000
+  repo_per_active_day: 0.2000
   not_owned_ratio: 1.0000
   basename_concentration: 0.5000
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 21
+    pushes: 19
     distinct_repos: 2
-    pushes_per_repo: 10.5000
-    active_days: 11
+    pushes_per_repo: 9.5000
+    active_days: 10
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 11 active days in 90d — pass"
+  - "activity: 10 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "dotfiles"
@@ -132,6 +132,6 @@ repos:
 
 # adamdotdevin
 
-21 pushes across 2 repositories on 11 active days in the last 90 days of public GitHub push activity.
+19 pushes across 2 repositories on 10 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/adamdotdevin

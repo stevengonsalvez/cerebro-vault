@@ -8,11 +8,11 @@ provenance_repos:
   - "alibaba/open-code-review"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+repos_populated: true
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "c489e6fb5febf2ab"
-pushes_per_week: [1, 1, 20, 19, 5, 5, 8, 6, 3, 0, 1, 0, 6]
+pushes_per_week: [1, 1, 22, 17, 5, 6, 7, 6, 3, 0, 1, 0, 6]
 windows:
   "7d":
     pushes: 6
@@ -76,7 +76,47 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 34 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "VulnGym-bv2-private"
+    title: "VulnGym-bv2-private"
+    description: "Private engineering repository for the VulnGym T1 x T2 B-v2 automation loop"
+    language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-09"
+  - name: "VulnGym-T2"
+    title: "VulnGym-T2"
+    description: "2026 腾讯开源 VulnGym赛道 T2选题"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-18"
+  - name: "Qiyuanqiii"
+    title: "Qiyuanqiii"
+    description: "Profile README · Go · AI Agents · Cybersecurity · Open Source"
+    language: null
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-09-11"
+  - name: "Jump-Terminator"
+    title: "Jump-Terminator"
+    description: "Jump Terminator Android 跨应用跳转控制工具（S0 技术可行性验证）"
+    language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-08-09"
+  - name: "codex-401-doctor"
+    title: "codex-401-doctor"
+    description: "Diagnose and repair common Codex 401 Unauthorized issues on Windows"
+    language: "PowerShell"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-08-29"
 ---
 
 # Qiyuanqiii

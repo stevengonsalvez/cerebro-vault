@@ -8,11 +8,11 @@ provenance_repos:
   - "anomalyco/opencode"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+repos_populated: true
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [53, 36, 11, 20, 9, 0, 2, 3, 8, 0, 0, 1, 4]
+pushes_per_week: [55, 37, 11, 21, 5, 1, 4, 0, 8, 0, 0, 1, 4]
 windows:
   "7d":
     pushes: 4
@@ -22,7 +22,7 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 13
+    pushes: 10
     distinct_repos: 2
     active_days: 4
     repos_not_owned: 2
@@ -57,9 +57,9 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 13
+    pushes: 10
     distinct_repos: 2
-    pushes_per_repo: 6.5000
+    pushes_per_repo: 5.0000
     active_days: 4
     repos_not_owned: 2
     not_owned_basenames: 2
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 28 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "absurd-sql"
+    title: "absurd-sql"
+    description: "sqlite3 in ur indexeddb (hopefully a better backend soon)"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 4322
+    first_seen: null
+    last_push: "2023-08-06"
+  - name: "classifications"
+    title: "classifications"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 16
+    first_seen: null
+    last_push: "2026-09-22"
+  - name: "es6-macros"
+    title: "es6-macros"
+    description: "A collection of sweet.js macros that implement ES6 features for ES5"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 239
+    first_seen: null
+    last_push: "2014-07-04"
+  - name: "crdt-example-app"
+    title: "crdt-example-app"
+    description: "A full implementation of CRDTs using hybrid logical clocks and a demo app that uses it"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 664
+    first_seen: null
+    last_push: "2022-12-11"
+  - name: "fieldart"
+    title: "fieldart"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-09"
+  - name: "electron-with-server-example"
+    title: "electron-with-server-example"
+    description: "An example Electron app with a backend server all wired up via IPC"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 1017
+    first_seen: null
+    last_push: "2022-12-09"
 ---
 
 # jlongster

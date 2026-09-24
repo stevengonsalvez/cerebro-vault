@@ -8,8 +8,8 @@ provenance_repos:
   - "abhigyanpatwari/GitNexus"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+repos_populated: true
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "3c90af76cbde0363"
 pushes_per_week: [3, 2, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0]
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "reinforcement_learning_specialisation_notes"
+    title: "reinforcement_learning_specialisation_notes"
+    description: "Notes from Reinforcement Learning Specialisaiton"
+    language: "Jupyter Notebook"
+    topics: []
+    stars_fact: 11
+    first_seen: null
+    last_push: "2021-07-06"
+  - name: "gh-repo-pat"
+    title: "gh-repo-pat"
+    description: "Create fine-grained GitHub PATs scoped to a single fork repo"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-04-22"
+  - name: "git-bloblessify"
+    title: "git-bloblessify"
+    description: "Convert an existing git repo into a blobless, `clone --filter=blob:none` style repo"
+    language: "Shell"
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2023-08-21"
+  - name: "deeplearning.ai_notes"
+    title: "deeplearning.ai_notes"
+    description: "Slides and notes from the deeplearning.ai specialisation"
+    language: "Jupyter Notebook"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2020-05-13"
+  - name: "pytorch-udacity-scholarship"
+    title: "pytorch-udacity-scholarship"
+    description: "Notes from the PyTorch Udacity / Facebook scholarship course"
+    language: "Jupyter Notebook"
+    topics: []
+    stars_fact: 56
+    first_seen: null
+    last_push: "2019-04-02"
+  - name: "deeplearning.ai-notes"
+    title: "deeplearning.ai-notes"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2020-05-12"
 ---
 
 # HaleTom

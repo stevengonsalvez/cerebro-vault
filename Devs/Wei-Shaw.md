@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: false
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "91526b8597b5b63d"
-pushes_per_week: [35, 36, 42, 36, 11, 7, 16, 8, 5, 2, 3, 4, 15]
+pushes_per_week: [23, 36, 45, 31, 8, 7, 17, 7, 5, 2, 3, 7, 12]
 windows:
   "7d":
-    pushes: 15
+    pushes: 12
     distinct_repos: 1
-    active_days: 5
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 220
+    pushes: 203
     distinct_repos: 15
-    active_days: 51
+    active_days: 50
     repos_not_owned: 11
     not_owned_basenames: 2
     not_owned_owners: 11
 automation:
   state: "clear"
-  push_per_day: 4.3137
-  repo_per_active_day: 0.2941
+  push_per_day: 4.0600
+  repo_per_active_day: 0.3000
   not_owned_ratio: 0.7333
   basename_concentration: 0.7333
   shapes:
@@ -65,10 +65,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 15
+    pushes: 12
     distinct_repos: 1
-    pushes_per_repo: 15.0000
-    active_days: 5
+    pushes_per_repo: 12.0000
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -81,22 +81,22 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 220
+    pushes: 203
     distinct_repos: 15
-    pushes_per_repo: 14.6667
-    active_days: 51
+    pushes_per_repo: 13.5333
+    active_days: 50
     repos_not_owned: 11
     not_owned_basenames: 2
     not_owned_owners: 11
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 51 active days in 90d — pass"
+  - "activity: 50 active days in 90d — pass"
   - "automation: clear — pass"
 repos: []
 ---
 
 # Wei-Shaw
 
-220 pushes across 15 repositories on 51 active days in the last 90 days of public GitHub push activity.
+203 pushes across 15 repositories on 50 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Wei-Shaw

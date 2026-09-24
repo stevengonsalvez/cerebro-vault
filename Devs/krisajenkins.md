@@ -8,8 +8,8 @@ provenance_repos:
   - "agavra/tuicr"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+repos_populated: true
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "4a45ac7a449df20e"
 pushes_per_week: [1, 3, 3, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0]
@@ -76,7 +76,62 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "yesql"
+    title: "yesql"
+    description: "A Clojure library for using SQL."
+    language: "Clojure"
+    topics: []
+    stars_fact: 1496
+    first_seen: null
+    last_push: "2024-11-23"
+  - name: "spacetime.nvim"
+    title: "spacetime.nvim"
+    description: "A SpacetimeDB browser for Neovim (in development)"
+    language: "Lua"
+    topics: []
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-09-08"
+  - name: "neojj"
+    title: "neojj"
+    description: "A magit/neogit -style plugin for the jujutsu version control system."
+    language: "Lua"
+    topics:
+      - "jj"
+      - "jujutsu"
+      - "lua"
+      - "neovim"
+      - "neovim-plugin"
+      - "nvim"
+      - "vcs"
+    stars_fact: 8
+    first_seen: null
+    last_push: "2026-07-18"
+  - name: "oversight.nvim"
+    title: "oversight.nvim"
+    description: "A Neovim plugin for reviewing AI-generated code changes"
+    language: "Lua"
+    topics: []
+    stars_fact: 5
+    first_seen: null
+    last_push: "2026-08-31"
+  - name: "evil-tabs"
+    title: "evil-tabs"
+    description: "Integrating Vim-style tabs for Evil mode users."
+    language: "Emacs Lisp"
+    topics: []
+    stars_fact: 66
+    first_seen: null
+    last_push: "2019-12-28"
+  - name: "vim-projectlocal"
+    title: "vim-projectlocal"
+    description: "Per-project .vimrc files."
+    language: "VimL"
+    topics: []
+    stars_fact: 40
+    first_seen: null
+    last_push: "2014-02-08"
 ---
 
 # krisajenkins

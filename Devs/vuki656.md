@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: false
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [1, 1, 1, 3, 3, 2, 1, 0, 0, 0, 0, 1, 0]
+pushes_per_week: [0, 1, 3, 1, 4, 1, 1, 0, 0, 0, 0, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 13
+    pushes: 12
     distinct_repos: 5
-    active_days: 11
+    active_days: 10
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.1818
-  repo_per_active_day: 0.4545
+  push_per_day: 1.2000
+  repo_per_active_day: 0.5000
   not_owned_ratio: 0.0000
   basename_concentration: 0.2000
   shapes: []
@@ -65,22 +65,22 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 13
+    pushes: 12
     distinct_repos: 5
-    pushes_per_repo: 2.6000
-    active_days: 11
+    pushes_per_repo: 2.4000
+    active_days: 10
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 11 active days in 90d — pass"
+  - "activity: 10 active days in 90d — pass"
   - "automation: clear — pass"
 repos: []
 ---
 
 # vuki656
 
-13 pushes across 5 repositories on 11 active days in the last 90 days of public GitHub push activity.
+12 pushes across 5 repositories on 10 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/vuki656

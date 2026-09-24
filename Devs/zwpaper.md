@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: false
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [10, 4, 2, 2, 4, 3, 1, 2, 0, 0, 0, 0, 0]
+pushes_per_week: [8, 4, 2, 4, 2, 3, 1, 2, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 28
+    pushes: 26
     distinct_repos: 8
-    active_days: 21
+    active_days: 19
     repos_not_owned: 7
     not_owned_basenames: 7
     not_owned_owners: 4
 automation:
   state: "clear"
-  push_per_day: 1.3333
-  repo_per_active_day: 0.3810
+  push_per_day: 1.3684
+  repo_per_active_day: 0.4211
   not_owned_ratio: 0.8750
   basename_concentration: 0.1250
   shapes: []
@@ -65,22 +65,22 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 28
+    pushes: 26
     distinct_repos: 8
-    pushes_per_repo: 3.5000
-    active_days: 21
+    pushes_per_repo: 3.2500
+    active_days: 19
     repos_not_owned: 7
     not_owned_basenames: 7
     not_owned_owners: 4
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 21 active days in 90d — pass"
+  - "activity: 19 active days in 90d — pass"
   - "automation: clear — pass"
 repos: []
 ---
 
 # zwpaper
 
-28 pushes across 8 repositories on 21 active days in the last 90 days of public GitHub push activity.
+26 pushes across 8 repositories on 19 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/zwpaper

@@ -8,11 +8,11 @@ provenance_repos:
   - "BuilderIO/agent-native"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+repos_populated: true
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "745308b2b7085095"
-pushes_per_week: [9, 6, 4, 0, 0, 0, 4, 2, 1, 1, 1, 0, 7]
+pushes_per_week: [7, 4, 4, 0, 0, 0, 5, 1, 1, 1, 1, 0, 7]
 windows:
   "7d":
     pushes: 7
@@ -29,7 +29,7 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 35
+    pushes: 31
     distinct_repos: 8
     active_days: 19
     repos_not_owned: 0
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.8421
+  push_per_day: 1.6316
   repo_per_active_day: 0.4211
   not_owned_ratio: 0.0000
   basename_concentration: 0.1250
@@ -65,9 +65,9 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 35
+    pushes: 31
     distinct_repos: 8
-    pushes_per_repo: 4.3750
+    pushes_per_repo: 3.8750
     active_days: 19
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -76,11 +76,67 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 19 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "LLMNPCActionLayer"
+    title: "LLMNPCActionLayer"
+    description: "Yeah"
+    language: "C++"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-24"
+  - name: "dsh-codekin"
+    title: "dsh-codekin"
+    description: "Codekin: a creature-collection and match-three RPG for DeepSeek Harness Web."
+    language: "TypeScript"
+    topics:
+      - "creature-collector"
+      - "deepseek-harness"
+      - "dsh-plugin"
+      - "pixel-art"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-24"
+  - name: "UEProjectIntelligence"
+    title: "UEProjectIntelligence"
+    description: "The MCP of Unreal Engine(Ver 2.0 For Reading and Writing)"
+    language: "C++"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-22"
+  - name: "dsh-fisher"
+    title: "dsh-fisher"
+    description: "摸鱼海岸：面向 DeepSeek Harness 的轻操作钓鱼与收藏娱乐插件。"
+    language: "TypeScript"
+    topics:
+      - "deepseek-harness-plugin"
+      - "dsh"
+      - "dsh-plugin"
+      - "dsh-plugins"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-20"
+  - name: "UEAgentBackend"
+    title: "UEAgentBackend"
+    description: "Agent Backend"
+    language: "Python"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-08-17"
+  - name: "UEAgentTool"
+    title: "UEAgentTool"
+    description: "Connect the UE Editor Plugin to the backend"
+    language: "C++"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-06-10"
 ---
 
 # Nath-Vikky
 
-35 pushes across 8 repositories on 19 active days in the last 90 days of public GitHub push activity.
+31 pushes across 8 repositories on 19 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Nath-Vikky

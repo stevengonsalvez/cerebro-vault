@@ -8,11 +8,11 @@ provenance_repos:
   - "AlexsJones/llmfit"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+repos_populated: true
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [9, 12, 5, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [14, 7, 5, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,63 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 16 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "izarrios.github.io"
+    title: "izarrios.github.io"
+    description: null
+    language: "Handlebars"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-22"
+  - name: ".dotfiles"
+    title: ".dotfiles"
+    description: null
+    language: "Lua"
+    topics:
+      - "automation"
+      - "bash"
+      - "config"
+      - "dotfiles"
+      - "lua"
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-09-04"
+  - name: "iZarrios"
+    title: "iZarrios"
+    description: "Config files for my GitHub profile."
+    language: null
+    topics:
+      - "config"
+      - "github-config"
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-07-27"
+  - name: "tab-tandem"
+    title: "tab-tandem"
+    description: "chromium extension that toggles between the two most recently visited tabs"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-07-11"
+  - name: "data-visualizations-final-lab"
+    title: "data-visualizations-final-lab"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-06-28"
+  - name: "mindful-bytes"
+    title: "mindful-bytes"
+    description: "Personal blog/website"
+    language: "HTML"
+    topics:
+      - "blog"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-02-01"
 ---
 
 # iZarrios

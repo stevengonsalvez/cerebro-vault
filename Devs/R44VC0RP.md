@@ -8,11 +8,11 @@ provenance_repos:
   - "anomalyco/opencode"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+repos_populated: true
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [2, 3, 0, 0, 7, 5, 2, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [0, 3, 0, 1, 6, 5, 2, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 19
-    distinct_repos: 8
-    active_days: 12
+    pushes: 17
+    distinct_repos: 7
+    active_days: 11
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 1.5833
-  repo_per_active_day: 0.6667
-  not_owned_ratio: 0.2500
-  basename_concentration: 0.1250
+  push_per_day: 1.5455
+  repo_per_active_day: 0.6364
+  not_owned_ratio: 0.2857
+  basename_concentration: 0.1429
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,22 +65,78 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 19
-    distinct_repos: 8
-    pushes_per_repo: 2.3750
-    active_days: 12
+    pushes: 17
+    distinct_repos: 7
+    pushes_per_repo: 2.4286
+    active_days: 11
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 12 active days in 90d — pass"
+  - "activity: 11 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "superlocal"
+    title: "superlocal"
+    description: "An email client & provider gateway so you can build your best email experience."
+    language: "TypeScript"
+    topics:
+      - "email"
+      - "fast"
+      - "local-first"
+    stars_fact: 221
+    first_seen: null
+    last_push: "2026-09-08"
+  - name: "pgrok"
+    title: "pgrok"
+    description: "Personal ngrok alternative. Expose local ports to the internet with automatic HTTPS via SSH tunnels + Caddy."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 1166
+    first_seen: null
+    last_push: "2026-02-11"
+  - name: "embox"
+    title: "embox"
+    description: "Keyboard-first, single-column focused mail client experiment on the Graphite theme"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-23"
+  - name: "docstudio"
+    title: "docstudio"
+    description: "Native macOS widget studio with a drag-and-drop Dock preview and live local widgets."
+    language: "Swift"
+    topics: []
+    stars_fact: 36
+    first_seen: null
+    last_push: "2026-09-12"
+  - name: "hark"
+    title: "hark"
+    description: "A simple, beautiful webhook to notification platform."
+    language: "TypeScript"
+    topics:
+      - "notfications"
+    stars_fact: 181
+    first_seen: null
+    last_push: "2026-08-10"
+  - name: "opencode.cafe"
+    title: "opencode.cafe"
+    description: "A plugin and extension cafe for OpenCode."
+    language: "TypeScript"
+    topics:
+      - "ai"
+      - "cafe"
+      - "community"
+      - "opencode"
+    stars_fact: 196
+    first_seen: null
+    last_push: "2026-05-21"
 ---
 
 # R44VC0RP
 
-19 pushes across 8 repositories on 12 active days in the last 90 days of public GitHub push activity.
+17 pushes across 7 repositories on 11 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/R44VC0RP

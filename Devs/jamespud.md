@@ -8,8 +8,8 @@ provenance_repos:
   - "bytedance/deer-flow"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+repos_populated: true
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "16389f32495280ea"
 pushes_per_week: [0, 2, 0, 0, 0, 0, 2, 1, 1, 0, 1, 3, 56]
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 11 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "yahoo-stock-mcp"
+    title: "yahoo-stock-mcp"
+    description: "A stock market data mcp"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-24"
+  - name: "jamespud"
+    title: "jamespud"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-21"
+  - name: "tiny-store"
+    title: "tiny-store"
+    description: "A DDD-style microservices e-commerce platform."
+    language: "Java"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-14"
+  - name: "MAGI-system"
+    title: "MAGI-system"
+    description: "An evidence-driven multi-agent decision engine, inspired by the three Magi in Neon Genesis Evangelion."
+    language: "Go"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-13"
+  - name: "jamespud.github.io"
+    title: "jamespud.github.io"
+    description: null
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-12"
+  - name: "huffman_compressor"
+    title: "huffman_compressor"
+    description: null
+    language: "C++"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-06-08"
 ---
 
 # jamespud

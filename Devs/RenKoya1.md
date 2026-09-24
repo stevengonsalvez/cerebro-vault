@@ -8,11 +8,11 @@ provenance_repos:
   - "cloudflare/cloudflare-os"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+repos_populated: true
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "386c24cf5e18fd90"
-pushes_per_week: [1, 0, 3, 1, 2, 1, 1, 0, 0, 0, 0, 0, 1]
+pushes_per_week: [1, 0, 4, 0, 2, 1, 1, 0, 0, 0, 0, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -76,7 +76,57 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "claude-app-server"
+    title: "claude-app-server"
+    description: null
+    language: "Rust"
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-05-22"
+  - name: "herdr-approve-all"
+    title: "herdr-approve-all"
+    description: "herdr plugin: approve every blocked agent at once (one keystroke, all pending permission prompts)"
+    language: "Shell"
+    topics:
+      - "herdr"
+      - "herdr-plugin"
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-08-16"
+  - name: "a2a-ard-simulator"
+    title: "a2a-ard-simulator"
+    description: "A2A protocol + ARD (Agentic Resource Discovery) multi-agent simulator with a live web UI"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-19"
+  - name: "ai-sdk-cost-calculator"
+    title: "ai-sdk-cost-calculator"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-09-10"
+  - name: "md2alloy"
+    title: "md2alloy"
+    description: "Markdown docs -> RFC 2119 spec -> machine-checked Alloy 6 model, driven by Claude Code"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-07-18"
+  - name: "note-api-client"
+    title: "note-api-client"
+    description: "Powerful note.com API client for node js"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-06-12"
 ---
 
 # RenKoya1

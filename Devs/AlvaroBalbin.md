@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "9e2ff10d772b1e71"
-pushes_per_week: [16, 10, 3, 0, 1, 4, 0, 1, 1, 0, 0, 0, 0]
+pushes_per_week: [14, 7, 3, 0, 1, 4, 0, 1, 1, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 36
-    distinct_repos: 13
+    pushes: 31
+    distinct_repos: 12
     active_days: 15
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.4000
-  repo_per_active_day: 0.8667
-  not_owned_ratio: 0.1538
-  basename_concentration: 0.0769
+  push_per_day: 2.0667
+  repo_per_active_day: 0.8000
+  not_owned_ratio: 0.1667
+  basename_concentration: 0.0833
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,9 +65,9 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 36
-    distinct_repos: 13
-    pushes_per_repo: 2.7692
+    pushes: 31
+    distinct_repos: 12
+    pushes_per_repo: 2.5833
     active_days: 15
     repos_not_owned: 2
     not_owned_basenames: 2
@@ -152,6 +152,6 @@ repos:
 
 # AlvaroBalbin
 
-36 pushes across 13 repositories on 15 active days in the last 90 days of public GitHub push activity.
+31 pushes across 12 repositories on 15 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/AlvaroBalbin

@@ -8,8 +8,8 @@ provenance_repos:
   - "agentscope-ai/QwenPaw"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+repos_populated: true
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "541318303a272608"
 pushes_per_week: [0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 8]
@@ -76,7 +76,75 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "Orbitra"
+    title: "Orbitra"
+    description: "Orbitra is a local-first browser emulator for GBA, Game Boy, NES, SNES, and experimental GameCube, powered by WebAssembly cores."
+    language: "JavaScript"
+    topics:
+      - "browser-emulator"
+      - "dolphin"
+      - "emulator"
+      - "game-boy"
+      - "game-boy-advance"
+      - "game-boy-color"
+      - "gamecube"
+      - "gamepad"
+      - "gba"
+      - "gbc"
+      - "mgba"
+      - "nes"
+      - "pwa"
+      - "react"
+      - "retro-gaming"
+      - "save-states"
+      - "snes"
+      - "typescript"
+      - "vite"
+      - "webassembly"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-22"
+  - name: "mall-app"
+    title: "mall-app"
+    description: "Vue全家桶+Vant 搭建大型单页面电商项目"
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2020-12-03"
+  - name: "cmd"
+    title: "cmd"
+    description: "一些常用的命令..."
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2018-02-28"
+  - name: "codebase"
+    title: "codebase"
+    description: "代码库,包括一些写的很巧秒的,实现很有意思的代码..."
+    language: "Java"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2018-02-28"
+  - name: "configfiles"
+    title: "configfiles"
+    description: "我的配置文件"
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2018-02-28"
+  - name: "pm"
+    title: "pm"
+    description: null
+    language: "PHP"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2018-02-21"
 ---
 
 # hehuang139

@@ -8,11 +8,11 @@ provenance_repos:
   - "agentscope-ai/QwenPaw"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+repos_populated: true
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "541318303a272608"
-pushes_per_week: [2, 1, 2, 1, 1, 0, 0, 1, 0, 0, 0, 0, 0]
+pushes_per_week: [2, 2, 1, 1, 1, 0, 0, 1, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "QwenPaw-Plugins"
+    title: "QwenPaw-Plugins"
+    description: "QwenPaw-Plugins"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-22"
+  - name: "qwenpaw-dream-skin"
+    title: "qwenpaw-dream-skin"
+    description: "qwenpaw skin"
+    language: "CSS"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-07-19"
+  - name: "agent-office"
+    title: "agent-office"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-07-15"
+  - name: "qwenpaw_pet_desktop"
+    title: "qwenpaw_pet_desktop"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-05-14"
+  - name: "SITE"
+    title: "SITE"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 59
+    first_seen: null
+    last_push: "2022-03-24"
+  - name: "Osier-Yi.github.io"
+    title: "Osier-Yi.github.io"
+    description: null
+    language: "CSS"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2022-07-19"
 ---
 
 # Osier-Yi

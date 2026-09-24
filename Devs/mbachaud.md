@@ -8,11 +8,11 @@ provenance_repos:
   - "chopratejas/headroom"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+repos_populated: true
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "73468cde177ddae6"
-pushes_per_week: [5, 11, 12, 6, 6, 4, 3, 2, 0, 0, 0, 0, 0]
+pushes_per_week: [7, 12, 9, 7, 5, 5, 2, 2, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,64 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 24 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "Cymatix-Context"
+    title: "Cymatix-Context"
+    description: "Local-first context engine for LLM agents, weighs then retrieves your codebase and enterprise files into the context window with no LLM call on the retrieval path. SQLite knowledge store; CLI + HTTP + MCP; know/miss agent contract."
+    language: "Python"
+    topics:
+      - "agent-index"
+      - "agent-mcp"
+      - "idf"
+      - "knowledge-base"
+      - "mcp"
+      - "model-context-protocol"
+      - "python"
+      - "semantic-search"
+      - "sqlite"
+    stars_fact: 6
+    first_seen: null
+    last_push: "2026-09-14"
+  - name: "scorerift"
+    title: "scorerift"
+    description: "Dual-layer audit system: automated scoring + manual grading + reconciliation"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-16"
+  - name: "AAtrial"
+    title: "AAtrial"
+    description: "AAtrial"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-01"
+  - name: "MaxExpressKit"
+    title: "MaxExpressKit"
+    description: "Three guardrails for Claude Code: compliance, drift, ledger."
+    language: "Python"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-07-27"
+  - name: "mbachaud"
+    title: "mbachaud"
+    description: "Profile README"
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-07-27"
+  - name: "BookKeeper"
+    title: "BookKeeper"
+    description: "Reference architecture for a double-entry bookkeeping platform — Decimal money, audit trails, rules-before-ML categorization, single- and multi-tenant from one codebase. Architecture sample, not a certified accounting system."
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-07-27"
 ---
 
 # mbachaud

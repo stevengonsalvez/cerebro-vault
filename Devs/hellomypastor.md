@@ -8,16 +8,16 @@ provenance_repos:
   - "alibaba/open-code-review"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+repos_populated: true
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "c489e6fb5febf2ab"
-pushes_per_week: [4, 1, 0, 0, 0, 0, 0, 5, 0, 1, 1, 0, 2]
+pushes_per_week: [4, 1, 0, 0, 0, 0, 0, 5, 0, 1, 1, 1, 1]
 windows:
   "7d":
-    pushes: 2
+    pushes: 1
     distinct_repos: 1
-    active_days: 2
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
+    pushes: 1
     distinct_repos: 1
-    pushes_per_repo: 2.0000
-    active_days: 2
+    pushes_per_repo: 1.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 9 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "daily-news"
+    title: "daily-news"
+    description: null
+    language: "Astro"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-24"
+  - name: "codex-tare"
+    title: "codex-tare"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-04"
+  - name: "claude-agent-sdk-java"
+    title: "claude-agent-sdk-java"
+    description: "Java SDK for Claude Code — Build AI agents with Claude. Feature-complete, aligned with the official TypeScript SDK. Java 11+, minimal dependencies."
+    language: "Java"
+    topics: []
+    stars_fact: 10
+    first_seen: null
+    last_push: "2026-05-07"
+  - name: "opencode-sdk-java"
+    title: "opencode-sdk-java"
+    description: null
+    language: "Java"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-07-06"
+  - name: "hellomypastor.github.io"
+    title: "hellomypastor.github.io"
+    description: "my blog"
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-07-03"
+  - name: "AgentHTML"
+    title: "AgentHTML"
+    description: "Skill-first toolkit that teaches AI agents to produce self-contained HTML artifacts — with anti-slop visuals and agent-aware interactivity. Includes 5 style presets, a 5-attribute protocol runtime, and a CLI for init/preview/validate."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-05-11"
 ---
 
 # hellomypastor

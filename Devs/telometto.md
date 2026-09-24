@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: false
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "3cb7ff1cdcf97c6b"
-pushes_per_week: [22, 20, 15, 8, 12, 12, 11, 5, 3, 1, 1, 1, 8]
+pushes_per_week: [23, 15, 20, 4, 13, 10, 13, 3, 3, 1, 1, 3, 6]
 windows:
   "7d":
-    pushes: 8
+    pushes: 6
     distinct_repos: 1
-    active_days: 4
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 13
+    pushes: 12
     distinct_repos: 1
-    active_days: 9
+    active_days: 8
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 119
+    pushes: 115
     distinct_repos: 1
     active_days: 50
     repos_not_owned: 0
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.3800
+  push_per_day: 2.3000
   repo_per_active_day: 0.0200
   not_owned_ratio: 0.0000
   basename_concentration: 1.0000
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 8
+    pushes: 6
     distinct_repos: 1
-    pushes_per_repo: 8.0000
-    active_days: 4
+    pushes_per_repo: 6.0000
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 13
+    pushes: 12
     distinct_repos: 1
-    pushes_per_repo: 13.0000
-    active_days: 9
+    pushes_per_repo: 12.0000
+    active_days: 8
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 119
+    pushes: 115
     distinct_repos: 1
-    pushes_per_repo: 119.0000
+    pushes_per_repo: 115.0000
     active_days: 50
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -81,6 +81,6 @@ repos: []
 
 # telometto
 
-119 pushes across 1 repository on 50 active days in the last 90 days of public GitHub push activity.
+115 pushes across 1 repository on 50 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/telometto

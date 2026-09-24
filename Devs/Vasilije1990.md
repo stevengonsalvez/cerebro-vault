@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: false
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "d399d99ef4e490b6"
-pushes_per_week: [7, 1, 5, 11, 9, 1, 13, 5, 2, 1, 1, 1, 3]
+pushes_per_week: [2, 3, 5, 11, 7, 2, 14, 3, 2, 1, 1, 1, 3]
 windows:
   "7d":
     pushes: 3
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 3
     not_owned_owners: 2
   "90d":
-    pushes: 60
-    distinct_repos: 10
-    active_days: 33
-    repos_not_owned: 10
-    not_owned_basenames: 6
+    pushes: 55
+    distinct_repos: 9
+    active_days: 32
+    repos_not_owned: 9
+    not_owned_basenames: 5
     not_owned_owners: 6
 automation:
   state: "clear"
-  push_per_day: 1.8182
-  repo_per_active_day: 0.3030
+  push_per_day: 1.7188
+  repo_per_active_day: 0.2812
   not_owned_ratio: 1.0000
-  basename_concentration: 0.5000
+  basename_concentration: 0.5556
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,22 +65,22 @@ facets:
     not_owned_basenames: 3
     not_owned_owners: 2
   "90d":
-    pushes: 60
-    distinct_repos: 10
-    pushes_per_repo: 6.0000
-    active_days: 33
-    repos_not_owned: 10
-    not_owned_basenames: 6
+    pushes: 55
+    distinct_repos: 9
+    pushes_per_repo: 6.1111
+    active_days: 32
+    repos_not_owned: 9
+    not_owned_basenames: 5
     not_owned_owners: 6
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 33 active days in 90d — pass"
+  - "activity: 32 active days in 90d — pass"
   - "automation: clear — pass"
 repos: []
 ---
 
 # Vasilije1990
 
-60 pushes across 10 repositories on 33 active days in the last 90 days of public GitHub push activity.
+55 pushes across 9 repositories on 32 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Vasilije1990

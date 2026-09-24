@@ -8,11 +8,11 @@ provenance_repos:
   - "BuilderIO/agent-native"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+repos_populated: true
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "745308b2b7085095"
-pushes_per_week: [1, 16, 1, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0]
+pushes_per_week: [12, 5, 1, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "figma-to-code"
+    title: "figma-to-code"
+    description: "Created with Builder.io"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-15"
+  - name: "builder-nextjs-app-router-gen-2"
+    title: "builder-nextjs-app-router-gen-2"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-15"
+  - name: "builder-nuxt"
+    title: "builder-nuxt"
+    description: null
+    language: "Vue"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-28"
+  - name: "builder-nextjs-shopify"
+    title: "builder-nextjs-shopify"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-11"
+  - name: "builder-custom-plugins"
+    title: "builder-custom-plugins"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-13"
+  - name: "builder-nextjs-page-router-gen-1"
+    title: "builder-nextjs-page-router-gen-1"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-05"
 ---
 
 # JasonYangCIS

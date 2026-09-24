@@ -8,11 +8,11 @@ provenance_repos:
   - "addyosmani/agent-skills"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+repos_populated: true
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "dae9f02535f7c22f"
-pushes_per_week: [0, 0, 0, 0, 0, 3, 0, 9, 2, 1, 0, 0, 0]
+pushes_per_week: [0, 0, 0, 0, 0, 3, 4, 5, 2, 1, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,79 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "liyuk.github.io"
+    title: "liyuk.github.io"
+    description: "Personal site: writing, research, projects & photography. Bilingual, built with Astro."
+    language: "JavaScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-24"
+  - name: "astro-fourfold"
+    title: "astro-fourfold"
+    description: "A static-first personal publication theme for Astro: writing, columns, tags, projects, research, photo essays, search, favorites, RSS, and GitHub Pages support."
+    language: "Astro"
+    topics:
+      - "astro"
+      - "astro-blog"
+      - "astro-starter"
+      - "astro-template"
+      - "astro-theme"
+      - "github-pages"
+      - "markdown"
+      - "personal-blog"
+      - "personal-website"
+      - "static-site-generator"
+    stars_fact: 7
+    first_seen: null
+    last_push: "2026-08-21"
+  - name: "dsh-skin-chatlab"
+    title: "dsh-skin-chatlab"
+    description: "Extensible chat-skin monorepo for the DeepSeek Harness Web GUI: a base registry + plug-in skin packages (Feishu-style chat bubbles), plug-and-play without touching chat logic."
+    language: "JavaScript"
+    topics:
+      - "ai-agents"
+      - "chat-skin"
+      - "deepseek-harness"
+      - "dsh-plugin"
+      - "feishu"
+      - "plugin"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-08-22"
+  - name: "dsh-quota-router"
+    title: "dsh-quota-router"
+    description: "Policy-only multi-source quota router for DeepSeek Harness: deterministic task profiles, ordered candidate chains, health-aware fallback, subtask model leases, and observable decisions / DSH 多源配额路由插件"
+    language: "TypeScript"
+    topics:
+      - "cost-control"
+      - "deepseek-harness"
+      - "dsh"
+      - "dsh-plugin"
+      - "fallback"
+      - "llm-routing"
+      - "model-router"
+      - "quota-router"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-21"
+  - name: "Liyuk"
+    title: "Liyuk"
+    description: "Engineering leadership, global commerce systems, and AI-enabled productivity."
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-24"
+  - name: "dsh-neonforge"
+    title: "dsh-neonforge"
+    description: "Neonforge post-punk magazine-collage visual skin for DeepSeek Harness"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-01"
 ---
 
 # Liyuk

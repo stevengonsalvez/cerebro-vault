@@ -8,37 +8,37 @@ provenance_repos:
   - "abhigyanpatwari/GitNexus"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+repos_populated: true
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [0, 0, 3, 1, 1, 7, 14, 2, 0, 0, 1, 5, 20]
+pushes_per_week: [0, 0, 3, 1, 1, 10, 12, 1, 0, 0, 1, 8, 19]
 windows:
   "7d":
-    pushes: 21
+    pushes: 20
     distinct_repos: 5
     active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 26
+    pushes: 28
     distinct_repos: 5
-    active_days: 9
+    active_days: 10
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 54
+    pushes: 56
     distinct_repos: 7
-    active_days: 24
+    active_days: 25
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.2500
-  repo_per_active_day: 0.2917
+  push_per_day: 2.2400
+  repo_per_active_day: 0.2800
   not_owned_ratio: 0.0000
   basename_concentration: 0.1429
   shapes: []
@@ -49,38 +49,86 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 21
+    pushes: 20
     distinct_repos: 5
-    pushes_per_repo: 4.2000
+    pushes_per_repo: 4.0000
     active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 26
+    pushes: 28
     distinct_repos: 5
-    pushes_per_repo: 5.2000
-    active_days: 9
+    pushes_per_repo: 5.6000
+    active_days: 10
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 54
+    pushes: 56
     distinct_repos: 7
-    pushes_per_repo: 7.7143
-    active_days: 24
+    pushes_per_repo: 8.0000
+    active_days: 25
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 24 active days in 90d — pass"
+  - "activity: 25 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "ryzen_monitor_ng"
+    title: "ryzen_monitor_ng"
+    description: "Swiss army knife tool for AMD CPUs with monitor and control and more"
+    language: "C"
+    topics: []
+    stars_fact: 28
+    first_seen: null
+    last_push: "2023-09-01"
+  - name: "xollama"
+    title: "xollama"
+    description: "xollama — an ollama fork with the fixes and PRs upstream has not merged, and the opencoti-llamafile inference engine"
+    language: "Go"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-22"
+  - name: "ollamarsync"
+    title: "ollamarsync"
+    description: "Transfer a local ollama model to a remote ollama server"
+    language: "Python"
+    topics: []
+    stars_fact: 9
+    first_seen: null
+    last_push: "2026-03-31"
+  - name: "osync"
+    title: "osync"
+    description: "Transfer a local ollama model to a remote ollama server"
+    language: "C#"
+    topics: []
+    stars_fact: 15
+    first_seen: null
+    last_push: "2026-04-13"
+  - name: "foo_dsd_trellis"
+    title: "foo_dsd_trellis"
+    description: "foobar2000 DSD Trellis SDM DSP plugin — C/MSVC/Windows"
+    language: "C"
+    topics: []
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-04-08"
+  - name: "claude-hooks"
+    title: "claude-hooks"
+    description: "Cross-platform Claude Code hooks for deterministic memory recall (Qdrant + Memory KG, pgvector, sqlite-vec) with HyDE, attention decay, dedup, instinct extraction, and OpenWolf integration"
+    language: "Python"
+    topics: []
+    stars_fact: 26
+    first_seen: null
+    last_push: "2026-09-24"
 ---
 
 # mann1x
 
-54 pushes across 7 repositories on 24 active days in the last 90 days of public GitHub push activity.
+56 pushes across 7 repositories on 25 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/mann1x

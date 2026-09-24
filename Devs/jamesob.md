@@ -8,8 +8,8 @@ provenance_repos:
   - "jamesob/local-llm"
 admitted: true
 low_n: true
-repos_populated: false
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+repos_populated: true
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "fda2072231b00dde"
 pushes_per_week: [0, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
@@ -76,7 +76,65 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 2 active days in 90d — below the 5-day line, LABELLED low-n (never suppressed)"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "delving-bitcoin-archive"
+    title: "delving-bitcoin-archive"
+    description: "A public archive of delvingbitcoin.org"
+    language: null
+    topics: []
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-09-24"
+  - name: "local-llm"
+    title: "local-llm"
+    description: "Everything I know about running LLMs locally"
+    language: "Shell"
+    topics: []
+    stars_fact: 1844
+    first_seen: "2026-07-04T06:00:03.825011+00:00"
+    last_push: "2026-07-10"
+  - name: "mempool.work"
+    title: "mempool.work"
+    description: "Summary of mempool design, challenges, and proposals (re: fees)"
+    language: null
+    topics:
+      - "fee-management"
+      - "lightning"
+      - "mempool"
+      - "vaults"
+    stars_fact: 40
+    first_seen: null
+    last_push: "2022-11-02"
+  - name: "desk"
+    title: "desk"
+    description: "A lightweight workspace manager for the shell"
+    language: "Shell"
+    topics:
+      - "bash"
+      - "desk"
+      - "shell"
+      - "shell-script"
+      - "workspace-manager"
+      - "zsh"
+    stars_fact: 2573
+    first_seen: null
+    last_push: "2022-07-07"
+  - name: "tinychain"
+    title: "tinychain"
+    description: "A pocket-sized implementation of Bitcoin"
+    language: "Python"
+    topics: []
+    stars_fact: 1445
+    first_seen: null
+    last_push: "2021-04-23"
+  - name: "pub-dotfiles"
+    title: "pub-dotfiles"
+    description: null
+    language: "Vim Script"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-20"
 ---
 
 # jamesob

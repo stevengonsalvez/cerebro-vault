@@ -8,8 +8,8 @@ provenance_repos:
   - "AlexsJones/llmfit"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+repos_populated: true
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "234088bc43763aa2"
 pushes_per_week: [0, 5, 0, 1, 0, 2, 0, 0, 0, 0, 0, 0, 0]
@@ -76,7 +76,75 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "tldr-free"
+    title: "tldr-free"
+    description: "Local Chrome extension + Python daemon for streaming summaries and Q&A on web pages and YouTube videos. Works with any OpenAI-compatible backend. Nothing leaves your machine."
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-22"
+  - name: "voice-assistant"
+    title: "voice-assistant"
+    description: "Self-hosted, offline-first voice assistant for your home — wake-word, streaming ASR (whisper.cpp), local LLM agent with tools (LocalAI/Gemma), streaming XTTS, speaker ID, semantic memory, desktop automation. No cloud API keys."
+    language: "Python"
+    topics:
+      - "gemma"
+      - "home-automation"
+      - "llm"
+      - "localai"
+      - "offline-first"
+      - "privacy"
+      - "self-hosted"
+      - "tts"
+      - "voice-assistant"
+      - "whisper"
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-08-04"
+  - name: "curio"
+    title: "curio"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-14"
+  - name: "coloring"
+    title: "coloring"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-07-23"
+  - name: "quietdesk"
+    title: "quietdesk"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-07-17"
+  - name: "frank-reader"
+    title: "frank-reader"
+    description: "Turn any document (PDF/DOCX/image/URL/text) into Ilya Frank-method interlinear reading text via a local LLM (LocalAI + Gemma). FastAPI + HTMX, fully local, no cloud."
+    language: "Python"
+    topics:
+      - "fastapi"
+      - "gemma"
+      - "htmx"
+      - "ilya-frank"
+      - "language-learning"
+      - "llm"
+      - "localai"
+      - "reading"
+      - "self-hosted"
+      - "translation"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-07-15"
 ---
 
 # melnikaite

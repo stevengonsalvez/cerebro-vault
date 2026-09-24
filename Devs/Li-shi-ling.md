@@ -8,11 +8,11 @@ provenance_repos:
   - "AstrBotDevs/AstrBot"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+repos_populated: true
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [3, 12, 0, 5, 0, 0, 0, 2, 0, 0, 0, 3, 0]
+pushes_per_week: [11, 4, 1, 4, 0, 0, 0, 2, 0, 0, 0, 3, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 13 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "astrbot_plugin_util_official"
+    title: "astrbot_plugin_util_official"
+    description: "官方qqbot的astrbot插件研究"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-18"
+  - name: "astrbot_plugin_millionofdollars"
+    title: "astrbot_plugin_millionofdollars"
+    description: "桌面游戏百万英镑的qq官方bot实现版本"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-14"
+  - name: "astrbot_plugin_mrfzccl"
+    title: "astrbot_plugin_mrfzccl"
+    description: "明日方舟图像猜猜乐插件"
+    language: "Python"
+    topics: []
+    stars_fact: 5
+    first_seen: null
+    last_push: "2026-09-08"
+  - name: "astrbot_plugin_datebook"
+    title: "astrbot_plugin_datebook"
+    description: "日历"
+    language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-03"
+  - name: "astrbot_plugin_Getcwm"
+    title: "astrbot_plugin_Getcwm"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-03"
+  - name: "astrbot_plugin_QQbox"
+    title: "astrbot_plugin_QQbox"
+    description: "一个astrbot插件,生成qq的聊天气泡"
+    language: "Python"
+    topics: []
+    stars_fact: 6
+    first_seen: null
+    last_push: "2026-08-17"
 ---
 
 # Li-shi-ling

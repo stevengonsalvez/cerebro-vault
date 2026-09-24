@@ -8,11 +8,11 @@ provenance_repos:
   - "AlexsJones/llmfit"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+repos_populated: true
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 2, 4]
+pushes_per_week: [0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 4, 2]
 windows:
   "7d":
     pushes: 4
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "james.hoctor.xyz"
+    title: "james.hoctor.xyz"
+    description: "Static site generation for my blog"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-22"
+  - name: "geometric-banner"
+    title: "geometric-banner"
+    description: "I needed a nice cover image for LinkedIn."
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-15"
+  - name: "JEHoctor"
+    title: "JEHoctor"
+    description: "README.md for my GitHub profile"
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-12"
+  - name: "jehoctor.github.io"
+    title: "jehoctor.github.io"
+    description: "Personal website"
+    language: "Ruby"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-07-26"
+  - name: "RAG-demo"
+    title: "RAG-demo"
+    description: "Chat with Wikipedia"
+    language: "Python"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-05-03"
+  - name: "tes-ds-club"
+    title: "tes-ds-club"
+    description: "Classroom resources for the Data Science Club at TES"
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2025-12-17"
 ---
 
 # JEHoctor

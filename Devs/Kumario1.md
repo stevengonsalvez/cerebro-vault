@@ -8,11 +8,11 @@ provenance_repos:
   - "chopratejas/headroom"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+repos_populated: true
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "73468cde177ddae6"
-pushes_per_week: [0, 1, 8, 1, 0, 1, 0, 3, 0, 0, 1, 0, 0]
+pushes_per_week: [0, 5, 4, 1, 1, 0, 2, 1, 0, 0, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 10 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "skinscan"
+    title: "skinscan"
+    description: "dasd"
+    language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-02"
+  - name: "vectorDB"
+    title: "vectorDB"
+    description: "Build a small vector database in C++ from scratch"
+    language: "C++"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-07"
+  - name: "grocerAlgo"
+    title: "grocerAlgo"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-02"
+  - name: "sentinel-dev"
+    title: "sentinel-dev"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-02"
+  - name: "synapse"
+    title: "synapse"
+    description: "Realtime coordination layer for coding agents"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-09-02"
+  - name: "agentNotch"
+    title: "agentNotch"
+    description: null
+    language: "Swift"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-09-02"
 ---
 
 # Kumario1

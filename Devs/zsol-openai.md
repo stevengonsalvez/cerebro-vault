@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "0388a4f55f4206c8"
   - "0577669e18ed3998"
@@ -26,24 +26,24 @@ provenance:
   - "c6b4a874521ceb02"
   - "cf565721454d59f8"
   - "e26852201e6f38fc"
-pushes_per_week: [9, 7, 9, 4, 3, 5, 3, 5, 0, 1, 0, 1, 1]
+pushes_per_week: [5, 6, 10, 3, 6, 2, 4, 4, 0, 1, 0, 1, 2]
 windows:
   "7d":
-    pushes: 1
+    pushes: 2
     distinct_repos: 1
-    active_days: 1
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 3
+    pushes: 4
     distinct_repos: 1
-    active_days: 3
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 48
+    pushes: 44
     distinct_repos: 1
     active_days: 29
     repos_not_owned: 0
@@ -51,7 +51,7 @@ windows:
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.6552
+  push_per_day: 1.5172
   repo_per_active_day: 0.0345
   not_owned_ratio: 0.0000
   basename_concentration: 1.0000
@@ -63,25 +63,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
+    pushes: 2
     distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes_per_repo: 2.0000
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 3
+    pushes: 4
     distinct_repos: 1
-    pushes_per_repo: 3.0000
-    active_days: 3
+    pushes_per_repo: 4.0000
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 48
+    pushes: 44
     distinct_repos: 1
-    pushes_per_repo: 48.0000
+    pushes_per_repo: 44.0000
     active_days: 29
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -95,6 +95,6 @@ repos: []
 
 # zsol-openai
 
-48 pushes across 1 repository on 29 active days in the last 90 days of public GitHub push activity.
+44 pushes across 1 repository on 29 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/zsol-openai

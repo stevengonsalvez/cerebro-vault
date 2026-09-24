@@ -9,13 +9,13 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [16, 6, 12, 2, 9, 2, 3, 1, 5, 4, 5, 1, 22]
+pushes_per_week: [12, 4, 13, 2, 9, 1, 4, 0, 5, 4, 5, 4, 20]
 windows:
   "7d":
-    pushes: 22
+    pushes: 21
     distinct_repos: 8
     active_days: 6
     repos_not_owned: 2
@@ -23,13 +23,13 @@ windows:
     not_owned_owners: 2
   "30d":
     pushes: 35
-    distinct_repos: 11
-    active_days: 16
+    distinct_repos: 10
+    active_days: 15
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
   "90d":
-    pushes: 88
+    pushes: 83
     distinct_repos: 17
     active_days: 37
     repos_not_owned: 3
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 2.3784
+  push_per_day: 2.2432
   repo_per_active_day: 0.4595
   not_owned_ratio: 0.1765
   basename_concentration: 0.0588
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 22
+    pushes: 21
     distinct_repos: 8
-    pushes_per_repo: 2.7500
+    pushes_per_repo: 2.6250
     active_days: 6
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
   "30d":
     pushes: 35
-    distinct_repos: 11
-    pushes_per_repo: 3.1818
-    active_days: 16
+    distinct_repos: 10
+    pushes_per_repo: 3.5000
+    active_days: 15
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
   "90d":
-    pushes: 88
+    pushes: 83
     distinct_repos: 17
-    pushes_per_repo: 5.1765
+    pushes_per_repo: 4.8824
     active_days: 37
     repos_not_owned: 3
     not_owned_basenames: 3
@@ -154,6 +154,6 @@ repos:
 
 # aryasaatvik
 
-88 pushes across 17 repositories on 37 active days in the last 90 days of public GitHub push activity.
+83 pushes across 17 repositories on 37 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/aryasaatvik

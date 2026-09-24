@@ -8,11 +8,11 @@ provenance_repos:
   - "bytedance/deer-flow"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+repos_populated: true
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "16389f32495280ea"
-pushes_per_week: [1, 5, 4, 1, 1, 0, 1, 0, 0, 0, 0, 1, 0]
+pushes_per_week: [0, 6, 3, 2, 0, 0, 1, 0, 0, 0, 0, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 14
+    pushes: 13
     distinct_repos: 1
-    active_days: 11
+    active_days: 10
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.2727
-  repo_per_active_day: 0.0909
+  push_per_day: 1.3000
+  repo_per_active_day: 0.1000
   not_owned_ratio: 0.0000
   basename_concentration: 1.0000
   shapes: []
@@ -65,22 +65,46 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 14
+    pushes: 13
     distinct_repos: 1
-    pushes_per_repo: 14.0000
-    active_days: 11
+    pushes_per_repo: 13.0000
+    active_days: 10
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 11 active days in 90d — pass"
+  - "activity: 10 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "toolkit"
+    title: "toolkit"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-11"
+  - name: "luna-data"
+    title: "luna-data"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-08"
+  - name: "executor-starvation"
+    title: "executor-starvation"
+    description: "This repository implements executor-starvation detection and mitigation strategies for DeerFlow. It identifies thread pool exhaustion caused by blocking IO, long-running synchronous tasks, and improper async-sync boundaries, preventing worker starvation and stabilizing task execution pressure across agent workflows."
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-07-30"
 ---
 
 # heart-scalpel
 
-14 pushes across 1 repository on 11 active days in the last 90 days of public GitHub push activity.
+13 pushes across 1 repository on 10 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/heart-scalpel

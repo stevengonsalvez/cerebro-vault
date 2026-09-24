@@ -8,39 +8,39 @@ provenance_repos:
   - "chopratejas/headroom"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+repos_populated: true
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "73468cde177ddae6"
-pushes_per_week: [1, 5, 10, 9, 1, 2, 2, 0, 0, 0, 0, 1, 0]
+pushes_per_week: [1, 5, 15, 4, 3, 0, 2, 0, 0, 0, 0, 1, 2]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
-  "30d":
-    pushes: 1
+    pushes: 2
     distinct_repos: 1
     active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
+  "30d":
+    pushes: 3
+    distinct_repos: 2
+    active_days: 2
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
-    pushes: 31
-    distinct_repos: 7
-    active_days: 17
+    pushes: 33
+    distinct_repos: 8
+    active_days: 18
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.8235
-  repo_per_active_day: 0.4118
+  push_per_day: 1.8333
+  repo_per_active_day: 0.4444
   not_owned_ratio: 0.0000
-  basename_concentration: 0.1429
+  basename_concentration: 0.1250
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,38 +49,78 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
-  "30d":
-    pushes: 1
+    pushes: 2
     distinct_repos: 1
-    pushes_per_repo: 1.0000
+    pushes_per_repo: 2.0000
     active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
+  "30d":
+    pushes: 3
+    distinct_repos: 2
+    pushes_per_repo: 1.5000
+    active_days: 2
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
-    pushes: 31
-    distinct_repos: 7
-    pushes_per_repo: 4.4286
-    active_days: 17
+    pushes: 33
+    distinct_repos: 8
+    pushes_per_repo: 4.1250
+    active_days: 18
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 17 active days in 90d — pass"
+  - "activity: 18 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "ChatLink"
+    title: "ChatLink"
+    description: "Local bridge that injects YouTube live chat into Twitch chat/Stream Manager."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 7
+    first_seen: null
+    last_push: "2026-04-19"
+  - name: "FlightSim"
+    title: "FlightSim"
+    description: "A lightweight, photorealistic, web-based flight simulator based on three geospatial. Very much WIP."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-24"
+  - name: "jamesx0416"
+    title: "jamesx0416"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-07-04"
+  - name: "ServerDash"
+    title: "ServerDash"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-02-05"
+  - name: "MessHelper"
+    title: "MessHelper"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-01-30"
 ---
 
 # jamesx0416
 
-31 pushes across 7 repositories on 17 active days in the last 90 days of public GitHub push activity.
+33 pushes across 8 repositories on 18 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/jamesx0416

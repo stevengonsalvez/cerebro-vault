@@ -8,8 +8,8 @@ provenance_repos:
   - "agentscope-ai/QwenPaw"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+repos_populated: true
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "541318303a272608"
 pushes_per_week: [0, 0, 2, 3, 3, 0, 1, 0, 0, 0, 0, 0, 0]
@@ -76,7 +76,52 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "tauri2-template"
+    title: "tauri2-template"
+    description: "tauri2 template with shadcn ui and some mvp feathers"
+    language: "TypeScript"
+    topics:
+      - "react"
+      - "tauri"
+      - "tauri2"
+      - "template"
+      - "typescript"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-06-26"
+  - name: "faster-app"
+    title: "faster-app"
+    description: "API app with FastAPI"
+    language: "Python"
+    topics: []
+    stars_fact: 6
+    first_seen: null
+    last_push: "2026-03-04"
+  - name: "docker-saltstack"
+    title: "docker-saltstack"
+    description: "saltstack in docker"
+    language: "Shell"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-02-07"
+  - name: "approval-kit"
+    title: "approval-kit"
+    description: "core kit with biz approval"
+    language: "Go"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2025-11-30"
+  - name: "avatar"
+    title: "avatar"
+    description: "multiavatar-python self hosted image"
+    language: "Dockerfile"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2025-05-23"
 ---
 
 # mautops

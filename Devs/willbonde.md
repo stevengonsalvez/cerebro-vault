@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: false
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "c1af6b58492f9bf4"
-pushes_per_week: [10, 9, 4, 10, 15, 3, 6, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [9, 8, 3, 13, 12, 3, 6, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 57
+    pushes: 54
     distinct_repos: 1
-    active_days: 26
+    active_days: 25
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.1923
-  repo_per_active_day: 0.0385
+  push_per_day: 2.1600
+  repo_per_active_day: 0.0400
   not_owned_ratio: 1.0000
   basename_concentration: 1.0000
   shapes: []
@@ -65,22 +65,22 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 57
+    pushes: 54
     distinct_repos: 1
-    pushes_per_repo: 57.0000
-    active_days: 26
+    pushes_per_repo: 54.0000
+    active_days: 25
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 26 active days in 90d — pass"
+  - "activity: 25 active days in 90d — pass"
   - "automation: clear — pass"
 repos: []
 ---
 
 # willbonde
 
-57 pushes across 1 repository on 26 active days in the last 90 days of public GitHub push activity.
+54 pushes across 1 repository on 25 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/willbonde

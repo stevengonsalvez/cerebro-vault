@@ -8,11 +8,11 @@ provenance_repos:
   - "can1357/oh-my-pi"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+repos_populated: true
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [162, 10, 7, 1, 6, 11, 9, 4, 8, 4, 1, 0, 4]
+pushes_per_week: [164, 14, 1, 1, 8, 11, 7, 4, 9, 3, 1, 0, 4]
 windows:
   "7d":
     pushes: 4
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 37 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "tessera"
+    title: "tessera"
+    description: "Tessera Window Manager - write your tiling window manger config in TypeScript and use it cross platform with Yabai (macOS), Hyperlnd (Linux)"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-24"
+  - name: "jj-hooks"
+    title: "jj-hooks"
+    description: "Use your pre-commit/pre-push hook runner with jj."
+    language: "Rust"
+    topics: []
+    stars_fact: 8
+    first_seen: null
+    last_push: "2026-09-17"
+  - name: "dev-shared"
+    title: "dev-shared"
+    description: "Shared dev tooling for mattwilkinsonn tool repos: devenv module, setup-devenv composite action, reusable Rust CI workflow, Renovate preset."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-21"
+  - name: "zireael"
+    title: "zireael"
+    description: "Personal monorepo for open source tools (jj-hooks, jj-gt, homebrew tap)"
+    language: "Rust"
+    topics: []
+    stars_fact: 5
+    first_seen: null
+    last_push: "2026-09-12"
+  - name: "homebrew-tap"
+    title: "homebrew-tap"
+    description: "Homebrew tap for personal projects."
+    language: "Ruby"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-11"
+  - name: "jj-gt"
+    title: "jj-gt"
+    description: "Integration between Jujustu VCS `jj` and Graphite's `gt` CLI."
+    language: "Rust"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-21"
 ---
 
 # mattwilkinsonn

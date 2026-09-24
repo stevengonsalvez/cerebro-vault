@@ -8,11 +8,11 @@ provenance_repos:
   - "ChromeDevTools/chrome-devtools-mcp"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+repos_populated: true
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "379642deb53f3714"
-pushes_per_week: [19, 8, 4, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1]
+pushes_per_week: [21, 6, 4, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -76,7 +76,87 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 12 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "hermes-agentmemory"
+    title: "hermes-agentmemory"
+    description: "Pull-model episodic memory plugin for Hermes Agent. Real deletes, audit trace, BYO Claude. MIT."
+    language: "Python"
+    topics:
+      - "agentmemory"
+      - "ai-agents"
+      - "hermes-agent"
+      - "memory"
+      - "open-source"
+    stars_fact: 11
+    first_seen: null
+    last_push: "2026-07-25"
+  - name: "astra-agent"
+    title: "astra-agent"
+    description: "Standalone AI agent runtime — tool execution, context management, and multi-model routing for autonomous assistants"
+    language: "TypeScript"
+    topics:
+      - "ai"
+      - "ai-agents"
+      - "typescript"
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-07-25"
+  - name: "MukundaKatta"
+    title: "MukundaKatta"
+    description: "Profile README — AI/ML engineer portfolio, open-source contributions, and featured projects"
+    language: "Python"
+    topics:
+      - "python"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-22"
+  - name: "fanout"
+    title: "fanout"
+    description: "Agentic content studio: one product → 5 platform-tailored drafts → posted from your own browser session. 15 channels, no third-party API keys."
+    language: "Python"
+    topics:
+      - "agentic-ai"
+      - "bluesky"
+      - "browser-automation"
+      - "chrome-extension"
+      - "content-generation"
+      - "fastapi"
+      - "groq"
+      - "indie-hackers"
+      - "linkedin"
+      - "llama"
+      - "marketing-automation"
+      - "mastodon"
+      - "nextjs"
+      - "reddit"
+      - "social-media"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-21"
+  - name: "rnht"
+    title: "rnht"
+    description: "Rudra Narayana Hindu Temple — community platform for events, donations, and priest scheduling"
+    language: "TypeScript"
+    topics:
+      - "community"
+      - "donations"
+      - "events"
+      - "react"
+      - "temple"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-21"
+  - name: "mukunda-ai"
+    title: "mukunda-ai"
+    description: "Personal portfolio — mukundakatta.dev | AI/ML Engineer"
+    language: "TypeScript"
+    topics:
+      - "ai"
+      - "fintech"
+      - "typescript"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-19"
 ---
 
 # MukundaKatta

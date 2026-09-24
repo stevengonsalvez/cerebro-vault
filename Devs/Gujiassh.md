@@ -11,29 +11,29 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "16389f32495280ea"
   - "3c90af76cbde0363"
   - "d1946b21c02e5fa5"
-pushes_per_week: [4, 10, 6, 8, 7, 1, 2, 12, 2, 1, 0, 0, 4]
+pushes_per_week: [2, 9, 7, 7, 7, 1, 7, 8, 1, 1, 0, 0, 8]
 windows:
   "7d":
-    pushes: 4
-    distinct_repos: 4
-    active_days: 3
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
-  "30d":
-    pushes: 5
+    pushes: 8
     distinct_repos: 4
     active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
+  "30d":
+    pushes: 9
+    distinct_repos: 4
+    active_days: 5
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
-    pushes: 57
+    pushes: 58
     distinct_repos: 15
     active_days: 30
     repos_not_owned: 0
@@ -41,7 +41,7 @@ windows:
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.9000
+  push_per_day: 1.9333
   repo_per_active_day: 0.5000
   not_owned_ratio: 0.0000
   basename_concentration: 0.0667
@@ -53,25 +53,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 4
+    pushes: 8
     distinct_repos: 4
-    pushes_per_repo: 1.0000
-    active_days: 3
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
-  "30d":
-    pushes: 5
-    distinct_repos: 4
-    pushes_per_repo: 1.2500
+    pushes_per_repo: 2.0000
     active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
+  "30d":
+    pushes: 9
+    distinct_repos: 4
+    pushes_per_repo: 2.2500
+    active_days: 5
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
-    pushes: 57
+    pushes: 58
     distinct_repos: 15
-    pushes_per_repo: 3.8000
+    pushes_per_repo: 3.8667
     active_days: 30
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -169,6 +169,6 @@ repos:
 
 # Gujiassh
 
-57 pushes across 15 repositories on 30 active days in the last 90 days of public GitHub push activity.
+58 pushes across 15 repositories on 30 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Gujiassh

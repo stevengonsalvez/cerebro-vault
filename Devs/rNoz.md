@@ -8,11 +8,11 @@ provenance_repos:
   - "chopratejas/headroom"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+repos_populated: true
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "73468cde177ddae6"
-pushes_per_week: [1, 7, 10, 7, 4, 6, 0, 0, 3, 0, 0, 1, 1]
+pushes_per_week: [1, 9, 8, 7, 4, 6, 0, 0, 3, 0, 0, 1, 1]
 windows:
   "7d":
     pushes: 1
@@ -76,7 +76,71 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 19 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "factory-ai-droid-cli-rnoz"
+    title: "factory-ai-droid-cli-rnoz"
+    description: "Always-fresh, automated packaging for Factory.ai CLI (droid) with zero-waste session titling, cross-harness keybindings and universal CPU support (AVX2 & baseline)"
+    language: "Python"
+    topics:
+      - "agent-harness"
+      - "agentic-systems"
+      - "archlinux"
+      - "aur"
+      - "aur-package"
+      - "aur-packages"
+      - "aurscan"
+      - "cli"
+      - "cli-agent"
+      - "coding-agent"
+      - "developer-tools"
+      - "droid-cli"
+      - "factory-ai"
+      - "harness"
+      - "packaging"
+      - "terminal"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-24"
+  - name: "mikrotik-zed"
+    title: "mikrotik-zed"
+    description: "Zed editor extension for MikroTik RouterOS Script (RSC) — syntax highlighting, autocompletion, and hover documentation"
+    language: "Rust"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-21"
+  - name: "mikrotik-rsc-grammar"
+    title: "mikrotik-rsc-grammar"
+    description: "Tree-sitter grammar for MikroTik RouterOS Script (RSC) language"
+    language: "C"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-21"
+  - name: "vue-docsets"
+    title: "vue-docsets"
+    description: "Vue Docsets: vuex, vue-router, quasar."
+    language: "HTML"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2023-01-05"
+  - name: "phoenix-elixir-dokku"
+    title: "phoenix-elixir-dokku"
+    description: null
+    language: "Elixir"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2023-01-06"
+  - name: "opencl_embedded_tests"
+    title: "opencl_embedded_tests"
+    description: null
+    language: "C++"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2019-12-24"
 ---
 
 # rNoz

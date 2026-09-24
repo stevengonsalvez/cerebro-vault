@@ -8,11 +8,11 @@ provenance_repos:
   - "affaan-m/ECC"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+repos_populated: true
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "edb3a626875732de"
-pushes_per_week: [1, 0, 2, 1, 1, 0, 0, 1, 3, 3, 5, 3, 27]
+pushes_per_week: [1, 0, 2, 2, 0, 0, 0, 1, 4, 2, 6, 3, 26]
 windows:
   "7d":
     pushes: 27
@@ -76,7 +76,60 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 24 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "shangan"
+    title: "shangan"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-24"
+  - name: "aiagentguide"
+    title: "aiagentguide"
+    description: "Agent 智能体开发教程"
+    language: "JavaScript"
+    topics:
+      - "agent"
+      - "agentic-ai"
+      - "ai-agent"
+      - "llm"
+      - "rag"
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-09-24"
+  - name: "e-commerce"
+    title: "e-commerce"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-24"
+  - name: "seo"
+    title: "seo"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-24"
+  - name: "CloudCrane"
+    title: "CloudCrane"
+    description: "PbootcmsAgent筑云鹤"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-24"
+  - name: "open-lab-components"
+    title: "open-lab-components"
+    description: "面向 AI 与教学平台的 STEM 教育组件库，支持 HTML 片段、JS API、Registry、静态站和 MCP Agent 集成。"
+    language: "HTML"
+    topics: []
+    stars_fact: 7
+    first_seen: null
+    last_push: "2026-08-16"
 ---
 
 # itkdm

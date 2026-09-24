@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: false
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "edb3a626875732de"
-pushes_per_week: [99, 31, 22, 6, 6, 0, 0, 1, 0, 0, 0, 0, 0]
+pushes_per_week: [105, 27, 14, 8, 4, 0, 0, 1, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 165
-    distinct_repos: 27
+    pushes: 159
+    distinct_repos: 25
     active_days: 25
     repos_not_owned: 6
     not_owned_basenames: 6
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 6.6000
-  repo_per_active_day: 1.0800
-  not_owned_ratio: 0.2222
-  basename_concentration: 0.0741
+  push_per_day: 6.3600
+  repo_per_active_day: 1.0000
+  not_owned_ratio: 0.2400
+  basename_concentration: 0.0800
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,9 +65,9 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 165
-    distinct_repos: 27
-    pushes_per_repo: 6.1111
+    pushes: 159
+    distinct_repos: 25
+    pushes_per_repo: 6.3600
     active_days: 25
     repos_not_owned: 6
     not_owned_basenames: 6
@@ -81,6 +81,6 @@ repos: []
 
 # YuhaoLin2005
 
-165 pushes across 27 repositories on 25 active days in the last 90 days of public GitHub push activity.
+159 pushes across 25 repositories on 25 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/YuhaoLin2005

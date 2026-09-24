@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "51d6155061d60774"
-pushes_per_week: [76, 115, 61, 36, 14, 11, 25, 26, 7, 4, 4, 14, 41]
+pushes_per_week: [85, 105, 58, 36, 14, 10, 29, 25, 2, 4, 4, 15, 45]
 windows:
   "7d":
-    pushes: 41
+    pushes: 46
     distinct_repos: 2
     active_days: 7
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
   "30d":
-    pushes: 63
+    pushes: 68
     distinct_repos: 2
-    active_days: 17
+    active_days: 18
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
   "90d":
-    pushes: 434
+    pushes: 432
     distinct_repos: 4
-    active_days: 72
+    active_days: 71
     repos_not_owned: 4
     not_owned_basenames: 3
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 6.0278
-  repo_per_active_day: 0.0556
+  push_per_day: 6.0845
+  repo_per_active_day: 0.0563
   not_owned_ratio: 1.0000
   basename_concentration: 0.5000
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 41
+    pushes: 46
     distinct_repos: 2
-    pushes_per_repo: 20.5000
+    pushes_per_repo: 23.0000
     active_days: 7
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
   "30d":
-    pushes: 63
+    pushes: 68
     distinct_repos: 2
-    pushes_per_repo: 31.5000
-    active_days: 17
+    pushes_per_repo: 34.0000
+    active_days: 18
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
   "90d":
-    pushes: 434
+    pushes: 432
     distinct_repos: 4
-    pushes_per_repo: 108.5000
-    active_days: 72
+    pushes_per_repo: 108.0000
+    active_days: 71
     repos_not_owned: 4
     not_owned_basenames: 3
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 72 active days in 90d — pass"
+  - "activity: 71 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "zotero-engine-list"
@@ -138,6 +138,6 @@ repos:
 
 # arvinxx
 
-434 pushes across 4 repositories on 72 active days in the last 90 days of public GitHub push activity.
+432 pushes across 4 repositories on 71 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/arvinxx

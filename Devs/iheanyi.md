@@ -8,11 +8,11 @@ provenance_repos:
   - "agavra/tuicr"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+repos_populated: true
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [0, 0, 0, 0, 4, 1, 7, 3, 0, 1, 2, 0, 0]
+pushes_per_week: [0, 0, 0, 0, 5, 0, 10, 0, 0, 1, 2, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 9 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "swift-palettecolor"
+    title: "swift-palettecolor"
+    description: "Swift port of AndroidX Palette (PaletteColor) — reusable SPM package"
+    language: "Swift"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-10"
+  - name: "frame"
+    title: "frame"
+    description: "Local Android capture and editing studio for desktop and the browser. Powered by scrcpy and Tango ADB."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-09"
+  - name: "coda-bandcamp"
+    title: "coda-bandcamp"
+    description: "Fast cross-platform Bandcamp desktop player with a persistent queue."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-05"
+  - name: "scanarr"
+    title: "scanarr"
+    description: "Manga organizer/reader for self-hosted users"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-05"
+  - name: "shadcn-rails"
+    title: "shadcn-rails"
+    description: "A Claude Code experiment for porting shadcn to Rails"
+    language: "Ruby"
+    topics: []
+    stars_fact: 10
+    first_seen: null
+    last_push: "2026-09-21"
+  - name: "grove"
+    title: "grove"
+    description: null
+    language: "Go"
+    topics: []
+    stars_fact: 70
+    first_seen: null
+    last_push: "2026-08-30"
 ---
 
 # iheanyi

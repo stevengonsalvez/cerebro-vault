@@ -8,11 +8,11 @@ provenance_repos:
   - "AstrBotDevs/AstrBot"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+repos_populated: true
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [0, 0, 0, 3, 3, 8, 7, 6, 0, 0, 0, 0, 0]
+pushes_per_week: [0, 0, 0, 3, 3, 8, 11, 2, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 13 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "WorlditorMCP"
+    title: "WorlditorMCP"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-22"
+  - name: "astrbot_plugin_testbench"
+    title: "astrbot_plugin_testbench"
+    description: "面向 AstrBot 的测试工具平台"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-28"
+  - name: "astrbot_plugin_worlditor"
+    title: "astrbot_plugin_worlditor"
+    description: "世界编辑器、世界观察者"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-17"
+  - name: "astrbot_plugin_flowbar"
+    title: "astrbot_plugin_flowbar"
+    description: "滑动、动态、灵活的状态栏"
+    language: "Batchfile"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-03"
+  - name: "astrbot_plugin_ssh_execute_shell"
+    title: "astrbot_plugin_ssh_execute_shell"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-07-31"
+  - name: "HotkeyCommand"
+    title: "HotkeyCommand"
+    description: null
+    language: "Java"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2024-07-31"
 ---
 
 # Rail1bc

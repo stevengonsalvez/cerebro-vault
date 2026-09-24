@@ -11,37 +11,37 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "668711a6e1072822"
   - "73468cde177ddae6"
-pushes_per_week: [18, 29, 90, 37, 17, 15, 10, 5, 1, 0, 1, 3, 6]
+pushes_per_week: [19, 28, 107, 19, 16, 16, 10, 4, 1, 0, 1, 4, 6]
 windows:
   "7d":
-    pushes: 6
+    pushes: 7
     distinct_repos: 3
     active_days: 4
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
   "30d":
-    pushes: 10
+    pushes: 11
     distinct_repos: 4
     active_days: 7
     repos_not_owned: 3
     not_owned_basenames: 1
     not_owned_owners: 3
   "90d":
-    pushes: 232
+    pushes: 231
     distinct_repos: 19
-    active_days: 52
+    active_days: 51
     repos_not_owned: 18
     not_owned_basenames: 2
     not_owned_owners: 18
 automation:
   state: "clear"
-  push_per_day: 4.4615
-  repo_per_active_day: 0.3654
+  push_per_day: 4.5294
+  repo_per_active_day: 0.3725
   not_owned_ratio: 0.9474
   basename_concentration: 0.8947
   shapes:
@@ -68,32 +68,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 6
+    pushes: 7
     distinct_repos: 3
-    pushes_per_repo: 2.0000
+    pushes_per_repo: 2.3333
     active_days: 4
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
   "30d":
-    pushes: 10
+    pushes: 11
     distinct_repos: 4
-    pushes_per_repo: 2.5000
+    pushes_per_repo: 2.7500
     active_days: 7
     repos_not_owned: 3
     not_owned_basenames: 1
     not_owned_owners: 3
   "90d":
-    pushes: 232
+    pushes: 231
     distinct_repos: 19
-    pushes_per_repo: 12.2105
-    active_days: 52
+    pushes_per_repo: 12.1579
+    active_days: 51
     repos_not_owned: 18
     not_owned_basenames: 2
     not_owned_owners: 18
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 52 active days in 90d — pass"
+  - "activity: 51 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "invalidate"
@@ -158,6 +158,6 @@ repos:
 
 # chopratejas
 
-232 pushes across 19 repositories on 52 active days in the last 90 days of public GitHub push activity.
+231 pushes across 19 repositories on 51 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/chopratejas

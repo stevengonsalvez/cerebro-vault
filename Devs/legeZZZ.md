@@ -8,11 +8,11 @@ provenance_repos:
   - "affaan-m/ECC"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+repos_populated: true
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "edb3a626875732de"
-pushes_per_week: [0, 5, 0, 1, 0, 1, 1, 1, 0, 0, 0, 0, 3]
+pushes_per_week: [3, 2, 0, 1, 0, 1, 2, 0, 0, 0, 0, 0, 3]
 windows:
   "7d":
     pushes: 3
@@ -76,7 +76,31 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 8 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "insurance-client-attribution"
+    title: "insurance-client-attribution"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 102
+    first_seen: null
+    last_push: "2026-09-21"
+  - name: "ExoFlow"
+    title: "ExoFlow"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-13"
+  - name: "sdd-exoskeleton"
+    title: "sdd-exoskeleton"
+    description: "SDD exoskeleton for legacy projects — CodeGraph + OpenSpec + Obsidian"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-05-31"
 ---
 
 # legeZZZ

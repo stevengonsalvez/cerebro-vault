@@ -8,37 +8,37 @@ provenance_repos:
   - "cloudflare/cloudflare-os"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+repos_populated: true
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "386c24cf5e18fd90"
-pushes_per_week: [0, 0, 0, 0, 0, 1, 8, 10, 5, 5, 0, 0, 2]
+pushes_per_week: [0, 0, 0, 0, 1, 0, 11, 7, 7, 3, 0, 0, 3]
 windows:
   "7d":
-    pushes: 2
+    pushes: 3
     distinct_repos: 1
-    active_days: 1
+    active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 7
+    pushes: 8
     distinct_repos: 1
-    active_days: 4
+    active_days: 5
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 31
+    pushes: 32
     distinct_repos: 4
-    active_days: 14
+    active_days: 15
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.2143
-  repo_per_active_day: 0.2857
+  push_per_day: 2.1333
+  repo_per_active_day: 0.2667
   not_owned_ratio: 0.5000
   basename_concentration: 0.2500
   shapes: []
@@ -49,38 +49,86 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
+    pushes: 3
     distinct_repos: 1
-    pushes_per_repo: 2.0000
-    active_days: 1
+    pushes_per_repo: 3.0000
+    active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 7
+    pushes: 8
     distinct_repos: 1
-    pushes_per_repo: 7.0000
-    active_days: 4
+    pushes_per_repo: 8.0000
+    active_days: 5
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 31
+    pushes: 32
     distinct_repos: 4
-    pushes_per_repo: 7.7500
-    active_days: 14
+    pushes_per_repo: 8.0000
+    active_days: 15
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 14 active days in 90d — pass"
+  - "activity: 15 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "github-tls-intercept-repro"
+    title: "github-tls-intercept-repro"
+    description: null
+    language: "Go"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-04"
+  - name: "containers-template-test-hello"
+    title: "containers-template-test-hello"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-06-20"
+  - name: "moltbot-sandbox"
+    title: "moltbot-sandbox"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-04-17"
+  - name: "astro-blog-starter-template"
+    title: "astro-blog-starter-template"
+    description: null
+    language: "Astro"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-01-30"
+  - name: "d1-get-started"
+    title: "d1-get-started"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-04-07"
+  - name: "turbo-crash"
+    title: "turbo-crash"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-05-28"
 ---
 
 # Maximo-Guk
 
-31 pushes across 4 repositories on 14 active days in the last 90 days of public GitHub push activity.
+32 pushes across 4 repositories on 15 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Maximo-Guk

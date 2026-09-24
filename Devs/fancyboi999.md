@@ -11,17 +11,17 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "16389f32495280ea"
   - "541318303a272608"
   - "d1946b21c02e5fa5"
-pushes_per_week: [51, 20, 7, 6, 2, 1, 0, 0, 0, 0, 1, 0, 9]
+pushes_per_week: [12, 19, 10, 3, 2, 1, 0, 0, 0, 0, 1, 1, 8]
 windows:
   "7d":
-    pushes: 9
+    pushes: 8
     distinct_repos: 5
-    active_days: 5
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -33,18 +33,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 97
-    distinct_repos: 13
-    active_days: 27
+    pushes: 57
+    distinct_repos: 12
+    active_days: 25
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 3.5926
-  repo_per_active_day: 0.4815
-  not_owned_ratio: 0.0769
-  basename_concentration: 0.1538
+  push_per_day: 2.2800
+  repo_per_active_day: 0.4800
+  not_owned_ratio: 0.0833
+  basename_concentration: 0.1667
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -53,10 +53,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 9
+    pushes: 8
     distinct_repos: 5
-    pushes_per_repo: 1.8000
-    active_days: 5
+    pushes_per_repo: 1.6000
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -69,16 +69,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 97
-    distinct_repos: 13
-    pushes_per_repo: 7.4615
-    active_days: 27
+    pushes: 57
+    distinct_repos: 12
+    pushes_per_repo: 4.7500
+    active_days: 25
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 3 vault signal(s) — pass"
-  - "activity: 27 active days in 90d — pass"
+  - "activity: 25 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "ai-engineering-from-scratch-zh"
@@ -209,6 +209,6 @@ repos:
 
 # fancyboi999
 
-97 pushes across 13 repositories on 27 active days in the last 90 days of public GitHub push activity.
+57 pushes across 12 repositories on 25 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/fancyboi999

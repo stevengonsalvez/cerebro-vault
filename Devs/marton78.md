@@ -8,11 +8,11 @@ provenance_repos:
   - "can1357/oh-my-pi"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+repos_populated: true
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [6, 1, 0, 0, 0, 5, 0, 0, 1, 1, 0, 0, 0]
+pushes_per_week: [2, 1, 0, 0, 3, 2, 0, 0, 1, 1, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 14
-    distinct_repos: 6
-    active_days: 8
+    pushes: 10
+    distinct_repos: 4
+    active_days: 7
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.7500
-  repo_per_active_day: 0.7500
-  not_owned_ratio: 0.1667
-  basename_concentration: 0.1667
+  push_per_day: 1.4286
+  repo_per_active_day: 0.5714
+  not_owned_ratio: 0.2500
+  basename_concentration: 0.2500
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,22 +65,70 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 14
-    distinct_repos: 6
-    pushes_per_repo: 2.3333
-    active_days: 8
+    pushes: 10
+    distinct_repos: 4
+    pushes_per_repo: 2.5000
+    active_days: 7
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 8 active days in 90d — pass"
+  - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "pffft"
+    title: "pffft"
+    description: "A fork of Julien Pommier's Pretty Fast FFT (PFFFT) library, with several additions"
+    language: "C"
+    topics:
+      - "c"
+      - "convolution"
+      - "cpp"
+      - "dsp"
+      - "fast-convolution"
+      - "fft"
+      - "fft-library"
+      - "pffft"
+    stars_fact: 370
+    first_seen: null
+    last_push: "2026-09-07"
+  - name: "acp-probe"
+    title: "acp-probe"
+    description: "A little agent control protocol (ACP) tester tool, to help develop ACP clients"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-07-31"
+  - name: "disiple"
+    title: "disiple"
+    description: "Digital Signal Processing Library for Eigen"
+    language: "C++"
+    topics: []
+    stars_fact: 12
+    first_seen: null
+    last_push: "2023-01-16"
+  - name: "atlassian"
+    title: "atlassian"
+    description: "My Atlassian setup"
+    language: "Dockerfile"
+    topics: []
+    stars_fact: 6
+    first_seen: null
+    last_push: "2018-09-24"
+  - name: "envgineer"
+    title: "envgineer"
+    description: "Pragmatic secrets management via encrypted .env files"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2020-02-25"
 ---
 
 # marton78
 
-14 pushes across 6 repositories on 8 active days in the last 90 days of public GitHub push activity.
+10 pushes across 4 repositories on 7 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/marton78

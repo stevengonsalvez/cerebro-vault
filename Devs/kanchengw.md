@@ -8,11 +8,11 @@ provenance_repos:
   - "BigPizzaV3/CodexPlusPlus"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+repos_populated: true
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "90688bf127241ceb"
-pushes_per_week: [10, 7, 2, 0, 0, 0, 0, 6, 1, 0, 0, 0, 0]
+pushes_per_week: [11, 6, 2, 0, 0, 0, 0, 6, 1, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,93 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 10 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "cnllm"
+    title: "cnllm"
+    description: "Python toolkit for Chinese LLMs, with flexible batch capacity, structured real-time visulization and automated accumulation for streaming, and explicit feedback on vendor-native parameter validation."
+    language: "Python"
+    topics:
+      - "adapter"
+      - "ai"
+      - "api"
+      - "api-wrapper"
+      - "autogen"
+      - "chinese-llm"
+      - "chinese-llms"
+      - "deepeval"
+      - "doubao"
+      - "glm"
+      - "haystack"
+      - "langchain"
+      - "litellm"
+      - "llamaindex"
+      - "machine-learning"
+      - "mimo-v2"
+      - "minimax"
+      - "openai"
+      - "package"
+      - "python"
+    stars_fact: 175
+    first_seen: null
+    last_push: "2026-06-15"
+  - name: "dsh-mindseye"
+    title: "dsh-mindseye"
+    description: "Plug-in vision for text-only models on DSH, with native interaction for image understanding and generation, and GUI automation, through layered evidence memory and cache."
+    language: "TypeScript"
+    topics:
+      - "agent"
+      - "deepseek-harness"
+      - "dsh-plugin"
+      - "gui-automation"
+      - "memory"
+      - "multimodal"
+      - "text-only-llm"
+      - "vision"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-08-29"
+  - name: "dsh-assembly.resume"
+    title: "dsh-assembly.resume"
+    description: "Import local Codex and Claude sessions into DeepSeek Harness."
+    language: "TypeScript"
+    topics:
+      - "ai-agent"
+      - "claude-code"
+      - "codex"
+      - "coding-agent"
+      - "deepseek"
+      - "dsh"
+      - "dsh-plugin"
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-09-06"
+  - name: "image-router"
+    title: "image-router"
+    description: "Vision analysis proxy for CodexPlusPlus: replaces images with text descriptions before forwarding to text-only LLMs."
+    language: "Python"
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-07-07"
+  - name: "1Code"
+    title: "1Code"
+    description: "Orchestration layer for coding agents, featuring customizable provider for both Claude Code and Codex."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-08"
+  - name: "NexusGraph"
+    title: "NexusGraph"
+    description: "Production-grade GraphRAG Demo with 3-path retrieval, LLM reranker, offline evaluation, LLM-as-Judge, dual-layer memory, and automated data flywheel with visulization dashborad and Developing UI."
+    language: "Python"
+    topics:
+      - "agentic-workflow"
+      - "graphrag"
+      - "langgraph"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-07-03"
 ---
 
 # kanchengw

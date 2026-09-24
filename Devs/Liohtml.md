@@ -8,11 +8,11 @@ provenance_repos:
   - "ChromeDevTools/chrome-devtools-mcp"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+repos_populated: true
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "379642deb53f3714"
-pushes_per_week: [5, 14, 5, 4, 1, 4, 1, 0, 0, 0, 0, 0, 1]
+pushes_per_week: [15, 4, 5, 4, 3, 2, 1, 0, 0, 0, 0, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -76,7 +76,99 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 15 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "MedCheck"
+    title: "MedCheck"
+    description: "AI-powered medical imaging analysis toolkit. Analyze MRI scans with local ML models and Vision-LLMs (Claude, GPT, Gemini). Docker-ready."
+    language: "Python"
+    topics:
+      - "ai"
+      - "computer-vision"
+      - "deep-learning"
+      - "dicom"
+      - "docker"
+      - "healthcare"
+      - "machine-learning"
+      - "medical-image-analysis"
+      - "medical-imaging"
+      - "mri"
+      - "python"
+      - "pytorch"
+      - "radiology"
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-09-24"
+  - name: "cydrust"
+    title: "cydrust"
+    description: "Cyberpunk Development Monitor — Real-time AI session tracker for Claude Code on ESP32"
+    language: "Rust"
+    topics:
+      - "claude-code"
+      - "embedded"
+      - "esp32"
+      - "firmware"
+      - "iot"
+      - "monitoring"
+      - "rust"
+      - "st7789"
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-08-03"
+  - name: "RUSTScrapling"
+    title: "RUSTScrapling"
+    description: "A high-performance Rust port of Scrapling - modern web scraping framework with CSS selectors, async HTTP, and spider-based crawling"
+    language: "Rust"
+    topics:
+      - "async"
+      - "crawler"
+      - "css-selectors"
+      - "html-parser"
+      - "rust"
+      - "scraping-framework"
+      - "tokio"
+      - "web-scraping"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-23"
+  - name: "matomo-mcp"
+    title: "matomo-mcp"
+    description: "Fast, curated MCP server for Matomo Analytics — ask your analytics anything from Claude, Cursor, or any MCP client"
+    language: "Rust"
+    topics:
+      - "analytics"
+      - "claude"
+      - "llm"
+      - "matomo"
+      - "mcp"
+      - "model-context-protocol"
+      - "rust"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-17"
+  - name: "sistrix-mcp"
+    title: "sistrix-mcp"
+    description: "Fast, curated MCP server for the SISTRIX SEO Toolbox — 17 credit-aware SEO tools + full-API escape hatch. Rust, single binary."
+    language: "Rust"
+    topics:
+      - "ai"
+      - "claude"
+      - "llm"
+      - "mcp"
+      - "model-context-protocol"
+      - "rust"
+      - "seo"
+      - "sistrix"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-17"
+  - name: "agentbox"
+    title: "agentbox"
+    description: "One-command, Docker-isolated agentic coding sandbox: tmux + Claude Code (Agent Teams) + web Observer."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-02"
 ---
 
 # Liohtml

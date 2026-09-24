@@ -8,11 +8,11 @@ provenance_repos:
   - "agavra/tuicr"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+repos_populated: true
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [1, 0, 0, 0, 0, 0, 1, 3, 0, 0, 0, 0, 0]
+pushes_per_week: [1, 0, 0, 0, 0, 0, 2, 2, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "secret-octo-wight"
+    title: "secret-octo-wight"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-14"
+  - name: "git-gud"
+    title: "git-gud"
+    description: "A collection of often used git related scripts"
+    language: "Shell"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-09-09"
+  - name: "claude-tray"
+    title: "claude-tray"
+    description: "Windows tray widget showing the status of every running Claude Code session"
+    language: "Rust"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-08"
+  - name: "vroom-tune"
+    title: "vroom-tune"
+    description: "collection of files for tuning my car audio system"
+    language: "Java"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-22"
+  - name: "hyprwin"
+    title: "hyprwin"
+    description: "tiling window manager for windows"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-06-30"
+  - name: "scaling-parakeet"
+    title: "scaling-parakeet"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2025-06-28"
 ---
 
 # joshvito

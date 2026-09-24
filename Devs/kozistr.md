@@ -8,11 +8,11 @@ provenance_repos:
   - "anthropics/anthropic-sdk-python"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+repos_populated: true
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "1be978947e68d1f2"
-pushes_per_week: [2, 3, 3, 2, 2, 1, 7, 0, 2, 0, 1, 1, 1]
+pushes_per_week: [3, 2, 4, 2, 1, 1, 7, 0, 2, 0, 1, 1, 1]
 windows:
   "7d":
     pushes: 1
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 5
+    pushes: 3
     distinct_repos: 1
-    active_days: 5
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 5
+    pushes: 3
     distinct_repos: 1
-    pushes_per_repo: 5.0000
-    active_days: 5
+    pushes_per_repo: 3.0000
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -76,7 +76,116 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 22 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "hashcodecs-rs"
+    title: "hashcodecs-rs"
+    description: "A blazing fast hash & codecs implementations in pure Rust"
+    language: "Rust"
+    topics:
+      - "base64"
+      - "murmur3"
+      - "python"
+      - "rust"
+      - "simd"
+      - "xxhash"
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-09-24"
+  - name: "kozistr"
+    title: "kozistr"
+    description: "my simple profile"
+    language: null
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-09-23"
+  - name: "pytorch_optimizer"
+    title: "pytorch_optimizer"
+    description: "optimizer & lr scheduler & loss function collections in PyTorch"
+    language: "Python"
+    topics:
+      - "adabelief"
+      - "adai"
+      - "adamp"
+      - "adan"
+      - "ademamix"
+      - "deep-learning"
+      - "diffgrad"
+      - "gradient-centralization"
+      - "learning-rate-scheduling"
+      - "lookahead"
+      - "loss-functions"
+      - "madgrad"
+      - "muon"
+      - "optimizer"
+      - "pytorch"
+      - "radam"
+      - "ranger"
+      - "sam"
+      - "scion"
+    stars_fact: 428
+    first_seen: null
+    last_push: "2026-09-19"
+  - name: "Awesome-GANs"
+    title: "Awesome-GANs"
+    description: "Awesome Generative Adversarial Networks with tensorflow"
+    language: "Python"
+    topics:
+      - "acgan"
+      - "arxiv"
+      - "began"
+      - "cgan"
+      - "cogan"
+      - "dcgan"
+      - "dragan"
+      - "ebgan"
+      - "f-gan"
+      - "gan"
+      - "generative-adversarial-network"
+      - "lapgan"
+      - "lsgan"
+      - "machine-learning"
+      - "sagan"
+      - "srgan"
+      - "stargan"
+      - "tensorflow"
+      - "wgan"
+      - "wgan-gp"
+    stars_fact: 757
+    first_seen: null
+    last_push: "2022-06-25"
+  - name: "semantic-search-rs"
+    title: "semantic-search-rs"
+    description: "semantic vector search demo with gRPC server in Rust"
+    language: "Rust"
+    topics:
+      - "deep-learning"
+      - "grpc"
+      - "hnsw"
+      - "language-model"
+      - "libtorch"
+      - "quantize"
+      - "rust"
+      - "search-engine"
+      - "semantic-search"
+      - "simd"
+    stars_fact: 10
+    first_seen: null
+    last_push: "2023-08-29"
+  - name: "catboost-server-rs"
+    title: "catboost-server-rs"
+    description: "CatBoost server in Rust + gRPC"
+    language: "Rust"
+    topics:
+      - "catboost"
+      - "grpc"
+      - "machine-learning"
+      - "rust"
+      - "server"
+      - "serving"
+    stars_fact: 3
+    first_seen: null
+    last_push: "2022-09-09"
 ---
 
 # kozistr

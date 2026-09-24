@@ -8,11 +8,11 @@ provenance_repos:
   - "ChromeDevTools/chrome-devtools-mcp"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+repos_populated: true
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "379642deb53f3714"
-pushes_per_week: [23, 22, 1, 8, 0, 0, 0, 1, 0, 0, 1, 0, 2]
+pushes_per_week: [39, 1, 1, 8, 0, 0, 1, 0, 0, 0, 1, 1, 1]
 windows:
   "7d":
     pushes: 2
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 58
+    pushes: 53
     distinct_repos: 8
-    active_days: 14
+    active_days: 13
     repos_not_owned: 6
     not_owned_basenames: 5
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 4.1429
-  repo_per_active_day: 0.5714
+  push_per_day: 4.0769
+  repo_per_active_day: 0.6154
   not_owned_ratio: 0.7500
   basename_concentration: 0.2500
   shapes: []
@@ -65,22 +65,70 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 58
+    pushes: 53
     distinct_repos: 8
-    pushes_per_repo: 7.2500
-    active_days: 14
+    pushes_per_repo: 6.6250
+    active_days: 13
     repos_not_owned: 6
     not_owned_basenames: 5
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 14 active days in 90d — pass"
+  - "activity: 13 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "awesome-neovim-sorted"
+    title: "awesome-neovim-sorted"
+    description: "awesome-neovim sorted by stars"
+    language: "Python"
+    topics: []
+    stars_fact: 5
+    first_seen: null
+    last_push: "2026-09-24"
+  - name: "aufio"
+    title: "aufio"
+    description: "Agent-friendly CLI for controlling the FiiO KA17’s onboard EQ on macOS, with saved presets, automatic backups, and verified device readback."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-17"
+  - name: "nix-config"
+    title: "nix-config"
+    description: "My configuration files"
+    language: "Nix"
+    topics: []
+    stars_fact: 8
+    first_seen: null
+    last_push: "2026-09-16"
+  - name: "cv"
+    title: "cv"
+    description: "My simple Markdown CV"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-05-05"
+  - name: "zoekt.nvim"
+    title: "zoekt.nvim"
+    description: "Neovim plugin for blazing-fast code search using Zoekt"
+    language: "Lua"
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2025-09-22"
+  - name: "stignore-gitignore"
+    title: "stignore-gitignore"
+    description: "Generate stignore (Syncthing) out of all .gitignores located recursively within a directory"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-01-27"
 ---
 
 # jupblb
 
-58 pushes across 8 repositories on 14 active days in the last 90 days of public GitHub push activity.
+53 pushes across 8 repositories on 13 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/jupblb

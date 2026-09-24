@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: false
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "f067a4ae268cdf65"
-pushes_per_week: [17, 1, 3, 7, 2, 0, 10, 0, 0, 1, 1, 0, 1]
+pushes_per_week: [14, 1, 3, 7, 2, 0, 10, 0, 0, 1, 1, 0, 2]
 windows:
   "7d":
-    pushes: 1
+    pushes: 2
     distinct_repos: 1
-    active_days: 1
+    active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 3
+    pushes: 4
     distinct_repos: 1
-    active_days: 3
+    active_days: 4
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 43
+    pushes: 41
     distinct_repos: 1
     active_days: 20
     repos_not_owned: 1
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.1500
+  push_per_day: 2.0500
   repo_per_active_day: 0.0500
   not_owned_ratio: 1.0000
   basename_concentration: 1.0000
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
+    pushes: 2
     distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes_per_repo: 2.0000
+    active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 3
+    pushes: 4
     distinct_repos: 1
-    pushes_per_repo: 3.0000
-    active_days: 3
+    pushes_per_repo: 4.0000
+    active_days: 4
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 43
+    pushes: 41
     distinct_repos: 1
-    pushes_per_repo: 43.0000
+    pushes_per_repo: 41.0000
     active_days: 20
     repos_not_owned: 1
     not_owned_basenames: 1
@@ -81,6 +81,6 @@ repos: []
 
 # thcp
 
-43 pushes across 1 repository on 20 active days in the last 90 days of public GitHub push activity.
+41 pushes across 1 repository on 20 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/thcp

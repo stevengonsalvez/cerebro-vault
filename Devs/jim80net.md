@@ -8,11 +8,11 @@ provenance_repos:
   - "abhigyanpatwari/GitNexus"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+repos_populated: true
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [25, 152, 81, 23, 8, 22, 4, 0, 0, 0, 1, 0, 0]
+pushes_per_week: [43, 147, 73, 22, 4, 23, 3, 0, 0, 0, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 39 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "flotilla"
+    title: "flotilla"
+    description: "Run a fleet of AI coding agents from one Chief of Staff — drop-in coordination for the CLIs you already use (Claude Code, Codex, Grok), with a live dashboard, shared memory, and an audited Discord bus."
+    language: "Go"
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-09-08"
+  - name: "gatekeeper-claude"
+    title: "gatekeeper-claude"
+    description: null
+    language: "Go"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-22"
+  - name: "gatekeeper-core"
+    title: "gatekeeper-core"
+    description: "Gatekeeper gatekeeper-core — cross-harness permission gatekeeping (public product family)"
+    language: "Go"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-19"
+  - name: "podcast_reader"
+    title: "podcast_reader"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-17"
+  - name: "memex-grok"
+    title: "memex-grok"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-21"
+  - name: "memex-core"
+    title: "memex-core"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-08-15"
 ---
 
 # jim80net

@@ -8,11 +8,11 @@ provenance_repos:
   - "AlexsJones/llmfit"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+repos_populated: true
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [7, 3, 15, 3, 5, 0, 0, 0, 0, 0, 1, 0, 0]
+pushes_per_week: [5, 3, 15, 4, 4, 0, 0, 0, 0, 0, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 34
+    pushes: 32
     distinct_repos: 3
-    active_days: 17
+    active_days: 15
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.0000
-  repo_per_active_day: 0.1765
+  push_per_day: 2.1333
+  repo_per_active_day: 0.2000
   not_owned_ratio: 0.0000
   basename_concentration: 0.3333
   shapes: []
@@ -65,22 +65,54 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 34
+    pushes: 32
     distinct_repos: 3
-    pushes_per_repo: 11.3333
-    active_days: 17
+    pushes_per_repo: 10.6667
+    active_days: 15
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 17 active days in 90d — pass"
+  - "activity: 15 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "oc2"
+    title: "oc2"
+    description: "Agentic coding harness"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-19"
+  - name: "shake-rattle-and-bang"
+    title: "shake-rattle-and-bang"
+    description: "Helpful pages"
+    language: "Shell"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-07-14"
+  - name: "opencode-agent-team"
+    title: "opencode-agent-team"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-05-05"
+  - name: "basic-to-js"
+    title: "basic-to-js"
+    description: "A plain JavaScript compiler that converts a small GW-BASIC/QuickBASIC-inspired .bas dialect into readable, self-contained JavaScript programs that run directly on Node.js."
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-05-25"
 ---
 
 # panwar-stack
 
-34 pushes across 3 repositories on 17 active days in the last 90 days of public GitHub push activity.
+32 pushes across 3 repositories on 15 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/panwar-stack

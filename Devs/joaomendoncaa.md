@@ -8,11 +8,11 @@ provenance_repos:
   - "agavra/tuicr"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+repos_populated: true
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [52, 7, 8, 1, 0, 0, 1, 2, 0, 0, 0, 1, 1]
+pushes_per_week: [47, 7, 6, 1, 0, 0, 2, 1, 0, 0, 0, 1, 1]
 windows:
   "7d":
     pushes: 1
@@ -29,7 +29,7 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 73
+    pushes: 66
     distinct_repos: 4
     active_days: 19
     repos_not_owned: 0
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 3.8421
+  push_per_day: 3.4737
   repo_per_active_day: 0.2105
   not_owned_ratio: 0.0000
   basename_concentration: 0.2500
@@ -65,9 +65,9 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 73
+    pushes: 66
     distinct_repos: 4
-    pushes_per_repo: 18.2500
+    pushes_per_repo: 16.5000
     active_days: 19
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -76,11 +76,27 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 19 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "config"
+    title: "config"
+    description: null
+    language: "QML"
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-09-20"
+  - name: "ramo"
+    title: "ramo"
+    description: null
+    language: "Shell"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-22"
 ---
 
 # joaomendoncaa
 
-73 pushes across 4 repositories on 19 active days in the last 90 days of public GitHub push activity.
+66 pushes across 4 repositories on 19 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/joaomendoncaa

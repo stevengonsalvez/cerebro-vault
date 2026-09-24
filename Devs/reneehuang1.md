@@ -8,11 +8,11 @@ provenance_repos:
   - "cline/cline"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+repos_populated: true
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "533d51d9d3dea76f"
-pushes_per_week: [10, 1, 1, 3, 0, 0, 1, 1, 0, 0, 0, 1, 0]
+pushes_per_week: [6, 1, 1, 3, 0, 0, 1, 1, 0, 0, 0, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 18
+    pushes: 14
     distinct_repos: 3
-    active_days: 12
+    active_days: 11
     repos_not_owned: 3
     not_owned_basenames: 2
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 1.5000
-  repo_per_active_day: 0.2500
+  push_per_day: 1.2727
+  repo_per_active_day: 0.2727
   not_owned_ratio: 1.0000
   basename_concentration: 0.6667
   shapes: []
@@ -65,22 +65,56 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 18
+    pushes: 14
     distinct_repos: 3
-    pushes_per_repo: 6.0000
-    active_days: 12
+    pushes_per_repo: 4.6667
+    active_days: 11
     repos_not_owned: 3
     not_owned_basenames: 2
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 12 active days in 90d — pass"
+  - "activity: 11 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "cocktailnight-site"
+    title: "cocktailnight-site"
+    description: "Cocktail Night - Privacy Policy & Support for iOS App"
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-03-01"
+  - name: "affirmup-support"
+    title: "affirmup-support"
+    description: "Privacy Policy and Support pages for the AffirmUp iOS app"
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-03-01"
+  - name: "-MFOT-QA"
+    title: "-MFOT-QA"
+    description: "code snippets for multi-hop open table-qa"
+    language: "Jupyter Notebook"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2023-05-05"
+  - name: "reneehuang1"
+    title: "reneehuang1"
+    description: "Config files for my GitHub profile."
+    language: null
+    topics:
+      - "config"
+      - "github-config"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2022-05-29"
 ---
 
 # reneehuang1
 
-18 pushes across 3 repositories on 12 active days in the last 90 days of public GitHub push activity.
+14 pushes across 3 repositories on 11 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/reneehuang1

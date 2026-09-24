@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "379642deb53f3714"
-pushes_per_week: [20, 25, 0, 6, 9, 4, 7, 5, 0, 0, 2, 0, 7]
+pushes_per_week: [20, 25, 3, 3, 9, 6, 6, 4, 0, 0, 2, 1, 7]
 windows:
   "7d":
     pushes: 7
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 9
+    pushes: 10
     distinct_repos: 2
-    active_days: 8
+    active_days: 9
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 85
+    pushes: 86
     distinct_repos: 5
-    active_days: 30
+    active_days: 31
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.8333
-  repo_per_active_day: 0.1667
+  push_per_day: 2.7742
+  repo_per_active_day: 0.1613
   not_owned_ratio: 0.2000
   basename_concentration: 0.4000
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 9
+    pushes: 10
     distinct_repos: 2
-    pushes_per_repo: 4.5000
-    active_days: 8
+    pushes_per_repo: 5.0000
+    active_days: 9
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 85
+    pushes: 86
     distinct_repos: 5
-    pushes_per_repo: 17.0000
-    active_days: 30
+    pushes_per_repo: 17.2000
+    active_days: 31
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 30 active days in 90d — pass"
+  - "activity: 31 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "cctv-camera-database"
@@ -186,6 +186,6 @@ repos:
 
 # ch-bas
 
-85 pushes across 5 repositories on 30 active days in the last 90 days of public GitHub push activity.
+86 pushes across 5 repositories on 31 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ch-bas

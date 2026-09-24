@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [18, 16, 9, 0, 3, 3, 3, 1, 0, 0, 0, 0, 0]
+pushes_per_week: [13, 15, 8, 0, 3, 3, 4, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 53
+    pushes: 46
     distinct_repos: 5
-    active_days: 19
+    active_days: 18
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.7895
-  repo_per_active_day: 0.2632
+  push_per_day: 2.5556
+  repo_per_active_day: 0.2778
   not_owned_ratio: 0.2000
   basename_concentration: 0.4000
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 53
+    pushes: 46
     distinct_repos: 5
-    pushes_per_repo: 10.6000
-    active_days: 19
+    pushes_per_repo: 9.2000
+    active_days: 18
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 19 active days in 90d — pass"
+  - "activity: 18 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "InfoCat"
@@ -143,6 +143,6 @@ repos:
 
 # CN-Scars
 
-53 pushes across 5 repositories on 19 active days in the last 90 days of public GitHub push activity.
+46 pushes across 5 repositories on 18 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/CN-Scars

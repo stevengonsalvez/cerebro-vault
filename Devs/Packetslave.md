@@ -8,11 +8,11 @@ provenance_repos:
   - "AgriciDaniel/claude-obsidian"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+repos_populated: true
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "dc9094c987231bcf"
-pushes_per_week: [2, 1, 0, 0, 0, 2, 5, 7, 2, 0, 0, 1, 5]
+pushes_per_week: [2, 1, 0, 0, 0, 4, 4, 6, 2, 0, 0, 1, 5]
 windows:
   "7d":
     pushes: 5
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 8
-    distinct_repos: 2
-    active_days: 6
+    pushes: 7
+    distinct_repos: 1
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 8
-    distinct_repos: 2
-    pushes_per_repo: 4.0000
-    active_days: 6
+    pushes: 7
+    distinct_repos: 1
+    pushes_per_repo: 7.0000
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 19 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "onetab-to-bookmarks"
+    title: "onetab-to-bookmarks"
+    description: "Convert a OneTab bookmark export to the standard HTML bookmark export format"
+    language: "Python"
+    topics: []
+    stars_fact: 8
+    first_seen: null
+    last_push: "2019-07-27"
+  - name: "experiments"
+    title: "experiments"
+    description: null
+    language: "Go"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-05"
+  - name: "prairie-pip"
+    title: "prairie-pip"
+    description: "Prairie Pip — a tiny 2.5D browser adventure about an adorable prairie dog and his jump-yipping town"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-07"
+  - name: "strava"
+    title: "strava"
+    description: "Python wrapper for the Strava (http://www.strava.com) API"
+    language: "Python"
+    topics: []
+    stars_fact: 25
+    first_seen: null
+    last_push: "2017-11-25"
+  - name: "packetslave-hugo"
+    title: "packetslave-hugo"
+    description: null
+    language: "SCSS"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2023-08-02"
+  - name: "bitfield"
+    title: "bitfield"
+    description: "Python library for representing a set of bits"
+    language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2013-11-02"
 ---
 
 # Packetslave

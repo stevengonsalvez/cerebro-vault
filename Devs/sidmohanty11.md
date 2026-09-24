@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: false
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "745308b2b7085095"
-pushes_per_week: [10, 2, 5, 2, 6, 2, 0, 0, 2, 0, 0, 1, 0]
+pushes_per_week: [8, 4, 5, 1, 7, 0, 0, 0, 2, 0, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 3
+    pushes: 2
     distinct_repos: 1
-    active_days: 3
+    active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 30
+    pushes: 28
     distinct_repos: 2
-    active_days: 19
+    active_days: 18
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.5789
-  repo_per_active_day: 0.1053
+  push_per_day: 1.5556
+  repo_per_active_day: 0.1111
   not_owned_ratio: 0.5000
   basename_concentration: 1.0000
   shapes: []
@@ -57,30 +57,30 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 3
+    pushes: 2
     distinct_repos: 1
-    pushes_per_repo: 3.0000
-    active_days: 3
+    pushes_per_repo: 2.0000
+    active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 30
+    pushes: 28
     distinct_repos: 2
-    pushes_per_repo: 15.0000
-    active_days: 19
+    pushes_per_repo: 14.0000
+    active_days: 18
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 19 active days in 90d — pass"
+  - "activity: 18 active days in 90d — pass"
   - "automation: clear — pass"
 repos: []
 ---
 
 # sidmohanty11
 
-30 pushes across 2 repositories on 19 active days in the last 90 days of public GitHub push activity.
+28 pushes across 2 repositories on 18 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/sidmohanty11

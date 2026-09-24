@@ -8,19 +8,19 @@ provenance_repos:
   - "agavra/tuicr"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+repos_populated: true
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [10, 15, 7, 8, 3, 1, 3, 1, 0, 0, 0, 2, 3]
+pushes_per_week: [16, 9, 7, 8, 4, 1, 2, 1, 0, 0, 1, 4, 0]
 windows:
   "7d":
-    pushes: 3
-    distinct_repos: 1
-    active_days: 1
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
     pushes: 5
     distinct_repos: 2
@@ -49,13 +49,13 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 3
-    distinct_repos: 1
-    pushes_per_repo: 3.0000
-    active_days: 1
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
     pushes: 5
     distinct_repos: 2
@@ -76,7 +76,62 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 27 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "roc-nix-nightly"
+    title: "roc-nix-nightly"
+    description: "Roc, nightly pre-built exe as a nix flake"
+    language: "Nix"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-24"
+  - name: "roc-redis"
+    title: "roc-redis"
+    description: "A binary-safe, platform-agnostic Redis client for Roc"
+    language: "Roc"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-15"
+  - name: "codex-jj-plugin"
+    title: "codex-jj-plugin"
+    description: null
+    language: "Shell"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-07-09"
+  - name: "bs-elm"
+    title: "bs-elm"
+    description: "Bindings for mounting and interacting with Elm applications in Reason."
+    language: "Reason"
+    topics:
+      - "bs-elm"
+      - "bucklescript"
+      - "elm"
+      - "reason-elm"
+      - "reasonml"
+    stars_fact: 43
+    first_seen: null
+    last_push: "2022-12-11"
+  - name: "elm-constants"
+    title: "elm-constants"
+    description: "Generate constant values in Elm from your environment"
+    language: "JavaScript"
+    topics:
+      - "constants"
+      - "elm"
+    stars_fact: 50
+    first_seen: null
+    last_push: "2025-04-22"
+  - name: "zig-game"
+    title: "zig-game"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-01-24"
 ---
 
 # jaredramirez

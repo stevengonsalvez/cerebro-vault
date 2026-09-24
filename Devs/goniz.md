@@ -8,11 +8,11 @@ provenance_repos:
   - "anomalyco/opencode"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+repos_populated: true
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [0, 8, 7, 4, 0, 0, 0, 0, 1, 0, 0, 0, 0]
+pushes_per_week: [2, 8, 9, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 9 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "mlx-vulkan"
+    title: "mlx-vulkan"
+    description: "Home for the Development of MLX Vulkan backend"
+    language: "Python"
+    topics: []
+    stars_fact: 39
+    first_seen: null
+    last_push: "2026-08-24"
+  - name: "opencode-local-provider"
+    title: "opencode-local-provider"
+    description: "OpenCode Plugin for Local LLM Servers"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 37
+    first_seen: null
+    last_push: "2026-05-10"
+  - name: "dyninfer"
+    title: "dyninfer"
+    description: null
+    language: "Rust"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-16"
+  - name: "moshi-opencode-hooks"
+    title: "moshi-opencode-hooks"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-03-20"
+  - name: "vibe-nix"
+    title: "vibe-nix"
+    description: "A vibe coded cli app based on OpenCode SDK to manage Nix packages using your LLM of choice"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-01-21"
+  - name: "opencode-ios"
+    title: "opencode-ios"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2025-09-03"
 ---
 
 # goniz

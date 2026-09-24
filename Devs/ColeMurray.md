@@ -10,36 +10,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "8311cfc3055f8fea"
-pushes_per_week: [21, 31, 39, 57, 14, 33, 15, 11, 6, 1, 7, 9, 23]
+pushes_per_week: [27, 38, 32, 50, 27, 19, 19, 7, 6, 1, 7, 9, 24]
 windows:
   "7d":
     pushes: 24
     distinct_repos: 1
-    active_days: 7
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
     pushes: 41
     distinct_repos: 1
-    active_days: 16
+    active_days: 15
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 267
+    pushes: 266
     distinct_repos: 1
-    active_days: 67
+    active_days: 66
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 3.9851
-  repo_per_active_day: 0.0149
+  push_per_day: 4.0303
+  repo_per_active_day: 0.0152
   not_owned_ratio: 0.0000
   basename_concentration: 1.0000
   shapes: []
@@ -53,7 +53,7 @@ facets:
     pushes: 24
     distinct_repos: 1
     pushes_per_repo: 24.0000
-    active_days: 7
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -61,21 +61,21 @@ facets:
     pushes: 41
     distinct_repos: 1
     pushes_per_repo: 41.0000
-    active_days: 16
+    active_days: 15
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 267
+    pushes: 266
     distinct_repos: 1
-    pushes_per_repo: 267.0000
-    active_days: 67
+    pushes_per_repo: 266.0000
+    active_days: 66
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 67 active days in 90d — pass"
+  - "activity: 66 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "background-agents"
@@ -139,6 +139,6 @@ repos:
 
 # ColeMurray
 
-267 pushes across 1 repository on 67 active days in the last 90 days of public GitHub push activity.
+266 pushes across 1 repository on 66 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ColeMurray

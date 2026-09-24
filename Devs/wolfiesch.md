@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: false
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [84, 3, 6, 100, 52, 41, 10, 1, 4, 6, 0, 0, 1]
+pushes_per_week: [69, 1, 6, 105, 69, 19, 10, 2, 3, 6, 0, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -22,25 +22,25 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 8
-    distinct_repos: 4
-    active_days: 3
+    pushes: 7
+    distinct_repos: 3
+    active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 308
-    distinct_repos: 22
-    active_days: 35
+    pushes: 291
+    distinct_repos: 21
+    active_days: 34
     repos_not_owned: 6
     not_owned_basenames: 4
     not_owned_owners: 5
 automation:
   state: "clear"
-  push_per_day: 8.8000
-  repo_per_active_day: 0.6286
-  not_owned_ratio: 0.2727
-  basename_concentration: 0.1818
+  push_per_day: 8.5588
+  repo_per_active_day: 0.6176
+  not_owned_ratio: 0.2857
+  basename_concentration: 0.1905
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -57,30 +57,30 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 8
-    distinct_repos: 4
-    pushes_per_repo: 2.0000
-    active_days: 3
+    pushes: 7
+    distinct_repos: 3
+    pushes_per_repo: 2.3333
+    active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 308
-    distinct_repos: 22
-    pushes_per_repo: 14.0000
-    active_days: 35
+    pushes: 291
+    distinct_repos: 21
+    pushes_per_repo: 13.8571
+    active_days: 34
     repos_not_owned: 6
     not_owned_basenames: 4
     not_owned_owners: 5
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 35 active days in 90d — pass"
+  - "activity: 34 active days in 90d — pass"
   - "automation: clear — pass"
 repos: []
 ---
 
 # wolfiesch
 
-308 pushes across 22 repositories on 35 active days in the last 90 days of public GitHub push activity.
+291 pushes across 21 repositories on 34 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/wolfiesch

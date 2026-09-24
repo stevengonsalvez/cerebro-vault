@@ -8,11 +8,11 @@ provenance_repos:
   - "KnockOutEZ/wigolo"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+repos_populated: true
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "ef03efa8fa36c2ae"
-pushes_per_week: [3, 12, 9, 10, 2, 3, 11, 16, 15, 1, 5, 0, 2]
+pushes_per_week: [5, 10, 9, 11, 1, 3, 11, 16, 16, 0, 5, 0, 2]
 windows:
   "7d":
     pushes: 2
@@ -76,7 +76,79 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 31 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "wigolo"
+    title: "wigolo"
+    description: "The go-to web for your AI coding agent — local-first search, fetch, crawl & research over MCP. No API keys, no cloud, $0/query. Public beta."
+    language: "TypeScript"
+    topics:
+      - "agent"
+      - "ai"
+      - "ai-agent"
+      - "claude"
+      - "cli"
+      - "developer-tools"
+      - "local-first"
+      - "mcp"
+      - "mcp-server"
+      - "metasearch"
+      - "model-context-protocol"
+      - "nodejs"
+      - "privacy"
+      - "rag"
+      - "search"
+      - "search-engine"
+      - "typescript"
+      - "web-crawler"
+      - "web-scraping"
+      - "web-search"
+    stars_fact: 5397
+    first_seen: "2026-07-19T06:00:06.180682+00:00"
+    last_push: "2026-09-24"
+  - name: "KnockOutEZ"
+    title: "KnockOutEZ"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-09-24"
+  - name: "homebrew-wigolo"
+    title: "homebrew-wigolo"
+    description: "Homebrew tap for wigolo"
+    language: "Shell"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-08"
+  - name: "diffdeck"
+    title: "diffdeck"
+    description: "DiffDeck: 🚀 Streamline Code Reviews and Collaboration with Smart Diffs, Security Scans, and AI-Ready Outputs!"
+    language: "Go"
+    topics:
+      - "ai"
+      - "go"
+      - "golang"
+      - "llm"
+    stars_fact: 51
+    first_seen: null
+    last_push: "2024-12-30"
+  - name: "pocket-tts-alignment"
+    title: "pocket-tts-alignment"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-03-29"
+  - name: "go-to-strapi"
+    title: "go-to-strapi"
+    description: "A go to template for strapi. Which is easily deployable in vercel."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2025-04-06"
 ---
 
 # KnockOutEZ

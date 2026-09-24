@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: false
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [4, 0, 2, 0, 5, 0, 1, 0, 0, 0, 0, 2, 0]
+pushes_per_week: [2, 0, 2, 2, 3, 0, 1, 0, 0, 0, 0, 2, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,7 +29,7 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 14
+    pushes: 12
     distinct_repos: 2
     active_days: 7
     repos_not_owned: 0
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.0000
+  push_per_day: 1.7143
   repo_per_active_day: 0.2857
   not_owned_ratio: 0.0000
   basename_concentration: 0.5000
@@ -65,9 +65,9 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 14
+    pushes: 12
     distinct_repos: 2
-    pushes_per_repo: 7.0000
+    pushes_per_repo: 6.0000
     active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -81,6 +81,6 @@ repos: []
 
 # Yashgarg2928
 
-14 pushes across 2 repositories on 7 active days in the last 90 days of public GitHub push activity.
+12 pushes across 2 repositories on 7 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Yashgarg2928

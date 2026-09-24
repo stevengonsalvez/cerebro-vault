@@ -8,11 +8,11 @@ provenance_repos:
   - "antirez/ds4"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+repos_populated: true
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "3eacb4655aba2497"
-pushes_per_week: [4, 1, 6, 3, 0, 2, 1, 0, 1, 0, 1, 0, 0]
+pushes_per_week: [4, 1, 6, 3, 0, 3, 0, 0, 1, 0, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,70 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 14 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "chatbot-ollama"
+    title: "chatbot-ollama"
+    description: "Chatbot Ollama is an open source chat UI for Ollama."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 1892
+    first_seen: null
+    last_push: "2025-09-05"
+  - name: "llm_context_benchmarks"
+    title: "llm_context_benchmarks"
+    description: "📊 LLM Context Benchmarks - A comprehensive benchmarking tool for testing LLMs with varying context sizes using Ollama. Features dual benchmark modes (API/CLI), automatic hardware detection (optimized for Apple Silicon), visual performance charts."
+    language: "Python"
+    topics:
+      - "ai"
+      - "benchmarking"
+      - "llms"
+    stars_fact: 97
+    first_seen: null
+    last_push: "2026-09-19"
+  - name: "qwen-image-mps"
+    title: "qwen-image-mps"
+    description: "Qwen Image models through MPS"
+    language: "Python"
+    topics:
+      - "mps"
+      - "qwen"
+      - "qwen-image"
+      - "qwen-image-edit"
+    stars_fact: 273
+    first_seen: null
+    last_push: "2025-12-31"
+  - name: "fasterliveportrait-mlx"
+    title: "fasterliveportrait-mlx"
+    description: "Apple MLX port of FasterLivePortrait for Apple Silicon"
+    language: "Python"
+    topics: []
+    stars_fact: 37
+    first_seen: null
+    last_push: "2026-06-24"
+  - name: "vlm-bakeoff"
+    title: "vlm-bakeoff"
+    description: "VLM bake-off — MLX vs GGUF: identical vision benchmarks across mlx-vlm and llama.cpp on Apple Silicon"
+    language: "Python"
+    topics:
+      - "apple-silicon"
+      - "benchmark"
+      - "gguf"
+      - "llama-cpp"
+      - "mlx"
+      - "screenspot"
+      - "vision-language-model"
+      - "vlm"
+    stars_fact: 6
+    first_seen: null
+    last_push: "2026-08-17"
+  - name: "prompt-eng-ollama-interactive-tutorial"
+    title: "prompt-eng-ollama-interactive-tutorial"
+    description: "Ollama's Interactive Prompt Engineering Tutorial"
+    language: "Jupyter Notebook"
+    topics: []
+    stars_fact: 267
+    first_seen: null
+    last_push: "2024-12-02"
 ---
 
 # ivanfioravanti

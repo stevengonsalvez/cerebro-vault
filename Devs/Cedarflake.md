@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [2, 7, 15, 7, 4, 1, 4, 4, 0, 0, 2, 0, 5]
+pushes_per_week: [2, 7, 16, 8, 2, 1, 7, 1, 0, 0, 2, 0, 8]
 windows:
   "7d":
-    pushes: 5
-    distinct_repos: 2
-    active_days: 3
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
-  "30d":
-    pushes: 7
+    pushes: 8
     distinct_repos: 2
     active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
+  "30d":
+    pushes: 10
+    distinct_repos: 2
+    active_days: 7
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
-    pushes: 51
+    pushes: 54
     distinct_repos: 6
-    active_days: 29
+    active_days: 31
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.7586
-  repo_per_active_day: 0.2069
+  push_per_day: 1.7419
+  repo_per_active_day: 0.1935
   not_owned_ratio: 0.1667
   basename_concentration: 0.3333
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 5
+    pushes: 8
     distinct_repos: 2
-    pushes_per_repo: 2.5000
-    active_days: 3
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
-  "30d":
-    pushes: 7
-    distinct_repos: 2
-    pushes_per_repo: 3.5000
+    pushes_per_repo: 4.0000
     active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
+  "30d":
+    pushes: 10
+    distinct_repos: 2
+    pushes_per_repo: 5.0000
+    active_days: 7
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
-    pushes: 51
+    pushes: 54
     distinct_repos: 6
-    pushes_per_repo: 8.5000
-    active_days: 29
+    pushes_per_repo: 9.0000
+    active_days: 31
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 29 active days in 90d — pass"
+  - "activity: 31 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "Cedarflake-Lab"
@@ -136,6 +136,6 @@ repos:
 
 # Cedarflake
 
-51 pushes across 6 repositories on 29 active days in the last 90 days of public GitHub push activity.
+54 pushes across 6 repositories on 31 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Cedarflake

@@ -8,18 +8,18 @@ provenance_repos:
   - "affaan-m/ECC"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+repos_populated: true
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "edb3a626875732de"
-pushes_per_week: [0, 1, 3, 0, 1, 1, 0, 0, 0, 0, 0, 0, 2]
+pushes_per_week: [0, 1, 3, 0, 1, 1, 0, 0, 0, 0, 0, 1, 1]
 windows:
   "7d":
-    pushes: 2
-    distinct_repos: 2
-    active_days: 2
-    repos_not_owned: 2
-    not_owned_basenames: 2
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
+    repos_not_owned: 1
+    not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
     pushes: 2
@@ -49,12 +49,12 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
-    distinct_repos: 2
+    pushes: 1
+    distinct_repos: 1
     pushes_per_repo: 1.0000
-    active_days: 2
-    repos_not_owned: 2
-    not_owned_basenames: 2
+    active_days: 1
+    repos_not_owned: 1
+    not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
     pushes: 2
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "bible-online"
+    title: "bible-online"
+    description: "Open the source code of ingod.today project which is based on tinystruct framework."
+    language: "Java"
+    topics: []
+    stars_fact: 5
+    first_seen: null
+    last_push: "2026-09-23"
+  - name: "tinystruct-examples"
+    title: "tinystruct-examples"
+    description: "The framework is quite easy to be used, but in order to help you to understand deeply, we prepared some code examples for your reference. It might be helpful for you to hand it easily."
+    language: "Java"
+    topics: []
+    stars_fact: 65
+    first_seen: null
+    last_push: "2024-12-29"
+  - name: "example"
+    title: "example"
+    description: null
+    language: "Java"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2024-12-29"
+  - name: "drupal-custom-docker-image"
+    title: "drupal-custom-docker-image"
+    description: "How to customize a docker image based on official docker image"
+    language: "Dockerfile"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2023-03-21"
+  - name: "minio"
+    title: "minio"
+    description: "How to set up MinIO distributed server with docker compose."
+    language: null
+    topics: []
+    stars_fact: 4
+    first_seen: null
+    last_push: "2022-12-29"
+  - name: "Configure-HTTPS-Access-to-Harbor"
+    title: "Configure-HTTPS-Access-to-Harbor"
+    description: "Configure HTTPS Access to Harbor"
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2022-10-21"
 ---
 
 # m0ver

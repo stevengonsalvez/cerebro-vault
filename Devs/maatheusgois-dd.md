@@ -8,16 +8,16 @@ provenance_repos:
   - "can1357/oh-my-pi"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+repos_populated: true
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [1, 0, 1, 60, 3, 0, 7, 0, 0, 0, 0, 0, 1]
+pushes_per_week: [1, 0, 10, 51, 3, 0, 7, 0, 0, 0, 0, 1, 0]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 15 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "maatheusgois-dd"
+    title: "maatheusgois-dd"
+    description: "readme"
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-23"
+  - name: "bazel-ios-swiftui-template"
+    title: "bazel-ios-swiftui-template"
+    description: null
+    language: "Starlark"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2025-12-05"
+  - name: "BidirectionalDijkstra"
+    title: "BidirectionalDijkstra"
+    description: "BidirectionalDijkstra in Swift"
+    language: "Swift"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-01-12"
+  - name: "bazel-bsp-vscode-extension"
+    title: "bazel-bsp-vscode-extension"
+    description: "A Cursor extension to build iOS with Bazel"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-01-12"
+  - name: "SecuritySocketLayerDemo"
+    title: "SecuritySocketLayerDemo"
+    description: null
+    language: "Swift"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2025-07-02"
+  - name: "sweetpad-spm"
+    title: "sweetpad-spm"
+    description: null
+    language: "Swift"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2025-05-27"
 ---
 
 # maatheusgois-dd

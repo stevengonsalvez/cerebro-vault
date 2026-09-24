@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [16, 12, 8, 7, 1, 1, 0, 0, 0, 0, 0, 1, 1]
+pushes_per_week: [17, 9, 8, 7, 1, 0, 0, 0, 0, 0, 0, 1, 1]
 windows:
   "7d":
     pushes: 1
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 47
+    pushes: 44
     distinct_repos: 5
-    active_days: 24
+    active_days: 23
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.9583
-  repo_per_active_day: 0.2083
+  push_per_day: 1.9130
+  repo_per_active_day: 0.2174
   not_owned_ratio: 0.2000
   basename_concentration: 0.2000
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 47
+    pushes: 44
     distinct_repos: 5
-    pushes_per_repo: 9.4000
-    active_days: 24
+    pushes_per_repo: 8.8000
+    active_days: 23
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 24 active days in 90d — pass"
+  - "activity: 23 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "dotfiles"
@@ -160,6 +160,6 @@ repos:
 
 # connorads
 
-47 pushes across 5 repositories on 24 active days in the last 90 days of public GitHub push activity.
+44 pushes across 5 repositories on 23 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/connorads

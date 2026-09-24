@@ -8,11 +8,11 @@ provenance_repos:
   - "Nutlope/hallmark"
 admitted: true
 low_n: true
-repos_populated: false
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+repos_populated: true
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "56ed6f5b1a23b5b5"
-pushes_per_week: [1, 0, 3, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [0, 0, 3, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 5
-    distinct_repos: 5
-    active_days: 3
+    pushes: 4
+    distinct_repos: 4
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.6667
-  repo_per_active_day: 1.6667
+  push_per_day: 2.0000
+  repo_per_active_day: 2.0000
   not_owned_ratio: 0.0000
-  basename_concentration: 0.2000
+  basename_concentration: 0.2500
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,22 +65,70 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 5
-    distinct_repos: 5
+    pushes: 4
+    distinct_repos: 4
     pushes_per_repo: 1.0000
-    active_days: 3
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 3 active days in 90d — below the 5-day line, LABELLED low-n (never suppressed)"
+  - "activity: 2 active days in 90d — below the 5-day line, LABELLED low-n (never suppressed)"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "napkins"
+    title: "napkins"
+    description: "napkins.dev – from screenshot to app"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 1478
+    first_seen: null
+    last_push: "2026-06-26"
+  - name: "hallmark"
+    title: "hallmark"
+    description: "Anti-AI-slop design skill for Claude Code, Cursor, and Codex."
+    language: "CSS"
+    topics: []
+    stars_fact: 29119
+    first_seen: "2026-09-04T06:00:17.162493+00:00"
+    last_push: "2026-08-06"
+  - name: "inspo"
+    title: "inspo"
+    description: "Real websites for your coding agent to learn design from, searchable over MCP."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 748
+    first_seen: null
+    last_push: "2026-09-15"
+  - name: "pdf-to-interactive-lesson"
+    title: "pdf-to-interactive-lesson"
+    description: "Go from a PDF to an interactive lesson"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 123
+    first_seen: null
+    last_push: "2026-06-04"
+  - name: "notesGPT"
+    title: "notesGPT"
+    description: "Record voice notes & transcribe, summarize, and get tasks"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 2157
+    first_seen: null
+    last_push: "2026-07-12"
+  - name: "1kpapers"
+    title: "1kpapers"
+    description: "View the the top 1k research papers in the last year, summarized. With an experiment for DeepSeek V4 Flash vs GPT Luna"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 129
+    first_seen: null
+    last_push: "2026-08-19"
 ---
 
 # Nutlope
 
-5 pushes across 5 repositories on 3 active days in the last 90 days of public GitHub push activity.
+4 pushes across 4 repositories on 2 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Nutlope

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: false
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "dbbcb182b33b2dd8"
-pushes_per_week: [3, 5, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0, 1]
+pushes_per_week: [1, 5, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 12
+    pushes: 10
     distinct_repos: 1
-    active_days: 10
+    active_days: 8
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.2000
-  repo_per_active_day: 0.1000
+  push_per_day: 1.2500
+  repo_per_active_day: 0.1250
   not_owned_ratio: 1.0000
   basename_concentration: 1.0000
   shapes: []
@@ -65,22 +65,22 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 12
+    pushes: 10
     distinct_repos: 1
-    pushes_per_repo: 12.0000
-    active_days: 10
+    pushes_per_repo: 10.0000
+    active_days: 8
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 10 active days in 90d — pass"
+  - "activity: 8 active days in 90d — pass"
   - "automation: clear — pass"
 repos: []
 ---
 
 # WUXM5
 
-12 pushes across 1 repository on 10 active days in the last 90 days of public GitHub push activity.
+10 pushes across 1 repository on 8 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/WUXM5

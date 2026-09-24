@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: false
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "6d3bd03b49986330"
-pushes_per_week: [31, 89, 73, 66, 37, 23, 37, 39, 22, 3, 1, 1, 0]
+pushes_per_week: [39, 86, 73, 62, 39, 19, 39, 35, 22, 3, 2, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 11
+    pushes: 6
     distinct_repos: 1
-    active_days: 7
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 422
+    pushes: 419
     distinct_repos: 3
-    active_days: 61
+    active_days: 59
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 6.9180
-  repo_per_active_day: 0.0492
+  push_per_day: 7.1017
+  repo_per_active_day: 0.0508
   not_owned_ratio: 0.0000
   basename_concentration: 0.3333
   shapes: []
@@ -57,30 +57,30 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 11
+    pushes: 6
     distinct_repos: 1
-    pushes_per_repo: 11.0000
-    active_days: 7
+    pushes_per_repo: 6.0000
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 422
+    pushes: 419
     distinct_repos: 3
-    pushes_per_repo: 140.6667
-    active_days: 61
+    pushes_per_repo: 139.6667
+    active_days: 59
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 61 active days in 90d — pass"
+  - "activity: 59 active days in 90d — pass"
   - "automation: clear — pass"
 repos: []
 ---
 
 # ziyu4huang
 
-422 pushes across 3 repositories on 61 active days in the last 90 days of public GitHub push activity.
+419 pushes across 3 repositories on 59 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ziyu4huang

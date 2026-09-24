@@ -8,8 +8,8 @@ provenance_repos:
   - "majd/ipatool"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+repos_populated: true
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "a48647989fcde575"
 pushes_per_week: [0, 2, 1, 0, 0, 0, 0, 0, 0, 1, 0, 3, 1]
@@ -76,7 +76,78 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "ipatool"
+    title: "ipatool"
+    description: "Command-line tool that allows you to search for iOS, iPadOS, tvOS, visionOS, and macOS apps on the App Store, and download .ipa or macOS .pkg app packages."
+    language: "Go"
+    topics:
+      - "apple"
+      - "appstore"
+      - "cli"
+      - "command-line"
+      - "command-line-tool"
+      - "go"
+      - "golang"
+      - "golang-library"
+      - "ios"
+      - "ipa"
+      - "itunes"
+      - "macos"
+      - "research"
+      - "reverse-engineering"
+      - "security"
+      - "swift"
+      - "tool"
+      - "visionos"
+    stars_fact: 11377
+    first_seen: "2026-08-31T06:00:05.900163+00:00"
+    last_push: "2026-09-19"
+  - name: "homebrew-repo"
+    title: "homebrew-repo"
+    description: "Homebrew Repository"
+    language: "Ruby"
+    topics: []
+    stars_fact: 12
+    first_seen: null
+    last_push: "2026-09-18"
+  - name: "userscripts"
+    title: "userscripts"
+    description: "Small browser userscripts maintained for personal use."
+    language: "JavaScript"
+    topics:
+      - "userscripts"
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-08-22"
+  - name: "unifi-hass-webhook"
+    title: "unifi-hass-webhook"
+    description: "Verifier service for unlocking smart locks via Home Assistant on UniFi Access webhook triggers"
+    language: "Go"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-03-04"
+  - name: "libTransLock"
+    title: "libTransLock"
+    description: "Bruteforce the 4-digit passcode on iOS 8"
+    language: "Logos"
+    topics: []
+    stars_fact: 120
+    first_seen: null
+    last_push: "2015-09-09"
+  - name: "app-thickening"
+    title: "app-thickening"
+    description: "Disable App Thinning on iOS"
+    language: "Shell"
+    topics:
+      - "ios"
+      - "jailbreak"
+      - "logos"
+      - "theos"
+    stars_fact: 14
+    first_seen: null
+    last_push: "2019-10-14"
 ---
 
 # majd

@@ -8,11 +8,11 @@ provenance_repos:
   - "agavra/tuicr"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+repos_populated: true
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [1, 0, 0, 0, 1, 0, 5, 5, 1, 0, 0, 0, 0]
+pushes_per_week: [1, 0, 0, 0, 1, 0, 9, 1, 1, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,59 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 8 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "transession"
+    title: "transession"
+    description: "Translate sessions between claude code and codex"
+    language: "Rust"
+    topics: []
+    stars_fact: 24
+    first_seen: null
+    last_push: "2026-08-18"
+  - name: "dotfiles"
+    title: "dotfiles"
+    description: "dotfiles for configuration"
+    language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-07"
+  - name: "ticit"
+    title: "ticit"
+    description: "Experimental rust port of SymFT, with fearless-simd and cutile-rs"
+    language: "Rust"
+    topics: []
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-09-23"
+  - name: "qrab"
+    title: "qrab"
+    description: "Creating quantum circuit diagrams in LaTeX/Typst"
+    language: "Rust"
+    topics:
+      - "latex"
+      - "quantum-circuit"
+      - "quantum-computing"
+      - "typst"
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-09-02"
+  - name: "codex-markdown-preview"
+    title: "codex-markdown-preview"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-04"
+  - name: "awesome-tqec"
+    title: "awesome-tqec"
+    description: "A curated list of awesome topological quantum error correction resources"
+    language: null
+    topics: []
+    stars_fact: 18
+    first_seen: null
+    last_push: "2026-04-19"
 ---
 
 # inmzhang

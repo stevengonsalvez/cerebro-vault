@@ -8,11 +8,11 @@ provenance_repos:
   - "anthropics/claude-plugins-official"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+repos_populated: true
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "02eab667df448997"
-pushes_per_week: [3, 0, 2, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [3, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "Ballr"
+    title: "Ballr"
+    description: "A simple 2D game language"
+    language: "C"
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-09-23"
+  - name: "noahzweben.github.io"
+    title: "noahzweben.github.io"
+    description: "Personal Website"
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-06-03"
+  - name: "AirHockey"
+    title: "AirHockey"
+    description: "An air-hockey game that uses computer vision and colored objects to control the paddles on the screen"
+    language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2015-10-01"
+  - name: "fakeMarketplace"
+    title: "fakeMarketplace"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-01-24"
+  - name: "demo"
+    title: "demo"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2025-04-17"
+  - name: "lsm_tree"
+    title: "lsm_tree"
+    description: null
+    language: "C"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2023-05-07"
 ---
 
 # noahzweben

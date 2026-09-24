@@ -8,8 +8,8 @@ provenance_repos:
   - "anthropics/anthropic-sdk-python"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+repos_populated: true
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "1be978947e68d1f2"
 pushes_per_week: [4, 1, 0, 0, 0, 0, 0, 0, 0, 0, 3, 1, 6]
@@ -76,7 +76,63 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "dotfiles"
+    title: "dotfiles"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-09-13"
+  - name: "pyright-python"
+    title: "pyright-python"
+    description: "Python command line wrapper for pyright, a static type checker"
+    language: "Python"
+    topics:
+      - "cli"
+      - "pip"
+      - "python"
+      - "typechecking"
+    stars_fact: 277
+    first_seen: null
+    last_push: "2026-09-10"
+  - name: "craigie.dev"
+    title: "craigie.dev"
+    description: "Personal blog"
+    language: "HTML"
+    topics:
+      - "blog"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-04-02"
+  - name: "prisma-py-async-quickstart"
+    title: "prisma-py-async-quickstart"
+    description: "Quickstart example from the Prisma Client Python documentation"
+    language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2024-02-21"
+  - name: "pytest-pyright"
+    title: "pytest-pyright"
+    description: "Pytest plugin for type checking code with Pyright"
+    language: "Python"
+    topics:
+      - "pytest"
+      - "pytest-plugin"
+      - "typing"
+    stars_fact: 15
+    first_seen: null
+    last_push: "2024-01-26"
+  - name: "pydantic-bug-repro"
+    title: "pydantic-bug-repro"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2025-01-10"
 ---
 
 # RobertCraigie

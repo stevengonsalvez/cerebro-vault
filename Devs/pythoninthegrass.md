@@ -8,11 +8,11 @@ provenance_repos:
   - "chopratejas/headroom"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+repos_populated: true
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "73468cde177ddae6"
-pushes_per_week: [7, 3, 1, 1, 1, 3, 1, 2, 2, 0, 0, 11, 8]
+pushes_per_week: [8, 2, 1, 1, 1, 3, 1, 2, 2, 0, 0, 12, 7]
 windows:
   "7d":
     pushes: 8
@@ -76,7 +76,58 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 22 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "ai_skills"
+    title: "ai_skills"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-09-24"
+  - name: "nano_banana"
+    title: "nano_banana"
+    description: "🍌"
+    language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-22"
+  - name: "dsh_config"
+    title: "dsh_config"
+    description: "Bespoke Deepseek Harness plugins by yours truly"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-19"
+  - name: "icarus"
+    title: "icarus"
+    description: "Seed a dokploy project programmatically (IaC!)"
+    language: "Python"
+    topics:
+      - "dokploy"
+      - "python"
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-09-19"
+  - name: "maki_config"
+    title: "maki_config"
+    description: null
+    language: "Lua"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-11"
+  - name: "pi_config"
+    title: "pi_config"
+    description: "pi coding agent config"
+    language: "TypeScript"
+    topics:
+      - "pi"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-09"
 ---
 
 # pythoninthegrass

@@ -8,11 +8,11 @@ provenance_repos:
   - "Hebbian-Robotics/hflow"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+repos_populated: true
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "c5d31b731e2b133d"
-pushes_per_week: [1, 0, 3, 1, 0, 0, 0, 2, 6, 1, 3, 3, 6]
+pushes_per_week: [1, 1, 2, 1, 0, 0, 0, 2, 7, 0, 3, 3, 6]
 windows:
   "7d":
     pushes: 6
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 16
+    pushes: 14
     distinct_repos: 3
-    active_days: 11
+    active_days: 9
     repos_not_owned: 3
     not_owned_basenames: 1
     not_owned_owners: 3
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 16
+    pushes: 14
     distinct_repos: 3
-    pushes_per_repo: 5.3333
-    active_days: 11
+    pushes_per_repo: 4.6667
+    active_days: 9
     repos_not_owned: 3
     not_owned_basenames: 1
     not_owned_owners: 3
@@ -76,7 +76,92 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 18 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "tambourine-voice"
+    title: "tambourine-voice"
+    description: "Your personal voice interface for any app. Speak naturally and your words appear wherever your cursor is, with fully customizable AI voice dictation. Open source alternative to Wispr Flow."
+    language: "Rust"
+    topics:
+      - "accessibility"
+      - "cross-platform"
+      - "macos"
+      - "pipecat"
+      - "python"
+      - "rust"
+      - "speech-to-text"
+      - "tauri"
+      - "typescript"
+      - "voice-ai"
+      - "webrtc"
+      - "whisper"
+      - "windows"
+    stars_fact: 384
+    first_seen: null
+    last_push: "2026-07-17"
+  - name: "simple-chromium-ai"
+    title: "simple-chromium-ai"
+    description: "TypeScript library for Local LLM in Chromium browsers"
+    language: "TypeScript"
+    topics:
+      - "browser-extension"
+      - "chrome"
+      - "chrome-extension"
+      - "chromium"
+      - "gemini-nano-in-chrome"
+      - "local-llm"
+      - "typescript"
+    stars_fact: 268
+    first_seen: null
+    last_push: "2026-08-11"
+  - name: "splatter-mcp-app"
+    title: "splatter-mcp-app"
+    description: "MCP app for generating and viewing 3D models using 3D Gaussian Splatting"
+    language: "TypeScript"
+    topics:
+      - "3dgs"
+      - "chatgpt"
+      - "gaussian-splatting"
+      - "mcp"
+      - "mcp-apps"
+      - "mcp-server"
+      - "threejs"
+    stars_fact: 12
+    first_seen: null
+    last_push: "2026-02-24"
+  - name: "voice-rtc-bench"
+    title: "voice-rtc-bench"
+    description: "A distributed benchmarking system for comparing WebRTC voice AI platforms (Daily vs LiveKit) across multiple geographic locations and time periods."
+    language: "Python"
+    topics: []
+    stars_fact: 16
+    first_seen: null
+    last_push: "2025-11-24"
+  - name: "iNTUition"
+    title: "iNTUition"
+    description: "Animating fake faces using X2Face for mapping onto stranger's faces in videos using deepfake for privacy protection"
+    language: "Jupyter Notebook"
+    topics:
+      - "animating-fake-faces"
+      - "deepfake"
+      - "intuition"
+      - "privacy-protection"
+      - "x2face"
+    stars_fact: 7
+    first_seen: null
+    last_push: "2025-05-30"
+  - name: "telegram-notification-mcp"
+    title: "telegram-notification-mcp"
+    description: "Simple MCP server to send you notifications on telegram"
+    language: "TypeScript"
+    topics:
+      - "claude-code"
+      - "cloudflare-agents"
+      - "mcp"
+      - "telegram"
+      - "typescript"
+    stars_fact: 22
+    first_seen: null
+    last_push: "2026-08-16"
 ---
 
 # kstonekuan

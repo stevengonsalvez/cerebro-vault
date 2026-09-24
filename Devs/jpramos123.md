@@ -8,11 +8,11 @@ provenance_repos:
   - "akitaonrails/ai-memory"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+repos_populated: true
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "4138778ebbc75ba6"
-pushes_per_week: [5, 0, 0, 0, 2, 2, 0, 1, 0, 0, 0, 0, 0]
+pushes_per_week: [5, 0, 0, 0, 2, 2, 1, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "automatic-literature-review-generator"
+    title: "automatic-literature-review-generator"
+    description: "This repository contains the source code for the Automatic Literature Review generator built for the Master's degree"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2024-05-23"
+  - name: "Ping-Pong"
+    title: "Ping-Pong"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2022-02-25"
+  - name: "Masters_Computer_Vision"
+    title: "Masters_Computer_Vision"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2021-09-30"
+  - name: "Music_Lyrics_Generator"
+    title: "Music_Lyrics_Generator"
+    description: null
+    language: "Jupyter Notebook"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2021-06-05"
+  - name: "apirest"
+    title: "apirest"
+    description: null
+    language: "Java"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2018-04-12"
+  - name: "FCFP-Open-Source"
+    title: "FCFP-Open-Source"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2021-05-21"
 ---
 
 # jpramos123

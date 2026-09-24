@@ -8,37 +8,37 @@ provenance_repos:
   - "antirez/ds4"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+repos_populated: true
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "3eacb4655aba2497"
-pushes_per_week: [20, 54, 20, 25, 19, 16, 4, 12, 3, 3, 1, 3, 9]
+pushes_per_week: [21, 52, 24, 26, 18, 10, 8, 8, 5, 1, 1, 4, 12]
 windows:
   "7d":
-    pushes: 9
+    pushes: 12
     distinct_repos: 6
-    active_days: 5
+    active_days: 6
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 3
   "30d":
-    pushes: 17
-    distinct_repos: 8
-    active_days: 12
-    repos_not_owned: 6
-    not_owned_basenames: 6
+    pushes: 21
+    distinct_repos: 9
+    active_days: 14
+    repos_not_owned: 7
+    not_owned_basenames: 7
     not_owned_owners: 4
   "90d":
-    pushes: 189
+    pushes: 190
     distinct_repos: 39
-    active_days: 56
+    active_days: 57
     repos_not_owned: 32
     not_owned_basenames: 31
     not_owned_owners: 10
 automation:
   state: "clear"
-  push_per_day: 3.3750
-  repo_per_active_day: 0.6964
+  push_per_day: 3.3333
+  repo_per_active_day: 0.6842
   not_owned_ratio: 0.8205
   basename_concentration: 0.0513
   shapes: []
@@ -49,38 +49,86 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 9
+    pushes: 12
     distinct_repos: 6
-    pushes_per_repo: 1.5000
-    active_days: 5
+    pushes_per_repo: 2.0000
+    active_days: 6
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 3
   "30d":
-    pushes: 17
-    distinct_repos: 8
-    pushes_per_repo: 2.1250
-    active_days: 12
-    repos_not_owned: 6
-    not_owned_basenames: 6
+    pushes: 21
+    distinct_repos: 9
+    pushes_per_repo: 2.3333
+    active_days: 14
+    repos_not_owned: 7
+    not_owned_basenames: 7
     not_owned_owners: 4
   "90d":
-    pushes: 189
+    pushes: 190
     distinct_repos: 39
-    pushes_per_repo: 4.8462
-    active_days: 56
+    pushes_per_repo: 4.8718
+    active_days: 57
     repos_not_owned: 32
     not_owned_basenames: 31
     not_owned_owners: 10
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 56 active days in 90d — pass"
+  - "activity: 57 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "autocannon"
+    title: "autocannon"
+    description: "fast HTTP/1.1 benchmarking tool written in Node.js"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 8523
+    first_seen: null
+    last_push: "2026-05-16"
+  - name: "steed"
+    title: "steed"
+    description: "horsepower for your modules"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 153
+    first_seen: null
+    last_push: "2017-05-10"
+  - name: "pi-self-learning"
+    title: "pi-self-learning"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 136
+    first_seen: null
+    last_push: "2026-06-15"
+  - name: "pi-bash-confirm"
+    title: "pi-bash-confirm"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-09-22"
+  - name: "skills"
+    title: "skills"
+    description: "My own collection of skills for modern Node.js development"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 1928
+    first_seen: null
+    last_push: "2026-08-17"
+  - name: "pino-roll"
+    title: "pino-roll"
+    description: "A Pino transport that automatically rolls your log files"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 116
+    first_seen: null
+    last_push: "2026-09-22"
 ---
 
 # mcollina
 
-189 pushes across 39 repositories on 56 active days in the last 90 days of public GitHub push activity.
+190 pushes across 39 repositories on 57 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/mcollina

@@ -10,36 +10,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "fb0827c68cc0b5d0"
-pushes_per_week: [13, 9, 22, 14, 17, 7, 1, 1, 3, 0, 1, 4, 2]
+pushes_per_week: [19, 3, 24, 26, 5, 5, 1, 1, 3, 0, 3, 2, 4]
 windows:
   "7d":
-    pushes: 2
+    pushes: 4
     distinct_repos: 1
-    active_days: 1
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 7
+    pushes: 9
     distinct_repos: 1
-    active_days: 5
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 94
+    pushes: 96
     distinct_repos: 13
-    active_days: 31
+    active_days: 33
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 3.0323
-  repo_per_active_day: 0.4194
+  push_per_day: 2.9091
+  repo_per_active_day: 0.3939
   not_owned_ratio: 0.0769
   basename_concentration: 0.0769
   shapes: []
@@ -50,32 +50,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
+    pushes: 4
     distinct_repos: 1
-    pushes_per_repo: 2.0000
-    active_days: 1
+    pushes_per_repo: 4.0000
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 7
+    pushes: 9
     distinct_repos: 1
-    pushes_per_repo: 7.0000
-    active_days: 5
+    pushes_per_repo: 9.0000
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 94
+    pushes: 96
     distinct_repos: 13
-    pushes_per_repo: 7.2308
-    active_days: 31
+    pushes_per_repo: 7.3846
+    active_days: 33
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 31 active days in 90d — pass"
+  - "activity: 33 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "slotstream"
@@ -165,6 +165,6 @@ repos:
 
 # carloslfu
 
-94 pushes across 13 repositories on 31 active days in the last 90 days of public GitHub push activity.
+96 pushes across 13 repositories on 33 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/carloslfu

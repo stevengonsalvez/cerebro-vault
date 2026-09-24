@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: false
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "419a4253687fd7a1"
-pushes_per_week: [35, 0, 0, 0, 0, 4, 52, 18, 6, 0, 11, 8, 11]
+pushes_per_week: [20, 0, 0, 0, 0, 7, 57, 13, 3, 0, 11, 10, 13]
 windows:
   "7d":
-    pushes: 11
+    pushes: 15
     distinct_repos: 1
-    active_days: 4
+    active_days: 5
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 31
+    pushes: 34
     distinct_repos: 2
     active_days: 13
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 145
+    pushes: 134
     distinct_repos: 8
     active_days: 34
     repos_not_owned: 7
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 6
 automation:
   state: "clear"
-  push_per_day: 4.2647
+  push_per_day: 3.9412
   repo_per_active_day: 0.2353
   not_owned_ratio: 0.8750
   basename_concentration: 0.8750
@@ -65,25 +65,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 11
+    pushes: 15
     distinct_repos: 1
-    pushes_per_repo: 11.0000
-    active_days: 4
+    pushes_per_repo: 15.0000
+    active_days: 5
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 31
+    pushes: 34
     distinct_repos: 2
-    pushes_per_repo: 15.5000
+    pushes_per_repo: 17.0000
     active_days: 13
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 145
+    pushes: 134
     distinct_repos: 8
-    pushes_per_repo: 18.1250
+    pushes_per_repo: 16.7500
     active_days: 34
     repos_not_owned: 7
     not_owned_basenames: 2
@@ -97,6 +97,6 @@ repos: []
 
 # ymichael
 
-145 pushes across 8 repositories on 34 active days in the last 90 days of public GitHub push activity.
+134 pushes across 8 repositories on 34 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ymichael

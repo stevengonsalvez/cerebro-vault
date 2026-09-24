@@ -8,8 +8,8 @@ provenance_repos:
   - "BigPizzaV3/CodexPlusPlus"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+repos_populated: true
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "90688bf127241ceb"
 pushes_per_week: [8, 21, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1]
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "map-denoise-research"
+    title: "map-denoise-research"
+    description: "Local multi-scan thin-structure point-map filtering: V1-V18 source, experiments, and evidence snapshots"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-22"
+  - name: "novel-automaton"
+    title: "novel-automaton"
+    description: "小说创作资料库：Gemini 世界观、归乡疫期原稿与人物历史／世界事件两套架构"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-21"
+  - name: "babel"
+    title: "babel"
+    description: "巴别塔：跨设备文件与聊天协作、项目看板、Pi 多 Agent 开发、运维及 PDF 知识工作台的开发规格。"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-21"
+  - name: "np-hard"
+    title: "np-hard"
+    description: "Two Keys One Lock: finite obstruction note and repro. Not a P vs NP proof."
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-18"
+  - name: "ecliptic-vlm-public"
+    title: "ecliptic-vlm-public"
+    description: "Reproducible research artifacts for monocular SLAM cold-start readiness"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-18"
+  - name: "draw-research-system-figure"
+    title: "draw-research-system-figure"
+    description: "Evidence-bounded Codex skill for turning context into editable scientific system figures"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-14"
 ---
 
 # jupiternaut

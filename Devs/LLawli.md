@@ -8,39 +8,39 @@ provenance_repos:
   - "akitaonrails/ai-memory"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+repos_populated: true
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "4138778ebbc75ba6"
-pushes_per_week: [7, 2, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 3]
+pushes_per_week: [7, 2, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 7]
 windows:
   "7d":
-    pushes: 3
-    distinct_repos: 1
-    active_days: 1
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
-  "30d":
-    pushes: 5
+    pushes: 7
     distinct_repos: 3
     active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
+  "30d":
+    pushes: 9
+    distinct_repos: 4
+    active_days: 5
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
-    pushes: 14
-    distinct_repos: 6
-    active_days: 6
+    pushes: 18
+    distinct_repos: 7
+    active_days: 8
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.3333
-  repo_per_active_day: 1.0000
+  push_per_day: 2.2500
+  repo_per_active_day: 0.8750
   not_owned_ratio: 0.0000
-  basename_concentration: 0.1667
+  basename_concentration: 0.1429
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,38 +49,91 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 3
-    distinct_repos: 1
-    pushes_per_repo: 3.0000
-    active_days: 1
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
-  "30d":
-    pushes: 5
+    pushes: 7
     distinct_repos: 3
-    pushes_per_repo: 1.6667
+    pushes_per_repo: 2.3333
     active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
+  "30d":
+    pushes: 9
+    distinct_repos: 4
+    pushes_per_repo: 2.2500
+    active_days: 5
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
-    pushes: 14
-    distinct_repos: 6
-    pushes_per_repo: 2.3333
-    active_days: 6
+    pushes: 18
+    distinct_repos: 7
+    pushes_per_repo: 2.5714
+    active_days: 8
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 6 active days in 90d — pass"
+  - "activity: 8 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "wamux"
+    title: "wamux"
+    description: null
+    language: "Rust"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-24"
+  - name: "homebrew-tap"
+    title: "homebrew-tap"
+    description: "Homebrew tap for note — https://github.com/LLawli/note"
+    language: "Ruby"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-24"
+  - name: "lukadispatch"
+    title: "lukadispatch"
+    description: "Continue suas sessões de Claude Code pelo celular, no Telegram, quando sair do computador"
+    language: "Rust"
+    topics:
+      - "ai-agents"
+      - "claude-code"
+      - "cli"
+      - "rust"
+      - "telegram"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-24"
+  - name: "RemoteID-linux"
+    title: "RemoteID-linux"
+    description: "Assine com seu certificado em nuvem RemoteID/DesktopID (Certisign) no Linux: CLI, módulo PKCS#11 e app GTK4. Protocolo reconstruído por engenharia reversa."
+    language: "Rust"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-23"
+  - name: "clone-tabnews"
+    title: "clone-tabnews"
+    description: "Implementação do https://tabnews.com.br para o https://curso.dev"
+    language: "Rust"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-22"
+  - name: "cnpj_validator"
+    title: "cnpj_validator"
+    description: null
+    language: "Rust"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-18"
 ---
 
 # LLawli
 
-14 pushes across 6 repositories on 6 active days in the last 90 days of public GitHub push activity.
+18 pushes across 7 repositories on 8 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/LLawli

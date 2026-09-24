@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: false
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "344d46b0f790a3ec"
-pushes_per_week: [1, 0, 0, 20, 11, 10, 0, 1, 0, 0, 0, 7, 8]
+pushes_per_week: [0, 0, 0, 20, 21, 0, 1, 0, 0, 0, 0, 8, 7]
 windows:
   "7d":
-    pushes: 13
+    pushes: 7
     distinct_repos: 2
-    active_days: 3
+    active_days: 1
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 58
-    distinct_repos: 5
-    active_days: 12
+    pushes: 57
+    distinct_repos: 4
+    active_days: 11
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 4.8333
-  repo_per_active_day: 0.4167
-  not_owned_ratio: 0.4000
-  basename_concentration: 0.6000
+  push_per_day: 5.1818
+  repo_per_active_day: 0.3636
+  not_owned_ratio: 0.5000
+  basename_concentration: 0.7500
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 13
+    pushes: 7
     distinct_repos: 2
-    pushes_per_repo: 6.5000
-    active_days: 3
+    pushes_per_repo: 3.5000
+    active_days: 1
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -65,22 +65,22 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 58
-    distinct_repos: 5
-    pushes_per_repo: 11.6000
-    active_days: 12
+    pushes: 57
+    distinct_repos: 4
+    pushes_per_repo: 14.2500
+    active_days: 11
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 12 active days in 90d — pass"
+  - "activity: 11 active days in 90d — pass"
   - "automation: clear — pass"
 repos: []
 ---
 
 # tirth8205
 
-58 pushes across 5 repositories on 12 active days in the last 90 days of public GitHub push activity.
+57 pushes across 4 repositories on 11 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/tirth8205

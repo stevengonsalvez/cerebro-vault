@@ -8,11 +8,11 @@ provenance_repos:
   - "alirezarezvani/claude-skills"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+repos_populated: true
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "3cb7ff1cdcf97c6b"
-pushes_per_week: [0, 0, 0, 0, 1, 10, 2, 2, 0, 0, 1, 0, 0]
+pushes_per_week: [0, 0, 0, 0, 4, 7, 2, 2, 0, 0, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,81 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 11 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "embedded-iot-mentor"
+    title: "embedded-iot-mentor"
+    description: "Claude Code Agent Skill/API: mentor for embedded/IoT hardware projects (MCU selection, cost & time estimates, MVP-first build plans, PCB transition guidance)."
+    language: "Python"
+    topics:
+      - "agent-skills"
+      - "api"
+      - "arduino"
+      - "claude"
+      - "claude-code"
+      - "claude-skill"
+      - "embedded"
+      - "esp32"
+      - "iot"
+      - "microcontroller"
+      - "rest-api"
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-08-18"
+  - name: "help_with_swedish"
+    title: "help_with_swedish"
+    description: "Claude Code Agent Skill/API/MCP: mentor for self-learning Swedish by watching YouTube videos and podcasts"
+    language: "Python"
+    topics:
+      - "ai"
+      - "api"
+      - "api-rest"
+      - "mcp"
+      - "rest-api"
+      - "self-learning"
+      - "sfi"
+      - "svenska"
+      - "youtube"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-08-18"
+  - name: "Project-Planning-Journaling"
+    title: "Project-Planning-Journaling"
+    description: "Claude Skill that scopes a project (type, repo, timeline, public vs. private-product path, dev style) and keeps a living, resumable documentation journal — with a weekly routine review, not just event-triggered updates."
+    language: "HTML"
+    topics:
+      - "ai-agents"
+      - "changelog"
+      - "claude-skill"
+      - "developer-tools"
+      - "documentation"
+      - "project-management"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-09"
+  - name: "Model_Predictive_Controller_for_Position_Servomechanism"
+    title: "Model_Predictive_Controller_for_Position_Servomechanism"
+    description: "Designing and Developing an Adaptive Model Predictive Controller for Position Servomechanism"
+    language: "MATLAB"
+    topics: []
+    stars_fact: 4
+    first_seen: null
+    last_push: "2022-08-14"
+  - name: "Model_Predictive_Controller_for_Maximum_Power_Tracking_Photovoltaic"
+    title: "Model_Predictive_Controller_for_Maximum_Power_Tracking_Photovoltaic"
+    description: "Designing and Developing an MPC for MPT photovoltaic fed DC-AC Converter"
+    language: "MATLAB"
+    topics: []
+    stars_fact: 13
+    first_seen: null
+    last_push: "2022-08-14"
+  - name: "Omron"
+    title: "Omron"
+    description: "Developing the Host Link Units for Omron PLCs"
+    language: "Visual Basic .NET"
+    topics: []
+    stars_fact: 4
+    first_seen: null
+    last_push: "2022-08-14"
 ---
 
 # mh-mansouri

@@ -8,39 +8,39 @@ provenance_repos:
   - "AstrBotDevs/AstrBot"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+repos_populated: true
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [148, 69, 26, 18, 23, 14, 41, 69, 26, 9, 3, 99, 295]
+pushes_per_week: [113, 61, 27, 15, 25, 13, 56, 55, 28, 5, 3, 136, 310]
 windows:
   "7d":
-    pushes: 306
+    pushes: 320
     distinct_repos: 12
     active_days: 7
-    repos_not_owned: 5
-    not_owned_basenames: 4
-    not_owned_owners: 2
+    repos_not_owned: 7
+    not_owned_basenames: 5
+    not_owned_owners: 3
   "30d":
-    pushes: 410
-    distinct_repos: 17
-    active_days: 22
-    repos_not_owned: 5
-    not_owned_basenames: 4
-    not_owned_owners: 2
+    pushes: 459
+    distinct_repos: 19
+    active_days: 21
+    repos_not_owned: 7
+    not_owned_basenames: 5
+    not_owned_owners: 3
   "90d":
-    pushes: 840
-    distinct_repos: 41
-    active_days: 75
-    repos_not_owned: 11
-    not_owned_basenames: 8
-    not_owned_owners: 7
+    pushes: 847
+    distinct_repos: 43
+    active_days: 74
+    repos_not_owned: 13
+    not_owned_basenames: 9
+    not_owned_owners: 8
 automation:
   state: "clear"
-  push_per_day: 11.2000
-  repo_per_active_day: 0.5467
-  not_owned_ratio: 0.2683
-  basename_concentration: 0.1220
+  push_per_day: 11.4459
+  repo_per_active_day: 0.5811
+  not_owned_ratio: 0.3023
+  basename_concentration: 0.1395
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,38 +49,101 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 306
+    pushes: 320
     distinct_repos: 12
-    pushes_per_repo: 25.5000
+    pushes_per_repo: 26.6667
     active_days: 7
-    repos_not_owned: 5
-    not_owned_basenames: 4
-    not_owned_owners: 2
+    repos_not_owned: 7
+    not_owned_basenames: 5
+    not_owned_owners: 3
   "30d":
-    pushes: 410
-    distinct_repos: 17
-    pushes_per_repo: 24.1176
-    active_days: 22
-    repos_not_owned: 5
-    not_owned_basenames: 4
-    not_owned_owners: 2
+    pushes: 459
+    distinct_repos: 19
+    pushes_per_repo: 24.1579
+    active_days: 21
+    repos_not_owned: 7
+    not_owned_basenames: 5
+    not_owned_owners: 3
   "90d":
-    pushes: 840
-    distinct_repos: 41
-    pushes_per_repo: 20.4878
-    active_days: 75
-    repos_not_owned: 11
-    not_owned_basenames: 8
-    not_owned_owners: 7
+    pushes: 847
+    distinct_repos: 43
+    pushes_per_repo: 19.6977
+    active_days: 74
+    repos_not_owned: 13
+    not_owned_basenames: 9
+    not_owned_owners: 8
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 75 active days in 90d — pass"
+  - "activity: 74 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "OniMods"
+    title: "OniMods"
+    description: "oxygen not included"
+    language: "C#"
+    topics:
+      - "mcp"
+      - "oni"
+    stars_fact: 15
+    first_seen: null
+    last_push: "2026-09-24"
+  - name: "cortexfs"
+    title: "cortexfs"
+    description: "“Everything is a file” for the AGI era — an agent framework masquerading as a POSIX file system for LLM context, memory, and reasoning."
+    language: "Rust"
+    topics:
+      - "agent"
+      - "fuse"
+      - "linux"
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-09-24"
+  - name: "MagicMihomo"
+    title: "MagicMihomo"
+    description: "MagicNet-mihomo"
+    language: "HTML"
+    topics: []
+    stars_fact: 11
+    first_seen: null
+    last_push: "2026-09-24"
+  - name: "lightjunction"
+    title: "lightjunction"
+    description: "I'M LIghtJUNction"
+    language: "TypeScript"
+    topics:
+      - "agent"
+      - "agent-skills"
+      - "ai"
+      - "android"
+      - "bash"
+      - "openpgp"
+      - "shell-script"
+      - "termux"
+      - "typescript"
+      - "vite"
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-09-23"
+  - name: "MagicNet"
+    title: "MagicNet"
+    description: "Consciously set all groups to block"
+    language: "Shell"
+    topics: []
+    stars_fact: 179
+    first_seen: null
+    last_push: "2026-09-24"
+  - name: "MagicSingBox"
+    title: "MagicSingBox"
+    description: "MagicNet x sing-box"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-22"
 ---
 
 # LIghtJUNction
 
-840 pushes across 41 repositories on 75 active days in the last 90 days of public GitHub push activity.
+847 pushes across 43 repositories on 74 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/LIghtJUNction

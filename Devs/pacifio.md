@@ -11,11 +11,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "4930e4f9e24bb204"
   - "73468cde177ddae6"
-pushes_per_week: [17, 10, 0, 2, 4, 3, 2, 2, 2, 0, 0, 0, 4]
+pushes_per_week: [20, 6, 0, 3, 3, 3, 3, 1, 2, 0, 0, 0, 4]
 windows:
   "7d":
     pushes: 4
@@ -25,23 +25,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 5
+    pushes: 4
     distinct_repos: 1
-    active_days: 3
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 46
+    pushes: 45
     distinct_repos: 2
-    active_days: 23
+    active_days: 22
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.0000
-  repo_per_active_day: 0.0870
+  push_per_day: 2.0455
+  repo_per_active_day: 0.0909
   not_owned_ratio: 0.0000
   basename_concentration: 0.5000
   shapes: []
@@ -60,24 +60,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 5
+    pushes: 4
     distinct_repos: 1
-    pushes_per_repo: 5.0000
-    active_days: 3
+    pushes_per_repo: 4.0000
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 46
+    pushes: 45
     distinct_repos: 2
-    pushes_per_repo: 23.0000
-    active_days: 23
+    pushes_per_repo: 22.5000
+    active_days: 22
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 23 active days in 90d — pass"
+  - "activity: 22 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "atlas"
@@ -161,6 +161,6 @@ repos:
 
 # pacifio
 
-46 pushes across 2 repositories on 23 active days in the last 90 days of public GitHub push activity.
+45 pushes across 2 repositories on 22 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/pacifio

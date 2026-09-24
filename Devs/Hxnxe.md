@@ -8,11 +8,11 @@ provenance_repos:
   - "apache/maka"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+repos_populated: true
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [0, 8, 8, 4, 2, 0, 1, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [0, 8, 8, 5, 1, 0, 1, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,31 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 12 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "CyberSentinel-AI"
+    title: "CyberSentinel-AI"
+    description: "CyberSentinel AI 是一个自动化安全监控与AI分析系统"
+    language: "Python"
+    topics: []
+    stars_fact: 110
+    first_seen: null
+    last_push: "2026-06-06"
+  - name: "code-security-audit-skills"
+    title: "code-security-audit-skills"
+    description: "A structured, phase-gated AI-powered code security audit framework for Web applications. 4-phase workflow with hard gates, artifact contracts, and attack-chain priority verification."
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-02-19"
+  - name: "CookieCloud"
+    title: "CookieCloud"
+    description: "CookieCloud是一个和自架服务器同步浏览器Cookie和LocalStorage的小工具，支持端对端加密，可设定同步时间间隔。本仓库包含了插件和服务器端源码。CookieCloud is a small tool for synchronizing browser cookies and LocalStorage with a self-hosted server. It supports end-to-end encryption and allows for setting the synchronization interval. This repository contains both the plugin and the server-side source code"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2025-03-14"
 ---
 
 # Hxnxe

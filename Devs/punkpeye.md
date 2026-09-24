@@ -8,11 +8,11 @@ provenance_repos:
   - "punkpeye/awesome-mcp-servers"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+repos_populated: true
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "61a57c93de29a252"
-pushes_per_week: [3, 19, 23, 39, 23, 2, 10, 3, 5, 0, 34, 17, 60]
+pushes_per_week: [0, 19, 26, 43, 16, 2, 11, 2, 5, 0, 34, 17, 60]
 windows:
   "7d":
     pushes: 60
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 238
+    pushes: 235
     distinct_repos: 15
-    active_days: 34
+    active_days: 33
     repos_not_owned: 11
     not_owned_basenames: 6
     not_owned_owners: 9
 automation:
   state: "clear"
-  push_per_day: 7.0000
-  repo_per_active_day: 0.4412
+  push_per_day: 7.1212
+  repo_per_active_day: 0.4545
   not_owned_ratio: 0.7333
   basename_concentration: 0.4667
   shapes: []
@@ -65,22 +65,78 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 238
+    pushes: 235
     distinct_repos: 15
-    pushes_per_repo: 15.8667
-    active_days: 34
+    pushes_per_repo: 15.6667
+    active_days: 33
     repos_not_owned: 11
     not_owned_basenames: 6
     not_owned_owners: 9
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 34 active days in 90d — pass"
+  - "activity: 33 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "awesome-remote-mcp-servers"
+    title: "awesome-remote-mcp-servers"
+    description: "A collection of remote MCP servers."
+    language: null
+    topics:
+      - "mcp"
+    stars_fact: 385
+    first_seen: null
+    last_push: "2026-09-23"
+  - name: "mcp-remote"
+    title: "mcp-remote"
+    description: "Connect an MCP Client that only supports local (stdio) servers to a Remote MCP Server."
+    language: "TypeScript"
+    topics:
+      - "mcp"
+    stars_fact: 1603
+    first_seen: null
+    last_push: "2026-09-21"
+  - name: "awesome-mcp-clients"
+    title: "awesome-mcp-clients"
+    description: "A collection of MCP clients."
+    language: null
+    topics:
+      - "clients"
+      - "mcp"
+    stars_fact: 6590
+    first_seen: null
+    last_push: "2026-06-07"
+  - name: "fastmcp"
+    title: "fastmcp"
+    description: "A TypeScript framework for building MCP servers."
+    language: "TypeScript"
+    topics:
+      - "mcp"
+      - "sse"
+    stars_fact: 3269
+    first_seen: null
+    last_push: "2026-09-21"
+  - name: "awesome-mcp-servers"
+    title: "awesome-mcp-servers"
+    description: "A collection of MCP servers."
+    language: null
+    topics:
+      - "ai"
+      - "mcp"
+    stars_fact: 95479
+    first_seen: "2026-08-31T06:00:05.900744+00:00"
+    last_push: "2026-09-23"
+  - name: "mcp-proxy"
+    title: "mcp-proxy"
+    description: "A TypeScript streamable HTTP and SSE proxy for MCP servers that use stdio transport."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 291
+    first_seen: null
+    last_push: "2026-09-21"
 ---
 
 # punkpeye
 
-238 pushes across 15 repositories on 34 active days in the last 90 days of public GitHub push activity.
+235 pushes across 15 repositories on 33 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/punkpeye

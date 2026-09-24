@@ -8,28 +8,28 @@ provenance_repos:
   - "ChromeDevTools/chrome-devtools-mcp"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+repos_populated: true
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "379642deb53f3714"
-pushes_per_week: [79, 69, 47, 85, 57, 43, 45, 44, 17, 7, 6, 21, 24]
+pushes_per_week: [78, 63, 51, 82, 55, 39, 53, 34, 18, 6, 7, 23, 26]
 windows:
   "7d":
-    pushes: 25
-    distinct_repos: 9
+    pushes: 27
+    distinct_repos: 8
     active_days: 7
     repos_not_owned: 5
     not_owned_basenames: 5
-    not_owned_owners: 3
+    not_owned_owners: 4
   "30d":
-    pushes: 69
+    pushes: 72
     distinct_repos: 19
-    active_days: 25
+    active_days: 24
     repos_not_owned: 13
     not_owned_basenames: 13
     not_owned_owners: 5
   "90d":
-    pushes: 544
+    pushes: 535
     distinct_repos: 25
     active_days: 83
     repos_not_owned: 16
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 5
 automation:
   state: "clear"
-  push_per_day: 6.5542
+  push_per_day: 6.4458
   repo_per_active_day: 0.3012
   not_owned_ratio: 0.6400
   basename_concentration: 0.0400
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 25
-    distinct_repos: 9
-    pushes_per_repo: 2.7778
+    pushes: 27
+    distinct_repos: 8
+    pushes_per_repo: 3.3750
     active_days: 7
     repos_not_owned: 5
     not_owned_basenames: 5
-    not_owned_owners: 3
+    not_owned_owners: 4
   "30d":
-    pushes: 69
+    pushes: 72
     distinct_repos: 19
-    pushes_per_repo: 3.6316
-    active_days: 25
+    pushes_per_repo: 3.7895
+    active_days: 24
     repos_not_owned: 13
     not_owned_basenames: 13
     not_owned_owners: 5
   "90d":
-    pushes: 544
+    pushes: 535
     distinct_repos: 25
-    pushes_per_repo: 21.7600
+    pushes_per_repo: 21.4000
     active_days: 83
     repos_not_owned: 16
     not_owned_basenames: 16
@@ -76,11 +76,62 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 83 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "tibia-highscores"
+    title: "tibia-highscores"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 5
+    first_seen: null
+    last_push: "2026-09-24"
+  - name: "dotfiles"
+    title: "dotfiles"
+    description: ":wrench: .files, including ~/.macos — sensible hacker defaults for macOS"
+    language: "Shell"
+    topics:
+      - "bash"
+      - "dotfiles"
+      - "macos"
+    stars_fact: 31480
+    first_seen: null
+    last_push: "2024-08-05"
+  - name: "tibia-boosted-boss"
+    title: "tibia-boosted-boss"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-09-24"
+  - name: "tibia-boosted-creature"
+    title: "tibia-boosted-creature"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 6
+    first_seen: null
+    last_push: "2026-09-24"
+  - name: "tibia-bosses"
+    title: "tibia-bosses"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 11
+    first_seen: null
+    last_push: "2026-09-24"
+  - name: "tibia-loot-stats"
+    title: "tibia-loot-stats"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-09-24"
 ---
 
 # mathiasbynens
 
-544 pushes across 25 repositories on 83 active days in the last 90 days of public GitHub push activity.
+535 pushes across 25 repositories on 83 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/mathiasbynens

@@ -8,11 +8,11 @@ provenance_repos:
   - "aws/agent-toolkit-for-aws"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+repos_populated: true
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "a50b0e08dbaee74a"
-pushes_per_week: [1, 4, 0, 4, 3, 3, 0, 0, 0, 1, 0, 1, 1]
+pushes_per_week: [2, 3, 1, 3, 5, 1, 0, 0, 0, 1, 0, 1, 1]
 windows:
   "7d":
     pushes: 1
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 14 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "home-prod"
+    title: "home-prod"
+    description: "Home automation Kubernetes cluster"
+    language: "Shell"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-21"
+  - name: "ml-commons-tests"
+    title: "ml-commons-tests"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-02-26"
+  - name: "agui-testsuite"
+    title: "agui-testsuite"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-02-25"
+  - name: "mcp-proxy-sigv4"
+    title: "mcp-proxy-sigv4"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2025-11-06"
+  - name: "strands-agui-agent"
+    title: "strands-agui-agent"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2025-10-01"
+  - name: "cs35l"
+    title: "cs35l"
+    description: null
+    language: "Roff"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2020-03-31"
 ---
 
 # jiapingzeng

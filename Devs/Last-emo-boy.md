@@ -8,11 +8,11 @@ provenance_repos:
   - "AstrBotDevs/AstrBot"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+repos_populated: true
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [26, 0, 15, 1, 2, 0, 1, 2, 3, 0, 7, 1, 0]
+pushes_per_week: [6, 0, 16, 0, 2, 0, 2, 1, 3, 0, 7, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 11
-    distinct_repos: 10
+    pushes: 10
+    distinct_repos: 9
     active_days: 5
     repos_not_owned: 9
     not_owned_basenames: 9
     not_owned_owners: 1
   "90d":
-    pushes: 58
+    pushes: 38
     distinct_repos: 23
-    active_days: 16
+    active_days: 15
     repos_not_owned: 18
     not_owned_basenames: 18
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 3.6250
-  repo_per_active_day: 1.4375
+  push_per_day: 2.5333
+  repo_per_active_day: 1.5333
   not_owned_ratio: 0.7826
   basename_concentration: 0.0435
   shapes: []
@@ -57,30 +57,78 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 11
-    distinct_repos: 10
-    pushes_per_repo: 1.1000
+    pushes: 10
+    distinct_repos: 9
+    pushes_per_repo: 1.1111
     active_days: 5
     repos_not_owned: 9
     not_owned_basenames: 9
     not_owned_owners: 1
   "90d":
-    pushes: 58
+    pushes: 38
     distinct_repos: 23
-    pushes_per_repo: 2.5217
-    active_days: 16
+    pushes_per_repo: 1.6522
+    active_days: 15
     repos_not_owned: 18
     not_owned_basenames: 18
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 16 active days in 90d — pass"
+  - "activity: 15 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "rikune"
+    title: "rikune"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 241
+    first_seen: null
+    last_push: "2026-09-24"
+  - name: "HiganVN"
+    title: "HiganVN"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2025-12-08"
+  - name: "Multisim-MCP"
+    title: "Multisim-MCP"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 15
+    first_seen: null
+    last_push: "2026-05-25"
+  - name: "oai-skills"
+    title: "oai-skills"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 7
+    first_seen: null
+    last_push: "2026-05-26"
+  - name: "astrbot-rs"
+    title: "astrbot-rs"
+    description: null
+    language: "Rust"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-05-20"
+  - name: "WxAppUnpacker"
+    title: "WxAppUnpacker"
+    description: null
+    language: "C#"
+    topics: []
+    stars_fact: 8
+    first_seen: null
+    last_push: "2026-04-06"
 ---
 
 # Last-emo-boy
 
-58 pushes across 23 repositories on 16 active days in the last 90 days of public GitHub push activity.
+38 pushes across 23 repositories on 15 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Last-emo-boy

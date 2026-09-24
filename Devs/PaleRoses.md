@@ -8,11 +8,11 @@ provenance_repos:
   - "can1357/oh-my-pi"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+repos_populated: true
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [0, 0, 3, 0, 58, 8, 1, 4, 0, 0, 2, 0, 1]
+pushes_per_week: [0, 2, 1, 2, 56, 8, 3, 2, 0, 0, 2, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -76,7 +76,47 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 13 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "moonlight"
+    title: "moonlight"
+    description: "Public source mirror of the Moonlight foundation packages published to Hackage, from Pale Meridian."
+    language: "Haskell"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-24"
+  - name: "nightbloom-comments"
+    title: "nightbloom-comments"
+    description: "Public discussions for Fable essays on Nightbloom"
+    language: "CSS"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-11"
+  - name: "hestia"
+    title: "hestia"
+    description: "tool container"
+    language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-08-05"
+  - name: "golem"
+    title: "golem"
+    description: "Creature compiler: signed-distance flesh, vascular realization, formed skin"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-07-27"
+  - name: "zmk-keyboard-nyx"
+    title: "zmk-keyboard-nyx"
+    description: "Rosalia's folly"
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2025-06-13"
 ---
 
 # PaleRoses

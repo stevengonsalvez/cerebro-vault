@@ -8,8 +8,8 @@ provenance_repos:
   - "anthropics/knowledge-work-plugins"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+repos_populated: true
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "2d6ba8fc0269fd52"
 pushes_per_week: [0, 0, 3, 0, 2, 1, 0, 0, 0, 0, 0, 0, 0]
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "hermes-render-mrd4v6qq"
+    title: "hermes-render-mrd4v6qq"
+    description: "Created from render-examples/hermes-render template"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-03"
+  - name: "cnsl_biz"
+    title: "cnsl_biz"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-05-24"
+  - name: "goalstory-mcp"
+    title: "goalstory-mcp"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 18
+    first_seen: null
+    last_push: "2026-01-05"
+  - name: "one-skill-to-rule-them-all"
+    title: "one-skill-to-rule-them-all"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-02-01"
+  - name: "ostrta"
+    title: "ostrta"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-01-30"
+  - name: "oneSkillToRuleThemAll"
+    title: "oneSkillToRuleThemAll"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-01-30"
 ---
 
 # hichana

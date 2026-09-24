@@ -8,11 +8,11 @@ provenance_repos:
   - "can1357/oh-my-pi"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+repos_populated: true
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [20, 15, 12, 2, 10, 15, 13, 1, 1, 0, 0, 0, 1]
+pushes_per_week: [21, 18, 8, 2, 10, 15, 13, 1, 1, 0, 0, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -76,7 +76,58 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 37 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "tau"
+    title: "tau"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 10
+    first_seen: null
+    last_push: "2026-09-24"
+  - name: "pt"
+    title: "pt"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-22"
+  - name: "ship"
+    title: "ship"
+    description: null
+    language: "Go"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-05"
+  - name: "go-opinionatedevents"
+    title: "go-opinionatedevents"
+    description: null
+    language: "Go"
+    topics:
+      - "golang"
+      - "postgresql"
+      - "pubsub"
+    stars_fact: 4
+    first_seen: null
+    last_push: "2024-11-30"
+  - name: "iota"
+    title: "iota"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2025-12-25"
+  - name: "github-dark-mode"
+    title: "github-dark-mode"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 6
+    first_seen: null
+    last_push: "2023-04-27"
 ---
 
 # markusylisiurunen

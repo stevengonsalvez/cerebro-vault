@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: false
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [10, 10, 3, 6, 2, 0, 1, 3, 1, 1, 1, 1, 0]
+pushes_per_week: [12, 8, 2, 7, 1, 0, 1, 4, 1, 0, 1, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 39
+    pushes: 38
     distinct_repos: 9
-    active_days: 23
+    active_days: 22
     repos_not_owned: 7
     not_owned_basenames: 6
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 1.6957
-  repo_per_active_day: 0.3913
+  push_per_day: 1.7273
+  repo_per_active_day: 0.4091
   not_owned_ratio: 0.7778
   basename_concentration: 0.2222
   shapes: []
@@ -65,22 +65,22 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 39
+    pushes: 38
     distinct_repos: 9
-    pushes_per_repo: 4.3333
-    active_days: 23
+    pushes_per_repo: 4.2222
+    active_days: 22
     repos_not_owned: 7
     not_owned_basenames: 6
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 23 active days in 90d — pass"
+  - "activity: 22 active days in 90d — pass"
   - "automation: clear — pass"
 repos: []
 ---
 
 # SteffenDE
 
-39 pushes across 9 repositories on 23 active days in the last 90 days of public GitHub push activity.
+38 pushes across 9 repositories on 22 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/SteffenDE

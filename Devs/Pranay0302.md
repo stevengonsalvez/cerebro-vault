@@ -8,8 +8,8 @@ provenance_repos:
   - "AlexsJones/llmfit"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+repos_populated: true
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "234088bc43763aa2"
 pushes_per_week: [1, 2, 2, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0]
@@ -76,7 +76,61 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "tornado-labels-v2"
+    title: "tornado-labels-v2"
+    description: "tornado labeling"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-28"
+  - name: "zenport"
+    title: "zenport"
+    description: "portfolio website"
+    language: "JavaScript"
+    topics:
+      - "minimal"
+      - "portfolio-website"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2025-08-21"
+  - name: "lakuna"
+    title: "lakuna"
+    description: "Autonomous AI agents discover research gaps, test ideas and improve models using paper-grounded evidence and live search."
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-07-17"
+  - name: "halo"
+    title: "halo"
+    description: "Agentic Layout Overlay"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-07-12"
+  - name: "market-radar"
+    title: "market-radar"
+    description: "Turning market signals into buy/stock recommendations - traction detection, spec matching, RAG-mined review sentiment and a constraint solver, with model routing and a full audit trail."
+    language: "Python"
+    topics:
+      - "knowledge-graph"
+      - "recommendation-system"
+      - "sentiment-analysis"
+      - "streamlit"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-07-05"
+  - name: "AIE"
+    title: "AIE"
+    description: "FastAPI + LangChain RAG service for academic papers with cited Chain-of-Thought answers and a plain-vs-CoT eval harness (Chroma/Pinecone)."
+    language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-06-26"
 ---
 
 # Pranay0302

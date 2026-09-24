@@ -8,11 +8,11 @@ provenance_repos:
   - "alibaba/open-code-review"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+repos_populated: true
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "c489e6fb5febf2ab"
-pushes_per_week: [0, 0, 4, 2, 0, 0, 5, 1, 3, 0, 0, 2, 11]
+pushes_per_week: [0, 0, 4, 2, 0, 1, 4, 2, 2, 0, 0, 2, 11]
 windows:
   "7d":
     pushes: 11
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 15 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "bootdev-ssg"
+    title: "bootdev-ssg"
+    description: "Static site generator (Boot.dev course project)"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-06"
+  - name: "bootdev-aiagent"
+    title: "bootdev-aiagent"
+    description: "Boot.dev Build an AI Agent in Python"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-04"
+  - name: "jimpablo"
+    title: "jimpablo"
+    description: "My personal repository."
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-06-20"
+  - name: "queries"
+    title: "queries"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-04-21"
+  - name: "uigen"
+    title: "uigen"
+    description: "AI-powered React component generator"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-04-23"
+  - name: "Asteroids"
+    title: "Asteroids"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-07-11"
 ---
 
 # jimpablo

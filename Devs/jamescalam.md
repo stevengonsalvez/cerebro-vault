@@ -8,8 +8,8 @@ provenance_repos:
   - "anthropics/claude-cookbooks"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+repos_populated: true
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "1f49d0119cedbc84"
 pushes_per_week: [0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 1, 5, 0]
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "transformers"
+    title: "transformers"
+    description: null
+    language: "Jupyter Notebook"
+    topics: []
+    stars_fact: 596
+    first_seen: null
+    last_push: "2023-10-30"
+  - name: "visionary"
+    title: "visionary"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-14"
+  - name: "sidecar"
+    title: "sidecar"
+    description: null
+    language: "Go"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-14"
+  - name: "context-switch.nvim"
+    title: "context-switch.nvim"
+    description: null
+    language: "Lua"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-08"
+  - name: "neo-reviewr.nvim"
+    title: "neo-reviewr.nvim"
+    description: null
+    language: "Lua"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-08"
+  - name: "uvm"
+    title: "uvm"
+    description: null
+    language: "Go"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-09"
 ---
 
 # jamescalam

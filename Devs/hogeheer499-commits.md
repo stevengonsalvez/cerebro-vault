@@ -8,11 +8,11 @@ provenance_repos:
   - "AlexsJones/llmfit"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+repos_populated: true
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [2, 0, 14, 2, 2, 0, 3, 0, 2, 0, 0, 0, 0]
+pushes_per_week: [2, 1, 13, 2, 2, 0, 3, 0, 2, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,61 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 11 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "strix-halo-guide"
+    title: "strix-halo-guide"
+    description: "Evidence-backed AMD Strix Halo local-AI setup and benchmarks: Qwen3.8, Ollama, llama.cpp, Vulkan/ROCm, large GGUFs, and cross-OEM results."
+    language: "Python"
+    topics:
+      - "amd"
+      - "beelink"
+      - "benchmark"
+      - "framework-desktop"
+      - "gfx1151"
+      - "gguf"
+      - "llama-cpp"
+      - "llm"
+      - "local-ai"
+      - "local-llm"
+      - "mini-pc"
+      - "ollama"
+      - "qwen3"
+      - "radeon-8060s"
+      - "rocm"
+      - "ryzen-ai-max"
+      - "ryzen-ai-max-395"
+      - "strix-halo"
+      - "unified-memory"
+      - "vulkan"
+    stars_fact: 343
+    first_seen: null
+    last_push: "2026-09-19"
+  - name: "evidenceflow-ai"
+    title: "evidenceflow-ai"
+    description: "Approval-gated, observable AI evidence triage with local inference, grounded citations, audit trails and evals, plus pre-registered vision fine-tuning and calibrated measurement demonstrators"
+    language: "Python"
+    topics:
+      - "ai-evaluation"
+      - "ai-workflows"
+      - "audit-log"
+      - "generative-ai"
+      - "human-in-the-loop"
+      - "llmops"
+      - "ollama"
+      - "openai-compatible"
+      - "opentelemetry"
+      - "python"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-30"
+  - name: "docflock-sharer"
+    title: "docflock-sharer"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-07-14"
 ---
 
 # hogeheer499-commits

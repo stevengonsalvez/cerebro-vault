@@ -8,11 +8,11 @@ provenance_repos:
   - "anthropics/anthropic-sdk-python"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+repos_populated: true
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "1be978947e68d1f2"
-pushes_per_week: [55, 7, 7, 11, 25, 1, 1, 3, 1, 0, 0, 0, 0]
+pushes_per_week: [43, 6, 6, 10, 23, 0, 1, 3, 1, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 111
+    pushes: 93
     distinct_repos: 3
-    active_days: 28
+    active_days: 27
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 3.9643
-  repo_per_active_day: 0.1071
+  push_per_day: 3.4444
+  repo_per_active_day: 0.1111
   not_owned_ratio: 0.6667
   basename_concentration: 0.3333
   shapes: []
@@ -65,22 +65,22 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 111
+    pushes: 93
     distinct_repos: 3
-    pushes_per_repo: 37.0000
-    active_days: 28
+    pushes_per_repo: 31.0000
+    active_days: 27
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 28 active days in 90d — pass"
+  - "activity: 27 active days in 90d — pass"
   - "automation: clear — pass"
 repos: []
 ---
 
 # maxisbey
 
-111 pushes across 3 repositories on 28 active days in the last 90 days of public GitHub push activity.
+93 pushes across 3 repositories on 27 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/maxisbey

@@ -8,37 +8,37 @@ provenance_repos:
   - "bytedance/deer-flow"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+repos_populated: true
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "16389f32495280ea"
-pushes_per_week: [13, 0, 1, 0, 0, 0, 0, 0, 1, 2, 0, 5, 2]
+pushes_per_week: [13, 0, 1, 0, 0, 0, 0, 1, 0, 2, 0, 5, 3]
 windows:
   "7d":
-    pushes: 2
+    pushes: 3
     distinct_repos: 1
-    active_days: 2
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 9
+    pushes: 10
     distinct_repos: 1
-    active_days: 7
+    active_days: 8
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 24
+    pushes: 25
     distinct_repos: 3
-    active_days: 12
+    active_days: 13
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.0000
-  repo_per_active_day: 0.2500
+  push_per_day: 1.9231
+  repo_per_active_day: 0.2308
   not_owned_ratio: 0.3333
   basename_concentration: 0.3333
   shapes: []
@@ -49,38 +49,86 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
+    pushes: 3
     distinct_repos: 1
-    pushes_per_repo: 2.0000
-    active_days: 2
+    pushes_per_repo: 3.0000
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 9
+    pushes: 10
     distinct_repos: 1
-    pushes_per_repo: 9.0000
-    active_days: 7
+    pushes_per_repo: 10.0000
+    active_days: 8
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 24
+    pushes: 25
     distinct_repos: 3
-    pushes_per_repo: 8.0000
-    active_days: 12
+    pushes_per_repo: 8.3333
+    active_days: 13
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 12 active days in 90d — pass"
+  - "activity: 13 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "hyeonsang010716"
+    title: "hyeonsang010716"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-14"
+  - name: "krip-backend-spring"
+    title: "krip-backend-spring"
+    description: null
+    language: "Java"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-06-30"
+  - name: "event-driven-msa"
+    title: "event-driven-msa"
+    description: "Outbox + Kafka Saga + DLQ + Circuit Breaker 기반 이벤트 드리븐 FastAPI MSA. 마감 임박 음식 픽업 주문 플랫폼 서버."
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-05-30"
+  - name: "fastapi-kafka-guide"
+    title: "fastapi-kafka-guide"
+    description: "A guide repository for integrating Kafka with FastAPI, including setup, configuration, and practical examples."
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-04-29"
+  - name: "SuME"
+    title: "SuME"
+    description: "A repository for an AI-powered service that transcribes and organizes meeting notes in real-time."
+    language: "Python"
+    topics: []
+    stars_fact: 4
+    first_seen: null
+    last_push: "2025-02-17"
+  - name: "seoul-hotspot-data"
+    title: "seoul-hotspot-data"
+    description: "Curated place data (restaurants, cafes, attractions) from 37 Seoul hotspots in structured JSON"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-04-13"
 ---
 
 # hyeonsang010716
 
-24 pushes across 3 repositories on 12 active days in the last 90 days of public GitHub push activity.
+25 pushes across 3 repositories on 13 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/hyeonsang010716

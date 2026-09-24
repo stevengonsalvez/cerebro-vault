@@ -8,8 +8,8 @@ provenance_repos:
   - "abhigyanpatwari/GitNexus"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+repos_populated: true
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "3c90af76cbde0363"
 pushes_per_week: [3, 1, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0]
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "unmixer"
+    title: "unmixer"
+    description: "Unmixer unmixes music recordings into stems and backing tracks for vocals, drums, bass, guitar, etc."
+    language: "Python"
+    topics: []
+    stars_fact: 21
+    first_seen: null
+    last_push: "2023-05-30"
+  - name: "lake-livingston-dot-net"
+    title: "lake-livingston-dot-net"
+    description: null
+    language: "Astro"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-06-14"
+  - name: "my-emdash-site"
+    title: "my-emdash-site"
+    description: null
+    language: "Astro"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-06-12"
+  - name: "tclspi"
+    title: "tclspi"
+    description: "This is tclspi, a direct Tcl interface to the Serial Peripheral Interface Bus on the Raspberry Pi."
+    language: "M4"
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2016-12-18"
+  - name: "karls_chatgpt_helpers"
+    title: "karls_chatgpt_helpers"
+    description: "'chatgpt' program brings chatgpt into your Unix workflow. 'gptshell' is an interactive command line tool. ...makes chatGPT conversations easier from python"
+    language: "Python"
+    topics: []
+    stars_fact: 6
+    first_seen: null
+    last_push: "2025-10-06"
+  - name: "tclzlib"
+    title: "tclzlib"
+    description: "This extension is a standalone version of the tclkit [zlib] command/extension"
+    language: "C"
+    topics: []
+    stars_fact: 9
+    first_seen: null
+    last_push: "2015-08-08"
 ---
 
 # lehenbauer

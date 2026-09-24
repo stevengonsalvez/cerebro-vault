@@ -9,13 +9,13 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: false
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [7, 12, 0, 2, 2, 3, 11, 1, 8, 2, 2, 9, 4]
+pushes_per_week: [6, 12, 0, 2, 2, 4, 10, 1, 8, 2, 2, 11, 2]
 windows:
   "7d":
-    pushes: 4
+    pushes: 3
     distinct_repos: 1
     active_days: 2
     repos_not_owned: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 63
+    pushes: 62
     distinct_repos: 2
-    active_days: 31
+    active_days: 30
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.0323
-  repo_per_active_day: 0.0645
+  push_per_day: 2.0667
+  repo_per_active_day: 0.0667
   not_owned_ratio: 0.0000
   basename_concentration: 0.5000
   shapes: []
@@ -49,9 +49,9 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 4
+    pushes: 3
     distinct_repos: 1
-    pushes_per_repo: 4.0000
+    pushes_per_repo: 3.0000
     active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -65,22 +65,22 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 63
+    pushes: 62
     distinct_repos: 2
-    pushes_per_repo: 31.5000
-    active_days: 31
+    pushes_per_repo: 31.0000
+    active_days: 30
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 31 active days in 90d — pass"
+  - "activity: 30 active days in 90d — pass"
   - "automation: clear — pass"
 repos: []
 ---
 
 # szavadsky
 
-63 pushes across 2 repositories on 31 active days in the last 90 days of public GitHub push activity.
+62 pushes across 2 repositories on 30 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/szavadsky

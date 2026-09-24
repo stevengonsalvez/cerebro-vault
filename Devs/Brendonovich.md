@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [44, 21, 12, 7, 20, 5, 5, 3, 9, 2, 1, 0, 16]
+pushes_per_week: [43, 21, 7, 10, 19, 3, 5, 2, 9, 2, 1, 0, 18]
 windows:
   "7d":
-    pushes: 16
+    pushes: 18
     distinct_repos: 2
-    active_days: 3
+    active_days: 4
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
     pushes: 22
     distinct_repos: 2
-    active_days: 6
+    active_days: 7
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 145
+    pushes: 140
     distinct_repos: 8
     active_days: 43
     repos_not_owned: 4
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 4
 automation:
   state: "clear"
-  push_per_day: 3.3721
+  push_per_day: 3.2558
   repo_per_active_day: 0.1860
   not_owned_ratio: 0.5000
   basename_concentration: 0.5000
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 16
+    pushes: 18
     distinct_repos: 2
-    pushes_per_repo: 8.0000
-    active_days: 3
+    pushes_per_repo: 9.0000
+    active_days: 4
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -60,14 +60,14 @@ facets:
     pushes: 22
     distinct_repos: 2
     pushes_per_repo: 11.0000
-    active_days: 6
+    active_days: 7
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 145
+    pushes: 140
     distinct_repos: 8
-    pushes_per_repo: 18.1250
+    pushes_per_repo: 17.5000
     active_days: 43
     repos_not_owned: 4
     not_owned_basenames: 1
@@ -139,6 +139,6 @@ repos:
 
 # Brendonovich
 
-145 pushes across 8 repositories on 43 active days in the last 90 days of public GitHub push activity.
+140 pushes across 8 repositories on 43 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Brendonovich

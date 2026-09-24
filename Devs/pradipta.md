@@ -8,11 +8,11 @@ provenance_repos:
   - "pradipta/wallfacer"
 admitted: true
 low_n: true
-repos_populated: false
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+repos_populated: true
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "b49973635ff55351"
-pushes_per_week: [0, 0, 0, 2, 0, 2, 0, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [0, 0, 0, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,72 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 2 active days in 90d — below the 5-day line, LABELLED low-n (never suppressed)"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "dotfiles"
+    title: "dotfiles"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-08"
+  - name: "wallfacer"
+    title: "wallfacer"
+    description: "A terminal session manager for Claude Code, and more"
+    language: "Go"
+    topics:
+      - "claude"
+      - "claude-code"
+      - "cli"
+      - "golang"
+      - "productivity"
+      - "tui"
+      - "tui-app"
+    stars_fact: 116
+    first_seen: "2026-08-06T06:00:05.901805+00:00"
+    last_push: "2026-08-01"
+  - name: "pradipta.github.io"
+    title: "pradipta.github.io"
+    description: null
+    language: "Astro"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-07-21"
+  - name: "splitwise-machine-coding"
+    title: "splitwise-machine-coding"
+    description: "Backend system, OO design, for Splitwise. This is not the actual code used by Splitwise."
+    language: "Java"
+    topics:
+      - "design-splitwise"
+      - "machine-code"
+      - "splitwise"
+      - "splitwise-api"
+    stars_fact: 4
+    first_seen: null
+    last_push: "2019-11-19"
+  - name: "optiprobe-core-lib"
+    title: "optiprobe-core-lib"
+    description: null
+    language: "Java"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2024-03-16"
+  - name: "Parking-Lot-Design"
+    title: "Parking-Lot-Design"
+    description: "machine Coding | Parking Lot | Java"
+    language: "Java"
+    topics:
+      - "design"
+      - "machine-code"
+      - "machinecode"
+      - "oop"
+      - "oops-in-java"
+      - "parking-lot"
+    stars_fact: 2
+    first_seen: null
+    last_push: "2019-12-05"
 ---
 
 # pradipta

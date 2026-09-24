@@ -8,11 +8,11 @@ provenance_repos:
   - "cloudflare/cloudflare-os"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+repos_populated: true
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "386c24cf5e18fd90"
-pushes_per_week: [4, 10, 1, 3, 13, 9, 5, 4, 0, 0, 0, 3, 5]
+pushes_per_week: [5, 9, 1, 5, 13, 7, 6, 3, 0, 0, 0, 4, 4]
 windows:
   "7d":
     pushes: 5
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 26 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "webclgl"
+    title: "webclgl"
+    description: "Javascript Library for general purpose computing on GPU"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2013-12-26"
+  - name: "lit-slider"
+    title: "lit-slider"
+    description: "A Lit-based web-component wrapper for Swiper.js"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2022-02-13"
+  - name: "kochizufan"
+    title: "kochizufan"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2021-02-10"
+  - name: "MaplatProjects"
+    title: "MaplatProjects"
+    description: "Maplat Test repository for each projects. master may be empty, contents are in gh-pages."
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2021-03-12"
+  - name: "browserstack_local_sample"
+    title: "browserstack_local_sample"
+    description: "Self learning about browserstack local"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2022-12-12"
+  - name: "IrieSample"
+    title: "IrieSample"
+    description: "Irie-san's sample"
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2018-07-23"
 ---
 
 # kochizufan

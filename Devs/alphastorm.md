@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [0, 0, 1, 14, 10, 1, 1, 0, 5, 1, 0, 29, 14]
+pushes_per_week: [0, 0, 1, 15, 9, 1, 1, 0, 5, 1, 0, 30, 16]
 windows:
   "7d":
     pushes: 16
-    distinct_repos: 6
-    active_days: 6
+    distinct_repos: 4
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 45
+    pushes: 48
     distinct_repos: 6
-    active_days: 12
+    active_days: 13
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 76
+    pushes: 79
     distinct_repos: 9
-    active_days: 27
+    active_days: 28
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.8148
-  repo_per_active_day: 0.3333
+  push_per_day: 2.8214
+  repo_per_active_day: 0.3214
   not_owned_ratio: 0.0000
   basename_concentration: 0.1111
   shapes: []
@@ -50,31 +50,31 @@ automation:
 facets:
   "7d":
     pushes: 16
-    distinct_repos: 6
-    pushes_per_repo: 2.6667
-    active_days: 6
+    distinct_repos: 4
+    pushes_per_repo: 4.0000
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 45
+    pushes: 48
     distinct_repos: 6
-    pushes_per_repo: 7.5000
-    active_days: 12
+    pushes_per_repo: 8.0000
+    active_days: 13
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 76
+    pushes: 79
     distinct_repos: 9
-    pushes_per_repo: 8.4444
-    active_days: 27
+    pushes_per_repo: 8.7778
+    active_days: 28
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 27 active days in 90d — pass"
+  - "activity: 28 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "dotfiles-ng"
@@ -177,6 +177,6 @@ repos:
 
 # alphastorm
 
-76 pushes across 9 repositories on 27 active days in the last 90 days of public GitHub push activity.
+79 pushes across 9 repositories on 28 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/alphastorm

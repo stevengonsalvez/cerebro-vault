@@ -8,8 +8,8 @@ provenance_repos:
   - "BigPizzaV3/CodexPlusPlus"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+repos_populated: true
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "90688bf127241ceb"
 pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 2, 0, 2, 0, 0, 2]
@@ -76,7 +76,52 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "dsh-update-copilot"
+    title: "dsh-update-copilot"
+    description: "Update copilot for DeepSeek Harness: tracks the DSH core, bundled packages, and every installed plugin across npm and git, merged package-centric over all profiles, with one-click updates for eligible profiles. · DSH 更新助手：追踪 dsh 本体、bundle 包和所有已装插件（npm 与 git 双通道，跨 profile 按包合并），仅对符合条件的 profile 一键更新。"
+    language: "JavaScript"
+    topics:
+      - "agent-tools"
+      - "changelog"
+      - "cordis-plugin"
+      - "deepseek-harness"
+      - "dependency-updates"
+      - "developer-tools"
+      - "dsh"
+      - "dsh-plugin"
+      - "npm"
+      - "plugin-manager"
+      - "productivity"
+      - "semver"
+      - "update-checker"
+      - "version-radar"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-23"
+  - name: "dsh-capability-optimizer"
+    title: "dsh-capability-optimizer"
+    description: "External-expert consultation for DeepSeek Harness: headless Claude Code CLI with role personas (advisor/reviewer/designer, extensible), replies as reference answers — thinking effort, model fallback, panels, settings workspace. · DSH 外部专家咨询：headless 调用 Claude Code CLI，角色人设（advisor/reviewer/designer，可扩展）回复即参考答案——推理等级、模型回退、并行会诊、设置工作区。"
+    language: "JavaScript"
+    topics:
+      - "advisor"
+      - "claude-code"
+      - "code-review"
+      - "deepseek-harness"
+      - "dsh-plugin"
+      - "reviewer"
+      - "second-opinion"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-19"
+  - name: "omo-models-switcher"
+    title: "omo-models-switcher"
+    description: "Native macOS menu bar app for managing OhMyOpenAgent / opencode model assignments, with one-click Agent/Category switching and benchmark-based, quota-aware AI recommendations｜原生 macOS 菜单栏工具，用于管理 OhMyOpenAgent / opencode 模型分配，支持一键切换 Agent/分类模型与基于公开榜单、配额感知的 AI 推荐"
+    language: "Swift"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-04-30"
 ---
 
 # hezhongtang

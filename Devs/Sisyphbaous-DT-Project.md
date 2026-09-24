@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: false
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [17, 5, 2, 0, 2, 2, 1, 0, 0, 0, 0, 0, 1]
+pushes_per_week: [13, 5, 2, 0, 2, 2, 1, 0, 0, 0, 0, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 30
+    pushes: 26
     distinct_repos: 9
-    active_days: 16
+    active_days: 15
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.8750
-  repo_per_active_day: 0.5625
+  push_per_day: 1.7333
+  repo_per_active_day: 0.6000
   not_owned_ratio: 0.1111
   basename_concentration: 0.2222
   shapes: []
@@ -65,22 +65,22 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 30
+    pushes: 26
     distinct_repos: 9
-    pushes_per_repo: 3.3333
-    active_days: 16
+    pushes_per_repo: 2.8889
+    active_days: 15
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 16 active days in 90d — pass"
+  - "activity: 15 active days in 90d — pass"
   - "automation: clear — pass"
 repos: []
 ---
 
 # Sisyphbaous-DT-Project
 
-30 pushes across 9 repositories on 16 active days in the last 90 days of public GitHub push activity.
+26 pushes across 9 repositories on 15 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Sisyphbaous-DT-Project

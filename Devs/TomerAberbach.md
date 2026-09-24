@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: false
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "1be978947e68d1f2"
-pushes_per_week: [13, 41, 21, 14, 2, 1, 16, 5, 1, 0, 1, 1, 3]
+pushes_per_week: [13, 39, 21, 12, 2, 3, 14, 5, 1, 0, 1, 1, 6]
 windows:
   "7d":
-    pushes: 3
+    pushes: 6
     distinct_repos: 2
-    active_days: 2
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 6
+    pushes: 8
     distinct_repos: 4
     active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 119
+    pushes: 118
     distinct_repos: 5
     active_days: 37
     repos_not_owned: 0
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 3.2162
+  push_per_day: 3.1892
   repo_per_active_day: 0.1351
   not_owned_ratio: 0.0000
   basename_concentration: 0.2000
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 3
+    pushes: 6
     distinct_repos: 2
-    pushes_per_repo: 1.5000
-    active_days: 2
+    pushes_per_repo: 3.0000
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 6
+    pushes: 8
     distinct_repos: 4
-    pushes_per_repo: 1.5000
+    pushes_per_repo: 2.0000
     active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 119
+    pushes: 118
     distinct_repos: 5
-    pushes_per_repo: 23.8000
+    pushes_per_repo: 23.6000
     active_days: 37
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -81,6 +81,6 @@ repos: []
 
 # TomerAberbach
 
-119 pushes across 5 repositories on 37 active days in the last 90 days of public GitHub push activity.
+118 pushes across 5 repositories on 37 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/TomerAberbach

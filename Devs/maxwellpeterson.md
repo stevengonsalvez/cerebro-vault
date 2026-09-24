@@ -8,11 +8,11 @@ provenance_repos:
   - "cloudflare/cloudflare-os"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+repos_populated: true
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "386c24cf5e18fd90"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 5, 7, 0, 0, 0, 0, 0]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 9, 3, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,61 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "perchkitchen"
+    title: "perchkitchen"
+    description: null
+    language: "Astro"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-11"
+  - name: "iac-test"
+    title: "iac-test"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2025-02-26"
+  - name: "kafka-worker"
+    title: "kafka-worker"
+    description: "Kafka 0.8.0 broker implementation on top of Cloudflare Workers"
+    language: "TypeScript"
+    topics:
+      - "cloudflare-workers"
+      - "kafka"
+    stars_fact: 151
+    first_seen: null
+    last_push: "2022-10-01"
+  - name: "kafka-websocket-shim"
+    title: "kafka-websocket-shim"
+    description: "frame Kafka protocol messages sent over TCP into WebSocket messages"
+    language: "Go"
+    topics:
+      - "kafka"
+      - "websocket"
+    stars_fact: 5
+    first_seen: null
+    last_push: "2022-09-28"
+  - name: "sfplvinyl.com"
+    title: "sfplvinyl.com"
+    description: "Find your top Spotify tracks on vinyl at the San Francisco Public Library."
+    language: "TypeScript"
+    topics:
+      - "cloudflare-workers"
+      - "remix"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-03-25"
+  - name: "grangarda"
+    title: "grangarda"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-03-25"
 ---
 
 # maxwellpeterson

@@ -8,11 +8,11 @@ provenance_repos:
   - "ColeMurray/background-agents"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+repos_populated: true
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "8311cfc3055f8fea"
-pushes_per_week: [0, 0, 0, 0, 0, 3, 3, 2, 0, 0, 0, 0, 0]
+pushes_per_week: [0, 0, 0, 0, 1, 2, 4, 1, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 8 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "astro-resume"
+    title: "astro-resume"
+    description: null
+    language: "Astro"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-30"
+  - name: "momo-log"
+    title: "momo-log"
+    description: null
+    language: "Go"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-27"
+  - name: "workout-tracker"
+    title: "workout-tracker"
+    description: null
+    language: "Blade"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-10"
+  - name: "phoenix_fintech"
+    title: "phoenix_fintech"
+    description: null
+    language: "Elixir"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-03"
+  - name: "nvim-config"
+    title: "nvim-config"
+    description: null
+    language: "Lua"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-06-17"
+  - name: "rust-fintech"
+    title: "rust-fintech"
+    description: null
+    language: "Rust"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-05-21"
 ---
 
 # leejayhsu

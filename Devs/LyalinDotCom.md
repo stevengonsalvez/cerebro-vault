@@ -8,8 +8,8 @@ provenance_repos:
   - "agentskills/agentskills"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+repos_populated: true
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "48dbbdd8fd0d3029"
 pushes_per_week: [8, 6, 0, 2, 0, 0, 0, 0, 0, 0, 0, 1, 0]
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 9 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "GeminiKeyboardSample"
+    title: "GeminiKeyboardSample"
+    description: "iOS sample: custom keyboard + microphone relay app with Gemini 3.5 Transcribe (Live and batch)"
+    language: "Swift"
+    topics: []
+    stars_fact: 22
+    first_seen: null
+    last_push: "2026-09-21"
+  - name: "chrome-gemini-sync"
+    title: "chrome-gemini-sync"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 8
+    first_seen: null
+    last_push: "2025-12-29"
+  - name: "connection-watch"
+    title: "connection-watch"
+    description: "A MacOS Utility, for watching your internet connection health on the go"
+    language: "Swift"
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-09-21"
+  - name: "GemmaDesktop"
+    title: "GemmaDesktop"
+    description: "An experiment, what if Gemma had a Desktop app tuned for the model and offline scenarios?"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 130
+    first_seen: null
+    last_push: "2026-06-17"
+  - name: "the-world"
+    title: "the-world"
+    description: "Experimental Project: What if Gemma had an SDK for web developers to builds games around it as the game brain?"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 43
+    first_seen: null
+    last_push: "2026-05-11"
+  - name: "my-audiobook-collection"
+    title: "my-audiobook-collection"
+    description: "My Audiobook Collection: 238 titles organized by series, with cover art and Audible links."
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-11"
 ---
 
 # LyalinDotCom

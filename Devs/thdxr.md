@@ -10,10 +10,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: false
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [32, 25, 23, 10, 4, 2, 9, 7, 2, 1, 1, 5, 8]
+pushes_per_week: [33, 25, 23, 7, 4, 3, 10, 5, 2, 1, 1, 6, 7]
 windows:
   "7d":
     pushes: 8
@@ -30,16 +30,16 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 129
+    pushes: 127
     distinct_repos: 3
-    active_days: 51
+    active_days: 50
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.5294
-  repo_per_active_day: 0.0588
+  push_per_day: 2.5400
+  repo_per_active_day: 0.0600
   not_owned_ratio: 1.0000
   basename_concentration: 0.3333
   shapes: []
@@ -66,22 +66,22 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 129
+    pushes: 127
     distinct_repos: 3
-    pushes_per_repo: 43.0000
-    active_days: 51
+    pushes_per_repo: 42.3333
+    active_days: 50
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 51 active days in 90d — pass"
+  - "activity: 50 active days in 90d — pass"
   - "automation: clear — pass"
 repos: []
 ---
 
 # thdxr
 
-129 pushes across 3 repositories on 51 active days in the last 90 days of public GitHub push activity.
+127 pushes across 3 repositories on 50 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/thdxr

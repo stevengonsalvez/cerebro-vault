@@ -8,11 +8,11 @@ provenance_repos:
   - "agentscope-ai/QwenPaw"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+repos_populated: true
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "541318303a272608"
-pushes_per_week: [15, 4, 5, 2, 0, 1, 0, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [15, 6, 5, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 10 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "python-test-pattern-skill"
+    title: "python-test-pattern-skill"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-05-14"
+  - name: "frontend-test-pattern-skill"
+    title: "frontend-test-pattern-skill"
+    description: "Claude Code skill for React + Vite projects — auto-generates Vitest & Testing Library tests for utils, components, hooks, and Zustand stores. Companion to python-test-pattern."
+    language: "Shell"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-05-14"
+  - name: "algorithm-cpp"
+    title: "algorithm-cpp"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2024-11-21"
+  - name: "algorithm-javascript"
+    title: "algorithm-javascript"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2024-11-21"
+  - name: "algorithm-rust"
+    title: "algorithm-rust"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2024-11-21"
+  - name: "eshop-wholesale-web"
+    title: "eshop-wholesale-web"
+    description: null
+    language: "Vue"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2023-04-26"
 ---
 
 # hanson-hex

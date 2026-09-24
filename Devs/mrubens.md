@@ -8,28 +8,28 @@ provenance_repos:
   - "cline/cline"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+repos_populated: true
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "533d51d9d3dea76f"
-pushes_per_week: [0, 0, 41, 57, 18, 19, 16, 22, 11, 5, 0, 14, 18]
+pushes_per_week: [0, 0, 56, 44, 19, 16, 21, 17, 13, 3, 1, 18, 17]
 windows:
   "7d":
-    pushes: 22
+    pushes: 19
     distinct_repos: 1
-    active_days: 7
+    active_days: 6
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 45
+    pushes: 46
     distinct_repos: 1
-    active_days: 18
+    active_days: 17
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 221
+    pushes: 225
     distinct_repos: 3
     active_days: 51
     repos_not_owned: 3
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 4.3333
+  push_per_day: 4.4118
   repo_per_active_day: 0.0588
   not_owned_ratio: 1.0000
   basename_concentration: 0.6667
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 22
+    pushes: 19
     distinct_repos: 1
-    pushes_per_repo: 22.0000
-    active_days: 7
+    pushes_per_repo: 19.0000
+    active_days: 6
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 45
+    pushes: 46
     distinct_repos: 1
-    pushes_per_repo: 45.0000
-    active_days: 18
+    pushes_per_repo: 46.0000
+    active_days: 17
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 221
+    pushes: 225
     distinct_repos: 3
-    pushes_per_repo: 73.6667
+    pushes_per_repo: 75.0000
     active_days: 51
     repos_not_owned: 3
     not_owned_basenames: 2
@@ -76,11 +76,19 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 51 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "rails-subdomains"
+    title: "rails-subdomains"
+    description: "Rails 8 subdomain routing demo"
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-03-03"
 ---
 
 # mrubens
 
-221 pushes across 3 repositories on 51 active days in the last 90 days of public GitHub push activity.
+225 pushes across 3 repositories on 51 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/mrubens

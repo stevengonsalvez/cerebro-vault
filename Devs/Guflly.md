@@ -8,8 +8,8 @@ provenance_repos:
   - "agavra/tuicr"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+repos_populated: true
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "4a45ac7a449df20e"
 pushes_per_week: [0, 0, 0, 0, 2, 23, 2, 0, 0, 0, 0, 0, 0]
@@ -76,7 +76,22 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 8 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "samever"
+    title: "samever"
+    description: "Catch runtime version drift before CI does."
+    language: "JavaScript"
+    topics:
+      - "ci"
+      - "cli"
+      - "developer-tools"
+      - "docker"
+      - "nodejs"
+      - "python"
+      - "version-management"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-08-02"
 ---
 
 # Guflly

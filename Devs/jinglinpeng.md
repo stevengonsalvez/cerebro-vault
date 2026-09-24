@@ -8,16 +8,16 @@ provenance_repos:
   - "agentscope-ai/QwenPaw"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+repos_populated: true
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "541318303a272608"
-pushes_per_week: [15, 10, 5, 4, 9, 4, 4, 1, 0, 0, 0, 0, 1]
+pushes_per_week: [17, 6, 6, 4, 8, 5, 4, 0, 0, 0, 0, 1, 0]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 53
+    pushes: 51
     distinct_repos: 3
-    active_days: 24
+    active_days: 23
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 2.2083
-  repo_per_active_day: 0.1250
+  push_per_day: 2.2174
+  repo_per_active_day: 0.1304
   not_owned_ratio: 0.6667
   basename_concentration: 0.6667
   shapes: []
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -65,22 +65,30 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 53
+    pushes: 51
     distinct_repos: 3
-    pushes_per_repo: 17.6667
-    active_days: 24
+    pushes_per_repo: 17.0000
+    active_days: 23
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 24 active days in 90d — pass"
+  - "activity: 23 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "simple-repo"
+    title: "simple-repo"
+    description: "used for test"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2021-06-15"
 ---
 
 # jinglinpeng
 
-53 pushes across 3 repositories on 24 active days in the last 90 days of public GitHub push activity.
+51 pushes across 3 repositories on 23 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/jinglinpeng

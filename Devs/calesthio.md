@@ -10,10 +10,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "6d3bd03b49986330"
-pushes_per_week: [14, 13, 3, 5, 1, 0, 0, 13, 1, 0, 0, 0, 0]
+pushes_per_week: [14, 13, 2, 6, 0, 0, 13, 0, 1, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -30,16 +30,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 50
+    pushes: 49
     distinct_repos: 12
-    active_days: 18
+    active_days: 17
     repos_not_owned: 9
     not_owned_basenames: 1
     not_owned_owners: 9
 automation:
   state: "clear"
-  push_per_day: 2.7778
-  repo_per_active_day: 0.6667
+  push_per_day: 2.8824
+  repo_per_active_day: 0.7059
   not_owned_ratio: 0.7500
   basename_concentration: 0.8333
   shapes:
@@ -82,16 +82,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 50
+    pushes: 49
     distinct_repos: 12
-    pushes_per_repo: 4.1667
-    active_days: 18
+    pushes_per_repo: 4.0833
+    active_days: 17
     repos_not_owned: 9
     not_owned_basenames: 1
     not_owned_owners: 9
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 18 active days in 90d — pass"
+  - "activity: 17 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "Crucix"
@@ -228,6 +228,6 @@ repos:
 
 # calesthio
 
-50 pushes across 12 repositories on 18 active days in the last 90 days of public GitHub push activity.
+49 pushes across 12 repositories on 17 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/calesthio

@@ -8,8 +8,8 @@ provenance_repos:
   - "anthropics/anthropic-sdk-python"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+repos_populated: true
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "1be978947e68d1f2"
 pushes_per_week: [0, 6, 0, 0, 1, 0, 0, 1, 3, 0, 0, 1, 4]
@@ -76,7 +76,73 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 10 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "hishel"
+    title: "hishel"
+    description: "Elegant HTTP Caching for Python"
+    language: "Python"
+    topics:
+      - "caching"
+      - "http"
+      - "http-cache"
+      - "httpcore-cache"
+      - "httpcore-caching"
+      - "httpx-cache"
+      - "httpx-caching"
+      - "python"
+      - "web"
+      - "web-cache"
+      - "web-caching"
+    stars_fact: 412
+    first_seen: null
+    last_push: "2026-09-18"
+  - name: "uv-vscode"
+    title: "uv-vscode"
+    description: "A Visual Studio Code extension with support for the Uv package manager."
+    language: "TypeScript"
+    topics:
+      - "package-management"
+      - "uv"
+      - "vscode"
+    stars_fact: 25
+    first_seen: null
+    last_push: "2026-02-08"
+  - name: "httpx-aiohttp"
+    title: "httpx-aiohttp"
+    description: "aiohttp-powered httpx client"
+    language: "Python"
+    topics:
+      - "aiohttp"
+      - "http"
+      - "http-client"
+      - "httpx"
+    stars_fact: 52
+    first_seen: null
+    last_push: "2026-07-25"
+  - name: "ry"
+    title: "ry"
+    description: "repeat yourself more elegantly"
+    language: "Rust"
+    topics: []
+    stars_fact: 6
+    first_seen: null
+    last_push: "2026-04-18"
+  - name: "http-snapshot"
+    title: "http-snapshot"
+    description: "pytest plugin that snapshots requests made with popular Python HTTP clients."
+    language: "Python"
+    topics: []
+    stars_fact: 7
+    first_seen: null
+    last_push: "2026-02-24"
+  - name: "httpx-metrics"
+    title: "httpx-metrics"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 5
+    first_seen: null
+    last_push: "2024-06-23"
 ---
 
 # karpetrosyan

@@ -8,11 +8,11 @@ provenance_repos:
   - "agentskills/agentskills"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+repos_populated: true
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "48dbbdd8fd0d3029"
-pushes_per_week: [35, 11, 13, 10, 4, 2, 7, 4, 3, 1, 1, 1, 6]
+pushes_per_week: [33, 8, 15, 9, 3, 2, 9, 2, 4, 0, 1, 1, 6]
 windows:
   "7d":
     pushes: 6
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 98
+    pushes: 93
     distinct_repos: 17
-    active_days: 42
+    active_days: 41
     repos_not_owned: 10
     not_owned_basenames: 10
     not_owned_owners: 4
 automation:
   state: "clear"
-  push_per_day: 2.3333
-  repo_per_active_day: 0.4048
+  push_per_day: 2.2683
+  repo_per_active_day: 0.4146
   not_owned_ratio: 0.5882
   basename_concentration: 0.1176
   shapes: []
@@ -65,22 +65,82 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 98
+    pushes: 93
     distinct_repos: 17
-    pushes_per_repo: 5.7647
-    active_days: 42
+    pushes_per_repo: 5.4706
+    active_days: 41
     repos_not_owned: 10
     not_owned_basenames: 10
     not_owned_owners: 4
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 42 active days in 90d — pass"
+  - "activity: 41 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "minifyrb"
+    title: "minifyrb"
+    description: "A minifier of Ruby files."
+    language: "Ruby"
+    topics:
+      - "minify"
+      - "minify-ruby"
+      - "ruby"
+      - "uglify"
+    stars_fact: 24
+    first_seen: null
+    last_push: "2025-01-02"
+  - name: "rubocop-faker"
+    title: "rubocop-faker"
+    description: "A RuboCop extension for Faker."
+    language: "Ruby"
+    topics:
+      - "converter"
+      - "faker"
+      - "linter"
+      - "rubocop"
+      - "ruby"
+      - "static-code-analysis"
+    stars_fact: 22
+    first_seen: null
+    last_push: "2025-02-18"
+  - name: "ruby_ast_visualizer"
+    title: "ruby_ast_visualizer"
+    description: ":evergreen_tree: Ruby AST Visualizer. Based on Parser."
+    language: "Ruby"
+    topics:
+      - "ast"
+      - "ruby"
+    stars_fact: 28
+    first_seen: null
+    last_push: "2018-03-23"
+  - name: "dotfiles"
+    title: "dotfiles"
+    description: "koic's dotfiles"
+    language: "Emacs Lisp"
+    topics: []
+    stars_fact: 6
+    first_seen: null
+    last_push: "2024-12-18"
+  - name: "rubocop-oracle"
+    title: "rubocop-oracle"
+    description: "A RuboCop extension for Active Record Oracle enhanced adapter."
+    language: "Ruby"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2025-04-05"
+  - name: "death-command"
+    title: "death-command"
+    description: ":metal: Say \"DEATH\" with death voice."
+    language: "Ruby"
+    topics: []
+    stars_fact: 14
+    first_seen: null
+    last_push: "2022-12-19"
 ---
 
 # koic
 
-98 pushes across 17 repositories on 42 active days in the last 90 days of public GitHub push activity.
+93 pushes across 17 repositories on 41 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/koic

@@ -8,11 +8,11 @@ provenance_repos:
   - "browser-use/browser-use"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+repos_populated: true
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "c1af6b58492f9bf4"
-pushes_per_week: [11, 9, 0, 1, 7, 0, 0, 0, 0, 0, 0, 1, 1]
+pushes_per_week: [11, 9, 0, 2, 6, 0, 0, 0, 0, 0, 0, 1, 1]
 windows:
   "7d":
     pushes: 1
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 12 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "epochdb"
+    title: "epochdb"
+    description: "An agentic memory engine designed for lossless, tiered verbatim storage and multi-hop retrieval."
+    language: "Python"
+    topics: []
+    stars_fact: 22
+    first_seen: null
+    last_push: "2026-09-18"
+  - name: "epochdb-server"
+    title: "epochdb-server"
+    description: "EpochDB Distributed Server is an asynchronous, high-concurrency memory and vector database server designed for agentic workloads. It supports multi-node clustering with automatic horizontal sharding, consistent hashing write distribution, and direct prefix-based routing."
+    language: "Python"
+    topics: []
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-08-03"
+  - name: "aiowirecard"
+    title: "aiowirecard"
+    description: "Wirecard/Moip API asyncio wrapper"
+    language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-06-15"
+  - name: "python-regresser"
+    title: "python-regresser"
+    description: "A python visual regression library"
+    language: "Python"
+    topics: []
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-06-15"
+  - name: "devlifelearn-dist"
+    title: "devlifelearn-dist"
+    description: null
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-06-11"
+  - name: "epochdb-memory-plugin"
+    title: "epochdb-memory-plugin"
+    description: "EpochDB plugin for Claude Code"
+    language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-06-07"
 ---
 
 # jersobh

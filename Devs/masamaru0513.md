@@ -8,11 +8,11 @@ provenance_repos:
   - "ChromeDevTools/chrome-devtools-mcp"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+repos_populated: true
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "379642deb53f3714"
-pushes_per_week: [1, 1, 0, 1, 0, 2, 0, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [1, 1, 1, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,23 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "Power-Automate-FlowSorter"
+    title: "Power-Automate-FlowSorter"
+    description: "Power Automate FlowSorterは、Power Automateのフローを種類ごとに自動で並べ替える拡張機能です。"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-24"
+  - name: "ChromeExtensionPrivacyPolicy"
+    title: "ChromeExtensionPrivacyPolicy"
+    description: "GoogleChromeExtension PrivacyPolicy"
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2020-02-19"
 ---
 
 # masamaru0513

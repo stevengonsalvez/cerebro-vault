@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: false
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "e5b23adc376a62a9"
-pushes_per_week: [26, 7, 2, 2, 0, 2, 2, 1, 0, 0, 1, 10, 4]
+pushes_per_week: [25, 4, 2, 2, 0, 2, 2, 1, 0, 0, 2, 9, 4]
 windows:
   "7d":
     pushes: 4
@@ -29,7 +29,7 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 57
+    pushes: 53
     distinct_repos: 6
     active_days: 25
     repos_not_owned: 0
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.2800
+  push_per_day: 2.1200
   repo_per_active_day: 0.2400
   not_owned_ratio: 0.0000
   basename_concentration: 0.1667
@@ -65,9 +65,9 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 57
+    pushes: 53
     distinct_repos: 6
-    pushes_per_repo: 9.5000
+    pushes_per_repo: 8.8333
     active_days: 25
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -81,6 +81,6 @@ repos: []
 
 # TTAWDTT
 
-57 pushes across 6 repositories on 25 active days in the last 90 days of public GitHub push activity.
+53 pushes across 6 repositories on 25 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/TTAWDTT

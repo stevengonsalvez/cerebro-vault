@@ -8,37 +8,37 @@ provenance_repos:
   - "AlexsJones/llmfit"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+repos_populated: true
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [23, 34, 23, 17, 1, 5, 4, 6, 3, 2, 5, 3, 15]
+pushes_per_week: [22, 36, 24, 13, 2, 5, 3, 6, 5, 0, 6, 4, 14]
 windows:
   "7d":
     pushes: 15
-    distinct_repos: 7
+    distinct_repos: 6
     active_days: 7
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
   "30d":
-    pushes: 25
+    pushes: 26
     distinct_repos: 11
-    active_days: 13
+    active_days: 14
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 4
   "90d":
-    pushes: 141
+    pushes: 140
     distinct_repos: 27
-    active_days: 53
+    active_days: 52
     repos_not_owned: 10
     not_owned_basenames: 10
     not_owned_owners: 5
 automation:
   state: "clear"
-  push_per_day: 2.6604
-  repo_per_active_day: 0.5094
+  push_per_day: 2.6923
+  repo_per_active_day: 0.5192
   not_owned_ratio: 0.3704
   basename_concentration: 0.0741
   shapes: []
@@ -50,37 +50,85 @@ automation:
 facets:
   "7d":
     pushes: 15
-    distinct_repos: 7
-    pushes_per_repo: 2.1429
+    distinct_repos: 6
+    pushes_per_repo: 2.5000
     active_days: 7
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
   "30d":
-    pushes: 25
+    pushes: 26
     distinct_repos: 11
-    pushes_per_repo: 2.2727
-    active_days: 13
+    pushes_per_repo: 2.3636
+    active_days: 14
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 4
   "90d":
-    pushes: 141
+    pushes: 140
     distinct_repos: 27
-    pushes_per_repo: 5.2222
-    active_days: 53
+    pushes_per_repo: 5.1852
+    active_days: 52
     repos_not_owned: 10
     not_owned_basenames: 10
     not_owned_owners: 5
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 53 active days in 90d — pass"
+  - "activity: 52 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "window-switching-redux"
+    title: "window-switching-redux"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-24"
+  - name: "aileron"
+    title: "aileron"
+    description: null
+    language: "Rust"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-09-24"
+  - name: "flatpak-blackbox-tests"
+    title: "flatpak-blackbox-tests"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-23"
+  - name: "flatpak-smoke"
+    title: "flatpak-smoke"
+    description: null
+    language: "Rust"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-20"
+  - name: "gnome-foreground-booster"
+    title: "gnome-foreground-booster"
+    description: null
+    language: "Rust"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-17"
+  - name: "dmemcg-booster"
+    title: "dmemcg-booster"
+    description: null
+    language: "Rust"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-15"
 ---
 
 # razzeee
 
-141 pushes across 27 repositories on 53 active days in the last 90 days of public GitHub push activity.
+140 pushes across 27 repositories on 52 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/razzeee

@@ -8,11 +8,11 @@ provenance_repos:
   - "bytedance/deer-flow"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+repos_populated: true
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "16389f32495280ea"
-pushes_per_week: [0, 4, 4, 1, 3, 1, 0, 0, 0, 0, 2, 1, 0]
+pushes_per_week: [0, 4, 4, 2, 2, 1, 0, 0, 0, 0, 3, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 15 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "agent"
+    title: "agent"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-01"
+  - name: "blog"
+    title: "blog"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-05-10"
+  - name: "doc-wiki"
+    title: "doc-wiki"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-04-14"
+  - name: "shit"
+    title: "shit"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-03-28"
+  - name: "react-scenario-lab"
+    title: "react-scenario-lab"
+    description: "React scenario showcase with 20+ examples"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-03-16"
+  - name: "ruoyi-fastapi-full-stack"
+    title: "ruoyi-fastapi-full-stack"
+    description: "https://github.com/insistence/RuoYi-Vue3-FastAPI/tree/develop"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-03-07"
 ---
 
 # hata33

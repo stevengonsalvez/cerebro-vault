@@ -8,11 +8,11 @@ provenance_repos:
   - "bytedance/deer-flow"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+repos_populated: true
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "16389f32495280ea"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 1, 14]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 5, 10]
 windows:
   "7d":
     pushes: 14
@@ -76,7 +76,60 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "PeaceMaker-best.github.io"
+    title: "PeaceMaker-best.github.io"
+    description: "Apple-inspired engineering portfolio for PeaceMaker-best."
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-19"
+  - name: "SignalFoundry"
+    title: "SignalFoundry"
+    description: "Data Agent quantitative research and signal generation workspace."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-19"
+  - name: "AetherGateway"
+    title: "AetherGateway"
+    description: "Self-hosted multi-protocol model gateway and control plane."
+    language: "Rust"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-19"
+  - name: "ForgeSentinel"
+    title: "ForgeSentinel"
+    description: "Autonomous repository governance and maintainer workflow system."
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-19"
+  - name: "TideScope"
+    title: "TideScope"
+    description: "潮汐 TideScope | 金融研究与交互式看板 Agent，证据驱动的研究工作台"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-21"
+  - name: "WorkflowIR-Harness"
+    title: "WorkflowIR-Harness"
+    description: "Stable executable workflow generation with Workflow IR, scoped validation, repair, and evaluation."
+    language: "Python"
+    topics:
+      - "ai-agents"
+      - "dify"
+      - "llm-evaluation"
+      - "rag"
+      - "workflow-generation"
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-09-03"
 ---
 
 # PeaceMaker-best

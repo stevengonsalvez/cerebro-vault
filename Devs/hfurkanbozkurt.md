@@ -8,11 +8,11 @@ provenance_repos:
   - "aws/agent-toolkit-for-aws"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+repos_populated: true
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "a50b0e08dbaee74a"
-pushes_per_week: [16, 14, 15, 10, 3, 0, 0, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [19, 10, 22, 3, 3, 0, 0, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 58
+    pushes: 57
     distinct_repos: 2
-    active_days: 17
+    active_days: 16
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 3.4118
-  repo_per_active_day: 0.1176
+  push_per_day: 3.5625
+  repo_per_active_day: 0.1250
   not_owned_ratio: 0.5000
   basename_concentration: 0.5000
   shapes: []
@@ -65,22 +65,54 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 58
+    pushes: 57
     distinct_repos: 2
-    pushes_per_repo: 29.0000
-    active_days: 17
+    pushes_per_repo: 28.5000
+    active_days: 16
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 17 active days in 90d — pass"
+  - "activity: 16 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "hfurkanbozkurt.github.io"
+    title: "hfurkanbozkurt.github.io"
+    description: null
+    language: "HTML"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2020-05-08"
+  - name: "aws-amplify-kiro-power"
+    title: "aws-amplify-kiro-power"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-02-20"
+  - name: "aws-amplify-claude-plugin"
+    title: "aws-amplify-claude-plugin"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-02-03"
+  - name: "rss-to-kindle"
+    title: "rss-to-kindle"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-01-11"
 ---
 
 # hfurkanbozkurt
 
-58 pushes across 2 repositories on 17 active days in the last 90 days of public GitHub push activity.
+57 pushes across 2 repositories on 16 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/hfurkanbozkurt

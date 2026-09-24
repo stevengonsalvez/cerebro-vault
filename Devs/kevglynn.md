@@ -8,11 +8,11 @@ provenance_repos:
   - "addyosmani/agent-skills"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+repos_populated: true
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "dae9f02535f7c22f"
-pushes_per_week: [6, 10, 4, 5, 1, 0, 2, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [6, 11, 5, 3, 1, 0, 2, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,70 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 14 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "house-rules"
+    title: "house-rules"
+    description: "Rules, skills, and convention checkers for AI coding agents, distributed to your repos with drift-checked sync"
+    language: "Python"
+    topics:
+      - "agentic-workflows"
+      - "ai-agents"
+      - "claude-code"
+      - "cursor"
+      - "developer-tools"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-08"
+  - name: "beads-to-linear"
+    title: "beads-to-linear"
+    description: "Sync layer + planning workspace for moving from Jira to Linear while preserving local-first beads workflow"
+    language: "Shell"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-06-09"
+  - name: "cursor-groupthink"
+    title: "cursor-groupthink"
+    description: "Multi-model peer review for AI-assisted development: plan, stress-test the plan across independent frontier models, synthesize findings on the record, then execute"
+    language: "Shell"
+    topics:
+      - "ai-assisted-development"
+      - "code-review"
+      - "cursor"
+      - "llm"
+      - "multi-model"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-07-06"
+  - name: "agentic-covenant"
+    title: "agentic-covenant"
+    description: "The Agentic Covenant — a Code of Conduct for open source communities where humans and AI agents collaborate (CC BY 4.0)"
+    language: null
+    topics:
+      - "agentic-development"
+      - "ai-agents"
+      - "code-of-conduct"
+      - "contributor-covenant"
+      - "open-source-governance"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-07-06"
+  - name: "ai-dev-playbook"
+    title: "ai-dev-playbook"
+    description: "AI-native development methodology — rules, skills, and scripts for working with coding agents"
+    language: "Shell"
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-06-29"
+  - name: "kevglynn"
+    title: "kevglynn"
+    description: "Profile README"
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-07-06"
 ---
 
 # kevglynn

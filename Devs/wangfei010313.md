@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: false
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "541318303a272608"
-pushes_per_week: [16, 13, 9, 9, 1, 3, 6, 6, 1, 0, 0, 0, 2]
+pushes_per_week: [18, 12, 11, 4, 0, 6, 5, 4, 1, 0, 0, 0, 2]
 windows:
   "7d":
     pushes: 2
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 66
+    pushes: 63
     distinct_repos: 1
-    active_days: 27
+    active_days: 26
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.4444
-  repo_per_active_day: 0.0370
+  push_per_day: 2.4231
+  repo_per_active_day: 0.0385
   not_owned_ratio: 0.0000
   basename_concentration: 1.0000
   shapes: []
@@ -65,22 +65,22 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 66
+    pushes: 63
     distinct_repos: 1
-    pushes_per_repo: 66.0000
-    active_days: 27
+    pushes_per_repo: 63.0000
+    active_days: 26
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 27 active days in 90d — pass"
+  - "activity: 26 active days in 90d — pass"
   - "automation: clear — pass"
 repos: []
 ---
 
 # wangfei010313
 
-66 pushes across 1 repository on 27 active days in the last 90 days of public GitHub push activity.
+63 pushes across 1 repository on 26 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/wangfei010313

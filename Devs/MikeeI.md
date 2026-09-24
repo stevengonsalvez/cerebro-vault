@@ -8,16 +8,16 @@ provenance_repos:
   - "can1357/oh-my-pi"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+repos_populated: true
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [6, 6, 7, 6, 6, 5, 11, 15, 5, 0, 2, 0, 5]
+pushes_per_week: [4, 7, 8, 6, 4, 5, 18, 8, 5, 0, 2, 1, 4]
 windows:
   "7d":
-    pushes: 5
+    pushes: 4
     distinct_repos: 1
-    active_days: 4
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 74
+    pushes: 72
     distinct_repos: 14
-    active_days: 40
+    active_days: 39
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.8500
-  repo_per_active_day: 0.3500
+  push_per_day: 1.8462
+  repo_per_active_day: 0.3590
   not_owned_ratio: 0.0000
   basename_concentration: 0.0714
   shapes: []
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 5
+    pushes: 4
     distinct_repos: 1
-    pushes_per_repo: 5.0000
-    active_days: 4
+    pushes_per_repo: 4.0000
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -65,22 +65,76 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 74
+    pushes: 72
     distinct_repos: 14
-    pushes_per_repo: 5.2857
-    active_days: 40
+    pushes_per_repo: 5.1429
+    active_days: 39
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 40 active days in 90d — pass"
+  - "activity: 39 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "tp-link-pg2400p-reverse-engineering"
+    title: "tp-link-pg2400p-reverse-engineering"
+    description: "TP-Link PG2400P reverse engineering"
+    language: "Python"
+    topics:
+      - "firmware-analysis"
+      - "ghn"
+      - "pg2400p"
+      - "powerline"
+      - "reverse-engineering"
+      - "tp-link"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-16"
+  - name: "nuclei-templates"
+    title: "nuclei-templates"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2022-03-30"
+  - name: "project-18plus-image-edit"
+    title: "project-18plus-image-edit"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2025-09-16"
+  - name: "mikeei"
+    title: "mikeei"
+    description: "My GitHub profile README"
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2025-06-12"
+  - name: "mikeei.github.io"
+    title: "mikeei.github.io"
+    description: null
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2023-08-10"
+  - name: "spodcast"
+    title: "spodcast"
+    description: null
+    language: "PHP"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2024-12-28"
 ---
 
 # MikeeI
 
-74 pushes across 14 repositories on 40 active days in the last 90 days of public GitHub push activity.
+72 pushes across 14 repositories on 39 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/MikeeI

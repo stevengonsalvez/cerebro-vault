@@ -8,11 +8,11 @@ provenance_repos:
   - "AlexsJones/llmfit"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+repos_populated: true
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [15, 11, 3, 1, 0, 0, 3, 0, 0, 0, 0, 0, 2]
+pushes_per_week: [17, 9, 3, 1, 0, 0, 3, 0, 0, 0, 0, 0, 2]
 windows:
   "7d":
     pushes: 2
@@ -76,7 +76,57 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 17 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "folio-cover-images"
+    title: "folio-cover-images"
+    description: "Mirror of Folio blog cover images (served via jsDelivr CDN). Source of truth is Cloudflare R2."
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-23"
+  - name: "remove-tailscale"
+    title: "remove-tailscale"
+    description: "A Bash script to completely remove Tailscale from an Ubuntu system and optionally reinstall it."
+    language: "Shell"
+    topics: []
+    stars_fact: 14
+    first_seen: null
+    last_push: "2026-06-03"
+  - name: "kids_first_ml_project_with_google_colab"
+    title: "kids_first_ml_project_with_google_colab"
+    description: null
+    language: "Jupyter Notebook"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-08"
+  - name: "Lalatenduswain"
+    title: "Lalatenduswain"
+    description: "Config files for my GitHub profile."
+    language: null
+    topics:
+      - "config"
+      - "github-config"
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-09-08"
+  - name: "mahindra-be6"
+    title: "mahindra-be6"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-05"
+  - name: "poweroff-remote"
+    title: "poweroff-remote"
+    description: "Android app to power servers off over SSH and back on with Wake-on-LAN, credentials encrypted on-device"
+    language: "Kotlin"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-24"
 ---
 
 # Lalatenduswain

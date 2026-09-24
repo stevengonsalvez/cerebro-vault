@@ -8,11 +8,11 @@ provenance_repos:
   - "aws/agent-toolkit-for-aws"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+repos_populated: true
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "a50b0e08dbaee74a"
-pushes_per_week: [6, 5, 16, 2, 4, 2, 6, 3, 0, 0, 1, 5, 5]
+pushes_per_week: [3, 6, 15, 2, 5, 2, 5, 3, 0, 0, 1, 6, 5]
 windows:
   "7d":
     pushes: 5
@@ -22,25 +22,25 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 11
+    pushes: 12
     distinct_repos: 3
-    active_days: 7
+    active_days: 8
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 55
-    distinct_repos: 13
-    active_days: 31
+    pushes: 53
+    distinct_repos: 12
+    active_days: 30
     repos_not_owned: 7
     not_owned_basenames: 7
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 1.7742
-  repo_per_active_day: 0.4194
-  not_owned_ratio: 0.5385
-  basename_concentration: 0.1538
+  push_per_day: 1.7667
+  repo_per_active_day: 0.4000
+  not_owned_ratio: 0.5833
+  basename_concentration: 0.1667
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -57,30 +57,78 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 11
+    pushes: 12
     distinct_repos: 3
-    pushes_per_repo: 3.6667
-    active_days: 7
+    pushes_per_repo: 4.0000
+    active_days: 8
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 55
-    distinct_repos: 13
-    pushes_per_repo: 4.2308
-    active_days: 31
+    pushes: 53
+    distinct_repos: 12
+    pushes_per_repo: 4.4167
+    active_days: 30
     repos_not_owned: 7
     not_owned_basenames: 7
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 31 active days in 90d — pass"
+  - "activity: 30 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "opensearch-api-docs"
+    title: "opensearch-api-docs"
+    description: "OpenSearch API Reference - distribution-aware (OSS/AOS/AOSS)"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-21"
+  - name: "strands-java"
+    title: "strands-java"
+    description: null
+    language: "Java"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-05-14"
+  - name: "os-build"
+    title: "os-build"
+    description: null
+    language: "Shell"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-03-19"
+  - name: "dashboards-document-editor"
+    title: "dashboards-document-editor"
+    description: "editor for document in system index"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-02-02"
+  - name: "ag-ui-server-bedrock"
+    title: "ag-ui-server-bedrock"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2025-10-20"
+  - name: "strand-agent-poc"
+    title: "strand-agent-poc"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2025-08-19"
 ---
 
 # Hailong-am
 
-55 pushes across 13 repositories on 31 active days in the last 90 days of public GitHub push activity.
+53 pushes across 12 repositories on 30 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Hailong-am

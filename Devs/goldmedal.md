@@ -10,27 +10,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "dffbb846389f9a26"
-pushes_per_week: [4, 7, 9, 7, 8, 2, 3, 0, 0, 1, 2, 0, 5]
+pushes_per_week: [2, 9, 7, 9, 6, 2, 3, 0, 1, 0, 2, 0, 8]
 windows:
   "7d":
-    pushes: 5
-    distinct_repos: 1
-    active_days: 2
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
-  "30d":
     pushes: 8
     distinct_repos: 2
-    active_days: 4
+    active_days: 3
+    repos_not_owned: 2
+    not_owned_basenames: 2
+    not_owned_owners: 1
+  "30d":
+    pushes: 11
+    distinct_repos: 2
+    active_days: 5
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 48
+    pushes: 49
     distinct_repos: 3
     active_days: 23
     repos_not_owned: 3
@@ -38,7 +38,7 @@ windows:
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 2.0870
+  push_per_day: 2.1304
   repo_per_active_day: 0.1304
   not_owned_ratio: 1.0000
   basename_concentration: 0.6667
@@ -50,25 +50,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 5
-    distinct_repos: 1
-    pushes_per_repo: 5.0000
-    active_days: 2
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
-  "30d":
     pushes: 8
     distinct_repos: 2
     pushes_per_repo: 4.0000
-    active_days: 4
+    active_days: 3
+    repos_not_owned: 2
+    not_owned_basenames: 2
+    not_owned_owners: 1
+  "30d":
+    pushes: 11
+    distinct_repos: 2
+    pushes_per_repo: 5.5000
+    active_days: 5
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 48
+    pushes: 49
     distinct_repos: 3
-    pushes_per_repo: 16.0000
+    pushes_per_repo: 16.3333
     active_days: 23
     repos_not_owned: 3
     not_owned_basenames: 2
@@ -130,6 +130,6 @@ repos:
 
 # goldmedal
 
-48 pushes across 3 repositories on 23 active days in the last 90 days of public GitHub push activity.
+49 pushes across 3 repositories on 23 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/goldmedal

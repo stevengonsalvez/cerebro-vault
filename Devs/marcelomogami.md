@@ -8,11 +8,11 @@ provenance_repos:
   - "akitaonrails/ai-memory"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+repos_populated: true
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "4138778ebbc75ba6"
-pushes_per_week: [0, 2, 3, 8, 1, 1, 0, 2, 1, 0, 0, 0, 0]
+pushes_per_week: [2, 0, 5, 6, 1, 1, 0, 2, 1, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,96 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 11 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "paracetacaro"
+    title: "paracetacaro"
+    description: "Compare medicine prices across Brazilian online pharmacies."
+    language: "Ruby"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-24"
+  - name: "anime-watched"
+    title: "anime-watched"
+    description: "Personal browser extension that logs my anime watching progress. Detects the episode from Crunchyroll or Prime Video and syncs it directly to my real AniList lists — no manual mapping, no separate backend to configure."
+    language: "JavaScript"
+    topics:
+      - "anilist"
+      - "anime"
+      - "anime-tracker"
+      - "chrome-extension"
+      - "crunchyroll"
+      - "manifest-v3"
+      - "myanimelist"
+      - "prime-video"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-14"
+  - name: "logseq-webview"
+    title: "logseq-webview"
+    description: "Web viewer for your Logseq graph — wikilinks, tags, backlinks and block properties resolved, served from Logseq's local HTTP API. Installable as a PWA."
+    language: "Rust"
+    topics:
+      - "axum"
+      - "knowledge-management"
+      - "logseq"
+      - "markdown"
+      - "note-taking"
+      - "pwa"
+      - "rust"
+      - "second-brain"
+      - "self-hosted"
+      - "wiki"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-07-17"
+  - name: "md-reader"
+    title: "md-reader"
+    description: "Rust/Axum server that renders the .md files Claude Code generates in ~/projects as readable HTML — built so I can read drafts on my phone during /remote-control sessions without pasting content into chat or committing anything. Folder allowlist, sanitized GFM rendering, installable as a PWA."
+    language: "Rust"
+    topics:
+      - "axum"
+      - "claude-code"
+      - "markdown"
+      - "markdown-viewer"
+      - "pwa"
+      - "rust"
+      - "self-hosted"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-07-17"
+  - name: "claude-usage"
+    title: "claude-usage"
+    description: "KDE Plasma 6 widget that shows Claude Pro quota usage in the panel"
+    language: "Shell"
+    topics:
+      - "bash"
+      - "claude"
+      - "claude-code"
+      - "kde"
+      - "kde-plasma6"
+      - "linux"
+      - "panel-widget"
+      - "plasmoid"
+      - "waybar"
+      - "wayland"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-07-16"
+  - name: "vscode-ftps"
+    title: "vscode-ftps"
+    description: "VSCode extension for file upload/download via FTPS (FTP over TLS) with multi-server support — built for environments that use implicit/explicit TLS over FTP, filling the gap left by extensions like vscode-sftp that rely on SSH-based protocols."
+    language: "TypeScript"
+    topics:
+      - "ftp"
+      - "ftp-client"
+      - "ftps"
+      - "tls"
+      - "typescript"
+      - "vscode-extension"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-07-16"
 ---
 
 # marcelomogami

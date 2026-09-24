@@ -8,8 +8,8 @@ provenance_repos:
   - "Forward-Future/loop-library"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+repos_populated: true
+generated_at: "2026-09-24T15:17:54.275119+00:00"
 provenance:
   - "33a1a1e413da60e1"
 pushes_per_week: [3, 2, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0]
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "crewai_yt"
+    title: "crewai_yt"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 76
+    first_seen: null
+    last_push: "2026-06-19"
+  - name: "edu-crew"
+    title: "edu-crew"
+    description: null
+    language: "HTML"
+    topics: []
+    stars_fact: 89
+    first_seen: null
+    last_push: "2024-11-08"
+  - name: "benchmark-creator"
+    title: "benchmark-creator"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 7
+    first_seen: null
+    last_push: "2025-01-22"
+  - name: "no-kings-land"
+    title: "no-kings-land"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-04-25"
+  - name: "excel-clone"
+    title: "excel-clone"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2025-08-12"
+  - name: "croq-crew"
+    title: "croq-crew"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2024-03-20"
 ---
 
 # mberman84
