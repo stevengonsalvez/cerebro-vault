@@ -8,8 +8,8 @@ provenance_repos:
   - "abhigyanpatwari/GitNexus"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-24T15:17:54.275119+00:00"
+repos_populated: true
+generated_at: "2026-09-25T06:06:35.067653+00:00"
 provenance:
   - "3c90af76cbde0363"
 pushes_per_week: [0, 0, 0, 0, 4, 0, 1, 0, 0, 0, 1, 0, 2]
@@ -76,7 +76,49 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 8 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "assume-zero"
+    title: "assume-zero"
+    description: "Test finite project commands against controlled machine-environment changes and report evidence-backed hidden assumptions."
+    language: "Rust"
+    topics:
+      - "cli"
+      - "cross-platform"
+      - "debugging"
+      - "developer-tools"
+      - "environment"
+      - "open-source"
+      - "reproducibility"
+      - "rust"
+      - "testing"
+      - "works-on-my-machine"
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-08-12"
+  - name: "y4ho0.github.io"
+    title: "y4ho0.github.io"
+    description: null
+    language: "Astro"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-09"
+  - name: "reprobrief"
+    title: "reprobrief"
+    description: "Create previewable, privacy-conscious reproduction briefs for bug reports."
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-07-29"
+  - name: "repair-codex-history"
+    title: "repair-codex-history"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-06-12"
 ---
 
 # y4ho0

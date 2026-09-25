@@ -8,11 +8,11 @@ provenance_repos:
   - "browser-use/browser-use"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-24T15:17:54.275119+00:00"
+repos_populated: true
+generated_at: "2026-09-25T06:06:35.067653+00:00"
 provenance:
   - "c1af6b58492f9bf4"
-pushes_per_week: [9, 8, 3, 13, 12, 3, 6, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [9, 8, 6, 11, 11, 3, 6, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,23 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 25 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "docs"
+    title: "docs"
+    description: null
+    language: "MDX"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2025-10-28"
+  - name: "homebrew-gobii-cli"
+    title: "homebrew-gobii-cli"
+    description: "Homebrew formula for Gobii CLI"
+    language: "Ruby"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2025-05-27"
 ---
 
 # willbonde

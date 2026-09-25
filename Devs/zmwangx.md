@@ -8,11 +8,11 @@ provenance_repos:
   - "alibaba/open-code-review"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-24T15:17:54.275119+00:00"
+repos_populated: true
+generated_at: "2026-09-25T06:06:35.067653+00:00"
 provenance:
   - "c489e6fb5febf2ab"
-pushes_per_week: [6, 6, 1, 1, 0, 1, 0, 3, 1, 0, 0, 0, 2]
+pushes_per_week: [9, 3, 1, 1, 0, 1, 1, 2, 1, 0, 0, 1, 1]
 windows:
   "7d":
     pushes: 2
@@ -76,7 +76,59 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 18 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "repocards"
+    title: "repocards"
+    description: "Auto-generate GitHub-style repository cards with GitHub Actions"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-09-25"
+  - name: "rust-ffmpeg-sys"
+    title: "rust-ffmpeg-sys"
+    description: "FFmpeg bindings for Rust."
+    language: "Rust"
+    topics: []
+    stars_fact: 214
+    first_seen: null
+    last_push: "2026-08-30"
+  - name: "rust-ffmpeg"
+    title: "rust-ffmpeg"
+    description: "Safe FFmpeg wrapper."
+    language: "Rust"
+    topics: []
+    stars_fact: 2003
+    first_seen: null
+    last_push: "2026-09-16"
+  - name: "enforce-tabs-spaces"
+    title: "enforce-tabs-spaces"
+    description: "Enforce indentation style for languages without a formatter"
+    language: "Go"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-07"
+  - name: "metadata"
+    title: "metadata"
+    description: "Media file metadata for human consumption"
+    language: "Rust"
+    topics: []
+    stars_fact: 63
+    first_seen: null
+    last_push: "2026-08-12"
+  - name: "ets"
+    title: "ets"
+    description: "Command output timestamper"
+    language: "Go"
+    topics:
+      - "command-line"
+      - "golang"
+      - "pty"
+      - "timestamping"
+    stars_fact: 187
+    first_seen: null
+    last_push: "2024-12-24"
 ---
 
 # zmwangx

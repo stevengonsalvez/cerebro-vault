@@ -8,11 +8,11 @@ provenance_repos:
   - "anomalyco/opencode"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+repos_populated: true
+generated_at: "2026-09-25T06:06:35.067653+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [0, 1, 0, 1, 1, 0, 0, 4, 0, 0, 0, 3, 0]
+pushes_per_week: [1, 0, 0, 1, 1, 0, 0, 4, 0, 0, 0, 3, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "pi-fff"
+    title: "pi-fff"
+    description: "A helpful pi extension to improve file search logic in pi"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 85
+    first_seen: null
+    last_push: "2026-07-03"
+  - name: "agent-skills"
+    title: "agent-skills"
+    description: "Portable TypeScript design and workflow skills for coding agents"
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-15"
+  - name: "open-warden"
+    title: "open-warden"
+    description: "OpenWarden a desktop git client that is fast and works"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 19
+    first_seen: null
+    last_push: "2026-07-27"
+  - name: "VimSetup"
+    title: "VimSetup"
+    description: "My vim setup for vscode"
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-03-02"
+  - name: "atlassian-cli"
+    title: "atlassian-cli"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-01-29"
+  - name: "pivot-me"
+    title: "pivot-me"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2025-12-09"
 ---
 
 # ShpetimA

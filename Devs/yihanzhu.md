@@ -8,11 +8,11 @@ provenance_repos:
   - "apache/maka"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-24T15:17:54.275119+00:00"
+repos_populated: true
+generated_at: "2026-09-25T06:06:35.067653+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [0, 8, 0, 0, 1, 0, 0, 0, 1, 4, 15, 8, 38]
+pushes_per_week: [5, 3, 0, 1, 0, 0, 0, 0, 2, 3, 17, 18, 26]
 windows:
   "7d":
     pushes: 38
@@ -76,7 +76,46 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 20 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "ystack"
+    title: "ystack"
+    description: "AI native SDLC"
+    language: "Shell"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-22"
+  - name: "yihanzhu"
+    title: "yihanzhu"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-20"
+  - name: "ystack-dummy-target"
+    title: "ystack-dummy-target"
+    description: "Fresh, unrelated target repo for ystack's external-target portability proof (TR-1 Q1)"
+    language: "Shell"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-08"
+  - name: "valor"
+    title: "valor"
+    description: "career coach for developers"
+    language: "Python"
+    topics:
+      - "career-development"
+      - "claude-code"
+      - "codex"
+      - "cursor"
+      - "developer-productivity"
+      - "developer-tools"
+      - "local-first"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-08-30"
 ---
 
 # yihanzhu

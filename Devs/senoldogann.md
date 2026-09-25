@@ -8,8 +8,8 @@ provenance_repos:
   - "affaan-m/ECC"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-24T15:17:54.275119+00:00"
+repos_populated: true
+generated_at: "2026-09-25T06:06:35.067653+00:00"
 provenance:
   - "edb3a626875732de"
 pushes_per_week: [0, 0, 0, 0, 2, 0, 6, 0, 0, 0, 33, 9, 3]
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 15 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "AgenticSidebar"
+    title: "AgenticSidebar"
+    description: "A native personal macOS agent app: a sidebar-style chat window that runs without a Dock icon, can be summoned with a global shortcut, optionally reports session state from the menu bar, and drives either the direct OpenAI Responses API or a managed local OpenCode server."
+    language: "Swift"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-24"
+  - name: "chatgpt-system"
+    title: "chatgpt-system"
+    description: "Secure local MCP authority gateway for controlled filesystem, Git, process, and future computer-use access from ChatGPT-compatible MCP clients."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-22"
+  - name: "flash-programi"
+    title: "flash-programi"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-15"
+  - name: "chatgpt-queue"
+    title: "chatgpt-queue"
+    description: "Fail-closed follow-up message queue for ChatGPT Web"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-14"
+  - name: "akilli-asistan"
+    title: "akilli-asistan"
+    description: null
+    language: "Swift"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-13"
+  - name: "computer-use"
+    title: "computer-use"
+    description: "An autonomous, human-centric computer-use system that operates directly on the physical host — perceiving pixels, moving the real cursor along human-like trajectories, and driving native desktop applications (real Dock icons, real browser profiles, real OS dialogs)"
+    language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-10"
 ---
 
 # senoldogann

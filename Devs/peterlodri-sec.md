@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-24T15:17:54.275119+00:00"
+generated_at: "2026-09-25T06:06:35.067653+00:00"
 provenance:
   - "73468cde177ddae6"
-pushes_per_week: [107, 0, 19, 78, 46, 39, 39, 60, 2, 0, 8, 5, 71]
+pushes_per_week: [80, 0, 26, 80, 37, 41, 60, 37, 2, 0, 10, 8, 66]
 windows:
   "7d":
     pushes: 71
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 474
+    pushes: 447
     distinct_repos: 57
-    active_days: 54
+    active_days: 53
     repos_not_owned: 19
     not_owned_basenames: 19
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 8.7778
-  repo_per_active_day: 1.0556
+  push_per_day: 8.4340
+  repo_per_active_day: 1.0755
   not_owned_ratio: 0.3333
   basename_concentration: 0.0351
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 474
+    pushes: 447
     distinct_repos: 57
-    pushes_per_repo: 8.3158
-    active_days: 54
+    pushes_per_repo: 7.8421
+    active_days: 53
     repos_not_owned: 19
     not_owned_basenames: 19
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 54 active days in 90d — pass"
+  - "activity: 53 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "8b-is"
@@ -171,6 +171,6 @@ repos:
 
 # peterlodri-sec
 
-474 pushes across 57 repositories on 54 active days in the last 90 days of public GitHub push activity.
+447 pushes across 57 repositories on 53 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/peterlodri-sec

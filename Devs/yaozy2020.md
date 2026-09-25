@@ -8,11 +8,11 @@ provenance_repos:
   - "agentscope-ai/QwenPaw"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-24T15:17:54.275119+00:00"
+repos_populated: true
+generated_at: "2026-09-25T06:06:35.067653+00:00"
 provenance:
   - "541318303a272608"
-pushes_per_week: [9, 6, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [10, 5, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,23 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 8 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "mimo-code-webui"
+    title: "mimo-code-webui"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-07-13"
+  - name: "com.nousresearch.hermes"
+    title: "com.nousresearch.hermes"
+    description: "Hermes AI Agent - fnOS 原生应用包"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 6
+    first_seen: null
+    last_push: "2026-06-25"
 ---
 
 # yaozy2020

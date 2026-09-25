@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-24T15:17:54.275119+00:00"
+generated_at: "2026-09-25T06:06:35.067653+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [43, 21, 7, 10, 19, 3, 5, 2, 9, 2, 1, 0, 18]
+pushes_per_week: [35, 21, 10, 13, 13, 4, 4, 4, 7, 2, 1, 4, 14]
 windows:
   "7d":
     pushes: 18
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 22
+    pushes: 21
     distinct_repos: 2
-    active_days: 7
+    active_days: 6
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 140
+    pushes: 132
     distinct_repos: 8
-    active_days: 43
+    active_days: 42
     repos_not_owned: 4
     not_owned_basenames: 1
     not_owned_owners: 4
 automation:
   state: "clear"
-  push_per_day: 3.2558
-  repo_per_active_day: 0.1860
+  push_per_day: 3.1429
+  repo_per_active_day: 0.1905
   not_owned_ratio: 0.5000
   basename_concentration: 0.5000
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 22
+    pushes: 21
     distinct_repos: 2
-    pushes_per_repo: 11.0000
-    active_days: 7
+    pushes_per_repo: 10.5000
+    active_days: 6
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 140
+    pushes: 132
     distinct_repos: 8
-    pushes_per_repo: 17.5000
-    active_days: 43
+    pushes_per_repo: 16.5000
+    active_days: 42
     repos_not_owned: 4
     not_owned_basenames: 1
     not_owned_owners: 4
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 43 active days in 90d — pass"
+  - "activity: 42 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "cf-effect-experiment"
@@ -139,6 +139,6 @@ repos:
 
 # Brendonovich
 
-140 pushes across 8 repositories on 43 active days in the last 90 days of public GitHub push activity.
+132 pushes across 8 repositories on 42 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Brendonovich

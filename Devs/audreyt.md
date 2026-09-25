@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-24T15:17:54.275119+00:00"
+generated_at: "2026-09-25T06:06:35.067653+00:00"
 provenance:
   - "3eacb4655aba2497"
-pushes_per_week: [22, 98, 36, 28, 9, 2, 11, 5, 9, 2, 2, 5, 10]
+pushes_per_week: [26, 97, 33, 26, 9, 2, 15, 2, 8, 2, 2, 7, 9]
 windows:
   "7d":
-    pushes: 10
+    pushes: 11
     distinct_repos: 5
-    active_days: 6
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 239
-    distinct_repos: 30
+    pushes: 238
+    distinct_repos: 29
     active_days: 53
     repos_not_owned: 11
     not_owned_basenames: 11
     not_owned_owners: 4
 automation:
   state: "clear"
-  push_per_day: 4.5094
-  repo_per_active_day: 0.5660
-  not_owned_ratio: 0.3667
-  basename_concentration: 0.0667
+  push_per_day: 4.4906
+  repo_per_active_day: 0.5472
+  not_owned_ratio: 0.3793
+  basename_concentration: 0.0690
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 10
+    pushes: 11
     distinct_repos: 5
-    pushes_per_repo: 2.0000
-    active_days: 6
+    pushes_per_repo: 2.2000
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -65,9 +65,9 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 239
-    distinct_repos: 30
-    pushes_per_repo: 7.9667
+    pushes: 238
+    distinct_repos: 29
+    pushes_per_repo: 8.2069
     active_days: 53
     repos_not_owned: 11
     not_owned_basenames: 11
@@ -129,6 +129,6 @@ repos:
 
 # audreyt
 
-239 pushes across 30 repositories on 53 active days in the last 90 days of public GitHub push activity.
+238 pushes across 29 repositories on 53 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/audreyt

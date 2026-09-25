@@ -8,8 +8,8 @@ provenance_repos:
   - "Alishahryar1/free-claude-code"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-24T15:17:54.275119+00:00"
+repos_populated: true
+generated_at: "2026-09-25T06:06:35.067653+00:00"
 provenance:
   - "9d67ce648f6a8919"
 pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 1, 0, 9]
@@ -76,7 +76,36 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "all-global-plugin"
+    title: "all-global-plugin"
+    description: "One organized home for AI agent skills/plugins — vendored, validated, synced cross-tool"
+    language: "TypeScript"
+    topics:
+      - "agentic-coding"
+      - "claude"
+      - "mcp"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-19"
+  - name: "Tanishq-1"
+    title: "Tanishq-1"
+    description: "Config files for my GitHub profile."
+    language: null
+    topics:
+      - "config"
+      - "github-config"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2021-09-15"
+  - name: "Page-replacement-algo"
+    title: "Page-replacement-algo"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2019-04-22"
 ---
 
 # Tanishq-1

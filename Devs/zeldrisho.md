@@ -8,16 +8,16 @@ provenance_repos:
   - "AlexsJones/llmfit"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-24T15:17:54.275119+00:00"
+repos_populated: true
+generated_at: "2026-09-25T06:06:35.067653+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [5, 5, 0, 4, 3, 4, 10, 2, 11, 0, 1, 5, 6]
+pushes_per_week: [5, 4, 0, 4, 3, 4, 10, 2, 11, 0, 1, 6, 5]
 windows:
   "7d":
-    pushes: 7
+    pushes: 6
     distinct_repos: 3
-    active_days: 5
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 56
+    pushes: 55
     distinct_repos: 17
-    active_days: 30
+    active_days: 29
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.8667
-  repo_per_active_day: 0.5667
+  push_per_day: 1.8966
+  repo_per_active_day: 0.5862
   not_owned_ratio: 0.0000
   basename_concentration: 0.0588
   shapes: []
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 7
+    pushes: 6
     distinct_repos: 3
-    pushes_per_repo: 2.3333
-    active_days: 5
+    pushes_per_repo: 2.0000
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -65,22 +65,46 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 56
+    pushes: 55
     distinct_repos: 17
-    pushes_per_repo: 3.2941
-    active_days: 30
+    pushes_per_repo: 3.2353
+    active_days: 29
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 30 active days in 90d — pass"
+  - "activity: 29 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "scoop-bucket"
+    title: "scoop-bucket"
+    description: "Yet another Scoop bucket"
+    language: "PowerShell"
+    topics: []
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-09-24"
+  - name: "pi-packages"
+    title: "pi-packages"
+    description: "Yet another Pi packages"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-24"
+  - name: "morphe-patches"
+    title: "morphe-patches"
+    description: "Yet another Morphe Patches"
+    language: "Kotlin"
+    topics: []
+    stars_fact: 11
+    first_seen: null
+    last_push: "2026-09-23"
 ---
 
 # zeldrisho
 
-56 pushes across 17 repositories on 30 active days in the last 90 days of public GitHub push activity.
+55 pushes across 17 repositories on 29 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/zeldrisho

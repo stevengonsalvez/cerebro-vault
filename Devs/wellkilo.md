@@ -8,8 +8,8 @@ provenance_repos:
   - "affaan-m/ECC"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-24T15:17:54.275119+00:00"
+repos_populated: true
+generated_at: "2026-09-25T06:06:35.067653+00:00"
 provenance:
   - "edb3a626875732de"
 pushes_per_week: [0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 4, 1, 2]
@@ -76,7 +76,132 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "codex-jev-preflight"
+    title: "codex-jev-preflight"
+    description: "Fail-open Codex UserPromptSubmit hook that injects TypeSafe Jev pre-task routing metadata."
+    language: "Python"
+    topics:
+      - "ai"
+      - "claude"
+      - "claude-code"
+      - "codex"
+      - "hooks"
+      - "jev"
+      - "python"
+      - "typesafe"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-22"
+  - name: "wellkilo"
+    title: "wellkilo"
+    description: "project in college"
+    language: null
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-20"
+  - name: "conda-helper"
+    title: "conda-helper"
+    description: "An enhanced, cross-platform CLI on top of conda. One-liner backup, restore, clone, offline pack, batch cleanup, and an interactive panel — plus friendly error hints that translate raw conda stack traces into actionable solutions. Pure Python, single dep (click), tested on Windows / macOS / Linux."
+    language: "Python"
+    topics:
+      - "backup"
+      - "cli"
+      - "click"
+      - "command-line-tool"
+      - "conda"
+      - "conda-environment"
+      - "conda-pack"
+      - "cross-platform"
+      - "data-science"
+      - "developer-tools"
+      - "devops"
+      - "environment-management"
+      - "machine-learning"
+      - "migration"
+      - "offline-deployment"
+      - "open-source"
+      - "package-management"
+      - "productivity"
+      - "python"
+      - "python3"
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-06-01"
+  - name: "DRL_MuJoCo"
+    title: "DRL_MuJoCo"
+    description: "Distributed Actor-Learner architecture based on Ray for parallel sampling and learning in the MuJoCo environment"
+    language: "Python"
+    topics:
+      - "chart-js"
+      - "conda"
+      - "distributed-computing"
+      - "drl-algorithms"
+      - "fastapi"
+      - "git"
+      - "mujoco"
+      - "ndarray"
+      - "ppo"
+      - "pyo3"
+      - "python"
+      - "pytorch"
+      - "ray"
+      - "rayon"
+      - "react"
+      - "rust"
+      - "tsx"
+      - "typescript"
+      - "vite"
+      - "zustand"
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-08-20"
+  - name: "codemod-pilot"
+    title: "codemod-pilot"
+    description: "🛩️ Transform your codebase by example — an intelligent codemod engine that infers AST-level transformation rules from before/after code snippets, then safely applies them across your entire codebase. No AST knowledge required."
+    language: "Rust"
+    topics:
+      - "ast"
+      - "automation"
+      - "ci-cd"
+      - "cli"
+      - "code-migration"
+      - "code-quality"
+      - "code-transformation"
+      - "codemod"
+      - "developer-tools"
+      - "javascript"
+      - "linter"
+      - "multi-language"
+      - "open-source"
+      - "pattern-matching"
+      - "productivity"
+      - "refactoring"
+      - "rust"
+      - "search-and-replace"
+      - "tree-sitter"
+      - "typescript"
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-04-08"
+  - name: "RepoPilot"
+    title: "RepoPilot"
+    description: "Auditable repository maintenance AgentTeam with evidence-backed pull requests, automated code review, and human approval gates."
+    language: "TypeScript"
+    topics:
+      - "agentteams"
+      - "automated-code-review"
+      - "evidence-chain"
+      - "github-automation"
+      - "mcp"
+      - "multi-agent"
+      - "opentelemetry"
+      - "postgresql"
+      - "repository-maintenance"
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-08-24"
 ---
 
 # wellkilo

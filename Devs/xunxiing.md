@@ -8,11 +8,11 @@ provenance_repos:
   - "AstrBotDevs/AstrBot"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+repos_populated: true
+generated_at: "2026-09-25T06:06:35.067653+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [3, 0, 5, 0, 0, 2, 0, 1, 0, 0, 0, 0, 0]
+pushes_per_week: [3, 0, 5, 0, 1, 1, 0, 1, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "AstrBot-Skill"
+    title: "AstrBot-Skill"
+    description: "AstrBot skill for codeagent!"
+    language: "Python"
+    topics: []
+    stars_fact: 74
+    first_seen: null
+    last_push: "2026-09-14"
+  - name: "MelonLuaSandbox"
+    title: "MelonLuaSandbox"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-08-07"
+  - name: "msut--"
+    title: "msut--"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-08-16"
+  - name: "MelonSaveAdapter"
+    title: "MelonSaveAdapter"
+    description: "Melon Playground 自动化搭建 CLI：将声明式 JSON 图一键转换为可加载的 .melsave（批量建模 + 精准连线）"
+    language: "Python"
+    topics: []
+    stars_fact: 7
+    first_seen: null
+    last_push: "2026-05-24"
+  - name: "astrbot_plugin_githubapp-adapter"
+    title: "astrbot_plugin_githubapp-adapter"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 12
+    first_seen: null
+    last_push: "2026-03-14"
+  - name: "astrbot_plugin_imgtool"
+    title: "astrbot_plugin_imgtool"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2025-12-06"
 ---
 
 # xunxiing

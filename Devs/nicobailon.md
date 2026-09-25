@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-24T15:17:54.275119+00:00"
+generated_at: "2026-09-25T06:06:35.067653+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [78, 36, 27, 14, 43, 63, 78, 33, 22, 3, 6, 13, 39]
+pushes_per_week: [107, 11, 31, 19, 39, 61, 85, 21, 21, 2, 6, 13, 40]
 windows:
   "7d":
-    pushes: 39
+    pushes: 40
     distinct_repos: 7
-    active_days: 5
+    active_days: 6
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 72
+    pushes: 69
     distinct_repos: 9
     active_days: 15
     repos_not_owned: 3
     not_owned_basenames: 2
     not_owned_owners: 3
   "90d":
-    pushes: 455
+    pushes: 456
     distinct_repos: 51
-    active_days: 60
+    active_days: 61
     repos_not_owned: 37
     not_owned_basenames: 8
     not_owned_owners: 37
 automation:
   state: "clear"
-  push_per_day: 7.5833
-  repo_per_active_day: 0.8500
+  push_per_day: 7.4754
+  repo_per_active_day: 0.8361
   not_owned_ratio: 0.7255
   basename_concentration: 0.4118
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 39
+    pushes: 40
     distinct_repos: 7
-    pushes_per_repo: 5.5714
-    active_days: 5
+    pushes_per_repo: 5.7143
+    active_days: 6
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 72
+    pushes: 69
     distinct_repos: 9
-    pushes_per_repo: 8.0000
+    pushes_per_repo: 7.6667
     active_days: 15
     repos_not_owned: 3
     not_owned_basenames: 2
     not_owned_owners: 3
   "90d":
-    pushes: 455
+    pushes: 456
     distinct_repos: 51
-    pushes_per_repo: 8.9216
-    active_days: 60
+    pushes_per_repo: 8.9412
+    active_days: 61
     repos_not_owned: 37
     not_owned_basenames: 8
     not_owned_owners: 37
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 60 active days in 90d — pass"
+  - "activity: 61 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "pi-mcp-adapter"
@@ -142,6 +142,6 @@ repos:
 
 # nicobailon
 
-455 pushes across 51 repositories on 60 active days in the last 90 days of public GitHub push activity.
+456 pushes across 51 repositories on 61 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/nicobailon

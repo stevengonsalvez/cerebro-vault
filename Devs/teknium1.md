@@ -11,28 +11,28 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-24T15:17:54.275119+00:00"
+generated_at: "2026-09-25T06:06:35.067653+00:00"
 provenance:
   - "48dbbdd8fd0d3029"
   - "ec2b8bd43eefd65f"
-pushes_per_week: [263, 131, 51, 79, 108, 30, 80, 107, 43, 11, 25, 107, 333]
+pushes_per_week: [267, 128, 66, 85, 80, 30, 111, 77, 46, 7, 28, 157, 281]
 windows:
   "7d":
-    pushes: 338
+    pushes: 334
     distinct_repos: 23
     active_days: 7
     repos_not_owned: 22
     not_owned_basenames: 2
     not_owned_owners: 21
   "30d":
-    pushes: 488
+    pushes: 489
     distinct_repos: 26
-    active_days: 24
+    active_days: 25
     repos_not_owned: 25
     not_owned_basenames: 2
     not_owned_owners: 24
   "90d":
-    pushes: 1368
+    pushes: 1363
     distinct_repos: 33
     active_days: 76
     repos_not_owned: 31
@@ -40,7 +40,7 @@ windows:
     not_owned_owners: 29
 automation:
   state: "clear"
-  push_per_day: 18.0000
+  push_per_day: 17.9342
   repo_per_active_day: 0.4342
   not_owned_ratio: 0.9394
   basename_concentration: 0.8788
@@ -48,7 +48,7 @@ automation:
     - "high_push_rate"
     - "fork_farm_third_party"
   shape_evidence:
-    - "18.00 pushes per active day over 90d (1368 pushes / 76 active days), above the 15 review line"
+    - "17.93 pushes per active day over 90d (1363 pushes / 76 active days), above the 15 review line"
     - "basename concentration 0.8788 (29 of 33 repos share one basename), 31 not owned across 3 basenames — 5 of 5 sampled repos resolved; 5 fork somebody else's repo; upstreams: NousResearch/hermes-agent"
   cleared_by: "e01-builder"
   cleared_on: "2026-08-26"
@@ -70,25 +70,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 338
+    pushes: 334
     distinct_repos: 23
-    pushes_per_repo: 14.6957
+    pushes_per_repo: 14.5217
     active_days: 7
     repos_not_owned: 22
     not_owned_basenames: 2
     not_owned_owners: 21
   "30d":
-    pushes: 488
+    pushes: 489
     distinct_repos: 26
-    pushes_per_repo: 18.7692
-    active_days: 24
+    pushes_per_repo: 18.8077
+    active_days: 25
     repos_not_owned: 25
     not_owned_basenames: 2
     not_owned_owners: 24
   "90d":
-    pushes: 1368
+    pushes: 1363
     distinct_repos: 33
-    pushes_per_repo: 41.4545
+    pushes_per_repo: 41.3030
     active_days: 76
     repos_not_owned: 31
     not_owned_basenames: 3
@@ -155,6 +155,6 @@ repos:
 
 # teknium1
 
-1368 pushes across 33 repositories on 76 active days in the last 90 days of public GitHub push activity.
+1363 pushes across 33 repositories on 76 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/teknium1

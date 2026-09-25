@@ -8,11 +8,11 @@ provenance_repos:
   - "can1357/oh-my-pi"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-24T15:17:54.275119+00:00"
+repos_populated: true
+generated_at: "2026-09-25T06:06:35.067653+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [8, 1, 3, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0]
+pushes_per_week: [3, 1, 3, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 13
+    pushes: 8
     distinct_repos: 5
-    active_days: 7
+    active_days: 6
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.8571
-  repo_per_active_day: 0.7143
+  push_per_day: 1.3333
+  repo_per_active_day: 0.8333
   not_owned_ratio: 0.4000
   basename_concentration: 0.2000
   shapes: []
@@ -65,22 +65,70 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 13
+    pushes: 8
     distinct_repos: 5
-    pushes_per_repo: 2.6000
-    active_days: 7
+    pushes_per_repo: 1.6000
+    active_days: 6
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 7 active days in 90d — pass"
+  - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "parallel_frontier"
+    title: "parallel_frontier"
+    description: "Unordered vector of elements with constant time concurrent push."
+    language: "Rust"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-07-23"
+  - name: "mem_dbg-rs"
+    title: "mem_dbg-rs"
+    description: "A trait + derive to recursively compute / print the memory usage of a data structure."
+    language: "Rust"
+    topics: []
+    stars_fact: 43
+    first_seen: null
+    last_push: "2026-07-23"
+  - name: "common_traits"
+    title: "common_traits"
+    description: "Rust traits I write way too often"
+    language: "Rust"
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-07-13"
+  - name: "bfs_bench"
+    title: "bfs_bench"
+    description: "benchmark of different frontier data structurers for squential BFS"
+    language: "Rust"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-06-30"
+  - name: "heaps"
+    title: "heaps"
+    description: "Experiments with different heaps implementations in Rust"
+    language: "Rust"
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2023-05-20"
+  - name: "gcups-rs"
+    title: "gcups-rs"
+    description: "Rust library and CLI for monitoring and controlling GreenCell UPS devices over USB HID, with a reverse-engineered protocol implementation replacing the proprietary Electron app."
+    language: "Rust"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-06-06"
 ---
 
 # zommiommy
 
-13 pushes across 5 repositories on 7 active days in the last 90 days of public GitHub push activity.
+8 pushes across 5 repositories on 6 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/zommiommy

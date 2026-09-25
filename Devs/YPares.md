@@ -8,11 +8,11 @@ provenance_repos:
   - "agavra/tuicr"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-24T15:17:54.275119+00:00"
+repos_populated: true
+generated_at: "2026-09-25T06:06:35.067653+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [1, 5, 5, 5, 1, 0, 0, 0, 0, 1, 0, 2, 1]
+pushes_per_week: [2, 4, 7, 3, 1, 0, 0, 0, 0, 1, 0, 2, 1]
 windows:
   "7d":
     pushes: 1
@@ -76,7 +76,88 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 13 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "nushellWith"
+    title: "nushellWith"
+    description: "Isolated nushell envs with specific plugins and libraries (with Nix)"
+    language: "Nix"
+    topics:
+      - "nix"
+      - "nix-flakes"
+      - "nu"
+      - "nushell"
+    stars_fact: 50
+    first_seen: null
+    last_push: "2026-09-25"
+  - name: "rigup.nix"
+    title: "rigup.nix"
+    description: "AI agents and Nix: parametrable skills/instructions and tools, packaged together in a reproducible and modular fashion"
+    language: "Nix"
+    topics:
+      - "agent-rig-system"
+      - "ai-agents"
+      - "claude-code"
+      - "claude-skills"
+      - "harness"
+      - "llm-agents"
+      - "nix"
+      - "nix-flake"
+      - "nix-modules"
+      - "opencode"
+      - "pi"
+      - "riglets"
+      - "skills"
+    stars_fact: 92
+    first_seen: null
+    last_push: "2026-09-25"
+  - name: "agent-skills"
+    title: "agent-skills"
+    description: "Various skills for AI coding assistants"
+    language: "Shell"
+    topics:
+      - "agent-rig-system"
+      - "claude"
+      - "jj"
+      - "nix"
+      - "skills"
+      - "typst"
+    stars_fact: 30
+    first_seen: null
+    last_push: "2026-09-24"
+  - name: "marble-test"
+    title: "marble-test"
+    description: null
+    language: "Rust"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-22"
+  - name: "miscli"
+    title: "miscli"
+    description: "A nix flake of CLI/TUI utilities"
+    language: "Rust"
+    topics:
+      - "cli"
+      - "flake"
+      - "nix"
+      - "rsvp-reading"
+      - "rust"
+      - "tui"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-21"
+  - name: "porcupine"
+    title: "porcupine"
+    description: "Express parametrable, composable and portable data pipelines"
+    language: "Haskell"
+    topics:
+      - "analytics"
+      - "haskell"
+      - "reproducible-research"
+      - "workflows"
+    stars_fact: 90
+    first_seen: null
+    last_push: "2022-04-06"
 ---
 
 # YPares

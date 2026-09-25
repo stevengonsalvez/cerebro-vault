@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-24T15:17:54.275119+00:00"
+generated_at: "2026-09-25T06:06:35.067653+00:00"
 provenance:
   - "7216827ad52eded1"
-pushes_per_week: [87, 55, 87, 49, 29, 11, 11, 11, 8, 4, 5, 5, 11]
+pushes_per_week: [100, 42, 99, 45, 22, 7, 15, 7, 9, 3, 5, 9, 7]
 windows:
   "7d":
     pushes: 11
@@ -22,14 +22,14 @@ windows:
     not_owned_basenames: 4
     not_owned_owners: 2
   "30d":
-    pushes: 30
+    pushes: 29
     distinct_repos: 4
-    active_days: 15
+    active_days: 14
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 2
   "90d":
-    pushes: 373
+    pushes: 370
     distinct_repos: 29
     active_days: 61
     repos_not_owned: 28
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 4
 automation:
   state: "clear"
-  push_per_day: 6.1148
+  push_per_day: 6.0656
   repo_per_active_day: 0.4754
   not_owned_ratio: 0.9655
   basename_concentration: 0.1034
@@ -57,17 +57,17 @@ facets:
     not_owned_basenames: 4
     not_owned_owners: 2
   "30d":
-    pushes: 30
+    pushes: 29
     distinct_repos: 4
-    pushes_per_repo: 7.5000
-    active_days: 15
+    pushes_per_repo: 7.2500
+    active_days: 14
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 2
   "90d":
-    pushes: 373
+    pushes: 370
     distinct_repos: 29
-    pushes_per_repo: 12.8621
+    pushes_per_repo: 12.7586
     active_days: 61
     repos_not_owned: 28
     not_owned_basenames: 23
@@ -129,6 +129,6 @@ repos:
 
 # joshuajbouw
 
-373 pushes across 29 repositories on 61 active days in the last 90 days of public GitHub push activity.
+370 pushes across 29 repositories on 61 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/joshuajbouw

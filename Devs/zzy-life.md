@@ -8,11 +8,11 @@ provenance_repos:
   - "alibaba/page-agent"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-24T15:17:54.275119+00:00"
+repos_populated: true
+generated_at: "2026-09-25T06:06:35.067653+00:00"
 provenance:
   - "d1946b21c02e5fa5"
-pushes_per_week: [3, 2, 2, 2, 0, 1, 3, 2, 0, 0, 0, 0, 0]
+pushes_per_week: [3, 2, 3, 1, 0, 1, 5, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,59 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 13 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "document-converter"
+    title: "document-converter"
+    description: "Document Converter Server made with Go & LibreOffice"
+    language: "Go"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-03-27"
+  - name: "Claude-Code"
+    title: "Claude-Code"
+    description: "可运行的Claude Code源码"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-10"
+  - name: "DesktopNotes"
+    title: "DesktopNotes"
+    description: "Windows桌面便签，520kb极简，支持置顶显示"
+    language: "C#"
+    topics: []
+    stars_fact: 57
+    first_seen: null
+    last_push: "2026-03-23"
+  - name: "contentgrid"
+    title: "contentgrid"
+    description: "contentgrid Use WebGL and three.js technology to achieve impressive transition effects, adapted to the mobile terminal. It can help your website or application to add beautiful transition effects to enhance user experience."
+    language: "Vue"
+    topics:
+      - "threejs"
+      - "vue"
+      - "vuejs"
+      - "webgl"
+    stars_fact: 54
+    first_seen: null
+    last_push: "2023-04-17"
+  - name: "kilo-draft"
+    title: "kilo-draft"
+    description: "Kilo is the all-in-one agentic engineering platform. Build, ship, and iterate faster with the most popular open source coding agent."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-15"
+  - name: "Wechat3D"
+    title: "Wechat3D"
+    description: "微信小程序3D，使用Three.js在微信小程序中展示gltf模型，使用VisionKit展示AR能力"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 34
+    first_seen: null
+    last_push: "2025-04-03"
 ---
 
 # zzy-life

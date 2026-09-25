@@ -8,11 +8,11 @@ provenance_repos:
   - "affaan-m/ECC"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-24T15:17:54.275119+00:00"
+repos_populated: true
+generated_at: "2026-09-25T06:06:35.067653+00:00"
 provenance:
   - "edb3a626875732de"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 2, 31]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 6, 27]
 windows:
   "7d":
     pushes: 31
@@ -76,7 +76,87 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "agentpay-mcp"
+    title: "agentpay-mcp"
+    description: "Non-custodial x402 MCP payment layer for AI agents — the open-source alternative to Vercel x402-mcp"
+    language: "TypeScript"
+    topics:
+      - "agentpay"
+      - "ai-agents"
+      - "mcp"
+      - "payments"
+      - "x402"
+    stars_fact: 6
+    first_seen: null
+    last_push: "2026-09-24"
+  - name: "webmcp-sdk"
+    title: "webmcp-sdk"
+    description: "Full WebMCP developer toolkit — core, React, security, testing. Build agent-ready websites with navigator.modelContext"
+    language: "TypeScript"
+    topics:
+      - "ai-agents"
+      - "browser"
+      - "mcp"
+      - "sdk"
+      - "web"
+      - "webmcp"
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-09-21"
+  - name: "ReadyTrader-FOREX"
+    title: "ReadyTrader-FOREX"
+    description: "MCP server for AI-powered forex trading — risk management, paper trading, brokerage integration"
+    language: "Python"
+    topics:
+      - "ai"
+      - "automated-trading"
+      - "forex"
+      - "trading"
+      - "typescript"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-24"
+  - name: "ReadyTrader-Stocks"
+    title: "ReadyTrader-Stocks"
+    description: "MCP server for AI-powered stock trading — risk management, paper trading, brokerage integration"
+    language: "Python"
+    topics:
+      - "ai"
+      - "automated-trading"
+      - "stocks"
+      - "trading"
+      - "typescript"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-24"
+  - name: "agent-wallet-sdk"
+    title: "agent-wallet-sdk"
+    description: "Non-custodial crypto wallets for AI agents with on-chain spending limits. ERC-6551, x402 compatible, Base Mainnet."
+    language: "TypeScript"
+    topics:
+      - "agent-wallet"
+      - "ai-agents"
+      - "payments"
+      - "sdk"
+      - "typescript"
+      - "x402"
+    stars_fact: 13
+    first_seen: null
+    last_push: "2026-09-23"
+  - name: "ReadyTrader-Crypto"
+    title: "ReadyTrader-Crypto"
+    description: "MCP server for AI-powered cryptocurrency trading — risk management, paper trading, exchange integration"
+    language: "Python"
+    topics:
+      - "ai"
+      - "automated-trading"
+      - "crypto"
+      - "trading"
+      - "typescript"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-23"
 ---
 
 # up2itnow0822

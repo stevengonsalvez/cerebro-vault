@@ -8,11 +8,11 @@ provenance_repos:
   - "chopratejas/headroom"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-24T15:17:54.275119+00:00"
+repos_populated: true
+generated_at: "2026-09-25T06:06:35.067653+00:00"
 provenance:
   - "73468cde177ddae6"
-pushes_per_week: [0, 2, 0, 1, 2, 0, 0, 0, 0, 0, 1, 0, 0]
+pushes_per_week: [0, 2, 0, 3, 0, 0, 0, 0, 0, 0, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "skrun-archive"
+    title: "skrun-archive"
+    description: "Deploy any Agent Skill as an API via POST /run. Multi-model, stateful, open source."
+    language: null
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-03-30"
+  - name: "terminalchai-profile-archive"
+    title: "terminalchai-profile-archive"
+    description: "GitHub profile README for Terminal Chai"
+    language: null
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-04-02"
+  - name: "bundle-check"
+    title: "bundle-check"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-04-05"
+  - name: "forma-studio"
+    title: "forma-studio"
+    description: "FORMA creative studio website"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-04-05"
+  - name: "flow-timer"
+    title: "flow-timer"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-04-05"
+  - name: "mockdata-run"
+    title: "mockdata-run"
+    description: "Seeded mock datasets for prototypes, demos, and QA. Write a schema, hit run, export JSON/CSV/API payloads."
+    language: "JavaScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-04-05"
 ---
 
 # terminalchai

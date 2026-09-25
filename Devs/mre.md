@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-24T15:17:54.275119+00:00"
+generated_at: "2026-09-25T06:06:35.067653+00:00"
 provenance:
   - "1f49d0119cedbc84"
-pushes_per_week: [11, 11, 4, 3, 2, 0, 1, 2, 1, 0, 1, 2, 7]
+pushes_per_week: [11, 9, 4, 3, 2, 0, 3, 0, 1, 0, 1, 3, 7]
 windows:
   "7d":
     pushes: 8
@@ -22,25 +22,25 @@ windows:
     not_owned_basenames: 4
     not_owned_owners: 4
   "30d":
-    pushes: 11
+    pushes: 12
     distinct_repos: 6
-    active_days: 8
+    active_days: 9
     repos_not_owned: 6
     not_owned_basenames: 5
     not_owned_owners: 4
   "90d":
-    pushes: 45
-    distinct_repos: 12
+    pushes: 44
+    distinct_repos: 11
     active_days: 22
     repos_not_owned: 9
     not_owned_basenames: 8
     not_owned_owners: 6
 automation:
   state: "clear"
-  push_per_day: 2.0455
-  repo_per_active_day: 0.5455
-  not_owned_ratio: 0.7500
-  basename_concentration: 0.1667
+  push_per_day: 2.0000
+  repo_per_active_day: 0.5000
+  not_owned_ratio: 0.8182
+  basename_concentration: 0.1818
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -57,17 +57,17 @@ facets:
     not_owned_basenames: 4
     not_owned_owners: 4
   "30d":
-    pushes: 11
+    pushes: 12
     distinct_repos: 6
-    pushes_per_repo: 1.8333
-    active_days: 8
+    pushes_per_repo: 2.0000
+    active_days: 9
     repos_not_owned: 6
     not_owned_basenames: 5
     not_owned_owners: 4
   "90d":
-    pushes: 45
-    distinct_repos: 12
-    pushes_per_repo: 3.7500
+    pushes: 44
+    distinct_repos: 11
+    pushes_per_repo: 4.0000
     active_days: 22
     repos_not_owned: 9
     not_owned_basenames: 8
@@ -149,6 +149,6 @@ repos:
 
 # mre
 
-45 pushes across 12 repositories on 22 active days in the last 90 days of public GitHub push activity.
+44 pushes across 11 repositories on 22 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/mre

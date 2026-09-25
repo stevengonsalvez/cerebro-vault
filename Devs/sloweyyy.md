@@ -8,11 +8,11 @@ provenance_repos:
   - "AlexsJones/llmfit"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-24T15:17:54.275119+00:00"
+repos_populated: true
+generated_at: "2026-09-25T06:06:35.067653+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [3, 2, 2, 4, 3, 1, 3, 2, 1, 1, 0, 0, 0]
+pushes_per_week: [3, 2, 2, 5, 2, 1, 3, 2, 2, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,89 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 22 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "sloweyyy"
+    title: "sloweyyy"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-09-25"
+  - name: "cloud-native-ecommerce-platform"
+    title: "cloud-native-ecommerce-platform"
+    description: "Cloud-native e-commerce on .NET 10 LTS microservices with React + Nx Module Federation microfrontends, deployed to AWS EKS via Terraform with Istio service mesh. MongoDB / Redis / PostgreSQL / SQL Server, RabbitMQ, Ocelot gateway. Legacy Angular UI in /client."
+    language: "TypeScript"
+    topics:
+      - "angular"
+      - "aws"
+      - "cloud-native"
+      - "csharp"
+      - "devops"
+      - "docker"
+      - "dotnet"
+      - "eks"
+      - "elk-stack"
+      - "grafana"
+      - "istio"
+      - "jaeger"
+      - "kubernetes"
+      - "microfrontend"
+      - "microservice"
+      - "nx"
+      - "opentelemetry"
+      - "prometheus"
+      - "react"
+      - "terraform"
+    stars_fact: 23
+    first_seen: null
+    last_push: "2026-09-21"
+  - name: "GreenLedger"
+    title: "GreenLedger"
+    description: "GreenLedger is a modular carbon credit and footprint tracking system built with Go microservices. Includes JWT auth, Kafka events, Prometheus metrics, and Kubernetes support - designed for DevOps practice and real-world sustainability apps."
+    language: "Go"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-21"
+  - name: "3d-portfolio"
+    title: "3d-portfolio"
+    description: "This repository contains the source code for my 3D portfolio website, showcasing my projects and skills in a three-dimensional web environment."
+    language: "JavaScript"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-05-16"
+  - name: "DSA"
+    title: "DSA"
+    description: "This repository contains solutions to various LeetCode problems and contests in C++, C#, Python, Java, and JavaScript, helping you improve your problem-solving skills and prepare for coding interviews."
+    language: "Java"
+    topics:
+      - "algorithms"
+      - "cpp"
+      - "csharp"
+      - "dart"
+      - "java"
+      - "javascript"
+      - "leetcode"
+      - "leetcode-solutions"
+      - "python"
+      - "typescript"
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-05-16"
+  - name: "EmotionSense"
+    title: "EmotionSense"
+    description: "EmotionSense is an application that predicts facial expressions of humans through pictures."
+    language: "TypeScript"
+    topics:
+      - "artificial-intelligence"
+      - "cv"
+      - "machine-learning"
+      - "tensorflow"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-05-16"
 ---
 
 # sloweyyy

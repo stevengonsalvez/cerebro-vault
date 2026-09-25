@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-24T15:17:54.275119+00:00"
+generated_at: "2026-09-25T06:06:35.067653+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [88, 133, 103, 54, 37, 54, 32, 16, 31, 6, 4, 29, 48]
+pushes_per_week: [100, 127, 106, 47, 39, 47, 37, 14, 28, 5, 4, 33, 45]
 windows:
   "7d":
     pushes: 48
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 635
+    pushes: 632
     distinct_repos: 14
-    active_days: 79
+    active_days: 78
     repos_not_owned: 7
     not_owned_basenames: 3
     not_owned_owners: 7
 automation:
   state: "clear"
-  push_per_day: 8.0380
-  repo_per_active_day: 0.1772
+  push_per_day: 8.1026
+  repo_per_active_day: 0.1795
   not_owned_ratio: 0.5000
   basename_concentration: 0.4286
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 635
+    pushes: 632
     distinct_repos: 14
-    pushes_per_repo: 45.3571
-    active_days: 79
+    pushes_per_repo: 45.1429
+    active_days: 78
     repos_not_owned: 7
     not_owned_basenames: 3
     not_owned_owners: 7
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 79 active days in 90d — pass"
+  - "activity: 78 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "karpathy-llm-wiki"
@@ -177,6 +177,6 @@ repos:
 
 # Astro-Han
 
-635 pushes across 14 repositories on 79 active days in the last 90 days of public GitHub push activity.
+632 pushes across 14 repositories on 78 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Astro-Han

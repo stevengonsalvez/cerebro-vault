@@ -8,11 +8,11 @@ provenance_repos:
   - "apache/maka"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+repos_populated: true
+generated_at: "2026-09-25T06:06:35.067653+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [1, 1, 3, 1, 0, 0, 2, 1, 0, 0, 0, 0, 2]
+pushes_per_week: [2, 0, 4, 0, 0, 0, 2, 1, 0, 0, 0, 0, 2]
 windows:
   "7d":
     pushes: 2
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 8 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "ugc_clone"
+    title: "ugc_clone"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-21"
+  - name: "SNS_ALL_IN_ONE"
+    title: "SNS_ALL_IN_ONE"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-04"
+  - name: "MINIMAXH3_Autoworkflow"
+    title: "MINIMAXH3_Autoworkflow"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-04"
+  - name: "sns_skills"
+    title: "sns_skills"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-06"
+  - name: "wechat"
+    title: "wechat"
+    description: "自动化微信模拟真人回复工具"
+    language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-01-27"
+  - name: "causual_agent_jobseeker"
+    title: "causual_agent_jobseeker"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-07-14"
 ---
 
 # SydneyMCDonaldbigking

@@ -8,39 +8,39 @@ provenance_repos:
   - "akitaonrails/ai-memory"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-24T15:17:54.275119+00:00"
+repos_populated: true
+generated_at: "2026-09-25T06:06:35.067653+00:00"
 provenance:
   - "4138778ebbc75ba6"
-pushes_per_week: [21, 5, 15, 11, 19, 0, 1, 0, 2, 0, 4, 13, 16]
+pushes_per_week: [23, 8, 11, 15, 14, 0, 1, 0, 2, 0, 5, 15, 21]
 windows:
   "7d":
     pushes: 23
-    distinct_repos: 5
+    distinct_repos: 8
     active_days: 6
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 35
-    distinct_repos: 9
-    active_days: 10
+    pushes: 43
+    distinct_repos: 12
+    active_days: 11
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 107
-    distinct_repos: 29
-    active_days: 36
+    pushes: 115
+    distinct_repos: 31
+    active_days: 37
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.9722
-  repo_per_active_day: 0.8056
-  not_owned_ratio: 0.0690
-  basename_concentration: 0.1034
+  push_per_day: 3.1081
+  repo_per_active_day: 0.8378
+  not_owned_ratio: 0.0645
+  basename_concentration: 0.0968
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -50,37 +50,85 @@ automation:
 facets:
   "7d":
     pushes: 23
-    distinct_repos: 5
-    pushes_per_repo: 4.6000
+    distinct_repos: 8
+    pushes_per_repo: 2.8750
     active_days: 6
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 35
-    distinct_repos: 9
-    pushes_per_repo: 3.8889
-    active_days: 10
+    pushes: 43
+    distinct_repos: 12
+    pushes_per_repo: 3.5833
+    active_days: 11
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 107
-    distinct_repos: 29
-    pushes_per_repo: 3.6897
-    active_days: 36
+    pushes: 115
+    distinct_repos: 31
+    pushes_per_repo: 3.7097
+    active_days: 37
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 36 active days in 90d — pass"
+  - "activity: 37 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "shvia-mobile"
+    title: "shvia-mobile"
+    description: "ShvIA Mobile — cliente iOS/Android do ShvIA (shell fino Tauri 2)"
+    language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-25"
+  - name: "tura-notes"
+    title: "tura-notes"
+    description: "A local-first Markdown note-taking app — your folder, your .md files, no proprietary format and no account"
+    language: "Rust"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-25"
+  - name: "shvia-bench"
+    title: "shvia-bench"
+    description: "Ambiente isolado e instrumentação reprodutível para benchmark de LLMs em engenharia de software — camada de execução/medição do LEB (env -i + HOME sandbox, proxy de verdade-base, auditoria de isenção)."
+    language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-24"
+  - name: "samirhv-site"
+    title: "samirhv-site"
+    description: "Claude, Grok, Gemma4, GLM, Minimax, GPT"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-24"
+  - name: "ai-memory-web"
+    title: "ai-memory-web"
+    description: "Read-only web panel over the ai-memory SQLite index: what the coding agents remember, and how it was collected. Laravel, no build step."
+    language: "PHP"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-24"
+  - name: "sysadm-server"
+    title: "sysadm-server"
+    description: "Script de update para monitoramento dos servidores"
+    language: "Shell"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-09-24"
 ---
 
 # samirhvbr
 
-107 pushes across 29 repositories on 36 active days in the last 90 days of public GitHub push activity.
+115 pushes across 31 repositories on 37 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/samirhvbr

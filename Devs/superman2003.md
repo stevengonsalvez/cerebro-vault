@@ -8,11 +8,11 @@ provenance_repos:
   - "BigPizzaV3/CodexPlusPlus"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+repos_populated: true
+generated_at: "2026-09-25T06:06:35.067653+00:00"
 provenance:
   - "90688bf127241ceb"
-pushes_per_week: [2, 2, 4, 3, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+pushes_per_week: [2, 3, 3, 3, 0, 0, 1, 0, 0, 0, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,67 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 9 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "mirasim-register"
+    title: "mirasim-register"
+    description: "Unofficial Mirasim/Mirofish email signup panel with QQ IMAP OTP and invite chaining"
+    language: "Python"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-08-09"
+  - name: "remirasim-dist"
+    title: "remirasim-dist"
+    description: "Remirasim binary distribution mirror - release assets only, no source. Auto-published by CI from the private source repo."
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-23"
+  - name: "mirasim-reg"
+    title: "mirasim-reg"
+    description: "Unofficial Mirasim/Mirofish email signup panel with QQ IMAP OTP and invite chaining"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-09"
+  - name: "Crimson-Thread-Pilgrimage"
+    title: "Crimson-Thread-Pilgrimage"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-07-26"
+  - name: "agentpack"
+    title: "agentpack"
+    description: "Write agent skills once, ship to Cursor, Claude Code, Codex, Copilot and any SKILL.md-compatible agent"
+    language: "Python"
+    topics:
+      - "agent-skills"
+      - "ai"
+      - "claude-code"
+      - "cli"
+      - "codex"
+      - "cursor"
+      - "developer-tools"
+      - "github-copilot"
+      - "mcp"
+      - "open-source"
+      - "python"
+      - "skill-md"
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-07-08"
+  - name: "stagewise"
+    title: "stagewise"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-06-26"
 ---
 
 # superman2003

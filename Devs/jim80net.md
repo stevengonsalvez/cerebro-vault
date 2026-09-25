@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-24T15:17:54.275119+00:00"
+generated_at: "2026-09-25T06:06:35.067653+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [43, 147, 73, 22, 4, 23, 3, 0, 0, 0, 1, 0, 0]
+pushes_per_week: [103, 89, 70, 23, 3, 22, 2, 0, 0, 0, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 316
+    pushes: 313
     distinct_repos: 12
-    active_days: 39
+    active_days: 38
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 8.1026
-  repo_per_active_day: 0.3077
+  push_per_day: 8.2368
+  repo_per_active_day: 0.3158
   not_owned_ratio: 0.0000
   basename_concentration: 0.0833
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 316
+    pushes: 313
     distinct_repos: 12
-    pushes_per_repo: 26.3333
-    active_days: 39
+    pushes_per_repo: 26.0833
+    active_days: 38
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 39 active days in 90d — pass"
+  - "activity: 38 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "flotilla"
@@ -129,6 +129,6 @@ repos:
 
 # jim80net
 
-316 pushes across 12 repositories on 39 active days in the last 90 days of public GitHub push activity.
+313 pushes across 12 repositories on 38 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/jim80net

@@ -8,11 +8,11 @@ provenance_repos:
   - "agentscope-ai/QwenPaw"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-24T15:17:54.275119+00:00"
+repos_populated: true
+generated_at: "2026-09-25T06:06:35.067653+00:00"
 provenance:
   - "541318303a272608"
-pushes_per_week: [11, 6, 7, 2, 0, 3, 2, 0, 2, 0, 2, 8, 7]
+pushes_per_week: [13, 4, 8, 1, 0, 4, 1, 0, 2, 0, 2, 9, 6]
 windows:
   "7d":
     pushes: 7

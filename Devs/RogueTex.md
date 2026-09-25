@@ -8,11 +8,11 @@ provenance_repos:
   - "addyosmani/agent-skills"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+repos_populated: true
+generated_at: "2026-09-25T06:06:35.067653+00:00"
 provenance:
   - "dae9f02535f7c22f"
-pushes_per_week: [0, 3, 7, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [0, 3, 8, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "RogueTex"
+    title: "RogueTex"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-11"
+  - name: "RogueTex.github.io"
+    title: "RogueTex.github.io"
+    description: null
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-05"
+  - name: "agent-build-court"
+    title: "agent-build-court"
+    description: "No-login Codex agent committee demo that turns fuzzy project ideas into a judgeable BUILD_PACKET.md"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-06-25"
+  - name: "Cog_TH"
+    title: "Cog_TH"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-06-24"
+  - name: "Prepper"
+    title: "Prepper"
+    description: "Local calendar prep assistant prototype for meeting briefs and SMS reminders."
+    language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-06-18"
+  - name: "GTM_Pulse"
+    title: "GTM_Pulse"
+    description: "A pulse GTM prototype, long in the making!"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-06-10"
 ---
 
 # RogueTex

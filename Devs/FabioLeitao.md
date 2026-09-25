@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-24T15:17:54.275119+00:00"
+generated_at: "2026-09-25T06:06:35.067653+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [15, 7, 15, 5, 6, 5, 10, 22, 3, 0, 6, 8, 3]
+pushes_per_week: [17, 4, 14, 5, 8, 3, 12, 20, 3, 0, 6, 8, 4]
 windows:
   "7d":
     pushes: 4
-    distinct_repos: 1
+    distinct_repos: 2
     active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 19
+    pushes: 20
     distinct_repos: 2
-    active_days: 7
+    active_days: 8
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 105
+    pushes: 104
     distinct_repos: 4
     active_days: 39
     repos_not_owned: 2
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.6923
+  push_per_day: 2.6667
   repo_per_active_day: 0.1026
   not_owned_ratio: 0.5000
   basename_concentration: 0.5000
@@ -50,24 +50,24 @@ automation:
 facets:
   "7d":
     pushes: 4
-    distinct_repos: 1
-    pushes_per_repo: 4.0000
+    distinct_repos: 2
+    pushes_per_repo: 2.0000
     active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 19
+    pushes: 20
     distinct_repos: 2
-    pushes_per_repo: 9.5000
-    active_days: 7
+    pushes_per_repo: 10.0000
+    active_days: 8
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 105
+    pushes: 104
     distinct_repos: 4
-    pushes_per_repo: 26.2500
+    pushes_per_repo: 26.0000
     active_days: 39
     repos_not_owned: 2
     not_owned_basenames: 2
@@ -129,6 +129,6 @@ repos:
 
 # FabioLeitao
 
-105 pushes across 4 repositories on 39 active days in the last 90 days of public GitHub push activity.
+104 pushes across 4 repositories on 39 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/FabioLeitao

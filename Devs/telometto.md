@@ -8,11 +8,11 @@ provenance_repos:
   - "alirezarezvani/claude-skills"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-24T15:17:54.275119+00:00"
+repos_populated: true
+generated_at: "2026-09-25T06:06:35.067653+00:00"
 provenance:
   - "3cb7ff1cdcf97c6b"
-pushes_per_week: [23, 15, 20, 4, 13, 10, 13, 3, 3, 1, 1, 3, 6]
+pushes_per_week: [21, 14, 22, 6, 11, 8, 13, 3, 3, 1, 1, 3, 6]
 windows:
   "7d":
     pushes: 6
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 115
+    pushes: 112
     distinct_repos: 1
-    active_days: 50
+    active_days: 49
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.3000
-  repo_per_active_day: 0.0200
+  push_per_day: 2.2857
+  repo_per_active_day: 0.0204
   not_owned_ratio: 0.0000
   basename_concentration: 1.0000
   shapes: []
@@ -65,22 +65,71 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 115
+    pushes: 112
     distinct_repos: 1
-    pushes_per_repo: 115.0000
-    active_days: 50
+    pushes_per_repo: 112.0000
+    active_days: 49
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 50 active days in 90d — pass"
+  - "activity: 49 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "nix-config"
+    title: "nix-config"
+    description: "Personal Nix repo. Claude was introduced May 2026."
+    language: "Nix"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-25"
+  - name: "homelab-apps"
+    title: "homelab-apps"
+    description: null
+    language: "Shell"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-05-17"
+  - name: "telometto"
+    title: "telometto"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-05-15"
+  - name: "libvibrant"
+    title: "libvibrant"
+    description: null
+    language: "C"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2021-08-21"
+  - name: "ansible-personal"
+    title: "ansible-personal"
+    description: "Personal ansible setup to get up and running hassle-free."
+    language: null
+    topics:
+      - "ansible"
+    stars_fact: 2
+    first_seen: null
+    last_push: "2024-06-30"
+  - name: "HelloWorld"
+    title: "HelloWorld"
+    description: null
+    language: "Kotlin"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2023-10-18"
 ---
 
 # telometto
 
-115 pushes across 1 repository on 50 active days in the last 90 days of public GitHub push activity.
+112 pushes across 1 repository on 49 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/telometto

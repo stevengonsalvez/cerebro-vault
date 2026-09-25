@@ -8,11 +8,11 @@ provenance_repos:
   - "addyosmani/agent-skills"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-24T15:17:54.275119+00:00"
+repos_populated: true
+generated_at: "2026-09-25T06:06:35.067653+00:00"
 provenance:
   - "dae9f02535f7c22f"
-pushes_per_week: [4, 3, 4, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [7, 0, 4, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 9 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "RoastMySite"
+    title: "RoastMySite"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-06"
+  - name: "LEO"
+    title: "LEO"
+    description: null
+    language: "Swift"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-29"
+  - name: "Anchored"
+    title: "Anchored"
+    description: null
+    language: "Swift"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-07-30"
+  - name: "token_saver_skill"
+    title: "token_saver_skill"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-07-14"
+  - name: "Chinese-Exclusion-Act"
+    title: "Chinese-Exclusion-Act"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-05-22"
+  - name: "SpatialGestures"
+    title: "SpatialGestures"
+    description: null
+    language: "Swift"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-06-29"
 ---
 
 # Varun-Chinthoju

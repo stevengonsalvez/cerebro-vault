@@ -8,11 +8,11 @@ provenance_repos:
   - "ChromeDevTools/chrome-devtools-mcp"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-24T15:17:54.275119+00:00"
+repos_populated: true
+generated_at: "2026-09-25T06:06:35.067653+00:00"
 provenance:
   - "379642deb53f3714"
-pushes_per_week: [1, 1, 6, 1, 0, 1, 4, 0, 1, 0, 0, 1, 0]
+pushes_per_week: [0, 1, 6, 1, 0, 1, 4, 0, 1, 0, 0, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 16
+    pushes: 15
     distinct_repos: 9
-    active_days: 13
+    active_days: 12
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.2308
-  repo_per_active_day: 0.6923
+  push_per_day: 1.2500
+  repo_per_active_day: 0.7500
   not_owned_ratio: 0.0000
   basename_concentration: 0.1111
   shapes: []
@@ -65,22 +65,80 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 16
+    pushes: 15
     distinct_repos: 9
-    pushes_per_repo: 1.7778
-    active_days: 13
+    pushes_per_repo: 1.6667
+    active_days: 12
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 13 active days in 90d — pass"
+  - "activity: 12 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "serhiizghama"
+    title: "serhiizghama"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-21"
+  - name: "lesson-loop"
+    title: "lesson-loop"
+    description: "Interactive English lessons for one-on-one online teaching: tap-based exercises built from plain JSON, plus a live room that keeps the teacher's and the student's screens in sync. React + Cloudflare Workers (Durable Objects)."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-10"
+  - name: "viber-mcp"
+    title: "viber-mcp"
+    description: "MCP server for Viber messenger (Rakuten Viber Bot API) — TypeScript"
+    language: "TypeScript"
+    topics:
+      - "bot"
+      - "chatbot"
+      - "claude"
+      - "llm"
+      - "mcp"
+      - "mcp-server"
+      - "messaging"
+      - "model-context-protocol"
+      - "typescript"
+      - "viber"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-08-29"
+  - name: "claudo-ii"
+    title: "claudo-ii"
+    description: "claudo-ii"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-08"
+  - name: "last-signal"
+    title: "last-signal"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-21"
+  - name: "astrodust"
+    title: "astrodust"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-11"
 ---
 
 # serhiizghama
 
-16 pushes across 9 repositories on 13 active days in the last 90 days of public GitHub push activity.
+15 pushes across 9 repositories on 12 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/serhiizghama

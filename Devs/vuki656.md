@@ -8,11 +8,11 @@ provenance_repos:
   - "agavra/tuicr"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-24T15:17:54.275119+00:00"
+repos_populated: true
+generated_at: "2026-09-25T06:06:35.067653+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [0, 1, 3, 1, 4, 1, 1, 0, 0, 0, 0, 1, 0]
+pushes_per_week: [0, 2, 3, 0, 4, 1, 1, 0, 0, 0, 0, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,73 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 10 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "nvim-config"
+    title: "nvim-config"
+    description: "⌨️ My Neovim configuration"
+    language: "Lua"
+    topics:
+      - "nvim"
+    stars_fact: 16
+    first_seen: null
+    last_push: "2026-09-24"
+  - name: "review.nvim"
+    title: "review.nvim"
+    description: "Review git diffs inside Neovim, comment on specific lines, and export the comments as markdown straight to your AI agent"
+    language: "Lua"
+    topics:
+      - "ai"
+      - "code-review"
+      - "git"
+      - "lua"
+      - "neovim"
+      - "neovim-plugin"
+      - "tmux"
+    stars_fact: 57
+    first_seen: null
+    last_push: "2026-09-23"
+  - name: "package-info.nvim"
+    title: "package-info.nvim"
+    description: "✍️ All the npm/yarn/pnpm commands I don't want to type"
+    language: "Lua"
+    topics:
+      - "neovim"
+      - "neovim-gui"
+      - "neovim-lua"
+      - "neovim-plugin"
+      - "npm"
+      - "package-json"
+      - "pnpm"
+      - "version"
+      - "vim"
+      - "yarn"
+    stars_fact: 601
+    first_seen: null
+    last_push: "2026-09-02"
+  - name: "style-guide"
+    title: "style-guide"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-20"
+  - name: "sales"
+    title: "sales"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-15"
+  - name: "pointer.nvim"
+    title: "pointer.nvim"
+    description: "Claude points at code in your Neovim"
+    language: "Lua"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-11"
 ---
 
 # vuki656

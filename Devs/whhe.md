@@ -8,11 +8,11 @@ provenance_repos:
   - "bytedance/deer-flow"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-24T15:17:54.275119+00:00"
+repos_populated: true
+generated_at: "2026-09-25T06:06:35.067653+00:00"
 provenance:
   - "16389f32495280ea"
-pushes_per_week: [6, 1, 3, 0, 0, 1, 1, 0, 0, 0, 0, 0, 1]
+pushes_per_week: [6, 2, 2, 0, 0, 1, 1, 0, 0, 0, 0, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -76,7 +76,41 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 10 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "ai-workshop"
+    title: "ai-workshop"
+    description: "My coding configurations and skills."
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-23"
+  - name: "code-review-bot"
+    title: "code-review-bot"
+    description: "Extensible AI code review bot with pluggable coding agents, review skills, and Git platform adapters (GitLab & GitHub)."
+    language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-21"
+  - name: "whhe"
+    title: "whhe"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-19"
+  - name: "docker-images-downloader"
+    title: "docker-images-downloader"
+    description: "Use GitHub Action to cache Docker image files."
+    language: null
+    topics:
+      - "docker-hub"
+      - "docker-image"
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-08-13"
 ---
 
 # whhe

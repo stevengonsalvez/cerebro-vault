@@ -8,11 +8,11 @@ provenance_repos:
   - "abhigyanpatwari/GitNexus"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-24T15:17:54.275119+00:00"
+repos_populated: true
+generated_at: "2026-09-25T06:06:35.067653+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [1, 2, 0, 0, 2, 1, 3, 2, 3, 0, 0, 0, 1]
+pushes_per_week: [1, 2, 0, 0, 2, 1, 4, 2, 2, 0, 0, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -76,7 +76,66 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 14 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "discussing-algorithm"
+    title: "discussing-algorithm"
+    description: "刷一下算法题"
+    language: "Java"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-09-24"
+  - name: "volward"
+    title: "volward"
+    description: "Cross-platform desktop storage manager — incrementally scan disks, preview space usage, and safely clean up files (Flutter + Rust)."
+    language: "Dart"
+    topics:
+      - "cross-platform"
+      - "desktop-app"
+      - "disk-cleanup"
+      - "disk-space"
+      - "file-manager"
+      - "flutter"
+      - "linux"
+      - "macos"
+      - "rust"
+      - "storage"
+      - "windows"
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-09-22"
+  - name: "TrayHand-Releases"
+    title: "TrayHand-Releases"
+    description: "TrayHand official macOS releases (installers & in-app updates)"
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-07-25"
+  - name: "PrivacyPlugin"
+    title: "PrivacyPlugin"
+    description: "Gradle 8.0+ Transform solution."
+    language: "Kotlin"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2024-03-22"
+  - name: "self-mcp"
+    title: "self-mcp"
+    description: "try mcp..."
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2025-12-09"
+  - name: "rust_actual_combat"
+    title: "rust_actual_combat"
+    description: "A....."
+    language: "Rust"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2024-07-16"
 ---
 
 # ZakAnun

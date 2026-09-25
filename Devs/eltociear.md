@@ -9,18 +9,16 @@ provenance_repos:
   - "anthropics/anthropic-sdk-python"
   - "anthropics/claude-cookbooks"
   - "Canner/WrenAI"
-  - "ConardLi/garden-skills"
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-24T15:17:54.275119+00:00"
+generated_at: "2026-09-25T06:06:35.067653+00:00"
 provenance:
   - "1be978947e68d1f2"
   - "1f49d0119cedbc84"
-  - "593d8a1dc9504a09"
   - "dffbb846389f9a26"
   - "ef17663e884139a8"
-pushes_per_week: [5, 1, 8, 12, 3, 1, 3, 3, 1, 0, 0, 0, 1]
+pushes_per_week: [5, 2, 12, 7, 3, 1, 4, 2, 1, 0, 0, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -81,7 +79,7 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 3
 reasons:
-  - "provenance: 5 vault signal(s) — pass"
+  - "provenance: 4 vault signal(s) — pass"
   - "activity: 25 active days in 90d — pass"
   - "automation: clear — pass"
 repos:

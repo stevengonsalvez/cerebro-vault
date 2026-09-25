@@ -8,11 +8,11 @@ provenance_repos:
   - "AlexsJones/llmfit"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-24T15:17:54.275119+00:00"
+repos_populated: true
+generated_at: "2026-09-25T06:06:35.067653+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [32, 24, 23, 35, 6, 0, 3, 3, 4, 0, 0, 2, 2]
+pushes_per_week: [36, 21, 28, 31, 4, 0, 3, 3, 4, 0, 0, 2, 2]
 windows:
   "7d":
     pushes: 2
@@ -76,7 +76,61 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 41 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "tingfeng347"
+    title: "tingfeng347"
+    description: null
+    language: "HTML"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-09-25"
+  - name: "windwiki"
+    title: "windwiki"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-24"
+  - name: "windlaya"
+    title: "windlaya"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-23"
+  - name: "windjev"
+    title: "windjev"
+    description: "Confidence-aware decisions for developer workflows"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-22"
+  - name: "dsh-vscode-workbench"
+    title: "dsh-vscode-workbench"
+    description: "DeepSeek Harness 的 VS Code 风格本地开发工作台：文件管理、Monaco 编辑、文档预览、搜索、Git、分屏终端与 DSH 对话一体化。"
+    language: "TypeScript"
+    topics:
+      - "agent"
+      - "deepseek-harness"
+      - "dsh"
+      - "dsh-plugin"
+      - "dsh-plugin-market"
+      - "vscode-theme"
+    stars_fact: 11
+    first_seen: null
+    last_push: "2026-09-01"
+  - name: "repo2career"
+    title: "repo2career"
+    description: "分析 GitHub 仓库、本地项目目录或 PDF，还原业务流程、技术选型、架构与调用链，生成适合简历、STAR 讲述和技术面试的可追溯报告。"
+    language: "Python"
+    topics: []
+    stars_fact: 5
+    first_seen: null
+    last_push: "2026-09-16"
 ---
 
 # tingfeng347

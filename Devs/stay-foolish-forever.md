@@ -8,11 +8,11 @@ provenance_repos:
   - "alibaba/open-code-review"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-24T15:17:54.275119+00:00"
+repos_populated: true
+generated_at: "2026-09-25T06:06:35.067653+00:00"
 provenance:
   - "c489e6fb5febf2ab"
-pushes_per_week: [2, 3, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [3, 2, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "agent-plugins"
+    title: "agent-plugins"
+    description: "Repository to test command and skills release"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-07-10"
+  - name: "ocr-action-test"
+    title: "ocr-action-test"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-07-09"
+  - name: "stay-foolish-forever"
+    title: "stay-foolish-forever"
+    description: "Some Important things about me"
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-06-30"
+  - name: "vscode-whac-a-hole"
+    title: "vscode-whac-a-hole"
+    description: "VSCode plugin that can display whac-a-hole game at the bottom of ui."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-06-24"
+  - name: "hello-go"
+    title: "hello-go"
+    description: "A CLI that can print hello-world"
+    language: "Go"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-05-28"
+  - name: "image-mirror"
+    title: "image-mirror"
+    description: null
+    language: "Dockerfile"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2024-07-15"
 ---
 
 # stay-foolish-forever

@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-24T15:17:54.275119+00:00"
+generated_at: "2026-09-25T06:06:35.067653+00:00"
 provenance:
   - "36da1b921f121c1d"
-pushes_per_week: [28, 29, 19, 9, 17, 6, 2, 1, 4, 1, 0, 6, 8]
+pushes_per_week: [35, 22, 23, 8, 17, 3, 2, 1, 4, 1, 2, 4, 12]
 windows:
   "7d":
-    pushes: 8
+    pushes: 12
     distinct_repos: 2
     active_days: 2
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 15
+    pushes: 19
     distinct_repos: 5
     active_days: 7
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 3
   "90d":
-    pushes: 130
+    pushes: 134
     distinct_repos: 12
     active_days: 36
     repos_not_owned: 8
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 3.6111
+  push_per_day: 3.7222
   repo_per_active_day: 0.3333
   not_owned_ratio: 0.6667
   basename_concentration: 0.1667
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 8
+    pushes: 12
     distinct_repos: 2
-    pushes_per_repo: 4.0000
+    pushes_per_repo: 6.0000
     active_days: 2
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 15
+    pushes: 19
     distinct_repos: 5
-    pushes_per_repo: 3.0000
+    pushes_per_repo: 3.8000
     active_days: 7
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 3
   "90d":
-    pushes: 130
+    pushes: 134
     distinct_repos: 12
-    pushes_per_repo: 10.8333
+    pushes_per_repo: 11.1667
     active_days: 36
     repos_not_owned: 8
     not_owned_basenames: 8
@@ -158,6 +158,6 @@ repos:
 
 # mattzcarey
 
-130 pushes across 12 repositories on 36 active days in the last 90 days of public GitHub push activity.
+134 pushes across 12 repositories on 36 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/mattzcarey

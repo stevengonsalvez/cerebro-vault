@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-24T15:17:54.275119+00:00"
+generated_at: "2026-09-25T06:06:35.067653+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [117, 193, 54, 106, 124, 28, 23, 14, 2, 0, 5, 14, 12]
+pushes_per_week: [141, 184, 49, 108, 119, 19, 30, 7, 2, 0, 6, 22, 3]
 windows:
   "7d":
-    pushes: 14
+    pushes: 12
     distinct_repos: 1
-    active_days: 3
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 692
+    pushes: 690
     distinct_repos: 14
-    active_days: 53
+    active_days: 52
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 13.0566
-  repo_per_active_day: 0.2642
+  push_per_day: 13.2692
+  repo_per_active_day: 0.2692
   not_owned_ratio: 0.0000
   basename_concentration: 0.1429
   shapes: []
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 14
+    pushes: 12
     distinct_repos: 1
-    pushes_per_repo: 14.0000
-    active_days: 3
+    pushes_per_repo: 12.0000
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 692
+    pushes: 690
     distinct_repos: 14
-    pushes_per_repo: 49.4286
-    active_days: 53
+    pushes_per_repo: 49.2857
+    active_days: 52
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 53 active days in 90d — pass"
+  - "activity: 52 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "armory"
@@ -152,6 +152,6 @@ repos:
 
 # Mathews-Tom
 
-692 pushes across 14 repositories on 53 active days in the last 90 days of public GitHub push activity.
+690 pushes across 14 repositories on 52 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Mathews-Tom

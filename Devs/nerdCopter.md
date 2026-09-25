@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-24T15:17:54.275119+00:00"
+generated_at: "2026-09-25T06:06:35.067653+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [23, 13, 13, 13, 20, 4, 9, 5, 0, 1, 3, 6, 9]
+pushes_per_week: [19, 19, 7, 18, 16, 3, 11, 3, 0, 1, 3, 9, 6]
 windows:
   "7d":
-    pushes: 10
-    distinct_repos: 7
-    active_days: 5
+    pushes: 8
+    distinct_repos: 6
+    active_days: 4
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 119
+    pushes: 115
     distinct_repos: 20
-    active_days: 45
+    active_days: 44
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 2.6444
-  repo_per_active_day: 0.4444
+  push_per_day: 2.6136
+  repo_per_active_day: 0.4545
   not_owned_ratio: 0.2500
   basename_concentration: 0.1000
   shapes: []
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 10
-    distinct_repos: 7
-    pushes_per_repo: 1.4286
-    active_days: 5
+    pushes: 8
+    distinct_repos: 6
+    pushes_per_repo: 1.3333
+    active_days: 4
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 119
+    pushes: 115
     distinct_repos: 20
-    pushes_per_repo: 5.9500
-    active_days: 45
+    pushes_per_repo: 5.7500
+    active_days: 44
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 45 active days in 90d — pass"
+  - "activity: 44 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "ELRS-Finder-Pro"
@@ -135,6 +135,6 @@ repos:
 
 # nerdCopter
 
-119 pushes across 20 repositories on 45 active days in the last 90 days of public GitHub push activity.
+115 pushes across 20 repositories on 44 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/nerdCopter

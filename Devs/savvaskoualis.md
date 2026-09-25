@@ -8,11 +8,11 @@ provenance_repos:
   - "chaitanyagiri/munder-difflin"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-24T15:17:54.275119+00:00"
+repos_populated: true
+generated_at: "2026-09-25T06:06:35.067653+00:00"
 provenance:
   - "e5b23adc376a62a9"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 11, 1, 3, 0, 0, 0, 1]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 12, 0, 3, 0, 0, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -76,7 +76,39 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "homebrew-tap"
+    title: "homebrew-tap"
+    description: "Homebrew tap for savvaskoualis tools"
+    language: "Ruby"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-22"
+  - name: "openfortitray"
+    title: "openfortitray"
+    description: "Cross-platform FortiGate SSL-VPN menu-bar client with SAML/SSO, auto-connect, and a native settings UI (macOS/Linux/Windows)"
+    language: "Go"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-09-22"
+  - name: "claude-lanes"
+    title: "claude-lanes"
+    description: "Lane-based parallel-plan workflow + standardised Claude Code setup"
+    language: "Shell"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-05-22"
+  - name: "react-native-crypto-util"
+    title: "react-native-crypto-util"
+    description: "A react-native library for ios/android to encrypt/decrypt using the AES GCM algorithm"
+    language: "Objective-C"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2020-10-11"
 ---
 
 # savvaskoualis

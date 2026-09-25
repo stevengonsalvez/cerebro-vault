@@ -8,11 +8,11 @@ provenance_repos:
   - "AstrBotDevs/AstrBot"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-24T15:17:54.275119+00:00"
+repos_populated: true
+generated_at: "2026-09-25T06:06:35.067653+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [2, 10, 6, 0, 3, 4, 7, 1, 0, 0, 0, 3, 16]
+pushes_per_week: [7, 6, 5, 1, 2, 5, 6, 1, 0, 0, 1, 5, 13]
 windows:
   "7d":
     pushes: 16
@@ -76,7 +76,88 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 25 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "wcqqq1214"
+    title: "wcqqq1214"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-25"
+  - name: "abceed-ai-translator"
+    title: "abceed-ai-translator"
+    description: "为 abceed 提供 AI 日文翻译、英文查词与发音、听力快捷键。"
+    language: "JavaScript"
+    topics:
+      - "abceed"
+      - "ai-translation"
+      - "tampermonkey"
+      - "toeic"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-23"
+  - name: "nanning-city-atlas"
+    title: "nanning-city-atlas"
+    description: "南宁三维地图，可以查看城市地标、旋转缩放和切换光照。使用 Three.js 和 Blender 制作。"
+    language: "Python"
+    topics:
+      - "3d-map"
+      - "blender"
+      - "geospatial"
+      - "guangxi"
+      - "nanning"
+      - "openstreetmap"
+      - "threejs"
+      - "typescript"
+      - "visualization"
+      - "webgl"
+    stars_fact: 5
+    first_seen: null
+    last_push: "2026-09-13"
+  - name: "gxu-campus-3d"
+    title: "gxu-campus-3d"
+    description: "广西大学主校区三维地图，支持地标搜索、自动巡游和昼夜切换。使用 Three.js 和 Blender 制作。"
+    language: "Python"
+    topics:
+      - "3d-campus"
+      - "blender"
+      - "guangxi-university"
+      - "gxu"
+      - "openstreetmap"
+      - "threejs"
+      - "virtual-tour"
+    stars_fact: 13
+    first_seen: null
+    last_push: "2026-09-21"
+  - name: "ragdoll-progress"
+    title: "ragdoll-progress"
+    description: "Fanqie the ragdoll on your video progress bar. A Chrome extension for YouTube, Bilibili, Douyin, and TikTok."
+    language: "JavaScript"
+    topics:
+      - "bilibili"
+      - "chrome-extension"
+      - "douyin"
+      - "progress-bar"
+      - "ragdoll-cat"
+      - "tiktok"
+      - "youtube"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-21"
+  - name: "fanqie-codex-pet"
+    title: "fanqie-codex-pet"
+    description: "A cute ragdoll cat Codex pet named Fanqie."
+    language: null
+    topics:
+      - "cat"
+      - "codex"
+      - "codex-pet"
+      - "ragdoll-cat"
+      - "sprite-sheet"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-21"
 ---
 
 # wcqqq1214

@@ -8,8 +8,8 @@ provenance_repos:
   - "apache/maka"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-24T15:17:54.275119+00:00"
+repos_populated: true
+generated_at: "2026-09-25T06:06:35.067653+00:00"
 provenance:
   - "4d1450729e6ff44d"
 pushes_per_week: [0, 0, 0, 0, 0, 1, 0, 0, 2, 0, 2, 2, 2]
@@ -76,7 +76,38 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "openapp"
+    title: "openapp"
+    description: "Open-source control plane for turning existing single-user web apps into independent multi-user workspaces through versioned Adapters."
+    language: "TypeScript"
+    topics:
+      - "adapters"
+      - "control-plane"
+      - "docker"
+      - "multi-user"
+      - "open-source"
+      - "openapp"
+      - "self-hosted"
+    stars_fact: 17
+    first_seen: null
+    last_push: "2026-09-24"
+  - name: "CreatPPT"
+    title: "CreatPPT"
+    description: "Agent-first web presentation workspace: turn briefs into editable slide decks and export native PPTX on demand."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 145
+    first_seen: null
+    last_push: "2026-08-27"
+  - name: "openos"
+    title: "openos"
+    description: "OpenOS is an open-source AI runtime where every app is generated in real time by large language models. Instead of installing software, users describe what they need, and OpenOS creates the interface, logic, and interactions on demand."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 18
+    first_seen: null
+    last_push: "2026-08-03"
 ---
 
 # seekskyworld

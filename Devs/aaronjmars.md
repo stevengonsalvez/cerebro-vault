@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-24T15:17:54.275119+00:00"
+generated_at: "2026-09-25T06:06:35.067653+00:00"
 provenance:
   - "9d67ce648f6a8919"
-pushes_per_week: [132, 114, 58, 48, 43, 18, 23, 19, 22, 8, 13, 23, 53]
+pushes_per_week: [169, 80, 56, 47, 41, 17, 25, 15, 24, 6, 15, 31, 44]
 windows:
   "7d":
-    pushes: 53
+    pushes: 54
     distinct_repos: 8
     active_days: 7
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
   "30d":
-    pushes: 103
+    pushes: 99
     distinct_repos: 12
-    active_days: 22
+    active_days: 21
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
   "90d":
-    pushes: 574
+    pushes: 570
     distinct_repos: 33
-    active_days: 80
+    active_days: 79
     repos_not_owned: 10
     not_owned_basenames: 7
     not_owned_owners: 5
 automation:
   state: "clear"
-  push_per_day: 7.1750
-  repo_per_active_day: 0.4125
+  push_per_day: 7.2152
+  repo_per_active_day: 0.4177
   not_owned_ratio: 0.3030
   basename_concentration: 0.1212
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 53
+    pushes: 54
     distinct_repos: 8
-    pushes_per_repo: 6.6250
+    pushes_per_repo: 6.7500
     active_days: 7
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
   "30d":
-    pushes: 103
+    pushes: 99
     distinct_repos: 12
-    pushes_per_repo: 8.5833
-    active_days: 22
+    pushes_per_repo: 8.2500
+    active_days: 21
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
   "90d":
-    pushes: 574
+    pushes: 570
     distinct_repos: 33
-    pushes_per_repo: 17.3939
-    active_days: 80
+    pushes_per_repo: 17.2727
+    active_days: 79
     repos_not_owned: 10
     not_owned_basenames: 7
     not_owned_owners: 5
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 80 active days in 90d — pass"
+  - "activity: 79 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "aeon-agent"
@@ -137,6 +137,6 @@ repos:
 
 # aaronjmars
 
-574 pushes across 33 repositories on 80 active days in the last 90 days of public GitHub push activity.
+570 pushes across 33 repositories on 79 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/aaronjmars

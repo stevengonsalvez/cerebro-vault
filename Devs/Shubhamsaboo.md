@@ -9,11 +9,11 @@ provenance_repos:
   - "Shubhamsaboo/awesome-llm-apps"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-24T15:17:54.275119+00:00"
+repos_populated: true
+generated_at: "2026-09-25T06:06:35.067653+00:00"
 provenance:
   - "fae31da6c227cfde"
-pushes_per_week: [0, 6, 1, 4, 2, 4, 4, 0, 0, 0, 0, 3, 2]
+pushes_per_week: [0, 7, 2, 2, 4, 2, 4, 0, 0, 0, 1, 2, 2]
 windows:
   "7d":
     pushes: 2
@@ -77,7 +77,59 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 15 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "awesome-llm-apps"
+    title: "awesome-llm-apps"
+    description: "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source."
+    language: "Python"
+    topics:
+      - "agents"
+      - "llms"
+      - "python"
+      - "rag"
+    stars_fact: 139688
+    first_seen: "2026-07-13T06:00:03.578926+00:00"
+    last_push: "2026-09-25"
+  - name: "repotovideo"
+    title: "repotovideo"
+    description: "Turn any GitHub repository into a promo video in just one-click"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 51
+    first_seen: null
+    last_push: "2026-02-20"
+  - name: "Shubhamsaboo"
+    title: "Shubhamsaboo"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 110
+    first_seen: null
+    last_push: "2026-09-09"
+  - name: "gemini-artboard"
+    title: "gemini-artboard"
+    description: "Self-contained creative coding playground for Gemini 3.1 Pro"
+    language: "HTML"
+    topics: []
+    stars_fact: 76
+    first_seen: null
+    last_push: "2026-02-20"
+  - name: "google-memorybank-plugin"
+    title: "google-memorybank-plugin"
+    description: "Vertex AI Memory Bank Plugin for OpenClaw"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 156
+    first_seen: null
+    last_push: "2026-09-13"
+  - name: "ai-teleprompter"
+    title: "ai-teleprompter"
+    description: "Voice-following teleprompter — browser + Gemini Live hybrid speech tracking, glass UI"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 12
+    first_seen: null
+    last_push: "2026-07-25"
 ---
 
 # Shubhamsaboo

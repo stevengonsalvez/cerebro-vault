@@ -8,8 +8,8 @@ provenance_repos:
   - "virgiliojr94/book-to-skill"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-24T15:17:54.275119+00:00"
+repos_populated: true
+generated_at: "2026-09-25T06:06:35.067653+00:00"
 provenance:
   - "16a73b8e53c5832a"
 pushes_per_week: [1, 1, 0, 1, 4, 2, 4, 2, 1, 0, 0, 2, 0]
@@ -76,7 +76,72 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 13 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "book-to-skill"
+    title: "book-to-skill"
+    description: "Turn any technical book PDF into a Claude Code skill — ready to study, reference, and use while you work."
+    language: "Python"
+    topics:
+      - "agent-skills"
+      - "ai-agents"
+      - "book-to-skill"
+      - "context-engineering"
+      - "document-processing"
+      - "edtech"
+      - "knowledge-base"
+      - "knowledge-management"
+      - "llm"
+      - "pdf-to-markdown"
+      - "rag"
+      - "self-study"
+      - "study-tools"
+    stars_fact: 32323
+    first_seen: "2026-08-15T06:00:05.480011+00:00"
+    last_push: "2026-09-22"
+  - name: "x-to-skill"
+    title: "x-to-skill"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 17
+    first_seen: null
+    last_push: "2026-08-27"
+  - name: "book-to-skill-use-cases"
+    title: "book-to-skill-use-cases"
+    description: "Community use cases for book-to-skill — one line here, the full account in the author's own Gist. No generated skills, no book content."
+    language: null
+    topics:
+      - "agent-skills"
+      - "book-to-skill"
+      - "showcase"
+      - "use-cases"
+    stars_fact: 16
+    first_seen: null
+    last_push: "2026-09-15"
+  - name: "virgiliojr94"
+    title: "virgiliojr94"
+    description: "my profile README"
+    language: null
+    topics: []
+    stars_fact: 5
+    first_seen: null
+    last_push: "2026-09-20"
+  - name: "iteam-2026-modulo04-atividade-final"
+    title: "iteam-2026-modulo04-atividade-final"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-16"
+  - name: "localpdf.io"
+    title: "localpdf.io"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 273
+    first_seen: null
+    last_push: "2026-05-11"
 ---
 
 # virgiliojr94

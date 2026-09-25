@@ -9,13 +9,13 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-24T15:17:54.275119+00:00"
+generated_at: "2026-09-25T06:06:35.067653+00:00"
 provenance:
   - "c1af6b58492f9bf4"
-pushes_per_week: [54, 103, 13, 20, 8, 34, 6, 8, 2, 0, 16, 31, 37]
+pushes_per_week: [59, 96, 16, 17, 11, 31, 7, 7, 2, 0, 16, 34, 34]
 windows:
   "7d":
-    pushes: 37
+    pushes: 35
     distinct_repos: 30
     active_days: 7
     repos_not_owned: 28
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 8
     not_owned_owners: 46
   "90d":
-    pushes: 332
+    pushes: 330
     distinct_repos: 82
-    active_days: 56
+    active_days: 55
     repos_not_owned: 52
     not_owned_basenames: 13
     not_owned_owners: 52
 automation:
   state: "clear"
-  push_per_day: 5.9286
-  repo_per_active_day: 1.4643
+  push_per_day: 6.0000
+  repo_per_active_day: 1.4909
   not_owned_ratio: 0.6341
   basename_concentration: 0.5000
   shapes: []
@@ -49,9 +49,9 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 37
+    pushes: 35
     distinct_repos: 30
-    pushes_per_repo: 1.2333
+    pushes_per_repo: 1.1667
     active_days: 7
     repos_not_owned: 28
     not_owned_basenames: 3
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 8
     not_owned_owners: 46
   "90d":
-    pushes: 332
+    pushes: 330
     distinct_repos: 82
-    pushes_per_repo: 4.0488
-    active_days: 56
+    pushes_per_repo: 4.0244
+    active_days: 55
     repos_not_owned: 52
     not_owned_basenames: 13
     not_owned_owners: 52
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 56 active days in 90d — pass"
+  - "activity: 55 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "itinerant-tester"
@@ -135,6 +135,6 @@ repos:
 
 # cclauss
 
-332 pushes across 82 repositories on 56 active days in the last 90 days of public GitHub push activity.
+330 pushes across 82 repositories on 55 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/cclauss

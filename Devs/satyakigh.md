@@ -8,11 +8,11 @@ provenance_repos:
   - "aws/agent-toolkit-for-aws"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-24T15:17:54.275119+00:00"
+repos_populated: true
+generated_at: "2026-09-25T06:06:35.067653+00:00"
 provenance:
   - "a50b0e08dbaee74a"
-pushes_per_week: [30, 32, 21, 10, 10, 3, 13, 8, 3, 1, 2, 5, 4]
+pushes_per_week: [30, 36, 14, 11, 9, 5, 12, 7, 4, 0, 3, 5, 3]
 windows:
   "7d":
     pushes: 4
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 13
+    pushes: 12
     distinct_repos: 4
-    active_days: 10
+    active_days: 9
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 142
+    pushes: 139
     distinct_repos: 8
-    active_days: 47
+    active_days: 46
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 3.0213
-  repo_per_active_day: 0.1702
+  push_per_day: 3.0217
+  repo_per_active_day: 0.1739
   not_owned_ratio: 0.2500
   basename_concentration: 0.1250
   shapes: []
@@ -57,30 +57,30 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 13
+    pushes: 12
     distinct_repos: 4
-    pushes_per_repo: 3.2500
-    active_days: 10
+    pushes_per_repo: 3.0000
+    active_days: 9
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 142
+    pushes: 139
     distinct_repos: 8
-    pushes_per_repo: 17.7500
-    active_days: 47
+    pushes_per_repo: 17.3750
+    active_days: 46
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 47 active days in 90d — pass"
+  - "activity: 46 active days in 90d — pass"
   - "automation: clear — pass"
 repos: []
 ---
 
 # satyakigh
 
-142 pushes across 8 repositories on 47 active days in the last 90 days of public GitHub push activity.
+139 pushes across 8 repositories on 46 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/satyakigh

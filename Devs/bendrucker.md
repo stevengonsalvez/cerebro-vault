@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-24T15:17:54.275119+00:00"
+generated_at: "2026-09-25T06:06:35.067653+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [61, 64, 43, 17, 26, 19, 18, 7, 4, 1, 9, 7, 33]
+pushes_per_week: [70, 62, 39, 21, 20, 21, 16, 6, 5, 0, 9, 12, 29]
 windows:
   "7d":
-    pushes: 34
+    pushes: 33
     distinct_repos: 2
-    active_days: 5
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 53
-    distinct_repos: 5
-    active_days: 14
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 51
+    distinct_repos: 3
+    active_days: 12
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
-    pushes: 309
+    pushes: 310
     distinct_repos: 26
     active_days: 54
     repos_not_owned: 5
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 5.7222
+  push_per_day: 5.7407
   repo_per_active_day: 0.4815
   not_owned_ratio: 0.1923
   basename_concentration: 0.0385
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 34
+    pushes: 33
     distinct_repos: 2
-    pushes_per_repo: 17.0000
-    active_days: 5
+    pushes_per_repo: 16.5000
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 53
-    distinct_repos: 5
-    pushes_per_repo: 10.6000
-    active_days: 14
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 51
+    distinct_repos: 3
+    pushes_per_repo: 17.0000
+    active_days: 12
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
-    pushes: 309
+    pushes: 310
     distinct_repos: 26
-    pushes_per_repo: 11.8846
+    pushes_per_repo: 11.9231
     active_days: 54
     repos_not_owned: 5
     not_owned_basenames: 5
@@ -131,6 +131,6 @@ repos:
 
 # bendrucker
 
-309 pushes across 26 repositories on 54 active days in the last 90 days of public GitHub push activity.
+310 pushes across 26 repositories on 54 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/bendrucker

@@ -8,11 +8,11 @@ provenance_repos:
   - "affaan-m/ECC"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+repos_populated: true
+generated_at: "2026-09-25T06:06:35.067653+00:00"
 provenance:
   - "edb3a626875732de"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 12]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 11]
 windows:
   "7d":
     pushes: 12
@@ -76,7 +76,44 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "phase2-E2"
+    title: "phase2-E2"
+    description: null
+    language: "C"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-22"
+  - name: "if-ai"
+    title: "if-ai"
+    description: "Plain-English pull request checks powered by Jev. One condition, a minimum confidence, one check."
+    language: "TypeScript"
+    topics:
+      - "ai"
+      - "continuous-integration"
+      - "github-actions"
+      - "jev"
+      - "typescript"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-20"
+  - name: "S1-Navigation-PyQT-GUI"
+    title: "S1-Navigation-PyQT-GUI"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-17"
+  - name: "S2-Loop"
+    title: "S2-Loop"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-15"
 ---
 
 # Victor-Casado

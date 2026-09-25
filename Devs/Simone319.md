@@ -8,11 +8,11 @@ provenance_repos:
   - "aws/agent-toolkit-for-aws"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-24T15:17:54.275119+00:00"
+repos_populated: true
+generated_at: "2026-09-25T06:06:35.067653+00:00"
 provenance:
   - "a50b0e08dbaee74a"
-pushes_per_week: [13, 4, 1, 0, 1, 0, 4, 0, 0, 0, 1, 0, 1]
+pushes_per_week: [14, 3, 1, 0, 1, 0, 4, 0, 0, 0, 1, 1, 0]
 windows:
   "7d":
     pushes: 1
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 14 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "amplify-gen1-migration-tool-product-catalog"
+    title: "amplify-gen1-migration-tool-product-catalog"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-01-19"
+  - name: "amplify-gen1-app"
+    title: "amplify-gen1-app"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-01-06"
+  - name: "property-listing-platform"
+    title: "property-listing-platform"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2025-11-21"
+  - name: "amplify-mcp-kiro-demo"
+    title: "amplify-mcp-kiro-demo"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2025-11-20"
+  - name: "amplify-studio-ui-builder-demo"
+    title: "amplify-studio-ui-builder-demo"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2025-08-11"
+  - name: "dynamodb-to-aurora"
+    title: "dynamodb-to-aurora"
+    description: "DynamoDB to Aurora data migration solution"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2022-11-06"
 ---
 
 # Simone319

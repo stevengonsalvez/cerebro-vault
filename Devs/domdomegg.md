@@ -10,11 +10,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-24T15:17:54.275119+00:00"
+generated_at: "2026-09-25T06:06:35.067653+00:00"
 provenance:
   - "379642deb53f3714"
   - "533d51d9d3dea76f"
-pushes_per_week: [28, 29, 3, 5, 9, 0, 6, 1, 4, 0, 1, 1, 0]
+pushes_per_week: [30, 28, 1, 8, 6, 0, 6, 1, 4, 0, 1, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -31,16 +31,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 87
+    pushes: 86
     distinct_repos: 37
-    active_days: 20
+    active_days: 19
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 4.3500
-  repo_per_active_day: 1.8500
+  push_per_day: 4.5263
+  repo_per_active_day: 1.9474
   not_owned_ratio: 0.0541
   basename_concentration: 0.0541
   shapes: []
@@ -67,16 +67,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 87
+    pushes: 86
     distinct_repos: 37
-    pushes_per_repo: 2.3514
-    active_days: 20
+    pushes_per_repo: 2.3243
+    active_days: 19
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 20 active days in 90d — pass"
+  - "activity: 19 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "computer-use-mcp"
@@ -136,6 +136,6 @@ repos:
 
 # domdomegg
 
-87 pushes across 37 repositories on 20 active days in the last 90 days of public GitHub push activity.
+86 pushes across 37 repositories on 19 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/domdomegg

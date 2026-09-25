@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-24T15:17:54.275119+00:00"
+generated_at: "2026-09-25T06:06:35.067653+00:00"
 provenance:
   - "01cd6a498d377caf"
   - "03604cccd7e9402d"
@@ -30,6 +30,7 @@ provenance:
   - "354f1b8cfb3f00d1"
   - "3a85fe237099d686"
   - "3c042057ca5b7cce"
+  - "3f132fb2c563cba4"
   - "3f88ef2405b8fae7"
   - "44423c0a85b4d691"
   - "557818547b5e5732"
@@ -44,6 +45,7 @@ provenance:
   - "85ddda4d481a7d84"
   - "860864df5583b9ff"
   - "8eafdf1e65e79a0b"
+  - "8f9e2f8ba8bd1533"
   - "93601d11e4db33a8"
   - "a3ec5261dfb4f2cd"
   - "b56da077d21ad4f4"
@@ -58,7 +60,7 @@ provenance:
   - "f672838de330e86f"
   - "f9a1870648a6375a"
   - "fe9e50bf2d5b21fe"
-pushes_per_week: [31, 14, 12, 6, 6, 2, 1, 1, 7, 0, 0, 3, 1]
+pushes_per_week: [20, 14, 11, 6, 5, 2, 1, 2, 6, 0, 0, 3, 1]
 windows:
   "7d":
     pushes: 1
@@ -68,23 +70,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 5
+    pushes: 4
     distinct_repos: 1
-    active_days: 5
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 84
+    pushes: 71
     distinct_repos: 3
-    active_days: 38
+    active_days: 37
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.2105
-  repo_per_active_day: 0.0789
+  push_per_day: 1.9189
+  repo_per_active_day: 0.0811
   not_owned_ratio: 0.0000
   basename_concentration: 0.3333
   shapes: []
@@ -103,24 +105,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 5
+    pushes: 4
     distinct_repos: 1
-    pushes_per_repo: 5.0000
-    active_days: 5
+    pushes_per_repo: 4.0000
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 84
+    pushes: 71
     distinct_repos: 3
-    pushes_per_repo: 28.0000
-    active_days: 38
+    pushes_per_repo: 23.6667
+    active_days: 37
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
-  - "provenance: 47 vault signal(s) — pass"
-  - "activity: 38 active days in 90d — pass"
+  - "provenance: 49 vault signal(s) — pass"
+  - "activity: 37 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "pi-bites"
@@ -178,6 +180,6 @@ repos:
 
 # jamestrew
 
-84 pushes across 3 repositories on 38 active days in the last 90 days of public GitHub push activity.
+71 pushes across 3 repositories on 37 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/jamestrew

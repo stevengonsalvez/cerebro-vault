@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-24T15:17:54.275119+00:00"
+generated_at: "2026-09-25T06:06:35.067653+00:00"
 provenance:
   - "379642deb53f3714"
-pushes_per_week: [30, 0, 0, 3, 1, 8, 10, 1, 0, 3, 0, 10, 3]
+pushes_per_week: [19, 0, 0, 3, 2, 7, 11, 0, 1, 2, 2, 9, 3]
 windows:
   "7d":
     pushes: 4
@@ -22,25 +22,25 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 16
-    distinct_repos: 8
-    active_days: 10
+    pushes: 17
+    distinct_repos: 9
+    active_days: 11
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 69
-    distinct_repos: 18
+    pushes: 59
+    distinct_repos: 16
     active_days: 28
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.4643
-  repo_per_active_day: 0.6429
-  not_owned_ratio: 0.0556
-  basename_concentration: 0.0556
+  push_per_day: 2.1071
+  repo_per_active_day: 0.5714
+  not_owned_ratio: 0.0625
+  basename_concentration: 0.0625
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -57,17 +57,17 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 16
-    distinct_repos: 8
-    pushes_per_repo: 2.0000
-    active_days: 10
+    pushes: 17
+    distinct_repos: 9
+    pushes_per_repo: 1.8889
+    active_days: 11
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 69
-    distinct_repos: 18
-    pushes_per_repo: 3.8333
+    pushes: 59
+    distinct_repos: 16
+    pushes_per_repo: 3.6875
     active_days: 28
     repos_not_owned: 1
     not_owned_basenames: 1
@@ -129,6 +129,6 @@ repos:
 
 # madskristensen
 
-69 pushes across 18 repositories on 28 active days in the last 90 days of public GitHub push activity.
+59 pushes across 16 repositories on 28 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/madskristensen

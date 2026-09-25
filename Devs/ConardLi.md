@@ -3,14 +3,13 @@ login: "ConardLi"
 name: null
 discovered_via: "vault"
 discovered_via_all:
-  - "fanout"
   - "vault"
 provenance_repos:
   - "ConardLi/garden-skills"
 admitted: true
 low_n: true
 repos_populated: true
-generated_at: "2026-09-24T15:17:54.275119+00:00"
+generated_at: "2026-09-25T06:06:35.067653+00:00"
 provenance:
   - "593d8a1dc9504a09"
 pushes_per_week: [2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]

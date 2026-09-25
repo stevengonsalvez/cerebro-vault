@@ -8,11 +8,11 @@ provenance_repos:
   - "alibaba/open-code-review"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-24T15:17:54.275119+00:00"
+repos_populated: true
+generated_at: "2026-09-25T06:06:35.067653+00:00"
 provenance:
   - "c489e6fb5febf2ab"
-pushes_per_week: [16, 23, 4, 7, 10, 1, 14, 8, 2, 0, 1, 1, 6]
+pushes_per_week: [20, 20, 4, 7, 9, 2, 14, 7, 2, 0, 1, 4, 3]
 windows:
   "7d":
     pushes: 6
@@ -76,7 +76,49 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 40 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "atri-signin"
+    title: "atri-signin"
+    description: "Sign in and claim rewards on Atrishop automatically"
+    language: "Go"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-24"
+  - name: "wu21-web"
+    title: "wu21-web"
+    description: "wu21-web's ReadMe"
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-25"
+  - name: "gh-pfp"
+    title: "gh-pfp"
+    description: "Github Style Profile Picture Generator + API + Web + Command Line"
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-08"
+  - name: "authcore"
+    title: "authcore"
+    description: "Core of an authenticator on the command line."
+    language: "Go"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-23"
+  - name: "homebrew-tap"
+    title: "homebrew-tap"
+    description: "Self-hosted homebrew tap repository for Pixeval!"
+    language: "Ruby"
+    topics:
+      - "homebrew-tap"
+      - "pixeval"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-07-29"
 ---
 
 # wu21-web

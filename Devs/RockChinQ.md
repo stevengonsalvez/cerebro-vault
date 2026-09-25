@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-24T15:17:54.275119+00:00"
+generated_at: "2026-09-25T06:06:35.067653+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [26, 7, 13, 17, 5, 2, 1, 1, 0, 0, 0, 2, 7]
+pushes_per_week: [29, 3, 17, 15, 3, 3, 1, 0, 0, 0, 0, 3, 6]
 windows:
   "7d":
-    pushes: 7
+    pushes: 6
     distinct_repos: 4
-    active_days: 5
+    active_days: 4
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 1
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 4
     not_owned_owners: 1
   "90d":
-    pushes: 81
+    pushes: 80
     distinct_repos: 15
-    active_days: 35
+    active_days: 34
     repos_not_owned: 10
     not_owned_basenames: 9
     not_owned_owners: 4
 automation:
   state: "clear"
-  push_per_day: 2.3143
-  repo_per_active_day: 0.4286
+  push_per_day: 2.3529
+  repo_per_active_day: 0.4412
   not_owned_ratio: 0.6667
   basename_concentration: 0.1333
   shapes: []
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 7
+    pushes: 6
     distinct_repos: 4
-    pushes_per_repo: 1.7500
-    active_days: 5
+    pushes_per_repo: 1.5000
+    active_days: 4
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 1
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 4
     not_owned_owners: 1
   "90d":
-    pushes: 81
+    pushes: 80
     distinct_repos: 15
-    pushes_per_repo: 5.4000
-    active_days: 35
+    pushes_per_repo: 5.3333
+    active_days: 34
     repos_not_owned: 10
     not_owned_basenames: 9
     not_owned_owners: 4
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 35 active days in 90d — pass"
+  - "activity: 34 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "free-one-api"
@@ -154,6 +154,6 @@ repos:
 
 # RockChinQ
 
-81 pushes across 15 repositories on 35 active days in the last 90 days of public GitHub push activity.
+80 pushes across 15 repositories on 34 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/RockChinQ

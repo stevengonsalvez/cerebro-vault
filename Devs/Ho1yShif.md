@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-24T15:17:54.275119+00:00"
+generated_at: "2026-09-25T06:06:35.067653+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [11, 23, 8, 28, 13, 7, 1, 7, 0, 0, 0, 1, 3]
+pushes_per_week: [12, 21, 6, 29, 12, 7, 5, 3, 0, 0, 1, 2, 1]
 windows:
   "7d":
     pushes: 3
@@ -29,7 +29,7 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 102
+    pushes: 99
     distinct_repos: 29
     active_days: 33
     repos_not_owned: 11
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 3.0909
+  push_per_day: 3.0000
   repo_per_active_day: 0.8788
   not_owned_ratio: 0.3793
   basename_concentration: 0.0690
@@ -65,9 +65,9 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 102
+    pushes: 99
     distinct_repos: 29
-    pushes_per_repo: 3.5172
+    pushes_per_repo: 3.4138
     active_days: 33
     repos_not_owned: 11
     not_owned_basenames: 11
@@ -129,6 +129,6 @@ repos:
 
 # Ho1yShif
 
-102 pushes across 29 repositories on 33 active days in the last 90 days of public GitHub push activity.
+99 pushes across 29 repositories on 33 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Ho1yShif

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-24T15:17:54.275119+00:00"
+generated_at: "2026-09-25T06:06:35.067653+00:00"
 provenance:
   - "2d6ba8fc0269fd52"
-pushes_per_week: [16, 8, 8, 7, 8, 6, 4, 3, 0, 0, 0, 0, 2]
+pushes_per_week: [16, 6, 8, 7, 9, 6, 3, 3, 0, 0, 0, 0, 2]
 windows:
   "7d":
     pushes: 2
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 62
+    pushes: 60
     distinct_repos: 22
-    active_days: 32
+    active_days: 31
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.9375
-  repo_per_active_day: 0.6875
+  push_per_day: 1.9355
+  repo_per_active_day: 0.7097
   not_owned_ratio: 0.0455
   basename_concentration: 0.0455
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 62
+    pushes: 60
     distinct_repos: 22
-    pushes_per_repo: 2.8182
-    active_days: 32
+    pushes_per_repo: 2.7273
+    active_days: 31
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 32 active days in 90d — pass"
+  - "activity: 31 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "Quant-BETA-convulsions-"
@@ -129,6 +129,6 @@ repos:
 
 # aromal-a
 
-62 pushes across 22 repositories on 32 active days in the last 90 days of public GitHub push activity.
+60 pushes across 22 repositories on 31 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/aromal-a

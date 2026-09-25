@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-24T15:17:54.275119+00:00"
+generated_at: "2026-09-25T06:06:35.067653+00:00"
 provenance:
   - "745308b2b7085095"
-pushes_per_week: [8, 16, 0, 0, 3, 4, 1, 0, 1, 0, 0, 1, 0]
+pushes_per_week: [11, 12, 0, 2, 4, 1, 1, 0, 1, 0, 0, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 34
+    pushes: 33
     distinct_repos: 10
-    active_days: 14
+    active_days: 13
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.4286
-  repo_per_active_day: 0.7143
+  push_per_day: 2.5385
+  repo_per_active_day: 0.7692
   not_owned_ratio: 0.1000
   basename_concentration: 0.2000
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 34
+    pushes: 33
     distinct_repos: 10
-    pushes_per_repo: 3.4000
-    active_days: 14
+    pushes_per_repo: 3.3000
+    active_days: 13
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 14 active days in 90d — pass"
+  - "activity: 13 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "kapunahelewong.github.io"
@@ -131,6 +131,6 @@ repos:
 
 # kapunahelewong
 
-34 pushes across 10 repositories on 14 active days in the last 90 days of public GitHub push activity.
+33 pushes across 10 repositories on 13 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/kapunahelewong

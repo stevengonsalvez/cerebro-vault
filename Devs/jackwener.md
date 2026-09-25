@@ -10,36 +10,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-24T15:17:54.275119+00:00"
+generated_at: "2026-09-25T06:06:35.067653+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [24, 28, 12, 23, 9, 14, 53, 0, 15, 0, 0, 0, 5]
+pushes_per_week: [39, 13, 14, 22, 11, 11, 53, 0, 15, 0, 0, 0, 6]
 windows:
   "7d":
-    pushes: 5
+    pushes: 6
     distinct_repos: 1
-    active_days: 3
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 5
+    pushes: 6
     distinct_repos: 1
-    active_days: 3
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 183
+    pushes: 184
     distinct_repos: 20
-    active_days: 36
+    active_days: 37
     repos_not_owned: 15
     not_owned_basenames: 4
     not_owned_owners: 14
 automation:
   state: "clear"
-  push_per_day: 5.0833
-  repo_per_active_day: 0.5556
+  push_per_day: 4.9730
+  repo_per_active_day: 0.5405
   not_owned_ratio: 0.7500
   basename_concentration: 0.6000
   shapes:
@@ -66,32 +66,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 5
+    pushes: 6
     distinct_repos: 1
-    pushes_per_repo: 5.0000
-    active_days: 3
+    pushes_per_repo: 6.0000
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 5
+    pushes: 6
     distinct_repos: 1
-    pushes_per_repo: 5.0000
-    active_days: 3
+    pushes_per_repo: 6.0000
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 183
+    pushes: 184
     distinct_repos: 20
-    pushes_per_repo: 9.1500
-    active_days: 36
+    pushes_per_repo: 9.2000
+    active_days: 37
     repos_not_owned: 15
     not_owned_basenames: 4
     not_owned_owners: 14
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 36 active days in 90d — pass"
+  - "activity: 37 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "opencli-mcp"
@@ -153,6 +153,6 @@ repos:
 
 # jackwener
 
-183 pushes across 20 repositories on 36 active days in the last 90 days of public GitHub push activity.
+184 pushes across 20 repositories on 37 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/jackwener

@@ -8,11 +8,11 @@ provenance_repos:
   - "antirez/ds4"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-24T15:17:54.275119+00:00"
+repos_populated: true
+generated_at: "2026-09-25T06:06:35.067653+00:00"
 provenance:
   - "3eacb4655aba2497"
-pushes_per_week: [4, 0, 0, 10, 0, 0, 1, 1, 0, 0, 1, 4, 1]
+pushes_per_week: [4, 0, 0, 10, 0, 1, 1, 0, 0, 0, 1, 4, 1]
 windows:
   "7d":
     pushes: 1
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 11 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "free-agent"
+    title: "free-agent"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-24"
+  - name: "jev-browser"
+    title: "jev-browser"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-20"
+  - name: "agenthook"
+    title: "agenthook"
+    description: "A webhook inbox for coding agents. Runs locally & remotely."
+    language: "JavaScript"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-09-18"
+  - name: "skyfallsin.github.io"
+    title: "skyfallsin.github.io"
+    description: null
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-15"
+  - name: "flyiverse"
+    title: "flyiverse"
+    description: null
+    language: "Astro"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-10"
+  - name: "pi-projects"
+    title: "pi-projects"
+    description: "Self-contained project directories for the pi coding agent"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-10"
 ---
 
 # skyfallsin

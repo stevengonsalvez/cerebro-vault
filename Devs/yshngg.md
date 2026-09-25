@@ -8,11 +8,11 @@ provenance_repos:
   - "ChromeDevTools/chrome-devtools-mcp"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-24T15:17:54.275119+00:00"
+repos_populated: true
+generated_at: "2026-09-25T06:06:35.067653+00:00"
 provenance:
   - "379642deb53f3714"
-pushes_per_week: [30, 3, 26, 4, 2, 2, 0, 1, 0, 0, 0, 1, 1]
+pushes_per_week: [29, 3, 26, 4, 2, 2, 0, 1, 0, 0, 0, 1, 1]
 windows:
   "7d":
     pushes: 1
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 70
+    pushes: 69
     distinct_repos: 6
-    active_days: 18
+    active_days: 17
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 3.8889
-  repo_per_active_day: 0.3333
+  push_per_day: 4.0588
+  repo_per_active_day: 0.3529
   not_owned_ratio: 0.0000
   basename_concentration: 0.1667
   shapes: []
@@ -65,22 +65,70 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 70
+    pushes: 69
     distinct_repos: 6
-    pushes_per_repo: 11.6667
-    active_days: 18
+    pushes_per_repo: 11.5000
+    active_days: 17
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 18 active days in 90d — pass"
+  - "activity: 17 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "knowledge-base"
+    title: "knowledge-base"
+    description: "Yusheng's personal knowledge base."
+    language: "Shell"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-22"
+  - name: "knowledge-base-website"
+    title: "knowledge-base-website"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-22"
+  - name: "memstress"
+    title: "memstress"
+    description: null
+    language: "C"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-14"
+  - name: "metrics"
+    title: "metrics"
+    description: "Kubernetes metrics API type definitions and clients."
+    language: "Go"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-04"
+  - name: "tools"
+    title: "tools"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-04"
+  - name: "portainer-stacks"
+    title: "portainer-stacks"
+    description: "A collection of Portainer Stacks for GitOps."
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-04"
 ---
 
 # yshngg
 
-70 pushes across 6 repositories on 18 active days in the last 90 days of public GitHub push activity.
+69 pushes across 6 repositories on 17 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/yshngg

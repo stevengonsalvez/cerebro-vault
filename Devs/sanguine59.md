@@ -8,11 +8,11 @@ provenance_repos:
   - "abhigyanpatwari/GitNexus"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-24T15:17:54.275119+00:00"
+repos_populated: true
+generated_at: "2026-09-25T06:06:35.067653+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [1, 3, 2, 3, 0, 1, 0, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [1, 3, 5, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "glass"
+    title: "glass"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-14"
+  - name: "RMresnet"
+    title: "RMresnet"
+    description: null
+    language: "Jupyter Notebook"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-30"
+  - name: "nimbrosa"
+    title: "nimbrosa"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-03"
+  - name: "letmeholditdown"
+    title: "letmeholditdown"
+    description: null
+    language: "C"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-07-26"
+  - name: "wukwembege"
+    title: "wukwembege"
+    description: null
+    language: "Dart"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-06-29"
+  - name: "ghlistend"
+    title: "ghlistend"
+    description: "A headless GitHub notifications daemon for Linux (coming soon for Windows & Mac). Polls the GitHub Notifications REST API and dispatches native toasts via D-Bus. No UI, no tray icon — just a background service you wire into systemd and forget about."
+    language: "Go"
+    topics: []
+    stars_fact: 5
+    first_seen: null
+    last_push: "2026-06-22"
 ---
 
 # sanguine59

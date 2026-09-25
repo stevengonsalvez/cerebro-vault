@@ -21,7 +21,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-24T15:17:54.275119+00:00"
+generated_at: "2026-09-25T06:06:35.067653+00:00"
 provenance:
   - "0726bc457d4dcf89"
   - "1be978947e68d1f2"
@@ -37,18 +37,18 @@ provenance:
   - "d61fc285c7155696"
   - "e76a6eae5d38637b"
   - "e7c647c4d0689526"
-pushes_per_week: [12, 61, 25, 5, 24, 12, 19, 2, 2, 0, 1, 9, 6]
+pushes_per_week: [15, 58, 26, 4, 25, 10, 21, 1, 1, 0, 2, 8, 7]
 windows:
   "7d":
-    pushes: 6
-    distinct_repos: 5
+    pushes: 7
+    distinct_repos: 6
     active_days: 3
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
   "30d":
-    pushes: 16
-    distinct_repos: 8
+    pushes: 17
+    distinct_repos: 9
     active_days: 8
     repos_not_owned: 3
     not_owned_basenames: 3
@@ -56,14 +56,14 @@ windows:
   "90d":
     pushes: 178
     distinct_repos: 41
-    active_days: 48
+    active_days: 47
     repos_not_owned: 11
     not_owned_basenames: 10
     not_owned_owners: 4
 automation:
   state: "clear"
-  push_per_day: 3.7083
-  repo_per_active_day: 0.8542
+  push_per_day: 3.7872
+  repo_per_active_day: 0.8723
   not_owned_ratio: 0.2683
   basename_concentration: 0.0732
   shapes: []
@@ -74,17 +74,17 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 6
-    distinct_repos: 5
-    pushes_per_repo: 1.2000
+    pushes: 7
+    distinct_repos: 6
+    pushes_per_repo: 1.1667
     active_days: 3
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
   "30d":
-    pushes: 16
-    distinct_repos: 8
-    pushes_per_repo: 2.0000
+    pushes: 17
+    distinct_repos: 9
+    pushes_per_repo: 1.8889
     active_days: 8
     repos_not_owned: 3
     not_owned_basenames: 3
@@ -93,13 +93,13 @@ facets:
     pushes: 178
     distinct_repos: 41
     pushes_per_repo: 4.3415
-    active_days: 48
+    active_days: 47
     repos_not_owned: 11
     not_owned_basenames: 10
     not_owned_owners: 4
 reasons:
   - "provenance: 14 vault signal(s) — pass"
-  - "activity: 48 active days in 90d — pass"
+  - "activity: 47 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "scrape-florida-outages"
@@ -170,6 +170,6 @@ repos:
 
 # simonw
 
-178 pushes across 41 repositories on 48 active days in the last 90 days of public GitHub push activity.
+178 pushes across 41 repositories on 47 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/simonw

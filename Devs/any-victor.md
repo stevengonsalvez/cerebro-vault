@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-24T15:17:54.275119+00:00"
+generated_at: "2026-09-25T06:06:35.067653+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [2, 11, 18, 42, 0, 14, 13, 17, 16, 0, 1, 6, 7]
+pushes_per_week: [2, 17, 27, 27, 0, 15, 12, 17, 16, 0, 1, 6, 10]
 windows:
   "7d":
-    pushes: 7
-    distinct_repos: 5
-    active_days: 2
-    repos_not_owned: 5
-    not_owned_basenames: 5
+    pushes: 10
+    distinct_repos: 7
+    active_days: 3
+    repos_not_owned: 7
+    not_owned_basenames: 7
     not_owned_owners: 1
   "30d":
-    pushes: 14
-    distinct_repos: 8
-    active_days: 5
-    repos_not_owned: 8
-    not_owned_basenames: 8
+    pushes: 17
+    distinct_repos: 10
+    active_days: 6
+    repos_not_owned: 10
+    not_owned_basenames: 10
     not_owned_owners: 1
   "90d":
-    pushes: 147
-    distinct_repos: 21
-    active_days: 34
-    repos_not_owned: 19
-    not_owned_basenames: 18
+    pushes: 150
+    distinct_repos: 23
+    active_days: 35
+    repos_not_owned: 21
+    not_owned_basenames: 20
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 4.3235
-  repo_per_active_day: 0.6176
-  not_owned_ratio: 0.9048
-  basename_concentration: 0.0952
+  push_per_day: 4.2857
+  repo_per_active_day: 0.6571
+  not_owned_ratio: 0.9130
+  basename_concentration: 0.0870
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,38 +49,38 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 7
-    distinct_repos: 5
-    pushes_per_repo: 1.4000
-    active_days: 2
-    repos_not_owned: 5
-    not_owned_basenames: 5
+    pushes: 10
+    distinct_repos: 7
+    pushes_per_repo: 1.4286
+    active_days: 3
+    repos_not_owned: 7
+    not_owned_basenames: 7
     not_owned_owners: 1
   "30d":
-    pushes: 14
-    distinct_repos: 8
-    pushes_per_repo: 1.7500
-    active_days: 5
-    repos_not_owned: 8
-    not_owned_basenames: 8
+    pushes: 17
+    distinct_repos: 10
+    pushes_per_repo: 1.7000
+    active_days: 6
+    repos_not_owned: 10
+    not_owned_basenames: 10
     not_owned_owners: 1
   "90d":
-    pushes: 147
-    distinct_repos: 21
-    pushes_per_repo: 7.0000
-    active_days: 34
-    repos_not_owned: 19
-    not_owned_basenames: 18
+    pushes: 150
+    distinct_repos: 23
+    pushes_per_repo: 6.5217
+    active_days: 35
+    repos_not_owned: 21
+    not_owned_basenames: 20
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 34 active days in 90d — pass"
+  - "activity: 35 active days in 90d — pass"
   - "automation: clear — pass"
 repos: []
 ---
 
 # any-victor
 
-147 pushes across 21 repositories on 34 active days in the last 90 days of public GitHub push activity.
+150 pushes across 23 repositories on 35 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/any-victor

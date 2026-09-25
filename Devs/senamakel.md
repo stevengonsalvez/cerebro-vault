@@ -8,39 +8,39 @@ provenance_repos:
   - "tinyhumansai/openhuman"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-24T15:17:54.275119+00:00"
+repos_populated: true
+generated_at: "2026-09-25T06:06:35.067653+00:00"
 provenance:
   - "8ed2cce02536b2fa"
-pushes_per_week: [82, 193, 91, 103, 58, 51, 121, 35, 58, 8, 6, 64, 171]
+pushes_per_week: [91, 187, 86, 116, 47, 52, 129, 22, 61, 5, 12, 92, 150]
 windows:
   "7d":
-    pushes: 177
-    distinct_repos: 32
+    pushes: 182
+    distinct_repos: 35
     active_days: 7
-    repos_not_owned: 25
-    not_owned_basenames: 21
+    repos_not_owned: 27
+    not_owned_basenames: 23
     not_owned_owners: 5
   "30d":
-    pushes: 251
-    distinct_repos: 47
-    active_days: 23
-    repos_not_owned: 36
-    not_owned_basenames: 22
+    pushes: 264
+    distinct_repos: 50
+    active_days: 24
+    repos_not_owned: 38
+    not_owned_basenames: 24
     not_owned_owners: 15
   "90d":
-    pushes: 1041
-    distinct_repos: 73
+    pushes: 1050
+    distinct_repos: 75
     active_days: 82
-    repos_not_owned: 58
-    not_owned_basenames: 31
+    repos_not_owned: 59
+    not_owned_basenames: 32
     not_owned_owners: 24
 automation:
   state: "clear"
-  push_per_day: 12.6951
-  repo_per_active_day: 0.8902
-  not_owned_ratio: 0.7945
-  basename_concentration: 0.3014
+  push_per_day: 12.8049
+  repo_per_active_day: 0.9146
+  not_owned_ratio: 0.7867
+  basename_concentration: 0.2933
   shapes: []
   shape_evidence: []
   cleared_by: "e01-builder"
@@ -49,38 +49,86 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 177
-    distinct_repos: 32
-    pushes_per_repo: 5.5312
+    pushes: 182
+    distinct_repos: 35
+    pushes_per_repo: 5.2000
     active_days: 7
-    repos_not_owned: 25
-    not_owned_basenames: 21
+    repos_not_owned: 27
+    not_owned_basenames: 23
     not_owned_owners: 5
   "30d":
-    pushes: 251
-    distinct_repos: 47
-    pushes_per_repo: 5.3404
-    active_days: 23
-    repos_not_owned: 36
-    not_owned_basenames: 22
+    pushes: 264
+    distinct_repos: 50
+    pushes_per_repo: 5.2800
+    active_days: 24
+    repos_not_owned: 38
+    not_owned_basenames: 24
     not_owned_owners: 15
   "90d":
-    pushes: 1041
-    distinct_repos: 73
-    pushes_per_repo: 14.2603
+    pushes: 1050
+    distinct_repos: 75
+    pushes_per_repo: 14.0000
     active_days: 82
-    repos_not_owned: 58
-    not_owned_basenames: 31
+    repos_not_owned: 59
+    not_owned_basenames: 32
     not_owned_owners: 24
 reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 82 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "workspace"
+    title: "workspace"
+    description: "My workspace which includes shell commands, skills, scripts etc. Along with an install script."
+    language: "Shell"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-09-18"
+  - name: "llm-ladder-router"
+    title: "llm-ladder-router"
+    description: "A very simple ladder router that caps the prices of various LLM providers and routes to the best rates possible. For max tokenmaxing"
+    language: "Rust"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-14"
+  - name: "enamakel.com"
+    title: "enamakel.com"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-10"
+  - name: "math-superagent"
+    title: "math-superagent"
+    description: "Math specialized research agent in rust"
+    language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-08-31"
+  - name: "prmpt.cash"
+    title: "prmpt.cash"
+    description: "Earn BTC/SOL/TINY for using Claude Code, Codex, Gemini"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-08-28"
+  - name: "senamakel"
+    title: "senamakel"
+    description: "My homepage repo"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-11"
 ---
 
 # senamakel
 
-1041 pushes across 73 repositories on 82 active days in the last 90 days of public GitHub push activity.
+1050 pushes across 75 repositories on 82 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/senamakel

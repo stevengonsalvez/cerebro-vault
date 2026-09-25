@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-24T15:17:54.275119+00:00"
+generated_at: "2026-09-25T06:06:35.067653+00:00"
 provenance:
   - "fae7e9e22c64821d"
-pushes_per_week: [32, 83, 76, 26, 52, 12, 10, 6, 5, 1, 18, 16, 41]
+pushes_per_week: [32, 90, 67, 33, 40, 12, 11, 5, 5, 1, 18, 17, 41]
 windows:
   "7d":
     pushes: 42
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 78
+    pushes: 79
     distinct_repos: 1
     active_days: 18
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 378
+    pushes: 372
     distinct_repos: 4
-    active_days: 65
+    active_days: 64
     repos_not_owned: 3
     not_owned_basenames: 1
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 5.8154
-  repo_per_active_day: 0.0615
+  push_per_day: 5.8125
+  repo_per_active_day: 0.0625
   not_owned_ratio: 0.7500
   basename_concentration: 1.0000
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 78
+    pushes: 79
     distinct_repos: 1
-    pushes_per_repo: 78.0000
+    pushes_per_repo: 79.0000
     active_days: 18
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 378
+    pushes: 372
     distinct_repos: 4
-    pushes_per_repo: 94.5000
-    active_days: 65
+    pushes_per_repo: 93.0000
+    active_days: 64
     repos_not_owned: 3
     not_owned_basenames: 1
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 65 active days in 90d — pass"
+  - "activity: 64 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "opencode-browser"
@@ -132,6 +132,6 @@ repos:
 
 # benjaminshafii
 
-378 pushes across 4 repositories on 65 active days in the last 90 days of public GitHub push activity.
+372 pushes across 4 repositories on 64 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/benjaminshafii

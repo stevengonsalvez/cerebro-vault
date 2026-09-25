@@ -8,14 +8,14 @@ provenance_repos:
   - "apache/maka"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+repos_populated: true
+generated_at: "2026-09-25T06:06:35.067653+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 7, 2, 18]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 7, 7, 13]
 windows:
   "7d":
-    pushes: 18
+    pushes: 17
     distinct_repos: 2
     active_days: 6
     repos_not_owned: 0
@@ -49,9 +49,9 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 18
+    pushes: 17
     distinct_repos: 2
-    pushes_per_repo: 9.0000
+    pushes_per_repo: 8.5000
     active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0

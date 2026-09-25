@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-24T15:17:54.275119+00:00"
+generated_at: "2026-09-25T06:06:35.067653+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [11, 23, 1, 9, 4, 2, 1, 7, 2, 0, 1, 4, 2]
+pushes_per_week: [11, 22, 3, 6, 4, 2, 2, 6, 2, 0, 1, 5, 1]
 windows:
   "7d":
     pushes: 2
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 67
+    pushes: 65
     distinct_repos: 27
-    active_days: 29
+    active_days: 28
     repos_not_owned: 10
     not_owned_basenames: 10
     not_owned_owners: 6
 automation:
   state: "clear"
-  push_per_day: 2.3103
-  repo_per_active_day: 0.9310
+  push_per_day: 2.3214
+  repo_per_active_day: 0.9643
   not_owned_ratio: 0.3704
   basename_concentration: 0.0741
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 67
+    pushes: 65
     distinct_repos: 27
-    pushes_per_repo: 2.4815
-    active_days: 29
+    pushes_per_repo: 2.4074
+    active_days: 28
     repos_not_owned: 10
     not_owned_basenames: 10
     not_owned_owners: 6
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 29 active days in 90d — pass"
+  - "activity: 28 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "rezumate"
@@ -142,6 +142,6 @@ repos:
 
 # maskedsyntax
 
-67 pushes across 27 repositories on 29 active days in the last 90 days of public GitHub push activity.
+65 pushes across 27 repositories on 28 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/maskedsyntax

@@ -8,11 +8,11 @@ provenance_repos:
   - "antirez/ds4"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-24T15:17:54.275119+00:00"
+repos_populated: true
+generated_at: "2026-09-25T06:06:35.067653+00:00"
 provenance:
   - "3eacb4655aba2497"
-pushes_per_week: [0, 0, 1, 0, 1, 1, 1, 0, 0, 0, 0, 1, 3]
+pushes_per_week: [0, 0, 1, 1, 0, 1, 1, 0, 0, 0, 0, 1, 3]
 windows:
   "7d":
     pushes: 3
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 8 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "decaf"
+    title: "decaf"
+    description: "Browser extension that rewrites breathless, FOMO-inducing X posts into calm, grounded, factual text."
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-24"
+  - name: "afs"
+    title: "afs"
+    description: "Lightweight agent-filesystem"
+    language: "Go"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-23"
+  - name: "redis-fs-cli"
+    title: "redis-fs-cli"
+    description: null
+    language: "Go"
+    topics: []
+    stars_fact: 9
+    first_seen: null
+    last_push: "2026-02-03"
+  - name: "redis-kb"
+    title: "redis-kb"
+    description: "Starter repository for redis-kb"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-04-09"
+  - name: "mywiki"
+    title: "mywiki"
+    description: "Personal knowledge base — LLM-compiled wiki"
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-04-09"
+  - name: "wishops"
+    title: "wishops"
+    description: "Wish operations for self improving products"
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-03-23"
 ---
 
 # rowantrollope

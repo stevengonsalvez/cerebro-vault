@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-24T15:17:54.275119+00:00"
+generated_at: "2026-09-25T06:06:35.067653+00:00"
 provenance:
   - "379642deb53f3714"
-pushes_per_week: [27, 1, 5, 6, 4, 4, 4, 1, 0, 0, 0, 0, 1]
+pushes_per_week: [26, 1, 5, 7, 5, 2, 4, 1, 0, 0, 0, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 53
+    pushes: 52
     distinct_repos: 4
-    active_days: 22
+    active_days: 21
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.4091
-  repo_per_active_day: 0.1818
+  push_per_day: 2.4762
+  repo_per_active_day: 0.1905
   not_owned_ratio: 0.0000
   basename_concentration: 0.2500
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 53
+    pushes: 52
     distinct_repos: 4
-    pushes_per_repo: 13.2500
-    active_days: 22
+    pushes_per_repo: 13.0000
+    active_days: 21
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 22 active days in 90d — pass"
+  - "activity: 21 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "dora"
@@ -136,6 +136,6 @@ repos:
 
 # dinfuehr
 
-53 pushes across 4 repositories on 22 active days in the last 90 days of public GitHub push activity.
+52 pushes across 4 repositories on 21 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/dinfuehr

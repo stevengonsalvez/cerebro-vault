@@ -8,11 +8,11 @@ provenance_repos:
   - "ColeMurray/background-agents"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-24T15:17:54.275119+00:00"
+repos_populated: true
+generated_at: "2026-09-25T06:06:35.067653+00:00"
 provenance:
   - "8311cfc3055f8fea"
-pushes_per_week: [0, 0, 2, 0, 0, 0, 1, 0, 1, 1, 0, 0, 1]
+pushes_per_week: [0, 0, 2, 0, 0, 0, 1, 0, 1, 1, 0, 1, 0]
 windows:
   "7d":
     pushes: 1
@@ -76,7 +76,59 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "local_ci_plus"
+    title: "local_ci_plus"
+    description: "Adds parallel execution, fail-fast, resume, and plain output to Rails' local CI runner."
+    language: "Ruby"
+    topics: []
+    stars_fact: 8
+    first_seen: null
+    last_push: "2026-03-01"
+  - name: "omarchy-dotfiles"
+    title: "omarchy-dotfiles"
+    description: null
+    language: "Lua"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-18"
+  - name: "dotfiles"
+    title: "dotfiles"
+    description: "Mi Dots"
+    language: "Shell"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-18"
+  - name: "skills"
+    title: "skills"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-16"
+  - name: "parallel_specs"
+    title: "parallel_specs"
+    description: null
+    language: "Ruby"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-08-27"
+  - name: "stooges"
+    title: "stooges"
+    description: "A CLI for working with multiple git branches without worktrees"
+    language: "Go"
+    topics:
+      - "branches"
+      - "copy-on-write"
+      - "git"
+      - "productivity"
+    stars_fact: 5
+    first_seen: null
+    last_push: "2026-08-21"
 ---
 
 # scottwater

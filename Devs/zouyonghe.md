@@ -8,11 +8,11 @@ provenance_repos:
   - "AstrBotDevs/AstrBot"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-24T15:17:54.275119+00:00"
+repos_populated: true
+generated_at: "2026-09-25T06:06:35.067653+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [13, 12, 1, 3, 0, 0, 8, 3, 0, 0, 0, 1, 1]
+pushes_per_week: [15, 10, 1, 3, 0, 2, 7, 2, 0, 0, 0, 1, 1]
 windows:
   "7d":
     pushes: 1
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 18 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "auto-aur-update"
+    title: "auto-aur-update"
+    description: "auto-aur-update"
+    language: "Shell"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-24"
+  - name: "astrbot_plugin_ebooks"
+    title: "astrbot_plugin_ebooks"
+    description: "一个功能强大的电子书插件，支持多平台电子书搜索和下载。"
+    language: "Python"
+    topics: []
+    stars_fact: 31
+    first_seen: null
+    last_push: "2026-06-08"
+  - name: "PixelTerm"
+    title: "PixelTerm"
+    description: "A terminal image viewer just for test."
+    language: "Python"
+    topics: []
+    stars_fact: 7
+    first_seen: null
+    last_push: "2026-09-13"
+  - name: "remove-duplicate-files"
+    title: "remove-duplicate-files"
+    description: "A safe and efficient PowerShell utility for finding and removing duplicate files"
+    language: "PowerShell"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-03"
+  - name: "PixelTerm-C"
+    title: "PixelTerm-C"
+    description: "A high-performance terminal image/video/book browser based on Chafa."
+    language: "C"
+    topics: []
+    stars_fact: 27
+    first_seen: null
+    last_push: "2026-09-09"
+  - name: "astrbot_plugin_agentmemory"
+    title: "astrbot_plugin_agentmemory"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 9
+    first_seen: null
+    last_push: "2026-05-25"
 ---
 
 # zouyonghe

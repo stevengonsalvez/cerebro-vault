@@ -8,23 +8,23 @@ provenance_repos:
   - "can1357/oh-my-pi"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-24T15:17:54.275119+00:00"
+repos_populated: true
+generated_at: "2026-09-25T06:06:35.067653+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [2, 2, 3, 2, 7, 16, 6, 5, 4, 0, 1, 14, 14]
+pushes_per_week: [2, 2, 3, 2, 9, 14, 10, 1, 4, 0, 2, 14, 13]
 windows:
   "7d":
-    pushes: 15
+    pushes: 14
     distinct_repos: 4
-    active_days: 5
+    active_days: 4
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 31
+    pushes: 30
     distinct_repos: 9
-    active_days: 13
+    active_days: 12
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
@@ -49,18 +49,18 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 15
+    pushes: 14
     distinct_repos: 4
-    pushes_per_repo: 3.7500
-    active_days: 5
+    pushes_per_repo: 3.5000
+    active_days: 4
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 31
+    pushes: 30
     distinct_repos: 9
-    pushes_per_repo: 3.4444
-    active_days: 13
+    pushes_per_repo: 3.3333
+    active_days: 12
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
@@ -76,7 +76,60 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 33 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "omp-classifier"
+    title: "omp-classifier"
+    description: "Model-judged permission gate for OMP: classifies bash commands and spawn-bearing eval payloads before they run, prompts on risk, fails closed"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-24"
+  - name: "clans"
+    title: "clans"
+    description: "Clans: a Tribes 2 tech demo for the browser (Katabatic, skiing, jetpacks, bots, authoritative server)"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-22"
+  - name: "cc-plugin-audit"
+    title: "cc-plugin-audit"
+    description: "Supply-chain security for Claude Code plugins — detects marketplace auto-updates and surfaces security-relevant diffs"
+    language: "Python"
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-09-22"
+  - name: "strml.net"
+    title: "strml.net"
+    description: "STRML: Projects & Work"
+    language: "JavaScript"
+    topics:
+      - "homepage"
+      - "javascript"
+    stars_fact: 2639
+    first_seen: null
+    last_push: "2023-03-04"
+  - name: "cc-ds4"
+    title: "cc-ds4"
+    description: "Run DeepSeek V4 in Claude Code without breaking your Anthropic setup: isolated profiles, ZDR routing, and a status line that reports what you actually spent."
+    language: "Go"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-09-19"
+  - name: "react-router-component"
+    title: "react-router-component"
+    description: "Declarative router component for React."
+    language: "JavaScript"
+    topics:
+      - "react"
+      - "router"
+      - "routing"
+    stars_fact: 870
+    first_seen: null
+    last_push: "2026-04-09"
 ---
 
 # STRML

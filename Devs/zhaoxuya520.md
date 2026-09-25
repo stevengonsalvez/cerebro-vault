@@ -8,11 +8,11 @@ provenance_repos:
   - "zhaoxuya520/reverse-skill"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-24T15:17:54.275119+00:00"
+repos_populated: true
+generated_at: "2026-09-25T06:06:35.067653+00:00"
 provenance:
   - "0396398dad51ec9d"
-pushes_per_week: [5, 0, 0, 2, 0, 1, 0, 0, 2, 1, 0, 0, 0]
+pushes_per_week: [5, 0, 2, 0, 0, 1, 0, 0, 2, 1, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,71 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 8 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "reverse-skill"
+    title: "reverse-skill"
+    description: "Reverse Engineering / Authorized Penetration Testing / Security Research Skill Router Pack AI-powered routing + On-demand toolchain bootstrapping + Self-evolving knowledge base Supports Claude Code, Kiro, Cursor, Cline, and other AI coding clients 逆向/渗透/安全技能路由包 - AI 自动路由 + 按需自举工具链 + 自动进化经验库 | 支持 Claude Code / Kiro / Cursor / Cline 等代码 AI 客户端"
+    language: "PowerShell"
+    topics: []
+    stars_fact: 37224
+    first_seen: "2026-08-07T06:00:03.597556+00:00"
+    last_push: "2026-09-22"
+  - name: "MeshLAN"
+    title: "MeshLAN"
+    description: "Self-hosted P2P-first virtual LAN, service sharing, multi-relay and AI automation built on Nebula."
+    language: "Go"
+    topics:
+      - "golang"
+      - "mesh-network"
+      - "nat-traversal"
+      - "nebula"
+      - "p2p"
+      - "relay"
+      - "self-hosted"
+      - "virtual-lan"
+      - "vpn"
+      - "windows"
+    stars_fact: 219
+    first_seen: null
+    last_push: "2026-08-30"
+  - name: "AI-Fullstack-Delivery-Workflow"
+    title: "AI-Fullstack-Delivery-Workflow"
+    description: "AI 全栈交付工作流总控系统 — 17 个岗位工作流 + 100+ Skills + 自举脚本，AI 读一遍 README 就能自动配置环境并执行完整软件项目交付。覆盖产品/设计/前端/后端/测试/DevOps/SRE/安全/数据/AI集成/逆向渗透。"
+    language: "PowerShell"
+    topics: []
+    stars_fact: 49
+    first_seen: null
+    last_push: "2026-05-19"
+  - name: "kernary-code"
+    title: "kernary-code"
+    description: "Terminal-native multi-agent AI coding harness in Rust"
+    language: "Rust"
+    topics:
+      - "ai"
+      - "cli"
+      - "coding-agent"
+      - "mcp"
+      - "multi-agent"
+      - "rust"
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-08-30"
+  - name: "hermes-agent-qq-gateway"
+    title: "hermes-agent-qq-gateway"
+    description: "A standalone QQ Official Bot gateway for Hermes Agent"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 5
+    first_seen: null
+    last_push: "2026-04-10"
+  - name: "Claude-Desktop-Chinese-patched"
+    title: "Claude-Desktop-Chinese-patched"
+    description: "Claude Desktop 1.6259.1 Windows 正版中文代理汉化方案"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 24
+    first_seen: null
+    last_push: "2026-07-02"
 ---
 
 # zhaoxuya520

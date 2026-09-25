@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-24T15:17:54.275119+00:00"
+generated_at: "2026-09-25T06:06:35.067653+00:00"
 provenance:
   - "a50b0e08dbaee74a"
-pushes_per_week: [9, 8, 3, 1, 9, 2, 1, 0, 1, 0, 0, 0, 1]
+pushes_per_week: [7, 8, 4, 0, 9, 2, 1, 0, 1, 0, 0, 0, 2]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 2
+    distinct_repos: 2
+    active_days: 2
+    repos_not_owned: 2
+    not_owned_basenames: 2
+    not_owned_owners: 2
   "30d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 2
+    distinct_repos: 2
+    active_days: 2
+    repos_not_owned: 2
+    not_owned_basenames: 2
+    not_owned_owners: 2
   "90d":
-    pushes: 35
-    distinct_repos: 15
+    pushes: 34
+    distinct_repos: 16
     active_days: 18
-    repos_not_owned: 15
-    not_owned_basenames: 11
-    not_owned_owners: 9
+    repos_not_owned: 16
+    not_owned_basenames: 12
+    not_owned_owners: 10
 automation:
   state: "clear"
-  push_per_day: 1.9444
-  repo_per_active_day: 0.8333
+  push_per_day: 1.8889
+  repo_per_active_day: 0.8889
   not_owned_ratio: 1.0000
-  basename_concentration: 0.2000
+  basename_concentration: 0.1875
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,29 +49,29 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
+    pushes: 2
+    distinct_repos: 2
     pushes_per_repo: 1.0000
-    active_days: 1
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    active_days: 2
+    repos_not_owned: 2
+    not_owned_basenames: 2
+    not_owned_owners: 2
   "30d":
-    pushes: 1
-    distinct_repos: 1
+    pushes: 2
+    distinct_repos: 2
     pushes_per_repo: 1.0000
-    active_days: 1
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    active_days: 2
+    repos_not_owned: 2
+    not_owned_basenames: 2
+    not_owned_owners: 2
   "90d":
-    pushes: 35
-    distinct_repos: 15
-    pushes_per_repo: 2.3333
+    pushes: 34
+    distinct_repos: 16
+    pushes_per_repo: 2.1250
     active_days: 18
-    repos_not_owned: 15
-    not_owned_basenames: 11
-    not_owned_owners: 9
+    repos_not_owned: 16
+    not_owned_basenames: 12
+    not_owned_owners: 10
 reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 18 active days in 90d — pass"
@@ -142,6 +142,6 @@ repos:
 
 # mrgrain
 
-35 pushes across 15 repositories on 18 active days in the last 90 days of public GitHub push activity.
+34 pushes across 16 repositories on 18 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/mrgrain

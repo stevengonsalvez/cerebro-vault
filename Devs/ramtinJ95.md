@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-24T15:17:54.275119+00:00"
+generated_at: "2026-09-25T06:06:35.067653+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [3, 9, 20, 3, 5, 0, 5, 1, 3, 0, 5, 0, 1]
+pushes_per_week: [2, 10, 19, 4, 4, 0, 5, 1, 3, 0, 5, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 8
+    pushes: 7
     distinct_repos: 2
-    active_days: 6
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 55
+    pushes: 54
     distinct_repos: 12
-    active_days: 28
+    active_days: 27
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.9643
-  repo_per_active_day: 0.4286
+  push_per_day: 2.0000
+  repo_per_active_day: 0.4444
   not_owned_ratio: 0.0000
   basename_concentration: 0.0833
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 8
+    pushes: 7
     distinct_repos: 2
-    pushes_per_repo: 4.0000
-    active_days: 6
+    pushes_per_repo: 3.5000
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 55
+    pushes: 54
     distinct_repos: 12
-    pushes_per_repo: 4.5833
-    active_days: 28
+    pushes_per_repo: 4.5000
+    active_days: 27
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 28 active days in 90d — pass"
+  - "activity: 27 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "opencode-tokenscope"
@@ -145,6 +145,6 @@ repos:
 
 # ramtinJ95
 
-55 pushes across 12 repositories on 28 active days in the last 90 days of public GitHub push activity.
+54 pushes across 12 repositories on 27 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ramtinJ95

@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-24T15:17:54.275119+00:00"
+generated_at: "2026-09-25T06:06:35.067653+00:00"
 provenance:
   - "379642deb53f3714"
-pushes_per_week: [0, 0, 9, 8, 9, 5, 8, 3, 5, 5, 6, 2, 3]
+pushes_per_week: [0, 0, 10, 7, 9, 5, 10, 1, 5, 5, 6, 2, 4]
 windows:
   "7d":
-    pushes: 3
-    distinct_repos: 2
-    active_days: 3
+    pushes: 4
+    distinct_repos: 3
+    active_days: 4
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 17
+    pushes: 18
     distinct_repos: 5
-    active_days: 10
+    active_days: 11
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 63
+    pushes: 64
     distinct_repos: 10
-    active_days: 29
+    active_days: 30
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.1724
-  repo_per_active_day: 0.3448
+  push_per_day: 2.1333
+  repo_per_active_day: 0.3333
   not_owned_ratio: 0.1000
   basename_concentration: 0.1000
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 3
-    distinct_repos: 2
-    pushes_per_repo: 1.5000
-    active_days: 3
+    pushes: 4
+    distinct_repos: 3
+    pushes_per_repo: 1.3333
+    active_days: 4
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 17
+    pushes: 18
     distinct_repos: 5
-    pushes_per_repo: 3.4000
-    active_days: 10
+    pushes_per_repo: 3.6000
+    active_days: 11
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 63
+    pushes: 64
     distinct_repos: 10
-    pushes_per_repo: 6.3000
-    active_days: 29
+    pushes_per_repo: 6.4000
+    active_days: 30
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 29 active days in 90d — pass"
+  - "activity: 30 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "flujo-mcp-client-validation"
@@ -141,6 +141,6 @@ repos:
 
 # flujo-app
 
-63 pushes across 10 repositories on 29 active days in the last 90 days of public GitHub push activity.
+64 pushes across 10 repositories on 30 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/flujo-app

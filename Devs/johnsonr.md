@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-24T15:17:54.275119+00:00"
+generated_at: "2026-09-25T06:06:35.067653+00:00"
 provenance:
   - "406a85b388590eb0"
-pushes_per_week: [5, 7, 3, 8, 2, 0, 4, 8, 6, 0, 1, 7, 8]
+pushes_per_week: [4, 7, 5, 6, 2, 0, 9, 3, 6, 0, 1, 8, 7]
 windows:
   "7d":
     pushes: 8
@@ -22,25 +22,25 @@ windows:
     not_owned_basenames: 3
     not_owned_owners: 1
   "30d":
-    pushes: 20
+    pushes: 19
     distinct_repos: 6
     active_days: 12
     repos_not_owned: 6
     not_owned_basenames: 6
     not_owned_owners: 1
   "90d":
-    pushes: 59
-    distinct_repos: 26
+    pushes: 58
+    distinct_repos: 25
     active_days: 31
-    repos_not_owned: 12
-    not_owned_basenames: 12
+    repos_not_owned: 11
+    not_owned_basenames: 11
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 1.9032
-  repo_per_active_day: 0.8387
-  not_owned_ratio: 0.4615
-  basename_concentration: 0.0769
+  push_per_day: 1.8710
+  repo_per_active_day: 0.8065
+  not_owned_ratio: 0.4400
+  basename_concentration: 0.0800
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -57,20 +57,20 @@ facets:
     not_owned_basenames: 3
     not_owned_owners: 1
   "30d":
-    pushes: 20
+    pushes: 19
     distinct_repos: 6
-    pushes_per_repo: 3.3333
+    pushes_per_repo: 3.1667
     active_days: 12
     repos_not_owned: 6
     not_owned_basenames: 6
     not_owned_owners: 1
   "90d":
-    pushes: 59
-    distinct_repos: 26
-    pushes_per_repo: 2.2692
+    pushes: 58
+    distinct_repos: 25
+    pushes_per_repo: 2.3200
     active_days: 31
-    repos_not_owned: 12
-    not_owned_basenames: 12
+    repos_not_owned: 11
+    not_owned_basenames: 11
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
@@ -129,6 +129,6 @@ repos:
 
 # johnsonr
 
-59 pushes across 26 repositories on 31 active days in the last 90 days of public GitHub push activity.
+58 pushes across 25 repositories on 31 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/johnsonr

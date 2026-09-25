@@ -11,12 +11,13 @@ provenance_repos:
   - "anthropics/claude-cookbooks"
   - "anthropics/claude-plugins-community"
   - "anthropics/claude-plugins-official"
+  - "anthropics/financial-services"
   - "anthropics/knowledge-work-plugins"
   - "anthropics/skills"
 admitted: true
 low_n: true
 repos_populated: true
-generated_at: "2026-09-24T15:17:54.275119+00:00"
+generated_at: "2026-09-25T06:06:35.067653+00:00"
 provenance:
   - "01cd6a498d377caf"
   - "02eab667df448997"
@@ -41,6 +42,7 @@ provenance:
   - "354f1b8cfb3f00d1"
   - "3a85fe237099d686"
   - "3c042057ca5b7cce"
+  - "3f132fb2c563cba4"
   - "3f88ef2405b8fae7"
   - "44423c0a85b4d691"
   - "557818547b5e5732"
@@ -56,6 +58,7 @@ provenance:
   - "85ddda4d481a7d84"
   - "860864df5583b9ff"
   - "8eafdf1e65e79a0b"
+  - "8f9e2f8ba8bd1533"
   - "93601d11e4db33a8"
   - "a3ec5261dfb4f2cd"
   - "b56da077d21ad4f4"
@@ -68,10 +71,11 @@ provenance:
   - "cc2a7fed69a6e4ac"
   - "d46568f6f6a488d8"
   - "e2ea6ef4c9fbfceb"
+  - "eb2c237bde8f9194"
   - "f672838de330e86f"
   - "f9a1870648a6375a"
   - "fe9e50bf2d5b21fe"
-pushes_per_week: [1, 0, 0, 3, 0, 0, 1, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [1, 0, 1, 2, 0, 1, 0, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -132,7 +136,7 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 2
 reasons:
-  - "provenance: 53 vault signal(s) — pass"
+  - "provenance: 56 vault signal(s) — pass"
   - "activity: 4 active days in 90d — below the 5-day line, LABELLED low-n (never suppressed)"
   - "automation: clear — pass"
 repos: []

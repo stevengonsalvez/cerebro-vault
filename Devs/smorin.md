@@ -9,13 +9,13 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-24T15:17:54.275119+00:00"
+generated_at: "2026-09-25T06:06:35.067653+00:00"
 provenance:
   - "97c4e9cb8b163ddb"
   - "c7515e0fa4368a55"
   - "d3abe74726b22711"
   - "e7c647c4d0689526"
-pushes_per_week: [25, 16, 7, 21, 16, 1, 10, 11, 1, 1, 2, 6, 17]
+pushes_per_week: [18, 19, 9, 17, 15, 1, 11, 11, 0, 1, 3, 5, 17]
 windows:
   "7d":
     pushes: 17
@@ -32,18 +32,18 @@ windows:
     not_owned_basenames: 9
     not_owned_owners: 1
   "90d":
-    pushes: 134
-    distinct_repos: 23
-    active_days: 44
-    repos_not_owned: 20
-    not_owned_basenames: 20
+    pushes: 127
+    distinct_repos: 22
+    active_days: 43
+    repos_not_owned: 19
+    not_owned_basenames: 19
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 3.0455
-  repo_per_active_day: 0.5227
-  not_owned_ratio: 0.8696
-  basename_concentration: 0.0435
+  push_per_day: 2.9535
+  repo_per_active_day: 0.5116
+  not_owned_ratio: 0.8636
+  basename_concentration: 0.0455
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -68,16 +68,16 @@ facets:
     not_owned_basenames: 9
     not_owned_owners: 1
   "90d":
-    pushes: 134
-    distinct_repos: 23
-    pushes_per_repo: 5.8261
-    active_days: 44
-    repos_not_owned: 20
-    not_owned_basenames: 20
+    pushes: 127
+    distinct_repos: 22
+    pushes_per_repo: 5.7727
+    active_days: 43
+    repos_not_owned: 19
+    not_owned_basenames: 19
     not_owned_owners: 2
 reasons:
   - "provenance: 4 vault signal(s) — pass"
-  - "activity: 44 active days in 90d — pass"
+  - "activity: 43 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "smorin"
@@ -132,6 +132,6 @@ repos:
 
 # smorin
 
-134 pushes across 23 repositories on 44 active days in the last 90 days of public GitHub push activity.
+127 pushes across 22 repositories on 43 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/smorin

@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-24T15:17:54.275119+00:00"
+generated_at: "2026-09-25T06:06:35.067653+00:00"
 provenance:
   - "379642deb53f3714"
-pushes_per_week: [78, 63, 51, 82, 55, 39, 53, 34, 18, 6, 7, 23, 26]
+pushes_per_week: [95, 42, 62, 81, 51, 36, 62, 21, 19, 4, 8, 27, 22]
 windows:
   "7d":
-    pushes: 27
+    pushes: 25
     distinct_repos: 8
     active_days: 7
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 4
   "30d":
-    pushes: 72
+    pushes: 73
     distinct_repos: 19
     active_days: 24
     repos_not_owned: 13
     not_owned_basenames: 13
     not_owned_owners: 5
   "90d":
-    pushes: 535
+    pushes: 530
     distinct_repos: 25
-    active_days: 83
+    active_days: 82
     repos_not_owned: 16
     not_owned_basenames: 16
     not_owned_owners: 5
 automation:
   state: "clear"
-  push_per_day: 6.4458
-  repo_per_active_day: 0.3012
+  push_per_day: 6.4634
+  repo_per_active_day: 0.3049
   not_owned_ratio: 0.6400
   basename_concentration: 0.0400
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 27
+    pushes: 25
     distinct_repos: 8
-    pushes_per_repo: 3.3750
+    pushes_per_repo: 3.1250
     active_days: 7
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 4
   "30d":
-    pushes: 72
+    pushes: 73
     distinct_repos: 19
-    pushes_per_repo: 3.7895
+    pushes_per_repo: 3.8421
     active_days: 24
     repos_not_owned: 13
     not_owned_basenames: 13
     not_owned_owners: 5
   "90d":
-    pushes: 535
+    pushes: 530
     distinct_repos: 25
-    pushes_per_repo: 21.4000
-    active_days: 83
+    pushes_per_repo: 21.2000
+    active_days: 82
     repos_not_owned: 16
     not_owned_basenames: 16
     not_owned_owners: 5
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 83 active days in 90d — pass"
+  - "activity: 82 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "tibia-highscores"
@@ -132,6 +132,6 @@ repos:
 
 # mathiasbynens
 
-535 pushes across 25 repositories on 83 active days in the last 90 days of public GitHub push activity.
+530 pushes across 25 repositories on 82 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/mathiasbynens

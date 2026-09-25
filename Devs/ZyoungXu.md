@@ -8,8 +8,8 @@ provenance_repos:
   - "hustvl/Moebius"
 admitted: true
 low_n: true
-repos_populated: false
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+repos_populated: true
+generated_at: "2026-09-25T06:06:35.067653+00:00"
 provenance:
   - "562cd43a3e0cd725"
 pushes_per_week: [0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 1 active days in 90d — below the 5-day line, LABELLED low-n (never suppressed)"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "GenDSA"
+    title: "GenDSA"
+    description: "[Nature Medicine, 2025 & Med (Cell Press), 2024] Large-scale Pretrained Frame Generative Model Enables Real-Time Low-Dose DSA Imaging: an AI System Development and Multicenter Validation Study"
+    language: "Python"
+    topics: []
+    stars_fact: 21
+    first_seen: null
+    last_push: "2025-10-14"
+  - name: "ZyoungXu.github.io"
+    title: "ZyoungXu.github.io"
+    description: null
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-16"
+  - name: "ZyoungXu"
+    title: "ZyoungXu"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-13"
+  - name: "GaraMoSt"
+    title: "GaraMoSt"
+    description: "[AAAI 2025] GaraMoSt: Parallel Multi-Granularity Motion and Structural Modeling for Efficient Multi-Frame Interpolation in DSA Images"
+    language: "Python"
+    topics: []
+    stars_fact: 21
+    first_seen: null
+    last_push: "2025-04-20"
+  - name: "MoSt-DSA"
+    title: "MoSt-DSA"
+    description: "[ECAI 2024] MoSt-DSA: Modeling Motion and Structural Interactions for Direct Multi-Frame Interpolation in DSA Images"
+    language: "Python"
+    topics: []
+    stars_fact: 19
+    first_seen: null
+    last_push: "2024-12-15"
+  - name: "Evaluate-Generative-Models"
+    title: "Evaluate-Generative-Models"
+    description: "Evaluate FID, sFID, Precision, Recall, and Inception Score for generative models."
+    language: "Python"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2024-07-01"
 ---
 
 # ZyoungXu

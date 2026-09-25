@@ -8,8 +8,8 @@ provenance_repos:
   - "chaitanyagiri/munder-difflin"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-24T15:17:54.275119+00:00"
+repos_populated: true
+generated_at: "2026-09-25T06:06:35.067653+00:00"
 provenance:
   - "e5b23adc376a62a9"
 pushes_per_week: [0, 1, 1, 0, 0, 0, 0, 0, 3, 0, 3, 3, 10]
@@ -76,7 +76,108 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 8 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "free-for-creators"
+    title: "free-for-creators"
+    description: "🎁 License-verified free assets for creators — 148 resources for music, SFX, footage, photos, fonts, icons, LUTs, mockups & 3D, each tagged with attribution and monetization rules. 许可透明的创作者免费素材清单（中英双语）。"
+    language: "HTML"
+    topics:
+      - "3d-assets"
+      - "awesome-list"
+      - "cc0"
+      - "content-creators"
+      - "creative-commons"
+      - "free-assets"
+      - "free-fonts"
+      - "free-music"
+      - "game-assets"
+      - "icons"
+      - "illustrations"
+      - "luts"
+      - "mockups"
+      - "public-domain"
+      - "royalty-free"
+      - "sound-effects"
+      - "stock-footage"
+      - "stock-photos"
+      - "streaming"
+      - "video-editing"
+    stars_fact: 6
+    first_seen: null
+    last_push: "2026-09-22"
+  - name: "doc2md"
+    title: "doc2md"
+    description: "MCP server: convert PDF/DOCX/PPTX/XLSX/EPUB/HTML & scanned docs to clean Markdown — URL-first, keyless, table-preserving, with OCR, split/merge and search. Deployable on Glama."
+    language: "Python"
+    topics:
+      - "document-conversion"
+      - "markdown"
+      - "mcp"
+      - "mcp-server"
+      - "modelcontextprotocol"
+      - "ocr"
+      - "pdf"
+      - "pdf-to-markdown"
+      - "rag"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-23"
+  - name: "zspace-cli"
+    title: "zspace-cli"
+    description: "Agent Skill + zero-config CLI/SDK/MCP for ZSpace (极空间) NAS — no password, no SSH"
+    language: "Python"
+    topics:
+      - "ai-agent"
+      - "claude"
+      - "cli"
+      - "cursor"
+      - "file-manager"
+      - "mcp"
+      - "mcp-server"
+      - "nas"
+      - "nas-tools"
+      - "python"
+      - "sdk"
+      - "zspace"
+      - "zspace-nas"
+    stars_fact: 23
+    first_seen: null
+    last_push: "2026-09-23"
+  - name: "dsh-plugin-sops-vault"
+    title: "dsh-plugin-sops-vault"
+    description: "DeepSeek Harness plugin: sops+age+git credential vault as a sidebar panel — agents see structure only, plaintext flows only on human click"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-23"
+  - name: "sops-vault-kit"
+    title: "sops-vault-kit"
+    description: "Local-first AI-manageable encrypted credential vault: sops+age+git, 30-command CLI, browser panel, TOTP, audit, offline key cards, built-in AGENTS.md — one install.sh"
+    language: "Shell"
+    topics:
+      - "age"
+      - "ai-agents"
+      - "cli"
+      - "credential-management"
+      - "encryption"
+      - "gitops"
+      - "password-manager"
+      - "secrets"
+      - "secrets-management"
+      - "sops"
+      - "totp"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-22"
+  - name: "skyzhao1223"
+    title: "skyzhao1223"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-22"
 ---
 
 # skyzhao1223

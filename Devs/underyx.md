@@ -8,11 +8,11 @@ provenance_repos:
   - "anthropics/knowledge-work-plugins"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+repos_populated: true
+generated_at: "2026-09-25T06:06:35.067653+00:00"
 provenance:
   - "2d6ba8fc0269fd52"
-pushes_per_week: [0, 0, 0, 3, 10, 1, 0, 0, 0, 0, 0, 1, 0]
+pushes_per_week: [0, 0, 0, 3, 11, 0, 0, 0, 0, 0, 0, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,62 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "visawhen"
+    title: "visawhen"
+    description: "Data on US visa wait times at the National Visa Center and at US consulates."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 33
+    first_seen: null
+    last_push: "2026-09-25"
+  - name: "getmatter-mcp-server"
+    title: "getmatter-mcp-server"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-08-23"
+  - name: "wanikani-mcp"
+    title: "wanikani-mcp"
+    description: "MCP server for the WaniKani API"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-11"
+  - name: "flask-redis"
+    title: "flask-redis"
+    description: "A Flask extension for using Redis"
+    language: "Python"
+    topics:
+      - "flask"
+      - "python"
+      - "redis"
+    stars_fact: 439
+    first_seen: null
+    last_push: "2024-03-04"
+  - name: "bence.dev"
+    title: "bence.dev"
+    description: "The thingies behind underyx.me"
+    language: "Astro"
+    topics:
+      - "blog"
+      - "gatsby"
+      - "html"
+      - "personal-website"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-06-25"
+  - name: "human-skills"
+    title: "human-skills"
+    description: null
+    language: "HTML"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-03-08"
 ---
 
 # underyx

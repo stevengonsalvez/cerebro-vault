@@ -8,11 +8,11 @@ provenance_repos:
   - "cline/cline"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+repos_populated: true
+generated_at: "2026-09-25T06:06:35.067653+00:00"
 provenance:
   - "533d51d9d3dea76f"
-pushes_per_week: [0, 0, 1, 3, 0, 0, 3, 2, 0, 0, 0, 0, 0]
+pushes_per_week: [0, 0, 3, 1, 0, 0, 3, 2, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,93 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "OpenAIOnWPF"
+    title: "OpenAIOnWPF"
+    description: "WPF application to operate OpenAI API"
+    language: "C#"
+    topics:
+      - "chatgpt"
+      - "dotnet"
+      - "openai"
+      - "windows-desktop"
+      - "wpf"
+    stars_fact: 25
+    first_seen: null
+    last_push: "2025-05-06"
+  - name: "meshguild-ai-studio"
+    title: "meshguild-ai-studio"
+    description: "Local-first AI agent orchestration. Define agents, teams, and graphs as files, then watch the work and approve it as it runs."
+    language: "C#"
+    topics:
+      - "agent-orchestration"
+      - "ai"
+      - "ai-agents"
+      - "ai-tools"
+      - "blazor"
+      - "csharp"
+      - "dotnet"
+      - "graph-engineering"
+      - "harness"
+      - "human-in-the-loop"
+      - "multi-agent"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-16"
+  - name: "Curia"
+    title: "Curia"
+    description: "A Windows desktop app for managing and curating context across multiple concurrent projects. Keeps your focus clear with a unified dashboard, Markdown editor, Asana sync, and AI-ready workflows."
+    language: "C#"
+    topics:
+      - "ai"
+      - "ai-agent"
+      - "asana"
+      - "box"
+      - "claude-code"
+      - "codex-cli"
+      - "desktop-app"
+      - "developper-tools"
+      - "dotnet"
+      - "gemini-cli"
+      - "windows"
+      - "wpf"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-16"
+  - name: "dotfiles"
+    title: "dotfiles"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-07-18"
+  - name: "MsBuild-Gui"
+    title: "MsBuild-Gui"
+    description: "Tool to operate and execute MsBuild.exe with Gui operation"
+    language: "C#"
+    topics:
+      - "chatgpt"
+      - "dotnet6"
+      - "msbuild"
+      - "wpf"
+    stars_fact: 8
+    first_seen: null
+    last_push: "2026-06-14"
+  - name: "vscode-html-doc-editor"
+    title: "vscode-html-doc-editor"
+    description: "Visual WYSIWYG editor for static HTML files inside VS Code — click to select elements, edit styles and text inline, drag to reorder, and changes sync back to the source file."
+    language: "TypeScript"
+    topics:
+      - "html"
+      - "vscode"
+      - "vscode-extension"
+      - "wysiwyg"
+      - "wysiwyg-editor"
+      - "wysiwyg-html-editor"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-05-09"
 ---
 
 # yt3trees

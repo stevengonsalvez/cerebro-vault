@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+generated_at: "2026-09-25T06:06:35.067653+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [17, 2, 9, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1]
+pushes_per_week: [17, 5, 6, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0]
 windows:
   "7d":
     pushes: 1
@@ -29,7 +29,7 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 30
+    pushes: 29
     distinct_repos: 2
     active_days: 13
     repos_not_owned: 1
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.3077
+  push_per_day: 2.2308
   repo_per_active_day: 0.1538
   not_owned_ratio: 0.5000
   basename_concentration: 1.0000
@@ -65,9 +65,9 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 30
+    pushes: 29
     distinct_repos: 2
-    pushes_per_repo: 15.0000
+    pushes_per_repo: 14.5000
     active_days: 13
     repos_not_owned: 1
     not_owned_basenames: 1
@@ -113,6 +113,6 @@ repos:
 
 # arvsrn
 
-30 pushes across 2 repositories on 13 active days in the last 90 days of public GitHub push activity.
+29 pushes across 2 repositories on 13 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/arvsrn

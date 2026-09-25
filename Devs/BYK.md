@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-24T15:17:54.275119+00:00"
+generated_at: "2026-09-25T06:06:35.067653+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [87, 52, 33, 40, 42, 23, 9, 4, 1, 0, 4, 11, 18]
+pushes_per_week: [85, 41, 42, 39, 39, 22, 5, 4, 1, 0, 4, 16, 14]
 windows:
   "7d":
-    pushes: 18
+    pushes: 19
     distinct_repos: 4
     active_days: 5
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 34
+    pushes: 35
     distinct_repos: 5
     active_days: 15
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 324
+    pushes: 312
     distinct_repos: 13
-    active_days: 61
+    active_days: 60
     repos_not_owned: 6
     not_owned_basenames: 6
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 5.3115
-  repo_per_active_day: 0.2131
+  push_per_day: 5.2000
+  repo_per_active_day: 0.2167
   not_owned_ratio: 0.4615
   basename_concentration: 0.0769
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 18
+    pushes: 19
     distinct_repos: 4
-    pushes_per_repo: 4.5000
+    pushes_per_repo: 4.7500
     active_days: 5
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 34
+    pushes: 35
     distinct_repos: 5
-    pushes_per_repo: 6.8000
+    pushes_per_repo: 7.0000
     active_days: 15
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 324
+    pushes: 312
     distinct_repos: 13
-    pushes_per_repo: 24.9231
-    active_days: 61
+    pushes_per_repo: 24.0000
+    active_days: 60
     repos_not_owned: 6
     not_owned_basenames: 6
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 61 active days in 90d — pass"
+  - "activity: 60 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "loreai"
@@ -132,6 +132,6 @@ repos:
 
 # BYK
 
-324 pushes across 13 repositories on 61 active days in the last 90 days of public GitHub push activity.
+312 pushes across 13 repositories on 60 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/BYK

@@ -8,11 +8,11 @@ provenance_repos:
   - "apache/maka"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-24T15:17:54.275119+00:00"
+repos_populated: true
+generated_at: "2026-09-25T06:06:35.067653+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [1, 1, 0, 1, 1, 0, 0, 0, 0, 0, 0, 2, 2]
+pushes_per_week: [1, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 2, 2]
 windows:
   "7d":
     pushes: 2
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "stasis"
+    title: "stasis"
+    description: "Pause the machine. Rest the human. — Rust input-locker rest tool (Linux/Wayland verified)"
+    language: "Rust"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-23"
+  - name: "pi-usage-web"
+    title: "pi-usage-web"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-20"
+  - name: "ebook"
+    title: "ebook"
+    description: "A self-hosted eBook reader with a web interface. Supports EPUB and PDF."
+    language: "Go"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-17"
+  - name: "dotfiles"
+    title: "dotfiles"
+    description: "uzqw's dotfiles"
+    language: "Lua"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-15"
+  - name: "pi-auto-handoff"
+    title: "pi-auto-handoff"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-15"
+  - name: "pi-agentmemory"
+    title: "pi-agentmemory"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-15"
 ---
 
 # uzqw

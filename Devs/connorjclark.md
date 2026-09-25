@@ -9,18 +9,18 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-24T15:17:54.275119+00:00"
+generated_at: "2026-09-25T06:06:35.067653+00:00"
 provenance:
   - "379642deb53f3714"
-pushes_per_week: [17, 15, 2, 7, 4, 4, 6, 0, 2, 0, 0, 7, 4]
+pushes_per_week: [13, 15, 2, 7, 5, 4, 5, 0, 2, 0, 0, 8, 4]
 windows:
   "7d":
-    pushes: 8
-    distinct_repos: 5
+    pushes: 5
+    distinct_repos: 2
     active_days: 5
-    repos_not_owned: 4
-    not_owned_basenames: 3
-    not_owned_owners: 3
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "30d":
     pushes: 12
     distinct_repos: 5
@@ -29,7 +29,7 @@ windows:
     not_owned_basenames: 3
     not_owned_owners: 3
   "90d":
-    pushes: 68
+    pushes: 65
     distinct_repos: 6
     active_days: 35
     repos_not_owned: 5
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 1.9429
+  push_per_day: 1.8571
   repo_per_active_day: 0.1714
   not_owned_ratio: 0.8333
   basename_concentration: 0.3333
@@ -49,13 +49,13 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 8
-    distinct_repos: 5
-    pushes_per_repo: 1.6000
+    pushes: 5
+    distinct_repos: 2
+    pushes_per_repo: 2.5000
     active_days: 5
-    repos_not_owned: 4
-    not_owned_basenames: 3
-    not_owned_owners: 3
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "30d":
     pushes: 12
     distinct_repos: 5
@@ -65,9 +65,9 @@ facets:
     not_owned_basenames: 3
     not_owned_owners: 3
   "90d":
-    pushes: 68
+    pushes: 65
     distinct_repos: 6
-    pushes_per_repo: 11.3333
+    pushes_per_repo: 10.8333
     active_days: 35
     repos_not_owned: 5
     not_owned_basenames: 4
@@ -129,6 +129,6 @@ repos:
 
 # connorjclark
 
-68 pushes across 6 repositories on 35 active days in the last 90 days of public GitHub push activity.
+65 pushes across 6 repositories on 35 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/connorjclark

@@ -8,14 +8,14 @@ provenance_repos:
   - "santifer/career-ops"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-24T15:17:54.275119+00:00"
+repos_populated: true
+generated_at: "2026-09-25T06:06:35.067653+00:00"
 provenance:
   - "b68d90c0788819fd"
-pushes_per_week: [61, 53, 47, 26, 18, 8, 22, 13, 4, 4, 1, 5, 26]
+pushes_per_week: [71, 54, 39, 22, 21, 5, 28, 8, 5, 2, 1, 20, 11]
 windows:
   "7d":
-    pushes: 26
+    pushes: 25
     distinct_repos: 10
     active_days: 4
     repos_not_owned: 10
@@ -29,22 +29,22 @@ windows:
     not_owned_basenames: 4
     not_owned_owners: 11
   "90d":
-    pushes: 288
-    distinct_repos: 43
-    active_days: 54
-    repos_not_owned: 38
+    pushes: 287
+    distinct_repos: 42
+    active_days: 53
+    repos_not_owned: 37
     not_owned_basenames: 4
-    not_owned_owners: 36
+    not_owned_owners: 35
 automation:
   state: "clear"
-  push_per_day: 5.3333
-  repo_per_active_day: 0.7963
-  not_owned_ratio: 0.8837
-  basename_concentration: 0.8372
+  push_per_day: 5.4151
+  repo_per_active_day: 0.7925
+  not_owned_ratio: 0.8810
+  basename_concentration: 0.8333
   shapes:
     - "fork_farm_third_party"
   shape_evidence:
-    - "basename concentration 0.8372 (36 of 43 repos share one basename), 38 not owned across 4 basenames — 5 of 5 sampled repos resolved; 4 fork somebody else's repo; 1 are not forks at all; upstreams: career-ops-hq/career-ops"
+    - "basename concentration 0.8333 (35 of 42 repos share one basename), 37 not owned across 4 basenames — 5 of 5 sampled repos resolved; 4 fork somebody else's repo; 1 are not forks at all; upstreams: career-ops-hq/career-ops"
   cleared_by: "e01-builder"
   cleared_on: "2026-08-26"
   fork_provenance:
@@ -65,9 +65,9 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 26
+    pushes: 25
     distinct_repos: 10
-    pushes_per_repo: 2.6000
+    pushes_per_repo: 2.5000
     active_days: 4
     repos_not_owned: 10
     not_owned_basenames: 3
@@ -81,22 +81,114 @@ facets:
     not_owned_basenames: 4
     not_owned_owners: 11
   "90d":
-    pushes: 288
-    distinct_repos: 43
-    pushes_per_repo: 6.6977
-    active_days: 54
-    repos_not_owned: 38
+    pushes: 287
+    distinct_repos: 42
+    pushes_per_repo: 6.8333
+    active_days: 53
+    repos_not_owned: 37
     not_owned_basenames: 4
-    not_owned_owners: 36
+    not_owned_owners: 35
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 54 active days in 90d — pass"
+  - "activity: 53 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "cv-santiago"
+    title: "cv-santiago"
+    description: "Interactive CV with AI chat integration. Built with React 19, TypeScript, Claude API. Chat with my AI avatar about my experience."
+    language: "HTML"
+    topics:
+      - "ai"
+      - "chatbot"
+      - "claude"
+      - "langfuse"
+      - "llm"
+      - "llmops"
+      - "observability"
+      - "portfolio"
+      - "react"
+      - "tailwindcss"
+      - "typescript"
+      - "vercel"
+      - "vite"
+    stars_fact: 844
+    first_seen: null
+    last_push: "2026-09-24"
+  - name: "warpchart"
+    title: "warpchart"
+    description: "Growth telemetry for any GitHub repository. A live star chart of your repo's journey through the worldwide ranking, with sound."
+    language: "TypeScript"
+    topics:
+      - "dashboard"
+      - "github-actions"
+      - "github-stars"
+      - "nextjs"
+      - "self-hosted"
+      - "star-history"
+      - "svg"
+      - "telemetry"
+    stars_fact: 16
+    first_seen: null
+    last_push: "2026-09-25"
+  - name: "watermark-remover"
+    title: "watermark-remover"
+    description: "CLI tool to remove watermarks from images using YOLO detection + LaMa inpainting"
+    language: "Python"
+    topics:
+      - "ai"
+      - "cli"
+      - "image-processing"
+      - "inpainting"
+      - "lama"
+      - "python"
+      - "watermark-removal"
+      - "yolo"
+    stars_fact: 29
+    first_seen: null
+    last_push: "2026-01-29"
+  - name: "career-ops-plugin-template"
+    title: "career-ops-plugin-template"
+    description: "Template for a career-ops community plugin (career-ops-plugin-<name>)"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-06-29"
+  - name: "jacobo-workflows"
+    title: "jacobo-workflows"
+    description: "7 production n8n workflows from Jacobo, a multi-agent AI system (WhatsApp + Voice). Open source by default."
+    language: null
+    topics:
+      - "ai-agents"
+      - "elevenlabs"
+      - "hitl"
+      - "multi-agent"
+      - "n8n"
+      - "tool-calling"
+      - "voice-ai"
+      - "whatsapp"
+    stars_fact: 165
+    first_seen: null
+    last_push: "2026-08-27"
+  - name: "claudeable"
+    title: "claudeable"
+    description: "Metaproyecto de Claude Code para crear webs profesionales"
+    language: "TypeScript"
+    topics:
+      - "claude-code"
+      - "mcp"
+      - "react"
+      - "shadcn-ui"
+      - "tailwindcss"
+      - "vite"
+      - "web-development"
+    stars_fact: 26
+    first_seen: null
+    last_push: "2026-01-29"
 ---
 
 # santifer
 
-288 pushes across 43 repositories on 54 active days in the last 90 days of public GitHub push activity.
+287 pushes across 42 repositories on 53 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/santifer

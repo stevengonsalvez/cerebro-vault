@@ -8,11 +8,11 @@ provenance_repos:
   - "agavra/tuicr"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-24T15:17:54.275119+00:00"
+repos_populated: true
+generated_at: "2026-09-25T06:06:35.067653+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [3, 3, 4, 4, 2, 0, 4, 2, 0, 0, 0, 0, 0]
+pushes_per_week: [3, 3, 6, 2, 2, 0, 5, 1, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 16 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "pi-usage"
+    title: "pi-usage"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-24"
+  - name: "kash-server"
+    title: "kash-server"
+    description: null
+    language: "Rust"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-17"
+  - name: "translate-cat"
+    title: "translate-cat"
+    description: "🐱 Translate YouTube subtitles and any selected text with your own AI provider."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-09-17"
+  - name: "rye-agent"
+    title: "rye-agent"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-09"
+  - name: "skills"
+    title: "skills"
+    description: "Skills are everywhere, but these ones are mine."
+    language: "Python"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-09-07"
+  - name: "my_dotfiles"
+    title: "my_dotfiles"
+    description: "my user configs"
+    language: "Shell"
+    topics: []
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-09-03"
 ---
 
 # yuhua99

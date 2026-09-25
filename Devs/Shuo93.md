@@ -8,8 +8,8 @@ provenance_repos:
   - "openJiuwen-ai/jiuwenswarm"
 admitted: true
 low_n: true
-repos_populated: false
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+repos_populated: true
+generated_at: "2026-09-25T06:06:35.067653+00:00"
 provenance:
   - "33080ce8a9dc9f8b"
 pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 0 active days in 90d — below the 5-day line, LABELLED low-n (never suppressed)"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "cortex"
+    title: "cortex"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-07-21"
+  - name: "anyshell"
+    title: "anyshell"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-05-24"
+  - name: "bloom-fate-chaincode"
+    title: "bloom-fate-chaincode"
+    description: null
+    language: "Go"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2018-12-05"
+  - name: "bloom-fate"
+    title: "bloom-fate"
+    description: null
+    language: "Java"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2018-11-29"
+  - name: "design_patterns"
+    title: "design_patterns"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2018-02-10"
+  - name: "re-c-lang"
+    title: "re-c-lang"
+    description: "Relearn C language"
+    language: "C"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2018-02-11"
 ---
 
 # Shuo93

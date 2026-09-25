@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-24T15:17:54.275119+00:00"
+generated_at: "2026-09-25T06:06:35.067653+00:00"
 provenance:
   - "0388a4f55f4206c8"
   - "0577669e18ed3998"
@@ -26,7 +26,7 @@ provenance:
   - "c6b4a874521ceb02"
   - "cf565721454d59f8"
   - "e26852201e6f38fc"
-pushes_per_week: [20, 24, 29, 27, 19, 11, 16, 9, 3, 0, 0, 0, 0]
+pushes_per_week: [18, 21, 33, 26, 20, 6, 20, 5, 3, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -36,23 +36,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 2
-    distinct_repos: 1
-    active_days: 2
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 158
+    pushes: 152
     distinct_repos: 11
-    active_days: 49
+    active_days: 48
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 3.2245
-  repo_per_active_day: 0.2245
+  push_per_day: 3.1667
+  repo_per_active_day: 0.2292
   not_owned_ratio: 0.0000
   basename_concentration: 0.0909
   shapes: []
@@ -71,30 +71,30 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 2
-    distinct_repos: 1
-    pushes_per_repo: 2.0000
-    active_days: 2
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 158
+    pushes: 152
     distinct_repos: 11
-    pushes_per_repo: 14.3636
-    active_days: 49
+    pushes_per_repo: 13.8182
+    active_days: 48
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 15 vault signal(s) — pass"
-  - "activity: 49 active days in 90d — pass"
+  - "activity: 48 active days in 90d — pass"
   - "automation: clear — pass"
 repos: []
 ---
 
 # zanie-oai
 
-158 pushes across 11 repositories on 49 active days in the last 90 days of public GitHub push activity.
+152 pushes across 11 repositories on 48 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/zanie-oai

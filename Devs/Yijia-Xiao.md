@@ -8,8 +8,8 @@ provenance_repos:
   - "TauricResearch/TradingAgents"
 admitted: true
 low_n: true
-repos_populated: false
-generated_at: "2026-09-24T15:17:54.275119+00:00"
+repos_populated: true
+generated_at: "2026-09-25T06:06:35.067653+00:00"
 provenance:
   - "626a5e4fcb233d8d"
 pushes_per_week: [0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1]
@@ -76,7 +76,69 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 3 active days in 90d — below the 5-day line, LABELLED low-n (never suppressed)"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "FinanceHarness"
+    title: "FinanceHarness"
+    description: "FinanceHarness: Autonomous Financial Deep Research Framework"
+    language: "Python"
+    topics:
+      - "agentic-framework"
+      - "finance"
+      - "harness"
+    stars_fact: 172
+    first_seen: null
+    last_push: "2026-08-22"
+  - name: "Protein-LLM-Survey"
+    title: "Protein-LLM-Survey"
+    description: "Large Language Models in Protein: A Comprehensive Survey"
+    language: null
+    topics:
+      - "awes"
+      - "comprehensive"
+      - "large-language-models"
+      - "llm"
+      - "papers"
+      - "papers-with-code"
+      - "protein"
+      - "survey"
+    stars_fact: 194
+    first_seen: null
+    last_push: "2025-04-02"
+  - name: "PrivacyMind"
+    title: "PrivacyMind"
+    description: "Large Language Models Can Be Contextual Privacy Protection Learners"
+    language: "Python"
+    topics: []
+    stars_fact: 18
+    first_seen: null
+    last_push: "2024-10-28"
+  - name: "Protein-MSA"
+    title: "Protein-MSA"
+    description: null
+    language: "Jupyter Notebook"
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2022-04-04"
+  - name: "Know2BIO"
+    title: "Know2BIO"
+    description: "Know2BIO: A Comprehensive Dual-View Benchmark for Evolving Biomedical Knowledge Graphs"
+    language: "Python"
+    topics:
+      - "benchmark"
+      - "biomedical"
+      - "knowledge-graph"
+    stars_fact: 17
+    first_seen: null
+    last_push: "2026-02-10"
+  - name: "Yijia-Xiao"
+    title: "Yijia-Xiao"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 5
+    first_seen: null
+    last_push: "2023-12-26"
 ---
 
 # Yijia-Xiao

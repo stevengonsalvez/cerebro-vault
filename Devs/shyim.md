@@ -8,11 +8,11 @@ provenance_repos:
   - "alibaba/open-code-review"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-24T15:17:54.275119+00:00"
+repos_populated: true
+generated_at: "2026-09-25T06:06:35.067653+00:00"
 provenance:
   - "c489e6fb5febf2ab"
-pushes_per_week: [50, 29, 17, 11, 11, 12, 6, 9, 2, 2, 4, 10, 12]
+pushes_per_week: [52, 33, 12, 11, 10, 13, 7, 7, 3, 1, 4, 11, 11]
 windows:
   "7d":
     pushes: 12
@@ -22,11 +22,11 @@ windows:
     not_owned_basenames: 4
     not_owned_owners: 3
   "30d":
-    pushes: 29
-    distinct_repos: 16
-    active_days: 13
-    repos_not_owned: 10
-    not_owned_basenames: 10
+    pushes: 28
+    distinct_repos: 15
+    active_days: 12
+    repos_not_owned: 9
+    not_owned_basenames: 9
     not_owned_owners: 4
   "90d":
     pushes: 175
@@ -57,12 +57,12 @@ facets:
     not_owned_basenames: 4
     not_owned_owners: 3
   "30d":
-    pushes: 29
-    distinct_repos: 16
-    pushes_per_repo: 1.8125
-    active_days: 13
-    repos_not_owned: 10
-    not_owned_basenames: 10
+    pushes: 28
+    distinct_repos: 15
+    pushes_per_repo: 1.8667
+    active_days: 12
+    repos_not_owned: 9
+    not_owned_basenames: 9
     not_owned_owners: 4
   "90d":
     pushes: 175
@@ -76,7 +76,73 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 56 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "shyim"
+    title: "shyim"
+    description: "✨ special ✨ repository ✨"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-25"
+  - name: "mochi"
+    title: "mochi"
+    description: null
+    language: "Makefile"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-25"
+  - name: "akari"
+    title: "akari"
+    description: "A high-performance PHP observability extension. Automatic OpenTelemetry tracing, sampling, and profiling — zero-config, near-zero overhead."
+    language: "C"
+    topics:
+      - "apm"
+      - "c"
+      - "go"
+      - "observability"
+      - "opentelemetry"
+      - "otlp"
+      - "php"
+      - "php-extension"
+      - "profiler"
+      - "tracing"
+    stars_fact: 10
+    first_seen: null
+    last_push: "2026-09-25"
+  - name: "go-pie"
+    title: "go-pie"
+    description: null
+    language: "Go"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-22"
+  - name: "go-phplint"
+    title: "go-phplint"
+    description: "Pure-Go PHP syntax and compile-time linter for PHP 7.2 through 8.6"
+    language: "Go"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-22"
+  - name: "garmin-cf-mcp"
+    title: "garmin-cf-mcp"
+    description: "Multi-tenant Garmin Connect MCP server on Cloudflare Workers. Hosted at https://garmin.shyim.de/mcp"
+    language: "TypeScript"
+    topics:
+      - "cloudflare-workers"
+      - "fitness"
+      - "garmin"
+      - "garmin-connect"
+      - "mcp"
+      - "model-context-protocol"
+      - "oauth"
+      - "typescript"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-22"
 ---
 
 # shyim

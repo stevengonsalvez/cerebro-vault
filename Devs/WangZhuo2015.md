@@ -8,37 +8,37 @@ provenance_repos:
   - "BigPizzaV3/CodexPlusPlus"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-09-24T15:17:54.275119+00:00"
+repos_populated: true
+generated_at: "2026-09-25T06:06:35.067653+00:00"
 provenance:
   - "90688bf127241ceb"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 9, 45]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 9, 49]
 windows:
   "7d":
-    pushes: 45
+    pushes: 49
     distinct_repos: 3
-    active_days: 4
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 54
+    pushes: 58
     distinct_repos: 3
-    active_days: 6
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 54
+    pushes: 58
     distinct_repos: 3
-    active_days: 6
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 9.0000
-  repo_per_active_day: 0.5000
+  push_per_day: 8.2857
+  repo_per_active_day: 0.4286
   not_owned_ratio: 0.0000
   basename_concentration: 0.3333
   shapes: []
@@ -49,38 +49,86 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 45
+    pushes: 49
     distinct_repos: 3
-    pushes_per_repo: 15.0000
-    active_days: 4
+    pushes_per_repo: 16.3333
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 54
+    pushes: 58
     distinct_repos: 3
-    pushes_per_repo: 18.0000
-    active_days: 6
+    pushes_per_repo: 19.3333
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 54
+    pushes: 58
     distinct_repos: 3
-    pushes_per_repo: 18.0000
-    active_days: 6
+    pushes_per_repo: 19.3333
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 6 active days in 90d — pass"
+  - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "baby_panel_for_cecilia"
+    title: "baby_panel_for_cecilia"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-25"
+  - name: "growdesk-server"
+    title: "growdesk-server"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-25"
+  - name: "droiddeck-support"
+    title: "droiddeck-support"
+    description: "DroidDeck support and privacy information"
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-24"
+  - name: "agy-switch"
+    title: "agy-switch"
+    description: "Multi-Account Switcher & Real-Time Quota Dashboard for Google Antigravity CLI"
+    language: "Shell"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-22"
+  - name: "antigravity-cli-delegate"
+    title: "antigravity-cli-delegate"
+    description: "Low-context Gemini delegation skill with event-driven MCP progress, compact results, and no polling"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-11"
+  - name: "st-card-translate"
+    title: "st-card-translate"
+    description: null
+    language: "Rust"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-07-22"
 ---
 
 # WangZhuo2015
 
-54 pushes across 3 repositories on 6 active days in the last 90 days of public GitHub push activity.
+58 pushes across 3 repositories on 7 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/WangZhuo2015
