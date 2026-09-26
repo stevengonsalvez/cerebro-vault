@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-25T06:06:35.067653+00:00"
+generated_at: "2026-09-26T06:06:37.922852+00:00"
 provenance:
   - "745308b2b7085095"
-pushes_per_week: [20, 14, 43, 30, 32, 5, 5, 3, 1, 0, 1, 13, 27]
+pushes_per_week: [17, 18, 48, 25, 24, 4, 6, 3, 0, 0, 1, 30, 11]
 windows:
   "7d":
-    pushes: 31
+    pushes: 24
     distinct_repos: 3
     active_days: 3
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
   "30d":
-    pushes: 41
+    pushes: 42
     distinct_repos: 3
-    active_days: 7
+    active_days: 8
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 194
+    pushes: 187
     distinct_repos: 10
     active_days: 46
     repos_not_owned: 10
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 4.2174
+  push_per_day: 4.0652
   repo_per_active_day: 0.2174
   not_owned_ratio: 1.0000
   basename_concentration: 0.2000
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 31
+    pushes: 24
     distinct_repos: 3
-    pushes_per_repo: 10.3333
+    pushes_per_repo: 8.0000
     active_days: 3
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
   "30d":
-    pushes: 41
+    pushes: 42
     distinct_repos: 3
-    pushes_per_repo: 13.6667
-    active_days: 7
+    pushes_per_repo: 14.0000
+    active_days: 8
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 194
+    pushes: 187
     distinct_repos: 10
-    pushes_per_repo: 19.4000
+    pushes_per_repo: 18.7000
     active_days: 46
     repos_not_owned: 10
     not_owned_basenames: 7
@@ -91,6 +91,6 @@ repos:
 
 # aryeh-stark
 
-194 pushes across 10 repositories on 46 active days in the last 90 days of public GitHub push activity.
+187 pushes across 10 repositories on 46 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/aryeh-stark

@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-25T06:06:35.067653+00:00"
+generated_at: "2026-09-26T06:06:37.922852+00:00"
 provenance:
   - "379642deb53f3714"
-pushes_per_week: [6, 6, 11, 4, 2, 2, 3, 4, 0, 0, 0, 1, 5]
+pushes_per_week: [6, 5, 11, 4, 2, 2, 6, 1, 0, 0, 0, 1, 7]
 windows:
   "7d":
-    pushes: 5
-    distinct_repos: 1
-    active_days: 3
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
-  "30d":
-    pushes: 6
+    pushes: 7
     distinct_repos: 1
     active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
+  "30d":
+    pushes: 8
+    distinct_repos: 1
+    active_days: 5
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
-    pushes: 44
+    pushes: 45
     distinct_repos: 7
     active_days: 30
     repos_not_owned: 1
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.4667
+  push_per_day: 1.5000
   repo_per_active_day: 0.2333
   not_owned_ratio: 0.1429
   basename_concentration: 0.1429
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 5
+    pushes: 7
     distinct_repos: 1
-    pushes_per_repo: 5.0000
-    active_days: 3
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
-  "30d":
-    pushes: 6
-    distinct_repos: 1
-    pushes_per_repo: 6.0000
+    pushes_per_repo: 7.0000
     active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
+  "30d":
+    pushes: 8
+    distinct_repos: 1
+    pushes_per_repo: 8.0000
+    active_days: 5
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
-    pushes: 44
+    pushes: 45
     distinct_repos: 7
-    pushes_per_repo: 6.2857
+    pushes_per_repo: 6.4286
     active_days: 30
     repos_not_owned: 1
     not_owned_basenames: 1
@@ -137,6 +137,6 @@ repos:
 
 # liby
 
-44 pushes across 7 repositories on 30 active days in the last 90 days of public GitHub push activity.
+45 pushes across 7 repositories on 30 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/liby

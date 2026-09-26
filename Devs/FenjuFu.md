@@ -11,40 +11,40 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-25T06:06:35.067653+00:00"
+generated_at: "2026-09-26T06:06:37.922852+00:00"
 provenance:
   - "46f3c1d6124190bd"
   - "c489e6fb5febf2ab"
   - "e5b23adc376a62a9"
-pushes_per_week: [15, 3, 9, 2, 0, 2, 13, 2, 3, 0, 4, 2, 0]
+pushes_per_week: [14, 3, 9, 2, 0, 2, 13, 2, 3, 0, 4, 2, 0]
 windows:
   "7d":
-    pushes: 2
-    distinct_repos: 2
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 7
-    distinct_repos: 6
-    active_days: 4
+    pushes: 6
+    distinct_repos: 5
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 55
-    distinct_repos: 20
-    active_days: 24
-    repos_not_owned: 8
-    not_owned_basenames: 8
+    pushes: 54
+    distinct_repos: 19
+    active_days: 23
+    repos_not_owned: 7
+    not_owned_basenames: 7
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 2.2917
-  repo_per_active_day: 0.8333
-  not_owned_ratio: 0.4000
-  basename_concentration: 0.1000
+  push_per_day: 2.3478
+  repo_per_active_day: 0.8261
+  not_owned_ratio: 0.3684
+  basename_concentration: 0.1053
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -53,32 +53,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
-    distinct_repos: 2
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 7
-    distinct_repos: 6
-    pushes_per_repo: 1.1667
-    active_days: 4
+    pushes: 6
+    distinct_repos: 5
+    pushes_per_repo: 1.2000
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 55
-    distinct_repos: 20
-    pushes_per_repo: 2.7500
-    active_days: 24
-    repos_not_owned: 8
-    not_owned_basenames: 8
+    pushes: 54
+    distinct_repos: 19
+    pushes_per_repo: 2.8421
+    active_days: 23
+    repos_not_owned: 7
+    not_owned_basenames: 7
     not_owned_owners: 2
 reasons:
   - "provenance: 3 vault signal(s) — pass"
-  - "activity: 24 active days in 90d — pass"
+  - "activity: 23 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "astron-images"
@@ -134,6 +134,6 @@ repos:
 
 # FenjuFu
 
-55 pushes across 20 repositories on 24 active days in the last 90 days of public GitHub push activity.
+54 pushes across 19 repositories on 23 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/FenjuFu

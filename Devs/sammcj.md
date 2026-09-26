@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-25T06:06:35.067653+00:00"
+generated_at: "2026-09-26T06:06:37.922852+00:00"
 provenance:
   - "533d51d9d3dea76f"
-pushes_per_week: [17, 6, 0, 1, 4, 6, 9, 5, 4, 1, 3, 1, 2]
+pushes_per_week: [17, 5, 0, 1, 5, 6, 8, 6, 3, 1, 3, 1, 5]
 windows:
   "7d":
-    pushes: 2
+    pushes: 5
     distinct_repos: 2
-    active_days: 2
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 7
+    pushes: 10
     distinct_repos: 5
-    active_days: 7
+    active_days: 8
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 59
-    distinct_repos: 18
+    pushes: 61
+    distinct_repos: 17
     active_days: 35
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.6857
-  repo_per_active_day: 0.5143
+  push_per_day: 1.7429
+  repo_per_active_day: 0.4857
   not_owned_ratio: 0.0000
-  basename_concentration: 0.0556
+  basename_concentration: 0.0588
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
+    pushes: 5
     distinct_repos: 2
-    pushes_per_repo: 1.0000
-    active_days: 2
+    pushes_per_repo: 2.5000
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 7
+    pushes: 10
     distinct_repos: 5
-    pushes_per_repo: 1.4000
-    active_days: 7
+    pushes_per_repo: 2.0000
+    active_days: 8
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 59
-    distinct_repos: 18
-    pushes_per_repo: 3.2778
+    pushes: 61
+    distinct_repos: 17
+    pushes_per_repo: 3.5882
     active_days: 35
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -170,6 +170,6 @@ repos:
 
 # sammcj
 
-59 pushes across 18 repositories on 35 active days in the last 90 days of public GitHub push activity.
+61 pushes across 17 repositories on 35 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/sammcj

@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-25T06:06:35.067653+00:00"
+generated_at: "2026-09-26T06:06:37.922852+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [29, 30, 26, 10, 2, 7, 2, 5, 5, 0, 6, 7, 11]
+pushes_per_week: [26, 31, 27, 7, 2, 7, 5, 2, 5, 0, 6, 8, 11]
 windows:
   "7d":
-    pushes: 14
+    pushes: 12
     distinct_repos: 6
     active_days: 7
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
   "30d":
-    pushes: 26
+    pushes: 27
     distinct_repos: 11
-    active_days: 14
+    active_days: 15
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 4
   "90d":
-    pushes: 140
+    pushes: 137
     distinct_repos: 27
     active_days: 52
     repos_not_owned: 10
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 5
 automation:
   state: "clear"
-  push_per_day: 2.6923
+  push_per_day: 2.6346
   repo_per_active_day: 0.5192
   not_owned_ratio: 0.3704
   basename_concentration: 0.0741
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 14
+    pushes: 12
     distinct_repos: 6
-    pushes_per_repo: 2.3333
+    pushes_per_repo: 2.0000
     active_days: 7
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
   "30d":
-    pushes: 26
+    pushes: 27
     distinct_repos: 11
-    pushes_per_repo: 2.3636
-    active_days: 14
+    pushes_per_repo: 2.4545
+    active_days: 15
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 4
   "90d":
-    pushes: 140
+    pushes: 137
     distinct_repos: 27
-    pushes_per_repo: 5.1852
+    pushes_per_repo: 5.0741
     active_days: 52
     repos_not_owned: 10
     not_owned_basenames: 10
@@ -129,6 +129,6 @@ repos:
 
 # razzeee
 
-140 pushes across 27 repositories on 52 active days in the last 90 days of public GitHub push activity.
+137 pushes across 27 repositories on 52 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/razzeee

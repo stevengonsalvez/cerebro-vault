@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-25T06:06:35.067653+00:00"
+generated_at: "2026-09-26T06:06:37.922852+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [35, 21, 10, 13, 13, 4, 4, 4, 7, 2, 1, 4, 14]
+pushes_per_week: [33, 21, 10, 13, 13, 5, 3, 4, 7, 2, 1, 11, 8]
 windows:
   "7d":
-    pushes: 18
+    pushes: 13
     distinct_repos: 2
     active_days: 4
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 21
+    pushes: 22
     distinct_repos: 2
-    active_days: 6
+    active_days: 7
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 132
+    pushes: 131
     distinct_repos: 8
     active_days: 42
     repos_not_owned: 4
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 4
 automation:
   state: "clear"
-  push_per_day: 3.1429
+  push_per_day: 3.1190
   repo_per_active_day: 0.1905
   not_owned_ratio: 0.5000
   basename_concentration: 0.5000
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 18
+    pushes: 13
     distinct_repos: 2
-    pushes_per_repo: 9.0000
+    pushes_per_repo: 6.5000
     active_days: 4
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 21
+    pushes: 22
     distinct_repos: 2
-    pushes_per_repo: 10.5000
-    active_days: 6
+    pushes_per_repo: 11.0000
+    active_days: 7
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 132
+    pushes: 131
     distinct_repos: 8
-    pushes_per_repo: 16.5000
+    pushes_per_repo: 16.3750
     active_days: 42
     repos_not_owned: 4
     not_owned_basenames: 1
@@ -139,6 +139,6 @@ repos:
 
 # Brendonovich
 
-132 pushes across 8 repositories on 42 active days in the last 90 days of public GitHub push activity.
+131 pushes across 8 repositories on 42 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Brendonovich

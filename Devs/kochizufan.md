@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-25T06:06:35.067653+00:00"
+generated_at: "2026-09-26T06:06:37.922852+00:00"
 provenance:
   - "386c24cf5e18fd90"
-pushes_per_week: [5, 9, 1, 11, 11, 3, 6, 3, 0, 0, 0, 5, 3]
+pushes_per_week: [10, 4, 2, 14, 8, 5, 3, 3, 0, 0, 0, 8, 1]
 windows:
   "7d":
-    pushes: 4
+    pushes: 3
     distinct_repos: 2
     active_days: 2
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 8
-    distinct_repos: 6
-    active_days: 6
-    repos_not_owned: 6
-    not_owned_basenames: 6
+    pushes: 9
+    distinct_repos: 7
+    active_days: 7
+    repos_not_owned: 7
+    not_owned_basenames: 7
     not_owned_owners: 1
   "90d":
-    pushes: 57
+    pushes: 58
     distinct_repos: 9
-    active_days: 26
+    active_days: 27
     repos_not_owned: 9
     not_owned_basenames: 9
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.1923
-  repo_per_active_day: 0.3462
+  push_per_day: 2.1481
+  repo_per_active_day: 0.3333
   not_owned_ratio: 1.0000
   basename_concentration: 0.1111
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 4
+    pushes: 3
     distinct_repos: 2
-    pushes_per_repo: 2.0000
+    pushes_per_repo: 1.5000
     active_days: 2
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 8
-    distinct_repos: 6
-    pushes_per_repo: 1.3333
-    active_days: 6
-    repos_not_owned: 6
-    not_owned_basenames: 6
+    pushes: 9
+    distinct_repos: 7
+    pushes_per_repo: 1.2857
+    active_days: 7
+    repos_not_owned: 7
+    not_owned_basenames: 7
     not_owned_owners: 1
   "90d":
-    pushes: 57
+    pushes: 58
     distinct_repos: 9
-    pushes_per_repo: 6.3333
-    active_days: 26
+    pushes_per_repo: 6.4444
+    active_days: 27
     repos_not_owned: 9
     not_owned_basenames: 9
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 26 active days in 90d — pass"
+  - "activity: 27 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "webclgl"
@@ -129,6 +129,6 @@ repos:
 
 # kochizufan
 
-57 pushes across 9 repositories on 26 active days in the last 90 days of public GitHub push activity.
+58 pushes across 9 repositories on 27 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/kochizufan

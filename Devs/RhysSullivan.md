@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-25T06:06:35.067653+00:00"
+generated_at: "2026-09-26T06:06:37.922852+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [173, 76, 7, 9, 21, 8, 2, 11, 4, 4, 2, 23, 26]
+pushes_per_week: [166, 60, 10, 5, 21, 8, 2, 11, 7, 1, 4, 22, 27]
 windows:
   "7d":
-    pushes: 33
+    pushes: 27
     distinct_repos: 2
     active_days: 7
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
   "30d":
-    pushes: 58
+    pushes: 60
     distinct_repos: 6
-    active_days: 15
+    active_days: 17
     repos_not_owned: 6
     not_owned_basenames: 2
     not_owned_owners: 6
   "90d":
-    pushes: 366
+    pushes: 344
     distinct_repos: 14
-    active_days: 53
+    active_days: 54
     repos_not_owned: 11
     not_owned_basenames: 6
     not_owned_owners: 7
 automation:
   state: "clear"
-  push_per_day: 6.9057
-  repo_per_active_day: 0.2642
+  push_per_day: 6.3704
+  repo_per_active_day: 0.2593
   not_owned_ratio: 0.7857
   basename_concentration: 0.5000
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 33
+    pushes: 27
     distinct_repos: 2
-    pushes_per_repo: 16.5000
+    pushes_per_repo: 13.5000
     active_days: 7
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
   "30d":
-    pushes: 58
+    pushes: 60
     distinct_repos: 6
-    pushes_per_repo: 9.6667
-    active_days: 15
+    pushes_per_repo: 10.0000
+    active_days: 17
     repos_not_owned: 6
     not_owned_basenames: 2
     not_owned_owners: 6
   "90d":
-    pushes: 366
+    pushes: 344
     distinct_repos: 14
-    pushes_per_repo: 26.1429
-    active_days: 53
+    pushes_per_repo: 24.5714
+    active_days: 54
     repos_not_owned: 11
     not_owned_basenames: 6
     not_owned_owners: 7
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 53 active days in 90d — pass"
+  - "activity: 54 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "epstein-files-browser"
@@ -129,6 +129,6 @@ repos:
 
 # RhysSullivan
 
-366 pushes across 14 repositories on 53 active days in the last 90 days of public GitHub push activity.
+344 pushes across 14 repositories on 54 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/RhysSullivan

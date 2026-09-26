@@ -10,37 +10,37 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-25T06:06:35.067653+00:00"
+generated_at: "2026-09-26T06:06:37.922852+00:00"
 provenance:
   - "c1af6b58492f9bf4"
   - "ddd7486148a91958"
-pushes_per_week: [3, 1, 0, 1, 0, 1, 4, 2, 2, 0, 0, 1, 3]
+pushes_per_week: [4, 0, 0, 1, 0, 1, 4, 4, 0, 0, 0, 1, 4]
 windows:
   "7d":
-    pushes: 3
-    distinct_repos: 1
-    active_days: 2
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
-  "30d":
     pushes: 4
-    distinct_repos: 2
+    distinct_repos: 1
     active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
+  "30d":
+    pushes: 5
+    distinct_repos: 2
+    active_days: 4
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
-    pushes: 18
+    pushes: 19
     distinct_repos: 6
-    active_days: 13
+    active_days: 14
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.3846
-  repo_per_active_day: 0.4615
+  push_per_day: 1.3571
+  repo_per_active_day: 0.4286
   not_owned_ratio: 0.3333
   basename_concentration: 0.3333
   shapes: []
@@ -51,32 +51,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 3
-    distinct_repos: 1
-    pushes_per_repo: 3.0000
-    active_days: 2
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
-  "30d":
     pushes: 4
-    distinct_repos: 2
-    pushes_per_repo: 2.0000
+    distinct_repos: 1
+    pushes_per_repo: 4.0000
     active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
+  "30d":
+    pushes: 5
+    distinct_repos: 2
+    pushes_per_repo: 2.5000
+    active_days: 4
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
-    pushes: 18
+    pushes: 19
     distinct_repos: 6
-    pushes_per_repo: 3.0000
-    active_days: 13
+    pushes_per_repo: 3.1667
+    active_days: 14
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 13 active days in 90d — pass"
+  - "activity: 14 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "screenstudio-cli"
@@ -135,6 +135,6 @@ repos:
 
 # ShawnPana
 
-18 pushes across 6 repositories on 13 active days in the last 90 days of public GitHub push activity.
+19 pushes across 6 repositories on 14 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ShawnPana

@@ -10,10 +10,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-25T06:06:35.067653+00:00"
+generated_at: "2026-09-26T06:06:37.922852+00:00"
 provenance:
   - "6d3bd03b49986330"
-pushes_per_week: [12, 13, 2, 6, 0, 0, 13, 0, 1, 0, 0, 0, 0]
+pushes_per_week: [7, 13, 5, 2, 0, 0, 13, 1, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -30,22 +30,22 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 47
-    distinct_repos: 12
-    active_days: 16
+    pushes: 41
+    distinct_repos: 11
+    active_days: 14
     repos_not_owned: 9
     not_owned_basenames: 1
     not_owned_owners: 9
 automation:
   state: "clear"
-  push_per_day: 2.9375
-  repo_per_active_day: 0.7500
-  not_owned_ratio: 0.7500
-  basename_concentration: 0.8333
+  push_per_day: 2.9286
+  repo_per_active_day: 0.7857
+  not_owned_ratio: 0.8182
+  basename_concentration: 0.9091
   shapes:
     - "fork_farm_own_upstream"
   shape_evidence:
-    - "basename concentration 0.8333 (10 of 12 repos share one basename), 9 not owned across 1 basenames — 5 of 5 sampled repos resolved; 5 fork an upstream this account owns; upstreams: calesthio/OpenMontage"
+    - "basename concentration 0.9091 (10 of 11 repos share one basename), 9 not owned across 1 basenames — 5 of 5 sampled repos resolved; 5 fork an upstream this account owns; upstreams: calesthio/OpenMontage"
   cleared_by: "e01-builder"
   cleared_on: "2026-08-26"
   fork_provenance:
@@ -82,16 +82,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 47
-    distinct_repos: 12
-    pushes_per_repo: 3.9167
-    active_days: 16
+    pushes: 41
+    distinct_repos: 11
+    pushes_per_repo: 3.7273
+    active_days: 14
     repos_not_owned: 9
     not_owned_basenames: 1
     not_owned_owners: 9
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 16 active days in 90d — pass"
+  - "activity: 14 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "Crucix"
@@ -228,6 +228,6 @@ repos:
 
 # calesthio
 
-47 pushes across 12 repositories on 16 active days in the last 90 days of public GitHub push activity.
+41 pushes across 11 repositories on 14 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/calesthio

@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-25T06:06:35.067653+00:00"
+generated_at: "2026-09-26T06:06:37.922852+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [4, 8, 13, 14, 10, 2, 7, 2, 1, 0, 2, 9, 4]
+pushes_per_week: [2, 9, 13, 13, 10, 3, 7, 2, 0, 0, 4, 7, 7]
 windows:
   "7d":
-    pushes: 8
-    distinct_repos: 7
+    pushes: 7
+    distinct_repos: 6
     active_days: 5
-    repos_not_owned: 3
-    not_owned_basenames: 3
+    repos_not_owned: 2
+    not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 15
+    pushes: 18
     distinct_repos: 10
-    active_days: 10
+    active_days: 11
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 1
   "90d":
-    pushes: 76
+    pushes: 77
     distinct_repos: 21
     active_days: 41
     repos_not_owned: 9
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 1.8537
+  push_per_day: 1.8780
   repo_per_active_day: 0.5122
   not_owned_ratio: 0.4286
   basename_concentration: 0.1429
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 8
-    distinct_repos: 7
-    pushes_per_repo: 1.1429
+    pushes: 7
+    distinct_repos: 6
+    pushes_per_repo: 1.1667
     active_days: 5
-    repos_not_owned: 3
-    not_owned_basenames: 3
+    repos_not_owned: 2
+    not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 15
+    pushes: 18
     distinct_repos: 10
-    pushes_per_repo: 1.5000
-    active_days: 10
+    pushes_per_repo: 1.8000
+    active_days: 11
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 1
   "90d":
-    pushes: 76
+    pushes: 77
     distinct_repos: 21
-    pushes_per_repo: 3.6190
+    pushes_per_repo: 3.6667
     active_days: 41
     repos_not_owned: 9
     not_owned_basenames: 8
@@ -129,6 +129,6 @@ repos:
 
 # thedadams
 
-76 pushes across 21 repositories on 41 active days in the last 90 days of public GitHub push activity.
+77 pushes across 21 repositories on 41 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/thedadams

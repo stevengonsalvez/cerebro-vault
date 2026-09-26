@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-25T06:06:35.067653+00:00"
+generated_at: "2026-09-26T06:06:37.922852+00:00"
 provenance:
   - "edb3a626875732de"
-pushes_per_week: [80, 70, 39, 62, 26, 11, 32, 5, 11, 2, 3, 1, 7]
+pushes_per_week: [68, 60, 44, 56, 25, 13, 29, 8, 7, 2, 3, 5, 5]
 windows:
   "7d":
-    pushes: 8
+    pushes: 7
     distinct_repos: 1
     active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 15
+    pushes: 16
     distinct_repos: 1
     active_days: 9
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 349
+    pushes: 325
     distinct_repos: 4
     active_days: 60
     repos_not_owned: 0
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 5.8167
+  push_per_day: 5.4167
   repo_per_active_day: 0.0667
   not_owned_ratio: 0.0000
   basename_concentration: 0.2500
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 8
+    pushes: 7
     distinct_repos: 1
-    pushes_per_repo: 8.0000
+    pushes_per_repo: 7.0000
     active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 15
+    pushes: 16
     distinct_repos: 1
-    pushes_per_repo: 15.0000
+    pushes_per_repo: 16.0000
     active_days: 9
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 349
+    pushes: 325
     distinct_repos: 4
-    pushes_per_repo: 87.2500
+    pushes_per_repo: 81.2500
     active_days: 60
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -127,6 +127,6 @@ repos:
 
 # chris-yyau
 
-349 pushes across 4 repositories on 60 active days in the last 90 days of public GitHub push activity.
+325 pushes across 4 repositories on 60 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/chris-yyau

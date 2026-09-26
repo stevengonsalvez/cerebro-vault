@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-25T06:06:35.067653+00:00"
+generated_at: "2026-09-26T06:06:37.922852+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [64, 139, 83, 54, 78, 54, 47, 2, 24, 1, 8, 8, 48]
+pushes_per_week: [70, 137, 79, 52, 70, 65, 34, 13, 13, 1, 8, 11, 54]
 windows:
   "7d":
-    pushes: 48
+    pushes: 57
     distinct_repos: 8
-    active_days: 6
+    active_days: 7
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 2
   "30d":
-    pushes: 66
+    pushes: 74
     distinct_repos: 12
     active_days: 15
     repos_not_owned: 7
     not_owned_basenames: 7
     not_owned_owners: 2
   "90d":
-    pushes: 610
+    pushes: 607
     distinct_repos: 46
     active_days: 67
     repos_not_owned: 37
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 4
 automation:
   state: "clear"
-  push_per_day: 9.1045
+  push_per_day: 9.0597
   repo_per_active_day: 0.6866
   not_owned_ratio: 0.8043
   basename_concentration: 0.0217
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 48
+    pushes: 57
     distinct_repos: 8
-    pushes_per_repo: 6.0000
-    active_days: 6
+    pushes_per_repo: 7.1250
+    active_days: 7
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 2
   "30d":
-    pushes: 66
+    pushes: 74
     distinct_repos: 12
-    pushes_per_repo: 5.5000
+    pushes_per_repo: 6.1667
     active_days: 15
     repos_not_owned: 7
     not_owned_basenames: 7
     not_owned_owners: 2
   "90d":
-    pushes: 610
+    pushes: 607
     distinct_repos: 46
-    pushes_per_repo: 13.2609
+    pushes_per_repo: 13.1957
     active_days: 67
     repos_not_owned: 37
     not_owned_basenames: 37
@@ -129,6 +129,6 @@ repos:
 
 # paralin
 
-610 pushes across 46 repositories on 67 active days in the last 90 days of public GitHub push activity.
+607 pushes across 46 repositories on 67 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/paralin

@@ -10,11 +10,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-25T06:06:35.067653+00:00"
+generated_at: "2026-09-26T06:06:37.922852+00:00"
 provenance:
   - "16389f32495280ea"
   - "541318303a272608"
-pushes_per_week: [56, 1, 2, 5, 0, 0, 1, 3, 1, 0, 0, 0, 0]
+pushes_per_week: [39, 1, 6, 1, 0, 1, 0, 3, 1, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -31,16 +31,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 69
+    pushes: 52
     distinct_repos: 7
-    active_days: 13
+    active_days: 12
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 5.3077
-  repo_per_active_day: 0.5385
+  push_per_day: 4.3333
+  repo_per_active_day: 0.5833
   not_owned_ratio: 0.0000
   basename_concentration: 0.1429
   shapes: []
@@ -67,16 +67,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 69
+    pushes: 52
     distinct_repos: 7
-    pushes_per_repo: 9.8571
-    active_days: 13
+    pushes_per_repo: 7.4286
+    active_days: 12
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 13 active days in 90d — pass"
+  - "activity: 12 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "engram"
@@ -136,6 +136,6 @@ repos:
 
 # ly-wang19
 
-69 pushes across 7 repositories on 13 active days in the last 90 days of public GitHub push activity.
+52 pushes across 7 repositories on 12 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ly-wang19

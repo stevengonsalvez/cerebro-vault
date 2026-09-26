@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-25T06:06:35.067653+00:00"
+generated_at: "2026-09-26T06:06:37.922852+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [23, 30, 17, 8, 3, 1, 5, 1, 0, 0, 2, 0, 3]
+pushes_per_week: [36, 19, 16, 6, 3, 1, 5, 1, 0, 0, 2, 0, 3]
 windows:
   "7d":
     pushes: 3
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 93
+    pushes: 92
     distinct_repos: 12
-    active_days: 38
+    active_days: 37
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.4474
-  repo_per_active_day: 0.3158
+  push_per_day: 2.4865
+  repo_per_active_day: 0.3243
   not_owned_ratio: 0.0000
   basename_concentration: 0.0833
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 93
+    pushes: 92
     distinct_repos: 12
-    pushes_per_repo: 7.7500
-    active_days: 38
+    pushes_per_repo: 7.6667
+    active_days: 37
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 38 active days in 90d — pass"
+  - "activity: 37 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "fcm-hosts-next"
@@ -129,6 +129,6 @@ repos:
 
 # cagedbird043
 
-93 pushes across 12 repositories on 38 active days in the last 90 days of public GitHub push activity.
+92 pushes across 12 repositories on 37 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/cagedbird043

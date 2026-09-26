@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-25T06:06:35.067653+00:00"
+generated_at: "2026-09-26T06:06:37.922852+00:00"
 provenance:
   - "541318303a272608"
-pushes_per_week: [47, 2, 1, 7, 1, 2, 6, 6, 3, 1, 3, 4, 8]
+pushes_per_week: [39, 2, 3, 5, 1, 2, 9, 5, 1, 1, 3, 5, 10]
 windows:
   "7d":
-    pushes: 8
+    pushes: 11
     distinct_repos: 4
-    active_days: 4
+    active_days: 5
     repos_not_owned: 3
     not_owned_basenames: 1
     not_owned_owners: 3
   "30d":
-    pushes: 17
-    distinct_repos: 6
+    pushes: 19
+    distinct_repos: 5
     active_days: 11
     repos_not_owned: 4
     not_owned_basenames: 1
     not_owned_owners: 4
   "90d":
-    pushes: 91
+    pushes: 86
     distinct_repos: 9
     active_days: 34
     repos_not_owned: 5
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 5
 automation:
   state: "clear"
-  push_per_day: 2.6765
+  push_per_day: 2.5294
   repo_per_active_day: 0.2647
   not_owned_ratio: 0.5556
   basename_concentration: 0.4444
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 8
+    pushes: 11
     distinct_repos: 4
-    pushes_per_repo: 2.0000
-    active_days: 4
+    pushes_per_repo: 2.7500
+    active_days: 5
     repos_not_owned: 3
     not_owned_basenames: 1
     not_owned_owners: 3
   "30d":
-    pushes: 17
-    distinct_repos: 6
-    pushes_per_repo: 2.8333
+    pushes: 19
+    distinct_repos: 5
+    pushes_per_repo: 3.8000
     active_days: 11
     repos_not_owned: 4
     not_owned_basenames: 1
     not_owned_owners: 4
   "90d":
-    pushes: 91
+    pushes: 86
     distinct_repos: 9
-    pushes_per_repo: 10.1111
+    pushes_per_repo: 9.5556
     active_days: 34
     repos_not_owned: 5
     not_owned_basenames: 2
@@ -148,6 +148,6 @@ repos:
 
 # hikariming
 
-91 pushes across 9 repositories on 34 active days in the last 90 days of public GitHub push activity.
+86 pushes across 9 repositories on 34 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/hikariming

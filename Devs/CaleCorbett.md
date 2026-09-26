@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-25T06:06:35.067653+00:00"
+generated_at: "2026-09-26T06:06:37.922852+00:00"
 provenance:
   - "3cb7ff1cdcf97c6b"
-pushes_per_week: [2, 19, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [5, 15, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 23
+    pushes: 22
     distinct_repos: 2
-    active_days: 6
+    active_days: 5
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 3.8333
-  repo_per_active_day: 0.3333
+  push_per_day: 4.4000
+  repo_per_active_day: 0.4000
   not_owned_ratio: 0.5000
   basename_concentration: 0.5000
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 23
+    pushes: 22
     distinct_repos: 2
-    pushes_per_repo: 11.5000
-    active_days: 6
+    pushes_per_repo: 11.0000
+    active_days: 5
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 6 active days in 90d — pass"
+  - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "stallsignal"
@@ -105,6 +105,6 @@ repos:
 
 # CaleCorbett
 
-23 pushes across 2 repositories on 6 active days in the last 90 days of public GitHub push activity.
+22 pushes across 2 repositories on 5 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/CaleCorbett

@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-25T06:06:35.067653+00:00"
+generated_at: "2026-09-26T06:06:37.922852+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [2, 2, 3, 2, 9, 14, 10, 1, 4, 0, 2, 14, 13]
+pushes_per_week: [2, 4, 1, 2, 11, 12, 10, 1, 4, 0, 3, 15, 20]
 windows:
   "7d":
-    pushes: 14
+    pushes: 22
     distinct_repos: 4
     active_days: 4
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 30
-    distinct_repos: 9
+    pushes: 38
+    distinct_repos: 8
     active_days: 12
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 76
+    pushes: 85
     distinct_repos: 17
-    active_days: 33
+    active_days: 34
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 2.3030
-  repo_per_active_day: 0.5152
+  push_per_day: 2.5000
+  repo_per_active_day: 0.5000
   not_owned_ratio: 0.2353
   basename_concentration: 0.1176
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 14
+    pushes: 22
     distinct_repos: 4
-    pushes_per_repo: 3.5000
+    pushes_per_repo: 5.5000
     active_days: 4
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 30
-    distinct_repos: 9
-    pushes_per_repo: 3.3333
+    pushes: 38
+    distinct_repos: 8
+    pushes_per_repo: 4.7500
     active_days: 12
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 76
+    pushes: 85
     distinct_repos: 17
-    pushes_per_repo: 4.4706
-    active_days: 33
+    pushes_per_repo: 5.0000
+    active_days: 34
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 33 active days in 90d — pass"
+  - "activity: 34 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "omp-classifier"
@@ -134,6 +134,6 @@ repos:
 
 # STRML
 
-76 pushes across 17 repositories on 33 active days in the last 90 days of public GitHub push activity.
+85 pushes across 17 repositories on 34 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/STRML

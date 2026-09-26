@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-25T06:06:35.067653+00:00"
+generated_at: "2026-09-26T06:06:37.922852+00:00"
 provenance:
   - "b5590ec052a4f771"
-pushes_per_week: [64, 68, 43, 26, 24, 11, 64, 20, 7, 1, 7, 20, 38]
+pushes_per_week: [62, 69, 41, 30, 19, 32, 48, 17, 5, 1, 9, 18, 49]
 windows:
   "7d":
-    pushes: 41
+    pushes: 49
     distinct_repos: 3
     active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 67
+    pushes: 77
     distinct_repos: 3
     active_days: 16
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 393
+    pushes: 400
     distinct_repos: 4
-    active_days: 71
+    active_days: 70
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 5.5352
-  repo_per_active_day: 0.0563
+  push_per_day: 5.7143
+  repo_per_active_day: 0.0571
   not_owned_ratio: 0.0000
   basename_concentration: 0.2500
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 41
+    pushes: 49
     distinct_repos: 3
-    pushes_per_repo: 13.6667
+    pushes_per_repo: 16.3333
     active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 67
+    pushes: 77
     distinct_repos: 3
-    pushes_per_repo: 22.3333
+    pushes_per_repo: 25.6667
     active_days: 16
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 393
+    pushes: 400
     distinct_repos: 4
-    pushes_per_repo: 98.2500
-    active_days: 71
+    pushes_per_repo: 100.0000
+    active_days: 70
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 71 active days in 90d — pass"
+  - "activity: 70 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "DeepSeek-Reasonix"
@@ -180,6 +180,6 @@ repos:
 
 # esengine
 
-393 pushes across 4 repositories on 71 active days in the last 90 days of public GitHub push activity.
+400 pushes across 4 repositories on 70 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/esengine

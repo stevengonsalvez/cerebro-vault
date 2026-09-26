@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-25T06:06:35.067653+00:00"
+generated_at: "2026-09-26T06:06:37.922852+00:00"
 provenance:
   - "36da1b921f121c1d"
-pushes_per_week: [35, 22, 23, 8, 17, 3, 2, 1, 4, 1, 2, 4, 12]
+pushes_per_week: [34, 22, 23, 8, 17, 3, 2, 1, 4, 1, 2, 4, 16]
 windows:
   "7d":
-    pushes: 12
+    pushes: 16
     distinct_repos: 2
-    active_days: 2
+    active_days: 3
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 19
+    pushes: 23
     distinct_repos: 5
-    active_days: 7
+    active_days: 8
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 3
   "90d":
-    pushes: 134
+    pushes: 137
     distinct_repos: 12
     active_days: 36
     repos_not_owned: 8
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 3.7222
+  push_per_day: 3.8056
   repo_per_active_day: 0.3333
   not_owned_ratio: 0.6667
   basename_concentration: 0.1667
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 12
+    pushes: 16
     distinct_repos: 2
-    pushes_per_repo: 6.0000
-    active_days: 2
+    pushes_per_repo: 8.0000
+    active_days: 3
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 19
+    pushes: 23
     distinct_repos: 5
-    pushes_per_repo: 3.8000
-    active_days: 7
+    pushes_per_repo: 4.6000
+    active_days: 8
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 3
   "90d":
-    pushes: 134
+    pushes: 137
     distinct_repos: 12
-    pushes_per_repo: 11.1667
+    pushes_per_repo: 11.4167
     active_days: 36
     repos_not_owned: 8
     not_owned_basenames: 8
@@ -158,6 +158,6 @@ repos:
 
 # mattzcarey
 
-134 pushes across 12 repositories on 36 active days in the last 90 days of public GitHub push activity.
+137 pushes across 12 repositories on 36 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/mattzcarey

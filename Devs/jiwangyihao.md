@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-25T06:06:35.067653+00:00"
+generated_at: "2026-09-26T06:06:37.922852+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [11, 5, 0, 0, 0, 1, 36, 1, 11, 1, 23, 34, 1]
+pushes_per_week: [10, 5, 0, 0, 0, 1, 36, 1, 11, 1, 23, 34, 2]
 windows:
   "7d":
-    pushes: 34
-    distinct_repos: 34
+    pushes: 2
+    distinct_repos: 2
     active_days: 2
-    repos_not_owned: 34
-    not_owned_basenames: 34
+    repos_not_owned: 2
+    not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
     pushes: 60
-    distinct_repos: 55
+    distinct_repos: 54
     active_days: 8
-    repos_not_owned: 52
-    not_owned_basenames: 52
+    repos_not_owned: 51
+    not_owned_basenames: 51
     not_owned_owners: 1
   "90d":
     pushes: 124
     distinct_repos: 80
-    active_days: 22
+    active_days: 23
     repos_not_owned: 74
     not_owned_basenames: 74
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 5.6364
-  repo_per_active_day: 3.6364
+  push_per_day: 5.3913
+  repo_per_active_day: 3.4783
   not_owned_ratio: 0.9250
   basename_concentration: 0.0125
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 34
-    distinct_repos: 34
+    pushes: 2
+    distinct_repos: 2
     pushes_per_repo: 1.0000
     active_days: 2
-    repos_not_owned: 34
-    not_owned_basenames: 34
+    repos_not_owned: 2
+    not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
     pushes: 60
-    distinct_repos: 55
-    pushes_per_repo: 1.0909
+    distinct_repos: 54
+    pushes_per_repo: 1.1111
     active_days: 8
-    repos_not_owned: 52
-    not_owned_basenames: 52
+    repos_not_owned: 51
+    not_owned_basenames: 51
     not_owned_owners: 1
   "90d":
     pushes: 124
     distinct_repos: 80
     pushes_per_repo: 1.5500
-    active_days: 22
+    active_days: 23
     repos_not_owned: 74
     not_owned_basenames: 74
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 22 active days in 90d — pass"
+  - "activity: 23 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "source-j-legado"
@@ -129,6 +129,6 @@ repos:
 
 # jiwangyihao
 
-124 pushes across 80 repositories on 22 active days in the last 90 days of public GitHub push activity.
+124 pushes across 80 repositories on 23 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/jiwangyihao

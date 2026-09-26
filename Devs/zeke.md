@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-25T06:06:35.067653+00:00"
+generated_at: "2026-09-26T06:06:37.922852+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [21, 8, 13, 8, 5, 6, 10, 2, 2, 0, 0, 4, 4]
+pushes_per_week: [22, 6, 15, 7, 5, 7, 8, 3, 1, 0, 0, 5, 5]
 windows:
   "7d":
-    pushes: 4
+    pushes: 5
     distinct_repos: 3
-    active_days: 4
+    active_days: 5
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 8
+    pushes: 10
     distinct_repos: 3
-    active_days: 8
+    active_days: 10
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 83
+    pushes: 84
     distinct_repos: 14
-    active_days: 45
+    active_days: 46
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.8444
-  repo_per_active_day: 0.3111
+  push_per_day: 1.8261
+  repo_per_active_day: 0.3043
   not_owned_ratio: 0.1429
   basename_concentration: 0.0714
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 4
+    pushes: 5
     distinct_repos: 3
-    pushes_per_repo: 1.3333
-    active_days: 4
+    pushes_per_repo: 1.6667
+    active_days: 5
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 8
+    pushes: 10
     distinct_repos: 3
-    pushes_per_repo: 2.6667
-    active_days: 8
+    pushes_per_repo: 3.3333
+    active_days: 10
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 83
+    pushes: 84
     distinct_repos: 14
-    pushes_per_repo: 5.9286
-    active_days: 45
+    pushes_per_repo: 6.0000
+    active_days: 46
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 45 active days in 90d — pass"
+  - "activity: 46 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "small-app-gardener"
@@ -129,6 +129,6 @@ repos:
 
 # zeke
 
-83 pushes across 14 repositories on 45 active days in the last 90 days of public GitHub push activity.
+84 pushes across 14 repositories on 46 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/zeke

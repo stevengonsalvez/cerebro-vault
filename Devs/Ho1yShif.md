@@ -9,18 +9,18 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-25T06:06:35.067653+00:00"
+generated_at: "2026-09-26T06:06:37.922852+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [12, 21, 6, 29, 12, 7, 5, 3, 0, 0, 1, 2, 1]
+pushes_per_week: [5, 22, 10, 26, 11, 6, 5, 3, 0, 0, 1, 2, 1]
 windows:
   "7d":
-    pushes: 3
-    distinct_repos: 3
-    active_days: 2
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
     pushes: 4
     distinct_repos: 4
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 99
-    distinct_repos: 29
-    active_days: 33
+    pushes: 92
+    distinct_repos: 28
+    active_days: 32
     repos_not_owned: 11
     not_owned_basenames: 11
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 3.0000
-  repo_per_active_day: 0.8788
-  not_owned_ratio: 0.3793
-  basename_concentration: 0.0690
+  push_per_day: 2.8750
+  repo_per_active_day: 0.8750
+  not_owned_ratio: 0.3929
+  basename_concentration: 0.0714
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,13 +49,13 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 3
-    distinct_repos: 3
+    pushes: 1
+    distinct_repos: 1
     pushes_per_repo: 1.0000
-    active_days: 2
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    active_days: 1
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
     pushes: 4
     distinct_repos: 4
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 99
-    distinct_repos: 29
-    pushes_per_repo: 3.4138
-    active_days: 33
+    pushes: 92
+    distinct_repos: 28
+    pushes_per_repo: 3.2857
+    active_days: 32
     repos_not_owned: 11
     not_owned_basenames: 11
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 33 active days in 90d — pass"
+  - "activity: 32 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "grouplink-py"
@@ -129,6 +129,6 @@ repos:
 
 # Ho1yShif
 
-99 pushes across 29 repositories on 33 active days in the last 90 days of public GitHub push activity.
+92 pushes across 28 repositories on 32 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Ho1yShif

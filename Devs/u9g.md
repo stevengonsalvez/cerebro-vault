@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-25T06:06:35.067653+00:00"
+generated_at: "2026-09-26T06:06:37.922852+00:00"
 provenance:
   - "379642deb53f3714"
-pushes_per_week: [10, 1, 4, 3, 13, 1, 4, 2, 11, 2, 11, 8, 15]
+pushes_per_week: [10, 1, 4, 3, 13, 1, 5, 2, 10, 2, 14, 16, 8]
 windows:
   "7d":
-    pushes: 16
+    pushes: 19
     distinct_repos: 11
     active_days: 5
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
   "30d":
-    pushes: 44
-    distinct_repos: 19
-    active_days: 16
+    pushes: 41
+    distinct_repos: 20
+    active_days: 17
     repos_not_owned: 6
     not_owned_basenames: 6
     not_owned_owners: 3
   "90d":
-    pushes: 85
-    distinct_repos: 24
-    active_days: 38
+    pushes: 89
+    distinct_repos: 25
+    active_days: 39
     repos_not_owned: 11
     not_owned_basenames: 11
     not_owned_owners: 4
 automation:
   state: "clear"
-  push_per_day: 2.2368
-  repo_per_active_day: 0.6316
-  not_owned_ratio: 0.4583
-  basename_concentration: 0.0833
+  push_per_day: 2.2821
+  repo_per_active_day: 0.6410
+  not_owned_ratio: 0.4400
+  basename_concentration: 0.0800
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 16
+    pushes: 19
     distinct_repos: 11
-    pushes_per_repo: 1.4545
+    pushes_per_repo: 1.7273
     active_days: 5
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
   "30d":
-    pushes: 44
-    distinct_repos: 19
-    pushes_per_repo: 2.3158
-    active_days: 16
+    pushes: 41
+    distinct_repos: 20
+    pushes_per_repo: 2.0500
+    active_days: 17
     repos_not_owned: 6
     not_owned_basenames: 6
     not_owned_owners: 3
   "90d":
-    pushes: 85
-    distinct_repos: 24
-    pushes_per_repo: 3.5417
-    active_days: 38
+    pushes: 89
+    distinct_repos: 25
+    pushes_per_repo: 3.5600
+    active_days: 39
     repos_not_owned: 11
     not_owned_basenames: 11
     not_owned_owners: 4
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 38 active days in 90d — pass"
+  - "activity: 39 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "watchnote"
@@ -129,6 +129,6 @@ repos:
 
 # u9g
 
-85 pushes across 24 repositories on 38 active days in the last 90 days of public GitHub push activity.
+89 pushes across 25 repositories on 39 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/u9g

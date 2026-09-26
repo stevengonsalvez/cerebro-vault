@@ -9,28 +9,28 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-25T06:06:35.067653+00:00"
+generated_at: "2026-09-26T06:06:37.922852+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [15, 5, 9, 2, 8, 1, 4, 0, 6, 3, 5, 10, 14]
+pushes_per_week: [13, 5, 9, 4, 6, 3, 2, 0, 6, 4, 4, 18, 8]
 windows:
   "7d":
-    pushes: 20
+    pushes: 16
     distinct_repos: 7
     active_days: 5
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
   "30d":
-    pushes: 33
-    distinct_repos: 9
-    active_days: 14
+    pushes: 35
+    distinct_repos: 11
+    active_days: 15
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
     pushes: 82
-    distinct_repos: 17
+    distinct_repos: 16
     active_days: 36
     repos_not_owned: 3
     not_owned_basenames: 3
@@ -38,9 +38,9 @@ windows:
 automation:
   state: "clear"
   push_per_day: 2.2778
-  repo_per_active_day: 0.4722
-  not_owned_ratio: 0.1765
-  basename_concentration: 0.0588
+  repo_per_active_day: 0.4444
+  not_owned_ratio: 0.1875
+  basename_concentration: 0.0625
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 20
+    pushes: 16
     distinct_repos: 7
-    pushes_per_repo: 2.8571
+    pushes_per_repo: 2.2857
     active_days: 5
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
   "30d":
-    pushes: 33
-    distinct_repos: 9
-    pushes_per_repo: 3.6667
-    active_days: 14
+    pushes: 35
+    distinct_repos: 11
+    pushes_per_repo: 3.1818
+    active_days: 15
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
     pushes: 82
-    distinct_repos: 17
-    pushes_per_repo: 4.8235
+    distinct_repos: 16
+    pushes_per_repo: 5.1250
     active_days: 36
     repos_not_owned: 3
     not_owned_basenames: 3
@@ -154,6 +154,6 @@ repos:
 
 # aryasaatvik
 
-82 pushes across 17 repositories on 36 active days in the last 90 days of public GitHub push activity.
+82 pushes across 16 repositories on 36 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/aryasaatvik

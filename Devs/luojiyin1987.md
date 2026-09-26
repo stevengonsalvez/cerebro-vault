@@ -11,29 +11,29 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-25T06:06:35.067653+00:00"
+generated_at: "2026-09-26T06:06:37.922852+00:00"
 provenance:
   - "16389f32495280ea"
   - "234088bc43763aa2"
   - "4d1450729e6ff44d"
-pushes_per_week: [35, 37, 21, 36, 19, 18, 53, 20, 9, 2, 8, 4, 8]
+pushes_per_week: [35, 37, 25, 37, 12, 18, 60, 17, 5, 2, 8, 9, 4]
 windows:
   "7d":
-    pushes: 8
+    pushes: 7
     distinct_repos: 4
-    active_days: 3
+    active_days: 4
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 23
+    pushes: 24
     distinct_repos: 13
-    active_days: 12
+    active_days: 13
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 270
+    pushes: 269
     distinct_repos: 59
     active_days: 60
     repos_not_owned: 6
@@ -41,7 +41,7 @@ windows:
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 4.5000
+  push_per_day: 4.4833
   repo_per_active_day: 0.9833
   not_owned_ratio: 0.1017
   basename_concentration: 0.0339
@@ -53,25 +53,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 8
+    pushes: 7
     distinct_repos: 4
-    pushes_per_repo: 2.0000
-    active_days: 3
+    pushes_per_repo: 1.7500
+    active_days: 4
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 23
+    pushes: 24
     distinct_repos: 13
-    pushes_per_repo: 1.7692
-    active_days: 12
+    pushes_per_repo: 1.8462
+    active_days: 13
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 270
+    pushes: 269
     distinct_repos: 59
-    pushes_per_repo: 4.5763
+    pushes_per_repo: 4.5593
     active_days: 60
     repos_not_owned: 6
     not_owned_basenames: 6
@@ -133,6 +133,6 @@ repos:
 
 # luojiyin1987
 
-270 pushes across 59 repositories on 60 active days in the last 90 days of public GitHub push activity.
+269 pushes across 59 repositories on 60 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/luojiyin1987

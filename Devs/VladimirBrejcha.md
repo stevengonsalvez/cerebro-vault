@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-25T06:06:35.067653+00:00"
+generated_at: "2026-09-26T06:06:37.922852+00:00"
 provenance:
   - "c489e6fb5febf2ab"
-pushes_per_week: [35, 13, 13, 0, 0, 0, 3, 0, 2, 0, 1, 0, 0]
+pushes_per_week: [33, 15, 11, 0, 0, 0, 3, 1, 1, 0, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 67
+    pushes: 65
     distinct_repos: 3
-    active_days: 21
+    active_days: 20
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 3.1905
-  repo_per_active_day: 0.1429
+  push_per_day: 3.2500
+  repo_per_active_day: 0.1500
   not_owned_ratio: 0.6667
   basename_concentration: 0.3333
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 67
+    pushes: 65
     distinct_repos: 3
-    pushes_per_repo: 22.3333
-    active_days: 21
+    pushes_per_repo: 21.6667
+    active_days: 20
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 21 active days in 90d — pass"
+  - "activity: 20 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "Rise"
@@ -132,6 +132,6 @@ repos:
 
 # VladimirBrejcha
 
-67 pushes across 3 repositories on 21 active days in the last 90 days of public GitHub push activity.
+65 pushes across 3 repositories on 20 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/VladimirBrejcha

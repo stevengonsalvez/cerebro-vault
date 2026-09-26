@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-25T06:06:35.067653+00:00"
+generated_at: "2026-09-26T06:06:37.922852+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [146, 10, 1, 1, 8, 11, 9, 2, 12, 0, 1, 0, 6]
+pushes_per_week: [59, 10, 2, 0, 10, 9, 10, 2, 11, 0, 1, 2, 5]
 windows:
   "7d":
-    pushes: 6
-    distinct_repos: 1
-    active_days: 3
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
-  "30d":
-    pushes: 11
-    distinct_repos: 3
-    active_days: 6
+    pushes: 7
+    distinct_repos: 2
+    active_days: 4
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
+  "30d":
+    pushes: 11
+    distinct_repos: 4
+    active_days: 6
+    repos_not_owned: 3
+    not_owned_basenames: 3
+    not_owned_owners: 1
   "90d":
-    pushes: 207
+    pushes: 121
     distinct_repos: 11
     active_days: 37
     repos_not_owned: 8
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 5.5946
+  push_per_day: 3.2703
   repo_per_active_day: 0.2973
   not_owned_ratio: 0.7273
   basename_concentration: 0.2727
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 6
-    distinct_repos: 1
-    pushes_per_repo: 6.0000
-    active_days: 3
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
-  "30d":
-    pushes: 11
-    distinct_repos: 3
-    pushes_per_repo: 3.6667
-    active_days: 6
+    pushes: 7
+    distinct_repos: 2
+    pushes_per_repo: 3.5000
+    active_days: 4
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
+  "30d":
+    pushes: 11
+    distinct_repos: 4
+    pushes_per_repo: 2.7500
+    active_days: 6
+    repos_not_owned: 3
+    not_owned_basenames: 3
+    not_owned_owners: 1
   "90d":
-    pushes: 207
+    pushes: 121
     distinct_repos: 11
-    pushes_per_repo: 18.8182
+    pushes_per_repo: 11.0000
     active_days: 37
     repos_not_owned: 8
     not_owned_basenames: 6
@@ -129,6 +129,6 @@ repos:
 
 # mattwilkinsonn
 
-207 pushes across 11 repositories on 37 active days in the last 90 days of public GitHub push activity.
+121 pushes across 11 repositories on 37 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/mattwilkinsonn

@@ -10,38 +10,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-25T06:06:35.067653+00:00"
+generated_at: "2026-09-26T06:06:37.922852+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [52, 23, 17, 12, 13, 8, 5, 0, 2, 1, 0, 3, 4]
+pushes_per_week: [33, 21, 20, 8, 13, 8, 4, 0, 2, 1, 2, 5, 5]
 windows:
   "7d":
-    pushes: 4
-    distinct_repos: 1
-    active_days: 1
-    repos_not_owned: 1
-    not_owned_basenames: 1
+    pushes: 5
+    distinct_repos: 2
+    active_days: 2
+    repos_not_owned: 2
+    not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 10
+    pushes: 13
     distinct_repos: 2
-    active_days: 5
+    active_days: 6
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 140
-    distinct_repos: 10
-    active_days: 43
-    repos_not_owned: 7
+    pushes: 122
+    distinct_repos: 7
+    active_days: 44
+    repos_not_owned: 4
     not_owned_basenames: 3
-    not_owned_owners: 5
+    not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 3.2558
-  repo_per_active_day: 0.2326
-  not_owned_ratio: 0.7000
-  basename_concentration: 0.5000
+  push_per_day: 2.7727
+  repo_per_active_day: 0.1591
+  not_owned_ratio: 0.5714
+  basename_concentration: 0.2857
   shapes: []
   shape_evidence: []
   cleared_by: "e01-builder"
@@ -50,32 +50,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 4
-    distinct_repos: 1
-    pushes_per_repo: 4.0000
-    active_days: 1
-    repos_not_owned: 1
-    not_owned_basenames: 1
+    pushes: 5
+    distinct_repos: 2
+    pushes_per_repo: 2.5000
+    active_days: 2
+    repos_not_owned: 2
+    not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 10
+    pushes: 13
     distinct_repos: 2
-    pushes_per_repo: 5.0000
-    active_days: 5
+    pushes_per_repo: 6.5000
+    active_days: 6
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 140
-    distinct_repos: 10
-    pushes_per_repo: 14.0000
-    active_days: 43
-    repos_not_owned: 7
+    pushes: 122
+    distinct_repos: 7
+    pushes_per_repo: 17.4286
+    active_days: 44
+    repos_not_owned: 4
     not_owned_basenames: 3
-    not_owned_owners: 5
+    not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 43 active days in 90d — pass"
+  - "activity: 44 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "Soulter"
@@ -134,6 +134,6 @@ repos:
 
 # Soulter
 
-140 pushes across 10 repositories on 43 active days in the last 90 days of public GitHub push activity.
+122 pushes across 7 repositories on 44 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Soulter

@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-25T06:06:35.067653+00:00"
+generated_at: "2026-09-26T06:06:37.922852+00:00"
 provenance:
   - "c1958731fdb78e2d"
-pushes_per_week: [0, 0, 0, 2, 2, 2, 4, 2, 0, 0, 1, 5, 27]
+pushes_per_week: [0, 0, 0, 2, 2, 2, 4, 2, 0, 0, 1, 7, 26]
 windows:
   "7d":
-    pushes: 30
+    pushes: 28
     distinct_repos: 2
     active_days: 7
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 33
+    pushes: 34
     distinct_repos: 3
-    active_days: 10
+    active_days: 11
     repos_not_owned: 3
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 45
+    pushes: 46
     distinct_repos: 3
-    active_days: 18
+    active_days: 19
     repos_not_owned: 3
     not_owned_basenames: 2
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 2.5000
-  repo_per_active_day: 0.1667
+  push_per_day: 2.4211
+  repo_per_active_day: 0.1579
   not_owned_ratio: 1.0000
   basename_concentration: 0.6667
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 30
+    pushes: 28
     distinct_repos: 2
-    pushes_per_repo: 15.0000
+    pushes_per_repo: 14.0000
     active_days: 7
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 33
+    pushes: 34
     distinct_repos: 3
-    pushes_per_repo: 11.0000
-    active_days: 10
+    pushes_per_repo: 11.3333
+    active_days: 11
     repos_not_owned: 3
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 45
+    pushes: 46
     distinct_repos: 3
-    pushes_per_repo: 15.0000
-    active_days: 18
+    pushes_per_repo: 15.3333
+    active_days: 19
     repos_not_owned: 3
     not_owned_basenames: 2
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 18 active days in 90d — pass"
+  - "activity: 19 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "EverMemOS-v1"
@@ -129,6 +129,6 @@ repos:
 
 # gloryfromca
 
-45 pushes across 3 repositories on 18 active days in the last 90 days of public GitHub push activity.
+46 pushes across 3 repositories on 19 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/gloryfromca

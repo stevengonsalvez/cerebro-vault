@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-25T06:06:35.067653+00:00"
+generated_at: "2026-09-26T06:06:37.922852+00:00"
 provenance:
   - "edb3a626875732de"
-pushes_per_week: [87, 29, 16, 4, 3, 0, 1, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [71, 32, 11, 5, 2, 0, 1, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 140
-    distinct_repos: 24
-    active_days: 24
+    pushes: 122
+    distinct_repos: 23
+    active_days: 23
     repos_not_owned: 6
     not_owned_basenames: 6
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 5.8333
+  push_per_day: 5.3043
   repo_per_active_day: 1.0000
-  not_owned_ratio: 0.2500
-  basename_concentration: 0.0833
+  not_owned_ratio: 0.2609
+  basename_concentration: 0.0870
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 140
-    distinct_repos: 24
-    pushes_per_repo: 5.8333
-    active_days: 24
+    pushes: 122
+    distinct_repos: 23
+    pushes_per_repo: 5.3043
+    active_days: 23
     repos_not_owned: 6
     not_owned_basenames: 6
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 24 active days in 90d — pass"
+  - "activity: 23 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "fjau-air-platform"
@@ -145,6 +145,6 @@ repos:
 
 # YuhaoLin2005
 
-140 pushes across 24 repositories on 24 active days in the last 90 days of public GitHub push activity.
+122 pushes across 23 repositories on 23 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/YuhaoLin2005

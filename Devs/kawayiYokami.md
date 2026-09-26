@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-25T06:06:35.067653+00:00"
+generated_at: "2026-09-26T06:06:37.922852+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [15, 9, 5, 1, 1, 4, 6, 2, 2, 0, 0, 2, 6]
+pushes_per_week: [16, 7, 4, 1, 2, 4, 5, 2, 2, 0, 0, 3, 6]
 windows:
   "7d":
     pushes: 7
-    distinct_repos: 3
+    distinct_repos: 2
     active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 8
+    pushes: 9
     distinct_repos: 3
-    active_days: 6
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 53
+    pushes: 52
     distinct_repos: 6
-    active_days: 32
+    active_days: 31
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.6562
-  repo_per_active_day: 0.1875
+  push_per_day: 1.6774
+  repo_per_active_day: 0.1935
   not_owned_ratio: 0.0000
   basename_concentration: 0.1667
   shapes: []
@@ -50,31 +50,31 @@ automation:
 facets:
   "7d":
     pushes: 7
-    distinct_repos: 3
-    pushes_per_repo: 2.3333
+    distinct_repos: 2
+    pushes_per_repo: 3.5000
     active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 8
+    pushes: 9
     distinct_repos: 3
-    pushes_per_repo: 2.6667
-    active_days: 6
+    pushes_per_repo: 3.0000
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 53
+    pushes: 52
     distinct_repos: 6
-    pushes_per_repo: 8.8333
-    active_days: 32
+    pushes_per_repo: 8.6667
+    active_days: 31
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 32 active days in 90d — pass"
+  - "activity: 31 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "P-ai"
@@ -142,6 +142,6 @@ repos:
 
 # kawayiYokami
 
-53 pushes across 6 repositories on 32 active days in the last 90 days of public GitHub push activity.
+52 pushes across 6 repositories on 31 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/kawayiYokami

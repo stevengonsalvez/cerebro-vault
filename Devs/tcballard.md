@@ -10,29 +10,29 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-25T06:06:35.067653+00:00"
+generated_at: "2026-09-26T06:06:37.922852+00:00"
 provenance:
   - "c954be1eb1223fa4"
   - "eb166180687b6629"
-pushes_per_week: [75, 66, 38, 34, 31, 23, 24, 2, 6, 10, 4, 23, 31]
+pushes_per_week: [80, 58, 40, 36, 29, 27, 16, 2, 5, 11, 4, 26, 33]
 windows:
   "7d":
-    pushes: 35
+    pushes: 37
     distinct_repos: 17
     active_days: 7
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 70
-    distinct_repos: 33
+    pushes: 74
+    distinct_repos: 32
     active_days: 20
-    repos_not_owned: 4
-    not_owned_basenames: 4
+    repos_not_owned: 2
+    not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
     pushes: 367
-    distinct_repos: 70
+    distinct_repos: 71
     active_days: 72
     repos_not_owned: 26
     not_owned_basenames: 24
@@ -40,9 +40,9 @@ windows:
 automation:
   state: "clear"
   push_per_day: 5.0972
-  repo_per_active_day: 0.9722
-  not_owned_ratio: 0.3714
-  basename_concentration: 0.0429
+  repo_per_active_day: 0.9861
+  not_owned_ratio: 0.3662
+  basename_concentration: 0.0423
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -51,25 +51,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 35
+    pushes: 37
     distinct_repos: 17
-    pushes_per_repo: 2.0588
+    pushes_per_repo: 2.1765
     active_days: 7
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 70
-    distinct_repos: 33
-    pushes_per_repo: 2.1212
+    pushes: 74
+    distinct_repos: 32
+    pushes_per_repo: 2.3125
     active_days: 20
-    repos_not_owned: 4
-    not_owned_basenames: 4
+    repos_not_owned: 2
+    not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
     pushes: 367
-    distinct_repos: 70
-    pushes_per_repo: 5.2429
+    distinct_repos: 71
+    pushes_per_repo: 5.1690
     active_days: 72
     repos_not_owned: 26
     not_owned_basenames: 24
@@ -131,6 +131,6 @@ repos:
 
 # tcballard
 
-367 pushes across 70 repositories on 72 active days in the last 90 days of public GitHub push activity.
+367 pushes across 71 repositories on 72 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/tcballard

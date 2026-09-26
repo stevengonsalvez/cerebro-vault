@@ -10,37 +10,37 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-25T06:06:35.067653+00:00"
+generated_at: "2026-09-26T06:06:37.922852+00:00"
 provenance:
   - "de6bf05613f3ae04"
   - "ffccace0ba14fd15"
-pushes_per_week: [105, 125, 63, 109, 71, 22, 46, 17, 16, 6, 10, 32, 28]
+pushes_per_week: [119, 104, 69, 103, 74, 17, 49, 10, 18, 2, 21, 29, 34]
 windows:
   "7d":
-    pushes: 35
-    distinct_repos: 10
+    pushes: 42
+    distinct_repos: 9
     active_days: 7
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 3
   "30d":
-    pushes: 78
+    pushes: 92
     distinct_repos: 12
     active_days: 22
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 4
   "90d":
-    pushes: 650
+    pushes: 649
     distinct_repos: 20
-    active_days: 79
+    active_days: 78
     repos_not_owned: 7
     not_owned_basenames: 5
     not_owned_owners: 6
 automation:
   state: "clear"
-  push_per_day: 8.2278
-  repo_per_active_day: 0.2532
+  push_per_day: 8.3205
+  repo_per_active_day: 0.2564
   not_owned_ratio: 0.3500
   basename_concentration: 0.1500
   shapes: []
@@ -51,32 +51,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 35
-    distinct_repos: 10
-    pushes_per_repo: 3.5000
+    pushes: 42
+    distinct_repos: 9
+    pushes_per_repo: 4.6667
     active_days: 7
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 3
   "30d":
-    pushes: 78
+    pushes: 92
     distinct_repos: 12
-    pushes_per_repo: 6.5000
+    pushes_per_repo: 7.6667
     active_days: 22
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 4
   "90d":
-    pushes: 650
+    pushes: 649
     distinct_repos: 20
-    pushes_per_repo: 32.5000
-    active_days: 79
+    pushes_per_repo: 32.4500
+    active_days: 78
     repos_not_owned: 7
     not_owned_basenames: 5
     not_owned_owners: 6
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 79 active days in 90d — pass"
+  - "activity: 78 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "freqai-strategies"
@@ -135,6 +135,6 @@ repos:
 
 # jerome-benoit
 
-650 pushes across 20 repositories on 79 active days in the last 90 days of public GitHub push activity.
+649 pushes across 20 repositories on 78 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/jerome-benoit

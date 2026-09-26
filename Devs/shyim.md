@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-25T06:06:35.067653+00:00"
+generated_at: "2026-09-26T06:06:37.922852+00:00"
 provenance:
   - "c489e6fb5febf2ab"
-pushes_per_week: [52, 33, 12, 11, 10, 13, 7, 7, 3, 1, 4, 11, 11]
+pushes_per_week: [45, 30, 16, 9, 10, 11, 9, 5, 3, 2, 5, 9, 11]
 windows:
   "7d":
-    pushes: 12
-    distinct_repos: 6
-    active_days: 4
+    pushes: 11
+    distinct_repos: 5
+    active_days: 3
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 3
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 9
     not_owned_owners: 4
   "90d":
-    pushes: 175
+    pushes: 165
     distinct_repos: 41
-    active_days: 56
+    active_days: 55
     repos_not_owned: 20
     not_owned_basenames: 20
     not_owned_owners: 4
 automation:
   state: "clear"
-  push_per_day: 3.1250
-  repo_per_active_day: 0.7321
+  push_per_day: 3.0000
+  repo_per_active_day: 0.7455
   not_owned_ratio: 0.4878
   basename_concentration: 0.0488
   shapes: []
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 12
-    distinct_repos: 6
-    pushes_per_repo: 2.0000
-    active_days: 4
+    pushes: 11
+    distinct_repos: 5
+    pushes_per_repo: 2.2000
+    active_days: 3
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 3
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 9
     not_owned_owners: 4
   "90d":
-    pushes: 175
+    pushes: 165
     distinct_repos: 41
-    pushes_per_repo: 4.2683
-    active_days: 56
+    pushes_per_repo: 4.0244
+    active_days: 55
     repos_not_owned: 20
     not_owned_basenames: 20
     not_owned_owners: 4
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 56 active days in 90d — pass"
+  - "activity: 55 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "shyim"
@@ -147,6 +147,6 @@ repos:
 
 # shyim
 
-175 pushes across 41 repositories on 56 active days in the last 90 days of public GitHub push activity.
+165 pushes across 41 repositories on 55 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/shyim

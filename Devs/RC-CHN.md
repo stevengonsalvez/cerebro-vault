@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-25T06:06:35.067653+00:00"
+generated_at: "2026-09-26T06:06:37.922852+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [3, 8, 5, 5, 2, 4, 13, 0, 2, 0, 3, 2, 11]
+pushes_per_week: [3, 9, 4, 5, 2, 4, 13, 2, 0, 0, 3, 3, 11]
 windows:
   "7d":
     pushes: 11
-    distinct_repos: 5
+    distinct_repos: 4
     active_days: 5
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
-    pushes: 16
+    pushes: 17
     distinct_repos: 7
-    active_days: 8
+    active_days: 9
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 58
+    pushes: 59
     distinct_repos: 12
-    active_days: 31
+    active_days: 32
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 1.8710
-  repo_per_active_day: 0.3871
+  push_per_day: 1.8438
+  repo_per_active_day: 0.3750
   not_owned_ratio: 0.2500
   basename_concentration: 0.1667
   shapes: []
@@ -50,31 +50,31 @@ automation:
 facets:
   "7d":
     pushes: 11
-    distinct_repos: 5
-    pushes_per_repo: 2.2000
+    distinct_repos: 4
+    pushes_per_repo: 2.7500
     active_days: 5
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
-    pushes: 16
+    pushes: 17
     distinct_repos: 7
-    pushes_per_repo: 2.2857
-    active_days: 8
+    pushes_per_repo: 2.4286
+    active_days: 9
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 58
+    pushes: 59
     distinct_repos: 12
-    pushes_per_repo: 4.8333
-    active_days: 31
+    pushes_per_repo: 4.9167
+    active_days: 32
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 31 active days in 90d — pass"
+  - "activity: 32 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "ReuleauxCoder"
@@ -129,6 +129,6 @@ repos:
 
 # RC-CHN
 
-58 pushes across 12 repositories on 31 active days in the last 90 days of public GitHub push activity.
+59 pushes across 12 repositories on 32 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/RC-CHN

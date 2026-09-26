@@ -9,31 +9,31 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-25T06:06:35.067653+00:00"
+generated_at: "2026-09-26T06:06:37.922852+00:00"
 provenance:
   - "97c4e9cb8b163ddb"
   - "c7515e0fa4368a55"
   - "d3abe74726b22711"
   - "e7c647c4d0689526"
-pushes_per_week: [8, 3, 1, 1, 5, 4, 13, 3, 0, 2, 7, 33, 29]
+pushes_per_week: [10, 0, 1, 3, 6, 2, 15, 0, 1, 1, 8, 44, 18]
 windows:
   "7d":
-    pushes: 48
-    distinct_repos: 5
+    pushes: 21
+    distinct_repos: 6
     active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 71
+    pushes: 72
     distinct_repos: 12
-    active_days: 15
+    active_days: 16
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
     pushes: 109
-    distinct_repos: 26
+    distinct_repos: 25
     active_days: 33
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -41,9 +41,9 @@ windows:
 automation:
   state: "clear"
   push_per_day: 3.3030
-  repo_per_active_day: 0.7879
+  repo_per_active_day: 0.7576
   not_owned_ratio: 0.0000
-  basename_concentration: 0.0385
+  basename_concentration: 0.0400
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -52,25 +52,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 48
-    distinct_repos: 5
-    pushes_per_repo: 9.6000
+    pushes: 21
+    distinct_repos: 6
+    pushes_per_repo: 3.5000
     active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 71
+    pushes: 72
     distinct_repos: 12
-    pushes_per_repo: 5.9167
-    active_days: 15
+    pushes_per_repo: 6.0000
+    active_days: 16
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
     pushes: 109
-    distinct_repos: 26
-    pushes_per_repo: 4.1923
+    distinct_repos: 25
+    pushes_per_repo: 4.3600
     active_days: 33
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -165,6 +165,6 @@ repos:
 
 # ssmurfgg04-gif
 
-109 pushes across 26 repositories on 33 active days in the last 90 days of public GitHub push activity.
+109 pushes across 25 repositories on 33 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ssmurfgg04-gif

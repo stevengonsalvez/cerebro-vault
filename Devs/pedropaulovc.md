@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-25T06:06:35.067653+00:00"
+generated_at: "2026-09-26T06:06:37.922852+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [44, 132, 257, 269, 41, 45, 9, 17, 25, 1, 33, 48, 77]
+pushes_per_week: [71, 116, 293, 223, 60, 22, 10, 22, 19, 1, 42, 57, 85]
 windows:
   "7d":
-    pushes: 90
+    pushes: 101
     distinct_repos: 6
     active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 159
+    pushes: 185
     distinct_repos: 10
-    active_days: 20
+    active_days: 21
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 998
+    pushes: 1021
     distinct_repos: 18
     active_days: 69
     repos_not_owned: 1
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 14.4638
+  push_per_day: 14.7971
   repo_per_active_day: 0.2609
   not_owned_ratio: 0.0556
   basename_concentration: 0.0556
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 90
+    pushes: 101
     distinct_repos: 6
-    pushes_per_repo: 15.0000
+    pushes_per_repo: 16.8333
     active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 159
+    pushes: 185
     distinct_repos: 10
-    pushes_per_repo: 15.9000
-    active_days: 20
+    pushes_per_repo: 18.5000
+    active_days: 21
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 998
+    pushes: 1021
     distinct_repos: 18
-    pushes_per_repo: 55.4444
+    pushes_per_repo: 56.7222
     active_days: 69
     repos_not_owned: 1
     not_owned_basenames: 1
@@ -129,6 +129,6 @@ repos:
 
 # pedropaulovc
 
-998 pushes across 18 repositories on 69 active days in the last 90 days of public GitHub push activity.
+1021 pushes across 18 repositories on 69 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/pedropaulovc

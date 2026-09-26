@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-25T06:06:35.067653+00:00"
+generated_at: "2026-09-26T06:06:37.922852+00:00"
 provenance:
   - "4138778ebbc75ba6"
-pushes_per_week: [4, 20, 11, 5, 5, 1, 0, 0, 0, 0, 0, 2, 5]
+pushes_per_week: [3, 20, 11, 5, 6, 0, 0, 0, 0, 0, 0, 4, 3]
 windows:
   "7d":
-    pushes: 6
-    distinct_repos: 4
-    active_days: 3
+    pushes: 5
+    distinct_repos: 3
+    active_days: 2
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 53
-    distinct_repos: 9
+    pushes: 52
+    distinct_repos: 8
     active_days: 20
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.6500
-  repo_per_active_day: 0.4500
-  not_owned_ratio: 0.2222
-  basename_concentration: 0.1111
+  push_per_day: 2.6000
+  repo_per_active_day: 0.4000
+  not_owned_ratio: 0.2500
+  basename_concentration: 0.1250
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 6
-    distinct_repos: 4
-    pushes_per_repo: 1.5000
-    active_days: 3
+    pushes: 5
+    distinct_repos: 3
+    pushes_per_repo: 1.6667
+    active_days: 2
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
@@ -65,9 +65,9 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 53
-    distinct_repos: 9
-    pushes_per_repo: 5.8889
+    pushes: 52
+    distinct_repos: 8
+    pushes_per_repo: 6.5000
     active_days: 20
     repos_not_owned: 2
     not_owned_basenames: 2
@@ -152,6 +152,6 @@ repos:
 
 # enrell
 
-53 pushes across 9 repositories on 20 active days in the last 90 days of public GitHub push activity.
+52 pushes across 8 repositories on 20 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/enrell

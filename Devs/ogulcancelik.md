@@ -10,11 +10,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-25T06:06:35.067653+00:00"
+generated_at: "2026-09-26T06:06:37.922852+00:00"
 provenance:
   - "576c6507cbdd1cf3"
   - "c87b77df69f1bb71"
-pushes_per_week: [22, 19, 13, 13, 15, 16, 19, 5, 7, 0, 3, 3, 4]
+pushes_per_week: [20, 17, 15, 14, 15, 15, 18, 7, 4, 0, 3, 6, 1]
 windows:
   "7d":
     pushes: 4
@@ -31,22 +31,22 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 139
-    distinct_repos: 17
-    active_days: 56
+    pushes: 135
+    distinct_repos: 16
+    active_days: 55
     repos_not_owned: 13
     not_owned_basenames: 2
     not_owned_owners: 12
 automation:
   state: "clear"
-  push_per_day: 2.4821
-  repo_per_active_day: 0.3036
-  not_owned_ratio: 0.7647
-  basename_concentration: 0.7647
+  push_per_day: 2.4545
+  repo_per_active_day: 0.2909
+  not_owned_ratio: 0.8125
+  basename_concentration: 0.8125
   shapes:
     - "fork_farm"
   shape_evidence:
-    - "basename concentration 0.7647 (13 of 17 repos share one basename), 13 not owned across 2 basenames"
+    - "basename concentration 0.8125 (13 of 16 repos share one basename), 13 not owned across 2 basenames"
   cleared_by: "e01-builder"
   cleared_on: "2026-08-26"
   fork_provenance:
@@ -83,16 +83,16 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 139
-    distinct_repos: 17
-    pushes_per_repo: 8.1765
-    active_days: 56
+    pushes: 135
+    distinct_repos: 16
+    pushes_per_repo: 8.4375
+    active_days: 55
     repos_not_owned: 13
     not_owned_basenames: 2
     not_owned_owners: 12
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 56 active days in 90d — pass"
+  - "activity: 55 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "pi-extensions"
@@ -161,6 +161,6 @@ repos:
 
 # ogulcancelik
 
-139 pushes across 17 repositories on 56 active days in the last 90 days of public GitHub push activity.
+135 pushes across 16 repositories on 55 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ogulcancelik

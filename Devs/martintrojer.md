@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-25T06:06:35.067653+00:00"
+generated_at: "2026-09-26T06:06:37.922852+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [8, 4, 1, 0, 0, 0, 2, 0, 1, 0, 1, 36, 24]
+pushes_per_week: [9, 3, 1, 0, 0, 0, 2, 0, 1, 0, 2, 36, 27]
 windows:
   "7d":
-    pushes: 25
+    pushes: 28
     distinct_repos: 4
-    active_days: 7
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 62
-    distinct_repos: 5
-    active_days: 15
+    pushes: 65
+    distinct_repos: 4
+    active_days: 14
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 77
+    pushes: 81
     distinct_repos: 8
     active_days: 23
     repos_not_owned: 1
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 3.3478
+  push_per_day: 3.5217
   repo_per_active_day: 0.3478
   not_owned_ratio: 0.1250
   basename_concentration: 0.2500
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 25
+    pushes: 28
     distinct_repos: 4
-    pushes_per_repo: 6.2500
-    active_days: 7
+    pushes_per_repo: 7.0000
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 62
-    distinct_repos: 5
-    pushes_per_repo: 12.4000
-    active_days: 15
+    pushes: 65
+    distinct_repos: 4
+    pushes_per_repo: 16.2500
+    active_days: 14
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 77
+    pushes: 81
     distinct_repos: 8
-    pushes_per_repo: 9.6250
+    pushes_per_repo: 10.1250
     active_days: 23
     repos_not_owned: 1
     not_owned_basenames: 1
@@ -129,6 +129,6 @@ repos:
 
 # martintrojer
 
-77 pushes across 8 repositories on 23 active days in the last 90 days of public GitHub push activity.
+81 pushes across 8 repositories on 23 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/martintrojer

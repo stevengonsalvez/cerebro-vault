@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-25T06:06:35.067653+00:00"
+generated_at: "2026-09-26T06:06:37.922852+00:00"
 provenance:
   - "b1a4604cc570de42"
-pushes_per_week: [7, 1, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [6, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,7 +29,7 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 10
+    pushes: 8
     distinct_repos: 1
     active_days: 7
     repos_not_owned: 1
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.4286
+  push_per_day: 1.1429
   repo_per_active_day: 0.1429
   not_owned_ratio: 1.0000
   basename_concentration: 1.0000
@@ -65,9 +65,9 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 10
+    pushes: 8
     distinct_repos: 1
-    pushes_per_repo: 10.0000
+    pushes_per_repo: 8.0000
     active_days: 7
     repos_not_owned: 1
     not_owned_basenames: 1
@@ -132,6 +132,6 @@ repos:
 
 # FredKSchott
 
-10 pushes across 1 repository on 7 active days in the last 90 days of public GitHub push activity.
+8 pushes across 1 repository on 7 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/FredKSchott

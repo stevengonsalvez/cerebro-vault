@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-25T06:06:35.067653+00:00"
+generated_at: "2026-09-26T06:06:37.922852+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [125, 201, 151, 52, 56, 48, 46, 19, 19, 2, 4, 25, 20]
+pushes_per_week: [156, 166, 152, 47, 81, 21, 44, 18, 15, 2, 6, 23, 27]
 windows:
   "7d":
-    pushes: 31
+    pushes: 27
     distinct_repos: 6
-    active_days: 5
+    active_days: 6
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 57
+    pushes: 62
     distinct_repos: 9
-    active_days: 18
+    active_days: 19
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 768
+    pushes: 758
     distinct_repos: 22
-    active_days: 77
+    active_days: 78
     repos_not_owned: 7
     not_owned_basenames: 7
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 9.9740
-  repo_per_active_day: 0.2857
+  push_per_day: 9.7179
+  repo_per_active_day: 0.2821
   not_owned_ratio: 0.3182
   basename_concentration: 0.0909
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 31
+    pushes: 27
     distinct_repos: 6
-    pushes_per_repo: 5.1667
-    active_days: 5
+    pushes_per_repo: 4.5000
+    active_days: 6
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 57
+    pushes: 62
     distinct_repos: 9
-    pushes_per_repo: 6.3333
-    active_days: 18
+    pushes_per_repo: 6.8889
+    active_days: 19
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 768
+    pushes: 758
     distinct_repos: 22
-    pushes_per_repo: 34.9091
-    active_days: 77
+    pushes_per_repo: 34.4545
+    active_days: 78
     repos_not_owned: 7
     not_owned_basenames: 7
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 77 active days in 90d — pass"
+  - "activity: 78 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "proxmox-whisper-stt"
@@ -140,6 +140,6 @@ repos:
 
 # andrebrait
 
-768 pushes across 22 repositories on 77 active days in the last 90 days of public GitHub push activity.
+758 pushes across 22 repositories on 78 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/andrebrait

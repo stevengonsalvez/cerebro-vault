@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-25T06:06:35.067653+00:00"
+generated_at: "2026-09-26T06:06:37.922852+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [21, 8, 7, 0, 3, 3, 4, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [20, 8, 7, 0, 3, 3, 4, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,7 +29,7 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 46
+    pushes: 45
     distinct_repos: 5
     active_days: 18
     repos_not_owned: 1
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.5556
+  push_per_day: 2.5000
   repo_per_active_day: 0.2778
   not_owned_ratio: 0.2000
   basename_concentration: 0.4000
@@ -65,9 +65,9 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 46
+    pushes: 45
     distinct_repos: 5
-    pushes_per_repo: 9.2000
+    pushes_per_repo: 9.0000
     active_days: 18
     repos_not_owned: 1
     not_owned_basenames: 1
@@ -143,6 +143,6 @@ repos:
 
 # CN-Scars
 
-46 pushes across 5 repositories on 18 active days in the last 90 days of public GitHub push activity.
+45 pushes across 5 repositories on 18 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/CN-Scars

@@ -6,15 +6,13 @@ discovered_via_all:
   - "fanout"
 provenance_repos:
   - "addyosmani/agent-skills"
-  - "chopratejas/headroom"
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-25T06:06:35.067653+00:00"
+generated_at: "2026-09-26T06:06:37.922852+00:00"
 provenance:
-  - "73468cde177ddae6"
   - "dae9f02535f7c22f"
-pushes_per_week: [12, 8, 3, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [15, 3, 3, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -31,7 +29,7 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 25
+    pushes: 23
     distinct_repos: 10
     active_days: 10
     repos_not_owned: 0
@@ -39,7 +37,7 @@ windows:
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.5000
+  push_per_day: 2.3000
   repo_per_active_day: 1.0000
   not_owned_ratio: 0.0000
   basename_concentration: 0.1000
@@ -67,15 +65,15 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 25
+    pushes: 23
     distinct_repos: 10
-    pushes_per_repo: 2.5000
+    pushes_per_repo: 2.3000
     active_days: 10
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
-  - "provenance: 2 vault signal(s) — pass"
+  - "provenance: 1 vault signal(s) — pass"
   - "activity: 10 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
@@ -203,6 +201,6 @@ repos:
 
 # HMAKT99
 
-25 pushes across 10 repositories on 10 active days in the last 90 days of public GitHub push activity.
+23 pushes across 10 repositories on 10 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/HMAKT99

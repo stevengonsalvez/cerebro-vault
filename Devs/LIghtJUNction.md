@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-25T06:06:35.067653+00:00"
+generated_at: "2026-09-26T06:06:37.922852+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [109, 65, 27, 9, 29, 9, 74, 37, 28, 5, 6, 170, 277]
+pushes_per_week: [114, 48, 27, 8, 30, 10, 87, 24, 25, 5, 8, 234, 338]
 windows:
   "7d":
-    pushes: 309
+    pushes: 391
     distinct_repos: 12
     active_days: 7
     repos_not_owned: 7
     not_owned_basenames: 5
     not_owned_owners: 3
   "30d":
-    pushes: 463
-    distinct_repos: 19
+    pushes: 589
+    distinct_repos: 18
     active_days: 21
     repos_not_owned: 7
     not_owned_basenames: 5
     not_owned_owners: 3
   "90d":
-    pushes: 845
+    pushes: 958
     distinct_repos: 42
     active_days: 74
     repos_not_owned: 12
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 7
 automation:
   state: "clear"
-  push_per_day: 11.4189
+  push_per_day: 12.9459
   repo_per_active_day: 0.5676
   not_owned_ratio: 0.2857
   basename_concentration: 0.1429
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 309
+    pushes: 391
     distinct_repos: 12
-    pushes_per_repo: 25.7500
+    pushes_per_repo: 32.5833
     active_days: 7
     repos_not_owned: 7
     not_owned_basenames: 5
     not_owned_owners: 3
   "30d":
-    pushes: 463
-    distinct_repos: 19
-    pushes_per_repo: 24.3684
+    pushes: 589
+    distinct_repos: 18
+    pushes_per_repo: 32.7222
     active_days: 21
     repos_not_owned: 7
     not_owned_basenames: 5
     not_owned_owners: 3
   "90d":
-    pushes: 845
+    pushes: 958
     distinct_repos: 42
-    pushes_per_repo: 20.1190
+    pushes_per_repo: 22.8095
     active_days: 74
     repos_not_owned: 12
     not_owned_basenames: 8
@@ -144,6 +144,6 @@ repos:
 
 # LIghtJUNction
 
-845 pushes across 42 repositories on 74 active days in the last 90 days of public GitHub push activity.
+958 pushes across 42 repositories on 74 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/LIghtJUNction

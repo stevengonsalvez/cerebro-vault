@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-25T06:06:35.067653+00:00"
+generated_at: "2026-09-26T06:06:37.922852+00:00"
 provenance:
   - "2d6ba8fc0269fd52"
-pushes_per_week: [16, 6, 8, 7, 9, 6, 3, 3, 0, 0, 0, 0, 2]
+pushes_per_week: [12, 7, 9, 5, 12, 2, 3, 3, 0, 0, 0, 2, 1]
 windows:
   "7d":
-    pushes: 2
-    distinct_repos: 1
-    active_days: 1
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    pushes: 3
+    distinct_repos: 2
+    active_days: 2
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "30d":
-    pushes: 2
-    distinct_repos: 1
-    active_days: 1
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    pushes: 3
+    distinct_repos: 2
+    active_days: 2
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "90d":
-    pushes: 60
-    distinct_repos: 22
+    pushes: 56
+    distinct_repos: 21
     active_days: 31
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.9355
-  repo_per_active_day: 0.7097
-  not_owned_ratio: 0.0455
-  basename_concentration: 0.0455
+  push_per_day: 1.8065
+  repo_per_active_day: 0.6774
+  not_owned_ratio: 0.0476
+  basename_concentration: 0.0476
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
-    distinct_repos: 1
-    pushes_per_repo: 2.0000
-    active_days: 1
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    pushes: 3
+    distinct_repos: 2
+    pushes_per_repo: 1.5000
+    active_days: 2
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "30d":
-    pushes: 2
-    distinct_repos: 1
-    pushes_per_repo: 2.0000
-    active_days: 1
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    pushes: 3
+    distinct_repos: 2
+    pushes_per_repo: 1.5000
+    active_days: 2
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "90d":
-    pushes: 60
-    distinct_repos: 22
-    pushes_per_repo: 2.7273
+    pushes: 56
+    distinct_repos: 21
+    pushes_per_repo: 2.6667
     active_days: 31
     repos_not_owned: 1
     not_owned_basenames: 1
@@ -129,6 +129,6 @@ repos:
 
 # aromal-a
 
-60 pushes across 22 repositories on 31 active days in the last 90 days of public GitHub push activity.
+56 pushes across 21 repositories on 31 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/aromal-a

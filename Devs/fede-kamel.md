@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-25T06:06:35.067653+00:00"
+generated_at: "2026-09-26T06:06:37.922852+00:00"
 provenance:
   - "1be978947e68d1f2"
-pushes_per_week: [20, 17, 8, 13, 9, 1, 25, 8, 0, 0, 0, 2, 2]
+pushes_per_week: [11, 17, 8, 13, 10, 3, 24, 6, 0, 0, 0, 2, 3]
 windows:
   "7d":
-    pushes: 4
-    distinct_repos: 4
+    pushes: 3
+    distinct_repos: 2
     active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 4
+    pushes: 5
     distinct_repos: 4
-    active_days: 2
+    active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 105
-    distinct_repos: 25
+    pushes: 97
+    distinct_repos: 23
     active_days: 34
-    repos_not_owned: 11
-    not_owned_basenames: 11
+    repos_not_owned: 10
+    not_owned_basenames: 10
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 3.0882
-  repo_per_active_day: 0.7353
-  not_owned_ratio: 0.4400
-  basename_concentration: 0.0800
+  push_per_day: 2.8529
+  repo_per_active_day: 0.6765
+  not_owned_ratio: 0.4348
+  basename_concentration: 0.0870
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,28 +49,28 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 4
-    distinct_repos: 4
-    pushes_per_repo: 1.0000
+    pushes: 3
+    distinct_repos: 2
+    pushes_per_repo: 1.5000
     active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 4
+    pushes: 5
     distinct_repos: 4
-    pushes_per_repo: 1.0000
-    active_days: 2
+    pushes_per_repo: 1.2500
+    active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 105
-    distinct_repos: 25
-    pushes_per_repo: 4.2000
+    pushes: 97
+    distinct_repos: 23
+    pushes_per_repo: 4.2174
     active_days: 34
-    repos_not_owned: 11
-    not_owned_basenames: 11
+    repos_not_owned: 10
+    not_owned_basenames: 10
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
@@ -121,6 +121,6 @@ repos:
 
 # fede-kamel
 
-105 pushes across 25 repositories on 34 active days in the last 90 days of public GitHub push activity.
+97 pushes across 23 repositories on 34 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/fede-kamel

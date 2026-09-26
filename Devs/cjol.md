@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-25T06:06:35.067653+00:00"
+generated_at: "2026-09-26T06:06:37.922852+00:00"
 provenance:
   - "36da1b921f121c1d"
-pushes_per_week: [1, 4, 32, 3, 1, 4, 4, 0, 1, 0, 0, 0, 2]
+pushes_per_week: [1, 4, 32, 3, 1, 4, 4, 0, 1, 0, 0, 0, 3]
 windows:
   "7d":
-    pushes: 2
+    pushes: 3
     distinct_repos: 2
-    active_days: 2
+    active_days: 3
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 2
+    pushes: 3
     distinct_repos: 2
-    active_days: 2
+    active_days: 3
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 52
+    pushes: 53
     distinct_repos: 6
-    active_days: 16
+    active_days: 17
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 3.2500
-  repo_per_active_day: 0.3750
+  push_per_day: 3.1176
+  repo_per_active_day: 0.3529
   not_owned_ratio: 0.8333
   basename_concentration: 0.1667
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
+    pushes: 3
     distinct_repos: 2
-    pushes_per_repo: 1.0000
-    active_days: 2
+    pushes_per_repo: 1.5000
+    active_days: 3
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 2
+    pushes: 3
     distinct_repos: 2
-    pushes_per_repo: 1.0000
-    active_days: 2
+    pushes_per_repo: 1.5000
+    active_days: 3
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 52
+    pushes: 53
     distinct_repos: 6
-    pushes_per_repo: 8.6667
-    active_days: 16
+    pushes_per_repo: 8.8333
+    active_days: 17
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 16 active days in 90d — pass"
+  - "activity: 17 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "per-user-fork-studio"
@@ -129,6 +129,6 @@ repos:
 
 # cjol
 
-52 pushes across 6 repositories on 16 active days in the last 90 days of public GitHub push activity.
+53 pushes across 6 repositories on 17 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/cjol

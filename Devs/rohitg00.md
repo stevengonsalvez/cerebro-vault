@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-25T06:06:35.067653+00:00"
+generated_at: "2026-09-26T06:06:37.922852+00:00"
 provenance:
   - "7b553354eb544407"
-pushes_per_week: [21, 13, 15, 7, 7, 4, 8, 9, 11, 2, 1, 0, 4]
+pushes_per_week: [16, 13, 15, 8, 6, 4, 12, 5, 11, 2, 1, 0, 5]
 windows:
   "7d":
-    pushes: 4
-    distinct_repos: 2
-    active_days: 1
+    pushes: 5
+    distinct_repos: 3
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
     pushes: 9
-    distinct_repos: 3
+    distinct_repos: 4
     active_days: 5
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 102
-    distinct_repos: 7
+    pushes: 98
+    distinct_repos: 8
     active_days: 42
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 2.4286
-  repo_per_active_day: 0.1667
-  not_owned_ratio: 0.5714
-  basename_concentration: 0.2857
+  push_per_day: 2.3333
+  repo_per_active_day: 0.1905
+  not_owned_ratio: 0.5000
+  basename_concentration: 0.2500
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 4
-    distinct_repos: 2
-    pushes_per_repo: 2.0000
-    active_days: 1
+    pushes: 5
+    distinct_repos: 3
+    pushes_per_repo: 1.6667
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
     pushes: 9
-    distinct_repos: 3
-    pushes_per_repo: 3.0000
+    distinct_repos: 4
+    pushes_per_repo: 2.2500
     active_days: 5
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 102
-    distinct_repos: 7
-    pushes_per_repo: 14.5714
+    pushes: 98
+    distinct_repos: 8
+    pushes_per_repo: 12.2500
     active_days: 42
     repos_not_owned: 4
     not_owned_basenames: 4
@@ -190,6 +190,6 @@ repos:
 
 # rohitg00
 
-102 pushes across 7 repositories on 42 active days in the last 90 days of public GitHub push activity.
+98 pushes across 8 repositories on 42 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/rohitg00

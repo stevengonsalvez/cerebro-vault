@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-25T06:06:35.067653+00:00"
+generated_at: "2026-09-26T06:06:37.922852+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [29, 4, 0, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [26, 3, 1, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 36
+    pushes: 32
     distinct_repos: 5
-    active_days: 11
+    active_days: 10
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 3.2727
-  repo_per_active_day: 0.4545
+  push_per_day: 3.2000
+  repo_per_active_day: 0.5000
   not_owned_ratio: 0.2000
   basename_concentration: 0.2000
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 36
+    pushes: 32
     distinct_repos: 5
-    pushes_per_repo: 7.2000
-    active_days: 11
+    pushes_per_repo: 6.4000
+    active_days: 10
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 11 active days in 90d — pass"
+  - "activity: 10 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "PaloMiku-AUR-Action"
@@ -129,6 +129,6 @@ repos:
 
 # PaloMiku
 
-36 pushes across 5 repositories on 11 active days in the last 90 days of public GitHub push activity.
+32 pushes across 5 repositories on 10 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/PaloMiku

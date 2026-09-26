@@ -17,7 +17,7 @@ provenance_repos:
 admitted: true
 low_n: true
 repos_populated: true
-generated_at: "2026-09-25T06:06:35.067653+00:00"
+generated_at: "2026-09-26T06:06:37.922852+00:00"
 provenance:
   - "01cd6a498d377caf"
   - "02eab667df448997"
@@ -40,6 +40,7 @@ provenance:
   - "2f4818ccad349c12"
   - "31d0f6b1d6dddfa7"
   - "354f1b8cfb3f00d1"
+  - "35ab415a8fa4d23e"
   - "3a85fe237099d686"
   - "3c042057ca5b7cce"
   - "3f132fb2c563cba4"
@@ -136,7 +137,7 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 2
 reasons:
-  - "provenance: 56 vault signal(s) — pass"
+  - "provenance: 57 vault signal(s) — pass"
   - "activity: 4 active days in 90d — below the 5-day line, LABELLED low-n (never suppressed)"
   - "automation: clear — pass"
 repos: []

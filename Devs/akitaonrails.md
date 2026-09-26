@@ -10,27 +10,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-25T06:06:35.067653+00:00"
+generated_at: "2026-09-26T06:06:37.922852+00:00"
 provenance:
   - "4138778ebbc75ba6"
-pushes_per_week: [40, 56, 41, 28, 41, 8, 12, 13, 8, 1, 11, 18, 30]
+pushes_per_week: [53, 48, 39, 31, 37, 6, 15, 9, 8, 4, 10, 24, 29]
 windows:
   "7d":
-    pushes: 38
-    distinct_repos: 14
+    pushes: 37
+    distinct_repos: 16
     active_days: 7
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 61
-    distinct_repos: 18
+    pushes: 67
+    distinct_repos: 19
     active_days: 20
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 307
+    pushes: 313
     distinct_repos: 43
     active_days: 67
     repos_not_owned: 13
@@ -38,7 +38,7 @@ windows:
     not_owned_owners: 12
 automation:
   state: "clear"
-  push_per_day: 4.5821
+  push_per_day: 4.6716
   repo_per_active_day: 0.6418
   not_owned_ratio: 0.3023
   basename_concentration: 0.2093
@@ -50,25 +50,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 38
-    distinct_repos: 14
-    pushes_per_repo: 2.7143
+    pushes: 37
+    distinct_repos: 16
+    pushes_per_repo: 2.3125
     active_days: 7
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 61
-    distinct_repos: 18
-    pushes_per_repo: 3.3889
+    pushes: 67
+    distinct_repos: 19
+    pushes_per_repo: 3.5263
     active_days: 20
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 307
+    pushes: 313
     distinct_repos: 43
-    pushes_per_repo: 7.1395
+    pushes_per_repo: 7.2791
     active_days: 67
     repos_not_owned: 13
     not_owned_basenames: 2
@@ -130,6 +130,6 @@ repos:
 
 # akitaonrails
 
-307 pushes across 43 repositories on 67 active days in the last 90 days of public GitHub push activity.
+313 pushes across 43 repositories on 67 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/akitaonrails

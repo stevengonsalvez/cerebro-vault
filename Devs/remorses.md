@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-25T06:06:35.067653+00:00"
+generated_at: "2026-09-26T06:06:37.922852+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [15, 2, 5, 6, 4, 1, 6, 0, 6, 1, 1, 4, 3]
+pushes_per_week: [14, 1, 5, 6, 5, 1, 5, 0, 7, 0, 1, 4, 4]
 windows:
   "7d":
     pushes: 4
@@ -23,24 +23,24 @@ windows:
     not_owned_owners: 0
   "30d":
     pushes: 10
-    distinct_repos: 4
+    distinct_repos: 5
     active_days: 8
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 54
-    distinct_repos: 22
+    pushes: 53
+    distinct_repos: 23
     active_days: 33
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.6364
-  repo_per_active_day: 0.6667
-  not_owned_ratio: 0.0455
-  basename_concentration: 0.0455
+  push_per_day: 1.6061
+  repo_per_active_day: 0.6970
+  not_owned_ratio: 0.0435
+  basename_concentration: 0.0435
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -58,16 +58,16 @@ facets:
     not_owned_owners: 0
   "30d":
     pushes: 10
-    distinct_repos: 4
-    pushes_per_repo: 2.5000
+    distinct_repos: 5
+    pushes_per_repo: 2.0000
     active_days: 8
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 54
-    distinct_repos: 22
-    pushes_per_repo: 2.4545
+    pushes: 53
+    distinct_repos: 23
+    pushes_per_repo: 2.3043
     active_days: 33
     repos_not_owned: 1
     not_owned_basenames: 1
@@ -140,6 +140,6 @@ repos:
 
 # remorses
 
-54 pushes across 22 repositories on 33 active days in the last 90 days of public GitHub push activity.
+53 pushes across 23 repositories on 33 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/remorses

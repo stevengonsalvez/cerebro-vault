@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-25T06:06:35.067653+00:00"
+generated_at: "2026-09-26T06:06:37.922852+00:00"
 provenance:
   - "48dbbdd8fd0d3029"
-pushes_per_week: [24, 11, 14, 21, 14, 10, 5, 1, 4, 1, 0, 0, 4]
+pushes_per_week: [21, 11, 17, 17, 15, 10, 3, 1, 4, 1, 0, 2, 2]
 windows:
   "7d":
     pushes: 4
@@ -22,25 +22,25 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 9
-    distinct_repos: 5
-    active_days: 6
-    repos_not_owned: 3
-    not_owned_basenames: 3
-    not_owned_owners: 2
+    pushes: 6
+    distinct_repos: 3
+    active_days: 5
+    repos_not_owned: 2
+    not_owned_basenames: 2
+    not_owned_owners: 1
   "90d":
-    pushes: 109
-    distinct_repos: 17
-    active_days: 48
+    pushes: 104
+    distinct_repos: 14
+    active_days: 47
     repos_not_owned: 10
     not_owned_basenames: 9
     not_owned_owners: 6
 automation:
   state: "clear"
-  push_per_day: 2.2708
-  repo_per_active_day: 0.3542
-  not_owned_ratio: 0.5882
-  basename_concentration: 0.1176
+  push_per_day: 2.2128
+  repo_per_active_day: 0.2979
+  not_owned_ratio: 0.7143
+  basename_concentration: 0.1429
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 9
-    distinct_repos: 5
-    pushes_per_repo: 1.8000
-    active_days: 6
-    repos_not_owned: 3
-    not_owned_basenames: 3
-    not_owned_owners: 2
+    pushes: 6
+    distinct_repos: 3
+    pushes_per_repo: 2.0000
+    active_days: 5
+    repos_not_owned: 2
+    not_owned_basenames: 2
+    not_owned_owners: 1
   "90d":
-    pushes: 109
-    distinct_repos: 17
-    pushes_per_repo: 6.4118
-    active_days: 48
+    pushes: 104
+    distinct_repos: 14
+    pushes_per_repo: 7.4286
+    active_days: 47
     repos_not_owned: 10
     not_owned_basenames: 9
     not_owned_owners: 6
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 48 active days in 90d — pass"
+  - "activity: 47 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "mcp-hfspace"
@@ -141,6 +141,6 @@ repos:
 
 # evalstate
 
-109 pushes across 17 repositories on 48 active days in the last 90 days of public GitHub push activity.
+104 pushes across 14 repositories on 47 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/evalstate

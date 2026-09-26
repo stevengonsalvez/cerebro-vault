@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-25T06:06:35.067653+00:00"
+generated_at: "2026-09-26T06:06:37.922852+00:00"
 provenance:
   - "c489e6fb5febf2ab"
-pushes_per_week: [0, 4, 0, 4, 0, 1, 5, 2, 3, 0, 1, 24, 12]
+pushes_per_week: [0, 4, 0, 4, 0, 1, 6, 1, 3, 0, 2, 31, 8]
 windows:
   "7d":
-    pushes: 12
-    distinct_repos: 5
-    active_days: 3
+    pushes: 16
+    distinct_repos: 6
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 39
-    distinct_repos: 22
-    active_days: 9
+    pushes: 43
+    distinct_repos: 23
+    active_days: 10
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 56
-    distinct_repos: 28
-    active_days: 21
+    pushes: 60
+    distinct_repos: 29
+    active_days: 22
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.6667
-  repo_per_active_day: 1.3333
+  push_per_day: 2.7273
+  repo_per_active_day: 1.3182
   not_owned_ratio: 0.0000
-  basename_concentration: 0.0357
+  basename_concentration: 0.0345
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 12
-    distinct_repos: 5
-    pushes_per_repo: 2.4000
-    active_days: 3
+    pushes: 16
+    distinct_repos: 6
+    pushes_per_repo: 2.6667
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 39
-    distinct_repos: 22
-    pushes_per_repo: 1.7727
-    active_days: 9
+    pushes: 43
+    distinct_repos: 23
+    pushes_per_repo: 1.8696
+    active_days: 10
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 56
-    distinct_repos: 28
-    pushes_per_repo: 2.0000
-    active_days: 21
+    pushes: 60
+    distinct_repos: 29
+    pushes_per_repo: 2.0690
+    active_days: 22
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 21 active days in 90d — pass"
+  - "activity: 22 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "oss-tracker"
@@ -155,6 +155,6 @@ repos:
 
 # vjymisal0
 
-56 pushes across 28 repositories on 21 active days in the last 90 days of public GitHub push activity.
+60 pushes across 29 repositories on 22 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/vjymisal0

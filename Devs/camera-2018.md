@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-25T06:06:35.067653+00:00"
+generated_at: "2026-09-26T06:06:37.922852+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [6, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 6, 2]
+pushes_per_week: [2, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 8, 0]
 windows:
   "7d":
-    pushes: 5
+    pushes: 2
     distinct_repos: 2
-    active_days: 2
+    active_days: 1
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 16
-    distinct_repos: 7
-    active_days: 8
+    pushes: 12
+    distinct_repos: 5
+    active_days: 7
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.0000
-  repo_per_active_day: 0.8750
-  not_owned_ratio: 0.2857
-  basename_concentration: 0.1429
+  push_per_day: 1.7143
+  repo_per_active_day: 0.7143
+  not_owned_ratio: 0.4000
+  basename_concentration: 0.2000
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 5
+    pushes: 2
     distinct_repos: 2
-    pushes_per_repo: 2.5000
-    active_days: 2
+    pushes_per_repo: 1.0000
+    active_days: 1
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 16
-    distinct_repos: 7
-    pushes_per_repo: 2.2857
-    active_days: 8
+    pushes: 12
+    distinct_repos: 5
+    pushes_per_repo: 2.4000
+    active_days: 7
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 8 active days in 90d — pass"
+  - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "astrbot_plugin_repeat"
@@ -146,6 +146,6 @@ repos:
 
 # camera-2018
 
-16 pushes across 7 repositories on 8 active days in the last 90 days of public GitHub push activity.
+12 pushes across 5 repositories on 7 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/camera-2018

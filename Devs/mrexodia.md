@@ -10,28 +10,28 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-25T06:06:35.067653+00:00"
+generated_at: "2026-09-26T06:06:37.922852+00:00"
 provenance:
   - "48dbbdd8fd0d3029"
   - "de6bf05613f3ae04"
-pushes_per_week: [14, 9, 14, 15, 7, 5, 7, 4, 3, 0, 0, 5, 2]
+pushes_per_week: [13, 5, 16, 13, 7, 5, 7, 4, 3, 0, 0, 6, 2]
 windows:
   "7d":
-    pushes: 4
-    distinct_repos: 4
+    pushes: 3
+    distinct_repos: 3
     active_days: 3
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
   "30d":
-    pushes: 7
+    pushes: 8
     distinct_repos: 6
-    active_days: 6
+    active_days: 7
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 3
   "90d":
-    pushes: 85
+    pushes: 81
     distinct_repos: 35
     active_days: 41
     repos_not_owned: 12
@@ -39,7 +39,7 @@ windows:
     not_owned_owners: 5
 automation:
   state: "clear"
-  push_per_day: 2.0732
+  push_per_day: 1.9756
   repo_per_active_day: 0.8537
   not_owned_ratio: 0.3429
   basename_concentration: 0.0857
@@ -51,25 +51,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 4
-    distinct_repos: 4
+    pushes: 3
+    distinct_repos: 3
     pushes_per_repo: 1.0000
     active_days: 3
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
   "30d":
-    pushes: 7
+    pushes: 8
     distinct_repos: 6
-    pushes_per_repo: 1.1667
-    active_days: 6
+    pushes_per_repo: 1.3333
+    active_days: 7
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 3
   "90d":
-    pushes: 85
+    pushes: 81
     distinct_repos: 35
-    pushes_per_repo: 2.4286
+    pushes_per_repo: 2.3143
     active_days: 41
     repos_not_owned: 12
     not_owned_basenames: 10
@@ -158,6 +158,6 @@ repos:
 
 # mrexodia
 
-85 pushes across 35 repositories on 41 active days in the last 90 days of public GitHub push activity.
+81 pushes across 35 repositories on 41 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/mrexodia

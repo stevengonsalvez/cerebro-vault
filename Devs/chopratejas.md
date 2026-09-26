@@ -11,14 +11,14 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-25T06:06:35.067653+00:00"
+generated_at: "2026-09-26T06:06:37.922852+00:00"
 provenance:
   - "668711a6e1072822"
   - "73468cde177ddae6"
-pushes_per_week: [27, 19, 109, 17, 19, 11, 10, 4, 1, 0, 1, 5, 5]
+pushes_per_week: [24, 20, 116, 12, 16, 12, 9, 4, 1, 0, 3, 5, 3]
 windows:
   "7d":
-    pushes: 5
+    pushes: 4
     distinct_repos: 2
     active_days: 2
     repos_not_owned: 1
@@ -32,16 +32,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 3
   "90d":
-    pushes: 228
+    pushes: 225
     distinct_repos: 19
-    active_days: 50
+    active_days: 49
     repos_not_owned: 18
     not_owned_basenames: 2
     not_owned_owners: 18
 automation:
   state: "clear"
-  push_per_day: 4.5600
-  repo_per_active_day: 0.3800
+  push_per_day: 4.5918
+  repo_per_active_day: 0.3878
   not_owned_ratio: 0.9474
   basename_concentration: 0.8947
   shapes:
@@ -68,9 +68,9 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 5
+    pushes: 4
     distinct_repos: 2
-    pushes_per_repo: 2.5000
+    pushes_per_repo: 2.0000
     active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
@@ -84,16 +84,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 3
   "90d":
-    pushes: 228
+    pushes: 225
     distinct_repos: 19
-    pushes_per_repo: 12.0000
-    active_days: 50
+    pushes_per_repo: 11.8421
+    active_days: 49
     repos_not_owned: 18
     not_owned_basenames: 2
     not_owned_owners: 18
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 50 active days in 90d — pass"
+  - "activity: 49 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "invalidate"
@@ -158,6 +158,6 @@ repos:
 
 # chopratejas
 
-228 pushes across 19 repositories on 50 active days in the last 90 days of public GitHub push activity.
+225 pushes across 19 repositories on 49 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/chopratejas

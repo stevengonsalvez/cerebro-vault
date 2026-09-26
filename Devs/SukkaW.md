@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-25T06:06:35.067653+00:00"
+generated_at: "2026-09-26T06:06:37.922852+00:00"
 provenance:
   - "ef17663e884139a8"
-pushes_per_week: [69, 30, 45, 22, 26, 16, 45, 7, 6, 1, 0, 6, 5]
+pushes_per_week: [71, 28, 45, 17, 29, 20, 38, 7, 5, 0, 2, 5, 5]
 windows:
   "7d":
     pushes: 6
@@ -22,14 +22,14 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 15
-    distinct_repos: 9
-    active_days: 12
+    pushes: 14
+    distinct_repos: 7
+    active_days: 11
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 278
+    pushes: 272
     distinct_repos: 41
     active_days: 66
     repos_not_owned: 4
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 4.2121
+  push_per_day: 4.1212
   repo_per_active_day: 0.6212
   not_owned_ratio: 0.0976
   basename_concentration: 0.0244
@@ -57,17 +57,17 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 15
-    distinct_repos: 9
-    pushes_per_repo: 1.6667
-    active_days: 12
+    pushes: 14
+    distinct_repos: 7
+    pushes_per_repo: 2.0000
+    active_days: 11
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 278
+    pushes: 272
     distinct_repos: 41
-    pushes_per_repo: 6.7805
+    pushes_per_repo: 6.6341
     active_days: 66
     repos_not_owned: 4
     not_owned_basenames: 4
@@ -156,6 +156,6 @@ repos:
 
 # SukkaW
 
-278 pushes across 41 repositories on 66 active days in the last 90 days of public GitHub push activity.
+272 pushes across 41 repositories on 66 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/SukkaW

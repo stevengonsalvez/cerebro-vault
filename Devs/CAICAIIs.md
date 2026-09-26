@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-25T06:06:35.067653+00:00"
+generated_at: "2026-09-26T06:06:37.922852+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [4, 4, 8, 2, 0, 1, 1, 0, 4, 0, 7, 7, 6]
+pushes_per_week: [3, 5, 7, 2, 0, 1, 1, 1, 3, 0, 9, 5, 6]
 windows:
   "7d":
-    pushes: 7
-    distinct_repos: 3
-    active_days: 4
+    pushes: 6
+    distinct_repos: 2
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 44
-    distinct_repos: 8
-    active_days: 27
+    pushes: 43
+    distinct_repos: 7
+    active_days: 26
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.6296
-  repo_per_active_day: 0.2963
-  not_owned_ratio: 0.1250
-  basename_concentration: 0.1250
+  push_per_day: 1.6538
+  repo_per_active_day: 0.2692
+  not_owned_ratio: 0.1429
+  basename_concentration: 0.1429
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 7
-    distinct_repos: 3
-    pushes_per_repo: 2.3333
-    active_days: 4
+    pushes: 6
+    distinct_repos: 2
+    pushes_per_repo: 3.0000
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 44
-    distinct_repos: 8
-    pushes_per_repo: 5.5000
-    active_days: 27
+    pushes: 43
+    distinct_repos: 7
+    pushes_per_repo: 6.1429
+    active_days: 26
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 27 active days in 90d — pass"
+  - "activity: 26 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "CAICAIIs"
@@ -129,6 +129,6 @@ repos:
 
 # CAICAIIs
 
-44 pushes across 8 repositories on 27 active days in the last 90 days of public GitHub push activity.
+43 pushes across 7 repositories on 26 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/CAICAIIs

@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-25T06:06:35.067653+00:00"
+generated_at: "2026-09-26T06:06:37.922852+00:00"
 provenance:
   - "541318303a272608"
-pushes_per_week: [0, 0, 0, 2, 0, 0, 23, 1, 2, 1, 1, 6, 3]
+pushes_per_week: [0, 0, 0, 2, 0, 6, 17, 1, 3, 0, 2, 5, 4]
 windows:
   "7d":
-    pushes: 3
+    pushes: 4
     distinct_repos: 2
-    active_days: 2
+    active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 39
+    pushes: 40
     distinct_repos: 8
-    active_days: 16
+    active_days: 17
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.4375
-  repo_per_active_day: 0.5000
+  push_per_day: 2.3529
+  repo_per_active_day: 0.4706
   not_owned_ratio: 0.1250
   basename_concentration: 0.2500
   shapes: []
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 3
+    pushes: 4
     distinct_repos: 2
-    pushes_per_repo: 1.5000
-    active_days: 2
+    pushes_per_repo: 2.0000
+    active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 39
+    pushes: 40
     distinct_repos: 8
-    pushes_per_repo: 4.8750
-    active_days: 16
+    pushes_per_repo: 5.0000
+    active_days: 17
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 16 active days in 90d — pass"
+  - "activity: 17 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "dsh-context"
@@ -142,6 +142,6 @@ repos:
 
 # bowenliang123
 
-39 pushes across 8 repositories on 16 active days in the last 90 days of public GitHub push activity.
+40 pushes across 8 repositories on 17 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/bowenliang123

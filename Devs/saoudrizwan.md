@@ -10,36 +10,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-25T06:06:35.067653+00:00"
+generated_at: "2026-09-26T06:06:37.922852+00:00"
 provenance:
   - "533d51d9d3dea76f"
-pushes_per_week: [35, 26, 33, 36, 31, 28, 32, 6, 1, 0, 3, 3, 8]
+pushes_per_week: [26, 30, 31, 34, 38, 27, 26, 6, 1, 0, 3, 4, 9]
 windows:
   "7d":
-    pushes: 8
+    pushes: 10
     distinct_repos: 1
     active_days: 5
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 14
+    pushes: 16
     distinct_repos: 1
     active_days: 8
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 242
+    pushes: 235
     distinct_repos: 5
-    active_days: 54
+    active_days: 53
     repos_not_owned: 5
     not_owned_basenames: 4
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 4.4815
-  repo_per_active_day: 0.0926
+  push_per_day: 4.4340
+  repo_per_active_day: 0.0943
   not_owned_ratio: 1.0000
   basename_concentration: 0.4000
   shapes: []
@@ -50,32 +50,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 8
+    pushes: 10
     distinct_repos: 1
-    pushes_per_repo: 8.0000
+    pushes_per_repo: 10.0000
     active_days: 5
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 14
+    pushes: 16
     distinct_repos: 1
-    pushes_per_repo: 14.0000
+    pushes_per_repo: 16.0000
     active_days: 8
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 242
+    pushes: 235
     distinct_repos: 5
-    pushes_per_repo: 48.4000
-    active_days: 54
+    pushes_per_repo: 47.0000
+    active_days: 53
     repos_not_owned: 5
     not_owned_basenames: 4
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 54 active days in 90d — pass"
+  - "activity: 53 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "Disk"
@@ -160,6 +160,6 @@ repos:
 
 # saoudrizwan
 
-242 pushes across 5 repositories on 54 active days in the last 90 days of public GitHub push activity.
+235 pushes across 5 repositories on 53 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/saoudrizwan

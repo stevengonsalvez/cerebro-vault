@@ -10,10 +10,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-25T06:06:35.067653+00:00"
+generated_at: "2026-09-26T06:06:37.922852+00:00"
 provenance:
   - "9e2ff10d772b1e71"
-pushes_per_week: [45, 14, 10, 4, 7, 4, 7, 4, 2, 1, 3, 0, 3]
+pushes_per_week: [39, 12, 10, 4, 9, 3, 6, 5, 2, 0, 3, 0, 3]
 windows:
   "7d":
     pushes: 3
@@ -30,16 +30,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 104
+    pushes: 96
     distinct_repos: 10
-    active_days: 36
+    active_days: 35
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.8889
-  repo_per_active_day: 0.2778
+  push_per_day: 2.7429
+  repo_per_active_day: 0.2857
   not_owned_ratio: 0.0000
   basename_concentration: 0.1000
   shapes: []
@@ -66,16 +66,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 104
+    pushes: 96
     distinct_repos: 10
-    pushes_per_repo: 10.4000
-    active_days: 36
+    pushes_per_repo: 9.6000
+    active_days: 35
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 36 active days in 90d — pass"
+  - "activity: 35 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "demo-gitskins"
@@ -159,6 +159,6 @@ repos:
 
 # asamassekou10
 
-104 pushes across 10 repositories on 36 active days in the last 90 days of public GitHub push activity.
+96 pushes across 10 repositories on 35 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/asamassekou10

@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-25T06:06:35.067653+00:00"
+generated_at: "2026-09-26T06:06:37.922852+00:00"
 provenance:
   - "dffbb846389f9a26"
-pushes_per_week: [42, 1, 3, 0, 4, 0, 0, 0, 0, 0, 1, 4, 1]
+pushes_per_week: [31, 2, 2, 0, 4, 0, 0, 0, 0, 0, 1, 4, 1]
 windows:
   "7d":
-    pushes: 3
+    pushes: 1
     distinct_repos: 1
-    active_days: 2
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 56
+    pushes: 45
     distinct_repos: 6
-    active_days: 17
+    active_days: 15
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 3.2941
-  repo_per_active_day: 0.3529
+  push_per_day: 3.0000
+  repo_per_active_day: 0.4000
   not_owned_ratio: 0.0000
   basename_concentration: 0.1667
   shapes: []
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 3
+    pushes: 1
     distinct_repos: 1
-    pushes_per_repo: 3.0000
-    active_days: 2
+    pushes_per_repo: 1.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 56
+    pushes: 45
     distinct_repos: 6
-    pushes_per_repo: 9.3333
-    active_days: 17
+    pushes_per_repo: 7.5000
+    active_days: 15
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 17 active days in 90d — pass"
+  - "activity: 15 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "ClawForge"
@@ -148,6 +148,6 @@ repos:
 
 # jackjin1997
 
-56 pushes across 6 repositories on 17 active days in the last 90 days of public GitHub push activity.
+45 pushes across 6 repositories on 15 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/jackjin1997

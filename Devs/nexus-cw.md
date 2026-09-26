@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-25T06:06:35.067653+00:00"
+generated_at: "2026-09-26T06:06:37.922852+00:00"
 provenance:
   - "3eacb4655aba2497"
-pushes_per_week: [12, 70, 42, 22, 21, 13, 3, 1, 0, 0, 0, 0, 0]
+pushes_per_week: [15, 66, 42, 23, 17, 14, 3, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 184
-    distinct_repos: 14
-    active_days: 35
-    repos_not_owned: 12
-    not_owned_basenames: 12
+    pushes: 180
+    distinct_repos: 11
+    active_days: 34
+    repos_not_owned: 9
+    not_owned_basenames: 9
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 5.2571
-  repo_per_active_day: 0.4000
-  not_owned_ratio: 0.8571
-  basename_concentration: 0.0714
+  push_per_day: 5.2941
+  repo_per_active_day: 0.3235
+  not_owned_ratio: 0.8182
+  basename_concentration: 0.0909
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 184
-    distinct_repos: 14
-    pushes_per_repo: 13.1429
-    active_days: 35
-    repos_not_owned: 12
-    not_owned_basenames: 12
+    pushes: 180
+    distinct_repos: 11
+    pushes_per_repo: 16.3636
+    active_days: 34
+    repos_not_owned: 9
+    not_owned_basenames: 9
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 35 active days in 90d — pass"
+  - "activity: 34 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "accretion"
@@ -97,6 +97,6 @@ repos:
 
 # nexus-cw
 
-184 pushes across 14 repositories on 35 active days in the last 90 days of public GitHub push activity.
+180 pushes across 11 repositories on 34 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/nexus-cw

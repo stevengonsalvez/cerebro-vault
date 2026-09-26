@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-25T06:06:35.067653+00:00"
+generated_at: "2026-09-26T06:06:37.922852+00:00"
 provenance:
   - "ef17663e884139a8"
-pushes_per_week: [12, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 21, 10]
+pushes_per_week: [11, 1, 0, 0, 0, 0, 0, 0, 0, 0, 4, 22, 8]
 windows:
   "7d":
-    pushes: 14
-    distinct_repos: 2
+    pushes: 12
+    distinct_repos: 3
     active_days: 6
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 32
-    distinct_repos: 2
-    active_days: 12
+    pushes: 34
+    distinct_repos: 3
+    active_days: 13
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 45
-    distinct_repos: 2
+    pushes: 46
+    distinct_repos: 3
     active_days: 15
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 3.0000
-  repo_per_active_day: 0.1333
-  not_owned_ratio: 0.5000
-  basename_concentration: 0.5000
+  push_per_day: 3.0667
+  repo_per_active_day: 0.2000
+  not_owned_ratio: 0.3333
+  basename_concentration: 0.3333
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 14
-    distinct_repos: 2
-    pushes_per_repo: 7.0000
+    pushes: 12
+    distinct_repos: 3
+    pushes_per_repo: 4.0000
     active_days: 6
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 32
-    distinct_repos: 2
-    pushes_per_repo: 16.0000
-    active_days: 12
+    pushes: 34
+    distinct_repos: 3
+    pushes_per_repo: 11.3333
+    active_days: 13
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 45
-    distinct_repos: 2
-    pushes_per_repo: 22.5000
+    pushes: 46
+    distinct_repos: 3
+    pushes_per_repo: 15.3333
     active_days: 15
     repos_not_owned: 1
     not_owned_basenames: 1
@@ -159,6 +159,6 @@ repos:
 
 # ntsd
 
-45 pushes across 2 repositories on 15 active days in the last 90 days of public GitHub push activity.
+46 pushes across 3 repositories on 15 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ntsd

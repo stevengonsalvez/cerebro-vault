@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-25T06:06:35.067653+00:00"
+generated_at: "2026-09-26T06:06:37.922852+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [7, 18, 0, 0, 2, 0, 0, 2, 0, 0, 0, 14, 20]
+pushes_per_week: [10, 15, 0, 2, 0, 0, 0, 2, 0, 0, 0, 14, 30]
 windows:
   "7d":
-    pushes: 20
+    pushes: 30
     distinct_repos: 1
     active_days: 6
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 34
+    pushes: 44
     distinct_repos: 1
     active_days: 9
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 63
+    pushes: 73
     distinct_repos: 6
     active_days: 16
     repos_not_owned: 1
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 3.9375
+  push_per_day: 4.5625
   repo_per_active_day: 0.3750
   not_owned_ratio: 0.1667
   basename_concentration: 0.1667
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 20
+    pushes: 30
     distinct_repos: 1
-    pushes_per_repo: 20.0000
+    pushes_per_repo: 30.0000
     active_days: 6
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 34
+    pushes: 44
     distinct_repos: 1
-    pushes_per_repo: 34.0000
+    pushes_per_repo: 44.0000
     active_days: 9
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 63
+    pushes: 73
     distinct_repos: 6
-    pushes_per_repo: 10.5000
+    pushes_per_repo: 12.1667
     active_days: 16
     repos_not_owned: 1
     not_owned_basenames: 1
@@ -129,6 +129,6 @@ repos:
 
 # navidemad
 
-63 pushes across 6 repositories on 16 active days in the last 90 days of public GitHub push activity.
+73 pushes across 6 repositories on 16 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/navidemad

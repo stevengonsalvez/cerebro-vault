@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-25T06:06:35.067653+00:00"
+generated_at: "2026-09-26T06:06:37.922852+00:00"
 provenance:
   - "b68d90c0788819fd"
-pushes_per_week: [71, 54, 39, 22, 21, 5, 28, 8, 5, 2, 1, 20, 11]
+pushes_per_week: [83, 44, 38, 22, 20, 5, 28, 9, 4, 2, 1, 21, 13]
 windows:
   "7d":
-    pushes: 25
-    distinct_repos: 10
+    pushes: 14
+    distinct_repos: 4
     active_days: 4
-    repos_not_owned: 10
+    repos_not_owned: 4
     not_owned_basenames: 3
-    not_owned_owners: 8
+    not_owned_owners: 2
   "30d":
-    pushes: 37
+    pushes: 40
     distinct_repos: 14
-    active_days: 10
+    active_days: 11
     repos_not_owned: 13
     not_owned_basenames: 4
     not_owned_owners: 11
   "90d":
-    pushes: 287
+    pushes: 290
     distinct_repos: 42
-    active_days: 53
+    active_days: 54
     repos_not_owned: 37
     not_owned_basenames: 4
     not_owned_owners: 35
 automation:
   state: "clear"
-  push_per_day: 5.4151
-  repo_per_active_day: 0.7925
+  push_per_day: 5.3704
+  repo_per_active_day: 0.7778
   not_owned_ratio: 0.8810
   basename_concentration: 0.8333
   shapes:
@@ -65,32 +65,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 25
-    distinct_repos: 10
-    pushes_per_repo: 2.5000
+    pushes: 14
+    distinct_repos: 4
+    pushes_per_repo: 3.5000
     active_days: 4
-    repos_not_owned: 10
+    repos_not_owned: 4
     not_owned_basenames: 3
-    not_owned_owners: 8
+    not_owned_owners: 2
   "30d":
-    pushes: 37
+    pushes: 40
     distinct_repos: 14
-    pushes_per_repo: 2.6429
-    active_days: 10
+    pushes_per_repo: 2.8571
+    active_days: 11
     repos_not_owned: 13
     not_owned_basenames: 4
     not_owned_owners: 11
   "90d":
-    pushes: 287
+    pushes: 290
     distinct_repos: 42
-    pushes_per_repo: 6.8333
-    active_days: 53
+    pushes_per_repo: 6.9048
+    active_days: 54
     repos_not_owned: 37
     not_owned_basenames: 4
     not_owned_owners: 35
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 53 active days in 90d — pass"
+  - "activity: 54 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "cv-santiago"
@@ -189,6 +189,6 @@ repos:
 
 # santifer
 
-287 pushes across 42 repositories on 53 active days in the last 90 days of public GitHub push activity.
+290 pushes across 42 repositories on 54 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/santifer

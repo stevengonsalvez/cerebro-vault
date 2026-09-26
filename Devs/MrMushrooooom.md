@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-25T06:06:35.067653+00:00"
+generated_at: "2026-09-26T06:06:37.922852+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [2, 3, 1, 0, 1, 1, 5, 3, 0, 0, 0, 0, 2]
+pushes_per_week: [2, 3, 1, 0, 1, 1, 5, 3, 0, 0, 0, 0, 3]
 windows:
   "7d":
-    pushes: 2
+    pushes: 3
     distinct_repos: 2
-    active_days: 1
+    active_days: 2
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 2
+    pushes: 3
     distinct_repos: 2
-    active_days: 1
+    active_days: 2
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 18
+    pushes: 19
     distinct_repos: 2
-    active_days: 12
+    active_days: 13
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.5000
-  repo_per_active_day: 0.1667
+  push_per_day: 1.4615
+  repo_per_active_day: 0.1538
   not_owned_ratio: 1.0000
   basename_concentration: 0.5000
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
+    pushes: 3
     distinct_repos: 2
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes_per_repo: 1.5000
+    active_days: 2
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 2
+    pushes: 3
     distinct_repos: 2
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes_per_repo: 1.5000
+    active_days: 2
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 18
+    pushes: 19
     distinct_repos: 2
-    pushes_per_repo: 9.0000
-    active_days: 12
+    pushes_per_repo: 9.5000
+    active_days: 13
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 12 active days in 90d — pass"
+  - "activity: 13 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "DataSense-Site"
@@ -133,6 +133,6 @@ repos:
 
 # MrMushrooooom
 
-18 pushes across 2 repositories on 12 active days in the last 90 days of public GitHub push activity.
+19 pushes across 2 repositories on 13 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/MrMushrooooom
