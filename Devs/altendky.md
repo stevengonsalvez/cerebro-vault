@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-26T06:06:37.922852+00:00"
+generated_at: "2026-09-27T06:09:19.734552+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [1, 0, 2, 6, 3, 1, 2, 0, 0, 0, 2, 9, 7]
+pushes_per_week: [0, 0, 3, 5, 3, 3, 0, 0, 0, 0, 2, 9, 7]
 windows:
   "7d":
-    pushes: 8
-    distinct_repos: 3
-    active_days: 5
+    pushes: 7
+    distinct_repos: 2
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 33
+    pushes: 32
     distinct_repos: 8
-    active_days: 20
+    active_days: 19
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.6500
-  repo_per_active_day: 0.4000
+  push_per_day: 1.6842
+  repo_per_active_day: 0.4211
   not_owned_ratio: 0.0000
   basename_concentration: 0.1250
   shapes: []
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 8
-    distinct_repos: 3
-    pushes_per_repo: 2.6667
-    active_days: 5
+    pushes: 7
+    distinct_repos: 2
+    pushes_per_repo: 3.5000
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 33
+    pushes: 32
     distinct_repos: 8
-    pushes_per_repo: 4.1250
-    active_days: 20
+    pushes_per_repo: 4.0000
+    active_days: 19
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 20 active days in 90d — pass"
+  - "activity: 19 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "onshape-export"
@@ -159,6 +159,6 @@ repos:
 
 # altendky
 
-33 pushes across 8 repositories on 20 active days in the last 90 days of public GitHub push activity.
+32 pushes across 8 repositories on 19 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/altendky

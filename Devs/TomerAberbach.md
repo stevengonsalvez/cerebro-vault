@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-26T06:06:37.922852+00:00"
+generated_at: "2026-09-27T06:09:19.734552+00:00"
 provenance:
   - "1be978947e68d1f2"
-pushes_per_week: [28, 24, 22, 11, 2, 7, 10, 5, 1, 0, 2, 1, 5]
+pushes_per_week: [28, 28, 23, 3, 1, 11, 7, 4, 1, 0, 2, 1, 10]
 windows:
   "7d":
-    pushes: 5
+    pushes: 10
     distinct_repos: 1
-    active_days: 2
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 8
+    pushes: 13
     distinct_repos: 4
-    active_days: 5
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 118
+    pushes: 119
     distinct_repos: 5
-    active_days: 37
+    active_days: 38
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 3.1892
-  repo_per_active_day: 0.1351
+  push_per_day: 3.1316
+  repo_per_active_day: 0.1316
   not_owned_ratio: 0.0000
   basename_concentration: 0.2000
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 5
+    pushes: 10
     distinct_repos: 1
-    pushes_per_repo: 5.0000
-    active_days: 2
+    pushes_per_repo: 10.0000
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 8
+    pushes: 13
     distinct_repos: 4
-    pushes_per_repo: 2.0000
-    active_days: 5
+    pushes_per_repo: 3.2500
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 118
+    pushes: 119
     distinct_repos: 5
-    pushes_per_repo: 23.6000
-    active_days: 37
+    pushes_per_repo: 23.8000
+    active_days: 38
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 37 active days in 90d — pass"
+  - "activity: 38 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "profiler-md"
@@ -178,6 +178,6 @@ repos:
 
 # TomerAberbach
 
-118 pushes across 5 repositories on 37 active days in the last 90 days of public GitHub push activity.
+119 pushes across 5 repositories on 38 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/TomerAberbach

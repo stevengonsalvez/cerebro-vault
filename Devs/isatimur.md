@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-26T06:06:37.922852+00:00"
+generated_at: "2026-09-27T06:09:19.734552+00:00"
 provenance:
   - "46f3c1d6124190bd"
-pushes_per_week: [21, 2, 7, 13, 44, 7, 2, 0, 0, 0, 0, 4, 1]
+pushes_per_week: [20, 2, 8, 16, 44, 3, 2, 0, 0, 0, 1, 4, 0]
 windows:
   "7d":
     pushes: 1
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 101
+    pushes: 100
     distinct_repos: 12
-    active_days: 32
+    active_days: 31
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 3.1562
-  repo_per_active_day: 0.3750
+  push_per_day: 3.2258
+  repo_per_active_day: 0.3871
   not_owned_ratio: 0.0000
   basename_concentration: 0.0833
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 101
+    pushes: 100
     distinct_repos: 12
-    pushes_per_repo: 8.4167
-    active_days: 32
+    pushes_per_repo: 8.3333
+    active_days: 31
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 32 active days in 90d — pass"
+  - "activity: 31 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "excalidraw-skill-pack"
@@ -169,6 +169,6 @@ repos:
 
 # isatimur
 
-101 pushes across 12 repositories on 32 active days in the last 90 days of public GitHub push activity.
+100 pushes across 12 repositories on 31 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/isatimur

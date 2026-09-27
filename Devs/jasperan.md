@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-26T06:06:37.922852+00:00"
+generated_at: "2026-09-27T06:09:19.734552+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [1, 0, 1, 0, 0, 1, 4, 2, 4, 0, 0, 7, 11]
+pushes_per_week: [0, 0, 1, 0, 0, 1, 6, 4, 0, 0, 4, 3, 11]
 windows:
   "7d":
     pushes: 11
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 3
     not_owned_owners: 2
   "90d":
-    pushes: 31
-    distinct_repos: 14
-    active_days: 12
-    repos_not_owned: 5
-    not_owned_basenames: 5
+    pushes: 30
+    distinct_repos: 13
+    active_days: 11
+    repos_not_owned: 4
+    not_owned_basenames: 4
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 2.5833
-  repo_per_active_day: 1.1667
-  not_owned_ratio: 0.3571
-  basename_concentration: 0.1429
+  push_per_day: 2.7273
+  repo_per_active_day: 1.1818
+  not_owned_ratio: 0.3077
+  basename_concentration: 0.1538
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 3
     not_owned_owners: 2
   "90d":
-    pushes: 31
-    distinct_repos: 14
-    pushes_per_repo: 2.2143
-    active_days: 12
-    repos_not_owned: 5
-    not_owned_basenames: 5
+    pushes: 30
+    distinct_repos: 13
+    pushes_per_repo: 2.3077
+    active_days: 11
+    repos_not_owned: 4
+    not_owned_basenames: 4
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 12 active days in 90d — pass"
+  - "activity: 11 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "whatsapp-osint"
@@ -136,6 +136,6 @@ repos:
 
 # jasperan
 
-31 pushes across 14 repositories on 12 active days in the last 90 days of public GitHub push activity.
+30 pushes across 13 repositories on 11 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/jasperan

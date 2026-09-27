@@ -9,37 +9,37 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-26T06:06:37.922852+00:00"
+generated_at: "2026-09-27T06:09:19.734552+00:00"
 provenance:
   - "f74d5b6b78b8a1a4"
-pushes_per_week: [46, 25, 20, 15, 17, 14, 19, 3, 4, 0, 3, 0, 5]
+pushes_per_week: [48, 20, 18, 20, 13, 15, 18, 2, 4, 1, 2, 2, 4]
 windows:
   "7d":
     pushes: 5
-    distinct_repos: 3
-    active_days: 2
-    repos_not_owned: 2
-    not_owned_basenames: 1
-    not_owned_owners: 2
-  "30d":
-    pushes: 10
-    distinct_repos: 3
-    active_days: 7
-    repos_not_owned: 2
-    not_owned_basenames: 1
-    not_owned_owners: 2
-  "90d":
-    pushes: 171
     distinct_repos: 4
-    active_days: 50
+    active_days: 3
     repos_not_owned: 3
     not_owned_basenames: 1
     not_owned_owners: 3
+  "30d":
+    pushes: 10
+    distinct_repos: 4
+    active_days: 7
+    repos_not_owned: 3
+    not_owned_basenames: 1
+    not_owned_owners: 3
+  "90d":
+    pushes: 167
+    distinct_repos: 5
+    active_days: 50
+    repos_not_owned: 4
+    not_owned_basenames: 1
+    not_owned_owners: 4
 automation:
   state: "clear"
-  push_per_day: 3.4200
-  repo_per_active_day: 0.0800
-  not_owned_ratio: 0.7500
+  push_per_day: 3.3400
+  repo_per_active_day: 0.1000
+  not_owned_ratio: 0.8000
   basename_concentration: 1.0000
   shapes: []
   shape_evidence: []
@@ -50,28 +50,28 @@ automation:
 facets:
   "7d":
     pushes: 5
-    distinct_repos: 3
-    pushes_per_repo: 1.6667
-    active_days: 2
-    repos_not_owned: 2
-    not_owned_basenames: 1
-    not_owned_owners: 2
-  "30d":
-    pushes: 10
-    distinct_repos: 3
-    pushes_per_repo: 3.3333
-    active_days: 7
-    repos_not_owned: 2
-    not_owned_basenames: 1
-    not_owned_owners: 2
-  "90d":
-    pushes: 171
     distinct_repos: 4
-    pushes_per_repo: 42.7500
-    active_days: 50
+    pushes_per_repo: 1.2500
+    active_days: 3
     repos_not_owned: 3
     not_owned_basenames: 1
     not_owned_owners: 3
+  "30d":
+    pushes: 10
+    distinct_repos: 4
+    pushes_per_repo: 2.5000
+    active_days: 7
+    repos_not_owned: 3
+    not_owned_basenames: 1
+    not_owned_owners: 3
+  "90d":
+    pushes: 167
+    distinct_repos: 5
+    pushes_per_repo: 33.4000
+    active_days: 50
+    repos_not_owned: 4
+    not_owned_basenames: 1
+    not_owned_owners: 4
 reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 50 active days in 90d — pass"
@@ -117,6 +117,6 @@ repos:
 
 # DeusData
 
-171 pushes across 4 repositories on 50 active days in the last 90 days of public GitHub push activity.
+167 pushes across 5 repositories on 50 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/DeusData

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-26T06:06:37.922852+00:00"
+generated_at: "2026-09-27T06:09:19.734552+00:00"
 provenance:
   - "3cb7ff1cdcf97c6b"
-pushes_per_week: [3, 0, 12, 3, 3, 0, 3, 0, 1, 0, 0, 0, 0]
+pushes_per_week: [2, 0, 12, 4, 2, 0, 3, 0, 1, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 25
-    distinct_repos: 7
+    pushes: 24
+    distinct_repos: 6
     active_days: 13
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.9231
-  repo_per_active_day: 0.5385
-  not_owned_ratio: 0.5714
-  basename_concentration: 0.1429
+  push_per_day: 1.8462
+  repo_per_active_day: 0.4615
+  not_owned_ratio: 0.6667
+  basename_concentration: 0.1667
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,9 +65,9 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 25
-    distinct_repos: 7
-    pushes_per_repo: 3.5714
+    pushes: 24
+    distinct_repos: 6
+    pushes_per_repo: 4.0000
     active_days: 13
     repos_not_owned: 4
     not_owned_basenames: 4
@@ -129,6 +129,6 @@ repos:
 
 # kennyzheng-builds
 
-25 pushes across 7 repositories on 13 active days in the last 90 days of public GitHub push activity.
+24 pushes across 6 repositories on 13 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/kennyzheng-builds

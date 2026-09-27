@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-26T06:06:37.922852+00:00"
+generated_at: "2026-09-27T06:09:19.734552+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [5, 4, 0, 5, 4, 5, 7, 2, 11, 0, 1, 8, 3]
+pushes_per_week: [6, 3, 4, 1, 4, 6, 7, 9, 3, 0, 1, 8, 6]
 windows:
   "7d":
-    pushes: 4
+    pushes: 6
     distinct_repos: 3
     active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 12
+    pushes: 15
     distinct_repos: 7
-    active_days: 7
+    active_days: 8
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 55
+    pushes: 58
     distinct_repos: 17
-    active_days: 29
+    active_days: 30
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.8966
-  repo_per_active_day: 0.5862
+  push_per_day: 1.9333
+  repo_per_active_day: 0.5667
   not_owned_ratio: 0.0000
   basename_concentration: 0.0588
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 4
+    pushes: 6
     distinct_repos: 3
-    pushes_per_repo: 1.3333
+    pushes_per_repo: 2.0000
     active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 12
+    pushes: 15
     distinct_repos: 7
-    pushes_per_repo: 1.7143
-    active_days: 7
+    pushes_per_repo: 2.1429
+    active_days: 8
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 55
+    pushes: 58
     distinct_repos: 17
-    pushes_per_repo: 3.2353
-    active_days: 29
+    pushes_per_repo: 3.4118
+    active_days: 30
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 29 active days in 90d — pass"
+  - "activity: 30 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "scoop-bucket"
@@ -105,6 +105,6 @@ repos:
 
 # zeldrisho
 
-55 pushes across 17 repositories on 29 active days in the last 90 days of public GitHub push activity.
+58 pushes across 17 repositories on 30 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/zeldrisho

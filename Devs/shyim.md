@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-26T06:06:37.922852+00:00"
+generated_at: "2026-09-27T06:09:19.734552+00:00"
 provenance:
   - "c489e6fb5febf2ab"
-pushes_per_week: [45, 30, 16, 9, 10, 11, 9, 5, 3, 2, 5, 9, 11]
+pushes_per_week: [37, 26, 15, 9, 10, 12, 10, 3, 3, 2, 5, 9, 11]
 windows:
   "7d":
     pushes: 11
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 9
     not_owned_owners: 4
   "90d":
-    pushes: 165
-    distinct_repos: 41
-    active_days: 55
+    pushes: 152
+    distinct_repos: 40
+    active_days: 54
     repos_not_owned: 20
     not_owned_basenames: 20
     not_owned_owners: 4
 automation:
   state: "clear"
-  push_per_day: 3.0000
-  repo_per_active_day: 0.7455
-  not_owned_ratio: 0.4878
-  basename_concentration: 0.0488
+  push_per_day: 2.8148
+  repo_per_active_day: 0.7407
+  not_owned_ratio: 0.5000
+  basename_concentration: 0.0500
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 9
     not_owned_owners: 4
   "90d":
-    pushes: 165
-    distinct_repos: 41
-    pushes_per_repo: 4.0244
-    active_days: 55
+    pushes: 152
+    distinct_repos: 40
+    pushes_per_repo: 3.8000
+    active_days: 54
     repos_not_owned: 20
     not_owned_basenames: 20
     not_owned_owners: 4
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 55 active days in 90d — pass"
+  - "activity: 54 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "shyim"
@@ -147,6 +147,6 @@ repos:
 
 # shyim
 
-165 pushes across 41 repositories on 55 active days in the last 90 days of public GitHub push activity.
+152 pushes across 40 repositories on 54 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/shyim

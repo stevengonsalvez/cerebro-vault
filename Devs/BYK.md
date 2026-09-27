@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-26T06:06:37.922852+00:00"
+generated_at: "2026-09-27T06:09:19.734552+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [94, 36, 41, 36, 42, 17, 7, 1, 1, 0, 6, 16, 15]
+pushes_per_week: [101, 34, 41, 33, 41, 16, 7, 1, 1, 2, 5, 15, 20]
 windows:
   "7d":
-    pushes: 17
+    pushes: 20
     distinct_repos: 1
-    active_days: 6
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 37
+    pushes: 42
     distinct_repos: 5
     active_days: 16
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 312
+    pushes: 317
     distinct_repos: 13
     active_days: 61
     repos_not_owned: 6
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 5.1148
+  push_per_day: 5.1967
   repo_per_active_day: 0.2131
   not_owned_ratio: 0.4615
   basename_concentration: 0.0769
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 17
+    pushes: 20
     distinct_repos: 1
-    pushes_per_repo: 17.0000
-    active_days: 6
+    pushes_per_repo: 20.0000
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 37
+    pushes: 42
     distinct_repos: 5
-    pushes_per_repo: 7.4000
+    pushes_per_repo: 8.4000
     active_days: 16
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 312
+    pushes: 317
     distinct_repos: 13
-    pushes_per_repo: 24.0000
+    pushes_per_repo: 24.3846
     active_days: 61
     repos_not_owned: 6
     not_owned_basenames: 6
@@ -132,6 +132,6 @@ repos:
 
 # BYK
 
-312 pushes across 13 repositories on 61 active days in the last 90 days of public GitHub push activity.
+317 pushes across 13 repositories on 61 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/BYK

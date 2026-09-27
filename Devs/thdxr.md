@@ -10,15 +10,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-26T06:06:37.922852+00:00"
+generated_at: "2026-09-27T06:09:19.734552+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [23, 25, 20, 3, 4, 3, 12, 3, 2, 1, 2, 10, 2]
+pushes_per_week: [24, 25, 18, 4, 3, 3, 12, 5, 1, 0, 3, 9, 2]
 windows:
   "7d":
-    pushes: 5
+    pushes: 2
     distinct_repos: 1
-    active_days: 3
+    active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -30,7 +30,7 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 110
+    pushes: 109
     distinct_repos: 3
     active_days: 47
     repos_not_owned: 3
@@ -38,7 +38,7 @@ windows:
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.3404
+  push_per_day: 2.3191
   repo_per_active_day: 0.0638
   not_owned_ratio: 1.0000
   basename_concentration: 0.3333
@@ -50,10 +50,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 5
+    pushes: 2
     distinct_repos: 1
-    pushes_per_repo: 5.0000
-    active_days: 3
+    pushes_per_repo: 2.0000
+    active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -66,9 +66,9 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 110
+    pushes: 109
     distinct_repos: 3
-    pushes_per_repo: 36.6667
+    pushes_per_repo: 36.3333
     active_days: 47
     repos_not_owned: 3
     not_owned_basenames: 3
@@ -130,6 +130,6 @@ repos:
 
 # thdxr
 
-110 pushes across 3 repositories on 47 active days in the last 90 days of public GitHub push activity.
+109 pushes across 3 repositories on 47 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/thdxr

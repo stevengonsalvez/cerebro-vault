@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-26T06:06:37.922852+00:00"
+generated_at: "2026-09-27T06:09:19.734552+00:00"
 provenance:
   - "541318303a272608"
-pushes_per_week: [19, 7, 9, 5, 4, 4, 9, 2, 3, 1, 0, 1, 3]
+pushes_per_week: [16, 7, 9, 5, 4, 4, 9, 2, 3, 1, 0, 1, 3]
 windows:
   "7d":
     pushes: 3
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 67
+    pushes: 64
     distinct_repos: 2
-    active_days: 29
+    active_days: 28
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.3103
-  repo_per_active_day: 0.0690
+  push_per_day: 2.2857
+  repo_per_active_day: 0.0714
   not_owned_ratio: 0.5000
   basename_concentration: 1.0000
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 67
+    pushes: 64
     distinct_repos: 2
-    pushes_per_repo: 33.5000
-    active_days: 29
+    pushes_per_repo: 32.0000
+    active_days: 28
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 29 active days in 90d — pass"
+  - "activity: 28 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "VFL_CE"
@@ -129,6 +129,6 @@ repos:
 
 # cuiyuebing
 
-67 pushes across 2 repositories on 29 active days in the last 90 days of public GitHub push activity.
+64 pushes across 2 repositories on 28 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/cuiyuebing

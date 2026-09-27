@@ -6,16 +6,18 @@ discovered_via_all:
   - "fanout"
 provenance_repos:
   - "anthropics/claude-code"
+  - "anthropics/claude-code-action"
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-26T06:06:37.922852+00:00"
+generated_at: "2026-09-27T06:09:19.734552+00:00"
 provenance:
   - "01cd6a498d377caf"
   - "03604cccd7e9402d"
   - "0754e13e69e8f4d3"
   - "0880c239db0357ef"
   - "09d0c8e5c7031ff7"
+  - "0b22ca37fd3884c9"
   - "0d10a691ebcb0e61"
   - "0e371a11c328c372"
   - "13d96f6971fff698"
@@ -61,7 +63,7 @@ provenance:
   - "f672838de330e86f"
   - "f9a1870648a6375a"
   - "fe9e50bf2d5b21fe"
-pushes_per_week: [18, 13, 13, 8, 0, 8, 6, 0, 4, 0, 1, 5, 4]
+pushes_per_week: [18, 13, 14, 7, 0, 8, 6, 0, 4, 0, 1, 5, 4]
 windows:
   "7d":
     pushes: 4
@@ -71,11 +73,11 @@ windows:
     not_owned_basenames: 3
     not_owned_owners: 1
   "30d":
-    pushes: 11
-    distinct_repos: 4
-    active_days: 7
-    repos_not_owned: 4
-    not_owned_basenames: 4
+    pushes: 10
+    distinct_repos: 3
+    active_days: 6
+    repos_not_owned: 3
+    not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
     pushes: 80
@@ -106,12 +108,12 @@ facets:
     not_owned_basenames: 3
     not_owned_owners: 1
   "30d":
-    pushes: 11
-    distinct_repos: 4
-    pushes_per_repo: 2.7500
-    active_days: 7
-    repos_not_owned: 4
-    not_owned_basenames: 4
+    pushes: 10
+    distinct_repos: 3
+    pushes_per_repo: 3.3333
+    active_days: 6
+    repos_not_owned: 3
+    not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
     pushes: 80
@@ -122,7 +124,7 @@ facets:
     not_owned_basenames: 5
     not_owned_owners: 1
 reasons:
-  - "provenance: 50 vault signal(s) — pass"
+  - "provenance: 51 vault signal(s) — pass"
   - "activity: 38 active days in 90d — pass"
   - "automation: clear — pass"
 repos:

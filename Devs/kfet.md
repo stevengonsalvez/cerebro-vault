@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-26T06:06:37.922852+00:00"
+generated_at: "2026-09-27T06:09:19.734552+00:00"
 provenance:
   - "1be978947e68d1f2"
   - "98a2deac3e2f9725"
   - "b949a65ff91f9791"
-pushes_per_week: [6, 5, 1, 4, 5, 6, 9, 3, 5, 1, 7, 11, 5]
+pushes_per_week: [6, 5, 1, 4, 9, 7, 5, 4, 3, 2, 6, 13, 4]
 windows:
   "7d":
-    pushes: 6
+    pushes: 5
     distinct_repos: 3
     active_days: 5
     repos_not_owned: 0
@@ -31,16 +31,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 68
+    pushes: 69
     distinct_repos: 13
-    active_days: 39
+    active_days: 40
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.7436
-  repo_per_active_day: 0.3333
+  push_per_day: 1.7250
+  repo_per_active_day: 0.3250
   not_owned_ratio: 0.0000
   basename_concentration: 0.0769
   shapes: []
@@ -51,9 +51,9 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 6
+    pushes: 5
     distinct_repos: 3
-    pushes_per_repo: 2.0000
+    pushes_per_repo: 1.6667
     active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -67,16 +67,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 68
+    pushes: 69
     distinct_repos: 13
-    pushes_per_repo: 5.2308
-    active_days: 39
+    pushes_per_repo: 5.3077
+    active_days: 40
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 3 vault signal(s) — pass"
-  - "activity: 39 active days in 90d — pass"
+  - "activity: 40 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "zulip-acp"
@@ -136,6 +136,6 @@ repos:
 
 # kfet
 
-68 pushes across 13 repositories on 39 active days in the last 90 days of public GitHub push activity.
+69 pushes across 13 repositories on 40 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/kfet

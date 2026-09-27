@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-26T06:06:37.922852+00:00"
+generated_at: "2026-09-27T06:09:19.734552+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [27, 2, 18, 14, 3, 3, 1, 0, 0, 0, 0, 3, 9]
+pushes_per_week: [20, 4, 17, 13, 3, 3, 1, 0, 0, 0, 0, 4, 17]
 windows:
   "7d":
-    pushes: 9
+    pushes: 18
     distinct_repos: 4
-    active_days: 6
+    active_days: 7
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 1
   "30d":
-    pushes: 12
+    pushes: 21
     distinct_repos: 4
-    active_days: 9
+    active_days: 10
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 1
   "90d":
-    pushes: 80
+    pushes: 82
     distinct_repos: 14
     active_days: 35
     repos_not_owned: 10
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 4
 automation:
   state: "clear"
-  push_per_day: 2.2857
+  push_per_day: 2.3429
   repo_per_active_day: 0.4000
   not_owned_ratio: 0.7143
   basename_concentration: 0.1429
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 9
+    pushes: 18
     distinct_repos: 4
-    pushes_per_repo: 2.2500
-    active_days: 6
+    pushes_per_repo: 4.5000
+    active_days: 7
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 1
   "30d":
-    pushes: 12
+    pushes: 21
     distinct_repos: 4
-    pushes_per_repo: 3.0000
-    active_days: 9
+    pushes_per_repo: 5.2500
+    active_days: 10
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 1
   "90d":
-    pushes: 80
+    pushes: 82
     distinct_repos: 14
-    pushes_per_repo: 5.7143
+    pushes_per_repo: 5.8571
     active_days: 35
     repos_not_owned: 10
     not_owned_basenames: 9
@@ -154,6 +154,6 @@ repos:
 
 # RockChinQ
 
-80 pushes across 14 repositories on 35 active days in the last 90 days of public GitHub push activity.
+82 pushes across 14 repositories on 35 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/RockChinQ

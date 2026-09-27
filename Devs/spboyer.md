@@ -10,11 +10,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-26T06:06:37.922852+00:00"
+generated_at: "2026-09-27T06:09:19.734552+00:00"
 provenance:
   - "379642deb53f3714"
   - "dae9f02535f7c22f"
-pushes_per_week: [24, 2, 5, 4, 8, 3, 5, 2, 4, 1, 0, 0, 1]
+pushes_per_week: [8, 2, 5, 4, 8, 3, 5, 2, 4, 1, 0, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -31,16 +31,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 59
+    pushes: 43
     distinct_repos: 5
-    active_days: 17
+    active_days: 16
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 3.4706
-  repo_per_active_day: 0.2941
+  push_per_day: 2.6875
+  repo_per_active_day: 0.3125
   not_owned_ratio: 0.6000
   basename_concentration: 0.4000
   shapes: []
@@ -67,16 +67,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 59
+    pushes: 43
     distinct_repos: 5
-    pushes_per_repo: 11.8000
-    active_days: 17
+    pushes_per_repo: 8.6000
+    active_days: 16
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 17 active days in 90d — pass"
+  - "activity: 16 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "pycontainer-build"
@@ -142,6 +142,6 @@ repos:
 
 # spboyer
 
-59 pushes across 5 repositories on 17 active days in the last 90 days of public GitHub push activity.
+43 pushes across 5 repositories on 16 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/spboyer

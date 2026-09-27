@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-26T06:06:37.922852+00:00"
+generated_at: "2026-09-27T06:09:19.734552+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [4, 0, 17, 11, 13, 12, 32, 9, 0, 0, 3, 20, 11]
+pushes_per_week: [4, 0, 17, 12, 13, 11, 37, 4, 0, 1, 7, 20, 10]
 windows:
   "7d":
-    pushes: 14
+    pushes: 15
     distinct_repos: 3
     active_days: 6
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 34
+    pushes: 38
     distinct_repos: 7
-    active_days: 14
+    active_days: 15
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 132
+    pushes: 136
     distinct_repos: 8
-    active_days: 42
+    active_days: 43
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 3.1429
-  repo_per_active_day: 0.1905
+  push_per_day: 3.1628
+  repo_per_active_day: 0.1860
   not_owned_ratio: 0.3750
   basename_concentration: 0.1250
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 14
+    pushes: 15
     distinct_repos: 3
-    pushes_per_repo: 4.6667
+    pushes_per_repo: 5.0000
     active_days: 6
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 34
+    pushes: 38
     distinct_repos: 7
-    pushes_per_repo: 4.8571
-    active_days: 14
+    pushes_per_repo: 5.4286
+    active_days: 15
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 132
+    pushes: 136
     distinct_repos: 8
-    pushes_per_repo: 16.5000
-    active_days: 42
+    pushes_per_repo: 17.0000
+    active_days: 43
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 42 active days in 90d — pass"
+  - "activity: 43 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "factory-droid-openai"
@@ -191,6 +191,6 @@ repos:
 
 # mrwogu
 
-132 pushes across 8 repositories on 42 active days in the last 90 days of public GitHub push activity.
+136 pushes across 8 repositories on 43 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/mrwogu

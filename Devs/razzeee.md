@@ -9,13 +9,13 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-26T06:06:37.922852+00:00"
+generated_at: "2026-09-27T06:09:19.734552+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [26, 31, 27, 7, 2, 7, 5, 2, 5, 0, 6, 8, 11]
+pushes_per_week: [29, 22, 28, 6, 2, 7, 6, 4, 2, 1, 5, 12, 9]
 windows:
   "7d":
-    pushes: 12
+    pushes: 11
     distinct_repos: 6
     active_days: 7
     repos_not_owned: 2
@@ -29,7 +29,7 @@ windows:
     not_owned_basenames: 4
     not_owned_owners: 4
   "90d":
-    pushes: 137
+    pushes: 133
     distinct_repos: 27
     active_days: 52
     repos_not_owned: 10
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 5
 automation:
   state: "clear"
-  push_per_day: 2.6346
+  push_per_day: 2.5577
   repo_per_active_day: 0.5192
   not_owned_ratio: 0.3704
   basename_concentration: 0.0741
@@ -49,9 +49,9 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 12
+    pushes: 11
     distinct_repos: 6
-    pushes_per_repo: 2.0000
+    pushes_per_repo: 1.8333
     active_days: 7
     repos_not_owned: 2
     not_owned_basenames: 2
@@ -65,9 +65,9 @@ facets:
     not_owned_basenames: 4
     not_owned_owners: 4
   "90d":
-    pushes: 137
+    pushes: 133
     distinct_repos: 27
-    pushes_per_repo: 5.0741
+    pushes_per_repo: 4.9259
     active_days: 52
     repos_not_owned: 10
     not_owned_basenames: 10
@@ -129,6 +129,6 @@ repos:
 
 # razzeee
 
-137 pushes across 27 repositories on 52 active days in the last 90 days of public GitHub push activity.
+133 pushes across 27 repositories on 52 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/razzeee

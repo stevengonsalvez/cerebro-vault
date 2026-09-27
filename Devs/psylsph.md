@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-26T06:06:37.922852+00:00"
+generated_at: "2026-09-27T06:09:19.734552+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [19, 6, 5, 4, 0, 0, 0, 0, 0, 0, 0, 2, 0]
+pushes_per_week: [16, 4, 6, 3, 0, 0, 0, 0, 0, 0, 0, 2, 1]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
-  "30d":
-    pushes: 2
+    pushes: 1
     distinct_repos: 1
     active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
+  "30d":
+    pushes: 3
+    distinct_repos: 1
+    active_days: 2
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
-    pushes: 36
+    pushes: 32
     distinct_repos: 5
     active_days: 18
     repos_not_owned: 1
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.0000
+  push_per_day: 1.7778
   repo_per_active_day: 0.2778
   not_owned_ratio: 0.2000
   basename_concentration: 0.4000
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
-  "30d":
-    pushes: 2
+    pushes: 1
     distinct_repos: 1
-    pushes_per_repo: 2.0000
+    pushes_per_repo: 1.0000
     active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
+  "30d":
+    pushes: 3
+    distinct_repos: 1
+    pushes_per_repo: 3.0000
+    active_days: 2
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
-    pushes: 36
+    pushes: 32
     distinct_repos: 5
-    pushes_per_repo: 7.2000
+    pushes_per_repo: 6.4000
     active_days: 18
     repos_not_owned: 1
     not_owned_basenames: 1
@@ -154,6 +154,6 @@ repos:
 
 # psylsph
 
-36 pushes across 5 repositories on 18 active days in the last 90 days of public GitHub push activity.
+32 pushes across 5 repositories on 18 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/psylsph

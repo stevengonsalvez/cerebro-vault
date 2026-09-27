@@ -9,28 +9,28 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-26T06:06:37.922852+00:00"
+generated_at: "2026-09-27T06:09:19.734552+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 1, 1]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 2, 2]
 windows:
   "7d":
-    pushes: 1
+    pushes: 2
     distinct_repos: 1
     active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 10
+    pushes: 12
     distinct_repos: 2
-    active_days: 7
+    active_days: 8
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
     pushes: 12
-    distinct_repos: 3
+    distinct_repos: 2
     active_days: 8
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -38,9 +38,9 @@ windows:
 automation:
   state: "clear"
   push_per_day: 1.5000
-  repo_per_active_day: 0.3750
+  repo_per_active_day: 0.2500
   not_owned_ratio: 0.0000
-  basename_concentration: 0.3333
+  basename_concentration: 0.5000
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
+    pushes: 2
     distinct_repos: 1
-    pushes_per_repo: 1.0000
+    pushes_per_repo: 2.0000
     active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 10
+    pushes: 12
     distinct_repos: 2
-    pushes_per_repo: 5.0000
-    active_days: 7
+    pushes_per_repo: 6.0000
+    active_days: 8
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
     pushes: 12
-    distinct_repos: 3
-    pushes_per_repo: 4.0000
+    distinct_repos: 2
+    pushes_per_repo: 6.0000
     active_days: 8
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -105,6 +105,6 @@ repos:
 
 # ggbdpq
 
-12 pushes across 3 repositories on 8 active days in the last 90 days of public GitHub push activity.
+12 pushes across 2 repositories on 8 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ggbdpq

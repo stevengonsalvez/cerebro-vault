@@ -11,40 +11,40 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-26T06:06:37.922852+00:00"
+generated_at: "2026-09-27T06:09:19.734552+00:00"
 provenance:
   - "234088bc43763aa2"
   - "73468cde177ddae6"
   - "edb3a626875732de"
-pushes_per_week: [0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 1, 6]
+pushes_per_week: [0, 0, 0, 0, 2, 1, 0, 0, 0, 0, 0, 1, 11]
 windows:
   "7d":
-    pushes: 6
-    distinct_repos: 6
-    active_days: 3
+    pushes: 11
+    distinct_repos: 9
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 7
-    distinct_repos: 7
-    active_days: 4
+    pushes: 12
+    distinct_repos: 10
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 10
-    distinct_repos: 10
-    active_days: 7
+    pushes: 15
+    distinct_repos: 13
+    active_days: 9
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.4286
-  repo_per_active_day: 1.4286
+  push_per_day: 1.6667
+  repo_per_active_day: 1.4444
   not_owned_ratio: 0.0000
-  basename_concentration: 0.1000
+  basename_concentration: 0.0769
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -53,32 +53,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 6
-    distinct_repos: 6
-    pushes_per_repo: 1.0000
-    active_days: 3
+    pushes: 11
+    distinct_repos: 9
+    pushes_per_repo: 1.2222
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 7
-    distinct_repos: 7
-    pushes_per_repo: 1.0000
-    active_days: 4
+    pushes: 12
+    distinct_repos: 10
+    pushes_per_repo: 1.2000
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 10
-    distinct_repos: 10
-    pushes_per_repo: 1.0000
-    active_days: 7
+    pushes: 15
+    distinct_repos: 13
+    pushes_per_repo: 1.1538
+    active_days: 9
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 3 vault signal(s) — pass"
-  - "activity: 7 active days in 90d — pass"
+  - "activity: 9 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "Learn-programing-Web"
@@ -151,6 +151,6 @@ repos:
 
 # SulimanAbdulrazzaq
 
-10 pushes across 10 repositories on 7 active days in the last 90 days of public GitHub push activity.
+15 pushes across 13 repositories on 9 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/SulimanAbdulrazzaq

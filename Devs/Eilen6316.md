@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-26T06:06:37.922852+00:00"
+generated_at: "2026-09-27T06:09:19.734552+00:00"
 provenance:
   - "16389f32495280ea"
-pushes_per_week: [37, 2, 3, 11, 2, 1, 0, 0, 0, 0, 0, 1, 0]
+pushes_per_week: [23, 1, 3, 11, 2, 1, 0, 0, 0, 0, 0, 1, 0]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 57
-    distinct_repos: 3
-    active_days: 16
+    pushes: 42
+    distinct_repos: 2
+    active_days: 15
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 3.5625
-  repo_per_active_day: 0.1875
+  push_per_day: 2.8000
+  repo_per_active_day: 0.1333
   not_owned_ratio: 0.0000
-  basename_concentration: 0.3333
+  basename_concentration: 0.5000
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 57
-    distinct_repos: 3
-    pushes_per_repo: 19.0000
-    active_days: 16
+    pushes: 42
+    distinct_repos: 2
+    pushes_per_repo: 21.0000
+    active_days: 15
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 16 active days in 90d — pass"
+  - "activity: 15 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "LinuxAgent"
@@ -122,6 +122,6 @@ repos:
 
 # Eilen6316
 
-57 pushes across 3 repositories on 16 active days in the last 90 days of public GitHub push activity.
+42 pushes across 2 repositories on 15 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Eilen6316

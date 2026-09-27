@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-26T06:06:37.922852+00:00"
+generated_at: "2026-09-27T06:09:19.734552+00:00"
 provenance:
   - "73468cde177ddae6"
-pushes_per_week: [8, 14, 12, 2, 2, 3, 3, 0, 1, 0, 2, 0, 1]
+pushes_per_week: [7, 17, 9, 3, 1, 4, 2, 0, 1, 0, 2, 1, 0]
 windows:
   "7d":
     pushes: 1
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 48
-    distinct_repos: 17
-    active_days: 29
+    pushes: 47
+    distinct_repos: 16
+    active_days: 28
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.6552
-  repo_per_active_day: 0.5862
-  not_owned_ratio: 0.0588
-  basename_concentration: 0.0588
+  push_per_day: 1.6786
+  repo_per_active_day: 0.5714
+  not_owned_ratio: 0.0625
+  basename_concentration: 0.0625
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 48
-    distinct_repos: 17
-    pushes_per_repo: 2.8235
-    active_days: 29
+    pushes: 47
+    distinct_repos: 16
+    pushes_per_repo: 2.9375
+    active_days: 28
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 29 active days in 90d — pass"
+  - "activity: 28 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "doosri-raay"
@@ -163,6 +163,6 @@ repos:
 
 # abhay-codes07
 
-48 pushes across 17 repositories on 29 active days in the last 90 days of public GitHub push activity.
+47 pushes across 16 repositories on 28 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/abhay-codes07

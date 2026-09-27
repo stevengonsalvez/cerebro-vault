@@ -10,38 +10,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-26T06:06:37.922852+00:00"
+generated_at: "2026-09-27T06:09:19.734552+00:00"
 provenance:
   - "2a7f0fddd2dac162"
-pushes_per_week: [76, 35, 59, 51, 26, 16, 10, 4, 10, 0, 1, 17, 47]
+pushes_per_week: [80, 25, 68, 39, 28, 15, 8, 8, 6, 1, 0, 28, 44]
 windows:
   "7d":
-    pushes: 47
+    pushes: 55
     distinct_repos: 4
-    active_days: 6
+    active_days: 7
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 65
+    pushes: 73
     distinct_repos: 8
-    active_days: 9
+    active_days: 10
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 352
-    distinct_repos: 14
+    pushes: 350
+    distinct_repos: 13
     active_days: 58
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 6.0690
-  repo_per_active_day: 0.2414
-  not_owned_ratio: 0.0714
-  basename_concentration: 0.1429
+  push_per_day: 6.0345
+  repo_per_active_day: 0.2241
+  not_owned_ratio: 0.0769
+  basename_concentration: 0.1538
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -50,25 +50,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 47
+    pushes: 55
     distinct_repos: 4
-    pushes_per_repo: 11.7500
-    active_days: 6
+    pushes_per_repo: 13.7500
+    active_days: 7
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 65
+    pushes: 73
     distinct_repos: 8
-    pushes_per_repo: 8.1250
-    active_days: 9
+    pushes_per_repo: 9.1250
+    active_days: 10
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 352
-    distinct_repos: 14
-    pushes_per_repo: 25.1429
+    pushes: 350
+    distinct_repos: 13
+    pushes_per_repo: 26.9231
     active_days: 58
     repos_not_owned: 1
     not_owned_basenames: 1
@@ -148,6 +148,6 @@ repos:
 
 # 1jehuang
 
-352 pushes across 14 repositories on 58 active days in the last 90 days of public GitHub push activity.
+350 pushes across 13 repositories on 58 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/1jehuang

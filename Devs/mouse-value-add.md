@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-26T06:06:37.922852+00:00"
+generated_at: "2026-09-27T06:09:19.734552+00:00"
 provenance:
   - "69d1a861b67c373a"
-pushes_per_week: [0, 3, 0, 0, 2, 0, 4, 4, 0, 0, 1, 3, 2]
+pushes_per_week: [0, 3, 0, 1, 1, 0, 4, 4, 0, 0, 1, 3, 3]
 windows:
   "7d":
-    pushes: 2
-    distinct_repos: 2
+    pushes: 3
+    distinct_repos: 3
     active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 6
-    distinct_repos: 6
+    pushes: 7
+    distinct_repos: 7
     active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 19
-    distinct_repos: 10
+    pushes: 20
+    distinct_repos: 11
     active_days: 16
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.1875
-  repo_per_active_day: 0.6250
+  push_per_day: 1.2500
+  repo_per_active_day: 0.6875
   not_owned_ratio: 0.0000
-  basename_concentration: 0.1000
+  basename_concentration: 0.0909
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
-    distinct_repos: 2
+    pushes: 3
+    distinct_repos: 3
     pushes_per_repo: 1.0000
     active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 6
-    distinct_repos: 6
+    pushes: 7
+    distinct_repos: 7
     pushes_per_repo: 1.0000
     active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 19
-    distinct_repos: 10
-    pushes_per_repo: 1.9000
+    pushes: 20
+    distinct_repos: 11
+    pushes_per_repo: 1.8182
     active_days: 16
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -97,6 +97,6 @@ repos:
 
 # mouse-value-add
 
-19 pushes across 10 repositories on 16 active days in the last 90 days of public GitHub push activity.
+20 pushes across 11 repositories on 16 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/mouse-value-add

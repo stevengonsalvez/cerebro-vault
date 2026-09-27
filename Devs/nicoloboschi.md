@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-26T06:06:37.922852+00:00"
+generated_at: "2026-09-27T06:09:19.734552+00:00"
 provenance:
   - "ef1d62b18b98cdd0"
-pushes_per_week: [182, 7, 22, 86, 26, 20, 39, 12, 6, 5, 20, 14, 36]
+pushes_per_week: [168, 1, 27, 81, 26, 25, 37, 10, 5, 5, 20, 15, 36]
 windows:
   "7d":
-    pushes: 38
+    pushes: 37
     distinct_repos: 6
     active_days: 7
     repos_not_owned: 6
     not_owned_basenames: 2
     not_owned_owners: 5
   "30d":
-    pushes: 76
+    pushes: 77
     distinct_repos: 10
-    active_days: 18
+    active_days: 19
     repos_not_owned: 9
     not_owned_basenames: 2
     not_owned_owners: 8
   "90d":
-    pushes: 475
+    pushes: 456
     distinct_repos: 24
     active_days: 60
     repos_not_owned: 17
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 13
 automation:
   state: "clear"
-  push_per_day: 7.9167
+  push_per_day: 7.6000
   repo_per_active_day: 0.4000
   not_owned_ratio: 0.7083
   basename_concentration: 0.5417
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 38
+    pushes: 37
     distinct_repos: 6
-    pushes_per_repo: 6.3333
+    pushes_per_repo: 6.1667
     active_days: 7
     repos_not_owned: 6
     not_owned_basenames: 2
     not_owned_owners: 5
   "30d":
-    pushes: 76
+    pushes: 77
     distinct_repos: 10
-    pushes_per_repo: 7.6000
-    active_days: 18
+    pushes_per_repo: 7.7000
+    active_days: 19
     repos_not_owned: 9
     not_owned_basenames: 2
     not_owned_owners: 8
   "90d":
-    pushes: 475
+    pushes: 456
     distinct_repos: 24
-    pushes_per_repo: 19.7917
+    pushes_per_repo: 19.0000
     active_days: 60
     repos_not_owned: 17
     not_owned_basenames: 5
@@ -132,6 +132,6 @@ repos:
 
 # nicoloboschi
 
-475 pushes across 24 repositories on 60 active days in the last 90 days of public GitHub push activity.
+456 pushes across 24 repositories on 60 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/nicoloboschi

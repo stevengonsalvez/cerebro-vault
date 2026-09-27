@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-26T06:06:37.922852+00:00"
+generated_at: "2026-09-27T06:09:19.734552+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [120, 110, 109, 40, 40, 46, 33, 18, 25, 2, 5, 39, 39]
+pushes_per_week: [126, 102, 97, 40, 44, 48, 24, 27, 16, 2, 10, 41, 37]
 windows:
   "7d":
-    pushes: 46
+    pushes: 45
     distinct_repos: 4
     active_days: 7
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 90
+    pushes: 94
     distinct_repos: 5
-    active_days: 22
+    active_days: 21
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 626
+    pushes: 614
     distinct_repos: 14
     active_days: 78
     repos_not_owned: 7
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 7
 automation:
   state: "clear"
-  push_per_day: 8.0256
+  push_per_day: 7.8718
   repo_per_active_day: 0.1795
   not_owned_ratio: 0.5000
   basename_concentration: 0.4286
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 46
+    pushes: 45
     distinct_repos: 4
-    pushes_per_repo: 11.5000
+    pushes_per_repo: 11.2500
     active_days: 7
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 90
+    pushes: 94
     distinct_repos: 5
-    pushes_per_repo: 18.0000
-    active_days: 22
+    pushes_per_repo: 18.8000
+    active_days: 21
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 626
+    pushes: 614
     distinct_repos: 14
-    pushes_per_repo: 44.7143
+    pushes_per_repo: 43.8571
     active_days: 78
     repos_not_owned: 7
     not_owned_basenames: 3
@@ -177,6 +177,6 @@ repos:
 
 # Astro-Han
 
-626 pushes across 14 repositories on 78 active days in the last 90 days of public GitHub push activity.
+614 pushes across 14 repositories on 78 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Astro-Han

@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-26T06:06:37.922852+00:00"
+generated_at: "2026-09-27T06:09:19.734552+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [1, 35, 11, 34, 6, 6, 9, 2, 4, 2, 5, 1, 7]
+pushes_per_week: [1, 35, 27, 18, 6, 6, 10, 5, 2, 1, 4, 1, 8]
 windows:
   "7d":
-    pushes: 7
-    distinct_repos: 4
-    active_days: 3
+    pushes: 8
+    distinct_repos: 5
+    active_days: 4
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
   "30d":
-    pushes: 15
-    distinct_repos: 7
-    active_days: 8
+    pushes: 16
+    distinct_repos: 8
+    active_days: 9
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 1
   "90d":
-    pushes: 123
-    distinct_repos: 14
-    active_days: 35
+    pushes: 124
+    distinct_repos: 15
+    active_days: 36
     repos_not_owned: 7
     not_owned_basenames: 7
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 3.5143
-  repo_per_active_day: 0.4000
-  not_owned_ratio: 0.5000
-  basename_concentration: 0.0714
+  push_per_day: 3.4444
+  repo_per_active_day: 0.4167
+  not_owned_ratio: 0.4667
+  basename_concentration: 0.0667
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 7
-    distinct_repos: 4
-    pushes_per_repo: 1.7500
-    active_days: 3
+    pushes: 8
+    distinct_repos: 5
+    pushes_per_repo: 1.6000
+    active_days: 4
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
   "30d":
-    pushes: 15
-    distinct_repos: 7
-    pushes_per_repo: 2.1429
-    active_days: 8
+    pushes: 16
+    distinct_repos: 8
+    pushes_per_repo: 2.0000
+    active_days: 9
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 1
   "90d":
-    pushes: 123
-    distinct_repos: 14
-    pushes_per_repo: 8.7857
-    active_days: 35
+    pushes: 124
+    distinct_repos: 15
+    pushes_per_repo: 8.2667
+    active_days: 36
     repos_not_owned: 7
     not_owned_basenames: 7
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 35 active days in 90d — pass"
+  - "activity: 36 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "showy-quota"
@@ -162,6 +162,6 @@ repos:
 
 # enieuwy
 
-123 pushes across 14 repositories on 35 active days in the last 90 days of public GitHub push activity.
+124 pushes across 15 repositories on 36 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/enieuwy

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-25T06:06:35.067653+00:00"
+generated_at: "2026-09-27T06:09:19.734552+00:00"
 provenance:
   - "541318303a272608"
-pushes_per_week: [18, 6, 8, 5, 4, 2, 3, 0, 0, 0, 0, 2, 1]
+pushes_per_week: [17, 6, 8, 5, 4, 2, 3, 0, 0, 0, 0, 3, 0]
 windows:
   "7d":
     pushes: 1
@@ -29,7 +29,7 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 49
+    pushes: 48
     distinct_repos: 3
     active_days: 28
     repos_not_owned: 2
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 1.7500
+  push_per_day: 1.7143
   repo_per_active_day: 0.1071
   not_owned_ratio: 0.6667
   basename_concentration: 0.6667
@@ -65,9 +65,9 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 49
+    pushes: 48
     distinct_repos: 3
-    pushes_per_repo: 16.3333
+    pushes_per_repo: 16.0000
     active_days: 28
     repos_not_owned: 2
     not_owned_basenames: 1
@@ -89,6 +89,6 @@ repos:
 
 # lalaliat
 
-49 pushes across 3 repositories on 28 active days in the last 90 days of public GitHub push activity.
+48 pushes across 3 repositories on 28 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/lalaliat

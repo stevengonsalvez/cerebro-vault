@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-26T06:06:37.922852+00:00"
+generated_at: "2026-09-27T06:09:19.734552+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [14, 1, 5, 6, 5, 1, 5, 0, 7, 0, 1, 4, 4]
+pushes_per_week: [11, 0, 7, 4, 5, 2, 4, 2, 5, 0, 2, 3, 4]
 windows:
   "7d":
     pushes: 4
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 53
+    pushes: 49
     distinct_repos: 23
-    active_days: 33
+    active_days: 32
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.6061
-  repo_per_active_day: 0.6970
+  push_per_day: 1.5312
+  repo_per_active_day: 0.7188
   not_owned_ratio: 0.0435
   basename_concentration: 0.0435
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 53
+    pushes: 49
     distinct_repos: 23
-    pushes_per_repo: 2.3043
-    active_days: 33
+    pushes_per_repo: 2.1304
+    active_days: 32
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 33 active days in 90d — pass"
+  - "activity: 32 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "critique"
@@ -140,6 +140,6 @@ repos:
 
 # remorses
 
-53 pushes across 23 repositories on 33 active days in the last 90 days of public GitHub push activity.
+49 pushes across 23 repositories on 32 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/remorses

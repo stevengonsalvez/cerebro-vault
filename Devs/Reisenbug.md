@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-26T06:06:37.922852+00:00"
+generated_at: "2026-09-27T06:09:19.734552+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [3, 1, 3, 2, 0, 6, 8, 1, 6, 0, 1, 11, 5]
+pushes_per_week: [2, 1, 4, 1, 0, 6, 8, 4, 3, 0, 1, 11, 8]
 windows:
   "7d":
-    pushes: 5
-    distinct_repos: 1
-    active_days: 3
+    pushes: 8
+    distinct_repos: 2
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 18
-    distinct_repos: 2
+    pushes: 20
+    distinct_repos: 3
     active_days: 8
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 47
-    distinct_repos: 3
+    pushes: 49
+    distinct_repos: 4
     active_days: 26
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.8077
-  repo_per_active_day: 0.1154
+  push_per_day: 1.8846
+  repo_per_active_day: 0.1538
   not_owned_ratio: 0.0000
-  basename_concentration: 0.3333
+  basename_concentration: 0.2500
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 5
-    distinct_repos: 1
-    pushes_per_repo: 5.0000
-    active_days: 3
+    pushes: 8
+    distinct_repos: 2
+    pushes_per_repo: 4.0000
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 18
-    distinct_repos: 2
-    pushes_per_repo: 9.0000
+    pushes: 20
+    distinct_repos: 3
+    pushes_per_repo: 6.6667
     active_days: 8
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 47
-    distinct_repos: 3
-    pushes_per_repo: 15.6667
+    pushes: 49
+    distinct_repos: 4
+    pushes_per_repo: 12.2500
     active_days: 26
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -131,6 +131,6 @@ repos:
 
 # Reisenbug
 
-47 pushes across 3 repositories on 26 active days in the last 90 days of public GitHub push activity.
+49 pushes across 4 repositories on 26 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Reisenbug

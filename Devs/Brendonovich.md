@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-26T06:06:37.922852+00:00"
+generated_at: "2026-09-27T06:09:19.734552+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [33, 21, 10, 13, 13, 5, 3, 4, 7, 2, 1, 11, 8]
+pushes_per_week: [32, 20, 10, 13, 13, 5, 3, 6, 5, 3, 0, 11, 8]
 windows:
   "7d":
-    pushes: 13
+    pushes: 8
     distinct_repos: 2
-    active_days: 4
+    active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 131
+    pushes: 129
     distinct_repos: 8
-    active_days: 42
+    active_days: 41
     repos_not_owned: 4
     not_owned_basenames: 1
     not_owned_owners: 4
 automation:
   state: "clear"
-  push_per_day: 3.1190
-  repo_per_active_day: 0.1905
+  push_per_day: 3.1463
+  repo_per_active_day: 0.1951
   not_owned_ratio: 0.5000
   basename_concentration: 0.5000
   shapes: []
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 13
+    pushes: 8
     distinct_repos: 2
-    pushes_per_repo: 6.5000
-    active_days: 4
+    pushes_per_repo: 4.0000
+    active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 131
+    pushes: 129
     distinct_repos: 8
-    pushes_per_repo: 16.3750
-    active_days: 42
+    pushes_per_repo: 16.1250
+    active_days: 41
     repos_not_owned: 4
     not_owned_basenames: 1
     not_owned_owners: 4
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 42 active days in 90d — pass"
+  - "activity: 41 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "cf-effect-experiment"
@@ -139,6 +139,6 @@ repos:
 
 # Brendonovich
 
-131 pushes across 8 repositories on 42 active days in the last 90 days of public GitHub push activity.
+129 pushes across 8 repositories on 41 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Brendonovich

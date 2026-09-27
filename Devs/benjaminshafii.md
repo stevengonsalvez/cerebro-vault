@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-26T06:06:37.922852+00:00"
+generated_at: "2026-09-27T06:09:19.734552+00:00"
 provenance:
   - "fae7e9e22c64821d"
-pushes_per_week: [46, 83, 58, 45, 31, 9, 12, 4, 6, 7, 14, 20, 41]
+pushes_per_week: [59, 73, 55, 46, 32, 7, 14, 2, 6, 15, 11, 19, 48]
 windows:
   "7d":
-    pushes: 46
+    pushes: 52
     distinct_repos: 1
     active_days: 7
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 84
+    pushes: 94
     distinct_repos: 1
     active_days: 19
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 376
+    pushes: 387
     distinct_repos: 4
-    active_days: 64
+    active_days: 65
     repos_not_owned: 3
     not_owned_basenames: 1
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 5.8750
-  repo_per_active_day: 0.0625
+  push_per_day: 5.9538
+  repo_per_active_day: 0.0615
   not_owned_ratio: 0.7500
   basename_concentration: 1.0000
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 46
+    pushes: 52
     distinct_repos: 1
-    pushes_per_repo: 46.0000
+    pushes_per_repo: 52.0000
     active_days: 7
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 84
+    pushes: 94
     distinct_repos: 1
-    pushes_per_repo: 84.0000
+    pushes_per_repo: 94.0000
     active_days: 19
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 376
+    pushes: 387
     distinct_repos: 4
-    pushes_per_repo: 94.0000
-    active_days: 64
+    pushes_per_repo: 96.7500
+    active_days: 65
     repos_not_owned: 3
     not_owned_basenames: 1
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 64 active days in 90d — pass"
+  - "activity: 65 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "opencode-browser"
@@ -132,6 +132,6 @@ repos:
 
 # benjaminshafii
 
-376 pushes across 4 repositories on 64 active days in the last 90 days of public GitHub push activity.
+387 pushes across 4 repositories on 65 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/benjaminshafii

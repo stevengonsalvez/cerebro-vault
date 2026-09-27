@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-26T06:06:37.922852+00:00"
+generated_at: "2026-09-27T06:09:19.734552+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [9, 5, 1, 0, 3, 1, 1, 0, 0, 0, 0, 1, 0]
+pushes_per_week: [4, 6, 0, 0, 4, 1, 0, 0, 0, 0, 0, 1, 0]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 21
-    distinct_repos: 9
-    active_days: 13
+    pushes: 16
+    distinct_repos: 7
+    active_days: 12
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.6154
-  repo_per_active_day: 0.6923
-  not_owned_ratio: 0.1111
-  basename_concentration: 0.2222
+  push_per_day: 1.3333
+  repo_per_active_day: 0.5833
+  not_owned_ratio: 0.1429
+  basename_concentration: 0.2857
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 21
-    distinct_repos: 9
-    pushes_per_repo: 2.3333
-    active_days: 13
+    pushes: 16
+    distinct_repos: 7
+    pushes_per_repo: 2.2857
+    active_days: 12
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 13 active days in 90d — pass"
+  - "activity: 12 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "astrbot_plugin_shit_detector_plus"
@@ -129,6 +129,6 @@ repos:
 
 # Sisyphbaous-DT-Project
 
-21 pushes across 9 repositories on 13 active days in the last 90 days of public GitHub push activity.
+16 pushes across 7 repositories on 12 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Sisyphbaous-DT-Project

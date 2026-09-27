@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-26T06:06:37.922852+00:00"
+generated_at: "2026-09-27T06:09:19.734552+00:00"
 provenance:
   - "48dbbdd8fd0d3029"
-pushes_per_week: [21, 21, 23, 4, 3, 7, 40, 3, 4, 0, 3, 14, 9]
+pushes_per_week: [20, 21, 23, 4, 3, 9, 38, 3, 4, 0, 6, 11, 9]
 windows:
   "7d":
-    pushes: 10
-    distinct_repos: 5
-    active_days: 5
-    repos_not_owned: 4
+    pushes: 9
+    distinct_repos: 4
+    active_days: 4
+    repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 3
   "30d":
-    pushes: 27
+    pushes: 26
     distinct_repos: 10
-    active_days: 12
+    active_days: 11
     repos_not_owned: 8
     not_owned_basenames: 4
     not_owned_owners: 6
   "90d":
-    pushes: 152
+    pushes: 151
     distinct_repos: 24
-    active_days: 44
+    active_days: 43
     repos_not_owned: 22
     not_owned_basenames: 8
     not_owned_owners: 19
 automation:
   state: "clear"
-  push_per_day: 3.4545
-  repo_per_active_day: 0.5455
+  push_per_day: 3.5116
+  repo_per_active_day: 0.5581
   not_owned_ratio: 0.9167
   basename_concentration: 0.4167
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 10
-    distinct_repos: 5
-    pushes_per_repo: 2.0000
-    active_days: 5
-    repos_not_owned: 4
+    pushes: 9
+    distinct_repos: 4
+    pushes_per_repo: 2.2500
+    active_days: 4
+    repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 3
   "30d":
-    pushes: 27
+    pushes: 26
     distinct_repos: 10
-    pushes_per_repo: 2.7000
-    active_days: 12
+    pushes_per_repo: 2.6000
+    active_days: 11
     repos_not_owned: 8
     not_owned_basenames: 4
     not_owned_owners: 6
   "90d":
-    pushes: 152
+    pushes: 151
     distinct_repos: 24
-    pushes_per_repo: 6.3333
-    active_days: 44
+    pushes_per_repo: 6.2917
+    active_days: 43
     repos_not_owned: 22
     not_owned_basenames: 8
     not_owned_owners: 19
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 44 active days in 90d — pass"
+  - "activity: 43 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "ai-chat"
@@ -118,6 +118,6 @@ repos:
 
 # pushpak1300
 
-152 pushes across 24 repositories on 44 active days in the last 90 days of public GitHub push activity.
+151 pushes across 24 repositories on 43 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/pushpak1300

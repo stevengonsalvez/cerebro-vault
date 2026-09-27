@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-26T06:06:37.922852+00:00"
+generated_at: "2026-09-27T06:09:19.734552+00:00"
 provenance:
   - "61a57c93de29a252"
-pushes_per_week: [19, 0, 27, 53, 5, 5, 8, 3, 4, 0, 36, 15, 63]
+pushes_per_week: [19, 3, 24, 53, 5, 6, 7, 5, 2, 0, 41, 10, 65]
 windows:
   "7d":
-    pushes: 63
+    pushes: 65
     distinct_repos: 3
-    active_days: 3
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 114
+    pushes: 116
     distinct_repos: 3
-    active_days: 8
+    active_days: 9
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 238
+    pushes: 240
     distinct_repos: 15
-    active_days: 34
+    active_days: 35
     repos_not_owned: 11
     not_owned_basenames: 6
     not_owned_owners: 9
 automation:
   state: "clear"
-  push_per_day: 7.0000
-  repo_per_active_day: 0.4412
+  push_per_day: 6.8571
+  repo_per_active_day: 0.4286
   not_owned_ratio: 0.7333
   basename_concentration: 0.4667
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 63
+    pushes: 65
     distinct_repos: 3
-    pushes_per_repo: 21.0000
-    active_days: 3
+    pushes_per_repo: 21.6667
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 114
+    pushes: 116
     distinct_repos: 3
-    pushes_per_repo: 38.0000
-    active_days: 8
+    pushes_per_repo: 38.6667
+    active_days: 9
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 238
+    pushes: 240
     distinct_repos: 15
-    pushes_per_repo: 15.8667
-    active_days: 34
+    pushes_per_repo: 16.0000
+    active_days: 35
     repos_not_owned: 11
     not_owned_basenames: 6
     not_owned_owners: 9
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 34 active days in 90d — pass"
+  - "activity: 35 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "awesome-remote-mcp-servers"
@@ -137,6 +137,6 @@ repos:
 
 # punkpeye
 
-238 pushes across 15 repositories on 34 active days in the last 90 days of public GitHub push activity.
+240 pushes across 15 repositories on 35 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/punkpeye

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-26T06:06:37.922852+00:00"
+generated_at: "2026-09-27T06:09:19.734552+00:00"
 provenance:
   - "aee9f0d16c69308f"
-pushes_per_week: [2, 0, 1, 3, 1, 0, 0, 0, 0, 0, 0, 2, 1]
+pushes_per_week: [1, 0, 1, 3, 1, 0, 0, 0, 0, 0, 0, 2, 1]
 windows:
   "7d":
     pushes: 1
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 10
-    distinct_repos: 4
-    active_days: 9
+    pushes: 9
+    distinct_repos: 3
+    active_days: 8
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.1111
-  repo_per_active_day: 0.4444
-  not_owned_ratio: 0.5000
-  basename_concentration: 0.5000
+  push_per_day: 1.1250
+  repo_per_active_day: 0.3750
+  not_owned_ratio: 0.6667
+  basename_concentration: 0.6667
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 10
-    distinct_repos: 4
-    pushes_per_repo: 2.5000
-    active_days: 9
+    pushes: 9
+    distinct_repos: 3
+    pushes_per_repo: 3.0000
+    active_days: 8
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 9 active days in 90d — pass"
+  - "activity: 8 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "Win32Interop.WinHandles"
@@ -129,6 +129,6 @@ repos:
 
 # zastrowm
 
-10 pushes across 4 repositories on 9 active days in the last 90 days of public GitHub push activity.
+9 pushes across 3 repositories on 8 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/zastrowm

@@ -6,18 +6,20 @@ discovered_via_all:
   - "fanout"
 provenance_repos:
   - "alibaba/open-code-review"
+  - "anthropics/claude-code-action"
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-26T06:06:37.922852+00:00"
+generated_at: "2026-09-27T06:09:19.734552+00:00"
 provenance:
+  - "0b22ca37fd3884c9"
   - "c489e6fb5febf2ab"
-pushes_per_week: [56, 90, 110, 17, 14, 6, 10, 3, 3, 0, 20, 35, 12]
+pushes_per_week: [66, 91, 96, 17, 14, 6, 11, 2, 3, 0, 20, 36, 11]
 windows:
   "7d":
-    pushes: 13
+    pushes: 12
     distinct_repos: 3
-    active_days: 6
+    active_days: 5
     repos_not_owned: 3
     not_owned_basenames: 2
     not_owned_owners: 2
@@ -29,18 +31,18 @@ windows:
     not_owned_basenames: 7
     not_owned_owners: 3
   "90d":
-    pushes: 376
-    distinct_repos: 27
-    active_days: 52
+    pushes: 373
+    distinct_repos: 25
+    active_days: 51
     repos_not_owned: 25
     not_owned_basenames: 24
     not_owned_owners: 4
 automation:
   state: "clear"
-  push_per_day: 7.2308
-  repo_per_active_day: 0.5192
-  not_owned_ratio: 0.9259
-  basename_concentration: 0.0741
+  push_per_day: 7.3137
+  repo_per_active_day: 0.4902
+  not_owned_ratio: 1.0000
+  basename_concentration: 0.0800
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,10 +51,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 13
+    pushes: 12
     distinct_repos: 3
-    pushes_per_repo: 4.3333
-    active_days: 6
+    pushes_per_repo: 4.0000
+    active_days: 5
     repos_not_owned: 3
     not_owned_basenames: 2
     not_owned_owners: 2
@@ -65,16 +67,16 @@ facets:
     not_owned_basenames: 7
     not_owned_owners: 3
   "90d":
-    pushes: 376
-    distinct_repos: 27
-    pushes_per_repo: 13.9259
-    active_days: 52
+    pushes: 373
+    distinct_repos: 25
+    pushes_per_repo: 14.9200
+    active_days: 51
     repos_not_owned: 25
     not_owned_basenames: 24
     not_owned_owners: 4
 reasons:
-  - "provenance: 1 vault signal(s) — pass"
-  - "activity: 52 active days in 90d — pass"
+  - "provenance: 2 vault signal(s) — pass"
+  - "activity: 51 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "amondnet"
@@ -138,6 +140,6 @@ repos:
 
 # amondnet
 
-376 pushes across 27 repositories on 52 active days in the last 90 days of public GitHub push activity.
+373 pushes across 25 repositories on 51 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/amondnet

@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-26T06:06:37.922852+00:00"
+generated_at: "2026-09-27T06:09:19.734552+00:00"
 provenance:
   - "c47cbc7eb3e22410"
-pushes_per_week: [65, 69, 46, 45, 32, 71, 89, 46, 21, 15, 73, 167, 136]
+pushes_per_week: [68, 65, 48, 47, 33, 68, 97, 32, 21, 27, 85, 169, 150]
 windows:
   "7d":
-    pushes: 202
-    distinct_repos: 21
+    pushes: 171
+    distinct_repos: 13
     active_days: 7
-    repos_not_owned: 13
-    not_owned_basenames: 3
-    not_owned_owners: 12
+    repos_not_owned: 6
+    not_owned_basenames: 5
+    not_owned_owners: 3
   "30d":
-    pushes: 398
-    distinct_repos: 27
+    pushes: 438
+    distinct_repos: 29
     active_days: 27
-    repos_not_owned: 16
-    not_owned_basenames: 3
+    repos_not_owned: 18
+    not_owned_basenames: 5
     not_owned_owners: 15
   "90d":
-    pushes: 875
-    distinct_repos: 42
+    pushes: 910
+    distinct_repos: 44
     active_days: 84
-    repos_not_owned: 23
-    not_owned_basenames: 5
+    repos_not_owned: 25
+    not_owned_basenames: 7
     not_owned_owners: 22
 automation:
   state: "clear"
-  push_per_day: 10.4167
-  repo_per_active_day: 0.5000
-  not_owned_ratio: 0.5476
-  basename_concentration: 0.4762
+  push_per_day: 10.8333
+  repo_per_active_day: 0.5238
+  not_owned_ratio: 0.5682
+  basename_concentration: 0.4545
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,28 +49,28 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 202
-    distinct_repos: 21
-    pushes_per_repo: 9.6190
+    pushes: 171
+    distinct_repos: 13
+    pushes_per_repo: 13.1538
     active_days: 7
-    repos_not_owned: 13
-    not_owned_basenames: 3
-    not_owned_owners: 12
+    repos_not_owned: 6
+    not_owned_basenames: 5
+    not_owned_owners: 3
   "30d":
-    pushes: 398
-    distinct_repos: 27
-    pushes_per_repo: 14.7407
+    pushes: 438
+    distinct_repos: 29
+    pushes_per_repo: 15.1034
     active_days: 27
-    repos_not_owned: 16
-    not_owned_basenames: 3
+    repos_not_owned: 18
+    not_owned_basenames: 5
     not_owned_owners: 15
   "90d":
-    pushes: 875
-    distinct_repos: 42
-    pushes_per_repo: 20.8333
+    pushes: 910
+    distinct_repos: 44
+    pushes_per_repo: 20.6818
     active_days: 84
-    repos_not_owned: 23
-    not_owned_basenames: 5
+    repos_not_owned: 25
+    not_owned_basenames: 7
     not_owned_owners: 22
 reasons:
   - "provenance: 1 vault signal(s) — pass"
@@ -190,6 +190,6 @@ repos:
 
 # lidge-jun
 
-875 pushes across 42 repositories on 84 active days in the last 90 days of public GitHub push activity.
+910 pushes across 44 repositories on 84 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/lidge-jun

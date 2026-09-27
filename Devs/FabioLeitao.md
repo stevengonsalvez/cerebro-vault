@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-26T06:06:37.922852+00:00"
+generated_at: "2026-09-27T06:09:19.734552+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [13, 2, 14, 5, 8, 3, 14, 18, 3, 0, 7, 7, 5]
+pushes_per_week: [12, 6, 9, 5, 8, 7, 16, 13, 2, 0, 13, 1, 5]
 windows:
   "7d":
     pushes: 5
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 99
+    pushes: 97
     distinct_repos: 4
-    active_days: 39
+    active_days: 38
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.5385
-  repo_per_active_day: 0.1026
+  push_per_day: 2.5526
+  repo_per_active_day: 0.1053
   not_owned_ratio: 0.5000
   basename_concentration: 0.5000
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 99
+    pushes: 97
     distinct_repos: 4
-    pushes_per_repo: 24.7500
-    active_days: 39
+    pushes_per_repo: 24.2500
+    active_days: 38
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 39 active days in 90d — pass"
+  - "activity: 38 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "memory-rust"
@@ -129,6 +129,6 @@ repos:
 
 # FabioLeitao
 
-99 pushes across 4 repositories on 39 active days in the last 90 days of public GitHub push activity.
+97 pushes across 4 repositories on 38 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/FabioLeitao

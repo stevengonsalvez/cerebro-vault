@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-26T06:06:37.922852+00:00"
+generated_at: "2026-09-27T06:09:19.734552+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [26, 4, 57, 19, 1, 2, 6, 2, 0, 0, 2, 0, 0]
+pushes_per_week: [21, 4, 62, 14, 1, 2, 7, 1, 0, 0, 2, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 119
+    pushes: 114
     distinct_repos: 4
-    active_days: 26
+    active_days: 25
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 4.5769
-  repo_per_active_day: 0.1538
+  push_per_day: 4.5600
+  repo_per_active_day: 0.1600
   not_owned_ratio: 0.0000
   basename_concentration: 0.2500
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 119
+    pushes: 114
     distinct_repos: 4
-    pushes_per_repo: 29.7500
-    active_days: 26
+    pushes_per_repo: 28.5000
+    active_days: 25
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 26 active days in 90d — pass"
+  - "activity: 25 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "-tcmalloc-"
@@ -143,6 +143,6 @@ repos:
 
 # bugkeep
 
-119 pushes across 4 repositories on 26 active days in the last 90 days of public GitHub push activity.
+114 pushes across 4 repositories on 25 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/bugkeep

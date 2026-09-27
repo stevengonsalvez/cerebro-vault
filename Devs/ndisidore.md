@@ -6,13 +6,11 @@ discovered_via_all:
   - "fanout"
 provenance_repos:
   - "cloudflare/cloudflare-os"
-  - "cloudflare/computer"
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-26T06:06:37.922852+00:00"
+generated_at: "2026-09-27T06:09:19.734552+00:00"
 provenance:
-  - "36da1b921f121c1d"
   - "386c24cf5e18fd90"
 pushes_per_week: [2, 6, 1, 1, 1, 2, 4, 2, 2, 0, 1, 13, 6]
 windows:
@@ -75,7 +73,7 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 2
 reasons:
-  - "provenance: 2 vault signal(s) — pass"
+  - "provenance: 1 vault signal(s) — pass"
   - "activity: 23 active days in 90d — pass"
   - "automation: clear — pass"
 repos:

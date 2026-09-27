@@ -10,27 +10,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-26T06:06:37.922852+00:00"
+generated_at: "2026-09-27T06:09:19.734552+00:00"
 provenance:
   - "fb0827c68cc0b5d0"
-pushes_per_week: [19, 2, 28, 22, 9, 0, 1, 1, 3, 0, 3, 2, 4]
+pushes_per_week: [12, 2, 31, 19, 9, 0, 2, 2, 1, 0, 4, 1, 6]
 windows:
   "7d":
-    pushes: 4
+    pushes: 6
     distinct_repos: 1
-    active_days: 3
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 9
+    pushes: 11
     distinct_repos: 1
-    active_days: 7
+    active_days: 8
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 94
+    pushes: 89
     distinct_repos: 13
     active_days: 33
     repos_not_owned: 1
@@ -38,7 +38,7 @@ windows:
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.8485
+  push_per_day: 2.6970
   repo_per_active_day: 0.3939
   not_owned_ratio: 0.0769
   basename_concentration: 0.0769
@@ -50,25 +50,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 4
+    pushes: 6
     distinct_repos: 1
-    pushes_per_repo: 4.0000
-    active_days: 3
+    pushes_per_repo: 6.0000
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 9
+    pushes: 11
     distinct_repos: 1
-    pushes_per_repo: 9.0000
-    active_days: 7
+    pushes_per_repo: 11.0000
+    active_days: 8
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 94
+    pushes: 89
     distinct_repos: 13
-    pushes_per_repo: 7.2308
+    pushes_per_repo: 6.8462
     active_days: 33
     repos_not_owned: 1
     not_owned_basenames: 1
@@ -165,6 +165,6 @@ repos:
 
 # carloslfu
 
-94 pushes across 13 repositories on 33 active days in the last 90 days of public GitHub push activity.
+89 pushes across 13 repositories on 33 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/carloslfu

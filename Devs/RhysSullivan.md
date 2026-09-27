@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-26T06:06:37.922852+00:00"
+generated_at: "2026-09-27T06:09:19.734552+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [166, 60, 10, 5, 21, 8, 2, 11, 7, 1, 4, 22, 27]
+pushes_per_week: [114, 58, 10, 5, 21, 8, 3, 10, 8, 0, 6, 21, 29]
 windows:
   "7d":
-    pushes: 27
+    pushes: 30
     distinct_repos: 2
     active_days: 7
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
   "30d":
-    pushes: 60
-    distinct_repos: 6
-    active_days: 17
-    repos_not_owned: 6
+    pushes: 61
+    distinct_repos: 5
+    active_days: 18
+    repos_not_owned: 5
     not_owned_basenames: 2
-    not_owned_owners: 6
+    not_owned_owners: 5
   "90d":
-    pushes: 344
+    pushes: 293
     distinct_repos: 14
     active_days: 54
     repos_not_owned: 11
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 7
 automation:
   state: "clear"
-  push_per_day: 6.3704
+  push_per_day: 5.4259
   repo_per_active_day: 0.2593
   not_owned_ratio: 0.7857
   basename_concentration: 0.5000
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 27
+    pushes: 30
     distinct_repos: 2
-    pushes_per_repo: 13.5000
+    pushes_per_repo: 15.0000
     active_days: 7
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
   "30d":
-    pushes: 60
-    distinct_repos: 6
-    pushes_per_repo: 10.0000
-    active_days: 17
-    repos_not_owned: 6
+    pushes: 61
+    distinct_repos: 5
+    pushes_per_repo: 12.2000
+    active_days: 18
+    repos_not_owned: 5
     not_owned_basenames: 2
-    not_owned_owners: 6
+    not_owned_owners: 5
   "90d":
-    pushes: 344
+    pushes: 293
     distinct_repos: 14
-    pushes_per_repo: 24.5714
+    pushes_per_repo: 20.9286
     active_days: 54
     repos_not_owned: 11
     not_owned_basenames: 6
@@ -129,6 +129,6 @@ repos:
 
 # RhysSullivan
 
-344 pushes across 14 repositories on 54 active days in the last 90 days of public GitHub push activity.
+293 pushes across 14 repositories on 54 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/RhysSullivan

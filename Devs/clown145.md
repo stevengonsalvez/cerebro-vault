@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-26T06:06:37.922852+00:00"
+generated_at: "2026-09-27T06:09:19.734552+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [2, 2, 0, 2, 2, 8, 15, 0, 0, 0, 0, 1, 14]
+pushes_per_week: [3, 1, 0, 4, 0, 8, 15, 0, 0, 0, 0, 2, 20]
 windows:
   "7d":
-    pushes: 15
-    distinct_repos: 9
-    active_days: 4
+    pushes: 20
+    distinct_repos: 10
+    active_days: 3
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
   "30d":
-    pushes: 15
-    distinct_repos: 9
-    active_days: 4
+    pushes: 22
+    distinct_repos: 11
+    active_days: 5
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 46
-    distinct_repos: 16
-    active_days: 18
+    pushes: 53
+    distinct_repos: 18
+    active_days: 19
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.5556
-  repo_per_active_day: 0.8889
-  not_owned_ratio: 0.1875
-  basename_concentration: 0.0625
+  push_per_day: 2.7895
+  repo_per_active_day: 0.9474
+  not_owned_ratio: 0.1667
+  basename_concentration: 0.0556
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 15
-    distinct_repos: 9
-    pushes_per_repo: 1.6667
-    active_days: 4
+    pushes: 20
+    distinct_repos: 10
+    pushes_per_repo: 2.0000
+    active_days: 3
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
   "30d":
-    pushes: 15
-    distinct_repos: 9
-    pushes_per_repo: 1.6667
-    active_days: 4
+    pushes: 22
+    distinct_repos: 11
+    pushes_per_repo: 2.0000
+    active_days: 5
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 46
-    distinct_repos: 16
-    pushes_per_repo: 2.8750
-    active_days: 18
+    pushes: 53
+    distinct_repos: 18
+    pushes_per_repo: 2.9444
+    active_days: 19
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 18 active days in 90d — pass"
+  - "activity: 19 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "qqbot-plugin-pixiv"
@@ -129,6 +129,6 @@ repos:
 
 # clown145
 
-46 pushes across 16 repositories on 18 active days in the last 90 days of public GitHub push activity.
+53 pushes across 18 repositories on 19 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/clown145

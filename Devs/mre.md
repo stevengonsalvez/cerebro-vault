@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-26T06:06:37.922852+00:00"
+generated_at: "2026-09-27T06:09:19.734552+00:00"
 provenance:
   - "1f49d0119cedbc84"
-pushes_per_week: [11, 9, 4, 3, 2, 0, 3, 0, 1, 0, 1, 4, 6]
+pushes_per_week: [14, 3, 4, 3, 2, 1, 2, 0, 1, 0, 2, 7, 2]
 windows:
   "7d":
-    pushes: 7
-    distinct_repos: 5
-    active_days: 4
-    repos_not_owned: 5
-    not_owned_basenames: 4
-    not_owned_owners: 4
+    pushes: 6
+    distinct_repos: 4
+    active_days: 3
+    repos_not_owned: 4
+    not_owned_basenames: 3
+    not_owned_owners: 3
   "30d":
-    pushes: 12
+    pushes: 11
     distinct_repos: 6
-    active_days: 9
+    active_days: 8
     repos_not_owned: 6
     not_owned_basenames: 5
     not_owned_owners: 4
   "90d":
-    pushes: 44
+    pushes: 41
     distinct_repos: 11
-    active_days: 22
+    active_days: 21
     repos_not_owned: 9
     not_owned_basenames: 8
     not_owned_owners: 6
 automation:
   state: "clear"
-  push_per_day: 2.0000
-  repo_per_active_day: 0.5000
+  push_per_day: 1.9524
+  repo_per_active_day: 0.5238
   not_owned_ratio: 0.8182
   basename_concentration: 0.1818
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 7
-    distinct_repos: 5
-    pushes_per_repo: 1.4000
-    active_days: 4
-    repos_not_owned: 5
-    not_owned_basenames: 4
-    not_owned_owners: 4
+    pushes: 6
+    distinct_repos: 4
+    pushes_per_repo: 1.5000
+    active_days: 3
+    repos_not_owned: 4
+    not_owned_basenames: 3
+    not_owned_owners: 3
   "30d":
-    pushes: 12
+    pushes: 11
     distinct_repos: 6
-    pushes_per_repo: 2.0000
-    active_days: 9
+    pushes_per_repo: 1.8333
+    active_days: 8
     repos_not_owned: 6
     not_owned_basenames: 5
     not_owned_owners: 4
   "90d":
-    pushes: 44
+    pushes: 41
     distinct_repos: 11
-    pushes_per_repo: 4.0000
-    active_days: 22
+    pushes_per_repo: 3.7273
+    active_days: 21
     repos_not_owned: 9
     not_owned_basenames: 8
     not_owned_owners: 6
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 22 active days in 90d — pass"
+  - "activity: 21 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "idiomatic-rust"
@@ -149,6 +149,6 @@ repos:
 
 # mre
 
-44 pushes across 11 repositories on 22 active days in the last 90 days of public GitHub push activity.
+41 pushes across 11 repositories on 21 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/mre

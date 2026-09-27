@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-26T06:06:37.922852+00:00"
+generated_at: "2026-09-27T06:09:19.734552+00:00"
 provenance:
   - "48dbbdd8fd0d3029"
-pushes_per_week: [27, 10, 14, 5, 4, 3, 7, 4, 1, 0, 1, 3, 5]
+pushes_per_week: [24, 9, 16, 3, 4, 3, 8, 3, 1, 0, 1, 5, 3]
 windows:
   "7d":
-    pushes: 6
-    distinct_repos: 4
-    active_days: 4
+    pushes: 4
+    distinct_repos: 3
+    active_days: 3
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 84
+    pushes: 80
     distinct_repos: 17
-    active_days: 40
+    active_days: 39
     repos_not_owned: 10
     not_owned_basenames: 10
     not_owned_owners: 4
 automation:
   state: "clear"
-  push_per_day: 2.1000
-  repo_per_active_day: 0.4250
+  push_per_day: 2.0513
+  repo_per_active_day: 0.4359
   not_owned_ratio: 0.5882
   basename_concentration: 0.1176
   shapes: []
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 6
-    distinct_repos: 4
-    pushes_per_repo: 1.5000
-    active_days: 4
+    pushes: 4
+    distinct_repos: 3
+    pushes_per_repo: 1.3333
+    active_days: 3
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 84
+    pushes: 80
     distinct_repos: 17
-    pushes_per_repo: 4.9412
-    active_days: 40
+    pushes_per_repo: 4.7059
+    active_days: 39
     repos_not_owned: 10
     not_owned_basenames: 10
     not_owned_owners: 4
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 40 active days in 90d — pass"
+  - "activity: 39 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "minifyrb"
@@ -141,6 +141,6 @@ repos:
 
 # koic
 
-84 pushes across 17 repositories on 40 active days in the last 90 days of public GitHub push activity.
+80 pushes across 17 repositories on 39 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/koic

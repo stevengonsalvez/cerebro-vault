@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-26T06:06:37.922852+00:00"
+generated_at: "2026-09-27T06:09:19.734552+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [4, 18, 30, 10, 4, 4, 2, 0, 2, 2, 0, 1, 2]
+pushes_per_week: [3, 26, 24, 11, 1, 5, 1, 2, 1, 1, 0, 3, 0]
 windows:
   "7d":
     pushes: 2
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 79
+    pushes: 78
     distinct_repos: 8
-    active_days: 25
+    active_days: 24
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 3.1600
-  repo_per_active_day: 0.3200
+  push_per_day: 3.2500
+  repo_per_active_day: 0.3333
   not_owned_ratio: 0.0000
   basename_concentration: 0.1250
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 79
+    pushes: 78
     distinct_repos: 8
-    pushes_per_repo: 9.8750
-    active_days: 25
+    pushes_per_repo: 9.7500
+    active_days: 24
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 25 active days in 90d — pass"
+  - "activity: 24 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "homebrew-tap"
@@ -105,6 +105,6 @@ repos:
 
 # CasualDeveloper
 
-79 pushes across 8 repositories on 25 active days in the last 90 days of public GitHub push activity.
+78 pushes across 8 repositories on 24 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/CasualDeveloper

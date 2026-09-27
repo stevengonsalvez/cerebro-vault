@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-26T06:06:37.922852+00:00"
+generated_at: "2026-09-27T06:09:19.734552+00:00"
 provenance:
   - "e2f800cf55605b30"
-pushes_per_week: [13, 7, 18, 5, 5, 1, 0, 0, 0, 1, 2, 6, 10]
+pushes_per_week: [13, 10, 16, 4, 5, 1, 0, 0, 0, 2, 1, 8, 9]
 windows:
   "7d":
-    pushes: 12
+    pushes: 10
     distinct_repos: 5
-    active_days: 7
+    active_days: 6
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
   "30d":
-    pushes: 19
+    pushes: 20
     distinct_repos: 7
     active_days: 13
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 1
   "90d":
-    pushes: 68
+    pushes: 69
     distinct_repos: 13
     active_days: 34
     repos_not_owned: 7
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.0000
+  push_per_day: 2.0294
   repo_per_active_day: 0.3824
   not_owned_ratio: 0.5385
   basename_concentration: 0.0769
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 12
+    pushes: 10
     distinct_repos: 5
-    pushes_per_repo: 2.4000
-    active_days: 7
+    pushes_per_repo: 2.0000
+    active_days: 6
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
   "30d":
-    pushes: 19
+    pushes: 20
     distinct_repos: 7
-    pushes_per_repo: 2.7143
+    pushes_per_repo: 2.8571
     active_days: 13
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 1
   "90d":
-    pushes: 68
+    pushes: 69
     distinct_repos: 13
-    pushes_per_repo: 5.2308
+    pushes_per_repo: 5.3077
     active_days: 34
     repos_not_owned: 7
     not_owned_basenames: 7
@@ -129,6 +129,6 @@ repos:
 
 # bradfitz
 
-68 pushes across 13 repositories on 34 active days in the last 90 days of public GitHub push activity.
+69 pushes across 13 repositories on 34 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/bradfitz

@@ -10,10 +10,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-26T06:06:37.922852+00:00"
+generated_at: "2026-09-27T06:09:19.734552+00:00"
 provenance:
   - "dffbb846389f9a26"
-pushes_per_week: [3, 9, 9, 9, 3, 2, 3, 0, 1, 0, 2, 0, 8]
+pushes_per_week: [2, 9, 9, 9, 3, 2, 3, 0, 1, 0, 2, 0, 8]
 windows:
   "7d":
     pushes: 8
@@ -30,7 +30,7 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 49
+    pushes: 48
     distinct_repos: 3
     active_days: 23
     repos_not_owned: 3
@@ -38,7 +38,7 @@ windows:
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 2.1304
+  push_per_day: 2.0870
   repo_per_active_day: 0.1304
   not_owned_ratio: 1.0000
   basename_concentration: 0.6667
@@ -66,9 +66,9 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 49
+    pushes: 48
     distinct_repos: 3
-    pushes_per_repo: 16.3333
+    pushes_per_repo: 16.0000
     active_days: 23
     repos_not_owned: 3
     not_owned_basenames: 2
@@ -130,6 +130,6 @@ repos:
 
 # goldmedal
 
-49 pushes across 3 repositories on 23 active days in the last 90 days of public GitHub push activity.
+48 pushes across 3 repositories on 23 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/goldmedal

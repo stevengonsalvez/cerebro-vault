@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-24T15:17:54.275119+00:00"
+generated_at: "2026-09-27T06:09:19.734552+00:00"
 provenance:
   - "0388a4f55f4206c8"
   - "0577669e18ed3998"
@@ -26,7 +26,7 @@ provenance:
   - "c6b4a874521ceb02"
   - "cf565721454d59f8"
   - "e26852201e6f38fc"
-pushes_per_week: [6, 18, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [7, 16, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -43,7 +43,7 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 26
+    pushes: 25
     distinct_repos: 2
     active_days: 8
     repos_not_owned: 2
@@ -51,7 +51,7 @@ windows:
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 3.2500
+  push_per_day: 3.1250
   repo_per_active_day: 0.2500
   not_owned_ratio: 1.0000
   basename_concentration: 0.5000
@@ -79,9 +79,9 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 26
+    pushes: 25
     distinct_repos: 2
-    pushes_per_repo: 13.0000
+    pushes_per_repo: 12.5000
     active_days: 8
     repos_not_owned: 2
     not_owned_basenames: 2
@@ -95,6 +95,6 @@ repos: []
 
 # charliemarsh-oai
 
-26 pushes across 2 repositories on 8 active days in the last 90 days of public GitHub push activity.
+25 pushes across 2 repositories on 8 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/charliemarsh-oai

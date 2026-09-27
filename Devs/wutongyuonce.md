@@ -10,16 +10,16 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-26T06:06:37.922852+00:00"
+generated_at: "2026-09-27T06:09:19.734552+00:00"
 provenance:
   - "16389f32495280ea"
   - "4d1450729e6ff44d"
-pushes_per_week: [5, 9, 5, 2, 4, 4, 8, 2, 1, 1, 6, 11, 9]
+pushes_per_week: [5, 7, 5, 2, 4, 6, 6, 3, 1, 0, 8, 10, 8]
 windows:
   "7d":
-    pushes: 12
+    pushes: 9
     distinct_repos: 7
-    active_days: 5
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -31,16 +31,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 67
+    pushes: 65
     distinct_repos: 20
-    active_days: 35
+    active_days: 34
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.9143
-  repo_per_active_day: 0.5714
+  push_per_day: 1.9118
+  repo_per_active_day: 0.5882
   not_owned_ratio: 0.0000
   basename_concentration: 0.0500
   shapes: []
@@ -51,10 +51,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 12
+    pushes: 9
     distinct_repos: 7
-    pushes_per_repo: 1.7143
-    active_days: 5
+    pushes_per_repo: 1.2857
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -67,16 +67,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 67
+    pushes: 65
     distinct_repos: 20
-    pushes_per_repo: 3.3500
-    active_days: 35
+    pushes_per_repo: 3.2500
+    active_days: 34
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 35 active days in 90d — pass"
+  - "activity: 34 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "wutongyuonce"
@@ -143,6 +143,6 @@ repos:
 
 # wutongyuonce
 
-67 pushes across 20 repositories on 35 active days in the last 90 days of public GitHub push activity.
+65 pushes across 20 repositories on 34 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/wutongyuonce

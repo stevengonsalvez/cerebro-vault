@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-26T06:06:37.922852+00:00"
+generated_at: "2026-09-27T06:09:19.734552+00:00"
 provenance:
   - "379642deb53f3714"
-pushes_per_week: [26, 4, 2, 7, 5, 2, 5, 0, 0, 0, 0, 0, 1]
+pushes_per_week: [25, 4, 3, 6, 5, 3, 4, 0, 0, 0, 0, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -29,7 +29,7 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 52
+    pushes: 51
     distinct_repos: 4
     active_days: 21
     repos_not_owned: 0
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.4762
+  push_per_day: 2.4286
   repo_per_active_day: 0.1905
   not_owned_ratio: 0.0000
   basename_concentration: 0.2500
@@ -65,9 +65,9 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 52
+    pushes: 51
     distinct_repos: 4
-    pushes_per_repo: 13.0000
+    pushes_per_repo: 12.7500
     active_days: 21
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -136,6 +136,6 @@ repos:
 
 # dinfuehr
 
-52 pushes across 4 repositories on 21 active days in the last 90 days of public GitHub push activity.
+51 pushes across 4 repositories on 21 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/dinfuehr

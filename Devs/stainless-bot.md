@@ -8,6 +8,7 @@ discovered_via_all:
 provenance_repos:
   - "anthropics/anthropic-sdk-python"
   - "anthropics/claude-code"
+  - "anthropics/claude-code-action"
   - "anthropics/claude-cookbooks"
   - "anthropics/claude-plugins-community"
   - "anthropics/claude-plugins-official"
@@ -17,7 +18,7 @@ provenance_repos:
 admitted: true
 low_n: true
 repos_populated: true
-generated_at: "2026-09-26T06:06:37.922852+00:00"
+generated_at: "2026-09-27T06:09:19.734552+00:00"
 provenance:
   - "01cd6a498d377caf"
   - "02eab667df448997"
@@ -25,6 +26,7 @@ provenance:
   - "0754e13e69e8f4d3"
   - "0880c239db0357ef"
   - "09d0c8e5c7031ff7"
+  - "0b22ca37fd3884c9"
   - "0d10a691ebcb0e61"
   - "0e371a11c328c372"
   - "13d96f6971fff698"
@@ -137,7 +139,7 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 2
 reasons:
-  - "provenance: 57 vault signal(s) — pass"
+  - "provenance: 58 vault signal(s) — pass"
   - "activity: 4 active days in 90d — below the 5-day line, LABELLED low-n (never suppressed)"
   - "automation: clear — pass"
 repos: []

@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-26T06:06:37.922852+00:00"
+generated_at: "2026-09-27T06:09:19.734552+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [21, 22, 8, 6, 3, 3, 0, 3, 4, 0, 3, 6, 6]
+pushes_per_week: [24, 20, 7, 8, 1, 3, 0, 4, 3, 0, 3, 8, 5]
 windows:
   "7d":
-    pushes: 8
+    pushes: 6
     distinct_repos: 1
     active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 17
+    pushes: 18
     distinct_repos: 3
-    active_days: 8
+    active_days: 9
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 85
+    pushes: 86
     distinct_repos: 7
-    active_days: 38
+    active_days: 39
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.2368
-  repo_per_active_day: 0.1842
+  push_per_day: 2.2051
+  repo_per_active_day: 0.1795
   not_owned_ratio: 0.0000
   basename_concentration: 0.1429
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 8
+    pushes: 6
     distinct_repos: 1
-    pushes_per_repo: 8.0000
+    pushes_per_repo: 6.0000
     active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 17
+    pushes: 18
     distinct_repos: 3
-    pushes_per_repo: 5.6667
-    active_days: 8
+    pushes_per_repo: 6.0000
+    active_days: 9
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 85
+    pushes: 86
     distinct_repos: 7
-    pushes_per_repo: 12.1429
-    active_days: 38
+    pushes_per_repo: 12.2857
+    active_days: 39
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 38 active days in 90d — pass"
+  - "activity: 39 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "orbit"
@@ -129,6 +129,6 @@ repos:
 
 # hugogu
 
-85 pushes across 7 repositories on 38 active days in the last 90 days of public GitHub push activity.
+86 pushes across 7 repositories on 39 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/hugogu

@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-26T06:06:37.922852+00:00"
+generated_at: "2026-09-27T06:09:19.734552+00:00"
 provenance:
   - "9d67ce648f6a8919"
-pushes_per_week: [20, 14, 16, 6, 13, 2, 3, 2, 0, 0, 1, 1, 0]
+pushes_per_week: [12, 14, 20, 1, 14, 1, 2, 2, 0, 0, 1, 1, 0]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 78
-    distinct_repos: 4
-    active_days: 30
+    pushes: 68
+    distinct_repos: 3
+    active_days: 29
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.6000
-  repo_per_active_day: 0.1333
+  push_per_day: 2.3448
+  repo_per_active_day: 0.1034
   not_owned_ratio: 0.0000
-  basename_concentration: 0.2500
+  basename_concentration: 0.3333
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 78
-    distinct_repos: 4
-    pushes_per_repo: 19.5000
-    active_days: 30
+    pushes: 68
+    distinct_repos: 3
+    pushes_per_repo: 22.6667
+    active_days: 29
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 30 active days in 90d — pass"
+  - "activity: 29 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "yetval"
@@ -129,6 +129,6 @@ repos:
 
 # yetval
 
-78 pushes across 4 repositories on 30 active days in the last 90 days of public GitHub push activity.
+68 pushes across 3 repositories on 29 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/yetval

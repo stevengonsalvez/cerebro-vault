@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-26T06:06:37.922852+00:00"
+generated_at: "2026-09-27T06:09:19.734552+00:00"
 provenance:
   - "73468cde177ddae6"
-pushes_per_week: [35, 0, 0, 0, 2, 0, 1, 0, 1, 0, 0, 3, 0]
+pushes_per_week: [16, 0, 0, 2, 0, 0, 1, 0, 1, 0, 2, 1, 0]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 42
-    distinct_repos: 12
-    active_days: 9
+    pushes: 23
+    distinct_repos: 8
+    active_days: 8
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 4.6667
-  repo_per_active_day: 1.3333
+  push_per_day: 2.8750
+  repo_per_active_day: 1.0000
   not_owned_ratio: 0.0000
-  basename_concentration: 0.0833
+  basename_concentration: 0.1250
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 42
-    distinct_repos: 12
-    pushes_per_repo: 3.5000
-    active_days: 9
+    pushes: 23
+    distinct_repos: 8
+    pushes_per_repo: 2.8750
+    active_days: 8
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 9 active days in 90d — pass"
+  - "activity: 8 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "opendps"
@@ -139,6 +139,6 @@ repos:
 
 # rocker-zhang
 
-42 pushes across 12 repositories on 9 active days in the last 90 days of public GitHub push activity.
+23 pushes across 8 repositories on 8 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/rocker-zhang

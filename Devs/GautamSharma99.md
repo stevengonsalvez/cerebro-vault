@@ -5,12 +5,14 @@ discovered_via: "fanout"
 discovered_via_all:
   - "fanout"
 provenance_repos:
+  - "anthropics/claude-code-action"
   - "chopratejas/headroom"
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-26T06:06:37.922852+00:00"
+generated_at: "2026-09-27T06:09:19.734552+00:00"
 provenance:
+  - "0b22ca37fd3884c9"
   - "73468cde177ddae6"
 pushes_per_week: [1, 5, 1, 2, 4, 1, 0, 0, 0, 0, 0, 0, 0]
 windows:
@@ -73,7 +75,7 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
-  - "provenance: 1 vault signal(s) — pass"
+  - "provenance: 2 vault signal(s) — pass"
   - "activity: 11 active days in 90d — pass"
   - "automation: clear — pass"
 repos:

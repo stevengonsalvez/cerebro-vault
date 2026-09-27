@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-26T06:06:37.922852+00:00"
+generated_at: "2026-09-27T06:09:19.734552+00:00"
 provenance:
   - "c290a2acf859c75b"
-pushes_per_week: [24, 16, 2, 4, 1, 0, 0, 0, 0, 0, 0, 0, 2]
+pushes_per_week: [20, 15, 2, 4, 1, 0, 0, 0, 0, 0, 0, 0, 3]
 windows:
   "7d":
-    pushes: 2
+    pushes: 3
     distinct_repos: 1
-    active_days: 2
+    active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 2
+    pushes: 3
     distinct_repos: 1
-    active_days: 2
+    active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 49
+    pushes: 45
     distinct_repos: 2
     active_days: 19
     repos_not_owned: 1
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.5789
+  push_per_day: 2.3684
   repo_per_active_day: 0.1053
   not_owned_ratio: 0.5000
   basename_concentration: 1.0000
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
+    pushes: 3
     distinct_repos: 1
-    pushes_per_repo: 2.0000
-    active_days: 2
+    pushes_per_repo: 3.0000
+    active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 2
+    pushes: 3
     distinct_repos: 1
-    pushes_per_repo: 2.0000
-    active_days: 2
+    pushes_per_repo: 3.0000
+    active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 49
+    pushes: 45
     distinct_repos: 2
-    pushes_per_repo: 24.5000
+    pushes_per_repo: 22.5000
     active_days: 19
     repos_not_owned: 1
     not_owned_basenames: 1
@@ -139,6 +139,6 @@ repos:
 
 # safishamsi
 
-49 pushes across 2 repositories on 19 active days in the last 90 days of public GitHub push activity.
+45 pushes across 2 repositories on 19 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/safishamsi

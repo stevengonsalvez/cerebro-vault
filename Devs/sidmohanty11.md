@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-26T06:06:37.922852+00:00"
+generated_at: "2026-09-27T06:09:19.734552+00:00"
 provenance:
   - "745308b2b7085095"
-pushes_per_week: [8, 4, 5, 4, 4, 0, 0, 0, 2, 0, 1, 0, 1]
+pushes_per_week: [6, 4, 5, 4, 4, 0, 0, 0, 2, 0, 1, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 29
+    pushes: 27
     distinct_repos: 2
-    active_days: 19
+    active_days: 18
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.5263
-  repo_per_active_day: 0.1053
+  push_per_day: 1.5000
+  repo_per_active_day: 0.1111
   not_owned_ratio: 0.5000
   basename_concentration: 1.0000
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 29
+    pushes: 27
     distinct_repos: 2
-    pushes_per_repo: 14.5000
-    active_days: 19
+    pushes_per_repo: 13.5000
+    active_days: 18
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 19 active days in 90d — pass"
+  - "activity: 18 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "sidmohanty11.github.io"
@@ -129,6 +129,6 @@ repos:
 
 # sidmohanty11
 
-29 pushes across 2 repositories on 19 active days in the last 90 days of public GitHub push activity.
+27 pushes across 2 repositories on 18 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/sidmohanty11

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-26T06:06:37.922852+00:00"
+generated_at: "2026-09-27T06:09:19.734552+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [24, 16, 7, 9, 2, 7, 5, 0, 1, 1, 0, 1, 0]
+pushes_per_week: [26, 14, 7, 8, 3, 8, 3, 0, 1, 1, 0, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 73
+    pushes: 72
     distinct_repos: 5
-    active_days: 33
+    active_days: 32
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.2121
-  repo_per_active_day: 0.1515
+  push_per_day: 2.2500
+  repo_per_active_day: 0.1562
   not_owned_ratio: 0.0000
   basename_concentration: 0.2000
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 73
+    pushes: 72
     distinct_repos: 5
-    pushes_per_repo: 14.6000
-    active_days: 33
+    pushes_per_repo: 14.4000
+    active_days: 32
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 33 active days in 90d — pass"
+  - "activity: 32 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "investTemplate"
@@ -129,6 +129,6 @@ repos:
 
 # sunheyi6
 
-73 pushes across 5 repositories on 33 active days in the last 90 days of public GitHub push activity.
+72 pushes across 5 repositories on 32 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/sunheyi6

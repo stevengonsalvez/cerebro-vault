@@ -10,37 +10,37 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-26T06:06:37.922852+00:00"
+generated_at: "2026-09-27T06:09:19.734552+00:00"
 provenance:
   - "379642deb53f3714"
   - "533d51d9d3dea76f"
-pushes_per_week: [30, 28, 3, 6, 6, 1, 6, 0, 4, 0, 1, 1, 0]
+pushes_per_week: [30, 28, 4, 5, 6, 5, 2, 4, 0, 0, 1, 1, 1]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 2
-    distinct_repos: 1
-    active_days: 2
+    pushes: 3
+    distinct_repos: 2
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 86
+    pushes: 87
     distinct_repos: 37
-    active_days: 19
+    active_days: 20
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 4.5263
-  repo_per_active_day: 1.9474
+  push_per_day: 4.3500
+  repo_per_active_day: 1.8500
   not_owned_ratio: 0.0541
   basename_concentration: 0.0541
   shapes: []
@@ -51,32 +51,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
+    pushes: 1
+    distinct_repos: 1
+    pushes_per_repo: 1.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 2
-    distinct_repos: 1
-    pushes_per_repo: 2.0000
-    active_days: 2
+    pushes: 3
+    distinct_repos: 2
+    pushes_per_repo: 1.5000
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 86
+    pushes: 87
     distinct_repos: 37
-    pushes_per_repo: 2.3243
-    active_days: 19
+    pushes_per_repo: 2.3514
+    active_days: 20
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 19 active days in 90d — pass"
+  - "activity: 20 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "computer-use-mcp"
@@ -136,6 +136,6 @@ repos:
 
 # domdomegg
 
-86 pushes across 37 repositories on 19 active days in the last 90 days of public GitHub push activity.
+87 pushes across 37 repositories on 20 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/domdomegg

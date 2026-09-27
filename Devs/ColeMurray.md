@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-26T06:06:37.922852+00:00"
+generated_at: "2026-09-27T06:09:19.734552+00:00"
 provenance:
   - "8311cfc3055f8fea"
-pushes_per_week: [22, 41, 55, 21, 37, 9, 22, 3, 5, 2, 10, 11, 24]
+pushes_per_week: [21, 48, 62, 12, 32, 10, 22, 2, 4, 4, 10, 21, 14]
 windows:
   "7d":
-    pushes: 25
+    pushes: 21
     distinct_repos: 1
     active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 47
+    pushes: 49
     distinct_repos: 1
-    active_days: 17
+    active_days: 19
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
     pushes: 262
     distinct_repos: 1
-    active_days: 65
+    active_days: 67
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 4.0308
-  repo_per_active_day: 0.0154
+  push_per_day: 3.9104
+  repo_per_active_day: 0.0149
   not_owned_ratio: 0.0000
   basename_concentration: 1.0000
   shapes: []
@@ -49,18 +49,18 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 25
+    pushes: 21
     distinct_repos: 1
-    pushes_per_repo: 25.0000
+    pushes_per_repo: 21.0000
     active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 47
+    pushes: 49
     distinct_repos: 1
-    pushes_per_repo: 47.0000
-    active_days: 17
+    pushes_per_repo: 49.0000
+    active_days: 19
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -68,13 +68,13 @@ facets:
     pushes: 262
     distinct_repos: 1
     pushes_per_repo: 262.0000
-    active_days: 65
+    active_days: 67
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 65 active days in 90d — pass"
+  - "activity: 67 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "background-agents"
@@ -138,6 +138,6 @@ repos:
 
 # ColeMurray
 
-262 pushes across 1 repository on 65 active days in the last 90 days of public GitHub push activity.
+262 pushes across 1 repository on 67 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ColeMurray

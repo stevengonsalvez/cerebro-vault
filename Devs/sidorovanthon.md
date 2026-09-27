@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-26T06:06:37.922852+00:00"
+generated_at: "2026-09-27T06:09:19.734552+00:00"
 provenance:
   - "ddd7486148a91958"
-pushes_per_week: [40, 45, 50, 11, 7, 1, 10, 8, 7, 2, 11, 11, 15]
+pushes_per_week: [46, 40, 46, 11, 7, 1, 14, 4, 8, 5, 7, 11, 15]
 windows:
   "7d":
     pushes: 15
@@ -22,14 +22,14 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 40
+    pushes: 39
     distinct_repos: 4
-    active_days: 15
+    active_days: 14
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
   "90d":
-    pushes: 218
+    pushes: 215
     distinct_repos: 6
     active_days: 53
     repos_not_owned: 3
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 4.1132
+  push_per_day: 4.0566
   repo_per_active_day: 0.1132
   not_owned_ratio: 0.5000
   basename_concentration: 0.1667
@@ -57,17 +57,17 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 40
+    pushes: 39
     distinct_repos: 4
-    pushes_per_repo: 10.0000
-    active_days: 15
+    pushes_per_repo: 9.7500
+    active_days: 14
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
   "90d":
-    pushes: 218
+    pushes: 215
     distinct_repos: 6
-    pushes_per_repo: 36.3333
+    pushes_per_repo: 35.8333
     active_days: 53
     repos_not_owned: 3
     not_owned_basenames: 3
@@ -134,6 +134,6 @@ repos:
 
 # sidorovanthon
 
-218 pushes across 6 repositories on 53 active days in the last 90 days of public GitHub push activity.
+215 pushes across 6 repositories on 53 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/sidorovanthon

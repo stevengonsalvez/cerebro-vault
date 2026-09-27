@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-26T06:06:37.922852+00:00"
+generated_at: "2026-09-27T06:09:19.734552+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [5, 2, 10, 20, 5, 3, 8, 2, 1, 0, 1, 4, 10]
+pushes_per_week: [4, 1, 10, 20, 5, 4, 8, 1, 1, 1, 0, 5, 10]
 windows:
   "7d":
-    pushes: 12
-    distinct_repos: 5
+    pushes: 11
+    distinct_repos: 6
     active_days: 6
-    repos_not_owned: 1
-    not_owned_basenames: 1
+    repos_not_owned: 2
+    not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 16
-    distinct_repos: 9
-    active_days: 10
-    repos_not_owned: 1
-    not_owned_basenames: 1
+    pushes: 17
+    distinct_repos: 10
+    active_days: 11
+    repos_not_owned: 2
+    not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 71
+    pushes: 70
     distinct_repos: 22
     active_days: 36
     repos_not_owned: 2
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.9722
+  push_per_day: 1.9444
   repo_per_active_day: 0.6111
   not_owned_ratio: 0.0909
   basename_concentration: 0.0455
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 12
-    distinct_repos: 5
-    pushes_per_repo: 2.4000
+    pushes: 11
+    distinct_repos: 6
+    pushes_per_repo: 1.8333
     active_days: 6
-    repos_not_owned: 1
-    not_owned_basenames: 1
+    repos_not_owned: 2
+    not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 16
-    distinct_repos: 9
-    pushes_per_repo: 1.7778
-    active_days: 10
-    repos_not_owned: 1
-    not_owned_basenames: 1
+    pushes: 17
+    distinct_repos: 10
+    pushes_per_repo: 1.7000
+    active_days: 11
+    repos_not_owned: 2
+    not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 71
+    pushes: 70
     distinct_repos: 22
-    pushes_per_repo: 3.2273
+    pushes_per_repo: 3.1818
     active_days: 36
     repos_not_owned: 2
     not_owned_basenames: 2
@@ -141,6 +141,6 @@ repos:
 
 # piexian
 
-71 pushes across 22 repositories on 36 active days in the last 90 days of public GitHub push activity.
+70 pushes across 22 repositories on 36 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/piexian

@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-26T06:06:37.922852+00:00"
+generated_at: "2026-09-27T06:09:19.734552+00:00"
 provenance:
   - "419a4253687fd7a1"
-pushes_per_week: [8, 0, 0, 0, 0, 19, 48, 12, 1, 0, 14, 14, 22]
+pushes_per_week: [4, 0, 0, 0, 0, 19, 48, 12, 1, 2, 12, 14, 22]
 windows:
   "7d":
-    pushes: 23
+    pushes: 22
     distinct_repos: 1
-    active_days: 6
+    active_days: 5
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 138
+    pushes: 134
     distinct_repos: 8
-    active_days: 36
+    active_days: 34
     repos_not_owned: 7
     not_owned_basenames: 2
     not_owned_owners: 6
 automation:
   state: "clear"
-  push_per_day: 3.8333
-  repo_per_active_day: 0.2222
+  push_per_day: 3.9412
+  repo_per_active_day: 0.2353
   not_owned_ratio: 0.8750
   basename_concentration: 0.8750
   shapes:
@@ -65,10 +65,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 23
+    pushes: 22
     distinct_repos: 1
-    pushes_per_repo: 23.0000
-    active_days: 6
+    pushes_per_repo: 22.0000
+    active_days: 5
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -81,16 +81,16 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 138
+    pushes: 134
     distinct_repos: 8
-    pushes_per_repo: 17.2500
-    active_days: 36
+    pushes_per_repo: 16.7500
+    active_days: 34
     repos_not_owned: 7
     not_owned_basenames: 2
     not_owned_owners: 6
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 36 active days in 90d — pass"
+  - "activity: 34 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "bb-plugins"
@@ -148,6 +148,6 @@ repos:
 
 # ymichael
 
-138 pushes across 8 repositories on 36 active days in the last 90 days of public GitHub push activity.
+134 pushes across 8 repositories on 34 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ymichael

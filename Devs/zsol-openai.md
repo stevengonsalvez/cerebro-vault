@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-26T06:06:37.922852+00:00"
+generated_at: "2026-09-27T06:09:19.734552+00:00"
 provenance:
   - "0388a4f55f4206c8"
   - "0577669e18ed3998"
@@ -26,7 +26,7 @@ provenance:
   - "c6b4a874521ceb02"
   - "cf565721454d59f8"
   - "e26852201e6f38fc"
-pushes_per_week: [4, 7, 10, 3, 6, 1, 6, 2, 1, 0, 0, 1, 2]
+pushes_per_week: [4, 6, 10, 3, 6, 2, 7, 0, 1, 0, 0, 2, 1]
 windows:
   "7d":
     pushes: 2
@@ -43,16 +43,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 43
+    pushes: 42
     distinct_repos: 1
-    active_days: 28
+    active_days: 27
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.5357
-  repo_per_active_day: 0.0357
+  push_per_day: 1.5556
+  repo_per_active_day: 0.0370
   not_owned_ratio: 0.0000
   basename_concentration: 1.0000
   shapes: []
@@ -79,22 +79,22 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 43
+    pushes: 42
     distinct_repos: 1
-    pushes_per_repo: 43.0000
-    active_days: 28
+    pushes_per_repo: 42.0000
+    active_days: 27
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 15 vault signal(s) — pass"
-  - "activity: 28 active days in 90d — pass"
+  - "activity: 27 active days in 90d — pass"
   - "automation: clear — pass"
 repos: []
 ---
 
 # zsol-openai
 
-43 pushes across 1 repository on 28 active days in the last 90 days of public GitHub push activity.
+42 pushes across 1 repository on 27 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/zsol-openai

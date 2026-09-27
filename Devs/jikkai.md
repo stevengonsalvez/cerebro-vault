@@ -9,17 +9,17 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-26T06:06:37.922852+00:00"
+generated_at: "2026-09-27T06:09:19.734552+00:00"
 provenance:
   - "d148e3d2c2843c2b"
-pushes_per_week: [17, 12, 6, 5, 9, 6, 5, 2, 3, 0, 1, 1, 5]
+pushes_per_week: [16, 12, 6, 5, 9, 6, 5, 2, 3, 0, 1, 3, 3]
 windows:
   "7d":
-    pushes: 5
-    distinct_repos: 3
-    active_days: 3
-    repos_not_owned: 3
-    not_owned_basenames: 3
+    pushes: 3
+    distinct_repos: 2
+    active_days: 2
+    repos_not_owned: 2
+    not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
     pushes: 7
@@ -29,7 +29,7 @@ windows:
     not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 72
+    pushes: 71
     distinct_repos: 9
     active_days: 37
     repos_not_owned: 5
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.9459
+  push_per_day: 1.9189
   repo_per_active_day: 0.2432
   not_owned_ratio: 0.5556
   basename_concentration: 0.1111
@@ -49,12 +49,12 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 5
-    distinct_repos: 3
-    pushes_per_repo: 1.6667
-    active_days: 3
-    repos_not_owned: 3
-    not_owned_basenames: 3
+    pushes: 3
+    distinct_repos: 2
+    pushes_per_repo: 1.5000
+    active_days: 2
+    repos_not_owned: 2
+    not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
     pushes: 7
@@ -65,9 +65,9 @@ facets:
     not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 72
+    pushes: 71
     distinct_repos: 9
-    pushes_per_repo: 8.0000
+    pushes_per_repo: 7.8889
     active_days: 37
     repos_not_owned: 5
     not_owned_basenames: 5
@@ -131,6 +131,6 @@ repos:
 
 # jikkai
 
-72 pushes across 9 repositories on 37 active days in the last 90 days of public GitHub push activity.
+71 pushes across 9 repositories on 37 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/jikkai

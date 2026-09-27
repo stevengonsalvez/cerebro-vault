@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-26T06:06:37.922852+00:00"
+generated_at: "2026-09-27T06:09:19.734552+00:00"
 provenance:
   - "533d51d9d3dea76f"
-pushes_per_week: [17, 5, 0, 1, 5, 6, 8, 6, 3, 1, 3, 1, 5]
+pushes_per_week: [12, 5, 0, 1, 6, 5, 8, 7, 2, 2, 3, 0, 6]
 windows:
   "7d":
-    pushes: 5
+    pushes: 6
     distinct_repos: 2
-    active_days: 3
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 10
+    pushes: 11
     distinct_repos: 5
-    active_days: 8
+    active_days: 9
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 61
-    distinct_repos: 17
-    active_days: 35
+    pushes: 57
+    distinct_repos: 16
+    active_days: 34
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.7429
-  repo_per_active_day: 0.4857
+  push_per_day: 1.6765
+  repo_per_active_day: 0.4706
   not_owned_ratio: 0.0000
-  basename_concentration: 0.0588
+  basename_concentration: 0.0625
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 5
+    pushes: 6
     distinct_repos: 2
-    pushes_per_repo: 2.5000
-    active_days: 3
+    pushes_per_repo: 3.0000
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 10
+    pushes: 11
     distinct_repos: 5
-    pushes_per_repo: 2.0000
-    active_days: 8
+    pushes_per_repo: 2.2000
+    active_days: 9
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 61
-    distinct_repos: 17
-    pushes_per_repo: 3.5882
-    active_days: 35
+    pushes: 57
+    distinct_repos: 16
+    pushes_per_repo: 3.5625
+    active_days: 34
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 35 active days in 90d — pass"
+  - "activity: 34 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "mlx-swift-dots-tts"
@@ -170,6 +170,6 @@ repos:
 
 # sammcj
 
-61 pushes across 17 repositories on 35 active days in the last 90 days of public GitHub push activity.
+57 pushes across 16 repositories on 34 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/sammcj

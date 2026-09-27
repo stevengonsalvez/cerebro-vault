@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-26T06:06:37.922852+00:00"
+generated_at: "2026-09-27T06:09:19.734552+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [7, 2, 3, 2, 1, 2, 7, 0, 0, 0, 0, 3, 5]
+pushes_per_week: [3, 2, 3, 2, 2, 4, 4, 0, 0, 0, 1, 2, 6]
 windows:
   "7d":
     pushes: 6
@@ -22,14 +22,14 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 8
+    pushes: 9
     distinct_repos: 5
-    active_days: 6
+    active_days: 7
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 32
+    pushes: 29
     distinct_repos: 9
     active_days: 20
     repos_not_owned: 4
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.6000
+  push_per_day: 1.4500
   repo_per_active_day: 0.4500
   not_owned_ratio: 0.4444
   basename_concentration: 0.1111
@@ -57,17 +57,17 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 8
+    pushes: 9
     distinct_repos: 5
-    pushes_per_repo: 1.6000
-    active_days: 6
+    pushes_per_repo: 1.8000
+    active_days: 7
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 32
+    pushes: 29
     distinct_repos: 9
-    pushes_per_repo: 3.5556
+    pushes_per_repo: 3.2222
     active_days: 20
     repos_not_owned: 4
     not_owned_basenames: 4
@@ -121,6 +121,6 @@ repos:
 
 # th-dd
 
-32 pushes across 9 repositories on 20 active days in the last 90 days of public GitHub push activity.
+29 pushes across 9 repositories on 20 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/th-dd

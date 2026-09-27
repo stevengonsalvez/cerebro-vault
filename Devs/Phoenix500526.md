@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-26T06:06:37.922852+00:00"
+generated_at: "2026-09-27T06:09:19.734552+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [8, 3, 6, 4, 1, 5, 0, 1, 0, 1, 1, 5, 3]
+pushes_per_week: [8, 3, 5, 4, 2, 4, 0, 1, 0, 1, 3, 3, 3]
 windows:
   "7d":
-    pushes: 4
+    pushes: 3
     distinct_repos: 2
-    active_days: 3
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -29,7 +29,7 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 38
+    pushes: 37
     distinct_repos: 6
     active_days: 29
     repos_not_owned: 0
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.3103
+  push_per_day: 1.2759
   repo_per_active_day: 0.2069
   not_owned_ratio: 0.0000
   basename_concentration: 0.1667
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 4
+    pushes: 3
     distinct_repos: 2
-    pushes_per_repo: 2.0000
-    active_days: 3
+    pushes_per_repo: 1.5000
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -65,9 +65,9 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 38
+    pushes: 37
     distinct_repos: 6
-    pushes_per_repo: 6.3333
+    pushes_per_repo: 6.1667
     active_days: 29
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -129,6 +129,6 @@ repos:
 
 # Phoenix500526
 
-38 pushes across 6 repositories on 29 active days in the last 90 days of public GitHub push activity.
+37 pushes across 6 repositories on 29 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Phoenix500526

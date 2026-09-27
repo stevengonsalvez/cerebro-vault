@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-26T06:06:37.922852+00:00"
+generated_at: "2026-09-27T06:09:19.734552+00:00"
 provenance:
   - "ef17663e884139a8"
-pushes_per_week: [71, 28, 45, 17, 29, 20, 38, 7, 5, 0, 2, 5, 5]
+pushes_per_week: [71, 28, 43, 19, 24, 25, 32, 7, 4, 0, 2, 6, 7]
 windows:
   "7d":
-    pushes: 6
+    pushes: 8
     distinct_repos: 3
-    active_days: 5
+    active_days: 6
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 14
+    pushes: 17
     distinct_repos: 7
-    active_days: 11
+    active_days: 13
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 272
+    pushes: 268
     distinct_repos: 41
-    active_days: 66
+    active_days: 67
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 4.1212
-  repo_per_active_day: 0.6212
+  push_per_day: 4.0000
+  repo_per_active_day: 0.6119
   not_owned_ratio: 0.0976
   basename_concentration: 0.0244
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 6
+    pushes: 8
     distinct_repos: 3
-    pushes_per_repo: 2.0000
-    active_days: 5
+    pushes_per_repo: 2.6667
+    active_days: 6
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 14
+    pushes: 17
     distinct_repos: 7
-    pushes_per_repo: 2.0000
-    active_days: 11
+    pushes_per_repo: 2.4286
+    active_days: 13
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 272
+    pushes: 268
     distinct_repos: 41
-    pushes_per_repo: 6.6341
-    active_days: 66
+    pushes_per_repo: 6.5366
+    active_days: 67
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 66 active days in 90d — pass"
+  - "activity: 67 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "Surge"
@@ -156,6 +156,6 @@ repos:
 
 # SukkaW
 
-272 pushes across 41 repositories on 66 active days in the last 90 days of public GitHub push activity.
+268 pushes across 41 repositories on 67 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/SukkaW

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-26T06:06:37.922852+00:00"
+generated_at: "2026-09-27T06:09:19.734552+00:00"
 provenance:
   - "c1af6b58492f9bf4"
-pushes_per_week: [65, 11, 11, 0, 7, 5, 2, 2, 1, 0, 1, 0, 8]
+pushes_per_week: [64, 6, 11, 0, 7, 5, 2, 2, 1, 0, 1, 3, 7]
 windows:
   "7d":
     pushes: 8
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 9
+    pushes: 11
     distinct_repos: 5
     active_days: 5
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 113
+    pushes: 109
     distinct_repos: 29
-    active_days: 30
+    active_days: 29
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 3.7667
-  repo_per_active_day: 0.9667
+  push_per_day: 3.7586
+  repo_per_active_day: 1.0000
   not_owned_ratio: 0.0345
   basename_concentration: 0.0345
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 9
+    pushes: 11
     distinct_repos: 5
-    pushes_per_repo: 1.8000
+    pushes_per_repo: 2.2000
     active_days: 5
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 113
+    pushes: 109
     distinct_repos: 29
-    pushes_per_repo: 3.8966
-    active_days: 30
+    pushes_per_repo: 3.7586
+    active_days: 29
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 30 active days in 90d — pass"
+  - "activity: 29 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "enodia"
@@ -201,6 +201,6 @@ repos:
 
 # carlosplanchon
 
-113 pushes across 29 repositories on 30 active days in the last 90 days of public GitHub push activity.
+109 pushes across 29 repositories on 29 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/carlosplanchon

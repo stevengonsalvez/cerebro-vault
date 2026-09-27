@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-26T06:06:37.922852+00:00"
+generated_at: "2026-09-27T06:09:19.734552+00:00"
 provenance:
   - "f9d54d6e051498a6"
-pushes_per_week: [24, 25, 8, 4, 8, 4, 7, 1, 9, 0, 1, 8, 26]
+pushes_per_week: [22, 22, 9, 4, 8, 4, 6, 7, 3, 1, 0, 14, 20]
 windows:
   "7d":
     pushes: 26
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 3
   "90d":
-    pushes: 125
+    pushes: 120
     distinct_repos: 15
-    active_days: 45
+    active_days: 44
     repos_not_owned: 7
     not_owned_basenames: 3
     not_owned_owners: 6
 automation:
   state: "clear"
-  push_per_day: 2.7778
-  repo_per_active_day: 0.3333
+  push_per_day: 2.7273
+  repo_per_active_day: 0.3409
   not_owned_ratio: 0.4667
   basename_concentration: 0.4000
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 3
   "90d":
-    pushes: 125
+    pushes: 120
     distinct_repos: 15
-    pushes_per_repo: 8.3333
-    active_days: 45
+    pushes_per_repo: 8.0000
+    active_days: 44
     repos_not_owned: 7
     not_owned_basenames: 3
     not_owned_owners: 6
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 45 active days in 90d — pass"
+  - "activity: 44 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "freellmapi"
@@ -149,6 +149,6 @@ repos:
 
 # tashfeenahmed
 
-125 pushes across 15 repositories on 45 active days in the last 90 days of public GitHub push activity.
+120 pushes across 15 repositories on 44 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/tashfeenahmed

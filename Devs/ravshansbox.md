@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-26T06:06:37.922852+00:00"
+generated_at: "2026-09-27T06:09:19.734552+00:00"
 provenance:
   - "01cd6a498d377caf"
   - "03604cccd7e9402d"
@@ -61,7 +61,7 @@ provenance:
   - "f672838de330e86f"
   - "f9a1870648a6375a"
   - "fe9e50bf2d5b21fe"
-pushes_per_week: [6, 2, 2, 0, 10, 0, 0, 3, 3, 0, 0, 0, 0]
+pushes_per_week: [3, 2, 2, 0, 10, 0, 0, 3, 3, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -78,18 +78,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 26
-    distinct_repos: 14
-    active_days: 10
+    pushes: 23
+    distinct_repos: 13
+    active_days: 9
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.6000
-  repo_per_active_day: 1.4000
+  push_per_day: 2.5556
+  repo_per_active_day: 1.4444
   not_owned_ratio: 0.0000
-  basename_concentration: 0.0714
+  basename_concentration: 0.0769
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -114,16 +114,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 26
-    distinct_repos: 14
-    pushes_per_repo: 1.8571
-    active_days: 10
+    pushes: 23
+    distinct_repos: 13
+    pushes_per_repo: 1.7692
+    active_days: 9
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 50 vault signal(s) — pass"
-  - "activity: 10 active days in 90d — pass"
+  - "activity: 9 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "next-issue"
@@ -180,6 +180,6 @@ repos:
 
 # ravshansbox
 
-26 pushes across 14 repositories on 10 active days in the last 90 days of public GitHub push activity.
+23 pushes across 13 repositories on 9 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ravshansbox

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-26T06:06:37.922852+00:00"
+generated_at: "2026-09-27T06:09:19.734552+00:00"
 provenance:
   - "6d3bd03b49986330"
-pushes_per_week: [24, 11, 22, 14, 0, 0, 0, 8, 4, 1, 2, 1, 18]
+pushes_per_week: [17, 11, 22, 14, 0, 0, 5, 3, 4, 1, 2, 6, 14]
 windows:
   "7d":
     pushes: 19
@@ -22,14 +22,14 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 22
+    pushes: 23
     distinct_repos: 12
-    active_days: 8
+    active_days: 9
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 105
+    pushes: 99
     distinct_repos: 22
     active_days: 19
     repos_not_owned: 1
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 5.5263
+  push_per_day: 5.2105
   repo_per_active_day: 1.1579
   not_owned_ratio: 0.0455
   basename_concentration: 0.0455
@@ -57,17 +57,17 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 22
+    pushes: 23
     distinct_repos: 12
-    pushes_per_repo: 1.8333
-    active_days: 8
+    pushes_per_repo: 1.9167
+    active_days: 9
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 105
+    pushes: 99
     distinct_repos: 22
-    pushes_per_repo: 4.7727
+    pushes_per_repo: 4.5000
     active_days: 19
     repos_not_owned: 1
     not_owned_basenames: 1
@@ -129,6 +129,6 @@ repos:
 
 # kweinmeister
 
-105 pushes across 22 repositories on 19 active days in the last 90 days of public GitHub push activity.
+99 pushes across 22 repositories on 19 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/kweinmeister
