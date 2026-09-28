@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-27T06:09:19.734552+00:00"
+generated_at: "2026-09-28T06:07:44.182865+00:00"
 provenance:
   - "0241e600b90d751e"
-pushes_per_week: [0, 0, 7, 4, 15, 4, 7, 1, 0, 0, 2, 0, 3]
+pushes_per_week: [0, 1, 7, 4, 14, 4, 7, 1, 0, 1, 1, 0, 5]
 windows:
   "7d":
-    pushes: 3
+    pushes: 5
     distinct_repos: 1
-    active_days: 2
+    active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 5
+    pushes: 7
     distinct_repos: 2
-    active_days: 4
+    active_days: 5
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 43
+    pushes: 45
     distinct_repos: 2
-    active_days: 27
+    active_days: 28
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.5926
-  repo_per_active_day: 0.0741
+  push_per_day: 1.6071
+  repo_per_active_day: 0.0714
   not_owned_ratio: 1.0000
   basename_concentration: 0.5000
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 3
+    pushes: 5
     distinct_repos: 1
-    pushes_per_repo: 3.0000
-    active_days: 2
+    pushes_per_repo: 5.0000
+    active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 5
+    pushes: 7
     distinct_repos: 2
-    pushes_per_repo: 2.5000
-    active_days: 4
+    pushes_per_repo: 3.5000
+    active_days: 5
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 43
+    pushes: 45
     distinct_repos: 2
-    pushes_per_repo: 21.5000
-    active_days: 27
+    pushes_per_repo: 22.5000
+    active_days: 28
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 27 active days in 90d — pass"
+  - "activity: 28 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "effect-mini-harness"
@@ -129,6 +129,6 @@ repos:
 
 # anerli
 
-43 pushes across 2 repositories on 27 active days in the last 90 days of public GitHub push activity.
+45 pushes across 2 repositories on 28 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/anerli

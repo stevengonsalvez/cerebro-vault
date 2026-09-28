@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-27T06:09:19.734552+00:00"
+generated_at: "2026-09-28T06:07:44.182865+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [70, 15, 27, 14, 11, 6, 7, 4, 3, 2, 8, 0, 2]
+pushes_per_week: [59, 14, 27, 16, 10, 5, 7, 4, 3, 3, 7, 0, 4]
 windows:
   "7d":
-    pushes: 2
+    pushes: 4
     distinct_repos: 1
-    active_days: 2
+    active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 12
+    pushes: 14
     distinct_repos: 1
-    active_days: 10
+    active_days: 11
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 169
+    pushes: 159
     distinct_repos: 1
     active_days: 49
     repos_not_owned: 1
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 3.4490
+  push_per_day: 3.2449
   repo_per_active_day: 0.0204
   not_owned_ratio: 1.0000
   basename_concentration: 1.0000
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
+    pushes: 4
     distinct_repos: 1
-    pushes_per_repo: 2.0000
-    active_days: 2
+    pushes_per_repo: 4.0000
+    active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 12
+    pushes: 14
     distinct_repos: 1
-    pushes_per_repo: 12.0000
-    active_days: 10
+    pushes_per_repo: 14.0000
+    active_days: 11
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 169
+    pushes: 159
     distinct_repos: 1
-    pushes_per_repo: 169.0000
+    pushes_per_repo: 159.0000
     active_days: 49
     repos_not_owned: 1
     not_owned_basenames: 1
@@ -81,6 +81,6 @@ repos: []
 
 # roboomp
 
-169 pushes across 1 repository on 49 active days in the last 90 days of public GitHub push activity.
+159 pushes across 1 repository on 49 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/roboomp

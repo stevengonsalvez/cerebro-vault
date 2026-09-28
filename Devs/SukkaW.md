@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-27T06:09:19.734552+00:00"
+generated_at: "2026-09-28T06:07:44.182865+00:00"
 provenance:
   - "ef17663e884139a8"
-pushes_per_week: [71, 28, 43, 19, 24, 25, 32, 7, 4, 0, 2, 6, 7]
+pushes_per_week: [55, 32, 38, 22, 22, 27, 28, 7, 4, 0, 2, 6, 10]
 windows:
   "7d":
-    pushes: 8
+    pushes: 10
     distinct_repos: 3
-    active_days: 6
+    active_days: 5
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 17
-    distinct_repos: 7
-    active_days: 13
+    pushes: 18
+    distinct_repos: 5
+    active_days: 11
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 268
-    distinct_repos: 41
-    active_days: 67
+    pushes: 253
+    distinct_repos: 40
+    active_days: 66
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 4.0000
-  repo_per_active_day: 0.6119
-  not_owned_ratio: 0.0976
-  basename_concentration: 0.0244
+  push_per_day: 3.8333
+  repo_per_active_day: 0.6061
+  not_owned_ratio: 0.1000
+  basename_concentration: 0.0250
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 8
+    pushes: 10
     distinct_repos: 3
-    pushes_per_repo: 2.6667
-    active_days: 6
+    pushes_per_repo: 3.3333
+    active_days: 5
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 17
-    distinct_repos: 7
-    pushes_per_repo: 2.4286
-    active_days: 13
+    pushes: 18
+    distinct_repos: 5
+    pushes_per_repo: 3.6000
+    active_days: 11
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 268
-    distinct_repos: 41
-    pushes_per_repo: 6.5366
-    active_days: 67
+    pushes: 253
+    distinct_repos: 40
+    pushes_per_repo: 6.3250
+    active_days: 66
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 67 active days in 90d — pass"
+  - "activity: 66 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "Surge"
@@ -156,6 +156,6 @@ repos:
 
 # SukkaW
 
-268 pushes across 41 repositories on 67 active days in the last 90 days of public GitHub push activity.
+253 pushes across 40 repositories on 66 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/SukkaW

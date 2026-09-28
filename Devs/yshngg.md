@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-27T06:09:19.734552+00:00"
+generated_at: "2026-09-28T06:07:44.182865+00:00"
 provenance:
   - "379642deb53f3714"
-pushes_per_week: [27, 29, 0, 4, 4, 0, 1, 0, 0, 0, 0, 1, 1]
+pushes_per_week: [25, 29, 1, 4, 3, 0, 1, 0, 0, 0, 0, 1, 1]
 windows:
   "7d":
     pushes: 1
@@ -29,7 +29,7 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 67
+    pushes: 65
     distinct_repos: 6
     active_days: 16
     repos_not_owned: 0
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 4.1875
+  push_per_day: 4.0625
   repo_per_active_day: 0.3750
   not_owned_ratio: 0.0000
   basename_concentration: 0.1667
@@ -65,9 +65,9 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 67
+    pushes: 65
     distinct_repos: 6
-    pushes_per_repo: 11.1667
+    pushes_per_repo: 10.8333
     active_days: 16
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -129,6 +129,6 @@ repos:
 
 # yshngg
 
-67 pushes across 6 repositories on 16 active days in the last 90 days of public GitHub push activity.
+65 pushes across 6 repositories on 16 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/yshngg

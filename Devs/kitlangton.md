@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-27T06:09:19.734552+00:00"
+generated_at: "2026-09-28T06:07:44.182865+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [46, 43, 54, 18, 41, 21, 72, 7, 17, 2, 0, 11, 2]
+pushes_per_week: [49, 43, 49, 16, 40, 22, 73, 8, 16, 0, 0, 11, 2]
 windows:
   "7d":
     pushes: 2
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 21
+    pushes: 15
     distinct_repos: 6
-    active_days: 10
+    active_days: 8
     repos_not_owned: 6
     not_owned_basenames: 6
     not_owned_owners: 1
   "90d":
-    pushes: 334
+    pushes: 329
     distinct_repos: 21
-    active_days: 59
+    active_days: 58
     repos_not_owned: 8
     not_owned_basenames: 8
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 5.6610
-  repo_per_active_day: 0.3559
+  push_per_day: 5.6724
+  repo_per_active_day: 0.3621
   not_owned_ratio: 0.3810
   basename_concentration: 0.0952
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 21
+    pushes: 15
     distinct_repos: 6
-    pushes_per_repo: 3.5000
-    active_days: 10
+    pushes_per_repo: 2.5000
+    active_days: 8
     repos_not_owned: 6
     not_owned_basenames: 6
     not_owned_owners: 1
   "90d":
-    pushes: 334
+    pushes: 329
     distinct_repos: 21
-    pushes_per_repo: 15.9048
-    active_days: 59
+    pushes_per_repo: 15.6667
+    active_days: 58
     repos_not_owned: 8
     not_owned_basenames: 8
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 59 active days in 90d — pass"
+  - "activity: 58 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "Hex"
@@ -140,6 +140,6 @@ repos:
 
 # kitlangton
 
-334 pushes across 21 repositories on 59 active days in the last 90 days of public GitHub push activity.
+329 pushes across 21 repositories on 58 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/kitlangton

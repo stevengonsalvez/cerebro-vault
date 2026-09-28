@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-27T06:09:19.734552+00:00"
+generated_at: "2026-09-28T06:07:44.182865+00:00"
 provenance:
   - "8c6014a36ca90e3f"
-pushes_per_week: [44, 10, 11, 8, 4, 29, 36, 10, 34, 10, 90, 266, 190]
+pushes_per_week: [41, 12, 8, 8, 6, 28, 36, 16, 29, 25, 81, 267, 241]
 windows:
   "7d":
-    pushes: 208
-    distinct_repos: 7
+    pushes: 244
+    distinct_repos: 8
     active_days: 7
-    repos_not_owned: 4
-    not_owned_basenames: 4
+    repos_not_owned: 5
+    not_owned_basenames: 5
     not_owned_owners: 2
   "30d":
-    pushes: 559
-    distinct_repos: 9
+    pushes: 616
+    distinct_repos: 10
     active_days: 25
-    repos_not_owned: 6
-    not_owned_basenames: 6
+    repos_not_owned: 7
+    not_owned_basenames: 7
     not_owned_owners: 2
   "90d":
-    pushes: 742
+    pushes: 798
     distinct_repos: 30
     active_days: 66
     repos_not_owned: 20
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 11.2424
+  push_per_day: 12.0909
   repo_per_active_day: 0.4545
   not_owned_ratio: 0.6667
   basename_concentration: 0.0667
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 208
-    distinct_repos: 7
-    pushes_per_repo: 29.7143
+    pushes: 244
+    distinct_repos: 8
+    pushes_per_repo: 30.5000
     active_days: 7
-    repos_not_owned: 4
-    not_owned_basenames: 4
+    repos_not_owned: 5
+    not_owned_basenames: 5
     not_owned_owners: 2
   "30d":
-    pushes: 559
-    distinct_repos: 9
-    pushes_per_repo: 62.1111
+    pushes: 616
+    distinct_repos: 10
+    pushes_per_repo: 61.6000
     active_days: 25
-    repos_not_owned: 6
-    not_owned_basenames: 6
+    repos_not_owned: 7
+    not_owned_basenames: 7
     not_owned_owners: 2
   "90d":
-    pushes: 742
+    pushes: 798
     distinct_repos: 30
-    pushes_per_repo: 24.7333
+    pushes_per_repo: 26.6000
     active_days: 66
     repos_not_owned: 20
     not_owned_basenames: 20
@@ -137,6 +137,6 @@ repos:
 
 # obra
 
-742 pushes across 30 repositories on 66 active days in the last 90 days of public GitHub push activity.
+798 pushes across 30 repositories on 66 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/obra

@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-27T06:09:19.734552+00:00"
+generated_at: "2026-09-28T06:07:44.182865+00:00"
 provenance:
   - "0388a4f55f4206c8"
   - "0577669e18ed3998"
@@ -22,28 +22,29 @@ provenance:
   - "9ba6f4189d8fbd6b"
   - "9f28e3e9d3a9b17b"
   - "a8d513fb104884f5"
+  - "b6ce910accbcbcac"
   - "bca8f082890e2800"
   - "c6b4a874521ceb02"
   - "cf565721454d59f8"
   - "e26852201e6f38fc"
-pushes_per_week: [1, 5, 11, 14, 4, 4, 26, 7, 1, 0, 0, 1, 5]
+pushes_per_week: [1, 6, 15, 11, 4, 2, 30, 3, 1, 0, 0, 1, 6]
 windows:
   "7d":
-    pushes: 5
+    pushes: 6
     distinct_repos: 2
     active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 6
+    pushes: 7
     distinct_repos: 2
     active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 79
+    pushes: 80
     distinct_repos: 11
     active_days: 30
     repos_not_owned: 4
@@ -51,7 +52,7 @@ windows:
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 2.6333
+  push_per_day: 2.6667
   repo_per_active_day: 0.3667
   not_owned_ratio: 0.3636
   basename_concentration: 0.1818
@@ -63,31 +64,31 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 5
+    pushes: 6
     distinct_repos: 2
-    pushes_per_repo: 2.5000
+    pushes_per_repo: 3.0000
     active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 6
+    pushes: 7
     distinct_repos: 2
-    pushes_per_repo: 3.0000
+    pushes_per_repo: 3.5000
     active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 79
+    pushes: 80
     distinct_repos: 11
-    pushes_per_repo: 7.1818
+    pushes_per_repo: 7.2727
     active_days: 30
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 2
 reasons:
-  - "provenance: 15 vault signal(s) — pass"
+  - "provenance: 16 vault signal(s) — pass"
   - "activity: 30 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
@@ -143,6 +144,6 @@ repos:
 
 # fcoury
 
-79 pushes across 11 repositories on 30 active days in the last 90 days of public GitHub push activity.
+80 pushes across 11 repositories on 30 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/fcoury

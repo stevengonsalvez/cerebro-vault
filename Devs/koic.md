@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-27T06:09:19.734552+00:00"
+generated_at: "2026-09-28T06:07:44.182865+00:00"
 provenance:
   - "48dbbdd8fd0d3029"
-pushes_per_week: [24, 9, 16, 3, 4, 3, 8, 3, 1, 0, 1, 5, 3]
+pushes_per_week: [16, 7, 16, 4, 3, 4, 7, 3, 1, 1, 1, 4, 6]
 windows:
   "7d":
-    pushes: 4
+    pushes: 6
     distinct_repos: 3
     active_days: 3
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
   "30d":
-    pushes: 9
+    pushes: 12
     distinct_repos: 4
-    active_days: 7
+    active_days: 8
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 80
+    pushes: 73
     distinct_repos: 17
     active_days: 39
     repos_not_owned: 10
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 4
 automation:
   state: "clear"
-  push_per_day: 2.0513
+  push_per_day: 1.8718
   repo_per_active_day: 0.4359
   not_owned_ratio: 0.5882
   basename_concentration: 0.1176
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 4
+    pushes: 6
     distinct_repos: 3
-    pushes_per_repo: 1.3333
+    pushes_per_repo: 2.0000
     active_days: 3
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
   "30d":
-    pushes: 9
+    pushes: 12
     distinct_repos: 4
-    pushes_per_repo: 2.2500
-    active_days: 7
+    pushes_per_repo: 3.0000
+    active_days: 8
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 80
+    pushes: 73
     distinct_repos: 17
-    pushes_per_repo: 4.7059
+    pushes_per_repo: 4.2941
     active_days: 39
     repos_not_owned: 10
     not_owned_basenames: 10
@@ -141,6 +141,6 @@ repos:
 
 # koic
 
-80 pushes across 17 repositories on 39 active days in the last 90 days of public GitHub push activity.
+73 pushes across 17 repositories on 39 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/koic

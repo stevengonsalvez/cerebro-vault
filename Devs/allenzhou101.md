@@ -10,11 +10,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-27T06:09:19.734552+00:00"
+generated_at: "2026-09-28T06:07:44.182865+00:00"
 provenance:
   - "1f49d0119cedbc84"
   - "82a901da1b9bedec"
-pushes_per_week: [21, 11, 6, 3, 2, 11, 9, 0, 0, 0, 1, 0, 0]
+pushes_per_week: [13, 11, 6, 3, 2, 11, 9, 0, 0, 0, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -31,16 +31,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 64
+    pushes: 56
     distinct_repos: 7
-    active_days: 22
+    active_days: 21
     repos_not_owned: 7
     not_owned_basenames: 7
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 2.9091
-  repo_per_active_day: 0.3182
+  push_per_day: 2.6667
+  repo_per_active_day: 0.3333
   not_owned_ratio: 1.0000
   basename_concentration: 0.1429
   shapes: []
@@ -67,16 +67,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 64
+    pushes: 56
     distinct_repos: 7
-    pushes_per_repo: 9.1429
-    active_days: 22
+    pushes_per_repo: 8.0000
+    active_days: 21
     repos_not_owned: 7
     not_owned_basenames: 7
     not_owned_owners: 2
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 22 active days in 90d — pass"
+  - "activity: 21 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "deeplearning-fall-2025-homework-1"
@@ -131,6 +131,6 @@ repos:
 
 # allenzhou101
 
-64 pushes across 7 repositories on 22 active days in the last 90 days of public GitHub push activity.
+56 pushes across 7 repositories on 21 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/allenzhou101

@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-27T06:09:19.734552+00:00"
+generated_at: "2026-09-28T06:07:44.182865+00:00"
 provenance:
   - "1be978947e68d1f2"
-pushes_per_week: [28, 28, 23, 3, 1, 11, 7, 4, 1, 0, 2, 1, 10]
+pushes_per_week: [28, 26, 22, 1, 1, 16, 3, 3, 1, 0, 2, 3, 9]
 windows:
   "7d":
-    pushes: 10
+    pushes: 9
     distinct_repos: 1
     active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 13
+    pushes: 14
     distinct_repos: 4
-    active_days: 7
+    active_days: 8
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 119
+    pushes: 115
     distinct_repos: 5
     active_days: 38
     repos_not_owned: 0
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 3.1316
+  push_per_day: 3.0263
   repo_per_active_day: 0.1316
   not_owned_ratio: 0.0000
   basename_concentration: 0.2000
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 10
+    pushes: 9
     distinct_repos: 1
-    pushes_per_repo: 10.0000
+    pushes_per_repo: 9.0000
     active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 13
+    pushes: 14
     distinct_repos: 4
-    pushes_per_repo: 3.2500
-    active_days: 7
+    pushes_per_repo: 3.5000
+    active_days: 8
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 119
+    pushes: 115
     distinct_repos: 5
-    pushes_per_repo: 23.8000
+    pushes_per_repo: 23.0000
     active_days: 38
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -178,6 +178,6 @@ repos:
 
 # TomerAberbach
 
-119 pushes across 5 repositories on 38 active days in the last 90 days of public GitHub push activity.
+115 pushes across 5 repositories on 38 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/TomerAberbach

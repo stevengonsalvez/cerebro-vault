@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-27T06:09:19.734552+00:00"
+generated_at: "2026-09-28T06:07:44.182865+00:00"
 provenance:
   - "46f3c1d6124190bd"
-pushes_per_week: [23, 20, 19, 39, 9, 3, 0, 1, 0, 0, 0, 7, 1]
+pushes_per_week: [14, 21, 24, 34, 8, 3, 0, 1, 0, 0, 0, 7, 1]
 windows:
   "7d":
     pushes: 1
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 122
-    distinct_repos: 35
+    pushes: 113
+    distinct_repos: 34
     active_days: 31
     repos_not_owned: 6
     not_owned_basenames: 6
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 3.9355
-  repo_per_active_day: 1.1290
-  not_owned_ratio: 0.1714
-  basename_concentration: 0.0571
+  push_per_day: 3.6452
+  repo_per_active_day: 1.0968
+  not_owned_ratio: 0.1765
+  basename_concentration: 0.0588
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,9 +65,9 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 122
-    distinct_repos: 35
-    pushes_per_repo: 3.4857
+    pushes: 113
+    distinct_repos: 34
+    pushes_per_repo: 3.3235
     active_days: 31
     repos_not_owned: 6
     not_owned_basenames: 6
@@ -129,6 +129,6 @@ repos:
 
 # ojusave
 
-122 pushes across 35 repositories on 31 active days in the last 90 days of public GitHub push activity.
+113 pushes across 34 repositories on 31 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ojusave

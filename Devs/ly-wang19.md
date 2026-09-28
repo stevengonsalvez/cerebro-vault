@@ -10,11 +10,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-27T06:09:19.734552+00:00"
+generated_at: "2026-09-28T06:07:44.182865+00:00"
 provenance:
   - "16389f32495280ea"
   - "541318303a272608"
-pushes_per_week: [29, 0, 6, 1, 0, 1, 3, 0, 1, 0, 0, 0, 0]
+pushes_per_week: [13, 0, 6, 1, 0, 1, 3, 0, 1, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -24,25 +24,25 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 41
-    distinct_repos: 6
-    active_days: 11
+    pushes: 25
+    distinct_repos: 5
+    active_days: 10
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 3.7273
-  repo_per_active_day: 0.5455
+  push_per_day: 2.5000
+  repo_per_active_day: 0.5000
   not_owned_ratio: 0.0000
-  basename_concentration: 0.1667
+  basename_concentration: 0.2000
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -59,24 +59,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 41
-    distinct_repos: 6
-    pushes_per_repo: 6.8333
-    active_days: 11
+    pushes: 25
+    distinct_repos: 5
+    pushes_per_repo: 5.0000
+    active_days: 10
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 11 active days in 90d — pass"
+  - "activity: 10 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "engram"
@@ -136,6 +136,6 @@ repos:
 
 # ly-wang19
 
-41 pushes across 6 repositories on 11 active days in the last 90 days of public GitHub push activity.
+25 pushes across 5 repositories on 10 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ly-wang19

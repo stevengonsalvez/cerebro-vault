@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-27T06:09:19.734552+00:00"
+generated_at: "2026-09-28T06:07:44.182865+00:00"
 provenance:
   - "48dbbdd8fd0d3029"
-pushes_per_week: [10, 32, 123, 53, 49, 28, 66, 19, 14, 1, 14, 39, 25]
+pushes_per_week: [16, 32, 120, 57, 48, 27, 65, 15, 15, 2, 13, 47, 23]
 windows:
   "7d":
-    pushes: 36
+    pushes: 32
     distinct_repos: 2
     active_days: 7
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 82
+    pushes: 87
     distinct_repos: 4
     active_days: 22
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 1
   "90d":
-    pushes: 473
+    pushes: 480
     distinct_repos: 6
-    active_days: 71
+    active_days: 72
     repos_not_owned: 6
     not_owned_basenames: 6
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 6.6620
-  repo_per_active_day: 0.0845
+  push_per_day: 6.6667
+  repo_per_active_day: 0.0833
   not_owned_ratio: 1.0000
   basename_concentration: 0.1667
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 36
+    pushes: 32
     distinct_repos: 2
-    pushes_per_repo: 18.0000
+    pushes_per_repo: 16.0000
     active_days: 7
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 82
+    pushes: 87
     distinct_repos: 4
-    pushes_per_repo: 20.5000
+    pushes_per_repo: 21.7500
     active_days: 22
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 1
   "90d":
-    pushes: 473
+    pushes: 480
     distinct_repos: 6
-    pushes_per_repo: 78.8333
-    active_days: 71
+    pushes_per_repo: 80.0000
+    active_days: 72
     repos_not_owned: 6
     not_owned_basenames: 6
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 71 active days in 90d — pass"
+  - "activity: 72 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "mike-dotfiles"
@@ -89,6 +89,6 @@ repos:
 
 # ibetitsmike
 
-473 pushes across 6 repositories on 71 active days in the last 90 days of public GitHub push activity.
+480 pushes across 6 repositories on 72 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ibetitsmike

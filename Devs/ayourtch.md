@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-27T06:09:19.734552+00:00"
+generated_at: "2026-09-28T06:07:44.182865+00:00"
 provenance:
   - "3eacb4655aba2497"
-pushes_per_week: [5, 10, 5, 4, 12, 23, 19, 0, 1, 0, 0, 3, 2]
+pushes_per_week: [4, 9, 5, 4, 11, 33, 9, 1, 0, 0, 0, 3, 2]
 windows:
   "7d":
-    pushes: 3
+    pushes: 2
     distinct_repos: 2
-    active_days: 3
+    active_days: 2
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 84
+    pushes: 81
     distinct_repos: 13
-    active_days: 30
+    active_days: 29
     repos_not_owned: 10
     not_owned_basenames: 10
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 2.8000
-  repo_per_active_day: 0.4333
+  push_per_day: 2.7931
+  repo_per_active_day: 0.4483
   not_owned_ratio: 0.7692
   basename_concentration: 0.0769
   shapes: []
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 3
+    pushes: 2
     distinct_repos: 2
-    pushes_per_repo: 1.5000
-    active_days: 3
+    pushes_per_repo: 1.0000
+    active_days: 2
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 84
+    pushes: 81
     distinct_repos: 13
-    pushes_per_repo: 6.4615
-    active_days: 30
+    pushes_per_repo: 6.2308
+    active_days: 29
     repos_not_owned: 10
     not_owned_basenames: 10
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 30 active days in 90d — pass"
+  - "activity: 29 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "vpp-relops"
@@ -129,6 +129,6 @@ repos:
 
 # ayourtch
 
-84 pushes across 13 repositories on 30 active days in the last 90 days of public GitHub push activity.
+81 pushes across 13 repositories on 29 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ayourtch

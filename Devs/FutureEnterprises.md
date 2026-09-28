@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-27T06:09:19.734552+00:00"
+generated_at: "2026-09-28T06:07:44.182865+00:00"
 provenance:
   - "b7bec34541d2ddb0"
-pushes_per_week: [72, 36, 41, 31, 23, 14, 27, 14, 2, 1, 5, 0, 21]
+pushes_per_week: [63, 27, 48, 26, 20, 16, 32, 8, 2, 0, 5, 0, 23]
 windows:
   "7d":
-    pushes: 21
+    pushes: 23
     distinct_repos: 1
-    active_days: 5
+    active_days: 6
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 28
+    pushes: 30
     distinct_repos: 2
-    active_days: 9
+    active_days: 10
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
   "90d":
-    pushes: 287
+    pushes: 270
     distinct_repos: 5
     active_days: 58
     repos_not_owned: 2
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 4.9483
+  push_per_day: 4.6552
   repo_per_active_day: 0.0862
   not_owned_ratio: 0.4000
   basename_concentration: 0.4000
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 21
+    pushes: 23
     distinct_repos: 1
-    pushes_per_repo: 21.0000
-    active_days: 5
+    pushes_per_repo: 23.0000
+    active_days: 6
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 28
+    pushes: 30
     distinct_repos: 2
-    pushes_per_repo: 14.0000
-    active_days: 9
+    pushes_per_repo: 15.0000
+    active_days: 10
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
   "90d":
-    pushes: 287
+    pushes: 270
     distinct_repos: 5
-    pushes_per_repo: 57.4000
+    pushes_per_repo: 54.0000
     active_days: 58
     repos_not_owned: 2
     not_owned_basenames: 1
@@ -105,6 +105,6 @@ repos:
 
 # FutureEnterprises
 
-287 pushes across 5 repositories on 58 active days in the last 90 days of public GitHub push activity.
+270 pushes across 5 repositories on 58 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/FutureEnterprises

@@ -11,12 +11,12 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-27T06:09:19.734552+00:00"
+generated_at: "2026-09-28T06:07:44.182865+00:00"
 provenance:
   - "73468cde177ddae6"
   - "745308b2b7085095"
   - "dc9094c987231bcf"
-pushes_per_week: [7, 4, 0, 0, 0, 0, 0, 0, 1, 5, 12, 0, 0]
+pushes_per_week: [8, 2, 0, 0, 0, 0, 0, 0, 1, 12, 5, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -33,16 +33,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 29
+    pushes: 28
     distinct_repos: 10
-    active_days: 12
+    active_days: 11
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.4167
-  repo_per_active_day: 0.8333
+  push_per_day: 2.5455
+  repo_per_active_day: 0.9091
   not_owned_ratio: 0.0000
   basename_concentration: 0.1000
   shapes: []
@@ -69,16 +69,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 29
+    pushes: 28
     distinct_repos: 10
-    pushes_per_repo: 2.9000
-    active_days: 12
+    pushes_per_repo: 2.8000
+    active_days: 11
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 3 vault signal(s) — pass"
-  - "activity: 12 active days in 90d — pass"
+  - "activity: 11 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "ketpatil77"
@@ -133,6 +133,6 @@ repos:
 
 # ketpatil77
 
-29 pushes across 10 repositories on 12 active days in the last 90 days of public GitHub push activity.
+28 pushes across 10 repositories on 11 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ketpatil77

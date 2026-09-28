@@ -10,11 +10,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-27T06:09:19.734552+00:00"
+generated_at: "2026-09-28T06:07:44.182865+00:00"
 provenance:
   - "229b322ed982d40b"
   - "c4281af03270173b"
-pushes_per_week: [5, 0, 2, 5, 21, 5, 0, 1, 0, 0, 0, 4, 5]
+pushes_per_week: [1, 0, 2, 6, 20, 5, 0, 1, 0, 0, 0, 4, 5]
 windows:
   "7d":
     pushes: 5
@@ -31,16 +31,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 48
+    pushes: 44
     distinct_repos: 12
-    active_days: 20
+    active_days: 19
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 2.4000
-  repo_per_active_day: 0.6000
+  push_per_day: 2.3158
+  repo_per_active_day: 0.6316
   not_owned_ratio: 0.4167
   basename_concentration: 0.1667
   shapes: []
@@ -67,16 +67,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 48
+    pushes: 44
     distinct_repos: 12
-    pushes_per_repo: 4.0000
-    active_days: 20
+    pushes_per_repo: 3.6667
+    active_days: 19
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 2
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 20 active days in 90d — pass"
+  - "activity: 19 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "jev-copilotkit"
@@ -146,6 +146,6 @@ repos:
 
 # jerelvelarde
 
-48 pushes across 12 repositories on 20 active days in the last 90 days of public GitHub push activity.
+44 pushes across 12 repositories on 19 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/jerelvelarde

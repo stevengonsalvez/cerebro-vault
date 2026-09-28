@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-27T06:09:19.734552+00:00"
+generated_at: "2026-09-28T06:07:44.182865+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [3, 0, 16, 2, 0, 0, 2, 1, 3, 0, 7, 1, 0]
+pushes_per_week: [0, 0, 16, 2, 0, 0, 2, 1, 3, 2, 5, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 8
     not_owned_owners: 1
   "90d":
-    pushes: 35
+    pushes: 32
     distinct_repos: 22
-    active_days: 13
+    active_days: 12
     repos_not_owned: 18
     not_owned_basenames: 18
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.6923
-  repo_per_active_day: 1.6923
+  push_per_day: 2.6667
+  repo_per_active_day: 1.8333
   not_owned_ratio: 0.8182
   basename_concentration: 0.0455
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 8
     not_owned_owners: 1
   "90d":
-    pushes: 35
+    pushes: 32
     distinct_repos: 22
-    pushes_per_repo: 1.5909
-    active_days: 13
+    pushes_per_repo: 1.4545
+    active_days: 12
     repos_not_owned: 18
     not_owned_basenames: 18
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 13 active days in 90d — pass"
+  - "activity: 12 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "rikune"
@@ -129,6 +129,6 @@ repos:
 
 # Last-emo-boy
 
-35 pushes across 22 repositories on 13 active days in the last 90 days of public GitHub push activity.
+32 pushes across 22 repositories on 12 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Last-emo-boy

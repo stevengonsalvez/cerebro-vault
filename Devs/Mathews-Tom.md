@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-27T06:09:19.734552+00:00"
+generated_at: "2026-09-28T06:07:44.182865+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [186, 93, 88, 52, 133, 4, 36, 1, 2, 3, 3, 25, 1]
+pushes_per_week: [190, 80, 101, 87, 84, 2, 37, 1, 1, 3, 3, 25, 2]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
+    pushes: 2
+    distinct_repos: 2
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 32
+    pushes: 33
     distinct_repos: 4
-    active_days: 8
+    active_days: 9
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 627
+    pushes: 616
     distinct_repos: 15
     active_days: 51
     repos_not_owned: 0
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 12.2941
+  push_per_day: 12.0784
   repo_per_active_day: 0.2941
   not_owned_ratio: 0.0000
   basename_concentration: 0.1333
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
+    pushes: 2
+    distinct_repos: 2
     pushes_per_repo: 1.0000
-    active_days: 1
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 32
+    pushes: 33
     distinct_repos: 4
-    pushes_per_repo: 8.0000
-    active_days: 8
+    pushes_per_repo: 8.2500
+    active_days: 9
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 627
+    pushes: 616
     distinct_repos: 15
-    pushes_per_repo: 41.8000
+    pushes_per_repo: 41.0667
     active_days: 51
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -152,6 +152,6 @@ repos:
 
 # Mathews-Tom
 
-627 pushes across 15 repositories on 51 active days in the last 90 days of public GitHub push activity.
+616 pushes across 15 repositories on 51 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Mathews-Tom

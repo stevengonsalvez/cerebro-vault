@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-27T06:09:19.734552+00:00"
+generated_at: "2026-09-28T06:07:44.182865+00:00"
 provenance:
   - "01cd6a498d377caf"
   - "03604cccd7e9402d"
@@ -61,24 +61,24 @@ provenance:
   - "f672838de330e86f"
   - "f9a1870648a6375a"
   - "fe9e50bf2d5b21fe"
-pushes_per_week: [20, 11, 13, 5, 5, 0, 2, 3, 4, 0, 1, 2, 2]
+pushes_per_week: [22, 10, 12, 5, 4, 0, 2, 6, 1, 0, 2, 1, 7]
 windows:
   "7d":
-    pushes: 2
+    pushes: 7
     distinct_repos: 1
-    active_days: 2
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 5
+    pushes: 10
     distinct_repos: 1
-    active_days: 5
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 68
+    pushes: 72
     distinct_repos: 2
     active_days: 35
     repos_not_owned: 0
@@ -86,7 +86,7 @@ windows:
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.9429
+  push_per_day: 2.0571
   repo_per_active_day: 0.0571
   not_owned_ratio: 0.0000
   basename_concentration: 0.5000
@@ -98,25 +98,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
+    pushes: 7
     distinct_repos: 1
-    pushes_per_repo: 2.0000
-    active_days: 2
+    pushes_per_repo: 7.0000
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 5
+    pushes: 10
     distinct_repos: 1
-    pushes_per_repo: 5.0000
-    active_days: 5
+    pushes_per_repo: 10.0000
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 68
+    pushes: 72
     distinct_repos: 2
-    pushes_per_repo: 34.0000
+    pushes_per_repo: 36.0000
     active_days: 35
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -181,6 +181,6 @@ repos:
 
 # jamestrew
 
-68 pushes across 2 repositories on 35 active days in the last 90 days of public GitHub push activity.
+72 pushes across 2 repositories on 35 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/jamestrew

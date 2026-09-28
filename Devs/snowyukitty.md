@@ -10,11 +10,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-27T06:09:19.734552+00:00"
+generated_at: "2026-09-28T06:07:44.182865+00:00"
 provenance:
   - "386c24cf5e18fd90"
   - "9e2ff10d772b1e71"
-pushes_per_week: [2, 1, 3, 9, 3, 6, 6, 2, 2, 0, 1, 0, 0]
+pushes_per_week: [1, 2, 2, 9, 4, 7, 4, 3, 1, 1, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -31,18 +31,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 35
-    distinct_repos: 19
-    active_days: 28
+    pushes: 34
+    distinct_repos: 18
+    active_days: 27
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.2500
-  repo_per_active_day: 0.6786
+  push_per_day: 1.2593
+  repo_per_active_day: 0.6667
   not_owned_ratio: 0.0000
-  basename_concentration: 0.0526
+  basename_concentration: 0.0556
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -67,16 +67,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 35
-    distinct_repos: 19
-    pushes_per_repo: 1.8421
-    active_days: 28
+    pushes: 34
+    distinct_repos: 18
+    pushes_per_repo: 1.8889
+    active_days: 27
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 28 active days in 90d — pass"
+  - "activity: 27 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "nfcraft"
@@ -193,6 +193,6 @@ repos:
 
 # snowyukitty
 
-35 pushes across 19 repositories on 28 active days in the last 90 days of public GitHub push activity.
+34 pushes across 18 repositories on 27 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/snowyukitty

@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-27T06:09:19.734552+00:00"
+generated_at: "2026-09-28T06:07:44.182865+00:00"
 provenance:
   - "379642deb53f3714"
-pushes_per_week: [6, 6, 11, 3, 2, 2, 6, 1, 0, 0, 0, 1, 7]
+pushes_per_week: [6, 5, 11, 2, 3, 2, 6, 0, 0, 0, 1, 3, 4]
 windows:
   "7d":
-    pushes: 7
+    pushes: 4
     distinct_repos: 1
-    active_days: 4
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 45
+    pushes: 43
     distinct_repos: 7
-    active_days: 30
+    active_days: 29
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.5000
-  repo_per_active_day: 0.2333
+  push_per_day: 1.4828
+  repo_per_active_day: 0.2414
   not_owned_ratio: 0.1429
   basename_concentration: 0.1429
   shapes: []
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 7
+    pushes: 4
     distinct_repos: 1
-    pushes_per_repo: 7.0000
-    active_days: 4
+    pushes_per_repo: 4.0000
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 45
+    pushes: 43
     distinct_repos: 7
-    pushes_per_repo: 6.4286
-    active_days: 30
+    pushes_per_repo: 6.1429
+    active_days: 29
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 30 active days in 90d — pass"
+  - "activity: 29 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "dotfiles"
@@ -137,6 +137,6 @@ repos:
 
 # liby
 
-45 pushes across 7 repositories on 30 active days in the last 90 days of public GitHub push activity.
+43 pushes across 7 repositories on 29 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/liby

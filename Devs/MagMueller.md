@@ -11,37 +11,37 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-27T06:09:19.734552+00:00"
+generated_at: "2026-09-28T06:07:44.182865+00:00"
 provenance:
   - "c1af6b58492f9bf4"
   - "ddd7486148a91958"
-pushes_per_week: [0, 1, 1, 12, 4, 5, 7, 4, 1, 1, 4, 2, 4]
+pushes_per_week: [0, 1, 1, 12, 9, 0, 7, 4, 2, 3, 1, 2, 5]
 windows:
   "7d":
-    pushes: 4
-    distinct_repos: 2
-    active_days: 2
+    pushes: 5
+    distinct_repos: 3
+    active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 12
-    distinct_repos: 9
-    active_days: 7
+    pushes: 13
+    distinct_repos: 10
+    active_days: 8
     repos_not_owned: 6
     not_owned_basenames: 3
     not_owned_owners: 4
   "90d":
-    pushes: 46
+    pushes: 47
     distinct_repos: 12
-    active_days: 18
+    active_days: 19
     repos_not_owned: 8
     not_owned_basenames: 5
     not_owned_owners: 4
 automation:
   state: "clear"
-  push_per_day: 2.5556
-  repo_per_active_day: 0.6667
+  push_per_day: 2.4737
+  repo_per_active_day: 0.6316
   not_owned_ratio: 0.6667
   basename_concentration: 0.4167
   shapes: []
@@ -52,32 +52,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 4
-    distinct_repos: 2
-    pushes_per_repo: 2.0000
-    active_days: 2
+    pushes: 5
+    distinct_repos: 3
+    pushes_per_repo: 1.6667
+    active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 12
-    distinct_repos: 9
-    pushes_per_repo: 1.3333
-    active_days: 7
+    pushes: 13
+    distinct_repos: 10
+    pushes_per_repo: 1.3000
+    active_days: 8
     repos_not_owned: 6
     not_owned_basenames: 3
     not_owned_owners: 4
   "90d":
-    pushes: 46
+    pushes: 47
     distinct_repos: 12
-    pushes_per_repo: 3.8333
-    active_days: 18
+    pushes_per_repo: 3.9167
+    active_days: 19
     repos_not_owned: 8
     not_owned_basenames: 5
     not_owned_owners: 4
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 18 active days in 90d — pass"
+  - "activity: 19 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "sensor-calibration"
@@ -132,6 +132,6 @@ repos:
 
 # MagMueller
 
-46 pushes across 12 repositories on 18 active days in the last 90 days of public GitHub push activity.
+47 pushes across 12 repositories on 19 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/MagMueller

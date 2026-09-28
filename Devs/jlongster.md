@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-27T06:09:19.734552+00:00"
+generated_at: "2026-09-28T06:07:44.182865+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [67, 20, 12, 19, 4, 1, 4, 0, 8, 0, 0, 5, 0]
+pushes_per_week: [40, 20, 17, 14, 4, 1, 4, 0, 8, 0, 0, 5, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 140
+    pushes: 113
     distinct_repos: 8
-    active_days: 27
+    active_days: 26
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 5.1852
-  repo_per_active_day: 0.2963
+  push_per_day: 4.3462
+  repo_per_active_day: 0.3077
   not_owned_ratio: 0.5000
   basename_concentration: 0.1250
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 140
+    pushes: 113
     distinct_repos: 8
-    pushes_per_repo: 17.5000
-    active_days: 27
+    pushes_per_repo: 14.1250
+    active_days: 26
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 27 active days in 90d — pass"
+  - "activity: 26 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "absurd-sql"
@@ -129,6 +129,6 @@ repos:
 
 # jlongster
 
-140 pushes across 8 repositories on 27 active days in the last 90 days of public GitHub push activity.
+113 pushes across 8 repositories on 26 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/jlongster

@@ -10,36 +10,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-27T06:09:19.734552+00:00"
+generated_at: "2026-09-28T06:07:44.182865+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [32, 13, 17, 15, 19, 15, 41, 8, 7, 0, 0, 1, 6]
+pushes_per_week: [32, 14, 19, 14, 20, 14, 39, 14, 1, 0, 0, 1, 8]
 windows:
   "7d":
-    pushes: 6
-    distinct_repos: 2
-    active_days: 4
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
-  "30d":
-    pushes: 7
+    pushes: 8
     distinct_repos: 2
     active_days: 5
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
+  "30d":
+    pushes: 9
+    distinct_repos: 2
+    active_days: 6
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "90d":
-    pushes: 174
+    pushes: 176
     distinct_repos: 20
-    active_days: 37
+    active_days: 38
     repos_not_owned: 15
     not_owned_basenames: 4
     not_owned_owners: 14
 automation:
   state: "clear"
-  push_per_day: 4.7027
-  repo_per_active_day: 0.5405
+  push_per_day: 4.6316
+  repo_per_active_day: 0.5263
   not_owned_ratio: 0.7500
   basename_concentration: 0.6000
   shapes:
@@ -66,32 +66,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 6
+    pushes: 8
     distinct_repos: 2
-    pushes_per_repo: 3.0000
-    active_days: 4
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
-  "30d":
-    pushes: 7
-    distinct_repos: 2
-    pushes_per_repo: 3.5000
+    pushes_per_repo: 4.0000
     active_days: 5
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
+  "30d":
+    pushes: 9
+    distinct_repos: 2
+    pushes_per_repo: 4.5000
+    active_days: 6
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "90d":
-    pushes: 174
+    pushes: 176
     distinct_repos: 20
-    pushes_per_repo: 8.7000
-    active_days: 37
+    pushes_per_repo: 8.8000
+    active_days: 38
     repos_not_owned: 15
     not_owned_basenames: 4
     not_owned_owners: 14
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 37 active days in 90d — pass"
+  - "activity: 38 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "opencli-mcp"
@@ -153,6 +153,6 @@ repos:
 
 # jackwener
 
-174 pushes across 20 repositories on 37 active days in the last 90 days of public GitHub push activity.
+176 pushes across 20 repositories on 38 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/jackwener

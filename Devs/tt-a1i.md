@@ -11,37 +11,37 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-27T06:09:19.734552+00:00"
+generated_at: "2026-09-28T06:07:44.182865+00:00"
 provenance:
   - "26de699d3e5c651e"
   - "4d1450729e6ff44d"
-pushes_per_week: [4, 5, 7, 13, 11, 1, 7, 11, 8, 0, 11, 14, 13]
+pushes_per_week: [5, 4, 7, 15, 9, 1, 7, 14, 5, 2, 10, 13, 15]
 windows:
   "7d":
-    pushes: 18
+    pushes: 15
     distinct_repos: 7
     active_days: 7
     repos_not_owned: 5
     not_owned_basenames: 2
     not_owned_owners: 5
   "30d":
-    pushes: 42
+    pushes: 43
     distinct_repos: 17
     active_days: 18
     repos_not_owned: 13
     not_owned_basenames: 2
     not_owned_owners: 13
   "90d":
-    pushes: 105
+    pushes: 107
     distinct_repos: 29
-    active_days: 43
+    active_days: 44
     repos_not_owned: 16
     not_owned_basenames: 4
     not_owned_owners: 16
 automation:
   state: "clear"
-  push_per_day: 2.4419
-  repo_per_active_day: 0.6744
+  push_per_day: 2.4318
+  repo_per_active_day: 0.6591
   not_owned_ratio: 0.5517
   basename_concentration: 0.3448
   shapes: []
@@ -52,32 +52,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 18
+    pushes: 15
     distinct_repos: 7
-    pushes_per_repo: 2.5714
+    pushes_per_repo: 2.1429
     active_days: 7
     repos_not_owned: 5
     not_owned_basenames: 2
     not_owned_owners: 5
   "30d":
-    pushes: 42
+    pushes: 43
     distinct_repos: 17
-    pushes_per_repo: 2.4706
+    pushes_per_repo: 2.5294
     active_days: 18
     repos_not_owned: 13
     not_owned_basenames: 2
     not_owned_owners: 13
   "90d":
-    pushes: 105
+    pushes: 107
     distinct_repos: 29
-    pushes_per_repo: 3.6207
-    active_days: 43
+    pushes_per_repo: 3.6897
+    active_days: 44
     repos_not_owned: 16
     not_owned_basenames: 4
     not_owned_owners: 16
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 43 active days in 90d — pass"
+  - "activity: 44 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "archify"
@@ -197,6 +197,6 @@ repos:
 
 # tt-a1i
 
-105 pushes across 29 repositories on 43 active days in the last 90 days of public GitHub push activity.
+107 pushes across 29 repositories on 44 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/tt-a1i

@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-27T06:09:19.734552+00:00"
+generated_at: "2026-09-28T06:07:44.182865+00:00"
 provenance:
   - "dae9f02535f7c22f"
-pushes_per_week: [179, 65, 84, 60, 90, 40, 90, 10, 13, 1, 19, 101, 125]
+pushes_per_week: [169, 69, 91, 53, 88, 43, 82, 10, 13, 4, 24, 101, 159]
 windows:
   "7d":
-    pushes: 136
+    pushes: 168
     distinct_repos: 57
     active_days: 7
     repos_not_owned: 55
     not_owned_basenames: 55
     not_owned_owners: 1
   "30d":
-    pushes: 250
-    distinct_repos: 77
+    pushes: 291
+    distinct_repos: 78
     active_days: 23
-    repos_not_owned: 72
-    not_owned_basenames: 71
+    repos_not_owned: 73
+    not_owned_basenames: 72
     not_owned_owners: 2
   "90d":
-    pushes: 877
+    pushes: 906
     distinct_repos: 124
     active_days: 80
     repos_not_owned: 111
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 10.9625
+  push_per_day: 11.3250
   repo_per_active_day: 1.5500
   not_owned_ratio: 0.8952
   basename_concentration: 0.0161
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 136
+    pushes: 168
     distinct_repos: 57
-    pushes_per_repo: 2.3860
+    pushes_per_repo: 2.9474
     active_days: 7
     repos_not_owned: 55
     not_owned_basenames: 55
     not_owned_owners: 1
   "30d":
-    pushes: 250
-    distinct_repos: 77
-    pushes_per_repo: 3.2468
+    pushes: 291
+    distinct_repos: 78
+    pushes_per_repo: 3.7308
     active_days: 23
-    repos_not_owned: 72
-    not_owned_basenames: 71
+    repos_not_owned: 73
+    not_owned_basenames: 72
     not_owned_owners: 2
   "90d":
-    pushes: 877
+    pushes: 906
     distinct_repos: 124
-    pushes_per_repo: 7.0726
+    pushes_per_repo: 7.3065
     active_days: 80
     repos_not_owned: 111
     not_owned_basenames: 110
@@ -161,6 +161,6 @@ repos:
 
 # CybotTM
 
-877 pushes across 124 repositories on 80 active days in the last 90 days of public GitHub push activity.
+906 pushes across 124 repositories on 80 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/CybotTM

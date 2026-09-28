@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-26T06:06:37.922852+00:00"
+generated_at: "2026-09-28T06:07:44.182865+00:00"
 provenance:
   - "379642deb53f3714"
-pushes_per_week: [4, 4, 2, 1, 2, 3, 4, 0, 0, 0, 0, 3, 4]
+pushes_per_week: [4, 3, 1, 1, 2, 3, 4, 0, 0, 0, 0, 4, 3]
 windows:
   "7d":
     pushes: 4
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 27
+    pushes: 25
     distinct_repos: 2
-    active_days: 20
+    active_days: 19
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 1.3500
-  repo_per_active_day: 0.1000
+  push_per_day: 1.3158
+  repo_per_active_day: 0.1053
   not_owned_ratio: 1.0000
   basename_concentration: 0.5000
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 27
+    pushes: 25
     distinct_repos: 2
-    pushes_per_repo: 13.5000
-    active_days: 20
+    pushes_per_repo: 12.5000
+    active_days: 19
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 20 active days in 90d — pass"
+  - "activity: 19 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "Lightning00Blade"
@@ -123,6 +123,6 @@ repos:
 
 # Lightning00Blade
 
-27 pushes across 2 repositories on 20 active days in the last 90 days of public GitHub push activity.
+25 pushes across 2 repositories on 19 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Lightning00Blade

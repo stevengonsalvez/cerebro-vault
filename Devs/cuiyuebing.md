@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-27T06:09:19.734552+00:00"
+generated_at: "2026-09-28T06:07:44.182865+00:00"
 provenance:
   - "541318303a272608"
-pushes_per_week: [16, 7, 9, 5, 4, 4, 9, 2, 3, 1, 0, 1, 3]
+pushes_per_week: [12, 8, 8, 5, 4, 6, 7, 4, 2, 0, 0, 1, 3]
 windows:
   "7d":
     pushes: 3
@@ -29,7 +29,7 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 64
+    pushes: 60
     distinct_repos: 2
     active_days: 28
     repos_not_owned: 1
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.2857
+  push_per_day: 2.1429
   repo_per_active_day: 0.0714
   not_owned_ratio: 0.5000
   basename_concentration: 1.0000
@@ -65,9 +65,9 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 64
+    pushes: 60
     distinct_repos: 2
-    pushes_per_repo: 32.0000
+    pushes_per_repo: 30.0000
     active_days: 28
     repos_not_owned: 1
     not_owned_basenames: 1
@@ -129,6 +129,6 @@ repos:
 
 # cuiyuebing
 
-64 pushes across 2 repositories on 28 active days in the last 90 days of public GitHub push activity.
+60 pushes across 2 repositories on 28 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/cuiyuebing

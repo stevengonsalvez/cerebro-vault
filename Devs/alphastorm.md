@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-27T06:09:19.734552+00:00"
+generated_at: "2026-09-28T06:07:44.182865+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [0, 0, 1, 19, 6, 1, 0, 4, 2, 0, 19, 16, 24]
+pushes_per_week: [0, 1, 9, 11, 5, 1, 0, 4, 2, 0, 19, 18, 26]
 windows:
   "7d":
-    pushes: 25
-    distinct_repos: 5
-    active_days: 7
+    pushes: 26
+    distinct_repos: 6
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 60
-    distinct_repos: 6
+    pushes: 64
+    distinct_repos: 7
     active_days: 15
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 92
-    distinct_repos: 9
+    pushes: 96
+    distinct_repos: 10
     active_days: 31
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.9677
-  repo_per_active_day: 0.2903
+  push_per_day: 3.0968
+  repo_per_active_day: 0.3226
   not_owned_ratio: 0.0000
-  basename_concentration: 0.1111
+  basename_concentration: 0.1000
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 25
-    distinct_repos: 5
-    pushes_per_repo: 5.0000
-    active_days: 7
+    pushes: 26
+    distinct_repos: 6
+    pushes_per_repo: 4.3333
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 60
-    distinct_repos: 6
-    pushes_per_repo: 10.0000
+    pushes: 64
+    distinct_repos: 7
+    pushes_per_repo: 9.1429
     active_days: 15
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 92
-    distinct_repos: 9
-    pushes_per_repo: 10.2222
+    pushes: 96
+    distinct_repos: 10
+    pushes_per_repo: 9.6000
     active_days: 31
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -177,6 +177,6 @@ repos:
 
 # alphastorm
 
-92 pushes across 9 repositories on 31 active days in the last 90 days of public GitHub push activity.
+96 pushes across 10 repositories on 31 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/alphastorm

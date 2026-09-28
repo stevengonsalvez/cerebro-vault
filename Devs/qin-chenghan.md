@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-27T06:09:19.734552+00:00"
+generated_at: "2026-09-28T06:07:44.182865+00:00"
 provenance:
   - "16389f32495280ea"
-pushes_per_week: [1, 4, 15, 4, 1, 0, 0, 0, 0, 0, 0, 3, 1]
+pushes_per_week: [3, 3, 14, 4, 1, 0, 0, 0, 0, 0, 0, 3, 2]
 windows:
   "7d":
     pushes: 2
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 4
+    pushes: 5
     distinct_repos: 1
-    active_days: 4
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 29
+    pushes: 30
     distinct_repos: 3
-    active_days: 16
+    active_days: 17
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.8125
-  repo_per_active_day: 0.1875
+  push_per_day: 1.7647
+  repo_per_active_day: 0.1765
   not_owned_ratio: 0.3333
   basename_concentration: 0.6667
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 4
+    pushes: 5
     distinct_repos: 1
-    pushes_per_repo: 4.0000
-    active_days: 4
+    pushes_per_repo: 5.0000
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 29
+    pushes: 30
     distinct_repos: 3
-    pushes_per_repo: 9.6667
-    active_days: 16
+    pushes_per_repo: 10.0000
+    active_days: 17
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 16 active days in 90d — pass"
+  - "activity: 17 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "kunpeng-affinity-plugin"
@@ -89,6 +89,6 @@ repos:
 
 # qin-chenghan
 
-29 pushes across 3 repositories on 16 active days in the last 90 days of public GitHub push activity.
+30 pushes across 3 repositories on 17 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/qin-chenghan

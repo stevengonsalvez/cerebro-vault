@@ -9,28 +9,28 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-27T06:09:19.734552+00:00"
+generated_at: "2026-09-28T06:07:44.182865+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [22, 16, 7, 19, 14, 2, 11, 3, 0, 2, 5, 8, 10]
+pushes_per_week: [21, 13, 9, 24, 7, 2, 14, 0, 1, 1, 5, 8, 14]
 windows:
   "7d":
-    pushes: 12
-    distinct_repos: 9
+    pushes: 14
+    distinct_repos: 8
     active_days: 5
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
   "30d":
-    pushes: 25
-    distinct_repos: 13
-    active_days: 12
+    pushes: 29
+    distinct_repos: 14
+    active_days: 13
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
   "90d":
     pushes: 119
-    distinct_repos: 20
+    distinct_repos: 19
     active_days: 45
     repos_not_owned: 5
     not_owned_basenames: 5
@@ -38,9 +38,9 @@ windows:
 automation:
   state: "clear"
   push_per_day: 2.6444
-  repo_per_active_day: 0.4444
-  not_owned_ratio: 0.2500
-  basename_concentration: 0.1000
+  repo_per_active_day: 0.4222
+  not_owned_ratio: 0.2632
+  basename_concentration: 0.1053
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 12
-    distinct_repos: 9
-    pushes_per_repo: 1.3333
+    pushes: 14
+    distinct_repos: 8
+    pushes_per_repo: 1.7500
     active_days: 5
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
   "30d":
-    pushes: 25
-    distinct_repos: 13
-    pushes_per_repo: 1.9231
-    active_days: 12
+    pushes: 29
+    distinct_repos: 14
+    pushes_per_repo: 2.0714
+    active_days: 13
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
   "90d":
     pushes: 119
-    distinct_repos: 20
-    pushes_per_repo: 5.9500
+    distinct_repos: 19
+    pushes_per_repo: 6.2632
     active_days: 45
     repos_not_owned: 5
     not_owned_basenames: 5
@@ -135,6 +135,6 @@ repos:
 
 # nerdCopter
 
-119 pushes across 20 repositories on 45 active days in the last 90 days of public GitHub push activity.
+119 pushes across 19 repositories on 45 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/nerdCopter

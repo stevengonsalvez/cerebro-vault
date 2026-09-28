@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-27T06:09:19.734552+00:00"
+generated_at: "2026-09-28T06:07:44.182865+00:00"
 provenance:
   - "beef767476532531"
-pushes_per_week: [22, 11, 5, 2, 9, 3, 11, 2, 1, 0, 4, 3, 3]
+pushes_per_week: [20, 11, 4, 3, 9, 3, 10, 2, 1, 1, 3, 3, 5]
 windows:
   "7d":
-    pushes: 3
+    pushes: 5
     distinct_repos: 1
-    active_days: 3
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 10
+    pushes: 12
     distinct_repos: 1
-    active_days: 7
+    active_days: 8
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 76
+    pushes: 75
     distinct_repos: 1
     active_days: 43
     repos_not_owned: 0
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.7674
+  push_per_day: 1.7442
   repo_per_active_day: 0.0233
   not_owned_ratio: 0.0000
   basename_concentration: 1.0000
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 3
+    pushes: 5
     distinct_repos: 1
-    pushes_per_repo: 3.0000
-    active_days: 3
+    pushes_per_repo: 5.0000
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 10
+    pushes: 12
     distinct_repos: 1
-    pushes_per_repo: 10.0000
-    active_days: 7
+    pushes_per_repo: 12.0000
+    active_days: 8
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 76
+    pushes: 75
     distinct_repos: 1
-    pushes_per_repo: 76.0000
+    pushes_per_repo: 75.0000
     active_days: 43
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -209,6 +209,6 @@ repos:
 
 # shanraisshan
 
-76 pushes across 1 repository on 43 active days in the last 90 days of public GitHub push activity.
+75 pushes across 1 repository on 43 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/shanraisshan

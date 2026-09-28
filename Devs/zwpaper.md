@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-27T06:09:19.734552+00:00"
+generated_at: "2026-09-28T06:07:44.182865+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [8, 0, 4, 3, 3, 1, 2, 1, 0, 0, 0, 0, 0]
+pushes_per_week: [7, 0, 4, 3, 3, 2, 1, 1, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 22
+    pushes: 21
     distinct_repos: 8
-    active_days: 17
+    active_days: 16
     repos_not_owned: 7
     not_owned_basenames: 7
     not_owned_owners: 4
 automation:
   state: "clear"
-  push_per_day: 1.2941
-  repo_per_active_day: 0.4706
+  push_per_day: 1.3125
+  repo_per_active_day: 0.5000
   not_owned_ratio: 0.8750
   basename_concentration: 0.1250
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 22
+    pushes: 21
     distinct_repos: 8
-    pushes_per_repo: 2.7500
-    active_days: 17
+    pushes_per_repo: 2.6250
+    active_days: 16
     repos_not_owned: 7
     not_owned_basenames: 7
     not_owned_owners: 4
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 17 active days in 90d — pass"
+  - "activity: 16 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "ollie-eval-ds-bench"
@@ -132,6 +132,6 @@ repos:
 
 # zwpaper
 
-22 pushes across 8 repositories on 17 active days in the last 90 days of public GitHub push activity.
+21 pushes across 8 repositories on 16 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/zwpaper

@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-27T06:09:19.734552+00:00"
+generated_at: "2026-09-28T06:07:44.182865+00:00"
 provenance:
   - "9d67ce648f6a8919"
-pushes_per_week: [160, 77, 52, 47, 38, 17, 26, 19, 16, 8, 19, 44, 36]
+pushes_per_week: [158, 68, 60, 40, 34, 22, 25, 16, 14, 12, 19, 43, 38]
 windows:
   "7d":
-    pushes: 47
+    pushes: 43
     distinct_repos: 5
     active_days: 7
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 111
+    pushes: 116
     distinct_repos: 12
     active_days: 22
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
   "90d":
-    pushes: 559
+    pushes: 549
     distinct_repos: 33
     active_days: 79
     repos_not_owned: 10
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 5
 automation:
   state: "clear"
-  push_per_day: 7.0759
+  push_per_day: 6.9494
   repo_per_active_day: 0.4177
   not_owned_ratio: 0.3030
   basename_concentration: 0.1212
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 47
+    pushes: 43
     distinct_repos: 5
-    pushes_per_repo: 9.4000
+    pushes_per_repo: 8.6000
     active_days: 7
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 111
+    pushes: 116
     distinct_repos: 12
-    pushes_per_repo: 9.2500
+    pushes_per_repo: 9.6667
     active_days: 22
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
   "90d":
-    pushes: 559
+    pushes: 549
     distinct_repos: 33
-    pushes_per_repo: 16.9394
+    pushes_per_repo: 16.6364
     active_days: 79
     repos_not_owned: 10
     not_owned_basenames: 7
@@ -137,6 +137,6 @@ repos:
 
 # aaronjmars
 
-559 pushes across 33 repositories on 79 active days in the last 90 days of public GitHub push activity.
+549 pushes across 33 repositories on 79 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/aaronjmars

@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-27T06:09:19.734552+00:00"
+generated_at: "2026-09-28T06:07:44.182865+00:00"
 provenance:
   - "73468cde177ddae6"
-pushes_per_week: [58, 5, 55, 62, 42, 21, 87, 11, 0, 4, 9, 55, 16]
+pushes_per_week: [31, 14, 60, 53, 40, 20, 89, 7, 0, 4, 9, 69, 2]
 windows:
   "7d":
-    pushes: 54
-    distinct_repos: 5
-    active_days: 4
+    pushes: 11
+    distinct_repos: 2
+    active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 425
-    distinct_repos: 57
-    active_days: 51
+    pushes: 398
+    distinct_repos: 56
+    active_days: 50
     repos_not_owned: 19
     not_owned_basenames: 19
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 8.3333
-  repo_per_active_day: 1.1176
-  not_owned_ratio: 0.3333
-  basename_concentration: 0.0351
+  push_per_day: 7.9600
+  repo_per_active_day: 1.1200
+  not_owned_ratio: 0.3393
+  basename_concentration: 0.0357
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 54
-    distinct_repos: 5
-    pushes_per_repo: 10.8000
-    active_days: 4
+    pushes: 11
+    distinct_repos: 2
+    pushes_per_repo: 5.5000
+    active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 425
-    distinct_repos: 57
-    pushes_per_repo: 7.4561
-    active_days: 51
+    pushes: 398
+    distinct_repos: 56
+    pushes_per_repo: 7.1071
+    active_days: 50
     repos_not_owned: 19
     not_owned_basenames: 19
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 51 active days in 90d — pass"
+  - "activity: 50 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "8b-is"
@@ -171,6 +171,6 @@ repos:
 
 # peterlodri-sec
 
-425 pushes across 57 repositories on 51 active days in the last 90 days of public GitHub push activity.
+398 pushes across 56 repositories on 50 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/peterlodri-sec

@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-27T06:09:19.734552+00:00"
+generated_at: "2026-09-28T06:07:44.182865+00:00"
 provenance:
   - "3eacb4655aba2497"
-pushes_per_week: [51, 83, 27, 24, 0, 9, 8, 8, 4, 1, 2, 9, 8]
+pushes_per_week: [53, 79, 27, 22, 0, 9, 9, 8, 3, 2, 4, 8, 8]
 windows:
   "7d":
-    pushes: 9
-    distinct_repos: 5
-    active_days: 6
+    pushes: 10
+    distinct_repos: 6
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 22
-    distinct_repos: 8
+    pushes: 24
+    distinct_repos: 9
     active_days: 14
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 234
-    distinct_repos: 30
-    active_days: 52
+    pushes: 232
+    distinct_repos: 31
+    active_days: 51
     repos_not_owned: 11
     not_owned_basenames: 11
     not_owned_owners: 4
 automation:
   state: "clear"
-  push_per_day: 4.5000
-  repo_per_active_day: 0.5769
-  not_owned_ratio: 0.3667
-  basename_concentration: 0.0667
+  push_per_day: 4.5490
+  repo_per_active_day: 0.6078
+  not_owned_ratio: 0.3548
+  basename_concentration: 0.0645
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 9
-    distinct_repos: 5
-    pushes_per_repo: 1.8000
-    active_days: 6
+    pushes: 10
+    distinct_repos: 6
+    pushes_per_repo: 1.6667
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 22
-    distinct_repos: 8
-    pushes_per_repo: 2.7500
+    pushes: 24
+    distinct_repos: 9
+    pushes_per_repo: 2.6667
     active_days: 14
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 234
-    distinct_repos: 30
-    pushes_per_repo: 7.8000
-    active_days: 52
+    pushes: 232
+    distinct_repos: 31
+    pushes_per_repo: 7.4839
+    active_days: 51
     repos_not_owned: 11
     not_owned_basenames: 11
     not_owned_owners: 4
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 52 active days in 90d — pass"
+  - "activity: 51 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "paseo-spacedock"
@@ -129,6 +129,6 @@ repos:
 
 # audreyt
 
-234 pushes across 30 repositories on 52 active days in the last 90 days of public GitHub push activity.
+232 pushes across 31 repositories on 51 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/audreyt

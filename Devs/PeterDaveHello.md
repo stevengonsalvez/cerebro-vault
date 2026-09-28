@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-27T06:09:19.734552+00:00"
+generated_at: "2026-09-28T06:07:44.182865+00:00"
 provenance:
   - "533d51d9d3dea76f"
-pushes_per_week: [50, 26, 38, 31, 16, 38, 41, 6, 6, 3, 11, 10, 11]
+pushes_per_week: [50, 22, 41, 29, 22, 33, 40, 5, 6, 4, 11, 10, 27]
 windows:
   "7d":
-    pushes: 12
-    distinct_repos: 6
+    pushes: 28
+    distinct_repos: 9
     active_days: 7
-    repos_not_owned: 3
-    not_owned_basenames: 3
-    not_owned_owners: 3
+    repos_not_owned: 4
+    not_owned_basenames: 4
+    not_owned_owners: 4
   "30d":
-    pushes: 37
-    distinct_repos: 12
-    active_days: 18
+    pushes: 53
+    distinct_repos: 13
+    active_days: 19
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 5
   "90d":
-    pushes: 287
-    distinct_repos: 29
-    active_days: 72
+    pushes: 300
+    distinct_repos: 30
+    active_days: 73
     repos_not_owned: 14
     not_owned_basenames: 12
     not_owned_owners: 11
 automation:
   state: "clear"
-  push_per_day: 3.9861
-  repo_per_active_day: 0.4028
-  not_owned_ratio: 0.4828
-  basename_concentration: 0.1034
+  push_per_day: 4.1096
+  repo_per_active_day: 0.4110
+  not_owned_ratio: 0.4667
+  basename_concentration: 0.1000
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 12
-    distinct_repos: 6
-    pushes_per_repo: 2.0000
+    pushes: 28
+    distinct_repos: 9
+    pushes_per_repo: 3.1111
     active_days: 7
-    repos_not_owned: 3
-    not_owned_basenames: 3
-    not_owned_owners: 3
+    repos_not_owned: 4
+    not_owned_basenames: 4
+    not_owned_owners: 4
   "30d":
-    pushes: 37
-    distinct_repos: 12
-    pushes_per_repo: 3.0833
-    active_days: 18
+    pushes: 53
+    distinct_repos: 13
+    pushes_per_repo: 4.0769
+    active_days: 19
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 5
   "90d":
-    pushes: 287
-    distinct_repos: 29
-    pushes_per_repo: 9.8966
-    active_days: 72
+    pushes: 300
+    distinct_repos: 30
+    pushes_per_repo: 10.0000
+    active_days: 73
     repos_not_owned: 14
     not_owned_basenames: 12
     not_owned_owners: 11
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 72 active days in 90d — pass"
+  - "activity: 73 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "ipinfo.tw"
@@ -178,6 +178,6 @@ repos:
 
 # PeterDaveHello
 
-287 pushes across 29 repositories on 72 active days in the last 90 days of public GitHub push activity.
+300 pushes across 30 repositories on 73 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/PeterDaveHello

@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-27T06:09:19.734552+00:00"
+generated_at: "2026-09-28T06:07:44.182865+00:00"
 provenance:
   - "73468cde177ddae6"
-pushes_per_week: [15, 12, 2, 1, 1, 3, 19, 0, 1, 2, 2, 0, 10]
+pushes_per_week: [14, 9, 2, 2, 0, 6, 16, 0, 2, 2, 1, 0, 11]
 windows:
   "7d":
-    pushes: 10
+    pushes: 11
     distinct_repos: 2
-    active_days: 4
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 14
+    pushes: 15
     distinct_repos: 2
-    active_days: 8
+    active_days: 9
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 68
-    distinct_repos: 3
+    pushes: 65
+    distinct_repos: 2
     active_days: 26
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.6154
-  repo_per_active_day: 0.1154
+  push_per_day: 2.5000
+  repo_per_active_day: 0.0769
   not_owned_ratio: 0.0000
-  basename_concentration: 0.3333
+  basename_concentration: 0.5000
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 10
+    pushes: 11
     distinct_repos: 2
-    pushes_per_repo: 5.0000
-    active_days: 4
+    pushes_per_repo: 5.5000
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 14
+    pushes: 15
     distinct_repos: 2
-    pushes_per_repo: 7.0000
-    active_days: 8
+    pushes_per_repo: 7.5000
+    active_days: 9
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 68
-    distinct_repos: 3
-    pushes_per_repo: 22.6667
+    pushes: 65
+    distinct_repos: 2
+    pushes_per_repo: 32.5000
     active_days: 26
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -139,6 +139,6 @@ repos:
 
 # gglucass
 
-68 pushes across 3 repositories on 26 active days in the last 90 days of public GitHub push activity.
+65 pushes across 2 repositories on 26 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/gglucass

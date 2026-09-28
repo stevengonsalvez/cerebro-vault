@@ -9,13 +9,13 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-27T06:09:19.734552+00:00"
+generated_at: "2026-09-28T06:07:44.182865+00:00"
 provenance:
   - "0b22ca37fd3884c9"
-pushes_per_week: [73, 38, 41, 24, 25, 59, 64, 30, 40, 3, 10, 77, 57]
+pushes_per_week: [65, 34, 43, 26, 27, 58, 64, 39, 25, 4, 17, 89, 38]
 windows:
   "7d":
-    pushes: 72
+    pushes: 45
     distinct_repos: 1
     active_days: 7
     repos_not_owned: 0
@@ -24,12 +24,12 @@ windows:
   "30d":
     pushes: 154
     distinct_repos: 2
-    active_days: 23
+    active_days: 24
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 541
+    pushes: 529
     distinct_repos: 8
     active_days: 82
     repos_not_owned: 0
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 6.5976
+  push_per_day: 6.4512
   repo_per_active_day: 0.0976
   not_owned_ratio: 0.0000
   basename_concentration: 0.1250
@@ -49,9 +49,9 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 72
+    pushes: 45
     distinct_repos: 1
-    pushes_per_repo: 72.0000
+    pushes_per_repo: 45.0000
     active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -60,14 +60,14 @@ facets:
     pushes: 154
     distinct_repos: 2
     pushes_per_repo: 77.0000
-    active_days: 23
+    active_days: 24
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 541
+    pushes: 529
     distinct_repos: 8
-    pushes_per_repo: 67.6250
+    pushes_per_repo: 66.1250
     active_days: 82
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -129,6 +129,6 @@ repos:
 
 # derekbreden
 
-541 pushes across 8 repositories on 82 active days in the last 90 days of public GitHub push activity.
+529 pushes across 8 repositories on 82 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/derekbreden

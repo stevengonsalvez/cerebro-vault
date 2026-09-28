@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-27T06:09:19.734552+00:00"
+generated_at: "2026-09-28T06:07:44.182865+00:00"
 provenance:
   - "533d51d9d3dea76f"
-pushes_per_week: [12, 2, 2, 17, 5, 8, 1, 0, 4, 0, 10, 18, 18]
+pushes_per_week: [0, 2, 2, 19, 4, 7, 1, 1, 3, 0, 13, 15, 18]
 windows:
   "7d":
     pushes: 18
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 97
+    pushes: 85
     distinct_repos: 1
-    active_days: 33
+    active_days: 31
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.9394
-  repo_per_active_day: 0.0303
+  push_per_day: 2.7419
+  repo_per_active_day: 0.0323
   not_owned_ratio: 1.0000
   basename_concentration: 1.0000
   shapes: []
@@ -65,22 +65,22 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 97
+    pushes: 85
     distinct_repos: 1
-    pushes_per_repo: 97.0000
-    active_days: 33
+    pushes_per_repo: 85.0000
+    active_days: 31
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 33 active days in 90d — pass"
+  - "activity: 31 active days in 90d — pass"
   - "automation: clear — pass"
 repos: []
 ---
 
 # johnwschoi
 
-97 pushes across 1 repository on 33 active days in the last 90 days of public GitHub push activity.
+85 pushes across 1 repository on 31 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/johnwschoi

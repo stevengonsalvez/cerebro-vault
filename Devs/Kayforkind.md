@@ -9,41 +9,41 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-27T06:09:19.734552+00:00"
+generated_at: "2026-09-28T06:07:44.182865+00:00"
 provenance:
   - "97c4e9cb8b163ddb"
   - "c7515e0fa4368a55"
   - "d3abe74726b22711"
   - "e7c647c4d0689526"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 5, 4, 17, 0, 12]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 4, 2, 15, 5, 0, 15]
 windows:
   "7d":
-    pushes: 12
-    distinct_repos: 9
+    pushes: 15
+    distinct_repos: 10
     active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 33
-    distinct_repos: 17
+    pushes: 36
+    distinct_repos: 18
     active_days: 8
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 38
-    distinct_repos: 17
+    pushes: 41
+    distinct_repos: 18
     active_days: 10
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 3.8000
-  repo_per_active_day: 1.7000
+  push_per_day: 4.1000
+  repo_per_active_day: 1.8000
   not_owned_ratio: 0.0000
-  basename_concentration: 0.0588
+  basename_concentration: 0.0556
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -52,25 +52,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 12
-    distinct_repos: 9
-    pushes_per_repo: 1.3333
+    pushes: 15
+    distinct_repos: 10
+    pushes_per_repo: 1.5000
     active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 33
-    distinct_repos: 17
-    pushes_per_repo: 1.9412
+    pushes: 36
+    distinct_repos: 18
+    pushes_per_repo: 2.0000
     active_days: 8
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 38
-    distinct_repos: 17
-    pushes_per_repo: 2.2353
+    pushes: 41
+    distinct_repos: 18
+    pushes_per_repo: 2.2778
     active_days: 10
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -175,6 +175,6 @@ repos:
 
 # Kayforkind
 
-38 pushes across 17 repositories on 10 active days in the last 90 days of public GitHub push activity.
+41 pushes across 18 repositories on 10 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Kayforkind

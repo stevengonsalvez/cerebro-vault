@@ -11,11 +11,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-27T06:09:19.734552+00:00"
+generated_at: "2026-09-28T06:07:44.182865+00:00"
 provenance:
   - "637c99109af31ed2"
   - "b22ecd25e4a0f368"
-pushes_per_week: [39, 20, 19, 6, 5, 4, 6, 3, 2, 0, 0, 1, 13]
+pushes_per_week: [45, 18, 15, 7, 3, 3, 6, 4, 1, 0, 0, 1, 13]
 windows:
   "7d":
     pushes: 13
@@ -32,18 +32,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 118
-    distinct_repos: 7
-    active_days: 36
+    pushes: 116
+    distinct_repos: 6
+    active_days: 35
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 3.2778
-  repo_per_active_day: 0.1944
-  not_owned_ratio: 0.2857
-  basename_concentration: 0.1429
+  push_per_day: 3.3143
+  repo_per_active_day: 0.1714
+  not_owned_ratio: 0.3333
+  basename_concentration: 0.1667
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -68,16 +68,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 118
-    distinct_repos: 7
-    pushes_per_repo: 16.8571
-    active_days: 36
+    pushes: 116
+    distinct_repos: 6
+    pushes_per_repo: 19.3333
+    active_days: 35
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 36 active days in 90d — pass"
+  - "activity: 35 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "skills"
@@ -132,6 +132,6 @@ repos:
 
 # mattpocock
 
-118 pushes across 7 repositories on 36 active days in the last 90 days of public GitHub push activity.
+116 pushes across 6 repositories on 35 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/mattpocock

@@ -10,36 +10,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-27T06:09:19.734552+00:00"
+generated_at: "2026-09-28T06:07:44.182865+00:00"
 provenance:
   - "9d67ce648f6a8919"
-pushes_per_week: [11, 11, 16, 3, 1, 2, 12, 2, 4, 1, 3, 4, 10]
+pushes_per_week: [12, 11, 14, 3, 1, 2, 13, 3, 2, 3, 1, 5, 12]
 windows:
   "7d":
     pushes: 12
     distinct_repos: 6
-    active_days: 7
+    active_days: 6
     repos_not_owned: 4
     not_owned_basenames: 1
     not_owned_owners: 4
   "30d":
-    pushes: 20
+    pushes: 22
     distinct_repos: 6
     active_days: 14
     repos_not_owned: 4
     not_owned_basenames: 1
     not_owned_owners: 4
   "90d":
-    pushes: 80
+    pushes: 82
     distinct_repos: 11
-    active_days: 42
+    active_days: 43
     repos_not_owned: 8
     not_owned_basenames: 1
     not_owned_owners: 8
 automation:
   state: "clear"
-  push_per_day: 1.9048
-  repo_per_active_day: 0.2619
+  push_per_day: 1.9070
+  repo_per_active_day: 0.2558
   not_owned_ratio: 0.7273
   basename_concentration: 0.8182
   shapes:
@@ -69,29 +69,29 @@ facets:
     pushes: 12
     distinct_repos: 6
     pushes_per_repo: 2.0000
-    active_days: 7
+    active_days: 6
     repos_not_owned: 4
     not_owned_basenames: 1
     not_owned_owners: 4
   "30d":
-    pushes: 20
+    pushes: 22
     distinct_repos: 6
-    pushes_per_repo: 3.3333
+    pushes_per_repo: 3.6667
     active_days: 14
     repos_not_owned: 4
     not_owned_basenames: 1
     not_owned_owners: 4
   "90d":
-    pushes: 80
+    pushes: 82
     distinct_repos: 11
-    pushes_per_repo: 7.2727
-    active_days: 42
+    pushes_per_repo: 7.4545
+    active_days: 43
     repos_not_owned: 8
     not_owned_basenames: 1
     not_owned_owners: 8
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 42 active days in 90d — pass"
+  - "activity: 43 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "free-claude-code"
@@ -130,6 +130,6 @@ repos:
 
 # Alishahryar1
 
-80 pushes across 11 repositories on 42 active days in the last 90 days of public GitHub push activity.
+82 pushes across 11 repositories on 43 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Alishahryar1

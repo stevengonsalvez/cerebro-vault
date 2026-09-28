@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-27T06:09:19.734552+00:00"
+generated_at: "2026-09-28T06:07:44.182865+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [1, 0, 5, 1, 0, 11, 12, 0, 0, 5, 6, 3, 12]
+pushes_per_week: [1, 0, 6, 0, 0, 15, 8, 0, 0, 11, 0, 3, 20]
 windows:
   "7d":
-    pushes: 13
-    distinct_repos: 2
-    active_days: 4
-    repos_not_owned: 2
+    pushes: 20
+    distinct_repos: 1
+    active_days: 5
+    repos_not_owned: 1
     not_owned_basenames: 1
-    not_owned_owners: 2
+    not_owned_owners: 1
   "30d":
-    pushes: 26
+    pushes: 34
     distinct_repos: 3
-    active_days: 8
+    active_days: 10
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
   "90d":
-    pushes: 56
+    pushes: 64
     distinct_repos: 5
-    active_days: 18
+    active_days: 20
     repos_not_owned: 3
     not_owned_basenames: 2
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 3.1111
-  repo_per_active_day: 0.2778
+  push_per_day: 3.2000
+  repo_per_active_day: 0.2500
   not_owned_ratio: 0.6000
   basename_concentration: 0.4000
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 13
-    distinct_repos: 2
-    pushes_per_repo: 6.5000
-    active_days: 4
-    repos_not_owned: 2
+    pushes: 20
+    distinct_repos: 1
+    pushes_per_repo: 20.0000
+    active_days: 5
+    repos_not_owned: 1
     not_owned_basenames: 1
-    not_owned_owners: 2
+    not_owned_owners: 1
   "30d":
-    pushes: 26
+    pushes: 34
     distinct_repos: 3
-    pushes_per_repo: 8.6667
-    active_days: 8
+    pushes_per_repo: 11.3333
+    active_days: 10
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
   "90d":
-    pushes: 56
+    pushes: 64
     distinct_repos: 5
-    pushes_per_repo: 11.2000
-    active_days: 18
+    pushes_per_repo: 12.8000
+    active_days: 20
     repos_not_owned: 3
     not_owned_basenames: 2
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 18 active days in 90d — pass"
+  - "activity: 20 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "Benjamin-eecs"
@@ -97,6 +97,6 @@ repos:
 
 # Benjamin-eecs
 
-56 pushes across 5 repositories on 18 active days in the last 90 days of public GitHub push activity.
+64 pushes across 5 repositories on 20 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Benjamin-eecs

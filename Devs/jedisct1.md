@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-27T06:09:19.734552+00:00"
+generated_at: "2026-09-28T06:07:44.182865+00:00"
 provenance:
   - "3eacb4655aba2497"
-pushes_per_week: [37, 14, 30, 8, 8, 5, 6, 1, 1, 0, 4, 13, 22]
+pushes_per_week: [32, 19, 25, 7, 9, 4, 7, 0, 1, 0, 4, 15, 22]
 windows:
   "7d":
-    pushes: 27
-    distinct_repos: 21
-    active_days: 4
-    repos_not_owned: 6
-    not_owned_basenames: 6
-    not_owned_owners: 4
+    pushes: 24
+    distinct_repos: 19
+    active_days: 5
+    repos_not_owned: 4
+    not_owned_basenames: 4
+    not_owned_owners: 3
   "30d":
-    pushes: 39
-    distinct_repos: 24
-    active_days: 9
-    repos_not_owned: 6
-    not_owned_basenames: 6
-    not_owned_owners: 4
+    pushes: 41
+    distinct_repos: 25
+    active_days: 11
+    repos_not_owned: 7
+    not_owned_basenames: 7
+    not_owned_owners: 5
   "90d":
-    pushes: 149
-    distinct_repos: 64
-    active_days: 47
+    pushes: 145
+    distinct_repos: 61
+    active_days: 48
     repos_not_owned: 29
     not_owned_basenames: 29
     not_owned_owners: 10
 automation:
   state: "clear"
-  push_per_day: 3.1702
-  repo_per_active_day: 1.3617
-  not_owned_ratio: 0.4531
-  basename_concentration: 0.0312
+  push_per_day: 3.0208
+  repo_per_active_day: 1.2708
+  not_owned_ratio: 0.4754
+  basename_concentration: 0.0328
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 27
-    distinct_repos: 21
-    pushes_per_repo: 1.2857
-    active_days: 4
-    repos_not_owned: 6
-    not_owned_basenames: 6
-    not_owned_owners: 4
+    pushes: 24
+    distinct_repos: 19
+    pushes_per_repo: 1.2632
+    active_days: 5
+    repos_not_owned: 4
+    not_owned_basenames: 4
+    not_owned_owners: 3
   "30d":
-    pushes: 39
-    distinct_repos: 24
-    pushes_per_repo: 1.6250
-    active_days: 9
-    repos_not_owned: 6
-    not_owned_basenames: 6
-    not_owned_owners: 4
+    pushes: 41
+    distinct_repos: 25
+    pushes_per_repo: 1.6400
+    active_days: 11
+    repos_not_owned: 7
+    not_owned_basenames: 7
+    not_owned_owners: 5
   "90d":
-    pushes: 149
-    distinct_repos: 64
-    pushes_per_repo: 2.3281
-    active_days: 47
+    pushes: 145
+    distinct_repos: 61
+    pushes_per_repo: 2.3770
+    active_days: 48
     repos_not_owned: 29
     not_owned_basenames: 29
     not_owned_owners: 10
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 47 active days in 90d — pass"
+  - "activity: 48 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "tigertunnel"
@@ -161,6 +161,6 @@ repos:
 
 # jedisct1
 
-149 pushes across 64 repositories on 47 active days in the last 90 days of public GitHub push activity.
+145 pushes across 61 repositories on 48 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/jedisct1

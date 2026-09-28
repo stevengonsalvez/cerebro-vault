@@ -9,17 +9,17 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-27T06:09:19.734552+00:00"
+generated_at: "2026-09-28T06:07:44.182865+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [2, 9, 13, 13, 10, 3, 7, 2, 0, 0, 4, 8, 6]
+pushes_per_week: [1, 10, 12, 16, 8, 5, 5, 1, 0, 1, 3, 9, 5]
 windows:
   "7d":
-    pushes: 7
-    distinct_repos: 6
-    active_days: 5
-    repos_not_owned: 2
-    not_owned_basenames: 2
+    pushes: 6
+    distinct_repos: 5
+    active_days: 4
+    repos_not_owned: 1
+    not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
     pushes: 18
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 4
     not_owned_owners: 1
   "90d":
-    pushes: 77
+    pushes: 76
     distinct_repos: 21
-    active_days: 41
+    active_days: 40
     repos_not_owned: 9
     not_owned_basenames: 8
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 1.8780
-  repo_per_active_day: 0.5122
+  push_per_day: 1.9000
+  repo_per_active_day: 0.5250
   not_owned_ratio: 0.4286
   basename_concentration: 0.1429
   shapes: []
@@ -49,12 +49,12 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 7
-    distinct_repos: 6
-    pushes_per_repo: 1.1667
-    active_days: 5
-    repos_not_owned: 2
-    not_owned_basenames: 2
+    pushes: 6
+    distinct_repos: 5
+    pushes_per_repo: 1.2000
+    active_days: 4
+    repos_not_owned: 1
+    not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
     pushes: 18
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 4
     not_owned_owners: 1
   "90d":
-    pushes: 77
+    pushes: 76
     distinct_repos: 21
-    pushes_per_repo: 3.6667
-    active_days: 41
+    pushes_per_repo: 3.6190
+    active_days: 40
     repos_not_owned: 9
     not_owned_basenames: 8
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 41 active days in 90d — pass"
+  - "activity: 40 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "zed-comment"
@@ -129,6 +129,6 @@ repos:
 
 # thedadams
 
-77 pushes across 21 repositories on 41 active days in the last 90 days of public GitHub push activity.
+76 pushes across 21 repositories on 40 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/thedadams

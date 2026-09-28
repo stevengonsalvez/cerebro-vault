@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-27T06:09:19.734552+00:00"
+generated_at: "2026-09-28T06:07:44.182865+00:00"
 provenance:
   - "6d3bd03b49986330"
-pushes_per_week: [4, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 6, 11]
+pushes_per_week: [2, 0, 0, 0, 1, 1, 0, 0, 0, 0, 1, 5, 11]
 windows:
   "7d":
     pushes: 11
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 23
+    pushes: 21
     distinct_repos: 6
-    active_days: 12
+    active_days: 11
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.9167
-  repo_per_active_day: 0.5000
+  push_per_day: 1.9091
+  repo_per_active_day: 0.5455
   not_owned_ratio: 0.0000
   basename_concentration: 0.1667
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 23
+    pushes: 21
     distinct_repos: 6
-    pushes_per_repo: 3.8333
-    active_days: 12
+    pushes_per_repo: 3.5000
+    active_days: 11
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 12 active days in 90d — pass"
+  - "activity: 11 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "GAgent"
@@ -129,6 +129,6 @@ repos:
 
 # yiyabo
 
-23 pushes across 6 repositories on 12 active days in the last 90 days of public GitHub push activity.
+21 pushes across 6 repositories on 11 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/yiyabo

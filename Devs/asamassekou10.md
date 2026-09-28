@@ -10,15 +10,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-27T06:09:19.734552+00:00"
+generated_at: "2026-09-28T06:07:44.182865+00:00"
 provenance:
   - "9e2ff10d772b1e71"
-pushes_per_week: [38, 8, 11, 3, 10, 5, 3, 6, 1, 0, 3, 1, 2]
+pushes_per_week: [39, 7, 10, 2, 10, 5, 4, 5, 1, 2, 1, 3, 0]
 windows:
   "7d":
-    pushes: 3
-    distinct_repos: 2
-    active_days: 2
+    pushes: 2
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -30,18 +30,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 91
-    distinct_repos: 10
-    active_days: 34
+    pushes: 89
+    distinct_repos: 9
+    active_days: 33
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.6765
-  repo_per_active_day: 0.2941
+  push_per_day: 2.6970
+  repo_per_active_day: 0.2727
   not_owned_ratio: 0.0000
-  basename_concentration: 0.1000
+  basename_concentration: 0.1111
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -50,10 +50,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 3
-    distinct_repos: 2
-    pushes_per_repo: 1.5000
-    active_days: 2
+    pushes: 2
+    distinct_repos: 1
+    pushes_per_repo: 2.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -66,16 +66,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 91
-    distinct_repos: 10
-    pushes_per_repo: 9.1000
-    active_days: 34
+    pushes: 89
+    distinct_repos: 9
+    pushes_per_repo: 9.8889
+    active_days: 33
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 34 active days in 90d — pass"
+  - "activity: 33 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "demo-gitskins"
@@ -159,6 +159,6 @@ repos:
 
 # asamassekou10
 
-91 pushes across 10 repositories on 34 active days in the last 90 days of public GitHub push activity.
+89 pushes across 9 repositories on 33 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/asamassekou10

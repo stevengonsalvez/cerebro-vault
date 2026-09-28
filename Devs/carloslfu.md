@@ -10,15 +10,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-27T06:09:19.734552+00:00"
+generated_at: "2026-09-28T06:07:44.182865+00:00"
 provenance:
   - "fb0827c68cc0b5d0"
-pushes_per_week: [12, 2, 31, 19, 9, 0, 2, 2, 1, 0, 4, 1, 6]
+pushes_per_week: [9, 10, 23, 21, 7, 0, 2, 3, 0, 0, 4, 3, 4]
 windows:
   "7d":
-    pushes: 6
+    pushes: 4
     distinct_repos: 1
-    active_days: 4
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -30,16 +30,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 89
+    pushes: 86
     distinct_repos: 13
-    active_days: 33
+    active_days: 31
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.6970
-  repo_per_active_day: 0.3939
+  push_per_day: 2.7742
+  repo_per_active_day: 0.4194
   not_owned_ratio: 0.0769
   basename_concentration: 0.0769
   shapes: []
@@ -50,10 +50,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 6
+    pushes: 4
     distinct_repos: 1
-    pushes_per_repo: 6.0000
-    active_days: 4
+    pushes_per_repo: 4.0000
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -66,16 +66,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 89
+    pushes: 86
     distinct_repos: 13
-    pushes_per_repo: 6.8462
-    active_days: 33
+    pushes_per_repo: 6.6154
+    active_days: 31
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 33 active days in 90d — pass"
+  - "activity: 31 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "slotstream"
@@ -165,6 +165,6 @@ repos:
 
 # carloslfu
 
-89 pushes across 13 repositories on 33 active days in the last 90 days of public GitHub push activity.
+86 pushes across 13 repositories on 31 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/carloslfu

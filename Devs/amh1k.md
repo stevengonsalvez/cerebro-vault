@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-27T06:09:19.734552+00:00"
+generated_at: "2026-09-28T06:07:44.182865+00:00"
 provenance:
   - "c489e6fb5febf2ab"
-pushes_per_week: [7, 12, 10, 5, 5, 0, 1, 0, 0, 0, 0, 1, 1]
+pushes_per_week: [8, 9, 10, 4, 5, 0, 1, 0, 0, 0, 0, 1, 1]
 windows:
   "7d":
     pushes: 1
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 42
+    pushes: 39
     distinct_repos: 12
-    active_days: 23
+    active_days: 22
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.8261
-  repo_per_active_day: 0.5217
+  push_per_day: 1.7727
+  repo_per_active_day: 0.5455
   not_owned_ratio: 0.0833
   basename_concentration: 0.0833
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 42
+    pushes: 39
     distinct_repos: 12
-    pushes_per_repo: 3.5000
-    active_days: 23
+    pushes_per_repo: 3.2500
+    active_days: 22
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 23 active days in 90d — pass"
+  - "activity: 22 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "amh1k"
@@ -135,6 +135,6 @@ repos:
 
 # amh1k
 
-42 pushes across 12 repositories on 23 active days in the last 90 days of public GitHub push activity.
+39 pushes across 12 repositories on 22 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/amh1k

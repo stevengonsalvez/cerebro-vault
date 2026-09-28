@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-26T06:06:37.922852+00:00"
+generated_at: "2026-09-28T06:07:44.182865+00:00"
 provenance:
   - "379642deb53f3714"
-pushes_per_week: [2, 3, 3, 2, 2, 2, 2, 0, 0, 0, 1, 0, 0]
+pushes_per_week: [2, 3, 3, 1, 2, 2, 2, 0, 0, 0, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 17
+    pushes: 16
     distinct_repos: 11
-    active_days: 16
+    active_days: 15
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.0625
-  repo_per_active_day: 0.6875
+  push_per_day: 1.0667
+  repo_per_active_day: 0.7333
   not_owned_ratio: 0.0000
   basename_concentration: 0.0909
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 17
+    pushes: 16
     distinct_repos: 11
-    pushes_per_repo: 1.5455
-    active_days: 16
+    pushes_per_repo: 1.4545
+    active_days: 15
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 16 active days in 90d — pass"
+  - "activity: 15 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "herdiyana256"
@@ -129,6 +129,6 @@ repos:
 
 # herdiyana256
 
-17 pushes across 11 repositories on 16 active days in the last 90 days of public GitHub push activity.
+16 pushes across 11 repositories on 15 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/herdiyana256

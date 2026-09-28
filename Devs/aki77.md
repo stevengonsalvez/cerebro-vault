@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-27T06:09:19.734552+00:00"
+generated_at: "2026-09-28T06:07:44.182865+00:00"
 provenance:
   - "0b22ca37fd3884c9"
-pushes_per_week: [24, 12, 12, 8, 2, 0, 2, 0, 0, 0, 0, 2, 0]
+pushes_per_week: [25, 8, 15, 5, 2, 0, 2, 0, 0, 0, 0, 2, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 62
-    distinct_repos: 17
-    active_days: 23
-    repos_not_owned: 6
-    not_owned_basenames: 6
+    pushes: 59
+    distinct_repos: 16
+    active_days: 22
+    repos_not_owned: 5
+    not_owned_basenames: 5
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.6957
-  repo_per_active_day: 0.7391
-  not_owned_ratio: 0.3529
-  basename_concentration: 0.0588
+  push_per_day: 2.6818
+  repo_per_active_day: 0.7273
+  not_owned_ratio: 0.3125
+  basename_concentration: 0.0625
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 62
-    distinct_repos: 17
-    pushes_per_repo: 3.6471
-    active_days: 23
-    repos_not_owned: 6
-    not_owned_basenames: 6
+    pushes: 59
+    distinct_repos: 16
+    pushes_per_repo: 3.6875
+    active_days: 22
+    repos_not_owned: 5
+    not_owned_basenames: 5
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 23 active days in 90d — pass"
+  - "activity: 22 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "test_impact"
@@ -129,6 +129,6 @@ repos:
 
 # aki77
 
-62 pushes across 17 repositories on 23 active days in the last 90 days of public GitHub push activity.
+59 pushes across 16 repositories on 22 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/aki77

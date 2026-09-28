@@ -10,7 +10,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-27T06:09:19.734552+00:00"
+generated_at: "2026-09-28T06:07:44.182865+00:00"
 provenance:
   - "01cd6a498d377caf"
   - "03604cccd7e9402d"
@@ -63,7 +63,7 @@ provenance:
   - "f672838de330e86f"
   - "f9a1870648a6375a"
   - "fe9e50bf2d5b21fe"
-pushes_per_week: [18, 13, 14, 7, 0, 8, 6, 0, 4, 0, 1, 5, 4]
+pushes_per_week: [17, 11, 15, 6, 0, 9, 5, 0, 4, 0, 1, 5, 4]
 windows:
   "7d":
     pushes: 4
@@ -80,16 +80,16 @@ windows:
     not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 80
+    pushes: 77
     distinct_repos: 5
-    active_days: 38
+    active_days: 37
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.1053
-  repo_per_active_day: 0.1316
+  push_per_day: 2.0811
+  repo_per_active_day: 0.1351
   not_owned_ratio: 1.0000
   basename_concentration: 0.2000
   shapes: []
@@ -116,16 +116,16 @@ facets:
     not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 80
+    pushes: 77
     distinct_repos: 5
-    pushes_per_repo: 16.0000
-    active_days: 38
+    pushes_per_repo: 15.4000
+    active_days: 37
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 1
 reasons:
   - "provenance: 51 vault signal(s) — pass"
-  - "activity: 38 active days in 90d — pass"
+  - "activity: 37 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "action-test-publish"
@@ -140,6 +140,6 @@ repos:
 
 # ashwin-ant
 
-80 pushes across 5 repositories on 38 active days in the last 90 days of public GitHub push activity.
+77 pushes across 5 repositories on 37 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ashwin-ant

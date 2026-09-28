@@ -12,12 +12,12 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-27T06:09:19.734552+00:00"
+generated_at: "2026-09-28T06:07:44.182865+00:00"
 provenance:
   - "06b6387dd3484f1c"
   - "c133b93b912dffd6"
   - "de6bf05613f3ae04"
-pushes_per_week: [3, 6, 6, 4, 5, 4, 13, 1, 1, 1, 1, 3, 2]
+pushes_per_week: [5, 5, 5, 3, 6, 5, 12, 1, 0, 1, 1, 3, 2]
 windows:
   "7d":
     pushes: 2
@@ -34,16 +34,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 50
+    pushes: 49
     distinct_repos: 4
-    active_days: 31
+    active_days: 30
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 1.6129
-  repo_per_active_day: 0.1290
+  push_per_day: 1.6333
+  repo_per_active_day: 0.1333
   not_owned_ratio: 0.7500
   basename_concentration: 0.5000
   shapes: []
@@ -70,16 +70,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 50
+    pushes: 49
     distinct_repos: 4
-    pushes_per_repo: 12.5000
-    active_days: 31
+    pushes_per_repo: 12.2500
+    active_days: 30
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
 reasons:
   - "provenance: 3 vault signal(s) — pass"
-  - "activity: 31 active days in 90d — pass"
+  - "activity: 30 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "pi-skills"
@@ -134,6 +134,6 @@ repos:
 
 # badlogic
 
-50 pushes across 4 repositories on 31 active days in the last 90 days of public GitHub push activity.
+49 pushes across 4 repositories on 30 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/badlogic

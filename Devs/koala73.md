@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-27T06:09:19.734552+00:00"
+generated_at: "2026-09-28T06:07:44.182865+00:00"
 provenance:
   - "5fce3c914fe93bcc"
-pushes_per_week: [183, 101, 41, 55, 66, 34, 105, 25, 12, 7, 23, 40, 39]
+pushes_per_week: [204, 88, 25, 61, 59, 36, 114, 15, 11, 7, 24, 40, 43]
 windows:
   "7d":
-    pushes: 51
-    distinct_repos: 2
-    active_days: 7
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
-  "30d":
-    pushes: 115
+    pushes: 44
     distinct_repos: 3
-    active_days: 24
+    active_days: 7
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
+  "30d":
+    pushes: 121
+    distinct_repos: 4
+    active_days: 25
+    repos_not_owned: 3
+    not_owned_basenames: 1
+    not_owned_owners: 3
   "90d":
-    pushes: 731
+    pushes: 727
     distinct_repos: 20
     active_days: 77
     repos_not_owned: 19
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 19
 automation:
   state: "clear"
-  push_per_day: 9.4935
+  push_per_day: 9.4416
   repo_per_active_day: 0.2597
   not_owned_ratio: 0.9500
   basename_concentration: 1.0000
@@ -65,25 +65,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 51
-    distinct_repos: 2
-    pushes_per_repo: 25.5000
-    active_days: 7
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
-  "30d":
-    pushes: 115
+    pushes: 44
     distinct_repos: 3
-    pushes_per_repo: 38.3333
-    active_days: 24
+    pushes_per_repo: 14.6667
+    active_days: 7
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
+  "30d":
+    pushes: 121
+    distinct_repos: 4
+    pushes_per_repo: 30.2500
+    active_days: 25
+    repos_not_owned: 3
+    not_owned_basenames: 1
+    not_owned_owners: 3
   "90d":
-    pushes: 731
+    pushes: 727
     distinct_repos: 20
-    pushes_per_repo: 36.5500
+    pushes_per_repo: 36.3500
     active_days: 77
     repos_not_owned: 19
     not_owned_basenames: 1
@@ -141,6 +141,6 @@ repos:
 
 # koala73
 
-731 pushes across 20 repositories on 77 active days in the last 90 days of public GitHub push activity.
+727 pushes across 20 repositories on 77 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/koala73

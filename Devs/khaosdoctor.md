@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-27T06:09:19.734552+00:00"
+generated_at: "2026-09-28T06:07:44.182865+00:00"
 provenance:
   - "73468cde177ddae6"
-pushes_per_week: [4, 12, 8, 11, 3, 5, 4, 4, 0, 3, 2, 0, 2]
+pushes_per_week: [4, 13, 7, 11, 7, 1, 5, 3, 1, 3, 1, 0, 11]
 windows:
   "7d":
-    pushes: 2
-    distinct_repos: 2
-    active_days: 1
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
-  "30d":
-    pushes: 7
+    pushes: 11
     distinct_repos: 5
-    active_days: 6
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
-  "90d":
-    pushes: 58
-    distinct_repos: 11
-    active_days: 36
-    repos_not_owned: 1
+    active_days: 2
+    repos_not_owned: 2
     not_owned_basenames: 1
-    not_owned_owners: 1
+    not_owned_owners: 2
+  "30d":
+    pushes: 16
+    distinct_repos: 8
+    active_days: 7
+    repos_not_owned: 2
+    not_owned_basenames: 1
+    not_owned_owners: 2
+  "90d":
+    pushes: 67
+    distinct_repos: 13
+    active_days: 37
+    repos_not_owned: 3
+    not_owned_basenames: 2
+    not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 1.6111
-  repo_per_active_day: 0.3056
-  not_owned_ratio: 0.0909
-  basename_concentration: 0.0909
+  push_per_day: 1.8108
+  repo_per_active_day: 0.3514
+  not_owned_ratio: 0.2308
+  basename_concentration: 0.2308
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
-    distinct_repos: 2
-    pushes_per_repo: 1.0000
-    active_days: 1
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
-  "30d":
-    pushes: 7
+    pushes: 11
     distinct_repos: 5
-    pushes_per_repo: 1.4000
-    active_days: 6
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
-  "90d":
-    pushes: 58
-    distinct_repos: 11
-    pushes_per_repo: 5.2727
-    active_days: 36
-    repos_not_owned: 1
+    pushes_per_repo: 2.2000
+    active_days: 2
+    repos_not_owned: 2
     not_owned_basenames: 1
-    not_owned_owners: 1
+    not_owned_owners: 2
+  "30d":
+    pushes: 16
+    distinct_repos: 8
+    pushes_per_repo: 2.0000
+    active_days: 7
+    repos_not_owned: 2
+    not_owned_basenames: 1
+    not_owned_owners: 2
+  "90d":
+    pushes: 67
+    distinct_repos: 13
+    pushes_per_repo: 5.1538
+    active_days: 37
+    repos_not_owned: 3
+    not_owned_basenames: 2
+    not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 36 active days in 90d — pass"
+  - "activity: 37 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "dotfiles"
@@ -148,6 +148,6 @@ repos:
 
 # khaosdoctor
 
-58 pushes across 11 repositories on 36 active days in the last 90 days of public GitHub push activity.
+67 pushes across 13 repositories on 37 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/khaosdoctor

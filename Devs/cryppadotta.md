@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-27T06:09:19.734552+00:00"
+generated_at: "2026-09-28T06:07:44.182865+00:00"
 provenance:
   - "a5e43b1572bfaf36"
-pushes_per_week: [32, 74, 166, 38, 70, 22, 19, 13, 121, 6, 33, 30, 23]
+pushes_per_week: [40, 70, 164, 39, 66, 23, 19, 12, 121, 11, 29, 28, 43]
 windows:
   "7d":
-    pushes: 25
+    pushes: 43
     distinct_repos: 2
     active_days: 6
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 208
+    pushes: 181
     distinct_repos: 2
     active_days: 25
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 647
+    pushes: 665
     distinct_repos: 7
     active_days: 80
     repos_not_owned: 5
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 8.0875
+  push_per_day: 8.3125
   repo_per_active_day: 0.0875
   not_owned_ratio: 0.7143
   basename_concentration: 0.1429
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 25
+    pushes: 43
     distinct_repos: 2
-    pushes_per_repo: 12.5000
+    pushes_per_repo: 21.5000
     active_days: 6
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 208
+    pushes: 181
     distinct_repos: 2
-    pushes_per_repo: 104.0000
+    pushes_per_repo: 90.5000
     active_days: 25
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 647
+    pushes: 665
     distinct_repos: 7
-    pushes_per_repo: 92.4286
+    pushes_per_repo: 95.0000
     active_days: 80
     repos_not_owned: 5
     not_owned_basenames: 5
@@ -129,6 +129,6 @@ repos:
 
 # cryppadotta
 
-647 pushes across 7 repositories on 80 active days in the last 90 days of public GitHub push activity.
+665 pushes across 7 repositories on 80 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/cryppadotta

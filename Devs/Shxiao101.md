@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-27T06:09:19.734552+00:00"
+generated_at: "2026-09-28T06:07:44.182865+00:00"
 provenance:
   - "16389f32495280ea"
-pushes_per_week: [18, 9, 6, 1, 0, 1, 0, 0, 4, 1, 2, 4, 8]
+pushes_per_week: [15, 6, 5, 1, 0, 1, 0, 0, 4, 2, 1, 4, 8]
 windows:
   "7d":
     pushes: 8
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 54
+    pushes: 47
     distinct_repos: 17
-    active_days: 29
+    active_days: 27
     repos_not_owned: 7
     not_owned_basenames: 3
     not_owned_owners: 5
 automation:
   state: "clear"
-  push_per_day: 1.8621
-  repo_per_active_day: 0.5862
+  push_per_day: 1.7407
+  repo_per_active_day: 0.6296
   not_owned_ratio: 0.4118
   basename_concentration: 0.2941
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 54
+    pushes: 47
     distinct_repos: 17
-    pushes_per_repo: 3.1765
-    active_days: 29
+    pushes_per_repo: 2.7647
+    active_days: 27
     repos_not_owned: 7
     not_owned_basenames: 3
     not_owned_owners: 5
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 29 active days in 90d — pass"
+  - "activity: 27 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "Shxiao101"
@@ -128,6 +128,6 @@ repos:
 
 # Shxiao101
 
-54 pushes across 17 repositories on 29 active days in the last 90 days of public GitHub push activity.
+47 pushes across 17 repositories on 27 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Shxiao101

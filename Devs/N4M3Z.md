@@ -9,17 +9,17 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-27T06:09:19.734552+00:00"
+generated_at: "2026-09-28T06:07:44.182865+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [0, 11, 16, 1, 23, 24, 26, 1, 6, 0, 1, 18, 7]
+pushes_per_week: [0, 24, 3, 1, 28, 20, 25, 2, 5, 0, 2, 17, 8]
 windows:
   "7d":
-    pushes: 14
-    distinct_repos: 5
+    pushes: 8
+    distinct_repos: 4
     active_days: 4
-    repos_not_owned: 3
-    not_owned_basenames: 3
+    repos_not_owned: 2
+    not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
     pushes: 27
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 5
     not_owned_owners: 1
   "90d":
-    pushes: 134
+    pushes: 135
     distinct_repos: 13
-    active_days: 33
+    active_days: 34
     repos_not_owned: 7
     not_owned_basenames: 7
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 4.0606
-  repo_per_active_day: 0.3939
+  push_per_day: 3.9706
+  repo_per_active_day: 0.3824
   not_owned_ratio: 0.5385
   basename_concentration: 0.1538
   shapes: []
@@ -49,12 +49,12 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 14
-    distinct_repos: 5
-    pushes_per_repo: 2.8000
+    pushes: 8
+    distinct_repos: 4
+    pushes_per_repo: 2.0000
     active_days: 4
-    repos_not_owned: 3
-    not_owned_basenames: 3
+    repos_not_owned: 2
+    not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
     pushes: 27
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 5
     not_owned_owners: 1
   "90d":
-    pushes: 134
+    pushes: 135
     distinct_repos: 13
-    pushes_per_repo: 10.3077
-    active_days: 33
+    pushes_per_repo: 10.3846
+    active_days: 34
     repos_not_owned: 7
     not_owned_basenames: 7
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 33 active days in 90d — pass"
+  - "activity: 34 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "homebrew-tap"
@@ -129,6 +129,6 @@ repos:
 
 # N4M3Z
 
-134 pushes across 13 repositories on 33 active days in the last 90 days of public GitHub push activity.
+135 pushes across 13 repositories on 34 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/N4M3Z

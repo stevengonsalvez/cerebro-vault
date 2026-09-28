@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-27T06:09:19.734552+00:00"
+generated_at: "2026-09-28T06:07:44.182865+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [9, 6, 5, 25, 9, 8, 9, 6, 1, 3, 3, 8, 7]
+pushes_per_week: [11, 4, 6, 25, 7, 11, 6, 6, 2, 3, 3, 7, 7]
 windows:
   "7d":
     pushes: 7
@@ -29,7 +29,7 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 99
+    pushes: 98
     distinct_repos: 10
     active_days: 46
     repos_not_owned: 0
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.1522
+  push_per_day: 2.1304
   repo_per_active_day: 0.2174
   not_owned_ratio: 0.0000
   basename_concentration: 0.1000
@@ -65,9 +65,9 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 99
+    pushes: 98
     distinct_repos: 10
-    pushes_per_repo: 9.9000
+    pushes_per_repo: 9.8000
     active_days: 46
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -143,6 +143,6 @@ repos:
 
 # dkarter
 
-99 pushes across 10 repositories on 46 active days in the last 90 days of public GitHub push activity.
+98 pushes across 10 repositories on 46 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/dkarter

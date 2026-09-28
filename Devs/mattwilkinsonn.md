@@ -9,37 +9,37 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-27T06:09:19.734552+00:00"
+generated_at: "2026-09-28T06:07:44.182865+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [42, 9, 2, 0, 13, 9, 7, 4, 9, 1, 0, 4, 3]
+pushes_per_week: [32, 6, 2, 0, 13, 11, 5, 7, 6, 1, 0, 4, 6]
 windows:
   "7d":
-    pushes: 5
-    distinct_repos: 2
+    pushes: 6
+    distinct_repos: 3
     active_days: 3
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 8
-    distinct_repos: 3
-    active_days: 5
+    pushes: 11
+    distinct_repos: 4
+    active_days: 6
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 103
+    pushes: 93
     distinct_repos: 11
     active_days: 36
-    repos_not_owned: 8
-    not_owned_basenames: 6
+    repos_not_owned: 7
+    not_owned_basenames: 5
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 2.8611
+  push_per_day: 2.5833
   repo_per_active_day: 0.3056
-  not_owned_ratio: 0.7273
+  not_owned_ratio: 0.6364
   basename_concentration: 0.2727
   shapes: []
   shape_evidence: []
@@ -49,28 +49,28 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 5
-    distinct_repos: 2
-    pushes_per_repo: 2.5000
+    pushes: 6
+    distinct_repos: 3
+    pushes_per_repo: 2.0000
     active_days: 3
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 8
-    distinct_repos: 3
-    pushes_per_repo: 2.6667
-    active_days: 5
+    pushes: 11
+    distinct_repos: 4
+    pushes_per_repo: 2.7500
+    active_days: 6
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 103
+    pushes: 93
     distinct_repos: 11
-    pushes_per_repo: 9.3636
+    pushes_per_repo: 8.4545
     active_days: 36
-    repos_not_owned: 8
-    not_owned_basenames: 6
+    repos_not_owned: 7
+    not_owned_basenames: 5
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
@@ -129,6 +129,6 @@ repos:
 
 # mattwilkinsonn
 
-103 pushes across 11 repositories on 36 active days in the last 90 days of public GitHub push activity.
+93 pushes across 11 repositories on 36 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/mattwilkinsonn

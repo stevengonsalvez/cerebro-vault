@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-27T06:09:19.734552+00:00"
+generated_at: "2026-09-28T06:07:44.182865+00:00"
 provenance:
   - "406a85b388590eb0"
-pushes_per_week: [0, 8, 7, 3, 2, 2, 9, 1, 6, 0, 6, 5, 8]
+pushes_per_week: [0, 8, 7, 3, 2, 2, 9, 3, 4, 0, 7, 6, 7]
 windows:
   "7d":
-    pushes: 8
-    distinct_repos: 3
-    active_days: 6
-    repos_not_owned: 3
-    not_owned_basenames: 3
+    pushes: 7
+    distinct_repos: 2
+    active_days: 5
+    repos_not_owned: 2
+    not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 19
+    pushes: 20
     distinct_repos: 6
     active_days: 14
     repos_not_owned: 6
     not_owned_basenames: 6
     not_owned_owners: 1
   "90d":
-    pushes: 57
+    pushes: 58
     distinct_repos: 23
     active_days: 31
     repos_not_owned: 11
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 1.8387
+  push_per_day: 1.8710
   repo_per_active_day: 0.7419
   not_owned_ratio: 0.4783
   basename_concentration: 0.0870
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 8
-    distinct_repos: 3
-    pushes_per_repo: 2.6667
-    active_days: 6
-    repos_not_owned: 3
-    not_owned_basenames: 3
+    pushes: 7
+    distinct_repos: 2
+    pushes_per_repo: 3.5000
+    active_days: 5
+    repos_not_owned: 2
+    not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 19
+    pushes: 20
     distinct_repos: 6
-    pushes_per_repo: 3.1667
+    pushes_per_repo: 3.3333
     active_days: 14
     repos_not_owned: 6
     not_owned_basenames: 6
     not_owned_owners: 1
   "90d":
-    pushes: 57
+    pushes: 58
     distinct_repos: 23
-    pushes_per_repo: 2.4783
+    pushes_per_repo: 2.5217
     active_days: 31
     repos_not_owned: 11
     not_owned_basenames: 11
@@ -129,6 +129,6 @@ repos:
 
 # johnsonr
 
-57 pushes across 23 repositories on 31 active days in the last 90 days of public GitHub push activity.
+58 pushes across 23 repositories on 31 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/johnsonr

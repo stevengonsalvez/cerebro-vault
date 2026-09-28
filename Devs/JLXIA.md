@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: true
 repos_populated: true
-generated_at: "2026-09-25T06:06:35.067653+00:00"
+generated_at: "2026-09-28T06:07:44.182865+00:00"
 provenance:
   - "c87cd13d69aef691"
-pushes_per_week: [2, 0, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [0, 2, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 6
+    pushes: 4
     distinct_repos: 1
-    active_days: 3
+    active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
   push_per_day: 2.0000
-  repo_per_active_day: 0.3333
+  repo_per_active_day: 0.5000
   not_owned_ratio: 1.0000
   basename_concentration: 1.0000
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 6
+    pushes: 4
     distinct_repos: 1
-    pushes_per_repo: 6.0000
-    active_days: 3
+    pushes_per_repo: 4.0000
+    active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 3 active days in 90d — below the 5-day line, LABELLED low-n (never suppressed)"
+  - "activity: 2 active days in 90d — below the 5-day line, LABELLED low-n (never suppressed)"
   - "automation: clear — pass"
 repos:
   - name: "stitch-eval-apps"
@@ -89,6 +89,6 @@ repos:
 
 # JLXIA
 
-6 pushes across 1 repository on 3 active days in the last 90 days of public GitHub push activity.
+4 pushes across 1 repository on 2 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/JLXIA

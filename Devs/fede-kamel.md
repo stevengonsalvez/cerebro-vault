@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-27T06:09:19.734552+00:00"
+generated_at: "2026-09-28T06:07:44.182865+00:00"
 provenance:
   - "1be978947e68d1f2"
-pushes_per_week: [3, 17, 8, 13, 10, 3, 26, 4, 0, 0, 0, 2, 3]
+pushes_per_week: [6, 12, 10, 11, 9, 5, 25, 3, 0, 0, 0, 2, 3]
 windows:
   "7d":
     pushes: 3
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 89
+    pushes: 86
     distinct_repos: 23
-    active_days: 33
+    active_days: 32
     repos_not_owned: 10
     not_owned_basenames: 10
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 2.6970
-  repo_per_active_day: 0.6970
+  push_per_day: 2.6875
+  repo_per_active_day: 0.7188
   not_owned_ratio: 0.4348
   basename_concentration: 0.0870
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 89
+    pushes: 86
     distinct_repos: 23
-    pushes_per_repo: 3.8696
-    active_days: 33
+    pushes_per_repo: 3.7391
+    active_days: 32
     repos_not_owned: 10
     not_owned_basenames: 10
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 33 active days in 90d — pass"
+  - "activity: 32 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "llama-index-postprocessor-oci-genai-rerank"
@@ -121,6 +121,6 @@ repos:
 
 # fede-kamel
 
-89 pushes across 23 repositories on 33 active days in the last 90 days of public GitHub push activity.
+86 pushes across 23 repositories on 32 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/fede-kamel

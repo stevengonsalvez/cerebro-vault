@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-25T06:06:35.067653+00:00"
+generated_at: "2026-09-28T06:07:44.182865+00:00"
 provenance:
   - "a50b0e08dbaee74a"
-pushes_per_week: [7, 8, 4, 0, 9, 2, 1, 0, 1, 0, 0, 0, 2]
+pushes_per_week: [2, 8, 4, 1, 8, 2, 1, 0, 1, 0, 0, 0, 2]
 windows:
   "7d":
     pushes: 2
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 34
+    pushes: 29
     distinct_repos: 16
-    active_days: 18
+    active_days: 17
     repos_not_owned: 16
     not_owned_basenames: 12
     not_owned_owners: 10
 automation:
   state: "clear"
-  push_per_day: 1.8889
-  repo_per_active_day: 0.8889
+  push_per_day: 1.7059
+  repo_per_active_day: 0.9412
   not_owned_ratio: 1.0000
   basename_concentration: 0.1875
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 34
+    pushes: 29
     distinct_repos: 16
-    pushes_per_repo: 2.1250
-    active_days: 18
+    pushes_per_repo: 1.8125
+    active_days: 17
     repos_not_owned: 16
     not_owned_basenames: 12
     not_owned_owners: 10
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 18 active days in 90d — pass"
+  - "activity: 17 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "cdk-esbuild"
@@ -142,6 +142,6 @@ repos:
 
 # mrgrain
 
-34 pushes across 16 repositories on 18 active days in the last 90 days of public GitHub push activity.
+29 pushes across 16 repositories on 17 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/mrgrain

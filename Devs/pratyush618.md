@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-27T06:09:19.734552+00:00"
+generated_at: "2026-09-28T06:07:44.182865+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [39, 34, 28, 10, 9, 7, 5, 1, 0, 0, 2, 8, 5]
+pushes_per_week: [38, 26, 32, 7, 8, 7, 5, 1, 0, 2, 0, 8, 5]
 windows:
   "7d":
-    pushes: 9
+    pushes: 5
     distinct_repos: 2
-    active_days: 5
+    active_days: 4
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 148
+    pushes: 139
     distinct_repos: 11
-    active_days: 44
+    active_days: 43
     repos_not_owned: 8
     not_owned_basenames: 7
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 3.3636
-  repo_per_active_day: 0.2500
+  push_per_day: 3.2326
+  repo_per_active_day: 0.2558
   not_owned_ratio: 0.7273
   basename_concentration: 0.1818
   shapes: []
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 9
+    pushes: 5
     distinct_repos: 2
-    pushes_per_repo: 4.5000
-    active_days: 5
+    pushes_per_repo: 2.5000
+    active_days: 4
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 148
+    pushes: 139
     distinct_repos: 11
-    pushes_per_repo: 13.4545
-    active_days: 44
+    pushes_per_repo: 12.6364
+    active_days: 43
     repos_not_owned: 8
     not_owned_basenames: 7
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 44 active days in 90d — pass"
+  - "activity: 43 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "pratyush618"
@@ -129,6 +129,6 @@ repos:
 
 # pratyush618
 
-148 pushes across 11 repositories on 44 active days in the last 90 days of public GitHub push activity.
+139 pushes across 11 repositories on 43 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/pratyush618

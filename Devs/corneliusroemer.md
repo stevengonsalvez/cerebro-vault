@@ -9,41 +9,41 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-27T06:09:19.734552+00:00"
+generated_at: "2026-09-28T06:07:44.182865+00:00"
 provenance:
   - "97c4e9cb8b163ddb"
   - "c7515e0fa4368a55"
   - "d3abe74726b22711"
   - "e7c647c4d0689526"
-pushes_per_week: [16, 8, 4, 3, 0, 2, 2, 2, 2, 0, 1, 5, 3]
+pushes_per_week: [12, 6, 5, 2, 0, 2, 4, 0, 2, 1, 1, 4, 7]
 windows:
   "7d":
-    pushes: 3
-    distinct_repos: 2
-    active_days: 1
+    pushes: 7
+    distinct_repos: 3
+    active_days: 2
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
   "30d":
-    pushes: 9
-    distinct_repos: 3
-    active_days: 5
+    pushes: 13
+    distinct_repos: 4
+    active_days: 6
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
   "90d":
-    pushes: 48
-    distinct_repos: 12
+    pushes: 46
+    distinct_repos: 13
     active_days: 24
     repos_not_owned: 9
     not_owned_basenames: 9
     not_owned_owners: 5
 automation:
   state: "clear"
-  push_per_day: 2.0000
-  repo_per_active_day: 0.5000
-  not_owned_ratio: 0.7500
-  basename_concentration: 0.0833
+  push_per_day: 1.9167
+  repo_per_active_day: 0.5417
+  not_owned_ratio: 0.6923
+  basename_concentration: 0.0769
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -52,25 +52,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 3
-    distinct_repos: 2
-    pushes_per_repo: 1.5000
-    active_days: 1
+    pushes: 7
+    distinct_repos: 3
+    pushes_per_repo: 2.3333
+    active_days: 2
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
   "30d":
-    pushes: 9
-    distinct_repos: 3
-    pushes_per_repo: 3.0000
-    active_days: 5
+    pushes: 13
+    distinct_repos: 4
+    pushes_per_repo: 3.2500
+    active_days: 6
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
   "90d":
-    pushes: 48
-    distinct_repos: 12
-    pushes_per_repo: 4.0000
+    pushes: 46
+    distinct_repos: 13
+    pushes_per_repo: 3.5385
     active_days: 24
     repos_not_owned: 9
     not_owned_basenames: 9
@@ -138,6 +138,6 @@ repos:
 
 # corneliusroemer
 
-48 pushes across 12 repositories on 24 active days in the last 90 days of public GitHub push activity.
+46 pushes across 13 repositories on 24 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/corneliusroemer

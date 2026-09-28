@@ -10,10 +10,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-27T06:09:19.734552+00:00"
+generated_at: "2026-09-28T06:07:44.182865+00:00"
 provenance:
   - "541318303a272608"
-pushes_per_week: [19, 11, 11, 9, 0, 0, 3, 1, 2, 0, 1, 7, 7]
+pushes_per_week: [19, 8, 13, 5, 0, 0, 3, 1, 2, 0, 1, 8, 7]
 windows:
   "7d":
     pushes: 8
@@ -30,7 +30,7 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 71
+    pushes: 67
     distinct_repos: 2
     active_days: 31
     repos_not_owned: 1
@@ -38,7 +38,7 @@ windows:
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.2903
+  push_per_day: 2.1613
   repo_per_active_day: 0.0645
   not_owned_ratio: 0.5000
   basename_concentration: 0.5000
@@ -66,9 +66,9 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 71
+    pushes: 67
     distinct_repos: 2
-    pushes_per_repo: 35.5000
+    pushes_per_repo: 33.5000
     active_days: 31
     repos_not_owned: 1
     not_owned_basenames: 1
@@ -130,6 +130,6 @@ repos:
 
 # rayrayraykk
 
-71 pushes across 2 repositories on 31 active days in the last 90 days of public GitHub push activity.
+67 pushes across 2 repositories on 31 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/rayrayraykk

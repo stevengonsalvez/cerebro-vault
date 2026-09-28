@@ -9,20 +9,20 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-27T06:09:19.734552+00:00"
+generated_at: "2026-09-28T06:07:44.182865+00:00"
 provenance:
   - "dae9f02535f7c22f"
-pushes_per_week: [2, 6, 92, 111, 14, 2, 3, 19, 3, 1, 2, 0, 9]
+pushes_per_week: [3, 5, 166, 39, 11, 2, 3, 22, 1, 1, 1, 0, 10]
 windows:
   "7d":
-    pushes: 9
+    pushes: 10
     distinct_repos: 5
     active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 12
+    pushes: 13
     distinct_repos: 6
     active_days: 8
     repos_not_owned: 0
@@ -31,14 +31,14 @@ windows:
   "90d":
     pushes: 264
     distinct_repos: 110
-    active_days: 36
+    active_days: 35
     repos_not_owned: 100
     not_owned_basenames: 96
     not_owned_owners: 6
 automation:
   state: "clear"
-  push_per_day: 7.3333
-  repo_per_active_day: 3.0556
+  push_per_day: 7.5429
+  repo_per_active_day: 3.1429
   not_owned_ratio: 0.9091
   basename_concentration: 0.0545
   shapes: []
@@ -49,17 +49,17 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 9
+    pushes: 10
     distinct_repos: 5
-    pushes_per_repo: 1.8000
+    pushes_per_repo: 2.0000
     active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 12
+    pushes: 13
     distinct_repos: 6
-    pushes_per_repo: 2.0000
+    pushes_per_repo: 2.1667
     active_days: 8
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -68,13 +68,13 @@ facets:
     pushes: 264
     distinct_repos: 110
     pushes_per_repo: 2.4000
-    active_days: 36
+    active_days: 35
     repos_not_owned: 100
     not_owned_basenames: 96
     not_owned_owners: 6
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 36 active days in 90d — pass"
+  - "activity: 35 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "shaun0927"
@@ -129,6 +129,6 @@ repos:
 
 # shaun0927
 
-264 pushes across 110 repositories on 36 active days in the last 90 days of public GitHub push activity.
+264 pushes across 110 repositories on 35 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/shaun0927

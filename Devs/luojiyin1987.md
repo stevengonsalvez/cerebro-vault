@@ -11,38 +11,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-27T06:09:19.734552+00:00"
+generated_at: "2026-09-28T06:07:44.182865+00:00"
 provenance:
   - "16389f32495280ea"
   - "234088bc43763aa2"
   - "4d1450729e6ff44d"
-pushes_per_week: [40, 31, 35, 29, 14, 19, 58, 16, 4, 1, 11, 6, 4]
+pushes_per_week: [45, 31, 29, 24, 14, 19, 66, 10, 3, 4, 7, 7, 7]
 windows:
   "7d":
-    pushes: 4
-    distinct_repos: 3
-    active_days: 3
+    pushes: 8
+    distinct_repos: 4
+    active_days: 4
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 23
+    pushes: 27
     distinct_repos: 12
-    active_days: 12
+    active_days: 13
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 268
+    pushes: 266
     distinct_repos: 59
-    active_days: 59
+    active_days: 60
     repos_not_owned: 6
     not_owned_basenames: 6
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 4.5424
-  repo_per_active_day: 1.0000
+  push_per_day: 4.4333
+  repo_per_active_day: 0.9833
   not_owned_ratio: 0.1017
   basename_concentration: 0.0339
   shapes: []
@@ -53,32 +53,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 4
-    distinct_repos: 3
-    pushes_per_repo: 1.3333
-    active_days: 3
+    pushes: 8
+    distinct_repos: 4
+    pushes_per_repo: 2.0000
+    active_days: 4
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 23
+    pushes: 27
     distinct_repos: 12
-    pushes_per_repo: 1.9167
-    active_days: 12
+    pushes_per_repo: 2.2500
+    active_days: 13
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 268
+    pushes: 266
     distinct_repos: 59
-    pushes_per_repo: 4.5424
-    active_days: 59
+    pushes_per_repo: 4.5085
+    active_days: 60
     repos_not_owned: 6
     not_owned_basenames: 6
     not_owned_owners: 3
 reasons:
   - "provenance: 3 vault signal(s) — pass"
-  - "activity: 59 active days in 90d — pass"
+  - "activity: 60 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "Agent-Harness-Runtime"
@@ -133,6 +133,6 @@ repos:
 
 # luojiyin1987
 
-268 pushes across 59 repositories on 59 active days in the last 90 days of public GitHub push activity.
+266 pushes across 59 repositories on 60 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/luojiyin1987

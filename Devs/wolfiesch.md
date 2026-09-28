@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-27T06:09:19.734552+00:00"
+generated_at: "2026-09-28T06:07:44.182865+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [42, 6, 68, 64, 60, 1, 10, 2, 3, 6, 0, 1, 2]
+pushes_per_week: [8, 6, 78, 62, 52, 8, 3, 4, 7, 0, 0, 1, 2]
 windows:
   "7d":
     pushes: 2
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 265
-    distinct_repos: 20
-    active_days: 32
+    pushes: 231
+    distinct_repos: 19
+    active_days: 31
     repos_not_owned: 7
     not_owned_basenames: 5
     not_owned_owners: 5
 automation:
   state: "clear"
-  push_per_day: 8.2812
-  repo_per_active_day: 0.6250
-  not_owned_ratio: 0.3500
-  basename_concentration: 0.2000
+  push_per_day: 7.4516
+  repo_per_active_day: 0.6129
+  not_owned_ratio: 0.3684
+  basename_concentration: 0.2105
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 265
-    distinct_repos: 20
-    pushes_per_repo: 13.2500
-    active_days: 32
+    pushes: 231
+    distinct_repos: 19
+    pushes_per_repo: 12.1579
+    active_days: 31
     repos_not_owned: 7
     not_owned_basenames: 5
     not_owned_owners: 5
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 32 active days in 90d — pass"
+  - "activity: 31 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "sf-parking-heatmap"
@@ -166,6 +166,6 @@ repos:
 
 # wolfiesch
 
-265 pushes across 20 repositories on 32 active days in the last 90 days of public GitHub push activity.
+231 pushes across 19 repositories on 31 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/wolfiesch

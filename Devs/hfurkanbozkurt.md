@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-26T06:06:37.922852+00:00"
+generated_at: "2026-09-28T06:07:44.182865+00:00"
 provenance:
   - "a50b0e08dbaee74a"
-pushes_per_week: [26, 6, 22, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [21, 10, 18, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 57
+    pushes: 52
     distinct_repos: 2
-    active_days: 16
+    active_days: 15
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 3.5625
-  repo_per_active_day: 0.1250
+  push_per_day: 3.4667
+  repo_per_active_day: 0.1333
   not_owned_ratio: 0.5000
   basename_concentration: 0.5000
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 57
+    pushes: 52
     distinct_repos: 2
-    pushes_per_repo: 28.5000
-    active_days: 16
+    pushes_per_repo: 26.0000
+    active_days: 15
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 16 active days in 90d — pass"
+  - "activity: 15 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "hfurkanbozkurt.github.io"
@@ -113,6 +113,6 @@ repos:
 
 # hfurkanbozkurt
 
-57 pushes across 2 repositories on 16 active days in the last 90 days of public GitHub push activity.
+52 pushes across 2 repositories on 15 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/hfurkanbozkurt

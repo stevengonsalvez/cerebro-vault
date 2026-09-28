@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-27T06:09:19.734552+00:00"
+generated_at: "2026-09-28T06:07:44.182865+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [56, 17, 29, 20, 24, 28, 5, 4, 13, 2, 20, 8, 33]
+pushes_per_week: [58, 15, 29, 22, 27, 23, 5, 6, 11, 4, 18, 10, 38]
 windows:
   "7d":
-    pushes: 37
-    distinct_repos: 6
+    pushes: 39
+    distinct_repos: 5
     active_days: 7
-    repos_not_owned: 5
-    not_owned_basenames: 4
+    repos_not_owned: 4
+    not_owned_basenames: 3
     not_owned_owners: 2
   "30d":
-    pushes: 63
+    pushes: 70
     distinct_repos: 10
-    active_days: 14
+    active_days: 15
     repos_not_owned: 6
     not_owned_basenames: 5
     not_owned_owners: 3
   "90d":
-    pushes: 259
+    pushes: 266
     distinct_repos: 24
-    active_days: 59
+    active_days: 60
     repos_not_owned: 11
     not_owned_basenames: 10
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 4.3898
-  repo_per_active_day: 0.4068
+  push_per_day: 4.4333
+  repo_per_active_day: 0.4000
   not_owned_ratio: 0.4583
   basename_concentration: 0.0833
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 37
-    distinct_repos: 6
-    pushes_per_repo: 6.1667
+    pushes: 39
+    distinct_repos: 5
+    pushes_per_repo: 7.8000
     active_days: 7
-    repos_not_owned: 5
-    not_owned_basenames: 4
+    repos_not_owned: 4
+    not_owned_basenames: 3
     not_owned_owners: 2
   "30d":
-    pushes: 63
+    pushes: 70
     distinct_repos: 10
-    pushes_per_repo: 6.3000
-    active_days: 14
+    pushes_per_repo: 7.0000
+    active_days: 15
     repos_not_owned: 6
     not_owned_basenames: 5
     not_owned_owners: 3
   "90d":
-    pushes: 259
+    pushes: 266
     distinct_repos: 24
-    pushes_per_repo: 10.7917
-    active_days: 59
+    pushes_per_repo: 11.0833
+    active_days: 60
     repos_not_owned: 11
     not_owned_basenames: 10
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 59 active days in 90d — pass"
+  - "activity: 60 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "modern-sicp"
@@ -123,6 +123,6 @@ repos:
 
 # metaphorics
 
-259 pushes across 24 repositories on 59 active days in the last 90 days of public GitHub push activity.
+266 pushes across 24 repositories on 60 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/metaphorics

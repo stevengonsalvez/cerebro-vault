@@ -9,13 +9,13 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-27T06:09:19.734552+00:00"
+generated_at: "2026-09-28T06:07:44.182865+00:00"
 provenance:
   - "fae7e9e22c64821d"
-pushes_per_week: [59, 73, 55, 46, 32, 7, 14, 2, 6, 15, 11, 19, 48]
+pushes_per_week: [68, 64, 56, 49, 27, 8, 15, 2, 4, 15, 11, 25, 43]
 windows:
   "7d":
-    pushes: 52
+    pushes: 45
     distinct_repos: 1
     active_days: 7
     repos_not_owned: 1
@@ -24,21 +24,21 @@ windows:
   "30d":
     pushes: 94
     distinct_repos: 1
-    active_days: 19
+    active_days: 18
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
     pushes: 387
     distinct_repos: 4
-    active_days: 65
+    active_days: 64
     repos_not_owned: 3
     not_owned_basenames: 1
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 5.9538
-  repo_per_active_day: 0.0615
+  push_per_day: 6.0469
+  repo_per_active_day: 0.0625
   not_owned_ratio: 0.7500
   basename_concentration: 1.0000
   shapes: []
@@ -49,9 +49,9 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 52
+    pushes: 45
     distinct_repos: 1
-    pushes_per_repo: 52.0000
+    pushes_per_repo: 45.0000
     active_days: 7
     repos_not_owned: 1
     not_owned_basenames: 1
@@ -60,7 +60,7 @@ facets:
     pushes: 94
     distinct_repos: 1
     pushes_per_repo: 94.0000
-    active_days: 19
+    active_days: 18
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -68,13 +68,13 @@ facets:
     pushes: 387
     distinct_repos: 4
     pushes_per_repo: 96.7500
-    active_days: 65
+    active_days: 64
     repos_not_owned: 3
     not_owned_basenames: 1
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 65 active days in 90d — pass"
+  - "activity: 64 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "opencode-browser"
@@ -132,6 +132,6 @@ repos:
 
 # benjaminshafii
 
-387 pushes across 4 repositories on 65 active days in the last 90 days of public GitHub push activity.
+387 pushes across 4 repositories on 64 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/benjaminshafii

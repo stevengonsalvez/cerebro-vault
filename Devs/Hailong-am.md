@@ -9,18 +9,18 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-27T06:09:19.734552+00:00"
+generated_at: "2026-09-28T06:07:44.182865+00:00"
 provenance:
   - "a50b0e08dbaee74a"
-pushes_per_week: [3, 5, 15, 3, 5, 2, 7, 0, 0, 0, 1, 6, 5]
+pushes_per_week: [2, 5, 16, 2, 5, 2, 7, 0, 0, 1, 3, 4, 4]
 windows:
   "7d":
-    pushes: 5
-    distinct_repos: 2
-    active_days: 3
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 4
+    distinct_repos: 1
+    active_days: 2
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
     pushes: 12
     distinct_repos: 3
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 52
-    distinct_repos: 12
-    active_days: 29
-    repos_not_owned: 7
-    not_owned_basenames: 7
+    pushes: 51
+    distinct_repos: 11
+    active_days: 28
+    repos_not_owned: 6
+    not_owned_basenames: 6
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 1.7931
-  repo_per_active_day: 0.4138
-  not_owned_ratio: 0.5833
-  basename_concentration: 0.1667
+  push_per_day: 1.8214
+  repo_per_active_day: 0.3929
+  not_owned_ratio: 0.5455
+  basename_concentration: 0.1818
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,13 +49,13 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 5
-    distinct_repos: 2
-    pushes_per_repo: 2.5000
-    active_days: 3
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 4
+    distinct_repos: 1
+    pushes_per_repo: 4.0000
+    active_days: 2
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
     pushes: 12
     distinct_repos: 3
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 52
-    distinct_repos: 12
-    pushes_per_repo: 4.3333
-    active_days: 29
-    repos_not_owned: 7
-    not_owned_basenames: 7
+    pushes: 51
+    distinct_repos: 11
+    pushes_per_repo: 4.6364
+    active_days: 28
+    repos_not_owned: 6
+    not_owned_basenames: 6
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 29 active days in 90d — pass"
+  - "activity: 28 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "opensearch-api-docs"
@@ -129,6 +129,6 @@ repos:
 
 # Hailong-am
 
-52 pushes across 12 repositories on 29 active days in the last 90 days of public GitHub push activity.
+51 pushes across 11 repositories on 28 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Hailong-am

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-27T06:09:19.734552+00:00"
+generated_at: "2026-09-28T06:07:44.182865+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [3, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 2, 2]
+pushes_per_week: [2, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 3, 1]
 windows:
   "7d":
     pushes: 2
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 9
+    pushes: 8
     distinct_repos: 3
-    active_days: 7
+    active_days: 6
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 1.2857
-  repo_per_active_day: 0.4286
+  push_per_day: 1.3333
+  repo_per_active_day: 0.5000
   not_owned_ratio: 1.0000
   basename_concentration: 0.3333
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 9
+    pushes: 8
     distinct_repos: 3
-    pushes_per_repo: 3.0000
-    active_days: 7
+    pushes_per_repo: 2.6667
+    active_days: 6
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 7 active days in 90d — pass"
+  - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "nix-devin-cli"
@@ -131,6 +131,6 @@ repos:
 
 # broady
 
-9 pushes across 3 repositories on 7 active days in the last 90 days of public GitHub push activity.
+8 pushes across 3 repositories on 6 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/broady

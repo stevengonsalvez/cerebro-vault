@@ -9,28 +9,28 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-27T06:09:19.734552+00:00"
+generated_at: "2026-09-28T06:07:44.182865+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [1, 11, 8, 4, 0, 0, 0, 2, 0, 1, 7, 32, 17]
+pushes_per_week: [2, 11, 6, 4, 0, 0, 1, 1, 0, 3, 6, 32, 17]
 windows:
   "7d":
-    pushes: 21
+    pushes: 17
     distinct_repos: 4
     active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 57
+    pushes: 58
     distinct_repos: 5
-    active_days: 18
+    active_days: 19
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
     pushes: 83
-    distinct_repos: 12
+    distinct_repos: 11
     active_days: 34
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -38,9 +38,9 @@ windows:
 automation:
   state: "clear"
   push_per_day: 2.4412
-  repo_per_active_day: 0.3529
+  repo_per_active_day: 0.3235
   not_owned_ratio: 0.0000
-  basename_concentration: 0.0833
+  basename_concentration: 0.0909
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 21
+    pushes: 17
     distinct_repos: 4
-    pushes_per_repo: 5.2500
+    pushes_per_repo: 4.2500
     active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 57
+    pushes: 58
     distinct_repos: 5
-    pushes_per_repo: 11.4000
-    active_days: 18
+    pushes_per_repo: 11.6000
+    active_days: 19
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
     pushes: 83
-    distinct_repos: 12
-    pushes_per_repo: 6.9167
+    distinct_repos: 11
+    pushes_per_repo: 7.5455
     active_days: 34
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -129,6 +129,6 @@ repos:
 
 # tylergannon
 
-83 pushes across 12 repositories on 34 active days in the last 90 days of public GitHub push activity.
+83 pushes across 11 repositories on 34 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/tylergannon

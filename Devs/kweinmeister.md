@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-27T06:09:19.734552+00:00"
+generated_at: "2026-09-28T06:07:44.182865+00:00"
 provenance:
   - "6d3bd03b49986330"
-pushes_per_week: [17, 11, 22, 14, 0, 0, 5, 3, 4, 1, 2, 6, 14]
+pushes_per_week: [17, 11, 22, 14, 0, 0, 6, 2, 4, 1, 2, 15, 7]
 windows:
   "7d":
-    pushes: 19
-    distinct_repos: 11
-    active_days: 6
+    pushes: 7
+    distinct_repos: 2
+    active_days: 5
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 23
-    distinct_repos: 12
-    active_days: 9
+    pushes: 25
+    distinct_repos: 13
+    active_days: 10
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 99
-    distinct_repos: 22
-    active_days: 19
+    pushes: 101
+    distinct_repos: 23
+    active_days: 20
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 5.2105
-  repo_per_active_day: 1.1579
-  not_owned_ratio: 0.0455
-  basename_concentration: 0.0455
+  push_per_day: 5.0500
+  repo_per_active_day: 1.1500
+  not_owned_ratio: 0.0435
+  basename_concentration: 0.0435
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 19
-    distinct_repos: 11
-    pushes_per_repo: 1.7273
-    active_days: 6
+    pushes: 7
+    distinct_repos: 2
+    pushes_per_repo: 3.5000
+    active_days: 5
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 23
-    distinct_repos: 12
-    pushes_per_repo: 1.9167
-    active_days: 9
+    pushes: 25
+    distinct_repos: 13
+    pushes_per_repo: 1.9231
+    active_days: 10
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 99
-    distinct_repos: 22
-    pushes_per_repo: 4.5000
-    active_days: 19
+    pushes: 101
+    distinct_repos: 23
+    pushes_per_repo: 4.3913
+    active_days: 20
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 19 active days in 90d — pass"
+  - "activity: 20 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "ai-audio-engineer-app"
@@ -129,6 +129,6 @@ repos:
 
 # kweinmeister
 
-99 pushes across 22 repositories on 19 active days in the last 90 days of public GitHub push activity.
+101 pushes across 23 repositories on 20 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/kweinmeister

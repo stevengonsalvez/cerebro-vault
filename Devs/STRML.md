@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-27T06:09:19.734552+00:00"
+generated_at: "2026-09-28T06:07:44.182865+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [2, 4, 1, 2, 11, 12, 10, 1, 4, 0, 3, 15, 24]
+pushes_per_week: [4, 3, 0, 3, 19, 5, 9, 0, 4, 0, 4, 14, 34]
 windows:
   "7d":
-    pushes: 24
-    distinct_repos: 5
-    active_days: 4
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 34
+    distinct_repos: 8
+    active_days: 5
+    repos_not_owned: 2
+    not_owned_basenames: 2
+    not_owned_owners: 2
   "30d":
-    pushes: 42
-    distinct_repos: 9
-    active_days: 13
+    pushes: 52
+    distinct_repos: 11
+    active_days: 14
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 89
-    distinct_repos: 18
-    active_days: 35
+    pushes: 99
+    distinct_repos: 20
+    active_days: 36
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 2.5429
-  repo_per_active_day: 0.5143
-  not_owned_ratio: 0.2222
-  basename_concentration: 0.1111
+  push_per_day: 2.7500
+  repo_per_active_day: 0.5556
+  not_owned_ratio: 0.2000
+  basename_concentration: 0.1000
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 24
-    distinct_repos: 5
-    pushes_per_repo: 4.8000
-    active_days: 4
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 34
+    distinct_repos: 8
+    pushes_per_repo: 4.2500
+    active_days: 5
+    repos_not_owned: 2
+    not_owned_basenames: 2
+    not_owned_owners: 2
   "30d":
-    pushes: 42
-    distinct_repos: 9
-    pushes_per_repo: 4.6667
-    active_days: 13
+    pushes: 52
+    distinct_repos: 11
+    pushes_per_repo: 4.7273
+    active_days: 14
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 89
-    distinct_repos: 18
-    pushes_per_repo: 4.9444
-    active_days: 35
+    pushes: 99
+    distinct_repos: 20
+    pushes_per_repo: 4.9500
+    active_days: 36
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 35 active days in 90d — pass"
+  - "activity: 36 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "omp-classifier"
@@ -134,6 +134,6 @@ repos:
 
 # STRML
 
-89 pushes across 18 repositories on 35 active days in the last 90 days of public GitHub push activity.
+99 pushes across 20 repositories on 36 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/STRML

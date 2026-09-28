@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-27T06:09:19.734552+00:00"
+generated_at: "2026-09-28T06:07:44.182865+00:00"
 provenance:
   - "dae9f02535f7c22f"
-pushes_per_week: [18, 1, 0, 0, 1, 0, 5, 0, 0, 0, 0, 6, 20]
+pushes_per_week: [6, 1, 0, 0, 1, 1, 4, 0, 0, 0, 0, 6, 20]
 windows:
   "7d":
     pushes: 20
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 51
-    distinct_repos: 12
-    active_days: 18
+    pushes: 39
+    distinct_repos: 11
+    active_days: 17
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.8333
-  repo_per_active_day: 0.6667
+  push_per_day: 2.2941
+  repo_per_active_day: 0.6471
   not_owned_ratio: 0.0000
-  basename_concentration: 0.0833
+  basename_concentration: 0.0909
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 51
-    distinct_repos: 12
-    pushes_per_repo: 4.2500
-    active_days: 18
+    pushes: 39
+    distinct_repos: 11
+    pushes_per_repo: 3.5455
+    active_days: 17
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 18 active days in 90d — pass"
+  - "activity: 17 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "local-knowledge-hub"
@@ -103,6 +103,6 @@ repos:
 
 # aoright
 
-51 pushes across 12 repositories on 18 active days in the last 90 days of public GitHub push activity.
+39 pushes across 11 repositories on 17 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/aoright

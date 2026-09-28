@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-27T06:09:19.734552+00:00"
+generated_at: "2026-09-28T06:07:44.182865+00:00"
 provenance:
   - "3cb7ff1cdcf97c6b"
-pushes_per_week: [9, 12, 14, 3, 3, 0, 0, 0, 2, 1, 6, 1, 2]
+pushes_per_week: [8, 13, 13, 3, 3, 0, 0, 0, 2, 1, 6, 1, 2]
 windows:
   "7d":
     pushes: 2
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 53
+    pushes: 52
     distinct_repos: 13
-    active_days: 19
+    active_days: 18
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 2.7895
-  repo_per_active_day: 0.6842
+  push_per_day: 2.8889
+  repo_per_active_day: 0.7222
   not_owned_ratio: 0.1538
   basename_concentration: 0.0769
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 53
+    pushes: 52
     distinct_repos: 13
-    pushes_per_repo: 4.0769
-    active_days: 19
+    pushes_per_repo: 4.0000
+    active_days: 18
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 19 active days in 90d — pass"
+  - "activity: 18 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "instagram-skills"
@@ -229,6 +229,6 @@ repos:
 
 # sergebulaev
 
-53 pushes across 13 repositories on 19 active days in the last 90 days of public GitHub push activity.
+52 pushes across 13 repositories on 18 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/sergebulaev

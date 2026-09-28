@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-27T06:09:19.734552+00:00"
+generated_at: "2026-09-28T06:07:44.182865+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [101, 34, 41, 33, 41, 16, 7, 1, 1, 2, 5, 15, 20]
+pushes_per_week: [98, 32, 39, 35, 44, 9, 7, 1, 1, 3, 7, 12, 27]
 windows:
   "7d":
-    pushes: 20
+    pushes: 27
     distinct_repos: 1
-    active_days: 5
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 42
+    pushes: 49
     distinct_repos: 5
-    active_days: 16
+    active_days: 17
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 317
+    pushes: 315
     distinct_repos: 13
     active_days: 61
     repos_not_owned: 6
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 5.1967
+  push_per_day: 5.1639
   repo_per_active_day: 0.2131
   not_owned_ratio: 0.4615
   basename_concentration: 0.0769
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 20
+    pushes: 27
     distinct_repos: 1
-    pushes_per_repo: 20.0000
-    active_days: 5
+    pushes_per_repo: 27.0000
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 42
+    pushes: 49
     distinct_repos: 5
-    pushes_per_repo: 8.4000
-    active_days: 16
+    pushes_per_repo: 9.8000
+    active_days: 17
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 317
+    pushes: 315
     distinct_repos: 13
-    pushes_per_repo: 24.3846
+    pushes_per_repo: 24.2308
     active_days: 61
     repos_not_owned: 6
     not_owned_basenames: 6
@@ -132,6 +132,6 @@ repos:
 
 # BYK
 
-317 pushes across 13 repositories on 61 active days in the last 90 days of public GitHub push activity.
+315 pushes across 13 repositories on 61 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/BYK

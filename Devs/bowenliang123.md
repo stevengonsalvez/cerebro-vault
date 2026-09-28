@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-27T06:09:19.734552+00:00"
+generated_at: "2026-09-28T06:07:44.182865+00:00"
 provenance:
   - "541318303a272608"
-pushes_per_week: [0, 0, 0, 2, 0, 6, 18, 1, 2, 0, 2, 5, 7]
+pushes_per_week: [0, 0, 0, 2, 0, 6, 18, 1, 2, 0, 4, 3, 9]
 windows:
   "7d":
-    pushes: 7
+    pushes: 9
     distinct_repos: 2
-    active_days: 5
+    active_days: 6
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 15
+    pushes: 17
     distinct_repos: 2
-    active_days: 11
+    active_days: 12
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 43
+    pushes: 45
     distinct_repos: 8
-    active_days: 19
+    active_days: 20
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.2632
-  repo_per_active_day: 0.4211
+  push_per_day: 2.2500
+  repo_per_active_day: 0.4000
   not_owned_ratio: 0.1250
   basename_concentration: 0.2500
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 7
+    pushes: 9
     distinct_repos: 2
-    pushes_per_repo: 3.5000
-    active_days: 5
+    pushes_per_repo: 4.5000
+    active_days: 6
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 15
+    pushes: 17
     distinct_repos: 2
-    pushes_per_repo: 7.5000
-    active_days: 11
+    pushes_per_repo: 8.5000
+    active_days: 12
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 43
+    pushes: 45
     distinct_repos: 8
-    pushes_per_repo: 5.3750
-    active_days: 19
+    pushes_per_repo: 5.6250
+    active_days: 20
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 19 active days in 90d — pass"
+  - "activity: 20 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "dsh-context"
@@ -142,6 +142,6 @@ repos:
 
 # bowenliang123
 
-43 pushes across 8 repositories on 19 active days in the last 90 days of public GitHub push activity.
+45 pushes across 8 repositories on 20 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/bowenliang123

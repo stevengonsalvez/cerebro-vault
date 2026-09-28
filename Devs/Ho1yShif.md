@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-27T06:09:19.734552+00:00"
+generated_at: "2026-09-28T06:07:44.182865+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [5, 22, 13, 22, 12, 5, 5, 3, 0, 0, 1, 2, 1]
+pushes_per_week: [7, 20, 14, 21, 12, 5, 6, 2, 0, 0, 1, 2, 2]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
+    pushes: 2
+    distinct_repos: 2
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 4
+    pushes: 5
     distinct_repos: 4
-    active_days: 3
+    active_days: 4
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 91
+    pushes: 92
     distinct_repos: 27
-    active_days: 31
+    active_days: 32
     repos_not_owned: 11
     not_owned_basenames: 11
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 2.9355
-  repo_per_active_day: 0.8710
+  push_per_day: 2.8750
+  repo_per_active_day: 0.8438
   not_owned_ratio: 0.4074
   basename_concentration: 0.0741
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
+    pushes: 2
+    distinct_repos: 2
     pushes_per_repo: 1.0000
-    active_days: 1
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 4
+    pushes: 5
     distinct_repos: 4
-    pushes_per_repo: 1.0000
-    active_days: 3
+    pushes_per_repo: 1.2500
+    active_days: 4
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 91
+    pushes: 92
     distinct_repos: 27
-    pushes_per_repo: 3.3704
-    active_days: 31
+    pushes_per_repo: 3.4074
+    active_days: 32
     repos_not_owned: 11
     not_owned_basenames: 11
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 31 active days in 90d — pass"
+  - "activity: 32 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "grouplink-py"
@@ -129,6 +129,6 @@ repos:
 
 # Ho1yShif
 
-91 pushes across 27 repositories on 31 active days in the last 90 days of public GitHub push activity.
+92 pushes across 27 repositories on 32 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Ho1yShif

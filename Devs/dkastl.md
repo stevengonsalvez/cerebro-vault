@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-27T06:09:19.734552+00:00"
+generated_at: "2026-09-28T06:07:44.182865+00:00"
 provenance:
   - "379642deb53f3714"
-pushes_per_week: [12, 1, 0, 7, 16, 1, 19, 0, 0, 0, 0, 9, 4]
+pushes_per_week: [10, 0, 0, 9, 14, 1, 19, 0, 0, 0, 1, 8, 6]
 windows:
   "7d":
-    pushes: 4
+    pushes: 6
     distinct_repos: 2
-    active_days: 2
+    active_days: 4
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 13
+    pushes: 15
     distinct_repos: 5
-    active_days: 6
+    active_days: 8
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 1
   "90d":
-    pushes: 69
-    distinct_repos: 13
-    active_days: 19
-    repos_not_owned: 13
-    not_owned_basenames: 13
+    pushes: 68
+    distinct_repos: 12
+    active_days: 20
+    repos_not_owned: 12
+    not_owned_basenames: 12
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 3.6316
-  repo_per_active_day: 0.6842
+  push_per_day: 3.4000
+  repo_per_active_day: 0.6000
   not_owned_ratio: 1.0000
-  basename_concentration: 0.0769
+  basename_concentration: 0.0833
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 4
+    pushes: 6
     distinct_repos: 2
-    pushes_per_repo: 2.0000
-    active_days: 2
+    pushes_per_repo: 3.0000
+    active_days: 4
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 13
+    pushes: 15
     distinct_repos: 5
-    pushes_per_repo: 2.6000
-    active_days: 6
+    pushes_per_repo: 3.0000
+    active_days: 8
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 1
   "90d":
-    pushes: 69
-    distinct_repos: 13
-    pushes_per_repo: 5.3077
-    active_days: 19
-    repos_not_owned: 13
-    not_owned_basenames: 13
+    pushes: 68
+    distinct_repos: 12
+    pushes_per_repo: 5.6667
+    active_days: 20
+    repos_not_owned: 12
+    not_owned_basenames: 12
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 19 active days in 90d — pass"
+  - "activity: 20 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "slides-test"
@@ -130,6 +130,6 @@ repos:
 
 # dkastl
 
-69 pushes across 13 repositories on 19 active days in the last 90 days of public GitHub push activity.
+68 pushes across 12 repositories on 20 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/dkastl

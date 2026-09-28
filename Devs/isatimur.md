@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-27T06:09:19.734552+00:00"
+generated_at: "2026-09-28T06:07:44.182865+00:00"
 provenance:
   - "46f3c1d6124190bd"
-pushes_per_week: [20, 2, 8, 16, 44, 3, 2, 0, 0, 0, 1, 4, 0]
+pushes_per_week: [19, 1, 10, 14, 46, 2, 1, 0, 0, 0, 1, 4, 0]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 100
+    pushes: 98
     distinct_repos: 12
-    active_days: 31
+    active_days: 30
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 3.2258
-  repo_per_active_day: 0.3871
+  push_per_day: 3.2667
+  repo_per_active_day: 0.4000
   not_owned_ratio: 0.0000
   basename_concentration: 0.0833
   shapes: []
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 100
+    pushes: 98
     distinct_repos: 12
-    pushes_per_repo: 8.3333
-    active_days: 31
+    pushes_per_repo: 8.1667
+    active_days: 30
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 31 active days in 90d — pass"
+  - "activity: 30 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "excalidraw-skill-pack"
@@ -169,6 +169,6 @@ repos:
 
 # isatimur
 
-100 pushes across 12 repositories on 31 active days in the last 90 days of public GitHub push activity.
+98 pushes across 12 repositories on 30 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/isatimur

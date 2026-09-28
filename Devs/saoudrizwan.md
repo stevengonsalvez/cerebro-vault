@@ -10,10 +10,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-27T06:09:19.734552+00:00"
+generated_at: "2026-09-28T06:07:44.182865+00:00"
 provenance:
   - "533d51d9d3dea76f"
-pushes_per_week: [14, 29, 32, 33, 41, 26, 24, 6, 1, 0, 3, 4, 9]
+pushes_per_week: [15, 24, 32, 36, 37, 26, 26, 4, 1, 0, 3, 4, 9]
 windows:
   "7d":
     pushes: 9
@@ -30,16 +30,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 222
+    pushes: 217
     distinct_repos: 5
-    active_days: 52
+    active_days: 51
     repos_not_owned: 5
     not_owned_basenames: 4
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 4.2692
-  repo_per_active_day: 0.0962
+  push_per_day: 4.2549
+  repo_per_active_day: 0.0980
   not_owned_ratio: 1.0000
   basename_concentration: 0.4000
   shapes: []
@@ -66,16 +66,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 222
+    pushes: 217
     distinct_repos: 5
-    pushes_per_repo: 44.4000
-    active_days: 52
+    pushes_per_repo: 43.4000
+    active_days: 51
     repos_not_owned: 5
     not_owned_basenames: 4
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 52 active days in 90d — pass"
+  - "activity: 51 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "Disk"
@@ -160,6 +160,6 @@ repos:
 
 # saoudrizwan
 
-222 pushes across 5 repositories on 52 active days in the last 90 days of public GitHub push activity.
+217 pushes across 5 repositories on 51 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/saoudrizwan

@@ -10,38 +10,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-27T06:09:19.734552+00:00"
+generated_at: "2026-09-28T06:07:44.182865+00:00"
 provenance:
   - "2a7f0fddd2dac162"
-pushes_per_week: [80, 25, 68, 39, 28, 15, 8, 8, 6, 1, 0, 28, 44]
+pushes_per_week: [76, 28, 70, 34, 32, 12, 7, 7, 5, 1, 0, 30, 51]
 windows:
   "7d":
-    pushes: 55
-    distinct_repos: 4
-    active_days: 7
+    pushes: 51
+    distinct_repos: 5
+    active_days: 5
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 73
-    distinct_repos: 8
+    pushes: 82
+    distinct_repos: 9
     active_days: 10
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 350
-    distinct_repos: 13
-    active_days: 58
+    pushes: 353
+    distinct_repos: 14
+    active_days: 57
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 6.0345
-  repo_per_active_day: 0.2241
-  not_owned_ratio: 0.0769
-  basename_concentration: 0.1538
+  push_per_day: 6.1930
+  repo_per_active_day: 0.2456
+  not_owned_ratio: 0.0714
+  basename_concentration: 0.1429
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -50,32 +50,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 55
-    distinct_repos: 4
-    pushes_per_repo: 13.7500
-    active_days: 7
+    pushes: 51
+    distinct_repos: 5
+    pushes_per_repo: 10.2000
+    active_days: 5
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 73
-    distinct_repos: 8
-    pushes_per_repo: 9.1250
+    pushes: 82
+    distinct_repos: 9
+    pushes_per_repo: 9.1111
     active_days: 10
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 350
-    distinct_repos: 13
-    pushes_per_repo: 26.9231
-    active_days: 58
+    pushes: 353
+    distinct_repos: 14
+    pushes_per_repo: 25.2143
+    active_days: 57
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 58 active days in 90d — pass"
+  - "activity: 57 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "mermaid-rs-renderer"
@@ -148,6 +148,6 @@ repos:
 
 # 1jehuang
 
-350 pushes across 13 repositories on 58 active days in the last 90 days of public GitHub push activity.
+353 pushes across 14 repositories on 57 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/1jehuang

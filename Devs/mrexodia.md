@@ -10,39 +10,39 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-27T06:09:19.734552+00:00"
+generated_at: "2026-09-28T06:07:44.182865+00:00"
 provenance:
   - "48dbbdd8fd0d3029"
   - "de6bf05613f3ae04"
-pushes_per_week: [14, 4, 22, 9, 6, 8, 3, 7, 0, 0, 1, 5, 6]
+pushes_per_week: [13, 6, 20, 9, 6, 9, 4, 5, 0, 0, 1, 5, 8]
 windows:
   "7d":
-    pushes: 6
-    distinct_repos: 6
-    active_days: 3
-    repos_not_owned: 3
-    not_owned_basenames: 3
-    not_owned_owners: 2
-  "30d":
-    pushes: 12
-    distinct_repos: 8
-    active_days: 8
+    pushes: 8
+    distinct_repos: 7
+    active_days: 4
     repos_not_owned: 4
     not_owned_basenames: 4
+    not_owned_owners: 2
+  "30d":
+    pushes: 14
+    distinct_repos: 9
+    active_days: 9
+    repos_not_owned: 5
+    not_owned_basenames: 5
     not_owned_owners: 3
   "90d":
-    pushes: 85
-    distinct_repos: 36
+    pushes: 86
+    distinct_repos: 37
     active_days: 42
-    repos_not_owned: 12
-    not_owned_basenames: 10
+    repos_not_owned: 13
+    not_owned_basenames: 11
     not_owned_owners: 5
 automation:
   state: "clear"
-  push_per_day: 2.0238
-  repo_per_active_day: 0.8571
-  not_owned_ratio: 0.3333
-  basename_concentration: 0.0833
+  push_per_day: 2.0476
+  repo_per_active_day: 0.8810
+  not_owned_ratio: 0.3514
+  basename_concentration: 0.0811
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -51,28 +51,28 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 6
-    distinct_repos: 6
-    pushes_per_repo: 1.0000
-    active_days: 3
-    repos_not_owned: 3
-    not_owned_basenames: 3
-    not_owned_owners: 2
-  "30d":
-    pushes: 12
-    distinct_repos: 8
-    pushes_per_repo: 1.5000
-    active_days: 8
+    pushes: 8
+    distinct_repos: 7
+    pushes_per_repo: 1.1429
+    active_days: 4
     repos_not_owned: 4
     not_owned_basenames: 4
+    not_owned_owners: 2
+  "30d":
+    pushes: 14
+    distinct_repos: 9
+    pushes_per_repo: 1.5556
+    active_days: 9
+    repos_not_owned: 5
+    not_owned_basenames: 5
     not_owned_owners: 3
   "90d":
-    pushes: 85
-    distinct_repos: 36
-    pushes_per_repo: 2.3611
+    pushes: 86
+    distinct_repos: 37
+    pushes_per_repo: 2.3243
     active_days: 42
-    repos_not_owned: 12
-    not_owned_basenames: 10
+    repos_not_owned: 13
+    not_owned_basenames: 11
     not_owned_owners: 5
 reasons:
   - "provenance: 2 vault signal(s) — pass"
@@ -158,6 +158,6 @@ repos:
 
 # mrexodia
 
-85 pushes across 36 repositories on 42 active days in the last 90 days of public GitHub push activity.
+86 pushes across 37 repositories on 42 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/mrexodia

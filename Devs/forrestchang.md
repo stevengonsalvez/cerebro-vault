@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-27T06:09:19.734552+00:00"
+generated_at: "2026-09-28T06:07:44.182865+00:00"
 provenance:
   - "ca6e9330cc1b2a53"
-pushes_per_week: [1, 16, 18, 3, 9, 4, 11, 3, 0, 0, 4, 7, 13]
+pushes_per_week: [1, 16, 18, 3, 9, 4, 13, 1, 0, 1, 4, 6, 20]
 windows:
   "7d":
-    pushes: 15
+    pushes: 20
     distinct_repos: 1
     active_days: 4
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 24
+    pushes: 31
     distinct_repos: 2
-    active_days: 10
+    active_days: 11
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
   "90d":
-    pushes: 89
+    pushes: 96
     distinct_repos: 5
-    active_days: 33
+    active_days: 34
     repos_not_owned: 3
     not_owned_basenames: 2
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 2.6970
-  repo_per_active_day: 0.1515
+  push_per_day: 2.8235
+  repo_per_active_day: 0.1471
   not_owned_ratio: 0.6000
   basename_concentration: 0.4000
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 15
+    pushes: 20
     distinct_repos: 1
-    pushes_per_repo: 15.0000
+    pushes_per_repo: 20.0000
     active_days: 4
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 24
+    pushes: 31
     distinct_repos: 2
-    pushes_per_repo: 12.0000
-    active_days: 10
+    pushes_per_repo: 15.5000
+    active_days: 11
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
   "90d":
-    pushes: 89
+    pushes: 96
     distinct_repos: 5
-    pushes_per_repo: 17.8000
-    active_days: 33
+    pushes_per_repo: 19.2000
+    active_days: 34
     repos_not_owned: 3
     not_owned_basenames: 2
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 33 active days in 90d — pass"
+  - "activity: 34 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "youtube-reader"
@@ -129,6 +129,6 @@ repos:
 
 # forrestchang
 
-89 pushes across 5 repositories on 33 active days in the last 90 days of public GitHub push activity.
+96 pushes across 5 repositories on 34 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/forrestchang

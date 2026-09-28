@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-26T06:06:37.922852+00:00"
+generated_at: "2026-09-28T06:07:44.182865+00:00"
 provenance:
   - "a50b0e08dbaee74a"
-pushes_per_week: [3, 2, 0, 4, 0, 0, 0, 0, 0, 0, 0, 1, 0]
+pushes_per_week: [2, 2, 0, 4, 0, 0, 0, 0, 0, 0, 0, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 10
-    distinct_repos: 7
-    active_days: 8
-    repos_not_owned: 5
+    pushes: 9
+    distinct_repos: 6
+    active_days: 7
+    repos_not_owned: 4
     not_owned_basenames: 3
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 1.2500
-  repo_per_active_day: 0.8750
-  not_owned_ratio: 0.7143
-  basename_concentration: 0.5714
+  push_per_day: 1.2857
+  repo_per_active_day: 0.8571
+  not_owned_ratio: 0.6667
+  basename_concentration: 0.5000
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 10
-    distinct_repos: 7
-    pushes_per_repo: 1.4286
-    active_days: 8
-    repos_not_owned: 5
+    pushes: 9
+    distinct_repos: 6
+    pushes_per_repo: 1.5000
+    active_days: 7
+    repos_not_owned: 4
     not_owned_basenames: 3
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 8 active days in 90d — pass"
+  - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "lambda-layer-for-alexa"
@@ -102,6 +102,6 @@ repos:
 
 # bfreiberg
 
-10 pushes across 7 repositories on 8 active days in the last 90 days of public GitHub push activity.
+9 pushes across 6 repositories on 7 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/bfreiberg

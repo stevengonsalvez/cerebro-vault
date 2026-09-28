@@ -10,11 +10,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-27T06:09:19.734552+00:00"
+generated_at: "2026-09-28T06:07:44.182865+00:00"
 provenance:
   - "02eab667df448997"
   - "2d6ba8fc0269fd52"
-pushes_per_week: [13, 1, 1, 1, 11, 0, 0, 0, 0, 0, 1, 1, 1]
+pushes_per_week: [9, 1, 1, 2, 10, 0, 0, 0, 0, 0, 1, 1, 1]
 windows:
   "7d":
     pushes: 1
@@ -31,16 +31,16 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 30
+    pushes: 26
     distinct_repos: 3
-    active_days: 14
+    active_days: 12
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.1429
-  repo_per_active_day: 0.2143
+  push_per_day: 2.1667
+  repo_per_active_day: 0.2500
   not_owned_ratio: 1.0000
   basename_concentration: 0.3333
   shapes: []
@@ -67,16 +67,16 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 30
+    pushes: 26
     distinct_repos: 3
-    pushes_per_repo: 10.0000
-    active_days: 14
+    pushes_per_repo: 8.6667
+    active_days: 12
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 14 active days in 90d — pass"
+  - "activity: 12 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "mcp-repo-data-tracker"
@@ -131,6 +131,6 @@ repos:
 
 # localden
 
-30 pushes across 3 repositories on 14 active days in the last 90 days of public GitHub push activity.
+26 pushes across 3 repositories on 12 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/localden

@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-27T06:09:19.734552+00:00"
+generated_at: "2026-09-28T06:07:44.182865+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [5, 3, 0, 1, 0, 0, 0, 0, 4, 8, 11, 38, 7]
+pushes_per_week: [5, 3, 0, 1, 0, 0, 0, 0, 4, 13, 9, 37, 17]
 windows:
   "7d":
-    pushes: 12
-    distinct_repos: 2
+    pushes: 19
+    distinct_repos: 1
     active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 67
+    pushes: 78
     distinct_repos: 2
     active_days: 17
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 77
+    pushes: 89
     distinct_repos: 4
-    active_days: 21
+    active_days: 22
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 3.6667
-  repo_per_active_day: 0.1905
+  push_per_day: 4.0455
+  repo_per_active_day: 0.1818
   not_owned_ratio: 0.0000
   basename_concentration: 0.2500
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 12
-    distinct_repos: 2
-    pushes_per_repo: 6.0000
+    pushes: 19
+    distinct_repos: 1
+    pushes_per_repo: 19.0000
     active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 67
+    pushes: 78
     distinct_repos: 2
-    pushes_per_repo: 33.5000
+    pushes_per_repo: 39.0000
     active_days: 17
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 77
+    pushes: 89
     distinct_repos: 4
-    pushes_per_repo: 19.2500
-    active_days: 21
+    pushes_per_repo: 22.2500
+    active_days: 22
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 21 active days in 90d — pass"
+  - "activity: 22 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "ystack"
@@ -120,6 +120,6 @@ repos:
 
 # yihanzhu
 
-77 pushes across 4 repositories on 21 active days in the last 90 days of public GitHub push activity.
+89 pushes across 4 repositories on 22 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/yihanzhu

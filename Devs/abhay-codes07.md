@@ -9,18 +9,18 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-27T06:09:19.734552+00:00"
+generated_at: "2026-09-28T06:07:44.182865+00:00"
 provenance:
   - "73468cde177ddae6"
-pushes_per_week: [7, 17, 9, 3, 1, 4, 2, 0, 1, 0, 2, 1, 0]
+pushes_per_week: [12, 14, 6, 4, 0, 4, 2, 0, 1, 0, 2, 1, 0]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
     pushes: 3
     distinct_repos: 2
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 47
-    distinct_repos: 16
-    active_days: 28
+    pushes: 46
+    distinct_repos: 15
+    active_days: 27
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.6786
-  repo_per_active_day: 0.5714
-  not_owned_ratio: 0.0625
-  basename_concentration: 0.0625
+  push_per_day: 1.7037
+  repo_per_active_day: 0.5556
+  not_owned_ratio: 0.0667
+  basename_concentration: 0.0667
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,13 +49,13 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
     pushes: 3
     distinct_repos: 2
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 47
-    distinct_repos: 16
-    pushes_per_repo: 2.9375
-    active_days: 28
+    pushes: 46
+    distinct_repos: 15
+    pushes_per_repo: 3.0667
+    active_days: 27
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 28 active days in 90d — pass"
+  - "activity: 27 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "doosri-raay"
@@ -163,6 +163,6 @@ repos:
 
 # abhay-codes07
 
-47 pushes across 16 repositories on 28 active days in the last 90 days of public GitHub push activity.
+46 pushes across 15 repositories on 27 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/abhay-codes07

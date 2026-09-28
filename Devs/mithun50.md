@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-27T06:09:19.734552+00:00"
+generated_at: "2026-09-28T06:07:44.182865+00:00"
 provenance:
   - "379642deb53f3714"
-pushes_per_week: [1, 4, 2, 1, 0, 0, 3, 1, 0, 0, 0, 11, 0]
+pushes_per_week: [1, 5, 1, 1, 0, 0, 3, 1, 0, 0, 0, 11, 1]
 windows:
   "7d":
     pushes: 1
     distinct_repos: 1
     active_days: 1
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
-  "30d":
-    pushes: 11
-    distinct_repos: 2
-    active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
+  "30d":
+    pushes: 12
+    distinct_repos: 3
+    active_days: 3
+    repos_not_owned: 2
+    not_owned_basenames: 2
+    not_owned_owners: 2
   "90d":
-    pushes: 23
-    distinct_repos: 10
-    active_days: 10
-    repos_not_owned: 5
-    not_owned_basenames: 5
-    not_owned_owners: 3
+    pushes: 24
+    distinct_repos: 11
+    active_days: 11
+    repos_not_owned: 6
+    not_owned_basenames: 6
+    not_owned_owners: 4
 automation:
   state: "clear"
-  push_per_day: 2.3000
+  push_per_day: 2.1818
   repo_per_active_day: 1.0000
-  not_owned_ratio: 0.5000
-  basename_concentration: 0.1000
+  not_owned_ratio: 0.5455
+  basename_concentration: 0.0909
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -53,28 +53,28 @@ facets:
     distinct_repos: 1
     pushes_per_repo: 1.0000
     active_days: 1
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
-  "30d":
-    pushes: 11
-    distinct_repos: 2
-    pushes_per_repo: 5.5000
-    active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
+  "30d":
+    pushes: 12
+    distinct_repos: 3
+    pushes_per_repo: 4.0000
+    active_days: 3
+    repos_not_owned: 2
+    not_owned_basenames: 2
+    not_owned_owners: 2
   "90d":
-    pushes: 23
-    distinct_repos: 10
-    pushes_per_repo: 2.3000
-    active_days: 10
-    repos_not_owned: 5
-    not_owned_basenames: 5
-    not_owned_owners: 3
+    pushes: 24
+    distinct_repos: 11
+    pushes_per_repo: 2.1818
+    active_days: 11
+    repos_not_owned: 6
+    not_owned_basenames: 6
+    not_owned_owners: 4
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 10 active days in 90d — pass"
+  - "activity: 11 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "openclaw-termux"
@@ -147,6 +147,6 @@ repos:
 
 # mithun50
 
-23 pushes across 10 repositories on 10 active days in the last 90 days of public GitHub push activity.
+24 pushes across 11 repositories on 11 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/mithun50
