@@ -10,27 +10,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-28T06:07:44.182865+00:00"
+generated_at: "2026-09-29T06:07:44.400276+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [34, 19, 18, 8, 16, 2, 4, 0, 3, 0, 2, 5, 15]
+pushes_per_week: [33, 18, 15, 12, 12, 2, 4, 0, 3, 0, 2, 5, 16]
 windows:
   "7d":
-    pushes: 15
+    pushes: 16
     distinct_repos: 3
-    active_days: 3
+    active_days: 4
     repos_not_owned: 3
     not_owned_basenames: 2
     not_owned_owners: 2
   "30d":
-    pushes: 23
+    pushes: 24
     distinct_repos: 3
-    active_days: 7
+    active_days: 8
     repos_not_owned: 3
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 126
+    pushes: 122
     distinct_repos: 8
     active_days: 43
     repos_not_owned: 5
@@ -38,7 +38,7 @@ windows:
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 2.9302
+  push_per_day: 2.8372
   repo_per_active_day: 0.1860
   not_owned_ratio: 0.6250
   basename_concentration: 0.3750
@@ -50,25 +50,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 15
+    pushes: 16
     distinct_repos: 3
-    pushes_per_repo: 5.0000
-    active_days: 3
+    pushes_per_repo: 5.3333
+    active_days: 4
     repos_not_owned: 3
     not_owned_basenames: 2
     not_owned_owners: 2
   "30d":
-    pushes: 23
+    pushes: 24
     distinct_repos: 3
-    pushes_per_repo: 7.6667
-    active_days: 7
+    pushes_per_repo: 8.0000
+    active_days: 8
     repos_not_owned: 3
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 126
+    pushes: 122
     distinct_repos: 8
-    pushes_per_repo: 15.7500
+    pushes_per_repo: 15.2500
     active_days: 43
     repos_not_owned: 5
     not_owned_basenames: 3
@@ -134,6 +134,6 @@ repos:
 
 # Soulter
 
-126 pushes across 8 repositories on 43 active days in the last 90 days of public GitHub push activity.
+122 pushes across 8 repositories on 43 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Soulter

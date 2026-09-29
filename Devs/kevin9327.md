@@ -7,42 +7,44 @@ discovered_via_all:
 provenance_repos:
   - "akitaonrails/ai-memory"
   - "alibaba/open-code-review"
+  - "ChromeDevTools/chrome-devtools-mcp"
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-28T06:07:44.182865+00:00"
+generated_at: "2026-09-29T06:07:44.400276+00:00"
 provenance:
+  - "379642deb53f3714"
   - "4138778ebbc75ba6"
   - "c489e6fb5febf2ab"
-pushes_per_week: [0, 0, 1, 14, 7, 2, 43, 6, 4, 1, 37, 8, 7]
+pushes_per_week: [0, 0, 4, 11, 7, 4, 46, 2, 3, 1, 37, 9, 12]
 windows:
   "7d":
-    pushes: 7
-    distinct_repos: 4
-    active_days: 4
+    pushes: 13
+    distinct_repos: 9
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 56
-    distinct_repos: 13
+    pushes: 61
+    distinct_repos: 18
     active_days: 13
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 130
-    distinct_repos: 14
-    active_days: 33
+    pushes: 136
+    distinct_repos: 19
+    active_days: 34
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 3.9394
-  repo_per_active_day: 0.4242
+  push_per_day: 4.0000
+  repo_per_active_day: 0.5588
   not_owned_ratio: 0.0000
-  basename_concentration: 0.0714
+  basename_concentration: 0.0526
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -51,32 +53,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 7
-    distinct_repos: 4
-    pushes_per_repo: 1.7500
-    active_days: 4
+    pushes: 13
+    distinct_repos: 9
+    pushes_per_repo: 1.4444
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 56
-    distinct_repos: 13
-    pushes_per_repo: 4.3077
+    pushes: 61
+    distinct_repos: 18
+    pushes_per_repo: 3.3889
     active_days: 13
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 130
-    distinct_repos: 14
-    pushes_per_repo: 9.2857
-    active_days: 33
+    pushes: 136
+    distinct_repos: 19
+    pushes_per_repo: 7.1579
+    active_days: 34
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
-  - "provenance: 2 vault signal(s) — pass"
-  - "activity: 33 active days in 90d — pass"
+  - "provenance: 3 vault signal(s) — pass"
+  - "activity: 34 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "kevin9327"
@@ -139,6 +141,6 @@ repos:
 
 # kevin9327
 
-130 pushes across 14 repositories on 33 active days in the last 90 days of public GitHub push activity.
+136 pushes across 19 repositories on 34 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/kevin9327

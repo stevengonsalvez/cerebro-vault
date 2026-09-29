@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-28T06:07:44.182865+00:00"
+generated_at: "2026-09-29T06:07:44.400276+00:00"
 provenance:
   - "7b553354eb544407"
-pushes_per_week: [20, 8, 15, 6, 8, 2, 14, 11, 5, 1, 0, 0, 13]
+pushes_per_week: [17, 9, 13, 7, 8, 4, 12, 11, 4, 1, 0, 0, 15]
 windows:
   "7d":
-    pushes: 13
-    distinct_repos: 4
-    active_days: 5
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
-  "30d":
-    pushes: 16
+    pushes: 15
     distinct_repos: 5
-    active_days: 7
+    active_days: 5
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
-  "90d":
-    pushes: 103
-    distinct_repos: 9
-    active_days: 43
-    repos_not_owned: 4
-    not_owned_basenames: 4
+  "30d":
+    pushes: 18
+    distinct_repos: 6
+    active_days: 7
+    repos_not_owned: 2
+    not_owned_basenames: 2
     not_owned_owners: 2
+  "90d":
+    pushes: 101
+    distinct_repos: 10
+    active_days: 42
+    repos_not_owned: 5
+    not_owned_basenames: 5
+    not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 2.3953
-  repo_per_active_day: 0.2093
-  not_owned_ratio: 0.4444
-  basename_concentration: 0.2222
+  push_per_day: 2.4048
+  repo_per_active_day: 0.2381
+  not_owned_ratio: 0.5000
+  basename_concentration: 0.2000
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 13
-    distinct_repos: 4
-    pushes_per_repo: 3.2500
-    active_days: 5
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
-  "30d":
-    pushes: 16
+    pushes: 15
     distinct_repos: 5
-    pushes_per_repo: 3.2000
-    active_days: 7
+    pushes_per_repo: 3.0000
+    active_days: 5
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
-  "90d":
-    pushes: 103
-    distinct_repos: 9
-    pushes_per_repo: 11.4444
-    active_days: 43
-    repos_not_owned: 4
-    not_owned_basenames: 4
+  "30d":
+    pushes: 18
+    distinct_repos: 6
+    pushes_per_repo: 3.0000
+    active_days: 7
+    repos_not_owned: 2
+    not_owned_basenames: 2
     not_owned_owners: 2
+  "90d":
+    pushes: 101
+    distinct_repos: 10
+    pushes_per_repo: 10.1000
+    active_days: 42
+    repos_not_owned: 5
+    not_owned_basenames: 5
+    not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 43 active days in 90d — pass"
+  - "activity: 42 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "ai-engineering-from-scratch"
@@ -190,6 +190,6 @@ repos:
 
 # rohitg00
 
-103 pushes across 9 repositories on 43 active days in the last 90 days of public GitHub push activity.
+101 pushes across 10 repositories on 42 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/rohitg00

@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-28T06:07:44.182865+00:00"
+generated_at: "2026-09-29T06:07:44.400276+00:00"
 provenance:
   - "a5babe6eb0c3a37f"
-pushes_per_week: [3, 1, 0, 1, 5, 2, 0, 0, 0, 0, 0, 0, 4]
+pushes_per_week: [3, 1, 0, 1, 6, 1, 0, 0, 0, 0, 0, 0, 6]
 windows:
   "7d":
-    pushes: 4
+    pushes: 6
     distinct_repos: 1
-    active_days: 3
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 4
+    pushes: 6
     distinct_repos: 1
-    active_days: 3
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 16
+    pushes: 18
     distinct_repos: 4
-    active_days: 12
+    active_days: 14
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.3333
-  repo_per_active_day: 0.3333
+  push_per_day: 1.2857
+  repo_per_active_day: 0.2857
   not_owned_ratio: 0.0000
   basename_concentration: 0.2500
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 4
+    pushes: 6
     distinct_repos: 1
-    pushes_per_repo: 4.0000
-    active_days: 3
+    pushes_per_repo: 6.0000
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 4
+    pushes: 6
     distinct_repos: 1
-    pushes_per_repo: 4.0000
-    active_days: 3
+    pushes_per_repo: 6.0000
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 16
+    pushes: 18
     distinct_repos: 4
-    pushes_per_repo: 4.0000
-    active_days: 12
+    pushes_per_repo: 4.5000
+    active_days: 14
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 12 active days in 90d — pass"
+  - "activity: 14 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "openrig"
@@ -140,6 +140,6 @@ repos:
 
 # mvschwarz
 
-16 pushes across 4 repositories on 12 active days in the last 90 days of public GitHub push activity.
+18 pushes across 4 repositories on 14 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/mvschwarz

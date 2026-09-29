@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-28T06:07:44.182865+00:00"
+generated_at: "2026-09-29T06:07:44.400276+00:00"
 provenance:
   - "0b22ca37fd3884c9"
-pushes_per_week: [24, 11, 19, 19, 9, 5, 2, 1, 0, 0, 1, 7, 16]
+pushes_per_week: [26, 11, 22, 17, 5, 6, 2, 0, 0, 0, 1, 7, 21]
 windows:
   "7d":
-    pushes: 16
+    pushes: 21
     distinct_repos: 4
-    active_days: 5
+    active_days: 6
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 3
   "30d":
-    pushes: 24
+    pushes: 29
     distinct_repos: 4
-    active_days: 9
+    active_days: 10
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 3
   "90d":
-    pushes: 114
+    pushes: 118
     distinct_repos: 16
     active_days: 44
     repos_not_owned: 11
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 4
 automation:
   state: "clear"
-  push_per_day: 2.5909
+  push_per_day: 2.6818
   repo_per_active_day: 0.3636
   not_owned_ratio: 0.6875
   basename_concentration: 0.1250
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 16
+    pushes: 21
     distinct_repos: 4
-    pushes_per_repo: 4.0000
-    active_days: 5
+    pushes_per_repo: 5.2500
+    active_days: 6
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 3
   "30d":
-    pushes: 24
+    pushes: 29
     distinct_repos: 4
-    pushes_per_repo: 6.0000
-    active_days: 9
+    pushes_per_repo: 7.2500
+    active_days: 10
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 3
   "90d":
-    pushes: 114
+    pushes: 118
     distinct_repos: 16
-    pushes_per_repo: 7.1250
+    pushes_per_repo: 7.3750
     active_days: 44
     repos_not_owned: 11
     not_owned_basenames: 10
@@ -132,6 +132,6 @@ repos:
 
 # DaleSeo
 
-114 pushes across 16 repositories on 44 active days in the last 90 days of public GitHub push activity.
+118 pushes across 16 repositories on 44 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/DaleSeo

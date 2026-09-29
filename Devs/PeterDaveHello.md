@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-28T06:07:44.182865+00:00"
+generated_at: "2026-09-29T06:07:44.400276+00:00"
 provenance:
   - "533d51d9d3dea76f"
-pushes_per_week: [50, 22, 41, 29, 22, 33, 40, 5, 6, 4, 11, 10, 27]
+pushes_per_week: [51, 22, 40, 27, 25, 36, 34, 4, 5, 4, 11, 12, 26]
 windows:
   "7d":
     pushes: 28
@@ -29,7 +29,7 @@ windows:
     not_owned_basenames: 5
     not_owned_owners: 5
   "90d":
-    pushes: 300
+    pushes: 297
     distinct_repos: 30
     active_days: 73
     repos_not_owned: 14
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 11
 automation:
   state: "clear"
-  push_per_day: 4.1096
+  push_per_day: 4.0685
   repo_per_active_day: 0.4110
   not_owned_ratio: 0.4667
   basename_concentration: 0.1000
@@ -65,9 +65,9 @@ facets:
     not_owned_basenames: 5
     not_owned_owners: 5
   "90d":
-    pushes: 300
+    pushes: 297
     distinct_repos: 30
-    pushes_per_repo: 10.0000
+    pushes_per_repo: 9.9000
     active_days: 73
     repos_not_owned: 14
     not_owned_basenames: 12
@@ -178,6 +178,6 @@ repos:
 
 # PeterDaveHello
 
-300 pushes across 30 repositories on 73 active days in the last 90 days of public GitHub push activity.
+297 pushes across 30 repositories on 73 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/PeterDaveHello

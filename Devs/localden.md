@@ -10,37 +10,37 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-28T06:07:44.182865+00:00"
+generated_at: "2026-09-29T06:07:44.400276+00:00"
 provenance:
   - "02eab667df448997"
   - "2d6ba8fc0269fd52"
-pushes_per_week: [9, 1, 1, 2, 10, 0, 0, 0, 0, 0, 1, 1, 1]
+pushes_per_week: [9, 1, 0, 5, 7, 0, 0, 0, 0, 0, 1, 2, 1]
 windows:
   "7d":
-    pushes: 1
+    pushes: 2
     distinct_repos: 1
-    active_days: 1
+    active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 3
+    pushes: 4
     distinct_repos: 2
-    active_days: 3
+    active_days: 4
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
     pushes: 26
     distinct_repos: 3
-    active_days: 12
+    active_days: 13
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.1667
-  repo_per_active_day: 0.2500
+  push_per_day: 2.0000
+  repo_per_active_day: 0.2308
   not_owned_ratio: 1.0000
   basename_concentration: 0.3333
   shapes: []
@@ -51,18 +51,18 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
+    pushes: 2
     distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes_per_repo: 2.0000
+    active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 3
+    pushes: 4
     distinct_repos: 2
-    pushes_per_repo: 1.5000
-    active_days: 3
+    pushes_per_repo: 2.0000
+    active_days: 4
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
@@ -70,13 +70,13 @@ facets:
     pushes: 26
     distinct_repos: 3
     pushes_per_repo: 8.6667
-    active_days: 12
+    active_days: 13
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 12 active days in 90d — pass"
+  - "activity: 13 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "mcp-repo-data-tracker"
@@ -131,6 +131,6 @@ repos:
 
 # localden
 
-26 pushes across 3 repositories on 12 active days in the last 90 days of public GitHub push activity.
+26 pushes across 3 repositories on 13 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/localden

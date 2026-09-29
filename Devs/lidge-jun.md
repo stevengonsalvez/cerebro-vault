@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-28T06:07:44.182865+00:00"
+generated_at: "2026-09-29T06:07:44.400276+00:00"
 provenance:
   - "c47cbc7eb3e22410"
-pushes_per_week: [57, 64, 45, 53, 28, 65, 101, 27, 27, 52, 58, 181, 162]
+pushes_per_week: [57, 80, 26, 51, 33, 58, 112, 19, 23, 57, 58, 201, 154]
 windows:
   "7d":
-    pushes: 166
+    pushes: 179
     distinct_repos: 14
     active_days: 7
     repos_not_owned: 7
     not_owned_basenames: 6
     not_owned_owners: 3
   "30d":
-    pushes: 462
+    pushes: 477
     distinct_repos: 29
     active_days: 27
     repos_not_owned: 18
     not_owned_basenames: 6
     not_owned_owners: 14
   "90d":
-    pushes: 920
+    pushes: 929
     distinct_repos: 45
     active_days: 84
     repos_not_owned: 26
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 22
 automation:
   state: "clear"
-  push_per_day: 10.9524
+  push_per_day: 11.0595
   repo_per_active_day: 0.5357
   not_owned_ratio: 0.5778
   basename_concentration: 0.4444
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 166
+    pushes: 179
     distinct_repos: 14
-    pushes_per_repo: 11.8571
+    pushes_per_repo: 12.7857
     active_days: 7
     repos_not_owned: 7
     not_owned_basenames: 6
     not_owned_owners: 3
   "30d":
-    pushes: 462
+    pushes: 477
     distinct_repos: 29
-    pushes_per_repo: 15.9310
+    pushes_per_repo: 16.4483
     active_days: 27
     repos_not_owned: 18
     not_owned_basenames: 6
     not_owned_owners: 14
   "90d":
-    pushes: 920
+    pushes: 929
     distinct_repos: 45
-    pushes_per_repo: 20.4444
+    pushes_per_repo: 20.6444
     active_days: 84
     repos_not_owned: 26
     not_owned_basenames: 8
@@ -190,6 +190,6 @@ repos:
 
 # lidge-jun
 
-920 pushes across 45 repositories on 84 active days in the last 90 days of public GitHub push activity.
+929 pushes across 45 repositories on 84 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/lidge-jun

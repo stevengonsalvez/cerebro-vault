@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-28T06:07:44.182865+00:00"
+generated_at: "2026-09-29T06:07:44.400276+00:00"
 provenance:
   - "0388a4f55f4206c8"
   - "0577669e18ed3998"
@@ -27,24 +27,24 @@ provenance:
   - "c6b4a874521ceb02"
   - "cf565721454d59f8"
   - "e26852201e6f38fc"
-pushes_per_week: [7, 9, 23, 22, 12, 5, 5, 8, 2, 1, 1, 14, 27]
+pushes_per_week: [8, 12, 21, 21, 11, 5, 5, 8, 2, 1, 3, 14, 31]
 windows:
   "7d":
-    pushes: 27
+    pushes: 33
     distinct_repos: 11
     active_days: 7
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 45
+    pushes: 51
     distinct_repos: 15
     active_days: 14
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 2
   "90d":
-    pushes: 136
+    pushes: 142
     distinct_repos: 32
     active_days: 43
     repos_not_owned: 6
@@ -52,7 +52,7 @@ windows:
     not_owned_owners: 4
 automation:
   state: "clear"
-  push_per_day: 3.1628
+  push_per_day: 3.3023
   repo_per_active_day: 0.7442
   not_owned_ratio: 0.1875
   basename_concentration: 0.0938
@@ -64,25 +64,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 27
+    pushes: 33
     distinct_repos: 11
-    pushes_per_repo: 2.4545
+    pushes_per_repo: 3.0000
     active_days: 7
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 45
+    pushes: 51
     distinct_repos: 15
-    pushes_per_repo: 3.0000
+    pushes_per_repo: 3.4000
     active_days: 14
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 2
   "90d":
-    pushes: 136
+    pushes: 142
     distinct_repos: 32
-    pushes_per_repo: 4.2500
+    pushes_per_repo: 4.4375
     active_days: 43
     repos_not_owned: 6
     not_owned_basenames: 5
@@ -128,6 +128,6 @@ repos:
 
 # tamird
 
-136 pushes across 32 repositories on 43 active days in the last 90 days of public GitHub push activity.
+142 pushes across 32 repositories on 43 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/tamird

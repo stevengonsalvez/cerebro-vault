@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-28T06:07:44.182865+00:00"
+generated_at: "2026-09-29T06:07:44.400276+00:00"
 provenance:
   - "b7bec34541d2ddb0"
-pushes_per_week: [63, 27, 48, 26, 20, 16, 32, 8, 2, 0, 5, 0, 23]
+pushes_per_week: [60, 24, 48, 28, 14, 22, 26, 8, 2, 0, 5, 0, 23]
 windows:
   "7d":
     pushes: 23
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 2
   "90d":
-    pushes: 270
+    pushes: 260
     distinct_repos: 5
-    active_days: 58
+    active_days: 57
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 4.6552
-  repo_per_active_day: 0.0862
+  push_per_day: 4.5614
+  repo_per_active_day: 0.0877
   not_owned_ratio: 0.4000
   basename_concentration: 0.4000
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 2
   "90d":
-    pushes: 270
+    pushes: 260
     distinct_repos: 5
-    pushes_per_repo: 54.0000
-    active_days: 58
+    pushes_per_repo: 52.0000
+    active_days: 57
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 58 active days in 90d — pass"
+  - "activity: 57 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "chief-of-staff"
@@ -105,6 +105,6 @@ repos:
 
 # FutureEnterprises
 
-270 pushes across 5 repositories on 58 active days in the last 90 days of public GitHub push activity.
+260 pushes across 5 repositories on 57 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/FutureEnterprises

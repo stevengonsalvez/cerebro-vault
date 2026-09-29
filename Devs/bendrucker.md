@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-28T06:07:44.182865+00:00"
+generated_at: "2026-09-29T06:07:44.400276+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [43, 57, 34, 20, 33, 14, 7, 6, 4, 9, 3, 16, 40]
+pushes_per_week: [51, 50, 29, 25, 23, 14, 11, 3, 2, 9, 5, 14, 43]
 windows:
   "7d":
-    pushes: 40
+    pushes: 43
     distinct_repos: 4
     active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 68
+    pushes: 71
     distinct_repos: 4
     active_days: 14
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 286
+    pushes: 279
     distinct_repos: 22
-    active_days: 55
+    active_days: 54
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 5.2000
-  repo_per_active_day: 0.4000
+  push_per_day: 5.1667
+  repo_per_active_day: 0.4074
   not_owned_ratio: 0.2273
   basename_concentration: 0.0455
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 40
+    pushes: 43
     distinct_repos: 4
-    pushes_per_repo: 10.0000
+    pushes_per_repo: 10.7500
     active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 68
+    pushes: 71
     distinct_repos: 4
-    pushes_per_repo: 17.0000
+    pushes_per_repo: 17.7500
     active_days: 14
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 286
+    pushes: 279
     distinct_repos: 22
-    pushes_per_repo: 13.0000
-    active_days: 55
+    pushes_per_repo: 12.6818
+    active_days: 54
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 55 active days in 90d — pass"
+  - "activity: 54 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "activity-hub"
@@ -131,6 +131,6 @@ repos:
 
 # bendrucker
 
-286 pushes across 22 repositories on 55 active days in the last 90 days of public GitHub push activity.
+279 pushes across 22 repositories on 54 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/bendrucker

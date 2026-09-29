@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-28T06:07:44.182865+00:00"
+generated_at: "2026-09-29T06:07:44.400276+00:00"
 provenance:
   - "edb3a626875732de"
-pushes_per_week: [1, 0, 12, 10, 5, 0, 1, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [0, 2, 13, 7, 5, 0, 1, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 29
-    distinct_repos: 11
-    active_days: 14
+    pushes: 28
+    distinct_repos: 10
+    active_days: 13
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.0714
-  repo_per_active_day: 0.7857
+  push_per_day: 2.1538
+  repo_per_active_day: 0.7692
   not_owned_ratio: 0.0000
-  basename_concentration: 0.0909
+  basename_concentration: 0.1000
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 29
-    distinct_repos: 11
-    pushes_per_repo: 2.6364
-    active_days: 14
+    pushes: 28
+    distinct_repos: 10
+    pushes_per_repo: 2.8000
+    active_days: 13
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 14 active days in 90d — pass"
+  - "activity: 13 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "github-contribution-filler"
@@ -130,6 +130,6 @@ repos:
 
 # pangerlkr
 
-29 pushes across 11 repositories on 14 active days in the last 90 days of public GitHub push activity.
+28 pushes across 10 repositories on 13 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/pangerlkr

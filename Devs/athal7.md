@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-28T06:07:44.182865+00:00"
+generated_at: "2026-09-29T06:07:44.400276+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [13, 18, 49, 10, 9, 24, 10, 8, 1, 0, 1, 4, 9]
+pushes_per_week: [12, 20, 46, 8, 7, 25, 10, 8, 0, 0, 2, 5, 7]
 windows:
   "7d":
     pushes: 9
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 156
+    pushes: 150
     distinct_repos: 21
-    active_days: 45
+    active_days: 44
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 3.4667
-  repo_per_active_day: 0.4667
+  push_per_day: 3.4091
+  repo_per_active_day: 0.4773
   not_owned_ratio: 0.1429
   basename_concentration: 0.0952
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 156
+    pushes: 150
     distinct_repos: 21
-    pushes_per_repo: 7.4286
-    active_days: 45
+    pushes_per_repo: 7.1429
+    active_days: 44
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 45 active days in 90d — pass"
+  - "activity: 44 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "dotfiles"
@@ -130,6 +130,6 @@ repos:
 
 # athal7
 
-156 pushes across 21 repositories on 45 active days in the last 90 days of public GitHub push activity.
+150 pushes across 21 repositories on 44 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/athal7

@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-28T06:07:44.182865+00:00"
+generated_at: "2026-09-29T06:07:44.400276+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [58, 15, 29, 22, 27, 23, 5, 6, 11, 4, 18, 10, 38]
+pushes_per_week: [52, 18, 23, 22, 30, 20, 5, 9, 8, 7, 15, 15, 34]
 windows:
   "7d":
     pushes: 39
-    distinct_repos: 5
+    distinct_repos: 6
     active_days: 7
-    repos_not_owned: 4
-    not_owned_basenames: 3
-    not_owned_owners: 2
+    repos_not_owned: 5
+    not_owned_basenames: 4
+    not_owned_owners: 3
   "30d":
-    pushes: 70
+    pushes: 71
     distinct_repos: 10
-    active_days: 15
+    active_days: 16
     repos_not_owned: 6
     not_owned_basenames: 5
     not_owned_owners: 3
   "90d":
-    pushes: 266
+    pushes: 258
     distinct_repos: 24
     active_days: 60
     repos_not_owned: 11
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 4.4333
+  push_per_day: 4.3000
   repo_per_active_day: 0.4000
   not_owned_ratio: 0.4583
   basename_concentration: 0.0833
@@ -50,24 +50,24 @@ automation:
 facets:
   "7d":
     pushes: 39
-    distinct_repos: 5
-    pushes_per_repo: 7.8000
+    distinct_repos: 6
+    pushes_per_repo: 6.5000
     active_days: 7
-    repos_not_owned: 4
-    not_owned_basenames: 3
-    not_owned_owners: 2
+    repos_not_owned: 5
+    not_owned_basenames: 4
+    not_owned_owners: 3
   "30d":
-    pushes: 70
+    pushes: 71
     distinct_repos: 10
-    pushes_per_repo: 7.0000
-    active_days: 15
+    pushes_per_repo: 7.1000
+    active_days: 16
     repos_not_owned: 6
     not_owned_basenames: 5
     not_owned_owners: 3
   "90d":
-    pushes: 266
+    pushes: 258
     distinct_repos: 24
-    pushes_per_repo: 11.0833
+    pushes_per_repo: 10.7500
     active_days: 60
     repos_not_owned: 11
     not_owned_basenames: 10
@@ -123,6 +123,6 @@ repos:
 
 # metaphorics
 
-266 pushes across 24 repositories on 60 active days in the last 90 days of public GitHub push activity.
+258 pushes across 24 repositories on 60 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/metaphorics

@@ -10,28 +10,28 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-28T06:07:44.182865+00:00"
+generated_at: "2026-09-29T06:07:44.400276+00:00"
 provenance:
   - "16389f32495280ea"
   - "edb3a626875732de"
-pushes_per_week: [9, 20, 45, 0, 0, 0, 2, 0, 0, 0, 0, 0, 9]
+pushes_per_week: [8, 44, 21, 0, 0, 0, 2, 0, 0, 0, 0, 0, 11]
 windows:
   "7d":
-    pushes: 9
+    pushes: 11
     distinct_repos: 4
-    active_days: 2
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 9
+    pushes: 11
     distinct_repos: 4
-    active_days: 2
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 85
+    pushes: 86
     distinct_repos: 18
     active_days: 19
     repos_not_owned: 0
@@ -39,7 +39,7 @@ windows:
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 4.4737
+  push_per_day: 4.5263
   repo_per_active_day: 0.9474
   not_owned_ratio: 0.0000
   basename_concentration: 0.0556
@@ -51,25 +51,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 9
+    pushes: 11
     distinct_repos: 4
-    pushes_per_repo: 2.2500
-    active_days: 2
+    pushes_per_repo: 2.7500
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 9
+    pushes: 11
     distinct_repos: 4
-    pushes_per_repo: 2.2500
-    active_days: 2
+    pushes_per_repo: 2.7500
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 85
+    pushes: 86
     distinct_repos: 18
-    pushes_per_repo: 4.7222
+    pushes_per_repo: 4.7778
     active_days: 19
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -130,6 +130,6 @@ repos:
 
 # nankingjing
 
-85 pushes across 18 repositories on 19 active days in the last 90 days of public GitHub push activity.
+86 pushes across 18 repositories on 19 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/nankingjing

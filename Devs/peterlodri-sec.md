@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-28T06:07:44.182865+00:00"
+generated_at: "2026-09-29T06:07:44.400276+00:00"
 provenance:
   - "73468cde177ddae6"
-pushes_per_week: [31, 14, 60, 53, 40, 20, 89, 7, 0, 4, 9, 69, 2]
+pushes_per_week: [26, 18, 63, 59, 35, 17, 87, 4, 0, 6, 7, 69, 2]
 windows:
   "7d":
-    pushes: 11
-    distinct_repos: 2
-    active_days: 3
+    pushes: 2
+    distinct_repos: 1
+    active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 398
+    pushes: 393
     distinct_repos: 56
-    active_days: 50
+    active_days: 49
     repos_not_owned: 19
     not_owned_basenames: 19
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 7.9600
-  repo_per_active_day: 1.1200
+  push_per_day: 8.0204
+  repo_per_active_day: 1.1429
   not_owned_ratio: 0.3393
   basename_concentration: 0.0357
   shapes: []
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 11
-    distinct_repos: 2
-    pushes_per_repo: 5.5000
-    active_days: 3
+    pushes: 2
+    distinct_repos: 1
+    pushes_per_repo: 2.0000
+    active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 398
+    pushes: 393
     distinct_repos: 56
-    pushes_per_repo: 7.1071
-    active_days: 50
+    pushes_per_repo: 7.0179
+    active_days: 49
     repos_not_owned: 19
     not_owned_basenames: 19
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 50 active days in 90d — pass"
+  - "activity: 49 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "8b-is"
@@ -171,6 +171,6 @@ repos:
 
 # peterlodri-sec
 
-398 pushes across 56 repositories on 50 active days in the last 90 days of public GitHub push activity.
+393 pushes across 56 repositories on 49 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/peterlodri-sec

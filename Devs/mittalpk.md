@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-28T06:07:44.182865+00:00"
+generated_at: "2026-09-29T06:07:44.400276+00:00"
 provenance:
   - "c489e6fb5febf2ab"
-pushes_per_week: [12, 6, 1, 13, 3, 2, 4, 2, 0, 0, 0, 1, 2]
+pushes_per_week: [10, 5, 2, 12, 4, 1, 5, 1, 0, 0, 0, 3, 0]
 windows:
   "7d":
     pushes: 2
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 46
-    distinct_repos: 16
-    active_days: 24
+    pushes: 43
+    distinct_repos: 15
+    active_days: 23
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.9167
-  repo_per_active_day: 0.6667
+  push_per_day: 1.8696
+  repo_per_active_day: 0.6522
   not_owned_ratio: 0.0000
-  basename_concentration: 0.0625
+  basename_concentration: 0.0667
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 46
-    distinct_repos: 16
-    pushes_per_repo: 2.8750
-    active_days: 24
+    pushes: 43
+    distinct_repos: 15
+    pushes_per_repo: 2.8667
+    active_days: 23
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 24 active days in 90d — pass"
+  - "activity: 23 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "mittalpk"
@@ -129,6 +129,6 @@ repos:
 
 # mittalpk
 
-46 pushes across 16 repositories on 24 active days in the last 90 days of public GitHub push activity.
+43 pushes across 15 repositories on 23 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/mittalpk

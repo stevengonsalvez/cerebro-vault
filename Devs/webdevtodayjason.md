@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-28T06:07:44.182865+00:00"
+generated_at: "2026-09-29T06:07:44.400276+00:00"
 provenance:
   - "46f3c1d6124190bd"
-pushes_per_week: [14, 12, 4, 4, 4, 2, 2, 4, 0, 0, 15, 29, 7]
+pushes_per_week: [14, 9, 4, 4, 4, 2, 2, 4, 0, 0, 18, 28, 6]
 windows:
   "7d":
-    pushes: 7
+    pushes: 6
     distinct_repos: 5
     active_days: 3
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 51
+    pushes: 52
     distinct_repos: 10
-    active_days: 13
+    active_days: 14
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 2
   "90d":
-    pushes: 97
-    distinct_repos: 26
+    pushes: 95
+    distinct_repos: 25
     active_days: 35
     repos_not_owned: 12
     not_owned_basenames: 12
     not_owned_owners: 4
 automation:
   state: "clear"
-  push_per_day: 2.7714
-  repo_per_active_day: 0.7429
-  not_owned_ratio: 0.4615
-  basename_concentration: 0.0385
+  push_per_day: 2.7143
+  repo_per_active_day: 0.7143
+  not_owned_ratio: 0.4800
+  basename_concentration: 0.0400
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 7
+    pushes: 6
     distinct_repos: 5
-    pushes_per_repo: 1.4000
+    pushes_per_repo: 1.2000
     active_days: 3
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 51
+    pushes: 52
     distinct_repos: 10
-    pushes_per_repo: 5.1000
-    active_days: 13
+    pushes_per_repo: 5.2000
+    active_days: 14
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 2
   "90d":
-    pushes: 97
-    distinct_repos: 26
-    pushes_per_repo: 3.7308
+    pushes: 95
+    distinct_repos: 25
+    pushes_per_repo: 3.8000
     active_days: 35
     repos_not_owned: 12
     not_owned_basenames: 12
@@ -139,6 +139,6 @@ repos:
 
 # webdevtodayjason
 
-97 pushes across 26 repositories on 35 active days in the last 90 days of public GitHub push activity.
+95 pushes across 25 repositories on 35 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/webdevtodayjason

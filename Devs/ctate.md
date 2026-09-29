@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-28T06:07:44.182865+00:00"
+generated_at: "2026-09-29T06:07:44.400276+00:00"
 provenance:
   - "0dadaefdea9260e5"
-pushes_per_week: [19, 17, 30, 29, 40, 11, 30, 7, 2, 0, 3, 8, 40]
+pushes_per_week: [15, 19, 30, 29, 38, 18, 27, 3, 2, 1, 2, 8, 48]
 windows:
   "7d":
-    pushes: 41
+    pushes: 48
     distinct_repos: 6
     active_days: 7
     repos_not_owned: 6
     not_owned_basenames: 6
     not_owned_owners: 1
   "30d":
-    pushes: 52
+    pushes: 60
     distinct_repos: 8
-    active_days: 15
+    active_days: 16
     repos_not_owned: 8
     not_owned_basenames: 8
     not_owned_owners: 1
   "90d":
-    pushes: 236
+    pushes: 240
     distinct_repos: 11
     active_days: 60
     repos_not_owned: 11
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 3.9333
+  push_per_day: 4.0000
   repo_per_active_day: 0.1833
   not_owned_ratio: 1.0000
   basename_concentration: 0.0909
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 41
+    pushes: 48
     distinct_repos: 6
-    pushes_per_repo: 6.8333
+    pushes_per_repo: 8.0000
     active_days: 7
     repos_not_owned: 6
     not_owned_basenames: 6
     not_owned_owners: 1
   "30d":
-    pushes: 52
+    pushes: 60
     distinct_repos: 8
-    pushes_per_repo: 6.5000
-    active_days: 15
+    pushes_per_repo: 7.5000
+    active_days: 16
     repos_not_owned: 8
     not_owned_basenames: 8
     not_owned_owners: 1
   "90d":
-    pushes: 236
+    pushes: 240
     distinct_repos: 11
-    pushes_per_repo: 21.4545
+    pushes_per_repo: 21.8182
     active_days: 60
     repos_not_owned: 11
     not_owned_basenames: 11
@@ -138,6 +138,6 @@ repos:
 
 # ctate
 
-236 pushes across 11 repositories on 60 active days in the last 90 days of public GitHub push activity.
+240 pushes across 11 repositories on 60 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ctate

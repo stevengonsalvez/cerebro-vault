@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-28T06:07:44.182865+00:00"
+generated_at: "2026-09-29T06:07:44.400276+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [8, 3, 5, 2, 2, 6, 5, 0, 0, 4, 1, 2, 12]
+pushes_per_week: [10, 1, 6, 1, 2, 8, 3, 0, 0, 4, 1, 2, 20]
 windows:
   "7d":
-    pushes: 12
-    distinct_repos: 9
+    pushes: 20
+    distinct_repos: 10
     active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 19
-    distinct_repos: 15
+    pushes: 27
+    distinct_repos: 16
     active_days: 8
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 50
-    distinct_repos: 18
+    pushes: 58
+    distinct_repos: 19
     active_days: 26
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.9231
-  repo_per_active_day: 0.6923
+  push_per_day: 2.2308
+  repo_per_active_day: 0.7308
   not_owned_ratio: 0.0000
-  basename_concentration: 0.0556
+  basename_concentration: 0.0526
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 12
-    distinct_repos: 9
-    pushes_per_repo: 1.3333
+    pushes: 20
+    distinct_repos: 10
+    pushes_per_repo: 2.0000
     active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 19
-    distinct_repos: 15
-    pushes_per_repo: 1.2667
+    pushes: 27
+    distinct_repos: 16
+    pushes_per_repo: 1.6875
     active_days: 8
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 50
-    distinct_repos: 18
-    pushes_per_repo: 2.7778
+    pushes: 58
+    distinct_repos: 19
+    pushes_per_repo: 3.0526
     active_days: 26
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -134,6 +134,6 @@ repos:
 
 # Minidoracat
 
-50 pushes across 18 repositories on 26 active days in the last 90 days of public GitHub push activity.
+58 pushes across 19 repositories on 26 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Minidoracat

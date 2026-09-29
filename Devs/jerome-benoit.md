@@ -10,28 +10,28 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-28T06:07:44.182865+00:00"
+generated_at: "2026-09-29T06:07:44.400276+00:00"
 provenance:
   - "de6bf05613f3ae04"
   - "ffccace0ba14fd15"
-pushes_per_week: [134, 64, 102, 92, 53, 16, 51, 15, 10, 5, 24, 30, 64]
+pushes_per_week: [125, 76, 93, 89, 45, 22, 45, 16, 8, 5, 24, 34, 69]
 windows:
   "7d":
-    pushes: 66
-    distinct_repos: 10
+    pushes: 73
+    distinct_repos: 9
     active_days: 7
-    repos_not_owned: 3
-    not_owned_basenames: 3
-    not_owned_owners: 3
+    repos_not_owned: 2
+    not_owned_basenames: 2
+    not_owned_owners: 2
   "30d":
-    pushes: 127
+    pushes: 133
     distinct_repos: 13
     active_days: 22
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 4
   "90d":
-    pushes: 660
+    pushes: 651
     distinct_repos: 20
     active_days: 78
     repos_not_owned: 7
@@ -39,7 +39,7 @@ windows:
     not_owned_owners: 6
 automation:
   state: "clear"
-  push_per_day: 8.4615
+  push_per_day: 8.3462
   repo_per_active_day: 0.2564
   not_owned_ratio: 0.3500
   basename_concentration: 0.1500
@@ -51,25 +51,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 66
-    distinct_repos: 10
-    pushes_per_repo: 6.6000
+    pushes: 73
+    distinct_repos: 9
+    pushes_per_repo: 8.1111
     active_days: 7
-    repos_not_owned: 3
-    not_owned_basenames: 3
-    not_owned_owners: 3
+    repos_not_owned: 2
+    not_owned_basenames: 2
+    not_owned_owners: 2
   "30d":
-    pushes: 127
+    pushes: 133
     distinct_repos: 13
-    pushes_per_repo: 9.7692
+    pushes_per_repo: 10.2308
     active_days: 22
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 4
   "90d":
-    pushes: 660
+    pushes: 651
     distinct_repos: 20
-    pushes_per_repo: 33.0000
+    pushes_per_repo: 32.5500
     active_days: 78
     repos_not_owned: 7
     not_owned_basenames: 5
@@ -135,6 +135,6 @@ repos:
 
 # jerome-benoit
 
-660 pushes across 20 repositories on 78 active days in the last 90 days of public GitHub push activity.
+651 pushes across 20 repositories on 78 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/jerome-benoit

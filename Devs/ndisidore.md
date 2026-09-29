@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-28T06:07:44.182865+00:00"
+generated_at: "2026-09-29T06:07:44.400276+00:00"
 provenance:
   - "386c24cf5e18fd90"
-pushes_per_week: [5, 3, 2, 1, 0, 4, 3, 1, 2, 0, 2, 12, 6]
+pushes_per_week: [7, 1, 2, 1, 0, 4, 3, 2, 1, 1, 1, 13, 7]
 windows:
   "7d":
-    pushes: 6
+    pushes: 8
     distinct_repos: 2
-    active_days: 4
+    active_days: 5
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 20
+    pushes: 22
     distinct_repos: 2
-    active_days: 9
+    active_days: 10
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 41
+    pushes: 43
     distinct_repos: 7
-    active_days: 23
+    active_days: 24
     repos_not_owned: 3
     not_owned_basenames: 2
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 1.7826
-  repo_per_active_day: 0.3043
+  push_per_day: 1.7917
+  repo_per_active_day: 0.2917
   not_owned_ratio: 0.4286
   basename_concentration: 0.4286
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 6
+    pushes: 8
     distinct_repos: 2
-    pushes_per_repo: 3.0000
-    active_days: 4
+    pushes_per_repo: 4.0000
+    active_days: 5
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 20
+    pushes: 22
     distinct_repos: 2
-    pushes_per_repo: 10.0000
-    active_days: 9
+    pushes_per_repo: 11.0000
+    active_days: 10
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 41
+    pushes: 43
     distinct_repos: 7
-    pushes_per_repo: 5.8571
-    active_days: 23
+    pushes_per_repo: 6.1429
+    active_days: 24
     repos_not_owned: 3
     not_owned_basenames: 2
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 23 active days in 90d — pass"
+  - "activity: 24 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "slidev-worker-template"
@@ -136,6 +136,6 @@ repos:
 
 # ndisidore
 
-41 pushes across 7 repositories on 23 active days in the last 90 days of public GitHub push activity.
+43 pushes across 7 repositories on 24 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ndisidore

@@ -10,28 +10,28 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-28T06:07:44.182865+00:00"
+generated_at: "2026-09-29T06:07:44.400276+00:00"
 provenance:
   - "0b22ca37fd3884c9"
   - "c489e6fb5febf2ab"
-pushes_per_week: [72, 104, 79, 15, 14, 8, 9, 3, 2, 5, 28, 27, 7]
+pushes_per_week: [85, 111, 49, 14, 10, 8, 11, 1, 2, 9, 32, 21, 6]
 windows:
   "7d":
-    pushes: 11
-    distinct_repos: 3
+    pushes: 7
+    distinct_repos: 2
     active_days: 4
-    repos_not_owned: 3
+    repos_not_owned: 2
     not_owned_basenames: 2
-    not_owned_owners: 2
+    not_owned_owners: 1
   "30d":
-    pushes: 67
+    pushes: 68
     distinct_repos: 7
-    active_days: 15
+    active_days: 16
     repos_not_owned: 7
     not_owned_basenames: 6
     not_owned_owners: 3
   "90d":
-    pushes: 373
+    pushes: 359
     distinct_repos: 25
     active_days: 51
     repos_not_owned: 25
@@ -39,7 +39,7 @@ windows:
     not_owned_owners: 4
 automation:
   state: "clear"
-  push_per_day: 7.3137
+  push_per_day: 7.0392
   repo_per_active_day: 0.4902
   not_owned_ratio: 1.0000
   basename_concentration: 0.0800
@@ -51,25 +51,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 11
-    distinct_repos: 3
-    pushes_per_repo: 3.6667
+    pushes: 7
+    distinct_repos: 2
+    pushes_per_repo: 3.5000
     active_days: 4
-    repos_not_owned: 3
+    repos_not_owned: 2
     not_owned_basenames: 2
-    not_owned_owners: 2
+    not_owned_owners: 1
   "30d":
-    pushes: 67
+    pushes: 68
     distinct_repos: 7
-    pushes_per_repo: 9.5714
-    active_days: 15
+    pushes_per_repo: 9.7143
+    active_days: 16
     repos_not_owned: 7
     not_owned_basenames: 6
     not_owned_owners: 3
   "90d":
-    pushes: 373
+    pushes: 359
     distinct_repos: 25
-    pushes_per_repo: 14.9200
+    pushes_per_repo: 14.3600
     active_days: 51
     repos_not_owned: 25
     not_owned_basenames: 24
@@ -140,6 +140,6 @@ repos:
 
 # amondnet
 
-373 pushes across 25 repositories on 51 active days in the last 90 days of public GitHub push activity.
+359 pushes across 25 repositories on 51 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/amondnet

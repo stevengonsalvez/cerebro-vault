@@ -1,20 +1,32 @@
 ---
 title: "trycua/cua: Scale computer-use 2.0 with open-source drivers, cross-OS fleets, and benchmarks for training, evaluation, and data generation."
 category: coding-agents-llm
-tags: [ai/agents, ai/llm-mechanics, ai/tool-pairing]
+tags: [ai/agents, cerebro/signal, repo/trending, vibe-coding]
+topic_tags: [ai/agents, vibe-coding, repo/trending]
+source_tags: []
+entity_tags: []
+artifact_tags: [cerebro/signal]
+workflow_tags: []
 source: github
 url: https://github.com/trycua/cua
 score: 0.90
-reason: "Computer-use scaling, agent fleet, benchmarks."
+reason: "Computer-use 2.0 framework, core agentic pattern"
+repo: "trycua/cua"
+stars: "1,293"
 captured: 2026-07-20T06:00:02.760939+00:00
 rating:
 ---
 # trycua/cua: Scale computer-use 2.0 with open-source drivers, cross-OS fleets, and benchmarks for training, evaluation, and data generation.
 
-> Computer-use scaling, agent fleet, benchmarks.
+> Computer-use 2.0 framework, core agentic pattern
 
-Scale computer-use 2.0 with open-source drivers, cross-OS fleets, and benchmarks for training, evaluation, and data generation.
-Building your own agent? Start with Cua · Giving a coding agent a computer? Cua Drivers · Evaluating or training models? Cua Bench · Need macOS VMs? Lume
-Drive native desktop apps in the background. Agents click, type, and verify without stealing the cursor or focus. Use the same CLI and MCP server on macOS, Windows, and Linux from Claude Code, Cursor, Codex, OpenClaw, and custom clients. Linux supports X11 and compositor-specific Wayland routes with explicit limits f
+Give AI agents computers they can use.
+Cua provides open-source desktop automation, isolated cloud desktops, local macOS VMs, specialist decision models, and benchmarks for evaluating computer-use agents.
+- Cua Fleets: Provision a Linux desktop, run a command, and save a screenshot.
+- CUA-S1: Explore small, specialized models for computer-use decisions.
+- Cua Driver: Operate Calculator and verify its result.
+- Lume: Create a Tahoe VM and connect over SSH.
+- Cua Bench: Create and verify a simulated task.
+Bring your own agent and model, or explore CUA-S1 for specialized decisions. Cua provides t
 
 [Open ↗](https://github.com/trycua/cua)

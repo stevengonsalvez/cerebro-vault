@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-28T06:07:44.182865+00:00"
+generated_at: "2026-09-29T06:07:44.400276+00:00"
 provenance:
   - "01cd6a498d377caf"
   - "03604cccd7e9402d"
@@ -56,40 +56,41 @@ provenance:
   - "bef41a8d82a61cb7"
   - "c2db1cf2bc94be3c"
   - "cc2a7fed69a6e4ac"
+  - "cdf0d63217ad659b"
   - "d46568f6f6a488d8"
   - "e2ea6ef4c9fbfceb"
   - "f672838de330e86f"
   - "f9a1870648a6375a"
   - "fe9e50bf2d5b21fe"
-pushes_per_week: [66, 4, 2, 15, 8, 13, 5, 0, 8, 0, 0, 4, 11]
+pushes_per_week: [57, 1, 4, 15, 6, 13, 5, 1, 7, 0, 0, 4, 12]
 windows:
   "7d":
-    pushes: 11
+    pushes: 12
     distinct_repos: 4
-    active_days: 3
+    active_days: 4
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 18
+    pushes: 17
     distinct_repos: 8
     active_days: 7
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 136
-    distinct_repos: 22
+    pushes: 125
+    distinct_repos: 21
     active_days: 34
     repos_not_owned: 5
     not_owned_basenames: 4
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 4.0000
-  repo_per_active_day: 0.6471
-  not_owned_ratio: 0.2273
-  basename_concentration: 0.1364
+  push_per_day: 3.6765
+  repo_per_active_day: 0.6176
+  not_owned_ratio: 0.2381
+  basename_concentration: 0.1429
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -98,31 +99,31 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 11
+    pushes: 12
     distinct_repos: 4
-    pushes_per_repo: 2.7500
-    active_days: 3
+    pushes_per_repo: 3.0000
+    active_days: 4
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 18
+    pushes: 17
     distinct_repos: 8
-    pushes_per_repo: 2.2500
+    pushes_per_repo: 2.1250
     active_days: 7
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 136
-    distinct_repos: 22
-    pushes_per_repo: 6.1818
+    pushes: 125
+    distinct_repos: 21
+    pushes_per_repo: 5.9524
     active_days: 34
     repos_not_owned: 5
     not_owned_basenames: 4
     not_owned_owners: 3
 reasons:
-  - "provenance: 50 vault signal(s) — pass"
+  - "provenance: 51 vault signal(s) — pass"
   - "activity: 34 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
@@ -195,6 +196,6 @@ repos:
 
 # stbenjam
 
-136 pushes across 22 repositories on 34 active days in the last 90 days of public GitHub push activity.
+125 pushes across 21 repositories on 34 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/stbenjam

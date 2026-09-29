@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-28T06:07:44.182865+00:00"
+generated_at: "2026-09-29T06:07:44.400276+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [2, 4, 1, 1, 1, 0, 2, 0, 0, 0, 4, 4, 74]
+pushes_per_week: [2, 4, 1, 2, 0, 0, 2, 0, 0, 0, 4, 5, 74]
 windows:
   "7d":
-    pushes: 74
+    pushes: 75
     distinct_repos: 4
-    active_days: 6
+    active_days: 7
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 82
+    pushes: 83
     distinct_repos: 6
-    active_days: 11
+    active_days: 12
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 93
+    pushes: 94
     distinct_repos: 7
-    active_days: 20
+    active_days: 21
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 4.6500
-  repo_per_active_day: 0.3500
+  push_per_day: 4.4762
+  repo_per_active_day: 0.3333
   not_owned_ratio: 0.2857
   basename_concentration: 0.1429
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 74
+    pushes: 75
     distinct_repos: 4
-    pushes_per_repo: 18.5000
-    active_days: 6
+    pushes_per_repo: 18.7500
+    active_days: 7
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 82
+    pushes: 83
     distinct_repos: 6
-    pushes_per_repo: 13.6667
-    active_days: 11
+    pushes_per_repo: 13.8333
+    active_days: 12
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 93
+    pushes: 94
     distinct_repos: 7
-    pushes_per_repo: 13.2857
-    active_days: 20
+    pushes_per_repo: 13.4286
+    active_days: 21
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 20 active days in 90d — pass"
+  - "activity: 21 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "thetagang"
@@ -165,6 +165,6 @@ repos:
 
 # brndnmtthws
 
-93 pushes across 7 repositories on 20 active days in the last 90 days of public GitHub push activity.
+94 pushes across 7 repositories on 21 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/brndnmtthws

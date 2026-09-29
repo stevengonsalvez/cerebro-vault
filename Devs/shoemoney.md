@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-28T06:07:44.182865+00:00"
+generated_at: "2026-09-29T06:07:44.400276+00:00"
 provenance:
   - "0b22ca37fd3884c9"
-pushes_per_week: [11, 8, 1, 0, 17, 9, 7, 6, 2, 1, 2, 5, 28]
+pushes_per_week: [5, 5, 1, 1, 19, 6, 11, 3, 1, 2, 1, 7, 30]
 windows:
   "7d":
-    pushes: 28
-    distinct_repos: 12
-    active_days: 6
+    pushes: 31
+    distinct_repos: 14
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 37
-    distinct_repos: 19
+    pushes: 40
+    distinct_repos: 21
     active_days: 14
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 97
-    distinct_repos: 31
+    pushes: 92
+    distinct_repos: 30
     active_days: 37
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.6216
-  repo_per_active_day: 0.8378
-  not_owned_ratio: 0.0645
-  basename_concentration: 0.0323
+  push_per_day: 2.4865
+  repo_per_active_day: 0.8108
+  not_owned_ratio: 0.0667
+  basename_concentration: 0.0333
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 28
-    distinct_repos: 12
-    pushes_per_repo: 2.3333
-    active_days: 6
+    pushes: 31
+    distinct_repos: 14
+    pushes_per_repo: 2.2143
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 37
-    distinct_repos: 19
-    pushes_per_repo: 1.9474
+    pushes: 40
+    distinct_repos: 21
+    pushes_per_repo: 1.9048
     active_days: 14
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 97
-    distinct_repos: 31
-    pushes_per_repo: 3.1290
+    pushes: 92
+    distinct_repos: 30
+    pushes_per_repo: 3.0667
     active_days: 37
     repos_not_owned: 2
     not_owned_basenames: 2
@@ -139,6 +139,6 @@ repos:
 
 # shoemoney
 
-97 pushes across 31 repositories on 37 active days in the last 90 days of public GitHub push activity.
+92 pushes across 30 repositories on 37 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/shoemoney

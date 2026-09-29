@@ -9,37 +9,37 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-28T06:07:44.182865+00:00"
+generated_at: "2026-09-29T06:07:44.400276+00:00"
 provenance:
   - "8c6014a36ca90e3f"
-pushes_per_week: [41, 12, 8, 8, 6, 28, 36, 16, 29, 25, 81, 267, 241]
+pushes_per_week: [27, 16, 3, 8, 11, 32, 30, 27, 17, 35, 89, 262, 314]
 windows:
   "7d":
-    pushes: 244
-    distinct_repos: 8
+    pushes: 324
+    distinct_repos: 9
     active_days: 7
-    repos_not_owned: 5
-    not_owned_basenames: 5
+    repos_not_owned: 6
+    not_owned_basenames: 6
     not_owned_owners: 2
   "30d":
-    pushes: 616
-    distinct_repos: 10
-    active_days: 25
-    repos_not_owned: 7
-    not_owned_basenames: 7
+    pushes: 704
+    distinct_repos: 11
+    active_days: 26
+    repos_not_owned: 8
+    not_owned_basenames: 8
     not_owned_owners: 2
   "90d":
-    pushes: 798
+    pushes: 871
     distinct_repos: 30
     active_days: 66
-    repos_not_owned: 20
-    not_owned_basenames: 20
+    repos_not_owned: 21
+    not_owned_basenames: 21
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 12.0909
+  push_per_day: 13.1970
   repo_per_active_day: 0.4545
-  not_owned_ratio: 0.6667
+  not_owned_ratio: 0.7000
   basename_concentration: 0.0667
   shapes: []
   shape_evidence: []
@@ -49,28 +49,28 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 244
-    distinct_repos: 8
-    pushes_per_repo: 30.5000
+    pushes: 324
+    distinct_repos: 9
+    pushes_per_repo: 36.0000
     active_days: 7
-    repos_not_owned: 5
-    not_owned_basenames: 5
+    repos_not_owned: 6
+    not_owned_basenames: 6
     not_owned_owners: 2
   "30d":
-    pushes: 616
-    distinct_repos: 10
-    pushes_per_repo: 61.6000
-    active_days: 25
-    repos_not_owned: 7
-    not_owned_basenames: 7
+    pushes: 704
+    distinct_repos: 11
+    pushes_per_repo: 64.0000
+    active_days: 26
+    repos_not_owned: 8
+    not_owned_basenames: 8
     not_owned_owners: 2
   "90d":
-    pushes: 798
+    pushes: 871
     distinct_repos: 30
-    pushes_per_repo: 26.6000
+    pushes_per_repo: 29.0333
     active_days: 66
-    repos_not_owned: 20
-    not_owned_basenames: 20
+    repos_not_owned: 21
+    not_owned_basenames: 21
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
@@ -137,6 +137,6 @@ repos:
 
 # obra
 
-798 pushes across 30 repositories on 66 active days in the last 90 days of public GitHub push activity.
+871 pushes across 30 repositories on 66 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/obra

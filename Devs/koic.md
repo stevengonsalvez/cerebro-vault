@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-28T06:07:44.182865+00:00"
+generated_at: "2026-09-29T06:07:44.400276+00:00"
 provenance:
   - "48dbbdd8fd0d3029"
-pushes_per_week: [16, 7, 16, 4, 3, 4, 7, 3, 1, 1, 1, 4, 6]
+pushes_per_week: [11, 12, 11, 3, 3, 6, 5, 3, 1, 1, 1, 6, 6]
 windows:
   "7d":
     pushes: 6
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 2
   "30d":
-    pushes: 12
+    pushes: 14
     distinct_repos: 4
-    active_days: 8
+    active_days: 9
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 73
+    pushes: 69
     distinct_repos: 17
-    active_days: 39
+    active_days: 38
     repos_not_owned: 10
     not_owned_basenames: 10
     not_owned_owners: 4
 automation:
   state: "clear"
-  push_per_day: 1.8718
-  repo_per_active_day: 0.4359
+  push_per_day: 1.8158
+  repo_per_active_day: 0.4474
   not_owned_ratio: 0.5882
   basename_concentration: 0.1176
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 2
   "30d":
-    pushes: 12
+    pushes: 14
     distinct_repos: 4
-    pushes_per_repo: 3.0000
-    active_days: 8
+    pushes_per_repo: 3.5000
+    active_days: 9
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 73
+    pushes: 69
     distinct_repos: 17
-    pushes_per_repo: 4.2941
-    active_days: 39
+    pushes_per_repo: 4.0588
+    active_days: 38
     repos_not_owned: 10
     not_owned_basenames: 10
     not_owned_owners: 4
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 39 active days in 90d — pass"
+  - "activity: 38 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "minifyrb"
@@ -141,6 +141,6 @@ repos:
 
 # koic
 
-73 pushes across 17 repositories on 39 active days in the last 90 days of public GitHub push activity.
+69 pushes across 17 repositories on 38 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/koic

@@ -11,11 +11,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-28T06:07:44.182865+00:00"
+generated_at: "2026-09-29T06:07:44.400276+00:00"
 provenance:
   - "1320ae46b426dee5"
   - "386c24cf5e18fd90"
-pushes_per_week: [13, 2, 12, 13, 5, 8, 6, 0, 0, 0, 0, 0, 1]
+pushes_per_week: [12, 1, 17, 10, 3, 10, 4, 0, 0, 0, 0, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -32,16 +32,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 60
+    pushes: 58
     distinct_repos: 11
-    active_days: 29
+    active_days: 27
     repos_not_owned: 4
     not_owned_basenames: 2
     not_owned_owners: 4
 automation:
   state: "clear"
-  push_per_day: 2.0690
-  repo_per_active_day: 0.3793
+  push_per_day: 2.1481
+  repo_per_active_day: 0.4074
   not_owned_ratio: 0.3636
   basename_concentration: 0.3636
   shapes: []
@@ -68,16 +68,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 60
+    pushes: 58
     distinct_repos: 11
-    pushes_per_repo: 5.4545
-    active_days: 29
+    pushes_per_repo: 5.2727
+    active_days: 27
     repos_not_owned: 4
     not_owned_basenames: 2
     not_owned_owners: 4
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 29 active days in 90d — pass"
+  - "activity: 27 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "pxpipe"
@@ -156,6 +156,6 @@ repos:
 
 # teamchong
 
-60 pushes across 11 repositories on 29 active days in the last 90 days of public GitHub push activity.
+58 pushes across 11 repositories on 27 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/teamchong

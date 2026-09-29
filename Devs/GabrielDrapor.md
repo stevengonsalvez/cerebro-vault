@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-28T06:07:44.182865+00:00"
+generated_at: "2026-09-29T06:07:44.400276+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [11, 3, 1, 2, 0, 1, 12, 2, 5, 0, 2, 10, 0]
+pushes_per_week: [12, 2, 0, 2, 0, 2, 11, 3, 4, 0, 2, 10, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 49
+    pushes: 48
     distinct_repos: 7
-    active_days: 25
+    active_days: 24
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.9600
-  repo_per_active_day: 0.2800
+  push_per_day: 2.0000
+  repo_per_active_day: 0.2917
   not_owned_ratio: 0.2857
   basename_concentration: 0.2857
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 49
+    pushes: 48
     distinct_repos: 7
-    pushes_per_repo: 7.0000
-    active_days: 25
+    pushes_per_repo: 6.8571
+    active_days: 24
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 25 active days in 90d — pass"
+  - "activity: 24 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "ovid"
@@ -132,6 +132,6 @@ repos:
 
 # GabrielDrapor
 
-49 pushes across 7 repositories on 25 active days in the last 90 days of public GitHub push activity.
+48 pushes across 7 repositories on 24 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/GabrielDrapor

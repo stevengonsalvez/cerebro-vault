@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-28T06:07:44.182865+00:00"
+generated_at: "2026-09-29T06:07:44.400276+00:00"
 provenance:
   - "3cb7ff1cdcf97c6b"
-pushes_per_week: [3, 1, 0, 1, 2, 0, 3, 0, 0, 0, 0, 0, 2]
+pushes_per_week: [2, 1, 0, 1, 2, 2, 1, 0, 0, 0, 0, 0, 2]
 windows:
   "7d":
     pushes: 2
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 12
+    pushes: 11
     distinct_repos: 10
-    active_days: 8
+    active_days: 7
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.5000
-  repo_per_active_day: 1.2500
+  push_per_day: 1.5714
+  repo_per_active_day: 1.4286
   not_owned_ratio: 0.2000
   basename_concentration: 0.1000
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 12
+    pushes: 11
     distinct_repos: 10
-    pushes_per_repo: 1.2000
-    active_days: 8
+    pushes_per_repo: 1.1000
+    active_days: 7
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 8 active days in 90d — pass"
+  - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "QualityTube"
@@ -129,6 +129,6 @@ repos:
 
 # gaurav7902
 
-12 pushes across 10 repositories on 8 active days in the last 90 days of public GitHub push activity.
+11 pushes across 10 repositories on 7 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/gaurav7902

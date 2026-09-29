@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-28T06:07:44.182865+00:00"
+generated_at: "2026-09-29T06:07:44.400276+00:00"
 provenance:
   - "48dbbdd8fd0d3029"
-pushes_per_week: [6, 27, 70, 44, 42, 20, 25, 3, 8, 2, 5, 23, 26]
+pushes_per_week: [8, 26, 75, 40, 42, 23, 22, 1, 8, 1, 11, 18, 35]
 windows:
   "7d":
-    pushes: 26
-    distinct_repos: 3
+    pushes: 35
+    distinct_repos: 5
     active_days: 7
-    repos_not_owned: 3
+    repos_not_owned: 5
     not_owned_basenames: 2
-    not_owned_owners: 2
+    not_owned_owners: 4
   "30d":
-    pushes: 57
-    distinct_repos: 7
-    active_days: 15
-    repos_not_owned: 7
+    pushes: 67
+    distinct_repos: 8
+    active_days: 16
+    repos_not_owned: 8
     not_owned_basenames: 3
-    not_owned_owners: 5
+    not_owned_owners: 6
   "90d":
-    pushes: 301
-    distinct_repos: 31
+    pushes: 310
+    distinct_repos: 32
     active_days: 56
-    repos_not_owned: 27
+    repos_not_owned: 28
     not_owned_basenames: 13
-    not_owned_owners: 16
+    not_owned_owners: 17
 automation:
   state: "clear"
-  push_per_day: 5.3750
-  repo_per_active_day: 0.5536
-  not_owned_ratio: 0.8710
-  basename_concentration: 0.3548
+  push_per_day: 5.5357
+  repo_per_active_day: 0.5714
+  not_owned_ratio: 0.8750
+  basename_concentration: 0.3750
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,29 +49,29 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 26
-    distinct_repos: 3
-    pushes_per_repo: 8.6667
+    pushes: 35
+    distinct_repos: 5
+    pushes_per_repo: 7.0000
     active_days: 7
-    repos_not_owned: 3
+    repos_not_owned: 5
     not_owned_basenames: 2
-    not_owned_owners: 2
+    not_owned_owners: 4
   "30d":
-    pushes: 57
-    distinct_repos: 7
-    pushes_per_repo: 8.1429
-    active_days: 15
-    repos_not_owned: 7
+    pushes: 67
+    distinct_repos: 8
+    pushes_per_repo: 8.3750
+    active_days: 16
+    repos_not_owned: 8
     not_owned_basenames: 3
-    not_owned_owners: 5
+    not_owned_owners: 6
   "90d":
-    pushes: 301
-    distinct_repos: 31
-    pushes_per_repo: 9.7097
+    pushes: 310
+    distinct_repos: 32
+    pushes_per_repo: 9.6875
     active_days: 56
-    repos_not_owned: 27
+    repos_not_owned: 28
     not_owned_basenames: 13
-    not_owned_owners: 16
+    not_owned_owners: 17
 reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 56 active days in 90d — pass"
@@ -129,6 +129,6 @@ repos:
 
 # Patrick-Erichsen
 
-301 pushes across 31 repositories on 56 active days in the last 90 days of public GitHub push activity.
+310 pushes across 32 repositories on 56 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Patrick-Erichsen

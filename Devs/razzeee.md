@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-28T06:07:44.182865+00:00"
+generated_at: "2026-09-29T06:07:44.400276+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [30, 19, 29, 4, 4, 5, 7, 3, 2, 4, 4, 12, 8]
+pushes_per_week: [38, 15, 23, 4, 4, 4, 7, 3, 2, 5, 3, 14, 8]
 windows:
   "7d":
     pushes: 9
-    distinct_repos: 4
+    distinct_repos: 5
     active_days: 7
-    repos_not_owned: 2
-    not_owned_basenames: 2
+    repos_not_owned: 3
+    not_owned_basenames: 3
     not_owned_owners: 2
   "30d":
-    pushes: 28
-    distinct_repos: 11
-    active_days: 16
-    repos_not_owned: 4
-    not_owned_basenames: 4
-    not_owned_owners: 4
+    pushes: 30
+    distinct_repos: 13
+    active_days: 17
+    repos_not_owned: 6
+    not_owned_basenames: 6
+    not_owned_owners: 5
   "90d":
-    pushes: 131
-    distinct_repos: 27
+    pushes: 130
+    distinct_repos: 26
     active_days: 52
     repos_not_owned: 10
     not_owned_basenames: 10
     not_owned_owners: 5
 automation:
   state: "clear"
-  push_per_day: 2.5192
-  repo_per_active_day: 0.5192
-  not_owned_ratio: 0.3704
-  basename_concentration: 0.0741
+  push_per_day: 2.5000
+  repo_per_active_day: 0.5000
+  not_owned_ratio: 0.3846
+  basename_concentration: 0.0769
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -50,24 +50,24 @@ automation:
 facets:
   "7d":
     pushes: 9
-    distinct_repos: 4
-    pushes_per_repo: 2.2500
+    distinct_repos: 5
+    pushes_per_repo: 1.8000
     active_days: 7
-    repos_not_owned: 2
-    not_owned_basenames: 2
+    repos_not_owned: 3
+    not_owned_basenames: 3
     not_owned_owners: 2
   "30d":
-    pushes: 28
-    distinct_repos: 11
-    pushes_per_repo: 2.5455
-    active_days: 16
-    repos_not_owned: 4
-    not_owned_basenames: 4
-    not_owned_owners: 4
+    pushes: 30
+    distinct_repos: 13
+    pushes_per_repo: 2.3077
+    active_days: 17
+    repos_not_owned: 6
+    not_owned_basenames: 6
+    not_owned_owners: 5
   "90d":
-    pushes: 131
-    distinct_repos: 27
-    pushes_per_repo: 4.8519
+    pushes: 130
+    distinct_repos: 26
+    pushes_per_repo: 5.0000
     active_days: 52
     repos_not_owned: 10
     not_owned_basenames: 10
@@ -129,6 +129,6 @@ repos:
 
 # razzeee
 
-131 pushes across 27 repositories on 52 active days in the last 90 days of public GitHub push activity.
+130 pushes across 26 repositories on 52 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/razzeee

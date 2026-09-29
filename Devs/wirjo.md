@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-28T06:07:44.182865+00:00"
+generated_at: "2026-09-29T06:07:44.400276+00:00"
 provenance:
   - "a50b0e08dbaee74a"
-pushes_per_week: [30, 23, 9, 1, 3, 21, 9, 1, 0, 0, 0, 0, 0]
+pushes_per_week: [23, 21, 8, 3, 7, 18, 6, 1, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 97
+    pushes: 87
     distinct_repos: 22
-    active_days: 29
+    active_days: 27
     repos_not_owned: 9
     not_owned_basenames: 7
     not_owned_owners: 5
 automation:
   state: "clear"
-  push_per_day: 3.3448
-  repo_per_active_day: 0.7586
+  push_per_day: 3.2222
+  repo_per_active_day: 0.8148
   not_owned_ratio: 0.4091
   basename_concentration: 0.1364
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 97
+    pushes: 87
     distinct_repos: 22
-    pushes_per_repo: 4.4091
-    active_days: 29
+    pushes_per_repo: 3.9545
+    active_days: 27
     repos_not_owned: 9
     not_owned_basenames: 7
     not_owned_owners: 5
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 29 active days in 90d — pass"
+  - "activity: 27 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "slides"
@@ -129,6 +129,6 @@ repos:
 
 # wirjo
 
-97 pushes across 22 repositories on 29 active days in the last 90 days of public GitHub push activity.
+87 pushes across 22 repositories on 27 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/wirjo

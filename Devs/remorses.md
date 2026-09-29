@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-28T06:07:44.182865+00:00"
+generated_at: "2026-09-29T06:07:44.400276+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [8, 0, 8, 5, 3, 2, 4, 5, 2, 1, 1, 3, 5]
+pushes_per_week: [7, 0, 9, 4, 3, 2, 4, 5, 2, 1, 2, 2, 5]
 windows:
   "7d":
     pushes: 5
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 11
+    pushes: 10
     distinct_repos: 6
-    active_days: 9
+    active_days: 8
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 47
+    pushes: 46
     distinct_repos: 22
-    active_days: 32
+    active_days: 31
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.4688
-  repo_per_active_day: 0.6875
+  push_per_day: 1.4839
+  repo_per_active_day: 0.7097
   not_owned_ratio: 0.0455
   basename_concentration: 0.0455
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 11
+    pushes: 10
     distinct_repos: 6
-    pushes_per_repo: 1.8333
-    active_days: 9
+    pushes_per_repo: 1.6667
+    active_days: 8
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 47
+    pushes: 46
     distinct_repos: 22
-    pushes_per_repo: 2.1364
-    active_days: 32
+    pushes_per_repo: 2.0909
+    active_days: 31
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 32 active days in 90d — pass"
+  - "activity: 31 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "critique"
@@ -140,6 +140,6 @@ repos:
 
 # remorses
 
-47 pushes across 22 repositories on 32 active days in the last 90 days of public GitHub push activity.
+46 pushes across 22 repositories on 31 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/remorses

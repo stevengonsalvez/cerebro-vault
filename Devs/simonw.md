@@ -21,7 +21,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-28T06:07:44.182865+00:00"
+generated_at: "2026-09-29T06:07:44.400276+00:00"
 provenance:
   - "0726bc457d4dcf89"
   - "1be978947e68d1f2"
@@ -37,7 +37,7 @@ provenance:
   - "d61fc285c7155696"
   - "e76a6eae5d38637b"
   - "e7c647c4d0689526"
-pushes_per_week: [48, 30, 20, 14, 18, 7, 19, 2, 0, 0, 5, 10, 2]
+pushes_per_week: [58, 27, 8, 13, 19, 7, 18, 2, 0, 1, 7, 7, 2]
 windows:
   "7d":
     pushes: 2
@@ -54,16 +54,16 @@ windows:
     not_owned_basenames: 3
     not_owned_owners: 2
   "90d":
-    pushes: 175
+    pushes: 169
     distinct_repos: 41
-    active_days: 46
+    active_days: 45
     repos_not_owned: 11
     not_owned_basenames: 10
     not_owned_owners: 4
 automation:
   state: "clear"
-  push_per_day: 3.8043
-  repo_per_active_day: 0.8913
+  push_per_day: 3.7556
+  repo_per_active_day: 0.9111
   not_owned_ratio: 0.2683
   basename_concentration: 0.0732
   shapes: []
@@ -90,16 +90,16 @@ facets:
     not_owned_basenames: 3
     not_owned_owners: 2
   "90d":
-    pushes: 175
+    pushes: 169
     distinct_repos: 41
-    pushes_per_repo: 4.2683
-    active_days: 46
+    pushes_per_repo: 4.1220
+    active_days: 45
     repos_not_owned: 11
     not_owned_basenames: 10
     not_owned_owners: 4
 reasons:
   - "provenance: 14 vault signal(s) — pass"
-  - "activity: 46 active days in 90d — pass"
+  - "activity: 45 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "scrape-florida-outages"
@@ -170,6 +170,6 @@ repos:
 
 # simonw
 
-175 pushes across 41 repositories on 46 active days in the last 90 days of public GitHub push activity.
+169 pushes across 41 repositories on 45 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/simonw

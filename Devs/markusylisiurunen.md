@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-28T06:07:44.182865+00:00"
+generated_at: "2026-09-29T06:07:44.400276+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [17, 13, 3, 8, 16, 6, 9, 1, 0, 0, 0, 0, 1]
+pushes_per_week: [17, 13, 2, 9, 16, 9, 5, 1, 0, 0, 0, 1, 0]
 windows:
   "7d":
     pushes: 1
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 74
+    pushes: 73
     distinct_repos: 3
-    active_days: 34
+    active_days: 33
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.1765
-  repo_per_active_day: 0.0882
+  push_per_day: 2.2121
+  repo_per_active_day: 0.0909
   not_owned_ratio: 0.0000
   basename_concentration: 0.3333
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 74
+    pushes: 73
     distinct_repos: 3
-    pushes_per_repo: 24.6667
-    active_days: 34
+    pushes_per_repo: 24.3333
+    active_days: 33
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 34 active days in 90d — pass"
+  - "activity: 33 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "tau"
@@ -132,6 +132,6 @@ repos:
 
 # markusylisiurunen
 
-74 pushes across 3 repositories on 34 active days in the last 90 days of public GitHub push activity.
+73 pushes across 3 repositories on 33 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/markusylisiurunen

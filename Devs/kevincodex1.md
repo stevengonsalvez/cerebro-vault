@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-28T06:07:44.182865+00:00"
+generated_at: "2026-09-29T06:07:44.400276+00:00"
 provenance:
   - "3876228ad226052b"
-pushes_per_week: [55, 41, 24, 17, 8, 2, 6, 2, 1, 0, 3, 2, 2]
+pushes_per_week: [61, 32, 20, 18, 7, 3, 5, 3, 0, 0, 4, 1, 2]
 windows:
   "7d":
     pushes: 2
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 3
   "90d":
-    pushes: 163
+    pushes: 156
     distinct_repos: 9
-    active_days: 43
+    active_days: 42
     repos_not_owned: 8
     not_owned_basenames: 6
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 3.7907
-  repo_per_active_day: 0.2093
+  push_per_day: 3.7143
+  repo_per_active_day: 0.2143
   not_owned_ratio: 0.8889
   basename_concentration: 0.3333
   shapes: []
@@ -65,22 +65,22 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 3
   "90d":
-    pushes: 163
+    pushes: 156
     distinct_repos: 9
-    pushes_per_repo: 18.1111
-    active_days: 43
+    pushes_per_repo: 17.3333
+    active_days: 42
     repos_not_owned: 8
     not_owned_basenames: 6
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 43 active days in 90d — pass"
+  - "activity: 42 active days in 90d — pass"
   - "automation: clear — pass"
 repos: []
 ---
 
 # kevincodex1
 
-163 pushes across 9 repositories on 43 active days in the last 90 days of public GitHub push activity.
+156 pushes across 9 repositories on 42 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/kevincodex1

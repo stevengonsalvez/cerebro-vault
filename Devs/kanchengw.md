@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-28T06:07:44.182865+00:00"
+generated_at: "2026-09-29T06:07:44.400276+00:00"
 provenance:
   - "90688bf127241ceb"
-pushes_per_week: [5, 6, 1, 0, 0, 0, 6, 1, 0, 0, 0, 0, 0]
+pushes_per_week: [7, 2, 0, 0, 0, 0, 6, 1, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 19
+    pushes: 16
     distinct_repos: 6
-    active_days: 9
+    active_days: 8
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.1111
-  repo_per_active_day: 0.6667
+  push_per_day: 2.0000
+  repo_per_active_day: 0.7500
   not_owned_ratio: 0.0000
   basename_concentration: 0.1667
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 19
+    pushes: 16
     distinct_repos: 6
-    pushes_per_repo: 3.1667
-    active_days: 9
+    pushes_per_repo: 2.6667
+    active_days: 8
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 9 active days in 90d — pass"
+  - "activity: 8 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "cnllm"
@@ -167,6 +167,6 @@ repos:
 
 # kanchengw
 
-19 pushes across 6 repositories on 9 active days in the last 90 days of public GitHub push activity.
+16 pushes across 6 repositories on 8 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/kanchengw

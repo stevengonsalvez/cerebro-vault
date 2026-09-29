@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-28T06:07:44.182865+00:00"
+generated_at: "2026-09-29T06:07:44.400276+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [15, 7, 20, 2, 0, 1, 6, 0, 0, 0, 0, 6, 0]
+pushes_per_week: [3, 13, 14, 2, 0, 1, 6, 0, 0, 0, 0, 6, 0]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 57
-    distinct_repos: 13
-    active_days: 15
+    pushes: 45
+    distinct_repos: 12
+    active_days: 14
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 3.8000
-  repo_per_active_day: 0.8667
+  push_per_day: 3.2143
+  repo_per_active_day: 0.8571
   not_owned_ratio: 0.0000
-  basename_concentration: 0.0769
+  basename_concentration: 0.0833
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 57
-    distinct_repos: 13
-    pushes_per_repo: 4.3846
-    active_days: 15
+    pushes: 45
+    distinct_repos: 12
+    pushes_per_repo: 3.7500
+    active_days: 14
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 15 active days in 90d — pass"
+  - "activity: 14 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "EdgeCloud-Bench"
@@ -135,6 +135,6 @@ repos:
 
 # exynos967
 
-57 pushes across 13 repositories on 15 active days in the last 90 days of public GitHub push activity.
+45 pushes across 12 repositories on 14 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/exynos967

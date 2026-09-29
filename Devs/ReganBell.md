@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-28T06:07:44.182865+00:00"
+generated_at: "2026-09-29T06:07:44.400276+00:00"
 provenance:
   - "872178780cb4ed91"
-pushes_per_week: [0, 0, 0, 0, 15, 1, 23, 0, 0, 1, 1, 39, 10]
+pushes_per_week: [0, 0, 0, 0, 16, 0, 23, 0, 0, 1, 2, 42, 11]
 windows:
   "7d":
     pushes: 13
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 51
+    pushes: 56
     distinct_repos: 1
-    active_days: 11
+    active_days: 12
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 90
+    pushes: 95
     distinct_repos: 1
-    active_days: 15
+    active_days: 16
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 6.0000
-  repo_per_active_day: 0.0667
+  push_per_day: 5.9375
+  repo_per_active_day: 0.0625
   not_owned_ratio: 1.0000
   basename_concentration: 1.0000
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 51
+    pushes: 56
     distinct_repos: 1
-    pushes_per_repo: 51.0000
-    active_days: 11
+    pushes_per_repo: 56.0000
+    active_days: 12
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 90
+    pushes: 95
     distinct_repos: 1
-    pushes_per_repo: 90.0000
-    active_days: 15
+    pushes_per_repo: 95.0000
+    active_days: 16
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 15 active days in 90d — pass"
+  - "activity: 16 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "iOS"
@@ -129,6 +129,6 @@ repos:
 
 # ReganBell
 
-90 pushes across 1 repository on 15 active days in the last 90 days of public GitHub push activity.
+95 pushes across 1 repository on 16 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ReganBell

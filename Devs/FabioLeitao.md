@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-28T06:07:44.182865+00:00"
+generated_at: "2026-09-29T06:07:44.400276+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [12, 8, 7, 9, 5, 6, 25, 4, 2, 6, 7, 1, 5]
+pushes_per_week: [8, 10, 8, 7, 4, 6, 27, 2, 2, 6, 7, 2, 6]
 windows:
   "7d":
-    pushes: 5
+    pushes: 7
     distinct_repos: 2
-    active_days: 4
+    active_days: 6
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 19
+    pushes: 21
     distinct_repos: 2
-    active_days: 8
+    active_days: 10
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 97
-    distinct_repos: 4
+    pushes: 95
+    distinct_repos: 3
     active_days: 38
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.5526
-  repo_per_active_day: 0.1053
-  not_owned_ratio: 0.5000
-  basename_concentration: 0.5000
+  push_per_day: 2.5000
+  repo_per_active_day: 0.0789
+  not_owned_ratio: 0.6667
+  basename_concentration: 0.3333
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 5
+    pushes: 7
     distinct_repos: 2
-    pushes_per_repo: 2.5000
-    active_days: 4
+    pushes_per_repo: 3.5000
+    active_days: 6
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 19
+    pushes: 21
     distinct_repos: 2
-    pushes_per_repo: 9.5000
-    active_days: 8
+    pushes_per_repo: 10.5000
+    active_days: 10
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 97
-    distinct_repos: 4
-    pushes_per_repo: 24.2500
+    pushes: 95
+    distinct_repos: 3
+    pushes_per_repo: 31.6667
     active_days: 38
     repos_not_owned: 2
     not_owned_basenames: 2
@@ -129,6 +129,6 @@ repos:
 
 # FabioLeitao
 
-97 pushes across 4 repositories on 38 active days in the last 90 days of public GitHub push activity.
+95 pushes across 3 repositories on 38 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/FabioLeitao

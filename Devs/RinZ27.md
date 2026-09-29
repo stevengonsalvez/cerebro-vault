@@ -5,15 +5,13 @@ discovered_via: "fanout"
 discovered_via_all:
   - "fanout"
 provenance_repos:
-  - "abhigyanpatwari/GitNexus"
   - "alibaba/page-agent"
   - "Alishahryar1/free-claude-code"
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-28T06:07:44.182865+00:00"
+generated_at: "2026-09-29T06:07:44.400276+00:00"
 provenance:
-  - "3c90af76cbde0363"
   - "9d67ce648f6a8919"
   - "d1946b21c02e5fa5"
 pushes_per_week: [0, 1, 0, 0, 1, 0, 1, 2, 1, 0, 0, 0, 3]
@@ -77,7 +75,7 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
-  - "provenance: 3 vault signal(s) — pass"
+  - "provenance: 2 vault signal(s) — pass"
   - "activity: 8 active days in 90d — pass"
   - "automation: clear — pass"
 repos:

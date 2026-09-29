@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-28T06:07:44.182865+00:00"
+generated_at: "2026-09-29T06:07:44.400276+00:00"
 provenance:
   - "379642deb53f3714"
-pushes_per_week: [73, 34, 91, 61, 51, 29, 60, 14, 17, 4, 18, 23, 35]
+pushes_per_week: [70, 37, 90, 58, 48, 37, 53, 11, 16, 5, 19, 22, 38]
 windows:
   "7d":
-    pushes: 37
+    pushes: 38
     distinct_repos: 10
     active_days: 7
     repos_not_owned: 6
     not_owned_basenames: 6
     not_owned_owners: 4
   "30d":
-    pushes: 84
-    distinct_repos: 15
+    pushes: 86
+    distinct_repos: 14
     active_days: 25
-    repos_not_owned: 9
-    not_owned_basenames: 9
+    repos_not_owned: 8
+    not_owned_basenames: 8
     not_owned_owners: 5
   "90d":
-    pushes: 510
+    pushes: 504
     distinct_repos: 25
     active_days: 83
     repos_not_owned: 16
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 5
 automation:
   state: "clear"
-  push_per_day: 6.1446
+  push_per_day: 6.0723
   repo_per_active_day: 0.3012
   not_owned_ratio: 0.6400
   basename_concentration: 0.0400
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 37
+    pushes: 38
     distinct_repos: 10
-    pushes_per_repo: 3.7000
+    pushes_per_repo: 3.8000
     active_days: 7
     repos_not_owned: 6
     not_owned_basenames: 6
     not_owned_owners: 4
   "30d":
-    pushes: 84
-    distinct_repos: 15
-    pushes_per_repo: 5.6000
+    pushes: 86
+    distinct_repos: 14
+    pushes_per_repo: 6.1429
     active_days: 25
-    repos_not_owned: 9
-    not_owned_basenames: 9
+    repos_not_owned: 8
+    not_owned_basenames: 8
     not_owned_owners: 5
   "90d":
-    pushes: 510
+    pushes: 504
     distinct_repos: 25
-    pushes_per_repo: 20.4000
+    pushes_per_repo: 20.1600
     active_days: 83
     repos_not_owned: 16
     not_owned_basenames: 16
@@ -132,6 +132,6 @@ repos:
 
 # mathiasbynens
 
-510 pushes across 25 repositories on 83 active days in the last 90 days of public GitHub push activity.
+504 pushes across 25 repositories on 83 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/mathiasbynens

@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-28T06:07:44.182865+00:00"
+generated_at: "2026-09-29T06:07:44.400276+00:00"
 provenance:
   - "745308b2b7085095"
-pushes_per_week: [6, 6, 9, 2, 3, 0, 0, 1, 0, 1, 0, 0, 3]
+pushes_per_week: [5, 7, 8, 0, 3, 0, 0, 1, 0, 1, 0, 1, 3]
 windows:
   "7d":
-    pushes: 3
-    distinct_repos: 1
-    active_days: 3
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
-  "30d":
     pushes: 4
     distinct_repos: 1
     active_days: 4
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
+  "30d":
+    pushes: 5
+    distinct_repos: 1
+    active_days: 5
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "90d":
-    pushes: 31
+    pushes: 29
     distinct_repos: 1
     active_days: 17
     repos_not_owned: 1
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.8235
+  push_per_day: 1.7059
   repo_per_active_day: 0.0588
   not_owned_ratio: 1.0000
   basename_concentration: 1.0000
@@ -49,14 +49,6 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 3
-    distinct_repos: 1
-    pushes_per_repo: 3.0000
-    active_days: 3
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
-  "30d":
     pushes: 4
     distinct_repos: 1
     pushes_per_repo: 4.0000
@@ -64,10 +56,18 @@ facets:
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
-  "90d":
-    pushes: 31
+  "30d":
+    pushes: 5
     distinct_repos: 1
-    pushes_per_repo: 31.0000
+    pushes_per_repo: 5.0000
+    active_days: 5
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
+  "90d":
+    pushes: 29
+    distinct_repos: 1
+    pushes_per_repo: 29.0000
     active_days: 17
     repos_not_owned: 1
     not_owned_basenames: 1
@@ -121,6 +121,6 @@ repos:
 
 # shomix
 
-31 pushes across 1 repository on 17 active days in the last 90 days of public GitHub push activity.
+29 pushes across 1 repository on 17 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/shomix

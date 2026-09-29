@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-28T06:07:44.182865+00:00"
+generated_at: "2026-09-29T06:07:44.400276+00:00"
 provenance:
   - "aca7847db12030b3"
-pushes_per_week: [10, 3, 0, 3, 0, 0, 0, 2, 0, 1, 0, 0, 0]
+pushes_per_week: [11, 1, 1, 2, 0, 0, 0, 2, 0, 1, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 19
+    pushes: 18
     distinct_repos: 5
-    active_days: 12
+    active_days: 11
     repos_not_owned: 5
     not_owned_basenames: 3
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 1.5833
-  repo_per_active_day: 0.4167
+  push_per_day: 1.6364
+  repo_per_active_day: 0.4545
   not_owned_ratio: 1.0000
   basename_concentration: 0.6000
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 19
+    pushes: 18
     distinct_repos: 5
-    pushes_per_repo: 3.8000
-    active_days: 12
+    pushes_per_repo: 3.6000
+    active_days: 11
     repos_not_owned: 5
     not_owned_basenames: 3
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 12 active days in 90d — pass"
+  - "activity: 11 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "proxy-env"
@@ -121,6 +121,6 @@ repos:
 
 # guyb1
 
-19 pushes across 5 repositories on 12 active days in the last 90 days of public GitHub push activity.
+18 pushes across 5 repositories on 11 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/guyb1

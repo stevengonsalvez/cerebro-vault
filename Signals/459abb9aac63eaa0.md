@@ -1,0 +1,30 @@
+---
+title: "vantage.ai"
+category: agentic-saas
+tags: [ai/agents, ai/saas, cerebro/signal]
+topic_tags: [ai/saas, ai/agents]
+source_tags: []
+entity_tags: []
+artifact_tags: [cerebro/signal]
+workflow_tags: []
+source: rss
+url: https://www.producthunt.com/products/vantage-ai-2
+score: 0.80
+reason: "Mission control dashboard for coding agents"
+captured: 2026-09-29T06:01:43.640572+00:00
+rating:
+---
+# vantage.ai
+
+> Mission control dashboard for coding agents
+
+<p>
+            See and control what your coding agent does.
+          </p>
+          <p>
+            <a href="https://www.producthunt.com/products/vantage-ai-2?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed">Discussion</a>
+            |
+            <a href="https://www.producthunt.com/r/p/1261662?app_id=339">Link</a>
+          </p>
+
+[Open ↗](https://www.producthunt.com/products/vantage-ai-2)

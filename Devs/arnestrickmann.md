@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-28T06:07:44.182865+00:00"
+generated_at: "2026-09-29T06:07:44.400276+00:00"
 provenance:
   - "48dbbdd8fd0d3029"
-pushes_per_week: [10, 11, 2, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [11, 8, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 26
+    pushes: 23
     distinct_repos: 2
-    active_days: 12
+    active_days: 11
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.1667
-  repo_per_active_day: 0.1667
+  push_per_day: 2.0909
+  repo_per_active_day: 0.1818
   not_owned_ratio: 0.5000
   basename_concentration: 1.0000
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 26
+    pushes: 23
     distinct_repos: 2
-    pushes_per_repo: 13.0000
-    active_days: 12
+    pushes_per_repo: 11.5000
+    active_days: 11
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 12 active days in 90d — pass"
+  - "activity: 11 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "Notechat"
@@ -103,6 +103,6 @@ repos:
 
 # arnestrickmann
 
-26 pushes across 2 repositories on 12 active days in the last 90 days of public GitHub push activity.
+23 pushes across 2 repositories on 11 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/arnestrickmann

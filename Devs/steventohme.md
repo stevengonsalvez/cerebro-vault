@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-28T06:07:44.182865+00:00"
+generated_at: "2026-09-29T06:07:44.400276+00:00"
 provenance:
   - "0af70dc4df451a55"
-pushes_per_week: [57, 64, 20, 14, 16, 5, 0, 4, 2, 0, 3, 7, 5]
+pushes_per_week: [68, 52, 19, 13, 16, 5, 1, 3, 2, 0, 3, 8, 4]
 windows:
   "7d":
-    pushes: 6
+    pushes: 5
     distinct_repos: 1
-    active_days: 5
+    active_days: 4
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 197
+    pushes: 194
     distinct_repos: 2
-    active_days: 42
+    active_days: 41
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 4.6905
-  repo_per_active_day: 0.0476
+  push_per_day: 4.7317
+  repo_per_active_day: 0.0488
   not_owned_ratio: 1.0000
   basename_concentration: 1.0000
   shapes: []
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 6
+    pushes: 5
     distinct_repos: 1
-    pushes_per_repo: 6.0000
-    active_days: 5
+    pushes_per_repo: 5.0000
+    active_days: 4
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 197
+    pushes: 194
     distinct_repos: 2
-    pushes_per_repo: 98.5000
-    active_days: 42
+    pushes_per_repo: 97.0000
+    active_days: 41
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 42 active days in 90d — pass"
+  - "activity: 41 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "darya"
@@ -129,6 +129,6 @@ repos:
 
 # steventohme
 
-197 pushes across 2 repositories on 42 active days in the last 90 days of public GitHub push activity.
+194 pushes across 2 repositories on 41 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/steventohme

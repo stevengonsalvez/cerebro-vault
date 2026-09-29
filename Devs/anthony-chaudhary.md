@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-28T06:07:44.182865+00:00"
+generated_at: "2026-09-29T06:07:44.400276+00:00"
 provenance:
   - "1be978947e68d1f2"
-pushes_per_week: [450, 55, 151, 42, 10, 40, 85, 42, 27, 11, 28, 43, 29]
+pushes_per_week: [373, 58, 141, 34, 8, 47, 87, 33, 25, 17, 22, 51, 22]
 windows:
   "7d":
     pushes: 30
     distinct_repos: 1
-    active_days: 6
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
     pushes: 115
     distinct_repos: 1
-    active_days: 23
+    active_days: 22
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 1013
+    pushes: 918
     distinct_repos: 2
-    active_days: 74
+    active_days: 73
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 13.6892
-  repo_per_active_day: 0.0270
+  push_per_day: 12.5753
+  repo_per_active_day: 0.0274
   not_owned_ratio: 0.0000
   basename_concentration: 0.5000
   shapes: []
@@ -52,7 +52,7 @@ facets:
     pushes: 30
     distinct_repos: 1
     pushes_per_repo: 30.0000
-    active_days: 6
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -60,21 +60,21 @@ facets:
     pushes: 115
     distinct_repos: 1
     pushes_per_repo: 115.0000
-    active_days: 23
+    active_days: 22
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 1013
+    pushes: 918
     distinct_repos: 2
-    pushes_per_repo: 506.5000
-    active_days: 74
+    pushes_per_repo: 459.0000
+    active_days: 73
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 74 active days in 90d — pass"
+  - "activity: 73 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "fak"
@@ -168,6 +168,6 @@ repos:
 
 # anthony-chaudhary
 
-1013 pushes across 2 repositories on 74 active days in the last 90 days of public GitHub push activity.
+918 pushes across 2 repositories on 73 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/anthony-chaudhary

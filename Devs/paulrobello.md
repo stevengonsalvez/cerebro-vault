@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-28T06:07:44.182865+00:00"
+generated_at: "2026-09-29T06:07:44.400276+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [10, 18, 7, 24, 5, 2, 0, 1, 2, 0, 0, 19, 51]
+pushes_per_week: [20, 10, 8, 21, 6, 1, 0, 2, 1, 0, 2, 21, 52]
 windows:
   "7d":
-    pushes: 52
+    pushes: 56
     distinct_repos: 8
     active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 70
+    pushes: 75
     distinct_repos: 9
-    active_days: 11
+    active_days: 12
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 139
+    pushes: 144
     distinct_repos: 27
-    active_days: 41
+    active_days: 42
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 3.3902
-  repo_per_active_day: 0.6585
+  push_per_day: 3.4286
+  repo_per_active_day: 0.6429
   not_owned_ratio: 0.0000
   basename_concentration: 0.0370
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 52
+    pushes: 56
     distinct_repos: 8
-    pushes_per_repo: 6.5000
+    pushes_per_repo: 7.0000
     active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 70
+    pushes: 75
     distinct_repos: 9
-    pushes_per_repo: 7.7778
-    active_days: 11
+    pushes_per_repo: 8.3333
+    active_days: 12
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 139
+    pushes: 144
     distinct_repos: 27
-    pushes_per_repo: 5.1481
-    active_days: 41
+    pushes_per_repo: 5.3333
+    active_days: 42
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 41 active days in 90d — pass"
+  - "activity: 42 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "par-term"
@@ -129,6 +129,6 @@ repos:
 
 # paulrobello
 
-139 pushes across 27 repositories on 41 active days in the last 90 days of public GitHub push activity.
+144 pushes across 27 repositories on 42 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/paulrobello

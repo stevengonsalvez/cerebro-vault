@@ -11,11 +11,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-28T06:07:44.182865+00:00"
+generated_at: "2026-09-29T06:07:44.400276+00:00"
 provenance:
   - "668711a6e1072822"
   - "73468cde177ddae6"
-pushes_per_week: [23, 42, 89, 15, 18, 4, 11, 3, 0, 1, 3, 4, 3]
+pushes_per_week: [22, 76, 57, 15, 18, 5, 9, 2, 0, 1, 3, 4, 3]
 windows:
   "7d":
     pushes: 3
@@ -32,16 +32,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 3
   "90d":
-    pushes: 216
+    pushes: 215
     distinct_repos: 19
-    active_days: 47
+    active_days: 46
     repos_not_owned: 18
     not_owned_basenames: 2
     not_owned_owners: 18
 automation:
   state: "clear"
-  push_per_day: 4.5957
-  repo_per_active_day: 0.4043
+  push_per_day: 4.6739
+  repo_per_active_day: 0.4130
   not_owned_ratio: 0.9474
   basename_concentration: 0.8947
   shapes:
@@ -84,16 +84,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 3
   "90d":
-    pushes: 216
+    pushes: 215
     distinct_repos: 19
-    pushes_per_repo: 11.3684
-    active_days: 47
+    pushes_per_repo: 11.3158
+    active_days: 46
     repos_not_owned: 18
     not_owned_basenames: 2
     not_owned_owners: 18
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 47 active days in 90d — pass"
+  - "activity: 46 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "invalidate"
@@ -158,6 +158,6 @@ repos:
 
 # chopratejas
 
-216 pushes across 19 repositories on 47 active days in the last 90 days of public GitHub push activity.
+215 pushes across 19 repositories on 46 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/chopratejas

@@ -10,10 +10,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-28T06:07:44.182865+00:00"
+generated_at: "2026-09-29T06:07:44.400276+00:00"
 provenance:
   - "6d3bd03b49986330"
-pushes_per_week: [13, 8, 5, 1, 0, 0, 13, 1, 0, 0, 0, 0, 0]
+pushes_per_week: [16, 3, 5, 1, 0, 0, 13, 1, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -30,7 +30,7 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 41
+    pushes: 39
     distinct_repos: 11
     active_days: 14
     repos_not_owned: 9
@@ -38,7 +38,7 @@ windows:
     not_owned_owners: 9
 automation:
   state: "clear"
-  push_per_day: 2.9286
+  push_per_day: 2.7857
   repo_per_active_day: 0.7857
   not_owned_ratio: 0.8182
   basename_concentration: 0.9091
@@ -82,9 +82,9 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 41
+    pushes: 39
     distinct_repos: 11
-    pushes_per_repo: 3.7273
+    pushes_per_repo: 3.5455
     active_days: 14
     repos_not_owned: 9
     not_owned_basenames: 1
@@ -228,6 +228,6 @@ repos:
 
 # calesthio
 
-41 pushes across 11 repositories on 14 active days in the last 90 days of public GitHub push activity.
+39 pushes across 11 repositories on 14 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/calesthio

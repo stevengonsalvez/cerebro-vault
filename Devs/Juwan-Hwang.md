@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-28T06:07:44.182865+00:00"
+generated_at: "2026-09-29T06:07:44.400276+00:00"
 provenance:
   - "0b22ca37fd3884c9"
-pushes_per_week: [22, 25, 47, 22, 3, 18, 8, 7, 0, 0, 1, 0, 1]
+pushes_per_week: [30, 24, 39, 22, 3, 18, 10, 4, 0, 1, 0, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 154
-    distinct_repos: 11
-    active_days: 43
+    pushes: 152
+    distinct_repos: 10
+    active_days: 41
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 3.5814
-  repo_per_active_day: 0.2558
+  push_per_day: 3.7073
+  repo_per_active_day: 0.2439
   not_owned_ratio: 0.0000
-  basename_concentration: 0.0909
+  basename_concentration: 0.1000
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 154
-    distinct_repos: 11
-    pushes_per_repo: 14.0000
-    active_days: 43
+    pushes: 152
+    distinct_repos: 10
+    pushes_per_repo: 15.2000
+    active_days: 41
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 43 active days in 90d — pass"
+  - "activity: 41 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "Zephyr"
@@ -157,6 +157,6 @@ repos:
 
 # Juwan-Hwang
 
-154 pushes across 11 repositories on 43 active days in the last 90 days of public GitHub push activity.
+152 pushes across 10 repositories on 41 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Juwan-Hwang

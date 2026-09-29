@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-28T06:07:44.182865+00:00"
+generated_at: "2026-09-29T06:07:44.400276+00:00"
 provenance:
   - "0388a4f55f4206c8"
   - "0577669e18ed3998"
@@ -27,7 +27,7 @@ provenance:
   - "c6b4a874521ceb02"
   - "cf565721454d59f8"
   - "e26852201e6f38fc"
-pushes_per_week: [7, 4, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [6, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -44,16 +44,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 13
+    pushes: 10
     distinct_repos: 1
-    active_days: 8
+    active_days: 7
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.6250
-  repo_per_active_day: 0.1250
+  push_per_day: 1.4286
+  repo_per_active_day: 0.1429
   not_owned_ratio: 1.0000
   basename_concentration: 1.0000
   shapes: []
@@ -80,22 +80,22 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 13
+    pushes: 10
     distinct_repos: 1
-    pushes_per_repo: 13.0000
-    active_days: 8
+    pushes_per_repo: 10.0000
+    active_days: 7
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 16 vault signal(s) — pass"
-  - "activity: 8 active days in 90d — pass"
+  - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
 repos: []
 ---
 
 # dylan-hurd-oai
 
-13 pushes across 1 repository on 8 active days in the last 90 days of public GitHub push activity.
+10 pushes across 1 repository on 7 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/dylan-hurd-oai

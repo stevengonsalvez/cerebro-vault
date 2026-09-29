@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-28T06:07:44.182865+00:00"
+generated_at: "2026-09-29T06:07:44.400276+00:00"
 provenance:
   - "d1946b21c02e5fa5"
-pushes_per_week: [12, 7, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [15, 3, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 22
+    pushes: 21
     distinct_repos: 2
-    active_days: 9
+    active_days: 8
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 2.4444
-  repo_per_active_day: 0.2222
+  push_per_day: 2.6250
+  repo_per_active_day: 0.2500
   not_owned_ratio: 1.0000
   basename_concentration: 1.0000
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 22
+    pushes: 21
     distinct_repos: 2
-    pushes_per_repo: 11.0000
-    active_days: 9
+    pushes_per_repo: 10.5000
+    active_days: 8
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 9 active days in 90d — pass"
+  - "activity: 8 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "ai-motion"
@@ -133,6 +133,6 @@ repos:
 
 # gaomeng1900
 
-22 pushes across 2 repositories on 9 active days in the last 90 days of public GitHub push activity.
+21 pushes across 2 repositories on 8 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/gaomeng1900

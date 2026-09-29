@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-28T06:07:44.182865+00:00"
+generated_at: "2026-09-29T06:07:44.400276+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [6, 10, 0, 5, 3, 3, 13, 2, 0, 3, 0, 4, 15]
+pushes_per_week: [7, 9, 1, 5, 3, 7, 8, 2, 0, 3, 0, 7, 14]
 windows:
   "7d":
-    pushes: 15
+    pushes: 16
     distinct_repos: 5
     active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 22
+    pushes: 24
     distinct_repos: 8
     active_days: 12
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 64
+    pushes: 66
     distinct_repos: 12
     active_days: 35
     repos_not_owned: 3
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 1.8286
+  push_per_day: 1.8857
   repo_per_active_day: 0.3429
   not_owned_ratio: 0.2500
   basename_concentration: 0.1667
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 15
+    pushes: 16
     distinct_repos: 5
-    pushes_per_repo: 3.0000
+    pushes_per_repo: 3.2000
     active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 22
+    pushes: 24
     distinct_repos: 8
-    pushes_per_repo: 2.7500
+    pushes_per_repo: 3.0000
     active_days: 12
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 64
+    pushes: 66
     distinct_repos: 12
-    pushes_per_repo: 5.3333
+    pushes_per_repo: 5.5000
     active_days: 35
     repos_not_owned: 3
     not_owned_basenames: 3
@@ -129,6 +129,6 @@ repos:
 
 # RC-CHN
 
-64 pushes across 12 repositories on 35 active days in the last 90 days of public GitHub push activity.
+66 pushes across 12 repositories on 35 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/RC-CHN

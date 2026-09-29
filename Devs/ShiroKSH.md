@@ -11,12 +11,12 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-28T06:07:44.182865+00:00"
+generated_at: "2026-09-29T06:07:44.400276+00:00"
 provenance:
   - "6d3bd03b49986330"
   - "716cf9e2237ac9db"
   - "dae9f02535f7c22f"
-pushes_per_week: [4, 15, 4, 0, 16, 7, 12, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [4, 16, 2, 0, 16, 8, 11, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -33,18 +33,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 58
-    distinct_repos: 23
-    active_days: 21
+    pushes: 57
+    distinct_repos: 22
+    active_days: 20
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.7619
-  repo_per_active_day: 1.0952
-  not_owned_ratio: 0.0435
-  basename_concentration: 0.0435
+  push_per_day: 2.8500
+  repo_per_active_day: 1.1000
+  not_owned_ratio: 0.0455
+  basename_concentration: 0.0455
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -69,16 +69,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 58
-    distinct_repos: 23
-    pushes_per_repo: 2.5217
-    active_days: 21
+    pushes: 57
+    distinct_repos: 22
+    pushes_per_repo: 2.5909
+    active_days: 20
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 3 vault signal(s) — pass"
-  - "activity: 21 active days in 90d — pass"
+  - "activity: 20 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "vmware-guest-bridge"
@@ -186,6 +186,6 @@ repos:
 
 # ShiroKSH
 
-58 pushes across 23 repositories on 21 active days in the last 90 days of public GitHub push activity.
+57 pushes across 22 repositories on 20 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ShiroKSH

@@ -9,17 +9,17 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-28T06:07:44.182865+00:00"
+generated_at: "2026-09-29T06:07:44.400276+00:00"
 provenance:
   - "d148e3d2c2843c2b"
-pushes_per_week: [15, 10, 8, 7, 6, 8, 3, 2, 2, 0, 1, 5, 1]
+pushes_per_week: [15, 6, 10, 6, 5, 9, 2, 2, 2, 0, 1, 5, 1]
 windows:
   "7d":
-    pushes: 2
-    distinct_repos: 2
-    active_days: 2
-    repos_not_owned: 2
-    not_owned_basenames: 2
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
+    repos_not_owned: 1
+    not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
     pushes: 7
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 68
-    distinct_repos: 9
-    active_days: 36
-    repos_not_owned: 5
-    not_owned_basenames: 5
+    pushes: 64
+    distinct_repos: 8
+    active_days: 35
+    repos_not_owned: 4
+    not_owned_basenames: 4
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.8889
-  repo_per_active_day: 0.2500
-  not_owned_ratio: 0.5556
-  basename_concentration: 0.1111
+  push_per_day: 1.8286
+  repo_per_active_day: 0.2286
+  not_owned_ratio: 0.5000
+  basename_concentration: 0.1250
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,12 +49,12 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
-    distinct_repos: 2
+    pushes: 1
+    distinct_repos: 1
     pushes_per_repo: 1.0000
-    active_days: 2
-    repos_not_owned: 2
-    not_owned_basenames: 2
+    active_days: 1
+    repos_not_owned: 1
+    not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
     pushes: 7
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 68
-    distinct_repos: 9
-    pushes_per_repo: 7.5556
-    active_days: 36
-    repos_not_owned: 5
-    not_owned_basenames: 5
+    pushes: 64
+    distinct_repos: 8
+    pushes_per_repo: 8.0000
+    active_days: 35
+    repos_not_owned: 4
+    not_owned_basenames: 4
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 36 active days in 90d — pass"
+  - "activity: 35 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "switch-weread"
@@ -131,6 +131,6 @@ repos:
 
 # jikkai
 
-68 pushes across 9 repositories on 36 active days in the last 90 days of public GitHub push activity.
+64 pushes across 8 repositories on 35 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/jikkai

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-28T06:07:44.182865+00:00"
+generated_at: "2026-09-29T06:07:44.400276+00:00"
 provenance:
   - "a50b0e08dbaee74a"
-pushes_per_week: [14, 21, 31, 7, 5, 5, 4, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [22, 14, 29, 8, 4, 6, 3, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 87
+    pushes: 86
     distinct_repos: 7
-    active_days: 23
+    active_days: 22
     repos_not_owned: 4
     not_owned_basenames: 3
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 3.7826
-  repo_per_active_day: 0.3043
+  push_per_day: 3.9091
+  repo_per_active_day: 0.3182
   not_owned_ratio: 0.5714
   basename_concentration: 0.4286
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 87
+    pushes: 86
     distinct_repos: 7
-    pushes_per_repo: 12.4286
-    active_days: 23
+    pushes_per_repo: 12.2857
+    active_days: 22
     repos_not_owned: 4
     not_owned_basenames: 3
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 23 active days in 90d — pass"
+  - "activity: 22 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "Schrecktech"
@@ -132,6 +132,6 @@ repos:
 
 # scottschreckengaust
 
-87 pushes across 7 repositories on 23 active days in the last 90 days of public GitHub push activity.
+86 pushes across 7 repositories on 22 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/scottschreckengaust

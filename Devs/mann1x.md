@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-28T06:07:44.182865+00:00"
+generated_at: "2026-09-29T06:07:44.400276+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [0, 2, 2, 1, 3, 15, 5, 0, 0, 1, 1, 22, 47]
+pushes_per_week: [0, 2, 2, 1, 7, 12, 4, 0, 0, 1, 1, 24, 46]
 windows:
   "7d":
-    pushes: 52
-    distinct_repos: 7
+    pushes: 48
+    distinct_repos: 6
     active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 71
+    pushes: 72
     distinct_repos: 7
-    active_days: 14
+    active_days: 15
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 99
+    pushes: 100
     distinct_repos: 9
-    active_days: 29
+    active_days: 30
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 3.4138
-  repo_per_active_day: 0.3103
+  push_per_day: 3.3333
+  repo_per_active_day: 0.3000
   not_owned_ratio: 0.0000
   basename_concentration: 0.1111
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 52
-    distinct_repos: 7
-    pushes_per_repo: 7.4286
+    pushes: 48
+    distinct_repos: 6
+    pushes_per_repo: 8.0000
     active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 71
+    pushes: 72
     distinct_repos: 7
-    pushes_per_repo: 10.1429
-    active_days: 14
+    pushes_per_repo: 10.2857
+    active_days: 15
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 99
+    pushes: 100
     distinct_repos: 9
-    pushes_per_repo: 11.0000
-    active_days: 29
+    pushes_per_repo: 11.1111
+    active_days: 30
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 29 active days in 90d — pass"
+  - "activity: 30 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "ryzen_monitor_ng"
@@ -129,6 +129,6 @@ repos:
 
 # mann1x
 
-99 pushes across 9 repositories on 29 active days in the last 90 days of public GitHub push activity.
+100 pushes across 9 repositories on 30 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/mann1x

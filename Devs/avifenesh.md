@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-28T06:07:44.182865+00:00"
+generated_at: "2026-09-29T06:07:44.400276+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [78, 171, 43, 22, 35, 18, 53, 17, 18, 13, 24, 107, 245]
+pushes_per_week: [99, 160, 29, 21, 36, 22, 47, 20, 15, 17, 20, 128, 228]
 windows:
   "7d":
-    pushes: 252
-    distinct_repos: 21
+    pushes: 241
+    distinct_repos: 23
     active_days: 7
     repos_not_owned: 15
     not_owned_basenames: 15
     not_owned_owners: 1
   "30d":
-    pushes: 394
-    distinct_repos: 25
-    active_days: 25
+    pushes: 399
+    distinct_repos: 26
+    active_days: 26
     repos_not_owned: 17
     not_owned_basenames: 17
     not_owned_owners: 1
   "90d":
-    pushes: 844
+    pushes: 842
     distinct_repos: 49
     active_days: 80
     repos_not_owned: 19
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 10.5500
+  push_per_day: 10.5250
   repo_per_active_day: 0.6125
   not_owned_ratio: 0.3878
   basename_concentration: 0.0408
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 252
-    distinct_repos: 21
-    pushes_per_repo: 12.0000
+    pushes: 241
+    distinct_repos: 23
+    pushes_per_repo: 10.4783
     active_days: 7
     repos_not_owned: 15
     not_owned_basenames: 15
     not_owned_owners: 1
   "30d":
-    pushes: 394
-    distinct_repos: 25
-    pushes_per_repo: 15.7600
-    active_days: 25
+    pushes: 399
+    distinct_repos: 26
+    pushes_per_repo: 15.3462
+    active_days: 26
     repos_not_owned: 17
     not_owned_basenames: 17
     not_owned_owners: 1
   "90d":
-    pushes: 844
+    pushes: 842
     distinct_repos: 49
-    pushes_per_repo: 17.2245
+    pushes_per_repo: 17.1837
     active_days: 80
     repos_not_owned: 19
     not_owned_basenames: 18
@@ -193,6 +193,6 @@ repos:
 
 # avifenesh
 
-844 pushes across 49 repositories on 80 active days in the last 90 days of public GitHub push activity.
+842 pushes across 49 repositories on 80 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/avifenesh

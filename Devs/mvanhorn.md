@@ -13,6 +13,7 @@ provenance_repos:
   - "AlexsJones/llmfit"
   - "alibaba/page-agent"
   - "ayghri/i-have-adhd"
+  - "BuilderIO/agent-native"
   - "bytedance/deer-flow"
   - "chopratejas/headroom"
   - "ChromeDevTools/chrome-devtools-mcp"
@@ -20,7 +21,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-28T06:07:44.182865+00:00"
+generated_at: "2026-09-29T06:07:44.400276+00:00"
 provenance:
   - "16389f32495280ea"
   - "234088bc43763aa2"
@@ -29,75 +30,76 @@ provenance:
   - "4a45ac7a449df20e"
   - "541318303a272608"
   - "73468cde177ddae6"
+  - "745308b2b7085095"
   - "b88590c43555a909"
   - "d1946b21c02e5fa5"
   - "dae9f02535f7c22f"
   - "edb3a626875732de"
-pushes_per_week: [64, 76, 78, 32, 14, 20, 38, 4, 2, 3, 9, 26, 38]
+pushes_per_week: [59, 76, 78, 28, 15, 21, 36, 4, 2, 4, 9, 27, 46]
 windows:
   "7d":
-    pushes: 39
+    pushes: 48
     distinct_repos: 22
     active_days: 7
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 76
-    distinct_repos: 40
-    active_days: 19
+    pushes: 86
+    distinct_repos: 41
+    active_days: 20
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 404
-    distinct_repos: 168
-    active_days: 69
+    pushes: 405
+    distinct_repos: 166
+    active_days: 68
     repos_not_owned: 5
     not_owned_basenames: 2
     not_owned_owners: 5
 automation:
   state: "clear"
-  push_per_day: 5.8551
-  repo_per_active_day: 2.4348
-  not_owned_ratio: 0.0298
-  basename_concentration: 0.0298
+  push_per_day: 5.9559
+  repo_per_active_day: 2.4412
+  not_owned_ratio: 0.0301
+  basename_concentration: 0.0301
   shapes:
     - "mass_self_repo"
   shape_evidence:
-    - "168 distinct repos, 5 not owned (ratio 0.0298), 5.86 pushes per active day"
+    - "166 distinct repos, 5 not owned (ratio 0.0301), 5.96 pushes per active day"
   cleared_by: "e01-fixer"
   cleared_on: "2026-08-26"
   fork_provenance: null
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 39
+    pushes: 48
     distinct_repos: 22
-    pushes_per_repo: 1.7727
+    pushes_per_repo: 2.1818
     active_days: 7
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 76
-    distinct_repos: 40
-    pushes_per_repo: 1.9000
-    active_days: 19
+    pushes: 86
+    distinct_repos: 41
+    pushes_per_repo: 2.0976
+    active_days: 20
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 404
-    distinct_repos: 168
-    pushes_per_repo: 2.4048
-    active_days: 69
+    pushes: 405
+    distinct_repos: 166
+    pushes_per_repo: 2.4398
+    active_days: 68
     repos_not_owned: 5
     not_owned_basenames: 2
     not_owned_owners: 5
 reasons:
-  - "provenance: 11 vault signal(s) — pass"
-  - "activity: 69 active days in 90d — pass"
+  - "provenance: 12 vault signal(s) — pass"
+  - "activity: 68 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "last30days-skill"
@@ -186,6 +188,6 @@ repos:
 
 # mvanhorn
 
-404 pushes across 168 repositories on 69 active days in the last 90 days of public GitHub push activity.
+405 pushes across 166 repositories on 68 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/mvanhorn

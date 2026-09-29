@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-28T06:07:44.182865+00:00"
+generated_at: "2026-09-29T06:07:44.400276+00:00"
 provenance:
   - "51d6155061d60774"
-pushes_per_week: [106, 88, 37, 26, 10, 24, 23, 13, 3, 4, 10, 37, 88]
+pushes_per_week: [112, 73, 33, 23, 11, 25, 27, 7, 4, 3, 14, 41, 100]
 windows:
   "7d":
-    pushes: 90
+    pushes: 104
     distinct_repos: 2
     active_days: 7
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 142
+    pushes: 161
     distinct_repos: 3
     active_days: 22
     repos_not_owned: 3
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 469
-    distinct_repos: 5
+    pushes: 473
+    distinct_repos: 4
     active_days: 72
-    repos_not_owned: 5
-    not_owned_basenames: 4
+    repos_not_owned: 4
+    not_owned_basenames: 3
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 6.5139
-  repo_per_active_day: 0.0694
+  push_per_day: 6.5694
+  repo_per_active_day: 0.0556
   not_owned_ratio: 1.0000
-  basename_concentration: 0.4000
+  basename_concentration: 0.5000
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,28 +49,28 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 90
+    pushes: 104
     distinct_repos: 2
-    pushes_per_repo: 45.0000
+    pushes_per_repo: 52.0000
     active_days: 7
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 142
+    pushes: 161
     distinct_repos: 3
-    pushes_per_repo: 47.3333
+    pushes_per_repo: 53.6667
     active_days: 22
     repos_not_owned: 3
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 469
-    distinct_repos: 5
-    pushes_per_repo: 93.8000
+    pushes: 473
+    distinct_repos: 4
+    pushes_per_repo: 118.2500
     active_days: 72
-    repos_not_owned: 5
-    not_owned_basenames: 4
+    repos_not_owned: 4
+    not_owned_basenames: 3
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
@@ -138,6 +138,6 @@ repos:
 
 # arvinxx
 
-469 pushes across 5 repositories on 72 active days in the last 90 days of public GitHub push activity.
+473 pushes across 4 repositories on 72 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/arvinxx

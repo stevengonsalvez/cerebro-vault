@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-28T06:07:44.182865+00:00"
+generated_at: "2026-09-29T06:07:44.400276+00:00"
 provenance:
   - "379642deb53f3714"
-pushes_per_week: [10, 0, 0, 9, 14, 1, 19, 0, 0, 0, 1, 8, 6]
+pushes_per_week: [8, 0, 1, 9, 13, 3, 17, 0, 0, 0, 1, 8, 14]
 windows:
   "7d":
-    pushes: 6
+    pushes: 14
     distinct_repos: 2
     active_days: 4
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 15
+    pushes: 23
     distinct_repos: 5
     active_days: 8
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 1
   "90d":
-    pushes: 68
+    pushes: 74
     distinct_repos: 12
     active_days: 20
     repos_not_owned: 12
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 3.4000
+  push_per_day: 3.7000
   repo_per_active_day: 0.6000
   not_owned_ratio: 1.0000
   basename_concentration: 0.0833
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 6
+    pushes: 14
     distinct_repos: 2
-    pushes_per_repo: 3.0000
+    pushes_per_repo: 7.0000
     active_days: 4
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 15
+    pushes: 23
     distinct_repos: 5
-    pushes_per_repo: 3.0000
+    pushes_per_repo: 4.6000
     active_days: 8
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 1
   "90d":
-    pushes: 68
+    pushes: 74
     distinct_repos: 12
-    pushes_per_repo: 5.6667
+    pushes_per_repo: 6.1667
     active_days: 20
     repos_not_owned: 12
     not_owned_basenames: 12
@@ -130,6 +130,6 @@ repos:
 
 # dkastl
 
-68 pushes across 12 repositories on 20 active days in the last 90 days of public GitHub push activity.
+74 pushes across 12 repositories on 20 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/dkastl

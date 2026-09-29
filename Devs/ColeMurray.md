@@ -9,37 +9,37 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-28T06:07:44.182865+00:00"
+generated_at: "2026-09-29T06:07:44.400276+00:00"
 provenance:
   - "8311cfc3055f8fea"
-pushes_per_week: [22, 47, 63, 13, 30, 10, 21, 5, 2, 6, 9, 20, 15]
+pushes_per_week: [28, 46, 58, 12, 30, 12, 19, 6, 1, 7, 8, 23, 19]
 windows:
   "7d":
-    pushes: 15
-    distinct_repos: 1
-    active_days: 6
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    pushes: 21
+    distinct_repos: 2
+    active_days: 7
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "30d":
-    pushes: 51
-    distinct_repos: 1
-    active_days: 19
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    pushes: 58
+    distinct_repos: 2
+    active_days: 21
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "90d":
-    pushes: 263
-    distinct_repos: 1
-    active_days: 66
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    pushes: 269
+    distinct_repos: 2
+    active_days: 68
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 3.9848
-  repo_per_active_day: 0.0152
-  not_owned_ratio: 0.0000
+  push_per_day: 3.9559
+  repo_per_active_day: 0.0294
+  not_owned_ratio: 0.5000
   basename_concentration: 1.0000
   shapes: []
   shape_evidence: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 15
-    distinct_repos: 1
-    pushes_per_repo: 15.0000
-    active_days: 6
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    pushes: 21
+    distinct_repos: 2
+    pushes_per_repo: 10.5000
+    active_days: 7
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "30d":
-    pushes: 51
-    distinct_repos: 1
-    pushes_per_repo: 51.0000
-    active_days: 19
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    pushes: 58
+    distinct_repos: 2
+    pushes_per_repo: 29.0000
+    active_days: 21
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "90d":
-    pushes: 263
-    distinct_repos: 1
-    pushes_per_repo: 263.0000
-    active_days: 66
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    pushes: 269
+    distinct_repos: 2
+    pushes_per_repo: 134.5000
+    active_days: 68
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 66 active days in 90d — pass"
+  - "activity: 68 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "background-agents"
@@ -138,6 +138,6 @@ repos:
 
 # ColeMurray
 
-263 pushes across 1 repository on 66 active days in the last 90 days of public GitHub push activity.
+269 pushes across 2 repositories on 68 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ColeMurray

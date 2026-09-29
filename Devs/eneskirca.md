@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-28T06:07:44.182865+00:00"
+generated_at: "2026-09-29T06:07:44.400276+00:00"
 provenance:
   - "c7d59e96ede9112e"
-pushes_per_week: [1, 0, 30, 19, 4, 3, 24, 7, 3, 0, 0, 3, 14]
+pushes_per_week: [0, 0, 37, 13, 3, 5, 22, 8, 2, 0, 0, 4, 16]
 windows:
   "7d":
-    pushes: 14
+    pushes: 17
     distinct_repos: 3
-    active_days: 4
+    active_days: 5
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
   "30d":
-    pushes: 17
+    pushes: 20
     distinct_repos: 3
-    active_days: 7
+    active_days: 8
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 108
-    distinct_repos: 6
+    pushes: 110
+    distinct_repos: 5
     active_days: 36
     repos_not_owned: 4
     not_owned_basenames: 2
     not_owned_owners: 4
 automation:
   state: "clear"
-  push_per_day: 3.0000
-  repo_per_active_day: 0.1667
-  not_owned_ratio: 0.6667
-  basename_concentration: 0.6667
+  push_per_day: 3.0556
+  repo_per_active_day: 0.1389
+  not_owned_ratio: 0.8000
+  basename_concentration: 0.8000
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 14
+    pushes: 17
     distinct_repos: 3
-    pushes_per_repo: 4.6667
-    active_days: 4
+    pushes_per_repo: 5.6667
+    active_days: 5
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
   "30d":
-    pushes: 17
+    pushes: 20
     distinct_repos: 3
-    pushes_per_repo: 5.6667
-    active_days: 7
+    pushes_per_repo: 6.6667
+    active_days: 8
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 108
-    distinct_repos: 6
-    pushes_per_repo: 18.0000
+    pushes: 110
+    distinct_repos: 5
+    pushes_per_repo: 22.0000
     active_days: 36
     repos_not_owned: 4
     not_owned_basenames: 2
@@ -125,6 +125,6 @@ repos:
 
 # eneskirca
 
-108 pushes across 6 repositories on 36 active days in the last 90 days of public GitHub push activity.
+110 pushes across 5 repositories on 36 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/eneskirca

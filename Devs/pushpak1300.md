@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-28T06:07:44.182865+00:00"
+generated_at: "2026-09-29T06:07:44.400276+00:00"
 provenance:
   - "48dbbdd8fd0d3029"
-pushes_per_week: [26, 12, 27, 1, 2, 14, 35, 1, 4, 0, 6, 13, 7]
+pushes_per_week: [22, 17, 19, 3, 0, 23, 26, 4, 1, 2, 4, 15, 6]
 windows:
   "7d":
     pushes: 8
-    distinct_repos: 3
+    distinct_repos: 4
     active_days: 4
-    repos_not_owned: 2
-    not_owned_basenames: 2
+    repos_not_owned: 3
+    not_owned_basenames: 3
     not_owned_owners: 2
   "30d":
-    pushes: 26
+    pushes: 27
     distinct_repos: 10
-    active_days: 11
+    active_days: 12
     repos_not_owned: 8
     not_owned_basenames: 4
     not_owned_owners: 6
   "90d":
-    pushes: 148
+    pushes: 142
     distinct_repos: 22
     active_days: 42
     repos_not_owned: 20
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 17
 automation:
   state: "clear"
-  push_per_day: 3.5238
+  push_per_day: 3.3810
   repo_per_active_day: 0.5238
   not_owned_ratio: 0.9091
   basename_concentration: 0.4091
@@ -50,24 +50,24 @@ automation:
 facets:
   "7d":
     pushes: 8
-    distinct_repos: 3
-    pushes_per_repo: 2.6667
+    distinct_repos: 4
+    pushes_per_repo: 2.0000
     active_days: 4
-    repos_not_owned: 2
-    not_owned_basenames: 2
+    repos_not_owned: 3
+    not_owned_basenames: 3
     not_owned_owners: 2
   "30d":
-    pushes: 26
+    pushes: 27
     distinct_repos: 10
-    pushes_per_repo: 2.6000
-    active_days: 11
+    pushes_per_repo: 2.7000
+    active_days: 12
     repos_not_owned: 8
     not_owned_basenames: 4
     not_owned_owners: 6
   "90d":
-    pushes: 148
+    pushes: 142
     distinct_repos: 22
-    pushes_per_repo: 6.7273
+    pushes_per_repo: 6.4545
     active_days: 42
     repos_not_owned: 20
     not_owned_basenames: 8
@@ -118,6 +118,6 @@ repos:
 
 # pushpak1300
 
-148 pushes across 22 repositories on 42 active days in the last 90 days of public GitHub push activity.
+142 pushes across 22 repositories on 42 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/pushpak1300

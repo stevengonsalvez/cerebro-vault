@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-28T06:07:44.182865+00:00"
+generated_at: "2026-09-29T06:07:44.400276+00:00"
 provenance:
   - "379642deb53f3714"
-pushes_per_week: [9, 9, 7, 5, 4, 7, 0, 1, 1, 0, 3, 7, 7]
+pushes_per_week: [10, 6, 6, 6, 3, 7, 0, 2, 0, 0, 3, 7, 7]
 windows:
   "7d":
     pushes: 7
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 3
     not_owned_owners: 3
   "90d":
-    pushes: 60
+    pushes: 57
     distinct_repos: 6
-    active_days: 36
+    active_days: 35
     repos_not_owned: 5
     not_owned_basenames: 4
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 1.6667
-  repo_per_active_day: 0.1667
+  push_per_day: 1.6286
+  repo_per_active_day: 0.1714
   not_owned_ratio: 0.8333
   basename_concentration: 0.3333
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 3
     not_owned_owners: 3
   "90d":
-    pushes: 60
+    pushes: 57
     distinct_repos: 6
-    pushes_per_repo: 10.0000
-    active_days: 36
+    pushes_per_repo: 9.5000
+    active_days: 35
     repos_not_owned: 5
     not_owned_basenames: 4
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 36 active days in 90d — pass"
+  - "activity: 35 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "zc-emu"
@@ -129,6 +129,6 @@ repos:
 
 # connorjclark
 
-60 pushes across 6 repositories on 36 active days in the last 90 days of public GitHub push activity.
+57 pushes across 6 repositories on 35 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/connorjclark

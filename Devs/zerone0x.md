@@ -11,12 +11,12 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-28T06:07:44.182865+00:00"
+generated_at: "2026-09-29T06:07:44.400276+00:00"
 provenance:
   - "3cb7ff1cdcf97c6b"
   - "dae9f02535f7c22f"
   - "ffccace0ba14fd15"
-pushes_per_week: [3, 0, 2, 2, 2, 0, 0, 1, 0, 1, 0, 1, 0]
+pushes_per_week: [2, 1, 1, 2, 2, 0, 1, 0, 0, 1, 0, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -33,7 +33,7 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 12
+    pushes: 11
     distinct_repos: 2
     active_days: 11
     repos_not_owned: 0
@@ -41,7 +41,7 @@ windows:
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.0909
+  push_per_day: 1.0000
   repo_per_active_day: 0.1818
   not_owned_ratio: 0.0000
   basename_concentration: 0.5000
@@ -69,9 +69,9 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 12
+    pushes: 11
     distinct_repos: 2
-    pushes_per_repo: 6.0000
+    pushes_per_repo: 5.5000
     active_days: 11
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -140,6 +140,6 @@ repos:
 
 # zerone0x
 
-12 pushes across 2 repositories on 11 active days in the last 90 days of public GitHub push activity.
+11 pushes across 2 repositories on 11 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/zerone0x

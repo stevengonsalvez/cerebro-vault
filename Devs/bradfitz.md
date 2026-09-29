@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-28T06:07:44.182865+00:00"
+generated_at: "2026-09-29T06:07:44.400276+00:00"
 provenance:
   - "e2f800cf55605b30"
-pushes_per_week: [10, 13, 13, 4, 4, 1, 0, 0, 0, 2, 2, 8, 8]
+pushes_per_week: [7, 19, 7, 5, 2, 1, 0, 0, 1, 1, 2, 8, 8]
 windows:
   "7d":
     pushes: 8
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 5
     not_owned_owners: 1
   "90d":
-    pushes: 65
-    distinct_repos: 11
-    active_days: 33
-    repos_not_owned: 7
-    not_owned_basenames: 7
+    pushes: 61
+    distinct_repos: 9
+    active_days: 32
+    repos_not_owned: 5
+    not_owned_basenames: 5
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.9697
-  repo_per_active_day: 0.3333
-  not_owned_ratio: 0.6364
-  basename_concentration: 0.0909
+  push_per_day: 1.9062
+  repo_per_active_day: 0.2812
+  not_owned_ratio: 0.5556
+  basename_concentration: 0.1111
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 5
     not_owned_owners: 1
   "90d":
-    pushes: 65
-    distinct_repos: 11
-    pushes_per_repo: 5.9091
-    active_days: 33
-    repos_not_owned: 7
-    not_owned_basenames: 7
+    pushes: 61
+    distinct_repos: 9
+    pushes_per_repo: 6.7778
+    active_days: 32
+    repos_not_owned: 5
+    not_owned_basenames: 5
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 33 active days in 90d — pass"
+  - "activity: 32 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "autocertdelegate"
@@ -129,6 +129,6 @@ repos:
 
 # bradfitz
 
-65 pushes across 11 repositories on 33 active days in the last 90 days of public GitHub push activity.
+61 pushes across 9 repositories on 32 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/bradfitz

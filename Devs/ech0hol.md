@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-27T06:09:19.734552+00:00"
+generated_at: "2026-09-29T06:07:44.400276+00:00"
 provenance:
   - "16389f32495280ea"
-pushes_per_week: [9, 1, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [7, 1, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,7 +29,7 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 16
+    pushes: 14
     distinct_repos: 3
     active_days: 7
     repos_not_owned: 0
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.2857
+  push_per_day: 2.0000
   repo_per_active_day: 0.4286
   not_owned_ratio: 0.0000
   basename_concentration: 0.3333
@@ -65,9 +65,9 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 16
+    pushes: 14
     distinct_repos: 3
-    pushes_per_repo: 5.3333
+    pushes_per_repo: 4.6667
     active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -129,6 +129,6 @@ repos:
 
 # ech0hol
 
-16 pushes across 3 repositories on 7 active days in the last 90 days of public GitHub push activity.
+14 pushes across 3 repositories on 7 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ech0hol

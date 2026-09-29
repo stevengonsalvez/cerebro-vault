@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-28T06:07:44.182865+00:00"
+generated_at: "2026-09-29T06:07:44.400276+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [2, 11, 6, 4, 0, 0, 1, 1, 0, 3, 6, 32, 17]
+pushes_per_week: [3, 10, 6, 4, 0, 0, 2, 0, 0, 4, 7, 31, 20]
 windows:
   "7d":
-    pushes: 17
+    pushes: 21
     distinct_repos: 4
     active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 58
+    pushes: 62
     distinct_repos: 5
-    active_days: 19
+    active_days: 20
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 83
+    pushes: 87
     distinct_repos: 11
-    active_days: 34
+    active_days: 35
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.4412
-  repo_per_active_day: 0.3235
+  push_per_day: 2.4857
+  repo_per_active_day: 0.3143
   not_owned_ratio: 0.0000
   basename_concentration: 0.0909
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 17
+    pushes: 21
     distinct_repos: 4
-    pushes_per_repo: 4.2500
+    pushes_per_repo: 5.2500
     active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 58
+    pushes: 62
     distinct_repos: 5
-    pushes_per_repo: 11.6000
-    active_days: 19
+    pushes_per_repo: 12.4000
+    active_days: 20
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 83
+    pushes: 87
     distinct_repos: 11
-    pushes_per_repo: 7.5455
-    active_days: 34
+    pushes_per_repo: 7.9091
+    active_days: 35
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 34 active days in 90d — pass"
+  - "activity: 35 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "skgo"
@@ -129,6 +129,6 @@ repos:
 
 # tylergannon
 
-83 pushes across 11 repositories on 34 active days in the last 90 days of public GitHub push activity.
+87 pushes across 11 repositories on 35 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/tylergannon

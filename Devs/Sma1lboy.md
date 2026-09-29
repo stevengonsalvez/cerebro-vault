@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-28T06:07:44.182865+00:00"
+generated_at: "2026-09-29T06:07:44.400276+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [81, 31, 29, 19, 40, 18, 37, 3, 4, 4, 2, 12, 27]
+pushes_per_week: [81, 27, 27, 34, 25, 21, 34, 4, 5, 2, 3, 12, 27]
 windows:
   "7d":
-    pushes: 27
+    pushes: 28
     distinct_repos: 3
-    active_days: 6
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -29,7 +29,7 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 307
+    pushes: 302
     distinct_repos: 23
     active_days: 58
     repos_not_owned: 6
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 5.2931
+  push_per_day: 5.2069
   repo_per_active_day: 0.3966
   not_owned_ratio: 0.2609
   basename_concentration: 0.0435
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 27
+    pushes: 28
     distinct_repos: 3
-    pushes_per_repo: 9.0000
-    active_days: 6
+    pushes_per_repo: 9.3333
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -65,9 +65,9 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 307
+    pushes: 302
     distinct_repos: 23
-    pushes_per_repo: 13.3478
+    pushes_per_repo: 13.1304
     active_days: 58
     repos_not_owned: 6
     not_owned_basenames: 6
@@ -161,6 +161,6 @@ repos:
 
 # Sma1lboy
 
-307 pushes across 23 repositories on 58 active days in the last 90 days of public GitHub push activity.
+302 pushes across 23 repositories on 58 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Sma1lboy

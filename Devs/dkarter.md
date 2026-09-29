@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-28T06:07:44.182865+00:00"
+generated_at: "2026-09-29T06:07:44.400276+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [11, 4, 6, 25, 7, 11, 6, 6, 2, 3, 3, 7, 7]
+pushes_per_week: [8, 2, 9, 23, 6, 14, 3, 6, 2, 3, 5, 5, 7]
 windows:
   "7d":
     pushes: 7
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 22
+    pushes: 21
     distinct_repos: 5
-    active_days: 13
+    active_days: 12
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 98
+    pushes: 93
     distinct_repos: 10
-    active_days: 46
+    active_days: 45
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.1304
-  repo_per_active_day: 0.2174
+  push_per_day: 2.0667
+  repo_per_active_day: 0.2222
   not_owned_ratio: 0.0000
   basename_concentration: 0.1000
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 22
+    pushes: 21
     distinct_repos: 5
-    pushes_per_repo: 4.4000
-    active_days: 13
+    pushes_per_repo: 4.2000
+    active_days: 12
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 98
+    pushes: 93
     distinct_repos: 10
-    pushes_per_repo: 9.8000
-    active_days: 46
+    pushes_per_repo: 9.3000
+    active_days: 45
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 46 active days in 90d — pass"
+  - "activity: 45 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "dotfiles"
@@ -143,6 +143,6 @@ repos:
 
 # dkarter
 
-98 pushes across 10 repositories on 46 active days in the last 90 days of public GitHub push activity.
+93 pushes across 10 repositories on 45 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/dkarter

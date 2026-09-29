@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-28T06:07:44.182865+00:00"
+generated_at: "2026-09-29T06:07:44.400276+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [4, 3, 1, 1, 9, 1, 2, 0, 2, 0, 1, 2, 6]
+pushes_per_week: [4, 3, 0, 4, 6, 3, 0, 0, 2, 0, 1, 3, 5]
 windows:
   "7d":
     pushes: 6
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 4
     not_owned_owners: 1
   "90d":
-    pushes: 32
+    pushes: 31
     distinct_repos: 6
-    active_days: 22
+    active_days: 21
     repos_not_owned: 6
     not_owned_basenames: 6
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.4545
-  repo_per_active_day: 0.2727
+  push_per_day: 1.4762
+  repo_per_active_day: 0.2857
   not_owned_ratio: 1.0000
   basename_concentration: 0.1667
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 4
     not_owned_owners: 1
   "90d":
-    pushes: 32
+    pushes: 31
     distinct_repos: 6
-    pushes_per_repo: 5.3333
-    active_days: 22
+    pushes_per_repo: 5.1667
+    active_days: 21
     repos_not_owned: 6
     not_owned_basenames: 6
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 22 active days in 90d — pass"
+  - "activity: 21 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "go-chat"
@@ -129,6 +129,6 @@ repos:
 
 # ezynda3
 
-32 pushes across 6 repositories on 22 active days in the last 90 days of public GitHub push activity.
+31 pushes across 6 repositories on 21 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ezynda3

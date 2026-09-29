@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-28T06:07:44.182865+00:00"
+generated_at: "2026-09-29T06:07:44.400276+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [0, 0, 1, 0, 0, 0, 3, 0, 0, 0, 7, 1, 6]
+pushes_per_week: [0, 0, 1, 0, 0, 0, 3, 0, 0, 0, 7, 2, 12]
 windows:
   "7d":
-    pushes: 6
+    pushes: 13
     distinct_repos: 3
-    active_days: 3
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 14
+    pushes: 21
     distinct_repos: 3
-    active_days: 6
+    active_days: 8
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 18
+    pushes: 25
     distinct_repos: 3
-    active_days: 10
+    active_days: 12
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.8000
-  repo_per_active_day: 0.3000
+  push_per_day: 2.0833
+  repo_per_active_day: 0.2500
   not_owned_ratio: 0.0000
   basename_concentration: 0.3333
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 6
+    pushes: 13
     distinct_repos: 3
-    pushes_per_repo: 2.0000
-    active_days: 3
+    pushes_per_repo: 4.3333
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 14
+    pushes: 21
     distinct_repos: 3
-    pushes_per_repo: 4.6667
-    active_days: 6
+    pushes_per_repo: 7.0000
+    active_days: 8
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 18
+    pushes: 25
     distinct_repos: 3
-    pushes_per_repo: 6.0000
-    active_days: 10
+    pushes_per_repo: 8.3333
+    active_days: 12
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 10 active days in 90d — pass"
+  - "activity: 12 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "railway-openmuse"
@@ -129,6 +129,6 @@ repos:
 
 # will-bogusz
 
-18 pushes across 3 repositories on 10 active days in the last 90 days of public GitHub push activity.
+25 pushes across 3 repositories on 12 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/will-bogusz

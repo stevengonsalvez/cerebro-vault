@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-28T06:07:44.182865+00:00"
+generated_at: "2026-09-29T06:07:44.400276+00:00"
 provenance:
   - "48dbbdd8fd0d3029"
-pushes_per_week: [19, 14, 14, 21, 12, 7, 4, 0, 5, 0, 0, 3, 5]
+pushes_per_week: [17, 14, 16, 18, 11, 7, 4, 0, 5, 0, 0, 3, 7]
 windows:
   "7d":
-    pushes: 6
+    pushes: 7
     distinct_repos: 2
     active_days: 4
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
-    pushes: 9
-    distinct_repos: 2
-    active_days: 6
+    pushes: 11
+    distinct_repos: 3
+    active_days: 7
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 104
+    pushes: 102
     distinct_repos: 14
     active_days: 47
     repos_not_owned: 10
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 6
 automation:
   state: "clear"
-  push_per_day: 2.2128
+  push_per_day: 2.1702
   repo_per_active_day: 0.2979
   not_owned_ratio: 0.7143
   basename_concentration: 0.1429
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 6
+    pushes: 7
     distinct_repos: 2
-    pushes_per_repo: 3.0000
+    pushes_per_repo: 3.5000
     active_days: 4
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
-    pushes: 9
-    distinct_repos: 2
-    pushes_per_repo: 4.5000
-    active_days: 6
+    pushes: 11
+    distinct_repos: 3
+    pushes_per_repo: 3.6667
+    active_days: 7
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 104
+    pushes: 102
     distinct_repos: 14
-    pushes_per_repo: 7.4286
+    pushes_per_repo: 7.2857
     active_days: 47
     repos_not_owned: 10
     not_owned_basenames: 9
@@ -141,6 +141,6 @@ repos:
 
 # evalstate
 
-104 pushes across 14 repositories on 47 active days in the last 90 days of public GitHub push activity.
+102 pushes across 14 repositories on 47 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/evalstate

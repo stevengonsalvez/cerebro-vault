@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-28T06:07:44.182865+00:00"
+generated_at: "2026-09-29T06:07:44.400276+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [43, 31, 41, 41, 15, 10, 8, 4, 4, 2, 0, 16, 28]
+pushes_per_week: [32, 36, 34, 41, 18, 8, 8, 4, 3, 2, 0, 19, 34]
 windows:
   "7d":
-    pushes: 28
-    distinct_repos: 12
-    active_days: 6
+    pushes: 36
+    distinct_repos: 15
+    active_days: 7
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 47
-    distinct_repos: 16
-    active_days: 12
+    pushes: 55
+    distinct_repos: 18
+    active_days: 13
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 243
+    pushes: 239
     distinct_repos: 27
-    active_days: 52
+    active_days: 53
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 4.6731
-  repo_per_active_day: 0.5192
+  push_per_day: 4.5094
+  repo_per_active_day: 0.5094
   not_owned_ratio: 0.0370
   basename_concentration: 0.0741
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 28
-    distinct_repos: 12
-    pushes_per_repo: 2.3333
-    active_days: 6
+    pushes: 36
+    distinct_repos: 15
+    pushes_per_repo: 2.4000
+    active_days: 7
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 47
-    distinct_repos: 16
-    pushes_per_repo: 2.9375
-    active_days: 12
+    pushes: 55
+    distinct_repos: 18
+    pushes_per_repo: 3.0556
+    active_days: 13
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 243
+    pushes: 239
     distinct_repos: 27
-    pushes_per_repo: 9.0000
-    active_days: 52
+    pushes_per_repo: 8.8519
+    active_days: 53
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 52 active days in 90d — pass"
+  - "activity: 53 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "mdparser"
@@ -166,6 +166,6 @@ repos:
 
 # iliaal
 
-243 pushes across 27 repositories on 52 active days in the last 90 days of public GitHub push activity.
+239 pushes across 27 repositories on 53 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/iliaal

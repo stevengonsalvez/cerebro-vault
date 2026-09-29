@@ -9,17 +9,17 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-28T06:07:44.182865+00:00"
+generated_at: "2026-09-29T06:07:44.400276+00:00"
 provenance:
   - "7216827ad52eded1"
-pushes_per_week: [52, 38, 109, 37, 11, 10, 16, 4, 8, 3, 4, 12, 3]
+pushes_per_week: [56, 72, 74, 33, 12, 10, 16, 4, 8, 5, 2, 14, 0]
 windows:
   "7d":
-    pushes: 3
-    distinct_repos: 2
+    pushes: 2
+    distinct_repos: 1
     active_days: 1
-    repos_not_owned: 2
-    not_owned_basenames: 2
+    repos_not_owned: 1
+    not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
     pushes: 24
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 4
     not_owned_owners: 2
   "90d":
-    pushes: 307
+    pushes: 306
     distinct_repos: 28
-    active_days: 58
+    active_days: 57
     repos_not_owned: 27
     not_owned_basenames: 22
     not_owned_owners: 4
 automation:
   state: "clear"
-  push_per_day: 5.2931
-  repo_per_active_day: 0.4828
+  push_per_day: 5.3684
+  repo_per_active_day: 0.4912
   not_owned_ratio: 0.9643
   basename_concentration: 0.1071
   shapes: []
@@ -49,12 +49,12 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 3
-    distinct_repos: 2
-    pushes_per_repo: 1.5000
+    pushes: 2
+    distinct_repos: 1
+    pushes_per_repo: 2.0000
     active_days: 1
-    repos_not_owned: 2
-    not_owned_basenames: 2
+    repos_not_owned: 1
+    not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
     pushes: 24
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 4
     not_owned_owners: 2
   "90d":
-    pushes: 307
+    pushes: 306
     distinct_repos: 28
-    pushes_per_repo: 10.9643
-    active_days: 58
+    pushes_per_repo: 10.9286
+    active_days: 57
     repos_not_owned: 27
     not_owned_basenames: 22
     not_owned_owners: 4
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 58 active days in 90d — pass"
+  - "activity: 57 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "aos-dj"
@@ -129,6 +129,6 @@ repos:
 
 # joshuajbouw
 
-307 pushes across 28 repositories on 58 active days in the last 90 days of public GitHub push activity.
+306 pushes across 28 repositories on 57 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/joshuajbouw

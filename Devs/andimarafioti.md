@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-28T06:07:44.182865+00:00"
+generated_at: "2026-09-29T06:07:44.400276+00:00"
 provenance:
   - "9207e699adc3a415"
-pushes_per_week: [9, 0, 4, 1, 6, 5, 7, 1, 2, 0, 0, 0, 14]
+pushes_per_week: [7, 0, 4, 1, 7, 6, 5, 2, 1, 0, 0, 0, 17]
 windows:
   "7d":
-    pushes: 14
-    distinct_repos: 6
-    active_days: 4
-    repos_not_owned: 2
+    pushes: 17
+    distinct_repos: 7
+    active_days: 5
+    repos_not_owned: 3
     not_owned_basenames: 1
-    not_owned_owners: 2
+    not_owned_owners: 3
   "30d":
-    pushes: 14
-    distinct_repos: 6
-    active_days: 4
-    repos_not_owned: 2
+    pushes: 17
+    distinct_repos: 7
+    active_days: 5
+    repos_not_owned: 3
     not_owned_basenames: 1
-    not_owned_owners: 2
+    not_owned_owners: 3
   "90d":
-    pushes: 49
+    pushes: 50
     distinct_repos: 9
     active_days: 24
     repos_not_owned: 5
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 4
 automation:
   state: "clear"
-  push_per_day: 2.0417
+  push_per_day: 2.0833
   repo_per_active_day: 0.3750
   not_owned_ratio: 0.5556
   basename_concentration: 0.4444
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 14
-    distinct_repos: 6
-    pushes_per_repo: 2.3333
-    active_days: 4
-    repos_not_owned: 2
+    pushes: 17
+    distinct_repos: 7
+    pushes_per_repo: 2.4286
+    active_days: 5
+    repos_not_owned: 3
     not_owned_basenames: 1
-    not_owned_owners: 2
+    not_owned_owners: 3
   "30d":
-    pushes: 14
-    distinct_repos: 6
-    pushes_per_repo: 2.3333
-    active_days: 4
-    repos_not_owned: 2
+    pushes: 17
+    distinct_repos: 7
+    pushes_per_repo: 2.4286
+    active_days: 5
+    repos_not_owned: 3
     not_owned_basenames: 1
-    not_owned_owners: 2
+    not_owned_owners: 3
   "90d":
-    pushes: 49
+    pushes: 50
     distinct_repos: 9
-    pushes_per_repo: 5.4444
+    pushes_per_repo: 5.5556
     active_days: 24
     repos_not_owned: 5
     not_owned_basenames: 3
@@ -129,6 +129,6 @@ repos:
 
 # andimarafioti
 
-49 pushes across 9 repositories on 24 active days in the last 90 days of public GitHub push activity.
+50 pushes across 9 repositories on 24 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/andimarafioti
