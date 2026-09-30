@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-29T06:07:44.400276+00:00"
+generated_at: "2026-09-30T06:08:17.648704+00:00"
 provenance:
   - "a5babe6eb0c3a37f"
-pushes_per_week: [3, 1, 0, 1, 6, 1, 0, 0, 0, 0, 0, 0, 6]
+pushes_per_week: [2, 1, 0, 1, 7, 0, 0, 0, 0, 0, 0, 1, 12]
 windows:
   "7d":
-    pushes: 6
-    distinct_repos: 1
-    active_days: 5
+    pushes: 13
+    distinct_repos: 2
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 6
-    distinct_repos: 1
-    active_days: 5
+    pushes: 13
+    distinct_repos: 2
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 18
+    pushes: 24
     distinct_repos: 4
     active_days: 14
     repos_not_owned: 0
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.2857
+  push_per_day: 1.7143
   repo_per_active_day: 0.2857
   not_owned_ratio: 0.0000
   basename_concentration: 0.2500
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 6
-    distinct_repos: 1
-    pushes_per_repo: 6.0000
-    active_days: 5
+    pushes: 13
+    distinct_repos: 2
+    pushes_per_repo: 6.5000
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 6
-    distinct_repos: 1
-    pushes_per_repo: 6.0000
-    active_days: 5
+    pushes: 13
+    distinct_repos: 2
+    pushes_per_repo: 6.5000
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 18
+    pushes: 24
     distinct_repos: 4
-    pushes_per_repo: 4.5000
+    pushes_per_repo: 6.0000
     active_days: 14
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -140,6 +140,6 @@ repos:
 
 # mvschwarz
 
-18 pushes across 4 repositories on 14 active days in the last 90 days of public GitHub push activity.
+24 pushes across 4 repositories on 14 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/mvschwarz

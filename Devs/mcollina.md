@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-29T06:07:44.400276+00:00"
+generated_at: "2026-09-30T06:08:17.648704+00:00"
 provenance:
   - "3eacb4655aba2497"
-pushes_per_week: [58, 20, 25, 18, 16, 5, 14, 2, 4, 0, 3, 10, 13]
+pushes_per_week: [54, 20, 25, 19, 16, 4, 12, 3, 3, 1, 3, 11, 12]
 windows:
   "7d":
-    pushes: 15
+    pushes: 14
     distinct_repos: 7
     active_days: 5
-    repos_not_owned: 4
-    not_owned_basenames: 4
-    not_owned_owners: 4
+    repos_not_owned: 5
+    not_owned_basenames: 5
+    not_owned_owners: 5
   "30d":
-    pushes: 26
-    distinct_repos: 11
-    active_days: 13
-    repos_not_owned: 8
-    not_owned_basenames: 8
-    not_owned_owners: 4
+    pushes: 27
+    distinct_repos: 12
+    active_days: 14
+    repos_not_owned: 9
+    not_owned_basenames: 9
+    not_owned_owners: 5
   "90d":
-    pushes: 188
-    distinct_repos: 38
+    pushes: 183
+    distinct_repos: 35
     active_days: 55
-    repos_not_owned: 30
-    not_owned_basenames: 29
+    repos_not_owned: 28
+    not_owned_basenames: 27
     not_owned_owners: 10
 automation:
   state: "clear"
-  push_per_day: 3.4182
-  repo_per_active_day: 0.6909
-  not_owned_ratio: 0.7895
-  basename_concentration: 0.0526
+  push_per_day: 3.3273
+  repo_per_active_day: 0.6364
+  not_owned_ratio: 0.8000
+  basename_concentration: 0.0571
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,28 +49,28 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 15
+    pushes: 14
     distinct_repos: 7
-    pushes_per_repo: 2.1429
+    pushes_per_repo: 2.0000
     active_days: 5
-    repos_not_owned: 4
-    not_owned_basenames: 4
-    not_owned_owners: 4
+    repos_not_owned: 5
+    not_owned_basenames: 5
+    not_owned_owners: 5
   "30d":
-    pushes: 26
-    distinct_repos: 11
-    pushes_per_repo: 2.3636
-    active_days: 13
-    repos_not_owned: 8
-    not_owned_basenames: 8
-    not_owned_owners: 4
+    pushes: 27
+    distinct_repos: 12
+    pushes_per_repo: 2.2500
+    active_days: 14
+    repos_not_owned: 9
+    not_owned_basenames: 9
+    not_owned_owners: 5
   "90d":
-    pushes: 188
-    distinct_repos: 38
-    pushes_per_repo: 4.9474
+    pushes: 183
+    distinct_repos: 35
+    pushes_per_repo: 5.2286
     active_days: 55
-    repos_not_owned: 30
-    not_owned_basenames: 29
+    repos_not_owned: 28
+    not_owned_basenames: 27
     not_owned_owners: 10
 reasons:
   - "provenance: 1 vault signal(s) — pass"
@@ -129,6 +129,6 @@ repos:
 
 # mcollina
 
-188 pushes across 38 repositories on 55 active days in the last 90 days of public GitHub push activity.
+183 pushes across 35 repositories on 55 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/mcollina

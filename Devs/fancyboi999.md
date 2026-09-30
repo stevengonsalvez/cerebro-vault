@@ -11,17 +11,17 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-29T06:07:44.400276+00:00"
+generated_at: "2026-09-30T06:08:17.648704+00:00"
 provenance:
   - "16389f32495280ea"
   - "541318303a272608"
   - "d1946b21c02e5fa5"
-pushes_per_week: [23, 5, 8, 1, 2, 0, 0, 0, 0, 1, 0, 8, 2]
+pushes_per_week: [19, 7, 6, 2, 1, 0, 0, 0, 0, 1, 0, 9, 1]
 windows:
   "7d":
-    pushes: 2
-    distinct_repos: 2
-    active_days: 2
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -33,16 +33,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 50
+    pushes: 46
     distinct_repos: 13
-    active_days: 23
+    active_days: 21
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.1739
-  repo_per_active_day: 0.5652
+  push_per_day: 2.1905
+  repo_per_active_day: 0.6190
   not_owned_ratio: 0.0769
   basename_concentration: 0.1538
   shapes: []
@@ -53,10 +53,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
-    distinct_repos: 2
+    pushes: 1
+    distinct_repos: 1
     pushes_per_repo: 1.0000
-    active_days: 2
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -69,16 +69,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 50
+    pushes: 46
     distinct_repos: 13
-    pushes_per_repo: 3.8462
-    active_days: 23
+    pushes_per_repo: 3.5385
+    active_days: 21
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 3 vault signal(s) — pass"
-  - "activity: 23 active days in 90d — pass"
+  - "activity: 21 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "ai-engineering-from-scratch-zh"
@@ -209,6 +209,6 @@ repos:
 
 # fancyboi999
 
-50 pushes across 13 repositories on 23 active days in the last 90 days of public GitHub push activity.
+46 pushes across 13 repositories on 21 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/fancyboi999

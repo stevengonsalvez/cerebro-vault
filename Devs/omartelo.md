@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-29T06:07:44.400276+00:00"
+generated_at: "2026-09-30T06:08:17.648704+00:00"
 provenance:
   - "4138778ebbc75ba6"
-pushes_per_week: [9, 25, 13, 20, 8, 16, 24, 3, 2, 4, 3, 3, 2]
+pushes_per_week: [11, 20, 11, 21, 7, 25, 15, 5, 0, 4, 3, 4, 1]
 windows:
   "7d":
     pushes: 2
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 132
-    distinct_repos: 10
-    active_days: 43
+    pushes: 127
+    distinct_repos: 9
+    active_days: 41
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 3.0698
-  repo_per_active_day: 0.2326
-  not_owned_ratio: 0.3000
-  basename_concentration: 0.2000
+  push_per_day: 3.0976
+  repo_per_active_day: 0.2195
+  not_owned_ratio: 0.3333
+  basename_concentration: 0.2222
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 132
-    distinct_repos: 10
-    pushes_per_repo: 13.2000
-    active_days: 43
+    pushes: 127
+    distinct_repos: 9
+    pushes_per_repo: 14.1111
+    active_days: 41
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 43 active days in 90d — pass"
+  - "activity: 41 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "homebrew-tap"
@@ -144,6 +144,6 @@ repos:
 
 # omartelo
 
-132 pushes across 10 repositories on 43 active days in the last 90 days of public GitHub push activity.
+127 pushes across 9 repositories on 41 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/omartelo

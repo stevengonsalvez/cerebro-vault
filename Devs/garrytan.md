@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-29T06:07:44.400276+00:00"
+generated_at: "2026-09-30T06:08:17.648704+00:00"
 provenance:
   - "b321d228efd2bc14"
-pushes_per_week: [4, 1, 0, 0, 0, 11, 38, 1, 6, 2, 2, 6, 31]
+pushes_per_week: [4, 1, 0, 0, 0, 22, 28, 2, 4, 2, 4, 12, 28]
 windows:
   "7d":
     pushes: 32
@@ -22,14 +22,14 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 42
+    pushes: 46
     distinct_repos: 4
-    active_days: 14
+    active_days: 13
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 102
+    pushes: 107
     distinct_repos: 4
     active_days: 30
     repos_not_owned: 0
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 3.4000
+  push_per_day: 3.5667
   repo_per_active_day: 0.1333
   not_owned_ratio: 0.0000
   basename_concentration: 0.2500
@@ -57,17 +57,17 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 42
+    pushes: 46
     distinct_repos: 4
-    pushes_per_repo: 10.5000
-    active_days: 14
+    pushes_per_repo: 11.5000
+    active_days: 13
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 102
+    pushes: 107
     distinct_repos: 4
-    pushes_per_repo: 25.5000
+    pushes_per_repo: 26.7500
     active_days: 30
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -113,6 +113,6 @@ repos:
 
 # garrytan
 
-102 pushes across 4 repositories on 30 active days in the last 90 days of public GitHub push activity.
+107 pushes across 4 repositories on 30 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/garrytan

@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-29T06:07:44.400276+00:00"
+generated_at: "2026-09-30T06:08:17.648704+00:00"
 provenance:
   - "3eacb4655aba2497"
-pushes_per_week: [60, 73, 24, 20, 0, 13, 5, 9, 2, 2, 4, 10, 10]
+pushes_per_week: [62, 75, 26, 12, 2, 11, 5, 9, 2, 2, 5, 10, 9]
 windows:
   "7d":
-    pushes: 12
+    pushes: 10
     distinct_repos: 9
-    active_days: 6
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 232
+    pushes: 230
     distinct_repos: 33
-    active_days: 52
+    active_days: 51
     repos_not_owned: 11
     not_owned_basenames: 11
     not_owned_owners: 4
 automation:
   state: "clear"
-  push_per_day: 4.4615
-  repo_per_active_day: 0.6346
+  push_per_day: 4.5098
+  repo_per_active_day: 0.6471
   not_owned_ratio: 0.3333
   basename_concentration: 0.0606
   shapes: []
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 12
+    pushes: 10
     distinct_repos: 9
-    pushes_per_repo: 1.3333
-    active_days: 6
+    pushes_per_repo: 1.1111
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 232
+    pushes: 230
     distinct_repos: 33
-    pushes_per_repo: 7.0303
-    active_days: 52
+    pushes_per_repo: 6.9697
+    active_days: 51
     repos_not_owned: 11
     not_owned_basenames: 11
     not_owned_owners: 4
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 52 active days in 90d — pass"
+  - "activity: 51 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "paseo-spacedock"
@@ -129,6 +129,6 @@ repos:
 
 # audreyt
 
-232 pushes across 33 repositories on 52 active days in the last 90 days of public GitHub push activity.
+230 pushes across 33 repositories on 51 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/audreyt

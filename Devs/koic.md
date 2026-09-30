@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-29T06:07:44.400276+00:00"
+generated_at: "2026-09-30T06:08:17.648704+00:00"
 provenance:
   - "48dbbdd8fd0d3029"
-pushes_per_week: [11, 12, 11, 3, 3, 6, 5, 3, 1, 1, 1, 6, 6]
+pushes_per_week: [10, 13, 10, 4, 2, 7, 4, 3, 1, 1, 1, 6, 8]
 windows:
   "7d":
-    pushes: 6
+    pushes: 8
     distinct_repos: 3
-    active_days: 3
+    active_days: 4
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
   "30d":
-    pushes: 14
+    pushes: 16
     distinct_repos: 4
-    active_days: 9
+    active_days: 10
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 69
+    pushes: 70
     distinct_repos: 17
-    active_days: 38
+    active_days: 39
     repos_not_owned: 10
     not_owned_basenames: 10
     not_owned_owners: 4
 automation:
   state: "clear"
-  push_per_day: 1.8158
-  repo_per_active_day: 0.4474
+  push_per_day: 1.7949
+  repo_per_active_day: 0.4359
   not_owned_ratio: 0.5882
   basename_concentration: 0.1176
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 6
+    pushes: 8
     distinct_repos: 3
-    pushes_per_repo: 2.0000
-    active_days: 3
+    pushes_per_repo: 2.6667
+    active_days: 4
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
   "30d":
-    pushes: 14
+    pushes: 16
     distinct_repos: 4
-    pushes_per_repo: 3.5000
-    active_days: 9
+    pushes_per_repo: 4.0000
+    active_days: 10
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 69
+    pushes: 70
     distinct_repos: 17
-    pushes_per_repo: 4.0588
-    active_days: 38
+    pushes_per_repo: 4.1176
+    active_days: 39
     repos_not_owned: 10
     not_owned_basenames: 10
     not_owned_owners: 4
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 38 active days in 90d — pass"
+  - "activity: 39 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "minifyrb"
@@ -141,6 +141,6 @@ repos:
 
 # koic
 
-69 pushes across 17 repositories on 38 active days in the last 90 days of public GitHub push activity.
+70 pushes across 17 repositories on 39 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/koic

@@ -10,11 +10,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-29T06:07:44.400276+00:00"
+generated_at: "2026-09-30T06:08:17.648704+00:00"
 provenance:
   - "73468cde177ddae6"
   - "90688bf127241ceb"
-pushes_per_week: [15, 10, 7, 11, 2, 1, 4, 0, 0, 0, 0, 2, 0]
+pushes_per_week: [12, 9, 11, 7, 2, 1, 4, 0, 0, 0, 2, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -31,7 +31,7 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 52
+    pushes: 48
     distinct_repos: 12
     active_days: 24
     repos_not_owned: 0
@@ -39,7 +39,7 @@ windows:
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.1667
+  push_per_day: 2.0000
   repo_per_active_day: 0.5000
   not_owned_ratio: 0.0000
   basename_concentration: 0.0833
@@ -67,9 +67,9 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 52
+    pushes: 48
     distinct_repos: 12
-    pushes_per_repo: 4.3333
+    pushes_per_repo: 4.0000
     active_days: 24
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -181,6 +181,6 @@ repos:
 
 # lennney
 
-52 pushes across 12 repositories on 24 active days in the last 90 days of public GitHub push activity.
+48 pushes across 12 repositories on 24 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/lennney

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-29T06:07:44.400276+00:00"
+generated_at: "2026-09-30T06:08:17.648704+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [3, 7, 3, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0]
+pushes_per_week: [2, 9, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 14
+    pushes: 13
     distinct_repos: 2
-    active_days: 9
+    active_days: 8
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.5556
-  repo_per_active_day: 0.2222
+  push_per_day: 1.6250
+  repo_per_active_day: 0.2500
   not_owned_ratio: 0.5000
   basename_concentration: 1.0000
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 14
+    pushes: 13
     distinct_repos: 2
-    pushes_per_repo: 7.0000
-    active_days: 9
+    pushes_per_repo: 6.5000
+    active_days: 8
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 9 active days in 90d — pass"
+  - "activity: 8 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "aarv.me"
@@ -113,6 +113,6 @@ repos:
 
 # arvsrn
 
-14 pushes across 2 repositories on 9 active days in the last 90 days of public GitHub push activity.
+13 pushes across 2 repositories on 8 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/arvsrn

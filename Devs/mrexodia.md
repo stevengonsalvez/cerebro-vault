@@ -10,11 +10,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-29T06:07:44.400276+00:00"
+generated_at: "2026-09-30T06:08:17.648704+00:00"
 provenance:
   - "48dbbdd8fd0d3029"
   - "de6bf05613f3ae04"
-pushes_per_week: [11, 6, 21, 8, 7, 8, 6, 3, 0, 0, 1, 5, 8]
+pushes_per_week: [9, 6, 22, 8, 6, 7, 6, 3, 0, 0, 2, 5, 7]
 windows:
   "7d":
     pushes: 8
@@ -31,16 +31,16 @@ windows:
     not_owned_basenames: 5
     not_owned_owners: 3
   "90d":
-    pushes: 84
+    pushes: 81
     distinct_repos: 37
-    active_days: 41
+    active_days: 40
     repos_not_owned: 13
     not_owned_basenames: 11
     not_owned_owners: 5
 automation:
   state: "clear"
-  push_per_day: 2.0488
-  repo_per_active_day: 0.9024
+  push_per_day: 2.0250
+  repo_per_active_day: 0.9250
   not_owned_ratio: 0.3514
   basename_concentration: 0.0811
   shapes: []
@@ -67,16 +67,16 @@ facets:
     not_owned_basenames: 5
     not_owned_owners: 3
   "90d":
-    pushes: 84
+    pushes: 81
     distinct_repos: 37
-    pushes_per_repo: 2.2703
-    active_days: 41
+    pushes_per_repo: 2.1892
+    active_days: 40
     repos_not_owned: 13
     not_owned_basenames: 11
     not_owned_owners: 5
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 41 active days in 90d — pass"
+  - "activity: 40 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "zeromcp"
@@ -158,6 +158,6 @@ repos:
 
 # mrexodia
 
-84 pushes across 37 repositories on 41 active days in the last 90 days of public GitHub push activity.
+81 pushes across 37 repositories on 40 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/mrexodia

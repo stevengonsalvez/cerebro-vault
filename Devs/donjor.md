@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-29T06:07:44.400276+00:00"
+generated_at: "2026-09-30T06:08:17.648704+00:00"
 provenance:
   - "73468cde177ddae6"
-pushes_per_week: [0, 1, 2, 0, 0, 0, 0, 3, 9, 4, 27, 20, 32]
+pushes_per_week: [1, 1, 1, 0, 0, 0, 0, 3, 9, 5, 26, 23, 31]
 windows:
   "7d":
-    pushes: 37
+    pushes: 31
     distinct_repos: 1
-    active_days: 7
+    active_days: 6
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 98
+    pushes: 100
     distinct_repos: 2
-    active_days: 28
+    active_days: 29
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 3.5000
-  repo_per_active_day: 0.0714
+  push_per_day: 3.4483
+  repo_per_active_day: 0.0690
   not_owned_ratio: 0.5000
   basename_concentration: 0.5000
   shapes: []
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 37
+    pushes: 31
     distinct_repos: 1
-    pushes_per_repo: 37.0000
-    active_days: 7
+    pushes_per_repo: 31.0000
+    active_days: 6
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 98
+    pushes: 100
     distinct_repos: 2
-    pushes_per_repo: 49.0000
-    active_days: 28
+    pushes_per_repo: 50.0000
+    active_days: 29
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 28 active days in 90d — pass"
+  - "activity: 29 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "r3f-examples"
@@ -136,6 +136,6 @@ repos:
 
 # donjor
 
-98 pushes across 2 repositories on 28 active days in the last 90 days of public GitHub push activity.
+100 pushes across 2 repositories on 29 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/donjor

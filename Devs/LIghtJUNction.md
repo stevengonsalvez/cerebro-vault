@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-29T06:07:44.400276+00:00"
+generated_at: "2026-09-30T06:08:17.648704+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [98, 22, 19, 17, 20, 39, 72, 27, 10, 3, 66, 302, 285]
+pushes_per_week: [60, 26, 18, 23, 14, 41, 69, 26, 9, 3, 99, 310, 255]
 windows:
   "7d":
-    pushes: 338
-    distinct_repos: 14
+    pushes: 283
+    distinct_repos: 12
     active_days: 7
-    repos_not_owned: 7
+    repos_not_owned: 6
     not_owned_basenames: 5
-    not_owned_owners: 3
+    not_owned_owners: 2
   "30d":
-    pushes: 661
+    pushes: 670
     distinct_repos: 20
     active_days: 23
     repos_not_owned: 8
     not_owned_basenames: 6
     not_owned_owners: 3
   "90d":
-    pushes: 980
+    pushes: 953
     distinct_repos: 44
     active_days: 74
     repos_not_owned: 12
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 6
 automation:
   state: "clear"
-  push_per_day: 13.2432
+  push_per_day: 12.8784
   repo_per_active_day: 0.5946
   not_owned_ratio: 0.2727
   basename_concentration: 0.1364
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 338
-    distinct_repos: 14
-    pushes_per_repo: 24.1429
+    pushes: 283
+    distinct_repos: 12
+    pushes_per_repo: 23.5833
     active_days: 7
-    repos_not_owned: 7
+    repos_not_owned: 6
     not_owned_basenames: 5
-    not_owned_owners: 3
+    not_owned_owners: 2
   "30d":
-    pushes: 661
+    pushes: 670
     distinct_repos: 20
-    pushes_per_repo: 33.0500
+    pushes_per_repo: 33.5000
     active_days: 23
     repos_not_owned: 8
     not_owned_basenames: 6
     not_owned_owners: 3
   "90d":
-    pushes: 980
+    pushes: 953
     distinct_repos: 44
-    pushes_per_repo: 22.2727
+    pushes_per_repo: 21.6591
     active_days: 74
     repos_not_owned: 12
     not_owned_basenames: 8
@@ -144,6 +144,6 @@ repos:
 
 # LIghtJUNction
 
-980 pushes across 44 repositories on 74 active days in the last 90 days of public GitHub push activity.
+953 pushes across 44 repositories on 74 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/LIghtJUNction

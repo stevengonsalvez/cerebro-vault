@@ -10,10 +10,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-29T06:07:44.400276+00:00"
+generated_at: "2026-09-30T06:08:17.648704+00:00"
 provenance:
   - "16389f32495280ea"
-pushes_per_week: [21, 24, 16, 13, 4, 5, 3, 0, 0, 0, 2, 2, 1]
+pushes_per_week: [23, 24, 11, 13, 6, 3, 3, 0, 0, 0, 2, 2, 1]
 windows:
   "7d":
     pushes: 1
@@ -30,16 +30,16 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 91
+    pushes: 88
     distinct_repos: 6
-    active_days: 32
+    active_days: 31
     repos_not_owned: 5
     not_owned_basenames: 3
     not_owned_owners: 4
 automation:
   state: "clear"
-  push_per_day: 2.8438
-  repo_per_active_day: 0.1875
+  push_per_day: 2.8387
+  repo_per_active_day: 0.1935
   not_owned_ratio: 0.8333
   basename_concentration: 0.3333
   shapes: []
@@ -66,16 +66,16 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 91
+    pushes: 88
     distinct_repos: 6
-    pushes_per_repo: 15.1667
-    active_days: 32
+    pushes_per_repo: 14.6667
+    active_days: 31
     repos_not_owned: 5
     not_owned_basenames: 3
     not_owned_owners: 4
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 32 active days in 90d — pass"
+  - "activity: 31 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "helixent"
@@ -137,6 +137,6 @@ repos:
 
 # MagicCube
 
-91 pushes across 6 repositories on 32 active days in the last 90 days of public GitHub push activity.
+88 pushes across 6 repositories on 31 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/MagicCube

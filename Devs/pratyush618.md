@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-29T06:07:44.400276+00:00"
+generated_at: "2026-09-30T06:08:17.648704+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [35, 24, 27, 9, 7, 8, 4, 0, 0, 2, 1, 8, 4]
+pushes_per_week: [34, 19, 31, 7, 6, 9, 2, 0, 0, 2, 1, 8, 4]
 windows:
   "7d":
-    pushes: 5
+    pushes: 4
     distinct_repos: 2
-    active_days: 4
+    active_days: 3
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 129
+    pushes: 123
     distinct_repos: 11
-    active_days: 42
+    active_days: 41
     repos_not_owned: 8
     not_owned_basenames: 7
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 3.0714
-  repo_per_active_day: 0.2619
+  push_per_day: 3.0000
+  repo_per_active_day: 0.2683
   not_owned_ratio: 0.7273
   basename_concentration: 0.1818
   shapes: []
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 5
+    pushes: 4
     distinct_repos: 2
-    pushes_per_repo: 2.5000
-    active_days: 4
+    pushes_per_repo: 2.0000
+    active_days: 3
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 129
+    pushes: 123
     distinct_repos: 11
-    pushes_per_repo: 11.7273
-    active_days: 42
+    pushes_per_repo: 11.1818
+    active_days: 41
     repos_not_owned: 8
     not_owned_basenames: 7
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 42 active days in 90d — pass"
+  - "activity: 41 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "pratyush618"
@@ -129,6 +129,6 @@ repos:
 
 # pratyush618
 
-129 pushes across 11 repositories on 42 active days in the last 90 days of public GitHub push activity.
+123 pushes across 11 repositories on 41 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/pratyush618

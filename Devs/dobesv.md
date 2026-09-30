@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-29T06:07:44.400276+00:00"
+generated_at: "2026-09-30T06:08:17.648704+00:00"
 provenance:
   - "379642deb53f3714"
-pushes_per_week: [45, 40, 35, 11, 14, 6, 5, 0, 2, 0, 6, 27, 22]
+pushes_per_week: [50, 36, 30, 12, 11, 6, 4, 1, 1, 0, 6, 27, 23]
 windows:
   "7d":
     pushes: 23
@@ -29,7 +29,7 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 213
+    pushes: 207
     distinct_repos: 4
     active_days: 54
     repos_not_owned: 1
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 3.9444
+  push_per_day: 3.8333
   repo_per_active_day: 0.0741
   not_owned_ratio: 0.2500
   basename_concentration: 0.2500
@@ -65,9 +65,9 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 213
+    pushes: 207
     distinct_repos: 4
-    pushes_per_repo: 53.2500
+    pushes_per_repo: 51.7500
     active_days: 54
     repos_not_owned: 1
     not_owned_basenames: 1
@@ -129,6 +129,6 @@ repos:
 
 # dobesv
 
-213 pushes across 4 repositories on 54 active days in the last 90 days of public GitHub push activity.
+207 pushes across 4 repositories on 54 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/dobesv

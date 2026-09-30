@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-29T06:07:44.400276+00:00"
+generated_at: "2026-09-30T06:08:17.648704+00:00"
 provenance:
   - "73468cde177ddae6"
-pushes_per_week: [24, 0, 5, 3, 7, 0, 5, 0, 0, 5, 9, 6, 18]
+pushes_per_week: [22, 0, 5, 3, 7, 0, 5, 0, 0, 5, 9, 6, 18]
 windows:
   "7d":
     pushes: 18
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 82
+    pushes: 80
     distinct_repos: 18
-    active_days: 23
+    active_days: 22
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 3.5652
-  repo_per_active_day: 0.7826
+  push_per_day: 3.6364
+  repo_per_active_day: 0.8182
   not_owned_ratio: 0.1111
   basename_concentration: 0.0556
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 82
+    pushes: 80
     distinct_repos: 18
-    pushes_per_repo: 4.5556
-    active_days: 23
+    pushes_per_repo: 4.4444
+    active_days: 22
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 23 active days in 90d — pass"
+  - "activity: 22 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "focus-lock"
@@ -129,6 +129,6 @@ repos:
 
 # wolph
 
-82 pushes across 18 repositories on 23 active days in the last 90 days of public GitHub push activity.
+80 pushes across 18 repositories on 22 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/wolph

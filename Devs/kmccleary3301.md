@@ -9,13 +9,13 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-29T06:07:44.400276+00:00"
+generated_at: "2026-09-30T06:08:17.648704+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [88, 29, 80, 16, 17, 4, 17, 7, 9, 0, 1, 2, 12]
+pushes_per_week: [90, 43, 56, 17, 17, 8, 11, 7, 9, 0, 1, 5, 9]
 windows:
   "7d":
-    pushes: 12
+    pushes: 11
     distinct_repos: 1
     active_days: 5
     repos_not_owned: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 282
+    pushes: 273
     distinct_repos: 5
-    active_days: 49
+    active_days: 48
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 5.7551
-  repo_per_active_day: 0.1020
+  push_per_day: 5.6875
+  repo_per_active_day: 0.1042
   not_owned_ratio: 0.0000
   basename_concentration: 0.2000
   shapes: []
@@ -49,9 +49,9 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 12
+    pushes: 11
     distinct_repos: 1
-    pushes_per_repo: 12.0000
+    pushes_per_repo: 11.0000
     active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 282
+    pushes: 273
     distinct_repos: 5
-    pushes_per_repo: 56.4000
-    active_days: 49
+    pushes_per_repo: 54.6000
+    active_days: 48
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 49 active days in 90d — pass"
+  - "activity: 48 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "breadboard"
@@ -134,6 +134,6 @@ repos:
 
 # kmccleary3301
 
-282 pushes across 5 repositories on 49 active days in the last 90 days of public GitHub push activity.
+273 pushes across 5 repositories on 48 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/kmccleary3301

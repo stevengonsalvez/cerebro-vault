@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-29T06:07:44.400276+00:00"
+generated_at: "2026-09-30T06:08:17.648704+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [38, 22, 10, 2, 8, 6, 3, 2, 5, 2, 1, 9, 11]
+pushes_per_week: [40, 24, 6, 3, 8, 7, 1, 4, 3, 2, 4, 7, 14]
 windows:
   "7d":
-    pushes: 11
+    pushes: 15
     distinct_repos: 6
     active_days: 5
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 25
+    pushes: 29
     distinct_repos: 9
     active_days: 11
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 119
+    pushes: 123
     distinct_repos: 14
     active_days: 44
     repos_not_owned: 3
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.7045
+  push_per_day: 2.7955
   repo_per_active_day: 0.3182
   not_owned_ratio: 0.2143
   basename_concentration: 0.1429
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 11
+    pushes: 15
     distinct_repos: 6
-    pushes_per_repo: 1.8333
+    pushes_per_repo: 2.5000
     active_days: 5
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 25
+    pushes: 29
     distinct_repos: 9
-    pushes_per_repo: 2.7778
+    pushes_per_repo: 3.2222
     active_days: 11
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 119
+    pushes: 123
     distinct_repos: 14
-    pushes_per_repo: 8.5000
+    pushes_per_repo: 8.7857
     active_days: 44
     repos_not_owned: 3
     not_owned_basenames: 3
@@ -129,6 +129,6 @@ repos:
 
 # JasonYeYuhe
 
-119 pushes across 14 repositories on 44 active days in the last 90 days of public GitHub push activity.
+123 pushes across 14 repositories on 44 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/JasonYeYuhe

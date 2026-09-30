@@ -10,28 +10,28 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-29T06:07:44.400276+00:00"
+generated_at: "2026-09-30T06:08:17.648704+00:00"
 provenance:
   - "de6bf05613f3ae04"
   - "ffccace0ba14fd15"
-pushes_per_week: [125, 76, 93, 89, 45, 22, 45, 16, 8, 5, 24, 34, 69]
+pushes_per_week: [142, 65, 101, 77, 36, 30, 36, 16, 8, 6, 28, 33, 72]
 windows:
   "7d":
-    pushes: 73
+    pushes: 76
     distinct_repos: 9
     active_days: 7
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
   "30d":
-    pushes: 133
+    pushes: 139
     distinct_repos: 13
     active_days: 22
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 4
   "90d":
-    pushes: 651
+    pushes: 650
     distinct_repos: 20
     active_days: 78
     repos_not_owned: 7
@@ -39,7 +39,7 @@ windows:
     not_owned_owners: 6
 automation:
   state: "clear"
-  push_per_day: 8.3462
+  push_per_day: 8.3333
   repo_per_active_day: 0.2564
   not_owned_ratio: 0.3500
   basename_concentration: 0.1500
@@ -51,25 +51,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 73
+    pushes: 76
     distinct_repos: 9
-    pushes_per_repo: 8.1111
+    pushes_per_repo: 8.4444
     active_days: 7
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
   "30d":
-    pushes: 133
+    pushes: 139
     distinct_repos: 13
-    pushes_per_repo: 10.2308
+    pushes_per_repo: 10.6923
     active_days: 22
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 4
   "90d":
-    pushes: 651
+    pushes: 650
     distinct_repos: 20
-    pushes_per_repo: 32.5500
+    pushes_per_repo: 32.5000
     active_days: 78
     repos_not_owned: 7
     not_owned_basenames: 5
@@ -135,6 +135,6 @@ repos:
 
 # jerome-benoit
 
-651 pushes across 20 repositories on 78 active days in the last 90 days of public GitHub push activity.
+650 pushes across 20 repositories on 78 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/jerome-benoit

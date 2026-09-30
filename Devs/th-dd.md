@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-29T06:07:44.400276+00:00"
+generated_at: "2026-09-30T06:08:17.648704+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [2, 3, 2, 2, 2, 3, 4, 0, 0, 0, 1, 2, 6]
+pushes_per_week: [1, 3, 3, 1, 2, 3, 4, 0, 0, 0, 2, 2, 5]
 windows:
   "7d":
     pushes: 6
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 27
+    pushes: 26
     distinct_repos: 8
-    active_days: 19
+    active_days: 18
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.4211
-  repo_per_active_day: 0.4211
+  push_per_day: 1.4444
+  repo_per_active_day: 0.4444
   not_owned_ratio: 0.5000
   basename_concentration: 0.1250
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 27
+    pushes: 26
     distinct_repos: 8
-    pushes_per_repo: 3.3750
-    active_days: 19
+    pushes_per_repo: 3.2500
+    active_days: 18
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 19 active days in 90d — pass"
+  - "activity: 18 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "th-dd"
@@ -121,6 +121,6 @@ repos:
 
 # th-dd
 
-27 pushes across 8 repositories on 19 active days in the last 90 days of public GitHub push activity.
+26 pushes across 8 repositories on 18 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/th-dd

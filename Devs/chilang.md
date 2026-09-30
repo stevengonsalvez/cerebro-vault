@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-29T06:07:44.400276+00:00"
+generated_at: "2026-09-30T06:08:17.648704+00:00"
 provenance:
   - "48dbbdd8fd0d3029"
-pushes_per_week: [2, 0, 0, 0, 23, 1, 3, 0, 0, 0, 0, 1, 4]
+pushes_per_week: [2, 0, 0, 0, 24, 1, 2, 0, 0, 0, 0, 5, 2]
 windows:
   "7d":
-    pushes: 5
+    pushes: 6
     distinct_repos: 1
     active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 5
+    pushes: 7
     distinct_repos: 1
-    active_days: 2
+    active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 34
+    pushes: 36
     distinct_repos: 2
-    active_days: 13
+    active_days: 14
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 2.6154
-  repo_per_active_day: 0.1538
+  push_per_day: 2.5714
+  repo_per_active_day: 0.1429
   not_owned_ratio: 1.0000
   basename_concentration: 0.5000
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 5
+    pushes: 6
     distinct_repos: 1
-    pushes_per_repo: 5.0000
+    pushes_per_repo: 6.0000
     active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 5
+    pushes: 7
     distinct_repos: 1
-    pushes_per_repo: 5.0000
-    active_days: 2
+    pushes_per_repo: 7.0000
+    active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 34
+    pushes: 36
     distinct_repos: 2
-    pushes_per_repo: 17.0000
-    active_days: 13
+    pushes_per_repo: 18.0000
+    active_days: 14
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 13 active days in 90d — pass"
+  - "activity: 14 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "constructpro"
@@ -129,6 +129,6 @@ repos:
 
 # chilang
 
-34 pushes across 2 repositories on 13 active days in the last 90 days of public GitHub push activity.
+36 pushes across 2 repositories on 14 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/chilang

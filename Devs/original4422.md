@@ -9,41 +9,41 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-29T06:07:44.400276+00:00"
+generated_at: "2026-09-30T06:08:17.648704+00:00"
 provenance:
   - "97c4e9cb8b163ddb"
   - "c7515e0fa4368a55"
   - "d3abe74726b22711"
   - "e7c647c4d0689526"
-pushes_per_week: [0, 2, 2, 8, 10, 0, 0, 1, 0, 0, 1, 2, 0]
+pushes_per_week: [0, 4, 0, 18, 0, 0, 0, 1, 0, 0, 1, 2, 2]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
+    pushes: 2
+    distinct_repos: 1
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 3
-    distinct_repos: 2
-    active_days: 3
+    pushes: 5
+    distinct_repos: 3
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 26
-    distinct_repos: 7
-    active_days: 9
+    pushes: 28
+    distinct_repos: 8
+    active_days: 11
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.8889
-  repo_per_active_day: 0.7778
+  push_per_day: 2.5455
+  repo_per_active_day: 0.7273
   not_owned_ratio: 0.0000
-  basename_concentration: 0.1429
+  basename_concentration: 0.1250
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -52,32 +52,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
+    pushes: 2
+    distinct_repos: 1
+    pushes_per_repo: 2.0000
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 3
-    distinct_repos: 2
-    pushes_per_repo: 1.5000
-    active_days: 3
+    pushes: 5
+    distinct_repos: 3
+    pushes_per_repo: 1.6667
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 26
-    distinct_repos: 7
-    pushes_per_repo: 3.7143
-    active_days: 9
+    pushes: 28
+    distinct_repos: 8
+    pushes_per_repo: 3.5000
+    active_days: 11
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 4 vault signal(s) — pass"
-  - "activity: 9 active days in 90d — pass"
+  - "activity: 11 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "codex-profiles"
@@ -131,6 +131,6 @@ repos:
 
 # original4422
 
-26 pushes across 7 repositories on 9 active days in the last 90 days of public GitHub push activity.
+28 pushes across 8 repositories on 11 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/original4422

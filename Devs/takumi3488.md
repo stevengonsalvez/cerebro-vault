@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-29T06:07:44.400276+00:00"
+generated_at: "2026-09-30T06:08:17.648704+00:00"
 provenance:
   - "2a7f0fddd2dac162"
-pushes_per_week: [196, 109, 36, 89, 62, 8, 83, 12, 6, 2, 7, 45, 28]
+pushes_per_week: [194, 93, 90, 57, 39, 14, 77, 12, 6, 3, 6, 46, 30]
 windows:
   "7d":
-    pushes: 32
-    distinct_repos: 26
+    pushes: 31
+    distinct_repos: 25
     active_days: 7
-    repos_not_owned: 11
-    not_owned_basenames: 11
+    repos_not_owned: 10
+    not_owned_basenames: 10
     not_owned_owners: 1
   "30d":
-    pushes: 87
+    pushes: 86
     distinct_repos: 39
     active_days: 20
     repos_not_owned: 14
     not_owned_basenames: 14
     not_owned_owners: 1
   "90d":
-    pushes: 683
+    pushes: 667
     distinct_repos: 108
     active_days: 68
     repos_not_owned: 26
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 10.0441
+  push_per_day: 9.8088
   repo_per_active_day: 1.5882
   not_owned_ratio: 0.2407
   basename_concentration: 0.0185
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 32
-    distinct_repos: 26
-    pushes_per_repo: 1.2308
+    pushes: 31
+    distinct_repos: 25
+    pushes_per_repo: 1.2400
     active_days: 7
-    repos_not_owned: 11
-    not_owned_basenames: 11
+    repos_not_owned: 10
+    not_owned_basenames: 10
     not_owned_owners: 1
   "30d":
-    pushes: 87
+    pushes: 86
     distinct_repos: 39
-    pushes_per_repo: 2.2308
+    pushes_per_repo: 2.2051
     active_days: 20
     repos_not_owned: 14
     not_owned_basenames: 14
     not_owned_owners: 1
   "90d":
-    pushes: 683
+    pushes: 667
     distinct_repos: 108
-    pushes_per_repo: 6.3241
+    pushes_per_repo: 6.1759
     active_days: 68
     repos_not_owned: 26
     not_owned_basenames: 26
@@ -129,6 +129,6 @@ repos:
 
 # takumi3488
 
-683 pushes across 108 repositories on 68 active days in the last 90 days of public GitHub push activity.
+667 pushes across 108 repositories on 68 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/takumi3488

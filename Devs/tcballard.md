@@ -10,38 +10,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-29T06:07:44.400276+00:00"
+generated_at: "2026-09-30T06:08:17.648704+00:00"
 provenance:
   - "c954be1eb1223fa4"
   - "eb166180687b6629"
-pushes_per_week: [97, 26, 32, 40, 26, 25, 6, 4, 12, 3, 18, 31, 20]
+pushes_per_week: [84, 34, 28, 40, 25, 24, 3, 6, 10, 3, 18, 35, 24]
 windows:
   "7d":
-    pushes: 31
+    pushes: 28
     distinct_repos: 12
     active_days: 7
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 82
-    distinct_repos: 32
+    pushes: 89
+    distinct_repos: 34
     active_days: 23
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 340
+    pushes: 334
     distinct_repos: 68
     active_days: 72
-    repos_not_owned: 23
-    not_owned_basenames: 21
+    repos_not_owned: 21
+    not_owned_basenames: 19
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 4.7222
+  push_per_day: 4.6389
   repo_per_active_day: 0.9444
-  not_owned_ratio: 0.3382
+  not_owned_ratio: 0.3088
   basename_concentration: 0.0441
   shapes: []
   shape_evidence: []
@@ -51,28 +51,28 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 31
+    pushes: 28
     distinct_repos: 12
-    pushes_per_repo: 2.5833
+    pushes_per_repo: 2.3333
     active_days: 7
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 82
-    distinct_repos: 32
-    pushes_per_repo: 2.5625
+    pushes: 89
+    distinct_repos: 34
+    pushes_per_repo: 2.6176
     active_days: 23
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 340
+    pushes: 334
     distinct_repos: 68
-    pushes_per_repo: 5.0000
+    pushes_per_repo: 4.9118
     active_days: 72
-    repos_not_owned: 23
-    not_owned_basenames: 21
+    repos_not_owned: 21
+    not_owned_basenames: 19
     not_owned_owners: 3
 reasons:
   - "provenance: 2 vault signal(s) — pass"
@@ -131,6 +131,6 @@ repos:
 
 # tcballard
 
-340 pushes across 68 repositories on 72 active days in the last 90 days of public GitHub push activity.
+334 pushes across 68 repositories on 72 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/tcballard

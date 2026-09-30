@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-29T06:07:44.400276+00:00"
+generated_at: "2026-09-30T06:08:17.648704+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [5, 4, 5, 3, 0, 1, 3, 2, 2, 3, 1, 2, 3]
+pushes_per_week: [4, 6, 3, 2, 0, 3, 1, 4, 0, 4, 1, 1, 4]
 windows:
   "7d":
     pushes: 4
@@ -22,14 +22,14 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 9
+    pushes: 10
     distinct_repos: 7
-    active_days: 7
+    active_days: 8
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 34
+    pushes: 33
     distinct_repos: 8
     active_days: 24
     repos_not_owned: 1
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.4167
+  push_per_day: 1.3750
   repo_per_active_day: 0.3333
   not_owned_ratio: 0.1250
   basename_concentration: 0.1250
@@ -57,17 +57,17 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 9
+    pushes: 10
     distinct_repos: 7
-    pushes_per_repo: 1.2857
-    active_days: 7
+    pushes_per_repo: 1.4286
+    active_days: 8
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 34
+    pushes: 33
     distinct_repos: 8
-    pushes_per_repo: 4.2500
+    pushes_per_repo: 4.1250
     active_days: 24
     repos_not_owned: 1
     not_owned_basenames: 1
@@ -129,6 +129,6 @@ repos:
 
 # threexc
 
-34 pushes across 8 repositories on 24 active days in the last 90 days of public GitHub push activity.
+33 pushes across 8 repositories on 24 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/threexc

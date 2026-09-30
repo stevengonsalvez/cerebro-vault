@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-29T06:07:44.400276+00:00"
+generated_at: "2026-09-30T06:08:17.648704+00:00"
 provenance:
   - "541318303a272608"
-pushes_per_week: [7, 11, 5, 5, 5, 7, 7, 2, 2, 0, 0, 3, 2]
+pushes_per_week: [1, 11, 5, 6, 4, 9, 5, 3, 1, 0, 0, 4, 1]
 windows:
   "7d":
-    pushes: 4
-    distinct_repos: 2
-    active_days: 3
+    pushes: 2
+    distinct_repos: 1
+    active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 6
+    pushes: 5
     distinct_repos: 2
-    active_days: 5
+    active_days: 4
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 56
+    pushes: 50
     distinct_repos: 2
     active_days: 28
     repos_not_owned: 1
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.0000
+  push_per_day: 1.7857
   repo_per_active_day: 0.0714
   not_owned_ratio: 0.5000
   basename_concentration: 1.0000
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 4
-    distinct_repos: 2
+    pushes: 2
+    distinct_repos: 1
     pushes_per_repo: 2.0000
-    active_days: 3
+    active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 6
+    pushes: 5
     distinct_repos: 2
-    pushes_per_repo: 3.0000
-    active_days: 5
+    pushes_per_repo: 2.5000
+    active_days: 4
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 56
+    pushes: 50
     distinct_repos: 2
-    pushes_per_repo: 28.0000
+    pushes_per_repo: 25.0000
     active_days: 28
     repos_not_owned: 1
     not_owned_basenames: 1
@@ -129,6 +129,6 @@ repos:
 
 # cuiyuebing
 
-56 pushes across 2 repositories on 28 active days in the last 90 days of public GitHub push activity.
+50 pushes across 2 repositories on 28 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/cuiyuebing

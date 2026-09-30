@@ -9,13 +9,13 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-29T06:07:44.400276+00:00"
+generated_at: "2026-09-30T06:08:17.648704+00:00"
 provenance:
   - "386c24cf5e18fd90"
-pushes_per_week: [12, 0, 2, 0, 0, 0, 3, 0, 1, 0, 4, 2, 23]
+pushes_per_week: [10, 0, 2, 0, 0, 1, 2, 0, 1, 0, 4, 6, 19]
 windows:
   "7d":
-    pushes: 23
+    pushes: 20
     distinct_repos: 6
     active_days: 6
     repos_not_owned: 4
@@ -29,7 +29,7 @@ windows:
     not_owned_basenames: 4
     not_owned_owners: 2
   "90d":
-    pushes: 47
+    pushes: 45
     distinct_repos: 11
     active_days: 19
     repos_not_owned: 7
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 2.4737
+  push_per_day: 2.3684
   repo_per_active_day: 0.5789
   not_owned_ratio: 0.6364
   basename_concentration: 0.0909
@@ -49,9 +49,9 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 23
+    pushes: 20
     distinct_repos: 6
-    pushes_per_repo: 3.8333
+    pushes_per_repo: 3.3333
     active_days: 6
     repos_not_owned: 4
     not_owned_basenames: 4
@@ -65,9 +65,9 @@ facets:
     not_owned_basenames: 4
     not_owned_owners: 2
   "90d":
-    pushes: 47
+    pushes: 45
     distinct_repos: 11
-    pushes_per_repo: 4.2727
+    pushes_per_repo: 4.0909
     active_days: 19
     repos_not_owned: 7
     not_owned_basenames: 7
@@ -129,6 +129,6 @@ repos:
 
 # danlapid
 
-47 pushes across 11 repositories on 19 active days in the last 90 days of public GitHub push activity.
+45 pushes across 11 repositories on 19 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/danlapid

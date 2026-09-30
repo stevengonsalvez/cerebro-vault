@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-29T06:07:44.400276+00:00"
+generated_at: "2026-09-30T06:08:17.648704+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [12, 3, 21, 10, 1, 3, 1, 0, 0, 0, 0, 5, 27]
+pushes_per_week: [8, 9, 17, 9, 0, 3, 1, 0, 0, 0, 1, 5, 26]
 windows:
   "7d":
     pushes: 27
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 4
     not_owned_owners: 1
   "90d":
-    pushes: 83
+    pushes: 79
     distinct_repos: 13
-    active_days: 34
+    active_days: 33
     repos_not_owned: 9
     not_owned_basenames: 9
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 2.4412
-  repo_per_active_day: 0.3824
+  push_per_day: 2.3939
+  repo_per_active_day: 0.3939
   not_owned_ratio: 0.6923
   basename_concentration: 0.0769
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 4
     not_owned_owners: 1
   "90d":
-    pushes: 83
+    pushes: 79
     distinct_repos: 13
-    pushes_per_repo: 6.3846
-    active_days: 34
+    pushes_per_repo: 6.0769
+    active_days: 33
     repos_not_owned: 9
     not_owned_basenames: 9
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 34 active days in 90d — pass"
+  - "activity: 33 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "free-one-api"
@@ -154,6 +154,6 @@ repos:
 
 # RockChinQ
 
-83 pushes across 13 repositories on 34 active days in the last 90 days of public GitHub push activity.
+79 pushes across 13 repositories on 33 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/RockChinQ

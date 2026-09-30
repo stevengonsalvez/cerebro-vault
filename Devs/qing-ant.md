@@ -10,37 +10,37 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-29T06:07:44.400276+00:00"
+generated_at: "2026-09-30T06:08:17.648704+00:00"
 provenance:
   - "1be978947e68d1f2"
   - "1f49d0119cedbc84"
-pushes_per_week: [6, 2, 4, 1, 0, 1, 0, 0, 0, 0, 0, 0, 3]
+pushes_per_week: [6, 4, 3, 0, 0, 1, 0, 0, 0, 0, 0, 0, 4]
 windows:
   "7d":
-    pushes: 3
+    pushes: 4
     distinct_repos: 2
-    active_days: 1
+    active_days: 2
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 3
+    pushes: 4
     distinct_repos: 2
-    active_days: 1
+    active_days: 2
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 17
+    pushes: 18
     distinct_repos: 2
-    active_days: 9
+    active_days: 10
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.8889
-  repo_per_active_day: 0.2222
+  push_per_day: 1.8000
+  repo_per_active_day: 0.2000
   not_owned_ratio: 1.0000
   basename_concentration: 0.5000
   shapes: []
@@ -51,38 +51,38 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 3
+    pushes: 4
     distinct_repos: 2
-    pushes_per_repo: 1.5000
-    active_days: 1
+    pushes_per_repo: 2.0000
+    active_days: 2
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 3
+    pushes: 4
     distinct_repos: 2
-    pushes_per_repo: 1.5000
-    active_days: 1
+    pushes_per_repo: 2.0000
+    active_days: 2
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 17
+    pushes: 18
     distinct_repos: 2
-    pushes_per_repo: 8.5000
-    active_days: 9
+    pushes_per_repo: 9.0000
+    active_days: 10
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 9 active days in 90d — pass"
+  - "activity: 10 active days in 90d — pass"
   - "automation: clear — pass"
 repos: []
 ---
 
 # qing-ant
 
-17 pushes across 2 repositories on 9 active days in the last 90 days of public GitHub push activity.
+18 pushes across 2 repositories on 10 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/qing-ant

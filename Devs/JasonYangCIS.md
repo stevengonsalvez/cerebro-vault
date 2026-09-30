@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-29T06:07:44.400276+00:00"
+generated_at: "2026-09-30T06:08:17.648704+00:00"
 provenance:
   - "745308b2b7085095"
-pushes_per_week: [17, 1, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 1]
+pushes_per_week: [12, 1, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 21
+    pushes: 16
     distinct_repos: 4
-    active_days: 8
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.6250
-  repo_per_active_day: 0.5000
+  push_per_day: 2.2857
+  repo_per_active_day: 0.5714
   not_owned_ratio: 0.0000
   basename_concentration: 0.2500
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 21
+    pushes: 16
     distinct_repos: 4
-    pushes_per_repo: 5.2500
-    active_days: 8
+    pushes_per_repo: 4.0000
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 8 active days in 90d — pass"
+  - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "figma-to-code"
@@ -129,6 +129,6 @@ repos:
 
 # JasonYangCIS
 
-21 pushes across 4 repositories on 8 active days in the last 90 days of public GitHub push activity.
+16 pushes across 4 repositories on 7 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/JasonYangCIS

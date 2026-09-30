@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-29T06:07:44.400276+00:00"
+generated_at: "2026-09-30T06:08:17.648704+00:00"
 provenance:
   - "73468cde177ddae6"
-pushes_per_week: [215, 188, 99, 25, 8, 37, 62, 6, 5, 1, 14, 13, 44]
+pushes_per_week: [202, 241, 52, 7, 22, 56, 30, 7, 3, 2, 16, 23, 35]
 windows:
   "7d":
-    pushes: 45
-    distinct_repos: 19
+    pushes: 36
+    distinct_repos: 13
     active_days: 7
-    repos_not_owned: 8
-    not_owned_basenames: 1
-    not_owned_owners: 8
-  "30d":
-    pushes: 75
-    distinct_repos: 34
-    active_days: 18
-    repos_not_owned: 9
-    not_owned_basenames: 1
-    not_owned_owners: 9
-  "90d":
-    pushes: 717
-    distinct_repos: 152
-    active_days: 61
-    repos_not_owned: 85
+    repos_not_owned: 10
     not_owned_basenames: 2
-    not_owned_owners: 84
+    not_owned_owners: 10
+  "30d":
+    pushes: 79
+    distinct_repos: 36
+    active_days: 18
+    repos_not_owned: 11
+    not_owned_basenames: 2
+    not_owned_owners: 11
+  "90d":
+    pushes: 696
+    distinct_repos: 148
+    active_days: 60
+    repos_not_owned: 81
+    not_owned_basenames: 2
+    not_owned_owners: 81
 automation:
   state: "clear"
-  push_per_day: 11.7541
-  repo_per_active_day: 2.4918
-  not_owned_ratio: 0.5592
-  basename_concentration: 0.5592
+  push_per_day: 11.6000
+  repo_per_active_day: 2.4667
+  not_owned_ratio: 0.5473
+  basename_concentration: 0.5473
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 45
-    distinct_repos: 19
-    pushes_per_repo: 2.3684
+    pushes: 36
+    distinct_repos: 13
+    pushes_per_repo: 2.7692
     active_days: 7
-    repos_not_owned: 8
-    not_owned_basenames: 1
-    not_owned_owners: 8
-  "30d":
-    pushes: 75
-    distinct_repos: 34
-    pushes_per_repo: 2.2059
-    active_days: 18
-    repos_not_owned: 9
-    not_owned_basenames: 1
-    not_owned_owners: 9
-  "90d":
-    pushes: 717
-    distinct_repos: 152
-    pushes_per_repo: 4.7171
-    active_days: 61
-    repos_not_owned: 85
+    repos_not_owned: 10
     not_owned_basenames: 2
-    not_owned_owners: 84
+    not_owned_owners: 10
+  "30d":
+    pushes: 79
+    distinct_repos: 36
+    pushes_per_repo: 2.1944
+    active_days: 18
+    repos_not_owned: 11
+    not_owned_basenames: 2
+    not_owned_owners: 11
+  "90d":
+    pushes: 696
+    distinct_repos: 148
+    pushes_per_repo: 4.7027
+    active_days: 60
+    repos_not_owned: 81
+    not_owned_basenames: 2
+    not_owned_owners: 81
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 61 active days in 90d — pass"
+  - "activity: 60 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "orangepi4pro-homeassistant"
@@ -175,6 +175,6 @@ repos:
 
 # JerrettDavis
 
-717 pushes across 152 repositories on 61 active days in the last 90 days of public GitHub push activity.
+696 pushes across 148 repositories on 60 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/JerrettDavis

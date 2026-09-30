@@ -9,18 +9,18 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-29T06:07:44.400276+00:00"
+generated_at: "2026-09-30T06:08:17.648704+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [27, 11, 10, 19, 4, 7, 3, 9, 2, 1, 0, 16, 5]
+pushes_per_week: [18, 12, 7, 20, 5, 5, 3, 9, 2, 1, 0, 16, 5]
 windows:
   "7d":
-    pushes: 10
-    distinct_repos: 2
-    active_days: 5
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 5
+    distinct_repos: 1
+    active_days: 4
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
     pushes: 24
     distinct_repos: 2
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 114
-    distinct_repos: 8
-    active_days: 41
-    repos_not_owned: 4
+    pushes: 103
+    distinct_repos: 7
+    active_days: 40
+    repos_not_owned: 3
     not_owned_basenames: 1
-    not_owned_owners: 4
+    not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 2.7805
-  repo_per_active_day: 0.1951
-  not_owned_ratio: 0.5000
-  basename_concentration: 0.5000
+  push_per_day: 2.5750
+  repo_per_active_day: 0.1750
+  not_owned_ratio: 0.4286
+  basename_concentration: 0.4286
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,13 +49,13 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 10
-    distinct_repos: 2
+    pushes: 5
+    distinct_repos: 1
     pushes_per_repo: 5.0000
-    active_days: 5
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    active_days: 4
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
     pushes: 24
     distinct_repos: 2
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 114
-    distinct_repos: 8
-    pushes_per_repo: 14.2500
-    active_days: 41
-    repos_not_owned: 4
+    pushes: 103
+    distinct_repos: 7
+    pushes_per_repo: 14.7143
+    active_days: 40
+    repos_not_owned: 3
     not_owned_basenames: 1
-    not_owned_owners: 4
+    not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 41 active days in 90d — pass"
+  - "activity: 40 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "cf-effect-experiment"
@@ -139,6 +139,6 @@ repos:
 
 # Brendonovich
 
-114 pushes across 8 repositories on 41 active days in the last 90 days of public GitHub push activity.
+103 pushes across 7 repositories on 40 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Brendonovich

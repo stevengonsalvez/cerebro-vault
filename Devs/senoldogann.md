@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-29T06:07:44.400276+00:00"
+generated_at: "2026-09-30T06:08:17.648704+00:00"
 provenance:
   - "edb3a626875732de"
-pushes_per_week: [0, 0, 0, 2, 0, 4, 2, 0, 0, 24, 18, 3, 7]
+pushes_per_week: [0, 0, 0, 2, 0, 6, 0, 0, 0, 30, 12, 3, 9]
 windows:
   "7d":
-    pushes: 7
+    pushes: 9
     distinct_repos: 3
-    active_days: 4
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 52
+    pushes: 54
     distinct_repos: 9
-    active_days: 16
+    active_days: 17
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 60
+    pushes: 62
     distinct_repos: 11
-    active_days: 19
+    active_days: 20
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 3.1579
-  repo_per_active_day: 0.5789
+  push_per_day: 3.1000
+  repo_per_active_day: 0.5500
   not_owned_ratio: 0.0000
   basename_concentration: 0.0909
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 7
+    pushes: 9
     distinct_repos: 3
-    pushes_per_repo: 2.3333
-    active_days: 4
+    pushes_per_repo: 3.0000
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 52
+    pushes: 54
     distinct_repos: 9
-    pushes_per_repo: 5.7778
-    active_days: 16
+    pushes_per_repo: 6.0000
+    active_days: 17
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 60
+    pushes: 62
     distinct_repos: 11
-    pushes_per_repo: 5.4545
-    active_days: 19
+    pushes_per_repo: 5.6364
+    active_days: 20
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 19 active days in 90d — pass"
+  - "activity: 20 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "AgenticSidebar"
@@ -129,6 +129,6 @@ repos:
 
 # senoldogann
 
-60 pushes across 11 repositories on 19 active days in the last 90 days of public GitHub push activity.
+62 pushes across 11 repositories on 20 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/senoldogann

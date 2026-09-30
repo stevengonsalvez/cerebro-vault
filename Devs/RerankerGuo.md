@@ -10,28 +10,28 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-29T06:07:44.400276+00:00"
+generated_at: "2026-09-30T06:08:17.648704+00:00"
 provenance:
   - "541318303a272608"
   - "c489e6fb5febf2ab"
-pushes_per_week: [8, 23, 6, 0, 36, 26, 5, 0, 0, 0, 0, 3, 0]
+pushes_per_week: [15, 13, 4, 3, 35, 28, 1, 0, 0, 0, 0, 3, 3]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
+    pushes: 3
+    distinct_repos: 2
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 3
-    distinct_repos: 3
-    active_days: 2
+    pushes: 6
+    distinct_repos: 4
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 107
+    pushes: 105
     distinct_repos: 18
     active_days: 24
     repos_not_owned: 0
@@ -39,7 +39,7 @@ windows:
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 4.4583
+  push_per_day: 4.3750
   repo_per_active_day: 0.7500
   not_owned_ratio: 0.0000
   basename_concentration: 0.0556
@@ -51,25 +51,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
+    pushes: 3
+    distinct_repos: 2
+    pushes_per_repo: 1.5000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 3
-    distinct_repos: 3
-    pushes_per_repo: 1.0000
-    active_days: 2
+    pushes: 6
+    distinct_repos: 4
+    pushes_per_repo: 1.5000
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 107
+    pushes: 105
     distinct_repos: 18
-    pushes_per_repo: 5.9444
+    pushes_per_repo: 5.8333
     active_days: 24
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -91,6 +91,6 @@ repos:
 
 # RerankerGuo
 
-107 pushes across 18 repositories on 24 active days in the last 90 days of public GitHub push activity.
+105 pushes across 18 repositories on 24 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/RerankerGuo

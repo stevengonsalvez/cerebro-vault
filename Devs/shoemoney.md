@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-29T06:07:44.400276+00:00"
+generated_at: "2026-09-30T06:08:17.648704+00:00"
 provenance:
   - "0b22ca37fd3884c9"
-pushes_per_week: [5, 5, 1, 1, 19, 6, 11, 3, 1, 2, 1, 7, 30]
+pushes_per_week: [6, 4, 1, 3, 19, 4, 11, 3, 1, 2, 1, 8, 51]
 windows:
   "7d":
-    pushes: 31
-    distinct_repos: 14
+    pushes: 52
+    distinct_repos: 13
     active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 40
+    pushes: 62
     distinct_repos: 21
-    active_days: 14
+    active_days: 15
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 92
+    pushes: 114
     distinct_repos: 30
-    active_days: 37
+    active_days: 38
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.4865
-  repo_per_active_day: 0.8108
+  push_per_day: 3.0000
+  repo_per_active_day: 0.7895
   not_owned_ratio: 0.0667
   basename_concentration: 0.0333
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 31
-    distinct_repos: 14
-    pushes_per_repo: 2.2143
+    pushes: 52
+    distinct_repos: 13
+    pushes_per_repo: 4.0000
     active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 40
+    pushes: 62
     distinct_repos: 21
-    pushes_per_repo: 1.9048
-    active_days: 14
+    pushes_per_repo: 2.9524
+    active_days: 15
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 92
+    pushes: 114
     distinct_repos: 30
-    pushes_per_repo: 3.0667
-    active_days: 37
+    pushes_per_repo: 3.8000
+    active_days: 38
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 37 active days in 90d — pass"
+  - "activity: 38 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "SMA-smduel"
@@ -139,6 +139,6 @@ repos:
 
 # shoemoney
 
-92 pushes across 30 repositories on 37 active days in the last 90 days of public GitHub push activity.
+114 pushes across 30 repositories on 38 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/shoemoney

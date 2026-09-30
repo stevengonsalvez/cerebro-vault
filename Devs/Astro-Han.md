@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-29T06:07:44.400276+00:00"
+generated_at: "2026-09-30T06:08:17.648704+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [144, 92, 78, 36, 55, 34, 26, 30, 9, 3, 14, 41, 45]
+pushes_per_week: [149, 90, 70, 35, 54, 33, 22, 30, 7, 3, 22, 44, 34]
 windows:
   "7d":
-    pushes: 47
+    pushes: 44
     distinct_repos: 4
-    active_days: 6
+    active_days: 5
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 105
+    pushes: 104
     distinct_repos: 5
-    active_days: 21
+    active_days: 20
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 607
-    distinct_repos: 14
-    active_days: 77
-    repos_not_owned: 7
+    pushes: 593
+    distinct_repos: 13
+    active_days: 76
+    repos_not_owned: 6
     not_owned_basenames: 3
-    not_owned_owners: 7
+    not_owned_owners: 6
 automation:
   state: "clear"
-  push_per_day: 7.8831
-  repo_per_active_day: 0.1818
-  not_owned_ratio: 0.5000
-  basename_concentration: 0.4286
+  push_per_day: 7.8026
+  repo_per_active_day: 0.1711
+  not_owned_ratio: 0.4615
+  basename_concentration: 0.3846
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 47
+    pushes: 44
     distinct_repos: 4
-    pushes_per_repo: 11.7500
-    active_days: 6
+    pushes_per_repo: 11.0000
+    active_days: 5
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 105
+    pushes: 104
     distinct_repos: 5
-    pushes_per_repo: 21.0000
-    active_days: 21
+    pushes_per_repo: 20.8000
+    active_days: 20
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 607
-    distinct_repos: 14
-    pushes_per_repo: 43.3571
-    active_days: 77
-    repos_not_owned: 7
+    pushes: 593
+    distinct_repos: 13
+    pushes_per_repo: 45.6154
+    active_days: 76
+    repos_not_owned: 6
     not_owned_basenames: 3
-    not_owned_owners: 7
+    not_owned_owners: 6
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 77 active days in 90d — pass"
+  - "activity: 76 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "karpathy-llm-wiki"
@@ -177,6 +177,6 @@ repos:
 
 # Astro-Han
 
-607 pushes across 14 repositories on 77 active days in the last 90 days of public GitHub push activity.
+593 pushes across 13 repositories on 76 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Astro-Han

@@ -6,45 +6,47 @@ discovered_via_all:
   - "fanout"
 provenance_repos:
   - "abi/screenshot-to-code"
+  - "agentscope-ai/QwenPaw"
   - "anthropics/anthropic-sdk-python"
   - "anthropics/claude-cookbooks"
   - "Canner/WrenAI"
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-28T06:07:44.182865+00:00"
+generated_at: "2026-09-30T06:08:17.648704+00:00"
 provenance:
   - "1be978947e68d1f2"
   - "1f49d0119cedbc84"
+  - "541318303a272608"
   - "dffbb846389f9a26"
   - "ef17663e884139a8"
-pushes_per_week: [1, 2, 13, 6, 3, 3, 3, 0, 1, 0, 0, 1, 0]
+pushes_per_week: [1, 5, 10, 7, 2, 3, 3, 0, 1, 0, 0, 1, 1]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
-  "30d":
     pushes: 1
     distinct_repos: 1
     active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
+  "30d":
+    pushes: 2
+    distinct_repos: 2
+    active_days: 2
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
-    pushes: 33
+    pushes: 34
     distinct_repos: 17
-    active_days: 21
+    active_days: 22
     repos_not_owned: 3
     not_owned_basenames: 2
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 1.5714
-  repo_per_active_day: 0.8095
+  push_per_day: 1.5455
+  repo_per_active_day: 0.7727
   not_owned_ratio: 0.1765
   basename_concentration: 0.1765
   shapes: []
@@ -55,14 +57,6 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
-  "30d":
     pushes: 1
     distinct_repos: 1
     pushes_per_repo: 1.0000
@@ -70,17 +64,25 @@ facets:
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
+  "30d":
+    pushes: 2
+    distinct_repos: 2
+    pushes_per_repo: 1.0000
+    active_days: 2
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
-    pushes: 33
+    pushes: 34
     distinct_repos: 17
-    pushes_per_repo: 1.9412
-    active_days: 21
+    pushes_per_repo: 2.0000
+    active_days: 22
     repos_not_owned: 3
     not_owned_basenames: 2
     not_owned_owners: 3
 reasons:
-  - "provenance: 4 vault signal(s) — pass"
-  - "activity: 21 active days in 90d — pass"
+  - "provenance: 5 vault signal(s) — pass"
+  - "activity: 22 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "solpulse"
@@ -177,6 +179,6 @@ repos:
 
 # eltociear
 
-33 pushes across 17 repositories on 21 active days in the last 90 days of public GitHub push activity.
+34 pushes across 17 repositories on 22 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/eltociear

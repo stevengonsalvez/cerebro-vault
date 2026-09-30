@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-29T06:07:44.400276+00:00"
+generated_at: "2026-09-30T06:08:17.648704+00:00"
 provenance:
   - "01cd6a498d377caf"
   - "03604cccd7e9402d"
@@ -62,7 +62,8 @@ provenance:
   - "f672838de330e86f"
   - "f9a1870648a6375a"
   - "fe9e50bf2d5b21fe"
-pushes_per_week: [16, 13, 9, 5, 3, 0, 2, 6, 1, 0, 3, 0, 7]
+  - "ff1ca072bf39e471"
+pushes_per_week: [13, 15, 6, 6, 2, 1, 1, 7, 0, 0, 3, 1, 7]
 windows:
   "7d":
     pushes: 7
@@ -72,14 +73,14 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 10
+    pushes: 11
     distinct_repos: 1
-    active_days: 6
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 65
+    pushes: 62
     distinct_repos: 2
     active_days: 35
     repos_not_owned: 0
@@ -87,7 +88,7 @@ windows:
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.8571
+  push_per_day: 1.7714
   repo_per_active_day: 0.0571
   not_owned_ratio: 0.0000
   basename_concentration: 0.5000
@@ -107,23 +108,23 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 10
+    pushes: 11
     distinct_repos: 1
-    pushes_per_repo: 10.0000
-    active_days: 6
+    pushes_per_repo: 11.0000
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 65
+    pushes: 62
     distinct_repos: 2
-    pushes_per_repo: 32.5000
+    pushes_per_repo: 31.0000
     active_days: 35
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
-  - "provenance: 51 vault signal(s) — pass"
+  - "provenance: 52 vault signal(s) — pass"
   - "activity: 35 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
@@ -182,6 +183,6 @@ repos:
 
 # jamestrew
 
-65 pushes across 2 repositories on 35 active days in the last 90 days of public GitHub push activity.
+62 pushes across 2 repositories on 35 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/jamestrew

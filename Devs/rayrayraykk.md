@@ -10,10 +10,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-29T06:07:44.400276+00:00"
+generated_at: "2026-09-30T06:08:17.648704+00:00"
 provenance:
   - "541318303a272608"
-pushes_per_week: [12, 12, 10, 3, 0, 1, 2, 1, 2, 1, 1, 7, 7]
+pushes_per_week: [12, 11, 9, 3, 0, 1, 2, 1, 2, 1, 2, 6, 7]
 windows:
   "7d":
     pushes: 7
@@ -30,16 +30,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 59
+    pushes: 57
     distinct_repos: 2
-    active_days: 30
+    active_days: 29
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.9667
-  repo_per_active_day: 0.0667
+  push_per_day: 1.9655
+  repo_per_active_day: 0.0690
   not_owned_ratio: 0.5000
   basename_concentration: 0.5000
   shapes: []
@@ -66,16 +66,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 59
+    pushes: 57
     distinct_repos: 2
-    pushes_per_repo: 29.5000
-    active_days: 30
+    pushes_per_repo: 28.5000
+    active_days: 29
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 30 active days in 90d — pass"
+  - "activity: 29 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "homepage"
@@ -130,6 +130,6 @@ repos:
 
 # rayrayraykk
 
-59 pushes across 2 repositories on 30 active days in the last 90 days of public GitHub push activity.
+57 pushes across 2 repositories on 29 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/rayrayraykk

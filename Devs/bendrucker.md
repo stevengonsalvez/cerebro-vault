@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-29T06:07:44.400276+00:00"
+generated_at: "2026-09-30T06:08:17.648704+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [51, 50, 29, 25, 23, 14, 11, 3, 2, 9, 5, 14, 43]
+pushes_per_week: [64, 45, 17, 28, 19, 15, 10, 4, 1, 9, 6, 18, 39]
 windows:
   "7d":
-    pushes: 43
+    pushes: 42
     distinct_repos: 4
-    active_days: 5
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 71
+    pushes: 72
     distinct_repos: 4
-    active_days: 14
+    active_days: 15
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 279
+    pushes: 275
     distinct_repos: 22
     active_days: 54
     repos_not_owned: 5
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 5.1667
+  push_per_day: 5.0926
   repo_per_active_day: 0.4074
   not_owned_ratio: 0.2273
   basename_concentration: 0.0455
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 43
+    pushes: 42
     distinct_repos: 4
-    pushes_per_repo: 10.7500
-    active_days: 5
+    pushes_per_repo: 10.5000
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 71
+    pushes: 72
     distinct_repos: 4
-    pushes_per_repo: 17.7500
-    active_days: 14
+    pushes_per_repo: 18.0000
+    active_days: 15
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 279
+    pushes: 275
     distinct_repos: 22
-    pushes_per_repo: 12.6818
+    pushes_per_repo: 12.5000
     active_days: 54
     repos_not_owned: 5
     not_owned_basenames: 5
@@ -131,6 +131,6 @@ repos:
 
 # bendrucker
 
-279 pushes across 22 repositories on 54 active days in the last 90 days of public GitHub push activity.
+275 pushes across 22 repositories on 54 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/bendrucker

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-29T06:07:44.400276+00:00"
+generated_at: "2026-09-30T06:08:17.648704+00:00"
 provenance:
   - "73468cde177ddae6"
-pushes_per_week: [29, 20, 22, 3, 4, 2, 3, 2, 0, 0, 0, 2, 5]
+pushes_per_week: [32, 21, 17, 3, 4, 3, 3, 1, 0, 0, 0, 3, 4]
 windows:
   "7d":
     pushes: 5
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 92
+    pushes: 91
     distinct_repos: 11
-    active_days: 38
+    active_days: 37
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.4211
-  repo_per_active_day: 0.2895
+  push_per_day: 2.4595
+  repo_per_active_day: 0.2973
   not_owned_ratio: 0.0000
   basename_concentration: 0.0909
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 92
+    pushes: 91
     distinct_repos: 11
-    pushes_per_repo: 8.3636
-    active_days: 38
+    pushes_per_repo: 8.2727
+    active_days: 37
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 38 active days in 90d — pass"
+  - "activity: 37 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "herdr-ccs"
@@ -116,6 +116,6 @@ repos:
 
 # KennethWKZ
 
-92 pushes across 11 repositories on 38 active days in the last 90 days of public GitHub push activity.
+91 pushes across 11 repositories on 37 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/KennethWKZ

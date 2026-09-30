@@ -10,10 +10,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-29T06:07:44.400276+00:00"
+generated_at: "2026-09-30T06:08:17.648704+00:00"
 provenance:
   - "fb0827c68cc0b5d0"
-pushes_per_week: [9, 15, 21, 18, 7, 1, 1, 3, 0, 0, 5, 2, 4]
+pushes_per_week: [9, 22, 14, 17, 7, 1, 1, 3, 0, 1, 4, 3, 3]
 windows:
   "7d":
     pushes: 4
@@ -30,16 +30,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 86
+    pushes: 85
     distinct_repos: 13
-    active_days: 31
+    active_days: 30
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.7742
-  repo_per_active_day: 0.4194
+  push_per_day: 2.8333
+  repo_per_active_day: 0.4333
   not_owned_ratio: 0.0769
   basename_concentration: 0.0769
   shapes: []
@@ -66,16 +66,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 86
+    pushes: 85
     distinct_repos: 13
-    pushes_per_repo: 6.6154
-    active_days: 31
+    pushes_per_repo: 6.5385
+    active_days: 30
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 31 active days in 90d — pass"
+  - "activity: 30 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "slotstream"
@@ -165,6 +165,6 @@ repos:
 
 # carloslfu
 
-86 pushes across 13 repositories on 31 active days in the last 90 days of public GitHub push activity.
+85 pushes across 13 repositories on 30 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/carloslfu

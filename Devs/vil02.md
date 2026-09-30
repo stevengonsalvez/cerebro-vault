@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-29T06:07:44.400276+00:00"
+generated_at: "2026-09-30T06:08:17.648704+00:00"
 provenance:
   - "dffbb846389f9a26"
-pushes_per_week: [14, 12, 11, 7, 2, 8, 3, 2, 0, 0, 2, 3, 1]
+pushes_per_week: [17, 11, 8, 7, 3, 8, 2, 2, 0, 0, 3, 2, 1]
 windows:
   "7d":
     pushes: 1
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 65
+    pushes: 64
     distinct_repos: 13
-    active_days: 45
+    active_days: 44
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.4444
-  repo_per_active_day: 0.2889
+  push_per_day: 1.4545
+  repo_per_active_day: 0.2955
   not_owned_ratio: 0.0769
   basename_concentration: 0.0769
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 65
+    pushes: 64
     distinct_repos: 13
-    pushes_per_repo: 5.0000
-    active_days: 45
+    pushes_per_repo: 4.9231
+    active_days: 44
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 45 active days in 90d — pass"
+  - "activity: 44 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "adv_2021"
@@ -151,6 +151,6 @@ repos:
 
 # vil02
 
-65 pushes across 13 repositories on 45 active days in the last 90 days of public GitHub push activity.
+64 pushes across 13 repositories on 44 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/vil02

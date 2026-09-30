@@ -11,39 +11,39 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-29T06:07:44.400276+00:00"
+generated_at: "2026-09-30T06:08:17.648704+00:00"
 provenance:
   - "4930e4f9e24bb204"
   - "73468cde177ddae6"
-pushes_per_week: [14, 1, 2, 3, 4, 0, 4, 2, 0, 0, 0, 2, 5]
+pushes_per_week: [9, 0, 2, 4, 3, 2, 2, 2, 0, 0, 0, 4, 4]
 windows:
   "7d":
     pushes: 5
-    distinct_repos: 1
-    active_days: 3
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
-  "30d":
-    pushes: 7
-    distinct_repos: 1
+    distinct_repos: 2
     active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
-  "90d":
-    pushes: 37
+  "30d":
+    pushes: 8
     distinct_repos: 2
+    active_days: 5
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
+  "90d":
+    pushes: 32
+    distinct_repos: 3
     active_days: 21
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.7619
-  repo_per_active_day: 0.0952
+  push_per_day: 1.5238
+  repo_per_active_day: 0.1429
   not_owned_ratio: 0.0000
-  basename_concentration: 0.5000
+  basename_concentration: 0.3333
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -53,24 +53,24 @@ automation:
 facets:
   "7d":
     pushes: 5
-    distinct_repos: 1
-    pushes_per_repo: 5.0000
-    active_days: 3
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
-  "30d":
-    pushes: 7
-    distinct_repos: 1
-    pushes_per_repo: 7.0000
+    distinct_repos: 2
+    pushes_per_repo: 2.5000
     active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
-  "90d":
-    pushes: 37
+  "30d":
+    pushes: 8
     distinct_repos: 2
-    pushes_per_repo: 18.5000
+    pushes_per_repo: 4.0000
+    active_days: 5
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
+  "90d":
+    pushes: 32
+    distinct_repos: 3
+    pushes_per_repo: 10.6667
     active_days: 21
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -161,6 +161,6 @@ repos:
 
 # pacifio
 
-37 pushes across 2 repositories on 21 active days in the last 90 days of public GitHub push activity.
+32 pushes across 3 repositories on 21 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/pacifio

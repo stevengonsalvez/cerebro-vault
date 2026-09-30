@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-29T06:07:44.400276+00:00"
+generated_at: "2026-09-30T06:08:17.648704+00:00"
 provenance:
   - "1f49d0119cedbc84"
-pushes_per_week: [4, 2, 15, 4, 6, 3, 2, 2, 0, 1, 1, 5, 1]
+pushes_per_week: [3, 3, 14, 6, 4, 5, 0, 2, 0, 1, 1, 5, 1]
 windows:
   "7d":
     pushes: 1
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 4
     not_owned_owners: 4
   "90d":
-    pushes: 46
+    pushes: 45
     distinct_repos: 18
-    active_days: 23
+    active_days: 22
     repos_not_owned: 12
     not_owned_basenames: 12
     not_owned_owners: 8
 automation:
   state: "clear"
-  push_per_day: 2.0000
-  repo_per_active_day: 0.7826
+  push_per_day: 2.0455
+  repo_per_active_day: 0.8182
   not_owned_ratio: 0.6667
   basename_concentration: 0.0556
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 4
     not_owned_owners: 4
   "90d":
-    pushes: 46
+    pushes: 45
     distinct_repos: 18
-    pushes_per_repo: 2.5556
-    active_days: 23
+    pushes_per_repo: 2.5000
+    active_days: 22
     repos_not_owned: 12
     not_owned_basenames: 12
     not_owned_owners: 8
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 23 active days in 90d — pass"
+  - "activity: 22 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "Download-Simply-Videos-From-YouTube"
@@ -212,6 +212,6 @@ repos:
 
 # pH-7
 
-46 pushes across 18 repositories on 23 active days in the last 90 days of public GitHub push activity.
+45 pushes across 18 repositories on 22 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/pH-7

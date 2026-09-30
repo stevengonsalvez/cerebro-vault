@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-29T06:07:44.400276+00:00"
+generated_at: "2026-09-30T06:08:17.648704+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [36, 9, 17, 4, 2, 3, 4, 0, 0, 1, 1, 2, 1]
+pushes_per_week: [33, 13, 15, 3, 2, 3, 3, 0, 0, 1, 1, 3, 0]
 windows:
   "7d":
-    pushes: 2
+    pushes: 1
     distinct_repos: 1
-    active_days: 2
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 80
+    pushes: 77
     distinct_repos: 11
-    active_days: 34
+    active_days: 33
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.3529
-  repo_per_active_day: 0.3235
+  push_per_day: 2.3333
+  repo_per_active_day: 0.3333
   not_owned_ratio: 0.0000
   basename_concentration: 0.0909
   shapes: []
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
+    pushes: 1
     distinct_repos: 1
-    pushes_per_repo: 2.0000
-    active_days: 2
+    pushes_per_repo: 1.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 80
+    pushes: 77
     distinct_repos: 11
-    pushes_per_repo: 7.2727
-    active_days: 34
+    pushes_per_repo: 7.0000
+    active_days: 33
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 34 active days in 90d — pass"
+  - "activity: 33 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "fcm-hosts-next"
@@ -129,6 +129,6 @@ repos:
 
 # cagedbird043
 
-80 pushes across 11 repositories on 34 active days in the last 90 days of public GitHub push activity.
+77 pushes across 11 repositories on 33 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/cagedbird043

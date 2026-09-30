@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-29T06:07:44.400276+00:00"
+generated_at: "2026-09-30T06:08:17.648704+00:00"
 provenance:
   - "1be978947e68d1f2"
-pushes_per_week: [38, 42, 20, 8, 10, 17, 12, 10, 6, 3, 2, 2, 3]
+pushes_per_week: [38, 41, 20, 8, 10, 19, 11, 11, 4, 3, 2, 2, 5]
 windows:
   "7d":
-    pushes: 3
+    pushes: 5
     distinct_repos: 2
     active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 10
+    pushes: 12
     distinct_repos: 5
     active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 173
+    pushes: 174
     distinct_repos: 7
-    active_days: 48
+    active_days: 47
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 3.6042
-  repo_per_active_day: 0.1458
+  push_per_day: 3.7021
+  repo_per_active_day: 0.1489
   not_owned_ratio: 0.0000
   basename_concentration: 0.1429
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 3
+    pushes: 5
     distinct_repos: 2
-    pushes_per_repo: 1.5000
+    pushes_per_repo: 2.5000
     active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 10
+    pushes: 12
     distinct_repos: 5
-    pushes_per_repo: 2.0000
+    pushes_per_repo: 2.4000
     active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 173
+    pushes: 174
     distinct_repos: 7
-    pushes_per_repo: 24.7143
-    active_days: 48
+    pushes_per_repo: 24.8571
+    active_days: 47
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 48 active days in 90d — pass"
+  - "activity: 47 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "coq_nvim"
@@ -134,6 +134,6 @@ repos:
 
 # ms-jpq
 
-173 pushes across 7 repositories on 48 active days in the last 90 days of public GitHub push activity.
+174 pushes across 7 repositories on 47 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ms-jpq

@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-29T06:07:44.400276+00:00"
+generated_at: "2026-09-30T06:08:17.648704+00:00"
 provenance:
   - "46f3c1d6124190bd"
-pushes_per_week: [17, 3, 8, 14, 46, 2, 1, 0, 0, 0, 1, 4, 0]
+pushes_per_week: [16, 4, 13, 9, 44, 2, 1, 0, 0, 0, 1, 4, 1]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 5
-    distinct_repos: 1
-    active_days: 4
+    pushes: 6
+    distinct_repos: 2
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 96
-    distinct_repos: 11
+    pushes: 95
+    distinct_repos: 12
     active_days: 29
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 3.3103
-  repo_per_active_day: 0.3793
+  push_per_day: 3.2759
+  repo_per_active_day: 0.4138
   not_owned_ratio: 0.0000
-  basename_concentration: 0.0909
+  basename_concentration: 0.0833
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
+    pushes: 1
+    distinct_repos: 1
+    pushes_per_repo: 1.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 5
-    distinct_repos: 1
-    pushes_per_repo: 5.0000
-    active_days: 4
+    pushes: 6
+    distinct_repos: 2
+    pushes_per_repo: 3.0000
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 96
-    distinct_repos: 11
-    pushes_per_repo: 8.7273
+    pushes: 95
+    distinct_repos: 12
+    pushes_per_repo: 7.9167
     active_days: 29
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -169,6 +169,6 @@ repos:
 
 # isatimur
 
-96 pushes across 11 repositories on 29 active days in the last 90 days of public GitHub push activity.
+95 pushes across 12 repositories on 29 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/isatimur

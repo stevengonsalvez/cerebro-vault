@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-29T06:07:44.400276+00:00"
+generated_at: "2026-09-30T06:08:17.648704+00:00"
 provenance:
   - "745308b2b7085095"
-pushes_per_week: [3, 13, 5, 7, 7, 4, 7, 8, 3, 1, 0, 8, 10]
+pushes_per_week: [7, 9, 6, 7, 6, 6, 5, 8, 3, 1, 0, 8, 11]
 windows:
   "7d":
-    pushes: 13
+    pushes: 11
     distinct_repos: 4
     active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 21
+    pushes: 22
     distinct_repos: 7
-    active_days: 12
+    active_days: 13
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 76
+    pushes: 77
     distinct_repos: 12
-    active_days: 38
+    active_days: 39
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.0000
-  repo_per_active_day: 0.3158
+  push_per_day: 1.9744
+  repo_per_active_day: 0.3077
   not_owned_ratio: 0.0000
   basename_concentration: 0.0833
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 13
+    pushes: 11
     distinct_repos: 4
-    pushes_per_repo: 3.2500
+    pushes_per_repo: 2.7500
     active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 21
+    pushes: 22
     distinct_repos: 7
-    pushes_per_repo: 3.0000
-    active_days: 12
+    pushes_per_repo: 3.1429
+    active_days: 13
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 76
+    pushes: 77
     distinct_repos: 12
-    pushes_per_repo: 6.3333
-    active_days: 38
+    pushes_per_repo: 6.4167
+    active_days: 39
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 38 active days in 90d — pass"
+  - "activity: 39 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "awesome-agentic-ai-zh"
@@ -188,6 +188,6 @@ repos:
 
 # WenyuChiou
 
-76 pushes across 12 repositories on 38 active days in the last 90 days of public GitHub push activity.
+77 pushes across 12 repositories on 39 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/WenyuChiou

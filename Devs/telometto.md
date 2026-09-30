@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-29T06:07:44.400276+00:00"
+generated_at: "2026-09-30T06:08:17.648704+00:00"
 provenance:
   - "3cb7ff1cdcf97c6b"
-pushes_per_week: [22, 11, 13, 12, 13, 5, 10, 3, 2, 1, 1, 8, 4]
+pushes_per_week: [19, 15, 8, 12, 12, 11, 5, 3, 1, 1, 1, 8, 4]
 windows:
   "7d":
-    pushes: 5
+    pushes: 4
     distinct_repos: 1
-    active_days: 4
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 15
+    pushes: 14
     distinct_repos: 1
-    active_days: 10
+    active_days: 9
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 105
+    pushes: 100
     distinct_repos: 1
-    active_days: 48
+    active_days: 47
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.1875
-  repo_per_active_day: 0.0208
+  push_per_day: 2.1277
+  repo_per_active_day: 0.0213
   not_owned_ratio: 0.0000
   basename_concentration: 1.0000
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 5
+    pushes: 4
     distinct_repos: 1
-    pushes_per_repo: 5.0000
-    active_days: 4
+    pushes_per_repo: 4.0000
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 15
+    pushes: 14
     distinct_repos: 1
-    pushes_per_repo: 15.0000
-    active_days: 10
+    pushes_per_repo: 14.0000
+    active_days: 9
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 105
+    pushes: 100
     distinct_repos: 1
-    pushes_per_repo: 105.0000
-    active_days: 48
+    pushes_per_repo: 100.0000
+    active_days: 47
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 48 active days in 90d — pass"
+  - "activity: 47 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "nix-config"
@@ -130,6 +130,6 @@ repos:
 
 # telometto
 
-105 pushes across 1 repository on 48 active days in the last 90 days of public GitHub push activity.
+100 pushes across 1 repository on 47 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/telometto

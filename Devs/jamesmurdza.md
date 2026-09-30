@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-29T06:07:44.400276+00:00"
+generated_at: "2026-09-30T06:08:17.648704+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [63, 15, 11, 1, 9, 6, 0, 0, 0, 0, 1, 5, 24]
+pushes_per_week: [48, 15, 11, 1, 10, 5, 0, 0, 0, 0, 1, 5, 24]
 windows:
   "7d":
     pushes: 24
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 135
+    pushes: 120
     distinct_repos: 9
-    active_days: 26
+    active_days: 25
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 5.1923
-  repo_per_active_day: 0.3462
+  push_per_day: 4.8000
+  repo_per_active_day: 0.3600
   not_owned_ratio: 0.1111
   basename_concentration: 0.1111
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 135
+    pushes: 120
     distinct_repos: 9
-    pushes_per_repo: 15.0000
-    active_days: 26
+    pushes_per_repo: 13.3333
+    active_days: 25
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 26 active days in 90d — pass"
+  - "activity: 25 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "awesome-ai-devtools"
@@ -133,6 +133,6 @@ repos:
 
 # jamesmurdza
 
-135 pushes across 9 repositories on 26 active days in the last 90 days of public GitHub push activity.
+120 pushes across 9 repositories on 25 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/jamesmurdza

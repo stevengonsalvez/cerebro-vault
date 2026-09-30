@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-29T06:07:44.400276+00:00"
+generated_at: "2026-09-30T06:08:17.648704+00:00"
 provenance:
   - "f74d5b6b78b8a1a4"
-pushes_per_week: [50, 18, 16, 25, 14, 12, 17, 0, 4, 2, 1, 2, 10]
+pushes_per_week: [46, 21, 13, 24, 14, 15, 14, 2, 2, 2, 1, 2, 10]
 windows:
   "7d":
     pushes: 10
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 4
   "90d":
-    pushes: 171
+    pushes: 166
     distinct_repos: 6
-    active_days: 50
+    active_days: 49
     repos_not_owned: 5
     not_owned_basenames: 1
     not_owned_owners: 5
 automation:
   state: "clear"
-  push_per_day: 3.4200
-  repo_per_active_day: 0.1200
+  push_per_day: 3.3878
+  repo_per_active_day: 0.1224
   not_owned_ratio: 0.8333
   basename_concentration: 1.0000
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 4
   "90d":
-    pushes: 171
+    pushes: 166
     distinct_repos: 6
-    pushes_per_repo: 28.5000
-    active_days: 50
+    pushes_per_repo: 27.6667
+    active_days: 49
     repos_not_owned: 5
     not_owned_basenames: 1
     not_owned_owners: 5
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 50 active days in 90d — pass"
+  - "activity: 49 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "codebase-memory-mcp"
@@ -117,6 +117,6 @@ repos:
 
 # DeusData
 
-171 pushes across 6 repositories on 50 active days in the last 90 days of public GitHub push activity.
+166 pushes across 6 repositories on 49 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/DeusData

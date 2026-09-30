@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-29T06:07:44.400276+00:00"
+generated_at: "2026-09-30T06:08:17.648704+00:00"
 provenance:
   - "73468cde177ddae6"
-pushes_per_week: [26, 18, 63, 59, 35, 17, 87, 4, 0, 6, 7, 69, 2]
+pushes_per_week: [10, 18, 73, 52, 35, 23, 80, 2, 0, 6, 7, 70, 2]
 windows:
   "7d":
-    pushes: 2
+    pushes: 3
     distinct_repos: 1
-    active_days: 2
+    active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 84
+    pushes: 85
     distinct_repos: 12
-    active_days: 11
+    active_days: 12
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 393
+    pushes: 378
     distinct_repos: 56
     active_days: 49
     repos_not_owned: 19
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 8.0204
+  push_per_day: 7.7143
   repo_per_active_day: 1.1429
   not_owned_ratio: 0.3393
   basename_concentration: 0.0357
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
+    pushes: 3
     distinct_repos: 1
-    pushes_per_repo: 2.0000
-    active_days: 2
+    pushes_per_repo: 3.0000
+    active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 84
+    pushes: 85
     distinct_repos: 12
-    pushes_per_repo: 7.0000
-    active_days: 11
+    pushes_per_repo: 7.0833
+    active_days: 12
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 393
+    pushes: 378
     distinct_repos: 56
-    pushes_per_repo: 7.0179
+    pushes_per_repo: 6.7500
     active_days: 49
     repos_not_owned: 19
     not_owned_basenames: 19
@@ -171,6 +171,6 @@ repos:
 
 # peterlodri-sec
 
-393 pushes across 56 repositories on 49 active days in the last 90 days of public GitHub push activity.
+378 pushes across 56 repositories on 49 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/peterlodri-sec

@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-29T06:07:44.400276+00:00"
+generated_at: "2026-09-30T06:08:17.648704+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [7, 18, 17, 13, 0, 0, 0, 10, 1, 4, 22, 8, 11]
+pushes_per_week: [11, 19, 16, 9, 0, 0, 0, 11, 0, 6, 20, 8, 13]
 windows:
   "7d":
-    pushes: 11
+    pushes: 13
     distinct_repos: 2
-    active_days: 3
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 45
+    pushes: 47
     distinct_repos: 2
-    active_days: 10
+    active_days: 11
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 111
+    pushes: 113
     distinct_repos: 7
-    active_days: 37
+    active_days: 38
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 3.0000
-  repo_per_active_day: 0.1892
+  push_per_day: 2.9737
+  repo_per_active_day: 0.1842
   not_owned_ratio: 0.0000
   basename_concentration: 0.1429
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 11
+    pushes: 13
     distinct_repos: 2
-    pushes_per_repo: 5.5000
-    active_days: 3
+    pushes_per_repo: 6.5000
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 45
+    pushes: 47
     distinct_repos: 2
-    pushes_per_repo: 22.5000
-    active_days: 10
+    pushes_per_repo: 23.5000
+    active_days: 11
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 111
+    pushes: 113
     distinct_repos: 7
-    pushes_per_repo: 15.8571
-    active_days: 37
+    pushes_per_repo: 16.1429
+    active_days: 38
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 37 active days in 90d — pass"
+  - "activity: 38 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "omp-headroom"
@@ -149,6 +149,6 @@ repos:
 
 # DarkPhilosophy
 
-111 pushes across 7 repositories on 37 active days in the last 90 days of public GitHub push activity.
+113 pushes across 7 repositories on 38 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/DarkPhilosophy

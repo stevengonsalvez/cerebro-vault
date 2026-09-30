@@ -9,13 +9,13 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-29T06:07:44.400276+00:00"
+generated_at: "2026-09-30T06:08:17.648704+00:00"
 provenance:
   - "51d6155061d60774"
-pushes_per_week: [112, 73, 33, 23, 11, 25, 27, 7, 4, 3, 14, 41, 100]
+pushes_per_week: [110, 61, 36, 14, 11, 25, 26, 7, 4, 4, 14, 44, 98]
 windows:
   "7d":
-    pushes: 104
+    pushes: 102
     distinct_repos: 2
     active_days: 7
     repos_not_owned: 2
@@ -24,21 +24,21 @@ windows:
   "30d":
     pushes: 161
     distinct_repos: 3
-    active_days: 22
+    active_days: 21
     repos_not_owned: 3
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 473
+    pushes: 454
     distinct_repos: 4
-    active_days: 72
+    active_days: 71
     repos_not_owned: 4
     not_owned_basenames: 3
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 6.5694
-  repo_per_active_day: 0.0556
+  push_per_day: 6.3944
+  repo_per_active_day: 0.0563
   not_owned_ratio: 1.0000
   basename_concentration: 0.5000
   shapes: []
@@ -49,9 +49,9 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 104
+    pushes: 102
     distinct_repos: 2
-    pushes_per_repo: 52.0000
+    pushes_per_repo: 51.0000
     active_days: 7
     repos_not_owned: 2
     not_owned_basenames: 2
@@ -60,21 +60,21 @@ facets:
     pushes: 161
     distinct_repos: 3
     pushes_per_repo: 53.6667
-    active_days: 22
+    active_days: 21
     repos_not_owned: 3
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 473
+    pushes: 454
     distinct_repos: 4
-    pushes_per_repo: 118.2500
-    active_days: 72
+    pushes_per_repo: 113.5000
+    active_days: 71
     repos_not_owned: 4
     not_owned_basenames: 3
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 72 active days in 90d — pass"
+  - "activity: 71 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "zotero-engine-list"
@@ -138,6 +138,6 @@ repos:
 
 # arvinxx
 
-473 pushes across 4 repositories on 72 active days in the last 90 days of public GitHub push activity.
+454 pushes across 4 repositories on 71 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/arvinxx

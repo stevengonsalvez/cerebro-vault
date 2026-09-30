@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-29T06:07:44.400276+00:00"
+generated_at: "2026-09-30T06:08:17.648704+00:00"
 provenance:
   - "1be978947e68d1f2"
-pushes_per_week: [373, 58, 141, 34, 8, 47, 87, 33, 25, 17, 22, 51, 22]
+pushes_per_week: [272, 96, 98, 29, 10, 45, 91, 37, 13, 19, 23, 52, 19]
 windows:
   "7d":
-    pushes: 30
+    pushes: 21
     distinct_repos: 1
     active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 115
+    pushes: 114
     distinct_repos: 1
     active_days: 22
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 918
+    pushes: 804
     distinct_repos: 2
     active_days: 73
     repos_not_owned: 0
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 12.5753
+  push_per_day: 11.0137
   repo_per_active_day: 0.0274
   not_owned_ratio: 0.0000
   basename_concentration: 0.5000
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 30
+    pushes: 21
     distinct_repos: 1
-    pushes_per_repo: 30.0000
+    pushes_per_repo: 21.0000
     active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 115
+    pushes: 114
     distinct_repos: 1
-    pushes_per_repo: 115.0000
+    pushes_per_repo: 114.0000
     active_days: 22
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 918
+    pushes: 804
     distinct_repos: 2
-    pushes_per_repo: 459.0000
+    pushes_per_repo: 402.0000
     active_days: 73
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -168,6 +168,6 @@ repos:
 
 # anthony-chaudhary
 
-918 pushes across 2 repositories on 73 active days in the last 90 days of public GitHub push activity.
+804 pushes across 2 repositories on 73 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/anthony-chaudhary

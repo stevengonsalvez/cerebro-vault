@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-29T06:07:44.400276+00:00"
+generated_at: "2026-09-30T06:08:17.648704+00:00"
 provenance:
   - "ffbd582f5e4111de"
-pushes_per_week: [5, 12, 14, 11, 6, 2, 3, 3, 2, 0, 2, 1, 6]
+pushes_per_week: [3, 17, 10, 10, 6, 2, 3, 4, 1, 0, 2, 1, 7]
 windows:
   "7d":
-    pushes: 6
+    pushes: 7
     distinct_repos: 2
-    active_days: 3
+    active_days: 4
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 9
+    pushes: 10
     distinct_repos: 2
-    active_days: 6
+    active_days: 7
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 67
+    pushes: 66
     distinct_repos: 4
     active_days: 35
     repos_not_owned: 4
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 1.9143
+  push_per_day: 1.8857
   repo_per_active_day: 0.1143
   not_owned_ratio: 1.0000
   basename_concentration: 0.2500
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 6
+    pushes: 7
     distinct_repos: 2
-    pushes_per_repo: 3.0000
-    active_days: 3
+    pushes_per_repo: 3.5000
+    active_days: 4
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 9
+    pushes: 10
     distinct_repos: 2
-    pushes_per_repo: 4.5000
-    active_days: 6
+    pushes_per_repo: 5.0000
+    active_days: 7
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 67
+    pushes: 66
     distinct_repos: 4
-    pushes_per_repo: 16.7500
+    pushes_per_repo: 16.5000
     active_days: 35
     repos_not_owned: 4
     not_owned_basenames: 4
@@ -89,6 +89,6 @@ repos:
 
 # julianstorer
 
-67 pushes across 4 repositories on 35 active days in the last 90 days of public GitHub push activity.
+66 pushes across 4 repositories on 35 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/julianstorer

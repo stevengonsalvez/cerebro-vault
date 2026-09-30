@@ -5,24 +5,22 @@ discovered_via: "fanout"
 discovered_via_all:
   - "fanout"
 provenance_repos:
-  - "affaan-m/ECC"
   - "alibaba/open-code-review"
   - "ayghri/i-have-adhd"
   - "chopratejas/headroom"
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-29T06:07:44.400276+00:00"
+generated_at: "2026-09-30T06:08:17.648704+00:00"
 provenance:
   - "46f3c1d6124190bd"
   - "73468cde177ddae6"
   - "c489e6fb5febf2ab"
-  - "edb3a626875732de"
-pushes_per_week: [16, 18, 45, 14, 0, 25, 11, 2, 4, 4, 6, 5, 5]
+pushes_per_week: [18, 16, 51, 8, 0, 29, 7, 5, 1, 4, 6, 8, 2]
 windows:
   "7d":
-    pushes: 5
-    distinct_repos: 5
+    pushes: 4
+    distinct_repos: 4
     active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -55,8 +53,8 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 5
-    distinct_repos: 5
+    pushes: 4
+    distinct_repos: 4
     pushes_per_repo: 1.0000
     active_days: 3
     repos_not_owned: 0
@@ -79,7 +77,7 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 1
 reasons:
-  - "provenance: 4 vault signal(s) — pass"
+  - "provenance: 3 vault signal(s) — pass"
   - "activity: 39 active days in 90d — pass"
   - "automation: clear — pass"
 repos:

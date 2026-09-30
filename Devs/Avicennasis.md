@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-29T06:07:44.400276+00:00"
+generated_at: "2026-09-30T06:08:17.648704+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [32, 10, 7, 5, 5, 4, 6, 7, 0, 0, 13, 16, 14]
+pushes_per_week: [24, 11, 6, 4, 5, 4, 6, 7, 0, 0, 16, 17, 11]
 windows:
   "7d":
-    pushes: 18
+    pushes: 15
     distinct_repos: 12
     active_days: 5
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
-    pushes: 43
+    pushes: 44
     distinct_repos: 21
-    active_days: 12
+    active_days: 13
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 119
+    pushes: 111
     distinct_repos: 28
     active_days: 39
     repos_not_owned: 4
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 3.0513
+  push_per_day: 2.8462
   repo_per_active_day: 0.7179
   not_owned_ratio: 0.1429
   basename_concentration: 0.0357
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 18
+    pushes: 15
     distinct_repos: 12
-    pushes_per_repo: 1.5000
+    pushes_per_repo: 1.2500
     active_days: 5
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
-    pushes: 43
+    pushes: 44
     distinct_repos: 21
-    pushes_per_repo: 2.0476
-    active_days: 12
+    pushes_per_repo: 2.0952
+    active_days: 13
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 119
+    pushes: 111
     distinct_repos: 28
-    pushes_per_repo: 4.2500
+    pushes_per_repo: 3.9643
     active_days: 39
     repos_not_owned: 4
     not_owned_basenames: 4
@@ -129,6 +129,6 @@ repos:
 
 # Avicennasis
 
-119 pushes across 28 repositories on 39 active days in the last 90 days of public GitHub push activity.
+111 pushes across 28 repositories on 39 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Avicennasis

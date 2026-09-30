@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-29T06:07:44.400276+00:00"
+generated_at: "2026-09-30T06:08:17.648704+00:00"
 provenance:
   - "4138778ebbc75ba6"
-pushes_per_week: [15, 10, 12, 16, 7, 1, 0, 0, 2, 4, 1, 19, 20]
+pushes_per_week: [12, 13, 12, 17, 3, 1, 0, 2, 0, 4, 3, 22, 16]
 windows:
   "7d":
-    pushes: 23
+    pushes: 21
     distinct_repos: 8
     active_days: 5
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 44
+    pushes: 45
     distinct_repos: 11
-    active_days: 11
+    active_days: 12
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 107
+    pushes: 105
     distinct_repos: 30
-    active_days: 36
+    active_days: 37
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.9722
-  repo_per_active_day: 0.8333
+  push_per_day: 2.8378
+  repo_per_active_day: 0.8108
   not_owned_ratio: 0.0667
   basename_concentration: 0.1000
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 23
+    pushes: 21
     distinct_repos: 8
-    pushes_per_repo: 2.8750
+    pushes_per_repo: 2.6250
     active_days: 5
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 44
+    pushes: 45
     distinct_repos: 11
-    pushes_per_repo: 4.0000
-    active_days: 11
+    pushes_per_repo: 4.0909
+    active_days: 12
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 107
+    pushes: 105
     distinct_repos: 30
-    pushes_per_repo: 3.5667
-    active_days: 36
+    pushes_per_repo: 3.5000
+    active_days: 37
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 36 active days in 90d — pass"
+  - "activity: 37 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "shvia-mobile"
@@ -129,6 +129,6 @@ repos:
 
 # samirhvbr
 
-107 pushes across 30 repositories on 36 active days in the last 90 days of public GitHub push activity.
+105 pushes across 30 repositories on 37 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/samirhvbr

@@ -9,12 +9,12 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-29T06:07:44.400276+00:00"
+generated_at: "2026-09-30T06:08:17.648704+00:00"
 provenance:
   - "1be978947e68d1f2"
   - "98a2deac3e2f9725"
   - "b949a65ff91f9791"
-pushes_per_week: [9, 2, 1, 8, 6, 7, 5, 5, 2, 6, 4, 12, 5]
+pushes_per_week: [7, 2, 3, 6, 6, 8, 4, 5, 2, 7, 3, 13, 5]
 windows:
   "7d":
     pushes: 5
@@ -25,24 +25,24 @@ windows:
     not_owned_owners: 0
   "30d":
     pushes: 28
-    distinct_repos: 7
+    distinct_repos: 8
     active_days: 14
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 72
-    distinct_repos: 13
+    pushes: 71
+    distinct_repos: 14
     active_days: 41
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.7561
-  repo_per_active_day: 0.3171
+  push_per_day: 1.7317
+  repo_per_active_day: 0.3415
   not_owned_ratio: 0.0000
-  basename_concentration: 0.0769
+  basename_concentration: 0.0714
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -60,16 +60,16 @@ facets:
     not_owned_owners: 0
   "30d":
     pushes: 28
-    distinct_repos: 7
-    pushes_per_repo: 4.0000
+    distinct_repos: 8
+    pushes_per_repo: 3.5000
     active_days: 14
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 72
-    distinct_repos: 13
-    pushes_per_repo: 5.5385
+    pushes: 71
+    distinct_repos: 14
+    pushes_per_repo: 5.0714
     active_days: 41
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -136,6 +136,6 @@ repos:
 
 # kfet
 
-72 pushes across 13 repositories on 41 active days in the last 90 days of public GitHub push activity.
+71 pushes across 14 repositories on 41 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/kfet

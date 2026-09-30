@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-29T06:07:44.400276+00:00"
+generated_at: "2026-09-30T06:08:17.648704+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [18, 18, 10, 8, 4, 13, 31, 7, 25, 8, 4, 21, 8]
+pushes_per_week: [14, 16, 9, 9, 3, 14, 29, 18, 14, 8, 4, 22, 7]
 windows:
   "7d":
-    pushes: 9
-    distinct_repos: 3
-    active_days: 4
+    pushes: 7
+    distinct_repos: 1
+    active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 175
+    pushes: 167
     distinct_repos: 13
-    active_days: 56
+    active_days: 55
     repos_not_owned: 3
     not_owned_basenames: 2
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 3.1250
-  repo_per_active_day: 0.2321
+  push_per_day: 3.0364
+  repo_per_active_day: 0.2364
   not_owned_ratio: 0.2308
   basename_concentration: 0.2308
   shapes: []
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 9
-    distinct_repos: 3
-    pushes_per_repo: 3.0000
-    active_days: 4
+    pushes: 7
+    distinct_repos: 1
+    pushes_per_repo: 7.0000
+    active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 175
+    pushes: 167
     distinct_repos: 13
-    pushes_per_repo: 13.4615
-    active_days: 56
+    pushes_per_repo: 12.8462
+    active_days: 55
     repos_not_owned: 3
     not_owned_basenames: 2
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 56 active days in 90d — pass"
+  - "activity: 55 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "opencode-changelog-x"
@@ -129,6 +129,6 @@ repos:
 
 # Hona
 
-175 pushes across 13 repositories on 56 active days in the last 90 days of public GitHub push activity.
+167 pushes across 13 repositories on 55 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Hona

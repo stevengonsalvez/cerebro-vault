@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-29T06:07:44.400276+00:00"
+generated_at: "2026-09-30T06:08:17.648704+00:00"
 provenance:
   - "01cd6a498d377caf"
   - "03604cccd7e9402d"
@@ -62,7 +62,8 @@ provenance:
   - "f672838de330e86f"
   - "f9a1870648a6375a"
   - "fe9e50bf2d5b21fe"
-pushes_per_week: [57, 1, 4, 15, 6, 13, 5, 1, 7, 0, 0, 4, 12]
+  - "ff1ca072bf39e471"
+pushes_per_week: [43, 0, 5, 16, 4, 15, 3, 1, 7, 0, 0, 4, 12]
 windows:
   "7d":
     pushes: 12
@@ -72,25 +73,25 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 17
+    pushes: 16
     distinct_repos: 8
-    active_days: 7
+    active_days: 6
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 125
-    distinct_repos: 21
-    active_days: 34
-    repos_not_owned: 5
-    not_owned_basenames: 4
+    pushes: 110
+    distinct_repos: 20
+    active_days: 33
+    repos_not_owned: 4
+    not_owned_basenames: 3
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 3.6765
-  repo_per_active_day: 0.6176
-  not_owned_ratio: 0.2381
-  basename_concentration: 0.1429
+  push_per_day: 3.3333
+  repo_per_active_day: 0.6061
+  not_owned_ratio: 0.2000
+  basename_concentration: 0.1500
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -107,24 +108,24 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 17
+    pushes: 16
     distinct_repos: 8
-    pushes_per_repo: 2.1250
-    active_days: 7
+    pushes_per_repo: 2.0000
+    active_days: 6
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 125
-    distinct_repos: 21
-    pushes_per_repo: 5.9524
-    active_days: 34
-    repos_not_owned: 5
-    not_owned_basenames: 4
+    pushes: 110
+    distinct_repos: 20
+    pushes_per_repo: 5.5000
+    active_days: 33
+    repos_not_owned: 4
+    not_owned_basenames: 3
     not_owned_owners: 3
 reasons:
-  - "provenance: 51 vault signal(s) — pass"
-  - "activity: 34 active days in 90d — pass"
+  - "provenance: 52 vault signal(s) — pass"
+  - "activity: 33 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "skillsaw"
@@ -196,6 +197,6 @@ repos:
 
 # stbenjam
 
-125 pushes across 21 repositories on 34 active days in the last 90 days of public GitHub push activity.
+110 pushes across 20 repositories on 33 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/stbenjam

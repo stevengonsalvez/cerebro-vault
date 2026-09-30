@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-29T06:07:44.400276+00:00"
+generated_at: "2026-09-30T06:08:17.648704+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [3, 3, 6, 4, 3, 2, 0, 1, 1, 1, 3, 3, 2]
+pushes_per_week: [3, 4, 4, 4, 3, 2, 0, 1, 1, 1, 3, 3, 2]
 windows:
   "7d":
-    pushes: 3
-    distinct_repos: 2
-    active_days: 2
+    pushes: 2
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 32
+    pushes: 31
     distinct_repos: 6
-    active_days: 26
+    active_days: 25
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.2308
-  repo_per_active_day: 0.2308
+  push_per_day: 1.2400
+  repo_per_active_day: 0.2400
   not_owned_ratio: 0.0000
   basename_concentration: 0.1667
   shapes: []
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 3
-    distinct_repos: 2
-    pushes_per_repo: 1.5000
-    active_days: 2
+    pushes: 2
+    distinct_repos: 1
+    pushes_per_repo: 2.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 32
+    pushes: 31
     distinct_repos: 6
-    pushes_per_repo: 5.3333
-    active_days: 26
+    pushes_per_repo: 5.1667
+    active_days: 25
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 26 active days in 90d — pass"
+  - "activity: 25 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "Phoenix500526"
@@ -129,6 +129,6 @@ repos:
 
 # Phoenix500526
 
-32 pushes across 6 repositories on 26 active days in the last 90 days of public GitHub push activity.
+31 pushes across 6 repositories on 25 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Phoenix500526

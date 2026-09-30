@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-29T06:07:44.400276+00:00"
+generated_at: "2026-09-30T06:08:17.648704+00:00"
 provenance:
   - "379642deb53f3714"
-pushes_per_week: [40, 0, 6, 7, 5, 8, 5, 0, 0, 2, 0, 6, 9]
+pushes_per_week: [25, 0, 6, 9, 4, 7, 5, 0, 0, 2, 0, 7, 10]
 windows:
   "7d":
-    pushes: 9
+    pushes: 11
     distinct_repos: 4
-    active_days: 5
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 17
+    pushes: 19
     distinct_repos: 4
-    active_days: 12
+    active_days: 13
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 88
+    pushes: 75
     distinct_repos: 6
     active_days: 32
     repos_not_owned: 1
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.7500
+  push_per_day: 2.3438
   repo_per_active_day: 0.1875
   not_owned_ratio: 0.1667
   basename_concentration: 0.3333
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 9
+    pushes: 11
     distinct_repos: 4
-    pushes_per_repo: 2.2500
-    active_days: 5
+    pushes_per_repo: 2.7500
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 17
+    pushes: 19
     distinct_repos: 4
-    pushes_per_repo: 4.2500
-    active_days: 12
+    pushes_per_repo: 4.7500
+    active_days: 13
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 88
+    pushes: 75
     distinct_repos: 6
-    pushes_per_repo: 14.6667
+    pushes_per_repo: 12.5000
     active_days: 32
     repos_not_owned: 1
     not_owned_basenames: 1
@@ -186,6 +186,6 @@ repos:
 
 # ch-bas
 
-88 pushes across 6 repositories on 32 active days in the last 90 days of public GitHub push activity.
+75 pushes across 6 repositories on 32 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ch-bas

@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-29T06:07:44.400276+00:00"
+generated_at: "2026-09-30T06:08:17.648704+00:00"
 provenance:
   - "745308b2b7085095"
-pushes_per_week: [7, 9, 13, 9, 5, 4, 1, 0, 0, 0, 2, 2, 0]
+pushes_per_week: [6, 10, 11, 10, 4, 4, 1, 0, 0, 0, 2, 2, 4]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
-  "30d":
     pushes: 4
     distinct_repos: 1
-    active_days: 3
+    active_days: 2
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
+  "30d":
+    pushes: 8
+    distinct_repos: 1
+    active_days: 5
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 52
+    pushes: 54
     distinct_repos: 6
-    active_days: 29
+    active_days: 30
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.7931
-  repo_per_active_day: 0.2069
+  push_per_day: 1.8000
+  repo_per_active_day: 0.2000
   not_owned_ratio: 0.6667
   basename_concentration: 0.1667
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
-  "30d":
     pushes: 4
     distinct_repos: 1
     pushes_per_repo: 4.0000
-    active_days: 3
+    active_days: 2
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
+  "30d":
+    pushes: 8
+    distinct_repos: 1
+    pushes_per_repo: 8.0000
+    active_days: 5
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 52
+    pushes: 54
     distinct_repos: 6
-    pushes_per_repo: 8.6667
-    active_days: 29
+    pushes_per_repo: 9.0000
+    active_days: 30
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 29 active days in 90d — pass"
+  - "activity: 30 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "notion-voice-notes"
@@ -105,6 +105,6 @@ repos:
 
 # keithce
 
-52 pushes across 6 repositories on 29 active days in the last 90 days of public GitHub push activity.
+54 pushes across 6 repositories on 30 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/keithce

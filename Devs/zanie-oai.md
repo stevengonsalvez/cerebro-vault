@@ -9,16 +9,19 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-29T06:07:44.400276+00:00"
+generated_at: "2026-09-30T06:08:17.648704+00:00"
 provenance:
   - "0388a4f55f4206c8"
   - "0577669e18ed3998"
+  - "094c4918ba5c2d38"
   - "2204ba57be324ff7"
   - "3509861ced217170"
   - "546861447eb67d73"
   - "785d6f65b1beb1f0"
+  - "898a71525a97f0dc"
   - "8c3dc2a0187cafcc"
   - "97091dd244ea12f9"
+  - "9b9d615d7fb6df0b"
   - "9ba6f4189d8fbd6b"
   - "9f28e3e9d3a9b17b"
   - "a8d513fb104884f5"
@@ -27,7 +30,7 @@ provenance:
   - "c6b4a874521ceb02"
   - "cf565721454d59f8"
   - "e26852201e6f38fc"
-pushes_per_week: [20, 25, 30, 20, 14, 11, 18, 2, 1, 0, 0, 0, 0]
+pushes_per_week: [23, 26, 29, 19, 14, 12, 14, 3, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -44,16 +47,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 141
+    pushes: 140
     distinct_repos: 9
-    active_days: 45
+    active_days: 44
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 3.1333
-  repo_per_active_day: 0.2000
+  push_per_day: 3.1818
+  repo_per_active_day: 0.2045
   not_owned_ratio: 0.0000
   basename_concentration: 0.1111
   shapes: []
@@ -80,22 +83,22 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 141
+    pushes: 140
     distinct_repos: 9
-    pushes_per_repo: 15.6667
-    active_days: 45
+    pushes_per_repo: 15.5556
+    active_days: 44
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
-  - "provenance: 16 vault signal(s) — pass"
-  - "activity: 45 active days in 90d — pass"
+  - "provenance: 19 vault signal(s) — pass"
+  - "activity: 44 active days in 90d — pass"
   - "automation: clear — pass"
 repos: []
 ---
 
 # zanie-oai
 
-141 pushes across 9 repositories on 45 active days in the last 90 days of public GitHub push activity.
+140 pushes across 9 repositories on 44 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/zanie-oai

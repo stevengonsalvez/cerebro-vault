@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-29T06:07:44.400276+00:00"
+generated_at: "2026-09-30T06:08:17.648704+00:00"
 provenance:
   - "dffbb846389f9a26"
-pushes_per_week: [14, 12, 27, 7, 15, 2, 0, 0, 0, 0, 2, 2, 6]
+pushes_per_week: [12, 20, 17, 7, 15, 2, 0, 0, 0, 0, 3, 1, 6]
 windows:
   "7d":
     pushes: 6
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 87
+    pushes: 83
     distinct_repos: 3
-    active_days: 33
+    active_days: 32
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.6364
-  repo_per_active_day: 0.0909
+  push_per_day: 2.5938
+  repo_per_active_day: 0.0938
   not_owned_ratio: 0.0000
   basename_concentration: 0.3333
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 87
+    pushes: 83
     distinct_repos: 3
-    pushes_per_repo: 29.0000
-    active_days: 33
+    pushes_per_repo: 27.6667
+    active_days: 32
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 33 active days in 90d — pass"
+  - "activity: 32 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "clear-your-tools"
@@ -155,6 +155,6 @@ repos:
 
 # qdrddr
 
-87 pushes across 3 repositories on 33 active days in the last 90 days of public GitHub push activity.
+83 pushes across 3 repositories on 32 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/qdrddr
