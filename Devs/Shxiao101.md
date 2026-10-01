@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "16389f32495280ea"
-pushes_per_week: [13, 4, 3, 1, 0, 1, 0, 0, 4, 2, 2, 5, 7]
+pushes_per_week: [11, 4, 2, 1, 0, 1, 0, 4, 0, 2, 2, 6, 7]
 windows:
   "7d":
-    pushes: 9
+    pushes: 7
     distinct_repos: 7
-    active_days: 5
+    active_days: 4
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 16
-    distinct_repos: 10
-    active_days: 10
+    pushes: 17
+    distinct_repos: 11
+    active_days: 11
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 42
-    distinct_repos: 17
+    pushes: 40
+    distinct_repos: 18
     active_days: 26
     repos_not_owned: 6
     not_owned_basenames: 3
     not_owned_owners: 4
 automation:
   state: "clear"
-  push_per_day: 1.6154
-  repo_per_active_day: 0.6538
-  not_owned_ratio: 0.3529
-  basename_concentration: 0.2353
+  push_per_day: 1.5385
+  repo_per_active_day: 0.6923
+  not_owned_ratio: 0.3333
+  basename_concentration: 0.2222
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 9
+    pushes: 7
     distinct_repos: 7
-    pushes_per_repo: 1.2857
-    active_days: 5
+    pushes_per_repo: 1.0000
+    active_days: 4
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 16
-    distinct_repos: 10
-    pushes_per_repo: 1.6000
-    active_days: 10
+    pushes: 17
+    distinct_repos: 11
+    pushes_per_repo: 1.5455
+    active_days: 11
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 42
-    distinct_repos: 17
-    pushes_per_repo: 2.4706
+    pushes: 40
+    distinct_repos: 18
+    pushes_per_repo: 2.2222
     active_days: 26
     repos_not_owned: 6
     not_owned_basenames: 3
@@ -128,6 +128,6 @@ repos:
 
 # Shxiao101
 
-42 pushes across 17 repositories on 26 active days in the last 90 days of public GitHub push activity.
+40 pushes across 18 repositories on 26 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Shxiao101

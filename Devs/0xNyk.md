@@ -10,10 +10,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "635453fe3b6ecc12"
-pushes_per_week: [19, 28, 21, 4, 5, 1, 8, 0, 0, 0, 3, 75, 0]
+pushes_per_week: [19, 37, 12, 4, 5, 2, 7, 0, 0, 0, 5, 73, 0]
 windows:
   "7d":
     pushes: 0
@@ -97,9 +97,9 @@ repos:
       - "opencode"
       - "prompt-engineering"
       - "structured-debate"
-    stars_fact: 4481
+    stars_fact: 4535
     first_seen: "2026-06-30T06:00:04.278254+00:00"
-    last_push: "2026-09-22"
+    last_push: "2026-09-28"
   - name: "awesome-hermes-agent"
     title: "awesome-hermes-agent"
     description: "Independent directory of useful skills, plugins, memory providers, tools, surfaces, and guides for Nous Research's open-source Hermes Agent."
@@ -115,7 +115,7 @@ repos:
       - "memory"
       - "nous-research"
       - "skills"
-    stars_fact: 5733
+    stars_fact: 5773
     first_seen: null
     last_push: "2026-09-22"
   - name: "0xNyk"
@@ -134,45 +134,43 @@ repos:
       - "web3"
     stars_fact: 7
     first_seen: null
-    last_push: "2026-09-23"
-  - name: "awesome-agent-cortex"
-    title: "awesome-agent-cortex"
-    description: "Curated map of AI agent frameworks, protocols, runtimes, skills, memory, identity, security, evaluation, and commerce."
-    language: "JavaScript"
+    last_push: "2026-09-30"
+  - name: "xint-rs"
+    title: "xint-rs"
+    description: "X Intelligence CLI — search, monitor, analyze, and engage on X/Twitter. Single Rust binary, 2.5MB, <5ms startup. AI agent skill."
+    language: "Rust"
     topics:
-      - "agent-memory"
-      - "agent-security"
-      - "agentic-ai"
       - "ai-agents"
-      - "awesome"
-      - "awesome-list"
-      - "knowledge-graphs"
-      - "mcp"
+      - "cli"
+      - "osint"
+      - "rust"
       - "solana"
-    stars_fact: 223
+      - "twitter"
+      - "x"
+    stars_fact: 28
     first_seen: null
-    last_push: "2026-09-22"
-  - name: "devgod"
-    title: "devgod"
-    description: "Portable engineering skill for coding agents: TypeScript, Python, Rust, native CLI commands, scanners, and verification gates."
+    last_push: "2026-08-25"
+  - name: "hermes-cf-bypass"
+    title: "hermes-cf-bypass"
+    description: "Bypass Cloudflare blocking for Hermes Agent on datacenter VPS (Hetzner, AWS, etc.) using curl_cffi TLS fingerprint impersonation"
     language: "Python"
     topics: []
-    stars_fact: 0
+    stars_fact: 13
     first_seen: null
-    last_push: "2026-09-22"
-  - name: "agent-security"
-    title: "agent-security"
-    description: "Deterministic safety gates for repositories touched by coding agents and automation."
-    language: "Shell"
+    last_push: "2026-08-25"
+  - name: "unmachined"
+    title: "unmachined"
+    description: "Anti-AI-slop agent skill: makes text read written and UI look made, not generated. Deterministic scanners + severity-tiered tell catalogs."
+    language: "Python"
     topics:
-      - "agent-security"
-      - "github-cli"
-      - "prompt-injection"
-      - "secret-scanning"
-      - "supply-chain-security"
-    stars_fact: 6
+      - "ai-writing"
+      - "anti-slop"
+      - "claude-code"
+      - "llm"
+      - "skill"
+    stars_fact: 10
     first_seen: null
-    last_push: "2026-09-22"
+    last_push: "2026-08-25"
 ---
 
 # 0xNyk

@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [0, 1, 0, 0, 4, 0, 0, 0, 0, 1, 0, 1, 0]
+pushes_per_week: [0, 1, 0, 2, 2, 0, 0, 0, 0, 1, 0, 1, 0]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -77,14 +77,6 @@ reasons:
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "cap"
-    title: "cap"
-    description: null
-    language: "Go"
-    topics: []
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-09-23"
   - name: "templ"
     title: "templ"
     description: "A language for writing HTML user interfaces in Go."
@@ -98,9 +90,17 @@ repos:
       - "lsp"
       - "server-side-rendering"
       - "templating-languages"
-    stars_fact: 10549
+    stars_fact: 10565
     first_seen: null
     last_push: "2026-09-04"
+  - name: "cap"
+    title: "cap"
+    description: null
+    language: "Go"
+    topics: []
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-09-23"
   - name: "dotfiles"
     title: "dotfiles"
     description: null
@@ -108,7 +108,15 @@ repos:
     topics: []
     stars_fact: 32
     first_seen: null
-    last_push: "2026-09-21"
+    last_push: "2026-09-24"
+  - name: "kv"
+    title: "kv"
+    description: null
+    language: "Go"
+    topics: []
+    stars_fact: 5
+    first_seen: null
+    last_push: "2026-09-24"
   - name: "flakegap"
     title: "flakegap"
     description: "Take a Flake and package it for deployment across an airgap."
@@ -125,14 +133,6 @@ repos:
     stars_fact: 12
     first_seen: null
     last_push: "2017-07-17"
-  - name: "gemini"
-    title: "gemini"
-    description: null
-    language: "Go"
-    topics: []
-    stars_fact: 53
-    first_seen: null
-    last_push: "2025-04-21"
 ---
 
 # a-h

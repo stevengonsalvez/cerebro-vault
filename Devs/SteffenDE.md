@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [10, 3, 6, 2, 0, 1, 3, 1, 1, 1, 1, 0, 2]
+pushes_per_week: [8, 2, 7, 1, 0, 1, 4, 1, 0, 1, 1, 0, 2]
 windows:
   "7d":
     pushes: 2
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 31
+    pushes: 28
     distinct_repos: 8
-    active_days: 20
+    active_days: 19
     repos_not_owned: 7
     not_owned_basenames: 6
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 1.5500
-  repo_per_active_day: 0.4000
+  push_per_day: 1.4737
+  repo_per_active_day: 0.4211
   not_owned_ratio: 0.8750
   basename_concentration: 0.2500
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 31
+    pushes: 28
     distinct_repos: 8
-    pushes_per_repo: 3.8750
-    active_days: 20
+    pushes_per_repo: 3.5000
+    active_days: 19
     repos_not_owned: 7
     not_owned_basenames: 6
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 20 active days in 90d — pass"
+  - "activity: 19 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "popcorn_live_view"
@@ -129,6 +129,6 @@ repos:
 
 # SteffenDE
 
-31 pushes across 8 repositories on 20 active days in the last 90 days of public GitHub push activity.
+28 pushes across 8 repositories on 19 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/SteffenDE

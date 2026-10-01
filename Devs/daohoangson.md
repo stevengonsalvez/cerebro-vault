@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "379642deb53f3714"
-pushes_per_week: [3, 2, 4, 6, 3, 0, 1, 1, 0, 1, 1, 2, 3]
+pushes_per_week: [3, 2, 6, 4, 3, 0, 1, 1, 0, 1, 3, 0, 3]
 windows:
   "7d":
     pushes: 3
@@ -84,9 +84,21 @@ repos:
     topics:
       - "flutter"
       - "html"
-    stars_fact: 776
+    stars_fact: 779
     first_seen: null
-    last_push: "2026-09-22"
+    last_push: "2026-10-01"
+  - name: "chat-dl"
+    title: "chat-dl"
+    description: "A command-line tool to download and convert AI chat conversations to markdown format."
+    language: "TypeScript"
+    topics:
+      - "chatgpt"
+      - "claude"
+      - "grok"
+      - "markdown"
+    stars_fact: 5
+    first_seen: null
+    last_push: "2026-09-30"
   - name: "dvhcvn"
     title: "dvhcvn"
     description: "Bộ dữ liệu các đơn vị hành chính Việt Nam (3 cấp)"
@@ -101,19 +113,7 @@ repos:
       - "wards"
     stars_fact: 339
     first_seen: null
-    last_push: "2026-09-20"
-  - name: "chat-dl"
-    title: "chat-dl"
-    description: "A command-line tool to download and convert AI chat conversations to markdown format."
-    language: "TypeScript"
-    topics:
-      - "chatgpt"
-      - "claude"
-      - "grok"
-      - "markdown"
-    stars_fact: 5
-    first_seen: null
-    last_push: "2026-09-17"
+    last_push: "2026-09-30"
   - name: "android-notification-listener"
     title: "android-notification-listener"
     description: null

@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "234088bc43763aa2"
 pushes_per_week: [2, 4, 1, 0, 1, 0, 0, 0, 0, 0, 0, 1, 2]
@@ -89,9 +89,9 @@ repos:
       - "skills"
       - "typescript"
       - "web-search"
-    stars_fact: 6
+    stars_fact: 8
     first_seen: null
-    last_push: "2026-09-22"
+    last_push: "2026-09-30"
   - name: "hermes-agent-workshop"
     title: "hermes-agent-workshop"
     description: "Hermes Agent installation script and challenges for the workshop at Wisedocs"

@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "e5b23adc376a62a9"
 pushes_per_week: [0, 0, 1, 0, 0, 1, 2, 0, 0, 0, 0, 3, 3]
 windows:
   "7d":
-    pushes: 4
-    distinct_repos: 2
-    active_days: 2
+    pushes: 3
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 4
-    distinct_repos: 2
-    pushes_per_repo: 2.0000
-    active_days: 2
+    pushes: 3
+    distinct_repos: 1
+    pushes_per_repo: 3.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -77,6 +77,38 @@ reasons:
   - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "Agentic-RAG"
+    title: "Agentic-RAG"
+    description: "A research assistant that lets you ask deep technical questions across thousands of arXiv papers and get precise, fully-cited answers — with the right figures and tables surfaced alongside, and a built-in evaluation layer that proves it actually works."
+    language: "Jupyter Notebook"
+    topics:
+      - "arxiv"
+      - "bge-m3"
+      - "bm25"
+      - "deepeval"
+      - "docling"
+      - "hybrid-search"
+      - "information-retrieval"
+      - "llm"
+      - "nlp"
+      - "pdf-parsing"
+      - "qdrant"
+      - "rag"
+      - "ragas"
+      - "reranking"
+      - "research-assistant"
+      - "vector-search"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-08-08"
+  - name: "RAG-eval"
+    title: "RAG-eval"
+    description: "A simple RAG application built to be evaluated, catching hallucinations that sounds confident by scoring the retriever, generator, and pipeline separately with DeepEval."
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-26"
   - name: "claude-code-built-from-scratch"
     title: "claude-code-built-from-scratch"
     description: "claude subscription is expensive! why not build my own ?"
@@ -100,14 +132,6 @@ repos:
     stars_fact: 2
     first_seen: null
     last_push: "2025-05-17"
-  - name: "RAG-eval"
-    title: "RAG-eval"
-    description: "A simple RAG application built to be evaluated, catching hallucinations that sounds confident by scoring the retriever, generator, and pipeline separately with DeepEval."
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-19"
   - name: "ird-coupon-checker"
     title: "ird-coupon-checker"
     description: "Check your Nepal taxpayer incentive (करदाता प्रोत्साहन उपहार) coupon numbers against the official IRD winner list."
@@ -124,14 +148,6 @@ repos:
     stars_fact: 2
     first_seen: null
     last_push: "2026-03-28"
-  - name: "nirantar"
-    title: "nirantar"
-    description: "Nirantar is an AI-native personal fitness platform for tracking workouts, nutrition, recovery, and progress with first-class MCP integration."
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-28"
 ---
 
 # devrahulbanjara

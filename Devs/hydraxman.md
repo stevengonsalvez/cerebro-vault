@@ -10,11 +10,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "4a45ac7a449df20e"
   - "4d1450729e6ff44d"
-pushes_per_week: [0, 1, 3, 4, 2, 2, 6, 2, 0, 1, 2, 0, 2]
+pushes_per_week: [0, 2, 4, 3, 1, 3, 5, 2, 0, 1, 2, 0, 2]
 windows:
   "7d":
     pushes: 2
@@ -79,6 +79,14 @@ reasons:
   - "activity: 21 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "PianoGo"
+    title: "PianoGo"
+    description: "Local-first Tauri piano workstation with recording, waterfall visualization, and Copilot-assisted music workflows"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-28"
   - name: "hydraxman.github.io"
     title: "hydraxman.github.io"
     description: null
@@ -86,7 +94,7 @@ repos:
     topics: []
     stars_fact: 4
     first_seen: null
-    last_push: "2026-09-19"
+    last_push: "2026-09-27"
   - name: "AgentDroidIDE"
     title: "AgentDroidIDE"
     description: "Android-first IDE prototype with a Compose workbench and embedded Python runtime interfaces; model providers and agent execution are not yet connected."
@@ -95,14 +103,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-09-08"
-  - name: "PianoGo"
-    title: "PianoGo"
-    description: "Local-first Tauri piano workstation with recording, waterfall visualization, and Copilot-assisted music workflows"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-08-23"
   - name: "BuMusic"
     title: "BuMusic"
     description: "Offline monophonic voice-to-score transcription with original-timing playback"

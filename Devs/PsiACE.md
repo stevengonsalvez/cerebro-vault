@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "48dbbdd8fd0d3029"
-pushes_per_week: [6, 3, 6, 1, 7, 18, 4, 6, 3, 1, 3, 8, 4]
+pushes_per_week: [6, 3, 6, 4, 4, 18, 5, 6, 2, 2, 2, 8, 6]
 windows:
   "7d":
-    pushes: 5
-    distinct_repos: 3
+    pushes: 6
+    distinct_repos: 4
     active_days: 3
-    repos_not_owned: 3
-    not_owned_basenames: 3
+    repos_not_owned: 4
+    not_owned_basenames: 4
     not_owned_owners: 2
   "30d":
-    pushes: 17
-    distinct_repos: 8
+    pushes: 18
+    distinct_repos: 9
     active_days: 10
-    repos_not_owned: 5
-    not_owned_basenames: 5
+    repos_not_owned: 6
+    not_owned_basenames: 6
     not_owned_owners: 3
   "90d":
-    pushes: 70
+    pushes: 72
     distinct_repos: 19
-    active_days: 38
+    active_days: 39
     repos_not_owned: 9
     not_owned_basenames: 9
     not_owned_owners: 5
 automation:
   state: "clear"
-  push_per_day: 1.8421
-  repo_per_active_day: 0.5000
+  push_per_day: 1.8462
+  repo_per_active_day: 0.4872
   not_owned_ratio: 0.4737
   basename_concentration: 0.1053
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 5
-    distinct_repos: 3
-    pushes_per_repo: 1.6667
+    pushes: 6
+    distinct_repos: 4
+    pushes_per_repo: 1.5000
     active_days: 3
-    repos_not_owned: 3
-    not_owned_basenames: 3
+    repos_not_owned: 4
+    not_owned_basenames: 4
     not_owned_owners: 2
   "30d":
-    pushes: 17
-    distinct_repos: 8
-    pushes_per_repo: 2.1250
+    pushes: 18
+    distinct_repos: 9
+    pushes_per_repo: 2.0000
     active_days: 10
-    repos_not_owned: 5
-    not_owned_basenames: 5
+    repos_not_owned: 6
+    not_owned_basenames: 6
     not_owned_owners: 3
   "90d":
-    pushes: 70
+    pushes: 72
     distinct_repos: 19
-    pushes_per_repo: 3.6842
-    active_days: 38
+    pushes_per_repo: 3.7895
+    active_days: 39
     repos_not_owned: 9
     not_owned_basenames: 9
     not_owned_owners: 5
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 38 active days in 90d — pass"
+  - "activity: 39 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "dohnuts"
@@ -156,6 +156,6 @@ repos:
 
 # PsiACE
 
-70 pushes across 19 repositories on 38 active days in the last 90 days of public GitHub push activity.
+72 pushes across 19 repositories on 39 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/PsiACE

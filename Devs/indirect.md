@@ -9,13 +9,13 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "97c4e9cb8b163ddb"
   - "c7515e0fa4368a55"
   - "d3abe74726b22711"
   - "e7c647c4d0689526"
-pushes_per_week: [4, 2, 6, 4, 1, 0, 0, 0, 0, 0, 0, 3, 7]
+pushes_per_week: [3, 2, 8, 2, 1, 0, 0, 0, 0, 0, 0, 3, 7]
 windows:
   "7d":
     pushes: 7
@@ -32,18 +32,18 @@ windows:
     not_owned_basenames: 3
     not_owned_owners: 2
   "90d":
-    pushes: 27
-    distinct_repos: 11
-    active_days: 17
-    repos_not_owned: 9
-    not_owned_basenames: 9
+    pushes: 26
+    distinct_repos: 10
+    active_days: 16
+    repos_not_owned: 8
+    not_owned_basenames: 8
     not_owned_owners: 4
 automation:
   state: "clear"
-  push_per_day: 1.5882
-  repo_per_active_day: 0.6471
-  not_owned_ratio: 0.8182
-  basename_concentration: 0.0909
+  push_per_day: 1.6250
+  repo_per_active_day: 0.6250
+  not_owned_ratio: 0.8000
+  basename_concentration: 0.1000
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -68,16 +68,16 @@ facets:
     not_owned_basenames: 3
     not_owned_owners: 2
   "90d":
-    pushes: 27
-    distinct_repos: 11
-    pushes_per_repo: 2.4545
-    active_days: 17
-    repos_not_owned: 9
-    not_owned_basenames: 9
+    pushes: 26
+    distinct_repos: 10
+    pushes_per_repo: 2.6000
+    active_days: 16
+    repos_not_owned: 8
+    not_owned_basenames: 8
     not_owned_owners: 4
 reasons:
   - "provenance: 4 vault signal(s) — pass"
-  - "activity: 17 active days in 90d — pass"
+  - "activity: 16 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "bsky-backup"
@@ -87,7 +87,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-23"
+    last_push: "2026-09-30"
   - name: "feedyour.email"
     title: "feedyour.email"
     description: "(rss) feed your emails"
@@ -95,7 +95,7 @@ repos:
     topics: []
     stars_fact: 49
     first_seen: null
-    last_push: "2026-09-22"
+    last_push: "2026-09-28"
   - name: "andre.arko.net"
     title: "andre.arko.net"
     description: "blog"
@@ -120,7 +120,7 @@ repos:
     topics: []
     stars_fact: 1521
     first_seen: null
-    last_push: "2026-09-23"
+    last_push: "2026-09-25"
   - name: "actually.men"
     title: "actually.men"
     description: "is tech a meritocracy? actually, men,"
@@ -133,6 +133,6 @@ repos:
 
 # indirect
 
-27 pushes across 11 repositories on 17 active days in the last 90 days of public GitHub push activity.
+26 pushes across 10 repositories on 16 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/indirect

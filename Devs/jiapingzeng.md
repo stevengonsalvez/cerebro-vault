@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "a50b0e08dbaee74a"
-pushes_per_week: [4, 0, 4, 3, 3, 0, 0, 0, 1, 0, 1, 1, 3]
+pushes_per_week: [3, 1, 3, 5, 1, 0, 0, 0, 1, 0, 1, 1, 3]
 windows:
   "7d":
     pushes: 3
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 6
-    distinct_repos: 4
-    active_days: 4
-    repos_not_owned: 2
-    not_owned_basenames: 2
-    not_owned_owners: 2
+    pushes: 5
+    distinct_repos: 3
+    active_days: 3
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "90d":
-    pushes: 20
+    pushes: 19
     distinct_repos: 11
-    active_days: 14
+    active_days: 13
     repos_not_owned: 7
     not_owned_basenames: 2
     not_owned_owners: 6
 automation:
   state: "clear"
-  push_per_day: 1.4286
-  repo_per_active_day: 0.7857
+  push_per_day: 1.4615
+  repo_per_active_day: 0.8462
   not_owned_ratio: 0.6364
   basename_concentration: 0.4545
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 6
-    distinct_repos: 4
-    pushes_per_repo: 1.5000
-    active_days: 4
-    repos_not_owned: 2
-    not_owned_basenames: 2
-    not_owned_owners: 2
+    pushes: 5
+    distinct_repos: 3
+    pushes_per_repo: 1.6667
+    active_days: 3
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "90d":
-    pushes: 20
+    pushes: 19
     distinct_repos: 11
-    pushes_per_repo: 1.8182
-    active_days: 14
+    pushes_per_repo: 1.7273
+    active_days: 13
     repos_not_owned: 7
     not_owned_basenames: 2
     not_owned_owners: 6
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 14 active days in 90d — pass"
+  - "activity: 13 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "home-prod"
@@ -129,6 +129,6 @@ repos:
 
 # jiapingzeng
 
-20 pushes across 11 repositories on 14 active days in the last 90 days of public GitHub push activity.
+19 pushes across 11 repositories on 13 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/jiapingzeng

@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "533d51d9d3dea76f"
-pushes_per_week: [0, 41, 57, 18, 19, 16, 22, 11, 5, 0, 14, 22, 16]
+pushes_per_week: [0, 56, 44, 19, 16, 21, 17, 13, 3, 1, 18, 17, 19]
 windows:
   "7d":
-    pushes: 20
+    pushes: 19
     distinct_repos: 2
     active_days: 6
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 53
+    pushes: 55
     distinct_repos: 2
     active_days: 18
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 241
+    pushes: 244
     distinct_repos: 4
-    active_days: 56
+    active_days: 57
     repos_not_owned: 3
     not_owned_basenames: 2
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 4.3036
-  repo_per_active_day: 0.0714
+  push_per_day: 4.2807
+  repo_per_active_day: 0.0702
   not_owned_ratio: 0.7500
   basename_concentration: 0.5000
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 20
+    pushes: 19
     distinct_repos: 2
-    pushes_per_repo: 10.0000
+    pushes_per_repo: 9.5000
     active_days: 6
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 53
+    pushes: 55
     distinct_repos: 2
-    pushes_per_repo: 26.5000
+    pushes_per_repo: 27.5000
     active_days: 18
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 241
+    pushes: 244
     distinct_repos: 4
-    pushes_per_repo: 60.2500
-    active_days: 56
+    pushes_per_repo: 61.0000
+    active_days: 57
     repos_not_owned: 3
     not_owned_basenames: 2
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 56 active days in 90d — pass"
+  - "activity: 57 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "rails-subdomains"
@@ -89,6 +89,6 @@ repos:
 
 # mrubens
 
-241 pushes across 4 repositories on 56 active days in the last 90 days of public GitHub push activity.
+244 pushes across 4 repositories on 57 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/mrubens

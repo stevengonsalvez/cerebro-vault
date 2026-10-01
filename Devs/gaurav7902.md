@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-29T06:07:44.400276+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "3cb7ff1cdcf97c6b"
-pushes_per_week: [2, 1, 0, 1, 2, 2, 1, 0, 0, 0, 0, 0, 2]
+pushes_per_week: [3, 0, 0, 3, 0, 2, 1, 0, 0, 0, 0, 0, 2]
 windows:
   "7d":
     pushes: 2
@@ -77,14 +77,6 @@ reasons:
   - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "QualityTube"
-    title: "QualityTube"
-    description: "An extension for always having highest quality on youtube videos"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-13"
   - name: "gaurav7902.github.io"
     title: "gaurav7902.github.io"
     description: "My Page"
@@ -92,15 +84,34 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-01"
-  - name: "extension-template"
-    title: "extension-template"
-    description: null
+    last_push: "2026-09-26"
+  - name: "QualityTube"
+    title: "QualityTube"
+    description: "An extension for always having highest quality on youtube videos"
     language: "JavaScript"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-08-31"
+    last_push: "2026-09-26"
+  - name: "prettier-config"
+    title: "prettier-config"
+    description: "My prettier config"
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-26"
+  - name: "BuyNest-Ecom-Website"
+    title: "BuyNest-Ecom-Website"
+    description: "A MERN stack based secure Ecommerce Website."
+    language: "JavaScript"
+    topics:
+      - "ecommerce"
+      - "ecommerce-application"
+      - "ecommerce-website"
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-09-24"
   - name: "codeforces-darktheme"
     title: "codeforces-darktheme"
     description: "Dark mode for Codeforces"
@@ -109,14 +120,6 @@ repos:
     stars_fact: 4
     first_seen: null
     last_push: "2026-08-30"
-  - name: "prettier-config"
-    title: "prettier-config"
-    description: "My prettier config"
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-27"
   - name: "Computer-Networks-Notes"
     title: "Computer-Networks-Notes"
     description: "Notes on Computer Networks (CN), covering topics like the OSI & TCP/IP models, HTTP/DNS, TCP & UDP, IP/routing/subnetting, NAT, load balancers, network devices, and more."

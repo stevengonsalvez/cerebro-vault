@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [4, 0, 2, 2, 5, 10, 8, 0, 0, 0, 0, 2, 24]
+pushes_per_week: [4, 0, 2, 2, 5, 11, 7, 0, 0, 0, 0, 2, 24]
 windows:
   "7d":
     pushes: 24
@@ -77,54 +77,59 @@ reasons:
   - "activity: 21 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "qqbot-plugin-pixiv"
-    title: "qqbot-plugin-pixiv"
-    description: "Pixiv 随机美图 / 作品详情查询（pixiv.yuki.sh 第三方图床）— qqbot-workers 插件"
+  - name: "qflarebot-plugin-qqadmin"
+    title: "qflarebot-plugin-qqadmin"
+    description: "QFlareBot 群管插件：禁言、撤回、违禁词、刷屏检测、投票禁言、进群审核与欢迎（移植自 AstrBot 插件 astrbot_plugin_qqadmin）"
     language: "TypeScript"
-    topics: []
+    topics:
+      - "qflarebot-plugin"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-22"
-  - name: "qqbot-workers"
-    title: "qqbot-workers"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-20"
-  - name: "qqbot-plugin-jrys"
-    title: "qqbot-plugin-jrys"
-    description: "QQ 机器人今日运势海报生成插件，支持 T2I 渲染、每日固定运势与节假日爆率加权"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-20"
-  - name: "qqbot-plugin-wifepicker"
-    title: "qqbot-plugin-wifepicker"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-19"
-  - name: "qqbot-plugin-hello"
-    title: "qqbot-plugin-hello"
-    description: "QQ 机器人插件示例（qqbot-workers 框架）：命令、正则、事件与按键"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-18"
-  - name: "cardputer_adv_remote_win"
-    title: "cardputer_adv_remote_win"
-    description: null
+    last_push: "2026-10-01"
+  - name: "astrbot_plugin_GalQuery"
+    title: "astrbot_plugin_GalQuery"
+    description: "一个通过指令或正则识别从 shionlib 和 TouchGal 网站搜索游戏资源链接的插件。"
     language: "Python"
     topics: []
-    stars_fact: 1
+    stars_fact: 2
     first_seen: null
-    last_push: "2026-07-07"
+    last_push: "2026-09-29"
+  - name: "qflarebot-plugin-slavemarket"
+    title: "qflarebot-plugin-slavemarket"
+    description: "QFlareBot 群聊文字游戏：奴隶市场（移植自 Yunzai 插件 Slave-Market）"
+    language: "TypeScript"
+    topics:
+      - "qflarebot-plugin"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-28"
+  - name: "qflarebot-plugin-wifepicker"
+    title: "qflarebot-plugin-wifepicker"
+    description: null
+    language: "TypeScript"
+    topics:
+      - "qflarebot-plugin"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-28"
+  - name: "qflarebot-plugin-pixiv"
+    title: "qflarebot-plugin-pixiv"
+    description: "Pixiv 随机美图 / 作品详情查询（pixiv.yuki.sh 第三方图床）— qqbot-workers 插件"
+    language: "TypeScript"
+    topics:
+      - "qflarebot-plugin"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-28"
+  - name: "qflarebot-plugin-jrys"
+    title: "qflarebot-plugin-jrys"
+    description: "QQ 机器人今日运势海报生成插件，支持 T2I 渲染、每日固定运势与节假日爆率加权"
+    language: "TypeScript"
+    topics:
+      - "qflarebot-plugin"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-28"
 ---
 
 # clown145

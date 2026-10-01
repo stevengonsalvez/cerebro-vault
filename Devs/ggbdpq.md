@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 3, 2, 17]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 2, 2, 21]
 windows:
   "7d":
-    pushes: 17
-    distinct_repos: 3
+    pushes: 21
+    distinct_repos: 4
     active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 27
-    distinct_repos: 3
+    pushes: 31
+    distinct_repos: 4
     active_days: 11
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 27
-    distinct_repos: 3
+    pushes: 31
+    distinct_repos: 4
     active_days: 11
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.4545
-  repo_per_active_day: 0.2727
+  push_per_day: 2.8182
+  repo_per_active_day: 0.3636
   not_owned_ratio: 0.0000
-  basename_concentration: 0.3333
+  basename_concentration: 0.2500
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 17
-    distinct_repos: 3
-    pushes_per_repo: 5.6667
+    pushes: 21
+    distinct_repos: 4
+    pushes_per_repo: 5.2500
     active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 27
-    distinct_repos: 3
-    pushes_per_repo: 9.0000
+    pushes: 31
+    distinct_repos: 4
+    pushes_per_repo: 7.7500
     active_days: 11
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 27
-    distinct_repos: 3
-    pushes_per_repo: 9.0000
+    pushes: 31
+    distinct_repos: 4
+    pushes_per_repo: 7.7500
     active_days: 11
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -77,22 +77,47 @@ reasons:
   - "activity: 11 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "cursor-loc"
-    title: "cursor-loc"
-    description: "为 **Cursor IDE 专有界面**提供简体中文汉化：覆盖 Settings、Agent、Composer、Review 等 Microsoft 官方语言包无法触及的区域。"
-    language: "TypeScript"
+  - name: "coding-agent"
+    title: "coding-agent"
+    description: "Five-language coding agent family (typescript/python/go/rust/csharp) + cross-language specs"
+    language: "Rust"
     topics: []
-    stars_fact: 3
+    stars_fact: 0
     first_seen: null
-    last_push: "2026-09-09"
+    last_push: "2026-10-01"
+  - name: "agent-hub"
+    title: "agent-hub"
+    description: "花语智能体（Flora Advisor）：流式智能体事件管线 · A2UI 结构化渲染 · 证据溯源 · 异步任务恢复 —— React 19 + FastAPI，mock 驱动无需 API Key"
+    language: "TypeScript"
+    topics:
+      - "agent-ui"
+      - "ai-agents"
+      - "fastapi"
+      - "pydantic"
+      - "react"
+      - "sse"
+      - "streaming"
+      - "zod"
+      - "zustand"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-01"
   - name: "qoder-proxy-api"
     title: "qoder-proxy-api"
-    description: "本地协议兼容层：把 Qoder Cloud Agents 封装成 OpenAI / Anthropic 风格 API（Chat Completions / Responses / Messages，均支持流式），供 CC Switch、Claude Code、OpenAI SDK 等客户端直连。学习研究用途，非 Qoder 官方项目；支持多模型映射、会话复用与归档，零第三方依赖。"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 1
+    description: "本地三链路协议网关：默认适配 Qoder 客户端 Gateway 私有协议（PAT→jobToken→签名 SSE），保留 Cloud Agents 官方 API 与本地 qodercli 子进程链路；对外暴露 OpenAI Chat / Responses / Anthropic Messages（支持流式），供 CC Switch、Claude Code、OpenAI SDK 直连。学习研究用途，非 Qoder 官方项目；显式模型路由、真实 usage 回传，零第三方依赖。"
+    language: "TypeScript"
+    topics:
+      - "agent"
+      - "anthropic"
+      - "api-gateway"
+      - "llm"
+      - "openai"
+      - "protocol-gateway"
+      - "qoder"
+      - "sse"
+    stars_fact: 3
     first_seen: null
-    last_push: "2026-09-19"
+    last_push: "2026-10-01"
   - name: "agent-skills"
     title: "agent-skills"
     description: "ggbdpq's public collection of agent skills."
@@ -100,11 +125,19 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-06-28"
+    last_push: "2026-09-30"
+  - name: "cursor-loc"
+    title: "cursor-loc"
+    description: "为 **Cursor IDE 专有界面**提供简体中文汉化：覆盖 Settings、Agent、Composer、Review 等 Microsoft 官方语言包无法触及的区域。"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-09-28"
 ---
 
 # ggbdpq
 
-27 pushes across 3 repositories on 11 active days in the last 90 days of public GitHub push activity.
+31 pushes across 4 repositories on 11 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ggbdpq

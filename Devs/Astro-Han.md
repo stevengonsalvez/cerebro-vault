@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [149, 90, 70, 35, 54, 33, 22, 30, 7, 3, 22, 44, 34]
+pushes_per_week: [131, 103, 54, 37, 54, 32, 16, 31, 6, 4, 29, 49, 21]
 windows:
   "7d":
-    pushes: 44
-    distinct_repos: 4
-    active_days: 5
+    pushes: 32
+    distinct_repos: 3
+    active_days: 4
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 104
+    pushes: 103
     distinct_repos: 5
-    active_days: 20
+    active_days: 19
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 593
-    distinct_repos: 13
-    active_days: 76
+    pushes: 567
+    distinct_repos: 12
+    active_days: 75
     repos_not_owned: 6
     not_owned_basenames: 3
     not_owned_owners: 6
 automation:
   state: "clear"
-  push_per_day: 7.8026
-  repo_per_active_day: 0.1711
-  not_owned_ratio: 0.4615
-  basename_concentration: 0.3846
+  push_per_day: 7.5600
+  repo_per_active_day: 0.1600
+  not_owned_ratio: 0.5000
+  basename_concentration: 0.4167
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 44
-    distinct_repos: 4
-    pushes_per_repo: 11.0000
-    active_days: 5
+    pushes: 32
+    distinct_repos: 3
+    pushes_per_repo: 10.6667
+    active_days: 4
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 104
+    pushes: 103
     distinct_repos: 5
-    pushes_per_repo: 20.8000
-    active_days: 20
+    pushes_per_repo: 20.6000
+    active_days: 19
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 593
-    distinct_repos: 13
-    pushes_per_repo: 45.6154
-    active_days: 76
+    pushes: 567
+    distinct_repos: 12
+    pushes_per_repo: 47.2500
+    active_days: 75
     repos_not_owned: 6
     not_owned_basenames: 3
     not_owned_owners: 6
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 76 active days in 90d — pass"
+  - "activity: 75 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "karpathy-llm-wiki"
@@ -95,17 +95,32 @@ repos:
       - "personal-knowledge-base"
       - "productivity"
       - "rag-alternative"
-    stars_fact: 2346
+    stars_fact: 2393
     first_seen: null
     last_push: "2026-07-23"
-  - name: "skills"
-    title: "skills"
-    description: "Personal agent skills for careful reasoning, evidence-driven coding, and clean session closeout."
-    language: "Python"
-    topics: []
-    stars_fact: 12
+  - name: "claude-pace"
+    title: "claude-pace"
+    description: "Claude Code statusline and rate limit tracker with pace-aware quota monitoring. Pure Bash + jq, single file."
+    language: "Shell"
+    topics:
+      - "anthropic"
+      - "bash"
+      - "claude"
+      - "claude-code"
+      - "claude-code-statusline"
+      - "cli"
+      - "developer-tools"
+      - "jq"
+      - "plugin"
+      - "quota-tracker"
+      - "rate-limit"
+      - "statusline"
+      - "terminal"
+      - "usage-monitor"
+      - "usage-tracking"
+    stars_fact: 234
     first_seen: null
-    last_push: "2026-09-05"
+    last_push: "2026-09-24"
   - name: "pawwork"
     title: "pawwork"
     description: "PawWork — free, open-source desktop AI agent for macOS and Windows, built on DeepSeek Harness (DSH). Free models included, no API key or terminal. Office files, web search, and scheduled automations out of the box. An open alternative to Codex App and Claude Cowork."
@@ -131,52 +146,53 @@ repos:
       - "opencode"
       - "productivity"
       - "windows"
-    stars_fact: 199
+    stars_fact: 200
     first_seen: null
-    last_push: "2026-09-20"
-  - name: "claude-pace"
-    title: "claude-pace"
-    description: "Claude Code statusline and rate limit tracker with pace-aware quota monitoring. Pure Bash + jq, single file."
-    language: "Shell"
-    topics:
-      - "anthropic"
-      - "bash"
-      - "claude"
-      - "claude-code"
-      - "claude-code-statusline"
-      - "cli"
-      - "developer-tools"
-      - "jq"
-      - "plugin"
-      - "quota-tracker"
-      - "rate-limit"
-      - "statusline"
-      - "terminal"
-      - "usage-monitor"
-      - "usage-tracking"
-    stars_fact: 233
-    first_seen: null
-    last_push: "2026-07-28"
-  - name: "jev-harness"
-    title: "jev-harness"
-    description: "A coding agent that filters every tool result through Jev before the model sees it, with an A/B harness measuring pass@1 and cost against the unfiltered control"
+    last_push: "2026-09-28"
+  - name: "quantclass-sync"
+    title: "quantclass-sync"
+    description: "QuantClass（邢不行量化课）数据增量同步工具，macOS，CLI + GUI"
     language: "Python"
+    topics:
+      - "cli"
+      - "data-sync"
+      - "macos"
+      - "python"
+      - "quantitative-finance"
+    stars_fact: 16
+    first_seen: null
+    last_push: "2026-04-12"
+  - name: "diffpane"
+    title: "diffpane"
+    description: "Real-time TUI diff viewer for AI coding agents"
+    language: "Go"
+    topics:
+      - "ai-coding"
+      - "bubbletea"
+      - "claude-code"
+      - "cli"
+      - "code-review"
+      - "codex"
+      - "developer-tools"
+      - "diff"
+      - "git-diff"
+      - "terminal"
+      - "tui"
+    stars_fact: 43
+    first_seen: null
+    last_push: "2026-04-01"
+  - name: "opencli-plugin-juejin"
+    title: "opencli-plugin-juejin"
+    description: null
+    language: null
     topics: []
     stars_fact: 4
     first_seen: null
-    last_push: "2026-09-22"
-  - name: "decision-head-rlcd"
-    title: "decision-head-rlcd"
-    description: "Where does a decision model's generalisation come from? RLCD on Qwen3.5-4B, held-out sets grouped by training-data coverage, JevBench and three external suites."
-    language: "Python"
-    topics: []
-    stars_fact: 6
-    first_seen: null
-    last_push: "2026-09-20"
+    last_push: "2026-03-21"
 ---
 
 # Astro-Han
 
-593 pushes across 13 repositories on 76 active days in the last 90 days of public GitHub push activity.
+567 pushes across 12 repositories on 75 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Astro-Han

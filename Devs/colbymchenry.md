@@ -1,0 +1,134 @@
+---
+login: "colbymchenry"
+name: null
+discovered_via: "vault"
+discovered_via_all:
+  - "vault"
+provenance_repos:
+  - "colbymchenry/codegraph"
+admitted: true
+low_n: false
+repos_populated: true
+generated_at: "2026-10-01T06:06:11.188250+00:00"
+provenance:
+  - "5ae8aede20b52732"
+pushes_per_week: [9, 14, 9, 0, 0, 0, 0, 0, 0, 0, 2, 3, 29]
+windows:
+  "7d":
+    pushes: 29
+    distinct_repos: 1
+    active_days: 5
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
+  "30d":
+    pushes: 34
+    distinct_repos: 2
+    active_days: 9
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
+  "90d":
+    pushes: 66
+    distinct_repos: 2
+    active_days: 22
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
+automation:
+  state: "clear"
+  push_per_day: 3.0000
+  repo_per_active_day: 0.0909
+  not_owned_ratio: 0.0000
+  basename_concentration: 0.5000
+  shapes: []
+  shape_evidence: []
+  cleared_by: null
+  cleared_on: null
+  fork_provenance: null
+  prefilter: "rest_verified"
+facets:
+  "7d":
+    pushes: 29
+    distinct_repos: 1
+    pushes_per_repo: 29.0000
+    active_days: 5
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
+  "30d":
+    pushes: 34
+    distinct_repos: 2
+    pushes_per_repo: 17.0000
+    active_days: 9
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
+  "90d":
+    pushes: 66
+    distinct_repos: 2
+    pushes_per_repo: 33.0000
+    active_days: 22
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
+reasons:
+  - "provenance: 1 vault signal(s) — pass"
+  - "activity: 22 active days in 90d — pass"
+  - "automation: clear — pass"
+repos:
+  - name: "codegraph"
+    title: "codegraph"
+    description: "Pre-indexed code knowledge graph, auto syncs on code changes, for Claude Code, Codex, Gemini, Cursor, OpenCode, AntiGravity, Kiro, CoPilot, and Hermes Agent — fewer tokens, fewer tool calls, 100% local"
+    language: "C"
+    topics: []
+    stars_fact: 72660
+    first_seen: "2026-10-01T06:00:50.112518+00:00"
+    last_push: "2026-10-01"
+  - name: "shopify-graphql-admin-mcp"
+    title: "shopify-graphql-admin-mcp"
+    description: "Connect Claude to your Shopify store, and unlock the full power of Claude for your store."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 20
+    first_seen: null
+    last_push: "2026-03-24"
+  - name: "claude-context-menu"
+    title: "claude-context-menu"
+    description: null
+    language: "Shell"
+    topics: []
+    stars_fact: 7
+    first_seen: null
+    last_push: "2026-02-19"
+  - name: "n8n-gcp-firebase"
+    title: "n8n-gcp-firebase"
+    description: "Deploy an n8n instance to Cloud Run"
+    language: "Shell"
+    topics: []
+    stars_fact: 5
+    first_seen: null
+    last_push: "2025-04-03"
+  - name: "portfolio-legacy-2023"
+    title: "portfolio-legacy-2023"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2023-12-04"
+  - name: "hoblets"
+    title: "hoblets"
+    description: "Hoblets downloads, release notes, and automatic update feeds."
+    language: "Shell"
+    topics: []
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-09-23"
+---
+
+# colbymchenry
+
+66 pushes across 2 repositories on 22 active days in the last 90 days of public GitHub push activity.
+
+https://github.com/colbymchenry

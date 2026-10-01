@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [34, 23, 17, 1, 5, 4, 6, 3, 2, 5, 3, 15, 7]
+pushes_per_week: [36, 24, 13, 2, 5, 3, 6, 5, 0, 6, 4, 14, 6]
 windows:
   "7d":
     pushes: 7
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 6
     not_owned_owners: 5
   "90d":
-    pushes: 125
+    pushes: 124
     distinct_repos: 26
-    active_days: 51
+    active_days: 50
     repos_not_owned: 10
     not_owned_basenames: 10
     not_owned_owners: 5
 automation:
   state: "clear"
-  push_per_day: 2.4510
-  repo_per_active_day: 0.5098
+  push_per_day: 2.4800
+  repo_per_active_day: 0.5200
   not_owned_ratio: 0.3846
   basename_concentration: 0.0769
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 6
     not_owned_owners: 5
   "90d":
-    pushes: 125
+    pushes: 124
     distinct_repos: 26
-    pushes_per_repo: 4.8077
-    active_days: 51
+    pushes_per_repo: 4.7692
+    active_days: 50
     repos_not_owned: 10
     not_owned_basenames: 10
     not_owned_owners: 5
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 51 active days in 90d — pass"
+  - "activity: 50 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "window-switching-redux"
@@ -129,6 +129,6 @@ repos:
 
 # razzeee
 
-125 pushes across 26 repositories on 51 active days in the last 90 days of public GitHub push activity.
+124 pushes across 26 repositories on 50 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/razzeee

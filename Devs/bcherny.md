@@ -11,7 +11,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "01cd6a498d377caf"
   - "02eab667df448997"
@@ -66,7 +66,7 @@ provenance:
   - "f9a1870648a6375a"
   - "fe9e50bf2d5b21fe"
   - "ff1ca072bf39e471"
-pushes_per_week: [0, 0, 0, 0, 7, 0, 1, 0, 0, 0, 0, 1, 0]
+pushes_per_week: [0, 0, 0, 0, 7, 1, 0, 0, 0, 0, 0, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -131,6 +131,37 @@ reasons:
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "json-schema-to-typescript"
+    title: "json-schema-to-typescript"
+    description: "Compile JSON Schema to TypeScript type declarations"
+    language: "TypeScript"
+    topics:
+      - "json-schema"
+      - "typescript"
+    stars_fact: 3346
+    first_seen: null
+    last_push: "2026-09-07"
+  - name: "frontend-interview-questions"
+    title: "frontend-interview-questions"
+    description: "Answers for https://borischerny.com/javascript/%22functional/programming%22/2017/06/09/Frontend-Interview-Questions.html"
+    language: "JavaScript"
+    topics:
+      - "frontend"
+      - "interview-practice"
+      - "interview-questions"
+      - "javascript"
+    stars_fact: 1141
+    first_seen: null
+    last_push: "2023-01-21"
+  - name: "programming-typescript-answers"
+    title: "programming-typescript-answers"
+    description: "Official answers for exercises from Orielly's Programming TypeScript"
+    language: "TypeScript"
+    topics:
+      - "typescript"
+    stars_fact: 557
+    first_seen: null
+    last_push: "2021-08-10"
   - name: "fibonacci"
     title: "fibonacci"
     description: "A simple iterative fibonacci spiral generator that demonstrates geometric recursion"
@@ -139,16 +170,6 @@ repos:
     stars_fact: 1
     first_seen: null
     last_push: "2012-12-11"
-  - name: "json-schema-to-typescript"
-    title: "json-schema-to-typescript"
-    description: "Compile JSON Schema to TypeScript type declarations"
-    language: "TypeScript"
-    topics:
-      - "json-schema"
-      - "typescript"
-    stars_fact: 3347
-    first_seen: null
-    last_push: "2026-09-07"
   - name: "bcherny.github.io"
     title: "bcherny.github.io"
     description: "My blog"
@@ -170,27 +191,6 @@ repos:
     stars_fact: 1562
     first_seen: null
     last_push: "2025-05-08"
-  - name: "frontend-interview-questions"
-    title: "frontend-interview-questions"
-    description: "Answers for https://borischerny.com/javascript/%22functional/programming%22/2017/06/09/Frontend-Interview-Questions.html"
-    language: "JavaScript"
-    topics:
-      - "frontend"
-      - "interview-practice"
-      - "interview-questions"
-      - "javascript"
-    stars_fact: 1141
-    first_seen: null
-    last_push: "2023-01-21"
-  - name: "programming-typescript-answers"
-    title: "programming-typescript-answers"
-    description: "Official answers for exercises from Orielly's Programming TypeScript"
-    language: "TypeScript"
-    topics:
-      - "typescript"
-    stars_fact: 555
-    first_seen: null
-    last_push: "2021-08-10"
 ---
 
 # bcherny

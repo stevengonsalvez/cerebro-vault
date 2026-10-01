@@ -9,14 +9,14 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "dae9f02535f7c22f"
-pushes_per_week: [5, 32, 148, 36, 2, 2, 3, 22, 1, 2, 0, 4, 6]
+pushes_per_week: [5, 32, 148, 37, 1, 2, 3, 22, 1, 2, 0, 4, 7]
 windows:
   "7d":
-    pushes: 8
-    distinct_repos: 5
+    pushes: 7
+    distinct_repos: 4
     active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 263
+    pushes: 264
     distinct_repos: 110
-    active_days: 34
+    active_days: 35
     repos_not_owned: 100
     not_owned_basenames: 96
     not_owned_owners: 6
 automation:
   state: "clear"
-  push_per_day: 7.7353
-  repo_per_active_day: 3.2353
+  push_per_day: 7.5429
+  repo_per_active_day: 3.1429
   not_owned_ratio: 0.9091
   basename_concentration: 0.0545
   shapes: []
@@ -49,9 +49,9 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 8
-    distinct_repos: 5
-    pushes_per_repo: 1.6000
+    pushes: 7
+    distinct_repos: 4
+    pushes_per_repo: 1.7500
     active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 263
+    pushes: 264
     distinct_repos: 110
-    pushes_per_repo: 2.3909
-    active_days: 34
+    pushes_per_repo: 2.4000
+    active_days: 35
     repos_not_owned: 100
     not_owned_basenames: 96
     not_owned_owners: 6
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 34 active days in 90d — pass"
+  - "activity: 35 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "shaun0927"
@@ -129,6 +129,6 @@ repos:
 
 # shaun0927
 
-263 pushes across 110 repositories on 34 active days in the last 90 days of public GitHub push activity.
+264 pushes across 110 repositories on 35 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/shaun0927

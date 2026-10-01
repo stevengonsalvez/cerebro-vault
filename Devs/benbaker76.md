@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [0, 0, 2, 2, 1, 1, 0, 0, 0, 0, 0, 4, 2]
+pushes_per_week: [0, 0, 4, 0, 1, 1, 0, 0, 0, 0, 1, 4, 1]
 windows:
   "7d":
-    pushes: 3
+    pushes: 2
     distinct_repos: 2
-    active_days: 3
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 3
+    pushes: 2
     distinct_repos: 2
-    pushes_per_repo: 1.5000
-    active_days: 3
+    pushes_per_repo: 1.0000
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -77,54 +77,54 @@ reasons:
   - "activity: 10 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "Pigtail"
-    title: "Pigtail"
-    description: "Anti-stalker and surveillance detection software"
-    language: "C++"
-    topics: []
-    stars_fact: 57
-    first_seen: null
-    last_push: "2026-05-14"
   - name: "Hackintool"
     title: "Hackintool"
     description: "The Swiss army knife of vanilla Hackintoshing"
     language: "Objective-C"
     topics: []
-    stars_fact: 3491
+    stars_fact: 3501
     first_seen: null
     last_push: "2026-03-26"
-  - name: "EFI-Agent"
-    title: "EFI-Agent"
-    description: "Simple, low resource, efficient and no frills tool to mount EFI partitions."
-    language: "Objective-C"
-    topics: []
-    stars_fact: 129
-    first_seen: null
-    last_push: "2023-06-06"
-  - name: "CoinDrop"
-    title: "CoinDrop"
-    description: "This program will allow you to send coin drops to MAME from within your front-end."
+  - name: "PalEdit"
+    title: "PalEdit"
+    description: "PalEdit is a palette editor which can edit and manipulate various different palette and graphic formats."
     language: "C#"
     topics: []
-    stars_fact: 3
+    stars_fact: 20
     first_seen: null
-    last_push: "2025-06-28"
-  - name: "Tiled2Bin"
-    title: "Tiled2Bin"
-    description: "Tiled2Bin is a command-line utility designed to convert Tiled .tmx files into binary files representing tile data."
-    language: "Assembly"
+    last_push: "2026-07-12"
+  - name: "Pigtail"
+    title: "Pigtail"
+    description: "Anti-stalker and surveillance detection software"
+    language: "C++"
     topics: []
-    stars_fact: 3
+    stars_fact: 58
     first_seen: null
-    last_push: "2025-07-27"
-  - name: "VortexTracker"
-    title: "VortexTracker"
-    description: "Music tracker for AY/YM chips"
-    language: "C#"
+    last_push: "2026-05-14"
+  - name: "zxnext_tilemap"
+    title: "zxnext_tilemap"
+    description: "Tilemap demo for the ZX Spectrum Next."
+    language: "C"
     topics: []
-    stars_fact: 46
+    stars_fact: 6
     first_seen: null
-    last_push: "2026-07-06"
+    last_push: "2025-10-03"
+  - name: "zxnext_layer2_tilemap"
+    title: "zxnext_layer2_tilemap"
+    description: "Example using Layer2 tilemap rendering for the ZX Spectrum Next."
+    language: "C"
+    topics: []
+    stars_fact: 6
+    first_seen: null
+    last_push: "2025-10-21"
+  - name: "femto8"
+    title: "femto8"
+    description: "femto8 is an open-source reimplementation of the PICO-8 fantasy console, designed specifically for embedded systems."
+    language: "C"
+    topics: []
+    stars_fact: 49
+    first_seen: null
+    last_push: "2026-08-02"
 ---
 
 # benbaker76

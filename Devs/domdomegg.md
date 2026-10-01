@@ -10,11 +10,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "379642deb53f3714"
   - "533d51d9d3dea76f"
-pushes_per_week: [27, 28, 4, 10, 1, 5, 2, 4, 0, 1, 0, 1, 1]
+pushes_per_week: [29, 3, 5, 9, 0, 6, 1, 4, 0, 1, 1, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -31,18 +31,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 84
-    distinct_repos: 37
-    active_days: 19
+    pushes: 60
+    distinct_repos: 30
+    active_days: 18
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 4.4211
-  repo_per_active_day: 1.9474
-  not_owned_ratio: 0.0541
-  basename_concentration: 0.0541
+  push_per_day: 3.3333
+  repo_per_active_day: 1.6667
+  not_owned_ratio: 0.0667
+  basename_concentration: 0.0667
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -67,16 +67,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 84
-    distinct_repos: 37
-    pushes_per_repo: 2.2703
-    active_days: 19
+    pushes: 60
+    distinct_repos: 30
+    pushes_per_repo: 2.0000
+    active_days: 18
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 19 active days in 90d — pass"
+  - "activity: 18 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "computer-use-mcp"
@@ -86,25 +86,17 @@ repos:
     topics:
       - "mcp-server"
       - "model-context-protocol"
-    stars_fact: 378
+    stars_fact: 382
     first_seen: null
     last_push: "2026-09-09"
-  - name: "ipv6-proxy"
-    title: "ipv6-proxy"
-    description: "🔀 Allow IPv4 clients to access a specific IPv6-only service"
-    language: "Shell"
-    topics: []
-    stars_fact: 7
-    first_seen: null
-    last_push: "2026-09-21"
-  - name: "homelab"
-    title: "homelab"
-    description: "🏠 IaC configuration for my homelab"
+  - name: "mcp-local-tunnel"
+    title: "mcp-local-tunnel"
+    description: "🚇 Expose local MCP servers to remote clients without opening ports"
     language: "TypeScript"
     topics: []
-    stars_fact: 1
+    stars_fact: 6
     first_seen: null
-    last_push: "2026-09-19"
+    last_push: "2026-09-29"
   - name: "airtable-mcp-server"
     title: "airtable-mcp-server"
     description: "🗂️🤖 Airtable Model Context Protocol Server, for allowing AI systems to interact with your Airtable bases"
@@ -113,29 +105,37 @@ repos:
       - "airtable"
       - "mcp-server"
       - "model-context-protocol"
-    stars_fact: 458
+    stars_fact: 457
     first_seen: null
     last_push: "2026-09-09"
-  - name: "domdomegg.github.io"
-    title: "domdomegg.github.io"
-    description: "🌍 Personal website (adamjones.me)"
-    language: "MDX"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-18"
-  - name: "shell-exec-mcp"
-    title: "shell-exec-mcp"
-    description: "🐚 MCP server for shell command execution"
+  - name: "postal-vote"
+    title: "postal-vote"
+    description: "🗳📮 Apply for postal votes in England, Scotland and Wales"
     language: "TypeScript"
     topics: []
-    stars_fact: 9
+    stars_fact: 2
     first_seen: null
-    last_push: "2026-09-09"
+    last_push: "2026-09-30"
+  - name: "aws-ses-v2-local"
+    title: "aws-ses-v2-local"
+    description: "☁📬 A local version of Amazon Simple Email Service (AWS SES) supporting the V1 and V2 API"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 96
+    first_seen: null
+    last_push: "2026-09-30"
+  - name: "ts-i18n-webpack-plugin-example"
+    title: "ts-i18n-webpack-plugin-example"
+    description: "💬🌐 Example project using ts-i18n with webpack"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-29"
 ---
 
 # domdomegg
 
-84 pushes across 37 repositories on 19 active days in the last 90 days of public GitHub push activity.
+60 pushes across 30 repositories on 18 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/domdomegg

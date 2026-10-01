@@ -21,7 +21,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "0726bc457d4dcf89"
   - "1be978947e68d1f2"
@@ -37,15 +37,15 @@ provenance:
   - "d61fc285c7155696"
   - "e76a6eae5d38637b"
   - "e7c647c4d0689526"
-pushes_per_week: [62, 26, 5, 17, 17, 12, 11, 2, 0, 1, 9, 5, 3]
+pushes_per_week: [61, 25, 5, 24, 12, 19, 2, 2, 0, 1, 9, 7, 1]
 windows:
   "7d":
-    pushes: 3
-    distinct_repos: 3
+    pushes: 2
+    distinct_repos: 2
     active_days: 2
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
     pushes: 18
     distinct_repos: 10
@@ -54,16 +54,16 @@ windows:
     not_owned_basenames: 3
     not_owned_owners: 2
   "90d":
-    pushes: 170
+    pushes: 168
     distinct_repos: 41
-    active_days: 46
+    active_days: 45
     repos_not_owned: 11
     not_owned_basenames: 10
     not_owned_owners: 4
 automation:
   state: "clear"
-  push_per_day: 3.6957
-  repo_per_active_day: 0.8913
+  push_per_day: 3.7333
+  repo_per_active_day: 0.9111
   not_owned_ratio: 0.2683
   basename_concentration: 0.0732
   shapes: []
@@ -74,13 +74,13 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 3
-    distinct_repos: 3
+    pushes: 2
+    distinct_repos: 2
     pushes_per_repo: 1.0000
     active_days: 2
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
     pushes: 18
     distinct_repos: 10
@@ -90,86 +90,72 @@ facets:
     not_owned_basenames: 3
     not_owned_owners: 2
   "90d":
-    pushes: 170
+    pushes: 168
     distinct_repos: 41
-    pushes_per_repo: 4.1463
-    active_days: 46
+    pushes_per_repo: 4.0976
+    active_days: 45
     repos_not_owned: 11
     not_owned_basenames: 10
     not_owned_owners: 4
 reasons:
   - "provenance: 14 vault signal(s) — pass"
-  - "activity: 46 active days in 90d — pass"
+  - "activity: 45 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "usgs-scraper"
+    title: "usgs-scraper"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 14
+    first_seen: null
+    last_push: "2026-10-01"
   - name: "scrape-florida-outages"
     title: "scrape-florida-outages"
     description: null
     language: null
     topics: []
-    stars_fact: 13
+    stars_fact: 14
     first_seen: null
-    last_push: "2026-09-23"
+    last_push: "2026-10-01"
   - name: "scrape-fema-shelters"
     title: "scrape-fema-shelters"
     description: null
     language: null
     topics:
       - "git-scraping"
-    stars_fact: 15
+    stars_fact: 16
     first_seen: null
-    last_push: "2026-09-23"
-  - name: "usgs-scraper"
-    title: "usgs-scraper"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 13
-    first_seen: null
-    last_push: "2026-09-23"
-  - name: "llm"
-    title: "llm"
-    description: "Access large language models from the command-line"
+    last_push: "2026-10-01"
+  - name: "llm-cmd"
+    title: "llm-cmd"
+    description: "Use LLM to generate and execute commands in your shell"
     language: "Python"
-    topics:
-      - "ai"
-      - "llms"
-      - "openai"
-    stars_fact: 12547
-    first_seen: "2026-07-31T06:00:06.780986+00:00"
-    last_push: "2026-09-22"
-  - name: "scrape-fediverse"
-    title: "scrape-fediverse"
-    description: "Git scrapers for scraping the fediverse"
+    topics: []
+    stars_fact: 476
+    first_seen: null
+    last_push: "2025-05-30"
+  - name: "pge-outages"
+    title: "pge-outages"
+    description: "Tracking PG&E power outages"
     language: null
     topics:
       - "git-scraping"
-    stars_fact: 23
+    stars_fact: 28
     first_seen: null
-    last_push: "2026-09-23"
-  - name: "datasette"
-    title: "datasette"
-    description: "An open source multi-tool for exploring and publishing data"
+    last_push: "2026-10-01"
+  - name: "llm-typesafe"
+    title: "llm-typesafe"
+    description: "LLM plugin for accessing Jev and other TypeSafe AI models"
     language: "Python"
-    topics:
-      - "asgi"
-      - "automatic-api"
-      - "csv"
-      - "datasets"
-      - "datasette"
-      - "datasette-io"
-      - "docker"
-      - "json"
-      - "python"
-      - "sql"
-      - "sqlite"
-    stars_fact: 11479
+    topics: []
+    stars_fact: 19
     first_seen: null
     last_push: "2026-09-22"
 ---
 
 # simonw
 
-170 pushes across 41 repositories on 46 active days in the last 90 days of public GitHub push activity.
+168 pushes across 41 repositories on 45 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/simonw

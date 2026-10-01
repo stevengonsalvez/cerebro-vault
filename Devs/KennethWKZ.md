@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "73468cde177ddae6"
-pushes_per_week: [32, 21, 17, 3, 4, 3, 3, 1, 0, 0, 0, 3, 4]
+pushes_per_week: [35, 18, 17, 4, 4, 2, 4, 0, 0, 0, 0, 4, 4]
 windows:
   "7d":
     pushes: 5
-    distinct_repos: 2
+    distinct_repos: 3
     active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 7
-    distinct_repos: 2
-    active_days: 7
+    pushes: 8
+    distinct_repos: 3
+    active_days: 8
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 91
-    distinct_repos: 11
-    active_days: 37
+    pushes: 92
+    distinct_repos: 12
+    active_days: 38
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.4595
-  repo_per_active_day: 0.2973
+  push_per_day: 2.4211
+  repo_per_active_day: 0.3158
   not_owned_ratio: 0.0000
-  basename_concentration: 0.0909
+  basename_concentration: 0.0833
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -50,31 +50,31 @@ automation:
 facets:
   "7d":
     pushes: 5
-    distinct_repos: 2
-    pushes_per_repo: 2.5000
+    distinct_repos: 3
+    pushes_per_repo: 1.6667
     active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 7
-    distinct_repos: 2
-    pushes_per_repo: 3.5000
-    active_days: 7
+    pushes: 8
+    distinct_repos: 3
+    pushes_per_repo: 2.6667
+    active_days: 8
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 91
-    distinct_repos: 11
-    pushes_per_repo: 8.2727
-    active_days: 37
+    pushes: 92
+    distinct_repos: 12
+    pushes_per_repo: 7.6667
+    active_days: 38
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 37 active days in 90d — pass"
+  - "activity: 38 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "herdr-ccs"
@@ -116,6 +116,6 @@ repos:
 
 # KennethWKZ
 
-91 pushes across 11 repositories on 37 active days in the last 90 days of public GitHub push activity.
+92 pushes across 12 repositories on 38 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/KennethWKZ

@@ -10,36 +10,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "9d67ce648f6a8919"
-pushes_per_week: [13, 14, 9, 2, 1, 7, 9, 2, 2, 3, 2, 6, 14]
+pushes_per_week: [13, 18, 6, 2, 0, 10, 6, 2, 2, 3, 3, 5, 15]
 windows:
   "7d":
-    pushes: 14
+    pushes: 15
     distinct_repos: 5
-    active_days: 5
+    active_days: 6
     repos_not_owned: 3
     not_owned_basenames: 1
     not_owned_owners: 3
   "30d":
-    pushes: 25
+    pushes: 26
     distinct_repos: 6
-    active_days: 14
+    active_days: 15
     repos_not_owned: 4
     not_owned_basenames: 1
     not_owned_owners: 4
   "90d":
-    pushes: 84
+    pushes: 85
     distinct_repos: 11
-    active_days: 43
+    active_days: 44
     repos_not_owned: 8
     not_owned_basenames: 1
     not_owned_owners: 8
 automation:
   state: "clear"
-  push_per_day: 1.9535
-  repo_per_active_day: 0.2558
+  push_per_day: 1.9318
+  repo_per_active_day: 0.2500
   not_owned_ratio: 0.7273
   basename_concentration: 0.8182
   shapes:
@@ -66,42 +66,42 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 14
+    pushes: 15
     distinct_repos: 5
-    pushes_per_repo: 2.8000
-    active_days: 5
+    pushes_per_repo: 3.0000
+    active_days: 6
     repos_not_owned: 3
     not_owned_basenames: 1
     not_owned_owners: 3
   "30d":
-    pushes: 25
+    pushes: 26
     distinct_repos: 6
-    pushes_per_repo: 4.1667
-    active_days: 14
+    pushes_per_repo: 4.3333
+    active_days: 15
     repos_not_owned: 4
     not_owned_basenames: 1
     not_owned_owners: 4
   "90d":
-    pushes: 84
+    pushes: 85
     distinct_repos: 11
-    pushes_per_repo: 7.6364
-    active_days: 43
+    pushes_per_repo: 7.7273
+    active_days: 44
     repos_not_owned: 8
     not_owned_basenames: 1
     not_owned_owners: 8
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 43 active days in 90d — pass"
+  - "activity: 44 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "free-claude-code"
     title: "free-claude-code"
-    description: "Use Claude Code, Codex, Pi, and OpenCode (and 6 other harnesses) for free (1.3B+ free tokens) from your terminal, app, IDE, or phone, and now from the browser with native browser sessions (multi-harness + multi-model) like OpenClaw (voice supported + ToS friendly)"
+    description: "Use Claude Code, Codex, VSCode, Pi, and OpenCode (and 6 other harnesses) for free (1.3B+ free tokens) from your terminal, app, IDE, or phone, and now from the browser with native browser sessions (multi-harness + multi-model) like OpenClaw (voice supported + ToS friendly)"
     language: "Python"
     topics: []
-    stars_fact: 55742
+    stars_fact: 56301
     first_seen: "2026-08-04T06:00:05.827253+00:00"
-    last_push: "2026-09-22"
+    last_push: "2026-10-01"
   - name: "Machine-Learning-Methods-in-Physics"
     title: "Machine-Learning-Methods-in-Physics"
     description: null
@@ -125,11 +125,11 @@ repos:
     topics: []
     stars_fact: 5
     first_seen: null
-    last_push: "2026-09-14"
+    last_push: "2026-09-28"
 ---
 
 # Alishahryar1
 
-84 pushes across 11 repositories on 43 active days in the last 90 days of public GitHub push activity.
+85 pushes across 11 repositories on 44 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Alishahryar1

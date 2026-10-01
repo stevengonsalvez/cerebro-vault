@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "4138778ebbc75ba6"
 pushes_per_week: [1, 1, 0, 0, 2, 1, 1, 0, 0, 0, 0, 0, 0]
@@ -77,6 +77,22 @@ reasons:
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "TCC"
+    title: "TCC"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-01"
+  - name: "vim-sudoku"
+    title: "vim-sudoku"
+    description: null
+    language: "QML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-23"
   - name: "mcp-gestao-tarefas"
     title: "mcp-gestao-tarefas"
     description: null
@@ -93,14 +109,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-09-17"
-  - name: "TCC"
-    title: "TCC"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-05"
   - name: "semaninha"
     title: "semaninha"
     description: null
@@ -113,14 +121,6 @@ repos:
     title: "automatizacao-preenchimento-planilha"
     description: null
     language: "Dart"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-15"
-  - name: "mini-agent"
-    title: "mini-agent"
-    description: null
-    language: "Elixir"
     topics: []
     stars_fact: 0
     first_seen: null

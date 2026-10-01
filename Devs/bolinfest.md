@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "0388a4f55f4206c8"
   - "0577669e18ed3998"
@@ -30,7 +30,7 @@ provenance:
   - "c6b4a874521ceb02"
   - "cf565721454d59f8"
   - "e26852201e6f38fc"
-pushes_per_week: [32, 27, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [47, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -47,16 +47,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 59
+    pushes: 47
     distinct_repos: 2
-    active_days: 7
+    active_days: 6
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 8.4286
-  repo_per_active_day: 0.2857
+  push_per_day: 7.8333
+  repo_per_active_day: 0.3333
   not_owned_ratio: 1.0000
   basename_concentration: 0.5000
   shapes: []
@@ -83,16 +83,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 59
+    pushes: 47
     distinct_repos: 2
-    pushes_per_repo: 29.5000
-    active_days: 7
+    pushes_per_repo: 23.5000
+    active_days: 6
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 reasons:
   - "provenance: 19 vault signal(s) — pass"
-  - "activity: 7 active days in 90d — pass"
+  - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "monaco-tm"
@@ -100,7 +100,7 @@ repos:
     description: "Attempt to get TextMate grammars working in standalone Monaco"
     language: "TypeScript"
     topics: []
-    stars_fact: 155
+    stars_fact: 156
     first_seen: null
     last_push: "2024-01-06"
   - name: "puzzle-dependency-chart"
@@ -147,6 +147,6 @@ repos:
 
 # bolinfest
 
-59 pushes across 2 repositories on 7 active days in the last 90 days of public GitHub push activity.
+47 pushes across 2 repositories on 6 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/bolinfest

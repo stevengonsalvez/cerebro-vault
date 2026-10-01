@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [7, 2, 10, 22, 5, 15, 2, 6, 2, 3, 7, 3, 7]
+pushes_per_week: [7, 2, 12, 21, 7, 12, 2, 6, 2, 3, 7, 6, 6]
 windows:
   "7d":
-    pushes: 7
+    pushes: 8
     distinct_repos: 3
-    active_days: 3
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 20
+    pushes: 22
     distinct_repos: 5
-    active_days: 11
+    active_days: 13
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 91
+    pushes: 93
     distinct_repos: 10
-    active_days: 43
+    active_days: 45
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.1163
-  repo_per_active_day: 0.2326
+  push_per_day: 2.0667
+  repo_per_active_day: 0.2222
   not_owned_ratio: 0.0000
   basename_concentration: 0.1000
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 7
+    pushes: 8
     distinct_repos: 3
-    pushes_per_repo: 2.3333
-    active_days: 3
+    pushes_per_repo: 2.6667
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 20
+    pushes: 22
     distinct_repos: 5
-    pushes_per_repo: 4.0000
-    active_days: 11
+    pushes_per_repo: 4.4000
+    active_days: 13
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 91
+    pushes: 93
     distinct_repos: 10
-    pushes_per_repo: 9.1000
-    active_days: 43
+    pushes_per_repo: 9.3000
+    active_days: 45
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 43 active days in 90d — pass"
+  - "activity: 45 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "dotfiles"
@@ -84,7 +84,43 @@ repos:
     topics: []
     stars_fact: 128
     first_seen: null
-    last_push: "2026-09-23"
+    last_push: "2026-10-01"
+  - name: "k3s-cluster-apps"
+    title: "k3s-cluster-apps"
+    description: "🦑 ArgoCD (GitOps) Apps for one of my home K8s clusters"
+    language: "Elixir"
+    topics:
+      - "argocd"
+      - "continuous-delivery"
+      - "helm"
+      - "helm-charts"
+      - "k8s-at-home"
+      - "kubernetes"
+      - "kubesearch"
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-09-29"
+  - name: "vellum"
+    title: "vellum"
+    description: "📜 fast, customizable menu for terminal multiplexers (like herdr and tmux)"
+    language: "Rust"
+    topics:
+      - "command-palette"
+      - "herdr"
+      - "ratatui"
+      - "tmux"
+      - "tui"
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-10-01"
+  - name: "pkl-lsp-rs"
+    title: "pkl-lsp-rs"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-25"
   - name: "hwt-phoenix-blog"
     title: "hwt-phoenix-blog"
     description: "Minimal Phoenix blog for exercising hwt worktree workflows"
@@ -105,44 +141,11 @@ repos:
       - "vim"
     stars_fact: 1
     first_seen: null
-    last_push: "2026-09-23"
-  - name: "hwt"
-    title: "hwt"
-    description: "🌳 Frictionless Herdr Worktree Orchestration"
-    language: "Go"
-    topics:
-      - "herdr"
-      - "herdr-integration"
-      - "herdr-plugins"
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-09-19"
-  - name: "tab-once"
-    title: "tab-once"
-    description: "Browser extension for keeping only a single instance of a tab"
-    language: "TypeScript"
-    topics:
-      - "browser-extension"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-20"
-  - name: "vellum"
-    title: "vellum"
-    description: "📜 fast, customizable menu for terminal multiplexers (like herdr and tmux)"
-    language: "Rust"
-    topics:
-      - "command-palette"
-      - "herdr"
-      - "ratatui"
-      - "tmux"
-      - "tui"
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-09-23"
+    last_push: "2026-09-29"
 ---
 
 # dkarter
 
-91 pushes across 10 repositories on 43 active days in the last 90 days of public GitHub push activity.
+93 pushes across 10 repositories on 45 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/dkarter

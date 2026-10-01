@@ -10,11 +10,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "576c6507cbdd1cf3"
   - "c87b77df69f1bb71"
-pushes_per_week: [28, 10, 12, 16, 18, 16, 10, 7, 0, 1, 5, 3, 7]
+pushes_per_week: [26, 9, 13, 18, 17, 16, 8, 7, 0, 2, 4, 4, 6]
 windows:
   "7d":
     pushes: 7
@@ -31,16 +31,16 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 133
+    pushes: 130
     distinct_repos: 15
-    active_days: 56
+    active_days: 55
     repos_not_owned: 13
     not_owned_basenames: 2
     not_owned_owners: 12
 automation:
   state: "clear"
-  push_per_day: 2.3750
-  repo_per_active_day: 0.2679
+  push_per_day: 2.3636
+  repo_per_active_day: 0.2727
   not_owned_ratio: 0.8667
   basename_concentration: 0.8667
   shapes:
@@ -83,34 +83,26 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 133
+    pushes: 130
     distinct_repos: 15
-    pushes_per_repo: 8.8667
-    active_days: 56
+    pushes_per_repo: 8.6667
+    active_days: 55
     repos_not_owned: 13
     not_owned_basenames: 2
     not_owned_owners: 12
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 56 active days in 90d — pass"
+  - "activity: 55 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "pi-extensions"
-    title: "pi-extensions"
-    description: "Extensions for pi, the terminal-based coding agent"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 546
-    first_seen: null
-    last_push: "2026-09-11"
-  - name: "agent-skills"
-    title: "agent-skills"
-    description: "Small, opinionated, agent-agnostic skills for coding agents"
+  - name: "herdr-plugin-examples"
+    title: "herdr-plugin-examples"
+    description: null
     language: "JavaScript"
     topics: []
-    stars_fact: 79
+    stars_fact: 23
     first_seen: null
-    last_push: "2026-09-10"
+    last_push: "2026-06-15"
   - name: "herdr-browser"
     title: "herdr-browser"
     description: "Render a real Chromium view inside a Herdr pane and drive it over CDP."
@@ -123,9 +115,25 @@ repos:
       - "herdr-plugin"
       - "kitty-graphics"
       - "terminal"
-    stars_fact: 352
+    stars_fact: 356
     first_seen: null
     last_push: "2026-08-22"
+  - name: "pi-extensions"
+    title: "pi-extensions"
+    description: "Extensions for pi, the terminal-based coding agent"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 551
+    first_seen: null
+    last_push: "2026-09-26"
+  - name: "agent-skills"
+    title: "agent-skills"
+    description: "Small, opinionated, agent-agnostic skills for coding agents"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 80
+    first_seen: null
+    last_push: "2026-09-10"
   - name: "claudify"
     title: "claudify"
     description: "AI-powered Spotify playlist generator using Claude API. Create personalized playlists from text prompts or transform your liked songs into curated collections. Seamlessly blends AI creativity with music discovery."
@@ -148,19 +156,10 @@ repos:
     stars_fact: 50
     first_seen: null
     last_push: "2026-03-23"
-  - name: "herdr-plugin-github-start"
-    title: "herdr-plugin-github-start"
-    description: "Herdr plugin that starts Codex or Claude from a GitHub issue, PR, or discussion"
-    language: "JavaScript"
-    topics:
-      - "herdr-plugin"
-    stars_fact: 17
-    first_seen: null
-    last_push: "2026-08-31"
 ---
 
 # ogulcancelik
 
-133 pushes across 15 repositories on 56 active days in the last 90 days of public GitHub push activity.
+130 pushes across 15 repositories on 55 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ogulcancelik

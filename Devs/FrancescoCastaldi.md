@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "dffbb846389f9a26"
-pushes_per_week: [13, 5, 3, 2, 0, 2, 1, 0, 1, 2, 1, 7, 0]
+pushes_per_week: [11, 6, 2, 2, 1, 2, 0, 0, 1, 2, 4, 4, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 11
+    pushes: 10
     distinct_repos: 4
-    active_days: 6
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 37
+    pushes: 35
     distinct_repos: 10
-    active_days: 18
+    active_days: 17
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.0556
-  repo_per_active_day: 0.5556
+  push_per_day: 2.0588
+  repo_per_active_day: 0.5882
   not_owned_ratio: 0.0000
   basename_concentration: 0.1000
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 11
+    pushes: 10
     distinct_repos: 4
-    pushes_per_repo: 2.7500
-    active_days: 6
+    pushes_per_repo: 2.5000
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 37
+    pushes: 35
     distinct_repos: 10
-    pushes_per_repo: 3.7000
-    active_days: 18
+    pushes_per_repo: 3.5000
+    active_days: 17
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 18 active days in 90d — pass"
+  - "activity: 17 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "superset-plugin-chart-kpi-comparison"
@@ -136,6 +136,6 @@ repos:
 
 # FrancescoCastaldi
 
-37 pushes across 10 repositories on 18 active days in the last 90 days of public GitHub push activity.
+35 pushes across 10 repositories on 17 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/FrancescoCastaldi

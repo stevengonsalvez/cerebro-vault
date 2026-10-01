@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "8ed2cce02536b2fa"
-pushes_per_week: [186, 98, 82, 81, 57, 90, 66, 57, 10, 5, 57, 160, 128]
+pushes_per_week: [190, 91, 103, 58, 51, 121, 35, 58, 8, 6, 64, 180, 125]
 windows:
   "7d":
-    pushes: 156
-    distinct_repos: 34
+    pushes: 142
+    distinct_repos: 37
     active_days: 7
-    repos_not_owned: 23
-    not_owned_basenames: 16
-    not_owned_owners: 7
+    repos_not_owned: 26
+    not_owned_basenames: 20
+    not_owned_owners: 6
   "30d":
-    pushes: 350
-    distinct_repos: 59
-    active_days: 24
-    repos_not_owned: 43
-    not_owned_basenames: 26
+    pushes: 375
+    distinct_repos: 61
+    active_days: 25
+    repos_not_owned: 45
+    not_owned_basenames: 28
     not_owned_owners: 17
   "90d":
-    pushes: 1077
-    distinct_repos: 87
+    pushes: 1090
+    distinct_repos: 88
     active_days: 83
-    repos_not_owned: 65
-    not_owned_basenames: 34
+    repos_not_owned: 66
+    not_owned_basenames: 35
     not_owned_owners: 27
 automation:
   state: "clear"
-  push_per_day: 12.9759
-  repo_per_active_day: 1.0482
-  not_owned_ratio: 0.7471
-  basename_concentration: 0.2759
+  push_per_day: 13.1325
+  repo_per_active_day: 1.0602
+  not_owned_ratio: 0.7500
+  basename_concentration: 0.2727
   shapes: []
   shape_evidence: []
   cleared_by: "e01-builder"
@@ -49,28 +49,28 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 156
-    distinct_repos: 34
-    pushes_per_repo: 4.5882
+    pushes: 142
+    distinct_repos: 37
+    pushes_per_repo: 3.8378
     active_days: 7
-    repos_not_owned: 23
-    not_owned_basenames: 16
-    not_owned_owners: 7
+    repos_not_owned: 26
+    not_owned_basenames: 20
+    not_owned_owners: 6
   "30d":
-    pushes: 350
-    distinct_repos: 59
-    pushes_per_repo: 5.9322
-    active_days: 24
-    repos_not_owned: 43
-    not_owned_basenames: 26
+    pushes: 375
+    distinct_repos: 61
+    pushes_per_repo: 6.1475
+    active_days: 25
+    repos_not_owned: 45
+    not_owned_basenames: 28
     not_owned_owners: 17
   "90d":
-    pushes: 1077
-    distinct_repos: 87
-    pushes_per_repo: 12.3793
+    pushes: 1090
+    distinct_repos: 88
+    pushes_per_repo: 12.3864
     active_days: 83
-    repos_not_owned: 65
-    not_owned_basenames: 34
+    repos_not_owned: 66
+    not_owned_basenames: 35
     not_owned_owners: 27
 reasons:
   - "provenance: 1 vault signal(s) — pass"
@@ -129,6 +129,6 @@ repos:
 
 # senamakel
 
-1077 pushes across 87 repositories on 83 active days in the last 90 days of public GitHub push activity.
+1090 pushes across 88 repositories on 83 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/senamakel

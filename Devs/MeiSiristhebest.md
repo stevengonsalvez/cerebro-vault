@@ -10,37 +10,37 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "16389f32495280ea"
   - "c489e6fb5febf2ab"
-pushes_per_week: [0, 5, 19, 1, 37, 2, 9, 6, 0, 2, 1, 10, 8]
+pushes_per_week: [0, 5, 19, 8, 32, 0, 9, 6, 0, 2, 3, 8, 10]
 windows:
   "7d":
-    pushes: 8
-    distinct_repos: 3
-    active_days: 4
+    pushes: 10
+    distinct_repos: 4
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 21
+    pushes: 23
     distinct_repos: 6
-    active_days: 12
+    active_days: 14
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 100
+    pushes: 102
     distinct_repos: 21
-    active_days: 26
+    active_days: 28
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 3.8462
-  repo_per_active_day: 0.8077
+  push_per_day: 3.6429
+  repo_per_active_day: 0.7500
   not_owned_ratio: 0.0000
   basename_concentration: 0.0476
   shapes: []
@@ -51,32 +51,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 8
-    distinct_repos: 3
-    pushes_per_repo: 2.6667
-    active_days: 4
+    pushes: 10
+    distinct_repos: 4
+    pushes_per_repo: 2.5000
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 21
+    pushes: 23
     distinct_repos: 6
-    pushes_per_repo: 3.5000
-    active_days: 12
+    pushes_per_repo: 3.8333
+    active_days: 14
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 100
+    pushes: 102
     distinct_repos: 21
-    pushes_per_repo: 4.7619
-    active_days: 26
+    pushes_per_repo: 4.8571
+    active_days: 28
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 26 active days in 90d — pass"
+  - "activity: 28 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "MeiSiristhebest"
@@ -86,23 +86,7 @@ repos:
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-09-23"
-  - name: "opencontrib"
-    title: "opencontrib"
-    description: "The Agent-Native Open Source Contribution Engine — 6-Dimension Weapon Arsenal, 24-Command CLI, Top-K Smart Pointer Triage, 20 MCP Tools & Worktree Sandbox"
-    language: "TypeScript"
-    topics:
-      - "agentic-ai"
-      - "bun"
-      - "developer-tools"
-      - "git-worktree"
-      - "mcp"
-      - "mcp-server"
-      - "monorepo"
-      - "typescript"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-22"
+    last_push: "2026-09-30"
   - name: "inkpi-desktop"
     title: "inkpi-desktop"
     description: "Cross-Platform AI-Powered Creative Writing Workstation built with Tauri 2 and React"
@@ -119,7 +103,7 @@ repos:
       - "tiptap"
     stars_fact: 1
     first_seen: null
-    last_push: "2026-09-21"
+    last_push: "2026-09-30"
   - name: "inkpi"
     title: "inkpi"
     description: "InkPi - Extensible AI Agent Harness & Workstation Platform"
@@ -140,7 +124,23 @@ repos:
       - "tui"
     stars_fact: 1
     first_seen: null
-    last_push: "2026-09-21"
+    last_push: "2026-09-30"
+  - name: "opencontrib"
+    title: "opencontrib"
+    description: "The Agent-Native Open Source Contribution Engine — 6-Dimension Weapon Arsenal, 24-Command CLI, Top-K Smart Pointer Triage, 20 MCP Tools & Worktree Sandbox"
+    language: "TypeScript"
+    topics:
+      - "agentic-ai"
+      - "bun"
+      - "developer-tools"
+      - "git-worktree"
+      - "mcp"
+      - "mcp-server"
+      - "monorepo"
+      - "typescript"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-01"
   - name: "youju"
     title: "youju"
     description: "YouJu - AI-powered contract loophole & chat-risk analysis workbench (React + Express + Gemini + Heuristic Engine)"
@@ -174,6 +174,6 @@ repos:
 
 # MeiSiristhebest
 
-100 pushes across 21 repositories on 26 active days in the last 90 days of public GitHub push activity.
+102 pushes across 21 repositories on 28 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/MeiSiristhebest

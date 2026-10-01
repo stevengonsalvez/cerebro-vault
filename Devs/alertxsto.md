@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "9e2ff10d772b1e71"
 pushes_per_week: [4, 12, 5, 1, 5, 1, 23, 0, 0, 0, 0, 3, 0]
@@ -79,12 +79,32 @@ reasons:
 repos:
   - name: "mangowm-dotfiles"
     title: "mangowm-dotfiles"
-    description: "Artix Linux MangoWM dotfiles with Matugen theming and an idempotent installer."
-    language: "CSS"
-    topics: []
+    description: "Artix Linux MangoWM dotfiles: curated named-palette theming, native Qt desktop tools, and an idempotent installer."
+    language: "QML"
+    topics:
+      - "artix"
+      - "artix-linux"
+      - "dotfiles"
+      - "dwl"
+      - "linux"
+      - "mangowc"
+      - "mangowm"
+      - "openrc"
+      - "palette"
+      - "qml"
+      - "qt"
+      - "ricing"
+      - "rofi"
+      - "shell"
+      - "swaync"
+      - "theming"
+      - "unixporn"
+      - "waybar"
+      - "wayland"
+      - "wayland-compositor"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-22"
+    last_push: "2026-09-28"
   - name: "scentinel"
     title: "scentinel"
     description: "Native desktop simulation studio for gas sensor placement in waste collection vehicles"
@@ -92,7 +112,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-21"
+    last_push: "2026-09-27"
   - name: "fedora-hyprland"
     title: "fedora-hyprland"
     description: "Batteries-included Hyprland setup for Fedora and openSUSE. Blur, shadows, rounded corners."

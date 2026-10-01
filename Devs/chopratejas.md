@@ -11,16 +11,16 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "668711a6e1072822"
   - "73468cde177ddae6"
-pushes_per_week: [29, 90, 37, 17, 15, 10, 5, 1, 0, 1, 3, 7, 1]
+pushes_per_week: [23, 107, 19, 16, 16, 10, 4, 1, 0, 1, 4, 6, 1]
 windows:
   "7d":
-    pushes: 4
+    pushes: 1
     distinct_repos: 1
-    active_days: 2
+    active_days: 1
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -32,16 +32,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 3
   "90d":
-    pushes: 216
+    pushes: 208
     distinct_repos: 19
-    active_days: 47
+    active_days: 46
     repos_not_owned: 18
     not_owned_basenames: 2
     not_owned_owners: 18
 automation:
   state: "clear"
-  push_per_day: 4.5957
-  repo_per_active_day: 0.4043
+  push_per_day: 4.5217
+  repo_per_active_day: 0.4130
   not_owned_ratio: 0.9474
   basename_concentration: 0.8947
   shapes:
@@ -68,10 +68,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 4
+    pushes: 1
     distinct_repos: 1
-    pushes_per_repo: 4.0000
-    active_days: 2
+    pushes_per_repo: 1.0000
+    active_days: 1
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -84,16 +84,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 3
   "90d":
-    pushes: 216
+    pushes: 208
     distinct_repos: 19
-    pushes_per_repo: 11.3684
-    active_days: 47
+    pushes_per_repo: 10.9474
+    active_days: 46
     repos_not_owned: 18
     not_owned_basenames: 2
     not_owned_owners: 18
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 47 active days in 90d — pass"
+  - "activity: 46 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "invalidate"
@@ -101,9 +101,17 @@ repos:
     description: "The invalidation layer for AI memory. Every fact gets a lease; new evidence ends it. Built on TypeSafe Jev."
     language: "Python"
     topics: []
-    stars_fact: 18
+    stars_fact: 22
     first_seen: null
     last_push: "2026-09-21"
+  - name: "ephemeral-ai"
+    title: "ephemeral-ai"
+    description: "Self-healing AI workbench with warm Droplet pools on DigitalOcean"
+    language: "Python"
+    topics: []
+    stars_fact: 18
+    first_seen: null
+    last_push: "2026-03-04"
   - name: "headroom-zed"
     title: "headroom-zed"
     description: "Zed extension for Headroom — context compression for AI agents"
@@ -138,14 +146,6 @@ repos:
     stars_fact: 2
     first_seen: null
     last_push: "2026-04-04"
-  - name: "ephemeral-ai"
-    title: "ephemeral-ai"
-    description: "Self-healing AI workbench with warm Droplet pools on DigitalOcean"
-    language: "Python"
-    topics: []
-    stars_fact: 17
-    first_seen: null
-    last_push: "2026-03-04"
   - name: "headroom-swift"
     title: "headroom-swift"
     description: "Swift Package for Headroom — context compression for LLM applications"
@@ -158,6 +158,6 @@ repos:
 
 # chopratejas
 
-216 pushes across 19 repositories on 47 active days in the last 90 days of public GitHub push activity.
+208 pushes across 19 repositories on 46 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/chopratejas

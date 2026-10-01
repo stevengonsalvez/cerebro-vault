@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [1, 11, 1, 1, 1, 2, 2, 0, 0, 0, 0, 3, 1]
+pushes_per_week: [5, 8, 1, 0, 1, 3, 1, 0, 0, 0, 0, 3, 1]
 windows:
   "7d":
-    pushes: 2
-    distinct_repos: 2
-    active_days: 2
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
-    distinct_repos: 2
+    pushes: 1
+    distinct_repos: 1
     pushes_per_repo: 1.0000
-    active_days: 2
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -77,48 +77,6 @@ reasons:
   - "activity: 15 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "plankevm-flake"
-    title: "plankevm-flake"
-    description: "Flake for plankc, nightly and stable releases."
-    language: "Nix"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-23"
-  - name: "agent-box"
-    title: "agent-box"
-    description: "Sandboxed containers for AI coding agents with disposable Git/Jujutsu workspaces"
-    language: "Rust"
-    topics:
-      - "agent-sandbox"
-      - "claude-code"
-      - "codex"
-      - "codex-cli"
-      - "coding-agents"
-      - "docker"
-      - "nix"
-      - "pi-coding-agent"
-      - "podman"
-      - "sandbox"
-    stars_fact: 37
-    first_seen: null
-    last_push: "2026-05-17"
-  - name: "CodexBar-flake"
-    title: "CodexBar-flake"
-    description: "Nix flake packaging the Linux CodexBar CLI, with automated updates from upstream GitHub releases."
-    language: "Nix"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-23"
-  - name: "0xferrous.github.io"
-    title: "0xferrous.github.io"
-    description: null
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-22"
   - name: ".github"
     title: ".github"
     description: null
@@ -126,7 +84,23 @@ repos:
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-09-22"
+    last_push: "2026-09-30"
+  - name: "CodexBar-flake"
+    title: "CodexBar-flake"
+    description: "Nix flake packaging the Linux CodexBar CLI, with automated updates from upstream GitHub releases."
+    language: "Nix"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-30"
+  - name: "0xferrous.github.io"
+    title: "0xferrous.github.io"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-27"
   - name: "my-nix"
     title: "my-nix"
     description: "My public nix config, with some reusable modules"
@@ -134,7 +108,23 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-23"
+    last_push: "2026-09-27"
+  - name: "plankevm-flake"
+    title: "plankevm-flake"
+    description: "Flake for plankc, nightly and stable releases."
+    language: "Nix"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-26"
+  - name: "pi-near-ai"
+    title: "pi-near-ai"
+    description: "a pi provider plugin to access near..ai's private inference"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-26"
 ---
 
 # 0xferrous

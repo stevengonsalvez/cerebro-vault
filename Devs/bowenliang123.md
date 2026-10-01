@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "541318303a272608"
-pushes_per_week: [0, 0, 0, 2, 0, 13, 11, 2, 1, 1, 5, 4, 9]
+pushes_per_week: [0, 0, 0, 2, 0, 15, 9, 2, 1, 1, 6, 3, 9]
 windows:
   "7d":
-    pushes: 10
+    pushes: 9
     distinct_repos: 1
-    active_days: 6
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 10
+    pushes: 9
     distinct_repos: 1
-    pushes_per_repo: 10.0000
-    active_days: 6
+    pushes_per_repo: 9.0000
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -88,15 +88,15 @@ repos:
       - "dsh-external"
       - "dsh-plugin"
       - "dsh-plugins"
-    stars_fact: 1499
+    stars_fact: 1743
     first_seen: null
-    last_push: "2026-09-23"
+    last_push: "2026-09-30"
   - name: "dify-grafana-dashboard"
     title: "dify-grafana-dashboard"
     description: "Grafana dashboard for Dify"
     language: null
     topics: []
-    stars_fact: 34
+    stars_fact: 33
     first_seen: null
     last_push: "2025-10-20"
   - name: "markdown-exporter"
@@ -108,9 +108,20 @@ repos:
       - "dify"
       - "dify-plugin"
       - "markdown"
-    stars_fact: 269
+    stars_fact: 270
     first_seen: null
     last_push: "2026-08-13"
+  - name: "dsh-plugin-checker"
+    title: "dsh-plugin-checker"
+    description: "GitHub Action for checking the correctness of DeepSeek Harness (dsh) plugin"
+    language: null
+    topics:
+      - "deepseek-harness"
+      - "deepseek-harness-plugin"
+      - "dsh-plugin"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-08-18"
   - name: "dsh-tokener"
     title: "dsh-tokener"
     description: "Tokener.ai gateway LLM provider plugin for DeepSeek Harness"
@@ -127,17 +138,6 @@ repos:
     stars_fact: 2
     first_seen: null
     last_push: "2026-09-01"
-  - name: "dsh-plugin-checker"
-    title: "dsh-plugin-checker"
-    description: "GitHub Action for checking the correctness of DeepSeek Harness (dsh) plugin"
-    language: null
-    topics:
-      - "deepseek-harness"
-      - "deepseek-harness-plugin"
-      - "dsh-plugin"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-08-18"
 ---
 
 # bowenliang123

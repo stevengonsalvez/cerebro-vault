@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [122, 134, 29, 21, 32, 39, 30, 23, 12, 21, 17, 168, 203]
+pushes_per_week: [120, 130, 27, 28, 24, 43, 24, 25, 10, 27, 11, 189, 184]
 windows:
   "7d":
-    pushes: 238
-    distinct_repos: 27
+    pushes: 197
+    distinct_repos: 21
     active_days: 7
-    repos_not_owned: 15
-    not_owned_basenames: 15
+    repos_not_owned: 9
+    not_owned_basenames: 9
     not_owned_owners: 1
   "30d":
-    pushes: 412
+    pushes: 411
     distinct_repos: 30
-    active_days: 26
+    active_days: 25
     repos_not_owned: 17
     not_owned_basenames: 17
     not_owned_owners: 1
   "90d":
-    pushes: 851
-    distinct_repos: 50
+    pushes: 842
+    distinct_repos: 47
     active_days: 80
     repos_not_owned: 18
     not_owned_basenames: 17
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 10.6375
-  repo_per_active_day: 0.6250
-  not_owned_ratio: 0.3600
-  basename_concentration: 0.0400
+  push_per_day: 10.5250
+  repo_per_active_day: 0.5875
+  not_owned_ratio: 0.3830
+  basename_concentration: 0.0426
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 238
-    distinct_repos: 27
-    pushes_per_repo: 8.8148
+    pushes: 197
+    distinct_repos: 21
+    pushes_per_repo: 9.3810
     active_days: 7
-    repos_not_owned: 15
-    not_owned_basenames: 15
+    repos_not_owned: 9
+    not_owned_basenames: 9
     not_owned_owners: 1
   "30d":
-    pushes: 412
+    pushes: 411
     distinct_repos: 30
-    pushes_per_repo: 13.7333
-    active_days: 26
+    pushes_per_repo: 13.7000
+    active_days: 25
     repos_not_owned: 17
     not_owned_basenames: 17
     not_owned_owners: 1
   "90d":
-    pushes: 851
-    distinct_repos: 50
-    pushes_per_repo: 17.0200
+    pushes: 842
+    distinct_repos: 47
+    pushes_per_repo: 17.9149
     active_days: 80
     repos_not_owned: 18
     not_owned_basenames: 17
@@ -77,96 +77,14 @@ reasons:
   - "activity: 80 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "memra"
-    title: "memra"
-    description: "Rust + CUDA LLM inference engine for Blackwell (Tuned specifically on RTX PRO 6000, RTX 5090, B200): OpenAI-compatible (+converse and ant) serving, per-model X hardware exactness gates. NVFP4/mixed (fp8 hybrid, 4o6, etc - correctness, performance, hardware specific adapted) main quant support."
-    language: "OpenEdge ABL"
-    topics:
-      - "b200"
-      - "blackwell"
-      - "cuda"
-      - "deepseek"
-      - "deepseek-v4"
-      - "gemma"
-      - "gguf"
-      - "glm"
-      - "inference"
-      - "inference-engine"
-      - "llm"
-      - "llm-serving"
-      - "mixture-of-experts"
-      - "nvfp4"
-      - "openai-api"
-      - "qwen"
-      - "rtx-5090"
-      - "rtx-pro-6000"
-      - "rust"
-      - "speculative-decoding"
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-09-23"
-  - name: "scrump"
-    title: "scrump"
-    description: "Fast, format-aware secret scrubber for binary capture artifacts (perf.data, nsys-rep, ELF core, hprof, JFR, pcap, SQLite, tar/zip)."
+  - name: "parlar"
+    title: "parlar"
+    description: "Voice conversation mode for coding agents: talk to a running Claude Code or Codex session and it talks back"
     language: "Rust"
-    topics:
-      - "core-dump"
-      - "data-loss-prevention"
-      - "hprof"
-      - "jfr"
-      - "nsys"
-      - "observability"
-      - "pcap"
-      - "perf"
-      - "pii"
-      - "profiling"
-      - "redaction"
-      - "rust"
-      - "secret-scanning"
-      - "secrets"
-      - "security"
-      - "sqlite"
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-09-21"
-  - name: "trace-ml"
-    title: "trace-ml"
-    description: "An inspectable, evidence-led machine-learning course."
-    language: "TypeScript"
-    topics:
-      - "education"
-      - "machine-learning"
-      - "pyodide"
-      - "react"
-      - "rust"
-      - "tauri"
+    topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-21"
-  - name: "ferrings"
-    title: "ferrings"
-    description: "Node.js library for faster, lower-latency TCP — powered by Linux io_uring. Up to 2.5x throughput and fewer syscalls than native Node networking."
-    language: "JavaScript"
-    topics:
-      - "batch"
-      - "high-performance"
-      - "http"
-      - "iouring"
-      - "linux"
-      - "napi"
-      - "napi-rs"
-      - "networking"
-      - "nodejs"
-      - "npm"
-      - "queue"
-      - "rust"
-      - "tcp"
-      - "transport"
-      - "zcrx"
-      - "zero-copy"
-    stars_fact: 6
-    first_seen: null
-    last_push: "2026-09-21"
+    last_push: "2026-10-01"
   - name: "revuto"
     title: "revuto"
     description: "Local, supplier-agnostic, repo-agnostic autonomous PR reviewer that learns from maintainer feedback into graduated skills (any OpenAI-compatible model; Obsidian vault; SurrealDB/SQLite)."
@@ -174,25 +92,78 @@ repos:
     topics: []
     stars_fact: 4
     first_seen: null
-    last_push: "2026-09-20"
-  - name: "hqmtp"
-    title: "hqmtp"
-    description: "MTP draft-head research harness for Qwen3.5-9B. Verdict: function cuts (pruning, low-rank, distillation) pay a 10-19pt off-distribution tax fidelity cuts do not — the zero-training trimmed-vocab NVFP4 recipe wins at 1.8-2.7x end-to-end in memra. Negative-result ledgers included."
-    language: "Python"
-    topics:
-      - "knowledge-distillation"
-      - "llm-inference"
-      - "multi-token-prediction"
-      - "pytorch"
-      - "quantization"
-      - "speculative-decoding"
-    stars_fact: 2
+    last_push: "2026-10-01"
+  - name: "avifenesh"
+    title: "avifenesh"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 1
     first_seen: null
-    last_push: "2026-08-20"
+    last_push: "2026-10-01"
+  - name: "glide-mq"
+    title: "glide-mq"
+    description: "High-performance message queue for Node.js — Valkey/Redis Streams with Rust-native NAPI bindings"
+    language: "TypeScript"
+    topics:
+      - "agents"
+      - "ai"
+      - "background-jobs"
+      - "job-queue"
+      - "llm"
+      - "message-queue"
+      - "mq"
+      - "nodejs"
+      - "performance"
+      - "queue"
+      - "redis"
+      - "streams"
+      - "typescript"
+      - "valkey"
+      - "worker"
+    stars_fact: 93
+    first_seen: null
+    last_push: "2026-09-30"
+  - name: "speedkey"
+    title: "speedkey"
+    description: null
+    language: "Rust"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-30"
+  - name: "tools"
+    title: "tools"
+    description: "harness - Agent tools (read, write, grep, glob, bash, webfetch, lsp, skill) with Rust and TS parity. Designed for real LLMs usage."
+    language: "TypeScript"
+    topics:
+      - "agents"
+      - "bash"
+      - "cargo"
+      - "fetch"
+      - "general-purpose"
+      - "glob"
+      - "grep"
+      - "harness"
+      - "llm"
+      - "lsp"
+      - "npm"
+      - "read"
+      - "research"
+      - "rust"
+      - "skills"
+      - "tools"
+      - "ts"
+      - "unix"
+      - "windows"
+      - "write"
+    stars_fact: 5
+    first_seen: null
+    last_push: "2026-09-30"
 ---
 
 # avifenesh
 
-851 pushes across 50 repositories on 80 active days in the last 90 days of public GitHub push activity.
+842 pushes across 47 repositories on 80 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/avifenesh

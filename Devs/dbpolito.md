@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [0, 0, 1, 1, 0, 12, 0, 0, 0, 0, 0, 0, 8]
+pushes_per_week: [0, 0, 1, 1, 0, 12, 0, 0, 0, 0, 0, 0, 9]
 windows:
   "7d":
-    pushes: 8
+    pushes: 9
     distinct_repos: 2
-    active_days: 2
+    active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 8
+    pushes: 9
     distinct_repos: 2
-    active_days: 2
+    active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 22
+    pushes: 23
     distinct_repos: 5
-    active_days: 6
+    active_days: 7
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 3.6667
-  repo_per_active_day: 0.8333
+  push_per_day: 3.2857
+  repo_per_active_day: 0.7143
   not_owned_ratio: 0.4000
   basename_concentration: 0.4000
   shapes: []
@@ -49,34 +49,50 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 8
+    pushes: 9
     distinct_repos: 2
-    pushes_per_repo: 4.0000
-    active_days: 2
+    pushes_per_repo: 4.5000
+    active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 8
+    pushes: 9
     distinct_repos: 2
-    pushes_per_repo: 4.0000
-    active_days: 2
+    pushes_per_repo: 4.5000
+    active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 22
+    pushes: 23
     distinct_repos: 5
-    pushes_per_repo: 4.4000
-    active_days: 6
+    pushes_per_repo: 4.6000
+    active_days: 7
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 6 active days in 90d — pass"
+  - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "skills"
+    title: "skills"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-30"
+  - name: "opencode-ci"
+    title: "opencode-ci"
+    description: "OpenCode V2 runner for CI with subagent logs"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-09-30"
   - name: "cardapiocidade-app"
     title: "cardapiocidade-app"
     description: null
@@ -109,26 +125,10 @@ repos:
     stars_fact: 5
     first_seen: null
     last_push: "2013-02-22"
-  - name: "Fuel-Menu"
-    title: "Fuel-Menu"
-    description: "Lightweight class to create menu based on array"
-    language: "PHP"
-    topics: []
-    stars_fact: 10
-    first_seen: null
-    last_push: "2013-06-10"
-  - name: "Fuel-Breadcrumb"
-    title: "Fuel-Breadcrumb"
-    description: "Breadcrumb Auto Generator Class to FuelPHP"
-    language: "PHP"
-    topics: []
-    stars_fact: 25
-    first_seen: null
-    last_push: "2015-05-26"
 ---
 
 # dbpolito
 
-22 pushes across 5 repositories on 6 active days in the last 90 days of public GitHub push activity.
+23 pushes across 5 repositories on 7 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/dbpolito

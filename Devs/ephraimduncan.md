@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [27, 3, 1, 1, 2, 1, 1, 5, 1, 2, 0, 3, 1]
+pushes_per_week: [11, 3, 0, 3, 0, 1, 1, 6, 0, 2, 0, 3, 3]
 windows:
   "7d":
     pushes: 3
     distinct_repos: 2
     active_days: 2
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
-  "30d":
-    pushes: 6
-    distinct_repos: 5
-    active_days: 5
-    repos_not_owned: 3
-    not_owned_basenames: 3
+    repos_not_owned: 2
+    not_owned_basenames: 2
     not_owned_owners: 2
-  "90d":
-    pushes: 48
-    distinct_repos: 10
-    active_days: 20
+  "30d":
+    pushes: 8
+    distinct_repos: 6
+    active_days: 6
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 3
+  "90d":
+    pushes: 33
+    distinct_repos: 11
+    active_days: 20
+    repos_not_owned: 5
+    not_owned_basenames: 4
+    not_owned_owners: 4
 automation:
   state: "clear"
-  push_per_day: 2.4000
-  repo_per_active_day: 0.5000
-  not_owned_ratio: 0.4000
-  basename_concentration: 0.2000
+  push_per_day: 1.6500
+  repo_per_active_day: 0.5500
+  not_owned_ratio: 0.4545
+  basename_concentration: 0.1818
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -53,25 +53,25 @@ facets:
     distinct_repos: 2
     pushes_per_repo: 1.5000
     active_days: 2
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
-  "30d":
-    pushes: 6
-    distinct_repos: 5
-    pushes_per_repo: 1.2000
-    active_days: 5
-    repos_not_owned: 3
-    not_owned_basenames: 3
+    repos_not_owned: 2
+    not_owned_basenames: 2
     not_owned_owners: 2
-  "90d":
-    pushes: 48
-    distinct_repos: 10
-    pushes_per_repo: 4.8000
-    active_days: 20
+  "30d":
+    pushes: 8
+    distinct_repos: 6
+    pushes_per_repo: 1.3333
+    active_days: 6
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 3
+  "90d":
+    pushes: 33
+    distinct_repos: 11
+    pushes_per_repo: 3.0000
+    active_days: 20
+    repos_not_owned: 5
+    not_owned_basenames: 4
+    not_owned_owners: 4
 reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 20 active days in 90d — pass"
@@ -82,9 +82,40 @@ repos:
     description: "An open-source library of UI blocks. Built with React, Tailwind and shadcn/ui"
     language: "TypeScript"
     topics: []
-    stars_fact: 1832
+    stars_fact: 1837
     first_seen: null
     last_push: "2026-09-17"
+  - name: "minimal-youtube"
+    title: "minimal-youtube"
+    description: "Minimal YouTube is an extension that replaces the YouTube UI with a minimal design containing no recommendations, shorts, or distractions."
+    language: "JavaScript"
+    topics:
+      - "brave"
+      - "browser"
+      - "browser-extension"
+      - "chrome"
+      - "chrome-extension"
+      - "firefox"
+      - "firefox-extension"
+    stars_fact: 301
+    first_seen: null
+    last_push: "2024-06-23"
+  - name: "weekday"
+    title: "weekday"
+    description: "open source google calendar"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 192
+    first_seen: null
+    last_push: "2026-09-01"
+  - name: "codex-cursor"
+    title: "codex-cursor"
+    description: "Local OpenAI-compatible proxy that routes Cursor IDE traffic to your ChatGPT/Codex subscription via the codex CLI tokens."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 28
+    first_seen: null
+    last_push: "2026-04-29"
   - name: "opencode-cursor"
     title: "opencode-cursor"
     description: "Use your cursor subscription in opencode"
@@ -93,14 +124,6 @@ repos:
     stars_fact: 279
     first_seen: null
     last_push: "2026-08-21"
-  - name: "weekday"
-    title: "weekday"
-    description: "open source google calendar"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 189
-    first_seen: null
-    last_push: "2026-09-01"
   - name: "shadcn-playground"
     title: "shadcn-playground"
     description: null
@@ -109,36 +132,10 @@ repos:
     stars_fact: 55
     first_seen: null
     last_push: "2026-07-10"
-  - name: "minimal.so"
-    title: "minimal.so"
-    description: "simple bookmarking for everyone"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 166
-    first_seen: null
-    last_push: "2026-06-12"
-  - name: "mac-download-manager"
-    title: "mac-download-manager"
-    description: "Open source download manager for Mac"
-    language: "Swift"
-    topics:
-      - "download-manager"
-      - "download-manager-tools"
-      - "downloader"
-      - "free-download-manager"
-      - "mac-download-manager"
-      - "macos"
-      - "manager"
-      - "moltix"
-      - "swift"
-      - "swiftui"
-    stars_fact: 89
-    first_seen: null
-    last_push: "2026-03-24"
 ---
 
 # ephraimduncan
 
-48 pushes across 10 repositories on 20 active days in the last 90 days of public GitHub push activity.
+33 pushes across 11 repositories on 20 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ephraimduncan

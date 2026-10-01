@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "533d51d9d3dea76f"
-pushes_per_week: [8, 7, 13, 12, 7, 3, 1, 0, 1, 2, 1, 4, 8]
+pushes_per_week: [8, 7, 12, 13, 6, 3, 0, 1, 0, 2, 1, 5, 7]
 windows:
   "7d":
-    pushes: 8
-    distinct_repos: 2
-    active_days: 4
+    pushes: 7
+    distinct_repos: 1
+    active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 67
+    pushes: 65
     distinct_repos: 6
-    active_days: 37
+    active_days: 36
     repos_not_owned: 3
     not_owned_basenames: 1
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 1.8108
-  repo_per_active_day: 0.1622
+  push_per_day: 1.8056
+  repo_per_active_day: 0.1667
   not_owned_ratio: 0.5000
   basename_concentration: 0.5000
   shapes: []
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 8
-    distinct_repos: 2
-    pushes_per_repo: 4.0000
-    active_days: 4
+    pushes: 7
+    distinct_repos: 1
+    pushes_per_repo: 7.0000
+    active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -65,18 +65,34 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 67
+    pushes: 65
     distinct_repos: 6
-    pushes_per_repo: 11.1667
-    active_days: 37
+    pushes_per_repo: 10.8333
+    active_days: 36
     repos_not_owned: 3
     not_owned_basenames: 1
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 37 active days in 90d — pass"
+  - "activity: 36 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "friendzone"
+    title: "friendzone"
+    description: "Inference, MCP, GitHub proxy for containerized agents."
+    language: "Rust"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-30"
+  - name: "qwanban"
+    title: "qwanban"
+    description: "Hyper-V hosts for agentic workers."
+    language: "Rust"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-30"
   - name: "rules"
     title: "rules"
     description: "Agent rules."
@@ -85,14 +101,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-09-23"
-  - name: "friendzone"
-    title: "friendzone"
-    description: "Inference, MCP, GitHub proxy for containerized agents."
-    language: "Rust"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-18"
   - name: "kamibiki"
     title: "kamibiki"
     description: "Semantic repository search tool and MCP server."
@@ -101,14 +109,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-09-17"
-  - name: "qwanban"
-    title: "qwanban"
-    description: "Hyper-V hosts for agentic workers."
-    language: "Rust"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-14"
   - name: "deepserve"
     title: "deepserve"
     description: "Have models bitbash HTTP responses"
@@ -129,6 +129,6 @@ repos:
 
 # dominiccooney
 
-67 pushes across 6 repositories on 37 active days in the last 90 days of public GitHub push activity.
+65 pushes across 6 repositories on 36 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/dominiccooney

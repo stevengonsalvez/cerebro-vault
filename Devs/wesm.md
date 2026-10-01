@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "68551dc8cb2a5ed6"
-pushes_per_week: [157, 128, 143, 119, 121, 128, 176, 33, 8, 19, 18, 62, 71]
+pushes_per_week: [151, 126, 174, 95, 110, 188, 107, 35, 6, 21, 29, 50, 81]
 windows:
   "7d":
-    pushes: 83
-    distinct_repos: 20
+    pushes: 81
+    distinct_repos: 19
     active_days: 7
-    repos_not_owned: 20
+    repos_not_owned: 19
     not_owned_basenames: 10
     not_owned_owners: 7
   "30d":
-    pushes: 170
+    pushes: 181
     distinct_repos: 28
-    active_days: 23
+    active_days: 24
     repos_not_owned: 27
     not_owned_basenames: 11
     not_owned_owners: 11
   "90d":
-    pushes: 1183
+    pushes: 1173
     distinct_repos: 69
     active_days: 80
     repos_not_owned: 66
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 42
 automation:
   state: "clear"
-  push_per_day: 14.7875
+  push_per_day: 14.6625
   repo_per_active_day: 0.8625
   not_owned_ratio: 0.9565
   basename_concentration: 0.2899
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 83
-    distinct_repos: 20
-    pushes_per_repo: 4.1500
+    pushes: 81
+    distinct_repos: 19
+    pushes_per_repo: 4.2632
     active_days: 7
-    repos_not_owned: 20
+    repos_not_owned: 19
     not_owned_basenames: 10
     not_owned_owners: 7
   "30d":
-    pushes: 170
+    pushes: 181
     distinct_repos: 28
-    pushes_per_repo: 6.0714
-    active_days: 23
+    pushes_per_repo: 6.4643
+    active_days: 24
     repos_not_owned: 27
     not_owned_basenames: 11
     not_owned_owners: 11
   "90d":
-    pushes: 1183
+    pushes: 1173
     distinct_repos: 69
-    pushes_per_repo: 17.1449
+    pushes_per_repo: 17.0000
     active_days: 80
     repos_not_owned: 66
     not_owned_basenames: 18
@@ -129,6 +129,6 @@ repos:
 
 # wesm
 
-1183 pushes across 69 repositories on 80 active days in the last 90 days of public GitHub push activity.
+1173 pushes across 69 repositories on 80 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/wesm

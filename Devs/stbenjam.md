@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "01cd6a498d377caf"
   - "03604cccd7e9402d"
@@ -63,7 +63,7 @@ provenance:
   - "f9a1870648a6375a"
   - "fe9e50bf2d5b21fe"
   - "ff1ca072bf39e471"
-pushes_per_week: [43, 0, 5, 16, 4, 15, 3, 1, 7, 0, 0, 4, 12]
+pushes_per_week: [29, 1, 4, 18, 4, 14, 2, 1, 7, 0, 0, 4, 12]
 windows:
   "7d":
     pushes: 12
@@ -80,18 +80,18 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 110
-    distinct_repos: 20
-    active_days: 33
+    pushes: 96
+    distinct_repos: 19
+    active_days: 32
     repos_not_owned: 4
     not_owned_basenames: 3
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 3.3333
-  repo_per_active_day: 0.6061
-  not_owned_ratio: 0.2000
-  basename_concentration: 0.1500
+  push_per_day: 3.0000
+  repo_per_active_day: 0.5938
+  not_owned_ratio: 0.2105
+  basename_concentration: 0.1579
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -116,16 +116,16 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 110
-    distinct_repos: 20
-    pushes_per_repo: 5.5000
-    active_days: 33
+    pushes: 96
+    distinct_repos: 19
+    pushes_per_repo: 5.0526
+    active_days: 32
     repos_not_owned: 4
     not_owned_basenames: 3
     not_owned_owners: 3
 reasons:
   - "provenance: 52 vault signal(s) — pass"
-  - "activity: 33 active days in 90d — pass"
+  - "activity: 32 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "skillsaw"
@@ -150,17 +150,25 @@ repos:
       - "skill"
       - "skill-md"
       - "skills"
-    stars_fact: 66
+    stars_fact: 68
     first_seen: null
-    last_push: "2026-09-23"
+    last_push: "2026-09-28"
   - name: "jevagotchi"
     title: "jevagotchi"
     description: "A tiny virtual pet cared for by TypeSafe Jev through OpenRouter"
     language: "JavaScript"
     topics: []
-    stars_fact: 1
+    stars_fact: 3
     first_seen: null
     last_push: "2026-09-18"
+  - name: "cronex"
+    title: "cronex"
+    description: "Implementation for scheduled tasks in Codex CLI"
+    language: "Go"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-09-27"
   - name: "skills"
     title: "skills"
     description: "Personal Skills"
@@ -168,26 +176,18 @@ repos:
     topics: []
     stars_fact: 5
     first_seen: null
-    last_push: "2026-09-19"
+    last_push: "2026-09-28"
+  - name: "HyperIcons"
+    title: "HyperIcons"
+    description: "A personal project I use to override HyperOS Icons"
+    language: "Kotlin"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-04-15"
   - name: "jev-drums"
     title: "jev-drums"
     description: "A Jev-powered drum machine with coherent, continuously evolving grooves"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-18"
-  - name: "jev-eight-ball"
-    title: "jev-eight-ball"
-    description: "A liquid magic eight ball powered by TypeSafe Jev decisions through OpenRouter"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-18"
-  - name: "jev-boarding"
-    title: "jev-boarding"
-    description: "Compare airplane boarding strategies with a Jev dispatcher using boarding scans and seat occupancy"
     language: "JavaScript"
     topics: []
     stars_fact: 0
@@ -197,6 +197,6 @@ repos:
 
 # stbenjam
 
-110 pushes across 20 repositories on 33 active days in the last 90 days of public GitHub push activity.
+96 pushes across 19 repositories on 32 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/stbenjam

@@ -9,39 +9,39 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "97c4e9cb8b163ddb"
   - "c7515e0fa4368a55"
   - "d3abe74726b22711"
   - "e7c647c4d0689526"
-pushes_per_week: [12, 0, 6, 1, 1, 3, 2, 1, 1, 1, 2, 6, 8]
+pushes_per_week: [12, 3, 3, 1, 2, 2, 2, 2, 0, 1, 2, 6, 9]
 windows:
   "7d":
-    pushes: 8
+    pushes: 9
     distinct_repos: 4
-    active_days: 3
+    active_days: 4
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
   "30d":
-    pushes: 17
+    pushes: 18
     distinct_repos: 4
-    active_days: 8
+    active_days: 9
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
   "90d":
-    pushes: 44
+    pushes: 45
     distinct_repos: 13
-    active_days: 24
+    active_days: 25
     repos_not_owned: 9
     not_owned_basenames: 9
     not_owned_owners: 5
 automation:
   state: "clear"
-  push_per_day: 1.8333
-  repo_per_active_day: 0.5417
+  push_per_day: 1.8000
+  repo_per_active_day: 0.5200
   not_owned_ratio: 0.6923
   basename_concentration: 0.0769
   shapes: []
@@ -52,32 +52,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 8
+    pushes: 9
     distinct_repos: 4
-    pushes_per_repo: 2.0000
-    active_days: 3
+    pushes_per_repo: 2.2500
+    active_days: 4
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
   "30d":
-    pushes: 17
+    pushes: 18
     distinct_repos: 4
-    pushes_per_repo: 4.2500
-    active_days: 8
+    pushes_per_repo: 4.5000
+    active_days: 9
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
   "90d":
-    pushes: 44
+    pushes: 45
     distinct_repos: 13
-    pushes_per_repo: 3.3846
-    active_days: 24
+    pushes_per_repo: 3.4615
+    active_days: 25
     repos_not_owned: 9
     not_owned_basenames: 9
     not_owned_owners: 5
 reasons:
   - "provenance: 4 vault signal(s) — pass"
-  - "activity: 24 active days in 90d — pass"
+  - "activity: 25 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "rki-abwasser-reports"
@@ -92,7 +92,7 @@ repos:
       - "wastewater-surveillance"
     stars_fact: 1
     first_seen: null
-    last_push: "2026-09-23"
+    last_push: "2026-09-30"
   - name: "pango-designation-dates"
     title: "pango-designation-dates"
     description: "Contains dates on which each Pango lineage was designated"
@@ -138,6 +138,6 @@ repos:
 
 # corneliusroemer
 
-44 pushes across 13 repositories on 24 active days in the last 90 days of public GitHub push activity.
+45 pushes across 13 repositories on 25 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/corneliusroemer

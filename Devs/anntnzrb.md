@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [0, 3, 3, 0, 2, 3, 5, 0, 0, 0, 3, 0, 13]
+pushes_per_week: [0, 3, 3, 1, 1, 7, 1, 0, 0, 0, 3, 0, 13]
 windows:
   "7d":
     pushes: 13
@@ -77,14 +77,6 @@ reasons:
   - "activity: 21 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "nurpkgs"
-    title: "nurpkgs"
-    description: "annt's personal NUR (nixpkgs) repository"
-    language: "Nix"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-23"
   - name: "agents"
     title: "agents"
     description: "Configurations for LLM Harnesses"
@@ -92,7 +84,15 @@ repos:
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-09-23"
+    last_push: "2026-10-01"
+  - name: "nurpkgs"
+    title: "nurpkgs"
+    description: "annt's personal NUR (nixpkgs) repository"
+    language: "Nix"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-30"
   - name: "_nixrice"
     title: "_nixrice"
     description: "@anntnzrb's *nix environment; managed by the Nix ecosystem"
@@ -102,18 +102,7 @@ repos:
       - "nix"
     stars_fact: 1
     first_seen: null
-    last_push: "2026-09-21"
-  - name: "windozing"
-    title: "windozing"
-    description: "Collection of PowerShell scripts for Windows systems."
-    language: "PowerShell"
-    topics:
-      - "powershell"
-      - "regedit"
-      - "windows"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2025-05-30"
+    last_push: "2026-09-30"
   - name: "homebrew-tap"
     title: "homebrew-tap"
     description: "Homebrew formulae and casks"
@@ -126,7 +115,7 @@ repos:
       - "macos"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-11"
+    last_push: "2026-09-29"
   - name: "Melaffeine"
     title: "Melaffeine"
     description: "Lightweight native macOS menu-bar utility & CLI to prevent sleep using IOKit assertions. 100% Rust with modern objc2 bindings."
@@ -144,7 +133,18 @@ repos:
       - "sleep-prevention"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-11"
+    last_push: "2026-09-29"
+  - name: "nixvim"
+    title: "nixvim"
+    description: "annt's nixified neovim"
+    language: "Nix"
+    topics:
+      - "neovim"
+      - "nix"
+      - "vim"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-27"
 ---
 
 # anntnzrb

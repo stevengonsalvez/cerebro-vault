@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "90688bf127241ceb"
-pushes_per_week: [7, 1, 2, 2, 0, 1, 0, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [2, 1, 3, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 13
-    distinct_repos: 5
-    active_days: 8
+    pushes: 8
+    distinct_repos: 4
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.6250
-  repo_per_active_day: 0.6250
+  push_per_day: 1.3333
+  repo_per_active_day: 0.6667
   not_owned_ratio: 0.0000
-  basename_concentration: 0.2000
+  basename_concentration: 0.2500
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,18 +65,42 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 13
-    distinct_repos: 5
-    pushes_per_repo: 2.6000
-    active_days: 8
+    pushes: 8
+    distinct_repos: 4
+    pushes_per_repo: 2.0000
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 8 active days in 90d — pass"
+  - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "codex-plugin-repair-windows-skill"
+    title: "codex-plugin-repair-windows-skill"
+    description: "Repair Windows Codex bundled Chrome and Computer Use plugin state after app updates."
+    language: "PowerShell"
+    topics: []
+    stars_fact: 31
+    first_seen: null
+    last_push: "2026-06-21"
+  - name: "codex-windows-cn"
+    title: "codex-windows-cn"
+    description: "Codex Windows 中文一键安装、更新、启动与卸载助手"
+    language: "Rust"
+    topics: []
+    stars_fact: 64
+    first_seen: null
+    last_push: "2026-09-29"
+  - name: "claude-desktop-cn"
+    title: "claude-desktop-cn"
+    description: "Windows 与 macOS 上的 Claude Desktop 管理与简体中文助手：官方安装更新、Cowork 兼容汉化、恢复原样。"
+    language: "Rust"
+    topics: []
+    stars_fact: 33
+    first_seen: null
+    last_push: "2026-09-26"
   - name: "ai-learning-coach"
     title: "ai-learning-coach"
     description: "AI private learning coach for Codex: learn through real projects, adaptive dialogue, debugging, evidence-based mastery, and visible progress."
@@ -92,61 +116,29 @@ repos:
       - "developer-tools"
       - "learning-coach"
       - "project-based-learning"
-    stars_fact: 221
+    stars_fact: 224
     first_seen: null
-    last_push: "2026-09-06"
-  - name: "codex-windows-cn"
-    title: "codex-windows-cn"
-    description: "Codex Windows 中文一键安装、更新、启动与卸载助手"
-    language: "Rust"
+    last_push: "2026-09-26"
+  - name: "agent-harness-notes"
+    title: "agent-harness-notes"
+    description: "Agent Harness 学习笔记：通过真实 Codex + CPA 日志理解上下文、工具与技能调用"
+    language: "JavaScript"
     topics: []
-    stars_fact: 59
-    first_seen: null
-    last_push: "2026-09-20"
-  - name: "cpa-stack-updater"
-    title: "cpa-stack-updater"
-    description: "Safe, rollback-first updater for local CLIProxyAPI (CPA) and CPA Manager Plus stacks on Windows."
-    language: "PowerShell"
-    topics:
-      - "auto-update"
-      - "cliproxyapi"
-      - "codex-skills"
-      - "cpa-manager-plus"
-      - "powershell"
-      - "rollback"
-      - "sqlite"
-      - "windows"
     stars_fact: 1
     first_seen: null
-    last_push: "2026-09-21"
-  - name: "claude-desktop-windows-updater"
-    title: "claude-desktop-windows-updater"
-    description: "Claude Desktop Windows updater"
-    language: "Rust"
-    topics: []
-    stars_fact: 10
-    first_seen: null
-    last_push: "2026-09-14"
+    last_push: "2026-09-29"
   - name: "claude-desktop-zh"
     title: "claude-desktop-zh"
     description: "Claude Desktop Windows 中文补丁工具，支持简体中文、繁体中文和一键恢复"
     language: "Rust"
     topics: []
-    stars_fact: 22
+    stars_fact: 23
     first_seen: null
     last_push: "2026-07-03"
-  - name: "codex-plugin-repair-windows-skill"
-    title: "codex-plugin-repair-windows-skill"
-    description: "Repair Windows Codex bundled Chrome and Computer Use plugin state after app updates."
-    language: "PowerShell"
-    topics: []
-    stars_fact: 30
-    first_seen: null
-    last_push: "2026-06-21"
 ---
 
 # chrichuang218
 
-13 pushes across 5 repositories on 8 active days in the last 90 days of public GitHub push activity.
+8 pushes across 4 repositories on 6 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/chrichuang218

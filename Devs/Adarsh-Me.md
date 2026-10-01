@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [0, 0, 1, 0, 0, 0, 0, 1, 1, 0, 2, 1, 4]
+pushes_per_week: [0, 0, 1, 0, 0, 0, 0, 2, 0, 0, 2, 2, 3]
 windows:
   "7d":
-    pushes: 5
-    distinct_repos: 3
-    active_days: 4
+    pushes: 3
+    distinct_repos: 2
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 5
-    distinct_repos: 3
-    pushes_per_repo: 1.6667
-    active_days: 4
+    pushes: 3
+    distinct_repos: 2
+    pushes_per_repo: 1.5000
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -77,6 +77,14 @@ reasons:
   - "activity: 9 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "Vaani2.0"
+    title: "Vaani2.0"
+    description: null
+    language: "Kotlin"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-29"
   - name: "VAANI"
     title: "VAANI"
     description: null
@@ -131,14 +139,6 @@ repos:
     stars_fact: 5
     first_seen: null
     last_push: "2026-07-19"
-  - name: "Argus-Leo"
-    title: "Argus-Leo"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-07-18"
 ---
 
 # Adarsh-Me

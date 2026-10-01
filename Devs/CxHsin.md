@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-29T06:07:44.400276+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [4, 2, 3, 15, 0, 0, 1, 0, 0, 0, 0, 1, 2]
+pushes_per_week: [4, 2, 3, 15, 0, 0, 1, 0, 0, 0, 0, 2, 1]
 windows:
   "7d":
     pushes: 2
@@ -77,14 +77,14 @@ reasons:
   - "activity: 11 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "nib"
-    title: "nib"
-    description: "A lightweight personal CLI agent built with Python and DeepSeek, with notes tools, sessions, and preferences."
-    language: "Python"
+  - name: "nailong-bot"
+    title: "nailong-bot"
+    description: "Personal Telegram agent"
+    language: "TypeScript"
     topics: []
-    stars_fact: 0
+    stars_fact: 1
     first_seen: null
-    last_push: "2026-09-23"
+    last_push: "2026-09-30"
   - name: "jarvis-agent"
     title: "jarvis-agent"
     description: "My Jarvis"
@@ -92,7 +92,15 @@ repos:
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-09-19"
+    last_push: "2026-09-25"
+  - name: "nib"
+    title: "nib"
+    description: "A lightweight personal CLI agent built with Python and DeepSeek, with notes tools, sessions, and preferences."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-24"
   - name: "blog"
     title: "blog"
     description: "My Blog"
@@ -117,14 +125,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-09-03"
-  - name: "study-agent"
-    title: "study-agent"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-08-20"
 ---
 
 # CxHsin

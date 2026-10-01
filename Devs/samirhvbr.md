@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "4138778ebbc75ba6"
-pushes_per_week: [12, 13, 12, 17, 3, 1, 0, 2, 0, 4, 3, 22, 16]
+pushes_per_week: [5, 15, 11, 19, 0, 1, 0, 2, 0, 4, 13, 22, 9]
 windows:
   "7d":
-    pushes: 21
-    distinct_repos: 8
-    active_days: 5
+    pushes: 18
+    distinct_repos: 9
+    active_days: 6
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 45
+    pushes: 48
     distinct_repos: 11
-    active_days: 12
+    active_days: 14
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 105
-    distinct_repos: 30
-    active_days: 37
+    pushes: 101
+    distinct_repos: 27
+    active_days: 38
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.8378
-  repo_per_active_day: 0.8108
-  not_owned_ratio: 0.0667
-  basename_concentration: 0.1000
+  push_per_day: 2.6579
+  repo_per_active_day: 0.7105
+  not_owned_ratio: 0.0741
+  basename_concentration: 0.0741
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 21
-    distinct_repos: 8
-    pushes_per_repo: 2.6250
-    active_days: 5
+    pushes: 18
+    distinct_repos: 9
+    pushes_per_repo: 2.0000
+    active_days: 6
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 45
+    pushes: 48
     distinct_repos: 11
-    pushes_per_repo: 4.0909
-    active_days: 12
+    pushes_per_repo: 4.3636
+    active_days: 14
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 105
-    distinct_repos: 30
-    pushes_per_repo: 3.5000
-    active_days: 37
+    pushes: 101
+    distinct_repos: 27
+    pushes_per_repo: 3.7407
+    active_days: 38
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 37 active days in 90d — pass"
+  - "activity: 38 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "shvia-mobile"
@@ -129,6 +129,6 @@ repos:
 
 # samirhvbr
 
-105 pushes across 30 repositories on 37 active days in the last 90 days of public GitHub push activity.
+101 pushes across 27 repositories on 38 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/samirhvbr

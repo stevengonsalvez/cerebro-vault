@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "b5590ec052a4f771"
-pushes_per_week: [65, 37, 37, 25, 16, 58, 28, 8, 2, 6, 9, 34, 134]
+pushes_per_week: [66, 42, 32, 28, 8, 62, 23, 9, 1, 7, 13, 42, 133]
 windows:
   "7d":
-    pushes: 137
+    pushes: 138
     distinct_repos: 3
     active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 184
+    pushes: 195
     distinct_repos: 3
     active_days: 20
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 459
+    pushes: 466
     distinct_repos: 4
     active_days: 71
     repos_not_owned: 0
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 6.4648
+  push_per_day: 6.5634
   repo_per_active_day: 0.0563
   not_owned_ratio: 0.0000
   basename_concentration: 0.2500
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 137
+    pushes: 138
     distinct_repos: 3
-    pushes_per_repo: 45.6667
+    pushes_per_repo: 46.0000
     active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 184
+    pushes: 195
     distinct_repos: 3
-    pushes_per_repo: 61.3333
+    pushes_per_repo: 65.0000
     active_days: 20
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 459
+    pushes: 466
     distinct_repos: 4
-    pushes_per_repo: 114.7500
+    pushes_per_repo: 116.5000
     active_days: 71
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -79,7 +79,7 @@ reasons:
 repos:
   - name: "DeepSeek-Reasonix"
     title: "DeepSeek-Reasonix"
-    description: "DeepSeek-native AI coding agent for your terminal. Engineered around prefix-cache stability — leave it running."
+    description: "A reliable coding agent for complex software engineering tasks."
     language: "Go"
     topics:
       - "agent"
@@ -100,9 +100,17 @@ repos:
       - "tool-use"
       - "tui"
       - "typescript"
-    stars_fact: 35688
+    stars_fact: 35722
     first_seen: "2026-08-03T06:00:03.957834+00:00"
-    last_push: "2026-09-23"
+    last_push: "2026-10-01"
+  - name: "homebrew-reasonix"
+    title: "homebrew-reasonix"
+    description: "Homebrew tap for Reasonix — the cache-first DeepSeek coding agent."
+    language: "Ruby"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-10-01"
   - name: "estella"
     title: "estella"
     description: "A fast 2D game engine — TypeScript SDK, C++/WebAssembly core, visual editor. Ship one project to web, desktop, WeChat MiniGames, playable ads, and native Android / iOS."
@@ -121,9 +129,9 @@ repos:
       - "webgl"
       - "webgpu"
       - "wechat-minigame"
-    stars_fact: 679
+    stars_fact: 682
     first_seen: null
-    last_push: "2026-09-23"
+    last_push: "2026-10-01"
   - name: "esengine"
     title: "esengine"
     description: "ESEngine - High-performance TypeScript ECS Framework for Game Development"
@@ -143,43 +151,36 @@ repos:
       - "typescript"
       - "wasm"
       - "webgl"
-    stars_fact: 918
+    stars_fact: 920
     first_seen: null
     last_push: "2026-07-30"
-  - name: "BehaviourTree-ai"
-    title: "BehaviourTree-ai"
-    description: "一个高性能的TypeScript AI系统库，包含行为树（Behavior Tree）、实用AI（Utility AI）和有限状态机（FSM），适用于Cocos/Laya"
-    language: "TypeScript"
+  - name: "HiveMind"
+    title: "HiveMind"
+    description: "A self-evolving, personalized AI system with federated learning"
+    language: "Python"
     topics:
-      - "behaviourtree"
-      - "cocos"
-      - "egret"
-      - "fsm"
-      - "laya"
-      - "selector"
-    stars_fact: 148
-    first_seen: null
-    last_push: "2026-02-23"
-  - name: "homebrew-reasonix"
-    title: "homebrew-reasonix"
-    description: "Homebrew tap for Reasonix — the cache-first DeepSeek coding agent."
-    language: "Ruby"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-20"
-  - name: "MAPEDITOR"
-    title: "MAPEDITOR"
-    description: "游戏地图编辑器"
-    language: "C#"
-    topics: []
+      - "ai"
+      - "federated-learning"
+      - "llm"
+      - "lora"
+      - "machine-learning"
+      - "personalization"
+      - "qwen"
     stars_fact: 3
     first_seen: null
-    last_push: "2021-06-11"
+    last_push: "2026-01-19"
+  - name: "lawn-mower-demo"
+    title: "lawn-mower-demo"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 24
+    first_seen: null
+    last_push: "2025-12-31"
 ---
 
 # esengine
 
-459 pushes across 4 repositories on 71 active days in the last 90 days of public GitHub push activity.
+466 pushes across 4 repositories on 71 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/esengine

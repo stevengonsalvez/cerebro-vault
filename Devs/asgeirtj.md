@@ -10,27 +10,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "716cf9e2237ac9db"
-pushes_per_week: [6, 4, 3, 4, 0, 1, 2, 0, 0, 0, 0, 1, 3]
+pushes_per_week: [5, 5, 3, 3, 0, 1, 2, 0, 0, 0, 0, 1, 5]
 windows:
   "7d":
-    pushes: 3
+    pushes: 5
     distinct_repos: 1
-    active_days: 2
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
-  "30d":
-    pushes: 4
-    distinct_repos: 2
     active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
+  "30d":
+    pushes: 6
+    distinct_repos: 2
+    active_days: 4
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
-    pushes: 24
+    pushes: 25
     distinct_repos: 3
     active_days: 18
     repos_not_owned: 0
@@ -38,7 +38,7 @@ windows:
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.3333
+  push_per_day: 1.3889
   repo_per_active_day: 0.1667
   not_owned_ratio: 0.0000
   basename_concentration: 0.3333
@@ -50,25 +50,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 3
+    pushes: 5
     distinct_repos: 1
-    pushes_per_repo: 3.0000
-    active_days: 2
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
-  "30d":
-    pushes: 4
-    distinct_repos: 2
-    pushes_per_repo: 2.0000
+    pushes_per_repo: 5.0000
     active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
+  "30d":
+    pushes: 6
+    distinct_repos: 2
+    pushes_per_repo: 3.0000
+    active_days: 4
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
-    pushes: 24
+    pushes: 25
     distinct_repos: 3
-    pushes_per_repo: 8.0000
+    pushes_per_repo: 8.3333
     active_days: 18
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -103,13 +103,13 @@ repos:
       - "prompt-engineering"
       - "system-prompt"
       - "system-prompts"
-    stars_fact: 68137
+    stars_fact: 68684
     first_seen: "2026-07-14T06:00:06.632654+00:00"
-    last_push: "2026-09-22"
+    last_push: "2026-10-01"
 ---
 
 # asgeirtj
 
-24 pushes across 3 repositories on 18 active days in the last 90 days of public GitHub push activity.
+25 pushes across 3 repositories on 18 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/asgeirtj

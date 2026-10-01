@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "1f49d0119cedbc84"
 pushes_per_week: [6, 7, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0, 1]
@@ -77,6 +77,16 @@ reasons:
   - "activity: 10 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "fungi-game"
+    title: "fungi-game"
+    description: "Real-time multiplayer strategy game about growing a mycelial network based on fungi.game"
+    language: "TypeScript"
+    topics:
+      - "game"
+      - "iogames"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-30"
   - name: "starmap"
     title: "starmap"
     description: "Browser-based star map for the Roblox game Waste of Space"
@@ -121,14 +131,6 @@ repos:
     stars_fact: 1
     first_seen: null
     last_push: "2023-07-19"
-  - name: "front"
-    title: "front"
-    description: "Node.js application front-end"
-    language: "Vue"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2022-12-14"
 ---
 
 # dsetzer

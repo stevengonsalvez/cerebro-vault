@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "3eacb4655aba2497"
-pushes_per_week: [0, 0, 0, 0, 6, 4, 0, 1, 1, 0, 2, 3, 2]
+pushes_per_week: [0, 0, 0, 0, 7, 3, 0, 2, 0, 0, 2, 3, 3]
 windows:
   "7d":
     pushes: 3
-    distinct_repos: 1
+    distinct_repos: 2
     active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 7
-    distinct_repos: 1
-    active_days: 6
+    pushes: 8
+    distinct_repos: 2
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 19
-    distinct_repos: 2
-    active_days: 14
+    pushes: 20
+    distinct_repos: 3
+    active_days: 15
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.3571
-  repo_per_active_day: 0.1429
+  push_per_day: 1.3333
+  repo_per_active_day: 0.2000
   not_owned_ratio: 0.0000
-  basename_concentration: 0.5000
+  basename_concentration: 0.3333
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -50,33 +50,41 @@ automation:
 facets:
   "7d":
     pushes: 3
-    distinct_repos: 1
-    pushes_per_repo: 3.0000
+    distinct_repos: 2
+    pushes_per_repo: 1.5000
     active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 7
-    distinct_repos: 1
-    pushes_per_repo: 7.0000
-    active_days: 6
+    pushes: 8
+    distinct_repos: 2
+    pushes_per_repo: 4.0000
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 19
-    distinct_repos: 2
-    pushes_per_repo: 9.5000
-    active_days: 14
+    pushes: 20
+    distinct_repos: 3
+    pushes_per_repo: 6.6667
+    active_days: 15
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 14 active days in 90d — pass"
+  - "activity: 15 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "pig"
+    title: "pig"
+    description: "Pi Gui"
+    language: "Rust"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-30"
   - name: "gantry"
     title: "gantry"
     description: "lightweight VMs in Go"
@@ -84,7 +92,7 @@ repos:
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-09-23"
+    last_push: "2026-09-27"
   - name: "ezpad-max15-mtk-boot-unlock-kit"
     title: "ezpad-max15-mtk-boot-unlock-kit"
     description: "Known-good bring-up bundle for EZpad_Max15 (MT8781/MT6789). This is the curated set of images, scripts, and docs that produced a booting system with root. Primary objective: make it possible to boot custom ROMs (including LineageOS 23.x) by bypassing AVB enforcement in the LK/vbmeta/vendor_boot boot chain."
@@ -123,18 +131,10 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-04-18"
-  - name: "pi-vulnerability-scanner"
-    title: "pi-vulnerability-scanner"
-    description: "pi-vulnerability-scanner"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-04-18"
 ---
 
 # ejpir
 
-19 pushes across 2 repositories on 14 active days in the last 90 days of public GitHub push activity.
+20 pushes across 3 repositories on 15 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ejpir

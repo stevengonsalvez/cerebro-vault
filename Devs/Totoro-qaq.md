@@ -10,16 +10,16 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "16389f32495280ea"
   - "4d1450729e6ff44d"
-pushes_per_week: [8, 4, 0, 0, 16, 7, 4, 2, 1, 2, 1, 4, 3]
+pushes_per_week: [8, 4, 0, 0, 16, 9, 2, 2, 1, 2, 3, 2, 3]
 windows:
   "7d":
-    pushes: 4
-    distinct_repos: 4
-    active_days: 4
+    pushes: 3
+    distinct_repos: 3
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -51,10 +51,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 4
-    distinct_repos: 4
+    pushes: 3
+    distinct_repos: 3
     pushes_per_repo: 1.0000
-    active_days: 4
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -93,7 +93,7 @@ repos:
       - "session-migration"
     stars_fact: 165
     first_seen: null
-    last_push: "2026-09-23"
+    last_push: "2026-09-30"
   - name: "Totoro-qaq"
     title: "Totoro-qaq"
     description: "GitHub profile README"
@@ -101,7 +101,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-23"
+    last_push: "2026-09-30"
   - name: "Cobsidian"
     title: "Cobsidian"
     description: "Agent-agnostic workflow skill for maintaining Obsidian knowledge bases"

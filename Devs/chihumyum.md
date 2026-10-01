@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [0, 0, 1, 1, 0, 0, 0, 3, 0, 1, 0, 3, 1]
+pushes_per_week: [0, 0, 2, 0, 0, 0, 0, 3, 0, 1, 0, 3, 3]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
+    pushes: 3
+    distinct_repos: 2
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 5
+    pushes: 7
     distinct_repos: 2
-    active_days: 4
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 10
+    pushes: 12
     distinct_repos: 4
-    active_days: 8
+    active_days: 10
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.2500
-  repo_per_active_day: 0.5000
+  push_per_day: 1.2000
+  repo_per_active_day: 0.4000
   not_owned_ratio: 0.0000
   basename_concentration: 0.2500
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes: 3
+    distinct_repos: 2
+    pushes_per_repo: 1.5000
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 5
+    pushes: 7
     distinct_repos: 2
-    pushes_per_repo: 2.5000
-    active_days: 4
+    pushes_per_repo: 3.5000
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 10
+    pushes: 12
     distinct_repos: 4
-    pushes_per_repo: 2.5000
-    active_days: 8
+    pushes_per_repo: 3.0000
+    active_days: 10
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 8 active days in 90d — pass"
+  - "activity: 10 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "Drifting"
@@ -82,9 +82,9 @@ repos:
     description: "An early-stage writing app, developed in the open."
     language: "TypeScript"
     topics: []
-    stars_fact: 0
+    stars_fact: 2
     first_seen: null
-    last_push: "2026-09-23"
+    last_push: "2026-10-01"
   - name: "Persimmon"
     title: "Persimmon"
     description: "A lightweight, native-rendered cross-platform EPUB reader."
@@ -93,9 +93,9 @@ repos:
       - "epub"
       - "epub-reader"
       - "ereader"
-    stars_fact: 2
+    stars_fact: 1
     first_seen: null
-    last_push: "2026-09-23"
+    last_push: "2026-09-30"
   - name: "persimmon-reader"
     title: "persimmon-reader"
     description: "Official website for the Persimmon EPUB reader"
@@ -139,6 +139,6 @@ repos:
 
 # chihumyum
 
-10 pushes across 4 repositories on 8 active days in the last 90 days of public GitHub push activity.
+12 pushes across 4 repositories on 10 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/chihumyum

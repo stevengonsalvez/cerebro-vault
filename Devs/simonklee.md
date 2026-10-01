@@ -9,18 +9,18 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [13, 10, 10, 4, 2, 4, 5, 5, 1, 0, 0, 5, 0]
+pushes_per_week: [14, 10, 8, 4, 2, 6, 3, 5, 1, 0, 0, 5, 0]
 windows:
   "7d":
-    pushes: 4
-    distinct_repos: 1
-    active_days: 1
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
     pushes: 5
     distinct_repos: 1
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 59
+    pushes: 58
     distinct_repos: 6
-    active_days: 33
+    active_days: 32
     repos_not_owned: 5
     not_owned_basenames: 3
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 1.7879
-  repo_per_active_day: 0.1818
+  push_per_day: 1.8125
+  repo_per_active_day: 0.1875
   not_owned_ratio: 0.8333
   basename_concentration: 0.5000
   shapes: []
@@ -49,13 +49,13 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 4
-    distinct_repos: 1
-    pushes_per_repo: 4.0000
-    active_days: 1
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
     pushes: 5
     distinct_repos: 1
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 59
+    pushes: 58
     distinct_repos: 6
-    pushes_per_repo: 9.8333
-    active_days: 33
+    pushes_per_repo: 9.6667
+    active_days: 32
     repos_not_owned: 5
     not_owned_basenames: 3
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 33 active days in 90d — pass"
+  - "activity: 32 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "opentui-bench"
@@ -129,6 +129,6 @@ repos:
 
 # simonklee
 
-59 pushes across 6 repositories on 33 active days in the last 90 days of public GitHub push activity.
+58 pushes across 6 repositories on 32 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/simonklee

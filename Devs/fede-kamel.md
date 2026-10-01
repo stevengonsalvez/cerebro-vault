@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "1be978947e68d1f2"
-pushes_per_week: [10, 13, 12, 8, 5, 16, 16, 1, 0, 0, 0, 4, 2]
+pushes_per_week: [11, 12, 14, 6, 5, 19, 13, 1, 0, 0, 0, 4, 3]
 windows:
   "7d":
-    pushes: 2
-    distinct_repos: 2
-    active_days: 2
+    pushes: 3
+    distinct_repos: 3
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 6
-    distinct_repos: 5
-    active_days: 4
+    pushes: 7
+    distinct_repos: 6
+    active_days: 5
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 87
-    distinct_repos: 23
-    active_days: 33
+    pushes: 88
+    distinct_repos: 24
+    active_days: 34
     repos_not_owned: 10
     not_owned_basenames: 10
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 2.6364
-  repo_per_active_day: 0.6970
-  not_owned_ratio: 0.4348
-  basename_concentration: 0.0870
+  push_per_day: 2.5882
+  repo_per_active_day: 0.7059
+  not_owned_ratio: 0.4167
+  basename_concentration: 0.0833
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,34 +49,42 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
-    distinct_repos: 2
+    pushes: 3
+    distinct_repos: 3
     pushes_per_repo: 1.0000
-    active_days: 2
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 6
-    distinct_repos: 5
-    pushes_per_repo: 1.2000
-    active_days: 4
+    pushes: 7
+    distinct_repos: 6
+    pushes_per_repo: 1.1667
+    active_days: 5
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 87
-    distinct_repos: 23
-    pushes_per_repo: 3.7826
-    active_days: 33
+    pushes: 88
+    distinct_repos: 24
+    pushes_per_repo: 3.6667
+    active_days: 34
     repos_not_owned: 10
     not_owned_basenames: 10
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 33 active days in 90d — pass"
+  - "activity: 34 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "openshell-oci-kill-switch-demo"
+    title: "openshell-oci-kill-switch-demo"
+    description: "Agent kill switch demo on NVIDIA OpenShell with OCI Generative AI: runbook, evidence, insights, upstream OCI integration status"
+    language: "Shell"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-30"
   - name: "llama-index-postprocessor-oci-genai-rerank"
     title: "llama-index-postprocessor-oci-genai-rerank"
     description: "OCIGenAIRerank: LlamaIndex node postprocessor backed by OCI Generative AI rerank models"
@@ -121,6 +129,6 @@ repos:
 
 # fede-kamel
 
-87 pushes across 23 repositories on 33 active days in the last 90 days of public GitHub push activity.
+88 pushes across 24 repositories on 34 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/fede-kamel

@@ -10,10 +10,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-29T06:07:44.400276+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "3cb7ff1cdcf97c6b"
-pushes_per_week: [5, 3, 5, 0, 2, 8, 0, 4, 0, 0, 0, 0, 0]
+pushes_per_week: [5, 5, 3, 0, 2, 8, 0, 4, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -103,68 +103,9 @@ repos:
       - "openclaw-plugins"
       - "openclaw-skills"
       - "prompt-engineering"
-    stars_fact: 26294
+    stars_fact: 27076
     first_seen: "2026-08-10T06:00:04.550142+00:00"
     last_push: "2026-08-30"
-  - name: "ClaudeForge"
-    title: "ClaudeForge"
-    description: "A CLAUDE.md Generator and Maintenance tool for for Claude Code to create high-quality CLAUDE.md instruction files — aligned with Anthropic’s best practices for Claude Code."
-    language: "Python"
-    topics:
-      - "agentic-ai"
-      - "agentic-workflow"
-      - "claude-code"
-      - "claude-skill"
-      - "claude-subagents"
-    stars_fact: 430
-    first_seen: null
-    last_push: "2026-05-19"
-  - name: "claude-code-skill-factory"
-    title: "claude-code-skill-factory"
-    description: "Claude Code Skill Factory — A powerful open-source toolkit for building and deploying production-ready Claude Skills, Code Agents, custom Slash Commands, and LLM Prompts at scale. Easily generate structured skill templates, automate workflow integration, and accelerate AI agent development with a clean, developer-friendly setup."
-    language: "Python"
-    topics:
-      - "ai-agents"
-      - "ai-tools"
-      - "claude-ai"
-      - "claude-code"
-      - "claude-skills"
-      - "claude-skills-creator"
-    stars_fact: 870
-    first_seen: null
-    last_push: "2025-11-12"
-  - name: "claude-code-tresor"
-    title: "claude-code-tresor"
-    description: "A world-class collection of Claude Code utilities: autonomous skills, expert agents, slash commands, and prompts that supercharge your development workflow"
-    language: "Shell"
-    topics:
-      - "agent-development-kit"
-      - "agentic-ai"
-      - "agentic-coding"
-      - "agentic-workflow"
-      - "agents"
-      - "anthropic-claude"
-      - "claude-code"
-    stars_fact: 777
-    first_seen: null
-    last_push: "2026-07-03"
-  - name: "claude-code-github-workflow"
-    title: "claude-code-github-workflow"
-    description: "World-Class GitHub Workflow for Claude Code. This Blueprint for Using Claude Code and Github as your Workflow automation suite and Project Management. Including Fully automated Task Management and Issue Tracking as well as Context Engineering. Turn Your Github Repository to the Second Brain for Your Claude Code."
-    language: "Shell"
-    topics:
-      - "claude-code"
-      - "github-actions"
-      - "github-claude-code"
-      - "github-projects"
-      - "github-wiki"
-      - "release-automation"
-      - "release-engineering"
-      - "workflow-automation"
-      - "workflow-reusable"
-    stars_fact: 65
-    first_seen: null
-    last_push: "2026-03-02"
   - name: "claude-code-aso-skill"
     title: "claude-code-aso-skill"
     description: "AEO Automation Framework for Claude Code One-click, beginner friendly automation for GitHub. Includes a dedicated fleet of AEO sub-agents handling planning, execution, reports, actionable items, and executive summaries. Trigger work instantly with AEO slash-commands. Fully integrated as a Claude Code Skill and usable across Claude AI App"
@@ -180,9 +121,81 @@ repos:
       - "claude-skill"
       - "ios"
       - "playstore"
-    stars_fact: 438
+    stars_fact: 443
     first_seen: null
     last_push: "2026-05-25"
+  - name: "gaios"
+    title: "gaios"
+    description: "Open-source AI Operating System (AIOS) blueprint for Claude Code & Codex — turn any agent into your personal second brain + Chief of Staff: skills, self-verifying workflows, a second-brain wiki, and deterministic tools. Fork it for any role or domain."
+    language: "Python"
+    topics:
+      - "agentic-workflows"
+      - "agents-md"
+      - "ai-agents"
+      - "ai-automation"
+      - "ai-chief-of-staff"
+      - "ai-operating-system"
+      - "aios"
+      - "anthropic"
+      - "blueprint"
+      - "claude-code"
+      - "claude-skills"
+      - "codex"
+      - "codex-cli"
+      - "knowledge-management"
+      - "llm"
+      - "mcp"
+      - "openai"
+      - "personal-assistant"
+      - "productivity"
+      - "second-brain"
+    stars_fact: 45
+    first_seen: null
+    last_push: "2026-06-06"
+  - name: "claude-cto-team"
+    title: "claude-cto-team"
+    description: "Your personal CTO Team for Claude Code . These Subagents will help you challenging yourself while you plan and execute."
+    language: "Python"
+    topics:
+      - "ai-agents"
+      - "ai-workflow"
+      - "ai-workflow-automation"
+      - "claude-ai"
+      - "claude-code"
+      - "claude-subagents"
+      - "cto"
+      - "cto-office"
+      - "roadmap"
+    stars_fact: 117
+    first_seen: null
+    last_push: "2025-12-18"
+  - name: "ClaudeForge"
+    title: "ClaudeForge"
+    description: "A CLAUDE.md Generator and Maintenance tool for for Claude Code to create high-quality CLAUDE.md instruction files — aligned with Anthropic’s best practices for Claude Code."
+    language: "Python"
+    topics:
+      - "agentic-ai"
+      - "agentic-workflow"
+      - "claude-code"
+      - "claude-skill"
+      - "claude-subagents"
+    stars_fact: 429
+    first_seen: null
+    last_push: "2026-05-19"
+  - name: "claude-code-skill-factory"
+    title: "claude-code-skill-factory"
+    description: "Claude Code Skill Factory — A powerful open-source toolkit for building and deploying production-ready Claude Skills, Code Agents, custom Slash Commands, and LLM Prompts at scale. Easily generate structured skill templates, automate workflow integration, and accelerate AI agent development with a clean, developer-friendly setup."
+    language: "Python"
+    topics:
+      - "ai-agents"
+      - "ai-tools"
+      - "claude-ai"
+      - "claude-code"
+      - "claude-skills"
+      - "claude-skills-creator"
+    stars_fact: 874
+    first_seen: null
+    last_push: "2025-11-12"
 ---
 
 # alirezarezvani

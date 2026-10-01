@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "9d67ce648f6a8919"
-pushes_per_week: [2, 1, 0, 0, 1, 1, 0, 1, 0, 0, 0, 0, 1]
+pushes_per_week: [2, 1, 0, 0, 2, 0, 0, 1, 0, 0, 0, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -77,22 +77,38 @@ reasons:
   - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "nerdinzzz-bot"
-    title: "nerdinzzz-bot"
-    description: "aiogram bot with llm api"
-    language: "Python"
+  - name: "caddy"
+    title: "caddy"
+    description: null
+    language: "Dockerfile"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-17"
-  - name: "clech-stats"
-    title: "clech-stats"
+    last_push: "2026-09-29"
+  - name: "teacher-ranking"
+    title: "teacher-ranking"
     description: null
     language: "TypeScript"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-08-28"
+    last_push: "2026-09-29"
+  - name: "traefik-setup"
+    title: "traefik-setup"
+    description: null
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-29"
+  - name: "vaultwarden"
+    title: "vaultwarden"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-29"
   - name: "gym-pass-bot"
     title: "gym-pass-bot"
     description: null
@@ -100,31 +116,15 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-08-28"
-  - name: "main-page"
-    title: "main-page"
-    description: null
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-28"
-  - name: "twitchinzzz-bot"
-    title: "twitchinzzz-bot"
+    last_push: "2026-09-27"
+  - name: "5k-discount-bot"
+    title: "5k-discount-bot"
     description: null
     language: "Python"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-08-28"
-  - name: "musinzzz-bot"
-    title: "musinzzz-bot"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-28"
+    last_push: "2026-09-25"
 ---
 
 # duckinzzz

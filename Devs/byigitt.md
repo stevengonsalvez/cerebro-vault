@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "1f49d0119cedbc84"
 pushes_per_week: [0, 0, 1, 0, 1, 2, 2, 0, 0, 0, 0, 0, 0]
@@ -77,6 +77,25 @@ reasons:
   - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "postmaker-x"
+    title: "postmaker-x"
+    description: "Optimize your X (Twitter) posts using the official open-source algorithm. Analyze engagement signals, get AI-powered suggestions, and maximize your reach."
+    language: "TypeScript"
+    topics:
+      - "engagement"
+      - "gemini-ai"
+      - "nodejs"
+      - "open-source"
+      - "optimization"
+      - "post-analyzer"
+      - "react"
+      - "social-media"
+      - "twitter"
+      - "typescript"
+      - "x-algorithm"
+    stars_fact: 78
+    first_seen: null
+    last_push: "2026-01-20"
   - name: "url"
     title: "url"
     description: "discord vanity url spammer"
@@ -88,7 +107,7 @@ repos:
       - "discord-url-spammer"
       - "discord-vanity"
       - "discord-vanity-url"
-    stars_fact: 25
+    stars_fact: 24
     first_seen: null
     last_push: "2024-09-17"
   - name: "visa-checker"
@@ -106,6 +125,14 @@ repos:
     stars_fact: 404
     first_seen: null
     last_push: "2026-06-06"
+  - name: "iStats"
+    title: "iStats"
+    description: null
+    language: "Swift"
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-09-24"
   - name: "tr-esign"
     title: "tr-esign"
     description: "Türkiye için XAdES + CAdES + PAdES + ASiC elektronik imza kütüphanesi — clean-room; ETSI EN 319 132 / TS 101 733 / EN 319 162 / EN 319 142 uyumlu (Node 20+, TypeScript)"
@@ -138,26 +165,6 @@ repos:
     stars_fact: 14
     first_seen: null
     last_push: "2026-01-07"
-  - name: "okey-astra"
-    title: "okey-astra"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-06"
-  - name: "cursor-free-fix"
-    title: "cursor-free-fix"
-    description: "Cursor fix for: \"You've reached your trial request limit. / Too many free trial accounts used on this machine.\" errors."
-    language: "Shell"
-    topics:
-      - "cursor"
-      - "cursor-fix"
-      - "cursor-free"
-      - "cursor-trial"
-    stars_fact: 30
-    first_seen: null
-    last_push: "2025-02-07"
 ---
 
 # byigitt

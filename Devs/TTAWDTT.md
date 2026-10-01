@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "e5b23adc376a62a9"
-pushes_per_week: [7, 2, 2, 0, 2, 2, 1, 0, 0, 1, 10, 4, 49]
+pushes_per_week: [3, 2, 2, 0, 2, 2, 1, 0, 0, 2, 9, 4, 49]
 windows:
   "7d":
     pushes: 49
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 80
+    pushes: 76
     distinct_repos: 10
-    active_days: 25
+    active_days: 23
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 3.2000
-  repo_per_active_day: 0.4000
+  push_per_day: 3.3043
+  repo_per_active_day: 0.4348
   not_owned_ratio: 0.0000
   basename_concentration: 0.1000
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 80
+    pushes: 76
     distinct_repos: 10
-    pushes_per_repo: 8.0000
-    active_days: 25
+    pushes_per_repo: 7.6000
+    active_days: 23
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 25 active days in 90d — pass"
+  - "activity: 23 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "sakurajima-mai"
@@ -129,6 +129,6 @@ repos:
 
 # TTAWDTT
 
-80 pushes across 10 repositories on 25 active days in the last 90 days of public GitHub push activity.
+76 pushes across 10 repositories on 23 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/TTAWDTT

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-28T06:07:44.182865+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "46f3c1d6124190bd"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 2, 2, 0, 0, 1, 2, 0]
+pushes_per_week: [0, 0, 0, 0, 0, 1, 2, 1, 0, 0, 1, 2, 0]
 windows:
   "7d":
     pushes: 0
@@ -84,7 +84,15 @@ repos:
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-09-23"
+    last_push: "2026-09-30"
+  - name: "planetcraft"
+    title: "planetcraft"
+    description: "Explore blocky planets, one world at a time."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 5
+    first_seen: null
+    last_push: "2026-09-29"
   - name: "benziza.github.io"
     title: "benziza.github.io"
     description: "My portfolio"
@@ -92,7 +100,7 @@ repos:
     topics: []
     stars_fact: 3
     first_seen: null
-    last_push: "2026-09-22"
+    last_push: "2026-09-23"
   - name: "queryguard-dotnet"
     title: "queryguard-dotnet"
     description: "Find repeated EF Core queries and catch query problems in tests. NuGet: https://www.nuget.org/packages/QueryGuard.Testing"
@@ -114,7 +122,7 @@ repos:
       - "testing"
     stars_fact: 11
     first_seen: null
-    last_push: "2026-09-21"
+    last_push: "2026-09-28"
   - name: "WhyConfig.NET"
     title: "WhyConfig.NET"
     description: "Explain why a .NET configuration key has its effective value"
@@ -123,14 +131,6 @@ repos:
     stars_fact: 3
     first_seen: null
     last_push: "2026-09-17"
-  - name: "planetcraft"
-    title: "planetcraft"
-    description: "Explore blocky planets, one world at a time."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 5
-    first_seen: null
-    last_push: "2026-09-14"
   - name: "Zoro-"
     title: "Zoro-"
     description: "Roronoa Zoro, also known as \"Pirate Hunter\" Zoro,"

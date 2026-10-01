@@ -10,10 +10,10 @@ provenance_repos:
 admitted: true
 low_n: true
 repos_populated: true
-generated_at: "2026-09-25T06:06:35.067653+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "cc2152070c02e2ab"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0]
 windows:
   "7d":
     pushes: 1
@@ -83,17 +83,9 @@ repos:
     description: "Give Claude the ability to watch any video. /watch downloads, extracts frames, transcribes, hands it all to Claude."
     language: "Python"
     topics: []
-    stars_fact: 17564
+    stars_fact: 17882
     first_seen: "2026-07-29T08:03:12.868339+00:00"
-    last_push: "2026-07-01"
-  - name: "head-of-content"
-    title: "head-of-content"
-    description: "Social media content research and marketing skills for Claude Code and Cowork"
-    language: "Python"
-    topics: []
-    stars_fact: 245
-    first_seen: null
-    last_push: "2026-01-23"
+    last_push: "2026-09-25"
   - name: "content-ideas"
     title: "content-ideas"
     description: "Track competitors across X, Instagram, TikTok, and YouTube, see what they post, what performs, and get content ideas backed by real engagement data. Cross-host plugin for Claude Code & Codex."
@@ -112,25 +104,33 @@ repos:
       - "tiktok"
       - "trends"
       - "youtube"
-    stars_fact: 122
+    stars_fact: 123
     first_seen: null
     last_push: "2026-05-30"
-  - name: "second-brain"
-    title: "second-brain"
-    description: null
+  - name: "head-of-content"
+    title: "head-of-content"
+    description: "Social media content research and marketing skills for Claude Code and Cowork"
     language: "Python"
     topics: []
-    stars_fact: 216
+    stars_fact: 250
     first_seen: null
-    last_push: "2026-03-29"
+    last_push: "2026-01-23"
   - name: "focus-group"
     title: "focus-group"
     description: "Clone your customers from real sales-call transcripts and run them as a standing focus group — /focus-group Agent Skill for Claude Code, Codex, Cursor, and more"
     language: "Python"
     topics: []
-    stars_fact: 21
+    stars_fact: 22
     first_seen: null
     last_push: "2026-07-09"
+  - name: "second-brain"
+    title: "second-brain"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 215
+    first_seen: null
+    last_push: "2026-03-29"
   - name: "company-skills-marketplace-template"
     title: "company-skills-marketplace-template"
     description: "Fork-and-go template for a private team skills marketplace usable from Claude Code and Codex CLI"

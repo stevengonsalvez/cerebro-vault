@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "4138778ebbc75ba6"
-pushes_per_week: [9, 19, 6, 6, 2, 0, 0, 0, 0, 0, 0, 7, 3]
+pushes_per_week: [17, 11, 6, 6, 2, 0, 0, 0, 0, 0, 1, 6, 7]
 windows:
   "7d":
-    pushes: 6
-    distinct_repos: 4
-    active_days: 3
-    repos_not_owned: 2
-    not_owned_basenames: 2
-    not_owned_owners: 1
+    pushes: 7
+    distinct_repos: 3
+    active_days: 4
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
-    pushes: 10
-    distinct_repos: 5
-    active_days: 6
+    pushes: 14
+    distinct_repos: 6
+    active_days: 8
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 52
-    distinct_repos: 7
-    active_days: 19
+    pushes: 56
+    distinct_repos: 8
+    active_days: 21
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.7368
-  repo_per_active_day: 0.3684
-  not_owned_ratio: 0.2857
-  basename_concentration: 0.1429
+  push_per_day: 2.6667
+  repo_per_active_day: 0.3810
+  not_owned_ratio: 0.2500
+  basename_concentration: 0.1250
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,34 +49,49 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 6
-    distinct_repos: 4
-    pushes_per_repo: 1.5000
-    active_days: 3
-    repos_not_owned: 2
-    not_owned_basenames: 2
-    not_owned_owners: 1
+    pushes: 7
+    distinct_repos: 3
+    pushes_per_repo: 2.3333
+    active_days: 4
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
-    pushes: 10
-    distinct_repos: 5
-    pushes_per_repo: 2.0000
-    active_days: 6
+    pushes: 14
+    distinct_repos: 6
+    pushes_per_repo: 2.3333
+    active_days: 8
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 52
-    distinct_repos: 7
-    pushes_per_repo: 7.4286
-    active_days: 19
+    pushes: 56
+    distinct_repos: 8
+    pushes_per_repo: 7.0000
+    active_days: 21
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 19 active days in 90d — pass"
+  - "activity: 21 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "nebula"
+    title: "nebula"
+    description: "Native Qt Quick workspace for terminal AI agents (Claude Code, Codex, opencode...) with a built-in operator"
+    language: "C++"
+    topics:
+      - "ai-agents"
+      - "claude-code"
+      - "codex"
+      - "omarchy"
+      - "qml"
+      - "qt6"
+      - "terminal"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-01"
   - name: "lain"
     title: "lain"
     description: "Local-first media server in Go: replaceable plugins over a tiny core, embedded SPA, direct-play streaming, metadata enrichment and ffmpeg thumbnails."
@@ -92,7 +107,38 @@ repos:
       - "svelte"
     stars_fact: 1
     first_seen: null
-    last_push: "2026-09-23"
+    last_push: "2026-10-01"
+  - name: "lain-desktop"
+    title: "lain-desktop"
+    description: "Native desktop client for the Lain media server - Qt 6/QML + libmpv."
+    language: "QML"
+    topics:
+      - "cpp"
+      - "desktop-app"
+      - "libmpv"
+      - "linux"
+      - "media-player"
+      - "qml"
+      - "qt6"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-01"
+  - name: "laira"
+    title: "laira"
+    description: "Self-hostable end-to-end encrypted voice and screen/game streaming (SFrame over mediasoup)"
+    language: "Rust"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-30"
+  - name: "relayhop"
+    title: "relayhop"
+    description: "Libera a transmissão de tela do Discord em 1 clique"
+    language: "Rust"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-11"
   - name: "enrell"
     title: "enrell"
     description: "Config files for my GitHub profile."
@@ -103,55 +149,10 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-09-22"
-  - name: "omarchy-super-player"
-    title: "omarchy-super-player"
-    description: "Media controls and synced lyrics for whatever is playing — an Omarchy bar widget (Quickshell)."
-    language: "QML"
-    topics:
-      - "bar-widget"
-      - "lyrics"
-      - "media"
-      - "mpris"
-      - "omarchy"
-      - "quickshell"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-21"
-  - name: "relayhop"
-    title: "relayhop"
-    description: "Libera a transmissão de tela do Discord em 1 clique"
-    language: "Rust"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-11"
-  - name: "matrix"
-    title: "matrix"
-    description: "Rust kernel for spatiotemporal component composition, with language-independent plugins and local or remote execution"
-    language: "Rust"
-    topics:
-      - "ai-agents"
-      - "components"
-      - "composition"
-      - "distributed-systems"
-      - "kernel"
-      - "plugins"
-      - "rust"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-10"
-  - name: "audio-enhancer"
-    title: "audio-enhancer"
-    description: "Advanced audio reconstruction pipeline with neural super-resolution and denoising"
-    language: "Python"
-    topics: []
-    stars_fact: 4
-    first_seen: null
-    last_push: "2026-02-07"
 ---
 
 # enrell
 
-52 pushes across 7 repositories on 19 active days in the last 90 days of public GitHub push activity.
+56 pushes across 8 repositories on 21 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/enrell

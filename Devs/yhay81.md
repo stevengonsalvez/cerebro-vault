@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [27, 55, 40, 197, 31, 114, 0, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [40, 42, 51, 195, 21, 114, 0, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 464
+    pushes: 463
     distinct_repos: 102
-    active_days: 35
+    active_days: 34
     repos_not_owned: 17
     not_owned_basenames: 17
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 13.2571
-  repo_per_active_day: 2.9143
+  push_per_day: 13.6176
+  repo_per_active_day: 3.0000
   not_owned_ratio: 0.1667
   basename_concentration: 0.0098
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 464
+    pushes: 463
     distinct_repos: 102
-    pushes_per_repo: 4.5490
-    active_days: 35
+    pushes_per_repo: 4.5392
+    active_days: 34
     repos_not_owned: 17
     not_owned_basenames: 17
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 35 active days in 90d — pass"
+  - "activity: 34 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "yomiage-kun"
@@ -159,6 +159,6 @@ repos:
 
 # yhay81
 
-464 pushes across 102 repositories on 35 active days in the last 90 days of public GitHub push activity.
+463 pushes across 102 repositories on 34 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/yhay81

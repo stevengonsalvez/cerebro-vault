@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "16389f32495280ea"
-pushes_per_week: [2, 0, 0, 4, 3, 0, 0, 1, 0, 1, 5, 3, 5]
+pushes_per_week: [2, 0, 0, 7, 0, 0, 0, 1, 0, 1, 5, 4, 4]
 windows:
   "7d":
-    pushes: 8
+    pushes: 5
     distinct_repos: 3
-    active_days: 4
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 8
+    pushes: 5
     distinct_repos: 3
-    pushes_per_repo: 2.6667
-    active_days: 4
+    pushes_per_repo: 1.6667
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -77,14 +77,27 @@ reasons:
   - "activity: 13 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "wev"
+    title: "wev"
+    description: "Local System-One decision models: typed questions in, calibrated probabilities out. General decisions and browser-agent steps."
+    language: "Python"
+    topics:
+      - "browser-agent"
+      - "decision-model"
+      - "distillation"
+      - "llm"
+      - "qwen"
+    stars_fact: 29
+    first_seen: null
+    last_push: "2026-09-24"
   - name: "crux"
     title: "crux"
     description: "A terminal agent scaffold targeting Terminal-Bench — putting a current-generation DeepSeek model on the official leaderboard, cheaply."
     language: "TypeScript"
     topics: []
-    stars_fact: 108
+    stars_fact: 186
     first_seen: null
-    last_push: "2026-09-23"
+    last_push: "2026-09-28"
   - name: "alanhuangyoo"
     title: "alanhuangyoo"
     description: "Profile README"
@@ -92,15 +105,7 @@ repos:
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-09-23"
-  - name: "wecode"
-    title: "wecode"
-    description: "A lightweight, fast coding-agent CLI built in Rust"
-    language: "Rust"
-    topics: []
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-07-30"
+    last_push: "2026-09-28"
   - name: "sandbox"
     title: "sandbox"
     description: null

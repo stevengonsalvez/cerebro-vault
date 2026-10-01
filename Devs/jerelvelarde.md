@@ -10,14 +10,14 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "229b322ed982d40b"
   - "c4281af03270173b"
-pushes_per_week: [0, 1, 4, 12, 13, 3, 1, 0, 0, 0, 1, 4, 6]
+pushes_per_week: [0, 2, 3, 12, 13, 3, 1, 0, 0, 0, 1, 8, 2]
 windows:
   "7d":
-    pushes: 6
+    pushes: 5
     distinct_repos: 5
     active_days: 3
     repos_not_owned: 1
@@ -51,9 +51,9 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 6
+    pushes: 5
     distinct_repos: 5
-    pushes_per_repo: 1.2000
+    pushes_per_repo: 1.0000
     active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
@@ -79,6 +79,22 @@ reasons:
   - "activity: 20 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "demo-skills"
+    title: "demo-skills"
+    description: "Launch video and UI mockup animation skills for Claude Code and Codex, with a portable GTM video toolkit and Remotion starter."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-30"
+  - name: "heycapybara"
+    title: "heycapybara"
+    description: "OpenMuse-inspired macOS companion with a draggable capybara, record-to-skill, AG-UI, and Codex"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-09-28"
   - name: "jev-copilotkit"
     title: "jev-copilotkit"
     description: "CopilotKit and Jev agent arenas: Wikipedia race and visual tool-calling benchmark"
@@ -86,62 +102,31 @@ repos:
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-09-21"
-  - name: "openmuse"
-    title: "openmuse"
-    description: "An open-source personal agent with a persistent browser computer, CopilotKit rich chat, and a React Native app."
-    language: "TypeScript"
-    topics:
-      - "ag-ui"
-      - "ai-agents"
-      - "copilotkit"
-      - "expo"
-      - "personal-assistant"
-      - "react-native"
-      - "self-hosted"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-22"
-  - name: "building-agentic-applications-book"
-    title: "building-agentic-applications-book"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-07-15"
-  - name: "oracle-cookbook"
-    title: "oracle-cookbook"
-    description: "Oracle AI Database × CopilotKit cookbook — Agent Memory + Agent Spec, with live Playwright E2E"
-    language: "MDX"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-06-29"
-  - name: "agents-everywhere-starter-kit"
-    title: "agents-everywhere-starter-kit"
-    description: "Starter kit for the Agents, Everywhere: Bots, Channels & More global hackathon (AI Tinkerers x OpenAI, 12 Sep 2026). One agent, every surface — Slack/Teams via CopilotKit Channels, zero tunnel."
-    language: "TypeScript"
-    topics:
-      - "ag-ui"
-      - "ai-agents"
-      - "copilotkit"
-      - "generative-ui"
-      - "hackathon"
-      - "mcp"
-      - "slack-bot"
-      - "starter-kit"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-12"
-  - name: "Generative-UI-Global-Hackathon-Starter-Kit"
-    title: "Generative-UI-Global-Hackathon-Starter-Kit"
+    last_push: "2026-09-24"
+  - name: "generative-ui-london-hackathon-starter"
+    title: "generative-ui-london-hackathon-starter"
     description: null
     language: "TypeScript"
     topics: []
-    stars_fact: 40
+    stars_fact: 8
     first_seen: null
-    last_push: "2026-05-09"
+    last_push: "2026-06-13"
+  - name: "heykite"
+    title: "heykite"
+    description: "A macOS AI companion powered by Codex, AG-UI, and CopilotKit Intelligence, with cross-app recording and record-to-skill."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-24"
+  - name: "world-monitor-copilotkit"
+    title: "world-monitor-copilotkit"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 66
+    first_seen: null
+    last_push: "2026-04-01"
 ---
 
 # jerelvelarde

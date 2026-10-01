@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "ca6e9330cc1b2a53"
-pushes_per_week: [6, 26, 5, 4, 9, 6, 8, 1, 0, 3, 6, 6, 16]
+pushes_per_week: [6, 28, 3, 10, 3, 8, 6, 1, 0, 3, 6, 10, 12]
 windows:
   "7d":
-    pushes: 20
+    pushes: 16
     distinct_repos: 1
-    active_days: 4
+    active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 20
+    pushes: 16
     distinct_repos: 1
-    pushes_per_repo: 20.0000
-    active_days: 4
+    pushes_per_repo: 16.0000
+    active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -77,6 +77,22 @@ reasons:
   - "activity: 34 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "worktree-workflow"
+    title: "worktree-workflow"
+    description: "A toolkit for parallel development with git worktrees, designed for Claude Code"
+    language: "Shell"
+    topics: []
+    stars_fact: 108
+    first_seen: null
+    last_push: "2026-02-01"
+  - name: "roam-vim-mode"
+    title: "roam-vim-mode"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 5
+    first_seen: null
+    last_push: "2026-08-27"
   - name: "youtube-reader"
     title: "youtube-reader"
     description: "CLI to turn YouTube transcripts into readable articles (supports API, yt-dlp subtitles, and Whisper transcription)"
@@ -101,14 +117,6 @@ repos:
     stars_fact: 33
     first_seen: null
     last_push: "2020-06-30"
-  - name: "roam-vim-mode"
-    title: "roam-vim-mode"
-    description: null
-    language: "JavaScript"
-    topics: []
-    stars_fact: 6
-    first_seen: null
-    last_push: "2026-08-27"
   - name: "roam-research-cli"
     title: "roam-research-cli"
     description: "A CLI wrapper for the Roam Research APIs (Backend + Append + Desktop Local), built for AI agents and shell pipelines."
@@ -117,14 +125,6 @@ repos:
     stars_fact: 10
     first_seen: null
     last_push: "2026-08-01"
-  - name: "programmer-soft-skills"
-    title: "programmer-soft-skills"
-    description: "程序员的软技能"
-    language: "Vue"
-    topics: []
-    stars_fact: 491
-    first_seen: null
-    last_push: "2022-06-30"
 ---
 
 # forrestchang

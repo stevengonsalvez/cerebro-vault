@@ -9,13 +9,13 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "9d67ce648f6a8919"
-pushes_per_week: [163, 59, 47, 42, 29, 22, 21, 21, 9, 13, 17, 56, 42]
+pushes_per_week: [101, 58, 48, 43, 18, 23, 19, 22, 8, 13, 23, 54, 42]
 windows:
   "7d":
-    pushes: 50
+    pushes: 46
     distinct_repos: 5
     active_days: 7
     repos_not_owned: 1
@@ -24,23 +24,23 @@ windows:
   "30d":
     pushes: 132
     distinct_repos: 12
-    active_days: 23
+    active_days: 22
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
   "90d":
-    pushes: 541
-    distinct_repos: 32
+    pushes: 472
+    distinct_repos: 31
     active_days: 79
     repos_not_owned: 9
     not_owned_basenames: 7
     not_owned_owners: 4
 automation:
   state: "clear"
-  push_per_day: 6.8481
-  repo_per_active_day: 0.4051
-  not_owned_ratio: 0.2812
-  basename_concentration: 0.0938
+  push_per_day: 5.9747
+  repo_per_active_day: 0.3924
+  not_owned_ratio: 0.2903
+  basename_concentration: 0.0968
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,9 +49,9 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 50
+    pushes: 46
     distinct_repos: 5
-    pushes_per_repo: 10.0000
+    pushes_per_repo: 9.2000
     active_days: 7
     repos_not_owned: 1
     not_owned_basenames: 1
@@ -60,14 +60,14 @@ facets:
     pushes: 132
     distinct_repos: 12
     pushes_per_repo: 11.0000
-    active_days: 23
+    active_days: 22
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
   "90d":
-    pushes: 541
-    distinct_repos: 32
-    pushes_per_repo: 16.9062
+    pushes: 472
+    distinct_repos: 31
+    pushes_per_repo: 15.2258
     active_days: 79
     repos_not_owned: 9
     not_owned_basenames: 7
@@ -84,15 +84,7 @@ repos:
     topics: []
     stars_fact: 12
     first_seen: null
-    last_push: "2026-09-23"
-  - name: "aeon-bd"
-    title: "aeon-bd"
-    description: "aeon bd"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-23"
+    last_push: "2026-10-01"
   - name: "miroshark-aeon"
     title: "miroshark-aeon"
     description: "Public agent automation of miroshark"
@@ -100,43 +92,63 @@ repos:
     topics: []
     stars_fact: 17
     first_seen: null
-    last_push: "2026-09-23"
-  - name: "turnip-ui"
-    title: "turnip-ui"
-    description: "Turnip UI: DeFi Summer farm chrome from SushiSwap and Yam.finance. Demo site, DESIGN.md, and a turnip-ui skill."
+    last_push: "2026-09-30"
+  - name: "agent-credit"
+    title: "agent-credit"
+    description: "The first credit line for agents. Let your agent borrow & repay credit, using Aave."
+    language: "Shell"
+    topics:
+      - "aave"
+      - "agent-credit"
+      - "bankr"
+      - "claude-code-skills"
+      - "claude-skills"
+      - "credit-line"
+      - "openclaw"
+      - "openclaw-skills"
+    stars_fact: 24
+    first_seen: null
+    last_push: "2026-09-01"
+  - name: "web3-research-mcp"
+    title: "web3-research-mcp"
+    description: "Deep Research for crypto - free & fully local"
     language: "TypeScript"
     topics:
-      - "defi"
-      - "designmd"
-      - "sushiswap"
-      - "ui"
-      - "ui-design"
-    stars_fact: 3
+      - "mcp"
+      - "mcp-crypto"
+      - "mcp-server"
+    stars_fact: 163
     first_seen: null
-    last_push: "2026-09-20"
-  - name: "token-data"
-    title: "token-data"
-    description: "Re-runnable Base ERC-20 snapshots: price, volume, Basescan holders, liquidity."
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-19"
-  - name: "soul-aaronjmars"
-    title: "soul-aaronjmars"
-    description: "New standard for AI soul files / digital twins."
+    last_push: "2026-10-01"
+  - name: "magi"
+    title: "magi"
+    description: "Meme search engine for the real shitposters"
     language: "JavaScript"
     topics:
       - "ai"
-      - "claude-code"
-      - "soul"
+      - "image-classification"
+      - "llava"
+      - "memes"
+      - "replicate"
+      - "search-engine"
+    stars_fact: 11
+    first_seen: null
+    last_push: "2026-09-24"
+  - name: "polymarket-tg-bot"
+    title: "polymarket-tg-bot"
+    description: "Monitor new markets on Polymarket - using Telegram Bot"
+    language: "TypeScript"
+    topics:
+      - "polymarket"
+      - "telegram"
+      - "telegram-bot"
     stars_fact: 12
     first_seen: null
-    last_push: "2026-09-18"
+    last_push: "2026-09-24"
 ---
 
 # aaronjmars
 
-541 pushes across 32 repositories on 79 active days in the last 90 days of public GitHub push activity.
+472 pushes across 31 repositories on 79 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/aaronjmars

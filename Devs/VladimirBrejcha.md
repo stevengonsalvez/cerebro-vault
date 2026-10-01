@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "c489e6fb5febf2ab"
-pushes_per_week: [18, 14, 2, 0, 0, 1, 2, 2, 0, 1, 0, 0, 0]
+pushes_per_week: [20, 11, 2, 0, 0, 2, 1, 2, 0, 1, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,7 +29,7 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 40
+    pushes: 39
     distinct_repos: 2
     active_days: 16
     repos_not_owned: 2
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.5000
+  push_per_day: 2.4375
   repo_per_active_day: 0.1250
   not_owned_ratio: 1.0000
   basename_concentration: 0.5000
@@ -65,9 +65,9 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 40
+    pushes: 39
     distinct_repos: 2
-    pushes_per_repo: 20.0000
+    pushes_per_repo: 19.5000
     active_days: 16
     repos_not_owned: 2
     not_owned_basenames: 2
@@ -132,6 +132,6 @@ repos:
 
 # VladimirBrejcha
 
-40 pushes across 2 repositories on 16 active days in the last 90 days of public GitHub push activity.
+39 pushes across 2 repositories on 16 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/VladimirBrejcha

@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [72, 32, 40, 36, 31, 11, 4, 1, 0, 4, 9, 19, 22]
+pushes_per_week: [52, 33, 40, 42, 23, 9, 4, 1, 0, 4, 11, 19, 22]
 windows:
   "7d":
-    pushes: 25
-    distinct_repos: 2
+    pushes: 24
+    distinct_repos: 3
     active_days: 7
-    repos_not_owned: 1
-    not_owned_basenames: 1
+    repos_not_owned: 2
+    not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 54
+    pushes: 56
     distinct_repos: 5
-    active_days: 19
+    active_days: 20
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 281
+    pushes: 260
     distinct_repos: 12
     active_days: 61
     repos_not_owned: 5
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 4.6066
+  push_per_day: 4.2623
   repo_per_active_day: 0.1967
   not_owned_ratio: 0.4167
   basename_concentration: 0.0833
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 25
-    distinct_repos: 2
-    pushes_per_repo: 12.5000
+    pushes: 24
+    distinct_repos: 3
+    pushes_per_repo: 8.0000
     active_days: 7
-    repos_not_owned: 1
-    not_owned_basenames: 1
+    repos_not_owned: 2
+    not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 54
+    pushes: 56
     distinct_repos: 5
-    pushes_per_repo: 10.8000
-    active_days: 19
+    pushes_per_repo: 11.2000
+    active_days: 20
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 281
+    pushes: 260
     distinct_repos: 12
-    pushes_per_repo: 23.4167
+    pushes_per_repo: 21.6667
     active_days: 61
     repos_not_owned: 5
     not_owned_basenames: 5
@@ -77,6 +77,14 @@ reasons:
   - "activity: 61 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "model-tides"
+    title: "model-tides"
+    description: "Private, offline model-usage timelines with local imports and shareable images"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-01"
   - name: "loreai"
     title: "loreai"
     description: "Your AI never starts over. Lore keeps sessions coherent for days and millions of tokens — no lossy summary that wipes your file paths and decisions — and turns every session into compounding memory across tools, providers, and (soon) your team. No context files. No workflow changes."
@@ -85,15 +93,15 @@ repos:
       - "ai-agents"
       - "context-management"
       - "memory"
-    stars_fact: 120
+    stars_fact: 124
     first_seen: null
-    last_push: "2026-09-23"
+    last_push: "2026-10-01"
   - name: "jev-mcp"
     title: "jev-mcp"
     description: "An eval-first MCP server for TypeSafe's Jev, a System One model that returns typed judgments (noul, choice, score) with probabilities instead of generated text."
     language: "TypeScript"
     topics: []
-    stars_fact: 2
+    stars_fact: 3
     first_seen: null
     last_push: "2026-09-18"
   - name: "fossilize"
@@ -120,18 +128,10 @@ repos:
     stars_fact: 2
     first_seen: null
     last_push: "2026-09-17"
-  - name: "attaquer-framework"
-    title: "attaquer-framework"
-    description: "Zebar widget pack for Framework laptops — CPU temp, fan speed, battery, auto-extracted app icons. Based on the attaquer theme."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-17"
 ---
 
 # BYK
 
-281 pushes across 12 repositories on 61 active days in the last 90 days of public GitHub push activity.
+260 pushes across 12 repositories on 61 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/BYK

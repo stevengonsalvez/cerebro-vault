@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [14, 16, 9, 9, 3, 14, 29, 18, 14, 8, 4, 22, 7]
+pushes_per_week: [14, 13, 9, 9, 7, 26, 13, 25, 7, 8, 7, 25, 3]
 windows:
   "7d":
-    pushes: 7
-    distinct_repos: 1
-    active_days: 2
+    pushes: 3
+    distinct_repos: 2
+    active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 42
-    distinct_repos: 7
-    active_days: 15
+    pushes: 43
+    distinct_repos: 6
+    active_days: 16
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 167
+    pushes: 166
     distinct_repos: 13
     active_days: 55
     repos_not_owned: 3
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 3.0364
+  push_per_day: 3.0182
   repo_per_active_day: 0.2364
   not_owned_ratio: 0.2308
   basename_concentration: 0.2308
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 7
-    distinct_repos: 1
-    pushes_per_repo: 7.0000
-    active_days: 2
+    pushes: 3
+    distinct_repos: 2
+    pushes_per_repo: 1.5000
+    active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 42
-    distinct_repos: 7
-    pushes_per_repo: 6.0000
-    active_days: 15
+    pushes: 43
+    distinct_repos: 6
+    pushes_per_repo: 7.1667
+    active_days: 16
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 167
+    pushes: 166
     distinct_repos: 13
-    pushes_per_repo: 12.8462
+    pushes_per_repo: 12.7692
     active_days: 55
     repos_not_owned: 3
     not_owned_basenames: 2
@@ -129,6 +129,6 @@ repos:
 
 # Hona
 
-167 pushes across 13 repositories on 55 active days in the last 90 days of public GitHub push activity.
+166 pushes across 13 repositories on 55 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Hona

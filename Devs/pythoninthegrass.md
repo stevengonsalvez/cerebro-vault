@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "73468cde177ddae6"
-pushes_per_week: [3, 1, 1, 1, 3, 1, 2, 2, 0, 0, 11, 8, 3]
+pushes_per_week: [2, 1, 1, 1, 3, 1, 2, 2, 0, 0, 12, 8, 2]
 windows:
   "7d":
     pushes: 3
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 36
-    distinct_repos: 17
-    active_days: 23
-    repos_not_owned: 5
-    not_owned_basenames: 5
+    pushes: 35
+    distinct_repos: 16
+    active_days: 22
+    repos_not_owned: 4
+    not_owned_basenames: 4
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.5652
-  repo_per_active_day: 0.7391
-  not_owned_ratio: 0.2941
-  basename_concentration: 0.1176
+  push_per_day: 1.5909
+  repo_per_active_day: 0.7273
+  not_owned_ratio: 0.2500
+  basename_concentration: 0.1250
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 36
-    distinct_repos: 17
-    pushes_per_repo: 2.1176
-    active_days: 23
-    repos_not_owned: 5
-    not_owned_basenames: 5
+    pushes: 35
+    distinct_repos: 16
+    pushes_per_repo: 2.1875
+    active_days: 22
+    repos_not_owned: 4
+    not_owned_basenames: 4
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 23 active days in 90d — pass"
+  - "activity: 22 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "ai_skills"
@@ -132,6 +132,6 @@ repos:
 
 # pythoninthegrass
 
-36 pushes across 17 repositories on 23 active days in the last 90 days of public GitHub push activity.
+35 pushes across 16 repositories on 22 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/pythoninthegrass

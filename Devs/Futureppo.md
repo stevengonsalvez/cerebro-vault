@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "78a5846a75cc0fbb"
 pushes_per_week: [4, 5, 2, 0, 0, 5, 2, 2, 0, 0, 3, 2, 4]
 windows:
   "7d":
-    pushes: 5
-    distinct_repos: 3
-    active_days: 2
+    pushes: 4
+    distinct_repos: 2
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 5
-    distinct_repos: 3
-    pushes_per_repo: 1.6667
-    active_days: 2
+    pushes: 4
+    distinct_repos: 2
+    pushes_per_repo: 2.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -77,14 +77,30 @@ reasons:
   - "activity: 17 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "astrbot_plugin_global_status"
+    title: "astrbot_plugin_global_status"
+    description: "AstrBot 全球厂商状态监控插件：官方状态订阅、双语 SVG 图片告警与 aiocqhttp 群推送"
+    language: "Python"
+    topics: []
+    stars_fact: 15
+    first_seen: null
+    last_push: "2026-09-29"
   - name: "typesafe_register"
     title: "typesafe_register"
     description: "typesafe.ai注册机，极致优化，无限jev"
     language: "Python"
     topics: []
-    stars_fact: 117
+    stars_fact: 133
     first_seen: null
     last_push: "2026-09-21"
+  - name: "astrbot_plugin_model_watcher"
+    title: "astrbot_plugin_model_watcher"
+    description: "An AstrBot plugin that watches model catalogs and sends cross-platform notifications for added, removed, and updated models."
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-29"
   - name: "antigravity_bypass"
     title: "antigravity_bypass"
     description: "Google Antigravity MCP tool limit patch: raise local limits to 8192 in Antigravity IDE and the Windows x64 desktop app. MCP 工具数量限制修补，支持自动识别、备份与恢复。"
@@ -99,58 +115,23 @@ repos:
       - "mcp-tools"
       - "model-context-protocol"
       - "tool-limit"
-    stars_fact: 54
+    stars_fact: 55
     first_seen: null
     last_push: "2026-09-15"
-  - name: "astrbot_plugin_global_status"
-    title: "astrbot_plugin_global_status"
-    description: "AstrBot 全球厂商状态监控插件：官方状态订阅、双语 SVG 图片告警与 aiocqhttp 群推送"
+  - name: "astrbot_plugin_zanwo"
+    title: "astrbot_plugin_zanwo"
+    description: null
     language: "Python"
     topics: []
-    stars_fact: 14
-    first_seen: null
-    last_push: "2026-09-23"
-  - name: "grokcli2api-go"
-    title: "grokcli2api-go"
-    description: "OpenAI- and Anthropic-compatible API gateway for Grok CLI with multi-account OAuth pooling, streaming, retries, and model-aware scheduling."
-    language: "Go"
-    topics:
-      - "anthropic-api"
-      - "anthropic-compatible"
-      - "api-gateway"
-      - "api-proxy"
-      - "docker"
-      - "golang"
-      - "grok"
-      - "grok-api"
-      - "grok-cli"
-      - "llm-gateway"
-      - "multi-account"
-      - "oauth"
-      - "openai-api"
-      - "openai-compatible"
-      - "self-hosted"
-      - "sse"
-      - "streaming"
-      - "xai"
-      - "xai-api"
     stars_fact: 30
     first_seen: null
-    last_push: "2026-08-01"
-  - name: "zaiis2api"
-    title: "zaiis2api"
-    description: "无限使用Nano Banana，Nano Banana Pro，Gemini 3 Pro Preview，Claude Opus 4.5"
-    language: "Python"
-    topics: []
-    stars_fact: 138
-    first_seen: null
-    last_push: "2026-01-02"
+    last_push: "2026-04-16"
   - name: "Free-Fly"
     title: "Free-Fly"
     description: "白嫖免费加速ip用于科学上网"
     language: "Python"
     topics: []
-    stars_fact: 14
+    stars_fact: 15
     first_seen: null
     last_push: "2026-06-04"
 ---

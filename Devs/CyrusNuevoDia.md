@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "c1af6b58492f9bf4"
 pushes_per_week: [10, 3, 8, 1, 0, 0, 3, 0, 0, 0, 0, 0, 0]
@@ -77,6 +77,34 @@ reasons:
   - "activity: 13 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "next-with-text"
+    title: "next-with-text"
+    description: "llms.txt, llms-full.txt, and per-page markdown for Next.js — in 2m"
+    language: "TypeScript"
+    topics:
+      - "agents"
+      - "llms-txt"
+      - "markdown"
+      - "nextjs"
+    stars_fact: 6
+    first_seen: null
+    last_push: "2026-09-30"
+  - name: "geocoder"
+    title: "geocoder"
+    description: "The defacto geocoder for Elixir"
+    language: "Elixir"
+    topics: []
+    stars_fact: 128
+    first_seen: null
+    last_push: "2026-09-30"
+  - name: "skill-language-server"
+    title: "skill-language-server"
+    description: "A language server for agent skills — /skill-name and $skill-name become real symbols"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 7
+    first_seen: null
+    last_push: "2026-07-29"
   - name: "gepa-research"
     title: "gepa-research"
     description: "A plugin for your agentic framework that optimizes code using the GEPA algorithm (Genetic-Pareto LLM-driven search)."
@@ -103,34 +131,6 @@ repos:
     stars_fact: 1532
     first_seen: null
     last_push: "2016-10-04"
-  - name: "geocoder"
-    title: "geocoder"
-    description: "The defacto geocoder for Elixir"
-    language: "Elixir"
-    topics: []
-    stars_fact: 128
-    first_seen: null
-    last_push: "2026-09-15"
-  - name: "claude-agent-starter"
-    title: "claude-agent-starter"
-    description: "Prototype agents in Claude Code, ship them on the Claude Developer Platform"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-13"
-  - name: "next-with-text"
-    title: "next-with-text"
-    description: "llms.txt, llms-full.txt, and per-page markdown for Next.js — in 2m"
-    language: "TypeScript"
-    topics:
-      - "agents"
-      - "llms-txt"
-      - "markdown"
-      - "nextjs"
-    stars_fact: 6
-    first_seen: null
-    last_push: "2026-08-10"
 ---
 
 # CyrusNuevoDia

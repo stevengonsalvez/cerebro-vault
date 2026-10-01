@@ -11,12 +11,12 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "16389f32495280ea"
   - "73468cde177ddae6"
   - "dae9f02535f7c22f"
-pushes_per_week: [2, 8, 1, 0, 0, 3, 0, 0, 0, 2, 1, 1, 6]
+pushes_per_week: [2, 8, 1, 0, 1, 2, 0, 0, 0, 2, 1, 1, 6]
 windows:
   "7d":
     pushes: 6
@@ -84,14 +84,14 @@ repos:
   - name: "Bortlesboat"
     title: "Bortlesboat"
     description: "Profile README"
-    language: null
+    language: "Python"
     topics:
       - "developer-portfolio"
       - "github-profile"
       - "profile-readme"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-23"
+    last_push: "2026-10-01"
   - name: "x402-seller-testkit"
     title: "x402-seller-testkit"
     description: "Seller-side x402 conformance and regression harness."
@@ -107,103 +107,51 @@ repos:
       - "x402"
     stars_fact: 1
     first_seen: null
-    last_push: "2026-09-22"
-  - name: "claude-usage-monitor"
-    title: "claude-usage-monitor"
-    description: "System tray app showing real-time Claude Code usage — rate limits, reset timers, token stats. pip install claude-usage-tray"
-    language: "Python"
-    topics:
-      - "anthropic"
-      - "claude"
-      - "claude-ai"
-      - "claude-code"
-      - "cli"
-      - "developer-tools"
-      - "linux"
-      - "macos"
-      - "monitoring"
-      - "python"
-      - "rate-limit"
-      - "system-tray"
-      - "usage"
-      - "usage-monitor"
-      - "windows"
-    stars_fact: 1
+    last_push: "2026-09-30"
+  - name: "zero-to-shielded"
+    title: "zero-to-shielded"
+    description: "From zero to your first shielded Zcash transaction"
+    language: "HTML"
+    topics: []
+    stars_fact: 0
     first_seen: null
-    last_push: "2026-09-21"
-  - name: "x402-insights"
-    title: "x402-insights"
-    description: "AgentOps Ledger: flight recorder for enterprise agents, x402 payments, approvals, audit exports, and Splunk-ready telemetry."
+    last_push: "2026-09-29"
+  - name: "shieldcheck"
+    title: "shieldcheck"
+    description: "A regression lab for privacy and order authorization at the Zcash checkout boundary"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-29"
+  - name: "bitcoin-protocol-guide"
+    title: "bitcoin-protocol-guide"
+    description: "Bitcoin protocol internals — UTXOs, Script, SegWit, Taproot, Ordinals. Real transaction examples with CLI verification."
+    language: null
+    topics:
+      - "bitcoin"
+      - "education"
+      - "ordinals"
+      - "protocol"
+      - "segwit"
+      - "taproot"
+      - "utxo"
+    stars_fact: 6
+    first_seen: null
+    last_push: "2026-03-22"
+  - name: "zrunes-toolkit"
+    title: "zrunes-toolkit"
+    description: "Experimental ZRunes decoding and ledger replay for Zcash wallet and product developers"
     language: "JavaScript"
     topics:
-      - "agent-observability"
-      - "agentops"
-      - "audit-log"
-      - "enterprise-agents"
-      - "hackathon"
-      - "payments"
-      - "splunk"
-      - "sqlite"
-      - "typescript"
-      - "x402"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-05-21"
-  - name: "bitcoin-mcp"
-    title: "bitcoin-mcp"
-    description: "50 standard Bitcoin tools for MCP agents, with 6 prompts and 8 resources. Uses a local node or explicitly configured compatible API."
-    language: "Python"
-    topics:
-      - "ai-agents"
-      - "anthropic"
-      - "bitcoin"
-      - "bitcoin-api"
-      - "bitcoin-core"
-      - "bitcoin-mcp"
-      - "bitcoin-node"
       - "blockchain"
-      - "claude"
-      - "claude-desktop"
-      - "cryptocurrency"
-      - "cursor"
-      - "fee-estimation"
-      - "llm"
-      - "mcp"
-      - "mcp-server"
-      - "mempool"
-      - "model-context-protocol"
-      - "python"
-      - "self-hosted"
-    stars_fact: 5
+      - "developer-tools"
+      - "experimental"
+      - "zcash"
+      - "zrunes"
+    stars_fact: 0
     first_seen: null
-    last_push: "2026-09-10"
-  - name: "bitcoin-api"
-    title: "bitcoin-api"
-    description: "Self-hostable Bitcoin fee intelligence API with optional MCP and x402 integrations. Former public hosting is paused."
-    language: "Python"
-    topics:
-      - "ai"
-      - "ai-agents"
-      - "bitcoin"
-      - "bitcoin-api"
-      - "bitcoin-core"
-      - "bitcoin-node"
-      - "cryptocurrency"
-      - "docker"
-      - "fastapi"
-      - "fee-estimation"
-      - "llm"
-      - "mcp"
-      - "mcp-server"
-      - "mempool"
-      - "model-context-protocol"
-      - "python"
-      - "rest-api"
-      - "rpc"
-      - "self-hosted"
-    stars_fact: 5
-    first_seen: null
-    last_push: "2026-09-21"
+    last_push: "2026-09-26"
 ---
 
 # Bortlesboat

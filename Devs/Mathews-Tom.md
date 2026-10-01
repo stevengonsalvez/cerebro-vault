@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [199, 58, 101, 99, 58, 17, 20, 1, 1, 3, 5, 23, 4]
+pushes_per_week: [181, 54, 106, 124, 28, 23, 14, 2, 0, 5, 14, 12, 4]
 windows:
   "7d":
     pushes: 4
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 589
+    pushes: 567
     distinct_repos: 15
-    active_days: 50
+    active_days: 49
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 11.7800
-  repo_per_active_day: 0.3000
+  push_per_day: 11.5714
+  repo_per_active_day: 0.3061
   not_owned_ratio: 0.0000
   basename_concentration: 0.1333
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 589
+    pushes: 567
     distinct_repos: 15
-    pushes_per_repo: 39.2667
-    active_days: 50
+    pushes_per_repo: 37.8000
+    active_days: 49
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 50 active days in 90d — pass"
+  - "activity: 49 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "armory"
@@ -152,6 +152,6 @@ repos:
 
 # Mathews-Tom
 
-589 pushes across 15 repositories on 50 active days in the last 90 days of public GitHub push activity.
+567 pushes across 15 repositories on 49 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Mathews-Tom

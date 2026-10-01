@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "91526b8597b5b63d"
-pushes_per_week: [36, 42, 36, 11, 7, 16, 8, 5, 2, 3, 4, 15, 8]
+pushes_per_week: [34, 45, 31, 8, 7, 17, 7, 5, 2, 3, 7, 12, 8]
 windows:
   "7d":
-    pushes: 9
+    pushes: 8
     distinct_repos: 1
-    active_days: 3
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 31
+    pushes: 30
     distinct_repos: 1
-    active_days: 12
+    active_days: 11
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 193
+    pushes: 186
     distinct_repos: 15
-    active_days: 49
+    active_days: 48
     repos_not_owned: 11
     not_owned_basenames: 2
     not_owned_owners: 11
 automation:
   state: "clear"
-  push_per_day: 3.9388
-  repo_per_active_day: 0.3061
+  push_per_day: 3.8750
+  repo_per_active_day: 0.3125
   not_owned_ratio: 0.7333
   basename_concentration: 0.7333
   shapes:
@@ -65,32 +65,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 9
+    pushes: 8
     distinct_repos: 1
-    pushes_per_repo: 9.0000
-    active_days: 3
+    pushes_per_repo: 8.0000
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 31
+    pushes: 30
     distinct_repos: 1
-    pushes_per_repo: 31.0000
-    active_days: 12
+    pushes_per_repo: 30.0000
+    active_days: 11
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 193
+    pushes: 186
     distinct_repos: 15
-    pushes_per_repo: 12.8667
-    active_days: 49
+    pushes_per_repo: 12.4000
+    active_days: 48
     repos_not_owned: 11
     not_owned_basenames: 2
     not_owned_owners: 11
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 49 active days in 90d — pass"
+  - "activity: 48 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "sub2api"
@@ -165,6 +165,6 @@ repos:
 
 # Wei-Shaw
 
-193 pushes across 15 repositories on 49 active days in the last 90 days of public GitHub push activity.
+186 pushes across 15 repositories on 48 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Wei-Shaw

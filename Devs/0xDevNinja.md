@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "6d3bd03b49986330"
-pushes_per_week: [18, 6, 3, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [12, 4, 4, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 29
+    pushes: 21
     distinct_repos: 5
-    active_days: 11
+    active_days: 10
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.6364
-  repo_per_active_day: 0.4545
+  push_per_day: 2.1000
+  repo_per_active_day: 0.5000
   not_owned_ratio: 0.0000
   basename_concentration: 0.2000
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 29
+    pushes: 21
     distinct_repos: 5
-    pushes_per_repo: 5.8000
-    active_days: 11
+    pushes_per_repo: 4.2000
+    active_days: 10
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 11 active days in 90d — pass"
+  - "activity: 10 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "0xDevNinja"
@@ -91,7 +91,7 @@ repos:
       - "solidity"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-23"
+    last_push: "2026-10-01"
   - name: "Rust-Algorithms"
     title: "Rust-Algorithms"
     description: "Classical algorithms in idiomatic Rust with thorough test suites"
@@ -158,6 +158,6 @@ repos:
 
 # 0xDevNinja
 
-29 pushes across 5 repositories on 11 active days in the last 90 days of public GitHub push activity.
+21 pushes across 5 repositories on 10 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/0xDevNinja

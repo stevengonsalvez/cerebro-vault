@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 3, 5, 0]
+pushes_per_week: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 3, 5, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,22 +77,6 @@ reasons:
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "astrbot_plugin_repeat"
-    title: "astrbot_plugin_repeat"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-23"
-  - name: "astrbot_plugin_eyewitness_memory"
-    title: "astrbot_plugin_eyewitness_memory"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-09-23"
   - name: "camera-2018"
     title: "camera-2018"
     description: "Config files for my GitHub profile."
@@ -102,7 +86,31 @@ repos:
       - "github-config"
     stars_fact: 3
     first_seen: null
-    last_push: "2026-09-21"
+    last_push: "2026-09-28"
+  - name: "astrbot_plugin_eyewitness_memory"
+    title: "astrbot_plugin_eyewitness_memory"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-09-25"
+  - name: "astrbot-seio-stickers"
+    title: "astrbot-seio-stickers"
+    description: "AstrBot seio娘表情包"
+    language: "Python"
+    topics: []
+    stars_fact: 25
+    first_seen: null
+    last_push: "2026-09-23"
+  - name: "astrbot_plugin_repeat"
+    title: "astrbot_plugin_repeat"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-23"
   - name: "hdu-cs-wiki"
     title: "hdu-cs-wiki"
     description: "HDU 计算机科学讲义 如果对你🫵的学习📚有帮助，还请点亮一下 Star 🌟 哦~ 万分感谢！"
@@ -126,14 +134,6 @@ repos:
     stars_fact: 263
     first_seen: null
     last_push: "2026-06-07"
-  - name: "astrbot-seio-stickers"
-    title: "astrbot-seio-stickers"
-    description: "AstrBot seio娘表情包"
-    language: "Python"
-    topics: []
-    stars_fact: 25
-    first_seen: null
-    last_push: "2026-08-13"
   - name: "dn11-wiki-dist"
     title: "dn11-wiki-dist"
     description: null

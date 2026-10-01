@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "386c24cf5e18fd90"
-pushes_per_week: [7, 2, 1, 1, 0, 6, 1, 3, 0, 1, 4, 11, 8]
+pushes_per_week: [8, 1, 1, 1, 0, 6, 1, 3, 0, 1, 6, 11, 8]
 windows:
   "7d":
-    pushes: 9
+    pushes: 10
     distinct_repos: 2
     active_days: 5
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 24
+    pushes: 26
     distinct_repos: 2
-    active_days: 11
+    active_days: 12
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 45
+    pushes: 47
     distinct_repos: 7
-    active_days: 25
+    active_days: 26
     repos_not_owned: 3
     not_owned_basenames: 2
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 1.8000
-  repo_per_active_day: 0.2800
+  push_per_day: 1.8077
+  repo_per_active_day: 0.2692
   not_owned_ratio: 0.4286
   basename_concentration: 0.4286
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 9
+    pushes: 10
     distinct_repos: 2
-    pushes_per_repo: 4.5000
+    pushes_per_repo: 5.0000
     active_days: 5
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 24
+    pushes: 26
     distinct_repos: 2
-    pushes_per_repo: 12.0000
-    active_days: 11
+    pushes_per_repo: 13.0000
+    active_days: 12
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 45
+    pushes: 47
     distinct_repos: 7
-    pushes_per_repo: 6.4286
-    active_days: 25
+    pushes_per_repo: 6.7143
+    active_days: 26
     repos_not_owned: 3
     not_owned_basenames: 2
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 25 active days in 90d — pass"
+  - "activity: 26 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "slidev-worker-template"
@@ -84,7 +84,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-21"
+    last_push: "2026-10-01"
   - name: "hq"
     title: "hq"
     description: "Personal landing page: https://diz.rocks"
@@ -92,7 +92,15 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-23"
+    last_push: "2026-10-01"
+  - name: "dotfiles"
+    title: "dotfiles"
+    description: "dot dot dot"
+    language: "Shell"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-25"
   - name: "structured-logger"
     title: "structured-logger"
     description: null
@@ -110,7 +118,7 @@ repos:
       - "continuous-integration"
     stars_fact: 1
     first_seen: null
-    last_push: "2026-09-20"
+    last_push: "2026-10-01"
   - name: "taskworker"
     title: "taskworker"
     description: "Taskwarrior server implementation on Cloudflare Workers"
@@ -119,23 +127,10 @@ repos:
     stars_fact: 1
     first_seen: null
     last_push: "2026-01-13"
-  - name: "go-env"
-    title: "go-env"
-    description: "Simple, no dependency way of reading env to into go apps via generics"
-    language: "Go"
-    topics:
-      - "environment-variables"
-      - "generics"
-      - "golang"
-      - "golang-environment"
-      - "golang-generics"
-    stars_fact: 2
-    first_seen: null
-    last_push: "2025-08-20"
 ---
 
 # ndisidore
 
-45 pushes across 7 repositories on 25 active days in the last 90 days of public GitHub push activity.
+47 pushes across 7 repositories on 26 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ndisidore

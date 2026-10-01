@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "c1af6b58492f9bf4"
 pushes_per_week: [1, 3, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0]
@@ -77,6 +77,14 @@ reasons:
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "community-use"
+    title: "community-use"
+    description: "Paid Workflows: Free for Community Use"
+    language: null
+    topics: []
+    stars_fact: 27
+    first_seen: null
+    last_push: "2025-12-15"
   - name: "Cfomodz"
     title: "Cfomodz"
     description: "Config files for my GitHub profile."
@@ -111,14 +119,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-08-25"
-  - name: "community-use"
-    title: "community-use"
-    description: "Paid Workflows: Free for Community Use"
-    language: null
-    topics: []
-    stars_fact: 26
-    first_seen: null
-    last_push: "2025-12-15"
   - name: "StreamDrop"
     title: "StreamDrop"
     description: "Stream any website, PyGame, or local HTML file to YouTube 24/7 on a $4/mo Ubuntu Droplet :signal_strength:"

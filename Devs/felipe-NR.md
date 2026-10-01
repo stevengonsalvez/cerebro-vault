@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "4138778ebbc75ba6"
-pushes_per_week: [0, 0, 0, 0, 0, 2, 5, 0, 0, 0, 1, 5, 1]
+pushes_per_week: [0, 0, 0, 0, 0, 6, 1, 0, 0, 0, 3, 3, 1]
 windows:
   "7d":
     pushes: 1
@@ -84,7 +84,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-20"
+    last_push: "2026-09-28"
   - name: "english-tutor-claudinho"
     title: "english-tutor-claudinho"
     description: "Adds an English-tutor capability to your coding agent, without removing its coding abilities — a vendor-neutral Agent Plugins package tuned for Brazilian Portuguese speakers."

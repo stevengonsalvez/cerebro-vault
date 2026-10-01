@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [6, 0, 1, 1, 0, 0, 0, 3, 3, 1, 21, 4, 6]
+pushes_per_week: [5, 1, 1, 0, 0, 0, 0, 4, 2, 3, 19, 5, 6]
 windows:
   "7d":
-    pushes: 6
-    distinct_repos: 4
+    pushes: 7
+    distinct_repos: 5
     active_days: 5
-    repos_not_owned: 1
-    not_owned_basenames: 1
+    repos_not_owned: 2
+    not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 32
-    distinct_repos: 5
+    pushes: 33
+    distinct_repos: 6
     active_days: 11
-    repos_not_owned: 1
-    not_owned_basenames: 1
+    repos_not_owned: 2
+    not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
     pushes: 46
     distinct_repos: 7
-    active_days: 22
+    active_days: 21
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.0909
-  repo_per_active_day: 0.3182
+  push_per_day: 2.1905
+  repo_per_active_day: 0.3333
   not_owned_ratio: 0.2857
   basename_concentration: 0.2857
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 6
-    distinct_repos: 4
-    pushes_per_repo: 1.5000
+    pushes: 7
+    distinct_repos: 5
+    pushes_per_repo: 1.4000
     active_days: 5
-    repos_not_owned: 1
-    not_owned_basenames: 1
+    repos_not_owned: 2
+    not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 32
-    distinct_repos: 5
-    pushes_per_repo: 6.4000
+    pushes: 33
+    distinct_repos: 6
+    pushes_per_repo: 5.5000
     active_days: 11
-    repos_not_owned: 1
-    not_owned_basenames: 1
+    repos_not_owned: 2
+    not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
     pushes: 46
     distinct_repos: 7
     pushes_per_repo: 6.5714
-    active_days: 22
+    active_days: 21
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 22 active days in 90d — pass"
+  - "activity: 21 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "HGSparkConnectorExample"
@@ -129,6 +129,6 @@ repos:
 
 # liuxiaocs7
 
-46 pushes across 7 repositories on 22 active days in the last 90 days of public GitHub push activity.
+46 pushes across 7 repositories on 21 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/liuxiaocs7

@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "78a5846a75cc0fbb"
 pushes_per_week: [3, 0, 0, 0, 0, 1, 0, 0, 1, 0, 1, 1, 0]
@@ -84,7 +84,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-22"
+    last_push: "2026-09-28"
   - name: "astrbot_add_prompt_tags_livingmemory_compatible"
     title: "astrbot_add_prompt_tags_livingmemory_compatible"
     description: null

@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "78a5846a75cc0fbb"
 pushes_per_week: [13, 0, 0, 3, 0, 2, 0, 0, 0, 1, 1, 0, 2]
@@ -77,39 +77,6 @@ reasons:
   - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "deepseek-fanart-meme-pack"
-    title: "deepseek-fanart-meme-pack"
-    description: "DeepSeek 二创表情包，适配 AstrBot Meme Manager"
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-23"
-  - name: "atri-meme-pack"
-    title: "atri-meme-pack"
-    description: "面向 AstrBot meme_manager 的 ATRI 表情包，包含 551 张静态与动态表情"
-    language: null
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-08-30"
-  - name: "astrbot_plugin_meme_manager"
-    title: "astrbot_plugin_meme_manager"
-    description: "一个功能强大的 AstrBot 表情包管理插件，支持 🤖 AI 智能发送与自动收集表情、🖥️ WebUI 管理界面、☁️ 云端同步等特性。"
-    language: "Python"
-    topics:
-      - "astrbot"
-    stars_fact: 398
-    first_seen: null
-    last_push: "2026-09-21"
-  - name: "astrbot_sowing_discord"
-    title: "astrbot_sowing_discord"
-    description: "搬史自动化新时代!"
-    language: "Python"
-    topics: []
-    stars_fact: 593
-    first_seen: null
-    last_push: "2026-05-28"
   - name: "anka-afk"
     title: "anka-afk"
     description: "Config files for my GitHub profile."
@@ -119,7 +86,24 @@ repos:
       - "github-config"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-23"
+    last_push: "2026-10-01"
+  - name: "astrbot_sowing_discord"
+    title: "astrbot_sowing_discord"
+    description: "搬史自动化新时代!"
+    language: "Python"
+    topics: []
+    stars_fact: 597
+    first_seen: null
+    last_push: "2026-05-28"
+  - name: "astrbot_plugin_meme_manager"
+    title: "astrbot_plugin_meme_manager"
+    description: "一个功能强大的 AstrBot 表情包管理插件，支持 🤖 AI 智能发送与自动收集表情、🖥️ WebUI 管理界面、☁️ 云端同步等特性。"
+    language: "Python"
+    topics:
+      - "astrbot"
+    stars_fact: 402
+    first_seen: null
+    last_push: "2026-09-26"
   - name: "astrbot-meme-pack-index"
     title: "astrbot-meme-pack-index"
     description: "Astrbot mememanager 表情包广场索引, 如果你需要提交表情包, 请在此填写并提交 pr"
@@ -127,7 +111,23 @@ repos:
     topics: []
     stars_fact: 2
     first_seen: null
-    last_push: "2026-09-17"
+    last_push: "2026-09-26"
+  - name: "seio-stickers"
+    title: "seio-stickers"
+    description: "AstrBot Meme Manager compatible seio sticker pack (non-commercial)"
+    language: null
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-26"
+  - name: "deepseek-fanart-meme-pack"
+    title: "deepseek-fanart-meme-pack"
+    description: "DeepSeek 二创表情包，适配 AstrBot Meme Manager"
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-25"
 ---
 
 # anka-afk

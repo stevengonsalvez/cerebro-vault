@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [47, 20, 25, 24, 24, 21, 3, 13, 4, 7, 15, 15, 36]
+pushes_per_week: [36, 20, 23, 26, 19, 21, 3, 15, 2, 11, 11, 19, 34]
 windows:
   "7d":
-    pushes: 36
-    distinct_repos: 5
+    pushes: 38
+    distinct_repos: 6
     active_days: 7
-    repos_not_owned: 4
-    not_owned_basenames: 3
+    repos_not_owned: 5
+    not_owned_basenames: 4
     not_owned_owners: 3
   "30d":
-    pushes: 73
-    distinct_repos: 10
+    pushes: 75
+    distinct_repos: 11
     active_days: 17
-    repos_not_owned: 6
-    not_owned_basenames: 5
+    repos_not_owned: 7
+    not_owned_basenames: 6
     not_owned_owners: 3
   "90d":
-    pushes: 254
-    distinct_repos: 24
-    active_days: 60
-    repos_not_owned: 11
-    not_owned_basenames: 10
+    pushes: 240
+    distinct_repos: 25
+    active_days: 59
+    repos_not_owned: 12
+    not_owned_basenames: 11
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 4.2333
-  repo_per_active_day: 0.4000
-  not_owned_ratio: 0.4583
-  basename_concentration: 0.0833
+  push_per_day: 4.0678
+  repo_per_active_day: 0.4237
+  not_owned_ratio: 0.4800
+  basename_concentration: 0.0800
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 36
-    distinct_repos: 5
-    pushes_per_repo: 7.2000
+    pushes: 38
+    distinct_repos: 6
+    pushes_per_repo: 6.3333
     active_days: 7
-    repos_not_owned: 4
-    not_owned_basenames: 3
+    repos_not_owned: 5
+    not_owned_basenames: 4
     not_owned_owners: 3
   "30d":
-    pushes: 73
-    distinct_repos: 10
-    pushes_per_repo: 7.3000
+    pushes: 75
+    distinct_repos: 11
+    pushes_per_repo: 6.8182
     active_days: 17
-    repos_not_owned: 6
-    not_owned_basenames: 5
+    repos_not_owned: 7
+    not_owned_basenames: 6
     not_owned_owners: 3
   "90d":
-    pushes: 254
-    distinct_repos: 24
-    pushes_per_repo: 10.5833
-    active_days: 60
-    repos_not_owned: 11
-    not_owned_basenames: 10
+    pushes: 240
+    distinct_repos: 25
+    pushes_per_repo: 9.6000
+    active_days: 59
+    repos_not_owned: 12
+    not_owned_basenames: 11
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 60 active days in 90d — pass"
+  - "activity: 59 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "modern-sicp"
@@ -123,6 +123,6 @@ repos:
 
 # metaphorics
 
-254 pushes across 24 repositories on 60 active days in the last 90 days of public GitHub push activity.
+240 pushes across 25 repositories on 59 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/metaphorics

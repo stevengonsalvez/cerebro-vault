@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "46f3c1d6124190bd"
-pushes_per_week: [4, 2, 1, 2, 4, 6, 4, 1, 0, 0, 1, 1, 2]
+pushes_per_week: [4, 1, 1, 2, 4, 8, 2, 1, 0, 0, 1, 3, 0]
 windows:
   "7d":
-    pushes: 3
+    pushes: 2
     distinct_repos: 1
-    active_days: 2
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 28
-    distinct_repos: 14
-    active_days: 21
+    pushes: 27
+    distinct_repos: 13
+    active_days: 20
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.3333
-  repo_per_active_day: 0.6667
+  push_per_day: 1.3500
+  repo_per_active_day: 0.6500
   not_owned_ratio: 0.0000
-  basename_concentration: 0.0714
+  basename_concentration: 0.0769
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 3
+    pushes: 2
     distinct_repos: 1
-    pushes_per_repo: 3.0000
-    active_days: 2
+    pushes_per_repo: 2.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 28
-    distinct_repos: 14
-    pushes_per_repo: 2.0000
-    active_days: 21
+    pushes: 27
+    distinct_repos: 13
+    pushes_per_repo: 2.0769
+    active_days: 20
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 21 active days in 90d — pass"
+  - "activity: 20 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "i-hate-decimal-calc"
@@ -94,7 +94,7 @@ repos:
       - "symbolic-computation"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-20"
+    last_push: "2026-09-27"
   - name: "myuujik"
     title: "myuujik"
     description: "[ENG] High-performance, multi-format TUI music player with WASAPI exclusive mode, 10-band EQ, synchronized lyrics, and FFT visualizer / [JPN] WASAPI排他モード・10バンドEQ・歌詞同期・FFTアナライザーを搭載した高性能TUI音楽プレーヤー"
@@ -172,6 +172,6 @@ repos:
 
 # DovahkiinYuzuko
 
-28 pushes across 14 repositories on 21 active days in the last 90 days of public GitHub push activity.
+27 pushes across 13 repositories on 20 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/DovahkiinYuzuko

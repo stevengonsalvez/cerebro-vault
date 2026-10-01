@@ -10,16 +10,16 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "c1af6b58492f9bf4"
   - "ddd7486148a91958"
-pushes_per_week: [1, 0, 0, 1, 0, 5, 2, 2, 0, 0, 1, 1, 8]
+pushes_per_week: [1, 0, 1, 0, 0, 5, 2, 2, 0, 0, 1, 3, 6]
 windows:
   "7d":
-    pushes: 8
+    pushes: 6
     distinct_repos: 1
-    active_days: 2
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -51,10 +51,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 8
+    pushes: 6
     distinct_repos: 1
-    pushes_per_repo: 8.0000
-    active_days: 2
+    pushes_per_repo: 6.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -79,14 +79,6 @@ reasons:
   - "activity: 11 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "screenstudio-cli"
-    title: "screenstudio-cli"
-    description: "an agent-ready CLI tool to automate Screen Studio"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 19
-    first_seen: null
-    last_push: "2026-04-12"
   - name: "phone-harness"
     title: "phone-harness"
     description: "let your agent control your phone"
@@ -96,17 +88,33 @@ repos:
       - "ai"
       - "automation"
       - "developer-tools"
-    stars_fact: 2986
+    stars_fact: 3120
     first_seen: null
-    last_push: "2026-09-22"
+    last_push: "2026-09-27"
+  - name: "ShawnPana"
+    title: "ShawnPana"
+    description: "profile-maxxing"
+    language: null
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-08-09"
   - name: "smux"
     title: "smux"
     description: "tmux config with built-in terminal automation and agent-to-agent communication."
     language: "Shell"
     topics: []
-    stars_fact: 1530
+    stars_fact: 1532
     first_seen: null
     last_push: "2026-08-26"
+  - name: "screenstudio-cli"
+    title: "screenstudio-cli"
+    description: "an agent-ready CLI tool to automate Screen Studio"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 21
+    first_seen: null
+    last_push: "2026-04-12"
   - name: "personal-portfolio"
     title: "personal-portfolio"
     description: "A personal portfolio using Three.js"
@@ -123,14 +131,6 @@ repos:
     stars_fact: 1
     first_seen: null
     last_push: "2026-07-17"
-  - name: "studio-use"
-    title: "studio-use"
-    description: "Let your agent record and edit video with you. Screen recording with event streams, a real timeline, and an attributed, undoable op surface any agent can drive."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-18"
 ---
 
 # ShawnPana

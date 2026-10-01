@@ -10,16 +10,16 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "16389f32495280ea"
   - "edb3a626875732de"
-pushes_per_week: [8, 57, 8, 0, 0, 0, 2, 0, 0, 0, 0, 6, 5]
+pushes_per_week: [10, 59, 3, 0, 0, 0, 2, 0, 0, 0, 0, 6, 5]
 windows:
   "7d":
-    pushes: 7
-    distinct_repos: 4
-    active_days: 3
+    pushes: 5
+    distinct_repos: 3
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -31,16 +31,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 86
+    pushes: 85
     distinct_repos: 18
-    active_days: 19
+    active_days: 18
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 4.5263
-  repo_per_active_day: 0.9474
+  push_per_day: 4.7222
+  repo_per_active_day: 1.0000
   not_owned_ratio: 0.0000
   basename_concentration: 0.0556
   shapes: []
@@ -51,10 +51,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 7
-    distinct_repos: 4
-    pushes_per_repo: 1.7500
-    active_days: 3
+    pushes: 5
+    distinct_repos: 3
+    pushes_per_repo: 1.6667
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -67,18 +67,26 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 86
+    pushes: 85
     distinct_repos: 18
-    pushes_per_repo: 4.7778
-    active_days: 19
+    pushes_per_repo: 4.7222
+    active_days: 18
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 19 active days in 90d — pass"
+  - "activity: 18 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "jsp-lean-formalizations"
+    title: "jsp-lean-formalizations"
+    description: "Lean 4 formalizations contributed toward The Justin Sun Prize (core Lean 4, no Mathlib)"
+    language: "Lean"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-24"
   - name: "PoseMamba"
     title: "PoseMamba"
     description: "AAAI 2025 | Monocular 3D Human Pose Estimation with Bidirectional Spatio-Temporal State Space Model (Mamba/SSM)"
@@ -130,6 +138,6 @@ repos:
 
 # nankingjing
 
-86 pushes across 18 repositories on 19 active days in the last 90 days of public GitHub push activity.
+85 pushes across 18 repositories on 18 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/nankingjing

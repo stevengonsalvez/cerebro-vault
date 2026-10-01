@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [7, 15, 7, 4, 1, 4, 4, 0, 0, 2, 0, 6, 3]
+pushes_per_week: [7, 16, 8, 2, 1, 7, 1, 0, 0, 2, 0, 8, 1]
 windows:
   "7d":
-    pushes: 4
+    pushes: 3
     distinct_repos: 1
-    active_days: 3
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 4
+    pushes: 3
     distinct_repos: 1
-    pushes_per_repo: 4.0000
-    active_days: 3
+    pushes_per_repo: 3.0000
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -77,6 +77,30 @@ reasons:
   - "activity: 31 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "InFalsusTouch"
+    title: "InFalsusTouch"
+    description: "把 Android 手机或平板变成 In Falsus 触控手台：通过 USB 连接电脑，在手机上看谱、滑动 Field、点按或长按六键，支持多设备分工合作游玩。"
+    language: "Kotlin"
+    topics:
+      - "adb"
+      - "android"
+      - "co-op"
+      - "cpp"
+      - "flutter"
+      - "game-controller"
+      - "in-falsus"
+      - "infalsus"
+      - "kotlin"
+      - "material-design-3"
+      - "multiplayer"
+      - "rhythm-game"
+      - "touch-controller"
+      - "touchscreen"
+      - "usb"
+      - "windows"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-29"
   - name: "Cedarflake-Lab"
     title: "Cedarflake-Lab"
     description: "Personal monorepo for experiments, apps, packages, and local workbench projects."
@@ -88,7 +112,7 @@ repos:
       - "typescript"
     stars_fact: 1
     first_seen: null
-    last_push: "2026-09-20"
+    last_push: "2026-09-29"
   - name: "Cedarflake"
     title: "Cedarflake"
     description: null
@@ -131,7 +155,7 @@ repos:
       - "windows"
     stars_fact: 12
     first_seen: null
-    last_push: "2026-09-23"
+    last_push: "2026-09-26"
 ---
 
 # Cedarflake

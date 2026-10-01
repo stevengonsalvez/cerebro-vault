@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "3c90af76cbde0363"
 pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 5, 0, 0, 6, 4, 2]
@@ -84,7 +84,7 @@ repos:
     topics: []
     stars_fact: 2
     first_seen: null
-    last_push: "2026-09-22"
+    last_push: "2026-09-30"
   - name: "dockndevai.github.io"
     title: "dockndevai.github.io"
     description: "Safe-by-default MCP servers for AI agents — Kubernetes, Kafka, ClickHouse, Azure, OCI, Keycloak, Percona PostgreSQL, and RAG. Read-only by default."
@@ -92,53 +92,58 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-22"
-  - name: "laya-models"
-    title: "laya-models"
-    description: "Laya decision model, converted to ONNX so it runs in the browser (CC: Convai Innovations, Apache-2.0)"
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-22"
-  - name: "dockndevai"
-    title: "dockndevai"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-22"
-  - name: "mcp-cdp"
-    title: "mcp-cdp"
-    description: null
+    last_push: "2026-09-29"
+  - name: "mcp-percona-pg"
+    title: "mcp-percona-pg"
+    description: "MCP server for the Percona Operator for PostgreSQL — manage PostgreSQL + PgBouncer, pooling, backups/PITR, and DR with safe-by-default security flags."
     language: "TypeScript"
     topics:
-      - "ai"
-      - "browser-automation"
-      - "cdp"
-      - "chrome-devtools-protocol"
-      - "electron"
-      - "mcp"
-      - "model-context-protocol"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-22"
-  - name: "mcp-openshift"
-    title: "mcp-openshift"
-    description: "Safe-by-default MCP server for OpenShift / Kubernetes — projects, pods, logs, deployments, routes and more, with username/password (local IdP) or token auth."
-    language: "TypeScript"
-    topics:
-      - "ai"
       - "devops"
-      - "k8s"
       - "kubernetes"
       - "mcp"
       - "model-context-protocol"
-      - "openshift"
+      - "percona"
+      - "pgbouncer"
+      - "postgresql"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-29"
+  - name: "mcp-azure"
+    title: "mcp-azure"
+    description: "MCP server for Azure (Resource Manager) — inventory, tags, VM power, lifecycle — with governance controls (scoping, protected groups, location allowlist, delete gating, confirmation)."
+    language: "TypeScript"
+    topics:
+      - "azure"
+      - "cloud"
+      - "governance"
+      - "llm"
+      - "mcp"
+      - "model-context-protocol"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-29"
+  - name: "mcp-clickhouse"
+    title: "mcp-clickhouse"
+    description: "MCP server for ClickHouse — explore, query, and manage with SQL-classification-based security modes and access-control flags."
+    language: "TypeScript"
+    topics:
+      - "clickhouse"
+      - "llm"
+      - "mcp"
+      - "model-context-protocol"
+      - "olap"
+      - "sql"
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-09-29"
+  - name: "mcp-macos"
+    title: "mcp-macos"
+    description: "Safe-by-default MCP server to observe & operate a Mac — files, processes, apps, shell, AppleScript, GUI."
+    language: "TypeScript"
+    topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-19"
+    last_push: "2026-09-29"
 ---
 
 # dockndevai

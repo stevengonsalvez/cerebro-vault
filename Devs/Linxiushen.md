@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "c489e6fb5febf2ab"
-pushes_per_week: [0, 0, 0, 0, 3, 1, 0, 0, 0, 0, 1, 6, 11]
+pushes_per_week: [0, 0, 0, 0, 3, 1, 0, 0, 0, 0, 3, 6, 10]
 windows:
   "7d":
     pushes: 11
-    distinct_repos: 10
-    active_days: 4
+    distinct_repos: 9
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 18
+    pushes: 19
     distinct_repos: 15
-    active_days: 8
+    active_days: 9
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 22
+    pushes: 23
     distinct_repos: 19
-    active_days: 11
+    active_days: 12
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.0000
-  repo_per_active_day: 1.7273
+  push_per_day: 1.9167
+  repo_per_active_day: 1.5833
   not_owned_ratio: 0.0000
   basename_concentration: 0.0526
   shapes: []
@@ -50,31 +50,31 @@ automation:
 facets:
   "7d":
     pushes: 11
-    distinct_repos: 10
-    pushes_per_repo: 1.1000
-    active_days: 4
+    distinct_repos: 9
+    pushes_per_repo: 1.2222
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 18
+    pushes: 19
     distinct_repos: 15
-    pushes_per_repo: 1.2000
-    active_days: 8
+    pushes_per_repo: 1.2667
+    active_days: 9
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 22
+    pushes: 23
     distinct_repos: 19
-    pushes_per_repo: 1.1579
-    active_days: 11
+    pushes_per_repo: 1.2105
+    active_days: 12
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 11 active days in 90d — pass"
+  - "activity: 12 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "precedent"
@@ -143,6 +143,6 @@ repos:
 
 # Linxiushen
 
-22 pushes across 19 repositories on 11 active days in the last 90 days of public GitHub push activity.
+23 pushes across 19 repositories on 12 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Linxiushen

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "c489e6fb5febf2ab"
-pushes_per_week: [0, 0, 0, 1, 1, 3, 1, 0, 1, 2, 0, 0, 0]
+pushes_per_week: [0, 0, 0, 1, 1, 3, 1, 1, 0, 2, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,14 +77,6 @@ reasons:
   - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "6-0"
-    title: "6-0"
-    description: null
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-16"
   - name: "the-last-supper"
     title: "the-last-supper"
     description: null
@@ -93,6 +85,14 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-09-12"
+  - name: "6-0"
+    title: "6-0"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-16"
   - name: "FlowForge-AI"
     title: "FlowForge-AI"
     description: "Build powerful automations using natural language. FlowForge AI transforms prompts into visual workflows with a modern drag-and-drop interface"
@@ -109,14 +109,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-09-10"
-  - name: "randomlol"
-    title: "randomlol"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-30"
   - name: "RAP_CASED"
     title: "RAP_CASED"
     description: null
@@ -125,6 +117,14 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-08-01"
+  - name: "gitglow"
+    title: "gitglow"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-07-20"
 ---
 
 # AyushDubey23

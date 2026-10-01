@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "0241e600b90d751e"
-pushes_per_week: [0, 4, 4, 10, 8, 8, 4, 0, 0, 1, 1, 2, 5]
+pushes_per_week: [0, 5, 5, 10, 6, 9, 3, 0, 0, 2, 0, 3, 5]
 windows:
   "7d":
     pushes: 6
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 9
+    pushes: 10
     distinct_repos: 2
-    active_days: 6
+    active_days: 7
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 47
+    pushes: 48
     distinct_repos: 2
-    active_days: 29
+    active_days: 30
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.6207
-  repo_per_active_day: 0.0690
+  push_per_day: 1.6000
+  repo_per_active_day: 0.0667
   not_owned_ratio: 1.0000
   basename_concentration: 0.5000
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 9
+    pushes: 10
     distinct_repos: 2
-    pushes_per_repo: 4.5000
-    active_days: 6
+    pushes_per_repo: 5.0000
+    active_days: 7
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 47
+    pushes: 48
     distinct_repos: 2
-    pushes_per_repo: 23.5000
-    active_days: 29
+    pushes_per_repo: 24.0000
+    active_days: 30
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 29 active days in 90d — pass"
+  - "activity: 30 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "effect-mini-harness"
@@ -129,6 +129,6 @@ repos:
 
 # anerli
 
-47 pushes across 2 repositories on 29 active days in the last 90 days of public GitHub push activity.
+48 pushes across 2 repositories on 30 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/anerli

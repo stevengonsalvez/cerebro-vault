@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "716cf9e2237ac9db"
-pushes_per_week: [2, 7, 2, 7, 1, 1, 3, 0, 0, 0, 3, 1, 0]
+pushes_per_week: [4, 5, 2, 7, 1, 1, 3, 0, 0, 0, 3, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -94,23 +94,7 @@ repos:
       - "mod"
     stars_fact: 8
     first_seen: null
-    last_push: "2026-09-23"
-  - name: "gaia-ai"
-    title: "gaia-ai"
-    description: "GAIA Code - Most powerful Perplexity Assistant for any software development. Agentic coding capabilities like Claude Code."
-    language: "Markdown"
-    topics:
-      - "ai"
-      - "code"
-      - "harness"
-      - "mcp"
-      - "perplexity"
-      - "prompts"
-      - "spaces"
-      - "trending"
-    stars_fact: 53
-    first_seen: null
-    last_push: "2026-09-22"
+    last_push: "2026-10-01"
   - name: "dripwriter-origin"
     title: "dripwriter-origin"
     description: "Dripwriter Origin browser extension: Simulates human typing on any website — Google Docs, Canvas, and more: natural speed, realistic typos, false starts, and breaks."
@@ -126,9 +110,9 @@ repos:
       - "redirect"
       - "stealth"
       - "typer"
-    stars_fact: 17
+    stars_fact: 19
     first_seen: null
-    last_push: "2026-09-22"
+    last_push: "2026-10-01"
   - name: "ics-calendar-dxt"
     title: "ics-calendar-dxt"
     description: "iCloud Calendar MCP / Integration for Claude Desktop on MacOS"
@@ -136,7 +120,7 @@ repos:
     topics: []
     stars_fact: 4
     first_seen: null
-    last_push: "2026-09-21"
+    last_push: "2026-10-01"
   - name: "deskview-mcp"
     title: "deskview-mcp"
     description: "MacOS Desk view plugin for Claude Chat, Cowork, Code (Desktop Extension)"
@@ -144,7 +128,23 @@ repos:
     topics: []
     stars_fact: 3
     first_seen: null
-    last_push: "2026-09-21"
+    last_push: "2026-10-01"
+  - name: "gaia-ai"
+    title: "gaia-ai"
+    description: "GAIA Code - Most powerful Perplexity Assistant for any software development. Agentic coding capabilities like Claude Code."
+    language: "Markdown"
+    topics:
+      - "ai"
+      - "code"
+      - "harness"
+      - "mcp"
+      - "perplexity"
+      - "prompts"
+      - "spaces"
+      - "trending"
+    stars_fact: 53
+    first_seen: null
+    last_push: "2026-10-01"
   - name: "terminal-dxt"
     title: "terminal-dxt"
     description: "Claude Desktop extension exposing a run_command MCP tool: execute a bash command in a working directory and get back stdout, stderr, and exit code. Local only."
@@ -152,7 +152,7 @@ repos:
     topics: []
     stars_fact: 2
     first_seen: null
-    last_push: "2026-09-23"
+    last_push: "2026-10-01"
 ---
 
 # alexey-max-fedorov

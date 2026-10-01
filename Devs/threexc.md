@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [4, 6, 3, 2, 0, 3, 1, 4, 0, 4, 1, 1, 4]
+pushes_per_week: [3, 7, 2, 1, 1, 2, 1, 4, 0, 4, 1, 1, 5]
 windows:
   "7d":
-    pushes: 4
+    pushes: 5
     distinct_repos: 3
-    active_days: 3
+    active_days: 4
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 10
+    pushes: 11
     distinct_repos: 7
-    active_days: 8
+    active_days: 9
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 33
+    pushes: 32
     distinct_repos: 8
     active_days: 24
     repos_not_owned: 1
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.3750
+  push_per_day: 1.3333
   repo_per_active_day: 0.3333
   not_owned_ratio: 0.1250
   basename_concentration: 0.1250
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 4
+    pushes: 5
     distinct_repos: 3
-    pushes_per_repo: 1.3333
-    active_days: 3
+    pushes_per_repo: 1.6667
+    active_days: 4
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 10
+    pushes: 11
     distinct_repos: 7
-    pushes_per_repo: 1.4286
-    active_days: 8
+    pushes_per_repo: 1.5714
+    active_days: 9
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 33
+    pushes: 32
     distinct_repos: 8
-    pushes_per_repo: 4.1250
+    pushes_per_repo: 4.0000
     active_days: 24
     repos_not_owned: 1
     not_owned_basenames: 1
@@ -129,6 +129,6 @@ repos:
 
 # threexc
 
-33 pushes across 8 repositories on 24 active days in the last 90 days of public GitHub push activity.
+32 pushes across 8 repositories on 24 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/threexc

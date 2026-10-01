@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [29, 15, 18, 5, 0, 0, 4, 2, 2, 2, 2, 2, 4]
+pushes_per_week: [33, 13, 19, 1, 0, 0, 4, 2, 2, 2, 2, 2, 4]
 windows:
   "7d":
     pushes: 4
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 11
+    pushes: 10
     distinct_repos: 5
-    active_days: 9
+    active_days: 8
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 1
   "90d":
-    pushes: 85
+    pushes: 84
     distinct_repos: 13
-    active_days: 35
+    active_days: 34
     repos_not_owned: 8
     not_owned_basenames: 7
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 2.4286
-  repo_per_active_day: 0.3714
+  push_per_day: 2.4706
+  repo_per_active_day: 0.3824
   not_owned_ratio: 0.6154
   basename_concentration: 0.1538
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 11
+    pushes: 10
     distinct_repos: 5
-    pushes_per_repo: 2.2000
-    active_days: 9
+    pushes_per_repo: 2.0000
+    active_days: 8
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 1
   "90d":
-    pushes: 85
+    pushes: 84
     distinct_repos: 13
-    pushes_per_repo: 6.5385
-    active_days: 35
+    pushes_per_repo: 6.4615
+    active_days: 34
     repos_not_owned: 8
     not_owned_basenames: 7
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 35 active days in 90d — pass"
+  - "activity: 34 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "astrbot_plugin_qq_custom_command_panel"
@@ -115,6 +115,6 @@ repos:
 
 # mantoujun12
 
-85 pushes across 13 repositories on 35 active days in the last 90 days of public GitHub push activity.
+84 pushes across 13 repositories on 34 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/mantoujun12

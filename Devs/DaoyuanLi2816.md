@@ -10,12 +10,12 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "16389f32495280ea"
   - "50b9cd6dfa9f75d1"
   - "939f60d749009d51"
-pushes_per_week: [9, 12, 7, 13, 13, 5, 8, 0, 0, 1, 0, 2, 0]
+pushes_per_week: [9, 13, 8, 14, 9, 6, 7, 0, 0, 1, 0, 2, 0]
 windows:
   "7d":
     pushes: 0
@@ -32,16 +32,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 70
+    pushes: 69
     distinct_repos: 15
-    active_days: 30
+    active_days: 29
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.3333
-  repo_per_active_day: 0.5000
+  push_per_day: 2.3793
+  repo_per_active_day: 0.5172
   not_owned_ratio: 0.0000
   basename_concentration: 0.0667
   shapes: []
@@ -68,18 +68,36 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 70
+    pushes: 69
     distinct_repos: 15
-    pushes_per_repo: 4.6667
-    active_days: 30
+    pushes_per_repo: 4.6000
+    active_days: 29
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 3 vault signal(s) — pass"
-  - "activity: 30 active days in 90d — pass"
+  - "activity: 29 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "mcp-fence"
+    title: "mcp-fence"
+    description: "Local-first security scanner, MCP protocol inspector, dynamic fuzzer, Docker sandbox, and report generator for Model Context Protocol servers."
+    language: "Python"
+    topics:
+      - "fuzzer"
+      - "llm-security"
+      - "mcp"
+      - "model-context-protocol"
+      - "prompt-injection"
+      - "sandbox"
+      - "sarif"
+      - "scanner"
+      - "security"
+      - "tool-poisoning"
+    stars_fact: 37
+    first_seen: null
+    last_push: "2026-08-21"
   - name: "laptop-llm-cn"
     title: "laptop-llm-cn"
     description: "中文 LLM 研究教学实验室：Sparse Attention、MLA、MoE、PPO/GRPO、RLVR、在线蒸馏与本地网页 Serving"
@@ -175,30 +193,10 @@ repos:
     stars_fact: 31
     first_seen: null
     last_push: "2026-07-11"
-  - name: "can-i-finetune-this"
-    title: "can-i-finetune-this"
-    description: "Estimate whether a Hugging Face model fits and fine-tunes on your local GPU."
-    language: "Python"
-    topics:
-      - "bitsandbytes"
-      - "fine-tuning"
-      - "gpu"
-      - "hugging-face"
-      - "llm"
-      - "lora"
-      - "memory-estimation"
-      - "peft"
-      - "pytorch"
-      - "qlora"
-      - "transformers"
-      - "vram"
-    stars_fact: 792
-    first_seen: null
-    last_push: "2026-07-23"
 ---
 
 # DaoyuanLi2816
 
-70 pushes across 15 repositories on 30 active days in the last 90 days of public GitHub push activity.
+69 pushes across 15 repositories on 29 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/DaoyuanLi2816

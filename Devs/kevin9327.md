@@ -11,17 +11,17 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "379642deb53f3714"
   - "4138778ebbc75ba6"
   - "c489e6fb5febf2ab"
-pushes_per_week: [0, 0, 9, 7, 6, 7, 43, 2, 3, 1, 38, 10, 10]
+pushes_per_week: [0, 0, 10, 8, 4, 7, 43, 2, 3, 1, 39, 10, 9]
 windows:
   "7d":
-    pushes: 12
-    distinct_repos: 9
-    active_days: 4
+    pushes: 10
+    distinct_repos: 8
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -53,10 +53,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 12
-    distinct_repos: 9
-    pushes_per_repo: 1.3333
-    active_days: 4
+    pushes: 10
+    distinct_repos: 8
+    pushes_per_repo: 1.2500
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -81,38 +81,61 @@ reasons:
   - "activity: 34 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "kevin9327"
-    title: "kevin9327"
-    description: "Profile README: Blender-rendered hero loop, self-hosted stats card, animated 3D contribution graph, snake and Pac-Man"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-23"
-  - name: "kevin9327.github.io"
-    title: "kevin9327.github.io"
-    description: "A year of commits as a live WebGL city: real contribution data, three.js, refreshed daily"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-23"
   - name: "github-trending-daily"
     title: "github-trending-daily"
     description: "A daily auto-refreshed digest of GitHub Trending, curated for learning"
     language: "JavaScript"
     topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-10-01"
+  - name: "hbmlens"
+    title: "hbmlens"
+    description: "Read HBM failures like an inspection image: memory test patterns on a virtual HBM and real GPUs (CUDA), measured fault coverage, fail-signature analysis and a 3D viewer."
+    language: "Python"
+    topics:
+      - "cuda"
+      - "dram"
+      - "failure-analysis"
+      - "fault-coverage"
+      - "gpu"
+      - "hbm"
+      - "march-test"
+      - "memory-testing"
+      - "threejs"
     stars_fact: 1
     first_seen: null
-    last_push: "2026-09-23"
-  - name: "jev-harness"
-    title: "jev-harness"
-    description: "JevHarness: TypeSafe Jev agent tool-call gate. execute / confirm / reject in code."
+    last_push: "2026-09-28"
+  - name: "kevin9327"
+    title: "kevin9327"
+    description: "Profile README: Blender-rendered hero loop, self-hosted stats card, animated 3D contribution graph, snake and Pac-Man"
     language: "Python"
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-09-18"
+    last_push: "2026-10-01"
+  - name: "kevin9327.github.io"
+    title: "kevin9327.github.io"
+    description: "A year of commits as a live WebGL city: real contribution data, three.js, refreshed daily"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-30"
+  - name: "docagent"
+    title: "docagent"
+    description: "Deterministic document runtime for agents. DOCX, ODT, Markdown, HTML, PDF/A, plus regional Hangul HWP/HWPX/HML."
+    language: "Rust"
+    topics:
+      - "agent"
+      - "document"
+      - "docx"
+      - "markdown"
+      - "pdf"
+      - "rust"
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-09-06"
   - name: "patent-intel"
     title: "patent-intel"
     description: "Ask patent questions in plain language, get measured answers — Claude Code skill + zero-key CLI for patent landscapes, leaderboards, and trends"
@@ -128,15 +151,7 @@ repos:
       - "prior-art"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-21"
-  - name: "balju-radar"
-    title: "balju-radar"
-    description: "Weekly lead report on public tenders for AI training and software builds"
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-21"
+    last_push: "2026-09-28"
 ---
 
 # kevin9327

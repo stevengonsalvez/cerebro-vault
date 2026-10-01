@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "d1946b21c02e5fa5"
 pushes_per_week: [2, 0, 1, 0, 0, 0, 0, 1, 0, 1, 0, 2, 0]
@@ -77,14 +77,14 @@ reasons:
   - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "hermes-kit"
-    title: "hermes-kit"
-    description: "Hermes Agent plugins, skills and guides by Adonis0123"
-    language: "Python"
+  - name: "Adonis0123"
+    title: "Adonis0123"
+    description: null
+    language: "JavaScript"
     topics: []
-    stars_fact: 1
+    stars_fact: 0
     first_seen: null
-    last_push: "2026-09-23"
+    last_push: "2026-09-28"
   - name: "adonis-skills"
     title: "adonis-skills"
     description: null
@@ -97,6 +97,14 @@ repos:
       - "skills"
     stars_fact: 3
     first_seen: null
+    last_push: "2026-09-24"
+  - name: "hermes-kit"
+    title: "hermes-kit"
+    description: "Hermes Agent plugins, skills and guides by Adonis0123"
+    language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
     last_push: "2026-09-23"
   - name: "adonis-pi"
     title: "adonis-pi"
@@ -106,14 +114,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-09-22"
-  - name: "Adonis0123"
-    title: "Adonis0123"
-    description: null
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-21"
   - name: "nookmark"
     title: "nookmark"
     description: "Chrome/Edge bookmark manager as a WXT extension"

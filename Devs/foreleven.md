@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "16389f32495280ea"
-pushes_per_week: [6, 9, 10, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [6, 12, 7, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,6 +77,14 @@ reasons:
   - "activity: 11 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "aster"
+    title: "aster"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-01"
   - name: "folio"
     title: "folio"
     description: null
@@ -84,7 +92,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-20"
+    last_push: "2026-09-30"
   - name: "pi-eve"
     title: "pi-eve"
     description: null
@@ -130,14 +138,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-03-10"
-  - name: "n8n-playwright"
-    title: "n8n-playwright"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2023-10-07"
 ---
 
 # foreleven

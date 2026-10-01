@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "01cd6a498d377caf"
   - "03604cccd7e9402d"
@@ -63,7 +63,7 @@ provenance:
   - "f9a1870648a6375a"
   - "fe9e50bf2d5b21fe"
   - "ff1ca072bf39e471"
-pushes_per_week: [4, 1, 1, 6, 4, 0, 3, 3, 0, 0, 0, 0, 2]
+pushes_per_week: [4, 2, 0, 10, 0, 0, 3, 3, 0, 0, 0, 0, 2]
 windows:
   "7d":
     pushes: 2
@@ -128,6 +128,22 @@ reasons:
   - "activity: 9 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "pi-anthropic-sps"
+    title: "pi-anthropic-sps"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-30"
+  - name: "rust-sync"
+    title: "rust-sync"
+    description: null
+    language: "Rust"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-27"
   - name: "next-issue"
     title: "next-issue"
     description: null
@@ -162,22 +178,6 @@ repos:
     stars_fact: 1
     first_seen: null
     last_push: "2026-08-30"
-  - name: "openai-codex-proxy"
-    title: "openai-codex-proxy"
-    description: null
-    language: "Rust"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-23"
-  - name: "pi-zed"
-    title: "pi-zed"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-08-18"
 ---
 
 # ravshansbox

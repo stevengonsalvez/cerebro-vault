@@ -11,11 +11,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "637c99109af31ed2"
   - "b22ecd25e4a0f368"
-pushes_per_week: [35, 23, 6, 6, 2, 4, 4, 5, 0, 0, 1, 1, 13]
+pushes_per_week: [24, 22, 6, 6, 2, 5, 3, 5, 0, 0, 1, 2, 12]
 windows:
   "7d":
     pushes: 13
@@ -32,18 +32,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 100
-    distinct_repos: 5
-    active_days: 34
+    pushes: 88
+    distinct_repos: 4
+    active_days: 33
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.9412
-  repo_per_active_day: 0.1471
-  not_owned_ratio: 0.2000
-  basename_concentration: 0.2000
+  push_per_day: 2.6667
+  repo_per_active_day: 0.1212
+  not_owned_ratio: 0.2500
+  basename_concentration: 0.2500
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -68,16 +68,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 100
-    distinct_repos: 5
-    pushes_per_repo: 20.0000
-    active_days: 34
+    pushes: 88
+    distinct_repos: 4
+    pushes_per_repo: 22.0000
+    active_days: 33
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 34 active days in 90d — pass"
+  - "activity: 33 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "skills"
@@ -85,53 +85,55 @@ repos:
     description: "Skills for Real Engineers. Straight from my .agents directory."
     language: "Shell"
     topics: []
-    stars_fact: 268252
+    stars_fact: 273178
     first_seen: "2026-07-31T06:00:08.910931+00:00"
-    last_push: "2026-09-18"
-  - name: "sandcastle"
-    title: "sandcastle"
-    description: "Orchestrate sandboxed coding agents in TypeScript with sandcastle.run()"
+    last_push: "2026-09-29"
+  - name: "ts-reset"
+    title: "ts-reset"
+    description: "A 'CSS reset' for TypeScript, improving types for common JavaScript API's"
     language: "TypeScript"
-    topics: []
-    stars_fact: 8111
+    topics:
+      - "reset"
+      - "typescript"
+    stars_fact: 8616
     first_seen: null
-    last_push: "2026-06-29"
-  - name: "dictionary-of-ai-coding"
-    title: "dictionary-of-ai-coding"
-    description: "AI coding jargon, explained in plain English."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 4735
-    first_seen: null
-    last_push: "2026-07-02"
-  - name: "mattpocock"
-    title: "mattpocock"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 471
-    first_seen: null
-    last_push: "2026-06-22"
-  - name: "ai-hero-cli"
-    title: "ai-hero-cli"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 125
-    first_seen: null
-    last_push: "2026-09-22"
+    last_push: "2026-04-01"
   - name: "course-video-manager"
     title: "course-video-manager"
     description: null
     language: "TypeScript"
     topics: []
-    stars_fact: 755
+    stars_fact: 774
     first_seen: null
-    last_push: "2026-09-22"
+    last_push: "2026-09-30"
+  - name: "dictionary-of-ai-coding"
+    title: "dictionary-of-ai-coding"
+    description: "AI coding jargon, explained in plain English."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 4900
+    first_seen: null
+    last_push: "2026-09-24"
+  - name: "sandcastle"
+    title: "sandcastle"
+    description: "Orchestrate sandboxed coding agents in TypeScript with sandcastle.run()"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 8206
+    first_seen: null
+    last_push: "2026-06-29"
+  - name: "mattpocock"
+    title: "mattpocock"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 490
+    first_seen: null
+    last_push: "2026-06-22"
 ---
 
 # mattpocock
 
-100 pushes across 5 repositories on 34 active days in the last 90 days of public GitHub push activity.
+88 pushes across 4 repositories on 33 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/mattpocock

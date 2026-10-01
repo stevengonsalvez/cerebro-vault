@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "c1af6b58492f9bf4"
-pushes_per_week: [0, 0, 4, 45, 10, 11, 2, 1, 0, 1, 0, 0, 3]
+pushes_per_week: [0, 0, 9, 41, 9, 12, 2, 0, 0, 1, 0, 0, 3]
 windows:
   "7d":
     pushes: 3
@@ -77,6 +77,22 @@ reasons:
   - "activity: 22 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "professional-cv-profile"
+    title: "professional-cv-profile"
+    description: "Professional CV Profile - Interactive HTML resume with real work experience, recommendations, and company logos"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-26"
+  - name: "laya-vision-stitch"
+    title: "laya-vision-stitch"
+    description: "Local screenshot-and-goal game agent research on Apple Silicon: Laya + Open-P2P policy trained on public gameplay (D2E), Molmo slow planner with RADIO tracking"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-25"
   - name: "screenquest"
     title: "screenquest"
     description: "A local vision game agent for Apple Silicon. Screenshot perception, Laya/Core ML decisions, Qwen/MLX planning, camera control, loot clicks, and evidence-based review."
@@ -101,14 +117,6 @@ repos:
     stars_fact: 1
     first_seen: null
     last_push: "2026-08-22"
-  - name: "professional-cv-profile"
-    title: "professional-cv-profile"
-    description: "Professional CV Profile - Interactive HTML resume with real work experience, recommendations, and company logos"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-07"
   - name: "3DRocketEngine_Simulator"
     title: "3DRocketEngine_Simulator"
     description: "Interactive browser-based simulator for designing, analyzing, and 3D-printing liquid rocket engines. Real-time thermodynamics, regenerative cooling, evolutionary optimization, and STL export."
@@ -125,14 +133,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-07-22"
-  - name: "ibnn-forget-lm"
-    title: "ibnn-forget-lm"
-    description: "Testing the IBNN FFN neuron combined with forgetting attention (FoX) — a local char-LM factorial harness"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-06-19"
 ---
 
 # DanielTea

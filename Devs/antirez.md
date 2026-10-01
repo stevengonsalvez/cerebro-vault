@@ -11,7 +11,7 @@ provenance_repos:
 admitted: true
 low_n: true
 repos_populated: true
-generated_at: "2026-09-28T06:07:44.182865+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "3eacb4655aba2497"
   - "f0fa1fe670d03028"
@@ -80,12 +80,20 @@ reasons:
   - "activity: 3 active days in 90d — below the 5-day line, LABELLED low-n (never suppressed)"
   - "automation: clear — pass"
 repos:
+  - name: "qwen-asr"
+    title: "qwen-asr"
+    description: "C inference for Qwen3-ASR 0.6b and 1.7b transcriptions models"
+    language: "C"
+    topics: []
+    stars_fact: 617
+    first_seen: null
+    last_push: "2026-10-01"
   - name: "ds4"
     title: "ds4"
     description: "DeepSeek 4 Flash and PRO local inference engine for Metal, CUDA and ROCm"
     language: "C"
     topics: []
-    stars_fact: 22659
+    stars_fact: 22817
     first_seen: "2026-08-04T06:00:05.826189+00:00"
     last_push: "2026-09-20"
   - name: "kilo"
@@ -93,23 +101,15 @@ repos:
     description: "A text editor in less than 1000 LOC with syntax highlight and search."
     language: "C"
     topics: []
-    stars_fact: 9138
+    stars_fact: 9156
     first_seen: null
     last_push: "2025-01-04"
-  - name: "iris.c"
-    title: "iris.c"
-    description: "Flux 2 image generation model pure C inference"
-    language: "C"
-    topics: []
-    stars_fact: 1992
-    first_seen: null
-    last_push: "2026-02-13"
   - name: "h3.c"
     title: "h3.c"
     description: "MiniMax H3 inference engine for Mac computers"
     language: "C"
     topics: []
-    stars_fact: 2742
+    stars_fact: 2801
     first_seen: "2026-08-11T06:00:08.519332+00:00"
     last_push: "2026-08-11"
   - name: "sds"
@@ -117,17 +117,17 @@ repos:
     description: "Simple Dynamic Strings library for C"
     language: "C"
     topics: []
-    stars_fact: 5562
+    stars_fact: 5572
     first_seen: null
     last_push: "2025-04-18"
-  - name: "smallchat"
-    title: "smallchat"
-    description: "A minimal programming example for a chat server"
+  - name: "ttt-rl"
+    title: "ttt-rl"
+    description: "Reinforcement Learning example in C, playing tic tac toe"
     language: "C"
     topics: []
-    stars_fact: 7495
+    stars_fact: 588
     first_seen: null
-    last_push: "2024-01-27"
+    last_push: "2025-03-13"
 ---
 
 # antirez

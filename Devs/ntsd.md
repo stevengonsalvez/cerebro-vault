@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "ef17663e884139a8"
-pushes_per_week: [0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 17, 13, 9]
+pushes_per_week: [0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 17, 14, 11]
 windows:
   "7d":
-    pushes: 11
-    distinct_repos: 3
-    active_days: 6
+    pushes: 12
+    distinct_repos: 4
+    active_days: 7
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 40
-    distinct_repos: 4
-    active_days: 16
+    pushes: 43
+    distinct_repos: 5
+    active_days: 18
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 41
-    distinct_repos: 4
-    active_days: 17
+    pushes: 44
+    distinct_repos: 5
+    active_days: 19
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.4118
-  repo_per_active_day: 0.2353
-  not_owned_ratio: 0.5000
-  basename_concentration: 0.2500
+  push_per_day: 2.3158
+  repo_per_active_day: 0.2632
+  not_owned_ratio: 0.4000
+  basename_concentration: 0.2000
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 11
-    distinct_repos: 3
-    pushes_per_repo: 3.6667
-    active_days: 6
+    pushes: 12
+    distinct_repos: 4
+    pushes_per_repo: 3.0000
+    active_days: 7
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 40
-    distinct_repos: 4
-    pushes_per_repo: 10.0000
-    active_days: 16
+    pushes: 43
+    distinct_repos: 5
+    pushes_per_repo: 8.6000
+    active_days: 18
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 41
-    distinct_repos: 4
-    pushes_per_repo: 10.2500
-    active_days: 17
+    pushes: 44
+    distinct_repos: 5
+    pushes_per_repo: 8.8000
+    active_days: 19
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 17 active days in 90d — pass"
+  - "activity: 19 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "sdp-compact"
@@ -159,6 +159,6 @@ repos:
 
 # ntsd
 
-41 pushes across 4 repositories on 17 active days in the last 90 days of public GitHub push activity.
+44 pushes across 5 repositories on 19 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ntsd

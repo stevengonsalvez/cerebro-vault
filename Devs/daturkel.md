@@ -9,18 +9,18 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "97c4e9cb8b163ddb"
   - "c7515e0fa4368a55"
   - "d3abe74726b22711"
   - "e7c647c4d0689526"
-pushes_per_week: [1, 15, 3, 8, 4, 0, 0, 0, 0, 0, 0, 4, 1]
+pushes_per_week: [1, 15, 3, 8, 4, 0, 0, 0, 0, 0, 0, 5, 0]
 windows:
   "7d":
-    pushes: 2
-    distinct_repos: 1
-    active_days: 2
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -52,10 +52,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
-    distinct_repos: 1
-    pushes_per_repo: 2.0000
-    active_days: 2
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -80,14 +80,14 @@ reasons:
   - "activity: 13 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "dt31"
-    title: "dt31"
-    description: "A toy assembly language implemented in Python."
-    language: "Python"
+  - name: "go-bandits-tutorial"
+    title: "go-bandits-tutorial"
+    description: null
+    language: "HTML"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-23"
+    last_push: "2026-09-30"
   - name: "learning-papers"
     title: "learning-papers"
     description: "Landmark Papers in Machine Learning"
@@ -95,9 +95,17 @@ repos:
     topics:
       - "machine-learning"
       - "papers"
-    stars_fact: 731
+    stars_fact: 725
     first_seen: null
     last_push: "2026-07-08"
+  - name: "dt31"
+    title: "dt31"
+    description: "A toy assembly language implemented in Python."
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-25"
   - name: "custom-search-engines"
     title: "custom-search-engines"
     description: "Custom search engines for Google Chrome"
@@ -122,14 +130,6 @@ repos:
     stars_fact: 17
     first_seen: null
     last_push: "2025-10-22"
-  - name: "llm-fragments-pdf"
-    title: "llm-fragments-pdf"
-    description: "Use PyMuPDF to insert PDFs as markdown"
-    language: "Python"
-    topics: []
-    stars_fact: 8
-    first_seen: null
-    last_push: "2025-05-18"
 ---
 
 # daturkel

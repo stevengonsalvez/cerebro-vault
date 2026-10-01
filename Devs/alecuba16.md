@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "2a7f0fddd2dac162"
-pushes_per_week: [87, 22, 11, 27, 16, 21, 1, 1, 2, 2, 5, 24, 35]
+pushes_per_week: [77, 18, 12, 36, 6, 21, 1, 1, 2, 4, 3, 29, 31]
 windows:
   "7d":
-    pushes: 37
+    pushes: 36
     distinct_repos: 3
     active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 66
+    pushes: 67
     distinct_repos: 4
-    active_days: 14
+    active_days: 15
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 254
+    pushes: 241
     distinct_repos: 5
     active_days: 46
     repos_not_owned: 0
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 5.5217
+  push_per_day: 5.2391
   repo_per_active_day: 0.1087
   not_owned_ratio: 0.0000
   basename_concentration: 0.2000
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 37
+    pushes: 36
     distinct_repos: 3
-    pushes_per_repo: 12.3333
+    pushes_per_repo: 12.0000
     active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 66
+    pushes: 67
     distinct_repos: 4
-    pushes_per_repo: 16.5000
-    active_days: 14
+    pushes_per_repo: 16.7500
+    active_days: 15
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 254
+    pushes: 241
     distinct_repos: 5
-    pushes_per_repo: 50.8000
+    pushes_per_repo: 48.2000
     active_days: 46
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -134,6 +134,6 @@ repos:
 
 # alecuba16
 
-254 pushes across 5 repositories on 46 active days in the last 90 days of public GitHub push activity.
+241 pushes across 5 repositories on 46 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/alecuba16

@@ -9,22 +9,22 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [4, 12, 2, 9, 2, 3, 1, 5, 4, 5, 1, 23, 14]
+pushes_per_week: [4, 13, 2, 9, 1, 4, 0, 5, 4, 5, 4, 20, 14]
 windows:
   "7d":
-    pushes: 16
-    distinct_repos: 8
-    active_days: 6
+    pushes: 14
+    distinct_repos: 7
+    active_days: 5
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
   "30d":
-    pushes: 44
+    pushes: 43
     distinct_repos: 13
-    active_days: 17
+    active_days: 16
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
@@ -49,18 +49,18 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 16
-    distinct_repos: 8
+    pushes: 14
+    distinct_repos: 7
     pushes_per_repo: 2.0000
-    active_days: 6
+    active_days: 5
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
   "30d":
-    pushes: 44
+    pushes: 43
     distinct_repos: 13
-    pushes_per_repo: 3.3846
-    active_days: 17
+    pushes_per_repo: 3.3077
+    active_days: 16
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
@@ -77,6 +77,47 @@ reasons:
   - "activity: 38 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "CapsuleDB"
+    title: "CapsuleDB"
+    description: "A TypeScript library for adding isolated, typed data modules and migrations to your app's existing database."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-01"
+  - name: "pagegraph"
+    title: "pagegraph"
+    description: "Route-declared SEO graph and audit toolkit for TanStack Start: sitemap/robots, React head, JSON-LD, Vite coverage gate, live audit, and Jev-backed link decisions."
+    language: "TypeScript"
+    topics:
+      - "json-ld"
+      - "react"
+      - "robots-txt"
+      - "seo"
+      - "sitemap"
+      - "structured-data"
+      - "tanstack"
+      - "tanstack-router"
+      - "typescript"
+      - "vite"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-01"
+  - name: "wt"
+    title: "wt"
+    description: "Git worktree helper — create worktrees with gitignored file sync and automatic dependency install"
+    language: "TypeScript"
+    topics:
+      - "bash"
+      - "cli"
+      - "developer-tools"
+      - "git"
+      - "git-worktree"
+      - "productivity"
+      - "worktree"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-28"
   - name: "coding-agent-plugins"
     title: "coding-agent-plugins"
     description: "Collection of plugins for Claude Code and OpenCode"
@@ -101,39 +142,6 @@ repos:
     stars_fact: 1
     first_seen: null
     last_push: "2026-09-22"
-  - name: "pagegraph"
-    title: "pagegraph"
-    description: "Route-declared SEO graph and audit toolkit for TanStack Start: sitemap/robots, React head, JSON-LD, Vite coverage gate, live audit, and Jev-backed link decisions."
-    language: "TypeScript"
-    topics:
-      - "json-ld"
-      - "react"
-      - "robots-txt"
-      - "seo"
-      - "sitemap"
-      - "structured-data"
-      - "tanstack"
-      - "tanstack-router"
-      - "typescript"
-      - "vite"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-22"
-  - name: "wt"
-    title: "wt"
-    description: "Git worktree helper — create worktrees with gitignored file sync and automatic dependency install"
-    language: "TypeScript"
-    topics:
-      - "bash"
-      - "cli"
-      - "developer-tools"
-      - "git"
-      - "git-worktree"
-      - "productivity"
-      - "worktree"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-18"
   - name: "opencode-codex-control"
     title: "opencode-codex-control"
     description: "OpenCode plugin exposing Codex Computer Use and Chrome as native tools"
@@ -142,14 +150,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-09-16"
-  - name: "CapsuleDB"
-    title: "CapsuleDB"
-    description: "A TypeScript library for adding isolated, typed data modules and migrations to your app's existing database."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-03"
 ---
 
 # aryasaatvik

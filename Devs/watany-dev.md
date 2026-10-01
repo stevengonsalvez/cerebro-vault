@@ -10,18 +10,18 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "533d51d9d3dea76f"
   - "97c4e9cb8b163ddb"
   - "c7515e0fa4368a55"
   - "d3abe74726b22711"
   - "e7c647c4d0689526"
-pushes_per_week: [16, 0, 0, 3, 0, 2, 3, 0, 1, 16, 3, 37, 33]
+pushes_per_week: [9, 0, 0, 3, 0, 5, 0, 0, 1, 16, 3, 41, 29]
 windows:
   "7d":
-    pushes: 40
-    distinct_repos: 3
+    pushes: 30
+    distinct_repos: 2
     active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -34,18 +34,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 114
-    distinct_repos: 7
-    active_days: 25
+    pushes: 107
+    distinct_repos: 6
+    active_days: 24
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 4.5600
-  repo_per_active_day: 0.2800
+  push_per_day: 4.4583
+  repo_per_active_day: 0.2500
   not_owned_ratio: 0.0000
-  basename_concentration: 0.1429
+  basename_concentration: 0.1667
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -54,9 +54,9 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 40
-    distinct_repos: 3
-    pushes_per_repo: 13.3333
+    pushes: 30
+    distinct_repos: 2
+    pushes_per_repo: 15.0000
     active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -70,26 +70,18 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 114
-    distinct_repos: 7
-    pushes_per_repo: 16.2857
-    active_days: 25
+    pushes: 107
+    distinct_repos: 6
+    pushes_per_repo: 17.8333
+    active_days: 24
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 5 vault signal(s) — pass"
-  - "activity: 25 active days in 90d — pass"
+  - "activity: 24 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "chokkin"
-    title: "chokkin"
-    description: null
-    language: "Rust"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-23"
   - name: "local_busmap_tokyo"
     title: "local_busmap_tokyo"
     description: null
@@ -97,15 +89,15 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-23"
-  - name: "ptuf"
-    title: "ptuf"
+    last_push: "2026-10-01"
+  - name: "chokkin"
+    title: "chokkin"
     description: null
     language: "Rust"
     topics: []
-    stars_fact: 4
+    stars_fact: 1
     first_seen: null
-    last_push: "2026-09-22"
+    last_push: "2026-09-30"
   - name: "zghalint"
     title: "zghalint"
     description: null
@@ -113,27 +105,35 @@ repos:
     topics: []
     stars_fact: 6
     first_seen: null
-    last_push: "2026-09-21"
-  - name: "jev-playground"
-    title: "jev-playground"
+    last_push: "2026-09-28"
+  - name: "expire-food"
+    title: "expire-food"
     description: null
     language: "TypeScript"
     topics: []
-    stars_fact: 1
+    stars_fact: 0
     first_seen: null
-    last_push: "2026-09-18"
-  - name: "review-codecommit"
-    title: "review-codecommit"
+    last_push: "2026-09-26"
+  - name: "ptuf"
+    title: "ptuf"
     description: null
-    language: "TypeScript"
+    language: "Rust"
     topics: []
     stars_fact: 4
     first_seen: null
-    last_push: "2026-09-17"
+    last_push: "2026-09-27"
+  - name: "homebrew-tap"
+    title: "homebrew-tap"
+    description: null
+    language: "Ruby"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-24"
 ---
 
 # watany-dev
 
-114 pushes across 7 repositories on 25 active days in the last 90 days of public GitHub push activity.
+107 pushes across 6 repositories on 24 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/watany-dev

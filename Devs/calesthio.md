@@ -10,10 +10,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "6d3bd03b49986330"
-pushes_per_week: [13, 3, 5, 1, 0, 0, 13, 1, 0, 0, 0, 0, 0]
+pushes_per_week: [13, 2, 6, 0, 0, 13, 0, 1, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -30,16 +30,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 36
+    pushes: 35
     distinct_repos: 11
-    active_days: 13
+    active_days: 12
     repos_not_owned: 9
     not_owned_basenames: 1
     not_owned_owners: 9
 automation:
   state: "clear"
-  push_per_day: 2.7692
-  repo_per_active_day: 0.8462
+  push_per_day: 2.9167
+  repo_per_active_day: 0.9167
   not_owned_ratio: 0.8182
   basename_concentration: 0.9091
   shapes:
@@ -82,29 +82,18 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 36
+    pushes: 35
     distinct_repos: 11
-    pushes_per_repo: 3.2727
-    active_days: 13
+    pushes_per_repo: 3.1818
+    active_days: 12
     repos_not_owned: 9
     not_owned_basenames: 1
     not_owned_owners: 9
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 13 active days in 90d — pass"
+  - "activity: 12 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "Crucix"
-    title: "Crucix"
-    description: "Your personal intelligence agent. Watches the world from multiple data sources and pings you when something changes."
-    language: "JavaScript"
-    topics:
-      - "ai"
-      - "intelligence"
-      - "osint"
-    stars_fact: 11969
-    first_seen: null
-    last_push: "2026-05-20"
   - name: "OpenMontage"
     title: "OpenMontage"
     description: "World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your AI coding assistant into a full video production studio."
@@ -129,24 +118,20 @@ repos:
       - "text-to-video"
       - "video-generation"
       - "video-production"
-    stars_fact: 60995
+    stars_fact: 62047
     first_seen: "2026-06-19T17:17:11.400096+00:00"
     last_push: "2026-09-06"
-  - name: "SessionAnchor"
-    title: "SessionAnchor"
-    description: "One-command context memory for Claude Code sessions. Local SQLite, zero dependencies."
-    language: "Python"
+  - name: "Crucix"
+    title: "Crucix"
+    description: "Your personal intelligence agent. Watches the world from multiple data sources and pings you when something changes."
+    language: "JavaScript"
     topics:
-      - "claude-code"
-      - "context-management"
-      - "developer-tools"
-      - "llm"
-      - "memory"
-      - "python"
-      - "sqlite"
-    stars_fact: 27
+      - "ai"
+      - "intelligence"
+      - "osint"
+    stars_fact: 12052
     first_seen: null
-    last_push: "2026-03-25"
+    last_push: "2026-05-20"
   - name: "PhantomReach"
     title: "PhantomReach"
     description: "Free, open-source local business intelligence audits for marketers and agencies. Run on your machine with real public data, and agentic workflow"
@@ -169,9 +154,28 @@ repos:
       - "seo"
       - "sqlite"
       - "typescript"
-    stars_fact: 58
+    stars_fact: 60
     first_seen: null
     last_push: "2026-06-27"
+  - name: "Resonant"
+    title: "Resonant"
+    description: "Free, local AI music studio for Windows—generate songs, play instruments, arrange, mix, export WAV, and connect Codex or Claude through MCP."
+    language: "TypeScript"
+    topics:
+      - "ace-step"
+      - "ai-music"
+      - "digital-audio-workstation"
+      - "electron"
+      - "generative-music"
+      - "mcp"
+      - "model-context-protocol"
+      - "music-production"
+      - "open-source"
+      - "typescript"
+      - "windows"
+    stars_fact: 152
+    first_seen: null
+    last_push: "2026-08-07"
   - name: "generative-media-skills"
     title: "generative-media-skills"
     description: "Research-backed agent skills and tools for premium image, video, audio, voice, and generative media production across AI coding assistants."
@@ -197,37 +201,28 @@ repos:
       - "text-to-video"
       - "video-generation"
       - "video-production"
-    stars_fact: 181
+    stars_fact: 186
     first_seen: null
     last_push: "2026-07-14"
-  - name: "OptionsCanvas"
-    title: "OptionsCanvas"
-    description: "Stop getting your stops hunted. SL/TP never touch your broker - only fires when the underlying actually breaches your level. And skip the options chain: drag your levels on the chart, we auto-pick the strike + DTE + contracts. The first open-source platform that does both."
+  - name: "SessionAnchor"
+    title: "SessionAnchor"
+    description: "One-command context memory for Claude Code sessions. Local SQLite, zero dependencies."
     language: "Python"
     topics:
-      - "0dte"
-      - "algorithmic-trading"
-      - "alpaca"
-      - "charting"
-      - "day-trading"
-      - "fintech"
-      - "flask"
-      - "lightweight-charts"
-      - "local-first"
-      - "open-source"
-      - "options"
-      - "options-trading"
+      - "claude-code"
+      - "context-management"
+      - "developer-tools"
+      - "llm"
+      - "memory"
       - "python"
-      - "self-hosted"
-      - "trading-platform"
-      - "vanilla-js"
-    stars_fact: 68
+      - "sqlite"
+    stars_fact: 27
     first_seen: null
-    last_push: "2026-05-28"
+    last_push: "2026-03-25"
 ---
 
 # calesthio
 
-36 pushes across 11 repositories on 13 active days in the last 90 days of public GitHub push activity.
+35 pushes across 11 repositories on 12 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/calesthio

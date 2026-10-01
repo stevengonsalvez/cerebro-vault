@@ -9,13 +9,13 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "97c4e9cb8b163ddb"
   - "c7515e0fa4368a55"
   - "d3abe74726b22711"
   - "e7c647c4d0689526"
-pushes_per_week: [16, 5, 23, 16, 1, 7, 14, 1, 1, 2, 6, 17, 15]
+pushes_per_week: [16, 7, 21, 16, 1, 10, 11, 1, 1, 2, 6, 17, 15]
 windows:
   "7d":
     pushes: 15
@@ -80,14 +80,30 @@ reasons:
   - "activity: 43 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "filegardener"
+    title: "filegardener"
+    description: "File gardener - file maintenance utilities - file dedup, only copy detection, prune empty dirs"
+    language: "Python"
+    topics: []
+    stars_fact: 9
+    first_seen: null
+    last_push: "2026-09-29"
   - name: "smorin"
     title: "smorin"
     description: null
     language: null
     topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-29"
+  - name: "thothspinner"
+    title: "thothspinner"
+    description: "Claude Code inspired animation TUI component, a configurable progress indicator library for Python, built on Rich. ThothSpinner provides beautiful, composable terminal UI components including spinners, progress bars, timers, and animated messages with shimmer effects."
+    language: "Python"
+    topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-19"
+    last_push: "2026-09-29"
   - name: "toggle"
     title: "toggle"
     description: "A Rust-based CLI and library for toggling, adding, removing, and updating code/comments across multiple languages, featuring flexible extension mappings and full configurability via file or command-line."
@@ -112,22 +128,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-08-22"
-  - name: "homebrew-proto-tap"
-    title: "homebrew-proto-tap"
-    description: "Scratch Homebrew tap for release pipeline prototypes"
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-22"
-  - name: "flox-gh-research"
-    title: "flox-gh-research"
-    description: "Analysis of a prototype porting GitHub CLI's gh extension model to the flox CLI — design, architecture, manifest contract, change inventory, and risk assessment."
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-07-21"
 ---
 
 # smorin

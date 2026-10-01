@@ -10,7 +10,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "4fcf7dd2b25b7a7c"
   - "e9dbf459bd01dca3"
@@ -79,54 +79,54 @@ reasons:
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "wikitok"
+    title: "wikitok"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 5
+    first_seen: null
+    last_push: "2026-02-24"
   - name: "open-deep-research"
     title: "open-deep-research"
     description: "An open source deep research clone. AI Agent that reasons large amounts of web data extracted with Firecrawl"
     language: "TypeScript"
     topics: []
-    stars_fact: 6290
+    stars_fact: 6292
     first_seen: null
     last_push: "2025-05-07"
-  - name: "every1"
-    title: "every1"
+  - name: "geoguessr-hotkeys"
+    title: "geoguessr-hotkeys"
     description: null
-    language: null
+    language: "JavaScript"
     topics: []
-    stars_fact: 1
+    stars_fact: 0
     first_seen: null
-    last_push: "2016-07-06"
-  - name: "Slot-Prizes"
-    title: "Slot-Prizes"
-    description: "A really fun game made for Android. The game is still in development and it was mainly built in JAVA."
-    language: "Java"
+    last_push: "2024-12-13"
+  - name: "fire-scan"
+    title: "fire-scan"
+    description: null
+    language: "TypeScript"
     topics: []
     stars_fact: 2
     first_seen: null
-    last_push: "2018-11-06"
-  - name: "The-Lander"
-    title: "The-Lander"
-    description: "Tha lander is a game currently in development for IOS and Android."
-    language: "C#"
-    topics: []
-    stars_fact: 4
-    first_seen: null
-    last_push: "2018-11-06"
-  - name: "Median-Filter"
-    title: "Median-Filter"
-    description: "This is a program that reads specific images and filter them using a median filter algorithm.This Program also reads an image of PGM P2 format, and produce its negative image and its 90-degree clockwise rotation."
-    language: "C++"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2018-11-06"
-  - name: "InfinityWarrior-2D"
-    title: "InfinityWarrior-2D"
+    last_push: "2024-10-10"
+  - name: "docs-1"
+    title: "docs-1"
     description: null
     language: null
     topics: []
-    stars_fact: 2
+    stars_fact: 0
     first_seen: null
-    last_push: "2018-11-07"
+    last_push: "2023-06-23"
+  - name: "Merge-Sort"
+    title: "Merge-Sort"
+    description: "A merge sort variant that uses binary search to save time when re-merging lists."
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2022-09-22"
 ---
 
 # nickscamara

@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [90, 43, 56, 17, 17, 8, 11, 7, 9, 0, 1, 5, 9]
+pushes_per_week: [81, 43, 50, 24, 10, 15, 5, 8, 7, 0, 1, 7, 8]
 windows:
   "7d":
-    pushes: 11
-    distinct_repos: 1
+    pushes: 10
+    distinct_repos: 2
     active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 17
-    distinct_repos: 2
+    pushes: 16
+    distinct_repos: 3
     active_days: 9
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 273
+    pushes: 259
     distinct_repos: 5
     active_days: 48
     repos_not_owned: 0
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 5.6875
+  push_per_day: 5.3958
   repo_per_active_day: 0.1042
   not_owned_ratio: 0.0000
   basename_concentration: 0.2000
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 11
-    distinct_repos: 1
-    pushes_per_repo: 11.0000
+    pushes: 10
+    distinct_repos: 2
+    pushes_per_repo: 5.0000
     active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 17
-    distinct_repos: 2
-    pushes_per_repo: 8.5000
+    pushes: 16
+    distinct_repos: 3
+    pushes_per_repo: 5.3333
     active_days: 9
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 273
+    pushes: 259
     distinct_repos: 5
-    pushes_per_repo: 54.6000
+    pushes_per_repo: 51.8000
     active_days: 48
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -134,6 +134,6 @@ repos:
 
 # kmccleary3301
 
-273 pushes across 5 repositories on 48 active days in the last 90 days of public GitHub push activity.
+259 pushes across 5 repositories on 48 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/kmccleary3301

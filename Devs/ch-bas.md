@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "379642deb53f3714"
-pushes_per_week: [25, 0, 6, 9, 4, 7, 5, 0, 0, 2, 0, 7, 10]
+pushes_per_week: [25, 3, 3, 9, 6, 6, 4, 0, 0, 2, 1, 7, 12]
 windows:
   "7d":
-    pushes: 11
+    pushes: 13
     distinct_repos: 4
     active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 19
+    pushes: 22
     distinct_repos: 4
-    active_days: 13
+    active_days: 14
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 75
+    pushes: 78
     distinct_repos: 6
-    active_days: 32
+    active_days: 33
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.3438
-  repo_per_active_day: 0.1875
+  push_per_day: 2.3636
+  repo_per_active_day: 0.1818
   not_owned_ratio: 0.1667
   basename_concentration: 0.3333
   shapes: []
@@ -49,37 +49,37 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 11
+    pushes: 13
     distinct_repos: 4
-    pushes_per_repo: 2.7500
+    pushes_per_repo: 3.2500
     active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 19
+    pushes: 22
     distinct_repos: 4
-    pushes_per_repo: 4.7500
-    active_days: 13
+    pushes_per_repo: 5.5000
+    active_days: 14
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 75
+    pushes: 78
     distinct_repos: 6
-    pushes_per_repo: 12.5000
-    active_days: 32
+    pushes_per_repo: 13.0000
+    active_days: 33
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 32 active days in 90d — pass"
+  - "activity: 33 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "cctv-camera-database"
     title: "cctv-camera-database"
-    description: "Open database of 15,000+ CCTV camera specs across 180+ brands, with Frigate and ONVIF/RTS integration, CC0"
+    description: "Open database of 27,000+ CCTV camera specs across 220+ brands, with Frigate and ONVIF/RTS integration, CC0"
     language: "JavaScript"
     topics:
       - "blue-iris"
@@ -102,9 +102,9 @@ repos:
       - "rtsp"
       - "security-camera"
       - "surveillance"
-    stars_fact: 252
+    stars_fact: 274
     first_seen: null
-    last_push: "2026-09-23"
+    last_push: "2026-09-30"
   - name: "threejs-sims-house-builder"
     title: "threejs-sims-house-builder"
     description: "A browser-based 3D house builder inspired by The Sims. Design multi-floor homes with furniture, walls, roofs, and walkthrough mode. Built with Three.js + Next.js."
@@ -127,15 +127,27 @@ repos:
       - "threejs"
       - "typescript"
       - "webgl"
-    stars_fact: 70
+    stars_fact: 93
     first_seen: null
-    last_push: "2026-09-22"
+    last_push: "2026-09-30"
   - name: "frontfamily-community"
     title: "frontfamily-community"
     description: "Bug reports, feature requests, and component mapping contributions for FrontFamily"
     language: null
-    topics: []
-    stars_fact: 9
+    topics:
+      - "chakra"
+      - "chakra-ui"
+      - "component-conversations"
+      - "component-library"
+      - "elastic-eui"
+      - "front-end-development"
+      - "frontend"
+      - "frontend-app"
+      - "frontend-framework"
+      - "frontend-project"
+      - "github-trending"
+      - "npm-package"
+    stars_fact: 30
     first_seen: null
     last_push: "2026-04-19"
   - name: "kibana-plugin-helper"
@@ -186,6 +198,6 @@ repos:
 
 # ch-bas
 
-75 pushes across 6 repositories on 32 active days in the last 90 days of public GitHub push activity.
+78 pushes across 6 repositories on 33 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ch-bas

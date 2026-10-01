@@ -10,10 +10,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [2, 1, 17, 5, 2, 1, 1, 1, 0, 0, 0, 2, 1]
+pushes_per_week: [1, 5, 13, 4, 2, 2, 0, 1, 0, 0, 0, 3, 0]
 windows:
   "7d":
     pushes: 1
@@ -30,16 +30,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 33
+    pushes: 31
     distinct_repos: 3
-    active_days: 17
+    active_days: 16
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 1.9412
-  repo_per_active_day: 0.1765
+  push_per_day: 1.9375
+  repo_per_active_day: 0.1875
   not_owned_ratio: 0.6667
   basename_concentration: 1.0000
   shapes: []
@@ -66,16 +66,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 33
+    pushes: 31
     distinct_repos: 3
-    pushes_per_repo: 11.0000
-    active_days: 17
+    pushes_per_repo: 10.3333
+    active_days: 16
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 17 active days in 90d — pass"
+  - "activity: 16 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "GitNexus"
@@ -83,9 +83,25 @@ repos:
     description: "GitNexus: The Zero-Server Code Intelligence Engine"
     language: "TypeScript"
     topics: []
-    stars_fact: 47538
+    stars_fact: 47667
     first_seen: "2026-08-29T06:00:06.818585+00:00"
-    last_push: "2026-09-23"
+    last_push: "2026-10-01"
+  - name: "Medical-Research-Assistant"
+    title: "Medical-Research-Assistant"
+    description: "A multi-agent system for processing complex medical queries. It decomposes queries into sub-queries, gathers information from specialized agents (MedILlama (using finetuned medical SLM, web search, RAG), and refines outputs iteratively for accuracy."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 25
+    first_seen: null
+    last_push: "2025-03-24"
+  - name: "SmartStoneAI"
+    title: "SmartStoneAI"
+    description: "SmartStoneAI: Revolutionize project planning with GPT-4 powered intelligence. This AI assistant transforms complex project descriptions into clear, actionable milestones. Featuring dynamic time allocation, interactive refinement, and persistent SQLite storage. Built with FastAPI, React, and LangChain for seamless AI integration."
+    language: "JavaScript"
+    topics: []
+    stars_fact: 7
+    first_seen: null
+    last_push: "2024-09-03"
   - name: "prowl"
     title: "prowl"
     description: "Interactive knowledge graph for codebases, vibe coder companion"
@@ -94,22 +110,6 @@ repos:
     stars_fact: 16
     first_seen: null
     last_push: "2026-02-27"
-  - name: "SmartStoneAI"
-    title: "SmartStoneAI"
-    description: "SmartStoneAI: Revolutionize project planning with GPT-4 powered intelligence. This AI assistant transforms complex project descriptions into clear, actionable milestones. Featuring dynamic time allocation, interactive refinement, and persistent SQLite storage. Built with FastAPI, React, and LangChain for seamless AI integration."
-    language: "JavaScript"
-    topics: []
-    stars_fact: 6
-    first_seen: null
-    last_push: "2024-09-03"
-  - name: "Medical-Research-Assistant"
-    title: "Medical-Research-Assistant"
-    description: "A multi-agent system for processing complex medical queries. It decomposes queries into sub-queries, gathers information from specialized agents (MedILlama (using finetuned medical SLM, web search, RAG), and refines outputs iteratively for accuracy."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 24
-    first_seen: null
-    last_push: "2025-03-24"
   - name: "WhatsappBooking"
     title: "WhatsappBooking"
     description: "A bot that can schedule appointments through whatsapp and google calander"
@@ -130,6 +130,6 @@ repos:
 
 # abhigyanpatwari
 
-33 pushes across 3 repositories on 17 active days in the last 90 days of public GitHub push activity.
+31 pushes across 3 repositories on 16 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/abhigyanpatwari

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-29T06:07:44.400276+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [0, 0, 0, 0, 0, 2, 8, 5, 2, 0, 0, 0, 0]
+pushes_per_week: [0, 0, 0, 0, 1, 3, 6, 5, 2, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -104,7 +104,7 @@ repos:
       - "python"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-21"
+    last_push: "2026-09-23"
   - name: "hermes-mailbox"
     title: "hermes-mailbox"
     description: "Local append-only cross-harness mailbox with narrow Hermes and OMP adapters"
@@ -132,7 +132,7 @@ repos:
       - "unix-socket"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-20"
+    last_push: "2026-09-30"
   - name: "hermes-trace"
     title: "hermes-trace"
     description: "Per-session evidence of what a Hermes agent actually did — skills exposed vs activated, tool calls, API cost, as bounded events plus a compact TraceCard"
@@ -146,7 +146,7 @@ repos:
       - "tracing"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-01"
+    last_push: "2026-09-23"
   - name: "hermes-optmem-tools"
     title: "hermes-optmem-tools"
     description: "OptMem as Hermes Agent tools — persistent agent memory without shell access"
@@ -160,7 +160,7 @@ repos:
       - "python"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-01"
+    last_push: "2026-09-24"
 ---
 
 # ghosty-11

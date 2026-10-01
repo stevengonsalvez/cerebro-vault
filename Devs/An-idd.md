@@ -10,11 +10,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "6d3bd03b49986330"
   - "dae9f02535f7c22f"
-pushes_per_week: [1, 0, 3, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [1, 1, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -79,6 +79,14 @@ reasons:
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "DevForMe"
+    title: "DevForMe"
+    description: "An autonomous coding agent that plans, codes, and verifies."
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-28"
   - name: "idea-probe"
     title: "idea-probe"
     description: "Evidence-driven project idea research powered by local Codex CLI."
@@ -87,14 +95,6 @@ repos:
     stars_fact: 1
     first_seen: null
     last_push: "2026-09-16"
-  - name: "DevForMe"
-    title: "DevForMe"
-    description: "An autonomous coding agent that plans, codes, and verifies."
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-17"
   - name: "stillyou"
     title: "stillyou"
     description: "Agent 产出物管理层 — auto-capture, distill & rehydrate your AI agent's outputs (Agent KM). Plain-file ledger, provenance, supersede chains, MCP cross-host."

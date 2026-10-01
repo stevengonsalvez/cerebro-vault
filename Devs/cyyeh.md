@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "dffbb846389f9a26"
-pushes_per_week: [4, 5, 0, 0, 1, 1, 0, 0, 0, 0, 0, 2, 1]
+pushes_per_week: [8, 1, 0, 0, 1, 1, 0, 0, 0, 0, 0, 2, 1]
 windows:
   "7d":
     pushes: 1
@@ -77,6 +77,22 @@ reasons:
   - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "jit-learning-loop"
+    title: "jit-learning-loop"
+    description: "An Agent Skill for learning what the task needs, while doing the task. It works with any coding agent that supports the Agent Skills spec: Claude Code, Codex, Cursor, Gemini CLI, GitHub Copilot, OpenCode and more."
+    language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-30"
+  - name: "cyyeh"
+    title: "cyyeh"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-24"
   - name: "laya-demo"
     title: "laya-demo"
     description: null
@@ -101,14 +117,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-09-12"
-  - name: "cyyeh"
-    title: "cyyeh"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-12"
   - name: "MIT6.031_Software_Construction"
     title: "MIT6.031_Software_Construction"
     description: "This repository consists of notes taken from class readings and personal/team-based projects."
@@ -117,14 +125,6 @@ repos:
     stars_fact: 20
     first_seen: null
     last_push: "2018-11-28"
-  - name: "ai-talk-notes"
-    title: "ai-talk-notes"
-    description: "A systematic read-through of conference and YouTube talk notes on AI engineering, sorted into 9 thematic categories and distilled into short, skimmable key-point summaries — plus 9 cross-cutting insights drawn from the entire corpus."
-    language: "HTML"
-    topics: []
-    stars_fact: 8
-    first_seen: null
-    last_push: "2026-07-16"
 ---
 
 # cyyeh

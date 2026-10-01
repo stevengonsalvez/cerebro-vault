@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "90688bf127241ceb"
-pushes_per_week: [0, 0, 0, 2, 3, 0, 1, 0, 0, 0, 0, 2, 0]
+pushes_per_week: [0, 0, 0, 5, 0, 1, 0, 0, 0, 0, 0, 2, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,6 +77,14 @@ reasons:
   - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "knowsense"
+    title: "knowsense"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-05-26"
   - name: "ACL4SSR-Luyuyun"
     title: "ACL4SSR-Luyuyun"
     description: "基于ACL4SSR订阅地址-针对鹿语云机场定制的订阅转换文件，主要新增鹿语云emby节点解析与规则引流"
@@ -117,14 +125,6 @@ repos:
     stars_fact: 2
     first_seen: null
     last_push: "2026-05-11"
-  - name: "knowsense"
-    title: "knowsense"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-05-26"
 ---
 
 # dongyu23

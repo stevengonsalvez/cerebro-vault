@@ -9,18 +9,18 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "c1af6b58492f9bf4"
-pushes_per_week: [100, 15, 18, 10, 35, 3, 10, 3, 0, 15, 27, 39, 13]
+pushes_per_week: [102, 13, 20, 8, 34, 6, 8, 2, 0, 16, 31, 37, 10]
 windows:
   "7d":
-    pushes: 18
-    distinct_repos: 14
-    active_days: 6
-    repos_not_owned: 10
-    not_owned_basenames: 3
-    not_owned_owners: 10
+    pushes: 13
+    distinct_repos: 10
+    active_days: 5
+    repos_not_owned: 6
+    not_owned_basenames: 2
+    not_owned_owners: 6
   "30d":
     pushes: 94
     distinct_repos: 55
@@ -29,7 +29,7 @@ windows:
     not_owned_basenames: 9
     not_owned_owners: 47
   "90d":
-    pushes: 288
+    pushes: 287
     distinct_repos: 84
     active_days: 55
     repos_not_owned: 54
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 53
 automation:
   state: "clear"
-  push_per_day: 5.2364
+  push_per_day: 5.2182
   repo_per_active_day: 1.5273
   not_owned_ratio: 0.6429
   basename_concentration: 0.5000
@@ -49,13 +49,13 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 18
-    distinct_repos: 14
-    pushes_per_repo: 1.2857
-    active_days: 6
-    repos_not_owned: 10
-    not_owned_basenames: 3
-    not_owned_owners: 10
+    pushes: 13
+    distinct_repos: 10
+    pushes_per_repo: 1.3000
+    active_days: 5
+    repos_not_owned: 6
+    not_owned_basenames: 2
+    not_owned_owners: 6
   "30d":
     pushes: 94
     distinct_repos: 55
@@ -65,9 +65,9 @@ facets:
     not_owned_basenames: 9
     not_owned_owners: 47
   "90d":
-    pushes: 288
+    pushes: 287
     distinct_repos: 84
-    pushes_per_repo: 3.4286
+    pushes_per_repo: 3.4167
     active_days: 55
     repos_not_owned: 54
     not_owned_basenames: 14
@@ -77,6 +77,25 @@ reasons:
   - "activity: 55 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "claussoft-dominos"
+    title: "claussoft-dominos"
+    description: "Racehorse dominos"
+    language: "Python"
+    topics:
+      - "dominoes"
+      - "games"
+      - "pyscript"
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-09-28"
+  - name: "GitHub-Action-for-pytest"
+    title: "GitHub-Action-for-pytest"
+    description: "A GitHub Action to run a pytest command when new code is pushed into your repo"
+    language: "Dockerfile"
+    topics: []
+    stars_fact: 58
+    first_seen: null
+    last_push: "2025-10-14"
   - name: "itinerant-tester"
     title: "itinerant-tester"
     description: "Create GitHub Actions for running a suite of tests on other repos including the GitHub Trending Python repos"
@@ -88,53 +107,34 @@ repos:
     stars_fact: 43
     first_seen: null
     last_push: "2026-09-17"
-  - name: "claussoft-dominos"
-    title: "claussoft-dominos"
-    description: "Racehorse dominos"
-    language: "Python"
-    topics:
-      - "dominoes"
-      - "games"
-      - "pyscript"
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-09-21"
-  - name: "apt-get-inn2-docker"
-    title: "apt-get-inn2-docker"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 4
-    first_seen: null
-    last_push: "2026-09-21"
-  - name: "pythonista-module-versions"
-    title: "pythonista-module-versions"
-    description: "Compare the version numbers of extra modules in Pythonista with PyPI"
-    language: "Python"
-    topics: []
-    stars_fact: 50
-    first_seen: null
-    last_push: "2026-09-23"
   - name: "Pythonista-and-Working-Copy"
     title: "Pythonista-and-Working-Copy"
     description: "Allow Pythonista to download a git file, folder, or repo from the Working Copy app"
     language: "Python"
     topics: []
-    stars_fact: 133
+    stars_fact: 131
     first_seen: null
     last_push: "2020-04-06"
-  - name: "GitHub-Action-for-pytest"
-    title: "GitHub-Action-for-pytest"
-    description: "A GitHub Action to run a pytest command when new code is pushed into your repo"
-    language: "Dockerfile"
+  - name: "pythonista-module-versions"
+    title: "pythonista-module-versions"
+    description: "Compare the version numbers of extra modules in Pythonista with PyPI"
+    language: "Python"
     topics: []
-    stars_fact: 59
+    stars_fact: 48
     first_seen: null
-    last_push: "2025-10-14"
+    last_push: "2026-09-30"
+  - name: "Ten-lines-or-less"
+    title: "Ten-lines-or-less"
+    description: "Python scripts that are short but useful or interesting"
+    language: "Python"
+    topics: []
+    stars_fact: 618
+    first_seen: null
+    last_push: "2026-09-07"
 ---
 
 # cclauss
 
-288 pushes across 84 repositories on 55 active days in the last 90 days of public GitHub push activity.
+287 pushes across 84 repositories on 55 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/cclauss

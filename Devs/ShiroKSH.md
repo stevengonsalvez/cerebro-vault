@@ -11,12 +11,12 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "6d3bd03b49986330"
   - "716cf9e2237ac9db"
   - "dae9f02535f7c22f"
-pushes_per_week: [9, 12, 0, 0, 16, 16, 3, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [10, 10, 0, 3, 13, 19, 0, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -33,18 +33,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 56
-    distinct_repos: 22
-    active_days: 19
+    pushes: 55
+    distinct_repos: 21
+    active_days: 18
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.9474
-  repo_per_active_day: 1.1579
-  not_owned_ratio: 0.0455
-  basename_concentration: 0.0455
+  push_per_day: 3.0556
+  repo_per_active_day: 1.1667
+  not_owned_ratio: 0.0476
+  basename_concentration: 0.0476
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -69,16 +69,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 56
-    distinct_repos: 22
-    pushes_per_repo: 2.5455
-    active_days: 19
+    pushes: 55
+    distinct_repos: 21
+    pushes_per_repo: 2.6190
+    active_days: 18
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 3 vault signal(s) — pass"
-  - "activity: 19 active days in 90d — pass"
+  - "activity: 18 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "vmware-guest-bridge"
@@ -131,7 +131,7 @@ repos:
       - "skills"
     stars_fact: 1
     first_seen: null
-    last_push: "2026-09-21"
+    last_push: "2026-09-29"
   - name: "rustferry"
     title: "rustferry"
     description: "Ship Android & iOS apps from one Rust codebase - no Gradle or Xcode project maintenance. Cargo CLI, Slint UI, VS Code, CI, signing, and remote macOS builds."
@@ -186,6 +186,6 @@ repos:
 
 # ShiroKSH
 
-56 pushes across 22 repositories on 19 active days in the last 90 days of public GitHub push activity.
+55 pushes across 21 repositories on 18 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ShiroKSH

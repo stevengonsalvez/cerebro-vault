@@ -10,15 +10,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [27, 16, 19, 13, 14, 53, 0, 15, 0, 0, 0, 5, 6]
+pushes_per_week: [28, 12, 23, 9, 14, 53, 0, 15, 0, 0, 0, 6, 5]
 windows:
   "7d":
-    pushes: 8
+    pushes: 6
     distinct_repos: 2
-    active_days: 5
+    active_days: 4
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -30,22 +30,22 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 168
-    distinct_repos: 18
-    active_days: 38
-    repos_not_owned: 14
+    pushes: 165
+    distinct_repos: 17
+    active_days: 37
+    repos_not_owned: 13
     not_owned_basenames: 4
-    not_owned_owners: 13
+    not_owned_owners: 12
 automation:
   state: "clear"
-  push_per_day: 4.4211
-  repo_per_active_day: 0.4737
-  not_owned_ratio: 0.7778
-  basename_concentration: 0.6111
+  push_per_day: 4.4595
+  repo_per_active_day: 0.4595
+  not_owned_ratio: 0.7647
+  basename_concentration: 0.6471
   shapes:
     - "fork_farm_own_upstream"
   shape_evidence:
-    - "basename concentration 0.6111 (11 of 18 repos share one basename), 14 not owned across 4 basenames — 5 of 5 sampled repos resolved; 5 fork an upstream this account owns; upstreams: jackwener/OpenCLI"
+    - "basename concentration 0.6471 (11 of 17 repos share one basename), 13 not owned across 4 basenames — 5 of 5 sampled repos resolved; 5 fork an upstream this account owns; upstreams: jackwener/OpenCLI"
   cleared_by: "e01-builder"
   cleared_on: "2026-08-26"
   fork_provenance:
@@ -66,10 +66,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 8
+    pushes: 6
     distinct_repos: 2
-    pushes_per_repo: 4.0000
-    active_days: 5
+    pushes_per_repo: 3.0000
+    active_days: 4
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -82,16 +82,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 168
-    distinct_repos: 18
-    pushes_per_repo: 9.3333
-    active_days: 38
-    repos_not_owned: 14
+    pushes: 165
+    distinct_repos: 17
+    pushes_per_repo: 9.7059
+    active_days: 37
+    repos_not_owned: 13
     not_owned_basenames: 4
-    not_owned_owners: 13
+    not_owned_owners: 12
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 38 active days in 90d — pass"
+  - "activity: 37 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "opencli-mcp"
@@ -153,6 +153,6 @@ repos:
 
 # jackwener
 
-168 pushes across 18 repositories on 38 active days in the last 90 days of public GitHub push activity.
+165 pushes across 17 repositories on 37 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/jackwener

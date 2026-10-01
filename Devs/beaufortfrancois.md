@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "379642deb53f3714"
-pushes_per_week: [6, 0, 0, 0, 3, 3, 1, 1, 0, 0, 0, 2, 3]
+pushes_per_week: [3, 0, 0, 0, 3, 4, 1, 0, 0, 0, 1, 1, 3]
 windows:
   "7d":
     pushes: 3
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 19
+    pushes: 16
     distinct_repos: 6
-    active_days: 13
+    active_days: 12
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 1.4615
-  repo_per_active_day: 0.4615
+  push_per_day: 1.3333
+  repo_per_active_day: 0.5000
   not_owned_ratio: 0.5000
   basename_concentration: 0.1667
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 19
+    pushes: 16
     distinct_repos: 6
-    pushes_per_repo: 3.1667
-    active_days: 13
+    pushes_per_repo: 2.6667
+    active_days: 12
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 13 active days in 90d — pass"
+  - "activity: 12 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "model-context-tool-inspector"
@@ -84,7 +84,19 @@ repos:
     topics: []
     stars_fact: 124
     first_seen: null
-    last_push: "2026-09-21"
+    last_push: "2026-09-29"
+  - name: "webgpu-cross-platform-app"
+    title: "webgpu-cross-platform-app"
+    description: "WebGPU cross-platform app with CMake/Emscripten"
+    language: "C++"
+    topics:
+      - "cmake"
+      - "dawn"
+      - "emscripten"
+      - "webgpu"
+    stars_fact: 208
+    first_seen: null
+    last_push: "2026-02-10"
   - name: "extensions-update-notifier-chrome-extension"
     title: "extensions-update-notifier-chrome-extension"
     description: "Extensions Update Notifier Chrome Extension"
@@ -101,18 +113,6 @@ repos:
     stars_fact: 4
     first_seen: null
     last_push: "2014-11-20"
-  - name: "webgpu-cross-platform-app"
-    title: "webgpu-cross-platform-app"
-    description: "WebGPU cross-platform app with CMake/Emscripten"
-    language: "C++"
-    topics:
-      - "cmake"
-      - "dawn"
-      - "emscripten"
-      - "webgpu"
-    stars_fact: 207
-    first_seen: null
-    last_push: "2026-02-10"
   - name: "sandbox"
     title: "sandbox"
     description: ":baby_chick:"
@@ -137,6 +137,6 @@ repos:
 
 # beaufortfrancois
 
-19 pushes across 6 repositories on 13 active days in the last 90 days of public GitHub push activity.
+16 pushes across 6 repositories on 12 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/beaufortfrancois

@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "4138778ebbc75ba6"
-pushes_per_week: [11, 20, 11, 21, 7, 25, 15, 5, 0, 4, 3, 4, 1]
+pushes_per_week: [16, 19, 10, 22, 6, 28, 9, 5, 0, 4, 3, 4, 2]
 windows:
   "7d":
     pushes: 2
-    distinct_repos: 1
+    distinct_repos: 2
     active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 12
-    distinct_repos: 3
-    active_days: 7
+    pushes: 13
+    distinct_repos: 4
+    active_days: 8
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 127
-    distinct_repos: 9
-    active_days: 41
+    pushes: 128
+    distinct_repos: 10
+    active_days: 42
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 3.0976
-  repo_per_active_day: 0.2195
-  not_owned_ratio: 0.3333
-  basename_concentration: 0.2222
+  push_per_day: 3.0476
+  repo_per_active_day: 0.2381
+  not_owned_ratio: 0.3000
+  basename_concentration: 0.2000
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -50,31 +50,31 @@ automation:
 facets:
   "7d":
     pushes: 2
-    distinct_repos: 1
-    pushes_per_repo: 2.0000
+    distinct_repos: 2
+    pushes_per_repo: 1.0000
     active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 12
-    distinct_repos: 3
-    pushes_per_repo: 4.0000
-    active_days: 7
+    pushes: 13
+    distinct_repos: 4
+    pushes_per_repo: 3.2500
+    active_days: 8
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 127
-    distinct_repos: 9
-    pushes_per_repo: 14.1111
-    active_days: 41
+    pushes: 128
+    distinct_repos: 10
+    pushes_per_repo: 12.8000
+    active_days: 42
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 41 active days in 90d — pass"
+  - "activity: 42 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "homebrew-tap"
@@ -144,6 +144,6 @@ repos:
 
 # omartelo
 
-127 pushes across 9 repositories on 41 active days in the last 90 days of public GitHub push activity.
+128 pushes across 10 repositories on 42 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/omartelo

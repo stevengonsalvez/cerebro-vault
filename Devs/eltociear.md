@@ -13,14 +13,14 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "1be978947e68d1f2"
   - "1f49d0119cedbc84"
   - "541318303a272608"
   - "dffbb846389f9a26"
   - "ef17663e884139a8"
-pushes_per_week: [1, 5, 10, 7, 2, 3, 3, 0, 1, 0, 0, 1, 1]
+pushes_per_week: [1, 8, 12, 3, 1, 3, 3, 1, 0, 0, 0, 1, 1]
 windows:
   "7d":
     pushes: 1
@@ -85,14 +85,6 @@ reasons:
   - "activity: 22 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "solpulse"
-    title: "solpulse"
-    description: "SolPulse — auto-updating Solana ecosystem dashboard (network, validators, TVL, economics, anomalies). No API keys."
-    language: "HTML"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-09-23"
   - name: "awesome-AI-driven-development"
     title: "awesome-AI-driven-development"
     description: "Awesome list of AI-Driven Development."
@@ -112,9 +104,55 @@ repos:
       - "spec-driven-development"
       - "vibe-coding"
       - "vibecoding"
-    stars_fact: 547
+    stars_fact: 548
     first_seen: null
-    last_push: "2026-09-07"
+    last_push: "2026-09-30"
+  - name: "solpulse"
+    title: "solpulse"
+    description: "SolPulse — auto-updating Solana ecosystem dashboard (network, validators, TVL, economics, anomalies). No API keys."
+    language: "HTML"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-10-01"
+  - name: "skill-audit-mcp"
+    title: "skill-audit-mcp"
+    description: "Static security scanner for MCP servers, agent skills & plugins: 17 attack patterns / 60 regex signatures, calibrated to a 1% false-positive rate over 196 public MCP servers. In the official MCP Registry: io.github.eltociear/skill-audit-mcp. Also a pay-per-call x402 API."
+    language: "Python"
+    topics:
+      - "ai-agent-security"
+      - "claude-skills"
+      - "devsecops"
+      - "github-action"
+      - "mcp"
+      - "mcp-server"
+      - "prompt-injection"
+      - "sarif"
+      - "security"
+      - "static-analysis"
+      - "supply-chain-security"
+      - "vulnerability-scanner"
+    stars_fact: 6
+    first_seen: null
+    last_push: "2026-09-30"
+  - name: "eltociear"
+    title: "eltociear"
+    description: "introduction"
+    language: null
+    topics: []
+    stars_fact: 5
+    first_seen: null
+    last_push: "2026-09-28"
+  - name: "agent-passport"
+    title: "agent-passport"
+    description: "World ID x ERC-8004 Agent Passport Protocol — Human-verified identity for AI agents on Base L2"
+    language: "Solidity"
+    topics:
+      - "ai-agent"
+      - "world-id"
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-02-20"
   - name: "mcp-audit"
     title: "mcp-audit"
     description: "Scan MCP servers & AI-agent skills for malicious patterns (prompt injection in tool descriptions, credential exfil, download-and-execute). 17 patterns / 60 signatures, zero-dep. Measured over 196 public MCP servers: 99% clean, false-positive rate calibrated 14.8% -> 1.0%."
@@ -131,50 +169,6 @@ repos:
     stars_fact: 4
     first_seen: null
     last_push: "2026-08-02"
-  - name: "awesome-molt-ecosystem"
-    title: "awesome-molt-ecosystem"
-    description: "The brutally honest map of where AI-agent money actually flows. Every number measured, dated, and re-checked — including the ones that turned out to be wrong. Lifetime external income: $2.40. 1 of 18 awesome-list submissions ever merged."
-    language: "Dockerfile"
-    topics:
-      - "agent-economy"
-      - "ai-agent"
-      - "ai-agents"
-      - "aiagent"
-      - "awesome"
-      - "awesome-list"
-      - "bug-bounty"
-      - "ecosystem"
-      - "marketplace"
-      - "mcp"
-      - "moltbook"
-      - "moltbot"
-      - "molty"
-      - "openclaw"
-      - "polar-sh"
-      - "skill-audit-mcp"
-      - "story-protocol"
-      - "usdc"
-      - "web3"
-      - "x402"
-    stars_fact: 65
-    first_seen: null
-    last_push: "2026-09-08"
-  - name: "eltociear"
-    title: "eltociear"
-    description: "introduction"
-    language: null
-    topics: []
-    stars_fact: 5
-    first_seen: null
-    last_push: "2026-09-19"
-  - name: "openclaw-suzuri"
-    title: "openclaw-suzuri"
-    description: "OpenClaw - 世界初のAIエージェントデザインオンリーストア。ロブスター猫のデザインを自動生成しSUZURIで販売する完全自動システム。"
-    language: "Python"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-03-28"
 ---
 
 # eltociear

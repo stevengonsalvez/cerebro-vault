@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [3, 3, 1, 2, 0, 0, 2, 0, 0, 0, 5, 4, 74]
+pushes_per_week: [3, 4, 1, 1, 0, 1, 1, 0, 0, 0, 7, 6, 70]
 windows:
   "7d":
     pushes: 74
@@ -77,22 +77,17 @@ reasons:
   - "activity: 21 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "thetagang"
-    title: "thetagang"
-    description: "ThetaGang is an IBKR bot for collecting money"
-    language: "Python"
+  - name: "genserver"
+    title: "genserver"
+    description: "Elixir inspired async actor library for Rust"
+    language: "Rust"
     topics:
-      - "bot"
-      - "buying-shares"
-      - "get-rich-slowly"
-      - "ibkr"
-      - "money"
-      - "strategy"
-      - "thetagang"
-      - "trading-bot"
-    stars_fact: 2731
+      - "actors"
+      - "genserver"
+      - "rust"
+    stars_fact: 23
     first_seen: null
-    last_push: "2026-09-16"
+    last_push: "2025-11-24"
   - name: "conky"
     title: "conky"
     description: "Light-weight system monitor for X, Wayland, and other things, too"
@@ -106,23 +101,55 @@ repos:
       - "lua"
       - "system-monitoring"
       - "wayland"
-    stars_fact: 8523
+    stars_fact: 8532
     first_seen: null
-    last_push: "2026-08-07"
+    last_push: "2026-09-30"
+  - name: "hessboost"
+    title: "hessboost"
+    description: "Fast, deterministic gradient boosting in Rust (with Python bindings)"
+    language: "Rust"
+    topics:
+      - "gradient-boosting"
+      - "machine-learning"
+      - "ml"
+      - "rust"
+      - "xgboost"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-30"
+  - name: "thetagang"
+    title: "thetagang"
+    description: "ThetaGang is an IBKR bot for collecting money"
+    language: "Python"
+    topics:
+      - "bot"
+      - "buying-shares"
+      - "get-rich-slowly"
+      - "ibkr"
+      - "money"
+      - "strategy"
+      - "thetagang"
+      - "trading-bot"
+    stars_fact: 2740
+    first_seen: null
+    last_push: "2026-09-16"
   - name: "dryoc"
     title: "dryoc"
-    description: "Don't Roll Your Own Crypto: pure-Rust, hard to misuse cryptography library"
+    description: "Don't Roll Your Own Crypto: fast, type-safe, pure-Rust cryptography with post-quantum support"
     language: "Rust"
     topics:
       - "crypto"
       - "cryptography"
       - "cryptography-library"
       - "libsodium"
+      - "ml-kem"
       - "nacl"
+      - "post-quantum-cryptography"
       - "rust"
-    stars_fact: 344
+      - "wasm"
+    stars_fact: 345
     first_seen: null
-    last_push: "2026-09-22"
+    last_push: "2026-09-28"
   - name: "mother-of-dragons"
     title: "mother-of-dragons"
     description: "🐲 DragonMint/Innosilicon miner management tool 🐉"
@@ -137,30 +164,6 @@ repos:
     stars_fact: 14
     first_seen: null
     last_push: "2021-04-30"
-  - name: "idiomatic-rust-book"
-    title: "idiomatic-rust-book"
-    description: "Source code for Idiomatic Rust: Code like a Rustacean"
-    language: "Rust"
-    topics: []
-    stars_fact: 203
-    first_seen: null
-    last_push: "2025-11-27"
-  - name: "cracking-the-coding-interview-rust"
-    title: "cracking-the-coding-interview-rust"
-    description: "Cracking the Coding Interview problem solutions in Rust"
-    language: "Rust"
-    topics:
-      - "cracking-the-coding-interview"
-      - "interview-practice"
-      - "interview-questions"
-      - "learn-to-code"
-      - "rust"
-      - "rust-lang"
-      - "twitch"
-      - "youtube"
-    stars_fact: 438
-    first_seen: null
-    last_push: "2026-02-09"
 ---
 
 # brndnmtthws

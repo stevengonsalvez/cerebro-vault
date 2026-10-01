@@ -11,16 +11,16 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "26de699d3e5c651e"
   - "4d1450729e6ff44d"
-pushes_per_week: [5, 9, 12, 11, 4, 3, 4, 15, 4, 6, 13, 13, 11]
+pushes_per_week: [5, 11, 12, 10, 3, 3, 4, 15, 4, 6, 13, 14, 10]
 windows:
   "7d":
-    pushes: 13
+    pushes: 10
     distinct_repos: 4
-    active_days: 7
+    active_days: 5
     repos_not_owned: 3
     not_owned_basenames: 2
     not_owned_owners: 3
@@ -52,10 +52,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 13
+    pushes: 10
     distinct_repos: 4
-    pushes_per_repo: 3.2500
-    active_days: 7
+    pushes_per_repo: 2.5000
+    active_days: 5
     repos_not_owned: 3
     not_owned_basenames: 2
     not_owned_owners: 3
@@ -105,24 +105,9 @@ repos:
       - "software-architecture"
       - "system-design"
       - "text-to-diagram"
-    stars_fact: 70376
+    stars_fact: 75390
     first_seen: "2026-08-15T06:00:05.480092+00:00"
-    last_push: "2026-09-23"
-  - name: "simplify-codebase"
-    title: "simplify-codebase"
-    description: "Prove and remove accidental codebase complexity without breaking behavior."
-    language: "HTML"
-    topics:
-      - "agent-skills"
-      - "ai-agents"
-      - "code-quality"
-      - "codebase"
-      - "codex"
-      - "developer-tools"
-      - "refactoring"
-    stars_fact: 495
-    first_seen: null
-    last_push: "2026-09-04"
+    last_push: "2026-09-30"
   - name: "hive"
     title: "hive"
     description: "Browser-native hive-mind for CLI coding agents — Claude Code, Codex, Gemini, and OpenCode collaborate as real PTY processes via a team protocol."
@@ -140,9 +125,24 @@ repos:
       - "nodejs"
       - "pty"
       - "typescript"
-    stars_fact: 552
+    stars_fact: 558
     first_seen: null
-    last_push: "2026-09-22"
+    last_push: "2026-09-28"
+  - name: "simplify-codebase"
+    title: "simplify-codebase"
+    description: "Prove and remove accidental codebase complexity without breaking behavior."
+    language: "HTML"
+    topics:
+      - "agent-skills"
+      - "ai-agents"
+      - "code-quality"
+      - "codebase"
+      - "codex"
+      - "developer-tools"
+      - "refactoring"
+    stars_fact: 500
+    first_seen: null
+    last_push: "2026-09-04"
   - name: "matt-skills-with-to-goal"
     title: "matt-skills-with-to-goal"
     description: "Planning → verifiable goals → fresh-session implementation for AI coding agents. Based on mattpocock/skills v1.1."
@@ -155,44 +155,31 @@ repos:
       - "coding-agents"
       - "developer-tools"
       - "workflow"
-    stars_fact: 173
+    stars_fact: 181
     first_seen: null
     last_push: "2026-09-14"
-  - name: "MiroFish-local"
-    title: "MiroFish-local"
-    description: "MiroFish的免费本地运行版本 | Graphiti+Neo4j替代付费Zep | 简易便捷本地跑通"
-    language: "Python"
+  - name: "skillroster"
+    title: "skillroster"
+    description: "Turn scattered, duplicated AI-agent Skills into per-Agent Rosters—with evidence, receipts, and exact undo."
+    language: "Rust"
     topics:
-      - "digital-twin"
-      - "graphiti"
-      - "llm"
-      - "multi-agent"
-      - "neo4j"
-      - "prediction"
-      - "simulation"
-      - "social-simulation"
-      - "swarm-intelligence"
-    stars_fact: 154
+      - "ai-agents"
+      - "cli"
+      - "developer-tools"
+      - "local-first"
+      - "rust"
+      - "skill-management"
+    stars_fact: 53
     first_seen: null
-    last_push: "2026-03-17"
-  - name: "everos-mcp"
-    title: "everos-mcp"
-    description: "Universal long-term memory layer for AI coding assistants, powered by EverMemOS."
-    language: "Python"
-    topics:
-      - "ai-coding-assistant"
-      - "ai-memory"
-      - "claude-code"
-      - "cline"
-      - "cursor"
-      - "evermemos"
-      - "evermemos-cloud"
-      - "mcp"
-      - "model-context-protocol"
-      - "python"
-    stars_fact: 21
+    last_push: "2026-09-16"
+  - name: "tokenmeter"
+    title: "tokenmeter"
+    description: "htop for AI Agents — monitor token usage, costs & tool calls across Claude Code and Codex in real time"
+    language: "Go"
+    topics: []
+    stars_fact: 41
     first_seen: null
-    last_push: "2026-07-09"
+    last_push: "2026-09-28"
 ---
 
 # tt-a1i

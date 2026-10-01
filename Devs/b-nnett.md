@@ -11,7 +11,7 @@ provenance_repos:
 admitted: true
 low_n: true
 repos_populated: true
-generated_at: "2026-09-23T13:24:09.259904+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "afe9ef77456d9360"
 pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
@@ -79,14 +79,30 @@ reasons:
   - "activity: 0 active days in 90d — below the 5-day line, LABELLED low-n (never suppressed)"
   - "automation: clear — pass"
 repos:
+  - name: "codex-apple-watch"
+    title: "codex-apple-watch"
+    description: null
+    language: "Swift"
+    topics: []
+    stars_fact: 104
+    first_seen: null
+    last_push: "2026-05-24"
   - name: "codex-subscription-router"
     title: "codex-subscription-router"
     description: null
     language: "Go"
     topics: []
-    stars_fact: 416
+    stars_fact: 418
     first_seen: "2026-09-04T06:00:06.750937+00:00"
     last_push: "2026-08-23"
+  - name: "appstore-monitor"
+    title: "appstore-monitor"
+    description: "Tool for tracking updates to apps on the Apple App Store and Google Play Store. Notifies via Discord."
+    language: "Go"
+    topics: []
+    stars_fact: 5
+    first_seen: null
+    last_push: "2026-09-06"
   - name: "codex-plusplus-ios-simulator"
     title: "codex-plusplus-ios-simulator"
     description: "iOS Simulator tweak for Codex++ — embeds a headless, mirrored simulator in Codex's right panel."
@@ -107,14 +123,6 @@ repos:
     stars_fact: 10
     first_seen: null
     last_push: "2026-08-28"
-  - name: "codex-apple-watch"
-    title: "codex-apple-watch"
-    description: null
-    language: "Swift"
-    topics: []
-    stars_fact: 102
-    first_seen: null
-    last_push: "2026-05-24"
   - name: "electron-extensions"
     title: "electron-extensions"
     description: "Signed update feed for Extensions Anywhere for macOS. No public app release is available yet."
@@ -123,14 +131,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-09-13"
-  - name: "homebrew-framehuddle"
-    title: "homebrew-framehuddle"
-    description: "Homebrew tap for the Framehuddle CLI"
-    language: "Ruby"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-09"
 ---
 
 # b-nnett

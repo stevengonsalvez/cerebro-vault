@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "3eacb4655aba2497"
-pushes_per_week: [17, 35, 12, 5, 7, 6, 4, 1, 0, 2, 8, 11, 24]
+pushes_per_week: [18, 32, 12, 8, 5, 7, 2, 1, 0, 2, 10, 9, 24]
 windows:
   "7d":
     pushes: 24
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 8
     not_owned_owners: 5
   "90d":
-    pushes: 132
+    pushes: 130
     distinct_repos: 59
-    active_days: 47
+    active_days: 46
     repos_not_owned: 25
     not_owned_basenames: 25
     not_owned_owners: 9
 automation:
   state: "clear"
-  push_per_day: 2.8085
-  repo_per_active_day: 1.2553
+  push_per_day: 2.8261
+  repo_per_active_day: 1.2826
   not_owned_ratio: 0.4237
   basename_concentration: 0.0339
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 8
     not_owned_owners: 5
   "90d":
-    pushes: 132
+    pushes: 130
     distinct_repos: 59
-    pushes_per_repo: 2.2373
-    active_days: 47
+    pushes_per_repo: 2.2034
+    active_days: 46
     repos_not_owned: 25
     not_owned_basenames: 25
     not_owned_owners: 9
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 47 active days in 90d — pass"
+  - "activity: 46 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "tigertunnel"
@@ -161,6 +161,6 @@ repos:
 
 # jedisct1
 
-132 pushes across 59 repositories on 47 active days in the last 90 days of public GitHub push activity.
+130 pushes across 59 repositories on 46 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/jedisct1

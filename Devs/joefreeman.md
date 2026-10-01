@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-29T06:07:44.400276+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "97c4e9cb8b163ddb"
   - "c7515e0fa4368a55"
@@ -80,6 +80,14 @@ reasons:
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "quiver"
+    title: "quiver"
+    description: "The Quiver programming language"
+    language: "Rust"
+    topics: []
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-09-30"
   - name: "aether"
     title: "aether"
     description: "Modal text editor for Linux and macOS with native, terminal and web clients"
@@ -90,7 +98,7 @@ repos:
       - "tree-sitter"
     stars_fact: 5
     first_seen: null
-    last_push: "2026-09-22"
+    last_push: "2026-09-30"
   - name: "topical"
     title: "topical"
     description: "Simple server-maintained state synchronisation."
@@ -104,14 +112,6 @@ repos:
     stars_fact: 13
     first_seen: null
     last_push: "2026-09-18"
-  - name: "quiver"
-    title: "quiver"
-    description: "The Quiver programming language"
-    language: "Rust"
-    topics: []
-    stars_fact: 4
-    first_seen: null
-    last_push: "2026-08-23"
   - name: "dbdiff"
     title: "dbdiff"
     description: "PHP script to compare MySQL database schemas"

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "745308b2b7085095"
-pushes_per_week: [1, 0, 1, 1, 0, 0, 0, 2, 0, 2, 2, 1, 1]
+pushes_per_week: [1, 1, 1, 0, 0, 0, 0, 2, 0, 2, 2, 1, 1]
 windows:
   "7d":
     pushes: 1
@@ -77,6 +77,22 @@ reasons:
   - "activity: 9 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "biisal-filter-bot"
+    title: "biisal-filter-bot"
+    description: "A Advance Auto Filter Bot made with Pyrofork"
+    language: "Python"
+    topics: []
+    stars_fact: 90
+    first_seen: null
+    last_push: "2024-08-06"
+  - name: "portfolio"
+    title: "portfolio"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 5
+    first_seen: null
+    last_push: "2026-09-27"
   - name: "rowsql"
     title: "rowsql"
     description: "RowSQL is a visual database management tool that lets you create tables, manage rows, and explore data effortlessly. Supports Postgres, MySQL, and SQLite with a clean, modern UI"
@@ -85,14 +101,6 @@ repos:
     stars_fact: 20
     first_seen: null
     last_push: "2026-06-12"
-  - name: "portfolio"
-    title: "portfolio"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 5
-    first_seen: null
-    last_push: "2026-09-20"
   - name: "bai"
     title: "bai"
     description: null
@@ -100,7 +108,7 @@ repos:
     topics: []
     stars_fact: 2
     first_seen: null
-    last_push: "2026-09-14"
+    last_push: "2026-10-01"
   - name: "dotfiles-mac"
     title: "dotfiles-mac"
     description: "dotfiles for my mac"
@@ -117,14 +125,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-08-08"
-  - name: "biisal-file-stream-pro"
-    title: "biisal-file-stream-pro"
-    description: "A Telegram bot that gives streaming and Direct download links of files"
-    language: "Python"
-    topics: []
-    stars_fact: 75
-    first_seen: null
-    last_push: "2024-07-02"
 ---
 
 # biisal

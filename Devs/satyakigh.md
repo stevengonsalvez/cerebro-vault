@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "a50b0e08dbaee74a"
-pushes_per_week: [36, 22, 8, 16, 3, 11, 10, 3, 1, 1, 6, 4, 0]
+pushes_per_week: [32, 21, 10, 10, 3, 13, 8, 3, 1, 2, 5, 4, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 121
+    pushes: 112
     distinct_repos: 8
-    active_days: 43
+    active_days: 42
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.8140
-  repo_per_active_day: 0.1860
+  push_per_day: 2.6667
+  repo_per_active_day: 0.1905
   not_owned_ratio: 0.2500
   basename_concentration: 0.1250
   shapes: []
@@ -65,22 +65,22 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 121
+    pushes: 112
     distinct_repos: 8
-    pushes_per_repo: 15.1250
-    active_days: 43
+    pushes_per_repo: 14.0000
+    active_days: 42
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 43 active days in 90d — pass"
+  - "activity: 42 active days in 90d — pass"
   - "automation: clear — pass"
 repos: []
 ---
 
 # satyakigh
 
-121 pushes across 8 repositories on 43 active days in the last 90 days of public GitHub push activity.
+112 pushes across 8 repositories on 42 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/satyakigh

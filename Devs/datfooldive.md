@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "46f3c1d6124190bd"
-pushes_per_week: [1, 1, 1, 0, 0, 0, 0, 2, 0, 0, 0, 0, 1]
+pushes_per_week: [2, 0, 1, 0, 0, 0, 0, 2, 0, 0, 0, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -77,6 +77,22 @@ reasons:
   - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "velka"
+    title: "velka"
+    description: "Run commands in multiple project folders in parallel."
+    language: "Go"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-26"
+  - name: "openai-promo-bypass"
+    title: "openai-promo-bypass"
+    description: "Bypass OpenAI geo promo restrictions via JP proxy."
+    language: "Python"
+    topics: []
+    stars_fact: 39
+    first_seen: null
+    last_push: "2026-06-01"
   - name: "datfooldive.github.io"
     title: "datfooldive.github.io"
     description: null
@@ -92,7 +108,7 @@ repos:
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-09-18"
+    last_push: "2026-09-25"
   - name: "snake-odin-raylib"
     title: "snake-odin-raylib"
     description: "A snake game made with Odin and raylib."
@@ -113,22 +129,6 @@ repos:
     stars_fact: 1
     first_seen: null
     last_push: "2026-08-28"
-  - name: "odu"
-    title: "odu"
-    description: "Disk usage analyzer written in Odin."
-    language: "Odin"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-01"
-  - name: "laravel-admin-starter"
-    title: "laravel-admin-starter"
-    description: "My personal Laravel admin starter with feature-rich, ready-to-use admin panel, user management, role-based access control (RBAC), dynamic menus, and an automatic CRUD generator."
-    language: "PHP"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2025-10-20"
 ---
 
 # datfooldive

@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [5, 6, 12, 6, 5, 18, 17, 20, 5, 2, 1, 19, 9]
+pushes_per_week: [4, 8, 10, 7, 4, 25, 10, 22, 3, 2, 3, 20, 6]
 windows:
   "7d":
-    pushes: 12
+    pushes: 8
     distinct_repos: 1
-    active_days: 4
+    active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 125
+    pushes: 124
     distinct_repos: 13
-    active_days: 51
+    active_days: 50
     repos_not_owned: 9
     not_owned_basenames: 2
     not_owned_owners: 9
 automation:
   state: "clear"
-  push_per_day: 2.4510
-  repo_per_active_day: 0.2549
+  push_per_day: 2.4800
+  repo_per_active_day: 0.2600
   not_owned_ratio: 0.6923
   basename_concentration: 0.4615
   shapes: []
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 12
+    pushes: 8
     distinct_repos: 1
-    pushes_per_repo: 12.0000
-    active_days: 4
+    pushes_per_repo: 8.0000
+    active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 125
+    pushes: 124
     distinct_repos: 13
-    pushes_per_repo: 9.6154
-    active_days: 51
+    pushes_per_repo: 9.5385
+    active_days: 50
     repos_not_owned: 9
     not_owned_basenames: 2
     not_owned_owners: 9
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 51 active days in 90d — pass"
+  - "activity: 50 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "opencode-gateway"
@@ -154,6 +154,6 @@ repos:
 
 # M4n5ter
 
-125 pushes across 13 repositories on 51 active days in the last 90 days of public GitHub push activity.
+124 pushes across 13 repositories on 50 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/M4n5ter

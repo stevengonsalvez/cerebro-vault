@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-29T06:07:44.400276+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "3cb7ff1cdcf97c6b"
-pushes_per_week: [2, 3, 2, 1, 0, 3, 0, 0, 0, 0, 1, 0, 0]
+pushes_per_week: [2, 4, 1, 1, 0, 3, 0, 0, 0, 0, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,6 +77,14 @@ reasons:
   - "activity: 9 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "epub_to_pdf_Converter"
+    title: "epub_to_pdf_Converter"
+    description: "Convert EPUB to PDF: A Python script using ebooklib & reportlab that transforms EPUB files into PDFs. User-friendly input prompts, basic content extraction. Simplistic example for customization. Ideal for quick conversions."
+    language: "Python"
+    topics: []
+    stars_fact: 4
+    first_seen: null
+    last_push: "2023-08-29"
   - name: "3d-animation"
     title: "3d-animation"
     description: null
@@ -132,14 +140,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-07-17"
-  - name: "PSC-practice"
-    title: "PSC-practice"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-07-16"
 ---
 
 # AlenSarangSatheesh

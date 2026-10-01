@@ -9,13 +9,13 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "97c4e9cb8b163ddb"
   - "c7515e0fa4368a55"
   - "d3abe74726b22711"
   - "e7c647c4d0689526"
-pushes_per_week: [3, 0, 0, 0, 2, 0, 1, 1, 0, 0, 1, 1, 0]
+pushes_per_week: [1, 0, 0, 2, 0, 0, 1, 1, 0, 0, 2, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -32,16 +32,16 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 9
+    pushes: 7
     distinct_repos: 5
-    active_days: 7
+    active_days: 6
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.2857
-  repo_per_active_day: 0.7143
+  push_per_day: 1.1667
+  repo_per_active_day: 0.8333
   not_owned_ratio: 0.6000
   basename_concentration: 0.2000
   shapes: []
@@ -68,18 +68,26 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 9
+    pushes: 7
     distinct_repos: 5
-    pushes_per_repo: 1.8000
-    active_days: 7
+    pushes_per_repo: 1.4000
+    active_days: 6
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
 reasons:
   - "provenance: 4 vault signal(s) — pass"
-  - "activity: 7 active days in 90d — pass"
+  - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "signal-without-smartphone"
+    title: "signal-without-smartphone"
+    description: "Use Signal without a smartphone!"
+    language: "Rust"
+    topics: []
+    stars_fact: 76
+    first_seen: null
+    last_push: "2026-09-30"
   - name: "threat-modeling-ssg"
     title: "threat-modeling-ssg"
     description: null
@@ -104,14 +112,6 @@ repos:
     stars_fact: 4
     first_seen: null
     last_push: "2022-06-01"
-  - name: "signal-without-smartphone"
-    title: "signal-without-smartphone"
-    description: "Use Signal without a smartphone!"
-    language: "Rust"
-    topics: []
-    stars_fact: 76
-    first_seen: null
-    last_push: "2026-08-04"
   - name: "gnome-background-generator"
     title: "gnome-background-generator"
     description: "Utilities to manage gnome wallpapers"
@@ -140,6 +140,6 @@ repos:
 
 # almet
 
-9 pushes across 5 repositories on 7 active days in the last 90 days of public GitHub push activity.
+7 pushes across 5 repositories on 6 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/almet

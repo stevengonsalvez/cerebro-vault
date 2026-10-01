@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "3c90af76cbde0363"
 pushes_per_week: [0, 1, 0, 2, 0, 15, 1, 1, 0, 0, 1, 0, 0]
@@ -82,9 +82,17 @@ repos:
     description: "A MITM proxy tool to intercept, analyze and log AI coding assistant (Claude Code, Open Code, etc.) communications with LLM APIs"
     language: "Python"
     topics: []
-    stars_fact: 72
+    stars_fact: 73
     first_seen: null
     last_push: "2026-09-07"
+  - name: "minecraft-mod-dev"
+    title: "minecraft-mod-dev"
+    description: "Claude Code skill for Minecraft mod development with NeoForge/Fabric support and inter-mod integration (JEI/AE2/Create)"
+    language: "Shell"
+    topics: []
+    stars_fact: 18
+    first_seen: null
+    last_push: "2026-08-07"
   - name: "remoteShell-mcp"
     title: "remoteShell-mcp"
     description: "A Model Context Protocol (MCP) server that enables AI models to manage SSH connections and execute commands on remote machines without repeatedly entering credentials."
@@ -93,14 +101,6 @@ repos:
     stars_fact: 2
     first_seen: null
     last_push: "2026-09-14"
-  - name: "minecraft-mod-dev"
-    title: "minecraft-mod-dev"
-    description: "Claude Code skill for Minecraft mod development with NeoForge/Fabric support and inter-mod integration (JEI/AE2/Create)"
-    language: "Shell"
-    topics: []
-    stars_fact: 17
-    first_seen: null
-    last_push: "2026-08-07"
   - name: "vscode-better-align"
     title: "vscode-better-align"
     description: "Better vertical alignment with/without selection in any language."

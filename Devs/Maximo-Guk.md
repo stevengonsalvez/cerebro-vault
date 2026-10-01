@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "386c24cf5e18fd90"
-pushes_per_week: [0, 0, 0, 0, 1, 8, 10, 5, 5, 0, 0, 3, 3]
+pushes_per_week: [0, 0, 0, 1, 0, 11, 7, 7, 3, 0, 0, 4, 3]
 windows:
   "7d":
     pushes: 4
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 35
+    pushes: 36
     distinct_repos: 4
-    active_days: 18
+    active_days: 19
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.9444
-  repo_per_active_day: 0.2222
+  push_per_day: 1.8947
+  repo_per_active_day: 0.2105
   not_owned_ratio: 0.5000
   basename_concentration: 0.2500
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 35
+    pushes: 36
     distinct_repos: 4
-    pushes_per_repo: 8.7500
-    active_days: 18
+    pushes_per_repo: 9.0000
+    active_days: 19
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 18 active days in 90d — pass"
+  - "activity: 19 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "github-tls-intercept-repro"
@@ -129,6 +129,6 @@ repos:
 
 # Maximo-Guk
 
-35 pushes across 4 repositories on 18 active days in the last 90 days of public GitHub push activity.
+36 pushes across 4 repositories on 19 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Maximo-Guk

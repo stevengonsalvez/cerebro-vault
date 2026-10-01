@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [56, 35, 41, 25, 28, 55, 38, 9, 15, 0, 3, 10, 0]
+pushes_per_week: [52, 34, 40, 27, 28, 71, 17, 10, 14, 0, 3, 10, 1]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "30d":
-    pushes: 15
+    pushes: 14
     distinct_repos: 6
     active_days: 8
     repos_not_owned: 6
     not_owned_basenames: 6
     not_owned_owners: 1
   "90d":
-    pushes: 315
+    pushes: 307
     distinct_repos: 19
     active_days: 56
     repos_not_owned: 8
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 5.6250
+  push_per_day: 5.4821
   repo_per_active_day: 0.3393
   not_owned_ratio: 0.4211
   basename_concentration: 0.1053
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    pushes: 1
+    distinct_repos: 1
+    pushes_per_repo: 1.0000
+    active_days: 1
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "30d":
-    pushes: 15
+    pushes: 14
     distinct_repos: 6
-    pushes_per_repo: 2.5000
+    pushes_per_repo: 2.3333
     active_days: 8
     repos_not_owned: 6
     not_owned_basenames: 6
     not_owned_owners: 1
   "90d":
-    pushes: 315
+    pushes: 307
     distinct_repos: 19
-    pushes_per_repo: 16.5789
+    pushes_per_repo: 16.1579
     active_days: 56
     repos_not_owned: 8
     not_owned_basenames: 8
@@ -140,6 +140,6 @@ repos:
 
 # kitlangton
 
-315 pushes across 19 repositories on 56 active days in the last 90 days of public GitHub push activity.
+307 pushes across 19 repositories on 56 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/kitlangton

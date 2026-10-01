@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "97c4e9cb8b163ddb"
   - "c7515e0fa4368a55"
@@ -80,53 +80,54 @@ reasons:
   - "activity: 11 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "codex-profiles"
-    title: "codex-profiles"
-    description: "Independent Codex accounts on one Mac. Named desktop launchers and account-scoped CLI profiles."
-    language: "Python"
-    topics:
-      - "cli"
-      - "codex"
-      - "launcher"
-      - "macos"
-      - "multi-account"
-      - "python"
-      - "swift"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-22"
-  - name: "original4422"
-    title: "original4422"
-    description: "Daniel Peng | CBICR, Tsinghua University | LLMs & Agents"
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-20"
-  - name: "learn-claude-code"
-    title: "learn-claude-code"
-    description: "A structured curriculum for understanding Anthropic’s Claude Code (CLI agent) implementation, grounded in a large TypeScript source snapshot"
-    language: "Python"
-    topics: []
-    stars_fact: 16
-    first_seen: null
-    last_push: "2026-09-15"
-  - name: "skills"
-    title: "skills"
-    description: "my skills"
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-07-24"
-  - name: "original-blog"
-    title: "original-blog"
-    description: null
+  - name: "learn-pi"
+    title: "learn-pi"
+    description: "A bilingual TypeScript course for extending the real Pi coding agent, with runnable labs and integration tests."
     language: "TypeScript"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-07-17"
+    last_push: "2026-09-30"
+  - name: "agent-context-regression"
+    title: "agent-context-regression"
+    description: "Executable regression checks for coding agents after controlled context compression"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-30"
+  - name: "agent-serving-lab"
+    title: "agent-serving-lab"
+    description: "Client-admission scheduling experiments for agent-shaped LLM workloads"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-30"
+  - name: "learn-codex"
+    title: "learn-codex"
+    description: "A bilingual, runnable Codex course with Taskboard exercises, offline labs and real protocol checks"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-30"
+  - name: "patch-witness"
+    title: "patch-witness"
+    description: "Per-test evidence that the same head unittest fails before a fix and passes after it; stdlib, Git snapshots, no model calls."
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-30"
+  - name: "agent-form-accelerator"
+    title: "agent-form-accelerator"
+    description: "Source-bound browser form execution for Codex with public-state feedback and reproducible benchmarks"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-30"
 ---
 
 # original4422

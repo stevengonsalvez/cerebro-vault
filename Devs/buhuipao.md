@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "ef17663e884139a8"
 pushes_per_week: [0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 1, 2, 0]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -77,6 +77,25 @@ reasons:
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "agent-console"
+    title: "agent-console"
+    description: "A local terminal control plane for Codex, Claude Code, and pi sessions—discover, monitor, resume, and work beside persistent workspace shells."
+    language: "Rust"
+    topics:
+      - "ai-agents"
+      - "claude-code"
+      - "codex-cli"
+      - "coding-agents"
+      - "developer-tools"
+      - "local-first"
+      - "pi-coding-agent"
+      - "rust"
+      - "session-manager"
+      - "terminal-ui"
+      - "tui"
+    stars_fact: 33
+    first_seen: null
+    last_push: "2026-09-20"
   - name: "buhuipao.github.io"
     title: "buhuipao.github.io"
     description: "新的开始"
@@ -99,25 +118,6 @@ repos:
     stars_fact: 104
     first_seen: null
     last_push: "2025-07-20"
-  - name: "agent-console"
-    title: "agent-console"
-    description: "A local terminal control plane for Codex, Claude Code, and pi sessions—discover, monitor, resume, and work beside persistent workspace shells."
-    language: "Rust"
-    topics:
-      - "ai-agents"
-      - "claude-code"
-      - "codex-cli"
-      - "coding-agents"
-      - "developer-tools"
-      - "local-first"
-      - "pi-coding-agent"
-      - "rust"
-      - "session-manager"
-      - "terminal-ui"
-      - "tui"
-    stars_fact: 22
-    first_seen: null
-    last_push: "2026-09-20"
   - name: "Raspberry-pie-monitoring"
     title: "Raspberry-pie-monitoring"
     description: "自己的毕业设计，基于树莓派的寝室小监控系统"

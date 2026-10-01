@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [0, 0, 5, 3, 3, 3, 0, 0, 0, 1, 4, 10, 4]
+pushes_per_week: [0, 0, 7, 1, 3, 3, 0, 0, 0, 1, 9, 7, 2]
 windows:
   "7d":
-    pushes: 7
+    pushes: 2
     distinct_repos: 2
-    active_days: 4
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 7
+    pushes: 2
     distinct_repos: 2
-    pushes_per_repo: 3.5000
-    active_days: 4
+    pushes_per_repo: 1.0000
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -77,6 +77,28 @@ reasons:
   - "activity: 20 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "scansor"
+    title: "scansor"
+    description: "Research toward constrained parametric geometric model fitting with explicit topology and correspondence"
+    language: "Python"
+    topics:
+      - "cad"
+      - "geometry"
+      - "nonlinear-least-squares"
+      - "optimization"
+      - "point-cloud"
+      - "python"
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-10-01"
+  - name: "tachiai"
+    title: "tachiai"
+    description: "Multi-stream presentation and manual alignment for provider-hosted video"
+    language: "Kotlin"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-01"
   - name: "onshape-export"
     title: "onshape-export"
     description: "Export curated Onshape CAD models"
@@ -87,7 +109,23 @@ repos:
       - "rust"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-23"
+    last_push: "2026-10-01"
+  - name: "dosegoose"
+    title: "dosegoose"
+    description: "Local-first medication reminder for Android and iOS"
+    language: "Kotlin"
+    topics:
+      - "android"
+      - "ios"
+      - "kotlin"
+      - "local-first"
+      - "medication-reminder"
+      - "rust"
+      - "swift"
+      - "uniffi"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-01"
   - name: "onshape-mcp"
     title: "onshape-mcp"
     description: "AI-assisted access to your Onshape CAD documents"
@@ -99,22 +137,7 @@ repos:
       - "rust"
     stars_fact: 18
     first_seen: null
-    last_push: "2026-09-23"
-  - name: "hamster-mcp"
-    title: "hamster-mcp"
-    description: "Full AI debugging and maintenance access to your Home Assistant via MCP"
-    language: "Python"
-    topics:
-      - "debugging"
-      - "hacs"
-      - "home-automation"
-      - "homeassistant"
-      - "maintenance"
-      - "mcp"
-      - "model-context-protocol"
-    stars_fact: 5
-    first_seen: null
-    last_push: "2026-09-23"
+    last_push: "2026-10-01"
   - name: "mujou"
     title: "mujou"
     description: "Convert raster images to vector paths for sand tables, pen plotters, and CNC devices"
@@ -127,34 +150,9 @@ repos:
       - "sand-table"
       - "vector-graphics"
       - "wasm"
-    stars_fact: 1
+    stars_fact: 2
     first_seen: null
-    last_push: "2026-09-23"
-  - name: "scansor"
-    title: "scansor"
-    description: "Research toward constrained parametric geometric model fitting with explicit topology and correspondence"
-    language: "Python"
-    topics:
-      - "cad"
-      - "geometry"
-      - "nonlinear-least-squares"
-      - "optimization"
-      - "point-cloud"
-      - "python"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-23"
-  - name: "openapi-mcp"
-    title: "openapi-mcp"
-    description: "Reusable Rust libraries and a standalone MCP server for OpenAPI specifications"
-    language: "Rust"
-    topics:
-      - "mcp"
-      - "openapi"
-      - "rust"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-23"
+    last_push: "2026-10-01"
 ---
 
 # altendky

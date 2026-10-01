@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "4138778ebbc75ba6"
-pushes_per_week: [0, 0, 0, 0, 0, 6, 2, 0, 0, 1, 1, 13, 9]
+pushes_per_week: [0, 0, 0, 0, 2, 4, 2, 0, 0, 1, 1, 13, 9]
 windows:
   "7d":
     pushes: 9
@@ -77,6 +77,14 @@ reasons:
   - "activity: 12 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "decodmetar"
+    title: "decodmetar"
+    description: "Validador e decodificador de METAR com Expressões Regulares e AFNε (LFA - CESUPA)"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-30"
   - name: "de-la-do-para"
     title: "de-la-do-para"
     description: "De Lá do Pará — loja de produtos paraenses (Spring Boot + Angular, checkout confiável com Kafka). Portfólio local, demonstração."
@@ -84,7 +92,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-23"
+    last_push: "2026-09-30"
   - name: "Mlp-Som-Seoul-bike-renting"
     title: "Mlp-Som-Seoul-bike-renting"
     description: "Projeto para MLP e SOM sobre aluguel de bicicletas na capital de Seoul. Tem com objetivo precisar quantas bicicletas são alugadas por hora por variáveis preditoras como o clima"
@@ -92,7 +100,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-21"
+    last_push: "2026-09-28"
   - name: "tucupass"
     title: "tucupass"
     description: "Inscrição, ingresso com QR e check-in ao vivo para eventos de comunidade (Phoenix LiveView)"
@@ -117,22 +125,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-09-13"
-  - name: "tokidachi"
-    title: "tokidachi"
-    description: "Tokidachi: a GNOME Shell companion for Claude Code and Codex usage limits"
-    language: "JavaScript"
-    topics:
-      - "claude-code"
-      - "codex"
-      - "desktop-widget"
-      - "developer-tools"
-      - "gnome"
-      - "gnome-shell"
-      - "tokidachi"
-      - "usage-monitor"
-    stars_fact: 6
-    first_seen: null
-    last_push: "2026-09-21"
 ---
 
 # Gaalbu

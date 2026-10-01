@@ -10,11 +10,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "73468cde177ddae6"
   - "90688bf127241ceb"
-pushes_per_week: [12, 9, 11, 7, 2, 1, 4, 0, 0, 0, 2, 0, 0]
+pushes_per_week: [6, 9, 11, 4, 2, 1, 4, 0, 0, 0, 2, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -31,18 +31,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 48
-    distinct_repos: 12
-    active_days: 24
+    pushes: 39
+    distinct_repos: 11
+    active_days: 23
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.0000
-  repo_per_active_day: 0.5000
+  push_per_day: 1.6957
+  repo_per_active_day: 0.4783
   not_owned_ratio: 0.0000
-  basename_concentration: 0.0833
+  basename_concentration: 0.0909
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -67,16 +67,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 48
-    distinct_repos: 12
-    pushes_per_repo: 4.0000
-    active_days: 24
+    pushes: 39
+    distinct_repos: 11
+    pushes_per_repo: 3.5455
+    active_days: 23
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 24 active days in 90d — pass"
+  - "activity: 23 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "stop-that-shit"
@@ -99,9 +99,29 @@ repos:
       - "overengineering"
       - "scope-control"
       - "yagni"
-    stars_fact: 2217
+    stars_fact: 2425
     first_seen: null
-    last_push: "2026-09-21"
+    last_push: "2026-09-29"
+  - name: "mcp-slim-guard"
+    title: "mcp-slim-guard"
+    description: "Context compression for MCP. Same upstream call, exact results recoverable."
+    language: "TypeScript"
+    topics:
+      - "ai-agent"
+      - "compression"
+      - "context-compression"
+      - "mcp"
+      - "mcp-compression"
+      - "model-context-protocol"
+      - "nodejs"
+      - "payload-compression"
+      - "schema-compression"
+      - "token-optimization"
+      - "tool-discovery"
+      - "typescript"
+    stars_fact: 186
+    first_seen: null
+    last_push: "2026-08-14"
   - name: "agent-search-mcp"
     title: "agent-search-mcp"
     description: "Free-first Chinese and English web search MCP using zero-key sources and inspectable evidence."
@@ -130,26 +150,6 @@ repos:
     stars_fact: 111
     first_seen: null
     last_push: "2026-09-21"
-  - name: "mcp-slim-guard"
-    title: "mcp-slim-guard"
-    description: "Context compression for MCP. Same upstream call, exact results recoverable."
-    language: "TypeScript"
-    topics:
-      - "ai-agent"
-      - "compression"
-      - "context-compression"
-      - "mcp"
-      - "mcp-compression"
-      - "model-context-protocol"
-      - "nodejs"
-      - "payload-compression"
-      - "schema-compression"
-      - "token-optimization"
-      - "tool-discovery"
-      - "typescript"
-    stars_fact: 188
-    first_seen: null
-    last_push: "2026-08-14"
   - name: "lennney"
     title: "lennney"
     description: "lennney's profile"
@@ -181,6 +181,6 @@ repos:
 
 # lennney
 
-48 pushes across 12 repositories on 24 active days in the last 90 days of public GitHub push activity.
+39 pushes across 11 repositories on 23 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/lennney

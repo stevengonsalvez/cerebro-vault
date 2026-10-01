@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "16389f32495280ea"
-pushes_per_week: [3, 3, 1, 1, 1, 0, 2, 0, 0, 0, 3, 3, 1]
+pushes_per_week: [4, 3, 1, 1, 0, 0, 2, 0, 0, 0, 5, 1, 1]
 windows:
   "7d":
     pushes: 1
@@ -84,7 +84,23 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-23"
+    last_push: "2026-10-01"
+  - name: "godblf.github.io"
+    title: "godblf.github.io"
+    description: "blog"
+    language: "Astro"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-25"
+  - name: "mycode-rust"
+    title: "mycode-rust"
+    description: null
+    language: "Rust"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-24"
   - name: "subagents-games"
     title: "subagents-games"
     description: null
@@ -109,22 +125,6 @@ repos:
     stars_fact: 17
     first_seen: null
     last_push: "2026-04-03"
-  - name: "mycode-rust"
-    title: "mycode-rust"
-    description: null
-    language: "Rust"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-31"
-  - name: "godblf.github.io"
-    title: "godblf.github.io"
-    description: "blog"
-    language: "Astro"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-07-23"
 ---
 
 # GodBlf

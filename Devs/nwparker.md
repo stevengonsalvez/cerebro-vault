@@ -11,37 +11,37 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "0a8884baa5f55aa6"
   - "2a7f0fddd2dac162"
-pushes_per_week: [68, 62, 41, 122, 75, 82, 80, 39, 10, 36, 60, 114, 105]
+pushes_per_week: [63, 61, 49, 129, 60, 112, 48, 41, 8, 37, 65, 115, 99]
 windows:
   "7d":
-    pushes: 110
+    pushes: 99
     distinct_repos: 6
-    active_days: 7
+    active_days: 6
     repos_not_owned: 6
     not_owned_basenames: 1
     not_owned_owners: 6
   "30d":
-    pushes: 318
+    pushes: 317
     distinct_repos: 15
-    active_days: 28
+    active_days: 27
     repos_not_owned: 14
     not_owned_basenames: 2
     not_owned_owners: 14
   "90d":
-    pushes: 894
+    pushes: 887
     distinct_repos: 37
-    active_days: 85
+    active_days: 84
     repos_not_owned: 36
     not_owned_basenames: 3
     not_owned_owners: 35
 automation:
   state: "clear"
-  push_per_day: 10.5176
-  repo_per_active_day: 0.4353
+  push_per_day: 10.5595
+  repo_per_active_day: 0.4405
   not_owned_ratio: 0.9730
   basename_concentration: 0.9459
   shapes:
@@ -58,42 +58,42 @@ automation:
     unresolved: 0
     truncated: false
     sampled:
+      - "anajuliabit/orca"
       - "AvichalDwivedi2205/orca"
       - "beattlekid/orca"
       - "bioinformatist/orca"
       - "blaksmatic/orca"
-      - "dngur6344/orca"
     upstreams:
       - "stablyai/orca"
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 110
+    pushes: 99
     distinct_repos: 6
-    pushes_per_repo: 18.3333
-    active_days: 7
+    pushes_per_repo: 16.5000
+    active_days: 6
     repos_not_owned: 6
     not_owned_basenames: 1
     not_owned_owners: 6
   "30d":
-    pushes: 318
+    pushes: 317
     distinct_repos: 15
-    pushes_per_repo: 21.2000
-    active_days: 28
+    pushes_per_repo: 21.1333
+    active_days: 27
     repos_not_owned: 14
     not_owned_basenames: 2
     not_owned_owners: 14
   "90d":
-    pushes: 894
+    pushes: 887
     distinct_repos: 37
-    pushes_per_repo: 24.1622
-    active_days: 85
+    pushes_per_repo: 23.9730
+    active_days: 84
     repos_not_owned: 36
     not_owned_basenames: 3
     not_owned_owners: 35
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 85 active days in 90d — pass"
+  - "activity: 84 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "chain-trigger"
@@ -148,6 +148,6 @@ repos:
 
 # nwparker
 
-894 pushes across 37 repositories on 85 active days in the last 90 days of public GitHub push activity.
+887 pushes across 37 repositories on 84 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/nwparker

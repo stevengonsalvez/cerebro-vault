@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "2a7f0fddd2dac162"
-pushes_per_week: [0, 0, 0, 5, 0, 16, 4, 8, 0, 0, 2, 10, 4]
+pushes_per_week: [0, 0, 0, 5, 2, 17, 1, 8, 0, 0, 3, 10, 3]
 windows:
   "7d":
-    pushes: 7
+    pushes: 4
     distinct_repos: 1
-    active_days: 4
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 7
+    pushes: 4
     distinct_repos: 1
-    pushes_per_repo: 7.0000
-    active_days: 4
+    pushes_per_repo: 4.0000
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -77,14 +77,6 @@ reasons:
   - "activity: 26 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "xcross_examples"
-    title: "xcross_examples"
-    description: "Example apps for xcross CI"
-    language: "Dart"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-23"
   - name: "xcross"
     title: "xcross"
     description: "Run and hot-reload Flutter iOS apps from Linux - no Xcode, no macOS"
@@ -100,6 +92,14 @@ repos:
       - "xcode"
       - "xtool"
     stars_fact: 54
+    first_seen: null
+    last_push: "2026-09-30"
+  - name: "xcross_examples"
+    title: "xcross_examples"
+    description: "Example apps for xcross CI"
+    language: "Dart"
+    topics: []
+    stars_fact: 0
     first_seen: null
     last_push: "2026-09-23"
   - name: "hysteria2easy"

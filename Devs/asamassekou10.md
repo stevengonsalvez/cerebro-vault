@@ -10,10 +10,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "9e2ff10d772b1e71"
-pushes_per_week: [30, 7, 6, 8, 4, 5, 6, 2, 1, 3, 0, 3, 0]
+pushes_per_week: [18, 10, 4, 7, 4, 7, 4, 2, 1, 3, 0, 3, 0]
 windows:
   "7d":
     pushes: 0
@@ -30,16 +30,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 75
+    pushes: 63
     distinct_repos: 9
-    active_days: 32
+    active_days: 31
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.3438
-  repo_per_active_day: 0.2812
+  push_per_day: 2.0323
+  repo_per_active_day: 0.2903
   not_owned_ratio: 0.0000
   basename_concentration: 0.1111
   shapes: []
@@ -66,30 +66,18 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 75
+    pushes: 63
     distinct_repos: 9
-    pushes_per_repo: 8.3333
-    active_days: 32
+    pushes_per_repo: 7.0000
+    active_days: 31
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 32 active days in 90d — pass"
+  - "activity: 31 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "demo-gitskins"
-    title: "demo-gitskins"
-    description: "A premium GitHub profile README, built entirely from live GitSkins sections — animated, no workflows, no committed assets."
-    language: null
-    topics:
-      - "contribution-graph"
-      - "github-profile"
-      - "readme"
-      - "svg-animation"
-    stars_fact: 14
-    first_seen: null
-    last_push: "2026-09-23"
   - name: "ship-safe"
     title: "ship-safe"
     description: "The independent security agent for AI-written software. Finds issues, investigates whether they are real, and shows you the evidence. Deterministic core, no API key needed, JSON and SARIF output."
@@ -112,9 +100,21 @@ repos:
       - "security-tools"
       - "static-analysis"
       - "supply-chain-security"
-    stars_fact: 848
+    stars_fact: 850
     first_seen: "2026-08-06T06:00:05.901982+00:00"
     last_push: "2026-09-21"
+  - name: "demo-gitskins"
+    title: "demo-gitskins"
+    description: "A premium GitHub profile README, built entirely from live GitSkins sections — animated, no workflows, no committed assets."
+    language: null
+    topics:
+      - "contribution-graph"
+      - "github-profile"
+      - "readme"
+      - "svg-animation"
+    stars_fact: 15
+    first_seen: null
+    last_push: "2026-10-01"
   - name: "AgentChaos"
     title: "AgentChaos"
     description: "Safely attack your AI agent before someone else does. Local-first security testing CLI that injects controlled attacks into agent tool responses and verifies security boundaries."
@@ -128,7 +128,7 @@ repos:
       - "red-team"
       - "security-testing"
       - "typescript"
-    stars_fact: 2
+    stars_fact: 3
     first_seen: null
     last_push: "2026-09-08"
   - name: "asamassekou10"
@@ -138,7 +138,7 @@ repos:
     topics: []
     stars_fact: 23
     first_seen: null
-    last_push: "2026-09-23"
+    last_push: "2026-10-01"
   - name: "gitskins-portfolio-demo"
     title: "gitskins-portfolio-demo"
     description: "My developer portfolio, built with GitSkins"
@@ -159,6 +159,6 @@ repos:
 
 # asamassekou10
 
-75 pushes across 9 repositories on 32 active days in the last 90 days of public GitHub push activity.
+63 pushes across 9 repositories on 31 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/asamassekou10

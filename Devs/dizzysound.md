@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 2, 6, 13]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 2, 7, 12]
 windows:
   "7d":
-    pushes: 16
+    pushes: 13
     distinct_repos: 2
-    active_days: 5
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 16
+    pushes: 13
     distinct_repos: 2
-    pushes_per_repo: 8.0000
-    active_days: 5
+    pushes_per_repo: 6.5000
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -77,6 +77,23 @@ reasons:
   - "activity: 10 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "Nativerate"
+    title: "Nativerate"
+    description: "Bit-perfect Apple Music for macOS: each track plays at its native sample rate on your DAC."
+    language: "Swift"
+    topics:
+      - "apple-music"
+      - "audio"
+      - "bit-perfect"
+      - "dac"
+      - "lossless"
+      - "macos"
+      - "menu-bar-app"
+      - "sample-rate"
+      - "swift"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-01"
   - name: "projection-mirror"
     title: "projection-mirror"
     description: "Mirror a Mac display to Panasonic PT-F300-family network projectors over LAN — independent, unofficial interoperability tool"
@@ -84,7 +101,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-17"
+    last_push: "2026-09-29"
 ---
 
 # dizzysound

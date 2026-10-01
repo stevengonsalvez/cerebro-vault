@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "7b553354eb544407"
-pushes_per_week: [12, 14, 4, 7, 8, 7, 9, 12, 3, 1, 0, 0, 17]
+pushes_per_week: [12, 15, 4, 9, 5, 9, 7, 13, 2, 1, 0, 4, 15]
 windows:
   "7d":
     pushes: 17
     distinct_repos: 5
-    active_days: 6
+    active_days: 7
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 94
+    pushes: 96
     distinct_repos: 9
-    active_days: 42
+    active_days: 43
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 2.2381
-  repo_per_active_day: 0.2143
+  push_per_day: 2.2326
+  repo_per_active_day: 0.2093
   not_owned_ratio: 0.4444
   basename_concentration: 0.2222
   shapes: []
@@ -52,7 +52,7 @@ facets:
     pushes: 17
     distinct_repos: 5
     pushes_per_repo: 3.4000
-    active_days: 6
+    active_days: 7
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 94
+    pushes: 96
     distinct_repos: 9
-    pushes_per_repo: 10.4444
-    active_days: 42
+    pushes_per_repo: 10.6667
+    active_days: 43
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 42 active days in 90d — pass"
+  - "activity: 43 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "ai-engineering-from-scratch"
@@ -190,6 +190,6 @@ repos:
 
 # rohitg00
 
-94 pushes across 9 repositories on 42 active days in the last 90 days of public GitHub push activity.
+96 pushes across 9 repositories on 43 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/rohitg00

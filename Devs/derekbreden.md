@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "0b22ca37fd3884c9"
-pushes_per_week: [56, 30, 43, 23, 31, 65, 51, 45, 17, 6, 27, 101, 20]
+pushes_per_week: [46, 20, 45, 21, 34, 77, 35, 51, 11, 6, 35, 97, 26]
 windows:
   "7d":
-    pushes: 34
+    pushes: 27
     distinct_repos: 1
     active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 155
+    pushes: 164
     distinct_repos: 2
     active_days: 24
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 515
-    distinct_repos: 8
+    pushes: 504
+    distinct_repos: 6
     active_days: 82
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 6.2805
-  repo_per_active_day: 0.0976
+  push_per_day: 6.1463
+  repo_per_active_day: 0.0732
   not_owned_ratio: 0.0000
-  basename_concentration: 0.1250
+  basename_concentration: 0.1667
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 34
+    pushes: 27
     distinct_repos: 1
-    pushes_per_repo: 34.0000
+    pushes_per_repo: 27.0000
     active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 155
+    pushes: 164
     distinct_repos: 2
-    pushes_per_repo: 77.5000
+    pushes_per_repo: 82.0000
     active_days: 24
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 515
-    distinct_repos: 8
-    pushes_per_repo: 64.3750
+    pushes: 504
+    distinct_repos: 6
+    pushes_per_repo: 84.0000
     active_days: 82
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -129,6 +129,6 @@ repos:
 
 # derekbreden
 
-515 pushes across 8 repositories on 82 active days in the last 90 days of public GitHub push activity.
+504 pushes across 6 repositories on 82 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/derekbreden

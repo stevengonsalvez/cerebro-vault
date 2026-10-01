@@ -9,13 +9,13 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "feacb1c4ff8cc40f"
-pushes_per_week: [5, 76, 48, 31, 33, 10, 8, 2, 3, 16, 10, 19, 62]
+pushes_per_week: [6, 83, 42, 29, 35, 9, 7, 3, 2, 18, 11, 18, 60]
 windows:
   "7d":
-    pushes: 62
+    pushes: 61
     distinct_repos: 8
     active_days: 6
     repos_not_owned: 8
@@ -65,9 +65,9 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 62
+    pushes: 61
     distinct_repos: 8
-    pushes_per_repo: 7.7500
+    pushes_per_repo: 7.6250
     active_days: 6
     repos_not_owned: 8
     not_owned_basenames: 2
@@ -92,7 +92,15 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 61 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "johto-autumn"
+    title: "johto-autumn"
+    description: "Pokémon: Johto Autumn — a real-time fan trailer in one HTML file, made with Claude Code (Opus 5.5)"
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-26"
 ---
 
 # f-trycua

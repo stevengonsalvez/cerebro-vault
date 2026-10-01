@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "ef17663e884139a8"
-pushes_per_week: [33, 38, 33, 24, 20, 38, 12, 7, 3, 0, 4, 7, 8]
+pushes_per_week: [32, 39, 29, 26, 17, 42, 8, 8, 2, 0, 5, 6, 10]
 windows:
   "7d":
     pushes: 10
     distinct_repos: 3
-    active_days: 5
+    active_days: 6
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 19
+    pushes: 21
     distinct_repos: 5
-    active_days: 12
+    active_days: 14
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 227
+    pushes: 224
     distinct_repos: 38
-    active_days: 65
+    active_days: 66
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 3.4923
-  repo_per_active_day: 0.5846
+  push_per_day: 3.3939
+  repo_per_active_day: 0.5758
   not_owned_ratio: 0.1053
   basename_concentration: 0.0263
   shapes: []
@@ -52,29 +52,29 @@ facets:
     pushes: 10
     distinct_repos: 3
     pushes_per_repo: 3.3333
-    active_days: 5
+    active_days: 6
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 19
+    pushes: 21
     distinct_repos: 5
-    pushes_per_repo: 3.8000
-    active_days: 12
+    pushes_per_repo: 4.2000
+    active_days: 14
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 227
+    pushes: 224
     distinct_repos: 38
-    pushes_per_repo: 5.9737
-    active_days: 65
+    pushes_per_repo: 5.8947
+    active_days: 66
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 65 active days in 90d — pass"
+  - "activity: 66 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "Surge"
@@ -156,6 +156,6 @@ repos:
 
 # SukkaW
 
-227 pushes across 38 repositories on 65 active days in the last 90 days of public GitHub push activity.
+224 pushes across 38 repositories on 66 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/SukkaW

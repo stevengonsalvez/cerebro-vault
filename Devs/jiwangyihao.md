@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [6, 0, 0, 0, 1, 23, 14, 11, 1, 23, 1, 34, 1]
+pushes_per_week: [5, 0, 0, 0, 1, 28, 9, 11, 1, 23, 1, 34, 1]
 windows:
   "7d":
     pushes: 1
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 60
+    pushes: 59
     distinct_repos: 54
-    active_days: 8
+    active_days: 7
     repos_not_owned: 51
     not_owned_basenames: 51
     not_owned_owners: 1
   "90d":
-    pushes: 115
+    pushes: 114
     distinct_repos: 80
-    active_days: 20
+    active_days: 19
     repos_not_owned: 74
     not_owned_basenames: 74
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 5.7500
-  repo_per_active_day: 4.0000
+  push_per_day: 6.0000
+  repo_per_active_day: 4.2105
   not_owned_ratio: 0.9250
   basename_concentration: 0.0125
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 60
+    pushes: 59
     distinct_repos: 54
-    pushes_per_repo: 1.1111
-    active_days: 8
+    pushes_per_repo: 1.0926
+    active_days: 7
     repos_not_owned: 51
     not_owned_basenames: 51
     not_owned_owners: 1
   "90d":
-    pushes: 115
+    pushes: 114
     distinct_repos: 80
-    pushes_per_repo: 1.4375
-    active_days: 20
+    pushes_per_repo: 1.4250
+    active_days: 19
     repos_not_owned: 74
     not_owned_basenames: 74
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 20 active days in 90d — pass"
+  - "activity: 19 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "source-j-legado"
@@ -129,6 +129,6 @@ repos:
 
 # jiwangyihao
 
-115 pushes across 80 repositories on 20 active days in the last 90 days of public GitHub push activity.
+114 pushes across 80 repositories on 19 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/jiwangyihao

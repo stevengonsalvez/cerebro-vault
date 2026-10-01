@@ -10,10 +10,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "dc9094c987231bcf"
-pushes_per_week: [5, 0, 0, 2, 0, 13, 1, 2, 0, 0, 2, 0, 0]
+pushes_per_week: [5, 0, 1, 1, 0, 13, 1, 2, 0, 1, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -80,7 +80,7 @@ reasons:
 repos:
   - name: "claude-seo"
     title: "claude-seo"
-    description: "Universal SEO skill for Claude Code. 25 sub-skills + 18 sub-agents covering technical SEO, E-E-A-T, schema, GEO/AEO, backlinks, local SEO, maps intelligence, semantic clustering, e-commerce SEO, international SEO, Google APIs, and PDF/Excel reporting. Optional DataForSEO, Firecrawl, and Banana extensions."
+    description: "Universal SEO skill for Claude Code. 26 sub-skills + 19 sub-agents covering technical SEO, E-E-A-T, schema, GEO/AEO, agent readiness (Lighthouse Agentic Browsing, WebMCP, llms.txt), backlinks, local SEO, e-commerce, international SEO, Google APIs, and PDF/Excel reporting. 9 optional extensions, including DataForSEO, Firecrawl, Ahrefs and Matomo."
     language: "Python"
     topics:
       - "ai"
@@ -90,30 +90,43 @@ repos:
       - "marketing-automation"
       - "open-source"
       - "seo"
-    stars_fact: 17514
+    stars_fact: 18063
     first_seen: null
-    last_push: "2026-09-11"
-  - name: "compass"
-    title: "compass"
-    description: "Compass: run your whole life out of Obsidian. Daily questions, quarterly retreats, planning, habits, tasks, writing, and an AI assistant in the vault."
-    language: "JavaScript"
+    last_push: "2026-09-29"
+  - name: "claude-blog"
+    title: "claude-blog"
+    description: "Claude Code blog skill suite: 30 sub-skills, 5 agents, 5-gate v1.9.0 Blog Delivery Contract, dual-optimized for Google rankings and AI citations. Active development at AI-Marketing-Hub/claude-blog (AI Marketing Hub Pro community); public releases ship here."
+    language: "Python"
     topics:
+      - "agent-skills"
+      - "ai"
+      - "ai-citations"
+      - "ai-content"
+      - "ai-marketing"
+      - "ai-marketing-hub"
+      - "blog"
+      - "blog-writing"
       - "claude-code"
-      - "journaling"
-      - "life-os"
-      - "obsidian"
-      - "obsidian-vault"
-      - "pkm"
-      - "template"
-    stars_fact: 101
+      - "claude-code-skill"
+      - "claude-plugin"
+      - "claude-skill"
+      - "content-creation"
+      - "content-optimization"
+      - "content-strategy"
+      - "eeat"
+      - "geo"
+      - "multilingual"
+      - "open-source"
+      - "seo"
+    stars_fact: 2297
     first_seen: null
-    last_push: "2026-09-13"
+    last_push: "2026-09-25"
   - name: "jev-seo"
     title: "jev-seo"
     description: "Live SEO audit for any website from one homepage URL, judged by Jev. PDF, XLSX and Markdown reports."
     language: "Python"
     topics: []
-    stars_fact: 52
+    stars_fact: 391
     first_seen: null
     last_push: "2026-09-22"
   - name: "claude-obsidian"
@@ -141,9 +154,23 @@ repos:
       - "personal-knowledge-management"
       - "pkm"
       - "second-brain"
-    stars_fact: 15159
+    stars_fact: 15317
     first_seen: "2026-08-25T06:00:03.138196+00:00"
     last_push: "2026-09-10"
+  - name: "banana-claude"
+    title: "banana-claude"
+    description: "AI image generation skill for Claude Code - Creative Director powered by Gemini"
+    language: "Python"
+    topics:
+      - "ai"
+      - "ai-content"
+      - "claude-code"
+      - "claude-code-skill"
+      - "content-creation"
+      - "open-source"
+    stars_fact: 1069
+    first_seen: null
+    last_push: "2026-09-25"
   - name: "claude-ads"
     title: "claude-ads"
     description: "Claude-first paid-media operations skill for Claude Code across 12 ad platforms (Google, Meta, YouTube, LinkedIn, TikTok, Microsoft, Apple, Amazon, Reddit, Pinterest, Snapchat, X): source-grounded audits, deterministic scoring, versioned JSON reports, and capability-gated account changes."
@@ -160,37 +187,9 @@ repos:
       - "open-source"
       - "paid-advertising"
       - "ppc"
-    stars_fact: 9498
+    stars_fact: 9660
     first_seen: null
-    last_push: "2026-09-18"
-  - name: "codex-seo"
-    title: "codex-seo"
-    description: "Codex-first SEO skill suite. 26 workflows, 24 TOML agents, DataForSEO/Gemini/Google/Firecrawl integrations, GEO/AEO, CWV, schema, backlinks, local/maps, and deterministic reports."
-    language: "Python"
-    topics:
-      - "ai-search"
-      - "ai-seo"
-      - "automation"
-      - "codex"
-      - "codex-cli"
-      - "codex-skills"
-      - "content-strategy"
-      - "core-web-vitals"
-      - "dataforseo"
-      - "ecommerce-seo"
-      - "generative-engine-optimization"
-      - "google-search-console"
-      - "local-seo"
-      - "marketing-automation"
-      - "mcp"
-      - "open-source"
-      - "python"
-      - "schema-markup"
-      - "seo"
-      - "technical-seo"
-    stars_fact: 747
-    first_seen: null
-    last_push: "2026-09-11"
+    last_push: "2026-09-25"
 ---
 
 # AgriciDaniel

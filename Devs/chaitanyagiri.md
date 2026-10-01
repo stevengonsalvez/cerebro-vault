@@ -10,22 +10,22 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "e5b23adc376a62a9"
-pushes_per_week: [1, 0, 0, 0, 3, 2, 6, 1, 0, 1, 1, 0, 2]
+pushes_per_week: [0, 0, 0, 0, 3, 6, 2, 1, 0, 1, 1, 0, 3]
 windows:
   "7d":
-    pushes: 2
+    pushes: 3
     distinct_repos: 1
-    active_days: 1
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 4
+    pushes: 5
     distinct_repos: 1
-    active_days: 3
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -50,18 +50,18 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
+    pushes: 3
     distinct_repos: 1
-    pushes_per_repo: 2.0000
-    active_days: 1
+    pushes_per_repo: 3.0000
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 4
+    pushes: 5
     distinct_repos: 1
-    pushes_per_repo: 4.0000
-    active_days: 3
+    pushes_per_repo: 5.0000
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -101,9 +101,9 @@ repos:
       - "opencode"
       - "orchestration"
       - "typescript"
-    stars_fact: 7859
+    stars_fact: 8216
     first_seen: "2026-08-19T06:00:14.371566+00:00"
-    last_push: "2026-09-23"
+    last_push: "2026-10-01"
   - name: "higgsfieldautomation"
     title: "higgsfieldautomation"
     description: null

@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [1, 1, 5, 0, 2, 9, 3, 6, 1, 1, 1, 13, 5]
+pushes_per_week: [0, 1, 5, 0, 2, 11, 1, 7, 0, 1, 9, 7, 3]
 windows:
   "7d":
-    pushes: 7
-    distinct_repos: 2
-    active_days: 3
+    pushes: 3
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 48
+    pushes: 47
     distinct_repos: 4
-    active_days: 25
+    active_days: 24
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.9200
-  repo_per_active_day: 0.1600
+  push_per_day: 1.9583
+  repo_per_active_day: 0.1667
   not_owned_ratio: 0.0000
   basename_concentration: 0.2500
   shapes: []
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 7
-    distinct_repos: 2
-    pushes_per_repo: 3.5000
-    active_days: 3
+    pushes: 3
+    distinct_repos: 1
+    pushes_per_repo: 3.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 48
+    pushes: 47
     distinct_repos: 4
-    pushes_per_repo: 12.0000
-    active_days: 25
+    pushes_per_repo: 11.7500
+    active_days: 24
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 25 active days in 90d — pass"
+  - "activity: 24 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "TerraBlind"
@@ -131,6 +131,6 @@ repos:
 
 # Reisenbug
 
-48 pushes across 4 repositories on 25 active days in the last 90 days of public GitHub push activity.
+47 pushes across 4 repositories on 24 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Reisenbug

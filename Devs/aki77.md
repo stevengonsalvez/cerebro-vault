@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "0b22ca37fd3884c9"
-pushes_per_week: [17, 3, 15, 3, 2, 2, 0, 0, 0, 0, 0, 2, 1]
+pushes_per_week: [15, 4, 15, 2, 2, 2, 0, 0, 0, 0, 0, 2, 1]
 windows:
   "7d":
     pushes: 1
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 45
-    distinct_repos: 15
-    active_days: 21
+    pushes: 43
+    distinct_repos: 14
+    active_days: 20
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.1429
-  repo_per_active_day: 0.7143
-  not_owned_ratio: 0.3333
-  basename_concentration: 0.0667
+  push_per_day: 2.1500
+  repo_per_active_day: 0.7000
+  not_owned_ratio: 0.3571
+  basename_concentration: 0.0714
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 45
-    distinct_repos: 15
-    pushes_per_repo: 3.0000
-    active_days: 21
+    pushes: 43
+    distinct_repos: 14
+    pushes_per_repo: 3.0714
+    active_days: 20
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 21 active days in 90d — pass"
+  - "activity: 20 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "test_impact"
@@ -129,6 +129,6 @@ repos:
 
 # aki77
 
-45 pushes across 15 repositories on 21 active days in the last 90 days of public GitHub push activity.
+43 pushes across 14 repositories on 20 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/aki77

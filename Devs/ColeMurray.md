@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "8311cfc3055f8fea"
-pushes_per_week: [25, 39, 57, 14, 33, 15, 11, 6, 1, 7, 9, 24, 18]
+pushes_per_week: [37, 32, 50, 27, 19, 19, 7, 6, 1, 7, 9, 25, 19]
 windows:
   "7d":
-    pushes: 19
+    pushes: 20
     distinct_repos: 2
     active_days: 7
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 59
+    pushes: 60
     distinct_repos: 2
-    active_days: 21
+    active_days: 22
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 259
+    pushes: 258
     distinct_repos: 2
-    active_days: 67
+    active_days: 68
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 3.8657
-  repo_per_active_day: 0.0299
+  push_per_day: 3.7941
+  repo_per_active_day: 0.0294
   not_owned_ratio: 0.5000
   basename_concentration: 1.0000
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 19
+    pushes: 20
     distinct_repos: 2
-    pushes_per_repo: 9.5000
+    pushes_per_repo: 10.0000
     active_days: 7
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 59
+    pushes: 60
     distinct_repos: 2
-    pushes_per_repo: 29.5000
-    active_days: 21
+    pushes_per_repo: 30.0000
+    active_days: 22
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 259
+    pushes: 258
     distinct_repos: 2
-    pushes_per_repo: 129.5000
-    active_days: 67
+    pushes_per_repo: 129.0000
+    active_days: 68
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 67 active days in 90d — pass"
+  - "activity: 68 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "background-agents"
@@ -85,59 +85,59 @@ repos:
       - "background-agents"
       - "cloud-agents"
       - "software-factory"
-    stars_fact: 3269
+    stars_fact: 3300
     first_seen: "2026-07-13T06:00:03.585427+00:00"
-    last_push: "2026-09-23"
+    last_push: "2026-10-01"
   - name: "claude-code-otel"
     title: "claude-code-otel"
     description: "A comprehensive observability solution for monitoring Claude Code usage, performance, and costs."
     language: "Makefile"
     topics: []
-    stars_fact: 504
+    stars_fact: 508
     first_seen: null
     last_push: "2025-06-17"
-  - name: "gmail-llm-labeler"
-    title: "gmail-llm-labeler"
-    description: "An application for labeling Gmail emails with an LLM"
+  - name: "medium-facenet-tutorial"
+    title: "medium-facenet-tutorial"
+    description: "Facial Recognition Pipeline using Dlib and Tensorflow"
     language: "Python"
     topics:
-      - "gmail"
-      - "llm"
-    stars_fact: 14
+      - "dlib"
+      - "docker"
+      - "facial-recognition"
+      - "python3"
+      - "tensorflow"
+      - "tensorflow-tutorials"
+    stars_fact: 218
     first_seen: null
-    last_push: "2025-10-10"
-  - name: "moondream-mcp"
-    title: "moondream-mcp"
-    description: "Moondream MCP Server in Python"
-    language: "Python"
-    topics:
-      - "mcp"
-      - "mcp-server"
-      - "moondream"
-      - "python"
-    stars_fact: 47
-    first_seen: null
-    last_push: "2025-07-02"
-  - name: "test-pr-repo"
-    title: "test-pr-repo"
-    description: null
-    language: "Shell"
+    last_push: "2023-03-24"
+  - name: "DataLayerSyncSample"
+    title: "DataLayerSyncSample"
+    description: "This project demonstrates how to send a message using the MessageAPI from the wearable to the handheld. Once the handheld receives the command, it will send over data to the wearable. This sample can be modified easily to allow for data sync between devices"
+    language: "Java"
     topics: []
-    stars_fact: 0
+    stars_fact: 1
     first_seen: null
-    last_push: "2026-09-16"
-  - name: "aws-athena-mcp"
-    title: "aws-athena-mcp"
-    description: "AWS Athena MCP using FastMCP"
+    last_push: "2015-02-17"
+  - name: "chrome-llm-summarizer"
+    title: "chrome-llm-summarizer"
+    description: "Summarize highlighted text with LLMs in chrome right click menu"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 5
+    first_seen: null
+    last_push: "2024-08-19"
+  - name: "auth0-fastapi-example"
+    title: "auth0-fastapi-example"
+    description: "Auth0 FastApi Example Implementation"
     language: "Python"
     topics: []
-    stars_fact: 23
+    stars_fact: 2
     first_seen: null
-    last_push: "2026-09-21"
+    last_push: "2025-09-05"
 ---
 
 # ColeMurray
 
-259 pushes across 2 repositories on 67 active days in the last 90 days of public GitHub push activity.
+258 pushes across 2 repositories on 68 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ColeMurray

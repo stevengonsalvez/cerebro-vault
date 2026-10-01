@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [1, 7, 3, 1, 12, 13, 2, 6, 6, 4, 9, 26, 13]
+pushes_per_week: [2, 5, 3, 1, 12, 13, 2, 6, 6, 4, 18, 18, 12]
 windows:
   "7d":
-    pushes: 14
+    pushes: 13
     distinct_repos: 5
-    active_days: 6
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 103
+    pushes: 102
     distinct_repos: 7
-    active_days: 42
+    active_days: 41
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.4524
-  repo_per_active_day: 0.1667
+  push_per_day: 2.4878
+  repo_per_active_day: 0.1707
   not_owned_ratio: 0.0000
   basename_concentration: 0.1429
   shapes: []
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 14
+    pushes: 13
     distinct_repos: 5
-    pushes_per_repo: 2.8000
-    active_days: 6
+    pushes_per_repo: 2.6000
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 103
+    pushes: 102
     distinct_repos: 7
-    pushes_per_repo: 14.7143
-    active_days: 42
+    pushes_per_repo: 14.5714
+    active_days: 41
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 42 active days in 90d — pass"
+  - "activity: 41 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "opendum"
@@ -143,6 +143,6 @@ repos:
 
 # sachnun
 
-103 pushes across 7 repositories on 42 active days in the last 90 days of public GitHub push activity.
+102 pushes across 7 repositories on 41 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/sachnun

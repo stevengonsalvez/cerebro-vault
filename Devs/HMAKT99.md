@@ -10,11 +10,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "73468cde177ddae6"
   - "dae9f02535f7c22f"
-pushes_per_week: [11, 4, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [8, 3, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -31,18 +31,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 17
-    distinct_repos: 6
-    active_days: 8
+    pushes: 13
+    distinct_repos: 5
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.1250
-  repo_per_active_day: 0.7500
+  push_per_day: 1.8571
+  repo_per_active_day: 0.7143
   not_owned_ratio: 0.0000
-  basename_concentration: 0.1667
+  basename_concentration: 0.2000
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -67,69 +67,18 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 17
-    distinct_repos: 6
-    pushes_per_repo: 2.8333
-    active_days: 8
+    pushes: 13
+    distinct_repos: 5
+    pushes_per_repo: 2.6000
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 8 active days in 90d — pass"
+  - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "UnTouchID"
-    title: "UnTouchID"
-    description: "Use your phone's Face ID or fingerprint to approve sudo and unlock your Mac. QR pairing, encrypted BLE, Secure Enclave signing — keys never leave your phone. Works with iPhone, Android, Apple Watch, Wear OS, or any browser. No $199 Magic Keyboard needed."
-    language: "Swift"
-    topics:
-      - "android"
-      - "biometrics"
-      - "bluetooth-low-energy"
-      - "face-id"
-      - "homebrew"
-      - "ios"
-      - "kotlin"
-      - "mac-mini"
-      - "macbook"
-      - "macos"
-      - "open-source"
-      - "pam"
-      - "secure-enclave"
-      - "security"
-      - "sudo"
-      - "swift"
-      - "touch-id"
-      - "watchos"
-      - "wear-os"
-    stars_fact: 307
-    first_seen: null
-    last_push: "2026-08-05"
-  - name: "OpenHearing"
-    title: "OpenHearing"
-    description: "Free, open-source hearing assistance for Android — take a hearing check (or enter professional results), build a per-ear sound profile, and amplify speech in real time through any earbuds. Presets, profiles, experimental media EQ. Fully offline: no accounts, ads, or trackers. Not a medical device. Alpha APK on Releases."
-    language: "Kotlin"
-    topics:
-      - "a11y"
-      - "accessibility"
-      - "airpods"
-      - "android"
-      - "audio"
-      - "audiology"
-      - "dsp"
-      - "foss"
-      - "hearing-aid"
-      - "hearing-assistance"
-      - "hearing-test"
-      - "jetpack-compose"
-      - "kotlin"
-      - "material3"
-      - "privacy"
-      - "sound-amplifier"
-    stars_fact: 16
-    first_seen: null
-    last_push: "2026-07-09"
   - name: "AKF"
     title: "AKF"
     description: "Trust metadata for AI agents — a stamp costs ~15 tokens, re-verifying costs 15,000. Agents stamp what they verify; the next agent runs 'akf check' and builds on it. pip install akf"
@@ -158,6 +107,57 @@ repos:
     stars_fact: 16
     first_seen: null
     last_push: "2026-08-02"
+  - name: "UnTouchID"
+    title: "UnTouchID"
+    description: "Use your phone's Face ID or fingerprint to approve sudo and unlock your Mac. QR pairing, encrypted BLE, Secure Enclave signing — keys never leave your phone. Works with iPhone, Android, Apple Watch, Wear OS, or any browser. No $199 Magic Keyboard needed."
+    language: "Swift"
+    topics:
+      - "android"
+      - "biometrics"
+      - "bluetooth-low-energy"
+      - "face-id"
+      - "homebrew"
+      - "ios"
+      - "kotlin"
+      - "mac-mini"
+      - "macbook"
+      - "macos"
+      - "open-source"
+      - "pam"
+      - "secure-enclave"
+      - "security"
+      - "sudo"
+      - "swift"
+      - "touch-id"
+      - "watchos"
+      - "wear-os"
+    stars_fact: 316
+    first_seen: null
+    last_push: "2026-08-05"
+  - name: "OpenHearing"
+    title: "OpenHearing"
+    description: "Free, open-source hearing assistance for Android — take a hearing check (or enter professional results), build a per-ear sound profile, and amplify speech in real time through any earbuds. Presets, profiles, experimental media EQ. Fully offline: no accounts, ads, or trackers. Not a medical device. Alpha APK on Releases."
+    language: "Kotlin"
+    topics:
+      - "a11y"
+      - "accessibility"
+      - "airpods"
+      - "android"
+      - "audio"
+      - "audiology"
+      - "dsp"
+      - "foss"
+      - "hearing-aid"
+      - "hearing-assistance"
+      - "hearing-test"
+      - "jetpack-compose"
+      - "kotlin"
+      - "material3"
+      - "privacy"
+      - "sound-amplifier"
+    stars_fact: 18
+    first_seen: null
+    last_push: "2026-07-09"
   - name: "gh-akf"
     title: "gh-akf"
     description: "GitHub CLI extension for AKF — The AI Native File Format. EXIF for AI."
@@ -203,6 +203,6 @@ repos:
 
 # HMAKT99
 
-17 pushes across 6 repositories on 8 active days in the last 90 days of public GitHub push activity.
+13 pushes across 5 repositories on 7 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/HMAKT99

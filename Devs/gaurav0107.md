@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "edb3a626875732de"
-pushes_per_week: [28, 10, 0, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [21, 8, 1, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 42
-    distinct_repos: 22
-    active_days: 13
+    pushes: 33
+    distinct_repos: 17
+    active_days: 12
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 3.2308
-  repo_per_active_day: 1.6923
-  not_owned_ratio: 0.0909
-  basename_concentration: 0.0455
+  push_per_day: 2.7500
+  repo_per_active_day: 1.4167
+  not_owned_ratio: 0.1176
+  basename_concentration: 0.0588
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 42
-    distinct_repos: 22
-    pushes_per_repo: 1.9091
-    active_days: 13
+    pushes: 33
+    distinct_repos: 17
+    pushes_per_repo: 1.9412
+    active_days: 12
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 13 active days in 90d — pass"
+  - "activity: 12 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "gaurav0107"
@@ -84,7 +84,7 @@ repos:
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-09-23"
+    last_push: "2026-09-30"
   - name: "rubric"
     title: "rubric"
     description: "Prompt Finetuning framework"
@@ -149,6 +149,6 @@ repos:
 
 # gaurav0107
 
-42 pushes across 22 repositories on 13 active days in the last 90 days of public GitHub push activity.
+33 pushes across 17 repositories on 12 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/gaurav0107

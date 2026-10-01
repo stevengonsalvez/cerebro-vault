@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "73468cde177ddae6"
-pushes_per_week: [2, 5, 3, 1, 1, 0, 0, 1, 0, 0, 0, 1, 0]
+pushes_per_week: [0, 7, 1, 1, 1, 0, 0, 1, 0, 0, 0, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 14
-    distinct_repos: 5
-    active_days: 9
+    pushes: 12
+    distinct_repos: 4
+    active_days: 8
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.5556
-  repo_per_active_day: 0.5556
+  push_per_day: 1.5000
+  repo_per_active_day: 0.5000
   not_owned_ratio: 0.0000
-  basename_concentration: 0.2000
+  basename_concentration: 0.2500
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,34 +65,44 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 14
-    distinct_repos: 5
-    pushes_per_repo: 2.8000
-    active_days: 9
+    pushes: 12
+    distinct_repos: 4
+    pushes_per_repo: 3.0000
+    active_days: 8
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 9 active days in 90d — pass"
+  - "activity: 8 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "serena-shared-bridge"
-    title: "serena-shared-bridge"
-    description: "One shared serena language server per project, shared across all your agents instead of one-per-agent — with an idle/orphan reaper and serena-free worktree/$HOME handling. Drop-in for Claude Code (Linux + systemd)."
-    language: "Shell"
+  - name: "zernio-mcp"
+    title: "zernio-mcp"
+    description: "Model Context Protocol (MCP) server that gives Claude full access to the Zernio social media management API — 273 tools covering posts, analytics, inbox, ads, contacts, WhatsApp Business, and more across 14+ platforms."
+    language: "TypeScript"
     topics:
-      - "ai-agents"
-      - "claude-code"
-      - "language-server"
-      - "lsp"
+      - "ai"
+      - "anthropic"
+      - "claude"
+      - "facebook"
+      - "instagram"
+      - "linkedin"
+      - "llm"
+      - "marketing-automation"
       - "mcp"
+      - "mcp-server"
       - "model-context-protocol"
-      - "rust-analyzer"
-      - "serena"
-    stars_fact: 0
+      - "social-media"
+      - "social-media-management"
+      - "tiktok"
+      - "twitter"
+      - "typescript"
+      - "whatsapp-business"
+      - "zernio"
+    stars_fact: 8
     first_seen: null
-    last_push: "2026-09-23"
+    last_push: "2026-06-10"
   - name: "hyperpanes"
     title: "hyperpanes"
     description: "A native, cross-platform tiling terminal workspace for AI agents — real native terminals (ConPTY / Unix PTYs) in named, color-framed panes you can tear into windows, with idle-agent glow and an opt-in MCP control plane. Built in Rust + Slint; Windows, Linux & macOS."
@@ -133,7 +143,23 @@ repos:
       - "task-manager"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-22"
+    last_push: "2026-09-23"
+  - name: "serena-shared-bridge"
+    title: "serena-shared-bridge"
+    description: "One shared serena language server per project, shared across all your agents instead of one-per-agent — with an idle/orphan reaper and serena-free worktree/$HOME handling. Drop-in for Claude Code (Linux + systemd)."
+    language: "Shell"
+    topics:
+      - "ai-agents"
+      - "claude-code"
+      - "language-server"
+      - "lsp"
+      - "mcp"
+      - "model-context-protocol"
+      - "rust-analyzer"
+      - "serena"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-23"
   - name: "dsh-claude-cli-provider"
     title: "dsh-claude-cli-provider"
     description: "Claude via the local claude CLI as a DeepSeek Harness LLM provider — subscription OAuth, no Anthropic API key."
@@ -168,18 +194,10 @@ repos:
     stars_fact: 5
     first_seen: null
     last_push: "2026-05-03"
-  - name: "dsh-mcp-bridge"
-    title: "dsh-mcp-bridge"
-    description: "Exposes a DeepSeek Harness deployment — memory, task ledger, agent dispatch, MCP estate — to any MCP client as declared tools."
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-27"
 ---
 
 # Eyalm321
 
-14 pushes across 5 repositories on 9 active days in the last 90 days of public GitHub push activity.
+12 pushes across 4 repositories on 8 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Eyalm321

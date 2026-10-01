@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "0b22ca37fd3884c9"
-pushes_per_week: [6, 4, 1, 3, 19, 4, 11, 3, 1, 2, 1, 8, 51]
+pushes_per_week: [5, 4, 1, 3, 20, 3, 11, 3, 1, 2, 2, 7, 82]
 windows:
   "7d":
-    pushes: 52
+    pushes: 82
     distinct_repos: 13
     active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 62
-    distinct_repos: 21
-    active_days: 15
+    pushes: 93
+    distinct_repos: 22
+    active_days: 16
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 114
-    distinct_repos: 30
+    pushes: 144
+    distinct_repos: 31
     active_days: 38
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 3.0000
-  repo_per_active_day: 0.7895
-  not_owned_ratio: 0.0667
-  basename_concentration: 0.0333
+  push_per_day: 3.7895
+  repo_per_active_day: 0.8158
+  not_owned_ratio: 0.0645
+  basename_concentration: 0.0323
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 52
+    pushes: 82
     distinct_repos: 13
-    pushes_per_repo: 4.0000
+    pushes_per_repo: 6.3077
     active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 62
-    distinct_repos: 21
-    pushes_per_repo: 2.9524
-    active_days: 15
+    pushes: 93
+    distinct_repos: 22
+    pushes_per_repo: 4.2273
+    active_days: 16
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 114
-    distinct_repos: 30
-    pushes_per_repo: 3.8000
+    pushes: 144
+    distinct_repos: 31
+    pushes_per_repo: 4.6452
     active_days: 38
     repos_not_owned: 2
     not_owned_basenames: 2
@@ -139,6 +139,6 @@ repos:
 
 # shoemoney
 
-114 pushes across 30 repositories on 38 active days in the last 90 days of public GitHub push activity.
+144 pushes across 31 repositories on 38 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/shoemoney

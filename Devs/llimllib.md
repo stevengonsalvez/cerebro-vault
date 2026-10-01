@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "1be978947e68d1f2"
   - "98a2deac3e2f9725"
@@ -86,7 +86,23 @@ repos:
     topics: []
     stars_fact: 11
     first_seen: null
-    last_push: "2026-09-23"
+    last_push: "2026-10-01"
+  - name: "personal_code"
+    title: "personal_code"
+    description: "random code that I have lying around"
+    language: "HTML"
+    topics: []
+    stars_fact: 52
+    first_seen: null
+    last_push: "2026-09-30"
+  - name: "flightguide"
+    title: "flightguide"
+    description: null
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-30"
   - name: "spireweb"
     title: "spireweb"
     description: null
@@ -94,7 +110,15 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-22"
+    last_push: "2026-09-29"
+  - name: "obsidian_notes"
+    title: "obsidian_notes"
+    description: "Code to turn my obsidian folder into notes.billmill.org"
+    language: "Python"
+    topics: []
+    stars_fact: 49
+    first_seen: null
+    last_push: "2026-09-28"
   - name: "obsidian-archive"
     title: "obsidian-archive"
     description: null
@@ -102,37 +126,7 @@ repos:
     topics: []
     stars_fact: 2
     first_seen: null
-    last_push: "2026-09-22"
-  - name: "homebrew-tap"
-    title: "homebrew-tap"
-    description: null
-    language: "Ruby"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-21"
-  - name: "bloomfilter-tutorial"
-    title: "bloomfilter-tutorial"
-    description: "A Bloom Filter Tutorial"
-    language: "HTML"
-    topics:
-      - "bloomfilter"
-      - "javascript"
-      - "tutorial"
-    stars_fact: 695
-    first_seen: null
-    last_push: "2024-10-09"
-  - name: "pymag-trees"
-    title: "pymag-trees"
-    description: "Code from the article \"Drawing Good-looking Trees\" in Python Magazine"
-    language: "Python"
-    topics:
-      - "graphics"
-      - "python"
-      - "trees"
-    stars_fact: 196
-    first_seen: null
-    last_push: "2024-05-28"
+    last_push: "2026-09-26"
 ---
 
 # llimllib

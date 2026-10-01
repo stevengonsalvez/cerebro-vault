@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [5, 0, 0, 0, 3, 1, 0, 0, 0, 1, 1, 1, 1]
+pushes_per_week: [5, 0, 0, 1, 2, 1, 0, 0, 0, 1, 2, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -77,6 +77,30 @@ reasons:
   - "activity: 11 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "Wox.Plugin.Random"
+    title: "Wox.Plugin.Random"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-30"
+  - name: "Wox.Plugin.QRCode"
+    title: "Wox.Plugin.QRCode"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-30"
+  - name: "Wox.Plugin.Todo"
+    title: "Wox.Plugin.Todo"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-28"
   - name: "Wox.Plugin.BlankScreen"
     title: "Wox.Plugin.BlankScreen"
     description: null
@@ -84,7 +108,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-12"
+    last_push: "2026-09-26"
   - name: "pi-key-remover"
     title: "pi-key-remover"
     description: null
@@ -93,22 +117,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-09-06"
-  - name: "Wox.Plugin.QRCode"
-    title: "Wox.Plugin.QRCode"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-21"
-  - name: "Wox.Plugin.Todo"
-    title: "Wox.Plugin.Todo"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-16"
   - name: "qwqnt-direct-jump"
     title: "qwqnt-direct-jump"
     description: "QwQNT 插件 - 功能移植自LiteLoaderQQNT-Directly-Jump"
@@ -118,14 +126,6 @@ repos:
     stars_fact: 2
     first_seen: null
     last_push: "2026-03-06"
-  - name: "MistakeCollection"
-    title: "MistakeCollection"
-    description: null
-    language: "Dart"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2025-07-01"
 ---
 
 # Flartiny

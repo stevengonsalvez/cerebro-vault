@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "46f3c1d6124190bd"
-pushes_per_week: [13, 10, 4, 6, 1, 3, 1, 4, 0, 0, 21, 25, 9]
+pushes_per_week: [16, 8, 1, 6, 1, 4, 0, 4, 0, 0, 23, 24, 8]
 windows:
   "7d":
     pushes: 9
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 6
     not_owned_owners: 2
   "90d":
-    pushes: 97
+    pushes: 95
     distinct_repos: 26
-    active_days: 35
+    active_days: 34
     repos_not_owned: 13
     not_owned_basenames: 13
     not_owned_owners: 4
 automation:
   state: "clear"
-  push_per_day: 2.7714
-  repo_per_active_day: 0.7429
+  push_per_day: 2.7941
+  repo_per_active_day: 0.7647
   not_owned_ratio: 0.5000
   basename_concentration: 0.0385
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 6
     not_owned_owners: 2
   "90d":
-    pushes: 97
+    pushes: 95
     distinct_repos: 26
-    pushes_per_repo: 3.7308
-    active_days: 35
+    pushes_per_repo: 3.6538
+    active_days: 34
     repos_not_owned: 13
     not_owned_basenames: 13
     not_owned_owners: 4
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 35 active days in 90d — pass"
+  - "activity: 34 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "daybreak"
@@ -139,6 +139,6 @@ repos:
 
 # webdevtodayjason
 
-97 pushes across 26 repositories on 35 active days in the last 90 days of public GitHub push activity.
+95 pushes across 26 repositories on 34 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/webdevtodayjason

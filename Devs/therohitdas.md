@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-29T06:07:44.400276+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "3cb7ff1cdcf97c6b"
-pushes_per_week: [8, 0, 0, 1, 0, 2, 0, 4, 0, 0, 0, 2, 0]
+pushes_per_week: [5, 0, 0, 1, 1, 1, 0, 4, 0, 0, 0, 2, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 17
-    distinct_repos: 10
-    active_days: 9
-    repos_not_owned: 7
-    not_owned_basenames: 7
+    pushes: 14
+    distinct_repos: 8
+    active_days: 8
+    repos_not_owned: 6
+    not_owned_basenames: 6
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.8889
-  repo_per_active_day: 1.1111
-  not_owned_ratio: 0.7000
-  basename_concentration: 0.1000
+  push_per_day: 1.7500
+  repo_per_active_day: 1.0000
+  not_owned_ratio: 0.7500
+  basename_concentration: 0.1250
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 17
-    distinct_repos: 10
-    pushes_per_repo: 1.7000
-    active_days: 9
-    repos_not_owned: 7
-    not_owned_basenames: 7
+    pushes: 14
+    distinct_repos: 8
+    pushes_per_repo: 1.7500
+    active_days: 8
+    repos_not_owned: 6
+    not_owned_basenames: 6
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 9 active days in 90d — pass"
+  - "activity: 8 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "ScreenFocus"
@@ -148,6 +148,6 @@ repos:
 
 # therohitdas
 
-17 pushes across 10 repositories on 9 active days in the last 90 days of public GitHub push activity.
+14 pushes across 8 repositories on 8 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/therohitdas

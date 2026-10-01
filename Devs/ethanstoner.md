@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "97c4e9cb8b163ddb"
   - "c7515e0fa4368a55"
@@ -80,41 +80,50 @@ reasons:
   - "activity: 10 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "heart-disease-audit"
-    title: "heart-disease-audit"
-    description: "Reproducibility audit of a widely used heart-disease ML dataset: data provenance, leakage, split variance, site-aware validation and calibration."
-    language: "Jupyter Notebook"
-    topics:
-      - "cross-validation"
-      - "data-leakage"
-      - "data-provenance"
-      - "data-science"
-      - "machine-learning"
-      - "model-evaluation"
-      - "python"
-      - "reproducibility"
-      - "scikit-learn"
-      - "statistics"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-23"
-  - name: "local-llm-lab"
-    title: "local-llm-lab"
-    description: "Measuring, speeding up and taking apart a 7B LLM on one RTX 4090: roofline analysis, a 1.57x faster decode path, and a causal test of the refusal direction."
+  - name: "ethanstoner"
+    title: "ethanstoner"
+    description: "My GitHub profile README"
     language: "Python"
     topics:
-      - "benchmarking"
-      - "cuda"
-      - "gpu"
-      - "llm"
-      - "mechanistic-interpretability"
-      - "pytorch"
-      - "quantization"
-      - "roofline"
-      - "transformers"
+      - "github-profile"
+      - "profile-readme"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-22"
+    last_push: "2026-09-28"
+  - name: "strata"
+    title: "strata"
+    description: "Zero-setup DICOM viewer: point one binary at a folder of CT/MRI files and view them in the browser, in 2D and GPU-raymarched 3D. Rust + WebGL2."
+    language: "Rust"
+    topics:
+      - "ct-scan"
+      - "dicom"
+      - "medical-imaging"
+      - "radiology"
+      - "raymarching"
+      - "rust"
+      - "volume-rendering"
+      - "webgl2"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-28"
+  - name: "3d-generator"
+    title: "3d-generator"
+    description: "Local-GPU image-to-3D web app. FastAPI + ComfyUI + Hunyuan3D 2.1. Async queue, live progress, GPU status, persistent history."
+    language: "Python"
+    topics:
+      - "3d-generation"
+      - "comfyui"
+      - "fastapi"
+      - "generative-ai"
+      - "gpu"
+      - "hunyuan3d"
+      - "image-to-3d"
+      - "local-ai"
+      - "python"
+      - "web-app"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-28"
   - name: "universe-simulator-cpp"
     title: "universe-simulator-cpp"
     description: "Universe simulator in C++20 and OpenGL: Newtonian N-body gravity with real solar-system data, a spacetime-curvature visualisation, and live energy and momentum diagnostics."
@@ -132,60 +141,23 @@ repos:
       - "simulation"
     stars_fact: 1
     first_seen: null
-    last_push: "2026-09-12"
-  - name: "strata"
-    title: "strata"
-    description: "Zero-setup DICOM viewer: point one binary at a folder of CT/MRI files and view them in the browser, in 2D and GPU-raymarched 3D. Rust + WebGL2."
-    language: "Rust"
-    topics:
-      - "ct-scan"
-      - "dicom"
-      - "medical-imaging"
-      - "radiology"
-      - "raymarching"
-      - "rust"
-      - "volume-rendering"
-      - "webgl2"
+    last_push: "2026-09-28"
+  - name: "virtual-world"
+    title: "virtual-world"
+    description: "Track editor for NeuroRacer: draw a track, check it against the trainer's own measurements, export it"
+    language: "TypeScript"
+    topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-18"
-  - name: "Hunyuan3D-2.1-Complete-Install-Guide"
-    title: "Hunyuan3D-2.1-Complete-Install-Guide"
-    description: "A comprehensive step-by-step installation guide for Hunyuan3D-2.1 with ComfyUI on Windows"
-    language: "PowerShell"
-    topics:
-      - "3d-generation"
-      - "ai-3d"
-      - "comfyui"
-      - "generative-ai"
-      - "hunyuan3d"
-      - "hunyuan3d-2-1"
-      - "image-to-3d"
-      - "installation-guide"
-      - "local-ai"
-      - "text-to-3d"
-      - "tutorial"
-      - "windows"
-    stars_fact: 13
-    first_seen: null
-    last_push: "2026-09-12"
-  - name: "aibackflip"
-    title: "aibackflip"
-    description: "A humanoid that learns to backflip. Custom 2D rigid-body physics engine in C++, PPO written from scratch in PyTorch, DeepMimic-style imitation learning."
-    language: "C++"
-    topics:
-      - "character-animation"
-      - "cpp"
-      - "deepmimic"
-      - "imitation-learning"
-      - "physics-engine"
-      - "ppo"
-      - "pytorch"
-      - "reinforcement-learning"
-      - "robotics"
+    last_push: "2026-09-28"
+  - name: "neuro-racer"
+    title: "neuro-racer"
+    description: "Cars that teach themselves to race, with the neural network drawn live as generations improve"
+    language: "Python"
+    topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-10"
+    last_push: "2026-09-28"
 ---
 
 # ethanstoner

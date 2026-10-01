@@ -9,13 +9,13 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "97c4e9cb8b163ddb"
   - "c7515e0fa4368a55"
   - "d3abe74726b22711"
   - "e7c647c4d0689526"
-pushes_per_week: [0, 0, 0, 1, 0, 0, 1, 4, 1, 0, 2, 2, 0]
+pushes_per_week: [0, 0, 1, 0, 0, 0, 1, 4, 1, 0, 2, 2, 0]
 windows:
   "7d":
     pushes: 0
@@ -80,6 +80,14 @@ reasons:
   - "activity: 9 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "mameikagou"
+    title: "mameikagou"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-30"
   - name: "skill-forge"
     title: "skill-forge"
     description: "use opus as your brain，and use minimax as your cheap hands。"
@@ -88,22 +96,6 @@ repos:
     stars_fact: 4
     first_seen: null
     last_push: "2026-09-23"
-  - name: "mameikagou"
-    title: "mameikagou"
-    description: null
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-22"
-  - name: "mocklane"
-    title: "mocklane"
-    description: "AI-first browser API mocking with switchable scenarios"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 4
-    first_seen: null
-    last_push: "2026-09-07"
   - name: "code-name-three"
     title: "code-name-three"
     description: null

@@ -10,7 +10,7 @@ provenance_repos:
 admitted: true
 low_n: true
 repos_populated: true
-generated_at: "2026-09-28T06:07:44.182865+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "122530937a82ec1d"
 pushes_per_week: [0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0]
@@ -83,17 +83,9 @@ repos:
     description: "Codex 橙皮书：从安装到实战案例的全链路 Codex 使用指南（非官方开源，含可下载 PDF）"
     language: "HTML"
     topics: []
-    stars_fact: 3385
+    stars_fact: 3396
     first_seen: "2026-06-26T06:00:06.940894+00:00"
     last_push: "2026-08-14"
-  - name: "anthropic-mind"
-    title: "anthropic-mind"
-    description: "Anthropic Mind — a Claude Agent Skill distilled from 428 primary Anthropic sources, shipped with the full corpus and distillation artifacts."
-    language: null
-    topics: []
-    stars_fact: 9
-    first_seen: null
-    last_push: "2026-08-17"
   - name: "video-skills-toolkit"
     title: "video-skills-toolkit"
     description: "Video skills toolkit for Remotion talking-head, sketch story, and audio-to-subtitles workflows."
@@ -104,9 +96,25 @@ repos:
       - "subtitles"
       - "tts"
       - "video"
-    stars_fact: 148
+    stars_fact: 149
     first_seen: null
     last_push: "2026-07-27"
+  - name: "bozhou-skills"
+    title: "bozhou-skills"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 79
+    first_seen: null
+    last_push: "2026-05-31"
+  - name: "anthropic-mind"
+    title: "anthropic-mind"
+    description: "Anthropic Mind — a Claude Agent Skill distilled from 428 primary Anthropic sources, shipped with the full corpus and distillation artifacts."
+    language: null
+    topics: []
+    stars_fact: 9
+    first_seen: null
+    last_push: "2026-08-17"
   - name: "tianji"
     title: "tianji"
     description: null
@@ -115,14 +123,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-09-22"
-  - name: "bozhou-skills"
-    title: "bozhou-skills"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 78
-    first_seen: null
-    last_push: "2026-05-31"
   - name: "x-growth-handbook"
     title: "x-growth-handbook"
     description: "X（Twitter）账号从注册、定位、冷启动到互动增长的操作手册"

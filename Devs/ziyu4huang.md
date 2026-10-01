@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "6d3bd03b49986330"
-pushes_per_week: [87, 73, 66, 37, 23, 37, 39, 22, 3, 1, 1, 0, 0]
+pushes_per_week: [85, 73, 62, 39, 19, 39, 35, 22, 3, 2, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 4
+    pushes: 2
     distinct_repos: 1
-    active_days: 3
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 389
+    pushes: 379
     distinct_repos: 2
-    active_days: 55
+    active_days: 54
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 7.0727
-  repo_per_active_day: 0.0364
+  push_per_day: 7.0185
+  repo_per_active_day: 0.0370
   not_owned_ratio: 0.0000
   basename_concentration: 0.5000
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 4
+    pushes: 2
     distinct_repos: 1
-    pushes_per_repo: 4.0000
-    active_days: 3
+    pushes_per_repo: 2.0000
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 389
+    pushes: 379
     distinct_repos: 2
-    pushes_per_repo: 194.5000
-    active_days: 55
+    pushes_per_repo: 189.5000
+    active_days: 54
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 55 active days in 90d — pass"
+  - "activity: 54 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "video_generation"
@@ -129,6 +129,6 @@ repos:
 
 # ziyu4huang
 
-389 pushes across 2 repositories on 55 active days in the last 90 days of public GitHub push activity.
+379 pushes across 2 repositories on 54 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ziyu4huang

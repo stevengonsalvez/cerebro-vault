@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [13, 18, 6, 1, 1, 1, 1, 2, 0, 0, 0, 1, 3]
+pushes_per_week: [14, 18, 5, 1, 1, 1, 1, 2, 0, 0, 0, 2, 2]
 windows:
   "7d":
-    pushes: 3
+    pushes: 2
     distinct_repos: 1
-    active_days: 3
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 3
+    pushes: 2
     distinct_repos: 1
-    pushes_per_repo: 3.0000
-    active_days: 3
+    pushes_per_repo: 2.0000
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -77,6 +77,22 @@ reasons:
   - "activity: 22 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "nix-config"
+    title: "nix-config"
+    description: "laptops & servers & dev environments, oh my!"
+    language: "Nix"
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-10-01"
+  - name: "persistence"
+    title: "persistence"
+    description: "Flake-parts module set for managing impermanence"
+    language: "Nix"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-06-22"
   - name: "protean"
     title: "protean"
     description: "https://blog.janestreet.com/protocol-emulator-asic-competition"
@@ -85,14 +101,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-09-21"
-  - name: "nix-config"
-    title: "nix-config"
-    description: "laptops & servers & dev environments, oh my!"
-    language: "Nix"
-    topics: []
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-09-23"
   - name: "ComputerNetworking_TAMU"
     title: "ComputerNetworking_TAMU"
     description: "Echo, Chat Service, TFTP, and HTTP servers and clients"
@@ -117,14 +125,6 @@ repos:
     stars_fact: 1
     first_seen: null
     last_push: "2026-07-23"
-  - name: "eater-fpga"
-    title: "eater-fpga"
-    description: null
-    language: "Tcl"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-06-24"
 ---
 
 # gigamonster256

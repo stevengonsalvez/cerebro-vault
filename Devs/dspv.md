@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "73468cde177ddae6"
-pushes_per_week: [0, 1, 0, 0, 0, 0, 1, 10, 0, 4, 5, 3, 2]
+pushes_per_week: [0, 1, 0, 0, 0, 0, 3, 8, 0, 4, 5, 5, 2]
 windows:
   "7d":
     pushes: 4
     distinct_repos: 2
     active_days: 2
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
-    pushes: 14
+    pushes: 16
     distinct_repos: 6
-    active_days: 7
+    active_days: 8
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 26
+    pushes: 28
     distinct_repos: 7
-    active_days: 15
+    active_days: 16
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.7333
-  repo_per_active_day: 0.4667
+  push_per_day: 1.7500
+  repo_per_active_day: 0.4375
   not_owned_ratio: 0.2857
   basename_concentration: 0.2857
   shapes: []
@@ -53,28 +53,28 @@ facets:
     distinct_repos: 2
     pushes_per_repo: 2.0000
     active_days: 2
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
-    pushes: 14
+    pushes: 16
     distinct_repos: 6
-    pushes_per_repo: 2.3333
-    active_days: 7
+    pushes_per_repo: 2.6667
+    active_days: 8
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 26
+    pushes: 28
     distinct_repos: 7
-    pushes_per_repo: 3.7143
-    active_days: 15
+    pushes_per_repo: 4.0000
+    active_days: 16
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 15 active days in 90d — pass"
+  - "activity: 16 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "caprock"
@@ -98,26 +98,7 @@ repos:
       - "self-hosted"
     stars_fact: 12
     first_seen: null
-    last_push: "2026-09-21"
-  - name: "statebeam-web"
-    title: "statebeam-web"
-    description: "Statebeam — Live Context Layer for AI agents (marketing site)"
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-16"
-  - name: "scoop-bucket"
-    title: "scoop-bucket"
-    description: "Scoop bucket for Caprock — mission control for Claude Code (Windows)"
-    language: null
-    topics:
-      - "caprock"
-      - "claude-code"
-      - "scoop-bucket"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-12"
+    last_push: "2026-10-01"
   - name: "homebrew-tap"
     title: "homebrew-tap"
     description: "Homebrew tap for Caprock — mission control for Claude Code (brew install dspv/tap/caprock)"
@@ -128,7 +109,34 @@ repos:
       - "homebrew-tap"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-12"
+    last_push: "2026-09-30"
+  - name: "scoop-bucket"
+    title: "scoop-bucket"
+    description: "Scoop bucket for Caprock — mission control for Claude Code (Windows)"
+    language: null
+    topics:
+      - "caprock"
+      - "claude-code"
+      - "scoop-bucket"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-30"
+  - name: "dyson-sphere-program-ai-mecha"
+    title: "dyson-sphere-program-ai-mecha"
+    description: "Trying to make AI play DSP (Dyson Sphere Program) for fun"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-24"
+  - name: "statebeam-web"
+    title: "statebeam-web"
+    description: "Statebeam — Live Context Layer for AI agents (marketing site)"
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-16"
   - name: "corpus"
     title: "corpus"
     description: "A documentation system for projects built with AI agents — .ai/ corpus, ADR log, assumption register, table discipline. Clone, drop in your spec, let the agent build it."
@@ -144,18 +152,10 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-08-12"
-  - name: "kit"
-    title: "kit"
-    description: "Start Kit for AI Self Coder - Ready-to-use templates for AI-powered project development"
-    language: "Shell"
-    topics: []
-    stars_fact: 7
-    first_seen: null
-    last_push: "2025-11-16"
 ---
 
 # dspv
 
-26 pushes across 7 repositories on 15 active days in the last 90 days of public GitHub push activity.
+28 pushes across 7 repositories on 16 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/dspv

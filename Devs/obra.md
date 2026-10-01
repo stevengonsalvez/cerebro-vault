@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "8c6014a36ca90e3f"
-pushes_per_week: [9, 15, 3, 9, 18, 32, 23, 35, 8, 40, 106, 268, 352]
+pushes_per_week: [5, 15, 9, 6, 17, 31, 22, 35, 8, 44, 128, 267, 341]
 windows:
   "7d":
-    pushes: 374
+    pushes: 355
     distinct_repos: 9
     active_days: 7
     repos_not_owned: 6
     not_owned_basenames: 6
     not_owned_owners: 2
   "30d":
-    pushes: 768
+    pushes: 781
     distinct_repos: 11
-    active_days: 26
+    active_days: 27
     repos_not_owned: 8
     not_owned_basenames: 8
     not_owned_owners: 2
   "90d":
-    pushes: 918
+    pushes: 928
     distinct_repos: 29
-    active_days: 66
+    active_days: 65
     repos_not_owned: 20
     not_owned_basenames: 20
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 13.9091
-  repo_per_active_day: 0.4394
+  push_per_day: 14.2769
+  repo_per_active_day: 0.4462
   not_owned_ratio: 0.6897
   basename_concentration: 0.0690
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 374
+    pushes: 355
     distinct_repos: 9
-    pushes_per_repo: 41.5556
+    pushes_per_repo: 39.4444
     active_days: 7
     repos_not_owned: 6
     not_owned_basenames: 6
     not_owned_owners: 2
   "30d":
-    pushes: 768
+    pushes: 781
     distinct_repos: 11
-    pushes_per_repo: 69.8182
-    active_days: 26
+    pushes_per_repo: 71.0000
+    active_days: 27
     repos_not_owned: 8
     not_owned_basenames: 8
     not_owned_owners: 2
   "90d":
-    pushes: 918
+    pushes: 928
     distinct_repos: 29
-    pushes_per_repo: 31.6552
-    active_days: 66
+    pushes_per_repo: 32.0000
+    active_days: 65
     repos_not_owned: 20
     not_owned_basenames: 20
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 66 active days in 90d — pass"
+  - "activity: 65 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "superpowers"
@@ -137,6 +137,6 @@ repos:
 
 # obra
 
-918 pushes across 29 repositories on 66 active days in the last 90 days of public GitHub push activity.
+928 pushes across 29 repositories on 65 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/obra

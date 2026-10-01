@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "635453fe3b6ecc12"
-pushes_per_week: [37, 26, 28, 22, 26, 26, 23, 6, 3, 4, 11, 19, 32]
+pushes_per_week: [33, 26, 26, 25, 23, 28, 20, 6, 3, 4, 14, 18, 46]
 windows:
   "7d":
-    pushes: 32
-    distinct_repos: 10
+    pushes: 47
+    distinct_repos: 15
     active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 67
-    distinct_repos: 12
-    active_days: 21
+    pushes: 82
+    distinct_repos: 17
+    active_days: 20
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 263
-    distinct_repos: 24
-    active_days: 71
+    pushes: 272
+    distinct_repos: 27
+    active_days: 70
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 3.7042
-  repo_per_active_day: 0.3380
+  push_per_day: 3.8857
+  repo_per_active_day: 0.3857
   not_owned_ratio: 0.0000
-  basename_concentration: 0.0417
+  basename_concentration: 0.0370
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 32
-    distinct_repos: 10
-    pushes_per_repo: 3.2000
+    pushes: 47
+    distinct_repos: 15
+    pushes_per_repo: 3.1333
     active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 67
-    distinct_repos: 12
-    pushes_per_repo: 5.5833
-    active_days: 21
+    pushes: 82
+    distinct_repos: 17
+    pushes_per_repo: 4.8235
+    active_days: 20
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 263
-    distinct_repos: 24
-    pushes_per_repo: 10.9583
-    active_days: 71
+    pushes: 272
+    distinct_repos: 27
+    pushes_per_repo: 10.0741
+    active_days: 70
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 71 active days in 90d — pass"
+  - "activity: 70 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "the-craft-of-selfteaching"
@@ -135,6 +135,6 @@ repos:
 
 # xiaolai
 
-263 pushes across 24 repositories on 71 active days in the last 90 days of public GitHub push activity.
+272 pushes across 27 repositories on 70 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/xiaolai

@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "c489e6fb5febf2ab"
-pushes_per_week: [5, 5, 1, 1, 1, 5, 1, 0, 0, 1, 0, 1, 3]
+pushes_per_week: [3, 5, 1, 1, 1, 5, 1, 0, 0, 1, 0, 1, 3]
 windows:
   "7d":
-    pushes: 4
-    distinct_repos: 3
-    active_days: 3
+    pushes: 3
+    distinct_repos: 2
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 24
+    pushes: 22
     distinct_repos: 8
-    active_days: 16
+    active_days: 15
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.5000
-  repo_per_active_day: 0.5000
+  push_per_day: 1.4667
+  repo_per_active_day: 0.5333
   not_owned_ratio: 0.0000
   basename_concentration: 0.1250
   shapes: []
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 4
-    distinct_repos: 3
-    pushes_per_repo: 1.3333
-    active_days: 3
+    pushes: 3
+    distinct_repos: 2
+    pushes_per_repo: 1.5000
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 24
+    pushes: 22
     distinct_repos: 8
-    pushes_per_repo: 3.0000
-    active_days: 16
+    pushes_per_repo: 2.7500
+    active_days: 15
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 16 active days in 90d — pass"
+  - "activity: 15 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "agentscope-eval"
@@ -129,6 +129,6 @@ repos:
 
 # iluv7
 
-24 pushes across 8 repositories on 16 active days in the last 90 days of public GitHub push activity.
+22 pushes across 8 repositories on 15 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/iluv7

@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "0dadaefdea9260e5"
-pushes_per_week: [11, 21, 29, 36, 30, 24, 20, 3, 2, 1, 4, 14, 41]
+pushes_per_week: [5, 19, 40, 28, 26, 29, 15, 4, 1, 1, 6, 16, 39]
 windows:
   "7d":
-    pushes: 42
+    pushes: 40
     distinct_repos: 5
     active_days: 7
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 1
   "30d":
-    pushes: 61
+    pushes: 62
     distinct_repos: 8
     active_days: 16
     repos_not_owned: 8
     not_owned_basenames: 8
     not_owned_owners: 1
   "90d":
-    pushes: 236
+    pushes: 229
     distinct_repos: 11
     active_days: 59
     repos_not_owned: 11
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 4.0000
+  push_per_day: 3.8814
   repo_per_active_day: 0.1864
   not_owned_ratio: 1.0000
   basename_concentration: 0.0909
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 42
+    pushes: 40
     distinct_repos: 5
-    pushes_per_repo: 8.4000
+    pushes_per_repo: 8.0000
     active_days: 7
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 1
   "30d":
-    pushes: 61
+    pushes: 62
     distinct_repos: 8
-    pushes_per_repo: 7.6250
+    pushes_per_repo: 7.7500
     active_days: 16
     repos_not_owned: 8
     not_owned_basenames: 8
     not_owned_owners: 1
   "90d":
-    pushes: 236
+    pushes: 229
     distinct_repos: 11
-    pushes_per_repo: 21.4545
+    pushes_per_repo: 20.8182
     active_days: 59
     repos_not_owned: 11
     not_owned_basenames: 11
@@ -82,7 +82,7 @@ repos:
     description: "Generate 3D models with AI"
     language: "TypeScript"
     topics: []
-    stars_fact: 221
+    stars_fact: 226
     first_seen: null
     last_push: "2026-02-05"
   - name: "openui"
@@ -138,6 +138,6 @@ repos:
 
 # ctate
 
-236 pushes across 11 repositories on 59 active days in the last 90 days of public GitHub push activity.
+229 pushes across 11 repositories on 59 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ctate

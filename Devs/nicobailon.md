@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [85, 25, 13, 37, 63, 55, 63, 21, 6, 2, 17, 39, 61]
+pushes_per_week: [36, 27, 14, 43, 63, 78, 33, 22, 3, 6, 13, 40, 66]
 windows:
   "7d":
-    pushes: 65
-    distinct_repos: 18
+    pushes: 67
+    distinct_repos: 16
     active_days: 7
     repos_not_owned: 9
     not_owned_basenames: 5
     not_owned_owners: 8
   "30d":
-    pushes: 119
+    pushes: 125
     distinct_repos: 20
-    active_days: 16
+    active_days: 17
     repos_not_owned: 11
     not_owned_basenames: 6
     not_owned_owners: 10
   "90d":
-    pushes: 487
+    pushes: 444
     distinct_repos: 60
     active_days: 64
     repos_not_owned: 44
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 43
 automation:
   state: "clear"
-  push_per_day: 7.6094
+  push_per_day: 6.9375
   repo_per_active_day: 0.9375
   not_owned_ratio: 0.7333
   basename_concentration: 0.4000
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 65
-    distinct_repos: 18
-    pushes_per_repo: 3.6111
+    pushes: 67
+    distinct_repos: 16
+    pushes_per_repo: 4.1875
     active_days: 7
     repos_not_owned: 9
     not_owned_basenames: 5
     not_owned_owners: 8
   "30d":
-    pushes: 119
+    pushes: 125
     distinct_repos: 20
-    pushes_per_repo: 5.9500
-    active_days: 16
+    pushes_per_repo: 6.2500
+    active_days: 17
     repos_not_owned: 11
     not_owned_basenames: 6
     not_owned_owners: 10
   "90d":
-    pushes: 487
+    pushes: 444
     distinct_repos: 60
-    pushes_per_repo: 8.1167
+    pushes_per_repo: 7.4000
     active_days: 64
     repos_not_owned: 44
     not_owned_basenames: 9
@@ -142,6 +142,6 @@ repos:
 
 # nicobailon
 
-487 pushes across 60 repositories on 64 active days in the last 90 days of public GitHub push activity.
+444 pushes across 60 repositories on 64 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/nicobailon

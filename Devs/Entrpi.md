@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "3eacb4655aba2497"
-pushes_per_week: [22, 14, 14, 3, 2, 2, 0, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [24, 11, 11, 3, 2, 2, 0, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,7 +29,7 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 57
+    pushes: 53
     distinct_repos: 3
     active_days: 21
     repos_not_owned: 0
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.7143
+  push_per_day: 2.5238
   repo_per_active_day: 0.1429
   not_owned_ratio: 0.0000
   basename_concentration: 0.3333
@@ -65,9 +65,9 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 57
+    pushes: 53
     distinct_repos: 3
-    pushes_per_repo: 19.0000
+    pushes_per_repo: 17.6667
     active_days: 21
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -91,7 +91,7 @@ repos:
       - "inference"
       - "llm"
       - "moe"
-    stars_fact: 404
+    stars_fact: 406
     first_seen: null
     last_push: "2026-08-27"
   - name: "eemicrogpt"
@@ -107,9 +107,17 @@ repos:
     description: "GLM-5.3-Flash (EXL3 4bpw + DFlash2) on 2x NVIDIA DGX Spark: one-shot installer, 33-74 tok/s c1, 1.3M+ context, vision"
     language: "Shell"
     topics: []
-    stars_fact: 42
+    stars_fact: 43
     first_seen: null
     last_push: "2026-09-02"
+  - name: "qwen3.5-122B-A10B-on-spark"
+    title: "qwen3.5-122B-A10B-on-spark"
+    description: "Qwen3.5-122B-A10B on a DGX Spark with DFlash speculative decode. One-shot Docker/vLLM installer. 80+ tok/s!"
+    language: "Python"
+    topics: []
+    stars_fact: 59
+    first_seen: null
+    last_push: "2026-06-29"
   - name: "autoresearch-everywhere"
     title: "autoresearch-everywhere"
     description: "Optimized cross-platform expansion of autoresearch."
@@ -118,14 +126,6 @@ repos:
     stars_fact: 18
     first_seen: null
     last_push: "2026-03-23"
-  - name: "qwen3.5-122B-A10B-on-spark"
-    title: "qwen3.5-122B-A10B-on-spark"
-    description: "Qwen3.5-122B-A10B on a DGX Spark with DFlash speculative decode. One-shot Docker/vLLM installer. 80+ tok/s!"
-    language: "Python"
-    topics: []
-    stars_fact: 60
-    first_seen: null
-    last_push: "2026-06-29"
   - name: "dgx-spark-serving-mode"
     title: "dgx-spark-serving-mode"
     description: "Headless / multi-user serving-mode for the DGX Spark: free unified memory for vLLM by paring back the desktop. Companion to qwen3.5-122B-A10B-on-spark."
@@ -138,6 +138,6 @@ repos:
 
 # Entrpi
 
-57 pushes across 3 repositories on 21 active days in the last 90 days of public GitHub push activity.
+53 pushes across 3 repositories on 21 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Entrpi

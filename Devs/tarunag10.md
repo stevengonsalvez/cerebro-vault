@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "0b22ca37fd3884c9"
-pushes_per_week: [119, 5, 1, 0, 0, 2, 0, 18, 0, 0, 0, 0, 10]
+pushes_per_week: [107, 5, 1, 0, 1, 1, 1, 17, 0, 0, 0, 0, 10]
 windows:
   "7d":
     pushes: 10
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 155
+    pushes: 143
     distinct_repos: 16
-    active_days: 16
+    active_days: 15
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 9.6875
-  repo_per_active_day: 1.0000
+  push_per_day: 9.5333
+  repo_per_active_day: 1.0667
   not_owned_ratio: 0.0000
   basename_concentration: 0.0625
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 155
+    pushes: 143
     distinct_repos: 16
-    pushes_per_repo: 9.6875
-    active_days: 16
+    pushes_per_repo: 8.9375
+    active_days: 15
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 16 active days in 90d — pass"
+  - "activity: 15 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "salary-boost-uk-site"
@@ -145,6 +145,6 @@ repos:
 
 # tarunag10
 
-155 pushes across 16 repositories on 16 active days in the last 90 days of public GitHub push activity.
+143 pushes across 16 repositories on 15 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/tarunag10

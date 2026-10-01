@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [8, 14, 4, 8, 5, 10, 22, 3, 0, 6, 7, 4, 4]
+pushes_per_week: [4, 15, 5, 6, 5, 10, 22, 3, 0, 6, 8, 3, 4]
 windows:
   "7d":
     pushes: 4
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 95
+    pushes: 91
     distinct_repos: 3
-    active_days: 38
+    active_days: 37
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.5000
-  repo_per_active_day: 0.0789
+  push_per_day: 2.4595
+  repo_per_active_day: 0.0811
   not_owned_ratio: 0.6667
   basename_concentration: 0.3333
   shapes: []
@@ -65,18 +65,34 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 95
+    pushes: 91
     distinct_repos: 3
-    pushes_per_repo: 31.6667
-    active_days: 38
+    pushes_per_repo: 30.3333
+    active_days: 37
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 38 active days in 90d — pass"
+  - "activity: 37 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "selenium-robots"
+    title: "selenium-robots"
+    description: "Selenium Applications for monitoring robots"
+    language: "HTML"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2024-02-02"
+  - name: "ada-sample-guid"
+    title: "ada-sample-guid"
+    description: "Simple sample to learn ada"
+    language: null
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2024-10-23"
   - name: "memory-rust"
     title: "memory-rust"
     description: "memory-rust"
@@ -109,26 +125,10 @@ repos:
     stars_fact: 1
     first_seen: null
     last_push: "2026-04-13"
-  - name: "odin_breakout_simple_game"
-    title: "odin_breakout_simple_game"
-    description: "Simple breakeout game"
-    language: "Odin"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-01-18"
-  - name: "powershell_nddprint_control"
-    title: "powershell_nddprint_control"
-    description: "nddprint_control"
-    language: "PowerShell"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2024-02-19"
 ---
 
 # FabioLeitao
 
-95 pushes across 3 repositories on 38 active days in the last 90 days of public GitHub push activity.
+91 pushes across 3 repositories on 37 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/FabioLeitao

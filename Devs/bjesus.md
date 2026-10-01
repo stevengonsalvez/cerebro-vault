@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "386c24cf5e18fd90"
-pushes_per_week: [2, 1, 0, 1, 0, 0, 1, 1, 1, 1, 0, 1, 0]
+pushes_per_week: [2, 1, 0, 1, 0, 1, 0, 1, 1, 1, 0, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,12 +22,12 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 3
-    distinct_repos: 3
-    active_days: 3
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 2
+    distinct_repos: 2
+    active_days: 2
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
     pushes: 9
     distinct_repos: 4
@@ -57,13 +57,13 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 3
-    distinct_repos: 3
+    pushes: 2
+    distinct_repos: 2
     pushes_per_repo: 1.0000
-    active_days: 3
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    active_days: 2
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
     pushes: 9
     distinct_repos: 4
@@ -77,14 +77,6 @@ reasons:
   - "activity: 8 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "propeye-ha-integration"
-    title: "propeye-ha-integration"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-23"
   - name: "noctalia-plugins"
     title: "noctalia-plugins"
     description: null
@@ -92,15 +84,34 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-23"
-  - name: "vatette-ha-integration"
-    title: "vatette-ha-integration"
-    description: null
-    language: "Python"
+    last_push: "2026-09-30"
+  - name: "levin"
+    title: "levin"
+    description: "The easiest way to spread human knowledge"
+    language: "C++"
     topics: []
+    stars_fact: 96
+    first_seen: null
+    last_push: "2026-02-26"
+  - name: "begagnad-mcp"
+    title: "begagnad-mcp"
+    description: "An MCP server for Sweden's second hand marketplaces"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 9
+    first_seen: null
+    last_push: "2026-04-02"
+  - name: "tatl"
+    title: "tatl"
+    description: "A tableau-based satisfiability checker for ATL* — Alternating-time Temporal Logic"
+    language: "TypeScript"
+    topics:
+      - "atl"
+      - "logic"
+      - "tableau"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-23"
+    last_push: "2026-09-28"
   - name: "pipet"
     title: "pipet"
     description: "Swiss-army tool for scraping and extracting data from online assets, made for hackers"
@@ -113,25 +124,22 @@ repos:
       - "playwright"
       - "scraper"
       - "scraping"
-    stars_fact: 4771
+    stars_fact: 4769
     first_seen: null
     last_push: "2024-10-12"
-  - name: "openai-ads-managed-component"
-    title: "openai-ads-managed-component"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
+  - name: "wttrbar"
+    title: "wttrbar"
+    description: "Custom module for showing the weather in Waybar, using the great wttr.in"
+    language: "Rust"
+    topics:
+      - "sway"
+      - "waybar"
+      - "wayland"
+      - "weather"
+      - "wttr"
+    stars_fact: 369
     first_seen: null
-    last_push: "2026-09-21"
-  - name: "oauth-hopper"
-    title: "oauth-hopper"
-    description: "Hop over OAuth2 services"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 21
-    first_seen: null
-    last_push: "2022-03-01"
+    last_push: "2026-09-19"
 ---
 
 # bjesus

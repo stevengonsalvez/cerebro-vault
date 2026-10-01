@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "01cd6a498d377caf"
   - "03604cccd7e9402d"
@@ -63,7 +63,7 @@ provenance:
   - "f9a1870648a6375a"
   - "fe9e50bf2d5b21fe"
   - "ff1ca072bf39e471"
-pushes_per_week: [28, 15, 0, 5, 0, 7, 23, 0, 0, 0, 0, 5, 1]
+pushes_per_week: [20, 15, 1, 4, 0, 27, 3, 0, 0, 0, 0, 5, 1]
 windows:
   "7d":
     pushes: 1
@@ -80,16 +80,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 84
+    pushes: 76
     distinct_repos: 1
-    active_days: 25
+    active_days: 24
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 3.3600
-  repo_per_active_day: 0.0400
+  push_per_day: 3.1667
+  repo_per_active_day: 0.0417
   not_owned_ratio: 1.0000
   basename_concentration: 1.0000
   shapes: []
@@ -116,16 +116,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 84
+    pushes: 76
     distinct_repos: 1
-    pushes_per_repo: 84.0000
-    active_days: 25
+    pushes_per_repo: 76.0000
+    active_days: 24
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 52 vault signal(s) — pass"
-  - "activity: 25 active days in 90d — pass"
+  - "activity: 24 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "claude-code-xtras"
@@ -135,7 +135,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-23"
+    last_push: "2026-09-30"
   - name: "rqi-web-snippets"
     title: "rqi-web-snippets"
     description: "Rui Quintino (with 🤖) Web Snippets Playground"
@@ -178,6 +178,6 @@ repos:
 
 # rquintino
 
-84 pushes across 1 repository on 25 active days in the last 90 days of public GitHub push activity.
+76 pushes across 1 repository on 24 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/rquintino

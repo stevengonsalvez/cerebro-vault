@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "97c4e9cb8b163ddb"
   - "c7515e0fa4368a55"
@@ -79,7 +79,19 @@ reasons:
   - "provenance: 4 vault signal(s) — pass"
   - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "HackerToolkit"
+    title: "HackerToolkit"
+    description: "HackerToolkit offers a curated selection of tools designed to enhance your hacking capabilities. This repository not only organizes these tools but provides information about them. Easily install all of them with one script."
+    language: "Shell"
+    topics:
+      - "bugbounty"
+      - "cybersecurity"
+      - "hacking"
+      - "penetration-testing"
+    stars_fact: 104
+    first_seen: null
+    last_push: "2026-05-06"
 ---
 
 # ChrisJr404

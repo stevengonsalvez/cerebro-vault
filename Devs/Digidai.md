@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "3cb7ff1cdcf97c6b"
-pushes_per_week: [8, 1, 0, 3, 0, 3, 3, 0, 0, 0, 3, 4, 4]
+pushes_per_week: [8, 1, 0, 3, 0, 4, 2, 0, 0, 0, 4, 3, 4]
 windows:
   "7d":
     pushes: 4
@@ -77,28 +77,22 @@ reasons:
   - "activity: 21 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "metix-reports"
-    title: "metix-reports"
-    description: "Public catalog of Metix AI talent reports (canonical links to metix.ai)"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-23"
-  - name: "venturedex-co"
-    title: "venturedex-co"
-    description: "Source-backed startup research with product evidence, funding citations, investor context, and editorial risk notes."
+  - name: "website2markdown"
+    title: "website2markdown"
+    description: "Convert any URL to clean Markdown. Cloudflare Worker with 14 site adapters, MCP Server, Agent Skills, llms.txt. Open source, Apache-2.0."
     language: "TypeScript"
     topics:
-      - "astro"
+      - "ai-agents"
       - "cloudflare-workers"
-      - "market-intelligence"
-      - "startup-database"
-      - "startup-research"
-      - "venture-capital"
-    stars_fact: 0
+      - "llms-txt"
+      - "markdown"
+      - "mcp"
+      - "typescript"
+      - "url-to-markdown"
+      - "web-scraping"
+    stars_fact: 8
     first_seen: null
-    last_push: "2026-09-23"
+    last_push: "2026-10-01"
   - name: "product-manager-skills"
     title: "product-manager-skills"
     description: "PM skill for Claude Code, Codex, Cursor, and Windsurf: diagnose SaaS metrics, critique PRDs, plan roadmaps, run discovery, and coach PM career transitions."
@@ -124,9 +118,25 @@ repos:
       - "saas-metrics"
       - "skill-md"
       - "windsurf-skill"
-    stars_fact: 176
+    stars_fact: 183
     first_seen: null
     last_push: "2026-04-12"
+  - name: "wenbu"
+    title: "wenbu"
+    description: "Wenbu · 问卜 — free BaZi, I Ching, tarot and Zi Wei tools with MCP, CLI and transparent methods."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-30"
+  - name: "metix-reports"
+    title: "metix-reports"
+    description: "Public catalog of Metix AI talent reports (canonical links to metix.ai)"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-30"
   - name: "recruit-ai-framework"
     title: "recruit-ai-framework"
     description: "Recruit-AI-Framework — Built by Genedai, Co-Founder of OpenJobs AI （https://openjobs-ai.com/）"
@@ -134,23 +144,33 @@ repos:
     topics: []
     stars_fact: 2
     first_seen: null
-    last_push: "2026-09-21"
-  - name: "digidai"
-    title: "digidai"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 1
+    last_push: "2026-09-28"
+  - name: "HireAI"
+    title: "HireAI"
+    description: "HireAI - HR AI Products Collection | Built by Genedai, Co-Founder of OpenJobs AI （https://openjobs-ai.com/）"
+    language: "HTML"
+    topics:
+      - "ai-tools"
+      - "artificial-intelligence"
+      - "ats"
+      - "automation"
+      - "awesome-list"
+      - "chatbot"
+      - "directory"
+      - "hcm"
+      - "hiring"
+      - "hr-software"
+      - "hr-tech"
+      - "human-resources"
+      - "open-source"
+      - "recruiting"
+      - "recruitment"
+      - "saas"
+      - "talent-acquisition"
+      - "talent-management"
+    stars_fact: 2
     first_seen: null
-    last_push: "2026-09-21"
-  - name: "MonsterTracker"
-    title: "MonsterTracker"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-16"
+    last_push: "2026-09-28"
 ---
 
 # Digidai

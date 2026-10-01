@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-29T06:07:44.400276+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "379642deb53f3714"
-pushes_per_week: [1, 6, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [5, 2, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,6 +77,14 @@ reasons:
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "scratch"
+    title: "scratch"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-24"
   - name: "retirement-hacienda"
     title: "retirement-hacienda"
     description: null
@@ -117,14 +125,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-07-09"
-  - name: "pvpeek"
-    title: "pvpeek"
-    description: "On-device Android overlay that reads a Pokémon's appraisal and shows PvP IVs, rank, and recommended moves."
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-06-17"
 ---
 
 # dballesteros7

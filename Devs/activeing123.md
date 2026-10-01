@@ -10,10 +10,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "69d1a861b67c373a"
-pushes_per_week: [0, 0, 0, 0, 0, 2, 4, 1, 0, 4, 0, 1, 2]
+pushes_per_week: [0, 0, 0, 0, 0, 2, 4, 1, 0, 4, 1, 1, 1]
 windows:
   "7d":
     pushes: 2
@@ -80,21 +80,18 @@ reasons:
 repos:
   - name: "mcptoon"
     title: "mcptoon"
-    description: "MCP tool schemas + agent skills: 71,929 tokens -> 581 (-99.2%, measured). mcptoon syncs them to every agent. A zero-dependency CLI, no hand-written config."
-    language: "HTML"
+    description: "One zero-dependency CLI for all your MCP tools and agent skills. 99.2% fewer tokens on tool discovery, one config for every agent, nothing pre-installed. | 一个零依赖 CLI，管所有 MCP 工具和 Agent 技能。工具发现省 99.2% token，一份配置通吃所有 Agent，原生不预装。227KB，纯 Python 标准库。"
+    language: "Python"
     topics:
       - "agent-skills"
-      - "ai"
       - "ai-agents"
       - "claude"
       - "claude-code"
       - "claude-desktop"
-      - "claude-skills"
       - "cli"
       - "codex"
       - "context-compression"
       - "cursor"
-      - "gemini-cli-extension"
       - "llm"
       - "mcp"
       - "mcp-client"
@@ -103,9 +100,12 @@ repos:
       - "python"
       - "skill-management"
       - "token-optimization"
-    stars_fact: 203
+      - "windows"
+      - "windsurf"
+      - "zero-dependencies"
+    stars_fact: 206
     first_seen: "2026-08-11T06:00:08.519377+00:00"
-    last_push: "2026-09-20"
+    last_push: "2026-09-30"
   - name: "homebrew-mcptoon"
     title: "homebrew-mcptoon"
     description: "Homebrew tap for mcptoon — MCP client with token-efficient tool manifests"
@@ -113,7 +113,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-20"
+    last_push: "2026-09-25"
   - name: "dsh-mcptoon"
     title: "dsh-mcptoon"
     description: "DeepSeek Harness bundle: mount mcptoon as an MCP server in one command. Tool discovery 71,929 -> 581 tokens across 255 tools (-99.2%, measured); encoding is lossless."
@@ -125,7 +125,7 @@ repos:
       - "mcptoon"
       - "model-context-protocol"
       - "token-compression"
-    stars_fact: 0
+    stars_fact: 1
     first_seen: null
     last_push: "2026-09-16"
   - name: "choco-mcptoon"

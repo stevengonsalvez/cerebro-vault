@@ -9,22 +9,22 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "25bff0b4a0ece6bc"
-pushes_per_week: [12, 14, 2, 5, 6, 0, 3, 2, 1, 1, 2, 5, 6]
+pushes_per_week: [12, 14, 1, 5, 6, 1, 2, 2, 1, 1, 2, 6, 6]
 windows:
   "7d":
-    pushes: 6
+    pushes: 7
     distinct_repos: 1
-    active_days: 5
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 14
+    pushes: 15
     distinct_repos: 2
-    active_days: 11
+    active_days: 12
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,18 +49,18 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 6
+    pushes: 7
     distinct_repos: 1
-    pushes_per_repo: 6.0000
-    active_days: 5
+    pushes_per_repo: 7.0000
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 14
+    pushes: 15
     distinct_repos: 2
-    pushes_per_repo: 7.0000
-    active_days: 11
+    pushes_per_repo: 7.5000
+    active_days: 12
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -86,49 +86,49 @@ repos:
       - "anthropic-claude"
       - "claude"
       - "claude-code"
-    stars_fact: 31340
+    stars_fact: 32250
     first_seen: "2026-07-11T06:00:03.582945+00:00"
-    last_push: "2026-09-23"
+    last_push: "2026-10-01"
+  - name: "agents_otel_data"
+    title: "agents_otel_data"
+    description: "Testing Agent Open Telemetry data"
+    language: "Python"
+    topics: []
+    stars_fact: 14
+    first_seen: null
+    last_push: "2026-08-16"
   - name: "jev-explained"
     title: "jev-explained"
     description: "Jev Explained"
     language: "TypeScript"
     topics: []
-    stars_fact: 27
+    stars_fact: 33
     first_seen: null
     last_push: "2026-09-20"
-  - name: "davila7"
-    title: "davila7"
-    description: "Profile"
+  - name: "model_context_protocol_associate_exam_prep"
+    title: "model_context_protocol_associate_exam_prep"
+    description: "MCPA Exam Prep - Linux Foundation Global Certification"
+    language: "MDX"
+    topics: []
+    stars_fact: 24
+    first_seen: null
+    last_push: "2026-08-01"
+  - name: "claude_subagents"
+    title: "claude_subagents"
+    description: "Claude SubAgents"
+    language: "CSS"
+    topics: []
+    stars_fact: 113
+    first_seen: null
+    last_push: "2026-06-21"
+  - name: "aitmpl-docs"
+    title: "aitmpl-docs"
+    description: "AITMPL Docs (docs.aitmpl.com)"
     language: null
     topics: []
-    stars_fact: 32
+    stars_fact: 1
     first_seen: null
-    last_push: "2026-09-22"
-  - name: "youtube-gpt"
-    title: "youtube-gpt"
-    description: "Youtube GPT: OpenAI Whisper + Embedding + Davinci"
-    language: "Python"
-    topics: []
-    stars_fact: 384
-    first_seen: null
-    last_push: "2023-02-10"
-  - name: "computer-skills"
-    title: "computer-skills"
-    description: "Perplexity Computer Skills"
-    language: null
-    topics: []
-    stars_fact: 5
-    first_seen: null
-    last_push: "2026-03-24"
-  - name: "claude-cowork-guide"
-    title: "claude-cowork-guide"
-    description: "Claude Cowork Guide"
-    language: null
-    topics: []
-    stars_fact: 16
-    first_seen: null
-    last_push: "2026-03-06"
+    last_push: "2025-09-05"
 ---
 
 # davila7

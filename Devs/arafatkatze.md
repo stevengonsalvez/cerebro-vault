@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "533d51d9d3dea76f"
-pushes_per_week: [8, 3, 3, 11, 0, 9, 0, 0, 1, 0, 0, 0, 0]
+pushes_per_week: [7, 4, 3, 10, 0, 9, 0, 0, 1, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 35
-    distinct_repos: 5
+    pushes: 34
+    distinct_repos: 4
     active_days: 13
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.6923
-  repo_per_active_day: 0.3846
-  not_owned_ratio: 0.2000
-  basename_concentration: 0.2000
+  push_per_day: 2.6154
+  repo_per_active_day: 0.3077
+  not_owned_ratio: 0.2500
+  basename_concentration: 0.2500
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,9 +65,9 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 35
-    distinct_repos: 5
-    pushes_per_repo: 7.0000
+    pushes: 34
+    distinct_repos: 4
+    pushes_per_repo: 8.5000
     active_days: 13
     repos_not_owned: 1
     not_owned_basenames: 1
@@ -84,7 +84,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-23"
+    last_push: "2026-09-30"
   - name: "DataViz"
     title: "DataViz"
     description: "Build and Visualize data structures in Golang"
@@ -95,7 +95,7 @@ repos:
       - "data-visualization"
       - "golang"
       - "visualization"
-    stars_fact: 427
+    stars_fact: 428
     first_seen: null
     last_push: "2025-02-25"
   - name: "glot"
@@ -105,7 +105,7 @@ repos:
     topics:
       - "golang"
       - "plotting"
-    stars_fact: 404
+    stars_fact: 405
     first_seen: null
     last_push: "2025-05-20"
   - name: "arafatkatze"
@@ -136,6 +136,6 @@ repos:
 
 # arafatkatze
 
-35 pushes across 5 repositories on 13 active days in the last 90 days of public GitHub push activity.
+34 pushes across 4 repositories on 13 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/arafatkatze

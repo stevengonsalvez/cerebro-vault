@@ -9,17 +9,17 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "dae9f02535f7c22f"
-pushes_per_week: [24, 9, 8, 1, 3, 0, 1, 2, 1, 6, 2, 14, 9]
+pushes_per_week: [28, 5, 8, 1, 3, 0, 1, 3, 0, 7, 1, 16, 7]
 windows:
   "7d":
-    pushes: 11
-    distinct_repos: 5
-    active_days: 4
-    repos_not_owned: 3
-    not_owned_basenames: 3
+    pushes: 9
+    distinct_repos: 4
+    active_days: 3
+    repos_not_owned: 2
+    not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
     pushes: 31
@@ -49,12 +49,12 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 11
-    distinct_repos: 5
-    pushes_per_repo: 2.2000
-    active_days: 4
-    repos_not_owned: 3
-    not_owned_basenames: 3
+    pushes: 9
+    distinct_repos: 4
+    pushes_per_repo: 2.2500
+    active_days: 3
+    repos_not_owned: 2
+    not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
     pushes: 31
@@ -84,7 +84,15 @@ repos:
     topics: []
     stars_fact: 3
     first_seen: null
-    last_push: "2026-09-23"
+    last_push: "2026-09-29"
+  - name: "bosphore-1819"
+    title: "bosphore-1819"
+    description: "An 1819 French map of the Bosphorus with every label read, mapped and translated. French original, Ottoman Turkish, and the names we use today."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-09-24"
   - name: "workflow-realtime-llm-retry"
     title: "workflow-realtime-llm-retry"
     description: null
@@ -120,19 +128,6 @@ repos:
     stars_fact: 18
     first_seen: null
     last_push: "2026-03-13"
-  - name: "tab-transformer-keras"
-    title: "tab-transformer-keras"
-    description: "Implementation of TabTransformer, attention network for tabular data, in Keras"
-    language: "Python"
-    topics:
-      - "attention-mechanism"
-      - "deep-learning"
-      - "keras"
-      - "tabular-data"
-      - "transformer"
-    stars_fact: 21
-    first_seen: null
-    last_push: "2021-08-07"
 ---
 
 # CahidArda

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [2, 19, 21, 1, 7, 0, 0, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [3, 27, 12, 1, 7, 0, 0, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -84,7 +84,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-23"
+    last_push: "2026-10-01"
   - name: "Claude-Code-MyGO"
     title: "Claude-Code-MyGO"
     description: "个人对ClaudeCode拙劣的模仿，仅供学习使用"

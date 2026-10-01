@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [3, 0, 0, 7, 2, 2, 2, 0, 0, 0, 1, 0, 0]
+pushes_per_week: [1, 0, 2, 5, 2, 2, 2, 0, 0, 0, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,7 +29,7 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 17
+    pushes: 15
     distinct_repos: 4
     active_days: 11
     repos_not_owned: 1
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.5455
+  push_per_day: 1.3636
   repo_per_active_day: 0.3636
   not_owned_ratio: 0.2500
   basename_concentration: 0.2500
@@ -65,9 +65,9 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 17
+    pushes: 15
     distinct_repos: 4
-    pushes_per_repo: 4.2500
+    pushes_per_repo: 3.7500
     active_days: 11
     repos_not_owned: 1
     not_owned_basenames: 1
@@ -130,6 +130,6 @@ repos:
 
 # lxfight
 
-17 pushes across 4 repositories on 11 active days in the last 90 days of public GitHub push activity.
+15 pushes across 4 repositories on 11 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/lxfight

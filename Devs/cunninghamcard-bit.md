@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [0, 3, 2, 0, 1, 1, 4, 3, 0, 0, 0, 2, 14]
+pushes_per_week: [1, 2, 2, 0, 1, 1, 4, 3, 0, 0, 0, 3, 15]
 windows:
   "7d":
-    pushes: 14
-    distinct_repos: 2
-    active_days: 6
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
-  "30d":
     pushes: 16
     distinct_repos: 2
     active_days: 7
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
+  "30d":
+    pushes: 18
+    distinct_repos: 2
+    active_days: 8
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "90d":
-    pushes: 30
+    pushes: 32
     distinct_repos: 5
-    active_days: 18
+    active_days: 19
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.6667
-  repo_per_active_day: 0.2778
+  push_per_day: 1.6842
+  repo_per_active_day: 0.2632
   not_owned_ratio: 0.2000
   basename_concentration: 0.2000
   shapes: []
@@ -49,14 +49,6 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 14
-    distinct_repos: 2
-    pushes_per_repo: 7.0000
-    active_days: 6
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
-  "30d":
     pushes: 16
     distinct_repos: 2
     pushes_per_repo: 8.0000
@@ -64,17 +56,25 @@ facets:
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
+  "30d":
+    pushes: 18
+    distinct_repos: 2
+    pushes_per_repo: 9.0000
+    active_days: 8
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "90d":
-    pushes: 30
+    pushes: 32
     distinct_repos: 5
-    pushes_per_repo: 6.0000
-    active_days: 18
+    pushes_per_repo: 6.4000
+    active_days: 19
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 18 active days in 90d — pass"
+  - "activity: 19 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "nehir-niri-dual-monitor"
@@ -92,7 +92,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-12"
+    last_push: "2026-09-24"
   - name: "along-cli"
     title: "along-cli"
     description: "A pure, headless agent kernel in Go — derived from pi's core. CLI (along) + terminal UI (tui)."
@@ -129,6 +129,6 @@ repos:
 
 # cunninghamcard-bit
 
-30 pushes across 5 repositories on 18 active days in the last 90 days of public GitHub push activity.
+32 pushes across 5 repositories on 19 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/cunninghamcard-bit

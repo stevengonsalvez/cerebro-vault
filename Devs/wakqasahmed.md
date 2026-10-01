@@ -11,17 +11,17 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "46f3c1d6124190bd"
   - "73468cde177ddae6"
   - "c489e6fb5febf2ab"
-pushes_per_week: [18, 16, 51, 8, 0, 29, 7, 5, 1, 4, 6, 8, 2]
+pushes_per_week: [27, 8, 48, 8, 0, 29, 7, 6, 0, 4, 6, 8, 2]
 windows:
   "7d":
-    pushes: 4
-    distinct_repos: 4
-    active_days: 3
+    pushes: 2
+    distinct_repos: 2
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -33,7 +33,7 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 155
+    pushes: 153
     distinct_repos: 37
     active_days: 39
     repos_not_owned: 2
@@ -41,7 +41,7 @@ windows:
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 3.9744
+  push_per_day: 3.9231
   repo_per_active_day: 0.9487
   not_owned_ratio: 0.0541
   basename_concentration: 0.0270
@@ -53,10 +53,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 4
-    distinct_repos: 4
+    pushes: 2
+    distinct_repos: 2
     pushes_per_repo: 1.0000
-    active_days: 3
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -69,9 +69,9 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 155
+    pushes: 153
     distinct_repos: 37
-    pushes_per_repo: 4.1892
+    pushes_per_repo: 4.1351
     active_days: 39
     repos_not_owned: 2
     not_owned_basenames: 2
@@ -81,6 +81,14 @@ reasons:
   - "activity: 39 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "ghost-ses-email-adapter"
+    title: "ghost-ses-email-adapter"
+    description: "Amazon SES bulk email adapter for Ghost — npm package following Ghost's custom adapter conventions (storage-adapter style). Ports and extends the community SES work from TryGhost/Ghost#25367."
+    language: "JavaScript"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-08-07"
   - name: "ai-visibility-skills"
     title: "ai-visibility-skills"
     description: "Canonical AI visibility skills, aggregated by wakqasahmed/skills"
@@ -88,7 +96,7 @@ repos:
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-09-23"
+    last_push: "2026-09-26"
   - name: "ai-engineering-workflow-skills"
     title: "ai-engineering-workflow-skills"
     description: "Canonical AI engineering workflow skills, aggregated by wakqasahmed/skills"
@@ -106,7 +114,7 @@ repos:
       - "workflow"
     stars_fact: 2
     first_seen: null
-    last_push: "2026-09-23"
+    last_push: "2026-09-29"
   - name: "agent-reliability-skills"
     title: "agent-reliability-skills"
     description: "Provider-agnostic agent skills for operating customer-facing AI agents reliably: answer scoping, abstention, sampled accuracy measurement, error budgets, and accuracy ownership"
@@ -131,18 +139,10 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-08-26"
-  - name: "skills"
-    title: "skills"
-    description: "Aggregate install bundle for Wakqasahmed AI visibility, agentic commerce, and AI engineering workflow skills"
-    language: "Python"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-08-26"
 ---
 
 # wakqasahmed
 
-155 pushes across 37 repositories on 39 active days in the last 90 days of public GitHub push activity.
+153 pushes across 37 repositories on 39 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/wakqasahmed

@@ -9,18 +9,18 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "c489e6fb5febf2ab"
-pushes_per_week: [27, 21, 10, 9, 12, 9, 9, 2, 2, 4, 10, 12, 6]
+pushes_per_week: [29, 17, 11, 11, 12, 6, 9, 2, 2, 4, 10, 12, 7]
 windows:
   "7d":
-    pushes: 10
-    distinct_repos: 4
+    pushes: 7
+    distinct_repos: 3
     active_days: 4
-    repos_not_owned: 3
-    not_owned_basenames: 3
-    not_owned_owners: 3
+    repos_not_owned: 2
+    not_owned_basenames: 2
+    not_owned_owners: 2
   "30d":
     pushes: 33
     distinct_repos: 15
@@ -29,7 +29,7 @@ windows:
     not_owned_basenames: 9
     not_owned_owners: 4
   "90d":
-    pushes: 133
+    pushes: 132
     distinct_repos: 35
     active_days: 54
     repos_not_owned: 17
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 4
 automation:
   state: "clear"
-  push_per_day: 2.4630
+  push_per_day: 2.4444
   repo_per_active_day: 0.6481
   not_owned_ratio: 0.4857
   basename_concentration: 0.0571
@@ -49,13 +49,13 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 10
-    distinct_repos: 4
-    pushes_per_repo: 2.5000
+    pushes: 7
+    distinct_repos: 3
+    pushes_per_repo: 2.3333
     active_days: 4
-    repos_not_owned: 3
-    not_owned_basenames: 3
-    not_owned_owners: 3
+    repos_not_owned: 2
+    not_owned_basenames: 2
+    not_owned_owners: 2
   "30d":
     pushes: 33
     distinct_repos: 15
@@ -65,9 +65,9 @@ facets:
     not_owned_basenames: 9
     not_owned_owners: 4
   "90d":
-    pushes: 133
+    pushes: 132
     distinct_repos: 35
-    pushes_per_repo: 3.8000
+    pushes_per_repo: 3.7714
     active_days: 54
     repos_not_owned: 17
     not_owned_basenames: 17
@@ -147,6 +147,6 @@ repos:
 
 # shyim
 
-133 pushes across 35 repositories on 54 active days in the last 90 days of public GitHub push activity.
+132 pushes across 35 repositories on 54 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/shyim

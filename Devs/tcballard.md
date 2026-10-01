@@ -10,38 +10,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "c954be1eb1223fa4"
   - "eb166180687b6629"
-pushes_per_week: [84, 34, 28, 40, 25, 24, 3, 6, 10, 3, 18, 35, 24]
+pushes_per_week: [73, 34, 33, 35, 25, 24, 2, 6, 10, 3, 20, 35, 24]
 windows:
   "7d":
-    pushes: 28
-    distinct_repos: 12
+    pushes: 26
+    distinct_repos: 10
     active_days: 7
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 89
-    distinct_repos: 34
+    pushes: 83
+    distinct_repos: 30
     active_days: 23
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 334
+    pushes: 324
     distinct_repos: 68
     active_days: 72
-    repos_not_owned: 21
-    not_owned_basenames: 19
+    repos_not_owned: 20
+    not_owned_basenames: 18
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 4.6389
+  push_per_day: 4.5000
   repo_per_active_day: 0.9444
-  not_owned_ratio: 0.3088
+  not_owned_ratio: 0.2941
   basename_concentration: 0.0441
   shapes: []
   shape_evidence: []
@@ -51,42 +51,50 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 28
-    distinct_repos: 12
-    pushes_per_repo: 2.3333
+    pushes: 26
+    distinct_repos: 10
+    pushes_per_repo: 2.6000
     active_days: 7
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 89
-    distinct_repos: 34
-    pushes_per_repo: 2.6176
+    pushes: 83
+    distinct_repos: 30
+    pushes_per_repo: 2.7667
     active_days: 23
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 334
+    pushes: 324
     distinct_repos: 68
-    pushes_per_repo: 4.9118
+    pushes_per_repo: 4.7647
     active_days: 72
-    repos_not_owned: 21
-    not_owned_basenames: 19
+    repos_not_owned: 20
+    not_owned_basenames: 18
     not_owned_owners: 3
 reasons:
   - "provenance: 2 vault signal(s) — pass"
   - "activity: 72 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "omarchy-plugin-workbench"
-    title: "omarchy-plugin-workbench"
+  - name: "omarchy-plugin-gardengate"
+    title: "omarchy-plugin-gardengate"
     description: null
-    language: "Rust"
+    language: null
     topics: []
-    stars_fact: 4
+    stars_fact: 0
     first_seen: null
-    last_push: "2026-09-23"
+    last_push: "2026-10-01"
+  - name: "omarchy-plugin-familiar-desktop"
+    title: "omarchy-plugin-familiar-desktop"
+    description: null
+    language: "QML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-01"
   - name: "omarchy-theme-familiar"
     title: "omarchy-theme-familiar"
     description: "A little Windows familiarity for your Omarchy desktop."
@@ -94,43 +102,35 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-23"
-  - name: "omarchy-task-manager"
-    title: "omarchy-task-manager"
-    description: null
-    language: "Rust"
-    topics: []
-    stars_fact: 31
-    first_seen: null
-    last_push: "2026-09-23"
-  - name: "omarchy-markets"
-    title: "omarchy-markets"
-    description: "Omarchy Markets builds on the ticker-first pattern established by omarchy-stocks, then adds omakase profiles, native management, offline resilience and a stricter long-running service contract."
-    language: "QML"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-09-23"
-  - name: "omarchy-plugin-rss-feed"
-    title: "omarchy-plugin-rss-feed"
-    description: null
-    language: "QML"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-22"
-  - name: "command-and-conquer-omarchy"
-    title: "command-and-conquer-omarchy"
+    last_push: "2026-09-30"
+  - name: "omarchy-theme-liftoff"
+    title: "omarchy-theme-liftoff"
     description: null
     language: "Python"
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-09-23"
+    last_push: "2026-09-30"
+  - name: "build-omarchy-themes"
+    title: "build-omarchy-themes"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 12
+    first_seen: null
+    last_push: "2026-09-29"
+  - name: "omarchy-github-panel"
+    title: "omarchy-github-panel"
+    description: "Native keyboard-driven GitHub panel for Omarchy: search, reviews, issues, CI, and merging"
+    language: "Python"
+    topics: []
+    stars_fact: 5
+    first_seen: null
+    last_push: "2026-09-22"
 ---
 
 # tcballard
 
-334 pushes across 68 repositories on 72 active days in the last 90 days of public GitHub push activity.
+324 pushes across 68 repositories on 72 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/tcballard

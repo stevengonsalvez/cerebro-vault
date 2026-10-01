@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "4138778ebbc75ba6"
-pushes_per_week: [0, 0, 0, 1, 0, 7, 2, 0, 0, 0, 0, 7, 0]
+pushes_per_week: [0, 0, 0, 1, 0, 8, 1, 0, 0, 0, 1, 6, 0]
 windows:
   "7d":
     pushes: 0
@@ -102,9 +102,9 @@ repos:
       - "terminal"
       - "terminal-app"
       - "tui"
-    stars_fact: 3364
+    stars_fact: 3350
     first_seen: null
-    last_push: "2026-09-23"
+    last_push: "2026-09-29"
 ---
 
 # fuxicodex

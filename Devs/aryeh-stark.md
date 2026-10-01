@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "745308b2b7085095"
-pushes_per_week: [19, 28, 41, 33, 8, 4, 4, 1, 0, 0, 5, 36, 5]
+pushes_per_week: [17, 38, 31, 36, 5, 4, 4, 1, 0, 0, 10, 31, 6]
 windows:
   "7d":
-    pushes: 5
-    distinct_repos: 1
-    active_days: 3
-    repos_not_owned: 1
-    not_owned_basenames: 1
+    pushes: 6
+    distinct_repos: 2
+    active_days: 4
+    repos_not_owned: 2
+    not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 46
+    pushes: 47
     distinct_repos: 3
-    active_days: 10
+    active_days: 11
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 184
-    distinct_repos: 9
+    pushes: 183
+    distinct_repos: 8
     active_days: 45
-    repos_not_owned: 9
+    repos_not_owned: 8
     not_owned_basenames: 7
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 4.0889
-  repo_per_active_day: 0.2000
+  push_per_day: 4.0667
+  repo_per_active_day: 0.1778
   not_owned_ratio: 1.0000
-  basename_concentration: 0.2222
+  basename_concentration: 0.2500
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,27 +49,27 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 5
-    distinct_repos: 1
-    pushes_per_repo: 5.0000
-    active_days: 3
-    repos_not_owned: 1
-    not_owned_basenames: 1
+    pushes: 6
+    distinct_repos: 2
+    pushes_per_repo: 3.0000
+    active_days: 4
+    repos_not_owned: 2
+    not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 46
+    pushes: 47
     distinct_repos: 3
-    pushes_per_repo: 15.3333
-    active_days: 10
+    pushes_per_repo: 15.6667
+    active_days: 11
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 184
-    distinct_repos: 9
-    pushes_per_repo: 20.4444
+    pushes: 183
+    distinct_repos: 8
+    pushes_per_repo: 22.8750
     active_days: 45
-    repos_not_owned: 9
+    repos_not_owned: 8
     not_owned_basenames: 7
     not_owned_owners: 2
 reasons:
@@ -91,6 +91,6 @@ repos:
 
 # aryeh-stark
 
-184 pushes across 9 repositories on 45 active days in the last 90 days of public GitHub push activity.
+183 pushes across 8 repositories on 45 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/aryeh-stark

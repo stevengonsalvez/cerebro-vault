@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [24, 11, 6, 4, 5, 4, 6, 7, 0, 0, 16, 17, 11]
+pushes_per_week: [15, 12, 4, 6, 4, 3, 6, 7, 0, 3, 15, 15, 11]
 windows:
   "7d":
-    pushes: 15
-    distinct_repos: 12
-    active_days: 5
+    pushes: 11
+    distinct_repos: 9
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 111
-    distinct_repos: 28
-    active_days: 39
+    pushes: 101
+    distinct_repos: 27
+    active_days: 38
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.8462
-  repo_per_active_day: 0.7179
-  not_owned_ratio: 0.1429
-  basename_concentration: 0.0357
+  push_per_day: 2.6579
+  repo_per_active_day: 0.7105
+  not_owned_ratio: 0.1481
+  basename_concentration: 0.0370
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 15
-    distinct_repos: 12
-    pushes_per_repo: 1.2500
-    active_days: 5
+    pushes: 11
+    distinct_repos: 9
+    pushes_per_repo: 1.2222
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 111
-    distinct_repos: 28
-    pushes_per_repo: 3.9643
-    active_days: 39
+    pushes: 101
+    distinct_repos: 27
+    pushes_per_repo: 3.7407
+    active_days: 38
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 39 active days in 90d — pass"
+  - "activity: 38 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "jules-mcp"
@@ -84,23 +84,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-23"
-  - name: "redmine-mcp-workflows"
-    title: "redmine-mcp-workflows"
-    description: "Schema-aware MCP server for Redmine — validates workflow transitions, custom fields, and required fields before round-tripping the API"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-23"
-  - name: "BluePaper"
-    title: "BluePaper"
-    description: "Cross-platform Bluetooth label printer app — KMP + Compose Multiplatform"
-    language: "Kotlin"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-23"
+    last_push: "2026-10-01"
   - name: "flipoff"
     title: "flipoff"
     description: "Turn any TV into a retro split-flap display. Free, open-source, zero dependencies."
@@ -108,15 +92,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-22"
-  - name: "pyncua"
-    title: "pyncua"
-    description: "Python client for the NCUA Credit Union Mapping API — sync & async, typed Pydantic v2 models"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-19"
+    last_push: "2026-10-01"
   - name: "porkbun-mcp-server"
     title: "porkbun-mcp-server"
     description: "Model Context Protocol server for Porkbun's API v3 — domains, DNS, DNSSEC, SSL with pluggable audit-log emit on every mutation"
@@ -124,11 +100,35 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-19"
+    last_push: "2026-10-01"
+  - name: "redmine-mcp-workflows"
+    title: "redmine-mcp-workflows"
+    description: "Schema-aware MCP server for Redmine — validates workflow transitions, custom fields, and required fields before round-tripping the API"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-01"
+  - name: "link-scrubber"
+    title: "link-scrubber"
+    description: "Cross-browser extension that strips or rewrites tracking parameters from URLs"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-30"
+  - name: "BluePaper"
+    title: "BluePaper"
+    description: "Cross-platform Bluetooth label printer app — KMP + Compose Multiplatform"
+    language: "Kotlin"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-30"
 ---
 
 # Avicennasis
 
-111 pushes across 28 repositories on 39 active days in the last 90 days of public GitHub push activity.
+101 pushes across 27 repositories on 38 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Avicennasis

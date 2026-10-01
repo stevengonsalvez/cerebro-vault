@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "16389f32495280ea"
-pushes_per_week: [5, 2, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [5, 5, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -84,7 +84,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-23"
+    last_push: "2026-09-30"
   - name: "RagLaw"
     title: "RagLaw"
     description: "面向复杂法律咨询的可控多 Agent 与 RAG 平台，通过风险感知任务路由将请求分配至单 Agent、多 Agent 工作流或人工复核。"

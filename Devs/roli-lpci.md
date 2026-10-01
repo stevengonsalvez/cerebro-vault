@@ -9,20 +9,20 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "97c4e9cb8b163ddb"
   - "c7515e0fa4368a55"
   - "d3abe74726b22711"
   - "e7c647c4d0689526"
-pushes_per_week: [0, 1, 4, 1, 14, 6, 3, 0, 0, 3, 27, 44, 40]
+pushes_per_week: [0, 2, 3, 4, 14, 3, 3, 0, 0, 3, 31, 44, 36]
 windows:
   "7d":
-    pushes: 51
-    distinct_repos: 24
-    active_days: 7
-    repos_not_owned: 17
-    not_owned_basenames: 17
+    pushes: 40
+    distinct_repos: 21
+    active_days: 6
+    repos_not_owned: 15
+    not_owned_basenames: 15
     not_owned_owners: 1
   "30d":
     pushes: 114
@@ -52,12 +52,12 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 51
-    distinct_repos: 24
-    pushes_per_repo: 2.1250
-    active_days: 7
-    repos_not_owned: 17
-    not_owned_basenames: 17
+    pushes: 40
+    distinct_repos: 21
+    pushes_per_repo: 1.9048
+    active_days: 6
+    repos_not_owned: 15
+    not_owned_basenames: 15
     not_owned_owners: 1
   "30d":
     pushes: 114
@@ -80,14 +80,6 @@ reasons:
   - "activity: 32 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "intent-verify-v021-consumer-20260920"
-    title: "intent-verify-v021-consumer-20260920"
-    description: "Isolated GitHub Actions consumer evidence for intent-verify v0.2.1"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-20"
   - name: "roli-lpci"
     title: "roli-lpci"
     description: "Roli Bosch, founder of Hermes Labs. Philosophy of language applied to how AI systems are instructed and evaluated. Research, open-source tools, upstream fixes."
@@ -95,7 +87,136 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-15"
+    last_push: "2026-09-29"
+  - name: "agent-kickstart"
+    title: "agent-kickstart"
+    description: "A guided onboarding project for people new to Claude Code — no coding or terminal experience required. Asks a few questions, proposes real starter projects shaped around what you care about, and begins one with you."
+    language: "JavaScript"
+    topics:
+      - "ai-agents"
+      - "ai-reliability"
+      - "ai-tools"
+      - "beginner-friendly"
+      - "claude"
+      - "claude-code"
+      - "claude-code-commands"
+      - "claude-code-plugin"
+      - "cli"
+      - "developer-tools"
+      - "education"
+      - "hermes-labs"
+      - "human-ai-interaction"
+      - "javascript"
+      - "local-first"
+      - "onboarding"
+      - "privacy"
+      - "python"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-29"
+  - name: "claude-router"
+    title: "claude-router"
+    description: "claude-router is a local prompt router that picks the right Claude model tier and prepends the right scaffold using local embeddings before you call the API. A deterministic routing layer for eval, research, content, and review prompts that helps teams stop overspending on Sonnet and Opus when Haiku plus structure is enough."
+    language: "Python"
+    topics:
+      - "ai-reliability"
+      - "anthropic"
+      - "claude"
+      - "cost-optimization"
+      - "developer-tools"
+      - "embeddings"
+      - "hermes-labs"
+      - "llm"
+      - "llm-cost"
+      - "llm-ops"
+      - "llm-routing"
+      - "local-embeddings"
+      - "local-first"
+      - "model-routing"
+      - "ollama"
+      - "prompt-engineering"
+      - "prompt-routing"
+      - "python"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-29"
+  - name: "agent-signage"
+    title: "agent-signage"
+    description: "Road signs for coding agents: one measured fact at the moment of action, silence otherwise"
+    language: "Python"
+    topics:
+      - "agent-harness"
+      - "agent-observability"
+      - "agent-reliability"
+      - "agentic"
+      - "ai-agents"
+      - "claude-code"
+      - "claude-code-hooks"
+      - "claude-code-plugin"
+      - "coding-agents"
+      - "context-engineering"
+      - "context-integrity"
+      - "developer-tools"
+      - "git"
+      - "git-worktree"
+      - "hermes-labs"
+      - "pretooluse"
+      - "python"
+      - "zero-llm"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-29"
+  - name: "zer0lint"
+    title: "zer0lint"
+    description: "zer0lint is a memory-extraction health diagnostic for mem0 configs and HTTP memory endpoints. It flags silent failure modes where ingestion reports success but facts never survive the LLM extraction step, then generates a stronger extraction prompt validated on your own model. Works over HTTP with any add/search memory API."
+    language: "Python"
+    topics:
+      - "agent-memory"
+      - "ai-agents"
+      - "ai-reliability"
+      - "ai-safety"
+      - "cli"
+      - "diagnostics"
+      - "extraction"
+      - "hermes-labs"
+      - "llm"
+      - "llm-evaluation"
+      - "llm-ops"
+      - "mem0"
+      - "memory"
+      - "memory-security"
+      - "prompt-engineering"
+      - "python"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-29"
+  - name: "te-drift-detector"
+    title: "te-drift-detector"
+    description: "Experimental Python tool for inspecting language and task-framing changes across long AI conversations."
+    language: "Python"
+    topics:
+      - "agent-safety"
+      - "ai-agents"
+      - "ai-reliability"
+      - "context-integrity"
+      - "conversation-analysis"
+      - "deterministic"
+      - "drift-detection"
+      - "hermes-labs"
+      - "llm"
+      - "llm-evaluation"
+      - "llm-monitoring"
+      - "mcp"
+      - "multi-turn"
+      - "nlp"
+      - "python"
+      - "session-monitoring"
+      - "state-drift"
+      - "telemetry"
+      - "text-analysis"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-28"
 ---
 
 # roli-lpci

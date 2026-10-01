@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "3eacb4655aba2497"
-pushes_per_week: [11, 9, 6, 5, 12, 11, 1, 3, 0, 0, 0, 5, 34]
+pushes_per_week: [14, 9, 5, 4, 13, 9, 1, 3, 0, 0, 0, 5, 36]
 windows:
   "7d":
     pushes: 36
-    distinct_repos: 3
+    distinct_repos: 2
     active_days: 5
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 39
+    pushes: 41
     distinct_repos: 3
-    active_days: 8
+    active_days: 9
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 97
+    pushes: 99
     distinct_repos: 14
-    active_days: 38
+    active_days: 39
     repos_not_owned: 6
     not_owned_basenames: 5
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 2.5526
-  repo_per_active_day: 0.3684
+  push_per_day: 2.5385
+  repo_per_active_day: 0.3590
   not_owned_ratio: 0.4286
   basename_concentration: 0.1429
   shapes: []
@@ -50,31 +50,31 @@ automation:
 facets:
   "7d":
     pushes: 36
-    distinct_repos: 3
-    pushes_per_repo: 12.0000
+    distinct_repos: 2
+    pushes_per_repo: 18.0000
     active_days: 5
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 39
+    pushes: 41
     distinct_repos: 3
-    pushes_per_repo: 13.0000
-    active_days: 8
+    pushes_per_repo: 13.6667
+    active_days: 9
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 97
+    pushes: 99
     distinct_repos: 14
-    pushes_per_repo: 6.9286
-    active_days: 38
+    pushes_per_repo: 7.0714
+    active_days: 39
     repos_not_owned: 6
     not_owned_basenames: 5
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 38 active days in 90d — pass"
+  - "activity: 39 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "agent-stuff"
@@ -136,6 +136,6 @@ repos:
 
 # mitsuhiko
 
-97 pushes across 14 repositories on 38 active days in the last 90 days of public GitHub push activity.
+99 pushes across 14 repositories on 39 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/mitsuhiko

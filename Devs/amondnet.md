@@ -10,11 +10,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "0b22ca37fd3884c9"
   - "c489e6fb5febf2ab"
-pushes_per_week: [93, 99, 46, 10, 7, 11, 8, 1, 2, 9, 36, 21, 5]
+pushes_per_week: [90, 122, 23, 14, 0, 12, 7, 2, 1, 9, 40, 18, 4]
 windows:
   "7d":
     pushes: 5
@@ -31,18 +31,18 @@ windows:
     not_owned_basenames: 6
     not_owned_owners: 3
   "90d":
-    pushes: 348
-    distinct_repos: 24
-    active_days: 51
-    repos_not_owned: 24
-    not_owned_basenames: 23
+    pushes: 342
+    distinct_repos: 22
+    active_days: 50
+    repos_not_owned: 22
+    not_owned_basenames: 21
     not_owned_owners: 4
 automation:
   state: "clear"
-  push_per_day: 6.8235
-  repo_per_active_day: 0.4706
+  push_per_day: 6.8400
+  repo_per_active_day: 0.4400
   not_owned_ratio: 1.0000
-  basename_concentration: 0.0833
+  basename_concentration: 0.0909
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -67,16 +67,16 @@ facets:
     not_owned_basenames: 6
     not_owned_owners: 3
   "90d":
-    pushes: 348
-    distinct_repos: 24
-    pushes_per_repo: 14.5000
-    active_days: 51
-    repos_not_owned: 24
-    not_owned_basenames: 23
+    pushes: 342
+    distinct_repos: 22
+    pushes_per_repo: 15.5455
+    active_days: 50
+    repos_not_owned: 22
+    not_owned_basenames: 21
     not_owned_owners: 4
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 51 active days in 90d — pass"
+  - "activity: 50 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "amondnet"
@@ -86,7 +86,21 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-23"
+    last_push: "2026-10-01"
+  - name: "yoonmoon"
+    title: "yoonmoon"
+    description: "한글 AI 글 윤문·탐지 Claude Code 플러그인 — AI가 쓴 한국어를 사람처럼 윤문하고 AI 작성 여부를 진단"
+    language: "JavaScript"
+    topics:
+      - "ai-detector"
+      - "claude-code"
+      - "claude-skill"
+      - "humanize"
+      - "korean"
+      - "llm-detection"
+    stars_fact: 14
+    first_seen: null
+    last_push: "2026-09-11"
   - name: "vercel-action"
     title: "vercel-action"
     description: "This action make a deployment with github actions instead of Vercel builder."
@@ -106,20 +120,6 @@ repos:
     stars_fact: 10
     first_seen: null
     last_push: "2026-01-06"
-  - name: "yoonmoon"
-    title: "yoonmoon"
-    description: "한글 AI 글 윤문·탐지 Claude Code 플러그인 — AI가 쓴 한국어를 사람처럼 윤문하고 AI 작성 여부를 진단"
-    language: "JavaScript"
-    topics:
-      - "ai-detector"
-      - "claude-code"
-      - "claude-skill"
-      - "humanize"
-      - "korean"
-      - "llm-detection"
-    stars_fact: 12
-    first_seen: null
-    last_push: "2026-09-11"
   - name: "KIPRIS"
     title: "KIPRIS"
     description: null
@@ -140,6 +140,6 @@ repos:
 
 # amondnet
 
-348 pushes across 24 repositories on 51 active days in the last 90 days of public GitHub push activity.
+342 pushes across 22 repositories on 50 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/amondnet

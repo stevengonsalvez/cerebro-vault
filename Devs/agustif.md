@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-29T06:07:44.400276+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "97c4e9cb8b163ddb"
   - "c7515e0fa4368a55"
@@ -80,6 +80,32 @@ reasons:
   - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "rust-sandbox-bridge"
+    title: "rust-sandbox-bridge"
+    description: "Artifact factory: official Rust toolchain + approved cargo-vendor bundles for ChatGPT Linux sandbox offline builds"
+    language: "Shell"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-26"
+  - name: "sandbox-file-transfer-bridge"
+    title: "sandbox-file-transfer-bridge"
+    description: "Approved file transfer bridge: HTTPS fetch → Actions artifact → ChatGPT sandbox /mnt/data"
+    language: "Shell"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-26"
+  - name: "llm-plugin-pdf"
+    title: "llm-plugin-pdf"
+    description: "PDF fragment loader plugin for https://llm.datasette.io/"
+    language: "Python"
+    topics:
+      - "llm"
+      - "llm-plugin"
+    stars_fact: 2
+    first_seen: null
+    last_push: "2025-04-25"
   - name: "opencode-lmstudio"
     title: "opencode-lmstudio"
     description: "OpenCode plugin for enhanced LM Studio support with auto-detection and dynamic model discovery"
@@ -88,14 +114,6 @@ repos:
     stars_fact: 152
     first_seen: null
     last_push: "2026-09-11"
-  - name: "rust-sandbox-bridge"
-    title: "rust-sandbox-bridge"
-    description: "Artifact factory: official Rust toolchain + approved cargo-vendor bundles for ChatGPT Linux sandbox offline builds"
-    language: "Python"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-08-10"
   - name: "bun-arcus"
     title: "bun-arcus"
     description: "Public, upstream-first Bun patch queue for Arcus CI runtime qualification. No production releases."
@@ -103,7 +121,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-18"
+    last_push: "2026-09-29"
   - name: "effect-zfs"
     title: "effect-zfs"
     description: "Effect v4 library for Linux OpenZFS"
@@ -111,23 +129,7 @@ repos:
     topics: []
     stars_fact: 2
     first_seen: null
-    last_push: "2026-09-13"
-  - name: "castcli"
-    title: "castcli"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-10"
-  - name: "homebrew-tap"
-    title: "homebrew-tap"
-    description: "Homebrew tap for agustif/slk (OG-parity Slack TUI fork)"
-    language: "Ruby"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-01"
+    last_push: "2026-09-30"
 ---
 
 # agustif

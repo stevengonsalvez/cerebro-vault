@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "406a85b388590eb0"
-pushes_per_week: [7, 3, 5, 5, 0, 3, 9, 6, 0, 1, 7, 8, 4]
+pushes_per_week: [7, 3, 8, 2, 0, 4, 8, 6, 0, 1, 7, 8, 5]
 windows:
   "7d":
-    pushes: 4
+    pushes: 5
     distinct_repos: 1
-    active_days: 3
+    active_days: 4
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 20
+    pushes: 21
     distinct_repos: 6
-    active_days: 14
+    active_days: 15
     repos_not_owned: 6
     not_owned_basenames: 6
     not_owned_owners: 1
   "90d":
-    pushes: 58
+    pushes: 59
     distinct_repos: 23
-    active_days: 31
+    active_days: 32
     repos_not_owned: 11
     not_owned_basenames: 11
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 1.8710
-  repo_per_active_day: 0.7419
+  push_per_day: 1.8438
+  repo_per_active_day: 0.7188
   not_owned_ratio: 0.4783
   basename_concentration: 0.0870
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 4
+    pushes: 5
     distinct_repos: 1
-    pushes_per_repo: 4.0000
-    active_days: 3
+    pushes_per_repo: 5.0000
+    active_days: 4
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 20
+    pushes: 21
     distinct_repos: 6
-    pushes_per_repo: 3.3333
-    active_days: 14
+    pushes_per_repo: 3.5000
+    active_days: 15
     repos_not_owned: 6
     not_owned_basenames: 6
     not_owned_owners: 1
   "90d":
-    pushes: 58
+    pushes: 59
     distinct_repos: 23
-    pushes_per_repo: 2.5217
-    active_days: 31
+    pushes_per_repo: 2.5652
+    active_days: 32
     repos_not_owned: 11
     not_owned_basenames: 11
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 31 active days in 90d — pass"
+  - "activity: 32 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "instrumented-rag"
@@ -129,6 +129,6 @@ repos:
 
 # johnsonr
 
-58 pushes across 23 repositories on 31 active days in the last 90 days of public GitHub push activity.
+59 pushes across 23 repositories on 32 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/johnsonr

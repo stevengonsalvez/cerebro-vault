@@ -10,16 +10,16 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "48dbbdd8fd0d3029"
   - "de6bf05613f3ae04"
-pushes_per_week: [9, 6, 22, 8, 6, 7, 6, 3, 0, 0, 2, 5, 7]
+pushes_per_week: [9, 12, 16, 7, 7, 7, 4, 3, 0, 0, 3, 4, 7]
 windows:
   "7d":
-    pushes: 8
-    distinct_repos: 7
-    active_days: 4
+    pushes: 7
+    distinct_repos: 6
+    active_days: 3
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 2
@@ -31,18 +31,18 @@ windows:
     not_owned_basenames: 5
     not_owned_owners: 3
   "90d":
-    pushes: 81
-    distinct_repos: 37
-    active_days: 40
+    pushes: 79
+    distinct_repos: 36
+    active_days: 39
     repos_not_owned: 13
     not_owned_basenames: 11
     not_owned_owners: 5
 automation:
   state: "clear"
-  push_per_day: 2.0250
-  repo_per_active_day: 0.9250
-  not_owned_ratio: 0.3514
-  basename_concentration: 0.0811
+  push_per_day: 2.0256
+  repo_per_active_day: 0.9231
+  not_owned_ratio: 0.3611
+  basename_concentration: 0.0833
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -51,10 +51,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 8
-    distinct_repos: 7
-    pushes_per_repo: 1.1429
-    active_days: 4
+    pushes: 7
+    distinct_repos: 6
+    pushes_per_repo: 1.1667
+    active_days: 3
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 2
@@ -67,31 +67,31 @@ facets:
     not_owned_basenames: 5
     not_owned_owners: 3
   "90d":
-    pushes: 81
-    distinct_repos: 37
-    pushes_per_repo: 2.1892
-    active_days: 40
+    pushes: 79
+    distinct_repos: 36
+    pushes_per_repo: 2.1944
+    active_days: 39
     repos_not_owned: 13
     not_owned_basenames: 11
     not_owned_owners: 5
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 40 active days in 90d — pass"
+  - "activity: 39 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "zeromcp"
-    title: "zeromcp"
-    description: "Zero-dependency MCP server implementation."
-    language: "Python"
+  - name: "TitanHide"
+    title: "TitanHide"
+    description: "Hiding kernel-driver for x86/x64."
+    language: "C"
     topics:
-      - "mcp"
-      - "mcp-sdk"
-      - "modelcontextprotocol"
-      - "python"
-      - "python-mcp"
-    stars_fact: 91
+      - "anti-debugging"
+      - "driver"
+      - "hacktoberfest"
+      - "rootkit"
+      - "windows"
+    stars_fact: 2883
     first_seen: null
-    last_push: "2026-09-23"
+    last_push: "2026-07-18"
   - name: "ida-pro-mcp"
     title: "ida-pro-mcp"
     description: "AI-powered reverse engineering assistant that bridges IDA Pro with language models through MCP."
@@ -106,22 +106,19 @@ repos:
       - "mcp-server"
       - "modelcontextprotocol"
       - "reverse-engineering"
-    stars_fact: 12282
+    stars_fact: 12428
     first_seen: null
-    last_push: "2026-09-22"
-  - name: "TitanHide"
-    title: "TitanHide"
-    description: "Hiding kernel-driver for x86/x64."
-    language: "C"
+    last_push: "2026-09-26"
+  - name: "mcp-reversing-dataset"
+    title: "mcp-reversing-dataset"
+    description: "Dataset of reverse engineering tasks done using LLMs."
+    language: "Python"
     topics:
-      - "anti-debugging"
-      - "driver"
-      - "hacktoberfest"
-      - "rootkit"
-      - "windows"
-    stars_fact: 2875
+      - "mcp"
+      - "reverse-engineering"
+    stars_fact: 83
     first_seen: null
-    last_push: "2026-07-18"
+    last_push: "2025-04-14"
   - name: "agent-cost-dashboard"
     title: "agent-cost-dashboard"
     description: "Interactive web dashboard to monitor and analyze your coding agent API costs."
@@ -129,21 +126,20 @@ repos:
     topics: []
     stars_fact: 36
     first_seen: null
-    last_push: "2026-08-09"
-  - name: "zig-cross"
-    title: "zig-cross"
-    description: "Example of using as a CMake Toolchain for cross compiling."
-    language: "CMake"
+    last_push: "2026-09-30"
+  - name: "zeromcp"
+    title: "zeromcp"
+    description: "Zero-dependency MCP server implementation."
+    language: "Python"
     topics:
-      - "cmake"
-      - "cmake-toolchain"
-      - "cpp"
-      - "cross-compilation"
-      - "cross-compiler-toolchain"
-      - "zig"
-    stars_fact: 191
+      - "mcp"
+      - "mcp-sdk"
+      - "modelcontextprotocol"
+      - "python"
+      - "python-mcp"
+    stars_fact: 92
     first_seen: null
-    last_push: "2025-06-16"
+    last_push: "2026-09-23"
   - name: "toilet-pi"
     title: "toilet-pi"
     description: "Control pi sessions across machines with your browser (or mobile PWA)."
@@ -151,13 +147,13 @@ repos:
     topics:
       - "pi"
       - "pi-extension"
-    stars_fact: 34
+    stars_fact: 36
     first_seen: null
-    last_push: "2026-09-19"
+    last_push: "2026-09-26"
 ---
 
 # mrexodia
 
-81 pushes across 37 repositories on 40 active days in the last 90 days of public GitHub push activity.
+79 pushes across 36 repositories on 39 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/mrexodia

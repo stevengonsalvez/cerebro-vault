@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "46f3c1d6124190bd"
-pushes_per_week: [18, 6, 6, 2, 0, 0, 0, 0, 1, 0, 0, 0, 0]
+pushes_per_week: [18, 6, 6, 2, 0, 0, 0, 1, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,6 +77,32 @@ reasons:
   - "activity: 15 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "google-drive-suite"
+    title: "google-drive-suite"
+    description: "Bulk download, parallel upload, stream & auto-offload for Google Shared Drives — a self-hosted suite of local web UIs, a Fire TV app, and daemons on rclone."
+    language: "Python"
+    topics:
+      - "android-tv"
+      - "bulk-download"
+      - "cloud-storage"
+      - "download-manager"
+      - "fastapi"
+      - "file-upload"
+      - "fire-tv"
+      - "flask"
+      - "google-drive"
+      - "google-shared-drive"
+      - "jetpack-compose"
+      - "kotlin"
+      - "macos"
+      - "media-server"
+      - "rclone"
+      - "self-hosted"
+      - "streaming"
+      - "web-ui"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-30"
   - name: "ipod-movie-maker"
     title: "ipod-movie-maker"
     description: "Download, convert & organise video for an iPod touch (5th gen) — a single-file yt-dlp + FFmpeg CLI that picks the cheapest of three plans, numbers each podcast as a TV show, and ffprobes what it wrote."
@@ -196,30 +222,6 @@ repos:
       - "video-processing"
       - "wallpaper"
       - "yt-dlp"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-28"
-  - name: "file-translator"
-    title: "file-translator"
-    description: "Translate and rename files and folders from any language to any other — interactive CLI with pattern learning"
-    language: "Python"
-    topics:
-      - "batch-rename"
-      - "bulk-rename"
-      - "cli"
-      - "file-management"
-      - "file-renamer"
-      - "filename-cleanup"
-      - "folder-organizer"
-      - "interactive-cli"
-      - "language-detection"
-      - "macos"
-      - "multilingual"
-      - "pattern-learning"
-      - "python"
-      - "translation"
-      - "transliteration"
-      - "unicode"
     stars_fact: 0
     first_seen: null
     last_push: "2026-08-28"

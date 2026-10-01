@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "dffbb846389f9a26"
 pushes_per_week: [0, 1, 3, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0]
@@ -80,11 +80,11 @@ repos:
   - name: "harvester-misc"
     title: "harvester-misc"
     description: null
-    language: null
+    language: "Shell"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-06-30"
+    last_push: "2026-09-29"
   - name: "Routing-On-OSM"
     title: "Routing-On-OSM"
     description: "postgresql + postgis + pgrouting + nodejs + OSM"

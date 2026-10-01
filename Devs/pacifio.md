@@ -11,11 +11,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "4930e4f9e24bb204"
   - "73468cde177ddae6"
-pushes_per_week: [9, 0, 2, 4, 3, 2, 2, 2, 0, 0, 0, 4, 4]
+pushes_per_week: [6, 0, 3, 3, 3, 3, 1, 2, 0, 0, 0, 4, 5]
 windows:
   "7d":
     pushes: 5
@@ -25,14 +25,14 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 8
+    pushes: 9
     distinct_repos: 2
-    active_days: 5
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 32
+    pushes: 30
     distinct_repos: 3
     active_days: 21
     repos_not_owned: 0
@@ -40,7 +40,7 @@ windows:
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.5238
+  push_per_day: 1.4286
   repo_per_active_day: 0.1429
   not_owned_ratio: 0.0000
   basename_concentration: 0.3333
@@ -60,17 +60,17 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 8
+    pushes: 9
     distinct_repos: 2
-    pushes_per_repo: 4.0000
-    active_days: 5
+    pushes_per_repo: 4.5000
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 32
+    pushes: 30
     distinct_repos: 3
-    pushes_per_repo: 10.6667
+    pushes_per_repo: 10.0000
     active_days: 21
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -83,7 +83,7 @@ repos:
   - name: "atlas"
     title: "atlas"
     description: "Source control for agents. Use multiple coding agents, track their changes and query them in one place"
-    language: "TypeScript"
+    language: "Rust"
     topics:
       - "ai"
       - "ai-coding-assistant"
@@ -100,9 +100,35 @@ repos:
       - "opencode-skills"
       - "self-hosted"
       - "skills"
-    stars_fact: 6067
+    stars_fact: 8566
     first_seen: "2026-09-03T06:00:04.259291+00:00"
-    last_push: "2026-09-23"
+    last_push: "2026-09-30"
+  - name: "standards"
+    title: "standards"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-30"
+  - name: "gpui-flow"
+    title: "gpui-flow"
+    description: "visual node editor react flow for gpui"
+    language: "Rust"
+    topics: []
+    stars_fact: 38
+    first_seen: null
+    last_push: "2026-03-23"
+  - name: "pacifio.github.io"
+    title: "pacifio.github.io"
+    description: "My personal website built with Tailwind 💨"
+    language: "HTML"
+    topics:
+      - "portfolio"
+      - "portfolio-website"
+    stars_fact: 3
+    first_seen: null
+    last_push: "2023-06-05"
   - name: "cersei"
     title: "cersei"
     description: "The Rust SDK for building coding agents. Tools, streaming, graph, sub-agent orchestration, MCP — as composable functions"
@@ -119,48 +145,23 @@ repos:
     stars_fact: 460
     first_seen: null
     last_push: "2026-08-06"
-  - name: "flutter_apps"
-    title: "flutter_apps"
-    description: "A collection of beautiful apps using flutter , inspired by dribble or youtube UI projects :heart: :heart:"
+  - name: "demoji"
+    title: "demoji"
+    description: "A dart library with over 1500+ emojis 😀🎯"
     language: "Dart"
     topics:
-      - "beautiful-ui"
       - "dart"
-      - "flutter"
-      - "flutter-ui"
-      - "flutter-ui-challenges"
-      - "ui"
-    stars_fact: 773
+      - "dart-cli"
+      - "dart-library"
+      - "dart-package"
+      - "dart2"
+    stars_fact: 33
     first_seen: null
-    last_push: "2021-02-05"
-  - name: "liliput-app"
-    title: "liliput-app"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-20"
-  - name: "ui"
-    title: "ui"
-    description: "The shadcn for agent UI. A framework-agnostic design language for dense, AMOLED-black, multi-surface interfaces"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 153
-    first_seen: null
-    last_push: "2026-04-24"
-  - name: "hotel-dashboard"
-    title: "hotel-dashboard"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-17"
+    last_push: "2021-08-04"
 ---
 
 # pacifio
 
-32 pushes across 3 repositories on 21 active days in the last 90 days of public GitHub push activity.
+30 pushes across 3 repositories on 21 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/pacifio

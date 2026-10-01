@@ -9,28 +9,28 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "541318303a272608"
-pushes_per_week: [7, 1, 7, 1, 1, 1, 12, 2, 2, 1, 5, 4, 13]
+pushes_per_week: [4, 1, 7, 1, 1, 2, 11, 3, 1, 1, 6, 8, 11]
 windows:
   "7d":
     pushes: 14
-    distinct_repos: 5
+    distinct_repos: 7
     active_days: 6
     repos_not_owned: 4
     not_owned_basenames: 2
     not_owned_owners: 4
   "30d":
-    pushes: 24
-    distinct_repos: 6
+    pushes: 26
+    distinct_repos: 7
     active_days: 14
-    repos_not_owned: 5
+    repos_not_owned: 4
     not_owned_basenames: 2
-    not_owned_owners: 5
+    not_owned_owners: 4
   "90d":
     pushes: 57
-    distinct_repos: 9
+    distinct_repos: 8
     active_days: 33
     repos_not_owned: 5
     not_owned_basenames: 2
@@ -38,9 +38,9 @@ windows:
 automation:
   state: "clear"
   push_per_day: 1.7273
-  repo_per_active_day: 0.2727
-  not_owned_ratio: 0.5556
-  basename_concentration: 0.4444
+  repo_per_active_day: 0.2424
+  not_owned_ratio: 0.6250
+  basename_concentration: 0.5000
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -50,24 +50,24 @@ automation:
 facets:
   "7d":
     pushes: 14
-    distinct_repos: 5
-    pushes_per_repo: 2.8000
+    distinct_repos: 7
+    pushes_per_repo: 2.0000
     active_days: 6
     repos_not_owned: 4
     not_owned_basenames: 2
     not_owned_owners: 4
   "30d":
-    pushes: 24
-    distinct_repos: 6
-    pushes_per_repo: 4.0000
+    pushes: 26
+    distinct_repos: 7
+    pushes_per_repo: 3.7143
     active_days: 14
-    repos_not_owned: 5
+    repos_not_owned: 4
     not_owned_basenames: 2
-    not_owned_owners: 5
+    not_owned_owners: 4
   "90d":
     pushes: 57
-    distinct_repos: 9
-    pushes_per_repo: 6.3333
+    distinct_repos: 8
+    pushes_per_repo: 7.1250
     active_days: 33
     repos_not_owned: 5
     not_owned_basenames: 2
@@ -148,6 +148,6 @@ repos:
 
 # hikariming
 
-57 pushes across 9 repositories on 33 active days in the last 90 days of public GitHub push activity.
+57 pushes across 8 repositories on 33 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/hikariming

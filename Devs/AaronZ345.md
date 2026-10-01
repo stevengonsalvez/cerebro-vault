@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "541318303a272608"
-pushes_per_week: [12, 8, 10, 5, 0, 2, 6, 4, 2, 1, 1, 4, 7]
+pushes_per_week: [12, 10, 8, 5, 0, 5, 3, 5, 1, 1, 1, 4, 7]
 windows:
   "7d":
     pushes: 7
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 14
+    pushes: 13
     distinct_repos: 5
-    active_days: 6
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 14
+    pushes: 13
     distinct_repos: 5
-    pushes_per_repo: 2.8000
-    active_days: 6
+    pushes_per_repo: 2.6000
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -84,7 +84,15 @@ repos:
     topics: []
     stars_fact: 2
     first_seen: null
-    last_push: "2026-09-23"
+    last_push: "2026-09-30"
+  - name: "AaronZ345.github.io"
+    title: "AaronZ345.github.io"
+    description: "Personal academic homepage"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-27"
   - name: "GTSinger"
     title: "GTSinger"
     description: "Dataset and code of GTSinger(NeurIPS 2024 Spotlight): A Global Multi-Technique Singing Corpus with Realistic Music Scores for All Singing Tasks"
@@ -118,14 +126,6 @@ repos:
     stars_fact: 211
     first_seen: null
     last_push: "2026-07-17"
-  - name: "AaronZ345.github.io"
-    title: "AaronZ345.github.io"
-    description: "Personal academic homepage"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-09"
   - name: "TCSinger2"
     title: "TCSinger2"
     description: "PyTorch Implementation of TCSinger 2(ACL 2025): Customizable Multilingual Zero-shot Singing Voice Synthesis"

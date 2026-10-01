@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "1d1683888d78abfd"
-pushes_per_week: [13, 3, 0, 3, 0, 2, 1, 0, 1, 0, 3, 0, 0]
+pushes_per_week: [12, 3, 0, 3, 0, 2, 1, 0, 1, 1, 2, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 26
+    pushes: 25
     distinct_repos: 3
-    active_days: 14
+    active_days: 13
     repos_not_owned: 3
     not_owned_basenames: 2
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 1.8571
-  repo_per_active_day: 0.2143
+  push_per_day: 1.9231
+  repo_per_active_day: 0.2308
   not_owned_ratio: 1.0000
   basename_concentration: 0.6667
   shapes: []
@@ -65,22 +65,22 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 26
+    pushes: 25
     distinct_repos: 3
-    pushes_per_repo: 8.6667
-    active_days: 14
+    pushes_per_repo: 8.3333
+    active_days: 13
     repos_not_owned: 3
     not_owned_basenames: 2
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 14 active days in 90d — pass"
+  - "activity: 13 active days in 90d — pass"
   - "automation: clear — pass"
 repos: []
 ---
 
 # DavidBabinec
 
-26 pushes across 3 repositories on 14 active days in the last 90 days of public GitHub push activity.
+25 pushes across 3 repositories on 13 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/DavidBabinec

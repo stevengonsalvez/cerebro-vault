@@ -9,13 +9,13 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "97c4e9cb8b163ddb"
   - "c7515e0fa4368a55"
   - "d3abe74726b22711"
   - "e7c647c4d0689526"
-pushes_per_week: [2, 3, 10, 0, 3, 7, 3, 0, 0, 0, 8, 7, 0]
+pushes_per_week: [2, 3, 10, 0, 3, 8, 2, 0, 0, 0, 8, 7, 0]
 windows:
   "7d":
     pushes: 0
@@ -97,7 +97,7 @@ repos:
       - "subsampling"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-17"
+    last_push: "2026-09-23"
   - name: "hyphy-scope"
     title: "hyphy-scope"
     description: "Visualizations for HyPhy methods and related selection analysis tools"

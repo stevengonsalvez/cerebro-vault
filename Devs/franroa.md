@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [3, 4, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3]
+pushes_per_week: [3, 5, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3]
 windows:
   "7d":
     pushes: 3
@@ -77,6 +77,14 @@ reasons:
   - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "platform-engineer-public"
+    title: "platform-engineer-public"
+    description: null
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-28"
   - name: "chezmoi"
     title: "chezmoi"
     description: null
@@ -89,14 +97,6 @@ repos:
     title: "notion-iwe-sync"
     description: "Bidirectional sync between a personal Notion workspace and a local markdown vault (IWE-friendly): edit in Neovim, read in Notion"
     language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-07-17"
-  - name: "ultraplatform-documentation"
-    title: "ultraplatform-documentation"
-    description: "Ultraplatform documentation — a generic platform-map engine (gitlab | files sources): quickstart, configuration, API (generated artifact)"
-    language: "HTML"
     topics: []
     stars_fact: 0
     first_seen: null

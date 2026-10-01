@@ -11,40 +11,40 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "16389f32495280ea"
   - "234088bc43763aa2"
   - "4d1450729e6ff44d"
-pushes_per_week: [41, 24, 25, 29, 11, 26, 56, 9, 3, 7, 5, 6, 8]
+pushes_per_week: [39, 23, 28, 27, 15, 52, 23, 9, 3, 7, 5, 8, 7]
 windows:
   "7d":
-    pushes: 8
+    pushes: 7
     distinct_repos: 3
     active_days: 3
-    repos_not_owned: 2
-    not_owned_basenames: 2
+    repos_not_owned: 1
+    not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 26
+    pushes: 27
     distinct_repos: 10
-    active_days: 11
+    active_days: 12
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 250
-    distinct_repos: 55
+    pushes: 246
+    distinct_repos: 54
     active_days: 58
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 4.3103
-  repo_per_active_day: 0.9483
-  not_owned_ratio: 0.0909
-  basename_concentration: 0.0364
+  push_per_day: 4.2414
+  repo_per_active_day: 0.9310
+  not_owned_ratio: 0.0926
+  basename_concentration: 0.0370
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -53,25 +53,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 8
+    pushes: 7
     distinct_repos: 3
-    pushes_per_repo: 2.6667
+    pushes_per_repo: 2.3333
     active_days: 3
-    repos_not_owned: 2
-    not_owned_basenames: 2
+    repos_not_owned: 1
+    not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 26
+    pushes: 27
     distinct_repos: 10
-    pushes_per_repo: 2.6000
-    active_days: 11
+    pushes_per_repo: 2.7000
+    active_days: 12
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 250
-    distinct_repos: 55
-    pushes_per_repo: 4.5455
+    pushes: 246
+    distinct_repos: 54
+    pushes_per_repo: 4.5556
     active_days: 58
     repos_not_owned: 5
     not_owned_basenames: 5
@@ -81,6 +81,14 @@ reasons:
   - "activity: 58 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "codex-recall"
+    title: "codex-recall"
+    description: "Search your Codex history by code, project, command, error, or conversation — then resume the exact session."
+    language: "Go"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-01"
   - name: "Agent-Harness-Runtime"
     title: "Agent-Harness-Runtime"
     description: null
@@ -89,14 +97,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-09-11"
-  - name: "codex-recall"
-    title: "codex-recall"
-    description: "Search your Codex history by code, project, command, error, or conversation — then resume the exact session."
-    language: "Go"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-07"
   - name: "itea.fit"
     title: "itea.fit"
     description: "iTea Tools is the navigation site for the online tools"
@@ -133,6 +133,6 @@ repos:
 
 # luojiyin1987
 
-250 pushes across 55 repositories on 58 active days in the last 90 days of public GitHub push activity.
+246 pushes across 54 repositories on 58 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/luojiyin1987

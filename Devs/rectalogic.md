@@ -9,18 +9,18 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "97c4e9cb8b163ddb"
   - "c7515e0fa4368a55"
   - "d3abe74726b22711"
   - "e7c647c4d0689526"
-pushes_per_week: [3, 5, 2, 0, 0, 0, 1, 0, 0, 0, 0, 2, 1]
+pushes_per_week: [4, 4, 2, 0, 0, 0, 1, 0, 0, 0, 0, 2, 1]
 windows:
   "7d":
-    pushes: 2
+    pushes: 1
     distinct_repos: 1
-    active_days: 2
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -52,10 +52,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
+    pushes: 1
     distinct_repos: 1
-    pushes_per_repo: 2.0000
-    active_days: 2
+    pushes_per_repo: 1.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -80,14 +80,14 @@ reasons:
   - "activity: 10 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "esp3d"
-    title: "esp3d"
-    description: null
+  - name: "bevy_blitz"
+    title: "bevy_blitz"
+    description: "HTML/CSS rendering for Bevy via Blitz"
     language: "Rust"
     topics: []
-    stars_fact: 0
+    stars_fact: 9
     first_seen: null
-    last_push: "2026-09-22"
+    last_push: "2025-09-05"
   - name: "asburypark"
     title: "asburypark"
     description: "Happy Hours in Asbury Park, NJ"
@@ -95,7 +95,31 @@ repos:
     topics: []
     stars_fact: 2
     first_seen: null
-    last_push: "2026-09-19"
+    last_push: "2026-09-26"
+  - name: "esp32-rtv"
+    title: "esp32-rtv"
+    description: null
+    language: "C"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-25"
+  - name: "mojo-qt"
+    title: "mojo-qt"
+    description: "Qt6 PySide6 with mojo"
+    language: "Mojo"
+    topics: []
+    stars_fact: 10
+    first_seen: null
+    last_push: "2024-06-25"
+  - name: "esp3d"
+    title: "esp3d"
+    description: null
+    language: "Rust"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-29"
   - name: "langchain-mcp"
     title: "langchain-mcp"
     description: "Model Context Protocol tool support for LangChain"
@@ -104,30 +128,6 @@ repos:
     stars_fact: 205
     first_seen: null
     last_push: "2025-04-02"
-  - name: "esp32-rtv"
-    title: "esp32-rtv"
-    description: null
-    language: "C"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-11"
-  - name: "cyd-video"
-    title: "cyd-video"
-    description: "\"Cheap Yellow Display\" (ESP32-2432S028R) video player"
-    language: "Rust"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-07-22"
-  - name: "zed-devcontainers"
-    title: "zed-devcontainers"
-    description: null
-    language: "Dockerfile"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-07-17"
 ---
 
 # rectalogic

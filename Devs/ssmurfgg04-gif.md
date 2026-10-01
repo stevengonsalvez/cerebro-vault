@@ -9,18 +9,18 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "97c4e9cb8b163ddb"
   - "c7515e0fa4368a55"
   - "d3abe74726b22711"
   - "e7c647c4d0689526"
-pushes_per_week: [4, 0, 2, 5, 4, 5, 11, 0, 2, 6, 9, 53, 15]
+pushes_per_week: [3, 1, 1, 5, 4, 7, 9, 0, 2, 6, 15, 48, 15]
 windows:
   "7d":
-    pushes: 15
-    distinct_repos: 4
-    active_days: 4
+    pushes: 16
+    distinct_repos: 5
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -52,10 +52,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 15
-    distinct_repos: 4
-    pushes_per_repo: 3.7500
-    active_days: 4
+    pushes: 16
+    distinct_repos: 5
+    pushes_per_repo: 3.2000
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -80,6 +80,22 @@ reasons:
   - "activity: 33 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "fang-yuan-strategic-system"
+    title: "fang-yuan-strategic-system"
+    description: "Fang Yuan policy engine: strategic simulator, fidelity benchmark, provenance-gated corpus pipeline, Qwen2.5-0.5B training plan. Non-commercial analytical research."
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-30"
+  - name: "pos-system"
+    title: "pos-system"
+    description: "White-label multi-terminal POS: Go + React single binary. M-Pesa STK + manual receipt fallback, dynamic RBAC, offline sync, ESC/POS printing, shifts & reports. Built for Kenyan retail."
+    language: "Go"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-30"
   - name: "context-m"
     title: "context-m"
     description: "Deterministic agent memory. μ=0. Free, local, forever. Mem0-compatible."
@@ -105,62 +121,46 @@ repos:
       - "zep"
     stars_fact: 2
     first_seen: null
-    last_push: "2026-09-23"
-  - name: "hospital-pms-clinical-console"
-    title: "hospital-pms-clinical-console"
-    description: "Pixel-faithful Next.js 16 recreation of the Hospital PMS / Clinical Console Figma design. 14 clinical screens (login, dashboard, reception, triage, consultation, patient records, lab, pharmacy, billing, nursing, back-office + scheduling, imaging, analytics, admin-suite). HIPAA-compliant branding. Netlify-ready static export."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-23"
-  - name: "tazama-ai"
-    title: "tazama-ai"
-    description: "Tazama AI - your screen buddy that watches along. Windows companion built with Tauri v2 + Rust. Screen capture, built-in memory, computer-use, 5 AI providers. Keys never leave your device."
-    language: "TypeScript"
-    topics:
-      - "ai"
-      - "anthropic"
-      - "companion"
-      - "computer-use"
-      - "desktop-app"
-      - "llm"
-      - "openai"
-      - "overlay"
-      - "rust"
-      - "screen-capture"
-      - "sqlite"
-      - "swahili"
-      - "tauri"
-      - "typescript"
-      - "windows"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-22"
-  - name: "anatomy-arcade"
-    title: "anatomy-arcade"
-    description: "ANATOMY ARCADE — premium playable 3D biology game. Enter the body. Save the patient. Learn how it works."
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-22"
-  - name: "bioelectric-cultivation"
-    title: "bioelectric-cultivation"
-    description: "Computational framework for bioelectric morphogenesis: aging-as-attractor-degradation, error-correcting bioelectric codes, IIT metrics, inverse-design of interventions, sharded stress sweeps on GitHub runners"
+    last_push: "2026-09-30"
+  - name: "jiji-marketplace-archive"
+    title: "jiji-marketplace-archive"
+    description: null
     language: "Python"
     topics: []
-    stars_fact: 2
+    stars_fact: 0
     first_seen: null
-    last_push: "2026-09-21"
-  - name: "cairn"
-    title: "cairn"
-    description: "Cairn v4 - content-addressed chunked sync & storage engine for professional video teams (Rust)"
-    language: "Rust"
+    last_push: "2026-09-30"
+  - name: "the-gap-report"
+    title: "the-gap-report"
+    description: "Minimalist Swiss-style report: global landscape of predictive early-warning systems for enforced disappearances. VLM-reviewed to 8/8 across 17 rounds."
+    language: "TypeScript"
     topics: []
-    stars_fact: 1
+    stars_fact: 0
     first_seen: null
-    last_push: "2026-09-19"
+    last_push: "2026-09-29"
+  - name: "smart-vat-kenya"
+    title: "smart-vat-kenya"
+    description: "SmartVAT Kenya — Kenya VAT & eTIMS guidance, calculators and open data: VAT registration, iTax filing deadlines, KRA penalties, amnesty 2026. Maintains the vatkenya npm library. https://smartvatkenya.co.ke"
+    language: "TypeScript"
+    topics:
+      - "astro"
+      - "east-africa"
+      - "etims"
+      - "fintech"
+      - "invoicing"
+      - "itax"
+      - "javascript"
+      - "kenya"
+      - "kra"
+      - "open-data"
+      - "penalty-calculator"
+      - "tax"
+      - "tax-calculator"
+      - "typescript"
+      - "vat"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-28"
 ---
 
 # ssmurfgg04-gif

@@ -10,11 +10,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "386c24cf5e18fd90"
   - "ffccace0ba14fd15"
-pushes_per_week: [3, 14, 7, 9, 2, 5, 2, 6, 2, 0, 0, 2, 0]
+pushes_per_week: [2, 14, 7, 11, 0, 6, 1, 6, 2, 0, 0, 2, 0]
 windows:
   "7d":
     pushes: 0
@@ -31,16 +31,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 52
+    pushes: 51
     distinct_repos: 12
-    active_days: 24
+    active_days: 23
     repos_not_owned: 4
     not_owned_basenames: 3
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 2.1667
-  repo_per_active_day: 0.5000
+  push_per_day: 2.2174
+  repo_per_active_day: 0.5217
   not_owned_ratio: 0.3333
   basename_concentration: 0.1667
   shapes: []
@@ -67,18 +67,26 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 52
+    pushes: 51
     distinct_repos: 12
-    pushes_per_repo: 4.3333
-    active_days: 24
+    pushes_per_repo: 4.2500
+    active_days: 23
     repos_not_owned: 4
     not_owned_basenames: 3
     not_owned_owners: 3
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 24 active days in 90d — pass"
+  - "activity: 23 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "workers-hono-rate-limit"
+    title: "workers-hono-rate-limit"
+    description: "Hono-compatible middleware for rate limiting requests with Cloudflare Workers."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 110
+    first_seen: null
+    last_push: "2026-08-10"
   - name: "dotfiles"
     title: "dotfiles"
     description: "dotfiles for my macOS & Linux environments ⌨️"
@@ -91,9 +99,22 @@ repos:
       - "stow"
       - "tmux"
       - "zsh"
-    stars_fact: 202
+    stars_fact: 201
     first_seen: null
     last_push: "2026-09-20"
+  - name: "simple-scrypt"
+    title: "simple-scrypt"
+    description: "A convenience library for generating, comparing and inspecting password hashes using the scrypt KDF in Go 🔑"
+    language: "Go"
+    topics:
+      - "go"
+      - "hash"
+      - "password"
+      - "password-hash"
+      - "scrypt"
+    stars_fact: 204
+    first_seen: null
+    last_push: "2026-08-10"
   - name: "artifacts-starter"
     title: "artifacts-starter"
     description: "Quick demo of Cloudflare Artifacts https://developers.cloudflare.com/artifacts/"
@@ -126,34 +147,10 @@ repos:
     stars_fact: 172
     first_seen: null
     last_push: "2023-02-25"
-  - name: "greyUI"
-    title: "greyUI"
-    description: "A greyscale UI component library, built on BaseUI and inspired by BeOS, HaikuOS and operating systems of old."
-    language: "TypeScript"
-    topics:
-      - "baseui"
-      - "beos"
-      - "components"
-      - "haikuos"
-    stars_fact: 5
-    first_seen: null
-    last_push: "2026-09-05"
-  - name: "chipdesk"
-    title: "chipdesk"
-    description: "A TUI (terminal UI) for programming XGecu T48, T56 and TL* chip programmers. Read, verify & write EPROMs to your hearts desire."
-    language: "TypeScript"
-    topics:
-      - "minipro"
-      - "t48"
-      - "tl866"
-      - "tui"
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-07-30"
 ---
 
 # elithrar
 
-52 pushes across 12 repositories on 24 active days in the last 90 days of public GitHub push activity.
+51 pushes across 12 repositories on 23 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/elithrar

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "541318303a272608"
-pushes_per_week: [14, 2, 1, 0, 0, 0, 4, 0, 0, 0, 0, 0, 2]
+pushes_per_week: [11, 2, 1, 0, 0, 0, 4, 0, 0, 0, 0, 0, 2]
 windows:
   "7d":
     pushes: 2
@@ -29,7 +29,7 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 2
   "90d":
-    pushes: 23
+    pushes: 20
     distinct_repos: 5
     active_days: 8
     repos_not_owned: 2
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 2.8750
+  push_per_day: 2.5000
   repo_per_active_day: 0.6250
   not_owned_ratio: 0.4000
   basename_concentration: 0.6000
@@ -65,9 +65,9 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 2
   "90d":
-    pushes: 23
+    pushes: 20
     distinct_repos: 5
-    pushes_per_repo: 4.6000
+    pushes_per_repo: 4.0000
     active_days: 8
     repos_not_owned: 2
     not_owned_basenames: 1
@@ -96,7 +96,7 @@ repos:
       - "search"
       - "top-k"
       - "weighted-quantiles"
-    stars_fact: 2967
+    stars_fact: 2971
     first_seen: null
     last_push: "2026-08-09"
   - name: "chess-extension-for-vscode"
@@ -143,6 +143,6 @@ repos:
 
 # ekzhu
 
-23 pushes across 5 repositories on 8 active days in the last 90 days of public GitHub push activity.
+20 pushes across 5 repositories on 8 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ekzhu

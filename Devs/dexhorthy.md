@@ -10,7 +10,7 @@ provenance_repos:
 admitted: true
 low_n: true
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "6a454934fcba31af"
   - "de0577c71825884c"
@@ -79,6 +79,14 @@ reasons:
   - "activity: 2 active days in 90d — below the 5-day line, LABELLED low-n (never suppressed)"
   - "automation: clear — pass"
 repos:
+  - name: "shannon"
+    title: "shannon"
+    description: "alternative to claude -p that lifecycles interactive sessions in tmux"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 248
+    first_seen: null
+    last_push: "2026-05-13"
   - name: "kustomark-ralph-bash"
     title: "kustomark-ralph-bash"
     description: null
@@ -95,14 +103,6 @@ repos:
     stars_fact: 50
     first_seen: null
     last_push: "2026-03-18"
-  - name: "shannon"
-    title: "shannon"
-    description: "alternative to claude -p that lifecycles interactive sessions in tmux"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 249
-    first_seen: null
-    last_push: "2026-05-13"
   - name: "dotfiles"
     title: "dotfiles"
     description: null

@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-01T06:06:11.188250+00:00"
 provenance:
   - "3eacb4655aba2497"
 pushes_per_week: [0, 9, 4, 0, 1, 6, 2, 1, 0, 2, 0, 2, 4]
@@ -84,7 +84,23 @@ repos:
     topics: []
     stars_fact: 2
     first_seen: null
-    last_push: "2026-09-20"
+    last_push: "2026-09-27"
+  - name: "ager-app"
+    title: "ager-app"
+    description: "AGER — link-first Italian civic news aggregator (web + mobile frontend)"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-09-25"
+  - name: "ager-web"
+    title: "ager-web"
+    description: "Next.js (App Router) frontend for Ager, featuring auth (httpOnly refresh token cookies), i18n (it/en), and core views for feed, articles, search, lists, and profile."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-24"
   - name: "phpcsfixer-parallel-worker-poc"
     title: "phpcsfixer-parallel-worker-poc"
     description: "Repro for PHP-CS-Fixer#9854: a parallel worker killed by a non-exception fatal silently drops its file chunk while the run still exits 0"
@@ -120,7 +136,7 @@ repos:
       - "vulnerability-detection"
     stars_fact: 59
     first_seen: null
-    last_push: "2026-09-23"
+    last_push: "2026-09-28"
   - name: "gigioneggiando"
     title: "gigioneggiando"
     description: "Luigi Colluto — SWE student @ SDU · LLM-native security tooling & full-stack. 2 CVEs, LiveKit Security Hall of Fame."
@@ -129,22 +145,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-09-18"
-  - name: "os-distr-sys-labs"
-    title: "os-distr-sys-labs"
-    description: "Operating Systems & Distributed Systems course lab packages (E01-E11)"
-    language: "Python"
-    topics: []
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-09-12"
-  - name: "ager-web"
-    title: "ager-web"
-    description: "Next.js (App Router) frontend for Ager, featuring auth (httpOnly refresh token cookies), i18n (it/en), and core views for feed, articles, search, lists, and profile."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-07-10"
 ---
 
 # gigioneggiando
