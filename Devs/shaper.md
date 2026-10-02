@@ -8,11 +8,11 @@ provenance_repos:
   - "cline/cline"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+repos_populated: false
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "533d51d9d3dea76f"
-pushes_per_week: [4, 3, 0, 0, 3, 2, 0, 2, 0, 0, 1, 2, 2]
+pushes_per_week: [4, 3, 0, 0, 4, 1, 0, 2, 0, 0, 1, 2, 2]
 windows:
   "7d":
     pushes: 2
@@ -76,55 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 15 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "shaper.github.io"
-    title: "shaper.github.io"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-01-28"
-  - name: "game-club-nextjs"
-    title: "game-club-nextjs"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-06-26"
-  - name: "yahoo-weather"
-    title: "yahoo-weather"
-    description: "A Ruby object-oriented interface to the Yahoo! Weather feed."
-    language: "Ruby"
-    topics: []
-    stars_fact: 32
-    first_seen: null
-    last_push: "2009-12-26"
-  - name: "ai-image-commander"
-    title: "ai-image-commander"
-    description: "A command-line tool for generating AI images interactively."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 5
-    first_seen: null
-    last_push: "2025-04-21"
-  - name: "yelp"
-    title: "yelp"
-    description: "A Ruby interface to the Yelp Developer API for searching local business information."
-    language: "Ruby"
-    topics: []
-    stars_fact: 33
-    first_seen: null
-    last_push: "2017-03-09"
-  - name: "arcs-live"
-    title: "arcs-live"
-    description: "Self-contained Arcs shell, can be served as-is via gh-pages or rawgit"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2018-02-23"
+repos: []
 ---
 
 # shaper

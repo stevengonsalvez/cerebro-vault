@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [29, 44, 23, 40, 16, 8, 3, 6, 1, 2, 7, 20, 37]
+pushes_per_week: [17, 49, 34, 27, 9, 8, 3, 6, 1, 2, 9, 23, 35]
 windows:
   "7d":
     pushes: 40
@@ -22,14 +22,14 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 66
+    pushes: 69
     distinct_repos: 19
-    active_days: 14
+    active_days: 16
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 236
+    pushes: 223
     distinct_repos: 28
     active_days: 52
     repos_not_owned: 1
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 4.5385
+  push_per_day: 4.2885
   repo_per_active_day: 0.5385
   not_owned_ratio: 0.0357
   basename_concentration: 0.0714
@@ -57,17 +57,17 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 66
+    pushes: 69
     distinct_repos: 19
-    pushes_per_repo: 3.4737
-    active_days: 14
+    pushes_per_repo: 3.6316
+    active_days: 16
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 236
+    pushes: 223
     distinct_repos: 28
-    pushes_per_repo: 8.4286
+    pushes_per_repo: 7.9643
     active_days: 52
     repos_not_owned: 1
     not_owned_basenames: 1
@@ -88,66 +88,51 @@ repos:
       - "php"
       - "php-extension"
       - "pie"
-    stars_fact: 22
+    stars_fact: 23
     first_seen: null
-    last_push: "2026-09-23"
-  - name: "whetstone"
-    title: "whetstone"
-    description: "AI-powered development tools. 19 agents, 22 commands, 32 skills, 1 hook, 1 MCP server for code review, research, design, and workflow automation."
-    language: "Python"
+    last_push: "2026-10-01"
+  - name: "codesage"
+    title: "codesage"
+    description: "Code intelligence engine for AI coding agents. Structural graph queries plus semantic search, exposed via CLI and MCP."
+    language: "Rust"
     topics:
-      - "agent-skills"
       - "ai-agents"
-      - "ai-tools"
-      - "claude-code"
-      - "claude-code-plugin"
-      - "code-review"
-      - "developer-tools"
-      - "mcp-server"
-      - "skills"
-    stars_fact: 34
+      - "code-intelligence"
+      - "code-search"
+      - "embeddings"
+      - "mcp"
+      - "rust"
+      - "semantic-search"
+      - "tree-sitter"
+    stars_fact: 20
     first_seen: null
-    last_push: "2026-09-23"
-  - name: "statgrab"
-    title: "statgrab"
-    description: "PHP extension wrapping libstatgrab for cross-platform system statistics. PHP 8.0-8.5, libstatgrab 0.92+. Modernized 2026 line of the 2005 PECL package."
-    language: "C"
-    topics:
-      - "libstatgrab"
-      - "monitoring"
-      - "pecl"
-      - "php"
-      - "php-ext"
-      - "php-extension"
-      - "php-extensions"
-      - "pie"
-      - "statgrab"
-      - "system-monitoring"
-      - "system-statistics"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-23"
-  - name: "pdo_duckdb"
-    title: "pdo_duckdb"
-    description: "PDO driver for DuckDB, the in-process analytical database."
+    last_push: "2026-10-01"
+  - name: "php_excel"
+    title: "php_excel"
+    description: "PHP Extension interface to the Excel writing/reading library"
     language: "PHP"
     topics:
-      - "duckdb"
-      - "olap"
-      - "pdo"
+      - "excel"
+      - "libxl"
+      - "pecl"
       - "php"
       - "php-extension"
-    stars_fact: 18
+      - "xlsx"
+    stars_fact: 604
     first_seen: null
-    last_push: "2026-09-23"
-  - name: "lchash"
-    title: "lchash"
-    description: "Linear-probing hash table extension for PHP. PHP 7.4 through 8.5, NTS and ZTS."
-    language: "C"
-    topics: []
-    stars_fact: 0
+    last_push: "2026-10-01"
+  - name: "fastjson"
+    title: "fastjson"
+    description: "Fast JSON encode/decode/validate for PHP 8.1+, backed by yyjson. Drop-in alternative to ext/json with namespaced fastjson_* functions and json_last_error-compatible error reporting."
+    language: "PHP"
+    topics:
+      - "json"
+      - "performance"
+      - "php"
+      - "php-extension"
+    stars_fact: 23
     first_seen: null
-    last_push: "2026-09-23"
+    last_push: "2026-09-30"
   - name: "phpser"
     title: "phpser"
     description: "Fast binary serializer for PHP cache workloads. Decoder-optimized, beats igbinary on packed numerics, deep-nested structures, and same-class DTO batches."
@@ -161,11 +146,24 @@ repos:
       - "serialization"
     stars_fact: 17
     first_seen: null
-    last_push: "2026-09-23"
+    last_push: "2026-09-29"
+  - name: "fast_uuid"
+    title: "fast_uuid"
+    description: "Fast RFC 9562 UUID generation (v1-v8 + nil/max) for PHP: a C extension with a ramsey/uuid-compatible API and procedural functions."
+    language: "PHP"
+    topics:
+      - "guid"
+      - "php"
+      - "php-extension"
+      - "rfc9562"
+      - "uuid"
+    stars_fact: 21
+    first_seen: null
+    last_push: "2026-09-29"
 ---
 
 # iliaal
 
-236 pushes across 28 repositories on 52 active days in the last 90 days of public GitHub push activity.
+223 pushes across 28 repositories on 52 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/iliaal

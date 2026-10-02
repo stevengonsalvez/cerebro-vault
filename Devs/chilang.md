@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "48dbbdd8fd0d3029"
-pushes_per_week: [1, 0, 0, 2, 22, 3, 0, 0, 0, 0, 0, 5, 4]
+pushes_per_week: [0, 0, 0, 9, 15, 3, 0, 0, 0, 0, 0, 5, 13]
 windows:
   "7d":
-    pushes: 4
+    pushes: 13
     distinct_repos: 1
-    active_days: 2
+    active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 9
+    pushes: 18
     distinct_repos: 1
-    active_days: 4
+    active_days: 5
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 37
-    distinct_repos: 2
+    pushes: 45
+    distinct_repos: 1
     active_days: 14
-    repos_not_owned: 2
-    not_owned_basenames: 2
-    not_owned_owners: 2
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.6429
-  repo_per_active_day: 0.1429
+  push_per_day: 3.2143
+  repo_per_active_day: 0.0714
   not_owned_ratio: 1.0000
-  basename_concentration: 0.5000
+  basename_concentration: 1.0000
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,29 +49,29 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 4
+    pushes: 13
     distinct_repos: 1
-    pushes_per_repo: 4.0000
-    active_days: 2
+    pushes_per_repo: 13.0000
+    active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 9
+    pushes: 18
     distinct_repos: 1
-    pushes_per_repo: 9.0000
-    active_days: 4
+    pushes_per_repo: 18.0000
+    active_days: 5
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 37
-    distinct_repos: 2
-    pushes_per_repo: 18.5000
+    pushes: 45
+    distinct_repos: 1
+    pushes_per_repo: 45.0000
     active_days: 14
-    repos_not_owned: 2
-    not_owned_basenames: 2
-    not_owned_owners: 2
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 14 active days in 90d — pass"
@@ -129,6 +129,6 @@ repos:
 
 # chilang
 
-37 pushes across 2 repositories on 14 active days in the last 90 days of public GitHub push activity.
+45 pushes across 1 repository on 14 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/chilang

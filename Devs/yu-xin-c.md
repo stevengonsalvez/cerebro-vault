@@ -8,11 +8,11 @@ provenance_repos:
   - "bytedance/deer-flow"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+repos_populated: false
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "16389f32495280ea"
-pushes_per_week: [5, 4, 4, 2, 0, 6, 4, 0, 0, 1, 1, 4, 3]
+pushes_per_week: [3, 6, 1, 2, 0, 7, 3, 0, 0, 1, 2, 3, 3]
 windows:
   "7d":
     pushes: 3
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 34
+    pushes: 31
     distinct_repos: 12
-    active_days: 21
+    active_days: 20
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.6190
-  repo_per_active_day: 0.5714
+  push_per_day: 1.5500
+  repo_per_active_day: 0.6000
   not_owned_ratio: 0.0000
   basename_concentration: 0.0833
   shapes: []
@@ -65,76 +65,22 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 34
+    pushes: 31
     distinct_repos: 12
-    pushes_per_repo: 2.8333
-    active_days: 21
+    pushes_per_repo: 2.5833
+    active_days: 20
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 21 active days in 90d — pass"
+  - "activity: 20 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "Sea-mult-agent"
-    title: "Sea-mult-agent"
-    description: "A AutoResearch Agent"
-    language: "Go"
-    topics: []
-    stars_fact: 331
-    first_seen: null
-    last_push: "2026-08-19"
-  - name: "hy3-game-test-lab"
-    title: "hy3-game-test-lab"
-    description: "Layered playtesting and first-failure localization for AI-generated browser games."
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-22"
-  - name: "yu-xin-c"
-    title: "yu-xin-c"
-    description: "GitHub profile README"
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-18"
-  - name: "dsh-project-wiki"
-    title: "dsh-project-wiki"
-    description: "Auditable workspace-local project Wiki with a native Web UI for DeepSeek Harness"
-    language: "JavaScript"
-    topics:
-      - "coding-agent"
-      - "deepseek-harness"
-      - "dsh"
-      - "dsh-plugin"
-      - "knowledge-base"
-      - "wiki"
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-08-19"
-  - name: "nanobot-llm-wiki"
-    title: "nanobot-llm-wiki"
-    description: "LLM Wiki long-term memory plugin for NanoBot"
-    language: "Python"
-    topics: []
-    stars_fact: 13
-    first_seen: null
-    last_push: "2026-08-13"
-  - name: "agent-unpacked"
-    title: "agent-unpacked"
-    description: "Stellar鱼的 Agent 源码拆解教程：DSH、PI Agent 与 nanobot"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 17
-    first_seen: null
-    last_push: "2026-08-18"
+repos: []
 ---
 
 # yu-xin-c
 
-34 pushes across 12 repositories on 21 active days in the last 90 days of public GitHub push activity.
+31 pushes across 12 repositories on 20 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/yu-xin-c

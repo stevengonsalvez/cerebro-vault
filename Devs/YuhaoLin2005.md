@@ -8,37 +8,37 @@ provenance_repos:
   - "affaan-m/ECC"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+repos_populated: false
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "edb3a626875732de"
-pushes_per_week: [27, 14, 8, 4, 0, 0, 1, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [27, 16, 4, 3, 0, 1, 0, 0, 0, 0, 0, 0, 1]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 54
+    pushes: 52
     distinct_repos: 12
-    active_days: 18
+    active_days: 17
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 3.0000
-  repo_per_active_day: 0.6667
+  push_per_day: 3.0588
+  repo_per_active_day: 0.7059
   not_owned_ratio: 0.0833
   basename_concentration: 0.0833
   shapes: []
@@ -49,102 +49,38 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
+    pushes: 1
+    distinct_repos: 1
+    pushes_per_repo: 1.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
+    pushes: 1
+    distinct_repos: 1
+    pushes_per_repo: 1.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 54
+    pushes: 52
     distinct_repos: 12
-    pushes_per_repo: 4.5000
-    active_days: 18
+    pushes_per_repo: 4.3333
+    active_days: 17
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 18 active days in 90d — pass"
+  - "activity: 17 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "fjau-air-platform"
-    title: "fjau-air-platform"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-19"
-  - name: "hermes-workspace"
-    title: "hermes-workspace"
-    description: "Does your AI agent actually follow rules? 13 pre-registered experiments + 5-layer verification architecture. Paper, data, code — all public."
-    language: "Python"
-    topics:
-      - "ai-alignment"
-      - "ai-product"
-      - "causal-verification"
-      - "cognitive-architecture"
-      - "deepseek"
-      - "global-workspace-theory"
-      - "j-space"
-      - "llm-architecture"
-      - "open-source"
-      - "prompt-engineering"
-      - "self-referential-systems"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-14"
-  - name: "qingxuanji"
-    title: "qingxuanji"
-    description: "青玄纪行 · 放置修仙 idle game build"
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-13"
-  - name: "resume-stress-test"
-    title: "resume-stress-test"
-    description: "投递之前，让 AI 先假装成最不想录用你的人，把你查一遍。三层递进简历压力测试闭环，纯提示词、无依赖、任意 AI 平台可用。"
-    language: "Python"
-    topics:
-      - "ai-agent"
-      - "career"
-      - "interview-preparation"
-      - "prompt-engineering"
-      - "resume"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-10"
-  - name: "mino-workspace"
-    title: "mino-workspace"
-    description: "MoneyAI-Agents 产品 Demo + 路演工作区模板：7 阶段全流程 + 机械校验门 + 模型档位适配层"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-27"
-  - name: "hollow-compliance-detector"
-    title: "hollow-compliance-detector"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-15"
+repos: []
 ---
 
 # YuhaoLin2005
 
-54 pushes across 12 repositories on 18 active days in the last 90 days of public GitHub push activity.
+52 pushes across 12 repositories on 17 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/YuhaoLin2005

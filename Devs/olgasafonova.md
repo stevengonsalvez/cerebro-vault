@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "3cb7ff1cdcf97c6b"
-pushes_per_week: [0, 2, 11, 20, 2, 6, 10, 1, 0, 1, 0, 1, 1]
+pushes_per_week: [0, 2, 22, 10, 1, 13, 3, 1, 0, 1, 0, 1, 1]
 windows:
   "7d":
-    pushes: 2
-    distinct_repos: 2
-    active_days: 2
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
-    distinct_repos: 2
+    pushes: 1
+    distinct_repos: 1
     pushes_per_repo: 1.0000
-    active_days: 2
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -77,9 +77,27 @@ reasons:
   - "activity: 19 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "productplan-mcp-server"
-    title: "productplan-mcp-server"
-    description: "MCP server for ProductPlan - enables AI assistants to interact with roadmaps, OKRs, and discovery features"
+  - name: "gleif-mcp-server"
+    title: "gleif-mcp-server"
+    description: "MCP server for GLEIF LEI (Legal Entity Identifier) database access"
+    language: "Go"
+    topics:
+      - "anthropic"
+      - "claude"
+      - "gleif"
+      - "go"
+      - "golang"
+      - "legal-entity-identifier"
+      - "lei"
+      - "mcp"
+      - "mcp-server"
+      - "model-context-protocol"
+    stars_fact: 7
+    first_seen: null
+    last_push: "2026-09-14"
+  - name: "mediawiki-mcp-server"
+    title: "mediawiki-mcp-server"
+    description: "MCP server for MediaWiki wikis - search, read, and edit wiki content from AI assistants"
     language: "Go"
     topics:
       - "anthropic"
@@ -88,14 +106,30 @@ repos:
       - "golang"
       - "mcp"
       - "mcp-server"
+      - "mediawiki"
       - "model-context-protocol"
-      - "okr"
-      - "product-management"
-      - "productplan"
-      - "roadmap"
-    stars_fact: 3
+      - "starred"
+      - "wiki"
+      - "wikipedia"
+    stars_fact: 19
     first_seen: null
-    last_push: "2026-09-24"
+    last_push: "2026-09-28"
+  - name: "SkillCheck-Free"
+    title: "SkillCheck-Free"
+    description: "Validate Claude Code skills against the agentskills specification (Free tier)"
+    language: null
+    topics:
+      - "agentskills"
+      - "ai-tools"
+      - "claude-code"
+      - "claude-skills"
+      - "linter"
+      - "mcp"
+      - "skill-validation"
+      - "skillsmp"
+    stars_fact: 40
+    first_seen: null
+    last_push: "2026-09-19"
   - name: "tilbudstrolden-mcp"
     title: "tilbudstrolden-mcp"
     description: "MCP server for Nordic grocery deal hunting via the Tjek API (Denmark, Norway, Sweden, Finland)"
@@ -121,71 +155,38 @@ repos:
       - "sweden"
       - "tilbud"
       - "typescript"
-    stars_fact: 39
+    stars_fact: 42
+    first_seen: null
+    last_push: "2026-09-28"
+  - name: "nordic-registry-mcp-server"
+    title: "nordic-registry-mcp-server"
+    description: "MCP server for Nordic company registries (Norway, Denmark, Finland, Sweden)"
+    language: "Go"
+    topics:
+      - "anthropic"
+      - "brreg"
+      - "claude"
+      - "company-registry"
+      - "denmark"
+      - "finland"
+      - "go"
+      - "golang"
+      - "mcp"
+      - "mcp-server"
+      - "model-context-protocol"
+      - "norway"
+      - "sweden"
+    stars_fact: 11
     first_seen: null
     last_push: "2026-09-14"
-  - name: "miro-mcp-server"
-    title: "miro-mcp-server"
-    description: "MCP server for controlling Miro whiteboards with AI assistants"
-    language: "Go"
-    topics:
-      - "anthropic"
-      - "claude"
-      - "collaboration"
-      - "go"
-      - "golang"
-      - "mcp"
-      - "mcp-server"
-      - "miro"
-      - "miro-api"
-      - "model-context-protocol"
-      - "whiteboard"
-    stars_fact: 27
-    first_seen: null
-    last_push: "2026-09-21"
-  - name: "mediawiki-mcp-server"
-    title: "mediawiki-mcp-server"
-    description: "MCP server for MediaWiki wikis - search, read, and edit wiki content from AI assistants"
-    language: "Go"
-    topics:
-      - "anthropic"
-      - "claude"
-      - "go"
-      - "golang"
-      - "mcp"
-      - "mcp-server"
-      - "mediawiki"
-      - "model-context-protocol"
-      - "starred"
-      - "wiki"
-      - "wikipedia"
-    stars_fact: 20
-    first_seen: null
-    last_push: "2026-09-21"
-  - name: "mcp-cache-go"
-    title: "mcp-cache-go"
-    description: "ttlMs cache-hint middleware for Go MCP servers (go-sdk, SEP-2549)"
-    language: "Go"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-21"
-  - name: "SkillCheck-Free"
-    title: "SkillCheck-Free"
-    description: "Validate Claude Code skills against the agentskills specification (Free tier)"
+  - name: "olgasafonova"
+    title: "olgasafonova"
+    description: "GitHub profile README"
     language: null
-    topics:
-      - "agentskills"
-      - "ai-tools"
-      - "claude-code"
-      - "claude-skills"
-      - "linter"
-      - "mcp"
-      - "skill-validation"
-      - "skillsmp"
-    stars_fact: 39
+    topics: []
+    stars_fact: 2
     first_seen: null
-    last_push: "2026-09-19"
+    last_push: "2026-09-26"
 ---
 
 # olgasafonova

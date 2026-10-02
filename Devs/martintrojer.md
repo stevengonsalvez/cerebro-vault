@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [3, 2, 0, 0, 0, 2, 0, 1, 0, 1, 34, 25, 36]
+pushes_per_week: [4, 1, 0, 0, 0, 2, 0, 1, 0, 1, 36, 28, 34]
 windows:
   "7d":
-    pushes: 44
+    pushes: 38
     distinct_repos: 8
     active_days: 7
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 1
   "30d":
-    pushes: 96
+    pushes: 99
     distinct_repos: 9
     active_days: 20
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 1
   "90d":
-    pushes: 104
+    pushes: 107
     distinct_repos: 11
     active_days: 26
     repos_not_owned: 5
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 4.0000
+  push_per_day: 4.1154
   repo_per_active_day: 0.4231
   not_owned_ratio: 0.4545
   basename_concentration: 0.1818
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 44
+    pushes: 38
     distinct_repos: 8
-    pushes_per_repo: 5.5000
+    pushes_per_repo: 4.7500
     active_days: 7
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 1
   "30d":
-    pushes: 96
+    pushes: 99
     distinct_repos: 9
-    pushes_per_repo: 10.6667
+    pushes_per_repo: 11.0000
     active_days: 20
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 1
   "90d":
-    pushes: 104
+    pushes: 107
     distinct_repos: 11
-    pushes_per_repo: 9.4545
+    pushes_per_repo: 9.7273
     active_days: 26
     repos_not_owned: 5
     not_owned_basenames: 5
@@ -84,15 +84,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-24"
-  - name: "mu"
-    title: "mu"
-    description: "A small, durable control plane for a persistent crew of AI agents in tmux panes."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 4
-    first_seen: null
-    last_push: "2026-09-24"
+    last_push: "2026-10-02"
   - name: "dotfiles"
     title: "dotfiles"
     description: null
@@ -100,23 +92,15 @@ repos:
     topics: []
     stars_fact: 3
     first_seen: null
-    last_push: "2026-09-24"
-  - name: "murmur"
-    title: "murmur"
-    description: "Agent state across every machine you work on, in one view"
-    language: "TypeScript"
+    last_push: "2026-10-01"
+  - name: "sway-ipc-oracle"
+    title: "sway-ipc-oracle"
+    description: "Conformance tests for compositors speaking the i3/sway IPC protocol: i3's own test suite and captured sway replies, with published results for i3, sway and swayward."
+    language: "Perl"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-24"
-  - name: "coop"
-    title: "coop"
-    description: "Fire remote jobs down a private ssh channel nothing else can contend with"
-    language: "Rust"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-16"
+    last_push: "2026-10-02"
   - name: "vecgrep"
     title: "vecgrep"
     description: "Semantic grep — like ripgrep, but with vector search"
@@ -125,10 +109,26 @@ repos:
     stars_fact: 11
     first_seen: null
     last_push: "2026-09-12"
+  - name: "jj-fugitive"
+    title: "jj-fugitive"
+    description: "A Neovim plugin that brings vim-fugitive-style version control integration for Jujutsu (jj)."
+    language: "Lua"
+    topics: []
+    stars_fact: 10
+    first_seen: null
+    last_push: "2026-04-09"
+  - name: "hotkey-listener"
+    title: "hotkey-listener"
+    description: "Cross-platform global hotkey listener with native Wayland support"
+    language: "Rust"
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-02-09"
 ---
 
 # martintrojer
 
-104 pushes across 11 repositories on 26 active days in the last 90 days of public GitHub push activity.
+107 pushes across 11 repositories on 26 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/martintrojer

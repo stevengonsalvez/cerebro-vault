@@ -8,28 +8,28 @@ provenance_repos:
   - "agentscope-ai/QwenPaw"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+repos_populated: false
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "541318303a272608"
-pushes_per_week: [5, 7, 2, 0, 3, 2, 0, 2, 0, 2, 8, 7, 5]
+pushes_per_week: [4, 8, 1, 0, 4, 1, 0, 2, 0, 2, 9, 6, 11]
 windows:
   "7d":
-    pushes: 5
+    pushes: 11
     distinct_repos: 2
-    active_days: 2
+    active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 22
+    pushes: 28
     distinct_repos: 2
-    active_days: 11
+    active_days: 12
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 43
+    pushes: 48
     distinct_repos: 4
     active_days: 27
     repos_not_owned: 1
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.5926
+  push_per_day: 1.7778
   repo_per_active_day: 0.1481
   not_owned_ratio: 0.2500
   basename_concentration: 0.5000
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 5
+    pushes: 11
     distinct_repos: 2
-    pushes_per_repo: 2.5000
-    active_days: 2
+    pushes_per_repo: 5.5000
+    active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 22
+    pushes: 28
     distinct_repos: 2
-    pushes_per_repo: 11.0000
-    active_days: 11
+    pushes_per_repo: 14.0000
+    active_days: 12
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 43
+    pushes: 48
     distinct_repos: 4
-    pushes_per_repo: 10.7500
+    pushes_per_repo: 12.0000
     active_days: 27
     repos_not_owned: 1
     not_owned_basenames: 1
@@ -81,6 +81,6 @@ repos: []
 
 # zhijianma
 
-43 pushes across 4 repositories on 27 active days in the last 90 days of public GitHub push activity.
+48 pushes across 4 repositories on 27 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/zhijianma

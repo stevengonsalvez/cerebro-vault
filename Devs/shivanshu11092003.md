@@ -8,8 +8,8 @@ provenance_repos:
   - "BuilderIO/agent-native"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+repos_populated: false
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "745308b2b7085095"
 pushes_per_week: [1, 6, 1, 2, 0, 0, 0, 0, 0, 0, 1, 0, 0]
@@ -76,55 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 9 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "salarybox"
-    title: "salarybox"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-24"
-  - name: "playpower"
-    title: "playpower"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-17"
-  - name: "trizen"
-    title: "trizen"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-13"
-  - name: "1Fi-assignment"
-    title: "1Fi-assignment"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-05"
-  - name: "dragonX"
-    title: "dragonX"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-30"
-  - name: "jastro"
-    title: "jastro"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-27"
+repos: []
 ---
 
 # shivanshu11092003

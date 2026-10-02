@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "533d51d9d3dea76f"
-pushes_per_week: [9, 8, 0, 0, 0, 2, 1, 0, 0, 0, 1, 4, 0]
+pushes_per_week: [9, 8, 0, 0, 0, 2, 1, 0, 0, 0, 2, 3, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,6 +77,22 @@ reasons:
   - "activity: 10 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "owlbear-shadowdark-character-sheet"
+    title: "owlbear-shadowdark-character-sheet"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 23
+    first_seen: null
+    last_push: "2026-07-16"
+  - name: "drainer"
+    title: "drainer"
+    description: "an app restriction app"
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-25"
   - name: "folio"
     title: "folio"
     description: null
@@ -109,22 +125,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-08-31"
-  - name: "llama-cmp.nvim"
-    title: "llama-cmp.nvim"
-    description: "use local ollama models for a github copilot like experience in neovim"
-    language: "Lua"
-    topics: []
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-01-20"
-  - name: "pi-nvim"
-    title: "pi-nvim"
-    description: null
-    language: "Lua"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-19"
 ---
 
 # maxpaulus43

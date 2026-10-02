@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: true
 repos_populated: true
-generated_at: "2026-09-24T15:17:54.275119+00:00"
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "5a94dd163bfbe84d"
 pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
@@ -90,7 +90,7 @@ repos:
     description: "A deep-research agent with an enforced budget, verified quotes, and a privacy boundary for local data."
     language: "Go"
     topics: []
-    stars_fact: 311
+    stars_fact: 314
     first_seen: "2026-08-15T06:00:07.075101+00:00"
     last_push: "2026-08-13"
   - name: "Dates"

@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "73468cde177ddae6"
 pushes_per_week: [5, 4, 1, 1, 0, 2, 1, 0, 0, 1, 0, 0, 1]
@@ -77,6 +77,14 @@ reasons:
   - "activity: 11 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "grocerAlgo"
+    title: "grocerAlgo"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-28"
   - name: "skinscan"
     title: "skinscan"
     description: "dasd"
@@ -93,14 +101,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-09-07"
-  - name: "grocerAlgo"
-    title: "grocerAlgo"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-02"
   - name: "sentinel-dev"
     title: "sentinel-dev"
     description: null

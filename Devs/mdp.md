@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "533d51d9d3dea76f"
-pushes_per_week: [0, 1, 0, 5, 1, 1, 0, 0, 1, 0, 0, 0, 0]
+pushes_per_week: [0, 1, 0, 5, 1, 1, 0, 1, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,6 +77,38 @@ reasons:
   - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "SlateChess"
+    title: "SlateChess"
+    description: "e-ink Chess game for 1 and 2 player (in person) - Koreader Plugin: works on Kindle and Kobo"
+    language: "Lua"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-09-09"
+  - name: "remote-browser"
+    title: "remote-browser"
+    description: "A browser for me and my agent"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-30"
+  - name: "qrterminal"
+    title: "qrterminal"
+    description: "QR Codes in your terminal"
+    language: "Go"
+    topics: []
+    stars_fact: 559
+    first_seen: null
+    last_push: "2026-09-25"
+  - name: "chess-trainer"
+    title: "chess-trainer"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-28"
   - name: "linkedin-extension-fingerprinting"
     title: "linkedin-extension-fingerprinting"
     description: null
@@ -85,14 +117,6 @@ repos:
     stars_fact: 216
     first_seen: null
     last_push: "2026-02-05"
-  - name: "chess-trainer"
-    title: "chess-trainer"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-20"
   - name: "rotp"
     title: "rotp"
     description: "Ruby One Time Password library"
@@ -101,30 +125,6 @@ repos:
     stars_fact: 1657
     first_seen: null
     last_push: "2025-11-24"
-  - name: "SlidePrint"
-    title: "SlidePrint"
-    description: "Print and Capture any DocSend deck or document"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 27
-    first_seen: null
-    last_push: "2026-07-27"
-  - name: "print-mcp"
-    title: "print-mcp"
-    description: "Print from your agent, anywhere in the world"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-09"
-  - name: "SlateChess"
-    title: "SlateChess"
-    description: "e-ink Chess game for 1 and 2 player (in person) - Koreader Plugin: works on Kindle and Kobo"
-    language: "Lua"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-09"
 ---
 
 # mdp

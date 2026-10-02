@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "16389f32495280ea"
-pushes_per_week: [2, 0, 0, 0, 0, 2, 1, 1, 0, 1, 3, 56, 21]
+pushes_per_week: [2, 0, 0, 0, 0, 3, 1, 0, 0, 1, 4, 55, 23]
 windows:
   "7d":
-    pushes: 21
+    pushes: 23
     distinct_repos: 2
     active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 81
+    pushes: 83
     distinct_repos: 3
     active_days: 10
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 87
+    pushes: 89
     distinct_repos: 7
     active_days: 15
     repos_not_owned: 0
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 5.8000
+  push_per_day: 5.9333
   repo_per_active_day: 0.4667
   not_owned_ratio: 0.0000
   basename_concentration: 0.1429
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 21
+    pushes: 23
     distinct_repos: 2
-    pushes_per_repo: 10.5000
+    pushes_per_repo: 11.5000
     active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 81
+    pushes: 83
     distinct_repos: 3
-    pushes_per_repo: 27.0000
+    pushes_per_repo: 27.6667
     active_days: 10
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 87
+    pushes: 89
     distinct_repos: 7
-    pushes_per_repo: 12.4286
+    pushes_per_repo: 12.7143
     active_days: 15
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -84,7 +84,15 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-24"
+    last_push: "2026-09-30"
+  - name: "MAGI-system"
+    title: "MAGI-system"
+    description: "An evidence-driven multi-agent decision engine, inspired by the three Magi in Neon Genesis Evangelion."
+    language: "Go"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-01"
   - name: "jamespud"
     title: "jamespud"
     description: null
@@ -101,14 +109,6 @@ repos:
     stars_fact: 1
     first_seen: null
     last_push: "2026-09-14"
-  - name: "MAGI-system"
-    title: "MAGI-system"
-    description: "An evidence-driven multi-agent decision engine, inspired by the three Magi in Neon Genesis Evangelion."
-    language: "Go"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-13"
   - name: "jamespud.github.io"
     title: "jamespud.github.io"
     description: null
@@ -129,6 +129,6 @@ repos:
 
 # jamespud
 
-87 pushes across 7 repositories on 15 active days in the last 90 days of public GitHub push activity.
+89 pushes across 7 repositories on 15 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/jamespud

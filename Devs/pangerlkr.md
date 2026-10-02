@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "edb3a626875732de"
-pushes_per_week: [0, 2, 17, 6, 2, 0, 1, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [0, 7, 14, 4, 2, 0, 1, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -84,7 +84,15 @@ repos:
     topics: []
     stars_fact: 2
     first_seen: null
-    last_push: "2026-09-24"
+    last_push: "2026-10-02"
+  - name: "case-intake-suite"
+    title: "case-intake-suite"
+    description: "Local case intake and evidence pack generator for moderation workflows — CLI + Flask dashboard + Markdown/PDF export"
+    language: "Python"
+    topics: []
+    stars_fact: 5
+    first_seen: null
+    last_push: "2026-07-23"
   - name: "network-intrusion-detection-system"
     title: "network-intrusion-detection-system"
     description: "Advanced Network Intrusion Detection System (NIDS) - ML-based cybersecurity project using Python with real-time packet analysis, anomaly detection, and web-based monitoring dashboard"
@@ -118,14 +126,6 @@ repos:
     stars_fact: 3
     first_seen: null
     last_push: "2026-08-02"
-  - name: "case-intake-suite"
-    title: "case-intake-suite"
-    description: "Local case intake and evidence pack generator for moderation workflows — CLI + Flask dashboard + Markdown/PDF export"
-    language: "Python"
-    topics: []
-    stars_fact: 6
-    first_seen: null
-    last_push: "2026-07-23"
 ---
 
 # pangerlkr

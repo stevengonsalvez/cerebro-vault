@@ -8,37 +8,37 @@ provenance_repos:
   - "chopratejas/headroom"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+repos_populated: false
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "73468cde177ddae6"
-pushes_per_week: [0, 1, 2, 0, 0, 0, 0, 0, 1, 2, 2, 9, 13]
+pushes_per_week: [0, 1, 2, 0, 0, 0, 0, 0, 1, 2, 2, 13, 12]
 windows:
   "7d":
     pushes: 14
-    distinct_repos: 2
-    active_days: 6
+    distinct_repos: 3
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 26
+    pushes: 29
     distinct_repos: 5
-    active_days: 12
+    active_days: 14
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 30
+    pushes: 33
     distinct_repos: 6
-    active_days: 15
+    active_days: 17
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.0000
-  repo_per_active_day: 0.4000
+  push_per_day: 1.9412
+  repo_per_active_day: 0.3529
   not_owned_ratio: 0.0000
   basename_concentration: 0.1667
   shapes: []
@@ -50,89 +50,37 @@ automation:
 facets:
   "7d":
     pushes: 14
-    distinct_repos: 2
-    pushes_per_repo: 7.0000
-    active_days: 6
+    distinct_repos: 3
+    pushes_per_repo: 4.6667
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 26
+    pushes: 29
     distinct_repos: 5
-    pushes_per_repo: 5.2000
-    active_days: 12
+    pushes_per_repo: 5.8000
+    active_days: 14
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 30
+    pushes: 33
     distinct_repos: 6
-    pushes_per_repo: 5.0000
-    active_days: 15
+    pushes_per_repo: 5.5000
+    active_days: 17
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 15 active days in 90d — pass"
+  - "activity: 17 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "wanwu-gun"
-    title: "wanwu-gun"
-    description: "万物皆可滚 · 女娲补天 —— 块魂同人 3D 网页小游戏：推着五色石从瓜子滚到整座山，全部模型、贴图与音乐由代码实时生成（单文件 HTML）"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-25"
-  - name: "qianli-jiangshan-tu"
-    title: "qianli-jiangshan-tu"
-    description: "《千里江山图》可交互长卷 — 横向展卷、四时天候、雨雪、炊烟与舟行"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-25"
-  - name: "quant_stocks"
-    title: "quant_stocks"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-25"
-  - name: "llm_learning"
-    title: "llm_learning"
-    description: null
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-23"
-  - name: "agent-skills-catalog"
-    title: "agent-skills-catalog"
-    description: "A domain-neutral catalog of reusable skills for Codex and compatible Agent Skills runtimes."
-    language: null
-    topics:
-      - "agent-skills"
-      - "ai-agents"
-      - "codex"
-      - "skill-catalog"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-13"
-  - name: "cinematic-memory-illustrator"
-    title: "cinematic-memory-illustrator"
-    description: "Turn everyday scenes into hand-painted cinematic memories with a reusable Codex skill."
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-13"
+repos: []
 ---
 
 # superdiaodiao
 
-30 pushes across 6 repositories on 15 active days in the last 90 days of public GitHub push activity.
+33 pushes across 6 repositories on 17 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/superdiaodiao

@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "c489e6fb5febf2ab"
-pushes_per_week: [5, 6, 4, 0, 0, 1, 2, 0, 0, 0, 0, 4, 6]
+pushes_per_week: [6, 4, 4, 0, 0, 3, 0, 0, 0, 0, 0, 7, 3]
 windows:
   "7d":
-    pushes: 8
-    distinct_repos: 5
-    active_days: 4
+    pushes: 6
+    distinct_repos: 3
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 28
+    pushes: 27
     distinct_repos: 14
-    active_days: 16
+    active_days: 15
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.7500
-  repo_per_active_day: 0.8750
+  push_per_day: 1.8000
+  repo_per_active_day: 0.9333
   not_owned_ratio: 0.0000
   basename_concentration: 0.0714
   shapes: []
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 8
-    distinct_repos: 5
-    pushes_per_repo: 1.6000
-    active_days: 4
+    pushes: 6
+    distinct_repos: 3
+    pushes_per_repo: 2.0000
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -65,18 +65,71 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 28
+    pushes: 27
     distinct_repos: 14
-    pushes_per_repo: 2.0000
-    active_days: 16
+    pushes_per_repo: 1.9286
+    active_days: 15
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 16 active days in 90d — pass"
+  - "activity: 15 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "lumen"
+    title: "lumen"
+    description: "Lightweight, pluggable, MCP-first SEO toolkit. Local site audits, keyword ideas, rank checks, CWV reports — CLI + MCP server + Cloudflare Worker. Free services only, BYOK, provenance on every number."
+    language: "TypeScript"
+    topics:
+      - "ai-agents"
+      - "cli"
+      - "cloudflare-workers"
+      - "developer-tools"
+      - "llm"
+      - "mcp"
+      - "model-context-protocol"
+      - "nodejs"
+      - "open-source"
+      - "seo"
+      - "seo-audit"
+      - "site-audit"
+      - "typescript"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-02"
+  - name: "lumen-plugin-template"
+    title: "lumen-plugin-template"
+    description: "Starter template for lumen audit-rule plugins."
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-01"
+  - name: "res-blog"
+    title: "res-blog"
+    description: "Nitish Personal Portfolio/Blog"
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-28"
+  - name: "minimal-editor"
+    title: "minimal-editor"
+    description: "Minimal, fast, VS Code-familiar editor for reviewing code changes. No extensions, no telemetry, no agent upsell."
+    language: "Rust"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-25"
+  - name: "hermes-kuma"
+    title: "hermes-kuma"
+    description: "Uptime-Kuma monitoring for agents: pinned MCP server + workflow skills (Agent Plugins v1 bundle for Hermes and OpenClaw)"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-25"
   - name: "runwaybar"
     title: "runwaybar"
     description: "RunwayBar — a featherweight AI usage bar for Linux (Claude Code, Codex, z.ai/ZCode, OpenCode)"
@@ -85,57 +138,10 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-09-24"
-  - name: "hermes-kuma"
-    title: "hermes-kuma"
-    description: "Uptime-Kuma monitoring for agents: pinned MCP server + workflow skills (Agent Plugins v1 bundle for Hermes and OpenClaw)"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-24"
-  - name: "keshav.uro.github.io"
-    title: "keshav.uro.github.io"
-    description: "Single Page website for Dr. Keshav Agarwal"
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-22"
-  - name: "diy-manus"
-    title: "diy-manus"
-    description: "A mini-manus implementation using LangGraph and Mem0"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-19"
-  - name: "voltbase"
-    title: "voltbase"
-    description: "Developer-first open-core EV charging-data tooling: normalisation library, discovery API, and MCP server over open data only. Apache-2.0."
-    language: "TypeScript"
-    topics:
-      - "cloudflare-workers"
-      - "datex-ii"
-      - "ev-charging"
-      - "mcp"
-      - "ocpi"
-      - "open-data"
-      - "typescript"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-19"
-  - name: "nklient"
-    title: "nklient"
-    description: "Http request client in NodeJS"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-05"
 ---
 
 # nitishagar
 
-28 pushes across 14 repositories on 16 active days in the last 90 days of public GitHub push activity.
+27 pushes across 14 repositories on 15 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/nitishagar

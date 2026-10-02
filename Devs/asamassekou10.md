@@ -10,10 +10,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "9e2ff10d772b1e71"
-pushes_per_week: [18, 10, 4, 7, 4, 7, 4, 2, 1, 3, 0, 3, 0]
+pushes_per_week: [12, 10, 4, 7, 4, 7, 4, 2, 1, 3, 0, 3, 0]
 windows:
   "7d":
     pushes: 0
@@ -30,16 +30,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 63
+    pushes: 57
     distinct_repos: 9
-    active_days: 31
+    active_days: 29
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.0323
-  repo_per_active_day: 0.2903
+  push_per_day: 1.9655
+  repo_per_active_day: 0.3103
   not_owned_ratio: 0.0000
   basename_concentration: 0.1111
   shapes: []
@@ -66,16 +66,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 63
+    pushes: 57
     distinct_repos: 9
-    pushes_per_repo: 7.0000
-    active_days: 31
+    pushes_per_repo: 6.3333
+    active_days: 29
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 31 active days in 90d — pass"
+  - "activity: 29 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "ship-safe"
@@ -159,6 +159,6 @@ repos:
 
 # asamassekou10
 
-63 pushes across 9 repositories on 31 active days in the last 90 days of public GitHub push activity.
+57 pushes across 9 repositories on 29 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/asamassekou10

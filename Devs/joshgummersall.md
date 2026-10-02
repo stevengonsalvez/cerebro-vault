@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "4a45ac7a449df20e"
 pushes_per_week: [0, 0, 4, 2, 0, 0, 0, 0, 0, 0, 1, 1, 1]
@@ -84,7 +84,15 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-23"
+    last_push: "2026-10-01"
+  - name: "homebrew-ankix"
+    title: "homebrew-ankix"
+    description: "Homebrew tap for ankix"
+    language: "Ruby"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-26"
   - name: "ankix"
     title: "ankix"
     description: "Generate contextual Anki translations from Kindle vocab highlights, YouTube transcripts, and web articles, using a local Ollama model"
@@ -104,15 +112,7 @@ repos:
       - "youtube"
     stars_fact: 4
     first_seen: null
-    last_push: "2026-09-11"
-  - name: "homebrew-ankix"
-    title: "homebrew-ankix"
-    description: "Homebrew tap for ankix"
-    language: "Ruby"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-11"
+    last_push: "2026-09-26"
   - name: "homebrew-summond"
     title: "homebrew-summond"
     description: "Summond Homebrew Formula"

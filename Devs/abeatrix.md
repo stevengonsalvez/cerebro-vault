@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "533d51d9d3dea76f"
-pushes_per_week: [13, 8, 13, 18, 13, 13, 2, 1, 0, 0, 5, 4, 8]
+pushes_per_week: [16, 7, 15, 16, 15, 9, 3, 0, 0, 0, 5, 5, 8]
 windows:
   "7d":
-    pushes: 8
+    pushes: 9
     distinct_repos: 1
-    active_days: 4
+    active_days: 5
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 17
+    pushes: 18
     distinct_repos: 1
-    active_days: 9
+    active_days: 10
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 98
+    pushes: 99
     distinct_repos: 1
-    active_days: 39
+    active_days: 40
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.5128
-  repo_per_active_day: 0.0256
+  push_per_day: 2.4750
+  repo_per_active_day: 0.0250
   not_owned_ratio: 1.0000
   basename_concentration: 1.0000
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 8
+    pushes: 9
     distinct_repos: 1
-    pushes_per_repo: 8.0000
-    active_days: 4
+    pushes_per_repo: 9.0000
+    active_days: 5
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 17
+    pushes: 18
     distinct_repos: 1
-    pushes_per_repo: 17.0000
-    active_days: 9
+    pushes_per_repo: 18.0000
+    active_days: 10
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 98
+    pushes: 99
     distinct_repos: 1
-    pushes_per_repo: 98.0000
-    active_days: 39
+    pushes_per_repo: 99.0000
+    active_days: 40
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 39 active days in 90d — pass"
+  - "activity: 40 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "kalshi-ts-mcp"
@@ -131,6 +131,6 @@ repos:
 
 # abeatrix
 
-98 pushes across 1 repository on 39 active days in the last 90 days of public GitHub push activity.
+99 pushes across 1 repository on 40 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/abeatrix

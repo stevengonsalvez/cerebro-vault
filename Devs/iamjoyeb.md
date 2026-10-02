@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "9d67ce648f6a8919"
-pushes_per_week: [0, 0, 0, 36, 10, 5, 5, 1, 0, 0, 1, 1, 0]
+pushes_per_week: [0, 0, 9, 27, 13, 5, 2, 1, 0, 0, 2, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,6 +77,22 @@ reasons:
   - "activity: 20 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "roadpilot"
+    title: "roadpilot"
+    description: null
+    language: "GDScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-01"
+  - name: "simple-chat-app"
+    title: "simple-chat-app"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-26"
   - name: "programs"
     title: "programs"
     description: null
@@ -109,14 +125,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-09-13"
-  - name: "iamjoyeb"
-    title: "iamjoyeb"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-09"
 ---
 
 # iamjoyeb

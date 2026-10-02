@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "3eacb4655aba2497"
-pushes_per_week: [24, 11, 11, 3, 2, 2, 0, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [22, 15, 7, 3, 4, 0, 0, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 53
+    pushes: 51
     distinct_repos: 3
-    active_days: 21
+    active_days: 20
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.5238
-  repo_per_active_day: 0.1429
+  push_per_day: 2.5500
+  repo_per_active_day: 0.1500
   not_owned_ratio: 0.0000
   basename_concentration: 0.3333
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 53
+    pushes: 51
     distinct_repos: 3
-    pushes_per_repo: 17.6667
-    active_days: 21
+    pushes_per_repo: 17.0000
+    active_days: 20
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 21 active days in 90d — pass"
+  - "activity: 20 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "ds4-on-spark"
@@ -138,6 +138,6 @@ repos:
 
 # Entrpi
 
-53 pushes across 3 repositories on 21 active days in the last 90 days of public GitHub push activity.
+51 pushes across 3 repositories on 20 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Entrpi

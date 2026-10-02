@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [13, 13, 13, 20, 4, 9, 5, 0, 1, 3, 6, 9, 17]
+pushes_per_week: [19, 7, 18, 16, 3, 11, 3, 0, 1, 3, 9, 8, 15]
 windows:
   "7d":
     pushes: 17
@@ -77,6 +77,38 @@ reasons:
   - "activity: 45 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "PuterJS-UI"
+    title: "PuterJS-UI"
+    description: "Experiment to implement simple HTML UI for https://developer.puter.com/ services."
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-01"
+  - name: "copilot-prompts"
+    title: "copilot-prompts"
+    description: "VS Code Copilot prompt/instructions repository: agents, skills, instructions, and prompt files for advanced Copilot customization."
+    language: "Shell"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-29"
+  - name: "BlackBox_CSV_Render"
+    title: "BlackBox_CSV_Render"
+    description: null
+    language: "Rust"
+    topics: []
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-09-29"
+  - name: "SPRACINGH7EF"
+    title: "SPRACINGH7EF"
+    description: "Backup, repair, restore and flashing knowledge for the SP Racing H7EF flight controller (owned hardware): flash map, bootloader, scripts, factory data, case study."
+    language: "Shell"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-27"
   - name: "ELRS-Finder-Pro"
     title: "ELRS-Finder-Pro"
     description: "Lost-model finder for ExpressLRS/EdgeTX with automatic TX power management"
@@ -99,38 +131,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-09-23"
-  - name: "BlackBox_CSV_Render"
-    title: "BlackBox_CSV_Render"
-    description: null
-    language: "Rust"
-    topics: []
-    stars_fact: 4
-    first_seen: null
-    last_push: "2026-09-21"
-  - name: "bbl_parser"
-    title: "bbl_parser"
-    description: null
-    language: "Rust"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-20"
-  - name: "XPS-hibernate"
-    title: "XPS-hibernate"
-    description: null
-    language: "Shell"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-18"
-  - name: "copilot-prompts"
-    title: "copilot-prompts"
-    description: "VS Code Copilot prompt/instructions repository: agents, skills, instructions, and prompt files for advanced Copilot customization."
-    language: "Shell"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-15"
 ---
 
 # nerdCopter

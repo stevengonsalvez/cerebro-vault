@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [0, 0, 0, 1, 0, 9, 1, 1, 0, 0, 0, 0, 0]
+pushes_per_week: [0, 0, 1, 0, 0, 9, 1, 1, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,14 +77,6 @@ reasons:
   - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "transession"
-    title: "transession"
-    description: "Translate sessions between claude code and codex"
-    language: "Rust"
-    topics: []
-    stars_fact: 24
-    first_seen: null
-    last_push: "2026-08-18"
   - name: "dotfiles"
     title: "dotfiles"
     description: "dotfiles for configuration"
@@ -92,7 +84,15 @@ repos:
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-09-07"
+    last_push: "2026-09-27"
+  - name: "transession"
+    title: "transession"
+    description: "Translate sessions between claude code and codex"
+    language: "Rust"
+    topics: []
+    stars_fact: 26
+    first_seen: null
+    last_push: "2026-08-18"
   - name: "ticit"
     title: "ticit"
     description: "Experimental rust port of SymFT, with fearless-simd and cutile-rs"
@@ -100,7 +100,7 @@ repos:
     topics: []
     stars_fact: 4
     first_seen: null
-    last_push: "2026-09-23"
+    last_push: "2026-10-01"
   - name: "qrab"
     title: "qrab"
     description: "Creating quantum circuit diagrams in LaTeX/Typst"

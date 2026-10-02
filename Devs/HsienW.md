@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "e5b23adc376a62a9"
-pushes_per_week: [2, 0, 0, 1, 0, 0, 4, 2, 0, 0, 0, 2, 1]
+pushes_per_week: [1, 0, 0, 1, 0, 1, 3, 2, 0, 0, 0, 2, 2]
 windows:
   "7d":
     pushes: 2
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 3
+    pushes: 4
     distinct_repos: 1
-    active_days: 3
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 3
+    pushes: 4
     distinct_repos: 1
-    pushes_per_repo: 3.0000
-    active_days: 3
+    pushes_per_repo: 4.0000
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -77,6 +77,26 @@ reasons:
   - "activity: 11 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "HsienW"
+    title: "HsienW"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-01"
+  - name: "gun-harness-engineering"
+    title: "gun-harness-engineering"
+    description: "Curated knowledge, design principles, and architectural mental models for AI Agent Harness for business engineering."
+    language: null
+    topics:
+      - "agent-harness"
+      - "ai-agent-architecture"
+      - "engineering-playbook"
+      - "harness-engineering"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-01"
   - name: "chat-gun"
     title: "chat-gun"
     description: "🤖 A full-stack Agent Chat Runtime for pre-production validation, built with act, TypeScript, and LangGraph JS combining streaming, multimodal, HITL, and tools with durable Task/Step execution, retry budgets, idempotency, compensation, distributed locks, context governance, OpenTelemetry tracing, model fallback, cost tracking, and Opik evaluation."
@@ -89,21 +109,23 @@ repos:
       - "mcp"
       - "multi-agent"
       - "qwen"
-    stars_fact: 128
+    stars_fact: 142
     first_seen: null
-    last_push: "2026-09-24"
-  - name: "gun-harness-engineering"
-    title: "gun-harness-engineering"
-    description: "Curated knowledge, design principles, and architectural mental models for AI Agent Harness for business engineering."
-    language: null
+    last_push: "2026-10-01"
+  - name: "react-youtube"
+    title: "react-youtube"
+    description: "A frontend demo using React, Redux, and YouTube Data API v3, covering features such as login authorization, video recommendation, playback, search, and upload."
+    language: "JavaScript"
     topics:
-      - "agent-harness"
-      - "ai-agent-architecture"
-      - "engineering-playbook"
-      - "harness-engineering"
-    stars_fact: 1
+      - "front-end"
+      - "react"
+      - "reactjs"
+      - "redux"
+      - "redux-thunk"
+      - "youtube-api-v3"
+    stars_fact: 8
     first_seen: null
-    last_push: "2026-09-24"
+    last_push: "2026-03-29"
   - name: "ai-agent-coding-solution-kit"
     title: "ai-agent-coding-solution-kit"
     description: "📗Reusable docs, prompts, templates, and engineering practices for AI-agent coding, agent design, OpenSpec/SDD, context engineering, prompt engineering, and agent workflows."
@@ -115,7 +137,7 @@ repos:
       - "development"
       - "skills"
       - "workflow"
-    stars_fact: 46
+    stars_fact: 48
     first_seen: null
     last_push: "2026-09-12"
   - name: "natrix"
@@ -129,29 +151,9 @@ repos:
       - "snake-game"
       - "vanilla-javascript"
       - "vanilla-javascript-game"
-    stars_fact: 30
+    stars_fact: 31
     first_seen: null
     last_push: "2026-09-22"
-  - name: "ai-agent-engineering-playbook"
-    title: "ai-agent-engineering-playbook"
-    description: "🔨Reusable personal Agent Skills and practice-backed Q&A for AI Agent engineering, runtime reliability, multi-agent systems, evaluation, and AI-native frontend."
-    language: null
-    topics:
-      - "skills"
-      - "workflow"
-    stars_fact: 24
-    first_seen: null
-    last_push: "2026-09-20"
-  - name: "music-player-root"
-    title: "music-player-root"
-    description: "Micro-frontend music platform built with Qiankun, composing 5 sub-apps across React and Web Components with shared state, global events, routing, and Spotify Web API integration."
-    language: null
-    topics:
-      - "microfrontend"
-      - "spotify"
-    stars_fact: 20
-    first_seen: null
-    last_push: "2023-04-20"
 ---
 
 # HsienW

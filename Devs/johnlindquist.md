@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "8baedcc9c29d068b"
-pushes_per_week: [16, 12, 5, 0, 0, 0, 4, 1, 0, 0, 0, 0, 0]
+pushes_per_week: [18, 14, 1, 0, 0, 4, 0, 1, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,30 +77,6 @@ reasons:
   - "activity: 15 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "mdflow"
-    title: "mdflow"
-    description: "Multi-backend CLI for executable markdown prompts. Run .md files against Claude, Codex, Gemini, or Copilot."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 604
-    first_seen: null
-    last_push: "2026-08-30"
-  - name: "claude-hooks"
-    title: "claude-hooks"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 393
-    first_seen: null
-    last_push: "2025-08-08"
-  - name: "claude-search"
-    title: "claude-search"
-    description: "Semantic search across your Claude conversation history using AI embeddings"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 10
-    first_seen: null
-    last_push: "2025-11-07"
   - name: "kit"
     title: "kit"
     description: "Script Kit. Automate Anything."
@@ -109,22 +85,46 @@ repos:
     stars_fact: 4191
     first_seen: null
     last_push: "2025-12-05"
-  - name: "n8n-nodes-claudecode"
-    title: "n8n-nodes-claudecode"
-    description: "n8n node for Claude Code SDK integration with MCP support"
+  - name: "claude-hooks"
+    title: "claude-hooks"
+    description: null
     language: "TypeScript"
     topics: []
-    stars_fact: 82
+    stars_fact: 395
     first_seen: null
-    last_push: "2025-08-01"
-  - name: "this-or-that"
-    title: "this-or-that"
-    description: "Compare interactive UI designs, record notes, and rank candidates."
-    language: "HTML"
+    last_push: "2025-08-08"
+  - name: "get-rules"
+    title: "get-rules"
+    description: "Downloads .mdc rule files for Cursor from johnlindquist/rules-for-tools repository."
+    language: "TypeScript"
     topics: []
-    stars_fact: 3
+    stars_fact: 25
     first_seen: null
-    last_push: "2026-09-01"
+    last_push: "2025-06-09"
+  - name: "mdflow"
+    title: "mdflow"
+    description: "Multi-backend CLI for executable markdown prompts. Run .md files against Claude, Codex, Gemini, or Copilot."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 602
+    first_seen: null
+    last_push: "2026-08-30"
+  - name: "claude-code-action-ideas"
+    title: "claude-code-action-ideas"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 46
+    first_seen: null
+    last_push: "2025-09-12"
+  - name: "claude-search"
+    title: "claude-search"
+    description: "Semantic search across your Claude conversation history using AI embeddings"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 10
+    first_seen: null
+    last_push: "2025-11-07"
 ---
 
 # johnlindquist

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "9b860e389365bd38"
-pushes_per_week: [3, 3, 2, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0]
+pushes_per_week: [3, 2, 2, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 9
+    pushes: 8
     distinct_repos: 3
-    active_days: 9
+    active_days: 8
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
   push_per_day: 1.0000
-  repo_per_active_day: 0.3333
+  repo_per_active_day: 0.3750
   not_owned_ratio: 0.0000
   basename_concentration: 0.3333
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 9
+    pushes: 8
     distinct_repos: 3
-    pushes_per_repo: 3.0000
-    active_days: 9
+    pushes_per_repo: 2.6667
+    active_days: 8
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 9 active days in 90d — pass"
+  - "activity: 8 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "cangjie-skill"
@@ -90,39 +90,9 @@ repos:
       - "prompt-engineering"
       - "skill-generator"
       - "templates"
-    stars_fact: 10538
+    stars_fact: 10828
     first_seen: "2026-07-17T06:00:07.124682+00:00"
-    last_push: "2026-09-13"
-  - name: "loop-engineering-skill"
-    title: "loop-engineering-skill"
-    description: "Loop Engineering videos distilled into reusable AI skills"
-    language: null
-    topics: []
-    stars_fact: 26
-    first_seen: null
-    last_push: "2026-07-03"
-  - name: "director-skills"
-    title: "director-skills"
-    description: "导演Skill：面向 AI 视频创作的开源 Agent Skills | Director Skills: Open-source Agent Skills for AI video creation."
-    language: "Python"
-    topics:
-      - "agent-skills"
-      - "ai-video"
-      - "claude-code"
-      - "codex"
-      - "filmmaking"
-      - "video-generation"
-    stars_fact: 141
-    first_seen: null
-    last_push: "2026-09-18"
-  - name: "kangarooking-skills"
-    title: "kangarooking-skills"
-    description: "My custom AI Agent skills"
-    language: "Python"
-    topics: []
-    stars_fact: 640
-    first_seen: null
-    last_push: "2026-09-07"
+    last_push: "2026-10-02"
   - name: "mao-selected-works-skill"
     title: "mao-selected-works-skill"
     description: "An AI skill pack distilling Selected Works of Mao Zedong into reusable cognition, strategy, organization, and execution modules."
@@ -137,29 +107,61 @@ repos:
       - "organization"
       - "strategy"
       - "systems-thinking"
-    stars_fact: 107
+    stars_fact: 111
     first_seen: null
     last_push: "2026-05-02"
-  - name: "buffett-letters-skill"
-    title: "buffett-letters-skill"
-    description: "An AI skill pack for value investing, capital allocation, and behavioral discipline, distilled from Warren Buffett's 60+ years of shareholder letters."
+  - name: "first-principles-skill"
+    title: "first-principles-skill"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 32
+    first_seen: null
+    last_push: "2026-04-23"
+  - name: "kangarooking-skills"
+    title: "kangarooking-skills"
+    description: "My custom AI Agent skills"
+    language: "Python"
+    topics: []
+    stars_fact: 649
+    first_seen: null
+    last_push: "2026-09-07"
+  - name: "cognitive-dividend-skill"
+    title: "cognitive-dividend-skill"
+    description: "把《认知红利》中的思维升级方法论蒸馏成 15 个可执行的 AI skill 工具包"
     language: null
     topics:
       - "agent-workflows"
       - "ai-skills"
-      - "berkshire-hathaway"
       - "book-to-skill"
-      - "capital-allocation"
+      - "cognitive-science"
       - "decision-making"
-      - "value-investing"
-      - "warren-buffett"
-    stars_fact: 100
+      - "metacognition"
+      - "systems-thinking"
+      - "thinking-frameworks"
+    stars_fact: 44
     first_seen: null
     last_push: "2026-04-17"
+  - name: "viral-copywriting-skill"
+    title: "viral-copywriting-skill"
+    description: "把《爆款文案》的销售型文案方法蒸馏成 14 个可执行的 AI skill 工具包"
+    language: null
+    topics:
+      - "agent-workflows"
+      - "ai-skills"
+      - "book-to-skill"
+      - "cangjie-skill"
+      - "conversion-copywriting"
+      - "copywriting"
+      - "marketing"
+      - "sales-copy"
+    stars_fact: 61
+    first_seen: null
+    last_push: "2026-05-02"
 ---
 
 # kangarooking
 
-9 pushes across 3 repositories on 9 active days in the last 90 days of public GitHub push activity.
+8 pushes across 3 repositories on 8 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/kangarooking

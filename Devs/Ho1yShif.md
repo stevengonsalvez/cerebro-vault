@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [19, 8, 28, 13, 7, 1, 7, 0, 0, 0, 1, 3, 1]
+pushes_per_week: [21, 6, 29, 12, 7, 5, 3, 0, 0, 1, 2, 1, 1]
 windows:
   "7d":
     pushes: 1
@@ -79,20 +79,20 @@ reasons:
 repos:
   - name: "grouplink-py"
     title: "grouplink-py"
-    description: "Render link page"
-    language: "HTML"
+    description: "Render's links page, rebuilt from Notion by a Render Workflow and deployed as a static site."
+    language: "Python"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-24"
+    last_push: "2026-09-30"
   - name: "grouplink-ts"
     title: "grouplink-ts"
-    description: "Render link page"
+    description: "Render's links page, rebuilt from Notion by a Render Workflow and deployed as a static site."
     language: "HTML"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-24"
+    last_push: "2026-09-27"
   - name: "scalekit-render-mtkybajd"
     title: "scalekit-render-mtkybajd"
     description: "Created from render-examples/scalekit-render template"

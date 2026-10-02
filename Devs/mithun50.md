@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "379642deb53f3714"
-pushes_per_week: [5, 2, 0, 1, 0, 1, 3, 0, 0, 0, 0, 11, 1]
+pushes_per_week: [5, 2, 0, 1, 0, 3, 1, 0, 0, 0, 0, 11, 1]
 windows:
   "7d":
     pushes: 1
@@ -77,6 +77,16 @@ reasons:
   - "activity: 11 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "mithun50"
+    title: "mithun50"
+    description: "Config files for my GitHub profile."
+    language: "TypeScript"
+    topics:
+      - "config"
+      - "github-config"
+    stars_fact: 18
+    first_seen: null
+    last_push: "2026-10-02"
   - name: "openclaw-termux"
     title: "openclaw-termux"
     description: "Run OpenClaw AI Gateway on Android — standalone Flutter app with built-in terminal, web dashboard, and one-tap setup. Also available as a Termux CLI package."
@@ -90,7 +100,7 @@ repos:
       - "openai"
       - "openclaw"
       - "termux"
-    stars_fact: 1719
+    stars_fact: 1720
     first_seen: null
     last_push: "2026-09-14"
   - name: "ascii-profile-kit"
@@ -100,17 +110,31 @@ repos:
     topics: []
     stars_fact: 11
     first_seen: null
-    last_push: "2026-09-24"
-  - name: "mithun50"
-    title: "mithun50"
-    description: "Config files for my GitHub profile."
-    language: "TypeScript"
+    last_push: "2026-10-01"
+  - name: "CampusKey"
+    title: "CampusKey"
+    description: "Student offers you can claim in India with your college ID card or college email: dev tools, AI, design software, music, laptops, travel concessions and scholarships, with steps and sources."
+    language: "JavaScript"
     topics:
-      - "config"
-      - "github-config"
-    stars_fact: 17
+      - "college"
+      - "education"
+      - "india"
+      - "playwright"
+      - "static-site"
+      - "student-discounts"
+      - "student-offers"
+      - "students"
+    stars_fact: 0
     first_seen: null
-    last_push: "2026-09-24"
+    last_push: "2026-09-28"
+  - name: "ironclaw-termux"
+    title: "ironclaw-termux"
+    description: "IronClaw AI Agent Framework for Android — runs in proot Ubuntu on Termux"
+    language: "Dart"
+    topics: []
+    stars_fact: 13
+    first_seen: null
+    last_push: "2026-06-28"
   - name: "ORCA"
     title: "ORCA"
     description: "Agentic AI marine intelligence platform for Indian waters. Natural-language queries over ISRO/MOSDAC, INCOIS and IMD data with multi-RAG retrieval, n8n request routing and explainable, evidence-backed recommendations. SIH prototype."
@@ -119,30 +143,6 @@ repos:
     stars_fact: 3
     first_seen: null
     last_push: "2026-09-22"
-  - name: "groq-rag"
-    title: "groq-rag"
-    description: "Extended Groq SDK with RAG (Retrieval-Augmented Generation), web browsing, and AI agent capabilities. Features include document retrieval, web search, URL parsing, and ReAct-style agents with tool use."
-    language: "TypeScript"
-    topics:
-      - "ai-agent"
-      - "embeddings"
-      - "groq"
-      - "llm"
-      - "rag"
-      - "retrieval-augmented-generation"
-      - "typescript"
-      - "web-search"
-    stars_fact: 4
-    first_seen: null
-    last_push: "2026-01-30"
-  - name: "B24CS53-Computer-Graphics"
-    title: "B24CS53-Computer-Graphics"
-    description: "Interactive web slide deck for B24CS53 Computer Graphics with OpenGL (Lecturer: Mr. Bharath)"
-    language: "HTML"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-12"
 ---
 
 # mithun50

@@ -8,28 +8,28 @@ provenance_repos:
   - "BuilderIO/agent-native"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+repos_populated: false
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "745308b2b7085095"
-pushes_per_week: [3, 12, 3, 3, 0, 0, 0, 1, 0, 1, 0, 3, 1]
+pushes_per_week: [2, 13, 2, 3, 0, 0, 0, 1, 0, 1, 0, 3, 3]
 windows:
   "7d":
-    pushes: 2
+    pushes: 3
     distinct_repos: 1
     active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 5
+    pushes: 7
     distinct_repos: 1
-    active_days: 5
+    active_days: 6
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 27
+    pushes: 28
     distinct_repos: 1
     active_days: 16
     repos_not_owned: 1
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.6875
+  push_per_day: 1.7500
   repo_per_active_day: 0.0625
   not_owned_ratio: 1.0000
   basename_concentration: 1.0000
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
+    pushes: 3
     distinct_repos: 1
-    pushes_per_repo: 2.0000
+    pushes_per_repo: 3.0000
     active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 5
+    pushes: 7
     distinct_repos: 1
-    pushes_per_repo: 5.0000
-    active_days: 5
+    pushes_per_repo: 7.0000
+    active_days: 6
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 27
+    pushes: 28
     distinct_repos: 1
-    pushes_per_repo: 27.0000
+    pushes_per_repo: 28.0000
     active_days: 16
     repos_not_owned: 1
     not_owned_basenames: 1
@@ -76,51 +76,11 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 16 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "simple-hash-router"
-    title: "simple-hash-router"
-    description: null
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2023-08-21"
-  - name: "github-actions-playground"
-    title: "github-actions-playground"
-    description: null
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2023-05-20"
-  - name: "testing-cloning"
-    title: "testing-cloning"
-    description: null
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2023-04-18"
-  - name: "test-renaming"
-    title: "test-renaming"
-    description: null
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2023-03-08"
-  - name: "next-sph-template"
-    title: "next-sph-template"
-    description: null
-    language: "CSS"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2023-03-07"
+repos: []
 ---
 
 # shomix
 
-27 pushes across 1 repository on 16 active days in the last 90 days of public GitHub push activity.
+28 pushes across 1 repository on 16 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/shomix

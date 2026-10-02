@@ -8,16 +8,16 @@ provenance_repos:
   - "Alishahryar1/free-claude-code"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+repos_populated: false
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "9d67ce648f6a8919"
 pushes_per_week: [0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 4]
 windows:
   "7d":
-    pushes: 5
+    pushes: 4
     distinct_repos: 1
-    active_days: 3
+    active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 5
+    pushes: 4
     distinct_repos: 1
-    pushes_per_repo: 5.0000
-    active_days: 3
+    pushes_per_repo: 4.0000
+    active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -76,55 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "FreeProxy-Router"
-    title: "FreeProxy-Router"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-07"
-  - name: "myapps"
-    title: "myapps"
-    description: null
-    language: "JavaScript"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-05"
-  - name: "valencystudio"
-    title: "valencystudio"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-07-30"
-  - name: "luci-theme-rtawrt"
-    title: "luci-theme-rtawrt"
-    description: "Theme OpenWrt Based NeoBird"
-    language: "CSS"
-    topics: []
-    stars_fact: 10
-    first_seen: null
-    last_push: "2025-05-15"
-  - name: "rizkimotor-pos-nexjs"
-    title: "rizkimotor-pos-nexjs"
-    description: null
-    language: "JavaScript"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-06-30"
-  - name: "New-folder--3-"
-    title: "New-folder--3-"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-05-10"
+repos: []
 ---
 
 # rizkikotet-dev

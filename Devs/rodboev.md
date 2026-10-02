@@ -8,39 +8,39 @@ provenance_repos:
   - "chopratejas/headroom"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+repos_populated: false
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "73468cde177ddae6"
-pushes_per_week: [149, 93, 56, 37, 37, 10, 20, 7, 0, 4, 13, 15, 19]
+pushes_per_week: [125, 95, 63, 26, 34, 13, 16, 7, 0, 5, 13, 18, 29]
 windows:
   "7d":
-    pushes: 20
-    distinct_repos: 6
-    active_days: 7
-    repos_not_owned: 3
-    not_owned_basenames: 3
-    not_owned_owners: 2
-  "30d":
-    pushes: 51
+    pushes: 32
     distinct_repos: 10
-    active_days: 21
-    repos_not_owned: 3
-    not_owned_basenames: 3
-    not_owned_owners: 2
+    active_days: 7
+    repos_not_owned: 6
+    not_owned_basenames: 4
+    not_owned_owners: 3
+  "30d":
+    pushes: 65
+    distinct_repos: 14
+    active_days: 22
+    repos_not_owned: 6
+    not_owned_basenames: 4
+    not_owned_owners: 3
   "90d":
-    pushes: 460
-    distinct_repos: 21
+    pushes: 444
+    distinct_repos: 24
     active_days: 68
-    repos_not_owned: 3
-    not_owned_basenames: 3
-    not_owned_owners: 2
+    repos_not_owned: 6
+    not_owned_basenames: 4
+    not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 6.7647
-  repo_per_active_day: 0.3088
-  not_owned_ratio: 0.1429
-  basename_concentration: 0.0952
+  push_per_day: 6.5294
+  repo_per_active_day: 0.3529
+  not_owned_ratio: 0.2500
+  basename_concentration: 0.1667
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,86 +49,38 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 20
-    distinct_repos: 6
-    pushes_per_repo: 3.3333
-    active_days: 7
-    repos_not_owned: 3
-    not_owned_basenames: 3
-    not_owned_owners: 2
-  "30d":
-    pushes: 51
+    pushes: 32
     distinct_repos: 10
-    pushes_per_repo: 5.1000
-    active_days: 21
-    repos_not_owned: 3
-    not_owned_basenames: 3
-    not_owned_owners: 2
+    pushes_per_repo: 3.2000
+    active_days: 7
+    repos_not_owned: 6
+    not_owned_basenames: 4
+    not_owned_owners: 3
+  "30d":
+    pushes: 65
+    distinct_repos: 14
+    pushes_per_repo: 4.6429
+    active_days: 22
+    repos_not_owned: 6
+    not_owned_basenames: 4
+    not_owned_owners: 3
   "90d":
-    pushes: 460
-    distinct_repos: 21
-    pushes_per_repo: 21.9048
+    pushes: 444
+    distinct_repos: 24
+    pushes_per_repo: 18.5000
     active_days: 68
-    repos_not_owned: 3
-    not_owned_basenames: 3
-    not_owned_owners: 2
+    repos_not_owned: 6
+    not_owned_basenames: 4
+    not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 68 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "basedin.nyc"
-    title: "basedin.nyc"
-    description: null
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-22"
-  - name: "ticker"
-    title: "ticker"
-    description: "Real-time Claude Code statusline with cache countdown, rate tracking, and adaptive refresh"
-    language: "PowerShell"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-17"
-  - name: "AHK"
-    title: "AHK"
-    description: null
-    language: "AutoHotkey"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-15"
-  - name: "GPO-PolicySync"
-    title: "GPO-PolicySync"
-    description: "Sync registry-based policy values back into local Group Policy (registry.pol) files"
-    language: "PowerShell"
-    topics: []
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-05-22"
-  - name: "rodboev"
-    title: "rodboev"
-    description: "GitHub profile README"
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-16"
-  - name: "EditorWorkspace"
-    title: "EditorWorkspace"
-    description: "Windhawk EditorWorkspace"
-    language: "C++"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-06-12"
+repos: []
 ---
 
 # rodboev
 
-460 pushes across 21 repositories on 68 active days in the last 90 days of public GitHub push activity.
+444 pushes across 24 repositories on 68 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/rodboev

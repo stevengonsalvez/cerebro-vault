@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "46f3c1d6124190bd"
-pushes_per_week: [0, 5, 9, 2, 6, 0, 1, 1, 0, 1, 1, 1, 0]
+pushes_per_week: [0, 7, 7, 7, 1, 0, 2, 0, 0, 1, 1, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,6 +77,14 @@ reasons:
   - "activity: 16 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "gemini-teacher"
+    title: "gemini-teacher"
+    description: "English pronunciation correction teacher built with gemini"
+    language: "Python"
+    topics: []
+    stars_fact: 1206
+    first_seen: null
+    last_push: "2026-08-31"
   - name: "fomomo"
     title: "fomomo"
     description: null
@@ -85,14 +93,6 @@ repos:
     stars_fact: 42
     first_seen: null
     last_push: "2026-09-17"
-  - name: "gemini-teacher"
-    title: "gemini-teacher"
-    description: "English pronunciation correction teacher built with gemini"
-    language: "Python"
-    topics: []
-    stars_fact: 1204
-    first_seen: null
-    last_push: "2026-08-31"
   - name: "moss"
     title: "moss"
     description: null

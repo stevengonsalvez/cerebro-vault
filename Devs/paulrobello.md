@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [20, 7, 25, 7, 3, 1, 0, 3, 0, 0, 2, 27, 54]
+pushes_per_week: [22, 6, 25, 7, 1, 1, 0, 3, 0, 0, 2, 37, 49]
 windows:
   "7d":
-    pushes: 56
-    distinct_repos: 8
+    pushes: 54
+    distinct_repos: 7
     active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 83
+    pushes: 88
     distinct_repos: 9
-    active_days: 14
+    active_days: 15
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 149
+    pushes: 153
     distinct_repos: 27
     active_days: 42
     repos_not_owned: 0
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 3.5476
+  push_per_day: 3.6429
   repo_per_active_day: 0.6429
   not_owned_ratio: 0.0000
   basename_concentration: 0.0370
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 56
-    distinct_repos: 8
-    pushes_per_repo: 7.0000
+    pushes: 54
+    distinct_repos: 7
+    pushes_per_repo: 7.7143
     active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 83
+    pushes: 88
     distinct_repos: 9
-    pushes_per_repo: 9.2222
-    active_days: 14
+    pushes_per_repo: 9.7778
+    active_days: 15
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 149
+    pushes: 153
     distinct_repos: 27
-    pushes_per_repo: 5.5185
+    pushes_per_repo: 5.6667
     active_days: 42
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -77,6 +77,22 @@ reasons:
   - "activity: 42 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "codex-monitor"
+    title: "codex-monitor"
+    description: "Native Apple app for monitoring AI coding-agent usage across OpenAI Codex, OpenRouter, and Claude Code"
+    language: "Swift"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-02"
+  - name: "claude-office"
+    title: "claude-office"
+    description: "Real-time pixel art office simulation that visualizes Claude Code operations"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 539
+    first_seen: null
+    last_push: "2026-09-14"
   - name: "par-term"
     title: "par-term"
     description: "Cross-platform GPU-accelerated terminal emulator with inline graphics support (Sixel, iTerm2, Kitty)"
@@ -84,7 +100,7 @@ repos:
     topics: []
     stars_fact: 19
     first_seen: null
-    last_push: "2026-09-24"
+    last_push: "2026-10-02"
   - name: "par-arrows"
     title: "par-arrows"
     description: "A desktop and mobile 3D arrow-removal puzzle game."
@@ -92,7 +108,24 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-24"
+    last_push: "2026-10-02"
+  - name: "parllama"
+    title: "parllama"
+    description: "TUI for Ollama and other LLM providers"
+    language: "Python"
+    topics:
+      - "ai"
+      - "anthropic"
+      - "gemini"
+      - "ollama"
+      - "ollama-tui"
+      - "openai"
+      - "python"
+      - "terminal"
+      - "tui"
+    stars_fact: 493
+    first_seen: null
+    last_push: "2026-09-04"
   - name: "par-term-emu-core-rust"
     title: "par-term-emu-core-rust"
     description: "Rust terminal emulator library with Python 3.12+ bindings (PyO3). Provides VT100/VT220/VT320/VT420 compatibility with PTY support."
@@ -100,35 +133,11 @@ repos:
     topics: []
     stars_fact: 16
     first_seen: null
-    last_push: "2026-09-24"
-  - name: "claude-office"
-    title: "claude-office"
-    description: "Real-time pixel art office simulation that visualizes Claude Code operations"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 524
-    first_seen: null
-    last_push: "2026-09-14"
-  - name: "par-term-plugin-test"
-    title: "par-term-plugin-test"
-    description: "Test plugin for par-term's git plugin controls"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-24"
-  - name: "termflix"
-    title: "termflix"
-    description: "Terminal animation player with 43 procedurally generated animations, multiple render modes, and true color support"
-    language: "Rust"
-    topics: []
-    stars_fact: 75
-    first_seen: null
-    last_push: "2026-06-18"
+    last_push: "2026-10-01"
 ---
 
 # paulrobello
 
-149 pushes across 27 repositories on 42 active days in the last 90 days of public GitHub push activity.
+153 pushes across 27 repositories on 42 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/paulrobello

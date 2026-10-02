@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [1, 0, 2, 0, 0, 0, 2, 0, 0, 0, 1, 4, 3]
+pushes_per_week: [1, 1, 1, 0, 0, 1, 1, 0, 0, 0, 3, 2, 3]
 windows:
   "7d":
     pushes: 3
@@ -92,9 +92,9 @@ repos:
       - "tui"
       - "windows"
       - "workspace"
-    stars_fact: 1
+    stars_fact: 5
     first_seen: null
-    last_push: "2026-09-24"
+    last_push: "2026-10-01"
   - name: "Portfolio"
     title: "Portfolio"
     description: "A clean and modern portfolio to showcase my projects and skills."
@@ -102,7 +102,15 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-04"
+    last_push: "2026-09-28"
+  - name: "MertSoylu"
+    title: "MertSoylu"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-02"
   - name: "cv-orman"
     title: "cv-orman"
     description: "See my project in 3D forest"
@@ -111,14 +119,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-07-27"
-  - name: "MertSoylu"
-    title: "MertSoylu"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-11"
   - name: "aislopfixer"
     title: "aislopfixer"
     description: "Terminal TUI that finds and fixes AI-generated slop in local web projects. Fully offline, rule-based, no API keys"

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [1, 0, 0, 3, 2, 0, 0, 1, 1, 0, 0, 0, 0]
+pushes_per_week: [1, 0, 0, 4, 1, 0, 0, 2, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -90,9 +90,9 @@ repos:
       - "fft"
       - "fft-library"
       - "pffft"
-    stars_fact: 370
+    stars_fact: 374
     first_seen: null
-    last_push: "2026-09-07"
+    last_push: "2026-09-29"
   - name: "acp-probe"
     title: "acp-probe"
     description: "A little agent control protocol (ACP) tester tool, to help develop ACP clients"

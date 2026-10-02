@@ -11,28 +11,28 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "637c99109af31ed2"
   - "b22ecd25e4a0f368"
-pushes_per_week: [24, 22, 6, 6, 2, 5, 3, 5, 0, 0, 1, 2, 12]
+pushes_per_week: [24, 19, 6, 5, 3, 4, 3, 5, 0, 0, 1, 11, 4]
 windows:
   "7d":
     pushes: 13
-    distinct_repos: 2
+    distinct_repos: 1
     active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 15
+    pushes: 16
     distinct_repos: 3
-    active_days: 6
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 88
+    pushes: 85
     distinct_repos: 4
     active_days: 33
     repos_not_owned: 1
@@ -40,7 +40,7 @@ windows:
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.6667
+  push_per_day: 2.5758
   repo_per_active_day: 0.1212
   not_owned_ratio: 0.2500
   basename_concentration: 0.2500
@@ -53,24 +53,24 @@ automation:
 facets:
   "7d":
     pushes: 13
-    distinct_repos: 2
-    pushes_per_repo: 6.5000
+    distinct_repos: 1
+    pushes_per_repo: 13.0000
     active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 15
+    pushes: 16
     distinct_repos: 3
-    pushes_per_repo: 5.0000
-    active_days: 6
+    pushes_per_repo: 5.3333
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 88
+    pushes: 85
     distinct_repos: 4
-    pushes_per_repo: 22.0000
+    pushes_per_repo: 21.2500
     active_days: 33
     repos_not_owned: 1
     not_owned_basenames: 1
@@ -134,6 +134,6 @@ repos:
 
 # mattpocock
 
-88 pushes across 4 repositories on 33 active days in the last 90 days of public GitHub push activity.
+85 pushes across 4 repositories on 33 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/mattpocock

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [5, 0, 0, 0, 1, 28, 9, 11, 1, 23, 1, 34, 1]
+pushes_per_week: [5, 0, 0, 0, 1, 36, 1, 11, 1, 23, 34, 2, 0]
 windows:
   "7d":
     pushes: 1
@@ -82,9 +82,17 @@ repos:
     description: "My book source set for legado, mainly focused on light novels and maybe later manga (?)"
     language: "JavaScript"
     topics: []
-    stars_fact: 653
+    stars_fact: 655
     first_seen: null
-    last_push: "2026-09-13"
+    last_push: "2026-09-28"
+  - name: "fireworks-pdf-compressor-ml"
+    title: "fireworks-pdf-compressor-ml"
+    description: null
+    language: "PostScript"
+    topics: []
+    stars_fact: 7
+    first_seen: null
+    last_push: "2026-03-05"
   - name: "opencode-copilot-account-switcher"
     title: "opencode-copilot-account-switcher"
     description: null
@@ -117,14 +125,6 @@ repos:
     stars_fact: 3
     first_seen: null
     last_push: "2026-09-09"
-  - name: "gtp-runtime"
-    title: "gtp-runtime"
-    description: "Evidence-driven Android game translation runtime research"
-    language: "Java"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-31"
 ---
 
 # jiwangyihao

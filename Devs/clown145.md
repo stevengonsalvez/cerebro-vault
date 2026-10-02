@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [4, 0, 2, 2, 5, 11, 7, 0, 0, 0, 0, 2, 24]
+pushes_per_week: [2, 0, 2, 2, 6, 16, 1, 0, 0, 0, 0, 5, 21]
 windows:
   "7d":
     pushes: 24
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 57
-    distinct_repos: 18
-    active_days: 21
+    pushes: 55
+    distinct_repos: 17
+    active_days: 20
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.7143
-  repo_per_active_day: 0.8571
-  not_owned_ratio: 0.1667
-  basename_concentration: 0.0556
+  push_per_day: 2.7500
+  repo_per_active_day: 0.8500
+  not_owned_ratio: 0.1765
+  basename_concentration: 0.0588
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 57
-    distinct_repos: 18
-    pushes_per_repo: 3.1667
-    active_days: 21
+    pushes: 55
+    distinct_repos: 17
+    pushes_per_repo: 3.2353
+    active_days: 20
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 21 active days in 90d — pass"
+  - "activity: 20 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "qflarebot-plugin-qqadmin"
@@ -134,6 +134,6 @@ repos:
 
 # clown145
 
-57 pushes across 18 repositories on 21 active days in the last 90 days of public GitHub push activity.
+55 pushes across 17 repositories on 20 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/clown145

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [1, 9, 3, 0, 1, 0, 2, 0, 0, 3, 0, 2, 0]
+pushes_per_week: [1, 9, 3, 0, 1, 2, 0, 0, 0, 3, 0, 2, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,6 +77,14 @@ reasons:
   - "activity: 11 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "paperdeck"
+    title: "paperdeck"
+    description: "문제집을 카드로 바꿔 풀고 채점하는 학습 도구"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-01"
   - name: "analyze-review"
     title: "analyze-review"
     description: "쿠팡·배달앱 리뷰를 LLM으로 분석해 핵심 문제를 진단하고 답글까지 생성하는 서비스 (Python · Docker)"
@@ -84,7 +92,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-24"
+    last_push: "2026-09-29"
   - name: "heeoneie"
     title: "heeoneie"
     description: null
@@ -93,14 +101,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-09-23"
-  - name: "paperdeck"
-    title: "paperdeck"
-    description: "문제집을 카드로 바꿔 풀고 채점하는 학습 도구"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-09"
   - name: "music-experiment-001"
     title: "music-experiment-001"
     description: "AI 음악 분석·생성 가능성을 7일간 검증한 실험 프로젝트"

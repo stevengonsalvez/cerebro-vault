@@ -8,11 +8,11 @@ provenance_repos:
   - "Alishahryar1/free-claude-code"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+repos_populated: false
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "9d67ce648f6a8919"
-pushes_per_week: [7, 0, 0, 0, 1, 0, 0, 0, 2, 1, 1, 1, 0]
+pushes_per_week: [7, 0, 0, 0, 1, 0, 0, 1, 1, 1, 1, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,55 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 8 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "xigou.github.io"
-    title: "xigou.github.io"
-    description: "https://quartz.19960312.xyz, https://cloudflare.19960312.xyz, https://vercel.19960312.xyz"
-    language: "HTML"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-24"
-  - name: "Obsidain-Digital-Garden"
-    title: "Obsidain-Digital-Garden"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-25"
-  - name: "LuxeFlux"
-    title: "LuxeFlux"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-18"
-  - name: "hu-chenfeng"
-    title: "hu-chenfeng"
-    description: null
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-11"
-  - name: "baopilong"
-    title: "baopilong"
-    description: null
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-13"
-  - name: "fio-webui"
-    title: "fio-webui"
-    description: null
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-06"
+repos: []
 ---
 
 # XiGou

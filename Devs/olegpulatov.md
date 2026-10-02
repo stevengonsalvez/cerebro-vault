@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "de6bf05613f3ae04"
 pushes_per_week: [0, 0, 0, 0, 1, 1, 0, 1, 0, 0, 1, 3, 0]
@@ -77,6 +77,14 @@ reasons:
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "dot-omp"
+    title: "dot-omp"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-25"
   - name: "cognitive-comfort"
     title: "cognitive-comfort"
     description: "Cross-browser extension for calmer, intentional media viewing"
@@ -85,14 +93,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-09-14"
-  - name: "dot-omp"
-    title: "dot-omp"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-08"
   - name: "wallpapers"
     title: "wallpapers"
     description: "Curated collection of 40 ultra-high-res 4K Sci-Fi & Speculative desktop wallpapers with full reproducible prompts and metadata (CC BY 4.0)"

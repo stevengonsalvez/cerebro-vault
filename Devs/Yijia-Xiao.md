@@ -8,16 +8,16 @@ provenance_repos:
   - "TauricResearch/TradingAgents"
 admitted: true
 low_n: true
-repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+repos_populated: false
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "626a5e4fcb233d8d"
 pushes_per_week: [1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 1]
 windows:
   "7d":
-    pushes: 2
+    pushes: 1
     distinct_repos: 1
-    active_days: 2
+    active_days: 1
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
+    pushes: 1
     distinct_repos: 1
-    pushes_per_repo: 2.0000
-    active_days: 2
+    pushes_per_repo: 1.0000
+    active_days: 1
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -76,69 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 4 active days in 90d — below the 5-day line, LABELLED low-n (never suppressed)"
   - "automation: clear — pass"
-repos:
-  - name: "FinanceHarness"
-    title: "FinanceHarness"
-    description: "FinanceHarness: Autonomous Financial Deep Research Framework"
-    language: "Python"
-    topics:
-      - "agentic-framework"
-      - "finance"
-      - "harness"
-    stars_fact: 172
-    first_seen: null
-    last_push: "2026-08-22"
-  - name: "Protein-LLM-Survey"
-    title: "Protein-LLM-Survey"
-    description: "Large Language Models in Protein: A Comprehensive Survey"
-    language: null
-    topics:
-      - "awes"
-      - "comprehensive"
-      - "large-language-models"
-      - "llm"
-      - "papers"
-      - "papers-with-code"
-      - "protein"
-      - "survey"
-    stars_fact: 194
-    first_seen: null
-    last_push: "2025-04-02"
-  - name: "PrivacyMind"
-    title: "PrivacyMind"
-    description: "Large Language Models Can Be Contextual Privacy Protection Learners"
-    language: "Python"
-    topics: []
-    stars_fact: 18
-    first_seen: null
-    last_push: "2024-10-28"
-  - name: "Protein-MSA"
-    title: "Protein-MSA"
-    description: null
-    language: "Jupyter Notebook"
-    topics: []
-    stars_fact: 3
-    first_seen: null
-    last_push: "2022-04-04"
-  - name: "Know2BIO"
-    title: "Know2BIO"
-    description: "Know2BIO: A Comprehensive Dual-View Benchmark for Evolving Biomedical Knowledge Graphs"
-    language: "Python"
-    topics:
-      - "benchmark"
-      - "biomedical"
-      - "knowledge-graph"
-    stars_fact: 17
-    first_seen: null
-    last_push: "2026-02-10"
-  - name: "Yijia-Xiao"
-    title: "Yijia-Xiao"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 5
-    first_seen: null
-    last_push: "2023-12-26"
+repos: []
 ---
 
 # Yijia-Xiao

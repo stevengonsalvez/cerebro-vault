@@ -9,22 +9,22 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "73468cde177ddae6"
-pushes_per_week: [12, 9, 7, 5, 5, 2, 2, 0, 0, 0, 0, 0, 1]
+pushes_per_week: [15, 5, 7, 5, 5, 2, 2, 0, 0, 0, 0, 0, 2]
 windows:
   "7d":
-    pushes: 1
+    pushes: 2
     distinct_repos: 1
-    active_days: 1
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 1
+    pushes: 2
     distinct_repos: 1
-    active_days: 1
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,18 +49,18 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
+    pushes: 2
     distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes_per_repo: 2.0000
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 1
+    pushes: 2
     distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes_per_repo: 2.0000
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -79,21 +79,26 @@ reasons:
 repos:
   - name: "Cymatix-Context"
     title: "Cymatix-Context"
-    description: "Local-first context engine for LLM agents, weighs then retrieves your codebase and enterprise files into the context window with no LLM call on the retrieval path. SQLite knowledge store; CLI + HTTP + MCP; know/miss agent contract."
+    description: "Same query, same answer: deterministic RAG for agents. Local-first: one SQLite knowledge store, no LLM call on the retrieval path, CLI + HTTP + MCP, and a know/miss contract on every response."
     language: "Python"
     topics:
       - "agent-index"
       - "agent-mcp"
+      - "context-engineering"
+      - "deterministic"
       - "idf"
       - "knowledge-base"
+      - "llm-agents"
       - "mcp"
       - "model-context-protocol"
       - "python"
+      - "rag"
+      - "retrieval-augmented-generation"
       - "semantic-search"
       - "sqlite"
     stars_fact: 6
     first_seen: null
-    last_push: "2026-09-14"
+    last_push: "2026-10-01"
   - name: "scorerift"
     title: "scorerift"
     description: "Dual-layer audit system: automated scoring + manual grading + reconciliation"

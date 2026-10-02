@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: true
 repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "2c81603e7aea49b9"
 pushes_per_week: [0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0]
@@ -77,14 +77,6 @@ reasons:
   - "activity: 2 active days in 90d — below the 5-day line, LABELLED low-n (never suppressed)"
   - "automation: clear — pass"
 repos:
-  - name: "chatcn"
-    title: "chatcn"
-    description: "Beautiful, open-source chat UI components for React. Messages, threads, reactions, file upload, 4 themes. Built on shadcn/ui + Tailwind CSS."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 99
-    first_seen: null
-    last_push: "2026-04-03"
   - name: "Swiftlet"
     title: "Swiftlet"
     description: "Swiftlet is a Swift and Metal runtime that runs large Qwen Mixture-of-Experts models locally on Apple devices by streaming expert weights from storage, enabling 35B and 80B models to run with low RAM, including on iPhone."
@@ -95,9 +87,17 @@ repos:
       - "on-device-ai"
       - "qwen"
       - "swift"
-    stars_fact: 644
+    stars_fact: 651
     first_seen: "2026-08-04T06:00:07.487421+00:00"
-    last_push: "2026-09-14"
+    last_push: "2026-09-27"
+  - name: "chatcn"
+    title: "chatcn"
+    description: "Beautiful, open-source chat UI components for React. Messages, threads, reactions, file upload, 4 themes. Built on shadcn/ui + Tailwind CSS."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 99
+    first_seen: null
+    last_push: "2026-04-03"
   - name: "demoreel"
     title: "demoreel"
     description: null
@@ -114,23 +114,6 @@ repos:
     stars_fact: 32
     first_seen: null
     last_push: "2026-08-03"
-  - name: "oats"
-    title: "oats"
-    description: "Local meeting notes for your Mac. No bot joins your calls, no audio leaves your machine, no account. Summaries, action items, and a knowledge graph, all from a model that runs on-device."
-    language: "Swift"
-    topics:
-      - "apple-silicon"
-      - "local-first"
-      - "macos"
-      - "meeting-notes"
-      - "note-taking"
-      - "on-device-ai"
-      - "swiftui"
-      - "transcription"
-      - "whisper"
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-09-07"
   - name: "leonickson1"
     title: "leonickson1"
     description: null
@@ -139,6 +122,14 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-08-08"
+  - name: "ModelSweep"
+    title: "ModelSweep"
+    description: "A GUI-first evaluation workbench for local LLMs running on Ollama. Build personal test suites, run sequential evaluations across installed models, visualize results through dashboards, and make keep-or-delete decisions. Think \"Postman for local LLM evaluation.\""
+    language: "TypeScript"
+    topics: []
+    stars_fact: 19
+    first_seen: null
+    last_push: "2026-04-20"
 ---
 
 # leonickson1

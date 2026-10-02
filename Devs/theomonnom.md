@@ -8,11 +8,11 @@ provenance_repos:
   - "livekit/agents"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+repos_populated: false
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "f45867b00b731122"
-pushes_per_week: [5, 1, 0, 2, 11, 4, 0, 2, 1, 0, 0, 0, 0]
+pushes_per_week: [5, 1, 0, 2, 11, 4, 1, 1, 1, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,31 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 12 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "mikado"
-    title: "mikado"
-    description: "mikado"
-    language: "Rust"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2024-12-06"
-  - name: "rtc-media"
-    title: "rtc-media"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2024-03-15"
-  - name: "dotfiles"
-    title: "dotfiles"
-    description: null
-    language: "Lua"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2023-03-27"
+repos: []
 ---
 
 # theomonnom

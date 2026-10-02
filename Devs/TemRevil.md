@@ -8,11 +8,11 @@ provenance_repos:
   - "anthropics/claude-code-action"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+repos_populated: false
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "0b22ca37fd3884c9"
-pushes_per_week: [0, 9, 1, 1, 1, 2, 0, 0, 0, 0, 0, 3, 6]
+pushes_per_week: [2, 7, 1, 1, 2, 1, 0, 0, 0, 0, 0, 7, 2]
 windows:
   "7d":
     pushes: 6
@@ -76,69 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 15 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "revil"
-    title: "revil"
-    description: "Portfolio ✨"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 6
-    first_seen: null
-    last_push: "2026-09-25"
-  - name: "gmrec"
-    title: "gmrec"
-    description: "Chrome extension that records each Google Meet participant into their own MP4, from their real stream — not a screen capture."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-21"
-  - name: "linkedin-auto-poster"
-    title: "linkedin-auto-poster"
-    description: "LinkedIn AI auto-poster self-hostable dashboard"
-    language: "Python"
-    topics:
-      - "autoposter"
-      - "claude"
-      - "claude-code"
-      - "claudecode"
-      - "linkedin"
-      - "poster"
-      - "python"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-24"
-  - name: "Cake"
-    title: "Cake"
-    description: "A little animated birthday cake, made with love."
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-07-13"
-  - name: "TemRevil"
-    title: "TemRevil"
-    description: "Config files for my GitHub profile."
-    language: null
-    topics:
-      - "config"
-      - "github-config"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-27"
-  - name: "Kittle"
-    title: "Kittle"
-    description: "An Ai Code Reviewer"
-    language: "TypeScript"
-    topics:
-      - "ai"
-      - "codereview"
-      - "codereviewer"
-      - "llm"
-      - "react"
-    stars_fact: 19
-    first_seen: null
-    last_push: "2026-06-10"
+repos: []
 ---
 
 # TemRevil

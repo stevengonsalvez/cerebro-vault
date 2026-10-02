@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [0, 11, 17, 10, 12, 17, 27, 0, 0, 3, 14, 17, 9]
+pushes_per_week: [0, 11, 17, 12, 10, 28, 16, 0, 0, 3, 17, 14, 10]
 windows:
   "7d":
-    pushes: 11
-    distinct_repos: 2
+    pushes: 10
+    distinct_repos: 3
     active_days: 5
-    repos_not_owned: 1
-    not_owned_basenames: 1
+    repos_not_owned: 2
+    not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 43
-    distinct_repos: 7
-    active_days: 18
-    repos_not_owned: 3
-    not_owned_basenames: 3
+    pushes: 44
+    distinct_repos: 8
+    active_days: 19
+    repos_not_owned: 4
+    not_owned_basenames: 4
     not_owned_owners: 1
   "90d":
-    pushes: 137
-    distinct_repos: 8
-    active_days: 45
-    repos_not_owned: 3
-    not_owned_basenames: 3
+    pushes: 138
+    distinct_repos: 9
+    active_days: 46
+    repos_not_owned: 4
+    not_owned_basenames: 4
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 3.0444
-  repo_per_active_day: 0.1778
-  not_owned_ratio: 0.3750
-  basename_concentration: 0.1250
+  push_per_day: 3.0000
+  repo_per_active_day: 0.1957
+  not_owned_ratio: 0.4444
+  basename_concentration: 0.1111
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,79 +49,34 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 11
-    distinct_repos: 2
-    pushes_per_repo: 5.5000
+    pushes: 10
+    distinct_repos: 3
+    pushes_per_repo: 3.3333
     active_days: 5
-    repos_not_owned: 1
-    not_owned_basenames: 1
+    repos_not_owned: 2
+    not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 43
-    distinct_repos: 7
-    pushes_per_repo: 6.1429
-    active_days: 18
-    repos_not_owned: 3
-    not_owned_basenames: 3
+    pushes: 44
+    distinct_repos: 8
+    pushes_per_repo: 5.5000
+    active_days: 19
+    repos_not_owned: 4
+    not_owned_basenames: 4
     not_owned_owners: 1
   "90d":
-    pushes: 137
-    distinct_repos: 8
-    pushes_per_repo: 17.1250
-    active_days: 45
-    repos_not_owned: 3
-    not_owned_basenames: 3
+    pushes: 138
+    distinct_repos: 9
+    pushes_per_repo: 15.3333
+    active_days: 46
+    repos_not_owned: 4
+    not_owned_basenames: 4
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 45 active days in 90d — pass"
+  - "activity: 46 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "factory-droid-openai"
-    title: "factory-droid-openai"
-    description: "Unofficial OpenAI-compatible bridge for Factory Droid"
-    language: "Python"
-    topics:
-      - "api-bridge"
-      - "chat-completions"
-      - "droid-sdk"
-      - "factory-ai"
-      - "factory-droid"
-      - "fastapi"
-      - "function-calling"
-      - "llm"
-      - "openai"
-      - "openai-compatible"
-      - "python"
-      - "server-sent-events"
-      - "tool-calling"
-    stars_fact: 12
-    first_seen: null
-    last_push: "2026-09-21"
-  - name: "promptscript"
-    title: "promptscript"
-    description: "Prompt-as-Code for Enterprise AI. Standardize, audit, and deploy instructions across any AI coding assistant."
-    language: "TypeScript"
-    topics:
-      - "ai-tools"
-      - "antigravity"
-      - "claude"
-      - "cli"
-      - "cursor"
-      - "developer-experience"
-      - "devtools"
-      - "enterprise"
-      - "github-copilot"
-      - "governance"
-      - "llm"
-      - "prompt-as-code"
-      - "prompt-engineering"
-      - "promptops"
-      - "promptscript"
-      - "typescript"
-    stars_fact: 381
-    first_seen: null
-    last_push: "2026-09-24"
   - name: "xiaomi-smart-fan-card"
     title: "xiaomi-smart-fan-card"
     description: "Capability-aware Lovelace card for Xiaomi and generic Home Assistant fans"
@@ -135,7 +90,7 @@ repos:
       - "xiaomi"
     stars_fact: 10
     first_seen: null
-    last_push: "2026-09-24"
+    last_push: "2026-10-02"
   - name: "hassio-addons"
     title: "hassio-addons"
     description: "Home Assistant add-on wrappers around upstream projects with automated releases and security gates."
@@ -157,7 +112,52 @@ repos:
       - "tududi"
     stars_fact: 1
     first_seen: null
-    last_push: "2026-09-24"
+    last_push: "2026-10-02"
+  - name: "promptscript"
+    title: "promptscript"
+    description: "Prompt-as-Code for Enterprise AI. Standardize, audit, and deploy instructions across any AI coding assistant."
+    language: "TypeScript"
+    topics:
+      - "ai-tools"
+      - "antigravity"
+      - "claude"
+      - "cli"
+      - "cursor"
+      - "developer-experience"
+      - "devtools"
+      - "enterprise"
+      - "github-copilot"
+      - "governance"
+      - "llm"
+      - "prompt-as-code"
+      - "prompt-engineering"
+      - "promptops"
+      - "promptscript"
+      - "typescript"
+    stars_fact: 385
+    first_seen: null
+    last_push: "2026-10-01"
+  - name: "factory-droid-openai"
+    title: "factory-droid-openai"
+    description: "Unofficial OpenAI-compatible bridge for Factory Droid"
+    language: "Python"
+    topics:
+      - "api-bridge"
+      - "chat-completions"
+      - "droid-sdk"
+      - "factory-ai"
+      - "factory-droid"
+      - "fastapi"
+      - "function-calling"
+      - "llm"
+      - "openai"
+      - "openai-compatible"
+      - "python"
+      - "server-sent-events"
+      - "tool-calling"
+    stars_fact: 13
+    first_seen: null
+    last_push: "2026-10-01"
   - name: "logstrip"
     title: "logstrip"
     description: "Library that compresses massive CI/system logs into dense, AI-ready error context, reducing LLM input tokens and filtering noise with streaming-safe parsing."
@@ -191,6 +191,6 @@ repos:
 
 # mrwogu
 
-137 pushes across 8 repositories on 45 active days in the last 90 days of public GitHub push activity.
+138 pushes across 9 repositories on 46 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/mrwogu

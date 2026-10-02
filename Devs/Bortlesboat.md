@@ -11,16 +11,16 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "16389f32495280ea"
   - "73468cde177ddae6"
   - "dae9f02535f7c22f"
-pushes_per_week: [2, 8, 1, 0, 1, 2, 0, 0, 0, 2, 1, 1, 6]
+pushes_per_week: [1, 7, 1, 0, 1, 2, 0, 0, 0, 2, 1, 6, 1]
 windows:
   "7d":
-    pushes: 6
-    distinct_repos: 4
+    pushes: 5
+    distinct_repos: 3
     active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -33,18 +33,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 24
-    distinct_repos: 17
-    active_days: 12
+    pushes: 22
+    distinct_repos: 16
+    active_days: 11
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
   push_per_day: 2.0000
-  repo_per_active_day: 1.4167
+  repo_per_active_day: 1.4545
   not_owned_ratio: 0.0000
-  basename_concentration: 0.0588
+  basename_concentration: 0.0625
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -53,9 +53,9 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 6
-    distinct_repos: 4
-    pushes_per_repo: 1.5000
+    pushes: 5
+    distinct_repos: 3
+    pushes_per_repo: 1.6667
     active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -69,16 +69,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 24
-    distinct_repos: 17
-    pushes_per_repo: 1.4118
-    active_days: 12
+    pushes: 22
+    distinct_repos: 16
+    pushes_per_repo: 1.3750
+    active_days: 11
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 3 vault signal(s) — pass"
-  - "activity: 12 active days in 90d — pass"
+  - "activity: 11 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "Bortlesboat"
@@ -156,6 +156,6 @@ repos:
 
 # Bortlesboat
 
-24 pushes across 17 repositories on 12 active days in the last 90 days of public GitHub push activity.
+22 pushes across 16 repositories on 11 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Bortlesboat

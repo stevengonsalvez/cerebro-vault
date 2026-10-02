@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [5, 3, 6, 8, 9, 15, 2, 7, 1, 1, 0, 1, 1]
+pushes_per_week: [4, 3, 6, 11, 6, 17, 0, 7, 1, 1, 0, 1, 1]
 windows:
   "7d":
     pushes: 1
@@ -29,7 +29,7 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 59
+    pushes: 58
     distinct_repos: 7
     active_days: 26
     repos_not_owned: 2
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 2.2692
+  push_per_day: 2.2308
   repo_per_active_day: 0.2692
   not_owned_ratio: 0.2857
   basename_concentration: 0.4286
@@ -65,9 +65,9 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 59
+    pushes: 58
     distinct_repos: 7
-    pushes_per_repo: 8.4286
+    pushes_per_repo: 8.2857
     active_days: 26
     repos_not_owned: 2
     not_owned_basenames: 1
@@ -136,6 +136,6 @@ repos:
 
 # abhinav
 
-59 pushes across 7 repositories on 26 active days in the last 90 days of public GitHub push activity.
+58 pushes across 7 repositories on 26 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/abhinav

@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "c489e6fb5febf2ab"
-pushes_per_week: [1, 22, 17, 5, 6, 7, 6, 3, 0, 1, 0, 6, 3]
+pushes_per_week: [5, 22, 16, 2, 6, 7, 6, 3, 0, 1, 2, 4, 5]
 windows:
   "7d":
-    pushes: 3
+    pushes: 5
     distinct_repos: 2
-    active_days: 3
+    active_days: 4
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 10
+    pushes: 12
     distinct_repos: 2
-    active_days: 8
+    active_days: 9
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 77
+    pushes: 79
     distinct_repos: 11
-    active_days: 36
+    active_days: 37
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 2.1389
-  repo_per_active_day: 0.3056
+  push_per_day: 2.1351
+  repo_per_active_day: 0.2973
   not_owned_ratio: 0.3636
   basename_concentration: 0.0909
   shapes: []
@@ -49,34 +49,50 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 3
+    pushes: 5
     distinct_repos: 2
-    pushes_per_repo: 1.5000
-    active_days: 3
+    pushes_per_repo: 2.5000
+    active_days: 4
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 10
+    pushes: 12
     distinct_repos: 2
-    pushes_per_repo: 5.0000
-    active_days: 8
+    pushes_per_repo: 6.0000
+    active_days: 9
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 77
+    pushes: 79
     distinct_repos: 11
-    pushes_per_repo: 7.0000
-    active_days: 36
+    pushes_per_repo: 7.1818
+    active_days: 37
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 36 active days in 90d — pass"
+  - "activity: 37 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "Qiyuanqiii"
+    title: "Qiyuanqiii"
+    description: "Profile README · Go · AI Agents · Cybersecurity · Open Source"
+    language: null
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-10-01"
+  - name: "VulnGym-T2"
+    title: "VulnGym-T2"
+    description: "2026 腾讯开源 VulnGym赛道 T2选题 双证+奖金"
+    language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-18"
   - name: "VulnGym-bv2-private"
     title: "VulnGym-bv2-private"
     description: "Private engineering repository for the VulnGym T1 x T2 B-v2 automation loop"
@@ -85,22 +101,6 @@ repos:
     stars_fact: 1
     first_seen: null
     last_push: "2026-09-09"
-  - name: "VulnGym-T2"
-    title: "VulnGym-T2"
-    description: "2026 腾讯开源 VulnGym赛道 T2选题"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-18"
-  - name: "Qiyuanqiii"
-    title: "Qiyuanqiii"
-    description: "Profile README · Go · AI Agents · Cybersecurity · Open Source"
-    language: null
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-09-11"
   - name: "Jump-Terminator"
     title: "Jump-Terminator"
     description: "Jump Terminator Android 跨应用跳转控制工具（S0 技术可行性验证）"
@@ -121,6 +121,6 @@ repos:
 
 # Qiyuanqiii
 
-77 pushes across 11 repositories on 36 active days in the last 90 days of public GitHub push activity.
+79 pushes across 11 repositories on 37 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Qiyuanqiii

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [11, 3, 0, 3, 0, 1, 1, 6, 0, 2, 0, 3, 3]
+pushes_per_week: [10, 1, 0, 3, 0, 1, 2, 5, 0, 2, 1, 2, 3]
 windows:
   "7d":
     pushes: 3
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 4
     not_owned_owners: 3
   "90d":
-    pushes: 33
+    pushes: 30
     distinct_repos: 11
-    active_days: 20
+    active_days: 19
     repos_not_owned: 5
     not_owned_basenames: 4
     not_owned_owners: 4
 automation:
   state: "clear"
-  push_per_day: 1.6500
-  repo_per_active_day: 0.5500
+  push_per_day: 1.5789
+  repo_per_active_day: 0.5789
   not_owned_ratio: 0.4545
   basename_concentration: 0.1818
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 4
     not_owned_owners: 3
   "90d":
-    pushes: 33
+    pushes: 30
     distinct_repos: 11
-    pushes_per_repo: 3.0000
-    active_days: 20
+    pushes_per_repo: 2.7273
+    active_days: 19
     repos_not_owned: 5
     not_owned_basenames: 4
     not_owned_owners: 4
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 20 active days in 90d — pass"
+  - "activity: 19 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "blocks"
@@ -136,6 +136,6 @@ repos:
 
 # ephraimduncan
 
-33 pushes across 11 repositories on 20 active days in the last 90 days of public GitHub push activity.
+30 pushes across 11 repositories on 19 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ephraimduncan

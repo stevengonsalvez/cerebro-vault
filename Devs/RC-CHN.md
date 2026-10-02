@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [5, 8, 4, 3, 4, 11, 2, 2, 0, 3, 2, 11, 8]
+pushes_per_week: [8, 5, 5, 2, 4, 13, 0, 2, 0, 3, 2, 12, 7]
 windows:
   "7d":
-    pushes: 12
-    distinct_repos: 4
-    active_days: 5
+    pushes: 8
+    distinct_repos: 3
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 12
-    distinct_repos: 4
-    pushes_per_repo: 3.0000
-    active_days: 5
+    pushes: 8
+    distinct_repos: 3
+    pushes_per_repo: 2.6667
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -77,6 +77,14 @@ reasons:
   - "activity: 33 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "wg-quic"
+    title: "wg-quic"
+    description: null
+    language: "Go"
+    topics: []
+    stars_fact: 7
+    first_seen: null
+    last_push: "2026-09-30"
   - name: "ReuleauxCoder"
     title: "ReuleauxCoder"
     description: "Reinventing the wheel, but only for those who prefer it non-circular."
@@ -84,15 +92,7 @@ repos:
     topics: []
     stars_fact: 19
     first_seen: null
-    last_push: "2026-09-24"
-  - name: "command-code-reverse"
-    title: "command-code-reverse"
-    description: "Converts Command Code API to OpenAI chat completions"
-    language: "Go"
-    topics: []
-    stars_fact: 7
-    first_seen: null
-    last_push: "2026-09-24"
+    last_push: "2026-09-30"
   - name: "Project-Veil"
     title: "Project-Veil"
     description: "Beneath notice. Beyond reach."
@@ -100,15 +100,23 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-16"
-  - name: "wg-quic"
-    title: "wg-quic"
-    description: null
+    last_push: "2026-09-30"
+  - name: "1970"
+    title: "1970"
+    description: "A Git timestamp experiment with a commit dated January 1, 1970."
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-29"
+  - name: "command-code-reverse"
+    title: "command-code-reverse"
+    description: "Converts Command Code API to OpenAI chat completions"
     language: "Go"
     topics: []
-    stars_fact: 6
+    stars_fact: 9
     first_seen: null
-    last_push: "2026-09-13"
+    last_push: "2026-09-24"
   - name: "astrbot_dg_lab_plugin"
     title: "astrbot_dg_lab_plugin"
     description: "嗯，ai也需要一点情趣，你说是吧"
@@ -117,14 +125,6 @@ repos:
     stars_fact: 34
     first_seen: null
     last_push: "2025-05-30"
-  - name: "astrbot_uptime_kuma_webhook_plugin"
-    title: "astrbot_uptime_kuma_webhook_plugin"
-    description: "使用astrbot接收uptime kuma发来的webhook通知服务状态的插件"
-    language: "Python"
-    topics: []
-    stars_fact: 9
-    first_seen: null
-    last_push: "2025-05-20"
 ---
 
 # RC-CHN

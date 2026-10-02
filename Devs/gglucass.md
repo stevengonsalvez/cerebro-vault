@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "73468cde177ddae6"
-pushes_per_week: [18, 2, 0, 2, 0, 18, 4, 1, 1, 3, 0, 9, 9]
+pushes_per_week: [16, 2, 0, 2, 0, 22, 0, 1, 1, 3, 0, 10, 9]
 windows:
   "7d":
-    pushes: 11
+    pushes: 10
     distinct_repos: 2
     active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 21
+    pushes: 22
     distinct_repos: 2
-    active_days: 10
+    active_days: 11
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 67
+    pushes: 66
     distinct_repos: 2
     active_days: 26
     repos_not_owned: 0
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.5769
+  push_per_day: 2.5385
   repo_per_active_day: 0.0769
   not_owned_ratio: 0.0000
   basename_concentration: 0.5000
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 11
+    pushes: 10
     distinct_repos: 2
-    pushes_per_repo: 5.5000
+    pushes_per_repo: 5.0000
     active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 21
+    pushes: 22
     distinct_repos: 2
-    pushes_per_repo: 10.5000
-    active_days: 10
+    pushes_per_repo: 11.0000
+    active_days: 11
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 67
+    pushes: 66
     distinct_repos: 2
-    pushes_per_repo: 33.5000
+    pushes_per_repo: 33.0000
     active_days: 26
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -147,6 +147,6 @@ repos:
 
 # gglucass
 
-67 pushes across 2 repositories on 26 active days in the last 90 days of public GitHub push activity.
+66 pushes across 2 repositories on 26 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/gglucass

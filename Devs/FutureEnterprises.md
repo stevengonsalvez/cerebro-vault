@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "b7bec34541d2ddb0"
-pushes_per_week: [31, 23, 54, 23, 10, 28, 18, 7, 2, 0, 5, 3, 22]
+pushes_per_week: [33, 20, 54, 22, 14, 25, 17, 7, 2, 0, 5, 5, 20]
 windows:
   "7d":
-    pushes: 22
+    pushes: 20
     distinct_repos: 1
-    active_days: 5
+    active_days: 4
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 2
   "90d":
-    pushes: 226
+    pushes: 224
     distinct_repos: 5
-    active_days: 56
+    active_days: 55
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 4.0357
-  repo_per_active_day: 0.0893
+  push_per_day: 4.0727
+  repo_per_active_day: 0.0909
   not_owned_ratio: 0.4000
   basename_concentration: 0.4000
   shapes: []
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 22
+    pushes: 20
     distinct_repos: 1
-    pushes_per_repo: 22.0000
-    active_days: 5
+    pushes_per_repo: 20.0000
+    active_days: 4
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 2
   "90d":
-    pushes: 226
+    pushes: 224
     distinct_repos: 5
-    pushes_per_repo: 45.2000
-    active_days: 56
+    pushes_per_repo: 44.8000
+    active_days: 55
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 56 active days in 90d — pass"
+  - "activity: 55 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "anatomy"
@@ -118,6 +118,6 @@ repos:
 
 # FutureEnterprises
 
-226 pushes across 5 repositories on 56 active days in the last 90 days of public GitHub push activity.
+224 pushes across 5 repositories on 55 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/FutureEnterprises

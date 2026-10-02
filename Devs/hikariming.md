@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "541318303a272608"
-pushes_per_week: [4, 1, 7, 1, 1, 2, 11, 3, 1, 1, 6, 8, 11]
+pushes_per_week: [2, 1, 7, 1, 2, 6, 6, 3, 1, 3, 4, 11, 17]
 windows:
   "7d":
-    pushes: 14
-    distinct_repos: 7
-    active_days: 6
-    repos_not_owned: 4
+    pushes: 20
+    distinct_repos: 6
+    active_days: 7
+    repos_not_owned: 3
     not_owned_basenames: 2
-    not_owned_owners: 4
+    not_owned_owners: 3
   "30d":
-    pushes: 26
+    pushes: 35
     distinct_repos: 7
-    active_days: 14
+    active_days: 16
     repos_not_owned: 4
     not_owned_basenames: 2
     not_owned_owners: 4
   "90d":
-    pushes: 57
+    pushes: 64
     distinct_repos: 8
-    active_days: 33
+    active_days: 34
     repos_not_owned: 5
     not_owned_basenames: 2
     not_owned_owners: 5
 automation:
   state: "clear"
-  push_per_day: 1.7273
-  repo_per_active_day: 0.2424
+  push_per_day: 1.8824
+  repo_per_active_day: 0.2353
   not_owned_ratio: 0.6250
   basename_concentration: 0.5000
   shapes: []
@@ -49,42 +49,45 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 14
-    distinct_repos: 7
-    pushes_per_repo: 2.0000
-    active_days: 6
-    repos_not_owned: 4
+    pushes: 20
+    distinct_repos: 6
+    pushes_per_repo: 3.3333
+    active_days: 7
+    repos_not_owned: 3
     not_owned_basenames: 2
-    not_owned_owners: 4
+    not_owned_owners: 3
   "30d":
-    pushes: 26
+    pushes: 35
     distinct_repos: 7
-    pushes_per_repo: 3.7143
-    active_days: 14
+    pushes_per_repo: 5.0000
+    active_days: 16
     repos_not_owned: 4
     not_owned_basenames: 2
     not_owned_owners: 4
   "90d":
-    pushes: 57
+    pushes: 64
     distinct_repos: 8
-    pushes_per_repo: 7.1250
-    active_days: 33
+    pushes_per_repo: 8.0000
+    active_days: 34
     repos_not_owned: 5
     not_owned_basenames: 2
     not_owned_owners: 5
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 33 active days in 90d — pass"
+  - "activity: 34 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "openkoto"
-    title: "openkoto"
-    description: "AI based foreign language reading and learning tool that allows you to learn foreign languages using any text content of interest,TextLingo是一款兴趣驱动的AI外语阅读与学习软件"
-    language: "Swift"
-    topics: []
-    stars_fact: 452
+  - name: "dshfind"
+    title: "dshfind"
+    description: "DSH (DeepSeek Harness) 原理学习、插件市场与最佳实践 · Learn DSH principles, plugin marketplace & best practices"
+    language: "TypeScript"
+    topics:
+      - "deepseek-harness"
+      - "dsh"
+      - "dsh-plugin"
+    stars_fact: 290
     first_seen: null
-    last_push: "2026-09-12"
+    last_push: "2026-10-02"
   - name: "ghfind"
     title: "ghfind"
     description: "Discover the best developers — and become one. Drop a GitHub handle for a 0–100 value & trust score in 30s: see your gaps, discover top devs, get found. Exposes PR farmers, AI bots & fork-hoarders. Deterministic scoring, self-hostable."
@@ -102,20 +105,25 @@ repos:
       - "openai"
       - "roast"
       - "trust-score"
-    stars_fact: 230
+    stars_fact: 240
     first_seen: null
-    last_push: "2026-09-24"
-  - name: "dshfind"
-    title: "dshfind"
-    description: "DSH (DeepSeek Harness) 原理学习、插件市场与最佳实践 · Learn DSH principles, plugin marketplace & best practices"
-    language: "JavaScript"
-    topics:
-      - "deepseek-harness"
-      - "dsh"
-      - "dsh-plugin"
-    stars_fact: 265
+    last_push: "2026-10-02"
+  - name: "openkoto"
+    title: "openkoto"
+    description: "AI based foreign language reading and learning tool that allows you to learn foreign languages using any text content of interest,TextLingo是一款兴趣驱动的AI外语阅读与学习软件"
+    language: "Swift"
+    topics: []
+    stars_fact: 453
     first_seen: null
-    last_push: "2026-09-24"
+    last_push: "2026-10-01"
+  - name: "hikariming"
+    title: "hikariming"
+    description: "GitHub profile README for akou — AI builder, product research, and open source projects."
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-26"
   - name: "AIWolfGame"
     title: "AIWolfGame"
     description: "AI狼人杀"
@@ -134,20 +142,10 @@ repos:
     stars_fact: 14
     first_seen: null
     last_push: "2025-01-24"
-  - name: "pindata"
-    title: "pindata"
-    description: "PinData is a modern, open-source dataset management platform designed specifically for large language model (LLM) training workflows"
-    language: "TypeScript"
-    topics:
-      - "dataset"
-      - "llm"
-    stars_fact: 45
-    first_seen: null
-    last_push: "2025-07-07"
 ---
 
 # hikariming
 
-57 pushes across 8 repositories on 33 active days in the last 90 days of public GitHub push activity.
+64 pushes across 8 repositories on 34 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/hikariming

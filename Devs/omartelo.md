@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "4138778ebbc75ba6"
-pushes_per_week: [16, 19, 10, 22, 6, 28, 9, 5, 0, 4, 3, 4, 2]
+pushes_per_week: [18, 19, 8, 23, 5, 33, 4, 5, 0, 4, 3, 4, 2]
 windows:
   "7d":
     pushes: 2
@@ -77,6 +77,14 @@ reasons:
   - "activity: 42 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "nfse4j"
+    title: "nfse4j"
+    description: "Emita NFS-e Nacional pelo seu agente de IA (MCP) ou direto do Java. SDK zero-dependências no núcleo, com servidor MCP e CLI por cima. Homologação por padrão; produção exige confirmação explícita."
+    language: "Java"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-30"
   - name: "homebrew-tap"
     title: "homebrew-tap"
     description: "Homebrew tap for omartelo's tools"
@@ -84,7 +92,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-23"
+    last_push: "2026-09-29"
   - name: "lich"
     title: "lich"
     description: "A terminal-first ADE for the coding agents you already use: real PTYs, git worktrees, diffs and pull requests in one window"
@@ -102,9 +110,9 @@ repos:
       - "opencode"
       - "pty"
       - "terminal"
-    stars_fact: 42
+    stars_fact: 43
     first_seen: null
-    last_push: "2026-09-23"
+    last_push: "2026-10-01"
   - name: "lich-oceanic-next"
     title: "lich-oceanic-next"
     description: "Tema Oceanic Next (app + terminal) para o lich"
@@ -126,17 +134,6 @@ repos:
     description: "Lovecraftian horror for lich"
     language: null
     topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-19"
-  - name: "catppuccin-lich"
-    title: "catppuccin-lich"
-    description: "🧙 Soothing pastel theme for lich"
-    language: null
-    topics:
-      - "catppuccin"
-      - "lich"
-      - "theme"
     stars_fact: 0
     first_seen: null
     last_push: "2026-09-19"

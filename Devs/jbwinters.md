@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "322930b634f9932d"
-pushes_per_week: [3, 23, 25, 3, 0, 3, 0, 0, 0, 0, 1, 5, 10]
+pushes_per_week: [3, 40, 8, 3, 0, 3, 0, 0, 0, 0, 1, 5, 10]
 windows:
   "7d":
-    pushes: 13
+    pushes: 10
     distinct_repos: 2
-    active_days: 4
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 13
+    pushes: 10
     distinct_repos: 2
-    pushes_per_repo: 6.5000
-    active_days: 4
+    pushes_per_repo: 5.0000
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -89,9 +89,25 @@ repos:
       - "ocaml"
       - "probabilistic-programming"
       - "programming-language"
-    stars_fact: 119
+    stars_fact: 120
     first_seen: "2026-07-14T06:00:05.414815+00:00"
-    last_push: "2026-09-24"
+    last_push: "2026-10-02"
+  - name: "wave-intelligence-papers"
+    title: "wave-intelligence-papers"
+    description: "Controlled Python replications of traveling-wave sequence memory and local synaptic learning"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-02"
+  - name: "Evidence-Holonomy"
+    title: "Evidence-Holonomy"
+    description: "An information‑geometric way to state the arrow of time—and irreversibility—without referring to any specific physics, coordinates, or observer."
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-26"
   - name: "embodied-field-intelligence"
     title: "embodied-field-intelligence"
     description: "Cellular automata-based adaptive intellgence study"
@@ -99,7 +115,7 @@ repos:
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-09-10"
+    last_push: "2026-09-25"
   - name: "acoustic-event-locator"
     title: "acoustic-event-locator"
     description: "Acoustic event localization system using Time Difference of Arrival (TDOA) multilateration from unsynchronized videos. Locates gunshots, explosions & impulsive sounds with 4+ microphones. WIP"
@@ -119,22 +135,6 @@ repos:
     stars_fact: 2
     first_seen: null
     last_push: "2025-06-13"
-  - name: "ontic-frontier-engine"
-    title: "ontic-frontier-engine"
-    description: "Proof-Carrying Discovery of Persistent Causal Identities"
-    language: "Python"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-07-18"
-  - name: "Evidence-Holonomy"
-    title: "Evidence-Holonomy"
-    description: "An information‑geometric way to state the arrow of time—and irreversibility—without referring to any specific physics, coordinates, or observer."
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2025-09-22"
 ---
 
 # jbwinters

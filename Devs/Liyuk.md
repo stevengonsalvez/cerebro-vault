@@ -9,14 +9,14 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "dae9f02535f7c22f"
-pushes_per_week: [0, 0, 0, 0, 3, 4, 5, 2, 1, 0, 0, 0, 6]
+pushes_per_week: [0, 0, 0, 0, 3, 4, 5, 2, 1, 0, 0, 3, 3]
 windows:
   "7d":
-    pushes: 6
-    distinct_repos: 4
+    pushes: 4
+    distinct_repos: 3
     active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -49,9 +49,9 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 6
-    distinct_repos: 4
-    pushes_per_repo: 1.5000
+    pushes: 4
+    distinct_repos: 3
+    pushes_per_repo: 1.3333
     active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -77,6 +77,22 @@ reasons:
   - "activity: 10 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "relation-forge"
+    title: "relation-forge"
+    description: "A Codex skill for deconstructing interaction risks across scams, manipulation, abuse, and bullying—evidence-first, uncertainty-aware, and user-led."
+    language: "Python"
+    topics:
+      - "agent-skills"
+      - "ai-agents"
+      - "claude-code"
+      - "codex"
+      - "evidence-based"
+      - "online-safety"
+      - "relationship-analysis"
+      - "scam-prevention"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-28"
   - name: "liyuk.github.io"
     title: "liyuk.github.io"
     description: "Personal site: writing, research, projects & photography. Bilingual, built with Astro."
@@ -84,7 +100,32 @@ repos:
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-09-24"
+    last_push: "2026-10-01"
+  - name: "canonloom"
+    title: "canonloom"
+    description: "A command-driven, author-controlled, auditable workflow for long-form fiction."
+    language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-08-15"
+  - name: "engineering-decision-skills"
+    title: "engineering-decision-skills"
+    description: "Five independent Agent Skills for frontline engineering planning, technical review, metric decisions, retrospectives, and evidence-based reporting."
+    language: "Python"
+    topics:
+      - "agent-skills"
+      - "ai-agents"
+      - "codex"
+      - "decision-making"
+      - "engineering-management"
+      - "metrics"
+      - "retrospective"
+      - "technical-leadership"
+      - "technical-planning"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-28"
   - name: "astro-fourfold"
     title: "astro-fourfold"
     description: "A static-first personal publication theme for Astro: writing, columns, tags, projects, research, photo essays, search, favorites, RSS, and GitHub Pages support."
@@ -117,38 +158,6 @@ repos:
     stars_fact: 1
     first_seen: null
     last_push: "2026-08-22"
-  - name: "dsh-quota-router"
-    title: "dsh-quota-router"
-    description: "Policy-only multi-source quota router for DeepSeek Harness: deterministic task profiles, ordered candidate chains, health-aware fallback, subtask model leases, and observable decisions / DSH 多源配额路由插件"
-    language: "TypeScript"
-    topics:
-      - "cost-control"
-      - "deepseek-harness"
-      - "dsh"
-      - "dsh-plugin"
-      - "fallback"
-      - "llm-routing"
-      - "model-router"
-      - "quota-router"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-21"
-  - name: "Liyuk"
-    title: "Liyuk"
-    description: "Engineering leadership, global commerce systems, and AI-enabled productivity."
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-24"
-  - name: "dsh-neonforge"
-    title: "dsh-neonforge"
-    description: "Neonforge post-punk magazine-collage visual skin for DeepSeek Harness"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-01"
 ---
 
 # Liyuk

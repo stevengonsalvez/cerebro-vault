@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: true
 repos_populated: true
-generated_at: "2026-09-25T06:06:35.067653+00:00"
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "daa338753d6df9fd"
-pushes_per_week: [0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,6 +77,14 @@ reasons:
   - "activity: 1 active days in 90d — below the 5-day line, LABELLED low-n (never suppressed)"
   - "automation: clear — pass"
 repos:
+  - name: "agent-shell-gc"
+    title: "agent-shell-gc"
+    description: null
+    language: "Emacs Lisp"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-29"
   - name: "claude-thermos"
     title: "claude-thermos"
     description: "Keeps your Claude session warm for you"
@@ -84,7 +92,7 @@ repos:
     topics:
       - "ai-agents"
       - "claude-code"
-    stars_fact: 229
+    stars_fact: 231
     first_seen: "2026-07-24T06:00:05.187645+00:00"
     last_push: "2026-07-27"
   - name: "parsecat"
@@ -119,21 +127,6 @@ repos:
     stars_fact: 4
     first_seen: null
     last_push: "2023-12-05"
-  - name: "akkeeper"
-    title: "akkeeper"
-    description: "An easy way to deploy your Akka services to a distributed environment."
-    language: "Scala"
-    topics:
-      - "akka"
-      - "deployment"
-      - "distributed-actors"
-      - "distributed-systems"
-      - "hadoop"
-      - "monitoring"
-      - "yarn"
-    stars_fact: 30
-    first_seen: null
-    last_push: "2022-12-23"
 ---
 
 # izeigerman

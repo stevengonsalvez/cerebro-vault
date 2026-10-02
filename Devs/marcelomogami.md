@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "4138778ebbc75ba6"
-pushes_per_week: [0, 5, 6, 1, 1, 0, 2, 1, 0, 0, 0, 0, 1]
+pushes_per_week: [0, 6, 5, 2, 0, 0, 2, 1, 0, 0, 0, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -84,7 +84,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-24"
+    last_push: "2026-10-01"
   - name: "anime-watched"
     title: "anime-watched"
     description: "Personal browser extension that logs my anime watching progress. Detects the episode from Crunchyroll or Prime Video and syncs it directly to my real AniList lists — no manual mapping, no separate backend to configure."

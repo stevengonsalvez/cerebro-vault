@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [36, 20, 23, 26, 19, 21, 3, 15, 2, 11, 11, 19, 34]
+pushes_per_week: [27, 21, 20, 27, 21, 19, 2, 17, 0, 18, 4, 29, 24]
 windows:
   "7d":
-    pushes: 38
+    pushes: 31
     distinct_repos: 6
-    active_days: 7
+    active_days: 6
     repos_not_owned: 5
     not_owned_basenames: 4
     not_owned_owners: 3
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 6
     not_owned_owners: 3
   "90d":
-    pushes: 240
+    pushes: 229
     distinct_repos: 25
-    active_days: 59
+    active_days: 58
     repos_not_owned: 12
     not_owned_basenames: 11
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 4.0678
-  repo_per_active_day: 0.4237
+  push_per_day: 3.9483
+  repo_per_active_day: 0.4310
   not_owned_ratio: 0.4800
   basename_concentration: 0.0800
   shapes: []
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 38
+    pushes: 31
     distinct_repos: 6
-    pushes_per_repo: 6.3333
-    active_days: 7
+    pushes_per_repo: 5.1667
+    active_days: 6
     repos_not_owned: 5
     not_owned_basenames: 4
     not_owned_owners: 3
@@ -65,26 +65,34 @@ facets:
     not_owned_basenames: 6
     not_owned_owners: 3
   "90d":
-    pushes: 240
+    pushes: 229
     distinct_repos: 25
-    pushes_per_repo: 9.6000
-    active_days: 59
+    pushes_per_repo: 9.1600
+    active_days: 58
     repos_not_owned: 12
     not_owned_basenames: 11
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 59 active days in 90d — pass"
+  - "activity: 58 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "modern-sicp"
-    title: "modern-sicp"
-    description: "Modern revised version of SICP the masterpiece (forked from HTML5/EPUB3 version of SICP)"
-    language: null
+  - name: "fuchxia"
+    title: "fuchxia"
+    description: "An unofficial Fuchsia's standalone scaffolds that are independently buildable as Cargo crates."
+    language: "Rust"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2023-04-14"
+    last_push: "2026-08-13"
+  - name: "modern-sicp"
+    title: "modern-sicp"
+    description: "Modern revised version of SICP the masterpiece (forked from HTML5/EPUB3 version of SICP)"
+    language: "Rust"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-30"
   - name: "metaphorics"
     title: "metaphorics"
     description: "Profile"
@@ -123,6 +131,6 @@ repos:
 
 # metaphorics
 
-240 pushes across 25 repositories on 59 active days in the last 90 days of public GitHub push activity.
+229 pushes across 25 repositories on 58 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/metaphorics

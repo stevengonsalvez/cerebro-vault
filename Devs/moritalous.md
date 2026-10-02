@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "1be978947e68d1f2"
-pushes_per_week: [5, 4, 14, 3, 1, 2, 1, 0, 1, 0, 1, 2, 0]
+pushes_per_week: [6, 3, 14, 3, 1, 2, 1, 0, 1, 0, 2, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,20 +77,20 @@ reasons:
   - "activity: 19 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "jev-browser-use-demo"
-    title: "jev-browser-use-demo"
-    description: null
-    language: "TypeScript"
+  - name: "lambda-mcp-adaptor"
+    title: "lambda-mcp-adaptor"
+    description: "An MCP server SDK for AWS serverless architecture with familiar, official SDK-like API design."
+    language: "JavaScript"
     topics: []
-    stars_fact: 1
+    stars_fact: 13
     first_seen: null
-    last_push: "2026-09-23"
+    last_push: "2025-06-15"
   - name: "lambda-microvm-webapp"
     title: "lambda-microvm-webapp"
     description: null
     language: "Python"
     topics: []
-    stars_fact: 4
+    stars_fact: 5
     first_seen: null
     last_push: "2026-06-27"
   - name: "cost-widget"
@@ -100,31 +100,31 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-22"
-  - name: "jev-persona-panel"
-    title: "jev-persona-panel"
+    last_push: "2026-09-28"
+  - name: "qiita-voice-plugin"
+    title: "qiita-voice-plugin"
     description: null
-    language: "TypeScript"
+    language: null
     topics: []
-    stars_fact: 0
+    stars_fact: 3
     first_seen: null
-    last_push: "2026-09-21"
-  - name: "fable-5-1-build-day"
-    title: "fable-5-1-build-day"
+    last_push: "2026-08-27"
+  - name: "key-paint"
+    title: "key-paint"
     description: null
     language: "HTML"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-18"
-  - name: "Filer11"
-    title: "Filer11"
+    last_push: "2026-09-24"
+  - name: "jev-browser-use-demo"
+    title: "jev-browser-use-demo"
     description: null
-    language: "JavaScript"
+    language: "TypeScript"
     topics: []
-    stars_fact: 0
+    stars_fact: 1
     first_seen: null
-    last_push: "2026-09-13"
+    last_push: "2026-09-23"
 ---
 
 # moritalous

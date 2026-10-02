@@ -8,8 +8,8 @@ provenance_repos:
   - "ChromeDevTools/chrome-devtools-mcp"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-09-28T06:07:44.182865+00:00"
+repos_populated: false
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "379642deb53f3714"
 pushes_per_week: [0, 1, 0, 2, 0, 0, 0, 0, 0, 1, 1, 0, 0]
@@ -76,62 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "claude-rodin"
-    title: "claude-rodin"
-    description: "A collection of skills, subagents, and hooks for Claude Code."
-    language: "Python"
-    topics:
-      - "claude-code"
-      - "claude-code-skills"
-      - "claude-skills"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-24"
-  - name: "tailwindplus-downloader"
-    title: "tailwindplus-downloader"
-    description: "Tools for downloading TailwindPlus components to a local file"
-    language: "JavaScript"
-    topics:
-      - "tailwind"
-      - "tailwind-css"
-      - "tailwindplus"
-      - "tailwindui"
-    stars_fact: 54
-    first_seen: null
-    last_push: "2026-09-20"
-  - name: "mcp-tailwindplus"
-    title: "mcp-tailwindplus"
-    description: "TailwindPlus MCP server"
-    language: "Python"
-    topics: []
-    stars_fact: 43
-    first_seen: null
-    last_push: "2026-07-11"
-  - name: "fizzy-time_tracking"
-    title: "fizzy-time_tracking"
-    description: "Rails engine adding time-tracking to Fizzy cards"
-    language: "Ruby"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-23"
-  - name: "vim-json-validate"
-    title: "vim-json-validate"
-    description: "Validate JSON Schema configuration files in vim"
-    language: "Vim Script"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-03-23"
-  - name: "github-bookmarked-issues"
-    title: "github-bookmarked-issues"
-    description: "Browser extension to bookmark GitHub Issues"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-03-18"
+repos: []
 ---
 
 # richardkmichael

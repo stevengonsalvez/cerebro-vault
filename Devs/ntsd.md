@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "ef17663e884139a8"
-pushes_per_week: [0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 17, 14, 11]
+pushes_per_week: [0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 21, 12, 14]
 windows:
   "7d":
-    pushes: 12
-    distinct_repos: 4
+    pushes: 16
+    distinct_repos: 7
     active_days: 7
-    repos_not_owned: 2
-    not_owned_basenames: 2
+    repos_not_owned: 3
+    not_owned_basenames: 3
     not_owned_owners: 1
   "30d":
-    pushes: 43
-    distinct_repos: 5
-    active_days: 18
-    repos_not_owned: 2
-    not_owned_basenames: 2
+    pushes: 48
+    distinct_repos: 8
+    active_days: 19
+    repos_not_owned: 3
+    not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 44
-    distinct_repos: 5
-    active_days: 19
-    repos_not_owned: 2
-    not_owned_basenames: 2
+    pushes: 49
+    distinct_repos: 8
+    active_days: 20
+    repos_not_owned: 3
+    not_owned_basenames: 3
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.3158
-  repo_per_active_day: 0.2632
-  not_owned_ratio: 0.4000
-  basename_concentration: 0.2000
+  push_per_day: 2.4500
+  repo_per_active_day: 0.4000
+  not_owned_ratio: 0.3750
+  basename_concentration: 0.1250
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,82 +49,49 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 12
-    distinct_repos: 4
-    pushes_per_repo: 3.0000
+    pushes: 16
+    distinct_repos: 7
+    pushes_per_repo: 2.2857
     active_days: 7
-    repos_not_owned: 2
-    not_owned_basenames: 2
+    repos_not_owned: 3
+    not_owned_basenames: 3
     not_owned_owners: 1
   "30d":
-    pushes: 43
-    distinct_repos: 5
-    pushes_per_repo: 8.6000
-    active_days: 18
-    repos_not_owned: 2
-    not_owned_basenames: 2
+    pushes: 48
+    distinct_repos: 8
+    pushes_per_repo: 6.0000
+    active_days: 19
+    repos_not_owned: 3
+    not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 44
-    distinct_repos: 5
-    pushes_per_repo: 8.8000
-    active_days: 19
-    repos_not_owned: 2
-    not_owned_basenames: 2
+    pushes: 49
+    distinct_repos: 8
+    pushes_per_repo: 6.1250
+    active_days: 20
+    repos_not_owned: 3
+    not_owned_basenames: 3
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 19 active days in 90d — pass"
+  - "activity: 20 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "sdp-compact"
-    title: "sdp-compact"
-    description: "shorten WebRTC Session Description Protocol (SDP) based on Unified Plan SDP"
+  - name: "svelte-tex"
+    title: "svelte-tex"
+    description: "Svelte component to convert TeX/LaTeX to MathML or SVG, Supports both Svelte 4 and Svelte 5"
     language: "TypeScript"
     topics:
       - "hacktoberfest"
-      - "p2p"
-      - "sdp"
-      - "webrtc"
-    stars_fact: 11
+      - "latex"
+      - "math"
+      - "mathml"
+      - "svelte"
+      - "svg"
+      - "tex"
+    stars_fact: 10
     first_seen: null
-    last_push: "2026-09-24"
-  - name: "dotai"
-    title: "dotai"
-    description: "Local VLLM on Nvidia DGX Spark and hermes agent on any Linux or Reaspberry PI setup"
-    language: "Makefile"
-    topics:
-      - "dgx-spark"
-      - "hermes"
-      - "local-llm"
-      - "vllm"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-21"
-  - name: "ntsd"
-    title: "ntsd"
-    description: "My Github Profile"
-    language: null
-    topics:
-      - "github-profile"
-      - "github-profile-readme"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-20"
-  - name: "cross-clipboard"
-    title: "cross-clipboard"
-    description: "An open source cross-platform clipboard sharing."
-    language: "Go"
-    topics:
-      - "clipboard"
-      - "golang"
-      - "hacktoberfest"
-      - "libp2p"
-      - "p2p"
-      - "tview"
-    stars_fact: 57
-    first_seen: null
-    last_push: "2025-05-17"
+    last_push: "2026-10-02"
   - name: "zero-share"
     title: "zero-share"
     description: "A secure P2P file sharing using WebRTC without server-side need."
@@ -141,24 +108,53 @@ repos:
       - "webrtc"
     stars_fact: 150
     first_seen: null
-    last_push: "2026-01-04"
-  - name: "lol-chat-timer"
-    title: "lol-chat-timer"
-    description: "Overwolf plugin to track spell and ability by in game chat"
-    language: "Svelte"
+    last_push: "2026-10-02"
+  - name: "sdp-compact"
+    title: "sdp-compact"
+    description: "shorten WebRTC Session Description Protocol (SDP) based on Unified Plan SDP"
+    language: "TypeScript"
     topics:
       - "hacktoberfest"
-      - "league-of-legends"
-      - "lol"
-      - "overlay"
-      - "overwolf"
-    stars_fact: 3
+      - "p2p"
+      - "sdp"
+      - "webrtc"
+    stars_fact: 11
     first_seen: null
-    last_push: "2023-11-24"
+    last_push: "2026-10-02"
+  - name: "freqtrade-configs"
+    title: "freqtrade-configs"
+    description: "My Freqtrade strategies and config"
+    language: "Python"
+    topics: []
+    stars_fact: 44
+    first_seen: null
+    last_push: "2022-04-03"
+  - name: "ntsd"
+    title: "ntsd"
+    description: "My Github Profile"
+    language: null
+    topics:
+      - "github-profile"
+      - "github-profile-readme"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-27"
+  - name: "dotai"
+    title: "dotai"
+    description: "Local VLLM on Nvidia DGX Spark and hermes agent on any Linux or Reaspberry PI setup"
+    language: "Makefile"
+    topics:
+      - "dgx-spark"
+      - "hermes"
+      - "local-llm"
+      - "vllm"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-25"
 ---
 
 # ntsd
 
-44 pushes across 5 repositories on 19 active days in the last 90 days of public GitHub push activity.
+49 pushes across 8 repositories on 20 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ntsd

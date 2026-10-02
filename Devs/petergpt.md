@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: true
 repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "fef1723d0079f86e"
 pushes_per_week: [0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
@@ -77,54 +77,58 @@ reasons:
   - "activity: 2 active days in 90d — below the 5-day line, LABELLED low-n (never suppressed)"
   - "automation: clear — pass"
 repos:
-  - name: "painted-rickroll"
-    title: "painted-rickroll"
-    description: "Nocturne in Blue and Gold, the painted Rickroll: a one-minute moving oil painting with its own synthesised soundtrack, drawn entirely in code (WebGL2 + WebAudio)."
-    language: "HTML"
-    topics: []
-    stars_fact: 8
-    first_seen: null
-    last_push: "2026-09-24"
-  - name: "3d-prompt-collection"
-    title: "3d-prompt-collection"
-    description: "A presentation-order collection of 3D prompts for copying and reuse."
-    language: null
-    topics: []
-    stars_fact: 268
-    first_seen: null
-    last_push: "2026-07-02"
   - name: "bullshit-benchmark"
     title: "bullshit-benchmark"
     description: "BullshitBench measures whether AI models challenge nonsensical prompts instead of confidently answering them, created by Peter Gostev."
     language: "Python"
     topics: []
-    stars_fact: 1880
+    stars_fact: 1885
     first_seen: null
-    last_push: "2026-09-24"
+    last_push: "2026-10-02"
+  - name: "3d-prompt-collection"
+    title: "3d-prompt-collection"
+    description: "A presentation-order collection of 3D prompts for copying and reuse."
+    language: null
+    topics: []
+    stars_fact: 298
+    first_seen: null
+    last_push: "2026-07-02"
+  - name: "claude-interview"
+    title: "claude-interview"
+    description: "A hands-free, recorded video call with Claude: Claude Code for the thinking, ElevenLabs for voice, generated visuals, edit-ready recordings."
+    language: "JavaScript"
+    topics:
+      - "claude"
+      - "claude-code"
+      - "elevenlabs"
+      - "voice"
+    stars_fact: 7
+    first_seen: null
+    last_push: "2026-09-26"
   - name: "transformer-architecture"
     title: "transformer-architecture"
     description: "Explore the original Transformer and DeepSeek V4.1 Flash in interactive 3D."
     language: "JavaScript"
     topics: []
-    stars_fact: 80
+    stars_fact: 83
     first_seen: null
     last_push: "2026-09-11"
+  - name: "painted-rickroll"
+    title: "painted-rickroll"
+    description: "Nocturne in Blue and Gold, the painted Rickroll: a one-minute moving oil painting with its own synthesised soundtrack, drawn entirely in code (WebGL2 + WebAudio)."
+    language: "HTML"
+    topics: []
+    stars_fact: 22
+    first_seen: null
+    last_push: "2026-09-24"
   - name: "gpt-image-360-babylon-walkthrough"
     title: "gpt-image-360-babylon-walkthrough"
     description: "GPT Image 2 generated 360 panorama walkthrough of Babylon's Hanging Gardens"
     language: "JavaScript"
     topics: []
-    stars_fact: 19
+    stars_fact: 20
     first_seen: null
     last_push: "2026-04-25"
-  - name: "OpenAI_GoogleSheets"
-    title: "OpenAI_GoogleSheets"
-    description: "Call OpenAI from Google sheets and Enforce Schema Output"
-    language: null
-    topics: []
-    stars_fact: 14
-    first_seen: null
-    last_push: "2024-06-15"
 ---
 
 # petergpt

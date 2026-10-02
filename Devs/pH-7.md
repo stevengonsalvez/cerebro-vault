@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "1f49d0119cedbc84"
-pushes_per_week: [1, 4, 15, 7, 1, 5, 0, 2, 0, 1, 1, 5, 1]
+pushes_per_week: [1, 6, 15, 5, 1, 5, 0, 2, 0, 1, 4, 2, 1]
 windows:
   "7d":
     pushes: 1
@@ -77,109 +77,6 @@ reasons:
   - "activity: 21 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "Download-Simply-Videos-From-YouTube"
-    title: "Download-Simply-Videos-From-YouTube"
-    description: "Python script that downloads and saves any of your favorite YouTube videos and playlists. All you need to do is just run the Python script and follow the terminal prompt."
-    language: "Python"
-    topics:
-      - "download-audio-youtube"
-      - "download-video"
-      - "download-youtube"
-      - "downloader"
-      - "downloader-for-youtube"
-      - "mp3-youtube"
-      - "mp3-youtube-converter"
-      - "videos"
-      - "youtube"
-      - "youtube-dl"
-      - "youtube-dlp"
-      - "youtube-download"
-      - "youtube-downloader"
-      - "youtube-downloader-4k"
-      - "youtube-ffmpeg"
-      - "youtube-playlist-downloader"
-      - "youtube-to-audio"
-      - "youtube-to-mp3"
-      - "youtube-videos-downloader"
-      - "youtube2mp3"
-    stars_fact: 396
-    first_seen: null
-    last_push: "2026-09-24"
-  - name: "orbit"
-    title: "orbit"
-    description: "Orbit. Turn any web application into a scalable, maintainable, and successful product."
-    language: "TypeScript"
-    topics:
-      - "framework"
-      - "mvc"
-      - "typescript"
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-09-21"
-  - name: "Simple-Java-Calculator"
-    title: "Simple-Java-Calculator"
-    description: ":1234: Simple calculator is written in Java with Eclipse. This calculator is simple with an easy code to help novices learn how to operate a calculator."
-    language: "Java"
-    topics:
-      - "calculator"
-      - "java"
-      - "java-calculator"
-      - "java-learning"
-      - "java-simple-project"
-      - "java-study"
-      - "java-swing"
-      - "learn"
-      - "learning-java"
-      - "simple-java-calculator"
-      - "teaching"
-    stars_fact: 244
-    first_seen: null
-    last_push: "2024-02-22"
-  - name: "JoraLang"
-    title: "JoraLang"
-    description: ":moyai: :sunrise: :tropical_fish: JoraLang is my new interpreted language running with a C++ interpreter. It also offers an easy-to-use terminal interface. The Jora Language Interpreter is a simpler and lighter version, with a completely different syntax from my very first GoYa programming language: https://github.com/pH-7/GoYa 🌐"
-    language: "C++"
-    topics:
-      - "c-plus-plus"
-      - "c-programming-language"
-      - "goya"
-      - "goya-language"
-      - "interpreted-language"
-      - "interpreted-languages"
-      - "interpreted-programming-language"
-      - "interpreter"
-      - "jora"
-      - "jora-language"
-      - "language"
-      - "lightweight-programming-language"
-      - "own-language"
-      - "parser"
-      - "programming"
-      - "programming-language"
-    stars_fact: 7
-    first_seen: null
-    last_push: "2026-09-18"
-  - name: "Obfuscator-Class"
-    title: "Obfuscator-Class"
-    description: ":man_technologist: Simple and effective Obfuscator PHP class (this is not a stupid base64 encoding script, but a real and effective obfuscation script)"
-    language: "PHP"
-    topics:
-      - "code-obfuscator"
-      - "encode"
-      - "encryption"
-      - "hide-code"
-      - "obfuscate"
-      - "obfuscate-code"
-      - "obfuscation"
-      - "obfuscator"
-      - "php"
-      - "php-encoder"
-      - "php-encryption"
-      - "php-obfuscation"
-      - "php-obfuscator"
-    stars_fact: 371
-    first_seen: null
-    last_push: "2021-05-10"
   - name: "Simple-Java-Text-Editor"
     title: "Simple-Java-Text-Editor"
     description: ":memo: PHNotepad is a simple Java text/code editor (notepad) written in Java. It has also nice features such as Search tool, Find/Replace text/code, Auto-completion, Nice Image Buttons for better UX, etc."
@@ -205,9 +102,111 @@ repos:
       - "text-editor"
       - "text-editor-java"
       - "texteditor"
-    stars_fact: 175
+    stars_fact: 174
     first_seen: null
     last_push: "2022-06-22"
+  - name: "youtube-to-medium-blog-posts-automation"
+    title: "youtube-to-medium-blog-posts-automation"
+    description: "Turn any YouTube videos into well-written Medium blog posts with this automation script (made with lots of love). Writes a delightful and professional article from a given full YouTube channel."
+    language: "Python"
+    topics:
+      - "article-generator"
+      - "automation"
+      - "medium"
+      - "medium-api"
+      - "prompt"
+      - "prompt-engineering"
+      - "seo-friendly"
+      - "unsplash-api"
+      - "youtube"
+      - "youtube-api"
+      - "youtube-api-v3"
+      - "youtube-converter"
+      - "youtube-subtitles"
+      - "youtube-to-article"
+      - "youtube-to-medium"
+      - "youtube-to-post"
+      - "youtube-to-text"
+      - "youtube2text"
+    stars_fact: 35
+    first_seen: null
+    last_push: "2026-07-04"
+  - name: "ProjectU-simple-clean-nodeJS-API"
+    title: "ProjectU-simple-clean-nodeJS-API"
+    description: "A simple clean REST API built with NodeJS, express with a n-tier architecture (organized into layers). My Udemy course explaining how to build it is available at: https://www.udemy.com/course/build-backend-api-node-js-and-react-frontend/"
+    language: "JavaScript"
+    topics:
+      - "api"
+      - "express-js"
+      - "javascript"
+      - "js"
+      - "nodejs"
+      - "podman"
+      - "rest"
+      - "rest-api"
+      - "udemy"
+    stars_fact: 12
+    first_seen: null
+    last_push: "2026-08-28"
+  - name: "Download-Simply-Videos-From-YouTube"
+    title: "Download-Simply-Videos-From-YouTube"
+    description: "Python script that downloads and saves any of your favorite YouTube videos and playlists. All you need to do is just run the Python script and follow the terminal prompt."
+    language: "Python"
+    topics:
+      - "download-audio-youtube"
+      - "download-video"
+      - "download-youtube"
+      - "downloader"
+      - "downloader-for-youtube"
+      - "mp3-youtube"
+      - "mp3-youtube-converter"
+      - "videos"
+      - "youtube"
+      - "youtube-dl"
+      - "youtube-dlp"
+      - "youtube-download"
+      - "youtube-downloader"
+      - "youtube-downloader-4k"
+      - "youtube-ffmpeg"
+      - "youtube-playlist-downloader"
+      - "youtube-to-audio"
+      - "youtube-to-mp3"
+      - "youtube-videos-downloader"
+      - "youtube2mp3"
+    stars_fact: 397
+    first_seen: null
+    last_push: "2026-09-27"
+  - name: "Learning-FAST-for-Devs"
+    title: "Learning-FAST-for-Devs"
+    description: "🌟 The \"Learning F.A.S.T. for Devs™\" A methodology based on the 80/20 rule and the Deep Work, that gives the perfect toolkit for developers to learn new skills or a programming language 3 times more efficient and faster, allowing them to start straight away, in a matter of days, the development of a new complex, modern and scalable software 🚀"
+    language: null
+    topics:
+      - "deep-work"
+      - "dev-tips"
+      - "learn"
+      - "learn-fast"
+      - "learn-programing"
+      - "learn-programming"
+      - "learn-to-code"
+      - "learning"
+      - "methodology"
+      - "second-brain"
+      - "second-brain-planner"
+      - "speed-learning"
+    stars_fact: 8
+    first_seen: null
+    last_push: "2022-02-28"
+  - name: "orbit"
+    title: "orbit"
+    description: "Orbit. Turn any web application into a scalable, maintainable, and successful product."
+    language: "TypeScript"
+    topics:
+      - "framework"
+      - "mvc"
+      - "typescript"
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-09-21"
 ---
 
 # pH-7

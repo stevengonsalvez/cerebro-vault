@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "a50d216def4cada3"
 pushes_per_week: [7, 9, 4, 4, 0, 0, 0, 0, 0, 0, 0, 2, 0]
@@ -89,31 +89,31 @@ repos:
       - "jobs"
       - "tech"
       - "whiteboard"
-    stars_fact: 52189
+    stars_fact: 52298
     first_seen: null
     last_push: "2026-09-24"
-  - name: "-_-"
-    title: "-_-"
-    description: ":shit:"
-    language: null
-    topics: []
-    stars_fact: 10
-    first_seen: null
-    last_push: "2026-09-05"
   - name: "how"
     title: "how"
     description: "skill for explaining architecture"
     language: null
     topics: []
-    stars_fact: 811
+    stars_fact: 840
     first_seen: null
     last_push: "2026-04-14"
+  - name: "verification-skill-example"
+    title: "verification-skill-example"
+    description: "Example: project-local verification skill + large-app feature map (fictional Atlas / Harbor Labs)"
+    language: null
+    topics: []
+    stars_fact: 109
+    first_seen: null
+    last_push: "2026-07-30"
   - name: "brainmaxxing"
     title: "brainmaxxing"
     description: "stupid simple persistent memory and skill improvement"
     language: "Python"
     topics: []
-    stars_fact: 294
+    stars_fact: 300
     first_seen: null
     last_push: "2026-02-27"
   - name: "noodle"
@@ -121,17 +121,19 @@ repos:
     description: "Orchestrate agents using skills"
     language: "Go"
     topics: []
-    stars_fact: 285
+    stars_fact: 308
     first_seen: null
     last_push: "2026-03-19"
-  - name: "poteto"
-    title: "poteto"
-    description: null
+  - name: "rustconf-2020"
+    title: "rustconf-2020"
+    description: "An aggregation of links that summarize RustConf 2020. Pull requests welcome!"
     language: null
-    topics: []
-    stars_fact: 30
+    topics:
+      - "rust"
+      - "rustconf"
+    stars_fact: 354
     first_seen: null
-    last_push: "2020-08-06"
+    last_push: "2020-08-31"
 ---
 
 # poteto

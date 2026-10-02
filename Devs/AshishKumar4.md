@@ -6,32 +6,30 @@ discovered_via_all:
   - "fanout"
 provenance_repos:
   - "can1357/oh-my-pi"
-  - "cloudflare/cloudflare-os"
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
-  - "386c24cf5e18fd90"
   - "de6bf05613f3ae04"
-pushes_per_week: [9, 41, 12, 27, 5, 34, 11, 6, 1, 2, 5, 27, 31]
+pushes_per_week: [10, 43, 14, 20, 6, 33, 11, 6, 1, 4, 5, 26, 44]
 windows:
   "7d":
-    pushes: 34
-    distinct_repos: 5
+    pushes: 45
+    distinct_repos: 6
     active_days: 7
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 65
+    pushes: 79
     distinct_repos: 9
-    active_days: 16
+    active_days: 17
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 211
+    pushes: 223
     distinct_repos: 15
     active_days: 49
     repos_not_owned: 1
@@ -39,7 +37,7 @@ windows:
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 4.3061
+  push_per_day: 4.5510
   repo_per_active_day: 0.3061
   not_owned_ratio: 0.0667
   basename_concentration: 0.0667
@@ -51,31 +49,31 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 34
-    distinct_repos: 5
-    pushes_per_repo: 6.8000
+    pushes: 45
+    distinct_repos: 6
+    pushes_per_repo: 7.5000
     active_days: 7
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 65
+    pushes: 79
     distinct_repos: 9
-    pushes_per_repo: 7.2222
-    active_days: 16
+    pushes_per_repo: 8.7778
+    active_days: 17
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 211
+    pushes: 223
     distinct_repos: 15
-    pushes_per_repo: 14.0667
+    pushes_per_repo: 14.8667
     active_days: 49
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
-  - "provenance: 2 vault signal(s) — pass"
+  - "provenance: 1 vault signal(s) — pass"
   - "activity: 49 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
@@ -195,6 +193,6 @@ repos:
 
 # AshishKumar4
 
-211 pushes across 15 repositories on 49 active days in the last 90 days of public GitHub push activity.
+223 pushes across 15 repositories on 49 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/AshishKumar4

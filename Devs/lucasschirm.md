@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [2, 0, 2, 8, 1, 4, 4, 1, 3, 1, 8, 0, 0]
+pushes_per_week: [2, 0, 2, 8, 1, 5, 3, 2, 2, 3, 6, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -84,7 +84,23 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-23"
+    last_push: "2026-10-01"
+  - name: "sqlite-explorer"
+    title: "sqlite-explorer"
+    description: "Built with Freebuff Cloud"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-25"
+  - name: "claude-marketplace"
+    title: "claude-marketplace"
+    description: "My collection of claude plugins"
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-24"
   - name: "jsonl-explorer"
     title: "jsonl-explorer"
     description: "An local only way to visualize your JSONL files. No downloads, uploads. Everything stay on your browser."
@@ -93,14 +109,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-09-21"
-  - name: "sqlite-explorer"
-    title: "sqlite-explorer"
-    description: "Built with Freebuff Cloud"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-18"
   - name: "session-analyzer"
     title: "session-analyzer"
     description: "An offline page that create a dashboard with details about your coding agentic sessions."
@@ -109,14 +117,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-09-23"
-  - name: "claude-marketplace"
-    title: "claude-marketplace"
-    description: "My collection of claude plugins"
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-25"
   - name: "litjs-typeahead"
     title: "litjs-typeahead"
     description: "An simple LitJS typeahead component."

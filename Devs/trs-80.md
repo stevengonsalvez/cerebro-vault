@@ -8,16 +8,16 @@ provenance_repos:
   - "chopratejas/headroom"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+repos_populated: false
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "73468cde177ddae6"
-pushes_per_week: [5, 4, 0, 0, 4, 7, 0, 6, 1, 0, 0, 1, 3]
+pushes_per_week: [5, 4, 0, 0, 5, 6, 0, 6, 1, 0, 0, 2, 2]
 windows:
   "7d":
-    pushes: 4
-    distinct_repos: 2
-    active_days: 4
+    pushes: 3
+    distinct_repos: 1
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 4
-    distinct_repos: 2
-    pushes_per_repo: 2.0000
-    active_days: 4
+    pushes: 3
+    distinct_repos: 1
+    pushes_per_repo: 3.0000
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -76,55 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 20 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "WWW-Spotify"
-    title: "WWW-Spotify"
-    description: "Perl wrapper for Spotify Web API"
-    language: "Perl"
-    topics: []
-    stars_fact: 5
-    first_seen: null
-    last_push: "2026-09-05"
-  - name: "bob-rules"
-    title: "bob-rules"
-    description: "CLI to discover, author, and validate Bob rules"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-30"
-  - name: "leanproxy-mcp-bob"
-    title: "leanproxy-mcp-bob"
-    description: "A \"Token Firewall\" for MCP - reduce tokens while helping prevent secret leaks. Tuned for IBM Bob"
-    language: "Go"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-29"
-  - name: "crisismode"
-    title: "crisismode"
-    description: "AI Crisis Recovery Framework"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-21"
-  - name: "XMail-Ctrl"
-    title: "XMail-Ctrl"
-    description: "Crtl access to XMail server"
-    language: "Perl"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2014-10-28"
-  - name: "Class-DBI-Plugin-FilterOnClick"
-    title: "Class-DBI-Plugin-FilterOnClick"
-    description: "Generate browsable and searchable HTML Tables using FilterOnClick in conjunction with Class::DBI"
-    language: "Perl"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2014-02-02"
+repos: []
 ---
 
 # trs-80

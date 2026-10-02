@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [60, 27, 15, 25, 13, 56, 55, 28, 5, 3, 136, 314, 228]
+pushes_per_week: [62, 27, 9, 29, 9, 74, 37, 28, 5, 6, 170, 404, 109]
 windows:
   "7d":
-    pushes: 250
-    distinct_repos: 14
+    pushes: 235
+    distinct_repos: 13
     active_days: 7
-    repos_not_owned: 8
-    not_owned_basenames: 7
+    repos_not_owned: 9
+    not_owned_basenames: 8
     not_owned_owners: 2
   "30d":
-    pushes: 681
-    distinct_repos: 20
+    pushes: 689
+    distinct_repos: 21
     active_days: 24
-    repos_not_owned: 10
-    not_owned_basenames: 8
+    repos_not_owned: 11
+    not_owned_basenames: 9
     not_owned_owners: 3
   "90d":
-    pushes: 965
-    distinct_repos: 46
-    active_days: 75
-    repos_not_owned: 14
-    not_owned_basenames: 10
+    pushes: 969
+    distinct_repos: 47
+    active_days: 74
+    repos_not_owned: 15
+    not_owned_basenames: 11
     not_owned_owners: 6
 automation:
   state: "clear"
-  push_per_day: 12.8667
-  repo_per_active_day: 0.6133
-  not_owned_ratio: 0.3043
-  basename_concentration: 0.1304
+  push_per_day: 13.0946
+  repo_per_active_day: 0.6351
+  not_owned_ratio: 0.3191
+  basename_concentration: 0.1277
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,55 +49,34 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 250
-    distinct_repos: 14
-    pushes_per_repo: 17.8571
+    pushes: 235
+    distinct_repos: 13
+    pushes_per_repo: 18.0769
     active_days: 7
-    repos_not_owned: 8
-    not_owned_basenames: 7
+    repos_not_owned: 9
+    not_owned_basenames: 8
     not_owned_owners: 2
   "30d":
-    pushes: 681
-    distinct_repos: 20
-    pushes_per_repo: 34.0500
+    pushes: 689
+    distinct_repos: 21
+    pushes_per_repo: 32.8095
     active_days: 24
-    repos_not_owned: 10
-    not_owned_basenames: 8
+    repos_not_owned: 11
+    not_owned_basenames: 9
     not_owned_owners: 3
   "90d":
-    pushes: 965
-    distinct_repos: 46
-    pushes_per_repo: 20.9783
-    active_days: 75
-    repos_not_owned: 14
-    not_owned_basenames: 10
+    pushes: 969
+    distinct_repos: 47
+    pushes_per_repo: 20.6170
+    active_days: 74
+    repos_not_owned: 15
+    not_owned_basenames: 11
     not_owned_owners: 6
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 75 active days in 90d — pass"
+  - "activity: 74 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "OniMods"
-    title: "OniMods"
-    description: "oxygen not included"
-    language: "C#"
-    topics:
-      - "mcp"
-      - "oni"
-    stars_fact: 15
-    first_seen: null
-    last_push: "2026-09-24"
-  - name: "cortexfs"
-    title: "cortexfs"
-    description: "“Everything is a file” for the AGI era — an agent framework masquerading as a POSIX file system for LLM context, memory, and reasoning."
-    language: "Rust"
-    topics:
-      - "agent"
-      - "fuse"
-      - "linux"
-    stars_fact: 4
-    first_seen: null
-    last_push: "2026-09-24"
   - name: "MagicMihomo"
     title: "MagicMihomo"
     description: "MagicNet-mihomo"
@@ -105,11 +84,11 @@ repos:
     topics: []
     stars_fact: 11
     first_seen: null
-    last_push: "2026-09-24"
+    last_push: "2026-10-02"
   - name: "lightjunction"
     title: "lightjunction"
     description: "I'M LIghtJUNction"
-    language: "TypeScript"
+    language: "JavaScript"
     topics:
       - "agent"
       - "agent-skills"
@@ -123,27 +102,50 @@ repos:
       - "vite"
     stars_fact: 3
     first_seen: null
-    last_push: "2026-09-23"
+    last_push: "2026-10-01"
   - name: "MagicNet"
     title: "MagicNet"
     description: "Consciously set all groups to block"
     language: "Shell"
     topics: []
-    stars_fact: 179
+    stars_fact: 185
     first_seen: null
-    last_push: "2026-09-24"
-  - name: "MagicSingBox"
-    title: "MagicSingBox"
-    description: "MagicNet x sing-box"
-    language: "Python"
-    topics: []
-    stars_fact: 0
+    last_push: "2026-10-02"
+  - name: "cortexfs"
+    title: "cortexfs"
+    description: "“Everything is a file” for the AGI era — an agent framework masquerading as a POSIX file system for LLM context, memory, and reasoning."
+    language: "Rust"
+    topics:
+      - "agent"
+      - "fuse"
+      - "linux"
+    stars_fact: 4
     first_seen: null
-    last_push: "2026-09-22"
+    last_push: "2026-09-30"
+  - name: "vibe-shader"
+    title: "vibe-shader"
+    description: "A cinematic Minecraft Java shader pack for Iris with an OptiFine-compatible layout."
+    language: "GLSL"
+    topics:
+      - "minecraft"
+      - "shader"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-28"
+  - name: "OniMods"
+    title: "OniMods"
+    description: "oxygen not included"
+    language: "C#"
+    topics:
+      - "mcp"
+      - "oni"
+    stars_fact: 16
+    first_seen: null
+    last_push: "2026-09-25"
 ---
 
 # LIghtJUNction
 
-965 pushes across 46 repositories on 75 active days in the last 90 days of public GitHub push activity.
+969 pushes across 47 repositories on 74 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/LIghtJUNction

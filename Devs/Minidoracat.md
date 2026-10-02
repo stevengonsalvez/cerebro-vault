@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [10, 1, 6, 1, 4, 7, 2, 0, 0, 5, 2, 1, 19]
+pushes_per_week: [11, 1, 5, 1, 4, 9, 0, 0, 0, 5, 2, 1, 25]
 windows:
   "7d":
-    pushes: 20
-    distinct_repos: 10
+    pushes: 25
+    distinct_repos: 11
     active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 27
-    distinct_repos: 16
-    active_days: 8
+    pushes: 33
+    distinct_repos: 17
+    active_days: 9
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 58
+    pushes: 64
     distinct_repos: 19
-    active_days: 26
+    active_days: 27
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.2308
-  repo_per_active_day: 0.7308
+  push_per_day: 2.3704
+  repo_per_active_day: 0.7037
   not_owned_ratio: 0.0000
   basename_concentration: 0.0526
   shapes: []
@@ -49,91 +49,86 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 20
-    distinct_repos: 10
-    pushes_per_repo: 2.0000
+    pushes: 25
+    distinct_repos: 11
+    pushes_per_repo: 2.2727
     active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 27
-    distinct_repos: 16
-    pushes_per_repo: 1.6875
-    active_days: 8
+    pushes: 33
+    distinct_repos: 17
+    pushes_per_repo: 1.9412
+    active_days: 9
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 58
+    pushes: 64
     distinct_repos: 19
-    pushes_per_repo: 3.0526
-    active_days: 26
+    pushes_per_repo: 3.3684
+    active_days: 27
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 26 active days in 90d — pass"
+  - "activity: 27 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "MinidoracatModLangFor42"
-    title: "MinidoracatModLangFor42"
-    description: "[B42] Project Zomboid 模組翻譯包：680+ 個 Workshop 模組（850+ 個模組 ID）的繁體/簡體中文翻譯（如一漢化組授權繁中版）"
+  - name: "MinidoracatMiniMapModMapsFor42"
+    title: "MinidoracatMiniMapModMapsFor42"
+    description: "Minidoracat 小地圖的地圖包 addon——多張地圖 MOD 的小地圖圖資（pyramid）與範圍框線資料"
     language: "Python"
     topics: []
-    stars_fact: 1
+    stars_fact: 0
     first_seen: null
-    last_push: "2026-09-24"
-  - name: "MinidoracatAutoDriveFor42"
-    title: "MinidoracatAutoDriveFor42"
-    description: "Project Zomboid B42 — item-driven GPS navigation & AutoDrive addon for Minidoracat MiniMap"
+    last_push: "2026-10-02"
+  - name: "MinidoracatEconomyFor42"
+    title: "MinidoracatEconomyFor42"
+    description: null
     language: "Lua"
-    topics:
-      - "autodrive"
-      - "build-42"
-      - "mod"
-      - "navigation"
-      - "project-zomboid"
-    stars_fact: 1
+    topics: []
+    stars_fact: 0
     first_seen: null
-    last_push: "2026-09-24"
+    last_push: "2026-10-02"
   - name: "mcp-feedback-enhanced"
     title: "mcp-feedback-enhanced"
     description: "Enhanced MCP server for interactive user feedback and command execution in AI-assisted development, featuring dual interface support (Web UI and Desktop Application) with intelligent environment detection and cross-platform compatibility."
     language: "JavaScript"
     topics: []
-    stars_fact: 3766
+    stars_fact: 3761
     first_seen: null
-    last_push: "2026-09-07"
-  - name: "MinidoracatMiniMapModMapsFor42"
-    title: "MinidoracatMiniMapModMapsFor42"
-    description: "Minidoracat 小地圖的地圖包 addon——多張地圖 MOD 的小地圖圖資（pyramid）與範圍框線資料"
-    language: "Lua"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-24"
-  - name: "MinidoracatLangFor42"
-    title: "MinidoracatLangFor42"
+    last_push: "2026-10-01"
+  - name: "MinidoracatNoticeBoardFor42"
+    title: "MinidoracatNoticeBoardFor42"
     description: null
     language: "Lua"
     topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-01"
+  - name: "MinidoracatModLangFor42"
+    title: "MinidoracatModLangFor42"
+    description: "[B42] Project Zomboid 模組翻譯包：1280+ 個 Workshop 模組（1600+ 個模組 ID）的繁體/簡體中文翻譯（如一漢化組授權繁中版）"
+    language: "Python"
+    topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-09-24"
-  - name: "MinidoracatServerPatchFor42"
-    title: "MinidoracatServerPatchFor42"
-    description: "Minidoracat 伺服器專用的第三方 MOD 客製補丁層（PZ B42）"
-    language: "PowerShell"
+    last_push: "2026-10-01"
+  - name: "MinidoracatFixesFor42"
+    title: "MinidoracatFixesFor42"
+    description: null
+    language: "Lua"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-24"
+    last_push: "2026-10-01"
 ---
 
 # Minidoracat
 
-58 pushes across 19 repositories on 26 active days in the last 90 days of public GitHub push activity.
+64 pushes across 19 repositories on 27 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Minidoracat

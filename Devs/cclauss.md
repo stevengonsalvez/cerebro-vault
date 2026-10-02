@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "c1af6b58492f9bf4"
-pushes_per_week: [102, 13, 20, 8, 34, 6, 8, 2, 0, 16, 31, 37, 10]
+pushes_per_week: [96, 16, 17, 11, 31, 7, 7, 2, 0, 16, 34, 35, 10]
 windows:
   "7d":
-    pushes: 13
-    distinct_repos: 10
+    pushes: 11
+    distinct_repos: 8
     active_days: 5
-    repos_not_owned: 6
-    not_owned_basenames: 2
-    not_owned_owners: 6
+    repos_not_owned: 4
+    not_owned_basenames: 3
+    not_owned_owners: 4
   "30d":
-    pushes: 94
+    pushes: 95
     distinct_repos: 55
-    active_days: 20
+    active_days: 21
     repos_not_owned: 48
     not_owned_basenames: 9
     not_owned_owners: 47
   "90d":
-    pushes: 287
-    distinct_repos: 84
+    pushes: 282
+    distinct_repos: 83
     active_days: 55
     repos_not_owned: 54
     not_owned_basenames: 14
     not_owned_owners: 53
 automation:
   state: "clear"
-  push_per_day: 5.2182
-  repo_per_active_day: 1.5273
-  not_owned_ratio: 0.6429
-  basename_concentration: 0.5000
+  push_per_day: 5.1273
+  repo_per_active_day: 1.5091
+  not_owned_ratio: 0.6506
+  basename_concentration: 0.5060
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 13
-    distinct_repos: 10
-    pushes_per_repo: 1.3000
+    pushes: 11
+    distinct_repos: 8
+    pushes_per_repo: 1.3750
     active_days: 5
-    repos_not_owned: 6
-    not_owned_basenames: 2
-    not_owned_owners: 6
+    repos_not_owned: 4
+    not_owned_basenames: 3
+    not_owned_owners: 4
   "30d":
-    pushes: 94
+    pushes: 95
     distinct_repos: 55
-    pushes_per_repo: 1.7091
-    active_days: 20
+    pushes_per_repo: 1.7273
+    active_days: 21
     repos_not_owned: 48
     not_owned_basenames: 9
     not_owned_owners: 47
   "90d":
-    pushes: 287
-    distinct_repos: 84
-    pushes_per_repo: 3.4167
+    pushes: 282
+    distinct_repos: 83
+    pushes_per_repo: 3.3976
     active_days: 55
     repos_not_owned: 54
     not_owned_basenames: 14
@@ -135,6 +135,6 @@ repos:
 
 # cclauss
 
-287 pushes across 84 repositories on 55 active days in the last 90 days of public GitHub push activity.
+282 pushes across 83 repositories on 55 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/cclauss

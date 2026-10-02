@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [19, 8, 0, 9, 4, 17, 1, 1, 0, 0, 1, 3, 0]
+pushes_per_week: [19, 7, 0, 9, 7, 15, 0, 1, 0, 0, 2, 2, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 63
+    pushes: 62
     distinct_repos: 4
-    active_days: 25
+    active_days: 24
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.5200
-  repo_per_active_day: 0.1600
+  push_per_day: 2.5833
+  repo_per_active_day: 0.1667
   not_owned_ratio: 0.2500
   basename_concentration: 0.2500
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 63
+    pushes: 62
     distinct_repos: 4
-    pushes_per_repo: 15.7500
-    active_days: 25
+    pushes_per_repo: 15.5000
+    active_days: 24
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 25 active days in 90d — pass"
+  - "activity: 24 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "oc-agent-router"
@@ -129,6 +129,6 @@ repos:
 
 # maharshi365
 
-63 pushes across 4 repositories on 25 active days in the last 90 days of public GitHub push activity.
+62 pushes across 4 repositories on 24 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/maharshi365

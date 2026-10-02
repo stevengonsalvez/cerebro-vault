@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "de6bf05613f3ae04"
 pushes_per_week: [0, 0, 0, 0, 1, 0, 0, 7, 0, 1, 0, 4, 0]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -84,7 +84,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-23"
+    last_push: "2026-09-30"
   - name: "flash-next-m4-pro"
     title: "flash-next-m4-pro"
     description: null
@@ -92,7 +92,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-12"
+    last_push: "2026-09-30"
   - name: "mr-crabs"
     title: "mr-crabs"
     description: "Mr Crabs: a native macOS terminal emulator written in Rust"
@@ -100,7 +100,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-16"
+    last_push: "2026-09-30"
   - name: "qwen3.8-27b-uncensored-dflash2-m4-pro"
     title: "qwen3.8-27b-uncensored-dflash2-m4-pro"
     description: "Reproducible MLX+DFlash2 benchmark for uncensored Qwen3.8-27B on a 48GB M4 Pro"
@@ -108,7 +108,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-08-30"
+    last_push: "2026-09-30"
   - name: "EveryPlayer-Releases"
     title: "EveryPlayer-Releases"
     description: "Signed EveryPlayer release binaries and update metadata"

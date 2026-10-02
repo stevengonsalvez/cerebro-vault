@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "a50b0e08dbaee74a"
 pushes_per_week: [3, 3, 11, 1, 2, 3, 0, 0, 1, 2, 0, 4, 0]
@@ -77,6 +77,85 @@ reasons:
   - "activity: 18 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "categories-of-the-commons"
+    title: "categories-of-the-commons"
+    description: "From Cybernetics to Categorical Semantics in Distributed Software Organizations — Formalizing Organizational Viability in Open Source Software Governance"
+    language: "Jupyter Notebook"
+    topics:
+      - "category-theory"
+      - "cybernetics"
+      - "entropy"
+      - "github-api"
+      - "information-theory"
+      - "jupyter-notebook"
+      - "ommons-governance"
+      - "open-source"
+      - "open-source-governance"
+      - "organizational-theory"
+      - "ostrom"
+      - "python"
+      - "research"
+      - "sheaf-theory"
+      - "software-sustainability"
+      - "viable-system-model"
+    stars_fact: 5
+    first_seen: null
+    last_push: "2026-03-26"
+  - name: "switchbrew_bevy"
+    title: "switchbrew_bevy"
+    description: "🦀🎮 A Rust crate to help port Bevy games to Nintendo Switch using emulators - no NDAs required."
+    language: "Rust"
+    topics:
+      - "aarch64"
+      - "bevy"
+      - "bevy-engine"
+      - "cross-platform"
+      - "ecs"
+      - "embedded"
+      - "emulator"
+      - "entity-component-system"
+      - "game-development"
+      - "game-engine"
+      - "gamedev"
+      - "homebrew"
+      - "nintendo-switch"
+      - "no-std"
+      - "rust"
+      - "switch"
+    stars_fact: 11
+    first_seen: null
+    last_push: "2025-11-29"
+  - name: "react-lite-youtube-embed"
+    title: "react-lite-youtube-embed"
+    description: "📺 ‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎< A private by default, faster and cleaner YouTube embed component for React applications />"
+    language: "TypeScript"
+    topics:
+      - "a11y"
+      - "adaptive-loading"
+      - "iframe"
+      - "iframe-embeds"
+      - "privacy"
+      - "react"
+      - "reactjs"
+      - "reactjs-components"
+      - "responsive"
+      - "youtube"
+    stars_fact: 380
+    first_seen: null
+    last_push: "2026-10-01"
+  - name: "estrutura-e-interpretacao-de-programas-de-computador-javascript"
+    title: "estrutura-e-interpretacao-de-programas-de-computador-javascript"
+    description: "λ — Tradução em pt-br de \"Structure and Interpretation of Computer Programs — JavaScript Adaptation\""
+    language: "JavaScript"
+    topics:
+      - "hacktoberfest"
+      - "javascript"
+      - "sicp"
+      - "sicp-book"
+      - "sicp-js"
+    stars_fact: 54
+    first_seen: null
+    last_push: "2026-09-28"
   - name: "jevdev"
     title: "jevdev"
     description: "Jev code harness"
@@ -111,53 +190,6 @@ repos:
     stars_fact: 4
     first_seen: null
     last_push: "2026-09-23"
-  - name: "react-lite-youtube-embed"
-    title: "react-lite-youtube-embed"
-    description: "📺 ‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎< A private by default, faster and cleaner YouTube embed component for React applications />"
-    language: "TypeScript"
-    topics:
-      - "a11y"
-      - "adaptive-loading"
-      - "iframe"
-      - "iframe-embeds"
-      - "privacy"
-      - "react"
-      - "reactjs"
-      - "reactjs-components"
-      - "responsive"
-      - "youtube"
-    stars_fact: 380
-    first_seen: null
-    last_push: "2026-09-21"
-  - name: "sondamente"
-    title: "sondamente"
-    description: "Crucial experiments for claims about machine minds."
-    language: "Rust"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-19"
-  - name: "oss-governance-score"
-    title: "oss-governance-score"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-19"
-  - name: "estrutura-e-interpretacao-de-programas-de-computador-javascript"
-    title: "estrutura-e-interpretacao-de-programas-de-computador-javascript"
-    description: "λ — Tradução em pt-br de \"Structure and Interpretation of Computer Programs — JavaScript Adaptation\""
-    language: "JavaScript"
-    topics:
-      - "hacktoberfest"
-      - "javascript"
-      - "sicp"
-      - "sicp-book"
-      - "sicp-js"
-    stars_fact: 53
-    first_seen: null
-    last_push: "2026-09-19"
 ---
 
 # ibrahimcesar

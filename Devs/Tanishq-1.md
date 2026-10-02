@@ -8,16 +8,16 @@ provenance_repos:
   - "Alishahryar1/free-claude-code"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+repos_populated: false
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "9d67ce648f6a8919"
 pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 2, 0, 1, 0, 9, 2]
 windows:
   "7d":
-    pushes: 3
+    pushes: 2
     distinct_repos: 1
-    active_days: 3
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 3
+    pushes: 2
     distinct_repos: 1
-    pushes_per_repo: 3.0000
-    active_days: 3
+    pushes_per_repo: 2.0000
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -76,36 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 9 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "all-global-plugin"
-    title: "all-global-plugin"
-    description: "One organized home for AI agent skills/plugins — vendored, validated, synced cross-tool"
-    language: "TypeScript"
-    topics:
-      - "agentic-coding"
-      - "claude"
-      - "mcp"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-19"
-  - name: "Tanishq-1"
-    title: "Tanishq-1"
-    description: "Config files for my GitHub profile."
-    language: null
-    topics:
-      - "config"
-      - "github-config"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2021-09-15"
-  - name: "Page-replacement-algo"
-    title: "Page-replacement-algo"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2019-04-22"
+repos: []
 ---
 
 # Tanishq-1

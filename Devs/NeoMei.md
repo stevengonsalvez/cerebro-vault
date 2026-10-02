@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "90688bf127241ceb"
-pushes_per_week: [0, 2, 4, 4, 2, 14, 7, 1, 1, 4, 0, 7, 4]
+pushes_per_week: [0, 3, 3, 4, 3, 15, 5, 1, 1, 4, 1, 8, 2]
 windows:
   "7d":
     pushes: 4
@@ -77,14 +77,6 @@ reasons:
   - "activity: 28 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "agentwiki-sync"
-    title: "agentwiki-sync"
-    description: "Obsidian plugin for syncing vaults with AgentWiki"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-24"
   - name: "AgentWiki"
     title: "AgentWiki"
     description: null
@@ -92,38 +84,23 @@ repos:
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-09-23"
-  - name: "agent-soul-framework"
-    title: "agent-soul-framework"
-    description: "魂器（Agent Soul Framework）— 基于 OpenCode 的 AI Agent 管理层框架。管理调度 opencode 引擎，提供记忆系统、知识库管理、心跳任务、多 channel 接入。"
-    language: "Python"
+    last_push: "2026-10-02"
+  - name: "SuperPPT"
+    title: "SuperPPT"
+    description: "Create high-detail image-first PPTX decks with versioned planning and editable page revisions."
+    language: "TypeScript"
     topics: []
-    stars_fact: 4
+    stars_fact: 1
     first_seen: null
-    last_push: "2026-07-23"
-  - name: "project-taskboard"
-    title: "project-taskboard"
+    last_push: "2026-09-27"
+  - name: "ai-image-to-ppt"
+    title: "ai-image-to-ppt"
     description: null
     language: "Python"
     topics: []
-    stars_fact: 0
+    stars_fact: 1
     first_seen: null
-    last_push: "2026-09-21"
-  - name: "opencode-feishu"
-    title: "opencode-feishu"
-    description: "OpenCode Feishu/Lark integration plugin — AI assistant bridge with streaming output, tool status, and multi-profile support"
-    language: "TypeScript"
-    topics:
-      - "agentsoul"
-      - "ai-bot"
-      - "chatbot"
-      - "feishu"
-      - "lark"
-      - "nodejs"
-      - "opencode"
-    stars_fact: 10
-    first_seen: null
-    last_push: "2026-06-24"
+    last_push: "2026-09-27"
   - name: "WPSComposer"
     title: "WPSComposer"
     description: "Agent skill (any agent, Codex plugin packaging included) for generating and editing rich-layout DOCX/PPTX/XLSX/PDF via the real WPS Office engine — COM on Windows, JSAPI bridge on macOS"
@@ -131,7 +108,23 @@ repos:
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-09-20"
+    last_push: "2026-09-26"
+  - name: "project-taskboard"
+    title: "project-taskboard"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-26"
+  - name: "agentwiki-sync"
+    title: "agentwiki-sync"
+    description: "Obsidian plugin for syncing vaults with AgentWiki"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-25"
 ---
 
 # NeoMei

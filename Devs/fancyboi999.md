@@ -11,12 +11,12 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "16389f32495280ea"
   - "541318303a272608"
   - "d1946b21c02e5fa5"
-pushes_per_week: [15, 10, 3, 2, 1, 0, 0, 0, 0, 1, 1, 8, 1]
+pushes_per_week: [16, 9, 1, 3, 0, 0, 0, 0, 0, 1, 4, 5, 1]
 windows:
   "7d":
     pushes: 1
@@ -33,16 +33,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 42
+    pushes: 40
     distinct_repos: 13
-    active_days: 21
+    active_days: 20
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
   push_per_day: 2.0000
-  repo_per_active_day: 0.6190
+  repo_per_active_day: 0.6500
   not_owned_ratio: 0.0769
   basename_concentration: 0.1538
   shapes: []
@@ -69,16 +69,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 42
+    pushes: 40
     distinct_repos: 13
-    pushes_per_repo: 3.2308
-    active_days: 21
+    pushes_per_repo: 3.0769
+    active_days: 20
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 3 vault signal(s) — pass"
-  - "activity: 21 active days in 90d — pass"
+  - "activity: 20 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "Loomic"
@@ -201,6 +201,6 @@ repos:
 
 # fancyboi999
 
-42 pushes across 13 repositories on 21 active days in the last 90 days of public GitHub push activity.
+40 pushes across 13 repositories on 20 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/fancyboi999

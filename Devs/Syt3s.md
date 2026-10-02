@@ -8,11 +8,11 @@ provenance_repos:
   - "alibaba/open-code-review"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+repos_populated: false
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "c489e6fb5febf2ab"
-pushes_per_week: [0, 2, 0, 2, 0, 3, 0, 0, 0, 0, 0, 1, 0]
+pushes_per_week: [0, 2, 0, 2, 0, 3, 0, 0, 0, 0, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,23 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "miniAds"
-    title: "miniAds"
-    description: "极简版广告墙"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2025-12-08"
-  - name: "First_pro_Kob"
-    title: "First_pro_Kob"
-    description: "《Springboot实践》"
-    language: "Java"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2025-08-27"
+repos: []
 ---
 
 # Syt3s

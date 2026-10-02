@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "73468cde177ddae6"
-pushes_per_week: [0, 19, 78, 46, 39, 39, 60, 2, 0, 8, 5, 71, 1]
+pushes_per_week: [0, 26, 80, 37, 41, 60, 37, 2, 0, 10, 8, 66, 2]
 windows:
   "7d":
     pushes: 2
-    distinct_repos: 1
+    distinct_repos: 2
     active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 85
+    pushes: 86
     distinct_repos: 12
-    active_days: 12
+    active_days: 13
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 368
+    pushes: 369
     distinct_repos: 56
-    active_days: 48
+    active_days: 49
     repos_not_owned: 19
     not_owned_basenames: 19
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 7.6667
-  repo_per_active_day: 1.1667
+  push_per_day: 7.5306
+  repo_per_active_day: 1.1429
   not_owned_ratio: 0.3393
   basename_concentration: 0.0357
   shapes: []
@@ -50,33 +50,49 @@ automation:
 facets:
   "7d":
     pushes: 2
-    distinct_repos: 1
-    pushes_per_repo: 2.0000
+    distinct_repos: 2
+    pushes_per_repo: 1.0000
     active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 85
+    pushes: 86
     distinct_repos: 12
-    pushes_per_repo: 7.0833
-    active_days: 12
+    pushes_per_repo: 7.1667
+    active_days: 13
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 368
+    pushes: 369
     distinct_repos: 56
-    pushes_per_repo: 6.5714
-    active_days: 48
+    pushes_per_repo: 6.5893
+    active_days: 49
     repos_not_owned: 19
     not_owned_basenames: 19
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 48 active days in 90d — pass"
+  - "activity: 49 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "music.vaked.dev"
+    title: "music.vaked.dev"
+    description: "music.vaked.dev — the constellation sound node. Generative ambient audio synthesis & living audio-reactive background for the vaked.dev ecosystem."
+    language: "HTML"
+    topics:
+      - "ambient-audio"
+      - "constellation"
+      - "generative-music"
+      - "lovetta-lane"
+      - "sound-node"
+      - "threejs"
+      - "vaked-dev"
+      - "web-audio"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-02"
   - name: "8b-is"
     title: "8b-is"
     description: "8b-is — the constellation's research vault + public documents. Standard Galactic raw research, the game studio, the engine design docs, EOS-CLA, the recorded theory (Flyxion, Mind Games, world-model clusters). vaked.dev · 8b.is"
@@ -92,7 +108,7 @@ repos:
       - "vaked"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-23"
+    last_push: "2026-10-02"
   - name: "pocoo.vaked.dev"
     title: "pocoo.vaked.dev"
     description: "pocoo.vaked.dev — the sovereign library: the constellation's posts, books, floors, the game-guide + dev-diary. vaked.dev"
@@ -112,23 +128,23 @@ repos:
       - "vaked-dev"
     stars_fact: 1
     first_seen: null
-    last_push: "2026-09-22"
-  - name: "music.vaked.dev"
-    title: "music.vaked.dev"
-    description: "music.vaked.dev — the constellation sound node. Generative ambient audio synthesis & living audio-reactive background for the vaked.dev ecosystem."
-    language: "HTML"
-    topics:
-      - "ambient-audio"
-      - "constellation"
-      - "generative-music"
-      - "lovetta-lane"
-      - "sound-node"
-      - "threejs"
-      - "vaked-dev"
-      - "web-audio"
+    last_push: "2026-10-01"
+  - name: "taiko-01-protocol-demo"
+    title: "taiko-01-protocol-demo"
+    description: "0/1 protocol demos for Taiko: deterministic preconfirmations (zero-alloc execution gates) + capability-gated agent runtime with an integrity notary. Rust, #![no_std], blake3 + ed25519."
+    language: "Rust"
+    topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-22"
+    last_push: "2026-09-30"
+  - name: "mem-16-10"
+    title: "mem-16-10"
+    description: "MEM|16-10 — the sovereign library: MEM8 + Phoenix + the wip-catalog + vaked constellation, evolved. Pure Rust, zero-alloc, BitNet 1.58-bit, honesty first. Dedicated to Alexandria, the first Librarian."
+    language: "Rust"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-29"
   - name: "base-layer"
     title: "base-layer"
     description: null
@@ -137,40 +153,10 @@ repos:
     stars_fact: 1
     first_seen: null
     last_push: "2026-09-21"
-  - name: "sphered"
-    title: "sphered"
-    description: null
-    language: "Rust"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-21"
-  - name: "8b-is-engine"
-    title: "8b-is-engine"
-    description: "8b-is ENGINE — the world-model sim-MMO + game engine. A world is a geometry of admissible continuation: Rust 2024 + Go 1.26, NATS actor-mesh, quant physics, wgpu, Steam (macOS AS + Linux). vaked.dev · 8b.is"
-    language: "Rust"
-    topics:
-      - "8b-is"
-      - "deterministic"
-      - "game-design"
-      - "game-engine"
-      - "golang"
-      - "mmo"
-      - "nats"
-      - "quant-physics"
-      - "rust"
-      - "serverless"
-      - "sim-mmo"
-      - "vaked"
-      - "wgpu"
-      - "world-model"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-20"
 ---
 
 # peterlodri-sec
 
-368 pushes across 56 repositories on 48 active days in the last 90 days of public GitHub push activity.
+369 pushes across 56 repositories on 49 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/peterlodri-sec

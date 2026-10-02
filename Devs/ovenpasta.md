@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: true
 repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "422d724d1779eadb"
 pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -91,9 +91,18 @@ repos:
       - "toolkit"
       - "ui"
       - "widgets"
-    stars_fact: 50
+    stars_fact: 54
     first_seen: "2026-08-25T06:00:02.050180+00:00"
-    last_push: "2026-09-07"
+    last_push: "2026-09-28"
+  - name: "thunderchez"
+    title: "thunderchez"
+    description: "libraries for chez scheme productivity"
+    language: "Common Lisp"
+    topics:
+      - "scheme"
+    stars_fact: 166
+    first_seen: null
+    last_push: "2024-09-27"
   - name: "aht"
     title: "aht"
     description: "Ada HTTP/1.1 and WebSocket client with TLS via OpenSSL or mbedTLS"
@@ -110,15 +119,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-08-22"
-  - name: "thunderchez"
-    title: "thunderchez"
-    description: "libraries for chez scheme productivity"
-    language: "Common Lisp"
-    topics:
-      - "scheme"
-    stars_fact: 163
-    first_seen: null
-    last_push: "2024-09-27"
   - name: "miogui"
     title: "miogui"
     description: "MIOGUI - More Immediate Operation GUI - Develop GUI in scheme in incremental & immediate mode!"

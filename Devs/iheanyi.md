@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [0, 0, 0, 5, 0, 10, 0, 0, 1, 2, 0, 0, 1]
+pushes_per_week: [0, 0, 0, 5, 0, 10, 0, 1, 0, 2, 0, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -77,6 +77,35 @@ reasons:
   - "activity: 10 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "nexusmods-mcp"
+    title: "nexusmods-mcp"
+    description: "TypeScript MCP server for Nexus Mods with Vortex session reuse and local mod management"
+    language: "TypeScript"
+    topics:
+      - "elysia"
+      - "mcp"
+      - "nexusmods"
+      - "typescript"
+      - "vortex"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-01"
+  - name: "howlongtobeat-raycast"
+    title: "howlongtobeat-raycast"
+    description: "Native Raycast extension for HowLongToBeat game search and current-game tracking. MIT licensed."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-01"
+  - name: "grove"
+    title: "grove"
+    description: null
+    language: "Go"
+    topics: []
+    stars_fact: 71
+    first_seen: null
+    last_push: "2026-08-30"
   - name: "swift-palettecolor"
     title: "swift-palettecolor"
     description: "Swift port of AndroidX Palette (PaletteColor) — reusable SPM package"
@@ -84,7 +113,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-10"
+    last_push: "2026-09-25"
   - name: "frame"
     title: "frame"
     description: "Local Android capture and editing studio for desktop and the browser. Powered by scrcpy and Tango ADB."
@@ -101,30 +130,6 @@ repos:
     stars_fact: 1
     first_seen: null
     last_push: "2026-09-05"
-  - name: "scanarr"
-    title: "scanarr"
-    description: "Manga organizer/reader for self-hosted users"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-05"
-  - name: "shadcn-rails"
-    title: "shadcn-rails"
-    description: "A Claude Code experiment for porting shadcn to Rails"
-    language: "Ruby"
-    topics: []
-    stars_fact: 10
-    first_seen: null
-    last_push: "2026-09-21"
-  - name: "grove"
-    title: "grove"
-    description: null
-    language: "Go"
-    topics: []
-    stars_fact: 70
-    first_seen: null
-    last_push: "2026-08-30"
 ---
 
 # iheanyi

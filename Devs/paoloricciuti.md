@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [3, 8, 5, 2, 4, 1, 2, 0, 0, 1, 0, 1, 1]
+pushes_per_week: [4, 7, 5, 2, 4, 3, 0, 0, 0, 1, 0, 1, 1]
 windows:
   "7d":
     pushes: 1
@@ -77,6 +77,21 @@ reasons:
   - "activity: 22 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "sveltekit-search-params"
+    title: "sveltekit-search-params"
+    description: "The easiest way to read and WRITE from query parameters in sveltekit."
+    language: "TypeScript"
+    topics:
+      - "hacktoberfest"
+      - "query-params"
+      - "search-params"
+      - "svelte"
+      - "svelte-store"
+      - "svelte-stores"
+      - "sveltekit"
+    stars_fact: 673
+    first_seen: null
+    last_push: "2026-10-01"
   - name: "bsky-svelte-feed"
     title: "bsky-svelte-feed"
     description: "A bsky feed to aggregate everything svelte related"
@@ -92,22 +107,7 @@ repos:
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-09-20"
-  - name: "sveltekit-search-params"
-    title: "sveltekit-search-params"
-    description: "The easiest way to read and WRITE from query parameters in sveltekit."
-    language: "TypeScript"
-    topics:
-      - "hacktoberfest"
-      - "query-params"
-      - "search-params"
-      - "svelte"
-      - "svelte-store"
-      - "svelte-stores"
-      - "sveltekit"
-    stars_fact: 674
-    first_seen: null
-    last_push: "2026-09-21"
+    last_push: "2026-09-27"
   - name: "tmcp"
     title: "tmcp"
     description: "Typescript SDK to build MCP servers in an agnostic way"
@@ -115,7 +115,7 @@ repos:
     topics: []
     stars_fact: 203
     first_seen: null
-    last_push: "2026-09-19"
+    last_push: "2026-10-01"
   - name: "mcp-add"
     title: "mcp-add"
     description: "Universal cli to add an MCP server to a variety of clients"

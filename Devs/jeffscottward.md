@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [0, 6, 3, 10, 0, 5, 0, 2, 0, 0, 0, 0, 2]
+pushes_per_week: [1, 7, 1, 10, 0, 5, 0, 2, 0, 0, 0, 0, 2]
 windows:
   "7d":
     pushes: 2
@@ -77,14 +77,6 @@ reasons:
   - "activity: 14 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "omarchy-boot"
-    title: "omarchy-boot"
-    description: "Sanitized documentation for reconstructing Omarchy on x86_64 and Apple Silicon Linux"
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-21"
   - name: "darkfactory"
     title: "darkfactory"
     description: "A modular, Postgres-first, AI-native application foundation."
@@ -102,7 +94,31 @@ repos:
       - "typescript"
     stars_fact: 4
     first_seen: null
-    last_push: "2026-09-12"
+    last_push: "2026-09-30"
+  - name: "jeffscottward.github.io"
+    title: "jeffscottward.github.io"
+    description: "Homepage for Front-end Engineer Jeff Scott Ward"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-29"
+  - name: "omarchy-boot"
+    title: "omarchy-boot"
+    description: "Sanitized documentation for reconstructing Omarchy on x86_64 and Apple Silicon Linux"
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-29"
+  - name: "omarchy-jev"
+    title: "omarchy-jev"
+    description: "Bounded, screenshot-free JEV desktop control for Omarchy, with verified native actions and real-time evidence."
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-24"
   - name: "xbox-360-dash"
     title: "xbox-360-dash"
     description: "Xbox 360 Dashboard in HTML5"
@@ -119,29 +135,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-09-17"
-  - name: "infinite-snowball"
-    title: "infinite-snowball"
-    description: "A web-native, community-extensible 3D snowball-rolling game built with React Three Fiber."
-    language: "TypeScript"
-    topics:
-      - "game-development"
-      - "open-source"
-      - "pwa"
-      - "react-three-fiber"
-      - "threejs"
-      - "typescript"
-      - "webgame"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-07-16"
-  - name: "pi-voice-notify"
-    title: "pi-voice-notify"
-    description: "Pi/OMP extension: spoken voice summaries via Kokoro TTS (BM George) when your agent finishes a response"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-06-24"
 ---
 
 # jeffscottward

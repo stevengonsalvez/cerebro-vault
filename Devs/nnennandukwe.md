@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "48dbbdd8fd0d3029"
-pushes_per_week: [0, 0, 1, 4, 3, 2, 1, 0, 0, 0, 0, 5, 2]
+pushes_per_week: [0, 0, 2, 6, 0, 2, 1, 0, 0, 0, 1, 6, 0]
 windows:
   "7d":
     pushes: 2
@@ -77,6 +77,22 @@ reasons:
   - "activity: 11 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "threadloop"
+    title: "threadloop"
+    description: "ThreadLoop is a local-first CLI that models an AI-assisted software-delivery task as a governed lifecycle graph."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-09-28"
+  - name: "threadloop-contracts"
+    title: "threadloop-contracts"
+    description: "Versioned ThreadLoop Controller Contract specifications: schemas, fixtures, conformance corpus, and reference validators."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-28"
   - name: "run-invariant"
     title: "run-invariant"
     description: "Implementation-independent conformance evidence for agent-run integrity."
@@ -88,14 +104,6 @@ repos:
       - "conformance-testing"
       - "software-integrity"
     stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-22"
-  - name: "threadloop"
-    title: "threadloop"
-    description: "ThreadLoop is a local-first CLI that models an AI-assisted software-delivery task as a governed lifecycle graph."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 2
     first_seen: null
     last_push: "2026-09-22"
   - name: "jev-agentic-workflow-evals"
@@ -122,14 +130,6 @@ repos:
     stars_fact: 22
     first_seen: null
     last_push: "2026-09-20"
-  - name: "skills"
-    title: "skills"
-    description: "A collection of developer-focused agent skills for structured, agentic engineering."
-    language: null
-    topics: []
-    stars_fact: 4
-    first_seen: null
-    last_push: "2026-09-10"
 ---
 
 # nnennandukwe

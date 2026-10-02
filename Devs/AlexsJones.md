@@ -10,36 +10,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [32, 25, 16, 2, 9, 18, 4, 1, 2, 12, 21, 20, 10]
+pushes_per_week: [33, 23, 14, 4, 7, 22, 0, 2, 1, 13, 20, 24, 7]
 windows:
   "7d":
-    pushes: 12
+    pushes: 11
     distinct_repos: 9
     active_days: 4
     repos_not_owned: 7
     not_owned_basenames: 3
     not_owned_owners: 6
   "30d":
-    pushes: 63
+    pushes: 64
     distinct_repos: 12
-    active_days: 17
+    active_days: 18
     repos_not_owned: 10
     not_owned_basenames: 6
     not_owned_owners: 6
   "90d":
-    pushes: 172
+    pushes: 170
     distinct_repos: 20
-    active_days: 52
+    active_days: 51
     repos_not_owned: 13
     not_owned_basenames: 7
     not_owned_owners: 8
 automation:
   state: "clear"
-  push_per_day: 3.3077
-  repo_per_active_day: 0.3846
+  push_per_day: 3.3333
+  repo_per_active_day: 0.3922
   not_owned_ratio: 0.6500
   basename_concentration: 0.3500
   shapes: []
@@ -50,32 +50,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 12
+    pushes: 11
     distinct_repos: 9
-    pushes_per_repo: 1.3333
+    pushes_per_repo: 1.2222
     active_days: 4
     repos_not_owned: 7
     not_owned_basenames: 3
     not_owned_owners: 6
   "30d":
-    pushes: 63
+    pushes: 64
     distinct_repos: 12
-    pushes_per_repo: 5.2500
-    active_days: 17
+    pushes_per_repo: 5.3333
+    active_days: 18
     repos_not_owned: 10
     not_owned_basenames: 6
     not_owned_owners: 6
   "90d":
-    pushes: 172
+    pushes: 170
     distinct_repos: 20
-    pushes_per_repo: 8.6000
-    active_days: 52
+    pushes_per_repo: 8.5000
+    active_days: 51
     repos_not_owned: 13
     not_owned_basenames: 7
     not_owned_owners: 8
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 52 active days in 90d — pass"
+  - "activity: 51 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "llmfit"
@@ -136,6 +136,6 @@ repos:
 
 # AlexsJones
 
-172 pushes across 20 repositories on 52 active days in the last 90 days of public GitHub push activity.
+170 pushes across 20 repositories on 51 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/AlexsJones

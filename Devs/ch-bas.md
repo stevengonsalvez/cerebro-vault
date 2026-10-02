@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "379642deb53f3714"
-pushes_per_week: [25, 3, 3, 9, 6, 6, 4, 0, 0, 2, 1, 7, 12]
+pushes_per_week: [19, 3, 3, 11, 4, 10, 0, 0, 0, 2, 2, 7, 16]
 windows:
   "7d":
-    pushes: 13
+    pushes: 17
     distinct_repos: 4
     active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 22
+    pushes: 27
     distinct_repos: 4
-    active_days: 14
+    active_days: 15
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 78
+    pushes: 77
     distinct_repos: 6
     active_days: 33
     repos_not_owned: 1
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.3636
+  push_per_day: 2.3333
   repo_per_active_day: 0.1818
   not_owned_ratio: 0.1667
   basename_concentration: 0.3333
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 13
+    pushes: 17
     distinct_repos: 4
-    pushes_per_repo: 3.2500
+    pushes_per_repo: 4.2500
     active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 22
+    pushes: 27
     distinct_repos: 4
-    pushes_per_repo: 5.5000
-    active_days: 14
+    pushes_per_repo: 6.7500
+    active_days: 15
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 78
+    pushes: 77
     distinct_repos: 6
-    pushes_per_repo: 13.0000
+    pushes_per_repo: 12.8333
     active_days: 33
     repos_not_owned: 1
     not_owned_basenames: 1
@@ -198,6 +198,6 @@ repos:
 
 # ch-bas
 
-78 pushes across 6 repositories on 33 active days in the last 90 days of public GitHub push activity.
+77 pushes across 6 repositories on 33 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ch-bas

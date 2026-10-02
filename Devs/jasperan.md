@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [0, 1, 0, 0, 1, 0, 6, 4, 0, 0, 6, 1, 14]
+pushes_per_week: [0, 1, 0, 0, 1, 0, 6, 4, 0, 0, 7, 10, 4]
 windows:
   "7d":
     pushes: 14
@@ -89,7 +89,57 @@ repos:
       - "selenium"
       - "spy"
       - "whatsapp"
-    stars_fact: 1538
+    stars_fact: 1545
+    first_seen: null
+    last_push: "2026-09-26"
+  - name: "picooraclaw"
+    title: "picooraclaw"
+    description: "PicoClaw that works with Oracle AI Database"
+    language: "Go"
+    topics: []
+    stars_fact: 28
+    first_seen: null
+    last_push: "2026-09-29"
+  - name: "waze-osint-tracker"
+    title: "waze-osint-tracker"
+    description: "near-real time extractor and visualizer of ALL world events - as they appear in https://www.waze.com"
+    language: "Python"
+    topics:
+      - "ai"
+      - "data-analysis"
+      - "osint"
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-05-03"
+  - name: "continual-learning"
+    title: "continual-learning"
+    description: "My research and efforts around JiT and continual learning for LLMs"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-09-15"
+  - name: "orahermes-agent"
+    title: "orahermes-agent"
+    description: "Oracle AI Agent Harness — fork of NousResearch/hermes-agent powered by OCI GenAI and Oracle 26ai Free"
+    language: "Python"
+    topics:
+      - "ai-agent"
+      - "autonomous-agent"
+      - "genai"
+      - "grok"
+      - "hermes-agent"
+      - "oci"
+      - "openai-compatible"
+      - "oracle"
+      - "oracle-26ai"
+      - "oracle-cloud"
+      - "oracle-database"
+      - "oracle-text"
+      - "python"
+      - "tool-calling"
+      - "xai"
+    stars_fact: 6
     first_seen: null
     last_push: "2026-09-15"
   - name: "emotion-engine"
@@ -97,39 +147,7 @@ repos:
     description: "AI Emotional engine for real-world agentic problem solving"
     language: "Python"
     topics: []
-    stars_fact: 5
-    first_seen: null
-    last_push: "2026-09-15"
-  - name: "tinyoraclaw"
-    title: "tinyoraclaw"
-    description: "Multi-Agent AI Assistant + Oracle AI Database for Persistent Memory (fork of TinyClaw)"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-15"
-  - name: "qwen-image-2.1-lab"
-    title: "qwen-image-2.1-lab"
-    description: "Qwen-Image-2.1 testbed on vLLM-Omni: reproducible setup, prompt battery, edit demos, pytest suites, and measured results on a 24 GB GPU"
-    language: "Python"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-20"
-  - name: "gemma-clipper"
-    title: "gemma-clipper"
-    description: "AI-powered video clipping system using Gemma 4 — no API key required"
-    language: "Python"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-15"
-  - name: "pythia"
-    title: "pythia"
-    description: "Self-hosted AI search engine — SearXNG + Scrapling + Ollama + Oracle AI Vector Search"
-    language: "Python"
-    topics: []
-    stars_fact: 1
+    stars_fact: 4
     first_seen: null
     last_push: "2026-09-15"
 ---

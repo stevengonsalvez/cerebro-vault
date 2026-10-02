@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "dae9f02535f7c22f"
-pushes_per_week: [0, 2, 2, 0, 0, 2, 3, 1, 0, 0, 0, 0, 0]
+pushes_per_week: [0, 2, 2, 0, 0, 3, 2, 1, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,6 +77,14 @@ reasons:
   - "activity: 9 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "astro-glob-hash-filenames"
+    title: "astro-glob-hash-filenames"
+    description: "Minimal reproduction: Astro glob() loader skips content files with # in their names"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-02"
   - name: "astro-trailing-slash-redirect-body"
     title: "astro-trailing-slash-redirect-body"
     description: "Minimal reproduction: Astro trailing-slash redirect body points at the requested URL"
@@ -117,14 +125,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-08-07"
-  - name: "codex-observatory"
-    title: "codex-observatory"
-    description: "Local observability and usage analytics for Codex sessions, tokens, prompts, and model trends."
-    language: "Python"
-    topics: []
-    stars_fact: 10
-    first_seen: null
-    last_push: "2026-07-23"
 ---
 
 # NgoQuocViet2001

@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "edb3a626875732de"
-pushes_per_week: [1, 1, 0, 2, 1, 0, 0, 0, 0, 2, 0, 0, 10]
+pushes_per_week: [1, 1, 0, 2, 1, 0, 0, 0, 0, 2, 0, 0, 14]
 windows:
   "7d":
-    pushes: 10
+    pushes: 14
     distinct_repos: 4
-    active_days: 4
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
-  "30d":
-    pushes: 12
-    distinct_repos: 5
     active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
+  "30d":
+    pushes: 16
+    distinct_repos: 5
+    active_days: 6
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
-    pushes: 17
+    pushes: 21
     distinct_repos: 9
-    active_days: 10
+    active_days: 11
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.7000
-  repo_per_active_day: 0.9000
+  push_per_day: 1.9091
+  repo_per_active_day: 0.8182
   not_owned_ratio: 0.0000
   basename_concentration: 0.1111
   shapes: []
@@ -49,34 +49,84 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 10
+    pushes: 14
     distinct_repos: 4
-    pushes_per_repo: 2.5000
-    active_days: 4
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
-  "30d":
-    pushes: 12
-    distinct_repos: 5
-    pushes_per_repo: 2.4000
+    pushes_per_repo: 3.5000
     active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
+  "30d":
+    pushes: 16
+    distinct_repos: 5
+    pushes_per_repo: 3.2000
+    active_days: 6
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
-    pushes: 17
+    pushes: 21
     distinct_repos: 9
-    pushes_per_repo: 1.8889
-    active_days: 10
+    pushes_per_repo: 2.3333
+    active_days: 11
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 10 active days in 90d — pass"
+  - "activity: 11 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "exocortex-public"
+    title: "exocortex-public"
+    description: "Exocortex engine and lab: public record of AI R&D (PL/EN). Private until the publishing gate is proven."
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-01"
+  - name: "lab-site-repo"
+    title: "lab-site-repo"
+    description: null
+    language: "CSS"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-29"
+  - name: "skillforge"
+    title: "skillforge"
+    description: "Composable skills engine for agent pipelines — MCP server + CLI"
+    language: "JavaScript"
+    topics:
+      - "ai-agents"
+      - "claude"
+      - "mcp"
+      - "model-context-protocol"
+      - "skillforge"
+      - "skills"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-27"
+  - name: "second-brain"
+    title: "second-brain"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-04-30"
+  - name: "ds-demo-tokens"
+    title: "ds-demo-tokens"
+    description: "Przykładowy kanon DTCG: jeden rdzeń, trzy marki, 13 celowo zasianych rozjazdów. Sklonuj i uruchom jedną komendę, żeby zobaczyć raport na własnym terminalu."
+    language: "JavaScript"
+    topics:
+      - "design-systems"
+      - "design-tokens"
+      - "dtcg"
+      - "multi-brand"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-27"
   - name: "halvern"
     title: "halvern"
     description: "Meeting notes that never leave your machine. Local recording, transcription and summarisation for macOS."
@@ -94,70 +144,11 @@ repos:
       - "whisper"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-21"
-  - name: "ds-demo-tokens"
-    title: "ds-demo-tokens"
-    description: "Przykładowy kanon DTCG: jeden rdzeń, trzy marki, 13 celowo zasianych rozjazdów. Sklonuj i uruchom jedną komendę, żeby zobaczyć raport na własnym terminalu."
-    language: "Shell"
-    topics:
-      - "design-systems"
-      - "design-tokens"
-      - "dtcg"
-      - "multi-brand"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-06"
-  - name: "fable-prompt"
-    title: "fable-prompt"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-06"
-  - name: "skillforge"
-    title: "skillforge"
-    description: "Composable skills engine for agent pipelines — MCP server + CLI"
-    language: "JavaScript"
-    topics:
-      - "ai-agents"
-      - "claude"
-      - "mcp"
-      - "model-context-protocol"
-      - "skillforge"
-      - "skills"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-04"
-  - name: "ha-rbac-gateway"
-    title: "ha-rbac-gateway"
-    description: "Fail-closed RBAC authorization gateway for Home Assistant: give non-admin users access to only specific entities/areas/domains, with a sidebar admin panel."
-    language: "Python"
-    topics:
-      - "access-control"
-      - "authorization"
-      - "home-assistant"
-      - "homeassistant"
-      - "python"
-      - "rbac"
-      - "reverse-proxy"
-      - "security"
-      - "self-hosted"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-02"
-  - name: "spec-driven-blog-builder"
-    title: "spec-driven-blog-builder"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-07-07"
+    last_push: "2026-09-28"
 ---
 
 # hretheum
 
-17 pushes across 9 repositories on 10 active days in the last 90 days of public GitHub push activity.
+21 pushes across 9 repositories on 11 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/hretheum

@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "3eacb4655aba2497"
 pushes_per_week: [0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 3, 0]
@@ -82,7 +82,7 @@ repos:
     description: "DeepSeek V4.1 Flash on the Apple M3 Ultra: Metal decode and prefill kernels, DSpark speculative decoding, KV disk store. Built on antirez/ds4 (upstream base bd66c40)."
     language: "C"
     topics: []
-    stars_fact: 3
+    stars_fact: 5
     first_seen: null
     last_push: "2026-09-19"
   - name: "mafp8800-fingerprint-driver"

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "3eacb4655aba2497"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 28, 3, 20]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 29, 8, 14]
 windows:
   "7d":
     pushes: 20
@@ -77,6 +77,22 @@ reasons:
   - "activity: 12 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "podwright"
+    title: "podwright"
+    description: "Local-first podcast studio: scope document in, certified two-host audio lesson out. Apple Silicon, zero cloud, agent-native. Ships no voices, no weights, no personal data."
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-01"
+  - name: "hourglass"
+    title: "hourglass"
+    description: "One hour. How much can your agent solve? A local AI-agent benchmark harness. Bring your own questions."
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-29"
   - name: "dwarf-star-gate"
     title: "dwarf-star-gate"
     description: "Seamless Continuity — a local gateway for DS4 and OpenAI-compatible servers across Macs, DGX Sparks and mixed fleets, with Gate Genie, session-affinity routing, server controls and telemetry."
@@ -84,19 +100,11 @@ repos:
     topics: []
     stars_fact: 3
     first_seen: null
-    last_push: "2026-09-23"
+    last_push: "2026-09-28"
   - name: "pi-extensions"
     title: "pi-extensions"
     description: null
     language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-20"
-  - name: "hourglass"
-    title: "hourglass"
-    description: "One hour. How much can your agent solve? A local AI-agent benchmark harness. Bring your own questions."
-    language: "Python"
     topics: []
     stars_fact: 0
     first_seen: null

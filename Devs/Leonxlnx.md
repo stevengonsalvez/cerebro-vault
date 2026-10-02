@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "291d5eb46511b79f"
-pushes_per_week: [2, 0, 25, 12, 0, 10, 0, 1, 0, 1, 15, 17, 1]
+pushes_per_week: [2, 0, 26, 11, 0, 10, 0, 1, 0, 2, 15, 16, 3]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
+    pushes: 3
+    distinct_repos: 3
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 34
-    distinct_repos: 4
-    active_days: 13
+    pushes: 36
+    distinct_repos: 6
+    active_days: 14
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 84
-    distinct_repos: 15
-    active_days: 26
+    pushes: 86
+    distinct_repos: 17
+    active_days: 27
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 3.2308
-  repo_per_active_day: 0.5769
+  push_per_day: 3.1852
+  repo_per_active_day: 0.6296
   not_owned_ratio: 0.0000
-  basename_concentration: 0.0667
+  basename_concentration: 0.0588
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
+    pushes: 3
+    distinct_repos: 3
     pushes_per_repo: 1.0000
-    active_days: 1
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 34
-    distinct_repos: 4
-    pushes_per_repo: 8.5000
-    active_days: 13
+    pushes: 36
+    distinct_repos: 6
+    pushes_per_repo: 6.0000
+    active_days: 14
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 84
-    distinct_repos: 15
-    pushes_per_repo: 5.6000
-    active_days: 26
+    pushes: 86
+    distinct_repos: 17
+    pushes_per_repo: 5.0588
+    active_days: 27
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 26 active days in 90d — pass"
+  - "activity: 27 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "taste-skill"
@@ -95,9 +95,9 @@ repos:
       - "skill"
       - "skills"
       - "vibecoding"
-    stars_fact: 89804
+    stars_fact: 91865
     first_seen: "2026-07-07T06:00:04.098731+00:00"
-    last_push: "2026-09-23"
+    last_push: "2026-09-26"
   - name: "unlazy"
     title: "unlazy"
     description: "Anti-laziness skill for AI agents. Core: the Depth Tree method, which splits a task N layers deep and gives every leaf the full time budget of the whole task, so effort multiplies with depth. Grounded in 2025-2026 research on model laziness, underthinking and premature completion."
@@ -110,57 +110,45 @@ repos:
       - "productivity"
       - "prompt-engineering"
       - "skill"
-    stars_fact: 3574
+    stars_fact: 3798
     first_seen: null
     last_push: "2026-09-03"
-  - name: "agentic-ai-prompt-research"
-    title: "agentic-ai-prompt-research"
-    description: "Research into how agentic AI coding assistants work. Reconstructed prompt patterns, agent coordination, and security classification"
+  - name: "prompt-library"
+    title: "prompt-library"
+    description: "A clean, open-source desktop app to organize and manage your AI prompts. Built with Electron."
+    language: "CSS"
+    topics: []
+    stars_fact: 145
+    first_seen: null
+    last_push: "2026-05-13"
+  - name: "Leonxlnx"
+    title: "Leonxlnx"
+    description: null
     language: null
-    topics:
-      - "agentic-ai"
-      - "ai-research"
-      - "claude"
-      - "prompt-engineering"
-      - "system-prompts"
-    stars_fact: 2538
+    topics: []
+    stars_fact: 14
     first_seen: null
-    last_push: "2026-03-31"
-  - name: "verdant-forest"
-    title: "verdant-forest"
-    description: null
+    last_push: "2026-09-26"
+  - name: "tastecode"
+    title: "tastecode"
+    description: "Personal Harness - a beautiful, adaptive control panel for AI coding agents. Windows-first, design-agent powered."
     language: "TypeScript"
     topics: []
-    stars_fact: 48
+    stars_fact: 306
     first_seen: null
-    last_push: "2026-09-09"
-  - name: "lumenshaders"
-    title: "lumenshaders"
-    description: "LUMEN, a generative shader studio. 9 WebGL2 art modes plus synth style blending, perfect-loop animation, gradient sets, share codes and PNG/WebM/GIF export. Zero dependencies."
-    language: "JavaScript"
-    topics:
-      - "creative-coding"
-      - "generative-art"
-      - "gif"
-      - "glsl"
-      - "javascript"
-      - "shaders"
-      - "webgl"
-    stars_fact: 354
-    first_seen: null
-    last_push: "2026-06-12"
-  - name: "zeldaremake"
-    title: "zeldaremake"
-    description: null
-    language: "TypeScript"
+    last_push: "2026-09-30"
+  - name: "volumetric-fluids"
+    title: "volumetric-fluids"
+    description: "Clean Volumetric 3D Fluids - WebGL Shader Gallery"
+    language: "HTML"
     topics: []
-    stars_fact: 0
+    stars_fact: 4
     first_seen: null
-    last_push: "2026-09-24"
+    last_push: "2026-03-04"
 ---
 
 # Leonxlnx
 
-84 pushes across 15 repositories on 26 active days in the last 90 days of public GitHub push activity.
+86 pushes across 17 repositories on 27 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Leonxlnx

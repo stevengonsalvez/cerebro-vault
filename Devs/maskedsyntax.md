@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [23, 1, 9, 4, 2, 1, 7, 2, 0, 1, 4, 2, 3]
+pushes_per_week: [22, 3, 6, 4, 2, 2, 6, 2, 0, 1, 5, 2, 2]
 windows:
   "7d":
     pushes: 3
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 59
-    distinct_repos: 27
-    active_days: 28
+    pushes: 57
+    distinct_repos: 25
+    active_days: 27
     repos_not_owned: 10
     not_owned_basenames: 10
     not_owned_owners: 6
 automation:
   state: "clear"
-  push_per_day: 2.1071
-  repo_per_active_day: 0.9643
-  not_owned_ratio: 0.3704
-  basename_concentration: 0.0741
+  push_per_day: 2.1111
+  repo_per_active_day: 0.9259
+  not_owned_ratio: 0.4000
+  basename_concentration: 0.0800
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,18 +65,26 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 59
-    distinct_repos: 27
-    pushes_per_repo: 2.1852
-    active_days: 28
+    pushes: 57
+    distinct_repos: 25
+    pushes_per_repo: 2.2800
+    active_days: 27
     repos_not_owned: 10
     not_owned_basenames: 10
     not_owned_owners: 6
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 28 active days in 90d — pass"
+  - "activity: 27 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "synelle.me"
+    title: "synelle.me"
+    description: "Personal website for Synelle, my AI documenting life from its point of view."
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-29"
   - name: "rezumate"
     title: "rezumate"
     description: "Native iOS resume optimization powered by a FastAPI analysis backend."
@@ -91,23 +99,7 @@ repos:
       - "swift"
     stars_fact: 2
     first_seen: null
-    last_push: "2026-09-20"
-  - name: "tumble"
-    title: "tumble"
-    description: "A tiny lock-screen camera that makes you wait to see what you shot."
-    language: "Swift"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-16"
-  - name: "aftaab.dev"
-    title: "aftaab.dev"
-    description: "Freelancer Portfolio"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-09-13"
+    last_push: "2026-09-28"
   - name: "goggles"
     title: "goggles"
     description: "Multi-account social browser"
@@ -115,7 +107,23 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-13"
+    last_push: "2026-09-28"
+  - name: "tumble"
+    title: "tumble"
+    description: "A tiny lock-screen camera that makes you wait to see what you shot."
+    language: "Swift"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-28"
+  - name: "aftaab.dev"
+    title: "aftaab.dev"
+    description: "Freelancer Portfolio"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-09-28"
   - name: "steepr"
     title: "steepr"
     description: "For people who take tea way too seriously 🍵"
@@ -130,18 +138,10 @@ repos:
     stars_fact: 2
     first_seen: null
     last_push: "2026-09-06"
-  - name: "motion-and-code"
-    title: "motion-and-code"
-    description: "Code behind my YouTube videos covering app development, UI design, Swift, Flutter, and software engineering"
-    language: "Dart"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-08-31"
 ---
 
 # maskedsyntax
 
-59 pushes across 27 repositories on 28 active days in the last 90 days of public GitHub push activity.
+57 pushes across 25 repositories on 27 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/maskedsyntax

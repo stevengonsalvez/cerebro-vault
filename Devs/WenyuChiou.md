@@ -8,11 +8,11 @@ provenance_repos:
   - "BuilderIO/agent-native"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+repos_populated: false
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "745308b2b7085095"
-pushes_per_week: [8, 9, 5, 8, 5, 7, 4, 8, 3, 1, 1, 9, 10]
+pushes_per_week: [11, 8, 3, 8, 5, 10, 1, 8, 3, 1, 2, 9, 11]
 windows:
   "7d":
     pushes: 12
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 21
-    distinct_repos: 6
-    active_days: 12
+    pushes: 23
+    distinct_repos: 7
+    active_days: 13
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 78
+    pushes: 80
     distinct_repos: 12
-    active_days: 40
+    active_days: 41
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.9500
-  repo_per_active_day: 0.3000
+  push_per_day: 1.9512
+  repo_per_active_day: 0.2927
   not_owned_ratio: 0.0000
   basename_concentration: 0.0833
   shapes: []
@@ -57,137 +57,30 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 21
-    distinct_repos: 6
-    pushes_per_repo: 3.5000
-    active_days: 12
+    pushes: 23
+    distinct_repos: 7
+    pushes_per_repo: 3.2857
+    active_days: 13
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 78
+    pushes: 80
     distinct_repos: 12
-    pushes_per_repo: 6.5000
-    active_days: 40
+    pushes_per_repo: 6.6667
+    active_days: 41
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 40 active days in 90d — pass"
+  - "activity: 41 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "awesome-agentic-ai-zh"
-    title: "awesome-agentic-ai-zh"
-    description: "A trilingual (繁中 / English / 简中) learning roadmap for agentic AI: from LLM basics to multi-agent systems, with 240+ curated resources and hands-on examples. 中文 AI agent 學習地圖。"
-    language: "Python"
-    topics:
-      - "agentic-ai"
-      - "agentic-workflows"
-      - "ai-agent"
-      - "ai-agents"
-      - "awesome-list"
-      - "chinese-llm"
-      - "claude-code"
-      - "claude-skills"
-      - "cli"
-      - "learning-roadmap"
-      - "llm"
-      - "llm-agents"
-      - "mcp"
-      - "model-context-protocol"
-      - "multi-agent-systems"
-      - "prompt-engineering"
-      - "rag"
-      - "trilingual"
-      - "tutorial"
-    stars_fact: 7173
-    first_seen: null
-    last_push: "2026-09-23"
-  - name: "academic-writing-skills"
-    title: "academic-writing-skills"
-    description: "Claude Code skill for rigorous academic paper writing, revision, and submission. Field-agnostic with per-paper journal overrides."
-    language: "Python"
-    topics: []
-    stars_fact: 68
-    first_seen: null
-    last_push: "2026-09-18"
-  - name: "moodring"
-    title: "moodring"
-    description: "MoodRing is a daily sentiment scoring system for 5 equity markets (US, TW, JP, KR, EU). Measures retail investor mood on a daily scale using market-derived signals and compares against 16 years of historical patterns."
-    language: "Python"
-    topics: []
-    stars_fact: 14
-    first_seen: null
-    last_push: "2026-09-24"
-  - name: "ai-research-skills"
-    title: "ai-research-skills"
-    description: "Universal SKILL.md catalog for research workflows: literature review, research design, project memory, manuscript writing, and cross-agent delegation for Claude Code, Codex, Gemini, Cursor, OpenClaw, and generic AI clients."
-    language: "Python"
-    topics:
-      - "academic-writing"
-      - "agentic-ai"
-      - "agentskills"
-      - "ai-research"
-      - "ai-skills"
-      - "claude-code"
-      - "claude-skills"
-      - "codex"
-      - "cursor"
-      - "gemini"
-      - "literature-review"
-      - "marketplace"
-      - "multi-agent"
-      - "notebooklm"
-      - "obsidian"
-      - "openclaw"
-      - "research"
-      - "research-workflow"
-      - "skill-md"
-      - "zotero"
-    stars_fact: 290
-    first_seen: null
-    last_push: "2026-08-31"
-  - name: "research-hub"
-    title: "research-hub"
-    description: "AI-operable research workspace for Zotero, Obsidian, and NotebookLM. Use any two, or all three, through CLI, MCP, REST, and dashboard."
-    language: "Python"
-    topics:
-      - "academic-research"
-      - "ai-agents"
-      - "ai-research"
-      - "citation-management"
-      - "claude"
-      - "cli"
-      - "codex"
-      - "cursor"
-      - "gemini"
-      - "knowledge-management"
-      - "literature-review"
-      - "mcp"
-      - "mcp-server"
-      - "notebooklm"
-      - "obsidian"
-      - "openclaw"
-      - "python"
-      - "rag"
-      - "research"
-      - "zotero"
-    stars_fact: 57
-    first_seen: null
-    last_push: "2026-09-21"
-  - name: "WenyuChiou"
-    title: "WenyuChiou"
-    description: "GitHub profile README for @WenyuChiou — Wenyu Chiou, PhD candidate at Lehigh (CEE / Catastrophe Modeling & Resilience)"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-24"
+repos: []
 ---
 
 # WenyuChiou
 
-78 pushes across 12 repositories on 40 active days in the last 90 days of public GitHub push activity.
+80 pushes across 12 repositories on 41 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/WenyuChiou

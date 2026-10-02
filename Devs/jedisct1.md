@@ -9,37 +9,37 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "3eacb4655aba2497"
-pushes_per_week: [18, 32, 12, 8, 5, 7, 2, 1, 0, 2, 10, 9, 24]
+pushes_per_week: [16, 30, 13, 6, 5, 8, 1, 1, 0, 2, 10, 27, 8]
 windows:
   "7d":
-    pushes: 24
-    distinct_repos: 20
-    active_days: 4
-    repos_not_owned: 4
-    not_owned_basenames: 4
+    pushes: 26
+    distinct_repos: 21
+    active_days: 5
+    repos_not_owned: 5
+    not_owned_basenames: 5
     not_owned_owners: 3
   "30d":
-    pushes: 45
-    distinct_repos: 28
-    active_days: 12
-    repos_not_owned: 8
-    not_owned_basenames: 8
+    pushes: 47
+    distinct_repos: 29
+    active_days: 13
+    repos_not_owned: 9
+    not_owned_basenames: 9
     not_owned_owners: 5
   "90d":
-    pushes: 130
+    pushes: 127
     distinct_repos: 59
     active_days: 46
-    repos_not_owned: 25
-    not_owned_basenames: 25
+    repos_not_owned: 26
+    not_owned_basenames: 26
     not_owned_owners: 9
 automation:
   state: "clear"
-  push_per_day: 2.8261
+  push_per_day: 2.7609
   repo_per_active_day: 1.2826
-  not_owned_ratio: 0.4237
+  not_owned_ratio: 0.4407
   basename_concentration: 0.0339
   shapes: []
   shape_evidence: []
@@ -49,42 +49,75 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 24
-    distinct_repos: 20
-    pushes_per_repo: 1.2000
-    active_days: 4
-    repos_not_owned: 4
-    not_owned_basenames: 4
+    pushes: 26
+    distinct_repos: 21
+    pushes_per_repo: 1.2381
+    active_days: 5
+    repos_not_owned: 5
+    not_owned_basenames: 5
     not_owned_owners: 3
   "30d":
-    pushes: 45
-    distinct_repos: 28
-    pushes_per_repo: 1.6071
-    active_days: 12
-    repos_not_owned: 8
-    not_owned_basenames: 8
+    pushes: 47
+    distinct_repos: 29
+    pushes_per_repo: 1.6207
+    active_days: 13
+    repos_not_owned: 9
+    not_owned_basenames: 9
     not_owned_owners: 5
   "90d":
-    pushes: 130
+    pushes: 127
     distinct_repos: 59
-    pushes_per_repo: 2.2034
+    pushes_per_repo: 2.1525
     active_days: 46
-    repos_not_owned: 25
-    not_owned_basenames: 25
+    repos_not_owned: 26
+    not_owned_basenames: 26
     not_owned_owners: 9
 reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 46 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "tigertunnel"
-    title: "tigertunnel"
-    description: "An encrypted tunnel for TigerBeetle with connection pooling and session multiplexing."
-    language: "Zig"
-    topics: []
-    stars_fact: 11
+  - name: "libsodium.js"
+    title: "libsodium.js"
+    description: "libsodium compiled to Webassembly and pure JavaScript, with convenient wrappers."
+    language: "HTML"
+    topics:
+      - "crypto"
+      - "cryptography"
+      - "javascript"
+      - "libsodium"
+      - "webassembly"
+    stars_fact: 1157
     first_seen: null
-    last_push: "2026-09-24"
+    last_push: "2026-09-25"
+  - name: "witx-codegen"
+    title: "witx-codegen"
+    description: "WITX code and documentation generator for AssemblyScript, Zig, Rust and more."
+    language: "Rust"
+    topics:
+      - "assemblyscript"
+      - "code-generator"
+      - "interface-types"
+      - "wasm"
+      - "webassembly"
+      - "wit"
+      - "witx"
+      - "zig"
+    stars_fact: 145
+    first_seen: null
+    last_push: "2026-09-25"
+  - name: "libsodium"
+    title: "libsodium"
+    description: "A modern, portable, easy to use crypto library."
+    language: "C"
+    topics:
+      - "c"
+      - "crypto"
+      - "cryptography"
+      - "zig-package"
+    stars_fact: 13970
+    first_seen: null
+    last_push: "2026-09-28"
   - name: "minisign"
     title: "minisign"
     description: "A dead simple tool to sign files and verify digital signatures."
@@ -97,70 +130,37 @@ repos:
       - "pgp"
       - "signatures"
       - "zig-package"
-    stars_fact: 2831
+    stars_fact: 2839
     first_seen: null
     last_push: "2026-08-26"
-  - name: "libsodium"
-    title: "libsodium"
-    description: "A modern, portable, easy to use crypto library."
+  - name: "iptoasn-webservice"
+    title: "iptoasn-webservice"
+    description: "Web service to map IP addresses to AS information, using iptoasn.com"
+    language: "Rust"
+    topics:
+      - "as"
+      - "asn"
+      - "bgp"
+      - "ip"
+      - "ip2asn"
+      - "iptoasn"
+    stars_fact: 333
+    first_seen: null
+    last_push: "2026-04-27"
+  - name: "pure-ftpd"
+    title: "pure-ftpd"
+    description: "Pure FTP server"
     language: "C"
     topics:
-      - "c"
-      - "crypto"
-      - "cryptography"
-      - "zig-package"
-    stars_fact: 13961
+      - "ftp"
+      - "ftpd-server"
+    stars_fact: 759
     first_seen: null
-    last_push: "2026-09-22"
-  - name: "libhydrogen"
-    title: "libhydrogen"
-    description: "A lightweight, secure, easy-to-use crypto library suitable for constrained environments."
-    language: "C"
-    topics:
-      - "arduino"
-      - "atmega328p"
-      - "avr"
-      - "c"
-      - "crypto"
-      - "cryptography"
-      - "embedded"
-      - "embedded-systems"
-      - "gimli"
-    stars_fact: 785
-    first_seen: null
-    last_push: "2026-08-26"
-  - name: "dsvpn"
-    title: "dsvpn"
-    description: "A Dead Simple VPN."
-    language: "C"
-    topics:
-      - "privacy"
-      - "reallysimple"
-      - "simple"
-      - "vpn"
-    stars_fact: 5820
-    first_seen: null
-    last_push: "2026-09-21"
-  - name: "piknik"
-    title: "piknik"
-    description: "Copy/paste anything over the network."
-    language: "Go"
-    topics:
-      - "clipboard"
-      - "copy"
-      - "crypto"
-      - "paste"
-      - "security"
-      - "security-protocol"
-      - "staging-server"
-      - "transit"
-    stars_fact: 2520
-    first_seen: null
-    last_push: "2026-04-13"
+    last_push: "2026-09-28"
 ---
 
 # jedisct1
 
-130 pushes across 59 repositories on 46 active days in the last 90 days of public GitHub push activity.
+127 pushes across 59 repositories on 46 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/jedisct1

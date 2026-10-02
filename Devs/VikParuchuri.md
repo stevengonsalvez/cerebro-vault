@@ -8,8 +8,8 @@ provenance_repos:
   - "allenai/olmocr"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+repos_populated: false
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "ae05babd8ff3098f"
 pushes_per_week: [7, 1, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
@@ -76,62 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "triton_tutorial"
-    title: "triton_tutorial"
-    description: "Tutorials for Triton, a language for writing gpu kernels"
-    language: "Jupyter Notebook"
-    topics: []
-    stars_fact: 88
-    first_seen: null
-    last_push: "2023-08-23"
-  - name: "zero_to_gpt"
-    title: "zero_to_gpt"
-    description: "Go from no deep learning knowledge to implementing GPT."
-    language: "Jupyter Notebook"
-    topics:
-      - "deep-learning"
-      - "python"
-      - "pytorch"
-      - "tutorial"
-    stars_fact: 1308
-    first_seen: null
-    last_push: "2024-05-30"
-  - name: "libgen_to_txt"
-    title: "libgen_to_txt"
-    description: "Convert all of libgen to high quality markdown"
-    language: "Python"
-    topics: []
-    stars_fact: 253
-    first_seen: null
-    last_push: "2023-12-13"
-  - name: "textbook_quality"
-    title: "textbook_quality"
-    description: "Generate textbook-quality synthetic LLM pretraining data"
-    language: "Python"
-    topics:
-      - "ai"
-      - "dataset"
-      - "llm"
-    stars_fact: 508
-    first_seen: null
-    last_push: "2023-10-19"
-  - name: "algorithms"
-    title: "algorithms"
-    description: "Pure python implementations of various algorithms, including a matrix class."
-    language: "Python"
-    topics: []
-    stars_fact: 7
-    first_seen: null
-    last_push: "2017-05-02"
-  - name: "ml-math"
-    title: "ml-math"
-    description: null
-    language: "Svelte"
-    topics: []
-    stars_fact: 4
-    first_seen: null
-    last_push: "2023-08-17"
+repos: []
 ---
 
 # VikParuchuri

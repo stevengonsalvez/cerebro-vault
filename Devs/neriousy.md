@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [1, 0, 0, 1, 2, 4, 1, 1, 0, 0, 1, 1, 0]
+pushes_per_week: [1, 0, 0, 2, 1, 4, 1, 1, 0, 0, 1, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,6 +77,30 @@ reasons:
   - "activity: 10 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "aevum"
+    title: "aevum"
+    description: "Private, local voice-to-text for Windows"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-08-11"
+  - name: "opencode-browser"
+    title: "opencode-browser"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 29
+    first_seen: null
+    last_push: "2026-08-01"
+  - name: "opencode-chatgpt-websearch"
+    title: "opencode-chatgpt-websearch"
+    description: "Experimental OpenCode2 web search provider using ChatGPT OAuth"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 11
+    first_seen: null
+    last_push: "2026-08-08"
   - name: "opentui-math"
     title: "opentui-math"
     description: "Beautiful LaTeX math rendering for OpenTUI"
@@ -87,7 +111,7 @@ repos:
       - "opentui"
       - "terminal"
       - "tui"
-    stars_fact: 7
+    stars_fact: 8
     first_seen: null
     last_push: "2026-07-30"
   - name: "compact-plugin"
@@ -106,30 +130,6 @@ repos:
     stars_fact: 7
     first_seen: null
     last_push: "2026-08-01"
-  - name: "opencode-github-browser"
-    title: "opencode-github-browser"
-    description: "Read GitHub issues and pull requests inside the OpenCode TUI"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 8
-    first_seen: null
-    last_push: "2026-09-06"
-  - name: "opencode-browser"
-    title: "opencode-browser"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 28
-    first_seen: null
-    last_push: "2026-08-01"
-  - name: "aevum"
-    title: "aevum"
-    description: "Private, local voice-to-text for Windows"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-11"
 ---
 
 # neriousy

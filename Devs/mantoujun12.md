@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [33, 13, 19, 1, 0, 0, 4, 2, 2, 2, 2, 2, 4]
+pushes_per_week: [31, 17, 15, 0, 0, 3, 1, 3, 1, 2, 2, 5, 1]
 windows:
   "7d":
     pushes: 4
@@ -29,7 +29,7 @@ windows:
     not_owned_basenames: 4
     not_owned_owners: 1
   "90d":
-    pushes: 84
+    pushes: 81
     distinct_repos: 13
     active_days: 34
     repos_not_owned: 8
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 2.4706
+  push_per_day: 2.3824
   repo_per_active_day: 0.3824
   not_owned_ratio: 0.6154
   basename_concentration: 0.1538
@@ -65,9 +65,9 @@ facets:
     not_owned_basenames: 4
     not_owned_owners: 1
   "90d":
-    pushes: 84
+    pushes: 81
     distinct_repos: 13
-    pushes_per_repo: 6.4615
+    pushes_per_repo: 6.2308
     active_days: 34
     repos_not_owned: 8
     not_owned_basenames: 7
@@ -77,6 +77,14 @@ reasons:
   - "activity: 34 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "astrbot_plugin_qq_custom_menu"
+    title: "astrbot_plugin_qq_custom_menu"
+    description: "让 AstrBot 机器人拥有在 QQ 显示自定义菜单的功能"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-27"
   - name: "astrbot_plugin_qq_custom_command_panel"
     title: "astrbot_plugin_qq_custom_command_panel"
     description: "帮助用户在 QQ 使用指令面板快速调用 AstrBot 的指令"
@@ -86,15 +94,7 @@ repos:
       - "python"
     stars_fact: 2
     first_seen: null
-    last_push: "2026-09-11"
-  - name: "astrbot_plugin_qq_custom_menu"
-    title: "astrbot_plugin_qq_custom_menu"
-    description: "让 AstrBot 机器人拥有在 QQ 显示自定义菜单的功能"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-24"
+    last_push: "2026-09-26"
   - name: "mantoujun12.github.io"
     title: "mantoujun12.github.io"
     description: "This is my Personal Website."
@@ -115,6 +115,6 @@ repos:
 
 # mantoujun12
 
-84 pushes across 13 repositories on 34 active days in the last 90 days of public GitHub push activity.
+81 pushes across 13 repositories on 34 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/mantoujun12

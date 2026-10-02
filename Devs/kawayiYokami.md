@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [11, 5, 1, 1, 4, 6, 2, 2, 0, 0, 1, 7, 2]
+pushes_per_week: [8, 5, 1, 1, 4, 6, 2, 2, 0, 0, 2, 7, 1]
 windows:
   "7d":
     pushes: 2
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 42
+    pushes: 39
     distinct_repos: 6
-    active_days: 29
+    active_days: 28
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.4483
-  repo_per_active_day: 0.2069
+  push_per_day: 1.3929
+  repo_per_active_day: 0.2143
   not_owned_ratio: 0.0000
   basename_concentration: 0.1667
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 42
+    pushes: 39
     distinct_repos: 6
-    pushes_per_repo: 7.0000
-    active_days: 29
+    pushes_per_repo: 6.5000
+    active_days: 28
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 29 active days in 90d — pass"
+  - "activity: 28 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "P-ai"
@@ -95,9 +95,33 @@ repos:
       - "tauri"
       - "vue"
       - "windows"
-    stars_fact: 100
+    stars_fact: 102
     first_seen: null
-    last_push: "2026-09-24"
+    last_push: "2026-10-02"
+  - name: "astrbot_plugin_angel_heart"
+    title: "astrbot_plugin_angel_heart"
+    description: "告别“人工智障”式群聊！本插件用【4状态机】教会AI观察时机、判断气氛，实现真人般社交直觉；再以【轻重双AI核】分离思考与决策，保证回复质量的同时大幅降低API成本。"
+    language: "Python"
+    topics: []
+    stars_fact: 133
+    first_seen: null
+    last_push: "2026-09-09"
+  - name: "p-memory"
+    title: "p-memory"
+    description: "Embedded memory, knowledge graph, and note storage for Rust and Python"
+    language: "Rust"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-27"
+  - name: "astrbot_plugin_angel_memory"
+    title: "astrbot_plugin_angel_memory"
+    description: "为AstrBot赋予真正的记忆能力：让AI不仅能记住，还能主动思考、自主进化"
+    language: "Python"
+    topics: []
+    stars_fact: 188
+    first_seen: null
+    last_push: "2026-09-15"
   - name: "astrbot_plugin_angel_smile"
     title: "astrbot_plugin_angel_smile"
     description: "你的表情很可爱，可她接下来就是我的了—— “不知名的表情包大盗天使留言”"
@@ -106,30 +130,6 @@ repos:
     stars_fact: 11
     first_seen: null
     last_push: "2026-09-02"
-  - name: "p-memory"
-    title: "p-memory"
-    description: "Embedded memory, knowledge graph, and note storage for Rust and Python"
-    language: "Rust"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-22"
-  - name: "astrbot_plugin_angel_memory"
-    title: "astrbot_plugin_angel_memory"
-    description: "为AstrBot赋予真正的记忆能力：让AI不仅能记住，还能主动思考、自主进化"
-    language: "Python"
-    topics: []
-    stars_fact: 186
-    first_seen: null
-    last_push: "2026-09-15"
-  - name: "astrbot_plugin_angel_heart"
-    title: "astrbot_plugin_angel_heart"
-    description: "告别“人工智障”式群聊！本插件用【4状态机】教会AI观察时机、判断气氛，实现真人般社交直觉；再以【轻重双AI核】分离思考与决策，保证回复质量的同时大幅降低API成本。"
-    language: "Python"
-    topics: []
-    stars_fact: 132
-    first_seen: null
-    last_push: "2026-09-09"
   - name: "astrbot_plugin_angel_brush"
     title: "astrbot_plugin_angel_brush"
     description: "天使的画笔：让机器人会画画、会改图，六家画图服务随便换，配置全在网页上"
@@ -142,6 +142,6 @@ repos:
 
 # kawayiYokami
 
-42 pushes across 6 repositories on 29 active days in the last 90 days of public GitHub push activity.
+39 pushes across 6 repositories on 28 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/kawayiYokami

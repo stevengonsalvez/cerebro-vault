@@ -8,11 +8,11 @@ provenance_repos:
   - "apache/maka"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+repos_populated: false
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [4, 8, 2, 4, 3, 3, 0, 0, 0, 0, 0, 0, 1]
+pushes_per_week: [8, 4, 4, 2, 4, 2, 0, 0, 0, 0, 0, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -76,23 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 16 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "universal-news-digest"
-    title: "universal-news-digest"
-    description: "Config-driven collector and renderer for recurring news digests on any topic"
-    language: "Python"
-    topics:
-      - "automation"
-      - "cron"
-      - "hermes-agent"
-      - "llm"
-      - "news-digest"
-      - "python"
-      - "rss"
-      - "telegram"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-23"
+repos: []
 ---
 
 # w3lld1

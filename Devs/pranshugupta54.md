@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "ef17663e884139a8"
-pushes_per_week: [2, 2, 0, 0, 1, 21, 4, 7, 1, 0, 0, 3, 12]
+pushes_per_week: [3, 1, 0, 0, 4, 20, 2, 7, 1, 0, 3, 1, 11]
 windows:
   "7d":
-    pushes: 12
+    pushes: 11
     distinct_repos: 2
-    active_days: 4
+    active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 12
+    pushes: 11
     distinct_repos: 2
-    pushes_per_repo: 6.0000
-    active_days: 4
+    pushes_per_repo: 5.5000
+    active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -86,23 +86,7 @@ repos:
       - "github-config"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-24"
-  - name: "site"
-    title: "site"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-08-17"
-  - name: "skills"
-    title: "skills"
-    description: "Agent skills for coding agents — install with: npx skills add pranshugupta54/skills"
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-16"
+    last_push: "2026-10-02"
   - name: "hertz"
     title: "hertz"
     description: "📊 A tiny native macOS menu-bar system monitor — CPU, memory, disk, network & battery."
@@ -121,9 +105,25 @@ repos:
       - "swift"
       - "swiftui"
       - "system-monitor"
-    stars_fact: 2
+    stars_fact: 3
     first_seen: null
     last_push: "2026-06-08"
+  - name: "site"
+    title: "site"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-08-17"
+  - name: "skills"
+    title: "skills"
+    description: "Agent skills for coding agents — install with: npx skills add pranshugupta54/skills"
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-16"
   - name: "homebrew-tap"
     title: "homebrew-tap"
     description: null

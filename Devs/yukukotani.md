@@ -8,11 +8,11 @@ provenance_repos:
   - "anthropics/claude-code-action"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+repos_populated: false
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "0b22ca37fd3884c9"
-pushes_per_week: [1, 3, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3]
+pushes_per_week: [2, 2, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3]
 windows:
   "7d":
     pushes: 3
@@ -76,64 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "pi-voice"
-    title: "pi-voice"
-    description: "Headless voice interface for the Pi Coding Agent"
-    language: "TypeScript"
-    topics:
-      - "pi"
-      - "voice-ai"
-    stars_fact: 81
-    first_seen: null
-    last_push: "2026-02-13"
-  - name: "mcp-gemini-google-search"
-    title: "mcp-gemini-google-search"
-    description: "MCP server for Google Search integration using Gemini's built-in search capabilities"
-    language: "TypeScript"
-    topics:
-      - "mcp-server"
-    stars_fact: 83
-    first_seen: null
-    last_push: "2025-07-20"
-  - name: "fastly-purge-action"
-    title: "fastly-purge-action"
-    description: "Github Actions to purge Fasly cache."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 5
-    first_seen: null
-    last_push: "2023-07-31"
-  - name: "react-native-webview-rpc"
-    title: "react-native-webview-rpc"
-    description: "A type-safe RPC between React Native function and JavaScript inside WebView, powered by Comlink"
-    language: "TypeScript"
-    topics:
-      - "comlink"
-      - "react-native"
-      - "typescript"
-    stars_fact: 32
-    first_seen: null
-    last_push: "2025-09-12"
-  - name: "gh-ranking"
-    title: "gh-ranking"
-    description: "👑 Show in-organization ranking of GitHub activities such as review count."
-    language: "Rust"
-    topics:
-      - "cli"
-      - "gh-extension"
-      - "github"
-    stars_fact: 6
-    first_seen: null
-    last_push: "2022-07-16"
-  - name: "deckup"
-    title: "deckup"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-09"
+repos: []
 ---
 
 # yukukotani

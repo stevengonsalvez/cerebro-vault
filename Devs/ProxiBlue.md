@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "3c90af76cbde0363"
 pushes_per_week: [2, 0, 0, 0, 1, 0, 5, 0, 0, 1, 1, 2, 2]
@@ -77,14 +77,6 @@ reasons:
   - "activity: 12 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "claude-skills-central"
-    title: "claude-skills-central"
-    description: null
-    language: "Shell"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-23"
   - name: "pb-hcf"
     title: "pb-hcf"
     description: "Context-wire bundle for HCF: to add in custom playbook into v2 hook to extend capabilities"
@@ -92,7 +84,23 @@ repos:
     topics: []
     stars_fact: 2
     first_seen: null
-    last_push: "2026-09-22"
+    last_push: "2026-10-01"
+  - name: "pb-chatroom"
+    title: "pb-chatroom"
+    description: "Self-hosted multi-Claude coordination chatroom. FastAPI + SQLite + MCP tools. Lets host Claude Code sessions, DDEV-container sessions, and their subagents exchange threaded messages — handovers, status, requests — without human relay. All data local; 127.0.0.1 bound only."
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-01"
+  - name: "claude-skills-central"
+    title: "claude-skills-central"
+    description: null
+    language: "Shell"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-01"
   - name: "pb-graphiti"
     title: "pb-graphiti"
     description: "Cross-session, cross-project memory for Claude Code via Graphiti + Neo4j. Ships MCP client config, usage skill, and host docker-compose recipe."
@@ -100,7 +108,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-08"
+    last_push: "2026-09-26"
   - name: "claude-skills"
     title: "claude-skills"
     description: "Claude skills (experimentation)"
@@ -115,14 +123,6 @@ repos:
     language: "TypeScript"
     topics: []
     stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-02"
-  - name: "pb-chatroom"
-    title: "pb-chatroom"
-    description: "Self-hosted multi-Claude coordination chatroom. FastAPI + SQLite + MCP tools. Lets host Claude Code sessions, DDEV-container sessions, and their subagents exchange threaded messages — handovers, status, requests — without human relay. All data local; 127.0.0.1 bound only."
-    language: "Python"
-    topics: []
-    stars_fact: 0
     first_seen: null
     last_push: "2026-09-02"
 ---

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [11, 4, 2, 3, 2, 0, 6, 1, 0, 0, 1, 0, 0]
+pushes_per_week: [12, 3, 1, 5, 0, 3, 3, 1, 0, 0, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,7 +29,7 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 30
+    pushes: 29
     distinct_repos: 7
     active_days: 17
     repos_not_owned: 0
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.7647
+  push_per_day: 1.7059
   repo_per_active_day: 0.4118
   not_owned_ratio: 0.0000
   basename_concentration: 0.1429
@@ -65,9 +65,9 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 30
+    pushes: 29
     distinct_repos: 7
-    pushes_per_repo: 4.2857
+    pushes_per_repo: 4.1429
     active_days: 17
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -77,6 +77,14 @@ reasons:
   - "activity: 17 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "dotfiles"
+    title: "dotfiles"
+    description: null
+    language: "C#"
+    topics: []
+    stars_fact: 7
+    first_seen: null
+    last_push: "2026-09-30"
   - name: "uplink"
     title: "uplink"
     description: "GitHub Copilot CLI remote control using ACP and devtunnels"
@@ -85,14 +93,6 @@ repos:
     stars_fact: 47
     first_seen: null
     last_push: "2026-03-17"
-  - name: "dotfiles"
-    title: "dotfiles"
-    description: null
-    language: "C#"
-    topics: []
-    stars_fact: 7
-    first_seen: null
-    last_push: "2026-09-15"
   - name: "desknav"
     title: "desknav"
     description: "Keyboard-first Windows desktop navigation with Kanata, Komorebi, UI Automation, and .NET."
@@ -135,6 +135,6 @@ repos:
 
 # MattKotsenas
 
-30 pushes across 7 repositories on 17 active days in the last 90 days of public GitHub push activity.
+29 pushes across 7 repositories on 17 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/MattKotsenas

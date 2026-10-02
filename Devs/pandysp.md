@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "3eacb4655aba2497"
-pushes_per_week: [0, 0, 1, 3, 18, 1, 2, 0, 0, 0, 0, 3, 9]
+pushes_per_week: [0, 0, 1, 3, 18, 2, 1, 0, 0, 0, 2, 8, 12]
 windows:
   "7d":
-    pushes: 9
-    distinct_repos: 3
-    active_days: 2
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
-  "30d":
-    pushes: 12
-    distinct_repos: 3
+    pushes: 19
+    distinct_repos: 4
     active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
-  "90d":
-    pushes: 37
+  "30d":
+    pushes: 22
     distinct_repos: 4
-    active_days: 14
+    active_days: 6
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
+  "90d":
+    pushes: 47
+    distinct_repos: 4
+    active_days: 16
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.6429
-  repo_per_active_day: 0.2857
+  push_per_day: 2.9375
+  repo_per_active_day: 0.2500
   not_owned_ratio: 0.0000
   basename_concentration: 0.2500
   shapes: []
@@ -49,42 +49,34 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 9
-    distinct_repos: 3
-    pushes_per_repo: 3.0000
-    active_days: 2
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
-  "30d":
-    pushes: 12
-    distinct_repos: 3
-    pushes_per_repo: 4.0000
+    pushes: 19
+    distinct_repos: 4
+    pushes_per_repo: 4.7500
     active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
-  "90d":
-    pushes: 37
+  "30d":
+    pushes: 22
     distinct_repos: 4
-    pushes_per_repo: 9.2500
-    active_days: 14
+    pushes_per_repo: 5.5000
+    active_days: 6
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
+  "90d":
+    pushes: 47
+    distinct_repos: 4
+    pushes_per_repo: 11.7500
+    active_days: 16
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 14 active days in 90d — pass"
+  - "activity: 16 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "claude-plugins"
-    title: "claude-plugins"
-    description: null
-    language: "JavaScript"
-    topics: []
-    stars_fact: 5
-    first_seen: null
-    last_push: "2026-09-21"
   - name: "pi-hydra"
     title: "pi-hydra"
     description: "Extra heads for your pi coding agent: live oversight through prompt-cache replay"
@@ -92,43 +84,51 @@ repos:
     topics: []
     stars_fact: 14
     first_seen: null
-    last_push: "2026-09-19"
-  - name: "pi-mcp-server"
-    title: "pi-mcp-server"
-    description: "MCP server wrapping the Pi coding agent as tools"
-    language: "TypeScript"
+    last_push: "2026-10-02"
+  - name: "claude-plugins"
+    title: "claude-plugins"
+    description: null
+    language: "JavaScript"
     topics: []
-    stars_fact: 1
+    stars_fact: 5
     first_seen: null
-    last_push: "2026-02-11"
-  - name: "obsidian-bases-matrix"
-    title: "obsidian-bases-matrix"
-    description: "2×2 Matrix scatter view for Obsidian Bases — Eisenhower, effort/value, tech radar, trend scatter"
+    last_push: "2026-10-02"
+  - name: "openclaw-staging-workspace"
+    title: "openclaw-staging-workspace"
+    description: "Staging workspace for openclaw-infra phoenix test pipeline (main agent)"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-01"
+  - name: "openclaw-infra"
+    title: "openclaw-infra"
+    description: "Secure self-hosted OpenClaw deployment on Hetzner Cloud with Tailscale"
+    language: "Python"
+    topics: []
+    stars_fact: 22
+    first_seen: null
+    last_push: "2026-10-01"
+  - name: "pi-minimal-tools"
+    title: "pi-minimal-tools"
+    description: "Minimal tool rows for pi: look-around commands collapse to one line, failures stay visible, the model sees exactly the same"
     language: "TypeScript"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-08-20"
-  - name: "openclaw-infra"
-    title: "openclaw-infra"
-    description: "Secure self-hosted OpenClaw deployment on Hetzner Cloud with Tailscale"
-    language: "Shell"
+    last_push: "2026-10-01"
+  - name: "openclaw-staging-workspace-test"
+    title: "openclaw-staging-workspace-test"
+    description: "Staging workspace for openclaw-infra phoenix test pipeline (test agent)"
+    language: "Python"
     topics: []
-    stars_fact: 22
+    stars_fact: 0
     first_seen: null
-    last_push: "2026-07-25"
-  - name: "claude-code-mcp"
-    title: "claude-code-mcp"
-    description: "MCP server that runs Claude Code as a tool with session continuity"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-05-20"
+    last_push: "2026-09-25"
 ---
 
 # pandysp
 
-37 pushes across 4 repositories on 14 active days in the last 90 days of public GitHub push activity.
+47 pushes across 4 repositories on 16 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/pandysp

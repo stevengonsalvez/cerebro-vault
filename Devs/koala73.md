@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "5fce3c914fe93bcc"
-pushes_per_week: [202, 53, 23, 81, 40, 65, 81, 7, 8, 12, 31, 56, 31]
+pushes_per_week: [185, 47, 32, 70, 38, 98, 47, 7, 8, 14, 31, 59, 29]
 windows:
   "7d":
-    pushes: 37
+    pushes: 34
     distinct_repos: 2
     active_days: 7
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 130
+    pushes: 133
     distinct_repos: 4
-    active_days: 26
+    active_days: 27
     repos_not_owned: 3
     not_owned_basenames: 1
     not_owned_owners: 3
   "90d":
-    pushes: 690
+    pushes: 665
     distinct_repos: 18
     active_days: 78
     repos_not_owned: 17
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 17
 automation:
   state: "clear"
-  push_per_day: 8.8462
+  push_per_day: 8.5256
   repo_per_active_day: 0.2308
   not_owned_ratio: 0.9444
   basename_concentration: 1.0000
@@ -65,25 +65,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 37
+    pushes: 34
     distinct_repos: 2
-    pushes_per_repo: 18.5000
+    pushes_per_repo: 17.0000
     active_days: 7
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 130
+    pushes: 133
     distinct_repos: 4
-    pushes_per_repo: 32.5000
-    active_days: 26
+    pushes_per_repo: 33.2500
+    active_days: 27
     repos_not_owned: 3
     not_owned_basenames: 1
     not_owned_owners: 3
   "90d":
-    pushes: 690
+    pushes: 665
     distinct_repos: 18
-    pushes_per_repo: 38.3333
+    pushes_per_repo: 36.9444
     active_days: 78
     repos_not_owned: 17
     not_owned_basenames: 1
@@ -110,15 +110,15 @@ repos:
       - "osint"
       - "palantir"
       - "situation"
-    stars_fact: 87318
+    stars_fact: 87672
     first_seen: "2026-08-01T06:00:04.424073+00:00"
-    last_push: "2026-09-24"
+    last_push: "2026-10-02"
   - name: "whoopskill"
     title: "whoopskill"
     description: "CLI to Get Whoop wearable data via Rest API, perfect for Agents to be taught as a SKILL"
     language: "TypeScript"
     topics: []
-    stars_fact: 48
+    stars_fact: 47
     first_seen: null
     last_push: "2026-01-25"
   - name: "docs"
@@ -141,6 +141,6 @@ repos:
 
 # koala73
 
-690 pushes across 18 repositories on 78 active days in the last 90 days of public GitHub push activity.
+665 pushes across 18 repositories on 78 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/koala73

@@ -8,39 +8,39 @@ provenance_repos:
   - "1jehuang/jcode"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+repos_populated: false
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "2a7f0fddd2dac162"
-pushes_per_week: [203, 80, 89, 64, 28, 19, 73, 11, 6, 5, 14, 40, 28]
+pushes_per_week: [207, 81, 84, 58, 30, 52, 37, 11, 5, 5, 20, 43, 38]
 windows:
   "7d":
-    pushes: 31
-    distinct_repos: 24
+    pushes: 46
+    distinct_repos: 38
     active_days: 7
-    repos_not_owned: 9
-    not_owned_basenames: 9
+    repos_not_owned: 11
+    not_owned_basenames: 11
     not_owned_owners: 1
   "30d":
-    pushes: 87
-    distinct_repos: 38
-    active_days: 19
-    repos_not_owned: 14
-    not_owned_basenames: 14
+    pushes: 106
+    distinct_repos: 50
+    active_days: 21
+    repos_not_owned: 16
+    not_owned_basenames: 16
     not_owned_owners: 1
   "90d":
-    pushes: 660
-    distinct_repos: 108
-    active_days: 67
+    pushes: 671
+    distinct_repos: 109
+    active_days: 68
     repos_not_owned: 26
     not_owned_basenames: 26
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 9.8507
-  repo_per_active_day: 1.6119
-  not_owned_ratio: 0.2407
-  basename_concentration: 0.0185
+  push_per_day: 9.8676
+  repo_per_active_day: 1.6029
+  not_owned_ratio: 0.2385
+  basename_concentration: 0.0183
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,86 +49,38 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 31
-    distinct_repos: 24
-    pushes_per_repo: 1.2917
+    pushes: 46
+    distinct_repos: 38
+    pushes_per_repo: 1.2105
     active_days: 7
-    repos_not_owned: 9
-    not_owned_basenames: 9
+    repos_not_owned: 11
+    not_owned_basenames: 11
     not_owned_owners: 1
   "30d":
-    pushes: 87
-    distinct_repos: 38
-    pushes_per_repo: 2.2895
-    active_days: 19
-    repos_not_owned: 14
-    not_owned_basenames: 14
+    pushes: 106
+    distinct_repos: 50
+    pushes_per_repo: 2.1200
+    active_days: 21
+    repos_not_owned: 16
+    not_owned_basenames: 16
     not_owned_owners: 1
   "90d":
-    pushes: 660
-    distinct_repos: 108
-    pushes_per_repo: 6.1111
-    active_days: 67
+    pushes: 671
+    distinct_repos: 109
+    pushes_per_repo: 6.1560
+    active_days: 68
     repos_not_owned: 26
     not_owned_basenames: 26
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 67 active days in 90d — pass"
+  - "activity: 68 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "takumi3488"
-    title: "takumi3488"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-29"
-  - name: "mygha"
-    title: "mygha"
-    description: "自分用GitHub Actions集"
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-29"
-  - name: "renovate-rerunner"
-    title: "renovate-rerunner"
-    description: null
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-29"
-  - name: "remotehq-simulator"
-    title: "remotehq-simulator"
-    description: null
-    language: "Go"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-28"
-  - name: "gha-dashboard"
-    title: "gha-dashboard"
-    description: null
-    language: "Rust"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-28"
-  - name: "niceimage"
-    title: "niceimage"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-28"
+repos: []
 ---
 
 # takumi3488
 
-660 pushes across 108 repositories on 67 active days in the last 90 days of public GitHub push activity.
+671 pushes across 109 repositories on 68 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/takumi3488

@@ -8,11 +8,11 @@ provenance_repos:
   - "agentscope-ai/QwenPaw"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+repos_populated: false
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "541318303a272608"
-pushes_per_week: [7, 0, 0, 3, 0, 0, 0, 0, 0, 0, 5, 0, 0]
+pushes_per_week: [6, 0, 0, 3, 0, 0, 0, 0, 0, 0, 5, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 15
+    pushes: 14
     distinct_repos: 2
-    active_days: 6
+    active_days: 5
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.5000
-  repo_per_active_day: 0.3333
+  push_per_day: 2.8000
+  repo_per_active_day: 0.4000
   not_owned_ratio: 0.5000
   basename_concentration: 0.5000
   shapes: []
@@ -65,70 +65,22 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 15
+    pushes: 14
     distinct_repos: 2
-    pushes_per_repo: 7.5000
-    active_days: 6
+    pushes_per_repo: 7.0000
+    active_days: 5
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 6 active days in 90d — pass"
+  - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "sanfran1068.github.io"
-    title: "sanfran1068.github.io"
-    description: "A brand new blog using Hexo"
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-04-14"
-  - name: "lynx-blog"
-    title: "lynx-blog"
-    description: null
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-04-14"
-  - name: "openmanus-web"
-    title: "openmanus-web"
-    description: "openmanus-web"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2025-04-21"
-  - name: "openmanus-node"
-    title: "openmanus-node"
-    description: "openmanus-node"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2025-04-13"
-  - name: "dailysync"
-    title: "dailysync"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2024-07-06"
-  - name: "my_test_template"
-    title: "my_test_template"
-    description: null
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2023-07-13"
+repos: []
 ---
 
 # sanfran1068
 
-15 pushes across 2 repositories on 6 active days in the last 90 days of public GitHub push activity.
+14 pushes across 2 repositories on 5 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/sanfran1068

@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: true
 repos_populated: true
-generated_at: "2026-09-24T15:17:54.275119+00:00"
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "25764ed5c03fca05"
 pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
@@ -77,34 +77,6 @@ reasons:
   - "activity: 0 active days in 90d — below the 5-day line, LABELLED low-n (never suppressed)"
   - "automation: clear — pass"
 repos:
-  - name: "Privacy-Data-Protection-Skills"
-    title: "Privacy-Data-Protection-Skills"
-    description: "282+ structured privacy & data protection skills for AI agents. GDPR, CCPA, EU AI Act, HIPAA, LGPD, PIPL, DPDP Act."
-    language: "Python"
-    topics:
-      - "ai-agents"
-      - "ai-compliance"
-      - "ccpa"
-      - "compliance"
-      - "data-governance"
-      - "data-privacy"
-      - "data-protection"
-      - "dpdp-act"
-      - "eu-ai-act"
-      - "gdpr"
-      - "hipaa"
-      - "lgpd"
-      - "machine-readable"
-      - "open-source-compliance"
-      - "pipl"
-      - "privacy"
-      - "privacy-automation"
-      - "privacy-by-design"
-      - "privacy-engineering"
-      - "regulatory-compliance"
-    stars_fact: 283
-    first_seen: null
-    last_push: "2026-03-16"
   - name: "Anthropic-Cybersecurity-Skills"
     title: "Anthropic-Cybersecurity-Skills"
     description: "817 structured cybersecurity skills for AI agents · Mapped to 6 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND, NIST AI RMF & MITRE F3 (Fight Fraud) · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI & 20+ platforms · 29 security domains · Apache 2.0"
@@ -130,9 +102,65 @@ repos:
       - "security-automation"
       - "threat-hunting"
       - "threat-intelligence"
-    stars_fact: 33314
+    stars_fact: 33687
     first_seen: "2026-08-19T06:00:14.375290+00:00"
     last_push: "2026-08-31"
+  - name: "Threatswarm"
+    title: "Threatswarm"
+    description: "27 scope-enforced AI agents that run the full pentest kill-chain (recon → exploit → post-ex → DFIR → report) as a one-command Claude Code plugin. Backed by 754 MITRE-mapped skills."
+    language: "Python"
+    topics:
+      - "ai-agents"
+      - "ai-security"
+      - "anthropic"
+      - "autonomous-agents"
+      - "blue-team"
+      - "bug-bounty"
+      - "claude-code"
+      - "claude-code-plugin"
+      - "cybersecurity"
+      - "dfir"
+      - "infosec"
+      - "kill-chain"
+      - "llm-agents"
+      - "mitre-attack"
+      - "offensive-security"
+      - "penetration-testing"
+      - "pentesting"
+      - "red-team"
+      - "scope-enforcement"
+      - "security-tools"
+    stars_fact: 83
+    first_seen: null
+    last_push: "2026-04-29"
+  - name: "Privacy-Data-Protection-Skills"
+    title: "Privacy-Data-Protection-Skills"
+    description: "282+ structured privacy & data protection skills for AI agents. GDPR, CCPA, EU AI Act, HIPAA, LGPD, PIPL, DPDP Act."
+    language: "Python"
+    topics:
+      - "ai-agents"
+      - "ai-compliance"
+      - "ccpa"
+      - "compliance"
+      - "data-governance"
+      - "data-privacy"
+      - "data-protection"
+      - "dpdp-act"
+      - "eu-ai-act"
+      - "gdpr"
+      - "hipaa"
+      - "lgpd"
+      - "machine-readable"
+      - "open-source-compliance"
+      - "pipl"
+      - "privacy"
+      - "privacy-automation"
+      - "privacy-by-design"
+      - "privacy-engineering"
+      - "regulatory-compliance"
+    stars_fact: 293
+    first_seen: null
+    last_push: "2026-03-16"
   - name: "cve-mcp-server"
     title: "cve-mcp-server"
     description: "Production-grade MCP server giving Claude 27 security intelligence tools across 21 APIs — CVE lookup, EPSS scoring, CISA KEV, MITRE ATT&CK, Shodan, VirusTotal, and more."
@@ -156,9 +184,9 @@ repos:
       - "threat-intelligence"
       - "virustotal"
       - "vulnerability-management"
-    stars_fact: 1581
+    stars_fact: 1607
     first_seen: null
-    last_push: "2026-09-18"
+    last_push: "2026-10-01"
   - name: "claude-team-dashboard"
     title: "claude-team-dashboard"
     description: "📊 Real-time monitoring dashboard for Claude Code agent teams"
@@ -183,7 +211,7 @@ repos:
       - "open-source"
       - "real-time"
       - "websocket"
-    stars_fact: 70
+    stars_fact: 71
     first_seen: null
     last_push: "2026-05-25"
   - name: "mcp-windows-automation"
@@ -211,35 +239,9 @@ repos:
       - "windows-automation"
       - "windows-control"
       - "windows-scripting"
-    stars_fact: 54
+    stars_fact: 56
     first_seen: null
     last_push: "2026-06-03"
-  - name: "mysql-mcp-server"
-    title: "mysql-mcp-server"
-    description: "A comprehensive Model Context Protocol (MCP) server for MySQL databases with 200+ tools for advanced database management, diagnostics, performance analysis, security auditing, and AI-powered database interactions."
-    language: "Python"
-    topics:
-      - "ai"
-      - "ai-tools"
-      - "claude"
-      - "claude-desktop"
-      - "claude-mcp"
-      - "database-management"
-      - "database-optimization"
-      - "database-security"
-      - "diagnostics"
-      - "mcp"
-      - "mcp-server"
-      - "model-context-protocol"
-      - "mysql"
-      - "mysql-diagnostics"
-      - "open-source"
-      - "performance-analysis"
-      - "python"
-      - "sql-queries"
-    stars_fact: 18
-    first_seen: null
-    last_push: "2026-09-24"
 ---
 
 # mukul975

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "dffbb846389f9a26"
-pushes_per_week: [1, 3, 0, 4, 0, 0, 0, 0, 0, 1, 2, 3, 0]
+pushes_per_week: [1, 3, 0, 4, 0, 0, 0, 0, 0, 1, 4, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,6 +77,30 @@ reasons:
   - "activity: 11 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "douban-mcp"
+    title: "douban-mcp"
+    description: "面向 agent 的豆瓣 MCP server + CLI：电影/图书查询、个人收藏管理；同时支持 Claude Desktop (stdio/SSE) 与 Claude Code/OpenClaw 等命令行 agent。"
+    language: "HTML"
+    topics:
+      - "agent"
+      - "claude"
+      - "claude-code"
+      - "cli"
+      - "douban"
+      - "mcp"
+      - "model-context-protocol"
+      - "typescript"
+    stars_fact: 11
+    first_seen: null
+    last_push: "2026-07-25"
+  - name: "github-trending-analyzer"
+    title: "github-trending-analyzer"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-28"
   - name: "ClawForge"
     title: "ClawForge"
     description: "🦞 The Ultimate Resource for OpenClaw: Skills, MCP Servers, and Agentic Intelligence. Powering the next generation of personal AI assistants."
@@ -91,14 +115,6 @@ repos:
     stars_fact: 13
     first_seen: null
     last_push: "2026-06-16"
-  - name: "github-trending-analyzer"
-    title: "github-trending-analyzer"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-21"
   - name: "redpress"
     title: "redpress"
     description: "小红书的发布印刷机——草稿进，成品图文帖出。Claude Code skill + HTML 卡片渲染 + xiaohongshu-mcp 发布"
@@ -128,22 +144,6 @@ repos:
     stars_fact: 1
     first_seen: null
     last_push: "2026-08-19"
-  - name: "douban-mcp"
-    title: "douban-mcp"
-    description: "面向 agent 的豆瓣 MCP server + CLI：电影/图书查询、个人收藏管理；同时支持 Claude Desktop (stdio/SSE) 与 Claude Code/OpenClaw 等命令行 agent。"
-    language: "HTML"
-    topics:
-      - "agent"
-      - "claude"
-      - "claude-code"
-      - "cli"
-      - "douban"
-      - "mcp"
-      - "model-context-protocol"
-      - "typescript"
-    stars_fact: 10
-    first_seen: null
-    last_push: "2026-07-25"
 ---
 
 # jackjin1997

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "c1af6b58492f9bf4"
-pushes_per_week: [9, 0, 2, 6, 0, 0, 0, 0, 0, 0, 1, 1, 0]
+pushes_per_week: [9, 0, 2, 6, 0, 0, 0, 0, 0, 0, 2, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -82,7 +82,7 @@ repos:
     description: "An agentic memory engine designed for lossless, tiered verbatim storage and multi-hop retrieval."
     language: "Python"
     topics: []
-    stars_fact: 22
+    stars_fact: 24
     first_seen: null
     last_push: "2026-09-18"
   - name: "epochdb-server"

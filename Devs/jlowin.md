@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "2bd11e9b6557176e"
-pushes_per_week: [21, 0, 83, 30, 1, 0, 0, 1, 0, 0, 0, 0, 0]
+pushes_per_week: [21, 12, 77, 24, 1, 0, 0, 1, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -79,7 +79,7 @@ reasons:
 repos:
   - name: "vibecheck"
     title: "vibecheck"
-    description: "✨ The easiest decisions you'll ever make."
+    description: "✨✅ The easiest decisions your code will ever make."
     language: "Python"
     topics:
       - "ai"
@@ -87,17 +87,9 @@ repos:
       - "jev"
       - "llm"
       - "python"
-    stars_fact: 3
+    stars_fact: 40
     first_seen: null
     last_push: "2026-09-24"
-  - name: "aimages"
-    title: "aimages"
-    description: "Generate images with hidden text"
-    language: "Python"
-    topics: []
-    stars_fact: 86
-    first_seen: null
-    last_push: "2024-03-25"
   - name: "copychat"
     title: "copychat"
     description: "📋💬 Simple code-to-context utility"
@@ -107,9 +99,17 @@ repos:
       - "aiengineering"
       - "llm"
       - "prompt"
-    stars_fact: 59
+    stars_fact: 58
     first_seen: null
     last_push: "2025-06-19"
+  - name: "aimages"
+    title: "aimages"
+    description: "Generate images with hidden text"
+    language: "Python"
+    topics: []
+    stars_fact: 86
+    first_seen: null
+    last_push: "2024-03-25"
   - name: "claude-wt"
     title: "claude-wt"
     description: "🌴 Simple utility for managing parallel Claude Code instances"

@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "01cd6a498d377caf"
   - "03604cccd7e9402d"
@@ -57,39 +57,40 @@ provenance:
   - "c2db1cf2bc94be3c"
   - "cc2a7fed69a6e4ac"
   - "cdf0d63217ad659b"
+  - "d320458473217aca"
   - "d46568f6f6a488d8"
   - "e2ea6ef4c9fbfceb"
   - "f672838de330e86f"
   - "f9a1870648a6375a"
   - "fe9e50bf2d5b21fe"
   - "ff1ca072bf39e471"
-pushes_per_week: [0, 2, 0, 0, 0, 0, 2, 0, 0, 0, 0, 2, 1]
+pushes_per_week: [0, 2, 0, 0, 0, 0, 2, 0, 0, 0, 0, 2, 2]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
+    pushes: 2
+    distinct_repos: 2
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 3
+    pushes: 4
     distinct_repos: 3
-    active_days: 3
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 7
+    pushes: 8
     distinct_repos: 4
-    active_days: 5
+    active_days: 6
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.4000
-  repo_per_active_day: 0.8000
+  push_per_day: 1.3333
+  repo_per_active_day: 0.6667
   not_owned_ratio: 0.2500
   basename_concentration: 0.2500
   shapes: []
@@ -100,32 +101,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
+    pushes: 2
+    distinct_repos: 2
     pushes_per_repo: 1.0000
-    active_days: 1
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 3
+    pushes: 4
     distinct_repos: 3
-    pushes_per_repo: 1.0000
-    active_days: 3
+    pushes_per_repo: 1.3333
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 7
+    pushes: 8
     distinct_repos: 4
-    pushes_per_repo: 1.7500
-    active_days: 5
+    pushes_per_repo: 2.0000
+    active_days: 6
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
-  - "provenance: 52 vault signal(s) — pass"
-  - "activity: 5 active days in 90d — pass"
+  - "provenance: 53 vault signal(s) — pass"
+  - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "secret-drop"
@@ -195,6 +196,6 @@ repos:
 
 # saadiq
 
-7 pushes across 4 repositories on 5 active days in the last 90 days of public GitHub push activity.
+8 pushes across 4 repositories on 6 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/saadiq

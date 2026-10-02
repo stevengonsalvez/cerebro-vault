@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "2a7f0fddd2dac162"
-pushes_per_week: [1, 1, 34, 14, 10, 3, 0, 4, 0, 0, 0, 21, 0]
+pushes_per_week: [1, 1, 40, 10, 8, 3, 0, 4, 0, 0, 0, 21, 1]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 21
-    distinct_repos: 4
-    active_days: 4
+    pushes: 22
+    distinct_repos: 5
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 88
-    distinct_repos: 10
-    active_days: 21
+    pushes: 89
+    distinct_repos: 11
+    active_days: 22
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 4.1905
-  repo_per_active_day: 0.4762
-  not_owned_ratio: 0.2000
-  basename_concentration: 0.1000
+  push_per_day: 4.0455
+  repo_per_active_day: 0.5000
+  not_owned_ratio: 0.1818
+  basename_concentration: 0.0909
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,34 +49,42 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
+    pushes: 1
+    distinct_repos: 1
+    pushes_per_repo: 1.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 21
-    distinct_repos: 4
-    pushes_per_repo: 5.2500
-    active_days: 4
+    pushes: 22
+    distinct_repos: 5
+    pushes_per_repo: 4.4000
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 88
-    distinct_repos: 10
-    pushes_per_repo: 8.8000
-    active_days: 21
+    pushes: 89
+    distinct_repos: 11
+    pushes_per_repo: 8.0909
+    active_days: 22
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 21 active days in 90d — pass"
+  - "activity: 22 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "clique"
+    title: "clique"
+    description: "HackMIT 2026 - Best Developer Tool Award"
+    language: "Python"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-09-22"
   - name: "gwae"
     title: "gwae"
     description: "Infinite scroll terminal multiplexer and agent orchestrator for macOS"
@@ -99,7 +107,7 @@ repos:
       - "windows"
     stars_fact: 13
     first_seen: null
-    last_push: "2026-09-23"
+    last_push: "2026-10-02"
   - name: "hwatu"
     title: "hwatu"
     description: "Headless verification browser for AI coding agents: 35 ms one-call checks, pixel diffs, live human hand-off"
@@ -122,25 +130,9 @@ repos:
       - "wayland"
       - "webkit"
       - "webkitgtk"
-    stars_fact: 82
+    stars_fact: 115
     first_seen: null
-    last_push: "2026-09-23"
-  - name: "homebrew-tap"
-    title: "homebrew-tap"
-    description: "Homebrew tap for hongnoul projects (gwae)"
-    language: "Ruby"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-23"
-  - name: "clique"
-    title: "clique"
-    description: "HackMIT 2026 - Best Developer Tool Award"
-    language: "Python"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-22"
+    last_push: "2026-10-02"
   - name: "astrophile"
     title: "astrophile"
     description: "Growth toolkit for open-source repos: audit discovery surfaces, generate growth artifacts, measure whether AI assistants recommend you"
@@ -156,18 +148,26 @@ repos:
     stars_fact: 2
     first_seen: null
     last_push: "2026-07-19"
-  - name: "hongnoul.github.io"
-    title: "hongnoul.github.io"
-    description: null
-    language: "HTML"
+  - name: "mit-dining-mcp"
+    title: "mit-dining-mcp"
+    description: "MCP server for MIT dining hall menus (Bon Appétit)"
+    language: "TypeScript"
     topics: []
-    stars_fact: 0
+    stars_fact: 1
     first_seen: null
-    last_push: "2026-09-17"
+    last_push: "2026-03-15"
+  - name: "bang"
+    title: "bang"
+    description: "Search from the terminal with engine-native !bangs"
+    language: "Rust"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-07-18"
 ---
 
 # hongnoul
 
-88 pushes across 10 repositories on 21 active days in the last 90 days of public GitHub push activity.
+89 pushes across 11 repositories on 22 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/hongnoul

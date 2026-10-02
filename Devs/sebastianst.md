@@ -8,39 +8,39 @@ provenance_repos:
   - "agavra/tuicr"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+repos_populated: false
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [4, 14, 2, 2, 0, 0, 1, 2, 0, 0, 0, 1, 0]
+pushes_per_week: [4, 14, 2, 2, 0, 0, 1, 2, 0, 0, 1, 0, 3]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
-  "30d":
-    pushes: 1
-    distinct_repos: 1
+    pushes: 3
+    distinct_repos: 2
     active_days: 1
-    repos_not_owned: 1
+    repos_not_owned: 2
     not_owned_basenames: 1
-    not_owned_owners: 1
+    not_owned_owners: 2
+  "30d":
+    pushes: 4
+    distinct_repos: 2
+    active_days: 2
+    repos_not_owned: 2
+    not_owned_basenames: 1
+    not_owned_owners: 2
   "90d":
-    pushes: 26
-    distinct_repos: 3
-    active_days: 11
-    repos_not_owned: 1
+    pushes: 29
+    distinct_repos: 4
+    active_days: 12
+    repos_not_owned: 2
     not_owned_basenames: 1
-    not_owned_owners: 1
+    not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 2.3636
-  repo_per_active_day: 0.2727
-  not_owned_ratio: 0.3333
-  basename_concentration: 0.3333
+  push_per_day: 2.4167
+  repo_per_active_day: 0.3333
+  not_owned_ratio: 0.5000
+  basename_concentration: 0.5000
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,92 +49,38 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
-  "30d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
+    pushes: 3
+    distinct_repos: 2
+    pushes_per_repo: 1.5000
     active_days: 1
-    repos_not_owned: 1
+    repos_not_owned: 2
     not_owned_basenames: 1
-    not_owned_owners: 1
+    not_owned_owners: 2
+  "30d":
+    pushes: 4
+    distinct_repos: 2
+    pushes_per_repo: 2.0000
+    active_days: 2
+    repos_not_owned: 2
+    not_owned_basenames: 1
+    not_owned_owners: 2
   "90d":
-    pushes: 26
-    distinct_repos: 3
-    pushes_per_repo: 8.6667
-    active_days: 11
-    repos_not_owned: 1
+    pushes: 29
+    distinct_repos: 4
+    pushes_per_repo: 7.2500
+    active_days: 12
+    repos_not_owned: 2
     not_owned_basenames: 1
-    not_owned_owners: 1
+    not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 11 active days in 90d — pass"
+  - "activity: 12 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "yabai3"
-    title: "yabai3"
-    description: "i3 sanity layer for yabai"
-    language: "Shell"
-    topics: []
-    stars_fact: 22
-    first_seen: null
-    last_push: "2023-11-26"
-  - name: "GenesisZ"
-    title: "GenesisZ"
-    description: "Mine the Genesis Block for your Zcashy altcoin"
-    language: "Python"
-    topics:
-      - "bitcoin"
-      - "blockchain"
-      - "genesis"
-      - "mining"
-      - "solver"
-      - "zcash"
-    stars_fact: 28
-    first_seen: null
-    last_push: "2018-05-17"
-  - name: "sebastianst.github.io"
-    title: "sebastianst.github.io"
-    description: "Github Page of Sebastian Stammler"
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-01-30"
-  - name: "astronvim.cfg"
-    title: "astronvim.cfg"
-    description: "Seb's AstroNvim v4+ configuration"
-    language: "Lua"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2025-12-01"
-  - name: "UnsafeVolumeXposedMod"
-    title: "UnsafeVolumeXposedMod"
-    description: "Xposed mod to disables the Safe Media Volume Popup"
-    language: "Shell"
-    topics: []
-    stars_fact: 8
-    first_seen: null
-    last_push: "2013-06-24"
-  - name: "tbpurge"
-    title: "tbpurge"
-    description: ":put_litter_in_its_place: :gear: Purge Titanium Backup directory, only keeping newest backup(s) for each app"
-    language: "Python"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2019-07-06"
+repos: []
 ---
 
 # sebastianst
 
-26 pushes across 3 repositories on 11 active days in the last 90 days of public GitHub push activity.
+29 pushes across 4 repositories on 12 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/sebastianst

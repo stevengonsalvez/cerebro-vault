@@ -9,28 +9,28 @@ provenance_repos:
   - "BuilderIO/agent-native"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+repos_populated: false
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "745308b2b7085095"
-pushes_per_week: [100, 127, 95, 71, 22, 68, 48, 45, 17, 24, 423, 1065, 383]
+pushes_per_week: [130, 110, 95, 58, 29, 57, 44, 50, 12, 58, 716, 902, 249]
 windows:
   "7d":
-    pushes: 504
+    pushes: 355
     distinct_repos: 3
     active_days: 7
     repos_not_owned: 3
     not_owned_basenames: 1
     not_owned_owners: 3
   "30d":
-    pushes: 1896
+    pushes: 1925
     distinct_repos: 3
     active_days: 25
     repos_not_owned: 3
     not_owned_basenames: 1
     not_owned_owners: 3
   "90d":
-    pushes: 2488
+    pushes: 2510
     distinct_repos: 4
     active_days: 79
     repos_not_owned: 4
@@ -38,39 +38,39 @@ windows:
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 31.4937
+  push_per_day: 31.7722
   repo_per_active_day: 0.0506
   not_owned_ratio: 1.0000
   basename_concentration: 0.7500
   shapes:
     - "high_push_rate"
   shape_evidence:
-    - "31.49 pushes per active day over 90d (2488 pushes / 79 active days), above the 15 review line"
+    - "31.77 pushes per active day over 90d (2510 pushes / 79 active days), above the 15 review line"
   cleared_by: "e01-builder"
   cleared_on: "2026-08-26"
   fork_provenance: null
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 504
+    pushes: 355
     distinct_repos: 3
-    pushes_per_repo: 168.0000
+    pushes_per_repo: 118.3333
     active_days: 7
     repos_not_owned: 3
     not_owned_basenames: 1
     not_owned_owners: 3
   "30d":
-    pushes: 1896
+    pushes: 1925
     distinct_repos: 3
-    pushes_per_repo: 632.0000
+    pushes_per_repo: 641.6667
     active_days: 25
     repos_not_owned: 3
     not_owned_basenames: 1
     not_owned_owners: 3
   "90d":
-    pushes: 2488
+    pushes: 2510
     distinct_repos: 4
-    pushes_per_repo: 622.0000
+    pushes_per_repo: 627.5000
     active_days: 79
     repos_not_owned: 4
     not_owned_basenames: 2
@@ -79,59 +79,11 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 79 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "jev-browser-benchmark"
-    title: "jev-browser-benchmark"
-    description: null
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-21"
-  - name: "steve8708"
-    title: "steve8708"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-04-06"
-  - name: "vite-react-shopify-polaris"
-    title: "vite-react-shopify-polaris"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 3
-    first_seen: null
-    last_push: "2025-05-22"
-  - name: "mui-vite"
-    title: "mui-vite"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 9
-    first_seen: null
-    last_push: "2026-01-29"
-  - name: "finance-tracker"
-    title: "finance-tracker"
-    description: "Created with Builder.io"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2025-08-19"
-  - name: "carbon-vite"
-    title: "carbon-vite"
-    description: null
-    language: "JavaScript"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2025-05-20"
+repos: []
 ---
 
 # steve8708
 
-2488 pushes across 4 repositories on 79 active days in the last 90 days of public GitHub push activity.
+2510 pushes across 4 repositories on 79 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/steve8708

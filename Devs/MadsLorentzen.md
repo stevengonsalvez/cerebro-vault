@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "7af184c03e7ab7a7"
-pushes_per_week: [11, 6, 3, 1, 2, 0, 1, 0, 0, 1, 0, 3, 1]
+pushes_per_week: [13, 4, 3, 1, 2, 0, 1, 0, 0, 1, 0, 3, 2]
 windows:
   "7d":
-    pushes: 1
+    pushes: 2
     distinct_repos: 1
-    active_days: 1
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 5
+    pushes: 6
     distinct_repos: 1
-    active_days: 3
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 29
+    pushes: 30
     distinct_repos: 1
-    active_days: 18
+    active_days: 19
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.6111
-  repo_per_active_day: 0.0556
+  push_per_day: 1.5789
+  repo_per_active_day: 0.0526
   not_owned_ratio: 0.0000
   basename_concentration: 1.0000
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
+    pushes: 2
     distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes_per_repo: 2.0000
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 5
+    pushes: 6
     distinct_repos: 1
-    pushes_per_repo: 5.0000
-    active_days: 3
+    pushes_per_repo: 6.0000
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 29
+    pushes: 30
     distinct_repos: 1
-    pushes_per_repo: 29.0000
-    active_days: 18
+    pushes_per_repo: 30.0000
+    active_days: 19
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 18 active days in 90d — pass"
+  - "activity: 19 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "ai-job-search"
@@ -94,17 +94,9 @@ repos:
       - "job-search"
       - "latex"
       - "resume"
-    stars_fact: 43810
+    stars_fact: 44726
     first_seen: "2026-07-21T06:00:01.757189+00:00"
-    last_push: "2026-09-21"
-  - name: "LOCRETA"
-    title: "LOCRETA"
-    description: "Supervised learning applications to geophysical data from the Lower Cretaceous succession in the Danish North Sea (PhD-era code, 2018-2022)."
-    language: "Python"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-04-30"
+    last_push: "2026-10-01"
   - name: "MadsLorentzen"
     title: "MadsLorentzen"
     description: "Config files for my GitHub profile."
@@ -115,6 +107,14 @@ repos:
     stars_fact: 11
     first_seen: null
     last_push: "2026-04-17"
+  - name: "LOCRETA"
+    title: "LOCRETA"
+    description: "Supervised learning applications to geophysical data from the Lower Cretaceous succession in the Danish North Sea (PhD-era code, 2018-2022)."
+    language: "Python"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-04-30"
   - name: "superposed-folds"
     title: "superposed-folds"
     description: "Interactive Python toolkit for visualizing superposed folds (Ramsay & Lisle 2000; Grasemann et al. 2004). Python port of UCD's MATLAB educational resource."
@@ -143,6 +143,6 @@ repos:
 
 # MadsLorentzen
 
-29 pushes across 1 repository on 18 active days in the last 90 days of public GitHub push activity.
+30 pushes across 1 repository on 19 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/MadsLorentzen

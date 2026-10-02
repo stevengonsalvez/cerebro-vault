@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "c489e6fb5febf2ab"
 pushes_per_week: [6, 2, 0, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0]
@@ -77,6 +77,35 @@ reasons:
   - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "YGO-Combo-Navigator"
+    title: "YGO-Combo-Navigator"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-28"
+  - name: "TimeBet"
+    title: "TimeBet"
+    description: "本地优先的 Windows 学习时间银行：任务排程、专注计时、活动时间轴、自定义奖励与学习统计。A local-first study time bank for Windows."
+    language: "C#"
+    topics:
+      - "dotnet"
+      - "focus-timer"
+      - "local-first"
+      - "productivity"
+      - "react"
+      - "sqlite"
+      - "study-tool"
+      - "task-planner"
+      - "time-management"
+      - "typescript"
+      - "webview2"
+      - "windows"
+      - "wpf"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-28"
   - name: "LKL-ZREO"
     title: "LKL-ZREO"
     description: null

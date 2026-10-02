@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [7, 2, 12, 21, 7, 12, 2, 6, 2, 3, 7, 6, 6]
+pushes_per_week: [6, 4, 19, 14, 8, 11, 0, 6, 2, 3, 8, 8, 3]
 windows:
   "7d":
-    pushes: 8
-    distinct_repos: 3
-    active_days: 5
+    pushes: 6
+    distinct_repos: 2
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 93
+    pushes: 92
     distinct_repos: 10
-    active_days: 45
+    active_days: 44
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.0667
-  repo_per_active_day: 0.2222
+  push_per_day: 2.0909
+  repo_per_active_day: 0.2273
   not_owned_ratio: 0.0000
   basename_concentration: 0.1000
   shapes: []
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 8
-    distinct_repos: 3
-    pushes_per_repo: 2.6667
-    active_days: 5
+    pushes: 6
+    distinct_repos: 2
+    pushes_per_repo: 3.0000
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 93
+    pushes: 92
     distinct_repos: 10
-    pushes_per_repo: 9.3000
-    active_days: 45
+    pushes_per_repo: 9.2000
+    active_days: 44
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 45 active days in 90d — pass"
+  - "activity: 44 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "dotfiles"
@@ -146,6 +146,6 @@ repos:
 
 # dkarter
 
-93 pushes across 10 repositories on 45 active days in the last 90 days of public GitHub push activity.
+92 pushes across 10 repositories on 44 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/dkarter

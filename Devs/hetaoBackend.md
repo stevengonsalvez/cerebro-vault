@@ -9,22 +9,22 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "16389f32495280ea"
-pushes_per_week: [1, 3, 1, 0, 6, 0, 1, 2, 0, 0, 2, 17, 6]
+pushes_per_week: [0, 4, 0, 2, 4, 0, 1, 2, 0, 0, 5, 14, 7]
 windows:
   "7d":
-    pushes: 6
+    pushes: 7
     distinct_repos: 1
-    active_days: 4
+    active_days: 5
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 25
+    pushes: 26
     distinct_repos: 3
-    active_days: 13
+    active_days: 14
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
@@ -49,18 +49,18 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 6
+    pushes: 7
     distinct_repos: 1
-    pushes_per_repo: 6.0000
-    active_days: 4
+    pushes_per_repo: 7.0000
+    active_days: 5
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 25
+    pushes: 26
     distinct_repos: 3
-    pushes_per_repo: 8.3333
-    active_days: 13
+    pushes_per_repo: 8.6667
+    active_days: 14
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
@@ -77,6 +77,14 @@ reasons:
   - "activity: 25 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "mcp-github-trending"
+    title: "mcp-github-trending"
+    description: "MCP server for getting github trending repos & developers"
+    language: "Python"
+    topics: []
+    stars_fact: 58
+    first_seen: null
+    last_push: "2026-03-18"
   - name: "deer-trade"
     title: "deer-trade"
     description: "The Trading Research Framework inspired by Deerflow Multi-Agent!"
@@ -112,14 +120,6 @@ repos:
     stars_fact: 16
     first_seen: null
     last_push: "2026-07-18"
-  - name: "mcp-github-trending"
-    title: "mcp-github-trending"
-    description: "MCP server for getting github trending repos & developers"
-    language: "Python"
-    topics: []
-    stars_fact: 57
-    first_seen: null
-    last_push: "2026-03-18"
   - name: "mcode-evolve"
     title: "mcode-evolve"
     description: "A coding agent that learns the repository it works in."

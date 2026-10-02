@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [10, 1, 20, 24, 2, 21, 9, 4, 0, 1, 2, 6, 14]
+pushes_per_week: [9, 4, 22, 19, 2, 28, 3, 3, 0, 1, 4, 11, 9]
 windows:
   "7d":
-    pushes: 14
+    pushes: 11
     distinct_repos: 3
-    active_days: 5
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    active_days: 6
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
-    pushes: 23
-    distinct_repos: 5
-    active_days: 9
+    pushes: 25
+    distinct_repos: 6
+    active_days: 10
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 114
-    distinct_repos: 16
+    pushes: 115
+    distinct_repos: 17
     active_days: 38
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 3.0000
-  repo_per_active_day: 0.4211
-  not_owned_ratio: 0.0625
-  basename_concentration: 0.0625
+  push_per_day: 3.0263
+  repo_per_active_day: 0.4474
+  not_owned_ratio: 0.0588
+  basename_concentration: 0.0588
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 14
+    pushes: 11
     distinct_repos: 3
-    pushes_per_repo: 4.6667
-    active_days: 5
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes_per_repo: 3.6667
+    active_days: 6
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
-    pushes: 23
-    distinct_repos: 5
-    pushes_per_repo: 4.6000
-    active_days: 9
+    pushes: 25
+    distinct_repos: 6
+    pushes_per_repo: 4.1667
+    active_days: 10
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 114
-    distinct_repos: 16
-    pushes_per_repo: 7.1250
+    pushes: 115
+    distinct_repos: 17
+    pushes_per_repo: 6.7647
     active_days: 38
     repos_not_owned: 1
     not_owned_basenames: 1
@@ -77,6 +77,17 @@ reasons:
   - "activity: 38 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "amplifier-smart-tool-decisioncraft"
+    title: "amplifier-smart-tool-decisioncraft"
+    description: "A human-centred decision canvas: map how things work, trace each decision to its evidence, and hear from every role."
+    language: "Python"
+    topics:
+      - "amplifier-smart-tool"
+      - "decision-making"
+      - "human-centered-design"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-02"
   - name: "amplifier-bundle-fast-decisions"
     title: "amplifier-bundle-fast-decisions"
     description: "Fast-decision layer for Amplifier: telemetry hook, read-only workspace tool, and an opt-in shadow/active decision orchestrator (Jev-backed, fail-closed)"
@@ -84,51 +95,43 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-23"
+    last_push: "2026-10-02"
   - name: "amplifier-app-studio"
     title: "amplifier-app-studio"
     description: "Native Tauri 2 studio for parallel Microsoft Amplifier sessions on desktop, mobile, and web"
     language: "TypeScript"
     topics: []
-    stars_fact: 0
+    stars_fact: 1
     first_seen: null
-    last_push: "2026-09-22"
+    last_push: "2026-09-25"
   - name: "amplifier-runtime"
     title: "amplifier-runtime"
     description: "UI-neutral session runtime shared by Amplifier TUI, Studio, automation, and remote clients"
     language: "Python"
     topics: []
-    stars_fact: 0
+    stars_fact: 1
     first_seen: null
     last_push: "2026-09-22"
-  - name: "amplifier-bundle-teamwork"
-    title: "amplifier-bundle-teamwork"
-    description: "Opt-in project-scoped Teamwork context and visible-session sharing for Microsoft Amplifier"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-20"
-  - name: "altairbasic"
-    title: "altairbasic"
+  - name: "amplifier-dx"
+    title: "amplifier-dx"
     description: null
-    language: "C++"
+    language: "HTML"
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2025-04-06"
-  - name: "amplifier-bundle-design-loop"
-    title: "amplifier-bundle-design-loop"
-    description: "Design-quality judge: takes any UI (HTML/image/URL), scores it against an 8-criteria rubric, builds improved code + renders, returns editorial report. Three deterministic tools + agent, on foundation + design-intelligence."
+    last_push: "2026-09-27"
+  - name: "imagen"
+    title: "imagen"
+    description: null
     language: "Python"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-11"
+    last_push: "2026-09-25"
 ---
 
 # michaeljabbour
 
-114 pushes across 16 repositories on 38 active days in the last 90 days of public GitHub push activity.
+115 pushes across 17 repositories on 38 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/michaeljabbour

@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "0388a4f55f4206c8"
   - "0577669e18ed3998"
@@ -30,35 +30,35 @@ provenance:
   - "c6b4a874521ceb02"
   - "cf565721454d59f8"
   - "e26852201e6f38fc"
-pushes_per_week: [6, 12, 32, 16, 6, 8, 1, 8, 2, 1, 6, 16, 37]
+pushes_per_week: [6, 13, 36, 12, 8, 5, 1, 8, 2, 1, 13, 12, 50]
 windows:
   "7d":
-    pushes: 38
+    pushes: 53
     distinct_repos: 9
     active_days: 7
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
-  "30d":
-    pushes: 60
-    distinct_repos: 14
-    active_days: 16
-    repos_not_owned: 4
-    not_owned_basenames: 4
+    repos_not_owned: 2
+    not_owned_basenames: 2
     not_owned_owners: 2
-  "90d":
-    pushes: 151
-    distinct_repos: 31
-    active_days: 45
+  "30d":
+    pushes: 76
+    distinct_repos: 15
+    active_days: 17
     repos_not_owned: 5
-    not_owned_basenames: 4
+    not_owned_basenames: 5
     not_owned_owners: 3
+  "90d":
+    pushes: 167
+    distinct_repos: 32
+    active_days: 46
+    repos_not_owned: 6
+    not_owned_basenames: 5
+    not_owned_owners: 4
 automation:
   state: "clear"
-  push_per_day: 3.3556
-  repo_per_active_day: 0.6889
-  not_owned_ratio: 0.1613
-  basename_concentration: 0.0968
+  push_per_day: 3.6304
+  repo_per_active_day: 0.6957
+  not_owned_ratio: 0.1875
+  basename_concentration: 0.0938
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -67,32 +67,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 38
+    pushes: 53
     distinct_repos: 9
-    pushes_per_repo: 4.2222
+    pushes_per_repo: 5.8889
     active_days: 7
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
-  "30d":
-    pushes: 60
-    distinct_repos: 14
-    pushes_per_repo: 4.2857
-    active_days: 16
-    repos_not_owned: 4
-    not_owned_basenames: 4
+    repos_not_owned: 2
+    not_owned_basenames: 2
     not_owned_owners: 2
-  "90d":
-    pushes: 151
-    distinct_repos: 31
-    pushes_per_repo: 4.8710
-    active_days: 45
+  "30d":
+    pushes: 76
+    distinct_repos: 15
+    pushes_per_repo: 5.0667
+    active_days: 17
     repos_not_owned: 5
-    not_owned_basenames: 4
+    not_owned_basenames: 5
     not_owned_owners: 3
+  "90d":
+    pushes: 167
+    distinct_repos: 32
+    pushes_per_repo: 5.2188
+    active_days: 46
+    repos_not_owned: 6
+    not_owned_basenames: 5
+    not_owned_owners: 4
 reasons:
   - "provenance: 19 vault signal(s) — pass"
-  - "activity: 45 active days in 90d — pass"
+  - "activity: 46 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "public-inbox"
@@ -131,6 +131,6 @@ repos:
 
 # tamird
 
-151 pushes across 31 repositories on 45 active days in the last 90 days of public GitHub push activity.
+167 pushes across 32 repositories on 46 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/tamird

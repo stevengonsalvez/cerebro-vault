@@ -8,11 +8,11 @@ provenance_repos:
   - "antirez/ds4"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+repos_populated: false
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "3eacb4655aba2497"
-pushes_per_week: [20, 5, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2]
+pushes_per_week: [20, 6, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2]
 windows:
   "7d":
     pushes: 2
@@ -76,63 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 9 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "tessera"
-    title: "tessera"
-    description: "Open-source, MCP-native benchmark for whether AI agents reason reliably over fragmented enterprise knowledge — accuracy, provenance, correct refusal."
-    language: "Python"
-    topics:
-      - "ai-agents"
-      - "benchmark"
-      - "evals"
-      - "inspect-ai"
-      - "llm-evaluation"
-      - "mcp"
-      - "provenance"
-      - "reliability"
-    stars_fact: 4
-    first_seen: null
-    last_push: "2026-09-13"
-  - name: "rinaldofesta"
-    title: "rinaldofesta"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-24"
-  - name: "RagusIA"
-    title: "RagusIA"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-18"
-  - name: "qwen-3-8-metal-slug-evals"
-    title: "qwen-3-8-metal-slug-evals"
-    description: "One task, two coding agents: a single-file Metal Slug style game. Qwen3.8 27B local vs Codex, artifacts and server-log numbers."
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-17"
-  - name: "sepia"
-    title: "sepia"
-    description: "Inference engine for Inkling (975B MoE) on a 128GB Mac: experts streamed from SSD, learning cache, MTP speculation"
-    language: "C"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-07-21"
-  - name: "cosmodrome"
-    title: "cosmodrome"
-    description: null
-    language: "Swift"
-    topics: []
-    stars_fact: 24
-    first_seen: null
-    last_push: "2026-04-13"
+repos: []
 ---
 
 # rinaldofesta

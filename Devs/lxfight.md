@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [1, 0, 2, 5, 2, 2, 2, 0, 0, 0, 1, 0, 0]
+pushes_per_week: [0, 0, 3, 4, 2, 3, 1, 0, 0, 0, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 15
-    distinct_repos: 4
-    active_days: 11
+    pushes: 14
+    distinct_repos: 3
+    active_days: 10
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.3636
-  repo_per_active_day: 0.3636
-  not_owned_ratio: 0.2500
-  basename_concentration: 0.2500
+  push_per_day: 1.4000
+  repo_per_active_day: 0.3000
+  not_owned_ratio: 0.3333
+  basename_concentration: 0.3333
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 15
-    distinct_repos: 4
-    pushes_per_repo: 3.7500
-    active_days: 11
+    pushes: 14
+    distinct_repos: 3
+    pushes_per_repo: 4.6667
+    active_days: 10
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 11 active days in 90d — pass"
+  - "activity: 10 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "lxfight"
@@ -84,16 +84,24 @@ repos:
     topics: []
     stars_fact: 4
     first_seen: null
-    last_push: "2026-09-24"
+    last_push: "2026-10-02"
   - name: "astrbot_plugin_mnemosyne"
     title: "astrbot_plugin_mnemosyne"
     description: "一个AstrBot插件，实现基于RAG技术的长期记忆功能。"
     language: "Python"
     topics:
       - "astrbot-plugin"
-    stars_fact: 252
+    stars_fact: 253
     first_seen: null
     last_push: "2026-09-15"
+  - name: "astrbot2github"
+    title: "astrbot2github"
+    description: "为AstrBot实现的基于deno的github加速访问服务"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 314
+    first_seen: null
+    last_push: "2025-06-06"
   - name: "astrbot_plugin_live2d_adapter"
     title: "astrbot_plugin_live2d_adapter"
     description: null
@@ -110,14 +118,6 @@ repos:
     stars_fact: 4
     first_seen: null
     last_push: "2026-09-13"
-  - name: "astrbot2github"
-    title: "astrbot2github"
-    description: "为AstrBot实现的基于deno的github加速访问服务"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 315
-    first_seen: null
-    last_push: "2025-06-06"
   - name: "astrbot-live2d-desktop"
     title: "astrbot-live2d-desktop"
     description: null
@@ -130,6 +130,6 @@ repos:
 
 # lxfight
 
-15 pushes across 4 repositories on 11 active days in the last 90 days of public GitHub push activity.
+14 pushes across 3 repositories on 10 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/lxfight

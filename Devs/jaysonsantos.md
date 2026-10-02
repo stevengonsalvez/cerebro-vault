@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "4138778ebbc75ba6"
-pushes_per_week: [0, 2, 0, 0, 0, 1, 0, 0, 0, 1, 7, 13, 19]
+pushes_per_week: [0, 2, 0, 0, 0, 1, 0, 0, 0, 1, 8, 25, 6]
 windows:
   "7d":
-    pushes: 25
+    pushes: 18
     distinct_repos: 2
-    active_days: 3
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 25
+    pushes: 18
     distinct_repos: 2
-    pushes_per_repo: 12.5000
-    active_days: 3
+    pushes_per_repo: 9.0000
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -77,30 +77,6 @@ reasons:
   - "activity: 16 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "thinwire"
-    title: "thinwire"
-    description: "Thin multi-protocol desktop messenger (Rust + egui). Experimental unofficial protocol modules — see README."
-    language: "Rust"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-24"
-  - name: "debug-devices"
-    title: "debug-devices"
-    description: "MCP tools that let a coding agent see and measure real hardware: phone camera, multimeter via webcam + vision model, and boardview files"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-24"
-  - name: "python-binary-memcached"
-    title: "python-binary-memcached"
-    description: "A pure python module (thread safe) to access memcached via it's binary protocol with SASL auth support."
-    language: "Python"
-    topics: []
-    stars_fact: 167
-    first_seen: null
-    last_push: "2026-09-23"
   - name: "bunderwar"
     title: "bunderwar"
     description: "My up-to date docker images with renovate and arm64/amd64 support"
@@ -108,7 +84,31 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-23"
+    last_push: "2026-10-02"
+  - name: "debug-devices"
+    title: "debug-devices"
+    description: "MCP tools that let a coding agent see and measure real hardware: phone camera, multimeter via webcam + vision model, and boardview files"
+    language: "Python"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-09-29"
+  - name: "thinwire"
+    title: "thinwire"
+    description: "Thin multi-protocol desktop messenger (Rust + egui). Experimental unofficial protocol modules — see README."
+    language: "Rust"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-02"
+  - name: "python-binary-memcached"
+    title: "python-binary-memcached"
+    description: "A pure python module (thread safe) to access memcached via it's binary protocol with SASL auth support."
+    language: "Python"
+    topics: []
+    stars_fact: 167
+    first_seen: null
+    last_push: "2026-10-01"
   - name: "vampire-survivors-ux"
     title: "vampire-survivors-ux"
     description: "BepInEx mod for Vampire Survivors: Retry, Next stage, and Next new buttons on the results page, plus double click in the menus."
@@ -116,7 +116,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-21"
+    last_push: "2026-09-25"
   - name: "watchkeep"
     title: "watchkeep"
     description: "Self-hosted watch tracker for movies and TV shows with Plex webhook scrobbling and a TMDB catalog in PostgreSQL"

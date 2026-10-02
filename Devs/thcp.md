@@ -8,11 +8,11 @@ provenance_repos:
   - "stemdeckapp/stemdeck"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+repos_populated: false
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "f067a4ae268cdf65"
-pushes_per_week: [1, 3, 7, 2, 0, 10, 0, 0, 1, 1, 0, 2, 2]
+pushes_per_week: [2, 8, 1, 2, 0, 10, 0, 0, 1, 1, 0, 2, 2]
 windows:
   "7d":
     pushes: 2
@@ -76,55 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 17 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "PedalBoardManager"
-    title: "PedalBoardManager"
-    description: "Create, organize, and manage pedalboard profiles and signal chains."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-08-08"
-  - name: "dockerclaw"
-    title: "dockerclaw"
-    description: "OpenClaw On Docker"
-    language: "Shell"
-    topics: []
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-03-29"
-  - name: "thcp"
-    title: "thcp"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-03-26"
-  - name: "jenkins-agent-dod"
-    title: "jenkins-agent-dod"
-    description: "Jenkins agent with auto restart and DoD"
-    language: "Shell"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-03-03"
-  - name: "cloudflare-tunnel"
-    title: "cloudflare-tunnel"
-    description: "cloudflare tunnel compose"
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-01-16"
-  - name: "redash"
-    title: "redash"
-    description: "Redash Helm Chart"
-    language: "Smarty"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2025-06-01"
+repos: []
 ---
 
 # thcp

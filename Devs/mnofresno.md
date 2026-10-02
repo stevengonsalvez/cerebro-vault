@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "46f3c1d6124190bd"
 pushes_per_week: [4, 38, 5, 17, 0, 2, 0, 0, 0, 0, 0, 0, 0]
@@ -77,6 +77,14 @@ reasons:
   - "activity: 12 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "github-runner-fleet"
+    title: "github-runner-fleet"
+    description: "Docker-based GitHub Actions runner fleet manager with a local UI for ephemeral repo and org runners"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-01"
   - name: "mariano-portfolio-preview"
     title: "mariano-portfolio-preview"
     description: "Preview environment for Mariano Fresno portfolio redesigns"
@@ -84,7 +92,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-23"
+    last_push: "2026-10-01"
   - name: "hafele-standing-desk-wifi"
     title: "hafele-standing-desk-wifi"
     description: "✈️ This repository provides detailed instructions on modifying a Hafele® Standing Desk for WiFi control. It covers both hardware and software aspects, ensuring comprehensive guidance for successful implementation."
@@ -117,14 +125,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-09-03"
-  - name: "bionic-reading-skill"
-    title: "bionic-reading-skill"
-    description: "Standalone bionic reading Agent Skill, enabled by default."
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-06"
 ---
 
 # mnofresno

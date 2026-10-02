@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "e5b23adc376a62a9"
-pushes_per_week: [0, 1, 0, 0, 0, 1, 0, 4, 0, 3, 0, 10, 1]
+pushes_per_week: [0, 1, 0, 0, 1, 0, 0, 4, 0, 3, 0, 10, 1]
 windows:
   "7d":
     pushes: 1
@@ -77,6 +77,14 @@ reasons:
   - "activity: 10 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "UltimateVocalRemover"
+    title: "UltimateVocalRemover"
+    description: "This is a continuation of UVR5"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2025-11-16"
   - name: "svgtree.nvim"
     title: "svgtree.nvim"
     description: null
@@ -84,7 +92,7 @@ repos:
     topics: []
     stars_fact: 31
     first_seen: null
-    last_push: "2026-09-23"
+    last_push: "2026-09-24"
   - name: "Sprite"
     title: "Sprite"
     description: null
@@ -117,14 +125,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-09-19"
-  - name: "scm.nvim"
-    title: "scm.nvim"
-    description: "Multi-repo source-control panel for Neovim"
-    language: "Lua"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-07"
 ---
 
 # HundredBillion

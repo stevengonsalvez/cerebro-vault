@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "c7d59e96ede9112e"
-pushes_per_week: [0, 10, 30, 12, 2, 19, 8, 7, 2, 0, 0, 14, 15]
+pushes_per_week: [0, 17, 24, 11, 2, 23, 4, 9, 0, 0, 1, 13, 21]
 windows:
   "7d":
-    pushes: 15
-    distinct_repos: 2
-    active_days: 5
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
-  "30d":
-    pushes: 29
+    pushes: 21
     distinct_repos: 3
-    active_days: 10
+    active_days: 6
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
-  "90d":
-    pushes: 119
-    distinct_repos: 5
-    active_days: 38
-    repos_not_owned: 4
+  "30d":
+    pushes: 35
+    distinct_repos: 4
+    active_days: 11
+    repos_not_owned: 3
     not_owned_basenames: 2
-    not_owned_owners: 4
+    not_owned_owners: 3
+  "90d":
+    pushes: 125
+    distinct_repos: 6
+    active_days: 39
+    repos_not_owned: 5
+    not_owned_basenames: 2
+    not_owned_owners: 5
 automation:
   state: "clear"
-  push_per_day: 3.1316
-  repo_per_active_day: 0.1316
-  not_owned_ratio: 0.8000
-  basename_concentration: 0.8000
+  push_per_day: 3.2051
+  repo_per_active_day: 0.1538
+  not_owned_ratio: 0.8333
+  basename_concentration: 0.8333
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 15
-    distinct_repos: 2
-    pushes_per_repo: 7.5000
-    active_days: 5
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
-  "30d":
-    pushes: 29
+    pushes: 21
     distinct_repos: 3
-    pushes_per_repo: 9.6667
-    active_days: 10
+    pushes_per_repo: 7.0000
+    active_days: 6
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
-  "90d":
-    pushes: 119
-    distinct_repos: 5
-    pushes_per_repo: 23.8000
-    active_days: 38
-    repos_not_owned: 4
+  "30d":
+    pushes: 35
+    distinct_repos: 4
+    pushes_per_repo: 8.7500
+    active_days: 11
+    repos_not_owned: 3
     not_owned_basenames: 2
-    not_owned_owners: 4
+    not_owned_owners: 3
+  "90d":
+    pushes: 125
+    distinct_repos: 6
+    pushes_per_repo: 20.8333
+    active_days: 39
+    repos_not_owned: 5
+    not_owned_basenames: 2
+    not_owned_owners: 5
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 38 active days in 90d — pass"
+  - "activity: 39 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "nodeterm"
@@ -151,6 +151,6 @@ repos:
 
 # eneskirca
 
-119 pushes across 5 repositories on 38 active days in the last 90 days of public GitHub push activity.
+125 pushes across 6 repositories on 39 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/eneskirca

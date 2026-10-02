@@ -8,11 +8,11 @@ provenance_repos:
   - "anomalyco/opencode"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+repos_populated: false
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [5, 1, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [4, 1, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 9
+    pushes: 8
     distinct_repos: 1
-    active_days: 6
+    active_days: 5
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.5000
-  repo_per_active_day: 0.1667
+  push_per_day: 1.6000
+  repo_per_active_day: 0.2000
   not_owned_ratio: 1.0000
   basename_concentration: 1.0000
   shapes: []
@@ -65,84 +65,22 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 9
+    pushes: 8
     distinct_repos: 1
-    pushes_per_repo: 9.0000
-    active_days: 6
+    pushes_per_repo: 8.0000
+    active_days: 5
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 6 active days in 90d — pass"
+  - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "starptech.com"
-    title: "starptech.com"
-    description: "My personal website"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-09"
-  - name: "starptech"
-    title: "starptech"
-    description: "Personal GitHub Readme"
-    language: null
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-09"
-  - name: "branch-comparer"
-    title: "branch-comparer"
-    description: "Checkout multiple git branches, execute scripts and log the results"
-    language: "JavaScript"
-    topics:
-      - "checkout"
-      - "git"
-      - "nodejs"
-    stars_fact: 26
-    first_seen: null
-    last_push: "2022-12-07"
-  - name: "k-andy"
-    title: "k-andy"
-    description: "Low cost Kubernetes stack for startups, prototypes, and playgrounds on Hetzner Cloud."
-    language: "HCL"
-    topics:
-      - "kubernetes"
-    stars_fact: 156
-    first_seen: null
-    last_push: "2022-08-26"
-  - name: "go-web"
-    title: "go-web"
-    description: "Modern Web Application with Golang"
-    language: "Go"
-    topics:
-      - "custom-elements"
-      - "go"
-      - "gorm"
-      - "starter-kit"
-    stars_fact: 313
-    first_seen: null
-    last_push: "2023-04-30"
-  - name: "profiling-nodejs"
-    title: "profiling-nodejs"
-    description: "🌌 Collection of articles and tools to efficiently profile Node.js"
-    language: null
-    topics:
-      - "benchmarking"
-      - "flamegraphs"
-      - "monitoring"
-      - "nodejs"
-      - "profiling"
-      - "v8"
-    stars_fact: 165
-    first_seen: null
-    last_push: "2019-09-18"
+repos: []
 ---
 
 # StarpTech
 
-9 pushes across 1 repository on 6 active days in the last 90 days of public GitHub push activity.
+8 pushes across 1 repository on 5 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/StarpTech

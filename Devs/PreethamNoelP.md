@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "c489e6fb5febf2ab"
-pushes_per_week: [0, 4, 2, 1, 0, 0, 1, 0, 0, 0, 0, 1, 0]
+pushes_per_week: [0, 4, 2, 1, 0, 1, 0, 0, 0, 0, 0, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,20 +77,6 @@ reasons:
   - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "LANA-load_analyze_advance"
-    title: "LANA-load_analyze_advance"
-    description: "Local-first data analytics platform - upload a CSV/Excel/JSON file and ask questions, clean data, visualize, and export reports using a local LLM (Ollama) or any OpenAI-compatible API."
-    language: "Python"
-    topics:
-      - "data-analysis"
-      - "data-cleaning-and-preprocessing"
-      - "data-visualization"
-      - "fastapi"
-      - "linear-regression"
-      - "llm"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-24"
   - name: "agentgauge"
     title: "agentgauge"
     description: "Static governance scanner for MCP servers and AI agent tool-calling code - a linter for the OWASP Agentic Top 10. Zero dependencies, pure AST analysis, 0–100 score with fixes. CI-ready."
@@ -146,6 +132,18 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2023-12-04"
+  - name: "ML-IRIS-FLOWER-CLASSIFICATION"
+    title: "ML-IRIS-FLOWER-CLASSIFICATION"
+    description: null
+    language: "Jupyter Notebook"
+    topics:
+      - "beginner-project"
+      - "classification"
+      - "data-science"
+      - "machine-learning"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2024-01-09"
 ---
 
 # PreethamNoelP

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "541318303a272608"
-pushes_per_week: [0, 0, 1, 3, 0, 0, 2, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [0, 0, 3, 1, 0, 0, 2, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -82,7 +82,7 @@ repos:
     description: "kaoyan-math-ai 是一个基于 Obsidian 的考研数学一复习资料库，围绕高数、线代、概率论整理知识点、方法、题型与思维导图。项目结合 PDF 按章拆分、PaddleOCR、AI 草稿整理、Markdown 双链和笔记模板，把纸质/扫描资料逐步转成可检索、可链接、可复盘的本地知识库，帮助减少重复抄写，提高长期复习和回顾效率。"
     language: "Python"
     topics: []
-    stars_fact: 77
+    stars_fact: 78
     first_seen: null
     last_push: "2026-06-02"
   - name: "patrick-andstar.github.io"

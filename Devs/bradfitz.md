@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "e2f800cf55605b30"
-pushes_per_week: [3, 22, 5, 3, 2, 1, 0, 0, 1, 1, 3, 10, 10]
+pushes_per_week: [7, 18, 5, 4, 1, 1, 0, 0, 1, 1, 5, 9, 10]
 windows:
   "7d":
     pushes: 11
-    distinct_repos: 4
-    active_days: 6
+    distinct_repos: 5
+    active_days: 5
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
   "30d":
-    pushes: 24
-    distinct_repos: 7
+    pushes: 25
+    distinct_repos: 8
     active_days: 15
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 2
   "90d":
-    pushes: 61
-    distinct_repos: 10
+    pushes: 62
+    distinct_repos: 11
     active_days: 33
     repos_not_owned: 6
     not_owned_basenames: 6
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 1.8485
-  repo_per_active_day: 0.3030
-  not_owned_ratio: 0.6000
-  basename_concentration: 0.1000
+  push_per_day: 1.8788
+  repo_per_active_day: 0.3333
+  not_owned_ratio: 0.5455
+  basename_concentration: 0.0909
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -50,24 +50,24 @@ automation:
 facets:
   "7d":
     pushes: 11
-    distinct_repos: 4
-    pushes_per_repo: 2.7500
-    active_days: 6
+    distinct_repos: 5
+    pushes_per_repo: 2.2000
+    active_days: 5
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
   "30d":
-    pushes: 24
-    distinct_repos: 7
-    pushes_per_repo: 3.4286
+    pushes: 25
+    distinct_repos: 8
+    pushes_per_repo: 3.1250
     active_days: 15
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 2
   "90d":
-    pushes: 61
-    distinct_repos: 10
-    pushes_per_repo: 6.1000
+    pushes: 62
+    distinct_repos: 11
+    pushes_per_repo: 5.6364
     active_days: 33
     repos_not_owned: 6
     not_owned_basenames: 6
@@ -132,6 +132,6 @@ repos:
 
 # bradfitz
 
-61 pushes across 10 repositories on 33 active days in the last 90 days of public GitHub push activity.
+62 pushes across 11 repositories on 33 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/bradfitz

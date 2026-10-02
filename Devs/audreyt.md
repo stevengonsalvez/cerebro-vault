@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "3eacb4655aba2497"
-pushes_per_week: [96, 36, 28, 9, 2, 11, 5, 9, 2, 2, 5, 11, 9]
+pushes_per_week: [91, 33, 26, 9, 2, 15, 2, 8, 2, 2, 7, 9, 13]
 windows:
   "7d":
-    pushes: 10
+    pushes: 13
     distinct_repos: 8
     active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 27
-    distinct_repos: 12
-    active_days: 16
+    pushes: 31
+    distinct_repos: 13
+    active_days: 17
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 225
-    distinct_repos: 32
+    pushes: 219
+    distinct_repos: 33
     active_days: 51
     repos_not_owned: 11
     not_owned_basenames: 11
     not_owned_owners: 4
 automation:
   state: "clear"
-  push_per_day: 4.4118
-  repo_per_active_day: 0.6275
-  not_owned_ratio: 0.3438
-  basename_concentration: 0.0625
+  push_per_day: 4.2941
+  repo_per_active_day: 0.6471
+  not_owned_ratio: 0.3333
+  basename_concentration: 0.0606
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 10
+    pushes: 13
     distinct_repos: 8
-    pushes_per_repo: 1.2500
+    pushes_per_repo: 1.6250
     active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 27
-    distinct_repos: 12
-    pushes_per_repo: 2.2500
-    active_days: 16
+    pushes: 31
+    distinct_repos: 13
+    pushes_per_repo: 2.3846
+    active_days: 17
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 225
-    distinct_repos: 32
-    pushes_per_repo: 7.0312
+    pushes: 219
+    distinct_repos: 33
+    pushes_per_repo: 6.6364
     active_days: 51
     repos_not_owned: 11
     not_owned_basenames: 11
@@ -129,6 +129,6 @@ repos:
 
 # audreyt
 
-225 pushes across 32 repositories on 51 active days in the last 90 days of public GitHub push activity.
+219 pushes across 33 repositories on 51 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/audreyt

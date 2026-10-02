@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "48dbbdd8fd0d3029"
-pushes_per_week: [25, 19, 84, 39, 32, 27, 10, 4, 5, 5, 24, 7, 37]
+pushes_per_week: [31, 39, 66, 41, 28, 25, 6, 7, 2, 6, 23, 13, 50]
 windows:
   "7d":
-    pushes: 37
-    distinct_repos: 8
+    pushes: 54
+    distinct_repos: 12
     active_days: 7
-    repos_not_owned: 8
+    repos_not_owned: 12
     not_owned_basenames: 2
-    not_owned_owners: 7
+    not_owned_owners: 11
   "30d":
-    pushes: 73
-    distinct_repos: 10
-    active_days: 16
-    repos_not_owned: 10
+    pushes: 92
+    distinct_repos: 14
+    active_days: 17
+    repos_not_owned: 14
     not_owned_basenames: 2
-    not_owned_owners: 9
+    not_owned_owners: 13
   "90d":
-    pushes: 318
-    distinct_repos: 35
-    active_days: 58
-    repos_not_owned: 31
+    pushes: 337
+    distinct_repos: 39
+    active_days: 59
+    repos_not_owned: 35
     not_owned_basenames: 13
-    not_owned_owners: 20
+    not_owned_owners: 24
 automation:
   state: "clear"
-  push_per_day: 5.4828
-  repo_per_active_day: 0.6034
-  not_owned_ratio: 0.8857
-  basename_concentration: 0.4286
+  push_per_day: 5.7119
+  repo_per_active_day: 0.6610
+  not_owned_ratio: 0.8974
+  basename_concentration: 0.4872
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 37
-    distinct_repos: 8
-    pushes_per_repo: 4.6250
+    pushes: 54
+    distinct_repos: 12
+    pushes_per_repo: 4.5000
     active_days: 7
-    repos_not_owned: 8
+    repos_not_owned: 12
     not_owned_basenames: 2
-    not_owned_owners: 7
+    not_owned_owners: 11
   "30d":
-    pushes: 73
-    distinct_repos: 10
-    pushes_per_repo: 7.3000
-    active_days: 16
-    repos_not_owned: 10
+    pushes: 92
+    distinct_repos: 14
+    pushes_per_repo: 6.5714
+    active_days: 17
+    repos_not_owned: 14
     not_owned_basenames: 2
-    not_owned_owners: 9
+    not_owned_owners: 13
   "90d":
-    pushes: 318
-    distinct_repos: 35
-    pushes_per_repo: 9.0857
-    active_days: 58
-    repos_not_owned: 31
+    pushes: 337
+    distinct_repos: 39
+    pushes_per_repo: 8.6410
+    active_days: 59
+    repos_not_owned: 35
     not_owned_basenames: 13
-    not_owned_owners: 20
+    not_owned_owners: 24
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 58 active days in 90d — pass"
+  - "activity: 59 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "skills"
@@ -84,7 +84,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-16"
+    last_push: "2026-09-29"
   - name: "viz-explain"
     title: "viz-explain"
     description: "Editable Excalidraw patterns and agent skill for explaining software systems"
@@ -129,6 +129,6 @@ repos:
 
 # Patrick-Erichsen
 
-318 pushes across 35 repositories on 58 active days in the last 90 days of public GitHub push activity.
+337 pushes across 39 repositories on 59 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Patrick-Erichsen

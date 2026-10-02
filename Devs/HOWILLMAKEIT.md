@@ -9,22 +9,22 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "c489e6fb5febf2ab"
-pushes_per_week: [0, 3, 1, 2, 0, 1, 1, 1, 1, 0, 2, 1, 0]
+pushes_per_week: [0, 4, 0, 2, 0, 1, 1, 1, 1, 0, 2, 1, 0]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 4
-    distinct_repos: 3
-    active_days: 4
+    pushes: 3
+    distinct_repos: 2
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,18 +49,18 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 4
-    distinct_repos: 3
-    pushes_per_repo: 1.3333
-    active_days: 4
+    pushes: 3
+    distinct_repos: 2
+    pushes_per_repo: 1.5000
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -77,29 +77,6 @@ reasons:
   - "activity: 13 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "HOWILLMAKEIT.github.io"
-    title: "HOWILLMAKEIT.github.io"
-    description: "Personal academic homepage built with Hugo and PaperMod"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-24"
-  - name: "skills"
-    title: "skills"
-    description: "howill 个人维护的 Agent Skills 合集"
-    language: "Python"
-    topics:
-      - "agent-skills"
-      - "ai-agents"
-      - "claude-code"
-      - "coding-agent"
-      - "deepseek-harness"
-      - "llm"
-      - "skills"
-    stars_fact: 12
-    first_seen: null
-    last_push: "2026-09-17"
   - name: "dsh-model-context-catalog"
     title: "dsh-model-context-catalog"
     description: "DeepSeek Harness 插件：维护 llm-pi-ai 模型的准确上下文窗口，避免长会话被误判为上下文溢出。"
@@ -114,9 +91,32 @@ repos:
       - "llm"
       - "model-metadata"
       - "pi-ai"
-    stars_fact: 34
+    stars_fact: 33
     first_seen: null
     last_push: "2026-09-01"
+  - name: "skills"
+    title: "skills"
+    description: "howill 个人维护的 Agent Skills 合集"
+    language: "Python"
+    topics:
+      - "agent-skills"
+      - "ai-agents"
+      - "claude-code"
+      - "coding-agent"
+      - "deepseek-harness"
+      - "llm"
+      - "skills"
+    stars_fact: 11
+    first_seen: null
+    last_push: "2026-09-17"
+  - name: "HOWILLMAKEIT.github.io"
+    title: "HOWILLMAKEIT.github.io"
+    description: "Personal academic homepage built with Hugo and PaperMod"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-24"
   - name: "Sparrow"
     title: "Sparrow"
     description: "麻雀虽小。五脏俱全。基于 Decoder-only + MoE 架构的轻量级大语言模型实验项目(196M/A106M)，完整覆盖 Pretrain → SFT → DPO 三阶段训练流程。支持 DeepSpeed ZeRO-1/2/3 分布式训练，提供基于 Reward Model 的自动化评测与 DPO 数据合成方案。"

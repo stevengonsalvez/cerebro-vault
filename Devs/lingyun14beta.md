@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [0, 1, 1, 7, 5, 3, 3, 0, 0, 0, 1, 1, 1]
+pushes_per_week: [0, 1, 2, 7, 4, 6, 0, 0, 0, 0, 1, 1, 1]
 windows:
   "7d":
     pushes: 1
@@ -77,6 +77,14 @@ reasons:
   - "activity: 17 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "astrbot_plugin_onebot12"
+    title: "astrbot_plugin_onebot12"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-30"
   - name: "astrbot_plugin_showcase"
     title: "astrbot_plugin_showcase"
     description: null
@@ -84,7 +92,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-19"
+    last_push: "2026-09-30"
   - name: "astrbot_plugin_sensitivefilter"
     title: "astrbot_plugin_sensitivefilter"
     description: null
@@ -117,14 +125,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-09-05"
-  - name: "astrbot_plugin_uapipro_toolbox_en"
-    title: "astrbot_plugin_uapipro_toolbox_en"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-03"
 ---
 
 # lingyun14beta

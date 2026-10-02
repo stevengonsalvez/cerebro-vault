@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "c489e6fb5febf2ab"
 pushes_per_week: [0, 0, 0, 0, 3, 1, 0, 0, 0, 0, 3, 6, 10]
 windows:
   "7d":
-    pushes: 11
+    pushes: 10
     distinct_repos: 9
-    active_days: 5
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 11
+    pushes: 10
     distinct_repos: 9
-    pushes_per_repo: 1.2222
-    active_days: 5
+    pushes_per_repo: 1.1111
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -77,6 +77,14 @@ reasons:
   - "activity: 12 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "changesafe-agent-infra"
+    title: "changesafe-agent-infra"
+    description: "Multi-agent change-risk rehearsal, canary verification, and automatic rollback for GOAI Agent Infra."
+    language: "JavaScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-08-03"
   - name: "precedent"
     title: "precedent"
     description: "Self-evolving Claude Code harness with a verified self-modification loop (Apache-2.0)"
@@ -123,22 +131,6 @@ repos:
     stars_fact: 2
     first_seen: null
     last_push: "2025-04-29"
-  - name: "microcat-quantguard"
-    title: "microcat-quantguard"
-    description: "MicroCat QuantGuard: bounded House-only coding agent for Agenthon 2026 Track 1"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-20"
-  - name: "catforge-assemblyai-submission"
-    title: "catforge-assemblyai-submission"
-    description: "MicroCat solo entry for AssemblyAI Voice Agent Hackathon: reviewed source snapshot with bounded robot-skill planning and Streaming STT v3."
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-17"
 ---
 
 # Linxiushen

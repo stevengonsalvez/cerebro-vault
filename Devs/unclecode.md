@@ -8,16 +8,16 @@ provenance_repos:
   - "unclecode/crawl4ai"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+repos_populated: false
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "d46d1480c37c463a"
-pushes_per_week: [1, 0, 0, 2, 1, 9, 6, 3, 2, 1, 3, 2, 2]
+pushes_per_week: [0, 0, 1, 2, 2, 9, 4, 4, 1, 1, 3, 3, 1]
 windows:
   "7d":
-    pushes: 2
+    pushes: 1
     distinct_repos: 1
-    active_days: 2
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 32
-    distinct_repos: 6
-    active_days: 23
+    pushes: 31
+    distinct_repos: 5
+    active_days: 22
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.3913
-  repo_per_active_day: 0.2609
-  not_owned_ratio: 0.3333
-  basename_concentration: 0.1667
+  push_per_day: 1.4091
+  repo_per_active_day: 0.2273
+  not_owned_ratio: 0.4000
+  basename_concentration: 0.2000
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
+    pushes: 1
     distinct_repos: 1
-    pushes_per_repo: 2.0000
-    active_days: 2
+    pushes_per_repo: 1.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -65,77 +65,22 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 32
-    distinct_repos: 6
-    pushes_per_repo: 5.3333
-    active_days: 23
+    pushes: 31
+    distinct_repos: 5
+    pushes_per_repo: 6.2000
+    active_days: 22
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 23 active days in 90d — pass"
+  - "activity: 22 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "crawl4ai"
-    title: "crawl4ai"
-    description: "🚀🤖 Crawl4AI: Open-source LLM Friendly Web Crawler & Scraper. Don't be shy, join here: https://discord.gg/jP8KfhDhyN"
-    language: "Python"
-    topics: []
-    stars_fact: 84227
-    first_seen: "2026-08-31T06:00:05.898998+00:00"
-    last_push: "2026-09-23"
-  - name: "crawl4ai-status"
-    title: "crawl4ai-status"
-    description: "Live status of the Crawl4AI crawling API and services"
-    language: "Markdown"
-    topics:
-      - "status-page"
-      - "upptime"
-      - "uptime-monitor"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-25"
-  - name: "modelprint"
-    title: "modelprint"
-    description: "Who is really behind that API? Fingerprint any OpenAI-compatible endpoint in the browser: 9 infrastructure probes, side-by-side comparison, community-extensible."
-    language: "JavaScript"
-    topics:
-      - "ai-tools"
-      - "fingerprinting"
-      - "llm"
-      - "openrouter"
-    stars_fact: 122
-    first_seen: null
-    last_push: "2026-09-24"
-  - name: "whats-cooking"
-    title: "whats-cooking"
-    description: "🔥 Find out what's roasting your MacBook - down to the exact Chrome tab - and end it. Menu bar heat monitor with real CPU die temp + per-tab Chrome CPU."
-    language: "Swift"
-    topics: []
-    stars_fact: 10
-    first_seen: null
-    last_push: "2026-08-04"
-  - name: "twikit"
-    title: "twikit"
-    description: "Maintained fork of d60/twikit with 2026 patches for X (formerly Twitter) internal API changes. Drop-in replacement: pip install git+https://github.com/unclecode/twikit.git"
-    language: "Python"
-    topics: []
-    stars_fact: 13
-    first_seen: null
-    last_push: "2026-05-17"
-  - name: "jevshift"
-    title: "jevshift"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-23"
+repos: []
 ---
 
 # unclecode
 
-32 pushes across 6 repositories on 23 active days in the last 90 days of public GitHub push activity.
+31 pushes across 5 repositories on 22 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/unclecode

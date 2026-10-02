@@ -6,15 +6,13 @@ discovered_via_all:
   - "fanout"
 provenance_repos:
   - "anomalyco/opencode"
-  - "cloudflare/cloudflare-os"
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
-  - "386c24cf5e18fd90"
   - "ffccace0ba14fd15"
-pushes_per_week: [2, 14, 7, 11, 0, 6, 1, 6, 2, 0, 0, 2, 0]
+pushes_per_week: [1, 17, 4, 11, 0, 6, 1, 8, 0, 0, 0, 2, 0]
 windows:
   "7d":
     pushes: 0
@@ -31,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 51
+    pushes: 50
     distinct_repos: 12
-    active_days: 23
+    active_days: 22
     repos_not_owned: 4
     not_owned_basenames: 3
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 2.2174
-  repo_per_active_day: 0.5217
+  push_per_day: 2.2727
+  repo_per_active_day: 0.5455
   not_owned_ratio: 0.3333
   basename_concentration: 0.1667
   shapes: []
@@ -67,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 51
+    pushes: 50
     distinct_repos: 12
-    pushes_per_repo: 4.2500
-    active_days: 23
+    pushes_per_repo: 4.1667
+    active_days: 22
     repos_not_owned: 4
     not_owned_basenames: 3
     not_owned_owners: 3
 reasons:
-  - "provenance: 2 vault signal(s) — pass"
-  - "activity: 23 active days in 90d — pass"
+  - "provenance: 1 vault signal(s) — pass"
+  - "activity: 22 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "workers-hono-rate-limit"
@@ -151,6 +149,6 @@ repos:
 
 # elithrar
 
-51 pushes across 12 repositories on 23 active days in the last 90 days of public GitHub push activity.
+50 pushes across 12 repositories on 22 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/elithrar

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "48dbbdd8fd0d3029"
-pushes_per_week: [8, 2, 5, 2, 0, 3, 0, 4, 0, 1, 0, 2, 6]
+pushes_per_week: [5, 2, 6, 1, 0, 3, 0, 4, 0, 1, 1, 3, 4]
 windows:
   "7d":
     pushes: 6
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 33
+    pushes: 30
     distinct_repos: 4
-    active_days: 26
+    active_days: 25
     repos_not_owned: 4
     not_owned_basenames: 3
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 1.2692
-  repo_per_active_day: 0.1538
+  push_per_day: 1.2000
+  repo_per_active_day: 0.1600
   not_owned_ratio: 1.0000
   basename_concentration: 0.5000
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 33
+    pushes: 30
     distinct_repos: 4
-    pushes_per_repo: 8.2500
-    active_days: 26
+    pushes_per_repo: 7.5000
+    active_days: 25
     repos_not_owned: 4
     not_owned_basenames: 3
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 26 active days in 90d — pass"
+  - "activity: 25 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "tweakcc-system-prompts"
@@ -101,6 +101,6 @@ repos:
 
 # bl-ue
 
-33 pushes across 4 repositories on 26 active days in the last 90 days of public GitHub push activity.
+30 pushes across 4 repositories on 25 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/bl-ue

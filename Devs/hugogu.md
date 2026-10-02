@@ -9,22 +9,22 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [20, 9, 7, 5, 2, 1, 1, 4, 2, 2, 1, 12, 5]
+pushes_per_week: [22, 8, 7, 3, 3, 0, 3, 4, 0, 3, 0, 12, 6]
 windows:
   "7d":
-    pushes: 5
-    distinct_repos: 1
-    active_days: 3
+    pushes: 6
+    distinct_repos: 2
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 20
+    pushes: 21
     distinct_repos: 3
-    active_days: 10
+    active_days: 11
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,18 +49,18 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 5
-    distinct_repos: 1
-    pushes_per_repo: 5.0000
-    active_days: 3
+    pushes: 6
+    distinct_repos: 2
+    pushes_per_repo: 3.0000
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 20
+    pushes: 21
     distinct_repos: 3
-    pushes_per_repo: 6.6667
-    active_days: 10
+    pushes_per_repo: 7.0000
+    active_days: 11
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -77,14 +77,6 @@ reasons:
   - "activity: 37 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "orbit"
-    title: "orbit"
-    description: "A online solar system and sky event simulator"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-24"
   - name: "next-wiki"
     title: "next-wiki"
     description: "An AI native personal knowledge management & sharing platform"
@@ -92,7 +84,31 @@ repos:
     topics: []
     stars_fact: 2
     first_seen: null
-    last_push: "2026-09-18"
+    last_push: "2026-10-02"
+  - name: "orbit"
+    title: "orbit"
+    description: "Browser-based 3D solar system observatory: 1700–2200 UTC, Newtonian sandbox, 9096 stars, 19 moons. orbits.observer"
+    language: "TypeScript"
+    topics:
+      - "astronomy"
+      - "education"
+      - "interactive"
+      - "javascript"
+      - "simulation"
+      - "solar-system"
+      - "threejs"
+      - "webgl"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-01"
+  - name: "hugogu"
+    title: "hugogu"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-26"
   - name: "skills"
     title: "skills"
     description: null
@@ -117,14 +133,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-09-07"
-  - name: "octopus-llm"
-    title: "octopus-llm"
-    description: "An LLM aggregator that allow communicate with multiple LLMs side-by-side in realtime"
-    language: "Kotlin"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-05"
 ---
 
 # hugogu

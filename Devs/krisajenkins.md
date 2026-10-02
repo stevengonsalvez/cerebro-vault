@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [3, 3, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0]
+pushes_per_week: [3, 4, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,6 +77,22 @@ reasons:
   - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "remotedata"
+    title: "remotedata"
+    description: "Tools for fetching data from remote sources (incl. HTTP)."
+    language: "Elm"
+    topics: []
+    stars_fact: 254
+    first_seen: null
+    last_push: "2025-01-29"
+  - name: "BellRinger"
+    title: "BellRinger"
+    description: "An experiment in porting my preferred ClojureScript architecture to Haskell"
+    language: "Haskell"
+    topics: []
+    stars_fact: 10
+    first_seen: null
+    last_push: "2014-12-01"
   - name: "yesql"
     title: "yesql"
     description: "A Clojure library for using SQL."
@@ -116,22 +132,6 @@ repos:
     stars_fact: 5
     first_seen: null
     last_push: "2026-08-31"
-  - name: "evil-tabs"
-    title: "evil-tabs"
-    description: "Integrating Vim-style tabs for Evil mode users."
-    language: "Emacs Lisp"
-    topics: []
-    stars_fact: 66
-    first_seen: null
-    last_push: "2019-12-28"
-  - name: "vim-projectlocal"
-    title: "vim-projectlocal"
-    description: "Per-project .vimrc files."
-    language: "VimL"
-    topics: []
-    stars_fact: 40
-    first_seen: null
-    last_push: "2014-02-08"
 ---
 
 # krisajenkins

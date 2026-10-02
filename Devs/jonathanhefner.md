@@ -11,37 +11,37 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "48dbbdd8fd0d3029"
   - "8baedcc9c29d068b"
-pushes_per_week: [0, 3, 10, 3, 1, 4, 5, 0, 0, 0, 3, 0, 1]
+pushes_per_week: [1, 3, 10, 2, 1, 6, 3, 0, 0, 0, 3, 0, 2]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
-  "30d":
-    pushes: 4
+    pushes: 2
     distinct_repos: 2
     active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
+  "30d":
+    pushes: 5
+    distinct_repos: 2
+    active_days: 3
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
-    pushes: 30
+    pushes: 31
     distinct_repos: 6
-    active_days: 19
+    active_days: 20
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 1.5789
-  repo_per_active_day: 0.3158
+  push_per_day: 1.5500
+  repo_per_active_day: 0.3000
   not_owned_ratio: 0.6667
   basename_concentration: 0.3333
   shapes: []
@@ -52,32 +52,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
-  "30d":
-    pushes: 4
+    pushes: 2
     distinct_repos: 2
-    pushes_per_repo: 2.0000
+    pushes_per_repo: 1.0000
     active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
+  "30d":
+    pushes: 5
+    distinct_repos: 2
+    pushes_per_repo: 2.5000
+    active_days: 3
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
-    pushes: 30
+    pushes: 31
     distinct_repos: 6
-    pushes_per_repo: 5.0000
-    active_days: 19
+    pushes_per_repo: 5.1667
+    active_days: 20
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 3
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 19 active days in 90d — pass"
+  - "activity: 20 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "agentskills-build-for-well-known"
@@ -155,6 +155,6 @@ repos:
 
 # jonathanhefner
 
-30 pushes across 6 repositories on 19 active days in the last 90 days of public GitHub push activity.
+31 pushes across 6 repositories on 20 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/jonathanhefner

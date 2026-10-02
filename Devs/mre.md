@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "1f49d0119cedbc84"
-pushes_per_week: [11, 4, 3, 2, 0, 1, 2, 1, 0, 1, 2, 8, 0]
+pushes_per_week: [9, 4, 3, 2, 0, 3, 0, 1, 0, 1, 3, 7, 3]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
+    pushes: 3
+    distinct_repos: 3
     active_days: 1
-    repos_not_owned: 1
-    not_owned_basenames: 1
+    repos_not_owned: 2
+    not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 11
-    distinct_repos: 6
-    active_days: 8
-    repos_not_owned: 6
-    not_owned_basenames: 5
+    pushes: 14
+    distinct_repos: 8
+    active_days: 9
+    repos_not_owned: 7
+    not_owned_basenames: 6
     not_owned_owners: 4
   "90d":
-    pushes: 35
-    distinct_repos: 10
+    pushes: 36
+    distinct_repos: 12
     active_days: 19
-    repos_not_owned: 9
-    not_owned_basenames: 8
+    repos_not_owned: 10
+    not_owned_basenames: 9
     not_owned_owners: 6
 automation:
   state: "clear"
-  push_per_day: 1.8421
-  repo_per_active_day: 0.5263
-  not_owned_ratio: 0.9000
-  basename_concentration: 0.2000
+  push_per_day: 1.8947
+  repo_per_active_day: 0.6316
+  not_owned_ratio: 0.8333
+  basename_concentration: 0.1667
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,28 +49,28 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
+    pushes: 3
+    distinct_repos: 3
     pushes_per_repo: 1.0000
     active_days: 1
-    repos_not_owned: 1
-    not_owned_basenames: 1
+    repos_not_owned: 2
+    not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 11
-    distinct_repos: 6
-    pushes_per_repo: 1.8333
-    active_days: 8
-    repos_not_owned: 6
-    not_owned_basenames: 5
+    pushes: 14
+    distinct_repos: 8
+    pushes_per_repo: 1.7500
+    active_days: 9
+    repos_not_owned: 7
+    not_owned_basenames: 6
     not_owned_owners: 4
   "90d":
-    pushes: 35
-    distinct_repos: 10
-    pushes_per_repo: 3.5000
+    pushes: 36
+    distinct_repos: 12
+    pushes_per_repo: 3.0000
     active_days: 19
-    repos_not_owned: 9
-    not_owned_basenames: 8
+    repos_not_owned: 10
+    not_owned_basenames: 9
     not_owned_owners: 6
 reasons:
   - "provenance: 1 vault signal(s) — pass"
@@ -86,7 +86,7 @@ repos:
       - "idiomatic"
       - "idiomatic-rust"
       - "rust"
-    stars_fact: 7869
+    stars_fact: 7874
     first_seen: null
     last_push: "2026-02-12"
   - name: "endler.dev"
@@ -96,7 +96,19 @@ repos:
     topics: []
     stars_fact: 111
     first_seen: null
-    last_push: "2026-09-23"
+    last_push: "2026-10-01"
+  - name: "the-coding-interview"
+    title: "the-coding-interview"
+    description: "Programming exercises, code katas and puzzles for your job interview training - or just for fun."
+    language: "Python"
+    topics:
+      - "coding-interview"
+      - "interview-practice"
+      - "interview-test-task"
+      - "language-learning"
+    stars_fact: 1745
+    first_seen: null
+    last_push: "2023-10-30"
   - name: "vscode-snippet"
     title: "vscode-snippet"
     description: "🐤 A Visual Studio Code extension for cheat.sh. Quickly and easily find code snippets for any language right inside your IDE."
@@ -134,21 +146,10 @@ repos:
     stars_fact: 112
     first_seen: null
     last_push: "2026-06-28"
-  - name: "thundervim"
-    title: "thundervim"
-    description: "Native VIM keybindings for Thunderbird; compose text with your favorite editor shortcuts."
-    language: "TypeScript"
-    topics:
-      - "editing"
-      - "thunderbird"
-      - "vim"
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-09-09"
 ---
 
 # mre
 
-35 pushes across 10 repositories on 19 active days in the last 90 days of public GitHub push activity.
+36 pushes across 12 repositories on 19 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/mre

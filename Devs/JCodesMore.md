@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "624efc8fafcad404"
 pushes_per_week: [0, 8, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0, 1]
@@ -101,17 +101,9 @@ repos:
       - "typescript"
       - "web-scraping"
       - "website-clone"
-    stars_fact: 35014
+    stars_fact: 35547
     first_seen: "2026-06-23T06:00:02.599193+00:00"
-    last_push: "2026-09-20"
-  - name: "ai-animated-website"
-    title: "ai-animated-website"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 31
-    first_seen: null
-    last_push: "2026-01-22"
+    last_push: "2026-09-27"
   - name: "youtube-for-ai-agents"
     title: "youtube-for-ai-agents"
     description: "Your AI agent can now search Youtube, watch videos, create highlight reels, and more"
@@ -124,9 +116,24 @@ repos:
       - "mcp"
       - "plugin"
       - "youtube"
-    stars_fact: 53
+    stars_fact: 51
     first_seen: null
     last_push: "2026-04-30"
+  - name: "fix-claude-code"
+    title: "fix-claude-code"
+    description: "Fix and optimize Claude Code performance the easy way"
+    language: null
+    topics:
+      - "ai"
+      - "ai-agents"
+      - "claude"
+      - "claude-code"
+      - "fix"
+      - "performance"
+      - "plugin"
+    stars_fact: 22
+    first_seen: null
+    last_push: "2026-08-15"
   - name: "agent-recall"
     title: "agent-recall"
     description: "Let your AI agents find any conversation you've had across Claude Code, Codex, and OpenCode."
@@ -134,30 +141,29 @@ repos:
     topics: []
     stars_fact: 11
     first_seen: null
-    last_push: "2026-09-17"
-  - name: "Powerful-Websites-You-Should-Know-About"
-    title: "Powerful-Websites-You-Should-Know-About"
+    last_push: "2026-09-27"
+  - name: "slack-for-ai-agents"
+    title: "slack-for-ai-agents"
     description: null
-    language: "Python"
+    language: "TypeScript"
     topics: []
-    stars_fact: 28
-    first_seen: null
-    last_push: "2026-04-30"
-  - name: "ai-chrome-extension-template"
-    title: "ai-chrome-extension-template"
-    description: "Make any Chrome extension with AI agents — autonomous dev loop: plan, build, test in a real browser, iterate, package, release."
-    language: "JavaScript"
-    topics:
-      - "ai-agents"
-      - "chrome-extension"
-      - "claude-code"
-      - "codex"
-      - "mv3"
-      - "skills"
-      - "template"
-    stars_fact: 12
+    stars_fact: 4
     first_seen: null
     last_push: "2026-08-15"
+  - name: "discord-for-ai-agents"
+    title: "discord-for-ai-agents"
+    description: "Connect your AI agent to Discord - create servers, moderate, and more"
+    language: "TypeScript"
+    topics:
+      - "agent"
+      - "ai"
+      - "claude-code"
+      - "discord"
+      - "mcp"
+      - "plugin"
+    stars_fact: 11
+    first_seen: null
+    last_push: "2026-05-07"
 ---
 
 # JCodesMore

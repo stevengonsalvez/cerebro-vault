@@ -8,37 +8,37 @@ provenance_repos:
   - "anomalyco/opencode"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+repos_populated: false
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 3, 15]
+pushes_per_week: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 3, 16]
 windows:
   "7d":
-    pushes: 15
+    pushes: 16
     distinct_repos: 2
-    active_days: 4
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 18
+    pushes: 19
     distinct_repos: 3
-    active_days: 5
+    active_days: 6
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 20
+    pushes: 21
     distinct_repos: 3
-    active_days: 7
+    active_days: 8
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.8571
-  repo_per_active_day: 0.4286
+  push_per_day: 2.6250
+  repo_per_active_day: 0.3750
   not_owned_ratio: 0.3333
   basename_concentration: 0.3333
   shapes: []
@@ -49,86 +49,38 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 15
+    pushes: 16
     distinct_repos: 2
-    pushes_per_repo: 7.5000
-    active_days: 4
+    pushes_per_repo: 8.0000
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 18
+    pushes: 19
     distinct_repos: 3
-    pushes_per_repo: 6.0000
-    active_days: 5
+    pushes_per_repo: 6.3333
+    active_days: 6
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 20
+    pushes: 21
     distinct_repos: 3
-    pushes_per_repo: 6.6667
-    active_days: 7
+    pushes_per_repo: 7.0000
+    active_days: 8
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 7 active days in 90d — pass"
+  - "activity: 8 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "opencode-vim"
-    title: "opencode-vim"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 21
-    first_seen: null
-    last_push: "2026-09-27"
-  - name: "opencode-dynamic-context-pruning"
-    title: "opencode-dynamic-context-pruning"
-    description: "Dynamic context pruning plugin for OpenCode - intelligently manages conversation context to optimize token usage"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 4276
-    first_seen: null
-    last_push: "2026-09-25"
-  - name: "oc-tps"
-    title: "oc-tps"
-    description: "OpenCode plugin for viewing LLM Tokens Per Second (TPS) rates"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 164
-    first_seen: null
-    last_push: "2026-09-21"
-  - name: "opencode-smart-title"
-    title: "opencode-smart-title"
-    description: "Auto-generate meaningful session titles for OpenCode conversations using AI"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 55
-    first_seen: null
-    last_push: "2025-12-25"
-  - name: "opencode-btw-plus"
-    title: "opencode-btw-plus"
-    description: "OpenCode's /btw, with searchable history saved per session."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-20"
-  - name: "codex-fast-tier-repro"
-    title: "codex-fast-tier-repro"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-27"
+repos: []
 ---
 
 # Tarquinen
 
-20 pushes across 3 repositories on 7 active days in the last 90 days of public GitHub push activity.
+21 pushes across 3 repositories on 8 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Tarquinen

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [1, 13, 2, 2, 0, 3, 0, 2, 0, 0, 0, 0, 1]
+pushes_per_week: [1, 13, 2, 2, 0, 3, 1, 1, 0, 0, 0, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -77,6 +77,14 @@ reasons:
   - "activity: 11 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "local-ai-guard"
+    title: "local-ai-guard"
+    description: "Local document-answering assistant and an evaluation of defenses against poisoned documents. Results follow in the release."
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-01"
   - name: "strix-halo-guide"
     title: "strix-halo-guide"
     description: "Evidence-backed AMD Strix Halo local-AI setup and benchmarks: Qwen3.8, Ollama, llama.cpp, Vulkan/ROCm, large GGUFs, and cross-OEM results."
@@ -102,9 +110,9 @@ repos:
       - "strix-halo"
       - "unified-memory"
       - "vulkan"
-    stars_fact: 343
+    stars_fact: 351
     first_seen: null
-    last_push: "2026-09-19"
+    last_push: "2026-09-26"
   - name: "evidenceflow-ai"
     title: "evidenceflow-ai"
     description: "Approval-gated, observable AI evidence triage with local inference, grounded citations, audit trails and evals, plus pre-registered vision fine-tuning and calibrated measurement demonstrators"

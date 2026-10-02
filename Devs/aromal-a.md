@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "2d6ba8fc0269fd52"
-pushes_per_week: [8, 8, 7, 8, 6, 4, 3, 0, 0, 0, 0, 2, 1]
+pushes_per_week: [6, 8, 7, 9, 6, 3, 3, 0, 0, 0, 0, 3, 0]
 windows:
   "7d":
     pushes: 1
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 47
+    pushes: 45
     distinct_repos: 19
-    active_days: 27
+    active_days: 26
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.7407
-  repo_per_active_day: 0.7037
+  push_per_day: 1.7308
+  repo_per_active_day: 0.7308
   not_owned_ratio: 0.0526
   basename_concentration: 0.0526
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 47
+    pushes: 45
     distinct_repos: 19
-    pushes_per_repo: 2.4737
-    active_days: 27
+    pushes_per_repo: 2.3684
+    active_days: 26
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 27 active days in 90d — pass"
+  - "activity: 26 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "User-State"
@@ -129,6 +129,6 @@ repos:
 
 # aromal-a
 
-47 pushes across 19 repositories on 27 active days in the last 90 days of public GitHub push activity.
+45 pushes across 19 repositories on 26 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/aromal-a

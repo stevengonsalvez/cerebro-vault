@@ -9,18 +9,18 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "533d51d9d3dea76f"
-pushes_per_week: [44, 24, 45, 19, 26, 52, 14, 7, 2, 4, 12, 15, 25]
+pushes_per_week: [47, 28, 37, 20, 27, 50, 12, 7, 1, 5, 13, 16, 22]
 windows:
   "7d":
-    pushes: 27
-    distinct_repos: 8
-    active_days: 6
-    repos_not_owned: 3
-    not_owned_basenames: 3
-    not_owned_owners: 3
+    pushes: 25
+    distinct_repos: 7
+    active_days: 5
+    repos_not_owned: 2
+    not_owned_basenames: 2
+    not_owned_owners: 2
   "30d":
     pushes: 56
     distinct_repos: 13
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 5
     not_owned_owners: 5
   "90d":
-    pushes: 289
+    pushes: 285
     distinct_repos: 29
-    active_days: 71
+    active_days: 70
     repos_not_owned: 13
     not_owned_basenames: 11
     not_owned_owners: 10
 automation:
   state: "clear"
-  push_per_day: 4.0704
-  repo_per_active_day: 0.4085
+  push_per_day: 4.0714
+  repo_per_active_day: 0.4143
   not_owned_ratio: 0.4483
   basename_concentration: 0.1034
   shapes: []
@@ -49,13 +49,13 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 27
-    distinct_repos: 8
-    pushes_per_repo: 3.3750
-    active_days: 6
-    repos_not_owned: 3
-    not_owned_basenames: 3
-    not_owned_owners: 3
+    pushes: 25
+    distinct_repos: 7
+    pushes_per_repo: 3.5714
+    active_days: 5
+    repos_not_owned: 2
+    not_owned_basenames: 2
+    not_owned_owners: 2
   "30d":
     pushes: 56
     distinct_repos: 13
@@ -65,18 +65,48 @@ facets:
     not_owned_basenames: 5
     not_owned_owners: 5
   "90d":
-    pushes: 289
+    pushes: 285
     distinct_repos: 29
-    pushes_per_repo: 9.9655
-    active_days: 71
+    pushes_per_repo: 9.8276
+    active_days: 70
     repos_not_owned: 13
     not_owned_basenames: 11
     not_owned_owners: 10
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 71 active days in 90d — pass"
+  - "activity: 70 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "PeterDaveHello"
+    title: "PeterDaveHello"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 6
+    first_seen: null
+    last_push: "2026-10-02"
+  - name: "dnslow.me-uptime"
+    title: "dnslow.me-uptime"
+    description: "Uptime of dnslow.me"
+    language: "Markdown"
+    topics:
+      - "status-page"
+      - "upptime"
+      - "uptime-monitor"
+    stars_fact: 7
+    first_seen: null
+    last_push: "2026-10-02"
+  - name: "ipinfo.tw-uptime"
+    title: "ipinfo.tw-uptime"
+    description: "Uptime of ipinfo.tw"
+    language: "Markdown"
+    topics:
+      - "status-page"
+      - "upptime"
+      - "uptime-monitor"
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-10-02"
   - name: "ipinfo.tw"
     title: "ipinfo.tw"
     description: "🐳 A self-host 🙅 non-tracking, AD-🆓 ➕ 🍪-🆓 solution to show your IP ℹ️ Super small (🤏10MB)"
@@ -97,39 +127,9 @@ repos:
       - "whatismyip"
       - "whatismyipaddress"
       - "whatsmyip"
-    stars_fact: 252
+    stars_fact: 253
     first_seen: null
     last_push: "2026-06-10"
-  - name: "PeterDaveHello"
-    title: "PeterDaveHello"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 5
-    first_seen: null
-    last_push: "2026-09-24"
-  - name: "dnslow.me-uptime"
-    title: "dnslow.me-uptime"
-    description: "Uptime of dnslow.me"
-    language: "Markdown"
-    topics:
-      - "status-page"
-      - "upptime"
-      - "uptime-monitor"
-    stars_fact: 7
-    first_seen: null
-    last_push: "2026-09-24"
-  - name: "ipinfo.tw-uptime"
-    title: "ipinfo.tw-uptime"
-    description: "Uptime of ipinfo.tw"
-    language: "Markdown"
-    topics:
-      - "status-page"
-      - "upptime"
-      - "uptime-monitor"
-    stars_fact: 4
-    first_seen: null
-    last_push: "2026-09-24"
   - name: "chkdomain"
     title: "chkdomain"
     description: "🔍 Discover if a domain is resolvable or blocked by secure DNS and Ad-blocking services, and experience the innovative idea of DaaS - DNS as an Intelligence Service."
@@ -147,9 +147,9 @@ repos:
       - "phishing"
       - "security"
       - "threat-intelligence"
-    stars_fact: 81
+    stars_fact: 83
     first_seen: null
-    last_push: "2026-09-06"
+    last_push: "2026-09-25"
   - name: "dnslow.me"
     title: "dnslow.me"
     description: "Secure DNS(also known as DNS firewall & protective DNS) with ad-blocking, threat protection, and fully encryption support for enhanced privacy and security."
@@ -178,6 +178,6 @@ repos:
 
 # PeterDaveHello
 
-289 pushes across 29 repositories on 71 active days in the last 90 days of public GitHub push activity.
+285 pushes across 29 repositories on 70 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/PeterDaveHello

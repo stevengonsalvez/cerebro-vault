@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "90688bf127241ceb"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 2, 0, 2, 0, 0, 2, 1]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 2, 1, 1, 0, 0, 2, 1]
 windows:
   "7d":
     pushes: 1
@@ -79,7 +79,7 @@ reasons:
 repos:
   - name: "dsh-update-copilot"
     title: "dsh-update-copilot"
-    description: "Update copilot for DeepSeek Harness: tracks the DSH core, bundled packages, and every installed plugin across npm and git, merged package-centric over all profiles, with one-click updates for eligible profiles. · DSH 更新助手：追踪 dsh 本体、bundle 包和所有已装插件（npm 与 git 双通道，跨 profile 按包合并），仅对符合条件的 profile 一键更新。"
+    description: "Update copilot for DeepSeek Harness: full version radar over the DSH core, bundles & every plugin (npm+git, package-centric across profiles); gated plugin updates, dual-mode gated core updates, patch-name audit. · DSH 更新助手：全量雷达 + 带闸门的插件与本体更新 + 补丁名体检"
     language: "JavaScript"
     topics:
       - "agent-tools"
@@ -91,14 +91,16 @@ repos:
       - "dsh"
       - "dsh-plugin"
       - "npm"
+      - "patch-audit"
       - "plugin-manager"
+      - "preflight"
       - "productivity"
       - "semver"
       - "update-checker"
       - "version-radar"
     stars_fact: 1
     first_seen: null
-    last_push: "2026-09-23"
+    last_push: "2026-09-30"
   - name: "dsh-capability-optimizer"
     title: "dsh-capability-optimizer"
     description: "External-expert consultation for DeepSeek Harness: headless Claude Code CLI with role personas (advisor/reviewer/designer, extensible), replies as reference answers — thinking effort, model fallback, panels, settings workspace. · DSH 外部专家咨询：headless 调用 Claude Code CLI，角色人设（advisor/reviewer/designer，可扩展）回复即参考答案——推理等级、模型回退、并行会诊、设置工作区。"
@@ -111,7 +113,7 @@ repos:
       - "dsh-plugin"
       - "reviewer"
       - "second-opinion"
-    stars_fact: 0
+    stars_fact: 1
     first_seen: null
     last_push: "2026-08-19"
   - name: "omo-models-switcher"

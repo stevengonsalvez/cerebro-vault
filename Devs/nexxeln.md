@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [6, 3, 4, 1, 0, 1, 4, 1, 0, 1, 0, 4, 5]
+pushes_per_week: [4, 3, 4, 1, 0, 5, 0, 1, 0, 1, 1, 4, 9]
 windows:
   "7d":
-    pushes: 6
+    pushes: 10
     distinct_repos: 1
     active_days: 4
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 10
+    pushes: 15
     distinct_repos: 2
-    active_days: 7
+    active_days: 8
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 30
+    pushes: 33
     distinct_repos: 2
     active_days: 20
     repos_not_owned: 2
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.5000
+  push_per_day: 1.6500
   repo_per_active_day: 0.1000
   not_owned_ratio: 1.0000
   basename_concentration: 0.5000
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 6
+    pushes: 10
     distinct_repos: 1
-    pushes_per_repo: 6.0000
+    pushes_per_repo: 10.0000
     active_days: 4
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 10
+    pushes: 15
     distinct_repos: 2
-    pushes_per_repo: 5.0000
-    active_days: 7
+    pushes_per_repo: 7.5000
+    active_days: 8
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 30
+    pushes: 33
     distinct_repos: 2
-    pushes_per_repo: 15.0000
+    pushes_per_repo: 16.5000
     active_days: 20
     repos_not_owned: 2
     not_owned_basenames: 2
@@ -77,6 +77,22 @@ reasons:
   - "activity: 20 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "oc-pstack"
+    title: "oc-pstack"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-01"
+  - name: "talktui"
+    title: "talktui"
+    description: "presentations on the terminal"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 157
+    first_seen: null
+    last_push: "2026-06-29"
   - name: "jgrep"
     title: "jgrep"
     description: "semantic search for code with jev"
@@ -124,26 +140,10 @@ repos:
     stars_fact: 4
     first_seen: null
     last_push: "2024-12-05"
-  - name: "talktui"
-    title: "talktui"
-    description: "presentations on the terminal"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 156
-    first_seen: null
-    last_push: "2026-06-29"
-  - name: "dots"
-    title: "dots"
-    description: "my dotfiles for macos"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 128
-    first_seen: null
-    last_push: "2026-03-16"
 ---
 
 # nexxeln
 
-30 pushes across 2 repositories on 20 active days in the last 90 days of public GitHub push activity.
+33 pushes across 2 repositories on 20 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/nexxeln

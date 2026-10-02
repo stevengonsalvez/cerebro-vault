@@ -10,28 +10,28 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "de6bf05613f3ae04"
   - "ffccace0ba14fd15"
-pushes_per_week: [135, 56, 109, 76, 24, 40, 25, 17, 7, 8, 27, 34, 75]
+pushes_per_week: [124, 63, 109, 71, 22, 46, 17, 16, 6, 10, 32, 42, 68]
 windows:
   "7d":
-    pushes: 77
+    pushes: 82
     distinct_repos: 9
     active_days: 7
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
   "30d":
-    pushes: 144
+    pushes: 152
     distinct_repos: 14
-    active_days: 24
+    active_days: 25
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 4
   "90d":
-    pushes: 633
+    pushes: 626
     distinct_repos: 20
     active_days: 79
     repos_not_owned: 7
@@ -39,7 +39,7 @@ windows:
     not_owned_owners: 6
 automation:
   state: "clear"
-  push_per_day: 8.0127
+  push_per_day: 7.9241
   repo_per_active_day: 0.2532
   not_owned_ratio: 0.3500
   basename_concentration: 0.1500
@@ -51,25 +51,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 77
+    pushes: 82
     distinct_repos: 9
-    pushes_per_repo: 8.5556
+    pushes_per_repo: 9.1111
     active_days: 7
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
   "30d":
-    pushes: 144
+    pushes: 152
     distinct_repos: 14
-    pushes_per_repo: 10.2857
-    active_days: 24
+    pushes_per_repo: 10.8571
+    active_days: 25
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 4
   "90d":
-    pushes: 633
+    pushes: 626
     distinct_repos: 20
-    pushes_per_repo: 31.6500
+    pushes_per_repo: 31.3000
     active_days: 79
     repos_not_owned: 7
     not_owned_basenames: 5
@@ -135,6 +135,6 @@ repos:
 
 # jerome-benoit
 
-633 pushes across 20 repositories on 79 active days in the last 90 days of public GitHub push activity.
+626 pushes across 20 repositories on 79 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/jerome-benoit

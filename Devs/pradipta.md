@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: true
 repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "b49973635ff55351"
 pushes_per_week: [0, 0, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0]
@@ -77,14 +77,6 @@ reasons:
   - "activity: 2 active days in 90d — below the 5-day line, LABELLED low-n (never suppressed)"
   - "automation: clear — pass"
 repos:
-  - name: "dotfiles"
-    title: "dotfiles"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-08"
   - name: "wallfacer"
     title: "wallfacer"
     description: "A terminal session manager for Claude Code, and more"
@@ -97,9 +89,17 @@ repos:
       - "productivity"
       - "tui"
       - "tui-app"
-    stars_fact: 116
+    stars_fact: 117
     first_seen: "2026-08-06T06:00:05.901805+00:00"
     last_push: "2026-08-01"
+  - name: "dotfiles"
+    title: "dotfiles"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-08"
   - name: "pradipta.github.io"
     title: "pradipta.github.io"
     description: null

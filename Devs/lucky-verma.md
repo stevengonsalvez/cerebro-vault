@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "1be978947e68d1f2"
-pushes_per_week: [12, 0, 0, 0, 2, 1, 0, 0, 0, 0, 0, 0, 1]
+pushes_per_week: [6, 0, 0, 2, 0, 1, 0, 0, 0, 0, 0, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 16
+    pushes: 10
     distinct_repos: 4
-    active_days: 7
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.2857
-  repo_per_active_day: 0.5714
+  push_per_day: 2.0000
+  repo_per_active_day: 0.8000
   not_owned_ratio: 0.0000
   basename_concentration: 0.2500
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 16
+    pushes: 10
     distinct_repos: 4
-    pushes_per_repo: 4.0000
-    active_days: 7
+    pushes_per_repo: 2.5000
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 7 active days in 90d — pass"
+  - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "mwb-linux"
@@ -99,9 +99,32 @@ repos:
       - "synergy"
       - "uinput"
       - "windows"
-    stars_fact: 90
+    stars_fact: 97
     first_seen: null
-    last_push: "2026-09-16"
+    last_push: "2026-10-01"
+  - name: "Document-Classification-using-LayoutLM"
+    title: "Document-Classification-using-LayoutLM"
+    description: "This PyTorch implementation of LayoutLM paper by Microsoft demonstrate the SequenceClassfication task using HuggingFaceTransformers to classify types of Documents."
+    language: "Jupyter Notebook"
+    topics: []
+    stars_fact: 37
+    first_seen: null
+    last_push: "2022-08-23"
+  - name: "awesome-creator-tools"
+    title: "awesome-creator-tools"
+    description: "A curated list of awesome tools for content creators, YouTubers, streamers, podcasters, and digital entrepreneurs."
+    language: null
+    topics:
+      - "awesome"
+      - "awesome-list"
+      - "content-creation"
+      - "creator-tools"
+      - "podcasting"
+      - "streaming"
+      - "youtube"
+    stars_fact: 5
+    first_seen: null
+    last_push: "2026-07-31"
   - name: "InfiniteContext-1B"
     title: "InfiniteContext-1B"
     description: "ML systems for latent-attention training, durable streaming context, reproducible evaluation, and deployment recovery."
@@ -136,43 +159,10 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-08-12"
-  - name: "grokking-diagnostics"
-    title: "grokking-diagnostics"
-    description: "Cheap online diagnostics for grokking transformers: weight-decay regimes, attention-head order parameters, data, and Lean 4 verification"
-    language: "Python"
-    topics:
-      - "formal-verification"
-      - "grokking"
-      - "lean4"
-      - "machine-learning"
-      - "mamba"
-      - "mechanistic-interpretability"
-      - "phase-transitions"
-      - "state-space-models"
-      - "transformers"
-      - "weight-decay"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-08-12"
-  - name: "awesome-creator-tools"
-    title: "awesome-creator-tools"
-    description: "A curated list of awesome tools for content creators, YouTubers, streamers, podcasters, and digital entrepreneurs."
-    language: null
-    topics:
-      - "awesome"
-      - "awesome-list"
-      - "content-creation"
-      - "creator-tools"
-      - "podcasting"
-      - "streaming"
-      - "youtube"
-    stars_fact: 4
-    first_seen: null
-    last_push: "2026-07-31"
 ---
 
 # lucky-verma
 
-16 pushes across 4 repositories on 7 active days in the last 90 days of public GitHub push activity.
+10 pushes across 4 repositories on 5 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/lucky-verma

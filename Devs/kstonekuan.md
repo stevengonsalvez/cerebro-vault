@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "c5d31b731e2b133d"
-pushes_per_week: [1, 2, 1, 0, 0, 0, 2, 7, 0, 3, 3, 7, 2]
+pushes_per_week: [1, 2, 1, 0, 0, 0, 3, 6, 0, 3, 4, 6, 2]
 windows:
   "7d":
-    pushes: 3
+    pushes: 2
     distinct_repos: 1
-    active_days: 3
+    active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 3
+    pushes: 2
     distinct_repos: 1
-    pushes_per_repo: 3.0000
-    active_days: 3
+    pushes_per_repo: 2.0000
+    active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -95,9 +95,30 @@ repos:
       - "webrtc"
       - "whisper"
       - "windows"
-    stars_fact: 384
+    stars_fact: 387
     first_seen: null
     last_push: "2026-07-17"
+  - name: "gemini-cli-voice-extension"
+    title: "gemini-cli-voice-extension"
+    description: "Voice mode for Gemini CLI"
+    language: "TypeScript"
+    topics:
+      - "gemini-cli"
+      - "gemini-cli-extension"
+      - "gemini-extension"
+      - "gemini-live-api"
+      - "voice"
+    stars_fact: 24
+    first_seen: null
+    last_push: "2026-03-18"
+  - name: "voice-rtc-bench"
+    title: "voice-rtc-bench"
+    description: "A distributed benchmarking system for comparing WebRTC voice AI platforms (Daily vs LiveKit) across multiple geographic locations and time periods."
+    language: "Python"
+    topics: []
+    stars_fact: 17
+    first_seen: null
+    last_push: "2025-11-24"
   - name: "simple-chromium-ai"
     title: "simple-chromium-ai"
     description: "TypeScript library for Local LLM in Chromium browsers"
@@ -128,14 +149,6 @@ repos:
     stars_fact: 12
     first_seen: null
     last_push: "2026-02-24"
-  - name: "voice-rtc-bench"
-    title: "voice-rtc-bench"
-    description: "A distributed benchmarking system for comparing WebRTC voice AI platforms (Daily vs LiveKit) across multiple geographic locations and time periods."
-    language: "Python"
-    topics: []
-    stars_fact: 16
-    first_seen: null
-    last_push: "2025-11-24"
   - name: "iNTUition"
     title: "iNTUition"
     description: "Animating fake faces using X2Face for mapping onto stranger's faces in videos using deepfake for privacy protection"
@@ -149,19 +162,6 @@ repos:
     stars_fact: 7
     first_seen: null
     last_push: "2025-05-30"
-  - name: "telegram-notification-mcp"
-    title: "telegram-notification-mcp"
-    description: "Simple MCP server to send you notifications on telegram"
-    language: "TypeScript"
-    topics:
-      - "claude-code"
-      - "cloudflare-agents"
-      - "mcp"
-      - "telegram"
-      - "typescript"
-    stars_fact: 22
-    first_seen: null
-    last_push: "2026-08-16"
 ---
 
 # kstonekuan

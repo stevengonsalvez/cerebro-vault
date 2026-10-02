@@ -8,8 +8,8 @@ provenance_repos:
   - "agavra/tuicr"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+repos_populated: false
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "4a45ac7a449df20e"
 pushes_per_week: [2, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3]
@@ -76,55 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "dwm"
-    title: "dwm"
-    description: null
-    language: "C"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-20"
-  - name: "ryandielhenn.github.io"
-    title: "ryandielhenn.github.io"
-    description: "Portfolio site"
-    language: "Astro"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-27"
-  - name: "dotfiles"
-    title: "dotfiles"
-    description: null
-    language: "Shell"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-07-22"
-  - name: "zephyrcache"
-    title: "zephyrcache"
-    description: "A distributed cache"
-    language: "Go"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-05-14"
-  - name: "topic-modeling-arXiv-abstracts"
-    title: "topic-modeling-arXiv-abstracts"
-    description: "Uncover topics in scientific research by applying BERTopic to arXiv abstract data"
-    language: "Jupyter Notebook"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2025-12-11"
-  - name: "eda-dashboard"
-    title: "eda-dashboard"
-    description: "Exploratory Data Analysis"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2025-12-10"
+repos: []
 ---
 
 # ryandielhenn

@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "3cb7ff1cdcf97c6b"
-pushes_per_week: [8, 1, 0, 3, 0, 4, 2, 0, 0, 0, 4, 3, 4]
+pushes_per_week: [4, 1, 0, 3, 0, 4, 2, 0, 0, 0, 4, 3, 5]
 windows:
   "7d":
-    pushes: 4
+    pushes: 5
     distinct_repos: 3
-    active_days: 3
+    active_days: 4
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 11
+    pushes: 12
     distinct_repos: 6
-    active_days: 9
+    active_days: 10
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 29
+    pushes: 26
     distinct_repos: 9
     active_days: 21
     repos_not_owned: 1
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.3810
+  push_per_day: 1.2381
   repo_per_active_day: 0.4286
   not_owned_ratio: 0.1111
   basename_concentration: 0.1111
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 4
+    pushes: 5
     distinct_repos: 3
-    pushes_per_repo: 1.3333
-    active_days: 3
+    pushes_per_repo: 1.6667
+    active_days: 4
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 11
+    pushes: 12
     distinct_repos: 6
-    pushes_per_repo: 1.8333
-    active_days: 9
+    pushes_per_repo: 2.0000
+    active_days: 10
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 29
+    pushes: 26
     distinct_repos: 9
-    pushes_per_repo: 3.2222
+    pushes_per_repo: 2.8889
     active_days: 21
     repos_not_owned: 1
     not_owned_basenames: 1
@@ -175,6 +175,6 @@ repos:
 
 # Digidai
 
-29 pushes across 9 repositories on 21 active days in the last 90 days of public GitHub push activity.
+26 pushes across 9 repositories on 21 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Digidai

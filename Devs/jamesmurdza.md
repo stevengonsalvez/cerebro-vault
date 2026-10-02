@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [44, 14, 11, 8, 3, 5, 0, 0, 0, 0, 4, 2, 24]
+pushes_per_week: [45, 2, 11, 9, 2, 5, 0, 0, 0, 0, 6, 0, 24]
 windows:
   "7d":
     pushes: 24
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 115
+    pushes: 104
     distinct_repos: 9
-    active_days: 24
+    active_days: 23
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 4.7917
-  repo_per_active_day: 0.3750
+  push_per_day: 4.5217
+  repo_per_active_day: 0.3913
   not_owned_ratio: 0.1111
   basename_concentration: 0.1111
   shapes: []
@@ -65,42 +65,18 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 115
+    pushes: 104
     distinct_repos: 9
-    pushes_per_repo: 12.7778
-    active_days: 24
+    pushes_per_repo: 11.5556
+    active_days: 23
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 24 active days in 90d — pass"
+  - "activity: 23 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "awesome-ai-devtools"
-    title: "awesome-ai-devtools"
-    description: "Curated list of AI-powered developer tools."
-    language: null
-    topics: []
-    stars_fact: 3948
-    first_seen: null
-    last_push: "2026-08-27"
-  - name: "dijkstras-algorithm-demo"
-    title: "dijkstras-algorithm-demo"
-    description: null
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-23"
-  - name: "codechain"
-    title: "codechain"
-    description: "Code generation with LLMs 🔗"
-    language: "Python"
-    topics: []
-    stars_fact: 52
-    first_seen: null
-    last_push: "2023-08-04"
   - name: "background-agents"
     title: "background-agents"
     description: "Run AI coding agents in isolated sandboxes connected to your GitHub repositories"
@@ -112,7 +88,39 @@ repos:
       - "opencode"
     stars_fact: 66
     first_seen: null
-    last_push: "2026-09-20"
+    last_push: "2026-10-01"
+  - name: "playwright-mcp-server"
+    title: "playwright-mcp-server"
+    description: "A remote playwright MCP server that automatically saves screenshots and recordings"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-18"
+  - name: "awesome-ai-devtools"
+    title: "awesome-ai-devtools"
+    description: "Curated list of AI-powered developer tools."
+    language: null
+    topics: []
+    stars_fact: 3953
+    first_seen: null
+    last_push: "2026-08-27"
+  - name: "codechain"
+    title: "codechain"
+    description: "Code generation with LLMs 🔗"
+    language: "Python"
+    topics: []
+    stars_fact: 51
+    first_seen: null
+    last_push: "2023-08-04"
+  - name: "dijkstras-algorithm-demo"
+    title: "dijkstras-algorithm-demo"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-23"
   - name: "gitwit-agent"
     title: "gitwit-agent"
     description: "Create repos and commits with AI."
@@ -121,18 +129,10 @@ repos:
     stars_fact: 300
     first_seen: null
     last_push: "2023-09-22"
-  - name: "jamesmurdza"
-    title: "jamesmurdza"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 5
-    first_seen: null
-    last_push: "2026-09-03"
 ---
 
 # jamesmurdza
 
-115 pushes across 9 repositories on 24 active days in the last 90 days of public GitHub push activity.
+104 pushes across 9 repositories on 23 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/jamesmurdza

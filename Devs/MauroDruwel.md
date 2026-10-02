@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "9d67ce648f6a8919"
-pushes_per_week: [7, 12, 4, 4, 3, 1, 3, 0, 0, 2, 0, 6, 4]
+pushes_per_week: [15, 6, 2, 6, 1, 1, 3, 0, 0, 2, 0, 6, 4]
 windows:
   "7d":
-    pushes: 6
-    distinct_repos: 4
-    active_days: 3
+    pushes: 4
+    distinct_repos: 3
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 6
-    distinct_repos: 4
-    pushes_per_repo: 1.5000
-    active_days: 3
+    pushes: 4
+    distinct_repos: 3
+    pushes_per_repo: 1.3333
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -93,7 +93,43 @@ repos:
       - "open-source"
     stars_fact: 53
     first_seen: null
-    last_push: "2026-09-24"
+    last_push: "2026-10-02"
+  - name: "ufora-sync"
+    title: "ufora-sync"
+    description: "OneDrive-style background sync service and system tray application for UGent Ufora (Brightspace)"
+    language: "Python"
+    topics:
+      - "brightspace"
+      - "desktop-app"
+      - "sync"
+      - "ufora"
+      - "ugent"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-01"
+  - name: "Weathercloud-HA"
+    title: "Weathercloud-HA"
+    description: "Home Assistant HACS integration for Weathercloud personal weather stations"
+    language: "Python"
+    topics:
+      - "hacs"
+      - "home-assistant-integration"
+    stars_fact: 10
+    first_seen: null
+    last_push: "2026-09-12"
+  - name: "quality-gate"
+    title: "quality-gate"
+    description: "The canonical Mauro Quality Gate (MQG) standards, reusable CI/CD workflows, templates, and automated auditing tool for general software projects."
+    language: "Python"
+    topics:
+      - "ci-cd"
+      - "developer-tools"
+      - "engineering-standards"
+      - "quality-gate"
+      - "reusable-workflows"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-28"
   - name: "TunnelDashDesktop"
     title: "TunnelDashDesktop"
     description: "Desktop sidekick for Cloudflare Tunnels — proxy SSH/TCP/HTTP routes to local ports, launch native SSH sessions via ~/.ssh/config key auth, and manage Zero Trust access from a clean macOS/Windows/Linux GUI."
@@ -113,7 +149,7 @@ repos:
       - "zero-trust"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-22"
+    last_push: "2026-09-28"
   - name: "Smartschool-MCP"
     title: "Smartschool-MCP"
     description: "Smartschool MCP: A Model Context Protocol (MCP) server that enables seamless communication between AI agents and the Smartschool platform. 🧠"
@@ -127,39 +163,7 @@ repos:
       - "smartschool"
     stars_fact: 4
     first_seen: null
-    last_push: "2026-09-22"
-  - name: "quality-gate"
-    title: "quality-gate"
-    description: "The canonical Mauro Quality Gate (MQG) standards, reusable CI/CD workflows, templates, and automated auditing tool for general software projects."
-    language: "Python"
-    topics:
-      - "ci-cd"
-      - "developer-tools"
-      - "engineering-standards"
-      - "quality-gate"
-      - "reusable-workflows"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-17"
-  - name: "Weathercloud-HA"
-    title: "Weathercloud-HA"
-    description: "Home Assistant HACS integration for Weathercloud personal weather stations"
-    language: "Python"
-    topics:
-      - "hacs"
-      - "home-assistant-integration"
-    stars_fact: 9
-    first_seen: null
-    last_push: "2026-09-12"
-  - name: "SMA-ennexOS-cloud-HA"
-    title: "SMA-ennexOS-cloud-HA"
-    description: "Home Assistant integration for SMA ennexOS / Sunny Portal PV systems"
-    language: "Python"
-    topics:
-      - "home-assistant-integration"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-15"
+    last_push: "2026-09-28"
 ---
 
 # MauroDruwel

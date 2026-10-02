@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "3cb7ff1cdcf97c6b"
-pushes_per_week: [0, 0, 0, 4, 7, 2, 2, 0, 0, 1, 0, 0, 0]
+pushes_per_week: [0, 0, 0, 6, 5, 4, 0, 0, 0, 1, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,6 +77,23 @@ reasons:
   - "activity: 11 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "help_with_swedish"
+    title: "help_with_swedish"
+    description: "Claude Code Agent Skill/API/MCP: mentor for self-learning Swedish by watching YouTube videos and podcasts"
+    language: "Python"
+    topics:
+      - "ai"
+      - "api"
+      - "api-rest"
+      - "mcp"
+      - "rest-api"
+      - "self-learning"
+      - "sfi"
+      - "svenska"
+      - "youtube"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-01"
   - name: "embedded-iot-mentor"
     title: "embedded-iot-mentor"
     description: "Claude Code Agent Skill/API: mentor for embedded/IoT hardware projects (MCU selection, cost & time estimates, MVP-first build plans, PCB transition guidance)."
@@ -95,24 +112,7 @@ repos:
       - "rest-api"
     stars_fact: 2
     first_seen: null
-    last_push: "2026-08-18"
-  - name: "help_with_swedish"
-    title: "help_with_swedish"
-    description: "Claude Code Agent Skill/API/MCP: mentor for self-learning Swedish by watching YouTube videos and podcasts"
-    language: "Python"
-    topics:
-      - "ai"
-      - "api"
-      - "api-rest"
-      - "mcp"
-      - "rest-api"
-      - "self-learning"
-      - "sfi"
-      - "svenska"
-      - "youtube"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-08-18"
+    last_push: "2026-10-01"
   - name: "Project-Planning-Journaling"
     title: "Project-Planning-Journaling"
     description: "Claude Skill that scopes a project (type, repo, timeline, public vs. private-product path, dev style) and keeps a living, resumable documentation journal — with a weekly routine review, not just event-triggered updates."

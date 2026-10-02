@@ -8,11 +8,11 @@ provenance_repos:
   - "agentscope-ai/QwenPaw"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+repos_populated: false
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "541318303a272608"
-pushes_per_week: [1, 6, 2, 1, 0, 2, 1, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [1, 7, 1, 1, 0, 3, 0, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,26 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 10 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "xieyxclack.github.io"
-    title: "xieyxclack.github.io"
-    description: null
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-17"
-  - name: "factual_coco"
-    title: "factual_coco"
-    description: "The implementation of <Factual Consistency Evaluation for Text Summarization via Counterfactual Estimation> in PyTorch."
-    language: "Python"
-    topics:
-      - "factual-consistency"
-      - "pytorch"
-      - "text-summarization"
-    stars_fact: 17
-    first_seen: null
-    last_push: "2021-11-11"
+repos: []
 ---
 
 # xieyxclack

@@ -8,8 +8,8 @@ provenance_repos:
   - "AlexsJones/llmfit"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-09-29T06:07:44.400276+00:00"
+repos_populated: false
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "234088bc43763aa2"
 pushes_per_week: [3, 15, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
@@ -76,31 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "witness"
-    title: "witness"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-06-25"
-  - name: "sre-field-notes"
-    title: "sre-field-notes"
-    description: "personal field notes from 14+ years in devops/sre. opinions forged in production, not classrooms."
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-05-24"
-  - name: "homelab-infra"
-    title: "homelab-infra"
-    description: "reference homelab infrastructure — terraform, k3s, argocd, prometheus/grafana, ansible. opinionated, boring, production-shaped."
-    language: "HCL"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-04-17"
+repos: []
 ---
 
 # texasich

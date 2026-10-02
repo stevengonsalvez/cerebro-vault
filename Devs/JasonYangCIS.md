@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "745308b2b7085095"
-pushes_per_week: [5, 1, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 1]
+pushes_per_week: [6, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -77,17 +77,33 @@ reasons:
   - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "figma-to-code"
-    title: "figma-to-code"
-    description: "Created with Builder.io"
+  - name: "builder-nextjs-shopify"
+    title: "builder-nextjs-shopify"
+    description: null
     language: "TypeScript"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-15"
+    last_push: "2026-10-01"
+  - name: "builder-nextjs-app-router-gen-1"
+    title: "builder-nextjs-app-router-gen-1"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-30"
   - name: "builder-nextjs-app-router-gen-2"
     title: "builder-nextjs-app-router-gen-2"
     description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-28"
+  - name: "figma-to-code"
+    title: "figma-to-code"
+    description: "Created with Builder.io"
     language: "TypeScript"
     topics: []
     stars_fact: 0
@@ -101,14 +117,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-08-28"
-  - name: "builder-nextjs-shopify"
-    title: "builder-nextjs-shopify"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-11"
   - name: "builder-custom-plugins"
     title: "builder-custom-plugins"
     description: null
@@ -117,14 +125,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-08-13"
-  - name: "builder-nextjs-page-router-gen-1"
-    title: "builder-nextjs-page-router-gen-1"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-05"
 ---
 
 # JasonYangCIS

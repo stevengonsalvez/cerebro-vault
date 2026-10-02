@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [9, 20, 3, 5, 0, 5, 1, 3, 0, 5, 0, 1, 0]
+pushes_per_week: [10, 19, 4, 4, 0, 5, 1, 3, 0, 5, 0, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -90,20 +90,28 @@ repos:
     stars_fact: 282
     first_seen: null
     last_push: "2026-07-29"
-  - name: "homebrew-tap"
-    title: "homebrew-tap"
-    description: "Homebrew tap for Archivist"
-    language: "Ruby"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-23"
   - name: "macarchy"
     title: "macarchy"
     description: null
     language: "Swift"
     topics: []
     stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-27"
+  - name: "opencode-replay"
+    title: "opencode-replay"
+    description: "Cli tool to replay and review opencode sessions"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-01-03"
+  - name: "homebrew-tap"
+    title: "homebrew-tap"
+    description: "Homebrew tap for Archivist"
+    language: "Ruby"
+    topics: []
+    stars_fact: 0
     first_seen: null
     last_push: "2026-09-23"
   - name: "dotfiles"
@@ -129,18 +137,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-09-24"
-  - name: "scribebase"
-    title: "scribebase"
-    description: "Local-first OCR, Markdown, and Weaviate RAG"
-    language: "Python"
-    topics:
-      - "local-first"
-      - "ocr"
-      - "rag"
-      - "weaviate"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-17"
 ---
 
 # ramtinJ95

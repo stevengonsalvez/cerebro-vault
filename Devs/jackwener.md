@@ -10,15 +10,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [28, 12, 23, 9, 14, 53, 0, 15, 0, 0, 0, 6, 5]
+pushes_per_week: [10, 14, 22, 11, 11, 53, 0, 15, 0, 0, 0, 6, 5]
 windows:
   "7d":
-    pushes: 6
+    pushes: 5
     distinct_repos: 2
-    active_days: 4
+    active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -30,22 +30,22 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 165
-    distinct_repos: 17
-    active_days: 37
-    repos_not_owned: 13
+    pushes: 147
+    distinct_repos: 15
+    active_days: 36
+    repos_not_owned: 11
     not_owned_basenames: 4
-    not_owned_owners: 12
+    not_owned_owners: 10
 automation:
   state: "clear"
-  push_per_day: 4.4595
-  repo_per_active_day: 0.4595
-  not_owned_ratio: 0.7647
-  basename_concentration: 0.6471
+  push_per_day: 4.0833
+  repo_per_active_day: 0.4167
+  not_owned_ratio: 0.7333
+  basename_concentration: 0.6000
   shapes:
     - "fork_farm_own_upstream"
   shape_evidence:
-    - "basename concentration 0.6471 (11 of 17 repos share one basename), 13 not owned across 4 basenames — 5 of 5 sampled repos resolved; 5 fork an upstream this account owns; upstreams: jackwener/OpenCLI"
+    - "basename concentration 0.6000 (9 of 15 repos share one basename), 11 not owned across 4 basenames — 5 of 5 sampled repos resolved; 5 fork an upstream this account owns; upstreams: jackwener/OpenCLI"
   cleared_by: "e01-builder"
   cleared_on: "2026-08-26"
   fork_provenance:
@@ -59,17 +59,17 @@ automation:
       - "b1llow/OpenCLI"
       - "Benjamin-eecs/OpenCLI"
       - "bingame/OpenCLI"
-      - "CrazysCodes/OpenCLI"
       - "ele-yufo/OpenCLI"
+      - "imbarain/OpenCLI"
     upstreams:
       - "jackwener/OpenCLI"
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 6
+    pushes: 5
     distinct_repos: 2
-    pushes_per_repo: 3.0000
-    active_days: 4
+    pushes_per_repo: 2.5000
+    active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -82,26 +82,18 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 165
-    distinct_repos: 17
-    pushes_per_repo: 9.7059
-    active_days: 37
-    repos_not_owned: 13
+    pushes: 147
+    distinct_repos: 15
+    pushes_per_repo: 9.8000
+    active_days: 36
+    repos_not_owned: 11
     not_owned_basenames: 4
-    not_owned_owners: 12
+    not_owned_owners: 10
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 37 active days in 90d — pass"
+  - "activity: 36 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "opencli-mcp"
-    title: "opencli-mcp"
-    description: "OpenCLI reborn as an MCP-native browser runtime: Chrome-spawned host, object API + code mode, site capabilities, recon"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 13
-    first_seen: null
-    last_push: "2026-09-24"
   - name: "OpenCLI"
     title: "OpenCLI"
     description: "Make Any Website into CLI & Use your logged-in browser by AI agent."
@@ -114,45 +106,53 @@ repos:
       - "browser-use"
       - "cli"
       - "playwright"
-    stars_fact: 29594
+    stars_fact: 29761
     first_seen: null
-    last_push: "2026-08-30"
-  - name: "xiaohongshu-cli"
-    title: "xiaohongshu-cli"
-    description: "A CLI for Xiaohongshu (小红书) — search, read, interact via reverse-engineered API"
-    language: "Python"
-    topics: []
-    stars_fact: 2626
-    first_seen: null
-    last_push: "2026-03-21"
+    last_push: "2026-09-24"
   - name: "wx-cli-again"
     title: "wx-cli-again"
     description: "WeChat local data CLI (query/decrypt/export) — fresh start from wx-cli"
     language: "Rust"
     topics: []
-    stars_fact: 735
+    stars_fact: 769
     first_seen: null
     last_push: "2026-09-14"
+  - name: "xiaohongshu-cli"
+    title: "xiaohongshu-cli"
+    description: "A CLI for Xiaohongshu (小红书) — search, read, interact via reverse-engineered API"
+    language: "Python"
+    topics: []
+    stars_fact: 2647
+    first_seen: null
+    last_push: "2026-03-21"
   - name: "wechat-article-to-markdown"
     title: "wechat-article-to-markdown"
     description: "微信公众号文章抓取 & Markdown 转换工具"
     language: "Python"
     topics: []
-    stars_fact: 1041
+    stars_fact: 1042
     first_seen: null
     last_push: "2026-03-22"
-  - name: "tg-cli"
-    title: "tg-cli"
-    description: "A CLI for Telegram — local-first sync, search, export via MTProto"
+  - name: "boss-cli"
+    title: "boss-cli"
+    description: "A CLI for BOSS 直聘 — search jobs, view recommendations, manage applications via reverse-engineered API"
     language: "Python"
     topics: []
-    stars_fact: 291
+    stars_fact: 971
     first_seen: null
-    last_push: "2026-03-15"
+    last_push: "2026-04-13"
+  - name: "opencli-mcp"
+    title: "opencli-mcp"
+    description: "OpenCLI reborn as an MCP-native browser runtime: Chrome-spawned host, object API + code mode, site capabilities, recon"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 99
+    first_seen: null
+    last_push: "2026-09-30"
 ---
 
 # jackwener
 
-165 pushes across 17 repositories on 37 active days in the last 90 days of public GitHub push activity.
+147 pushes across 15 repositories on 36 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/jackwener

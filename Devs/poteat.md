@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "01cd6a498d377caf"
   - "03604cccd7e9402d"
@@ -57,6 +57,7 @@ provenance:
   - "c2db1cf2bc94be3c"
   - "cc2a7fed69a6e4ac"
   - "cdf0d63217ad659b"
+  - "d320458473217aca"
   - "d46568f6f6a488d8"
   - "e2ea6ef4c9fbfceb"
   - "f672838de330e86f"
@@ -66,9 +67,9 @@ provenance:
 pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 1, 7, 0, 1, 2, 1]
 windows:
   "7d":
-    pushes: 2
+    pushes: 1
     distinct_repos: 1
-    active_days: 2
+    active_days: 1
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -100,10 +101,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
+    pushes: 1
     distinct_repos: 1
-    pushes_per_repo: 2.0000
-    active_days: 2
+    pushes_per_repo: 1.0000
+    active_days: 1
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -124,10 +125,26 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
-  - "provenance: 52 vault signal(s) — pass"
+  - "provenance: 53 vault signal(s) — pass"
   - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "hkt-toolbelt"
+    title: "hkt-toolbelt"
+    description: "✨Functional and composable type utilities"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 304
+    first_seen: null
+    last_push: "2026-09-01"
+  - name: "cryptanalysis-tools"
+    title: "cryptanalysis-tools"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-01"
   - name: "scopey"
     title: "scopey"
     description: "Build objects using a type-safe functional chain"
@@ -142,14 +159,6 @@ repos:
     language: "TypeScript"
     topics: []
     stars_fact: 2
-    first_seen: null
-    last_push: "2026-09-01"
-  - name: "hkt-toolbelt"
-    title: "hkt-toolbelt"
-    description: "✨Functional and composable type utilities"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 303
     first_seen: null
     last_push: "2026-09-01"
   - name: "shunting-yard-typescript"
@@ -171,14 +180,6 @@ repos:
     stars_fact: 8
     first_seen: null
     last_push: "2026-08-21"
-  - name: "ts-unify"
-    title: "ts-unify"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 5
-    first_seen: null
-    last_push: "2026-08-27"
 ---
 
 # poteat

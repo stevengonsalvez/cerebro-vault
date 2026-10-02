@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [0, 1, 5, 0, 2, 11, 1, 7, 0, 1, 9, 7, 3]
+pushes_per_week: [1, 2, 3, 0, 3, 11, 0, 7, 0, 1, 11, 5, 3]
 windows:
   "7d":
     pushes: 3
@@ -77,6 +77,14 @@ reasons:
   - "activity: 24 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "Jevaria"
+    title: "Jevaria"
+    description: "A Terraria mod aims at letting jev beat some bosses. Jev makes dodge decision."
+    language: "C#"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-27"
   - name: "TerraBlind"
     title: "TerraBlind"
     description: "A Terraria tModLoader mod where an AI fights the bosses: a model answers one question every 200ms, code turns it into keystrokes. Also a full code-only pipeline from fresh world to Wall of Flesh"
@@ -86,7 +94,7 @@ repos:
       - "terraria-mod"
     stars_fact: 74
     first_seen: null
-    last_push: "2026-09-24"
+    last_push: "2026-09-25"
   - name: "Tairaria"
     title: "Tairaria"
     description: "LLM-driven Terraria bot –– pure AI control with mod-side reflexes."
@@ -119,14 +127,6 @@ repos:
     stars_fact: 4
     first_seen: null
     last_push: "2026-04-04"
-  - name: "TShock-cctg-plugins"
-    title: "TShock-cctg-plugins"
-    description: null
-    language: "C#"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-04-23"
 ---
 
 # Reisenbug

@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: true
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "f467fac388ed8e8c"
 pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1]
@@ -91,9 +91,20 @@ repos:
       - "playwright"
       - "puppeteer"
       - "rust"
-    stars_fact: 27809
+    stars_fact: 28257
     first_seen: "2026-08-09T06:00:06.171858+00:00"
-    last_push: "2026-09-20"
+    last_push: "2026-10-01"
+  - name: "reCaptchaV3-Invisible-Solver"
+    title: "reCaptchaV3-Invisible-Solver"
+    description: "reCaptcha V3 Invisible Solver"
+    language: "Python"
+    topics:
+      - "captcha"
+      - "recaptcha"
+      - "solver"
+    stars_fact: 58
+    first_seen: null
+    last_push: "2026-04-04"
   - name: "awesome-ai-web-scraping"
     title: "awesome-ai-web-scraping"
     description: "A curated list of AI-powered web scraping tools, LLM-friendly crawlers, MCP servers, and infrastructure for turning the web into data."
@@ -105,20 +116,9 @@ repos:
       - "llm"
       - "scraping"
       - "web-scraping"
-    stars_fact: 105
+    stars_fact: 108
     first_seen: null
     last_push: "2026-05-18"
-  - name: "reCaptchaV3-Invisible-Solver"
-    title: "reCaptchaV3-Invisible-Solver"
-    description: "reCaptcha V3 Invisible Solver"
-    language: "Python"
-    topics:
-      - "captcha"
-      - "recaptcha"
-      - "solver"
-    stars_fact: 57
-    first_seen: null
-    last_push: "2026-04-04"
   - name: "obscura-benchmark"
     title: "obscura-benchmark"
     description: "Obscura browser benchmark"

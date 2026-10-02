@@ -10,27 +10,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "379642deb53f3714"
-pushes_per_week: [26, 3, 4, 3, 1, 3, 0, 5, 0, 3, 0, 4, 2]
+pushes_per_week: [23, 3, 4, 3, 1, 3, 0, 5, 0, 3, 0, 4, 4]
 windows:
   "7d":
-    pushes: 2
-    distinct_repos: 2
-    active_days: 2
-    repos_not_owned: 2
-    not_owned_basenames: 1
-    not_owned_owners: 2
+    pushes: 4
+    distinct_repos: 3
+    active_days: 3
+    repos_not_owned: 3
+    not_owned_basenames: 2
+    not_owned_owners: 3
   "30d":
-    pushes: 9
+    pushes: 11
     distinct_repos: 5
-    active_days: 6
+    active_days: 7
     repos_not_owned: 5
     not_owned_basenames: 2
     not_owned_owners: 5
   "90d":
-    pushes: 54
+    pushes: 53
     distinct_repos: 9
     active_days: 24
     repos_not_owned: 8
@@ -38,7 +38,7 @@ windows:
     not_owned_owners: 7
 automation:
   state: "clear"
-  push_per_day: 2.2500
+  push_per_day: 2.2083
   repo_per_active_day: 0.3750
   not_owned_ratio: 0.8889
   basename_concentration: 0.4444
@@ -50,25 +50,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
-    distinct_repos: 2
-    pushes_per_repo: 1.0000
-    active_days: 2
-    repos_not_owned: 2
-    not_owned_basenames: 1
-    not_owned_owners: 2
+    pushes: 4
+    distinct_repos: 3
+    pushes_per_repo: 1.3333
+    active_days: 3
+    repos_not_owned: 3
+    not_owned_basenames: 2
+    not_owned_owners: 3
   "30d":
-    pushes: 9
+    pushes: 11
     distinct_repos: 5
-    pushes_per_repo: 1.8000
-    active_days: 6
+    pushes_per_repo: 2.2000
+    active_days: 7
     repos_not_owned: 5
     not_owned_basenames: 2
     not_owned_owners: 5
   "90d":
-    pushes: 54
+    pushes: 53
     distinct_repos: 9
-    pushes_per_repo: 6.0000
+    pushes_per_repo: 5.8889
     active_days: 24
     repos_not_owned: 8
     not_owned_basenames: 4
@@ -110,6 +110,6 @@ repos:
 
 # OrKoN
 
-54 pushes across 9 repositories on 24 active days in the last 90 days of public GitHub push activity.
+53 pushes across 9 repositories on 24 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/OrKoN

@@ -8,16 +8,16 @@ provenance_repos:
   - "apache/maka"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+repos_populated: false
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "4d1450729e6ff44d"
 pushes_per_week: [0, 0, 0, 0, 1, 0, 0, 2, 0, 2, 2, 2, 0]
 windows:
   "7d":
-    pushes: 2
-    distinct_repos: 1
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
-    distinct_repos: 1
-    pushes_per_repo: 2.0000
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -76,38 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "openapp"
-    title: "openapp"
-    description: "Open-source control plane for turning existing single-user web apps into independent multi-user workspaces through versioned Adapters."
-    language: "TypeScript"
-    topics:
-      - "adapters"
-      - "control-plane"
-      - "docker"
-      - "multi-user"
-      - "open-source"
-      - "openapp"
-      - "self-hosted"
-    stars_fact: 17
-    first_seen: null
-    last_push: "2026-09-24"
-  - name: "CreatPPT"
-    title: "CreatPPT"
-    description: "Agent-first web presentation workspace: turn briefs into editable slide decks and export native PPTX on demand."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 145
-    first_seen: null
-    last_push: "2026-08-27"
-  - name: "openos"
-    title: "openos"
-    description: "OpenOS is an open-source AI runtime where every app is generated in real time by large language models. Instead of installing software, users describe what they need, and OpenOS creates the interface, logic, and interactions on demand."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 18
-    first_seen: null
-    last_push: "2026-08-03"
+repos: []
 ---
 
 # seekskyworld

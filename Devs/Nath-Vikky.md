@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "745308b2b7085095"
-pushes_per_week: [4, 4, 0, 0, 0, 5, 1, 1, 1, 1, 0, 8, 0]
+pushes_per_week: [3, 4, 0, 0, 0, 5, 1, 1, 1, 1, 1, 7, 0]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 25
+    pushes: 24
     distinct_repos: 8
-    active_days: 16
+    active_days: 15
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.5625
-  repo_per_active_day: 0.5000
+  push_per_day: 1.6000
+  repo_per_active_day: 0.5333
   not_owned_ratio: 0.0000
   basename_concentration: 0.1250
   shapes: []
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -65,26 +65,18 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 25
+    pushes: 24
     distinct_repos: 8
-    pushes_per_repo: 3.1250
-    active_days: 16
+    pushes_per_repo: 3.0000
+    active_days: 15
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 16 active days in 90d — pass"
+  - "activity: 15 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "LLMNPCActionLayer"
-    title: "LLMNPCActionLayer"
-    description: "Yeah"
-    language: "C++"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-24"
   - name: "dsh-codekin"
     title: "dsh-codekin"
     description: "Codekin: a creature-collection and match-three RPG for DeepSeek Harness Web."
@@ -94,7 +86,7 @@ repos:
       - "deepseek-harness"
       - "dsh-plugin"
       - "pixel-art"
-    stars_fact: 1
+    stars_fact: 2
     first_seen: null
     last_push: "2026-09-24"
   - name: "UEProjectIntelligence"
@@ -137,6 +129,6 @@ repos:
 
 # Nath-Vikky
 
-25 pushes across 8 repositories on 16 active days in the last 90 days of public GitHub push activity.
+24 pushes across 8 repositories on 15 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Nath-Vikky

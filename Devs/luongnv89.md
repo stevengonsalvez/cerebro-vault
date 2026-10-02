@@ -9,21 +9,21 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "98a99d0df7599b35"
-pushes_per_week: [49, 9, 11, 12, 5, 13, 4, 32, 4, 15, 39, 63, 26]
+pushes_per_week: [48, 7, 13, 11, 5, 12, 5, 32, 3, 15, 57, 50, 24]
 windows:
   "7d":
-    pushes: 33
-    distinct_repos: 10
-    active_days: 7
+    pushes: 27
+    distinct_repos: 11
+    active_days: 6
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 3
   "30d":
-    pushes: 143
-    distinct_repos: 28
+    pushes: 146
+    distinct_repos: 30
     active_days: 24
     repos_not_owned: 7
     not_owned_basenames: 7
@@ -31,14 +31,14 @@ windows:
   "90d":
     pushes: 282
     distinct_repos: 44
-    active_days: 67
+    active_days: 66
     repos_not_owned: 11
     not_owned_basenames: 11
     not_owned_owners: 5
 automation:
   state: "clear"
-  push_per_day: 4.2090
-  repo_per_active_day: 0.6567
+  push_per_day: 4.2727
+  repo_per_active_day: 0.6667
   not_owned_ratio: 0.2500
   basename_concentration: 0.0455
   shapes: []
@@ -49,17 +49,17 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 33
-    distinct_repos: 10
-    pushes_per_repo: 3.3000
-    active_days: 7
+    pushes: 27
+    distinct_repos: 11
+    pushes_per_repo: 2.4545
+    active_days: 6
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 3
   "30d":
-    pushes: 143
-    distinct_repos: 28
-    pushes_per_repo: 5.1071
+    pushes: 146
+    distinct_repos: 30
+    pushes_per_repo: 4.8667
     active_days: 24
     repos_not_owned: 7
     not_owned_basenames: 7
@@ -68,13 +68,13 @@ facets:
     pushes: 282
     distinct_repos: 44
     pushes_per_repo: 6.4091
-    active_days: 67
+    active_days: 66
     repos_not_owned: 11
     not_owned_basenames: 11
     not_owned_owners: 5
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 67 active days in 90d — pass"
+  - "activity: 66 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "claude-howto"
@@ -85,46 +85,17 @@ repos:
       - "claude-code"
       - "guide"
       - "tutorial"
-    stars_fact: 41647
+    stars_fact: 41732
     first_seen: "2026-06-28T06:00:06.755641+00:00"
-    last_push: "2026-09-19"
-  - name: "awesome-cheatsheets"
-    title: "awesome-cheatsheets"
-    description: "AI tools and concepts cheatsheets."
+    last_push: "2026-09-30"
+  - name: "pi-extensions"
+    title: "pi-extensions"
+    description: "Collection of extensions and themes for Pi Coding Agent"
     language: "TypeScript"
     topics: []
-    stars_fact: 8
+    stars_fact: 133
     first_seen: null
-    last_push: "2026-09-24"
-  - name: "asm"
-    title: "asm"
-    description: "The universal skill manager for AI coding agents."
-    language: "TypeScript"
-    topics:
-      - "agents"
-      - "ai"
-      - "aiagents"
-      - "coding"
-      - "skills"
-    stars_fact: 940
-    first_seen: null
-    last_push: "2026-09-24"
-  - name: "custats-feedback"
-    title: "custats-feedback"
-    description: "CUStats is a native macOS menubar app that lets you monitor your Claude AI usage limits at a glance, with real-time tracking, countdown timers, and historical usage views."
-    language: null
-    topics: []
-    stars_fact: 5
-    first_seen: null
-    last_push: "2026-04-19"
-  - name: "freetokens"
-    title: "freetokens"
-    description: "Free AI Credits — aggregated, hand-verified free AI token/credit offers"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-09-24"
+    last_push: "2026-09-28"
   - name: "free-llm-models"
     title: "free-llm-models"
     description: "List of openrouter free models"
@@ -132,11 +103,51 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-24"
+    last_push: "2026-10-02"
+  - name: "luongnv89.github.io"
+    title: "luongnv89.github.io"
+    description: "for my personal website"
+    language: "JavaScript"
+    topics:
+      - "personal"
+      - "porfolio"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-01"
+  - name: "m-bench"
+    title: "m-bench"
+    description: "Not a leaderboard — a way to pick your daily driver. Benchmark model + quant + serving flags + thinking mode on your own hardware, then install the config that won. Code-gen and agentic tool-calling suites, hidden executable tests, mermaid reports."
+    language: "Python"
+    topics:
+      - "benchmark"
+      - "coding-agent"
+      - "dgx-spark"
+      - "gb10"
+      - "llm"
+      - "llm-evaluation"
+      - "llm-inference"
+      - "local-llm"
+      - "self-hosted"
+      - "tool-calling"
+      - "vllm"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-01"
+  - name: "idd"
+    title: "idd"
+    description: "Turn GitHub Issues Into Structured, Agent-Ready Work Orders"
+    language: "Shell"
+    topics:
+      - "ai"
+      - "development"
+      - "workflow"
+    stars_fact: 8
+    first_seen: null
+    last_push: "2026-10-01"
 ---
 
 # luongnv89
 
-282 pushes across 44 repositories on 67 active days in the last 90 days of public GitHub push activity.
+282 pushes across 44 repositories on 66 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/luongnv89

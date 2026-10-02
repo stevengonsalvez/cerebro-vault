@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: true
 repos_populated: true
-generated_at: "2026-09-28T06:07:44.182865+00:00"
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "fda2072231b00dde"
-pushes_per_week: [6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 6
-    distinct_repos: 2
-    active_days: 2
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 3.0000
+  push_per_day: 1.0000
   repo_per_active_day: 1.0000
   not_owned_ratio: 0.0000
-  basename_concentration: 0.5000
+  basename_concentration: 1.0000
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 6
-    distinct_repos: 2
-    pushes_per_repo: 3.0000
-    active_days: 2
+    pushes: 1
+    distinct_repos: 1
+    pushes_per_repo: 1.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 2 active days in 90d — below the 5-day line, LABELLED low-n (never suppressed)"
+  - "activity: 1 active days in 90d — below the 5-day line, LABELLED low-n (never suppressed)"
   - "automation: clear — pass"
 repos:
   - name: "delving-bitcoin-archive"
@@ -84,15 +84,23 @@ repos:
     topics: []
     stars_fact: 4
     first_seen: null
-    last_push: "2026-09-24"
+    last_push: "2026-10-02"
   - name: "local-llm"
     title: "local-llm"
     description: "Everything I know about running LLMs locally"
     language: "Shell"
     topics: []
-    stars_fact: 1844
+    stars_fact: 1856
     first_seen: "2026-07-04T06:00:03.825011+00:00"
     last_push: "2026-07-10"
+  - name: "llm-cli"
+    title: "llm-cli"
+    description: "Simple CLI shortcut for consulting an LLM"
+    language: "Go"
+    topics: []
+    stars_fact: 6
+    first_seen: null
+    last_push: "2026-09-30"
   - name: "mempool.work"
     title: "mempool.work"
     description: "Summary of mempool design, challenges, and proposals (re: fees)"
@@ -127,18 +135,10 @@ repos:
     stars_fact: 1445
     first_seen: null
     last_push: "2021-04-23"
-  - name: "pub-dotfiles"
-    title: "pub-dotfiles"
-    description: null
-    language: "Vim Script"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-20"
 ---
 
 # jamesob
 
-6 pushes across 2 repositories on 2 active days in the last 90 days of public GitHub push activity.
+1 push across 1 repository on 1 active day in the last 90 days of public GitHub push activity.
 
 https://github.com/jamesob

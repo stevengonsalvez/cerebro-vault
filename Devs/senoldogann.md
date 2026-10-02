@@ -8,37 +8,37 @@ provenance_repos:
   - "affaan-m/ECC"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+repos_populated: false
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "edb3a626875732de"
-pushes_per_week: [0, 0, 0, 2, 0, 6, 0, 0, 0, 33, 9, 3, 9]
+pushes_per_week: [0, 0, 0, 2, 0, 6, 0, 0, 0, 33, 9, 4, 10]
 windows:
   "7d":
-    pushes: 9
-    distinct_repos: 3
-    active_days: 5
+    pushes: 11
+    distinct_repos: 4
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 54
-    distinct_repos: 9
-    active_days: 17
+    pushes: 56
+    distinct_repos: 10
+    active_days: 18
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 62
+    pushes: 64
     distinct_repos: 11
-    active_days: 20
+    active_days: 21
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 3.1000
-  repo_per_active_day: 0.5500
+  push_per_day: 3.0476
+  repo_per_active_day: 0.5238
   not_owned_ratio: 0.0000
   basename_concentration: 0.0909
   shapes: []
@@ -49,86 +49,38 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 9
-    distinct_repos: 3
-    pushes_per_repo: 3.0000
-    active_days: 5
+    pushes: 11
+    distinct_repos: 4
+    pushes_per_repo: 2.7500
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 54
-    distinct_repos: 9
-    pushes_per_repo: 6.0000
-    active_days: 17
+    pushes: 56
+    distinct_repos: 10
+    pushes_per_repo: 5.6000
+    active_days: 18
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 62
+    pushes: 64
     distinct_repos: 11
-    pushes_per_repo: 5.6364
-    active_days: 20
+    pushes_per_repo: 5.8182
+    active_days: 21
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 20 active days in 90d — pass"
+  - "activity: 21 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "AgenticSidebar"
-    title: "AgenticSidebar"
-    description: "A native personal macOS agent app: a sidebar-style chat window that runs without a Dock icon, can be summoned with a global shortcut, optionally reports session state from the menu bar, and drives either the direct OpenAI Responses API or a managed local OpenCode server."
-    language: "Swift"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-24"
-  - name: "chatgpt-system"
-    title: "chatgpt-system"
-    description: "Secure local MCP authority gateway for controlled filesystem, Git, process, and future computer-use access from ChatGPT-compatible MCP clients."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-22"
-  - name: "flash-programi"
-    title: "flash-programi"
-    description: null
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-15"
-  - name: "chatgpt-queue"
-    title: "chatgpt-queue"
-    description: "Fail-closed follow-up message queue for ChatGPT Web"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-14"
-  - name: "akilli-asistan"
-    title: "akilli-asistan"
-    description: null
-    language: "Swift"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-13"
-  - name: "computer-use"
-    title: "computer-use"
-    description: "An autonomous, human-centric computer-use system that operates directly on the physical host — perceiving pixels, moving the real cursor along human-like trajectories, and driving native desktop applications (real Dock icons, real browser profiles, real OS dialogs)"
-    language: "Python"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-10"
+repos: []
 ---
 
 # senoldogann
 
-62 pushes across 11 repositories on 20 active days in the last 90 days of public GitHub push activity.
+64 pushes across 11 repositories on 21 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/senoldogann

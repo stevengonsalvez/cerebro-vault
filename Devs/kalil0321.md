@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "c1af6b58492f9bf4"
-pushes_per_week: [4, 0, 25, 27, 0, 0, 0, 2, 0, 0, 3, 16, 0]
+pushes_per_week: [4, 0, 38, 14, 0, 0, 0, 2, 0, 0, 3, 16, 0]
 windows:
   "7d":
     pushes: 0
@@ -91,7 +91,7 @@ repos:
       - "playwright"
       - "scraping"
       - "web-scraping"
-    stars_fact: 1188
+    stars_fact: 1210
     first_seen: null
     last_push: "2026-09-23"
   - name: "ats-scrapers"
@@ -99,7 +99,7 @@ repos:
     description: "Open-source ATS job library"
     language: "Python"
     topics: []
-    stars_fact: 159
+    stars_fact: 165
     first_seen: null
     last_push: "2026-09-24"
   - name: "stapply"
@@ -117,7 +117,7 @@ repos:
     topics: []
     stars_fact: 17
     first_seen: null
-    last_push: "2026-09-21"
+    last_push: "2026-09-28"
   - name: "map"
     title: "map"
     description: "An open-source job-data + geospatial visualization platform for tech roles."

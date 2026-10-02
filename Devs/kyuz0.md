@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "3eacb4655aba2497"
-pushes_per_week: [6, 6, 2, 4, 0, 6, 3, 2, 1, 1, 4, 5, 4]
+pushes_per_week: [6, 6, 2, 4, 0, 7, 2, 3, 0, 1, 4, 8, 1]
 windows:
   "7d":
-    pushes: 6
+    pushes: 4
     distinct_repos: 3
-    active_days: 3
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 6
+    pushes: 4
     distinct_repos: 3
-    pushes_per_repo: 2.0000
-    active_days: 3
+    pushes_per_repo: 1.3333
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -77,54 +77,54 @@ reasons:
   - "activity: 32 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "pi-bench"
-    title: "pi-bench"
-    description: null
-    language: "Common Lisp"
-    topics: []
-    stars_fact: 64
-    first_seen: null
-    last_push: "2026-07-27"
-  - name: "ai-toolbox-cockpit"
-    title: "ai-toolbox-cockpit"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 97
-    first_seen: null
-    last_push: "2026-09-24"
-  - name: "amd-r9700-vllm-toolboxes"
-    title: "amd-r9700-vllm-toolboxes"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 200
-    first_seen: null
-    last_push: "2026-09-02"
-  - name: "amd-strix-halo-gfx1151-toolboxes"
-    title: "amd-strix-halo-gfx1151-toolboxes"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 63
-    first_seen: null
-    last_push: "2026-09-24"
   - name: "amd-strix-halo-toolboxes"
     title: "amd-strix-halo-toolboxes"
     description: null
     language: "Python"
     topics: []
-    stars_fact: 1956
+    stars_fact: 1972
     first_seen: null
-    last_push: "2026-09-20"
-  - name: "terminal-bench-mini"
-    title: "terminal-bench-mini"
+    last_push: "2026-09-29"
+  - name: "ai-toolbox-cockpit"
+    title: "ai-toolbox-cockpit"
     description: null
     language: "Python"
     topics: []
-    stars_fact: 8
+    stars_fact: 128
     first_seen: null
-    last_push: "2026-09-23"
+    last_push: "2026-10-01"
+  - name: "amd-strix-halo-vllm-toolboxes"
+    title: "amd-strix-halo-vllm-toolboxes"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 533
+    first_seen: null
+    last_push: "2026-09-22"
+  - name: "strix-halo-ds4-toolbox"
+    title: "strix-halo-ds4-toolbox"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 90
+    first_seen: null
+    last_push: "2026-10-01"
+  - name: "llama-toolboxes-cockpit"
+    title: "llama-toolboxes-cockpit"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 109
+    first_seen: null
+    last_push: "2026-08-28"
+  - name: "amd-strix-halo-comfyui-toolboxes"
+    title: "amd-strix-halo-comfyui-toolboxes"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 161
+    first_seen: null
+    last_push: "2026-09-02"
 ---
 
 # kyuz0

@@ -8,37 +8,37 @@ provenance_repos:
   - "ruvnet/ruflo"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+repos_populated: false
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "c60b77ce50fb8910"
-pushes_per_week: [81, 29, 39, 25, 39, 34, 11, 21, 2, 11, 33, 9, 63]
+pushes_per_week: [67, 39, 26, 29, 35, 36, 9, 21, 2, 13, 32, 8, 72]
 windows:
   "7d":
-    pushes: 64
+    pushes: 72
     distinct_repos: 7
-    active_days: 6
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 116
+    pushes: 125
     distinct_repos: 14
-    active_days: 22
+    active_days: 24
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 397
+    pushes: 389
     distinct_repos: 34
-    active_days: 72
+    active_days: 73
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 5.5139
-  repo_per_active_day: 0.4722
+  push_per_day: 5.3288
+  repo_per_active_day: 0.4658
   not_owned_ratio: 0.1176
   basename_concentration: 0.0588
   shapes: []
@@ -49,187 +49,38 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 64
+    pushes: 72
     distinct_repos: 7
-    pushes_per_repo: 9.1429
-    active_days: 6
+    pushes_per_repo: 10.2857
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 116
+    pushes: 125
     distinct_repos: 14
-    pushes_per_repo: 8.2857
-    active_days: 22
+    pushes_per_repo: 8.9286
+    active_days: 24
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 397
+    pushes: 389
     distinct_repos: 34
-    pushes_per_repo: 11.6765
-    active_days: 72
+    pushes_per_repo: 11.4412
+    active_days: 73
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 72 active days in 90d — pass"
+  - "activity: 73 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "ruflo"
-    title: "ruflo"
-    description: "🌊 The original agent harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, federation, vector RAG integration, and native Claude Code / Codex / Hermes and many more Integrated"
-    language: "TypeScript"
-    topics:
-      - "agentic-ai"
-      - "agentic-framework"
-      - "agentic-workflow"
-      - "agents"
-      - "ai-agents"
-      - "ai-assistant"
-      - "ai-skills"
-      - "autonomous-agents"
-      - "claude-code"
-      - "codex"
-      - "dsh-plugin"
-      - "harness"
-      - "mcp-server"
-      - "multi-agent"
-      - "multi-agent-systems"
-      - "npm"
-      - "skills"
-      - "swarm"
-      - "swarm-intelligence"
-      - "typescript"
-    stars_fact: 73229
-    first_seen: "2026-08-22T06:00:04.021788+00:00"
-    last_push: "2026-09-24"
-  - name: "RuView"
-    title: "RuView"
-    description: "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video."
-    language: "Rust"
-    topics:
-      - "awesome"
-      - "claude"
-      - "densepose"
-      - "esp32"
-      - "firmware"
-      - "home-assistant"
-      - "home-automation"
-      - "iot"
-      - "monitoring"
-      - "networking"
-      - "npm"
-      - "pose-estimation"
-      - "react"
-      - "rf"
-      - "self-learning"
-      - "skills"
-      - "spatial-intelligence"
-      - "typescript"
-      - "wifi"
-      - "wifi-security"
-    stars_fact: 94958
-    first_seen: null
-    last_push: "2026-09-25"
-  - name: "open-claude-code"
-    title: "open-claude-code"
-    description: "Nightly Claude Code CLI Decompile — Reverse Engineered & Rebuilt"
-    language: "JavaScript"
-    topics:
-      - "claude-code"
-      - "clean-room"
-      - "clean-room-reimplementation"
-      - "decompiler"
-    stars_fact: 509
-    first_seen: null
-    last_push: "2026-09-25"
-  - name: "metaharness"
-    title: "metaharness"
-    description: "🛠️ The meta-harness for AI agents — scaffold your own focused, branded agent harness with its own npx CLI, MCP server, memory, learning loop, and witness-signed releases. Works with Claude Code, Codex, pi.dev, Hermes, OpenClaw, and RVM (hardware-isolated sandbox)."
-    language: "TypeScript"
-    topics:
-      - "agent-harness"
-      - "agent-harness-generator"
-      - "agent-scaffolding"
-      - "agentic-ai"
-      - "agentic-framework"
-      - "autonomous-agents"
-      - "claude-code"
-      - "codex"
-      - "create-agent-harness"
-      - "hermes-agent"
-      - "mcp"
-      - "mcp-server"
-      - "multi-agent"
-      - "openai-codex"
-      - "openclaw"
-      - "pi-dev"
-      - "rvm"
-      - "sandboxing"
-      - "scaffold"
-      - "scaffolding"
-    stars_fact: 673
-    first_seen: null
-    last_push: "2026-09-24"
-  - name: "RuVector"
-    title: "RuVector"
-    description: "RuVector provides High Performance, Real-Time decisions and agent memory , Self-Learning Ai, Vector GNN DB built in Rust."
-    language: "Rust"
-    topics:
-      - "ai"
-      - "ai-ocr"
-      - "attention-mechanism"
-      - "gnn"
-      - "gnn-model"
-      - "gnns"
-      - "graph"
-      - "graph-neural-networks"
-      - "llm-inference"
-      - "low-latency"
-      - "mincut"
-      - "neo4j"
-      - "ocr"
-      - "onnx"
-      - "rust"
-      - "vector"
-      - "wasm"
-    stars_fact: 4520
-    first_seen: null
-    last_push: "2026-09-23"
-  - name: "dream-machine"
-    title: "dream-machine"
-    description: "The Dream Machine — a config-driven engine for nightly, cloud-scheduled, evidence-gated repository evolution. Composes @metaharness/flywheel, darwin, and redblue behind a promotion gate that never merges."
-    language: "TypeScript"
-    topics:
-      - "agent-evolution"
-      - "ai-agents"
-      - "autonomous-agents"
-      - "cli"
-      - "cron"
-      - "darwin"
-      - "dream-machine"
-      - "evidence-based"
-      - "evolutionary-computation"
-      - "flywheel"
-      - "metaharness"
-      - "nightly-agent"
-      - "promotion-gate"
-      - "prompt-engineering"
-      - "ruvector"
-      - "rvf"
-      - "scrollytelling"
-      - "self-improving-agents"
-      - "typescript"
-      - "wasm"
-    stars_fact: 35
-    first_seen: null
-    last_push: "2026-09-24"
+repos: []
 ---
 
 # ruvnet
 
-397 pushes across 34 repositories on 72 active days in the last 90 days of public GitHub push activity.
+389 pushes across 34 repositories on 73 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ruvnet

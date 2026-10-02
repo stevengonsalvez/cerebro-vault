@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "7def51b1549aee4a"
-pushes_per_week: [7, 1, 1, 0, 7, 2, 0, 0, 0, 0, 0, 2, 0]
+pushes_per_week: [7, 2, 0, 1, 6, 2, 0, 0, 0, 0, 0, 2, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,58 +77,58 @@ reasons:
   - "activity: 16 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "harness-engineering-with-cc"
+    title: "harness-engineering-with-cc"
+    description: null
+    language: "HTML"
+    topics: []
+    stars_fact: 111
+    first_seen: null
+    last_push: "2026-05-26"
   - name: "harness"
     title: "harness"
     description: "A meta-skill that designs domain-specific agent teams, defines specialized agents, and generates the skills they use."
-    language: "HTML"
+    language: null
     topics:
       - "claude-code"
       - "claude-code-plugin"
       - "harness"
       - "harness-engineering"
-    stars_fact: 9065
+    stars_fact: 9110
     first_seen: "2026-06-25T06:00:02.443471+00:00"
-    last_push: "2026-07-24"
-  - name: "qwen-image-studio"
-    title: "qwen-image-studio"
-    description: "Apple Silicon 에서 Qwen-Image-2.1 을 로컬로 돌리는 이미지 생성 스튜디오 (Next.js + shadcn/ui, ComfyUI GGUF, mflux)"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 22
-    first_seen: null
-    last_push: "2026-09-22"
-  - name: "sf-novel"
-    title: "sf-novel"
-    description: "한국어 SF 소설 구상·집필·퇴고를 위한 Codex 하네스"
-    language: "Python"
-    topics: []
-    stars_fact: 7
-    first_seen: null
-    last_push: "2026-09-17"
-  - name: "codex-harness"
-    title: "codex-harness"
-    description: "Codex-native harness with reusable agents, persistent multi-agent orchestration, and communication logs."
-    language: "Python"
-    topics: []
-    stars_fact: 50
-    first_seen: null
-    last_push: "2026-09-24"
-  - name: "harness-100"
-    title: "harness-100"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 1281
-    first_seen: null
-    last_push: "2026-03-22"
+    last_push: "2026-09-28"
   - name: "revfactory"
     title: "revfactory"
     description: null
     language: null
     topics: []
-    stars_fact: 31
+    stars_fact: 32
     first_seen: null
-    last_push: "2026-09-24"
+    last_push: "2026-10-02"
+  - name: "iso-reel"
+    title: "iso-reel"
+    description: "건물 하나가 영상 하나인 아이소메트릭 모션그래픽 쇼릴 도시"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-02"
+  - name: "claude-code-harness"
+    title: "claude-code-harness"
+    description: null
+    language: "HTML"
+    topics: []
+    stars_fact: 120
+    first_seen: null
+    last_push: "2026-03-06"
+  - name: "bangtan-cat"
+    title: "bangtan-cat"
+    description: "방이(치즈태비)와 탄이(턱시도)의 1분 모션그래픽 쇼릴과 메이킹 필름 — Remotion"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-01"
 ---
 
 # revfactory

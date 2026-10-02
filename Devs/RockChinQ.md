@@ -8,23 +8,23 @@ provenance_repos:
   - "AstrBotDevs/AstrBot"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+repos_populated: false
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [6, 13, 17, 5, 2, 1, 1, 0, 0, 0, 2, 7, 25]
+pushes_per_week: [3, 17, 15, 3, 3, 1, 0, 0, 0, 0, 3, 8, 26]
 windows:
   "7d":
-    pushes: 25
+    pushes: 26
     distinct_repos: 3
     active_days: 5
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
   "30d":
-    pushes: 34
+    pushes: 37
     distinct_repos: 4
-    active_days: 12
+    active_days: 13
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 1
@@ -49,18 +49,18 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 25
+    pushes: 26
     distinct_repos: 3
-    pushes_per_repo: 8.3333
+    pushes_per_repo: 8.6667
     active_days: 5
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
   "30d":
-    pushes: 34
+    pushes: 37
     distinct_repos: 4
-    pushes_per_repo: 8.5000
-    active_days: 12
+    pushes_per_repo: 9.2500
+    active_days: 13
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 1
@@ -76,80 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 33 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "free-one-api"
-    title: "free-one-api"
-    description: "LLM 逆向工程接口管理 | 通过标准 OpenAI API 访问 ChatGPT / gpt4free / Bard / Claude / HuggingChat / 通义千问 等 AI 的破解版 || ChatGPT reverse engineering API management | Access all reverse engineered LLM libs by standard OpenAI API format || 免费 ChatGPT Free GPT LLM API | 逆向工程 转 OpenAI API | converts all llm libs to OpenAI API"
-    language: "Python"
-    topics:
-      - "bard"
-      - "chatbot"
-      - "chatgpt"
-      - "claude"
-      - "free"
-      - "free-gpt"
-      - "freechatgpt"
-      - "gpt"
-      - "gpt4free"
-      - "huggingchat"
-      - "one-api"
-      - "openai"
-      - "proxy"
-      - "revchatgpt"
-      - "reverse-engineering"
-      - "tongyiqianwen"
-    stars_fact: 907
-    first_seen: null
-    last_push: "2026-09-22"
-  - name: "WebwlkrPlugin"
-    title: "WebwlkrPlugin"
-    description: "LangBot 项目的WebPilot插件，为其提供联网支持 | 让 ChatGPT 联网"
-    language: "Python"
-    topics:
-      - "chatgpt"
-      - "plugin"
-      - "webpilot"
-    stars_fact: 43
-    first_seen: null
-    last_push: "2023-08-11"
-  - name: "revLibs"
-    title: "revLibs"
-    description: "【已弃用】ChatGPT、Claude QQ 机器人，以插件形式为 QChatGPT 项目接入ChatGPT、Claude、Bard、gpt4free等接口的逆向工程库"
-    language: "Python"
-    topics:
-      - "chatgpt"
-      - "claude"
-      - "gpt4free"
-      - "plugin"
-      - "qchatgpt"
-      - "qq"
-    stars_fact: 200
-    first_seen: null
-    last_push: "2024-01-23"
-  - name: "csdcc_wiki"
-    title: "csdcc_wiki"
-    description: "全国大学生计算机系统能力大赛 非官方 Wiki知识库"
-    language: null
-    topics: []
-    stars_fact: 4
-    first_seen: null
-    last_push: "2024-05-21"
-  - name: "RockChinQ"
-    title: "RockChinQ"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 16
-    first_seen: null
-    last_push: "2026-08-10"
-  - name: "harhub"
-    title: "harhub"
-    description: "Your private vault for Agent Harness assets, including Skills, MCPs and rules. 🤩📚 Self-hostable skills hub for everyone: yourself, your team, even your family."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-08-07"
+repos: []
 ---
 
 # RockChinQ

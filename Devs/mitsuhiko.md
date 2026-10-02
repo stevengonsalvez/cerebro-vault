@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "3eacb4655aba2497"
-pushes_per_week: [14, 9, 5, 4, 13, 9, 1, 3, 0, 0, 0, 5, 36]
+pushes_per_week: [15, 6, 7, 6, 10, 8, 1, 3, 0, 0, 0, 5, 39]
 windows:
   "7d":
-    pushes: 36
+    pushes: 39
     distinct_repos: 2
-    active_days: 5
+    active_days: 6
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 41
+    pushes: 44
     distinct_repos: 3
-    active_days: 9
+    active_days: 10
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 99
+    pushes: 100
     distinct_repos: 14
     active_days: 39
     repos_not_owned: 6
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 2.5385
+  push_per_day: 2.5641
   repo_per_active_day: 0.3590
   not_owned_ratio: 0.4286
   basename_concentration: 0.1429
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 36
+    pushes: 39
     distinct_repos: 2
-    pushes_per_repo: 18.0000
-    active_days: 5
+    pushes_per_repo: 19.5000
+    active_days: 6
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 41
+    pushes: 44
     distinct_repos: 3
-    pushes_per_repo: 13.6667
-    active_days: 9
+    pushes_per_repo: 14.6667
+    active_days: 10
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 99
+    pushes: 100
     distinct_repos: 14
-    pushes_per_repo: 7.0714
+    pushes_per_repo: 7.1429
     active_days: 39
     repos_not_owned: 6
     not_owned_basenames: 5
@@ -77,22 +77,43 @@ reasons:
   - "activity: 39 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "deser"
+    title: "deser"
+    description: "Experimental rust serialization library"
+    language: "Rust"
+    topics:
+      - "rust"
+      - "serialization"
+    stars_fact: 433
+    first_seen: null
+    last_push: "2026-10-01"
   - name: "agent-stuff"
     title: "agent-stuff"
     description: "These are commands I use with agents, mostly Claude"
     language: "TypeScript"
     topics: []
-    stars_fact: 3153
+    stars_fact: 3171
     first_seen: null
-    last_push: "2026-09-06"
-  - name: "tankgame"
-    title: "tankgame"
-    description: "Opus builds a tank game"
-    language: "C"
+    last_push: "2026-09-27"
+  - name: "insta"
+    title: "insta"
+    description: "A snapshot testing library for rust"
+    language: "Rust"
+    topics:
+      - "rust"
+      - "snapshot-tests"
+      - "vscode-extension"
+    stars_fact: 2970
+    first_seen: null
+    last_push: "2026-10-02"
+  - name: "memo-map"
+    title: "memo-map"
+    description: "A crate implementing a synchronized map for memoization"
+    language: "Rust"
     topics: []
-    stars_fact: 25
+    stars_fact: 32
     first_seen: null
-    last_push: "2026-09-04"
+    last_push: "2026-09-03"
   - name: "minijinja"
     title: "minijinja"
     description: "MiniJinja is a powerful but minimal dependency template engine for Rust compatible with Jinja/Jinja2"
@@ -102,40 +123,21 @@ repos:
       - "jinja2"
       - "rust"
       - "templates"
-    stars_fact: 2779
+    stars_fact: 2785
     first_seen: null
-    last_push: "2026-09-23"
-  - name: "senderkataster-bookmarklet"
-    title: "senderkataster-bookmarklet"
-    description: "Bookmarklet for inferred provider labels on the Austrian Senderkataster map"
-    language: "HTML"
+    last_push: "2026-09-27"
+  - name: "pluginbase"
+    title: "pluginbase"
+    description: "A simple but flexible plugin system for Python."
+    language: "Python"
     topics: []
-    stars_fact: 2
+    stars_fact: 1140
     first_seen: null
-    last_push: "2026-09-18"
-  - name: "insta"
-    title: "insta"
-    description: "A snapshot testing library for rust"
-    language: "Rust"
-    topics:
-      - "rust"
-      - "snapshot-tests"
-      - "vscode-extension"
-    stars_fact: 2964
-    first_seen: null
-    last_push: "2026-09-18"
-  - name: "listenfd"
-    title: "listenfd"
-    description: "Helper crate to work with systemd/catflap socket activation"
-    language: "Rust"
-    topics: []
-    stars_fact: 242
-    first_seen: null
-    last_push: "2025-01-20"
+    last_push: "2021-05-16"
 ---
 
 # mitsuhiko
 
-99 pushes across 14 repositories on 39 active days in the last 90 days of public GitHub push activity.
+100 pushes across 14 repositories on 39 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/mitsuhiko

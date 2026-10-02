@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "533d51d9d3dea76f"
-pushes_per_week: [0, 0, 7, 5, 5, 3, 1, 0, 0, 0, 1, 0, 0]
+pushes_per_week: [0, 0, 7, 9, 3, 1, 1, 0, 0, 0, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,6 +77,26 @@ reasons:
   - "activity: 11 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "opentulpa"
+    title: "opentulpa"
+    description: "Open-source, self-hosted AI agent that evolves its own code to perform better in your specific use-cases."
+    language: "Python"
+    topics:
+      - "agentic-ai"
+      - "ai-agent"
+      - "ai-agents"
+      - "autonomous-agents"
+      - "coding-agent"
+      - "deep-agents"
+      - "llms"
+      - "open-source"
+      - "self-evolving-agent"
+      - "self-improving-agent"
+      - "self-modifying-ai"
+      - "workflow-automation-ai"
+    stars_fact: 39
+    first_seen: null
+    last_push: "2026-09-03"
   - name: "Quasimorph-for-macOS"
     title: "Quasimorph-for-macOS"
     description: "Build a macOS app and DMG from your own Windows copy of Quasimorph"
@@ -105,26 +125,6 @@ repos:
     stars_fact: 2
     first_seen: null
     last_push: "2026-08-19"
-  - name: "opentulpa"
-    title: "opentulpa"
-    description: "Open-source, self-hosted AI agent that evolves its own code to perform better in your specific use-cases."
-    language: "Python"
-    topics:
-      - "agentic-ai"
-      - "ai-agent"
-      - "ai-agents"
-      - "autonomous-agents"
-      - "coding-agent"
-      - "deep-agents"
-      - "llms"
-      - "open-source"
-      - "self-evolving-agent"
-      - "self-improving-agent"
-      - "self-modifying-ai"
-      - "workflow-automation-ai"
-    stars_fact: 40
-    first_seen: null
-    last_push: "2026-09-03"
   - name: "pi-overview"
     title: "pi-overview"
     description: "On-demand AI briefings and Q&A for your current Pi session and subagents"

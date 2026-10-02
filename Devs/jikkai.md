@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "d148e3d2c2843c2b"
-pushes_per_week: [18, 4, 9, 8, 3, 8, 2, 4, 0, 0, 2, 5, 2]
+pushes_per_week: [13, 6, 7, 8, 3, 9, 1, 4, 0, 0, 2, 5, 2]
 windows:
   "7d":
     pushes: 2
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 65
+    pushes: 60
     distinct_repos: 8
-    active_days: 35
+    active_days: 34
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.8571
-  repo_per_active_day: 0.2286
+  push_per_day: 1.7647
+  repo_per_active_day: 0.2353
   not_owned_ratio: 0.5000
   basename_concentration: 0.1250
   shapes: []
@@ -65,18 +65,28 @@ facets:
     not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 65
+    pushes: 60
     distinct_repos: 8
-    pushes_per_repo: 8.1250
-    active_days: 35
+    pushes_per_repo: 7.5000
+    active_days: 34
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 35 active days in 90d — pass"
+  - "activity: 34 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "verso"
+    title: "verso"
+    description: "A release toolkit for modern workspace-driven projects."
+    language: "Rust"
+    topics:
+      - "release"
+      - "releasetool"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-16"
   - name: "switch-weread"
     title: "switch-weread"
     description: null
@@ -93,16 +103,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-08-31"
-  - name: "verso"
-    title: "verso"
-    description: "A release toolkit for modern workspace-driven projects."
-    language: "Rust"
-    topics:
-      - "release"
-      - "releasetool"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-16"
   - name: "mdx"
     title: "mdx"
     description: "A native MDX content compiler with Vite and Next adapters"
@@ -131,6 +131,6 @@ repos:
 
 # jikkai
 
-65 pushes across 8 repositories on 35 active days in the last 90 days of public GitHub push activity.
+60 pushes across 8 repositories on 34 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/jikkai

@@ -8,11 +8,11 @@ provenance_repos:
   - "anthropics/knowledge-work-plugins"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+repos_populated: false
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "2d6ba8fc0269fd52"
-pushes_per_week: [1, 2, 0, 0, 0, 1, 2, 1, 2, 0, 0, 3, 0]
+pushes_per_week: [1, 2, 0, 0, 0, 3, 1, 0, 2, 0, 0, 3, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,55 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 10 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "super"
-    title: "super"
-    description: "Cross-CLI session bridge for Claude Code, Gemini CLI, Codex CLI, and Kimi Code CLI"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-25"
-  - name: "kitchen-london"
-    title: "kitchen-london"
-    description: "IKEA FAKTUM replacement fronts, London — elevations and supplier price comparison"
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-31"
-  - name: "london-tables-2026"
-    title: "london-tables-2026"
-    description: "47 round dining tables with photos, live prices and direct links, grouped by how much floor the circle actually eats"
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-29"
-  - name: "okinawa-2026"
-    title: "okinawa-2026"
-    description: "Five Okinawa stays for 28 Sep - 10 Oct 2026, mapped and ranked against the island's best beaches, food areas and top-ten sights"
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-29"
-  - name: "jQuery.Buttonify"
-    title: "jQuery.Buttonify"
-    description: "Buttonify turns hyperlinks into styled buttons"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2010-08-24"
-  - name: "docker-training"
-    title: "docker-training"
-    description: null
-    language: "Shell"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2018-06-18"
+repos: []
 ---
 
 # smnbss

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [5, 22, 0, 5, 43, 21, 6, 5, 1, 0, 4, 21, 2]
+pushes_per_week: [6, 21, 0, 6, 42, 26, 1, 6, 0, 0, 4, 22, 1]
 windows:
   "7d":
     pushes: 2
@@ -84,7 +84,39 @@ repos:
     topics: []
     stars_fact: 2
     first_seen: null
-    last_push: "2026-09-24"
+    last_push: "2026-10-02"
+  - name: "forge-core"
+    title: "forge-core"
+    description: "Module-building skills for your AI ecosystem — build skills, build agents, architect repositories into modules and plugins in a scaffolding of your choice"
+    language: "Python"
+    topics: []
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-08-19"
+  - name: "forge-dev"
+    title: "forge-dev"
+    description: "Developer discipline skills for the forge ecosystem"
+    language: "Shell"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-08-04"
+  - name: "forge-council"
+    title: "forge-council"
+    description: "Multi-agent council orchestration via Claude Code agent teams"
+    language: "Shell"
+    topics: []
+    stars_fact: 9
+    first_seen: null
+    last_push: "2026-07-13"
+  - name: "forge-cli"
+    title: "forge-cli"
+    description: "Assemble, validate, and deploy markdown content across AI coding providers"
+    language: "Rust"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-07-13"
   - name: "dotfiles"
     title: "dotfiles"
     description: "chezmoi-managed dotfiles"
@@ -93,38 +125,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-09-22"
-  - name: "forge-provision"
-    title: "forge-provision"
-    description: "Best-practice provisioning for developer machines — macOS, Linux, Windows"
-    language: "Shell"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-22"
-  - name: "openpgpkey"
-    title: "openpgpkey"
-    description: "Web Key Directory for martinzeman.net: keys.yaml rendered into the served tree on openpgpkey.martinzeman.net"
-    language: "Shell"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-21"
-  - name: "obisidian-web-clipper"
-    title: "obisidian-web-clipper"
-    description: "Obsidian Web Clipper Bookmarklet to save articles and pages from the web (for Safari, Chrome, Firefox, and mobile browsers)"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 8
-    first_seen: null
-    last_push: "2022-01-07"
-  - name: "forge-core"
-    title: "forge-core"
-    description: "Module-building skills for your AI ecosystem — build skills, build agents, architect repositories into modules and plugins in a scaffolding of your choice"
-    language: "Python"
-    topics: []
-    stars_fact: 5
-    first_seen: null
-    last_push: "2026-08-19"
 ---
 
 # N4M3Z

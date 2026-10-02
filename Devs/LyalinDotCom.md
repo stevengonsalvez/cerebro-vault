@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "48dbbdd8fd0d3029"
-pushes_per_week: [5, 0, 2, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0]
+pushes_per_week: [5, 1, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,6 +77,22 @@ reasons:
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "image-test-kitchen"
+    title: "image-test-kitchen"
+    description: "Benchmark of Gemini image generation models on an architectural floorplan reference image + redraw prompt via gemini-api CLI"
+    language: "Shell"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-02"
+  - name: "Witchbench"
+    title: "Witchbench"
+    description: "Which benchmarks are trending? A source-linked 2026 coding-model benchmark usage index."
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-30"
   - name: "GeminiKeyboardSample"
     title: "GeminiKeyboardSample"
     description: "iOS sample: custom keyboard + microphone relay app with Gemini 3.5 Transcribe (Live and batch)"
@@ -109,22 +125,6 @@ repos:
     stars_fact: 130
     first_seen: null
     last_push: "2026-06-17"
-  - name: "the-world"
-    title: "the-world"
-    description: "Experimental Project: What if Gemma had an SDK for web developers to builds games around it as the game brain?"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 43
-    first_seen: null
-    last_push: "2026-05-11"
-  - name: "my-audiobook-collection"
-    title: "my-audiobook-collection"
-    description: "My Audiobook Collection: 238 titles organized by series, with cover art and Audible links."
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-11"
 ---
 
 # LyalinDotCom

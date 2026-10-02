@@ -10,11 +10,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "022c4327710cbfe7"
   - "b599dd2f1ad43e10"
-pushes_per_week: [27, 51, 16, 5, 1, 5, 2, 4, 3, 1, 4, 6, 4]
+pushes_per_week: [31, 46, 16, 2, 2, 5, 1, 4, 3, 2, 3, 6, 4]
 windows:
   "7d":
     pushes: 4
@@ -31,16 +31,16 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 4
   "90d":
-    pushes: 129
+    pushes: 125
     distinct_repos: 11
-    active_days: 40
+    active_days: 39
     repos_not_owned: 9
     not_owned_basenames: 3
     not_owned_owners: 8
 automation:
   state: "clear"
-  push_per_day: 3.2250
-  repo_per_active_day: 0.2750
+  push_per_day: 3.2051
+  repo_per_active_day: 0.2821
   not_owned_ratio: 0.8182
   basename_concentration: 0.4545
   shapes: []
@@ -67,16 +67,16 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 4
   "90d":
-    pushes: 129
+    pushes: 125
     distinct_repos: 11
-    pushes_per_repo: 11.7273
-    active_days: 40
+    pushes_per_repo: 11.3636
+    active_days: 39
     repos_not_owned: 9
     not_owned_basenames: 3
     not_owned_owners: 8
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 40 active days in 90d — pass"
+  - "activity: 39 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "This-repo-has-1426-stars"
@@ -131,6 +131,6 @@ repos:
 
 # fslongjin
 
-129 pushes across 11 repositories on 40 active days in the last 90 days of public GitHub push activity.
+125 pushes across 11 repositories on 39 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/fslongjin

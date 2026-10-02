@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [0, 1, 1, 1, 0, 0, 1, 0, 1, 0, 1, 0, 1]
+pushes_per_week: [1, 0, 1, 1, 0, 0, 1, 1, 0, 0, 1, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -84,7 +84,15 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-24"
+    last_push: "2026-10-02"
+  - name: "astrbot_plugin_irmia_vision"
+    title: "astrbot_plugin_irmia_vision"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-09-29"
   - name: "irmia_devkit_open"
     title: "irmia_devkit_open"
     description: null
@@ -117,14 +125,6 @@ repos:
     stars_fact: 10
     first_seen: null
     last_push: "2026-07-22"
-  - name: "astrbot_plugin_irmia_vision"
-    title: "astrbot_plugin_irmia_vision"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-09-05"
 ---
 
 # irmia2026

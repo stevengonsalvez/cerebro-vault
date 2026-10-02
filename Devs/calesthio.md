@@ -10,10 +10,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "6d3bd03b49986330"
-pushes_per_week: [13, 2, 6, 0, 0, 13, 0, 1, 0, 0, 0, 0, 0]
+pushes_per_week: [12, 2, 6, 0, 0, 13, 0, 1, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -30,22 +30,22 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 35
-    distinct_repos: 11
-    active_days: 12
-    repos_not_owned: 9
+    pushes: 34
+    distinct_repos: 10
+    active_days: 11
+    repos_not_owned: 8
     not_owned_basenames: 1
-    not_owned_owners: 9
+    not_owned_owners: 8
 automation:
   state: "clear"
-  push_per_day: 2.9167
-  repo_per_active_day: 0.9167
-  not_owned_ratio: 0.8182
-  basename_concentration: 0.9091
+  push_per_day: 3.0909
+  repo_per_active_day: 0.9091
+  not_owned_ratio: 0.8000
+  basename_concentration: 0.9000
   shapes:
     - "fork_farm_own_upstream"
   shape_evidence:
-    - "basename concentration 0.9091 (10 of 11 repos share one basename), 9 not owned across 1 basenames — 5 of 5 sampled repos resolved; 5 fork an upstream this account owns; upstreams: calesthio/OpenMontage"
+    - "basename concentration 0.9000 (9 of 10 repos share one basename), 8 not owned across 1 basenames — 5 of 5 sampled repos resolved; 5 fork an upstream this account owns; upstreams: calesthio/OpenMontage"
   cleared_by: "e01-builder"
   cleared_on: "2026-08-26"
   fork_provenance:
@@ -82,16 +82,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 35
-    distinct_repos: 11
-    pushes_per_repo: 3.1818
-    active_days: 12
-    repos_not_owned: 9
+    pushes: 34
+    distinct_repos: 10
+    pushes_per_repo: 3.4000
+    active_days: 11
+    repos_not_owned: 8
     not_owned_basenames: 1
-    not_owned_owners: 9
+    not_owned_owners: 8
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 12 active days in 90d — pass"
+  - "activity: 11 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "OpenMontage"
@@ -223,6 +223,6 @@ repos:
 
 # calesthio
 
-35 pushes across 11 repositories on 12 active days in the last 90 days of public GitHub push activity.
+34 pushes across 10 repositories on 11 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/calesthio

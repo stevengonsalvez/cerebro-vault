@@ -8,11 +8,11 @@ provenance_repos:
   - "AstrBotDevs/AstrBot"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+repos_populated: false
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [12, 1, 3, 0, 0, 8, 3, 0, 0, 0, 1, 1, 0]
+pushes_per_week: [10, 1, 3, 0, 2, 7, 2, 0, 0, 0, 1, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 29
+    pushes: 27
     distinct_repos: 11
-    active_days: 16
+    active_days: 15
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.8125
-  repo_per_active_day: 0.6875
+  push_per_day: 1.8000
+  repo_per_active_day: 0.7333
   not_owned_ratio: 0.0909
   basename_concentration: 0.1818
   shapes: []
@@ -65,70 +65,22 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 29
+    pushes: 27
     distinct_repos: 11
-    pushes_per_repo: 2.6364
-    active_days: 16
+    pushes_per_repo: 2.4545
+    active_days: 15
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 16 active days in 90d — pass"
+  - "activity: 15 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "auto-aur-update"
-    title: "auto-aur-update"
-    description: "auto-aur-update"
-    language: "Shell"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-24"
-  - name: "astrbot_plugin_ebooks"
-    title: "astrbot_plugin_ebooks"
-    description: "一个功能强大的电子书插件，支持多平台电子书搜索和下载。"
-    language: "Python"
-    topics: []
-    stars_fact: 31
-    first_seen: null
-    last_push: "2026-06-08"
-  - name: "PixelTerm"
-    title: "PixelTerm"
-    description: "A terminal image viewer just for test."
-    language: "Python"
-    topics: []
-    stars_fact: 7
-    first_seen: null
-    last_push: "2026-09-13"
-  - name: "remove-duplicate-files"
-    title: "remove-duplicate-files"
-    description: "A safe and efficient PowerShell utility for finding and removing duplicate files"
-    language: "PowerShell"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-03"
-  - name: "PixelTerm-C"
-    title: "PixelTerm-C"
-    description: "A high-performance terminal image/video/book browser based on Chafa."
-    language: "C"
-    topics: []
-    stars_fact: 27
-    first_seen: null
-    last_push: "2026-09-09"
-  - name: "astrbot_plugin_agentmemory"
-    title: "astrbot_plugin_agentmemory"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 9
-    first_seen: null
-    last_push: "2026-05-25"
+repos: []
 ---
 
 # zouyonghe
 
-29 pushes across 11 repositories on 16 active days in the last 90 days of public GitHub push activity.
+27 pushes across 11 repositories on 15 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/zouyonghe

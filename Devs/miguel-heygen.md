@@ -11,28 +11,28 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "6e18aa23e1f0d144"
   - "ddd7486148a91958"
-pushes_per_week: [91, 112, 52, 67, 14, 40, 8, 5, 0, 0, 4, 189, 178]
+pushes_per_week: [73, 151, 11, 71, 15, 34, 8, 4, 0, 0, 40, 166, 204]
 windows:
   "7d":
-    pushes: 183
+    pushes: 211
     distinct_repos: 1
     active_days: 7
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 371
+    pushes: 410
     distinct_repos: 3
-    active_days: 17
+    active_days: 18
     repos_not_owned: 3
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 760
+    pushes: 777
     distinct_repos: 5
     active_days: 56
     repos_not_owned: 5
@@ -40,7 +40,7 @@ windows:
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 13.5714
+  push_per_day: 13.8750
   repo_per_active_day: 0.0893
   not_owned_ratio: 1.0000
   basename_concentration: 0.6000
@@ -52,25 +52,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 183
+    pushes: 211
     distinct_repos: 1
-    pushes_per_repo: 183.0000
+    pushes_per_repo: 211.0000
     active_days: 7
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 371
+    pushes: 410
     distinct_repos: 3
-    pushes_per_repo: 123.6667
-    active_days: 17
+    pushes_per_repo: 136.6667
+    active_days: 18
     repos_not_owned: 3
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 760
+    pushes: 777
     distinct_repos: 5
-    pushes_per_repo: 152.0000
+    pushes_per_repo: 155.4000
     active_days: 56
     repos_not_owned: 5
     not_owned_basenames: 3
@@ -84,6 +84,6 @@ repos: []
 
 # miguel-heygen
 
-760 pushes across 5 repositories on 56 active days in the last 90 days of public GitHub push activity.
+777 pushes across 5 repositories on 56 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/miguel-heygen

@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 2, 1, 0, 0, 2, 1, 0]
+pushes_per_week: [0, 0, 0, 0, 0, 2, 0, 1, 0, 0, 2, 1, 0]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -77,6 +77,33 @@ reasons:
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "signaldesk"
+    title: "signaldesk"
+    description: "A minimal Jev-powered macOS app for understanding everyday and work messages."
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-26"
+  - name: "deepseek-harness-desktop-community"
+    title: "deepseek-harness-desktop-community"
+    description: "停止维护 / Discontinued — Please use the official DeepSeek Harness desktop: https://github.com/deepseek-ai/deepseek-harness/tree/master/apps/desktop"
+    language: "JavaScript"
+    topics:
+      - "agent-harness"
+      - "ai-agent"
+      - "deepseek"
+      - "deepseek-harness"
+      - "desktop-app"
+      - "electron"
+      - "macos"
+      - "open-source"
+      - "skills"
+      - "vibe-coding"
+      - "windows"
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-09-25"
   - name: "xinzhiyuan-headline-parody"
     title: "xinzhiyuan-headline-parody"
     description: "Unofficial Codex skill for satirical Chinese AI news headlines"
@@ -93,25 +120,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-09-22"
-  - name: "deepseek-harness-desktop-community"
-    title: "deepseek-harness-desktop-community"
-    description: "Unofficial open-source desktop client for DeepSeek Harness on macOS and Windows"
-    language: "JavaScript"
-    topics:
-      - "agent-harness"
-      - "ai-agent"
-      - "deepseek"
-      - "deepseek-harness"
-      - "desktop-app"
-      - "electron"
-      - "macos"
-      - "open-source"
-      - "skills"
-      - "vibe-coding"
-      - "windows"
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-09-19"
   - name: "jevlens"
     title: "jevlens"
     description: "Evaluation and calibration toolkit for TypeSafe Jev decisions"
@@ -128,23 +136,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-09-20"
-  - name: "coursepilot"
-    title: "coursepilot"
-    description: "Local desktop workspace for software & database coursework | 软件与数据库课设本地工作台"
-    language: "JavaScript"
-    topics:
-      - "ai"
-      - "education"
-      - "electron"
-      - "local-first"
-      - "mysql"
-      - "react"
-      - "spring-boot"
-      - "typescript"
-      - "vue"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-08"
 ---
 
 # k4its1t

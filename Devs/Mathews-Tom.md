@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [181, 54, 106, 124, 28, 23, 14, 2, 0, 5, 14, 12, 4]
+pushes_per_week: [171, 49, 108, 119, 19, 30, 7, 2, 0, 6, 22, 4, 3]
 windows:
   "7d":
     pushes: 4
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 567
+    pushes: 540
     distinct_repos: 15
-    active_days: 49
+    active_days: 48
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 11.5714
-  repo_per_active_day: 0.3061
+  push_per_day: 11.2500
+  repo_per_active_day: 0.3125
   not_owned_ratio: 0.0000
   basename_concentration: 0.1333
   shapes: []
@@ -65,31 +65,18 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 567
+    pushes: 540
     distinct_repos: 15
-    pushes_per_repo: 37.8000
-    active_days: 49
+    pushes_per_repo: 36.0000
+    active_days: 48
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 49 active days in 90d — pass"
+  - "activity: 48 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "armory"
-    title: "armory"
-    description: "Curated, production-grade skills for AI coding agents. Battle-tested workflows for developers who use AI seriously."
-    language: "Python"
-    topics:
-      - "ai-agents"
-      - "claude-code"
-      - "coding-agents"
-      - "open-source"
-      - "skills"
-    stars_fact: 324
-    first_seen: null
-    last_push: "2026-09-21"
   - name: "archex"
     title: "archex"
     description: "Verified code context for agents"
@@ -115,13 +102,26 @@ repos:
       - "tree-sitter"
     stars_fact: 66
     first_seen: null
-    last_push: "2026-09-18"
-  - name: "laconic"
-    title: "laconic"
-    description: "Private, local runtime codec for coding agents: reduces model-visible tool observations with exact on-demand recovery. OMP-native, provider-neutral, and fail-open."
-    language: "Python"
+    last_push: "2026-09-30"
+  - name: "Agentic-Design-Patterns"
+    title: "Agentic-Design-Patterns"
+    description: "Agentic Design Patterns"
+    language: null
     topics: []
-    stars_fact: 1
+    stars_fact: 1841
+    first_seen: null
+    last_push: "2025-09-05"
+  - name: "armory"
+    title: "armory"
+    description: "Curated, production-grade skills for AI coding agents. Battle-tested workflows for developers who use AI seriously."
+    language: "Python"
+    topics:
+      - "ai-agents"
+      - "claude-code"
+      - "coding-agents"
+      - "open-source"
+      - "skills"
+    stars_fact: 327
     first_seen: null
     last_push: "2026-09-21"
   - name: "scrybe"
@@ -131,7 +131,15 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-19"
+    last_push: "2026-09-24"
+  - name: "laconic"
+    title: "laconic"
+    description: "Private, local runtime codec for coding agents: reduces model-visible tool observations with exact on-demand recovery. OMP-native, provider-neutral, and fail-open."
+    language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-21"
   - name: "metermaid"
     title: "metermaid"
     description: "Background usage tracker for Claude Code and Codex CLI sessions"
@@ -140,18 +148,10 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-09-17"
-  - name: "Agentic-Design-Patterns"
-    title: "Agentic-Design-Patterns"
-    description: "Agentic Design Patterns"
-    language: null
-    topics: []
-    stars_fact: 1842
-    first_seen: null
-    last_push: "2025-09-05"
 ---
 
 # Mathews-Tom
 
-567 pushes across 15 repositories on 49 active days in the last 90 days of public GitHub push activity.
+540 pushes across 15 repositories on 48 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Mathews-Tom

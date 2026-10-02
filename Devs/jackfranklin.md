@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "379642deb53f3714"
-pushes_per_week: [2, 2, 7, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [2, 2, 7, 2, 0, 1, 0, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -82,9 +82,17 @@ repos:
     description: "My dotfiles for my dev environment, compromising of tmux, vim, zsh and git."
     language: "TypeScript"
     topics: []
-    stars_fact: 254
+    stars_fact: 255
     first_seen: null
-    last_push: "2026-09-23"
+    last_push: "2026-09-29"
+  - name: "gulp-load-plugins"
+    title: "gulp-load-plugins"
+    description: "Automatically load in gulp plugins"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 753
+    first_seen: null
+    last_push: "2025-02-07"
   - name: "pulldown"
     title: "pulldown"
     description: "The minimal JavaScript package manager."
@@ -101,14 +109,6 @@ repos:
     stars_fact: 139
     first_seen: null
     last_push: "2018-08-06"
-  - name: "gulp-load-plugins"
-    title: "gulp-load-plugins"
-    description: "Automatically load in gulp plugins"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 754
-    first_seen: null
-    last_push: "2025-02-07"
   - name: "remote-data-js"
     title: "remote-data-js"
     description: "Dealing with remote data and all its states properly in JavaScript applications."

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "3eacb4655aba2497"
-pushes_per_week: [6, 9, 3, 14, 1, 41, 0, 1, 0, 0, 2, 2, 3]
+pushes_per_week: [5, 9, 3, 14, 4, 38, 0, 1, 0, 0, 2, 2, 3]
 windows:
   "7d":
     pushes: 3
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 82
-    distinct_repos: 13
-    active_days: 30
+    pushes: 81
+    distinct_repos: 12
+    active_days: 29
     repos_not_owned: 10
     not_owned_basenames: 10
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 2.7333
-  repo_per_active_day: 0.4333
-  not_owned_ratio: 0.7692
-  basename_concentration: 0.0769
+  push_per_day: 2.7931
+  repo_per_active_day: 0.4138
+  not_owned_ratio: 0.8333
+  basename_concentration: 0.0833
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 82
-    distinct_repos: 13
-    pushes_per_repo: 6.3077
-    active_days: 30
+    pushes: 81
+    distinct_repos: 12
+    pushes_per_repo: 6.7500
+    active_days: 29
     repos_not_owned: 10
     not_owned_basenames: 10
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 30 active days in 90d — pass"
+  - "activity: 29 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "nat46"
@@ -129,6 +129,6 @@ repos:
 
 # ayourtch
 
-82 pushes across 13 repositories on 30 active days in the last 90 days of public GitHub push activity.
+81 pushes across 12 repositories on 29 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ayourtch

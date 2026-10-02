@@ -8,23 +8,23 @@ provenance_repos:
   - "alibaba/open-code-review"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+repos_populated: false
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "c489e6fb5febf2ab"
-pushes_per_week: [29, 17, 11, 11, 12, 6, 9, 2, 2, 4, 10, 12, 7]
+pushes_per_week: [33, 12, 11, 10, 13, 7, 7, 3, 1, 4, 11, 11, 9]
 windows:
   "7d":
-    pushes: 7
-    distinct_repos: 3
-    active_days: 4
-    repos_not_owned: 2
-    not_owned_basenames: 2
+    pushes: 9
+    distinct_repos: 4
+    active_days: 5
+    repos_not_owned: 3
+    not_owned_basenames: 3
     not_owned_owners: 2
   "30d":
-    pushes: 33
+    pushes: 35
     distinct_repos: 15
-    active_days: 14
+    active_days: 15
     repos_not_owned: 9
     not_owned_basenames: 9
     not_owned_owners: 4
@@ -49,18 +49,18 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 7
-    distinct_repos: 3
-    pushes_per_repo: 2.3333
-    active_days: 4
-    repos_not_owned: 2
-    not_owned_basenames: 2
+    pushes: 9
+    distinct_repos: 4
+    pushes_per_repo: 2.2500
+    active_days: 5
+    repos_not_owned: 3
+    not_owned_basenames: 3
     not_owned_owners: 2
   "30d":
-    pushes: 33
+    pushes: 35
     distinct_repos: 15
-    pushes_per_repo: 2.2000
-    active_days: 14
+    pushes_per_repo: 2.3333
+    active_days: 15
     repos_not_owned: 9
     not_owned_basenames: 9
     not_owned_owners: 4
@@ -76,73 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 54 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "shyim"
-    title: "shyim"
-    description: "✨ special ✨ repository ✨"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-25"
-  - name: "mochi"
-    title: "mochi"
-    description: null
-    language: "Makefile"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-25"
-  - name: "akari"
-    title: "akari"
-    description: "A high-performance PHP observability extension. Automatic OpenTelemetry tracing, sampling, and profiling — zero-config, near-zero overhead."
-    language: "C"
-    topics:
-      - "apm"
-      - "c"
-      - "go"
-      - "observability"
-      - "opentelemetry"
-      - "otlp"
-      - "php"
-      - "php-extension"
-      - "profiler"
-      - "tracing"
-    stars_fact: 10
-    first_seen: null
-    last_push: "2026-09-25"
-  - name: "go-pie"
-    title: "go-pie"
-    description: null
-    language: "Go"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-22"
-  - name: "go-phplint"
-    title: "go-phplint"
-    description: "Pure-Go PHP syntax and compile-time linter for PHP 7.2 through 8.6"
-    language: "Go"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-22"
-  - name: "garmin-cf-mcp"
-    title: "garmin-cf-mcp"
-    description: "Multi-tenant Garmin Connect MCP server on Cloudflare Workers. Hosted at https://garmin.shyim.de/mcp"
-    language: "TypeScript"
-    topics:
-      - "cloudflare-workers"
-      - "fitness"
-      - "garmin"
-      - "garmin-connect"
-      - "mcp"
-      - "model-context-protocol"
-      - "oauth"
-      - "typescript"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-22"
+repos: []
 ---
 
 # shyim

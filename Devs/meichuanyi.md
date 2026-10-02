@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "745308b2b7085095"
-pushes_per_week: [1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 8, 6]
+pushes_per_week: [1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 2, 7, 5]
 windows:
   "7d":
-    pushes: 7
+    pushes: 6
     distinct_repos: 2
-    active_days: 5
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 7
+    pushes: 6
     distinct_repos: 2
-    pushes_per_repo: 3.5000
-    active_days: 5
+    pushes_per_repo: 3.0000
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -84,15 +84,15 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-24"
+    last_push: "2026-09-30"
   - name: "anka"
     title: "anka"
     description: "Anka — Anki, reborn. AI-native spaced repetition: Rust core, FSRS scheduling, .apkg compatible, MCP-native."
     language: "Rust"
     topics: []
-    stars_fact: 0
+    stars_fact: 1
     first_seen: null
-    last_push: "2026-09-22"
+    last_push: "2026-09-27"
   - name: "deskcal"
     title: "deskcal"
     description: "DeskCal — 一款极简的 Windows 桌面日历应用，支持本地任务管理与 Mindwtr 任务双向同步。Built with Tauri 2 + React + TypeScript."

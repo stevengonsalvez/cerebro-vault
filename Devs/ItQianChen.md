@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "90688bf127241ceb"
 pushes_per_week: [0, 0, 0, 2, 0, 0, 1, 1, 1, 0, 0, 1, 1]
@@ -77,6 +77,20 @@ reasons:
   - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "java-springboot-standards-skill"
+    title: "java-springboot-standards-skill"
+    description: "一套面向 Java Spring Boot 的跨平台通用 Agent 开发规范 Skill，遵循开放的 Agent Skills 标准（SKILL.md），可被 Claude Code、Codex、Cursor、Cline 等主流 Agent 直接加载使用。"
+    language: null
+    topics:
+      - "agent-skill"
+      - "agent-skills"
+      - "claude-code-skill"
+      - "claude-skills"
+      - "codex-skill"
+      - "codex-skills"
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-09-27"
   - name: "frontend-universal-standards-skill"
     title: "frontend-universal-standards-skill"
     description: "遵循 Agent Skills 开放标准（SKILL.md）构建的企业级通用前端全栈工程规范与代码审查 Skill，旨在指导 AI Agent 在编码、脚手架搭建与 Code Review 时提供高度工业化、可执行且无过度设计的前端交付方案。"
@@ -103,20 +117,6 @@ repos:
       - "powershell"
       - "windows-scripting"
     stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-20"
-  - name: "java-springboot-standards-skill"
-    title: "java-springboot-standards-skill"
-    description: "一套面向 Java Spring Boot 的跨平台通用 Agent 开发规范 Skill，遵循开放的 Agent Skills 标准（SKILL.md），可被 Claude Code、Codex、Cursor、Cline 等主流 Agent 直接加载使用。"
-    language: null
-    topics:
-      - "agent-skill"
-      - "agent-skills"
-      - "claude-code-skill"
-      - "claude-skills"
-      - "codex-skill"
-      - "codex-skills"
-    stars_fact: 2
     first_seen: null
     last_push: "2026-09-20"
   - name: "cogninote-agent-design"

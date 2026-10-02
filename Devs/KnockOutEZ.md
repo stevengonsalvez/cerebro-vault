@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "ef03efa8fa36c2ae"
-pushes_per_week: [10, 9, 11, 1, 3, 11, 16, 16, 0, 5, 0, 2, 1]
+pushes_per_week: [10, 14, 6, 1, 3, 19, 9, 15, 0, 5, 0, 2, 1]
 windows:
   "7d":
     pushes: 1
@@ -86,25 +86,25 @@ repos:
       - "ai"
       - "ai-agent"
       - "claude"
-      - "cli"
       - "developer-tools"
+      - "exa-alternative"
+      - "firecrawl-alternative"
       - "local-first"
       - "mcp"
       - "mcp-server"
       - "metasearch"
       - "model-context-protocol"
-      - "nodejs"
       - "privacy"
       - "rag"
       - "search"
       - "search-engine"
-      - "typescript"
+      - "tavily-alternative"
       - "web-crawler"
       - "web-scraping"
       - "web-search"
-    stars_fact: 5397
+    stars_fact: 5435
     first_seen: "2026-07-19T06:00:06.180682+00:00"
-    last_push: "2026-09-24"
+    last_push: "2026-10-01"
   - name: "KnockOutEZ"
     title: "KnockOutEZ"
     description: null
@@ -112,7 +112,7 @@ repos:
     topics: []
     stars_fact: 2
     first_seen: null
-    last_push: "2026-09-24"
+    last_push: "2026-10-01"
   - name: "homebrew-wigolo"
     title: "homebrew-wigolo"
     description: "Homebrew tap for wigolo"

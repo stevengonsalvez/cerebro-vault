@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "dae9f02535f7c22f"
-pushes_per_week: [2, 0, 3, 0, 2, 6, 0, 0, 0, 1, 0, 5, 7]
+pushes_per_week: [2, 0, 3, 0, 2, 6, 0, 0, 0, 1, 0, 7, 5]
 windows:
   "7d":
     pushes: 7
@@ -77,37 +77,14 @@ reasons:
   - "activity: 17 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "vinted-mcp-cli"
-    title: "vinted-mcp-cli"
-    description: "Browse, search, and manage Vinted listings from Claude or the terminal — buy, sell, track items, and automate your secondhand workflow"
-    language: "TypeScript"
-    topics:
-      - "claude"
-      - "claude-code"
-      - "ecommerce"
-      - "marketplace"
-      - "mcp"
-      - "model-context-protocol"
-      - "secondhand"
-      - "vinted"
-    stars_fact: 9
-    first_seen: null
-    last_push: "2026-09-03"
-  - name: "context-handoff"
-    title: "context-handoff"
-    description: "Continue any Claude conversation exactly where you left off — decisions, reasoning, work state, and behavioral contracts fully restored in a new session"
-    language: "Shell"
-    topics:
-      - "anthropic"
-      - "claude-code"
-      - "claude-code-skill"
-      - "context"
-      - "productivity"
-      - "session"
-      - "skill"
+  - name: "googlarz"
+    title: "googlarz"
+    description: "GitHub profile README"
+    language: "Python"
+    topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-09-24"
+    last_push: "2026-10-01"
   - name: "proton-mail-bridge-client"
     title: "proton-mail-bridge-client"
     description: "Local-first Proton Mail MCP server and CLI via Proton Bridge. Search, draft, send and organize mail from Claude Desktop, Claude Code or any MCP client. 96 tools, read-only and send-to-self modes."
@@ -133,17 +110,55 @@ repos:
       - "smtp"
       - "sqlite"
       - "typescript"
-    stars_fact: 46
+    stars_fact: 51
     first_seen: null
-    last_push: "2026-09-24"
-  - name: "suunto-gym"
-    title: "suunto-gym"
-    description: "Personalized strength-training coach for Claude Code — progressive-overload programming, Suunto recovery gating, watch sync"
-    language: null
-    topics: []
-    stars_fact: 3
+    last_push: "2026-10-01"
+  - name: "proton-drive-mcp"
+    title: "proton-drive-mcp"
+    description: "MCP server and CLI that gives Claude full access to Proton Drive — upload, download, share, and manage your end-to-end encrypted files without leaving the conversation."
+    language: "JavaScript"
+    topics:
+      - "claude"
+      - "cli"
+      - "mcp"
+      - "proton"
+      - "protondrive"
+    stars_fact: 2
     first_seen: null
-    last_push: "2026-09-23"
+    last_push: "2026-10-01"
+  - name: "signal-mcp"
+    title: "signal-mcp"
+    description: "Ask Claude about your Signal conversations. Persistent history, full-text search, and complete signal-cli coverage — 100% local."
+    language: "Python"
+    topics:
+      - "claude"
+      - "claude-code"
+      - "mcp"
+      - "messaging"
+      - "model-context-protocol"
+      - "privacy"
+      - "signal"
+    stars_fact: 9
+    first_seen: null
+    last_push: "2026-09-30"
+  - name: "finance-assistant"
+    title: "finance-assistant"
+    description: "Personal finance copilot — real math, not AI guesses. 6 locales · 13 bank formats · Monte Carlo FIRE. claude.ai · Claude Code · Cowork. Open source, free."
+    language: "Python"
+    topics:
+      - "anthropic"
+      - "budgeting"
+      - "claude-code"
+      - "claude-cowork"
+      - "claude-skill"
+      - "mcp"
+      - "personal-finance"
+      - "productivity"
+      - "skill"
+      - "tax"
+    stars_fact: 48
+    first_seen: null
+    last_push: "2026-09-30"
   - name: "suunto-mcp"
     title: "suunto-mcp"
     description: "MCP server that connects your Suunto watch data to Claude and other AI assistants"
@@ -157,17 +172,9 @@ repos:
       - "running"
       - "sleep-tracking"
       - "suunto"
-    stars_fact: 29
+    stars_fact: 30
     first_seen: null
-    last_push: "2026-09-23"
-  - name: "personal-inbox"
-    title: "personal-inbox"
-    description: "Email triage + physical-mail intake + document filing for Claude Code. Read-only mail, propose-only actions, plain folders — no server."
-    language: null
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-23"
+    last_push: "2026-09-29"
 ---
 
 # googlarz

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "16389f32495280ea"
-pushes_per_week: [0, 8, 4, 12, 2, 7, 0, 0, 0, 0, 2, 2, 0]
+pushes_per_week: [0, 9, 6, 11, 0, 7, 0, 0, 0, 0, 2, 2, 0]
 windows:
   "7d":
     pushes: 0
@@ -84,7 +84,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-24"
+    last_push: "2026-10-01"
   - name: "March-77"
     title: "March-77"
     description: "AI Agent, RAG and developer tooling — profile of Zhang Zherui."
@@ -92,7 +92,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-24"
+    last_push: "2026-10-01"
   - name: "afac2026-track4-financial-longtext-agent"
     title: "afac2026-track4-financial-longtext-agent"
     description: "AFAC 2026 Track 4 financial long-text agent with Qwen-only retrieval, evidence auditing, datasets, and reproducible run artifacts"

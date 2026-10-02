@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "f74d5b6b78b8a1a4"
-pushes_per_week: [50, 20, 10, 24, 11, 20, 8, 3, 1, 2, 1, 2, 11]
+pushes_per_week: [34, 20, 10, 26, 8, 22, 6, 3, 1, 2, 1, 5, 11]
 windows:
   "7d":
-    pushes: 11
+    pushes: 14
     distinct_repos: 5
-    active_days: 5
+    active_days: 6
     repos_not_owned: 4
     not_owned_basenames: 1
     not_owned_owners: 4
   "30d":
-    pushes: 16
+    pushes: 19
     distinct_repos: 5
-    active_days: 9
+    active_days: 10
     repos_not_owned: 4
     not_owned_basenames: 1
     not_owned_owners: 4
   "90d":
-    pushes: 163
+    pushes: 149
     distinct_repos: 6
     active_days: 49
     repos_not_owned: 5
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 5
 automation:
   state: "clear"
-  push_per_day: 3.3265
+  push_per_day: 3.0408
   repo_per_active_day: 0.1224
   not_owned_ratio: 0.8333
   basename_concentration: 1.0000
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 11
+    pushes: 14
     distinct_repos: 5
-    pushes_per_repo: 2.2000
-    active_days: 5
+    pushes_per_repo: 2.8000
+    active_days: 6
     repos_not_owned: 4
     not_owned_basenames: 1
     not_owned_owners: 4
   "30d":
-    pushes: 16
+    pushes: 19
     distinct_repos: 5
-    pushes_per_repo: 3.2000
-    active_days: 9
+    pushes_per_repo: 3.8000
+    active_days: 10
     repos_not_owned: 4
     not_owned_basenames: 1
     not_owned_owners: 4
   "90d":
-    pushes: 163
+    pushes: 149
     distinct_repos: 6
-    pushes_per_repo: 27.1667
+    pushes_per_repo: 24.8333
     active_days: 49
     repos_not_owned: 5
     not_owned_basenames: 1
@@ -117,6 +117,6 @@ repos:
 
 # DeusData
 
-163 pushes across 6 repositories on 49 active days in the last 90 days of public GitHub push activity.
+149 pushes across 6 repositories on 49 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/DeusData

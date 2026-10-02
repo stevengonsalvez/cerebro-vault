@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "8b01562a542974d1"
-pushes_per_week: [2, 2, 2, 5, 6, 8, 3, 4, 1, 3, 7, 7, 4]
+pushes_per_week: [2, 3, 1, 11, 0, 8, 3, 4, 1, 3, 7, 8, 3]
 windows:
   "7d":
     pushes: 4
@@ -77,6 +77,30 @@ reasons:
   - "activity: 29 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "codebase-harness"
+    title: "codebase-harness"
+    description: null
+    language: "Shell"
+    topics: []
+    stars_fact: 29
+    first_seen: null
+    last_push: "2026-06-07"
+  - name: "claude-code-vault"
+    title: "claude-code-vault"
+    description: "Production .claude/ starter kit from the Claude Code 101 course by AI Builder Club"
+    language: "Shell"
+    topics: []
+    stars_fact: 12
+    first_seen: null
+    last_push: "2026-06-12"
+  - name: "microsoft-autogen-experiments"
+    title: "microsoft-autogen-experiments"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 221
+    first_seen: null
+    last_push: "2023-10-03"
   - name: "research-agents-3.0"
     title: "research-agents-3.0"
     description: "Autogen + GPTs - build a swarm AI researchers"
@@ -85,14 +109,6 @@ repos:
     stars_fact: 459
     first_seen: null
     last_push: "2023-12-20"
-  - name: "claude-code-vault"
-    title: "claude-code-vault"
-    description: "Production .claude/ starter kit from the Claude Code 101 course by AI Builder Club"
-    language: "Shell"
-    topics: []
-    stars_fact: 11
-    first_seen: null
-    last_push: "2026-06-12"
   - name: "awesome-claude-skills"
     title: "awesome-claude-skills"
     description: null
@@ -109,22 +125,6 @@ repos:
     stars_fact: 63
     first_seen: null
     last_push: "2025-09-01"
-  - name: "superdesign-site"
-    title: "superdesign-site"
-    description: "Superdesign — AI design agent for founders building AI products (landing page)"
-    language: "HTML"
-    topics: []
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-05-27"
-  - name: "codebase-harness"
-    title: "codebase-harness"
-    description: null
-    language: "Shell"
-    topics: []
-    stars_fact: 28
-    first_seen: null
-    last_push: "2026-06-07"
 ---
 
 # JayZeeDesign

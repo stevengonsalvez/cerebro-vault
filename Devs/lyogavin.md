@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: true
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "759119abe3ffdb8f"
 pushes_per_week: [0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
@@ -95,15 +95,15 @@ repos:
       - "open-source"
       - "open-source-models"
       - "qlora"
-    stars_fact: 34768
+    stars_fact: 35285
     first_seen: "2026-06-23T06:00:02.600201+00:00"
-    last_push: "2026-09-24"
+    last_push: "2026-10-01"
   - name: "train_your_own_sora"
     title: "train_your_own_sora"
     description: null
     language: "Python"
     topics: []
-    stars_fact: 228
+    stars_fact: 227
     first_seen: null
     last_push: "2024-03-07"
   - name: "godmodeanimation"
@@ -111,7 +111,7 @@ repos:
     description: "2D Game Animation in God Mode"
     language: "Python"
     topics: []
-    stars_fact: 282
+    stars_fact: 283
     first_seen: null
     last_push: "2025-06-29"
   - name: "Anima"

@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "876fe6c1edb8596c"
-pushes_per_week: [7, 15, 7, 6, 0, 3, 2, 3, 1, 3, 5, 13, 4]
+pushes_per_week: [5, 15, 7, 6, 0, 3, 2, 3, 1, 3, 5, 13, 4]
 windows:
   "7d":
-    pushes: 6
+    pushes: 4
     distinct_repos: 1
-    active_days: 3
+    active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 2
   "90d":
-    pushes: 69
+    pushes: 67
     distinct_repos: 5
-    active_days: 33
+    active_days: 32
     repos_not_owned: 5
     not_owned_basenames: 1
     not_owned_owners: 5
 automation:
   state: "clear"
-  push_per_day: 2.0909
-  repo_per_active_day: 0.1515
+  push_per_day: 2.0938
+  repo_per_active_day: 0.1562
   not_owned_ratio: 1.0000
   basename_concentration: 1.0000
   shapes: []
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 6
+    pushes: 4
     distinct_repos: 1
-    pushes_per_repo: 6.0000
-    active_days: 3
+    pushes_per_repo: 4.0000
+    active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 2
   "90d":
-    pushes: 69
+    pushes: 67
     distinct_repos: 5
-    pushes_per_repo: 13.8000
-    active_days: 33
+    pushes_per_repo: 13.4000
+    active_days: 32
     repos_not_owned: 5
     not_owned_basenames: 1
     not_owned_owners: 5
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 33 active days in 90d — pass"
+  - "activity: 32 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "qin-ctx"
@@ -84,13 +84,13 @@ repos:
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-09-23"
+    last_push: "2026-10-01"
   - name: "openviking-browser-extension"
     title: "openviking-browser-extension"
     description: "Browser extension for saving the current page URL to OpenViking resources"
     language: "HTML"
     topics: []
-    stars_fact: 3
+    stars_fact: 4
     first_seen: null
     last_push: "2026-07-03"
   - name: "openviking-blog"
@@ -113,6 +113,6 @@ repos:
 
 # qin-ctx
 
-69 pushes across 5 repositories on 33 active days in the last 90 days of public GitHub push activity.
+67 pushes across 5 repositories on 32 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/qin-ctx

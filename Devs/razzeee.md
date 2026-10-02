@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [36, 24, 13, 2, 5, 3, 6, 5, 0, 6, 4, 14, 6]
+pushes_per_week: [30, 26, 10, 2, 7, 2, 5, 5, 0, 6, 7, 12, 5]
 windows:
   "7d":
-    pushes: 7
+    pushes: 6
     distinct_repos: 4
-    active_days: 5
+    active_days: 4
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 6
     not_owned_owners: 5
   "90d":
-    pushes: 124
+    pushes: 117
     distinct_repos: 26
-    active_days: 50
+    active_days: 49
     repos_not_owned: 10
     not_owned_basenames: 10
     not_owned_owners: 5
 automation:
   state: "clear"
-  push_per_day: 2.4800
-  repo_per_active_day: 0.5200
+  push_per_day: 2.3878
+  repo_per_active_day: 0.5306
   not_owned_ratio: 0.3846
   basename_concentration: 0.0769
   shapes: []
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 7
+    pushes: 6
     distinct_repos: 4
-    pushes_per_repo: 1.7500
-    active_days: 5
+    pushes_per_repo: 1.5000
+    active_days: 4
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
@@ -65,34 +65,18 @@ facets:
     not_owned_basenames: 6
     not_owned_owners: 5
   "90d":
-    pushes: 124
+    pushes: 117
     distinct_repos: 26
-    pushes_per_repo: 4.7692
-    active_days: 50
+    pushes_per_repo: 4.5000
+    active_days: 49
     repos_not_owned: 10
     not_owned_basenames: 10
     not_owned_owners: 5
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 50 active days in 90d — pass"
+  - "activity: 49 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "window-switching-redux"
-    title: "window-switching-redux"
-    description: null
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-24"
-  - name: "aileron"
-    title: "aileron"
-    description: null
-    language: "Rust"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-09-24"
   - name: "flatpak-blackbox-tests"
     title: "flatpak-blackbox-tests"
     description: null
@@ -100,7 +84,23 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-23"
+    last_push: "2026-10-01"
+  - name: "window-switching-redux"
+    title: "window-switching-redux"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-25"
+  - name: "aileron"
+    title: "aileron"
+    description: null
+    language: "Rust"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-09-27"
   - name: "flatpak-smoke"
     title: "flatpak-smoke"
     description: null
@@ -108,7 +108,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-20"
+    last_push: "2026-09-27"
   - name: "gnome-foreground-booster"
     title: "gnome-foreground-booster"
     description: null
@@ -129,6 +129,6 @@ repos:
 
 # razzeee
 
-124 pushes across 26 repositories on 50 active days in the last 90 days of public GitHub push activity.
+117 pushes across 26 repositories on 49 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/razzeee

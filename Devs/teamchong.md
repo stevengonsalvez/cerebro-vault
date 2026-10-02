@@ -3,19 +3,16 @@ login: "teamchong"
 name: null
 discovered_via: "vault"
 discovered_via_all:
-  - "fanout"
   - "vault"
 provenance_repos:
-  - "cloudflare/cloudflare-os"
   - "teamchong/pxpipe"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+repos_populated: false
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "1320ae46b426dee5"
-  - "386c24cf5e18fd90"
-pushes_per_week: [10, 7, 15, 7, 3, 11, 2, 0, 0, 0, 0, 0, 1]
+pushes_per_week: [9, 6, 17, 6, 2, 11, 2, 0, 0, 0, 0, 1, 0]
 windows:
   "7d":
     pushes: 1
@@ -32,7 +29,7 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 56
+    pushes: 54
     distinct_repos: 11
     active_days: 26
     repos_not_owned: 4
@@ -40,7 +37,7 @@ windows:
     not_owned_owners: 4
 automation:
   state: "clear"
-  push_per_day: 2.1538
+  push_per_day: 2.0769
   repo_per_active_day: 0.4231
   not_owned_ratio: 0.3636
   basename_concentration: 0.3636
@@ -68,80 +65,22 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 56
+    pushes: 54
     distinct_repos: 11
-    pushes_per_repo: 5.0909
+    pushes_per_repo: 4.9091
     active_days: 26
     repos_not_owned: 4
     not_owned_basenames: 2
     not_owned_owners: 4
 reasons:
-  - "provenance: 2 vault signal(s) — pass"
+  - "provenance: 1 vault signal(s) — pass"
   - "activity: 26 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "pxpipe"
-    title: "pxpipe"
-    description: "cut Claude Code token usage by rendering text context as images"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 7458
-    first_seen: "2026-07-06T06:00:04.675243+00:00"
-    last_push: "2026-10-01"
-  - name: "turboquant-wasm"
-    title: "turboquant-wasm"
-    description: "TurboQuant WASM SIMD vector compression — 3 bits/dim with fast dot product. Requires relaxed SIMD (Chrome 114+, Firefox 128+, Safari 18+, Node 20+)"
-    language: "Zig"
-    topics: []
-    stars_fact: 323
-    first_seen: null
-    last_push: "2026-04-19"
-  - name: "drawmode"
-    title: "drawmode"
-    description: "Code Mode MCP server for generating Excalidraw architecture diagrams with auto-layout. LLM writes TypeScript, Graphviz handles layout."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 15
-    first_seen: null
-    last_push: "2026-06-01"
-  - name: "vectorjson"
-    title: "vectorjson"
-    description: "O(n) streaming JSON parser for LLM tool calls. Agents act sooner, abort bad outputs early. WASM SIMD, up to 2000× faster than stock AI SDK parsers."
-    language: "JavaScript"
-    topics:
-      - "ai-sdk"
-      - "json"
-      - "llm"
-      - "parser"
-      - "partial-json"
-      - "simd"
-      - "simdjson"
-      - "streaming"
-      - "wasm"
-      - "zig"
-    stars_fact: 18
-    first_seen: null
-    last_push: "2026-03-10"
-  - name: "wardex"
-    title: "wardex"
-    description: "Run any coding-agent CLI (claude, codex, aider, ...) behind two boundaries it can't ignore: a logging/enforcing egress proxy and a zero-install, kernel-enforced filesystem jail."
-    language: "Go"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-04"
-  - name: "gitmode"
-    title: "gitmode"
-    description: "Git server & client as npm package for Cloudflare Workers — Zig/WASM engine with SIMD128, libgit2, R2 chunk storage, Durable Objects (per-repo SQLite)"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-06-01"
+repos: []
 ---
 
 # teamchong
 
-56 pushes across 11 repositories on 26 active days in the last 90 days of public GitHub push activity.
+54 pushes across 11 repositories on 26 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/teamchong

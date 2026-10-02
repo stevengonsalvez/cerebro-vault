@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [52, 34, 40, 27, 28, 71, 17, 10, 14, 0, 3, 10, 1]
+pushes_per_week: [42, 41, 34, 37, 14, 83, 6, 20, 3, 0, 7, 6, 4]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
-    repos_not_owned: 1
-    not_owned_basenames: 1
+    pushes: 4
+    distinct_repos: 2
+    active_days: 2
+    repos_not_owned: 2
+    not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 14
+    pushes: 17
     distinct_repos: 6
-    active_days: 8
+    active_days: 9
     repos_not_owned: 6
     not_owned_basenames: 6
     not_owned_owners: 1
   "90d":
-    pushes: 307
+    pushes: 297
     distinct_repos: 19
     active_days: 56
     repos_not_owned: 8
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 5.4821
+  push_per_day: 5.3036
   repo_per_active_day: 0.3393
   not_owned_ratio: 0.4211
   basename_concentration: 0.1053
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
-    repos_not_owned: 1
-    not_owned_basenames: 1
+    pushes: 4
+    distinct_repos: 2
+    pushes_per_repo: 2.0000
+    active_days: 2
+    repos_not_owned: 2
+    not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 14
+    pushes: 17
     distinct_repos: 6
-    pushes_per_repo: 2.3333
-    active_days: 8
+    pushes_per_repo: 2.8333
+    active_days: 9
     repos_not_owned: 6
     not_owned_basenames: 6
     not_owned_owners: 1
   "90d":
-    pushes: 307
+    pushes: 297
     distinct_repos: 19
-    pushes_per_repo: 16.1579
+    pushes_per_repo: 15.6316
     active_days: 56
     repos_not_owned: 8
     not_owned_basenames: 8
@@ -77,6 +77,22 @@ reasons:
   - "activity: 56 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "stack"
+    title: "stack"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 540
+    first_seen: null
+    last_push: "2026-08-28"
+  - name: "ghui"
+    title: "ghui"
+    description: "A GitHub TUI"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 1122
+    first_seen: null
+    last_push: "2026-09-25"
   - name: "Hex"
     title: "Hex"
     description: "Legacy Swift Hex app. Try the Rust rewrite at hex.kitlangton.com; new source at github.com/anomalyco/hex."
@@ -88,33 +104,9 @@ repos:
       - "swiftui"
       - "transcription"
       - "whisper"
-    stars_fact: 2898
+    stars_fact: 2901
     first_seen: null
     last_push: "2026-08-27"
-  - name: "justice"
-    title: "justice"
-    description: "A small paragraph justification engine and typography playground"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 49
-    first_seen: null
-    last_push: "2026-09-23"
-  - name: "ghui"
-    title: "ghui"
-    description: "A GitHub TUI"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 1117
-    first_seen: null
-    last_push: "2026-09-02"
-  - name: "effect-solutions"
-    title: "effect-solutions"
-    description: "A guide to writing idiomatic Effect code."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 444
-    first_seen: null
-    last_push: "2026-04-29"
   - name: "rolling-number"
     title: "rolling-number"
     description: "Interruptible, locale-aware rolling numbers for the web. TypeScript core and React adapter."
@@ -125,21 +117,31 @@ repos:
       - "react"
       - "typescript"
       - "web-animations"
-    stars_fact: 130
+    stars_fact: 135
     first_seen: null
     last_push: "2026-09-06"
-  - name: "motel"
-    title: "motel"
-    description: null
+  - name: "skills"
+    title: "skills"
+    description: "Here are some skills I use. Maybe you'll find them useful. Maybe not. Goodbye."
+    language: null
+    topics:
+      - "effect"
+      - "skills"
+    stars_fact: 324
+    first_seen: null
+    last_push: "2026-08-29"
+  - name: "effect-solutions"
+    title: "effect-solutions"
+    description: "A guide to writing idiomatic Effect code."
     language: "TypeScript"
     topics: []
-    stars_fact: 294
+    stars_fact: 446
     first_seen: null
-    last_push: "2026-09-02"
+    last_push: "2026-04-29"
 ---
 
 # kitlangton
 
-307 pushes across 19 repositories on 56 active days in the last 90 days of public GitHub push activity.
+297 pushes across 19 repositories on 56 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/kitlangton

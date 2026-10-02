@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "9207e699adc3a415"
-pushes_per_week: [3, 2, 2, 3, 6, 10, 0, 2, 1, 0, 0, 2, 22]
+pushes_per_week: [0, 4, 0, 6, 3, 10, 0, 3, 0, 0, 0, 6, 20]
 windows:
   "7d":
     pushes: 24
@@ -22,25 +22,25 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 5
   "30d":
-    pushes: 24
-    distinct_repos: 9
-    active_days: 7
-    repos_not_owned: 5
+    pushes: 26
+    distinct_repos: 10
+    active_days: 8
+    repos_not_owned: 6
     not_owned_basenames: 2
-    not_owned_owners: 5
+    not_owned_owners: 6
   "90d":
-    pushes: 53
-    distinct_repos: 9
+    pushes: 52
+    distinct_repos: 10
     active_days: 25
-    repos_not_owned: 5
+    repos_not_owned: 6
     not_owned_basenames: 2
-    not_owned_owners: 5
+    not_owned_owners: 6
 automation:
   state: "clear"
-  push_per_day: 2.1200
-  repo_per_active_day: 0.3600
-  not_owned_ratio: 0.5556
-  basename_concentration: 0.5556
+  push_per_day: 2.0800
+  repo_per_active_day: 0.4000
+  not_owned_ratio: 0.6000
+  basename_concentration: 0.5000
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -57,21 +57,21 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 5
   "30d":
-    pushes: 24
-    distinct_repos: 9
-    pushes_per_repo: 2.6667
-    active_days: 7
-    repos_not_owned: 5
+    pushes: 26
+    distinct_repos: 10
+    pushes_per_repo: 2.6000
+    active_days: 8
+    repos_not_owned: 6
     not_owned_basenames: 2
-    not_owned_owners: 5
+    not_owned_owners: 6
   "90d":
-    pushes: 53
-    distinct_repos: 9
-    pushes_per_repo: 5.8889
+    pushes: 52
+    distinct_repos: 10
+    pushes_per_repo: 5.2000
     active_days: 25
-    repos_not_owned: 5
+    repos_not_owned: 6
     not_owned_basenames: 2
-    not_owned_owners: 5
+    not_owned_owners: 6
 reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 25 active days in 90d — pass"
@@ -129,6 +129,6 @@ repos:
 
 # andimarafioti
 
-53 pushes across 9 repositories on 25 active days in the last 90 days of public GitHub push activity.
+52 pushes across 10 repositories on 25 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/andimarafioti

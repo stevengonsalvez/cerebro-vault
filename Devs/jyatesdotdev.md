@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "3eacb4655aba2497"
-pushes_per_week: [25, 5, 0, 0, 0, 3, 2, 1, 0, 1, 2, 1, 0]
+pushes_per_week: [23, 1, 0, 0, 0, 3, 2, 1, 0, 1, 2, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 40
+    pushes: 34
     distinct_repos: 15
-    active_days: 15
+    active_days: 14
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.6667
-  repo_per_active_day: 1.0000
+  push_per_day: 2.4286
+  repo_per_active_day: 1.0714
   not_owned_ratio: 0.0000
   basename_concentration: 0.0667
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 40
+    pushes: 34
     distinct_repos: 15
-    pushes_per_repo: 2.6667
-    active_days: 15
+    pushes_per_repo: 2.2667
+    active_days: 14
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 15 active days in 90d — pass"
+  - "activity: 14 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "jev-logtriage"
@@ -95,7 +95,7 @@ repos:
       - "typesafe-ai"
     stars_fact: 1
     first_seen: null
-    last_push: "2026-09-20"
+    last_push: "2026-09-27"
   - name: "strix-rdma"
     title: "strix-rdma"
     description: "Zero-copy DS4 tensor transport between two Strix Halo hosts over Thunderbolt/USB4 NHI DMA rings"
@@ -141,7 +141,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-21"
+    last_push: "2026-09-28"
   - name: "jyatesdotdev-frontend"
     title: "jyatesdotdev-frontend"
     description: "React SPA frontend for jyates.dev"
@@ -149,11 +149,11 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-18"
+    last_push: "2026-10-01"
 ---
 
 # jyatesdotdev
 
-40 pushes across 15 repositories on 15 active days in the last 90 days of public GitHub push activity.
+34 pushes across 15 repositories on 14 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/jyatesdotdev

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-09-30T06:08:17.648704+00:00"
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [5, 0, 1, 0, 2, 0, 0, 0, 0, 0, 0, 0, 3]
+pushes_per_week: [5, 1, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 3]
 windows:
   "7d":
     pushes: 3
@@ -84,7 +84,15 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-22"
+    last_push: "2026-10-01"
+  - name: "media-scrubber"
+    title: "media-scrubber"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-29"
   - name: "voice-assistant"
     title: "voice-assistant"
     description: "Self-hosted, offline-first voice assistant for your home — wake-word, streaming ASR (whisper.cpp), local LLM agent with tools (LocalAI/Gemma), streaming XTTS, speaker ID, semantic memory, desktop automation. No cloud API keys."
@@ -127,24 +135,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-07-17"
-  - name: "frank-reader"
-    title: "frank-reader"
-    description: "Turn any document (PDF/DOCX/image/URL/text) into Ilya Frank-method interlinear reading text via a local LLM (LocalAI + Gemma). FastAPI + HTMX, fully local, no cloud."
-    language: "Python"
-    topics:
-      - "fastapi"
-      - "gemma"
-      - "htmx"
-      - "ilya-frank"
-      - "language-learning"
-      - "llm"
-      - "localai"
-      - "reading"
-      - "self-hosted"
-      - "translation"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-07-15"
 ---
 
 # melnikaite

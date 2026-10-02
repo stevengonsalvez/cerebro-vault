@@ -5,14 +5,16 @@ discovered_via: "fanout"
 discovered_via_all:
   - "fanout"
 provenance_repos:
+  - "agent-substrate/substrate"
   - "apache/maka"
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [11, 6, 1, 4, 5, 7, 8, 3, 0, 5, 4, 0, 2]
+  - "a5ffcd0a46dd44fd"
+pushes_per_week: [10, 5, 1, 6, 3, 7, 8, 3, 0, 5, 4, 0, 2]
 windows:
   "7d":
     pushes: 2
@@ -29,18 +31,18 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 56
-    distinct_repos: 11
-    active_days: 35
+    pushes: 54
+    distinct_repos: 9
+    active_days: 34
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.6000
-  repo_per_active_day: 0.3143
-  not_owned_ratio: 0.0909
-  basename_concentration: 0.1818
+  push_per_day: 1.5882
+  repo_per_active_day: 0.2647
+  not_owned_ratio: 0.1111
+  basename_concentration: 0.2222
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,16 +67,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 56
-    distinct_repos: 11
-    pushes_per_repo: 5.0909
-    active_days: 35
+    pushes: 54
+    distinct_repos: 9
+    pushes_per_repo: 6.0000
+    active_days: 34
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
-  - "provenance: 1 vault signal(s) — pass"
-  - "activity: 35 active days in 90d — pass"
+  - "provenance: 2 vault signal(s) — pass"
+  - "activity: 34 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "orangeCatDeveloper"
@@ -97,6 +99,6 @@ repos:
 
 # orangeCatDeveloper
 
-56 pushes across 11 repositories on 35 active days in the last 90 days of public GitHub push activity.
+54 pushes across 9 repositories on 34 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/orangeCatDeveloper

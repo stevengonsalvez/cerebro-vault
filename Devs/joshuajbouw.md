@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "7216827ad52eded1"
-pushes_per_week: [53, 87, 49, 29, 11, 11, 11, 8, 4, 5, 5, 11, 2]
+pushes_per_week: [42, 99, 45, 22, 7, 15, 7, 9, 3, 5, 9, 7, 3]
 windows:
   "7d":
-    pushes: 2
+    pushes: 3
     distinct_repos: 1
-    active_days: 2
+    active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 23
+    pushes: 24
     distinct_repos: 4
-    active_days: 12
+    active_days: 13
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 2
   "90d":
-    pushes: 286
+    pushes: 273
     distinct_repos: 20
     active_days: 57
     repos_not_owned: 19
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 4
 automation:
   state: "clear"
-  push_per_day: 5.0175
+  push_per_day: 4.7895
   repo_per_active_day: 0.3509
   not_owned_ratio: 0.9500
   basename_concentration: 0.1500
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
+    pushes: 3
     distinct_repos: 1
-    pushes_per_repo: 2.0000
-    active_days: 2
+    pushes_per_repo: 3.0000
+    active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 23
+    pushes: 24
     distinct_repos: 4
-    pushes_per_repo: 5.7500
-    active_days: 12
+    pushes_per_repo: 6.0000
+    active_days: 13
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 2
   "90d":
-    pushes: 286
+    pushes: 273
     distinct_repos: 20
-    pushes_per_repo: 14.3000
+    pushes_per_repo: 13.6500
     active_days: 57
     repos_not_owned: 19
     not_owned_basenames: 15
@@ -129,6 +129,6 @@ repos:
 
 # joshuajbouw
 
-286 pushes across 20 repositories on 57 active days in the last 90 days of public GitHub push activity.
+273 pushes across 20 repositories on 57 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/joshuajbouw

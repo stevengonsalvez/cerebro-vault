@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "c1af6b58492f9bf4"
-pushes_per_week: [26, 21, 21, 20, 8, 6, 2, 1, 0, 0, 0, 0, 0]
+pushes_per_week: [24, 22, 23, 19, 4, 7, 1, 1, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 105
+    pushes: 101
     distinct_repos: 4
-    active_days: 32
+    active_days: 31
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 3.2812
-  repo_per_active_day: 0.1250
+  push_per_day: 3.2581
+  repo_per_active_day: 0.1290
   not_owned_ratio: 0.5000
   basename_concentration: 0.2500
   shapes: []
@@ -65,18 +65,26 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 105
+    pushes: 101
     distinct_repos: 4
-    pushes_per_repo: 26.2500
-    active_days: 32
+    pushes_per_repo: 25.2500
+    active_days: 31
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 32 active days in 90d — pass"
+  - "activity: 31 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "gobii-api-swift"
+    title: "gobii-api-swift"
+    description: null
+    language: "Swift"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2025-06-25"
   - name: "breakout-helper"
     title: "breakout-helper"
     description: null
@@ -109,14 +117,6 @@ repos:
     stars_fact: 1
     first_seen: null
     last_push: "2025-07-12"
-  - name: "gobii-api-swift"
-    title: "gobii-api-swift"
-    description: null
-    language: "Swift"
-    topics: []
-    stars_fact: 3
-    first_seen: null
-    last_push: "2025-06-25"
   - name: "ollama-tls"
     title: "ollama-tls"
     description: null
@@ -129,6 +129,6 @@ repos:
 
 # matt-greathouse
 
-105 pushes across 4 repositories on 32 active days in the last 90 days of public GitHub push activity.
+101 pushes across 4 repositories on 31 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/matt-greathouse

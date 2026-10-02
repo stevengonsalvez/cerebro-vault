@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "234088bc43763aa2"
 pushes_per_week: [6, 5, 4, 0, 0, 0, 0, 0, 0, 0, 2, 0, 1]
@@ -77,14 +77,6 @@ reasons:
   - "activity: 14 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "givenergy-simulator"
-    title: "givenergy-simulator"
-    description: "Digital twin of a GivEnergy solar + battery plant for testing client apps"
-    language: "Rust"
-    topics: []
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-08-28"
   - name: "home-energy-manager"
     title: "home-energy-manager"
     description: "Desktop app for monitoring and controlling GivEnergy solar inverters over your local network — no cloud account needed"
@@ -100,7 +92,15 @@ repos:
       - "tauri"
     stars_fact: 34
     first_seen: null
-    last_push: "2026-09-24"
+    last_push: "2026-10-01"
+  - name: "givenergy-simulator"
+    title: "givenergy-simulator"
+    description: "Digital twin of a GivEnergy solar + battery plant for testing client apps"
+    language: "Rust"
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-08-28"
   - name: "milsymbol-sidc"
     title: "milsymbol-sidc"
     description: "Fluent TypeScript builder for MIL-STD-2525E / APP-6 numeric (20-character) SIDC strings, for use with the milsymbol library"
@@ -125,7 +125,7 @@ repos:
       - "typescript"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-19"
+    last_push: "2026-09-26"
   - name: "castaway-beacon-defold"
     title: "castaway-beacon-defold"
     description: null

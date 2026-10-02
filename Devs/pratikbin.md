@@ -9,17 +9,17 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "73468cde177ddae6"
-pushes_per_week: [9, 2, 3, 0, 2, 8, 2, 5, 1, 1, 4, 3, 3]
+pushes_per_week: [9, 3, 2, 0, 2, 8, 3, 5, 0, 2, 3, 3, 3]
 windows:
   "7d":
-    pushes: 5
-    distinct_repos: 4
-    active_days: 3
-    repos_not_owned: 3
-    not_owned_basenames: 3
+    pushes: 3
+    distinct_repos: 2
+    active_days: 2
+    repos_not_owned: 2
+    not_owned_basenames: 2
     not_owned_owners: 2
   "30d":
     pushes: 11
@@ -49,12 +49,12 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 5
-    distinct_repos: 4
-    pushes_per_repo: 1.2500
-    active_days: 3
-    repos_not_owned: 3
-    not_owned_basenames: 3
+    pushes: 3
+    distinct_repos: 2
+    pushes_per_repo: 1.5000
+    active_days: 2
+    repos_not_owned: 2
+    not_owned_basenames: 2
     not_owned_owners: 2
   "30d":
     pushes: 11
@@ -100,9 +100,9 @@ repos:
       - "secrets-management"
       - "security"
       - "typescript"
-    stars_fact: 1
+    stars_fact: 2
     first_seen: null
-    last_push: "2026-09-24"
+    last_push: "2026-10-01"
   - name: "hotspot-ttl"
     title: "hotspot-ttl"
     description: "macOS menu-bar app that auto-masks carrier tethering detection — sets IP TTL/hop-limit to 65 on iPhone/Android hotspots and restores your default otherwise. Native Swift, event-driven, zero dependencies."

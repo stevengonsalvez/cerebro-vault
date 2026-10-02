@@ -8,11 +8,11 @@ provenance_repos:
   - "asamassekou10/ship-safe"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+repos_populated: false
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "9e2ff10d772b1e71"
-pushes_per_week: [1, 9, 8, 4, 7, 17, 3, 0, 1, 0, 2, 4, 0]
+pushes_per_week: [2, 9, 8, 3, 12, 15, 0, 0, 1, 0, 2, 4, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,96 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 26 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "xianjianlf2"
-    title: "xianjianlf2"
-    description: "Mark Xian — AI products, developer tools, and open-source contributions."
-    language: null
-    topics:
-      - "ai"
-      - "github-profile"
-      - "portfolio"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-25"
-  - name: "app_background_utils"
-    title: "app_background_utils"
-    description: "Flutter plugin for sending an Android app to the background and returning to the system home screen."
-    language: "Dart"
-    topics:
-      - "android"
-      - "dart"
-      - "flutter"
-      - "flutter-plugin"
-    stars_fact: 3
-    first_seen: null
-    last_push: "2021-01-22"
-  - name: "kintio"
-    title: "kintio"
-    description: "Connect chat channels to an Agent you control."
-    language: null
-    topics:
-      - "ai-agent"
-      - "codex"
-      - "mcp"
-      - "self-hosted"
-      - "typescript"
-      - "wechat"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-29"
-  - name: "app_sample"
-    title: "app_sample"
-    description: "基于 HTML 和 Tailwind CSS 的移动端应用原型：主页、账单、统计和个人中心。"
-    language: "HTML"
-    topics:
-      - "html"
-      - "prototype"
-      - "tailwindcss"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2025-03-22"
-  - name: "tiktok-clone"
-    title: "tiktok-clone"
-    description: "基于 Nuxt 3、Pinia 和 Tailwind CSS 的短视频应用练习：视频流、上传、登录和个人主页。"
-    language: "Vue"
-    topics:
-      - "clone"
-      - "nuxt3"
-      - "pinia"
-      - "tailwindcss"
-      - "vue3"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-06-22"
-  - name: "MindGeniusAI"
-    title: "MindGeniusAI"
-    description: "An AI agent that reads your PDFs and draws editable mind maps — visible tool-calling loop, built-in RAG, bring-your-own-key, multi-provider (OpenAI / Claude / DeepSeek / Kimi). Self-hostable."
-    language: "TypeScript"
-    topics:
-      - "agent"
-      - "ai"
-      - "ai-agent"
-      - "antv-x6"
-      - "bring-your-own-key"
-      - "chatgpt"
-      - "claude"
-      - "deepseek"
-      - "hono"
-      - "kimi"
-      - "llm"
-      - "mind-map"
-      - "mindmap"
-      - "openai"
-      - "productivity"
-      - "rag"
-      - "react"
-      - "self-hosted"
-      - "typescript"
-      - "vercel-ai-sdk"
-    stars_fact: 281
-    first_seen: null
-    last_push: "2026-06-29"
+repos: []
 ---
 
 # xianjianlf2

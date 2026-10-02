@@ -8,8 +8,8 @@ provenance_repos:
   - "ChromeDevTools/chrome-devtools-mcp"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+repos_populated: false
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "379642deb53f3714"
 pushes_per_week: [0, 0, 5, 1, 1, 0, 0, 0, 0, 0, 0, 0, 1]
@@ -76,55 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "fluxframe"
-    title: "fluxframe"
-    description: "Higgsfield Clone - AI visual creative studio built with React, TypeScript, Vite, Tailwind CSS, and Zustand"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-29"
-  - name: "VoltNet"
-    title: "VoltNet"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-16"
-  - name: "forge-llm"
-    title: "forge-llm"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-10"
-  - name: "LeNet-5"
-    title: "LeNet-5"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-10"
-  - name: "yes-browser"
-    title: "yes-browser"
-    description: null
-    language: "Rust"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-05"
-  - name: "fast-py-pm"
-    title: "fast-py-pm"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-03"
+repos: []
 ---
 
 # yasirusman85

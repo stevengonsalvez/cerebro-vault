@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "745308b2b7085095"
-pushes_per_week: [0, 2, 5, 3, 0, 0, 0, 0, 0, 0, 1, 1, 8]
+pushes_per_week: [0, 5, 2, 3, 0, 0, 0, 0, 0, 0, 1, 2, 7]
 windows:
   "7d":
     pushes: 8
@@ -77,6 +77,14 @@ reasons:
   - "activity: 14 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "stamppot"
+    title: "stamppot"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-30"
   - name: "trakoo"
     title: "trakoo"
     description: "A highly typed, zero-dependency, provider-agnostic analytics library for TypeScript"
@@ -87,7 +95,15 @@ repos:
       - "tracking"
     stars_fact: 3
     first_seen: null
-    last_push: "2026-09-24"
+    last_push: "2026-09-30"
+  - name: "reword"
+    title: "reword"
+    description: "Click text on any live page, edit it in place, copy one prompt your coding agent can apply."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-25"
   - name: "better-auth-ui-svelte"
     title: "better-auth-ui-svelte"
     description: "Beautiful shadcn/ui components in Svelte built for better-auth."
@@ -96,14 +112,6 @@ repos:
     stars_fact: 17
     first_seen: null
     last_push: "2026-07-02"
-  - name: "stamppot"
-    title: "stamppot"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-05"
   - name: "po-genie"
     title: "po-genie"
     description: null
@@ -118,14 +126,6 @@ repos:
     language: "TypeScript"
     topics: []
     stars_fact: 2
-    first_seen: null
-    last_push: "2026-07-29"
-  - name: "leat-docs"
-    title: "leat-docs"
-    description: null
-    language: "MDX"
-    topics: []
-    stars_fact: 0
     first_seen: null
     last_push: "2026-07-29"
 ---

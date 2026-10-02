@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "1be978947e68d1f2"
-pushes_per_week: [50, 30, 20, 8, 12, 19, 8, 15, 0, 3, 2, 2, 5]
+pushes_per_week: [52, 23, 21, 11, 8, 24, 3, 15, 0, 3, 2, 2, 10]
 windows:
   "7d":
-    pushes: 5
+    pushes: 10
     distinct_repos: 2
-    active_days: 2
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 12
+    pushes: 17
     distinct_repos: 5
-    active_days: 7
+    active_days: 9
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
     pushes: 174
     distinct_repos: 7
-    active_days: 47
+    active_days: 49
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 3.7021
-  repo_per_active_day: 0.1489
+  push_per_day: 3.5510
+  repo_per_active_day: 0.1429
   not_owned_ratio: 0.0000
   basename_concentration: 0.1429
   shapes: []
@@ -49,18 +49,18 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 5
+    pushes: 10
     distinct_repos: 2
-    pushes_per_repo: 2.5000
-    active_days: 2
+    pushes_per_repo: 5.0000
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 12
+    pushes: 17
     distinct_repos: 5
-    pushes_per_repo: 2.4000
-    active_days: 7
+    pushes_per_repo: 3.4000
+    active_days: 9
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -68,15 +68,76 @@ facets:
     pushes: 174
     distinct_repos: 7
     pushes_per_repo: 24.8571
-    active_days: 47
+    active_days: 49
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 47 active days in 90d — pass"
+  - "activity: 49 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "ai"
+    title: "ai"
+    description: null
+    language: "Shell"
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-10-02"
+  - name: "shell_rc"
+    title: "shell_rc"
+    description: null
+    language: "Shell"
+    topics: []
+    stars_fact: 6
+    first_seen: null
+    last_push: "2026-10-02"
+  - name: "deb"
+    title: "deb"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-10-02"
+  - name: "chadtree"
+    title: "chadtree"
+    description: "File manager for Neovim. Better than NERDTree."
+    language: "Python"
+    topics:
+      - "chad"
+      - "colours"
+      - "devicons"
+      - "file-explorer"
+      - "file-manager"
+      - "github-colours"
+      - "neovim"
+      - "neovim-plugin"
+      - "nerdtree"
+      - "nvim"
+      - "python"
+      - "tree"
+    stars_fact: 1688
+    first_seen: null
+    last_push: "2026-10-02"
+  - name: "sad"
+    title: "sad"
+    description: "CLI search and replace | Space Age seD"
+    language: "Rust"
+    topics:
+      - "cli"
+      - "command-line"
+      - "diff"
+      - "editing"
+      - "fzf"
+      - "rust"
+      - "sed"
+      - "terminal"
+      - "tui"
+    stars_fact: 2046
+    first_seen: null
+    last_push: "2026-05-11"
   - name: "coq_nvim"
     title: "coq_nvim"
     description: "Fast as FUCK nvim completion. SQLite, concurrent scheduler, hundreds of hours of optimization."
@@ -85,55 +146,13 @@ repos:
       - "completion"
       - "neovim"
       - "neovim-plugin"
-    stars_fact: 3815
-    first_seen: null
-    last_push: "2026-09-22"
-  - name: "deb"
-    title: "deb"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-09-24"
-  - name: "ai"
-    title: "ai"
-    description: null
-    language: "Shell"
-    topics: []
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-09-23"
-  - name: "shell_rc"
-    title: "shell_rc"
-    description: null
-    language: "Shell"
-    topics: []
-    stars_fact: 6
-    first_seen: null
-    last_push: "2026-09-23"
-  - name: "lua-async-await"
-    title: "lua-async-await"
-    description: "Async Await in 90 lines of code."
-    language: "Lua"
-    topics:
-      - "lua"
-      - "neovim"
-    stars_fact: 378
-    first_seen: null
-    last_push: "2024-11-19"
-  - name: "lab"
-    title: "lab"
-    description: "We have cloud at home"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 15
+    stars_fact: 3812
     first_seen: null
     last_push: "2026-09-22"
 ---
 
 # ms-jpq
 
-174 pushes across 7 repositories on 47 active days in the last 90 days of public GitHub push activity.
+174 pushes across 7 repositories on 49 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ms-jpq

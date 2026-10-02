@@ -9,18 +9,18 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+generated_at: "2026-10-02T06:06:48.484172+00:00"
 provenance:
   - "6d3bd03b49986330"
-pushes_per_week: [2, 0, 5, 4, 1, 2, 0, 1, 1, 1, 0, 1, 3]
+pushes_per_week: [2, 1, 4, 4, 1, 2, 0, 2, 0, 1, 0, 1, 3]
 windows:
   "7d":
-    pushes: 4
-    distinct_repos: 2
-    active_days: 3
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 3
+    distinct_repos: 1
+    active_days: 2
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
     pushes: 5
     distinct_repos: 3
@@ -49,13 +49,13 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 4
-    distinct_repos: 2
-    pushes_per_repo: 2.0000
-    active_days: 3
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 3
+    distinct_repos: 1
+    pushes_per_repo: 3.0000
+    active_days: 2
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
     pushes: 5
     distinct_repos: 3
@@ -77,23 +77,6 @@ reasons:
   - "activity: 17 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "Echo_FLOW"
-    title: "Echo_FLOW"
-    description: "Local-first voice dictation for Windows. Whisper transcription + on-device LLM cleanup that learns your voice; offline by default, with a 1577-test suite."
-    language: "Python"
-    topics:
-      - "llm"
-      - "local-first"
-      - "ollama"
-      - "privacy"
-      - "python"
-      - "speech-to-text"
-      - "voice-dictation"
-      - "whisper"
-      - "windows"
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-09-24"
   - name: "pixelpets"
     title: "pixelpets"
     description: "A cute pixel cat or dog that lives on your desktop. It watches your cursor, reacts when you type, purrs or pants when you pet it, and plays fetch on its own. 14 cat coats and a Black Lab, 100% original art and procedural sound. Try it in your browser, no install."
@@ -117,7 +100,7 @@ repos:
       - "windows"
     stars_fact: 9
     first_seen: null
-    last_push: "2026-09-18"
+    last_push: "2026-10-02"
   - name: "vesper"
     title: "vesper"
     description: "A voice copilot driven by the Claude Code CLI. Local speech in and out, ambient machine awareness, no API key."
@@ -125,7 +108,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-16"
+    last_push: "2026-09-30"
   - name: "JOhnsonKC201"
     title: "JOhnsonKC201"
     description: "Config files for my GitHub profile."
@@ -135,7 +118,24 @@ repos:
       - "github-config"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-14"
+    last_push: "2026-09-28"
+  - name: "Echo_FLOW"
+    title: "Echo_FLOW"
+    description: "Local-first voice dictation for Windows. Whisper transcription + on-device LLM cleanup that learns your voice; offline by default, with a 1577-test suite."
+    language: "Python"
+    topics:
+      - "llm"
+      - "local-first"
+      - "ollama"
+      - "privacy"
+      - "python"
+      - "speech-to-text"
+      - "voice-dictation"
+      - "whisper"
+      - "windows"
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-09-30"
 ---
 
 # JOhnsonKC201
