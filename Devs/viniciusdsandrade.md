@@ -8,16 +8,16 @@ provenance_repos:
   - "akitaonrails/ai-memory"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-02T06:06:48.484172+00:00"
+repos_populated: true
+generated_at: "2026-10-03T06:07:13.763334+00:00"
 provenance:
   - "4138778ebbc75ba6"
-pushes_per_week: [2, 0, 1, 2, 0, 0, 0, 0, 0, 0, 0, 4, 2]
+pushes_per_week: [2, 1, 0, 2, 0, 0, 0, 0, 0, 0, 1, 3, 2]
 windows:
   "7d":
-    pushes: 3
-    distinct_repos: 3
-    active_days: 2
+    pushes: 2
+    distinct_repos: 2
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 3
-    distinct_repos: 3
+    pushes: 2
+    distinct_repos: 2
     pushes_per_repo: 1.0000
-    active_days: 2
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -76,7 +76,59 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 8 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "viniciusdsandrade"
+    title: "viniciusdsandrade"
+    description: "Config files for my GitHub profile."
+    language: null
+    topics:
+      - "config"
+      - "dev"
+      - "front-end"
+      - "github-config"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-28"
+  - name: "localiza-database-clone-with-postgres"
+    title: "localiza-database-clone-with-postgres"
+    description: null
+    language: "PLpgSQL"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-20"
+  - name: "modebench"
+    title: "modebench"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-20"
+  - name: "foody-delivery-technical-test"
+    title: "foody-delivery-technical-test"
+    description: null
+    language: "Java"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-07-31"
+  - name: "transactional-outbox-and-idempotent-consumer"
+    title: "transactional-outbox-and-idempotent-consumer"
+    description: null
+    language: "Java"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-07-18"
+  - name: "technical-test-senior-software-engineer"
+    title: "technical-test-senior-software-engineer"
+    description: "Senior-grade scalable file-storage architecture in Kotlin/Java for large files using S3 multipart uploads with pre-signed URLs, resumable transfers, CloudFront CDN downloads, Aurora metadata, Redis support, and SNS/SQS event-driven workers for antivirus scanning, OCR, thumbnails, metadata extraction, retries, idempotency, DLQs, and fault tolerance."
+    language: "Kotlin"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-07-08"
 ---
 
 # viniciusdsandrade

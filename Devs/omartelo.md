@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-02T06:06:48.484172+00:00"
+generated_at: "2026-10-03T06:07:13.763334+00:00"
 provenance:
   - "4138778ebbc75ba6"
-pushes_per_week: [18, 19, 8, 23, 5, 33, 4, 5, 0, 4, 3, 4, 2]
+pushes_per_week: [14, 19, 16, 15, 6, 32, 4, 5, 0, 4, 6, 1, 2]
 windows:
   "7d":
     pushes: 2
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 128
+    pushes: 124
     distinct_repos: 10
-    active_days: 42
+    active_days: 41
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 3.0476
-  repo_per_active_day: 0.2381
+  push_per_day: 3.0244
+  repo_per_active_day: 0.2439
   not_owned_ratio: 0.3000
   basename_concentration: 0.2000
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 128
+    pushes: 124
     distinct_repos: 10
-    pushes_per_repo: 12.8000
-    active_days: 42
+    pushes_per_repo: 12.4000
+    active_days: 41
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 42 active days in 90d — pass"
+  - "activity: 41 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "nfse4j"
@@ -141,6 +141,6 @@ repos:
 
 # omartelo
 
-128 pushes across 10 repositories on 42 active days in the last 90 days of public GitHub push activity.
+124 pushes across 10 repositories on 41 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/omartelo

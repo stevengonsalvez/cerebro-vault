@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-02T06:06:48.484172+00:00"
+generated_at: "2026-10-03T06:07:13.763334+00:00"
 provenance:
   - "1be978947e68d1f2"
-pushes_per_week: [160, 145, 51, 27, 18, 79, 50, 45, 4, 20, 35, 43, 17]
+pushes_per_week: [92, 162, 36, 25, 26, 80, 50, 37, 5, 23, 42, 31, 19]
 windows:
   "7d":
-    pushes: 17
+    pushes: 19
     distinct_repos: 1
-    active_days: 4
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 115
+    pushes: 117
     distinct_repos: 1
-    active_days: 22
+    active_days: 23
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 694
+    pushes: 628
     distinct_repos: 2
     active_days: 72
     repos_not_owned: 0
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 9.6389
+  push_per_day: 8.7222
   repo_per_active_day: 0.0278
   not_owned_ratio: 0.0000
   basename_concentration: 0.5000
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 17
+    pushes: 19
     distinct_repos: 1
-    pushes_per_repo: 17.0000
-    active_days: 4
+    pushes_per_repo: 19.0000
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 115
+    pushes: 117
     distinct_repos: 1
-    pushes_per_repo: 115.0000
-    active_days: 22
+    pushes_per_repo: 117.0000
+    active_days: 23
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 694
+    pushes: 628
     distinct_repos: 2
-    pushes_per_repo: 347.0000
+    pushes_per_repo: 314.0000
     active_days: 72
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -168,6 +168,6 @@ repos:
 
 # anthony-chaudhary
 
-694 pushes across 2 repositories on 72 active days in the last 90 days of public GitHub push activity.
+628 pushes across 2 repositories on 72 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/anthony-chaudhary

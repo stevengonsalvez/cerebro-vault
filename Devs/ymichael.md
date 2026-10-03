@@ -8,43 +8,43 @@ provenance_repos:
   - "ymichael/bb"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-02T06:06:48.484172+00:00"
+repos_populated: true
+generated_at: "2026-10-03T06:07:13.763334+00:00"
 provenance:
   - "419a4253687fd7a1"
-pushes_per_week: [0, 0, 0, 0, 18, 48, 13, 1, 0, 12, 12, 24, 26]
+pushes_per_week: [0, 0, 0, 0, 19, 48, 12, 1, 0, 14, 14, 22, 45]
 windows:
   "7d":
-    pushes: 33
-    distinct_repos: 1
-    active_days: 7
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
-  "30d":
-    pushes: 74
+    pushes: 45
     distinct_repos: 2
-    active_days: 21
+    active_days: 5
     repos_not_owned: 2
+    not_owned_basenames: 1
+    not_owned_owners: 2
+  "30d":
+    pushes: 95
+    distinct_repos: 3
+    active_days: 21
+    repos_not_owned: 3
     not_owned_basenames: 2
-    not_owned_owners: 1
+    not_owned_owners: 2
   "90d":
-    pushes: 154
-    distinct_repos: 8
+    pushes: 175
+    distinct_repos: 9
     active_days: 38
-    repos_not_owned: 7
+    repos_not_owned: 8
     not_owned_basenames: 2
-    not_owned_owners: 6
+    not_owned_owners: 7
 automation:
   state: "clear"
-  push_per_day: 4.0526
-  repo_per_active_day: 0.2105
-  not_owned_ratio: 0.8750
-  basename_concentration: 0.8750
+  push_per_day: 4.6053
+  repo_per_active_day: 0.2368
+  not_owned_ratio: 0.8889
+  basename_concentration: 0.8889
   shapes:
     - "fork_farm_third_party"
   shape_evidence:
-    - "basename concentration 0.8750 (7 of 8 repos share one basename), 7 not owned across 2 basenames — 5 of 5 sampled repos resolved; 4 fork somebody else's repo; 1 are not forks at all; upstreams: get-bb/bb"
+    - "basename concentration 0.8889 (8 of 9 repos share one basename), 8 not owned across 2 basenames — 5 of 5 sampled repos resolved; 4 fork somebody else's repo; 1 are not forks at all; upstreams: get-bb/bb"
   cleared_by: "e01-builder"
   cleared_on: "2026-08-26"
   fork_provenance:
@@ -59,44 +59,95 @@ automation:
       - "galligan/bb"
       - "get-bb/bb"
       - "jerrison/bb"
-      - "MPIsaac-Per/bb"
+      - "maheen-ejaz/bb"
     upstreams:
       - "get-bb/bb"
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 33
-    distinct_repos: 1
-    pushes_per_repo: 33.0000
-    active_days: 7
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
-  "30d":
-    pushes: 74
+    pushes: 45
     distinct_repos: 2
-    pushes_per_repo: 37.0000
-    active_days: 21
+    pushes_per_repo: 22.5000
+    active_days: 5
     repos_not_owned: 2
+    not_owned_basenames: 1
+    not_owned_owners: 2
+  "30d":
+    pushes: 95
+    distinct_repos: 3
+    pushes_per_repo: 31.6667
+    active_days: 21
+    repos_not_owned: 3
     not_owned_basenames: 2
-    not_owned_owners: 1
+    not_owned_owners: 2
   "90d":
-    pushes: 154
-    distinct_repos: 8
-    pushes_per_repo: 19.2500
+    pushes: 175
+    distinct_repos: 9
+    pushes_per_repo: 19.4444
     active_days: 38
-    repos_not_owned: 7
+    repos_not_owned: 8
     not_owned_basenames: 2
-    not_owned_owners: 6
+    not_owned_owners: 7
 reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 38 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "bb-plugins"
+    title: "bb-plugins"
+    description: "BB plugins by Michael Yong"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-09-25"
+  - name: "cprofilev"
+    title: "cprofilev"
+    description: ":fire: An easier way to use cProfile"
+    language: "Python"
+    topics: []
+    stars_fact: 424
+    first_seen: null
+    last_push: "2016-02-01"
+  - name: "WidgetSpinner"
+    title: "WidgetSpinner"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2022-07-29"
+  - name: "dotfiles"
+    title: "dotfiles"
+    description: null
+    language: "Shell"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-20"
+  - name: "everdell"
+    title: "everdell"
+    description: "🐿️ Play Everdell Online!"
+    language: "TypeScript"
+    topics:
+      - "board-game"
+      - "everdell"
+      - "game"
+    stars_fact: 45
+    first_seen: null
+    last_push: "2025-03-18"
+  - name: "mill-timezone-app"
+    title: "mill-timezone-app"
+    description: null
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-02-05"
 ---
 
 # ymichael
 
-154 pushes across 8 repositories on 38 active days in the last 90 days of public GitHub push activity.
+175 pushes across 9 repositories on 38 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ymichael

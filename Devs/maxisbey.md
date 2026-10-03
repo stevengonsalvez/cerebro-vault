@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-02T06:06:48.484172+00:00"
+generated_at: "2026-10-03T06:07:13.763334+00:00"
 provenance:
   - "1be978947e68d1f2"
-pushes_per_week: [7, 6, 9, 23, 0, 1, 3, 1, 0, 0, 0, 0, 1]
+pushes_per_week: [7, 6, 16, 16, 0, 1, 3, 1, 0, 0, 0, 0, 3]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
-    repos_not_owned: 1
-    not_owned_basenames: 1
+    pushes: 3
+    distinct_repos: 2
+    active_days: 2
+    repos_not_owned: 2
+    not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
-    repos_not_owned: 1
-    not_owned_basenames: 1
+    pushes: 3
+    distinct_repos: 2
+    active_days: 2
+    repos_not_owned: 2
+    not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 51
+    pushes: 53
     distinct_repos: 3
-    active_days: 21
+    active_days: 22
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.4286
-  repo_per_active_day: 0.1429
+  push_per_day: 2.4091
+  repo_per_active_day: 0.1364
   not_owned_ratio: 0.6667
   basename_concentration: 0.3333
   shapes: []
@@ -49,38 +49,38 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
-    repos_not_owned: 1
-    not_owned_basenames: 1
+    pushes: 3
+    distinct_repos: 2
+    pushes_per_repo: 1.5000
+    active_days: 2
+    repos_not_owned: 2
+    not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
-    repos_not_owned: 1
-    not_owned_basenames: 1
+    pushes: 3
+    distinct_repos: 2
+    pushes_per_repo: 1.5000
+    active_days: 2
+    repos_not_owned: 2
+    not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 51
+    pushes: 53
     distinct_repos: 3
-    pushes_per_repo: 17.0000
-    active_days: 21
+    pushes_per_repo: 17.6667
+    active_days: 22
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 21 active days in 90d — pass"
+  - "activity: 22 active days in 90d — pass"
   - "automation: clear — pass"
 repos: []
 ---
 
 # maxisbey
 
-51 pushes across 3 repositories on 21 active days in the last 90 days of public GitHub push activity.
+53 pushes across 3 repositories on 22 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/maxisbey

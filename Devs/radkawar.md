@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-02T06:06:48.484172+00:00"
+generated_at: "2026-10-03T06:07:13.763334+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [0, 1, 0, 0, 1, 1, 0, 0, 0, 0, 0, 4, 2]
+pushes_per_week: [0, 1, 0, 1, 0, 1, 0, 0, 0, 0, 0, 4, 2]
 windows:
   "7d":
-    pushes: 4
+    pushes: 2
     distinct_repos: 1
-    active_days: 3
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 4
+    pushes: 2
     distinct_repos: 1
-    pushes_per_repo: 4.0000
-    active_days: 3
+    pushes_per_repo: 2.0000
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -77,6 +77,27 @@ reasons:
   - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "aws-firmware-dump"
+    title: "aws-firmware-dump"
+    description: null
+    language: "Shell"
+    topics: []
+    stars_fact: 12
+    first_seen: null
+    last_push: "2026-10-02"
+  - name: "screenlogger"
+    title: "screenlogger"
+    description: "Private, searchable screen history for macOS."
+    language: "Swift"
+    topics:
+      - "macos"
+      - "ocr"
+      - "screen-capture"
+      - "sqlite"
+      - "swift"
+    stars_fact: 22
+    first_seen: null
+    last_push: "2026-08-21"
   - name: "nix"
     title: "nix"
     description: null
@@ -93,19 +114,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-09-10"
-  - name: "screenlogger"
-    title: "screenlogger"
-    description: "Private, searchable screen history for macOS."
-    language: "Swift"
-    topics:
-      - "macos"
-      - "ocr"
-      - "screen-capture"
-      - "sqlite"
-      - "swift"
-    stars_fact: 21
-    first_seen: null
-    last_push: "2026-08-21"
   - name: "extenddb-docker"
     title: "extenddb-docker"
     description: "Unofficial multi-arch ExtendDB images for GHCR (linux/amd64, linux/arm64)"
@@ -122,14 +130,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-08-03"
-  - name: "srcmap-ext"
-    title: "srcmap-ext"
-    description: null
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-07-28"
 ---
 
 # radkawar

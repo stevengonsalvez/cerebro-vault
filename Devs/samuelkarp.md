@@ -8,11 +8,11 @@ provenance_repos:
   - "agavra/tuicr"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-02T06:06:48.484172+00:00"
+repos_populated: true
+generated_at: "2026-10-03T06:07:13.763334+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [3, 1, 4, 3, 0, 0, 1, 0, 0, 1, 1, 2, 0]
+pushes_per_week: [2, 1, 4, 3, 0, 0, 1, 0, 0, 1, 1, 2, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 16
+    pushes: 15
     distinct_repos: 6
-    active_days: 14
+    active_days: 13
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.1429
-  repo_per_active_day: 0.4286
+  push_per_day: 1.1538
+  repo_per_active_day: 0.4615
   not_owned_ratio: 0.3333
   basename_concentration: 0.3333
   shapes: []
@@ -65,22 +65,76 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 16
+    pushes: 15
     distinct_repos: 6
-    pushes_per_repo: 2.6667
-    active_days: 14
+    pushes_per_repo: 2.5000
+    active_days: 13
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 14 active days in 90d — pass"
+  - "activity: 13 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "git-ghsa"
+    title: "git-ghsa"
+    description: null
+    language: "Go"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-30"
+  - name: "go.sbk.wtf"
+    title: "go.sbk.wtf"
+    description: null
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-30"
+  - name: "better-ghsa"
+    title: "better-ghsa"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-09-30"
+  - name: "skills"
+    title: "skills"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-11"
+  - name: "runj"
+    title: "runj"
+    description: "runj is an experimental, proof-of-concept OCI-compatible runtime for FreeBSD jails."
+    language: "Go"
+    topics:
+      - "containers"
+      - "freebsd"
+      - "freebsd-jail"
+      - "jails"
+      - "oci"
+      - "open-containers"
+    stars_fact: 675
+    first_seen: null
+    last_push: "2026-09-25"
+  - name: "samuelkarp.com"
+    title: "samuelkarp.com"
+    description: "https://samuelkarp.com"
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-17"
 ---
 
 # samuelkarp
 
-16 pushes across 6 repositories on 14 active days in the last 90 days of public GitHub push activity.
+15 pushes across 6 repositories on 13 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/samuelkarp

@@ -8,37 +8,37 @@ provenance_repos:
   - "akitaonrails/ai-memory"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-02T06:06:48.484172+00:00"
+repos_populated: true
+generated_at: "2026-10-03T06:07:13.763334+00:00"
 provenance:
   - "4138778ebbc75ba6"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 72, 100]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 89, 90]
 windows:
   "7d":
-    pushes: 115
+    pushes: 102
     distinct_repos: 1
     active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 172
+    pushes: 181
     distinct_repos: 1
-    active_days: 14
+    active_days: 15
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 172
+    pushes: 181
     distinct_repos: 1
-    active_days: 14
+    active_days: 15
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 12.2857
-  repo_per_active_day: 0.0714
+  push_per_day: 12.0667
+  repo_per_active_day: 0.0667
   not_owned_ratio: 0.0000
   basename_concentration: 1.0000
   shapes: []
@@ -49,38 +49,46 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 115
+    pushes: 102
     distinct_repos: 1
-    pushes_per_repo: 115.0000
+    pushes_per_repo: 102.0000
     active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 172
+    pushes: 181
     distinct_repos: 1
-    pushes_per_repo: 172.0000
-    active_days: 14
+    pushes_per_repo: 181.0000
+    active_days: 15
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 172
+    pushes: 181
     distinct_repos: 1
-    pushes_per_repo: 172.0000
-    active_days: 14
+    pushes_per_repo: 181.0000
+    active_days: 15
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 14 active days in 90d — pass"
+  - "activity: 15 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "native-agent-stack"
+    title: "native-agent-stack"
+    description: "Evidence-led convergence for native Codex and Claude: scoped context, isolated workers, pinned upstream decisions, reproducible qualification and recovery."
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-03"
 ---
 
 # seathatflowsinourveins
 
-172 pushes across 1 repository on 14 active days in the last 90 days of public GitHub push activity.
+181 pushes across 1 repository on 15 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/seathatflowsinourveins

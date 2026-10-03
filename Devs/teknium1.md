@@ -11,45 +11,45 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-02T06:06:48.484172+00:00"
+generated_at: "2026-10-03T06:07:13.763334+00:00"
 provenance:
   - "48dbbdd8fd0d3029"
   - "ec2b8bd43eefd65f"
-pushes_per_week: [128, 66, 85, 80, 30, 111, 77, 46, 7, 28, 157, 282, 99]
+pushes_per_week: [120, 73, 82, 85, 34, 124, 48, 47, 6, 34, 239, 213, 102]
 windows:
   "7d":
-    pushes: 100
-    distinct_repos: 16
+    pushes: 120
+    distinct_repos: 19
     active_days: 7
-    repos_not_owned: 15
-    not_owned_basenames: 2
-    not_owned_owners: 15
-  "30d":
-    pushes: 566
-    distinct_repos: 40
-    active_days: 25
-    repos_not_owned: 38
-    not_owned_basenames: 3
-    not_owned_owners: 37
-  "90d":
-    pushes: 1196
-    distinct_repos: 48
-    active_days: 75
-    repos_not_owned: 45
+    repos_not_owned: 18
     not_owned_basenames: 4
-    not_owned_owners: 43
+    not_owned_owners: 17
+  "30d":
+    pushes: 588
+    distinct_repos: 45
+    active_days: 26
+    repos_not_owned: 43
+    not_owned_basenames: 5
+    not_owned_owners: 41
+  "90d":
+    pushes: 1207
+    distinct_repos: 53
+    active_days: 75
+    repos_not_owned: 50
+    not_owned_basenames: 6
+    not_owned_owners: 47
 automation:
   state: "clear"
-  push_per_day: 15.9467
-  repo_per_active_day: 0.6400
-  not_owned_ratio: 0.9375
-  basename_concentration: 0.8750
+  push_per_day: 16.0933
+  repo_per_active_day: 0.7067
+  not_owned_ratio: 0.9434
+  basename_concentration: 0.8491
   shapes:
     - "high_push_rate"
     - "fork_farm_third_party"
   shape_evidence:
-    - "15.95 pushes per active day over 90d (1196 pushes / 75 active days), above the 15 review line"
-    - "basename concentration 0.8750 (42 of 48 repos share one basename), 45 not owned across 4 basenames — 5 of 5 sampled repos resolved; 5 fork somebody else's repo; upstreams: NousResearch/hermes-agent"
+    - "16.09 pushes per active day over 90d (1207 pushes / 75 active days), above the 15 review line"
+    - "basename concentration 0.8491 (45 of 53 repos share one basename), 50 not owned across 6 basenames — 5 of 5 sampled repos resolved; 5 fork somebody else's repo; upstreams: NousResearch/hermes-agent"
   cleared_by: "e01-builder"
   cleared_on: "2026-08-26"
   fork_provenance:
@@ -60,39 +60,39 @@ automation:
     unresolved: 0
     truncated: false
     sampled:
+      - "0x7s0lt1/hermes-agent"
       - "ajensenwaud/hermes-agent"
       - "amekala/hermes-agent"
       - "AndreasHiltner/hermes-agent"
       - "anpicasso/hermes-agent"
-      - "apoapostolov/hermes-agent"
     upstreams:
       - "NousResearch/hermes-agent"
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 100
-    distinct_repos: 16
-    pushes_per_repo: 6.2500
+    pushes: 120
+    distinct_repos: 19
+    pushes_per_repo: 6.3158
     active_days: 7
-    repos_not_owned: 15
-    not_owned_basenames: 2
-    not_owned_owners: 15
-  "30d":
-    pushes: 566
-    distinct_repos: 40
-    pushes_per_repo: 14.1500
-    active_days: 25
-    repos_not_owned: 38
-    not_owned_basenames: 3
-    not_owned_owners: 37
-  "90d":
-    pushes: 1196
-    distinct_repos: 48
-    pushes_per_repo: 24.9167
-    active_days: 75
-    repos_not_owned: 45
+    repos_not_owned: 18
     not_owned_basenames: 4
-    not_owned_owners: 43
+    not_owned_owners: 17
+  "30d":
+    pushes: 588
+    distinct_repos: 45
+    pushes_per_repo: 13.0667
+    active_days: 26
+    repos_not_owned: 43
+    not_owned_basenames: 5
+    not_owned_owners: 41
+  "90d":
+    pushes: 1207
+    distinct_repos: 53
+    pushes_per_repo: 22.7736
+    active_days: 75
+    repos_not_owned: 50
+    not_owned_basenames: 6
+    not_owned_owners: 47
 reasons:
   - "provenance: 2 vault signal(s) — pass"
   - "activity: 75 active days in 90d — pass"
@@ -157,6 +157,6 @@ repos:
 
 # teknium1
 
-1196 pushes across 48 repositories on 75 active days in the last 90 days of public GitHub push activity.
+1207 pushes across 53 repositories on 75 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/teknium1

@@ -8,11 +8,11 @@ provenance_repos:
   - "calesthio/OpenMontage"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-02T06:06:48.484172+00:00"
+repos_populated: true
+generated_at: "2026-10-03T06:07:13.763334+00:00"
 provenance:
   - "6d3bd03b49986330"
-pushes_per_week: [89, 65, 64, 34, 16, 50, 26, 20, 3, 2, 0, 0, 0]
+pushes_per_week: [70, 74, 47, 37, 17, 52, 19, 16, 2, 2, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 369
+    pushes: 336
     distinct_repos: 2
-    active_days: 53
+    active_days: 52
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 6.9623
-  repo_per_active_day: 0.0377
+  push_per_day: 6.4615
+  repo_per_active_day: 0.0385
   not_owned_ratio: 0.0000
   basename_concentration: 0.5000
   shapes: []
@@ -65,22 +65,70 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 369
+    pushes: 336
     distinct_repos: 2
-    pushes_per_repo: 184.5000
-    active_days: 53
+    pushes_per_repo: 168.0000
+    active_days: 52
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 53 active days in 90d — pass"
+  - "activity: 52 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "video_generation"
+    title: "video_generation"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-15"
+  - name: "harness_dev"
+    title: "harness_dev"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-06-06"
+  - name: "bun_remotion"
+    title: "bun_remotion"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-05-04"
+  - name: "dev_mlx"
+    title: "dev_mlx"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-04-07"
+  - name: "ziyu4huang.github.io"
+    title: "ziyu4huang.github.io"
+    description: null
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2025-10-04"
+  - name: "i2c"
+    title: "i2c"
+    description: "i2c code for study GAI"
+    language: "Verilog"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2025-02-24"
 ---
 
 # ziyu4huang
 
-369 pushes across 2 repositories on 53 active days in the last 90 days of public GitHub push activity.
+336 pushes across 2 repositories on 52 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ziyu4huang

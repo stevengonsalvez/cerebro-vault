@@ -8,11 +8,11 @@ provenance_repos:
   - "AstrBotDevs/AstrBot"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-02T06:06:48.484172+00:00"
+repos_populated: true
+generated_at: "2026-10-03T06:07:13.763334+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [3, 2, 0, 0, 0, 4, 0, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [2, 2, 0, 0, 0, 4, 0, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 9
+    pushes: 8
     distinct_repos: 3
-    active_days: 7
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.2857
-  repo_per_active_day: 0.4286
+  push_per_day: 1.3333
+  repo_per_active_day: 0.5000
   not_owned_ratio: 0.0000
   basename_concentration: 0.3333
   shapes: []
@@ -65,22 +65,70 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 9
+    pushes: 8
     distinct_repos: 3
-    pushes_per_repo: 3.0000
-    active_days: 7
+    pushes_per_repo: 2.6667
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 7 active days in 90d — pass"
+  - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "astrbot_plugin_smart_filter"
+    title: "astrbot_plugin_smart_filter"
+    description: "An AstrBot filter for role play"
+    language: "Python"
+    topics: []
+    stars_fact: 16
+    first_seen: null
+    last_push: "2026-09-30"
+  - name: "role_play_godman"
+    title: "role_play_godman"
+    description: "一个让你无痛（血压除外）模拟神人的小游戏"
+    language: "Python"
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2025-10-14"
+  - name: "auto_undercover"
+    title: "auto_undercover"
+    description: "一个让AI自动玩谁是卧底的项目框架"
+    language: "Python"
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2025-12-13"
+  - name: "astrbot_free_RAG"
+    title: "astrbot_free_RAG"
+    description: "A plugin for astrbot that deal with your own knowledge base."
+    language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-02-05"
+  - name: "astrbot_plugin_daily_greet"
+    title: "astrbot_plugin_daily_greet"
+    description: "astrbot每日问候插件"
+    language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-02-27"
+  - name: "astrbot_plugin_hardworking"
+    title: "astrbot_plugin_hardworking"
+    description: "An AstrBot plugin which aims to alarm you when you want to work hard."
+    language: "Python"
+    topics: []
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-05-04"
 ---
 
 # Waterwzy
 
-9 pushes across 3 repositories on 7 active days in the last 90 days of public GitHub push activity.
+8 pushes across 3 repositories on 6 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Waterwzy

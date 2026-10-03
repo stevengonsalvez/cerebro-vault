@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-02T06:06:48.484172+00:00"
+generated_at: "2026-10-03T06:07:13.763334+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [3, 14, 5, 8, 3, 12, 20, 3, 0, 6, 8, 4, 3]
+pushes_per_week: [1, 14, 5, 8, 3, 14, 18, 3, 0, 7, 7, 5, 2]
 windows:
   "7d":
-    pushes: 3
+    pushes: 2
     distinct_repos: 1
-    active_days: 3
+    active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 89
+    pushes: 87
     distinct_repos: 3
-    active_days: 36
+    active_days: 34
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.4722
-  repo_per_active_day: 0.0833
+  push_per_day: 2.5588
+  repo_per_active_day: 0.0882
   not_owned_ratio: 0.6667
   basename_concentration: 0.3333
   shapes: []
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 3
+    pushes: 2
     distinct_repos: 1
-    pushes_per_repo: 3.0000
-    active_days: 3
+    pushes_per_repo: 2.0000
+    active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 89
+    pushes: 87
     distinct_repos: 3
-    pushes_per_repo: 29.6667
-    active_days: 36
+    pushes_per_repo: 29.0000
+    active_days: 34
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 36 active days in 90d — pass"
+  - "activity: 34 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "selenium-robots"
@@ -129,6 +129,6 @@ repos:
 
 # FabioLeitao
 
-89 pushes across 3 repositories on 36 active days in the last 90 days of public GitHub push activity.
+87 pushes across 3 repositories on 34 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/FabioLeitao

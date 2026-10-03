@@ -8,8 +8,8 @@ provenance_repos:
   - "agent-substrate/substrate"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-02T06:06:48.484172+00:00"
+repos_populated: true
+generated_at: "2026-10-03T06:07:13.763334+00:00"
 provenance:
   - "a5ffcd0a46dd44fd"
 pushes_per_week: [4, 5, 8, 5, 1, 3, 0, 0, 0, 1, 1, 0, 0]
@@ -76,7 +76,39 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 19 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "kubecon-demo"
+    title: "kubecon-demo"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-03-19"
+  - name: "gomodtest"
+    title: "gomodtest"
+    description: null
+    language: "Go"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2025-06-07"
+  - name: "flyteinteractive_demo"
+    title: "flyteinteractive_demo"
+    description: null
+    language: "Dockerfile"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2024-02-06"
+  - name: "troychiu.github.io"
+    title: "troychiu.github.io"
+    description: null
+    language: "CSS"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2023-09-08"
 ---
 
 # troychiu

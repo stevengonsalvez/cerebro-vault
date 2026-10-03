@@ -8,11 +8,11 @@ provenance_repos:
   - "BuilderIO/agent-native"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-02T06:06:48.484172+00:00"
+repos_populated: true
+generated_at: "2026-10-03T06:07:13.763334+00:00"
 provenance:
   - "745308b2b7085095"
-pushes_per_week: [7, 2, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6]
+pushes_per_week: [6, 2, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6]
 windows:
   "7d":
     pushes: 6
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 16
+    pushes: 15
     distinct_repos: 2
-    active_days: 10
+    active_days: 9
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.6000
-  repo_per_active_day: 0.2000
+  push_per_day: 1.6667
+  repo_per_active_day: 0.2222
   not_owned_ratio: 1.0000
   basename_concentration: 0.5000
   shapes: []
@@ -65,22 +65,70 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 16
+    pushes: 15
     distinct_repos: 2
-    pushes_per_repo: 8.0000
-    active_days: 10
+    pushes_per_repo: 7.5000
+    active_days: 9
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 10 active days in 90d — pass"
+  - "activity: 9 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "chrome-plugin"
+    title: "chrome-plugin"
+    description: "chrome-plugin scaffolding"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-18"
+  - name: "builder-testing-push-pr"
+    title: "builder-testing-push-pr"
+    description: "Created with Builder.io"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2025-11-25"
+  - name: "dark-loom"
+    title: "dark-loom"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2025-08-21"
+  - name: "fake-db"
+    title: "fake-db"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2025-06-12"
+  - name: "builder-odd-even"
+    title: "builder-odd-even"
+    description: null
+    language: "CSS"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2025-05-27"
+  - name: "test-builder-repo"
+    title: "test-builder-repo"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2025-03-31"
 ---
 
 # sanyamkamat
 
-16 pushes across 2 repositories on 10 active days in the last 90 days of public GitHub push activity.
+15 pushes across 2 repositories on 9 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/sanyamkamat

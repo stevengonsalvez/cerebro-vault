@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-02T06:06:48.484172+00:00"
+generated_at: "2026-10-03T06:07:13.763334+00:00"
 provenance:
   - "5fce3c914fe93bcc"
-pushes_per_week: [185, 47, 32, 70, 38, 98, 47, 7, 8, 14, 31, 59, 29]
+pushes_per_week: [134, 44, 50, 62, 39, 101, 33, 9, 7, 20, 33, 52, 31]
 windows:
   "7d":
     pushes: 34
@@ -22,14 +22,14 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 133
+    pushes: 138
     distinct_repos: 4
-    active_days: 27
+    active_days: 28
     repos_not_owned: 3
     not_owned_basenames: 1
     not_owned_owners: 3
   "90d":
-    pushes: 665
+    pushes: 615
     distinct_repos: 18
     active_days: 78
     repos_not_owned: 17
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 17
 automation:
   state: "clear"
-  push_per_day: 8.5256
+  push_per_day: 7.8846
   repo_per_active_day: 0.2308
   not_owned_ratio: 0.9444
   basename_concentration: 1.0000
@@ -73,17 +73,17 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 133
+    pushes: 138
     distinct_repos: 4
-    pushes_per_repo: 33.2500
-    active_days: 27
+    pushes_per_repo: 34.5000
+    active_days: 28
     repos_not_owned: 3
     not_owned_basenames: 1
     not_owned_owners: 3
   "90d":
-    pushes: 665
+    pushes: 615
     distinct_repos: 18
-    pushes_per_repo: 36.9444
+    pushes_per_repo: 34.1667
     active_days: 78
     repos_not_owned: 17
     not_owned_basenames: 1
@@ -141,6 +141,6 @@ repos:
 
 # koala73
 
-665 pushes across 18 repositories on 78 active days in the last 90 days of public GitHub push activity.
+615 pushes across 18 repositories on 78 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/koala73

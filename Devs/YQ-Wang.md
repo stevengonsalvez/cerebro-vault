@@ -8,11 +8,11 @@ provenance_repos:
   - "agent-substrate/substrate"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-02T06:06:48.484172+00:00"
+repos_populated: true
+generated_at: "2026-10-03T06:07:13.763334+00:00"
 provenance:
   - "a5ffcd0a46dd44fd"
-pushes_per_week: [0, 0, 1, 1, 1, 6, 0, 0, 0, 4, 1, 0, 0]
+pushes_per_week: [0, 0, 1, 2, 2, 4, 0, 0, 0, 4, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,46 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 9 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "ClioForge"
+    title: "ClioForge"
+    description: "A self-hosted, open-source research IDE for humans and agents, starting with history and humanities."
+    language: "TypeScript"
+    topics:
+      - "ai-agents"
+      - "cloudflare"
+      - "digital-humanities"
+      - "history"
+      - "research"
+      - "self-hosted"
+      - "typescript"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-27"
+  - name: "scBSP"
+    title: "scBSP"
+    description: "scBSP is a specialized package designed for processing biological data, specifically in the analysis of gene expression and cell coordinates. It efficiently computes p-values for a given set of genes based on input matrices representing cell coordinates and gene expression data."
+    language: "Python"
+    topics: []
+    stars_fact: 22
+    first_seen: null
+    last_push: "2026-07-23"
+  - name: "STORM"
+    title: "STORM"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-07-23"
+  - name: "ray-playground"
+    title: "ray-playground"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2023-09-29"
 ---
 
 # YQ-Wang

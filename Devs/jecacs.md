@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-02T06:06:48.484172+00:00"
+generated_at: "2026-10-03T06:07:13.763334+00:00"
 provenance:
   - "73468cde177ddae6"
-pushes_per_week: [0, 0, 0, 1, 0, 2, 0, 2, 0, 0, 0, 0, 0]
+pushes_per_week: [0, 0, 0, 1, 1, 1, 0, 2, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -92,7 +92,7 @@ repos:
       - "web3"
     stars_fact: 2
     first_seen: null
-    last_push: "2026-09-21"
+    last_push: "2026-09-28"
   - name: "PgYeet"
     title: "PgYeet"
     description: "A free, MIT-licensed bulk INSERT for EF Core on PostgreSQL, built on Npgsql binary COPY"
@@ -104,7 +104,7 @@ repos:
       - "postgresql-orm"
     stars_fact: 3
     first_seen: null
-    last_push: "2026-09-21"
+    last_push: "2026-09-28"
   - name: "enfusion-mcp"
     title: "enfusion-mcp"
     description: null

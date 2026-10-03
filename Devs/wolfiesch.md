@@ -8,23 +8,23 @@ provenance_repos:
   - "can1357/oh-my-pi"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-02T06:06:48.484172+00:00"
+repos_populated: true
+generated_at: "2026-10-03T06:07:13.763334+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [1, 15, 98, 79, 7, 10, 2, 3, 6, 0, 0, 3, 0]
+pushes_per_week: [6, 37, 87, 66, 3, 10, 2, 3, 6, 0, 1, 2, 1]
 windows:
   "7d":
-    pushes: 2
-    distinct_repos: 2
+    pushes: 1
+    distinct_repos: 1
     active_days: 1
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
-    pushes: 3
-    distinct_repos: 2
-    active_days: 2
+    pushes: 4
+    distinct_repos: 3
+    active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -49,18 +49,18 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
-    distinct_repos: 2
+    pushes: 1
+    distinct_repos: 1
     pushes_per_repo: 1.0000
     active_days: 1
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
-    pushes: 3
-    distinct_repos: 2
-    pushes_per_repo: 1.5000
-    active_days: 2
+    pushes: 4
+    distinct_repos: 3
+    pushes_per_repo: 1.3333
+    active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -76,7 +76,70 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 29 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "wolfppt-oss"
+    title: "wolfppt-oss"
+    description: "Loss-aware PowerPoint editing runtime with package preservation and verification. OpenXML-native text, table, chart, and notes edits with byte-level fidelity."
+    language: "Python"
+    topics:
+      - "openxml"
+      - "powerpoint"
+      - "pptx"
+      - "presentationml"
+      - "pyo3"
+      - "python"
+      - "rust"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-02"
+  - name: "spreadsheet-peek"
+    title: "spreadsheet-peek"
+    description: "Agent-agnostic Spreadsheet Peek skill for AI coding agents: preview spreadsheets with wolfxl peek, proactive triggers, MCP viewer, and token-efficient fallbacks."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-08-31"
+  - name: "superwhisper-to-almond"
+    title: "superwhisper-to-almond"
+    description: "Migrate custom vocabulary from SuperWhisper to Almond (macOS speech-to-text)"
+    language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-02-16"
+  - name: "chatgpt-cli"
+    title: "chatgpt-cli"
+    description: "CLI interface to ChatGPT using Chrome auth. Supports GPT-5.2 thinking modes, file/image upload, conversation management."
+    language: "Python"
+    topics:
+      - "browser-automation"
+      - "chatgpt"
+      - "cli"
+      - "gpt-5"
+      - "macos"
+      - "nodriver"
+      - "openai"
+      - "python"
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-02-14"
+  - name: "diachron"
+    title: "diachron"
+    description: "Provenance tracking for AI-assisted development. Automatically capture every code change made by Claude Code."
+    language: "Rust"
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-03-21"
+  - name: "SFCrime"
+    title: "SFCrime"
+    description: "Citizen-style live crime map for San Francisco - iOS app + FastAPI backend with WebSocket"
+    language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-06-26"
 ---
 
 # wolfiesch

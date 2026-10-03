@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-02T06:06:48.484172+00:00"
+generated_at: "2026-10-03T06:07:13.763334+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [53, 49, 36, 35, 15, 33, 5, 6, 3, 13, 17, 39, 29]
+pushes_per_week: [42, 55, 31, 35, 15, 30, 5, 6, 2, 14, 26, 33, 30]
 windows:
   "7d":
     pushes: 32
-    distinct_repos: 10
+    distinct_repos: 11
     active_days: 7
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 98
+    pushes: 103
     distinct_repos: 20
-    active_days: 24
+    active_days: 25
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 333
+    pushes: 324
     distinct_repos: 25
     active_days: 76
     repos_not_owned: 4
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 4.3816
+  push_per_day: 4.2632
   repo_per_active_day: 0.3289
   not_owned_ratio: 0.1600
   basename_concentration: 0.0400
@@ -50,24 +50,24 @@ automation:
 facets:
   "7d":
     pushes: 32
-    distinct_repos: 10
-    pushes_per_repo: 3.2000
+    distinct_repos: 11
+    pushes_per_repo: 2.9091
     active_days: 7
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 98
+    pushes: 103
     distinct_repos: 20
-    pushes_per_repo: 4.9000
-    active_days: 24
+    pushes_per_repo: 5.1500
+    active_days: 25
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 333
+    pushes: 324
     distinct_repos: 25
-    pushes_per_repo: 13.3200
+    pushes_per_repo: 12.9600
     active_days: 76
     repos_not_owned: 4
     not_owned_basenames: 4
@@ -135,6 +135,6 @@ repos:
 
 # Eric-Guo
 
-333 pushes across 25 repositories on 76 active days in the last 90 days of public GitHub push activity.
+324 pushes across 25 repositories on 76 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Eric-Guo

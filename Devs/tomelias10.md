@@ -8,16 +8,16 @@ provenance_repos:
   - "BuilderIO/agent-native"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-02T06:06:48.484172+00:00"
+repos_populated: true
+generated_at: "2026-10-03T06:07:13.763334+00:00"
 provenance:
   - "745308b2b7085095"
 pushes_per_week: [0, 0, 0, 0, 0, 2, 0, 1, 0, 0, 0, 4, 9]
 windows:
   "7d":
-    pushes: 13
-    distinct_repos: 5
-    active_days: 5
+    pushes: 9
+    distinct_repos: 2
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 13
-    distinct_repos: 5
-    pushes_per_repo: 2.6000
-    active_days: 5
+    pushes: 9
+    distinct_repos: 2
+    pushes_per_repo: 4.5000
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -76,7 +76,34 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 8 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "mcp-drift-check"
+    title: "mcp-drift-check"
+    description: "Zero-execution MCP security preflight + GitHub Action. Detect mutable package references before AI agents run them. Try any public repo in the browser."
+    language: "Python"
+    topics:
+      - "agent-security"
+      - "ai-agent-security"
+      - "ai-security"
+      - "claude-code"
+      - "code-scanning"
+      - "cursor"
+      - "dependency-security"
+      - "devsecops"
+      - "github-actions"
+      - "mcp"
+      - "mcp-security"
+      - "mcpsecurity"
+      - "model-context-protocol"
+      - "python"
+      - "python-cli"
+      - "sarif"
+      - "security"
+      - "supply-chain-security"
+      - "windsurf"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-28"
 ---
 
 # tomelias10

@@ -8,8 +8,8 @@ provenance_repos:
   - "AstrBotDevs/AstrBot"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-02T06:06:48.484172+00:00"
+repos_populated: true
+generated_at: "2026-10-03T06:07:13.763334+00:00"
 provenance:
   - "78a5846a75cc0fbb"
 pushes_per_week: [0, 0, 0, 0, 0, 0, 2, 0, 0, 2, 1, 1, 0]
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "astrbot_plugin_mathjax2image"
+    title: "astrbot_plugin_mathjax2image"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 7
+    first_seen: null
+    last_push: "2026-09-30"
+  - name: "astrbot_plugin_claudecode"
+    title: "astrbot_plugin_claudecode"
+    description: "AstrBot插件：将Claude Code作为LLM函数工具"
+    language: "Python"
+    topics: []
+    stars_fact: 16
+    first_seen: null
+    last_push: "2026-08-12"
+  - name: "pi-dynamic-workflows"
+    title: "pi-dynamic-workflows"
+    description: "Hardened parallel subagent workflows, Agent Teams, resume journals, safe-point delivery, and interactive run control for Pi"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-09-23"
+  - name: "pi-follow-up-priority"
+    title: "pi-follow-up-priority"
+    description: "Durable, dynamically prioritized follow-up handling for Pi"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-20"
+  - name: "faber-lean-certificate"
+    title: "faber-lean-certificate"
+    description: "Lean-verified trace-conductor criterion and explicit-input composition for Faber normal crossings, with reproducible verification."
+    language: "Lean"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-07"
+  - name: "normal-locus-lean-certificate"
+    title: "normal-locus-lean-certificate"
+    description: "NL 定理的 Lean 条件式组合证明、13 项输入与可复现可信性验证"
+    language: "Lean"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-07"
 ---
 
 # YukiRa1n

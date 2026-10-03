@@ -8,19 +8,19 @@ provenance_repos:
   - "anthropics/claude-code-action"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-02T06:06:48.484172+00:00"
+repos_populated: true
+generated_at: "2026-10-03T06:07:13.763334+00:00"
 provenance:
   - "0b22ca37fd3884c9"
-pushes_per_week: [0, 4, 3, 0, 0, 1, 0, 0, 0, 2, 2, 7, 0]
+pushes_per_week: [0, 4, 3, 0, 0, 1, 0, 0, 0, 2, 4, 5, 0]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
     pushes: 11
     distinct_repos: 4
@@ -49,13 +49,13 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
     pushes: 11
     distinct_repos: 4
@@ -76,7 +76,75 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 14 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "ryok90"
+    title: "ryok90"
+    description: "README"
+    language: null
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-25"
+  - name: "guaranate"
+    title: "guaranate"
+    description: "A developer-friendly, native macOS keep-awake CLI"
+    language: "Swift"
+    topics:
+      - "caffeinate"
+      - "cli"
+      - "iokit"
+      - "keep-awake"
+      - "macos"
+      - "power-management"
+      - "swift"
+      - "swift-package-manager"
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-09-27"
+  - name: "yokota.dev"
+    title: "yokota.dev"
+    description: "Personal site of Rodrigo Yokota — Platform Engineer working on developer tooling, Module Federation, cloud delivery, and agent platforms."
+    language: "CSS"
+    topics:
+      - "astro"
+      - "cloud"
+      - "developer-experience"
+      - "developer-tools"
+      - "landing-page"
+      - "module-federation"
+      - "platform-engineering"
+      - "rodrigo-yokota"
+      - "rspack"
+      - "typescript"
+      - "yokota-dev"
+      - "zephyrcloud"
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-09-20"
+  - name: "homebrew-guaranate"
+    title: "homebrew-guaranate"
+    description: "Homebrew tap for Guaranate — a macOS keep-awake CLI"
+    language: "Ruby"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-19"
+  - name: "custom-integration-projects"
+    title: "custom-integration-projects"
+    description: "Zephyr Custom Integration Examples"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-02-27"
+  - name: "zephyr-agoda-runtime-url-override"
+    title: "zephyr-agoda-runtime-url-override"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-03-12"
 ---
 
 # ryok90

@@ -10,16 +10,16 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-02T06:06:48.484172+00:00"
+generated_at: "2026-10-03T06:07:13.763334+00:00"
 provenance:
   - "4138778ebbc75ba6"
   - "9d67ce648f6a8919"
 pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10, 16, 2]
 windows:
   "7d":
-    pushes: 9
-    distinct_repos: 7
-    active_days: 3
+    pushes: 2
+    distinct_repos: 2
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -51,10 +51,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 9
-    distinct_repos: 7
-    pushes_per_repo: 1.2857
-    active_days: 3
+    pushes: 2
+    distinct_repos: 2
+    pushes_per_repo: 1.0000
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -79,22 +79,14 @@ reasons:
   - "activity: 8 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "dify-plugin-cheaperinference"
-    title: "dify-plugin-cheaperinference"
-    description: "Cheaper Inference model provider plugin for Dify"
-    language: "Python"
+  - name: "openclaw-cheaperinference-provider"
+    title: "openclaw-cheaperinference-provider"
+    description: "OpenClaw provider plugin for Cheaper Inference, an OpenAI-compatible LLM API."
+    language: "TypeScript"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-24"
-  - name: "agent-zero-cheaperinference"
-    title: "agent-zero-cheaperinference"
-    description: "Cheaper Inference provider plugin for Agent Zero"
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-23"
+    last_push: "2026-09-28"
 ---
 
 # aiapienthusiast

@@ -8,11 +8,11 @@ provenance_repos:
   - "apache/maka"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-02T06:06:48.484172+00:00"
+repos_populated: true
+generated_at: "2026-10-03T06:07:13.763334+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [8, 4, 4, 2, 4, 2, 0, 0, 0, 0, 0, 0, 1]
+pushes_per_week: [6, 4, 3, 3, 3, 2, 0, 0, 0, 0, 0, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 25
-    distinct_repos: 22
-    active_days: 16
+    pushes: 22
+    distinct_repos: 21
+    active_days: 15
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.5625
-  repo_per_active_day: 1.3750
+  push_per_day: 1.4667
+  repo_per_active_day: 1.4000
   not_owned_ratio: 0.0000
-  basename_concentration: 0.0455
+  basename_concentration: 0.0476
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,22 +65,38 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 25
-    distinct_repos: 22
-    pushes_per_repo: 1.1364
-    active_days: 16
+    pushes: 22
+    distinct_repos: 21
+    pushes_per_repo: 1.0476
+    active_days: 15
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 16 active days in 90d — pass"
+  - "activity: 15 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "universal-news-digest"
+    title: "universal-news-digest"
+    description: "Config-driven collector and renderer for recurring news digests on any topic"
+    language: "Python"
+    topics:
+      - "automation"
+      - "cron"
+      - "hermes-agent"
+      - "llm"
+      - "news-digest"
+      - "python"
+      - "rss"
+      - "telegram"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-23"
 ---
 
 # w3lld1
 
-25 pushes across 22 repositories on 16 active days in the last 90 days of public GitHub push activity.
+22 pushes across 21 repositories on 15 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/w3lld1

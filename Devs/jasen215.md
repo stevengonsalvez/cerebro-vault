@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-02T06:06:48.484172+00:00"
+generated_at: "2026-10-03T06:07:13.763334+00:00"
 provenance:
   - "fb0827c68cc0b5d0"
 pushes_per_week: [3, 3, 0, 0, 0, 0, 2, 1, 0, 0, 1, 0, 1]
@@ -89,11 +89,13 @@ repos:
       - "deepseek-harness"
       - "dsh"
       - "dsh-plugin"
+      - "rsi"
       - "self-evolution"
+      - "self-improving"
       - "self-improving-agents"
     stars_fact: 9
     first_seen: null
-    last_push: "2026-09-24"
+    last_push: "2026-09-30"
   - name: "awesome-ai-kb"
     title: "awesome-ai-kb"
     description: "Curated list of knowledge base tools for AI agents"

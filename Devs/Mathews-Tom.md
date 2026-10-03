@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-02T06:06:48.484172+00:00"
+generated_at: "2026-10-03T06:07:13.763334+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [171, 49, 108, 119, 19, 30, 7, 2, 0, 6, 22, 4, 3]
+pushes_per_week: [112, 63, 86, 134, 4, 31, 6, 2, 0, 6, 25, 1, 3]
 windows:
   "7d":
-    pushes: 4
-    distinct_repos: 2
-    active_days: 3
+    pushes: 3
+    distinct_repos: 1
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 540
+    pushes: 473
     distinct_repos: 15
-    active_days: 48
+    active_days: 47
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 11.2500
-  repo_per_active_day: 0.3125
+  push_per_day: 10.0638
+  repo_per_active_day: 0.3191
   not_owned_ratio: 0.0000
   basename_concentration: 0.1333
   shapes: []
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 4
-    distinct_repos: 2
-    pushes_per_repo: 2.0000
-    active_days: 3
+    pushes: 3
+    distinct_repos: 1
+    pushes_per_repo: 3.0000
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 540
+    pushes: 473
     distinct_repos: 15
-    pushes_per_repo: 36.0000
-    active_days: 48
+    pushes_per_repo: 31.5333
+    active_days: 47
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 48 active days in 90d — pass"
+  - "activity: 47 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "archex"
@@ -152,6 +152,6 @@ repos:
 
 # Mathews-Tom
 
-540 pushes across 15 repositories on 48 active days in the last 90 days of public GitHub push activity.
+473 pushes across 15 repositories on 47 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Mathews-Tom

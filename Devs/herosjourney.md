@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-02T06:06:48.484172+00:00"
+generated_at: "2026-10-03T06:07:13.763334+00:00"
 provenance:
   - "a50b0e08dbaee74a"
-pushes_per_week: [3, 10, 22, 0, 0, 5, 1, 0, 0, 0, 4, 8, 10]
+pushes_per_week: [3, 13, 19, 0, 0, 5, 1, 0, 0, 0, 11, 1, 13]
 windows:
   "7d":
-    pushes: 10
+    pushes: 13
     distinct_repos: 1
-    active_days: 4
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 22
+    pushes: 25
     distinct_repos: 2
-    active_days: 9
+    active_days: 11
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 63
+    pushes: 66
     distinct_repos: 2
-    active_days: 21
+    active_days: 23
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 3.0000
-  repo_per_active_day: 0.0952
+  push_per_day: 2.8696
+  repo_per_active_day: 0.0870
   not_owned_ratio: 0.0000
   basename_concentration: 0.5000
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 10
+    pushes: 13
     distinct_repos: 1
-    pushes_per_repo: 10.0000
-    active_days: 4
+    pushes_per_repo: 13.0000
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 22
+    pushes: 25
     distinct_repos: 2
-    pushes_per_repo: 11.0000
-    active_days: 9
+    pushes_per_repo: 12.5000
+    active_days: 11
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 63
+    pushes: 66
     distinct_repos: 2
-    pushes_per_repo: 31.5000
-    active_days: 21
+    pushes_per_repo: 33.0000
+    active_days: 23
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 21 active days in 90d — pass"
+  - "activity: 23 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "migration-watchdog"
@@ -129,6 +129,6 @@ repos:
 
 # herosjourney
 
-63 pushes across 2 repositories on 21 active days in the last 90 days of public GitHub push activity.
+66 pushes across 2 repositories on 23 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/herosjourney

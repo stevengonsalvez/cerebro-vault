@@ -8,16 +8,16 @@ provenance_repos:
   - "AlexsJones/llmfit"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-02T06:06:48.484172+00:00"
+repos_populated: true
+generated_at: "2026-10-03T06:07:13.763334+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [3, 7, 3, 0, 1, 2, 1, 4, 0, 4, 1, 2, 4]
+pushes_per_week: [4, 6, 3, 0, 1, 2, 1, 4, 0, 4, 1, 2, 4]
 windows:
   "7d":
-    pushes: 5
-    distinct_repos: 3
-    active_days: 4
+    pushes: 4
+    distinct_repos: 2
+    active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 5
-    distinct_repos: 3
-    pushes_per_repo: 1.6667
-    active_days: 4
+    pushes: 4
+    distinct_repos: 2
+    pushes_per_repo: 2.0000
+    active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 24 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "threexc"
+    title: "threexc"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-03"
+  - name: "yocto-test-durations"
+    title: "yocto-test-durations"
+    description: "Test result and duration tracker for https://git.yoctoproject.org/yocto-testresults/"
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-03"
+  - name: "boardgarden"
+    title: "boardgarden"
+    description: "tgamblin's boardfarm repo, built for testing RISC-V development boards with Labgrid and Forgejo Actions"
+    language: "Python"
+    topics: []
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-10-02"
+  - name: "glog-stats"
+    title: "glog-stats"
+    description: "A character generator for the GLOG v2 game system, written in Rust"
+    language: "Rust"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-18"
+  - name: "glog-hexmap"
+    title: "glog-hexmap"
+    description: "fill hexes for GLOGv2"
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-29"
+  - name: "kickstart.nvim"
+    title: "kickstart.nvim"
+    description: null
+    language: "Lua"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-28"
 ---
 
 # threexc

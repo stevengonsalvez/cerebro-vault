@@ -8,11 +8,11 @@ provenance_repos:
   - "AstrBotDevs/AstrBot"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-02T06:06:48.484172+00:00"
+repos_populated: true
+generated_at: "2026-10-03T06:07:13.763334+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [7, 1, 4, 6, 1, 1, 0, 0, 0, 0, 0, 2, 1]
+pushes_per_week: [5, 3, 2, 7, 0, 1, 0, 0, 0, 0, 0, 2, 1]
 windows:
   "7d":
     pushes: 1
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 23
+    pushes: 21
     distinct_repos: 4
-    active_days: 13
+    active_days: 12
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.7692
-  repo_per_active_day: 0.3077
+  push_per_day: 1.7500
+  repo_per_active_day: 0.3333
   not_owned_ratio: 0.0000
   basename_concentration: 0.2500
   shapes: []
@@ -65,22 +65,70 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 23
+    pushes: 21
     distinct_repos: 4
-    pushes_per_repo: 5.7500
-    active_days: 13
+    pushes_per_repo: 5.2500
+    active_days: 12
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 13 active days in 90d — pass"
+  - "activity: 12 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "astrcodey"
+    title: "astrcodey"
+    description: "一个开源的rust code agent，可扩展性非常强，与deepseek-harness架构同源并且比它早写两个月"
+    language: "Rust"
+    topics: []
+    stars_fact: 63
+    first_seen: null
+    last_push: "2026-09-30"
+  - name: "ScriptableObjectManager"
+    title: "ScriptableObjectManager"
+    description: null
+    language: "C#"
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-01-21"
+  - name: "my-blog"
+    title: "my-blog"
+    description: "我的博客"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-07"
+  - name: "astrcode-pr-review-agent"
+    title: "astrcode-pr-review-agent"
+    description: "Astrcodey 的自动化 GitHub PR 审查插件"
+    language: "Rust"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-24"
+  - name: "HexGridSystem"
+    title: "HexGridSystem"
+    description: null
+    language: "C#"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-08-26"
+  - name: "Unity-SaveSystem"
+    title: "Unity-SaveSystem"
+    description: null
+    language: "C#"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-26"
 ---
 
 # whatevertogo
 
-23 pushes across 4 repositories on 13 active days in the last 90 days of public GitHub push activity.
+21 pushes across 4 repositories on 12 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/whatevertogo

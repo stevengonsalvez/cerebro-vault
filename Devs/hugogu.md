@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-02T06:06:48.484172+00:00"
+generated_at: "2026-10-03T06:07:13.763334+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [22, 8, 7, 3, 3, 0, 3, 4, 0, 3, 0, 12, 6]
+pushes_per_week: [22, 8, 6, 3, 3, 0, 3, 4, 0, 3, 6, 7, 8]
 windows:
   "7d":
-    pushes: 6
+    pushes: 9
     distinct_repos: 2
-    active_days: 4
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 21
+    pushes: 24
     distinct_repos: 3
-    active_days: 11
+    active_days: 12
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 71
+    pushes: 73
     distinct_repos: 7
     active_days: 37
     repos_not_owned: 0
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.9189
+  push_per_day: 1.9730
   repo_per_active_day: 0.1892
   not_owned_ratio: 0.0000
   basename_concentration: 0.1429
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 6
+    pushes: 9
     distinct_repos: 2
-    pushes_per_repo: 3.0000
-    active_days: 4
+    pushes_per_repo: 4.5000
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 21
+    pushes: 24
     distinct_repos: 3
-    pushes_per_repo: 7.0000
-    active_days: 11
+    pushes_per_repo: 8.0000
+    active_days: 12
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 71
+    pushes: 73
     distinct_repos: 7
-    pushes_per_repo: 10.1429
+    pushes_per_repo: 10.4286
     active_days: 37
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -137,6 +137,6 @@ repos:
 
 # hugogu
 
-71 pushes across 7 repositories on 37 active days in the last 90 days of public GitHub push activity.
+73 pushes across 7 repositories on 37 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/hugogu

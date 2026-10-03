@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-02T06:06:48.484172+00:00"
+generated_at: "2026-10-03T06:07:13.763334+00:00"
 provenance:
   - "4138778ebbc75ba6"
-pushes_per_week: [0, 3, 0, 0, 1, 2, 1, 0, 0, 0, 0, 1, 0]
+pushes_per_week: [0, 3, 0, 0, 1, 3, 0, 0, 0, 0, 0, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,14 +77,75 @@ reasons:
   - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "timesheet"
+    title: "timesheet"
+    description: "Timesheet tracking app. Next.js, tRPC, Prisma, NextAuth."
+    language: "TypeScript"
+    topics:
+      - "javascript"
+      - "nextjs"
+      - "prisma"
+      - "react"
+      - "tanstack"
+      - "trpc"
+      - "typescript"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2023-02-17"
   - name: "presets"
     title: "presets"
-    description: null
+    description: "Pacote de presets e tooling compartilhado para repositórios pessoais."
     language: "TypeScript"
-    topics: []
+    topics:
+      - "bun"
+      - "tooling"
+      - "typescript"
     stars_fact: 0
     first_seen: null
     last_push: "2026-08-26"
+  - name: "pocket-finance"
+    title: "pocket-finance"
+    description: "Personal finance app built with Next.js, Clerk auth, Drizzle ORM and shadcn/ui (WIP)."
+    language: "TypeScript"
+    topics:
+      - "drizzle"
+      - "drizzle-orm"
+      - "javascript"
+      - "nextjs"
+      - "react"
+      - "shadcn-ui"
+      - "tanstack"
+      - "typescript"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2023-11-07"
+  - name: "JohnC0de"
+    title: "JohnC0de"
+    description: "My GitHub profile README."
+    language: null
+    topics:
+      - "github-profile"
+      - "portfolio"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-07-17"
+  - name: "fastify-oauth"
+    title: "fastify-oauth"
+    description: "OAuth2 authorization server built from scratch with Fastify, TypeScript, Zod and Prisma. Auth code grant, refresh tokens, revocation."
+    language: "TypeScript"
+    topics:
+      - "discord"
+      - "express"
+      - "fastify"
+      - "javascript"
+      - "oauth2"
+      - "prisma"
+      - "typescript"
+      - "vite"
+      - "zod"
+    stars_fact: 2
+    first_seen: null
+    last_push: "2022-12-12"
   - name: "dev-tray"
     title: "dev-tray"
     description: "localhost, organized. A tiny Windows tray app that tracks your dev servers across projects."
@@ -94,54 +155,11 @@ repos:
       - "electron"
       - "localhost"
       - "system-tray"
+      - "typescript"
       - "windows"
     stars_fact: 0
     first_seen: null
     last_push: "2026-08-02"
-  - name: "JohnC0de"
-    title: "JohnC0de"
-    description: "My GitHub profile README."
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-07-17"
-  - name: "botzzy"
-    title: "botzzy"
-    description: "Web dashboard built with Remix, deployed on Fly.io."
-    language: null
-    topics:
-      - "flyio"
-      - "remix"
-      - "typescript"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2023-03-25"
-  - name: "timesheet"
-    title: "timesheet"
-    description: "Timesheet tracking app. Next.js, tRPC, Prisma, NextAuth."
-    language: "TypeScript"
-    topics:
-      - "nextjs"
-      - "prisma"
-      - "trpc"
-      - "typescript"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2023-02-17"
-  - name: "fastify-oauth"
-    title: "fastify-oauth"
-    description: "OAuth2 authorization server built from scratch with Fastify, TypeScript, Zod and Prisma. Auth code grant, refresh tokens, revocation."
-    language: "TypeScript"
-    topics:
-      - "fastify"
-      - "oauth2"
-      - "prisma"
-      - "typescript"
-      - "zod"
-    stars_fact: 2
-    first_seen: null
-    last_push: "2022-12-12"
 ---
 
 # JohnC0de

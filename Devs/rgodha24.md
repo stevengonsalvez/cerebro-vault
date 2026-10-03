@@ -8,8 +8,8 @@ provenance_repos:
   - "anomalyco/opencode"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-02T06:06:48.484172+00:00"
+repos_populated: true
+generated_at: "2026-10-03T06:07:13.763334+00:00"
 provenance:
   - "ffccace0ba14fd15"
 pushes_per_week: [0, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 3, 1]
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "walgithub"
+    title: "walgithub"
+    description: "walgit with a GitHub Enterprise Server facade — git over smart HTTP from an object-store bucket"
+    language: "Rust"
+    topics: []
+    stars_fact: 89
+    first_seen: null
+    last_push: "2026-09-25"
+  - name: "ghfs"
+    title: "ghfs"
+    description: "a FUSE file system that lazily and automatically downloads github repos for agent context"
+    language: "Rust"
+    topics: []
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-09-29"
+  - name: "cryptenv"
+    title: "cryptenv"
+    description: null
+    language: "Rust"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-23"
+  - name: "dotfiles"
+    title: "dotfiles"
+    description: "dotfiles: neovim, nix, fish, kitty, starship"
+    language: "Lua"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-22"
+  - name: "docfs"
+    title: "docfs"
+    description: "Mount any docs site publishing llms.txt / llms-full.txt as a read-only filesystem"
+    language: "Rust"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-06"
+  - name: "docs-starter"
+    title: "docs-starter"
+    description: null
+    language: "MDX"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-07-22"
 ---
 
 # rgodha24

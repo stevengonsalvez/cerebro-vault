@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-02T06:06:48.484172+00:00"
+generated_at: "2026-10-03T06:07:13.763334+00:00"
 provenance:
   - "4138778ebbc75ba6"
-pushes_per_week: [21, 7, 10, 3, 0, 0, 0, 0, 0, 0, 1, 0, 0]
+pushes_per_week: [11, 7, 12, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 42
+    pushes: 32
     distinct_repos: 11
-    active_days: 13
+    active_days: 12
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 3.2308
-  repo_per_active_day: 0.8462
+  push_per_day: 2.6667
+  repo_per_active_day: 0.9167
   not_owned_ratio: 0.0000
   basename_concentration: 0.0909
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 42
+    pushes: 32
     distinct_repos: 11
-    pushes_per_repo: 3.8182
-    active_days: 13
+    pushes_per_repo: 2.9091
+    active_days: 12
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 13 active days in 90d — pass"
+  - "activity: 12 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "PedroPCardoso"
@@ -166,6 +166,6 @@ repos:
 
 # PedroPCardoso
 
-42 pushes across 11 repositories on 13 active days in the last 90 days of public GitHub push activity.
+32 pushes across 11 repositories on 12 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/PedroPCardoso

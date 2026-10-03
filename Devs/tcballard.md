@@ -10,16 +10,16 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-02T06:06:48.484172+00:00"
+generated_at: "2026-10-03T06:07:13.763334+00:00"
 provenance:
   - "c954be1eb1223fa4"
   - "eb166180687b6629"
-pushes_per_week: [66, 38, 34, 31, 23, 24, 2, 6, 10, 4, 23, 37, 20]
+pushes_per_week: [58, 40, 36, 29, 27, 16, 2, 5, 11, 4, 26, 34, 19]
 windows:
   "7d":
-    pushes: 26
-    distinct_repos: 11
-    active_days: 7
+    pushes: 20
+    distinct_repos: 10
+    active_days: 6
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -31,16 +31,16 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 318
+    pushes: 307
     distinct_repos: 69
-    active_days: 72
+    active_days: 71
     repos_not_owned: 20
     not_owned_basenames: 18
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 4.4167
-  repo_per_active_day: 0.9583
+  push_per_day: 4.3239
+  repo_per_active_day: 0.9718
   not_owned_ratio: 0.2899
   basename_concentration: 0.0435
   shapes: []
@@ -51,10 +51,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 26
-    distinct_repos: 11
-    pushes_per_repo: 2.3636
-    active_days: 7
+    pushes: 20
+    distinct_repos: 10
+    pushes_per_repo: 2.0000
+    active_days: 6
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -67,16 +67,16 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 318
+    pushes: 307
     distinct_repos: 69
-    pushes_per_repo: 4.6087
-    active_days: 72
+    pushes_per_repo: 4.4493
+    active_days: 71
     repos_not_owned: 20
     not_owned_basenames: 18
     not_owned_owners: 3
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 72 active days in 90d — pass"
+  - "activity: 71 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "omarchy-plugin-gardengate"
@@ -131,6 +131,6 @@ repos:
 
 # tcballard
 
-318 pushes across 69 repositories on 72 active days in the last 90 days of public GitHub push activity.
+307 pushes across 69 repositories on 71 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/tcballard

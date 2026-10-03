@@ -8,28 +8,28 @@ provenance_repos:
   - "can1357/oh-my-pi"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-02T06:06:48.484172+00:00"
+repos_populated: true
+generated_at: "2026-10-03T06:07:13.763334+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [4, 1, 1, 2, 4, 11, 1, 7, 2, 2, 11, 4, 0]
+pushes_per_week: [0, 1, 1, 5, 4, 8, 2, 6, 2, 6, 9, 2, 3]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
+    pushes: 3
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 17
+    pushes: 20
     distinct_repos: 1
-    active_days: 8
+    active_days: 9
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 50
+    pushes: 49
     distinct_repos: 2
     active_days: 26
     repos_not_owned: 0
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.9231
+  push_per_day: 1.8846
   repo_per_active_day: 0.0769
   not_owned_ratio: 0.0000
   basename_concentration: 0.5000
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
+    pushes: 3
+    distinct_repos: 1
+    pushes_per_repo: 3.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 17
+    pushes: 20
     distinct_repos: 1
-    pushes_per_repo: 17.0000
-    active_days: 8
+    pushes_per_repo: 20.0000
+    active_days: 9
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 50
+    pushes: 49
     distinct_repos: 2
-    pushes_per_repo: 25.0000
+    pushes_per_repo: 24.5000
     active_days: 26
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -76,11 +76,35 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 26 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "agentic-swarm"
+    title: "agentic-swarm"
+    description: "A system to define agents and orchestrated workflows for coding assistants (hybrid orchestration, script first, horizon is script enforced, structural model split - bulk of work by cheap \"Flash\" models\"."
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-11"
+  - name: "python-setup"
+    title: "python-setup"
+    description: "Linter setup and coding rules for python projects"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-07-22"
+  - name: "agentic-setup-examples"
+    title: "agentic-setup-examples"
+    description: "Configurations for AI coding agents (sometimes used as general assistant) that I find usefull"
+    language: null
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-02-21"
 ---
 
 # szavadsky
 
-50 pushes across 2 repositories on 26 active days in the last 90 days of public GitHub push activity.
+49 pushes across 2 repositories on 26 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/szavadsky

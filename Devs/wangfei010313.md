@@ -8,11 +8,11 @@ provenance_repos:
   - "agentscope-ai/QwenPaw"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-02T06:06:48.484172+00:00"
+repos_populated: true
+generated_at: "2026-10-03T06:07:13.763334+00:00"
 provenance:
   - "541318303a272608"
-pushes_per_week: [9, 12, 2, 0, 6, 5, 4, 1, 0, 0, 1, 1, 0]
+pushes_per_week: [9, 12, 2, 2, 4, 6, 3, 1, 0, 0, 1, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,15 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 20 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "MyQwenPaw"
+    title: "MyQwenPaw"
+    description: "Backup repository for QwenPaw"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-05-29"
 ---
 
 # wangfei010313

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-02T06:06:48.484172+00:00"
+generated_at: "2026-10-03T06:07:13.763334+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [13, 14, 8, 9, 8, 30, 8, 29, 3, 8, 12, 20, 6]
+pushes_per_week: [10, 15, 7, 9, 8, 34, 7, 26, 3, 9, 16, 15, 6]
 windows:
   "7d":
     pushes: 6
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 168
-    distinct_repos: 13
+    pushes: 165
+    distinct_repos: 12
     active_days: 55
-    repos_not_owned: 3
+    repos_not_owned: 2
     not_owned_basenames: 2
-    not_owned_owners: 2
+    not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 3.0545
-  repo_per_active_day: 0.2364
-  not_owned_ratio: 0.2308
-  basename_concentration: 0.2308
+  push_per_day: 3.0000
+  repo_per_active_day: 0.2182
+  not_owned_ratio: 0.1667
+  basename_concentration: 0.1667
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,13 +65,13 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 168
-    distinct_repos: 13
-    pushes_per_repo: 12.9231
+    pushes: 165
+    distinct_repos: 12
+    pushes_per_repo: 13.7500
     active_days: 55
-    repos_not_owned: 3
+    repos_not_owned: 2
     not_owned_basenames: 2
-    not_owned_owners: 2
+    not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 55 active days in 90d — pass"
@@ -129,6 +129,6 @@ repos:
 
 # Hona
 
-168 pushes across 13 repositories on 55 active days in the last 90 days of public GitHub push activity.
+165 pushes across 12 repositories on 55 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Hona

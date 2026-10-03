@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-02T06:06:48.484172+00:00"
+generated_at: "2026-10-03T06:07:13.763334+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [22, 6, 25, 7, 1, 1, 0, 3, 0, 0, 2, 37, 49]
+pushes_per_week: [22, 5, 25, 6, 1, 1, 0, 3, 0, 0, 4, 46, 41]
 windows:
   "7d":
-    pushes: 54
-    distinct_repos: 7
+    pushes: 48
+    distinct_repos: 8
     active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 88
+    pushes: 91
     distinct_repos: 9
-    active_days: 15
+    active_days: 16
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 153
-    distinct_repos: 27
+    pushes: 154
+    distinct_repos: 26
     active_days: 42
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 3.6429
-  repo_per_active_day: 0.6429
+  push_per_day: 3.6667
+  repo_per_active_day: 0.6190
   not_owned_ratio: 0.0000
-  basename_concentration: 0.0370
+  basename_concentration: 0.0385
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 54
-    distinct_repos: 7
-    pushes_per_repo: 7.7143
+    pushes: 48
+    distinct_repos: 8
+    pushes_per_repo: 6.0000
     active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 88
+    pushes: 91
     distinct_repos: 9
-    pushes_per_repo: 9.7778
-    active_days: 15
+    pushes_per_repo: 10.1111
+    active_days: 16
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 153
-    distinct_repos: 27
-    pushes_per_repo: 5.6667
+    pushes: 154
+    distinct_repos: 26
+    pushes_per_repo: 5.9231
     active_days: 42
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -138,6 +138,6 @@ repos:
 
 # paulrobello
 
-153 pushes across 27 repositories on 42 active days in the last 90 days of public GitHub push activity.
+154 pushes across 26 repositories on 42 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/paulrobello

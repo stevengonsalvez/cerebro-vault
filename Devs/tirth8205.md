@@ -8,11 +8,11 @@ provenance_repos:
   - "tirth8205/code-review-graph"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-02T06:06:48.484172+00:00"
+repos_populated: true
+generated_at: "2026-10-03T06:07:13.763334+00:00"
 provenance:
   - "344d46b0f790a3ec"
-pushes_per_week: [0, 20, 0, 21, 0, 1, 0, 0, 0, 0, 15, 0, 0]
+pushes_per_week: [0, 20, 4, 17, 0, 1, 0, 0, 0, 1, 14, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,86 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 11 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "code-review-graph"
+    title: "code-review-graph"
+    description: "Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read only what matters, with benchmarked context reductions on reviews and large-repo workflows."
+    language: "Python"
+    topics:
+      - "ai-coding"
+      - "claude"
+      - "claude-code"
+      - "code-review"
+      - "graphrag"
+      - "incremental"
+      - "knowledge-graph"
+      - "llm"
+      - "mcp"
+      - "python"
+      - "static-analysis"
+      - "tree-sitter"
+    stars_fact: 31898
+    first_seen: "2026-08-07T06:00:03.620287+00:00"
+    last_push: "2026-09-18"
+  - name: "claude-games"
+    title: "claude-games"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 6
+    first_seen: null
+    last_push: "2026-04-13"
+  - name: "Jailbreak-Eval"
+    title: "Jailbreak-Eval"
+    description: "Production-grade LLM red-teaming framework with multi-agent swarm, GCG, PAIR, mutation engine, and Streamlit dashboard — for defensive AI safety research only."
+    language: "Python"
+    topics:
+      - "adversarial-attacks"
+      - "ai-safety"
+      - "jailbreak"
+      - "llm"
+      - "python"
+      - "red-teaming"
+      - "security-research"
+      - "streamlit"
+    stars_fact: 8
+    first_seen: null
+    last_push: "2026-04-11"
+  - name: "MERIT"
+    title: "MERIT"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-03-13"
+  - name: "ResearchWebGraph"
+    title: "ResearchWebGraph"
+    description: "AI tool to explore papers, build knowledge graphs, and get LLM answers with vector search. Built with FastAPI and Streamlit. Open-source."
+    language: "Python"
+    topics:
+      - "ai"
+      - "data-science"
+      - "knowledge-graph"
+      - "natural-language-processing"
+      - "open-source"
+      - "research-tool"
+      - "software-development"
+    stars_fact: 7
+    first_seen: null
+    last_push: "2025-05-26"
+  - name: "GraphMinds"
+    title: "GraphMinds"
+    description: "GraphMinds: A Python project exploring graph-based algorithms and AI models."
+    language: "Python"
+    topics:
+      - "knowledge-graph"
+      - "nlp"
+      - "prompt-engineering"
+      - "rag"
+    stars_fact: 7
+    first_seen: null
+    last_push: "2025-05-29"
 ---
 
 # tirth8205

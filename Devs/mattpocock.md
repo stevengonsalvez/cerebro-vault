@@ -7,20 +7,22 @@ discovered_via_all:
   - "vault"
 provenance_repos:
   - "mattpocock/harness-claude-code-usage-repro"
+  - "mattpocock/sandcastle"
   - "mattpocock/skills"
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-02T06:06:48.484172+00:00"
+generated_at: "2026-10-03T06:07:13.763334+00:00"
 provenance:
+  - "00b3deb7a8bc08be"
   - "637c99109af31ed2"
   - "b22ecd25e4a0f368"
-pushes_per_week: [24, 19, 6, 5, 3, 4, 3, 5, 0, 0, 1, 11, 4]
+pushes_per_week: [24, 19, 6, 5, 3, 7, 0, 5, 0, 0, 1, 13, 2]
 windows:
   "7d":
-    pushes: 13
+    pushes: 4
     distinct_repos: 1
-    active_days: 4
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -52,10 +54,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 13
+    pushes: 4
     distinct_repos: 1
-    pushes_per_repo: 13.0000
-    active_days: 4
+    pushes_per_repo: 4.0000
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -76,7 +78,7 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
-  - "provenance: 2 vault signal(s) — pass"
+  - "provenance: 3 vault signal(s) — pass"
   - "activity: 33 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
@@ -120,7 +122,7 @@ repos:
     language: "TypeScript"
     topics: []
     stars_fact: 8206
-    first_seen: null
+    first_seen: "2026-10-03T06:01:20.490195+00:00"
     last_push: "2026-06-29"
   - name: "mattpocock"
     title: "mattpocock"

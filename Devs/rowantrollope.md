@@ -8,8 +8,8 @@ provenance_repos:
   - "antirez/ds4"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-02T06:06:48.484172+00:00"
+repos_populated: true
+generated_at: "2026-10-03T06:07:13.763334+00:00"
 provenance:
   - "3eacb4655aba2497"
 pushes_per_week: [0, 1, 1, 0, 1, 1, 0, 0, 0, 0, 1, 3, 1]
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 9 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "thetokenzone"
+    title: "thetokenzone"
+    description: "Daily news from inside the AI bubble"
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-02"
+  - name: "decaf"
+    title: "decaf"
+    description: "Browser extension that rewrites breathless, FOMO-inducing X posts into calm, grounded, factual text."
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-30"
+  - name: "afs"
+    title: "afs"
+    description: "Lightweight agent-filesystem"
+    language: "Go"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-23"
+  - name: "redis-fs-cli"
+    title: "redis-fs-cli"
+    description: null
+    language: "Go"
+    topics: []
+    stars_fact: 9
+    first_seen: null
+    last_push: "2026-02-03"
+  - name: "redis-kb"
+    title: "redis-kb"
+    description: "Starter repository for redis-kb"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-04-09"
+  - name: "mywiki"
+    title: "mywiki"
+    description: "Personal knowledge base — LLM-compiled wiki"
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-04-09"
 ---
 
 # rowantrollope

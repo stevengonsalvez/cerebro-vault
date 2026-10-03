@@ -8,8 +8,8 @@ provenance_repos:
   - "AstrBotDevs/AstrBot"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-02T06:06:48.484172+00:00"
+repos_populated: true
+generated_at: "2026-10-03T06:07:13.763334+00:00"
 provenance:
   - "78a5846a75cc0fbb"
 pushes_per_week: [3, 5, 0, 4, 0, 3, 4, 0, 0, 0, 0, 0, 0]
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 9 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: ".github"
+    title: ".github"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-27"
+  - name: "HarmonyOS_Galgame_Framework"
+    title: "HarmonyOS_Galgame_Framework"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2025-10-04"
+  - name: "interpret-ATC4"
+    title: "interpret-ATC4"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-07-23"
+  - name: "full-butiful-box"
+    title: "full-butiful-box"
+    description: null
+    language: "Kotlin"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-07-01"
+  - name: "ATC4-HQ"
+    title: "ATC4-HQ"
+    description: null
+    language: "C#"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-06-09"
+  - name: "Decoding-ATC4"
+    title: "Decoding-ATC4"
+    description: null
+    language: "C#"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-05-03"
 ---
 
 # Sjshi763

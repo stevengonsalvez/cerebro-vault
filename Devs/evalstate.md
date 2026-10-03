@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-02T06:06:48.484172+00:00"
+generated_at: "2026-10-03T06:07:13.763334+00:00"
 provenance:
   - "48dbbdd8fd0d3029"
-pushes_per_week: [11, 14, 21, 14, 10, 5, 1, 4, 1, 0, 0, 4, 9]
+pushes_per_week: [11, 17, 17, 15, 10, 3, 1, 4, 1, 0, 2, 5, 6]
 windows:
   "7d":
     pushes: 9
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 94
+    pushes: 92
     distinct_repos: 13
-    active_days: 46
+    active_days: 45
     repos_not_owned: 9
     not_owned_basenames: 8
     not_owned_owners: 6
 automation:
   state: "clear"
-  push_per_day: 2.0435
-  repo_per_active_day: 0.2826
+  push_per_day: 2.0444
+  repo_per_active_day: 0.2889
   not_owned_ratio: 0.6923
   basename_concentration: 0.1538
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 94
+    pushes: 92
     distinct_repos: 13
-    pushes_per_repo: 7.2308
-    active_days: 46
+    pushes_per_repo: 7.0769
+    active_days: 45
     repos_not_owned: 9
     not_owned_basenames: 8
     not_owned_owners: 6
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 46 active days in 90d — pass"
+  - "activity: 45 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "mcp-hfspace"
@@ -141,6 +141,6 @@ repos:
 
 # evalstate
 
-94 pushes across 13 repositories on 46 active days in the last 90 days of public GitHub push activity.
+92 pushes across 13 repositories on 45 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/evalstate

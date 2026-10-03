@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-02T06:06:48.484172+00:00"
+generated_at: "2026-10-03T06:07:13.763334+00:00"
 provenance:
   - "01cd6a498d377caf"
   - "03604cccd7e9402d"
@@ -64,12 +64,12 @@ provenance:
   - "f9a1870648a6375a"
   - "fe9e50bf2d5b21fe"
   - "ff1ca072bf39e471"
-pushes_per_week: [14, 11, 6, 5, 2, 1, 2, 6, 0, 0, 3, 1, 7]
+pushes_per_week: [12, 11, 6, 5, 2, 2, 1, 6, 0, 0, 3, 2, 6]
 windows:
   "7d":
-    pushes: 7
+    pushes: 6
     distinct_repos: 1
-    active_days: 3
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -81,7 +81,7 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 58
+    pushes: 56
     distinct_repos: 2
     active_days: 33
     repos_not_owned: 0
@@ -89,7 +89,7 @@ windows:
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.7576
+  push_per_day: 1.6970
   repo_per_active_day: 0.0606
   not_owned_ratio: 0.0000
   basename_concentration: 0.5000
@@ -101,10 +101,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 7
+    pushes: 6
     distinct_repos: 1
-    pushes_per_repo: 7.0000
-    active_days: 3
+    pushes_per_repo: 6.0000
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -117,9 +117,9 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 58
+    pushes: 56
     distinct_repos: 2
-    pushes_per_repo: 29.0000
+    pushes_per_repo: 28.0000
     active_days: 33
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -184,6 +184,6 @@ repos:
 
 # jamestrew
 
-58 pushes across 2 repositories on 33 active days in the last 90 days of public GitHub push activity.
+56 pushes across 2 repositories on 33 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/jamestrew

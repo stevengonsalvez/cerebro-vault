@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-02T06:06:48.484172+00:00"
+generated_at: "2026-10-03T06:07:13.763334+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [35, 26, 1, 5, 6, 7, 1, 5, 2, 2, 10, 1, 27]
+pushes_per_week: [29, 25, 1, 7, 5, 6, 1, 5, 2, 2, 10, 2, 27]
 windows:
   "7d":
-    pushes: 27
+    pushes: 28
     distinct_repos: 8
-    active_days: 6
+    active_days: 7
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
   "30d":
-    pushes: 40
+    pushes: 41
     distinct_repos: 10
-    active_days: 12
+    active_days: 13
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 128
+    pushes: 122
     distinct_repos: 15
-    active_days: 44
+    active_days: 43
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.9091
-  repo_per_active_day: 0.3409
+  push_per_day: 2.8372
+  repo_per_active_day: 0.3488
   not_owned_ratio: 0.2667
   basename_concentration: 0.1333
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 27
+    pushes: 28
     distinct_repos: 8
-    pushes_per_repo: 3.3750
-    active_days: 6
+    pushes_per_repo: 3.5000
+    active_days: 7
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
   "30d":
-    pushes: 40
+    pushes: 41
     distinct_repos: 10
-    pushes_per_repo: 4.0000
-    active_days: 12
+    pushes_per_repo: 4.1000
+    active_days: 13
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 128
+    pushes: 122
     distinct_repos: 15
-    pushes_per_repo: 8.5333
-    active_days: 44
+    pushes_per_repo: 8.1333
+    active_days: 43
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 44 active days in 90d — pass"
+  - "activity: 43 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "nihongo-ride-app"
@@ -129,6 +129,6 @@ repos:
 
 # JasonYeYuhe
 
-128 pushes across 15 repositories on 44 active days in the last 90 days of public GitHub push activity.
+122 pushes across 15 repositories on 43 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/JasonYeYuhe

@@ -9,8 +9,8 @@ provenance_repos:
   - "citrolabs/ego-lite"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-02T06:06:48.484172+00:00"
+repos_populated: true
+generated_at: "2026-10-03T06:07:13.763334+00:00"
 provenance:
   - "dbbcb182b33b2dd8"
 pushes_per_week: [0, 0, 1, 4, 1, 6, 0, 0, 0, 0, 1, 4, 0]
@@ -77,7 +77,76 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 12 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "pi-work"
+    title: "pi-work"
+    description: "Your personal coding assistant for macOS"
+    language: "Swift"
+    topics:
+      - "agent"
+      - "agentic"
+      - "agents"
+      - "coding"
+      - "coding-agent"
+      - "office-assistant"
+      - "personal-assistant"
+      - "vibe-coding"
+      - "work"
+      - "workshop"
+    stars_fact: 5
+    first_seen: null
+    last_push: "2026-09-24"
+  - name: "MyClip"
+    title: "MyClip"
+    description: "MyClip helps you remember what you were working on. It captures the focused window or its display on your Mac and uses Codex or Claude to turn screenshots into searchable notes, connected knowledge, and suggested tasks."
+    language: "Swift"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-09-24"
+  - name: "chat-bridge"
+    title: "chat-bridge"
+    description: "Chat Bridge is a macOS menu bar app that connects WeChat and iMessage to the AI agents on your Mac. Start a task from your phone, continue an existing conversation, and receive the result in the same chat."
+    language: "TypeScript"
+    topics:
+      - "agentic-ai"
+      - "aiasisstant"
+      - "imessage"
+      - "wechat-bot"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-24"
+  - name: "section9-lab"
+    title: "section9-lab"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-21"
+  - name: "vibe-hud"
+    title: "vibe-hud"
+    description: "A macOS notch overlay for Claude Code that keeps your sessions, approvals, replies, and updates within reach."
+    language: "Swift"
+    topics:
+      - "island"
+      - "macos"
+      - "vibecoding"
+    stars_fact: 5
+    first_seen: null
+    last_push: "2026-09-16"
+  - name: "SwiftHarnessAgent"
+    title: "SwiftHarnessAgent"
+    description: "A Swift agent runtime for embedding coding agents into macOS and iOS apps."
+    language: "Swift"
+    topics:
+      - "agentframework"
+      - "macos-package"
+      - "swift"
+      - "swift-package-manager"
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-05-10"
 ---
 
 # section9-lab

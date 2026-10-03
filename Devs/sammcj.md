@@ -8,16 +8,16 @@ provenance_repos:
   - "cline/cline"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-02T06:06:48.484172+00:00"
+repos_populated: true
+generated_at: "2026-10-03T06:07:13.763334+00:00"
 provenance:
   - "533d51d9d3dea76f"
-pushes_per_week: [5, 0, 1, 4, 6, 9, 5, 4, 1, 3, 1, 5, 3]
+pushes_per_week: [5, 0, 1, 5, 6, 8, 6, 3, 1, 3, 1, 6, 2]
 windows:
   "7d":
-    pushes: 6
+    pushes: 3
     distinct_repos: 2
-    active_days: 3
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 6
+    pushes: 3
     distinct_repos: 2
-    pushes_per_repo: 3.0000
-    active_days: 3
+    pushes_per_repo: 1.5000
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -76,7 +76,87 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 30 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "gollama"
+    title: "gollama"
+    description: "Go manage your Ollama models"
+    language: "Go"
+    topics:
+      - "ai"
+      - "ggml"
+      - "gguf"
+      - "linux"
+      - "llm"
+      - "macos"
+      - "models"
+      - "ollama"
+      - "tui"
+    stars_fact: 1840
+    first_seen: null
+    last_push: "2026-09-30"
+  - name: "llm-benchmark"
+    title: "llm-benchmark"
+    description: "LLM API Benchmarking (vLLM, llama.cpp)"
+    language: "Python"
+    topics:
+      - "llamacpp"
+      - "llamacpp-server"
+      - "llamaswap"
+      - "vllm"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-08-24"
+  - name: "put"
+    title: "put"
+    description: "Store and restore macOS application window locations, sizes and layouts"
+    language: "Swift"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-09-17"
+  - name: "sammcj"
+    title: "sammcj"
+    description: null
+    language: "JavaScript"
+    topics:
+      - "bash"
+      - "cdk"
+      - "devops"
+      - "golang"
+      - "open-source"
+      - "open-source-hardware"
+      - "security"
+      - "terraform"
+      - "typescript"
+    stars_fact: 5
+    first_seen: null
+    last_push: "2026-10-01"
+  - name: "smcleod"
+    title: "smcleod"
+    description: "smcleod.net"
+    language: "HTML"
+    topics: []
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-09-28"
+  - name: "agentic-coding"
+    title: "agentic-coding"
+    description: "Agentic Coding Rules, Templates etc..."
+    language: "Python"
+    topics:
+      - "agentic"
+      - "agentic-coding"
+      - "agents"
+      - "ai"
+      - "cline"
+      - "copilot"
+      - "llm"
+      - "mcp"
+      - "rules"
+      - "templates"
+    stars_fact: 161
+    first_seen: null
+    last_push: "2026-09-29"
 ---
 
 # sammcj

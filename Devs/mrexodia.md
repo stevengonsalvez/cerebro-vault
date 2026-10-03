@@ -10,16 +10,16 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-02T06:06:48.484172+00:00"
+generated_at: "2026-10-03T06:07:13.763334+00:00"
 provenance:
   - "48dbbdd8fd0d3029"
   - "de6bf05613f3ae04"
-pushes_per_week: [9, 14, 15, 7, 5, 7, 4, 3, 0, 0, 5, 3, 6]
+pushes_per_week: [5, 16, 13, 7, 5, 7, 4, 3, 0, 0, 6, 6, 2]
 windows:
   "7d":
-    pushes: 7
+    pushes: 6
     distinct_repos: 6
-    active_days: 3
+    active_days: 2
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 2
@@ -31,16 +31,16 @@ windows:
     not_owned_basenames: 5
     not_owned_owners: 3
   "90d":
-    pushes: 78
+    pushes: 74
     distinct_repos: 36
-    active_days: 38
+    active_days: 37
     repos_not_owned: 13
     not_owned_basenames: 11
     not_owned_owners: 5
 automation:
   state: "clear"
-  push_per_day: 2.0526
-  repo_per_active_day: 0.9474
+  push_per_day: 2.0000
+  repo_per_active_day: 0.9730
   not_owned_ratio: 0.3611
   basename_concentration: 0.0833
   shapes: []
@@ -51,10 +51,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 7
+    pushes: 6
     distinct_repos: 6
-    pushes_per_repo: 1.1667
-    active_days: 3
+    pushes_per_repo: 1.0000
+    active_days: 2
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 2
@@ -67,16 +67,16 @@ facets:
     not_owned_basenames: 5
     not_owned_owners: 3
   "90d":
-    pushes: 78
+    pushes: 74
     distinct_repos: 36
-    pushes_per_repo: 2.1667
-    active_days: 38
+    pushes_per_repo: 2.0556
+    active_days: 37
     repos_not_owned: 13
     not_owned_basenames: 11
     not_owned_owners: 5
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 38 active days in 90d — pass"
+  - "activity: 37 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "TitanHide"
@@ -154,6 +154,6 @@ repos:
 
 # mrexodia
 
-78 pushes across 36 repositories on 38 active days in the last 90 days of public GitHub push activity.
+74 pushes across 36 repositories on 37 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/mrexodia

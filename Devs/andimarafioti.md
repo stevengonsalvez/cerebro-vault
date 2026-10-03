@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-02T06:06:48.484172+00:00"
+generated_at: "2026-10-03T06:07:13.763334+00:00"
 provenance:
   - "9207e699adc3a415"
-pushes_per_week: [0, 4, 0, 6, 3, 10, 0, 3, 0, 0, 0, 6, 20]
+pushes_per_week: [0, 4, 0, 6, 3, 10, 0, 3, 0, 0, 0, 9, 19]
 windows:
   "7d":
-    pushes: 24
-    distinct_repos: 9
+    pushes: 22
+    distinct_repos: 8
     active_days: 7
     repos_not_owned: 5
     not_owned_basenames: 2
     not_owned_owners: 5
   "30d":
-    pushes: 26
+    pushes: 28
     distinct_repos: 10
-    active_days: 8
+    active_days: 9
     repos_not_owned: 6
     not_owned_basenames: 2
     not_owned_owners: 6
   "90d":
-    pushes: 52
+    pushes: 54
     distinct_repos: 10
-    active_days: 25
+    active_days: 26
     repos_not_owned: 6
     not_owned_basenames: 2
     not_owned_owners: 6
 automation:
   state: "clear"
-  push_per_day: 2.0800
-  repo_per_active_day: 0.4000
+  push_per_day: 2.0769
+  repo_per_active_day: 0.3846
   not_owned_ratio: 0.6000
   basename_concentration: 0.5000
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 24
-    distinct_repos: 9
-    pushes_per_repo: 2.6667
+    pushes: 22
+    distinct_repos: 8
+    pushes_per_repo: 2.7500
     active_days: 7
     repos_not_owned: 5
     not_owned_basenames: 2
     not_owned_owners: 5
   "30d":
-    pushes: 26
+    pushes: 28
     distinct_repos: 10
-    pushes_per_repo: 2.6000
-    active_days: 8
+    pushes_per_repo: 2.8000
+    active_days: 9
     repos_not_owned: 6
     not_owned_basenames: 2
     not_owned_owners: 6
   "90d":
-    pushes: 52
+    pushes: 54
     distinct_repos: 10
-    pushes_per_repo: 5.2000
-    active_days: 25
+    pushes_per_repo: 5.4000
+    active_days: 26
     repos_not_owned: 6
     not_owned_basenames: 2
     not_owned_owners: 6
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 25 active days in 90d — pass"
+  - "activity: 26 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "qwentts-cpp-python"
@@ -129,6 +129,6 @@ repos:
 
 # andimarafioti
 
-52 pushes across 10 repositories on 25 active days in the last 90 days of public GitHub push activity.
+54 pushes across 10 repositories on 26 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/andimarafioti

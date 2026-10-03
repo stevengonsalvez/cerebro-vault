@@ -10,28 +10,28 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-02T06:06:48.484172+00:00"
+generated_at: "2026-10-03T06:07:13.763334+00:00"
 provenance:
   - "234088bc43763aa2"
   - "e5b23adc376a62a9"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 6, 14]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 6, 18]
 windows:
   "7d":
-    pushes: 14
+    pushes: 18
     distinct_repos: 1
     active_days: 4
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 28
+    pushes: 32
     distinct_repos: 6
     active_days: 10
     repos_not_owned: 3
     not_owned_basenames: 1
     not_owned_owners: 3
   "90d":
-    pushes: 28
+    pushes: 32
     distinct_repos: 6
     active_days: 10
     repos_not_owned: 3
@@ -39,7 +39,7 @@ windows:
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 2.8000
+  push_per_day: 3.2000
   repo_per_active_day: 0.6000
   not_owned_ratio: 0.5000
   basename_concentration: 0.6667
@@ -51,25 +51,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 14
+    pushes: 18
     distinct_repos: 1
-    pushes_per_repo: 14.0000
+    pushes_per_repo: 18.0000
     active_days: 4
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 28
+    pushes: 32
     distinct_repos: 6
-    pushes_per_repo: 4.6667
+    pushes_per_repo: 5.3333
     active_days: 10
     repos_not_owned: 3
     not_owned_basenames: 1
     not_owned_owners: 3
   "90d":
-    pushes: 28
+    pushes: 32
     distinct_repos: 6
-    pushes_per_repo: 4.6667
+    pushes_per_repo: 5.3333
     active_days: 10
     repos_not_owned: 3
     not_owned_basenames: 1
@@ -107,6 +107,6 @@ repos:
 
 # lukatao
 
-28 pushes across 6 repositories on 10 active days in the last 90 days of public GitHub push activity.
+32 pushes across 6 repositories on 10 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/lukatao

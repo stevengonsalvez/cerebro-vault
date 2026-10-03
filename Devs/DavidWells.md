@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-02T06:06:48.484172+00:00"
+generated_at: "2026-10-03T06:07:13.763334+00:00"
 provenance:
   - "0b22ca37fd3884c9"
-pushes_per_week: [34, 1, 2, 0, 1, 3, 0, 1, 1, 0, 0, 1, 6]
+pushes_per_week: [11, 3, 0, 0, 2, 2, 0, 1, 1, 0, 0, 4, 5]
 windows:
   "7d":
-    pushes: 7
+    pushes: 8
     distinct_repos: 4
     active_days: 5
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 7
+    pushes: 9
     distinct_repos: 4
-    active_days: 5
+    active_days: 6
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 50
-    distinct_repos: 8
+    pushes: 29
+    distinct_repos: 6
     active_days: 17
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.9412
-  repo_per_active_day: 0.4706
-  not_owned_ratio: 0.1250
-  basename_concentration: 0.1250
+  push_per_day: 1.7059
+  repo_per_active_day: 0.3529
+  not_owned_ratio: 0.1667
+  basename_concentration: 0.1667
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 7
+    pushes: 8
     distinct_repos: 4
-    pushes_per_repo: 1.7500
+    pushes_per_repo: 2.0000
     active_days: 5
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 7
+    pushes: 9
     distinct_repos: 4
-    pushes_per_repo: 1.7500
-    active_days: 5
+    pushes_per_repo: 2.2500
+    active_days: 6
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 50
-    distinct_repos: 8
-    pushes_per_repo: 6.2500
+    pushes: 29
+    distinct_repos: 6
+    pushes_per_repo: 4.8333
     active_days: 17
     repos_not_owned: 1
     not_owned_basenames: 1
@@ -136,6 +136,6 @@ repos:
 
 # DavidWells
 
-50 pushes across 8 repositories on 17 active days in the last 90 days of public GitHub push activity.
+29 pushes across 6 repositories on 17 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/DavidWells

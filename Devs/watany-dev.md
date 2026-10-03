@@ -10,31 +10,31 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-02T06:06:48.484172+00:00"
+generated_at: "2026-10-03T06:07:13.763334+00:00"
 provenance:
   - "533d51d9d3dea76f"
   - "97c4e9cb8b163ddb"
   - "c7515e0fa4368a55"
   - "d3abe74726b22711"
   - "e7c647c4d0689526"
-pushes_per_week: [8, 0, 0, 3, 0, 5, 0, 0, 1, 16, 3, 46, 24]
+pushes_per_week: [4, 0, 0, 3, 0, 5, 0, 1, 1, 18, 1, 51, 21]
 windows:
   "7d":
-    pushes: 29
+    pushes: 27
     distinct_repos: 2
     active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 89
+    pushes: 92
     distinct_repos: 4
-    active_days: 14
+    active_days: 15
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 106
+    pushes: 105
     distinct_repos: 6
     active_days: 23
     repos_not_owned: 0
@@ -42,7 +42,7 @@ windows:
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 4.6087
+  push_per_day: 4.5652
   repo_per_active_day: 0.2609
   not_owned_ratio: 0.0000
   basename_concentration: 0.1667
@@ -54,25 +54,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 29
+    pushes: 27
     distinct_repos: 2
-    pushes_per_repo: 14.5000
+    pushes_per_repo: 13.5000
     active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 89
+    pushes: 92
     distinct_repos: 4
-    pushes_per_repo: 22.2500
-    active_days: 14
+    pushes_per_repo: 23.0000
+    active_days: 15
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 106
+    pushes: 105
     distinct_repos: 6
-    pushes_per_repo: 17.6667
+    pushes_per_repo: 17.5000
     active_days: 23
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -134,6 +134,6 @@ repos:
 
 # watany-dev
 
-106 pushes across 6 repositories on 23 active days in the last 90 days of public GitHub push activity.
+105 pushes across 6 repositories on 23 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/watany-dev

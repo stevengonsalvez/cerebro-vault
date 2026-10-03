@@ -8,37 +8,37 @@ provenance_repos:
   - "asamassekou10/ship-safe"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-02T06:06:48.484172+00:00"
+repos_populated: true
+generated_at: "2026-10-03T06:07:13.763334+00:00"
 provenance:
   - "9e2ff10d772b1e71"
-pushes_per_week: [1, 2, 5, 7, 5, 6, 3, 3, 0, 1, 0, 0, 1]
+pushes_per_week: [1, 2, 9, 3, 5, 7, 2, 3, 0, 1, 0, 0, 3]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
-  "30d":
-    pushes: 2
-    distinct_repos: 2
+    pushes: 3
+    distinct_repos: 3
     active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
+  "30d":
+    pushes: 4
+    distinct_repos: 4
+    active_days: 3
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
-    pushes: 34
+    pushes: 36
     distinct_repos: 19
-    active_days: 27
+    active_days: 28
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.2593
-  repo_per_active_day: 0.7037
+  push_per_day: 1.2857
+  repo_per_active_day: 0.6786
   not_owned_ratio: 0.0000
   basename_concentration: 0.0526
   shapes: []
@@ -49,38 +49,148 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
-  "30d":
-    pushes: 2
-    distinct_repos: 2
+    pushes: 3
+    distinct_repos: 3
     pushes_per_repo: 1.0000
     active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
+  "30d":
+    pushes: 4
+    distinct_repos: 4
+    pushes_per_repo: 1.0000
+    active_days: 3
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
-    pushes: 34
+    pushes: 36
     distinct_repos: 19
-    pushes_per_repo: 1.7895
-    active_days: 27
+    pushes_per_repo: 1.8947
+    active_days: 28
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 27 active days in 90d — pass"
+  - "activity: 28 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "nfcraft"
+    title: "nfcraft"
+    description: "Local-first card workshop: guarded NFC provisioning and recipient web profiles"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-16"
+  - name: "agent-session-recovery"
+    title: "agent-session-recovery"
+    description: "Tool-independent recovery layer for AI-agent workspaces — resume a Claude Code or Codex session after a reboot, a crash, or an accidental close."
+    language: "PowerShell"
+    topics:
+      - "claude-code"
+      - "codex"
+      - "developer-tools"
+      - "powershell"
+      - "session-recovery"
+      - "windows"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-12"
+  - name: "ai-iconflow"
+    title: "ai-iconflow"
+    description: "Reviewed, platform-ready icon families from one semantic SVG master — favicon, PWA, Tauri, Electron, tray. Distinctiveness = specificity, proven at 16px."
+    language: "HTML"
+    topics:
+      - "app-icon"
+      - "claude-code"
+      - "cli"
+      - "design-system"
+      - "developer-tools"
+      - "electron"
+      - "favicon"
+      - "favicon-generator"
+      - "icon"
+      - "icon-generator"
+      - "icons"
+      - "macos"
+      - "maskable-icons"
+      - "progressive-web-app"
+      - "pwa"
+      - "python"
+      - "svg"
+      - "svg-to-png"
+      - "tauri"
+      - "tray-icon"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-11"
+  - name: "agent-orchestrator"
+    title: "agent-orchestrator"
+    description: "Multi-account desktop workflow orchestrator for local CLI AI agents, with routed profiles, PTY sessions, and signal-aware blocks."
+    language: "JavaScript"
+    topics:
+      - "agent-orchestration"
+      - "ai-agents"
+      - "conpty"
+      - "electron"
+      - "multi-account"
+      - "windows"
+      - "workflow-automation"
+      - "xtermjs"
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-09-07"
+  - name: "LumenDeck"
+    title: "LumenDeck"
+    description: "Control brightness, contrast and per-monitor colour temperature on every Windows display over DDC/CI. Luminance-matched presets, blue light filter per screen, laptop panels via WMI, tray app and CLI."
+    language: "C#"
+    topics:
+      - "blue-light-filter"
+      - "brightness"
+      - "brightness-control"
+      - "color-temperature"
+      - "csharp"
+      - "ddc"
+      - "ddc-ci"
+      - "display-management"
+      - "dotnet"
+      - "external-monitor"
+      - "mccs"
+      - "monitor-brightness"
+      - "monitor-control"
+      - "multi-monitor"
+      - "night-light"
+      - "screen-brightness"
+      - "tray-app"
+      - "vcp"
+      - "windows"
+      - "winforms"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-08-15"
+  - name: "morflo"
+    title: "morflo"
+    description: "Calm, local-first desktop image and video conversion. Converts images with no external dependency; uses a locally installed FFmpeg for video when one is present."
+    language: "Rust"
+    topics:
+      - "desktop-app"
+      - "ffmpeg"
+      - "image-conversion"
+      - "local-first"
+      - "rust"
+      - "tauri"
+      - "video-conversion"
+      - "windows"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-02"
 ---
 
 # snowyukitty
 
-34 pushes across 19 repositories on 27 active days in the last 90 days of public GitHub push activity.
+36 pushes across 19 repositories on 28 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/snowyukitty

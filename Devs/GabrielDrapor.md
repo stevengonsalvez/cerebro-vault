@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-02T06:06:48.484172+00:00"
+generated_at: "2026-10-03T06:07:13.763334+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [6, 1, 2, 0, 1, 12, 2, 5, 0, 0, 10, 2, 2]
+pushes_per_week: [5, 1, 2, 0, 1, 12, 2, 5, 0, 0, 10, 2, 8]
 windows:
   "7d":
-    pushes: 2
+    pushes: 8
     distinct_repos: 1
-    active_days: 2
+    active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 14
+    pushes: 20
     distinct_repos: 2
-    active_days: 7
+    active_days: 8
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 43
+    pushes: 48
     distinct_repos: 6
     active_days: 24
     repos_not_owned: 2
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.7917
+  push_per_day: 2.0000
   repo_per_active_day: 0.2500
   not_owned_ratio: 0.3333
   basename_concentration: 0.3333
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
+    pushes: 8
     distinct_repos: 1
-    pushes_per_repo: 2.0000
-    active_days: 2
+    pushes_per_repo: 8.0000
+    active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 14
+    pushes: 20
     distinct_repos: 2
-    pushes_per_repo: 7.0000
-    active_days: 7
+    pushes_per_repo: 10.0000
+    active_days: 8
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 43
+    pushes: 48
     distinct_repos: 6
-    pushes_per_repo: 7.1667
+    pushes_per_repo: 8.0000
     active_days: 24
     repos_not_owned: 2
     not_owned_basenames: 2
@@ -132,6 +132,6 @@ repos:
 
 # GabrielDrapor
 
-43 pushes across 6 repositories on 24 active days in the last 90 days of public GitHub push activity.
+48 pushes across 6 repositories on 24 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/GabrielDrapor

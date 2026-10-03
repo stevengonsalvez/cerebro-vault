@@ -8,8 +8,8 @@ provenance_repos:
   - "agavra/tuicr"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-02T06:06:48.484172+00:00"
+repos_populated: true
+generated_at: "2026-10-03T06:07:13.763334+00:00"
 provenance:
   - "4a45ac7a449df20e"
 pushes_per_week: [1, 7, 2, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0]
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "mercury-cli"
+    title: "mercury-cli"
+    description: null
+    language: "Go"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-02-10"
+  - name: "forge-optimism"
+    title: "forge-optimism"
+    description: null
+    language: "Solidity"
+    topics: []
+    stars_fact: 58
+    first_seen: null
+    last_push: "2022-08-05"
+  - name: "curve-bonded-tokens"
+    title: "curve-bonded-tokens"
+    description: "Curve Bonded Tokens"
+    language: "Solidity"
+    topics: []
+    stars_fact: 34
+    first_seen: null
+    last_push: "2023-09-23"
+  - name: "dojo-core"
+    title: "dojo-core"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2023-01-04"
+  - name: "tarrencev"
+    title: "tarrencev"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2020-08-13"
+  - name: "vme"
+    title: "vme"
+    description: "Prompts and such"
+    language: "Python"
+    topics: []
+    stars_fact: 5
+    first_seen: null
+    last_push: "2023-03-28"
 ---
 
 # tarrencev

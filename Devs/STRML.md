@@ -8,18 +8,18 @@ provenance_repos:
   - "can1357/oh-my-pi"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-02T06:06:48.484172+00:00"
+repos_populated: true
+generated_at: "2026-10-03T06:07:13.763334+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [2, 3, 2, 9, 14, 10, 1, 4, 0, 2, 14, 22, 24]
+pushes_per_week: [4, 1, 2, 11, 12, 10, 1, 4, 0, 3, 15, 24, 20]
 windows:
   "7d":
-    pushes: 33
-    distinct_repos: 9
-    active_days: 7
-    repos_not_owned: 3
-    not_owned_basenames: 3
+    pushes: 24
+    distinct_repos: 8
+    active_days: 6
+    repos_not_owned: 2
+    not_owned_basenames: 2
     not_owned_owners: 2
   "30d":
     pushes: 62
@@ -49,12 +49,12 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 33
-    distinct_repos: 9
-    pushes_per_repo: 3.6667
-    active_days: 7
-    repos_not_owned: 3
-    not_owned_basenames: 3
+    pushes: 24
+    distinct_repos: 8
+    pushes_per_repo: 3.0000
+    active_days: 6
+    repos_not_owned: 2
+    not_owned_basenames: 2
     not_owned_owners: 2
   "30d":
     pushes: 62
@@ -76,7 +76,57 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 38 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "cc-debate"
+    title: "cc-debate"
+    description: "Multi-AI Plan Debate Skill for Claude Code. Rope in Codex and Gemini to make your plans rock-solid."
+    language: "Shell"
+    topics: []
+    stars_fact: 10
+    first_seen: null
+    last_push: "2026-08-14"
+  - name: "omp-classifier"
+    title: "omp-classifier"
+    description: "Model-judged permission gate for OMP: classifies bash commands and spawn-bearing eval payloads before they run, prompts on risk, fails closed"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-02"
+  - name: "studio-led"
+    title: "studio-led"
+    description: "Pulse the Mac Studio's front power LED with load (SMC LSLN + board power)"
+    language: "C"
+    topics: []
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-09-27"
+  - name: "cc-cache-warmer"
+    title: "cc-cache-warmer"
+    description: "Claude Code plugin: keeps an idle session's prompt cache warm, then compacts it. Requires cmux."
+    language: "Shell"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-30"
+  - name: "strml.net"
+    title: "strml.net"
+    description: "STRML: Projects & Work"
+    language: "JavaScript"
+    topics:
+      - "homepage"
+      - "javascript"
+    stars_fact: 2640
+    first_seen: null
+    last_push: "2026-09-27"
+  - name: "cc-skills"
+    title: "cc-skills"
+    description: "Claude Code slash commands and skills I actually use"
+    language: "HTML"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-29"
 ---
 
 # STRML

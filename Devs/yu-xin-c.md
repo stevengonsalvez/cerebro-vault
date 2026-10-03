@@ -8,11 +8,11 @@ provenance_repos:
   - "bytedance/deer-flow"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-02T06:06:48.484172+00:00"
+repos_populated: true
+generated_at: "2026-10-03T06:07:13.763334+00:00"
 provenance:
   - "16389f32495280ea"
-pushes_per_week: [3, 6, 1, 2, 0, 7, 3, 0, 0, 1, 2, 3, 3]
+pushes_per_week: [5, 4, 1, 2, 0, 8, 2, 0, 0, 1, 2, 3, 3]
 windows:
   "7d":
     pushes: 3
@@ -76,7 +76,61 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 20 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "Sea-mult-agent"
+    title: "Sea-mult-agent"
+    description: "A AutoResearch Agent"
+    language: "Go"
+    topics: []
+    stars_fact: 331
+    first_seen: null
+    last_push: "2026-08-19"
+  - name: "hy3-game-test-lab"
+    title: "hy3-game-test-lab"
+    description: "Layered playtesting and first-failure localization for AI-generated browser games."
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-22"
+  - name: "yu-xin-c"
+    title: "yu-xin-c"
+    description: "GitHub profile README"
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-18"
+  - name: "dsh-project-wiki"
+    title: "dsh-project-wiki"
+    description: "Auditable workspace-local project Wiki with a native Web UI for DeepSeek Harness"
+    language: "JavaScript"
+    topics:
+      - "coding-agent"
+      - "deepseek-harness"
+      - "dsh"
+      - "dsh-plugin"
+      - "knowledge-base"
+      - "wiki"
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-08-19"
+  - name: "nanobot-llm-wiki"
+    title: "nanobot-llm-wiki"
+    description: "LLM Wiki long-term memory plugin for NanoBot"
+    language: "Python"
+    topics: []
+    stars_fact: 13
+    first_seen: null
+    last_push: "2026-08-13"
+  - name: "agent-unpacked"
+    title: "agent-unpacked"
+    description: "Stellar鱼的 Agent 源码拆解教程：DSH、PI Agent 与 nanobot"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 17
+    first_seen: null
+    last_push: "2026-08-18"
 ---
 
 # yu-xin-c

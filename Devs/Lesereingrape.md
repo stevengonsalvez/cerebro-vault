@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-02T06:06:48.484172+00:00"
+generated_at: "2026-10-03T06:07:13.763334+00:00"
 provenance:
   - "16389f32495280ea"
-pushes_per_week: [0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 17, 9]
+pushes_per_week: [0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 20, 7]
 windows:
   "7d":
-    pushes: 23
-    distinct_repos: 15
-    active_days: 4
+    pushes: 7
+    distinct_repos: 4
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 26
+    pushes: 27
     distinct_repos: 16
-    active_days: 7
+    active_days: 8
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 27
+    pushes: 28
     distinct_repos: 17
-    active_days: 8
+    active_days: 9
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 3.3750
-  repo_per_active_day: 2.1250
+  push_per_day: 3.1111
+  repo_per_active_day: 1.8889
   not_owned_ratio: 0.0000
   basename_concentration: 0.0588
   shapes: []
@@ -49,42 +49,34 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 23
-    distinct_repos: 15
-    pushes_per_repo: 1.5333
-    active_days: 4
+    pushes: 7
+    distinct_repos: 4
+    pushes_per_repo: 1.7500
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 26
+    pushes: 27
     distinct_repos: 16
-    pushes_per_repo: 1.6250
-    active_days: 7
+    pushes_per_repo: 1.6875
+    active_days: 8
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 27
+    pushes: 28
     distinct_repos: 17
-    pushes_per_repo: 1.5882
-    active_days: 8
+    pushes_per_repo: 1.6471
+    active_days: 9
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 8 active days in 90d — pass"
+  - "activity: 9 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "system-one-lab"
-    title: "system-one-lab"
-    description: "CPU-only, multi-seed measurement of what an agent decision layer is sensitive to: a typed Choice/Score/Noul judge vs a prose judge vs a prompt-flattened control, on synthetic findings with an exact verifier."
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-26"
   - name: "Lesereingrape"
     title: "Lesereingrape"
     description: "Merged upstream pull requests, rendered from the GitHub API"
@@ -92,7 +84,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-26"
+    last_push: "2026-10-03"
   - name: "lagent"
     title: "lagent"
     description: "Local-first ReAct tool-use agent with a measured scaffold ablation: identical behaviour-cloned weights, four harnesses, ground-truth verifier. CPU-only tiny transformer."
@@ -106,19 +98,6 @@ repos:
       - "pytorch"
       - "react"
       - "tool-use"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-26"
-  - name: "vlm-distill-bench"
-    title: "vlm-distill-bench"
-    description: "Reproducible CPU-only distillation & quantization benchmark for compact vision-language models on procedural mini-CLEVR. Real numbers, committed seeds, no downloads."
-    language: "Python"
-    topics:
-      - "benchmark"
-      - "knowledge-distillation"
-      - "pytorch"
-      - "quantization"
-      - "vision-language"
     stars_fact: 0
     first_seen: null
     last_push: "2026-09-26"
@@ -137,19 +116,35 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-09-26"
-  - name: "skill-lab"
-    title: "skill-lab"
-    description: "CPU-only, dependency-free study of a Voyager-style self-evolving skill library: a budgeted BFS planner distils reusable first-order skills from its own verified plans and gets measurably cheaper the more it is used."
+  - name: "align-lab"
+    title: "align-lab"
+    description: "CPU-only post-training study: SFT vs DPO vs ORPO vs SimPO on a verifiable digit-addition task. Multi-seed; shows DPO/SimPO win-rate climbing to ~0.99 while real generation accuracy collapses (likelihood displacement)."
     language: "Python"
     topics:
-      - "agents"
-      - "planning"
-      - "python"
-      - "reinforcement-learning"
-      - "search"
-      - "self-improvement"
-      - "skill-library"
-      - "voyager"
+      - "alignment"
+      - "dpo"
+      - "llm"
+      - "orpo"
+      - "post-training"
+      - "preference-optimization"
+      - "pytorch"
+      - "simpo"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-26"
+  - name: "research-relay-lab"
+    title: "research-relay-lab"
+    description: "CPU-only, multi-seed measurement of where a deep-research pipeline loses the evidence it found: one frozen 142k-parameter policy run through six researcher-to-reporter harnesses on a task with an exact verifier, with every README number rendered from a committed artifact."
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-28"
+  - name: "system-one-lab"
+    title: "system-one-lab"
+    description: "CPU-only, multi-seed measurement of what an agent decision layer is sensitive to: a typed Choice/Score/Noul judge vs a prose judge vs a prompt-flattened control, on synthetic findings with an exact verifier."
+    language: "Python"
+    topics: []
     stars_fact: 0
     first_seen: null
     last_push: "2026-09-26"
@@ -157,6 +152,6 @@ repos:
 
 # Lesereingrape
 
-27 pushes across 17 repositories on 8 active days in the last 90 days of public GitHub push activity.
+28 pushes across 17 repositories on 9 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Lesereingrape

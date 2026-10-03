@@ -11,12 +11,12 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-02T06:06:48.484172+00:00"
+generated_at: "2026-10-03T06:07:13.763334+00:00"
 provenance:
   - "02eab667df448997"
   - "2d6ba8fc0269fd52"
   - "c45b44d53914aea3"
-pushes_per_week: [116, 122, 132, 93, 47, 149, 12, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [110, 125, 127, 89, 69, 125, 10, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -33,18 +33,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 671
-    distinct_repos: 6
-    active_days: 45
-    repos_not_owned: 4
-    not_owned_basenames: 4
-    not_owned_owners: 2
+    pushes: 655
+    distinct_repos: 5
+    active_days: 44
+    repos_not_owned: 3
+    not_owned_basenames: 3
+    not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 14.9111
-  repo_per_active_day: 0.1333
-  not_owned_ratio: 0.6667
-  basename_concentration: 0.1667
+  push_per_day: 14.8864
+  repo_per_active_day: 0.1136
+  not_owned_ratio: 0.6000
+  basename_concentration: 0.2000
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -69,16 +69,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 671
-    distinct_repos: 6
-    pushes_per_repo: 111.8333
-    active_days: 45
-    repos_not_owned: 4
-    not_owned_basenames: 4
-    not_owned_owners: 2
+    pushes: 655
+    distinct_repos: 5
+    pushes_per_repo: 131.0000
+    active_days: 44
+    repos_not_owned: 3
+    not_owned_basenames: 3
+    not_owned_owners: 1
 reasons:
   - "provenance: 3 vault signal(s) — pass"
-  - "activity: 45 active days in 90d — pass"
+  - "activity: 44 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "test-claude-plugin"
@@ -101,6 +101,6 @@ repos:
 
 # bryan-anthropic
 
-671 pushes across 6 repositories on 45 active days in the last 90 days of public GitHub push activity.
+655 pushes across 5 repositories on 44 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/bryan-anthropic

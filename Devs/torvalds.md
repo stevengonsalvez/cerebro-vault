@@ -8,11 +8,11 @@ provenance_repos:
   - "torvalds/linux"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-02T06:06:48.484172+00:00"
+repos_populated: true
+generated_at: "2026-10-03T06:07:13.763334+00:00"
 provenance:
   - "8a1948cc7f7c09c4"
-pushes_per_week: [3, 4, 5, 4, 1, 2, 3, 1, 0, 0, 1, 3, 3]
+pushes_per_week: [3, 4, 4, 5, 0, 2, 3, 1, 0, 0, 2, 3, 3]
 windows:
   "7d":
     pushes: 4
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 7
+    pushes: 8
     distinct_repos: 2
-    active_days: 7
+    active_days: 8
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 7
+    pushes: 8
     distinct_repos: 2
-    pushes_per_repo: 3.5000
-    active_days: 7
+    pushes_per_repo: 4.0000
+    active_days: 8
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 26 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "linux"
+    title: "linux"
+    description: "Linux kernel source tree"
+    language: "C"
+    topics: []
+    stars_fact: 250880
+    first_seen: "2026-08-23T06:00:01.522669+00:00"
+    last_push: "2026-10-03"
+  - name: "GuitarPedal"
+    title: "GuitarPedal"
+    description: "Linus learns analog circuits"
+    language: "C"
+    topics: []
+    stars_fact: 2415
+    first_seen: null
+    last_push: "2026-10-02"
+  - name: "AudioNoise"
+    title: "AudioNoise"
+    description: "Random digital audio effects"
+    language: "C"
+    topics: []
+    stars_fact: 4514
+    first_seen: null
+    last_push: "2026-05-08"
+  - name: "ScrollWheel"
+    title: "ScrollWheel"
+    description: "Minimalist RP2350 magnetic sensor scroll wheel toy project"
+    language: "C"
+    topics: []
+    stars_fact: 379
+    first_seen: null
+    last_push: "2026-06-02"
+  - name: "uemacs"
+    title: "uemacs"
+    description: "Random version of microemacs with my private modificatons"
+    language: "C"
+    topics: []
+    stars_fact: 2157
+    first_seen: null
+    last_push: "2026-08-06"
+  - name: "test-tlb"
+    title: "test-tlb"
+    description: "Stupid memory latency and TLB tester"
+    language: "C"
+    topics: []
+    stars_fact: 1067
+    first_seen: null
+    last_push: "2024-08-19"
 ---
 
 # torvalds

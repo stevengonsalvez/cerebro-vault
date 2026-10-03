@@ -8,37 +8,37 @@ provenance_repos:
   - "antirez/ds4"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-02T06:06:48.484172+00:00"
+repos_populated: true
+generated_at: "2026-10-03T06:07:13.763334+00:00"
 provenance:
   - "3eacb4655aba2497"
-pushes_per_week: [0, 0, 10, 0, 1, 1, 0, 0, 0, 1, 4, 1, 0]
+pushes_per_week: [0, 3, 7, 0, 1, 1, 0, 0, 0, 1, 4, 1, 1]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "30d":
-    pushes: 6
+    pushes: 7
     distinct_repos: 4
-    active_days: 4
+    active_days: 5
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 18
+    pushes: 19
     distinct_repos: 8
-    active_days: 10
+    active_days: 11
     repos_not_owned: 4
     not_owned_basenames: 3
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 1.8000
-  repo_per_active_day: 0.8000
+  push_per_day: 1.7273
+  repo_per_active_day: 0.7273
   not_owned_ratio: 0.5000
   basename_concentration: 0.2500
   shapes: []
@@ -49,38 +49,95 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    pushes: 1
+    distinct_repos: 1
+    pushes_per_repo: 1.0000
+    active_days: 1
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "30d":
-    pushes: 6
+    pushes: 7
     distinct_repos: 4
-    pushes_per_repo: 1.5000
-    active_days: 4
+    pushes_per_repo: 1.7500
+    active_days: 5
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 18
+    pushes: 19
     distinct_repos: 8
-    pushes_per_repo: 2.2500
-    active_days: 10
+    pushes_per_repo: 2.3750
+    active_days: 11
     repos_not_owned: 4
     not_owned_basenames: 3
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 10 active days in 90d — pass"
+  - "activity: 11 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "pi-boss"
+    title: "pi-boss"
+    description: "Spawn and manage sub-agents in visible tmux panes — the orchestrator that makes multi-agent boss mode work for pi coding agent."
+    language: "TypeScript"
+    topics:
+      - "ai-agent"
+      - "boss-mode"
+      - "multi-agent"
+      - "orchestration"
+      - "parallel-agents"
+      - "pi-coding-agent"
+      - "sub-agent"
+      - "tmux"
+      - "typescript"
+    stars_fact: 12
+    first_seen: null
+    last_push: "2026-04-25"
+  - name: "jev-browser"
+    title: "jev-browser"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-20"
+  - name: "agenthook"
+    title: "agenthook"
+    description: "A webhook inbox for coding agents. Runs locally & remotely."
+    language: "JavaScript"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-09-18"
+  - name: "skyfallsin.github.io"
+    title: "skyfallsin.github.io"
+    description: null
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-15"
+  - name: "flyiverse"
+    title: "flyiverse"
+    description: null
+    language: "Astro"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-10"
+  - name: "pi-projects"
+    title: "pi-projects"
+    description: "Self-contained project directories for the pi coding agent"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-10"
 ---
 
 # skyfallsin
 
-18 pushes across 8 repositories on 10 active days in the last 90 days of public GitHub push activity.
+19 pushes across 8 repositories on 11 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/skyfallsin

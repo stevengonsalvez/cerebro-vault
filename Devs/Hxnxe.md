@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-02T06:06:48.484172+00:00"
+generated_at: "2026-10-03T06:07:13.763334+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [10, 6, 5, 1, 0, 1, 0, 0, 0, 0, 0, 0, 1]
+pushes_per_week: [9, 1, 5, 1, 0, 1, 0, 0, 0, 0, 0, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 24
+    pushes: 18
     distinct_repos: 2
-    active_days: 13
+    active_days: 12
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.8462
-  repo_per_active_day: 0.1538
+  push_per_day: 1.5000
+  repo_per_active_day: 0.1667
   not_owned_ratio: 0.5000
   basename_concentration: 0.5000
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 24
+    pushes: 18
     distinct_repos: 2
-    pushes_per_repo: 12.0000
-    active_days: 13
+    pushes_per_repo: 9.0000
+    active_days: 12
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 13 active days in 90d — pass"
+  - "activity: 12 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "CyberSentinel-AI"
@@ -105,6 +105,6 @@ repos:
 
 # Hxnxe
 
-24 pushes across 2 repositories on 13 active days in the last 90 days of public GitHub push activity.
+18 pushes across 2 repositories on 12 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Hxnxe

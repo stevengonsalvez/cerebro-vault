@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-02T06:06:48.484172+00:00"
+generated_at: "2026-10-03T06:07:13.763334+00:00"
 provenance:
   - "6df1aababb3856e0"
-pushes_per_week: [0, 2, 26, 15, 5, 19, 4, 3, 1, 0, 0, 4, 17]
+pushes_per_week: [0, 5, 30, 8, 5, 19, 5, 2, 1, 0, 0, 4, 18]
 windows:
   "7d":
-    pushes: 20
+    pushes: 18
     distinct_repos: 3
     active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 21
+    pushes: 22
     distinct_repos: 3
-    active_days: 5
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 96
+    pushes: 97
     distinct_repos: 10
-    active_days: 28
+    active_days: 29
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 3.4286
-  repo_per_active_day: 0.3571
+  push_per_day: 3.3448
+  repo_per_active_day: 0.3448
   not_owned_ratio: 0.0000
   basename_concentration: 0.1000
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 20
+    pushes: 18
     distinct_repos: 3
-    pushes_per_repo: 6.6667
+    pushes_per_repo: 6.0000
     active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 21
+    pushes: 22
     distinct_repos: 3
-    pushes_per_repo: 7.0000
-    active_days: 5
+    pushes_per_repo: 7.3333
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 96
+    pushes: 97
     distinct_repos: 10
-    pushes_per_repo: 9.6000
-    active_days: 28
+    pushes_per_repo: 9.7000
+    active_days: 29
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 28 active days in 90d — pass"
+  - "activity: 29 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "modlens"
@@ -199,6 +199,6 @@ repos:
 
 # liustack
 
-96 pushes across 10 repositories on 28 active days in the last 90 days of public GitHub push activity.
+97 pushes across 10 repositories on 29 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/liustack

@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-02T06:06:48.484172+00:00"
+generated_at: "2026-10-03T06:07:13.763334+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [19, 7, 18, 16, 3, 11, 3, 0, 1, 3, 9, 8, 15]
+pushes_per_week: [14, 7, 21, 14, 2, 11, 3, 0, 2, 2, 9, 12, 12]
 windows:
   "7d":
-    pushes: 17
-    distinct_repos: 10
+    pushes: 16
+    distinct_repos: 9
     active_days: 6
-    repos_not_owned: 4
-    not_owned_basenames: 4
-    not_owned_owners: 2
+    repos_not_owned: 3
+    not_owned_basenames: 3
+    not_owned_owners: 1
   "30d":
-    pushes: 35
-    distinct_repos: 15
-    active_days: 15
+    pushes: 36
+    distinct_repos: 16
+    active_days: 16
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 2
   "90d":
-    pushes: 113
-    distinct_repos: 19
+    pushes: 109
+    distinct_repos: 20
     active_days: 45
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 2.5111
-  repo_per_active_day: 0.4222
-  not_owned_ratio: 0.2105
-  basename_concentration: 0.1053
+  push_per_day: 2.4222
+  repo_per_active_day: 0.4444
+  not_owned_ratio: 0.2000
+  basename_concentration: 0.1000
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 17
-    distinct_repos: 10
-    pushes_per_repo: 1.7000
+    pushes: 16
+    distinct_repos: 9
+    pushes_per_repo: 1.7778
     active_days: 6
-    repos_not_owned: 4
-    not_owned_basenames: 4
-    not_owned_owners: 2
+    repos_not_owned: 3
+    not_owned_basenames: 3
+    not_owned_owners: 1
   "30d":
-    pushes: 35
-    distinct_repos: 15
-    pushes_per_repo: 2.3333
-    active_days: 15
+    pushes: 36
+    distinct_repos: 16
+    pushes_per_repo: 2.2500
+    active_days: 16
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 2
   "90d":
-    pushes: 113
-    distinct_repos: 19
-    pushes_per_repo: 5.9474
+    pushes: 109
+    distinct_repos: 20
+    pushes_per_repo: 5.4500
     active_days: 45
     repos_not_owned: 4
     not_owned_basenames: 4
@@ -135,6 +135,6 @@ repos:
 
 # nerdCopter
 
-113 pushes across 19 repositories on 45 active days in the last 90 days of public GitHub push activity.
+109 pushes across 20 repositories on 45 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/nerdCopter

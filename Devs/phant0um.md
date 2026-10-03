@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-02T06:06:48.484172+00:00"
+generated_at: "2026-10-03T06:07:13.763334+00:00"
 provenance:
   - "4138778ebbc75ba6"
-pushes_per_week: [1, 2, 0, 0, 2, 2, 0, 0, 0, 0, 0, 0, 2]
+pushes_per_week: [1, 2, 0, 0, 2, 2, 0, 0, 0, 0, 0, 1, 1]
 windows:
   "7d":
     pushes: 2
@@ -77,6 +77,57 @@ reasons:
   - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "phant0um"
+    title: "phant0um"
+    description: "Config files for my GitHub profile."
+    language: null
+    topics:
+      - "config"
+      - "github-config"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-03"
+  - name: "comprehension-digest"
+    title: "comprehension-digest"
+    description: "Turn a repo's recent changes into a why-focused reading digest — git log + diff → LLM → markdown. No audio."
+    language: "Shell"
+    topics:
+      - "anthropic"
+      - "bash"
+      - "changelog"
+      - "claude"
+      - "cli"
+      - "code-review"
+      - "developer-tools"
+      - "git"
+      - "llm"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-27"
+  - name: "claude-agent-dev"
+    title: "claude-agent-dev"
+    description: "Agents for building agents & software with Claude — spec, verify, guard, extend, review lifecycle"
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-27"
+  - name: "claude-skills"
+    title: "claude-skills"
+    description: "Predictable agent skills for Claude Code — writing + reasoning guardrails, /plugin installable"
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-27"
+  - name: "clipscribe"
+    title: "clipscribe"
+    description: "Transcreve vídeos do YouTube e do X para clippings Markdown do Obsidian (Go, whisper.cpp local)"
+    language: "Go"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-26"
   - name: "pdf2md"
     title: "pdf2md"
     description: "Converte PDFs e imagens em Markdown — app macOS com batch e integração Obsidian"
@@ -85,46 +136,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-09-24"
-  - name: "phant0um.github.io"
-    title: "phant0um.github.io"
-    description: null
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-23"
-  - name: "futmanager"
-    title: "futmanager"
-    description: "Season-based football manager inspired by Brasfoot/Elifoot — pure Python, web UI default, compact Tkinter fallback, zero runtime deps · MIT"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-13"
-  - name: "cmanager"
-    title: "cmanager"
-    description: "Football management sim in Go — CM03/04-style engine, season loop, save/load, manager identity"
-    language: "Go"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-13"
-  - name: "claude-skills"
-    title: "claude-skills"
-    description: "Predictable agent skills for Claude Code — writing + reasoning guardrails, /plugin installable"
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-07-28"
-  - name: "claude-agent-dev"
-    title: "claude-agent-dev"
-    description: "Agents for building agents & software with Claude — spec, verify, guard, extend, review lifecycle"
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-07-28"
 ---
 
 # phant0um

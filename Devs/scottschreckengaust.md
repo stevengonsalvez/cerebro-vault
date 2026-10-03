@@ -8,11 +8,11 @@ provenance_repos:
   - "aws/agent-toolkit-for-aws"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-02T06:06:48.484172+00:00"
+repos_populated: true
+generated_at: "2026-10-03T06:07:13.763334+00:00"
 provenance:
   - "a50b0e08dbaee74a"
-pushes_per_week: [22, 31, 8, 4, 6, 4, 0, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [23, 31, 7, 4, 6, 4, 0, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,58 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 20 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "Schrecktech"
+    title: "Schrecktech"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2011-03-26"
+  - name: "e2e-ministack"
+    title: "e2e-ministack"
+    description: "End-to-end testing for MiniStack"
+    language: "TypeScript"
+    topics:
+      - "aws"
+      - "iac"
+      - "testing"
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-10-02"
+  - name: "agentic-template"
+    title: "agentic-template"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-24"
+  - name: "sscce-toctou"
+    title: "sscce-toctou"
+    description: "Testing race conditions for multiple self-assigning loops on open issues"
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-06-20"
+  - name: "sso-helper"
+    title: "sso-helper"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-03-24"
+  - name: "testpackages"
+    title: "testpackages"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-03-02"
 ---
 
 # scottschreckengaust

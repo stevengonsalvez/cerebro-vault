@@ -8,11 +8,11 @@ provenance_repos:
   - "affaan-m/ECC"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-02T06:06:48.484172+00:00"
+repos_populated: true
+generated_at: "2026-10-03T06:07:13.763334+00:00"
 provenance:
   - "edb3a626875732de"
-pushes_per_week: [17, 8, 0, 29, 0, 0, 2, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [20, 5, 3, 26, 0, 0, 2, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,15 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 12 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "elagentstudio"
+    title: "elagentstudio"
+    description: null
+    language: "Shell"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-10"
 ---
 
 # ToniDonDoni

@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-02T06:06:48.484172+00:00"
+generated_at: "2026-10-03T06:07:13.763334+00:00"
 provenance:
   - "feacb1c4ff8cc40f"
-pushes_per_week: [19, 75, 45, 24, 34, 7, 8, 3, 1, 19, 16, 23, 56]
+pushes_per_week: [48, 54, 38, 28, 28, 11, 4, 4, 1, 18, 21, 30, 47]
 windows:
   "7d":
-    pushes: 66
+    pushes: 53
     distinct_repos: 10
     active_days: 6
     repos_not_owned: 10
     not_owned_basenames: 2
     not_owned_owners: 10
   "30d":
-    pushes: 114
+    pushes: 117
     distinct_repos: 13
-    active_days: 20
+    active_days: 21
     repos_not_owned: 13
     not_owned_basenames: 2
     not_owned_owners: 13
   "90d":
-    pushes: 330
+    pushes: 332
     distinct_repos: 22
-    active_days: 62
+    active_days: 63
     repos_not_owned: 21
     not_owned_basenames: 5
     not_owned_owners: 18
 automation:
   state: "clear"
-  push_per_day: 5.3226
-  repo_per_active_day: 0.3548
+  push_per_day: 5.2698
+  repo_per_active_day: 0.3492
   not_owned_ratio: 0.9545
   basename_concentration: 0.8182
   shapes:
@@ -65,32 +65,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 66
+    pushes: 53
     distinct_repos: 10
-    pushes_per_repo: 6.6000
+    pushes_per_repo: 5.3000
     active_days: 6
     repos_not_owned: 10
     not_owned_basenames: 2
     not_owned_owners: 10
   "30d":
-    pushes: 114
+    pushes: 117
     distinct_repos: 13
-    pushes_per_repo: 8.7692
-    active_days: 20
+    pushes_per_repo: 9.0000
+    active_days: 21
     repos_not_owned: 13
     not_owned_basenames: 2
     not_owned_owners: 13
   "90d":
-    pushes: 330
+    pushes: 332
     distinct_repos: 22
-    pushes_per_repo: 15.0000
-    active_days: 62
+    pushes_per_repo: 15.0909
+    active_days: 63
     repos_not_owned: 21
     not_owned_basenames: 5
     not_owned_owners: 18
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 62 active days in 90d — pass"
+  - "activity: 63 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "johto-autumn"
@@ -105,6 +105,6 @@ repos:
 
 # f-trycua
 
-330 pushes across 22 repositories on 62 active days in the last 90 days of public GitHub push activity.
+332 pushes across 22 repositories on 63 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/f-trycua

@@ -8,11 +8,11 @@ provenance_repos:
   - "browser-use/browser-use"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-02T06:06:48.484172+00:00"
+repos_populated: true
+generated_at: "2026-10-03T06:07:13.763334+00:00"
 provenance:
   - "c1af6b58492f9bf4"
-pushes_per_week: [13, 3, 6, 6, 10, 0, 1, 0, 0, 1, 3, 34, 5]
+pushes_per_week: [13, 4, 5, 6, 10, 0, 1, 0, 0, 2, 7, 29, 6]
 windows:
   "7d":
     pushes: 6
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 43
+    pushes: 44
     distinct_repos: 5
-    active_days: 13
+    active_days: 14
     repos_not_owned: 4
     not_owned_basenames: 3
     not_owned_owners: 3
   "90d":
-    pushes: 82
+    pushes: 83
     distinct_repos: 6
-    active_days: 34
+    active_days: 35
     repos_not_owned: 5
     not_owned_basenames: 4
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 2.4118
-  repo_per_active_day: 0.1765
+  push_per_day: 2.3714
+  repo_per_active_day: 0.1714
   not_owned_ratio: 0.8333
   basename_concentration: 0.3333
   shapes: []
@@ -57,30 +57,85 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 43
+    pushes: 44
     distinct_repos: 5
-    pushes_per_repo: 8.6000
-    active_days: 13
+    pushes_per_repo: 8.8000
+    active_days: 14
     repos_not_owned: 4
     not_owned_basenames: 3
     not_owned_owners: 3
   "90d":
-    pushes: 82
+    pushes: 83
     distinct_repos: 6
-    pushes_per_repo: 13.6667
-    active_days: 34
+    pushes_per_repo: 13.8333
+    active_days: 35
     repos_not_owned: 5
     not_owned_basenames: 4
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 34 active days in 90d — pass"
+  - "activity: 35 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "hackspain"
+    title: "hackspain"
+    description: "CINTA — Class-agnostic INline Transport Analyzer"
+    language: "Python"
+    topics:
+      - "ai"
+      - "classifier"
+      - "hardware"
+      - "robotics"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-20"
+  - name: "prodex-js"
+    title: "prodex-js"
+    description: "The ultimate vide coding MCP!"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 7
+    first_seen: null
+    last_push: "2025-03-26"
+  - name: "blog"
+    title: "blog"
+    description: null
+    language: "MDX"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-05-27"
+  - name: "zig-docker"
+    title: "zig-docker"
+    description: "Zig Lang Dockerfile"
+    language: "Zig"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2020-04-16"
+  - name: "mes-u"
+    title: "mes-u"
+    description: "Més U"
+    language: "TypeScript"
+    topics:
+      - "catalan"
+      - "game"
+      - "resistencia"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-03-09"
+  - name: "poker-wars"
+    title: "poker-wars"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-01-03"
 ---
 
 # tarasyarema
 
-82 pushes across 6 repositories on 34 active days in the last 90 days of public GitHub push activity.
+83 pushes across 6 repositories on 35 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/tarasyarema

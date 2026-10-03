@@ -8,11 +8,11 @@ provenance_repos:
   - "affaan-m/ECC"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-02T06:06:48.484172+00:00"
+repos_populated: true
+generated_at: "2026-10-03T06:07:13.763334+00:00"
 provenance:
   - "edb3a626875732de"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 6, 3, 6]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 6, 5, 3]
 windows:
   "7d":
     pushes: 6
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 12 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "AstralProject"
+    title: "AstralProject"
+    description: "An open, reproducible measurement layer for crypto markets. Deterministic replay, honest cost models, reproducible results."
+    language: "Rust"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-10-02"
+  - name: "VarunGore36"
+    title: "VarunGore36"
+    description: "GitHub Readme"
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-29"
+  - name: "ChainLens"
+    title: "ChainLens"
+    description: "High-performance Ethereum blockchain indexer built in Rust and Tokio, featuring concurrent ingestion, canonical-chain tracking, reorg handling, crash-safe recovery, PostgreSQL storage, and reproducible performance benchmarks."
+    language: "Rust"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-29"
+  - name: "DepLens"
+    title: "DepLens"
+    description: "DepLens is an investigation into dependency-change impact prediction. The objective is not to assume that reliable prediction is possible, but to determine how far it can be pushed using empirical evidence."
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-11"
+  - name: "ENAMEL-Extended"
+    title: "ENAMEL-Extended"
+    description: "Reimplementation and extension of ENAMEL, an ICLR 2025 benchmark for rigorously evaluating the efficiency of LLM-generated code"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-09"
+  - name: "ChessEngine"
+    title: "ChessEngine"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2025-12-12"
 ---
 
 # VarunGore36

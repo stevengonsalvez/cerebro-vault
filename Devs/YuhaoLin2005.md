@@ -8,11 +8,11 @@ provenance_repos:
   - "affaan-m/ECC"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-02T06:06:48.484172+00:00"
+repos_populated: true
+generated_at: "2026-10-03T06:07:13.763334+00:00"
 provenance:
   - "edb3a626875732de"
-pushes_per_week: [27, 16, 4, 3, 0, 1, 0, 0, 0, 0, 0, 0, 1]
+pushes_per_week: [32, 11, 5, 2, 0, 1, 0, 0, 0, 0, 0, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -76,7 +76,71 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 17 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "fjau-air-platform"
+    title: "fjau-air-platform"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-19"
+  - name: "hermes-workspace"
+    title: "hermes-workspace"
+    description: "Does your AI agent actually follow rules? 13 pre-registered experiments + 5-layer verification architecture. Paper, data, code — all public."
+    language: "Python"
+    topics:
+      - "ai-alignment"
+      - "ai-product"
+      - "causal-verification"
+      - "cognitive-architecture"
+      - "deepseek"
+      - "global-workspace-theory"
+      - "j-space"
+      - "llm-architecture"
+      - "open-source"
+      - "prompt-engineering"
+      - "self-referential-systems"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-14"
+  - name: "qingxuanji"
+    title: "qingxuanji"
+    description: "青玄纪行 · 放置修仙 idle game build"
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-13"
+  - name: "resume-stress-test"
+    title: "resume-stress-test"
+    description: "投递之前，让 AI 先假装成最不想录用你的人，把你查一遍。三层递进简历压力测试闭环，纯提示词、无依赖、任意 AI 平台可用。"
+    language: "Python"
+    topics:
+      - "ai-agent"
+      - "career"
+      - "interview-preparation"
+      - "prompt-engineering"
+      - "resume"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-10"
+  - name: "mino-workspace"
+    title: "mino-workspace"
+    description: "MoneyAI-Agents 产品 Demo + 路演工作区模板：7 阶段全流程 + 机械校验门 + 模型档位适配层"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-27"
+  - name: "hollow-compliance-detector"
+    title: "hollow-compliance-detector"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-15"
 ---
 
 # YuhaoLin2005

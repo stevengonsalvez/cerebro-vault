@@ -8,11 +8,11 @@ provenance_repos:
   - "abhigyanpatwari/GitNexus"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-02T06:06:48.484172+00:00"
+repos_populated: true
+generated_at: "2026-10-03T06:07:13.763334+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [2, 4, 1, 1, 0, 0, 0, 1, 0, 0, 1, 2, 0]
+pushes_per_week: [1, 4, 1, 1, 0, 0, 0, 1, 0, 0, 1, 2, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 12
+    pushes: 11
     distinct_repos: 7
-    active_days: 11
+    active_days: 10
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.0909
-  repo_per_active_day: 0.6364
+  push_per_day: 1.1000
+  repo_per_active_day: 0.7000
   not_owned_ratio: 0.0000
   basename_concentration: 0.1429
   shapes: []
@@ -65,22 +65,70 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 12
+    pushes: 11
     distinct_repos: 7
-    pushes_per_repo: 1.7143
-    active_days: 11
+    pushes_per_repo: 1.5714
+    active_days: 10
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 11 active days in 90d — pass"
+  - "activity: 10 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "Veda-AI"
+    title: "Veda-AI"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-27"
+  - name: "praman"
+    title: "praman"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-25"
+  - name: "Predicting-smartphone-kaggle-hackathon"
+    title: "Predicting-smartphone-kaggle-hackathon"
+    description: null
+    language: "Jupyter Notebook"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-04"
+  - name: "Clamify"
+    title: "Clamify"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-07-21"
+  - name: "receptionist-voice-agent"
+    title: "receptionist-voice-agent"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-07-17"
+  - name: "Speakconfidence"
+    title: "Speakconfidence"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-07-07"
 ---
 
 # Sravan1011
 
-12 pushes across 7 repositories on 11 active days in the last 90 days of public GitHub push activity.
+11 pushes across 7 repositories on 10 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Sravan1011

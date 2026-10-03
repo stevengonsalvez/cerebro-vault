@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-02T06:06:48.484172+00:00"
+generated_at: "2026-10-03T06:07:13.763334+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [62, 27, 9, 29, 9, 74, 37, 28, 5, 6, 170, 404, 109]
+pushes_per_week: [46, 27, 8, 30, 10, 87, 24, 25, 5, 8, 234, 356, 100]
 windows:
   "7d":
-    pushes: 235
-    distinct_repos: 13
+    pushes: 118
+    distinct_repos: 15
     active_days: 7
-    repos_not_owned: 9
-    not_owned_basenames: 8
-    not_owned_owners: 2
-  "30d":
-    pushes: 689
-    distinct_repos: 21
-    active_days: 24
-    repos_not_owned: 11
+    repos_not_owned: 10
     not_owned_basenames: 9
     not_owned_owners: 3
+  "30d":
+    pushes: 698
+    distinct_repos: 23
+    active_days: 26
+    repos_not_owned: 12
+    not_owned_basenames: 10
+    not_owned_owners: 4
   "90d":
-    pushes: 969
-    distinct_repos: 47
-    active_days: 74
+    pushes: 960
+    distinct_repos: 48
+    active_days: 75
     repos_not_owned: 15
     not_owned_basenames: 11
     not_owned_owners: 6
 automation:
   state: "clear"
-  push_per_day: 13.0946
-  repo_per_active_day: 0.6351
-  not_owned_ratio: 0.3191
-  basename_concentration: 0.1277
+  push_per_day: 12.8000
+  repo_per_active_day: 0.6400
+  not_owned_ratio: 0.3125
+  basename_concentration: 0.1250
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 235
-    distinct_repos: 13
-    pushes_per_repo: 18.0769
+    pushes: 118
+    distinct_repos: 15
+    pushes_per_repo: 7.8667
     active_days: 7
-    repos_not_owned: 9
-    not_owned_basenames: 8
-    not_owned_owners: 2
-  "30d":
-    pushes: 689
-    distinct_repos: 21
-    pushes_per_repo: 32.8095
-    active_days: 24
-    repos_not_owned: 11
+    repos_not_owned: 10
     not_owned_basenames: 9
     not_owned_owners: 3
+  "30d":
+    pushes: 698
+    distinct_repos: 23
+    pushes_per_repo: 30.3478
+    active_days: 26
+    repos_not_owned: 12
+    not_owned_basenames: 10
+    not_owned_owners: 4
   "90d":
-    pushes: 969
-    distinct_repos: 47
-    pushes_per_repo: 20.6170
-    active_days: 74
+    pushes: 960
+    distinct_repos: 48
+    pushes_per_repo: 20.0000
+    active_days: 75
     repos_not_owned: 15
     not_owned_basenames: 11
     not_owned_owners: 6
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 74 active days in 90d — pass"
+  - "activity: 75 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "MagicMihomo"
@@ -146,6 +146,6 @@ repos:
 
 # LIghtJUNction
 
-969 pushes across 47 repositories on 74 active days in the last 90 days of public GitHub push activity.
+960 pushes across 48 repositories on 75 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/LIghtJUNction

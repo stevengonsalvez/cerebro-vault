@@ -8,28 +8,28 @@ provenance_repos:
   - "Wei-Shaw/sub2api"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-02T06:06:48.484172+00:00"
+repos_populated: true
+generated_at: "2026-10-03T06:07:13.763334+00:00"
 provenance:
   - "91526b8597b5b63d"
-pushes_per_week: [32, 41, 29, 11, 7, 14, 7, 5, 2, 4, 6, 12, 9]
+pushes_per_week: [32, 47, 26, 9, 6, 14, 7, 5, 2, 6, 5, 11, 12]
 windows:
   "7d":
-    pushes: 9
+    pushes: 12
     distinct_repos: 2
     active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 31
+    pushes: 34
     distinct_repos: 2
     active_days: 12
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 179
+    pushes: 182
     distinct_repos: 16
     active_days: 47
     repos_not_owned: 12
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 12
 automation:
   state: "clear"
-  push_per_day: 3.8085
+  push_per_day: 3.8723
   repo_per_active_day: 0.3404
   not_owned_ratio: 0.7500
   basename_concentration: 0.7500
@@ -65,25 +65,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 9
+    pushes: 12
     distinct_repos: 2
-    pushes_per_repo: 4.5000
+    pushes_per_repo: 6.0000
     active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 31
+    pushes: 34
     distinct_repos: 2
-    pushes_per_repo: 15.5000
+    pushes_per_repo: 17.0000
     active_days: 12
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 179
+    pushes: 182
     distinct_repos: 16
-    pushes_per_repo: 11.1875
+    pushes_per_repo: 11.3750
     active_days: 47
     repos_not_owned: 12
     not_owned_basenames: 2
@@ -92,11 +92,79 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 47 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "sub2api"
+    title: "sub2api"
+    description: "Sub2API 一站式开源中转服务，让 Claude、Openai 、Gemini、Grok订阅统一接入，支持拼车共享，更高效分摊成本，原生工具无缝使用。"
+    language: "Go"
+    topics:
+      - "2api"
+      - "antigravity2api"
+      - "cc2api"
+      - "claude"
+      - "claude-code"
+      - "codex"
+      - "crs"
+      - "crs2"
+      - "gemini"
+    stars_fact: 43221
+    first_seen: "2026-08-23T06:00:02.900682+00:00"
+    last_push: "2026-10-02"
+  - name: "claude-relay-service"
+    title: "claude-relay-service"
+    description: "CRS-自建Claude Code镜像，一站式开源中转服务，让 Claude、OpenAI、Gemini、Droid 订阅统一接入，支持拼车共享，更高效分摊成本，原生工具无缝使用。"
+    language: "JavaScript"
+    topics:
+      - "claude"
+      - "claude-api"
+      - "claude-code"
+      - "claude-proxy"
+      - "codex-cli"
+      - "crs"
+      - "droid"
+      - "droid-cli"
+      - "droid2api"
+      - "gemini-cli"
+    stars_fact: 12668
+    first_seen: null
+    last_push: "2026-10-02"
+  - name: "model-price-repo"
+    title: "model-price-repo"
+    description: "This repository stores model pricing files for CRS and sub2api projects. It synchronizes remote price files and allows custom price definitions for better flexibility."
+    language: "Python"
+    topics: []
+    stars_fact: 35
+    first_seen: null
+    last_push: "2026-10-02"
+  - name: "rsa-js-php"
+    title: "rsa-js-php"
+    description: "RSA demonstration of Javascript and PHP"
+    language: "JavaScript"
+    topics:
+      - "rsa-js-php"
+    stars_fact: 6
+    first_seen: null
+    last_push: "2018-08-15"
+  - name: "lnmpr"
+    title: "lnmpr"
+    description: "lnmpr一键安装脚本"
+    language: "Shell"
+    topics: []
+    stars_fact: 4
+    first_seen: null
+    last_push: "2018-12-10"
+  - name: "X-header"
+    title: "X-header"
+    description: "Sublime快捷键生成文件头注释"
+    language: "Python"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2018-07-24"
 ---
 
 # Wei-Shaw
 
-179 pushes across 16 repositories on 47 active days in the last 90 days of public GitHub push activity.
+182 pushes across 16 repositories on 47 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Wei-Shaw

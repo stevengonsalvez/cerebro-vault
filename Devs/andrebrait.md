@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-02T06:06:48.484172+00:00"
+generated_at: "2026-10-03T06:07:13.763334+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [182, 151, 52, 56, 48, 46, 19, 19, 2, 4, 25, 24, 58]
+pushes_per_week: [165, 152, 47, 81, 21, 44, 18, 15, 2, 6, 23, 30, 73]
 windows:
   "7d":
-    pushes: 62
+    pushes: 76
     distinct_repos: 9
     active_days: 7
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 2
   "30d":
-    pushes: 111
+    pushes: 132
     distinct_repos: 12
-    active_days: 20
+    active_days: 22
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 2
   "90d":
-    pushes: 686
+    pushes: 677
     distinct_repos: 24
-    active_days: 77
+    active_days: 78
     repos_not_owned: 7
     not_owned_basenames: 7
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 8.9091
-  repo_per_active_day: 0.3117
+  push_per_day: 8.6795
+  repo_per_active_day: 0.3077
   not_owned_ratio: 0.2917
   basename_concentration: 0.0833
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 62
+    pushes: 76
     distinct_repos: 9
-    pushes_per_repo: 6.8889
+    pushes_per_repo: 8.4444
     active_days: 7
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 2
   "30d":
-    pushes: 111
+    pushes: 132
     distinct_repos: 12
-    pushes_per_repo: 9.2500
-    active_days: 20
+    pushes_per_repo: 11.0000
+    active_days: 22
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 2
   "90d":
-    pushes: 686
+    pushes: 677
     distinct_repos: 24
-    pushes_per_repo: 28.5833
-    active_days: 77
+    pushes_per_repo: 28.2083
+    active_days: 78
     repos_not_owned: 7
     not_owned_basenames: 7
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 77 active days in 90d — pass"
+  - "activity: 78 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "DATROMTool"
@@ -140,6 +140,6 @@ repos:
 
 # andrebrait
 
-686 pushes across 24 repositories on 77 active days in the last 90 days of public GitHub push activity.
+677 pushes across 24 repositories on 78 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/andrebrait

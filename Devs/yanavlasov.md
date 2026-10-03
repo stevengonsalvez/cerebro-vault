@@ -8,11 +8,11 @@ provenance_repos:
   - "agent-substrate/substrate"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-02T06:06:48.484172+00:00"
+repos_populated: true
+generated_at: "2026-10-03T06:07:13.763334+00:00"
 provenance:
   - "a5ffcd0a46dd44fd"
-pushes_per_week: [1, 12, 8, 2, 0, 3, 1, 0, 0, 1, 1, 5, 5]
+pushes_per_week: [1, 12, 8, 2, 0, 3, 1, 0, 0, 1, 1, 6, 5]
 windows:
   "7d":
     pushes: 6
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 12
+    pushes: 13
     distinct_repos: 5
-    active_days: 10
+    active_days: 11
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 39
+    pushes: 40
     distinct_repos: 6
-    active_days: 23
+    active_days: 24
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.6957
-  repo_per_active_day: 0.2609
+  push_per_day: 1.6667
+  repo_per_active_day: 0.2500
   not_owned_ratio: 0.3333
   basename_concentration: 0.3333
   shapes: []
@@ -57,30 +57,38 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 12
+    pushes: 13
     distinct_repos: 5
-    pushes_per_repo: 2.4000
-    active_days: 10
+    pushes_per_repo: 2.6000
+    active_days: 11
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 39
+    pushes: 40
     distinct_repos: 6
-    pushes_per_repo: 6.5000
-    active_days: 23
+    pushes_per_repo: 6.6667
+    active_days: 24
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 23 active days in 90d — pass"
+  - "activity: 24 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "envoy-dataplane"
+    title: "envoy-dataplane"
+    description: null
+    language: "Rust"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-20"
 ---
 
 # yanavlasov
 
-39 pushes across 6 repositories on 23 active days in the last 90 days of public GitHub push activity.
+40 pushes across 6 repositories on 24 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/yanavlasov

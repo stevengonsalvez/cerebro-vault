@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-02T06:06:48.484172+00:00"
+generated_at: "2026-10-03T06:07:13.763334+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [4, 0, 2, 0, 6, 2, 0, 0, 1, 1, 0, 0, 10]
+pushes_per_week: [2, 0, 2, 0, 6, 2, 0, 0, 2, 0, 0, 8, 2]
 windows:
   "7d":
     pushes: 10
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 26
+    pushes: 24
     distinct_repos: 5
-    active_days: 14
+    active_days: 12
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.8571
-  repo_per_active_day: 0.3571
+  push_per_day: 2.0000
+  repo_per_active_day: 0.4167
   not_owned_ratio: 0.0000
   basename_concentration: 0.2000
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 26
+    pushes: 24
     distinct_repos: 5
-    pushes_per_repo: 5.2000
-    active_days: 14
+    pushes_per_repo: 4.8000
+    active_days: 12
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 14 active days in 90d — pass"
+  - "activity: 12 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "generic-ballot-roper-ids"
@@ -107,6 +107,6 @@ repos:
 
 # ParadaCarleton
 
-26 pushes across 5 repositories on 14 active days in the last 90 days of public GitHub push activity.
+24 pushes across 5 repositories on 12 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ParadaCarleton

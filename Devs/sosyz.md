@@ -8,8 +8,8 @@ provenance_repos:
   - "apache/maka"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-02T06:06:48.484172+00:00"
+repos_populated: true
+generated_at: "2026-10-03T06:07:13.763334+00:00"
 provenance:
   - "4d1450729e6ff44d"
 pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 2, 3]
@@ -76,7 +76,60 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "blog"
+    title: "blog"
+    description: "Sonui' blog"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-30"
+  - name: "agent-skills"
+    title: "agent-skills"
+    description: "Agent skills installable via the Skills CLI (npx skills add)"
+    language: "Shell"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-24"
+  - name: "pi-grok-oauth"
+    title: "pi-grok-oauth"
+    description: "Unofficial Grok subscription plugin for pi"
+    language: "TypeScript"
+    topics:
+      - "pi"
+      - "pi-agent-extension"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-07-11"
+  - name: "resume-template"
+    title: "resume-template"
+    description: "基于React + i18n 的简历模版"
+    language: "TypeScript"
+    topics:
+      - "resume"
+      - "resume-template"
+      - "resume-website"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2025-02-07"
+  - name: "mini_tiktok_feed_proto"
+    title: "mini_tiktok_feed_proto"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2023-01-24"
+  - name: "shopify-theme-test"
+    title: "shopify-theme-test"
+    description: null
+    language: "Liquid"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2025-01-06"
 ---
 
 # sosyz

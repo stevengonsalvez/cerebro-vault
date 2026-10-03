@@ -8,39 +8,39 @@ provenance_repos:
   - "chopratejas/headroom"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-02T06:06:48.484172+00:00"
+repos_populated: true
+generated_at: "2026-10-03T06:07:13.763334+00:00"
 provenance:
   - "73468cde177ddae6"
-pushes_per_week: [125, 95, 63, 26, 34, 13, 16, 7, 0, 5, 13, 18, 29]
+pushes_per_week: [110, 96, 61, 45, 12, 11, 16, 7, 1, 5, 12, 18, 41]
 windows:
   "7d":
-    pushes: 32
-    distinct_repos: 10
+    pushes: 41
+    distinct_repos: 13
     active_days: 7
-    repos_not_owned: 6
-    not_owned_basenames: 4
+    repos_not_owned: 9
+    not_owned_basenames: 6
     not_owned_owners: 3
   "30d":
-    pushes: 65
-    distinct_repos: 14
-    active_days: 22
-    repos_not_owned: 6
-    not_owned_basenames: 4
+    pushes: 77
+    distinct_repos: 17
+    active_days: 23
+    repos_not_owned: 9
+    not_owned_basenames: 6
     not_owned_owners: 3
   "90d":
-    pushes: 444
-    distinct_repos: 24
+    pushes: 435
+    distinct_repos: 27
     active_days: 68
-    repos_not_owned: 6
-    not_owned_basenames: 4
+    repos_not_owned: 9
+    not_owned_basenames: 6
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 6.5294
-  repo_per_active_day: 0.3529
-  not_owned_ratio: 0.2500
-  basename_concentration: 0.1667
+  push_per_day: 6.3971
+  repo_per_active_day: 0.3971
+  not_owned_ratio: 0.3333
+  basename_concentration: 0.1481
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,38 +49,86 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 32
-    distinct_repos: 10
-    pushes_per_repo: 3.2000
+    pushes: 41
+    distinct_repos: 13
+    pushes_per_repo: 3.1538
     active_days: 7
-    repos_not_owned: 6
-    not_owned_basenames: 4
+    repos_not_owned: 9
+    not_owned_basenames: 6
     not_owned_owners: 3
   "30d":
-    pushes: 65
-    distinct_repos: 14
-    pushes_per_repo: 4.6429
-    active_days: 22
-    repos_not_owned: 6
-    not_owned_basenames: 4
+    pushes: 77
+    distinct_repos: 17
+    pushes_per_repo: 4.5294
+    active_days: 23
+    repos_not_owned: 9
+    not_owned_basenames: 6
     not_owned_owners: 3
   "90d":
-    pushes: 444
-    distinct_repos: 24
-    pushes_per_repo: 18.5000
+    pushes: 435
+    distinct_repos: 27
+    pushes_per_repo: 16.1111
     active_days: 68
-    repos_not_owned: 6
-    not_owned_basenames: 4
+    repos_not_owned: 9
+    not_owned_basenames: 6
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 68 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "basedin.nyc"
+    title: "basedin.nyc"
+    description: null
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-26"
+  - name: "ticker"
+    title: "ticker"
+    description: "Real-time Claude Code statusline with cache countdown, rate tracking, and adaptive refresh"
+    language: "PowerShell"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-17"
+  - name: "AHK"
+    title: "AHK"
+    description: null
+    language: "AutoHotkey"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-15"
+  - name: "GPO-PolicySync"
+    title: "GPO-PolicySync"
+    description: "Sync registry-based policy values back into local Group Policy (registry.pol) files"
+    language: "PowerShell"
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-05-22"
+  - name: "rodboev"
+    title: "rodboev"
+    description: "GitHub profile README"
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-16"
+  - name: "EditorWorkspace"
+    title: "EditorWorkspace"
+    description: "Windhawk EditorWorkspace"
+    language: "C++"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-06-12"
 ---
 
 # rodboev
 
-444 pushes across 24 repositories on 68 active days in the last 90 days of public GitHub push activity.
+435 pushes across 27 repositories on 68 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/rodboev

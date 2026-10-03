@@ -8,16 +8,16 @@ provenance_repos:
   - "anthropics/claude-code-action"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-02T06:06:48.484172+00:00"
+repos_populated: true
+generated_at: "2026-10-03T06:07:13.763334+00:00"
 provenance:
   - "0b22ca37fd3884c9"
-pushes_per_week: [2, 7, 1, 1, 2, 1, 0, 0, 0, 0, 0, 7, 2]
+pushes_per_week: [4, 5, 1, 1, 3, 0, 0, 0, 0, 0, 1, 6, 2]
 windows:
   "7d":
-    pushes: 6
+    pushes: 2
     distinct_repos: 1
-    active_days: 2
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 6
+    pushes: 2
     distinct_repos: 1
-    pushes_per_repo: 6.0000
-    active_days: 2
+    pushes_per_repo: 2.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -76,7 +76,69 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 15 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "revil"
+    title: "revil"
+    description: "Portfolio ✨"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 6
+    first_seen: null
+    last_push: "2026-09-25"
+  - name: "gmrec"
+    title: "gmrec"
+    description: "Chrome extension that records each Google Meet participant into their own MP4, from their real stream — not a screen capture."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-21"
+  - name: "linkedin-auto-poster"
+    title: "linkedin-auto-poster"
+    description: "LinkedIn AI auto-poster self-hostable dashboard"
+    language: "Python"
+    topics:
+      - "autoposter"
+      - "claude"
+      - "claude-code"
+      - "claudecode"
+      - "linkedin"
+      - "poster"
+      - "python"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-24"
+  - name: "Cake"
+    title: "Cake"
+    description: "A little animated birthday cake, made with love."
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-07-13"
+  - name: "TemRevil"
+    title: "TemRevil"
+    description: "Config files for my GitHub profile."
+    language: null
+    topics:
+      - "config"
+      - "github-config"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-27"
+  - name: "Kittle"
+    title: "Kittle"
+    description: "An Ai Code Reviewer"
+    language: "TypeScript"
+    topics:
+      - "ai"
+      - "codereview"
+      - "codereviewer"
+      - "llm"
+      - "react"
+    stars_fact: 19
+    first_seen: null
+    last_push: "2026-06-10"
 ---
 
 # TemRevil

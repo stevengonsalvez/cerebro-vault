@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-02T06:06:48.484172+00:00"
+generated_at: "2026-10-03T06:07:13.763334+00:00"
 provenance:
   - "379642deb53f3714"
-pushes_per_week: [3, 0, 0, 0, 4, 3, 1, 0, 0, 0, 1, 1, 3]
+pushes_per_week: [3, 0, 0, 0, 4, 3, 1, 0, 0, 0, 1, 1, 7]
 windows:
   "7d":
-    pushes: 3
-    distinct_repos: 3
-    active_days: 2
-    repos_not_owned: 2
-    not_owned_basenames: 2
-    not_owned_owners: 2
-  "30d":
-    pushes: 5
-    distinct_repos: 4
-    active_days: 4
-    repos_not_owned: 2
-    not_owned_basenames: 2
-    not_owned_owners: 2
-  "90d":
-    pushes: 16
-    distinct_repos: 6
-    active_days: 12
-    repos_not_owned: 3
-    not_owned_basenames: 3
+    pushes: 7
+    distinct_repos: 7
+    active_days: 3
+    repos_not_owned: 4
+    not_owned_basenames: 4
     not_owned_owners: 3
+  "30d":
+    pushes: 9
+    distinct_repos: 7
+    active_days: 5
+    repos_not_owned: 4
+    not_owned_basenames: 4
+    not_owned_owners: 3
+  "90d":
+    pushes: 20
+    distinct_repos: 9
+    active_days: 13
+    repos_not_owned: 5
+    not_owned_basenames: 5
+    not_owned_owners: 4
 automation:
   state: "clear"
-  push_per_day: 1.3333
-  repo_per_active_day: 0.5000
-  not_owned_ratio: 0.5000
-  basename_concentration: 0.1667
+  push_per_day: 1.5385
+  repo_per_active_day: 0.6923
+  not_owned_ratio: 0.5556
+  basename_concentration: 0.2222
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 3
-    distinct_repos: 3
+    pushes: 7
+    distinct_repos: 7
     pushes_per_repo: 1.0000
-    active_days: 2
-    repos_not_owned: 2
-    not_owned_basenames: 2
-    not_owned_owners: 2
-  "30d":
-    pushes: 5
-    distinct_repos: 4
-    pushes_per_repo: 1.2500
-    active_days: 4
-    repos_not_owned: 2
-    not_owned_basenames: 2
-    not_owned_owners: 2
-  "90d":
-    pushes: 16
-    distinct_repos: 6
-    pushes_per_repo: 2.6667
-    active_days: 12
-    repos_not_owned: 3
-    not_owned_basenames: 3
+    active_days: 3
+    repos_not_owned: 4
+    not_owned_basenames: 4
     not_owned_owners: 3
+  "30d":
+    pushes: 9
+    distinct_repos: 7
+    pushes_per_repo: 1.2857
+    active_days: 5
+    repos_not_owned: 4
+    not_owned_basenames: 4
+    not_owned_owners: 3
+  "90d":
+    pushes: 20
+    distinct_repos: 9
+    pushes_per_repo: 2.2222
+    active_days: 13
+    repos_not_owned: 5
+    not_owned_basenames: 5
+    not_owned_owners: 4
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 12 active days in 90d — pass"
+  - "activity: 13 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "model-context-tool-inspector"
@@ -137,6 +137,6 @@ repos:
 
 # beaufortfrancois
 
-16 pushes across 6 repositories on 12 active days in the last 90 days of public GitHub push activity.
+20 pushes across 9 repositories on 13 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/beaufortfrancois

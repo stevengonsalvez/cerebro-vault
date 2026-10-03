@@ -11,37 +11,37 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-02T06:06:48.484172+00:00"
+generated_at: "2026-10-03T06:07:13.763334+00:00"
 provenance:
   - "26de699d3e5c651e"
   - "4d1450729e6ff44d"
-pushes_per_week: [6, 9, 12, 10, 3, 7, 0, 16, 3, 6, 14, 14, 10]
+pushes_per_week: [3, 9, 12, 10, 3, 7, 4, 13, 2, 10, 10, 15, 11]
 windows:
   "7d":
-    pushes: 10
-    distinct_repos: 5
-    active_days: 5
-    repos_not_owned: 4
+    pushes: 12
+    distinct_repos: 6
+    active_days: 6
+    repos_not_owned: 5
     not_owned_basenames: 2
-    not_owned_owners: 4
+    not_owned_owners: 5
   "30d":
-    pushes: 44
+    pushes: 46
     distinct_repos: 16
-    active_days: 18
+    active_days: 19
     repos_not_owned: 13
     not_owned_basenames: 2
     not_owned_owners: 13
   "90d":
-    pushes: 110
+    pushes: 109
     distinct_repos: 29
-    active_days: 45
+    active_days: 44
     repos_not_owned: 16
     not_owned_basenames: 4
     not_owned_owners: 16
 automation:
   state: "clear"
-  push_per_day: 2.4444
-  repo_per_active_day: 0.6444
+  push_per_day: 2.4773
+  repo_per_active_day: 0.6591
   not_owned_ratio: 0.5517
   basename_concentration: 0.3448
   shapes: []
@@ -52,32 +52,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 10
-    distinct_repos: 5
+    pushes: 12
+    distinct_repos: 6
     pushes_per_repo: 2.0000
-    active_days: 5
-    repos_not_owned: 4
+    active_days: 6
+    repos_not_owned: 5
     not_owned_basenames: 2
-    not_owned_owners: 4
+    not_owned_owners: 5
   "30d":
-    pushes: 44
+    pushes: 46
     distinct_repos: 16
-    pushes_per_repo: 2.7500
-    active_days: 18
+    pushes_per_repo: 2.8750
+    active_days: 19
     repos_not_owned: 13
     not_owned_basenames: 2
     not_owned_owners: 13
   "90d":
-    pushes: 110
+    pushes: 109
     distinct_repos: 29
-    pushes_per_repo: 3.7931
-    active_days: 45
+    pushes_per_repo: 3.7586
+    active_days: 44
     repos_not_owned: 16
     not_owned_basenames: 4
     not_owned_owners: 16
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 45 active days in 90d — pass"
+  - "activity: 44 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "archify"
@@ -184,6 +184,6 @@ repos:
 
 # tt-a1i
 
-110 pushes across 29 repositories on 45 active days in the last 90 days of public GitHub push activity.
+109 pushes across 29 repositories on 44 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/tt-a1i

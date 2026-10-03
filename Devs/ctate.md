@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-02T06:06:48.484172+00:00"
+generated_at: "2026-10-03T06:07:13.763334+00:00"
 provenance:
   - "0dadaefdea9260e5"
-pushes_per_week: [11, 16, 39, 30, 21, 33, 11, 4, 1, 2, 5, 26, 33]
+pushes_per_week: [12, 24, 33, 31, 21, 30, 11, 3, 1, 2, 7, 33, 28]
 windows:
   "7d":
-    pushes: 41
-    distinct_repos: 5
+    pushes: 36
+    distinct_repos: 4
     active_days: 7
-    repos_not_owned: 5
-    not_owned_basenames: 5
+    repos_not_owned: 4
+    not_owned_basenames: 4
     not_owned_owners: 1
   "30d":
-    pushes: 66
+    pushes: 70
     distinct_repos: 8
-    active_days: 18
+    active_days: 19
     repos_not_owned: 8
     not_owned_basenames: 8
     not_owned_owners: 1
   "90d":
-    pushes: 232
+    pushes: 236
     distinct_repos: 11
-    active_days: 60
+    active_days: 61
     repos_not_owned: 11
     not_owned_basenames: 11
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 3.8667
-  repo_per_active_day: 0.1833
+  push_per_day: 3.8689
+  repo_per_active_day: 0.1803
   not_owned_ratio: 1.0000
   basename_concentration: 0.0909
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 41
-    distinct_repos: 5
-    pushes_per_repo: 8.2000
+    pushes: 36
+    distinct_repos: 4
+    pushes_per_repo: 9.0000
     active_days: 7
-    repos_not_owned: 5
-    not_owned_basenames: 5
+    repos_not_owned: 4
+    not_owned_basenames: 4
     not_owned_owners: 1
   "30d":
-    pushes: 66
+    pushes: 70
     distinct_repos: 8
-    pushes_per_repo: 8.2500
-    active_days: 18
+    pushes_per_repo: 8.7500
+    active_days: 19
     repos_not_owned: 8
     not_owned_basenames: 8
     not_owned_owners: 1
   "90d":
-    pushes: 232
+    pushes: 236
     distinct_repos: 11
-    pushes_per_repo: 21.0909
-    active_days: 60
+    pushes_per_repo: 21.4545
+    active_days: 61
     repos_not_owned: 11
     not_owned_basenames: 11
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 60 active days in 90d — pass"
+  - "activity: 61 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "3d-model-generator"
@@ -138,6 +138,6 @@ repos:
 
 # ctate
 
-232 pushes across 11 repositories on 60 active days in the last 90 days of public GitHub push activity.
+236 pushes across 11 repositories on 61 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ctate

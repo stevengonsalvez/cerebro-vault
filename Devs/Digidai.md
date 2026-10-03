@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-02T06:06:48.484172+00:00"
+generated_at: "2026-10-03T06:07:13.763334+00:00"
 provenance:
   - "3cb7ff1cdcf97c6b"
-pushes_per_week: [4, 1, 0, 3, 0, 4, 2, 0, 0, 0, 4, 3, 5]
+pushes_per_week: [2, 1, 1, 2, 2, 3, 1, 0, 0, 0, 4, 3, 6]
 windows:
   "7d":
-    pushes: 5
-    distinct_repos: 3
-    active_days: 4
+    pushes: 6
+    distinct_repos: 4
+    active_days: 5
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 12
-    distinct_repos: 6
-    active_days: 10
+    pushes: 13
+    distinct_repos: 7
+    active_days: 11
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 26
-    distinct_repos: 9
+    pushes: 25
+    distinct_repos: 8
     active_days: 21
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.2381
-  repo_per_active_day: 0.4286
-  not_owned_ratio: 0.1111
-  basename_concentration: 0.1111
+  push_per_day: 1.1905
+  repo_per_active_day: 0.3810
+  not_owned_ratio: 0.1250
+  basename_concentration: 0.1250
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 5
-    distinct_repos: 3
-    pushes_per_repo: 1.6667
-    active_days: 4
+    pushes: 6
+    distinct_repos: 4
+    pushes_per_repo: 1.5000
+    active_days: 5
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 12
-    distinct_repos: 6
-    pushes_per_repo: 2.0000
-    active_days: 10
+    pushes: 13
+    distinct_repos: 7
+    pushes_per_repo: 1.8571
+    active_days: 11
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 26
-    distinct_repos: 9
-    pushes_per_repo: 2.8889
+    pushes: 25
+    distinct_repos: 8
+    pushes_per_repo: 3.1250
     active_days: 21
     repos_not_owned: 1
     not_owned_basenames: 1
@@ -175,6 +175,6 @@ repos:
 
 # Digidai
 
-26 pushes across 9 repositories on 21 active days in the last 90 days of public GitHub push activity.
+25 pushes across 8 repositories on 21 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Digidai

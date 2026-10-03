@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-02T06:06:48.484172+00:00"
+generated_at: "2026-10-03T06:07:13.763334+00:00"
 provenance:
   - "f74d5b6b78b8a1a4"
-pushes_per_week: [34, 20, 10, 26, 8, 22, 6, 3, 1, 2, 1, 5, 11]
+pushes_per_week: [25, 20, 15, 17, 14, 19, 3, 4, 0, 3, 0, 6, 11]
 windows:
   "7d":
-    pushes: 14
-    distinct_repos: 5
+    pushes: 12
+    distinct_repos: 3
     active_days: 6
-    repos_not_owned: 4
+    repos_not_owned: 2
     not_owned_basenames: 1
-    not_owned_owners: 4
+    not_owned_owners: 2
   "30d":
-    pushes: 19
+    pushes: 20
     distinct_repos: 5
-    active_days: 10
+    active_days: 11
     repos_not_owned: 4
     not_owned_basenames: 1
     not_owned_owners: 4
   "90d":
-    pushes: 149
+    pushes: 137
     distinct_repos: 6
     active_days: 49
     repos_not_owned: 5
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 5
 automation:
   state: "clear"
-  push_per_day: 3.0408
+  push_per_day: 2.7959
   repo_per_active_day: 0.1224
   not_owned_ratio: 0.8333
   basename_concentration: 1.0000
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 14
-    distinct_repos: 5
-    pushes_per_repo: 2.8000
+    pushes: 12
+    distinct_repos: 3
+    pushes_per_repo: 4.0000
     active_days: 6
-    repos_not_owned: 4
+    repos_not_owned: 2
     not_owned_basenames: 1
-    not_owned_owners: 4
+    not_owned_owners: 2
   "30d":
-    pushes: 19
+    pushes: 20
     distinct_repos: 5
-    pushes_per_repo: 3.8000
-    active_days: 10
+    pushes_per_repo: 4.0000
+    active_days: 11
     repos_not_owned: 4
     not_owned_basenames: 1
     not_owned_owners: 4
   "90d":
-    pushes: 149
+    pushes: 137
     distinct_repos: 6
-    pushes_per_repo: 24.8333
+    pushes_per_repo: 22.8333
     active_days: 49
     repos_not_owned: 5
     not_owned_basenames: 1
@@ -117,6 +117,6 @@ repos:
 
 # DeusData
 
-149 pushes across 6 repositories on 49 active days in the last 90 days of public GitHub push activity.
+137 pushes across 6 repositories on 49 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/DeusData

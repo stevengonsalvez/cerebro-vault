@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-02T06:06:48.484172+00:00"
+generated_at: "2026-10-03T06:07:13.763334+00:00"
 provenance:
   - "73468cde177ddae6"
-pushes_per_week: [9, 3, 2, 0, 2, 8, 3, 5, 0, 2, 3, 3, 3]
+pushes_per_week: [6, 4, 1, 0, 2, 8, 3, 5, 0, 2, 3, 4, 2]
 windows:
   "7d":
     pushes: 3
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 7
     not_owned_owners: 2
   "90d":
-    pushes: 43
-    distinct_repos: 20
-    active_days: 29
+    pushes: 40
+    distinct_repos: 19
+    active_days: 28
     repos_not_owned: 18
     not_owned_basenames: 17
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 1.4828
-  repo_per_active_day: 0.6897
-  not_owned_ratio: 0.9000
-  basename_concentration: 0.1000
+  push_per_day: 1.4286
+  repo_per_active_day: 0.6786
+  not_owned_ratio: 0.9474
+  basename_concentration: 0.1053
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 7
     not_owned_owners: 2
   "90d":
-    pushes: 43
-    distinct_repos: 20
-    pushes_per_repo: 2.1500
-    active_days: 29
+    pushes: 40
+    distinct_repos: 19
+    pushes_per_repo: 2.1053
+    active_days: 28
     repos_not_owned: 18
     not_owned_basenames: 17
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 29 active days in 90d — pass"
+  - "activity: 28 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "opensecretmask"
@@ -169,6 +169,6 @@ repos:
 
 # pratikbin
 
-43 pushes across 20 repositories on 29 active days in the last 90 days of public GitHub push activity.
+40 pushes across 19 repositories on 28 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/pratikbin

@@ -8,11 +8,11 @@ provenance_repos:
   - "agavra/tuicr"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-02T06:06:48.484172+00:00"
+repos_populated: true
+generated_at: "2026-10-03T06:07:13.763334+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [43, 41, 59, 190, 16, 114, 0, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [53, 34, 82, 169, 107, 17, 0, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 463
+    pushes: 462
     distinct_repos: 102
-    active_days: 34
+    active_days: 33
     repos_not_owned: 17
     not_owned_basenames: 17
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 13.6176
-  repo_per_active_day: 3.0000
+  push_per_day: 14.0000
+  repo_per_active_day: 3.0909
   not_owned_ratio: 0.1667
   basename_concentration: 0.0098
   shapes: []
@@ -65,22 +65,100 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 463
+    pushes: 462
     distinct_repos: 102
-    pushes_per_repo: 4.5392
-    active_days: 34
+    pushes_per_repo: 4.5294
+    active_days: 33
     repos_not_owned: 17
     not_owned_basenames: 17
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 34 active days in 90d — pass"
+  - "activity: 33 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "yhay81"
+    title: "yhay81"
+    description: "GitHub public profile"
+    language: "Python"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-10-01"
+  - name: "yomiage-kun"
+    title: "yomiage-kun"
+    description: "Discordのメッセージを、AivisSpeechやVOICEVOXの声で読み上げるWindows・Macアプリ"
+    language: "Rust"
+    topics:
+      - "aivisspeech"
+      - "discord"
+      - "japanese"
+      - "macos"
+      - "tauri"
+      - "tts"
+      - "voicevox"
+      - "windows"
+    stars_fact: 7
+    first_seen: null
+    last_push: "2026-09-08"
+  - name: "arc-agi-2-solution-atlas"
+    title: "arc-agi-2-solution-atlas"
+    description: "A verified, executable atlas of ARC-AGI solutions, explanations, counterexamples, and synthetic task families."
+    language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-12"
+  - name: "kaggle-badge-lab"
+    title: "kaggle-badge-lab"
+    description: "Small, reproducible machine learning notebooks for Kaggle"
+    language: "Jupyter Notebook"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-08"
+  - name: "gh-freshclone"
+    title: "gh-freshclone"
+    description: "Compile and prove the fastest trustworthy baseline for a GitHub repository."
+    language: "Python"
+    topics:
+      - "containers"
+      - "developer-tools"
+      - "github"
+      - "macos"
+      - "python"
+      - "testing"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-08"
+  - name: "sqrail"
+    title: "sqrail"
+    description: "A bounded SQL-on-files CLI for coding agents. SQL in, files out."
+    language: "C++"
+    topics:
+      - "ai-agents"
+      - "ai-tools"
+      - "cli"
+      - "command-line-tool"
+      - "cpp"
+      - "cpp20"
+      - "csv"
+      - "data-engineering"
+      - "data-processing"
+      - "developer-tools"
+      - "duckdb"
+      - "file-processing"
+      - "jsonl"
+      - "parquet"
+      - "sql"
+      - "sql-on-files"
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-09-03"
 ---
 
 # yhay81
 
-463 pushes across 102 repositories on 34 active days in the last 90 days of public GitHub push activity.
+462 pushes across 102 repositories on 33 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/yhay81

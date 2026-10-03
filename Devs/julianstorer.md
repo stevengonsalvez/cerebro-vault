@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-02T06:06:48.484172+00:00"
+generated_at: "2026-10-03T06:07:13.763334+00:00"
 provenance:
   - "ffbd582f5e4111de"
-pushes_per_week: [3, 20, 11, 7, 4, 2, 3, 4, 1, 0, 3, 2, 5]
+pushes_per_week: [9, 16, 11, 8, 1, 5, 1, 4, 0, 1, 2, 2, 8]
 windows:
   "7d":
-    pushes: 7
-    distinct_repos: 2
+    pushes: 8
+    distinct_repos: 1
     active_days: 4
-    repos_not_owned: 2
-    not_owned_basenames: 2
+    repos_not_owned: 1
+    not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 10
+    pushes: 13
     distinct_repos: 2
-    active_days: 7
+    active_days: 8
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 65
+    pushes: 68
     distinct_repos: 4
-    active_days: 34
+    active_days: 35
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 1.9118
-  repo_per_active_day: 0.1176
+  push_per_day: 1.9429
+  repo_per_active_day: 0.1143
   not_owned_ratio: 1.0000
   basename_concentration: 0.2500
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 7
-    distinct_repos: 2
-    pushes_per_repo: 3.5000
+    pushes: 8
+    distinct_repos: 1
+    pushes_per_repo: 8.0000
     active_days: 4
-    repos_not_owned: 2
-    not_owned_basenames: 2
+    repos_not_owned: 1
+    not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 10
+    pushes: 13
     distinct_repos: 2
-    pushes_per_repo: 5.0000
-    active_days: 7
+    pushes_per_repo: 6.5000
+    active_days: 8
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 65
+    pushes: 68
     distinct_repos: 4
-    pushes_per_repo: 16.2500
-    active_days: 34
+    pushes_per_repo: 17.0000
+    active_days: 35
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 34 active days in 90d — pass"
+  - "activity: 35 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "GLADriver"
@@ -89,6 +89,6 @@ repos:
 
 # julianstorer
 
-65 pushes across 4 repositories on 34 active days in the last 90 days of public GitHub push activity.
+68 pushes across 4 repositories on 35 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/julianstorer

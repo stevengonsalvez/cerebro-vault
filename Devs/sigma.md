@@ -8,16 +8,16 @@ provenance_repos:
   - "agavra/tuicr"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-02T06:06:48.484172+00:00"
+repos_populated: true
+generated_at: "2026-10-03T06:07:13.763334+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [2, 1, 5, 4, 4, 1, 0, 4, 0, 2, 3, 13, 7]
+pushes_per_week: [2, 2, 4, 4, 4, 1, 0, 4, 0, 2, 3, 16, 4]
 windows:
   "7d":
-    pushes: 18
+    pushes: 7
     distinct_repos: 2
-    active_days: 5
+    active_days: 4
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 18
+    pushes: 7
     distinct_repos: 2
-    pushes_per_repo: 9.0000
-    active_days: 5
+    pushes_per_repo: 3.5000
+    active_days: 4
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 23 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "systems"
+    title: "systems"
+    description: null
+    language: "Nix"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-02"
+  - name: "via_hacks"
+    title: "via_hacks"
+    description: "'cause VIA is a bit limiting, let's generate those keymaps properly"
+    language: "Jsonnet"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-19"
+  - name: "okf-tools"
+    title: "okf-tools"
+    description: null
+    language: "Go"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-17"
+  - name: "callctl"
+    title: "callctl"
+    description: "Control surfaces for video conferencing systems (Google Meet)"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-08-23"
+  - name: "sd-herdr"
+    title: "sd-herdr"
+    description: "Stream Deck plugin for managing herdr status"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-18"
+  - name: "sd-tailscale"
+    title: "sd-tailscale"
+    description: "Stream Deck plugin for Tailscale"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-07-28"
 ---
 
 # sigma

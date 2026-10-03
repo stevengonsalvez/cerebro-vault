@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-02T06:06:48.484172+00:00"
+generated_at: "2026-10-03T06:07:13.763334+00:00"
 provenance:
   - "73468cde177ddae6"
-pushes_per_week: [19, 0, 5, 0, 0, 1, 0, 0, 0, 4, 5, 24, 3]
+pushes_per_week: [19, 0, 5, 0, 0, 1, 0, 0, 0, 4, 10, 19, 4]
 windows:
   "7d":
-    pushes: 3
+    pushes: 4
     distinct_repos: 1
-    active_days: 1
+    active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 36
+    pushes: 37
     distinct_repos: 2
-    active_days: 10
+    active_days: 11
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
   "90d":
-    pushes: 61
+    pushes: 62
     distinct_repos: 4
-    active_days: 16
+    active_days: 17
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 3.8125
-  repo_per_active_day: 0.2500
+  push_per_day: 3.6471
+  repo_per_active_day: 0.2353
   not_owned_ratio: 0.5000
   basename_concentration: 0.5000
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 3
+    pushes: 4
     distinct_repos: 1
-    pushes_per_repo: 3.0000
-    active_days: 1
+    pushes_per_repo: 4.0000
+    active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 36
+    pushes: 37
     distinct_repos: 2
-    pushes_per_repo: 18.0000
-    active_days: 10
+    pushes_per_repo: 18.5000
+    active_days: 11
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
   "90d":
-    pushes: 61
+    pushes: 62
     distinct_repos: 4
-    pushes_per_repo: 15.2500
-    active_days: 16
+    pushes_per_repo: 15.5000
+    active_days: 17
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 16 active days in 90d — pass"
+  - "activity: 17 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "requirements.java"
@@ -142,6 +142,6 @@ repos:
 
 # cowwoc
 
-61 pushes across 4 repositories on 16 active days in the last 90 days of public GitHub push activity.
+62 pushes across 4 repositories on 17 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/cowwoc

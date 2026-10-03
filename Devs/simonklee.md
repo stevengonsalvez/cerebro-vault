@@ -8,11 +8,11 @@ provenance_repos:
   - "anomalyco/opencode"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-02T06:06:48.484172+00:00"
+repos_populated: true
+generated_at: "2026-10-03T06:07:13.763334+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [13, 11, 7, 2, 2, 7, 3, 4, 1, 0, 1, 4, 2]
+pushes_per_week: [11, 10, 7, 2, 2, 8, 3, 4, 0, 0, 1, 4, 2]
 windows:
   "7d":
     pushes: 2
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 57
+    pushes: 54
     distinct_repos: 6
-    active_days: 32
+    active_days: 31
     repos_not_owned: 5
     not_owned_basenames: 3
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 1.7812
-  repo_per_active_day: 0.1875
+  push_per_day: 1.7419
+  repo_per_active_day: 0.1935
   not_owned_ratio: 0.8333
   basename_concentration: 0.5000
   shapes: []
@@ -65,22 +65,70 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 57
+    pushes: 54
     distinct_repos: 6
-    pushes_per_repo: 9.5000
-    active_days: 32
+    pushes_per_repo: 9.0000
+    active_days: 31
     repos_not_owned: 5
     not_owned_basenames: 3
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 32 active days in 90d — pass"
+  - "activity: 31 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "opentui-bench"
+    title: "opentui-bench"
+    description: null
+    language: "Go"
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-09-10"
+  - name: "opentui-tex"
+    title: "opentui-tex"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-03"
+  - name: "godis"
+    title: "godis"
+    description: "godis - an old Redis client for Go"
+    language: "Go"
+    topics: []
+    stars_fact: 88
+    first_seen: null
+    last_push: "2020-02-17"
+  - name: "node-demo"
+    title: "node-demo"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-07-09"
+  - name: "tigerstyle"
+    title: "tigerstyle"
+    description: null
+    language: "HTML"
+    topics: []
+    stars_fact: 44
+    first_seen: null
+    last_push: "2025-11-29"
+  - name: "noeqd"
+    title: "noeqd"
+    description: null
+    language: "Go"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2013-12-15"
 ---
 
 # simonklee
 
-57 pushes across 6 repositories on 32 active days in the last 90 days of public GitHub push activity.
+54 pushes across 6 repositories on 31 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/simonklee

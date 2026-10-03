@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-02T06:06:48.484172+00:00"
+generated_at: "2026-10-03T06:07:13.763334+00:00"
 provenance:
   - "541318303a272608"
-pushes_per_week: [11, 13, 8, 2, 0, 5, 3, 5, 1, 1, 1, 4, 8]
+pushes_per_week: [4, 12, 9, 1, 0, 6, 2, 5, 1, 1, 1, 4, 8]
 windows:
   "7d":
     pushes: 8
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 62
+    pushes: 54
     distinct_repos: 11
-    active_days: 30
+    active_days: 28
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.0667
-  repo_per_active_day: 0.3667
+  push_per_day: 1.9286
+  repo_per_active_day: 0.3929
   not_owned_ratio: 0.0909
   basename_concentration: 0.0909
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 62
+    pushes: 54
     distinct_repos: 11
-    pushes_per_repo: 5.6364
-    active_days: 30
+    pushes_per_repo: 4.9091
+    active_days: 28
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 30 active days in 90d — pass"
+  - "activity: 28 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "AaronZ345"
@@ -160,6 +160,6 @@ repos:
 
 # AaronZ345
 
-62 pushes across 11 repositories on 30 active days in the last 90 days of public GitHub push activity.
+54 pushes across 11 repositories on 28 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/AaronZ345

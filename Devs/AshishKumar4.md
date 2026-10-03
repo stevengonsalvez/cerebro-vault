@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-02T06:06:48.484172+00:00"
+generated_at: "2026-10-03T06:07:13.763334+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [10, 43, 14, 20, 6, 33, 11, 6, 1, 4, 5, 26, 44]
+pushes_per_week: [12, 41, 33, 1, 10, 29, 12, 5, 1, 4, 5, 29, 88]
 windows:
   "7d":
-    pushes: 45
+    pushes: 90
     distinct_repos: 6
     active_days: 7
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 79
+    pushes: 126
     distinct_repos: 9
-    active_days: 17
+    active_days: 18
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 223
+    pushes: 270
     distinct_repos: 15
-    active_days: 49
+    active_days: 50
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 4.5510
-  repo_per_active_day: 0.3061
+  push_per_day: 5.4000
+  repo_per_active_day: 0.3000
   not_owned_ratio: 0.0667
   basename_concentration: 0.0667
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 45
+    pushes: 90
     distinct_repos: 6
-    pushes_per_repo: 7.5000
+    pushes_per_repo: 15.0000
     active_days: 7
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 79
+    pushes: 126
     distinct_repos: 9
-    pushes_per_repo: 8.7778
-    active_days: 17
+    pushes_per_repo: 14.0000
+    active_days: 18
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 223
+    pushes: 270
     distinct_repos: 15
-    pushes_per_repo: 14.8667
-    active_days: 49
+    pushes_per_repo: 18.0000
+    active_days: 50
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 49 active days in 90d — pass"
+  - "activity: 50 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "Nimbus"
@@ -193,6 +193,6 @@ repos:
 
 # AshishKumar4
 
-223 pushes across 15 repositories on 49 active days in the last 90 days of public GitHub push activity.
+270 pushes across 15 repositories on 50 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/AshishKumar4

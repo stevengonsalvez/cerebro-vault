@@ -1,5 +1,5 @@
 ---
-login: "Mingqwqqaq"
+login: "jackeyfaker77"
 name: null
 discovered_via: "fanout"
 discovered_via_all:
@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-02T06:06:48.484172+00:00"
+generated_at: "2026-10-03T06:07:13.763334+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [2, 2, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 2]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 4]
 windows:
   "7d":
-    pushes: 2
+    pushes: 5
     distinct_repos: 1
-    active_days: 1
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 2
-    distinct_repos: 1
-    active_days: 1
+    pushes: 6
+    distinct_repos: 2
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 7
-    distinct_repos: 1
+    pushes: 6
+    distinct_repos: 2
     active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.4000
-  repo_per_active_day: 0.2000
+  push_per_day: 1.2000
+  repo_per_active_day: 0.4000
   not_owned_ratio: 0.0000
-  basename_concentration: 1.0000
+  basename_concentration: 0.5000
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
+    pushes: 5
     distinct_repos: 1
-    pushes_per_repo: 2.0000
-    active_days: 1
+    pushes_per_repo: 5.0000
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 2
-    distinct_repos: 1
-    pushes_per_repo: 2.0000
-    active_days: 1
+    pushes: 6
+    distinct_repos: 2
+    pushes_per_repo: 3.0000
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 7
-    distinct_repos: 1
-    pushes_per_repo: 7.0000
+    pushes: 6
+    distinct_repos: 2
+    pushes_per_repo: 3.0000
     active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -77,18 +77,26 @@ reasons:
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "work"
-    title: "work"
-    description: null
+  - name: "kaze-agent"
+    title: "kaze-agent"
+    description: "Kaze（かぜ）— Windows 桌面智能助手，支持会话、共享记忆、工具调用、语音和动画桌宠。"
     language: "Python"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-05-09"
+    last_push: "2026-09-16"
+  - name: "demo-repo"
+    title: "demo-repo"
+    description: "demo for github intro repository"
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2023-03-27"
 ---
 
-# Mingqwqqaq
+# jackeyfaker77
 
-7 pushes across 1 repository on 5 active days in the last 90 days of public GitHub push activity.
+6 pushes across 2 repositories on 5 active days in the last 90 days of public GitHub push activity.
 
-https://github.com/Mingqwqqaq
+https://github.com/jackeyfaker77

@@ -10,37 +10,37 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-02T06:06:48.484172+00:00"
+generated_at: "2026-10-03T06:07:13.763334+00:00"
 provenance:
   - "16389f32495280ea"
   - "4d1450729e6ff44d"
-pushes_per_week: [7, 7, 2, 4, 1, 8, 5, 1, 1, 4, 10, 12, 5]
+pushes_per_week: [9, 5, 2, 4, 4, 8, 2, 1, 1, 6, 11, 9, 6]
 windows:
   "7d":
-    pushes: 8
-    distinct_repos: 6
+    pushes: 6
+    distinct_repos: 4
     active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 31
+    pushes: 32
     distinct_repos: 14
-    active_days: 15
+    active_days: 16
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 67
+    pushes: 68
     distinct_repos: 21
-    active_days: 35
+    active_days: 36
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.9143
-  repo_per_active_day: 0.6000
+  push_per_day: 1.8889
+  repo_per_active_day: 0.5833
   not_owned_ratio: 0.0000
   basename_concentration: 0.0476
   shapes: []
@@ -51,32 +51,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 8
-    distinct_repos: 6
-    pushes_per_repo: 1.3333
+    pushes: 6
+    distinct_repos: 4
+    pushes_per_repo: 1.5000
     active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 31
+    pushes: 32
     distinct_repos: 14
-    pushes_per_repo: 2.2143
-    active_days: 15
+    pushes_per_repo: 2.2857
+    active_days: 16
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 67
+    pushes: 68
     distinct_repos: 21
-    pushes_per_repo: 3.1905
-    active_days: 35
+    pushes_per_repo: 3.2381
+    active_days: 36
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 35 active days in 90d — pass"
+  - "activity: 36 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "pi-zen-mode"
@@ -139,6 +139,6 @@ repos:
 
 # wutongyuonce
 
-67 pushes across 21 repositories on 35 active days in the last 90 days of public GitHub push activity.
+68 pushes across 21 repositories on 36 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/wutongyuonce

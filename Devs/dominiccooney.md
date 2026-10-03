@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-02T06:06:48.484172+00:00"
+generated_at: "2026-10-03T06:07:13.763334+00:00"
 provenance:
   - "533d51d9d3dea76f"
-pushes_per_week: [7, 13, 7, 12, 6, 3, 0, 1, 0, 2, 2, 5, 7]
+pushes_per_week: [7, 16, 5, 13, 4, 3, 0, 1, 0, 2, 5, 2, 8]
 windows:
   "7d":
     pushes: 8
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 16
+    pushes: 17
     distinct_repos: 3
-    active_days: 10
+    active_days: 11
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 65
+    pushes: 66
     distinct_repos: 6
-    active_days: 36
+    active_days: 37
     repos_not_owned: 3
     not_owned_basenames: 1
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 1.8056
-  repo_per_active_day: 0.1667
+  push_per_day: 1.7838
+  repo_per_active_day: 0.1622
   not_owned_ratio: 0.5000
   basename_concentration: 0.5000
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 16
+    pushes: 17
     distinct_repos: 3
-    pushes_per_repo: 5.3333
-    active_days: 10
+    pushes_per_repo: 5.6667
+    active_days: 11
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 65
+    pushes: 66
     distinct_repos: 6
-    pushes_per_repo: 10.8333
-    active_days: 36
+    pushes_per_repo: 11.0000
+    active_days: 37
     repos_not_owned: 3
     not_owned_basenames: 1
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 36 active days in 90d — pass"
+  - "activity: 37 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "friendzone"
@@ -129,6 +129,6 @@ repos:
 
 # dominiccooney
 
-65 pushes across 6 repositories on 36 active days in the last 90 days of public GitHub push activity.
+66 pushes across 6 repositories on 37 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/dominiccooney

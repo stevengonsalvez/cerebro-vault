@@ -8,8 +8,8 @@ provenance_repos:
   - "agentscope-ai/QwenPaw"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-02T06:06:48.484172+00:00"
+repos_populated: true
+generated_at: "2026-10-03T06:07:13.763334+00:00"
 provenance:
   - "541318303a272608"
 pushes_per_week: [2, 4, 1, 0, 3, 3, 0, 0, 0, 0, 0, 0, 0]
@@ -76,7 +76,15 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 11 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "LSDWeiBo"
+    title: "LSDWeiBo"
+    description: "新浪微博demo"
+    language: "Swift"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2017-11-28"
 ---
 
 # yuluo1007

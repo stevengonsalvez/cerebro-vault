@@ -8,11 +8,11 @@ provenance_repos:
   - "agavra/tuicr"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-02T06:06:48.484172+00:00"
+repos_populated: true
+generated_at: "2026-10-03T06:07:13.763334+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [3, 7, 3, 1, 0, 0, 0, 0, 1, 0, 2, 1, 1]
+pushes_per_week: [3, 7, 4, 0, 0, 0, 0, 1, 0, 0, 2, 1, 1]
 windows:
   "7d":
     pushes: 1
@@ -76,7 +76,91 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 11 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "agent-skills"
+    title: "agent-skills"
+    description: "Various skills for AI coding assistants"
+    language: "Shell"
+    topics:
+      - "agent-rig-system"
+      - "claude"
+      - "jj"
+      - "nix"
+      - "skills"
+      - "typst"
+    stars_fact: 30
+    first_seen: null
+    last_push: "2026-10-03"
+  - name: "arpligner"
+    title: "arpligner"
+    description: "A multi-track & polyphonic arpeggiator plugin that takes both chords and arp patterns as live MIDI data"
+    language: "C++"
+    topics:
+      - "arpeggiator"
+      - "juce"
+      - "juce-application"
+      - "juce-plugins"
+      - "ladspa-plugin"
+      - "lv2-plugin"
+      - "midi"
+      - "midi-plugin"
+      - "midi-processing"
+      - "music"
+      - "protoplug"
+      - "vst"
+      - "vst3-plugin"
+    stars_fact: 46
+    first_seen: null
+    last_push: "2023-10-11"
+  - name: "nushellWith"
+    title: "nushellWith"
+    description: "Isolated nushell envs with specific plugins and libraries (with Nix)"
+    language: "Nix"
+    topics:
+      - "nix"
+      - "nix-flakes"
+      - "nu"
+      - "nushell"
+    stars_fact: 50
+    first_seen: null
+    last_push: "2026-10-03"
+  - name: "rigup.nix"
+    title: "rigup.nix"
+    description: "AI agents and Nix: parametrable skills/instructions and tools, packaged together in a reproducible and modular fashion"
+    language: "Nix"
+    topics:
+      - "agent-rig-system"
+      - "ai-agents"
+      - "claude-code"
+      - "claude-skills"
+      - "harness"
+      - "llm-agents"
+      - "nix"
+      - "nix-flake"
+      - "nix-modules"
+      - "opencode"
+      - "pi"
+      - "riglets"
+      - "skills"
+    stars_fact: 93
+    first_seen: null
+    last_push: "2026-10-03"
+  - name: "flack.nix"
+    title: "flack.nix"
+    description: "Manage your nick profile like a stax... Wait..."
+    language: "Go"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-02"
+  - name: "rigup-devenv-demo"
+    title: "rigup-devenv-demo"
+    description: null
+    language: "Nix"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-29"
 ---
 
 # YPares

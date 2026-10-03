@@ -10,39 +10,39 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-02T06:06:48.484172+00:00"
+generated_at: "2026-10-03T06:07:13.763334+00:00"
 provenance:
   - "0b22ca37fd3884c9"
   - "c489e6fb5febf2ab"
-pushes_per_week: [81, 115, 23, 14, 1, 15, 3, 3, 0, 13, 37, 17, 8]
+pushes_per_week: [87, 110, 17, 14, 6, 10, 3, 3, 0, 20, 35, 12, 10]
 windows:
   "7d":
-    pushes: 8
-    distinct_repos: 3
-    active_days: 3
-    repos_not_owned: 3
-    not_owned_basenames: 3
-    not_owned_owners: 1
+    pushes: 10
+    distinct_repos: 4
+    active_days: 4
+    repos_not_owned: 4
+    not_owned_basenames: 4
+    not_owned_owners: 2
   "30d":
-    pushes: 75
-    distinct_repos: 8
-    active_days: 18
-    repos_not_owned: 8
-    not_owned_basenames: 7
+    pushes: 77
+    distinct_repos: 9
+    active_days: 19
+    repos_not_owned: 9
+    not_owned_basenames: 8
     not_owned_owners: 3
   "90d":
-    pushes: 330
-    distinct_repos: 20
+    pushes: 327
+    distinct_repos: 21
     active_days: 50
-    repos_not_owned: 20
-    not_owned_basenames: 19
+    repos_not_owned: 21
+    not_owned_basenames: 20
     not_owned_owners: 4
 automation:
   state: "clear"
-  push_per_day: 6.6000
-  repo_per_active_day: 0.4000
+  push_per_day: 6.5400
+  repo_per_active_day: 0.4200
   not_owned_ratio: 1.0000
-  basename_concentration: 0.1000
+  basename_concentration: 0.0952
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -51,28 +51,28 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 8
-    distinct_repos: 3
-    pushes_per_repo: 2.6667
-    active_days: 3
-    repos_not_owned: 3
-    not_owned_basenames: 3
-    not_owned_owners: 1
+    pushes: 10
+    distinct_repos: 4
+    pushes_per_repo: 2.5000
+    active_days: 4
+    repos_not_owned: 4
+    not_owned_basenames: 4
+    not_owned_owners: 2
   "30d":
-    pushes: 75
-    distinct_repos: 8
-    pushes_per_repo: 9.3750
-    active_days: 18
-    repos_not_owned: 8
-    not_owned_basenames: 7
+    pushes: 77
+    distinct_repos: 9
+    pushes_per_repo: 8.5556
+    active_days: 19
+    repos_not_owned: 9
+    not_owned_basenames: 8
     not_owned_owners: 3
   "90d":
-    pushes: 330
-    distinct_repos: 20
-    pushes_per_repo: 16.5000
+    pushes: 327
+    distinct_repos: 21
+    pushes_per_repo: 15.5714
     active_days: 50
-    repos_not_owned: 20
-    not_owned_basenames: 19
+    repos_not_owned: 21
+    not_owned_basenames: 20
     not_owned_owners: 4
 reasons:
   - "provenance: 2 vault signal(s) — pass"
@@ -140,6 +140,6 @@ repos:
 
 # amondnet
 
-330 pushes across 20 repositories on 50 active days in the last 90 days of public GitHub push activity.
+327 pushes across 21 repositories on 50 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/amondnet

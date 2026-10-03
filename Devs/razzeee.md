@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-02T06:06:48.484172+00:00"
+generated_at: "2026-10-03T06:07:13.763334+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [30, 26, 10, 2, 7, 2, 5, 5, 0, 6, 7, 12, 5]
+pushes_per_week: [27, 27, 7, 2, 7, 5, 2, 5, 0, 6, 8, 13, 6]
 windows:
   "7d":
-    pushes: 6
-    distinct_repos: 4
+    pushes: 8
+    distinct_repos: 5
     active_days: 4
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
   "30d":
-    pushes: 30
+    pushes: 33
     distinct_repos: 13
-    active_days: 17
+    active_days: 18
     repos_not_owned: 6
     not_owned_basenames: 6
     not_owned_owners: 5
   "90d":
-    pushes: 117
+    pushes: 115
     distinct_repos: 26
     active_days: 49
     repos_not_owned: 10
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 5
 automation:
   state: "clear"
-  push_per_day: 2.3878
+  push_per_day: 2.3469
   repo_per_active_day: 0.5306
   not_owned_ratio: 0.3846
   basename_concentration: 0.0769
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 6
-    distinct_repos: 4
-    pushes_per_repo: 1.5000
+    pushes: 8
+    distinct_repos: 5
+    pushes_per_repo: 1.6000
     active_days: 4
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
   "30d":
-    pushes: 30
+    pushes: 33
     distinct_repos: 13
-    pushes_per_repo: 2.3077
-    active_days: 17
+    pushes_per_repo: 2.5385
+    active_days: 18
     repos_not_owned: 6
     not_owned_basenames: 6
     not_owned_owners: 5
   "90d":
-    pushes: 117
+    pushes: 115
     distinct_repos: 26
-    pushes_per_repo: 4.5000
+    pushes_per_repo: 4.4231
     active_days: 49
     repos_not_owned: 10
     not_owned_basenames: 10
@@ -129,6 +129,6 @@ repos:
 
 # razzeee
 
-117 pushes across 26 repositories on 49 active days in the last 90 days of public GitHub push activity.
+115 pushes across 26 repositories on 49 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/razzeee

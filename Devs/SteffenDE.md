@@ -8,19 +8,19 @@ provenance_repos:
   - "anomalyco/opencode"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-02T06:06:48.484172+00:00"
+repos_populated: true
+generated_at: "2026-10-03T06:07:13.763334+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [8, 3, 7, 0, 0, 4, 1, 1, 0, 1, 1, 2, 0]
+pushes_per_week: [8, 3, 7, 0, 0, 4, 1, 1, 0, 2, 0, 2, 0]
 windows:
   "7d":
-    pushes: 2
-    distinct_repos: 2
-    active_days: 1
-    repos_not_owned: 2
-    not_owned_basenames: 2
-    not_owned_owners: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
     pushes: 4
     distinct_repos: 3
@@ -49,13 +49,13 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
-    distinct_repos: 2
-    pushes_per_repo: 1.0000
-    active_days: 1
-    repos_not_owned: 2
-    not_owned_basenames: 2
-    not_owned_owners: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
     pushes: 4
     distinct_repos: 3
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 19 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "popcorn_live_view"
+    title: "popcorn_live_view"
+    description: null
+    language: "Elixir"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-02-24"
+  - name: "phx_colocated_postcss_example"
+    title: "phx_colocated_postcss_example"
+    description: null
+    language: "Elixir"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-03-18"
+  - name: "ex_dav"
+    title: "ex_dav"
+    description: "An extendable WebDAV server implemented in Elixir"
+    language: "Elixir"
+    topics: []
+    stars_fact: 6
+    first_seen: null
+    last_push: "2021-05-12"
+  - name: "tmp_phx_upload_bug_demo"
+    title: "tmp_phx_upload_bug_demo"
+    description: null
+    language: "Elixir"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-01-09"
+  - name: "phx-reconnect-example-tmp"
+    title: "phx-reconnect-example-tmp"
+    description: null
+    language: "Elixir"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2025-11-14"
+  - name: "nerves_hetzner_cloud"
+    title: "nerves_hetzner_cloud"
+    description: "Instructions for running Elixir Nerves systems on Hetzner Cloud"
+    language: "Shell"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2025-10-09"
 ---
 
 # SteffenDE

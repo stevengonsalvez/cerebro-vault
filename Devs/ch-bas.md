@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-02T06:06:48.484172+00:00"
+generated_at: "2026-10-03T06:07:13.763334+00:00"
 provenance:
   - "379642deb53f3714"
-pushes_per_week: [19, 3, 3, 11, 4, 10, 0, 0, 0, 2, 2, 7, 16]
+pushes_per_week: [7, 3, 5, 9, 5, 9, 0, 0, 0, 2, 4, 5, 16]
 windows:
   "7d":
-    pushes: 17
-    distinct_repos: 4
-    active_days: 6
+    pushes: 16
+    distinct_repos: 3
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 77
+    pushes: 65
     distinct_repos: 6
-    active_days: 33
+    active_days: 32
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.3333
-  repo_per_active_day: 0.1818
+  push_per_day: 2.0312
+  repo_per_active_day: 0.1875
   not_owned_ratio: 0.1667
   basename_concentration: 0.3333
   shapes: []
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 17
-    distinct_repos: 4
-    pushes_per_repo: 4.2500
-    active_days: 6
+    pushes: 16
+    distinct_repos: 3
+    pushes_per_repo: 5.3333
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 77
+    pushes: 65
     distinct_repos: 6
-    pushes_per_repo: 12.8333
-    active_days: 33
+    pushes_per_repo: 10.8333
+    active_days: 32
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 33 active days in 90d — pass"
+  - "activity: 32 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "cctv-camera-database"
@@ -198,6 +198,6 @@ repos:
 
 # ch-bas
 
-77 pushes across 6 repositories on 33 active days in the last 90 days of public GitHub push activity.
+65 pushes across 6 repositories on 32 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ch-bas

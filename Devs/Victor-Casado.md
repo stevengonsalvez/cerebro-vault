@@ -8,28 +8,28 @@ provenance_repos:
   - "affaan-m/ECC"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-02T06:06:48.484172+00:00"
+repos_populated: true
+generated_at: "2026-10-03T06:07:13.763334+00:00"
 provenance:
   - "edb3a626875732de"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 11, 7]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 8, 8]
 windows:
   "7d":
-    pushes: 7
+    pushes: 8
     distinct_repos: 2
     active_days: 4
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 23
+    pushes: 24
     distinct_repos: 5
     active_days: 9
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 23
+    pushes: 24
     distinct_repos: 5
     active_days: 9
     repos_not_owned: 2
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 2.5556
+  push_per_day: 2.6667
   repo_per_active_day: 0.5556
   not_owned_ratio: 0.4000
   basename_concentration: 0.2000
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 7
+    pushes: 8
     distinct_repos: 2
-    pushes_per_repo: 3.5000
+    pushes_per_repo: 4.0000
     active_days: 4
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 23
+    pushes: 24
     distinct_repos: 5
-    pushes_per_repo: 4.6000
+    pushes_per_repo: 4.8000
     active_days: 9
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 23
+    pushes: 24
     distinct_repos: 5
-    pushes_per_repo: 4.6000
+    pushes_per_repo: 4.8000
     active_days: 9
     repos_not_owned: 2
     not_owned_basenames: 2
@@ -76,11 +76,56 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 9 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "neetcode-submissions"
+    title: "neetcode-submissions"
+    description: "My NeetCode.io problem submissions"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-01"
+  - name: "phase2-E2"
+    title: "phase2-E2"
+    description: null
+    language: "C"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-22"
+  - name: "if-ai"
+    title: "if-ai"
+    description: "Plain-English pull request checks powered by Jev. One condition, a minimum confidence, one check."
+    language: "TypeScript"
+    topics:
+      - "ai"
+      - "continuous-integration"
+      - "github-actions"
+      - "jev"
+      - "typescript"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-26"
+  - name: "S1-Navigation-PyQT-GUI"
+    title: "S1-Navigation-PyQT-GUI"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-17"
+  - name: "S2-Loop"
+    title: "S2-Loop"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-15"
 ---
 
 # Victor-Casado
 
-23 pushes across 5 repositories on 9 active days in the last 90 days of public GitHub push activity.
+24 pushes across 5 repositories on 9 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Victor-Casado

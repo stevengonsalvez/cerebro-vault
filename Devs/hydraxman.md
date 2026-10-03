@@ -10,37 +10,37 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-02T06:06:48.484172+00:00"
+generated_at: "2026-10-03T06:07:13.763334+00:00"
 provenance:
   - "4a45ac7a449df20e"
   - "4d1450729e6ff44d"
-pushes_per_week: [0, 3, 5, 1, 1, 4, 4, 2, 0, 1, 2, 0, 2]
+pushes_per_week: [0, 3, 5, 1, 1, 5, 3, 2, 0, 2, 1, 0, 3]
 windows:
   "7d":
-    pushes: 2
-    distinct_repos: 2
-    active_days: 1
-    repos_not_owned: 1
-    not_owned_basenames: 1
+    pushes: 3
+    distinct_repos: 3
+    active_days: 2
+    repos_not_owned: 2
+    not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 5
+    pushes: 6
     distinct_repos: 4
-    active_days: 4
+    active_days: 5
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 25
+    pushes: 26
     distinct_repos: 8
-    active_days: 21
+    active_days: 22
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.1905
-  repo_per_active_day: 0.3810
+  push_per_day: 1.1818
+  repo_per_active_day: 0.3636
   not_owned_ratio: 0.2500
   basename_concentration: 0.1250
   shapes: []
@@ -51,32 +51,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
-    distinct_repos: 2
+    pushes: 3
+    distinct_repos: 3
     pushes_per_repo: 1.0000
-    active_days: 1
-    repos_not_owned: 1
-    not_owned_basenames: 1
+    active_days: 2
+    repos_not_owned: 2
+    not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 5
+    pushes: 6
     distinct_repos: 4
-    pushes_per_repo: 1.2500
-    active_days: 4
+    pushes_per_repo: 1.5000
+    active_days: 5
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 25
+    pushes: 26
     distinct_repos: 8
-    pushes_per_repo: 3.1250
-    active_days: 21
+    pushes_per_repo: 3.2500
+    active_days: 22
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 21 active days in 90d — pass"
+  - "activity: 22 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "PianoGo"
@@ -142,6 +142,6 @@ repos:
 
 # hydraxman
 
-25 pushes across 8 repositories on 21 active days in the last 90 days of public GitHub push activity.
+26 pushes across 8 repositories on 22 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/hydraxman

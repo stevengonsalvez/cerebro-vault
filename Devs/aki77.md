@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-02T06:06:48.484172+00:00"
+generated_at: "2026-10-03T06:07:13.763334+00:00"
 provenance:
   - "0b22ca37fd3884c9"
-pushes_per_week: [15, 8, 12, 0, 2, 2, 0, 0, 0, 0, 2, 0, 4]
+pushes_per_week: [13, 12, 8, 1, 1, 2, 0, 0, 0, 0, 2, 0, 4]
 windows:
   "7d":
     pushes: 4
@@ -29,7 +29,7 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 45
+    pushes: 43
     distinct_repos: 16
     active_days: 20
     repos_not_owned: 5
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.2500
+  push_per_day: 2.1500
   repo_per_active_day: 0.8000
   not_owned_ratio: 0.3125
   basename_concentration: 0.0625
@@ -65,9 +65,9 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 45
+    pushes: 43
     distinct_repos: 16
-    pushes_per_repo: 2.8125
+    pushes_per_repo: 2.6875
     active_days: 20
     repos_not_owned: 5
     not_owned_basenames: 5
@@ -129,6 +129,6 @@ repos:
 
 # aki77
 
-45 pushes across 16 repositories on 20 active days in the last 90 days of public GitHub push activity.
+43 pushes across 16 repositories on 20 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/aki77

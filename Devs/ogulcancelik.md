@@ -10,11 +10,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-02T06:06:48.484172+00:00"
+generated_at: "2026-10-03T06:07:13.763334+00:00"
 provenance:
   - "576c6507cbdd1cf3"
   - "c87b77df69f1bb71"
-pushes_per_week: [18, 13, 13, 15, 16, 19, 5, 7, 0, 3, 3, 4, 6]
+pushes_per_week: [16, 15, 14, 15, 15, 18, 7, 4, 0, 3, 6, 4, 3]
 windows:
   "7d":
     pushes: 6
@@ -31,16 +31,16 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 122
+    pushes: 120
     distinct_repos: 13
-    active_days: 54
+    active_days: 53
     repos_not_owned: 11
     not_owned_basenames: 2
     not_owned_owners: 10
 automation:
   state: "clear"
-  push_per_day: 2.2593
-  repo_per_active_day: 0.2407
+  push_per_day: 2.2642
+  repo_per_active_day: 0.2453
   not_owned_ratio: 0.8462
   basename_concentration: 0.8462
   shapes:
@@ -83,16 +83,16 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 122
+    pushes: 120
     distinct_repos: 13
-    pushes_per_repo: 9.3846
-    active_days: 54
+    pushes_per_repo: 9.2308
+    active_days: 53
     repos_not_owned: 11
     not_owned_basenames: 2
     not_owned_owners: 10
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 54 active days in 90d — pass"
+  - "activity: 53 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "herdr-plugin-examples"
@@ -160,6 +160,6 @@ repos:
 
 # ogulcancelik
 
-122 pushes across 13 repositories on 54 active days in the last 90 days of public GitHub push activity.
+120 pushes across 13 repositories on 53 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ogulcancelik

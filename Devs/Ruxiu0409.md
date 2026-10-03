@@ -8,8 +8,8 @@ provenance_repos:
   - "ayghri/i-have-adhd"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-02T06:06:48.484172+00:00"
+repos_populated: true
+generated_at: "2026-10-03T06:07:13.763334+00:00"
 provenance:
   - "46f3c1d6124190bd"
 pushes_per_week: [1, 0, 0, 0, 1, 1, 0, 0, 0, 0, 2, 5, 0]
@@ -76,7 +76,70 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "LumaStage"
+    title: "LumaStage"
+    description: null
+    language: "Swift"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-26"
+  - name: "FCU-iOS-Club-Ghost-Call"
+    title: "FCU-iOS-Club-Ghost-Call"
+    description: "FCU iOS Club 茶會演講互動連線 — 台下 400 支手機同時變成一通假來電。Cloudflare Workers + Durable Objects，免費方案撐 400 人同時在線"
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-16"
+  - name: "tarot-skill"
+    title: "tarot-skill"
+    description: "🔮 Type /tarot in Claude Code and draw real tarot cards. 78-card deck, reversals, true randomness — work, love, family, or the engineer-only daily dev fortune. Any language."
+    language: "Python"
+    topics:
+      - "claude-code"
+      - "claude-skill"
+      - "cli"
+      - "fun"
+      - "python"
+      - "tarot"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-08-15"
+  - name: "mobile-frame-studio"
+    title: "mobile-frame-studio"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-08-09"
+  - name: "Witnos"
+    title: "Witnos"
+    description: "Make your coding agent's verification step visible — and editable while it's still running. A thin, local-first layer over Claude Code."
+    language: "Rust"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-09"
+  - name: "getreceipts"
+    title: "getreceipts"
+    description: "🧾 Catch your AI coding agent claiming work it didn't do — a deterministic, zero-config Claude Code hook. No LLM."
+    language: "TypeScript"
+    topics:
+      - "ai"
+      - "ai-agents"
+      - "claude-code"
+      - "cli"
+      - "coding-agent"
+      - "developer-tools"
+      - "hallucination"
+      - "hooks"
+      - "typescript"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-06-18"
 ---
 
 # Ruxiu0409

@@ -11,40 +11,40 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-02T06:06:48.484172+00:00"
+generated_at: "2026-10-03T06:07:13.763334+00:00"
 provenance:
   - "16389f32495280ea"
   - "234088bc43763aa2"
   - "4d1450729e6ff44d"
-pushes_per_week: [35, 21, 36, 19, 18, 53, 20, 9, 2, 8, 4, 8, 10]
+pushes_per_week: [37, 25, 37, 12, 18, 60, 17, 5, 2, 8, 9, 4, 10]
 windows:
   "7d":
     pushes: 10
-    distinct_repos: 3
+    distinct_repos: 4
     active_days: 4
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 30
-    distinct_repos: 10
-    active_days: 13
+    pushes: 31
+    distinct_repos: 11
+    active_days: 14
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 243
-    distinct_repos: 53
-    active_days: 57
+    pushes: 244
+    distinct_repos: 54
+    active_days: 58
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 4.2632
-  repo_per_active_day: 0.9298
-  not_owned_ratio: 0.0943
-  basename_concentration: 0.0377
+  push_per_day: 4.2069
+  repo_per_active_day: 0.9310
+  not_owned_ratio: 0.0926
+  basename_concentration: 0.0370
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -54,31 +54,31 @@ automation:
 facets:
   "7d":
     pushes: 10
-    distinct_repos: 3
-    pushes_per_repo: 3.3333
+    distinct_repos: 4
+    pushes_per_repo: 2.5000
     active_days: 4
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 30
-    distinct_repos: 10
-    pushes_per_repo: 3.0000
-    active_days: 13
+    pushes: 31
+    distinct_repos: 11
+    pushes_per_repo: 2.8182
+    active_days: 14
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 243
-    distinct_repos: 53
-    pushes_per_repo: 4.5849
-    active_days: 57
+    pushes: 244
+    distinct_repos: 54
+    pushes_per_repo: 4.5185
+    active_days: 58
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 2
 reasons:
   - "provenance: 3 vault signal(s) — pass"
-  - "activity: 57 active days in 90d — pass"
+  - "activity: 58 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "codex-recall"
@@ -133,6 +133,6 @@ repos:
 
 # luojiyin1987
 
-243 pushes across 53 repositories on 57 active days in the last 90 days of public GitHub push activity.
+244 pushes across 54 repositories on 58 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/luojiyin1987

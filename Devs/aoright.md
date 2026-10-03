@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-02T06:06:48.484172+00:00"
+generated_at: "2026-10-03T06:07:13.763334+00:00"
 provenance:
   - "dae9f02535f7c22f"
-pushes_per_week: [1, 0, 0, 1, 0, 4, 1, 0, 0, 0, 2, 17, 10]
+pushes_per_week: [1, 0, 0, 1, 0, 5, 0, 0, 0, 0, 6, 20, 3]
 windows:
   "7d":
-    pushes: 18
-    distinct_repos: 5
-    active_days: 4
+    pushes: 8
+    distinct_repos: 4
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 18
-    distinct_repos: 5
-    pushes_per_repo: 3.6000
-    active_days: 4
+    pushes: 8
+    distinct_repos: 4
+    pushes_per_repo: 2.0000
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -77,28 +77,99 @@ reasons:
   - "activity: 16 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "local-knowledge-hub"
-    title: "local-knowledge-hub"
-    description: "Project-isolated local knowledge for Codex and Antigravity on macOS — noncommercial source-available"
+  - name: "AgentMesh"
+    title: "AgentMesh"
+    description: "Enterprise production-grade resilient agent mesh and deterministic runtime framework for durable multi-agent execution"
     language: "Python"
     topics:
-      - "antigravity"
-      - "codex"
-      - "local-knowledge"
-      - "macos"
+      - "agent-mesh"
+      - "agentic-ai"
+      - "ai-agent"
+      - "deterministic-runtime"
+      - "distributed-systems"
+      - "durable-execution"
+      - "event-sourcing"
+      - "fault-tolerance"
       - "mcp"
-      - "source-available"
-    stars_fact: 1
+      - "model-context-protocol"
+      - "multi-agent"
+      - "python"
+      - "service-mesh"
+    stars_fact: 0
     first_seen: null
-    last_push: "2026-09-14"
-  - name: "Algorithm-Visualizer"
-    title: "Algorithm-Visualizer"
-    description: null
-    language: "HTML"
-    topics: []
+    last_push: "2026-10-01"
+  - name: "token-management"
+    title: "token-management"
+    description: "Multi-platform AI API token monitor and analytics dashboard for OpenAI, Anthropic, Gemini, and Azure"
+    language: "TypeScript"
+    topics:
+      - "analytics"
+      - "dashboard"
+      - "docker"
+      - "llm-api"
+      - "token-management"
+      - "token-monitor"
+      - "typescript"
     stars_fact: 2
     first_seen: null
-    last_push: "2025-10-07"
+    last_push: "2026-10-01"
+  - name: "DCL-Differentiable-Cryptographic-Language"
+    title: "DCL-Differentiable-Cryptographic-Language"
+    description: "A domain-specific language embedding automatic differentiation into compilers to optimize ZKP/FHE cryptographic circuits"
+    language: "Rust"
+    topics:
+      - "automatic-differentiation"
+      - "compiler"
+      - "cryptography"
+      - "fhe"
+      - "jax"
+      - "rust"
+      - "zkp"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-01"
+  - name: "AnchorMAS"
+    title: "AnchorMAS"
+    description: "Multi-workspace market intelligence and strategic simulation multi-agent system built in Rust"
+    language: "Rust"
+    topics:
+      - "blackboard-architecture"
+      - "decision-support"
+      - "market-intelligence"
+      - "multi-agent"
+      - "rust"
+      - "simulation"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-01"
+  - name: "Algorithm-Visualizer"
+    title: "Algorithm-Visualizer"
+    description: "Interactive algorithm visualization platform for sorting, graph traversal, and dynamic programming"
+    language: "HTML"
+    topics:
+      - "algorithm-visualizer"
+      - "dynamic-programming"
+      - "education"
+      - "graph-algorithms"
+      - "javascript"
+      - "sorting-algorithms"
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-10-01"
+  - name: "Co-Echo"
+    title: "Co-Echo"
+    description: "Real-time collaborative spatial audio sandbox and sound synthesis system built on Web Audio API"
+    language: "JavaScript"
+    topics:
+      - "audio-synthesis"
+      - "collaborative"
+      - "interactive"
+      - "javascript"
+      - "spatial-audio"
+      - "web-audio-api"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-01"
 ---
 
 # aoright

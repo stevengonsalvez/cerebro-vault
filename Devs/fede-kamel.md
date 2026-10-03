@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-02T06:06:48.484172+00:00"
+generated_at: "2026-10-03T06:07:13.763334+00:00"
 provenance:
   - "1be978947e68d1f2"
-pushes_per_week: [17, 8, 13, 9, 1, 25, 8, 0, 0, 0, 2, 3, 2]
+pushes_per_week: [17, 8, 13, 10, 3, 24, 6, 0, 0, 0, 2, 3, 6]
 windows:
   "7d":
-    pushes: 3
-    distinct_repos: 3
+    pushes: 6
+    distinct_repos: 4
     active_days: 3
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
-  "30d":
-    pushes: 7
-    distinct_repos: 6
-    active_days: 5
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
+  "30d":
+    pushes: 11
+    distinct_repos: 8
+    active_days: 6
+    repos_not_owned: 2
+    not_owned_basenames: 2
+    not_owned_owners: 1
   "90d":
-    pushes: 88
-    distinct_repos: 24
-    active_days: 34
-    repos_not_owned: 10
-    not_owned_basenames: 10
+    pushes: 92
+    distinct_repos: 26
+    active_days: 35
+    repos_not_owned: 11
+    not_owned_basenames: 11
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 2.5882
-  repo_per_active_day: 0.7059
-  not_owned_ratio: 0.4167
-  basename_concentration: 0.0833
+  push_per_day: 2.6286
+  repo_per_active_day: 0.7429
+  not_owned_ratio: 0.4231
+  basename_concentration: 0.0769
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 3
-    distinct_repos: 3
-    pushes_per_repo: 1.0000
+    pushes: 6
+    distinct_repos: 4
+    pushes_per_repo: 1.5000
     active_days: 3
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
-  "30d":
-    pushes: 7
-    distinct_repos: 6
-    pushes_per_repo: 1.1667
-    active_days: 5
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
+  "30d":
+    pushes: 11
+    distinct_repos: 8
+    pushes_per_repo: 1.3750
+    active_days: 6
+    repos_not_owned: 2
+    not_owned_basenames: 2
+    not_owned_owners: 1
   "90d":
-    pushes: 88
-    distinct_repos: 24
-    pushes_per_repo: 3.6667
-    active_days: 34
-    repos_not_owned: 10
-    not_owned_basenames: 10
+    pushes: 92
+    distinct_repos: 26
+    pushes_per_repo: 3.5385
+    active_days: 35
+    repos_not_owned: 11
+    not_owned_basenames: 11
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 34 active days in 90d — pass"
+  - "activity: 35 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "openshell-oci-kill-switch-demo"
@@ -129,6 +129,6 @@ repos:
 
 # fede-kamel
 
-88 pushes across 24 repositories on 34 active days in the last 90 days of public GitHub push activity.
+92 pushes across 26 repositories on 35 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/fede-kamel

@@ -10,7 +10,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-02T06:06:48.484172+00:00"
+generated_at: "2026-10-03T06:07:13.763334+00:00"
 provenance:
   - "01cd6a498d377caf"
   - "03604cccd7e9402d"
@@ -66,14 +66,14 @@ provenance:
   - "f9a1870648a6375a"
   - "fe9e50bf2d5b21fe"
   - "ff1ca072bf39e471"
-pushes_per_week: [12, 13, 8, 2, 6, 8, 0, 4, 0, 0, 3, 7, 4]
+pushes_per_week: [13, 13, 8, 0, 8, 6, 0, 4, 0, 1, 5, 4, 4]
 windows:
   "7d":
-    pushes: 6
-    distinct_repos: 3
-    active_days: 3
-    repos_not_owned: 3
-    not_owned_basenames: 3
+    pushes: 4
+    distinct_repos: 2
+    active_days: 2
+    repos_not_owned: 2
+    not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
     pushes: 14
@@ -83,16 +83,16 @@ windows:
     not_owned_basenames: 4
     not_owned_owners: 1
   "90d":
-    pushes: 67
+    pushes: 66
     distinct_repos: 5
-    active_days: 35
+    active_days: 34
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.9143
-  repo_per_active_day: 0.1429
+  push_per_day: 1.9412
+  repo_per_active_day: 0.1471
   not_owned_ratio: 1.0000
   basename_concentration: 0.2000
   shapes: []
@@ -103,12 +103,12 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 6
-    distinct_repos: 3
+    pushes: 4
+    distinct_repos: 2
     pushes_per_repo: 2.0000
-    active_days: 3
-    repos_not_owned: 3
-    not_owned_basenames: 3
+    active_days: 2
+    repos_not_owned: 2
+    not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
     pushes: 14
@@ -119,16 +119,16 @@ facets:
     not_owned_basenames: 4
     not_owned_owners: 1
   "90d":
-    pushes: 67
+    pushes: 66
     distinct_repos: 5
-    pushes_per_repo: 13.4000
-    active_days: 35
+    pushes_per_repo: 13.2000
+    active_days: 34
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 1
 reasons:
   - "provenance: 54 vault signal(s) — pass"
-  - "activity: 35 active days in 90d — pass"
+  - "activity: 34 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "action-test-publish"
@@ -143,6 +143,6 @@ repos:
 
 # ashwin-ant
 
-67 pushes across 5 repositories on 35 active days in the last 90 days of public GitHub push activity.
+66 pushes across 5 repositories on 34 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ashwin-ant

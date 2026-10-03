@@ -10,37 +10,37 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-02T06:06:48.484172+00:00"
+generated_at: "2026-10-03T06:07:13.763334+00:00"
 provenance:
   - "4138778ebbc75ba6"
   - "de6bf05613f3ae04"
-pushes_per_week: [9, 7, 0, 12, 3, 5, 2, 0, 0, 0, 2, 10, 8]
+pushes_per_week: [12, 4, 2, 11, 2, 5, 2, 0, 0, 1, 2, 11, 7]
 windows:
   "7d":
-    pushes: 11
+    pushes: 8
     distinct_repos: 5
     active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 20
+    pushes: 21
     distinct_repos: 5
-    active_days: 10
+    active_days: 11
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 58
+    pushes: 59
     distinct_repos: 21
-    active_days: 25
+    active_days: 26
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.3200
-  repo_per_active_day: 0.8400
+  push_per_day: 2.2692
+  repo_per_active_day: 0.8077
   not_owned_ratio: 0.0000
   basename_concentration: 0.0476
   shapes: []
@@ -51,32 +51,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 11
+    pushes: 8
     distinct_repos: 5
-    pushes_per_repo: 2.2000
+    pushes_per_repo: 1.6000
     active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 20
+    pushes: 21
     distinct_repos: 5
-    pushes_per_repo: 4.0000
-    active_days: 10
+    pushes_per_repo: 4.2000
+    active_days: 11
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 58
+    pushes: 59
     distinct_repos: 21
-    pushes_per_repo: 2.7619
-    active_days: 25
+    pushes_per_repo: 2.8095
+    active_days: 26
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 25 active days in 90d — pass"
+  - "activity: 26 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "boilerplate_solidjs"
@@ -185,6 +185,6 @@ repos:
 
 # everton-dgn
 
-58 pushes across 21 repositories on 25 active days in the last 90 days of public GitHub push activity.
+59 pushes across 21 repositories on 26 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/everton-dgn

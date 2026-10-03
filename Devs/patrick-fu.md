@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-02T06:06:48.484172+00:00"
+generated_at: "2026-10-03T06:07:13.763334+00:00"
 provenance:
   - "90688bf127241ceb"
-pushes_per_week: [13, 9, 0, 1, 3, 3, 5, 3, 0, 0, 5, 0, 8]
+pushes_per_week: [8, 7, 0, 1, 4, 3, 7, 0, 0, 0, 5, 3, 9]
 windows:
   "7d":
-    pushes: 8
-    distinct_repos: 3
-    active_days: 4
+    pushes: 12
+    distinct_repos: 4
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 13
-    distinct_repos: 5
-    active_days: 8
+    pushes: 17
+    distinct_repos: 6
+    active_days: 9
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 50
+    pushes: 47
     distinct_repos: 11
     active_days: 26
     repos_not_owned: 0
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.9231
+  push_per_day: 1.8077
   repo_per_active_day: 0.4231
   not_owned_ratio: 0.0000
   basename_concentration: 0.0909
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 8
-    distinct_repos: 3
-    pushes_per_repo: 2.6667
-    active_days: 4
+    pushes: 12
+    distinct_repos: 4
+    pushes_per_repo: 3.0000
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 13
-    distinct_repos: 5
-    pushes_per_repo: 2.6000
-    active_days: 8
+    pushes: 17
+    distinct_repos: 6
+    pushes_per_repo: 2.8333
+    active_days: 9
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 50
+    pushes: 47
     distinct_repos: 11
-    pushes_per_repo: 4.5455
+    pushes_per_repo: 4.2727
     active_days: 26
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -135,6 +135,6 @@ repos:
 
 # patrick-fu
 
-50 pushes across 11 repositories on 26 active days in the last 90 days of public GitHub push activity.
+47 pushes across 11 repositories on 26 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/patrick-fu

@@ -10,7 +10,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-02T06:06:48.484172+00:00"
+generated_at: "2026-10-03T06:07:13.763334+00:00"
 provenance:
   - "4733826595ed972b"
 pushes_per_week: [0, 0, 4, 2, 0, 2, 0, 0, 0, 4, 1, 0, 0]
@@ -95,12 +95,12 @@ repos:
       - "openrouter"
       - "pixel-art"
       - "tauri"
-    stars_fact: 543
+    stars_fact: 976
     first_seen: "2026-09-26T06:01:15.987126+00:00"
-    last_push: "2026-09-23"
+    last_push: "2026-09-28"
   - name: "starnet-releases"
     title: "starnet-releases"
-    description: "StarNet desktop installers and signed auto-update feed (Windows, macOS, Linux). Source: github.com/androoAGI/starnet"
+    description: "StarNet desktop installers and signed auto-update feed (Windows, macOS). Source: github.com/androoAGI/starnet"
     language: null
     topics:
       - "ai-agents"
@@ -108,9 +108,9 @@ repos:
       - "installers"
       - "releases"
       - "starnet"
-    stars_fact: 12
+    stars_fact: 18
     first_seen: null
-    last_push: "2026-09-20"
+    last_push: "2026-09-28"
   - name: "academy-clips"
     title: "academy-clips"
     description: "AI Agent Academy clip library for affiliates (watermark-free reposts)"

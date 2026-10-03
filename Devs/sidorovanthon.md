@@ -8,37 +8,37 @@ provenance_repos:
   - "browser-use/video-use"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-02T06:06:48.484172+00:00"
+repos_populated: true
+generated_at: "2026-10-03T06:07:13.763334+00:00"
 provenance:
   - "ddd7486148a91958"
-pushes_per_week: [48, 52, 11, 7, 1, 7, 11, 7, 2, 11, 11, 15, 30]
+pushes_per_week: [45, 50, 11, 7, 1, 10, 8, 7, 2, 11, 11, 15, 31]
 windows:
   "7d":
-    pushes: 33
+    pushes: 31
     distinct_repos: 2
-    active_days: 6
+    active_days: 5
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 67
+    pushes: 68
     distinct_repos: 4
     active_days: 17
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
   "90d":
-    pushes: 213
+    pushes: 209
     distinct_repos: 6
-    active_days: 53
+    active_days: 52
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 4.0189
-  repo_per_active_day: 0.1132
+  push_per_day: 4.0192
+  repo_per_active_day: 0.1154
   not_owned_ratio: 0.5000
   basename_concentration: 0.1667
   shapes: []
@@ -49,38 +49,91 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 33
+    pushes: 31
     distinct_repos: 2
-    pushes_per_repo: 16.5000
-    active_days: 6
+    pushes_per_repo: 15.5000
+    active_days: 5
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 67
+    pushes: 68
     distinct_repos: 4
-    pushes_per_repo: 16.7500
+    pushes_per_repo: 17.0000
     active_days: 17
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
   "90d":
-    pushes: 213
+    pushes: 209
     distinct_repos: 6
-    pushes_per_repo: 35.5000
-    active_days: 53
+    pushes_per_repo: 34.8333
+    active_days: 52
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 53 active days in 90d — pass"
+  - "activity: 52 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "anticodeguy-video-editing-studio"
+    title: "anticodeguy-video-editing-studio"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-06-01"
+  - name: "hyperframes-repro-contrast-out-of-clip"
+    title: "hyperframes-repro-contrast-out-of-clip"
+    description: "Minimal repro: hyperframes validate + contrast-report.mjs emit null:1 / NaN:1 for text elements whose bbox falls outside the captured 1920x1080 viewport"
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-05-01"
+  - name: "hyperframes-repro-snapshot-portrait"
+    title: "hyperframes-repro-snapshot-portrait"
+    description: "Minimal repro: npx hyperframes snapshot defaults to 1920x1080 regardless of root data-width/data-height"
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-05-01"
+  - name: "hyperframes-repro-double-audio-same-src"
+    title: "hyperframes-repro-double-audio-same-src"
+    description: "Minimal repro: canonical SKILL.md Video+Audio two-element pattern triggers StaticGuard invalid-contract"
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-05-01"
+  - name: "handoff-prompt"
+    title: "handoff-prompt"
+    description: "A compact session handoff prompt for coding agents (Claude Code, Cursor, Aider, Copilot CLI, Gemini CLI, ...). Resume work in a fresh session without context bloat. ~300 tokens."
+    language: null
+    topics:
+      - "anthropic"
+      - "claude-code"
+      - "claude-skill"
+      - "context-management"
+      - "productivity"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-04-23"
+  - name: "nutriklinika"
+    title: "nutriklinika"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2021-02-10"
 ---
 
 # sidorovanthon
 
-213 pushes across 6 repositories on 53 active days in the last 90 days of public GitHub push activity.
+209 pushes across 6 repositories on 52 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/sidorovanthon

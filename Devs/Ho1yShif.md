@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-02T06:06:48.484172+00:00"
+generated_at: "2026-10-03T06:07:13.763334+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [21, 6, 29, 12, 7, 5, 3, 0, 0, 1, 2, 1, 1]
+pushes_per_week: [21, 10, 26, 11, 6, 5, 3, 0, 0, 1, 2, 1, 1]
 windows:
   "7d":
     pushes: 1
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 88
+    pushes: 87
     distinct_repos: 24
-    active_days: 31
+    active_days: 30
     repos_not_owned: 8
     not_owned_basenames: 8
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 2.8387
-  repo_per_active_day: 0.7742
+  push_per_day: 2.9000
+  repo_per_active_day: 0.8000
   not_owned_ratio: 0.3333
   basename_concentration: 0.0833
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 88
+    pushes: 87
     distinct_repos: 24
-    pushes_per_repo: 3.6667
-    active_days: 31
+    pushes_per_repo: 3.6250
+    active_days: 30
     repos_not_owned: 8
     not_owned_basenames: 8
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 31 active days in 90d — pass"
+  - "activity: 30 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "grouplink-py"
@@ -129,6 +129,6 @@ repos:
 
 # Ho1yShif
 
-88 pushes across 24 repositories on 31 active days in the last 90 days of public GitHub push activity.
+87 pushes across 24 repositories on 30 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Ho1yShif

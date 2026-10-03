@@ -9,17 +9,17 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-02T06:06:48.484172+00:00"
+generated_at: "2026-10-03T06:07:13.763334+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [27, 21, 20, 27, 21, 19, 2, 17, 0, 18, 4, 29, 24]
+pushes_per_week: [17, 29, 17, 26, 27, 7, 4, 15, 0, 22, 4, 32, 17]
 windows:
   "7d":
-    pushes: 31
-    distinct_repos: 6
-    active_days: 6
-    repos_not_owned: 5
-    not_owned_basenames: 4
+    pushes: 20
+    distinct_repos: 5
+    active_days: 5
+    repos_not_owned: 4
+    not_owned_basenames: 3
     not_owned_owners: 3
   "30d":
     pushes: 75
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 6
     not_owned_owners: 3
   "90d":
-    pushes: 229
+    pushes: 217
     distinct_repos: 25
-    active_days: 58
+    active_days: 57
     repos_not_owned: 12
     not_owned_basenames: 11
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 3.9483
-  repo_per_active_day: 0.4310
+  push_per_day: 3.8070
+  repo_per_active_day: 0.4386
   not_owned_ratio: 0.4800
   basename_concentration: 0.0800
   shapes: []
@@ -49,12 +49,12 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 31
-    distinct_repos: 6
-    pushes_per_repo: 5.1667
-    active_days: 6
-    repos_not_owned: 5
-    not_owned_basenames: 4
+    pushes: 20
+    distinct_repos: 5
+    pushes_per_repo: 4.0000
+    active_days: 5
+    repos_not_owned: 4
+    not_owned_basenames: 3
     not_owned_owners: 3
   "30d":
     pushes: 75
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 6
     not_owned_owners: 3
   "90d":
-    pushes: 229
+    pushes: 217
     distinct_repos: 25
-    pushes_per_repo: 9.1600
-    active_days: 58
+    pushes_per_repo: 8.6800
+    active_days: 57
     repos_not_owned: 12
     not_owned_basenames: 11
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 58 active days in 90d — pass"
+  - "activity: 57 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "fuchxia"
@@ -131,6 +131,6 @@ repos:
 
 # metaphorics
 
-229 pushes across 25 repositories on 58 active days in the last 90 days of public GitHub push activity.
+217 pushes across 25 repositories on 57 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/metaphorics

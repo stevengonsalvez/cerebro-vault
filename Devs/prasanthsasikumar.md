@@ -9,37 +9,37 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-02T06:06:48.484172+00:00"
+generated_at: "2026-10-03T06:07:13.763334+00:00"
 provenance:
   - "6d3bd03b49986330"
-pushes_per_week: [15, 5, 0, 4, 1, 2, 0, 0, 0, 0, 4, 2, 4]
+pushes_per_week: [14, 4, 0, 4, 1, 2, 0, 0, 0, 0, 4, 2, 5]
 windows:
   "7d":
-    pushes: 4
-    distinct_repos: 2
-    active_days: 2
+    pushes: 5
+    distinct_repos: 3
+    active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 10
-    distinct_repos: 4
-    active_days: 6
+    pushes: 11
+    distinct_repos: 5
+    active_days: 7
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 37
+    pushes: 36
     distinct_repos: 15
     active_days: 17
-    repos_not_owned: 4
-    not_owned_basenames: 4
+    repos_not_owned: 3
+    not_owned_basenames: 3
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 2.1765
+  push_per_day: 2.1176
   repo_per_active_day: 0.8824
-  not_owned_ratio: 0.2667
+  not_owned_ratio: 0.2000
   basename_concentration: 0.0667
   shapes: []
   shape_evidence: []
@@ -49,28 +49,28 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 4
-    distinct_repos: 2
-    pushes_per_repo: 2.0000
-    active_days: 2
+    pushes: 5
+    distinct_repos: 3
+    pushes_per_repo: 1.6667
+    active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 10
-    distinct_repos: 4
-    pushes_per_repo: 2.5000
-    active_days: 6
+    pushes: 11
+    distinct_repos: 5
+    pushes_per_repo: 2.2000
+    active_days: 7
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 37
+    pushes: 36
     distinct_repos: 15
-    pushes_per_repo: 2.4667
+    pushes_per_repo: 2.4000
     active_days: 17
-    repos_not_owned: 4
-    not_owned_basenames: 4
+    repos_not_owned: 3
+    not_owned_basenames: 3
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
@@ -146,6 +146,6 @@ repos:
 
 # prasanthsasikumar
 
-37 pushes across 15 repositories on 17 active days in the last 90 days of public GitHub push activity.
+36 pushes across 15 repositories on 17 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/prasanthsasikumar

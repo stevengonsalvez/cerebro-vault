@@ -8,8 +8,8 @@ provenance_repos:
   - "AstrBotDevs/AstrBot"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-02T06:06:48.484172+00:00"
+repos_populated: true
+generated_at: "2026-10-03T06:07:13.763334+00:00"
 provenance:
   - "78a5846a75cc0fbb"
 pushes_per_week: [3, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3]
@@ -76,7 +76,66 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "lvgl_pinyin_ime"
+    title: "lvgl_pinyin_ime"
+    description: "Chinese pinyin input method (IME) component for LVGL 9 on ESP-IDF Framework. | 面向 ESP-IDF 上 LVGL 9的中文拼音输入法（IME）组件。"
+    language: "C"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-03"
+  - name: "NTEServerSwitch"
+    title: "NTEServerSwitch"
+    description: "异环官服B服切换器"
+    language: "C#"
+    topics:
+      - "csharp"
+      - "vs2022"
+      - "wpf"
+    stars_fact: 9
+    first_seen: null
+    last_push: "2026-04-29"
+  - name: "QQFavoriteExtract"
+    title: "QQFavoriteExtract"
+    description: "一个使用 Python + Qt6 + QFluentWidgets 设计并构建的现代化 QQ 表情包提取工具。"
+    language: "Python"
+    topics:
+      - "python"
+      - "qq"
+      - "qqnt"
+    stars_fact: 144
+    first_seen: null
+    last_push: "2026-09-27"
+  - name: "group-verify-service"
+    title: "group-verify-service"
+    description: "基于Vue.js+Think PHP的群聊入群验证插件后端，使用极验Geetest V4实现入群人机验证处理"
+    language: "PHP"
+    topics:
+      - "geetest"
+      - "php"
+      - "php8"
+      - "thinkphp"
+    stars_fact: 11
+    first_seen: null
+    last_push: "2026-09-03"
+  - name: "ESP32_MusicPlayer_V4"
+    title: "ESP32_MusicPlayer_V4"
+    description: null
+    language: "C"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-29"
+  - name: "WindsongLyre-Sim"
+    title: "WindsongLyre-Sim"
+    description: "Genshin Impact Instruments Simulator 原神乐器模拟器"
+    language: "HTML"
+    topics:
+      - "genshin-impact"
+    stars_fact: 27
+    first_seen: null
+    last_push: "2026-03-10"
 ---
 
 # VanillaNahida

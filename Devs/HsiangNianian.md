@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-02T06:06:48.484172+00:00"
+generated_at: "2026-10-03T06:07:13.763334+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [364, 182, 97, 48, 16, 42, 10, 1, 1, 0, 5, 5, 11]
+pushes_per_week: [270, 180, 78, 47, 15, 38, 7, 1, 1, 2, 3, 5, 11]
 windows:
   "7d":
-    pushes: 12
-    distinct_repos: 6
-    active_days: 6
+    pushes: 11
+    distinct_repos: 5
+    active_days: 5
     repos_not_owned: 3
     not_owned_basenames: 2
     not_owned_owners: 3
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 3
   "90d":
-    pushes: 782
+    pushes: 658
     distinct_repos: 20
-    active_days: 57
+    active_days: 56
     repos_not_owned: 7
     not_owned_basenames: 6
     not_owned_owners: 6
 automation:
   state: "clear"
-  push_per_day: 13.7193
-  repo_per_active_day: 0.3509
+  push_per_day: 11.7500
+  repo_per_active_day: 0.3571
   not_owned_ratio: 0.3500
   basename_concentration: 0.1500
   shapes: []
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 12
-    distinct_repos: 6
-    pushes_per_repo: 2.0000
-    active_days: 6
+    pushes: 11
+    distinct_repos: 5
+    pushes_per_repo: 2.2000
+    active_days: 5
     repos_not_owned: 3
     not_owned_basenames: 2
     not_owned_owners: 3
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 3
   "90d":
-    pushes: 782
+    pushes: 658
     distinct_repos: 20
-    pushes_per_repo: 39.1000
-    active_days: 57
+    pushes_per_repo: 32.9000
+    active_days: 56
     repos_not_owned: 7
     not_owned_basenames: 6
     not_owned_owners: 6
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 57 active days in 90d — pass"
+  - "activity: 56 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "jev-turtle-soup"
@@ -164,6 +164,6 @@ repos:
 
 # HsiangNianian
 
-782 pushes across 20 repositories on 57 active days in the last 90 days of public GitHub push activity.
+658 pushes across 20 repositories on 56 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/HsiangNianian

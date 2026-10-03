@@ -8,16 +8,16 @@ provenance_repos:
   - "anthropics/claude-plugins-official"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-02T06:06:48.484172+00:00"
+repos_populated: true
+generated_at: "2026-10-03T06:07:13.763334+00:00"
 provenance:
   - "02eab667df448997"
 pushes_per_week: [12, 14, 4, 2, 2, 2, 0, 3, 0, 1, 3, 15, 2]
 windows:
   "7d":
-    pushes: 11
+    pushes: 2
     distinct_repos: 2
-    active_days: 3
+    active_days: 2
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 11
+    pushes: 2
     distinct_repos: 2
-    pushes_per_repo: 5.5000
-    active_days: 3
+    pushes_per_repo: 1.0000
+    active_days: 2
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 23 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "twishabansal.github.io"
+    title: "twishabansal.github.io"
+    description: "Personal blog"
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-06-29"
+  - name: "vector-store-experiments"
+    title: "vector-store-experiments"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2024-09-12"
+  - name: "Image-Colourisation"
+    title: "Image-Colourisation"
+    description: null
+    language: "Jupyter Notebook"
+    topics: []
+    stars_fact: 4
+    first_seen: null
+    last_push: "2021-04-15"
+  - name: "frappe-mean"
+    title: "frappe-mean"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2022-04-04"
+  - name: "Handwritten_alphabet_classification"
+    title: "Handwritten_alphabet_classification"
+    description: null
+    language: "Jupyter Notebook"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2020-07-18"
+  - name: "COVID_trends_prediction"
+    title: "COVID_trends_prediction"
+    description: null
+    language: "Jupyter Notebook"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2020-06-24"
 ---
 
 # twishabansal

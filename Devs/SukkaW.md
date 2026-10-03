@@ -8,28 +8,28 @@ provenance_repos:
   - "abi/screenshot-to-code"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-02T06:06:48.484172+00:00"
+repos_populated: true
+generated_at: "2026-10-03T06:07:13.763334+00:00"
 provenance:
   - "ef17663e884139a8"
-pushes_per_week: [29, 45, 22, 26, 16, 45, 7, 6, 1, 0, 6, 6, 10]
+pushes_per_week: [28, 45, 17, 29, 20, 38, 7, 5, 0, 2, 5, 7, 10]
 windows:
   "7d":
-    pushes: 11
+    pushes: 12
     distinct_repos: 3
     active_days: 6
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 22
+    pushes: 24
     distinct_repos: 5
-    active_days: 14
+    active_days: 15
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 219
+    pushes: 213
     distinct_repos: 38
     active_days: 65
     repos_not_owned: 4
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 3.3692
+  push_per_day: 3.2769
   repo_per_active_day: 0.5846
   not_owned_ratio: 0.1053
   basename_concentration: 0.0263
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 11
+    pushes: 12
     distinct_repos: 3
-    pushes_per_repo: 3.6667
+    pushes_per_repo: 4.0000
     active_days: 6
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 22
+    pushes: 24
     distinct_repos: 5
-    pushes_per_repo: 4.4000
-    active_days: 14
+    pushes_per_repo: 4.8000
+    active_days: 15
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 219
+    pushes: 213
     distinct_repos: 38
-    pushes_per_repo: 5.7632
+    pushes_per_repo: 5.6053
     active_days: 65
     repos_not_owned: 4
     not_owned_basenames: 4
@@ -76,11 +76,97 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 65 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "Surge"
+    title: "Surge"
+    description: "Rule Snippet & Rule Set for Surge / Mihomo (Clash.Meta) / Clash Premium (Dreamacro) / sing-box / Surfboard for Android / Stash"
+    language: "TypeScript"
+    topics:
+      - "clash"
+      - "clash-meta"
+      - "clash-premium"
+      - "clash-rules"
+      - "hacktoberfest"
+      - "mihomo"
+      - "mihomo-rules"
+      - "ruleset"
+      - "sing-box"
+      - "sing-box-ruleset"
+      - "stash"
+      - "surfboard"
+      - "surge"
+      - "surge-rules"
+    stars_fact: 4516
+    first_seen: null
+    last_push: "2026-10-02"
+  - name: "cloudflare-block-bad-bot-ruleset"
+    title: "cloudflare-block-bad-bot-ruleset"
+    description: ":vertical_traffic_light: Block malicious crawlers with Cloudflare Firewall Rules"
+    language: null
+    topics:
+      - "cloudflare"
+      - "cloudflare-firewall-rules"
+      - "crawler-detector"
+      - "firewall"
+      - "firewall-rules"
+      - "user-agent"
+    stars_fact: 221
+    first_seen: null
+    last_push: "2020-04-17"
+  - name: "zsh-proxy"
+    title: "zsh-proxy"
+    description: ":nut_and_bolt: An oh-my-zsh plugin to configure proxy"
+    language: "Shell"
+    topics:
+      - "oh-my-zsh"
+      - "oh-my-zsh-plugin"
+      - "proxy"
+      - "zsh"
+    stars_fact: 397
+    first_seen: null
+    last_push: "2025-11-19"
+  - name: "eslint-config-sukka"
+    title: "eslint-config-sukka"
+    description: "ESLint configuration of Sukka"
+    language: "TypeScript"
+    topics:
+      - "eslint"
+      - "eslint-config"
+      - "hacktoberfest"
+      - "sukkaw"
+    stars_fact: 28
+    first_seen: null
+    last_push: "2026-10-02"
+  - name: "eslint-plugin-sukka"
+    title: "eslint-plugin-sukka"
+    description: "SukkaW extended ESLint rules"
+    language: "TypeScript"
+    topics:
+      - "eslint-plugin"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-02"
+  - name: "location-guard-ng"
+    title: "location-guard-ng"
+    description: "A UserScript that hide/spoof your geographic location from websites."
+    language: "TypeScript"
+    topics:
+      - "adguard"
+      - "location-guard"
+      - "location-guard-ng"
+      - "privacy"
+      - "privacy-protection"
+      - "tampermonkey"
+      - "userscript"
+      - "violentmonkey"
+      - "violentmonkey-script"
+    stars_fact: 343
+    first_seen: null
+    last_push: "2026-08-26"
 ---
 
 # SukkaW
 
-219 pushes across 38 repositories on 65 active days in the last 90 days of public GitHub push activity.
+213 pushes across 38 repositories on 65 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/SukkaW

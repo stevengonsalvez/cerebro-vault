@@ -8,8 +8,8 @@ provenance_repos:
   - "agent-substrate/substrate"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-02T06:06:48.484172+00:00"
+repos_populated: true
+generated_at: "2026-10-03T06:07:13.763334+00:00"
 provenance:
   - "a5ffcd0a46dd44fd"
 pushes_per_week: [0, 0, 4, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0]
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "Google-Landmark-Classification"
+    title: "Google-Landmark-Classification"
+    description: null
+    language: "Jupyter Notebook"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2021-08-17"
+  - name: "Activity-and-Terrain-Identification-from-sensor-data"
+    title: "Activity-and-Terrain-Identification-from-sensor-data"
+    description: "Identify the current human activity and the terrain based on the sensor data."
+    language: "Jupyter Notebook"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2021-08-17"
+  - name: "Store-Chain-Management"
+    title: "Store-Chain-Management"
+    description: null
+    language: "Java"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2021-08-16"
+  - name: "User-Authentication-API"
+    title: "User-Authentication-API"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2021-08-16"
+  - name: "Cyberbullying-detection"
+    title: "Cyberbullying-detection"
+    description: null
+    language: "Jupyter Notebook"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2021-08-16"
+  - name: "DA-Task-Pendency-Analysis"
+    title: "DA-Task-Pendency-Analysis"
+    description: null
+    language: "Jupyter Notebook"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2021-04-22"
 ---
 
 # Sneha-at

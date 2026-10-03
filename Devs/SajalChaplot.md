@@ -8,8 +8,8 @@ provenance_repos:
   - "BuilderIO/agent-native"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-02T06:06:48.484172+00:00"
+repos_populated: true
+generated_at: "2026-10-03T06:07:13.763334+00:00"
 provenance:
   - "745308b2b7085095"
 pushes_per_week: [0, 2, 1, 0, 0, 2, 1, 0, 0, 0, 1, 0, 0]
@@ -76,7 +76,49 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "websiteSelf"
+    title: "websiteSelf"
+    description: "This is website about me and my work done as a UX designer"
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-28"
+  - name: "skills"
+    title: "skills"
+    description: "General purpose claude skills to improve day to day needs."
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-07-22"
+  - name: "test_public"
+    title: "test_public"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2024-07-16"
+  - name: "API101"
+    title: "API101"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2022-12-20"
+  - name: "SajalChaplot"
+    title: "SajalChaplot"
+    description: "Config files for my GitHub profile."
+    language: null
+    topics:
+      - "config"
+      - "github-config"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2021-10-03"
 ---
 
 # SajalChaplot

@@ -9,14 +9,14 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-02T06:06:48.484172+00:00"
+generated_at: "2026-10-03T06:07:13.763334+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [432, 226, 89, 70, 14, 22, 21, 56, 4, 6, 7, 21, 53]
+pushes_per_week: [449, 208, 75, 65, 13, 28, 17, 53, 4, 6, 7, 26, 48]
 windows:
   "7d":
-    pushes: 54
-    distinct_repos: 8
+    pushes: 50
+    distinct_repos: 6
     active_days: 7
     repos_not_owned: 4
     not_owned_basenames: 4
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 5
     not_owned_owners: 1
   "90d":
-    pushes: 1021
-    distinct_repos: 34
-    active_days: 72
+    pushes: 999
+    distinct_repos: 33
+    active_days: 71
     repos_not_owned: 16
     not_owned_basenames: 16
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 14.1806
-  repo_per_active_day: 0.4722
-  not_owned_ratio: 0.4706
-  basename_concentration: 0.0588
+  push_per_day: 14.0704
+  repo_per_active_day: 0.4648
+  not_owned_ratio: 0.4848
+  basename_concentration: 0.0606
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,9 +49,9 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 54
-    distinct_repos: 8
-    pushes_per_repo: 6.7500
+    pushes: 50
+    distinct_repos: 6
+    pushes_per_repo: 8.3333
     active_days: 7
     repos_not_owned: 4
     not_owned_basenames: 4
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 5
     not_owned_owners: 1
   "90d":
-    pushes: 1021
-    distinct_repos: 34
-    pushes_per_repo: 30.0294
-    active_days: 72
+    pushes: 999
+    distinct_repos: 33
+    pushes_per_repo: 30.2727
+    active_days: 71
     repos_not_owned: 16
     not_owned_basenames: 16
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 72 active days in 90d — pass"
+  - "activity: 71 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "agent-skill-debloater"
@@ -157,6 +157,6 @@ repos:
 
 # 100yenadmin
 
-1021 pushes across 34 repositories on 72 active days in the last 90 days of public GitHub push activity.
+999 pushes across 33 repositories on 71 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/100yenadmin

@@ -8,11 +8,11 @@ provenance_repos:
   - "cline/cline"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-02T06:06:48.484172+00:00"
+repos_populated: true
+generated_at: "2026-10-03T06:07:13.763334+00:00"
 provenance:
   - "533d51d9d3dea76f"
-pushes_per_week: [0, 0, 0, 0, 1, 21, 0, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [0, 0, 0, 0, 10, 12, 0, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,61 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "claude-scope"
+    title: "claude-scope"
+    description: "Beautiful, customizable statusline for Claude Code CLI. Multiple widgets, themes, AI-friendly configuration. Zero runtime dependencies."
+    language: "TypeScript"
+    topics:
+      - "claude-code"
+      - "claude-code-plugin"
+      - "cli"
+      - "statusline"
+      - "terminal"
+      - "typescript"
+    stars_fact: 11
+    first_seen: null
+    last_push: "2026-08-06"
+  - name: "MyCalc"
+    title: "MyCalc"
+    description: null
+    language: "Swift"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2023-07-27"
+  - name: "Drag-And-Drop-Sample"
+    title: "Drag-And-Drop-Sample"
+    description: null
+    language: "Swift"
+    topics: []
+    stars_fact: 6
+    first_seen: null
+    last_push: "2018-10-02"
+  - name: "SwipeTabBarController"
+    title: "SwipeTabBarController"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2020-05-30"
+  - name: "RedditTest"
+    title: "RedditTest"
+    description: null
+    language: "Swift"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2020-03-03"
+  - name: "Swift-Animation-Cards"
+    title: "Swift-Animation-Cards"
+    description: null
+    language: "Swift"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2018-10-02"
 ---
 
 # YuriNachos

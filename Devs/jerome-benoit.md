@@ -10,37 +10,37 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-02T06:06:48.484172+00:00"
+generated_at: "2026-10-03T06:07:13.763334+00:00"
 provenance:
   - "de6bf05613f3ae04"
   - "ffccace0ba14fd15"
-pushes_per_week: [124, 63, 109, 71, 22, 46, 17, 16, 6, 10, 32, 42, 68]
+pushes_per_week: [102, 69, 103, 74, 17, 49, 10, 18, 2, 21, 29, 58, 48]
 windows:
   "7d":
-    pushes: 82
-    distinct_repos: 9
+    pushes: 72
+    distinct_repos: 10
     active_days: 7
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
   "30d":
-    pushes: 152
+    pushes: 156
     distinct_repos: 14
     active_days: 25
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 4
   "90d":
-    pushes: 626
+    pushes: 600
     distinct_repos: 20
-    active_days: 79
+    active_days: 78
     repos_not_owned: 7
     not_owned_basenames: 5
     not_owned_owners: 6
 automation:
   state: "clear"
-  push_per_day: 7.9241
-  repo_per_active_day: 0.2532
+  push_per_day: 7.6923
+  repo_per_active_day: 0.2564
   not_owned_ratio: 0.3500
   basename_concentration: 0.1500
   shapes: []
@@ -51,32 +51,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 82
-    distinct_repos: 9
-    pushes_per_repo: 9.1111
+    pushes: 72
+    distinct_repos: 10
+    pushes_per_repo: 7.2000
     active_days: 7
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
   "30d":
-    pushes: 152
+    pushes: 156
     distinct_repos: 14
-    pushes_per_repo: 10.8571
+    pushes_per_repo: 11.1429
     active_days: 25
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 4
   "90d":
-    pushes: 626
+    pushes: 600
     distinct_repos: 20
-    pushes_per_repo: 31.3000
-    active_days: 79
+    pushes_per_repo: 30.0000
+    active_days: 78
     repos_not_owned: 7
     not_owned_basenames: 5
     not_owned_owners: 6
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 79 active days in 90d — pass"
+  - "activity: 78 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "dotfiles"
@@ -135,6 +135,6 @@ repos:
 
 # jerome-benoit
 
-626 pushes across 20 repositories on 79 active days in the last 90 days of public GitHub push activity.
+600 pushes across 20 repositories on 78 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/jerome-benoit

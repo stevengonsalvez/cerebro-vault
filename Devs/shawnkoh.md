@@ -8,37 +8,37 @@ provenance_repos:
   - "can1357/oh-my-pi"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-02T06:06:48.484172+00:00"
+repos_populated: true
+generated_at: "2026-10-03T06:07:13.763334+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [0, 0, 0, 0, 0, 5, 1, 0, 0, 0, 1, 1, 7]
+pushes_per_week: [0, 0, 0, 0, 0, 5, 1, 0, 0, 0, 1, 2, 7]
 windows:
   "7d":
     pushes: 8
-    distinct_repos: 2
+    distinct_repos: 1
     active_days: 5
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
-    pushes: 9
+    pushes: 10
     distinct_repos: 2
-    active_days: 6
+    active_days: 7
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 15
+    pushes: 16
     distinct_repos: 2
-    active_days: 9
+    active_days: 10
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.6667
-  repo_per_active_day: 0.2222
+  push_per_day: 1.6000
+  repo_per_active_day: 0.2000
   not_owned_ratio: 0.5000
   basename_concentration: 0.5000
   shapes: []
@@ -50,37 +50,85 @@ automation:
 facets:
   "7d":
     pushes: 8
-    distinct_repos: 2
-    pushes_per_repo: 4.0000
+    distinct_repos: 1
+    pushes_per_repo: 8.0000
     active_days: 5
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
-    pushes: 9
+    pushes: 10
     distinct_repos: 2
-    pushes_per_repo: 4.5000
-    active_days: 6
+    pushes_per_repo: 5.0000
+    active_days: 7
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 15
+    pushes: 16
     distinct_repos: 2
-    pushes_per_repo: 7.5000
-    active_days: 9
+    pushes_per_repo: 8.0000
+    active_days: 10
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 9 active days in 90d — pass"
+  - "activity: 10 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "cs2106-lab1"
+    title: "cs2106-lab1"
+    description: null
+    language: "C"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2022-09-10"
+  - name: "vr-ml-backend"
+    title: "vr-ml-backend"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2022-03-20"
+  - name: "blender"
+    title: "blender"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2022-03-17"
+  - name: "cs4240-assignment-3"
+    title: "cs4240-assignment-3"
+    description: null
+    language: "C#"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2022-03-12"
+  - name: "Temp"
+    title: "Temp"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2022-03-04"
+  - name: "smart-bear"
+    title: "smart-bear"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2023-06-25"
 ---
 
 # shawnkoh
 
-15 pushes across 2 repositories on 9 active days in the last 90 days of public GitHub push activity.
+16 pushes across 2 repositories on 10 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/shawnkoh

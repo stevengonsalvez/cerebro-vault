@@ -8,39 +8,39 @@ provenance_repos:
   - "agentskills/agentskills"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-02T06:06:48.484172+00:00"
+repos_populated: true
+generated_at: "2026-10-03T06:07:13.763334+00:00"
 provenance:
   - "48dbbdd8fd0d3029"
-pushes_per_week: [10, 13, 7, 8, 2, 4, 1, 2, 0, 2, 2, 2, 4]
+pushes_per_week: [6, 12, 5, 8, 2, 4, 1, 2, 0, 2, 2, 2, 5]
 windows:
   "7d":
-    pushes: 4
+    pushes: 5
     distinct_repos: 1
-    active_days: 3
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 10
+    pushes: 11
     distinct_repos: 2
-    active_days: 9
+    active_days: 10
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 57
-    distinct_repos: 5
-    active_days: 32
+    pushes: 51
+    distinct_repos: 4
+    active_days: 31
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.7812
-  repo_per_active_day: 0.1562
+  push_per_day: 1.6452
+  repo_per_active_day: 0.1290
   not_owned_ratio: 0.0000
-  basename_concentration: 0.2000
+  basename_concentration: 0.2500
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,38 +49,145 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 4
+    pushes: 5
     distinct_repos: 1
-    pushes_per_repo: 4.0000
-    active_days: 3
+    pushes_per_repo: 5.0000
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 10
+    pushes: 11
     distinct_repos: 2
-    pushes_per_repo: 5.0000
-    active_days: 9
+    pushes_per_repo: 5.5000
+    active_days: 10
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 57
-    distinct_repos: 5
-    pushes_per_repo: 11.4000
-    active_days: 32
+    pushes: 51
+    distinct_repos: 4
+    pushes_per_repo: 12.7500
+    active_days: 31
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 32 active days in 90d — pass"
+  - "activity: 31 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "homebrew-tap"
+    title: "homebrew-tap"
+    description: "My homebrew tap formula"
+    language: "Ruby"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-02"
+  - name: "VTCode"
+    title: "VTCode"
+    description: "VT Code is an open-source Rust terminal coding agent."
+    language: "Rust"
+    topics:
+      - "agent"
+      - "agentclientprotocol"
+      - "agentplugins"
+      - "agentskills"
+      - "ai"
+      - "artificial-intelligence"
+      - "cargo"
+      - "cli"
+      - "codingagent"
+      - "crossterm"
+      - "mcp"
+      - "ratatui"
+      - "rust"
+      - "terminal"
+      - "tui"
+    stars_fact: 862
+    first_seen: null
+    last_push: "2026-10-02"
+  - name: "VT.ai"
+    title: "VT.ai"
+    description: "VT.ai - multimodal AI chat app with dynamic conversation routing"
+    language: "Python"
+    topics:
+      - "agent"
+      - "ai"
+      - "assistant"
+      - "assistant-chat-bots"
+      - "chatbot"
+      - "dalle"
+      - "function-calling"
+      - "llama"
+      - "llamacpp"
+      - "llm"
+      - "llms"
+      - "multimodal"
+      - "ollama"
+      - "openai"
+      - "python"
+      - "tool-use"
+    stars_fact: 118
+    first_seen: null
+    last_push: "2026-10-02"
+  - name: "Clendar"
+    title: "Clendar"
+    description: "Clendar - Minimal Calendar app. Written in SwiftUI."
+    language: "Swift"
+    topics:
+      - "apple"
+      - "calendar"
+      - "catalyst"
+      - "eventkit"
+      - "fastlane"
+      - "github-actions"
+      - "ios"
+      - "ipad"
+      - "iphone"
+      - "macos"
+      - "siri"
+      - "swift"
+      - "swift-package-manager"
+      - "swiftformat"
+      - "swiftlint"
+      - "swiftui"
+      - "watchos"
+      - "widget"
+    stars_fact: 732
+    first_seen: null
+    last_push: "2026-09-27"
+  - name: "vtchat"
+    title: "vtchat"
+    description: "VT Chat - A modern, privacy-first AI chat application with security"
+    language: "TypeScript"
+    topics:
+      - "ai"
+      - "aisdk"
+      - "chatbot"
+      - "llm"
+      - "nextjs"
+      - "shadcn-ui"
+      - "tailwindcss"
+      - "typescript"
+    stars_fact: 60
+    first_seen: null
+    last_push: "2026-09-13"
+  - name: "vtcode-plugins"
+    title: "vtcode-plugins"
+    description: "General-purpose Agent Skills extracted from VT Code, packaged as an Agent Plugins portable plugin."
+    language: null
+    topics:
+      - "agent"
+      - "plugin"
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-08-08"
 ---
 
 # vinhnx
 
-57 pushes across 5 repositories on 32 active days in the last 90 days of public GitHub push activity.
+51 pushes across 4 repositories on 31 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/vinhnx

@@ -8,11 +8,11 @@ provenance_repos:
   - "agavra/tuicr"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-02T06:06:48.484172+00:00"
+repos_populated: true
+generated_at: "2026-10-03T06:07:13.763334+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [1, 1, 0, 0, 0, 0, 2, 1, 0, 0, 0, 1, 0]
+pushes_per_week: [1, 1, 0, 0, 0, 2, 0, 1, 0, 0, 0, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,61 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "dotfiles"
+    title: "dotfiles"
+    description: null
+    language: "Lua"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-25"
+  - name: "dnd-timeline"
+    title: "dnd-timeline"
+    description: "dnd-timeline: A headless timeline library for React, based on dnd-kit"
+    language: "TypeScript"
+    topics:
+      - "dnd"
+      - "dnd-kit"
+      - "gantt"
+      - "gantt-chart"
+      - "react"
+      - "timeline"
+    stars_fact: 252
+    first_seen: null
+    last_push: "2026-08-24"
+  - name: "cameri"
+    title: "cameri"
+    description: "A smart Playwright test reporter"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-08-31"
+  - name: "copenhagen-2026"
+    title: "copenhagen-2026"
+    description: "Trip plan — Copenhagen, 1–6 September 2026"
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-22"
+  - name: "biostatistics-exam-prep"
+    title: "biostatistics-exam-prep"
+    description: "Hebrew biostatistics exam quiz - 100 questions with full explanations"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-07-19"
+  - name: "digestion-exam-prep"
+    title: "digestion-exam-prep"
+    description: "Hebrew digestive system exam quiz - 100 questions with full explanations"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-07-15"
 ---
 
 # samuelarbibe

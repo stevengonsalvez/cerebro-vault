@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-02T06:06:48.484172+00:00"
+generated_at: "2026-10-03T06:07:13.763334+00:00"
 provenance:
   - "c47cbc7eb3e22410"
-pushes_per_week: [65, 55, 37, 39, 62, 84, 52, 27, 11, 72, 104, 196, 130]
+pushes_per_week: [69, 46, 45, 32, 71, 89, 46, 21, 15, 73, 167, 159, 105]
 windows:
   "7d":
-    pushes: 148
-    distinct_repos: 10
+    pushes: 127
+    distinct_repos: 9
     active_days: 7
-    repos_not_owned: 8
+    repos_not_owned: 7
     not_owned_basenames: 7
-    not_owned_owners: 3
+    not_owned_owners: 2
   "30d":
-    pushes: 502
+    pushes: 511
     distinct_repos: 31
     active_days: 28
     repos_not_owned: 20
     not_owned_basenames: 7
     not_owned_owners: 15
   "90d":
-    pushes: 934
+    pushes: 938
     distinct_repos: 46
-    active_days: 84
+    active_days: 83
     repos_not_owned: 28
     not_owned_basenames: 9
     not_owned_owners: 23
 automation:
   state: "clear"
-  push_per_day: 11.1190
-  repo_per_active_day: 0.5476
+  push_per_day: 11.3012
+  repo_per_active_day: 0.5542
   not_owned_ratio: 0.6087
   basename_concentration: 0.4565
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 148
-    distinct_repos: 10
-    pushes_per_repo: 14.8000
+    pushes: 127
+    distinct_repos: 9
+    pushes_per_repo: 14.1111
     active_days: 7
-    repos_not_owned: 8
+    repos_not_owned: 7
     not_owned_basenames: 7
-    not_owned_owners: 3
+    not_owned_owners: 2
   "30d":
-    pushes: 502
+    pushes: 511
     distinct_repos: 31
-    pushes_per_repo: 16.1935
+    pushes_per_repo: 16.4839
     active_days: 28
     repos_not_owned: 20
     not_owned_basenames: 7
     not_owned_owners: 15
   "90d":
-    pushes: 934
+    pushes: 938
     distinct_repos: 46
-    pushes_per_repo: 20.3043
-    active_days: 84
+    pushes_per_repo: 20.3913
+    active_days: 83
     repos_not_owned: 28
     not_owned_basenames: 9
     not_owned_owners: 23
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 84 active days in 90d — pass"
+  - "activity: 83 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "opencodex"
@@ -176,6 +176,6 @@ repos:
 
 # lidge-jun
 
-934 pushes across 46 repositories on 84 active days in the last 90 days of public GitHub push activity.
+938 pushes across 46 repositories on 83 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/lidge-jun

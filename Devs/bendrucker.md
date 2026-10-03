@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-02T06:06:48.484172+00:00"
+generated_at: "2026-10-03T06:07:13.763334+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [62, 39, 21, 20, 21, 16, 6, 5, 0, 9, 12, 29, 22]
+pushes_per_week: [49, 37, 25, 16, 30, 7, 7, 4, 0, 11, 17, 28, 16]
 windows:
   "7d":
-    pushes: 22
+    pushes: 16
     distinct_repos: 4
-    active_days: 4
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 262
+    pushes: 247
     distinct_repos: 22
-    active_days: 52
+    active_days: 51
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 5.0385
-  repo_per_active_day: 0.4231
+  push_per_day: 4.8431
+  repo_per_active_day: 0.4314
   not_owned_ratio: 0.2273
   basename_concentration: 0.0455
   shapes: []
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 22
+    pushes: 16
     distinct_repos: 4
-    pushes_per_repo: 5.5000
-    active_days: 4
+    pushes_per_repo: 4.0000
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 262
+    pushes: 247
     distinct_repos: 22
-    pushes_per_repo: 11.9091
-    active_days: 52
+    pushes_per_repo: 11.2273
+    active_days: 51
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 52 active days in 90d — pass"
+  - "activity: 51 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "dotfiles"
@@ -133,6 +133,6 @@ repos:
 
 # bendrucker
 
-262 pushes across 22 repositories on 52 active days in the last 90 days of public GitHub push activity.
+247 pushes across 22 repositories on 51 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/bendrucker

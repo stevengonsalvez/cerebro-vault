@@ -8,11 +8,11 @@ provenance_repos:
   - "alibaba/page-agent"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-02T06:06:48.484172+00:00"
+repos_populated: true
+generated_at: "2026-10-03T06:07:13.763334+00:00"
 provenance:
   - "d1946b21c02e5fa5"
-pushes_per_week: [2, 3, 1, 0, 1, 5, 0, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [0, 3, 1, 0, 1, 5, 0, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 12
-    distinct_repos: 4
-    active_days: 11
+    pushes: 10
+    distinct_repos: 3
+    active_days: 9
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.0909
-  repo_per_active_day: 0.3636
+  push_per_day: 1.1111
+  repo_per_active_day: 0.3333
   not_owned_ratio: 0.0000
-  basename_concentration: 0.2500
+  basename_concentration: 0.3333
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,22 +65,74 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 12
-    distinct_repos: 4
-    pushes_per_repo: 3.0000
-    active_days: 11
+    pushes: 10
+    distinct_repos: 3
+    pushes_per_repo: 3.3333
+    active_days: 9
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 11 active days in 90d — pass"
+  - "activity: 9 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "Claude-Code"
+    title: "Claude-Code"
+    description: "可运行的Claude Code源码"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-30"
+  - name: "document-converter"
+    title: "document-converter"
+    description: "Document Converter Server made with Go & LibreOffice"
+    language: "Go"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-03-27"
+  - name: "DesktopNotes"
+    title: "DesktopNotes"
+    description: "Windows桌面便签，520kb极简，支持置顶显示"
+    language: "C#"
+    topics: []
+    stars_fact: 57
+    first_seen: null
+    last_push: "2026-03-23"
+  - name: "contentgrid"
+    title: "contentgrid"
+    description: "contentgrid Use WebGL and three.js technology to achieve impressive transition effects, adapted to the mobile terminal. It can help your website or application to add beautiful transition effects to enhance user experience."
+    language: "Vue"
+    topics:
+      - "threejs"
+      - "vue"
+      - "vuejs"
+      - "webgl"
+    stars_fact: 54
+    first_seen: null
+    last_push: "2023-04-17"
+  - name: "kilo-draft"
+    title: "kilo-draft"
+    description: "Kilo is the all-in-one agentic engineering platform. Build, ship, and iterate faster with the most popular open source coding agent."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-15"
+  - name: "Wechat3D"
+    title: "Wechat3D"
+    description: "微信小程序3D，使用Three.js在微信小程序中展示gltf模型，使用VisionKit展示AR能力"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 34
+    first_seen: null
+    last_push: "2025-04-03"
 ---
 
 # zzy-life
 
-12 pushes across 4 repositories on 11 active days in the last 90 days of public GitHub push activity.
+10 pushes across 3 repositories on 9 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/zzy-life

@@ -8,11 +8,11 @@ provenance_repos:
   - "Sparticle62ops/pssa"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-02T06:06:48.484172+00:00"
+repos_populated: true
+generated_at: "2026-10-03T06:07:13.763334+00:00"
 provenance:
   - "cf64edd36b9e7709"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 2, 10]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 8, 4]
 windows:
   "7d":
     pushes: 10
@@ -76,7 +76,31 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "pssa"
+    title: "pssa"
+    description: "A custom AI architecture being developed in rust"
+    language: "Rust"
+    topics: []
+    stars_fact: 31
+    first_seen: "2026-09-30T06:02:10.916657+00:00"
+    last_push: "2026-09-30"
+  - name: "DastemOS"
+    title: "DastemOS"
+    description: "An operating system written in Rust :)"
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-07-30"
+  - name: "Syl"
+    title: "Syl"
+    description: "Syl is a compiled systems programming language that uses strict, deterministic English syntax. It maps natural language to a proprietary, memory-safe Base-52 bytecode (Helix IR) before compiling to native C. Zero AI at runtime, zero boilerplate, Rust-level speed."
+    language: "Rust"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-05-29"
 ---
 
 # Sparticle62ops
