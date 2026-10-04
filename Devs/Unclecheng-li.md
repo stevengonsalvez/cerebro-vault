@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-03T06:07:13.763334+00:00"
+generated_at: "2026-10-04T06:07:52.073869+00:00"
 provenance:
   - "135bded64aec62fb"
-pushes_per_week: [9, 7, 2, 1, 5, 6, 0, 1, 0, 1, 2, 0, 1]
+pushes_per_week: [7, 7, 2, 0, 10, 1, 0, 1, 0, 1, 2, 1, 1]
 windows:
   "7d":
     pushes: 1
@@ -22,14 +22,14 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 4
-    distinct_repos: 2
-    active_days: 4
+    pushes: 5
+    distinct_repos: 3
+    active_days: 5
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 35
+    pushes: 33
     distinct_repos: 8
     active_days: 19
     repos_not_owned: 1
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.8421
+  push_per_day: 1.7368
   repo_per_active_day: 0.4211
   not_owned_ratio: 0.1250
   basename_concentration: 0.2500
@@ -57,17 +57,17 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 4
-    distinct_repos: 2
-    pushes_per_repo: 2.0000
-    active_days: 4
+    pushes: 5
+    distinct_repos: 3
+    pushes_per_repo: 1.6667
+    active_days: 5
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 35
+    pushes: 33
     distinct_repos: 8
-    pushes_per_repo: 4.3750
+    pushes_per_repo: 4.1250
     active_days: 19
     repos_not_owned: 1
     not_owned_basenames: 1
@@ -182,6 +182,6 @@ repos:
 
 # Unclecheng-li
 
-35 pushes across 8 repositories on 19 active days in the last 90 days of public GitHub push activity.
+33 pushes across 8 repositories on 19 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Unclecheng-li

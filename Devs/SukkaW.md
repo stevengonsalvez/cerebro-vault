@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-03T06:07:13.763334+00:00"
+generated_at: "2026-10-04T06:07:52.073869+00:00"
 provenance:
   - "ef17663e884139a8"
-pushes_per_week: [28, 45, 17, 29, 20, 38, 7, 5, 0, 2, 5, 7, 10]
+pushes_per_week: [28, 43, 19, 24, 25, 32, 7, 4, 0, 2, 6, 10, 8]
 windows:
   "7d":
-    pushes: 12
-    distinct_repos: 3
+    pushes: 11
+    distinct_repos: 4
     active_days: 6
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 24
-    distinct_repos: 5
-    active_days: 15
+    pushes: 26
+    distinct_repos: 6
+    active_days: 16
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 213
-    distinct_repos: 38
+    pushes: 208
+    distinct_repos: 37
     active_days: 65
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 3.2769
-  repo_per_active_day: 0.5846
-  not_owned_ratio: 0.1053
-  basename_concentration: 0.0263
+  push_per_day: 3.2000
+  repo_per_active_day: 0.5692
+  not_owned_ratio: 0.1081
+  basename_concentration: 0.0270
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 12
-    distinct_repos: 3
-    pushes_per_repo: 4.0000
+    pushes: 11
+    distinct_repos: 4
+    pushes_per_repo: 2.7500
     active_days: 6
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 24
-    distinct_repos: 5
-    pushes_per_repo: 4.8000
-    active_days: 15
+    pushes: 26
+    distinct_repos: 6
+    pushes_per_repo: 4.3333
+    active_days: 16
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 213
-    distinct_repos: 38
-    pushes_per_repo: 5.6053
+    pushes: 208
+    distinct_repos: 37
+    pushes_per_repo: 5.6216
     active_days: 65
     repos_not_owned: 4
     not_owned_basenames: 4
@@ -167,6 +167,6 @@ repos:
 
 # SukkaW
 
-213 pushes across 38 repositories on 65 active days in the last 90 days of public GitHub push activity.
+208 pushes across 37 repositories on 65 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/SukkaW

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-03T06:07:13.763334+00:00"
+generated_at: "2026-10-04T06:07:52.073869+00:00"
 provenance:
   - "46f3c1d6124190bd"
-pushes_per_week: [3, 42, 7, 10, 0, 2, 0, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [1, 42, 15, 2, 0, 2, 0, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 64
-    distinct_repos: 7
-    active_days: 11
-    repos_not_owned: 2
-    not_owned_basenames: 2
+    pushes: 62
+    distinct_repos: 6
+    active_days: 10
+    repos_not_owned: 1
+    not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 5.8182
-  repo_per_active_day: 0.6364
-  not_owned_ratio: 0.2857
-  basename_concentration: 0.1429
+  push_per_day: 6.2000
+  repo_per_active_day: 0.6000
+  not_owned_ratio: 0.1667
+  basename_concentration: 0.1667
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 64
-    distinct_repos: 7
-    pushes_per_repo: 9.1429
-    active_days: 11
-    repos_not_owned: 2
-    not_owned_basenames: 2
+    pushes: 62
+    distinct_repos: 6
+    pushes_per_repo: 10.3333
+    active_days: 10
+    repos_not_owned: 1
+    not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 11 active days in 90d — pass"
+  - "activity: 10 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "github-runner-fleet"
@@ -129,6 +129,6 @@ repos:
 
 # mnofresno
 
-64 pushes across 7 repositories on 11 active days in the last 90 days of public GitHub push activity.
+62 pushes across 6 repositories on 10 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/mnofresno

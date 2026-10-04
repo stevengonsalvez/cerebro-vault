@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-03T06:07:13.763334+00:00"
+generated_at: "2026-10-04T06:07:52.073869+00:00"
 provenance:
   - "b5590ec052a4f771"
-pushes_per_week: [66, 41, 30, 19, 32, 48, 17, 5, 1, 9, 18, 79, 115]
+pushes_per_week: [52, 43, 30, 17, 42, 42, 14, 3, 3, 12, 18, 115, 94]
 windows:
   "7d":
-    pushes: 145
-    distinct_repos: 3
-    active_days: 7
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
-  "30d":
-    pushes: 221
-    distinct_repos: 3
-    active_days: 22
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
-  "90d":
-    pushes: 480
+    pushes: 124
     distinct_repos: 4
+    active_days: 7
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
+  "30d":
+    pushes: 241
+    distinct_repos: 4
+    active_days: 23
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
+  "90d":
+    pushes: 485
+    distinct_repos: 5
     active_days: 71
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 6.7606
-  repo_per_active_day: 0.0563
-  not_owned_ratio: 0.0000
-  basename_concentration: 0.2500
+  push_per_day: 6.8310
+  repo_per_active_day: 0.0704
+  not_owned_ratio: 0.2000
+  basename_concentration: 0.4000
   shapes: []
   shape_evidence: []
   cleared_by: "e01-builder"
@@ -49,29 +49,29 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 145
-    distinct_repos: 3
-    pushes_per_repo: 48.3333
-    active_days: 7
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
-  "30d":
-    pushes: 221
-    distinct_repos: 3
-    pushes_per_repo: 73.6667
-    active_days: 22
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
-  "90d":
-    pushes: 480
+    pushes: 124
     distinct_repos: 4
-    pushes_per_repo: 120.0000
+    pushes_per_repo: 31.0000
+    active_days: 7
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
+  "30d":
+    pushes: 241
+    distinct_repos: 4
+    pushes_per_repo: 60.2500
+    active_days: 23
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
+  "90d":
+    pushes: 485
+    distinct_repos: 5
+    pushes_per_repo: 97.0000
     active_days: 71
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 71 active days in 90d — pass"
@@ -181,6 +181,6 @@ repos:
 
 # esengine
 
-480 pushes across 4 repositories on 71 active days in the last 90 days of public GitHub push activity.
+485 pushes across 5 repositories on 71 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/esengine

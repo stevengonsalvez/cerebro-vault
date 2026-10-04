@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-03T06:07:13.763334+00:00"
+generated_at: "2026-10-04T06:07:52.073869+00:00"
 provenance:
   - "0b22ca37fd3884c9"
-pushes_per_week: [2, 0, 2, 0, 0, 0, 0, 0, 0, 1, 8, 1, 0]
+pushes_per_week: [1, 0, 2, 0, 0, 0, 0, 0, 0, 1, 8, 1, 1]
 windows:
   "7d":
     pushes: 1
@@ -22,15 +22,15 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 10
+    pushes: 11
     distinct_repos: 5
-    active_days: 3
+    active_days: 4
     repos_not_owned: 3
     not_owned_basenames: 1
     not_owned_owners: 3
   "90d":
     pushes: 14
-    distinct_repos: 8
+    distinct_repos: 7
     active_days: 6
     repos_not_owned: 3
     not_owned_basenames: 1
@@ -38,9 +38,9 @@ windows:
 automation:
   state: "clear"
   push_per_day: 2.3333
-  repo_per_active_day: 1.3333
-  not_owned_ratio: 0.3750
-  basename_concentration: 0.3750
+  repo_per_active_day: 1.1667
+  not_owned_ratio: 0.4286
+  basename_concentration: 0.4286
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -57,17 +57,17 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 10
+    pushes: 11
     distinct_repos: 5
-    pushes_per_repo: 2.0000
-    active_days: 3
+    pushes_per_repo: 2.2000
+    active_days: 4
     repos_not_owned: 3
     not_owned_basenames: 1
     not_owned_owners: 3
   "90d":
     pushes: 14
-    distinct_repos: 8
-    pushes_per_repo: 1.7500
+    distinct_repos: 7
+    pushes_per_repo: 2.0000
     active_days: 6
     repos_not_owned: 3
     not_owned_basenames: 1
@@ -197,6 +197,6 @@ repos:
 
 # stefanoamorelli
 
-14 pushes across 8 repositories on 6 active days in the last 90 days of public GitHub push activity.
+14 pushes across 7 repositories on 6 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/stefanoamorelli

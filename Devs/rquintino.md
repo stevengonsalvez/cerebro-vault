@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-03T06:07:13.763334+00:00"
+generated_at: "2026-10-04T06:07:52.073869+00:00"
 provenance:
   - "01cd6a498d377caf"
   - "03604cccd7e9402d"
@@ -64,7 +64,7 @@ provenance:
   - "f9a1870648a6375a"
   - "fe9e50bf2d5b21fe"
   - "ff1ca072bf39e471"
-pushes_per_week: [8, 14, 3, 2, 1, 27, 2, 0, 0, 0, 5, 0, 1]
+pushes_per_week: [7, 11, 3, 2, 2, 27, 1, 0, 0, 0, 5, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -81,16 +81,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 63
+    pushes: 59
     distinct_repos: 1
-    active_days: 22
+    active_days: 21
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.8636
-  repo_per_active_day: 0.0455
+  push_per_day: 2.8095
+  repo_per_active_day: 0.0476
   not_owned_ratio: 1.0000
   basename_concentration: 1.0000
   shapes: []
@@ -117,16 +117,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 63
+    pushes: 59
     distinct_repos: 1
-    pushes_per_repo: 63.0000
-    active_days: 22
+    pushes_per_repo: 59.0000
+    active_days: 21
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 53 vault signal(s) — pass"
-  - "activity: 22 active days in 90d — pass"
+  - "activity: 21 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "claude-code-xtras"
@@ -179,6 +179,6 @@ repos:
 
 # rquintino
 
-63 pushes across 1 repository on 22 active days in the last 90 days of public GitHub push activity.
+59 pushes across 1 repository on 21 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/rquintino

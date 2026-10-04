@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-03T06:07:13.763334+00:00"
+generated_at: "2026-10-04T06:07:52.073869+00:00"
 provenance:
   - "fae7e9e22c64821d"
-pushes_per_week: [76, 58, 45, 31, 9, 12, 4, 6, 7, 14, 20, 47, 31]
+pushes_per_week: [70, 55, 46, 32, 7, 14, 2, 6, 15, 11, 19, 49, 29]
 windows:
   "7d":
-    pushes: 37
+    pushes: 30
     distinct_repos: 1
     active_days: 7
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 119
+    pushes: 123
     distinct_repos: 1
-    active_days: 24
+    active_days: 25
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 360
+    pushes: 355
     distinct_repos: 2
     active_days: 65
     repos_not_owned: 2
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 5.5385
+  push_per_day: 5.4615
   repo_per_active_day: 0.0308
   not_owned_ratio: 1.0000
   basename_concentration: 1.0000
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 37
+    pushes: 30
     distinct_repos: 1
-    pushes_per_repo: 37.0000
+    pushes_per_repo: 30.0000
     active_days: 7
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 119
+    pushes: 123
     distinct_repos: 1
-    pushes_per_repo: 119.0000
-    active_days: 24
+    pushes_per_repo: 123.0000
+    active_days: 25
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 360
+    pushes: 355
     distinct_repos: 2
-    pushes_per_repo: 180.0000
+    pushes_per_repo: 177.5000
     active_days: 65
     repos_not_owned: 2
     not_owned_basenames: 1
@@ -132,6 +132,6 @@ repos:
 
 # benjaminshafii
 
-360 pushes across 2 repositories on 65 active days in the last 90 days of public GitHub push activity.
+355 pushes across 2 repositories on 65 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/benjaminshafii

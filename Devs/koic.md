@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-03T06:07:13.763334+00:00"
+generated_at: "2026-10-04T06:07:52.073869+00:00"
 provenance:
   - "48dbbdd8fd0d3029"
-pushes_per_week: [10, 14, 5, 4, 3, 7, 4, 1, 0, 1, 3, 5, 15]
+pushes_per_week: [7, 16, 3, 4, 3, 8, 3, 1, 0, 1, 5, 6, 12]
 windows:
   "7d":
     pushes: 15
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 72
-    distinct_repos: 17
-    active_days: 40
-    repos_not_owned: 10
-    not_owned_basenames: 10
+    pushes: 69
+    distinct_repos: 16
+    active_days: 38
+    repos_not_owned: 9
+    not_owned_basenames: 9
     not_owned_owners: 4
 automation:
   state: "clear"
-  push_per_day: 1.8000
-  repo_per_active_day: 0.4250
-  not_owned_ratio: 0.5882
-  basename_concentration: 0.1176
+  push_per_day: 1.8158
+  repo_per_active_day: 0.4211
+  not_owned_ratio: 0.5625
+  basename_concentration: 0.1250
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 72
-    distinct_repos: 17
-    pushes_per_repo: 4.2353
-    active_days: 40
-    repos_not_owned: 10
-    not_owned_basenames: 10
+    pushes: 69
+    distinct_repos: 16
+    pushes_per_repo: 4.3125
+    active_days: 38
+    repos_not_owned: 9
+    not_owned_basenames: 9
     not_owned_owners: 4
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 40 active days in 90d — pass"
+  - "activity: 38 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "minifyrb"
@@ -141,6 +141,6 @@ repos:
 
 # koic
 
-72 pushes across 17 repositories on 40 active days in the last 90 days of public GitHub push activity.
+69 pushes across 16 repositories on 38 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/koic

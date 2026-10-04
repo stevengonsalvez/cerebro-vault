@@ -9,39 +9,39 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-03T06:07:13.763334+00:00"
+generated_at: "2026-10-04T06:07:52.073869+00:00"
 provenance:
   - "97c4e9cb8b163ddb"
   - "c7515e0fa4368a55"
   - "d3abe74726b22711"
   - "e7c647c4d0689526"
-pushes_per_week: [0, 4, 1, 4, 15, 4, 1, 0, 0, 10, 43, 33, 34]
+pushes_per_week: [0, 5, 1, 8, 10, 4, 1, 0, 0, 16, 47, 31, 27]
 windows:
   "7d":
-    pushes: 39
-    distinct_repos: 23
+    pushes: 28
+    distinct_repos: 19
     active_days: 6
-    repos_not_owned: 13
-    not_owned_basenames: 13
+    repos_not_owned: 10
+    not_owned_basenames: 10
     not_owned_owners: 1
   "30d":
-    pushes: 120
+    pushes: 121
     distinct_repos: 44
-    active_days: 19
+    active_days: 20
     repos_not_owned: 32
     not_owned_basenames: 32
     not_owned_owners: 1
   "90d":
-    pushes: 149
+    pushes: 150
     distinct_repos: 50
-    active_days: 34
+    active_days: 35
     repos_not_owned: 37
     not_owned_basenames: 37
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 4.3824
-  repo_per_active_day: 1.4706
+  push_per_day: 4.2857
+  repo_per_active_day: 1.4286
   not_owned_ratio: 0.7400
   basename_concentration: 0.0400
   shapes: []
@@ -52,32 +52,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 39
-    distinct_repos: 23
-    pushes_per_repo: 1.6957
+    pushes: 28
+    distinct_repos: 19
+    pushes_per_repo: 1.4737
     active_days: 6
-    repos_not_owned: 13
-    not_owned_basenames: 13
+    repos_not_owned: 10
+    not_owned_basenames: 10
     not_owned_owners: 1
   "30d":
-    pushes: 120
+    pushes: 121
     distinct_repos: 44
-    pushes_per_repo: 2.7273
-    active_days: 19
+    pushes_per_repo: 2.7500
+    active_days: 20
     repos_not_owned: 32
     not_owned_basenames: 32
     not_owned_owners: 1
   "90d":
-    pushes: 149
+    pushes: 150
     distinct_repos: 50
-    pushes_per_repo: 2.9800
-    active_days: 34
+    pushes_per_repo: 3.0000
+    active_days: 35
     repos_not_owned: 37
     not_owned_basenames: 37
     not_owned_owners: 1
 reasons:
   - "provenance: 4 vault signal(s) — pass"
-  - "activity: 34 active days in 90d — pass"
+  - "activity: 35 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "roli-lpci"
@@ -221,6 +221,6 @@ repos:
 
 # roli-lpci
 
-149 pushes across 50 repositories on 34 active days in the last 90 days of public GitHub push activity.
+150 pushes across 50 repositories on 35 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/roli-lpci

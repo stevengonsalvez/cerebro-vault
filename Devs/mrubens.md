@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-03T06:07:13.763334+00:00"
+generated_at: "2026-10-04T06:07:52.073869+00:00"
 provenance:
   - "533d51d9d3dea76f"
-pushes_per_week: [0, 81, 27, 19, 11, 31, 5, 14, 1, 2, 22, 15, 34]
+pushes_per_week: [1, 90, 20, 21, 6, 33, 4, 13, 1, 3, 22, 14, 74]
 windows:
   "7d":
-    pushes: 34
+    pushes: 74
     distinct_repos: 2
-    active_days: 6
+    active_days: 7
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 73
+    pushes: 113
     distinct_repos: 2
-    active_days: 20
+    active_days: 21
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 262
+    pushes: 302
     distinct_repos: 4
-    active_days: 59
+    active_days: 60
     repos_not_owned: 3
     not_owned_basenames: 2
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 4.4407
-  repo_per_active_day: 0.0678
+  push_per_day: 5.0333
+  repo_per_active_day: 0.0667
   not_owned_ratio: 0.7500
   basename_concentration: 0.5000
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 34
+    pushes: 74
     distinct_repos: 2
-    pushes_per_repo: 17.0000
-    active_days: 6
+    pushes_per_repo: 37.0000
+    active_days: 7
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 73
+    pushes: 113
     distinct_repos: 2
-    pushes_per_repo: 36.5000
-    active_days: 20
+    pushes_per_repo: 56.5000
+    active_days: 21
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 262
+    pushes: 302
     distinct_repos: 4
-    pushes_per_repo: 65.5000
-    active_days: 59
+    pushes_per_repo: 75.5000
+    active_days: 60
     repos_not_owned: 3
     not_owned_basenames: 2
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 59 active days in 90d — pass"
+  - "activity: 60 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "jevcraft"
@@ -97,6 +97,6 @@ repos:
 
 # mrubens
 
-262 pushes across 4 repositories on 59 active days in the last 90 days of public GitHub push activity.
+302 pushes across 4 repositories on 60 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/mrubens

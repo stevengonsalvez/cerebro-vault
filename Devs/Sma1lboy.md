@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-03T06:07:13.763334+00:00"
+generated_at: "2026-10-04T06:07:52.073869+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [64, 32, 12, 46, 17, 35, 7, 6, 2, 2, 14, 15, 37]
+pushes_per_week: [39, 31, 14, 45, 14, 41, 3, 4, 3, 2, 13, 27, 29]
 windows:
   "7d":
-    pushes: 41
+    pushes: 36
     distinct_repos: 8
     active_days: 7
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
   "30d":
-    pushes: 68
+    pushes: 72
     distinct_repos: 10
-    active_days: 18
+    active_days: 19
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
   "90d":
-    pushes: 289
-    distinct_repos: 25
+    pushes: 265
+    distinct_repos: 21
     active_days: 58
-    repos_not_owned: 7
-    not_owned_basenames: 7
+    repos_not_owned: 4
+    not_owned_basenames: 4
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 4.9828
-  repo_per_active_day: 0.4310
-  not_owned_ratio: 0.2800
-  basename_concentration: 0.0400
+  push_per_day: 4.5690
+  repo_per_active_day: 0.3621
+  not_owned_ratio: 0.1905
+  basename_concentration: 0.0476
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,28 +49,28 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 41
+    pushes: 36
     distinct_repos: 8
-    pushes_per_repo: 5.1250
+    pushes_per_repo: 4.5000
     active_days: 7
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
   "30d":
-    pushes: 68
+    pushes: 72
     distinct_repos: 10
-    pushes_per_repo: 6.8000
-    active_days: 18
+    pushes_per_repo: 7.2000
+    active_days: 19
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
   "90d":
-    pushes: 289
-    distinct_repos: 25
-    pushes_per_repo: 11.5600
+    pushes: 265
+    distinct_repos: 21
+    pushes_per_repo: 12.6190
     active_days: 58
-    repos_not_owned: 7
-    not_owned_basenames: 7
+    repos_not_owned: 4
+    not_owned_basenames: 4
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
@@ -149,6 +149,6 @@ repos:
 
 # Sma1lboy
 
-289 pushes across 25 repositories on 58 active days in the last 90 days of public GitHub push activity.
+265 pushes across 21 repositories on 58 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Sma1lboy

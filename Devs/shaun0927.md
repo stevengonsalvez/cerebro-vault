@@ -9,13 +9,13 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-03T06:07:13.763334+00:00"
+generated_at: "2026-10-04T06:07:52.073869+00:00"
 provenance:
   - "dae9f02535f7c22f"
-pushes_per_week: [5, 64, 120, 33, 3, 2, 6, 17, 1, 2, 0, 8, 3]
+pushes_per_week: [5, 92, 111, 14, 2, 3, 19, 3, 1, 2, 0, 10, 1]
 windows:
   "7d":
-    pushes: 3
+    pushes: 2
     distinct_repos: 1
     active_days: 2
     repos_not_owned: 0
@@ -29,7 +29,7 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 264
+    pushes: 263
     distinct_repos: 110
     active_days: 35
     repos_not_owned: 100
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 6
 automation:
   state: "clear"
-  push_per_day: 7.5429
+  push_per_day: 7.5143
   repo_per_active_day: 3.1429
   not_owned_ratio: 0.9091
   basename_concentration: 0.0545
@@ -49,9 +49,9 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 3
+    pushes: 2
     distinct_repos: 1
-    pushes_per_repo: 3.0000
+    pushes_per_repo: 2.0000
     active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -65,9 +65,9 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 264
+    pushes: 263
     distinct_repos: 110
-    pushes_per_repo: 2.4000
+    pushes_per_repo: 2.3909
     active_days: 35
     repos_not_owned: 100
     not_owned_basenames: 96
@@ -129,6 +129,6 @@ repos:
 
 # shaun0927
 
-264 pushes across 110 repositories on 35 active days in the last 90 days of public GitHub push activity.
+263 pushes across 110 repositories on 35 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/shaun0927

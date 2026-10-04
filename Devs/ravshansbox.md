@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-02T06:06:48.484172+00:00"
+generated_at: "2026-10-04T06:07:52.073869+00:00"
 provenance:
   - "01cd6a498d377caf"
   - "03604cccd7e9402d"
@@ -64,35 +64,35 @@ provenance:
   - "f9a1870648a6375a"
   - "fe9e50bf2d5b21fe"
   - "ff1ca072bf39e471"
-pushes_per_week: [2, 2, 0, 10, 0, 0, 3, 3, 0, 0, 0, 0, 2]
+pushes_per_week: [2, 2, 0, 10, 0, 0, 3, 3, 0, 0, 0, 2, 6]
 windows:
   "7d":
-    pushes: 2
-    distinct_repos: 1
-    active_days: 1
+    pushes: 8
+    distinct_repos: 7
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 2
-    distinct_repos: 1
-    active_days: 1
+    pushes: 8
+    distinct_repos: 7
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 22
-    distinct_repos: 14
-    active_days: 8
+    pushes: 28
+    distinct_repos: 16
+    active_days: 9
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.7500
-  repo_per_active_day: 1.7500
+  push_per_day: 3.1111
+  repo_per_active_day: 1.7778
   not_owned_ratio: 0.0000
-  basename_concentration: 0.0714
+  basename_concentration: 0.0625
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -101,32 +101,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
-    distinct_repos: 1
-    pushes_per_repo: 2.0000
-    active_days: 1
+    pushes: 8
+    distinct_repos: 7
+    pushes_per_repo: 1.1429
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 2
-    distinct_repos: 1
-    pushes_per_repo: 2.0000
-    active_days: 1
+    pushes: 8
+    distinct_repos: 7
+    pushes_per_repo: 1.1429
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 22
-    distinct_repos: 14
-    pushes_per_repo: 1.5714
-    active_days: 8
+    pushes: 28
+    distinct_repos: 16
+    pushes_per_repo: 1.7500
+    active_days: 9
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 53 vault signal(s) — pass"
-  - "activity: 8 active days in 90d — pass"
+  - "activity: 9 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "pi-anthropic-sps"
@@ -183,6 +183,6 @@ repos:
 
 # ravshansbox
 
-22 pushes across 14 repositories on 8 active days in the last 90 days of public GitHub push activity.
+28 pushes across 16 repositories on 9 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ravshansbox

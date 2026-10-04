@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-03T06:07:13.763334+00:00"
+generated_at: "2026-10-04T06:07:52.073869+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [0, 0, 0, 0, 0, 22, 6, 1, 0, 0, 3, 2, 11]
+pushes_per_week: [0, 0, 0, 0, 1, 23, 5, 0, 0, 1, 2, 3, 12]
 windows:
   "7d":
-    pushes: 11
-    distinct_repos: 4
-    active_days: 5
+    pushes: 13
+    distinct_repos: 6
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 16
-    distinct_repos: 5
-    active_days: 9
+    pushes: 18
+    distinct_repos: 7
+    active_days: 10
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 45
-    distinct_repos: 12
-    active_days: 19
+    pushes: 47
+    distinct_repos: 14
+    active_days: 20
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.3684
-  repo_per_active_day: 0.6316
+  push_per_day: 2.3500
+  repo_per_active_day: 0.7000
   not_owned_ratio: 0.0000
-  basename_concentration: 0.0833
+  basename_concentration: 0.0714
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 11
-    distinct_repos: 4
-    pushes_per_repo: 2.7500
-    active_days: 5
+    pushes: 13
+    distinct_repos: 6
+    pushes_per_repo: 2.1667
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 16
-    distinct_repos: 5
-    pushes_per_repo: 3.2000
-    active_days: 9
+    pushes: 18
+    distinct_repos: 7
+    pushes_per_repo: 2.5714
+    active_days: 10
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 45
-    distinct_repos: 12
-    pushes_per_repo: 3.7500
-    active_days: 19
+    pushes: 47
+    distinct_repos: 14
+    pushes_per_repo: 3.3571
+    active_days: 20
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 19 active days in 90d — pass"
+  - "activity: 20 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "dot-gateway"
@@ -129,6 +129,6 @@ repos:
 
 # dbc-hbin
 
-45 pushes across 12 repositories on 19 active days in the last 90 days of public GitHub push activity.
+47 pushes across 14 repositories on 20 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/dbc-hbin

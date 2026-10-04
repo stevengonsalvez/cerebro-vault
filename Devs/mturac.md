@@ -10,16 +10,16 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-03T06:07:13.763334+00:00"
+generated_at: "2026-10-04T06:07:52.073869+00:00"
 provenance:
   - "379642deb53f3714"
   - "edb3a626875732de"
-pushes_per_week: [21, 6, 8, 1, 0, 0, 0, 10, 3, 0, 0, 3, 0]
+pushes_per_week: [21, 7, 6, 1, 0, 0, 5, 8, 0, 0, 0, 3, 0]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -31,18 +31,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 52
-    distinct_repos: 27
-    active_days: 21
+    pushes: 51
+    distinct_repos: 26
+    active_days: 20
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.4762
-  repo_per_active_day: 1.2857
+  push_per_day: 2.5500
+  repo_per_active_day: 1.3000
   not_owned_ratio: 0.0000
-  basename_concentration: 0.0370
+  basename_concentration: 0.0385
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -51,10 +51,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -67,16 +67,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 52
-    distinct_repos: 27
-    pushes_per_repo: 1.9259
-    active_days: 21
+    pushes: 51
+    distinct_repos: 26
+    pushes_per_repo: 1.9615
+    active_days: 20
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 21 active days in 90d — pass"
+  - "activity: 20 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "awesome-jev-alternatives"
@@ -187,6 +187,6 @@ repos:
 
 # mturac
 
-52 pushes across 27 repositories on 21 active days in the last 90 days of public GitHub push activity.
+51 pushes across 26 repositories on 20 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/mturac

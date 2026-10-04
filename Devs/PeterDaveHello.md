@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-03T06:07:13.763334+00:00"
+generated_at: "2026-10-04T06:07:52.073869+00:00"
 provenance:
   - "533d51d9d3dea76f"
-pushes_per_week: [35, 32, 36, 19, 30, 44, 10, 8, 0, 9, 13, 13, 21]
+pushes_per_week: [24, 38, 31, 16, 38, 41, 6, 6, 3, 11, 10, 26, 7]
 windows:
   "7d":
     pushes: 22
@@ -22,25 +22,25 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 56
+    pushes: 57
     distinct_repos: 13
-    active_days: 19
+    active_days: 20
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 5
   "90d":
-    pushes: 270
-    distinct_repos: 27
+    pushes: 257
+    distinct_repos: 26
     active_days: 69
-    repos_not_owned: 12
+    repos_not_owned: 11
     not_owned_basenames: 11
-    not_owned_owners: 9
+    not_owned_owners: 8
 automation:
   state: "clear"
-  push_per_day: 3.9130
-  repo_per_active_day: 0.3913
-  not_owned_ratio: 0.4444
-  basename_concentration: 0.0741
+  push_per_day: 3.7246
+  repo_per_active_day: 0.3768
+  not_owned_ratio: 0.4231
+  basename_concentration: 0.0769
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -57,21 +57,21 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 56
+    pushes: 57
     distinct_repos: 13
-    pushes_per_repo: 4.3077
-    active_days: 19
+    pushes_per_repo: 4.3846
+    active_days: 20
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 5
   "90d":
-    pushes: 270
-    distinct_repos: 27
-    pushes_per_repo: 10.0000
+    pushes: 257
+    distinct_repos: 26
+    pushes_per_repo: 9.8846
     active_days: 69
-    repos_not_owned: 12
+    repos_not_owned: 11
     not_owned_basenames: 11
-    not_owned_owners: 9
+    not_owned_owners: 8
 reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 69 active days in 90d — pass"
@@ -178,6 +178,6 @@ repos:
 
 # PeterDaveHello
 
-270 pushes across 27 repositories on 69 active days in the last 90 days of public GitHub push activity.
+257 pushes across 26 repositories on 69 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/PeterDaveHello

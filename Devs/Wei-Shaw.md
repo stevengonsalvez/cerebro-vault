@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-03T06:07:13.763334+00:00"
+generated_at: "2026-10-04T06:07:52.073869+00:00"
 provenance:
   - "91526b8597b5b63d"
-pushes_per_week: [32, 47, 26, 9, 6, 14, 7, 5, 2, 6, 5, 11, 12]
+pushes_per_week: [28, 48, 25, 9, 7, 13, 7, 5, 2, 6, 7, 9, 12]
 windows:
   "7d":
     pushes: 12
@@ -29,7 +29,7 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 182
+    pushes: 178
     distinct_repos: 16
     active_days: 47
     repos_not_owned: 12
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 12
 automation:
   state: "clear"
-  push_per_day: 3.8723
+  push_per_day: 3.7872
   repo_per_active_day: 0.3404
   not_owned_ratio: 0.7500
   basename_concentration: 0.7500
@@ -81,9 +81,9 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 182
+    pushes: 178
     distinct_repos: 16
-    pushes_per_repo: 11.3750
+    pushes_per_repo: 11.1250
     active_days: 47
     repos_not_owned: 12
     not_owned_basenames: 2
@@ -165,6 +165,6 @@ repos:
 
 # Wei-Shaw
 
-182 pushes across 16 repositories on 47 active days in the last 90 days of public GitHub push activity.
+178 pushes across 16 repositories on 47 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Wei-Shaw

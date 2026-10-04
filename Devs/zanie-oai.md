@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-03T06:07:13.763334+00:00"
+generated_at: "2026-10-04T06:07:52.073869+00:00"
 provenance:
   - "0388a4f55f4206c8"
   - "0577669e18ed3998"
@@ -30,7 +30,7 @@ provenance:
   - "c6b4a874521ceb02"
   - "cf565721454d59f8"
   - "e26852201e6f38fc"
-pushes_per_week: [18, 37, 24, 19, 6, 20, 4, 3, 0, 0, 0, 0, 0]
+pushes_per_week: [17, 38, 22, 19, 6, 20, 4, 3, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -47,16 +47,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 131
+    pushes: 129
     distinct_repos: 9
-    active_days: 41
+    active_days: 40
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 3.1951
-  repo_per_active_day: 0.2195
+  push_per_day: 3.2250
+  repo_per_active_day: 0.2250
   not_owned_ratio: 0.0000
   basename_concentration: 0.1111
   shapes: []
@@ -83,22 +83,22 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 131
+    pushes: 129
     distinct_repos: 9
-    pushes_per_repo: 14.5556
-    active_days: 41
+    pushes_per_repo: 14.3333
+    active_days: 40
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 19 vault signal(s) — pass"
-  - "activity: 41 active days in 90d — pass"
+  - "activity: 40 active days in 90d — pass"
   - "automation: clear — pass"
 repos: []
 ---
 
 # zanie-oai
 
-131 pushes across 9 repositories on 41 active days in the last 90 days of public GitHub push activity.
+129 pushes across 9 repositories on 40 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/zanie-oai

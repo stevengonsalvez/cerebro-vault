@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-03T06:07:13.763334+00:00"
+generated_at: "2026-10-04T06:07:52.073869+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [112, 63, 86, 134, 4, 31, 6, 2, 0, 6, 25, 1, 3]
+pushes_per_week: [85, 88, 52, 133, 4, 36, 1, 2, 3, 3, 25, 2, 3]
 windows:
   "7d":
-    pushes: 3
+    pushes: 4
     distinct_repos: 1
-    active_days: 2
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 35
+    pushes: 36
     distinct_repos: 4
-    active_days: 10
+    active_days: 11
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 473
-    distinct_repos: 15
+    pushes: 437
+    distinct_repos: 14
     active_days: 47
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 10.0638
-  repo_per_active_day: 0.3191
+  push_per_day: 9.2979
+  repo_per_active_day: 0.2979
   not_owned_ratio: 0.0000
-  basename_concentration: 0.1333
+  basename_concentration: 0.1429
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 3
+    pushes: 4
     distinct_repos: 1
-    pushes_per_repo: 3.0000
-    active_days: 2
+    pushes_per_repo: 4.0000
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 35
+    pushes: 36
     distinct_repos: 4
-    pushes_per_repo: 8.7500
-    active_days: 10
+    pushes_per_repo: 9.0000
+    active_days: 11
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 473
-    distinct_repos: 15
-    pushes_per_repo: 31.5333
+    pushes: 437
+    distinct_repos: 14
+    pushes_per_repo: 31.2143
     active_days: 47
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -152,6 +152,6 @@ repos:
 
 # Mathews-Tom
 
-473 pushes across 15 repositories on 47 active days in the last 90 days of public GitHub push activity.
+437 pushes across 14 repositories on 47 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Mathews-Tom

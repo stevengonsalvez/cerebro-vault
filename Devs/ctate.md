@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-03T06:07:13.763334+00:00"
+generated_at: "2026-10-04T06:07:52.073869+00:00"
 provenance:
   - "0dadaefdea9260e5"
-pushes_per_week: [12, 24, 33, 31, 21, 30, 11, 3, 1, 2, 7, 33, 28]
+pushes_per_week: [12, 29, 35, 35, 11, 32, 9, 2, 1, 3, 7, 36, 29]
 windows:
   "7d":
-    pushes: 36
+    pushes: 30
     distinct_repos: 4
     active_days: 7
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 1
   "30d":
-    pushes: 70
+    pushes: 75
     distinct_repos: 8
     active_days: 19
     repos_not_owned: 8
     not_owned_basenames: 8
     not_owned_owners: 1
   "90d":
-    pushes: 236
+    pushes: 241
     distinct_repos: 11
     active_days: 61
     repos_not_owned: 11
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 3.8689
+  push_per_day: 3.9508
   repo_per_active_day: 0.1803
   not_owned_ratio: 1.0000
   basename_concentration: 0.0909
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 36
+    pushes: 30
     distinct_repos: 4
-    pushes_per_repo: 9.0000
+    pushes_per_repo: 7.5000
     active_days: 7
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 1
   "30d":
-    pushes: 70
+    pushes: 75
     distinct_repos: 8
-    pushes_per_repo: 8.7500
+    pushes_per_repo: 9.3750
     active_days: 19
     repos_not_owned: 8
     not_owned_basenames: 8
     not_owned_owners: 1
   "90d":
-    pushes: 236
+    pushes: 241
     distinct_repos: 11
-    pushes_per_repo: 21.4545
+    pushes_per_repo: 21.9091
     active_days: 61
     repos_not_owned: 11
     not_owned_basenames: 11
@@ -138,6 +138,6 @@ repos:
 
 # ctate
 
-236 pushes across 11 repositories on 61 active days in the last 90 days of public GitHub push activity.
+241 pushes across 11 repositories on 61 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ctate

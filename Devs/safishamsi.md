@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-03T06:07:13.763334+00:00"
+generated_at: "2026-10-04T06:07:52.073869+00:00"
 provenance:
   - "c290a2acf859c75b"
-pushes_per_week: [16, 2, 4, 1, 0, 0, 0, 0, 0, 0, 0, 3, 1]
+pushes_per_week: [11, 2, 4, 1, 0, 0, 0, 0, 0, 0, 0, 3, 1]
 windows:
   "7d":
-    pushes: 2
+    pushes: 1
     distinct_repos: 1
-    active_days: 2
+    active_days: 1
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 27
+    pushes: 22
     distinct_repos: 1
-    active_days: 14
+    active_days: 13
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.9286
-  repo_per_active_day: 0.0714
+  push_per_day: 1.6923
+  repo_per_active_day: 0.0769
   not_owned_ratio: 1.0000
   basename_concentration: 1.0000
   shapes: []
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
+    pushes: 1
     distinct_repos: 1
-    pushes_per_repo: 2.0000
-    active_days: 2
+    pushes_per_repo: 1.0000
+    active_days: 1
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 27
+    pushes: 22
     distinct_repos: 1
-    pushes_per_repo: 27.0000
-    active_days: 14
+    pushes_per_repo: 22.0000
+    active_days: 13
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 14 active days in 90d — pass"
+  - "activity: 13 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "FirstSight"
@@ -139,6 +139,6 @@ repos:
 
 # safishamsi
 
-27 pushes across 1 repository on 14 active days in the last 90 days of public GitHub push activity.
+22 pushes across 1 repository on 13 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/safishamsi

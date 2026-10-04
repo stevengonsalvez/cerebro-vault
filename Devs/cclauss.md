@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-03T06:07:13.763334+00:00"
+generated_at: "2026-10-04T06:07:52.073869+00:00"
 provenance:
   - "c1af6b58492f9bf4"
-pushes_per_week: [82, 22, 11, 20, 22, 9, 5, 2, 0, 20, 34, 37, 4]
+pushes_per_week: [65, 28, 5, 29, 13, 10, 5, 1, 2, 33, 24, 34, 3]
 windows:
   "7d":
-    pushes: 10
-    distinct_repos: 7
+    pushes: 5
+    distinct_repos: 5
     active_days: 4
-    repos_not_owned: 3
-    not_owned_basenames: 3
-    not_owned_owners: 3
+    repos_not_owned: 2
+    not_owned_basenames: 2
+    not_owned_owners: 2
   "30d":
-    pushes: 95
-    distinct_repos: 55
-    active_days: 21
+    pushes: 96
+    distinct_repos: 56
+    active_days: 22
     repos_not_owned: 48
     not_owned_basenames: 9
     not_owned_owners: 47
   "90d":
-    pushes: 268
+    pushes: 252
     distinct_repos: 78
     active_days: 54
     repos_not_owned: 54
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 53
 automation:
   state: "clear"
-  push_per_day: 4.9630
+  push_per_day: 4.6667
   repo_per_active_day: 1.4444
   not_owned_ratio: 0.6923
   basename_concentration: 0.5385
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 10
-    distinct_repos: 7
-    pushes_per_repo: 1.4286
+    pushes: 5
+    distinct_repos: 5
+    pushes_per_repo: 1.0000
     active_days: 4
-    repos_not_owned: 3
-    not_owned_basenames: 3
-    not_owned_owners: 3
+    repos_not_owned: 2
+    not_owned_basenames: 2
+    not_owned_owners: 2
   "30d":
-    pushes: 95
-    distinct_repos: 55
-    pushes_per_repo: 1.7273
-    active_days: 21
+    pushes: 96
+    distinct_repos: 56
+    pushes_per_repo: 1.7143
+    active_days: 22
     repos_not_owned: 48
     not_owned_basenames: 9
     not_owned_owners: 47
   "90d":
-    pushes: 268
+    pushes: 252
     distinct_repos: 78
-    pushes_per_repo: 3.4359
+    pushes_per_repo: 3.2308
     active_days: 54
     repos_not_owned: 54
     not_owned_basenames: 14
@@ -135,6 +135,6 @@ repos:
 
 # cclauss
 
-268 pushes across 78 repositories on 54 active days in the last 90 days of public GitHub push activity.
+252 pushes across 78 repositories on 54 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/cclauss

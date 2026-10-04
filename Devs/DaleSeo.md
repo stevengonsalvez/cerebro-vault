@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-03T06:07:13.763334+00:00"
+generated_at: "2026-10-04T06:07:52.073869+00:00"
 provenance:
   - "0b22ca37fd3884c9"
-pushes_per_week: [16, 17, 23, 8, 6, 1, 2, 0, 0, 0, 7, 16, 6]
+pushes_per_week: [12, 16, 23, 8, 6, 1, 2, 0, 0, 0, 8, 16, 6]
 windows:
   "7d":
     pushes: 7
@@ -22,25 +22,25 @@ windows:
     not_owned_basenames: 4
     not_owned_owners: 3
   "30d":
-    pushes: 29
-    distinct_repos: 4
-    active_days: 10
-    repos_not_owned: 4
-    not_owned_basenames: 4
+    pushes: 30
+    distinct_repos: 5
+    active_days: 11
+    repos_not_owned: 5
+    not_owned_basenames: 5
     not_owned_owners: 3
   "90d":
-    pushes: 102
-    distinct_repos: 16
+    pushes: 98
+    distinct_repos: 17
     active_days: 40
-    repos_not_owned: 11
-    not_owned_basenames: 10
+    repos_not_owned: 12
+    not_owned_basenames: 11
     not_owned_owners: 4
 automation:
   state: "clear"
-  push_per_day: 2.5500
-  repo_per_active_day: 0.4000
-  not_owned_ratio: 0.6875
-  basename_concentration: 0.1250
+  push_per_day: 2.4500
+  repo_per_active_day: 0.4250
+  not_owned_ratio: 0.7059
+  basename_concentration: 0.1176
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -57,20 +57,20 @@ facets:
     not_owned_basenames: 4
     not_owned_owners: 3
   "30d":
-    pushes: 29
-    distinct_repos: 4
-    pushes_per_repo: 7.2500
-    active_days: 10
-    repos_not_owned: 4
-    not_owned_basenames: 4
+    pushes: 30
+    distinct_repos: 5
+    pushes_per_repo: 6.0000
+    active_days: 11
+    repos_not_owned: 5
+    not_owned_basenames: 5
     not_owned_owners: 3
   "90d":
-    pushes: 102
-    distinct_repos: 16
-    pushes_per_repo: 6.3750
+    pushes: 98
+    distinct_repos: 17
+    pushes_per_repo: 5.7647
     active_days: 40
-    repos_not_owned: 11
-    not_owned_basenames: 10
+    repos_not_owned: 12
+    not_owned_basenames: 11
     not_owned_owners: 4
 reasons:
   - "provenance: 1 vault signal(s) — pass"
@@ -132,6 +132,6 @@ repos:
 
 # DaleSeo
 
-102 pushes across 16 repositories on 40 active days in the last 90 days of public GitHub push activity.
+98 pushes across 17 repositories on 40 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/DaleSeo

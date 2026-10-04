@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-03T06:07:13.763334+00:00"
+generated_at: "2026-10-04T06:07:52.073869+00:00"
 provenance:
   - "5fce3c914fe93bcc"
-pushes_per_week: [134, 44, 50, 62, 39, 101, 33, 9, 7, 20, 33, 52, 31]
+pushes_per_week: [95, 41, 55, 66, 34, 105, 25, 12, 7, 23, 40, 46, 29]
 windows:
   "7d":
-    pushes: 34
+    pushes: 36
     distinct_repos: 2
     active_days: 7
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 138
+    pushes: 143
     distinct_repos: 4
-    active_days: 28
+    active_days: 29
     repos_not_owned: 3
     not_owned_basenames: 1
     not_owned_owners: 3
   "90d":
-    pushes: 615
+    pushes: 578
     distinct_repos: 18
     active_days: 78
     repos_not_owned: 17
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 17
 automation:
   state: "clear"
-  push_per_day: 7.8846
+  push_per_day: 7.4103
   repo_per_active_day: 0.2308
   not_owned_ratio: 0.9444
   basename_concentration: 1.0000
@@ -65,25 +65,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 34
+    pushes: 36
     distinct_repos: 2
-    pushes_per_repo: 17.0000
+    pushes_per_repo: 18.0000
     active_days: 7
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 138
+    pushes: 143
     distinct_repos: 4
-    pushes_per_repo: 34.5000
-    active_days: 28
+    pushes_per_repo: 35.7500
+    active_days: 29
     repos_not_owned: 3
     not_owned_basenames: 1
     not_owned_owners: 3
   "90d":
-    pushes: 615
+    pushes: 578
     distinct_repos: 18
-    pushes_per_repo: 34.1667
+    pushes_per_repo: 32.1111
     active_days: 78
     repos_not_owned: 17
     not_owned_basenames: 1
@@ -141,6 +141,6 @@ repos:
 
 # koala73
 
-615 pushes across 18 repositories on 78 active days in the last 90 days of public GitHub push activity.
+578 pushes across 18 repositories on 78 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/koala73

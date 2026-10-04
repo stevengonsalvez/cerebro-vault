@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-03T06:07:13.763334+00:00"
+generated_at: "2026-10-04T06:07:52.073869+00:00"
 provenance:
   - "c489e6fb5febf2ab"
-pushes_per_week: [10, 3, 7, 9, 2, 20, 3, 0, 0, 1, 4, 4, 7]
+pushes_per_week: [9, 3, 7, 9, 2, 21, 2, 0, 0, 1, 4, 11, 5]
 windows:
   "7d":
-    pushes: 8
-    distinct_repos: 2
+    pushes: 12
+    distinct_repos: 4
     active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 16
-    distinct_repos: 4
-    active_days: 8
+    pushes: 21
+    distinct_repos: 5
+    active_days: 9
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 70
-    distinct_repos: 11
+    pushes: 74
+    distinct_repos: 12
     active_days: 34
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 2.0588
-  repo_per_active_day: 0.3235
-  not_owned_ratio: 0.1818
-  basename_concentration: 0.1818
+  push_per_day: 2.1765
+  repo_per_active_day: 0.3529
+  not_owned_ratio: 0.1667
+  basename_concentration: 0.1667
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 8
-    distinct_repos: 2
-    pushes_per_repo: 4.0000
+    pushes: 12
+    distinct_repos: 4
+    pushes_per_repo: 3.0000
     active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 16
-    distinct_repos: 4
-    pushes_per_repo: 4.0000
-    active_days: 8
+    pushes: 21
+    distinct_repos: 5
+    pushes_per_repo: 4.2000
+    active_days: 9
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 70
-    distinct_repos: 11
-    pushes_per_repo: 6.3636
+    pushes: 74
+    distinct_repos: 12
+    pushes_per_repo: 6.1667
     active_days: 34
     repos_not_owned: 2
     not_owned_basenames: 2
@@ -140,6 +140,6 @@ repos:
 
 # wu21-web
 
-70 pushes across 11 repositories on 34 active days in the last 90 days of public GitHub push activity.
+74 pushes across 12 repositories on 34 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/wu21-web

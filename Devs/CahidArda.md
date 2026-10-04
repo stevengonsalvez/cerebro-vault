@@ -9,13 +9,13 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-03T06:07:13.763334+00:00"
+generated_at: "2026-10-04T06:07:52.073869+00:00"
 provenance:
   - "dae9f02535f7c22f"
-pushes_per_week: [25, 5, 7, 3, 1, 0, 2, 2, 0, 7, 7, 10, 15]
+pushes_per_week: [20, 5, 7, 3, 1, 0, 2, 2, 0, 7, 7, 13, 12]
 windows:
   "7d":
-    pushes: 15
+    pushes: 14
     distinct_repos: 7
     active_days: 4
     repos_not_owned: 5
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 10
     not_owned_owners: 3
   "90d":
-    pushes: 84
+    pushes: 79
     distinct_repos: 21
-    active_days: 32
+    active_days: 31
     repos_not_owned: 18
     not_owned_basenames: 16
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 2.6250
-  repo_per_active_day: 0.6562
+  push_per_day: 2.5484
+  repo_per_active_day: 0.6774
   not_owned_ratio: 0.8571
   basename_concentration: 0.1429
   shapes: []
@@ -49,9 +49,9 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 15
+    pushes: 14
     distinct_repos: 7
-    pushes_per_repo: 2.1429
+    pushes_per_repo: 2.0000
     active_days: 4
     repos_not_owned: 5
     not_owned_basenames: 5
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 10
     not_owned_owners: 3
   "90d":
-    pushes: 84
+    pushes: 79
     distinct_repos: 21
-    pushes_per_repo: 4.0000
-    active_days: 32
+    pushes_per_repo: 3.7619
+    active_days: 31
     repos_not_owned: 18
     not_owned_basenames: 16
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 32 active days in 90d — pass"
+  - "activity: 31 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "cahidarda.github.io"
@@ -132,6 +132,6 @@ repos:
 
 # CahidArda
 
-84 pushes across 21 repositories on 32 active days in the last 90 days of public GitHub push activity.
+79 pushes across 21 repositories on 31 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/CahidArda

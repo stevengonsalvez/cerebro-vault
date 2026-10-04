@@ -13,32 +13,32 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-03T06:07:13.763334+00:00"
+generated_at: "2026-10-04T06:07:52.073869+00:00"
 provenance:
   - "1be978947e68d1f2"
   - "1f49d0119cedbc84"
   - "541318303a272608"
   - "dffbb846389f9a26"
   - "ef17663e884139a8"
-pushes_per_week: [3, 11, 7, 3, 2, 3, 2, 1, 0, 0, 1, 0, 2]
+pushes_per_week: [2, 12, 6, 4, 2, 3, 1, 1, 0, 0, 1, 0, 3]
 windows:
   "7d":
-    pushes: 2
-    distinct_repos: 2
-    active_days: 2
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
-  "30d":
     pushes: 3
     distinct_repos: 3
     active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
+  "30d":
+    pushes: 4
+    distinct_repos: 4
+    active_days: 4
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
     pushes: 35
-    distinct_repos: 17
+    distinct_repos: 18
     active_days: 23
     repos_not_owned: 3
     not_owned_basenames: 2
@@ -46,9 +46,9 @@ windows:
 automation:
   state: "clear"
   push_per_day: 1.5217
-  repo_per_active_day: 0.7391
-  not_owned_ratio: 0.1765
-  basename_concentration: 0.1765
+  repo_per_active_day: 0.7826
+  not_owned_ratio: 0.1667
+  basename_concentration: 0.1667
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -57,14 +57,6 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
-    distinct_repos: 2
-    pushes_per_repo: 1.0000
-    active_days: 2
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
-  "30d":
     pushes: 3
     distinct_repos: 3
     pushes_per_repo: 1.0000
@@ -72,10 +64,18 @@ facets:
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
+  "30d":
+    pushes: 4
+    distinct_repos: 4
+    pushes_per_repo: 1.0000
+    active_days: 4
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
     pushes: 35
-    distinct_repos: 17
-    pushes_per_repo: 2.0588
+    distinct_repos: 18
+    pushes_per_repo: 1.9444
     active_days: 23
     repos_not_owned: 3
     not_owned_basenames: 2
@@ -173,6 +173,6 @@ repos:
 
 # eltociear
 
-35 pushes across 17 repositories on 23 active days in the last 90 days of public GitHub push activity.
+35 pushes across 18 repositories on 23 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/eltociear

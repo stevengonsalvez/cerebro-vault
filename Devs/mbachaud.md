@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-03T06:07:13.763334+00:00"
+generated_at: "2026-10-04T06:07:52.073869+00:00"
 provenance:
   - "73468cde177ddae6"
-pushes_per_week: [16, 8, 3, 5, 5, 2, 2, 0, 0, 0, 0, 0, 2]
+pushes_per_week: [15, 8, 4, 4, 5, 2, 2, 0, 0, 0, 0, 1, 1]
 windows:
   "7d":
-    pushes: 2
+    pushes: 1
     distinct_repos: 1
-    active_days: 2
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -29,7 +29,7 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 43
+    pushes: 42
     distinct_repos: 3
     active_days: 21
     repos_not_owned: 0
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.0476
+  push_per_day: 2.0000
   repo_per_active_day: 0.1429
   not_owned_ratio: 0.0000
   basename_concentration: 0.3333
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
+    pushes: 1
     distinct_repos: 1
-    pushes_per_repo: 2.0000
-    active_days: 2
+    pushes_per_repo: 1.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -65,9 +65,9 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 43
+    pushes: 42
     distinct_repos: 3
-    pushes_per_repo: 14.3333
+    pushes_per_repo: 14.0000
     active_days: 21
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -143,6 +143,6 @@ repos:
 
 # mbachaud
 
-43 pushes across 3 repositories on 21 active days in the last 90 days of public GitHub push activity.
+42 pushes across 3 repositories on 21 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/mbachaud

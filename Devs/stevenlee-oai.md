@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-02T06:06:48.484172+00:00"
+generated_at: "2026-10-04T06:07:52.073869+00:00"
 provenance:
   - "0388a4f55f4206c8"
   - "0577669e18ed3998"
@@ -30,33 +30,33 @@ provenance:
   - "c6b4a874521ceb02"
   - "cf565721454d59f8"
   - "e26852201e6f38fc"
-pushes_per_week: [16, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 13, 13]
+pushes_per_week: [16, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 16, 11]
 windows:
   "7d":
-    pushes: 13
+    pushes: 14
     distinct_repos: 2
-    active_days: 5
+    active_days: 6
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 26
+    pushes: 27
     distinct_repos: 3
-    active_days: 8
+    active_days: 9
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 43
+    pushes: 44
     distinct_repos: 4
-    active_days: 14
+    active_days: 15
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 3.0714
-  repo_per_active_day: 0.2857
+  push_per_day: 2.9333
+  repo_per_active_day: 0.2667
   not_owned_ratio: 0.7500
   basename_concentration: 0.5000
   shapes: []
@@ -67,38 +67,38 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 13
+    pushes: 14
     distinct_repos: 2
-    pushes_per_repo: 6.5000
-    active_days: 5
+    pushes_per_repo: 7.0000
+    active_days: 6
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 26
+    pushes: 27
     distinct_repos: 3
-    pushes_per_repo: 8.6667
-    active_days: 8
+    pushes_per_repo: 9.0000
+    active_days: 9
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 43
+    pushes: 44
     distinct_repos: 4
-    pushes_per_repo: 10.7500
-    active_days: 14
+    pushes_per_repo: 11.0000
+    active_days: 15
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
 reasons:
   - "provenance: 19 vault signal(s) — pass"
-  - "activity: 14 active days in 90d — pass"
+  - "activity: 15 active days in 90d — pass"
   - "automation: clear — pass"
 repos: []
 ---
 
 # stevenlee-oai
 
-43 pushes across 4 repositories on 14 active days in the last 90 days of public GitHub push activity.
+44 pushes across 4 repositories on 15 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/stevenlee-oai

@@ -6,17 +6,15 @@ discovered_via_all:
   - "fanout"
 provenance_repos:
   - "addyosmani/agent-skills"
-  - "bytedance/deer-flow"
   - "chopratejas/headroom"
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-03T06:07:13.763334+00:00"
+generated_at: "2026-10-04T06:07:52.073869+00:00"
 provenance:
-  - "16389f32495280ea"
   - "73468cde177ddae6"
   - "dae9f02535f7c22f"
-pushes_per_week: [1, 7, 1, 0, 3, 0, 0, 0, 0, 3, 0, 6, 1]
+pushes_per_week: [5, 4, 0, 0, 3, 0, 0, 0, 0, 3, 0, 6, 1]
 windows:
   "7d":
     pushes: 1
@@ -77,7 +75,7 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
-  - "provenance: 3 vault signal(s) — pass"
+  - "provenance: 2 vault signal(s) — pass"
   - "activity: 11 active days in 90d — pass"
   - "automation: clear — pass"
 repos:

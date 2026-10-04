@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-03T06:07:13.763334+00:00"
+generated_at: "2026-10-04T06:07:52.073869+00:00"
 provenance:
   - "379642deb53f3714"
-pushes_per_week: [7, 3, 5, 9, 5, 9, 0, 0, 0, 2, 4, 5, 16]
+pushes_per_week: [4, 3, 5, 9, 5, 9, 0, 0, 1, 1, 5, 6, 14]
 windows:
   "7d":
     pushes: 16
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 65
+    pushes: 62
     distinct_repos: 6
-    active_days: 32
+    active_days: 31
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.0312
-  repo_per_active_day: 0.1875
+  push_per_day: 2.0000
+  repo_per_active_day: 0.1935
   not_owned_ratio: 0.1667
   basename_concentration: 0.3333
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 65
+    pushes: 62
     distinct_repos: 6
-    pushes_per_repo: 10.8333
-    active_days: 32
+    pushes_per_repo: 10.3333
+    active_days: 31
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 32 active days in 90d — pass"
+  - "activity: 31 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "cctv-camera-database"
@@ -198,6 +198,6 @@ repos:
 
 # ch-bas
 
-65 pushes across 6 repositories on 32 active days in the last 90 days of public GitHub push activity.
+62 pushes across 6 repositories on 31 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ch-bas

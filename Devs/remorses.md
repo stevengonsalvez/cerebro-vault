@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-03T06:07:13.763334+00:00"
+generated_at: "2026-10-04T06:07:52.073869+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [1, 5, 6, 5, 1, 5, 0, 7, 0, 1, 4, 4, 2]
+pushes_per_week: [0, 7, 4, 5, 2, 4, 2, 5, 0, 2, 3, 5, 1]
 windows:
   "7d":
     pushes: 2
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 41
-    distinct_repos: 22
-    active_days: 29
+    pushes: 40
+    distinct_repos: 21
+    active_days: 28
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.4138
-  repo_per_active_day: 0.7586
-  not_owned_ratio: 0.0455
-  basename_concentration: 0.0455
+  push_per_day: 1.4286
+  repo_per_active_day: 0.7500
+  not_owned_ratio: 0.0476
+  basename_concentration: 0.0476
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 41
-    distinct_repos: 22
-    pushes_per_repo: 1.8636
-    active_days: 29
+    pushes: 40
+    distinct_repos: 21
+    pushes_per_repo: 1.9048
+    active_days: 28
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 29 active days in 90d — pass"
+  - "activity: 28 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "playwriter"
@@ -133,6 +133,6 @@ repos:
 
 # remorses
 
-41 pushes across 22 repositories on 29 active days in the last 90 days of public GitHub push activity.
+40 pushes across 21 repositories on 28 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/remorses

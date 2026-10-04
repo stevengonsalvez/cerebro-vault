@@ -10,28 +10,28 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-03T06:07:13.763334+00:00"
+generated_at: "2026-10-04T06:07:52.073869+00:00"
 provenance:
   - "16389f32495280ea"
   - "4d1450729e6ff44d"
-pushes_per_week: [9, 5, 2, 4, 4, 8, 2, 1, 1, 6, 11, 9, 6]
+pushes_per_week: [7, 5, 2, 4, 6, 6, 3, 1, 0, 8, 10, 11, 4]
 windows:
   "7d":
-    pushes: 6
+    pushes: 7
     distinct_repos: 4
-    active_days: 4
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 32
+    pushes: 33
     distinct_repos: 14
-    active_days: 16
+    active_days: 17
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 68
+    pushes: 67
     distinct_repos: 21
     active_days: 36
     repos_not_owned: 0
@@ -39,7 +39,7 @@ windows:
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.8889
+  push_per_day: 1.8611
   repo_per_active_day: 0.5833
   not_owned_ratio: 0.0000
   basename_concentration: 0.0476
@@ -51,25 +51,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 6
+    pushes: 7
     distinct_repos: 4
-    pushes_per_repo: 1.5000
-    active_days: 4
+    pushes_per_repo: 1.7500
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 32
+    pushes: 33
     distinct_repos: 14
-    pushes_per_repo: 2.2857
-    active_days: 16
+    pushes_per_repo: 2.3571
+    active_days: 17
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 68
+    pushes: 67
     distinct_repos: 21
-    pushes_per_repo: 3.2381
+    pushes_per_repo: 3.1905
     active_days: 36
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -139,6 +139,6 @@ repos:
 
 # wutongyuonce
 
-68 pushes across 21 repositories on 36 active days in the last 90 days of public GitHub push activity.
+67 pushes across 21 repositories on 36 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/wutongyuonce

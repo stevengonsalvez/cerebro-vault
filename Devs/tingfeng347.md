@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-03T06:07:13.763334+00:00"
+generated_at: "2026-10-04T06:07:52.073869+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [11, 33, 25, 4, 1, 2, 4, 3, 0, 0, 2, 2, 2]
+pushes_per_week: [11, 35, 20, 4, 2, 1, 5, 2, 0, 0, 3, 1, 2]
 windows:
   "7d":
     pushes: 2
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 89
+    pushes: 86
     distinct_repos: 16
-    active_days: 36
+    active_days: 35
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.4722
-  repo_per_active_day: 0.4444
+  push_per_day: 2.4571
+  repo_per_active_day: 0.4571
   not_owned_ratio: 0.0000
   basename_concentration: 0.0625
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 89
+    pushes: 86
     distinct_repos: 16
-    pushes_per_repo: 5.5625
-    active_days: 36
+    pushes_per_repo: 5.3750
+    active_days: 35
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 36 active days in 90d — pass"
+  - "activity: 35 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "tingfeng347"
@@ -131,6 +131,6 @@ repos:
 
 # tingfeng347
 
-89 pushes across 16 repositories on 36 active days in the last 90 days of public GitHub push activity.
+86 pushes across 16 repositories on 35 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/tingfeng347

@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-03T06:07:13.763334+00:00"
+generated_at: "2026-10-04T06:07:52.073869+00:00"
 provenance:
   - "48dbbdd8fd0d3029"
-pushes_per_week: [8, 5, 2, 5, 5, 17, 4, 6, 2, 2, 4, 6, 13]
+pushes_per_week: [4, 5, 2, 5, 9, 13, 5, 6, 1, 3, 3, 6, 15]
 windows:
   "7d":
-    pushes: 13
+    pushes: 15
     distinct_repos: 6
-    active_days: 6
+    active_days: 7
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 2
   "30d":
-    pushes: 25
+    pushes: 27
     distinct_repos: 11
-    active_days: 13
+    active_days: 14
     repos_not_owned: 7
     not_owned_basenames: 7
     not_owned_owners: 3
   "90d":
-    pushes: 79
+    pushes: 77
     distinct_repos: 21
     active_days: 42
     repos_not_owned: 10
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 5
 automation:
   state: "clear"
-  push_per_day: 1.8810
+  push_per_day: 1.8333
   repo_per_active_day: 0.5000
   not_owned_ratio: 0.4762
   basename_concentration: 0.0952
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 13
+    pushes: 15
     distinct_repos: 6
-    pushes_per_repo: 2.1667
-    active_days: 6
+    pushes_per_repo: 2.5000
+    active_days: 7
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 2
   "30d":
-    pushes: 25
+    pushes: 27
     distinct_repos: 11
-    pushes_per_repo: 2.2727
-    active_days: 13
+    pushes_per_repo: 2.4545
+    active_days: 14
     repos_not_owned: 7
     not_owned_basenames: 7
     not_owned_owners: 3
   "90d":
-    pushes: 79
+    pushes: 77
     distinct_repos: 21
-    pushes_per_repo: 3.7619
+    pushes_per_repo: 3.6667
     active_days: 42
     repos_not_owned: 10
     not_owned_basenames: 10
@@ -151,6 +151,6 @@ repos:
 
 # PsiACE
 
-79 pushes across 21 repositories on 42 active days in the last 90 days of public GitHub push activity.
+77 pushes across 21 repositories on 42 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/PsiACE

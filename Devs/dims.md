@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-03T06:07:13.763334+00:00"
+generated_at: "2026-10-04T06:07:52.073869+00:00"
 provenance:
   - "a5ffcd0a46dd44fd"
-pushes_per_week: [1, 0, 8, 5, 6, 3, 3, 0, 0, 1, 2, 20, 17]
+pushes_per_week: [1, 0, 8, 7, 4, 4, 2, 0, 0, 1, 2, 31, 7]
 windows:
   "7d":
-    pushes: 30
-    distinct_repos: 4
+    pushes: 14
+    distinct_repos: 5
     active_days: 5
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 40
-    distinct_repos: 7
-    active_days: 10
+    pushes: 41
+    distinct_repos: 8
+    active_days: 11
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 66
+    pushes: 67
     distinct_repos: 17
-    active_days: 28
+    active_days: 29
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 2.3571
-  repo_per_active_day: 0.6071
+  push_per_day: 2.3103
+  repo_per_active_day: 0.5862
   not_owned_ratio: 0.1765
   basename_concentration: 0.1176
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 30
-    distinct_repos: 4
-    pushes_per_repo: 7.5000
+    pushes: 14
+    distinct_repos: 5
+    pushes_per_repo: 2.8000
     active_days: 5
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 40
-    distinct_repos: 7
-    pushes_per_repo: 5.7143
-    active_days: 10
+    pushes: 41
+    distinct_repos: 8
+    pushes_per_repo: 5.1250
+    active_days: 11
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 66
+    pushes: 67
     distinct_repos: 17
-    pushes_per_repo: 3.8824
-    active_days: 28
+    pushes_per_repo: 3.9412
+    active_days: 29
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 28 active days in 90d — pass"
+  - "activity: 29 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "openshell-driver-substrate"
@@ -129,6 +129,6 @@ repos:
 
 # dims
 
-66 pushes across 17 repositories on 28 active days in the last 90 days of public GitHub push activity.
+67 pushes across 17 repositories on 29 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/dims

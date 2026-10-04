@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-03T06:07:13.763334+00:00"
+generated_at: "2026-10-04T06:07:52.073869+00:00"
 provenance:
   - "edb3a626875732de"
-pushes_per_week: [60, 15, 19, 5, 14, 13, 1, 3, 3, 1, 1, 11, 4]
+pushes_per_week: [44, 14, 18, 9, 14, 9, 3, 1, 3, 1, 1, 11, 7]
 windows:
   "7d":
-    pushes: 6
+    pushes: 7
     distinct_repos: 3
-    active_days: 3
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 17
-    distinct_repos: 6
-    active_days: 10
+    pushes: 20
+    distinct_repos: 7
+    active_days: 12
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 150
-    distinct_repos: 9
-    active_days: 45
+    pushes: 135
+    distinct_repos: 10
+    active_days: 46
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 3.3333
-  repo_per_active_day: 0.2000
+  push_per_day: 2.9348
+  repo_per_active_day: 0.2174
   not_owned_ratio: 0.0000
-  basename_concentration: 0.1111
+  basename_concentration: 0.1000
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 6
+    pushes: 7
     distinct_repos: 3
-    pushes_per_repo: 2.0000
-    active_days: 3
+    pushes_per_repo: 2.3333
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 17
-    distinct_repos: 6
-    pushes_per_repo: 2.8333
-    active_days: 10
+    pushes: 20
+    distinct_repos: 7
+    pushes_per_repo: 2.8571
+    active_days: 12
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 150
-    distinct_repos: 9
-    pushes_per_repo: 16.6667
-    active_days: 45
+    pushes: 135
+    distinct_repos: 10
+    pushes_per_repo: 13.5000
+    active_days: 46
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 45 active days in 90d — pass"
+  - "activity: 46 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "aih-extensions"
@@ -159,6 +159,6 @@ repos:
 
 # samartomar
 
-150 pushes across 9 repositories on 45 active days in the last 90 days of public GitHub push activity.
+135 pushes across 10 repositories on 46 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/samartomar

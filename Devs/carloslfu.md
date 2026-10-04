@@ -10,27 +10,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-03T06:07:13.763334+00:00"
+generated_at: "2026-10-04T06:07:52.073869+00:00"
 provenance:
   - "fb0827c68cc0b5d0"
-pushes_per_week: [2, 28, 22, 9, 0, 1, 1, 3, 0, 3, 2, 6, 6]
+pushes_per_week: [2, 31, 19, 9, 0, 2, 2, 1, 0, 4, 1, 6, 9]
 windows:
   "7d":
-    pushes: 8
+    pushes: 9
     distinct_repos: 2
-    active_days: 4
+    active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 17
+    pushes: 20
     distinct_repos: 2
     active_days: 11
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 83
+    pushes: 86
     distinct_repos: 13
     active_days: 31
     repos_not_owned: 1
@@ -38,7 +38,7 @@ windows:
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.6774
+  push_per_day: 2.7742
   repo_per_active_day: 0.4194
   not_owned_ratio: 0.0769
   basename_concentration: 0.0769
@@ -50,25 +50,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 8
+    pushes: 9
     distinct_repos: 2
-    pushes_per_repo: 4.0000
-    active_days: 4
+    pushes_per_repo: 4.5000
+    active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 17
+    pushes: 20
     distinct_repos: 2
-    pushes_per_repo: 8.5000
+    pushes_per_repo: 10.0000
     active_days: 11
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 83
+    pushes: 86
     distinct_repos: 13
-    pushes_per_repo: 6.3846
+    pushes_per_repo: 6.6154
     active_days: 31
     repos_not_owned: 1
     not_owned_basenames: 1
@@ -170,6 +170,6 @@ repos:
 
 # carloslfu
 
-83 pushes across 13 repositories on 31 active days in the last 90 days of public GitHub push activity.
+86 pushes across 13 repositories on 31 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/carloslfu

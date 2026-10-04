@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-03T06:07:13.763334+00:00"
+generated_at: "2026-10-04T06:07:52.073869+00:00"
 provenance:
   - "1f49d0119cedbc84"
-pushes_per_week: [11, 5, 5, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [11, 4, 7, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 27
+    pushes: 26
     distinct_repos: 9
-    active_days: 14
+    active_days: 13
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.9286
-  repo_per_active_day: 0.6429
+  push_per_day: 2.0000
+  repo_per_active_day: 0.6923
   not_owned_ratio: 0.5556
   basename_concentration: 0.2222
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 27
+    pushes: 26
     distinct_repos: 9
-    pushes_per_repo: 3.0000
-    active_days: 14
+    pushes_per_repo: 2.8889
+    active_days: 13
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 14 active days in 90d — pass"
+  - "activity: 13 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "mongodb-rag-v1"
@@ -139,6 +139,6 @@ repos:
 
 # mohammaddaoudfarooqi
 
-27 pushes across 9 repositories on 14 active days in the last 90 days of public GitHub push activity.
+26 pushes across 9 repositories on 13 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/mohammaddaoudfarooqi

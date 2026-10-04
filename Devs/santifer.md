@@ -9,42 +9,42 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-03T06:07:13.763334+00:00"
+generated_at: "2026-10-04T06:07:52.073869+00:00"
 provenance:
   - "b68d90c0788819fd"
-pushes_per_week: [41, 38, 22, 20, 5, 28, 9, 4, 2, 1, 21, 16, 18]
+pushes_per_week: [40, 37, 22, 21, 4, 28, 9, 4, 3, 1, 20, 18, 17]
 windows:
   "7d":
-    pushes: 21
-    distinct_repos: 8
+    pushes: 19
+    distinct_repos: 7
     active_days: 7
     repos_not_owned: 6
     not_owned_basenames: 2
     not_owned_owners: 5
   "30d":
-    pushes: 56
-    distinct_repos: 18
+    pushes: 57
+    distinct_repos: 19
     active_days: 16
-    repos_not_owned: 16
+    repos_not_owned: 17
     not_owned_basenames: 4
-    not_owned_owners: 14
+    not_owned_owners: 15
   "90d":
-    pushes: 225
-    distinct_repos: 31
-    active_days: 55
-    repos_not_owned: 26
+    pushes: 224
+    distinct_repos: 32
+    active_days: 54
+    repos_not_owned: 27
     not_owned_basenames: 4
-    not_owned_owners: 24
+    not_owned_owners: 25
 automation:
   state: "clear"
-  push_per_day: 4.0909
-  repo_per_active_day: 0.5636
-  not_owned_ratio: 0.8387
-  basename_concentration: 0.7742
+  push_per_day: 4.1481
+  repo_per_active_day: 0.5926
+  not_owned_ratio: 0.8438
+  basename_concentration: 0.7812
   shapes:
     - "fork_farm_third_party"
   shape_evidence:
-    - "basename concentration 0.7742 (24 of 31 repos share one basename), 26 not owned across 4 basenames — 5 of 5 sampled repos resolved; 4 fork somebody else's repo; 1 are not forks at all; upstreams: career-ops-hq/career-ops"
+    - "basename concentration 0.7812 (25 of 32 repos share one basename), 27 not owned across 4 basenames — 5 of 5 sampled repos resolved; 4 fork somebody else's repo; 1 are not forks at all; upstreams: career-ops-hq/career-ops"
   cleared_by: "e01-builder"
   cleared_on: "2026-08-26"
   fork_provenance:
@@ -65,32 +65,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 21
-    distinct_repos: 8
-    pushes_per_repo: 2.6250
+    pushes: 19
+    distinct_repos: 7
+    pushes_per_repo: 2.7143
     active_days: 7
     repos_not_owned: 6
     not_owned_basenames: 2
     not_owned_owners: 5
   "30d":
-    pushes: 56
-    distinct_repos: 18
-    pushes_per_repo: 3.1111
+    pushes: 57
+    distinct_repos: 19
+    pushes_per_repo: 3.0000
     active_days: 16
-    repos_not_owned: 16
+    repos_not_owned: 17
     not_owned_basenames: 4
-    not_owned_owners: 14
+    not_owned_owners: 15
   "90d":
-    pushes: 225
-    distinct_repos: 31
-    pushes_per_repo: 7.2581
-    active_days: 55
-    repos_not_owned: 26
+    pushes: 224
+    distinct_repos: 32
+    pushes_per_repo: 7.0000
+    active_days: 54
+    repos_not_owned: 27
     not_owned_basenames: 4
-    not_owned_owners: 24
+    not_owned_owners: 25
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 55 active days in 90d — pass"
+  - "activity: 54 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "warpchart"
@@ -182,6 +182,6 @@ repos:
 
 # santifer
 
-225 pushes across 31 repositories on 55 active days in the last 90 days of public GitHub push activity.
+224 pushes across 32 repositories on 54 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/santifer

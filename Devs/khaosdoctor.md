@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-03T06:07:13.763334+00:00"
+generated_at: "2026-10-04T06:07:52.073869+00:00"
 provenance:
   - "73468cde177ddae6"
-pushes_per_week: [13, 9, 11, 3, 5, 3, 5, 0, 2, 2, 1, 0, 28]
+pushes_per_week: [12, 8, 11, 3, 5, 4, 4, 0, 3, 2, 0, 10, 19]
 windows:
   "7d":
-    pushes: 28
+    pushes: 27
     distinct_repos: 7
     active_days: 7
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
   "30d":
-    pushes: 32
+    pushes: 33
     distinct_repos: 8
     active_days: 11
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
   "90d":
-    pushes: 82
+    pushes: 81
     distinct_repos: 13
-    active_days: 40
+    active_days: 39
     repos_not_owned: 3
     not_owned_basenames: 2
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 2.0500
-  repo_per_active_day: 0.3250
+  push_per_day: 2.0769
+  repo_per_active_day: 0.3333
   not_owned_ratio: 0.2308
   basename_concentration: 0.2308
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 28
+    pushes: 27
     distinct_repos: 7
-    pushes_per_repo: 4.0000
+    pushes_per_repo: 3.8571
     active_days: 7
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
   "30d":
-    pushes: 32
+    pushes: 33
     distinct_repos: 8
-    pushes_per_repo: 4.0000
+    pushes_per_repo: 4.1250
     active_days: 11
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
   "90d":
-    pushes: 82
+    pushes: 81
     distinct_repos: 13
-    pushes_per_repo: 6.3077
-    active_days: 40
+    pushes_per_repo: 6.2308
+    active_days: 39
     repos_not_owned: 3
     not_owned_basenames: 2
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 40 active days in 90d — pass"
+  - "activity: 39 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "blog"
@@ -143,6 +143,6 @@ repos:
 
 # khaosdoctor
 
-82 pushes across 13 repositories on 40 active days in the last 90 days of public GitHub push activity.
+81 pushes across 13 repositories on 39 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/khaosdoctor

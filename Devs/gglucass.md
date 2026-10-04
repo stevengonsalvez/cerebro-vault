@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-03T06:07:13.763334+00:00"
+generated_at: "2026-10-04T06:07:52.073869+00:00"
 provenance:
   - "73468cde177ddae6"
-pushes_per_week: [16, 2, 1, 1, 3, 19, 0, 1, 1, 3, 0, 10, 10]
+pushes_per_week: [12, 2, 1, 1, 3, 19, 0, 1, 2, 2, 0, 11, 10]
 windows:
   "7d":
-    pushes: 10
+    pushes: 11
     distinct_repos: 2
-    active_days: 5
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 23
+    pushes: 24
     distinct_repos: 2
-    active_days: 12
+    active_days: 13
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 67
+    pushes: 64
     distinct_repos: 2
     active_days: 27
     repos_not_owned: 0
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.4815
+  push_per_day: 2.3704
   repo_per_active_day: 0.0741
   not_owned_ratio: 0.0000
   basename_concentration: 0.5000
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 10
+    pushes: 11
     distinct_repos: 2
-    pushes_per_repo: 5.0000
-    active_days: 5
+    pushes_per_repo: 5.5000
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 23
+    pushes: 24
     distinct_repos: 2
-    pushes_per_repo: 11.5000
-    active_days: 12
+    pushes_per_repo: 12.0000
+    active_days: 13
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 67
+    pushes: 64
     distinct_repos: 2
-    pushes_per_repo: 33.5000
+    pushes_per_repo: 32.0000
     active_days: 27
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -147,6 +147,6 @@ repos:
 
 # gglucass
 
-67 pushes across 2 repositories on 27 active days in the last 90 days of public GitHub push activity.
+64 pushes across 2 repositories on 27 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/gglucass

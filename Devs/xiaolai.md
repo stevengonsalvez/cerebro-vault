@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-03T06:07:13.763334+00:00"
+generated_at: "2026-10-04T06:07:52.073869+00:00"
 provenance:
   - "635453fe3b6ecc12"
-pushes_per_week: [31, 29, 21, 30, 18, 36, 8, 6, 1, 4, 23, 14, 49]
+pushes_per_week: [34, 31, 20, 28, 19, 33, 8, 4, 1, 7, 23, 18, 48]
 windows:
   "7d":
-    pushes: 51
+    pushes: 52
     distinct_repos: 19
     active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 90
+    pushes: 96
     distinct_repos: 21
-    active_days: 23
+    active_days: 24
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 270
+    pushes: 274
     distinct_repos: 28
     active_days: 71
     repos_not_owned: 0
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 3.8028
+  push_per_day: 3.8592
   repo_per_active_day: 0.3944
   not_owned_ratio: 0.0000
   basename_concentration: 0.0357
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 51
+    pushes: 52
     distinct_repos: 19
-    pushes_per_repo: 2.6842
+    pushes_per_repo: 2.7368
     active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 90
+    pushes: 96
     distinct_repos: 21
-    pushes_per_repo: 4.2857
-    active_days: 23
+    pushes_per_repo: 4.5714
+    active_days: 24
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 270
+    pushes: 274
     distinct_repos: 28
-    pushes_per_repo: 9.6429
+    pushes_per_repo: 9.7857
     active_days: 71
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -129,6 +129,6 @@ repos:
 
 # xiaolai
 
-270 pushes across 28 repositories on 71 active days in the last 90 days of public GitHub push activity.
+274 pushes across 28 repositories on 71 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/xiaolai

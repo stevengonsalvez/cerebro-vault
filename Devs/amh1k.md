@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-03T06:07:13.763334+00:00"
+generated_at: "2026-10-04T06:07:52.073869+00:00"
 provenance:
   - "c489e6fb5febf2ab"
-pushes_per_week: [12, 10, 5, 5, 0, 1, 0, 0, 0, 0, 1, 1, 2]
+pushes_per_week: [10, 10, 5, 5, 0, 1, 0, 0, 0, 0, 1, 1, 2]
 windows:
   "7d":
     pushes: 2
@@ -29,7 +29,7 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 37
+    pushes: 35
     distinct_repos: 12
     active_days: 21
     repos_not_owned: 1
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.7619
+  push_per_day: 1.6667
   repo_per_active_day: 0.5714
   not_owned_ratio: 0.0833
   basename_concentration: 0.0833
@@ -65,9 +65,9 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 37
+    pushes: 35
     distinct_repos: 12
-    pushes_per_repo: 3.0833
+    pushes_per_repo: 2.9167
     active_days: 21
     repos_not_owned: 1
     not_owned_basenames: 1
@@ -135,6 +135,6 @@ repos:
 
 # amh1k
 
-37 pushes across 12 repositories on 21 active days in the last 90 days of public GitHub push activity.
+35 pushes across 12 repositories on 21 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/amh1k

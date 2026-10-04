@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-03T06:07:13.763334+00:00"
+generated_at: "2026-10-04T06:07:52.073869+00:00"
 provenance:
   - "a5ffcd0a46dd44fd"
-pushes_per_week: [13, 5, 24, 0, 0, 2, 0, 2, 0, 4, 0, 8, 0]
+pushes_per_week: [7, 16, 13, 0, 0, 2, 2, 0, 0, 4, 6, 2, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 58
+    pushes: 52
     distinct_repos: 9
-    active_days: 18
+    active_days: 16
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 3.2222
-  repo_per_active_day: 0.5000
+  push_per_day: 3.2500
+  repo_per_active_day: 0.5625
   not_owned_ratio: 0.2222
   basename_concentration: 0.1111
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 58
+    pushes: 52
     distinct_repos: 9
-    pushes_per_repo: 6.4444
-    active_days: 18
+    pushes_per_repo: 5.7778
+    active_days: 16
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 18 active days in 90d — pass"
+  - "activity: 16 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "hey"
@@ -140,6 +140,6 @@ repos:
 
 # rakyll
 
-58 pushes across 9 repositories on 18 active days in the last 90 days of public GitHub push activity.
+52 pushes across 9 repositories on 16 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/rakyll

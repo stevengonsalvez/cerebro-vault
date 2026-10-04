@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-03T06:07:13.763334+00:00"
+generated_at: "2026-10-04T06:07:52.073869+00:00"
 provenance:
   - "3eacb4655aba2497"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 1, 0, 2, 6, 6, 8]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 1, 2, 2, 4, 9, 11]
 windows:
   "7d":
-    pushes: 9
+    pushes: 13
     distinct_repos: 2
     active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 22
+    pushes: 28
     distinct_repos: 3
-    active_days: 11
+    active_days: 12
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 23
+    pushes: 29
     distinct_repos: 4
-    active_days: 12
+    active_days: 13
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.9167
-  repo_per_active_day: 0.3333
+  push_per_day: 2.2308
+  repo_per_active_day: 0.3077
   not_owned_ratio: 0.0000
   basename_concentration: 0.2500
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 9
+    pushes: 13
     distinct_repos: 2
-    pushes_per_repo: 4.5000
+    pushes_per_repo: 6.5000
     active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 22
+    pushes: 28
     distinct_repos: 3
-    pushes_per_repo: 7.3333
-    active_days: 11
+    pushes_per_repo: 9.3333
+    active_days: 12
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 23
+    pushes: 29
     distinct_repos: 4
-    pushes_per_repo: 5.7500
-    active_days: 12
+    pushes_per_repo: 7.2500
+    active_days: 13
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 12 active days in 90d — pass"
+  - "activity: 13 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "sushi"
@@ -129,6 +129,6 @@ repos:
 
 # beamivalice
 
-23 pushes across 4 repositories on 12 active days in the last 90 days of public GitHub push activity.
+29 pushes across 4 repositories on 13 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/beamivalice

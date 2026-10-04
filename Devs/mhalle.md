@@ -9,41 +9,41 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-03T06:07:13.763334+00:00"
+generated_at: "2026-10-04T06:07:52.073869+00:00"
 provenance:
   - "97c4e9cb8b163ddb"
   - "c7515e0fa4368a55"
   - "d3abe74726b22711"
   - "e7c647c4d0689526"
-pushes_per_week: [0, 0, 0, 0, 4, 2, 1, 0, 1, 4, 5, 10, 6]
+pushes_per_week: [0, 0, 0, 0, 4, 2, 1, 0, 1, 4, 6, 13, 3]
 windows:
   "7d":
-    pushes: 8
+    pushes: 6
     distinct_repos: 5
     active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 26
-    distinct_repos: 9
-    active_days: 14
+    pushes: 27
+    distinct_repos: 10
+    active_days: 15
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 33
-    distinct_repos: 12
-    active_days: 20
+    pushes: 34
+    distinct_repos: 13
+    active_days: 21
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.6500
-  repo_per_active_day: 0.6000
+  push_per_day: 1.6190
+  repo_per_active_day: 0.6190
   not_owned_ratio: 0.0000
-  basename_concentration: 0.0833
+  basename_concentration: 0.0769
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -52,32 +52,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 8
+    pushes: 6
     distinct_repos: 5
-    pushes_per_repo: 1.6000
+    pushes_per_repo: 1.2000
     active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 26
-    distinct_repos: 9
-    pushes_per_repo: 2.8889
-    active_days: 14
+    pushes: 27
+    distinct_repos: 10
+    pushes_per_repo: 2.7000
+    active_days: 15
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 33
-    distinct_repos: 12
-    pushes_per_repo: 2.7500
-    active_days: 20
+    pushes: 34
+    distinct_repos: 13
+    pushes_per_repo: 2.6154
+    active_days: 21
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 4 vault signal(s) — pass"
-  - "activity: 20 active days in 90d — pass"
+  - "activity: 21 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "duckn"
@@ -132,6 +132,6 @@ repos:
 
 # mhalle
 
-33 pushes across 12 repositories on 20 active days in the last 90 days of public GitHub push activity.
+34 pushes across 13 repositories on 21 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/mhalle

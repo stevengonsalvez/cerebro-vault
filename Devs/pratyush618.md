@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-03T06:07:13.763334+00:00"
+generated_at: "2026-10-04T06:07:52.073869+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [37, 27, 14, 8, 8, 5, 1, 0, 0, 2, 4, 9, 1]
+pushes_per_week: [30, 28, 10, 9, 7, 5, 1, 0, 0, 2, 8, 5, 2]
 windows:
   "7d":
     pushes: 2
@@ -22,14 +22,14 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 16
+    pushes: 17
     distinct_repos: 4
-    active_days: 11
+    active_days: 12
     repos_not_owned: 3
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 116
+    pushes: 107
     distinct_repos: 10
     active_days: 40
     repos_not_owned: 7
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 2.9000
+  push_per_day: 2.6750
   repo_per_active_day: 0.2500
   not_owned_ratio: 0.7000
   basename_concentration: 0.2000
@@ -57,17 +57,17 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 16
+    pushes: 17
     distinct_repos: 4
-    pushes_per_repo: 4.0000
-    active_days: 11
+    pushes_per_repo: 4.2500
+    active_days: 12
     repos_not_owned: 3
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 116
+    pushes: 107
     distinct_repos: 10
-    pushes_per_repo: 11.6000
+    pushes_per_repo: 10.7000
     active_days: 40
     repos_not_owned: 7
     not_owned_basenames: 6
@@ -129,6 +129,6 @@ repos:
 
 # pratyush618
 
-116 pushes across 10 repositories on 40 active days in the last 90 days of public GitHub push activity.
+107 pushes across 10 repositories on 40 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/pratyush618

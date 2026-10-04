@@ -10,10 +10,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-03T06:07:13.763334+00:00"
+generated_at: "2026-10-04T06:07:52.073869+00:00"
 provenance:
   - "635453fe3b6ecc12"
-pushes_per_week: [5, 48, 5, 3, 2, 9, 0, 0, 0, 0, 50, 28, 0]
+pushes_per_week: [7, 42, 5, 5, 0, 9, 0, 0, 0, 0, 51, 27, 0]
 windows:
   "7d":
     pushes: 0
@@ -30,18 +30,18 @@ windows:
     not_owned_basenames: 8
     not_owned_owners: 5
   "90d":
-    pushes: 150
-    distinct_repos: 44
-    active_days: 23
-    repos_not_owned: 12
-    not_owned_basenames: 12
+    pushes: 146
+    distinct_repos: 42
+    active_days: 22
+    repos_not_owned: 10
+    not_owned_basenames: 10
     not_owned_owners: 5
 automation:
   state: "clear"
-  push_per_day: 6.5217
-  repo_per_active_day: 1.9130
-  not_owned_ratio: 0.2727
-  basename_concentration: 0.0227
+  push_per_day: 6.6364
+  repo_per_active_day: 1.9091
+  not_owned_ratio: 0.2381
+  basename_concentration: 0.0238
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -66,16 +66,16 @@ facets:
     not_owned_basenames: 8
     not_owned_owners: 5
   "90d":
-    pushes: 150
-    distinct_repos: 44
-    pushes_per_repo: 3.4091
-    active_days: 23
-    repos_not_owned: 12
-    not_owned_basenames: 12
+    pushes: 146
+    distinct_repos: 42
+    pushes_per_repo: 3.4762
+    active_days: 22
+    repos_not_owned: 10
+    not_owned_basenames: 10
     not_owned_owners: 5
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 23 active days in 90d — pass"
+  - "activity: 22 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "council-of-high-intelligence"
@@ -175,6 +175,6 @@ repos:
 
 # 0xNyk
 
-150 pushes across 44 repositories on 23 active days in the last 90 days of public GitHub push activity.
+146 pushes across 42 repositories on 22 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/0xNyk

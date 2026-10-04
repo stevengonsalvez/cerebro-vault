@@ -10,28 +10,28 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-03T06:07:13.763334+00:00"
+generated_at: "2026-10-04T06:07:52.073869+00:00"
 provenance:
   - "c954be1eb1223fa4"
   - "eb166180687b6629"
-pushes_per_week: [58, 40, 36, 29, 27, 16, 2, 5, 11, 4, 26, 34, 19]
+pushes_per_week: [47, 39, 31, 32, 25, 12, 3, 5, 11, 10, 24, 33, 17]
 windows:
   "7d":
-    pushes: 20
-    distinct_repos: 10
+    pushes: 21
+    distinct_repos: 9
     active_days: 6
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 84
+    pushes: 86
     distinct_repos: 31
-    active_days: 23
+    active_days: 24
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 307
+    pushes: 289
     distinct_repos: 69
     active_days: 71
     repos_not_owned: 20
@@ -39,7 +39,7 @@ windows:
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 4.3239
+  push_per_day: 4.0704
   repo_per_active_day: 0.9718
   not_owned_ratio: 0.2899
   basename_concentration: 0.0435
@@ -51,25 +51,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 20
-    distinct_repos: 10
-    pushes_per_repo: 2.0000
+    pushes: 21
+    distinct_repos: 9
+    pushes_per_repo: 2.3333
     active_days: 6
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 84
+    pushes: 86
     distinct_repos: 31
-    pushes_per_repo: 2.7097
-    active_days: 23
+    pushes_per_repo: 2.7742
+    active_days: 24
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 307
+    pushes: 289
     distinct_repos: 69
-    pushes_per_repo: 4.4493
+    pushes_per_repo: 4.1884
     active_days: 71
     repos_not_owned: 20
     not_owned_basenames: 18
@@ -131,6 +131,6 @@ repos:
 
 # tcballard
 
-307 pushes across 69 repositories on 71 active days in the last 90 days of public GitHub push activity.
+289 pushes across 69 repositories on 71 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/tcballard

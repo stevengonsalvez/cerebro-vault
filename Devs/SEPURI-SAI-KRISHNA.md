@@ -10,11 +10,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-03T06:07:13.763334+00:00"
+generated_at: "2026-10-04T06:07:52.073869+00:00"
 provenance:
   - "73468cde177ddae6"
   - "9d67ce648f6a8919"
-pushes_per_week: [3, 1, 3, 1, 5, 4, 1, 1, 0, 2, 4, 8, 7]
+pushes_per_week: [1, 2, 2, 1, 7, 2, 1, 1, 0, 3, 4, 7, 7]
 windows:
   "7d":
     pushes: 7
@@ -31,18 +31,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 40
-    distinct_repos: 19
-    active_days: 31
+    pushes: 38
+    distinct_repos: 18
+    active_days: 29
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.2903
-  repo_per_active_day: 0.6129
-  not_owned_ratio: 0.0526
-  basename_concentration: 0.0526
+  push_per_day: 1.3103
+  repo_per_active_day: 0.6207
+  not_owned_ratio: 0.0556
+  basename_concentration: 0.0556
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -67,16 +67,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 40
-    distinct_repos: 19
-    pushes_per_repo: 2.1053
-    active_days: 31
+    pushes: 38
+    distinct_repos: 18
+    pushes_per_repo: 2.1111
+    active_days: 29
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 31 active days in 90d — pass"
+  - "activity: 29 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "Hackathon-Radar"
@@ -131,6 +131,6 @@ repos:
 
 # SEPURI-SAI-KRISHNA
 
-40 pushes across 19 repositories on 31 active days in the last 90 days of public GitHub push activity.
+38 pushes across 18 repositories on 29 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/SEPURI-SAI-KRISHNA

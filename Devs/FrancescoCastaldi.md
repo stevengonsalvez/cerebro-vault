@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-03T06:07:13.763334+00:00"
+generated_at: "2026-10-04T06:07:52.073869+00:00"
 provenance:
   - "dffbb846389f9a26"
-pushes_per_week: [7, 6, 2, 2, 2, 1, 0, 0, 1, 3, 3, 4, 4]
+pushes_per_week: [1, 7, 1, 2, 2, 1, 0, 0, 1, 3, 5, 2, 7]
 windows:
   "7d":
-    pushes: 4
+    pushes: 7
     distinct_repos: 3
-    active_days: 1
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 14
+    pushes: 17
     distinct_repos: 5
-    active_days: 6
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 35
-    distinct_repos: 11
+    pushes: 32
+    distinct_repos: 10
     active_days: 17
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.0588
-  repo_per_active_day: 0.6471
+  push_per_day: 1.8824
+  repo_per_active_day: 0.5882
   not_owned_ratio: 0.0000
-  basename_concentration: 0.0909
+  basename_concentration: 0.1000
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 4
+    pushes: 7
     distinct_repos: 3
-    pushes_per_repo: 1.3333
-    active_days: 1
+    pushes_per_repo: 2.3333
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 14
+    pushes: 17
     distinct_repos: 5
-    pushes_per_repo: 2.8000
-    active_days: 6
+    pushes_per_repo: 3.4000
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 35
-    distinct_repos: 11
-    pushes_per_repo: 3.1818
+    pushes: 32
+    distinct_repos: 10
+    pushes_per_repo: 3.2000
     active_days: 17
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -129,6 +129,6 @@ repos:
 
 # FrancescoCastaldi
 
-35 pushes across 11 repositories on 17 active days in the last 90 days of public GitHub push activity.
+32 pushes across 10 repositories on 17 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/FrancescoCastaldi

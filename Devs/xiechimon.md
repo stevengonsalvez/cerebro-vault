@@ -5,16 +5,14 @@ discovered_via: "fanout"
 discovered_via_all:
   - "fanout"
 provenance_repos:
-  - "can1357/oh-my-pi"
   - "chopratejas/headroom"
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-03T06:07:13.763334+00:00"
+generated_at: "2026-10-04T06:07:52.073869+00:00"
 provenance:
   - "73468cde177ddae6"
-  - "de6bf05613f3ae04"
-pushes_per_week: [0, 1, 4, 0, 0, 0, 0, 0, 0, 1, 8, 31, 43]
+pushes_per_week: [0, 3, 2, 0, 0, 0, 0, 0, 0, 1, 12, 38, 44]
 windows:
   "7d":
     pushes: 44
@@ -24,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 83
+    pushes: 95
     distinct_repos: 10
-    active_days: 18
+    active_days: 19
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 88
+    pushes: 100
     distinct_repos: 11
-    active_days: 21
+    active_days: 22
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 4.1905
-  repo_per_active_day: 0.5238
+  push_per_day: 4.5455
+  repo_per_active_day: 0.5000
   not_owned_ratio: 0.0000
   basename_concentration: 0.0909
   shapes: []
@@ -59,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 83
+    pushes: 95
     distinct_repos: 10
-    pushes_per_repo: 8.3000
-    active_days: 18
+    pushes_per_repo: 9.5000
+    active_days: 19
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 88
+    pushes: 100
     distinct_repos: 11
-    pushes_per_repo: 8.0000
-    active_days: 21
+    pushes_per_repo: 9.0909
+    active_days: 22
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
-  - "provenance: 2 vault signal(s) — pass"
-  - "activity: 21 active days in 90d — pass"
+  - "provenance: 1 vault signal(s) — pass"
+  - "activity: 22 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "pacman"
@@ -150,6 +148,6 @@ repos:
 
 # xiechimon
 
-88 pushes across 11 repositories on 21 active days in the last 90 days of public GitHub push activity.
+100 pushes across 11 repositories on 22 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/xiechimon

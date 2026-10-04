@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-03T06:07:13.763334+00:00"
+generated_at: "2026-10-04T06:07:52.073869+00:00"
 provenance:
   - "dae9f02535f7c22f"
-pushes_per_week: [5, 5, 4, 1, 0, 3, 0, 0, 0, 0, 1, 1, 0]
+pushes_per_week: [1, 5, 4, 1, 1, 2, 0, 0, 0, 0, 1, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,7 +29,7 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 20
+    pushes: 16
     distinct_repos: 6
     active_days: 11
     repos_not_owned: 1
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.8182
+  push_per_day: 1.4545
   repo_per_active_day: 0.5455
   not_owned_ratio: 0.1667
   basename_concentration: 0.1667
@@ -65,9 +65,9 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 20
+    pushes: 16
     distinct_repos: 6
-    pushes_per_repo: 3.3333
+    pushes_per_repo: 2.6667
     active_days: 11
     repos_not_owned: 1
     not_owned_basenames: 1
@@ -138,6 +138,6 @@ repos:
 
 # shihyuho
 
-20 pushes across 6 repositories on 11 active days in the last 90 days of public GitHub push activity.
+16 pushes across 6 repositories on 11 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/shihyuho

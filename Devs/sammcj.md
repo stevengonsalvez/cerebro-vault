@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-03T06:07:13.763334+00:00"
+generated_at: "2026-10-04T06:07:52.073869+00:00"
 provenance:
   - "533d51d9d3dea76f"
-pushes_per_week: [5, 0, 1, 5, 6, 8, 6, 3, 1, 3, 1, 6, 2]
+pushes_per_week: [4, 0, 1, 6, 5, 8, 7, 2, 2, 3, 0, 6, 2]
 windows:
   "7d":
-    pushes: 3
+    pushes: 2
     distinct_repos: 2
-    active_days: 2
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -29,7 +29,7 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 47
+    pushes: 46
     distinct_repos: 13
     active_days: 30
     repos_not_owned: 0
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.5667
+  push_per_day: 1.5333
   repo_per_active_day: 0.4333
   not_owned_ratio: 0.0000
   basename_concentration: 0.0769
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 3
+    pushes: 2
     distinct_repos: 2
-    pushes_per_repo: 1.5000
-    active_days: 2
+    pushes_per_repo: 1.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -65,9 +65,9 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 47
+    pushes: 46
     distinct_repos: 13
-    pushes_per_repo: 3.6154
+    pushes_per_repo: 3.5385
     active_days: 30
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -161,6 +161,6 @@ repos:
 
 # sammcj
 
-47 pushes across 13 repositories on 30 active days in the last 90 days of public GitHub push activity.
+46 pushes across 13 repositories on 30 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/sammcj

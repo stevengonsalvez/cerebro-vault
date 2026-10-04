@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-03T06:07:13.763334+00:00"
+generated_at: "2026-10-04T06:07:52.073869+00:00"
 provenance:
   - "4138778ebbc75ba6"
-pushes_per_week: [11, 7, 12, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0]
+pushes_per_week: [9, 7, 12, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,7 +29,7 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 32
+    pushes: 30
     distinct_repos: 11
     active_days: 12
     repos_not_owned: 0
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.6667
+  push_per_day: 2.5000
   repo_per_active_day: 0.9167
   not_owned_ratio: 0.0000
   basename_concentration: 0.0909
@@ -65,9 +65,9 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 32
+    pushes: 30
     distinct_repos: 11
-    pushes_per_repo: 2.9091
+    pushes_per_repo: 2.7273
     active_days: 12
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -166,6 +166,6 @@ repos:
 
 # PedroPCardoso
 
-32 pushes across 11 repositories on 12 active days in the last 90 days of public GitHub push activity.
+30 pushes across 11 repositories on 12 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/PedroPCardoso

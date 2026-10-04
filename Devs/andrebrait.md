@@ -5,42 +5,44 @@ discovered_via: "fanout"
 discovered_via_all:
   - "fanout"
 provenance_repos:
+  - "addyosmani/agent-skills"
   - "can1357/oh-my-pi"
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-03T06:07:13.763334+00:00"
+generated_at: "2026-10-04T06:07:52.073869+00:00"
 provenance:
+  - "dae9f02535f7c22f"
   - "de6bf05613f3ae04"
-pushes_per_week: [165, 152, 47, 81, 21, 44, 18, 15, 2, 6, 23, 30, 73]
+pushes_per_week: [159, 148, 55, 69, 20, 45, 16, 14, 2, 6, 25, 39, 80]
 windows:
   "7d":
-    pushes: 76
-    distinct_repos: 9
+    pushes: 92
+    distinct_repos: 8
     active_days: 7
-    repos_not_owned: 4
-    not_owned_basenames: 4
-    not_owned_owners: 2
+    repos_not_owned: 5
+    not_owned_basenames: 5
+    not_owned_owners: 3
   "30d":
-    pushes: 132
-    distinct_repos: 12
-    active_days: 22
-    repos_not_owned: 4
-    not_owned_basenames: 4
-    not_owned_owners: 2
+    pushes: 151
+    distinct_repos: 13
+    active_days: 23
+    repos_not_owned: 5
+    not_owned_basenames: 5
+    not_owned_owners: 3
   "90d":
-    pushes: 677
-    distinct_repos: 24
+    pushes: 678
+    distinct_repos: 25
     active_days: 78
-    repos_not_owned: 7
-    not_owned_basenames: 7
-    not_owned_owners: 2
+    repos_not_owned: 8
+    not_owned_basenames: 8
+    not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 8.6795
-  repo_per_active_day: 0.3077
-  not_owned_ratio: 0.2917
-  basename_concentration: 0.0833
+  push_per_day: 8.6923
+  repo_per_active_day: 0.3205
+  not_owned_ratio: 0.3200
+  basename_concentration: 0.0800
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,31 +51,31 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 76
-    distinct_repos: 9
-    pushes_per_repo: 8.4444
+    pushes: 92
+    distinct_repos: 8
+    pushes_per_repo: 11.5000
     active_days: 7
-    repos_not_owned: 4
-    not_owned_basenames: 4
-    not_owned_owners: 2
+    repos_not_owned: 5
+    not_owned_basenames: 5
+    not_owned_owners: 3
   "30d":
-    pushes: 132
-    distinct_repos: 12
-    pushes_per_repo: 11.0000
-    active_days: 22
-    repos_not_owned: 4
-    not_owned_basenames: 4
-    not_owned_owners: 2
+    pushes: 151
+    distinct_repos: 13
+    pushes_per_repo: 11.6154
+    active_days: 23
+    repos_not_owned: 5
+    not_owned_basenames: 5
+    not_owned_owners: 3
   "90d":
-    pushes: 677
-    distinct_repos: 24
-    pushes_per_repo: 28.2083
+    pushes: 678
+    distinct_repos: 25
+    pushes_per_repo: 27.1200
     active_days: 78
-    repos_not_owned: 7
-    not_owned_basenames: 7
-    not_owned_owners: 2
+    repos_not_owned: 8
+    not_owned_basenames: 8
+    not_owned_owners: 3
 reasons:
-  - "provenance: 1 vault signal(s) — pass"
+  - "provenance: 2 vault signal(s) — pass"
   - "activity: 78 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
@@ -140,6 +142,6 @@ repos:
 
 # andrebrait
 
-677 pushes across 24 repositories on 78 active days in the last 90 days of public GitHub push activity.
+678 pushes across 25 repositories on 78 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/andrebrait

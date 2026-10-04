@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-03T06:07:13.763334+00:00"
+generated_at: "2026-10-04T06:07:52.073869+00:00"
 provenance:
   - "9ee133e6f5024f08"
-pushes_per_week: [5, 50, 20, 2, 2, 0, 0, 0, 0, 0, 7, 2, 2]
+pushes_per_week: [6, 53, 16, 2, 1, 0, 0, 0, 0, 0, 7, 2, 2]
 windows:
   "7d":
     pushes: 2
@@ -29,7 +29,7 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 90
+    pushes: 89
     distinct_repos: 15
     active_days: 21
     repos_not_owned: 2
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 4.2857
+  push_per_day: 4.2381
   repo_per_active_day: 0.7143
   not_owned_ratio: 0.1333
   basename_concentration: 0.0667
@@ -65,9 +65,9 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 90
+    pushes: 89
     distinct_repos: 15
-    pushes_per_repo: 6.0000
+    pushes_per_repo: 5.9333
     active_days: 21
     repos_not_owned: 2
     not_owned_basenames: 2
@@ -136,6 +136,6 @@ repos:
 
 # ninjahawk
 
-90 pushes across 15 repositories on 21 active days in the last 90 days of public GitHub push activity.
+89 pushes across 15 repositories on 21 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ninjahawk

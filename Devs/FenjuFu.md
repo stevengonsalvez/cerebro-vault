@@ -11,12 +11,12 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-02T06:06:48.484172+00:00"
+generated_at: "2026-10-04T06:07:52.073869+00:00"
 provenance:
   - "46f3c1d6124190bd"
   - "c489e6fb5febf2ab"
   - "e5b23adc376a62a9"
-pushes_per_week: [3, 9, 2, 0, 2, 13, 2, 3, 0, 4, 2, 0, 7]
+pushes_per_week: [2, 9, 2, 0, 2, 13, 2, 3, 0, 4, 2, 1, 6]
 windows:
   "7d":
     pushes: 7
@@ -33,7 +33,7 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 47
+    pushes: 46
     distinct_repos: 21
     active_days: 22
     repos_not_owned: 7
@@ -41,7 +41,7 @@ windows:
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 2.1364
+  push_per_day: 2.0909
   repo_per_active_day: 0.9545
   not_owned_ratio: 0.3333
   basename_concentration: 0.0952
@@ -69,9 +69,9 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 47
+    pushes: 46
     distinct_repos: 21
-    pushes_per_repo: 2.2381
+    pushes_per_repo: 2.1905
     active_days: 22
     repos_not_owned: 7
     not_owned_basenames: 7
@@ -134,6 +134,6 @@ repos:
 
 # FenjuFu
 
-47 pushes across 21 repositories on 22 active days in the last 90 days of public GitHub push activity.
+46 pushes across 21 repositories on 22 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/FenjuFu

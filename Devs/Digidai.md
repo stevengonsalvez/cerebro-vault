@@ -9,14 +9,14 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-03T06:07:13.763334+00:00"
+generated_at: "2026-10-04T06:07:52.073869+00:00"
 provenance:
   - "3cb7ff1cdcf97c6b"
-pushes_per_week: [2, 1, 1, 2, 2, 3, 1, 0, 0, 0, 4, 3, 6]
+pushes_per_week: [1, 1, 3, 0, 2, 4, 0, 0, 0, 1, 4, 4, 4]
 windows:
   "7d":
-    pushes: 6
-    distinct_repos: 4
+    pushes: 5
+    distinct_repos: 3
     active_days: 5
     repos_not_owned: 1
     not_owned_basenames: 1
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 25
+    pushes: 24
     distinct_repos: 8
-    active_days: 21
+    active_days: 20
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.1905
-  repo_per_active_day: 0.3810
+  push_per_day: 1.2000
+  repo_per_active_day: 0.4000
   not_owned_ratio: 0.1250
   basename_concentration: 0.1250
   shapes: []
@@ -49,9 +49,9 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 6
-    distinct_repos: 4
-    pushes_per_repo: 1.5000
+    pushes: 5
+    distinct_repos: 3
+    pushes_per_repo: 1.6667
     active_days: 5
     repos_not_owned: 1
     not_owned_basenames: 1
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 25
+    pushes: 24
     distinct_repos: 8
-    pushes_per_repo: 3.1250
-    active_days: 21
+    pushes_per_repo: 3.0000
+    active_days: 20
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 21 active days in 90d — pass"
+  - "activity: 20 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "website2markdown"
@@ -175,6 +175,6 @@ repos:
 
 # Digidai
 
-25 pushes across 8 repositories on 21 active days in the last 90 days of public GitHub push activity.
+24 pushes across 8 repositories on 20 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Digidai

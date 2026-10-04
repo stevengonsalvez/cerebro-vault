@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-03T06:07:13.763334+00:00"
+generated_at: "2026-10-04T06:07:52.073869+00:00"
 provenance:
   - "16389f32495280ea"
-pushes_per_week: [4, 15, 4, 1, 0, 0, 0, 0, 0, 0, 2, 2, 2]
+pushes_per_week: [2, 15, 4, 1, 0, 0, 0, 0, 0, 0, 3, 1, 2]
 windows:
   "7d":
-    pushes: 3
+    pushes: 2
     distinct_repos: 1
-    active_days: 2
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 30
+    pushes: 28
     distinct_repos: 3
-    active_days: 16
+    active_days: 15
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.8750
-  repo_per_active_day: 0.1875
+  push_per_day: 1.8667
+  repo_per_active_day: 0.2000
   not_owned_ratio: 0.3333
   basename_concentration: 0.6667
   shapes: []
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 3
+    pushes: 2
     distinct_repos: 1
-    pushes_per_repo: 3.0000
-    active_days: 2
+    pushes_per_repo: 2.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 30
+    pushes: 28
     distinct_repos: 3
-    pushes_per_repo: 10.0000
-    active_days: 16
+    pushes_per_repo: 9.3333
+    active_days: 15
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 16 active days in 90d — pass"
+  - "activity: 15 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "kunpeng-affinity-plugin"
@@ -89,6 +89,6 @@ repos:
 
 # qin-chenghan
 
-30 pushes across 3 repositories on 16 active days in the last 90 days of public GitHub push activity.
+28 pushes across 3 repositories on 15 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/qin-chenghan

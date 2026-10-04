@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-03T06:07:13.763334+00:00"
+generated_at: "2026-10-04T06:07:52.073869+00:00"
 provenance:
   - "73468cde177ddae6"
-pushes_per_week: [36, 12, 15, 3, 4, 4, 2, 0, 0, 0, 1, 4, 15]
+pushes_per_week: [25, 19, 6, 5, 2, 4, 2, 0, 0, 0, 1, 5, 16]
 windows:
   "7d":
-    pushes: 16
+    pushes: 17
     distinct_repos: 3
     active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 20
+    pushes: 22
     distinct_repos: 3
-    active_days: 10
+    active_days: 11
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 96
-    distinct_repos: 12
+    pushes: 85
+    distinct_repos: 7
     active_days: 38
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.5263
-  repo_per_active_day: 0.3158
+  push_per_day: 2.2368
+  repo_per_active_day: 0.1842
   not_owned_ratio: 0.0000
-  basename_concentration: 0.0833
+  basename_concentration: 0.1429
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 16
+    pushes: 17
     distinct_repos: 3
-    pushes_per_repo: 5.3333
+    pushes_per_repo: 5.6667
     active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 20
+    pushes: 22
     distinct_repos: 3
-    pushes_per_repo: 6.6667
-    active_days: 10
+    pushes_per_repo: 7.3333
+    active_days: 11
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 96
-    distinct_repos: 12
-    pushes_per_repo: 8.0000
+    pushes: 85
+    distinct_repos: 7
+    pushes_per_repo: 12.1429
     active_days: 38
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -124,6 +124,6 @@ repos:
 
 # KennethWKZ
 
-96 pushes across 12 repositories on 38 active days in the last 90 days of public GitHub push activity.
+85 pushes across 7 repositories on 38 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/KennethWKZ

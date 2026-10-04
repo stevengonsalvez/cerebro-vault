@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-03T06:07:13.763334+00:00"
+generated_at: "2026-10-04T06:07:52.073869+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [6, 13, 8, 0, 1, 7, 1, 0, 0, 2, 1, 8, 0]
+pushes_per_week: [9, 11, 6, 0, 1, 7, 1, 0, 0, 2, 1, 8, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 47
-    distinct_repos: 5
-    active_days: 29
+    pushes: 46
+    distinct_repos: 4
+    active_days: 28
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.6207
-  repo_per_active_day: 0.1724
-  not_owned_ratio: 0.2000
-  basename_concentration: 0.4000
+  push_per_day: 1.6429
+  repo_per_active_day: 0.1429
+  not_owned_ratio: 0.2500
+  basename_concentration: 0.5000
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 47
-    distinct_repos: 5
-    pushes_per_repo: 9.4000
-    active_days: 29
+    pushes: 46
+    distinct_repos: 4
+    pushes_per_repo: 11.5000
+    active_days: 28
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 29 active days in 90d — pass"
+  - "activity: 28 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "InFalsusTouch"
@@ -160,6 +160,6 @@ repos:
 
 # Cedarflake
 
-47 pushes across 5 repositories on 29 active days in the last 90 days of public GitHub push activity.
+46 pushes across 4 repositories on 28 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Cedarflake

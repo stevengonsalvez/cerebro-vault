@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-03T06:07:13.763334+00:00"
+generated_at: "2026-10-04T06:07:52.073869+00:00"
 provenance:
   - "73468cde177ddae6"
-pushes_per_week: [2, 34, 75, 53, 20, 80, 19, 0, 0, 13, 16, 55, 6]
+pushes_per_week: [5, 55, 62, 42, 21, 87, 11, 0, 4, 9, 55, 16, 9]
 windows:
   "7d":
-    pushes: 6
-    distinct_repos: 3
-    active_days: 3
-    repos_not_owned: 2
-    not_owned_basenames: 2
-    not_owned_owners: 1
-  "30d":
-    pushes: 90
-    distinct_repos: 13
-    active_days: 14
+    pushes: 9
+    distinct_repos: 5
+    active_days: 4
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 1
+  "30d":
+    pushes: 93
+    distinct_repos: 15
+    active_days: 15
+    repos_not_owned: 6
+    not_owned_basenames: 6
+    not_owned_owners: 1
   "90d":
-    pushes: 373
-    distinct_repos: 56
-    active_days: 50
-    repos_not_owned: 19
-    not_owned_basenames: 19
+    pushes: 376
+    distinct_repos: 58
+    active_days: 51
+    repos_not_owned: 21
+    not_owned_basenames: 21
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 7.4600
-  repo_per_active_day: 1.1200
-  not_owned_ratio: 0.3393
-  basename_concentration: 0.0357
+  push_per_day: 7.3725
+  repo_per_active_day: 1.1373
+  not_owned_ratio: 0.3621
+  basename_concentration: 0.0345
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 6
-    distinct_repos: 3
-    pushes_per_repo: 2.0000
-    active_days: 3
-    repos_not_owned: 2
-    not_owned_basenames: 2
-    not_owned_owners: 1
-  "30d":
-    pushes: 90
-    distinct_repos: 13
-    pushes_per_repo: 6.9231
-    active_days: 14
+    pushes: 9
+    distinct_repos: 5
+    pushes_per_repo: 1.8000
+    active_days: 4
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 1
+  "30d":
+    pushes: 93
+    distinct_repos: 15
+    pushes_per_repo: 6.2000
+    active_days: 15
+    repos_not_owned: 6
+    not_owned_basenames: 6
+    not_owned_owners: 1
   "90d":
-    pushes: 373
-    distinct_repos: 56
-    pushes_per_repo: 6.6607
-    active_days: 50
-    repos_not_owned: 19
-    not_owned_basenames: 19
+    pushes: 376
+    distinct_repos: 58
+    pushes_per_repo: 6.4828
+    active_days: 51
+    repos_not_owned: 21
+    not_owned_basenames: 21
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 50 active days in 90d — pass"
+  - "activity: 51 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "music.vaked.dev"
@@ -157,6 +157,6 @@ repos:
 
 # peterlodri-sec
 
-373 pushes across 56 repositories on 50 active days in the last 90 days of public GitHub push activity.
+376 pushes across 58 repositories on 51 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/peterlodri-sec

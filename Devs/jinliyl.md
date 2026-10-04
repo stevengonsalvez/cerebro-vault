@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-03T06:07:13.763334+00:00"
+generated_at: "2026-10-04T06:07:52.073869+00:00"
 provenance:
   - "541318303a272608"
-pushes_per_week: [29, 10, 10, 4, 2, 16, 2, 1, 0, 2, 4, 7, 8]
+pushes_per_week: [26, 10, 10, 4, 2, 16, 2, 1, 0, 3, 5, 5, 8]
 windows:
   "7d":
     pushes: 8
@@ -29,7 +29,7 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 95
+    pushes: 92
     distinct_repos: 7
     active_days: 40
     repos_not_owned: 4
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 2.3750
+  push_per_day: 2.3000
   repo_per_active_day: 0.1750
   not_owned_ratio: 0.5714
   basename_concentration: 0.2857
@@ -65,9 +65,9 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 95
+    pushes: 92
     distinct_repos: 7
-    pushes_per_repo: 13.5714
+    pushes_per_repo: 13.1429
     active_days: 40
     repos_not_owned: 4
     not_owned_basenames: 4
@@ -129,6 +129,6 @@ repos:
 
 # jinliyl
 
-95 pushes across 7 repositories on 40 active days in the last 90 days of public GitHub push activity.
+92 pushes across 7 repositories on 40 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/jinliyl

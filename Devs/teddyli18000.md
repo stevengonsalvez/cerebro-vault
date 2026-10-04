@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-03T06:07:13.763334+00:00"
+generated_at: "2026-10-04T06:07:52.073869+00:00"
 provenance:
   - "c489e6fb5febf2ab"
-pushes_per_week: [1, 0, 0, 0, 0, 22, 0, 7, 2, 0, 0, 5, 0]
+pushes_per_week: [1, 0, 0, 0, 14, 8, 4, 3, 2, 0, 0, 5, 3]
 windows:
   "7d":
-    pushes: 2
+    pushes: 3
     distinct_repos: 2
     active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 5
-    distinct_repos: 3
-    active_days: 3
+    pushes: 8
+    distinct_repos: 5
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 37
-    distinct_repos: 8
-    active_days: 13
+    pushes: 40
+    distinct_repos: 10
+    active_days: 14
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.8462
-  repo_per_active_day: 0.6154
+  push_per_day: 2.8571
+  repo_per_active_day: 0.7143
   not_owned_ratio: 0.0000
-  basename_concentration: 0.1250
+  basename_concentration: 0.1000
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
+    pushes: 3
     distinct_repos: 2
-    pushes_per_repo: 1.0000
+    pushes_per_repo: 1.5000
     active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 5
-    distinct_repos: 3
-    pushes_per_repo: 1.6667
-    active_days: 3
+    pushes: 8
+    distinct_repos: 5
+    pushes_per_repo: 1.6000
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 37
-    distinct_repos: 8
-    pushes_per_repo: 4.6250
-    active_days: 13
+    pushes: 40
+    distinct_repos: 10
+    pushes_per_repo: 4.0000
+    active_days: 14
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 13 active days in 90d — pass"
+  - "activity: 14 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "teddyli18000"
@@ -137,6 +137,6 @@ repos:
 
 # teddyli18000
 
-37 pushes across 8 repositories on 13 active days in the last 90 days of public GitHub push activity.
+40 pushes across 10 repositories on 14 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/teddyli18000

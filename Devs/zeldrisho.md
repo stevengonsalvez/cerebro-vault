@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-03T06:07:13.763334+00:00"
+generated_at: "2026-10-04T06:07:52.073869+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [3, 0, 5, 4, 5, 7, 2, 11, 0, 1, 8, 6, 9]
+pushes_per_week: [1, 4, 1, 4, 6, 7, 9, 3, 0, 1, 8, 8, 8]
 windows:
   "7d":
-    pushes: 12
-    distinct_repos: 5
+    pushes: 10
+    distinct_repos: 4
     active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 24
+    pushes: 25
     distinct_repos: 9
-    active_days: 12
+    active_days: 13
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 61
+    pushes: 60
     distinct_repos: 18
     active_days: 29
     repos_not_owned: 0
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.1034
+  push_per_day: 2.0690
   repo_per_active_day: 0.6207
   not_owned_ratio: 0.0000
   basename_concentration: 0.0556
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 12
-    distinct_repos: 5
-    pushes_per_repo: 2.4000
+    pushes: 10
+    distinct_repos: 4
+    pushes_per_repo: 2.5000
     active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 24
+    pushes: 25
     distinct_repos: 9
-    pushes_per_repo: 2.6667
-    active_days: 12
+    pushes_per_repo: 2.7778
+    active_days: 13
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 61
+    pushes: 60
     distinct_repos: 18
-    pushes_per_repo: 3.3889
+    pushes_per_repo: 3.3333
     active_days: 29
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -105,6 +105,6 @@ repos:
 
 # zeldrisho
 
-61 pushes across 18 repositories on 29 active days in the last 90 days of public GitHub push activity.
+60 pushes across 18 repositories on 29 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/zeldrisho

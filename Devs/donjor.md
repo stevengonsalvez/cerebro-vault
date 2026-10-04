@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-03T06:07:13.763334+00:00"
+generated_at: "2026-10-04T06:07:52.073869+00:00"
 provenance:
   - "73468cde177ddae6"
-pushes_per_week: [1, 2, 0, 0, 0, 0, 0, 9, 3, 9, 35, 18, 64]
+pushes_per_week: [1, 2, 0, 0, 0, 0, 2, 9, 4, 21, 22, 25, 66]
 windows:
   "7d":
-    pushes: 65
+    pushes: 70
     distinct_repos: 1
-    active_days: 7
+    active_days: 6
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 126
+    pushes: 137
     distinct_repos: 1
     active_days: 21
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 141
+    pushes: 152
     distinct_repos: 2
     active_days: 31
     repos_not_owned: 1
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 4.5484
+  push_per_day: 4.9032
   repo_per_active_day: 0.0645
   not_owned_ratio: 0.5000
   basename_concentration: 0.5000
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 65
+    pushes: 70
     distinct_repos: 1
-    pushes_per_repo: 65.0000
-    active_days: 7
+    pushes_per_repo: 70.0000
+    active_days: 6
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 126
+    pushes: 137
     distinct_repos: 1
-    pushes_per_repo: 126.0000
+    pushes_per_repo: 137.0000
     active_days: 21
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 141
+    pushes: 152
     distinct_repos: 2
-    pushes_per_repo: 70.5000
+    pushes_per_repo: 76.0000
     active_days: 31
     repos_not_owned: 1
     not_owned_basenames: 1
@@ -136,6 +136,6 @@ repos:
 
 # donjor
 
-141 pushes across 2 repositories on 31 active days in the last 90 days of public GitHub push activity.
+152 pushes across 2 repositories on 31 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/donjor

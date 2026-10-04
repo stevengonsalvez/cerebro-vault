@@ -9,17 +9,17 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-03T06:07:13.763334+00:00"
+generated_at: "2026-10-04T06:07:52.073869+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [2, 0, 2, 2, 8, 15, 0, 0, 0, 0, 1, 16, 9]
+pushes_per_week: [1, 0, 4, 0, 8, 15, 0, 0, 0, 0, 2, 21, 3]
 windows:
   "7d":
-    pushes: 11
-    distinct_repos: 4
-    active_days: 4
-    repos_not_owned: 2
-    not_owned_basenames: 2
+    pushes: 4
+    distinct_repos: 1
+    active_days: 3
+    repos_not_owned: 1
+    not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
     pushes: 26
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 55
-    distinct_repos: 17
-    active_days: 20
+    pushes: 54
+    distinct_repos: 16
+    active_days: 19
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.7500
-  repo_per_active_day: 0.8500
-  not_owned_ratio: 0.1765
-  basename_concentration: 0.0588
+  push_per_day: 2.8421
+  repo_per_active_day: 0.8421
+  not_owned_ratio: 0.1875
+  basename_concentration: 0.0625
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,12 +49,12 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 11
-    distinct_repos: 4
-    pushes_per_repo: 2.7500
-    active_days: 4
-    repos_not_owned: 2
-    not_owned_basenames: 2
+    pushes: 4
+    distinct_repos: 1
+    pushes_per_repo: 4.0000
+    active_days: 3
+    repos_not_owned: 1
+    not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
     pushes: 26
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 55
-    distinct_repos: 17
-    pushes_per_repo: 3.2353
-    active_days: 20
+    pushes: 54
+    distinct_repos: 16
+    pushes_per_repo: 3.3750
+    active_days: 19
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 20 active days in 90d — pass"
+  - "activity: 19 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "qflarebot-plugin-qqadmin"
@@ -134,6 +134,6 @@ repos:
 
 # clown145
 
-55 pushes across 17 repositories on 20 active days in the last 90 days of public GitHub push activity.
+54 pushes across 16 repositories on 19 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/clown145

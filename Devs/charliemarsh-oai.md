@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-01T06:06:11.188250+00:00"
+generated_at: "2026-10-04T06:07:52.073869+00:00"
 provenance:
   - "0388a4f55f4206c8"
   - "0577669e18ed3998"
@@ -30,7 +30,7 @@ provenance:
   - "c6b4a874521ceb02"
   - "cf565721454d59f8"
   - "e26852201e6f38fc"
-pushes_per_week: [18, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [16, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -47,16 +47,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 20
+    pushes: 18
     distinct_repos: 2
-    active_days: 6
+    active_days: 5
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 3.3333
-  repo_per_active_day: 0.3333
+  push_per_day: 3.6000
+  repo_per_active_day: 0.4000
   not_owned_ratio: 1.0000
   basename_concentration: 0.5000
   shapes: []
@@ -83,22 +83,22 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 20
+    pushes: 18
     distinct_repos: 2
-    pushes_per_repo: 10.0000
-    active_days: 6
+    pushes_per_repo: 9.0000
+    active_days: 5
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
 reasons:
   - "provenance: 19 vault signal(s) — pass"
-  - "activity: 6 active days in 90d — pass"
+  - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
 repos: []
 ---
 
 # charliemarsh-oai
 
-20 pushes across 2 repositories on 6 active days in the last 90 days of public GitHub push activity.
+18 pushes across 2 repositories on 5 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/charliemarsh-oai

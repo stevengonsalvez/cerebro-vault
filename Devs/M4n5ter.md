@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-03T06:07:13.763334+00:00"
+generated_at: "2026-10-04T06:07:52.073869+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [3, 10, 8, 8, 4, 27, 9, 20, 2, 2, 9, 14, 11]
+pushes_per_week: [4, 8, 11, 6, 6, 27, 8, 18, 3, 1, 9, 17, 8]
 windows:
   "7d":
     pushes: 11
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 127
+    pushes: 126
     distinct_repos: 15
-    active_days: 50
+    active_days: 49
     repos_not_owned: 10
     not_owned_basenames: 3
     not_owned_owners: 9
 automation:
   state: "clear"
-  push_per_day: 2.5400
-  repo_per_active_day: 0.3000
+  push_per_day: 2.5714
+  repo_per_active_day: 0.3061
   not_owned_ratio: 0.6667
   basename_concentration: 0.4000
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 127
+    pushes: 126
     distinct_repos: 15
-    pushes_per_repo: 8.4667
-    active_days: 50
+    pushes_per_repo: 8.4000
+    active_days: 49
     repos_not_owned: 10
     not_owned_basenames: 3
     not_owned_owners: 9
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 50 active days in 90d — pass"
+  - "activity: 49 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "opencode-gateway"
@@ -154,6 +154,6 @@ repos:
 
 # M4n5ter
 
-127 pushes across 15 repositories on 50 active days in the last 90 days of public GitHub push activity.
+126 pushes across 15 repositories on 49 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/M4n5ter

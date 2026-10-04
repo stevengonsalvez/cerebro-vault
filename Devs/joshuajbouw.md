@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-03T06:07:13.763334+00:00"
+generated_at: "2026-10-04T06:07:52.073869+00:00"
 provenance:
   - "7216827ad52eded1"
-pushes_per_week: [33, 104, 51, 13, 7, 17, 4, 8, 3, 5, 9, 7, 3]
+pushes_per_week: [30, 114, 42, 11, 7, 19, 4, 6, 4, 5, 11, 4, 5]
 windows:
   "7d":
-    pushes: 3
-    distinct_repos: 1
-    active_days: 3
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 5
+    distinct_repos: 2
+    active_days: 4
+    repos_not_owned: 2
+    not_owned_basenames: 2
+    not_owned_owners: 2
   "30d":
-    pushes: 24
+    pushes: 26
     distinct_repos: 4
-    active_days: 13
+    active_days: 14
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 2
   "90d":
-    pushes: 264
+    pushes: 262
     distinct_repos: 20
     active_days: 56
     repos_not_owned: 19
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 4
 automation:
   state: "clear"
-  push_per_day: 4.7143
+  push_per_day: 4.6786
   repo_per_active_day: 0.3571
   not_owned_ratio: 0.9500
   basename_concentration: 0.1500
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 3
-    distinct_repos: 1
-    pushes_per_repo: 3.0000
-    active_days: 3
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 5
+    distinct_repos: 2
+    pushes_per_repo: 2.5000
+    active_days: 4
+    repos_not_owned: 2
+    not_owned_basenames: 2
+    not_owned_owners: 2
   "30d":
-    pushes: 24
+    pushes: 26
     distinct_repos: 4
-    pushes_per_repo: 6.0000
-    active_days: 13
+    pushes_per_repo: 6.5000
+    active_days: 14
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 2
   "90d":
-    pushes: 264
+    pushes: 262
     distinct_repos: 20
-    pushes_per_repo: 13.2000
+    pushes_per_repo: 13.1000
     active_days: 56
     repos_not_owned: 19
     not_owned_basenames: 15
@@ -129,6 +129,6 @@ repos:
 
 # joshuajbouw
 
-264 pushes across 20 repositories on 56 active days in the last 90 days of public GitHub push activity.
+262 pushes across 20 repositories on 56 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/joshuajbouw

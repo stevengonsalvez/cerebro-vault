@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-03T06:07:13.763334+00:00"
+generated_at: "2026-10-04T06:07:52.073869+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [0, 1, 0, 1, 0, 1, 0, 0, 0, 0, 0, 4, 2]
+pushes_per_week: [0, 1, 0, 1, 1, 0, 0, 0, 0, 0, 0, 5, 3]
 windows:
   "7d":
-    pushes: 2
+    pushes: 4
     distinct_repos: 1
-    active_days: 2
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 6
+    pushes: 8
     distinct_repos: 1
-    active_days: 4
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 9
+    pushes: 11
     distinct_repos: 4
-    active_days: 7
+    active_days: 8
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.2857
-  repo_per_active_day: 0.5714
+  push_per_day: 1.3750
+  repo_per_active_day: 0.5000
   not_owned_ratio: 0.0000
   basename_concentration: 0.2500
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
+    pushes: 4
     distinct_repos: 1
-    pushes_per_repo: 2.0000
-    active_days: 2
+    pushes_per_repo: 4.0000
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 6
+    pushes: 8
     distinct_repos: 1
-    pushes_per_repo: 6.0000
-    active_days: 4
+    pushes_per_repo: 8.0000
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 9
+    pushes: 11
     distinct_repos: 4
-    pushes_per_repo: 2.2500
-    active_days: 7
+    pushes_per_repo: 2.7500
+    active_days: 8
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 7 active days in 90d — pass"
+  - "activity: 8 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "aws-firmware-dump"
@@ -134,6 +134,6 @@ repos:
 
 # radkawar
 
-9 pushes across 4 repositories on 7 active days in the last 90 days of public GitHub push activity.
+11 pushes across 4 repositories on 8 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/radkawar

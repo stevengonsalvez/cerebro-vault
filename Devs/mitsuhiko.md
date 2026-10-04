@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-03T06:07:13.763334+00:00"
+generated_at: "2026-10-04T06:07:52.073869+00:00"
 provenance:
   - "3eacb4655aba2497"
-pushes_per_week: [15, 6, 7, 8, 10, 7, 1, 2, 0, 0, 1, 8, 37]
+pushes_per_week: [8, 8, 6, 8, 10, 6, 2, 1, 0, 0, 2, 19, 28]
 windows:
   "7d":
-    pushes: 41
+    pushes: 40
     distinct_repos: 2
     active_days: 7
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 46
+    pushes: 49
     distinct_repos: 3
-    active_days: 11
+    active_days: 12
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 102
+    pushes: 98
     distinct_repos: 14
     active_days: 40
     repos_not_owned: 6
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 2.5500
+  push_per_day: 2.4500
   repo_per_active_day: 0.3500
   not_owned_ratio: 0.4286
   basename_concentration: 0.1429
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 41
+    pushes: 40
     distinct_repos: 2
-    pushes_per_repo: 20.5000
+    pushes_per_repo: 20.0000
     active_days: 7
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 46
+    pushes: 49
     distinct_repos: 3
-    pushes_per_repo: 15.3333
-    active_days: 11
+    pushes_per_repo: 16.3333
+    active_days: 12
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 102
+    pushes: 98
     distinct_repos: 14
-    pushes_per_repo: 7.2857
+    pushes_per_repo: 7.0000
     active_days: 40
     repos_not_owned: 6
     not_owned_basenames: 5
@@ -138,6 +138,6 @@ repos:
 
 # mitsuhiko
 
-102 pushes across 14 repositories on 40 active days in the last 90 days of public GitHub push activity.
+98 pushes across 14 repositories on 40 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/mitsuhiko

@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-03T06:07:13.763334+00:00"
+generated_at: "2026-10-04T06:07:52.073869+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [82, 79, 52, 70, 65, 34, 13, 13, 1, 8, 11, 67, 81]
+pushes_per_week: [78, 69, 61, 77, 50, 28, 23, 3, 2, 9, 10, 98, 72]
 windows:
   "7d":
-    pushes: 94
-    distinct_repos: 9
+    pushes: 100
+    distinct_repos: 10
     active_days: 7
     repos_not_owned: 8
     not_owned_basenames: 8
     not_owned_owners: 2
   "30d":
-    pushes: 167
-    distinct_repos: 16
-    active_days: 21
-    repos_not_owned: 11
-    not_owned_basenames: 11
+    pushes: 190
+    distinct_repos: 17
+    active_days: 22
+    repos_not_owned: 12
+    not_owned_basenames: 12
     not_owned_owners: 2
   "90d":
-    pushes: 576
+    pushes: 580
     distinct_repos: 25
     active_days: 67
     repos_not_owned: 16
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 8.5970
+  push_per_day: 8.6567
   repo_per_active_day: 0.3731
   not_owned_ratio: 0.6400
   basename_concentration: 0.0400
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 94
-    distinct_repos: 9
-    pushes_per_repo: 10.4444
+    pushes: 100
+    distinct_repos: 10
+    pushes_per_repo: 10.0000
     active_days: 7
     repos_not_owned: 8
     not_owned_basenames: 8
     not_owned_owners: 2
   "30d":
-    pushes: 167
-    distinct_repos: 16
-    pushes_per_repo: 10.4375
-    active_days: 21
-    repos_not_owned: 11
-    not_owned_basenames: 11
+    pushes: 190
+    distinct_repos: 17
+    pushes_per_repo: 11.1765
+    active_days: 22
+    repos_not_owned: 12
+    not_owned_basenames: 12
     not_owned_owners: 2
   "90d":
-    pushes: 576
+    pushes: 580
     distinct_repos: 25
-    pushes_per_repo: 23.0400
+    pushes_per_repo: 23.2000
     active_days: 67
     repos_not_owned: 16
     not_owned_basenames: 16
@@ -129,6 +129,6 @@ repos:
 
 # paralin
 
-576 pushes across 25 repositories on 67 active days in the last 90 days of public GitHub push activity.
+580 pushes across 25 repositories on 67 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/paralin

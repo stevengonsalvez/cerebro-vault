@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-03T06:07:13.763334+00:00"
+generated_at: "2026-10-04T06:07:52.073869+00:00"
 provenance:
   - "dffbb846389f9a26"
-pushes_per_week: [14, 14, 7, 2, 7, 6, 1, 1, 0, 1, 3, 2, 2]
+pushes_per_week: [10, 14, 6, 3, 7, 5, 2, 0, 0, 2, 2, 2, 2]
 windows:
   "7d":
-    pushes: 3
-    distinct_repos: 2
-    active_days: 2
+    pushes: 2
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 60
+    pushes: 55
     distinct_repos: 13
-    active_days: 42
+    active_days: 41
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.4286
-  repo_per_active_day: 0.3095
+  push_per_day: 1.3415
+  repo_per_active_day: 0.3171
   not_owned_ratio: 0.0769
   basename_concentration: 0.0769
   shapes: []
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 3
-    distinct_repos: 2
-    pushes_per_repo: 1.5000
-    active_days: 2
+    pushes: 2
+    distinct_repos: 1
+    pushes_per_repo: 2.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 60
+    pushes: 55
     distinct_repos: 13
-    pushes_per_repo: 4.6154
-    active_days: 42
+    pushes_per_repo: 4.2308
+    active_days: 41
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 42 active days in 90d — pass"
+  - "activity: 41 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "crazy_haskell"
@@ -154,6 +154,6 @@ repos:
 
 # vil02
 
-60 pushes across 13 repositories on 42 active days in the last 90 days of public GitHub push activity.
+55 pushes across 13 repositories on 41 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/vil02
