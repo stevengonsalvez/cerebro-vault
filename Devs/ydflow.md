@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-04T06:07:52.073869+00:00"
+generated_at: "2026-10-05T06:05:47.512530+00:00"
 provenance:
   - "c489e6fb5febf2ab"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 14, 7]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 17, 4]
 windows:
   "7d":
-    pushes: 8
-    distinct_repos: 3
-    active_days: 4
+    pushes: 7
+    distinct_repos: 4
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 21
-    distinct_repos: 9
+    pushes: 22
+    distinct_repos: 10
     active_days: 8
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 21
-    distinct_repos: 9
+    pushes: 22
+    distinct_repos: 10
     active_days: 8
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.6250
-  repo_per_active_day: 1.1250
+  push_per_day: 2.7500
+  repo_per_active_day: 1.2500
   not_owned_ratio: 0.0000
-  basename_concentration: 0.1111
+  basename_concentration: 0.1000
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 8
-    distinct_repos: 3
-    pushes_per_repo: 2.6667
-    active_days: 4
+    pushes: 7
+    distinct_repos: 4
+    pushes_per_repo: 1.7500
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 21
-    distinct_repos: 9
-    pushes_per_repo: 2.3333
+    pushes: 22
+    distinct_repos: 10
+    pushes_per_repo: 2.2000
     active_days: 8
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 21
-    distinct_repos: 9
-    pushes_per_repo: 2.3333
+    pushes: 22
+    distinct_repos: 10
+    pushes_per_repo: 2.2000
     active_days: 8
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -128,6 +128,6 @@ repos:
 
 # ydflow
 
-21 pushes across 9 repositories on 8 active days in the last 90 days of public GitHub push activity.
+22 pushes across 10 repositories on 8 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ydflow

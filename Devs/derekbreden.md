@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-04T06:07:52.073869+00:00"
+generated_at: "2026-10-05T06:05:47.512530+00:00"
 provenance:
   - "0b22ca37fd3884c9"
-pushes_per_week: [37, 41, 24, 25, 59, 64, 30, 40, 3, 10, 77, 57, 45]
+pushes_per_week: [32, 43, 26, 27, 58, 64, 39, 25, 4, 17, 89, 43, 55]
 windows:
   "7d":
-    pushes: 45
+    pushes: 60
     distinct_repos: 1
     active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 191
+    pushes: 207
     distinct_repos: 2
-    active_days: 27
+    active_days: 28
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 512
+    pushes: 522
     distinct_repos: 4
     active_days: 82
     repos_not_owned: 0
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 6.2439
+  push_per_day: 6.3659
   repo_per_active_day: 0.0488
   not_owned_ratio: 0.0000
   basename_concentration: 0.2500
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 45
+    pushes: 60
     distinct_repos: 1
-    pushes_per_repo: 45.0000
+    pushes_per_repo: 60.0000
     active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 191
+    pushes: 207
     distinct_repos: 2
-    pushes_per_repo: 95.5000
-    active_days: 27
+    pushes_per_repo: 103.5000
+    active_days: 28
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 512
+    pushes: 522
     distinct_repos: 4
-    pushes_per_repo: 128.0000
+    pushes_per_repo: 130.5000
     active_days: 82
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -84,7 +84,7 @@ repos:
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-09-27"
+    last_push: "2026-10-05"
   - name: "claude-code-setup"
     title: "claude-code-setup"
     description: "My Claude Code customizations: guardrail hooks, the jsonl2md session-relay tool, the /relay command, and the Salon Protocol."
@@ -129,6 +129,6 @@ repos:
 
 # derekbreden
 
-512 pushes across 4 repositories on 82 active days in the last 90 days of public GitHub push activity.
+522 pushes across 4 repositories on 82 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/derekbreden

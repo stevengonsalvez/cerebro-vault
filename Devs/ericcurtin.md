@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-04T06:07:52.073869+00:00"
+generated_at: "2026-10-05T06:05:47.512530+00:00"
 provenance:
   - "a5ffcd0a46dd44fd"
-pushes_per_week: [14, 35, 30, 25, 12, 14, 1, 6, 2, 8, 11, 29, 56]
+pushes_per_week: [6, 36, 27, 25, 13, 13, 3, 4, 6, 7, 9, 39, 58]
 windows:
   "7d":
-    pushes: 65
-    distinct_repos: 25
-    active_days: 7
-    repos_not_owned: 10
-    not_owned_basenames: 7
-    not_owned_owners: 7
-  "30d":
-    pushes: 106
+    pushes: 69
     distinct_repos: 29
+    active_days: 7
+    repos_not_owned: 11
+    not_owned_basenames: 8
+    not_owned_owners: 8
+  "30d":
+    pushes: 119
+    distinct_repos: 33
     active_days: 27
-    repos_not_owned: 10
-    not_owned_basenames: 7
-    not_owned_owners: 7
+    repos_not_owned: 11
+    not_owned_basenames: 8
+    not_owned_owners: 8
   "90d":
-    pushes: 243
-    distinct_repos: 39
-    active_days: 58
-    repos_not_owned: 10
-    not_owned_basenames: 7
-    not_owned_owners: 7
+    pushes: 246
+    distinct_repos: 42
+    active_days: 57
+    repos_not_owned: 11
+    not_owned_basenames: 8
+    not_owned_owners: 8
 automation:
   state: "clear"
-  push_per_day: 4.1897
-  repo_per_active_day: 0.6724
-  not_owned_ratio: 0.2564
-  basename_concentration: 0.1026
+  push_per_day: 4.3158
+  repo_per_active_day: 0.7368
+  not_owned_ratio: 0.2619
+  basename_concentration: 0.0952
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 65
-    distinct_repos: 25
-    pushes_per_repo: 2.6000
-    active_days: 7
-    repos_not_owned: 10
-    not_owned_basenames: 7
-    not_owned_owners: 7
-  "30d":
-    pushes: 106
+    pushes: 69
     distinct_repos: 29
-    pushes_per_repo: 3.6552
+    pushes_per_repo: 2.3793
+    active_days: 7
+    repos_not_owned: 11
+    not_owned_basenames: 8
+    not_owned_owners: 8
+  "30d":
+    pushes: 119
+    distinct_repos: 33
+    pushes_per_repo: 3.6061
     active_days: 27
-    repos_not_owned: 10
-    not_owned_basenames: 7
-    not_owned_owners: 7
+    repos_not_owned: 11
+    not_owned_basenames: 8
+    not_owned_owners: 8
   "90d":
-    pushes: 243
-    distinct_repos: 39
-    pushes_per_repo: 6.2308
-    active_days: 58
-    repos_not_owned: 10
-    not_owned_basenames: 7
-    not_owned_owners: 7
+    pushes: 246
+    distinct_repos: 42
+    pushes_per_repo: 5.8571
+    active_days: 57
+    repos_not_owned: 11
+    not_owned_basenames: 8
+    not_owned_owners: 8
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 58 active days in 90d — pass"
+  - "activity: 57 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "agenticlinux"
@@ -129,6 +129,6 @@ repos:
 
 # ericcurtin
 
-243 pushes across 39 repositories on 58 active days in the last 90 days of public GitHub push activity.
+246 pushes across 42 repositories on 57 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ericcurtin

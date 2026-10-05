@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-04T06:07:52.073869+00:00"
+generated_at: "2026-10-05T06:05:47.512530+00:00"
 provenance:
   - "4138778ebbc75ba6"
-pushes_per_week: [15, 18, 18, 13, 7, 31, 5, 4, 0, 6, 4, 1, 4]
+pushes_per_week: [17, 19, 19, 11, 7, 32, 4, 2, 1, 5, 4, 1, 6]
 windows:
   "7d":
-    pushes: 4
+    pushes: 6
     distinct_repos: 3
-    active_days: 3
+    active_days: 4
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 15
+    pushes: 17
     distinct_repos: 5
-    active_days: 9
+    active_days: 10
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 126
+    pushes: 128
     distinct_repos: 10
-    active_days: 42
+    active_days: 43
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 3.0000
-  repo_per_active_day: 0.2381
+  push_per_day: 2.9767
+  repo_per_active_day: 0.2326
   not_owned_ratio: 0.3000
   basename_concentration: 0.2000
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 4
+    pushes: 6
     distinct_repos: 3
-    pushes_per_repo: 1.3333
-    active_days: 3
+    pushes_per_repo: 2.0000
+    active_days: 4
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 15
+    pushes: 17
     distinct_repos: 5
-    pushes_per_repo: 3.0000
-    active_days: 9
+    pushes_per_repo: 3.4000
+    active_days: 10
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 126
+    pushes: 128
     distinct_repos: 10
-    pushes_per_repo: 12.6000
-    active_days: 42
+    pushes_per_repo: 12.8000
+    active_days: 43
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 42 active days in 90d — pass"
+  - "activity: 43 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "nfse4j"
@@ -141,6 +141,6 @@ repos:
 
 # omartelo
 
-126 pushes across 10 repositories on 42 active days in the last 90 days of public GitHub push activity.
+128 pushes across 10 repositories on 43 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/omartelo

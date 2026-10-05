@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-04T06:07:52.073869+00:00"
+generated_at: "2026-10-05T06:05:47.512530+00:00"
 provenance:
   - "533d51d9d3dea76f"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 28, 1, 6]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 28, 1, 7]
 windows:
   "7d":
-    pushes: 6
+    pushes: 7
     distinct_repos: 2
-    active_days: 2
+    active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 35
+    pushes: 36
     distinct_repos: 2
-    active_days: 5
+    active_days: 6
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 35
+    pushes: 36
     distinct_repos: 2
-    active_days: 5
+    active_days: 6
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 7.0000
-  repo_per_active_day: 0.4000
+  push_per_day: 6.0000
+  repo_per_active_day: 0.3333
   not_owned_ratio: 0.5000
   basename_concentration: 1.0000
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 6
+    pushes: 7
     distinct_repos: 2
-    pushes_per_repo: 3.0000
-    active_days: 2
+    pushes_per_repo: 3.5000
+    active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 35
+    pushes: 36
     distinct_repos: 2
-    pushes_per_repo: 17.5000
-    active_days: 5
+    pushes_per_repo: 18.0000
+    active_days: 6
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 35
+    pushes: 36
     distinct_repos: 2
-    pushes_per_repo: 17.5000
-    active_days: 5
+    pushes_per_repo: 18.0000
+    active_days: 6
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 5 active days in 90d — pass"
+  - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "platformio-mcp"
@@ -129,6 +129,6 @@ repos:
 
 # jl-codes
 
-35 pushes across 2 repositories on 5 active days in the last 90 days of public GitHub push activity.
+36 pushes across 2 repositories on 6 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/jl-codes

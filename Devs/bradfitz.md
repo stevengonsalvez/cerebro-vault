@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-04T06:07:52.073869+00:00"
+generated_at: "2026-10-05T06:05:47.512530+00:00"
 provenance:
   - "e2f800cf55605b30"
-pushes_per_week: [10, 16, 4, 5, 1, 0, 0, 0, 2, 1, 8, 9, 6]
+pushes_per_week: [13, 13, 4, 4, 1, 0, 0, 0, 2, 2, 8, 8, 6]
 windows:
   "7d":
     pushes: 6
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 5
     not_owned_owners: 2
   "90d":
-    pushes: 62
+    pushes: 61
     distinct_repos: 11
-    active_days: 33
+    active_days: 32
     repos_not_owned: 6
     not_owned_basenames: 6
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 1.8788
-  repo_per_active_day: 0.3333
+  push_per_day: 1.9062
+  repo_per_active_day: 0.3438
   not_owned_ratio: 0.5455
   basename_concentration: 0.0909
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 5
     not_owned_owners: 2
   "90d":
-    pushes: 62
+    pushes: 61
     distinct_repos: 11
-    pushes_per_repo: 5.6364
-    active_days: 33
+    pushes_per_repo: 5.5455
+    active_days: 32
     repos_not_owned: 6
     not_owned_basenames: 6
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 33 active days in 90d — pass"
+  - "activity: 32 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "go-tool-cache"
@@ -132,6 +132,6 @@ repos:
 
 # bradfitz
 
-62 pushes across 11 repositories on 33 active days in the last 90 days of public GitHub push activity.
+61 pushes across 11 repositories on 32 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/bradfitz

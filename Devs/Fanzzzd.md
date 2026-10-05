@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-04T06:07:52.073869+00:00"
+generated_at: "2026-10-05T06:05:47.512530+00:00"
 provenance:
   - "c489e6fb5febf2ab"
-pushes_per_week: [0, 5, 2, 1, 3, 7, 22, 0, 1, 2, 0, 1, 1]
+pushes_per_week: [0, 5, 2, 1, 3, 20, 9, 0, 3, 0, 0, 1, 2]
 windows:
   "7d":
-    pushes: 1
+    pushes: 2
     distinct_repos: 1
-    active_days: 1
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 4
+    pushes: 5
     distinct_repos: 2
-    active_days: 3
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 45
+    pushes: 46
     distinct_repos: 8
-    active_days: 17
+    active_days: 18
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.6471
-  repo_per_active_day: 0.4706
+  push_per_day: 2.5556
+  repo_per_active_day: 0.4444
   not_owned_ratio: 0.0000
   basename_concentration: 0.1250
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
+    pushes: 2
     distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes_per_repo: 2.0000
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 4
+    pushes: 5
     distinct_repos: 2
-    pushes_per_repo: 2.0000
-    active_days: 3
+    pushes_per_repo: 2.5000
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 45
+    pushes: 46
     distinct_repos: 8
-    pushes_per_repo: 5.6250
-    active_days: 17
+    pushes_per_repo: 5.7500
+    active_days: 18
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 17 active days in 90d — pass"
+  - "activity: 18 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "convex-logto"
@@ -149,6 +149,6 @@ repos:
 
 # Fanzzzd
 
-45 pushes across 8 repositories on 17 active days in the last 90 days of public GitHub push activity.
+46 pushes across 8 repositories on 18 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Fanzzzd

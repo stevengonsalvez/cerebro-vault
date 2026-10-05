@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-04T06:07:52.073869+00:00"
+generated_at: "2026-10-05T06:05:47.512530+00:00"
 provenance:
   - "3eacb4655aba2497"
-pushes_per_week: [35, 30, 22, 18, 6, 10, 6, 4, 0, 2, 9, 15, 6]
+pushes_per_week: [22, 28, 18, 19, 5, 14, 2, 4, 0, 3, 8, 15, 6]
 windows:
   "7d":
     pushes: 6
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 10
     not_owned_owners: 6
   "90d":
-    pushes: 163
-    distinct_repos: 33
-    active_days: 54
-    repos_not_owned: 26
-    not_owned_basenames: 25
+    pushes: 144
+    distinct_repos: 32
+    active_days: 53
+    repos_not_owned: 25
+    not_owned_basenames: 24
     not_owned_owners: 10
 automation:
   state: "clear"
-  push_per_day: 3.0185
-  repo_per_active_day: 0.6111
-  not_owned_ratio: 0.7879
-  basename_concentration: 0.0606
+  push_per_day: 2.7170
+  repo_per_active_day: 0.6038
+  not_owned_ratio: 0.7812
+  basename_concentration: 0.0625
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 10
     not_owned_owners: 6
   "90d":
-    pushes: 163
-    distinct_repos: 33
-    pushes_per_repo: 4.9394
-    active_days: 54
-    repos_not_owned: 26
-    not_owned_basenames: 25
+    pushes: 144
+    distinct_repos: 32
+    pushes_per_repo: 4.5000
+    active_days: 53
+    repos_not_owned: 25
+    not_owned_basenames: 24
     not_owned_owners: 10
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 54 active days in 90d — pass"
+  - "activity: 53 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "make-promises-safe"
@@ -129,6 +129,6 @@ repos:
 
 # mcollina
 
-163 pushes across 33 repositories on 54 active days in the last 90 days of public GitHub push activity.
+144 pushes across 32 repositories on 53 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/mcollina

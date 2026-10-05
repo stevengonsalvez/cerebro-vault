@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-04T06:07:52.073869+00:00"
+generated_at: "2026-10-05T06:05:47.512530+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [1, 17, 7, 7, 0, 6, 2, 7, 0, 0, 2, 0, 0]
+pushes_per_week: [2, 16, 9, 5, 0, 6, 2, 7, 0, 0, 2, 0, 2]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
-  "30d":
     pushes: 2
-    distinct_repos: 1
+    distinct_repos: 2
     active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
+  "30d":
+    pushes: 4
+    distinct_repos: 2
+    active_days: 2
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
-    pushes: 49
-    distinct_repos: 12
-    active_days: 21
+    pushes: 51
+    distinct_repos: 13
+    active_days: 22
     repos_not_owned: 4
     not_owned_basenames: 3
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 2.3333
-  repo_per_active_day: 0.5714
-  not_owned_ratio: 0.3333
-  basename_concentration: 0.1667
+  push_per_day: 2.3182
+  repo_per_active_day: 0.5909
+  not_owned_ratio: 0.3077
+  basename_concentration: 0.1538
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
-  "30d":
     pushes: 2
-    distinct_repos: 1
-    pushes_per_repo: 2.0000
+    distinct_repos: 2
+    pushes_per_repo: 1.0000
     active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
+  "30d":
+    pushes: 4
+    distinct_repos: 2
+    pushes_per_repo: 2.0000
+    active_days: 2
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
-    pushes: 49
-    distinct_repos: 12
-    pushes_per_repo: 4.0833
-    active_days: 21
+    pushes: 51
+    distinct_repos: 13
+    pushes_per_repo: 3.9231
+    active_days: 22
     repos_not_owned: 4
     not_owned_basenames: 3
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 21 active days in 90d — pass"
+  - "activity: 22 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "workers-hono-rate-limit"
@@ -149,6 +149,6 @@ repos:
 
 # elithrar
 
-49 pushes across 12 repositories on 21 active days in the last 90 days of public GitHub push activity.
+51 pushes across 13 repositories on 22 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/elithrar

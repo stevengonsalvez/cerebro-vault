@@ -10,16 +10,16 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-04T06:07:52.073869+00:00"
+generated_at: "2026-10-05T06:05:47.512530+00:00"
 provenance:
   - "234088bc43763aa2"
   - "3c90af76cbde0363"
-pushes_per_week: [193, 174, 72, 41, 23, 34, 3, 1, 1, 2, 4, 10, 5]
+pushes_per_week: [158, 160, 69, 35, 25, 35, 0, 2, 0, 2, 5, 10, 4]
 windows:
   "7d":
-    pushes: 7
+    pushes: 4
     distinct_repos: 2
-    active_days: 5
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -31,16 +31,16 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 3
   "90d":
-    pushes: 563
+    pushes: 505
     distinct_repos: 20
-    active_days: 55
+    active_days: 54
     repos_not_owned: 7
     not_owned_basenames: 6
     not_owned_owners: 6
 automation:
   state: "clear"
-  push_per_day: 10.2364
-  repo_per_active_day: 0.3636
+  push_per_day: 9.3519
+  repo_per_active_day: 0.3704
   not_owned_ratio: 0.3500
   basename_concentration: 0.1500
   shapes: []
@@ -51,10 +51,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 7
+    pushes: 4
     distinct_repos: 2
-    pushes_per_repo: 3.5000
-    active_days: 5
+    pushes_per_repo: 2.0000
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -67,16 +67,16 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 3
   "90d":
-    pushes: 563
+    pushes: 505
     distinct_repos: 20
-    pushes_per_repo: 28.1500
-    active_days: 55
+    pushes_per_repo: 25.2500
+    active_days: 54
     repos_not_owned: 7
     not_owned_basenames: 6
     not_owned_owners: 6
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 55 active days in 90d — pass"
+  - "activity: 54 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "jev-turtle-soup"
@@ -166,6 +166,6 @@ repos:
 
 # HsiangNianian
 
-563 pushes across 20 repositories on 55 active days in the last 90 days of public GitHub push activity.
+505 pushes across 20 repositories on 54 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/HsiangNianian

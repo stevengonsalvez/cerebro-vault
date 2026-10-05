@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-04T06:07:52.073869+00:00"
+generated_at: "2026-10-05T06:05:47.512530+00:00"
 provenance:
   - "73468cde177ddae6"
-pushes_per_week: [104, 93, 61, 44, 15, 13, 12, 3, 2, 4, 14, 18, 52]
+pushes_per_week: [83, 81, 55, 41, 15, 17, 9, 2, 2, 6, 13, 19, 51]
 windows:
   "7d":
-    pushes: 53
+    pushes: 52
     distinct_repos: 14
     active_days: 7
     repos_not_owned: 10
     not_owned_basenames: 7
     not_owned_owners: 3
   "30d":
-    pushes: 90
+    pushes: 91
     distinct_repos: 18
-    active_days: 24
+    active_days: 25
     repos_not_owned: 10
     not_owned_basenames: 7
     not_owned_owners: 3
   "90d":
-    pushes: 435
+    pushes: 394
     distinct_repos: 28
     active_days: 68
     repos_not_owned: 10
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 6.3971
+  push_per_day: 5.7941
   repo_per_active_day: 0.4118
   not_owned_ratio: 0.3571
   basename_concentration: 0.1429
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 53
+    pushes: 52
     distinct_repos: 14
-    pushes_per_repo: 3.7857
+    pushes_per_repo: 3.7143
     active_days: 7
     repos_not_owned: 10
     not_owned_basenames: 7
     not_owned_owners: 3
   "30d":
-    pushes: 90
+    pushes: 91
     distinct_repos: 18
-    pushes_per_repo: 5.0000
-    active_days: 24
+    pushes_per_repo: 5.0556
+    active_days: 25
     repos_not_owned: 10
     not_owned_basenames: 7
     not_owned_owners: 3
   "90d":
-    pushes: 435
+    pushes: 394
     distinct_repos: 28
-    pushes_per_repo: 15.5357
+    pushes_per_repo: 14.0714
     active_days: 68
     repos_not_owned: 10
     not_owned_basenames: 7
@@ -129,6 +129,6 @@ repos:
 
 # rodboev
 
-435 pushes across 28 repositories on 68 active days in the last 90 days of public GitHub push activity.
+394 pushes across 28 repositories on 68 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/rodboev

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-04T06:07:52.073869+00:00"
+generated_at: "2026-10-05T06:05:47.512530+00:00"
 provenance:
   - "c489e6fb5febf2ab"
-pushes_per_week: [5, 1, 15, 4, 0, 3, 6, 2, 0, 4, 7, 0, 3]
+pushes_per_week: [1, 1, 17, 2, 1, 2, 6, 2, 0, 4, 7, 0, 3]
 windows:
   "7d":
     pushes: 3
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 50
+    pushes: 46
     distinct_repos: 11
-    active_days: 23
+    active_days: 22
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.1739
-  repo_per_active_day: 0.4783
+  push_per_day: 2.0909
+  repo_per_active_day: 0.5000
   not_owned_ratio: 0.0000
   basename_concentration: 0.0909
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 50
+    pushes: 46
     distinct_repos: 11
-    pushes_per_repo: 4.5455
-    active_days: 23
+    pushes_per_repo: 4.1818
+    active_days: 22
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 23 active days in 90d — pass"
+  - "activity: 22 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "asdf-bun"
@@ -153,6 +153,6 @@ repos:
 
 # cometkim
 
-50 pushes across 11 repositories on 23 active days in the last 90 days of public GitHub push activity.
+46 pushes across 11 repositories on 22 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/cometkim

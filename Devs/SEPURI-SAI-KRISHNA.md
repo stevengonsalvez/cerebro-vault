@@ -10,37 +10,37 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-04T06:07:52.073869+00:00"
+generated_at: "2026-10-05T06:05:47.512530+00:00"
 provenance:
   - "73468cde177ddae6"
   - "9d67ce648f6a8919"
-pushes_per_week: [1, 2, 2, 1, 7, 2, 1, 1, 0, 3, 4, 7, 7]
+pushes_per_week: [1, 3, 1, 2, 6, 2, 2, 0, 1, 2, 6, 5, 10]
 windows:
   "7d":
-    pushes: 7
-    distinct_repos: 5
-    active_days: 4
+    pushes: 10
+    distinct_repos: 6
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 21
+    pushes: 24
     distinct_repos: 10
-    active_days: 14
+    active_days: 15
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 38
+    pushes: 41
     distinct_repos: 18
-    active_days: 29
+    active_days: 30
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.3103
-  repo_per_active_day: 0.6207
+  push_per_day: 1.3667
+  repo_per_active_day: 0.6000
   not_owned_ratio: 0.0556
   basename_concentration: 0.0556
   shapes: []
@@ -51,32 +51,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 7
-    distinct_repos: 5
-    pushes_per_repo: 1.4000
-    active_days: 4
+    pushes: 10
+    distinct_repos: 6
+    pushes_per_repo: 1.6667
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 21
+    pushes: 24
     distinct_repos: 10
-    pushes_per_repo: 2.1000
-    active_days: 14
+    pushes_per_repo: 2.4000
+    active_days: 15
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 38
+    pushes: 41
     distinct_repos: 18
-    pushes_per_repo: 2.1111
-    active_days: 29
+    pushes_per_repo: 2.2778
+    active_days: 30
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 29 active days in 90d — pass"
+  - "activity: 30 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "Hackathon-Radar"
@@ -131,6 +131,6 @@ repos:
 
 # SEPURI-SAI-KRISHNA
 
-38 pushes across 18 repositories on 29 active days in the last 90 days of public GitHub push activity.
+41 pushes across 18 repositories on 30 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/SEPURI-SAI-KRISHNA

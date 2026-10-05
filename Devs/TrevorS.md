@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-04T06:07:52.073869+00:00"
+generated_at: "2026-10-05T06:05:47.512530+00:00"
 provenance:
   - "3eacb4655aba2497"
-pushes_per_week: [3, 6, 0, 50, 2, 4, 1, 4, 0, 0, 31, 32, 19]
+pushes_per_week: [1, 6, 4, 48, 0, 4, 4, 1, 0, 0, 33, 30, 20]
 windows:
   "7d":
-    pushes: 19
+    pushes: 20
     distinct_repos: 2
     active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 82
+    pushes: 83
     distinct_repos: 3
     active_days: 15
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 152
+    pushes: 151
     distinct_repos: 10
-    active_days: 35
+    active_days: 34
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 4.3429
-  repo_per_active_day: 0.2857
+  push_per_day: 4.4412
+  repo_per_active_day: 0.2941
   not_owned_ratio: 0.0000
   basename_concentration: 0.1000
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 19
+    pushes: 20
     distinct_repos: 2
-    pushes_per_repo: 9.5000
+    pushes_per_repo: 10.0000
     active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 82
+    pushes: 83
     distinct_repos: 3
-    pushes_per_repo: 27.3333
+    pushes_per_repo: 27.6667
     active_days: 15
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 152
+    pushes: 151
     distinct_repos: 10
-    pushes_per_repo: 15.2000
-    active_days: 35
+    pushes_per_repo: 15.1000
+    active_days: 34
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 35 active days in 90d — pass"
+  - "activity: 34 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "slurper"
@@ -152,6 +152,6 @@ repos:
 
 # TrevorS
 
-152 pushes across 10 repositories on 35 active days in the last 90 days of public GitHub push activity.
+151 pushes across 10 repositories on 34 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/TrevorS

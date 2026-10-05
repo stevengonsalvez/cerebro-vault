@@ -11,40 +11,40 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-04T06:07:52.073869+00:00"
+generated_at: "2026-10-05T06:05:47.512530+00:00"
 provenance:
   - "234088bc43763aa2"
   - "73468cde177ddae6"
   - "edb3a626875732de"
-pushes_per_week: [0, 0, 0, 2, 1, 0, 0, 0, 0, 0, 1, 11, 26]
+pushes_per_week: [0, 0, 0, 2, 1, 0, 0, 0, 0, 0, 1, 12, 27]
 windows:
   "7d":
-    pushes: 26
-    distinct_repos: 16
-    active_days: 4
+    pushes: 28
+    distinct_repos: 18
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 38
-    distinct_repos: 24
-    active_days: 10
+    pushes: 40
+    distinct_repos: 26
+    active_days: 11
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 41
-    distinct_repos: 27
-    active_days: 13
+    pushes: 43
+    distinct_repos: 29
+    active_days: 14
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 3.1538
-  repo_per_active_day: 2.0769
+  push_per_day: 3.0714
+  repo_per_active_day: 2.0714
   not_owned_ratio: 0.0000
-  basename_concentration: 0.0370
+  basename_concentration: 0.0345
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -53,32 +53,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 26
-    distinct_repos: 16
-    pushes_per_repo: 1.6250
-    active_days: 4
+    pushes: 28
+    distinct_repos: 18
+    pushes_per_repo: 1.5556
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 38
-    distinct_repos: 24
-    pushes_per_repo: 1.5833
-    active_days: 10
+    pushes: 40
+    distinct_repos: 26
+    pushes_per_repo: 1.5385
+    active_days: 11
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 41
-    distinct_repos: 27
-    pushes_per_repo: 1.5185
-    active_days: 13
+    pushes: 43
+    distinct_repos: 29
+    pushes_per_repo: 1.4828
+    active_days: 14
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 3 vault signal(s) — pass"
-  - "activity: 13 active days in 90d — pass"
+  - "activity: 14 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "Learn-programing-Web"
@@ -151,6 +151,6 @@ repos:
 
 # SulimanAbdulrazzaq
 
-41 pushes across 27 repositories on 13 active days in the last 90 days of public GitHub push activity.
+43 pushes across 29 repositories on 14 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/SulimanAbdulrazzaq

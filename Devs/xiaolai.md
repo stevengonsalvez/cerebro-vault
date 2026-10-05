@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-04T06:07:52.073869+00:00"
+generated_at: "2026-10-05T06:05:47.512530+00:00"
 provenance:
   - "635453fe3b6ecc12"
-pushes_per_week: [34, 31, 20, 28, 19, 33, 8, 4, 1, 7, 23, 18, 48]
+pushes_per_week: [23, 34, 19, 27, 19, 36, 6, 3, 2, 10, 20, 23, 45]
 windows:
   "7d":
     pushes: 52
-    distinct_repos: 19
+    distinct_repos: 20
     active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 96
-    distinct_repos: 21
-    active_days: 24
+    pushes: 100
+    distinct_repos: 22
+    active_days: 25
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 274
-    distinct_repos: 28
+    pushes: 267
+    distinct_repos: 29
     active_days: 71
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 3.8592
-  repo_per_active_day: 0.3944
+  push_per_day: 3.7606
+  repo_per_active_day: 0.4085
   not_owned_ratio: 0.0000
-  basename_concentration: 0.0357
+  basename_concentration: 0.0345
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -50,24 +50,24 @@ automation:
 facets:
   "7d":
     pushes: 52
-    distinct_repos: 19
-    pushes_per_repo: 2.7368
+    distinct_repos: 20
+    pushes_per_repo: 2.6000
     active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 96
-    distinct_repos: 21
-    pushes_per_repo: 4.5714
-    active_days: 24
+    pushes: 100
+    distinct_repos: 22
+    pushes_per_repo: 4.5455
+    active_days: 25
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 274
-    distinct_repos: 28
-    pushes_per_repo: 9.7857
+    pushes: 267
+    distinct_repos: 29
+    pushes_per_repo: 9.2069
     active_days: 71
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -129,6 +129,6 @@ repos:
 
 # xiaolai
 
-274 pushes across 28 repositories on 71 active days in the last 90 days of public GitHub push activity.
+267 pushes across 29 repositories on 71 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/xiaolai

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-04T06:07:52.073869+00:00"
+generated_at: "2026-10-05T06:05:47.512530+00:00"
 provenance:
   - "0b22ca37fd3884c9"
-pushes_per_week: [0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 1, 4, 1]
+pushes_per_week: [0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 1, 4, 1]
 windows:
   "7d":
     pushes: 1
@@ -77,6 +77,60 @@ reasons:
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "zero-to-robot"
+    title: "zero-to-robot"
+    description: "ゼロからロボット工学を学ぶ学習リポジトリ。スクラッチ実装 → 数値検算 → 可視化 → Typst による数式証明。17 のサンプルアプリはブラウザでシミュレーションできる"
+    language: "HTML"
+    topics:
+      - "control"
+      - "dynamics"
+      - "github-pages"
+      - "imitation-learning"
+      - "kalman-filter"
+      - "kinematics"
+      - "motion-planning"
+      - "mujoco"
+      - "reinforcement-learning"
+      - "robotics"
+      - "simulation"
+      - "typst"
+      - "webassembly"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-04"
+  - name: "gaming"
+    title: "gaming"
+    description: "中華製携帯ゲーム機を教材に、コンピュータとゲーム、ソフト/ハードウェア、中国語を学ぶ調査まとめ"
+    language: null
+    topics:
+      - "chinese"
+      - "emulation"
+      - "game-development"
+      - "handheld"
+      - "japanese"
+      - "knulli"
+      - "retro-gaming"
+      - "retroid-pocket"
+      - "rocknix"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-03"
+  - name: "dotfiles"
+    title: "dotfiles"
+    description: "my macOS development environment — Stow-managed, one-line installer."
+    language: "Lua"
+    topics:
+      - "aerospace"
+      - "brewfile"
+      - "dotfiles"
+      - "lua"
+      - "macos"
+      - "neovim"
+      - "stow"
+      - "wezterm"
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-10-03"
   - name: "closing-quest"
     title: "closing-quest"
     description: "1年間の経理業務を体験する 3D すごろく（月次決算がサブゴール）"
@@ -94,9 +148,27 @@ repos:
       - "typescript"
       - "vite"
       - "webgl"
-    stars_fact: 0
+    stars_fact: 1
     first_seen: null
     last_push: "2026-09-26"
+  - name: "puzzle-drive-gp"
+    title: "puzzle-drive-gp"
+    description: "A turn-based Pyxel/WASM racing game: match-3 puzzle movement, flick-physics duels, gacha driver collection."
+    language: "Python"
+    topics:
+      - "browser-game"
+      - "gacha"
+      - "game"
+      - "procedural-generation"
+      - "puzzle-game"
+      - "python"
+      - "pyxel"
+      - "retro-game"
+      - "wasm"
+      - "webassembly"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-27"
   - name: "accounting-quest"
     title: "accounting-quest"
     description: "A visual novel-style educational game that teaches accounting fundamentals through running a lemonade stand. Built with Phaser 3 and TypeScript."
@@ -117,74 +189,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-09-26"
-  - name: "dotfiles"
-    title: "dotfiles"
-    description: "my macOS development environment — Stow-managed, one-line installer."
-    language: "Lua"
-    topics:
-      - "aerospace"
-      - "brewfile"
-      - "dotfiles"
-      - "lua"
-      - "macos"
-      - "neovim"
-      - "stow"
-      - "wezterm"
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-09-26"
-  - name: "Insomnim"
-    title: "Insomnim"
-    description: "Insomnia + Nim — a CLI and menu bar app that keeps macOS awake via IOKit Power Management, without shelling out to caffeinate"
-    language: "Nim"
-    topics:
-      - "caffeinate"
-      - "cli"
-      - "iokit"
-      - "macos"
-      - "menu-bar-app"
-      - "nim"
-      - "power-management"
-      - "sleep"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-25"
-  - name: "tsumugi"
-    title: "tsumugi"
-    description: "Lightweight, type-safe workflow engine for Rust. Embed branching, retryable pipelines in your application without a database or server."
-    language: "Rust"
-    topics:
-      - "async"
-      - "dag"
-      - "elt"
-      - "embeddable"
-      - "etl"
-      - "orchestration"
-      - "pipeline"
-      - "rust"
-      - "state-machine"
-      - "tokio"
-      - "workflow"
-      - "workflow-engine"
-    stars_fact: 8
-    first_seen: null
-    last_push: "2026-09-24"
-  - name: "homebrew-tap"
-    title: "homebrew-tap"
-    description: "🍺 Homebrew tap for kiwamizamurai's CLI tools"
-    language: "Ruby"
-    topics:
-      - "cli"
-      - "cli-tools"
-      - "developer-tools"
-      - "github"
-      - "homebrew"
-      - "homebrew-formula"
-      - "homebrew-tap"
-      - "macos"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-18"
 ---
 
 # kiwamizamurai

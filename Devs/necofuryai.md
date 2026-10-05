@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-04T06:07:52.073869+00:00"
+generated_at: "2026-10-05T06:05:47.512530+00:00"
 provenance:
   - "0b22ca37fd3884c9"
-pushes_per_week: [0, 12, 12, 5, 1, 6, 2, 0, 1, 1, 0, 1, 2]
+pushes_per_week: [0, 16, 9, 5, 1, 6, 1, 1, 0, 1, 0, 1, 2]
 windows:
   "7d":
     pushes: 2
@@ -77,14 +77,6 @@ reasons:
   - "activity: 21 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "dotfiles"
-    title: "dotfiles"
-    description: "Personal macOS configuration, managed with chezmoi"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-27"
   - name: "necofuryai"
     title: "necofuryai"
     description: "necofuryai GitHub profile"
@@ -92,23 +84,15 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-27"
-  - name: "genko-zed"
-    title: "genko-zed"
-    description: "Lightweight writing tools for Japanese fiction and technical articles (Zed extension)"
-    language: "C"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-27"
+    last_push: "2026-10-05"
   - name: "necofuryai.dev"
     title: "necofuryai.dev"
     description: null
-    language: "Astro"
+    language: "JavaScript"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-24"
+    last_push: "2026-10-04"
   - name: "agent-skills"
     title: "agent-skills"
     description: "Agent skills for Claude Code and Codex"
@@ -119,7 +103,23 @@ repos:
       - "codex"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-24"
+    last_push: "2026-10-02"
+  - name: "dotfiles"
+    title: "dotfiles"
+    description: "Personal macOS configuration, managed with chezmoi"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-30"
+  - name: "genko-zed"
+    title: "genko-zed"
+    description: "Lightweight writing tools for Japanese fiction and technical articles (Zed extension)"
+    language: "C"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-01"
   - name: "depatrol"
     title: "depatrol"
     description: "Read-only control plane for dependency update bots (Dependabot/Renovate)"

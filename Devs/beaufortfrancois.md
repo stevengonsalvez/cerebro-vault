@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-04T06:07:52.073869+00:00"
+generated_at: "2026-10-05T06:05:47.512530+00:00"
 provenance:
   - "379642deb53f3714"
-pushes_per_week: [3, 0, 0, 1, 3, 3, 1, 0, 0, 0, 1, 1, 7]
+pushes_per_week: [1, 0, 0, 1, 3, 3, 1, 0, 0, 0, 2, 1, 6]
 windows:
   "7d":
     pushes: 7
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 4
     not_owned_owners: 3
   "90d":
-    pushes: 20
+    pushes: 18
     distinct_repos: 9
-    active_days: 13
+    active_days: 12
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 4
 automation:
   state: "clear"
-  push_per_day: 1.5385
-  repo_per_active_day: 0.6923
+  push_per_day: 1.5000
+  repo_per_active_day: 0.7500
   not_owned_ratio: 0.5556
   basename_concentration: 0.2222
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 4
     not_owned_owners: 3
   "90d":
-    pushes: 20
+    pushes: 18
     distinct_repos: 9
-    pushes_per_repo: 2.2222
-    active_days: 13
+    pushes_per_repo: 2.0000
+    active_days: 12
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 4
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 13 active days in 90d — pass"
+  - "activity: 12 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "model-context-tool-inspector"
@@ -137,6 +137,6 @@ repos:
 
 # beaufortfrancois
 
-20 pushes across 9 repositories on 13 active days in the last 90 days of public GitHub push activity.
+18 pushes across 9 repositories on 12 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/beaufortfrancois

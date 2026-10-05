@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-04T06:07:52.073869+00:00"
+generated_at: "2026-10-05T06:05:47.512530+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 3, 7, 9]
+pushes_per_week: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 3, 13, 3]
 windows:
   "7d":
-    pushes: 11
-    distinct_repos: 2
-    active_days: 4
+    pushes: 9
+    distinct_repos: 1
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 11
-    distinct_repos: 2
-    pushes_per_repo: 5.5000
-    active_days: 4
+    pushes: 9
+    distinct_repos: 1
+    pushes_per_repo: 9.0000
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -77,36 +77,36 @@ reasons:
   - "activity: 8 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "opencode-vim"
-    title: "opencode-vim"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 21
-    first_seen: null
-    last_push: "2026-09-27"
   - name: "opencode-dynamic-context-pruning"
     title: "opencode-dynamic-context-pruning"
     description: "Dynamic context pruning plugin for OpenCode - intelligently manages conversation context to optimize token usage"
     language: "TypeScript"
     topics: []
-    stars_fact: 4276
+    stars_fact: 4311
     first_seen: null
     last_push: "2026-09-25"
+  - name: "opencode-vim"
+    title: "opencode-vim"
+    description: "Vim-style editing and conversation navigation for OpenCode. Edit prompts, select and copy text, and browse your chats—all from the keyboard."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 74
+    first_seen: null
+    last_push: "2026-10-03"
   - name: "oc-tps"
     title: "oc-tps"
     description: "OpenCode plugin for viewing LLM Tokens Per Second (TPS) rates"
     language: "TypeScript"
     topics: []
-    stars_fact: 164
+    stars_fact: 167
     first_seen: null
-    last_push: "2026-09-21"
+    last_push: "2026-09-27"
   - name: "opencode-smart-title"
     title: "opencode-smart-title"
     description: "Auto-generate meaningful session titles for OpenCode conversations using AI"
     language: "TypeScript"
     topics: []
-    stars_fact: 55
+    stars_fact: 56
     first_seen: null
     last_push: "2025-12-25"
   - name: "opencode-btw-plus"
@@ -116,7 +116,7 @@ repos:
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-09-20"
+    last_push: "2026-09-27"
   - name: "codex-fast-tier-repro"
     title: "codex-fast-tier-repro"
     description: null

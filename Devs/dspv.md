@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-04T06:07:52.073869+00:00"
+generated_at: "2026-10-05T06:05:47.512530+00:00"
 provenance:
   - "73468cde177ddae6"
-pushes_per_week: [0, 1, 0, 0, 0, 0, 7, 4, 3, 6, 1, 4, 9]
+pushes_per_week: [1, 0, 0, 0, 0, 0, 9, 2, 3, 6, 1, 4, 18]
 windows:
   "7d":
-    pushes: 9
-    distinct_repos: 2
-    active_days: 4
+    pushes: 18
+    distinct_repos: 3
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 23
+    pushes: 32
     distinct_repos: 6
-    active_days: 11
+    active_days: 12
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 35
+    pushes: 44
     distinct_repos: 7
-    active_days: 19
+    active_days: 20
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.8421
-  repo_per_active_day: 0.3684
+  push_per_day: 2.2000
+  repo_per_active_day: 0.3500
   not_owned_ratio: 0.2857
   basename_concentration: 0.2857
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 9
-    distinct_repos: 2
-    pushes_per_repo: 4.5000
-    active_days: 4
+    pushes: 18
+    distinct_repos: 3
+    pushes_per_repo: 6.0000
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 23
+    pushes: 32
     distinct_repos: 6
-    pushes_per_repo: 3.8333
-    active_days: 11
+    pushes_per_repo: 5.3333
+    active_days: 12
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 35
+    pushes: 44
     distinct_repos: 7
-    pushes_per_repo: 5.0000
-    active_days: 19
+    pushes_per_repo: 6.2857
+    active_days: 20
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 19 active days in 90d — pass"
+  - "activity: 20 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "caprock"
@@ -156,6 +156,6 @@ repos:
 
 # dspv
 
-35 pushes across 7 repositories on 19 active days in the last 90 days of public GitHub push activity.
+44 pushes across 7 repositories on 20 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/dspv

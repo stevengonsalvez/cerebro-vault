@@ -10,16 +10,16 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-04T06:07:52.073869+00:00"
+generated_at: "2026-10-05T06:05:47.512530+00:00"
 provenance:
   - "16389f32495280ea"
   - "4d1450729e6ff44d"
-pushes_per_week: [7, 5, 2, 4, 6, 6, 3, 1, 0, 8, 10, 11, 4]
+pushes_per_week: [6, 5, 2, 4, 6, 6, 3, 1, 1, 9, 8, 12, 3]
 windows:
   "7d":
-    pushes: 7
-    distinct_repos: 4
-    active_days: 5
+    pushes: 4
+    distinct_repos: 2
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -31,7 +31,7 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 67
+    pushes: 66
     distinct_repos: 21
     active_days: 36
     repos_not_owned: 0
@@ -39,7 +39,7 @@ windows:
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.8611
+  push_per_day: 1.8333
   repo_per_active_day: 0.5833
   not_owned_ratio: 0.0000
   basename_concentration: 0.0476
@@ -51,10 +51,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 7
-    distinct_repos: 4
-    pushes_per_repo: 1.7500
-    active_days: 5
+    pushes: 4
+    distinct_repos: 2
+    pushes_per_repo: 2.0000
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -67,9 +67,9 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 67
+    pushes: 66
     distinct_repos: 21
-    pushes_per_repo: 3.1905
+    pushes_per_repo: 3.1429
     active_days: 36
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -139,6 +139,6 @@ repos:
 
 # wutongyuonce
 
-67 pushes across 21 repositories on 36 active days in the last 90 days of public GitHub push activity.
+66 pushes across 21 repositories on 36 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/wutongyuonce

@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-04T06:07:52.073869+00:00"
+generated_at: "2026-10-05T06:05:47.512530+00:00"
 provenance:
   - "ef17663e884139a8"
-pushes_per_week: [1, 0, 0, 0, 0, 0, 0, 0, 1, 10, 17, 10, 14]
+pushes_per_week: [1, 0, 0, 0, 0, 0, 0, 0, 1, 11, 17, 11, 15]
 windows:
   "7d":
-    pushes: 17
-    distinct_repos: 6
+    pushes: 16
+    distinct_repos: 7
     active_days: 6
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
   "30d":
-    pushes: 52
-    distinct_repos: 8
-    active_days: 20
+    pushes: 55
+    distinct_repos: 9
+    active_days: 21
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 53
-    distinct_repos: 8
-    active_days: 21
+    pushes: 56
+    distinct_repos: 9
+    active_days: 22
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.5238
-  repo_per_active_day: 0.3810
-  not_owned_ratio: 0.3750
-  basename_concentration: 0.1250
+  push_per_day: 2.5455
+  repo_per_active_day: 0.4091
+  not_owned_ratio: 0.3333
+  basename_concentration: 0.1111
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 17
-    distinct_repos: 6
-    pushes_per_repo: 2.8333
+    pushes: 16
+    distinct_repos: 7
+    pushes_per_repo: 2.2857
     active_days: 6
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
   "30d":
-    pushes: 52
-    distinct_repos: 8
-    pushes_per_repo: 6.5000
-    active_days: 20
+    pushes: 55
+    distinct_repos: 9
+    pushes_per_repo: 6.1111
+    active_days: 21
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 53
-    distinct_repos: 8
-    pushes_per_repo: 6.6250
-    active_days: 21
+    pushes: 56
+    distinct_repos: 9
+    pushes_per_repo: 6.2222
+    active_days: 22
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 21 active days in 90d — pass"
+  - "activity: 22 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "svelte-tex"
@@ -155,6 +155,6 @@ repos:
 
 # ntsd
 
-53 pushes across 8 repositories on 21 active days in the last 90 days of public GitHub push activity.
+56 pushes across 9 repositories on 22 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ntsd

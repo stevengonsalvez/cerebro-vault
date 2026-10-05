@@ -9,17 +9,17 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-04T06:07:52.073869+00:00"
+generated_at: "2026-10-05T06:05:47.512530+00:00"
 provenance:
   - "c489e6fb5febf2ab"
-pushes_per_week: [22, 15, 9, 10, 12, 10, 3, 3, 2, 5, 9, 12, 14]
+pushes_per_week: [25, 15, 7, 14, 6, 11, 3, 3, 1, 12, 4, 14, 10]
 windows:
   "7d":
-    pushes: 15
-    distinct_repos: 6
-    active_days: 7
-    repos_not_owned: 5
-    not_owned_basenames: 5
+    pushes: 14
+    distinct_repos: 5
+    active_days: 6
+    repos_not_owned: 4
+    not_owned_basenames: 4
     not_owned_owners: 2
   "30d":
     pushes: 41
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 10
     not_owned_owners: 4
   "90d":
-    pushes: 126
+    pushes: 125
     distinct_repos: 32
-    active_days: 54
+    active_days: 53
     repos_not_owned: 16
     not_owned_basenames: 16
     not_owned_owners: 4
 automation:
   state: "clear"
-  push_per_day: 2.3333
-  repo_per_active_day: 0.5926
+  push_per_day: 2.3585
+  repo_per_active_day: 0.6038
   not_owned_ratio: 0.5000
   basename_concentration: 0.0625
   shapes: []
@@ -49,12 +49,12 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 15
-    distinct_repos: 6
-    pushes_per_repo: 2.5000
-    active_days: 7
-    repos_not_owned: 5
-    not_owned_basenames: 5
+    pushes: 14
+    distinct_repos: 5
+    pushes_per_repo: 2.8000
+    active_days: 6
+    repos_not_owned: 4
+    not_owned_basenames: 4
     not_owned_owners: 2
   "30d":
     pushes: 41
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 10
     not_owned_owners: 4
   "90d":
-    pushes: 126
+    pushes: 125
     distinct_repos: 32
-    pushes_per_repo: 3.9375
-    active_days: 54
+    pushes_per_repo: 3.9062
+    active_days: 53
     repos_not_owned: 16
     not_owned_basenames: 16
     not_owned_owners: 4
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 54 active days in 90d — pass"
+  - "activity: 53 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "shyim"
@@ -155,6 +155,6 @@ repos:
 
 # shyim
 
-126 pushes across 32 repositories on 54 active days in the last 90 days of public GitHub push activity.
+125 pushes across 32 repositories on 53 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/shyim

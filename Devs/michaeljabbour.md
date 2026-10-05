@@ -9,13 +9,13 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-04T06:07:52.073869+00:00"
+generated_at: "2026-10-05T06:05:47.512530+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [9, 4, 33, 8, 3, 27, 4, 2, 1, 0, 8, 7, 10]
+pushes_per_week: [8, 11, 28, 6, 11, 20, 4, 1, 1, 0, 8, 9, 8]
 windows:
   "7d":
-    pushes: 10
+    pushes: 9
     distinct_repos: 3
     active_days: 5
     repos_not_owned: 0
@@ -29,7 +29,7 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 116
+    pushes: 115
     distinct_repos: 17
     active_days: 38
     repos_not_owned: 1
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 3.0526
+  push_per_day: 3.0263
   repo_per_active_day: 0.4474
   not_owned_ratio: 0.0588
   basename_concentration: 0.0588
@@ -49,9 +49,9 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 10
+    pushes: 9
     distinct_repos: 3
-    pushes_per_repo: 3.3333
+    pushes_per_repo: 3.0000
     active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -65,9 +65,9 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 116
+    pushes: 115
     distinct_repos: 17
-    pushes_per_repo: 6.8235
+    pushes_per_repo: 6.7647
     active_days: 38
     repos_not_owned: 1
     not_owned_basenames: 1
@@ -132,6 +132,6 @@ repos:
 
 # michaeljabbour
 
-116 pushes across 17 repositories on 38 active days in the last 90 days of public GitHub push activity.
+115 pushes across 17 repositories on 38 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/michaeljabbour

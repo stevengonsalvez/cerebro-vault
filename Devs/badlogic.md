@@ -12,29 +12,29 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-04T06:07:52.073869+00:00"
+generated_at: "2026-10-05T06:05:47.512530+00:00"
 provenance:
   - "06b6387dd3484f1c"
   - "c133b93b912dffd6"
   - "de6bf05613f3ae04"
-pushes_per_week: [6, 6, 4, 5, 4, 13, 1, 1, 1, 1, 3, 2, 3]
+pushes_per_week: [5, 5, 3, 6, 5, 12, 1, 0, 1, 1, 3, 3, 3]
 windows:
   "7d":
-    pushes: 3
+    pushes: 4
     distinct_repos: 1
-    active_days: 3
+    active_days: 4
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 9
+    pushes: 10
     distinct_repos: 1
-    active_days: 8
+    active_days: 9
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 50
+    pushes: 48
     distinct_repos: 4
     active_days: 32
     repos_not_owned: 3
@@ -42,7 +42,7 @@ windows:
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 1.5625
+  push_per_day: 1.5000
   repo_per_active_day: 0.1250
   not_owned_ratio: 0.7500
   basename_concentration: 0.5000
@@ -54,25 +54,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 3
+    pushes: 4
     distinct_repos: 1
-    pushes_per_repo: 3.0000
-    active_days: 3
+    pushes_per_repo: 4.0000
+    active_days: 4
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 9
+    pushes: 10
     distinct_repos: 1
-    pushes_per_repo: 9.0000
-    active_days: 8
+    pushes_per_repo: 10.0000
+    active_days: 9
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 50
+    pushes: 48
     distinct_repos: 4
-    pushes_per_repo: 12.5000
+    pushes_per_repo: 12.0000
     active_days: 32
     repos_not_owned: 3
     not_owned_basenames: 3
@@ -134,6 +134,6 @@ repos:
 
 # badlogic
 
-50 pushes across 4 repositories on 32 active days in the last 90 days of public GitHub push activity.
+48 pushes across 4 repositories on 32 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/badlogic

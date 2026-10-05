@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-04T06:07:52.073869+00:00"
+generated_at: "2026-10-05T06:05:47.512530+00:00"
 provenance:
   - "541318303a272608"
-pushes_per_week: [4, 8, 1, 0, 4, 1, 0, 2, 0, 2, 11, 4, 14]
+pushes_per_week: [4, 8, 0, 0, 4, 1, 2, 0, 0, 3, 10, 4, 14]
 windows:
   "7d":
     pushes: 14
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 51
-    distinct_repos: 4
-    active_days: 28
+    pushes: 50
+    distinct_repos: 3
+    active_days: 27
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.8214
-  repo_per_active_day: 0.1429
-  not_owned_ratio: 0.2500
-  basename_concentration: 0.5000
+  push_per_day: 1.8519
+  repo_per_active_day: 0.1111
+  not_owned_ratio: 0.3333
+  basename_concentration: 0.6667
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,22 +65,22 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 51
-    distinct_repos: 4
-    pushes_per_repo: 12.7500
-    active_days: 28
+    pushes: 50
+    distinct_repos: 3
+    pushes_per_repo: 16.6667
+    active_days: 27
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 28 active days in 90d — pass"
+  - "activity: 27 active days in 90d — pass"
   - "automation: clear — pass"
 repos: []
 ---
 
 # zhijianma
 
-51 pushes across 4 repositories on 28 active days in the last 90 days of public GitHub push activity.
+50 pushes across 3 repositories on 27 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/zhijianma

@@ -10,11 +10,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-04T06:07:52.073869+00:00"
+generated_at: "2026-10-05T06:05:47.512530+00:00"
 provenance:
   - "16389f32495280ea"
   - "c489e6fb5febf2ab"
-pushes_per_week: [0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 2, 4, 2]
+pushes_per_week: [0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 2, 5, 1]
 windows:
   "7d":
     pushes: 2
@@ -86,7 +86,23 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-27"
+    last_push: "2026-09-30"
+  - name: "seekdb-study"
+    title: "seekdb-study"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-30"
+  - name: "PowerContext-study"
+    title: "PowerContext-study"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-30"
 ---
 
 # xiaodu55

@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-04T06:07:52.073869+00:00"
+generated_at: "2026-10-05T06:05:47.512530+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [20, 6, 25, 5, 2, 0, 0, 3, 0, 0, 11, 50, 32]
+pushes_per_week: [14, 7, 24, 5, 2, 0, 1, 2, 0, 0, 19, 54, 21]
 windows:
   "7d":
-    pushes: 40
-    distinct_repos: 9
+    pushes: 24
+    distinct_repos: 7
     active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 93
+    pushes: 94
     distinct_repos: 10
-    active_days: 17
+    active_days: 18
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 154
+    pushes: 149
     distinct_repos: 25
     active_days: 42
     repos_not_owned: 0
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 3.6667
+  push_per_day: 3.5476
   repo_per_active_day: 0.5952
   not_owned_ratio: 0.0000
   basename_concentration: 0.0400
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 40
-    distinct_repos: 9
-    pushes_per_repo: 4.4444
+    pushes: 24
+    distinct_repos: 7
+    pushes_per_repo: 3.4286
     active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 93
+    pushes: 94
     distinct_repos: 10
-    pushes_per_repo: 9.3000
-    active_days: 17
+    pushes_per_repo: 9.4000
+    active_days: 18
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 154
+    pushes: 149
     distinct_repos: 25
-    pushes_per_repo: 6.1600
+    pushes_per_repo: 5.9600
     active_days: 42
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -138,6 +138,6 @@ repos:
 
 # paulrobello
 
-154 pushes across 25 repositories on 42 active days in the last 90 days of public GitHub push activity.
+149 pushes across 25 repositories on 42 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/paulrobello

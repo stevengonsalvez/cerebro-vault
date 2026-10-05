@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-04T06:07:52.073869+00:00"
+generated_at: "2026-10-05T06:05:47.512530+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [16, 29, 20, 24, 28, 5, 4, 13, 2, 20, 8, 38, 7]
+pushes_per_week: [15, 29, 22, 27, 23, 5, 6, 11, 4, 18, 10, 38, 5]
 windows:
   "7d":
-    pushes: 11
+    pushes: 5
     distinct_repos: 4
-    active_days: 4
+    active_days: 2
     repos_not_owned: 4
     not_owned_basenames: 3
     not_owned_owners: 3
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 6
     not_owned_owners: 3
   "90d":
-    pushes: 214
+    pushes: 213
     distinct_repos: 25
-    active_days: 56
+    active_days: 55
     repos_not_owned: 12
     not_owned_basenames: 11
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 3.8214
-  repo_per_active_day: 0.4464
+  push_per_day: 3.8727
+  repo_per_active_day: 0.4545
   not_owned_ratio: 0.4800
   basename_concentration: 0.0800
   shapes: []
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 11
+    pushes: 5
     distinct_repos: 4
-    pushes_per_repo: 2.7500
-    active_days: 4
+    pushes_per_repo: 1.2500
+    active_days: 2
     repos_not_owned: 4
     not_owned_basenames: 3
     not_owned_owners: 3
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 6
     not_owned_owners: 3
   "90d":
-    pushes: 214
+    pushes: 213
     distinct_repos: 25
-    pushes_per_repo: 8.5600
-    active_days: 56
+    pushes_per_repo: 8.5200
+    active_days: 55
     repos_not_owned: 12
     not_owned_basenames: 11
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 56 active days in 90d — pass"
+  - "activity: 55 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "fuchxia"
@@ -131,6 +131,6 @@ repos:
 
 # metaphorics
 
-214 pushes across 25 repositories on 56 active days in the last 90 days of public GitHub push activity.
+213 pushes across 25 repositories on 55 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/metaphorics

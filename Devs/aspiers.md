@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-04T06:07:52.073869+00:00"
+generated_at: "2026-10-05T06:05:47.512530+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [6, 7, 2, 18, 2, 5, 0, 0, 0, 1, 0, 1, 0]
+pushes_per_week: [4, 7, 3, 17, 2, 5, 0, 0, 1, 0, 0, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 42
-    distinct_repos: 11
-    active_days: 21
-    repos_not_owned: 4
-    not_owned_basenames: 4
+    pushes: 40
+    distinct_repos: 9
+    active_days: 20
+    repos_not_owned: 3
+    not_owned_basenames: 3
     not_owned_owners: 1
 automation:
   state: "clear"
   push_per_day: 2.0000
-  repo_per_active_day: 0.5238
-  not_owned_ratio: 0.3636
-  basename_concentration: 0.0909
+  repo_per_active_day: 0.4500
+  not_owned_ratio: 0.3333
+  basename_concentration: 0.1111
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 42
-    distinct_repos: 11
-    pushes_per_repo: 3.8182
-    active_days: 21
-    repos_not_owned: 4
-    not_owned_basenames: 4
+    pushes: 40
+    distinct_repos: 9
+    pushes_per_repo: 4.4444
+    active_days: 20
+    repos_not_owned: 3
+    not_owned_basenames: 3
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 21 active days in 90d — pass"
+  - "activity: 20 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "stow"
@@ -152,6 +152,6 @@ repos:
 
 # aspiers
 
-42 pushes across 11 repositories on 21 active days in the last 90 days of public GitHub push activity.
+40 pushes across 9 repositories on 20 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/aspiers

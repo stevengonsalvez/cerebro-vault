@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-04T06:07:52.073869+00:00"
+generated_at: "2026-10-05T06:05:47.512530+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [34, 25, 11, 27, 21, 79, 32, 16, 4, 15, 279, 333, 81]
+pushes_per_week: [18, 24, 12, 25, 31, 75, 31, 12, 2, 34, 277, 343, 61]
 windows:
   "7d":
-    pushes: 106
-    distinct_repos: 13
+    pushes: 83
+    distinct_repos: 12
     active_days: 7
     repos_not_owned: 8
     not_owned_basenames: 8
     not_owned_owners: 2
   "30d":
-    pushes: 709
+    pushes: 717
     distinct_repos: 23
-    active_days: 26
+    active_days: 28
     repos_not_owned: 12
     not_owned_basenames: 10
     not_owned_owners: 4
   "90d":
-    pushes: 957
+    pushes: 945
     distinct_repos: 48
-    active_days: 74
+    active_days: 75
     repos_not_owned: 15
     not_owned_basenames: 11
     not_owned_owners: 6
 automation:
   state: "clear"
-  push_per_day: 12.9324
-  repo_per_active_day: 0.6486
+  push_per_day: 12.6000
+  repo_per_active_day: 0.6400
   not_owned_ratio: 0.3125
   basename_concentration: 0.1250
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 106
-    distinct_repos: 13
-    pushes_per_repo: 8.1538
+    pushes: 83
+    distinct_repos: 12
+    pushes_per_repo: 6.9167
     active_days: 7
     repos_not_owned: 8
     not_owned_basenames: 8
     not_owned_owners: 2
   "30d":
-    pushes: 709
+    pushes: 717
     distinct_repos: 23
-    pushes_per_repo: 30.8261
-    active_days: 26
+    pushes_per_repo: 31.1739
+    active_days: 28
     repos_not_owned: 12
     not_owned_basenames: 10
     not_owned_owners: 4
   "90d":
-    pushes: 957
+    pushes: 945
     distinct_repos: 48
-    pushes_per_repo: 19.9375
-    active_days: 74
+    pushes_per_repo: 19.6875
+    active_days: 75
     repos_not_owned: 15
     not_owned_basenames: 11
     not_owned_owners: 6
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 74 active days in 90d — pass"
+  - "activity: 75 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "MagicMihomo"
@@ -146,6 +146,6 @@ repos:
 
 # LIghtJUNction
 
-957 pushes across 48 repositories on 74 active days in the last 90 days of public GitHub push activity.
+945 pushes across 48 repositories on 75 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/LIghtJUNction

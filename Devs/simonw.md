@@ -21,7 +21,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-04T06:07:52.073869+00:00"
+generated_at: "2026-10-05T06:05:47.512530+00:00"
 provenance:
   - "0726bc457d4dcf89"
   - "1be978947e68d1f2"
@@ -37,24 +37,24 @@ provenance:
   - "d61fc285c7155696"
   - "e76a6eae5d38637b"
   - "e7c647c4d0689526"
-pushes_per_week: [33, 19, 8, 24, 6, 21, 2, 0, 0, 2, 13, 2, 3]
+pushes_per_week: [22, 20, 14, 18, 7, 19, 2, 0, 0, 5, 10, 2, 4]
 windows:
   "7d":
-    pushes: 3
-    distinct_repos: 3
-    active_days: 3
+    pushes: 4
+    distinct_repos: 4
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 20
-    distinct_repos: 12
-    active_days: 11
+    pushes: 21
+    distinct_repos: 13
+    active_days: 12
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
   "90d":
-    pushes: 133
+    pushes: 123
     distinct_repos: 40
     active_days: 44
     repos_not_owned: 10
@@ -62,7 +62,7 @@ windows:
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 3.0227
+  push_per_day: 2.7955
   repo_per_active_day: 0.9091
   not_owned_ratio: 0.2500
   basename_concentration: 0.0500
@@ -74,25 +74,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 3
-    distinct_repos: 3
+    pushes: 4
+    distinct_repos: 4
     pushes_per_repo: 1.0000
-    active_days: 3
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 20
-    distinct_repos: 12
-    pushes_per_repo: 1.6667
-    active_days: 11
+    pushes: 21
+    distinct_repos: 13
+    pushes_per_repo: 1.6154
+    active_days: 12
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
   "90d":
-    pushes: 133
+    pushes: 123
     distinct_repos: 40
-    pushes_per_repo: 3.3250
+    pushes_per_repo: 3.0750
     active_days: 44
     repos_not_owned: 10
     not_owned_basenames: 10
@@ -156,6 +156,6 @@ repos:
 
 # simonw
 
-133 pushes across 40 repositories on 44 active days in the last 90 days of public GitHub push activity.
+123 pushes across 40 repositories on 44 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/simonw

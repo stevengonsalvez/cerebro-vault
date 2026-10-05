@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-04T06:07:52.073869+00:00"
+generated_at: "2026-10-05T06:05:47.512530+00:00"
 provenance:
   - "0b22ca37fd3884c9"
 pushes_per_week: [0, 6, 1, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0]
@@ -77,6 +77,22 @@ reasons:
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "dotfiles"
+    title: "dotfiles"
+    description: null
+    language: "Lua"
+    topics: []
+    stars_fact: 5
+    first_seen: null
+    last_push: "2026-10-02"
+  - name: "freecad-cli"
+    title: "freecad-cli"
+    description: "CLI tool for controlling FreeCAD from AI Agents via XML-RPC"
+    language: "Python"
+    topics: []
+    stars_fact: 10
+    first_seen: null
+    last_push: "2026-04-29"
   - name: "TsumiZare"
     title: "TsumiZare"
     description: "Tetris-inspired block dropping game and React custom hook"
@@ -89,15 +105,7 @@ repos:
       - "tetris"
     stars_fact: 1
     first_seen: null
-    last_push: "2026-09-22"
-  - name: "freecad-cli"
-    title: "freecad-cli"
-    description: "CLI tool for controlling FreeCAD from AI Agents via XML-RPC"
-    language: "Python"
-    topics: []
-    stars_fact: 9
-    first_seen: null
-    last_push: "2026-04-29"
+    last_push: "2026-09-30"
   - name: "hono-kit"
     title: "hono-kit"
     description: "Hono routing and renderer toolkit"
@@ -122,14 +130,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-09-09"
-  - name: "chrome-ctlp"
-    title: "chrome-ctlp"
-    description: "A keyboard-first command palette for Chrome tab controls"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-04"
 ---
 
 # yoshikouki

@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-04T06:07:52.073869+00:00"
+generated_at: "2026-10-05T06:05:47.512530+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [5, 2, 1, 1, 0, 2, 0, 0, 0, 1, 7, 73, 3]
+pushes_per_week: [4, 1, 1, 1, 0, 2, 0, 0, 0, 4, 4, 74, 2]
 windows:
   "7d":
-    pushes: 21
-    distinct_repos: 3
-    active_days: 4
+    pushes: 2
+    distinct_repos: 2
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 95
+    pushes: 93
     distinct_repos: 7
-    active_days: 22
+    active_days: 21
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 4.3182
-  repo_per_active_day: 0.3182
+  push_per_day: 4.4286
+  repo_per_active_day: 0.3333
   not_owned_ratio: 0.2857
   basename_concentration: 0.1429
   shapes: []
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 21
-    distinct_repos: 3
-    pushes_per_repo: 7.0000
-    active_days: 4
+    pushes: 2
+    distinct_repos: 2
+    pushes_per_repo: 1.0000
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 95
+    pushes: 93
     distinct_repos: 7
-    pushes_per_repo: 13.5714
-    active_days: 22
+    pushes_per_repo: 13.2857
+    active_days: 21
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 22 active days in 90d — pass"
+  - "activity: 21 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "genserver"
@@ -168,6 +168,6 @@ repos:
 
 # brndnmtthws
 
-95 pushes across 7 repositories on 22 active days in the last 90 days of public GitHub push activity.
+93 pushes across 7 repositories on 21 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/brndnmtthws

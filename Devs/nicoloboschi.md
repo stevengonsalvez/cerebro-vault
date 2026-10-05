@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-04T06:07:52.073869+00:00"
+generated_at: "2026-10-05T06:05:47.512530+00:00"
 provenance:
   - "ef1d62b18b98cdd0"
-pushes_per_week: [1, 27, 81, 26, 25, 37, 10, 5, 5, 20, 15, 36, 21]
+pushes_per_week: [0, 46, 69, 23, 26, 33, 12, 7, 15, 7, 18, 32, 20]
 windows:
   "7d":
     pushes: 21
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 3
     not_owned_owners: 10
   "90d":
-    pushes: 309
+    pushes: 308
     distinct_repos: 22
-    active_days: 58
+    active_days: 57
     repos_not_owned: 16
     not_owned_basenames: 5
     not_owned_owners: 12
 automation:
   state: "clear"
-  push_per_day: 5.3276
-  repo_per_active_day: 0.3793
+  push_per_day: 5.4035
+  repo_per_active_day: 0.3860
   not_owned_ratio: 0.7273
   basename_concentration: 0.5455
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 3
     not_owned_owners: 10
   "90d":
-    pushes: 309
+    pushes: 308
     distinct_repos: 22
-    pushes_per_repo: 14.0455
-    active_days: 58
+    pushes_per_repo: 14.0000
+    active_days: 57
     repos_not_owned: 16
     not_owned_basenames: 5
     not_owned_owners: 12
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 58 active days in 90d — pass"
+  - "activity: 57 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "giotto"
@@ -132,6 +132,6 @@ repos:
 
 # nicoloboschi
 
-309 pushes across 22 repositories on 58 active days in the last 90 days of public GitHub push activity.
+308 pushes across 22 repositories on 57 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/nicoloboschi

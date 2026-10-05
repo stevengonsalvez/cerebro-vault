@@ -11,16 +11,16 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-04T06:07:52.073869+00:00"
+generated_at: "2026-10-05T06:05:47.512530+00:00"
 provenance:
   - "c1af6b58492f9bf4"
   - "ddd7486148a91958"
-pushes_per_week: [1, 1, 12, 4, 5, 7, 4, 1, 1, 4, 2, 5, 5]
+pushes_per_week: [0, 1, 12, 9, 0, 7, 4, 2, 3, 1, 2, 5, 5]
 windows:
   "7d":
-    pushes: 6
-    distinct_repos: 3
-    active_days: 2
+    pushes: 5
+    distinct_repos: 2
+    active_days: 1
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
@@ -32,16 +32,16 @@ windows:
     not_owned_basenames: 3
     not_owned_owners: 3
   "90d":
-    pushes: 52
+    pushes: 51
     distinct_repos: 12
-    active_days: 20
+    active_days: 19
     repos_not_owned: 8
     not_owned_basenames: 5
     not_owned_owners: 4
 automation:
   state: "clear"
-  push_per_day: 2.6000
-  repo_per_active_day: 0.6000
+  push_per_day: 2.6842
+  repo_per_active_day: 0.6316
   not_owned_ratio: 0.6667
   basename_concentration: 0.4167
   shapes: []
@@ -52,10 +52,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 6
-    distinct_repos: 3
-    pushes_per_repo: 2.0000
-    active_days: 2
+    pushes: 5
+    distinct_repos: 2
+    pushes_per_repo: 2.5000
+    active_days: 1
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
@@ -68,16 +68,16 @@ facets:
     not_owned_basenames: 3
     not_owned_owners: 3
   "90d":
-    pushes: 52
+    pushes: 51
     distinct_repos: 12
-    pushes_per_repo: 4.3333
-    active_days: 20
+    pushes_per_repo: 4.2500
+    active_days: 19
     repos_not_owned: 8
     not_owned_basenames: 5
     not_owned_owners: 4
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 20 active days in 90d — pass"
+  - "activity: 19 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "sensor-calibration"
@@ -132,6 +132,6 @@ repos:
 
 # MagMueller
 
-52 pushes across 12 repositories on 20 active days in the last 90 days of public GitHub push activity.
+51 pushes across 12 repositories on 19 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/MagMueller

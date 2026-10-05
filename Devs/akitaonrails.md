@@ -10,27 +10,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-04T06:07:52.073869+00:00"
+generated_at: "2026-10-05T06:05:47.512530+00:00"
 provenance:
   - "4138778ebbc75ba6"
-pushes_per_week: [49, 26, 28, 38, 6, 16, 12, 4, 7, 7, 32, 27, 20]
+pushes_per_week: [44, 29, 30, 31, 6, 22, 8, 2, 7, 8, 32, 35, 12]
 windows:
   "7d":
-    pushes: 26
-    distinct_repos: 13
+    pushes: 20
+    distinct_repos: 10
     active_days: 6
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 93
+    pushes: 94
     distinct_repos: 21
-    active_days: 26
+    active_days: 27
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
   "90d":
-    pushes: 272
+    pushes: 266
     distinct_repos: 40
     active_days: 67
     repos_not_owned: 12
@@ -38,7 +38,7 @@ windows:
     not_owned_owners: 11
 automation:
   state: "clear"
-  push_per_day: 4.0597
+  push_per_day: 3.9701
   repo_per_active_day: 0.5970
   not_owned_ratio: 0.3000
   basename_concentration: 0.2000
@@ -50,25 +50,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 26
-    distinct_repos: 13
+    pushes: 20
+    distinct_repos: 10
     pushes_per_repo: 2.0000
     active_days: 6
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 93
+    pushes: 94
     distinct_repos: 21
-    pushes_per_repo: 4.4286
-    active_days: 26
+    pushes_per_repo: 4.4762
+    active_days: 27
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
   "90d":
-    pushes: 272
+    pushes: 266
     distinct_repos: 40
-    pushes_per_repo: 6.8000
+    pushes_per_repo: 6.6500
     active_days: 67
     repos_not_owned: 12
     not_owned_basenames: 2
@@ -130,6 +130,6 @@ repos:
 
 # akitaonrails
 
-272 pushes across 40 repositories on 67 active days in the last 90 days of public GitHub push activity.
+266 pushes across 40 repositories on 67 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/akitaonrails

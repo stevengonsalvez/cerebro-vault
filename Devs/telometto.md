@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-04T06:07:52.073869+00:00"
+generated_at: "2026-10-05T06:05:47.512530+00:00"
 provenance:
   - "3cb7ff1cdcf97c6b"
-pushes_per_week: [10, 18, 7, 14, 5, 13, 3, 3, 0, 1, 5, 5, 6]
+pushes_per_week: [11, 15, 9, 13, 4, 14, 2, 3, 1, 1, 5, 6, 5]
 windows:
   "7d":
-    pushes: 6
+    pushes: 7
     distinct_repos: 1
-    active_days: 4
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 17
+    pushes: 18
     distinct_repos: 1
-    active_days: 11
+    active_days: 12
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 90
+    pushes: 89
     distinct_repos: 1
     active_days: 45
     repos_not_owned: 0
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.0000
+  push_per_day: 1.9778
   repo_per_active_day: 0.0222
   not_owned_ratio: 0.0000
   basename_concentration: 1.0000
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 6
+    pushes: 7
     distinct_repos: 1
-    pushes_per_repo: 6.0000
-    active_days: 4
+    pushes_per_repo: 7.0000
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 17
+    pushes: 18
     distinct_repos: 1
-    pushes_per_repo: 17.0000
-    active_days: 11
+    pushes_per_repo: 18.0000
+    active_days: 12
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 90
+    pushes: 89
     distinct_repos: 1
-    pushes_per_repo: 90.0000
+    pushes_per_repo: 89.0000
     active_days: 45
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -130,6 +130,6 @@ repos:
 
 # telometto
 
-90 pushes across 1 repository on 45 active days in the last 90 days of public GitHub push activity.
+89 pushes across 1 repository on 45 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/telometto

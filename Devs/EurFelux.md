@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-04T06:07:52.073869+00:00"
+generated_at: "2026-10-05T06:05:47.512530+00:00"
 provenance:
   - "0b22ca37fd3884c9"
-pushes_per_week: [2, 14, 6, 6, 1, 2, 1, 0, 4, 0, 1, 0, 3]
+pushes_per_week: [6, 14, 2, 6, 2, 1, 1, 1, 3, 0, 1, 0, 3]
 windows:
   "7d":
     pushes: 3
@@ -84,7 +84,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-24"
+    last_push: "2026-10-03"
   - name: "marginalia"
     title: "marginalia"
     description: "Talk to AI in the margins of your ebooks — local‑first, bilingual ePub/PDF reader with contextual assistants."
@@ -100,7 +100,7 @@ repos:
       - "typescript"
     stars_fact: 5
     first_seen: null
-    last_push: "2026-09-24"
+    last_push: "2026-10-03"
   - name: "Lyrisland"
     title: "Lyrisland"
     description: "A macOS Dynamic Island-style floating widget that displays real-time synced lyrics for Spotify. No login required."

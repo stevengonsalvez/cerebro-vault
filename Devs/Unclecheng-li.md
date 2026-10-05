@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-04T06:07:52.073869+00:00"
+generated_at: "2026-10-05T06:05:47.512530+00:00"
 provenance:
   - "135bded64aec62fb"
-pushes_per_week: [7, 7, 2, 0, 10, 1, 0, 1, 0, 1, 2, 1, 1]
+pushes_per_week: [9, 5, 2, 5, 5, 1, 0, 1, 0, 1, 2, 1, 2]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
+    pushes: 2
+    distinct_repos: 2
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 5
-    distinct_repos: 3
-    active_days: 5
+    pushes: 6
+    distinct_repos: 4
+    active_days: 6
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 33
-    distinct_repos: 8
-    active_days: 19
+    pushes: 34
+    distinct_repos: 9
+    active_days: 20
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.7368
-  repo_per_active_day: 0.4211
-  not_owned_ratio: 0.1250
-  basename_concentration: 0.2500
+  push_per_day: 1.7000
+  repo_per_active_day: 0.4500
+  not_owned_ratio: 0.1111
+  basename_concentration: 0.2222
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
+    pushes: 2
+    distinct_repos: 2
     pushes_per_repo: 1.0000
-    active_days: 1
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 5
-    distinct_repos: 3
-    pushes_per_repo: 1.6667
-    active_days: 5
+    pushes: 6
+    distinct_repos: 4
+    pushes_per_repo: 1.5000
+    active_days: 6
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 33
-    distinct_repos: 8
-    pushes_per_repo: 4.1250
-    active_days: 19
+    pushes: 34
+    distinct_repos: 9
+    pushes_per_repo: 3.7778
+    active_days: 20
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 19 active days in 90d — pass"
+  - "activity: 20 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "cybersecurity-daily"
@@ -182,6 +182,6 @@ repos:
 
 # Unclecheng-li
 
-33 pushes across 8 repositories on 19 active days in the last 90 days of public GitHub push activity.
+34 pushes across 9 repositories on 20 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Unclecheng-li

@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-04T06:07:52.073869+00:00"
+generated_at: "2026-10-05T06:05:47.512530+00:00"
 provenance:
   - "0388a4f55f4206c8"
   - "0577669e18ed3998"
@@ -30,12 +30,12 @@ provenance:
   - "c6b4a874521ceb02"
   - "cf565721454d59f8"
   - "e26852201e6f38fc"
-pushes_per_week: [4, 14, 33, 15, 5, 5, 7, 3, 0, 2, 14, 24, 74]
+pushes_per_week: [8, 23, 22, 12, 5, 5, 8, 2, 1, 1, 14, 33, 65]
 windows:
   "7d":
-    pushes: 79
-    distinct_repos: 5
-    active_days: 7
+    pushes: 71
+    distinct_repos: 3
+    active_days: 6
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -47,16 +47,16 @@ windows:
     not_owned_basenames: 5
     not_owned_owners: 3
   "90d":
-    pushes: 200
+    pushes: 199
     distinct_repos: 32
-    active_days: 46
+    active_days: 45
     repos_not_owned: 6
     not_owned_basenames: 5
     not_owned_owners: 4
 automation:
   state: "clear"
-  push_per_day: 4.3478
-  repo_per_active_day: 0.6957
+  push_per_day: 4.4222
+  repo_per_active_day: 0.7111
   not_owned_ratio: 0.1875
   basename_concentration: 0.0938
   shapes: []
@@ -67,10 +67,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 79
-    distinct_repos: 5
-    pushes_per_repo: 15.8000
-    active_days: 7
+    pushes: 71
+    distinct_repos: 3
+    pushes_per_repo: 23.6667
+    active_days: 6
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -83,16 +83,16 @@ facets:
     not_owned_basenames: 5
     not_owned_owners: 3
   "90d":
-    pushes: 200
+    pushes: 199
     distinct_repos: 32
-    pushes_per_repo: 6.2500
-    active_days: 46
+    pushes_per_repo: 6.2188
+    active_days: 45
     repos_not_owned: 6
     not_owned_basenames: 5
     not_owned_owners: 4
 reasons:
   - "provenance: 19 vault signal(s) — pass"
-  - "activity: 46 active days in 90d — pass"
+  - "activity: 45 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "public-inbox"
@@ -131,6 +131,6 @@ repos:
 
 # tamird
 
-200 pushes across 32 repositories on 46 active days in the last 90 days of public GitHub push activity.
+199 pushes across 32 repositories on 45 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/tamird

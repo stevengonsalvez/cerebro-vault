@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-04T06:07:52.073869+00:00"
+generated_at: "2026-10-05T06:05:47.512530+00:00"
 provenance:
   - "01cd6a498d377caf"
   - "03604cccd7e9402d"
@@ -64,12 +64,12 @@ provenance:
   - "f9a1870648a6375a"
   - "fe9e50bf2d5b21fe"
   - "ff1ca072bf39e471"
-pushes_per_week: [8, 13, 5, 5, 0, 2, 3, 4, 0, 1, 2, 2, 6]
+pushes_per_week: [9, 12, 5, 4, 0, 2, 6, 1, 0, 2, 1, 7, 1]
 windows:
   "7d":
-    pushes: 6
+    pushes: 1
     distinct_repos: 1
-    active_days: 2
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -81,16 +81,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 51
+    pushes: 50
     distinct_repos: 2
-    active_days: 31
+    active_days: 30
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.6452
-  repo_per_active_day: 0.0645
+  push_per_day: 1.6667
+  repo_per_active_day: 0.0667
   not_owned_ratio: 0.0000
   basename_concentration: 0.5000
   shapes: []
@@ -101,10 +101,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 6
+    pushes: 1
     distinct_repos: 1
-    pushes_per_repo: 6.0000
-    active_days: 2
+    pushes_per_repo: 1.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -117,16 +117,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 51
+    pushes: 50
     distinct_repos: 2
-    pushes_per_repo: 25.5000
-    active_days: 31
+    pushes_per_repo: 25.0000
+    active_days: 30
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 53 vault signal(s) — pass"
-  - "activity: 31 active days in 90d — pass"
+  - "activity: 30 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "pi-bites"
@@ -184,6 +184,6 @@ repos:
 
 # jamestrew
 
-51 pushes across 2 repositories on 31 active days in the last 90 days of public GitHub push activity.
+50 pushes across 2 repositories on 30 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/jamestrew

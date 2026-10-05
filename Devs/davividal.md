@@ -1,36 +1,36 @@
 ---
-login: "faga295"
+login: "davividal"
 name: null
 discovered_via: "fanout"
 discovered_via_all:
   - "fanout"
 provenance_repos:
-  - "apache/maka"
+  - "akitaonrails/ai-memory"
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-04T06:07:52.073869+00:00"
+generated_at: "2026-10-05T06:05:47.512530+00:00"
 provenance:
-  - "4d1450729e6ff44d"
-pushes_per_week: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 6, 0]
+  - "4138778ebbc75ba6"
+pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 1, 2, 0, 2, 3]
 windows:
   "7d":
-    pushes: 4
+    pushes: 3
     distinct_repos: 1
     active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 7
+    pushes: 8
     distinct_repos: 1
-    active_days: 4
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
     pushes: 8
-    distinct_repos: 2
+    distinct_repos: 1
     active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -38,9 +38,9 @@ windows:
 automation:
   state: "clear"
   push_per_day: 1.6000
-  repo_per_active_day: 0.4000
+  repo_per_active_day: 0.2000
   not_owned_ratio: 0.0000
-  basename_concentration: 0.5000
+  basename_concentration: 1.0000
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 4
+    pushes: 3
     distinct_repos: 1
-    pushes_per_repo: 4.0000
+    pushes_per_repo: 3.0000
     active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 7
+    pushes: 8
     distinct_repos: 1
-    pushes_per_repo: 7.0000
-    active_days: 4
+    pushes_per_repo: 8.0000
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
     pushes: 8
-    distinct_repos: 2
-    pushes_per_repo: 4.0000
+    distinct_repos: 1
+    pushes_per_repo: 8.0000
     active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -77,58 +77,58 @@ reasons:
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "pi-extensions"
-    title: "pi-extensions"
-    description: "My pi-agent extensions"
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-06"
-  - name: "pdf-sign"
-    title: "pdf-sign"
-    description: "A simple PDF signing application."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-07-22"
-  - name: "Fling"
-    title: "Fling"
-    description: "Vim-style macOS window manager"
-    language: "Swift"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-07-06"
-  - name: "mini-vue"
-    title: "mini-vue"
+  - name: "rastro"
+    title: "rastro"
     description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2022-10-29"
-  - name: "mafs-vue"
-    title: "mafs-vue"
-    description: "Vue component for interactive math, vue implement of mafs"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 8
-    first_seen: null
-    last_push: "2025-10-29"
-  - name: "antd-css-in-js-reproduce"
-    title: "antd-css-in-js-reproduce"
-    description: null
-    language: "TypeScript"
+    language: "Rust"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2025-09-04"
+    last_push: "2026-10-05"
+  - name: "asdf-sonar-scanner"
+    title: "asdf-sonar-scanner"
+    description: null
+    language: "Shell"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2024-07-04"
+  - name: "asdf-cirrus-cli"
+    title: "asdf-cirrus-cli"
+    description: null
+    language: "Shell"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2023-12-21"
+  - name: "cirrus-ci-sandbox"
+    title: "cirrus-ci-sandbox"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2023-12-14"
+  - name: "utrello"
+    title: "utrello"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2024-04-16"
+  - name: "k8s-eval"
+    title: "k8s-eval"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-01"
 ---
 
-# faga295
+# davividal
 
-8 pushes across 2 repositories on 5 active days in the last 90 days of public GitHub push activity.
+8 pushes across 1 repository on 5 active days in the last 90 days of public GitHub push activity.
 
-https://github.com/faga295
+https://github.com/davividal

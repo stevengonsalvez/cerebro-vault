@@ -10,22 +10,22 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-04T06:07:52.073869+00:00"
+generated_at: "2026-10-05T06:05:47.512530+00:00"
 provenance:
   - "16389f32495280ea"
   - "50b9cd6dfa9f75d1"
   - "939f60d749009d51"
-pushes_per_week: [13, 10, 6, 16, 7, 10, 0, 0, 0, 1, 1, 1, 3]
+pushes_per_week: [13, 9, 11, 13, 5, 10, 0, 0, 0, 1, 1, 1, 4]
 windows:
   "7d":
-    pushes: 3
-    distinct_repos: 2
+    pushes: 4
+    distinct_repos: 3
     active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 6
+    pushes: 7
     distinct_repos: 5
     active_days: 5
     repos_not_owned: 0
@@ -34,14 +34,14 @@ windows:
   "90d":
     pushes: 68
     distinct_repos: 14
-    active_days: 31
+    active_days: 30
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.1935
-  repo_per_active_day: 0.4516
+  push_per_day: 2.2667
+  repo_per_active_day: 0.4667
   not_owned_ratio: 0.0000
   basename_concentration: 0.0714
   shapes: []
@@ -52,17 +52,17 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 3
-    distinct_repos: 2
-    pushes_per_repo: 1.5000
+    pushes: 4
+    distinct_repos: 3
+    pushes_per_repo: 1.3333
     active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 6
+    pushes: 7
     distinct_repos: 5
-    pushes_per_repo: 1.2000
+    pushes_per_repo: 1.4000
     active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -71,13 +71,13 @@ facets:
     pushes: 68
     distinct_repos: 14
     pushes_per_repo: 4.8571
-    active_days: 31
+    active_days: 30
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 3 vault signal(s) — pass"
-  - "activity: 31 active days in 90d — pass"
+  - "activity: 30 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "mcp-fence"
@@ -197,6 +197,6 @@ repos:
 
 # DaoyuanLi2816
 
-68 pushes across 14 repositories on 31 active days in the last 90 days of public GitHub push activity.
+68 pushes across 14 repositories on 30 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/DaoyuanLi2816

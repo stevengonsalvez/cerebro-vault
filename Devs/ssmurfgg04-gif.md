@@ -9,41 +9,41 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-04T06:07:52.073869+00:00"
+generated_at: "2026-10-05T06:05:47.512530+00:00"
 provenance:
   - "97c4e9cb8b163ddb"
   - "c7515e0fa4368a55"
   - "d3abe74726b22711"
   - "e7c647c4d0689526"
-pushes_per_week: [0, 1, 3, 6, 3, 14, 0, 1, 7, 4, 52, 20, 6]
+pushes_per_week: [0, 2, 2, 6, 3, 14, 0, 1, 7, 4, 55, 18, 14]
 windows:
   "7d":
-    pushes: 11
+    pushes: 15
     distinct_repos: 6
     active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 88
-    distinct_repos: 14
-    active_days: 19
+    pushes: 97
+    distinct_repos: 15
+    active_days: 20
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 117
-    distinct_repos: 26
-    active_days: 34
+    pushes: 126
+    distinct_repos: 27
+    active_days: 35
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 3.4412
-  repo_per_active_day: 0.7647
+  push_per_day: 3.6000
+  repo_per_active_day: 0.7714
   not_owned_ratio: 0.0000
-  basename_concentration: 0.0385
+  basename_concentration: 0.0370
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -52,32 +52,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 11
+    pushes: 15
     distinct_repos: 6
-    pushes_per_repo: 1.8333
+    pushes_per_repo: 2.5000
     active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 88
-    distinct_repos: 14
-    pushes_per_repo: 6.2857
-    active_days: 19
+    pushes: 97
+    distinct_repos: 15
+    pushes_per_repo: 6.4667
+    active_days: 20
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 117
-    distinct_repos: 26
-    pushes_per_repo: 4.5000
-    active_days: 34
+    pushes: 126
+    distinct_repos: 27
+    pushes_per_repo: 4.6667
+    active_days: 35
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 4 vault signal(s) — pass"
-  - "activity: 34 active days in 90d — pass"
+  - "activity: 35 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "fang-yuan-strategic-system"
@@ -165,6 +165,6 @@ repos:
 
 # ssmurfgg04-gif
 
-117 pushes across 26 repositories on 34 active days in the last 90 days of public GitHub push activity.
+126 pushes across 27 repositories on 35 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ssmurfgg04-gif

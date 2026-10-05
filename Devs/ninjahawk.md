@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-04T06:07:52.073869+00:00"
+generated_at: "2026-10-05T06:05:47.512530+00:00"
 provenance:
   - "9ee133e6f5024f08"
-pushes_per_week: [6, 53, 16, 2, 1, 0, 0, 0, 0, 0, 7, 2, 2]
+pushes_per_week: [4, 53, 16, 2, 1, 0, 0, 0, 0, 0, 7, 2, 2]
 windows:
   "7d":
     pushes: 2
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 89
+    pushes: 87
     distinct_repos: 15
-    active_days: 21
+    active_days: 20
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 4.2381
-  repo_per_active_day: 0.7143
+  push_per_day: 4.3500
+  repo_per_active_day: 0.7500
   not_owned_ratio: 0.1333
   basename_concentration: 0.0667
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 89
+    pushes: 87
     distinct_repos: 15
-    pushes_per_repo: 5.9333
-    active_days: 21
+    pushes_per_repo: 5.8000
+    active_days: 20
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 21 active days in 90d — pass"
+  - "activity: 20 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "livenerf"
@@ -136,6 +136,6 @@ repos:
 
 # ninjahawk
 
-89 pushes across 15 repositories on 21 active days in the last 90 days of public GitHub push activity.
+87 pushes across 15 repositories on 20 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ninjahawk

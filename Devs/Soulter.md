@@ -10,15 +10,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-04T06:07:52.073869+00:00"
+generated_at: "2026-10-05T06:05:47.512530+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [17, 21, 8, 17, 2, 4, 0, 2, 1, 2, 5, 15, 5]
+pushes_per_week: [18, 18, 8, 16, 2, 4, 0, 3, 0, 2, 5, 16, 4]
 windows:
   "7d":
-    pushes: 9
+    pushes: 5
     distinct_repos: 2
-    active_days: 5
+    active_days: 4
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
@@ -30,16 +30,16 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 99
+    pushes: 96
     distinct_repos: 6
-    active_days: 41
+    active_days: 40
     repos_not_owned: 5
     not_owned_basenames: 3
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 2.4146
-  repo_per_active_day: 0.1463
+  push_per_day: 2.4000
+  repo_per_active_day: 0.1500
   not_owned_ratio: 0.8333
   basename_concentration: 0.5000
   shapes: []
@@ -50,10 +50,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 9
+    pushes: 5
     distinct_repos: 2
-    pushes_per_repo: 4.5000
-    active_days: 5
+    pushes_per_repo: 2.5000
+    active_days: 4
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
@@ -66,16 +66,16 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 99
+    pushes: 96
     distinct_repos: 6
-    pushes_per_repo: 16.5000
-    active_days: 41
+    pushes_per_repo: 16.0000
+    active_days: 40
     repos_not_owned: 5
     not_owned_basenames: 3
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 41 active days in 90d — pass"
+  - "activity: 40 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "Soulter"
@@ -134,6 +134,6 @@ repos:
 
 # Soulter
 
-99 pushes across 6 repositories on 41 active days in the last 90 days of public GitHub push activity.
+96 pushes across 6 repositories on 40 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Soulter

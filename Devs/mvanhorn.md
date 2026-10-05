@@ -22,7 +22,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-04T06:07:52.073869+00:00"
+generated_at: "2026-10-05T06:05:47.512530+00:00"
 provenance:
   - "16389f32495280ea"
   - "234088bc43763aa2"
@@ -37,71 +37,71 @@ provenance:
   - "d1946b21c02e5fa5"
   - "dae9f02535f7c22f"
   - "edb3a626875732de"
-pushes_per_week: [82, 66, 48, 14, 17, 38, 9, 2, 0, 12, 24, 33, 76]
+pushes_per_week: [75, 78, 32, 14, 20, 38, 4, 2, 3, 9, 26, 47, 67]
 windows:
   "7d":
-    pushes: 86
+    pushes: 76
     distinct_repos: 32
     active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 145
-    distinct_repos: 63
+    pushes: 152
+    distinct_repos: 66
     active_days: 25
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 421
-    distinct_repos: 170
-    active_days: 69
+    pushes: 415
+    distinct_repos: 169
+    active_days: 68
     repos_not_owned: 4
     not_owned_basenames: 2
     not_owned_owners: 4
 automation:
   state: "clear"
-  push_per_day: 6.1014
-  repo_per_active_day: 2.4638
-  not_owned_ratio: 0.0235
-  basename_concentration: 0.0235
+  push_per_day: 6.1029
+  repo_per_active_day: 2.4853
+  not_owned_ratio: 0.0237
+  basename_concentration: 0.0237
   shapes:
     - "mass_self_repo"
   shape_evidence:
-    - "170 distinct repos, 4 not owned (ratio 0.0235), 6.10 pushes per active day"
+    - "169 distinct repos, 4 not owned (ratio 0.0237), 6.10 pushes per active day"
   cleared_by: "e01-fixer"
   cleared_on: "2026-08-26"
   fork_provenance: null
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 86
+    pushes: 76
     distinct_repos: 32
-    pushes_per_repo: 2.6875
+    pushes_per_repo: 2.3750
     active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 145
-    distinct_repos: 63
-    pushes_per_repo: 2.3016
+    pushes: 152
+    distinct_repos: 66
+    pushes_per_repo: 2.3030
     active_days: 25
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 421
-    distinct_repos: 170
-    pushes_per_repo: 2.4765
-    active_days: 69
+    pushes: 415
+    distinct_repos: 169
+    pushes_per_repo: 2.4556
+    active_days: 68
     repos_not_owned: 4
     not_owned_basenames: 2
     not_owned_owners: 4
 reasons:
   - "provenance: 13 vault signal(s) — pass"
-  - "activity: 69 active days in 90d — pass"
+  - "activity: 68 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "last30days-skill"
@@ -190,6 +190,6 @@ repos:
 
 # mvanhorn
 
-421 pushes across 170 repositories on 69 active days in the last 90 days of public GitHub push activity.
+415 pushes across 169 repositories on 68 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/mvanhorn

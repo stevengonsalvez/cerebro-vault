@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-04T06:07:52.073869+00:00"
+generated_at: "2026-10-05T06:05:47.512530+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [9, 4, 6, 7, 8, 19, 4, 1, 1, 1, 2, 5, 5]
+pushes_per_week: [6, 6, 5, 7, 9, 17, 4, 1, 1, 1, 4, 4, 5]
 windows:
   "7d":
-    pushes: 5
-    distinct_repos: 2
-    active_days: 4
+    pushes: 6
+    distinct_repos: 3
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 14
-    distinct_repos: 3
-    active_days: 12
+    pushes: 15
+    distinct_repos: 4
+    active_days: 13
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 72
-    distinct_repos: 15
+    pushes: 70
+    distinct_repos: 16
     active_days: 41
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.7561
-  repo_per_active_day: 0.3659
+  push_per_day: 1.7073
+  repo_per_active_day: 0.3902
   not_owned_ratio: 0.0000
-  basename_concentration: 0.0667
+  basename_concentration: 0.0625
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 5
-    distinct_repos: 2
-    pushes_per_repo: 2.5000
-    active_days: 4
+    pushes: 6
+    distinct_repos: 3
+    pushes_per_repo: 2.0000
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 14
-    distinct_repos: 3
-    pushes_per_repo: 4.6667
-    active_days: 12
+    pushes: 15
+    distinct_repos: 4
+    pushes_per_repo: 3.7500
+    active_days: 13
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 72
-    distinct_repos: 15
-    pushes_per_repo: 4.8000
+    pushes: 70
+    distinct_repos: 16
+    pushes_per_repo: 4.3750
     active_days: 41
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -135,6 +135,6 @@ repos:
 
 # MikeeI
 
-72 pushes across 15 repositories on 41 active days in the last 90 days of public GitHub push activity.
+70 pushes across 16 repositories on 41 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/MikeeI

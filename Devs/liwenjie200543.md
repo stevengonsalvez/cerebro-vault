@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-04T06:07:52.073869+00:00"
+generated_at: "2026-10-05T06:05:47.512530+00:00"
 provenance:
   - "16389f32495280ea"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 12, 1]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 9, 2]
 windows:
   "7d":
-    pushes: 6
-    distinct_repos: 3
+    pushes: 2
+    distinct_repos: 1
     active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 14
+    pushes: 15
     distinct_repos: 7
-    active_days: 6
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 14
+    pushes: 15
     distinct_repos: 7
-    active_days: 6
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.3333
-  repo_per_active_day: 1.1667
+  push_per_day: 2.1429
+  repo_per_active_day: 1.0000
   not_owned_ratio: 0.0000
   basename_concentration: 0.1429
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 6
-    distinct_repos: 3
+    pushes: 2
+    distinct_repos: 1
     pushes_per_repo: 2.0000
     active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 14
+    pushes: 15
     distinct_repos: 7
-    pushes_per_repo: 2.0000
-    active_days: 6
+    pushes_per_repo: 2.1429
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 14
+    pushes: 15
     distinct_repos: 7
-    pushes_per_repo: 2.0000
-    active_days: 6
+    pushes_per_repo: 2.1429
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 6 active days in 90d — pass"
+  - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "KuseCode"
@@ -113,6 +113,6 @@ repos:
 
 # liwenjie200543
 
-14 pushes across 7 repositories on 6 active days in the last 90 days of public GitHub push activity.
+15 pushes across 7 repositories on 7 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/liwenjie200543

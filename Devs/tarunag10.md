@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-04T06:07:52.073869+00:00"
+generated_at: "2026-10-05T06:05:47.512530+00:00"
 provenance:
   - "0b22ca37fd3884c9"
-pushes_per_week: [3, 6, 0, 0, 2, 0, 14, 4, 0, 0, 0, 10, 0]
+pushes_per_week: [8, 1, 0, 0, 2, 0, 17, 1, 0, 0, 0, 10, 0]
 windows:
   "7d":
     pushes: 0
@@ -92,7 +92,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-26"
+    last_push: "2026-10-01"
   - name: "PageLumen"
     title: "PageLumen"
     description: "Native macOS accessibility-first reader for PDFs, screenshots, scans, and visual documents."
@@ -106,7 +106,7 @@ repos:
       - "vision"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-26"
+    last_push: "2026-09-30"
   - name: "ai-switchboard"
     title: "ai-switchboard"
     description: "Local-first Mac AI work switchboard for Headroom, RTK, Codex, Claude Code, MarkItDown, Ponytail, and Repo Intelligence"

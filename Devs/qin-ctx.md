@@ -9,13 +9,13 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-04T06:07:52.073869+00:00"
+generated_at: "2026-10-05T06:05:47.512530+00:00"
 provenance:
   - "876fe6c1edb8596c"
-pushes_per_week: [5, 16, 6, 6, 0, 3, 2, 3, 1, 3, 8, 10, 4]
+pushes_per_week: [7, 13, 7, 5, 2, 1, 4, 2, 0, 4, 10, 9, 2]
 windows:
   "7d":
-    pushes: 4
+    pushes: 3
     distinct_repos: 1
     active_days: 2
     repos_not_owned: 1
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 2
   "90d":
-    pushes: 67
+    pushes: 66
     distinct_repos: 5
-    active_days: 32
+    active_days: 31
     repos_not_owned: 5
     not_owned_basenames: 1
     not_owned_owners: 5
 automation:
   state: "clear"
-  push_per_day: 2.0938
-  repo_per_active_day: 0.1562
+  push_per_day: 2.1290
+  repo_per_active_day: 0.1613
   not_owned_ratio: 1.0000
   basename_concentration: 1.0000
   shapes: []
@@ -49,9 +49,9 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 4
+    pushes: 3
     distinct_repos: 1
-    pushes_per_repo: 4.0000
+    pushes_per_repo: 3.0000
     active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 2
   "90d":
-    pushes: 67
+    pushes: 66
     distinct_repos: 5
-    pushes_per_repo: 13.4000
-    active_days: 32
+    pushes_per_repo: 13.2000
+    active_days: 31
     repos_not_owned: 5
     not_owned_basenames: 1
     not_owned_owners: 5
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 32 active days in 90d — pass"
+  - "activity: 31 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "qin-ctx"
@@ -113,6 +113,6 @@ repos:
 
 # qin-ctx
 
-67 pushes across 5 repositories on 32 active days in the last 90 days of public GitHub push activity.
+66 pushes across 5 repositories on 31 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/qin-ctx

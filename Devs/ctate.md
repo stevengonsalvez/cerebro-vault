@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-04T06:07:52.073869+00:00"
+generated_at: "2026-10-05T06:05:47.512530+00:00"
 provenance:
   - "0dadaefdea9260e5"
-pushes_per_week: [12, 29, 35, 35, 11, 32, 9, 2, 1, 3, 7, 36, 29]
+pushes_per_week: [17, 30, 29, 40, 11, 30, 7, 2, 0, 3, 8, 46, 24]
 windows:
   "7d":
     pushes: 30
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 4
     not_owned_owners: 1
   "30d":
-    pushes: 75
+    pushes: 81
     distinct_repos: 8
-    active_days: 19
+    active_days: 21
     repos_not_owned: 8
     not_owned_basenames: 8
     not_owned_owners: 1
   "90d":
-    pushes: 241
+    pushes: 247
     distinct_repos: 11
-    active_days: 61
+    active_days: 63
     repos_not_owned: 11
     not_owned_basenames: 11
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 3.9508
-  repo_per_active_day: 0.1803
+  push_per_day: 3.9206
+  repo_per_active_day: 0.1746
   not_owned_ratio: 1.0000
   basename_concentration: 0.0909
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 4
     not_owned_owners: 1
   "30d":
-    pushes: 75
+    pushes: 81
     distinct_repos: 8
-    pushes_per_repo: 9.3750
-    active_days: 19
+    pushes_per_repo: 10.1250
+    active_days: 21
     repos_not_owned: 8
     not_owned_basenames: 8
     not_owned_owners: 1
   "90d":
-    pushes: 241
+    pushes: 247
     distinct_repos: 11
-    pushes_per_repo: 21.9091
-    active_days: 61
+    pushes_per_repo: 22.4545
+    active_days: 63
     repos_not_owned: 11
     not_owned_basenames: 11
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 61 active days in 90d — pass"
+  - "activity: 63 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "3d-model-generator"
@@ -138,6 +138,6 @@ repos:
 
 # ctate
 
-241 pushes across 11 repositories on 61 active days in the last 90 days of public GitHub push activity.
+247 pushes across 11 repositories on 63 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ctate

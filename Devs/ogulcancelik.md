@@ -10,16 +10,16 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-04T06:07:52.073869+00:00"
+generated_at: "2026-10-05T06:05:47.512530+00:00"
 provenance:
   - "576c6507cbdd1cf3"
   - "c87b77df69f1bb71"
-pushes_per_week: [15, 18, 14, 14, 15, 15, 7, 4, 1, 4, 4, 5, 2]
+pushes_per_week: [11, 18, 13, 17, 15, 13, 8, 2, 1, 5, 3, 6, 1]
 windows:
   "7d":
-    pushes: 3
+    pushes: 2
     distinct_repos: 1
-    active_days: 3
+    active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -31,16 +31,16 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 118
+    pushes: 113
     distinct_repos: 13
-    active_days: 52
+    active_days: 51
     repos_not_owned: 11
     not_owned_basenames: 2
     not_owned_owners: 10
 automation:
   state: "clear"
-  push_per_day: 2.2692
-  repo_per_active_day: 0.2500
+  push_per_day: 2.2157
+  repo_per_active_day: 0.2549
   not_owned_ratio: 0.8462
   basename_concentration: 0.8462
   shapes:
@@ -67,10 +67,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 3
+    pushes: 2
     distinct_repos: 1
-    pushes_per_repo: 3.0000
-    active_days: 3
+    pushes_per_repo: 2.0000
+    active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -83,16 +83,16 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 118
+    pushes: 113
     distinct_repos: 13
-    pushes_per_repo: 9.0769
-    active_days: 52
+    pushes_per_repo: 8.6923
+    active_days: 51
     repos_not_owned: 11
     not_owned_basenames: 2
     not_owned_owners: 10
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 52 active days in 90d — pass"
+  - "activity: 51 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "herdr-plugin-examples"
@@ -160,6 +160,6 @@ repos:
 
 # ogulcancelik
 
-118 pushes across 13 repositories on 52 active days in the last 90 days of public GitHub push activity.
+113 pushes across 13 repositories on 51 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ogulcancelik

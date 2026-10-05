@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-04T06:07:52.073869+00:00"
+generated_at: "2026-10-05T06:05:47.512530+00:00"
 provenance:
   - "cb8f252ccaaf10b0"
-pushes_per_week: [2, 12, 11, 7, 9, 10, 6, 2, 0, 0, 3, 3, 3]
+pushes_per_week: [2, 11, 10, 10, 9, 7, 7, 1, 0, 0, 3, 3, 3]
 windows:
   "7d":
     pushes: 3
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 68
+    pushes: 66
     distinct_repos: 26
-    active_days: 35
+    active_days: 34
     repos_not_owned: 7
     not_owned_basenames: 6
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 1.9429
-  repo_per_active_day: 0.7429
+  push_per_day: 1.9412
+  repo_per_active_day: 0.7647
   not_owned_ratio: 0.2692
   basename_concentration: 0.0769
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 68
+    pushes: 66
     distinct_repos: 26
-    pushes_per_repo: 2.6154
-    active_days: 35
+    pushes_per_repo: 2.5385
+    active_days: 34
     repos_not_owned: 7
     not_owned_basenames: 6
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 35 active days in 90d — pass"
+  - "activity: 34 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "skilljack-mcp"
@@ -134,6 +134,6 @@ repos:
 
 # olaservo
 
-68 pushes across 26 repositories on 35 active days in the last 90 days of public GitHub push activity.
+66 pushes across 26 repositories on 34 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/olaservo

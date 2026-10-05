@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-04T06:07:52.073869+00:00"
+generated_at: "2026-10-05T06:05:47.512530+00:00"
 provenance:
   - "16389f32495280ea"
-pushes_per_week: [3, 1, 0, 4, 2, 0, 1, 2, 0, 1, 12, 7, 6]
+pushes_per_week: [3, 1, 0, 4, 2, 1, 0, 2, 0, 1, 14, 8, 5]
 windows:
   "7d":
-    pushes: 6
+    pushes: 7
     distinct_repos: 1
-    active_days: 4
+    active_days: 5
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 26
+    pushes: 28
     distinct_repos: 3
-    active_days: 14
+    active_days: 15
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 39
+    pushes: 41
     distinct_repos: 10
-    active_days: 25
+    active_days: 26
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 1.5600
-  repo_per_active_day: 0.4000
+  push_per_day: 1.5769
+  repo_per_active_day: 0.3846
   not_owned_ratio: 0.4000
   basename_concentration: 0.2000
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 6
+    pushes: 7
     distinct_repos: 1
-    pushes_per_repo: 6.0000
-    active_days: 4
+    pushes_per_repo: 7.0000
+    active_days: 5
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 26
+    pushes: 28
     distinct_repos: 3
-    pushes_per_repo: 8.6667
-    active_days: 14
+    pushes_per_repo: 9.3333
+    active_days: 15
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 39
+    pushes: 41
     distinct_repos: 10
-    pushes_per_repo: 3.9000
-    active_days: 25
+    pushes_per_repo: 4.1000
+    active_days: 26
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 25 active days in 90d — pass"
+  - "activity: 26 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "mcp-github-trending"
@@ -132,6 +132,6 @@ repos:
 
 # hetaoBackend
 
-39 pushes across 10 repositories on 25 active days in the last 90 days of public GitHub push activity.
+41 pushes across 10 repositories on 26 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/hetaoBackend

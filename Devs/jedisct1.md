@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-04T06:07:52.073869+00:00"
+generated_at: "2026-10-05T06:05:47.512530+00:00"
 provenance:
   - "3eacb4655aba2497"
-pushes_per_week: [14, 30, 8, 8, 5, 6, 1, 1, 0, 4, 13, 23, 10]
+pushes_per_week: [18, 25, 7, 9, 4, 7, 0, 1, 0, 4, 15, 25, 12]
 windows:
   "7d":
-    pushes: 11
-    distinct_repos: 10
+    pushes: 15
+    distinct_repos: 11
     active_days: 5
-    repos_not_owned: 5
+    repos_not_owned: 6
     not_owned_basenames: 5
-    not_owned_owners: 4
-  "30d":
-    pushes: 50
-    distinct_repos: 32
-    active_days: 14
-    repos_not_owned: 10
-    not_owned_basenames: 10
     not_owned_owners: 5
+  "30d":
+    pushes: 56
+    distinct_repos: 33
+    active_days: 15
+    repos_not_owned: 11
+    not_owned_basenames: 10
+    not_owned_owners: 6
   "90d":
-    pushes: 123
-    distinct_repos: 59
-    active_days: 45
-    repos_not_owned: 24
+    pushes: 127
+    distinct_repos: 60
+    active_days: 44
+    repos_not_owned: 25
     not_owned_basenames: 24
-    not_owned_owners: 9
+    not_owned_owners: 10
 automation:
   state: "clear"
-  push_per_day: 2.7333
-  repo_per_active_day: 1.3111
-  not_owned_ratio: 0.4068
-  basename_concentration: 0.0339
+  push_per_day: 2.8864
+  repo_per_active_day: 1.3636
+  not_owned_ratio: 0.4167
+  basename_concentration: 0.0333
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 11
-    distinct_repos: 10
-    pushes_per_repo: 1.1000
+    pushes: 15
+    distinct_repos: 11
+    pushes_per_repo: 1.3636
     active_days: 5
-    repos_not_owned: 5
+    repos_not_owned: 6
     not_owned_basenames: 5
-    not_owned_owners: 4
-  "30d":
-    pushes: 50
-    distinct_repos: 32
-    pushes_per_repo: 1.5625
-    active_days: 14
-    repos_not_owned: 10
-    not_owned_basenames: 10
     not_owned_owners: 5
+  "30d":
+    pushes: 56
+    distinct_repos: 33
+    pushes_per_repo: 1.6970
+    active_days: 15
+    repos_not_owned: 11
+    not_owned_basenames: 10
+    not_owned_owners: 6
   "90d":
-    pushes: 123
-    distinct_repos: 59
-    pushes_per_repo: 2.0847
-    active_days: 45
-    repos_not_owned: 24
+    pushes: 127
+    distinct_repos: 60
+    pushes_per_repo: 2.1167
+    active_days: 44
+    repos_not_owned: 25
     not_owned_basenames: 24
-    not_owned_owners: 9
+    not_owned_owners: 10
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 45 active days in 90d — pass"
+  - "activity: 44 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "libsodium.js"
@@ -161,6 +161,6 @@ repos:
 
 # jedisct1
 
-123 pushes across 59 repositories on 45 active days in the last 90 days of public GitHub push activity.
+127 pushes across 60 repositories on 44 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/jedisct1

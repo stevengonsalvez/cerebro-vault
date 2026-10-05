@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-03T06:07:13.763334+00:00"
+generated_at: "2026-10-05T06:05:47.512530+00:00"
 provenance:
   - "2a7f0fddd2dac162"
-pushes_per_week: [0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 6, 4]
+pushes_per_week: [0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 6, 12]
 windows:
   "7d":
-    pushes: 4
+    pushes: 12
     distinct_repos: 2
-    active_days: 2
+    active_days: 4
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 10
+    pushes: 18
     distinct_repos: 3
-    active_days: 5
+    active_days: 7
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 11
+    pushes: 19
     distinct_repos: 3
-    active_days: 6
+    active_days: 8
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.8333
-  repo_per_active_day: 0.5000
+  push_per_day: 2.3750
+  repo_per_active_day: 0.3750
   not_owned_ratio: 0.3333
   basename_concentration: 0.6667
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 4
+    pushes: 12
     distinct_repos: 2
-    pushes_per_repo: 2.0000
-    active_days: 2
+    pushes_per_repo: 6.0000
+    active_days: 4
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 10
+    pushes: 18
     distinct_repos: 3
-    pushes_per_repo: 3.3333
-    active_days: 5
+    pushes_per_repo: 6.0000
+    active_days: 7
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 11
+    pushes: 19
     distinct_repos: 3
-    pushes_per_repo: 3.6667
-    active_days: 6
+    pushes_per_repo: 6.3333
+    active_days: 8
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 6 active days in 90d — pass"
+  - "activity: 8 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "cship-updated"
@@ -89,6 +89,6 @@ repos:
 
 # SiavZ
 
-11 pushes across 3 repositories on 6 active days in the last 90 days of public GitHub push activity.
+19 pushes across 3 repositories on 8 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/SiavZ

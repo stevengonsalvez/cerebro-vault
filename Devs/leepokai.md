@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-04T06:07:52.073869+00:00"
+generated_at: "2026-10-05T06:05:47.512530+00:00"
 provenance:
   - "0b22ca37fd3884c9"
-pushes_per_week: [0, 0, 0, 1, 2, 0, 0, 0, 0, 0, 7, 5, 22]
+pushes_per_week: [0, 0, 0, 1, 2, 0, 0, 0, 0, 0, 7, 7, 22]
 windows:
   "7d":
     pushes: 24
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 34
+    pushes: 36
     distinct_repos: 9
-    active_days: 13
+    active_days: 14
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 37
+    pushes: 39
     distinct_repos: 12
-    active_days: 16
+    active_days: 17
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.3125
-  repo_per_active_day: 0.7500
+  push_per_day: 2.2941
+  repo_per_active_day: 0.7059
   not_owned_ratio: 0.0000
   basename_concentration: 0.0833
   shapes: []
@@ -57,26 +57,69 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 34
+    pushes: 36
     distinct_repos: 9
-    pushes_per_repo: 3.7778
-    active_days: 13
+    pushes_per_repo: 4.0000
+    active_days: 14
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 37
+    pushes: 39
     distinct_repos: 12
-    pushes_per_repo: 3.0833
-    active_days: 16
+    pushes_per_repo: 3.2500
+    active_days: 17
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 16 active days in 90d — pass"
+  - "activity: 17 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "Codync"
+    title: "Codync"
+    description: "Open-source 1:1 alternative to Grok Bot and Muse: message your coding agents (Claude Code, Codex, Cursor, Gemini…) as bots from iPhone, Mac, Linux or terminal. Rust host, native apps."
+    language: "Rust"
+    topics:
+      - "acp"
+      - "agent-client-protocol"
+      - "claude-code"
+      - "codex"
+      - "coding-agents"
+      - "gtk4"
+      - "ios"
+      - "linux"
+      - "macos"
+      - "open-source"
+      - "remote-desktop"
+      - "rust"
+      - "swiftui"
+    stars_fact: 170
+    first_seen: null
+    last_push: "2026-10-04"
+  - name: "claude-mod-cutroom"
+    title: "claude-mod-cutroom"
+    description: "Cutroom: a cutting-room pane for HyperFrames videos inside Claude Code — frame preview, timeline, trim/split/move/undo, Studio selection, ask Claude to edit."
+    language: "TypeScript"
+    topics:
+      - "claude-code"
+      - "claude-code-plugin"
+      - "claude-mod"
+      - "hyperframes"
+      - "tui"
+      - "video-editing"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-04"
+  - name: "homebrew-codync"
+    title: "homebrew-codync"
+    description: "Homebrew tap for Codync — message your coding agents as bots"
+    language: "Ruby"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-04"
   - name: "jev-guard"
     title: "jev-guard"
     description: "Auto mode for every coding agent, built on Jev: risk-scores every tool call with session context (deny / ask / allow), flags prompt injection in results, checks skills and plugins. Claude Code, Codex, Copilot, Gemini, Cursor, pi, OpenCode, ACP."
@@ -92,9 +135,9 @@ repos:
       - "opencode"
       - "prompt-injection"
       - "security"
-    stars_fact: 36
+    stars_fact: 58
     first_seen: null
-    last_push: "2026-09-24"
+    last_push: "2026-10-02"
   - name: "nimplex"
     title: "nimplex"
     description: "Durable coding-agent harness built on top of Pi: runs survive dead workers and sandboxes, every model call is accounted for once, any run can be killed. SQLite locally, PostgreSQL hosted."
@@ -106,23 +149,7 @@ repos:
       - "pi"
       - "sandbox"
       - "typescript"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-26"
-  - name: "homebrew-codync"
-    title: "homebrew-codync"
-    description: "Homebrew tap for Codync — real-time Claude Code monitor"
-    language: "Ruby"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-25"
-  - name: "Codync"
-    title: "Codync"
-    description: null
-    language: "Rust"
-    topics: []
-    stars_fact: 18
+    stars_fact: 2
     first_seen: null
     last_push: "2026-09-26"
   - name: "llm-prompt-techniques-on-jev"
@@ -133,28 +160,10 @@ repos:
     stars_fact: 2
     first_seen: null
     last_push: "2026-09-19"
-  - name: "jev-adrank"
-    title: "jev-adrank"
-    description: "Real-time ad ranking and creative review on a typed evaluation model — one call prices a whole auction, no trained CTR model, no logged clicks."
-    language: "JavaScript"
-    topics:
-      - "ad-ranking"
-      - "ads"
-      - "auction"
-      - "brand-safety"
-      - "ecpm"
-      - "jev"
-      - "prompt-injection"
-      - "real-time"
-      - "recommender-system"
-      - "typesafe"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-20"
 ---
 
 # leepokai
 
-37 pushes across 12 repositories on 16 active days in the last 90 days of public GitHub push activity.
+39 pushes across 12 repositories on 17 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/leepokai

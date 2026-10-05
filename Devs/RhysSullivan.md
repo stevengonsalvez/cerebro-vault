@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-04T06:07:52.073869+00:00"
+generated_at: "2026-10-05T06:05:47.512530+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [58, 10, 5, 21, 8, 3, 10, 8, 0, 6, 21, 30, 30]
+pushes_per_week: [45, 12, 4, 20, 7, 7, 7, 7, 0, 6, 25, 32, 25]
 windows:
   "7d":
     pushes: 31
@@ -22,25 +22,25 @@ windows:
     not_owned_basenames: 3
     not_owned_owners: 1
   "30d":
-    pushes: 87
+    pushes: 88
     distinct_repos: 8
     active_days: 22
     repos_not_owned: 7
     not_owned_basenames: 4
     not_owned_owners: 5
   "90d":
-    pushes: 210
-    distinct_repos: 13
-    active_days: 54
-    repos_not_owned: 12
-    not_owned_basenames: 7
-    not_owned_owners: 7
+    pushes: 197
+    distinct_repos: 11
+    active_days: 53
+    repos_not_owned: 10
+    not_owned_basenames: 6
+    not_owned_owners: 6
 automation:
   state: "clear"
-  push_per_day: 3.8889
-  repo_per_active_day: 0.2407
-  not_owned_ratio: 0.9231
-  basename_concentration: 0.4615
+  push_per_day: 3.7170
+  repo_per_active_day: 0.2075
+  not_owned_ratio: 0.9091
+  basename_concentration: 0.4545
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 3
     not_owned_owners: 1
   "30d":
-    pushes: 87
+    pushes: 88
     distinct_repos: 8
-    pushes_per_repo: 10.8750
+    pushes_per_repo: 11.0000
     active_days: 22
     repos_not_owned: 7
     not_owned_basenames: 4
     not_owned_owners: 5
   "90d":
-    pushes: 210
-    distinct_repos: 13
-    pushes_per_repo: 16.1538
-    active_days: 54
-    repos_not_owned: 12
-    not_owned_basenames: 7
-    not_owned_owners: 7
+    pushes: 197
+    distinct_repos: 11
+    pushes_per_repo: 17.9091
+    active_days: 53
+    repos_not_owned: 10
+    not_owned_basenames: 6
+    not_owned_owners: 6
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 54 active days in 90d — pass"
+  - "activity: 53 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "create-epoch-app"
@@ -129,6 +129,6 @@ repos:
 
 # RhysSullivan
 
-210 pushes across 13 repositories on 54 active days in the last 90 days of public GitHub push activity.
+197 pushes across 11 repositories on 53 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/RhysSullivan

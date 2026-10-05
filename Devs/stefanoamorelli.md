@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-04T06:07:52.073869+00:00"
+generated_at: "2026-10-05T06:05:47.512530+00:00"
 provenance:
   - "0b22ca37fd3884c9"
 pushes_per_week: [1, 0, 2, 0, 0, 0, 0, 0, 0, 1, 8, 1, 1]
@@ -77,18 +77,25 @@ reasons:
   - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "lever-mcp"
-    title: "lever-mcp"
-    description: "A Lever ATS MCP (Model Context Protocol) Server. Built in golang."
-    language: "Go"
+  - name: "sec-edgar-mcp"
+    title: "sec-edgar-mcp"
+    description: "A SEC EDGAR MCP (Model Context Protocol) Server"
+    language: "Python"
     topics:
-      - "lever"
+      - "ai"
+      - "artificial-intelligence"
+      - "edgar"
+      - "edgar-database"
+      - "finance"
+      - "genai"
       - "llm"
       - "mcp"
       - "mcp-server"
-    stars_fact: 3
+      - "model-context-protocol"
+      - "model-context-protocol-server"
+    stars_fact: 363
     first_seen: null
-    last_push: "2026-03-22"
+    last_push: "2026-10-03"
   - name: "stefanoamorelli"
     title: "stefanoamorelli"
     description: null
@@ -96,7 +103,44 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-26"
+    last_push: "2026-10-03"
+  - name: "nasdaq-data-link-mcp"
+    title: "nasdaq-data-link-mcp"
+    description: "A Nasdaq Data Link MCP (Model Context Protocol) Server"
+    language: "Python"
+    topics:
+      - "ai"
+      - "data"
+      - "data-analysis"
+      - "finance"
+      - "financial-analysis"
+      - "financial-data"
+      - "genai"
+      - "llm"
+      - "mcp"
+      - "nasdaq"
+      - "research"
+    stars_fact: 67
+    first_seen: null
+    last_push: "2025-10-04"
+  - name: "fred-mcp-server"
+    title: "fred-mcp-server"
+    description: "Open-source FRED MCP Server (Federal Reserve Economic Data)"
+    language: "TypeScript"
+    topics:
+      - "data"
+      - "data-analysis-project"
+      - "finance"
+      - "financial-analysis"
+      - "genai"
+      - "llm"
+      - "mcp"
+      - "mcp-server"
+      - "model-context-protocol"
+      - "model-context-protocol-server"
+    stars_fact: 123
+    first_seen: null
+    last_push: "2026-08-22"
   - name: "companies-house-mcp"
     title: "companies-house-mcp"
     description: "🇬🇧🏦 MCP server for UK Companies House API - Search companies, retrieve detailed information, filing history, officers, and charges data through the Model Context Protocol"
@@ -123,76 +167,33 @@ repos:
     stars_fact: 28
     first_seen: null
     last_push: "2026-06-21"
-  - name: "crabrl"
-    title: "crabrl"
-    description: "Rust XBRL parser that's 50-150x faster than traditional parsers. Built for speed and accuracy when processing SEC EDGAR filings."
-    language: "Rust"
+  - name: "estonia-ai-kit"
+    title: "estonia-ai-kit"
+    description: "🇪🇪 Open-source AI SDK for Estonian government and private services. MCP servers and skills. Connect Claude, GPT, agents and models, to Estonia's digital infrastructure."
+    language: "TypeScript"
     topics:
-      - "accounting"
-      - "cli"
-      - "edgar"
-      - "finance"
-      - "financial-data"
-      - "financial-reporting"
-      - "high-performance"
-      - "parser"
-      - "regulatory-reporting"
-      - "rust"
-      - "rust-lang"
-      - "sec"
-      - "sec-edgar"
-      - "xbrl"
-      - "xbrl-parser"
-      - "xml-parser"
-    stars_fact: 14
-    first_seen: null
-    last_push: "2025-08-17"
-  - name: "sec-edgar-agentkit"
-    title: "sec-edgar-agentkit"
-    description: "AI agent toolkit for accessing and analyzing SEC EDGAR filing data. Build intelligent agents with LangChain, MCP-use, Gradio, Dify, and smolagents to analyze financial statements, insider trading, and company filings."
-    language: "Python"
-    topics:
-      - "10k"
-      - "8k"
-      - "agent-toolkit"
-      - "ai-agents"
-      - "dify"
-      - "edgar"
-      - "financial-analysis"
-      - "financial-data"
-      - "gradio"
-      - "insider-trading"
-      - "investment-research"
-      - "langchain"
+      - "ai"
+      - "ai-tools"
+      - "business-register"
+      - "digital-nation"
+      - "e-government"
+      - "estonia"
+      - "estonian"
+      - "government-api"
+      - "gpt"
+      - "llm"
       - "mcp"
       - "model-context-protocol"
       - "monorepo"
-      - "python"
-      - "sec"
-      - "sec-filings"
+      - "nx"
+      - "open-data"
+      - "sdk"
+      - "tax-api"
       - "typescript"
-      - "xbrl"
-    stars_fact: 13
+      - "x-road"
+    stars_fact: 81
     first_seen: null
-    last_push: "2025-08-17"
-  - name: "fred-mcp-server"
-    title: "fred-mcp-server"
-    description: "Open-source FRED MCP Server (Federal Reserve Economic Data)"
-    language: "TypeScript"
-    topics:
-      - "data"
-      - "data-analysis-project"
-      - "finance"
-      - "financial-analysis"
-      - "genai"
-      - "llm"
-      - "mcp"
-      - "mcp-server"
-      - "model-context-protocol"
-      - "model-context-protocol-server"
-    stars_fact: 122
-    first_seen: null
-    last_push: "2026-08-22"
+    last_push: "2026-06-30"
 ---
 
 # stefanoamorelli

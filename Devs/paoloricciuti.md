@@ -9,18 +9,18 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-04T06:07:52.073869+00:00"
+generated_at: "2026-10-05T06:05:47.512530+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [5, 6, 5, 2, 5, 2, 0, 0, 0, 1, 0, 2, 2]
+pushes_per_week: [5, 7, 4, 1, 5, 2, 0, 0, 1, 0, 0, 2, 2]
 windows:
   "7d":
-    pushes: 3
-    distinct_repos: 3
-    active_days: 2
-    repos_not_owned: 3
-    not_owned_basenames: 3
-    not_owned_owners: 2
+    pushes: 2
+    distinct_repos: 2
+    active_days: 1
+    repos_not_owned: 2
+    not_owned_basenames: 2
+    not_owned_owners: 1
   "30d":
     pushes: 5
     distinct_repos: 4
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 4
     not_owned_owners: 3
   "90d":
-    pushes: 30
+    pushes: 29
     distinct_repos: 11
-    active_days: 23
+    active_days: 22
     repos_not_owned: 7
     not_owned_basenames: 6
     not_owned_owners: 4
 automation:
   state: "clear"
-  push_per_day: 1.3043
-  repo_per_active_day: 0.4783
+  push_per_day: 1.3182
+  repo_per_active_day: 0.5000
   not_owned_ratio: 0.6364
   basename_concentration: 0.1818
   shapes: []
@@ -49,13 +49,13 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 3
-    distinct_repos: 3
+    pushes: 2
+    distinct_repos: 2
     pushes_per_repo: 1.0000
-    active_days: 2
-    repos_not_owned: 3
-    not_owned_basenames: 3
-    not_owned_owners: 2
+    active_days: 1
+    repos_not_owned: 2
+    not_owned_basenames: 2
+    not_owned_owners: 1
   "30d":
     pushes: 5
     distinct_repos: 4
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 4
     not_owned_owners: 3
   "90d":
-    pushes: 30
+    pushes: 29
     distinct_repos: 11
-    pushes_per_repo: 2.7273
-    active_days: 23
+    pushes_per_repo: 2.6364
+    active_days: 22
     repos_not_owned: 7
     not_owned_basenames: 6
     not_owned_owners: 4
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 23 active days in 90d — pass"
+  - "activity: 22 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "sveltekit-search-params"
@@ -136,6 +136,6 @@ repos:
 
 # paoloricciuti
 
-30 pushes across 11 repositories on 23 active days in the last 90 days of public GitHub push activity.
+29 pushes across 11 repositories on 22 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/paoloricciuti

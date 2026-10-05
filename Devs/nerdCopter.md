@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-04T06:07:52.073869+00:00"
+generated_at: "2026-10-05T06:05:47.512530+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [16, 7, 19, 14, 2, 11, 3, 0, 2, 5, 8, 14, 8]
+pushes_per_week: [13, 9, 24, 7, 2, 14, 0, 1, 1, 5, 8, 15, 8]
 windows:
   "7d":
-    pushes: 12
-    distinct_repos: 8
+    pushes: 9
+    distinct_repos: 7
     active_days: 5
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 36
+    pushes: 37
     distinct_repos: 16
-    active_days: 16
+    active_days: 17
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 2
   "90d":
-    pushes: 109
+    pushes: 107
     distinct_repos: 20
     active_days: 45
     repos_not_owned: 4
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 2.4222
+  push_per_day: 2.3778
   repo_per_active_day: 0.4444
   not_owned_ratio: 0.2000
   basename_concentration: 0.1000
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 12
-    distinct_repos: 8
-    pushes_per_repo: 1.5000
+    pushes: 9
+    distinct_repos: 7
+    pushes_per_repo: 1.2857
     active_days: 5
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 36
+    pushes: 37
     distinct_repos: 16
-    pushes_per_repo: 2.2500
-    active_days: 16
+    pushes_per_repo: 2.3125
+    active_days: 17
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 2
   "90d":
-    pushes: 109
+    pushes: 107
     distinct_repos: 20
-    pushes_per_repo: 5.4500
+    pushes_per_repo: 5.3500
     active_days: 45
     repos_not_owned: 4
     not_owned_basenames: 4
@@ -135,6 +135,6 @@ repos:
 
 # nerdCopter
 
-109 pushes across 20 repositories on 45 active days in the last 90 days of public GitHub push activity.
+107 pushes across 20 repositories on 45 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/nerdCopter

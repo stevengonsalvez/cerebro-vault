@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-04T06:07:52.073869+00:00"
+generated_at: "2026-10-05T06:05:47.512530+00:00"
 provenance:
   - "f74d5b6b78b8a1a4"
-pushes_per_week: [20, 18, 20, 13, 15, 18, 2, 4, 1, 2, 2, 8, 11]
+pushes_per_week: [18, 17, 25, 11, 12, 20, 0, 4, 1, 2, 2, 10, 14]
 windows:
   "7d":
-    pushes: 15
-    distinct_repos: 2
+    pushes: 16
+    distinct_repos: 1
     active_days: 6
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
-    pushes: 24
+    pushes: 29
     distinct_repos: 5
-    active_days: 12
+    active_days: 13
     repos_not_owned: 4
     not_owned_basenames: 1
     not_owned_owners: 4
   "90d":
-    pushes: 134
+    pushes: 136
     distinct_repos: 6
     active_days: 49
     repos_not_owned: 5
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 5
 automation:
   state: "clear"
-  push_per_day: 2.7347
+  push_per_day: 2.7755
   repo_per_active_day: 0.1224
   not_owned_ratio: 0.8333
   basename_concentration: 1.0000
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 15
-    distinct_repos: 2
-    pushes_per_repo: 7.5000
+    pushes: 16
+    distinct_repos: 1
+    pushes_per_repo: 16.0000
     active_days: 6
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
-    pushes: 24
+    pushes: 29
     distinct_repos: 5
-    pushes_per_repo: 4.8000
-    active_days: 12
+    pushes_per_repo: 5.8000
+    active_days: 13
     repos_not_owned: 4
     not_owned_basenames: 1
     not_owned_owners: 4
   "90d":
-    pushes: 134
+    pushes: 136
     distinct_repos: 6
-    pushes_per_repo: 22.3333
+    pushes_per_repo: 22.6667
     active_days: 49
     repos_not_owned: 5
     not_owned_basenames: 1
@@ -117,6 +117,6 @@ repos:
 
 # DeusData
 
-134 pushes across 6 repositories on 49 active days in the last 90 days of public GitHub push activity.
+136 pushes across 6 repositories on 49 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/DeusData

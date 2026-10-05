@@ -9,20 +9,20 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-04T06:07:52.073869+00:00"
+generated_at: "2026-10-05T06:05:47.512530+00:00"
 provenance:
   - "97c4e9cb8b163ddb"
   - "c7515e0fa4368a55"
   - "d3abe74726b22711"
   - "e7c647c4d0689526"
-pushes_per_week: [18, 16, 20, 3, 4, 9, 10, 1, 0, 5, 15, 17, 10]
+pushes_per_week: [11, 18, 21, 1, 4, 12, 6, 1, 2, 4, 18, 15, 8]
 windows:
   "7d":
-    pushes: 16
-    distinct_repos: 7
-    active_days: 5
-    repos_not_owned: 5
-    not_owned_basenames: 5
+    pushes: 9
+    distinct_repos: 5
+    active_days: 4
+    repos_not_owned: 4
+    not_owned_basenames: 4
     not_owned_owners: 1
   "30d":
     pushes: 47
@@ -32,18 +32,18 @@ windows:
     not_owned_basenames: 13
     not_owned_owners: 1
   "90d":
-    pushes: 128
-    distinct_repos: 25
-    active_days: 45
-    repos_not_owned: 21
-    not_owned_basenames: 21
-    not_owned_owners: 2
+    pushes: 121
+    distinct_repos: 22
+    active_days: 44
+    repos_not_owned: 18
+    not_owned_basenames: 18
+    not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.8444
-  repo_per_active_day: 0.5556
-  not_owned_ratio: 0.8400
-  basename_concentration: 0.0400
+  push_per_day: 2.7500
+  repo_per_active_day: 0.5000
+  not_owned_ratio: 0.8182
+  basename_concentration: 0.0455
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -52,12 +52,12 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 16
-    distinct_repos: 7
-    pushes_per_repo: 2.2857
-    active_days: 5
-    repos_not_owned: 5
-    not_owned_basenames: 5
+    pushes: 9
+    distinct_repos: 5
+    pushes_per_repo: 1.8000
+    active_days: 4
+    repos_not_owned: 4
+    not_owned_basenames: 4
     not_owned_owners: 1
   "30d":
     pushes: 47
@@ -68,16 +68,16 @@ facets:
     not_owned_basenames: 13
     not_owned_owners: 1
   "90d":
-    pushes: 128
-    distinct_repos: 25
-    pushes_per_repo: 5.1200
-    active_days: 45
-    repos_not_owned: 21
-    not_owned_basenames: 21
-    not_owned_owners: 2
+    pushes: 121
+    distinct_repos: 22
+    pushes_per_repo: 5.5000
+    active_days: 44
+    repos_not_owned: 18
+    not_owned_basenames: 18
+    not_owned_owners: 1
 reasons:
   - "provenance: 4 vault signal(s) — pass"
-  - "activity: 45 active days in 90d — pass"
+  - "activity: 44 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "filegardener"
@@ -132,6 +132,6 @@ repos:
 
 # smorin
 
-128 pushes across 25 repositories on 45 active days in the last 90 days of public GitHub push activity.
+121 pushes across 22 repositories on 44 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/smorin

@@ -11,11 +11,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-04T06:07:52.073869+00:00"
+generated_at: "2026-10-05T06:05:47.512530+00:00"
 provenance:
   - "4930e4f9e24bb204"
   - "73468cde177ddae6"
-pushes_per_week: [6, 0, 3, 5, 1, 4, 1, 1, 0, 0, 2, 5, 2]
+pushes_per_week: [4, 2, 2, 5, 0, 4, 2, 0, 0, 0, 2, 5, 2]
 windows:
   "7d":
     pushes: 2
@@ -32,16 +32,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 30
+    pushes: 28
     distinct_repos: 3
-    active_days: 21
+    active_days: 20
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.4286
-  repo_per_active_day: 0.1429
+  push_per_day: 1.4000
+  repo_per_active_day: 0.1500
   not_owned_ratio: 0.0000
   basename_concentration: 0.3333
   shapes: []
@@ -68,16 +68,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 30
+    pushes: 28
     distinct_repos: 3
-    pushes_per_repo: 10.0000
-    active_days: 21
+    pushes_per_repo: 9.3333
+    active_days: 20
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 21 active days in 90d — pass"
+  - "activity: 20 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "atlas"
@@ -162,6 +162,6 @@ repos:
 
 # pacifio
 
-30 pushes across 3 repositories on 21 active days in the last 90 days of public GitHub push activity.
+28 pushes across 3 repositories on 20 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/pacifio

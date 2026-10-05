@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-04T06:07:52.073869+00:00"
+generated_at: "2026-10-05T06:05:47.512530+00:00"
 provenance:
   - "dae9f02535f7c22f"
-pushes_per_week: [5, 92, 111, 14, 2, 3, 19, 3, 1, 2, 0, 10, 1]
+pushes_per_week: [4, 166, 39, 11, 2, 3, 22, 1, 1, 1, 0, 10, 1]
 windows:
   "7d":
-    pushes: 2
+    pushes: 1
     distinct_repos: 1
-    active_days: 2
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 263
+    pushes: 261
     distinct_repos: 110
-    active_days: 35
+    active_days: 34
     repos_not_owned: 100
     not_owned_basenames: 96
     not_owned_owners: 6
 automation:
   state: "clear"
-  push_per_day: 7.5143
-  repo_per_active_day: 3.1429
+  push_per_day: 7.6765
+  repo_per_active_day: 3.2353
   not_owned_ratio: 0.9091
   basename_concentration: 0.0545
   shapes: []
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
+    pushes: 1
     distinct_repos: 1
-    pushes_per_repo: 2.0000
-    active_days: 2
+    pushes_per_repo: 1.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 263
+    pushes: 261
     distinct_repos: 110
-    pushes_per_repo: 2.3909
-    active_days: 35
+    pushes_per_repo: 2.3727
+    active_days: 34
     repos_not_owned: 100
     not_owned_basenames: 96
     not_owned_owners: 6
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 35 active days in 90d — pass"
+  - "activity: 34 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "openchrome"
@@ -129,6 +129,6 @@ repos:
 
 # shaun0927
 
-263 pushes across 110 repositories on 35 active days in the last 90 days of public GitHub push activity.
+261 pushes across 110 repositories on 34 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/shaun0927

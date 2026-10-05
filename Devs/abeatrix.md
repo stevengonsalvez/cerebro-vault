@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-03T06:07:13.763334+00:00"
+generated_at: "2026-10-05T06:05:47.512530+00:00"
 provenance:
   - "533d51d9d3dea76f"
-pushes_per_week: [16, 7, 18, 13, 16, 8, 3, 0, 0, 0, 5, 5, 8]
+pushes_per_week: [13, 9, 17, 13, 15, 9, 2, 0, 0, 2, 3, 6, 7]
 windows:
   "7d":
     pushes: 8
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 99
+    pushes: 96
     distinct_repos: 1
-    active_days: 40
+    active_days: 39
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.4750
-  repo_per_active_day: 0.0250
+  push_per_day: 2.4615
+  repo_per_active_day: 0.0256
   not_owned_ratio: 1.0000
   basename_concentration: 1.0000
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 99
+    pushes: 96
     distinct_repos: 1
-    pushes_per_repo: 99.0000
-    active_days: 40
+    pushes_per_repo: 96.0000
+    active_days: 39
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 40 active days in 90d — pass"
+  - "activity: 39 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "kalshi-ts-mcp"
@@ -131,6 +131,6 @@ repos:
 
 # abeatrix
 
-99 pushes across 1 repository on 40 active days in the last 90 days of public GitHub push activity.
+96 pushes across 1 repository on 39 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/abeatrix

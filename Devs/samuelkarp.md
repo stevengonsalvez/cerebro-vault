@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-03T06:07:13.763334+00:00"
+generated_at: "2026-10-05T06:05:47.512530+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [2, 1, 4, 3, 0, 0, 1, 0, 0, 1, 1, 2, 0]
+pushes_per_week: [1, 2, 3, 3, 0, 1, 0, 0, 0, 1, 1, 2, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 15
+    pushes: 14
     distinct_repos: 6
-    active_days: 13
+    active_days: 12
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.1538
-  repo_per_active_day: 0.4615
+  push_per_day: 1.1667
+  repo_per_active_day: 0.5000
   not_owned_ratio: 0.3333
   basename_concentration: 0.3333
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 15
+    pushes: 14
     distinct_repos: 6
-    pushes_per_repo: 2.5000
-    active_days: 13
+    pushes_per_repo: 2.3333
+    active_days: 12
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 13 active days in 90d — pass"
+  - "activity: 12 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "git-ghsa"
@@ -135,6 +135,6 @@ repos:
 
 # samuelkarp
 
-15 pushes across 6 repositories on 13 active days in the last 90 days of public GitHub push activity.
+14 pushes across 6 repositories on 12 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/samuelkarp

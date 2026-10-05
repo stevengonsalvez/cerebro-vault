@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-04T06:07:52.073869+00:00"
+generated_at: "2026-10-05T06:05:47.512530+00:00"
 provenance:
   - "edb3a626875732de"
-pushes_per_week: [1, 2, 2, 6, 3, 29, 0, 1, 0, 1, 0, 2, 0]
+pushes_per_week: [0, 2, 3, 5, 5, 27, 0, 1, 1, 0, 0, 2, 0]
 windows:
   "7d":
-    pushes: 2
-    distinct_repos: 1
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 47
+    pushes: 46
     distinct_repos: 6
-    active_days: 21
+    active_days: 20
     repos_not_owned: 4
     not_owned_basenames: 1
     not_owned_owners: 4
 automation:
   state: "clear"
-  push_per_day: 2.2381
-  repo_per_active_day: 0.2857
+  push_per_day: 2.3000
+  repo_per_active_day: 0.3000
   not_owned_ratio: 0.6667
   basename_concentration: 0.8333
   shapes: []
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
-    distinct_repos: 1
-    pushes_per_repo: 2.0000
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 47
+    pushes: 46
     distinct_repos: 6
-    pushes_per_repo: 7.8333
-    active_days: 21
+    pushes_per_repo: 7.6667
+    active_days: 20
     repos_not_owned: 4
     not_owned_basenames: 1
     not_owned_owners: 4
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 21 active days in 90d — pass"
+  - "activity: 20 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "ETH-Sim"
@@ -129,6 +129,6 @@ repos:
 
 # haelyra
 
-47 pushes across 6 repositories on 21 active days in the last 90 days of public GitHub push activity.
+46 pushes across 6 repositories on 20 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/haelyra

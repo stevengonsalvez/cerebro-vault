@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-04T06:07:52.073869+00:00"
+generated_at: "2026-10-05T06:05:47.512530+00:00"
 provenance:
   - "c1af6b58492f9bf4"
-pushes_per_week: [174, 23, 103, 83, 1, 83, 3, 8, 1, 4, 139, 133, 41]
+pushes_per_week: [77, 65, 70, 74, 3, 83, 1, 9, 2, 2, 151, 152, 53]
 windows:
   "7d":
-    pushes: 59
-    distinct_repos: 8
+    pushes: 78
+    distinct_repos: 7
     active_days: 5
-    repos_not_owned: 8
-    not_owned_basenames: 8
+    repos_not_owned: 7
+    not_owned_basenames: 7
     not_owned_owners: 1
   "30d":
-    pushes: 317
+    pushes: 360
     distinct_repos: 18
-    active_days: 20
+    active_days: 21
     repos_not_owned: 14
     not_owned_basenames: 14
     not_owned_owners: 1
   "90d":
-    pushes: 796
+    pushes: 742
     distinct_repos: 27
     active_days: 57
     repos_not_owned: 15
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 13.9649
+  push_per_day: 13.0175
   repo_per_active_day: 0.4737
   not_owned_ratio: 0.5556
   basename_concentration: 0.0370
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 59
-    distinct_repos: 8
-    pushes_per_repo: 7.3750
+    pushes: 78
+    distinct_repos: 7
+    pushes_per_repo: 11.1429
     active_days: 5
-    repos_not_owned: 8
-    not_owned_basenames: 8
+    repos_not_owned: 7
+    not_owned_basenames: 7
     not_owned_owners: 1
   "30d":
-    pushes: 317
+    pushes: 360
     distinct_repos: 18
-    pushes_per_repo: 17.6111
-    active_days: 20
+    pushes_per_repo: 20.0000
+    active_days: 21
     repos_not_owned: 14
     not_owned_basenames: 14
     not_owned_owners: 1
   "90d":
-    pushes: 796
+    pushes: 742
     distinct_repos: 27
-    pushes_per_repo: 29.4815
+    pushes_per_repo: 27.4815
     active_days: 57
     repos_not_owned: 15
     not_owned_basenames: 15
@@ -205,6 +205,6 @@ repos:
 
 # pirate
 
-796 pushes across 27 repositories on 57 active days in the last 90 days of public GitHub push activity.
+742 pushes across 27 repositories on 57 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/pirate

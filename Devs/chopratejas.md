@@ -11,28 +11,28 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-04T06:07:52.073869+00:00"
+generated_at: "2026-10-05T06:05:47.512530+00:00"
 provenance:
   - "668711a6e1072822"
   - "73468cde177ddae6"
-pushes_per_week: [24, 110, 16, 14, 10, 10, 4, 0, 1, 3, 4, 3, 5]
+pushes_per_week: [42, 89, 15, 18, 4, 11, 3, 0, 1, 3, 4, 3, 8]
 windows:
   "7d":
-    pushes: 5
+    pushes: 8
     distinct_repos: 1
-    active_days: 3
+    active_days: 4
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 16
+    pushes: 19
     distinct_repos: 4
-    active_days: 10
+    active_days: 11
     repos_not_owned: 3
     not_owned_basenames: 1
     not_owned_owners: 3
   "90d":
-    pushes: 204
+    pushes: 201
     distinct_repos: 19
     active_days: 46
     repos_not_owned: 18
@@ -40,7 +40,7 @@ windows:
     not_owned_owners: 18
 automation:
   state: "clear"
-  push_per_day: 4.4348
+  push_per_day: 4.3696
   repo_per_active_day: 0.4130
   not_owned_ratio: 0.9474
   basename_concentration: 0.8947
@@ -68,25 +68,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 5
+    pushes: 8
     distinct_repos: 1
-    pushes_per_repo: 5.0000
-    active_days: 3
+    pushes_per_repo: 8.0000
+    active_days: 4
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 16
+    pushes: 19
     distinct_repos: 4
-    pushes_per_repo: 4.0000
-    active_days: 10
+    pushes_per_repo: 4.7500
+    active_days: 11
     repos_not_owned: 3
     not_owned_basenames: 1
     not_owned_owners: 3
   "90d":
-    pushes: 204
+    pushes: 201
     distinct_repos: 19
-    pushes_per_repo: 10.7368
+    pushes_per_repo: 10.5789
     active_days: 46
     repos_not_owned: 18
     not_owned_basenames: 2
@@ -158,6 +158,6 @@ repos:
 
 # chopratejas
 
-204 pushes across 19 repositories on 46 active days in the last 90 days of public GitHub push activity.
+201 pushes across 19 repositories on 46 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/chopratejas

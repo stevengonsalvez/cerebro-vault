@@ -10,36 +10,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-04T06:07:52.073869+00:00"
+generated_at: "2026-10-05T06:05:47.512530+00:00"
 provenance:
   - "fb0827c68cc0b5d0"
-pushes_per_week: [2, 31, 19, 9, 0, 2, 2, 1, 0, 4, 1, 6, 9]
+pushes_per_week: [10, 23, 21, 7, 0, 2, 3, 0, 0, 4, 3, 4, 15]
 windows:
   "7d":
-    pushes: 9
+    pushes: 15
     distinct_repos: 2
-    active_days: 3
+    active_days: 5
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 20
+    pushes: 26
     distinct_repos: 2
-    active_days: 11
+    active_days: 13
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 86
+    pushes: 92
     distinct_repos: 13
-    active_days: 31
+    active_days: 33
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.7742
-  repo_per_active_day: 0.4194
+  push_per_day: 2.7879
+  repo_per_active_day: 0.3939
   not_owned_ratio: 0.0769
   basename_concentration: 0.0769
   shapes: []
@@ -50,32 +50,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 9
+    pushes: 15
     distinct_repos: 2
-    pushes_per_repo: 4.5000
-    active_days: 3
+    pushes_per_repo: 7.5000
+    active_days: 5
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 20
+    pushes: 26
     distinct_repos: 2
-    pushes_per_repo: 10.0000
-    active_days: 11
+    pushes_per_repo: 13.0000
+    active_days: 13
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 86
+    pushes: 92
     distinct_repos: 13
-    pushes_per_repo: 6.6154
-    active_days: 31
+    pushes_per_repo: 7.0769
+    active_days: 33
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 31 active days in 90d — pass"
+  - "activity: 33 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "homebrew-tap"
@@ -170,6 +170,6 @@ repos:
 
 # carloslfu
 
-86 pushes across 13 repositories on 31 active days in the last 90 days of public GitHub push activity.
+92 pushes across 13 repositories on 33 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/carloslfu

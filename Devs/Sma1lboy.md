@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-04T06:07:52.073869+00:00"
+generated_at: "2026-10-05T06:05:47.512530+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [39, 31, 14, 45, 14, 41, 3, 4, 3, 2, 13, 27, 29]
+pushes_per_week: [25, 29, 19, 40, 18, 37, 3, 4, 4, 2, 12, 27, 33]
 windows:
   "7d":
-    pushes: 36
+    pushes: 33
     distinct_repos: 8
     active_days: 7
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
   "30d":
-    pushes: 72
+    pushes: 76
     distinct_repos: 10
-    active_days: 19
+    active_days: 20
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
   "90d":
-    pushes: 265
+    pushes: 253
     distinct_repos: 21
-    active_days: 58
+    active_days: 57
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 4.5690
-  repo_per_active_day: 0.3621
+  push_per_day: 4.4386
+  repo_per_active_day: 0.3684
   not_owned_ratio: 0.1905
   basename_concentration: 0.0476
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 36
+    pushes: 33
     distinct_repos: 8
-    pushes_per_repo: 4.5000
+    pushes_per_repo: 4.1250
     active_days: 7
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
   "30d":
-    pushes: 72
+    pushes: 76
     distinct_repos: 10
-    pushes_per_repo: 7.2000
-    active_days: 19
+    pushes_per_repo: 7.6000
+    active_days: 20
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
   "90d":
-    pushes: 265
+    pushes: 253
     distinct_repos: 21
-    pushes_per_repo: 12.6190
-    active_days: 58
+    pushes_per_repo: 12.0476
+    active_days: 57
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 58 active days in 90d — pass"
+  - "activity: 57 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "ptcg-shop"
@@ -149,6 +149,6 @@ repos:
 
 # Sma1lboy
 
-265 pushes across 21 repositories on 58 active days in the last 90 days of public GitHub push activity.
+253 pushes across 21 repositories on 57 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Sma1lboy

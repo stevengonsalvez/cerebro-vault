@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-04T06:07:52.073869+00:00"
+generated_at: "2026-10-05T06:05:47.512530+00:00"
 provenance:
   - "0b22ca37fd3884c9"
-pushes_per_week: [29, 46, 20, 5, 19, 8, 7, 0, 0, 1, 0, 1, 0]
+pushes_per_week: [24, 47, 22, 3, 18, 8, 7, 0, 0, 1, 0, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 136
+    pushes: 131
     distinct_repos: 10
-    active_days: 38
+    active_days: 37
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 3.5789
-  repo_per_active_day: 0.2632
+  push_per_day: 3.5405
+  repo_per_active_day: 0.2703
   not_owned_ratio: 0.0000
   basename_concentration: 0.1000
   shapes: []
@@ -65,18 +65,26 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 136
+    pushes: 131
     distinct_repos: 10
-    pushes_per_repo: 13.6000
-    active_days: 38
+    pushes_per_repo: 13.1000
+    active_days: 37
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 38 active days in 90d — pass"
+  - "activity: 37 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "PingFang-SF"
+    title: "PingFang-SF"
+    description: "超集合并字体 — 以苹方为底本，合并 SF Pro + MiSans + Source Han Sans"
+    language: "Python"
+    topics: []
+    stars_fact: 8
+    first_seen: null
+    last_push: "2026-07-31"
   - name: "Zephyr"
     title: "Zephyr"
     description: "Zephyr: A modern, lightweight, and secure Mihomo / Clash Meta GUI client built with Tauri and Rust."
@@ -102,9 +110,17 @@ repos:
       - "vibe-coding"
       - "vpn"
       - "windows"
-    stars_fact: 713
+    stars_fact: 717
     first_seen: null
-    last_push: "2026-09-27"
+    last_push: "2026-09-28"
+  - name: "claude-mimic"
+    title: "claude-mimic"
+    description: "The AI coding agent attribution compatibility layer. Make any coding agent speak Claude Code's Git dialect across 12+ client ecosystems."
+    language: "JavaScript"
+    topics: []
+    stars_fact: 11
+    first_seen: null
+    last_push: "2026-09-13"
   - name: "polyglotir"
     title: "polyglotir"
     description: "SILP: Semantic Interlingua Layer Protocol — Leveraging Shared Training Priors for Cross-Model Agent Communication"
@@ -121,14 +137,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-09-24"
-  - name: "claude-mimic"
-    title: "claude-mimic"
-    description: "The AI coding agent attribution compatibility layer. Make any coding agent speak Claude Code's Git dialect across 12+ client ecosystems."
-    language: "JavaScript"
-    topics: []
-    stars_fact: 10
-    first_seen: null
-    last_push: "2026-09-13"
   - name: "douban2imdb"
     title: "douban2imdb"
     description: "豆瓣 Douban → IMDb 同步油猴脚本：一键把「看过/想看」标记为 IMDb 已看过并按 星×2-1 映射打分。A Tampermonkey/Violentmonkey userscript to sync your Douban movie list to IMDb (mark watched + map ratings). MIT"
@@ -145,18 +153,10 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-09-21"
-  - name: "PingFang-SF"
-    title: "PingFang-SF"
-    description: "超集合并字体 — 以苹方为底本，合并 SF Pro + MiSans + Source Han Sans"
-    language: "Python"
-    topics: []
-    stars_fact: 7
-    first_seen: null
-    last_push: "2026-07-31"
 ---
 
 # Juwan-Hwang
 
-136 pushes across 10 repositories on 38 active days in the last 90 days of public GitHub push activity.
+131 pushes across 10 repositories on 37 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Juwan-Hwang

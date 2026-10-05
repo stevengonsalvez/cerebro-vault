@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-04T06:07:52.073869+00:00"
+generated_at: "2026-10-05T06:05:47.512530+00:00"
 provenance:
   - "90688bf127241ceb"
-pushes_per_week: [14, 1, 0, 2, 3, 4, 6, 0, 0, 2, 3, 5, 9]
+pushes_per_week: [11, 1, 0, 3, 2, 7, 3, 0, 0, 3, 2, 7, 8]
 windows:
   "7d":
-    pushes: 11
-    distinct_repos: 4
+    pushes: 10
+    distinct_repos: 3
     active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 19
+    pushes: 20
     distinct_repos: 6
-    active_days: 10
+    active_days: 11
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 49
+    pushes: 47
     distinct_repos: 11
     active_days: 27
     repos_not_owned: 0
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.8148
+  push_per_day: 1.7407
   repo_per_active_day: 0.4074
   not_owned_ratio: 0.0000
   basename_concentration: 0.0909
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 11
-    distinct_repos: 4
-    pushes_per_repo: 2.7500
+    pushes: 10
+    distinct_repos: 3
+    pushes_per_repo: 3.3333
     active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 19
+    pushes: 20
     distinct_repos: 6
-    pushes_per_repo: 3.1667
-    active_days: 10
+    pushes_per_repo: 3.3333
+    active_days: 11
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 49
+    pushes: 47
     distinct_repos: 11
-    pushes_per_repo: 4.4545
+    pushes_per_repo: 4.2727
     active_days: 27
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -135,6 +135,6 @@ repos:
 
 # patrick-fu
 
-49 pushes across 11 repositories on 27 active days in the last 90 days of public GitHub push activity.
+47 pushes across 11 repositories on 27 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/patrick-fu

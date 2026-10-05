@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-04T06:07:52.073869+00:00"
+generated_at: "2026-10-05T06:05:47.512530+00:00"
 provenance:
   - "dffbb846389f9a26"
-pushes_per_week: [10, 14, 6, 3, 7, 5, 2, 0, 0, 2, 2, 2, 2]
+pushes_per_week: [12, 11, 7, 3, 7, 4, 2, 0, 0, 2, 3, 1, 2]
 windows:
   "7d":
     pushes: 2
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 55
+    pushes: 54
     distinct_repos: 13
-    active_days: 41
+    active_days: 40
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.3415
-  repo_per_active_day: 0.3171
+  push_per_day: 1.3500
+  repo_per_active_day: 0.3250
   not_owned_ratio: 0.0769
   basename_concentration: 0.0769
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 55
+    pushes: 54
     distinct_repos: 13
-    pushes_per_repo: 4.2308
-    active_days: 41
+    pushes_per_repo: 4.1538
+    active_days: 40
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 41 active days in 90d — pass"
+  - "activity: 40 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "crazy_haskell"
@@ -154,6 +154,6 @@ repos:
 
 # vil02
 
-55 pushes across 13 repositories on 41 active days in the last 90 days of public GitHub push activity.
+54 pushes across 13 repositories on 40 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/vil02

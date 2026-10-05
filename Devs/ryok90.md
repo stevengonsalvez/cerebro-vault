@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-04T06:07:52.073869+00:00"
+generated_at: "2026-10-05T06:05:47.512530+00:00"
 provenance:
   - "0b22ca37fd3884c9"
-pushes_per_week: [0, 4, 3, 0, 0, 1, 0, 0, 0, 3, 6, 2, 0]
+pushes_per_week: [2, 3, 2, 0, 0, 1, 0, 0, 0, 4, 5, 2, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,14 +77,6 @@ reasons:
   - "activity: 14 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "ryok90"
-    title: "ryok90"
-    description: "README"
-    language: null
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-25"
   - name: "guaranate"
     title: "guaranate"
     description: "A developer-friendly, native macOS keep-awake CLI"
@@ -100,7 +92,15 @@ repos:
       - "swift-package-manager"
     stars_fact: 3
     first_seen: null
-    last_push: "2026-09-27"
+    last_push: "2026-10-01"
+  - name: "ryok90"
+    title: "ryok90"
+    description: "README"
+    language: null
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-25"
   - name: "yokota.dev"
     title: "yokota.dev"
     description: "Personal site of Rodrigo Yokota — Platform Engineer working on developer tooling, Module Federation, cloud delivery, and agent platforms."

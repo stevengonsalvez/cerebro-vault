@@ -10,28 +10,28 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-04T06:07:52.073869+00:00"
+generated_at: "2026-10-05T06:05:47.512530+00:00"
 provenance:
   - "dae9f02535f7c22f"
   - "de6bf05613f3ae04"
-pushes_per_week: [159, 148, 55, 69, 20, 45, 16, 14, 2, 6, 25, 39, 80]
+pushes_per_week: [148, 146, 57, 60, 21, 45, 16, 12, 4, 4, 25, 53, 72]
 windows:
   "7d":
-    pushes: 92
-    distinct_repos: 8
+    pushes: 81
+    distinct_repos: 9
     active_days: 7
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 3
   "30d":
-    pushes: 151
-    distinct_repos: 13
-    active_days: 23
+    pushes: 157
+    distinct_repos: 14
+    active_days: 24
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 3
   "90d":
-    pushes: 678
+    pushes: 663
     distinct_repos: 25
     active_days: 78
     repos_not_owned: 8
@@ -39,7 +39,7 @@ windows:
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 8.6923
+  push_per_day: 8.5000
   repo_per_active_day: 0.3205
   not_owned_ratio: 0.3200
   basename_concentration: 0.0800
@@ -51,25 +51,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 92
-    distinct_repos: 8
-    pushes_per_repo: 11.5000
+    pushes: 81
+    distinct_repos: 9
+    pushes_per_repo: 9.0000
     active_days: 7
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 3
   "30d":
-    pushes: 151
-    distinct_repos: 13
-    pushes_per_repo: 11.6154
-    active_days: 23
+    pushes: 157
+    distinct_repos: 14
+    pushes_per_repo: 11.2143
+    active_days: 24
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 3
   "90d":
-    pushes: 678
+    pushes: 663
     distinct_repos: 25
-    pushes_per_repo: 27.1200
+    pushes_per_repo: 26.5200
     active_days: 78
     repos_not_owned: 8
     not_owned_basenames: 8
@@ -142,6 +142,6 @@ repos:
 
 # andrebrait
 
-678 pushes across 25 repositories on 78 active days in the last 90 days of public GitHub push activity.
+663 pushes across 25 repositories on 78 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/andrebrait

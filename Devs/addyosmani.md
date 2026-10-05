@@ -10,10 +10,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-04T06:07:52.073869+00:00"
+generated_at: "2026-10-05T06:05:47.512530+00:00"
 provenance:
   - "dae9f02535f7c22f"
-pushes_per_week: [8, 1, 0, 1, 2, 2, 0, 1, 0, 0, 1, 1, 2]
+pushes_per_week: [6, 1, 0, 1, 2, 2, 0, 1, 0, 0, 1, 1, 2]
 windows:
   "7d":
     pushes: 2
@@ -30,16 +30,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 19
+    pushes: 17
     distinct_repos: 5
-    active_days: 14
+    active_days: 12
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.3571
-  repo_per_active_day: 0.3571
+  push_per_day: 1.4167
+  repo_per_active_day: 0.4167
   not_owned_ratio: 0.0000
   basename_concentration: 0.2000
   shapes: []
@@ -66,16 +66,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 19
+    pushes: 17
     distinct_repos: 5
-    pushes_per_repo: 3.8000
-    active_days: 14
+    pushes_per_repo: 3.4000
+    active_days: 12
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 14 active days in 90d — pass"
+  - "activity: 12 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "agent-skills"
@@ -161,6 +161,6 @@ repos:
 
 # addyosmani
 
-19 pushes across 5 repositories on 14 active days in the last 90 days of public GitHub push activity.
+17 pushes across 5 repositories on 12 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/addyosmani

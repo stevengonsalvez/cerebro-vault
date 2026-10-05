@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-04T06:07:52.073869+00:00"
+generated_at: "2026-10-05T06:05:47.512530+00:00"
 provenance:
   - "2a7f0fddd2dac162"
-pushes_per_week: [0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 5, 7]
+pushes_per_week: [0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 5, 7]
 windows:
   "7d":
-    pushes: 8
+    pushes: 7
     distinct_repos: 2
-    active_days: 5
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 8
+    pushes: 7
     distinct_repos: 2
-    pushes_per_repo: 4.0000
-    active_days: 5
+    pushes_per_repo: 3.5000
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -84,15 +84,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-27"
-  - name: "sukima"
-    title: "sukima"
-    description: null
-    language: "Rust"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-25"
+    last_push: "2026-10-05"
   - name: "jumbit"
     title: "jumbit"
     description: "A MoonBit rewrite of zoxide — jump to directories in a few keystrokes. Frecency-ranked, 9-shell integration, agent-friendly JSON/TSV output."
@@ -120,15 +112,15 @@ repos:
       - "zsh"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-25"
-  - name: "galchat"
-    title: "galchat"
+    last_push: "2026-10-04"
+  - name: "moonlake"
+    title: "moonlake"
     description: null
-    language: null
+    language: "MoonBit"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-22"
+    last_push: "2026-10-04"
   - name: "Pokefetch"
     title: "Pokefetch"
     description: null
@@ -144,21 +136,23 @@ repos:
       - "terminal"
     stars_fact: 1
     first_seen: null
-    last_push: "2026-09-17"
-  - name: "superbigcup325.github.io"
-    title: "superbigcup325.github.io"
+    last_push: "2026-10-02"
+  - name: "sukima"
+    title: "sukima"
     description: null
-    language: "JavaScript"
-    topics:
-      - "blog"
-      - "github-pages"
-      - "javascript"
-      - "markdown"
-      - "pjax"
-      - "static-site-generator"
+    language: "Rust"
+    topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-08-27"
+    last_push: "2026-09-25"
+  - name: "galchat"
+    title: "galchat"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-22"
 ---
 
 # superbigcup325

@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-04T06:07:52.073869+00:00"
+generated_at: "2026-10-05T06:05:47.512530+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [0, 0, 2, 0, 0, 0, 2, 0, 0, 9, 6, 49, 18]
+pushes_per_week: [0, 0, 2, 0, 0, 0, 2, 0, 0, 10, 7, 52, 32]
 windows:
   "7d":
-    pushes: 23
+    pushes: 37
     distinct_repos: 3
     active_days: 7
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
   "30d":
-    pushes: 82
+    pushes: 101
     distinct_repos: 3
-    active_days: 17
+    active_days: 18
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
   "90d":
-    pushes: 86
+    pushes: 105
     distinct_repos: 4
-    active_days: 19
+    active_days: 20
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 4.5263
-  repo_per_active_day: 0.2105
+  push_per_day: 5.2500
+  repo_per_active_day: 0.2000
   not_owned_ratio: 0.5000
   basename_concentration: 0.5000
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 23
+    pushes: 37
     distinct_repos: 3
-    pushes_per_repo: 7.6667
+    pushes_per_repo: 12.3333
     active_days: 7
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
   "30d":
-    pushes: 82
+    pushes: 101
     distinct_repos: 3
-    pushes_per_repo: 27.3333
-    active_days: 17
+    pushes_per_repo: 33.6667
+    active_days: 18
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
   "90d":
-    pushes: 86
+    pushes: 105
     distinct_repos: 4
-    pushes_per_repo: 21.5000
-    active_days: 19
+    pushes_per_repo: 26.2500
+    active_days: 20
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 19 active days in 90d — pass"
+  - "activity: 20 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "pi-navrness"
@@ -129,6 +129,6 @@ repos:
 
 # navidemad
 
-86 pushes across 4 repositories on 19 active days in the last 90 days of public GitHub push activity.
+105 pushes across 4 repositories on 20 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/navidemad

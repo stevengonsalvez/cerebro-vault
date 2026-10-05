@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-04T06:07:52.073869+00:00"
+generated_at: "2026-10-05T06:05:47.512530+00:00"
 provenance:
   - "c7d59e96ede9112e"
-pushes_per_week: [0, 26, 22, 5, 2, 25, 7, 3, 0, 0, 3, 14, 22]
+pushes_per_week: [0, 30, 19, 4, 3, 24, 7, 3, 0, 0, 3, 17, 20]
 windows:
   "7d":
     pushes: 23
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 39
+    pushes: 40
     distinct_repos: 4
-    active_days: 12
+    active_days: 13
     repos_not_owned: 3
     not_owned_basenames: 2
     not_owned_owners: 3
   "90d":
-    pushes: 129
+    pushes: 130
     distinct_repos: 6
-    active_days: 40
+    active_days: 41
     repos_not_owned: 5
     not_owned_basenames: 2
     not_owned_owners: 5
 automation:
   state: "clear"
-  push_per_day: 3.2250
-  repo_per_active_day: 0.1500
+  push_per_day: 3.1707
+  repo_per_active_day: 0.1463
   not_owned_ratio: 0.8333
   basename_concentration: 0.8333
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 39
+    pushes: 40
     distinct_repos: 4
-    pushes_per_repo: 9.7500
-    active_days: 12
+    pushes_per_repo: 10.0000
+    active_days: 13
     repos_not_owned: 3
     not_owned_basenames: 2
     not_owned_owners: 3
   "90d":
-    pushes: 129
+    pushes: 130
     distinct_repos: 6
-    pushes_per_repo: 21.5000
-    active_days: 40
+    pushes_per_repo: 21.6667
+    active_days: 41
     repos_not_owned: 5
     not_owned_basenames: 2
     not_owned_owners: 5
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 40 active days in 90d — pass"
+  - "activity: 41 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "nodeterm"
@@ -151,6 +151,6 @@ repos:
 
 # eneskirca
 
-129 pushes across 6 repositories on 40 active days in the last 90 days of public GitHub push activity.
+130 pushes across 6 repositories on 41 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/eneskirca

@@ -9,17 +9,17 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-04T06:07:52.073869+00:00"
+generated_at: "2026-10-05T06:05:47.512530+00:00"
 provenance:
   - "1be978947e68d1f2"
   - "98a2deac3e2f9725"
   - "b949a65ff91f9791"
-pushes_per_week: [5, 1, 4, 9, 7, 5, 4, 3, 2, 6, 13, 5, 14]
+pushes_per_week: [4, 1, 6, 8, 7, 5, 4, 3, 6, 1, 14, 6, 12]
 windows:
   "7d":
-    pushes: 15
-    distinct_repos: 7
-    active_days: 6
+    pushes: 13
+    distinct_repos: 5
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -31,16 +31,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 78
+    pushes: 77
     distinct_repos: 14
-    active_days: 42
+    active_days: 41
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.8571
-  repo_per_active_day: 0.3333
+  push_per_day: 1.8780
+  repo_per_active_day: 0.3415
   not_owned_ratio: 0.0000
   basename_concentration: 0.0714
   shapes: []
@@ -51,10 +51,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 15
-    distinct_repos: 7
-    pushes_per_repo: 2.1429
-    active_days: 6
+    pushes: 13
+    distinct_repos: 5
+    pushes_per_repo: 2.6000
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -67,16 +67,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 78
+    pushes: 77
     distinct_repos: 14
-    pushes_per_repo: 5.5714
-    active_days: 42
+    pushes_per_repo: 5.5000
+    active_days: 41
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 3 vault signal(s) — pass"
-  - "activity: 42 active days in 90d — pass"
+  - "activity: 41 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "fir-exts"
@@ -136,6 +136,6 @@ repos:
 
 # kfet
 
-78 pushes across 14 repositories on 42 active days in the last 90 days of public GitHub push activity.
+77 pushes across 14 repositories on 41 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/kfet

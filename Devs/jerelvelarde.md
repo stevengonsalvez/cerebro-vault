@@ -10,39 +10,39 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-04T06:07:52.073869+00:00"
+generated_at: "2026-10-05T06:05:47.512530+00:00"
 provenance:
   - "229b322ed982d40b"
   - "c4281af03270173b"
-pushes_per_week: [0, 2, 5, 21, 5, 0, 1, 0, 0, 0, 4, 5, 10]
+pushes_per_week: [0, 2, 6, 20, 5, 0, 1, 0, 0, 0, 4, 6, 21]
 windows:
   "7d":
-    pushes: 10
-    distinct_repos: 6
-    active_days: 4
+    pushes: 22
+    distinct_repos: 7
+    active_days: 5
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 19
-    distinct_repos: 7
-    active_days: 8
+    pushes: 31
+    distinct_repos: 8
+    active_days: 9
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 53
-    distinct_repos: 14
-    active_days: 22
+    pushes: 65
+    distinct_repos: 15
+    active_days: 23
     repos_not_owned: 6
     not_owned_basenames: 6
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 2.4091
-  repo_per_active_day: 0.6364
-  not_owned_ratio: 0.4286
-  basename_concentration: 0.1429
+  push_per_day: 2.8261
+  repo_per_active_day: 0.6522
+  not_owned_ratio: 0.4000
+  basename_concentration: 0.1333
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -51,32 +51,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 10
-    distinct_repos: 6
-    pushes_per_repo: 1.6667
-    active_days: 4
+    pushes: 22
+    distinct_repos: 7
+    pushes_per_repo: 3.1429
+    active_days: 5
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 19
-    distinct_repos: 7
-    pushes_per_repo: 2.7143
-    active_days: 8
+    pushes: 31
+    distinct_repos: 8
+    pushes_per_repo: 3.8750
+    active_days: 9
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 53
-    distinct_repos: 14
-    pushes_per_repo: 3.7857
-    active_days: 22
+    pushes: 65
+    distinct_repos: 15
+    pushes_per_repo: 4.3333
+    active_days: 23
     repos_not_owned: 6
     not_owned_basenames: 6
     not_owned_owners: 2
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 22 active days in 90d — pass"
+  - "activity: 23 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "demo-skills"
@@ -131,6 +131,6 @@ repos:
 
 # jerelvelarde
 
-53 pushes across 14 repositories on 22 active days in the last 90 days of public GitHub push activity.
+65 pushes across 15 repositories on 23 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/jerelvelarde

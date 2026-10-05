@@ -9,13 +9,13 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-04T06:07:52.073869+00:00"
+generated_at: "2026-10-05T06:05:47.512530+00:00"
 provenance:
   - "97c4e9cb8b163ddb"
   - "c7515e0fa4368a55"
   - "d3abe74726b22711"
   - "e7c647c4d0689526"
-pushes_per_week: [3, 4, 6, 2, 1, 0, 0, 0, 0, 0, 1, 9, 0]
+pushes_per_week: [3, 3, 7, 1, 1, 0, 0, 0, 0, 0, 1, 9, 0]
 windows:
   "7d":
     pushes: 0
@@ -32,18 +32,18 @@ windows:
     not_owned_basenames: 3
     not_owned_owners: 2
   "90d":
-    pushes: 26
-    distinct_repos: 10
+    pushes: 25
+    distinct_repos: 9
     active_days: 16
-    repos_not_owned: 8
-    not_owned_basenames: 8
-    not_owned_owners: 4
+    repos_not_owned: 7
+    not_owned_basenames: 7
+    not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 1.6250
-  repo_per_active_day: 0.6250
-  not_owned_ratio: 0.8000
-  basename_concentration: 0.1000
+  push_per_day: 1.5625
+  repo_per_active_day: 0.5625
+  not_owned_ratio: 0.7778
+  basename_concentration: 0.1111
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -68,13 +68,13 @@ facets:
     not_owned_basenames: 3
     not_owned_owners: 2
   "90d":
-    pushes: 26
-    distinct_repos: 10
-    pushes_per_repo: 2.6000
+    pushes: 25
+    distinct_repos: 9
+    pushes_per_repo: 2.7778
     active_days: 16
-    repos_not_owned: 8
-    not_owned_basenames: 8
-    not_owned_owners: 4
+    repos_not_owned: 7
+    not_owned_basenames: 7
+    not_owned_owners: 3
 reasons:
   - "provenance: 4 vault signal(s) — pass"
   - "activity: 16 active days in 90d — pass"
@@ -133,6 +133,6 @@ repos:
 
 # indirect
 
-26 pushes across 10 repositories on 16 active days in the last 90 days of public GitHub push activity.
+25 pushes across 9 repositories on 16 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/indirect

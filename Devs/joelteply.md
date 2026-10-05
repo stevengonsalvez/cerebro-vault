@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-04T06:07:52.073869+00:00"
+generated_at: "2026-10-05T06:05:47.512530+00:00"
 provenance:
   - "3eacb4655aba2497"
-pushes_per_week: [29, 5, 23, 37, 22, 34, 7, 10, 5, 20, 49, 71, 91]
+pushes_per_week: [19, 5, 29, 35, 20, 34, 9, 7, 14, 10, 52, 94, 73]
 windows:
   "7d":
-    pushes: 112
-    distinct_repos: 5
+    pushes: 89
+    distinct_repos: 4
     active_days: 7
-    repos_not_owned: 4
-    not_owned_basenames: 4
+    repos_not_owned: 3
+    not_owned_basenames: 3
     not_owned_owners: 1
   "30d":
-    pushes: 234
+    pushes: 242
     distinct_repos: 5
-    active_days: 25
+    active_days: 26
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 1
   "90d":
-    pushes: 403
+    pushes: 401
     distinct_repos: 5
     active_days: 66
     repos_not_owned: 4
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 6.1061
+  push_per_day: 6.0758
   repo_per_active_day: 0.0758
   not_owned_ratio: 0.8000
   basename_concentration: 0.2000
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 112
-    distinct_repos: 5
-    pushes_per_repo: 22.4000
+    pushes: 89
+    distinct_repos: 4
+    pushes_per_repo: 22.2500
     active_days: 7
-    repos_not_owned: 4
-    not_owned_basenames: 4
+    repos_not_owned: 3
+    not_owned_basenames: 3
     not_owned_owners: 1
   "30d":
-    pushes: 234
+    pushes: 242
     distinct_repos: 5
-    pushes_per_repo: 46.8000
-    active_days: 25
+    pushes_per_repo: 48.4000
+    active_days: 26
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 1
   "90d":
-    pushes: 403
+    pushes: 401
     distinct_repos: 5
-    pushes_per_repo: 80.6000
+    pushes_per_repo: 80.2000
     active_days: 66
     repos_not_owned: 4
     not_owned_basenames: 4
@@ -121,6 +121,6 @@ repos:
 
 # joelteply
 
-403 pushes across 5 repositories on 66 active days in the last 90 days of public GitHub push activity.
+401 pushes across 5 repositories on 66 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/joelteply

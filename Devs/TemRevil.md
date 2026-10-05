@@ -9,13 +9,13 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-04T06:07:52.073869+00:00"
+generated_at: "2026-10-05T06:05:47.512530+00:00"
 provenance:
   - "0b22ca37fd3884c9"
-pushes_per_week: [5, 4, 1, 1, 3, 0, 0, 0, 0, 0, 2, 5, 2]
+pushes_per_week: [5, 4, 1, 2, 2, 0, 0, 0, 0, 0, 3, 6, 0]
 windows:
   "7d":
-    pushes: 2
+    pushes: 1
     distinct_repos: 1
     active_days: 1
     repos_not_owned: 0
@@ -49,9 +49,9 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
+    pushes: 1
     distinct_repos: 1
-    pushes_per_repo: 2.0000
+    pushes_per_repo: 1.0000
     active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -77,6 +77,19 @@ reasons:
   - "activity: 15 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "t-sec"
+    title: "t-sec"
+    description: "Age-encrypted developer secrets CLI with a terminal UI and per-device trust"
+    language: "TypeScript"
+    topics:
+      - "age"
+      - "cli"
+      - "secrets-management"
+      - "terminal-ui"
+      - "typescript"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-04"
   - name: "revil"
     title: "revil"
     description: "Portfolio ✨"
@@ -84,7 +97,7 @@ repos:
     topics: []
     stars_fact: 6
     first_seen: null
-    last_push: "2026-09-25"
+    last_push: "2026-09-29"
   - name: "gmrec"
     title: "gmrec"
     description: "Chrome extension that records each Google Meet participant into their own MP4, from their real stream — not a screen capture."
@@ -125,20 +138,7 @@ repos:
       - "github-config"
     stars_fact: 1
     first_seen: null
-    last_push: "2026-09-27"
-  - name: "Kittle"
-    title: "Kittle"
-    description: "An Ai Code Reviewer"
-    language: "TypeScript"
-    topics:
-      - "ai"
-      - "codereview"
-      - "codereviewer"
-      - "llm"
-      - "react"
-    stars_fact: 19
-    first_seen: null
-    last_push: "2026-06-10"
+    last_push: "2026-10-05"
 ---
 
 # TemRevil

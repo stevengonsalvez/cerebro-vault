@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-04T06:07:52.073869+00:00"
+generated_at: "2026-10-05T06:05:47.512530+00:00"
 provenance:
   - "ef17663e884139a8"
-pushes_per_week: [28, 43, 19, 24, 25, 32, 7, 4, 0, 2, 6, 10, 8]
+pushes_per_week: [31, 38, 22, 22, 27, 28, 7, 4, 0, 2, 6, 10, 8]
 windows:
   "7d":
-    pushes: 11
+    pushes: 8
     distinct_repos: 4
-    active_days: 6
+    active_days: 5
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 208
+    pushes: 205
     distinct_repos: 37
-    active_days: 65
+    active_days: 63
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 3.2000
-  repo_per_active_day: 0.5692
+  push_per_day: 3.2540
+  repo_per_active_day: 0.5873
   not_owned_ratio: 0.1081
   basename_concentration: 0.0270
   shapes: []
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 11
+    pushes: 8
     distinct_repos: 4
-    pushes_per_repo: 2.7500
-    active_days: 6
+    pushes_per_repo: 2.0000
+    active_days: 5
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 208
+    pushes: 205
     distinct_repos: 37
-    pushes_per_repo: 5.6216
-    active_days: 65
+    pushes_per_repo: 5.5405
+    active_days: 63
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 65 active days in 90d — pass"
+  - "activity: 63 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "Surge"
@@ -167,6 +167,6 @@ repos:
 
 # SukkaW
 
-208 pushes across 37 repositories on 65 active days in the last 90 days of public GitHub push activity.
+205 pushes across 37 repositories on 63 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/SukkaW

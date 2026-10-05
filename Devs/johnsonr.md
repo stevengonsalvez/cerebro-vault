@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-04T06:07:52.073869+00:00"
+generated_at: "2026-10-05T06:05:47.512530+00:00"
 provenance:
   - "406a85b388590eb0"
-pushes_per_week: [8, 7, 3, 2, 2, 9, 1, 6, 0, 6, 5, 9, 20]
+pushes_per_week: [5, 7, 3, 2, 2, 9, 3, 4, 0, 7, 6, 7, 30]
 windows:
   "7d":
-    pushes: 21
-    distinct_repos: 5
+    pushes: 30
+    distinct_repos: 6
     active_days: 6
-    repos_not_owned: 5
-    not_owned_basenames: 5
+    repos_not_owned: 6
+    not_owned_basenames: 6
     not_owned_owners: 1
   "30d":
-    pushes: 40
+    pushes: 50
     distinct_repos: 8
-    active_days: 19
+    active_days: 20
     repos_not_owned: 8
     not_owned_basenames: 8
     not_owned_owners: 1
   "90d":
-    pushes: 78
+    pushes: 85
     distinct_repos: 25
-    active_days: 36
+    active_days: 37
     repos_not_owned: 13
     not_owned_basenames: 13
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 2.1667
-  repo_per_active_day: 0.6944
+  push_per_day: 2.2973
+  repo_per_active_day: 0.6757
   not_owned_ratio: 0.5200
   basename_concentration: 0.0800
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 21
-    distinct_repos: 5
-    pushes_per_repo: 4.2000
+    pushes: 30
+    distinct_repos: 6
+    pushes_per_repo: 5.0000
     active_days: 6
-    repos_not_owned: 5
-    not_owned_basenames: 5
+    repos_not_owned: 6
+    not_owned_basenames: 6
     not_owned_owners: 1
   "30d":
-    pushes: 40
+    pushes: 50
     distinct_repos: 8
-    pushes_per_repo: 5.0000
-    active_days: 19
+    pushes_per_repo: 6.2500
+    active_days: 20
     repos_not_owned: 8
     not_owned_basenames: 8
     not_owned_owners: 1
   "90d":
-    pushes: 78
+    pushes: 85
     distinct_repos: 25
-    pushes_per_repo: 3.1200
-    active_days: 36
+    pushes_per_repo: 3.4000
+    active_days: 37
     repos_not_owned: 13
     not_owned_basenames: 13
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 36 active days in 90d — pass"
+  - "activity: 37 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "instrumented-rag"
@@ -129,6 +129,6 @@ repos:
 
 # johnsonr
 
-78 pushes across 25 repositories on 36 active days in the last 90 days of public GitHub push activity.
+85 pushes across 25 repositories on 37 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/johnsonr

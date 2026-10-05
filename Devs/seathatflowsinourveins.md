@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-04T06:07:52.073869+00:00"
+generated_at: "2026-10-05T06:05:47.512530+00:00"
 provenance:
   - "4138778ebbc75ba6"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 11, 106, 96]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 14, 112, 112]
 windows:
   "7d":
-    pushes: 114
+    pushes: 121
     distinct_repos: 1
     active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 213
+    pushes: 238
     distinct_repos: 1
-    active_days: 16
+    active_days: 17
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 213
+    pushes: 238
     distinct_repos: 1
-    active_days: 16
+    active_days: 17
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 13.3125
-  repo_per_active_day: 0.0625
+  push_per_day: 14.0000
+  repo_per_active_day: 0.0588
   not_owned_ratio: 0.0000
   basename_concentration: 1.0000
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 114
+    pushes: 121
     distinct_repos: 1
-    pushes_per_repo: 114.0000
+    pushes_per_repo: 121.0000
     active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 213
+    pushes: 238
     distinct_repos: 1
-    pushes_per_repo: 213.0000
-    active_days: 16
+    pushes_per_repo: 238.0000
+    active_days: 17
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 213
+    pushes: 238
     distinct_repos: 1
-    pushes_per_repo: 213.0000
-    active_days: 16
+    pushes_per_repo: 238.0000
+    active_days: 17
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 16 active days in 90d — pass"
+  - "activity: 17 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "native-agent-stack"
@@ -89,6 +89,6 @@ repos:
 
 # seathatflowsinourveins
 
-213 pushes across 1 repository on 16 active days in the last 90 days of public GitHub push activity.
+238 pushes across 1 repository on 17 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/seathatflowsinourveins

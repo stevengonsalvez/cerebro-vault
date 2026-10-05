@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-04T06:07:52.073869+00:00"
+generated_at: "2026-10-05T06:05:47.512530+00:00"
 provenance:
   - "48dbbdd8fd0d3029"
-pushes_per_week: [31, 50, 65, 42, 20, 25, 3, 8, 2, 5, 23, 24, 46]
+pushes_per_week: [27, 70, 44, 42, 20, 25, 3, 8, 2, 5, 23, 33, 37]
 windows:
   "7d":
-    pushes: 47
+    pushes: 44
     distinct_repos: 13
-    active_days: 6
+    active_days: 5
     repos_not_owned: 13
     not_owned_basenames: 3
     not_owned_owners: 12
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 3
     not_owned_owners: 14
   "90d":
-    pushes: 344
+    pushes: 339
     distinct_repos: 40
-    active_days: 59
+    active_days: 58
     repos_not_owned: 36
     not_owned_basenames: 14
     not_owned_owners: 24
 automation:
   state: "clear"
-  push_per_day: 5.8305
-  repo_per_active_day: 0.6780
+  push_per_day: 5.8448
+  repo_per_active_day: 0.6897
   not_owned_ratio: 0.9000
   basename_concentration: 0.4750
   shapes: []
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 47
+    pushes: 44
     distinct_repos: 13
-    pushes_per_repo: 3.6154
-    active_days: 6
+    pushes_per_repo: 3.3846
+    active_days: 5
     repos_not_owned: 13
     not_owned_basenames: 3
     not_owned_owners: 12
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 3
     not_owned_owners: 14
   "90d":
-    pushes: 344
+    pushes: 339
     distinct_repos: 40
-    pushes_per_repo: 8.6000
-    active_days: 59
+    pushes_per_repo: 8.4750
+    active_days: 58
     repos_not_owned: 36
     not_owned_basenames: 14
     not_owned_owners: 24
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 59 active days in 90d — pass"
+  - "activity: 58 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "skills"
@@ -129,6 +129,6 @@ repos:
 
 # Patrick-Erichsen
 
-344 pushes across 40 repositories on 59 active days in the last 90 days of public GitHub push activity.
+339 pushes across 40 repositories on 58 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Patrick-Erichsen

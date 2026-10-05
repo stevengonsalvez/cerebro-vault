@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-04T06:07:52.073869+00:00"
+generated_at: "2026-10-05T06:05:47.512530+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [5, 9, 5, 5, 3, 2, 1, 7, 4, 3, 19, 12, 15]
+pushes_per_week: [5, 9, 5, 6, 2, 2, 3, 6, 4, 2, 21, 13, 26]
 windows:
   "7d":
-    pushes: 16
-    distinct_repos: 10
+    pushes: 29
+    distinct_repos: 11
     active_days: 5
-    repos_not_owned: 2
-    not_owned_basenames: 2
-    not_owned_owners: 2
-  "30d":
-    pushes: 52
-    distinct_repos: 16
-    active_days: 18
-    repos_not_owned: 2
-    not_owned_basenames: 2
-    not_owned_owners: 2
-  "90d":
-    pushes: 90
-    distinct_repos: 19
-    active_days: 39
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
+  "30d":
+    pushes: 66
+    distinct_repos: 18
+    active_days: 19
+    repos_not_owned: 4
+    not_owned_basenames: 4
+    not_owned_owners: 2
+  "90d":
+    pushes: 104
+    distinct_repos: 21
+    active_days: 40
+    repos_not_owned: 5
+    not_owned_basenames: 5
+    not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 2.3077
-  repo_per_active_day: 0.4872
-  not_owned_ratio: 0.1579
-  basename_concentration: 0.0526
+  push_per_day: 2.6000
+  repo_per_active_day: 0.5250
+  not_owned_ratio: 0.2381
+  basename_concentration: 0.0476
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 16
-    distinct_repos: 10
-    pushes_per_repo: 1.6000
+    pushes: 29
+    distinct_repos: 11
+    pushes_per_repo: 2.6364
     active_days: 5
-    repos_not_owned: 2
-    not_owned_basenames: 2
-    not_owned_owners: 2
-  "30d":
-    pushes: 52
-    distinct_repos: 16
-    pushes_per_repo: 3.2500
-    active_days: 18
-    repos_not_owned: 2
-    not_owned_basenames: 2
-    not_owned_owners: 2
-  "90d":
-    pushes: 90
-    distinct_repos: 19
-    pushes_per_repo: 4.7368
-    active_days: 39
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
+  "30d":
+    pushes: 66
+    distinct_repos: 18
+    pushes_per_repo: 3.6667
+    active_days: 19
+    repos_not_owned: 4
+    not_owned_basenames: 4
+    not_owned_owners: 2
+  "90d":
+    pushes: 104
+    distinct_repos: 21
+    pushes_per_repo: 4.9524
+    active_days: 40
+    repos_not_owned: 5
+    not_owned_basenames: 5
+    not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 39 active days in 90d — pass"
+  - "activity: 40 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "CapsuleDB"
@@ -154,6 +154,6 @@ repos:
 
 # aryasaatvik
 
-90 pushes across 19 repositories on 39 active days in the last 90 days of public GitHub push activity.
+104 pushes across 21 repositories on 40 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/aryasaatvik

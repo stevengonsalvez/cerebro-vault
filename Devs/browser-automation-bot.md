@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-03T06:07:13.763334+00:00"
+generated_at: "2026-10-05T06:05:47.512530+00:00"
 provenance:
   - "379642deb53f3714"
-pushes_per_week: [3, 4, 3, 4, 0, 6, 1, 0, 0, 1, 2, 3, 5]
+pushes_per_week: [5, 2, 3, 3, 0, 7, 0, 0, 1, 0, 2, 4, 4]
 windows:
   "7d":
     pushes: 5
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 3
     not_owned_owners: 2
   "90d":
-    pushes: 32
+    pushes: 31
     distinct_repos: 3
-    active_days: 23
+    active_days: 22
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 1.3913
-  repo_per_active_day: 0.1304
+  push_per_day: 1.4091
+  repo_per_active_day: 0.1364
   not_owned_ratio: 1.0000
   basename_concentration: 0.3333
   shapes: []
@@ -65,22 +65,22 @@ facets:
     not_owned_basenames: 3
     not_owned_owners: 2
   "90d":
-    pushes: 32
+    pushes: 31
     distinct_repos: 3
-    pushes_per_repo: 10.6667
-    active_days: 23
+    pushes_per_repo: 10.3333
+    active_days: 22
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 23 active days in 90d — pass"
+  - "activity: 22 active days in 90d — pass"
   - "automation: clear — pass"
 repos: []
 ---
 
 # browser-automation-bot
 
-32 pushes across 3 repositories on 23 active days in the last 90 days of public GitHub push activity.
+31 pushes across 3 repositories on 22 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/browser-automation-bot
