@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-05T06:05:47.512530+00:00"
+generated_at: "2026-10-06T06:06:47.636089+00:00"
 provenance:
   - "0388a4f55f4206c8"
   - "0577669e18ed3998"
@@ -30,33 +30,33 @@ provenance:
   - "c6b4a874521ceb02"
   - "cf565721454d59f8"
   - "e26852201e6f38fc"
-pushes_per_week: [8, 23, 22, 12, 5, 5, 8, 2, 1, 1, 14, 33, 65]
+pushes_per_week: [12, 21, 21, 11, 5, 5, 8, 2, 1, 3, 14, 33, 80]
 windows:
   "7d":
-    pushes: 71
-    distinct_repos: 3
-    active_days: 6
+    pushes: 82
+    distinct_repos: 2
+    active_days: 7
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 114
+    pushes: 131
     distinct_repos: 15
-    active_days: 18
+    active_days: 20
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 3
   "90d":
-    pushes: 199
+    pushes: 216
     distinct_repos: 32
-    active_days: 45
+    active_days: 47
     repos_not_owned: 6
     not_owned_basenames: 5
     not_owned_owners: 4
 automation:
   state: "clear"
-  push_per_day: 4.4222
-  repo_per_active_day: 0.7111
+  push_per_day: 4.5957
+  repo_per_active_day: 0.6809
   not_owned_ratio: 0.1875
   basename_concentration: 0.0938
   shapes: []
@@ -67,32 +67,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 71
-    distinct_repos: 3
-    pushes_per_repo: 23.6667
-    active_days: 6
+    pushes: 82
+    distinct_repos: 2
+    pushes_per_repo: 41.0000
+    active_days: 7
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 114
+    pushes: 131
     distinct_repos: 15
-    pushes_per_repo: 7.6000
-    active_days: 18
+    pushes_per_repo: 8.7333
+    active_days: 20
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 3
   "90d":
-    pushes: 199
+    pushes: 216
     distinct_repos: 32
-    pushes_per_repo: 6.2188
-    active_days: 45
+    pushes_per_repo: 6.7500
+    active_days: 47
     repos_not_owned: 6
     not_owned_basenames: 5
     not_owned_owners: 4
 reasons:
   - "provenance: 19 vault signal(s) — pass"
-  - "activity: 45 active days in 90d — pass"
+  - "activity: 47 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "public-inbox"
@@ -131,6 +131,6 @@ repos:
 
 # tamird
 
-199 pushes across 32 repositories on 45 active days in the last 90 days of public GitHub push activity.
+216 pushes across 32 repositories on 47 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/tamird

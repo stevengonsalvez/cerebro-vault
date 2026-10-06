@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-05T06:05:47.512530+00:00"
+generated_at: "2026-10-06T06:06:47.636089+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [0, 1, 0, 0, 0, 3, 0, 0, 0, 7, 1, 12, 34]
+pushes_per_week: [0, 1, 0, 0, 0, 3, 0, 0, 0, 7, 2, 14, 34]
 windows:
   "7d":
-    pushes: 40
+    pushes: 36
     distinct_repos: 3
     active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 54
+    pushes: 57
     distinct_repos: 3
-    active_days: 13
+    active_days: 14
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 58
+    pushes: 61
     distinct_repos: 3
-    active_days: 17
+    active_days: 18
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 3.4118
-  repo_per_active_day: 0.1765
+  push_per_day: 3.3889
+  repo_per_active_day: 0.1667
   not_owned_ratio: 0.0000
   basename_concentration: 0.3333
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 40
+    pushes: 36
     distinct_repos: 3
-    pushes_per_repo: 13.3333
+    pushes_per_repo: 12.0000
     active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 54
+    pushes: 57
     distinct_repos: 3
-    pushes_per_repo: 18.0000
-    active_days: 13
+    pushes_per_repo: 19.0000
+    active_days: 14
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 58
+    pushes: 61
     distinct_repos: 3
-    pushes_per_repo: 19.3333
-    active_days: 17
+    pushes_per_repo: 20.3333
+    active_days: 18
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 17 active days in 90d — pass"
+  - "activity: 18 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "railway-openmuse"
@@ -129,6 +129,6 @@ repos:
 
 # will-bogusz
 
-58 pushes across 3 repositories on 17 active days in the last 90 days of public GitHub push activity.
+61 pushes across 3 repositories on 18 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/will-bogusz

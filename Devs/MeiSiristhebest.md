@@ -6,41 +6,39 @@ discovered_via_all:
   - "fanout"
 provenance_repos:
   - "alibaba/open-code-review"
-  - "bytedance/deer-flow"
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-05T06:05:47.512530+00:00"
+generated_at: "2026-10-06T06:06:47.636089+00:00"
 provenance:
-  - "16389f32495280ea"
   - "c489e6fb5febf2ab"
-pushes_per_week: [0, 5, 20, 37, 2, 9, 1, 5, 2, 0, 11, 7, 3]
+pushes_per_week: [5, 12, 8, 37, 2, 9, 6, 0, 2, 1, 10, 8, 3]
 windows:
   "7d":
-    pushes: 6
+    pushes: 4
     distinct_repos: 3
     active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 23
+    pushes: 24
     distinct_repos: 6
-    active_days: 14
+    active_days: 15
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 102
+    pushes: 103
     distinct_repos: 21
-    active_days: 28
+    active_days: 29
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 3.6429
-  repo_per_active_day: 0.7500
+  push_per_day: 3.5517
+  repo_per_active_day: 0.7241
   not_owned_ratio: 0.0000
   basename_concentration: 0.0476
   shapes: []
@@ -51,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 6
+    pushes: 4
     distinct_repos: 3
-    pushes_per_repo: 2.0000
+    pushes_per_repo: 1.3333
     active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 23
+    pushes: 24
     distinct_repos: 6
-    pushes_per_repo: 3.8333
-    active_days: 14
+    pushes_per_repo: 4.0000
+    active_days: 15
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 102
+    pushes: 103
     distinct_repos: 21
-    pushes_per_repo: 4.8571
-    active_days: 28
+    pushes_per_repo: 4.9048
+    active_days: 29
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
-  - "provenance: 2 vault signal(s) — pass"
-  - "activity: 28 active days in 90d — pass"
+  - "provenance: 1 vault signal(s) — pass"
+  - "activity: 29 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "MeiSiristhebest"
@@ -174,6 +172,6 @@ repos:
 
 # MeiSiristhebest
 
-102 pushes across 21 repositories on 28 active days in the last 90 days of public GitHub push activity.
+103 pushes across 21 repositories on 29 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/MeiSiristhebest

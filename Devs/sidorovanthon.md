@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-05T06:05:47.512530+00:00"
+generated_at: "2026-10-06T06:06:47.636089+00:00"
 provenance:
   - "ddd7486148a91958"
-pushes_per_week: [36, 42, 11, 5, 1, 15, 5, 7, 7, 4, 13, 22, 26]
+pushes_per_week: [25, 37, 10, 6, 2, 14, 5, 6, 9, 4, 16, 28, 24]
 windows:
   "7d":
-    pushes: 33
+    pushes: 31
     distinct_repos: 2
     active_days: 6
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 72
+    pushes: 80
     distinct_repos: 4
-    active_days: 18
+    active_days: 19
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
   "90d":
-    pushes: 194
+    pushes: 186
     distinct_repos: 6
     active_days: 51
     repos_not_owned: 3
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 3.8039
+  push_per_day: 3.6471
   repo_per_active_day: 0.1176
   not_owned_ratio: 0.5000
   basename_concentration: 0.1667
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 33
+    pushes: 31
     distinct_repos: 2
-    pushes_per_repo: 16.5000
+    pushes_per_repo: 15.5000
     active_days: 6
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 72
+    pushes: 80
     distinct_repos: 4
-    pushes_per_repo: 18.0000
-    active_days: 18
+    pushes_per_repo: 20.0000
+    active_days: 19
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
   "90d":
-    pushes: 194
+    pushes: 186
     distinct_repos: 6
-    pushes_per_repo: 32.3333
+    pushes_per_repo: 31.0000
     active_days: 51
     repos_not_owned: 3
     not_owned_basenames: 3
@@ -134,6 +134,6 @@ repos:
 
 # sidorovanthon
 
-194 pushes across 6 repositories on 51 active days in the last 90 days of public GitHub push activity.
+186 pushes across 6 repositories on 51 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/sidorovanthon

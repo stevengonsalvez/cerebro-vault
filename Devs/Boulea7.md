@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-05T06:05:47.512530+00:00"
+generated_at: "2026-10-06T06:06:47.636089+00:00"
 provenance:
   - "379642deb53f3714"
-pushes_per_week: [0, 0, 0, 0, 0, 10, 0, 0, 0, 0, 0, 8, 11]
+pushes_per_week: [0, 0, 0, 0, 4, 6, 0, 0, 0, 0, 0, 9, 11]
 windows:
   "7d":
-    pushes: 11
-    distinct_repos: 6
-    active_days: 4
+    pushes: 12
+    distinct_repos: 7
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 19
-    distinct_repos: 13
-    active_days: 6
+    pushes: 20
+    distinct_repos: 14
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 29
-    distinct_repos: 21
-    active_days: 9
+    pushes: 30
+    distinct_repos: 22
+    active_days: 10
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 3.2222
-  repo_per_active_day: 2.3333
+  push_per_day: 3.0000
+  repo_per_active_day: 2.2000
   not_owned_ratio: 0.0000
-  basename_concentration: 0.0476
+  basename_concentration: 0.0455
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 11
-    distinct_repos: 6
-    pushes_per_repo: 1.8333
-    active_days: 4
+    pushes: 12
+    distinct_repos: 7
+    pushes_per_repo: 1.7143
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 19
-    distinct_repos: 13
-    pushes_per_repo: 1.4615
-    active_days: 6
+    pushes: 20
+    distinct_repos: 14
+    pushes_per_repo: 1.4286
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 29
-    distinct_repos: 21
-    pushes_per_repo: 1.3810
-    active_days: 9
+    pushes: 30
+    distinct_repos: 22
+    pushes_per_repo: 1.3636
+    active_days: 10
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 9 active days in 90d — pass"
+  - "activity: 10 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "Boulea7"
@@ -156,6 +156,6 @@ repos:
 
 # Boulea7
 
-29 pushes across 21 repositories on 9 active days in the last 90 days of public GitHub push activity.
+30 pushes across 22 repositories on 10 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Boulea7

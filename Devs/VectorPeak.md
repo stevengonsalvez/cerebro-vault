@@ -10,11 +10,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-05T06:05:47.512530+00:00"
+generated_at: "2026-10-06T06:06:47.636089+00:00"
 provenance:
   - "541318303a272608"
   - "78a5846a75cc0fbb"
-pushes_per_week: [33, 37, 3, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0]
+pushes_per_week: [20, 38, 2, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -31,18 +31,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 75
-    distinct_repos: 13
-    active_days: 18
+    pushes: 62
+    distinct_repos: 11
+    active_days: 17
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 4.1667
-  repo_per_active_day: 0.7222
+  push_per_day: 3.6471
+  repo_per_active_day: 0.6471
   not_owned_ratio: 0.0000
-  basename_concentration: 0.0769
+  basename_concentration: 0.0909
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -67,16 +67,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 75
-    distinct_repos: 13
-    pushes_per_repo: 5.7692
-    active_days: 18
+    pushes: 62
+    distinct_repos: 11
+    pushes_per_repo: 5.6364
+    active_days: 17
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 18 active days in 90d — pass"
+  - "activity: 17 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "VectorPeak"
@@ -170,6 +170,6 @@ repos:
 
 # VectorPeak
 
-75 pushes across 13 repositories on 18 active days in the last 90 days of public GitHub push activity.
+62 pushes across 11 repositories on 17 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/VectorPeak

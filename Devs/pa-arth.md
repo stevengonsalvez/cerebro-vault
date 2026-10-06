@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-05T06:05:47.512530+00:00"
+generated_at: "2026-10-06T06:06:47.636089+00:00"
 provenance:
   - "0b22ca37fd3884c9"
-pushes_per_week: [16, 23, 12, 4, 8, 0, 0, 1, 0, 1, 11, 0, 1]
+pushes_per_week: [16, 17, 11, 10, 2, 0, 1, 0, 0, 2, 10, 1, 2]
 windows:
   "7d":
-    pushes: 1
+    pushes: 3
     distinct_repos: 1
-    active_days: 1
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 13
+    pushes: 15
     distinct_repos: 2
-    active_days: 8
+    active_days: 9
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 77
+    pushes: 72
     distinct_repos: 6
     active_days: 26
     repos_not_owned: 1
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.9615
+  push_per_day: 2.7692
   repo_per_active_day: 0.2308
   not_owned_ratio: 0.1667
   basename_concentration: 0.1667
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
+    pushes: 3
     distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes_per_repo: 3.0000
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 13
+    pushes: 15
     distinct_repos: 2
-    pushes_per_repo: 6.5000
-    active_days: 8
+    pushes_per_repo: 7.5000
+    active_days: 9
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 77
+    pushes: 72
     distinct_repos: 6
-    pushes_per_repo: 12.8333
+    pushes_per_repo: 12.0000
     active_days: 26
     repos_not_owned: 1
     not_owned_basenames: 1
@@ -137,6 +137,6 @@ repos:
 
 # pa-arth
 
-77 pushes across 6 repositories on 26 active days in the last 90 days of public GitHub push activity.
+72 pushes across 6 repositories on 26 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/pa-arth

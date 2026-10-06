@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-05T06:05:47.512530+00:00"
+generated_at: "2026-10-06T06:06:47.636089+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [24, 3, 1, 28, 20, 25, 2, 5, 0, 2, 17, 8, 0]
+pushes_per_week: [24, 3, 2, 35, 14, 23, 2, 5, 0, 4, 18, 5, 1]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "30d":
-    pushes: 27
+    pushes: 28
     distinct_repos: 7
-    active_days: 9
+    active_days: 10
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 1
   "90d":
-    pushes: 135
+    pushes: 136
     distinct_repos: 13
-    active_days: 34
+    active_days: 35
     repos_not_owned: 7
     not_owned_basenames: 7
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 3.9706
-  repo_per_active_day: 0.3824
+  push_per_day: 3.8857
+  repo_per_active_day: 0.3714
   not_owned_ratio: 0.5385
   basename_concentration: 0.1538
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    pushes: 1
+    distinct_repos: 1
+    pushes_per_repo: 1.0000
+    active_days: 1
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "30d":
-    pushes: 27
+    pushes: 28
     distinct_repos: 7
-    pushes_per_repo: 3.8571
-    active_days: 9
+    pushes_per_repo: 4.0000
+    active_days: 10
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 1
   "90d":
-    pushes: 135
+    pushes: 136
     distinct_repos: 13
-    pushes_per_repo: 10.3846
-    active_days: 34
+    pushes_per_repo: 10.4615
+    active_days: 35
     repos_not_owned: 7
     not_owned_basenames: 7
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 34 active days in 90d — pass"
+  - "activity: 35 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "homebrew-tap"
@@ -129,6 +129,6 @@ repos:
 
 # N4M3Z
 
-135 pushes across 13 repositories on 34 active days in the last 90 days of public GitHub push activity.
+136 pushes across 13 repositories on 35 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/N4M3Z

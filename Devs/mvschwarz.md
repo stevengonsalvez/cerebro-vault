@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-05T06:05:47.512530+00:00"
+generated_at: "2026-10-06T06:06:47.636089+00:00"
 provenance:
   - "a5babe6eb0c3a37f"
-pushes_per_week: [1, 0, 1, 5, 2, 0, 0, 0, 0, 0, 0, 5, 91]
+pushes_per_week: [1, 0, 1, 6, 1, 0, 0, 0, 0, 0, 0, 12, 101]
 windows:
   "7d":
-    pushes: 92
+    pushes: 107
     distinct_repos: 4
     active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 96
+    pushes: 113
     distinct_repos: 4
-    active_days: 11
+    active_days: 12
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 105
+    pushes: 122
     distinct_repos: 6
-    active_days: 17
+    active_days: 18
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 6.1765
-  repo_per_active_day: 0.3529
+  push_per_day: 6.7778
+  repo_per_active_day: 0.3333
   not_owned_ratio: 0.0000
   basename_concentration: 0.1667
   shapes: []
@@ -49,37 +49,37 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 92
+    pushes: 107
     distinct_repos: 4
-    pushes_per_repo: 23.0000
+    pushes_per_repo: 26.7500
     active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 96
+    pushes: 113
     distinct_repos: 4
-    pushes_per_repo: 24.0000
-    active_days: 11
+    pushes_per_repo: 28.2500
+    active_days: 12
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 105
+    pushes: 122
     distinct_repos: 6
-    pushes_per_repo: 17.5000
-    active_days: 17
+    pushes_per_repo: 20.3333
+    active_days: 18
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 17 active days in 90d — pass"
+  - "activity: 18 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "openrig"
     title: "openrig"
-    description: "Multi-agent harness that runs Claude Code and Codex together as one system"
+    description: "Build your own network of agents from Claude Code, Codex and Pi: persistent teams with roles, shared context and owned work."
     language: "TypeScript"
     topics:
       - "agent-harness"
@@ -93,53 +93,53 @@ repos:
       - "multi-agent-systems"
       - "tmux"
       - "typescript"
-    stars_fact: 1159
+    stars_fact: 5300
     first_seen: "2026-09-28T06:01:28.341049+00:00"
-    last_push: "2026-09-28"
+    last_push: "2026-10-06"
+  - name: "openrig-world"
+    title: "openrig-world"
+    description: "Project world for building OpenRig with coding agents: a context pack and a small contributor rig."
+    language: "JavaScript"
+    topics: []
+    stars_fact: 8
+    first_seen: null
+    last_push: "2026-10-06"
   - name: "openrig-studio"
     title: "openrig-studio"
     description: "Official OpenRig Studio SDK (@openrig/studio)"
     language: "JavaScript"
     topics: []
-    stars_fact: 3
+    stars_fact: 11
     first_seen: null
     last_push: "2026-08-09"
-  - name: "rigs-to-apps"
-    title: "rigs-to-apps"
-    description: null
-    language: "HTML"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-07-30"
-  - name: "openrig-plugins"
-    title: "openrig-plugins"
-    description: "Canonical OpenRig plugin distribution. Auto-fetched by the OpenRig daemon for runtime plugin discovery. Houses the openrig-core plugin and future first-party plugins."
+  - name: "mvschwarz"
+    title: "mvschwarz"
+    description: "Profile README"
     language: null
     topics: []
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-10-01"
+  - name: "gnosis-gpt"
+    title: "gnosis-gpt"
+    description: "Gnosis GPT - Streamlit app to use OpenAI and Anthropic to chat with your private documents"
+    language: "Python"
+    topics: []
+    stars_fact: 4
+    first_seen: null
+    last_push: "2024-06-12"
+  - name: "lymegpt"
+    title: "lymegpt"
+    description: "LymeGPT is a RAG app using AWS Bedrock and Streamlit to provide information on Lyme disease treatment. It can be used as a template for any RAG app on AWS Bedrock."
+    language: "Python"
+    topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-05-10"
-  - name: "openrig-studio-apps"
-    title: "openrig-studio-apps"
-    description: null
-    language: "JavaScript"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-08-06"
-  - name: "ts-demo-1"
-    title: "ts-demo-1"
-    description: "AWS + Terraform + Tailscale demo showcasing secure cloud development environments. Deploy a multi-tier VPC with Django application and achieve zero-config remote access to private infrastructure."
-    language: "HCL"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2024-11-09"
+    last_push: "2024-07-05"
 ---
 
 # mvschwarz
 
-105 pushes across 6 repositories on 17 active days in the last 90 days of public GitHub push activity.
+122 pushes across 6 repositories on 18 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/mvschwarz

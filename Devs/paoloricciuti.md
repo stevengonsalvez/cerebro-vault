@@ -9,28 +9,28 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-05T06:05:47.512530+00:00"
+generated_at: "2026-10-06T06:06:47.636089+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [5, 7, 4, 1, 5, 2, 0, 0, 1, 0, 0, 2, 2]
+pushes_per_week: [7, 5, 3, 3, 3, 2, 0, 0, 1, 0, 0, 2, 3]
 windows:
   "7d":
-    pushes: 2
-    distinct_repos: 2
-    active_days: 1
-    repos_not_owned: 2
-    not_owned_basenames: 2
+    pushes: 3
+    distinct_repos: 3
+    active_days: 2
+    repos_not_owned: 3
+    not_owned_basenames: 3
     not_owned_owners: 1
   "30d":
-    pushes: 5
-    distinct_repos: 4
-    active_days: 4
-    repos_not_owned: 4
+    pushes: 6
+    distinct_repos: 5
+    active_days: 5
+    repos_not_owned: 5
     not_owned_basenames: 4
     not_owned_owners: 3
   "90d":
     pushes: 29
-    distinct_repos: 11
+    distinct_repos: 10
     active_days: 22
     repos_not_owned: 7
     not_owned_basenames: 6
@@ -38,9 +38,9 @@ windows:
 automation:
   state: "clear"
   push_per_day: 1.3182
-  repo_per_active_day: 0.5000
-  not_owned_ratio: 0.6364
-  basename_concentration: 0.1818
+  repo_per_active_day: 0.4545
+  not_owned_ratio: 0.7000
+  basename_concentration: 0.2000
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
-    distinct_repos: 2
+    pushes: 3
+    distinct_repos: 3
     pushes_per_repo: 1.0000
-    active_days: 1
-    repos_not_owned: 2
-    not_owned_basenames: 2
+    active_days: 2
+    repos_not_owned: 3
+    not_owned_basenames: 3
     not_owned_owners: 1
   "30d":
-    pushes: 5
-    distinct_repos: 4
-    pushes_per_repo: 1.2500
-    active_days: 4
-    repos_not_owned: 4
+    pushes: 6
+    distinct_repos: 5
+    pushes_per_repo: 1.2000
+    active_days: 5
+    repos_not_owned: 5
     not_owned_basenames: 4
     not_owned_owners: 3
   "90d":
     pushes: 29
-    distinct_repos: 11
-    pushes_per_repo: 2.6364
+    distinct_repos: 10
+    pushes_per_repo: 2.9000
     active_days: 22
     repos_not_owned: 7
     not_owned_basenames: 6
@@ -136,6 +136,6 @@ repos:
 
 # paoloricciuti
 
-29 pushes across 11 repositories on 22 active days in the last 90 days of public GitHub push activity.
+29 pushes across 10 repositories on 22 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/paoloricciuti

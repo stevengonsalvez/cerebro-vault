@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-05T06:05:47.512530+00:00"
+generated_at: "2026-10-06T06:06:47.636089+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [3, 5, 2, 1, 1, 4, 0, 1, 1, 0, 1, 7, 12]
+pushes_per_week: [4, 4, 1, 1, 1, 4, 0, 1, 1, 0, 3, 5, 14]
 windows:
   "7d":
-    pushes: 12
-    distinct_repos: 1
-    active_days: 5
-    repos_not_owned: 1
-    not_owned_basenames: 1
+    pushes: 14
+    distinct_repos: 2
+    active_days: 6
+    repos_not_owned: 2
+    not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 21
+    pushes: 23
     distinct_repos: 2
-    active_days: 11
+    active_days: 12
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 38
+    pushes: 39
     distinct_repos: 2
     active_days: 22
     repos_not_owned: 2
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.7273
+  push_per_day: 1.7727
   repo_per_active_day: 0.0909
   not_owned_ratio: 1.0000
   basename_concentration: 0.5000
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 12
-    distinct_repos: 1
-    pushes_per_repo: 12.0000
-    active_days: 5
-    repos_not_owned: 1
-    not_owned_basenames: 1
+    pushes: 14
+    distinct_repos: 2
+    pushes_per_repo: 7.0000
+    active_days: 6
+    repos_not_owned: 2
+    not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 21
+    pushes: 23
     distinct_repos: 2
-    pushes_per_repo: 10.5000
-    active_days: 11
+    pushes_per_repo: 11.5000
+    active_days: 12
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 38
+    pushes: 39
     distinct_repos: 2
-    pushes_per_repo: 19.0000
+    pushes_per_repo: 19.5000
     active_days: 22
     repos_not_owned: 2
     not_owned_basenames: 2
@@ -144,6 +144,6 @@ repos:
 
 # nexxeln
 
-38 pushes across 2 repositories on 22 active days in the last 90 days of public GitHub push activity.
+39 pushes across 2 repositories on 22 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/nexxeln

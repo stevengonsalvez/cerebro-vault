@@ -10,28 +10,28 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-05T06:05:47.512530+00:00"
+generated_at: "2026-10-06T06:06:47.636089+00:00"
 provenance:
   - "576c6507cbdd1cf3"
   - "c87b77df69f1bb71"
-pushes_per_week: [11, 18, 13, 17, 15, 13, 8, 2, 1, 5, 3, 6, 1]
+pushes_per_week: [8, 15, 13, 17, 17, 12, 8, 0, 1, 5, 3, 7, 5]
 windows:
   "7d":
-    pushes: 2
+    pushes: 5
     distinct_repos: 1
-    active_days: 2
+    active_days: 1
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 16
+    pushes: 21
     distinct_repos: 3
-    active_days: 11
+    active_days: 12
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 113
+    pushes: 111
     distinct_repos: 13
     active_days: 51
     repos_not_owned: 11
@@ -39,7 +39,7 @@ windows:
     not_owned_owners: 10
 automation:
   state: "clear"
-  push_per_day: 2.2157
+  push_per_day: 2.1765
   repo_per_active_day: 0.2549
   not_owned_ratio: 0.8462
   basename_concentration: 0.8462
@@ -67,25 +67,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
+    pushes: 5
     distinct_repos: 1
-    pushes_per_repo: 2.0000
-    active_days: 2
+    pushes_per_repo: 5.0000
+    active_days: 1
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 16
+    pushes: 21
     distinct_repos: 3
-    pushes_per_repo: 5.3333
-    active_days: 11
+    pushes_per_repo: 7.0000
+    active_days: 12
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 113
+    pushes: 111
     distinct_repos: 13
-    pushes_per_repo: 8.6923
+    pushes_per_repo: 8.5385
     active_days: 51
     repos_not_owned: 11
     not_owned_basenames: 2
@@ -160,6 +160,6 @@ repos:
 
 # ogulcancelik
 
-113 pushes across 13 repositories on 51 active days in the last 90 days of public GitHub push activity.
+111 pushes across 13 repositories on 51 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ogulcancelik

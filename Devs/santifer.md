@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-05T06:05:47.512530+00:00"
+generated_at: "2026-10-06T06:06:47.636089+00:00"
 provenance:
   - "b68d90c0788819fd"
-pushes_per_week: [32, 47, 18, 12, 5, 32, 4, 6, 1, 1, 20, 25, 10]
+pushes_per_week: [36, 38, 16, 14, 6, 28, 4, 5, 1, 1, 29, 20, 8]
 windows:
   "7d":
-    pushes: 17
+    pushes: 12
     distinct_repos: 7
     active_days: 6
     repos_not_owned: 6
     not_owned_basenames: 2
     not_owned_owners: 5
   "30d":
-    pushes: 57
-    distinct_repos: 19
-    active_days: 16
-    repos_not_owned: 17
+    pushes: 59
+    distinct_repos: 21
+    active_days: 17
+    repos_not_owned: 19
     not_owned_basenames: 4
-    not_owned_owners: 15
+    not_owned_owners: 17
   "90d":
-    pushes: 213
+    pushes: 206
     distinct_repos: 32
     active_days: 53
     repos_not_owned: 27
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 25
 automation:
   state: "clear"
-  push_per_day: 4.0189
+  push_per_day: 3.8868
   repo_per_active_day: 0.6038
   not_owned_ratio: 0.8438
   basename_concentration: 0.7812
@@ -65,25 +65,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 17
+    pushes: 12
     distinct_repos: 7
-    pushes_per_repo: 2.4286
+    pushes_per_repo: 1.7143
     active_days: 6
     repos_not_owned: 6
     not_owned_basenames: 2
     not_owned_owners: 5
   "30d":
-    pushes: 57
-    distinct_repos: 19
-    pushes_per_repo: 3.0000
-    active_days: 16
-    repos_not_owned: 17
+    pushes: 59
+    distinct_repos: 21
+    pushes_per_repo: 2.8095
+    active_days: 17
+    repos_not_owned: 19
     not_owned_basenames: 4
-    not_owned_owners: 15
+    not_owned_owners: 17
   "90d":
-    pushes: 213
+    pushes: 206
     distinct_repos: 32
-    pushes_per_repo: 6.6562
+    pushes_per_repo: 6.4375
     active_days: 53
     repos_not_owned: 27
     not_owned_basenames: 4
@@ -182,6 +182,6 @@ repos:
 
 # santifer
 
-213 pushes across 32 repositories on 53 active days in the last 90 days of public GitHub push activity.
+206 pushes across 32 repositories on 53 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/santifer

@@ -10,11 +10,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-05T06:05:47.512530+00:00"
+generated_at: "2026-10-06T06:06:47.636089+00:00"
 provenance:
   - "4138778ebbc75ba6"
   - "9d67ce648f6a8919"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 9, 17, 1]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 9, 18, 1]
 windows:
   "7d":
     pushes: 2
@@ -24,25 +24,25 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 28
-    distinct_repos: 19
-    active_days: 8
+    pushes: 29
+    distinct_repos: 20
+    active_days: 9
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 28
-    distinct_repos: 19
-    active_days: 8
+    pushes: 29
+    distinct_repos: 20
+    active_days: 9
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 3.5000
-  repo_per_active_day: 2.3750
+  push_per_day: 3.2222
+  repo_per_active_day: 2.2222
   not_owned_ratio: 0.0000
-  basename_concentration: 0.0526
+  basename_concentration: 0.0500
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -59,24 +59,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 28
-    distinct_repos: 19
-    pushes_per_repo: 1.4737
-    active_days: 8
+    pushes: 29
+    distinct_repos: 20
+    pushes_per_repo: 1.4500
+    active_days: 9
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 28
-    distinct_repos: 19
-    pushes_per_repo: 1.4737
-    active_days: 8
+    pushes: 29
+    distinct_repos: 20
+    pushes_per_repo: 1.4500
+    active_days: 9
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 8 active days in 90d — pass"
+  - "activity: 9 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "openclaw-cheaperinference-provider"
@@ -91,6 +91,6 @@ repos:
 
 # aiapienthusiast
 
-28 pushes across 19 repositories on 8 active days in the last 90 days of public GitHub push activity.
+29 pushes across 20 repositories on 9 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/aiapienthusiast

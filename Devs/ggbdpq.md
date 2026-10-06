@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-05T06:05:47.512530+00:00"
+generated_at: "2026-10-06T06:06:47.636089+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 3, 5, 2, 12, 17]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 5, 3, 2, 15, 15]
 windows:
   "7d":
-    pushes: 21
+    pushes: 17
     distinct_repos: 7
-    active_days: 7
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 39
+    pushes: 40
     distinct_repos: 7
     active_days: 15
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 39
+    pushes: 40
     distinct_repos: 7
     active_days: 15
     repos_not_owned: 0
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.6000
+  push_per_day: 2.6667
   repo_per_active_day: 0.4667
   not_owned_ratio: 0.0000
   basename_concentration: 0.1429
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 21
+    pushes: 17
     distinct_repos: 7
-    pushes_per_repo: 3.0000
-    active_days: 7
+    pushes_per_repo: 2.4286
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 39
+    pushes: 40
     distinct_repos: 7
-    pushes_per_repo: 5.5714
+    pushes_per_repo: 5.7143
     active_days: 15
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 39
+    pushes: 40
     distinct_repos: 7
-    pushes_per_repo: 5.5714
+    pushes_per_repo: 5.7143
     active_days: 15
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -138,6 +138,6 @@ repos:
 
 # ggbdpq
 
-39 pushes across 7 repositories on 15 active days in the last 90 days of public GitHub push activity.
+40 pushes across 7 repositories on 15 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ggbdpq

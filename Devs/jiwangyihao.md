@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-05T06:05:47.512530+00:00"
+generated_at: "2026-10-06T06:06:47.636089+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [1, 0, 0, 1, 1, 36, 6, 6, 6, 18, 34, 1, 0]
+pushes_per_week: [0, 0, 0, 1, 23, 14, 6, 6, 12, 12, 34, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 51
     not_owned_owners: 1
   "90d":
-    pushes: 110
-    distinct_repos: 80
-    active_days: 17
+    pushes: 109
+    distinct_repos: 79
+    active_days: 16
     repos_not_owned: 74
     not_owned_basenames: 74
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 6.4706
-  repo_per_active_day: 4.7059
-  not_owned_ratio: 0.9250
-  basename_concentration: 0.0125
+  push_per_day: 6.8125
+  repo_per_active_day: 4.9375
+  not_owned_ratio: 0.9367
+  basename_concentration: 0.0127
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 51
     not_owned_owners: 1
   "90d":
-    pushes: 110
-    distinct_repos: 80
-    pushes_per_repo: 1.3750
-    active_days: 17
+    pushes: 109
+    distinct_repos: 79
+    pushes_per_repo: 1.3797
+    active_days: 16
     repos_not_owned: 74
     not_owned_basenames: 74
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 17 active days in 90d — pass"
+  - "activity: 16 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "source-j-legado"
@@ -129,6 +129,6 @@ repos:
 
 # jiwangyihao
 
-110 pushes across 80 repositories on 17 active days in the last 90 days of public GitHub push activity.
+109 pushes across 79 repositories on 16 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/jiwangyihao

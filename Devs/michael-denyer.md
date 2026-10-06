@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-05T06:05:47.512530+00:00"
+generated_at: "2026-10-06T06:06:47.636089+00:00"
 provenance:
   - "57ecd5833b895331"
-pushes_per_week: [17, 6, 18, 11, 0, 0, 1, 4, 2, 3, 8, 29, 38]
+pushes_per_week: [5, 9, 16, 10, 0, 0, 1, 4, 4, 1, 12, 30, 56]
 windows:
   "7d":
-    pushes: 45
-    distinct_repos: 8
+    pushes: 57
+    distinct_repos: 11
     active_days: 7
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "30d":
-    pushes: 80
-    distinct_repos: 10
-    active_days: 19
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
-  "90d":
-    pushes: 137
+    pushes: 102
     distinct_repos: 14
-    active_days: 38
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    active_days: 20
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
+  "90d":
+    pushes: 148
+    distinct_repos: 16
+    active_days: 39
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 3.6053
-  repo_per_active_day: 0.3684
-  not_owned_ratio: 0.0000
-  basename_concentration: 0.0714
+  push_per_day: 3.7949
+  repo_per_active_day: 0.4103
+  not_owned_ratio: 0.0625
+  basename_concentration: 0.1250
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 45
-    distinct_repos: 8
-    pushes_per_repo: 5.6250
+    pushes: 57
+    distinct_repos: 11
+    pushes_per_repo: 5.1818
     active_days: 7
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "30d":
-    pushes: 80
-    distinct_repos: 10
-    pushes_per_repo: 8.0000
-    active_days: 19
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
-  "90d":
-    pushes: 137
+    pushes: 102
     distinct_repos: 14
-    pushes_per_repo: 9.7857
-    active_days: 38
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    pushes_per_repo: 7.2857
+    active_days: 20
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
+  "90d":
+    pushes: 148
+    distinct_repos: 16
+    pushes_per_repo: 9.2500
+    active_days: 39
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 38 active days in 90d — pass"
+  - "activity: 39 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "pstack-claude"
@@ -173,6 +173,6 @@ repos:
 
 # michael-denyer
 
-137 pushes across 14 repositories on 38 active days in the last 90 days of public GitHub push activity.
+148 pushes across 16 repositories on 39 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/michael-denyer

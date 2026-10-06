@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-05T06:05:47.512530+00:00"
+generated_at: "2026-10-06T06:06:47.636089+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 5, 1]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 5, 3]
 windows:
   "7d":
-    pushes: 2
-    distinct_repos: 1
+    pushes: 3
+    distinct_repos: 2
     active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 6
-    distinct_repos: 2
-    active_days: 4
+    pushes: 8
+    distinct_repos: 3
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 8
+    pushes: 9
     distinct_repos: 4
     active_days: 6
     repos_not_owned: 1
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.3333
+  push_per_day: 1.5000
   repo_per_active_day: 0.6667
   not_owned_ratio: 0.2500
   basename_concentration: 0.2500
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
-    distinct_repos: 1
-    pushes_per_repo: 2.0000
+    pushes: 3
+    distinct_repos: 2
+    pushes_per_repo: 1.5000
     active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 6
-    distinct_repos: 2
-    pushes_per_repo: 3.0000
-    active_days: 4
+    pushes: 8
+    distinct_repos: 3
+    pushes_per_repo: 2.6667
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 8
+    pushes: 9
     distinct_repos: 4
-    pushes_per_repo: 2.0000
+    pushes_per_repo: 2.2500
     active_days: 6
     repos_not_owned: 1
     not_owned_basenames: 1
@@ -89,6 +89,6 @@ repos:
 
 # hey-mira
 
-8 pushes across 4 repositories on 6 active days in the last 90 days of public GitHub push activity.
+9 pushes across 4 repositories on 6 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/hey-mira

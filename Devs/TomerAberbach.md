@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-05T06:05:47.512530+00:00"
+generated_at: "2026-10-06T06:06:47.636089+00:00"
 provenance:
   - "1be978947e68d1f2"
-pushes_per_week: [19, 22, 1, 1, 16, 3, 3, 1, 0, 2, 3, 12, 6]
+pushes_per_week: [16, 19, 2, 0, 17, 3, 3, 0, 1, 1, 3, 13, 5]
 windows:
   "7d":
-    pushes: 9
+    pushes: 5
     distinct_repos: 1
-    active_days: 5
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 89
+    pushes: 83
     distinct_repos: 5
-    active_days: 36
+    active_days: 35
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.4722
-  repo_per_active_day: 0.1389
+  push_per_day: 2.3714
+  repo_per_active_day: 0.1429
   not_owned_ratio: 0.0000
   basename_concentration: 0.2000
   shapes: []
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 9
+    pushes: 5
     distinct_repos: 1
-    pushes_per_repo: 9.0000
-    active_days: 5
+    pushes_per_repo: 5.0000
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 89
+    pushes: 83
     distinct_repos: 5
-    pushes_per_repo: 17.8000
-    active_days: 36
+    pushes_per_repo: 16.6000
+    active_days: 35
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 36 active days in 90d — pass"
+  - "activity: 35 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "profiler-md"
@@ -170,6 +170,6 @@ repos:
 
 # TomerAberbach
 
-89 pushes across 5 repositories on 36 active days in the last 90 days of public GitHub push activity.
+83 pushes across 5 repositories on 35 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/TomerAberbach

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-05T06:05:47.512530+00:00"
+generated_at: "2026-10-06T06:06:47.636089+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [26, 30, 15, 6, 7, 10, 4, 2, 4, 1, 1, 8, 1]
+pushes_per_week: [13, 34, 11, 6, 8, 9, 4, 2, 4, 1, 1, 8, 1]
 windows:
   "7d":
     pushes: 1
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 15
+    pushes: 14
     distinct_repos: 8
-    active_days: 9
+    active_days: 8
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 1
   "90d":
-    pushes: 115
+    pushes: 102
     distinct_repos: 14
-    active_days: 35
+    active_days: 33
     repos_not_owned: 6
     not_owned_basenames: 6
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 3.2857
-  repo_per_active_day: 0.4000
+  push_per_day: 3.0909
+  repo_per_active_day: 0.4242
   not_owned_ratio: 0.4286
   basename_concentration: 0.0714
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 15
+    pushes: 14
     distinct_repos: 8
-    pushes_per_repo: 1.8750
-    active_days: 9
+    pushes_per_repo: 1.7500
+    active_days: 8
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 1
   "90d":
-    pushes: 115
+    pushes: 102
     distinct_repos: 14
-    pushes_per_repo: 8.2143
-    active_days: 35
+    pushes_per_repo: 7.2857
+    active_days: 33
     repos_not_owned: 6
     not_owned_basenames: 6
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 35 active days in 90d — pass"
+  - "activity: 33 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "showy-quota"
@@ -162,6 +162,6 @@ repos:
 
 # enieuwy
 
-115 pushes across 14 repositories on 35 active days in the last 90 days of public GitHub push activity.
+102 pushes across 14 repositories on 33 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/enieuwy

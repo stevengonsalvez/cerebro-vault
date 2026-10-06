@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-05T06:05:47.512530+00:00"
+generated_at: "2026-10-06T06:06:47.636089+00:00"
 provenance:
   - "b5590ec052a4f771"
-pushes_per_week: [42, 41, 32, 14, 50, 38, 11, 3, 6, 8, 23, 125, 100]
+pushes_per_week: [42, 32, 31, 15, 50, 39, 7, 3, 6, 8, 30, 137, 86]
 windows:
   "7d":
-    pushes: 110
+    pushes: 101
     distinct_repos: 3
     active_days: 7
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 262
+    pushes: 267
     distinct_repos: 4
-    active_days: 24
+    active_days: 25
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 493
+    pushes: 486
     distinct_repos: 5
     active_days: 71
     repos_not_owned: 1
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 6.9437
+  push_per_day: 6.8451
   repo_per_active_day: 0.0704
   not_owned_ratio: 0.2000
   basename_concentration: 0.4000
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 110
+    pushes: 101
     distinct_repos: 3
-    pushes_per_repo: 36.6667
+    pushes_per_repo: 33.6667
     active_days: 7
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 262
+    pushes: 267
     distinct_repos: 4
-    pushes_per_repo: 65.5000
-    active_days: 24
+    pushes_per_repo: 66.7500
+    active_days: 25
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 493
+    pushes: 486
     distinct_repos: 5
-    pushes_per_repo: 98.6000
+    pushes_per_repo: 97.2000
     active_days: 71
     repos_not_owned: 1
     not_owned_basenames: 1
@@ -181,6 +181,6 @@ repos:
 
 # esengine
 
-493 pushes across 5 repositories on 71 active days in the last 90 days of public GitHub push activity.
+486 pushes across 5 repositories on 71 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/esengine

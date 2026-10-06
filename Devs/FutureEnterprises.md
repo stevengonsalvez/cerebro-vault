@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-05T06:05:47.512530+00:00"
+generated_at: "2026-10-06T06:06:47.636089+00:00"
 provenance:
   - "b7bec34541d2ddb0"
-pushes_per_week: [23, 48, 26, 20, 16, 32, 8, 2, 0, 5, 0, 23, 6]
+pushes_per_week: [23, 48, 28, 14, 22, 26, 8, 2, 0, 5, 0, 23, 7]
 windows:
   "7d":
-    pushes: 6
+    pushes: 7
     distinct_repos: 1
-    active_days: 2
+    active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 34
+    pushes: 35
     distinct_repos: 2
-    active_days: 10
+    active_days: 11
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
   "90d":
-    pushes: 209
+    pushes: 206
     distinct_repos: 5
     active_days: 53
     repos_not_owned: 2
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 3.9434
+  push_per_day: 3.8868
   repo_per_active_day: 0.0943
   not_owned_ratio: 0.4000
   basename_concentration: 0.4000
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 6
+    pushes: 7
     distinct_repos: 1
-    pushes_per_repo: 6.0000
-    active_days: 2
+    pushes_per_repo: 7.0000
+    active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 34
+    pushes: 35
     distinct_repos: 2
-    pushes_per_repo: 17.0000
-    active_days: 10
+    pushes_per_repo: 17.5000
+    active_days: 11
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
   "90d":
-    pushes: 209
+    pushes: 206
     distinct_repos: 5
-    pushes_per_repo: 41.8000
+    pushes_per_repo: 41.2000
     active_days: 53
     repos_not_owned: 2
     not_owned_basenames: 1
@@ -118,6 +118,6 @@ repos:
 
 # FutureEnterprises
 
-209 pushes across 5 repositories on 53 active days in the last 90 days of public GitHub push activity.
+206 pushes across 5 repositories on 53 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/FutureEnterprises

@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-05T06:05:47.512530+00:00"
+generated_at: "2026-10-06T06:06:47.636089+00:00"
 provenance:
   - "0b22ca37fd3884c9"
-pushes_per_week: [8, 1, 0, 17, 9, 7, 6, 2, 1, 2, 5, 30, 85]
+pushes_per_week: [5, 1, 1, 19, 6, 11, 3, 1, 2, 1, 7, 45, 68]
 windows:
   "7d":
-    pushes: 87
+    pushes: 83
     distinct_repos: 9
-    active_days: 6
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 173
+    pushes: 170
     distinct_repos: 34
-    active_days: 39
+    active_days: 38
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 4.4359
-  repo_per_active_day: 0.8718
+  push_per_day: 4.4737
+  repo_per_active_day: 0.8947
   not_owned_ratio: 0.0588
   basename_concentration: 0.0294
   shapes: []
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 87
+    pushes: 83
     distinct_repos: 9
-    pushes_per_repo: 9.6667
-    active_days: 6
+    pushes_per_repo: 9.2222
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 173
+    pushes: 170
     distinct_repos: 34
-    pushes_per_repo: 5.0882
-    active_days: 39
+    pushes_per_repo: 5.0000
+    active_days: 38
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 39 active days in 90d — pass"
+  - "activity: 38 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "SMA-arcade"
@@ -155,6 +155,6 @@ repos:
 
 # shoemoney
 
-173 pushes across 34 repositories on 39 active days in the last 90 days of public GitHub push activity.
+170 pushes across 34 repositories on 38 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/shoemoney

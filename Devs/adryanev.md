@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-05T06:05:47.512530+00:00"
+generated_at: "2026-10-06T06:06:47.636089+00:00"
 provenance:
   - "73468cde177ddae6"
-pushes_per_week: [6, 4, 0, 0, 2, 3, 0, 3, 0, 0, 4, 7, 4]
+pushes_per_week: [4, 2, 0, 0, 2, 3, 0, 3, 0, 0, 4, 7, 5]
 windows:
   "7d":
-    pushes: 7
-    distinct_repos: 4
+    pushes: 5
+    distinct_repos: 2
     active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 15
+    pushes: 16
     distinct_repos: 6
-    active_days: 7
+    active_days: 8
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
   "90d":
-    pushes: 33
+    pushes: 30
     distinct_repos: 8
     active_days: 19
     repos_not_owned: 2
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 1.7368
+  push_per_day: 1.5789
   repo_per_active_day: 0.4211
   not_owned_ratio: 0.2500
   basename_concentration: 0.3750
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 7
-    distinct_repos: 4
-    pushes_per_repo: 1.7500
+    pushes: 5
+    distinct_repos: 2
+    pushes_per_repo: 2.5000
     active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 15
+    pushes: 16
     distinct_repos: 6
-    pushes_per_repo: 2.5000
-    active_days: 7
+    pushes_per_repo: 2.6667
+    active_days: 8
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
   "90d":
-    pushes: 33
+    pushes: 30
     distinct_repos: 8
-    pushes_per_repo: 4.1250
+    pushes_per_repo: 3.7500
     active_days: 19
     repos_not_owned: 2
     not_owned_basenames: 1
@@ -132,6 +132,6 @@ repos:
 
 # adryanev
 
-33 pushes across 8 repositories on 19 active days in the last 90 days of public GitHub push activity.
+30 pushes across 8 repositories on 19 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/adryanev

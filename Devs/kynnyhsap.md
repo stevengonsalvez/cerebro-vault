@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-05T06:05:47.512530+00:00"
+generated_at: "2026-10-06T06:06:47.636089+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 8, 4]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 10, 2]
 windows:
   "7d":
-    pushes: 9
+    pushes: 4
     distinct_repos: 1
-    active_days: 4
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 9
+    pushes: 4
     distinct_repos: 1
-    pushes_per_repo: 9.0000
-    active_days: 4
+    pushes_per_repo: 4.0000
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -84,7 +84,15 @@ repos:
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-09-28"
+    last_push: "2026-10-05"
+  - name: "how"
+    title: "how"
+    description: "Ask your terminal (AI) about cli commands"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 30
+    first_seen: null
+    last_push: "2024-07-11"
   - name: "askvid"
     title: "askvid"
     description: null
@@ -101,14 +109,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-08-09"
-  - name: "how"
-    title: "how"
-    description: "Ask your terminal (AI) about cli commands"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 31
-    first_seen: null
-    last_push: "2024-07-11"
   - name: "pi-nasty-verbs"
     title: "pi-nasty-verbs"
     description: "Replaces Pi's default 'Working...' message with some better words."

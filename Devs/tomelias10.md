@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-05T06:05:47.512530+00:00"
+generated_at: "2026-10-06T06:06:47.636089+00:00"
 provenance:
   - "745308b2b7085095"
 pushes_per_week: [0, 0, 0, 0, 1, 1, 0, 1, 0, 0, 0, 11, 6]
 windows:
   "7d":
-    pushes: 8
+    pushes: 6
     distinct_repos: 4
-    active_days: 4
+    active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 8
+    pushes: 6
     distinct_repos: 4
-    pushes_per_repo: 2.0000
-    active_days: 4
+    pushes_per_repo: 1.5000
+    active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -77,9 +77,31 @@ reasons:
   - "activity: 9 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "orynval-labs"
+    title: "orynval-labs"
+    description: "Local security tools for AI agents: review MCP configs, detect baseline drift, inspect identities, and draft evidence-backed security answers."
+    language: "Go"
+    topics:
+      - "ai-agents"
+      - "ai-security"
+      - "cli"
+      - "cybersecurity"
+      - "developer-security"
+      - "devsecops"
+      - "golang"
+      - "identity-security"
+      - "mcp"
+      - "model-context-protocol"
+      - "non-human-identities"
+      - "open-source"
+      - "sarif"
+      - "security-tools"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-04"
   - name: "mcp-drift-check"
     title: "mcp-drift-check"
-    description: "Zero-execution MCP security preflight + GitHub Action. Detect mutable package references before AI agents run them. Try any public repo in the browser."
+    description: "Static MCP package-reference mutability checker: Python CLI and GitHub Action. No discovered server execution. Broader config/baseline tools: Orynval Labs."
     language: "Python"
     topics:
       - "agent-security"
@@ -103,7 +125,7 @@ repos:
       - "windsurf"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-28"
+    last_push: "2026-10-04"
 ---
 
 # tomelias10

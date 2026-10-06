@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-05T06:05:47.512530+00:00"
+generated_at: "2026-10-06T06:06:47.636089+00:00"
 provenance:
   - "91ad171deae90329"
-pushes_per_week: [6, 0, 2, 15, 1, 1, 3, 2, 0, 0, 3, 0, 2]
+pushes_per_week: [5, 0, 4, 14, 0, 3, 2, 1, 0, 0, 3, 0, 2]
 windows:
   "7d":
     pushes: 2
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 35
+    pushes: 34
     distinct_repos: 9
-    active_days: 21
+    active_days: 20
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.6667
-  repo_per_active_day: 0.4286
+  push_per_day: 1.7000
+  repo_per_active_day: 0.4500
   not_owned_ratio: 0.0000
   basename_concentration: 0.1111
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 35
+    pushes: 34
     distinct_repos: 9
-    pushes_per_repo: 3.8889
-    active_days: 21
+    pushes_per_repo: 3.7778
+    active_days: 20
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 21 active days in 90d — pass"
+  - "activity: 20 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "dryer"
@@ -129,6 +129,6 @@ repos:
 
 # unclebob
 
-35 pushes across 9 repositories on 21 active days in the last 90 days of public GitHub push activity.
+34 pushes across 9 repositories on 20 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/unclebob

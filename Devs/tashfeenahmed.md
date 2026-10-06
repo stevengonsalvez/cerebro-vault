@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-05T06:05:47.512530+00:00"
+generated_at: "2026-10-06T06:06:47.636089+00:00"
 provenance:
   - "f9d54d6e051498a6"
-pushes_per_week: [14, 10, 4, 8, 5, 4, 7, 3, 1, 1, 15, 24, 9]
+pushes_per_week: [5, 9, 9, 3, 6, 3, 7, 3, 1, 3, 18, 21, 8]
 windows:
   "7d":
     pushes: 10
@@ -22,25 +22,25 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 50
+    pushes: 51
     distinct_repos: 12
-    active_days: 19
+    active_days: 20
     repos_not_owned: 4
     not_owned_basenames: 3
     not_owned_owners: 4
   "90d":
-    pushes: 105
-    distinct_repos: 17
+    pushes: 96
+    distinct_repos: 16
     active_days: 44
-    repos_not_owned: 7
-    not_owned_basenames: 4
+    repos_not_owned: 6
+    not_owned_basenames: 3
     not_owned_owners: 6
 automation:
   state: "clear"
-  push_per_day: 2.3864
-  repo_per_active_day: 0.3864
-  not_owned_ratio: 0.4118
-  basename_concentration: 0.2941
+  push_per_day: 2.1818
+  repo_per_active_day: 0.3636
+  not_owned_ratio: 0.3750
+  basename_concentration: 0.3125
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -57,20 +57,20 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 50
+    pushes: 51
     distinct_repos: 12
-    pushes_per_repo: 4.1667
-    active_days: 19
+    pushes_per_repo: 4.2500
+    active_days: 20
     repos_not_owned: 4
     not_owned_basenames: 3
     not_owned_owners: 4
   "90d":
-    pushes: 105
-    distinct_repos: 17
-    pushes_per_repo: 6.1765
+    pushes: 96
+    distinct_repos: 16
+    pushes_per_repo: 6.0000
     active_days: 44
-    repos_not_owned: 7
-    not_owned_basenames: 4
+    repos_not_owned: 6
+    not_owned_basenames: 3
     not_owned_owners: 6
 reasons:
   - "provenance: 1 vault signal(s) — pass"
@@ -158,6 +158,6 @@ repos:
 
 # tashfeenahmed
 
-105 pushes across 17 repositories on 44 active days in the last 90 days of public GitHub push activity.
+96 pushes across 16 repositories on 44 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/tashfeenahmed

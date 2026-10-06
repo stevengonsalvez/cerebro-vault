@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-05T06:05:47.512530+00:00"
+generated_at: "2026-10-06T06:06:47.636089+00:00"
 provenance:
   - "1be978947e68d1f2"
-pushes_per_week: [47, 18, 8, 9, 17, 15, 6, 10, 2, 3, 2, 1, 17]
+pushes_per_week: [42, 20, 8, 10, 17, 12, 10, 6, 3, 2, 2, 5, 19]
 windows:
   "7d":
-    pushes: 17
+    pushes: 21
     distinct_repos: 2
-    active_days: 4
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 25
+    pushes: 31
     distinct_repos: 5
-    active_days: 10
+    active_days: 11
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 155
+    pushes: 156
     distinct_repos: 7
     active_days: 47
     repos_not_owned: 0
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 3.2979
+  push_per_day: 3.3191
   repo_per_active_day: 0.1489
   not_owned_ratio: 0.0000
   basename_concentration: 0.1429
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 17
+    pushes: 21
     distinct_repos: 2
-    pushes_per_repo: 8.5000
-    active_days: 4
+    pushes_per_repo: 10.5000
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 25
+    pushes: 31
     distinct_repos: 5
-    pushes_per_repo: 5.0000
-    active_days: 10
+    pushes_per_repo: 6.2000
+    active_days: 11
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 155
+    pushes: 156
     distinct_repos: 7
-    pushes_per_repo: 22.1429
+    pushes_per_repo: 22.2857
     active_days: 47
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -153,6 +153,6 @@ repos:
 
 # ms-jpq
 
-155 pushes across 7 repositories on 47 active days in the last 90 days of public GitHub push activity.
+156 pushes across 7 repositories on 47 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ms-jpq

@@ -10,37 +10,37 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-05T06:05:47.512530+00:00"
+generated_at: "2026-10-06T06:06:47.636089+00:00"
 provenance:
   - "379642deb53f3714"
   - "dae9f02535f7c22f"
-pushes_per_week: [0, 5, 12, 0, 3, 7, 0, 5, 0, 0, 0, 1, 7]
+pushes_per_week: [1, 5, 11, 0, 3, 7, 0, 5, 0, 0, 1, 5, 5]
 windows:
   "7d":
-    pushes: 7
-    distinct_repos: 2
-    active_days: 2
-    repos_not_owned: 2
-    not_owned_basenames: 1
-    not_owned_owners: 2
-  "30d":
-    pushes: 8
+    pushes: 10
     distinct_repos: 2
     active_days: 3
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
+  "30d":
+    pushes: 11
+    distinct_repos: 2
+    active_days: 4
+    repos_not_owned: 2
+    not_owned_basenames: 1
+    not_owned_owners: 2
   "90d":
-    pushes: 40
+    pushes: 43
     distinct_repos: 6
-    active_days: 15
+    active_days: 16
     repos_not_owned: 4
     not_owned_basenames: 3
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 2.6667
-  repo_per_active_day: 0.4000
+  push_per_day: 2.6875
+  repo_per_active_day: 0.3750
   not_owned_ratio: 0.6667
   basename_concentration: 0.3333
   shapes: []
@@ -51,32 +51,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 7
+    pushes: 10
     distinct_repos: 2
-    pushes_per_repo: 3.5000
-    active_days: 2
-    repos_not_owned: 2
-    not_owned_basenames: 1
-    not_owned_owners: 2
-  "30d":
-    pushes: 8
-    distinct_repos: 2
-    pushes_per_repo: 4.0000
+    pushes_per_repo: 5.0000
     active_days: 3
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
+  "30d":
+    pushes: 11
+    distinct_repos: 2
+    pushes_per_repo: 5.5000
+    active_days: 4
+    repos_not_owned: 2
+    not_owned_basenames: 1
+    not_owned_owners: 2
   "90d":
-    pushes: 40
+    pushes: 43
     distinct_repos: 6
-    pushes_per_repo: 6.6667
-    active_days: 15
+    pushes_per_repo: 7.1667
+    active_days: 16
     repos_not_owned: 4
     not_owned_basenames: 3
     not_owned_owners: 2
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 15 active days in 90d — pass"
+  - "activity: 16 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "pycontainer-build"
@@ -142,6 +142,6 @@ repos:
 
 # spboyer
 
-40 pushes across 6 repositories on 15 active days in the last 90 days of public GitHub push activity.
+43 pushes across 6 repositories on 16 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/spboyer

@@ -11,28 +11,28 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-05T06:05:47.512530+00:00"
+generated_at: "2026-10-06T06:06:47.636089+00:00"
 provenance:
   - "26de699d3e5c651e"
   - "4d1450729e6ff44d"
-pushes_per_week: [4, 7, 15, 9, 1, 7, 14, 5, 2, 10, 13, 17, 21]
+pushes_per_week: [4, 11, 12, 9, 2, 5, 14, 5, 6, 7, 17, 12, 24]
 windows:
   "7d":
-    pushes: 23
+    pushes: 24
     distinct_repos: 6
-    active_days: 6
+    active_days: 5
     repos_not_owned: 5
     not_owned_basenames: 2
     not_owned_owners: 5
   "30d":
-    pushes: 63
+    pushes: 66
     distinct_repos: 17
     active_days: 21
     repos_not_owned: 14
     not_owned_basenames: 2
     not_owned_owners: 14
   "90d":
-    pushes: 125
+    pushes: 128
     distinct_repos: 30
     active_days: 45
     repos_not_owned: 17
@@ -40,7 +40,7 @@ windows:
     not_owned_owners: 17
 automation:
   state: "clear"
-  push_per_day: 2.7778
+  push_per_day: 2.8444
   repo_per_active_day: 0.6667
   not_owned_ratio: 0.5667
   basename_concentration: 0.3667
@@ -52,25 +52,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 23
+    pushes: 24
     distinct_repos: 6
-    pushes_per_repo: 3.8333
-    active_days: 6
+    pushes_per_repo: 4.0000
+    active_days: 5
     repos_not_owned: 5
     not_owned_basenames: 2
     not_owned_owners: 5
   "30d":
-    pushes: 63
+    pushes: 66
     distinct_repos: 17
-    pushes_per_repo: 3.7059
+    pushes_per_repo: 3.8824
     active_days: 21
     repos_not_owned: 14
     not_owned_basenames: 2
     not_owned_owners: 14
   "90d":
-    pushes: 125
+    pushes: 128
     distinct_repos: 30
-    pushes_per_repo: 4.1667
+    pushes_per_repo: 4.2667
     active_days: 45
     repos_not_owned: 17
     not_owned_basenames: 4
@@ -184,6 +184,6 @@ repos:
 
 # tt-a1i
 
-125 pushes across 30 repositories on 45 active days in the last 90 days of public GitHub push activity.
+128 pushes across 30 repositories on 45 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/tt-a1i

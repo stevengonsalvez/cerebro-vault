@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-05T06:05:47.512530+00:00"
+generated_at: "2026-10-06T06:06:47.636089+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [85, 90, 36, 54, 41, 23, 33, 9, 3, 10, 43, 47, 1]
+pushes_per_week: [87, 78, 36, 55, 34, 26, 30, 9, 3, 14, 41, 45, 2]
 windows:
   "7d":
-    pushes: 4
+    pushes: 2
     distinct_repos: 1
     active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 104
+    pushes: 105
     distinct_repos: 5
-    active_days: 20
+    active_days: 21
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 475
-    distinct_repos: 10
+    pushes: 460
+    distinct_repos: 9
     active_days: 72
     repos_not_owned: 4
     not_owned_basenames: 3
     not_owned_owners: 4
 automation:
   state: "clear"
-  push_per_day: 6.5972
-  repo_per_active_day: 0.1389
-  not_owned_ratio: 0.4000
-  basename_concentration: 0.3000
+  push_per_day: 6.3889
+  repo_per_active_day: 0.1250
+  not_owned_ratio: 0.4444
+  basename_concentration: 0.3333
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 4
+    pushes: 2
     distinct_repos: 1
-    pushes_per_repo: 4.0000
+    pushes_per_repo: 2.0000
     active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 104
+    pushes: 105
     distinct_repos: 5
-    pushes_per_repo: 20.8000
-    active_days: 20
+    pushes_per_repo: 21.0000
+    active_days: 21
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 475
-    distinct_repos: 10
-    pushes_per_repo: 47.5000
+    pushes: 460
+    distinct_repos: 9
+    pushes_per_repo: 51.1111
     active_days: 72
     repos_not_owned: 4
     not_owned_basenames: 3
@@ -193,6 +193,6 @@ repos:
 
 # Astro-Han
 
-475 pushes across 10 repositories on 72 active days in the last 90 days of public GitHub push activity.
+460 pushes across 9 repositories on 72 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Astro-Han

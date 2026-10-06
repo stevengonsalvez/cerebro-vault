@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-05T06:05:47.512530+00:00"
+generated_at: "2026-10-06T06:06:47.636089+00:00"
 provenance:
   - "6d3bd03b49986330"
-pushes_per_week: [63, 76, 40, 26, 26, 47, 23, 6, 1, 1, 0, 0, 0]
+pushes_per_week: [68, 70, 39, 25, 29, 47, 21, 4, 1, 1, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 309
+    pushes: 305
     distinct_repos: 1
-    active_days: 50
+    active_days: 49
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 6.1800
-  repo_per_active_day: 0.0200
+  push_per_day: 6.2245
+  repo_per_active_day: 0.0204
   not_owned_ratio: 0.0000
   basename_concentration: 1.0000
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 309
+    pushes: 305
     distinct_repos: 1
-    pushes_per_repo: 309.0000
-    active_days: 50
+    pushes_per_repo: 305.0000
+    active_days: 49
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 50 active days in 90d — pass"
+  - "activity: 49 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "video_generation"
@@ -129,6 +129,6 @@ repos:
 
 # ziyu4huang
 
-309 pushes across 1 repository on 50 active days in the last 90 days of public GitHub push activity.
+305 pushes across 1 repository on 49 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ziyu4huang

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-05T06:05:47.512530+00:00"
+generated_at: "2026-10-06T06:06:47.636089+00:00"
 provenance:
   - "745308b2b7085095"
-pushes_per_week: [18, 51, 28, 15, 2, 7, 1, 0, 0, 1, 40, 5, 10]
+pushes_per_week: [18, 52, 26, 15, 3, 5, 1, 0, 0, 2, 39, 5, 11]
 windows:
   "7d":
     pushes: 11
@@ -22,14 +22,14 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 56
+    pushes: 57
     distinct_repos: 3
-    active_days: 15
+    active_days: 16
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 178
+    pushes: 177
     distinct_repos: 8
     active_days: 46
     repos_not_owned: 8
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 3.8696
+  push_per_day: 3.8478
   repo_per_active_day: 0.1739
   not_owned_ratio: 1.0000
   basename_concentration: 0.2500
@@ -57,17 +57,17 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 56
+    pushes: 57
     distinct_repos: 3
-    pushes_per_repo: 18.6667
-    active_days: 15
+    pushes_per_repo: 19.0000
+    active_days: 16
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 178
+    pushes: 177
     distinct_repos: 8
-    pushes_per_repo: 22.2500
+    pushes_per_repo: 22.1250
     active_days: 46
     repos_not_owned: 8
     not_owned_basenames: 7
@@ -91,6 +91,6 @@ repos:
 
 # aryeh-stark
 
-178 pushes across 8 repositories on 46 active days in the last 90 days of public GitHub push activity.
+177 pushes across 8 repositories on 46 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/aryeh-stark

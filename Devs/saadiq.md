@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-05T06:05:47.512530+00:00"
+generated_at: "2026-10-06T06:06:47.636089+00:00"
 provenance:
   - "01cd6a498d377caf"
   - "03604cccd7e9402d"
@@ -59,17 +59,18 @@ provenance:
   - "cdf0d63217ad659b"
   - "d320458473217aca"
   - "d46568f6f6a488d8"
+  - "d9b88297cf0d952f"
   - "e2ea6ef4c9fbfceb"
   - "f672838de330e86f"
   - "f9a1870648a6375a"
   - "fe9e50bf2d5b21fe"
   - "ff1ca072bf39e471"
-pushes_per_week: [0, 2, 0, 0, 0, 2, 0, 0, 0, 0, 0, 3, 1]
+pushes_per_week: [2, 0, 0, 0, 0, 2, 0, 0, 0, 0, 1, 2, 1]
 windows:
   "7d":
-    pushes: 2
-    distinct_repos: 2
-    active_days: 2
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -101,10 +102,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
-    distinct_repos: 2
+    pushes: 1
+    distinct_repos: 1
     pushes_per_repo: 1.0000
-    active_days: 2
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -125,10 +126,18 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
-  - "provenance: 53 vault signal(s) — pass"
+  - "provenance: 54 vault signal(s) — pass"
   - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "network-monitor"
+    title: "network-monitor"
+    description: "Terminal network health monitor for flaky Wi-Fi (macOS, Bun, zero deps)"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-03"
   - name: "secret-drop"
     title: "secret-drop"
     description: "One-day, end-to-end-encrypted file drop over a Cloudflare tunnel — sender's browser encrypts, only ciphertext transits"
@@ -145,14 +154,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-09-25"
-  - name: "network-monitor"
-    title: "network-monitor"
-    description: "Terminal network health monitor for flaky Wi-Fi (macOS, Bun, zero deps)"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-06"
   - name: "times_table_tutor"
     title: "times_table_tutor"
     description: "A calm, anxiety-free web app for learning times tables through adaptive practice and a progressive scene reveal reward system"

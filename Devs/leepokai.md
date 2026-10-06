@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-05T06:05:47.512530+00:00"
+generated_at: "2026-10-06T06:06:47.636089+00:00"
 provenance:
   - "0b22ca37fd3884c9"
-pushes_per_week: [0, 0, 0, 1, 2, 0, 0, 0, 0, 0, 7, 7, 22]
+pushes_per_week: [0, 0, 1, 0, 2, 0, 0, 0, 0, 0, 7, 9, 24]
 windows:
   "7d":
-    pushes: 24
-    distinct_repos: 3
+    pushes: 25
+    distinct_repos: 4
     active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 36
-    distinct_repos: 9
-    active_days: 14
+    pushes: 40
+    distinct_repos: 10
+    active_days: 15
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 39
-    distinct_repos: 12
-    active_days: 17
+    pushes: 43
+    distinct_repos: 13
+    active_days: 18
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.2941
-  repo_per_active_day: 0.7059
+  push_per_day: 2.3889
+  repo_per_active_day: 0.7222
   not_owned_ratio: 0.0000
-  basename_concentration: 0.0833
+  basename_concentration: 0.0769
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 24
-    distinct_repos: 3
-    pushes_per_repo: 8.0000
+    pushes: 25
+    distinct_repos: 4
+    pushes_per_repo: 6.2500
     active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 36
-    distinct_repos: 9
+    pushes: 40
+    distinct_repos: 10
     pushes_per_repo: 4.0000
-    active_days: 14
+    active_days: 15
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 39
-    distinct_repos: 12
-    pushes_per_repo: 3.2500
-    active_days: 17
+    pushes: 43
+    distinct_repos: 13
+    pushes_per_repo: 3.3077
+    active_days: 18
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 17 active days in 90d — pass"
+  - "activity: 18 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "Codync"
@@ -164,6 +164,6 @@ repos:
 
 # leepokai
 
-39 pushes across 12 repositories on 17 active days in the last 90 days of public GitHub push activity.
+43 pushes across 13 repositories on 18 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/leepokai

@@ -10,6 +10,7 @@ provenance_repos:
   - "anthropics/anthropic-sdk-python"
   - "antirez/ds4"
   - "datasette/datasette-agent"
+  - "simonw/claude-system-prompts"
   - "simonw/llm"
   - "simonw/llm-anthropic"
   - "simonw/llm-chat-completions-server"
@@ -21,13 +22,14 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-05T06:05:47.512530+00:00"
+generated_at: "2026-10-06T06:06:47.636089+00:00"
 provenance:
   - "0726bc457d4dcf89"
   - "1be978947e68d1f2"
   - "3eacb4655aba2497"
   - "481b19745d66d642"
   - "4d3291c25d56323b"
+  - "8fb5759dbc71eb5a"
   - "97c4e9cb8b163ddb"
   - "98a2deac3e2f9725"
   - "b949a65ff91f9791"
@@ -37,7 +39,8 @@ provenance:
   - "d61fc285c7155696"
   - "e76a6eae5d38637b"
   - "e7c647c4d0689526"
-pushes_per_week: [22, 20, 14, 18, 7, 19, 2, 0, 0, 5, 10, 2, 4]
+  - "e9879ff70aa53e1e"
+pushes_per_week: [23, 8, 13, 19, 7, 18, 2, 0, 1, 7, 7, 3, 3]
 windows:
   "7d":
     pushes: 4
@@ -54,16 +57,16 @@ windows:
     not_owned_basenames: 3
     not_owned_owners: 2
   "90d":
-    pushes: 123
+    pushes: 111
     distinct_repos: 40
-    active_days: 44
+    active_days: 42
     repos_not_owned: 10
     not_owned_basenames: 10
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 2.7955
-  repo_per_active_day: 0.9091
+  push_per_day: 2.6429
+  repo_per_active_day: 0.9524
   not_owned_ratio: 0.2500
   basename_concentration: 0.0500
   shapes: []
@@ -90,16 +93,16 @@ facets:
     not_owned_basenames: 3
     not_owned_owners: 2
   "90d":
-    pushes: 123
+    pushes: 111
     distinct_repos: 40
-    pushes_per_repo: 3.0750
-    active_days: 44
+    pushes_per_repo: 2.7750
+    active_days: 42
     repos_not_owned: 10
     not_owned_basenames: 10
     not_owned_owners: 3
 reasons:
-  - "provenance: 14 vault signal(s) — pass"
-  - "activity: 44 active days in 90d — pass"
+  - "provenance: 16 vault signal(s) — pass"
+  - "activity: 42 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "usgs-scraper"
@@ -156,6 +159,6 @@ repos:
 
 # simonw
 
-123 pushes across 40 repositories on 44 active days in the last 90 days of public GitHub push activity.
+111 pushes across 40 repositories on 42 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/simonw

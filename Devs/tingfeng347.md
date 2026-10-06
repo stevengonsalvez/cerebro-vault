@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-05T06:05:47.512530+00:00"
+generated_at: "2026-10-06T06:06:47.636089+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [13, 35, 19, 2, 2, 1, 7, 0, 0, 1, 2, 2, 1]
+pushes_per_week: [17, 31, 15, 2, 2, 1, 7, 0, 0, 1, 3, 2, 2]
 windows:
   "7d":
     pushes: 2
-    distinct_repos: 2
+    distinct_repos: 1
     active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 6
-    distinct_repos: 5
-    active_days: 6
+    pushes: 8
+    distinct_repos: 6
+    active_days: 8
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 85
-    distinct_repos: 16
+    pushes: 83
+    distinct_repos: 17
     active_days: 34
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.5000
-  repo_per_active_day: 0.4706
+  push_per_day: 2.4412
+  repo_per_active_day: 0.5000
   not_owned_ratio: 0.0000
-  basename_concentration: 0.0625
+  basename_concentration: 0.0588
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -50,24 +50,24 @@ automation:
 facets:
   "7d":
     pushes: 2
-    distinct_repos: 2
-    pushes_per_repo: 1.0000
+    distinct_repos: 1
+    pushes_per_repo: 2.0000
     active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 6
-    distinct_repos: 5
-    pushes_per_repo: 1.2000
-    active_days: 6
+    pushes: 8
+    distinct_repos: 6
+    pushes_per_repo: 1.3333
+    active_days: 8
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 85
-    distinct_repos: 16
-    pushes_per_repo: 5.3125
+    pushes: 83
+    distinct_repos: 17
+    pushes_per_repo: 4.8824
     active_days: 34
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -131,6 +131,6 @@ repos:
 
 # tingfeng347
 
-85 pushes across 16 repositories on 34 active days in the last 90 days of public GitHub push activity.
+83 pushes across 17 repositories on 34 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/tingfeng347

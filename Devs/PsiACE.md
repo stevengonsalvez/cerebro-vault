@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-05T06:05:47.512530+00:00"
+generated_at: "2026-10-06T06:06:47.636089+00:00"
 provenance:
   - "48dbbdd8fd0d3029"
-pushes_per_week: [2, 6, 1, 6, 9, 13, 5, 5, 1, 4, 5, 6, 14]
+pushes_per_week: [2, 7, 0, 6, 13, 10, 5, 5, 0, 4, 5, 7, 16]
 windows:
   "7d":
     pushes: 16
     distinct_repos: 5
-    active_days: 7
+    active_days: 6
     repos_not_owned: 4
     not_owned_basenames: 4
-    not_owned_owners: 1
+    not_owned_owners: 2
   "30d":
-    pushes: 29
+    pushes: 32
     distinct_repos: 11
     active_days: 15
     repos_not_owned: 7
     not_owned_basenames: 7
     not_owned_owners: 3
   "90d":
-    pushes: 77
+    pushes: 80
     distinct_repos: 21
     active_days: 42
     repos_not_owned: 10
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 5
 automation:
   state: "clear"
-  push_per_day: 1.8333
+  push_per_day: 1.9048
   repo_per_active_day: 0.5000
   not_owned_ratio: 0.4762
   basename_concentration: 0.0952
@@ -52,22 +52,22 @@ facets:
     pushes: 16
     distinct_repos: 5
     pushes_per_repo: 3.2000
-    active_days: 7
+    active_days: 6
     repos_not_owned: 4
     not_owned_basenames: 4
-    not_owned_owners: 1
+    not_owned_owners: 2
   "30d":
-    pushes: 29
+    pushes: 32
     distinct_repos: 11
-    pushes_per_repo: 2.6364
+    pushes_per_repo: 2.9091
     active_days: 15
     repos_not_owned: 7
     not_owned_basenames: 7
     not_owned_owners: 3
   "90d":
-    pushes: 77
+    pushes: 80
     distinct_repos: 21
-    pushes_per_repo: 3.6667
+    pushes_per_repo: 3.8095
     active_days: 42
     repos_not_owned: 10
     not_owned_basenames: 10
@@ -151,6 +151,6 @@ repos:
 
 # PsiACE
 
-77 pushes across 21 repositories on 42 active days in the last 90 days of public GitHub push activity.
+80 pushes across 21 repositories on 42 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/PsiACE

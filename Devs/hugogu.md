@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-05T06:05:47.512530+00:00"
+generated_at: "2026-10-06T06:06:47.636089+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [15, 8, 7, 1, 3, 0, 5, 2, 1, 2, 10, 6, 11]
+pushes_per_week: [14, 8, 6, 0, 3, 1, 4, 2, 2, 1, 10, 6, 12]
 windows:
   "7d":
-    pushes: 13
+    pushes: 12
     distinct_repos: 2
     active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 30
+    pushes: 31
     distinct_repos: 3
-    active_days: 13
+    active_days: 14
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 71
+    pushes: 69
     distinct_repos: 7
     active_days: 36
     repos_not_owned: 0
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.9722
+  push_per_day: 1.9167
   repo_per_active_day: 0.1944
   not_owned_ratio: 0.0000
   basename_concentration: 0.1429
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 13
+    pushes: 12
     distinct_repos: 2
-    pushes_per_repo: 6.5000
+    pushes_per_repo: 6.0000
     active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 30
+    pushes: 31
     distinct_repos: 3
-    pushes_per_repo: 10.0000
-    active_days: 13
+    pushes_per_repo: 10.3333
+    active_days: 14
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 71
+    pushes: 69
     distinct_repos: 7
-    pushes_per_repo: 10.1429
+    pushes_per_repo: 9.8571
     active_days: 36
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -137,6 +137,6 @@ repos:
 
 # hugogu
 
-71 pushes across 7 repositories on 36 active days in the last 90 days of public GitHub push activity.
+69 pushes across 7 repositories on 36 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/hugogu

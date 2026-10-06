@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-05T06:05:47.512530+00:00"
+generated_at: "2026-10-06T06:06:47.636089+00:00"
 provenance:
   - "c1af6b58492f9bf4"
-pushes_per_week: [77, 65, 70, 74, 3, 83, 1, 9, 2, 2, 151, 152, 53]
+pushes_per_week: [23, 78, 65, 65, 9, 78, 0, 9, 3, 2, 160, 142, 63]
 windows:
   "7d":
-    pushes: 78
+    pushes: 63
     distinct_repos: 7
     active_days: 5
     repos_not_owned: 7
     not_owned_basenames: 7
     not_owned_owners: 1
   "30d":
-    pushes: 360
-    distinct_repos: 18
-    active_days: 21
-    repos_not_owned: 14
-    not_owned_basenames: 14
+    pushes: 370
+    distinct_repos: 20
+    active_days: 22
+    repos_not_owned: 16
+    not_owned_basenames: 16
     not_owned_owners: 1
   "90d":
-    pushes: 742
-    distinct_repos: 27
+    pushes: 697
+    distinct_repos: 29
     active_days: 57
-    repos_not_owned: 15
-    not_owned_basenames: 15
+    repos_not_owned: 17
+    not_owned_basenames: 17
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 13.0175
-  repo_per_active_day: 0.4737
-  not_owned_ratio: 0.5556
-  basename_concentration: 0.0370
+  push_per_day: 12.2281
+  repo_per_active_day: 0.5088
+  not_owned_ratio: 0.5862
+  basename_concentration: 0.0345
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,28 +49,28 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 78
+    pushes: 63
     distinct_repos: 7
-    pushes_per_repo: 11.1429
+    pushes_per_repo: 9.0000
     active_days: 5
     repos_not_owned: 7
     not_owned_basenames: 7
     not_owned_owners: 1
   "30d":
-    pushes: 360
-    distinct_repos: 18
-    pushes_per_repo: 20.0000
-    active_days: 21
-    repos_not_owned: 14
-    not_owned_basenames: 14
+    pushes: 370
+    distinct_repos: 20
+    pushes_per_repo: 18.5000
+    active_days: 22
+    repos_not_owned: 16
+    not_owned_basenames: 16
     not_owned_owners: 1
   "90d":
-    pushes: 742
-    distinct_repos: 27
-    pushes_per_repo: 27.4815
+    pushes: 697
+    distinct_repos: 29
+    pushes_per_repo: 24.0345
     active_days: 57
-    repos_not_owned: 15
-    not_owned_basenames: 15
+    repos_not_owned: 17
+    not_owned_basenames: 17
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
@@ -205,6 +205,6 @@ repos:
 
 # pirate
 
-742 pushes across 27 repositories on 57 active days in the last 90 days of public GitHub push activity.
+697 pushes across 29 repositories on 57 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/pirate

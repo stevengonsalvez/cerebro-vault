@@ -10,16 +10,16 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-05T06:05:47.512530+00:00"
+generated_at: "2026-10-06T06:06:47.636089+00:00"
 provenance:
   - "4138778ebbc75ba6"
   - "46f3c1d6124190bd"
 pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 5, 3]
 windows:
   "7d":
-    pushes: 4
+    pushes: 3
     distinct_repos: 3
-    active_days: 3
+    active_days: 2
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
@@ -51,10 +51,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 4
+    pushes: 3
     distinct_repos: 3
-    pushes_per_repo: 1.3333
-    active_days: 3
+    pushes_per_repo: 1.0000
+    active_days: 2
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
@@ -81,12 +81,20 @@ reasons:
 repos:
   - name: "cups"
     title: "cups"
-    description: "CUPS compiled from the official OpenPrinting source with the latest version for Ubuntu and Debian."
+    description: "Multi-arch CUPS print server for Ubuntu and Debian: turns any USB printer into an AirPrint network printer. Rebuilt every Sunday, published only when a package actually changed."
     language: "Shell"
     topics: []
     stars_fact: 4
     first_seen: null
-    last_push: "2026-09-27"
+    last_push: "2026-10-04"
+  - name: "cateim"
+    title: "cateim"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-03"
   - name: "ai-usagebar-win"
     title: "ai-usagebar-win"
     description: null
@@ -103,14 +111,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-09-04"
-  - name: "cateim"
-    title: "cateim"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-24"
   - name: "stirling-pdf"
     title: "stirling-pdf"
     description: null

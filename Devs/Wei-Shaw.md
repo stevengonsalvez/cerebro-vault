@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-05T06:05:47.512530+00:00"
+generated_at: "2026-10-06T06:06:47.636089+00:00"
 provenance:
   - "91526b8597b5b63d"
-pushes_per_week: [21, 53, 20, 7, 6, 13, 11, 1, 4, 3, 7, 16, 5]
+pushes_per_week: [25, 45, 19, 7, 13, 10, 6, 2, 3, 4, 11, 12, 4]
 windows:
   "7d":
     pushes: 5
@@ -29,22 +29,22 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 167
-    distinct_repos: 14
-    active_days: 46
-    repos_not_owned: 11
+    pushes: 161
+    distinct_repos: 13
+    active_days: 44
+    repos_not_owned: 10
     not_owned_basenames: 2
-    not_owned_owners: 11
+    not_owned_owners: 10
 automation:
   state: "clear"
-  push_per_day: 3.6304
-  repo_per_active_day: 0.3043
-  not_owned_ratio: 0.7857
-  basename_concentration: 0.7857
+  push_per_day: 3.6591
+  repo_per_active_day: 0.2955
+  not_owned_ratio: 0.7692
+  basename_concentration: 0.7692
   shapes:
     - "fork_farm_own_upstream"
   shape_evidence:
-    - "basename concentration 0.7857 (11 of 14 repos share one basename), 11 not owned across 2 basenames — 5 of 5 sampled repos resolved; 5 fork an upstream this account owns; upstreams: Wei-Shaw/sub2api"
+    - "basename concentration 0.7692 (10 of 13 repos share one basename), 10 not owned across 2 basenames — 5 of 5 sampled repos resolved; 5 fork an upstream this account owns; upstreams: Wei-Shaw/sub2api"
   cleared_by: "e01-builder"
   cleared_on: "2026-08-26"
   fork_provenance:
@@ -57,9 +57,9 @@ automation:
     sampled:
       - "aofee/sub2api"
       - "caigee-cmd/sub2api"
-      - "fengshao1227/sub2api"
       - "heathermhuang/sub2api"
       - "hongheshan-svg/sub2api"
+      - "jinfeijie/sub2api"
     upstreams:
       - "Wei-Shaw/sub2api"
   prefilter: "rest_verified"
@@ -81,16 +81,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 167
-    distinct_repos: 14
-    pushes_per_repo: 11.9286
-    active_days: 46
-    repos_not_owned: 11
+    pushes: 161
+    distinct_repos: 13
+    pushes_per_repo: 12.3846
+    active_days: 44
+    repos_not_owned: 10
     not_owned_basenames: 2
-    not_owned_owners: 11
+    not_owned_owners: 10
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 46 active days in 90d — pass"
+  - "activity: 44 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "sub2api"
@@ -165,6 +165,6 @@ repos:
 
 # Wei-Shaw
 
-167 pushes across 14 repositories on 46 active days in the last 90 days of public GitHub push activity.
+161 pushes across 13 repositories on 44 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Wei-Shaw

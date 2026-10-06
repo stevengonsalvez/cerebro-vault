@@ -10,10 +10,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-05T06:05:47.512530+00:00"
+generated_at: "2026-10-06T06:06:47.636089+00:00"
 provenance:
   - "9d67ce648f6a8919"
-pushes_per_week: [11, 14, 3, 1, 2, 13, 3, 2, 3, 1, 5, 12, 12]
+pushes_per_week: [12, 11, 2, 1, 3, 12, 3, 2, 3, 1, 6, 15, 9]
 windows:
   "7d":
     pushes: 12
@@ -23,29 +23,29 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 2
   "30d":
-    pushes: 33
+    pushes: 34
     distinct_repos: 8
     active_days: 18
     repos_not_owned: 6
     not_owned_basenames: 1
     not_owned_owners: 6
   "90d":
-    pushes: 82
-    distinct_repos: 12
-    active_days: 44
-    repos_not_owned: 9
+    pushes: 80
+    distinct_repos: 11
+    active_days: 42
+    repos_not_owned: 8
     not_owned_basenames: 1
-    not_owned_owners: 9
+    not_owned_owners: 8
 automation:
   state: "clear"
-  push_per_day: 1.8636
-  repo_per_active_day: 0.2727
-  not_owned_ratio: 0.7500
-  basename_concentration: 0.8333
+  push_per_day: 1.9048
+  repo_per_active_day: 0.2619
+  not_owned_ratio: 0.7273
+  basename_concentration: 0.8182
   shapes:
     - "fork_farm_own_upstream"
   shape_evidence:
-    - "basename concentration 0.8333 (10 of 12 repos share one basename), 9 not owned across 1 basenames — 5 of 5 sampled repos resolved; 5 fork an upstream this account owns; upstreams: Alishahryar1/free-claude-code"
+    - "basename concentration 0.8182 (9 of 11 repos share one basename), 8 not owned across 1 basenames — 5 of 5 sampled repos resolved; 5 fork an upstream this account owns; upstreams: Alishahryar1/free-claude-code"
   cleared_by: "e01-builder"
   cleared_on: "2026-08-26"
   fork_provenance:
@@ -57,10 +57,10 @@ automation:
     truncated: false
     sampled:
       - "aiapienthusiast/free-claude-code"
-      - "Akalanka1337/free-claude-code"
       - "Felixkw12/free-claude-code"
       - "gokhankelebek/free-claude-code"
       - "iamvinbas/free-claude-code"
+      - "Tanishq-1/free-claude-code"
     upstreams:
       - "Alishahryar1/free-claude-code"
   prefilter: "rest_verified"
@@ -74,24 +74,24 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 2
   "30d":
-    pushes: 33
+    pushes: 34
     distinct_repos: 8
-    pushes_per_repo: 4.1250
+    pushes_per_repo: 4.2500
     active_days: 18
     repos_not_owned: 6
     not_owned_basenames: 1
     not_owned_owners: 6
   "90d":
-    pushes: 82
-    distinct_repos: 12
-    pushes_per_repo: 6.8333
-    active_days: 44
-    repos_not_owned: 9
+    pushes: 80
+    distinct_repos: 11
+    pushes_per_repo: 7.2727
+    active_days: 42
+    repos_not_owned: 8
     not_owned_basenames: 1
-    not_owned_owners: 9
+    not_owned_owners: 8
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 44 active days in 90d — pass"
+  - "activity: 42 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "free-claude-code"
@@ -130,6 +130,6 @@ repos:
 
 # Alishahryar1
 
-82 pushes across 12 repositories on 44 active days in the last 90 days of public GitHub push activity.
+80 pushes across 11 repositories on 42 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Alishahryar1

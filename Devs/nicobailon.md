@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-05T06:05:47.512530+00:00"
+generated_at: "2026-10-06T06:06:47.636089+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [9, 33, 30, 51, 53, 82, 16, 14, 2, 14, 31, 64, 42]
+pushes_per_week: [11, 28, 30, 59, 55, 73, 18, 10, 2, 17, 32, 67, 40]
 windows:
   "7d":
-    pushes: 45
-    distinct_repos: 12
+    pushes: 43
+    distinct_repos: 10
     active_days: 7
-    repos_not_owned: 5
+    repos_not_owned: 4
     not_owned_basenames: 2
-    not_owned_owners: 4
+    not_owned_owners: 3
   "30d":
-    pushes: 153
+    pushes: 158
     distinct_repos: 24
-    active_days: 21
+    active_days: 22
     repos_not_owned: 13
     not_owned_basenames: 6
     not_owned_owners: 12
   "90d":
-    pushes: 441
+    pushes: 442
     distinct_repos: 60
     active_days: 67
     repos_not_owned: 43
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 42
 automation:
   state: "clear"
-  push_per_day: 6.5821
+  push_per_day: 6.5970
   repo_per_active_day: 0.8955
   not_owned_ratio: 0.7167
   basename_concentration: 0.4167
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 45
-    distinct_repos: 12
-    pushes_per_repo: 3.7500
+    pushes: 43
+    distinct_repos: 10
+    pushes_per_repo: 4.3000
     active_days: 7
-    repos_not_owned: 5
+    repos_not_owned: 4
     not_owned_basenames: 2
-    not_owned_owners: 4
+    not_owned_owners: 3
   "30d":
-    pushes: 153
+    pushes: 158
     distinct_repos: 24
-    pushes_per_repo: 6.3750
-    active_days: 21
+    pushes_per_repo: 6.5833
+    active_days: 22
     repos_not_owned: 13
     not_owned_basenames: 6
     not_owned_owners: 12
   "90d":
-    pushes: 441
+    pushes: 442
     distinct_repos: 60
-    pushes_per_repo: 7.3500
+    pushes_per_repo: 7.3667
     active_days: 67
     repos_not_owned: 43
     not_owned_basenames: 9
@@ -146,6 +146,6 @@ repos:
 
 # nicobailon
 
-441 pushes across 60 repositories on 67 active days in the last 90 days of public GitHub push activity.
+442 pushes across 60 repositories on 67 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/nicobailon

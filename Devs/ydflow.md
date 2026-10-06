@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-05T06:05:47.512530+00:00"
+generated_at: "2026-10-06T06:06:47.636089+00:00"
 provenance:
   - "c489e6fb5febf2ab"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 17, 4]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 16, 2]
 windows:
   "7d":
-    pushes: 7
-    distinct_repos: 4
-    active_days: 3
+    pushes: 4
+    distinct_repos: 3
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 7
-    distinct_repos: 4
-    pushes_per_repo: 1.7500
-    active_days: 3
+    pushes: 4
+    distinct_repos: 3
+    pushes_per_repo: 1.3333
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -84,7 +84,27 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-29"
+    last_push: "2026-10-06"
+  - name: "research-trail"
+    title: "research-trail"
+    description: "研迹 ResearchTrail：Electron/React 桌面与 Python 核心后端的分步投资研究项目。当前仅实现第1步本机健康通信。"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-05"
+  - name: "incident-response-agent"
+    title: "incident-response-agent"
+    description: "故障智巡｜AI 线上服务故障排查与模拟处置平台：证据调查、人工审批、事件回放与确定性评测（基于 MiniClaw）"
+    language: "TypeScript"
+    topics:
+      - "ai-agent"
+      - "human-in-the-loop"
+      - "incident-response"
+      - "miniclaw"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-03"
   - name: "cyber-girlfriend-16gb"
     title: "cyber-girlfriend-16gb"
     description: "面向 16GB 显存设备的 AI 陪伴项目：自定义角色、语音聊天、情绪表情与口型视频。React + Node.js + Python，结合 DeepSeek、火山引擎、LivePortrait 与 MuseTalk，探索从一句话到数字人回应的完整流程。"

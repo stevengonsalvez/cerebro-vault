@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-05T06:05:47.512530+00:00"
+generated_at: "2026-10-06T06:06:47.636089+00:00"
 provenance:
   - "48dbbdd8fd0d3029"
-pushes_per_week: [32, 120, 57, 48, 27, 65, 15, 15, 2, 13, 47, 25, 21]
+pushes_per_week: [28, 115, 62, 46, 34, 66, 6, 11, 4, 13, 50, 21, 20]
 windows:
   "7d":
-    pushes: 23
+    pushes: 21
     distinct_repos: 2
-    active_days: 7
+    active_days: 6
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 4
     not_owned_owners: 1
   "90d":
-    pushes: 487
+    pushes: 476
     distinct_repos: 5
-    active_days: 73
+    active_days: 72
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 6.6712
-  repo_per_active_day: 0.0685
+  push_per_day: 6.6111
+  repo_per_active_day: 0.0694
   not_owned_ratio: 1.0000
   basename_concentration: 0.2000
   shapes: []
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 23
+    pushes: 21
     distinct_repos: 2
-    pushes_per_repo: 11.5000
-    active_days: 7
+    pushes_per_repo: 10.5000
+    active_days: 6
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 4
     not_owned_owners: 1
   "90d":
-    pushes: 487
+    pushes: 476
     distinct_repos: 5
-    pushes_per_repo: 97.4000
-    active_days: 73
+    pushes_per_repo: 95.2000
+    active_days: 72
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 73 active days in 90d — pass"
+  - "activity: 72 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "mike-dotfiles"
@@ -89,6 +89,6 @@ repos:
 
 # ibetitsmike
 
-487 pushes across 5 repositories on 73 active days in the last 90 days of public GitHub push activity.
+476 pushes across 5 repositories on 72 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ibetitsmike

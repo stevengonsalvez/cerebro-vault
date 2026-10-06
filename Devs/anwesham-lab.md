@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-02T06:06:48.484172+00:00"
+generated_at: "2026-10-06T06:06:47.636089+00:00"
 provenance:
   - "a50b0e08dbaee74a"
-pushes_per_week: [4, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 23]
+pushes_per_week: [4, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 23]
 windows:
   "7d":
     pushes: 23
@@ -29,7 +29,7 @@ windows:
     not_owned_basenames: 3
     not_owned_owners: 2
   "90d":
-    pushes: 30
+    pushes: 29
     distinct_repos: 4
     active_days: 7
     repos_not_owned: 3
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 4.2857
+  push_per_day: 4.1429
   repo_per_active_day: 0.5714
   not_owned_ratio: 0.7500
   basename_concentration: 0.2500
@@ -65,9 +65,9 @@ facets:
     not_owned_basenames: 3
     not_owned_owners: 2
   "90d":
-    pushes: 30
+    pushes: 29
     distinct_repos: 4
-    pushes_per_repo: 7.5000
+    pushes_per_repo: 7.2500
     active_days: 7
     repos_not_owned: 3
     not_owned_basenames: 3
@@ -113,6 +113,6 @@ repos:
 
 # anwesham-lab
 
-30 pushes across 4 repositories on 7 active days in the last 90 days of public GitHub push activity.
+29 pushes across 4 repositories on 7 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/anwesham-lab

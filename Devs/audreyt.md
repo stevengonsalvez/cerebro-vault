@@ -9,37 +9,37 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-05T06:05:47.512530+00:00"
+generated_at: "2026-10-06T06:06:47.636089+00:00"
 provenance:
   - "3eacb4655aba2497"
-pushes_per_week: [71, 27, 22, 0, 9, 9, 8, 3, 2, 4, 8, 9, 13]
+pushes_per_week: [73, 24, 20, 0, 13, 5, 9, 2, 2, 4, 10, 10, 12]
 windows:
   "7d":
-    pushes: 14
-    distinct_repos: 6
-    active_days: 7
+    pushes: 12
+    distinct_repos: 5
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 36
-    distinct_repos: 13
+    pushes: 37
+    distinct_repos: 14
     active_days: 20
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 185
+    pushes: 184
     distinct_repos: 32
     active_days: 51
-    repos_not_owned: 11
-    not_owned_basenames: 11
+    repos_not_owned: 10
+    not_owned_basenames: 10
     not_owned_owners: 4
 automation:
   state: "clear"
-  push_per_day: 3.6275
+  push_per_day: 3.6078
   repo_per_active_day: 0.6275
-  not_owned_ratio: 0.3438
+  not_owned_ratio: 0.3125
   basename_concentration: 0.0625
   shapes: []
   shape_evidence: []
@@ -49,28 +49,28 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 14
-    distinct_repos: 6
-    pushes_per_repo: 2.3333
-    active_days: 7
+    pushes: 12
+    distinct_repos: 5
+    pushes_per_repo: 2.4000
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 36
-    distinct_repos: 13
-    pushes_per_repo: 2.7692
+    pushes: 37
+    distinct_repos: 14
+    pushes_per_repo: 2.6429
     active_days: 20
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 185
+    pushes: 184
     distinct_repos: 32
-    pushes_per_repo: 5.7812
+    pushes_per_repo: 5.7500
     active_days: 51
-    repos_not_owned: 11
-    not_owned_basenames: 11
+    repos_not_owned: 10
+    not_owned_basenames: 10
     not_owned_owners: 4
 reasons:
   - "provenance: 1 vault signal(s) — pass"
@@ -129,6 +129,6 @@ repos:
 
 # audreyt
 
-185 pushes across 32 repositories on 51 active days in the last 90 days of public GitHub push activity.
+184 pushes across 32 repositories on 51 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/audreyt

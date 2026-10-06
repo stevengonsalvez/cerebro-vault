@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-05T06:05:47.512530+00:00"
+generated_at: "2026-10-06T06:06:47.636089+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [6, 78, 62, 52, 8, 3, 4, 7, 0, 0, 1, 2, 4]
+pushes_per_week: [6, 95, 51, 47, 10, 0, 5, 6, 0, 0, 1, 2, 5]
 windows:
   "7d":
-    pushes: 4
+    pushes: 5
     distinct_repos: 4
-    active_days: 3
+    active_days: 4
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 7
+    pushes: 8
     distinct_repos: 4
-    active_days: 5
+    active_days: 6
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 227
+    pushes: 228
     distinct_repos: 19
-    active_days: 31
+    active_days: 32
     repos_not_owned: 7
     not_owned_basenames: 5
     not_owned_owners: 5
 automation:
   state: "clear"
-  push_per_day: 7.3226
-  repo_per_active_day: 0.6129
+  push_per_day: 7.1250
+  repo_per_active_day: 0.5938
   not_owned_ratio: 0.3684
   basename_concentration: 0.2105
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 4
+    pushes: 5
     distinct_repos: 4
-    pushes_per_repo: 1.0000
-    active_days: 3
+    pushes_per_repo: 1.2500
+    active_days: 4
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 7
+    pushes: 8
     distinct_repos: 4
-    pushes_per_repo: 1.7500
-    active_days: 5
+    pushes_per_repo: 2.0000
+    active_days: 6
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 227
+    pushes: 228
     distinct_repos: 19
-    pushes_per_repo: 11.9474
-    active_days: 31
+    pushes_per_repo: 12.0000
+    active_days: 32
     repos_not_owned: 7
     not_owned_basenames: 5
     not_owned_owners: 5
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 31 active days in 90d — pass"
+  - "activity: 32 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "wolfppt-oss"
@@ -144,6 +144,6 @@ repos:
 
 # wolfiesch
 
-227 pushes across 19 repositories on 31 active days in the last 90 days of public GitHub push activity.
+228 pushes across 19 repositories on 32 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/wolfiesch

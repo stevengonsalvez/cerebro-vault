@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-05T06:05:47.512530+00:00"
+generated_at: "2026-10-06T06:06:47.636089+00:00"
 provenance:
   - "c1af6b58492f9bf4"
-pushes_per_week: [0, 10, 20, 8, 2, 0, 0, 1, 0, 0, 1, 5, 4]
+pushes_per_week: [5, 7, 18, 8, 2, 0, 0, 1, 0, 0, 1, 5, 6]
 windows:
   "7d":
-    pushes: 7
+    pushes: 6
     distinct_repos: 2
-    active_days: 4
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 10
+    pushes: 12
     distinct_repos: 2
     active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 51
+    pushes: 53
     distinct_repos: 4
     active_days: 20
     repos_not_owned: 0
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.5500
+  push_per_day: 2.6500
   repo_per_active_day: 0.2000
   not_owned_ratio: 0.0000
   basename_concentration: 0.2500
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 7
+    pushes: 6
     distinct_repos: 2
-    pushes_per_repo: 3.5000
-    active_days: 4
+    pushes_per_repo: 3.0000
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 10
+    pushes: 12
     distinct_repos: 2
-    pushes_per_repo: 5.0000
+    pushes_per_repo: 6.0000
     active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 51
+    pushes: 53
     distinct_repos: 4
-    pushes_per_repo: 12.7500
+    pushes_per_repo: 13.2500
     active_days: 20
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -134,6 +134,6 @@ repos:
 
 # sandeepsalwan1
 
-51 pushes across 4 repositories on 20 active days in the last 90 days of public GitHub push activity.
+53 pushes across 4 repositories on 20 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/sandeepsalwan1

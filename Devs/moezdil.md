@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-05T06:05:47.512530+00:00"
+generated_at: "2026-10-06T06:06:47.636089+00:00"
 provenance:
   - "a5ffcd0a46dd44fd"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 10]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 11]
 windows:
   "7d":
-    pushes: 10
-    distinct_repos: 4
-    active_days: 4
-    repos_not_owned: 1
+    pushes: 14
+    distinct_repos: 5
+    active_days: 5
+    repos_not_owned: 2
     not_owned_basenames: 1
-    not_owned_owners: 1
+    not_owned_owners: 2
   "30d":
-    pushes: 15
-    distinct_repos: 9
-    active_days: 7
-    repos_not_owned: 1
+    pushes: 19
+    distinct_repos: 10
+    active_days: 8
+    repos_not_owned: 2
     not_owned_basenames: 1
-    not_owned_owners: 1
+    not_owned_owners: 2
   "90d":
-    pushes: 15
-    distinct_repos: 9
-    active_days: 7
-    repos_not_owned: 1
+    pushes: 19
+    distinct_repos: 10
+    active_days: 8
+    repos_not_owned: 2
     not_owned_basenames: 1
-    not_owned_owners: 1
+    not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 2.1429
-  repo_per_active_day: 1.2857
-  not_owned_ratio: 0.1111
-  basename_concentration: 0.1111
+  push_per_day: 2.3750
+  repo_per_active_day: 1.2500
+  not_owned_ratio: 0.2000
+  basename_concentration: 0.2000
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 10
-    distinct_repos: 4
-    pushes_per_repo: 2.5000
-    active_days: 4
-    repos_not_owned: 1
+    pushes: 14
+    distinct_repos: 5
+    pushes_per_repo: 2.8000
+    active_days: 5
+    repos_not_owned: 2
     not_owned_basenames: 1
-    not_owned_owners: 1
+    not_owned_owners: 2
   "30d":
-    pushes: 15
-    distinct_repos: 9
-    pushes_per_repo: 1.6667
-    active_days: 7
-    repos_not_owned: 1
+    pushes: 19
+    distinct_repos: 10
+    pushes_per_repo: 1.9000
+    active_days: 8
+    repos_not_owned: 2
     not_owned_basenames: 1
-    not_owned_owners: 1
+    not_owned_owners: 2
   "90d":
-    pushes: 15
-    distinct_repos: 9
-    pushes_per_repo: 1.6667
-    active_days: 7
-    repos_not_owned: 1
+    pushes: 19
+    distinct_repos: 10
+    pushes_per_repo: 1.9000
+    active_days: 8
+    repos_not_owned: 2
     not_owned_basenames: 1
-    not_owned_owners: 1
+    not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 7 active days in 90d — pass"
+  - "activity: 8 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "CUDA"
@@ -160,6 +160,6 @@ repos:
 
 # moezdil
 
-15 pushes across 9 repositories on 7 active days in the last 90 days of public GitHub push activity.
+19 pushes across 10 repositories on 8 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/moezdil

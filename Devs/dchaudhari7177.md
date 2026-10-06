@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-05T06:05:47.512530+00:00"
+generated_at: "2026-10-06T06:06:47.636089+00:00"
 provenance:
   - "9e2ff10d772b1e71"
-pushes_per_week: [2, 8, 4, 0, 4, 2, 2, 2, 0, 8, 4, 5, 2]
+pushes_per_week: [0, 8, 4, 0, 4, 2, 2, 2, 1, 8, 6, 2, 2]
 windows:
   "7d":
     pushes: 2
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 43
-    distinct_repos: 27
-    active_days: 26
+    pushes: 41
+    distinct_repos: 25
+    active_days: 24
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 1.6538
-  repo_per_active_day: 1.0385
-  not_owned_ratio: 0.0741
-  basename_concentration: 0.0370
+  push_per_day: 1.7083
+  repo_per_active_day: 1.0417
+  not_owned_ratio: 0.0800
+  basename_concentration: 0.0400
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 43
-    distinct_repos: 27
-    pushes_per_repo: 1.5926
-    active_days: 26
+    pushes: 41
+    distinct_repos: 25
+    pushes_per_repo: 1.6400
+    active_days: 24
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 26 active days in 90d — pass"
+  - "activity: 24 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "hemophilia"
@@ -89,6 +89,6 @@ repos:
 
 # dchaudhari7177
 
-43 pushes across 27 repositories on 26 active days in the last 90 days of public GitHub push activity.
+41 pushes across 25 repositories on 24 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/dchaudhari7177

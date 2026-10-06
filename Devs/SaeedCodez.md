@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-05T06:05:47.512530+00:00"
+generated_at: "2026-10-06T06:06:47.636089+00:00"
 provenance:
   - "745308b2b7085095"
 pushes_per_week: [1, 0, 0, 4, 0, 0, 0, 3, 0, 0, 0, 1, 3]
 windows:
   "7d":
-    pushes: 4
-    distinct_repos: 2
-    active_days: 3
+    pushes: 3
+    distinct_repos: 1
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 4
-    distinct_repos: 2
-    pushes_per_repo: 2.0000
-    active_days: 3
+    pushes: 3
+    distinct_repos: 1
+    pushes_per_repo: 3.0000
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -77,14 +77,22 @@ reasons:
   - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "fyldo"
+    title: "fyldo"
+    description: "A settings-page framework for WordPress plugin developers."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-02"
   - name: "wp-topbar"
     title: "wp-topbar"
-    description: null
+    description: "A lightweight, fast WordPress plugin that adds a clean announcement bar to the top of your site: custom text, a call-to-action button, an optional image, sticky mode, adjustable height, a dismissible close button with a remembered state, and a display schedule."
     language: "PHP"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-28"
+    last_push: "2026-09-29"
   - name: "Mivo"
     title: "Mivo"
     description: "A calm, instant new tab for Chrome. Vanilla TypeScript, no framework, no background worker."
@@ -128,14 +136,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-08-01"
-  - name: "SaeedCodez"
-    title: "SaeedCodez"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-07-31"
 ---
 
 # SaeedCodez

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: true
 repos_populated: true
-generated_at: "2026-10-03T06:07:13.763334+00:00"
+generated_at: "2026-10-06T06:06:47.636089+00:00"
 provenance:
   - "ed2f687a3182c848"
-pushes_per_week: [2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2]
 windows:
   "7d":
     pushes: 2
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 4
+    pushes: 2
     distinct_repos: 1
-    active_days: 2
+    active_days: 1
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
   push_per_day: 2.0000
-  repo_per_active_day: 0.5000
+  repo_per_active_day: 1.0000
   not_owned_ratio: 1.0000
   basename_concentration: 1.0000
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 4
+    pushes: 2
     distinct_repos: 1
-    pushes_per_repo: 4.0000
-    active_days: 2
+    pushes_per_repo: 2.0000
+    active_days: 1
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 2 active days in 90d — below the 5-day line, LABELLED low-n (never suppressed)"
+  - "activity: 1 active days in 90d — below the 5-day line, LABELLED low-n (never suppressed)"
   - "automation: clear — pass"
 repos:
   - name: "TabishB"
@@ -131,6 +131,6 @@ repos:
 
 # TabishB
 
-4 pushes across 1 repository on 2 active days in the last 90 days of public GitHub push activity.
+2 pushes across 1 repository on 1 active day in the last 90 days of public GitHub push activity.
 
 https://github.com/TabishB

@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-05T06:05:47.512530+00:00"
+generated_at: "2026-10-06T06:06:47.636089+00:00"
 provenance:
   - "a5ffcd0a46dd44fd"
-pushes_per_week: [4, 3, 4, 3, 2, 6, 1, 1, 0, 1, 0, 1, 4]
+pushes_per_week: [4, 3, 6, 1, 2, 6, 1, 1, 0, 1, 1, 1, 4]
 windows:
   "7d":
-    pushes: 4
+    pushes: 5
     distinct_repos: 1
-    active_days: 3
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 6
+    pushes: 7
     distinct_repos: 1
-    active_days: 5
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 30
+    pushes: 31
     distinct_repos: 3
-    active_days: 24
+    active_days: 25
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.2500
-  repo_per_active_day: 0.1250
+  push_per_day: 1.2400
+  repo_per_active_day: 0.1200
   not_owned_ratio: 0.3333
   basename_concentration: 0.6667
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 4
+    pushes: 5
     distinct_repos: 1
-    pushes_per_repo: 4.0000
-    active_days: 3
+    pushes_per_repo: 5.0000
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 6
+    pushes: 7
     distinct_repos: 1
-    pushes_per_repo: 6.0000
-    active_days: 5
+    pushes_per_repo: 7.0000
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 30
+    pushes: 31
     distinct_repos: 3
-    pushes_per_repo: 10.0000
-    active_days: 24
+    pushes_per_repo: 10.3333
+    active_days: 25
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 24 active days in 90d — pass"
+  - "activity: 25 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "gh-issues-skill"
@@ -129,6 +129,6 @@ repos:
 
 # juli4n
 
-30 pushes across 3 repositories on 24 active days in the last 90 days of public GitHub push activity.
+31 pushes across 3 repositories on 25 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/juli4n

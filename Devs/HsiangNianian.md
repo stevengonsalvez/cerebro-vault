@@ -10,28 +10,28 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-05T06:05:47.512530+00:00"
+generated_at: "2026-10-06T06:06:47.636089+00:00"
 provenance:
   - "234088bc43763aa2"
   - "3c90af76cbde0363"
-pushes_per_week: [158, 160, 69, 35, 25, 35, 0, 2, 0, 2, 5, 10, 4]
+pushes_per_week: [155, 148, 55, 28, 30, 30, 0, 2, 0, 3, 4, 12, 3]
 windows:
   "7d":
-    pushes: 4
-    distinct_repos: 2
+    pushes: 3
+    distinct_repos: 3
     active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 21
+    pushes: 22
     distinct_repos: 7
-    active_days: 13
+    active_days: 14
     repos_not_owned: 3
     not_owned_basenames: 2
     not_owned_owners: 3
   "90d":
-    pushes: 505
+    pushes: 470
     distinct_repos: 20
     active_days: 54
     repos_not_owned: 7
@@ -39,7 +39,7 @@ windows:
     not_owned_owners: 6
 automation:
   state: "clear"
-  push_per_day: 9.3519
+  push_per_day: 8.7037
   repo_per_active_day: 0.3704
   not_owned_ratio: 0.3500
   basename_concentration: 0.1500
@@ -51,25 +51,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 4
-    distinct_repos: 2
-    pushes_per_repo: 2.0000
+    pushes: 3
+    distinct_repos: 3
+    pushes_per_repo: 1.0000
     active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 21
+    pushes: 22
     distinct_repos: 7
-    pushes_per_repo: 3.0000
-    active_days: 13
+    pushes_per_repo: 3.1429
+    active_days: 14
     repos_not_owned: 3
     not_owned_basenames: 2
     not_owned_owners: 3
   "90d":
-    pushes: 505
+    pushes: 470
     distinct_repos: 20
-    pushes_per_repo: 25.2500
+    pushes_per_repo: 23.5000
     active_days: 54
     repos_not_owned: 7
     not_owned_basenames: 6
@@ -166,6 +166,6 @@ repos:
 
 # HsiangNianian
 
-505 pushes across 20 repositories on 54 active days in the last 90 days of public GitHub push activity.
+470 pushes across 20 repositories on 54 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/HsiangNianian

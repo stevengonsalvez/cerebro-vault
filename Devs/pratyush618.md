@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-05T06:05:47.512530+00:00"
+generated_at: "2026-10-06T06:06:47.636089+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [23, 32, 7, 8, 7, 5, 1, 0, 2, 0, 8, 5, 5]
+pushes_per_week: [22, 27, 9, 7, 8, 4, 0, 0, 2, 1, 8, 4, 6]
 windows:
   "7d":
-    pushes: 5
+    pushes: 6
     distinct_repos: 2
     active_days: 4
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 20
+    pushes: 21
     distinct_repos: 4
     active_days: 14
     repos_not_owned: 3
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 103
+    pushes: 98
     distinct_repos: 10
-    active_days: 41
+    active_days: 40
     repos_not_owned: 7
     not_owned_basenames: 6
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 2.5122
-  repo_per_active_day: 0.2439
+  push_per_day: 2.4500
+  repo_per_active_day: 0.2500
   not_owned_ratio: 0.7000
   basename_concentration: 0.2000
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 5
+    pushes: 6
     distinct_repos: 2
-    pushes_per_repo: 2.5000
+    pushes_per_repo: 3.0000
     active_days: 4
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 20
+    pushes: 21
     distinct_repos: 4
-    pushes_per_repo: 5.0000
+    pushes_per_repo: 5.2500
     active_days: 14
     repos_not_owned: 3
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 103
+    pushes: 98
     distinct_repos: 10
-    pushes_per_repo: 10.3000
-    active_days: 41
+    pushes_per_repo: 9.8000
+    active_days: 40
     repos_not_owned: 7
     not_owned_basenames: 6
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 41 active days in 90d — pass"
+  - "activity: 40 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "pratyush618"
@@ -129,6 +129,6 @@ repos:
 
 # pratyush618
 
-103 pushes across 10 repositories on 41 active days in the last 90 days of public GitHub push activity.
+98 pushes across 10 repositories on 40 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/pratyush618

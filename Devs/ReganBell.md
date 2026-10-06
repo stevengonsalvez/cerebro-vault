@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-05T06:05:47.512530+00:00"
+generated_at: "2026-10-06T06:06:47.636089+00:00"
 provenance:
   - "872178780cb4ed91"
-pushes_per_week: [0, 0, 0, 15, 1, 23, 0, 0, 1, 1, 39, 15, 22]
+pushes_per_week: [0, 0, 0, 16, 0, 23, 0, 0, 1, 2, 42, 11, 40]
 windows:
   "7d":
-    pushes: 27
+    pushes: 40
     distinct_repos: 1
     active_days: 5
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 78
+    pushes: 96
     distinct_repos: 1
-    active_days: 16
+    active_days: 17
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 117
+    pushes: 135
     distinct_repos: 1
-    active_days: 20
+    active_days: 21
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 5.8500
-  repo_per_active_day: 0.0500
+  push_per_day: 6.4286
+  repo_per_active_day: 0.0476
   not_owned_ratio: 1.0000
   basename_concentration: 1.0000
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 27
+    pushes: 40
     distinct_repos: 1
-    pushes_per_repo: 27.0000
+    pushes_per_repo: 40.0000
     active_days: 5
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 78
+    pushes: 96
     distinct_repos: 1
-    pushes_per_repo: 78.0000
-    active_days: 16
+    pushes_per_repo: 96.0000
+    active_days: 17
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 117
+    pushes: 135
     distinct_repos: 1
-    pushes_per_repo: 117.0000
-    active_days: 20
+    pushes_per_repo: 135.0000
+    active_days: 21
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 20 active days in 90d — pass"
+  - "activity: 21 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "iOS"
@@ -129,6 +129,6 @@ repos:
 
 # ReganBell
 
-117 pushes across 1 repository on 20 active days in the last 90 days of public GitHub push activity.
+135 pushes across 1 repository on 21 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ReganBell

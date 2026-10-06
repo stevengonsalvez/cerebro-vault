@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-05T06:05:47.512530+00:00"
+generated_at: "2026-10-06T06:06:47.636089+00:00"
 provenance:
   - "8c6014a36ca90e3f"
-pushes_per_week: [12, 8, 8, 6, 28, 36, 16, 29, 25, 81, 267, 300, 135]
+pushes_per_week: [16, 3, 8, 11, 32, 30, 27, 17, 35, 89, 262, 377, 66]
 windows:
   "7d":
-    pushes: 191
-    distinct_repos: 2
+    pushes: 129
+    distinct_repos: 1
     active_days: 7
-    repos_not_owned: 2
-    not_owned_basenames: 2
+    repos_not_owned: 1
+    not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 806
+    pushes: 827
     distinct_repos: 11
     active_days: 30
     repos_not_owned: 8
     not_owned_basenames: 8
     not_owned_owners: 2
   "90d":
-    pushes: 951
+    pushes: 973
     distinct_repos: 29
     active_days: 67
     repos_not_owned: 20
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 14.1940
+  push_per_day: 14.5224
   repo_per_active_day: 0.4328
   not_owned_ratio: 0.6897
   basename_concentration: 0.0690
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 191
-    distinct_repos: 2
-    pushes_per_repo: 95.5000
+    pushes: 129
+    distinct_repos: 1
+    pushes_per_repo: 129.0000
     active_days: 7
-    repos_not_owned: 2
-    not_owned_basenames: 2
+    repos_not_owned: 1
+    not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 806
+    pushes: 827
     distinct_repos: 11
-    pushes_per_repo: 73.2727
+    pushes_per_repo: 75.1818
     active_days: 30
     repos_not_owned: 8
     not_owned_basenames: 8
     not_owned_owners: 2
   "90d":
-    pushes: 951
+    pushes: 973
     distinct_repos: 29
-    pushes_per_repo: 32.7931
+    pushes_per_repo: 33.5517
     active_days: 67
     repos_not_owned: 20
     not_owned_basenames: 20
@@ -137,6 +137,6 @@ repos:
 
 # obra
 
-951 pushes across 29 repositories on 67 active days in the last 90 days of public GitHub push activity.
+973 pushes across 29 repositories on 67 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/obra

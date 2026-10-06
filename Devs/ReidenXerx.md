@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-05T06:05:47.512530+00:00"
+generated_at: "2026-10-06T06:06:47.636089+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [3, 4, 1, 0, 13, 10, 6, 6, 5, 1, 11, 61, 42]
+pushes_per_week: [3, 4, 1, 0, 13, 11, 7, 4, 5, 1, 13, 62, 42]
 windows:
   "7d":
     pushes: 45
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 120
+    pushes: 122
     distinct_repos: 18
-    active_days: 22
+    active_days: 23
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 163
+    pushes: 166
     distinct_repos: 23
-    active_days: 41
+    active_days: 43
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 3.9756
-  repo_per_active_day: 0.5610
+  push_per_day: 3.8605
+  repo_per_active_day: 0.5349
   not_owned_ratio: 0.1304
   basename_concentration: 0.0435
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 120
+    pushes: 122
     distinct_repos: 18
-    pushes_per_repo: 6.6667
-    active_days: 22
+    pushes_per_repo: 6.7778
+    active_days: 23
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 163
+    pushes: 166
     distinct_repos: 23
-    pushes_per_repo: 7.0870
-    active_days: 41
+    pushes_per_repo: 7.2174
+    active_days: 43
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 41 active days in 90d — pass"
+  - "activity: 43 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "fo4-ocbpc"
@@ -146,6 +146,6 @@ repos:
 
 # ReidenXerx
 
-163 pushes across 23 repositories on 41 active days in the last 90 days of public GitHub push activity.
+166 pushes across 23 repositories on 43 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ReidenXerx

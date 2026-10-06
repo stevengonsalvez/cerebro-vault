@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-05T06:05:47.512530+00:00"
+generated_at: "2026-10-06T06:06:47.636089+00:00"
 provenance:
   - "6eb73169f84ce43f"
-pushes_per_week: [0, 5, 2, 3, 0, 7, 3, 1, 3, 16, 16, 13, 5]
+pushes_per_week: [0, 5, 5, 0, 0, 7, 3, 1, 3, 18, 15, 13, 5]
 windows:
   "7d":
-    pushes: 7
+    pushes: 6
     distinct_repos: 2
     active_days: 4
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
   "30d":
-    pushes: 53
+    pushes: 51
     distinct_repos: 5
-    active_days: 19
+    active_days: 18
     repos_not_owned: 5
     not_owned_basenames: 2
     not_owned_owners: 5
   "90d":
-    pushes: 74
+    pushes: 75
     distinct_repos: 6
-    active_days: 31
+    active_days: 32
     repos_not_owned: 6
     not_owned_basenames: 2
     not_owned_owners: 6
 automation:
   state: "clear"
-  push_per_day: 2.3871
-  repo_per_active_day: 0.1935
+  push_per_day: 2.3438
+  repo_per_active_day: 0.1875
   not_owned_ratio: 1.0000
   basename_concentration: 0.8333
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 7
+    pushes: 6
     distinct_repos: 2
-    pushes_per_repo: 3.5000
+    pushes_per_repo: 3.0000
     active_days: 4
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
   "30d":
-    pushes: 53
+    pushes: 51
     distinct_repos: 5
-    pushes_per_repo: 10.6000
-    active_days: 19
+    pushes_per_repo: 10.2000
+    active_days: 18
     repos_not_owned: 5
     not_owned_basenames: 2
     not_owned_owners: 5
   "90d":
-    pushes: 74
+    pushes: 75
     distinct_repos: 6
-    pushes_per_repo: 12.3333
-    active_days: 31
+    pushes_per_repo: 12.5000
+    active_days: 32
     repos_not_owned: 6
     not_owned_basenames: 2
     not_owned_owners: 6
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 31 active days in 90d — pass"
+  - "activity: 32 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "literate-engine"
@@ -97,6 +97,6 @@ repos:
 
 # drew
 
-74 pushes across 6 repositories on 31 active days in the last 90 days of public GitHub push activity.
+75 pushes across 6 repositories on 32 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/drew

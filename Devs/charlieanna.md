@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-05T06:05:47.512530+00:00"
+generated_at: "2026-10-06T06:06:47.636089+00:00"
 provenance:
   - "73468cde177ddae6"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 26, 60]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 38, 61]
 windows:
   "7d":
-    pushes: 63
+    pushes: 66
     distinct_repos: 2
     active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 86
+    pushes: 99
     distinct_repos: 3
-    active_days: 11
+    active_days: 12
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 86
+    pushes: 99
     distinct_repos: 3
-    active_days: 11
+    active_days: 12
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 7.8182
-  repo_per_active_day: 0.2727
+  push_per_day: 8.2500
+  repo_per_active_day: 0.2500
   not_owned_ratio: 0.0000
   basename_concentration: 0.3333
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 63
+    pushes: 66
     distinct_repos: 2
-    pushes_per_repo: 31.5000
+    pushes_per_repo: 33.0000
     active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 86
+    pushes: 99
     distinct_repos: 3
-    pushes_per_repo: 28.6667
-    active_days: 11
+    pushes_per_repo: 33.0000
+    active_days: 12
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 86
+    pushes: 99
     distinct_repos: 3
-    pushes_per_repo: 28.6667
-    active_days: 11
+    pushes_per_repo: 33.0000
+    active_days: 12
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 11 active days in 90d — pass"
+  - "activity: 12 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "autocode"
@@ -89,6 +89,6 @@ repos:
 
 # charlieanna
 
-86 pushes across 3 repositories on 11 active days in the last 90 days of public GitHub push activity.
+99 pushes across 3 repositories on 12 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/charlieanna

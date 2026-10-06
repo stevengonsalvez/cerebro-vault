@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-05T06:05:47.512530+00:00"
+generated_at: "2026-10-06T06:06:47.636089+00:00"
 provenance:
   - "dffbb846389f9a26"
-pushes_per_week: [1, 7, 1, 2, 2, 1, 0, 1, 2, 1, 7, 0, 7]
+pushes_per_week: [1, 7, 3, 0, 2, 1, 0, 1, 2, 1, 7, 0, 8]
 windows:
   "7d":
-    pushes: 7
-    distinct_repos: 3
-    active_days: 2
+    pushes: 8
+    distinct_repos: 4
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 17
-    distinct_repos: 5
-    active_days: 7
+    pushes: 18
+    distinct_repos: 6
+    active_days: 8
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 32
+    pushes: 33
     distinct_repos: 10
-    active_days: 17
+    active_days: 18
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.8824
-  repo_per_active_day: 0.5882
+  push_per_day: 1.8333
+  repo_per_active_day: 0.5556
   not_owned_ratio: 0.0000
   basename_concentration: 0.1000
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 7
-    distinct_repos: 3
-    pushes_per_repo: 2.3333
-    active_days: 2
+    pushes: 8
+    distinct_repos: 4
+    pushes_per_repo: 2.0000
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 17
-    distinct_repos: 5
-    pushes_per_repo: 3.4000
-    active_days: 7
+    pushes: 18
+    distinct_repos: 6
+    pushes_per_repo: 3.0000
+    active_days: 8
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 32
+    pushes: 33
     distinct_repos: 10
-    pushes_per_repo: 3.2000
-    active_days: 17
+    pushes_per_repo: 3.3000
+    active_days: 18
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 17 active days in 90d — pass"
+  - "activity: 18 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "superset-plugin-chart-kpi-comparison"
@@ -129,6 +129,6 @@ repos:
 
 # FrancescoCastaldi
 
-32 pushes across 10 repositories on 17 active days in the last 90 days of public GitHub push activity.
+33 pushes across 10 repositories on 18 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/FrancescoCastaldi

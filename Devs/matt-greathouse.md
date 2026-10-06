@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-05T06:05:47.512530+00:00"
+generated_at: "2026-10-06T06:06:47.636089+00:00"
 provenance:
   - "c1af6b58492f9bf4"
-pushes_per_week: [27, 22, 21, 18, 2, 6, 0, 1, 0, 0, 0, 0, 0]
+pushes_per_week: [25, 24, 18, 16, 5, 3, 0, 1, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 97
+    pushes: 92
     distinct_repos: 4
-    active_days: 30
+    active_days: 29
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 3.2333
-  repo_per_active_day: 0.1333
+  push_per_day: 3.1724
+  repo_per_active_day: 0.1379
   not_owned_ratio: 0.5000
   basename_concentration: 0.2500
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 97
+    pushes: 92
     distinct_repos: 4
-    pushes_per_repo: 24.2500
-    active_days: 30
+    pushes_per_repo: 23.0000
+    active_days: 29
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 30 active days in 90d — pass"
+  - "activity: 29 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "gobii-api-swift"
@@ -129,6 +129,6 @@ repos:
 
 # matt-greathouse
 
-97 pushes across 4 repositories on 30 active days in the last 90 days of public GitHub push activity.
+92 pushes across 4 repositories on 29 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/matt-greathouse

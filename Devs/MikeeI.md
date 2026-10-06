@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-05T06:05:47.512530+00:00"
+generated_at: "2026-10-06T06:06:47.636089+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [6, 6, 5, 7, 9, 17, 4, 1, 1, 1, 4, 4, 5]
+pushes_per_week: [6, 7, 6, 5, 10, 16, 4, 1, 2, 0, 5, 4, 7]
 windows:
   "7d":
-    pushes: 6
-    distinct_repos: 3
+    pushes: 7
+    distinct_repos: 4
     active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 15
+    pushes: 17
     distinct_repos: 4
-    active_days: 13
+    active_days: 14
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 70
-    distinct_repos: 16
-    active_days: 41
+    pushes: 73
+    distinct_repos: 17
+    active_days: 43
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.7073
-  repo_per_active_day: 0.3902
+  push_per_day: 1.6977
+  repo_per_active_day: 0.3953
   not_owned_ratio: 0.0000
-  basename_concentration: 0.0625
+  basename_concentration: 0.0588
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 6
-    distinct_repos: 3
-    pushes_per_repo: 2.0000
+    pushes: 7
+    distinct_repos: 4
+    pushes_per_repo: 1.7500
     active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 15
+    pushes: 17
     distinct_repos: 4
-    pushes_per_repo: 3.7500
-    active_days: 13
+    pushes_per_repo: 4.2500
+    active_days: 14
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 70
-    distinct_repos: 16
-    pushes_per_repo: 4.3750
-    active_days: 41
+    pushes: 73
+    distinct_repos: 17
+    pushes_per_repo: 4.2941
+    active_days: 43
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 41 active days in 90d — pass"
+  - "activity: 43 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "tp-link-pg2400p-reverse-engineering"
@@ -135,6 +135,6 @@ repos:
 
 # MikeeI
 
-70 pushes across 16 repositories on 41 active days in the last 90 days of public GitHub push activity.
+73 pushes across 17 repositories on 43 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/MikeeI

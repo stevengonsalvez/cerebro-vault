@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-05T06:05:47.512530+00:00"
+generated_at: "2026-10-06T06:06:47.636089+00:00"
 provenance:
   - "73468cde177ddae6"
-pushes_per_week: [1, 2, 0, 0, 0, 0, 3, 8, 5, 23, 19, 34, 59]
+pushes_per_week: [1, 2, 0, 0, 0, 0, 3, 9, 4, 27, 20, 33, 59]
 windows:
   "7d":
-    pushes: 62
+    pushes: 60
     distinct_repos: 1
-    active_days: 6
+    active_days: 7
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 139
+    pushes: 142
     distinct_repos: 1
-    active_days: 22
+    active_days: 24
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 154
+    pushes: 158
     distinct_repos: 2
-    active_days: 32
+    active_days: 34
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 4.8125
-  repo_per_active_day: 0.0625
+  push_per_day: 4.6471
+  repo_per_active_day: 0.0588
   not_owned_ratio: 0.5000
   basename_concentration: 0.5000
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 62
+    pushes: 60
     distinct_repos: 1
-    pushes_per_repo: 62.0000
-    active_days: 6
+    pushes_per_repo: 60.0000
+    active_days: 7
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 139
+    pushes: 142
     distinct_repos: 1
-    pushes_per_repo: 139.0000
-    active_days: 22
+    pushes_per_repo: 142.0000
+    active_days: 24
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 154
+    pushes: 158
     distinct_repos: 2
-    pushes_per_repo: 77.0000
-    active_days: 32
+    pushes_per_repo: 79.0000
+    active_days: 34
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 32 active days in 90d — pass"
+  - "activity: 34 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "r3f-examples"
@@ -136,6 +136,6 @@ repos:
 
 # donjor
 
-154 pushes across 2 repositories on 32 active days in the last 90 days of public GitHub push activity.
+158 pushes across 2 repositories on 34 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/donjor

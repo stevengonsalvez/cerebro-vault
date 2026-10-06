@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-05T06:05:47.512530+00:00"
+generated_at: "2026-10-06T06:06:47.636089+00:00"
 provenance:
   - "a5ffcd0a46dd44fd"
-pushes_per_week: [26, 21, 26, 0, 0, 1, 1, 0, 0, 2, 17, 28, 33]
+pushes_per_week: [20, 28, 19, 0, 0, 1, 1, 0, 0, 6, 16, 33, 34]
 windows:
   "7d":
-    pushes: 41
-    distinct_repos: 12
+    pushes: 42
+    distinct_repos: 10
     active_days: 4
-    repos_not_owned: 10
-    not_owned_basenames: 10
+    repos_not_owned: 8
+    not_owned_basenames: 8
     not_owned_owners: 1
   "30d":
-    pushes: 80
+    pushes: 89
     distinct_repos: 20
-    active_days: 16
+    active_days: 17
     repos_not_owned: 18
     not_owned_basenames: 18
     not_owned_owners: 1
   "90d":
-    pushes: 155
-    distinct_repos: 33
+    pushes: 158
+    distinct_repos: 31
     active_days: 31
-    repos_not_owned: 30
-    not_owned_basenames: 30
-    not_owned_owners: 2
+    repos_not_owned: 28
+    not_owned_basenames: 28
+    not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 5.0000
-  repo_per_active_day: 1.0645
-  not_owned_ratio: 0.9091
-  basename_concentration: 0.0606
+  push_per_day: 5.0968
+  repo_per_active_day: 1.0000
+  not_owned_ratio: 0.9032
+  basename_concentration: 0.0645
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,29 +49,29 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 41
-    distinct_repos: 12
-    pushes_per_repo: 3.4167
+    pushes: 42
+    distinct_repos: 10
+    pushes_per_repo: 4.2000
     active_days: 4
-    repos_not_owned: 10
-    not_owned_basenames: 10
+    repos_not_owned: 8
+    not_owned_basenames: 8
     not_owned_owners: 1
   "30d":
-    pushes: 80
+    pushes: 89
     distinct_repos: 20
-    pushes_per_repo: 4.0000
-    active_days: 16
+    pushes_per_repo: 4.4500
+    active_days: 17
     repos_not_owned: 18
     not_owned_basenames: 18
     not_owned_owners: 1
   "90d":
-    pushes: 155
-    distinct_repos: 33
-    pushes_per_repo: 4.6970
+    pushes: 158
+    distinct_repos: 31
+    pushes_per_repo: 5.0968
     active_days: 31
-    repos_not_owned: 30
-    not_owned_basenames: 30
-    not_owned_owners: 2
+    repos_not_owned: 28
+    not_owned_basenames: 28
+    not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 31 active days in 90d — pass"
@@ -129,6 +129,6 @@ repos:
 
 # QuentinBisson
 
-155 pushes across 33 repositories on 31 active days in the last 90 days of public GitHub push activity.
+158 pushes across 31 repositories on 31 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/QuentinBisson

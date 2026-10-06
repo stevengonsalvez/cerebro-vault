@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-05T06:05:47.512530+00:00"
+generated_at: "2026-10-06T06:06:47.636089+00:00"
 provenance:
   - "c290a2acf859c75b"
-pushes_per_week: [7, 2, 4, 1, 0, 0, 0, 0, 0, 0, 0, 3, 1]
+pushes_per_week: [7, 2, 3, 1, 0, 0, 0, 0, 0, 0, 0, 4, 2]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
-    repos_not_owned: 1
-    not_owned_basenames: 1
+    pushes: 3
+    distinct_repos: 2
+    active_days: 2
+    repos_not_owned: 2
+    not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 4
-    distinct_repos: 1
-    active_days: 4
-    repos_not_owned: 1
-    not_owned_basenames: 1
+    pushes: 6
+    distinct_repos: 2
+    active_days: 5
+    repos_not_owned: 2
+    not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 18
-    distinct_repos: 1
-    active_days: 12
-    repos_not_owned: 1
-    not_owned_basenames: 1
+    pushes: 19
+    distinct_repos: 2
+    active_days: 13
+    repos_not_owned: 2
+    not_owned_basenames: 2
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.5000
-  repo_per_active_day: 0.0833
+  push_per_day: 1.4615
+  repo_per_active_day: 0.1538
   not_owned_ratio: 1.0000
-  basename_concentration: 1.0000
+  basename_concentration: 0.5000
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
-    repos_not_owned: 1
-    not_owned_basenames: 1
+    pushes: 3
+    distinct_repos: 2
+    pushes_per_repo: 1.5000
+    active_days: 2
+    repos_not_owned: 2
+    not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 4
-    distinct_repos: 1
-    pushes_per_repo: 4.0000
-    active_days: 4
-    repos_not_owned: 1
-    not_owned_basenames: 1
+    pushes: 6
+    distinct_repos: 2
+    pushes_per_repo: 3.0000
+    active_days: 5
+    repos_not_owned: 2
+    not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 18
-    distinct_repos: 1
-    pushes_per_repo: 18.0000
-    active_days: 12
-    repos_not_owned: 1
-    not_owned_basenames: 1
+    pushes: 19
+    distinct_repos: 2
+    pushes_per_repo: 9.5000
+    active_days: 13
+    repos_not_owned: 2
+    not_owned_basenames: 2
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 12 active days in 90d — pass"
+  - "activity: 13 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "FirstSight"
@@ -139,6 +139,6 @@ repos:
 
 # safishamsi
 
-18 pushes across 1 repository on 12 active days in the last 90 days of public GitHub push activity.
+19 pushes across 2 repositories on 13 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/safishamsi

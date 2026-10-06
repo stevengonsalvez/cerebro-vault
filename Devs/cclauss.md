@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-05T06:05:47.512530+00:00"
+generated_at: "2026-10-06T06:06:47.636089+00:00"
 provenance:
   - "c1af6b58492f9bf4"
-pushes_per_week: [44, 26, 5, 40, 3, 9, 5, 1, 7, 28, 28, 30, 5]
+pushes_per_week: [30, 18, 11, 35, 2, 11, 3, 0, 15, 24, 34, 21, 4]
 windows:
   "7d":
     pushes: 5
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 10
     not_owned_owners: 49
   "90d":
-    pushes: 231
+    pushes: 208
     distinct_repos: 77
-    active_days: 55
+    active_days: 54
     repos_not_owned: 54
     not_owned_basenames: 13
     not_owned_owners: 53
 automation:
   state: "clear"
-  push_per_day: 4.2000
-  repo_per_active_day: 1.4000
+  push_per_day: 3.8519
+  repo_per_active_day: 1.4259
   not_owned_ratio: 0.7013
   basename_concentration: 0.5584
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 10
     not_owned_owners: 49
   "90d":
-    pushes: 231
+    pushes: 208
     distinct_repos: 77
-    pushes_per_repo: 3.0000
-    active_days: 55
+    pushes_per_repo: 2.7013
+    active_days: 54
     repos_not_owned: 54
     not_owned_basenames: 13
     not_owned_owners: 53
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 55 active days in 90d — pass"
+  - "activity: 54 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "claussoft-dominos"
@@ -135,6 +135,6 @@ repos:
 
 # cclauss
 
-231 pushes across 77 repositories on 55 active days in the last 90 days of public GitHub push activity.
+208 pushes across 77 repositories on 54 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/cclauss

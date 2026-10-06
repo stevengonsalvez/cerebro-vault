@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-05T06:05:47.512530+00:00"
+generated_at: "2026-10-06T06:06:47.636089+00:00"
 provenance:
   - "716cf9e2237ac9db"
 pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 1, 0]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -82,9 +82,45 @@ repos:
     description: "Keeps one clipboard in sync across your Android devices and your Windows PC, with text, images and files all supported"
     language: "Kotlin"
     topics: []
-    stars_fact: 4
+    stars_fact: 6
     first_seen: null
     last_push: "2026-09-28"
+  - name: "maidata-parser"
+    title: "maidata-parser"
+    description: "A fast, strict simai chart parser that converts maidata notation to .ma2 format."
+    language: null
+    topics:
+      - "ma2"
+      - "maimai"
+      - "rhythm-game"
+      - "rhythm-game-chart-parser"
+      - "rhythm-game-editor"
+      - "simai"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-03"
+  - name: "onnxruntime-dml-java"
+    title: "onnxruntime-dml-java"
+    description: "ONNX Runtime for Java with DirectML provider"
+    language: "Java"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-30"
+  - name: "ma2-parser"
+    title: "ma2-parser"
+    description: "An ma2 to simai converter, the reverse companion to maidata-parser."
+    language: null
+    topics:
+      - "ma2"
+      - "maimai"
+      - "rhythm-game"
+      - "rhythm-game-chart-parser"
+      - "rhythm-game-editor"
+      - "simai"
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-07-15"
   - name: "essential-queue"
     title: "essential-queue"
     description: "Batch launcher for Leica Essential on Xiaomi Leitzphone"
@@ -102,34 +138,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-09-28"
-  - name: "ma2-parser"
-    title: "ma2-parser"
-    description: "An ma2 to simai converter, the reverse companion to maidata-parser."
-    language: null
-    topics:
-      - "ma2"
-      - "maimai"
-      - "rhythm-game"
-      - "rhythm-game-chart-parser"
-      - "rhythm-game-editor"
-      - "simai"
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-07-15"
-  - name: "maidata-parser"
-    title: "maidata-parser"
-    description: "A fast, strict simai chart parser that converts maidata notation to .ma2 format."
-    language: null
-    topics:
-      - "ma2"
-      - "maimai"
-      - "rhythm-game"
-      - "rhythm-game-chart-parser"
-      - "rhythm-game-editor"
-      - "simai"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-07-15"
 ---
 
 # lcebot

@@ -11,29 +11,29 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-05T06:05:47.512530+00:00"
+generated_at: "2026-10-06T06:06:47.636089+00:00"
 provenance:
   - "16389f32495280ea"
   - "234088bc43763aa2"
   - "4d1450729e6ff44d"
-pushes_per_week: [27, 29, 24, 14, 19, 66, 10, 3, 4, 7, 7, 8, 6]
+pushes_per_week: [26, 27, 24, 15, 22, 61, 10, 3, 6, 5, 7, 8, 7]
 windows:
   "7d":
     pushes: 7
-    distinct_repos: 3
+    distinct_repos: 4
     active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 32
-    distinct_repos: 11
-    active_days: 15
+    pushes: 33
+    distinct_repos: 12
+    active_days: 16
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 224
+    pushes: 221
     distinct_repos: 53
     active_days: 57
     repos_not_owned: 5
@@ -41,7 +41,7 @@ windows:
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 3.9298
+  push_per_day: 3.8772
   repo_per_active_day: 0.9298
   not_owned_ratio: 0.0943
   basename_concentration: 0.0377
@@ -54,24 +54,24 @@ automation:
 facets:
   "7d":
     pushes: 7
-    distinct_repos: 3
-    pushes_per_repo: 2.3333
+    distinct_repos: 4
+    pushes_per_repo: 1.7500
     active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 32
-    distinct_repos: 11
-    pushes_per_repo: 2.9091
-    active_days: 15
+    pushes: 33
+    distinct_repos: 12
+    pushes_per_repo: 2.7500
+    active_days: 16
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 224
+    pushes: 221
     distinct_repos: 53
-    pushes_per_repo: 4.2264
+    pushes_per_repo: 4.1698
     active_days: 57
     repos_not_owned: 5
     not_owned_basenames: 5
@@ -133,6 +133,6 @@ repos:
 
 # luojiyin1987
 
-224 pushes across 53 repositories on 57 active days in the last 90 days of public GitHub push activity.
+221 pushes across 53 repositories on 57 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/luojiyin1987

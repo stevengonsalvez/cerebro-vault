@@ -9,13 +9,13 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-05T06:05:47.512530+00:00"
+generated_at: "2026-10-06T06:06:47.636089+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [80, 101, 87, 84, 2, 37, 1, 1, 3, 3, 25, 2, 3]
+pushes_per_week: [57, 111, 87, 71, 15, 24, 1, 1, 3, 3, 25, 4, 1]
 windows:
   "7d":
-    pushes: 3
+    pushes: 2
     distinct_repos: 1
     active_days: 2
     repos_not_owned: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 429
+    pushes: 403
     distinct_repos: 14
-    active_days: 46
+    active_days: 45
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 9.3261
-  repo_per_active_day: 0.3043
+  push_per_day: 8.9556
+  repo_per_active_day: 0.3111
   not_owned_ratio: 0.0000
   basename_concentration: 0.1429
   shapes: []
@@ -49,9 +49,9 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 3
+    pushes: 2
     distinct_repos: 1
-    pushes_per_repo: 3.0000
+    pushes_per_repo: 2.0000
     active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 429
+    pushes: 403
     distinct_repos: 14
-    pushes_per_repo: 30.6429
-    active_days: 46
+    pushes_per_repo: 28.7857
+    active_days: 45
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 46 active days in 90d — pass"
+  - "activity: 45 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "archex"
@@ -152,6 +152,6 @@ repos:
 
 # Mathews-Tom
 
-429 pushes across 14 repositories on 46 active days in the last 90 days of public GitHub push activity.
+403 pushes across 14 repositories on 45 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Mathews-Tom

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-05T06:05:47.512530+00:00"
+generated_at: "2026-10-06T06:06:47.636089+00:00"
 provenance:
   - "2a7f0fddd2dac162"
-pushes_per_week: [14, 16, 29, 20, 16, 6, 1, 2, 2, 5, 19, 38, 33]
+pushes_per_week: [17, 12, 27, 20, 18, 4, 1, 2, 2, 5, 21, 38, 34]
 windows:
   "7d":
     pushes: 36
@@ -22,15 +22,15 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 97
+    pushes: 100
     distinct_repos: 4
-    active_days: 19
+    active_days: 20
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
     pushes: 201
-    distinct_repos: 5
+    distinct_repos: 4
     active_days: 46
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -38,9 +38,9 @@ windows:
 automation:
   state: "clear"
   push_per_day: 4.3696
-  repo_per_active_day: 0.1087
+  repo_per_active_day: 0.0870
   not_owned_ratio: 0.0000
-  basename_concentration: 0.2000
+  basename_concentration: 0.2500
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -57,17 +57,17 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 97
+    pushes: 100
     distinct_repos: 4
-    pushes_per_repo: 24.2500
-    active_days: 19
+    pushes_per_repo: 25.0000
+    active_days: 20
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
     pushes: 201
-    distinct_repos: 5
-    pushes_per_repo: 40.2000
+    distinct_repos: 4
+    pushes_per_repo: 50.2500
     active_days: 46
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -80,11 +80,19 @@ repos:
   - name: "herdr-webui"
     title: "herdr-webui"
     description: "Standalone browser WebUI for Herdr sessions, with workspace/worktree navigation, terminal attach, agent status, settings, and macOS install/update support. New* Includes a built-in backend."
-    language: "JavaScript"
+    language: "Rust"
     topics: []
-    stars_fact: 30
+    stars_fact: 34
     first_seen: null
-    last_push: "2026-09-28"
+    last_push: "2026-10-05"
+  - name: "businessbar"
+    title: "businessbar"
+    description: "A unified macOS menu bar application combining three essential functionalities: Next Meeting->Shows upcoming calendar events with countdown, one-click join, and notifications 2.Notification Badges->icon badges for selected apps as menu bar icons. 3->NoSleep, Prevents the computer from sleeping"
+    language: "Swift"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-03"
   - name: "smarthomerust_app"
     title: "smarthomerust_app"
     description: "Android client for SmartHomeRust"
@@ -114,14 +122,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-03-29"
-  - name: "businessbar"
-    title: "businessbar"
-    description: "A unified macOS menu bar application combining three essential functionalities: Next Meeting->Shows upcoming calendar events with countdown, one-click join, and notifications 2.Notification Badges->icon badges for selected apps as menu bar icons. 3->NoSleep, Prevents the computer from sleeping"
-    language: "Swift"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-05-25"
   - name: "mapreduce_minhash_lsh"
     title: "mapreduce_minhash_lsh"
     description: "A simple implementation of minHash LSH in hadoop mapreduce"
@@ -134,6 +134,6 @@ repos:
 
 # alecuba16
 
-201 pushes across 5 repositories on 46 active days in the last 90 days of public GitHub push activity.
+201 pushes across 4 repositories on 46 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/alecuba16

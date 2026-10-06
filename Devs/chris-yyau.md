@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-05T06:05:47.512530+00:00"
+generated_at: "2026-10-06T06:06:47.636089+00:00"
 provenance:
   - "edb3a626875732de"
-pushes_per_week: [35, 52, 54, 16, 22, 20, 9, 6, 2, 1, 6, 9, 5]
+pushes_per_week: [32, 70, 43, 6, 29, 14, 10, 4, 3, 0, 8, 7, 6]
 windows:
   "7d":
-    pushes: 5
+    pushes: 6
     distinct_repos: 3
-    active_days: 3
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 23
+    pushes: 24
     distinct_repos: 3
-    active_days: 12
+    active_days: 13
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 237
+    pushes: 232
     distinct_repos: 6
     active_days: 56
     repos_not_owned: 0
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 4.2321
+  push_per_day: 4.1429
   repo_per_active_day: 0.1071
   not_owned_ratio: 0.0000
   basename_concentration: 0.1667
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 5
+    pushes: 6
     distinct_repos: 3
-    pushes_per_repo: 1.6667
-    active_days: 3
+    pushes_per_repo: 2.0000
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 23
+    pushes: 24
     distinct_repos: 3
-    pushes_per_repo: 7.6667
-    active_days: 12
+    pushes_per_repo: 8.0000
+    active_days: 13
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 237
+    pushes: 232
     distinct_repos: 6
-    pushes_per_repo: 39.5000
+    pushes_per_repo: 38.6667
     active_days: 56
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -127,6 +127,6 @@ repos:
 
 # chris-yyau
 
-237 pushes across 6 repositories on 56 active days in the last 90 days of public GitHub push activity.
+232 pushes across 6 repositories on 56 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/chris-yyau

@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-05T06:05:47.512530+00:00"
+generated_at: "2026-10-06T06:06:47.636089+00:00"
 provenance:
   - "4138778ebbc75ba6"
-pushes_per_week: [0, 2, 0, 0, 0, 1, 0, 0, 1, 2, 8, 23, 6]
+pushes_per_week: [2, 0, 0, 0, 1, 0, 0, 0, 1, 3, 9, 27, 1]
 windows:
   "7d":
-    pushes: 6
-    distinct_repos: 2
-    active_days: 1
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    pushes: 7
+    distinct_repos: 3
+    active_days: 2
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "30d":
-    pushes: 40
-    distinct_repos: 7
-    active_days: 14
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    pushes: 41
+    distinct_repos: 8
+    active_days: 15
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "90d":
-    pushes: 43
-    distinct_repos: 9
-    active_days: 16
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    pushes: 44
+    distinct_repos: 10
+    active_days: 17
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.6875
-  repo_per_active_day: 0.5625
-  not_owned_ratio: 0.0000
-  basename_concentration: 0.1111
+  push_per_day: 2.5882
+  repo_per_active_day: 0.5882
+  not_owned_ratio: 0.1000
+  basename_concentration: 0.1000
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 6
-    distinct_repos: 2
-    pushes_per_repo: 3.0000
-    active_days: 1
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    pushes: 7
+    distinct_repos: 3
+    pushes_per_repo: 2.3333
+    active_days: 2
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "30d":
-    pushes: 40
-    distinct_repos: 7
-    pushes_per_repo: 5.7143
-    active_days: 14
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    pushes: 41
+    distinct_repos: 8
+    pushes_per_repo: 5.1250
+    active_days: 15
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "90d":
-    pushes: 43
-    distinct_repos: 9
-    pushes_per_repo: 4.7778
-    active_days: 16
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    pushes: 44
+    distinct_repos: 10
+    pushes_per_repo: 4.4000
+    active_days: 17
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 16 active days in 90d — pass"
+  - "activity: 17 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "bunderwar"
@@ -129,6 +129,6 @@ repos:
 
 # jaysonsantos
 
-43 pushes across 9 repositories on 16 active days in the last 90 days of public GitHub push activity.
+44 pushes across 10 repositories on 17 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/jaysonsantos

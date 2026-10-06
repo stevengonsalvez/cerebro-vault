@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-05T06:05:47.512530+00:00"
+generated_at: "2026-10-06T06:06:47.636089+00:00"
 provenance:
   - "2a7f0fddd2dac162"
-pushes_per_week: [95, 44, 99, 65, 9, 70, 25, 5, 1, 9, 40, 31, 39]
+pushes_per_week: [109, 36, 89, 62, 8, 83, 12, 6, 2, 7, 45, 30, 37]
 windows:
   "7d":
-    pushes: 41
+    pushes: 39
     distinct_repos: 29
     active_days: 7
     repos_not_owned: 8
     not_owned_basenames: 8
     not_owned_owners: 1
   "30d":
-    pushes: 119
+    pushes: 121
     distinct_repos: 51
-    active_days: 24
+    active_days: 25
     repos_not_owned: 16
     not_owned_basenames: 16
     not_owned_owners: 1
   "90d":
-    pushes: 532
+    pushes: 526
     distinct_repos: 89
     active_days: 68
     repos_not_owned: 24
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 7.8235
+  push_per_day: 7.7353
   repo_per_active_day: 1.3088
   not_owned_ratio: 0.2697
   basename_concentration: 0.0225
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 41
+    pushes: 39
     distinct_repos: 29
-    pushes_per_repo: 1.4138
+    pushes_per_repo: 1.3448
     active_days: 7
     repos_not_owned: 8
     not_owned_basenames: 8
     not_owned_owners: 1
   "30d":
-    pushes: 119
+    pushes: 121
     distinct_repos: 51
-    pushes_per_repo: 2.3333
-    active_days: 24
+    pushes_per_repo: 2.3725
+    active_days: 25
     repos_not_owned: 16
     not_owned_basenames: 16
     not_owned_owners: 1
   "90d":
-    pushes: 532
+    pushes: 526
     distinct_repos: 89
-    pushes_per_repo: 5.9775
+    pushes_per_repo: 5.9101
     active_days: 68
     repos_not_owned: 24
     not_owned_basenames: 24
@@ -84,7 +84,23 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-29"
+    last_push: "2026-10-06"
+  - name: "openrouter-with-deepswe"
+    title: "openrouter-with-deepswe"
+    description: null
+    language: "Go"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-06"
+  - name: "cookiejar-server"
+    title: "cookiejar-server"
+    description: null
+    language: "Go"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-06"
   - name: "mygha"
     title: "mygha"
     description: "自分用GitHub Actions集"
@@ -92,31 +108,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-29"
-  - name: "renovate-rerunner"
-    title: "renovate-rerunner"
-    description: null
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-29"
-  - name: "remotehq-simulator"
-    title: "remotehq-simulator"
-    description: null
-    language: "Go"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-28"
-  - name: "gha-dashboard"
-    title: "gha-dashboard"
-    description: null
-    language: "Rust"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-28"
+    last_push: "2026-10-06"
   - name: "niceimage"
     title: "niceimage"
     description: null
@@ -124,11 +116,19 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-28"
+    last_push: "2026-10-05"
+  - name: "openai-mokku-go"
+    title: "openai-mokku-go"
+    description: null
+    language: "Go"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-05"
 ---
 
 # takumi3488
 
-532 pushes across 89 repositories on 68 active days in the last 90 days of public GitHub push activity.
+526 pushes across 89 repositories on 68 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/takumi3488

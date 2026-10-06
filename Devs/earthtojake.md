@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-05T06:05:47.512530+00:00"
+generated_at: "2026-10-06T06:06:47.636089+00:00"
 provenance:
   - "05a74004d0aa7653"
-pushes_per_week: [9, 0, 0, 5, 9, 38, 2, 1, 0, 2, 12, 15, 27]
+pushes_per_week: [4, 0, 0, 5, 12, 35, 2, 1, 0, 2, 13, 15, 28]
 windows:
   "7d":
-    pushes: 27
+    pushes: 29
     distinct_repos: 1
     active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 56
+    pushes: 58
     distinct_repos: 1
     active_days: 16
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 120
+    pushes: 117
     distinct_repos: 5
-    active_days: 36
+    active_days: 35
     repos_not_owned: 3
     not_owned_basenames: 1
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 3.3333
-  repo_per_active_day: 0.1389
+  push_per_day: 3.3429
+  repo_per_active_day: 0.1429
   not_owned_ratio: 0.6000
   basename_concentration: 0.8000
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 27
+    pushes: 29
     distinct_repos: 1
-    pushes_per_repo: 27.0000
+    pushes_per_repo: 29.0000
     active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 56
+    pushes: 58
     distinct_repos: 1
-    pushes_per_repo: 56.0000
+    pushes_per_repo: 58.0000
     active_days: 16
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 120
+    pushes: 117
     distinct_repos: 5
-    pushes_per_repo: 24.0000
-    active_days: 36
+    pushes_per_repo: 23.4000
+    active_days: 35
     repos_not_owned: 3
     not_owned_basenames: 1
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 36 active days in 90d — pass"
+  - "activity: 35 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "text-to-cad"
@@ -151,6 +151,6 @@ repos:
 
 # earthtojake
 
-120 pushes across 5 repositories on 36 active days in the last 90 days of public GitHub push activity.
+117 pushes across 5 repositories on 35 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/earthtojake

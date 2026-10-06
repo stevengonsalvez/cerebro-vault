@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-05T06:05:47.512530+00:00"
+generated_at: "2026-10-06T06:06:47.636089+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [61, 91, 52, 68, 28, 65, 17, 17, 21, 67, 52, 182, 220]
+pushes_per_week: [65, 74, 57, 57, 36, 59, 12, 18, 34, 57, 68, 190, 198]
 windows:
   "7d":
-    pushes: 254
-    distinct_repos: 15
+    pushes: 219
+    distinct_repos: 14
     active_days: 7
-    repos_not_owned: 11
+    repos_not_owned: 10
     not_owned_basenames: 5
     not_owned_owners: 9
   "30d":
-    pushes: 541
+    pushes: 546
     distinct_repos: 25
     active_days: 30
     repos_not_owned: 18
     not_owned_basenames: 5
     not_owned_owners: 13
   "90d":
-    pushes: 941
+    pushes: 925
     distinct_repos: 57
     active_days: 83
     repos_not_owned: 38
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 30
 automation:
   state: "clear"
-  push_per_day: 11.3373
+  push_per_day: 11.1446
   repo_per_active_day: 0.6867
   not_owned_ratio: 0.6667
   basename_concentration: 0.3158
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 254
-    distinct_repos: 15
-    pushes_per_repo: 16.9333
+    pushes: 219
+    distinct_repos: 14
+    pushes_per_repo: 15.6429
     active_days: 7
-    repos_not_owned: 11
+    repos_not_owned: 10
     not_owned_basenames: 5
     not_owned_owners: 9
   "30d":
-    pushes: 541
+    pushes: 546
     distinct_repos: 25
-    pushes_per_repo: 21.6400
+    pushes_per_repo: 21.8400
     active_days: 30
     repos_not_owned: 18
     not_owned_basenames: 5
     not_owned_owners: 13
   "90d":
-    pushes: 941
+    pushes: 925
     distinct_repos: 57
-    pushes_per_repo: 16.5088
+    pushes_per_repo: 16.2281
     active_days: 83
     repos_not_owned: 38
     not_owned_basenames: 7
@@ -200,6 +200,6 @@ repos:
 
 # code-yeongyu
 
-941 pushes across 57 repositories on 83 active days in the last 90 days of public GitHub push activity.
+925 pushes across 57 repositories on 83 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/code-yeongyu

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-05T06:05:47.512530+00:00"
+generated_at: "2026-10-06T06:06:47.636089+00:00"
 provenance:
   - "a5ffcd0a46dd44fd"
-pushes_per_week: [6, 8, 0, 6, 0, 2, 3, 1, 0, 0, 0, 0, 2]
+pushes_per_week: [5, 8, 3, 3, 0, 3, 2, 1, 0, 0, 0, 0, 2]
 windows:
   "7d":
     pushes: 2
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 28
+    pushes: 27
     distinct_repos: 6
-    active_days: 18
+    active_days: 17
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 1.5556
-  repo_per_active_day: 0.3333
+  push_per_day: 1.5882
+  repo_per_active_day: 0.3529
   not_owned_ratio: 0.5000
   basename_concentration: 0.3333
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 28
+    pushes: 27
     distinct_repos: 6
-    pushes_per_repo: 4.6667
-    active_days: 18
+    pushes_per_repo: 4.5000
+    active_days: 17
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 18 active days in 90d — pass"
+  - "activity: 17 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "go-build-template"
@@ -129,6 +129,6 @@ repos:
 
 # thockin
 
-28 pushes across 6 repositories on 18 active days in the last 90 days of public GitHub push activity.
+27 pushes across 6 repositories on 17 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/thockin

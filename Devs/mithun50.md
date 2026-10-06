@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-05T06:05:47.512530+00:00"
+generated_at: "2026-10-06T06:06:47.636089+00:00"
 provenance:
   - "379642deb53f3714"
-pushes_per_week: [5, 1, 1, 0, 0, 3, 1, 0, 0, 0, 11, 1, 3]
+pushes_per_week: [1, 1, 1, 0, 0, 4, 0, 0, 0, 0, 11, 1, 3]
 windows:
   "7d":
     pushes: 3
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 26
-    distinct_repos: 11
-    active_days: 11
-    repos_not_owned: 5
-    not_owned_basenames: 5
-    not_owned_owners: 4
+    pushes: 22
+    distinct_repos: 9
+    active_days: 10
+    repos_not_owned: 4
+    not_owned_basenames: 4
+    not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 2.3636
-  repo_per_active_day: 1.0000
-  not_owned_ratio: 0.4545
-  basename_concentration: 0.0909
+  push_per_day: 2.2000
+  repo_per_active_day: 0.9000
+  not_owned_ratio: 0.4444
+  basename_concentration: 0.1111
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 26
-    distinct_repos: 11
-    pushes_per_repo: 2.3636
-    active_days: 11
-    repos_not_owned: 5
-    not_owned_basenames: 5
-    not_owned_owners: 4
+    pushes: 22
+    distinct_repos: 9
+    pushes_per_repo: 2.4444
+    active_days: 10
+    repos_not_owned: 4
+    not_owned_basenames: 4
+    not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 11 active days in 90d — pass"
+  - "activity: 10 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "mithun50"
@@ -147,6 +147,6 @@ repos:
 
 # mithun50
 
-26 pushes across 11 repositories on 11 active days in the last 90 days of public GitHub push activity.
+22 pushes across 9 repositories on 10 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/mithun50

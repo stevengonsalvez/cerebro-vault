@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-05T06:05:47.512530+00:00"
+generated_at: "2026-10-06T06:06:47.636089+00:00"
 provenance:
   - "7af184c03e7ab7a7"
-pushes_per_week: [12, 5, 1, 2, 0, 1, 0, 0, 0, 1, 3, 0, 2]
+pushes_per_week: [9, 5, 1, 2, 0, 1, 0, 0, 0, 1, 3, 1, 3]
 windows:
   "7d":
-    pushes: 2
+    pushes: 4
     distinct_repos: 1
-    active_days: 2
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 6
+    pushes: 8
     distinct_repos: 1
-    active_days: 4
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 27
+    pushes: 26
     distinct_repos: 1
     active_days: 17
     repos_not_owned: 0
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.5882
+  push_per_day: 1.5294
   repo_per_active_day: 0.0588
   not_owned_ratio: 0.0000
   basename_concentration: 1.0000
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
+    pushes: 4
     distinct_repos: 1
-    pushes_per_repo: 2.0000
-    active_days: 2
+    pushes_per_repo: 4.0000
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 6
+    pushes: 8
     distinct_repos: 1
-    pushes_per_repo: 6.0000
-    active_days: 4
+    pushes_per_repo: 8.0000
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 27
+    pushes: 26
     distinct_repos: 1
-    pushes_per_repo: 27.0000
+    pushes_per_repo: 26.0000
     active_days: 17
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -143,6 +143,6 @@ repos:
 
 # MadsLorentzen
 
-27 pushes across 1 repository on 17 active days in the last 90 days of public GitHub push activity.
+26 pushes across 1 repository on 17 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/MadsLorentzen

@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-05T06:05:47.512530+00:00"
+generated_at: "2026-10-06T06:06:47.636089+00:00"
 provenance:
   - "3cb7ff1cdcf97c6b"
-pushes_per_week: [0, 1, 3, 0, 2, 4, 0, 0, 0, 1, 5, 4, 3]
+pushes_per_week: [0, 1, 3, 0, 2, 4, 0, 0, 0, 1, 5, 5, 6]
 windows:
   "7d":
-    pushes: 4
-    distinct_repos: 2
+    pushes: 6
+    distinct_repos: 5
     active_days: 4
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "30d":
-    pushes: 13
-    distinct_repos: 7
-    active_days: 11
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 17
+    distinct_repos: 10
+    active_days: 13
+    repos_not_owned: 2
+    not_owned_basenames: 2
+    not_owned_owners: 2
   "90d":
-    pushes: 23
-    distinct_repos: 8
-    active_days: 19
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 27
+    distinct_repos: 11
+    active_days: 21
+    repos_not_owned: 2
+    not_owned_basenames: 2
+    not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 1.2105
-  repo_per_active_day: 0.4211
-  not_owned_ratio: 0.1250
-  basename_concentration: 0.1250
+  push_per_day: 1.2857
+  repo_per_active_day: 0.5238
+  not_owned_ratio: 0.1818
+  basename_concentration: 0.1818
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 4
-    distinct_repos: 2
-    pushes_per_repo: 2.0000
+    pushes: 6
+    distinct_repos: 5
+    pushes_per_repo: 1.2000
     active_days: 4
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "30d":
-    pushes: 13
-    distinct_repos: 7
-    pushes_per_repo: 1.8571
-    active_days: 11
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 17
+    distinct_repos: 10
+    pushes_per_repo: 1.7000
+    active_days: 13
+    repos_not_owned: 2
+    not_owned_basenames: 2
+    not_owned_owners: 2
   "90d":
-    pushes: 23
-    distinct_repos: 8
-    pushes_per_repo: 2.8750
-    active_days: 19
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 27
+    distinct_repos: 11
+    pushes_per_repo: 2.4545
+    active_days: 21
+    repos_not_owned: 2
+    not_owned_basenames: 2
+    not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 19 active days in 90d — pass"
+  - "activity: 21 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "website2markdown"
@@ -175,6 +175,6 @@ repos:
 
 # Digidai
 
-23 pushes across 8 repositories on 19 active days in the last 90 days of public GitHub push activity.
+27 pushes across 11 repositories on 21 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Digidai

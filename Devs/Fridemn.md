@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-05T06:05:47.512530+00:00"
+generated_at: "2026-10-06T06:06:47.636089+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [5, 37, 1, 7, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [8, 32, 1, 7, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 50
+    pushes: 48
     distinct_repos: 3
-    active_days: 13
+    active_days: 12
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 3.8462
-  repo_per_active_day: 0.2308
+  push_per_day: 4.0000
+  repo_per_active_day: 0.2500
   not_owned_ratio: 0.6667
   basename_concentration: 0.3333
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 50
+    pushes: 48
     distinct_repos: 3
-    pushes_per_repo: 16.6667
-    active_days: 13
+    pushes_per_repo: 16.0000
+    active_days: 12
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 13 active days in 90d — pass"
+  - "activity: 12 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "Fridemn"
@@ -129,6 +129,6 @@ repos:
 
 # Fridemn
 
-50 pushes across 3 repositories on 13 active days in the last 90 days of public GitHub push activity.
+48 pushes across 3 repositories on 12 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Fridemn
