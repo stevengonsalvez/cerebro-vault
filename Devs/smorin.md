@@ -9,13 +9,13 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-06T06:06:47.636089+00:00"
+generated_at: "2026-10-07T15:16:07.319356+00:00"
 provenance:
   - "97c4e9cb8b163ddb"
   - "c7515e0fa4368a55"
   - "d3abe74726b22711"
   - "e7c647c4d0689526"
-pushes_per_week: [6, 22, 17, 1, 5, 16, 1, 1, 2, 5, 17, 16, 7]
+pushes_per_week: [5, 23, 16, 1, 7, 14, 1, 1, 2, 6, 17, 15, 7]
 windows:
   "7d":
     pushes: 7
@@ -25,23 +25,23 @@ windows:
     not_owned_basenames: 3
     not_owned_owners: 1
   "30d":
-    pushes: 47
-    distinct_repos: 15
-    active_days: 16
-    repos_not_owned: 13
-    not_owned_basenames: 13
+    pushes: 45
+    distinct_repos: 14
+    active_days: 15
+    repos_not_owned: 12
+    not_owned_basenames: 12
     not_owned_owners: 1
   "90d":
-    pushes: 116
+    pushes: 115
     distinct_repos: 22
-    active_days: 43
+    active_days: 42
     repos_not_owned: 18
     not_owned_basenames: 18
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.6977
-  repo_per_active_day: 0.5116
+  push_per_day: 2.7381
+  repo_per_active_day: 0.5238
   not_owned_ratio: 0.8182
   basename_concentration: 0.0455
   shapes: []
@@ -60,24 +60,24 @@ facets:
     not_owned_basenames: 3
     not_owned_owners: 1
   "30d":
-    pushes: 47
-    distinct_repos: 15
-    pushes_per_repo: 3.1333
-    active_days: 16
-    repos_not_owned: 13
-    not_owned_basenames: 13
+    pushes: 45
+    distinct_repos: 14
+    pushes_per_repo: 3.2143
+    active_days: 15
+    repos_not_owned: 12
+    not_owned_basenames: 12
     not_owned_owners: 1
   "90d":
-    pushes: 116
+    pushes: 115
     distinct_repos: 22
-    pushes_per_repo: 5.2727
-    active_days: 43
+    pushes_per_repo: 5.2273
+    active_days: 42
     repos_not_owned: 18
     not_owned_basenames: 18
     not_owned_owners: 1
 reasons:
   - "provenance: 4 vault signal(s) — pass"
-  - "activity: 43 active days in 90d — pass"
+  - "activity: 42 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "filegardener"
@@ -132,6 +132,6 @@ repos:
 
 # smorin
 
-116 pushes across 22 repositories on 43 active days in the last 90 days of public GitHub push activity.
+115 pushes across 22 repositories on 42 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/smorin

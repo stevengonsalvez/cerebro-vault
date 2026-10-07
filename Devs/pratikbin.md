@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-06T06:06:47.636089+00:00"
+generated_at: "2026-10-07T15:16:07.319356+00:00"
 provenance:
   - "73468cde177ddae6"
-pushes_per_week: [4, 4, 0, 1, 2, 8, 6, 1, 1, 3, 2, 5, 0]
+pushes_per_week: [1, 4, 0, 1, 3, 7, 6, 1, 1, 4, 1, 5, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 11
-    distinct_repos: 9
-    active_days: 8
-    repos_not_owned: 8
-    not_owned_basenames: 7
+    pushes: 10
+    distinct_repos: 8
+    active_days: 7
+    repos_not_owned: 7
+    not_owned_basenames: 6
     not_owned_owners: 2
   "90d":
-    pushes: 37
+    pushes: 34
     distinct_repos: 18
-    active_days: 26
+    active_days: 24
     repos_not_owned: 17
     not_owned_basenames: 16
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 1.4231
-  repo_per_active_day: 0.6923
+  push_per_day: 1.4167
+  repo_per_active_day: 0.7500
   not_owned_ratio: 0.9444
   basename_concentration: 0.1111
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 11
-    distinct_repos: 9
-    pushes_per_repo: 1.2222
-    active_days: 8
-    repos_not_owned: 8
-    not_owned_basenames: 7
+    pushes: 10
+    distinct_repos: 8
+    pushes_per_repo: 1.2500
+    active_days: 7
+    repos_not_owned: 7
+    not_owned_basenames: 6
     not_owned_owners: 2
   "90d":
-    pushes: 37
+    pushes: 34
     distinct_repos: 18
-    pushes_per_repo: 2.0556
-    active_days: 26
+    pushes_per_repo: 1.8889
+    active_days: 24
     repos_not_owned: 17
     not_owned_basenames: 16
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 26 active days in 90d — pass"
+  - "activity: 24 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "opensecretmask"
@@ -169,6 +169,6 @@ repos:
 
 # pratikbin
 
-37 pushes across 18 repositories on 26 active days in the last 90 days of public GitHub push activity.
+34 pushes across 18 repositories on 24 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/pratikbin

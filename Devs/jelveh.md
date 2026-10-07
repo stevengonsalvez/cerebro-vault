@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-06T06:06:47.636089+00:00"
+generated_at: "2026-10-07T15:16:07.319356+00:00"
 provenance:
   - "301e50a5ca3d0c34"
-pushes_per_week: [2, 16, 12, 2, 2, 8, 0, 0, 0, 0, 2, 3, 10]
+pushes_per_week: [1, 19, 9, 2, 4, 6, 0, 0, 0, 0, 2, 4, 9]
 windows:
   "7d":
     pushes: 10
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 57
+    pushes: 56
     distinct_repos: 3
-    active_days: 26
+    active_days: 25
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.1923
-  repo_per_active_day: 0.1154
+  push_per_day: 2.2400
+  repo_per_active_day: 0.1200
   not_owned_ratio: 1.0000
   basename_concentration: 0.3333
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 57
+    pushes: 56
     distinct_repos: 3
-    pushes_per_repo: 19.0000
-    active_days: 26
+    pushes_per_repo: 18.6667
+    active_days: 25
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 26 active days in 90d — pass"
+  - "activity: 25 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "guidelines"
@@ -105,6 +105,6 @@ repos:
 
 # jelveh
 
-57 pushes across 3 repositories on 26 active days in the last 90 days of public GitHub push activity.
+56 pushes across 3 repositories on 25 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/jelveh

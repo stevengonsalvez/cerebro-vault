@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-06T06:06:47.636089+00:00"
+generated_at: "2026-10-07T15:16:07.319356+00:00"
 provenance:
   - "379642deb53f3714"
-pushes_per_week: [27, 4, 1, 0, 6, 6, 1, 1, 1, 1, 0, 2, 5]
+pushes_per_week: [17, 5, 0, 1, 7, 4, 1, 1, 1, 1, 0, 2, 5]
 windows:
   "7d":
     pushes: 5
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 2
   "30d":
-    pushes: 9
-    distinct_repos: 4
-    active_days: 7
+    pushes: 8
+    distinct_repos: 3
+    active_days: 6
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 55
+    pushes: 45
     distinct_repos: 11
-    active_days: 27
+    active_days: 25
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 5
 automation:
   state: "clear"
-  push_per_day: 2.0370
-  repo_per_active_day: 0.4074
+  push_per_day: 1.8000
+  repo_per_active_day: 0.4400
   not_owned_ratio: 0.4545
   basename_concentration: 0.0909
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 2
   "30d":
-    pushes: 9
-    distinct_repos: 4
-    pushes_per_repo: 2.2500
-    active_days: 7
+    pushes: 8
+    distinct_repos: 3
+    pushes_per_repo: 2.6667
+    active_days: 6
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 55
+    pushes: 45
     distinct_repos: 11
-    pushes_per_repo: 5.0000
-    active_days: 27
+    pushes_per_repo: 4.0909
+    active_days: 25
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 5
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 27 active days in 90d — pass"
+  - "activity: 25 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "pwmetrics"
@@ -142,6 +142,6 @@ repos:
 
 # paulirish
 
-55 pushes across 11 repositories on 27 active days in the last 90 days of public GitHub push activity.
+45 pushes across 11 repositories on 25 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/paulirish

@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-06T06:06:47.636089+00:00"
+generated_at: "2026-10-07T15:16:07.319356+00:00"
 provenance:
   - "7216827ad52eded1"
-pushes_per_week: [72, 74, 33, 12, 10, 16, 4, 8, 5, 2, 14, 1, 14]
+pushes_per_week: [94, 49, 33, 15, 9, 13, 8, 4, 5, 2, 14, 2, 15]
 windows:
   "7d":
-    pushes: 15
+    pushes: 16
     distinct_repos: 2
     active_days: 6
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
   "30d":
-    pushes: 35
+    pushes: 37
     distinct_repos: 4
-    active_days: 15
+    active_days: 16
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 2
   "90d":
-    pushes: 265
+    pushes: 263
     distinct_repos: 20
     active_days: 56
     repos_not_owned: 19
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 4
 automation:
   state: "clear"
-  push_per_day: 4.7321
+  push_per_day: 4.6964
   repo_per_active_day: 0.3571
   not_owned_ratio: 0.9500
   basename_concentration: 0.1500
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 15
+    pushes: 16
     distinct_repos: 2
-    pushes_per_repo: 7.5000
+    pushes_per_repo: 8.0000
     active_days: 6
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
   "30d":
-    pushes: 35
+    pushes: 37
     distinct_repos: 4
-    pushes_per_repo: 8.7500
-    active_days: 15
+    pushes_per_repo: 9.2500
+    active_days: 16
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 2
   "90d":
-    pushes: 265
+    pushes: 263
     distinct_repos: 20
-    pushes_per_repo: 13.2500
+    pushes_per_repo: 13.1500
     active_days: 56
     repos_not_owned: 19
     not_owned_basenames: 15
@@ -129,6 +129,6 @@ repos:
 
 # joshuajbouw
 
-265 pushes across 20 repositories on 56 active days in the last 90 days of public GitHub push activity.
+263 pushes across 20 repositories on 56 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/joshuajbouw

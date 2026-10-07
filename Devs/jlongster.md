@@ -9,17 +9,17 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-06T06:06:47.636089+00:00"
+generated_at: "2026-10-07T15:16:07.319356+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [8, 21, 13, 1, 1, 4, 7, 1, 0, 1, 4, 2, 3]
+pushes_per_week: [10, 20, 9, 0, 2, 3, 8, 0, 0, 1, 4, 2, 3]
 windows:
   "7d":
-    pushes: 4
-    distinct_repos: 3
-    active_days: 3
-    repos_not_owned: 2
-    not_owned_basenames: 2
+    pushes: 3
+    distinct_repos: 2
+    active_days: 2
+    repos_not_owned: 1
+    not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
     pushes: 10
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 66
+    pushes: 62
     distinct_repos: 7
-    active_days: 24
+    active_days: 23
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.7500
-  repo_per_active_day: 0.2917
+  push_per_day: 2.6957
+  repo_per_active_day: 0.3043
   not_owned_ratio: 0.5714
   basename_concentration: 0.1429
   shapes: []
@@ -49,12 +49,12 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 4
-    distinct_repos: 3
-    pushes_per_repo: 1.3333
-    active_days: 3
-    repos_not_owned: 2
-    not_owned_basenames: 2
+    pushes: 3
+    distinct_repos: 2
+    pushes_per_repo: 1.5000
+    active_days: 2
+    repos_not_owned: 1
+    not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
     pushes: 10
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 66
+    pushes: 62
     distinct_repos: 7
-    pushes_per_repo: 9.4286
-    active_days: 24
+    pushes_per_repo: 8.8571
+    active_days: 23
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 24 active days in 90d — pass"
+  - "activity: 23 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "absurd-sql"
@@ -129,6 +129,6 @@ repos:
 
 # jlongster
 
-66 pushes across 7 repositories on 24 active days in the last 90 days of public GitHub push activity.
+62 pushes across 7 repositories on 23 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/jlongster

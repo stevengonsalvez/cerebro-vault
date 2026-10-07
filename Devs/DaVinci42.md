@@ -1,30 +1,30 @@
 ---
-login: "bcosta19"
+login: "DaVinci42"
 name: null
 discovered_via: "fanout"
 discovered_via_all:
   - "fanout"
 provenance_repos:
-  - "akitaonrails/ai-memory"
+  - "ayghri/i-have-adhd"
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-06T06:06:47.636089+00:00"
+generated_at: "2026-10-07T15:16:07.319356+00:00"
 provenance:
-  - "4138778ebbc75ba6"
-pushes_per_week: [2, 0, 0, 2, 1, 1, 0, 0, 0, 0, 0, 0, 0]
+  - "46f3c1d6124190bd"
+pushes_per_week: [0, 0, 3, 0, 0, 1, 0, 0, 0, 0, 0, 0, 2]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
+    pushes: 2
+    distinct_repos: 1
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
+    pushes: 2
+    distinct_repos: 1
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -32,14 +32,14 @@ windows:
     pushes: 6
     distinct_repos: 4
     active_days: 5
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
 automation:
   state: "clear"
   push_per_day: 1.2000
   repo_per_active_day: 0.8000
-  not_owned_ratio: 0.2500
+  not_owned_ratio: 0.0000
   basename_concentration: 0.2500
   shapes: []
   shape_evidence: []
@@ -49,18 +49,18 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
+    pushes: 2
+    distinct_repos: 1
+    pushes_per_repo: 2.0000
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
+    pushes: 2
+    distinct_repos: 1
+    pushes_per_repo: 2.0000
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -69,66 +69,66 @@ facets:
     distinct_repos: 4
     pushes_per_repo: 1.5000
     active_days: 5
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "TCC"
-    title: "TCC"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-01"
-  - name: "vim-sudoku"
-    title: "vim-sudoku"
-    description: null
-    language: "QML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-23"
-  - name: "mcp-gestao-tarefas"
-    title: "mcp-gestao-tarefas"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-21"
-  - name: "scripts-pipeline"
-    title: "scripts-pipeline"
-    description: null
-    language: "Shell"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-17"
-  - name: "semaninha"
-    title: "semaninha"
+  - name: "LoonPlugins"
+    title: "LoonPlugins"
     description: null
     language: "JavaScript"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-08-15"
-  - name: "automatizacao-preenchimento-planilha"
-    title: "automatizacao-preenchimento-planilha"
-    description: null
-    language: "Dart"
+    last_push: "2026-09-22"
+  - name: "WinMoi"
+    title: "WinMoi"
+    description: "Reproduce Windows packages with WinGet and configuration with chezmoi."
+    language: "Python"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-08-15"
+    last_push: "2026-09-03"
+  - name: "monkey-scripts"
+    title: "monkey-scripts"
+    description: "Tiny scripts fixing websites that were apparently finished."
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-24"
+  - name: "Highlight"
+    title: "Highlight"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2021-12-14"
+  - name: "algo_rs"
+    title: "algo_rs"
+    description: null
+    language: "Rust"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2024-09-21"
+  - name: "Giskard"
+    title: "Giskard"
+    description: null
+    language: "Objective-C"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2017-04-19"
 ---
 
-# bcosta19
+# DaVinci42
 
 6 pushes across 4 repositories on 5 active days in the last 90 days of public GitHub push activity.
 
-https://github.com/bcosta19
+https://github.com/DaVinci42

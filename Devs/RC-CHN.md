@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-06T06:06:47.636089+00:00"
+generated_at: "2026-10-07T15:16:07.319356+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [9, 1, 5, 3, 7, 8, 2, 0, 3, 0, 7, 14, 0]
+pushes_per_week: [8, 3, 4, 4, 9, 4, 2, 0, 3, 1, 7, 13, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 24
+    pushes: 21
     distinct_repos: 8
-    active_days: 12
+    active_days: 11
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 59
+    pushes: 58
     distinct_repos: 10
-    active_days: 31
+    active_days: 30
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 1.9032
-  repo_per_active_day: 0.3226
+  push_per_day: 1.9333
+  repo_per_active_day: 0.3333
   not_owned_ratio: 0.2000
   basename_concentration: 0.2000
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 24
+    pushes: 21
     distinct_repos: 8
-    pushes_per_repo: 3.0000
-    active_days: 12
+    pushes_per_repo: 2.6250
+    active_days: 11
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 59
+    pushes: 58
     distinct_repos: 10
-    pushes_per_repo: 5.9000
-    active_days: 31
+    pushes_per_repo: 5.8000
+    active_days: 30
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 31 active days in 90d — pass"
+  - "activity: 30 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "wg-quic"
@@ -129,6 +129,6 @@ repos:
 
 # RC-CHN
 
-59 pushes across 10 repositories on 31 active days in the last 90 days of public GitHub push activity.
+58 pushes across 10 repositories on 30 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/RC-CHN

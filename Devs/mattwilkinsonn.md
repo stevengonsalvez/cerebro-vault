@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-06T06:06:47.636089+00:00"
+generated_at: "2026-10-07T15:16:07.319356+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [6, 2, 3, 12, 9, 5, 8, 5, 1, 0, 4, 8, 5]
+pushes_per_week: [5, 1, 6, 11, 9, 4, 8, 4, 1, 0, 4, 8, 5]
 windows:
   "7d":
     pushes: 5
@@ -29,7 +29,7 @@ windows:
     not_owned_basenames: 4
     not_owned_owners: 1
   "90d":
-    pushes: 68
+    pushes: 66
     distinct_repos: 12
     active_days: 35
     repos_not_owned: 8
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 1.9429
+  push_per_day: 1.8857
   repo_per_active_day: 0.3429
   not_owned_ratio: 0.6667
   basename_concentration: 0.2500
@@ -65,9 +65,9 @@ facets:
     not_owned_basenames: 4
     not_owned_owners: 1
   "90d":
-    pushes: 68
+    pushes: 66
     distinct_repos: 12
-    pushes_per_repo: 5.6667
+    pushes_per_repo: 5.5000
     active_days: 35
     repos_not_owned: 8
     not_owned_basenames: 6
@@ -129,6 +129,6 @@ repos:
 
 # mattwilkinsonn
 
-68 pushes across 12 repositories on 35 active days in the last 90 days of public GitHub push activity.
+66 pushes across 12 repositories on 35 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/mattwilkinsonn

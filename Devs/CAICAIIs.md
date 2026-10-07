@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-06T06:06:47.636089+00:00"
+generated_at: "2026-10-07T15:16:07.319356+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [7, 7, 0, 0, 1, 1, 3, 1, 6, 3, 10, 3, 5]
+pushes_per_week: [6, 6, 0, 1, 1, 0, 3, 1, 6, 4, 9, 5, 3]
 windows:
   "7d":
-    pushes: 5
-    distinct_repos: 2
-    active_days: 4
+    pushes: 3
+    distinct_repos: 1
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 26
+    pushes: 23
     distinct_repos: 5
-    active_days: 16
+    active_days: 15
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 47
+    pushes: 45
     distinct_repos: 7
     active_days: 31
     repos_not_owned: 1
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.5161
+  push_per_day: 1.4516
   repo_per_active_day: 0.2258
   not_owned_ratio: 0.1429
   basename_concentration: 0.1429
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 5
-    distinct_repos: 2
-    pushes_per_repo: 2.5000
-    active_days: 4
+    pushes: 3
+    distinct_repos: 1
+    pushes_per_repo: 3.0000
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 26
+    pushes: 23
     distinct_repos: 5
-    pushes_per_repo: 5.2000
-    active_days: 16
+    pushes_per_repo: 4.6000
+    active_days: 15
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 47
+    pushes: 45
     distinct_repos: 7
-    pushes_per_repo: 6.7143
+    pushes_per_repo: 6.4286
     active_days: 31
     repos_not_owned: 1
     not_owned_basenames: 1
@@ -129,6 +129,6 @@ repos:
 
 # CAICAIIs
 
-47 pushes across 7 repositories on 31 active days in the last 90 days of public GitHub push activity.
+45 pushes across 7 repositories on 31 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/CAICAIIs

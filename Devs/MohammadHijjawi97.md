@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-06T06:06:47.636089+00:00"
+generated_at: "2026-10-07T15:16:07.319356+00:00"
 provenance:
   - "dffbb846389f9a26"
-pushes_per_week: [0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 19, 9]
+pushes_per_week: [0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 22, 6]
 windows:
   "7d":
     pushes: 9
@@ -77,6 +77,14 @@ reasons:
   - "activity: 9 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "MohammadHijjawi97"
+    title: "MohammadHijjawi97"
+    description: "Senior AI Engineer. Agentic AI systems, LLM architecture, applied NLP."
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-06"
   - name: "since-cutoff"
     title: "since-cutoff"
     description: "Find which APIs of your pinned Python dependencies changed after your coding model's training cutoff, and give the agent short AGENTS.md / CLAUDE.md notes from a static API diff. No model calls, no API key. CLI, MCP server, Claude Code plugin, GitHub Action."
@@ -102,33 +110,17 @@ repos:
       - "pre-commit-hook"
       - "python"
       - "static-analysis"
-    stars_fact: 4
+    stars_fact: 7
     first_seen: null
-    last_push: "2026-09-29"
-  - name: "since-cutoff-benchmark"
-    title: "since-cutoff-benchmark"
-    description: "Pre-registered head-to-head benchmark of coding-agent context for post-cutoff library changes: Claude Code alone vs Context7 docs vs since-cutoff notes vs both (360 sessions, hidden tests, all transcripts)."
+    last_push: "2026-10-04"
+  - name: "misgrade"
+    title: "misgrade"
+    description: "Conformance tests for the graders ML depends on: find where reward functions, eval answer extractors and verifiers accept wrong answers or reject right ones. No model calls, no API key."
     language: "Python"
-    topics:
-      - "agents-md"
-      - "benchmark"
-      - "claude-code"
-      - "coding-agents"
-      - "context7"
-      - "knowledge-cutoff"
-      - "llm-evaluation"
-      - "pre-registration"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-28"
-  - name: "MohammadHijjawi97"
-    title: "MohammadHijjawi97"
-    description: "Senior AI Engineer. Agentic AI systems, LLM architecture, applied NLP."
-    language: null
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-27"
+    last_push: "2026-10-01"
 ---
 
 # MohammadHijjawi97

@@ -10,7 +10,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-06T06:06:47.636089+00:00"
+generated_at: "2026-10-07T15:16:07.319356+00:00"
 provenance:
   - "01cd6a498d377caf"
   - "03604cccd7e9402d"
@@ -18,6 +18,7 @@ provenance:
   - "0880c239db0357ef"
   - "09d0c8e5c7031ff7"
   - "0b22ca37fd3884c9"
+  - "0c734930a759f57a"
   - "0d10a691ebcb0e61"
   - "0e371a11c328c372"
   - "13d96f6971fff698"
@@ -67,7 +68,7 @@ provenance:
   - "f9a1870648a6375a"
   - "fe9e50bf2d5b21fe"
   - "ff1ca072bf39e471"
-pushes_per_week: [8, 14, 4, 1, 10, 3, 2, 2, 0, 1, 5, 6, 4]
+pushes_per_week: [6, 16, 2, 1, 11, 2, 2, 2, 0, 1, 6, 5, 4]
 windows:
   "7d":
     pushes: 4
@@ -84,16 +85,16 @@ windows:
     not_owned_basenames: 4
     not_owned_owners: 1
   "90d":
-    pushes: 60
+    pushes: 58
     distinct_repos: 5
-    active_days: 34
+    active_days: 33
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.7647
-  repo_per_active_day: 0.1471
+  push_per_day: 1.7576
+  repo_per_active_day: 0.1515
   not_owned_ratio: 1.0000
   basename_concentration: 0.2000
   shapes: []
@@ -120,16 +121,16 @@ facets:
     not_owned_basenames: 4
     not_owned_owners: 1
   "90d":
-    pushes: 60
+    pushes: 58
     distinct_repos: 5
-    pushes_per_repo: 12.0000
-    active_days: 34
+    pushes_per_repo: 11.6000
+    active_days: 33
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 1
 reasons:
-  - "provenance: 55 vault signal(s) — pass"
-  - "activity: 34 active days in 90d — pass"
+  - "provenance: 56 vault signal(s) — pass"
+  - "activity: 33 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "action-test-publish"
@@ -144,6 +145,6 @@ repos:
 
 # ashwin-ant
 
-60 pushes across 5 repositories on 34 active days in the last 90 days of public GitHub push activity.
+58 pushes across 5 repositories on 33 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ashwin-ant

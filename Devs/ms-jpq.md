@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-06T06:06:47.636089+00:00"
+generated_at: "2026-10-07T15:16:07.319356+00:00"
 provenance:
   - "1be978947e68d1f2"
-pushes_per_week: [42, 20, 8, 10, 17, 12, 10, 6, 3, 2, 2, 5, 19]
+pushes_per_week: [35, 20, 8, 10, 19, 11, 11, 4, 3, 2, 2, 5, 19]
 windows:
   "7d":
-    pushes: 21
+    pushes: 19
     distinct_repos: 2
-    active_days: 5
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 31
-    distinct_repos: 5
-    active_days: 11
+    pushes: 29
+    distinct_repos: 4
+    active_days: 10
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 156
-    distinct_repos: 7
-    active_days: 47
+    pushes: 149
+    distinct_repos: 6
+    active_days: 46
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 3.3191
-  repo_per_active_day: 0.1489
+  push_per_day: 3.2391
+  repo_per_active_day: 0.1304
   not_owned_ratio: 0.0000
-  basename_concentration: 0.1429
+  basename_concentration: 0.1667
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 21
+    pushes: 19
     distinct_repos: 2
-    pushes_per_repo: 10.5000
-    active_days: 5
+    pushes_per_repo: 9.5000
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 31
-    distinct_repos: 5
-    pushes_per_repo: 6.2000
-    active_days: 11
+    pushes: 29
+    distinct_repos: 4
+    pushes_per_repo: 7.2500
+    active_days: 10
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 156
-    distinct_repos: 7
-    pushes_per_repo: 22.2857
-    active_days: 47
+    pushes: 149
+    distinct_repos: 6
+    pushes_per_repo: 24.8333
+    active_days: 46
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 47 active days in 90d — pass"
+  - "activity: 46 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "ai"
@@ -153,6 +153,6 @@ repos:
 
 # ms-jpq
 
-156 pushes across 7 repositories on 47 active days in the last 90 days of public GitHub push activity.
+149 pushes across 6 repositories on 46 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ms-jpq

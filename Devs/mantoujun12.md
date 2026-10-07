@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-06T06:06:47.636089+00:00"
+generated_at: "2026-10-07T15:16:07.319356+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [18, 20, 6, 0, 0, 4, 2, 2, 1, 2, 3, 4, 0]
+pushes_per_week: [13, 18, 5, 0, 0, 4, 2, 2, 2, 2, 2, 4, 1]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 10
-    distinct_repos: 5
-    active_days: 8
+    pushes: 11
+    distinct_repos: 6
+    active_days: 9
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 1
   "90d":
-    pushes: 62
+    pushes: 55
     distinct_repos: 11
     active_days: 30
     repos_not_owned: 8
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 2.0667
+  push_per_day: 1.8333
   repo_per_active_day: 0.3667
   not_owned_ratio: 0.7273
   basename_concentration: 0.1818
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
+    pushes: 1
+    distinct_repos: 1
+    pushes_per_repo: 1.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 10
-    distinct_repos: 5
-    pushes_per_repo: 2.0000
-    active_days: 8
+    pushes: 11
+    distinct_repos: 6
+    pushes_per_repo: 1.8333
+    active_days: 9
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 1
   "90d":
-    pushes: 62
+    pushes: 55
     distinct_repos: 11
-    pushes_per_repo: 5.6364
+    pushes_per_repo: 5.0000
     active_days: 30
     repos_not_owned: 8
     not_owned_basenames: 7
@@ -115,6 +115,6 @@ repos:
 
 # mantoujun12
 
-62 pushes across 11 repositories on 30 active days in the last 90 days of public GitHub push activity.
+55 pushes across 11 repositories on 30 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/mantoujun12

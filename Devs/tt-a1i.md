@@ -11,11 +11,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-06T06:06:47.636089+00:00"
+generated_at: "2026-10-07T15:16:07.319356+00:00"
 provenance:
   - "26de699d3e5c651e"
   - "4d1450729e6ff44d"
-pushes_per_week: [4, 11, 12, 9, 2, 5, 14, 5, 6, 7, 17, 12, 24]
+pushes_per_week: [9, 12, 11, 4, 3, 4, 15, 4, 6, 13, 13, 11, 24]
 windows:
   "7d":
     pushes: 24
@@ -25,23 +25,23 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 5
   "30d":
-    pushes: 66
+    pushes: 65
     distinct_repos: 17
     active_days: 21
     repos_not_owned: 14
     not_owned_basenames: 2
     not_owned_owners: 14
   "90d":
-    pushes: 128
+    pushes: 129
     distinct_repos: 30
-    active_days: 45
+    active_days: 46
     repos_not_owned: 17
     not_owned_basenames: 4
     not_owned_owners: 17
 automation:
   state: "clear"
-  push_per_day: 2.8444
-  repo_per_active_day: 0.6667
+  push_per_day: 2.8043
+  repo_per_active_day: 0.6522
   not_owned_ratio: 0.5667
   basename_concentration: 0.3667
   shapes: []
@@ -60,24 +60,24 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 5
   "30d":
-    pushes: 66
+    pushes: 65
     distinct_repos: 17
-    pushes_per_repo: 3.8824
+    pushes_per_repo: 3.8235
     active_days: 21
     repos_not_owned: 14
     not_owned_basenames: 2
     not_owned_owners: 14
   "90d":
-    pushes: 128
+    pushes: 129
     distinct_repos: 30
-    pushes_per_repo: 4.2667
-    active_days: 45
+    pushes_per_repo: 4.3000
+    active_days: 46
     repos_not_owned: 17
     not_owned_basenames: 4
     not_owned_owners: 17
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 45 active days in 90d — pass"
+  - "activity: 46 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "archify"
@@ -184,6 +184,6 @@ repos:
 
 # tt-a1i
 
-128 pushes across 30 repositories on 45 active days in the last 90 days of public GitHub push activity.
+129 pushes across 30 repositories on 46 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/tt-a1i

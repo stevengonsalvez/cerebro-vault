@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-06T06:06:47.636089+00:00"
+generated_at: "2026-10-07T15:16:07.319356+00:00"
 provenance:
   - "3eacb4655aba2497"
-pushes_per_week: [20, 25, 18, 16, 5, 14, 2, 4, 0, 3, 10, 14, 6]
+pushes_per_week: [18, 25, 19, 16, 4, 12, 3, 3, 1, 3, 11, 13, 9]
 windows:
   "7d":
-    pushes: 7
-    distinct_repos: 5
-    active_days: 5
-    repos_not_owned: 4
-    not_owned_basenames: 4
-    not_owned_owners: 4
+    pushes: 9
+    distinct_repos: 6
+    active_days: 4
+    repos_not_owned: 5
+    not_owned_basenames: 5
+    not_owned_owners: 5
   "30d":
-    pushes: 33
-    distinct_repos: 14
-    active_days: 18
-    repos_not_owned: 11
-    not_owned_basenames: 11
-    not_owned_owners: 6
+    pushes: 37
+    distinct_repos: 15
+    active_days: 19
+    repos_not_owned: 12
+    not_owned_basenames: 12
+    not_owned_owners: 7
   "90d":
     pushes: 137
-    distinct_repos: 33
-    active_days: 53
-    repos_not_owned: 26
-    not_owned_basenames: 25
+    distinct_repos: 32
+    active_days: 52
+    repos_not_owned: 25
+    not_owned_basenames: 24
     not_owned_owners: 10
 automation:
   state: "clear"
-  push_per_day: 2.5849
-  repo_per_active_day: 0.6226
-  not_owned_ratio: 0.7879
-  basename_concentration: 0.0606
+  push_per_day: 2.6346
+  repo_per_active_day: 0.6154
+  not_owned_ratio: 0.7812
+  basename_concentration: 0.0625
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 7
-    distinct_repos: 5
-    pushes_per_repo: 1.4000
-    active_days: 5
-    repos_not_owned: 4
-    not_owned_basenames: 4
-    not_owned_owners: 4
+    pushes: 9
+    distinct_repos: 6
+    pushes_per_repo: 1.5000
+    active_days: 4
+    repos_not_owned: 5
+    not_owned_basenames: 5
+    not_owned_owners: 5
   "30d":
-    pushes: 33
-    distinct_repos: 14
-    pushes_per_repo: 2.3571
-    active_days: 18
-    repos_not_owned: 11
-    not_owned_basenames: 11
-    not_owned_owners: 6
+    pushes: 37
+    distinct_repos: 15
+    pushes_per_repo: 2.4667
+    active_days: 19
+    repos_not_owned: 12
+    not_owned_basenames: 12
+    not_owned_owners: 7
   "90d":
     pushes: 137
-    distinct_repos: 33
-    pushes_per_repo: 4.1515
-    active_days: 53
-    repos_not_owned: 26
-    not_owned_basenames: 25
+    distinct_repos: 32
+    pushes_per_repo: 4.2812
+    active_days: 52
+    repos_not_owned: 25
+    not_owned_basenames: 24
     not_owned_owners: 10
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 53 active days in 90d — pass"
+  - "activity: 52 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "make-promises-safe"
@@ -129,6 +129,6 @@ repos:
 
 # mcollina
 
-137 pushes across 33 repositories on 53 active days in the last 90 days of public GitHub push activity.
+137 pushes across 32 repositories on 52 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/mcollina

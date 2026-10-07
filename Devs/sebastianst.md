@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-06T06:06:47.636089+00:00"
+generated_at: "2026-10-07T15:16:07.319356+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [13, 7, 2, 0, 0, 1, 2, 0, 0, 0, 1, 0, 9]
+pushes_per_week: [16, 2, 2, 0, 0, 1, 2, 0, 0, 0, 1, 0, 9]
 windows:
   "7d":
     pushes: 9
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 2
   "90d":
-    pushes: 35
-    distinct_repos: 4
-    active_days: 14
+    pushes: 33
+    distinct_repos: 3
+    active_days: 13
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 2.5000
-  repo_per_active_day: 0.2857
-  not_owned_ratio: 0.5000
-  basename_concentration: 0.5000
+  push_per_day: 2.5385
+  repo_per_active_day: 0.2308
+  not_owned_ratio: 0.6667
+  basename_concentration: 0.6667
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 2
   "90d":
-    pushes: 35
-    distinct_repos: 4
-    pushes_per_repo: 8.7500
-    active_days: 14
+    pushes: 33
+    distinct_repos: 3
+    pushes_per_repo: 11.0000
+    active_days: 13
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 14 active days in 90d — pass"
+  - "activity: 13 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "yabai3"
@@ -135,6 +135,6 @@ repos:
 
 # sebastianst
 
-35 pushes across 4 repositories on 14 active days in the last 90 days of public GitHub push activity.
+33 pushes across 3 repositories on 13 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/sebastianst

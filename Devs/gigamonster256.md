@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-06T06:06:47.636089+00:00"
+generated_at: "2026-10-07T15:16:07.319356+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [24, 7, 0, 2, 1, 1, 2, 0, 0, 0, 1, 3, 3]
+pushes_per_week: [18, 6, 1, 1, 1, 1, 2, 0, 0, 0, 1, 3, 3]
 windows:
   "7d":
     pushes: 3
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 44
-    distinct_repos: 8
-    active_days: 23
-    repos_not_owned: 6
-    not_owned_basenames: 6
+    pushes: 37
+    distinct_repos: 6
+    active_days: 22
+    repos_not_owned: 4
+    not_owned_basenames: 4
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.9130
-  repo_per_active_day: 0.3478
-  not_owned_ratio: 0.7500
-  basename_concentration: 0.1250
+  push_per_day: 1.6818
+  repo_per_active_day: 0.2727
+  not_owned_ratio: 0.6667
+  basename_concentration: 0.1667
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 44
-    distinct_repos: 8
-    pushes_per_repo: 5.5000
-    active_days: 23
-    repos_not_owned: 6
-    not_owned_basenames: 6
+    pushes: 37
+    distinct_repos: 6
+    pushes_per_repo: 6.1667
+    active_days: 22
+    repos_not_owned: 4
+    not_owned_basenames: 4
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 23 active days in 90d — pass"
+  - "activity: 22 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "nix-config"
@@ -129,6 +129,6 @@ repos:
 
 # gigamonster256
 
-44 pushes across 8 repositories on 23 active days in the last 90 days of public GitHub push activity.
+37 pushes across 6 repositories on 22 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/gigamonster256

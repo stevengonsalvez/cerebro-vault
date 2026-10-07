@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-06T06:06:47.636089+00:00"
+generated_at: "2026-10-07T15:16:07.319356+00:00"
 provenance:
   - "c489e6fb5febf2ab"
-pushes_per_week: [3, 4, 9, 6, 6, 17, 2, 0, 0, 1, 6, 9, 10]
+pushes_per_week: [3, 7, 10, 2, 7, 15, 2, 0, 0, 2, 6, 8, 15]
 windows:
   "7d":
-    pushes: 10
-    distinct_repos: 4
+    pushes: 15
+    distinct_repos: 6
     active_days: 4
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 26
-    distinct_repos: 6
+    pushes: 31
+    distinct_repos: 8
     active_days: 12
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 73
-    distinct_repos: 12
-    active_days: 35
+    pushes: 77
+    distinct_repos: 14
+    active_days: 34
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 2.0857
-  repo_per_active_day: 0.3429
-  not_owned_ratio: 0.1667
-  basename_concentration: 0.1667
+  push_per_day: 2.2647
+  repo_per_active_day: 0.4118
+  not_owned_ratio: 0.1429
+  basename_concentration: 0.1429
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 10
-    distinct_repos: 4
+    pushes: 15
+    distinct_repos: 6
     pushes_per_repo: 2.5000
     active_days: 4
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 26
-    distinct_repos: 6
-    pushes_per_repo: 4.3333
+    pushes: 31
+    distinct_repos: 8
+    pushes_per_repo: 3.8750
     active_days: 12
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 73
-    distinct_repos: 12
-    pushes_per_repo: 6.0833
-    active_days: 35
+    pushes: 77
+    distinct_repos: 14
+    pushes_per_repo: 5.5000
+    active_days: 34
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 35 active days in 90d — pass"
+  - "activity: 34 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "conv"
@@ -140,6 +140,6 @@ repos:
 
 # wu21-web
 
-73 pushes across 12 repositories on 35 active days in the last 90 days of public GitHub push activity.
+77 pushes across 14 repositories on 34 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/wu21-web

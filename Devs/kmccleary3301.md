@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-06T06:06:47.636089+00:00"
+generated_at: "2026-10-07T15:16:07.319356+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [23, 80, 16, 17, 4, 17, 7, 9, 0, 1, 2, 12, 1]
+pushes_per_week: [38, 56, 17, 17, 8, 11, 7, 9, 0, 1, 5, 9, 1]
 windows:
   "7d":
     pushes: 1
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 189
+    pushes: 179
     distinct_repos: 5
-    active_days: 43
+    active_days: 42
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 4.3953
-  repo_per_active_day: 0.1163
+  push_per_day: 4.2619
+  repo_per_active_day: 0.1190
   not_owned_ratio: 0.0000
   basename_concentration: 0.2000
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 189
+    pushes: 179
     distinct_repos: 5
-    pushes_per_repo: 37.8000
-    active_days: 43
+    pushes_per_repo: 35.8000
+    active_days: 42
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 43 active days in 90d — pass"
+  - "activity: 42 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "breadboard"
@@ -134,6 +134,6 @@ repos:
 
 # kmccleary3301
 
-189 pushes across 5 repositories on 43 active days in the last 90 days of public GitHub push activity.
+179 pushes across 5 repositories on 42 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/kmccleary3301

@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-06T06:06:47.636089+00:00"
+generated_at: "2026-10-07T15:16:07.319356+00:00"
 provenance:
   - "0b22ca37fd3884c9"
-pushes_per_week: [23, 39, 22, 3, 18, 10, 4, 0, 1, 0, 0, 1, 0]
+pushes_per_week: [28, 36, 17, 4, 17, 10, 4, 0, 1, 0, 0, 1, 1]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 2
+    pushes: 3
     distinct_repos: 1
-    active_days: 2
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 121
+    pushes: 119
     distinct_repos: 10
     active_days: 36
     repos_not_owned: 0
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 3.3611
+  push_per_day: 3.3056
   repo_per_active_day: 0.2778
   not_owned_ratio: 0.0000
   basename_concentration: 0.1000
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
+    pushes: 1
+    distinct_repos: 1
+    pushes_per_repo: 1.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 2
+    pushes: 3
     distinct_repos: 1
-    pushes_per_repo: 2.0000
-    active_days: 2
+    pushes_per_repo: 3.0000
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 121
+    pushes: 119
     distinct_repos: 10
-    pushes_per_repo: 12.1000
+    pushes_per_repo: 11.9000
     active_days: 36
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -157,6 +157,6 @@ repos:
 
 # Juwan-Hwang
 
-121 pushes across 10 repositories on 36 active days in the last 90 days of public GitHub push activity.
+119 pushes across 10 repositories on 36 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Juwan-Hwang

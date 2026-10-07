@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-06T06:06:47.636089+00:00"
+generated_at: "2026-10-07T15:16:07.319356+00:00"
 provenance:
   - "57ecd5833b895331"
-pushes_per_week: [5, 9, 16, 10, 0, 0, 1, 4, 4, 1, 12, 30, 56]
+pushes_per_week: [2, 7, 17, 9, 0, 0, 1, 4, 4, 1, 23, 22, 55]
 windows:
   "7d":
-    pushes: 57
+    pushes: 55
     distinct_repos: 11
-    active_days: 7
+    active_days: 6
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 102
+    pushes: 104
     distinct_repos: 14
     active_days: 20
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 148
+    pushes: 145
     distinct_repos: 16
-    active_days: 39
+    active_days: 37
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 3.7949
-  repo_per_active_day: 0.4103
+  push_per_day: 3.9189
+  repo_per_active_day: 0.4324
   not_owned_ratio: 0.0625
   basename_concentration: 0.1250
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 57
+    pushes: 55
     distinct_repos: 11
-    pushes_per_repo: 5.1818
-    active_days: 7
+    pushes_per_repo: 5.0000
+    active_days: 6
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 102
+    pushes: 104
     distinct_repos: 14
-    pushes_per_repo: 7.2857
+    pushes_per_repo: 7.4286
     active_days: 20
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 148
+    pushes: 145
     distinct_repos: 16
-    pushes_per_repo: 9.2500
-    active_days: 39
+    pushes_per_repo: 9.0625
+    active_days: 37
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 39 active days in 90d — pass"
+  - "activity: 37 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "pstack-claude"
@@ -173,6 +173,6 @@ repos:
 
 # michael-denyer
 
-148 pushes across 16 repositories on 39 active days in the last 90 days of public GitHub push activity.
+145 pushes across 16 repositories on 37 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/michael-denyer

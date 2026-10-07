@@ -9,20 +9,20 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-06T06:06:47.636089+00:00"
+generated_at: "2026-10-07T15:16:07.319356+00:00"
 provenance:
   - "379642deb53f3714"
-pushes_per_week: [49, 72, 5, 5, 7, 10, 0, 0, 0, 1, 8, 41, 98]
+pushes_per_week: [70, 48, 5, 5, 7, 10, 0, 0, 0, 1, 15, 43, 92]
 windows:
   "7d":
-    pushes: 101
+    pushes: 97
     distinct_repos: 7
     active_days: 7
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 148
+    pushes: 151
     distinct_repos: 16
     active_days: 18
     repos_not_owned: 1
@@ -30,17 +30,17 @@ windows:
     not_owned_owners: 1
   "90d":
     pushes: 296
-    distinct_repos: 29
-    active_days: 42
+    distinct_repos: 28
+    active_days: 41
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 7.0476
-  repo_per_active_day: 0.6905
-  not_owned_ratio: 0.0345
-  basename_concentration: 0.0345
+  push_per_day: 7.2195
+  repo_per_active_day: 0.6829
+  not_owned_ratio: 0.0357
+  basename_concentration: 0.0357
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 101
+    pushes: 97
     distinct_repos: 7
-    pushes_per_repo: 14.4286
+    pushes_per_repo: 13.8571
     active_days: 7
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 148
+    pushes: 151
     distinct_repos: 16
-    pushes_per_repo: 9.2500
+    pushes_per_repo: 9.4375
     active_days: 18
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
     pushes: 296
-    distinct_repos: 29
-    pushes_per_repo: 10.2069
-    active_days: 42
+    distinct_repos: 28
+    pushes_per_repo: 10.5714
+    active_days: 41
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 42 active days in 90d — pass"
+  - "activity: 41 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "normalization-confluence"
@@ -207,6 +207,6 @@ repos:
 
 # blackwell-systems
 
-296 pushes across 29 repositories on 42 active days in the last 90 days of public GitHub push activity.
+296 pushes across 28 repositories on 41 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/blackwell-systems

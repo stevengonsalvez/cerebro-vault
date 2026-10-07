@@ -10,12 +10,12 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-06T06:06:47.636089+00:00"
+generated_at: "2026-10-07T15:16:07.319356+00:00"
 provenance:
   - "16389f32495280ea"
   - "50b9cd6dfa9f75d1"
   - "939f60d749009d51"
-pushes_per_week: [11, 9, 11, 13, 7, 8, 0, 0, 0, 1, 2, 0, 4]
+pushes_per_week: [11, 7, 13, 13, 5, 8, 0, 0, 1, 0, 2, 0, 4]
 windows:
   "7d":
     pushes: 4
@@ -32,18 +32,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 66
-    distinct_repos: 14
-    active_days: 29
+    pushes: 64
+    distinct_repos: 13
+    active_days: 27
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.2759
-  repo_per_active_day: 0.4828
+  push_per_day: 2.3704
+  repo_per_active_day: 0.4815
   not_owned_ratio: 0.0000
-  basename_concentration: 0.0714
+  basename_concentration: 0.0769
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -68,16 +68,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 66
-    distinct_repos: 14
-    pushes_per_repo: 4.7143
-    active_days: 29
+    pushes: 64
+    distinct_repos: 13
+    pushes_per_repo: 4.9231
+    active_days: 27
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 3 vault signal(s) — pass"
-  - "activity: 29 active days in 90d — pass"
+  - "activity: 27 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "mcp-fence"
@@ -197,6 +197,6 @@ repos:
 
 # DaoyuanLi2816
 
-66 pushes across 14 repositories on 29 active days in the last 90 days of public GitHub push activity.
+64 pushes across 13 repositories on 27 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/DaoyuanLi2816

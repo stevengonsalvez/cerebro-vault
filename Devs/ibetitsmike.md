@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-06T06:06:47.636089+00:00"
+generated_at: "2026-10-07T15:16:07.319356+00:00"
 provenance:
   - "48dbbdd8fd0d3029"
-pushes_per_week: [28, 115, 62, 46, 34, 66, 6, 11, 4, 13, 50, 21, 20]
+pushes_per_week: [27, 126, 47, 41, 42, 57, 11, 6, 5, 18, 45, 23, 20]
 windows:
   "7d":
-    pushes: 21
+    pushes: 20
     distinct_repos: 2
-    active_days: 6
+    active_days: 5
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 108
+    pushes: 111
     distinct_repos: 4
-    active_days: 26
+    active_days: 27
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 1
   "90d":
-    pushes: 476
+    pushes: 468
     distinct_repos: 5
     active_days: 72
     repos_not_owned: 5
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 6.6111
+  push_per_day: 6.5000
   repo_per_active_day: 0.0694
   not_owned_ratio: 1.0000
   basename_concentration: 0.2000
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 21
+    pushes: 20
     distinct_repos: 2
-    pushes_per_repo: 10.5000
-    active_days: 6
+    pushes_per_repo: 10.0000
+    active_days: 5
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 108
+    pushes: 111
     distinct_repos: 4
-    pushes_per_repo: 27.0000
-    active_days: 26
+    pushes_per_repo: 27.7500
+    active_days: 27
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 1
   "90d":
-    pushes: 476
+    pushes: 468
     distinct_repos: 5
-    pushes_per_repo: 95.2000
+    pushes_per_repo: 93.6000
     active_days: 72
     repos_not_owned: 5
     not_owned_basenames: 5
@@ -89,6 +89,6 @@ repos:
 
 # ibetitsmike
 
-476 pushes across 5 repositories on 72 active days in the last 90 days of public GitHub push activity.
+468 pushes across 5 repositories on 72 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ibetitsmike

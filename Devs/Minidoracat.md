@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-06T06:06:47.636089+00:00"
+generated_at: "2026-10-07T15:16:07.319356+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [1, 6, 1, 2, 8, 3, 0, 0, 4, 1, 2, 20, 28]
+pushes_per_week: [1, 6, 1, 4, 6, 3, 0, 0, 4, 3, 0, 20, 32]
 windows:
   "7d":
-    pushes: 28
-    distinct_repos: 14
+    pushes: 32
+    distinct_repos: 16
     active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 54
-    distinct_repos: 22
-    active_days: 13
+    pushes: 55
+    distinct_repos: 20
+    active_days: 12
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 76
+    pushes: 80
     distinct_repos: 22
     active_days: 28
     repos_not_owned: 0
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.7143
+  push_per_day: 2.8571
   repo_per_active_day: 0.7857
   not_owned_ratio: 0.0000
   basename_concentration: 0.0455
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 28
-    distinct_repos: 14
+    pushes: 32
+    distinct_repos: 16
     pushes_per_repo: 2.0000
     active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 54
-    distinct_repos: 22
-    pushes_per_repo: 2.4545
-    active_days: 13
+    pushes: 55
+    distinct_repos: 20
+    pushes_per_repo: 2.7500
+    active_days: 12
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 76
+    pushes: 80
     distinct_repos: 22
-    pushes_per_repo: 3.4545
+    pushes_per_repo: 3.6364
     active_days: 28
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -129,6 +129,6 @@ repos:
 
 # Minidoracat
 
-76 pushes across 22 repositories on 28 active days in the last 90 days of public GitHub push activity.
+80 pushes across 22 repositories on 28 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Minidoracat

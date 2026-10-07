@@ -10,36 +10,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-06T06:06:47.636089+00:00"
+generated_at: "2026-10-07T15:16:07.319356+00:00"
 provenance:
   - "e5b23adc376a62a9"
-pushes_per_week: [0, 0, 0, 1, 4, 6, 0, 1, 1, 1, 0, 2, 4]
+pushes_per_week: [0, 0, 0, 3, 2, 6, 1, 0, 1, 1, 0, 2, 8]
 windows:
   "7d":
-    pushes: 4
+    pushes: 8
     distinct_repos: 2
-    active_days: 3
+    active_days: 4
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 8
+    pushes: 11
     distinct_repos: 2
     active_days: 6
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 20
+    pushes: 24
     distinct_repos: 2
-    active_days: 12
+    active_days: 13
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.6667
-  repo_per_active_day: 0.1667
+  push_per_day: 1.8462
+  repo_per_active_day: 0.1538
   not_owned_ratio: 0.5000
   basename_concentration: 1.0000
   shapes: []
@@ -50,32 +50,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 4
+    pushes: 8
     distinct_repos: 2
-    pushes_per_repo: 2.0000
-    active_days: 3
+    pushes_per_repo: 4.0000
+    active_days: 4
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 8
+    pushes: 11
     distinct_repos: 2
-    pushes_per_repo: 4.0000
+    pushes_per_repo: 5.5000
     active_days: 6
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 20
+    pushes: 24
     distinct_repos: 2
-    pushes_per_repo: 10.0000
-    active_days: 12
+    pushes_per_repo: 12.0000
+    active_days: 13
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 12 active days in 90d — pass"
+  - "activity: 13 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "munder-difflin"
@@ -151,6 +151,6 @@ repos:
 
 # chaitanyagiri
 
-20 pushes across 2 repositories on 12 active days in the last 90 days of public GitHub push activity.
+24 pushes across 2 repositories on 13 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/chaitanyagiri

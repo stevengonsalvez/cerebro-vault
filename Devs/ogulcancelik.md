@@ -10,11 +10,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-06T06:06:47.636089+00:00"
+generated_at: "2026-10-07T15:16:07.319356+00:00"
 provenance:
   - "576c6507cbdd1cf3"
   - "c87b77df69f1bb71"
-pushes_per_week: [8, 15, 13, 17, 17, 12, 8, 0, 1, 5, 3, 7, 5]
+pushes_per_week: [10, 12, 16, 18, 16, 10, 7, 0, 1, 5, 3, 7, 5]
 windows:
   "7d":
     pushes: 5
@@ -24,23 +24,23 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 21
+    pushes: 20
     distinct_repos: 3
-    active_days: 12
+    active_days: 11
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 111
+    pushes: 110
     distinct_repos: 13
-    active_days: 51
+    active_days: 50
     repos_not_owned: 11
     not_owned_basenames: 2
     not_owned_owners: 10
 automation:
   state: "clear"
-  push_per_day: 2.1765
-  repo_per_active_day: 0.2549
+  push_per_day: 2.2000
+  repo_per_active_day: 0.2600
   not_owned_ratio: 0.8462
   basename_concentration: 0.8462
   shapes:
@@ -75,24 +75,24 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 21
+    pushes: 20
     distinct_repos: 3
-    pushes_per_repo: 7.0000
-    active_days: 12
+    pushes_per_repo: 6.6667
+    active_days: 11
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 111
+    pushes: 110
     distinct_repos: 13
-    pushes_per_repo: 8.5385
-    active_days: 51
+    pushes_per_repo: 8.4615
+    active_days: 50
     repos_not_owned: 11
     not_owned_basenames: 2
     not_owned_owners: 10
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 51 active days in 90d — pass"
+  - "activity: 50 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "herdr-plugin-examples"
@@ -160,6 +160,6 @@ repos:
 
 # ogulcancelik
 
-111 pushes across 13 repositories on 51 active days in the last 90 days of public GitHub push activity.
+110 pushes across 13 repositories on 50 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ogulcancelik

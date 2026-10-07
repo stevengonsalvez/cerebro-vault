@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-06T06:06:47.636089+00:00"
+generated_at: "2026-10-07T15:16:07.319356+00:00"
 provenance:
   - "1f49d0119cedbc84"
-pushes_per_week: [6, 3, 9, 9, 5, 6, 0, 1, 2, 8, 10, 10, 7]
+pushes_per_week: [7, 2, 9, 9, 5, 5, 0, 1, 2, 9, 9, 10, 8]
 windows:
   "7d":
-    pushes: 9
+    pushes: 8
     distinct_repos: 3
-    active_days: 4
+    active_days: 3
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
     pushes: 37
     distinct_repos: 5
-    active_days: 18
+    active_days: 17
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
     pushes: 76
     distinct_repos: 6
-    active_days: 42
+    active_days: 41
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 1.8095
-  repo_per_active_day: 0.1429
+  push_per_day: 1.8537
+  repo_per_active_day: 0.1463
   not_owned_ratio: 0.5000
   basename_concentration: 0.1667
   shapes: []
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 9
+    pushes: 8
     distinct_repos: 3
-    pushes_per_repo: 3.0000
-    active_days: 4
+    pushes_per_repo: 2.6667
+    active_days: 3
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
@@ -60,7 +60,7 @@ facets:
     pushes: 37
     distinct_repos: 5
     pushes_per_repo: 7.4000
-    active_days: 18
+    active_days: 17
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
@@ -68,13 +68,13 @@ facets:
     pushes: 76
     distinct_repos: 6
     pushes_per_repo: 12.6667
-    active_days: 42
+    active_days: 41
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 42 active days in 90d — pass"
+  - "activity: 41 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "salmanmkc"
@@ -121,6 +121,6 @@ repos:
 
 # salmanmkc
 
-76 pushes across 6 repositories on 42 active days in the last 90 days of public GitHub push activity.
+76 pushes across 6 repositories on 41 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/salmanmkc

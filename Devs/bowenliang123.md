@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-06T06:06:47.636089+00:00"
+generated_at: "2026-10-07T15:16:07.319356+00:00"
 provenance:
   - "541318303a272608"
-pushes_per_week: [0, 0, 2, 0, 6, 18, 1, 2, 0, 4, 5, 10, 1]
+pushes_per_week: [0, 0, 2, 0, 13, 11, 2, 1, 1, 5, 4, 9, 2]
 windows:
   "7d":
     pushes: 2
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 20
+    pushes: 21
     distinct_repos: 2
-    active_days: 13
+    active_days: 14
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 49
+    pushes: 50
     distinct_repos: 8
-    active_days: 22
+    active_days: 23
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.2273
-  repo_per_active_day: 0.3636
+  push_per_day: 2.1739
+  repo_per_active_day: 0.3478
   not_owned_ratio: 0.1250
   basename_concentration: 0.2500
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 20
+    pushes: 21
     distinct_repos: 2
-    pushes_per_repo: 10.0000
-    active_days: 13
+    pushes_per_repo: 10.5000
+    active_days: 14
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 49
+    pushes: 50
     distinct_repos: 8
-    pushes_per_repo: 6.1250
-    active_days: 22
+    pushes_per_repo: 6.2500
+    active_days: 23
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 22 active days in 90d — pass"
+  - "activity: 23 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "dsh-context"
@@ -142,6 +142,6 @@ repos:
 
 # bowenliang123
 
-49 pushes across 8 repositories on 22 active days in the last 90 days of public GitHub push activity.
+50 pushes across 8 repositories on 23 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/bowenliang123

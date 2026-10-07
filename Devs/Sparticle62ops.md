@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-06T06:06:47.636089+00:00"
+generated_at: "2026-10-07T15:16:07.319356+00:00"
 provenance:
   - "cf64edd36b9e7709"
 pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 12, 0]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -82,9 +82,17 @@ repos:
     description: "A custom AI architecture being developed in rust"
     language: "Rust"
     topics: []
-    stars_fact: 31
+    stars_fact: 102
     first_seen: "2026-09-30T06:02:10.916657+00:00"
-    last_push: "2026-09-30"
+    last_push: "2026-10-07"
+  - name: "Syl"
+    title: "Syl"
+    description: "Syl is a compiled systems programming language that uses strict, deterministic English syntax. It maps natural language to a proprietary, memory-safe Base-52 bytecode (Helix IR) before compiling to native C. Zero AI at runtime, zero boilerplate, Rust-level speed."
+    language: "Rust"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-10-06"
   - name: "DastemOS"
     title: "DastemOS"
     description: "An operating system written in Rust :)"
@@ -93,14 +101,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-07-30"
-  - name: "Syl"
-    title: "Syl"
-    description: "Syl is a compiled systems programming language that uses strict, deterministic English syntax. It maps natural language to a proprietary, memory-safe Base-52 bytecode (Helix IR) before compiling to native C. Zero AI at runtime, zero boilerplate, Rust-level speed."
-    language: "Rust"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-05-29"
 ---
 
 # Sparticle62ops

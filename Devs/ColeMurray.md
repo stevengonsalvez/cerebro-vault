@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-06T06:06:47.636089+00:00"
+generated_at: "2026-10-07T15:16:07.319356+00:00"
 provenance:
   - "8311cfc3055f8fea"
-pushes_per_week: [41, 58, 12, 30, 12, 19, 6, 1, 7, 8, 23, 20, 19]
+pushes_per_week: [33, 57, 14, 33, 15, 11, 6, 1, 7, 9, 24, 19, 18]
 windows:
   "7d":
     pushes: 19
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 74
+    pushes: 72
     distinct_repos: 2
     active_days: 23
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 256
+    pushes: 247
     distinct_repos: 2
-    active_days: 66
+    active_days: 65
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 3.8788
-  repo_per_active_day: 0.0303
+  push_per_day: 3.8000
+  repo_per_active_day: 0.0308
   not_owned_ratio: 0.5000
   basename_concentration: 1.0000
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 74
+    pushes: 72
     distinct_repos: 2
-    pushes_per_repo: 37.0000
+    pushes_per_repo: 36.0000
     active_days: 23
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 256
+    pushes: 247
     distinct_repos: 2
-    pushes_per_repo: 128.0000
-    active_days: 66
+    pushes_per_repo: 123.5000
+    active_days: 65
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 66 active days in 90d — pass"
+  - "activity: 65 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "background-agents"
@@ -138,6 +138,6 @@ repos:
 
 # ColeMurray
 
-256 pushes across 2 repositories on 66 active days in the last 90 days of public GitHub push activity.
+247 pushes across 2 repositories on 65 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ColeMurray

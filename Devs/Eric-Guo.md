@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-06T06:06:47.636089+00:00"
+generated_at: "2026-10-07T15:16:07.319356+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [32, 55, 35, 27, 20, 21, 5, 5, 10, 12, 30, 36, 30]
+pushes_per_week: [38, 51, 29, 27, 23, 17, 5, 5, 10, 14, 36, 31, 29]
 windows:
   "7d":
-    pushes: 32
-    distinct_repos: 9
-    active_days: 7
+    pushes: 29
+    distinct_repos: 8
+    active_days: 5
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
   "30d":
-    pushes: 118
-    distinct_repos: 22
-    active_days: 27
+    pushes: 111
+    distinct_repos: 19
+    active_days: 25
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 1
   "90d":
-    pushes: 318
+    pushes: 315
     distinct_repos: 26
-    active_days: 75
+    active_days: 73
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 4.2400
-  repo_per_active_day: 0.3467
+  push_per_day: 4.3151
+  repo_per_active_day: 0.3562
   not_owned_ratio: 0.1923
   basename_concentration: 0.0385
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 32
-    distinct_repos: 9
-    pushes_per_repo: 3.5556
-    active_days: 7
+    pushes: 29
+    distinct_repos: 8
+    pushes_per_repo: 3.6250
+    active_days: 5
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
   "30d":
-    pushes: 118
-    distinct_repos: 22
-    pushes_per_repo: 5.3636
-    active_days: 27
+    pushes: 111
+    distinct_repos: 19
+    pushes_per_repo: 5.8421
+    active_days: 25
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 1
   "90d":
-    pushes: 318
+    pushes: 315
     distinct_repos: 26
-    pushes_per_repo: 12.2308
-    active_days: 75
+    pushes_per_repo: 12.1154
+    active_days: 73
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 75 active days in 90d — pass"
+  - "activity: 73 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "opencode-agent-7777"
@@ -135,6 +135,6 @@ repos:
 
 # Eric-Guo
 
-318 pushes across 26 repositories on 75 active days in the last 90 days of public GitHub push activity.
+315 pushes across 26 repositories on 73 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Eric-Guo

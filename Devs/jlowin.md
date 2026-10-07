@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-06T06:06:47.636089+00:00"
+generated_at: "2026-10-07T15:16:07.319356+00:00"
 provenance:
   - "2bd11e9b6557176e"
-pushes_per_week: [4, 70, 42, 1, 1, 0, 0, 1, 0, 0, 0, 0, 21]
+pushes_per_week: [0, 73, 40, 0, 1, 0, 1, 0, 0, 0, 0, 0, 21]
 windows:
   "7d":
     pushes: 21
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 4
   "90d":
-    pushes: 140
+    pushes: 136
     distinct_repos: 9
-    active_days: 19
+    active_days: 17
     repos_not_owned: 9
     not_owned_basenames: 1
     not_owned_owners: 9
 automation:
   state: "clear"
-  push_per_day: 7.3684
-  repo_per_active_day: 0.4737
+  push_per_day: 8.0000
+  repo_per_active_day: 0.5294
   not_owned_ratio: 1.0000
   basename_concentration: 1.0000
   shapes:
@@ -81,16 +81,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 4
   "90d":
-    pushes: 140
+    pushes: 136
     distinct_repos: 9
-    pushes_per_repo: 15.5556
-    active_days: 19
+    pushes_per_repo: 15.1111
+    active_days: 17
     repos_not_owned: 9
     not_owned_basenames: 1
     not_owned_owners: 9
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 19 active days in 90d — pass"
+  - "activity: 17 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "vibecheck"
@@ -158,6 +158,6 @@ repos:
 
 # jlowin
 
-140 pushes across 9 repositories on 19 active days in the last 90 days of public GitHub push activity.
+136 pushes across 9 repositories on 17 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/jlowin

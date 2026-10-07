@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-06T06:06:47.636089+00:00"
+generated_at: "2026-10-07T15:16:07.319356+00:00"
 provenance:
   - "ca6e9330cc1b2a53"
-pushes_per_week: [19, 15, 3, 11, 2, 13, 1, 0, 3, 4, 4, 20, 0]
+pushes_per_week: [26, 5, 4, 9, 6, 8, 1, 0, 3, 6, 6, 16, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 31
+    pushes: 30
     distinct_repos: 2
-    active_days: 11
+    active_days: 10
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
   "90d":
-    pushes: 95
+    pushes: 90
     distinct_repos: 5
-    active_days: 33
+    active_days: 32
     repos_not_owned: 3
     not_owned_basenames: 2
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 2.8788
-  repo_per_active_day: 0.1515
+  push_per_day: 2.8125
+  repo_per_active_day: 0.1562
   not_owned_ratio: 0.6000
   basename_concentration: 0.4000
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 31
+    pushes: 30
     distinct_repos: 2
-    pushes_per_repo: 15.5000
-    active_days: 11
+    pushes_per_repo: 15.0000
+    active_days: 10
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
   "90d":
-    pushes: 95
+    pushes: 90
     distinct_repos: 5
-    pushes_per_repo: 19.0000
-    active_days: 33
+    pushes_per_repo: 18.0000
+    active_days: 32
     repos_not_owned: 3
     not_owned_basenames: 2
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 33 active days in 90d — pass"
+  - "activity: 32 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "worktree-workflow"
@@ -129,6 +129,6 @@ repos:
 
 # forrestchang
 
-95 pushes across 5 repositories on 33 active days in the last 90 days of public GitHub push activity.
+90 pushes across 5 repositories on 32 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/forrestchang

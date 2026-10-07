@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-06T06:06:47.636089+00:00"
+generated_at: "2026-10-07T15:16:07.319356+00:00"
 provenance:
   - "c1af6b58492f9bf4"
-pushes_per_week: [5, 7, 1, 9, 2, 2, 2, 1, 0, 1, 4, 8, 14]
+pushes_per_week: [10, 1, 1, 11, 0, 4, 0, 1, 0, 1, 6, 8, 12]
 windows:
   "7d":
     pushes: 14
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 3
     not_owned_owners: 2
   "90d":
-    pushes: 56
+    pushes: 55
     distinct_repos: 22
-    active_days: 27
+    active_days: 26
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 2.0741
-  repo_per_active_day: 0.8148
+  push_per_day: 2.1154
+  repo_per_active_day: 0.8462
   not_owned_ratio: 0.1364
   basename_concentration: 0.0455
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 3
     not_owned_owners: 2
   "90d":
-    pushes: 56
+    pushes: 55
     distinct_repos: 22
-    pushes_per_repo: 2.5455
-    active_days: 27
+    pushes_per_repo: 2.5000
+    active_days: 26
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 27 active days in 90d — pass"
+  - "activity: 26 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "rsyscall-ng"
@@ -150,6 +150,6 @@ repos:
 
 # carlosplanchon
 
-56 pushes across 22 repositories on 27 active days in the last 90 days of public GitHub push activity.
+55 pushes across 22 repositories on 26 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/carlosplanchon

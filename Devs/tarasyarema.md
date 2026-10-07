@@ -9,17 +9,17 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-06T06:06:47.636089+00:00"
+generated_at: "2026-10-07T15:16:07.319356+00:00"
 provenance:
   - "c1af6b58492f9bf4"
-pushes_per_week: [8, 4, 8, 6, 7, 0, 1, 0, 1, 3, 30, 6, 5]
+pushes_per_week: [3, 3, 9, 8, 4, 0, 1, 0, 1, 3, 31, 7, 3]
 windows:
   "7d":
-    pushes: 6
-    distinct_repos: 2
-    active_days: 5
-    repos_not_owned: 2
-    not_owned_basenames: 2
+    pushes: 3
+    distinct_repos: 1
+    active_days: 3
+    repos_not_owned: 1
+    not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
     pushes: 45
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 3
     not_owned_owners: 3
   "90d":
-    pushes: 79
+    pushes: 73
     distinct_repos: 6
-    active_days: 35
+    active_days: 34
     repos_not_owned: 5
     not_owned_basenames: 4
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 2.2571
-  repo_per_active_day: 0.1714
+  push_per_day: 2.1471
+  repo_per_active_day: 0.1765
   not_owned_ratio: 0.8333
   basename_concentration: 0.3333
   shapes: []
@@ -49,12 +49,12 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 6
-    distinct_repos: 2
+    pushes: 3
+    distinct_repos: 1
     pushes_per_repo: 3.0000
-    active_days: 5
-    repos_not_owned: 2
-    not_owned_basenames: 2
+    active_days: 3
+    repos_not_owned: 1
+    not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
     pushes: 45
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 3
     not_owned_owners: 3
   "90d":
-    pushes: 79
+    pushes: 73
     distinct_repos: 6
-    pushes_per_repo: 13.1667
-    active_days: 35
+    pushes_per_repo: 12.1667
+    active_days: 34
     repos_not_owned: 5
     not_owned_basenames: 4
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 35 active days in 90d — pass"
+  - "activity: 34 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "hackspain"
@@ -136,6 +136,6 @@ repos:
 
 # tarasyarema
 
-79 pushes across 6 repositories on 35 active days in the last 90 days of public GitHub push activity.
+73 pushes across 6 repositories on 34 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/tarasyarema

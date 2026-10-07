@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-06T06:06:47.636089+00:00"
+generated_at: "2026-10-07T15:16:07.319356+00:00"
 provenance:
   - "b321d228efd2bc14"
-pushes_per_week: [1, 0, 0, 0, 11, 38, 1, 6, 2, 2, 6, 36, 181]
+pushes_per_week: [1, 0, 0, 0, 22, 28, 2, 4, 2, 4, 12, 33, 197]
 windows:
   "7d":
-    pushes: 186
-    distinct_repos: 4
+    pushes: 199
+    distinct_repos: 5
     active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 227
-    distinct_repos: 5
-    active_days: 20
+    pushes: 246
+    distinct_repos: 6
+    active_days: 18
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 284
-    distinct_repos: 5
+    pushes: 305
+    distinct_repos: 6
     active_days: 35
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 8.1143
-  repo_per_active_day: 0.1429
+  push_per_day: 8.7143
+  repo_per_active_day: 0.1714
   not_owned_ratio: 0.0000
-  basename_concentration: 0.2000
+  basename_concentration: 0.1667
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 186
-    distinct_repos: 4
-    pushes_per_repo: 46.5000
+    pushes: 199
+    distinct_repos: 5
+    pushes_per_repo: 39.8000
     active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 227
-    distinct_repos: 5
-    pushes_per_repo: 45.4000
-    active_days: 20
+    pushes: 246
+    distinct_repos: 6
+    pushes_per_repo: 41.0000
+    active_days: 18
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 284
-    distinct_repos: 5
-    pushes_per_repo: 56.8000
+    pushes: 305
+    distinct_repos: 6
+    pushes_per_repo: 50.8333
     active_days: 35
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -113,6 +113,6 @@ repos:
 
 # garrytan
 
-284 pushes across 5 repositories on 35 active days in the last 90 days of public GitHub push activity.
+305 pushes across 6 repositories on 35 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/garrytan

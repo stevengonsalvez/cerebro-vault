@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-06T06:06:47.636089+00:00"
+generated_at: "2026-10-07T15:16:07.319356+00:00"
 provenance:
   - "379642deb53f3714"
-pushes_per_week: [39, 35, 11, 14, 6, 5, 0, 2, 0, 6, 27, 22, 15]
+pushes_per_week: [32, 30, 12, 11, 6, 4, 1, 1, 0, 6, 27, 26, 13]
 windows:
   "7d":
-    pushes: 15
+    pushes: 16
     distinct_repos: 1
     active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 70
+    pushes: 72
     distinct_repos: 2
     active_days: 17
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 182
+    pushes: 169
     distinct_repos: 3
-    active_days: 52
+    active_days: 50
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 3.5000
-  repo_per_active_day: 0.0577
+  push_per_day: 3.3800
+  repo_per_active_day: 0.0600
   not_owned_ratio: 0.3333
   basename_concentration: 0.3333
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 15
+    pushes: 16
     distinct_repos: 1
-    pushes_per_repo: 15.0000
+    pushes_per_repo: 16.0000
     active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 70
+    pushes: 72
     distinct_repos: 2
-    pushes_per_repo: 35.0000
+    pushes_per_repo: 36.0000
     active_days: 17
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 182
+    pushes: 169
     distinct_repos: 3
-    pushes_per_repo: 60.6667
-    active_days: 52
+    pushes_per_repo: 56.3333
+    active_days: 50
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 52 active days in 90d — pass"
+  - "activity: 50 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "harnx"
@@ -129,6 +129,6 @@ repos:
 
 # dobesv
 
-182 pushes across 3 repositories on 52 active days in the last 90 days of public GitHub push activity.
+169 pushes across 3 repositories on 50 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/dobesv

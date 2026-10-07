@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-06T06:06:47.636089+00:00"
+generated_at: "2026-10-07T15:16:07.319356+00:00"
 provenance:
   - "a50b0e08dbaee74a"
-pushes_per_week: [21, 10, 15, 4, 10, 11, 5, 1, 1, 4, 6, 0, 0]
+pushes_per_week: [21, 8, 16, 3, 11, 10, 3, 1, 1, 6, 4, 0, 1]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "30d":
-    pushes: 11
+    pushes: 12
     distinct_repos: 4
-    active_days: 8
+    active_days: 9
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 88
+    pushes: 85
     distinct_repos: 8
     active_days: 38
     repos_not_owned: 2
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.3158
+  push_per_day: 2.2368
   repo_per_active_day: 0.2105
   not_owned_ratio: 0.2500
   basename_concentration: 0.1250
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    pushes: 1
+    distinct_repos: 1
+    pushes_per_repo: 1.0000
+    active_days: 1
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "30d":
-    pushes: 11
+    pushes: 12
     distinct_repos: 4
-    pushes_per_repo: 2.7500
-    active_days: 8
+    pushes_per_repo: 3.0000
+    active_days: 9
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 88
+    pushes: 85
     distinct_repos: 8
-    pushes_per_repo: 11.0000
+    pushes_per_repo: 10.6250
     active_days: 38
     repos_not_owned: 2
     not_owned_basenames: 2
@@ -81,6 +81,6 @@ repos: []
 
 # satyakigh
 
-88 pushes across 8 repositories on 38 active days in the last 90 days of public GitHub push activity.
+85 pushes across 8 repositories on 38 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/satyakigh

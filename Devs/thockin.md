@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-06T06:06:47.636089+00:00"
+generated_at: "2026-10-07T15:16:07.319356+00:00"
 provenance:
   - "a5ffcd0a46dd44fd"
-pushes_per_week: [5, 8, 3, 3, 0, 3, 2, 1, 0, 0, 0, 0, 2]
+pushes_per_week: [1, 8, 3, 3, 0, 3, 2, 1, 0, 0, 0, 0, 3]
 windows:
   "7d":
-    pushes: 2
+    pushes: 3
     distinct_repos: 1
-    active_days: 1
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 2
+    pushes: 3
     distinct_repos: 1
-    active_days: 1
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 27
+    pushes: 24
     distinct_repos: 6
     active_days: 17
     repos_not_owned: 3
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 1.5882
+  push_per_day: 1.4118
   repo_per_active_day: 0.3529
   not_owned_ratio: 0.5000
   basename_concentration: 0.3333
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
+    pushes: 3
     distinct_repos: 1
-    pushes_per_repo: 2.0000
-    active_days: 1
+    pushes_per_repo: 3.0000
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 2
+    pushes: 3
     distinct_repos: 1
-    pushes_per_repo: 2.0000
-    active_days: 1
+    pushes_per_repo: 3.0000
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 27
+    pushes: 24
     distinct_repos: 6
-    pushes_per_repo: 4.5000
+    pushes_per_repo: 4.0000
     active_days: 17
     repos_not_owned: 3
     not_owned_basenames: 3
@@ -129,6 +129,6 @@ repos:
 
 # thockin
 
-27 pushes across 6 repositories on 17 active days in the last 90 days of public GitHub push activity.
+24 pushes across 6 repositories on 17 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/thockin

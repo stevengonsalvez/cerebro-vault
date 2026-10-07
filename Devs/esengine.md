@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-06T06:06:47.636089+00:00"
+generated_at: "2026-10-07T15:16:07.319356+00:00"
 provenance:
   - "b5590ec052a4f771"
-pushes_per_week: [42, 32, 31, 15, 50, 39, 7, 3, 6, 8, 30, 137, 86]
+pushes_per_week: [31, 37, 25, 16, 58, 28, 8, 2, 6, 9, 34, 141, 85]
 windows:
   "7d":
-    pushes: 101
-    distinct_repos: 3
+    pushes: 86
+    distinct_repos: 2
     active_days: 7
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 267
+    pushes: 269
     distinct_repos: 4
-    active_days: 25
+    active_days: 23
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 486
+    pushes: 480
     distinct_repos: 5
-    active_days: 71
+    active_days: 69
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 6.8451
-  repo_per_active_day: 0.0704
+  push_per_day: 6.9565
+  repo_per_active_day: 0.0725
   not_owned_ratio: 0.2000
   basename_concentration: 0.4000
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 101
-    distinct_repos: 3
-    pushes_per_repo: 33.6667
+    pushes: 86
+    distinct_repos: 2
+    pushes_per_repo: 43.0000
     active_days: 7
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 267
+    pushes: 269
     distinct_repos: 4
-    pushes_per_repo: 66.7500
-    active_days: 25
+    pushes_per_repo: 67.2500
+    active_days: 23
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 486
+    pushes: 480
     distinct_repos: 5
-    pushes_per_repo: 97.2000
-    active_days: 71
+    pushes_per_repo: 96.0000
+    active_days: 69
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 71 active days in 90d — pass"
+  - "activity: 69 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "DeepSeek-Reasonix"
@@ -181,6 +181,6 @@ repos:
 
 # esengine
 
-486 pushes across 5 repositories on 71 active days in the last 90 days of public GitHub push activity.
+480 pushes across 5 repositories on 69 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/esengine

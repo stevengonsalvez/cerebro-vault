@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-06T06:06:47.636089+00:00"
+generated_at: "2026-10-07T15:16:07.319356+00:00"
 provenance:
   - "3eacb4655aba2497"
-pushes_per_week: [73, 24, 20, 0, 13, 5, 9, 2, 2, 4, 10, 10, 12]
+pushes_per_week: [35, 26, 12, 2, 11, 5, 9, 2, 2, 5, 10, 10, 11]
 windows:
   "7d":
-    pushes: 12
+    pushes: 11
     distinct_repos: 5
-    active_days: 6
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 37
+    pushes: 36
     distinct_repos: 14
-    active_days: 20
+    active_days: 19
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 184
-    distinct_repos: 32
-    active_days: 51
-    repos_not_owned: 10
-    not_owned_basenames: 10
+    pushes: 140
+    distinct_repos: 29
+    active_days: 49
+    repos_not_owned: 7
+    not_owned_basenames: 7
     not_owned_owners: 4
 automation:
   state: "clear"
-  push_per_day: 3.6078
-  repo_per_active_day: 0.6275
-  not_owned_ratio: 0.3125
-  basename_concentration: 0.0625
+  push_per_day: 2.8571
+  repo_per_active_day: 0.5918
+  not_owned_ratio: 0.2414
+  basename_concentration: 0.0690
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 12
+    pushes: 11
     distinct_repos: 5
-    pushes_per_repo: 2.4000
-    active_days: 6
+    pushes_per_repo: 2.2000
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 37
+    pushes: 36
     distinct_repos: 14
-    pushes_per_repo: 2.6429
-    active_days: 20
+    pushes_per_repo: 2.5714
+    active_days: 19
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 184
-    distinct_repos: 32
-    pushes_per_repo: 5.7500
-    active_days: 51
-    repos_not_owned: 10
-    not_owned_basenames: 10
+    pushes: 140
+    distinct_repos: 29
+    pushes_per_repo: 4.8276
+    active_days: 49
+    repos_not_owned: 7
+    not_owned_basenames: 7
     not_owned_owners: 4
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 51 active days in 90d — pass"
+  - "activity: 49 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "civic.ai"
@@ -129,6 +129,6 @@ repos:
 
 # audreyt
 
-184 pushes across 32 repositories on 51 active days in the last 90 days of public GitHub push activity.
+140 pushes across 29 repositories on 49 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/audreyt

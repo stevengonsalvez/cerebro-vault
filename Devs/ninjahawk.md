@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-06T06:06:47.636089+00:00"
+generated_at: "2026-10-07T15:16:07.319356+00:00"
 provenance:
   - "9ee133e6f5024f08"
-pushes_per_week: [3, 53, 17, 2, 0, 0, 0, 0, 0, 0, 8, 1, 3]
+pushes_per_week: [23, 42, 8, 2, 0, 0, 0, 0, 0, 0, 8, 1, 3]
 windows:
   "7d":
     pushes: 3
@@ -82,40 +82,9 @@ repos:
     description: "Benchmark for tracking model capability after release."
     language: "Python"
     topics: []
-    stars_fact: 424
+    stars_fact: 1358
     first_seen: "2026-09-30T06:02:10.916514+00:00"
-    last_push: "2026-09-29"
-  - name: "S-and-Poke-500"
-    title: "S-and-Poke-500"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-09-30"
-  - name: "Subtext"
-    title: "Subtext"
-    description: "To know what models don't say out loud."
-    language: "HTML"
-    topics:
-      - "interpretability"
-      - "llm"
-      - "mechanistic-interpretability"
-      - "pytorch"
-      - "qwen"
-      - "transformers"
-      - "visualization"
-    stars_fact: 245
-    first_seen: null
-    last_push: "2026-07-23"
-  - name: "blog"
-    title: "blog"
-    description: null
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-29"
+    last_push: "2026-10-06"
   - name: "crypto"
     title: "crypto"
     description: null
@@ -123,7 +92,15 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-29"
+    last_push: "2026-10-07"
+  - name: "S-and-Poke-500"
+    title: "S-and-Poke-500"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-10-07"
   - name: "T-Finance"
     title: "T-Finance"
     description: null
@@ -131,7 +108,23 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-28"
+    last_push: "2026-10-05"
+  - name: "mech"
+    title: "mech"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-06"
+  - name: "hollow-agentOS"
+    title: "hollow-agentOS"
+    description: "Hollow is an open-sourced self-modifying agentic system for consumer hardware"
+    language: "Python"
+    topics: []
+    stars_fact: 309
+    first_seen: null
+    last_push: "2026-07-23"
 ---
 
 # ninjahawk

@@ -10,10 +10,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-06T06:06:47.636089+00:00"
+generated_at: "2026-10-07T15:16:07.319356+00:00"
 provenance:
   - "16389f32495280ea"
-pushes_per_week: [20, 16, 13, 4, 5, 3, 0, 0, 0, 2, 2, 1, 0]
+pushes_per_week: [20, 11, 13, 6, 3, 3, 0, 0, 0, 2, 2, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -30,18 +30,18 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 66
-    distinct_repos: 6
-    active_days: 26
-    repos_not_owned: 5
+    pushes: 61
+    distinct_repos: 5
+    active_days: 24
+    repos_not_owned: 4
     not_owned_basenames: 3
-    not_owned_owners: 4
+    not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 2.5385
-  repo_per_active_day: 0.2308
-  not_owned_ratio: 0.8333
-  basename_concentration: 0.3333
+  push_per_day: 2.5417
+  repo_per_active_day: 0.2083
+  not_owned_ratio: 0.8000
+  basename_concentration: 0.4000
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -66,16 +66,16 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 66
-    distinct_repos: 6
-    pushes_per_repo: 11.0000
-    active_days: 26
-    repos_not_owned: 5
+    pushes: 61
+    distinct_repos: 5
+    pushes_per_repo: 12.2000
+    active_days: 24
+    repos_not_owned: 4
     not_owned_basenames: 3
-    not_owned_owners: 4
+    not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 26 active days in 90d — pass"
+  - "activity: 24 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "dayring-mono"
@@ -149,6 +149,6 @@ repos:
 
 # MagicCube
 
-66 pushes across 6 repositories on 26 active days in the last 90 days of public GitHub push activity.
+61 pushes across 5 repositories on 24 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/MagicCube

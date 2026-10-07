@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-06T06:06:47.636089+00:00"
+generated_at: "2026-10-07T15:16:07.319356+00:00"
 provenance:
   - "406a85b388590eb0"
-pushes_per_week: [3, 5, 5, 0, 3, 9, 2, 4, 1, 7, 6, 6, 34]
+pushes_per_week: [3, 5, 5, 0, 3, 9, 6, 0, 1, 7, 8, 5, 34]
 windows:
   "7d":
-    pushes: 34
+    pushes: 35
     distinct_repos: 7
     active_days: 7
     repos_not_owned: 7
     not_owned_basenames: 7
     not_owned_owners: 1
   "30d":
-    pushes: 54
+    pushes: 55
     distinct_repos: 9
     active_days: 21
     repos_not_owned: 9
     not_owned_basenames: 9
     not_owned_owners: 1
   "90d":
-    pushes: 85
+    pushes: 86
     distinct_repos: 25
     active_days: 36
     repos_not_owned: 14
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 2.3611
+  push_per_day: 2.3889
   repo_per_active_day: 0.6944
   not_owned_ratio: 0.5600
   basename_concentration: 0.0800
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 34
+    pushes: 35
     distinct_repos: 7
-    pushes_per_repo: 4.8571
+    pushes_per_repo: 5.0000
     active_days: 7
     repos_not_owned: 7
     not_owned_basenames: 7
     not_owned_owners: 1
   "30d":
-    pushes: 54
+    pushes: 55
     distinct_repos: 9
-    pushes_per_repo: 6.0000
+    pushes_per_repo: 6.1111
     active_days: 21
     repos_not_owned: 9
     not_owned_basenames: 9
     not_owned_owners: 1
   "90d":
-    pushes: 85
+    pushes: 86
     distinct_repos: 25
-    pushes_per_repo: 3.4000
+    pushes_per_repo: 3.4400
     active_days: 36
     repos_not_owned: 14
     not_owned_basenames: 14
@@ -129,6 +129,6 @@ repos:
 
 # johnsonr
 
-85 pushes across 25 repositories on 36 active days in the last 90 days of public GitHub push activity.
+86 pushes across 25 repositories on 36 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/johnsonr

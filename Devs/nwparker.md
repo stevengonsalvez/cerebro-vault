@@ -11,43 +11,43 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-06T06:06:47.636089+00:00"
+generated_at: "2026-10-07T15:16:07.319356+00:00"
 provenance:
   - "0a8884baa5f55aa6"
   - "2a7f0fddd2dac162"
-pushes_per_week: [62, 31, 128, 80, 68, 93, 38, 12, 33, 56, 113, 110, 172]
+pushes_per_week: [59, 41, 122, 75, 82, 80, 39, 10, 36, 60, 114, 106, 175]
 windows:
   "7d":
     pushes: 175
     distinct_repos: 13
-    active_days: 7
+    active_days: 6
     repos_not_owned: 12
     not_owned_basenames: 1
     not_owned_owners: 12
   "30d":
-    pushes: 478
-    distinct_repos: 24
+    pushes: 470
+    distinct_repos: 25
     active_days: 30
-    repos_not_owned: 23
+    repos_not_owned: 24
     not_owned_basenames: 2
-    not_owned_owners: 23
+    not_owned_owners: 24
   "90d":
-    pushes: 996
-    distinct_repos: 37
-    active_days: 85
-    repos_not_owned: 36
+    pushes: 999
+    distinct_repos: 38
+    active_days: 83
+    repos_not_owned: 37
     not_owned_basenames: 3
-    not_owned_owners: 35
+    not_owned_owners: 36
 automation:
   state: "clear"
-  push_per_day: 11.7176
-  repo_per_active_day: 0.4353
-  not_owned_ratio: 0.9730
-  basename_concentration: 0.9459
+  push_per_day: 12.0361
+  repo_per_active_day: 0.4578
+  not_owned_ratio: 0.9737
+  basename_concentration: 0.9474
   shapes:
     - "fork_farm_third_party"
   shape_evidence:
-    - "basename concentration 0.9459 (35 of 37 repos share one basename), 36 not owned across 3 basenames — 5 of 5 sampled repos resolved; 5 fork somebody else's repo; upstreams: stablyai/orca"
+    - "basename concentration 0.9474 (36 of 38 repos share one basename), 37 not owned across 3 basenames — 5 of 5 sampled repos resolved; 5 fork somebody else's repo; upstreams: stablyai/orca"
   cleared_by: "e01-builder"
   cleared_on: "2026-08-26"
   fork_provenance:
@@ -62,7 +62,7 @@ automation:
       - "anajuliabit/orca"
       - "beattlekid/orca"
       - "bioinformatist/orca"
-      - "blaksmatic/orca"
+      - "Chihen-Tai/orca"
     upstreams:
       - "stablyai/orca"
   prefilter: "rest_verified"
@@ -71,29 +71,29 @@ facets:
     pushes: 175
     distinct_repos: 13
     pushes_per_repo: 13.4615
-    active_days: 7
+    active_days: 6
     repos_not_owned: 12
     not_owned_basenames: 1
     not_owned_owners: 12
   "30d":
-    pushes: 478
-    distinct_repos: 24
-    pushes_per_repo: 19.9167
+    pushes: 470
+    distinct_repos: 25
+    pushes_per_repo: 18.8000
     active_days: 30
-    repos_not_owned: 23
+    repos_not_owned: 24
     not_owned_basenames: 2
-    not_owned_owners: 23
+    not_owned_owners: 24
   "90d":
-    pushes: 996
-    distinct_repos: 37
-    pushes_per_repo: 26.9189
-    active_days: 85
-    repos_not_owned: 36
+    pushes: 999
+    distinct_repos: 38
+    pushes_per_repo: 26.2895
+    active_days: 83
+    repos_not_owned: 37
     not_owned_basenames: 3
-    not_owned_owners: 35
+    not_owned_owners: 36
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 85 active days in 90d — pass"
+  - "activity: 83 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "chain-trigger"
@@ -148,6 +148,6 @@ repos:
 
 # nwparker
 
-996 pushes across 37 repositories on 85 active days in the last 90 days of public GitHub push activity.
+999 pushes across 38 repositories on 83 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/nwparker

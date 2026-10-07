@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-06T06:06:47.636089+00:00"
+generated_at: "2026-10-07T15:16:07.319356+00:00"
 provenance:
   - "ddd7486148a91958"
-pushes_per_week: [25, 37, 10, 6, 2, 14, 5, 6, 9, 4, 16, 28, 24]
+pushes_per_week: [34, 25, 12, 2, 4, 12, 8, 3, 11, 6, 16, 27, 22]
 windows:
   "7d":
-    pushes: 31
+    pushes: 22
     distinct_repos: 2
-    active_days: 6
+    active_days: 4
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 80
-    distinct_repos: 4
-    active_days: 19
+    pushes: 75
+    distinct_repos: 3
+    active_days: 17
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
   "90d":
-    pushes: 186
+    pushes: 182
     distinct_repos: 6
-    active_days: 51
+    active_days: 49
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 3.6471
-  repo_per_active_day: 0.1176
+  push_per_day: 3.7143
+  repo_per_active_day: 0.1224
   not_owned_ratio: 0.5000
   basename_concentration: 0.1667
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 31
+    pushes: 22
     distinct_repos: 2
-    pushes_per_repo: 15.5000
-    active_days: 6
+    pushes_per_repo: 11.0000
+    active_days: 4
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 80
-    distinct_repos: 4
-    pushes_per_repo: 20.0000
-    active_days: 19
+    pushes: 75
+    distinct_repos: 3
+    pushes_per_repo: 25.0000
+    active_days: 17
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
   "90d":
-    pushes: 186
+    pushes: 182
     distinct_repos: 6
-    pushes_per_repo: 31.0000
-    active_days: 51
+    pushes_per_repo: 30.3333
+    active_days: 49
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 51 active days in 90d — pass"
+  - "activity: 49 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "anticodeguy-video-editing-studio"
@@ -134,6 +134,6 @@ repos:
 
 # sidorovanthon
 
-186 pushes across 6 repositories on 51 active days in the last 90 days of public GitHub push activity.
+182 pushes across 6 repositories on 49 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/sidorovanthon

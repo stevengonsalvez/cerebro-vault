@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-06T06:06:47.636089+00:00"
+generated_at: "2026-10-07T15:16:07.319356+00:00"
 provenance:
   - "c1af6b58492f9bf4"
-pushes_per_week: [30, 18, 11, 35, 2, 11, 3, 0, 15, 24, 34, 21, 4]
+pushes_per_week: [12, 18, 10, 35, 3, 10, 3, 0, 15, 27, 39, 13, 4]
 windows:
   "7d":
-    pushes: 5
-    distinct_repos: 5
-    active_days: 5
+    pushes: 4
+    distinct_repos: 4
+    active_days: 4
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 3
   "30d":
-    pushes: 98
+    pushes: 92
     distinct_repos: 58
-    active_days: 24
+    active_days: 23
     repos_not_owned: 50
     not_owned_basenames: 10
     not_owned_owners: 49
   "90d":
-    pushes: 208
+    pushes: 189
     distinct_repos: 77
-    active_days: 54
+    active_days: 52
     repos_not_owned: 54
     not_owned_basenames: 13
     not_owned_owners: 53
 automation:
   state: "clear"
-  push_per_day: 3.8519
-  repo_per_active_day: 1.4259
+  push_per_day: 3.6346
+  repo_per_active_day: 1.4808
   not_owned_ratio: 0.7013
   basename_concentration: 0.5584
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 5
-    distinct_repos: 5
+    pushes: 4
+    distinct_repos: 4
     pushes_per_repo: 1.0000
-    active_days: 5
+    active_days: 4
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 3
   "30d":
-    pushes: 98
+    pushes: 92
     distinct_repos: 58
-    pushes_per_repo: 1.6897
-    active_days: 24
+    pushes_per_repo: 1.5862
+    active_days: 23
     repos_not_owned: 50
     not_owned_basenames: 10
     not_owned_owners: 49
   "90d":
-    pushes: 208
+    pushes: 189
     distinct_repos: 77
-    pushes_per_repo: 2.7013
-    active_days: 54
+    pushes_per_repo: 2.4545
+    active_days: 52
     repos_not_owned: 54
     not_owned_basenames: 13
     not_owned_owners: 53
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 54 active days in 90d — pass"
+  - "activity: 52 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "claussoft-dominos"
@@ -135,6 +135,6 @@ repos:
 
 # cclauss
 
-208 pushes across 77 repositories on 54 active days in the last 90 days of public GitHub push activity.
+189 pushes across 77 repositories on 52 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/cclauss

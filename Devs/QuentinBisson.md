@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-06T06:06:47.636089+00:00"
+generated_at: "2026-10-07T15:16:07.319356+00:00"
 provenance:
   - "a5ffcd0a46dd44fd"
-pushes_per_week: [20, 28, 19, 0, 0, 1, 1, 0, 0, 6, 16, 33, 34]
+pushes_per_week: [5, 41, 4, 0, 0, 1, 1, 0, 0, 7, 18, 30, 40]
 windows:
   "7d":
-    pushes: 42
-    distinct_repos: 10
+    pushes: 40
+    distinct_repos: 9
     active_days: 4
     repos_not_owned: 8
     not_owned_basenames: 8
     not_owned_owners: 1
   "30d":
-    pushes: 89
-    distinct_repos: 20
-    active_days: 17
-    repos_not_owned: 18
-    not_owned_basenames: 18
+    pushes: 95
+    distinct_repos: 21
+    active_days: 18
+    repos_not_owned: 19
+    not_owned_basenames: 19
     not_owned_owners: 1
   "90d":
-    pushes: 158
+    pushes: 147
     distinct_repos: 31
     active_days: 31
     repos_not_owned: 28
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 5.0968
+  push_per_day: 4.7419
   repo_per_active_day: 1.0000
   not_owned_ratio: 0.9032
   basename_concentration: 0.0645
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 42
-    distinct_repos: 10
-    pushes_per_repo: 4.2000
+    pushes: 40
+    distinct_repos: 9
+    pushes_per_repo: 4.4444
     active_days: 4
     repos_not_owned: 8
     not_owned_basenames: 8
     not_owned_owners: 1
   "30d":
-    pushes: 89
-    distinct_repos: 20
-    pushes_per_repo: 4.4500
-    active_days: 17
-    repos_not_owned: 18
-    not_owned_basenames: 18
+    pushes: 95
+    distinct_repos: 21
+    pushes_per_repo: 4.5238
+    active_days: 18
+    repos_not_owned: 19
+    not_owned_basenames: 19
     not_owned_owners: 1
   "90d":
-    pushes: 158
+    pushes: 147
     distinct_repos: 31
-    pushes_per_repo: 5.0968
+    pushes_per_repo: 4.7419
     active_days: 31
     repos_not_owned: 28
     not_owned_basenames: 28
@@ -129,6 +129,6 @@ repos:
 
 # QuentinBisson
 
-158 pushes across 31 repositories on 31 active days in the last 90 days of public GitHub push activity.
+147 pushes across 31 repositories on 31 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/QuentinBisson

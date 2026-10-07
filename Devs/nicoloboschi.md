@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-06T06:06:47.636089+00:00"
+generated_at: "2026-10-07T15:16:07.319356+00:00"
 provenance:
   - "ef1d62b18b98cdd0"
-pushes_per_week: [0, 56, 63, 19, 29, 35, 7, 7, 16, 7, 21, 33, 27]
+pushes_per_week: [0, 69, 53, 16, 38, 28, 6, 6, 17, 6, 34, 23, 37]
 windows:
   "7d":
-    pushes: 32
-    distinct_repos: 9
-    active_days: 5
-    repos_not_owned: 7
+    pushes: 37
+    distinct_repos: 8
+    active_days: 4
+    repos_not_owned: 6
     not_owned_basenames: 3
-    not_owned_owners: 5
+    not_owned_owners: 4
   "30d":
-    pushes: 104
-    distinct_repos: 15
-    active_days: 23
-    repos_not_owned: 13
+    pushes: 103
+    distinct_repos: 13
+    active_days: 24
+    repos_not_owned: 11
     not_owned_basenames: 3
-    not_owned_owners: 11
+    not_owned_owners: 9
   "90d":
-    pushes: 320
+    pushes: 333
     distinct_repos: 23
-    active_days: 58
+    active_days: 59
     repos_not_owned: 17
     not_owned_basenames: 5
     not_owned_owners: 13
 automation:
   state: "clear"
-  push_per_day: 5.5172
-  repo_per_active_day: 0.3966
+  push_per_day: 5.6441
+  repo_per_active_day: 0.3898
   not_owned_ratio: 0.7391
   basename_concentration: 0.5652
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 32
-    distinct_repos: 9
-    pushes_per_repo: 3.5556
-    active_days: 5
-    repos_not_owned: 7
+    pushes: 37
+    distinct_repos: 8
+    pushes_per_repo: 4.6250
+    active_days: 4
+    repos_not_owned: 6
     not_owned_basenames: 3
-    not_owned_owners: 5
+    not_owned_owners: 4
   "30d":
-    pushes: 104
-    distinct_repos: 15
-    pushes_per_repo: 6.9333
-    active_days: 23
-    repos_not_owned: 13
+    pushes: 103
+    distinct_repos: 13
+    pushes_per_repo: 7.9231
+    active_days: 24
+    repos_not_owned: 11
     not_owned_basenames: 3
-    not_owned_owners: 11
+    not_owned_owners: 9
   "90d":
-    pushes: 320
+    pushes: 333
     distinct_repos: 23
-    pushes_per_repo: 13.9130
-    active_days: 58
+    pushes_per_repo: 14.4783
+    active_days: 59
     repos_not_owned: 17
     not_owned_basenames: 5
     not_owned_owners: 13
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 58 active days in 90d — pass"
+  - "activity: 59 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "giotto"
@@ -132,6 +132,6 @@ repos:
 
 # nicoloboschi
 
-320 pushes across 23 repositories on 58 active days in the last 90 days of public GitHub push activity.
+333 pushes across 23 repositories on 59 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/nicoloboschi

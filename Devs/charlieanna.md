@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-06T06:06:47.636089+00:00"
+generated_at: "2026-10-07T15:16:07.319356+00:00"
 provenance:
   - "73468cde177ddae6"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 38, 61]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 40, 60]
 windows:
   "7d":
-    pushes: 66
+    pushes: 61
     distinct_repos: 2
     active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 99
+    pushes: 100
     distinct_repos: 3
     active_days: 12
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 99
+    pushes: 100
     distinct_repos: 3
     active_days: 12
     repos_not_owned: 0
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 8.2500
+  push_per_day: 8.3333
   repo_per_active_day: 0.2500
   not_owned_ratio: 0.0000
   basename_concentration: 0.3333
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 66
+    pushes: 61
     distinct_repos: 2
-    pushes_per_repo: 33.0000
+    pushes_per_repo: 30.5000
     active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 99
+    pushes: 100
     distinct_repos: 3
-    pushes_per_repo: 33.0000
+    pushes_per_repo: 33.3333
     active_days: 12
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 99
+    pushes: 100
     distinct_repos: 3
-    pushes_per_repo: 33.0000
+    pushes_per_repo: 33.3333
     active_days: 12
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -84,11 +84,11 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-30"
+    last_push: "2026-10-07"
 ---
 
 # charlieanna
 
-99 pushes across 3 repositories on 12 active days in the last 90 days of public GitHub push activity.
+100 pushes across 3 repositories on 12 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/charlieanna

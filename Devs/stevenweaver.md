@@ -9,41 +9,41 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-06T06:06:47.636089+00:00"
+generated_at: "2026-10-07T15:16:07.319356+00:00"
 provenance:
   - "97c4e9cb8b163ddb"
   - "c7515e0fa4368a55"
   - "d3abe74726b22711"
   - "e7c647c4d0689526"
-pushes_per_week: [3, 10, 0, 1, 4, 8, 0, 0, 0, 8, 7, 0, 1]
+pushes_per_week: [3, 10, 0, 3, 7, 3, 0, 0, 0, 8, 7, 0, 3]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
-    repos_not_owned: 1
-    not_owned_basenames: 1
+    pushes: 3
+    distinct_repos: 2
+    active_days: 2
+    repos_not_owned: 2
+    not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 16
-    distinct_repos: 4
-    active_days: 3
-    repos_not_owned: 4
-    not_owned_basenames: 4
+    pushes: 18
+    distinct_repos: 5
+    active_days: 4
+    repos_not_owned: 5
+    not_owned_basenames: 5
     not_owned_owners: 1
   "90d":
-    pushes: 42
-    distinct_repos: 6
-    active_days: 16
-    repos_not_owned: 6
-    not_owned_basenames: 6
+    pushes: 44
+    distinct_repos: 7
+    active_days: 17
+    repos_not_owned: 7
+    not_owned_basenames: 7
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.6250
-  repo_per_active_day: 0.3750
+  push_per_day: 2.5882
+  repo_per_active_day: 0.4118
   not_owned_ratio: 1.0000
-  basename_concentration: 0.1667
+  basename_concentration: 0.1429
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -52,32 +52,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
-    repos_not_owned: 1
-    not_owned_basenames: 1
+    pushes: 3
+    distinct_repos: 2
+    pushes_per_repo: 1.5000
+    active_days: 2
+    repos_not_owned: 2
+    not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 16
-    distinct_repos: 4
-    pushes_per_repo: 4.0000
-    active_days: 3
-    repos_not_owned: 4
-    not_owned_basenames: 4
+    pushes: 18
+    distinct_repos: 5
+    pushes_per_repo: 3.6000
+    active_days: 4
+    repos_not_owned: 5
+    not_owned_basenames: 5
     not_owned_owners: 1
   "90d":
-    pushes: 42
-    distinct_repos: 6
-    pushes_per_repo: 7.0000
-    active_days: 16
-    repos_not_owned: 6
-    not_owned_basenames: 6
+    pushes: 44
+    distinct_repos: 7
+    pushes_per_repo: 6.2857
+    active_days: 17
+    repos_not_owned: 7
+    not_owned_basenames: 7
     not_owned_owners: 1
 reasons:
   - "provenance: 4 vault signal(s) — pass"
-  - "activity: 16 active days in 90d — pass"
+  - "activity: 17 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "kmer-diversity-sieve"
@@ -142,6 +142,6 @@ repos:
 
 # stevenweaver
 
-42 pushes across 6 repositories on 16 active days in the last 90 days of public GitHub push activity.
+44 pushes across 7 repositories on 17 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/stevenweaver

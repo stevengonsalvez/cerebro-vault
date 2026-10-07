@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-06T06:06:47.636089+00:00"
+generated_at: "2026-10-07T15:16:07.319356+00:00"
 provenance:
   - "05a74004d0aa7653"
-pushes_per_week: [4, 0, 0, 5, 12, 35, 2, 1, 0, 2, 13, 15, 28]
+pushes_per_week: [2, 0, 2, 4, 22, 25, 1, 1, 0, 5, 10, 17, 26]
 windows:
   "7d":
-    pushes: 29
+    pushes: 26
     distinct_repos: 1
-    active_days: 7
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 117
+    pushes: 115
     distinct_repos: 5
-    active_days: 35
+    active_days: 33
     repos_not_owned: 3
     not_owned_basenames: 1
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 3.3429
-  repo_per_active_day: 0.1429
+  push_per_day: 3.4848
+  repo_per_active_day: 0.1515
   not_owned_ratio: 0.6000
   basename_concentration: 0.8000
   shapes: []
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 29
+    pushes: 26
     distinct_repos: 1
-    pushes_per_repo: 29.0000
-    active_days: 7
+    pushes_per_repo: 26.0000
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 117
+    pushes: 115
     distinct_repos: 5
-    pushes_per_repo: 23.4000
-    active_days: 35
+    pushes_per_repo: 23.0000
+    active_days: 33
     repos_not_owned: 3
     not_owned_basenames: 1
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 35 active days in 90d — pass"
+  - "activity: 33 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "text-to-cad"
@@ -151,6 +151,6 @@ repos:
 
 # earthtojake
 
-117 pushes across 5 repositories on 35 active days in the last 90 days of public GitHub push activity.
+115 pushes across 5 repositories on 33 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/earthtojake

@@ -9,13 +9,14 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-06T06:06:47.636089+00:00"
+generated_at: "2026-10-07T15:16:07.319356+00:00"
 provenance:
   - "01cd6a498d377caf"
   - "03604cccd7e9402d"
   - "0754e13e69e8f4d3"
   - "0880c239db0357ef"
   - "09d0c8e5c7031ff7"
+  - "0c734930a759f57a"
   - "0d10a691ebcb0e61"
   - "0e371a11c328c372"
   - "13d96f6971fff698"
@@ -65,12 +66,12 @@ provenance:
   - "f9a1870648a6375a"
   - "fe9e50bf2d5b21fe"
   - "ff1ca072bf39e471"
-pushes_per_week: [12, 9, 5, 3, 0, 2, 6, 1, 0, 3, 0, 7, 3]
+pushes_per_week: [12, 6, 6, 2, 1, 1, 7, 0, 0, 3, 1, 7, 2]
 windows:
   "7d":
-    pushes: 3
+    pushes: 2
     distinct_repos: 1
-    active_days: 2
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -82,16 +83,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 51
+    pushes: 48
     distinct_repos: 2
-    active_days: 30
+    active_days: 29
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.7000
-  repo_per_active_day: 0.0667
+  push_per_day: 1.6552
+  repo_per_active_day: 0.0690
   not_owned_ratio: 0.0000
   basename_concentration: 0.5000
   shapes: []
@@ -102,10 +103,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 3
+    pushes: 2
     distinct_repos: 1
-    pushes_per_repo: 3.0000
-    active_days: 2
+    pushes_per_repo: 2.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -118,16 +119,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 51
+    pushes: 48
     distinct_repos: 2
-    pushes_per_repo: 25.5000
-    active_days: 30
+    pushes_per_repo: 24.0000
+    active_days: 29
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
-  - "provenance: 54 vault signal(s) — pass"
-  - "activity: 30 active days in 90d — pass"
+  - "provenance: 55 vault signal(s) — pass"
+  - "activity: 29 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "pi-bites"
@@ -185,6 +186,6 @@ repos:
 
 # jamestrew
 
-51 pushes across 2 repositories on 30 active days in the last 90 days of public GitHub push activity.
+48 pushes across 2 repositories on 29 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/jamestrew

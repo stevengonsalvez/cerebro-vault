@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-06T06:06:47.636089+00:00"
+generated_at: "2026-10-07T15:16:07.319356+00:00"
 provenance:
   - "48dbbdd8fd0d3029"
-pushes_per_week: [5, 14, 5, 0, 5, 0, 0, 0, 4, 1, 1, 18, 0]
+pushes_per_week: [6, 14, 2, 1, 4, 0, 0, 0, 4, 1, 2, 17, 0]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
-    pushes: 24
-    distinct_repos: 8
-    active_days: 11
-    repos_not_owned: 8
-    not_owned_basenames: 8
+    pushes: 22
+    distinct_repos: 6
+    active_days: 10
+    repos_not_owned: 6
+    not_owned_basenames: 6
     not_owned_owners: 1
   "90d":
-    pushes: 53
-    distinct_repos: 14
-    active_days: 22
-    repos_not_owned: 14
-    not_owned_basenames: 14
+    pushes: 51
+    distinct_repos: 13
+    active_days: 21
+    repos_not_owned: 13
+    not_owned_basenames: 13
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.4091
-  repo_per_active_day: 0.6364
+  push_per_day: 2.4286
+  repo_per_active_day: 0.6190
   not_owned_ratio: 1.0000
-  basename_concentration: 0.0714
+  basename_concentration: 0.0769
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
-    pushes: 24
-    distinct_repos: 8
-    pushes_per_repo: 3.0000
-    active_days: 11
-    repos_not_owned: 8
-    not_owned_basenames: 8
+    pushes: 22
+    distinct_repos: 6
+    pushes_per_repo: 3.6667
+    active_days: 10
+    repos_not_owned: 6
+    not_owned_basenames: 6
     not_owned_owners: 1
   "90d":
-    pushes: 53
-    distinct_repos: 14
-    pushes_per_repo: 3.7857
-    active_days: 22
-    repos_not_owned: 14
-    not_owned_basenames: 14
+    pushes: 51
+    distinct_repos: 13
+    pushes_per_repo: 3.9231
+    active_days: 21
+    repos_not_owned: 13
+    not_owned_basenames: 13
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 22 active days in 90d — pass"
+  - "activity: 21 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "wekaone"
@@ -105,6 +105,6 @@ repos:
 
 # igorcosta
 
-53 pushes across 14 repositories on 22 active days in the last 90 days of public GitHub push activity.
+51 pushes across 13 repositories on 21 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/igorcosta

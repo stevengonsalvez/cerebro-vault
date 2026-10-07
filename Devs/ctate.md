@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-06T06:06:47.636089+00:00"
+generated_at: "2026-10-07T15:16:07.319356+00:00"
 provenance:
   - "0dadaefdea9260e5"
-pushes_per_week: [19, 30, 29, 38, 18, 27, 3, 2, 1, 2, 8, 49, 26]
+pushes_per_week: [20, 29, 36, 30, 24, 20, 3, 2, 1, 4, 14, 43, 25]
 windows:
   "7d":
     pushes: 27
@@ -22,25 +22,25 @@ windows:
     not_owned_basenames: 3
     not_owned_owners: 1
   "30d":
-    pushes: 86
+    pushes: 87
     distinct_repos: 8
-    active_days: 21
+    active_days: 22
     repos_not_owned: 8
     not_owned_basenames: 8
     not_owned_owners: 1
   "90d":
-    pushes: 252
-    distinct_repos: 11
+    pushes: 251
+    distinct_repos: 10
     active_days: 63
-    repos_not_owned: 11
-    not_owned_basenames: 11
+    repos_not_owned: 10
+    not_owned_basenames: 10
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 4.0000
-  repo_per_active_day: 0.1746
+  push_per_day: 3.9841
+  repo_per_active_day: 0.1587
   not_owned_ratio: 1.0000
-  basename_concentration: 0.0909
+  basename_concentration: 0.1000
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -57,20 +57,20 @@ facets:
     not_owned_basenames: 3
     not_owned_owners: 1
   "30d":
-    pushes: 86
+    pushes: 87
     distinct_repos: 8
-    pushes_per_repo: 10.7500
-    active_days: 21
+    pushes_per_repo: 10.8750
+    active_days: 22
     repos_not_owned: 8
     not_owned_basenames: 8
     not_owned_owners: 1
   "90d":
-    pushes: 252
-    distinct_repos: 11
-    pushes_per_repo: 22.9091
+    pushes: 251
+    distinct_repos: 10
+    pushes_per_repo: 25.1000
     active_days: 63
-    repos_not_owned: 11
-    not_owned_basenames: 11
+    repos_not_owned: 10
+    not_owned_basenames: 10
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
@@ -138,6 +138,6 @@ repos:
 
 # ctate
 
-252 pushes across 11 repositories on 63 active days in the last 90 days of public GitHub push activity.
+251 pushes across 10 repositories on 63 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ctate

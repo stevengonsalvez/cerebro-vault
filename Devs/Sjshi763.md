@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-06T06:06:47.636089+00:00"
+generated_at: "2026-10-07T15:16:07.319356+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [8, 0, 3, 1, 3, 2, 2, 0, 0, 0, 0, 0, 1]
+pushes_per_week: [6, 0, 3, 1, 3, 4, 0, 0, 0, 0, 0, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -29,7 +29,7 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 20
+    pushes: 18
     distinct_repos: 6
     active_days: 10
     repos_not_owned: 2
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 2.0000
+  push_per_day: 1.8000
   repo_per_active_day: 0.6000
   not_owned_ratio: 0.3333
   basename_concentration: 0.5000
@@ -65,9 +65,9 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 20
+    pushes: 18
     distinct_repos: 6
-    pushes_per_repo: 3.3333
+    pushes_per_repo: 3.0000
     active_days: 10
     repos_not_owned: 2
     not_owned_basenames: 1
@@ -129,6 +129,6 @@ repos:
 
 # Sjshi763
 
-20 pushes across 6 repositories on 10 active days in the last 90 days of public GitHub push activity.
+18 pushes across 6 repositories on 10 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Sjshi763

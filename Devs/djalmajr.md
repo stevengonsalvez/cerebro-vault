@@ -9,20 +9,20 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-06T06:06:47.636089+00:00"
+generated_at: "2026-10-07T15:16:07.319356+00:00"
 provenance:
   - "4138778ebbc75ba6"
-pushes_per_week: [1, 4, 2, 5, 0, 4, 1, 4, 0, 1, 5, 25, 23]
+pushes_per_week: [1, 4, 1, 5, 0, 4, 3, 2, 1, 0, 5, 26, 23]
 windows:
   "7d":
     pushes: 23
-    distinct_repos: 4
-    active_days: 7
+    distinct_repos: 5
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 54
+    pushes: 55
     distinct_repos: 11
     active_days: 18
     repos_not_owned: 0
@@ -31,14 +31,14 @@ windows:
   "90d":
     pushes: 75
     distinct_repos: 16
-    active_days: 32
+    active_days: 31
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.3438
-  repo_per_active_day: 0.5000
+  push_per_day: 2.4194
+  repo_per_active_day: 0.5161
   not_owned_ratio: 0.0000
   basename_concentration: 0.0625
   shapes: []
@@ -50,16 +50,16 @@ automation:
 facets:
   "7d":
     pushes: 23
-    distinct_repos: 4
-    pushes_per_repo: 5.7500
-    active_days: 7
+    distinct_repos: 5
+    pushes_per_repo: 4.6000
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 54
+    pushes: 55
     distinct_repos: 11
-    pushes_per_repo: 4.9091
+    pushes_per_repo: 5.0000
     active_days: 18
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -68,13 +68,13 @@ facets:
     pushes: 75
     distinct_repos: 16
     pushes_per_repo: 4.6875
-    active_days: 32
+    active_days: 31
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 32 active days in 90d — pass"
+  - "activity: 31 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "herdr-soho"
@@ -137,6 +137,6 @@ repos:
 
 # djalmajr
 
-75 pushes across 16 repositories on 32 active days in the last 90 days of public GitHub push activity.
+75 pushes across 16 repositories on 31 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/djalmajr

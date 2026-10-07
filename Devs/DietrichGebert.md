@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-06T06:06:47.636089+00:00"
+generated_at: "2026-10-07T15:16:07.319356+00:00"
 provenance:
   - "38c3408d933af173"
-pushes_per_week: [8, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 12]
+pushes_per_week: [5, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 12]
 windows:
   "7d":
     pushes: 12
@@ -29,7 +29,7 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 3
   "90d":
-    pushes: 21
+    pushes: 18
     distinct_repos: 6
     active_days: 7
     repos_not_owned: 4
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 4
 automation:
   state: "clear"
-  push_per_day: 3.0000
+  push_per_day: 2.5714
   repo_per_active_day: 0.8571
   not_owned_ratio: 0.6667
   basename_concentration: 0.8333
@@ -65,9 +65,9 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 3
   "90d":
-    pushes: 21
+    pushes: 18
     distinct_repos: 6
-    pushes_per_repo: 3.5000
+    pushes_per_repo: 3.0000
     active_days: 7
     repos_not_owned: 4
     not_owned_basenames: 1
@@ -107,6 +107,6 @@ repos:
 
 # DietrichGebert
 
-21 pushes across 6 repositories on 7 active days in the last 90 days of public GitHub push activity.
+18 pushes across 6 repositories on 7 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/DietrichGebert

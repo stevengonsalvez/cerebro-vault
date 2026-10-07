@@ -11,12 +11,12 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-05T06:05:47.512530+00:00"
+generated_at: "2026-10-07T15:16:07.319356+00:00"
 provenance:
   - "36da1b921f121c1d"
   - "386c24cf5e18fd90"
   - "9c15e014464735eb"
-pushes_per_week: [4, 1, 1, 0, 3, 2, 0, 0, 1, 0, 0, 1, 0]
+pushes_per_week: [2, 1, 1, 0, 3, 2, 0, 0, 1, 0, 0, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -33,7 +33,7 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 13
+    pushes: 11
     distinct_repos: 4
     active_days: 8
     repos_not_owned: 4
@@ -41,7 +41,7 @@ windows:
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 1.6250
+  push_per_day: 1.3750
   repo_per_active_day: 0.5000
   not_owned_ratio: 1.0000
   basename_concentration: 0.2500
@@ -69,9 +69,9 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 13
+    pushes: 11
     distinct_repos: 4
-    pushes_per_repo: 3.2500
+    pushes_per_repo: 2.7500
     active_days: 8
     repos_not_owned: 4
     not_owned_basenames: 4
@@ -133,6 +133,6 @@ repos:
 
 # kentonv
 
-13 pushes across 4 repositories on 8 active days in the last 90 days of public GitHub push activity.
+11 pushes across 4 repositories on 8 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/kentonv

@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-06T06:06:47.636089+00:00"
+generated_at: "2026-10-07T15:16:07.319356+00:00"
 provenance:
   - "4138778ebbc75ba6"
-pushes_per_week: [10, 12, 16, 7, 1, 0, 0, 2, 4, 1, 19, 21, 18]
+pushes_per_week: [13, 12, 17, 3, 1, 0, 2, 0, 4, 3, 22, 18, 17]
 windows:
   "7d":
-    pushes: 19
-    distinct_repos: 4
-    active_days: 7
+    pushes: 17
+    distinct_repos: 5
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
     pushes: 63
-    distinct_repos: 11
-    active_days: 18
+    distinct_repos: 12
+    active_days: 19
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 111
+    pushes: 112
     distinct_repos: 27
-    active_days: 39
+    active_days: 40
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.8462
-  repo_per_active_day: 0.6923
+  push_per_day: 2.8000
+  repo_per_active_day: 0.6750
   not_owned_ratio: 0.0741
   basename_concentration: 0.0741
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 19
-    distinct_repos: 4
-    pushes_per_repo: 4.7500
-    active_days: 7
+    pushes: 17
+    distinct_repos: 5
+    pushes_per_repo: 3.4000
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
     pushes: 63
-    distinct_repos: 11
-    pushes_per_repo: 5.7273
-    active_days: 18
+    distinct_repos: 12
+    pushes_per_repo: 5.2500
+    active_days: 19
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 111
+    pushes: 112
     distinct_repos: 27
-    pushes_per_repo: 4.1111
-    active_days: 39
+    pushes_per_repo: 4.1481
+    active_days: 40
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 39 active days in 90d — pass"
+  - "activity: 40 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "samirhv-site"
@@ -129,6 +129,6 @@ repos:
 
 # samirhvbr
 
-111 pushes across 27 repositories on 39 active days in the last 90 days of public GitHub push activity.
+112 pushes across 27 repositories on 40 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/samirhvbr

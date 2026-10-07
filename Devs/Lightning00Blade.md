@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-06T06:06:47.636089+00:00"
+generated_at: "2026-10-07T15:16:07.319356+00:00"
 provenance:
   - "379642deb53f3714"
-pushes_per_week: [4, 1, 1, 2, 2, 4, 0, 0, 0, 0, 6, 9, 4]
+pushes_per_week: [2, 1, 1, 3, 3, 2, 0, 0, 0, 0, 6, 13, 0]
 windows:
   "7d":
-    pushes: 6
+    pushes: 1
     distinct_repos: 1
-    active_days: 2
+    active_days: 1
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 33
+    pushes: 31
     distinct_repos: 2
-    active_days: 19
+    active_days: 18
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 1.7368
-  repo_per_active_day: 0.1053
+  push_per_day: 1.7222
+  repo_per_active_day: 0.1111
   not_owned_ratio: 1.0000
   basename_concentration: 0.5000
   shapes: []
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 6
+    pushes: 1
     distinct_repos: 1
-    pushes_per_repo: 6.0000
-    active_days: 2
+    pushes_per_repo: 1.0000
+    active_days: 1
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 33
+    pushes: 31
     distinct_repos: 2
-    pushes_per_repo: 16.5000
-    active_days: 19
+    pushes_per_repo: 15.5000
+    active_days: 18
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 19 active days in 90d — pass"
+  - "activity: 18 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "Lightning00Blade"
@@ -123,6 +123,6 @@ repos:
 
 # Lightning00Blade
 
-33 pushes across 2 repositories on 19 active days in the last 90 days of public GitHub push activity.
+31 pushes across 2 repositories on 18 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Lightning00Blade

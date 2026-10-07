@@ -10,16 +10,16 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-06T06:06:47.636089+00:00"
+generated_at: "2026-10-07T15:16:07.319356+00:00"
 provenance:
   - "234088bc43763aa2"
   - "3c90af76cbde0363"
-pushes_per_week: [155, 148, 55, 28, 30, 30, 0, 2, 0, 3, 4, 12, 3]
+pushes_per_week: [167, 117, 54, 24, 32, 24, 0, 2, 0, 3, 6, 11, 2]
 windows:
   "7d":
-    pushes: 3
-    distinct_repos: 3
-    active_days: 3
+    pushes: 2
+    distinct_repos: 2
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -31,18 +31,18 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 3
   "90d":
-    pushes: 470
-    distinct_repos: 20
-    active_days: 54
-    repos_not_owned: 7
-    not_owned_basenames: 6
-    not_owned_owners: 6
+    pushes: 442
+    distinct_repos: 19
+    active_days: 53
+    repos_not_owned: 6
+    not_owned_basenames: 5
+    not_owned_owners: 5
 automation:
   state: "clear"
-  push_per_day: 8.7037
-  repo_per_active_day: 0.3704
-  not_owned_ratio: 0.3500
-  basename_concentration: 0.1500
+  push_per_day: 8.3396
+  repo_per_active_day: 0.3585
+  not_owned_ratio: 0.3158
+  basename_concentration: 0.1579
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -51,10 +51,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 3
-    distinct_repos: 3
+    pushes: 2
+    distinct_repos: 2
     pushes_per_repo: 1.0000
-    active_days: 3
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -67,16 +67,16 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 3
   "90d":
-    pushes: 470
-    distinct_repos: 20
-    pushes_per_repo: 23.5000
-    active_days: 54
-    repos_not_owned: 7
-    not_owned_basenames: 6
-    not_owned_owners: 6
+    pushes: 442
+    distinct_repos: 19
+    pushes_per_repo: 23.2632
+    active_days: 53
+    repos_not_owned: 6
+    not_owned_basenames: 5
+    not_owned_owners: 5
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 54 active days in 90d — pass"
+  - "activity: 53 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "jev-turtle-soup"
@@ -166,6 +166,6 @@ repos:
 
 # HsiangNianian
 
-470 pushes across 20 repositories on 54 active days in the last 90 days of public GitHub push activity.
+442 pushes across 19 repositories on 53 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/HsiangNianian

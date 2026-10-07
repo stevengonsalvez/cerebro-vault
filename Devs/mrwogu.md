@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-06T06:06:47.636089+00:00"
+generated_at: "2026-10-07T15:16:07.319356+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [7, 16, 10, 14, 13, 34, 0, 0, 1, 10, 19, 12, 4]
+pushes_per_week: [7, 19, 9, 15, 15, 29, 0, 0, 1, 12, 19, 11, 5]
 windows:
   "7d":
-    pushes: 5
-    distinct_repos: 3
+    pushes: 6
+    distinct_repos: 4
     active_days: 4
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 46
-    distinct_repos: 8
+    pushes: 47
+    distinct_repos: 7
     active_days: 20
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 1
   "90d":
-    pushes: 140
+    pushes: 142
     distinct_repos: 9
-    active_days: 47
+    active_days: 48
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.9787
-  repo_per_active_day: 0.1915
+  push_per_day: 2.9583
+  repo_per_active_day: 0.1875
   not_owned_ratio: 0.4444
   basename_concentration: 0.1111
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 5
-    distinct_repos: 3
-    pushes_per_repo: 1.6667
+    pushes: 6
+    distinct_repos: 4
+    pushes_per_repo: 1.5000
     active_days: 4
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 46
-    distinct_repos: 8
-    pushes_per_repo: 5.7500
+    pushes: 47
+    distinct_repos: 7
+    pushes_per_repo: 6.7143
     active_days: 20
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 1
   "90d":
-    pushes: 140
+    pushes: 142
     distinct_repos: 9
-    pushes_per_repo: 15.5556
-    active_days: 47
+    pushes_per_repo: 15.7778
+    active_days: 48
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 47 active days in 90d — pass"
+  - "activity: 48 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "xiaomi-smart-fan-card"
@@ -191,6 +191,6 @@ repos:
 
 # mrwogu
 
-140 pushes across 9 repositories on 47 active days in the last 90 days of public GitHub push activity.
+142 pushes across 9 repositories on 48 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/mrwogu

@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-06T06:06:47.636089+00:00"
+generated_at: "2026-10-07T15:16:07.319356+00:00"
 provenance:
   - "40eb8bc568eaac35"
-pushes_per_week: [2, 0, 0, 3, 1, 0, 0, 2, 0, 0, 0, 2, 2]
+pushes_per_week: [2, 0, 0, 3, 1, 0, 0, 2, 0, 0, 1, 1, 3]
 windows:
   "7d":
-    pushes: 2
+    pushes: 3
     distinct_repos: 1
-    active_days: 2
+    active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 4
+    pushes: 5
     distinct_repos: 1
-    active_days: 4
+    active_days: 5
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 12
+    pushes: 13
     distinct_repos: 5
-    active_days: 12
+    active_days: 13
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 2
 automation:
   state: "clear"
   push_per_day: 1.0000
-  repo_per_active_day: 0.4167
+  repo_per_active_day: 0.3846
   not_owned_ratio: 1.0000
   basename_concentration: 0.2000
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
+    pushes: 3
     distinct_repos: 1
-    pushes_per_repo: 2.0000
-    active_days: 2
+    pushes_per_repo: 3.0000
+    active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 4
+    pushes: 5
     distinct_repos: 1
-    pushes_per_repo: 4.0000
-    active_days: 4
+    pushes_per_repo: 5.0000
+    active_days: 5
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 12
+    pushes: 13
     distinct_repos: 5
-    pushes_per_repo: 2.4000
-    active_days: 12
+    pushes_per_repo: 2.6000
+    active_days: 13
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 12 active days in 90d — pass"
+  - "activity: 13 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "Lateos"
@@ -137,6 +137,6 @@ repos:
 
 # leochong
 
-12 pushes across 5 repositories on 12 active days in the last 90 days of public GitHub push activity.
+13 pushes across 5 repositories on 13 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/leochong

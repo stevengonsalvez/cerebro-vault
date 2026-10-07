@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-06T06:06:47.636089+00:00"
+generated_at: "2026-10-07T15:16:07.319356+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [2, 2, 1, 7, 12, 4, 0, 0, 1, 1, 24, 54, 29]
+pushes_per_week: [3, 1, 1, 7, 14, 2, 0, 0, 1, 5, 22, 52, 31]
 windows:
   "7d":
-    pushes: 37
+    pushes: 31
     distinct_repos: 5
-    active_days: 7
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 109
+    pushes: 111
     distinct_repos: 7
     active_days: 22
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 137
+    pushes: 139
     distinct_repos: 9
     active_days: 37
     repos_not_owned: 0
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 3.7027
+  push_per_day: 3.7568
   repo_per_active_day: 0.2432
   not_owned_ratio: 0.0000
   basename_concentration: 0.1111
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 37
+    pushes: 31
     distinct_repos: 5
-    pushes_per_repo: 7.4000
-    active_days: 7
+    pushes_per_repo: 6.2000
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 109
+    pushes: 111
     distinct_repos: 7
-    pushes_per_repo: 15.5714
+    pushes_per_repo: 15.8571
     active_days: 22
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 137
+    pushes: 139
     distinct_repos: 9
-    pushes_per_repo: 15.2222
+    pushes_per_repo: 15.4444
     active_days: 37
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -129,6 +129,6 @@ repos:
 
 # mann1x
 
-137 pushes across 9 repositories on 37 active days in the last 90 days of public GitHub push activity.
+139 pushes across 9 repositories on 37 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/mann1x

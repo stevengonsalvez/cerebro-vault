@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-06T06:06:47.636089+00:00"
+generated_at: "2026-10-07T15:16:07.319356+00:00"
 provenance:
   - "a5babe6eb0c3a37f"
-pushes_per_week: [1, 0, 1, 6, 1, 0, 0, 0, 0, 0, 0, 12, 101]
+pushes_per_week: [1, 0, 1, 7, 0, 0, 0, 0, 0, 0, 1, 14, 103]
 windows:
   "7d":
-    pushes: 107
-    distinct_repos: 4
+    pushes: 105
+    distinct_repos: 3
     active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 113
+    pushes: 118
     distinct_repos: 4
     active_days: 12
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 122
+    pushes: 127
     distinct_repos: 6
     active_days: 18
     repos_not_owned: 0
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 6.7778
+  push_per_day: 7.0556
   repo_per_active_day: 0.3333
   not_owned_ratio: 0.0000
   basename_concentration: 0.1667
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 107
-    distinct_repos: 4
-    pushes_per_repo: 26.7500
+    pushes: 105
+    distinct_repos: 3
+    pushes_per_repo: 35.0000
     active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 113
+    pushes: 118
     distinct_repos: 4
-    pushes_per_repo: 28.2500
+    pushes_per_repo: 29.5000
     active_days: 12
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 122
+    pushes: 127
     distinct_repos: 6
-    pushes_per_repo: 20.3333
+    pushes_per_repo: 21.1667
     active_days: 18
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -140,6 +140,6 @@ repos:
 
 # mvschwarz
 
-122 pushes across 6 repositories on 18 active days in the last 90 days of public GitHub push activity.
+127 pushes across 6 repositories on 18 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/mvschwarz

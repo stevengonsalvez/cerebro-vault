@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-06T06:06:47.636089+00:00"
+generated_at: "2026-10-07T15:16:07.319356+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [4, 2, 6, 4, 4, 2, 4, 1, 2, 0, 0, 2, 0]
+pushes_per_week: [1, 2, 7, 3, 6, 0, 5, 0, 2, 0, 1, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,25 +22,25 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 4
+    pushes: 3
     distinct_repos: 2
-    active_days: 4
+    active_days: 3
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 31
-    distinct_repos: 10
-    active_days: 24
+    pushes: 28
+    distinct_repos: 9
+    active_days: 22
     repos_not_owned: 9
     not_owned_basenames: 9
     not_owned_owners: 5
 automation:
   state: "clear"
-  push_per_day: 1.2917
-  repo_per_active_day: 0.4167
-  not_owned_ratio: 0.9000
-  basename_concentration: 0.1000
+  push_per_day: 1.2727
+  repo_per_active_day: 0.4091
+  not_owned_ratio: 1.0000
+  basename_concentration: 0.1111
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 4
+    pushes: 3
     distinct_repos: 2
-    pushes_per_repo: 2.0000
-    active_days: 4
+    pushes_per_repo: 1.5000
+    active_days: 3
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 31
-    distinct_repos: 10
-    pushes_per_repo: 3.1000
-    active_days: 24
+    pushes: 28
+    distinct_repos: 9
+    pushes_per_repo: 3.1111
+    active_days: 22
     repos_not_owned: 9
     not_owned_basenames: 9
     not_owned_owners: 5
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 24 active days in 90d — pass"
+  - "activity: 22 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "moreduomoreduogreen"
@@ -113,6 +113,6 @@ repos:
 
 # shangxueink
 
-31 pushes across 10 repositories on 24 active days in the last 90 days of public GitHub push activity.
+28 pushes across 9 repositories on 22 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/shangxueink

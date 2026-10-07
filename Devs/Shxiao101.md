@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-06T06:06:47.636089+00:00"
+generated_at: "2026-10-07T15:16:07.319356+00:00"
 provenance:
   - "16389f32495280ea"
-pushes_per_week: [5, 4, 1, 0, 1, 0, 0, 4, 2, 2, 3, 9, 2]
+pushes_per_week: [3, 3, 1, 0, 1, 0, 0, 4, 2, 2, 5, 7, 2]
 windows:
   "7d":
-    pushes: 3
-    distinct_repos: 3
-    active_days: 3
+    pushes: 2
+    distinct_repos: 2
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 18
+    pushes: 16
     distinct_repos: 11
-    active_days: 12
+    active_days: 10
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 33
-    distinct_repos: 16
-    active_days: 23
-    repos_not_owned: 5
+    pushes: 30
+    distinct_repos: 15
+    active_days: 21
+    repos_not_owned: 4
     not_owned_basenames: 3
-    not_owned_owners: 3
+    not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 1.4348
-  repo_per_active_day: 0.6957
-  not_owned_ratio: 0.3125
-  basename_concentration: 0.1875
+  push_per_day: 1.4286
+  repo_per_active_day: 0.7143
+  not_owned_ratio: 0.2667
+  basename_concentration: 0.1333
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 3
-    distinct_repos: 3
+    pushes: 2
+    distinct_repos: 2
     pushes_per_repo: 1.0000
-    active_days: 3
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 18
+    pushes: 16
     distinct_repos: 11
-    pushes_per_repo: 1.6364
-    active_days: 12
+    pushes_per_repo: 1.4545
+    active_days: 10
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 33
-    distinct_repos: 16
-    pushes_per_repo: 2.0625
-    active_days: 23
-    repos_not_owned: 5
+    pushes: 30
+    distinct_repos: 15
+    pushes_per_repo: 2.0000
+    active_days: 21
+    repos_not_owned: 4
     not_owned_basenames: 3
-    not_owned_owners: 3
+    not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 23 active days in 90d — pass"
+  - "activity: 21 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "yono-codex-skin"
@@ -136,6 +136,6 @@ repos:
 
 # Shxiao101
 
-33 pushes across 16 repositories on 23 active days in the last 90 days of public GitHub push activity.
+30 pushes across 15 repositories on 21 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Shxiao101

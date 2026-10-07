@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-06T06:06:47.636089+00:00"
+generated_at: "2026-10-07T15:16:07.319356+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [3, 4, 1, 0, 13, 11, 7, 4, 5, 1, 13, 62, 42]
+pushes_per_week: [1, 4, 1, 1, 14, 9, 11, 0, 5, 3, 18, 56, 41]
 windows:
   "7d":
-    pushes: 45
+    pushes: 41
     distinct_repos: 12
-    active_days: 7
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 122
-    distinct_repos: 18
-    active_days: 23
+    pushes: 118
+    distinct_repos: 17
+    active_days: 21
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 166
+    pushes: 164
     distinct_repos: 23
-    active_days: 43
+    active_days: 41
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 3.8605
-  repo_per_active_day: 0.5349
+  push_per_day: 4.0000
+  repo_per_active_day: 0.5610
   not_owned_ratio: 0.1304
   basename_concentration: 0.0435
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 45
+    pushes: 41
     distinct_repos: 12
-    pushes_per_repo: 3.7500
-    active_days: 7
+    pushes_per_repo: 3.4167
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 122
-    distinct_repos: 18
-    pushes_per_repo: 6.7778
-    active_days: 23
+    pushes: 118
+    distinct_repos: 17
+    pushes_per_repo: 6.9412
+    active_days: 21
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 166
+    pushes: 164
     distinct_repos: 23
-    pushes_per_repo: 7.2174
-    active_days: 43
+    pushes_per_repo: 7.1304
+    active_days: 41
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 43 active days in 90d — pass"
+  - "activity: 41 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "fo4-ocbpc"
@@ -146,6 +146,6 @@ repos:
 
 # ReidenXerx
 
-166 pushes across 23 repositories on 43 active days in the last 90 days of public GitHub push activity.
+164 pushes across 23 repositories on 41 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ReidenXerx

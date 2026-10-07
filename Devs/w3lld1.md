@@ -5,14 +5,16 @@ discovered_via: "fanout"
 discovered_via_all:
   - "fanout"
 provenance_repos:
+  - "agavra/tuicr"
   - "apache/maka"
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-06T06:06:47.636089+00:00"
+generated_at: "2026-10-07T15:16:07.319356+00:00"
 provenance:
+  - "4a45ac7a449df20e"
   - "4d1450729e6ff44d"
-pushes_per_week: [9, 1, 5, 2, 3, 1, 0, 0, 0, 0, 0, 1, 0]
+pushes_per_week: [9, 2, 4, 3, 3, 0, 0, 0, 0, 0, 0, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -73,7 +75,7 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
-  - "provenance: 1 vault signal(s) — pass"
+  - "provenance: 2 vault signal(s) — pass"
   - "activity: 15 active days in 90d — pass"
   - "automation: clear — pass"
 repos:

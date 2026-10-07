@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-06T06:06:47.636089+00:00"
+generated_at: "2026-10-07T15:16:07.319356+00:00"
 provenance:
   - "419a4253687fd7a1"
-pushes_per_week: [0, 0, 0, 3, 34, 35, 8, 0, 8, 11, 11, 28, 59]
+pushes_per_week: [0, 0, 0, 4, 52, 18, 6, 0, 11, 8, 15, 29, 55]
 windows:
   "7d":
-    pushes: 60
+    pushes: 57
     distinct_repos: 2
-    active_days: 7
+    active_days: 6
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
   "30d":
-    pushes: 117
-    distinct_repos: 3
-    active_days: 24
-    repos_not_owned: 3
-    not_owned_basenames: 2
+    pushes: 114
+    distinct_repos: 2
+    active_days: 22
+    repos_not_owned: 2
+    not_owned_basenames: 1
     not_owned_owners: 2
   "90d":
-    pushes: 197
+    pushes: 198
     distinct_repos: 9
     active_days: 41
     repos_not_owned: 8
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 7
 automation:
   state: "clear"
-  push_per_day: 4.8049
+  push_per_day: 4.8293
   repo_per_active_day: 0.2195
   not_owned_ratio: 0.8889
   basename_concentration: 0.8889
@@ -65,25 +65,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 60
+    pushes: 57
     distinct_repos: 2
-    pushes_per_repo: 30.0000
-    active_days: 7
+    pushes_per_repo: 28.5000
+    active_days: 6
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
   "30d":
-    pushes: 117
-    distinct_repos: 3
-    pushes_per_repo: 39.0000
-    active_days: 24
-    repos_not_owned: 3
-    not_owned_basenames: 2
+    pushes: 114
+    distinct_repos: 2
+    pushes_per_repo: 57.0000
+    active_days: 22
+    repos_not_owned: 2
+    not_owned_basenames: 1
     not_owned_owners: 2
   "90d":
-    pushes: 197
+    pushes: 198
     distinct_repos: 9
-    pushes_per_repo: 21.8889
+    pushes_per_repo: 22.0000
     active_days: 41
     repos_not_owned: 8
     not_owned_basenames: 2
@@ -148,6 +148,6 @@ repos:
 
 # ymichael
 
-197 pushes across 9 repositories on 41 active days in the last 90 days of public GitHub push activity.
+198 pushes across 9 repositories on 41 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ymichael

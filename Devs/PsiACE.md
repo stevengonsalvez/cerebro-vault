@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-06T06:06:47.636089+00:00"
+generated_at: "2026-10-07T15:16:07.319356+00:00"
 provenance:
   - "48dbbdd8fd0d3029"
-pushes_per_week: [2, 7, 0, 6, 13, 10, 5, 5, 0, 4, 5, 7, 16]
+pushes_per_week: [3, 6, 1, 7, 18, 4, 6, 3, 1, 3, 8, 6, 19]
 windows:
   "7d":
-    pushes: 16
+    pushes: 20
     distinct_repos: 5
-    active_days: 6
+    active_days: 7
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 2
   "30d":
-    pushes: 32
+    pushes: 37
     distinct_repos: 11
-    active_days: 15
+    active_days: 16
     repos_not_owned: 7
     not_owned_basenames: 7
     not_owned_owners: 3
   "90d":
-    pushes: 80
+    pushes: 85
     distinct_repos: 21
-    active_days: 42
+    active_days: 43
     repos_not_owned: 10
     not_owned_basenames: 10
     not_owned_owners: 5
 automation:
   state: "clear"
-  push_per_day: 1.9048
-  repo_per_active_day: 0.5000
+  push_per_day: 1.9767
+  repo_per_active_day: 0.4884
   not_owned_ratio: 0.4762
   basename_concentration: 0.0952
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 16
+    pushes: 20
     distinct_repos: 5
-    pushes_per_repo: 3.2000
-    active_days: 6
+    pushes_per_repo: 4.0000
+    active_days: 7
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 2
   "30d":
-    pushes: 32
+    pushes: 37
     distinct_repos: 11
-    pushes_per_repo: 2.9091
-    active_days: 15
+    pushes_per_repo: 3.3636
+    active_days: 16
     repos_not_owned: 7
     not_owned_basenames: 7
     not_owned_owners: 3
   "90d":
-    pushes: 80
+    pushes: 85
     distinct_repos: 21
-    pushes_per_repo: 3.8095
-    active_days: 42
+    pushes_per_repo: 4.0476
+    active_days: 43
     repos_not_owned: 10
     not_owned_basenames: 10
     not_owned_owners: 5
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 42 active days in 90d — pass"
+  - "activity: 43 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "human"
@@ -151,6 +151,6 @@ repos:
 
 # PsiACE
 
-80 pushes across 21 repositories on 42 active days in the last 90 days of public GitHub push activity.
+85 pushes across 21 repositories on 43 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/PsiACE

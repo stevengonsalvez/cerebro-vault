@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-06T06:06:47.636089+00:00"
+generated_at: "2026-10-07T15:16:07.319356+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [2, 9, 23, 6, 14, 3, 6, 2, 3, 5, 5, 7, 12]
+pushes_per_week: [2, 10, 22, 5, 15, 2, 6, 2, 3, 7, 3, 8, 11]
 windows:
   "7d":
-    pushes: 12
+    pushes: 11
     distinct_repos: 4
-    active_days: 6
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 97
+    pushes: 96
     distinct_repos: 10
-    active_days: 46
+    active_days: 45
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.1087
-  repo_per_active_day: 0.2174
+  push_per_day: 2.1333
+  repo_per_active_day: 0.2222
   not_owned_ratio: 0.0000
   basename_concentration: 0.1000
   shapes: []
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 12
+    pushes: 11
     distinct_repos: 4
-    pushes_per_repo: 3.0000
-    active_days: 6
+    pushes_per_repo: 2.7500
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 97
+    pushes: 96
     distinct_repos: 10
-    pushes_per_repo: 9.7000
-    active_days: 46
+    pushes_per_repo: 9.6000
+    active_days: 45
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 46 active days in 90d — pass"
+  - "activity: 45 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "dotfiles"
@@ -146,6 +146,6 @@ repos:
 
 # dkarter
 
-97 pushes across 10 repositories on 46 active days in the last 90 days of public GitHub push activity.
+96 pushes across 10 repositories on 45 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/dkarter

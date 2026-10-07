@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-06T06:06:47.636089+00:00"
+generated_at: "2026-10-07T15:16:07.319356+00:00"
 provenance:
   - "f458b196520daad6"
-pushes_per_week: [29, 31, 25, 13, 7, 11, 0, 0, 0, 1, 0, 7, 1]
+pushes_per_week: [36, 24, 27, 12, 5, 11, 0, 0, 0, 1, 2, 5, 1]
 windows:
   "7d":
     pushes: 1
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 125
+    pushes: 124
     distinct_repos: 8
-    active_days: 34
+    active_days: 33
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 3.6765
-  repo_per_active_day: 0.2353
+  push_per_day: 3.7576
+  repo_per_active_day: 0.2424
   not_owned_ratio: 0.0000
   basename_concentration: 0.1250
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 125
+    pushes: 124
     distinct_repos: 8
-    pushes_per_repo: 15.6250
-    active_days: 34
+    pushes_per_repo: 15.5000
+    active_days: 33
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 34 active days in 90d — pass"
+  - "activity: 33 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "academic-research-skills"
@@ -166,6 +166,6 @@ repos:
 
 # Imbad0202
 
-125 pushes across 8 repositories on 34 active days in the last 90 days of public GitHub push activity.
+124 pushes across 8 repositories on 33 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Imbad0202

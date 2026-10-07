@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-06T06:06:47.636089+00:00"
+generated_at: "2026-10-07T15:16:07.319356+00:00"
 provenance:
   - "46f3c1d6124190bd"
-pushes_per_week: [3, 8, 14, 46, 2, 1, 0, 0, 0, 1, 4, 1, 4]
+pushes_per_week: [4, 13, 9, 44, 2, 1, 0, 0, 0, 1, 4, 1, 4]
 windows:
   "7d":
-    pushes: 5
-    distinct_repos: 3
-    active_days: 4
+    pushes: 4
+    distinct_repos: 2
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 84
+    pushes: 83
     distinct_repos: 12
-    active_days: 28
+    active_days: 27
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 3.0000
-  repo_per_active_day: 0.4286
+  push_per_day: 3.0741
+  repo_per_active_day: 0.4444
   not_owned_ratio: 0.0000
   basename_concentration: 0.0833
   shapes: []
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 5
-    distinct_repos: 3
-    pushes_per_repo: 1.6667
-    active_days: 4
+    pushes: 4
+    distinct_repos: 2
+    pushes_per_repo: 2.0000
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 84
+    pushes: 83
     distinct_repos: 12
-    pushes_per_repo: 7.0000
-    active_days: 28
+    pushes_per_repo: 6.9167
+    active_days: 27
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 28 active days in 90d — pass"
+  - "activity: 27 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "braga-3d"
@@ -164,6 +164,6 @@ repos:
 
 # isatimur
 
-84 pushes across 12 repositories on 28 active days in the last 90 days of public GitHub push activity.
+83 pushes across 12 repositories on 27 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/isatimur

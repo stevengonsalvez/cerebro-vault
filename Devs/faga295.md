@@ -1,30 +1,30 @@
 ---
-login: "hanson-hex"
+login: "faga295"
 name: null
 discovered_via: "fanout"
 discovered_via_all:
   - "fanout"
 provenance_repos:
-  - "agentscope-ai/QwenPaw"
+  - "apache/maka"
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-06T06:06:47.636089+00:00"
+generated_at: "2026-10-07T15:16:07.319356+00:00"
 provenance:
-  - "541318303a272608"
-pushes_per_week: [5, 2, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  - "4d1450729e6ff44d"
+pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 4, 1]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
+    pushes: 8
+    distinct_repos: 1
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,18 +49,18 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
+    pushes: 1
+    distinct_repos: 1
+    pushes_per_repo: 1.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
+    pushes: 8
+    distinct_repos: 1
+    pushes_per_repo: 8.0000
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -77,58 +77,58 @@ reasons:
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "python-test-pattern-skill"
-    title: "python-test-pattern-skill"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-05-14"
-  - name: "frontend-test-pattern-skill"
-    title: "frontend-test-pattern-skill"
-    description: "Claude Code skill for React + Vite projects — auto-generates Vitest & Testing Library tests for utils, components, hooks, and Zustand stores. Companion to python-test-pattern."
-    language: "Shell"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-05-14"
-  - name: "algorithm-cpp"
-    title: "algorithm-cpp"
-    description: null
+  - name: "pi-extensions"
+    title: "pi-extensions"
+    description: "My pi-agent extensions"
     language: null
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2024-11-21"
-  - name: "algorithm-javascript"
-    title: "algorithm-javascript"
-    description: null
-    language: null
+    last_push: "2026-08-06"
+  - name: "pdf-sign"
+    title: "pdf-sign"
+    description: "A simple PDF signing application."
+    language: "TypeScript"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2024-11-21"
-  - name: "algorithm-rust"
-    title: "algorithm-rust"
-    description: null
-    language: null
+    last_push: "2026-07-22"
+  - name: "Fling"
+    title: "Fling"
+    description: "Vim-style macOS window manager"
+    language: "Swift"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2024-11-21"
-  - name: "eshop-wholesale-web"
-    title: "eshop-wholesale-web"
+    last_push: "2026-07-06"
+  - name: "mini-vue"
+    title: "mini-vue"
     description: null
-    language: "Vue"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2022-10-29"
+  - name: "mafs-vue"
+    title: "mafs-vue"
+    description: "Vue component for interactive math, vue implement of mafs"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 8
+    first_seen: null
+    last_push: "2025-10-29"
+  - name: "antd-css-in-js-reproduce"
+    title: "antd-css-in-js-reproduce"
+    description: null
+    language: "TypeScript"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2023-04-26"
+    last_push: "2025-09-04"
 ---
 
-# hanson-hex
+# faga295
 
 8 pushes across 1 repository on 5 active days in the last 90 days of public GitHub push activity.
 
-https://github.com/hanson-hex
+https://github.com/faga295

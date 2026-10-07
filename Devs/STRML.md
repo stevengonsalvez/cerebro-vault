@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-06T06:06:47.636089+00:00"
+generated_at: "2026-10-07T15:16:07.319356+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [3, 2, 3, 17, 7, 7, 3, 1, 1, 5, 15, 34, 34]
+pushes_per_week: [3, 2, 5, 17, 7, 5, 4, 0, 1, 12, 8, 35, 36]
 windows:
   "7d":
-    pushes: 36
-    distinct_repos: 9
+    pushes: 37
+    distinct_repos: 11
     active_days: 6
-    repos_not_owned: 3
-    not_owned_basenames: 2
+    repos_not_owned: 4
+    not_owned_basenames: 3
     not_owned_owners: 3
   "30d":
-    pushes: 89
-    distinct_repos: 16
-    active_days: 21
+    pushes: 92
+    distinct_repos: 17
+    active_days: 22
     repos_not_owned: 5
     not_owned_basenames: 4
     not_owned_owners: 3
   "90d":
-    pushes: 132
-    distinct_repos: 23
-    active_days: 40
+    pushes: 135
+    distinct_repos: 24
+    active_days: 41
     repos_not_owned: 6
     not_owned_basenames: 5
     not_owned_owners: 4
 automation:
   state: "clear"
-  push_per_day: 3.3000
-  repo_per_active_day: 0.5750
-  not_owned_ratio: 0.2609
-  basename_concentration: 0.0870
+  push_per_day: 3.2927
+  repo_per_active_day: 0.5854
+  not_owned_ratio: 0.2500
+  basename_concentration: 0.0833
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 36
-    distinct_repos: 9
-    pushes_per_repo: 4.0000
+    pushes: 37
+    distinct_repos: 11
+    pushes_per_repo: 3.3636
     active_days: 6
-    repos_not_owned: 3
-    not_owned_basenames: 2
+    repos_not_owned: 4
+    not_owned_basenames: 3
     not_owned_owners: 3
   "30d":
-    pushes: 89
-    distinct_repos: 16
-    pushes_per_repo: 5.5625
-    active_days: 21
+    pushes: 92
+    distinct_repos: 17
+    pushes_per_repo: 5.4118
+    active_days: 22
     repos_not_owned: 5
     not_owned_basenames: 4
     not_owned_owners: 3
   "90d":
-    pushes: 132
-    distinct_repos: 23
-    pushes_per_repo: 5.7391
-    active_days: 40
+    pushes: 135
+    distinct_repos: 24
+    pushes_per_repo: 5.6250
+    active_days: 41
     repos_not_owned: 6
     not_owned_basenames: 5
     not_owned_owners: 4
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 40 active days in 90d — pass"
+  - "activity: 41 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "cc-debate"
@@ -131,6 +131,6 @@ repos:
 
 # STRML
 
-132 pushes across 23 repositories on 40 active days in the last 90 days of public GitHub push activity.
+135 pushes across 24 repositories on 41 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/STRML

@@ -9,39 +9,39 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-06T06:06:47.636089+00:00"
+generated_at: "2026-10-07T15:16:07.319356+00:00"
 provenance:
   - "97c4e9cb8b163ddb"
   - "c7515e0fa4368a55"
   - "d3abe74726b22711"
   - "e7c647c4d0689526"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 5, 1, 19, 1, 0, 19, 0]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 5, 1, 19, 1, 0, 19, 1]
 windows:
   "7d":
-    pushes: 3
-    distinct_repos: 2
+    pushes: 1
+    distinct_repos: 1
     active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 39
-    distinct_repos: 17
+    pushes: 31
+    distinct_repos: 15
     active_days: 8
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 45
+    pushes: 46
     distinct_repos: 18
-    active_days: 11
+    active_days: 12
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 4.0909
-  repo_per_active_day: 1.6364
+  push_per_day: 3.8333
+  repo_per_active_day: 1.5000
   not_owned_ratio: 0.0000
   basename_concentration: 0.0556
   shapes: []
@@ -52,32 +52,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 3
-    distinct_repos: 2
-    pushes_per_repo: 1.5000
+    pushes: 1
+    distinct_repos: 1
+    pushes_per_repo: 1.0000
     active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 39
-    distinct_repos: 17
-    pushes_per_repo: 2.2941
+    pushes: 31
+    distinct_repos: 15
+    pushes_per_repo: 2.0667
     active_days: 8
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 45
+    pushes: 46
     distinct_repos: 18
-    pushes_per_repo: 2.5000
-    active_days: 11
+    pushes_per_repo: 2.5556
+    active_days: 12
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 4 vault signal(s) — pass"
-  - "activity: 11 active days in 90d — pass"
+  - "activity: 12 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "reimagine-it"
@@ -161,6 +161,6 @@ repos:
 
 # Kayforkind
 
-45 pushes across 18 repositories on 11 active days in the last 90 days of public GitHub push activity.
+46 pushes across 18 repositories on 12 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Kayforkind

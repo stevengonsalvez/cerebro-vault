@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-06T06:06:47.636089+00:00"
+generated_at: "2026-10-07T15:16:07.319356+00:00"
 provenance:
   - "0b22ca37fd3884c9"
-pushes_per_week: [3, 2, 3, 5, 3, 7, 2, 0, 7, 0, 0, 0, 0]
+pushes_per_week: [2, 2, 6, 3, 5, 4, 2, 0, 7, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,14 +22,14 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 4
-    distinct_repos: 2
-    active_days: 2
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 2
+    distinct_repos: 1
+    active_days: 1
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
-    pushes: 32
+    pushes: 31
     distinct_repos: 7
     active_days: 19
     repos_not_owned: 3
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.6842
+  push_per_day: 1.6316
   repo_per_active_day: 0.3684
   not_owned_ratio: 0.4286
   basename_concentration: 0.1429
@@ -57,17 +57,17 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 4
-    distinct_repos: 2
+    pushes: 2
+    distinct_repos: 1
     pushes_per_repo: 2.0000
-    active_days: 2
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    active_days: 1
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
-    pushes: 32
+    pushes: 31
     distinct_repos: 7
-    pushes_per_repo: 4.5714
+    pushes_per_repo: 4.4286
     active_days: 19
     repos_not_owned: 3
     not_owned_basenames: 3
@@ -129,6 +129,6 @@ repos:
 
 # anishesg
 
-32 pushes across 7 repositories on 19 active days in the last 90 days of public GitHub push activity.
+31 pushes across 7 repositories on 19 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/anishesg

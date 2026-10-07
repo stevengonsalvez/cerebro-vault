@@ -12,17 +12,17 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-06T06:06:47.636089+00:00"
+generated_at: "2026-10-07T15:16:07.319356+00:00"
 provenance:
   - "06b6387dd3484f1c"
   - "c133b93b912dffd6"
   - "de6bf05613f3ae04"
-pushes_per_week: [5, 5, 3, 6, 11, 6, 1, 1, 0, 2, 3, 3, 2]
+pushes_per_week: [4, 5, 3, 7, 9, 6, 1, 1, 0, 2, 4, 2, 2]
 windows:
   "7d":
-    pushes: 3
+    pushes: 2
     distinct_repos: 1
-    active_days: 3
+    active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -34,16 +34,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 48
+    pushes: 46
     distinct_repos: 4
-    active_days: 32
+    active_days: 31
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 1.5000
-  repo_per_active_day: 0.1250
+  push_per_day: 1.4839
+  repo_per_active_day: 0.1290
   not_owned_ratio: 0.7500
   basename_concentration: 0.5000
   shapes: []
@@ -54,10 +54,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 3
+    pushes: 2
     distinct_repos: 1
-    pushes_per_repo: 3.0000
-    active_days: 3
+    pushes_per_repo: 2.0000
+    active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -70,16 +70,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 48
+    pushes: 46
     distinct_repos: 4
-    pushes_per_repo: 12.0000
-    active_days: 32
+    pushes_per_repo: 11.5000
+    active_days: 31
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
 reasons:
   - "provenance: 3 vault signal(s) — pass"
-  - "activity: 32 active days in 90d — pass"
+  - "activity: 31 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "sitegeist"
@@ -134,6 +134,6 @@ repos:
 
 # badlogic
 
-48 pushes across 4 repositories on 32 active days in the last 90 days of public GitHub push activity.
+46 pushes across 4 repositories on 31 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/badlogic
