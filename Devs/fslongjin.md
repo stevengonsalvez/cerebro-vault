@@ -10,19 +10,19 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-07T15:16:07.319356+00:00"
+generated_at: "2026-10-08T06:04:38.976017+00:00"
 provenance:
   - "022c4327710cbfe7"
   - "b599dd2f1ad43e10"
-pushes_per_week: [48, 16, 9, 1, 3, 4, 4, 3, 1, 2, 8, 3, 2]
+pushes_per_week: [50, 16, 5, 1, 5, 2, 4, 3, 1, 4, 6, 4, 2]
 windows:
   "7d":
     pushes: 2
     distinct_repos: 2
     active_days: 2
-    repos_not_owned: 2
+    repos_not_owned: 1
     not_owned_basenames: 1
-    not_owned_owners: 2
+    not_owned_owners: 1
   "30d":
     pushes: 16
     distinct_repos: 6
@@ -31,7 +31,7 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 4
   "90d":
-    pushes: 104
+    pushes: 103
     distinct_repos: 11
     active_days: 37
     repos_not_owned: 9
@@ -39,7 +39,7 @@ windows:
     not_owned_owners: 8
 automation:
   state: "clear"
-  push_per_day: 2.8108
+  push_per_day: 2.7838
   repo_per_active_day: 0.2973
   not_owned_ratio: 0.8182
   basename_concentration: 0.4545
@@ -55,9 +55,9 @@ facets:
     distinct_repos: 2
     pushes_per_repo: 1.0000
     active_days: 2
-    repos_not_owned: 2
+    repos_not_owned: 1
     not_owned_basenames: 1
-    not_owned_owners: 2
+    not_owned_owners: 1
   "30d":
     pushes: 16
     distinct_repos: 6
@@ -67,9 +67,9 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 4
   "90d":
-    pushes: 104
+    pushes: 103
     distinct_repos: 11
-    pushes_per_repo: 9.4545
+    pushes_per_repo: 9.3636
     active_days: 37
     repos_not_owned: 9
     not_owned_basenames: 3
@@ -131,6 +131,6 @@ repos:
 
 # fslongjin
 
-104 pushes across 11 repositories on 37 active days in the last 90 days of public GitHub push activity.
+103 pushes across 11 repositories on 37 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/fslongjin

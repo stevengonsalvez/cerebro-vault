@@ -10,29 +10,29 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-07T15:16:07.319356+00:00"
+generated_at: "2026-10-08T06:04:38.976017+00:00"
 provenance:
   - "533d51d9d3dea76f"
   - "ffccace0ba14fd15"
-pushes_per_week: [30, 37, 36, 58, 19, 38, 14, 12, 2, 1, 35, 13, 19]
+pushes_per_week: [40, 30, 43, 48, 20, 35, 19, 7, 2, 3, 33, 22, 12]
 windows:
   "7d":
-    pushes: 19
-    distinct_repos: 15
-    active_days: 6
+    pushes: 20
+    distinct_repos: 16
+    active_days: 7
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 68
-    distinct_repos: 43
-    active_days: 18
+    pushes: 70
+    distinct_repos: 44
+    active_days: 19
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
     pushes: 314
-    distinct_repos: 96
+    distinct_repos: 95
     active_days: 67
     repos_not_owned: 5
     not_owned_basenames: 4
@@ -40,9 +40,9 @@ windows:
 automation:
   state: "clear"
   push_per_day: 4.6866
-  repo_per_active_day: 1.4328
-  not_owned_ratio: 0.0521
-  basename_concentration: 0.0312
+  repo_per_active_day: 1.4179
+  not_owned_ratio: 0.0526
+  basename_concentration: 0.0316
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -51,25 +51,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 19
-    distinct_repos: 15
-    pushes_per_repo: 1.2667
-    active_days: 6
+    pushes: 20
+    distinct_repos: 16
+    pushes_per_repo: 1.2500
+    active_days: 7
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 68
-    distinct_repos: 43
-    pushes_per_repo: 1.5814
-    active_days: 18
+    pushes: 70
+    distinct_repos: 44
+    pushes_per_repo: 1.5909
+    active_days: 19
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
     pushes: 314
-    distinct_repos: 96
-    pushes_per_repo: 3.2708
+    distinct_repos: 95
+    pushes_per_repo: 3.3053
     active_days: 67
     repos_not_owned: 5
     not_owned_basenames: 4
@@ -136,6 +136,6 @@ repos:
 
 # monotykamary
 
-314 pushes across 96 repositories on 67 active days in the last 90 days of public GitHub push activity.
+314 pushes across 95 repositories on 67 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/monotykamary

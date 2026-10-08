@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-07T15:16:07.319356+00:00"
+generated_at: "2026-10-08T06:04:38.976017+00:00"
 provenance:
   - "533d51d9d3dea76f"
-pushes_per_week: [6, 13, 12, 7, 3, 1, 0, 1, 2, 1, 4, 8, 2]
+pushes_per_week: [7, 12, 13, 6, 3, 0, 1, 0, 2, 1, 5, 8, 1]
 windows:
   "7d":
     pushes: 2
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 16
+    pushes: 15
     distinct_repos: 2
-    active_days: 10
+    active_days: 9
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 60
+    pushes: 59
     distinct_repos: 6
-    active_days: 34
+    active_days: 33
     repos_not_owned: 3
     not_owned_basenames: 1
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 1.7647
-  repo_per_active_day: 0.1765
+  push_per_day: 1.7879
+  repo_per_active_day: 0.1818
   not_owned_ratio: 0.5000
   basename_concentration: 0.5000
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 16
+    pushes: 15
     distinct_repos: 2
-    pushes_per_repo: 8.0000
-    active_days: 10
+    pushes_per_repo: 7.5000
+    active_days: 9
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 60
+    pushes: 59
     distinct_repos: 6
-    pushes_per_repo: 10.0000
-    active_days: 34
+    pushes_per_repo: 9.8333
+    active_days: 33
     repos_not_owned: 3
     not_owned_basenames: 1
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 34 active days in 90d — pass"
+  - "activity: 33 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "friendzone"
@@ -129,6 +129,6 @@ repos:
 
 # dominiccooney
 
-60 pushes across 6 repositories on 34 active days in the last 90 days of public GitHub push activity.
+59 pushes across 6 repositories on 33 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/dominiccooney

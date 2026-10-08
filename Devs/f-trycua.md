@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-07T15:16:07.319356+00:00"
+generated_at: "2026-10-08T06:04:38.976017+00:00"
 provenance:
   - "feacb1c4ff8cc40f"
-pushes_per_week: [75, 48, 31, 33, 10, 8, 2, 3, 16, 10, 19, 62, 24]
+pushes_per_week: [79, 42, 29, 35, 9, 7, 3, 2, 18, 11, 18, 67, 17]
 windows:
   "7d":
     pushes: 24
@@ -22,14 +22,14 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 4
   "30d":
-    pushes: 118
+    pushes: 116
     distinct_repos: 13
-    active_days: 21
+    active_days: 20
     repos_not_owned: 13
     not_owned_basenames: 2
     not_owned_owners: 13
   "90d":
-    pushes: 341
+    pushes: 337
     distinct_repos: 22
     active_days: 62
     repos_not_owned: 21
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 18
 automation:
   state: "clear"
-  push_per_day: 5.5000
+  push_per_day: 5.4355
   repo_per_active_day: 0.3548
   not_owned_ratio: 0.9545
   basename_concentration: 0.8182
@@ -73,17 +73,17 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 4
   "30d":
-    pushes: 118
+    pushes: 116
     distinct_repos: 13
-    pushes_per_repo: 9.0769
-    active_days: 21
+    pushes_per_repo: 8.9231
+    active_days: 20
     repos_not_owned: 13
     not_owned_basenames: 2
     not_owned_owners: 13
   "90d":
-    pushes: 341
+    pushes: 337
     distinct_repos: 22
-    pushes_per_repo: 15.5000
+    pushes_per_repo: 15.3182
     active_days: 62
     repos_not_owned: 21
     not_owned_basenames: 5
@@ -105,6 +105,6 @@ repos:
 
 # f-trycua
 
-341 pushes across 22 repositories on 62 active days in the last 90 days of public GitHub push activity.
+337 pushes across 22 repositories on 62 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/f-trycua

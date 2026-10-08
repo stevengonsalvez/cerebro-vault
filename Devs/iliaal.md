@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-07T15:16:07.319356+00:00"
+generated_at: "2026-10-08T06:04:38.976017+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [38, 26, 41, 21, 7, 4, 6, 1, 2, 3, 21, 40, 43]
+pushes_per_week: [41, 23, 40, 16, 8, 3, 6, 1, 2, 7, 20, 39, 41]
 windows:
   "7d":
-    pushes: 44
+    pushes: 43
     distinct_repos: 9
-    active_days: 7
+    active_days: 6
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 253
+    pushes: 247
     distinct_repos: 29
-    active_days: 54
+    active_days: 53
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 4.6852
-  repo_per_active_day: 0.5370
+  push_per_day: 4.6604
+  repo_per_active_day: 0.5472
   not_owned_ratio: 0.0690
   basename_concentration: 0.0690
   shapes: []
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 44
+    pushes: 43
     distinct_repos: 9
-    pushes_per_repo: 4.8889
-    active_days: 7
+    pushes_per_repo: 4.7778
+    active_days: 6
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 253
+    pushes: 247
     distinct_repos: 29
-    pushes_per_repo: 8.7241
-    active_days: 54
+    pushes_per_repo: 8.5172
+    active_days: 53
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 54 active days in 90d — pass"
+  - "activity: 53 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "mdparser"
@@ -164,6 +164,6 @@ repos:
 
 # iliaal
 
-253 pushes across 29 repositories on 54 active days in the last 90 days of public GitHub push activity.
+247 pushes across 29 repositories on 53 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/iliaal

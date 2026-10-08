@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-07T15:16:07.319356+00:00"
+generated_at: "2026-10-08T06:04:38.976017+00:00"
 provenance:
   - "c489e6fb5febf2ab"
-pushes_per_week: [3, 7, 10, 2, 7, 15, 2, 0, 0, 2, 6, 8, 15]
+pushes_per_week: [3, 7, 10, 1, 14, 8, 2, 0, 1, 1, 6, 8, 15]
 windows:
   "7d":
     pushes: 15
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 77
+    pushes: 76
     distinct_repos: 14
-    active_days: 34
+    active_days: 33
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 2.2647
-  repo_per_active_day: 0.4118
+  push_per_day: 2.3030
+  repo_per_active_day: 0.4242
   not_owned_ratio: 0.1429
   basename_concentration: 0.1429
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 77
+    pushes: 76
     distinct_repos: 14
-    pushes_per_repo: 5.5000
-    active_days: 34
+    pushes_per_repo: 5.4286
+    active_days: 33
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 34 active days in 90d — pass"
+  - "activity: 33 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "conv"
@@ -140,6 +140,6 @@ repos:
 
 # wu21-web
 
-77 pushes across 14 repositories on 34 active days in the last 90 days of public GitHub push activity.
+76 pushes across 14 repositories on 33 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/wu21-web

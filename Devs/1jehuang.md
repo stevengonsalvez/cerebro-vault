@@ -10,15 +10,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-07T15:16:07.319356+00:00"
+generated_at: "2026-10-08T06:04:38.976017+00:00"
 provenance:
   - "2a7f0fddd2dac162"
-pushes_per_week: [30, 66, 35, 26, 14, 7, 10, 0, 1, 0, 55, 29, 9]
+pushes_per_week: [41, 58, 46, 12, 15, 5, 10, 0, 1, 0, 55, 32, 6]
 windows:
   "7d":
-    pushes: 9
+    pushes: 6
     distinct_repos: 2
-    active_days: 4
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -30,16 +30,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 282
+    pushes: 281
     distinct_repos: 11
-    active_days: 53
+    active_days: 52
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 5.3208
-  repo_per_active_day: 0.2075
+  push_per_day: 5.4038
+  repo_per_active_day: 0.2115
   not_owned_ratio: 0.0909
   basename_concentration: 0.1818
   shapes: []
@@ -50,10 +50,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 9
+    pushes: 6
     distinct_repos: 2
-    pushes_per_repo: 4.5000
-    active_days: 4
+    pushes_per_repo: 3.0000
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -66,16 +66,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 282
+    pushes: 281
     distinct_repos: 11
-    pushes_per_repo: 25.6364
-    active_days: 53
+    pushes_per_repo: 25.5455
+    active_days: 52
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 53 active days in 90d — pass"
+  - "activity: 52 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "jcode"
@@ -148,6 +148,6 @@ repos:
 
 # 1jehuang
 
-282 pushes across 11 repositories on 53 active days in the last 90 days of public GitHub push activity.
+281 pushes across 11 repositories on 52 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/1jehuang

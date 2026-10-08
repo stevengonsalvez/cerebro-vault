@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-07T15:16:07.319356+00:00"
+generated_at: "2026-10-08T06:04:38.976017+00:00"
 provenance:
   - "a5ffcd0a46dd44fd"
-pushes_per_week: [5, 41, 4, 0, 0, 1, 1, 0, 0, 7, 18, 30, 40]
+pushes_per_week: [9, 36, 2, 0, 0, 1, 1, 0, 1, 13, 18, 36, 27]
 windows:
   "7d":
     pushes: 40
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 19
     not_owned_owners: 1
   "90d":
-    pushes: 147
+    pushes: 144
     distinct_repos: 31
-    active_days: 31
+    active_days: 30
     repos_not_owned: 28
     not_owned_basenames: 28
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 4.7419
-  repo_per_active_day: 1.0000
+  push_per_day: 4.8000
+  repo_per_active_day: 1.0333
   not_owned_ratio: 0.9032
   basename_concentration: 0.0645
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 19
     not_owned_owners: 1
   "90d":
-    pushes: 147
+    pushes: 144
     distinct_repos: 31
-    pushes_per_repo: 4.7419
-    active_days: 31
+    pushes_per_repo: 4.6452
+    active_days: 30
     repos_not_owned: 28
     not_owned_basenames: 28
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 31 active days in 90d — pass"
+  - "activity: 30 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "grafana-orgswitch-repro"
@@ -129,6 +129,6 @@ repos:
 
 # QuentinBisson
 
-147 pushes across 31 repositories on 31 active days in the last 90 days of public GitHub push activity.
+144 pushes across 31 repositories on 30 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/QuentinBisson

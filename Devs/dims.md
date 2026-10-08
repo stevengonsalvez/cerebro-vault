@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-07T15:16:07.319356+00:00"
+generated_at: "2026-10-08T06:04:38.976017+00:00"
 provenance:
   - "a5ffcd0a46dd44fd"
-pushes_per_week: [1, 6, 2, 10, 2, 5, 0, 0, 0, 2, 6, 31, 3]
+pushes_per_week: [0, 6, 5, 7, 3, 4, 0, 0, 0, 2, 6, 32, 2]
 windows:
   "7d":
     pushes: 3
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 68
+    pushes: 67
     distinct_repos: 17
-    active_days: 30
+    active_days: 29
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 2.2667
-  repo_per_active_day: 0.5667
+  push_per_day: 2.3103
+  repo_per_active_day: 0.5862
   not_owned_ratio: 0.1765
   basename_concentration: 0.1176
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 68
+    pushes: 67
     distinct_repos: 17
-    pushes_per_repo: 4.0000
-    active_days: 30
+    pushes_per_repo: 3.9412
+    active_days: 29
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 30 active days in 90d — pass"
+  - "activity: 29 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "openshell-driver-substrate"
@@ -129,6 +129,6 @@ repos:
 
 # dims
 
-68 pushes across 17 repositories on 30 active days in the last 90 days of public GitHub push activity.
+67 pushes across 17 repositories on 29 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/dims

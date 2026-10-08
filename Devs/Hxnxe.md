@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-07T15:16:07.319356+00:00"
+generated_at: "2026-10-08T06:04:38.976017+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [8, 4, 2, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1]
+pushes_per_week: [7, 5, 1, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0]
 windows:
   "7d":
     pushes: 1
@@ -29,7 +29,7 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 16
+    pushes: 15
     distinct_repos: 2
     active_days: 10
     repos_not_owned: 1
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.6000
+  push_per_day: 1.5000
   repo_per_active_day: 0.2000
   not_owned_ratio: 0.5000
   basename_concentration: 0.5000
@@ -65,9 +65,9 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 16
+    pushes: 15
     distinct_repos: 2
-    pushes_per_repo: 8.0000
+    pushes_per_repo: 7.5000
     active_days: 10
     repos_not_owned: 1
     not_owned_basenames: 1
@@ -105,6 +105,6 @@ repos:
 
 # Hxnxe
 
-16 pushes across 2 repositories on 10 active days in the last 90 days of public GitHub push activity.
+15 pushes across 2 repositories on 10 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Hxnxe

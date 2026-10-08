@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-07T15:16:07.319356+00:00"
+generated_at: "2026-10-08T06:04:38.976017+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [232, 130, 65, 33, 9, 29, 58, 8, 6, 6, 10, 41, 71]
+pushes_per_week: [242, 98, 77, 14, 20, 22, 57, 4, 6, 7, 15, 54, 52]
 windows:
   "7d":
-    pushes: 73
+    pushes: 63
     distinct_repos: 8
-    active_days: 7
+    active_days: 6
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 1
   "30d":
-    pushes: 132
+    pushes: 131
     distinct_repos: 13
     active_days: 22
     repos_not_owned: 6
     not_owned_basenames: 6
     not_owned_owners: 1
   "90d":
-    pushes: 698
+    pushes: 668
     distinct_repos: 29
-    active_days: 71
+    active_days: 70
     repos_not_owned: 15
     not_owned_basenames: 15
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 9.8310
-  repo_per_active_day: 0.4085
+  push_per_day: 9.5429
+  repo_per_active_day: 0.4143
   not_owned_ratio: 0.5172
   basename_concentration: 0.0690
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 73
+    pushes: 63
     distinct_repos: 8
-    pushes_per_repo: 9.1250
-    active_days: 7
+    pushes_per_repo: 7.8750
+    active_days: 6
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 1
   "30d":
-    pushes: 132
+    pushes: 131
     distinct_repos: 13
-    pushes_per_repo: 10.1538
+    pushes_per_repo: 10.0769
     active_days: 22
     repos_not_owned: 6
     not_owned_basenames: 6
     not_owned_owners: 1
   "90d":
-    pushes: 698
+    pushes: 668
     distinct_repos: 29
-    pushes_per_repo: 24.0690
-    active_days: 71
+    pushes_per_repo: 23.0345
+    active_days: 70
     repos_not_owned: 15
     not_owned_basenames: 15
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 71 active days in 90d — pass"
+  - "activity: 70 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "agent-skill-debloater"
@@ -157,6 +157,6 @@ repos:
 
 # 100yenadmin
 
-698 pushes across 29 repositories on 71 active days in the last 90 days of public GitHub push activity.
+668 pushes across 29 repositories on 70 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/100yenadmin

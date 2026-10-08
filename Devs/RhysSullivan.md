@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-07T15:16:07.319356+00:00"
+generated_at: "2026-10-08T06:04:38.976017+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [19, 10, 18, 11, 1, 12, 2, 7, 0, 18, 28, 28, 28]
+pushes_per_week: [16, 11, 20, 8, 2, 11, 2, 7, 0, 18, 33, 30, 21]
 windows:
   "7d":
-    pushes: 29
+    pushes: 25
     distinct_repos: 2
-    active_days: 7
+    active_days: 6
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 4
     not_owned_owners: 5
   "90d":
-    pushes: 182
+    pushes: 179
     distinct_repos: 10
-    active_days: 53
+    active_days: 52
     repos_not_owned: 9
     not_owned_basenames: 5
     not_owned_owners: 6
 automation:
   state: "clear"
-  push_per_day: 3.4340
-  repo_per_active_day: 0.1887
+  push_per_day: 3.4423
+  repo_per_active_day: 0.1923
   not_owned_ratio: 0.9000
   basename_concentration: 0.5000
   shapes: []
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 29
+    pushes: 25
     distinct_repos: 2
-    pushes_per_repo: 14.5000
-    active_days: 7
+    pushes_per_repo: 12.5000
+    active_days: 6
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 4
     not_owned_owners: 5
   "90d":
-    pushes: 182
+    pushes: 179
     distinct_repos: 10
-    pushes_per_repo: 18.2000
-    active_days: 53
+    pushes_per_repo: 17.9000
+    active_days: 52
     repos_not_owned: 9
     not_owned_basenames: 5
     not_owned_owners: 6
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 53 active days in 90d — pass"
+  - "activity: 52 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "create-epoch-app"
@@ -129,6 +129,6 @@ repos:
 
 # RhysSullivan
 
-182 pushes across 10 repositories on 53 active days in the last 90 days of public GitHub push activity.
+179 pushes across 10 repositories on 52 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/RhysSullivan

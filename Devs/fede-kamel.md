@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-07T15:16:07.319356+00:00"
+generated_at: "2026-10-08T06:04:38.976017+00:00"
 provenance:
   - "1be978947e68d1f2"
-pushes_per_week: [13, 12, 8, 5, 16, 16, 1, 0, 0, 0, 4, 3, 8]
+pushes_per_week: [12, 14, 6, 5, 19, 13, 1, 0, 0, 0, 4, 3, 8]
 windows:
   "7d":
     pushes: 8
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 86
+    pushes: 85
     distinct_repos: 28
-    active_days: 34
+    active_days: 33
     repos_not_owned: 11
     not_owned_basenames: 11
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 2.5294
-  repo_per_active_day: 0.8235
+  push_per_day: 2.5758
+  repo_per_active_day: 0.8485
   not_owned_ratio: 0.3929
   basename_concentration: 0.0714
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 86
+    pushes: 85
     distinct_repos: 28
-    pushes_per_repo: 3.0714
-    active_days: 34
+    pushes_per_repo: 3.0357
+    active_days: 33
     repos_not_owned: 11
     not_owned_basenames: 11
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 34 active days in 90d — pass"
+  - "activity: 33 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "openshell-oci-kill-switch-demo"
@@ -129,6 +129,6 @@ repos:
 
 # fede-kamel
 
-86 pushes across 28 repositories on 34 active days in the last 90 days of public GitHub push activity.
+85 pushes across 28 repositories on 33 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/fede-kamel

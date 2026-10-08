@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-07T15:16:07.319356+00:00"
+generated_at: "2026-10-08T06:04:38.976017+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [25, 13, 37, 63, 55, 63, 21, 6, 2, 17, 39, 66, 35]
+pushes_per_week: [25, 14, 43, 63, 78, 33, 22, 3, 6, 13, 40, 78, 22]
 windows:
   "7d":
-    pushes: 38
+    pushes: 34
     distinct_repos: 9
-    active_days: 7
+    active_days: 6
     repos_not_owned: 3
     not_owned_basenames: 1
     not_owned_owners: 3
@@ -29,7 +29,7 @@ windows:
     not_owned_basenames: 6
     not_owned_owners: 12
   "90d":
-    pushes: 442
+    pushes: 440
     distinct_repos: 60
     active_days: 66
     repos_not_owned: 43
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 42
 automation:
   state: "clear"
-  push_per_day: 6.6970
+  push_per_day: 6.6667
   repo_per_active_day: 0.9091
   not_owned_ratio: 0.7167
   basename_concentration: 0.4167
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 38
+    pushes: 34
     distinct_repos: 9
-    pushes_per_repo: 4.2222
-    active_days: 7
+    pushes_per_repo: 3.7778
+    active_days: 6
     repos_not_owned: 3
     not_owned_basenames: 1
     not_owned_owners: 3
@@ -65,9 +65,9 @@ facets:
     not_owned_basenames: 6
     not_owned_owners: 12
   "90d":
-    pushes: 442
+    pushes: 440
     distinct_repos: 60
-    pushes_per_repo: 7.3667
+    pushes_per_repo: 7.3333
     active_days: 66
     repos_not_owned: 43
     not_owned_basenames: 9
@@ -146,6 +146,6 @@ repos:
 
 # nicobailon
 
-442 pushes across 60 repositories on 66 active days in the last 90 days of public GitHub push activity.
+440 pushes across 60 repositories on 66 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/nicobailon

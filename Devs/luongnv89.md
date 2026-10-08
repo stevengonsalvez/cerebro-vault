@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-07T15:16:07.319356+00:00"
+generated_at: "2026-10-08T06:04:38.976017+00:00"
 provenance:
   - "98a99d0df7599b35"
-pushes_per_week: [14, 8, 12, 5, 16, 4, 30, 6, 15, 32, 63, 30, 20]
+pushes_per_week: [9, 11, 12, 5, 13, 4, 32, 4, 15, 39, 63, 29, 14]
 windows:
   "7d":
-    pushes: 20
-    distinct_repos: 10
+    pushes: 17
+    distinct_repos: 9
     active_days: 4
-    repos_not_owned: 2
-    not_owned_basenames: 2
-    not_owned_owners: 2
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "30d":
-    pushes: 152
+    pushes: 150
     distinct_repos: 31
-    active_days: 25
+    active_days: 24
     repos_not_owned: 7
     not_owned_basenames: 7
     not_owned_owners: 3
   "90d":
-    pushes: 255
+    pushes: 250
     distinct_repos: 43
-    active_days: 64
+    active_days: 63
     repos_not_owned: 10
     not_owned_basenames: 10
     not_owned_owners: 4
 automation:
   state: "clear"
-  push_per_day: 3.9844
-  repo_per_active_day: 0.6719
+  push_per_day: 3.9683
+  repo_per_active_day: 0.6825
   not_owned_ratio: 0.2326
   basename_concentration: 0.0465
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 20
-    distinct_repos: 10
-    pushes_per_repo: 2.0000
+    pushes: 17
+    distinct_repos: 9
+    pushes_per_repo: 1.8889
     active_days: 4
-    repos_not_owned: 2
-    not_owned_basenames: 2
-    not_owned_owners: 2
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "30d":
-    pushes: 152
+    pushes: 150
     distinct_repos: 31
-    pushes_per_repo: 4.9032
-    active_days: 25
+    pushes_per_repo: 4.8387
+    active_days: 24
     repos_not_owned: 7
     not_owned_basenames: 7
     not_owned_owners: 3
   "90d":
-    pushes: 255
+    pushes: 250
     distinct_repos: 43
-    pushes_per_repo: 5.9302
-    active_days: 64
+    pushes_per_repo: 5.8140
+    active_days: 63
     repos_not_owned: 10
     not_owned_basenames: 10
     not_owned_owners: 4
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 64 active days in 90d — pass"
+  - "activity: 63 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "claude-howto"
@@ -148,6 +148,6 @@ repos:
 
 # luongnv89
 
-255 pushes across 43 repositories on 64 active days in the last 90 days of public GitHub push activity.
+250 pushes across 43 repositories on 63 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/luongnv89

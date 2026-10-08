@@ -9,13 +9,13 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-07T15:16:07.319356+00:00"
+generated_at: "2026-10-08T06:04:38.976017+00:00"
 provenance:
   - "379642deb53f3714"
-pushes_per_week: [41, 85, 57, 43, 45, 44, 17, 7, 6, 21, 25, 34, 35]
+pushes_per_week: [51, 82, 55, 39, 53, 34, 18, 6, 7, 23, 27, 39, 25]
 windows:
   "7d":
-    pushes: 35
+    pushes: 32
     distinct_repos: 9
     active_days: 6
     repos_not_owned: 3
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 8
     not_owned_owners: 5
   "90d":
-    pushes: 460
+    pushes: 459
     distinct_repos: 22
-    active_days: 82
+    active_days: 81
     repos_not_owned: 14
     not_owned_basenames: 14
     not_owned_owners: 5
 automation:
   state: "clear"
-  push_per_day: 5.6098
-  repo_per_active_day: 0.2683
+  push_per_day: 5.6667
+  repo_per_active_day: 0.2716
   not_owned_ratio: 0.6364
   basename_concentration: 0.0455
   shapes: []
@@ -49,9 +49,9 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 35
+    pushes: 32
     distinct_repos: 9
-    pushes_per_repo: 3.8889
+    pushes_per_repo: 3.5556
     active_days: 6
     repos_not_owned: 3
     not_owned_basenames: 3
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 8
     not_owned_owners: 5
   "90d":
-    pushes: 460
+    pushes: 459
     distinct_repos: 22
-    pushes_per_repo: 20.9091
-    active_days: 82
+    pushes_per_repo: 20.8636
+    active_days: 81
     repos_not_owned: 14
     not_owned_basenames: 14
     not_owned_owners: 5
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 82 active days in 90d — pass"
+  - "activity: 81 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "evil.sh"
@@ -129,6 +129,6 @@ repos:
 
 # mathiasbynens
 
-460 pushes across 22 repositories on 82 active days in the last 90 days of public GitHub push activity.
+459 pushes across 22 repositories on 81 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/mathiasbynens

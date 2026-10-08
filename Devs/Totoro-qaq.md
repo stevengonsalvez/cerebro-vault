@@ -10,11 +10,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-07T15:16:07.319356+00:00"
+generated_at: "2026-10-08T06:04:38.976017+00:00"
 provenance:
   - "16389f32495280ea"
   - "4d1450729e6ff44d"
-pushes_per_week: [4, 0, 0, 16, 7, 4, 2, 1, 2, 1, 4, 3, 0]
+pushes_per_week: [3, 0, 0, 16, 9, 2, 2, 1, 2, 3, 2, 3, 0]
 windows:
   "7d":
     pushes: 0
@@ -31,16 +31,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 44
+    pushes: 43
     distinct_repos: 9
-    active_days: 24
+    active_days: 23
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.8333
-  repo_per_active_day: 0.3750
+  push_per_day: 1.8696
+  repo_per_active_day: 0.3913
   not_owned_ratio: 0.0000
   basename_concentration: 0.1111
   shapes: []
@@ -67,16 +67,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 44
+    pushes: 43
     distinct_repos: 9
-    pushes_per_repo: 4.8889
-    active_days: 24
+    pushes_per_repo: 4.7778
+    active_days: 23
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 24 active days in 90d — pass"
+  - "activity: 23 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "dsh-plugin-bridge"
@@ -165,6 +165,6 @@ repos:
 
 # Totoro-qaq
 
-44 pushes across 9 repositories on 24 active days in the last 90 days of public GitHub push activity.
+43 pushes across 9 repositories on 23 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Totoro-qaq

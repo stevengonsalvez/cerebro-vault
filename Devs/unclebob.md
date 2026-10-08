@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-07T15:16:07.319356+00:00"
+generated_at: "2026-10-08T06:04:38.976017+00:00"
 provenance:
   - "91ad171deae90329"
-pushes_per_week: [5, 0, 8, 10, 0, 3, 2, 1, 0, 1, 2, 0, 3]
+pushes_per_week: [4, 0, 12, 6, 0, 3, 2, 1, 0, 1, 2, 1, 2]
 windows:
   "7d":
     pushes: 3
@@ -29,7 +29,7 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 35
+    pushes: 34
     distinct_repos: 10
     active_days: 21
     repos_not_owned: 0
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.6667
+  push_per_day: 1.6190
   repo_per_active_day: 0.4762
   not_owned_ratio: 0.0000
   basename_concentration: 0.1000
@@ -65,9 +65,9 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 35
+    pushes: 34
     distinct_repos: 10
-    pushes_per_repo: 3.5000
+    pushes_per_repo: 3.4000
     active_days: 21
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -129,6 +129,6 @@ repos:
 
 # unclebob
 
-35 pushes across 10 repositories on 21 active days in the last 90 days of public GitHub push activity.
+34 pushes across 10 repositories on 21 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/unclebob

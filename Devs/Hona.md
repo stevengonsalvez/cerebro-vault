@@ -9,13 +9,13 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-07T15:16:07.319356+00:00"
+generated_at: "2026-10-08T06:04:38.976017+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [14, 9, 9, 3, 14, 29, 18, 14, 8, 4, 22, 8, 21]
+pushes_per_week: [13, 9, 9, 7, 26, 13, 25, 7, 8, 7, 25, 5, 18]
 windows:
   "7d":
-    pushes: 21
+    pushes: 20
     distinct_repos: 3
     active_days: 5
     repos_not_owned: 1
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 173
+    pushes: 172
     distinct_repos: 11
-    active_days: 54
+    active_days: 53
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 3.2037
-  repo_per_active_day: 0.2037
+  push_per_day: 3.2453
+  repo_per_active_day: 0.2075
   not_owned_ratio: 0.1818
   basename_concentration: 0.1818
   shapes: []
@@ -49,9 +49,9 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 21
+    pushes: 20
     distinct_repos: 3
-    pushes_per_repo: 7.0000
+    pushes_per_repo: 6.6667
     active_days: 5
     repos_not_owned: 1
     not_owned_basenames: 1
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 173
+    pushes: 172
     distinct_repos: 11
-    pushes_per_repo: 15.7273
-    active_days: 54
+    pushes_per_repo: 15.6364
+    active_days: 53
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 54 active days in 90d — pass"
+  - "activity: 53 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "opencode-changelog-x"
@@ -129,6 +129,6 @@ repos:
 
 # Hona
 
-173 pushes across 11 repositories on 54 active days in the last 90 days of public GitHub push activity.
+172 pushes across 11 repositories on 53 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Hona

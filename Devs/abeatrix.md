@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-07T15:16:07.319356+00:00"
+generated_at: "2026-10-08T06:04:38.976017+00:00"
 provenance:
   - "533d51d9d3dea76f"
-pushes_per_week: [6, 10, 22, 14, 9, 6, 1, 0, 0, 4, 5, 8, 4]
+pushes_per_week: [6, 13, 18, 13, 13, 2, 1, 0, 0, 5, 4, 9, 3]
 windows:
   "7d":
-    pushes: 8
+    pushes: 4
     distinct_repos: 1
-    active_days: 3
+    active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -29,7 +29,7 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 89
+    pushes: 87
     distinct_repos: 1
     active_days: 37
     repos_not_owned: 1
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.4054
+  push_per_day: 2.3514
   repo_per_active_day: 0.0270
   not_owned_ratio: 1.0000
   basename_concentration: 1.0000
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 8
+    pushes: 4
     distinct_repos: 1
-    pushes_per_repo: 8.0000
-    active_days: 3
+    pushes_per_repo: 4.0000
+    active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -65,9 +65,9 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 89
+    pushes: 87
     distinct_repos: 1
-    pushes_per_repo: 89.0000
+    pushes_per_repo: 87.0000
     active_days: 37
     repos_not_owned: 1
     not_owned_basenames: 1
@@ -131,6 +131,6 @@ repos:
 
 # abeatrix
 
-89 pushes across 1 repository on 37 active days in the last 90 days of public GitHub push activity.
+87 pushes across 1 repository on 37 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/abeatrix

@@ -10,11 +10,12 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-07T15:16:07.319356+00:00"
+generated_at: "2026-10-08T06:04:38.976017+00:00"
 provenance:
   - "16389f32495280ea"
+  - "1df6ea1f1256059e"
   - "edb3a626875732de"
-pushes_per_week: [56, 8, 0, 0, 0, 2, 0, 0, 0, 0, 6, 5, 0]
+pushes_per_week: [59, 3, 0, 0, 0, 2, 0, 0, 0, 0, 6, 5, 0]
 windows:
   "7d":
     pushes: 0
@@ -31,16 +32,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 77
+    pushes: 75
     distinct_repos: 15
-    active_days: 15
+    active_days: 14
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 5.1333
-  repo_per_active_day: 1.0000
+  push_per_day: 5.3571
+  repo_per_active_day: 1.0714
   not_owned_ratio: 0.0000
   basename_concentration: 0.0667
   shapes: []
@@ -67,16 +68,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 77
+    pushes: 75
     distinct_repos: 15
-    pushes_per_repo: 5.1333
-    active_days: 15
+    pushes_per_repo: 5.0000
+    active_days: 14
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
-  - "provenance: 2 vault signal(s) — pass"
-  - "activity: 15 active days in 90d — pass"
+  - "provenance: 3 vault signal(s) — pass"
+  - "activity: 14 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "jsp-lean-formalizations"
@@ -138,6 +139,6 @@ repos:
 
 # nankingjing
 
-77 pushes across 15 repositories on 15 active days in the last 90 days of public GitHub push activity.
+75 pushes across 15 repositories on 14 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/nankingjing

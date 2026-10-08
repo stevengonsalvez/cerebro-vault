@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-07T15:16:07.319356+00:00"
+generated_at: "2026-10-08T06:04:38.976017+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [15, 25, 24, 24, 21, 3, 13, 4, 7, 15, 15, 38, 0]
+pushes_per_week: [19, 23, 26, 19, 21, 3, 15, 2, 11, 11, 19, 34, 0]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
-    pushes: 72
-    distinct_repos: 11
-    active_days: 16
+    pushes: 68
+    distinct_repos: 9
+    active_days: 14
     repos_not_owned: 7
     not_owned_basenames: 6
     not_owned_owners: 3
   "90d":
-    pushes: 204
+    pushes: 203
     distinct_repos: 24
     active_days: 52
     repos_not_owned: 11
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 3.9231
+  push_per_day: 3.9038
   repo_per_active_day: 0.4615
   not_owned_ratio: 0.4583
   basename_concentration: 0.0833
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
-    pushes: 72
-    distinct_repos: 11
-    pushes_per_repo: 6.5455
-    active_days: 16
+    pushes: 68
+    distinct_repos: 9
+    pushes_per_repo: 7.5556
+    active_days: 14
     repos_not_owned: 7
     not_owned_basenames: 6
     not_owned_owners: 3
   "90d":
-    pushes: 204
+    pushes: 203
     distinct_repos: 24
-    pushes_per_repo: 8.5000
+    pushes_per_repo: 8.4583
     active_days: 52
     repos_not_owned: 11
     not_owned_basenames: 10
@@ -131,6 +131,6 @@ repos:
 
 # metaphorics
 
-204 pushes across 24 repositories on 52 active days in the last 90 days of public GitHub push activity.
+203 pushes across 24 repositories on 52 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/metaphorics

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-07T15:16:07.319356+00:00"
+generated_at: "2026-10-08T06:04:38.976017+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [22, 3, 2, 46, 9, 17, 5, 2, 0, 4, 21, 2, 1]
+pushes_per_week: [22, 0, 5, 43, 21, 6, 5, 1, 0, 4, 21, 2, 1]
 windows:
   "7d":
     pushes: 1
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 5
     not_owned_owners: 1
   "90d":
-    pushes: 134
+    pushes: 131
     distinct_repos: 13
-    active_days: 34
+    active_days: 33
     repos_not_owned: 7
     not_owned_basenames: 7
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 3.9412
-  repo_per_active_day: 0.3824
+  push_per_day: 3.9697
+  repo_per_active_day: 0.3939
   not_owned_ratio: 0.5385
   basename_concentration: 0.1538
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 5
     not_owned_owners: 1
   "90d":
-    pushes: 134
+    pushes: 131
     distinct_repos: 13
-    pushes_per_repo: 10.3077
-    active_days: 34
+    pushes_per_repo: 10.0769
+    active_days: 33
     repos_not_owned: 7
     not_owned_basenames: 7
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 34 active days in 90d — pass"
+  - "activity: 33 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "homebrew-tap"
@@ -129,6 +129,6 @@ repos:
 
 # N4M3Z
 
-134 pushes across 13 repositories on 34 active days in the last 90 days of public GitHub push activity.
+131 pushes across 13 repositories on 33 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/N4M3Z

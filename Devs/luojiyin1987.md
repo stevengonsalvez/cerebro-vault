@@ -11,38 +11,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-07T15:16:07.319356+00:00"
+generated_at: "2026-10-08T06:04:38.976017+00:00"
 provenance:
   - "16389f32495280ea"
   - "234088bc43763aa2"
   - "4d1450729e6ff44d"
-pushes_per_week: [21, 25, 29, 11, 26, 56, 9, 3, 7, 5, 6, 8, 7]
+pushes_per_week: [21, 28, 27, 15, 52, 23, 9, 3, 7, 5, 8, 9, 4]
 windows:
   "7d":
-    pushes: 7
+    pushes: 6
     distinct_repos: 4
     active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 29
-    distinct_repos: 12
-    active_days: 15
+    pushes: 27
+    distinct_repos: 11
+    active_days: 14
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 213
+    pushes: 211
     distinct_repos: 52
-    active_days: 55
+    active_days: 54
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 3.8727
-  repo_per_active_day: 0.9455
+  push_per_day: 3.9074
+  repo_per_active_day: 0.9630
   not_owned_ratio: 0.0962
   basename_concentration: 0.0385
   shapes: []
@@ -53,32 +53,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 7
+    pushes: 6
     distinct_repos: 4
-    pushes_per_repo: 1.7500
+    pushes_per_repo: 1.5000
     active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 29
-    distinct_repos: 12
-    pushes_per_repo: 2.4167
-    active_days: 15
+    pushes: 27
+    distinct_repos: 11
+    pushes_per_repo: 2.4545
+    active_days: 14
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 213
+    pushes: 211
     distinct_repos: 52
-    pushes_per_repo: 4.0962
-    active_days: 55
+    pushes_per_repo: 4.0577
+    active_days: 54
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 2
 reasons:
   - "provenance: 3 vault signal(s) — pass"
-  - "activity: 55 active days in 90d — pass"
+  - "activity: 54 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "codex-recall"
@@ -133,6 +133,6 @@ repos:
 
 # luojiyin1987
 
-213 pushes across 52 repositories on 55 active days in the last 90 days of public GitHub push activity.
+211 pushes across 52 repositories on 54 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/luojiyin1987

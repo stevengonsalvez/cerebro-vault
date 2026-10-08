@@ -9,17 +9,17 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-07T15:16:07.319356+00:00"
+generated_at: "2026-10-08T06:04:38.976017+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [13, 11, 20, 7, 2, 12, 0, 1, 1, 6, 11, 17, 6]
+pushes_per_week: [13, 13, 20, 4, 9, 5, 0, 1, 3, 6, 9, 17, 6]
 windows:
   "7d":
-    pushes: 9
-    distinct_repos: 6
-    active_days: 5
-    repos_not_owned: 2
-    not_owned_basenames: 2
+    pushes: 6
+    distinct_repos: 4
+    active_days: 4
+    repos_not_owned: 1
+    not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
     pushes: 40
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 4
     not_owned_owners: 2
   "90d":
-    pushes: 107
+    pushes: 106
     distinct_repos: 19
-    active_days: 45
+    active_days: 44
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 2.3778
-  repo_per_active_day: 0.4222
+  push_per_day: 2.4091
+  repo_per_active_day: 0.4318
   not_owned_ratio: 0.2105
   basename_concentration: 0.1053
   shapes: []
@@ -49,12 +49,12 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 9
-    distinct_repos: 6
+    pushes: 6
+    distinct_repos: 4
     pushes_per_repo: 1.5000
-    active_days: 5
-    repos_not_owned: 2
-    not_owned_basenames: 2
+    active_days: 4
+    repos_not_owned: 1
+    not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
     pushes: 40
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 4
     not_owned_owners: 2
   "90d":
-    pushes: 107
+    pushes: 106
     distinct_repos: 19
-    pushes_per_repo: 5.6316
-    active_days: 45
+    pushes_per_repo: 5.5789
+    active_days: 44
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 45 active days in 90d — pass"
+  - "activity: 44 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "PuterJS-UI"
@@ -135,6 +135,6 @@ repos:
 
 # nerdCopter
 
-107 pushes across 19 repositories on 45 active days in the last 90 days of public GitHub push activity.
+106 pushes across 19 repositories on 44 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/nerdCopter

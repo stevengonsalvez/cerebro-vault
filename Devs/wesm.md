@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-07T15:16:07.319356+00:00"
+generated_at: "2026-10-08T06:04:38.976017+00:00"
 provenance:
   - "68551dc8cb2a5ed6"
-pushes_per_week: [118, 143, 119, 121, 128, 176, 33, 8, 19, 18, 62, 77, 70]
+pushes_per_week: [122, 174, 95, 110, 188, 107, 35, 6, 21, 29, 50, 93, 56]
 windows:
   "7d":
-    pushes: 76
+    pushes: 68
     distinct_repos: 19
     active_days: 7
     repos_not_owned: 18
     not_owned_basenames: 11
     not_owned_owners: 5
   "30d":
-    pushes: 238
-    distinct_repos: 32
+    pushes: 233
+    distinct_repos: 31
     active_days: 28
-    repos_not_owned: 31
+    repos_not_owned: 30
     not_owned_basenames: 13
-    not_owned_owners: 12
+    not_owned_owners: 11
   "90d":
-    pushes: 1092
+    pushes: 1086
     distinct_repos: 64
     active_days: 79
     repos_not_owned: 61
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 37
 automation:
   state: "clear"
-  push_per_day: 13.8228
+  push_per_day: 13.7468
   repo_per_active_day: 0.8101
   not_owned_ratio: 0.9531
   basename_concentration: 0.2500
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 76
+    pushes: 68
     distinct_repos: 19
-    pushes_per_repo: 4.0000
+    pushes_per_repo: 3.5789
     active_days: 7
     repos_not_owned: 18
     not_owned_basenames: 11
     not_owned_owners: 5
   "30d":
-    pushes: 238
-    distinct_repos: 32
-    pushes_per_repo: 7.4375
+    pushes: 233
+    distinct_repos: 31
+    pushes_per_repo: 7.5161
     active_days: 28
-    repos_not_owned: 31
+    repos_not_owned: 30
     not_owned_basenames: 13
-    not_owned_owners: 12
+    not_owned_owners: 11
   "90d":
-    pushes: 1092
+    pushes: 1086
     distinct_repos: 64
-    pushes_per_repo: 17.0625
+    pushes_per_repo: 16.9688
     active_days: 79
     repos_not_owned: 61
     not_owned_basenames: 18
@@ -129,6 +129,6 @@ repos:
 
 # wesm
 
-1092 pushes across 64 repositories on 79 active days in the last 90 days of public GitHub push activity.
+1086 pushes across 64 repositories on 79 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/wesm

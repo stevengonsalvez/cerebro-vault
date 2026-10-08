@@ -9,15 +9,17 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-07T15:16:07.319356+00:00"
+generated_at: "2026-10-08T06:04:38.976017+00:00"
 provenance:
   - "01cd6a498d377caf"
   - "03604cccd7e9402d"
   - "0754e13e69e8f4d3"
   - "0880c239db0357ef"
   - "09d0c8e5c7031ff7"
+  - "0ba886b07133e21d"
   - "0c734930a759f57a"
   - "0d10a691ebcb0e61"
+  - "0dfdf17053d5d17a"
   - "0e371a11c328c372"
   - "13d96f6971fff698"
   - "199f1aeef5f0463c"
@@ -66,7 +68,7 @@ provenance:
   - "f9a1870648a6375a"
   - "fe9e50bf2d5b21fe"
   - "ff1ca072bf39e471"
-pushes_per_week: [12, 6, 6, 2, 1, 1, 7, 0, 0, 3, 1, 7, 2]
+pushes_per_week: [10, 6, 6, 2, 1, 1, 7, 0, 0, 3, 1, 7, 2]
 windows:
   "7d":
     pushes: 2
@@ -83,16 +85,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 48
+    pushes: 46
     distinct_repos: 2
-    active_days: 29
+    active_days: 28
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.6552
-  repo_per_active_day: 0.0690
+  push_per_day: 1.6429
+  repo_per_active_day: 0.0714
   not_owned_ratio: 0.0000
   basename_concentration: 0.5000
   shapes: []
@@ -119,16 +121,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 48
+    pushes: 46
     distinct_repos: 2
-    pushes_per_repo: 24.0000
-    active_days: 29
+    pushes_per_repo: 23.0000
+    active_days: 28
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
-  - "provenance: 55 vault signal(s) — pass"
-  - "activity: 29 active days in 90d — pass"
+  - "provenance: 57 vault signal(s) — pass"
+  - "activity: 28 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "pi-bites"
@@ -186,6 +188,6 @@ repos:
 
 # jamestrew
 
-48 pushes across 2 repositories on 29 active days in the last 90 days of public GitHub push activity.
+46 pushes across 2 repositories on 28 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/jamestrew

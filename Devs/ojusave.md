@@ -9,13 +9,13 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-07T15:16:07.319356+00:00"
+generated_at: "2026-10-08T06:04:38.976017+00:00"
 provenance:
   - "46f3c1d6124190bd"
-pushes_per_week: [29, 37, 9, 9, 0, 1, 0, 0, 0, 1, 6, 6, 3]
+pushes_per_week: [25, 37, 14, 4, 0, 1, 0, 0, 0, 1, 6, 9, 0]
 windows:
   "7d":
-    pushes: 3
+    pushes: 2
     distinct_repos: 1
     active_days: 1
     repos_not_owned: 0
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 101
-    distinct_repos: 34
-    active_days: 30
+    pushes: 97
+    distinct_repos: 33
+    active_days: 29
     repos_not_owned: 6
     not_owned_basenames: 6
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 3.3667
-  repo_per_active_day: 1.1333
-  not_owned_ratio: 0.1765
-  basename_concentration: 0.0588
+  push_per_day: 3.3448
+  repo_per_active_day: 1.1379
+  not_owned_ratio: 0.1818
+  basename_concentration: 0.0606
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,9 +49,9 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 3
+    pushes: 2
     distinct_repos: 1
-    pushes_per_repo: 3.0000
+    pushes_per_repo: 2.0000
     active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 101
-    distinct_repos: 34
-    pushes_per_repo: 2.9706
-    active_days: 30
+    pushes: 97
+    distinct_repos: 33
+    pushes_per_repo: 2.9394
+    active_days: 29
     repos_not_owned: 6
     not_owned_basenames: 6
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 30 active days in 90d — pass"
+  - "activity: 29 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "renderpg"
@@ -129,6 +129,6 @@ repos:
 
 # ojusave
 
-101 pushes across 34 repositories on 30 active days in the last 90 days of public GitHub push activity.
+97 pushes across 33 repositories on 29 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ojusave

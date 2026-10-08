@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-07T15:16:07.319356+00:00"
+generated_at: "2026-10-08T06:04:38.976017+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [10, 6, 4, 5, 4, 6, 7, 0, 0, 16, 17, 11, 13]
+pushes_per_week: [9, 4, 6, 4, 3, 6, 7, 0, 3, 15, 15, 11, 13]
 windows:
   "7d":
     pushes: 13
@@ -29,7 +29,7 @@ windows:
     not_owned_basenames: 4
     not_owned_owners: 2
   "90d":
-    pushes: 99
+    pushes: 96
     distinct_repos: 29
     active_days: 38
     repos_not_owned: 5
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 2.6053
+  push_per_day: 2.5263
   repo_per_active_day: 0.7632
   not_owned_ratio: 0.1724
   basename_concentration: 0.0345
@@ -65,9 +65,9 @@ facets:
     not_owned_basenames: 4
     not_owned_owners: 2
   "90d":
-    pushes: 99
+    pushes: 96
     distinct_repos: 29
-    pushes_per_repo: 3.4138
+    pushes_per_repo: 3.3103
     active_days: 38
     repos_not_owned: 5
     not_owned_basenames: 5
@@ -129,6 +129,6 @@ repos:
 
 # Avicennasis
 
-99 pushes across 29 repositories on 38 active days in the last 90 days of public GitHub push activity.
+96 pushes across 29 repositories on 38 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Avicennasis

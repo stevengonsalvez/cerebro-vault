@@ -9,10 +9,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-07T15:16:07.319356+00:00"
+generated_at: "2026-10-08T06:04:38.976017+00:00"
 provenance:
+  - "1df6ea1f1256059e"
   - "edb3a626875732de"
-pushes_per_week: [25, 7, 15, 14, 9, 9, 2, 4, 0, 2, 6, 7, 9]
+pushes_per_week: [24, 9, 11, 16, 7, 9, 2, 4, 0, 2, 8, 7, 7]
 windows:
   "7d":
     pushes: 9
@@ -29,16 +30,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 109
+    pushes: 106
     distinct_repos: 10
-    active_days: 45
+    active_days: 44
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.4222
-  repo_per_active_day: 0.2222
+  push_per_day: 2.4091
+  repo_per_active_day: 0.2273
   not_owned_ratio: 0.0000
   basename_concentration: 0.1000
   shapes: []
@@ -65,16 +66,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 109
+    pushes: 106
     distinct_repos: 10
-    pushes_per_repo: 10.9000
-    active_days: 45
+    pushes_per_repo: 10.6000
+    active_days: 44
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
-  - "provenance: 1 vault signal(s) — pass"
-  - "activity: 45 active days in 90d — pass"
+  - "provenance: 2 vault signal(s) — pass"
+  - "activity: 44 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "aih-catalog"
@@ -149,6 +150,6 @@ repos:
 
 # samartomar
 
-109 pushes across 10 repositories on 45 active days in the last 90 days of public GitHub push activity.
+106 pushes across 10 repositories on 44 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/samartomar

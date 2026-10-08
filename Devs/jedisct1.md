@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-07T15:16:07.319356+00:00"
+generated_at: "2026-10-08T06:04:38.976017+00:00"
 provenance:
   - "3eacb4655aba2497"
-pushes_per_week: [35, 12, 5, 7, 6, 4, 1, 0, 2, 8, 11, 24, 11]
+pushes_per_week: [32, 12, 8, 5, 7, 2, 1, 0, 2, 10, 9, 26, 9]
 windows:
   "7d":
     pushes: 11
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 10
     not_owned_owners: 6
   "90d":
-    pushes: 126
-    distinct_repos: 60
-    active_days: 43
-    repos_not_owned: 25
-    not_owned_basenames: 24
-    not_owned_owners: 10
+    pushes: 123
+    distinct_repos: 59
+    active_days: 42
+    repos_not_owned: 24
+    not_owned_basenames: 23
+    not_owned_owners: 9
 automation:
   state: "clear"
-  push_per_day: 2.9302
-  repo_per_active_day: 1.3953
-  not_owned_ratio: 0.4167
-  basename_concentration: 0.0333
+  push_per_day: 2.9286
+  repo_per_active_day: 1.4048
+  not_owned_ratio: 0.4068
+  basename_concentration: 0.0339
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 10
     not_owned_owners: 6
   "90d":
-    pushes: 126
-    distinct_repos: 60
-    pushes_per_repo: 2.1000
-    active_days: 43
-    repos_not_owned: 25
-    not_owned_basenames: 24
-    not_owned_owners: 10
+    pushes: 123
+    distinct_repos: 59
+    pushes_per_repo: 2.0847
+    active_days: 42
+    repos_not_owned: 24
+    not_owned_basenames: 23
+    not_owned_owners: 9
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 43 active days in 90d — pass"
+  - "activity: 42 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "libsodium.js"
@@ -161,6 +161,6 @@ repos:
 
 # jedisct1
 
-126 pushes across 60 repositories on 43 active days in the last 90 days of public GitHub push activity.
+123 pushes across 59 repositories on 42 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/jedisct1

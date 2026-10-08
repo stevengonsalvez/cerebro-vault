@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-07T15:16:07.319356+00:00"
+generated_at: "2026-10-08T06:04:38.976017+00:00"
 provenance:
   - "d399d99ef4e490b6"
-pushes_per_week: [10, 2, 6, 11, 13, 21, 0, 0, 3, 3, 10, 7, 13]
+pushes_per_week: [8, 3, 13, 3, 20, 14, 0, 0, 3, 7, 7, 9, 10]
 windows:
   "7d":
-    pushes: 14
+    pushes: 13
     distinct_repos: 2
-    active_days: 6
+    active_days: 5
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 36
+    pushes: 35
     distinct_repos: 2
-    active_days: 17
+    active_days: 16
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 99
+    pushes: 97
     distinct_repos: 2
-    active_days: 34
+    active_days: 33
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.9118
-  repo_per_active_day: 0.0588
+  push_per_day: 2.9394
+  repo_per_active_day: 0.0606
   not_owned_ratio: 1.0000
   basename_concentration: 0.5000
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 14
+    pushes: 13
     distinct_repos: 2
-    pushes_per_repo: 7.0000
-    active_days: 6
+    pushes_per_repo: 6.5000
+    active_days: 5
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 36
+    pushes: 35
     distinct_repos: 2
-    pushes_per_repo: 18.0000
-    active_days: 17
+    pushes_per_repo: 17.5000
+    active_days: 16
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 99
+    pushes: 97
     distinct_repos: 2
-    pushes_per_repo: 49.5000
-    active_days: 34
+    pushes_per_repo: 48.5000
+    active_days: 33
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 34 active days in 90d — pass"
+  - "activity: 33 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "Task-Scheduling-Based-on-Genetic-Algorithms"
@@ -129,6 +129,6 @@ repos:
 
 # dexters1
 
-99 pushes across 2 repositories on 34 active days in the last 90 days of public GitHub push activity.
+97 pushes across 2 repositories on 33 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/dexters1

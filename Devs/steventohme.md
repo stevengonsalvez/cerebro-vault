@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-07T15:16:07.319356+00:00"
+generated_at: "2026-10-08T06:04:38.976017+00:00"
 provenance:
   - "0af70dc4df451a55"
-pushes_per_week: [49, 16, 15, 14, 5, 1, 4, 1, 0, 4, 8, 5, 10]
+pushes_per_week: [39, 22, 9, 11, 5, 1, 4, 1, 0, 4, 8, 6, 9]
 windows:
   "7d":
     pushes: 10
@@ -29,7 +29,7 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 132
+    pushes: 119
     distinct_repos: 2
     active_days: 40
     repos_not_owned: 2
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 3.3000
+  push_per_day: 2.9750
   repo_per_active_day: 0.0500
   not_owned_ratio: 1.0000
   basename_concentration: 1.0000
@@ -65,9 +65,9 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 132
+    pushes: 119
     distinct_repos: 2
-    pushes_per_repo: 66.0000
+    pushes_per_repo: 59.5000
     active_days: 40
     repos_not_owned: 2
     not_owned_basenames: 1
@@ -129,6 +129,6 @@ repos:
 
 # steventohme
 
-132 pushes across 2 repositories on 40 active days in the last 90 days of public GitHub push activity.
+119 pushes across 2 repositories on 40 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/steventohme

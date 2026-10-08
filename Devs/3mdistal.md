@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-07T15:16:07.319356+00:00"
+generated_at: "2026-10-08T06:04:38.976017+00:00"
 provenance:
   - "745308b2b7085095"
-pushes_per_week: [47, 111, 39, 18, 9, 7, 3, 0, 0, 7, 11, 28, 46]
+pushes_per_week: [51, 110, 38, 12, 14, 2, 3, 0, 0, 9, 10, 31, 42]
 windows:
   "7d":
-    pushes: 48
+    pushes: 44
     distinct_repos: 1
-    active_days: 7
+    active_days: 6
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 326
+    pushes: 322
     distinct_repos: 5
-    active_days: 51
+    active_days: 50
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 6.3922
-  repo_per_active_day: 0.0980
+  push_per_day: 6.4400
+  repo_per_active_day: 0.1000
   not_owned_ratio: 0.2000
   basename_concentration: 0.4000
   shapes: []
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 48
+    pushes: 44
     distinct_repos: 1
-    pushes_per_repo: 48.0000
-    active_days: 7
+    pushes_per_repo: 44.0000
+    active_days: 6
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 326
+    pushes: 322
     distinct_repos: 5
-    pushes_per_repo: 65.2000
-    active_days: 51
+    pushes_per_repo: 64.4000
+    active_days: 50
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 51 active days in 90d — pass"
+  - "activity: 50 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "alicealexandra.com"
@@ -129,6 +129,6 @@ repos:
 
 # 3mdistal
 
-326 pushes across 5 repositories on 51 active days in the last 90 days of public GitHub push activity.
+322 pushes across 5 repositories on 50 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/3mdistal

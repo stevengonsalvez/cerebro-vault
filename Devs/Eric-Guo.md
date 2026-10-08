@@ -9,14 +9,14 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-07T15:16:07.319356+00:00"
+generated_at: "2026-10-08T06:04:38.976017+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [38, 51, 29, 27, 23, 17, 5, 5, 10, 14, 36, 31, 29]
+pushes_per_week: [43, 47, 30, 21, 30, 8, 7, 3, 10, 17, 37, 32, 24]
 windows:
   "7d":
-    pushes: 29
-    distinct_repos: 8
+    pushes: 27
+    distinct_repos: 7
     active_days: 5
     repos_not_owned: 3
     not_owned_basenames: 3
@@ -29,7 +29,7 @@ windows:
     not_owned_basenames: 5
     not_owned_owners: 1
   "90d":
-    pushes: 315
+    pushes: 309
     distinct_repos: 26
     active_days: 73
     repos_not_owned: 5
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 4.3151
+  push_per_day: 4.2329
   repo_per_active_day: 0.3562
   not_owned_ratio: 0.1923
   basename_concentration: 0.0385
@@ -49,9 +49,9 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 29
-    distinct_repos: 8
-    pushes_per_repo: 3.6250
+    pushes: 27
+    distinct_repos: 7
+    pushes_per_repo: 3.8571
     active_days: 5
     repos_not_owned: 3
     not_owned_basenames: 3
@@ -65,9 +65,9 @@ facets:
     not_owned_basenames: 5
     not_owned_owners: 1
   "90d":
-    pushes: 315
+    pushes: 309
     distinct_repos: 26
-    pushes_per_repo: 12.1154
+    pushes_per_repo: 11.8846
     active_days: 73
     repos_not_owned: 5
     not_owned_basenames: 5
@@ -135,6 +135,6 @@ repos:
 
 # Eric-Guo
 
-315 pushes across 26 repositories on 73 active days in the last 90 days of public GitHub push activity.
+309 pushes across 26 repositories on 73 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Eric-Guo

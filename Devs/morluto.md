@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-07T15:16:07.319356+00:00"
+generated_at: "2026-10-08T06:04:38.976017+00:00"
 provenance:
   - "458c04cd04ca960b"
-pushes_per_week: [88, 56, 54, 116, 124, 81, 88, 32, 6, 62, 4, 266, 54]
+pushes_per_week: [102, 46, 59, 105, 161, 45, 88, 29, 6, 62, 11, 263, 50]
 windows:
   "7d":
-    pushes: 55
+    pushes: 54
     distinct_repos: 3
-    active_days: 7
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 1031
-    distinct_repos: 29
-    active_days: 75
+    pushes: 1027
+    distinct_repos: 28
+    active_days: 74
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 13.7467
-  repo_per_active_day: 0.3867
-  not_owned_ratio: 0.0345
-  basename_concentration: 0.0690
+  push_per_day: 13.8784
+  repo_per_active_day: 0.3784
+  not_owned_ratio: 0.0357
+  basename_concentration: 0.0714
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 55
+    pushes: 54
     distinct_repos: 3
-    pushes_per_repo: 18.3333
-    active_days: 7
+    pushes_per_repo: 18.0000
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 1031
-    distinct_repos: 29
-    pushes_per_repo: 35.5517
-    active_days: 75
+    pushes: 1027
+    distinct_repos: 28
+    pushes_per_repo: 36.6786
+    active_days: 74
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 75 active days in 90d — pass"
+  - "activity: 74 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "rea"
@@ -232,6 +232,6 @@ repos:
 
 # morluto
 
-1031 pushes across 29 repositories on 75 active days in the last 90 days of public GitHub push activity.
+1027 pushes across 28 repositories on 74 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/morluto

@@ -10,15 +10,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-07T15:16:07.319356+00:00"
+generated_at: "2026-10-08T06:04:38.976017+00:00"
 provenance:
   - "4138778ebbc75ba6"
   - "de6bf05613f3ae04"
-pushes_per_week: [16, 0, 12, 3, 3, 4, 0, 0, 0, 2, 3, 12, 6]
+pushes_per_week: [15, 0, 12, 3, 3, 4, 0, 0, 0, 2, 4, 14, 3]
 windows:
   "7d":
-    pushes: 6
-    distinct_repos: 3
+    pushes: 4
+    distinct_repos: 2
     active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -31,7 +31,7 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 61
+    pushes: 60
     distinct_repos: 22
     active_days: 27
     repos_not_owned: 0
@@ -39,7 +39,7 @@ windows:
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.2593
+  push_per_day: 2.2222
   repo_per_active_day: 0.8148
   not_owned_ratio: 0.0000
   basename_concentration: 0.0455
@@ -51,8 +51,8 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 6
-    distinct_repos: 3
+    pushes: 4
+    distinct_repos: 2
     pushes_per_repo: 2.0000
     active_days: 3
     repos_not_owned: 0
@@ -67,9 +67,9 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 61
+    pushes: 60
     distinct_repos: 22
-    pushes_per_repo: 2.7727
+    pushes_per_repo: 2.7273
     active_days: 27
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -185,6 +185,6 @@ repos:
 
 # everton-dgn
 
-61 pushes across 22 repositories on 27 active days in the last 90 days of public GitHub push activity.
+60 pushes across 22 repositories on 27 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/everton-dgn

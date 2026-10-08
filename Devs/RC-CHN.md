@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-07T15:16:07.319356+00:00"
+generated_at: "2026-10-08T06:04:38.976017+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [8, 3, 4, 4, 9, 4, 2, 0, 3, 1, 7, 13, 0]
+pushes_per_week: [5, 4, 3, 4, 11, 2, 2, 0, 3, 2, 11, 8, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 58
+    pushes: 55
     distinct_repos: 10
-    active_days: 30
+    active_days: 29
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 1.9333
-  repo_per_active_day: 0.3333
+  push_per_day: 1.8966
+  repo_per_active_day: 0.3448
   not_owned_ratio: 0.2000
   basename_concentration: 0.2000
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 58
+    pushes: 55
     distinct_repos: 10
-    pushes_per_repo: 5.8000
-    active_days: 30
+    pushes_per_repo: 5.5000
+    active_days: 29
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 30 active days in 90d — pass"
+  - "activity: 29 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "wg-quic"
@@ -129,6 +129,6 @@ repos:
 
 # RC-CHN
 
-58 pushes across 10 repositories on 30 active days in the last 90 days of public GitHub push activity.
+55 pushes across 10 repositories on 29 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/RC-CHN

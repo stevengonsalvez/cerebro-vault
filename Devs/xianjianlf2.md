@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-07T15:16:07.319356+00:00"
+generated_at: "2026-10-08T06:04:38.976017+00:00"
 provenance:
   - "9e2ff10d772b1e71"
-pushes_per_week: [9, 8, 4, 5, 17, 5, 0, 1, 0, 2, 4, 0, 1]
+pushes_per_week: [8, 8, 4, 7, 17, 3, 0, 1, 0, 2, 4, 0, 3]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
+    pushes: 3
+    distinct_repos: 2
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 7
-    distinct_repos: 3
-    active_days: 6
+    pushes: 9
+    distinct_repos: 4
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 56
-    distinct_repos: 27
+    pushes: 57
+    distinct_repos: 26
     active_days: 26
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.1538
-  repo_per_active_day: 1.0385
+  push_per_day: 2.1923
+  repo_per_active_day: 1.0000
   not_owned_ratio: 0.0000
-  basename_concentration: 0.0370
+  basename_concentration: 0.0385
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes: 3
+    distinct_repos: 2
+    pushes_per_repo: 1.5000
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 7
-    distinct_repos: 3
-    pushes_per_repo: 2.3333
-    active_days: 6
+    pushes: 9
+    distinct_repos: 4
+    pushes_per_repo: 2.2500
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 56
-    distinct_repos: 27
-    pushes_per_repo: 2.0741
+    pushes: 57
+    distinct_repos: 26
+    pushes_per_repo: 2.1923
     active_days: 26
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -170,6 +170,6 @@ repos:
 
 # xianjianlf2
 
-56 pushes across 27 repositories on 26 active days in the last 90 days of public GitHub push activity.
+57 pushes across 26 repositories on 26 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/xianjianlf2

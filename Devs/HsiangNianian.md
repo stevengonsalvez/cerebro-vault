@@ -10,11 +10,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-07T15:16:07.319356+00:00"
+generated_at: "2026-10-08T06:04:38.976017+00:00"
 provenance:
   - "234088bc43763aa2"
   - "3c90af76cbde0363"
-pushes_per_week: [167, 117, 54, 24, 32, 24, 0, 2, 0, 3, 6, 11, 2]
+pushes_per_week: [171, 105, 55, 20, 35, 19, 1, 1, 0, 4, 5, 11, 2]
 windows:
   "7d":
     pushes: 2
@@ -31,16 +31,16 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 3
   "90d":
-    pushes: 442
+    pushes: 429
     distinct_repos: 19
-    active_days: 53
+    active_days: 52
     repos_not_owned: 6
     not_owned_basenames: 5
     not_owned_owners: 5
 automation:
   state: "clear"
-  push_per_day: 8.3396
-  repo_per_active_day: 0.3585
+  push_per_day: 8.2500
+  repo_per_active_day: 0.3654
   not_owned_ratio: 0.3158
   basename_concentration: 0.1579
   shapes: []
@@ -67,16 +67,16 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 3
   "90d":
-    pushes: 442
+    pushes: 429
     distinct_repos: 19
-    pushes_per_repo: 23.2632
-    active_days: 53
+    pushes_per_repo: 22.5789
+    active_days: 52
     repos_not_owned: 6
     not_owned_basenames: 5
     not_owned_owners: 5
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 53 active days in 90d — pass"
+  - "activity: 52 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "jev-turtle-soup"
@@ -166,6 +166,6 @@ repos:
 
 # HsiangNianian
 
-442 pushes across 19 repositories on 53 active days in the last 90 days of public GitHub push activity.
+429 pushes across 19 repositories on 52 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/HsiangNianian

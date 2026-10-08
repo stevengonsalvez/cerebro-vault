@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-07T15:16:07.319356+00:00"
+generated_at: "2026-10-08T06:04:38.976017+00:00"
 provenance:
   - "3eacb4655aba2497"
-pushes_per_week: [35, 26, 12, 2, 11, 5, 9, 2, 2, 5, 10, 10, 11]
+pushes_per_week: [35, 28, 9, 2, 11, 5, 9, 2, 2, 5, 11, 13, 7]
 windows:
   "7d":
     pushes: 11
@@ -29,7 +29,7 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 140
+    pushes: 139
     distinct_repos: 29
     active_days: 49
     repos_not_owned: 7
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 4
 automation:
   state: "clear"
-  push_per_day: 2.8571
+  push_per_day: 2.8367
   repo_per_active_day: 0.5918
   not_owned_ratio: 0.2414
   basename_concentration: 0.0690
@@ -65,9 +65,9 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 140
+    pushes: 139
     distinct_repos: 29
-    pushes_per_repo: 4.8276
+    pushes_per_repo: 4.7931
     active_days: 49
     repos_not_owned: 7
     not_owned_basenames: 7
@@ -129,6 +129,6 @@ repos:
 
 # audreyt
 
-140 pushes across 29 repositories on 49 active days in the last 90 days of public GitHub push activity.
+139 pushes across 29 repositories on 49 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/audreyt

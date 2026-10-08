@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-07T15:16:07.319356+00:00"
+generated_at: "2026-10-08T06:04:38.976017+00:00"
 provenance:
   - "a50b0e08dbaee74a"
-pushes_per_week: [17, 5, 2, 7, 19, 5, 1, 0, 0, 0, 0, 1, 0]
+pushes_per_week: [16, 5, 2, 7, 23, 1, 1, 0, 0, 0, 0, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 57
-    distinct_repos: 18
+    pushes: 56
+    distinct_repos: 17
     active_days: 21
     repos_not_owned: 8
     not_owned_basenames: 7
     not_owned_owners: 4
 automation:
   state: "clear"
-  push_per_day: 2.7143
-  repo_per_active_day: 0.8571
-  not_owned_ratio: 0.4444
-  basename_concentration: 0.1111
+  push_per_day: 2.6667
+  repo_per_active_day: 0.8095
+  not_owned_ratio: 0.4706
+  basename_concentration: 0.1176
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,9 +65,9 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 57
-    distinct_repos: 18
-    pushes_per_repo: 3.1667
+    pushes: 56
+    distinct_repos: 17
+    pushes_per_repo: 3.2941
     active_days: 21
     repos_not_owned: 8
     not_owned_basenames: 7
@@ -129,6 +129,6 @@ repos:
 
 # wirjo
 
-57 pushes across 18 repositories on 21 active days in the last 90 days of public GitHub push activity.
+56 pushes across 17 repositories on 21 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/wirjo

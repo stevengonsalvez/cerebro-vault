@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-07T15:16:07.319356+00:00"
+generated_at: "2026-10-08T06:04:38.976017+00:00"
 provenance:
   - "6d3bd03b49986330"
-pushes_per_week: [8, 22, 14, 0, 0, 8, 4, 0, 1, 2, 18, 5, 16]
+pushes_per_week: [7, 22, 14, 0, 0, 8, 4, 0, 1, 2, 18, 5, 16]
 windows:
   "7d":
-    pushes: 17
+    pushes: 16
     distinct_repos: 11
-    active_days: 4
+    active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 98
+    pushes: 97
     distinct_repos: 22
-    active_days: 22
+    active_days: 21
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 4.4545
-  repo_per_active_day: 1.0000
+  push_per_day: 4.6190
+  repo_per_active_day: 1.0476
   not_owned_ratio: 0.0455
   basename_concentration: 0.0455
   shapes: []
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 17
+    pushes: 16
     distinct_repos: 11
-    pushes_per_repo: 1.5455
-    active_days: 4
+    pushes_per_repo: 1.4545
+    active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 98
+    pushes: 97
     distinct_repos: 22
-    pushes_per_repo: 4.4545
-    active_days: 22
+    pushes_per_repo: 4.4091
+    active_days: 21
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 22 active days in 90d — pass"
+  - "activity: 21 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "agentitest"
@@ -141,6 +141,6 @@ repos:
 
 # kweinmeister
 
-98 pushes across 22 repositories on 22 active days in the last 90 days of public GitHub push activity.
+97 pushes across 22 repositories on 21 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/kweinmeister

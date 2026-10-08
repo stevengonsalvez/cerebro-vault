@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-07T15:16:07.319356+00:00"
+generated_at: "2026-10-08T06:04:38.976017+00:00"
 provenance:
   - "73468cde177ddae6"
-pushes_per_week: [90, 60, 40, 40, 10, 19, 7, 1, 4, 8, 18, 17, 62]
+pushes_per_week: [93, 56, 37, 37, 10, 20, 7, 0, 4, 13, 15, 30, 48]
 windows:
   "7d":
-    pushes: 63
+    pushes: 59
     distinct_repos: 14
     active_days: 7
     repos_not_owned: 11
     not_owned_basenames: 7
     not_owned_owners: 4
   "30d":
-    pushes: 107
+    pushes: 106
     distinct_repos: 19
     active_days: 24
     repos_not_owned: 11
     not_owned_basenames: 7
     not_owned_owners: 4
   "90d":
-    pushes: 376
+    pushes: 370
     distinct_repos: 29
     active_days: 67
     repos_not_owned: 11
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 4
 automation:
   state: "clear"
-  push_per_day: 5.6119
+  push_per_day: 5.5224
   repo_per_active_day: 0.4328
   not_owned_ratio: 0.3793
   basename_concentration: 0.1724
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 63
+    pushes: 59
     distinct_repos: 14
-    pushes_per_repo: 4.5000
+    pushes_per_repo: 4.2143
     active_days: 7
     repos_not_owned: 11
     not_owned_basenames: 7
     not_owned_owners: 4
   "30d":
-    pushes: 107
+    pushes: 106
     distinct_repos: 19
-    pushes_per_repo: 5.6316
+    pushes_per_repo: 5.5789
     active_days: 24
     repos_not_owned: 11
     not_owned_basenames: 7
     not_owned_owners: 4
   "90d":
-    pushes: 376
+    pushes: 370
     distinct_repos: 29
-    pushes_per_repo: 12.9655
+    pushes_per_repo: 12.7586
     active_days: 67
     repos_not_owned: 11
     not_owned_basenames: 7
@@ -129,6 +129,6 @@ repos:
 
 # rodboev
 
-376 pushes across 29 repositories on 67 active days in the last 90 days of public GitHub push activity.
+370 pushes across 29 repositories on 67 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/rodboev
