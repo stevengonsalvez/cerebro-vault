@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "a5e43b1572bfaf36"
-pushes_per_week: [163, 42, 35, 63, 17, 12, 11, 120, 17, 30, 37, 74, 60]
+pushes_per_week: [167, 38, 56, 36, 18, 12, 92, 35, 28, 34, 23, 107, 54]
 windows:
   "7d":
-    pushes: 66
-    distinct_repos: 3
-    active_days: 6
-    repos_not_owned: 2
-    not_owned_basenames: 2
+    pushes: 62
+    distinct_repos: 2
+    active_days: 7
+    repos_not_owned: 1
+    not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 209
+    pushes: 230
     distinct_repos: 4
-    active_days: 26
+    active_days: 27
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 681
+    pushes: 700
     distinct_repos: 5
-    active_days: 78
+    active_days: 79
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 8.7308
-  repo_per_active_day: 0.0641
+  push_per_day: 8.8608
+  repo_per_active_day: 0.0633
   not_owned_ratio: 0.6000
   basename_concentration: 0.2000
   shapes: []
@@ -49,34 +49,42 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 66
-    distinct_repos: 3
-    pushes_per_repo: 22.0000
-    active_days: 6
-    repos_not_owned: 2
-    not_owned_basenames: 2
+    pushes: 62
+    distinct_repos: 2
+    pushes_per_repo: 31.0000
+    active_days: 7
+    repos_not_owned: 1
+    not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 209
+    pushes: 230
     distinct_repos: 4
-    pushes_per_repo: 52.2500
-    active_days: 26
+    pushes_per_repo: 57.5000
+    active_days: 27
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 681
+    pushes: 700
     distinct_repos: 5
-    pushes_per_repo: 136.2000
-    active_days: 78
+    pushes_per_repo: 140.0000
+    active_days: 79
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 78 active days in 90d — pass"
+  - "activity: 79 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "scryfall-mcp"
+    title: "scryfall-mcp"
+    description: "A mcp server for interacting with the Scryfall Magic The Gathering API"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 36
+    first_seen: null
+    last_push: "2025-02-12"
   - name: "decks"
     title: "decks"
     description: null
@@ -85,14 +93,6 @@ repos:
     stars_fact: 1
     first_seen: null
     last_push: "2026-08-31"
-  - name: "scryfall-mcp"
-    title: "scryfall-mcp"
-    description: "A mcp server for interacting with the Scryfall Magic The Gathering API"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 34
-    first_seen: null
-    last_push: "2025-02-12"
   - name: "dotta-license"
     title: "dotta-license"
     description: "ERC721-based Software Licensing Framework"
@@ -129,6 +129,6 @@ repos:
 
 # cryppadotta
 
-681 pushes across 5 repositories on 78 active days in the last 90 days of public GitHub push activity.
+700 pushes across 5 repositories on 79 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/cryppadotta

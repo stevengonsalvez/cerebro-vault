@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-07T15:16:07.319356+00:00"
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "dae9f02535f7c22f"
-pushes_per_week: [1, 0, 0, 1, 0, 0, 0, 0, 0, 3, 2, 0, 6]
+pushes_per_week: [1, 0, 0, 1, 0, 0, 0, 0, 2, 1, 2, 2, 4]
 windows:
   "7d":
     pushes: 6
@@ -77,6 +77,25 @@ reasons:
   - "activity: 8 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "mastering-junit5"
+    title: "mastering-junit5"
+    description: "Examples of the Packt book \"Mastering Software Testing with JUnit 5: Comprehensive guide to develop high quality Java applications\""
+    language: "Java"
+    topics:
+      - "android"
+      - "appium"
+      - "docker"
+      - "java"
+      - "junit"
+      - "junit5"
+      - "mockito"
+      - "rest"
+      - "selenium"
+      - "spring"
+      - "spring-boot"
+    stars_fact: 432
+    first_seen: null
+    last_push: "2026-10-08"
   - name: "webdrivermanager"
     title: "webdrivermanager"
     description: "Automated driver management and other helper features for Selenium WebDriver in Java"
@@ -92,7 +111,7 @@ repos:
       - "webdriver"
     stars_fact: 2691
     first_seen: null
-    last_push: "2026-10-01"
+    last_push: "2026-10-10"
   - name: "context-engineering"
     title: "context-engineering"
     description: "Context Engineering: Build Consistent, Accurate, Predictable AI Systems"
@@ -110,44 +129,9 @@ repos:
       - "prompting"
       - "rag"
       - "spec-driven-development"
-    stars_fact: 157
+    stars_fact: 164
     first_seen: null
-    last_push: "2026-09-30"
-  - name: "bonigarcia.github.io"
-    title: "bonigarcia.github.io"
-    description: "Personal web page of Boni García"
-    language: "HTML"
-    topics: []
-    stars_fact: 20
-    first_seen: null
-    last_push: "2026-09-29"
-  - name: "browser-automation-apis"
-    title: "browser-automation-apis"
-    description: "Basic tests with Selenium, Cypress, Puppeteer, and Playwright"
-    language: "Java"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-09-29"
-  - name: "mastering-junit5"
-    title: "mastering-junit5"
-    description: "Examples of the Packt book \"Mastering Software Testing with JUnit 5: Comprehensive guide to develop high quality Java applications\""
-    language: "Java"
-    topics:
-      - "android"
-      - "appium"
-      - "docker"
-      - "java"
-      - "junit"
-      - "junit5"
-      - "mockito"
-      - "rest"
-      - "selenium"
-      - "spring"
-      - "spring-boot"
-    stars_fact: 431
-    first_seen: null
-    last_push: "2026-09-29"
+    last_push: "2026-10-09"
   - name: "selenium-webdriver-java"
     title: "selenium-webdriver-java"
     description: "Examples of the O'Reilly book \"Hands-On Selenium WebDriver with Java\""
@@ -166,7 +150,23 @@ repos:
       - "testng"
     stars_fact: 213
     first_seen: null
-    last_push: "2026-09-29"
+    last_push: "2026-10-08"
+  - name: "vibium-demo"
+    title: "vibium-demo"
+    description: "Basic demo using Vibium"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-07"
+  - name: "rust-examples"
+    title: "rust-examples"
+    description: "Small programs written in Rust. Warm up for the upcoming Selenium Manager"
+    language: "Rust"
+    topics: []
+    stars_fact: 13
+    first_seen: null
+    last_push: "2026-10-07"
 ---
 
 # bonigarcia

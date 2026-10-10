@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "e5b23adc376a62a9"
-pushes_per_week: [0, 0, 1, 0, 0, 4, 2, 0, 0, 0, 2, 2, 3]
+pushes_per_week: [0, 0, 1, 0, 1, 3, 2, 0, 0, 0, 2, 4, 1]
 windows:
   "7d":
-    pushes: 4
-    distinct_repos: 3
-    active_days: 3
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 4
-    distinct_repos: 3
-    pushes_per_repo: 1.3333
-    active_days: 3
+    pushes: 1
+    distinct_repos: 1
+    pushes_per_repo: 1.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -77,26 +77,6 @@ reasons:
   - "activity: 12 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "HsienW"
-    title: "HsienW"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-01"
-  - name: "gun-harness-engineering"
-    title: "gun-harness-engineering"
-    description: "Curated knowledge, design principles, and architectural mental models for AI Agent Harness for business engineering."
-    language: null
-    topics:
-      - "agent-harness"
-      - "ai-agent-architecture"
-      - "engineering-playbook"
-      - "harness-engineering"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-01"
   - name: "chat-gun"
     title: "chat-gun"
     description: "🤖 A full-stack Agent Chat Runtime for pre-production validation, built with act, TypeScript, and LangGraph JS combining streaming, multimodal, HITL, and tools with durable Task/Step execution, retry budgets, idempotency, compensation, distributed locks, context governance, OpenTelemetry tracing, model fallback, cost tracking, and Opik evaluation."
@@ -109,23 +89,9 @@ repos:
       - "mcp"
       - "multi-agent"
       - "qwen"
-    stars_fact: 142
+    stars_fact: 143
     first_seen: null
-    last_push: "2026-10-01"
-  - name: "react-youtube"
-    title: "react-youtube"
-    description: "A frontend demo using React, Redux, and YouTube Data API v3, covering features such as login authorization, video recommendation, playback, search, and upload."
-    language: "JavaScript"
-    topics:
-      - "front-end"
-      - "react"
-      - "reactjs"
-      - "redux"
-      - "redux-thunk"
-      - "youtube-api-v3"
-    stars_fact: 8
-    first_seen: null
-    last_push: "2026-03-29"
+    last_push: "2026-10-04"
   - name: "ai-agent-coding-solution-kit"
     title: "ai-agent-coding-solution-kit"
     description: "📗Reusable docs, prompts, templates, and engineering practices for AI-agent coding, agent design, OpenSpec/SDD, context engineering, prompt engineering, and agent workflows."
@@ -137,9 +103,37 @@ repos:
       - "development"
       - "skills"
       - "workflow"
-    stars_fact: 48
+    stars_fact: 49
     first_seen: null
     last_push: "2026-09-12"
+  - name: "gun-harness-packages"
+    title: "gun-harness-packages"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-09"
+  - name: "gun-harness-engineering"
+    title: "gun-harness-engineering"
+    description: "Curated knowledge, design principles, and architectural mental models for AI Agent Harness for business engineering."
+    language: null
+    topics:
+      - "agent-harness"
+      - "ai-agent-architecture"
+      - "engineering-playbook"
+      - "harness-engineering"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-07"
+  - name: "HsienW"
+    title: "HsienW"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-05"
   - name: "natrix"
     title: "natrix"
     description: "🐍Framework-free browser game runtime built on vanilla JS - fixed-timestep simulation, deterministic replay (seeded RNG + tick-indexed commands), explicit lifecycle state machine, and a swappable DOM/Canvas/Null renderer contract. Demoed via a local 2P Snake game."
@@ -151,7 +145,7 @@ repos:
       - "snake-game"
       - "vanilla-javascript"
       - "vanilla-javascript-game"
-    stars_fact: 31
+    stars_fact: 32
     first_seen: null
     last_push: "2026-09-22"
 ---

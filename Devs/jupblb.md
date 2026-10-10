@@ -8,11 +8,11 @@ provenance_repos:
   - "ChromeDevTools/chrome-devtools-mcp"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+repos_populated: false
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "379642deb53f3714"
-pushes_per_week: [1, 8, 0, 0, 1, 0, 0, 0, 1, 1, 1, 0, 0]
+pushes_per_week: [6, 3, 0, 0, 1, 0, 0, 0, 1, 1, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,55 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "awesome-neovim-sorted"
-    title: "awesome-neovim-sorted"
-    description: "awesome-neovim sorted by stars"
-    language: "Python"
-    topics: []
-    stars_fact: 5
-    first_seen: null
-    last_push: "2026-10-02"
-  - name: "aufio"
-    title: "aufio"
-    description: "Agent-friendly CLI for controlling the FiiO KA17’s onboard EQ on macOS, with saved presets, automatic backups, and verified device readback."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-17"
-  - name: "nix-config"
-    title: "nix-config"
-    description: "My configuration files"
-    language: "Nix"
-    topics: []
-    stars_fact: 8
-    first_seen: null
-    last_push: "2026-09-16"
-  - name: "cv"
-    title: "cv"
-    description: "My simple Markdown CV"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-05-05"
-  - name: "zoekt.nvim"
-    title: "zoekt.nvim"
-    description: "Neovim plugin for blazing-fast code search using Zoekt"
-    language: "Lua"
-    topics: []
-    stars_fact: 3
-    first_seen: null
-    last_push: "2025-09-22"
-  - name: "stignore-gitignore"
-    title: "stignore-gitignore"
-    description: "Generate stignore (Syncthing) out of all .gitignores located recursively within a directory"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-01-27"
+repos: []
 ---
 
 # jupblb

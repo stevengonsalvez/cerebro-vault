@@ -8,11 +8,11 @@ provenance_repos:
   - "agavra/tuicr"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+repos_populated: false
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [6, 1, 0, 0, 2, 1, 0, 0, 0, 1, 1, 0, 0]
+pushes_per_week: [7, 0, 0, 0, 3, 0, 0, 0, 0, 1, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,23 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 8 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "config"
-    title: "config"
-    description: null
-    language: "QML"
-    topics: []
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-09-20"
-  - name: "ramo"
-    title: "ramo"
-    description: null
-    language: "Shell"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-22"
+repos: []
 ---
 
 # joaomendoncaa

@@ -8,11 +8,11 @@ provenance_repos:
   - "bytedance/deer-flow"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+repos_populated: false
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "16389f32495280ea"
-pushes_per_week: [8, 4, 12, 2, 7, 0, 0, 0, 0, 2, 2, 0, 0]
+pushes_per_week: [9, 6, 11, 0, 7, 0, 0, 0, 0, 2, 2, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,60 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 18 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "March-77.github.io"
-    title: "March-77.github.io"
-    description: "A world of mine!"
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-01"
-  - name: "March-77"
-    title: "March-77"
-    description: "AI Agent, RAG and developer tooling — profile of Zhang Zherui."
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-01"
-  - name: "afac2026-track4-financial-longtext-agent"
-    title: "afac2026-track4-financial-longtext-agent"
-    description: "AFAC 2026 Track 4 financial long-text agent with Qwen-only retrieval, evidence auditing, datasets, and reproducible run artifacts"
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-03"
-  - name: "ThoughtRelay"
-    title: "ThoughtRelay"
-    description: "在 LLM Agent 间传递 KV-cache 与注意力状态的 Python SDK，支持跨模型投影。"
-    language: "Python"
-    topics: []
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-07-19"
-  - name: "tau2-shop-rollout-data"
-    title: "tau2-shop-rollout-data"
-    description: "Complete Tau2 and ShopSimulator rollout and evaluation data for Qwen3-8B and DeepSeek V4 Flash"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-21"
-  - name: "EigenData"
-    title: "EigenData"
-    description: "Reproducible tau2-SEA dataset generation pipeline using the official DeepSeek API"
-    language: "Python"
-    topics:
-      - "dataset-generation"
-      - "deepseek"
-      - "reinforcement-learning"
-      - "synthetic-data"
-      - "tau2"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-21"
+repos: []
 ---
 
 # March-77

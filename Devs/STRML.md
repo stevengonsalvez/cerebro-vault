@@ -8,18 +8,18 @@ provenance_repos:
   - "can1357/oh-my-pi"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+repos_populated: false
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [3, 2, 7, 16, 6, 5, 4, 0, 1, 14, 14, 33, 30]
+pushes_per_week: [1, 2, 11, 12, 10, 1, 4, 0, 3, 15, 24, 25, 25]
 windows:
   "7d":
-    pushes: 34
-    distinct_repos: 11
-    active_days: 5
-    repos_not_owned: 4
-    not_owned_basenames: 3
+    pushes: 30
+    distinct_repos: 9
+    active_days: 4
+    repos_not_owned: 3
+    not_owned_basenames: 2
     not_owned_owners: 3
   "30d":
     pushes: 91
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 4
     not_owned_owners: 3
   "90d":
-    pushes: 135
-    distinct_repos: 24
-    active_days: 41
+    pushes: 133
+    distinct_repos: 22
+    active_days: 40
     repos_not_owned: 6
     not_owned_basenames: 5
     not_owned_owners: 4
 automation:
   state: "clear"
-  push_per_day: 3.2927
-  repo_per_active_day: 0.5854
-  not_owned_ratio: 0.2500
-  basename_concentration: 0.0833
+  push_per_day: 3.3250
+  repo_per_active_day: 0.5500
+  not_owned_ratio: 0.2727
+  basename_concentration: 0.0909
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,12 +49,12 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 34
-    distinct_repos: 11
-    pushes_per_repo: 3.0909
-    active_days: 5
-    repos_not_owned: 4
-    not_owned_basenames: 3
+    pushes: 30
+    distinct_repos: 9
+    pushes_per_repo: 3.3333
+    active_days: 4
+    repos_not_owned: 3
+    not_owned_basenames: 2
     not_owned_owners: 3
   "30d":
     pushes: 91
@@ -65,72 +65,22 @@ facets:
     not_owned_basenames: 4
     not_owned_owners: 3
   "90d":
-    pushes: 135
-    distinct_repos: 24
-    pushes_per_repo: 5.6250
-    active_days: 41
+    pushes: 133
+    distinct_repos: 22
+    pushes_per_repo: 6.0455
+    active_days: 40
     repos_not_owned: 6
     not_owned_basenames: 5
     not_owned_owners: 4
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 41 active days in 90d — pass"
+  - "activity: 40 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "cc-debate"
-    title: "cc-debate"
-    description: "Multi-AI Plan Debate Skill for Claude Code. Rope in Codex and Gemini to make your plans rock-solid."
-    language: "Shell"
-    topics: []
-    stars_fact: 10
-    first_seen: null
-    last_push: "2026-08-14"
-  - name: "omp-classifier"
-    title: "omp-classifier"
-    description: "Model-judged permission gate for OMP: classifies bash commands and spawn-bearing eval payloads before they run, prompts on risk, fails closed"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-02"
-  - name: "studio-led"
-    title: "studio-led"
-    description: "Pulse the Mac Studio's front power LED with load (SMC LSLN + board power)"
-    language: "C"
-    topics: []
-    stars_fact: 4
-    first_seen: null
-    last_push: "2026-09-27"
-  - name: "cc-cache-warmer"
-    title: "cc-cache-warmer"
-    description: "Claude Code plugin: keeps an idle session's prompt cache warm, then compacts it. Requires cmux."
-    language: "Shell"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-30"
-  - name: "strml.net"
-    title: "strml.net"
-    description: "STRML: Projects & Work"
-    language: "JavaScript"
-    topics:
-      - "homepage"
-      - "javascript"
-    stars_fact: 2640
-    first_seen: null
-    last_push: "2026-09-27"
-  - name: "cc-skills"
-    title: "cc-skills"
-    description: "Claude Code slash commands and skills I actually use"
-    language: "HTML"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-29"
+repos: []
 ---
 
 # STRML
 
-135 pushes across 24 repositories on 41 active days in the last 90 days of public GitHub push activity.
+133 pushes across 22 repositories on 40 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/STRML

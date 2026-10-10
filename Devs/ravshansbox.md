@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "01cd6a498d377caf"
   - "03604cccd7e9402d"
@@ -50,6 +50,7 @@ provenance:
   - "860864df5583b9ff"
   - "8eafdf1e65e79a0b"
   - "8f9e2f8ba8bd1533"
+  - "92349bd4a8c11233"
   - "93601d11e4db33a8"
   - "a3ec5261dfb4f2cd"
   - "b56da077d21ad4f4"
@@ -64,39 +65,40 @@ provenance:
   - "d46568f6f6a488d8"
   - "d9b88297cf0d952f"
   - "e2ea6ef4c9fbfceb"
+  - "e75aaf1e12900808"
   - "f672838de330e86f"
   - "f9a1870648a6375a"
   - "fe9e50bf2d5b21fe"
   - "ff1ca072bf39e471"
-pushes_per_week: [2, 0, 10, 0, 0, 3, 3, 0, 0, 0, 0, 2, 6]
+pushes_per_week: [2, 0, 10, 0, 0, 3, 3, 0, 0, 0, 0, 8, 15]
 windows:
   "7d":
-    pushes: 6
-    distinct_repos: 6
-    active_days: 1
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
-  "30d":
-    pushes: 8
-    distinct_repos: 7
+    pushes: 21
+    distinct_repos: 12
     active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
+  "30d":
+    pushes: 23
+    distinct_repos: 13
+    active_days: 3
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
-    pushes: 26
-    distinct_repos: 16
-    active_days: 8
+    pushes: 41
+    distinct_repos: 20
+    active_days: 9
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 3.2500
-  repo_per_active_day: 2.0000
+  push_per_day: 4.5556
+  repo_per_active_day: 2.2222
   not_owned_ratio: 0.0000
-  basename_concentration: 0.0625
+  basename_concentration: 0.0500
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -105,42 +107,50 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 6
-    distinct_repos: 6
-    pushes_per_repo: 1.0000
-    active_days: 1
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
-  "30d":
-    pushes: 8
-    distinct_repos: 7
-    pushes_per_repo: 1.1429
+    pushes: 21
+    distinct_repos: 12
+    pushes_per_repo: 1.7500
     active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
+  "30d":
+    pushes: 23
+    distinct_repos: 13
+    pushes_per_repo: 1.7692
+    active_days: 3
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
-    pushes: 26
-    distinct_repos: 16
-    pushes_per_repo: 1.6250
-    active_days: 8
+    pushes: 41
+    distinct_repos: 20
+    pushes_per_repo: 2.0500
+    active_days: 9
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
-  - "provenance: 57 vault signal(s) — pass"
-  - "activity: 8 active days in 90d — pass"
+  - "provenance: 59 vault signal(s) — pass"
+  - "activity: 9 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "pi-anthropic-sps"
-    title: "pi-anthropic-sps"
+  - name: "rust-mcp-remote"
+    title: "rust-mcp-remote"
     description: null
-    language: "TypeScript"
+    language: "Rust"
     topics: []
-    stars_fact: 1
+    stars_fact: 0
     first_seen: null
-    last_push: "2026-09-30"
+    last_push: "2026-10-10"
+  - name: "rust-claude"
+    title: "rust-claude"
+    description: null
+    language: "Rust"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-09"
   - name: "rust-sync"
     title: "rust-sync"
     description: null
@@ -148,33 +158,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-27"
-  - name: "next-issue"
-    title: "next-issue"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-08"
-  - name: "youtube-downloader"
-    title: "youtube-downloader"
-    description: null
-    language: "JavaScript"
-    topics:
-      - "download"
-      - "youtube"
-    stars_fact: 3
-    first_seen: null
-    last_push: "2025-12-01"
-  - name: "log-service"
-    title: "log-service"
-    description: null
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-03"
+    last_push: "2026-10-09"
   - name: "pi-quota"
     title: "pi-quota"
     description: null
@@ -182,11 +166,27 @@ repos:
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-08-30"
+    last_push: "2026-10-09"
+  - name: "pi-zed"
+    title: "pi-zed"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-09"
+  - name: "pi-tps"
+    title: "pi-tps"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-09"
 ---
 
 # ravshansbox
 
-26 pushes across 16 repositories on 8 active days in the last 90 days of public GitHub push activity.
+41 pushes across 20 repositories on 9 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ravshansbox

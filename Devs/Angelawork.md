@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-07T15:16:07.319356+00:00"
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "a5ffcd0a46dd44fd"
-pushes_per_week: [4, 4, 0, 4, 1, 0, 0, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [6, 2, 3, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -87,7 +87,7 @@ repos:
       - "unity"
       - "unity3d"
       - "unity3d-game"
-    stars_fact: 31
+    stars_fact: 32
     first_seen: null
     last_push: "2023-09-10"
   - name: "Adventure-of-The-Fox_2DGame"

@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "dae9f02535f7c22f"
-pushes_per_week: [5, 8, 1, 3, 0, 1, 3, 0, 7, 1, 16, 14, 10]
+pushes_per_week: [5, 7, 3, 1, 0, 2, 2, 0, 7, 7, 10, 15, 14]
 windows:
   "7d":
-    pushes: 17
-    distinct_repos: 7
-    active_days: 4
-    repos_not_owned: 5
-    not_owned_basenames: 5
+    pushes: 14
+    distinct_repos: 5
+    active_days: 3
+    repos_not_owned: 4
+    not_owned_basenames: 4
     not_owned_owners: 1
   "30d":
-    pushes: 45
+    pushes: 47
     distinct_repos: 15
     active_days: 14
     repos_not_owned: 12
     not_owned_basenames: 10
     not_owned_owners: 3
   "90d":
-    pushes: 69
+    pushes: 73
     distinct_repos: 18
     active_days: 29
     repos_not_owned: 15
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 2.3793
+  push_per_day: 2.5172
   repo_per_active_day: 0.6207
   not_owned_ratio: 0.8333
   basename_concentration: 0.1667
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 17
-    distinct_repos: 7
-    pushes_per_repo: 2.4286
-    active_days: 4
-    repos_not_owned: 5
-    not_owned_basenames: 5
+    pushes: 14
+    distinct_repos: 5
+    pushes_per_repo: 2.8000
+    active_days: 3
+    repos_not_owned: 4
+    not_owned_basenames: 4
     not_owned_owners: 1
   "30d":
-    pushes: 45
+    pushes: 47
     distinct_repos: 15
-    pushes_per_repo: 3.0000
+    pushes_per_repo: 3.1333
     active_days: 14
     repos_not_owned: 12
     not_owned_basenames: 10
     not_owned_owners: 3
   "90d":
-    pushes: 69
+    pushes: 73
     distinct_repos: 18
-    pushes_per_repo: 3.8333
+    pushes_per_repo: 4.0556
     active_days: 29
     repos_not_owned: 15
     not_owned_basenames: 13
@@ -77,6 +77,14 @@ reasons:
   - "activity: 29 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "obelisk-390"
+    title: "obelisk-390"
+    description: "The Obelisk of Theodosius in Istanbul, readable: a print-style 3D model where you tap a line of hieroglyphs to read it, with the pedestal reliefs and inscriptions. English, Türkçe, Français, 日本語."
+    language: "JavaScript"
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-10-06"
   - name: "cahidarda.github.io"
     title: "cahidarda.github.io"
     description: "My personal website: writing, publications, and projects. Built with Astro, TypeScript, and Tailwind CSS."
@@ -84,7 +92,7 @@ repos:
     topics: []
     stars_fact: 3
     first_seen: null
-    last_push: "2026-09-29"
+    last_push: "2026-10-06"
   - name: "bosphore-1819"
     title: "bosphore-1819"
     description: "An 1819 French map of the Bosphorus with every label read, mapped and translated. French original, Ottoman Turkish, and the names we use today."
@@ -117,21 +125,10 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-06-26"
-  - name: "spec2tools"
-    title: "spec2tools"
-    description: "Dynamically convert OpenAPI specs into AI agent tools"
-    language: "TypeScript"
-    topics:
-      - "mcp"
-      - "oauth2"
-      - "openapi"
-    stars_fact: 18
-    first_seen: null
-    last_push: "2026-03-13"
 ---
 
 # CahidArda
 
-69 pushes across 18 repositories on 29 active days in the last 90 days of public GitHub push activity.
+73 pushes across 18 repositories on 29 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/CahidArda

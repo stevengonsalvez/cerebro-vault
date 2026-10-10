@@ -8,11 +8,11 @@ provenance_repos:
   - "majd/ipatool"
 admitted: true
 low_n: true
-repos_populated: true
-generated_at: "2026-10-05T06:05:47.512530+00:00"
+repos_populated: false
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "a48647989fcde575"
-pushes_per_week: [1, 0, 0, 0, 0, 0, 0, 1, 0, 3, 1, 0, 0]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 1, 0, 0, 4, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 6
+    pushes: 5
     distinct_repos: 1
-    active_days: 4
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.5000
-  repo_per_active_day: 0.2500
+  push_per_day: 1.6667
+  repo_per_active_day: 0.3333
   not_owned_ratio: 0.0000
   basename_concentration: 1.0000
   shapes: []
@@ -65,93 +65,22 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 6
+    pushes: 5
     distinct_repos: 1
-    pushes_per_repo: 6.0000
-    active_days: 4
+    pushes_per_repo: 5.0000
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 4 active days in 90d — below the 5-day line, LABELLED low-n (never suppressed)"
+  - "activity: 3 active days in 90d — below the 5-day line, LABELLED low-n (never suppressed)"
   - "automation: clear — pass"
-repos:
-  - name: "ipatool"
-    title: "ipatool"
-    description: "Command-line tool that allows you to search for iOS, iPadOS, tvOS, visionOS, and macOS apps on the App Store, and download .ipa or macOS .pkg app packages."
-    language: "Go"
-    topics:
-      - "apple"
-      - "appstore"
-      - "cli"
-      - "command-line"
-      - "command-line-tool"
-      - "go"
-      - "golang"
-      - "golang-library"
-      - "ios"
-      - "ipa"
-      - "itunes"
-      - "macos"
-      - "research"
-      - "reverse-engineering"
-      - "security"
-      - "swift"
-      - "tool"
-      - "visionos"
-    stars_fact: 11459
-    first_seen: "2026-08-31T06:00:05.900163+00:00"
-    last_push: "2026-10-01"
-  - name: "homebrew-repo"
-    title: "homebrew-repo"
-    description: "Homebrew Repository"
-    language: "Ruby"
-    topics: []
-    stars_fact: 12
-    first_seen: null
-    last_push: "2026-09-18"
-  - name: "userscripts"
-    title: "userscripts"
-    description: "Small browser userscripts maintained for personal use."
-    language: "JavaScript"
-    topics:
-      - "userscripts"
-    stars_fact: 4
-    first_seen: null
-    last_push: "2026-08-22"
-  - name: "unifi-hass-webhook"
-    title: "unifi-hass-webhook"
-    description: "Verifier service for unlocking smart locks via Home Assistant on UniFi Access webhook triggers"
-    language: "Go"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-03-04"
-  - name: "libTransLock"
-    title: "libTransLock"
-    description: "Bruteforce the 4-digit passcode on iOS 8"
-    language: "Logos"
-    topics: []
-    stars_fact: 120
-    first_seen: null
-    last_push: "2015-09-09"
-  - name: "app-thickening"
-    title: "app-thickening"
-    description: "Disable App Thinning on iOS"
-    language: "Shell"
-    topics:
-      - "ios"
-      - "jailbreak"
-      - "logos"
-      - "theos"
-    stars_fact: 14
-    first_seen: null
-    last_push: "2019-10-14"
+repos: []
 ---
 
 # majd
 
-6 pushes across 1 repository on 4 active days in the last 90 days of public GitHub push activity.
+5 pushes across 1 repository on 3 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/majd

@@ -8,19 +8,19 @@ provenance_repos:
   - "anthropics/anthropic-sdk-python"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-07T15:16:07.319356+00:00"
+repos_populated: false
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "1be978947e68d1f2"
-pushes_per_week: [0, 0, 1, 0, 0, 1, 3, 0, 0, 1, 4, 1, 3]
+pushes_per_week: [0, 1, 0, 0, 0, 1, 3, 0, 0, 4, 2, 2, 1]
 windows:
   "7d":
-    pushes: 3
-    distinct_repos: 3
-    active_days: 3
-    repos_not_owned: 2
-    not_owned_basenames: 2
-    not_owned_owners: 2
+    pushes: 2
+    distinct_repos: 2
+    active_days: 2
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "30d":
     pushes: 9
     distinct_repos: 4
@@ -49,13 +49,13 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 3
-    distinct_repos: 3
+    pushes: 2
+    distinct_repos: 2
     pushes_per_repo: 1.0000
-    active_days: 3
-    repos_not_owned: 2
-    not_owned_basenames: 2
-    not_owned_owners: 2
+    active_days: 2
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "30d":
     pushes: 9
     distinct_repos: 4
@@ -76,73 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 10 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "hishel"
-    title: "hishel"
-    description: "Elegant HTTP Caching for Python"
-    language: "Python"
-    topics:
-      - "caching"
-      - "http"
-      - "http-cache"
-      - "httpcore-cache"
-      - "httpcore-caching"
-      - "httpx-cache"
-      - "httpx-caching"
-      - "python"
-      - "web"
-      - "web-cache"
-      - "web-caching"
-    stars_fact: 413
-    first_seen: null
-    last_push: "2026-10-01"
-  - name: "uv-vscode"
-    title: "uv-vscode"
-    description: "A Visual Studio Code extension with support for the Uv package manager."
-    language: "TypeScript"
-    topics:
-      - "package-management"
-      - "uv"
-      - "vscode"
-    stars_fact: 25
-    first_seen: null
-    last_push: "2026-02-08"
-  - name: "httpx-aiohttp"
-    title: "httpx-aiohttp"
-    description: "aiohttp-powered httpx client"
-    language: "Python"
-    topics:
-      - "aiohttp"
-      - "http"
-      - "http-client"
-      - "httpx"
-    stars_fact: 52
-    first_seen: null
-    last_push: "2026-07-25"
-  - name: "ry"
-    title: "ry"
-    description: "repeat yourself more elegantly"
-    language: "Rust"
-    topics: []
-    stars_fact: 6
-    first_seen: null
-    last_push: "2026-04-18"
-  - name: "http-snapshot"
-    title: "http-snapshot"
-    description: "pytest plugin that snapshots requests made with popular Python HTTP clients."
-    language: "Python"
-    topics: []
-    stars_fact: 7
-    first_seen: null
-    last_push: "2026-02-24"
-  - name: "httpx-metrics"
-    title: "httpx-metrics"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 5
-    first_seen: null
-    last_push: "2024-06-23"
+repos: []
 ---
 
 # karpetrosyan

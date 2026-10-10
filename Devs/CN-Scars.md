@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [8, 0, 3, 3, 4, 0, 0, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [7, 0, 3, 3, 4, 0, 0, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 18
+    pushes: 17
     distinct_repos: 2
-    active_days: 8
+    active_days: 7
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.2500
-  repo_per_active_day: 0.2500
+  push_per_day: 2.4286
+  repo_per_active_day: 0.2857
   not_owned_ratio: 0.5000
   basename_concentration: 0.5000
   shapes: []
@@ -65,26 +65,18 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 18
+    pushes: 17
     distinct_repos: 2
-    pushes_per_repo: 9.0000
-    active_days: 8
+    pushes_per_repo: 8.5000
+    active_days: 7
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 8 active days in 90d — pass"
+  - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "InfoCat"
-    title: "InfoCat"
-    description: "InfoCat, 家庭光猫工厂配置获取工具"
-    language: "C++"
-    topics: []
-    stars_fact: 25
-    first_seen: null
-    last_push: "2025-09-07"
   - name: "MisideTrainer"
     title: "MisideTrainer"
     description: "A game modifier for MiSide that offers useful features such as changing the probability of the alternative menu (secrect menu) and alternative menu music to 100% to set it to always show, providing modifications to almost all built-in mini-games. The tool supports multiple languages, including English, Simplified Chinese and Russian"
@@ -94,9 +86,17 @@ repos:
       - "mod"
       - "modifier"
       - "mods"
-    stars_fact: 4
+    stars_fact: 3
     first_seen: null
     last_push: "2025-02-22"
+  - name: "InfoCat"
+    title: "InfoCat"
+    description: "InfoCat, 家庭光猫工厂配置获取工具"
+    language: "C++"
+    topics: []
+    stars_fact: 25
+    first_seen: null
+    last_push: "2025-09-07"
   - name: "CatGuard"
     title: "CatGuard"
     description: null
@@ -143,6 +143,6 @@ repos:
 
 # CN-Scars
 
-18 pushes across 2 repositories on 8 active days in the last 90 days of public GitHub push activity.
+17 pushes across 2 repositories on 7 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/CN-Scars

@@ -8,11 +8,11 @@ provenance_repos:
   - "agavra/tuicr"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+repos_populated: false
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [0, 0, 5, 0, 10, 0, 0, 1, 2, 0, 0, 1, 0]
+pushes_per_week: [0, 0, 5, 0, 10, 0, 1, 1, 1, 0, 0, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,60 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 10 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "nexusmods-mcp"
-    title: "nexusmods-mcp"
-    description: "TypeScript MCP server for Nexus Mods with Vortex session reuse and local mod management"
-    language: "TypeScript"
-    topics:
-      - "elysia"
-      - "mcp"
-      - "nexusmods"
-      - "typescript"
-      - "vortex"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-01"
-  - name: "howlongtobeat-raycast"
-    title: "howlongtobeat-raycast"
-    description: "Native Raycast extension for HowLongToBeat game search and current-game tracking. MIT licensed."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-01"
-  - name: "grove"
-    title: "grove"
-    description: null
-    language: "Go"
-    topics: []
-    stars_fact: 71
-    first_seen: null
-    last_push: "2026-08-30"
-  - name: "swift-palettecolor"
-    title: "swift-palettecolor"
-    description: "Swift port of AndroidX Palette (PaletteColor) — reusable SPM package"
-    language: "Swift"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-25"
-  - name: "frame"
-    title: "frame"
-    description: "Local Android capture and editing studio for desktop and the browser. Powered by scrcpy and Tango ADB."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-09"
-  - name: "coda-bandcamp"
-    title: "coda-bandcamp"
-    description: "Fast cross-platform Bandcamp desktop player with a persistent queue."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-05"
+repos: []
 ---
 
 # iheanyi

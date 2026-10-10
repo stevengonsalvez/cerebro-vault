@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "4138778ebbc75ba6"
-pushes_per_week: [0, 6, 6, 0, 0, 0, 0, 0, 0, 1, 5, 2, 0]
+pushes_per_week: [0, 9, 3, 0, 0, 0, 0, 0, 0, 2, 4, 2, 0]
 windows:
   "7d":
     pushes: 0
@@ -86,7 +86,7 @@ repos:
       - "github-config"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-02"
+    last_push: "2026-10-10"
   - name: "aws-estacionamento"
     title: "aws-estacionamento"
     description: null
@@ -94,7 +94,7 @@ repos:
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-10-01"
+    last_push: "2026-10-05"
   - name: "clerk"
     title: "clerk"
     description: "Fast, end-to-end local pipeline for meeting audio/video transcription and structured summary generation using faster-whisper and local Ollama LLMs."
@@ -129,7 +129,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-01"
+    last_push: "2026-10-09"
 ---
 
 # ArtroxGabriel

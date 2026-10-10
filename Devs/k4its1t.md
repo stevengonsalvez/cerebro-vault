@@ -8,11 +8,11 @@ provenance_repos:
   - "apache/maka"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+repos_populated: false
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [0, 0, 0, 0, 0, 2, 1, 0, 0, 2, 1, 0, 0]
+pushes_per_week: [0, 0, 0, 0, 2, 0, 1, 0, 1, 1, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,66 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "signaldesk"
-    title: "signaldesk"
-    description: "A minimal Jev-powered macOS app for understanding everyday and work messages."
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-26"
-  - name: "deepseek-harness-desktop-community"
-    title: "deepseek-harness-desktop-community"
-    description: "停止维护 / Discontinued — Please use the official DeepSeek Harness desktop: https://github.com/deepseek-ai/deepseek-harness/tree/master/apps/desktop"
-    language: "JavaScript"
-    topics:
-      - "agent-harness"
-      - "ai-agent"
-      - "deepseek"
-      - "deepseek-harness"
-      - "desktop-app"
-      - "electron"
-      - "macos"
-      - "open-source"
-      - "skills"
-      - "vibe-coding"
-      - "windows"
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-09-25"
-  - name: "xinzhiyuan-headline-parody"
-    title: "xinzhiyuan-headline-parody"
-    description: "Unofficial Codex skill for satirical Chinese AI news headlines"
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-23"
-  - name: "Ender-Utilities-1.21.1"
-    title: "Ender-Utilities-1.21.1"
-    description: "Unofficial incremental port of Ender Utilities to Minecraft 1.21.1 / NeoForge"
-    language: "Java"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-22"
-  - name: "jevlens"
-    title: "jevlens"
-    description: "Evaluation and calibration toolkit for TypeSafe Jev decisions"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-21"
-  - name: "Random-Things-1.21.1"
-    title: "Random-Things-1.21.1"
-    description: "Unofficial experimental partial port of Random Things to Minecraft 1.21.1 / NeoForge. MIT; original author lumien."
-    language: "Java"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-20"
+repos: []
 ---
 
 # k4its1t

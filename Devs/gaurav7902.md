@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "3cb7ff1cdcf97c6b"
-pushes_per_week: [0, 0, 3, 0, 2, 1, 0, 0, 0, 0, 0, 2, 1]
+pushes_per_week: [0, 1, 2, 0, 3, 0, 0, 0, 0, 0, 2, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -77,30 +77,33 @@ reasons:
   - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "gaurav7902.github.io"
-    title: "gaurav7902.github.io"
-    description: "My Page"
-    language: "HTML"
+  - name: "Digital-Image-Processing"
+    title: "Digital-Image-Processing"
+    description: "Digital Image Processing IIT ISM Notes and Assignments"
+    language: "Jupyter Notebook"
+    topics:
+      - "iit-notes"
+      - "iitdhanbad"
+      - "iitism"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-05"
+  - name: "To-Do"
+    title: "To-Do"
+    description: "A To Do application in Typescript"
+    language: "CSS"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-26"
-  - name: "QualityTube"
-    title: "QualityTube"
-    description: "An extension for always having highest quality on youtube videos"
+    last_push: "2026-10-03"
+  - name: "The-Movies-Hub"
+    title: "The-Movies-Hub"
+    description: "A modern movie search and discovery application built with React and Vite. The Movies Hub allows users to explore popular films and keep track of their favorite movies."
     language: "JavaScript"
     topics: []
-    stars_fact: 0
+    stars_fact: 1
     first_seen: null
-    last_push: "2026-09-26"
-  - name: "prettier-config"
-    title: "prettier-config"
-    description: "My prettier config"
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-26"
+    last_push: "2026-10-03"
   - name: "BuyNest-Ecom-Website"
     title: "BuyNest-Ecom-Website"
     description: "A MERN stack based secure Ecommerce Website."
@@ -111,23 +114,32 @@ repos:
       - "ecommerce-website"
     stars_fact: 2
     first_seen: null
-    last_push: "2026-09-24"
-  - name: "codeforces-darktheme"
-    title: "codeforces-darktheme"
-    description: "Dark mode for Codeforces"
-    language: "CSS"
-    topics: []
-    stars_fact: 4
+    last_push: "2026-10-02"
+  - name: "graph-visualizer"
+    title: "graph-visualizer"
+    description: null
+    language: "TypeScript"
+    topics:
+      - "d3-force"
+      - "d3-graph"
+      - "d3js-graph"
+      - "force-directed-graphs"
+      - "graph-simulation"
+      - "graph-simulator"
+      - "pixi-js"
+      - "pixijs"
+      - "typescript"
+    stars_fact: 0
     first_seen: null
-    last_push: "2026-08-30"
-  - name: "Computer-Networks-Notes"
-    title: "Computer-Networks-Notes"
-    description: "Notes on Computer Networks (CN), covering topics like the OSI & TCP/IP models, HTTP/DNS, TCP & UDP, IP/routing/subnetting, NAT, load balancers, network devices, and more."
-    language: null
+    last_push: "2026-08-20"
+  - name: "gaurav7902.github.io"
+    title: "gaurav7902.github.io"
+    description: "My Page"
+    language: "HTML"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-08-27"
+    last_push: "2026-09-26"
 ---
 
 # gaurav7902

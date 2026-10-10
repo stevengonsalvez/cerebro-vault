@@ -8,11 +8,11 @@ provenance_repos:
   - "anthropics/claude-code-action"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+repos_populated: false
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "0b22ca37fd3884c9"
-pushes_per_week: [9, 7, 13, 0, 4, 2, 2, 1, 0, 0, 4, 1, 1]
+pushes_per_week: [13, 9, 6, 1, 5, 0, 3, 0, 0, 4, 0, 2, 1]
 windows:
   "7d":
     pushes: 1
@@ -22,15 +22,15 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 6
-    distinct_repos: 6
-    active_days: 3
+    pushes: 7
+    distinct_repos: 7
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
     pushes: 44
-    distinct_repos: 20
+    distinct_repos: 21
     active_days: 22
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -38,9 +38,9 @@ windows:
 automation:
   state: "clear"
   push_per_day: 2.0000
-  repo_per_active_day: 0.9091
+  repo_per_active_day: 0.9545
   not_owned_ratio: 0.0000
-  basename_concentration: 0.0500
+  basename_concentration: 0.0476
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -57,17 +57,17 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 6
-    distinct_repos: 6
+    pushes: 7
+    distinct_repos: 7
     pushes_per_repo: 1.0000
-    active_days: 3
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
     pushes: 44
-    distinct_repos: 20
-    pushes_per_repo: 2.2000
+    distinct_repos: 21
+    pushes_per_repo: 2.0952
     active_days: 22
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -76,105 +76,11 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 22 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "ridge"
-    title: "ridge"
-    description: "Spreadsheet analysis you can audit. Stats computed locally, before any AI touches your data."
-    language: "JavaScript"
-    topics:
-      - "anthropic"
-      - "csv"
-      - "data-analysis"
-      - "data-quality"
-      - "data-visualization"
-      - "excel"
-      - "express"
-      - "llm"
-      - "nodejs"
-      - "spreadsheet-analysis"
-      - "statistics"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-29"
-  - name: "mohammedalkindi"
-    title: "mohammedalkindi"
-    description: "My GitHub profile README."
-    language: null
-    topics:
-      - "github-profile"
-      - "profile-readme"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-23"
-  - name: "alkindix"
-    title: "alkindix"
-    description: "My personal site: projects, research, photography, and writing."
-    language: "HTML"
-    topics:
-      - "html"
-      - "personal-website"
-      - "portfolio"
-      - "static-site"
-      - "typescript"
-      - "vercel"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-15"
-  - name: "contextbill"
-    title: "contextbill"
-    description: "See what your Claude Code sessions actually cost, computed locally from your own transcripts."
-    language: "TypeScript"
-    topics:
-      - "claude-code"
-      - "cli"
-      - "cost-analysis"
-      - "developer-tools"
-      - "nextjs"
-      - "observability"
-      - "token-usage"
-      - "typescript"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-09"
-  - name: "quant"
-    title: "quant"
-    description: "Out-of-sample, cost-aware backtesting for trading signals, served over a keyless FastAPI endpoint."
-    language: "Python"
-    topics:
-      - "algorithmic-trading"
-      - "backtesting"
-      - "fastapi"
-      - "numpy"
-      - "pandas"
-      - "python"
-      - "quantitative-finance"
-      - "research"
-      - "time-series"
-      - "trading-strategies"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-08-18"
-  - name: "proofx"
-    title: "proofx"
-    description: "Hunts counterexamples to number-theory conjectures and publishes seeded, replayable search ledgers."
-    language: "Python"
-    topics:
-      - "computational-mathematics"
-      - "conjectures"
-      - "formal-verification"
-      - "lean4"
-      - "mathematics"
-      - "number-theory"
-      - "python"
-      - "reproducible-research"
-      - "research-tool"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-05"
+repos: []
 ---
 
 # MohammedAlkindi
 
-44 pushes across 20 repositories on 22 active days in the last 90 days of public GitHub push activity.
+44 pushes across 21 repositories on 22 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/MohammedAlkindi

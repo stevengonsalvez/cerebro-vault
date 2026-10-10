@@ -8,39 +8,39 @@ provenance_repos:
   - "chopratejas/headroom"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+repos_populated: false
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "73468cde177ddae6"
-pushes_per_week: [19, 78, 46, 39, 39, 60, 2, 0, 8, 5, 71, 2, 16]
+pushes_per_week: [33, 75, 53, 20, 80, 19, 0, 0, 13, 16, 55, 9, 28]
 windows:
   "7d":
-    pushes: 17
-    distinct_repos: 7
+    pushes: 31
+    distinct_repos: 9
     active_days: 6
-    repos_not_owned: 4
-    not_owned_basenames: 4
+    repos_not_owned: 5
+    not_owned_basenames: 5
     not_owned_owners: 1
   "30d":
-    pushes: 98
-    distinct_repos: 15
-    active_days: 17
-    repos_not_owned: 6
-    not_owned_basenames: 6
+    pushes: 115
+    distinct_repos: 17
+    active_days: 18
+    repos_not_owned: 7
+    not_owned_basenames: 7
     not_owned_owners: 1
   "90d":
-    pushes: 385
-    distinct_repos: 60
-    active_days: 54
-    repos_not_owned: 22
-    not_owned_basenames: 22
+    pushes: 401
+    distinct_repos: 62
+    active_days: 55
+    repos_not_owned: 23
+    not_owned_basenames: 23
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 7.1296
-  repo_per_active_day: 1.1111
-  not_owned_ratio: 0.3667
-  basename_concentration: 0.0333
+  push_per_day: 7.2909
+  repo_per_active_day: 1.1273
+  not_owned_ratio: 0.3710
+  basename_concentration: 0.0323
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,114 +49,38 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 17
-    distinct_repos: 7
-    pushes_per_repo: 2.4286
+    pushes: 31
+    distinct_repos: 9
+    pushes_per_repo: 3.4444
     active_days: 6
-    repos_not_owned: 4
-    not_owned_basenames: 4
+    repos_not_owned: 5
+    not_owned_basenames: 5
     not_owned_owners: 1
   "30d":
-    pushes: 98
-    distinct_repos: 15
-    pushes_per_repo: 6.5333
-    active_days: 17
-    repos_not_owned: 6
-    not_owned_basenames: 6
+    pushes: 115
+    distinct_repos: 17
+    pushes_per_repo: 6.7647
+    active_days: 18
+    repos_not_owned: 7
+    not_owned_basenames: 7
     not_owned_owners: 1
   "90d":
-    pushes: 385
-    distinct_repos: 60
-    pushes_per_repo: 6.4167
-    active_days: 54
-    repos_not_owned: 22
-    not_owned_basenames: 22
+    pushes: 401
+    distinct_repos: 62
+    pushes_per_repo: 6.4677
+    active_days: 55
+    repos_not_owned: 23
+    not_owned_basenames: 23
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 54 active days in 90d — pass"
+  - "activity: 55 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "music.vaked.dev"
-    title: "music.vaked.dev"
-    description: "music.vaked.dev — the constellation sound node. Generative ambient audio synthesis & living audio-reactive background for the vaked.dev ecosystem."
-    language: "HTML"
-    topics:
-      - "ambient-audio"
-      - "constellation"
-      - "generative-music"
-      - "lovetta-lane"
-      - "sound-node"
-      - "threejs"
-      - "vaked-dev"
-      - "web-audio"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-02"
-  - name: "8b-is"
-    title: "8b-is"
-    description: "8b-is — the constellation's research vault + public documents. Standard Galactic raw research, the game studio, the engine design docs, EOS-CLA, the recorded theory (Flyxion, Mind Games, world-model clusters). vaked.dev · 8b.is"
-    language: "Python"
-    topics:
-      - "8b-is"
-      - "game-design"
-      - "mcp"
-      - "quant"
-      - "research"
-      - "ternary"
-      - "theory"
-      - "vaked"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-02"
-  - name: "pocoo.vaked.dev"
-    title: "pocoo.vaked.dev"
-    description: "pocoo.vaked.dev — the sovereign library: the constellation's posts, books, floors, the game-guide + dev-diary. vaked.dev"
-    language: "HTML"
-    topics:
-      - "blog"
-      - "constellation"
-      - "game-demo"
-      - "lovetta-lane"
-      - "low-bit-ternary"
-      - "pocoo"
-      - "research"
-      - "scifi"
-      - "sovereign-ai"
-      - "tarpit"
-      - "vaked"
-      - "vaked-dev"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-01"
-  - name: "taiko-01-protocol-demo"
-    title: "taiko-01-protocol-demo"
-    description: "0/1 protocol demos for Taiko: deterministic preconfirmations (zero-alloc execution gates) + capability-gated agent runtime with an integrity notary. Rust, #![no_std], blake3 + ed25519."
-    language: "Rust"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-30"
-  - name: "mem-16-10"
-    title: "mem-16-10"
-    description: "MEM|16-10 — the sovereign library: MEM8 + Phoenix + the wip-catalog + vaked constellation, evolved. Pure Rust, zero-alloc, BitNet 1.58-bit, honesty first. Dedicated to Alexandria, the first Librarian."
-    language: "Rust"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-29"
-  - name: "base-layer"
-    title: "base-layer"
-    description: null
-    language: "Rust"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-21"
+repos: []
 ---
 
 # peterlodri-sec
 
-385 pushes across 60 repositories on 54 active days in the last 90 days of public GitHub push activity.
+401 pushes across 62 repositories on 55 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/peterlodri-sec

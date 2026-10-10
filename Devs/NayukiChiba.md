@@ -8,11 +8,11 @@ provenance_repos:
   - "AstrBotDevs/AstrBot"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+repos_populated: false
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [3, 2, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0]
+pushes_per_week: [5, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,55 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "NayukiBlog"
-    title: "NayukiBlog"
-    description: "我自己的Blog"
-    language: "Astro"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-02"
-  - name: "AnyAgent"
-    title: "AnyAgent"
-    description: "多AgentRunner对接，AgentTeam，MultiAgent"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-25"
-  - name: "multi-agent-trace-mcp"
-    title: "multi-agent-trace-mcp"
-    description: "展示多agent情况下的追踪mcp"
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-19"
-  - name: "Templates"
-    title: "Templates"
-    description: "我的Python项目简单模板"
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-17"
-  - name: "BidirectionalCommunication"
-    title: "BidirectionalCommunication"
-    description: "一个模拟QQ的双向通信项目，学习强面向对象"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-15"
-  - name: "LeetCode"
-    title: "LeetCode"
-    description: "刷题区"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-11"
+repos: []
 ---
 
 # NayukiChiba

@@ -11,39 +11,39 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "16389f32495280ea"
   - "234088bc43763aa2"
   - "4d1450729e6ff44d"
-pushes_per_week: [21, 28, 27, 15, 52, 23, 9, 3, 7, 5, 8, 9, 4]
+pushes_per_week: [25, 37, 12, 18, 60, 17, 5, 2, 8, 9, 4, 10, 6]
 windows:
   "7d":
     pushes: 6
     distinct_repos: 4
     active_days: 5
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
-  "30d":
-    pushes: 27
-    distinct_repos: 11
-    active_days: 14
-    repos_not_owned: 3
-    not_owned_basenames: 3
+    repos_not_owned: 1
+    not_owned_basenames: 1
     not_owned_owners: 1
-  "90d":
-    pushes: 211
-    distinct_repos: 52
-    active_days: 54
-    repos_not_owned: 5
-    not_owned_basenames: 5
+  "30d":
+    pushes: 30
+    distinct_repos: 12
+    active_days: 16
+    repos_not_owned: 4
+    not_owned_basenames: 4
     not_owned_owners: 2
+  "90d":
+    pushes: 213
+    distinct_repos: 52
+    active_days: 56
+    repos_not_owned: 6
+    not_owned_basenames: 6
+    not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 3.9074
-  repo_per_active_day: 0.9630
-  not_owned_ratio: 0.0962
+  push_per_day: 3.8036
+  repo_per_active_day: 0.9286
+  not_owned_ratio: 0.1154
   basename_concentration: 0.0385
   shapes: []
   shape_evidence: []
@@ -57,30 +57,46 @@ facets:
     distinct_repos: 4
     pushes_per_repo: 1.5000
     active_days: 5
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
-  "30d":
-    pushes: 27
-    distinct_repos: 11
-    pushes_per_repo: 2.4545
-    active_days: 14
-    repos_not_owned: 3
-    not_owned_basenames: 3
+    repos_not_owned: 1
+    not_owned_basenames: 1
     not_owned_owners: 1
-  "90d":
-    pushes: 211
-    distinct_repos: 52
-    pushes_per_repo: 4.0577
-    active_days: 54
-    repos_not_owned: 5
-    not_owned_basenames: 5
+  "30d":
+    pushes: 30
+    distinct_repos: 12
+    pushes_per_repo: 2.5000
+    active_days: 16
+    repos_not_owned: 4
+    not_owned_basenames: 4
     not_owned_owners: 2
+  "90d":
+    pushes: 213
+    distinct_repos: 52
+    pushes_per_repo: 4.0962
+    active_days: 56
+    repos_not_owned: 6
+    not_owned_basenames: 6
+    not_owned_owners: 3
 reasons:
   - "provenance: 3 vault signal(s) — pass"
-  - "activity: 54 active days in 90d — pass"
+  - "activity: 56 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "ctxgo"
+    title: "ctxgo"
+    description: "A lightweight, local-first context runtime for AI coding agents, built in Go."
+    language: "Go"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-09"
+  - name: "youtube-download"
+    title: "youtube-download"
+    description: "youtube-dl"
+    language: "HTML"
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-09-03"
   - name: "codex-recall"
     title: "codex-recall"
     description: "Search your Codex history by code, project, command, error, or conversation — then resume the exact session."
@@ -88,7 +104,16 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-01"
+    last_push: "2026-10-02"
+  - name: "learnNodejs"
+    title: "learnNodejs"
+    description: "learn nodejs"
+    language: "JavaScript"
+    topics:
+      - "learn"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-02"
   - name: "Agent-Harness-Runtime"
     title: "Agent-Harness-Runtime"
     description: null
@@ -105,34 +130,10 @@ repos:
     stars_fact: 1
     first_seen: null
     last_push: "2026-09-04"
-  - name: "Agent-Sandbox-Runtime"
-    title: "Agent-Sandbox-Runtime"
-    description: null
-    language: "Go"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-02"
-  - name: "dsh-runtime-observability"
-    title: "dsh-runtime-observability"
-    description: "Built a runtime observability plugin for DeepSeek Harness using Cordis lifecycle hooks and Harness execution seams, instrumenting Agent/tool execution with OpenTelemetry traces and metrics while preserving sensitive prompt/tool payload boundaries."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-31"
-  - name: "GeoHazard-Watch"
-    title: "GeoHazard-Watch"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-30"
 ---
 
 # luojiyin1987
 
-211 pushes across 52 repositories on 54 active days in the last 90 days of public GitHub push activity.
+213 pushes across 52 repositories on 56 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/luojiyin1987

@@ -11,12 +11,12 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "379642deb53f3714"
   - "c1af6b58492f9bf4"
   - "d1946b21c02e5fa5"
-pushes_per_week: [4, 3, 0, 1, 8, 3, 0, 4, 0, 0, 0, 0, 0]
+pushes_per_week: [6, 1, 1, 0, 8, 3, 2, 2, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -81,6 +81,23 @@ reasons:
   - "activity: 12 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "mcp-codestyle-server"
+    title: "mcp-codestyle-server"
+    description: "MCP Codestyle Server 是一个基于 Spring AI 实现的 Model Context Protocol (MCP) 服务器，为 IDE 和 AI 代理提供代码模板搜索和检索工具。该服务从本地缓存查找模板，并在缺失时自动从远程仓库下载元数据和文件进行修复。"
+    language: "Java"
+    topics:
+      - "ai-tools"
+      - "code-style"
+      - "coding-assistant"
+      - "ide"
+      - "java"
+      - "mcp"
+      - "mcp-server"
+      - "model-context-protocol"
+      - "spring-ai"
+    stars_fact: 56
+    first_seen: null
+    last_push: "2026-03-10"
   - name: "deep-code-research"
     title: "deep-code-research"
     description: "基于 MS-Agent 框架的智能深度代码研究系统，实现从需求到代码的自动化生成。"
@@ -97,23 +114,6 @@ repos:
     stars_fact: 16
     first_seen: null
     last_push: "2026-02-24"
-  - name: "mcp-codestyle-server"
-    title: "mcp-codestyle-server"
-    description: "MCP Codestyle Server 是一个基于 Spring AI 实现的 Model Context Protocol (MCP) 服务器，为 IDE 和 AI 代理提供代码模板搜索和检索工具。该服务从本地缓存查找模板，并在缺失时自动从远程仓库下载元数据和文件进行修复。"
-    language: "Java"
-    topics:
-      - "ai-tools"
-      - "code-style"
-      - "coding-assistant"
-      - "ide"
-      - "java"
-      - "mcp"
-      - "mcp-server"
-      - "model-context-protocol"
-      - "spring-ai"
-    stars_fact: 55
-    first_seen: null
-    last_push: "2026-03-10"
   - name: "codestyle"
     title: "codestyle"
     description: "CodeStyle（码蜂）是一款企业级代码知识库工具，通过\"官网在线制模 + 轻量化 MCP 插件检索\"的创新架构，让 AI 精准理解并复用团队的代码基因。"
@@ -129,7 +129,7 @@ repos:
     topics: []
     stars_fact: 6
     first_seen: null
-    last_push: "2026-10-01"
+    last_push: "2026-10-10"
   - name: "patent-writing"
     title: "patent-writing"
     description: null

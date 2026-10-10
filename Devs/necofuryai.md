@@ -8,37 +8,37 @@ provenance_repos:
   - "anthropics/claude-code-action"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+repos_populated: false
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "0b22ca37fd3884c9"
-pushes_per_week: [0, 18, 10, 2, 6, 2, 0, 1, 0, 1, 0, 1, 4]
+pushes_per_week: [8, 14, 7, 1, 6, 2, 0, 1, 1, 0, 0, 3, 4]
 windows:
   "7d":
     pushes: 4
     distinct_repos: 1
-    active_days: 2
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 6
+    pushes: 8
     distinct_repos: 2
-    active_days: 4
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 45
+    pushes: 47
     distinct_repos: 5
-    active_days: 22
+    active_days: 24
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.0455
-  repo_per_active_day: 0.2273
+  push_per_day: 1.9583
+  repo_per_active_day: 0.2083
   not_owned_ratio: 0.0000
   basename_concentration: 0.2000
   shapes: []
@@ -52,86 +52,35 @@ facets:
     pushes: 4
     distinct_repos: 1
     pushes_per_repo: 4.0000
-    active_days: 2
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 6
+    pushes: 8
     distinct_repos: 2
-    pushes_per_repo: 3.0000
-    active_days: 4
+    pushes_per_repo: 4.0000
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 45
+    pushes: 47
     distinct_repos: 5
-    pushes_per_repo: 9.0000
-    active_days: 22
+    pushes_per_repo: 9.4000
+    active_days: 24
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 22 active days in 90d — pass"
+  - "activity: 24 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "necofuryai"
-    title: "necofuryai"
-    description: "necofuryai GitHub profile"
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-05"
-  - name: "necofuryai.dev"
-    title: "necofuryai.dev"
-    description: null
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-04"
-  - name: "agent-skills"
-    title: "agent-skills"
-    description: "Agent skills for Claude Code and Codex"
-    language: "Python"
-    topics:
-      - "agent-skills"
-      - "claude-code"
-      - "codex"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-02"
-  - name: "dotfiles"
-    title: "dotfiles"
-    description: "Personal macOS configuration, managed with chezmoi"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-30"
-  - name: "genko-zed"
-    title: "genko-zed"
-    description: "Lightweight writing tools for Japanese fiction and technical articles (Zed extension)"
-    language: "C"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-01"
-  - name: "depatrol"
-    title: "depatrol"
-    description: "Read-only control plane for dependency update bots (Dependabot/Renovate)"
-    language: "Go"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-20"
+repos: []
 ---
 
 # necofuryai
 
-45 pushes across 5 repositories on 22 active days in the last 90 days of public GitHub push activity.
+47 pushes across 5 repositories on 24 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/necofuryai

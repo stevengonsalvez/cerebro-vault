@@ -8,11 +8,11 @@ provenance_repos:
   - "agavra/tuicr"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+repos_populated: false
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [0, 0, 7, 0, 1, 0, 2, 1, 1, 0, 2, 0, 0]
+pushes_per_week: [0, 1, 6, 0, 1, 0, 3, 0, 1, 0, 2, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 3
-    distinct_repos: 3
-    active_days: 3
+    pushes: 2
+    distinct_repos: 2
+    active_days: 2
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 3
-    distinct_repos: 3
+    pushes: 2
+    distinct_repos: 2
     pushes_per_repo: 1.0000
-    active_days: 3
+    active_days: 2
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
@@ -76,63 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 10 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "nfvelten"
-    title: "nfvelten"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-01"
-  - name: "agent-memory"
-    title: "agent-memory"
-    description: "MCP server that turns an Obsidian vault into persistent memory for AI agents — FTS5 search, semantic search, graph traversal, daily notes"
-    language: "Python"
-    topics:
-      - "ai-agents"
-      - "claude"
-      - "knowledge-management"
-      - "mcp"
-      - "memory"
-      - "obsidian"
-      - "python"
-      - "sqlite"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-24"
-  - name: "dotfiles"
-    title: "dotfiles"
-    description: null
-    language: "Lua"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-17"
-  - name: "site"
-    title: "site"
-    description: "My personal website"
-    language: "MDX"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-11"
-  - name: "backstage-poc"
-    title: "backstage-poc"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-06-01"
-  - name: "amphora-setup"
-    title: "amphora-setup"
-    description: "PKMS setup — Obsidian + Claude Code + Neovim integration with automation scripts"
-    language: "Rust"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-03-26"
+repos: []
 ---
 
 # nfvelten

@@ -8,11 +8,11 @@ provenance_repos:
   - "antirez/ds4"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+repos_populated: false
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "3eacb4655aba2497"
-pushes_per_week: [0, 0, 0, 1, 2, 1, 0, 0, 0, 1, 0, 0, 0]
+pushes_per_week: [0, 0, 0, 2, 2, 0, 0, 0, 0, 1, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,59 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "pymorphy"
-    title: "pymorphy"
-    description: "[UNSUPPORTED] - please use https://github.com/kmike/pymorphy2. Russian and English morphology analyser (POS tagger + inflection engine) written in python. It is based on dictionaries and research from http://aot.ru. Docs (Russian): http://pymorphy.rtfd.org/"
-    language: "C"
-    topics: []
-    stars_fact: 40
-    first_seen: null
-    last_push: "2015-07-23"
-  - name: "pi-output-limits"
-    title: "pi-output-limits"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-08-23"
-  - name: "pi-tps-footer"
-    title: "pi-tps-footer"
-    description: "Tokens-per-second in pi's footer + opt-in observation log"
-    language: "TypeScript"
-    topics:
-      - "cli"
-      - "pi"
-      - "pi-extension"
-      - "tokens-per-second"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-08-14"
-  - name: "django-coverage"
-    title: "django-coverage"
-    description: "Yet another django test coverage app with nice custom html reports. The official git mirror."
-    language: "Python"
-    topics: []
-    stars_fact: 51
-    first_seen: null
-    last_push: "2014-01-26"
-  - name: "text-unidecode"
-    title: "text-unidecode"
-    description: "The most basic Text::Unidecode port (licensed under Artistic License or GPL or GPLv2+ - choose whatever you want)"
-    language: "Python"
-    topics: []
-    stars_fact: 69
-    first_seen: null
-    last_push: "2023-03-16"
-  - name: "russian-tagsets"
-    title: "russian-tagsets"
-    description: "Russian morphological tagset converters library."
-    language: "Python"
-    topics: []
-    stars_fact: 43
-    first_seen: null
-    last_push: "2019-10-04"
+repos: []
 ---
 
 # kmike

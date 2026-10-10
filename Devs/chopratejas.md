@@ -11,37 +11,37 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "668711a6e1072822"
   - "73468cde177ddae6"
-pushes_per_week: [107, 19, 16, 16, 10, 4, 1, 0, 1, 4, 6, 4, 4]
+pushes_per_week: [116, 12, 16, 12, 9, 4, 1, 0, 3, 5, 3, 5, 5]
 windows:
   "7d":
-    pushes: 7
+    pushes: 5
     distinct_repos: 1
-    active_days: 3
+    active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 18
+    pushes: 20
     distinct_repos: 4
-    active_days: 10
+    active_days: 11
     repos_not_owned: 3
     not_owned_basenames: 1
     not_owned_owners: 3
   "90d":
-    pushes: 192
+    pushes: 191
     distinct_repos: 19
-    active_days: 44
+    active_days: 43
     repos_not_owned: 18
     not_owned_basenames: 2
     not_owned_owners: 18
 automation:
   state: "clear"
-  push_per_day: 4.3636
-  repo_per_active_day: 0.4318
+  push_per_day: 4.4419
+  repo_per_active_day: 0.4419
   not_owned_ratio: 0.9474
   basename_concentration: 0.8947
   shapes:
@@ -68,40 +68,56 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 7
+    pushes: 5
     distinct_repos: 1
-    pushes_per_repo: 7.0000
-    active_days: 3
+    pushes_per_repo: 5.0000
+    active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 18
+    pushes: 20
     distinct_repos: 4
-    pushes_per_repo: 4.5000
-    active_days: 10
+    pushes_per_repo: 5.0000
+    active_days: 11
     repos_not_owned: 3
     not_owned_basenames: 1
     not_owned_owners: 3
   "90d":
-    pushes: 192
+    pushes: 191
     distinct_repos: 19
-    pushes_per_repo: 10.1053
-    active_days: 44
+    pushes_per_repo: 10.0526
+    active_days: 43
     repos_not_owned: 18
     not_owned_basenames: 2
     not_owned_owners: 18
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 44 active days in 90d — pass"
+  - "activity: 43 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "tokview"
+    title: "tokview"
+    description: "See where your LLM tokens actually go — down to the individual tool call. A small, local, zero-config proxy + dashboard for token/cost tracking across Claude, OpenAI, Gemini."
+    language: "Python"
+    topics: []
+    stars_fact: 78
+    first_seen: null
+    last_push: "2026-09-30"
+  - name: "memcached"
+    title: "memcached"
+    description: "memcached implementation"
+    language: "Java"
+    topics: []
+    stars_fact: 14
+    first_seen: null
+    last_push: "2024-11-20"
   - name: "invalidate"
     title: "invalidate"
     description: "The invalidation layer for AI memory. Every fact gets a lease; new evidence ends it. Built on TypeSafe Jev."
     language: "Python"
     topics: []
-    stars_fact: 22
+    stars_fact: 23
     first_seen: null
     last_push: "2026-09-21"
   - name: "ephemeral-ai"
@@ -138,26 +154,10 @@ repos:
     stars_fact: 43
     first_seen: null
     last_push: "2026-03-04"
-  - name: "docs"
-    title: "docs"
-    description: null
-    language: "MDX"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-04-04"
-  - name: "headroom-swift"
-    title: "headroom-swift"
-    description: "Swift Package for Headroom — context compression for LLM applications"
-    language: "Swift"
-    topics: []
-    stars_fact: 9
-    first_seen: null
-    last_push: "2026-03-24"
 ---
 
 # chopratejas
 
-192 pushes across 19 repositories on 44 active days in the last 90 days of public GitHub push activity.
+191 pushes across 19 repositories on 43 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/chopratejas

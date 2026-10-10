@@ -11,7 +11,7 @@ provenance_repos:
 admitted: true
 low_n: true
 repos_populated: true
-generated_at: "2026-10-05T06:05:47.512530+00:00"
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "3eacb4655aba2497"
   - "f0fa1fe670d03028"
@@ -80,54 +80,54 @@ reasons:
   - "activity: 3 active days in 90d — below the 5-day line, LABELLED low-n (never suppressed)"
   - "automation: clear — pass"
 repos:
-  - name: "qwen-asr"
-    title: "qwen-asr"
-    description: "C inference for Qwen3-ASR 0.6b and 1.7b transcriptions models"
-    language: "C"
-    topics: []
-    stars_fact: 617
-    first_seen: null
-    last_push: "2026-10-01"
   - name: "ds4"
     title: "ds4"
     description: "DeepSeek 4 Flash and PRO local inference engine for Metal, CUDA and ROCm"
     language: "C"
     topics: []
-    stars_fact: 22817
+    stars_fact: 23745
     first_seen: "2026-08-04T06:00:05.826189+00:00"
-    last_push: "2026-09-20"
-  - name: "kilo"
-    title: "kilo"
-    description: "A text editor in less than 1000 LOC with syntax highlight and search."
-    language: "C"
-    topics: []
-    stars_fact: 9156
-    first_seen: null
-    last_push: "2025-01-04"
+    last_push: "2026-10-08"
   - name: "h3.c"
     title: "h3.c"
     description: "MiniMax H3 inference engine for Mac computers"
     language: "C"
     topics: []
-    stars_fact: 2801
+    stars_fact: 2862
     first_seen: "2026-08-11T06:00:08.519332+00:00"
     last_push: "2026-08-11"
-  - name: "sds"
-    title: "sds"
-    description: "Simple Dynamic Strings library for C"
+  - name: "kilo"
+    title: "kilo"
+    description: "A text editor in less than 1000 LOC with syntax highlight and search."
     language: "C"
     topics: []
-    stars_fact: 5572
+    stars_fact: 9171
     first_seen: null
-    last_push: "2025-04-18"
-  - name: "ttt-rl"
-    title: "ttt-rl"
-    description: "Reinforcement Learning example in C, playing tic tac toe"
+    last_push: "2025-01-04"
+  - name: "neural-redis"
+    title: "neural-redis"
+    description: "Neural networks module for Redis"
     language: "C"
     topics: []
-    stars_fact: 588
+    stars_fact: 2227
     first_seen: null
-    last_push: "2025-03-13"
+    last_push: "2018-07-23"
+  - name: "redimension"
+    title: "redimension"
+    description: "Redis multi-dimensional query library"
+    language: "Ruby"
+    topics: []
+    stars_fact: 97
+    first_seen: null
+    last_push: "2015-11-08"
+  - name: "disque"
+    title: "disque"
+    description: "Disque is a distributed message broker"
+    language: "C"
+    topics: []
+    stars_fact: 8074
+    first_seen: null
+    last_push: "2021-03-17"
 ---
 
 # antirez

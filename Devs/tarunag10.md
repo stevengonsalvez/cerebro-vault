@@ -8,11 +8,11 @@ provenance_repos:
   - "anthropics/claude-code-action"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+repos_populated: false
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "0b22ca37fd3884c9"
-pushes_per_week: [5, 1, 0, 1, 1, 1, 17, 0, 0, 0, 0, 10, 0]
+pushes_per_week: [5, 1, 0, 2, 0, 4, 14, 0, 0, 0, 10, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,71 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 10 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "salary-boost-uk-site"
-    title: "salary-boost-uk-site"
-    description: null
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-26"
-  - name: "open-access-uk"
-    title: "open-access-uk"
-    description: "Open Access UK suite workspace linking the seven project repos"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-01"
-  - name: "PageLumen"
-    title: "PageLumen"
-    description: "Native macOS accessibility-first reader for PDFs, screenshots, scans, and visual documents."
-    language: "Swift"
-    topics:
-      - "accessibility"
-      - "macos"
-      - "ocr"
-      - "pdf"
-      - "swiftui"
-      - "vision"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-30"
-  - name: "ai-switchboard"
-    title: "ai-switchboard"
-    description: "Local-first Mac AI work switchboard for Headroom, RTK, Codex, Claude Code, MarkItDown, Ponytail, and Repo Intelligence"
-    language: "Rust"
-    topics:
-      - "claude-code"
-      - "codex"
-      - "headroom"
-      - "local-first"
-      - "macos"
-      - "markitdown"
-      - "ponytail"
-      - "repo-intelligence"
-      - "rtk"
-      - "tauri"
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-09-26"
-  - name: "universal-copy-privacy-policy"
-    title: "universal-copy-privacy-policy"
-    description: null
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-26"
-  - name: "universal-copy"
-    title: "universal-copy"
-    description: null
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-26"
+repos: []
 ---
 
 # tarunag10

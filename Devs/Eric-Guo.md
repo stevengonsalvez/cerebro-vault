@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [43, 47, 30, 21, 30, 8, 7, 3, 10, 17, 37, 32, 24]
+pushes_per_week: [53, 31, 35, 15, 30, 5, 6, 2, 14, 26, 33, 33, 19]
 windows:
   "7d":
-    pushes: 27
-    distinct_repos: 7
-    active_days: 5
+    pushes: 22
+    distinct_repos: 6
+    active_days: 6
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
   "30d":
-    pushes: 111
+    pushes: 115
     distinct_repos: 19
-    active_days: 25
+    active_days: 27
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 1
   "90d":
-    pushes: 309
+    pushes: 302
     distinct_repos: 26
-    active_days: 73
+    active_days: 74
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 4.2329
-  repo_per_active_day: 0.3562
+  push_per_day: 4.0811
+  repo_per_active_day: 0.3514
   not_owned_ratio: 0.1923
   basename_concentration: 0.0385
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 27
-    distinct_repos: 7
-    pushes_per_repo: 3.8571
-    active_days: 5
+    pushes: 22
+    distinct_repos: 6
+    pushes_per_repo: 3.6667
+    active_days: 6
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
   "30d":
-    pushes: 111
+    pushes: 115
     distinct_repos: 19
-    pushes_per_repo: 5.8421
-    active_days: 25
+    pushes_per_repo: 6.0526
+    active_days: 27
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 1
   "90d":
-    pushes: 309
+    pushes: 302
     distinct_repos: 26
-    pushes_per_repo: 11.8846
-    active_days: 73
+    pushes_per_repo: 11.6154
+    active_days: 74
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 73 active days in 90d — pass"
+  - "activity: 74 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "opencode-agent-7777"
@@ -84,16 +84,7 @@ repos:
     topics: []
     stars_fact: 3
     first_seen: null
-    last_push: "2026-10-01"
-  - name: "opencode-db-viewer"
-    title: "opencode-db-viewer"
-    description: ".local/share/opencode/opencode.db Viewer in Rails 7.2"
-    language: "Ruby"
-    topics:
-      - "opencode"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-01"
+    last_push: "2026-10-10"
   - name: "opencode-desktop-tab"
     title: "opencode-desktop-tab"
     description: null
@@ -101,7 +92,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-01"
+    last_push: "2026-10-09"
   - name: "coreui4-rails-starter"
     title: "coreui4-rails-starter"
     description: "The CoreUI 5 Rails starter"
@@ -112,29 +103,35 @@ repos:
       - "template"
     stars_fact: 13
     first_seen: null
-    last_push: "2026-09-30"
-  - name: "audio-capture-napi_demo"
-    title: "audio-capture-napi_demo"
-    description: "A tiny, standalone Node.js 26.7 microphone recorder."
-    language: "TypeScript"
+    last_push: "2026-10-07"
+  - name: "restore-cloud-workstation-skill"
+    title: "restore-cloud-workstation-skill"
+    description: null
+    language: "Python"
     topics: []
-    stars_fact: 1
+    stars_fact: 0
     first_seen: null
-    last_push: "2026-09-27"
-  - name: "sublime-user-folder"
-    title: "sublime-user-folder"
-    description: "My Sublime Text 4 user folder content"
-    language: null
-    topics:
-      - "sublime-text-4"
-      - "user-settings"
-    stars_fact: 5
+    last_push: "2026-10-05"
+  - name: "git-absorb-commit-skill"
+    title: "git-absorb-commit-skill"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
     first_seen: null
-    last_push: "2026-09-24"
+    last_push: "2026-10-05"
+  - name: "opencode-memory-investigation"
+    title: "opencode-memory-investigation"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-05"
 ---
 
 # Eric-Guo
 
-309 pushes across 26 repositories on 73 active days in the last 90 days of public GitHub push activity.
+302 pushes across 26 repositories on 74 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Eric-Guo

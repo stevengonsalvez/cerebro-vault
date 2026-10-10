@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-07T15:16:07.319356+00:00"
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "9e2ff10d772b1e71"
-pushes_per_week: [12, 5, 1, 5, 1, 23, 0, 0, 0, 0, 3, 0, 1]
+pushes_per_week: [12, 5, 5, 1, 2, 22, 0, 0, 0, 2, 1, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -77,6 +77,30 @@ reasons:
   - "activity: 14 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "rose-agent"
+    title: "rose-agent"
+    description: "Native Rational Rose model editor with explicitly reviewed software-engineering AI chat"
+    language: "C++"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-05"
+  - name: "pi-learning-workspace"
+    title: "pi-learning-workspace"
+    description: "Interactive learning workspace for Pi with Neovim, a private shell, and an inline tutor"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-05"
+  - name: "omarchy-touch-mode"
+    title: "omarchy-touch-mode"
+    description: "Floating touch keyboard, reversible tablet mode, and accelerometer rotation for Omarchy Quattro"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-04"
   - name: "mangowm-dotfiles"
     title: "mangowm-dotfiles"
     description: "Artix Linux MangoWM dotfiles: curated named-palette theming, native Qt desktop tools, and an idempotent installer."
@@ -121,30 +145,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-09-18"
-  - name: "dwikycandra"
-    title: "dwikycandra"
-    description: "Portfolio of Dwiky Candra, Systems Builder. 9 shipped systems, live products, real users. Built with Next.js."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-06"
-  - name: "dky"
-    title: "dky"
-    description: "Retired static web experiment (HTML/CSS/JS mirror of Web, 2025). Kept for history; not maintained."
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2025-12-06"
-  - name: "Web"
-    title: "Web"
-    description: "Retired static web experiment (HTML/CSS/JS, 2025). Kept for history; not maintained."
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2025-03-06"
 ---
 
 # alertxsto

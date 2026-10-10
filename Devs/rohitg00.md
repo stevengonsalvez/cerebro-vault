@@ -8,39 +8,39 @@ provenance_repos:
   - "rohitg00/ai-engineering-from-scratch"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+repos_populated: false
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "7b553354eb544407"
-pushes_per_week: [15, 4, 9, 5, 9, 7, 13, 2, 1, 0, 4, 22, 12]
+pushes_per_week: [15, 8, 6, 4, 12, 5, 11, 2, 1, 0, 9, 25, 6]
 windows:
   "7d":
-    pushes: 19
-    distinct_repos: 3
-    active_days: 5
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 6
+    distinct_repos: 2
+    active_days: 4
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
-    pushes: 38
+    pushes: 40
     distinct_repos: 6
-    active_days: 12
+    active_days: 14
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 103
-    distinct_repos: 9
-    active_days: 45
-    repos_not_owned: 5
-    not_owned_basenames: 5
-    not_owned_owners: 4
+    pushes: 104
+    distinct_repos: 8
+    active_days: 46
+    repos_not_owned: 4
+    not_owned_basenames: 4
+    not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 2.2889
-  repo_per_active_day: 0.2000
-  not_owned_ratio: 0.5556
-  basename_concentration: 0.2222
+  push_per_day: 2.2609
+  repo_per_active_day: 0.1739
+  not_owned_ratio: 0.5000
+  basename_concentration: 0.2500
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,151 +49,38 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 19
-    distinct_repos: 3
-    pushes_per_repo: 6.3333
-    active_days: 5
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 6
+    distinct_repos: 2
+    pushes_per_repo: 3.0000
+    active_days: 4
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
-    pushes: 38
+    pushes: 40
     distinct_repos: 6
-    pushes_per_repo: 6.3333
-    active_days: 12
+    pushes_per_repo: 6.6667
+    active_days: 14
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 103
-    distinct_repos: 9
-    pushes_per_repo: 11.4444
-    active_days: 45
-    repos_not_owned: 5
-    not_owned_basenames: 5
-    not_owned_owners: 4
+    pushes: 104
+    distinct_repos: 8
+    pushes_per_repo: 13.0000
+    active_days: 46
+    repos_not_owned: 4
+    not_owned_basenames: 4
+    not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 45 active days in 90d — pass"
+  - "activity: 46 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "ai-engineering-from-scratch"
-    title: "ai-engineering-from-scratch"
-    description: "Learn it. Build it. Ship it for others."
-    language: "Python"
-    topics:
-      - "agents"
-      - "ai"
-      - "ai-agents"
-      - "ai-engineering"
-      - "computer-vision"
-      - "course"
-      - "deep-learning"
-      - "from-scratch"
-      - "generative-ai"
-      - "llm"
-      - "machine-learning"
-      - "mcp"
-      - "nlp"
-      - "python"
-      - "reinforcement-learning"
-      - "rust"
-      - "swarm-intelligence"
-      - "transformers"
-      - "tutorial"
-      - "typescript"
-    stars_fact: 62743
-    first_seen: "2026-07-21T06:00:01.973180+00:00"
-    last_push: "2026-10-02"
-  - name: "agentmemory"
-    title: "agentmemory"
-    description: "#1 Persistent memory for AI coding agents based on real-world benchmarks"
-    language: "TypeScript"
-    topics:
-      - "agentmemory"
-      - "agents"
-      - "ai"
-      - "claude"
-      - "claudecode"
-      - "codex"
-      - "copilot"
-      - "cursor"
-      - "genai"
-      - "harness"
-      - "hermes"
-      - "memory"
-      - "openclaw"
-    stars_fact: 29100
-    first_seen: null
-    last_push: "2026-10-03"
-  - name: "k8sgames"
-    title: "k8sgames"
-    description: "Learn Kubernetes by playing. Deploy pods, fix CrashLoopBackOff, type real kubectl commands: 3D browser game, no install needed."
-    language: "JavaScript"
-    topics:
-      - "browser-game"
-      - "cka"
-      - "cloud-native"
-      - "containers"
-      - "devops"
-      - "education"
-      - "games"
-      - "gamification"
-      - "k8s"
-      - "k8sgames"
-      - "kubectl"
-      - "kubernetes"
-      - "kubernetes-learning"
-      - "learning"
-      - "simulation"
-      - "sre"
-      - "threejs"
-    stars_fact: 1378
-    first_seen: null
-    last_push: "2026-04-28"
-  - name: "awesome-claude-design"
-    title: "awesome-claude-design"
-    description: "Claude Design DESIGN.md prompts by aesthetic family, remix recipes, skills, video teardowns, X signal, honest community takes."
-    language: null
-    topics:
-      - "ai-design"
-      - "anthropic"
-      - "awesome"
-      - "awesome-list"
-      - "claude-code"
-      - "claude-design"
-      - "claude-skills"
-      - "design-md"
-      - "design-system"
-    stars_fact: 1122
-    first_seen: null
-    last_push: "2026-04-23"
-  - name: "rohitg00"
-    title: "rohitg00"
-    description: null
-    language: "JavaScript"
-    topics: []
-    stars_fact: 35
-    first_seen: null
-    last_push: "2026-10-03"
-  - name: "awesome-claude-code-toolkit"
-    title: "awesome-claude-code-toolkit"
-    description: "The most comprehensive toolkit for Claude Code -- 135 agents, 35 curated skills, 42 commands, 176+ plugins, 20 hooks, 15 rules, 7 templates, 14 MCP configs, 26 companion apps, 52 ecosystem entries, and more."
-    language: "JavaScript"
-    topics:
-      - "claude"
-      - "claude-code"
-      - "claudecode"
-      - "claudecode-hooks"
-      - "plugins"
-      - "skills"
-    stars_fact: 2669
-    first_seen: null
-    last_push: "2026-05-12"
+repos: []
 ---
 
 # rohitg00
 
-103 pushes across 9 repositories on 45 active days in the last 90 days of public GitHub push activity.
+104 pushes across 8 repositories on 46 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/rohitg00

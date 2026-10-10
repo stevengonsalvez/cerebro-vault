@@ -8,14 +8,14 @@ provenance_repos:
   - "AlexsJones/llmfit"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+repos_populated: false
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [22, 5, 5, 6, 7, 1, 5, 2, 2, 10, 1, 27, 10]
+pushes_per_week: [25, 1, 7, 5, 6, 1, 5, 2, 2, 10, 2, 31, 5]
 windows:
   "7d":
-    pushes: 10
+    pushes: 9
     distinct_repos: 6
     active_days: 2
     repos_not_owned: 3
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 4
     not_owned_owners: 1
   "90d":
-    pushes: 103
+    pushes: 102
     distinct_repos: 15
-    active_days: 40
+    active_days: 39
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.5750
-  repo_per_active_day: 0.3750
+  push_per_day: 2.6154
+  repo_per_active_day: 0.3846
   not_owned_ratio: 0.2667
   basename_concentration: 0.1333
   shapes: []
@@ -49,9 +49,9 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 10
+    pushes: 9
     distinct_repos: 6
-    pushes_per_repo: 1.6667
+    pushes_per_repo: 1.5000
     active_days: 2
     repos_not_owned: 3
     not_owned_basenames: 3
@@ -65,70 +65,22 @@ facets:
     not_owned_basenames: 4
     not_owned_owners: 1
   "90d":
-    pushes: 103
+    pushes: 102
     distinct_repos: 15
-    pushes_per_repo: 6.8667
-    active_days: 40
+    pushes_per_repo: 6.8000
+    active_days: 39
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 40 active days in 90d — pass"
+  - "activity: 39 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "nihongo-ride-app"
-    title: "nihongo-ride-app"
-    description: "Nihongo Ride — Japanese typing-practice app for macOS & iOS (private source)"
-    language: "Swift"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-29"
-  - name: "RoastMate"
-    title: "RoastMate"
-    description: "RoastMate — On-device AI for witty, safe self-expression"
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-28"
-  - name: "Stride"
-    title: "Stride"
-    description: "Stride - Habit tracker for iOS & macOS with widgets, notifications, and StoreKit subscriptions"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-29"
-  - name: "stride-site"
-    title: "stride-site"
-    description: "Stride - Habit Tracker legal and support pages"
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-28"
-  - name: "Soundpost"
-    title: "Soundpost"
-    description: "Soundpost — capture how a moment sounds, seal it, and let your future self open it like a postcard. SwiftUI / SwiftData / StoreKit 2 / CloudKit."
-    language: "Swift"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-26"
-  - name: "soundpost-site"
-    title: "soundpost-site"
-    description: "Soundpost — landing page & privacy policy"
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-15"
+repos: []
 ---
 
 # JasonYeYuhe
 
-103 pushes across 15 repositories on 40 active days in the last 90 days of public GitHub push activity.
+102 pushes across 15 repositories on 39 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/JasonYeYuhe

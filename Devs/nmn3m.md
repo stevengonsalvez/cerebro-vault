@@ -8,11 +8,11 @@ provenance_repos:
   - "agent-substrate/substrate"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-06T06:06:47.636089+00:00"
+repos_populated: false
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "a5ffcd0a46dd44fd"
-pushes_per_week: [1, 3, 1, 0, 0, 0, 0, 0, 0, 0, 0, 2, 1]
+pushes_per_week: [4, 0, 1, 0, 0, 0, 0, 0, 0, 0, 2, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -76,57 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "oss-lab"
-    title: "oss-lab"
-    description: "Scripts and experiments for open source infrastructure."
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-07-04"
-  - name: "pulsar"
-    title: "pulsar"
-    description: "Modern Incident Management Platform"
-    language: "Go"
-    topics: []
-    stars_fact: 6
-    first_seen: null
-    last_push: "2026-03-28"
-  - name: "nmn3m.github.io"
-    title: "nmn3m.github.io"
-    description: "Personal Blog."
-    language: "CSS"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-04-25"
-  - name: "dot-files"
-    title: "dot-files"
-    description: "Dot files"
-    language: "Lua"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-04-02"
-  - name: "myown-driver"
-    title: "myown-driver"
-    description: "Learning how to build DRA driver."
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-03-21"
-  - name: "nmn3m"
-    title: "nmn3m"
-    description: "Config files for my GitHub profile."
-    language: null
-    topics:
-      - "config"
-      - "github-config"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2025-12-12"
+repos: []
 ---
 
 # nmn3m

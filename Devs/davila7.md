@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "25bff0b4a0ece6bc"
-pushes_per_week: [13, 1, 5, 6, 1, 2, 2, 1, 1, 2, 6, 7, 6]
+pushes_per_week: [8, 2, 7, 3, 3, 0, 3, 0, 1, 5, 6, 7, 4]
 windows:
   "7d":
-    pushes: 7
+    pushes: 6
     distinct_repos: 1
-    active_days: 4
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 21
+    pushes: 22
     distinct_repos: 2
-    active_days: 15
+    active_days: 16
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 53
+    pushes: 49
     distinct_repos: 5
     active_days: 34
     repos_not_owned: 0
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.5588
+  push_per_day: 1.4412
   repo_per_active_day: 0.1471
   not_owned_ratio: 0.0000
   basename_concentration: 0.2000
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 7
+    pushes: 6
     distinct_repos: 1
-    pushes_per_repo: 7.0000
-    active_days: 4
+    pushes_per_repo: 6.0000
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 21
+    pushes: 22
     distinct_repos: 2
-    pushes_per_repo: 10.5000
-    active_days: 15
+    pushes_per_repo: 11.0000
+    active_days: 16
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 53
+    pushes: 49
     distinct_repos: 5
-    pushes_per_repo: 10.6000
+    pushes_per_repo: 9.8000
     active_days: 34
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -86,53 +86,55 @@ repos:
       - "anthropic-claude"
       - "claude"
       - "claude-code"
-    stars_fact: 32250
+    stars_fact: 32510
     first_seen: "2026-07-11T06:00:03.582945+00:00"
-    last_push: "2026-10-01"
-  - name: "agents_otel_data"
-    title: "agents_otel_data"
-    description: "Testing Agent Open Telemetry data"
-    language: "Python"
-    topics: []
-    stars_fact: 14
-    first_seen: null
-    last_push: "2026-08-16"
-  - name: "jev-explained"
-    title: "jev-explained"
-    description: "Jev Explained"
+    last_push: "2026-10-10"
+  - name: "chaos-monkey-coding-agents"
+    title: "chaos-monkey-coding-agents"
+    description: "Chaos Monkey Benchmark for Coding Agents"
     language: "TypeScript"
+    topics:
+      - "benchmark"
+      - "coding-agent"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-10"
+  - name: "davila7"
+    title: "davila7"
+    description: "Profile"
+    language: null
     topics: []
     stars_fact: 33
     first_seen: null
-    last_push: "2026-09-20"
-  - name: "model_context_protocol_associate_exam_prep"
-    title: "model_context_protocol_associate_exam_prep"
-    description: "MCPA Exam Prep - Linux Foundation Global Certification"
-    language: "MDX"
+    last_push: "2026-10-09"
+  - name: "Ingenier-a-de-Soluciones-con-Inteligencia-Artificial"
+    title: "Ingenier-a-de-Soluciones-con-Inteligencia-Artificial"
+    description: "Ingeniería de Soluciones con Inteligencia Artificial"
+    language: "Jupyter Notebook"
     topics: []
-    stars_fact: 24
+    stars_fact: 67
     first_seen: null
-    last_push: "2026-08-01"
-  - name: "claude_subagents"
-    title: "claude_subagents"
-    description: "Claude SubAgents"
-    language: "CSS"
+    last_push: "2025-09-11"
+  - name: "gemini-cli-templates"
+    title: "gemini-cli-templates"
+    description: "Gemini CLI Local Dashboard"
+    language: "JavaScript"
     topics: []
-    stars_fact: 113
+    stars_fact: 40
     first_seen: null
-    last_push: "2026-06-21"
-  - name: "aitmpl-docs"
-    title: "aitmpl-docs"
-    description: "AITMPL Docs (docs.aitmpl.com)"
-    language: null
+    last_push: "2025-08-04"
+  - name: "mcp-courses"
+    title: "mcp-courses"
+    description: "MCP: Build Rich-Context AI Apps with Anthropic"
+    language: "Python"
     topics: []
-    stars_fact: 1
+    stars_fact: 71
     first_seen: null
-    last_push: "2025-09-05"
+    last_push: "2025-06-25"
 ---
 
 # davila7
 
-53 pushes across 5 repositories on 34 active days in the last 90 days of public GitHub push activity.
+49 pushes across 5 repositories on 34 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/davila7

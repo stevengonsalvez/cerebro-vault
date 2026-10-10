@@ -8,11 +8,11 @@ provenance_repos:
   - "alibaba/open-code-review"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+repos_populated: false
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "c489e6fb5febf2ab"
-pushes_per_week: [2, 1, 0, 0, 0, 0, 2, 0, 0, 0, 1, 0, 0]
+pushes_per_week: [2, 1, 0, 0, 0, 0, 2, 0, 0, 1, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,55 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "multimodal-rag"
-    title: "multimodal-rag"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-22"
-  - name: "clinical-patient-trial-matching-platform"
-    title: "clinical-patient-trial-matching-platform"
-    description: "Research-only clinical trial review platform using semantic and lexical retrieval over public ClinicalTrials.gov studies, with synthetic FHIR R4 imports and source-linked evidence for human review."
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-29"
-  - name: "siteguard-ai"
-    title: "siteguard-ai"
-    description: "Real-time workplace safety monitoring with YOLO tracking, PPE detection, deterministic safety rules, and a React/FastAPI dashboard."
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-17"
-  - name: "fastapi_authentication_template"
-    title: "fastapi_authentication_template"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-16"
-  - name: "project-assistant"
-    title: "project-assistant"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-02"
-  - name: "patient_condition_classifier"
-    title: "patient_condition_classifier"
-    description: "Fine-tuned DeBERTa-v3-large that classifies drug reviews into 700+ medical conditions with 82.8% accuracy. Trained on AWS SageMaker with focal loss."
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-07-24"
+repos: []
 ---
 
 # noamaanMulla-03

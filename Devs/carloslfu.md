@@ -10,36 +10,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "fb0827c68cc0b5d0"
-pushes_per_week: [24, 26, 5, 5, 1, 1, 3, 0, 3, 2, 4, 6, 20]
+pushes_per_week: [28, 22, 9, 0, 1, 1, 3, 0, 3, 2, 6, 9, 15]
 windows:
   "7d":
-    pushes: 20
+    pushes: 18
     distinct_repos: 1
     active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 35
+    pushes: 34
     distinct_repos: 2
-    active_days: 14
+    active_days: 13
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 100
+    pushes: 99
     distinct_repos: 12
-    active_days: 33
+    active_days: 32
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 3.0303
-  repo_per_active_day: 0.3636
+  push_per_day: 3.0938
+  repo_per_active_day: 0.3750
   not_owned_ratio: 0.0833
   basename_concentration: 0.0833
   shapes: []
@@ -50,42 +50,34 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 20
+    pushes: 18
     distinct_repos: 1
-    pushes_per_repo: 20.0000
+    pushes_per_repo: 18.0000
     active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 35
+    pushes: 34
     distinct_repos: 2
-    pushes_per_repo: 17.5000
-    active_days: 14
+    pushes_per_repo: 17.0000
+    active_days: 13
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 100
+    pushes: 99
     distinct_repos: 12
-    pushes_per_repo: 8.3333
-    active_days: 33
+    pushes_per_repo: 8.2500
+    active_days: 32
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 33 active days in 90d — pass"
+  - "activity: 32 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "homebrew-tap"
-    title: "homebrew-tap"
-    description: "Homebrew tap for the VibeCraft CLI (https://vibecraft.so)"
-    language: "Ruby"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-01"
   - name: "slotstream"
     title: "slotstream"
     description: "Run a 105 GB AI model on a Mac that can't hold it. Slotstream streams Qwen3.8-Flash-Next (125B mixture of experts) from your SSD and caches the busiest experts in memory, so it runs on Macs with 16 to 64 GB. One native Swift binary on MLX and Metal, no Python, offline. Works with Claude Code, Codex and Ollama or OpenAI clients."
@@ -109,9 +101,25 @@ repos:
       - "qwen"
       - "qwen3"
       - "swift"
-    stars_fact: 407
+    stars_fact: 453
     first_seen: "2026-09-02T06:00:06.666008+00:00"
-    last_push: "2026-10-01"
+    last_push: "2026-10-07"
+  - name: "rewire"
+    title: "rewire"
+    description: "A browser language model laboratory. Chat, teach, and take apart real models on your device."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-07"
+  - name: "homebrew-tap"
+    title: "homebrew-tap"
+    description: "Homebrew tap for the VibeCraft CLI (https://vibecraft.so)"
+    language: "Ruby"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-06"
   - name: "db.md"
     title: "db.md"
     description: "Your database is a folder of markdown files, and the agent is the engine. The open standard for databases in plain files. No vector store, ever."
@@ -135,7 +143,7 @@ repos:
       - "second-brain"
     stars_fact: 4
     first_seen: null
-    last_push: "2026-10-01"
+    last_push: "2026-10-06"
   - name: "carloslfu"
     title: "carloslfu"
     description: "Carlos Galarza: Executable Rationality and efficient AI."
@@ -158,18 +166,10 @@ repos:
     stars_fact: 115
     first_seen: null
     last_push: "2023-01-04"
-  - name: "cursor-old"
-    title: "cursor-old"
-    description: "Non-official repo for the old Cursor version (first release)"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 46
-    first_seen: null
-    last_push: "2024-09-14"
 ---
 
 # carloslfu
 
-100 pushes across 12 repositories on 33 active days in the last 90 days of public GitHub push activity.
+99 pushes across 12 repositories on 32 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/carloslfu

@@ -8,11 +8,11 @@ provenance_repos:
   - "anthropics/claude-code-action"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+repos_populated: false
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "0b22ca37fd3884c9"
-pushes_per_week: [4, 0, 0, 0, 2, 0, 1, 0, 0, 1, 3, 5, 0]
+pushes_per_week: [4, 0, 0, 0, 2, 0, 1, 0, 0, 1, 6, 2, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,61 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 11 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "mario-rl"
-    title: "mario-rl"
-    description: "Double-DQN Super Mario Bros agent: CPU/WSL, frame-dedup replay buffer, resumable training, memorization-aware eval"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-29"
-  - name: "SocialAgent-Team10"
-    title: "SocialAgent-Team10"
-    description: "oh who wants coffee"
-    language: "Python"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-04"
-  - name: "relay"
-    title: "relay"
-    description: "Prompt-deployment platform: author prompts collaboratively, A/B-test with feature flags, track cost & latency per variant. Rust + TypeScript + Python monorepo."
-    language: "Python"
-    topics:
-      - "fastapi"
-      - "monorepo"
-      - "nextjs"
-      - "python"
-      - "rust"
-      - "typescript"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-26"
-  - name: "NickNojiri"
-    title: "NickNojiri"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-17"
-  - name: "prof-out-reach"
-    title: "prof-out-reach"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-15"
-  - name: "portfolio"
-    title: "portfolio"
-    description: "Personal portfolio website — each project shown as its real, interactive data pipeline. Vanilla HTML/CSS/JS, no build step."
-    language: "CSS"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-07-15"
+repos: []
 ---
 
 # NickNojiri

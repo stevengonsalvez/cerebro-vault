@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "16389f32495280ea"
-pushes_per_week: [3, 1, 1, 0, 0, 2, 0, 0, 0, 5, 1, 1, 5]
+pushes_per_week: [3, 1, 1, 0, 0, 2, 0, 0, 0, 6, 0, 2, 4]
 windows:
   "7d":
     pushes: 5
@@ -77,6 +77,22 @@ reasons:
   - "activity: 14 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "agent-gate"
+    title: "agent-gate"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-09"
+  - name: "issue-watch"
+    title: "issue-watch"
+    description: "Self-hosted GitHub issue monitoring with QQ bot notifications, built in Rust"
+    language: "Rust"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-10-07"
   - name: "GodBlf"
     title: "GodBlf"
     description: "my profile"
@@ -84,7 +100,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-01"
+    last_push: "2026-10-07"
   - name: "godblf.github.io"
     title: "godblf.github.io"
     description: "blog"
@@ -109,22 +125,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-09-16"
-  - name: "galaxy-brain-qa"
-    title: "galaxy-brain-qa"
-    description: "Q&A sandbox for GitHub Discussions — used to earn the Galaxy Brain achievement (accepted answers)"
-    language: null
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-13"
-  - name: "register-machine-select"
-    title: "register-machine-select"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 17
-    first_seen: null
-    last_push: "2026-04-03"
 ---
 
 # GodBlf

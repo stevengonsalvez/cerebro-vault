@@ -9,20 +9,20 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "97c4e9cb8b163ddb"
   - "c7515e0fa4368a55"
   - "d3abe74726b22711"
   - "e7c647c4d0689526"
-pushes_per_week: [2, 3, 4, 14, 3, 3, 0, 0, 3, 31, 44, 39, 4]
+pushes_per_week: [4, 1, 4, 15, 4, 1, 0, 0, 10, 43, 33, 35, 0]
 windows:
   "7d":
-    pushes: 7
-    distinct_repos: 7
-    active_days: 3
-    repos_not_owned: 3
-    not_owned_basenames: 3
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
+    repos_not_owned: 1
+    not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
     pushes: 118
@@ -52,12 +52,12 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 7
-    distinct_repos: 7
+    pushes: 1
+    distinct_repos: 1
     pushes_per_repo: 1.0000
-    active_days: 3
-    repos_not_owned: 3
-    not_owned_basenames: 3
+    active_days: 1
+    repos_not_owned: 1
+    not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
     pushes: 118
@@ -80,143 +80,155 @@ reasons:
   - "activity: 35 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "roli-lpci"
-    title: "roli-lpci"
-    description: "Roli Bosch, founder of Hermes Labs. Philosophy of language applied to how AI systems are instructed and evaluated. Research, open-source tools, upstream fixes."
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-29"
-  - name: "agent-kickstart"
-    title: "agent-kickstart"
-    description: "A guided onboarding project for people new to Claude Code — no coding or terminal experience required. Asks a few questions, proposes real starter projects shaped around what you care about, and begins one with you."
-    language: "JavaScript"
+  - name: "agent-trash-guard"
+    title: "agent-trash-guard"
+    description: "Recoverable deletion guard and trash workflow for Claude Code, Codex, and Gemini CLI agents"
+    language: "Python"
     topics:
+      - "agent-skills"
       - "ai-agents"
-      - "ai-reliability"
-      - "ai-tools"
-      - "beginner-friendly"
-      - "claude"
       - "claude-code"
-      - "claude-code-commands"
       - "claude-code-plugin"
       - "cli"
+      - "codex"
       - "developer-tools"
-      - "education"
+      - "file-recovery"
+      - "gemini-cli-extension"
+      - "git"
       - "hermes-labs"
-      - "human-ai-interaction"
-      - "javascript"
-      - "local-first"
-      - "onboarding"
-      - "privacy"
+      - "safety"
+      - "undo"
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-10-08"
+  - name: "hermes-gate"
+    title: "hermes-gate"
+    description: "Receipt-bound completion rail for coding agents"
+    language: "Python"
+    topics:
+      - "agent-skills"
+      - "ai-agents"
+      - "ci-cd"
+      - "claude-code"
+      - "claude-code-plugin"
+      - "code-quality"
+      - "coding-agents"
+      - "continuous-integration"
+      - "developer-tools"
+      - "github-actions"
+      - "hermes-labs"
       - "python"
+      - "quality-gate"
+      - "reproducibility"
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-10-01"
+  - name: "csv-quality-gate"
+    title: "csv-quality-gate"
+    description: "csv-quality-gate is a command-line data quality gate that runs CSV preflight validation, failing fast before an ML or LLM pipeline ingests broken, incomplete, duplicated, or junk input. It checks missing columns, empty files, empty cells, and duplicate rows, returning pass, warn, or fail with matching exit codes. Stdlib-only, CI-ready."
+    language: "Python"
+    topics:
+      - "agent-skills"
+      - "ai-reliability"
+      - "ci"
+      - "claude-code-plugin"
+      - "cli"
+      - "csv"
+      - "data-quality"
+      - "data-validation"
+      - "developer-tools"
+      - "etl"
+      - "gemini-cli-extension"
+      - "github-actions"
+      - "hermes-labs"
+      - "llm-ops"
+      - "ml-pipeline"
+      - "pipeline"
+      - "pre-commit"
+      - "preflight"
+      - "python"
+      - "quality-gate"
     stars_fact: 1
     first_seen: null
     last_push: "2026-09-29"
-  - name: "claude-router"
-    title: "claude-router"
-    description: "claude-router is a local prompt router that picks the right Claude model tier and prepends the right scaffold using local embeddings before you call the API. A deterministic routing layer for eval, research, content, and review prompts that helps teams stop overspending on Sonnet and Opus when Haiku plus structure is enough."
+  - name: "intent-verify"
+    title: "intent-verify"
+    description: "intent-verify is a deterministic, zero-LLM CLI that checks whether a repo's source still lexically covers the acceptance items in a markdown spec, INTENT.md, or handoff doc, returning verified, partial, or missing. A fast guardrail for catching spec-vs-code drift before review, release, or handoff. Lexical coverage, not semantic proof."
     language: "Python"
     topics:
+      - "agent-skills"
+      - "ai-agents"
       - "ai-reliability"
-      - "anthropic"
-      - "claude"
-      - "cost-optimization"
+      - "ci"
+      - "claude-code-plugin"
+      - "cli"
+      - "code-quality"
       - "developer-tools"
-      - "embeddings"
+      - "drift-detection"
+      - "gemini-cli-extension"
+      - "github-actions"
       - "hermes-labs"
       - "llm"
-      - "llm-cost"
-      - "llm-ops"
-      - "llm-routing"
-      - "local-embeddings"
-      - "local-first"
-      - "model-routing"
-      - "ollama"
-      - "prompt-engineering"
-      - "prompt-routing"
       - "python"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-29"
-  - name: "agent-signage"
-    title: "agent-signage"
-    description: "Road signs for coding agents: one measured fact at the moment of action, silence otherwise"
-    language: "Python"
-    topics:
-      - "agent-harness"
-      - "agent-observability"
-      - "agent-reliability"
-      - "agentic"
-      - "ai-agents"
-      - "claude-code"
-      - "claude-code-hooks"
-      - "claude-code-plugin"
-      - "coding-agents"
-      - "context-engineering"
-      - "context-integrity"
-      - "developer-tools"
-      - "git"
-      - "git-worktree"
-      - "hermes-labs"
-      - "pretooluse"
-      - "python"
+      - "requirements-traceability"
+      - "spec"
+      - "spec-drift"
+      - "static-analysis"
+      - "verification"
       - "zero-llm"
     stars_fact: 1
     first_seen: null
     last_push: "2026-09-29"
-  - name: "zer0lint"
-    title: "zer0lint"
-    description: "zer0lint is a memory-extraction health diagnostic for mem0 configs and HTTP memory endpoints. It flags silent failure modes where ingestion reports success but facts never survive the LLM extraction step, then generates a stronger extraction prompt validated on your own model. Works over HTTP with any add/search memory API."
+  - name: "rule-audit"
+    title: "rule-audit"
+    description: "Static analyzer for AI system prompts: parses a prompt into normative rules and reports contradictions, coverage gaps, priority ambiguities, and absolute-rule edge cases - no LLM calls. Deterministic pure-Python lint with CLI, Python API, and CI exit codes. pip install rule-audit"
     language: "Python"
     topics:
-      - "agent-memory"
+      - "agent-skills"
       - "ai-agents"
       - "ai-reliability"
       - "ai-safety"
+      - "claude-code-plugin"
       - "cli"
-      - "diagnostics"
-      - "extraction"
+      - "contradiction-detection"
+      - "developer-tools"
+      - "gemini-cli-extension"
+      - "github-actions"
       - "hermes-labs"
+      - "linter"
       - "llm"
-      - "llm-evaluation"
-      - "llm-ops"
-      - "mem0"
-      - "memory"
-      - "memory-security"
+      - "pre-commit"
       - "prompt-engineering"
+      - "prompt-linter"
       - "python"
-    stars_fact: 0
+      - "static-analysis"
+      - "system-prompts"
+      - "zero-llm"
+    stars_fact: 3
     first_seen: null
     last_push: "2026-09-29"
-  - name: "te-drift-detector"
-    title: "te-drift-detector"
-    description: "Experimental Python tool for inspecting language and task-framing changes across long AI conversations."
+  - name: "forgetted"
+    title: "forgetted"
+    description: "forgetted is a Python library for selective memory governance in AI agents: a context-managed window where the agent keeps full read access but its writes to memory files, session logs, deliverables, and an optional vector store vanish and are cleaned up on exit."
     language: "Python"
     topics:
+      - "agent-memory"
       - "agent-safety"
       - "ai-agents"
-      - "ai-reliability"
-      - "context-integrity"
-      - "conversation-analysis"
-      - "deterministic"
-      - "drift-detection"
+      - "ai-safety"
+      - "claude-code"
+      - "context-manager"
+      - "data-privacy"
+      - "ephemeral-memory"
       - "hermes-labs"
+      - "incognito"
       - "llm"
-      - "llm-evaluation"
-      - "llm-monitoring"
-      - "mcp"
-      - "multi-turn"
-      - "nlp"
+      - "memory-governance"
+      - "privacy"
       - "python"
-      - "session-monitoring"
-      - "state-drift"
-      - "telemetry"
-      - "text-analysis"
-    stars_fact: 1
+    stars_fact: 3
     first_seen: null
-    last_push: "2026-09-28"
+    last_push: "2026-10-03"
 ---
 
 # roli-lpci

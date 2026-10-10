@@ -10,10 +10,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "dc9094c987231bcf"
-pushes_per_week: [0, 1, 1, 0, 13, 1, 2, 0, 1, 1, 0, 0, 0]
+pushes_per_week: [0, 1, 1, 0, 14, 0, 2, 0, 2, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -78,57 +78,21 @@ reasons:
   - "activity: 8 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "claude-seo"
-    title: "claude-seo"
-    description: "Universal SEO skill for Claude Code. 26 sub-skills + 19 sub-agents covering technical SEO, E-E-A-T, schema, GEO/AEO, agent readiness (Lighthouse Agentic Browsing, WebMCP, llms.txt), backlinks, local SEO, e-commerce, international SEO, Google APIs, and PDF/Excel reporting. 9 optional extensions, including DataForSEO, Firecrawl, Ahrefs and Matomo."
-    language: "Python"
+  - name: "compass"
+    title: "compass"
+    description: "Compass: run your whole life out of Obsidian. Daily questions, quarterly retreats, planning, habits, tasks, writing, and an AI assistant in the vault."
+    language: "JavaScript"
     topics:
-      - "ai"
-      - "ai-seo"
       - "claude-code"
-      - "claude-code-skill"
-      - "marketing-automation"
-      - "open-source"
-      - "seo"
-    stars_fact: 18063
+      - "journaling"
+      - "life-os"
+      - "obsidian"
+      - "obsidian-vault"
+      - "pkm"
+      - "template"
+    stars_fact: 932
     first_seen: null
-    last_push: "2026-09-29"
-  - name: "claude-blog"
-    title: "claude-blog"
-    description: "Claude Code blog skill suite: 30 sub-skills, 5 agents, 5-gate v1.9.0 Blog Delivery Contract, dual-optimized for Google rankings and AI citations. Active development at AI-Marketing-Hub/claude-blog (AI Marketing Hub Pro community); public releases ship here."
-    language: "Python"
-    topics:
-      - "agent-skills"
-      - "ai"
-      - "ai-citations"
-      - "ai-content"
-      - "ai-marketing"
-      - "ai-marketing-hub"
-      - "blog"
-      - "blog-writing"
-      - "claude-code"
-      - "claude-code-skill"
-      - "claude-plugin"
-      - "claude-skill"
-      - "content-creation"
-      - "content-optimization"
-      - "content-strategy"
-      - "eeat"
-      - "geo"
-      - "multilingual"
-      - "open-source"
-      - "seo"
-    stars_fact: 2297
-    first_seen: null
-    last_push: "2026-09-25"
-  - name: "jev-seo"
-    title: "jev-seo"
-    description: "Live SEO audit for any website from one homepage URL, judged by Jev. PDF, XLSX and Markdown reports."
-    language: "Python"
-    topics: []
-    stars_fact: 391
-    first_seen: null
-    last_push: "2026-09-22"
+    last_push: "2026-09-13"
   - name: "claude-obsidian"
     title: "claude-obsidian"
     description: "Self-organizing AI second brain for Obsidian + Claude Code. Drop any source and Claude reads, links, and files it into one connected knowledge graph of plain Markdown you own. AI note-taking, personal knowledge management (PKM), and an open-source Notion alternative. Based on Karpathy's LLM Wiki pattern."
@@ -154,23 +118,24 @@ repos:
       - "personal-knowledge-management"
       - "pkm"
       - "second-brain"
-    stars_fact: 15317
+    stars_fact: 15436
     first_seen: "2026-08-25T06:00:03.138196+00:00"
     last_push: "2026-09-10"
-  - name: "banana-claude"
-    title: "banana-claude"
-    description: "AI image generation skill for Claude Code - Creative Director powered by Gemini"
+  - name: "claude-seo"
+    title: "claude-seo"
+    description: "Universal SEO skill for Claude Code. 26 sub-skills + 19 sub-agents covering technical SEO, E-E-A-T, schema, GEO/AEO, agent readiness (Lighthouse Agentic Browsing, WebMCP, llms.txt), backlinks, local SEO, e-commerce, international SEO, Google APIs, and PDF/Excel reporting. 9 optional extensions for live SEO data."
     language: "Python"
     topics:
       - "ai"
-      - "ai-content"
+      - "ai-seo"
       - "claude-code"
       - "claude-code-skill"
-      - "content-creation"
+      - "marketing-automation"
       - "open-source"
-    stars_fact: 1069
+      - "seo"
+    stars_fact: 18626
     first_seen: null
-    last_push: "2026-09-25"
+    last_push: "2026-10-04"
   - name: "claude-ads"
     title: "claude-ads"
     description: "Claude-first paid-media operations skill for Claude Code across 12 ad platforms (Google, Meta, YouTube, LinkedIn, TikTok, Microsoft, Apple, Amazon, Reddit, Pinterest, Snapchat, X): source-grounded audits, deterministic scoring, versioned JSON reports, and capability-gated account changes."
@@ -187,9 +152,45 @@ repos:
       - "open-source"
       - "paid-advertising"
       - "ppc"
-    stars_fact: 9660
+    stars_fact: 9853
     first_seen: null
-    last_push: "2026-09-25"
+    last_push: "2026-10-07"
+  - name: "seo-os"
+    title: "seo-os"
+    description: "SEO Office is a local-first SEO agency operating system. claw3d UI + claude-seo specialists + marketing-brain. Distributed as a private repo to a non-technical community."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 137
+    first_seen: null
+    last_push: "2026-06-29"
+  - name: "claude-blog"
+    title: "claude-blog"
+    description: "Claude Code blog skill suite: 30 sub-skills, 5 agents, 5-gate v1.9.0 Blog Delivery Contract, dual-optimized for Google rankings and AI citations. Active development at AI-Marketing-Hub/claude-blog (AI Marketing Hub Pro community); public releases ship here."
+    language: "Python"
+    topics:
+      - "agent-skills"
+      - "ai"
+      - "ai-citations"
+      - "ai-content"
+      - "ai-marketing"
+      - "ai-marketing-hub"
+      - "blog"
+      - "blog-writing"
+      - "claude-code"
+      - "claude-code-skill"
+      - "claude-plugin"
+      - "claude-skill"
+      - "content-creation"
+      - "content-optimization"
+      - "content-strategy"
+      - "eeat"
+      - "geo"
+      - "multilingual"
+      - "open-source"
+      - "seo"
+    stars_fact: 2348
+    first_seen: null
+    last_push: "2026-10-09"
 ---
 
 # AgriciDaniel

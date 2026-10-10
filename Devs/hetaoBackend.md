@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "16389f32495280ea"
-pushes_per_week: [3, 1, 0, 6, 0, 1, 2, 0, 0, 2, 17, 6, 3]
+pushes_per_week: [3, 0, 3, 3, 0, 1, 2, 0, 0, 10, 9, 7, 3]
 windows:
   "7d":
     pushes: 3
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 28
+    pushes: 29
     distinct_repos: 3
-    active_days: 15
+    active_days: 16
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 28
+    pushes: 29
     distinct_repos: 3
-    pushes_per_repo: 9.3333
-    active_days: 15
+    pushes_per_repo: 9.6667
+    active_days: 16
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
@@ -77,14 +77,30 @@ reasons:
   - "activity: 26 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "mcode-evolve"
+    title: "mcode-evolve"
+    description: "A coding agent that learns the repository it works in."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-08-13"
   - name: "mcp-github-trending"
     title: "mcp-github-trending"
     description: "MCP server for getting github trending repos & developers"
     language: "Python"
     topics: []
-    stars_fact: 58
+    stars_fact: 59
     first_seen: null
     last_push: "2026-03-18"
+  - name: "harness-engineering"
+    title: "harness-engineering"
+    description: "Harness engineering skeleton for deepagents — reproduction of LangChain blog post"
+    language: "Python"
+    topics: []
+    stars_fact: 5
+    first_seen: null
+    last_push: "2026-03-29"
   - name: "deer-trade"
     title: "deer-trade"
     description: "The Trading Research Framework inspired by Deerflow Multi-Agent!"
@@ -112,22 +128,6 @@ repos:
     stars_fact: 10
     first_seen: null
     last_push: "2026-09-02"
-  - name: "comic-alpha"
-    title: "comic-alpha"
-    description: "The Magic Repository For Comic Auto-Generation"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 16
-    first_seen: null
-    last_push: "2026-07-18"
-  - name: "mcode-evolve"
-    title: "mcode-evolve"
-    description: "A coding agent that learns the repository it works in."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-08-13"
 ---
 
 # hetaoBackend

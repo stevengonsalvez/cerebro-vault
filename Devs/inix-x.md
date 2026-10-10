@@ -8,11 +8,11 @@ provenance_repos:
   - "chopratejas/headroom"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+repos_populated: false
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "73468cde177ddae6"
-pushes_per_week: [0, 1, 0, 0, 0, 0, 2, 2, 0, 1, 0, 0, 0]
+pushes_per_week: [0, 1, 0, 0, 0, 0, 3, 1, 0, 1, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,55 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "vas4c-skills-site"
-    title: "vas4c-skills-site"
-    description: null
-    language: "CSS"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-06"
-  - name: "spotify-listening-ledger"
-    title: "spotify-listening-ledger"
-    description: "Laravel 13 Spotify listening analytics: OAuth, Horizon queues, Postgres window functions, Livewire tiles."
-    language: "PHP"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-04-16"
-  - name: "inventory-pos"
-    title: "inventory-pos"
-    description: "inventory system"
-    language: "Dart"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2024-07-26"
-  - name: "seeds-api"
-    title: "seeds-api"
-    description: "Backend of the inventory-pos system"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2024-07-07"
-  - name: "ordraft"
-    title: "ordraft"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2025-07-06"
-  - name: "us"
-    title: "us"
-    description: null
-    language: "CSS"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2024-12-31"
+repos: []
 ---
 
 # inix-x

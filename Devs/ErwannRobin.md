@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "d1946b21c02e5fa5"
-pushes_per_week: [0, 3, 1, 2, 3, 2, 1, 0, 1, 0, 2, 4, 6]
+pushes_per_week: [0, 3, 3, 2, 3, 1, 0, 0, 1, 0, 3, 9, 1]
 windows:
   "7d":
-    pushes: 6
-    distinct_repos: 1
+    pushes: 5
+    distinct_repos: 2
     active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
     pushes: 13
-    distinct_repos: 4
+    distinct_repos: 5
     active_days: 8
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 25
-    distinct_repos: 5
-    active_days: 17
+    pushes: 26
+    distinct_repos: 6
+    active_days: 18
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.4706
-  repo_per_active_day: 0.2941
+  push_per_day: 1.4444
+  repo_per_active_day: 0.3333
   not_owned_ratio: 0.0000
-  basename_concentration: 0.2000
+  basename_concentration: 0.1667
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,42 +49,42 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 6
-    distinct_repos: 1
-    pushes_per_repo: 6.0000
+    pushes: 5
+    distinct_repos: 2
+    pushes_per_repo: 2.5000
     active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
     pushes: 13
-    distinct_repos: 4
-    pushes_per_repo: 3.2500
+    distinct_repos: 5
+    pushes_per_repo: 2.6000
     active_days: 8
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 25
-    distinct_repos: 5
-    pushes_per_repo: 5.0000
-    active_days: 17
+    pushes: 26
+    distinct_repos: 6
+    pushes_per_repo: 4.3333
+    active_days: 18
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 17 active days in 90d — pass"
+  - "activity: 18 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "erwann"
-    title: "erwann"
-    description: null
+  - name: "bg-eraser"
+    title: "bg-eraser"
+    description: "Background Eraser tool fully on device"
     language: "TypeScript"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-30"
+    last_push: "2026-10-08"
   - name: "Voxal"
     title: "Voxal"
     description: "Serverless P2P push-to-talk voice chat — no accounts, no server. Works on desktop (macOS), iOS, Android, and web."
@@ -92,7 +92,23 @@ repos:
     topics: []
     stars_fact: 13
     first_seen: null
-    last_push: "2026-09-29"
+    last_push: "2026-10-06"
+  - name: "erwann"
+    title: "erwann"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-05"
+  - name: "TrampoVision"
+    title: "TrampoVision"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-04"
   - name: "erwannrobin.github.io"
     title: "erwannrobin.github.io"
     description: "to serve as erwannrobin.github.io public page"
@@ -115,26 +131,10 @@ repos:
     stars_fact: 1
     first_seen: null
     last_push: "2026-09-28"
-  - name: "ErwannRobin"
-    title: "ErwannRobin"
-    description: null
-    language: "HTML"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-28"
-  - name: "gyro"
-    title: "gyro"
-    description: null
-    language: "HTML"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-28"
 ---
 
 # ErwannRobin
 
-25 pushes across 5 repositories on 17 active days in the last 90 days of public GitHub push activity.
+26 pushes across 6 repositories on 18 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ErwannRobin

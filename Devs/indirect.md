@@ -9,13 +9,13 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "97c4e9cb8b163ddb"
   - "c7515e0fa4368a55"
   - "d3abe74726b22711"
   - "e7c647c4d0689526"
-pushes_per_week: [2, 8, 2, 1, 0, 0, 0, 0, 0, 0, 3, 7, 0]
+pushes_per_week: [3, 7, 2, 1, 0, 0, 0, 0, 0, 1, 4, 5, 0]
 windows:
   "7d":
     pushes: 0
@@ -87,7 +87,15 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-30"
+    last_push: "2026-10-09"
+  - name: "rails-footnotes"
+    title: "rails-footnotes"
+    description: "Every Rails page has footnotes that gives information about your application and links back to your editor"
+    language: "Ruby"
+    topics: []
+    stars_fact: 1521
+    first_seen: null
+    last_push: "2026-10-10"
   - name: "feedyour.email"
     title: "feedyour.email"
     description: "(rss) feed your emails"
@@ -95,7 +103,7 @@ repos:
     topics: []
     stars_fact: 49
     first_seen: null
-    last_push: "2026-09-28"
+    last_push: "2026-10-07"
   - name: "andre.arko.net"
     title: "andre.arko.net"
     description: "blog"
@@ -113,14 +121,6 @@ repos:
     stars_fact: 23
     first_seen: null
     last_push: "2026-09-03"
-  - name: "rails-footnotes"
-    title: "rails-footnotes"
-    description: "Every Rails page has footnotes that gives information about your application and links back to your editor"
-    language: "Ruby"
-    topics: []
-    stars_fact: 1521
-    first_seen: null
-    last_push: "2026-09-25"
   - name: "actually.men"
     title: "actually.men"
     description: "is tech a meritocracy? actually, men,"

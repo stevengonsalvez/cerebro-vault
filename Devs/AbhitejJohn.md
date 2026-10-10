@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "5cf3a28e1bfde5ac"
-pushes_per_week: [5, 14, 1, 2, 3, 7, 1, 0, 0, 11, 8, 6, 2]
+pushes_per_week: [6, 12, 1, 1, 9, 1, 1, 0, 0, 13, 9, 3, 2]
 windows:
   "7d":
-    pushes: 5
+    pushes: 2
     distinct_repos: 1
-    active_days: 2
+    active_days: 1
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 60
+    pushes: 58
     distinct_repos: 5
-    active_days: 24
+    active_days: 23
     repos_not_owned: 4
     not_owned_basenames: 2
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 2.5000
-  repo_per_active_day: 0.2083
+  push_per_day: 2.5217
+  repo_per_active_day: 0.2174
   not_owned_ratio: 0.8000
   basename_concentration: 0.6000
   shapes: []
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 5
+    pushes: 2
     distinct_repos: 1
-    pushes_per_repo: 5.0000
-    active_days: 2
+    pushes_per_repo: 2.0000
+    active_days: 1
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 60
+    pushes: 58
     distinct_repos: 5
-    pushes_per_repo: 12.0000
-    active_days: 24
+    pushes_per_repo: 11.6000
+    active_days: 23
     repos_not_owned: 4
     not_owned_basenames: 2
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 24 active days in 90d — pass"
+  - "activity: 23 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "RemoteTesting"
@@ -97,6 +97,6 @@ repos:
 
 # AbhitejJohn
 
-60 pushes across 5 repositories on 24 active days in the last 90 days of public GitHub push activity.
+58 pushes across 5 repositories on 23 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/AbhitejJohn

@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [4, 1, 1, 0, 1, 1, 0, 0, 0, 7, 6, 70, 1]
+pushes_per_week: [2, 1, 1, 0, 2, 0, 0, 0, 1, 7, 30, 46, 0]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 92
+    pushes: 90
     distinct_repos: 6
-    active_days: 20
+    active_days: 19
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 4.6000
-  repo_per_active_day: 0.3000
+  push_per_day: 4.7368
+  repo_per_active_day: 0.3158
   not_owned_ratio: 0.1667
   basename_concentration: 0.1667
   shapes: []
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -65,29 +65,34 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 92
+    pushes: 90
     distinct_repos: 6
-    pushes_per_repo: 15.3333
-    active_days: 20
+    pushes_per_repo: 15.0000
+    active_days: 19
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 20 active days in 90d — pass"
+  - "activity: 19 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "genserver"
-    title: "genserver"
-    description: "Elixir inspired async actor library for Rust"
+  - name: "cracking-the-coding-interview-rust"
+    title: "cracking-the-coding-interview-rust"
+    description: "Cracking the Coding Interview problem solutions in Rust"
     language: "Rust"
     topics:
-      - "actors"
-      - "genserver"
+      - "cracking-the-coding-interview"
+      - "interview-practice"
+      - "interview-questions"
+      - "learn-to-code"
       - "rust"
-    stars_fact: 23
+      - "rust-lang"
+      - "twitch"
+      - "youtube"
+    stars_fact: 439
     first_seen: null
-    last_push: "2025-11-24"
+    last_push: "2026-02-09"
   - name: "conky"
     title: "conky"
     description: "Light-weight system monitor for X, Wayland, and other things, too"
@@ -101,9 +106,9 @@ repos:
       - "lua"
       - "system-monitoring"
       - "wayland"
-    stars_fact: 8532
+    stars_fact: 8531
     first_seen: null
-    last_push: "2026-09-30"
+    last_push: "2026-10-09"
   - name: "hessboost"
     title: "hessboost"
     description: "Fast, deterministic gradient boosting in Rust (with Python bindings)"
@@ -114,9 +119,9 @@ repos:
       - "ml"
       - "rust"
       - "xgboost"
-    stars_fact: 1
+    stars_fact: 2
     first_seen: null
-    last_push: "2026-09-30"
+    last_push: "2026-10-09"
   - name: "thetagang"
     title: "thetagang"
     description: "ThetaGang is an IBKR bot for collecting money"
@@ -130,9 +135,20 @@ repos:
       - "strategy"
       - "thetagang"
       - "trading-bot"
-    stars_fact: 2740
+    stars_fact: 2743
     first_seen: null
-    last_push: "2026-09-16"
+    last_push: "2026-10-02"
+  - name: "genserver"
+    title: "genserver"
+    description: "Elixir inspired async actor library for Rust"
+    language: "Rust"
+    topics:
+      - "actors"
+      - "genserver"
+      - "rust"
+    stars_fact: 23
+    first_seen: null
+    last_push: "2025-11-24"
   - name: "dryoc"
     title: "dryoc"
     description: "Don't Roll Your Own Crypto: fast, type-safe, pure-Rust cryptography with post-quantum support"
@@ -150,24 +166,10 @@ repos:
     stars_fact: 345
     first_seen: null
     last_push: "2026-09-28"
-  - name: "mother-of-dragons"
-    title: "mother-of-dragons"
-    description: "🐲 DragonMint/Innosilicon miner management tool 🐉"
-    language: "Python"
-    topics:
-      - "dragonmin-t1"
-      - "dragonmint"
-      - "halongmining"
-      - "innosilicon"
-      - "mining-monitor"
-      - "mining-software"
-    stars_fact: 14
-    first_seen: null
-    last_push: "2021-04-30"
 ---
 
 # brndnmtthws
 
-92 pushes across 6 repositories on 20 active days in the last 90 days of public GitHub push activity.
+90 pushes across 6 repositories on 19 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/brndnmtthws

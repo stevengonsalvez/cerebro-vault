@@ -6,13 +6,15 @@ discovered_via_all:
   - "fanout"
 provenance_repos:
   - "anthropics/claude-code-action"
+  - "anthropics/claude-plugins-official"
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
+  - "02eab667df448997"
   - "0b22ca37fd3884c9"
-pushes_per_week: [1, 2, 1, 3, 0, 0, 1, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [1, 2, 3, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -73,7 +75,7 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
-  - "provenance: 1 vault signal(s) — pass"
+  - "provenance: 2 vault signal(s) — pass"
   - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
 repos:

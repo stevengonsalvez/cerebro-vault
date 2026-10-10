@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "f74d5b6b78b8a1a4"
-pushes_per_week: [20, 10, 24, 11, 20, 8, 3, 1, 2, 1, 2, 14, 11]
+pushes_per_week: [20, 15, 17, 14, 19, 3, 4, 0, 3, 0, 6, 15, 7]
 windows:
   "7d":
-    pushes: 14
+    pushes: 11
     distinct_repos: 1
-    active_days: 5
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 4
   "90d":
-    pushes: 127
+    pushes: 123
     distinct_repos: 6
-    active_days: 47
+    active_days: 46
     repos_not_owned: 5
     not_owned_basenames: 1
     not_owned_owners: 5
 automation:
   state: "clear"
-  push_per_day: 2.7021
-  repo_per_active_day: 0.1277
+  push_per_day: 2.6739
+  repo_per_active_day: 0.1304
   not_owned_ratio: 0.8333
   basename_concentration: 1.0000
   shapes: []
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 14
+    pushes: 11
     distinct_repos: 1
-    pushes_per_repo: 14.0000
-    active_days: 5
+    pushes_per_repo: 11.0000
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 4
   "90d":
-    pushes: 127
+    pushes: 123
     distinct_repos: 6
-    pushes_per_repo: 21.1667
-    active_days: 47
+    pushes_per_repo: 20.5000
+    active_days: 46
     repos_not_owned: 5
     not_owned_basenames: 1
     not_owned_owners: 5
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 47 active days in 90d — pass"
+  - "activity: 46 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "codebase-memory-mcp"
@@ -102,9 +102,9 @@ repos:
       - "sqlite"
       - "tree-sitter"
       - "windsurf"
-    stars_fact: 45577
+    stars_fact: 46256
     first_seen: "2026-06-19T17:17:11.396487+00:00"
-    last_push: "2026-09-30"
+    last_push: "2026-10-09"
   - name: "airbyte"
     title: "airbyte"
     description: "Data integration platform for ELT pipelines from APIs, databases & files to warehouses & lakes."
@@ -117,6 +117,6 @@ repos:
 
 # DeusData
 
-127 pushes across 6 repositories on 47 active days in the last 90 days of public GitHub push activity.
+123 pushes across 6 repositories on 46 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/DeusData

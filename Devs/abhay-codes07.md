@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "73468cde177ddae6"
-pushes_per_week: [13, 2, 3, 1, 4, 1, 1, 0, 0, 2, 1, 0, 0]
+pushes_per_week: [12, 2, 2, 3, 3, 0, 1, 0, 2, 0, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 28
+    pushes: 26
     distinct_repos: 10
-    active_days: 21
+    active_days: 19
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.3333
-  repo_per_active_day: 0.4762
+  push_per_day: 1.3684
+  repo_per_active_day: 0.5263
   not_owned_ratio: 0.1000
   basename_concentration: 0.1000
   shapes: []
@@ -65,18 +65,26 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 28
+    pushes: 26
     distinct_repos: 10
-    pushes_per_repo: 2.8000
-    active_days: 21
+    pushes_per_repo: 2.6000
+    active_days: 19
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 21 active days in 90d — pass"
+  - "activity: 19 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "ppp"
+    title: "ppp"
+    description: "A first-principles review of PetriFlow: architecture, runnable labs, validated loopholes, review deck, and a research position on self-evolving agents"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-10"
   - name: "doosri-raay"
     title: "doosri-raay"
     description: "Doosri Raay: the outsider agent against digital-arrest scams. WeMakeDevs x AWS First Commit 2026."
@@ -151,18 +159,10 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-09-02"
-  - name: "Guarded-AI-Agent-with-MCP-Support"
-    title: "Guarded-AI-Agent-with-MCP-Support"
-    description: "Guarded AI Agent with MCP Support"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-06-28"
 ---
 
 # abhay-codes07
 
-28 pushes across 10 repositories on 21 active days in the last 90 days of public GitHub push activity.
+26 pushes across 10 repositories on 19 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/abhay-codes07

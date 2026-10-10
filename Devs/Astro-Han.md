@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [101, 54, 37, 54, 32, 16, 31, 6, 4, 29, 49, 21, 2]
+pushes_per_week: [105, 40, 40, 46, 33, 18, 25, 2, 5, 39, 41, 19, 1]
 windows:
   "7d":
     pushes: 2
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 102
-    distinct_repos: 5
-    active_days: 19
-    repos_not_owned: 2
-    not_owned_basenames: 2
-    not_owned_owners: 2
+    pushes: 101
+    distinct_repos: 4
+    active_days: 18
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "90d":
-    pushes: 436
+    pushes: 414
     distinct_repos: 9
-    active_days: 70
+    active_days: 68
     repos_not_owned: 4
     not_owned_basenames: 3
     not_owned_owners: 4
 automation:
   state: "clear"
-  push_per_day: 6.2286
-  repo_per_active_day: 0.1286
+  push_per_day: 6.0882
+  repo_per_active_day: 0.1324
   not_owned_ratio: 0.4444
   basename_concentration: 0.3333
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 102
-    distinct_repos: 5
-    pushes_per_repo: 20.4000
-    active_days: 19
-    repos_not_owned: 2
-    not_owned_basenames: 2
-    not_owned_owners: 2
+    pushes: 101
+    distinct_repos: 4
+    pushes_per_repo: 25.2500
+    active_days: 18
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "90d":
-    pushes: 436
+    pushes: 414
     distinct_repos: 9
-    pushes_per_repo: 48.4444
-    active_days: 70
+    pushes_per_repo: 46.0000
+    active_days: 68
     repos_not_owned: 4
     not_owned_basenames: 3
     not_owned_owners: 4
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 70 active days in 90d — pass"
+  - "activity: 68 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "karpathy-llm-wiki"
@@ -95,32 +95,9 @@ repos:
       - "personal-knowledge-base"
       - "productivity"
       - "rag-alternative"
-    stars_fact: 2393
+    stars_fact: 2451
     first_seen: null
     last_push: "2026-07-23"
-  - name: "claude-pace"
-    title: "claude-pace"
-    description: "Claude Code statusline and rate limit tracker with pace-aware quota monitoring. Pure Bash + jq, single file."
-    language: "Shell"
-    topics:
-      - "anthropic"
-      - "bash"
-      - "claude"
-      - "claude-code"
-      - "claude-code-statusline"
-      - "cli"
-      - "developer-tools"
-      - "jq"
-      - "plugin"
-      - "quota-tracker"
-      - "rate-limit"
-      - "statusline"
-      - "terminal"
-      - "usage-monitor"
-      - "usage-tracking"
-    stars_fact: 234
-    first_seen: null
-    last_push: "2026-09-24"
   - name: "pawwork"
     title: "pawwork"
     description: "PawWork — free, open-source desktop AI agent for macOS and Windows, built on DeepSeek Harness (DSH). Free models included, no API key or terminal. Office files, web search, and scheduled automations out of the box. An open alternative to Codex App and Claude Cowork."
@@ -146,9 +123,40 @@ repos:
       - "opencode"
       - "productivity"
       - "windows"
-    stars_fact: 200
+    stars_fact: 201
     first_seen: null
-    last_push: "2026-09-28"
+    last_push: "2026-10-05"
+  - name: "claude-pace"
+    title: "claude-pace"
+    description: "Claude Code statusline and rate limit tracker with pace-aware quota monitoring. Pure Bash + jq, single file."
+    language: "Shell"
+    topics:
+      - "anthropic"
+      - "bash"
+      - "claude"
+      - "claude-code"
+      - "claude-code-statusline"
+      - "cli"
+      - "developer-tools"
+      - "jq"
+      - "plugin"
+      - "quota-tracker"
+      - "rate-limit"
+      - "statusline"
+      - "terminal"
+      - "usage-monitor"
+      - "usage-tracking"
+    stars_fact: 235
+    first_seen: null
+    last_push: "2026-09-24"
+  - name: "jev-harness"
+    title: "jev-harness"
+    description: "A coding agent that filters every tool result through Jev before the model sees it, with an A/B harness measuring pass@1 and cost against the unfiltered control"
+    language: "Python"
+    topics: []
+    stars_fact: 6
+    first_seen: null
+    last_push: "2026-09-22"
   - name: "quantclass-sync"
     title: "quantclass-sync"
     description: "QuantClass（邢不行量化课）数据增量同步工具，macOS，CLI + GUI"
@@ -181,18 +189,10 @@ repos:
     stars_fact: 43
     first_seen: null
     last_push: "2026-04-01"
-  - name: "opencli-plugin-juejin"
-    title: "opencli-plugin-juejin"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 4
-    first_seen: null
-    last_push: "2026-03-21"
 ---
 
 # Astro-Han
 
-436 pushes across 9 repositories on 70 active days in the last 90 days of public GitHub push activity.
+414 pushes across 9 repositories on 68 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Astro-Han

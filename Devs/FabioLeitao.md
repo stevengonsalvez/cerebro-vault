@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [15, 5, 6, 5, 10, 22, 3, 0, 6, 8, 3, 4, 6]
+pushes_per_week: [11, 5, 8, 3, 14, 18, 3, 0, 7, 7, 5, 2, 9]
 windows:
   "7d":
-    pushes: 6
+    pushes: 9
     distinct_repos: 6
-    active_days: 2
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 21
+    pushes: 24
     distinct_repos: 7
-    active_days: 11
+    active_days: 12
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 93
+    pushes: 92
     distinct_repos: 8
     active_days: 36
     repos_not_owned: 2
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.5833
+  push_per_day: 2.5556
   repo_per_active_day: 0.2222
   not_owned_ratio: 0.2500
   basename_concentration: 0.1250
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 6
+    pushes: 9
     distinct_repos: 6
-    pushes_per_repo: 1.0000
-    active_days: 2
+    pushes_per_repo: 1.5000
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 21
+    pushes: 24
     distinct_repos: 7
-    pushes_per_repo: 3.0000
-    active_days: 11
+    pushes_per_repo: 3.4286
+    active_days: 12
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 93
+    pushes: 92
     distinct_repos: 8
-    pushes_per_repo: 11.6250
+    pushes_per_repo: 11.5000
     active_days: 36
     repos_not_owned: 2
     not_owned_basenames: 2
@@ -129,6 +129,6 @@ repos:
 
 # FabioLeitao
 
-93 pushes across 8 repositories on 36 active days in the last 90 days of public GitHub push activity.
+92 pushes across 8 repositories on 36 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/FabioLeitao

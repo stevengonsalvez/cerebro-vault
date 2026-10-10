@@ -8,11 +8,11 @@ provenance_repos:
   - "anomalyco/opencode"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+repos_populated: false
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [0, 1, 6, 5, 2, 0, 0, 0, 0, 0, 0, 2, 2]
+pushes_per_week: [0, 4, 7, 1, 2, 0, 0, 0, 0, 0, 0, 3, 1]
 windows:
   "7d":
     pushes: 2
@@ -76,61 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 13 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "hark"
-    title: "hark"
-    description: "A simple, beautiful webhook to notification platform."
-    language: "TypeScript"
-    topics:
-      - "notfications"
-    stars_fact: 184
-    first_seen: null
-    last_push: "2026-08-10"
-  - name: "opensend"
-    title: "opensend"
-    description: "self-hosted transactional & marketing email layer on top of aws ses"
-    language: "TypeScript"
-    topics:
-      - "email"
-      - "email-marketing"
-    stars_fact: 156
-    first_seen: null
-    last_push: "2026-09-30"
-  - name: "embox"
-    title: "embox"
-    description: "Keyboard-first, single-column focused mail client experiment on the Graphite theme"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-30"
-  - name: "post-patina"
-    title: "post-patina"
-    description: "See how old the news really is — age-based color cues for posts on X."
-    language: "JavaScript"
-    topics: []
-    stars_fact: 8
-    first_seen: null
-    last_push: "2026-06-25"
-  - name: "superlocal"
-    title: "superlocal"
-    description: "An email client & provider gateway so you can build your best email experience."
-    language: "TypeScript"
-    topics:
-      - "email"
-      - "fast"
-      - "local-first"
-    stars_fact: 225
-    first_seen: null
-    last_push: "2026-09-08"
-  - name: "docstudio"
-    title: "docstudio"
-    description: "Native macOS widget studio with a drag-and-drop Dock preview and live local widgets."
-    language: "Swift"
-    topics: []
-    stars_fact: 37
-    first_seen: null
-    last_push: "2026-09-12"
+repos: []
 ---
 
 # R44VC0RP

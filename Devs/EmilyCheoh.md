@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-07T15:16:07.319356+00:00"
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [0, 0, 0, 0, 1, 0, 0, 1, 0, 1, 1, 0, 2]
+pushes_per_week: [0, 0, 0, 1, 0, 0, 1, 0, 0, 1, 1, 1, 1]
 windows:
   "7d":
-    pushes: 2
-    distinct_repos: 2
-    active_days: 2
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
-    distinct_repos: 2
+    pushes: 1
+    distinct_repos: 1
     pushes_per_repo: 1.0000
-    active_days: 2
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -84,7 +84,15 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-28"
+    last_push: "2026-10-10"
+  - name: "astrbot_plugin_show_reasoning"
+    title: "astrbot_plugin_show_reasoning"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-05"
   - name: "astrbot_add_prompt_tags_livingmemory_compatible"
     title: "astrbot_add_prompt_tags_livingmemory_compatible"
     description: null
@@ -117,14 +125,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-08-30"
-  - name: "astrbot_plugin_command_guard"
-    title: "astrbot_plugin_command_guard"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-29"
 ---
 
 # EmilyCheoh

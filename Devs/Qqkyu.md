@@ -8,11 +8,11 @@ provenance_repos:
   - "agent-substrate/substrate"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+repos_populated: false
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "a5ffcd0a46dd44fd"
-pushes_per_week: [7, 1, 0, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [7, 0, 1, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 12
-    distinct_repos: 4
-    active_days: 8
+    pushes: 11
+    distinct_repos: 3
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.5000
-  repo_per_active_day: 0.5000
+  push_per_day: 1.5714
+  repo_per_active_day: 0.4286
   not_owned_ratio: 0.0000
-  basename_concentration: 0.2500
+  basename_concentration: 0.3333
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,86 +65,22 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 12
-    distinct_repos: 4
-    pushes_per_repo: 3.0000
-    active_days: 8
+    pushes: 11
+    distinct_repos: 3
+    pushes_per_repo: 3.6667
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 8 active days in 90d — pass"
+  - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "stream-mixer"
-    title: "stream-mixer"
-    description: "Free multistream viewer for Twitch, YouTube, and Kick with draggable video and chat layouts."
-    language: "TypeScript"
-    topics:
-      - "astro"
-      - "kick"
-      - "live-streaming"
-      - "multistream"
-      - "multistream-viewer"
-      - "react"
-      - "twitch"
-      - "youtube"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-28"
-  - name: "agent-dotfiles"
-    title: "agent-dotfiles"
-    description: "Portable WSL tmux notifications for Codex CLI and Claude Code"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-13"
-  - name: "bleep-privacy"
-    title: "bleep-privacy"
-    description: null
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-07-30"
-  - name: "nvim-config"
-    title: "nvim-config"
-    description: null
-    language: "Lua"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-07-15"
-  - name: "competitive-programming"
-    title: "competitive-programming"
-    description: null
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2025-05-03"
-  - name: "is-node-modules-import"
-    title: "is-node-modules-import"
-    description: "Check, if for a given file, an import is a node_modules import"
-    language: "JavaScript"
-    topics:
-      - "commonjs"
-      - "import"
-      - "is"
-      - "module"
-      - "modules"
-      - "node"
-      - "nodejs"
-      - "require"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2023-12-19"
+repos: []
 ---
 
 # Qqkyu
 
-12 pushes across 4 repositories on 8 active days in the last 90 days of public GitHub push activity.
+11 pushes across 3 repositories on 7 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Qqkyu

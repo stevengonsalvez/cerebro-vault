@@ -8,8 +8,8 @@ provenance_repos:
   - "can1357/oh-my-pi"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+repos_populated: false
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "de6bf05613f3ae04"
 pushes_per_week: [2, 1, 2, 0, 1, 0, 2, 0, 0, 0, 0, 1, 0]
@@ -76,55 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 8 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "terraform-provider-hrobot"
-    title: "terraform-provider-hrobot"
-    description: null
-    language: "Go"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-10"
-  - name: "mac-install"
-    title: "mac-install"
-    description: null
-    language: "Shell"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-07-30"
-  - name: "rsvelte-check-patched"
-    title: "rsvelte-check-patched"
-    description: "Prebuilt rsvelte-check binaries (5 unfixed upstream bugs patched) for oceanio/platform, until they merge upstream"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-07-29"
-  - name: "fasttext"
-    title: "fasttext"
-    description: "Pre-built fasttext wheels for Python 3.14 (pybind11 2.13+ fix)"
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-05-11"
-  - name: "mydownloader-backend"
-    title: "mydownloader-backend"
-    description: null
-    language: "Go"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2018-11-28"
-  - name: "qdrant-operator"
-    title: "qdrant-operator"
-    description: null
-    language: "Go"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2024-12-05"
+repos: []
 ---
 
 # Mokto

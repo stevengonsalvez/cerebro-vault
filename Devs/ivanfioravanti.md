@@ -8,11 +8,11 @@ provenance_repos:
   - "antirez/ds4"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+repos_populated: false
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "3eacb4655aba2497"
-pushes_per_week: [6, 3, 0, 3, 0, 0, 1, 0, 1, 0, 0, 0, 0]
+pushes_per_week: [1, 2, 1, 2, 0, 0, 1, 0, 1, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 14
+    pushes: 8
     distinct_repos: 4
-    active_days: 10
+    active_days: 8
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.4000
-  repo_per_active_day: 0.4000
+  push_per_day: 1.0000
+  repo_per_active_day: 0.5000
   not_owned_ratio: 0.0000
   basename_concentration: 0.2500
   shapes: []
@@ -57,99 +57,30 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 14
+    pushes: 8
     distinct_repos: 4
-    pushes_per_repo: 3.5000
-    active_days: 10
+    pushes_per_repo: 2.0000
+    active_days: 8
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 10 active days in 90d — pass"
+  - "activity: 8 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "qwen-image-mps"
-    title: "qwen-image-mps"
-    description: "Qwen Image models through MPS"
-    language: "Python"
-    topics:
-      - "mps"
-      - "qwen"
-      - "qwen-image"
-      - "qwen-image-edit"
-    stars_fact: 273
-    first_seen: null
-    last_push: "2025-12-31"
-  - name: "fasterliveportrait-mlx"
-    title: "fasterliveportrait-mlx"
-    description: "Apple MLX port of FasterLivePortrait for Apple Silicon"
-    language: "Python"
-    topics: []
-    stars_fact: 39
-    first_seen: null
-    last_push: "2026-06-24"
-  - name: "llm_context_benchmarks"
-    title: "llm_context_benchmarks"
-    description: "📊 LLM Context Benchmarks - A comprehensive benchmarking tool for testing LLMs with varying context sizes using Ollama. Features dual benchmark modes (API/CLI), automatic hardware detection (optimized for Apple Silicon), visual performance charts."
-    language: "Python"
-    topics:
-      - "ai"
-      - "benchmarking"
-      - "llms"
-    stars_fact: 100
-    first_seen: null
-    last_push: "2026-09-28"
-  - name: "XPoll"
-    title: "XPoll"
-    description: "Self-hosted, privacy-conscious 'pick up to N' community poll with live results"
-    language: "Python"
-    topics:
-      - "cloudflare-tunnel"
-      - "fastapi"
-      - "mlx"
-      - "poll"
-      - "privacy"
-      - "self-hosted"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-25"
-  - name: "chatbot-ollama"
-    title: "chatbot-ollama"
-    description: "Chatbot Ollama is an open source chat UI for Ollama."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 1893
-    first_seen: null
-    last_push: "2025-09-05"
-  - name: "vlm-bakeoff"
-    title: "vlm-bakeoff"
-    description: "VLM bake-off — MLX vs GGUF: identical vision benchmarks across mlx-vlm and llama.cpp on Apple Silicon"
-    language: "Python"
-    topics:
-      - "apple-silicon"
-      - "benchmark"
-      - "gguf"
-      - "llama-cpp"
-      - "mlx"
-      - "screenspot"
-      - "vision-language-model"
-      - "vlm"
-    stars_fact: 6
-    first_seen: null
-    last_push: "2026-08-17"
+repos: []
 ---
 
 # ivanfioravanti
 
-14 pushes across 4 repositories on 10 active days in the last 90 days of public GitHub push activity.
+8 pushes across 4 repositories on 8 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ivanfioravanti

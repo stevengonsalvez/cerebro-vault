@@ -8,37 +8,37 @@ provenance_repos:
   - "chopratejas/headroom"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+repos_populated: false
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "73468cde177ddae6"
-pushes_per_week: [23, 24, 23, 56, 48, 15, 11, 1, 14, 13, 25, 1, 4]
+pushes_per_week: [33, 9, 33, 55, 53, 3, 10, 2, 12, 22, 16, 2, 3]
 windows:
   "7d":
-    pushes: 5
+    pushes: 3
     distinct_repos: 2
-    active_days: 4
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 47
-    distinct_repos: 3
-    active_days: 15
+    pushes: 43
+    distinct_repos: 2
+    active_days: 13
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 258
+    pushes: 253
     distinct_repos: 4
-    active_days: 54
+    active_days: 52
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 4.7778
-  repo_per_active_day: 0.0741
+  push_per_day: 4.8654
+  repo_per_active_day: 0.0769
   not_owned_ratio: 0.0000
   basename_concentration: 0.2500
   shapes: []
@@ -49,115 +49,38 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 5
+    pushes: 3
     distinct_repos: 2
-    pushes_per_repo: 2.5000
-    active_days: 4
+    pushes_per_repo: 1.5000
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 47
-    distinct_repos: 3
-    pushes_per_repo: 15.6667
-    active_days: 15
+    pushes: 43
+    distinct_repos: 2
+    pushes_per_repo: 21.5000
+    active_days: 13
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 258
+    pushes: 253
     distinct_repos: 4
-    pushes_per_repo: 64.5000
-    active_days: 54
+    pushes_per_repo: 63.2500
+    active_days: 52
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 54 active days in 90d — pass"
+  - "activity: 52 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "lifeodyssey"
-    title: "lifeodyssey"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-01"
-  - name: "animichi"
-    title: "animichi"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-10-01"
-  - name: "share-html"
-    title: "share-html"
-    description: "Share sandboxed HTML previews with public-unlisted or access-key private links. Includes a remote MCP server for AI agents."
-    language: "TypeScript"
-    topics:
-      - "a2a-protocol"
-      - "agent-ready"
-      - "ai-agents"
-      - "cloudflare-workers"
-      - "html-preview"
-      - "html-sharing"
-      - "mcp-server"
-      - "private-sharing"
-      - "r2"
-      - "react"
-      - "supabase"
-      - "typescript"
-      - "vite"
-      - "webmcp"
-    stars_fact: 5
-    first_seen: null
-    last_push: "2026-09-25"
-  - name: "animal-island-ui-tailwind"
-    title: "animal-island-ui-tailwind"
-    description: "Animal Crossing-themed React component library — Tailwind CSS v4 + Radix UI"
-    language: "TypeScript"
-    topics:
-      - "animal-crossing"
-      - "component-library"
-      - "radix-ui"
-      - "react"
-      - "storybook"
-      - "tailwindcss"
-      - "ui"
-    stars_fact: 6
-    first_seen: null
-    last_push: "2026-10-02"
-  - name: "craftsmanship-skills"
-    title: "craftsmanship-skills"
-    description: "Agent Skills distilled from Clean Code & Refactoring. Install: npx skills add lifeodyssey/craftsmanship-skills"
-    language: null
-    topics:
-      - "agent-skills"
-      - "claude-code"
-      - "clean-code"
-      - "codex"
-      - "refactoring"
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-04-23"
-  - name: "dsh-compressor"
-    title: "dsh-compressor"
-    description: "DeepSeek Harness plugin: compress tool output, cut up to 20% of context, without touching the context cache or agent performance."
-    language: "Rust"
-    topics:
-      - "context-compression"
-      - "deepseek"
-      - "dsh-plugin"
-    stars_fact: 6
-    first_seen: null
-    last_push: "2026-08-15"
+repos: []
 ---
 
 # lifeodyssey
 
-258 pushes across 4 repositories on 54 active days in the last 90 days of public GitHub push activity.
+253 pushes across 4 repositories on 52 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/lifeodyssey

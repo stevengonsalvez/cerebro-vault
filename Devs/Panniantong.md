@@ -8,11 +8,11 @@ provenance_repos:
   - "Panniantong/Agent-Reach"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+repos_populated: false
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "b6bb9341088f0954"
-pushes_per_week: [1, 0, 2, 0, 2, 2, 0, 1, 0, 0, 3, 1, 0]
+pushes_per_week: [1, 0, 2, 1, 3, 0, 1, 0, 0, 1, 2, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,72 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 10 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "Agent-Reach"
-    title: "Agent-Reach"
-    description: "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees."
-    language: "Python"
-    topics:
-      - "agent-infrastructure"
-      - "ai-agent"
-      - "ai-search"
-      - "automation"
-      - "bilibili"
-      - "claude-code"
-      - "cli"
-      - "cursor"
-      - "free-api"
-      - "llm-tools"
-      - "mcp"
-      - "python"
-      - "reddit-scraper"
-      - "twitter-scraper"
-      - "web-scraper"
-      - "xiaohongshu"
-      - "youtube-transcript"
-    stars_fact: 87586
-    first_seen: "2026-08-03T06:00:03.956190+00:00"
-    last_push: "2026-09-15"
-  - name: "Panniantong"
-    title: "Panniantong"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 18
-    first_seen: null
-    last_push: "2026-10-02"
-  - name: "agent-vault-backup"
-    title: "agent-vault-backup"
-    description: "🔐 Automated backup for OpenClaw agents. One sentence to set up, runs forever."
-    language: "Shell"
-    topics: []
-    stars_fact: 25
-    first_seen: null
-    last_push: "2026-03-10"
-  - name: "neoob-images"
-    title: "neoob-images"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2025-07-27"
-  - name: "RD_everything"
-    title: "RD_everything"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2025-02-21"
-  - name: "WechatBot2"
-    title: "WechatBot2"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2023-01-02"
+repos: []
 ---
 
 # Panniantong

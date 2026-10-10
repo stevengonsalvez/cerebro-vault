@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [0, 0, 0, 0, 0, 2, 0, 0, 0, 2, 7, 12, 2]
+pushes_per_week: [0, 0, 0, 0, 0, 2, 0, 0, 1, 3, 9, 8, 2]
 windows:
   "7d":
     pushes: 2
@@ -77,6 +77,29 @@ reasons:
   - "activity: 12 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "overflow"
+    title: "overflow"
+    description: "OBS Studio plugin that sends program video and audio to Apple TVs and Roku TVs in other rooms over AirPlay. For overflow rooms, lobbies and multi-room church AV."
+    language: "Go"
+    topics:
+      - "airplay"
+      - "airplay2"
+      - "apple-tv"
+      - "church"
+      - "church-tech"
+      - "livestream"
+      - "multi-room"
+      - "obs"
+      - "obs-plugin"
+      - "obs-studio"
+      - "overflow-room"
+      - "roku"
+      - "screen-mirroring"
+      - "video-streaming"
+      - "windows"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-08"
   - name: "Nativerate"
     title: "Nativerate"
     description: "Bit-perfect Apple Music for macOS: each track plays at its native sample rate on your DAC."
@@ -91,17 +114,25 @@ repos:
       - "menu-bar-app"
       - "sample-rate"
       - "swift"
-    stars_fact: 0
+    stars_fact: 1
     first_seen: null
-    last_push: "2026-10-01"
+    last_push: "2026-10-08"
   - name: "projection-mirror"
     title: "projection-mirror"
     description: "Mirror a Mac display to Panasonic PT-F300-family network projectors over LAN — independent, unofficial interoperability tool"
     language: "Python"
     topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-05"
+  - name: "nativerate.app"
+    title: "nativerate.app"
+    description: "Redirect for nativerate.app"
+    language: "HTML"
+    topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-29"
+    last_push: "2026-10-05"
 ---
 
 # dizzysound

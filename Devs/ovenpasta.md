@@ -8,8 +8,8 @@ provenance_repos:
   - "ovenpasta/adi2"
 admitted: true
 low_n: true
-repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+repos_populated: false
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "422d724d1779eadb"
 pushes_per_week: [0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
@@ -76,65 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 2 active days in 90d — below the 5-day line, LABELLED low-n (never suppressed)"
   - "automation: clear — pass"
-repos:
-  - name: "adi2"
-    title: "adi2"
-    description: "A modern GUI library for Ada: CSS styling, XML UI, SDL3"
-    language: "Ada"
-    topics:
-      - "ada"
-      - "ada2022"
-      - "css"
-      - "graphics"
-      - "gui"
-      - "sdl3"
-      - "toolkit"
-      - "ui"
-      - "widgets"
-    stars_fact: 54
-    first_seen: "2026-08-25T06:00:02.050180+00:00"
-    last_push: "2026-09-28"
-  - name: "thunderchez"
-    title: "thunderchez"
-    description: "libraries for chez scheme productivity"
-    language: "Common Lisp"
-    topics:
-      - "scheme"
-    stars_fact: 166
-    first_seen: null
-    last_push: "2024-09-27"
-  - name: "aht"
-    title: "aht"
-    description: "Ada HTTP/1.1 and WebSocket client with TLS via OpenSSL or mbedTLS"
-    language: "Ada"
-    topics: []
-    stars_fact: 5
-    first_seen: null
-    last_push: "2026-09-07"
-  - name: "message_pack"
-    title: "message_pack"
-    description: "MessagePack for Ada, over Ada.Streams"
-    language: "Ada"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-22"
-  - name: "miogui"
-    title: "miogui"
-    description: "MIOGUI - More Immediate Operation GUI - Develop GUI in scheme in incremental & immediate mode!"
-    language: "Scheme"
-    topics: []
-    stars_fact: 8
-    first_seen: null
-    last_push: "2016-12-17"
-  - name: "premake5-cmake"
-    title: "premake5-cmake"
-    description: "cmake target for premake5"
-    language: "Lua"
-    topics: []
-    stars_fact: 4
-    first_seen: null
-    last_push: "2019-12-24"
+repos: []
 ---
 
 # ovenpasta

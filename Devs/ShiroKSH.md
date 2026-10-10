@@ -11,12 +11,12 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "6d3bd03b49986330"
   - "716cf9e2237ac9db"
   - "dae9f02535f7c22f"
-pushes_per_week: [10, 0, 3, 13, 19, 0, 0, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [8, 0, 12, 10, 13, 0, 0, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -33,18 +33,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 45
-    distinct_repos: 16
-    active_days: 14
+    pushes: 43
+    distinct_repos: 15
+    active_days: 12
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 3.2143
-  repo_per_active_day: 1.1429
+  push_per_day: 3.5833
+  repo_per_active_day: 1.2500
   not_owned_ratio: 0.0000
-  basename_concentration: 0.0625
+  basename_concentration: 0.0667
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -69,18 +69,34 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 45
-    distinct_repos: 16
-    pushes_per_repo: 2.8125
-    active_days: 14
+    pushes: 43
+    distinct_repos: 15
+    pushes_per_repo: 2.8667
+    active_days: 12
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 3 vault signal(s) — pass"
-  - "activity: 14 active days in 90d — pass"
+  - "activity: 12 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "skills"
+    title: "skills"
+    description: "Roblox Studio skill and local MCP bridge for Claude Code, Codex, and other coding agents."
+    language: "Lua"
+    topics:
+      - "agent-skills"
+      - "claude-code"
+      - "codex"
+      - "luau"
+      - "mcp"
+      - "roblox"
+      - "roblox-studio"
+      - "skills"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-29"
   - name: "vmware-guest-bridge"
     title: "vmware-guest-bridge"
     description: "Control VMware guests from Windows, Linux, and macOS: PowerShell, POSIX shell, file transfers, screenshots, and console input."
@@ -116,22 +132,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-09-04"
-  - name: "skills"
-    title: "skills"
-    description: "Roblox Studio skill and local MCP bridge for Claude Code, Codex, and other coding agents."
-    language: "Lua"
-    topics:
-      - "agent-skills"
-      - "claude-code"
-      - "codex"
-      - "luau"
-      - "mcp"
-      - "roblox"
-      - "roblox-studio"
-      - "skills"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-29"
   - name: "rustferry"
     title: "rustferry"
     description: "Ship Android & iOS apps from one Rust codebase - no Gradle or Xcode project maintenance. Cargo CLI, Slint UI, VS Code, CI, signing, and remote macOS builds."
@@ -159,7 +159,7 @@ repos:
       - "xcode"
     stars_fact: 2
     first_seen: null
-    last_push: "2026-09-21"
+    last_push: "2026-10-03"
   - name: "ShiroKSH"
     title: "ShiroKSH"
     description: null
@@ -186,6 +186,6 @@ repos:
 
 # ShiroKSH
 
-45 pushes across 16 repositories on 14 active days in the last 90 days of public GitHub push activity.
+43 pushes across 15 repositories on 12 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ShiroKSH

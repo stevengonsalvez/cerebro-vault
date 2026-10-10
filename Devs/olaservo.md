@@ -8,11 +8,11 @@ provenance_repos:
   - "modelcontextprotocol/servers"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+repos_populated: false
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "cb8f252ccaaf10b0"
-pushes_per_week: [4, 11, 9, 10, 12, 8, 3, 0, 0, 3, 3, 3, 0]
+pushes_per_week: [9, 10, 6, 10, 13, 6, 3, 0, 0, 3, 3, 3, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,60 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 34 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "skilljack-mcp"
-    title: "skilljack-mcp"
-    description: "MCP server that discovers and serves Agent Skills."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 18
-    first_seen: null
-    last_push: "2026-10-01"
-  - name: "fast-body"
-    title: "fast-body"
-    description: "An embodied fast-agent: a Reachy Mini robot driven by the fast-agent framework"
-    language: "Python"
-    topics:
-      - "fast-agent"
-      - "mcp"
-      - "reachy-mini"
-      - "robotics"
-      - "voice-assistant"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-29"
-  - name: "agent-skills-ttrpg-demo"
-    title: "agent-skills-ttrpg-demo"
-    description: "Demo of using agent skills and mcp for learning how to play a tabletop RPG, including discovery and attribution prototypes"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-24"
-  - name: "shannon-thinking"
-    title: "shannon-thinking"
-    description: "MCP server for applying a Claude Shannon-inspired problem-solving pattern"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 70
-    first_seen: null
-    last_push: "2026-09-30"
-  - name: "skilljack-client"
-    title: "skilljack-client"
-    description: "Experimental MCP client for showcasing MCP Apps, server-side agents, skills, and advanced capabilities"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-10-01"
-  - name: "skilljack-evals"
-    title: "skilljack-evals"
-    description: "CLI for evaluating Agent Skills support using multiple models and agent sdks. Tests how well agents discover, load, and execute Agent Skills — measuring discoverability, instruction adherence, and output quality. Runs standalone or as a GitHub Action."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 8
-    first_seen: null
-    last_push: "2026-09-29"
+repos: []
 ---
 
 # olaservo

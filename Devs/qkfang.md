@@ -8,39 +8,39 @@ provenance_repos:
   - "browser-use/browser-use"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+repos_populated: false
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "c1af6b58492f9bf4"
-pushes_per_week: [7, 9, 3, 2, 1, 1, 0, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [7, 9, 3, 0, 1, 1, 0, 0, 0, 0, 0, 0, 1]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 23
-    distinct_repos: 6
+    pushes: 22
+    distinct_repos: 7
     active_days: 12
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.9167
-  repo_per_active_day: 0.5000
+  push_per_day: 1.8333
+  repo_per_active_day: 0.5833
   not_owned_ratio: 0.0000
-  basename_concentration: 0.1667
+  basename_concentration: 0.1429
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
+    pushes: 1
+    distinct_repos: 1
+    pushes_per_repo: 1.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
+    pushes: 1
+    distinct_repos: 1
+    pushes_per_repo: 1.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 23
-    distinct_repos: 6
-    pushes_per_repo: 3.8333
+    pushes: 22
+    distinct_repos: 7
+    pushes_per_repo: 3.1429
     active_days: 12
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -76,59 +76,11 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 12 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "ghc-aw-example1"
-    title: "ghc-aw-example1"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-01"
-  - name: "ai-genius-s4-ep2-speckit"
-    title: "ai-genius-s4-ep2-speckit"
-    description: null
-    language: "PowerShell"
-    topics: []
-    stars_fact: 13
-    first_seen: null
-    last_push: "2026-05-20"
-  - name: "build-vs-buy-agent"
-    title: "build-vs-buy-agent"
-    description: null
-    language: "C#"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-04"
-  - name: "foundry-tutorial-hosted"
-    title: "foundry-tutorial-hosted"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-26"
-  - name: "client-iq-agent-hosted"
-    title: "client-iq-agent-hosted"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-25"
-  - name: "aws-bedrock-agentcore"
-    title: "aws-bedrock-agentcore"
-    description: null
-    language: "Dockerfile"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-24"
+repos: []
 ---
 
 # qkfang
 
-23 pushes across 6 repositories on 12 active days in the last 90 days of public GitHub push activity.
+22 pushes across 7 repositories on 12 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/qkfang

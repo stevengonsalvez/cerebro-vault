@@ -10,15 +10,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [5, 13, 4, 2, 2, 0, 1, 0, 0, 0, 3, 1, 0]
+pushes_per_week: [6, 14, 4, 0, 2, 0, 1, 0, 0, 2, 1, 1, 0]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -50,10 +50,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -83,9 +83,17 @@ repos:
     description: "GitNexus: The Zero-Server Code Intelligence Engine"
     language: "TypeScript"
     topics: []
-    stars_fact: 47667
+    stars_fact: 47816
     first_seen: "2026-08-29T06:00:06.818585+00:00"
-    last_push: "2026-10-01"
+    last_push: "2026-10-10"
+  - name: "prowl"
+    title: "prowl"
+    description: "Interactive knowledge graph for codebases, vibe coder companion"
+    language: null
+    topics: []
+    stars_fact: 17
+    first_seen: null
+    last_push: "2026-02-27"
   - name: "Medical-Research-Assistant"
     title: "Medical-Research-Assistant"
     description: "A multi-agent system for processing complex medical queries. It decomposes queries into sub-queries, gathers information from specialized agents (MedILlama (using finetuned medical SLM, web search, RAG), and refines outputs iteratively for accuracy."
@@ -102,14 +110,6 @@ repos:
     stars_fact: 7
     first_seen: null
     last_push: "2024-09-03"
-  - name: "prowl"
-    title: "prowl"
-    description: "Interactive knowledge graph for codebases, vibe coder companion"
-    language: null
-    topics: []
-    stars_fact: 16
-    first_seen: null
-    last_push: "2026-02-27"
   - name: "WhatsappBooking"
     title: "WhatsappBooking"
     description: "A bot that can schedule appointments through whatsapp and google calander"

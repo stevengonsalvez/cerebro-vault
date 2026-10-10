@@ -8,16 +8,16 @@ provenance_repos:
   - "alibaba/open-code-review"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+repos_populated: false
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "c489e6fb5febf2ab"
-pushes_per_week: [5, 1, 1, 1, 5, 1, 0, 0, 1, 0, 1, 4, 1]
+pushes_per_week: [5, 2, 0, 5, 1, 1, 0, 0, 1, 0, 2, 3, 1]
 windows:
   "7d":
-    pushes: 2
-    distinct_repos: 2
-    active_days: 2
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
-    distinct_repos: 2
+    pushes: 1
+    distinct_repos: 1
     pushes_per_repo: 1.0000
-    active_days: 2
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -76,55 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 14 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "agentscope-eval"
-    title: "agentscope-eval"
-    description: "Evaluation layer for AgentScope: execution status, tool correctness, and answer quality, powered by DeepEval."
-    language: "Python"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-19"
-  - name: "DiegoC-llmwiki"
-    title: "DiegoC-llmwiki"
-    description: "A personal knowledge base scaffold built on Karpathy's LLM Wiki concept — let LLMs incrementally build and maintain a persistent, structured, ever-growing wiki."
-    language: null
-    topics: []
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-08-29"
-  - name: "DiegoC-workflow"
-    title: "DiegoC-workflow"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-22"
-  - name: "DiegoC-Agent"
-    title: "DiegoC-Agent"
-    description: "A CLI AI agent with MCP tools support, featuring interactive mode and customizable skills"
-    language: "Go"
-    topics: []
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-08-16"
-  - name: "DiegoC-Harness"
-    title: "DiegoC-Harness"
-    description: "纯提示词驱动的Agent Team Harness"
-    language: "Shell"
-    topics: []
-    stars_fact: 31
-    first_seen: null
-    last_push: "2026-07-31"
-  - name: "DiegoC-Harness-2.0"
-    title: "DiegoC-Harness-2.0"
-    description: "Deterministic multi-agent software delivery pipeline built on AgentScope"
-    language: "Python"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-08-09"
+repos: []
 ---
 
 # iluv7

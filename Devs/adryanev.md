@@ -9,18 +9,18 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "73468cde177ddae6"
-pushes_per_week: [2, 2, 0, 1, 2, 2, 2, 1, 0, 2, 6, 6, 2]
+pushes_per_week: [3, 1, 0, 2, 3, 0, 3, 0, 0, 2, 6, 6, 2]
 windows:
   "7d":
-    pushes: 3
-    distinct_repos: 2
-    active_days: 3
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 2
+    distinct_repos: 1
+    active_days: 2
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
     pushes: 16
     distinct_repos: 6
@@ -49,13 +49,13 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 3
-    distinct_repos: 2
-    pushes_per_repo: 1.5000
-    active_days: 3
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 2
+    distinct_repos: 1
+    pushes_per_repo: 2.0000
+    active_days: 2
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
     pushes: 16
     distinct_repos: 6
@@ -77,6 +77,14 @@ reasons:
   - "activity: 17 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "adryanev"
+    title: "adryanev"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-05"
   - name: "neetcode-submissions"
     title: "neetcode-submissions"
     description: "My NeetCode.io problem submissions"
@@ -120,14 +128,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-06-08"
-  - name: "love_gallery"
-    title: "love_gallery"
-    description: null
-    language: "Dart"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-04-09"
 ---
 
 # adryanev

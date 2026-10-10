@@ -9,13 +9,13 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-06T06:06:47.636089+00:00"
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "97c4e9cb8b163ddb"
   - "c7515e0fa4368a55"
   - "d3abe74726b22711"
   - "e7c647c4d0689526"
-pushes_per_week: [0, 0, 0, 0, 1, 1, 1, 0, 0, 2, 0, 1, 1]
+pushes_per_week: [0, 0, 0, 0, 2, 1, 0, 0, 1, 1, 1, 1, 0]
 windows:
   "7d":
     pushes: 1
@@ -80,6 +80,14 @@ reasons:
   - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "opencode-lmstudio"
+    title: "opencode-lmstudio"
+    description: "OpenCode plugin for enhanced LM Studio support with auto-detection and dynamic model discovery"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 153
+    first_seen: null
+    last_push: "2026-09-11"
   - name: "rust-sandbox-bridge"
     title: "rust-sandbox-bridge"
     description: "Artifact factory: official Rust toolchain + approved cargo-vendor bundles for ChatGPT Linux sandbox offline builds"
@@ -106,14 +114,6 @@ repos:
     stars_fact: 2
     first_seen: null
     last_push: "2025-04-25"
-  - name: "opencode-lmstudio"
-    title: "opencode-lmstudio"
-    description: "OpenCode plugin for enhanced LM Studio support with auto-detection and dynamic model discovery"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 152
-    first_seen: null
-    last_push: "2026-09-11"
   - name: "bun-arcus"
     title: "bun-arcus"
     description: "Public, upstream-first Bun patch queue for Arcus CI runtime qualification. No production releases."
@@ -121,7 +121,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-29"
+    last_push: "2026-10-07"
   - name: "effect-zfs"
     title: "effect-zfs"
     description: "Effect v4 library for Linux OpenZFS"

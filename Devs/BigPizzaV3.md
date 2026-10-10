@@ -10,36 +10,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "90688bf127241ceb"
-pushes_per_week: [4, 2, 0, 1, 5, 3, 1, 0, 0, 1, 0, 1, 2]
+pushes_per_week: [4, 2, 0, 1, 6, 2, 1, 0, 0, 1, 0, 3, 1]
 windows:
   "7d":
-    pushes: 2
+    pushes: 1
     distinct_repos: 1
     active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 4
+    pushes: 5
     distinct_repos: 2
-    active_days: 3
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 20
+    pushes: 21
     distinct_repos: 3
-    active_days: 13
+    active_days: 14
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.5385
-  repo_per_active_day: 0.2308
+  push_per_day: 1.5000
+  repo_per_active_day: 0.2143
   not_owned_ratio: 0.0000
   basename_concentration: 0.3333
   shapes: []
@@ -50,32 +50,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
+    pushes: 1
     distinct_repos: 1
-    pushes_per_repo: 2.0000
+    pushes_per_repo: 1.0000
     active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 4
+    pushes: 5
     distinct_repos: 2
-    pushes_per_repo: 2.0000
-    active_days: 3
+    pushes_per_repo: 2.5000
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 20
+    pushes: 21
     distinct_repos: 3
-    pushes_per_repo: 6.6667
-    active_days: 13
+    pushes_per_repo: 7.0000
+    active_days: 14
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 13 active days in 90d — pass"
+  - "activity: 14 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "CodexPlusPlus"
@@ -83,15 +83,15 @@ repos:
     description: "An enhanced tool for CodexApp, striving to make Codex better to use and more comfortable 一个CodexApp的增强工具，努力让Codex变得更好用更舒服"
     language: "Rust"
     topics: []
-    stars_fact: 31739
+    stars_fact: 31951
     first_seen: "2026-06-27T06:00:03.973664+00:00"
-    last_push: "2026-09-30"
+    last_push: "2026-10-09"
   - name: "CodexPlusPlusScriptMarket"
     title: "CodexPlusPlusScriptMarket"
     description: null
     language: "JavaScript"
     topics: []
-    stars_fact: 40
+    stars_fact: 44
     first_seen: null
     last_push: "2026-09-30"
   - name: "Ad-List"
@@ -101,7 +101,15 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-29"
+    last_push: "2026-10-08"
+  - name: "CodexPlusPlusPluginCache"
+    title: "CodexPlusPlusPluginCache"
+    description: "Redistributable Codex plugin package cache and Git marketplace, with API-key installation validation"
+    language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-08"
   - name: "CodexPlusPlus-Themes"
     title: "CodexPlusPlus-Themes"
     description: "Codex++ 社区主题市场：浏览、安装和通过 Pull Request 投稿 Dream Skin 主题"
@@ -111,7 +119,7 @@ repos:
       - "codexplusplus"
       - "dream-skin"
       - "themes"
-    stars_fact: 5
+    stars_fact: 7
     first_seen: null
     last_push: "2026-09-16"
   - name: "ai-status-monitor"
@@ -122,18 +130,10 @@ repos:
     stars_fact: 3
     first_seen: null
     last_push: "2026-08-19"
-  - name: "BigPizzaV3.github.io"
-    title: "BigPizzaV3.github.io"
-    description: null
-    language: "HTML"
-    topics: []
-    stars_fact: 9
-    first_seen: null
-    last_push: "2026-05-15"
 ---
 
 # BigPizzaV3
 
-20 pushes across 3 repositories on 13 active days in the last 90 days of public GitHub push activity.
+21 pushes across 3 repositories on 14 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/BigPizzaV3

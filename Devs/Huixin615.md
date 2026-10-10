@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "16389f32495280ea"
-pushes_per_week: [3, 3, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [3, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,14 +77,6 @@ reasons:
   - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "rc_huixin"
-    title: "rc_huixin"
-    description: "API AI Coding"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-14"
   - name: "My-Agent"
     title: "My-Agent"
     description: "A Agent runtime with adaptive planning, Step ReAct, dynamic replanning, Judge review, Tools, MCP, Skills, event replay, and a Textual TUI."
@@ -100,7 +92,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-02"
+    last_push: "2026-10-10"
   - name: "my-research-agent"
     title: "my-research-agent"
     description: "一个论文检索Agent"

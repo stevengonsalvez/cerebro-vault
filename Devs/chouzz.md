@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-07T15:16:07.319356+00:00"
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [1, 0, 2, 0, 15, 1, 1, 0, 0, 1, 0, 0, 0]
+pushes_per_week: [1, 0, 2, 12, 3, 1, 1, 0, 0, 1, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,28 +77,28 @@ reasons:
   - "activity: 9 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "llm-interceptor"
-    title: "llm-interceptor"
-    description: "A MITM proxy tool to intercept, analyze and log AI coding assistant (Claude Code, Open Code, etc.) communications with LLM APIs"
-    language: "Python"
-    topics: []
-    stars_fact: 73
-    first_seen: null
-    last_push: "2026-09-07"
   - name: "minecraft-mod-dev"
     title: "minecraft-mod-dev"
     description: "Claude Code skill for Minecraft mod development with NeoForge/Fabric support and inter-mod integration (JEI/AE2/Create)"
     language: "Shell"
     topics: []
-    stars_fact: 18
+    stars_fact: 19
     first_seen: null
     last_push: "2026-08-07"
+  - name: "llm-interceptor"
+    title: "llm-interceptor"
+    description: "A MITM proxy tool to intercept, analyze and log AI coding assistant (Claude Code, Open Code, etc.) communications with LLM APIs"
+    language: "Python"
+    topics: []
+    stars_fact: 76
+    first_seen: null
+    last_push: "2026-09-07"
   - name: "remoteShell-mcp"
     title: "remoteShell-mcp"
     description: "A Model Context Protocol (MCP) server that enables AI models to manage SSH connections and execute commands on remote machines without repeatedly entering credentials."
     language: "Python"
     topics: []
-    stars_fact: 2
+    stars_fact: 3
     first_seen: null
     last_push: "2026-09-14"
   - name: "vscode-better-align"

@@ -10,16 +10,16 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "16389f32495280ea"
   - "dffbb846389f9a26"
-pushes_per_week: [1, 3, 2, 1, 6, 5, 3, 0, 1, 1, 7, 3, 3]
+pushes_per_week: [3, 3, 0, 1, 8, 3, 3, 0, 2, 2, 5, 4, 2]
 windows:
   "7d":
-    pushes: 3
-    distinct_repos: 2
-    active_days: 2
+    pushes: 2
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -51,10 +51,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 3
-    distinct_repos: 2
-    pushes_per_repo: 1.5000
-    active_days: 2
+    pushes: 2
+    distinct_repos: 1
+    pushes_per_repo: 2.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -92,9 +92,17 @@ repos:
       - "mem0"
       - "mock-interviews"
       - "technical-interview"
-    stars_fact: 1087
+    stars_fact: 1100
     first_seen: null
-    last_push: "2026-09-29"
+    last_push: "2026-10-10"
+  - name: "OpenContextEngine"
+    title: "OpenContextEngine"
+    description: "An efficient, open-source code context engine. Open source deserves world-class code understanding."
+    language: "Python"
+    topics: []
+    stars_fact: 50
+    first_seen: null
+    last_push: "2026-10-09"
   - name: "AnnaSuSu"
     title: "AnnaSuSu"
     description: null
@@ -133,14 +141,6 @@ repos:
     stars_fact: 1
     first_seen: null
     last_push: "2026-03-28"
-  - name: "LoginComponentServer"
-    title: "LoginComponentServer"
-    description: "登录组件的后台"
-    language: "Java"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2022-05-25"
 ---
 
 # AnnaSuSu

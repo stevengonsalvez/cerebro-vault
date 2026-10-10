@@ -9,11 +9,11 @@ provenance_repos:
   - "apache/maka"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+repos_populated: false
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [12, 23, 9, 14, 53, 0, 15, 0, 0, 0, 6, 5, 0]
+pushes_per_week: [13, 19, 19, 7, 49, 6, 9, 0, 0, 0, 7, 4, 0]
 windows:
   "7d":
     pushes: 0
@@ -30,39 +30,23 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 137
-    distinct_repos: 15
-    active_days: 32
-    repos_not_owned: 11
+    pushes: 133
+    distinct_repos: 14
+    active_days: 31
+    repos_not_owned: 10
     not_owned_basenames: 4
-    not_owned_owners: 10
+    not_owned_owners: 9
 automation:
   state: "clear"
-  push_per_day: 4.2812
-  repo_per_active_day: 0.4688
-  not_owned_ratio: 0.7333
-  basename_concentration: 0.6000
-  shapes:
-    - "fork_farm_own_upstream"
-  shape_evidence:
-    - "basename concentration 0.6000 (9 of 15 repos share one basename), 11 not owned across 4 basenames — 5 of 5 sampled repos resolved; 5 fork an upstream this account owns; upstreams: jackwener/OpenCLI"
+  push_per_day: 4.2903
+  repo_per_active_day: 0.4516
+  not_owned_ratio: 0.7143
+  basename_concentration: 0.5714
+  shapes: []
+  shape_evidence: []
   cleared_by: "e01-builder"
   cleared_on: "2026-08-26"
-  fork_provenance:
-    checked: 5
-    own_upstream: 5
-    third_party: 0
-    no_upstream: 0
-    unresolved: 0
-    truncated: false
-    sampled:
-      - "b1llow/OpenCLI"
-      - "Benjamin-eecs/OpenCLI"
-      - "bingame/OpenCLI"
-      - "ele-yufo/OpenCLI"
-      - "imbarain/OpenCLI"
-    upstreams:
-      - "jackwener/OpenCLI"
+  fork_provenance: null
   prefilter: "rest_verified"
 facets:
   "7d":
@@ -82,77 +66,22 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 137
-    distinct_repos: 15
-    pushes_per_repo: 9.1333
-    active_days: 32
-    repos_not_owned: 11
+    pushes: 133
+    distinct_repos: 14
+    pushes_per_repo: 9.5000
+    active_days: 31
+    repos_not_owned: 10
     not_owned_basenames: 4
-    not_owned_owners: 10
+    not_owned_owners: 9
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 32 active days in 90d — pass"
+  - "activity: 31 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "OpenCLI"
-    title: "OpenCLI"
-    description: "Make Any Website into CLI & Use your logged-in browser by AI agent."
-    language: "JavaScript"
-    topics:
-      - "ai-agent"
-      - "ai-agents"
-      - "ai-tools"
-      - "browser-automation"
-      - "browser-use"
-      - "cli"
-      - "playwright"
-    stars_fact: 29761
-    first_seen: null
-    last_push: "2026-09-24"
-  - name: "wx-cli-again"
-    title: "wx-cli-again"
-    description: "WeChat local data CLI (query/decrypt/export) — fresh start from wx-cli"
-    language: "Rust"
-    topics: []
-    stars_fact: 769
-    first_seen: null
-    last_push: "2026-09-14"
-  - name: "xiaohongshu-cli"
-    title: "xiaohongshu-cli"
-    description: "A CLI for Xiaohongshu (小红书) — search, read, interact via reverse-engineered API"
-    language: "Python"
-    topics: []
-    stars_fact: 2647
-    first_seen: null
-    last_push: "2026-03-21"
-  - name: "wechat-article-to-markdown"
-    title: "wechat-article-to-markdown"
-    description: "微信公众号文章抓取 & Markdown 转换工具"
-    language: "Python"
-    topics: []
-    stars_fact: 1042
-    first_seen: null
-    last_push: "2026-03-22"
-  - name: "boss-cli"
-    title: "boss-cli"
-    description: "A CLI for BOSS 直聘 — search jobs, view recommendations, manage applications via reverse-engineered API"
-    language: "Python"
-    topics: []
-    stars_fact: 971
-    first_seen: null
-    last_push: "2026-04-13"
-  - name: "opencli-mcp"
-    title: "opencli-mcp"
-    description: "OpenCLI reborn as an MCP-native browser runtime: Chrome-spawned host, object API + code mode, site capabilities, recon"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 99
-    first_seen: null
-    last_push: "2026-09-30"
+repos: []
 ---
 
 # jackwener
 
-137 pushes across 15 repositories on 32 active days in the last 90 days of public GitHub push activity.
+133 pushes across 14 repositories on 31 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/jackwener

@@ -10,38 +10,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "1df6ea1f1256059e"
   - "dae9f02535f7c22f"
   - "edb3a626875732de"
-pushes_per_week: [1, 6, 15, 10, 17, 13, 15, 1, 0, 3, 4, 4, 6]
+pushes_per_week: [1, 11, 19, 6, 22, 7, 11, 1, 0, 6, 1, 6, 5]
 windows:
   "7d":
-    pushes: 9
-    distinct_repos: 6
-    active_days: 6
+    pushes: 6
+    distinct_repos: 4
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 17
+    pushes: 18
     distinct_repos: 10
-    active_days: 12
+    active_days: 13
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 95
+    pushes: 96
     distinct_repos: 29
-    active_days: 42
+    active_days: 43
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.2619
-  repo_per_active_day: 0.6905
+  push_per_day: 2.2326
+  repo_per_active_day: 0.6744
   not_owned_ratio: 0.0000
   basename_concentration: 0.0345
   shapes: []
@@ -52,32 +52,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 9
-    distinct_repos: 6
+    pushes: 6
+    distinct_repos: 4
     pushes_per_repo: 1.5000
-    active_days: 6
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 17
+    pushes: 18
     distinct_repos: 10
-    pushes_per_repo: 1.7000
-    active_days: 12
+    pushes_per_repo: 1.8000
+    active_days: 13
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 95
+    pushes: 96
     distinct_repos: 29
-    pushes_per_repo: 3.2759
-    active_days: 42
+    pushes_per_repo: 3.3103
+    active_days: 43
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 3 vault signal(s) — pass"
-  - "activity: 42 active days in 90d — pass"
+  - "activity: 43 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "santhiprakash"
@@ -87,7 +87,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-19"
+    last_push: "2026-10-08"
   - name: "freshlane"
     title: "freshlane"
     description: "FreshLane — open-source neighborhood supermarket digital storefront (Next.js MVP)"
@@ -129,6 +129,6 @@ repos:
 
 # santhiprakash
 
-95 pushes across 29 repositories on 42 active days in the last 90 days of public GitHub push activity.
+96 pushes across 29 repositories on 43 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/santhiprakash

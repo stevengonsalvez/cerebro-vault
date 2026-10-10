@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "9e2ff10d772b1e71"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 3, 1, 5, 1, 0]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 3, 3, 4, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -85,6 +85,46 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-09-06"
+  - name: "Capstone-Design-1"
+    title: "Capstone-Design-1"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-06-06"
+  - name: "algorithm"
+    title: "algorithm"
+    description: "알고리즘을 java로 푸는 레포입니다"
+    language: "Java"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-06-06"
+  - name: "instagram-clonecoding"
+    title: "instagram-clonecoding"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2025-06-15"
+  - name: "todolist"
+    title: "todolist"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2025-05-25"
+  - name: "spring-template"
+    title: "spring-template"
+    description: null
+    language: "Kotlin"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2024-08-24"
 ---
 
 # be-student

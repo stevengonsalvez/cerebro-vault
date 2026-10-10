@@ -8,11 +8,11 @@ provenance_repos:
   - "holaboss-ai/holaOS"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-07T15:16:07.319356+00:00"
+repos_populated: false
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "4a0bba59f2decb48"
-pushes_per_week: [0, 0, 12, 3, 3, 5, 1, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [0, 0, 12, 3, 3, 6, 0, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,15 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 10 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "holahub-community-skills"
-    title: "holahub-community-skills"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-19"
+repos: []
 ---
 
 # jeffreyliimerch

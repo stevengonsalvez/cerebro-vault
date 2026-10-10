@@ -8,16 +8,16 @@ provenance_repos:
   - "ninjahawk/livenerf"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+repos_populated: false
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "9ee133e6f5024f08"
-pushes_per_week: [36, 32, 5, 2, 0, 0, 0, 0, 0, 0, 9, 1, 2]
+pushes_per_week: [48, 20, 2, 2, 0, 0, 0, 0, 0, 7, 2, 2, 1]
 windows:
   "7d":
-    pushes: 3
-    distinct_repos: 3
-    active_days: 3
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 87
-    distinct_repos: 15
-    active_days: 20
+    pushes: 84
+    distinct_repos: 13
+    active_days: 18
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 4.3500
-  repo_per_active_day: 0.7500
-  not_owned_ratio: 0.1333
-  basename_concentration: 0.0667
+  push_per_day: 4.6667
+  repo_per_active_day: 0.7222
+  not_owned_ratio: 0.1538
+  basename_concentration: 0.0769
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 3
-    distinct_repos: 3
+    pushes: 1
+    distinct_repos: 1
     pushes_per_repo: 1.0000
-    active_days: 3
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -65,70 +65,22 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 87
-    distinct_repos: 15
-    pushes_per_repo: 5.8000
-    active_days: 20
+    pushes: 84
+    distinct_repos: 13
+    pushes_per_repo: 6.4615
+    active_days: 18
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 20 active days in 90d — pass"
+  - "activity: 18 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "livenerf"
-    title: "livenerf"
-    description: "Benchmark for tracking model capability after release."
-    language: "Python"
-    topics: []
-    stars_fact: 1358
-    first_seen: "2026-09-30T06:02:10.916514+00:00"
-    last_push: "2026-10-06"
-  - name: "crypto"
-    title: "crypto"
-    description: null
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-07"
-  - name: "S-and-Poke-500"
-    title: "S-and-Poke-500"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-10-07"
-  - name: "T-Finance"
-    title: "T-Finance"
-    description: null
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-05"
-  - name: "mech"
-    title: "mech"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-06"
-  - name: "hollow-agentOS"
-    title: "hollow-agentOS"
-    description: "Hollow is an open-sourced self-modifying agentic system for consumer hardware"
-    language: "Python"
-    topics: []
-    stars_fact: 309
-    first_seen: null
-    last_push: "2026-07-23"
+repos: []
 ---
 
 # ninjahawk
 
-87 pushes across 15 repositories on 20 active days in the last 90 days of public GitHub push activity.
+84 pushes across 13 repositories on 18 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ninjahawk

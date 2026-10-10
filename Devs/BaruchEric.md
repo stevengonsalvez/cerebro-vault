@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "745308b2b7085095"
-pushes_per_week: [1, 2, 4, 1, 3, 2, 0, 0, 0, 24, 4, 1, 2]
+pushes_per_week: [1, 4, 2, 1, 5, 0, 0, 0, 0, 28, 0, 1, 2]
 windows:
   "7d":
     pushes: 2
@@ -84,7 +84,15 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-01"
+    last_push: "2026-10-10"
+  - name: "clickstream"
+    title: "clickstream"
+    description: "Local-first browser and YouTube activity timeline with cross-device shard sync"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-10"
   - name: "synccenter"
     title: "synccenter"
     description: null
@@ -120,14 +128,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-09-18"
-  - name: "clickstream"
-    title: "clickstream"
-    description: "Local-first browser and YouTube activity timeline with cross-device shard sync"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-07"
   - name: "vorssaint-cli"
     title: "vorssaint-cli"
     description: "Command line control for Vorssaint, the macOS menu bar utility app"

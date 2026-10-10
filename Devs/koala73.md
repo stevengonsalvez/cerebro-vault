@@ -8,23 +8,23 @@ provenance_repos:
   - "koala73/worldmonitor"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+repos_populated: false
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "5fce3c914fe93bcc"
-pushes_per_week: [48, 23, 81, 40, 65, 81, 7, 8, 12, 31, 56, 33, 37]
+pushes_per_week: [44, 50, 62, 39, 101, 33, 9, 7, 20, 33, 52, 35, 37]
 windows:
   "7d":
-    pushes: 38
+    pushes: 41
     distinct_repos: 1
     active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 161
+    pushes: 171
     distinct_repos: 4
-    active_days: 27
+    active_days: 29
     repos_not_owned: 3
     not_owned_basenames: 1
     not_owned_owners: 3
@@ -65,18 +65,18 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 38
+    pushes: 41
     distinct_repos: 1
-    pushes_per_repo: 38.0000
+    pushes_per_repo: 41.0000
     active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 161
+    pushes: 171
     distinct_repos: 4
-    pushes_per_repo: 40.2500
-    active_days: 27
+    pushes_per_repo: 42.7500
+    active_days: 29
     repos_not_owned: 3
     not_owned_basenames: 1
     not_owned_owners: 3
@@ -92,51 +92,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 76 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "worldmonitor"
-    title: "worldmonitor"
-    description: "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface"
-    language: "TypeScript"
-    topics:
-      - "agent"
-      - "ai"
-      - "dashboard"
-      - "geopolitics"
-      - "mcp"
-      - "mcp-server"
-      - "monitoring"
-      - "news"
-      - "opensource"
-      - "osint"
-      - "palantir"
-      - "situation"
-    stars_fact: 87672
-    first_seen: "2026-08-01T06:00:04.424073+00:00"
-    last_push: "2026-10-02"
-  - name: "whoopskill"
-    title: "whoopskill"
-    description: "CLI to Get Whoop wearable data via Rest API, perfect for Agents to be taught as a SKILL"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 47
-    first_seen: null
-    last_push: "2026-01-25"
-  - name: "docs"
-    title: "docs"
-    description: null
-    language: "MDX"
-    topics: []
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-03-09"
-  - name: "reservewithgoogle-skill"
-    title: "reservewithgoogle-skill"
-    description: null
-    language: "Shell"
-    topics: []
-    stars_fact: 4
-    first_seen: null
-    last_push: "2026-02-01"
+repos: []
 ---
 
 # koala73

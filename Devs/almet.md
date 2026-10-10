@@ -9,13 +9,13 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "97c4e9cb8b163ddb"
   - "c7515e0fa4368a55"
   - "d3abe74726b22711"
   - "e7c647c4d0689526"
-pushes_per_week: [0, 0, 2, 0, 0, 1, 1, 0, 0, 2, 0, 0, 1]
+pushes_per_week: [0, 0, 2, 0, 0, 2, 0, 0, 0, 2, 0, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -85,9 +85,17 @@ repos:
     description: "Use Signal without a smartphone!"
     language: "Rust"
     topics: []
-    stars_fact: 76
+    stars_fact: 77
     first_seen: null
-    last_push: "2026-09-30"
+    last_push: "2026-10-02"
+  - name: "django-auth-ldap"
+    title: "django-auth-ldap"
+    description: "git clone of https://bitbucket.org/psagers/django-auth-ldap/ with some patches for the latest django"
+    language: "Python"
+    topics: []
+    stars_fact: 21
+    first_seen: null
+    last_push: "2014-09-11"
   - name: "threat-modeling-ssg"
     title: "threat-modeling-ssg"
     description: null
@@ -120,22 +128,6 @@ repos:
     stars_fact: 25
     first_seen: null
     last_push: "2021-08-29"
-  - name: "copanier"
-    title: "copanier"
-    description: "A minimalist collective buying software."
-    language: "Python"
-    topics:
-      - "community-buying"
-      - "delivery"
-      - "food-hubs"
-      - "joint-buying-association"
-      - "pay"
-      - "purchasing"
-      - "purchasing-system"
-      - "python"
-    stars_fact: 26
-    first_seen: null
-    last_push: "2023-10-20"
 ---
 
 # almet

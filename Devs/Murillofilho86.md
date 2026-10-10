@@ -8,11 +8,11 @@ provenance_repos:
   - "akitaonrails/ai-memory"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+repos_populated: false
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "4138778ebbc75ba6"
-pushes_per_week: [0, 0, 2, 0, 1, 0, 0, 0, 1, 2, 0, 0, 0]
+pushes_per_week: [0, 1, 1, 1, 0, 0, 0, 0, 1, 2, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,55 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "neetcode-submissions"
-    title: "neetcode-submissions"
-    description: "My NeetCode.io problem submissions"
-    language: "C#"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-30"
-  - name: "codecrafters-claude-code-python"
-    title: "codecrafters-claude-code-python"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-11"
-  - name: "codecrafters-shell-csharp"
-    title: "codecrafters-shell-csharp"
-    description: null
-    language: "Shell"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-30"
-  - name: "vertical-slice-template"
-    title: "vertical-slice-template"
-    description: null
-    language: "C#"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-14"
-  - name: "mcp-git-server"
-    title: "mcp-git-server"
-    description: "Ferramenta de estudo para certificação Anthropic"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-07-30"
-  - name: "git-integration-agent"
-    title: "git-integration-agent"
-    description: "O Git Analysis Agent é um agente inteligente que analisa branches antigas e obsoletas para determinar o que pode ser reaproveitado, atualizado ou integrado nas branches QA ou Develop. Automatize a gestão de débitos técnicos do seu Git com análises inteligentes de ciclo de vida de código e IA."
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-07-24"
+repos: []
 ---
 
 # Murillofilho86

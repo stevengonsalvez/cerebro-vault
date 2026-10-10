@@ -8,16 +8,16 @@ provenance_repos:
   - "chopratejas/headroom"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+repos_populated: false
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "73468cde177ddae6"
-pushes_per_week: [10, 11, 5, 2, 6, 3, 3, 0, 0, 0, 2, 3, 2]
+pushes_per_week: [17, 4, 4, 2, 7, 3, 2, 0, 0, 1, 3, 3, 0]
 windows:
   "7d":
-    pushes: 2
-    distinct_repos: 1
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 47
+    pushes: 46
     distinct_repos: 2
-    active_days: 32
+    active_days: 31
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.4688
-  repo_per_active_day: 0.0625
+  push_per_day: 1.4839
+  repo_per_active_day: 0.0645
   not_owned_ratio: 0.0000
   basename_concentration: 0.5000
   shapes: []
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
-    distinct_repos: 1
-    pushes_per_repo: 2.0000
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -65,70 +65,22 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 47
+    pushes: 46
     distinct_repos: 2
-    pushes_per_repo: 23.5000
-    active_days: 32
+    pushes_per_repo: 23.0000
+    active_days: 31
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 32 active days in 90d — pass"
+  - "activity: 31 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "starlink-anti-theft"
-    title: "starlink-anti-theft"
-    description: null
-    language: "Kotlin"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-23"
-  - name: "copilot-usage-widget"
-    title: "copilot-usage-widget"
-    description: "Real-time GitHub enterprise usage widget for Windows 11. Sits on a free spot of the taskbar in compact essential mode and shows session, weekly and Sonnet limits as live colour-coded bars without ever blocking your work."
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-06-22"
-  - name: "copilot-pulse-android"
-    title: "copilot-pulse-android"
-    description: "Android home screen widget to track your GitHub Copilot AI usage. Sideloadable APK."
-    language: "Kotlin"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-06-22"
-  - name: "markdowns"
-    title: "markdowns"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2023-06-06"
-  - name: "Outlook2SP"
-    title: "Outlook2SP"
-    description: null
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2021-12-16"
-  - name: "Makeathon-ness"
-    title: "Makeathon-ness"
-    description: null
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2021-12-16"
+repos: []
 ---
 
 # orty
 
-47 pushes across 2 repositories on 32 active days in the last 90 days of public GitHub push activity.
+46 pushes across 2 repositories on 31 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/orty

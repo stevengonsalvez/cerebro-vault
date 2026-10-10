@@ -8,11 +8,11 @@ provenance_repos:
   - "anomalyco/opencode"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+repos_populated: false
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [2, 11, 8, 3, 5, 0, 0, 0, 0, 4, 2, 24, 1]
+pushes_per_week: [11, 2, 9, 4, 3, 0, 0, 0, 0, 6, 1, 23, 1]
 windows:
   "7d":
     pushes: 1
@@ -76,59 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 19 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "background-agents"
-    title: "background-agents"
-    description: "Run AI coding agents in isolated sandboxes connected to your GitHub repositories"
-    language: "TypeScript"
-    topics:
-      - "ai-agents"
-      - "claude-code"
-      - "codex"
-      - "opencode"
-    stars_fact: 66
-    first_seen: null
-    last_push: "2026-10-01"
-  - name: "playwright-mcp-server"
-    title: "playwright-mcp-server"
-    description: "A remote playwright MCP server that automatically saves screenshots and recordings"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-18"
-  - name: "awesome-ai-devtools"
-    title: "awesome-ai-devtools"
-    description: "Curated list of AI-powered developer tools."
-    language: null
-    topics: []
-    stars_fact: 3953
-    first_seen: null
-    last_push: "2026-08-27"
-  - name: "codechain"
-    title: "codechain"
-    description: "Code generation with LLMs 🔗"
-    language: "Python"
-    topics: []
-    stars_fact: 51
-    first_seen: null
-    last_push: "2023-08-04"
-  - name: "dijkstras-algorithm-demo"
-    title: "dijkstras-algorithm-demo"
-    description: null
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-23"
-  - name: "gitwit-agent"
-    title: "gitwit-agent"
-    description: "Create repos and commits with AI."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 300
-    first_seen: null
-    last_push: "2023-09-22"
+repos: []
 ---
 
 # jamesmurdza

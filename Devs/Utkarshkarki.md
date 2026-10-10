@@ -8,11 +8,11 @@ provenance_repos:
   - "browser-use/browser-use"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-06T06:06:47.636089+00:00"
+repos_populated: false
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "c1af6b58492f9bf4"
-pushes_per_week: [0, 0, 0, 0, 2, 0, 1, 0, 0, 1, 7, 2, 0]
+pushes_per_week: [0, 0, 0, 0, 2, 0, 1, 0, 0, 4, 5, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,55 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 8 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "ImageMOD"
-    title: "ImageMOD"
-    description: "We will be working around Images"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-27"
-  - name: "AI-Automation"
-    title: "AI-Automation"
-    description: "Automate your daily tasks"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-26"
-  - name: "Swarm"
-    title: "Swarm"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-21"
-  - name: "CLI-X"
-    title: "CLI-X"
-    description: "Build it"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-20"
-  - name: "Salvage"
-    title: "Salvage"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 10
-    first_seen: null
-    last_push: "2026-09-05"
-  - name: "Scrapper"
-    title: "Scrapper"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-30"
+repos: []
 ---
 
 # Utkarshkarki

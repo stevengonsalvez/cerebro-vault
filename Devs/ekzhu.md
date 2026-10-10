@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-07T15:16:07.319356+00:00"
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "541318303a272608"
-pushes_per_week: [2, 1, 0, 0, 0, 4, 0, 0, 0, 0, 0, 2, 0]
+pushes_per_week: [3, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 2, 0]
 windows:
   "7d":
     pushes: 0
@@ -96,7 +96,7 @@ repos:
       - "search"
       - "top-k"
       - "weighted-quantiles"
-    stars_fact: 2971
+    stars_fact: 2969
     first_seen: null
     last_push: "2026-08-09"
   - name: "chess-extension-for-vscode"

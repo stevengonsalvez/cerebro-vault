@@ -8,11 +8,11 @@ provenance_repos:
   - "anthropics/claude-code-action"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+repos_populated: false
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "0b22ca37fd3884c9"
-pushes_per_week: [8, 1, 0, 1, 4, 0, 0, 0, 0, 2, 3, 1, 2]
+pushes_per_week: [6, 1, 0, 1, 4, 0, 0, 0, 1, 1, 4, 1, 1]
 windows:
   "7d":
     pushes: 2
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 22
+    pushes: 20
     distinct_repos: 11
-    active_days: 15
+    active_days: 13
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.4667
-  repo_per_active_day: 0.7333
+  push_per_day: 1.5385
+  repo_per_active_day: 0.8462
   not_owned_ratio: 0.0909
   basename_concentration: 0.0909
   shapes: []
@@ -65,102 +65,22 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 22
+    pushes: 20
     distinct_repos: 11
-    pushes_per_repo: 2.0000
-    active_days: 15
+    pushes_per_repo: 1.8182
+    active_days: 13
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 15 active days in 90d — pass"
+  - "activity: 13 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "q8x4m1"
-    title: "q8x4m1"
-    description: null
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-03"
-  - name: "account-security"
-    title: "account-security"
-    description: "Account takeover, credential stuffing, session and inventory abuse detection for game platforms: signal catalog, SQL detections, scoring."
-    language: "Python"
-    topics:
-      - "account-security"
-      - "account-takeover"
-      - "credential-stuffing"
-      - "fraud-detection"
-      - "game-security"
-      - "security"
-      - "sql"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-25"
-  - name: "omniwire"
-    title: "omniwire"
-    description: "Infrastructure for AI agent swarms - 88 MCP tools, A2A, mesh VPN, CDP browser, 2FA"
-    language: "TypeScript"
-    topics:
-      - "a2a"
-      - "ai-agents"
-      - "devops"
-      - "infrastructure"
-      - "mcp"
-      - "model-context-protocol"
-      - "npm"
-      - "typescript"
-      - "wireguard"
-    stars_fact: 17
-    first_seen: null
-    last_push: "2026-09-22"
-  - name: "unleash"
-    title: "unleash"
-    description: "Unleash Claude Code - 113 patches, zero refusals/telemetry, 42 gates. Bun SEA bytecode patcher + TUI. Static Go binary."
-    language: "Go"
-    topics:
-      - "binary-patching"
-      - "bun"
-      - "claude-code"
-      - "go"
-      - "reverse-engineering"
-      - "security-research"
-      - "telemetry-removal"
-      - "tui"
-    stars_fact: 87
-    first_seen: null
-    last_push: "2026-08-12"
-  - name: "Kevlar-Ultimate"
-    title: "Kevlar-Ultimate"
-    description: "Unified KEVLAR Windows kernel-driver emulation and analysis harness"
-    language: "C++"
-    topics: []
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-09-15"
-  - name: "decepticon-ghidra-mcp"
-    title: "decepticon-ghidra-mcp"
-    description: "Full-featured Ghidra MCP - P-code, BSim, Version Tracking, emulation. Built for agentic 0-day discovery."
-    language: "Java"
-    topics:
-      - "0day"
-      - "ai-agents"
-      - "binary-analysis"
-      - "ghidra"
-      - "java"
-      - "mcp"
-      - "reverse-engineering"
-      - "vulnerability-research"
-    stars_fact: 5
-    first_seen: null
-    last_push: "2026-05-20"
+repos: []
 ---
 
 # NetVar1337
 
-22 pushes across 11 repositories on 15 active days in the last 90 days of public GitHub push activity.
+20 pushes across 11 repositories on 13 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/NetVar1337

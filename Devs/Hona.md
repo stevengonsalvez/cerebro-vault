@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [13, 9, 9, 7, 26, 13, 25, 7, 8, 7, 25, 5, 18]
+pushes_per_week: [15, 7, 9, 8, 34, 7, 26, 3, 9, 16, 15, 6, 17]
 windows:
   "7d":
-    pushes: 20
+    pushes: 17
     distinct_repos: 3
-    active_days: 5
+    active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 20
+    pushes: 17
     distinct_repos: 3
-    pushes_per_repo: 6.6667
-    active_days: 5
+    pushes_per_repo: 5.6667
+    active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -77,28 +77,44 @@ reasons:
   - "activity: 53 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "opencode-desktop-extensions"
+    title: "opencode-desktop-extensions"
+    description: "Mod loader for OpenCode Desktop"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 19
+    first_seen: null
+    last_push: "2026-09-08"
+  - name: "dotnet-opencode"
+    title: "dotnet-opencode"
+    description: "A 1:1 OpenCode V2 port in C# and .NET 11, currently in development."
+    language: "C#"
+    topics: []
+    stars_fact: 77
+    first_seen: null
+    last_push: "2026-09-05"
   - name: "opencode-changelog-x"
     title: "opencode-changelog-x"
     description: null
     language: "TypeScript"
     topics: []
-    stars_fact: 3
+    stars_fact: 2
     first_seen: null
-    last_push: "2026-10-02"
+    last_push: "2026-10-08"
   - name: "openeval"
     title: "openeval"
     description: "Typed prompt-and-judge SDK, CLI, and evidence viewer for agent evaluations"
     language: "TypeScript"
     topics: []
-    stars_fact: 71
+    stars_fact: 73
     first_seen: null
-    last_push: "2026-10-02"
+    last_push: "2026-10-05"
   - name: "temple-oc"
     title: "temple-oc"
     description: "Public domain coding station for OpenCode. HolyC first. White field. Red frame. Oracle ready."
     language: "TypeScript"
     topics: []
-    stars_fact: 39
+    stars_fact: 40
     first_seen: null
     last_push: "2026-04-11"
   - name: "opencode-ralph"
@@ -109,22 +125,6 @@ repos:
     stars_fact: 129
     first_seen: null
     last_push: "2026-01-06"
-  - name: "playsrc"
-    title: "playsrc"
-    description: "Play Team Fortress 2 in the browser"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 28
-    first_seen: null
-    last_push: "2026-09-01"
-  - name: "dotnet-opencode"
-    title: "dotnet-opencode"
-    description: "A 1:1 OpenCode V2 port in C# and .NET 11, currently in development."
-    language: "C#"
-    topics: []
-    stars_fact: 78
-    first_seen: null
-    last_push: "2026-09-05"
 ---
 
 # Hona

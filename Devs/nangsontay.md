@@ -8,11 +8,11 @@ provenance_repos:
   - "chopratejas/headroom"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+repos_populated: false
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "73468cde177ddae6"
-pushes_per_week: [4, 10, 4, 2, 5, 0, 1, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [9, 5, 5, 1, 5, 0, 1, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,55 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 12 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "AlphaZero-Gomoku"
-    title: "AlphaZero-Gomoku"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-05-17"
-  - name: "P4AIDS-EDA"
-    title: "P4AIDS-EDA"
-    description: null
-    language: "Jupyter Notebook"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-05-01"
-  - name: "ViLipSync"
-    title: "ViLipSync"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-04-19"
-  - name: "P4AIDS-EDA-Tabular"
-    title: "P4AIDS-EDA-Tabular"
-    description: null
-    language: "Jupyter Notebook"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-04-01"
-  - name: "APAssignment2-Real-time-Stock-Monitoring-System"
-    title: "APAssignment2-Real-time-Stock-Monitoring-System"
-    description: null
-    language: "Java"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2025-03-24"
-  - name: "multiLLM-crossCheck-mcp-server"
-    title: "multiLLM-crossCheck-mcp-server"
-    description: "Mirror of https://github.com/lior-ps/multi-llm-cross-check-mcp-server"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2025-11-15"
+repos: []
 ---
 
 # nangsontay

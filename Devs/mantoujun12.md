@@ -8,11 +8,11 @@ provenance_repos:
   - "AstrBotDevs/AstrBot"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+repos_populated: false
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [13, 19, 1, 0, 0, 4, 2, 2, 2, 2, 2, 4, 1]
+pushes_per_week: [16, 14, 0, 0, 3, 1, 3, 1, 2, 3, 4, 1, 1]
 windows:
   "7d":
     pushes: 1
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 11
-    distinct_repos: 6
-    active_days: 9
-    repos_not_owned: 4
-    not_owned_basenames: 4
+    pushes: 9
+    distinct_repos: 5
+    active_days: 7
+    repos_not_owned: 3
+    not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 52
+    pushes: 49
     distinct_repos: 11
-    active_days: 29
+    active_days: 28
     repos_not_owned: 8
     not_owned_basenames: 7
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 1.7931
-  repo_per_active_day: 0.3793
+  push_per_day: 1.7500
+  repo_per_active_day: 0.3929
   not_owned_ratio: 0.7273
   basename_concentration: 0.1818
   shapes: []
@@ -57,64 +57,30 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 11
-    distinct_repos: 6
-    pushes_per_repo: 1.8333
-    active_days: 9
-    repos_not_owned: 4
-    not_owned_basenames: 4
+    pushes: 9
+    distinct_repos: 5
+    pushes_per_repo: 1.8000
+    active_days: 7
+    repos_not_owned: 3
+    not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 52
+    pushes: 49
     distinct_repos: 11
-    pushes_per_repo: 4.7273
-    active_days: 29
+    pushes_per_repo: 4.4545
+    active_days: 28
     repos_not_owned: 8
     not_owned_basenames: 7
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 29 active days in 90d — pass"
+  - "activity: 28 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "astrbot_plugin_qq_custom_menu"
-    title: "astrbot_plugin_qq_custom_menu"
-    description: "让 AstrBot 机器人拥有在 QQ 显示自定义菜单的功能"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-27"
-  - name: "astrbot_plugin_qq_custom_command_panel"
-    title: "astrbot_plugin_qq_custom_command_panel"
-    description: "帮助用户在 QQ 使用指令面板快速调用 AstrBot 的指令"
-    language: "Python"
-    topics:
-      - "astrbot-plugin"
-      - "python"
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-09-26"
-  - name: "mantoujun12.github.io"
-    title: "mantoujun12.github.io"
-    description: "This is my Personal Website."
-    language: "SCSS"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-07-07"
-  - name: "mantoujun12"
-    title: "mantoujun12"
-    description: "Helloヾ(•ω•`)o"
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-07-22"
+repos: []
 ---
 
 # mantoujun12
 
-52 pushes across 11 repositories on 29 active days in the last 90 days of public GitHub push activity.
+49 pushes across 11 repositories on 28 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/mantoujun12

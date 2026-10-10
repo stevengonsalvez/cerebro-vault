@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [0, 0, 3, 0, 2, 0, 0, 0, 1, 1, 0, 2, 0]
+pushes_per_week: [0, 3, 0, 2, 0, 0, 0, 0, 1, 1, 2, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -86,7 +86,7 @@ repos:
       - "github-config"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-01"
+    last_push: "2026-10-10"
   - name: "astrbot_sowing_discord"
     title: "astrbot_sowing_discord"
     description: "搬史自动化新时代!"
@@ -101,7 +101,7 @@ repos:
     language: "Python"
     topics:
       - "astrbot"
-    stars_fact: 402
+    stars_fact: 407
     first_seen: null
     last_push: "2026-09-26"
   - name: "astrbot-meme-pack-index"

@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 6, 2, 2, 26, 5]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 8, 1, 1, 27, 5]
 windows:
   "7d":
-    pushes: 10
-    distinct_repos: 5
-    active_days: 5
+    pushes: 5
+    distinct_repos: 3
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 36
-    distinct_repos: 7
-    active_days: 14
+    pushes: 37
+    distinct_repos: 8
+    active_days: 15
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 41
-    distinct_repos: 7
-    active_days: 16
+    pushes: 42
+    distinct_repos: 8
+    active_days: 17
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.5625
-  repo_per_active_day: 0.4375
+  push_per_day: 2.4706
+  repo_per_active_day: 0.4706
   not_owned_ratio: 0.0000
-  basename_concentration: 0.1429
+  basename_concentration: 0.1250
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,34 +49,58 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 10
-    distinct_repos: 5
-    pushes_per_repo: 2.0000
-    active_days: 5
+    pushes: 5
+    distinct_repos: 3
+    pushes_per_repo: 1.6667
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 36
-    distinct_repos: 7
-    pushes_per_repo: 5.1429
-    active_days: 14
+    pushes: 37
+    distinct_repos: 8
+    pushes_per_repo: 4.6250
+    active_days: 15
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 41
-    distinct_repos: 7
-    pushes_per_repo: 5.8571
-    active_days: 16
+    pushes: 42
+    distinct_repos: 8
+    pushes_per_repo: 5.2500
+    active_days: 17
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 16 active days in 90d — pass"
+  - "activity: 17 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "ggbdpq"
+    title: "ggbdpq"
+    description: "Frontend Engineer → AI Developer Tooling · LLM gateway · agent runtime · agent skills"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-10"
+  - name: "agent-skills"
+    title: "agent-skills"
+    description: "ggbdpq's public collection of agent skills."
+    language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-30"
+  - name: "cursor-loc"
+    title: "cursor-loc"
+    description: "为 Cursor IDE 专有界面 提供简体中文汉化：覆盖 Settings、Agent、Composer、Review 等 Microsoft 官方语言包无法触及的区域。"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-09-28"
   - name: "coding-agent"
     title: "coding-agent"
     description: "Five-language coding agent family (typescript/python/go/rust/csharp) + cross-language specs"
@@ -118,26 +142,10 @@ repos:
     stars_fact: 3
     first_seen: null
     last_push: "2026-10-01"
-  - name: "agent-skills"
-    title: "agent-skills"
-    description: "ggbdpq's public collection of agent skills."
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-30"
-  - name: "cursor-loc"
-    title: "cursor-loc"
-    description: "为 **Cursor IDE 专有界面**提供简体中文汉化：覆盖 Settings、Agent、Composer、Review 等 Microsoft 官方语言包无法触及的区域。"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-09-28"
 ---
 
 # ggbdpq
 
-41 pushes across 7 repositories on 16 active days in the last 90 days of public GitHub push activity.
+42 pushes across 8 repositories on 17 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ggbdpq

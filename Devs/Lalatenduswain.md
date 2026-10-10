@@ -8,11 +8,11 @@ provenance_repos:
   - "AlexsJones/llmfit"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-07T15:16:07.319356+00:00"
+repos_populated: false
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [3, 1, 0, 0, 3, 0, 0, 0, 0, 0, 2, 1, 1]
+pushes_per_week: [2, 1, 0, 0, 3, 0, 0, 0, 0, 0, 2, 1, 1]
 windows:
   "7d":
     pushes: 1
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 11
+    pushes: 10
     distinct_repos: 2
-    active_days: 10
+    active_days: 9
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.1000
-  repo_per_active_day: 0.2000
+  push_per_day: 1.1111
+  repo_per_active_day: 0.2222
   not_owned_ratio: 0.0000
   basename_concentration: 0.5000
   shapes: []
@@ -65,72 +65,22 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 11
+    pushes: 10
     distinct_repos: 2
-    pushes_per_repo: 5.5000
-    active_days: 10
+    pushes_per_repo: 5.0000
+    active_days: 9
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 10 active days in 90d — pass"
+  - "activity: 9 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "folio-cover-images"
-    title: "folio-cover-images"
-    description: "Mirror of Folio blog cover images (served via jsDelivr CDN). Source of truth is Cloudflare R2."
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-01"
-  - name: "remove-tailscale"
-    title: "remove-tailscale"
-    description: "A Bash script to completely remove Tailscale from an Ubuntu system and optionally reinstall it."
-    language: "Shell"
-    topics: []
-    stars_fact: 14
-    first_seen: null
-    last_push: "2026-06-03"
-  - name: "kids_first_ml_project_with_google_colab"
-    title: "kids_first_ml_project_with_google_colab"
-    description: null
-    language: "Jupyter Notebook"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-08"
-  - name: "Lalatenduswain"
-    title: "Lalatenduswain"
-    description: "Config files for my GitHub profile."
-    language: null
-    topics:
-      - "config"
-      - "github-config"
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-09-08"
-  - name: "mahindra-be6"
-    title: "mahindra-be6"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-05"
-  - name: "poweroff-remote"
-    title: "poweroff-remote"
-    description: "Android app to power servers off over SSH and back on with Wake-on-LAN, credentials encrypted on-device"
-    language: "Kotlin"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-01"
+repos: []
 ---
 
 # Lalatenduswain
 
-11 pushes across 2 repositories on 10 active days in the last 90 days of public GitHub push activity.
+10 pushes across 2 repositories on 9 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Lalatenduswain

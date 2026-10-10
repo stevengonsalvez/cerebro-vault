@@ -9,37 +9,37 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "dae9f02535f7c22f"
-pushes_per_week: [81, 86, 41, 83, 90, 20, 13, 5, 7, 52, 150, 208, 14]
+pushes_per_week: [88, 69, 61, 66, 93, 10, 11, 3, 16, 93, 127, 181, 32]
 windows:
   "7d":
-    pushes: 34
+    pushes: 32
     distinct_repos: 17
-    active_days: 3
+    active_days: 4
     repos_not_owned: 17
     not_owned_basenames: 17
     not_owned_owners: 1
   "30d":
-    pushes: 427
-    distinct_repos: 87
-    active_days: 25
-    repos_not_owned: 82
-    not_owned_basenames: 80
+    pushes: 444
+    distinct_repos: 89
+    active_days: 26
+    repos_not_owned: 84
+    not_owned_basenames: 82
     not_owned_owners: 3
   "90d":
     pushes: 850
     distinct_repos: 119
     active_days: 75
-    repos_not_owned: 110
-    not_owned_basenames: 108
+    repos_not_owned: 111
+    not_owned_basenames: 109
     not_owned_owners: 3
 automation:
   state: "clear"
   push_per_day: 11.3333
   repo_per_active_day: 1.5867
-  not_owned_ratio: 0.9244
+  not_owned_ratio: 0.9328
   basename_concentration: 0.0168
   shapes: []
   shape_evidence: []
@@ -49,28 +49,28 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 34
+    pushes: 32
     distinct_repos: 17
-    pushes_per_repo: 2.0000
-    active_days: 3
+    pushes_per_repo: 1.8824
+    active_days: 4
     repos_not_owned: 17
     not_owned_basenames: 17
     not_owned_owners: 1
   "30d":
-    pushes: 427
-    distinct_repos: 87
-    pushes_per_repo: 4.9080
-    active_days: 25
-    repos_not_owned: 82
-    not_owned_basenames: 80
+    pushes: 444
+    distinct_repos: 89
+    pushes_per_repo: 4.9888
+    active_days: 26
+    repos_not_owned: 84
+    not_owned_basenames: 82
     not_owned_owners: 3
   "90d":
     pushes: 850
     distinct_repos: 119
     pushes_per_repo: 7.1429
     active_days: 75
-    repos_not_owned: 110
-    not_owned_basenames: 108
+    repos_not_owned: 111
+    not_owned_basenames: 109
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
@@ -84,7 +84,7 @@ repos:
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-09-30"
+    last_push: "2026-10-09"
   - name: "wow-quickroute"
     title: "wow-quickroute"
     description: "World of Warcraft addon for optimal travel routing using teleports, portals, spells and items"

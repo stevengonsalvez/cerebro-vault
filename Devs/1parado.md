@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "c489e6fb5febf2ab"
-pushes_per_week: [1, 2, 0, 3, 3, 1, 0, 1, 8, 2, 0, 3, 14]
+pushes_per_week: [1, 2, 3, 2, 1, 1, 0, 1, 8, 2, 0, 4, 15]
 windows:
   "7d":
-    pushes: 14
+    pushes: 15
     distinct_repos: 2
     active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 20
+    pushes: 21
     distinct_repos: 7
     active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 38
-    distinct_repos: 13
-    active_days: 14
+    pushes: 40
+    distinct_repos: 14
+    active_days: 15
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.7143
-  repo_per_active_day: 0.9286
+  push_per_day: 2.6667
+  repo_per_active_day: 0.9333
   not_owned_ratio: 0.0000
-  basename_concentration: 0.0769
+  basename_concentration: 0.0714
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,86 +49,86 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 14
+    pushes: 15
     distinct_repos: 2
-    pushes_per_repo: 7.0000
+    pushes_per_repo: 7.5000
     active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 20
+    pushes: 21
     distinct_repos: 7
-    pushes_per_repo: 2.8571
+    pushes_per_repo: 3.0000
     active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 38
-    distinct_repos: 13
-    pushes_per_repo: 2.9231
-    active_days: 14
+    pushes: 40
+    distinct_repos: 14
+    pushes_per_repo: 2.8571
+    active_days: 15
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 14 active days in 90d — pass"
+  - "activity: 15 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "OrbitShot"
+    title: "OrbitShot"
+    description: "OrbitShot"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-10-09"
+  - name: "AgentCtrlV"
+    title: "AgentCtrlV"
+    description: "Windows AI Agent clipboard router — paste images/text into ChatGPT, Cursor, Terminal with one hotkey"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-08"
+  - name: "bubble"
+    title: "bubble"
+    description: "bubble"
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-08"
   - name: "zhishi"
     title: "zhishi"
     description: "浏览器插件——管理网页使用时长"
     language: "JavaScript"
     topics: []
-    stars_fact: 4
+    stars_fact: 5
     first_seen: null
-    last_push: "2026-09-30"
+    last_push: "2026-10-08"
+  - name: "Claude-5.5-motion-prompt"
+    title: "Claude-5.5-motion-prompt"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-08"
   - name: "Learn-Pi"
     title: "Learn-Pi"
     description: "Learn Pi: a progressive harness tutorial for understanding and adapting the Pi coding agent."
     language: "JavaScript"
     topics: []
-    stars_fact: 29
+    stars_fact: 30
     first_seen: null
     last_push: "2026-07-28"
-  - name: "PaiQuest"
-    title: "PaiQuest"
-    description: "PaiQuest Android App"
-    language: "Kotlin"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-28"
-  - name: "deepseek-sider"
-    title: "deepseek-sider"
-    description: "deepseek-sider"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-09-27"
-  - name: "1parado.github.io"
-    title: "1parado.github.io"
-    description: "GitHub Page + Hugo 搭建的个人博客"
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-25"
-  - name: "grok-build-switch"
-    title: "grok-build-switch"
-    description: "Grok Build Model Switcher – a lightweight tool to easily switch between model vendors."
-    language: "Go"
-    topics: []
-    stars_fact: 207
-    first_seen: null
-    last_push: "2026-09-13"
 ---
 
 # 1parado
 
-38 pushes across 13 repositories on 14 active days in the last 90 days of public GitHub push activity.
+40 pushes across 14 repositories on 15 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/1parado

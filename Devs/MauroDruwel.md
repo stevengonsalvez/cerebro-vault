@@ -8,39 +8,39 @@ provenance_repos:
   - "Alishahryar1/free-claude-code"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+repos_populated: false
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "9d67ce648f6a8919"
-pushes_per_week: [12, 4, 4, 3, 1, 3, 0, 0, 2, 0, 6, 4, 4]
+pushes_per_week: [6, 2, 6, 1, 1, 3, 0, 0, 2, 1, 5, 4, 5]
 windows:
   "7d":
-    pushes: 4
-    distinct_repos: 4
-    active_days: 2
+    pushes: 5
+    distinct_repos: 5
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 16
-    distinct_repos: 10
-    active_days: 8
+    pushes: 17
+    distinct_repos: 11
+    active_days: 9
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 43
-    distinct_repos: 18
+    pushes: 36
+    distinct_repos: 19
     active_days: 18
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.3889
-  repo_per_active_day: 1.0000
+  push_per_day: 2.0000
+  repo_per_active_day: 1.0556
   not_owned_ratio: 0.0000
-  basename_concentration: 0.0556
+  basename_concentration: 0.0526
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 4
-    distinct_repos: 4
+    pushes: 5
+    distinct_repos: 5
     pushes_per_repo: 1.0000
-    active_days: 2
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 16
-    distinct_repos: 10
-    pushes_per_repo: 1.6000
-    active_days: 8
+    pushes: 17
+    distinct_repos: 11
+    pushes_per_repo: 1.5455
+    active_days: 9
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 43
-    distinct_repos: 18
-    pushes_per_repo: 2.3889
+    pushes: 36
+    distinct_repos: 19
+    pushes_per_repo: 1.8947
     active_days: 18
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -76,98 +76,11 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 18 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "NIMStats"
-    title: "NIMStats"
-    description: "📊 Automated hourly benchmarks for 20+ NVIDIA NIM models — interactive dashboard, zero infra, self-hostable. Open-source & community-driven."
-    language: "JavaScript"
-    topics:
-      - "ai"
-      - "benchmark"
-      - "dashboard"
-      - "github-actions"
-      - "llm"
-      - "machine-learning"
-      - "nim"
-      - "nvidia"
-      - "open-source"
-    stars_fact: 53
-    first_seen: null
-    last_push: "2026-10-02"
-  - name: "ufora-sync"
-    title: "ufora-sync"
-    description: "OneDrive-style background sync service and system tray application for UGent Ufora (Brightspace)"
-    language: "Python"
-    topics:
-      - "brightspace"
-      - "desktop-app"
-      - "sync"
-      - "ufora"
-      - "ugent"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-01"
-  - name: "Weathercloud-HA"
-    title: "Weathercloud-HA"
-    description: "Home Assistant HACS integration for Weathercloud personal weather stations"
-    language: "Python"
-    topics:
-      - "hacs"
-      - "home-assistant-integration"
-    stars_fact: 10
-    first_seen: null
-    last_push: "2026-09-12"
-  - name: "quality-gate"
-    title: "quality-gate"
-    description: "The canonical Mauro Quality Gate (MQG) standards, reusable CI/CD workflows, templates, and automated auditing tool for general software projects."
-    language: "Python"
-    topics:
-      - "ci-cd"
-      - "developer-tools"
-      - "engineering-standards"
-      - "quality-gate"
-      - "reusable-workflows"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-28"
-  - name: "TunnelDashDesktop"
-    title: "TunnelDashDesktop"
-    description: "Desktop sidekick for Cloudflare Tunnels — proxy SSH/TCP/HTTP routes to local ports, launch native SSH sessions via ~/.ssh/config key auth, and manage Zero Trust access from a clean macOS/Windows/Linux GUI."
-    language: "TypeScript"
-    topics:
-      - "api"
-      - "cloudflare"
-      - "cloudflare-tunnel"
-      - "desktop-app"
-      - "react"
-      - "rust"
-      - "ssh"
-      - "tauri"
-      - "tunnel"
-      - "typescript"
-      - "vite"
-      - "zero-trust"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-28"
-  - name: "Smartschool-MCP"
-    title: "Smartschool-MCP"
-    description: "Smartschool MCP: A Model Context Protocol (MCP) server that enables seamless communication between AI agents and the Smartschool platform. 🧠"
-    language: "Python"
-    topics:
-      - "ai"
-      - "automation"
-      - "education"
-      - "mcp"
-      - "python"
-      - "smartschool"
-    stars_fact: 4
-    first_seen: null
-    last_push: "2026-09-28"
+repos: []
 ---
 
 # MauroDruwel
 
-43 pushes across 18 repositories on 18 active days in the last 90 days of public GitHub push activity.
+36 pushes across 19 repositories on 18 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/MauroDruwel

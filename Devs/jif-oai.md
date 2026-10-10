@@ -9,11 +9,12 @@ provenance_repos:
   - "openai/codex"
   - "openai/codex-plugin-cc"
   - "openai/openai-python"
+  - "openai/tiktoken"
   - "openinterpreter/openinterpreter"
 admitted: true
 low_n: true
 repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "0388a4f55f4206c8"
   - "0577669e18ed3998"
@@ -22,8 +23,10 @@ provenance:
   - "1be978947e68d1f2"
   - "2204ba57be324ff7"
   - "3509861ced217170"
+  - "396d5f6b9bc0a0f2"
   - "517eac85218e64f6"
   - "546861447eb67d73"
+  - "6d91f7c55a55a1dc"
   - "785d6f65b1beb1f0"
   - "898a71525a97f0dc"
   - "8c3dc2a0187cafcc"
@@ -37,6 +40,7 @@ provenance:
   - "c6b4a874521ceb02"
   - "cf565721454d59f8"
   - "e26852201e6f38fc"
+  - "f37003b32e1952f4"
 pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
@@ -98,7 +102,7 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
-  - "provenance: 22 vault signal(s) — pass"
+  - "provenance: 25 vault signal(s) — pass"
   - "activity: 0 active days in 90d — below the 5-day line, LABELLED low-n (never suppressed)"
   - "automation: clear — pass"
 repos: []

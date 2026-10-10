@@ -8,11 +8,11 @@ provenance_repos:
   - "cursor/plugins"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+repos_populated: false
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "a50d216def4cada3"
-pushes_per_week: [9, 4, 4, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0]
+pushes_per_week: [1, 4, 4, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 19
+    pushes: 11
     distinct_repos: 2
-    active_days: 8
+    active_days: 6
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.3750
-  repo_per_active_day: 0.2500
+  push_per_day: 1.8333
+  repo_per_active_day: 0.3333
   not_owned_ratio: 0.5000
   basename_concentration: 0.5000
   shapes: []
@@ -65,79 +65,22 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 19
+    pushes: 11
     distinct_repos: 2
-    pushes_per_repo: 9.5000
-    active_days: 8
+    pushes_per_repo: 5.5000
+    active_days: 6
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 8 active days in 90d — pass"
+  - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "hiring-without-whiteboards"
-    title: "hiring-without-whiteboards"
-    description: "⭐️ Companies that don't have a broken hiring process"
-    language: "JavaScript"
-    topics:
-      - "airtable"
-      - "hiring"
-      - "hiring-without-whiteboards"
-      - "interview"
-      - "jobs"
-      - "tech"
-      - "whiteboard"
-    stars_fact: 52298
-    first_seen: null
-    last_push: "2026-09-24"
-  - name: "how"
-    title: "how"
-    description: "skill for explaining architecture"
-    language: null
-    topics: []
-    stars_fact: 840
-    first_seen: null
-    last_push: "2026-04-14"
-  - name: "verification-skill-example"
-    title: "verification-skill-example"
-    description: "Example: project-local verification skill + large-app feature map (fictional Atlas / Harbor Labs)"
-    language: null
-    topics: []
-    stars_fact: 109
-    first_seen: null
-    last_push: "2026-07-30"
-  - name: "brainmaxxing"
-    title: "brainmaxxing"
-    description: "stupid simple persistent memory and skill improvement"
-    language: "Python"
-    topics: []
-    stars_fact: 300
-    first_seen: null
-    last_push: "2026-02-27"
-  - name: "noodle"
-    title: "noodle"
-    description: "Orchestrate agents using skills"
-    language: "Go"
-    topics: []
-    stars_fact: 308
-    first_seen: null
-    last_push: "2026-03-19"
-  - name: "rustconf-2020"
-    title: "rustconf-2020"
-    description: "An aggregation of links that summarize RustConf 2020. Pull requests welcome!"
-    language: null
-    topics:
-      - "rust"
-      - "rustconf"
-    stars_fact: 354
-    first_seen: null
-    last_push: "2020-08-31"
+repos: []
 ---
 
 # poteto
 
-19 pushes across 2 repositories on 8 active days in the last 90 days of public GitHub push activity.
+11 pushes across 2 repositories on 6 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/poteto

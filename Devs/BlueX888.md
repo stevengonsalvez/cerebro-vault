@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "16389f32495280ea"
-pushes_per_week: [0, 1, 0, 0, 1, 0, 0, 0, 0, 3, 7, 4, 0]
+pushes_per_week: [1, 0, 0, 1, 0, 0, 0, 0, 0, 8, 6, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -84,7 +84,15 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-30"
+    last_push: "2026-10-09"
+  - name: "mastra-mcp-media-repro"
+    title: "mastra-mcp-media-repro"
+    description: "Minimal repro: MCP image tool results reach the AI SDK v5 model prompt as spec-v3 image-data instead of a media part (@mastra/core)"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-09"
   - name: "BlueX888.github.io"
     title: "BlueX888.github.io"
     description: "朝然的个人博客"
@@ -117,14 +125,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-08-12"
-  - name: "forge-code"
-    title: "forge-code"
-    description: "面向本地工程的个人 AI 编程助手：项目记忆 · Skill 自进化 · 长任务上下文管理 · 权限沙箱"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-06-14"
 ---
 
 # BlueX888

@@ -8,11 +8,11 @@ provenance_repos:
   - "BuilderIO/agent-native"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+repos_populated: false
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "745308b2b7085095"
-pushes_per_week: [2, 5, 3, 0, 0, 0, 0, 0, 0, 1, 1, 8, 0]
+pushes_per_week: [5, 2, 3, 0, 0, 0, 0, 0, 0, 1, 4, 5, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,58 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 14 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "stamppot"
-    title: "stamppot"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-30"
-  - name: "trakoo"
-    title: "trakoo"
-    description: "A highly typed, zero-dependency, provider-agnostic analytics library for TypeScript"
-    language: "TypeScript"
-    topics:
-      - "analytics"
-      - "analytics-tracking"
-      - "tracking"
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-09-30"
-  - name: "reword"
-    title: "reword"
-    description: "Click text on any live page, edit it in place, copy one prompt your coding agent can apply."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-25"
-  - name: "better-auth-ui-svelte"
-    title: "better-auth-ui-svelte"
-    description: "Beautiful shadcn/ui components in Svelte built for better-auth."
-    language: "Svelte"
-    topics: []
-    stars_fact: 17
-    first_seen: null
-    last_push: "2026-07-02"
-  - name: "po-genie"
-    title: "po-genie"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-20"
-  - name: "eve-studio"
-    title: "eve-studio"
-    description: "Visual observability workspace for Eve agents: inspect live sessions, messages, tool calls, steps, and usage."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-07-29"
+repos: []
 ---
 
 # multiplehats

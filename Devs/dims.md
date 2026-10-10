@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "a5ffcd0a46dd44fd"
-pushes_per_week: [0, 6, 5, 7, 3, 4, 0, 0, 0, 2, 6, 32, 2]
+pushes_per_week: [0, 8, 5, 6, 3, 3, 0, 0, 1, 2, 20, 18, 2]
 windows:
   "7d":
     pushes: 3
@@ -22,25 +22,25 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 42
-    distinct_repos: 8
-    active_days: 12
+    pushes: 43
+    distinct_repos: 9
+    active_days: 13
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 67
-    distinct_repos: 17
-    active_days: 29
+    pushes: 68
+    distinct_repos: 18
+    active_days: 30
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 2.3103
-  repo_per_active_day: 0.5862
-  not_owned_ratio: 0.1765
-  basename_concentration: 0.1176
+  push_per_day: 2.2667
+  repo_per_active_day: 0.6000
+  not_owned_ratio: 0.1667
+  basename_concentration: 0.1111
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 42
-    distinct_repos: 8
-    pushes_per_repo: 5.2500
-    active_days: 12
+    pushes: 43
+    distinct_repos: 9
+    pushes_per_repo: 4.7778
+    active_days: 13
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 67
-    distinct_repos: 17
-    pushes_per_repo: 3.9412
-    active_days: 29
+    pushes: 68
+    distinct_repos: 18
+    pushes_per_repo: 3.7778
+    active_days: 30
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 29 active days in 90d — pass"
+  - "activity: 30 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "openshell-driver-substrate"
@@ -129,6 +129,6 @@ repos:
 
 # dims
 
-67 pushes across 17 repositories on 29 active days in the last 90 days of public GitHub push activity.
+68 pushes across 18 repositories on 30 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/dims

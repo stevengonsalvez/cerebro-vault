@@ -9,13 +9,13 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-07T15:16:07.319356+00:00"
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "97c4e9cb8b163ddb"
   - "c7515e0fa4368a55"
   - "d3abe74726b22711"
   - "e7c647c4d0689526"
-pushes_per_week: [14, 3, 0, 0, 0, 0, 0, 0, 0, 0, 4, 4, 0]
+pushes_per_week: [17, 0, 0, 0, 0, 0, 0, 0, 0, 1, 6, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -80,6 +80,14 @@ reasons:
   - "activity: 10 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "cheryls-caramels-storefront"
+    title: "cheryls-caramels-storefront"
+    description: "Custom storefront for a family caramel shop: Square checkout on Cloudflare Workers, live at cherylscaramels.com. Overview and architecture; source is private client work."
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-09"
   - name: "ethanstoner"
     title: "ethanstoner"
     description: "My GitHub profile README"
@@ -146,14 +154,6 @@ repos:
     title: "virtual-world"
     description: "Track editor for NeuroRacer: draw a track, check it against the trainer's own measurements, export it"
     language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-28"
-  - name: "neuro-racer"
-    title: "neuro-racer"
-    description: "Cars that teach themselves to race, with the neural network drawn live as generations improve"
-    language: "Python"
     topics: []
     stars_fact: 0
     first_seen: null

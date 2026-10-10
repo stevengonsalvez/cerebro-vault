@@ -8,16 +8,16 @@ provenance_repos:
   - "unclebob/swarm-forge"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+repos_populated: false
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "91ad171deae90329"
-pushes_per_week: [4, 0, 12, 6, 0, 3, 2, 1, 0, 1, 2, 1, 2]
+pushes_per_week: [1, 1, 16, 1, 0, 4, 1, 1, 0, 3, 0, 2, 1]
 windows:
   "7d":
-    pushes: 3
-    distinct_repos: 3
-    active_days: 3
+    pushes: 2
+    distinct_repos: 2
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 34
+    pushes: 31
     distinct_repos: 10
-    active_days: 21
+    active_days: 19
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.6190
-  repo_per_active_day: 0.4762
+  push_per_day: 1.6316
+  repo_per_active_day: 0.5263
   not_owned_ratio: 0.0000
   basename_concentration: 0.1000
   shapes: []
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 3
-    distinct_repos: 3
+    pushes: 2
+    distinct_repos: 2
     pushes_per_repo: 1.0000
-    active_days: 3
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -65,70 +65,22 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 34
+    pushes: 31
     distinct_repos: 10
-    pushes_per_repo: 3.4000
-    active_days: 21
+    pushes_per_repo: 3.1000
+    active_days: 19
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 21 active days in 90d — pass"
+  - "activity: 19 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "dryer"
-    title: "dryer"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 9
-    first_seen: null
-    last_push: "2026-09-30"
-  - name: "crapper"
-    title: "crapper"
-    description: "CRAP scores for Clojure, Java, Go, TypeScript, Rust, and Python, in the snapshot uml-viewer reads."
-    language: "Python"
-    topics: []
-    stars_fact: 26
-    first_seen: null
-    last_push: "2026-10-02"
-  - name: "bookwriter"
-    title: "bookwriter"
-    description: "A small writing application for one long book"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 73
-    first_seen: null
-    last_push: "2026-10-02"
-  - name: "mutator"
-    title: "mutator"
-    description: "Mutation testing for Clojure, Java, Go, TypeScript, Rust, and Python, in the snapshot uml-viewer reads."
-    language: "Python"
-    topics: []
-    stars_fact: 12
-    first_seen: null
-    last_push: "2026-10-02"
-  - name: "uml-viewer"
-    title: "uml-viewer"
-    description: "Live Quil UML class-diagram viewer driven by EDN"
-    language: "Clojure"
-    topics: []
-    stars_fact: 385
-    first_seen: null
-    last_push: "2026-10-02"
-  - name: "swarm-forge"
-    title: "swarm-forge"
-    description: "A simple tool for coordinating several AI agents."
-    language: "Clojure"
-    topics: []
-    stars_fact: 3946
-    first_seen: "2026-08-09T06:00:06.430133+00:00"
-    last_push: "2026-09-07"
+repos: []
 ---
 
 # unclebob
 
-34 pushes across 10 repositories on 21 active days in the last 90 days of public GitHub push activity.
+31 pushes across 10 repositories on 19 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/unclebob

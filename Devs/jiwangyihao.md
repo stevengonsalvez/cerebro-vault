@@ -8,11 +8,11 @@ provenance_repos:
   - "can1357/oh-my-pi"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+repos_populated: false
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [0, 0, 0, 1, 28, 9, 11, 1, 23, 1, 34, 1, 0]
+pushes_per_week: [0, 0, 0, 1, 36, 1, 11, 1, 23, 34, 2, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,11 +22,11 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 53
-    distinct_repos: 49
-    active_days: 6
-    repos_not_owned: 46
-    not_owned_basenames: 46
+    pushes: 36
+    distinct_repos: 36
+    active_days: 4
+    repos_not_owned: 35
+    not_owned_basenames: 35
     not_owned_owners: 1
   "90d":
     pushes: 109
@@ -57,12 +57,12 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 53
-    distinct_repos: 49
-    pushes_per_repo: 1.0816
-    active_days: 6
-    repos_not_owned: 46
-    not_owned_basenames: 46
+    pushes: 36
+    distinct_repos: 36
+    pushes_per_repo: 1.0000
+    active_days: 4
+    repos_not_owned: 35
+    not_owned_basenames: 35
     not_owned_owners: 1
   "90d":
     pushes: 109
@@ -76,55 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 16 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "source-j-legado"
-    title: "source-j-legado"
-    description: "My book source set for legado, mainly focused on light novels and maybe later manga (?)"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 655
-    first_seen: null
-    last_push: "2026-09-28"
-  - name: "fireworks-pdf-compressor-ml"
-    title: "fireworks-pdf-compressor-ml"
-    description: null
-    language: "PostScript"
-    topics: []
-    stars_fact: 7
-    first_seen: null
-    last_push: "2026-03-05"
-  - name: "opencode-copilot-account-switcher"
-    title: "opencode-copilot-account-switcher"
-    description: null
-    language: "JavaScript"
-    topics: []
-    stars_fact: 74
-    first_seen: null
-    last_push: "2026-05-15"
-  - name: "HSResume"
-    title: "HSResume"
-    description: null
-    language: "Vue"
-    topics: []
-    stars_fact: 7
-    first_seen: null
-    last_push: "2026-09-17"
-  - name: "olist-cdn-preheat"
-    title: "olist-cdn-preheat"
-    description: null
-    language: "Rust"
-    topics: []
-    stars_fact: 16
-    first_seen: null
-    last_push: "2025-12-25"
-  - name: "new-api"
-    title: "new-api"
-    description: "Downstream deployment fork of new-api"
-    language: "Go"
-    topics: []
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-09-09"
+repos: []
 ---
 
 # jiwangyihao

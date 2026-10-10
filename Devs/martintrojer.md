@@ -8,39 +8,39 @@ provenance_repos:
   - "agavra/tuicr"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+repos_populated: false
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [2, 0, 0, 0, 2, 0, 1, 0, 1, 34, 25, 39, 9]
+pushes_per_week: [1, 0, 0, 0, 2, 0, 1, 0, 2, 36, 35, 31, 15]
 windows:
   "7d":
-    pushes: 11
-    distinct_repos: 5
+    pushes: 16
+    distinct_repos: 7
     active_days: 5
-    repos_not_owned: 3
-    not_owned_basenames: 3
-    not_owned_owners: 2
+    repos_not_owned: 4
+    not_owned_basenames: 4
+    not_owned_owners: 3
   "30d":
-    pushes: 108
-    distinct_repos: 11
-    active_days: 24
-    repos_not_owned: 7
-    not_owned_basenames: 7
-    not_owned_owners: 2
+    pushes: 118
+    distinct_repos: 15
+    active_days: 25
+    repos_not_owned: 9
+    not_owned_basenames: 9
+    not_owned_owners: 3
   "90d":
-    pushes: 113
-    distinct_repos: 13
-    active_days: 28
-    repos_not_owned: 7
-    not_owned_basenames: 7
-    not_owned_owners: 2
+    pushes: 123
+    distinct_repos: 17
+    active_days: 29
+    repos_not_owned: 9
+    not_owned_basenames: 9
+    not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 4.0357
-  repo_per_active_day: 0.4643
-  not_owned_ratio: 0.5385
-  basename_concentration: 0.1538
+  push_per_day: 4.2414
+  repo_per_active_day: 0.5862
+  not_owned_ratio: 0.5294
+  basename_concentration: 0.1176
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,86 +49,38 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 11
-    distinct_repos: 5
-    pushes_per_repo: 2.2000
+    pushes: 16
+    distinct_repos: 7
+    pushes_per_repo: 2.2857
     active_days: 5
-    repos_not_owned: 3
-    not_owned_basenames: 3
-    not_owned_owners: 2
+    repos_not_owned: 4
+    not_owned_basenames: 4
+    not_owned_owners: 3
   "30d":
-    pushes: 108
-    distinct_repos: 11
-    pushes_per_repo: 9.8182
-    active_days: 24
-    repos_not_owned: 7
-    not_owned_basenames: 7
-    not_owned_owners: 2
+    pushes: 118
+    distinct_repos: 15
+    pushes_per_repo: 7.8667
+    active_days: 25
+    repos_not_owned: 9
+    not_owned_basenames: 9
+    not_owned_owners: 3
   "90d":
-    pushes: 113
-    distinct_repos: 13
-    pushes_per_repo: 8.6923
-    active_days: 28
-    repos_not_owned: 7
-    not_owned_basenames: 7
-    not_owned_owners: 2
+    pushes: 123
+    distinct_repos: 17
+    pushes_per_repo: 7.2353
+    active_days: 29
+    repos_not_owned: 9
+    not_owned_basenames: 9
+    not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 28 active days in 90d — pass"
+  - "activity: 29 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "swayward"
-    title: "swayward"
-    description: "An i3/sway-compatible Wayland compositor, built in Rust on smithay"
-    language: "Rust"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-02"
-  - name: "dotfiles"
-    title: "dotfiles"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-10-01"
-  - name: "sway-ipc-oracle"
-    title: "sway-ipc-oracle"
-    description: "Conformance tests for compositors speaking the i3/sway IPC protocol: i3's own test suite and captured sway replies, with published results for i3, sway and swayward."
-    language: "Perl"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-02"
-  - name: "vecgrep"
-    title: "vecgrep"
-    description: "Semantic grep — like ripgrep, but with vector search"
-    language: "Rust"
-    topics: []
-    stars_fact: 11
-    first_seen: null
-    last_push: "2026-09-12"
-  - name: "jj-fugitive"
-    title: "jj-fugitive"
-    description: "A Neovim plugin that brings vim-fugitive-style version control integration for Jujutsu (jj)."
-    language: "Lua"
-    topics: []
-    stars_fact: 10
-    first_seen: null
-    last_push: "2026-04-09"
-  - name: "hotkey-listener"
-    title: "hotkey-listener"
-    description: "Cross-platform global hotkey listener with native Wayland support"
-    language: "Rust"
-    topics: []
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-02-09"
+repos: []
 ---
 
 # martintrojer
 
-113 pushes across 13 repositories on 28 active days in the last 90 days of public GitHub push activity.
+123 pushes across 17 repositories on 29 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/martintrojer

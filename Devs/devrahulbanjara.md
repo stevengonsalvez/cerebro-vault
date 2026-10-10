@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-07T15:16:07.319356+00:00"
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "e5b23adc376a62a9"
-pushes_per_week: [0, 1, 0, 0, 1, 2, 0, 0, 0, 0, 3, 3, 1]
+pushes_per_week: [0, 1, 0, 1, 0, 2, 0, 0, 0, 0, 6, 1, 0]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -77,6 +77,14 @@ reasons:
   - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "RAG-eval"
+    title: "RAG-eval"
+    description: "A simple RAG application built to be evaluated, catching hallucinations that sounds confident by scoring the retriever, generator, and pipeline separately with DeepEval."
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-02"
   - name: "Agentic-RAG"
     title: "Agentic-RAG"
     description: "A research assistant that lets you ask deep technical questions across thousands of arXiv papers and get precise, fully-cited answers — with the right figures and tables surfaced alongside, and a built-in evaluation layer that proves it actually works."
@@ -101,14 +109,6 @@ repos:
     stars_fact: 1
     first_seen: null
     last_push: "2026-08-08"
-  - name: "RAG-eval"
-    title: "RAG-eval"
-    description: "A simple RAG application built to be evaluated, catching hallucinations that sounds confident by scoring the retriever, generator, and pipeline separately with DeepEval."
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-26"
   - name: "claude-code-built-from-scratch"
     title: "claude-code-built-from-scratch"
     description: "claude subscription is expensive! why not build my own ?"

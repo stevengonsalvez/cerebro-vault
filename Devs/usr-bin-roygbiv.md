@@ -8,11 +8,11 @@ provenance_repos:
   - "can1357/oh-my-pi"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+repos_populated: false
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [1, 121, 144, 73, 33, 12, 0, 1, 0, 0, 0, 0, 0]
+pushes_per_week: [4, 166, 162, 16, 35, 1, 1, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,31 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 28 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "blackwell-17p-benchmark"
-    title: "blackwell-17p-benchmark"
-    description: "Exact replication code, Triton JIT kernels, and instructions for the 17.68 Quadrillion tok/s benchmark on NVIDIA RTX 5090 Blackwell"
-    language: "Python"
-    topics: []
-    stars_fact: 4
-    first_seen: null
-    last_push: "2026-09-04"
-  - name: "omp-cmux"
-    title: "omp-cmux"
-    description: "Typed cmux integration, bounded observability and engineering operations, and minimal session timing telemetry"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-26"
-  - name: "rmux"
-    title: "rmux"
-    description: "Open source Ghostty-based macOS terminal with vertical tabs and notifications for AI coding agents. Built for multitasking, organization, and programmability."
-    language: "Swift"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-13"
+repos: []
 ---
 
 # usr-bin-roygbiv

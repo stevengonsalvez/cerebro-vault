@@ -9,13 +9,13 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "97c4e9cb8b163ddb"
   - "c7515e0fa4368a55"
   - "d3abe74726b22711"
   - "e7c647c4d0689526"
-pushes_per_week: [15, 3, 8, 4, 0, 0, 0, 0, 0, 0, 5, 0, 3]
+pushes_per_week: [18, 0, 12, 0, 0, 0, 0, 0, 0, 2, 3, 2, 1]
 windows:
   "7d":
     pushes: 3
@@ -80,6 +80,14 @@ reasons:
   - "activity: 14 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "dotfiles"
+    title: "dotfiles"
+    description: "Dan's dotfiles, deployed with GNU Stow"
+    language: "Shell"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-07"
   - name: "go-bandits-tutorial"
     title: "go-bandits-tutorial"
     description: null
@@ -87,7 +95,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-30"
+    last_push: "2026-10-03"
   - name: "learning-papers"
     title: "learning-papers"
     description: "Landmark Papers in Machine Learning"
@@ -95,7 +103,7 @@ repos:
     topics:
       - "machine-learning"
       - "papers"
-    stars_fact: 725
+    stars_fact: 726
     first_seen: null
     last_push: "2026-07-08"
   - name: "dt31"
@@ -122,14 +130,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-08-01"
-  - name: "llm-tools-rag"
-    title: "llm-tools-rag"
-    description: "Plugin for basic RAG functionality with the LLM tool"
-    language: "Python"
-    topics: []
-    stars_fact: 17
-    first_seen: null
-    last_push: "2025-10-22"
 ---
 
 # daturkel

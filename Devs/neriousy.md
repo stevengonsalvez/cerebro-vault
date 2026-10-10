@@ -8,16 +8,16 @@ provenance_repos:
   - "anomalyco/opencode"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+repos_populated: false
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [0, 0, 1, 2, 4, 1, 1, 0, 0, 1, 1, 0, 4]
+pushes_per_week: [0, 0, 2, 1, 4, 1, 1, 0, 0, 1, 1, 3, 1]
 windows:
   "7d":
-    pushes: 4
+    pushes: 2
     distinct_repos: 2
-    active_days: 3
+    active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 4
+    pushes: 2
     distinct_repos: 2
-    pushes_per_repo: 2.0000
-    active_days: 3
+    pushes_per_repo: 1.0000
+    active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -76,60 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 12 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "aevum"
-    title: "aevum"
-    description: "Private, local voice-to-text for Windows"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-08-11"
-  - name: "opencode-browser"
-    title: "opencode-browser"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 29
-    first_seen: null
-    last_push: "2026-08-01"
-  - name: "opencode-chatgpt-websearch"
-    title: "opencode-chatgpt-websearch"
-    description: "Experimental OpenCode2 web search provider using ChatGPT OAuth"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 11
-    first_seen: null
-    last_push: "2026-08-08"
-  - name: "opentui-math"
-    title: "opentui-math"
-    description: "Beautiful LaTeX math rendering for OpenTUI"
-    language: "TypeScript"
-    topics:
-      - "latex"
-      - "math"
-      - "opentui"
-      - "terminal"
-      - "tui"
-    stars_fact: 8
-    first_seen: null
-    last_push: "2026-07-30"
-  - name: "compact-plugin"
-    title: "compact-plugin"
-    description: "Agent-callable session inspection and compaction tools for OpenCode V2."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-17"
-  - name: "opentui-browser"
-    title: "opentui-browser"
-    description: "A Chromium browser surface for OpenTUI using the Kitty graphics protocol"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 7
-    first_seen: null
-    last_push: "2026-08-01"
+repos: []
 ---
 
 # neriousy

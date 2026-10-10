@@ -9,18 +9,18 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "379642deb53f3714"
-pushes_per_week: [0, 0, 0, 3, 4, 1, 0, 0, 0, 1, 1, 3, 4]
+pushes_per_week: [0, 0, 0, 4, 3, 1, 0, 0, 0, 1, 1, 7, 0]
 windows:
   "7d":
-    pushes: 4
-    distinct_repos: 4
-    active_days: 1
-    repos_not_owned: 2
-    not_owned_basenames: 2
-    not_owned_owners: 2
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
     pushes: 9
     distinct_repos: 7
@@ -49,13 +49,13 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 4
-    distinct_repos: 4
-    pushes_per_repo: 1.0000
-    active_days: 1
-    repos_not_owned: 2
-    not_owned_basenames: 2
-    not_owned_owners: 2
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
     pushes: 9
     distinct_repos: 7
@@ -82,9 +82,9 @@ repos:
     description: "A Chrome Extension that allows developers to inspect, monitor, and execute WebMCP tools manually or with Gemini."
     language: "JavaScript"
     topics: []
-    stars_fact: 124
+    stars_fact: 126
     first_seen: null
-    last_push: "2026-09-29"
+    last_push: "2026-10-02"
   - name: "webgpu-cross-platform-app"
     title: "webgpu-cross-platform-app"
     description: "WebGPU cross-platform app with CMake/Emscripten"
@@ -94,9 +94,25 @@ repos:
       - "dawn"
       - "emscripten"
       - "webgpu"
-    stars_fact: 208
+    stars_fact: 210
     first_seen: null
     last_push: "2026-02-10"
+  - name: "cog-chrome-app"
+    title: "cog-chrome-app"
+    description: "Cog Chrome App"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 154
+    first_seen: null
+    last_push: "2018-06-19"
+  - name: "what-is-this-chrome-extension"
+    title: "what-is-this-chrome-extension"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2025-03-31"
   - name: "extensions-update-notifier-chrome-extension"
     title: "extensions-update-notifier-chrome-extension"
     description: "Extensions Update Notifier Chrome Extension"
@@ -113,26 +129,6 @@ repos:
     stars_fact: 4
     first_seen: null
     last_push: "2014-11-20"
-  - name: "sandbox"
-    title: "sandbox"
-    description: ":baby_chick:"
-    language: "HTML"
-    topics:
-      - "image-capture"
-      - "media-capabilities"
-      - "media-session-api"
-      - "web-bluetooth"
-    stars_fact: 82
-    first_seen: null
-    last_push: "2026-08-07"
-  - name: "beaufortfrancois"
-    title: "beaufortfrancois"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 4
-    first_seen: null
-    last_push: "2020-07-17"
 ---
 
 # beaufortfrancois

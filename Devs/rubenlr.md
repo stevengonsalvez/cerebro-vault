@@ -8,11 +8,11 @@ provenance_repos:
   - "akitaonrails/ai-memory"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+repos_populated: false
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "4138778ebbc75ba6"
-pushes_per_week: [2, 0, 0, 2, 0, 0, 2, 0, 0, 1, 7, 3, 0]
+pushes_per_week: [2, 0, 2, 0, 0, 0, 2, 0, 1, 1, 8, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,55 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 11 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "workpot"
-    title: "workpot"
-    description: "Assist engineers that need to switch across multiple repositories every day"
-    language: "Rust"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-02"
-  - name: "homebrew-workpot"
-    title: "homebrew-workpot"
-    description: "homebrew tap for workpot"
-    language: "Ruby"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-01"
-  - name: "chezmoi-dotfiles"
-    title: "chezmoi-dotfiles"
-    description: null
-    language: "Shell"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-05-01"
-  - name: "finance-tracker-widget"
-    title: "finance-tracker-widget"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-01-09"
-  - name: "android"
-    title: "android"
-    description: "Tests on android"
-    language: "Kotlin"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2025-01-27"
-  - name: "face-encoding-test-task"
-    title: "face-encoding-test-task"
-    description: "Test project using face encoding from Verrif"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2024-11-03"
+repos: []
 ---
 
 # rubenlr

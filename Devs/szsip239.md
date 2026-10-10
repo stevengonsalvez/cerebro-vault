@@ -8,37 +8,37 @@ provenance_repos:
   - "akitaonrails/ai-memory"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+repos_populated: false
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "4138778ebbc75ba6"
-pushes_per_week: [2, 3, 0, 0, 0, 0, 1, 0, 1, 2, 2, 2, 0]
+pushes_per_week: [3, 2, 0, 0, 0, 0, 1, 0, 1, 4, 1, 1, 1]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 6
+    pushes: 7
     distinct_repos: 3
-    active_days: 6
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 13
+    pushes: 14
     distinct_repos: 5
-    active_days: 12
+    active_days: 13
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.0833
-  repo_per_active_day: 0.4167
+  push_per_day: 1.0769
+  repo_per_active_day: 0.3846
   not_owned_ratio: 0.0000
   basename_concentration: 0.2000
   shapes: []
@@ -49,92 +49,38 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
+    pushes: 1
+    distinct_repos: 1
+    pushes_per_repo: 1.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 6
+    pushes: 7
     distinct_repos: 3
-    pushes_per_repo: 2.0000
-    active_days: 6
+    pushes_per_repo: 2.3333
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 13
+    pushes: 14
     distinct_repos: 5
-    pushes_per_repo: 2.6000
-    active_days: 12
+    pushes_per_repo: 2.8000
+    active_days: 13
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 12 active days in 90d — pass"
+  - "activity: 13 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "Daily-AGI-Radar"
-    title: "Daily-AGI-Radar"
-    description: "Public AI signal library and CLI for agents 每日github trend热门项目/way2agi博客文章/ai新闻/skillhub.cn热门skills数据库，供agent（使用cli）或者人类（使用飞书知识库）使用，欢迎提交你推荐的github项目（agent知道怎么提交）。仓库每日更新完成时间约在凌晨1点。欢迎使用agi-radar submit命令提交你希望入库的github项目或者skills"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 5
-    first_seen: null
-    last_push: "2026-10-02"
-  - name: "teamclaw"
-    title: "teamclaw"
-    description: "TeamClaw 是面向企业内部 AI Agent 落地的 operations control plane。它把运行时实例、Agent、Skills、模型资源、知识库、权限、审计和对话体验收口到一个多租户平台里，让团队可以在同一套界面里管理多个实例、多个部门、多个 Agent 和多个 runtime。"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 113
-    first_seen: null
-    last_push: "2026-08-17"
-  - name: "ai4s"
-    title: "ai4s"
-    description: "为企业员工提供统一、安全、可治理的 LLM API 出口：聚合多渠道上游；请求经内容级 DLP 脱敏/阻断与智能路由；员工 Key 审批签发、按档限额、全程可审计。"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-09-24"
-  - name: "Comic-skill"
-    title: "Comic-skill"
-    description: "小镜 · 彩色手绘中文正文配图 skill（Claude + Codex 双兼容）"
-    language: "Shell"
-    topics: []
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-06-14"
-  - name: "sns-galaxy"
-    title: "sns-galaxy"
-    description: "Local-first WeChat Moments reports, media cache, relationship graph, and galaxy visualization"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-04"
-  - name: "peter-zhou"
-    title: "peter-zhou"
-    description: "Peter Zhou: 周伯通和 Peter Pan 的合体，一个面向学生的超级老师综合 skill"
-    language: "Python"
-    topics:
-      - "agent-skills"
-      - "computer-vision"
-      - "education"
-      - "k12"
-      - "mistake-learning"
-      - "python"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-08-31"
+repos: []
 ---
 
 # szsip239
 
-13 pushes across 5 repositories on 12 active days in the last 90 days of public GitHub push activity.
+14 pushes across 5 repositories on 13 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/szsip239

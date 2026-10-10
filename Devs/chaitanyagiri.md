@@ -10,36 +10,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "e5b23adc376a62a9"
-pushes_per_week: [0, 0, 0, 3, 6, 2, 1, 0, 1, 1, 0, 3, 7]
+pushes_per_week: [0, 0, 1, 2, 6, 2, 1, 0, 1, 1, 2, 3, 6]
 windows:
   "7d":
-    pushes: 7
+    pushes: 6
     distinct_repos: 1
     active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 11
+    pushes: 12
     distinct_repos: 2
-    active_days: 6
+    active_days: 7
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 24
+    pushes: 25
     distinct_repos: 2
-    active_days: 13
+    active_days: 14
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.8462
-  repo_per_active_day: 0.1538
+  push_per_day: 1.7857
+  repo_per_active_day: 0.1429
   not_owned_ratio: 0.5000
   basename_concentration: 1.0000
   shapes: []
@@ -50,60 +50,34 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 7
+    pushes: 6
     distinct_repos: 1
-    pushes_per_repo: 7.0000
+    pushes_per_repo: 6.0000
     active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 11
+    pushes: 12
     distinct_repos: 2
-    pushes_per_repo: 5.5000
-    active_days: 6
+    pushes_per_repo: 6.0000
+    active_days: 7
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 24
+    pushes: 25
     distinct_repos: 2
-    pushes_per_repo: 12.0000
-    active_days: 13
+    pushes_per_repo: 12.5000
+    active_days: 14
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 13 active days in 90d — pass"
+  - "activity: 14 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "munder-difflin"
-    title: "munder-difflin"
-    description: "A local multi-agent harness that works with your existing Claude Code, Codex subscriptions, allows you to run an office of agents"
-    language: "TypeScript"
-    topics:
-      - "agent-orchestration"
-      - "agents"
-      - "ai-agents"
-      - "autonomous-agents"
-      - "claude-code"
-      - "codex"
-      - "desktop-app"
-      - "electron"
-      - "free"
-      - "gemini-cli"
-      - "harness"
-      - "harness-engineering"
-      - "local-first"
-      - "memory"
-      - "multi-agent"
-      - "opencode"
-      - "orchestration"
-      - "typescript"
-    stars_fact: 8216
-    first_seen: "2026-08-19T06:00:14.371566+00:00"
-    last_push: "2026-10-01"
   - name: "higgsfieldautomation"
     title: "higgsfieldautomation"
     description: null
@@ -147,10 +121,18 @@ repos:
     stars_fact: 46
     first_seen: null
     last_push: "2022-01-10"
+  - name: "theRxAssignment"
+    title: "theRxAssignment"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-03-09"
 ---
 
 # chaitanyagiri
 
-24 pushes across 2 repositories on 13 active days in the last 90 days of public GitHub push activity.
+25 pushes across 2 repositories on 14 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/chaitanyagiri

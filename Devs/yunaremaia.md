@@ -10,39 +10,39 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "4d1450729e6ff44d"
   - "dae9f02535f7c22f"
-pushes_per_week: [1, 0, 2, 8, 14, 6, 2, 0, 2, 17, 50, 57, 60]
+pushes_per_week: [0, 0, 2, 11, 16, 1, 2, 0, 10, 39, 47, 54, 43]
 windows:
   "7d":
-    pushes: 85
-    distinct_repos: 35
+    pushes: 59
+    distinct_repos: 27
     active_days: 5
-    repos_not_owned: 4
-    not_owned_basenames: 4
-    not_owned_owners: 4
+    repos_not_owned: 3
+    not_owned_basenames: 3
+    not_owned_owners: 3
   "30d":
-    pushes: 184
+    pushes: 191
     distinct_repos: 44
-    active_days: 19
+    active_days: 21
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 5
   "90d":
-    pushes: 219
-    distinct_repos: 63
-    active_days: 37
+    pushes: 225
+    distinct_repos: 62
+    active_days: 38
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 5
 automation:
   state: "clear"
-  push_per_day: 5.9189
-  repo_per_active_day: 1.7027
-  not_owned_ratio: 0.0794
-  basename_concentration: 0.0317
+  push_per_day: 5.9211
+  repo_per_active_day: 1.6316
+  not_owned_ratio: 0.0806
+  basename_concentration: 0.0323
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -51,110 +51,34 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 85
-    distinct_repos: 35
-    pushes_per_repo: 2.4286
+    pushes: 59
+    distinct_repos: 27
+    pushes_per_repo: 2.1852
     active_days: 5
-    repos_not_owned: 4
-    not_owned_basenames: 4
-    not_owned_owners: 4
+    repos_not_owned: 3
+    not_owned_basenames: 3
+    not_owned_owners: 3
   "30d":
-    pushes: 184
+    pushes: 191
     distinct_repos: 44
-    pushes_per_repo: 4.1818
-    active_days: 19
+    pushes_per_repo: 4.3409
+    active_days: 21
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 5
   "90d":
-    pushes: 219
-    distinct_repos: 63
-    pushes_per_repo: 3.4762
-    active_days: 37
+    pushes: 225
+    distinct_repos: 62
+    pushes_per_repo: 3.6290
+    active_days: 38
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 5
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 37 active days in 90d — pass"
+  - "activity: 38 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "agentcost"
-    title: "agentcost"
-    description: "Token usage tracker for multi-agent AI sessions"
-    language: "Python"
-    topics:
-      - "ai-agents"
-      - "budget"
-      - "cli"
-      - "cost-optimization"
-      - "cost-tracking"
-      - "finops"
-      - "llm"
-      - "llmops"
-      - "multi-agent"
-      - "observability"
-      - "python"
-      - "token-usage"
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-10-03"
-  - name: "agent-session-logger"
-    title: "agent-session-logger"
-    description: "CLI that records, indexes, and searches AI agent sessions (Claude Code, Codex, Cursor) — so past solutions stay findable."
-    language: "Python"
-    topics:
-      - "agent-memory"
-      - "ai-agents"
-      - "cli"
-      - "context-management"
-      - "conversation-log"
-      - "developer-tools"
-      - "observability"
-      - "python"
-      - "search"
-      - "session-log"
-      - "session-management"
-      - "sqlite"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-03"
-  - name: "gfi"
-    title: "gfi"
-    description: "Find beginner-friendly GitHub issues, with trending and feed views and a gh CLI extension"
-    language: "Python"
-    topics:
-      - "beginner-friendly"
-      - "cli"
-      - "contributions"
-      - "first-timers-only"
-      - "github"
-      - "good-first-issue"
-      - "good-first-issue-finder"
-      - "hacktoberfest"
-      - "newcomer"
-      - "open-source"
-      - "opensource-contributions"
-      - "python"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-03"
-  - name: "git-api"
-    title: "git-api"
-    description: "Git-native API REPL - persist requests as JSON in your repo"
-    language: "Python"
-    topics:
-      - "api"
-      - "developer-tools"
-      - "git"
-      - "github"
-      - "python"
-      - "repl"
-      - "shell"
-      - "version-control"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-03"
   - name: "driftcheck"
     title: "driftcheck"
     description: "Detect version drift between docs and toolchain files (README vs rust-toolchain.toml etc.)"
@@ -182,33 +106,118 @@ repos:
       - "version-drift"
     stars_fact: 3
     first_seen: null
-    last_push: "2026-10-03"
-  - name: "mcp-guard"
-    title: "mcp-guard"
-    description: "Security scanner for MCP servers — audit capabilities, detect risks, generate SARIF reports"
+    last_push: "2026-10-10"
+  - name: "agentcost"
+    title: "agentcost"
+    description: "Token usage tracker for multi-agent AI sessions"
+    language: "Python"
+    topics:
+      - "ai-agents"
+      - "budget"
+      - "cli"
+      - "cost-optimization"
+      - "cost-tracking"
+      - "finops"
+      - "github-actions"
+      - "llm"
+      - "llmops"
+      - "multi-agent"
+      - "observability"
+      - "pre-commit"
+      - "python"
+      - "token-usage"
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-10-09"
+  - name: "agent-guard"
+    title: "agent-guard"
+    description: "Policy-as-code for AI agent permissions. Define bounded permissions in YAML, enforce at runtime."
     language: "Python"
     topics:
       - "agent-security"
-      - "code-scanning"
+      - "ai-agents"
+      - "authorization"
+      - "cli"
       - "devsecops"
-      - "mcp"
-      - "model-context-protocol"
+      - "guardrails"
+      - "least-privilege"
+      - "permissions"
+      - "policy-as-code"
       - "python"
-      - "sarif"
-      - "sast"
-      - "scanner"
+      - "rbac"
       - "security"
-      - "security-tools"
-      - "static-analysis"
+      - "yaml"
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-10-09"
+  - name: "taintrace"
+    title: "taintrace"
+    description: "Typosquat detector for AI coding agent dependencies"
+    language: "Python"
+    topics:
+      - "ai-agents"
+      - "cargo"
+      - "cli"
+      - "github-actions"
+      - "llm-security"
+      - "lockfile"
+      - "npm"
+      - "package-security"
+      - "pypi"
+      - "python"
+      - "rust"
+      - "sarif"
+      - "security"
       - "supply-chain"
       - "supply-chain-security"
+      - "typosquat-detection"
+      - "typosquatting"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-09"
+  - name: "memwatch"
+    title: "memwatch"
+    description: "Agent Memory Health Monitor — scan AI agent memory stores for rot, contradictions, and duplicates"
+    language: "Python"
+    topics:
+      - "agent-memory"
+      - "ai-agents"
+      - "cli"
+      - "debugging"
+      - "llmops"
+      - "memory"
+      - "memory-management"
+      - "monitoring"
+      - "observability"
+      - "python"
+      - "vector-database"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-09"
+  - name: "agent-undo"
+    title: "agent-undo"
+    description: "Record and rollback AI agent operations — file writes, shell commands, git ops, API calls. Time-machine for AI agent actions."
+    language: "Python"
+    topics:
+      - "ai-agents"
+      - "cli"
+      - "developer-tools"
+      - "git"
+      - "observability"
+      - "python"
+      - "recovery"
+      - "rollback"
+      - "safety"
+      - "sqlite"
+      - "tooling"
+      - "undo"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-03"
+    last_push: "2026-10-09"
 ---
 
 # yunaremaia
 
-219 pushes across 63 repositories on 37 active days in the last 90 days of public GitHub push activity.
+225 pushes across 62 repositories on 38 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/yunaremaia

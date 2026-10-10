@@ -10,37 +10,37 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "16389f32495280ea"
   - "4d1450729e6ff44d"
-pushes_per_week: [7, 2, 4, 1, 7, 6, 1, 1, 4, 10, 9, 8, 3]
+pushes_per_week: [5, 2, 4, 4, 8, 2, 1, 1, 6, 11, 9, 7, 1]
 windows:
   "7d":
-    pushes: 3
+    pushes: 2
     distinct_repos: 2
-    active_days: 3
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 32
-    distinct_repos: 14
-    active_days: 17
+    pushes: 30
+    distinct_repos: 13
+    active_days: 16
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 63
+    pushes: 61
     distinct_repos: 20
-    active_days: 35
+    active_days: 34
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.8000
-  repo_per_active_day: 0.5714
+  push_per_day: 1.7941
+  repo_per_active_day: 0.5882
   not_owned_ratio: 0.0000
   basename_concentration: 0.0500
   shapes: []
@@ -51,34 +51,64 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 3
+    pushes: 2
     distinct_repos: 2
-    pushes_per_repo: 1.5000
-    active_days: 3
+    pushes_per_repo: 1.0000
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 32
-    distinct_repos: 14
-    pushes_per_repo: 2.2857
-    active_days: 17
+    pushes: 30
+    distinct_repos: 13
+    pushes_per_repo: 2.3077
+    active_days: 16
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 63
+    pushes: 61
     distinct_repos: 20
-    pushes_per_repo: 3.1500
-    active_days: 35
+    pushes_per_repo: 3.0500
+    active_days: 34
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 35 active days in 90d — pass"
+  - "activity: 34 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "YuBlog"
+    title: "YuBlog"
+    description: "梧桐雨的个人站点：Astro 7 静态生成，黑白主题｜My Personal Astro Blog"
+    language: "JavaScript"
+    topics:
+      - "astro"
+      - "blog"
+      - "minimalist"
+    stars_fact: 47
+    first_seen: null
+    last_push: "2026-10-09"
+  - name: "wutongyuonce"
+    title: "wutongyuonce"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-09"
+  - name: "pi-deep-dive"
+    title: "pi-deep-dive"
+    description: null
+    language: "TypeScript"
+    topics:
+      - "agent"
+      - "pi"
+      - "tutorial"
+    stars_fact: 14
+    first_seen: null
+    last_push: "2026-07-25"
   - name: "pi-zen-mode"
     title: "pi-zen-mode"
     description: "Distraction-free focus mode for Pi — nothing while it runs, only the final answer when it's done. 运行中只显示转圈,结束后只留答案。"
@@ -88,36 +118,9 @@ repos:
       - "pi-agent"
       - "pi-extension"
       - "tui"
-    stars_fact: 12
+    stars_fact: 13
     first_seen: null
     last_push: "2026-09-14"
-  - name: "YuBlog"
-    title: "YuBlog"
-    description: "梧桐雨的个人站点：Astro 5 静态生成，黑白主题｜My Personal Astro Blog"
-    language: "Astro"
-    topics:
-      - "astro"
-      - "blog"
-      - "minimalist"
-    stars_fact: 46
-    first_seen: null
-    last_push: "2026-09-30"
-  - name: "wutongyuonce"
-    title: "wutongyuonce"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-30"
-  - name: "video2article"
-    title: "video2article"
-    description: "把视频/播客重写成「阅读版本」文章的 Agent Skill：YouTube 字幕、小宇宙官方逐字稿、本地 ASR"
-    language: "Python"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-30"
   - name: "skills"
     title: "skills"
     description: "我的个人 AI Agent Skills 集合，覆盖开发、设计、研究"
@@ -126,19 +129,22 @@ repos:
       - "skills"
     stars_fact: 2
     first_seen: null
-    last_push: "2026-09-30"
-  - name: "Trajex"
-    title: "Trajex"
-    description: "数万行散落的 Claude Code、Codex 与 Pi JSONL 会话，索引至同一个 SQLite 中： Agent 可通过 CLI 实现毫秒级查询，用户可通过 App 直观浏览｜Past Claude Code, Codex, Pi sessions -- queryable by your agent, browsable by you"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 139
+    last_push: "2026-10-08"
+  - name: "Pai"
+    title: "Pai"
+    description: "用 Python 从零搭建一个完整的 AI 编程助手系统：统一 LLM 调用 + Agent 编排内核 + 飞书 IM 桥接"
+    language: "Python"
+    topics:
+      - "agent"
+      - "feishu"
+      - "python"
+    stars_fact: 64
     first_seen: null
-    last_push: "2026-09-29"
+    last_push: "2026-09-25"
 ---
 
 # wutongyuonce
 
-63 pushes across 20 repositories on 35 active days in the last 90 days of public GitHub push activity.
+61 pushes across 20 repositories on 34 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/wutongyuonce

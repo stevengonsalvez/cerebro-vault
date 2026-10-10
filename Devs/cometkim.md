@@ -9,22 +9,22 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "c489e6fb5febf2ab"
-pushes_per_week: [1, 6, 13, 0, 3, 0, 8, 0, 4, 7, 0, 2, 1]
+pushes_per_week: [1, 13, 6, 0, 3, 3, 5, 0, 4, 7, 0, 3, 0]
 windows:
   "7d":
-    pushes: 3
-    distinct_repos: 1
-    active_days: 2
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 11
+    pushes: 10
     distinct_repos: 2
-    active_days: 6
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,18 +49,18 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 3
-    distinct_repos: 1
-    pushes_per_repo: 3.0000
-    active_days: 2
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 11
+    pushes: 10
     distinct_repos: 2
-    pushes_per_repo: 5.5000
-    active_days: 6
+    pushes_per_repo: 5.0000
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -77,6 +77,19 @@ reasons:
   - "activity: 21 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "rescript-vitest"
+    title: "rescript-vitest"
+    description: "ReScript bindings to Vitest"
+    language: "ReScript"
+    topics:
+      - "rescript"
+      - "rescript-bindings"
+      - "testing"
+      - "vite"
+      - "vitest"
+    stars_fact: 54
+    first_seen: null
+    last_push: "2026-10-06"
   - name: "asdf-bun"
     title: "asdf-bun"
     description: "asdf-vm plugin for installing Bun"
@@ -113,7 +126,7 @@ repos:
       - "rust-cli"
     stars_fact: 39
     first_seen: null
-    last_push: "2026-09-20"
+    last_push: "2026-10-09"
   - name: "cc-monitor-worker"
     title: "cc-monitor-worker"
     description: "Claude Code monitoring with Cloudflare Workers & Workers Analytics Engine"
@@ -136,19 +149,6 @@ repos:
     stars_fact: 18
     first_seen: null
     last_push: "2026-09-04"
-  - name: "gatsby-plugin-linaria"
-    title: "gatsby-plugin-linaria"
-    description: "Gatsby plugin for styling with Linaria"
-    language: "TypeScript"
-    topics:
-      - "css-in-js"
-      - "gatsby"
-      - "gatsby-plugin"
-      - "linaria"
-      - "react"
-    stars_fact: 59
-    first_seen: null
-    last_push: "2026-10-01"
 ---
 
 # cometkim

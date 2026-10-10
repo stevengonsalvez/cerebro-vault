@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "541318303a272608"
-pushes_per_week: [1, 0, 6, 4, 7, 1, 0, 0, 1, 1, 0, 0, 0]
+pushes_per_week: [1, 0, 7, 3, 8, 0, 0, 1, 0, 1, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,6 +77,14 @@ reasons:
   - "activity: 14 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "video-analysis-gen"
+    title: "video-analysis-gen"
+    description: "from livebarn to tape review videos, with clicks of button"
+    language: "Python"
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-10-06"
   - name: "coding-knight"
     title: "coding-knight"
     description: "coding quests designed by agents"
@@ -85,14 +93,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-09-11"
-  - name: "video-analysis-gen"
-    title: "video-analysis-gen"
-    description: "from livebarn to tape review videos, with clicks of button"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 3
-    first_seen: null
-    last_push: "2025-07-13"
   - name: "FED"
     title: "FED"
     description: "Fast and Efficient Dataset Deduplication Framework; with updates and utils"

@@ -8,11 +8,11 @@ provenance_repos:
   - "chaitanyagiri/munder-difflin"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-07T15:16:07.319356+00:00"
+repos_populated: false
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "e5b23adc376a62a9"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 1, 0, 4]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 1, 1, 3]
 windows:
   "7d":
     pushes: 4
@@ -76,89 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "lang-keeper"
-    title: "lang-keeper"
-    description: "Keeps Claude Code's replies and progress notes in the language you write in"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-04"
-  - name: "session-bridge"
-    title: "session-bridge"
-    description: "Talk to your Claude Code sessions from other sessions, your voice, or any local program. Meetings between two sessions, and a talk button."
-    language: "TypeScript"
-    topics:
-      - "claude"
-      - "claude-code"
-      - "claude-code-mod"
-      - "claude-code-plugin"
-      - "multi-agent"
-      - "voice-assistant"
-      - "windows"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-04"
-  - name: "claude-desk"
-    title: "claude-desk"
-    description: "Say ヘイ、クロード to talk to your Claude Code sessions, plus a wallpaper that shows them (Windows, Japanese)"
-    language: "Python"
-    topics:
-      - "claude"
-      - "claude-code"
-      - "voice-assistant"
-      - "voicevox"
-      - "vosk"
-      - "wake-word"
-      - "wallpaper-engine"
-      - "windows"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-04"
-  - name: "session-dash"
-    title: "session-dash"
-    description: "Claude Code mod: usage limits above the prompt, background work and every open session in a pane"
-    language: "TypeScript"
-    topics:
-      - "claude"
-      - "claude-code"
-      - "claude-code-mod"
-      - "claude-code-plugin"
-      - "statusline"
-      - "usage-limits"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-04"
-  - name: "homedot-panel"
-    title: "homedot-panel"
-    description: "homedot agents and your 5-hour limit in Claude Code's status line, plus a /dots pane."
-    language: "TypeScript"
-    topics:
-      - "claude"
-      - "claude-code"
-      - "claude-code-mod"
-      - "claude-code-plugin"
-      - "statusline"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-03"
-  - name: "homedot"
-    title: "homedot"
-    description: "A Dots-style personal agent on Claude Code that runs on your own Windows PC, in a WSL2 VM of its own, and asks before anything leaves the PC."
-    language: "Python"
-    topics:
-      - "agent-safety"
-      - "ai-agent"
-      - "claude"
-      - "claude-code"
-      - "personal-assistant"
-      - "windows"
-      - "wsl2"
-      - "zoom-bot"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-03"
+repos: []
 ---
 
 # tsurutanmen

@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "4138778ebbc75ba6"
-pushes_per_week: [8, 6, 6, 2, 0, 0, 0, 0, 0, 1, 6, 8, 2]
+pushes_per_week: [11, 5, 6, 0, 0, 0, 0, 0, 0, 4, 3, 8, 2]
 windows:
   "7d":
-    pushes: 3
-    distinct_repos: 2
-    active_days: 2
+    pushes: 2
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 3
-    distinct_repos: 2
-    pushes_per_repo: 1.5000
-    active_days: 2
+    pushes: 2
+    distinct_repos: 1
+    pushes_per_repo: 2.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -77,21 +77,16 @@ reasons:
   - "activity: 18 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "nebula"
-    title: "nebula"
-    description: "Native Qt Quick workspace for terminal AI agents (Claude Code, Codex, opencode...) with a built-in operator"
-    language: "C++"
+  - name: "enrell"
+    title: "enrell"
+    description: "Config files for my GitHub profile."
+    language: null
     topics:
-      - "ai-agents"
-      - "claude-code"
-      - "codex"
-      - "omarchy"
-      - "qml"
-      - "qt6"
-      - "terminal"
+      - "config"
+      - "github-config"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-01"
+    last_push: "2026-10-06"
   - name: "lain"
     title: "lain"
     description: "Local-first media server in Go: replaceable plugins over a tiny core, embedded SPA, direct-play streaming, metadata enrichment and ffmpeg thumbnails."
@@ -107,7 +102,22 @@ repos:
       - "svelte"
     stars_fact: 1
     first_seen: null
-    last_push: "2026-10-01"
+    last_push: "2026-10-05"
+  - name: "nebula"
+    title: "nebula"
+    description: "Native Qt Quick workspace for terminal AI agents (Claude Code, Codex, opencode...) with a built-in operator"
+    language: "C++"
+    topics:
+      - "ai-agents"
+      - "claude-code"
+      - "codex"
+      - "omarchy"
+      - "qml"
+      - "qt6"
+      - "terminal"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-03"
   - name: "lain-desktop"
     title: "lain-desktop"
     description: "Native desktop client for the Lain media server - Qt 6/QML + libmpv."
@@ -139,16 +149,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-09-11"
-  - name: "enrell"
-    title: "enrell"
-    description: "Config files for my GitHub profile."
-    language: null
-    topics:
-      - "config"
-      - "github-config"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-22"
 ---
 
 # enrell

@@ -10,12 +10,12 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "16389f32495280ea"
   - "1df6ea1f1256059e"
   - "edb3a626875732de"
-pushes_per_week: [59, 3, 0, 0, 0, 2, 0, 0, 0, 0, 6, 5, 0]
+pushes_per_week: [48, 1, 0, 0, 0, 2, 0, 0, 0, 0, 9, 2, 0]
 windows:
   "7d":
     pushes: 0
@@ -32,18 +32,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 75
-    distinct_repos: 15
-    active_days: 14
+    pushes: 62
+    distinct_repos: 13
+    active_days: 11
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 5.3571
-  repo_per_active_day: 1.0714
+  push_per_day: 5.6364
+  repo_per_active_day: 1.1818
   not_owned_ratio: 0.0000
-  basename_concentration: 0.0667
+  basename_concentration: 0.0769
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -68,26 +68,18 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 75
-    distinct_repos: 15
-    pushes_per_repo: 5.0000
-    active_days: 14
+    pushes: 62
+    distinct_repos: 13
+    pushes_per_repo: 4.7692
+    active_days: 11
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 3 vault signal(s) — pass"
-  - "activity: 14 active days in 90d — pass"
+  - "activity: 11 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "jsp-lean-formalizations"
-    title: "jsp-lean-formalizations"
-    description: "Lean 4 formalizations contributed toward The Justin Sun Prize (core Lean 4, no Mathlib)"
-    language: "Lean"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-24"
   - name: "PoseMamba"
     title: "PoseMamba"
     description: "AAAI 2025 | Monocular 3D Human Pose Estimation with Bidirectional Spatio-Temporal State Space Model (Mamba/SSM)"
@@ -100,9 +92,17 @@ repos:
       - "pose-estimation"
       - "pytorch"
       - "ssm"
-    stars_fact: 111
+    stars_fact: 112
     first_seen: null
     last_push: "2026-06-26"
+  - name: "jsp-lean-formalizations"
+    title: "jsp-lean-formalizations"
+    description: "Lean 4 formalizations contributed toward The Justin Sun Prize (core Lean 4, no Mathlib)"
+    language: "Lean"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-24"
   - name: "agent-web-superpower"
     title: "agent-web-superpower"
     description: "Agent上网神器 — Give your AI agent superpowers to access the entire internet. MCP server with 7 tools: scrape, crawl, map, search, extract, interact, social read."
@@ -139,6 +139,6 @@ repos:
 
 # nankingjing
 
-75 pushes across 15 repositories on 14 active days in the last 90 days of public GitHub push activity.
+62 pushes across 13 repositories on 11 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/nankingjing

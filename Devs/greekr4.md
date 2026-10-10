@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "46f3c1d6124190bd"
-pushes_per_week: [0, 1, 0, 3, 5, 1, 0, 0, 0, 2, 2, 1, 0]
+pushes_per_week: [0, 1, 2, 1, 5, 1, 0, 0, 0, 4, 0, 1, 0]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -77,39 +77,6 @@ reasons:
   - "activity: 8 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "rever-browser"
-    title: "rever-browser"
-    description: "AI agent browser for web reverse engineering"
-    language: "TypeScript"
-    topics:
-      - "ai-agent"
-      - "api"
-      - "api-security"
-      - "browser-automation"
-      - "chrome-devtools-protocol"
-      - "deobfuscation"
-      - "devtools"
-      - "electron"
-      - "mcp"
-      - "reverse-engineering"
-      - "web-scraping"
-    stars_fact: 30
-    first_seen: null
-    last_push: "2026-10-01"
-  - name: "playwright-bot-bypass"
-    title: "playwright-bot-bypass"
-    description: "Claude Code skill to bypass bot detection (Google CAPTCHA, etc.)"
-    language: "JavaScript"
-    topics:
-      - "automation"
-      - "bot-detection"
-      - "claude-code-skill"
-      - "playwright"
-      - "stealth"
-      - "web-scraping"
-    stars_fact: 199
-    first_seen: null
-    last_push: "2026-08-27"
   - name: "viruagent-cli"
     title: "viruagent-cli"
     description: "AI agent-powered CLI for blog publishing, Naver Cafe, Instagram, X (Twitter) & Reddit automation"
@@ -134,9 +101,42 @@ repos:
       - "tistory"
       - "twitter"
       - "x-twitter"
-    stars_fact: 39
+    stars_fact: 41
     first_seen: null
     last_push: "2026-09-15"
+  - name: "playwright-bot-bypass"
+    title: "playwright-bot-bypass"
+    description: "Claude Code skill to bypass bot detection (Google CAPTCHA, etc.)"
+    language: "JavaScript"
+    topics:
+      - "automation"
+      - "bot-detection"
+      - "claude-code-skill"
+      - "playwright"
+      - "stealth"
+      - "web-scraping"
+    stars_fact: 201
+    first_seen: null
+    last_push: "2026-08-27"
+  - name: "rever-browser"
+    title: "rever-browser"
+    description: "AI agent browser for web reverse engineering"
+    language: "TypeScript"
+    topics:
+      - "ai-agent"
+      - "api"
+      - "api-security"
+      - "browser-automation"
+      - "chrome-devtools-protocol"
+      - "deobfuscation"
+      - "devtools"
+      - "electron"
+      - "mcp"
+      - "reverse-engineering"
+      - "web-scraping"
+    stars_fact: 32
+    first_seen: null
+    last_push: "2026-10-08"
   - name: "Viruagent"
     title: "Viruagent"
     description: "AI-powered Tistory blog automation from the CLI: an AI Agent handles the entire process from writing and editing to publishing."

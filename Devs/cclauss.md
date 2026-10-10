@@ -9,25 +9,25 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "c1af6b58492f9bf4"
-pushes_per_week: [13, 20, 8, 34, 6, 8, 2, 0, 16, 31, 37, 10, 4]
+pushes_per_week: [22, 11, 20, 22, 9, 5, 2, 0, 20, 34, 37, 5, 2]
 windows:
   "7d":
-    pushes: 4
-    distinct_repos: 4
-    active_days: 4
-    repos_not_owned: 3
-    not_owned_basenames: 3
-    not_owned_owners: 3
+    pushes: 3
+    distinct_repos: 3
+    active_days: 3
+    repos_not_owned: 2
+    not_owned_basenames: 2
+    not_owned_owners: 2
   "30d":
-    pushes: 90
-    distinct_repos: 57
-    active_days: 22
-    repos_not_owned: 50
-    not_owned_basenames: 10
-    not_owned_owners: 49
+    pushes: 83
+    distinct_repos: 54
+    active_days: 21
+    repos_not_owned: 48
+    not_owned_basenames: 9
+    not_owned_owners: 47
   "90d":
     pushes: 189
     distinct_repos: 77
@@ -49,21 +49,21 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 4
-    distinct_repos: 4
+    pushes: 3
+    distinct_repos: 3
     pushes_per_repo: 1.0000
-    active_days: 4
-    repos_not_owned: 3
-    not_owned_basenames: 3
-    not_owned_owners: 3
+    active_days: 3
+    repos_not_owned: 2
+    not_owned_basenames: 2
+    not_owned_owners: 2
   "30d":
-    pushes: 90
-    distinct_repos: 57
-    pushes_per_repo: 1.5789
-    active_days: 22
-    repos_not_owned: 50
-    not_owned_basenames: 10
-    not_owned_owners: 49
+    pushes: 83
+    distinct_repos: 54
+    pushes_per_repo: 1.5370
+    active_days: 21
+    repos_not_owned: 48
+    not_owned_basenames: 9
+    not_owned_owners: 47
   "90d":
     pushes: 189
     distinct_repos: 77
@@ -77,6 +77,22 @@ reasons:
   - "activity: 52 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "Personal-Digital-Assistant"
+    title: "Personal-Digital-Assistant"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 9
+    first_seen: null
+    last_push: "2026-10-08"
+  - name: "pydantic-books-example"
+    title: "pydantic-books-example"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 7
+    first_seen: null
+    last_push: "2026-10-08"
   - name: "claussoft-dominos"
     title: "claussoft-dominos"
     description: "Racehorse dominos"
@@ -87,15 +103,15 @@ repos:
       - "pyscript"
     stars_fact: 2
     first_seen: null
-    last_push: "2026-09-28"
-  - name: "GitHub-Action-for-pytest"
-    title: "GitHub-Action-for-pytest"
-    description: "A GitHub Action to run a pytest command when new code is pushed into your repo"
-    language: "Dockerfile"
+    last_push: "2026-10-08"
+  - name: "Ten-lines-or-less"
+    title: "Ten-lines-or-less"
+    description: "Python scripts that are short but useful or interesting"
+    language: "Python"
     topics: []
-    stars_fact: 58
+    stars_fact: 618
     first_seen: null
-    last_push: "2025-10-14"
+    last_push: "2026-10-08"
   - name: "itinerant-tester"
     title: "itinerant-tester"
     description: "Create GitHub Actions for running a suite of tests on other repos including the GitHub Trending Python repos"
@@ -106,31 +122,15 @@ repos:
       - "python"
     stars_fact: 43
     first_seen: null
-    last_push: "2026-09-17"
-  - name: "Pythonista-and-Working-Copy"
-    title: "Pythonista-and-Working-Copy"
-    description: "Allow Pythonista to download a git file, folder, or repo from the Working Copy app"
-    language: "Python"
+    last_push: "2026-10-02"
+  - name: "GitHub-web-plus-app-workflow"
+    title: "GitHub-web-plus-app-workflow"
+    description: "My GitHub workflow for working on other people's repos"
+    language: null
     topics: []
-    stars_fact: 131
+    stars_fact: 4
     first_seen: null
-    last_push: "2020-04-06"
-  - name: "pythonista-module-versions"
-    title: "pythonista-module-versions"
-    description: "Compare the version numbers of extra modules in Pythonista with PyPI"
-    language: "Python"
-    topics: []
-    stars_fact: 48
-    first_seen: null
-    last_push: "2026-09-30"
-  - name: "Ten-lines-or-less"
-    title: "Ten-lines-or-less"
-    description: "Python scripts that are short but useful or interesting"
-    language: "Python"
-    topics: []
-    stars_fact: 618
-    first_seen: null
-    last_push: "2026-09-07"
+    last_push: "2017-03-05"
 ---
 
 # cclauss

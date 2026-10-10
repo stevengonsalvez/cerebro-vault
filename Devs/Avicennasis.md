@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [9, 4, 6, 4, 3, 6, 7, 0, 3, 15, 15, 11, 13]
+pushes_per_week: [7, 5, 7, 3, 8, 7, 0, 0, 3, 22, 11, 12, 12]
 windows:
   "7d":
     pushes: 13
-    distinct_repos: 7
+    distinct_repos: 8
     active_days: 4
-    repos_not_owned: 2
-    not_owned_basenames: 2
+    repos_not_owned: 3
+    not_owned_basenames: 3
     not_owned_owners: 2
   "30d":
-    pushes: 57
+    pushes: 60
     distinct_repos: 24
-    active_days: 17
+    active_days: 18
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 2
   "90d":
-    pushes: 96
+    pushes: 97
     distinct_repos: 29
     active_days: 38
     repos_not_owned: 5
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 2.5263
+  push_per_day: 2.5526
   repo_per_active_day: 0.7632
   not_owned_ratio: 0.1724
   basename_concentration: 0.0345
@@ -50,24 +50,24 @@ automation:
 facets:
   "7d":
     pushes: 13
-    distinct_repos: 7
-    pushes_per_repo: 1.8571
+    distinct_repos: 8
+    pushes_per_repo: 1.6250
     active_days: 4
-    repos_not_owned: 2
-    not_owned_basenames: 2
+    repos_not_owned: 3
+    not_owned_basenames: 3
     not_owned_owners: 2
   "30d":
-    pushes: 57
+    pushes: 60
     distinct_repos: 24
-    pushes_per_repo: 2.3750
-    active_days: 17
+    pushes_per_repo: 2.5000
+    active_days: 18
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 2
   "90d":
-    pushes: 96
+    pushes: 97
     distinct_repos: 29
-    pushes_per_repo: 3.3103
+    pushes_per_repo: 3.3448
     active_days: 38
     repos_not_owned: 5
     not_owned_basenames: 5
@@ -84,7 +84,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-01"
+    last_push: "2026-10-10"
   - name: "flipoff"
     title: "flipoff"
     description: "Turn any TV into a retro split-flap display. Free, open-source, zero dependencies."
@@ -92,31 +92,23 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-01"
-  - name: "porkbun-mcp-server"
-    title: "porkbun-mcp-server"
-    description: "Model Context Protocol server for Porkbun's API v3 — domains, DNS, DNSSEC, SSL with pluggable audit-log emit on every mutation"
+    last_push: "2026-10-10"
+  - name: "eldritch-codex"
+    title: "eldritch-codex"
+    description: "D&D 5e character sheet & session tracker with Far Realm cosmic horror aesthetic. Pure HTML/CSS/JS."
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-10"
+  - name: "decadi"
+    title: "decadi"
+    description: "Décadi — French Revolutionary decimal time indicator for the GNOME system tray"
     language: "Python"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-01"
-  - name: "redmine-mcp-workflows"
-    title: "redmine-mcp-workflows"
-    description: "Schema-aware MCP server for Redmine — validates workflow transitions, custom fields, and required fields before round-tripping the API"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-01"
-  - name: "link-scrubber"
-    title: "link-scrubber"
-    description: "Cross-browser extension that strips or rewrites tracking parameters from URLs"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-30"
+    last_push: "2026-10-10"
   - name: "BluePaper"
     title: "BluePaper"
     description: "Cross-platform Bluetooth label printer app — KMP + Compose Multiplatform"
@@ -124,11 +116,19 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-30"
+    last_push: "2026-10-10"
+  - name: "AvicBotChat"
+    title: "AvicBotChat"
+    description: "An IRC Chatbot for different uses across different platforms."
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-10"
 ---
 
 # Avicennasis
 
-96 pushes across 29 repositories on 38 active days in the last 90 days of public GitHub push activity.
+97 pushes across 29 repositories on 38 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Avicennasis

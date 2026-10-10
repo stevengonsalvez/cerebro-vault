@@ -8,11 +8,11 @@ provenance_repos:
   - "addyosmani/agent-skills"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-06T06:06:47.636089+00:00"
+repos_populated: false
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "dae9f02535f7c22f"
-pushes_per_week: [1, 3, 0, 0, 0, 0, 0, 1, 0, 0, 4, 1, 0]
+pushes_per_week: [4, 0, 0, 0, 0, 0, 1, 0, 0, 1, 4, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,55 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "python-slugify"
-    title: "python-slugify"
-    description: "Returns unicode slugs"
-    language: "Python"
-    topics: []
-    stars_fact: 1625
-    first_seen: null
-    last_push: "2026-09-27"
-  - name: "python-ipware"
-    title: "python-ipware"
-    description: "Returns the best matched IP address from a given HTTP(s) header in Python"
-    language: "Python"
-    topics: []
-    stars_fact: 43
-    first_seen: null
-    last_push: "2026-10-01"
-  - name: "django-ipware"
-    title: "django-ipware"
-    description: "A Django application to retrieve client's IP address"
-    language: "Python"
-    topics: []
-    stars_fact: 1063
-    first_seen: null
-    last_push: "2026-09-22"
-  - name: "django-uuslug"
-    title: "django-uuslug"
-    description: "Generates Unique (& Unicode) slugs in Django Edit Add topics"
-    language: "Python"
-    topics: []
-    stars_fact: 275
-    first_seen: null
-    last_push: "2024-03-02"
-  - name: "node-ipware"
-    title: "node-ipware"
-    description: "Returns the real IP address of users in Node.js"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 124
-    first_seen: null
-    last_push: "2024-03-01"
-  - name: "un33k"
-    title: "un33k"
-    description: "AvidCoderr"
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-08"
+repos: []
 ---
 
 # un33k

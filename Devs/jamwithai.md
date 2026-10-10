@@ -8,8 +8,8 @@ provenance_repos:
   - "jamwithai/production-agentic-rag-course"
 admitted: true
 low_n: true
-repos_populated: true
-generated_at: "2026-10-06T06:06:47.636089+00:00"
+repos_populated: false
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "04dd280685a49f89"
 pushes_per_week: [0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
@@ -76,47 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 1 active days in 90d — below the 5-day line, LABELLED low-n (never suppressed)"
   - "automation: clear — pass"
-repos:
-  - name: "observable-job-agent"
-    title: "observable-job-agent"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 306
-    first_seen: null
-    last_push: "2026-08-13"
-  - name: "production-agentic-rag-course"
-    title: "production-agentic-rag-course"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 9438
-    first_seen: "2026-10-04T06:01:26.470162+00:00"
-    last_push: "2026-06-05"
-  - name: "beginner-local-rag-system"
-    title: "beginner-local-rag-system"
-    description: null
-    language: "Jupyter Notebook"
-    topics: []
-    stars_fact: 681
-    first_seen: null
-    last_push: "2025-06-29"
-  - name: "jamwithai"
-    title: "jamwithai"
-    description: "Profile README"
-    language: null
-    topics: []
-    stars_fact: 84
-    first_seen: null
-    last_push: "2026-07-21"
-  - name: "ai-ml-small-projects"
-    title: "ai-ml-small-projects"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 45
-    first_seen: null
-    last_push: "2026-02-24"
+repos: []
 ---
 
 # jamwithai

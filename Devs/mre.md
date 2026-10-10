@@ -8,19 +8,19 @@ provenance_repos:
   - "anthropics/claude-cookbooks"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+repos_populated: false
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "1f49d0119cedbc84"
-pushes_per_week: [4, 3, 2, 0, 1, 2, 1, 0, 1, 2, 8, 3, 2]
+pushes_per_week: [4, 3, 2, 0, 3, 0, 1, 0, 1, 4, 6, 3, 2]
 windows:
   "7d":
-    pushes: 5
-    distinct_repos: 4
-    active_days: 2
-    repos_not_owned: 2
-    not_owned_basenames: 2
-    not_owned_owners: 1
+    pushes: 2
+    distinct_repos: 1
+    active_days: 1
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
     pushes: 15
     distinct_repos: 9
@@ -49,13 +49,13 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 5
-    distinct_repos: 4
-    pushes_per_repo: 1.2500
-    active_days: 2
-    repos_not_owned: 2
-    not_owned_basenames: 2
-    not_owned_owners: 1
+    pushes: 2
+    distinct_repos: 1
+    pushes_per_repo: 2.0000
+    active_days: 1
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
     pushes: 15
     distinct_repos: 9
@@ -76,76 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 17 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "idiomatic-rust"
-    title: "idiomatic-rust"
-    description: "🦀 A peer-reviewed collection of articles/talks/repos which teach concise, idiomatic Rust."
-    language: "Rust"
-    topics:
-      - "ergonomics"
-      - "idiomatic"
-      - "idiomatic-rust"
-      - "rust"
-    stars_fact: 7874
-    first_seen: null
-    last_push: "2026-02-12"
-  - name: "endler.dev"
-    title: "endler.dev"
-    description: "My personal website"
-    language: "HTML"
-    topics: []
-    stars_fact: 111
-    first_seen: null
-    last_push: "2026-10-01"
-  - name: "the-coding-interview"
-    title: "the-coding-interview"
-    description: "Programming exercises, code katas and puzzles for your job interview training - or just for fun."
-    language: "Python"
-    topics:
-      - "coding-interview"
-      - "interview-practice"
-      - "interview-test-task"
-      - "language-learning"
-    stars_fact: 1745
-    first_seen: null
-    last_push: "2023-10-30"
-  - name: "vscode-snippet"
-    title: "vscode-snippet"
-    description: "🐤 A Visual Studio Code extension for cheat.sh. Quickly and easily find code snippets for any language right inside your IDE."
-    language: "TypeScript"
-    topics:
-      - "cheatsh"
-      - "cheatsheet"
-      - "snippet"
-      - "vscode-extension"
-    stars_fact: 256
-    first_seen: null
-    last_push: "2025-11-18"
-  - name: "cargo-inspect"
-    title: "cargo-inspect"
-    description: "Pssst!... see what Rust is doing behind the curtains 🕵🤫"
-    language: "Rust"
-    topics:
-      - "desugar"
-      - "inspect"
-      - "static-analysis"
-      - "syntactic-sugar"
-      - "unpretty"
-    stars_fact: 384
-    first_seen: null
-    last_push: "2023-02-27"
-  - name: "mos6502"
-    title: "mos6502"
-    description: "Standard-compliant, no_std MOS 6502 emulator written in Rust with support for different variants (Revision A, NMOS 6502, Ricoh 2A03, 65C02)"
-    language: "Rust"
-    topics:
-      - "6502"
-      - "cpu"
-      - "emulator"
-      - "mos6502"
-    stars_fact: 112
-    first_seen: null
-    last_push: "2026-06-28"
+repos: []
 ---
 
 # mre

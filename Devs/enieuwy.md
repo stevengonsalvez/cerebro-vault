@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [11, 37, 3, 5, 9, 7, 4, 2, 5, 1, 6, 3, 0]
+pushes_per_week: [11, 34, 6, 6, 9, 2, 4, 2, 5, 1, 8, 1, 1]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 11
-    distinct_repos: 7
-    active_days: 7
+    pushes: 12
+    distinct_repos: 8
+    active_days: 8
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 1
   "90d":
-    pushes: 93
-    distinct_repos: 14
-    active_days: 32
+    pushes: 90
+    distinct_repos: 15
+    active_days: 31
     repos_not_owned: 6
     not_owned_basenames: 6
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.9062
-  repo_per_active_day: 0.4375
-  not_owned_ratio: 0.4286
-  basename_concentration: 0.0714
+  push_per_day: 2.9032
+  repo_per_active_day: 0.4839
+  not_owned_ratio: 0.4000
+  basename_concentration: 0.0667
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,38 +49,38 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
+    pushes: 1
+    distinct_repos: 1
+    pushes_per_repo: 1.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 11
-    distinct_repos: 7
-    pushes_per_repo: 1.5714
-    active_days: 7
+    pushes: 12
+    distinct_repos: 8
+    pushes_per_repo: 1.5000
+    active_days: 8
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 1
   "90d":
-    pushes: 93
-    distinct_repos: 14
-    pushes_per_repo: 6.6429
-    active_days: 32
+    pushes: 90
+    distinct_repos: 15
+    pushes_per_repo: 6.0000
+    active_days: 31
     repos_not_owned: 6
     not_owned_basenames: 6
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 32 active days in 90d — pass"
+  - "activity: 31 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "showy-quota"
     title: "showy-quota"
     description: "Always-on AI plan quota strips for SketchyBar, Zellij, and tmux, driven by CodexBar."
-    language: "Shell"
+    language: "Rust"
     topics:
       - "ai"
       - "ai-coding"
@@ -98,9 +98,9 @@ repos:
       - "statusline"
       - "tmux"
       - "zellij"
-    stars_fact: 19
+    stars_fact: 21
     first_seen: null
-    last_push: "2026-09-27"
+    last_push: "2026-10-08"
   - name: "immich-shuttle"
     title: "immich-shuttle"
     description: "Cross-platform desktop importer for Immich — GUI over immich-go"
@@ -119,7 +119,21 @@ repos:
       - "windows-app"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-24"
+    last_push: "2026-10-07"
+  - name: "Tabloupe"
+    title: "Tabloupe"
+    description: "Save and switch views of your Firefox tab groups. Collapse the groups you don't need - tabs stay open. Fuzzy tab search, optional on-device AI grouping, macOS Focus automation."
+    language: "JavaScript"
+    topics:
+      - "firefox"
+      - "firefox-addon"
+      - "productivity"
+      - "tab-groups"
+      - "tab-manager"
+      - "webextension"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-07"
   - name: "enieuwy"
     title: "enieuwy"
     description: null
@@ -136,20 +150,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-08-19"
-  - name: "Tabloupe"
-    title: "Tabloupe"
-    description: "Save and switch views of your Firefox tab groups. Collapse the groups you don't need - tabs stay open. Fuzzy tab search, optional on-device AI grouping, macOS Focus automation."
-    language: "JavaScript"
-    topics:
-      - "firefox"
-      - "firefox-addon"
-      - "productivity"
-      - "tab-groups"
-      - "tab-manager"
-      - "webextension"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-12"
   - name: "yaos-standalone"
     title: "yaos-standalone"
     description: null
@@ -162,6 +162,6 @@ repos:
 
 # enieuwy
 
-93 pushes across 14 repositories on 32 active days in the last 90 days of public GitHub push activity.
+90 pushes across 15 repositories on 31 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/enieuwy

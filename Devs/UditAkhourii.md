@@ -8,11 +8,11 @@ provenance_repos:
   - "UditAkhourii/adhd"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+repos_populated: false
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "4733c40b13667822"
-pushes_per_week: [0, 2, 0, 2, 1, 0, 2, 1, 0, 0, 0, 0, 0]
+pushes_per_week: [0, 2, 2, 1, 0, 2, 1, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,98 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "adhd"
-    title: "adhd"
-    description: "ADHD — a skill for coding agents. Tree-of-thought with pruning, built on the Claude & Codex Agent SDK. Fans out parallel divergent thoughts under different cognitive frames, scores, prunes traps, deepens the survivors. The no-brainer skill for creative and interdisciplinary work."
-    language: "TypeScript"
-    topics:
-      - "adhd"
-      - "agents"
-      - "ai"
-      - "ai-agents"
-      - "brainstorm"
-      - "chain-of-thought"
-      - "claude"
-      - "claude-agent-sdk"
-      - "creativity"
-      - "divergent-thinking"
-      - "ideation"
-      - "interdisciplinary"
-      - "llm"
-      - "llm-tools"
-      - "nodejs"
-      - "prompt-engineering"
-      - "tree-of-thought"
-      - "typescript"
-    stars_fact: 4339
-    first_seen: "2026-07-29T08:03:14.562931+00:00"
-    last_push: "2026-09-17"
-  - name: "quicksilver"
-    title: "quicksilver"
-    description: "Claude Code skill: hand bulk judgment calls to Jev. 86% fewer Claude tokens on a 12-task benchmark, up to 20x faster. One-line npx install."
-    language: "JavaScript"
-    topics:
-      - "ai-agents"
-      - "claude"
-      - "claude-code"
-      - "developer-tools"
-      - "jev"
-      - "llm"
-      - "skill"
-      - "tokens"
-      - "typesafe"
-    stars_fact: 97
-    first_seen: null
-    last_push: "2026-09-25"
-  - name: "neuroarxiv"
-    title: "neuroarxiv"
-    description: "A skill to kill from-scratch coding — Claude checks real arXiv prior art before it designs a new architecture."
-    language: "TypeScript"
-    topics:
-      - "arxiv"
-      - "arxiv-api"
-      - "llm"
-      - "planning"
-      - "reasoning"
-      - "reasoning-language-models"
-      - "reasoning-models"
-      - "workflow"
-    stars_fact: 433
-    first_seen: null
-    last_push: "2026-09-17"
-  - name: "brane-code"
-    title: "brane-code"
-    description: "Claude Code but Better"
-    language: "TypeScript"
-    topics:
-      - "ai"
-      - "claude"
-      - "claude-code"
-      - "claudecode"
-      - "coding"
-    stars_fact: 98
-    first_seen: null
-    last_push: "2026-03-31"
-  - name: "branerail"
-    title: "branerail"
-    description: "CTO-level architectural skill for Claude Code"
-    language: "JavaScript"
-    topics:
-      - "claude"
-      - "claude-code"
-      - "skills"
-    stars_fact: 50
-    first_seen: null
-    last_push: "2026-04-27"
-  - name: "neuralstack"
-    title: "neuralstack"
-    description: "Divergent-thinking whiteboards for Claude — co-think on hard problems via NeuralStack."
-    language: "JavaScript"
-    topics: []
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-06-01"
+repos: []
 ---
 
 # UditAkhourii

@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "5ae8aede20b52732"
-pushes_per_week: [13, 9, 0, 0, 0, 0, 0, 0, 0, 2, 3, 31, 12]
+pushes_per_week: [11, 7, 0, 0, 0, 0, 0, 0, 0, 2, 3, 35, 8]
 windows:
   "7d":
-    pushes: 14
+    pushes: 8
     distinct_repos: 1
-    active_days: 4
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 70
+    pushes: 66
     distinct_repos: 2
-    active_days: 20
+    active_days: 19
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 3.5000
-  repo_per_active_day: 0.1000
+  push_per_day: 3.4737
+  repo_per_active_day: 0.1053
   not_owned_ratio: 0.0000
   basename_concentration: 0.5000
   shapes: []
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 14
+    pushes: 8
     distinct_repos: 1
-    pushes_per_repo: 14.0000
-    active_days: 4
+    pushes_per_repo: 8.0000
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 70
+    pushes: 66
     distinct_repos: 2
-    pushes_per_repo: 35.0000
-    active_days: 20
+    pushes_per_repo: 33.0000
+    active_days: 19
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 20 active days in 90d — pass"
+  - "activity: 19 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "codegraph"
@@ -82,9 +82,17 @@ repos:
     description: "Pre-indexed code knowledge graph, auto syncs on code changes, for Claude Code, Codex, Gemini, Cursor, OpenCode, AntiGravity, Kiro, CoPilot, and Hermes Agent — fewer tokens, fewer tool calls, 100% local"
     language: "C"
     topics: []
-    stars_fact: 72660
+    stars_fact: 73637
     first_seen: "2026-10-01T06:00:50.112518+00:00"
-    last_push: "2026-10-01"
+    last_push: "2026-10-10"
+  - name: "frontend-audit-skill"
+    title: "frontend-audit-skill"
+    description: "Measured visual-regression gate for frontends. Compares live renders to design PNGs."
+    language: "JavaScript"
+    topics: []
+    stars_fact: 23
+    first_seen: null
+    last_push: "2026-05-13"
   - name: "shopify-graphql-admin-mcp"
     title: "shopify-graphql-admin-mcp"
     description: "Connect Claude to your Shopify store, and unlock the full power of Claude for your store."
@@ -117,18 +125,10 @@ repos:
     stars_fact: 1
     first_seen: null
     last_push: "2023-12-04"
-  - name: "hoblets"
-    title: "hoblets"
-    description: "Hoblets downloads, release notes, and automatic update feeds."
-    language: "Shell"
-    topics: []
-    stars_fact: 4
-    first_seen: null
-    last_push: "2026-09-23"
 ---
 
 # colbymchenry
 
-70 pushes across 2 repositories on 20 active days in the last 90 days of public GitHub push activity.
+66 pushes across 2 repositories on 19 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/colbymchenry

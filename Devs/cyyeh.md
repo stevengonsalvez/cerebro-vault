@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "dffbb846389f9a26"
-pushes_per_week: [1, 0, 0, 1, 1, 0, 0, 0, 0, 0, 2, 2, 0]
+pushes_per_week: [1, 0, 1, 0, 1, 0, 0, 0, 0, 2, 0, 2, 0]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -80,11 +80,11 @@ repos:
   - name: "jit-learning-loop"
     title: "jit-learning-loop"
     description: "An Agent Skill for learning what the task needs, while doing the task. It works with any coding agent that supports the Agent Skills spec: Claude Code, Codex, Cursor, Gemini CLI, GitHub Copilot, OpenCode and more."
-    language: "Python"
+    language: "JavaScript"
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-09-30"
+    last_push: "2026-10-01"
   - name: "cyyeh"
     title: "cyyeh"
     description: null

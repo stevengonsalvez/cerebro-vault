@@ -10,7 +10,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "02eab667df448997"
   - "2d6ba8fc0269fd52"
@@ -79,14 +79,6 @@ reasons:
   - "activity: 13 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "mcp-repo-data-tracker"
-    title: "mcp-repo-data-tracker"
-    description: "Tracker that gives visibility into the issues/PRs that are currently open in the MCP repo."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 9
-    first_seen: null
-    last_push: "2026-10-01"
   - name: "ant-repo-data-tracker"
     title: "ant-repo-data-tracker"
     description: "Tracking the issues and PRs in open-source Anthropic SDK repositories."
@@ -94,7 +86,15 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-01"
+    last_push: "2026-10-10"
+  - name: "mcp-repo-data-tracker"
+    title: "mcp-repo-data-tracker"
+    description: "Tracker that gives visibility into the issues/PRs that are currently open in the MCP repo."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 9
+    first_seen: null
+    last_push: "2026-10-07"
   - name: "claude-mcpapp-onestate"
     title: "claude-mcpapp-onestate"
     description: "Sample demo-ing how Claude can maintain one single widget."

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-07T15:16:07.319356+00:00"
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "ef17663e884139a8"
-pushes_per_week: [0, 0, 0, 2, 0, 0, 0, 0, 0, 1, 2, 0, 0]
+pushes_per_week: [0, 0, 1, 1, 0, 0, 0, 0, 0, 2, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,6 +77,15 @@ reasons:
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "Raspberry-pie-monitoring"
+    title: "Raspberry-pie-monitoring"
+    description: "自己的毕业设计，基于树莓派的寝室小监控系统"
+    language: "Python"
+    topics:
+      - "python"
+    stars_fact: 30
+    first_seen: null
+    last_push: "2017-04-23"
   - name: "agent-console"
     title: "agent-console"
     description: "A local terminal control plane for Codex, Claude Code, and pi sessions—discover, monitor, resume, and work beside persistent workspace shells."
@@ -93,7 +102,7 @@ repos:
       - "session-manager"
       - "terminal-ui"
       - "tui"
-    stars_fact: 33
+    stars_fact: 34
     first_seen: null
     last_push: "2026-09-20"
   - name: "buhuipao.github.io"
@@ -118,15 +127,6 @@ repos:
     stars_fact: 104
     first_seen: null
     last_push: "2025-07-20"
-  - name: "Raspberry-pie-monitoring"
-    title: "Raspberry-pie-monitoring"
-    description: "自己的毕业设计，基于树莓派的寝室小监控系统"
-    language: "Python"
-    topics:
-      - "python"
-    stars_fact: 29
-    first_seen: null
-    last_push: "2017-04-23"
   - name: "dailyclaw"
     title: "dailyclaw"
     description: "An extendable personal life assistant that lives in your Telegram"

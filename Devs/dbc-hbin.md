@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [0, 0, 0, 0, 11, 17, 1, 0, 0, 3, 2, 9, 5]
+pushes_per_week: [0, 0, 0, 0, 22, 6, 1, 0, 0, 3, 2, 11, 3]
 windows:
   "7d":
-    pushes: 9
-    distinct_repos: 4
-    active_days: 4
+    pushes: 3
+    distinct_repos: 3
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 9
-    distinct_repos: 4
-    pushes_per_repo: 2.2500
-    active_days: 4
+    pushes: 3
+    distinct_repos: 3
+    pushes_per_repo: 1.0000
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -77,14 +77,14 @@ reasons:
   - "activity: 21 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "dot-gateway"
-    title: "dot-gateway"
-    description: "Source and recovery documentation for the native Go gateway and public-source search tools. Runtime data and credentials excluded."
-    language: "Go"
+  - name: "omp-ulw"
+    title: "omp-ulw"
+    description: "Native ULW workflows and model prompts for OMP"
+    language: "JavaScript"
     topics: []
-    stars_fact: 0
+    stars_fact: 7
     first_seen: null
-    last_push: "2026-10-01"
+    last_push: "2026-10-09"
   - name: "web-gpt-agent"
     title: "web-gpt-agent"
     description: "Durable desktop agents driven by ChatGPT Web over MCP"
@@ -92,39 +92,39 @@ repos:
     topics: []
     stars_fact: 3
     first_seen: null
-    last_push: "2026-09-30"
-  - name: "wb-agent-gateway"
-    title: "wb-agent-gateway"
+    last_push: "2026-10-09"
+  - name: "FEX-darwin"
+    title: "FEX-darwin"
+    description: "Darwin/Wine integration of FEX Windows emulation modules for ARM64-native macOS"
+    language: "C++"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-08"
+  - name: "kiro-native-omp"
+    title: "kiro-native-omp"
     description: null
-    language: "JavaScript"
+    language: "TypeScript"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-29"
-  - name: "zzz-wine-d3dmetal-dx12"
-    title: "zzz-wine-d3dmetal-dx12"
-    description: "Wine 11.17 ZZZ DX12 Tuned runtime (GPTK 4.0b2, MSync, Cache Warmup, Cursor Rollback) with 1-click GUI installer for Yaagl ZZZ OS"
-    language: "C"
+    last_push: "2026-10-05"
+  - name: "muse-discord-gateway"
+    title: "muse-discord-gateway"
+    description: "Isolated Discord gateway deployment (bot + insane-search engine + AI promo scanner)"
+    language: "Go"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-23"
-  - name: "wine-yaagl-d3dmetal"
-    title: "wine-yaagl-d3dmetal"
-    description: "Wine 11.17 D3DMetal runtime for Yaagl (experimental)"
-    language: "C"
+    last_push: "2026-10-04"
+  - name: "dot-gateway"
+    title: "dot-gateway"
+    description: "Source and recovery documentation for the native Go gateway and public-source search tools. Runtime data and credentials excluded."
+    language: "Go"
     topics: []
-    stars_fact: 0
+    stars_fact: 2
     first_seen: null
-    last_push: "2026-10-01"
-  - name: "d3dmetal-redistributable"
-    title: "d3dmetal-redistributable"
-    description: "Unmodified D3DMetal.framework redistributable from Apple Game Porting Toolkit"
-    language: "Rich Text Format"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-23"
+    last_push: "2026-10-02"
 ---
 
 # dbc-hbin

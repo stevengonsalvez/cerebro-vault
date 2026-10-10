@@ -8,11 +8,11 @@ provenance_repos:
   - "KnockOutEZ/wigolo"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+repos_populated: false
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "ef03efa8fa36c2ae"
-pushes_per_week: [9, 11, 1, 3, 11, 16, 16, 0, 5, 0, 2, 1, 0]
+pushes_per_week: [14, 6, 2, 2, 22, 12, 9, 0, 5, 0, 2, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 4
-    distinct_repos: 2
-    active_days: 3
+    pushes: 3
+    distinct_repos: 1
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 4
-    distinct_repos: 2
-    pushes_per_repo: 2.0000
-    active_days: 3
+    pushes: 3
+    distinct_repos: 1
+    pushes_per_repo: 3.0000
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -76,79 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 27 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "wigolo"
-    title: "wigolo"
-    description: "The go-to web for your AI coding agent — local-first search, fetch, crawl & research over MCP. No API keys, no cloud, $0/query. Public beta."
-    language: "TypeScript"
-    topics:
-      - "agent"
-      - "ai"
-      - "ai-agent"
-      - "claude"
-      - "developer-tools"
-      - "exa-alternative"
-      - "firecrawl-alternative"
-      - "local-first"
-      - "mcp"
-      - "mcp-server"
-      - "metasearch"
-      - "model-context-protocol"
-      - "privacy"
-      - "rag"
-      - "search"
-      - "search-engine"
-      - "tavily-alternative"
-      - "web-crawler"
-      - "web-scraping"
-      - "web-search"
-    stars_fact: 5435
-    first_seen: "2026-07-19T06:00:06.180682+00:00"
-    last_push: "2026-10-01"
-  - name: "KnockOutEZ"
-    title: "KnockOutEZ"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-10-01"
-  - name: "homebrew-wigolo"
-    title: "homebrew-wigolo"
-    description: "Homebrew tap for wigolo"
-    language: "Shell"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-08"
-  - name: "diffdeck"
-    title: "diffdeck"
-    description: "DiffDeck: 🚀 Streamline Code Reviews and Collaboration with Smart Diffs, Security Scans, and AI-Ready Outputs!"
-    language: "Go"
-    topics:
-      - "ai"
-      - "go"
-      - "golang"
-      - "llm"
-    stars_fact: 51
-    first_seen: null
-    last_push: "2024-12-30"
-  - name: "pocket-tts-alignment"
-    title: "pocket-tts-alignment"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-03-29"
-  - name: "go-to-strapi"
-    title: "go-to-strapi"
-    description: "A go to template for strapi. Which is easily deployable in vercel."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2025-04-06"
+repos: []
 ---
 
 # KnockOutEZ

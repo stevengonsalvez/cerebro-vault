@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "f8a707d9ac993687"
-pushes_per_week: [3, 4, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [3, 3, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 11
+    pushes: 10
     distinct_repos: 2
-    active_days: 11
+    active_days: 10
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
   push_per_day: 1.0000
-  repo_per_active_day: 0.1818
+  repo_per_active_day: 0.2000
   not_owned_ratio: 0.0000
   basename_concentration: 0.5000
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 11
+    pushes: 10
     distinct_repos: 2
-    pushes_per_repo: 5.5000
-    active_days: 11
+    pushes_per_repo: 5.0000
+    active_days: 10
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 11 active days in 90d — pass"
+  - "activity: 10 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "claude-real-video"
@@ -98,9 +98,9 @@ repos:
       - "transcription"
       - "video-analysis"
       - "whisper"
-    stars_fact: 2191
+    stars_fact: 2209
     first_seen: "2026-07-03T06:00:07.569198+00:00"
-    last_push: "2026-10-01"
+    last_push: "2026-10-08"
   - name: "solar-atlas-gesture"
     title: "solar-atlas-gesture"
     description: "Pinch from Saturn until the Solar System becomes a dot — then keep going, to the nearby stars, the Milky Way and the Local Group. A hand-gesture browser atlas: MediaPipe + Three.js, NASA data, EN/中文. Works with mouse or a camera-free tour too."
@@ -182,6 +182,6 @@ repos:
 
 # HUANGCHIHHUNGLeo
 
-11 pushes across 2 repositories on 11 active days in the last 90 days of public GitHub push activity.
+10 pushes across 2 repositories on 10 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/HUANGCHIHHUNGLeo

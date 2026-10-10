@@ -8,11 +8,11 @@ provenance_repos:
   - "anthropics/anthropic-sdk-python"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+repos_populated: false
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "1be978947e68d1f2"
-pushes_per_week: [2, 4, 1, 0, 2, 0, 1, 0, 0, 1, 2, 1, 2]
+pushes_per_week: [5, 1, 0, 1, 1, 1, 0, 0, 1, 0, 2, 2, 1]
 windows:
   "7d":
     pushes: 2
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 16
+    pushes: 15
     distinct_repos: 3
-    active_days: 14
+    active_days: 13
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.1429
-  repo_per_active_day: 0.2143
+  push_per_day: 1.1538
+  repo_per_active_day: 0.2308
   not_owned_ratio: 0.0000
   basename_concentration: 0.3333
   shapes: []
@@ -65,78 +65,22 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 16
+    pushes: 15
     distinct_repos: 3
-    pushes_per_repo: 5.3333
-    active_days: 14
+    pushes_per_repo: 5.0000
+    active_days: 13
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 14 active days in 90d — pass"
+  - "activity: 13 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "xodn348.github.io"
-    title: "xodn348.github.io"
-    description: "Personal website"
-    language: "HTML"
-    topics:
-      - "portfolio"
-      - "website"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-02"
-  - name: "xodn348"
-    title: "xodn348"
-    description: "readme"
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-03"
-  - name: "computermoney"
-    title: "computermoney"
-    description: "Autonomous payments between AI agents"
-    language: "Rust"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-07-19"
-  - name: "destiny"
-    title: "destiny"
-    description: "Daily fortune-telling plugin for Claude Code."
-    language: "Python"
-    topics: []
-    stars_fact: 67
-    first_seen: null
-    last_push: "2026-05-29"
-  - name: "han"
-    title: "han"
-    description: "A compiled programming language with Korean keywords, written in Rust"
-    language: "Rust"
-    topics:
-      - "compiler"
-      - "hangul"
-      - "korean"
-      - "llvm"
-      - "programming-language"
-      - "rust"
-    stars_fact: 184
-    first_seen: null
-    last_push: "2026-07-31"
-  - name: "readhn"
-    title: "readhn"
-    description: "AI-native HackerNews MCP Server with EigenTrust expert ranking and explainable quality signals"
-    language: "Python"
-    topics: []
-    stars_fact: 5
-    first_seen: null
-    last_push: "2026-03-11"
+repos: []
 ---
 
 # xodn348
 
-16 pushes across 3 repositories on 14 active days in the last 90 days of public GitHub push activity.
+15 pushes across 3 repositories on 13 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/xodn348

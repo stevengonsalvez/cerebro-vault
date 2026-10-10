@@ -8,11 +8,11 @@ provenance_repos:
   - "alirezarezvani/claude-skills"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+repos_populated: false
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "3cb7ff1cdcf97c6b"
-pushes_per_week: [12, 5, 3, 0, 0, 0, 0, 2, 3, 5, 2, 0, 2]
+pushes_per_week: [14, 3, 3, 0, 0, 0, 0, 2, 7, 1, 2, 1, 1]
 windows:
   "7d":
     pushes: 2
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 11
-    distinct_repos: 7
-    active_days: 6
+    pushes: 9
+    distinct_repos: 6
+    active_days: 5
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 11
-    distinct_repos: 7
-    pushes_per_repo: 1.5714
-    active_days: 6
+    pushes: 9
+    distinct_repos: 6
+    pushes_per_repo: 1.5000
+    active_days: 5
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -76,157 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 16 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "linkedin-skills"
-    title: "linkedin-skills"
-    description: "Claude skills for LinkedIn. 11 Claude Code and Codex skills that write human-sounding LinkedIn posts, craft comments that get noticed, analyze your feed, and build a publishing cadence, all from your terminal. Content engineering by Creative Content Crafts. MIT."
-    language: "Python"
-    topics:
-      - "agent-skill"
-      - "agent-skills"
-      - "ai-agents"
-      - "ai-content"
-      - "ai-marketing"
-      - "anthropic"
-      - "awesome-claude"
-      - "claude-code"
-      - "claude-skills"
-      - "content-creation"
-      - "content-engineering"
-      - "linkedin"
-      - "linkedin-automation"
-      - "linkedin-engineering"
-      - "llm-tools"
-      - "openclaw-skill"
-      - "personal-branding"
-      - "prompt-engineering"
-      - "skill-md"
-      - "social-media-automation"
-    stars_fact: 3987
-    first_seen: null
-    last_push: "2026-09-29"
-  - name: "instagram-skills"
-    title: "instagram-skills"
-    description: "Instagram marketing skills for Claude Code and Codex: captions, carousels, hooks, hashtag strategy, and a weekly plan. Draft, humanize, and publish via Publora. MIT. Content engineering by Creative Content Crafts."
-    language: "Python"
-    topics:
-      - "agent-skill"
-      - "ai-agents"
-      - "ai-marketing"
-      - "captions"
-      - "claude-code"
-      - "claude-skills"
-      - "codex"
-      - "content-creation"
-      - "content-engineering"
-      - "hashtags"
-      - "instagram"
-      - "instagram-marketing"
-      - "marketing-automation"
-      - "openclaw-skill"
-      - "publora"
-      - "reels"
-      - "social-media-marketing"
-    stars_fact: 242
-    first_seen: null
-    last_push: "2026-09-30"
-  - name: "tiktok-skills"
-    title: "tiktok-skills"
-    description: "TikTok marketing skills for Claude Code and Codex: 3-second video hooks, captions, trend mapping, and a weekly plan. Draft, humanize, and publish via Publora. MIT. Content engineering by Creative Content Crafts."
-    language: "Python"
-    topics:
-      - "agent-skill"
-      - "ai-agents"
-      - "ai-marketing"
-      - "claude-code"
-      - "claude-skills"
-      - "codex"
-      - "content-creation"
-      - "content-engineering"
-      - "marketing-automation"
-      - "openclaw-skill"
-      - "publora"
-      - "short-form-video"
-      - "social-media-marketing"
-      - "tiktok"
-      - "tiktok-marketing"
-      - "video-hooks"
-    stars_fact: 60
-    first_seen: null
-    last_push: "2026-09-30"
-  - name: "facebook-skills"
-    title: "facebook-skills"
-    description: "Facebook Pages marketing skills for Claude Code and Codex: high-share posts, hooks, engagement replies, and a weekly plan. Publish via Publora. Open source, MIT. Content engineering by Creative Content Crafts."
-    language: "Python"
-    topics:
-      - "agent-skill"
-      - "ai-agents"
-      - "ai-marketing"
-      - "claude-code"
-      - "claude-skills"
-      - "codex"
-      - "content-creation"
-      - "content-engineering"
-      - "facebook"
-      - "facebook-marketing"
-      - "facebook-pages"
-      - "marketing-automation"
-      - "meta"
-      - "openclaw-skill"
-      - "publora"
-      - "social-media-marketing"
-    stars_fact: 53
-    first_seen: null
-    last_push: "2026-09-30"
-  - name: "youtube-skills"
-    title: "youtube-skills"
-    description: "YouTube and YouTube Shorts marketing skills for Claude Code and Codex: high-CTR titles, SEO descriptions, retention hooks, thumbnails, and a content plan. Publish via Publora. MIT. Content engineering by Creative Content Crafts."
-    language: "Python"
-    topics:
-      - "agent-skill"
-      - "ai-agents"
-      - "ai-marketing"
-      - "claude-code"
-      - "claude-skills"
-      - "codex"
-      - "content-creation"
-      - "content-engineering"
-      - "marketing-automation"
-      - "openclaw-skill"
-      - "publora"
-      - "social-media-marketing"
-      - "thumbnails"
-      - "video-marketing"
-      - "youtube"
-      - "youtube-marketing"
-      - "youtube-shorts"
-    stars_fact: 46
-    first_seen: null
-    last_push: "2026-09-30"
-  - name: "x-skills"
-    title: "x-skills"
-    description: "X (Twitter) marketing skills for Claude Code and Codex: write tweets, threads, and replies in your voice, strip AI tells, and publish via Publora. Open source, MIT. Content engineering by Creative Content Crafts."
-    language: "Python"
-    topics:
-      - "agent-skill"
-      - "ai-agents"
-      - "ai-marketing"
-      - "claude-code"
-      - "claude-skills"
-      - "codex"
-      - "content-creation"
-      - "content-engineering"
-      - "marketing-automation"
-      - "openclaw-skill"
-      - "publora"
-      - "social-media-marketing"
-      - "tweets"
-      - "twitter"
-      - "twitter-marketing"
-      - "x-twitter"
-    stars_fact: 114
-    first_seen: null
-    last_push: "2026-09-30"
+repos: []
 ---
 
 # sergebulaev

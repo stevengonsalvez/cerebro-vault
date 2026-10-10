@@ -8,11 +8,11 @@ provenance_repos:
   - "dream-num/univer"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+repos_populated: false
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "d148e3d2c2843c2b"
-pushes_per_week: [4, 9, 8, 3, 8, 2, 4, 0, 0, 2, 5, 2, 1]
+pushes_per_week: [6, 5, 9, 6, 5, 2, 3, 0, 1, 1, 5, 3, 0]
 windows:
   "7d":
     pushes: 1
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 48
-    distinct_repos: 8
-    active_days: 30
-    repos_not_owned: 4
-    not_owned_basenames: 4
+    pushes: 46
+    distinct_repos: 7
+    active_days: 29
+    repos_not_owned: 3
+    not_owned_basenames: 3
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.6000
-  repo_per_active_day: 0.2667
-  not_owned_ratio: 0.5000
-  basename_concentration: 0.1250
+  push_per_day: 1.5862
+  repo_per_active_day: 0.2414
+  not_owned_ratio: 0.4286
+  basename_concentration: 0.1429
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,72 +65,22 @@ facets:
     not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 48
-    distinct_repos: 8
-    pushes_per_repo: 6.0000
-    active_days: 30
-    repos_not_owned: 4
-    not_owned_basenames: 4
+    pushes: 46
+    distinct_repos: 7
+    pushes_per_repo: 6.5714
+    active_days: 29
+    repos_not_owned: 3
+    not_owned_basenames: 3
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 30 active days in 90d — pass"
+  - "activity: 29 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "verso"
-    title: "verso"
-    description: "A release toolkit for modern workspace-driven projects."
-    language: "Rust"
-    topics:
-      - "release"
-      - "releasetool"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-16"
-  - name: "switch-weread"
-    title: "switch-weread"
-    description: null
-    language: "C++"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-08"
-  - name: "doctrine"
-    title: "doctrine"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-31"
-  - name: "mdx"
-    title: "mdx"
-    description: "A native MDX content compiler with Vite and Next adapters"
-    language: "Rust"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-31"
-  - name: "oxlint-config"
-    title: "oxlint-config"
-    description: "Opinionated Oxlint presets and an Oxc initializer."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-31"
-  - name: "jikkai"
-    title: "jikkai"
-    description: "生も死も 残照比ひ 呑み込めり"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-08-08"
+repos: []
 ---
 
 # jikkai
 
-48 pushes across 8 repositories on 30 active days in the last 90 days of public GitHub push activity.
+46 pushes across 7 repositories on 29 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/jikkai

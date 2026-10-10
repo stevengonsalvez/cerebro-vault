@@ -8,11 +8,11 @@ provenance_repos:
   - "abhigyanpatwari/GitNexus"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+repos_populated: false
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [0, 0, 0, 1, 0, 5, 0, 0, 1, 1, 2, 2, 0]
+pushes_per_week: [0, 0, 0, 1, 2, 3, 0, 0, 1, 1, 2, 2, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 6
+    pushes: 5
     distinct_repos: 2
-    active_days: 6
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 6
+    pushes: 5
     distinct_repos: 2
-    pushes_per_repo: 3.0000
-    active_days: 6
+    pushes_per_repo: 2.5000
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -76,55 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 10 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "pb-hcf"
-    title: "pb-hcf"
-    description: "Context-wire bundle for HCF: to add in custom playbook into v2 hook to extend capabilities"
-    language: "Shell"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-10-01"
-  - name: "pb-chatroom"
-    title: "pb-chatroom"
-    description: "Self-hosted multi-Claude coordination chatroom. FastAPI + SQLite + MCP tools. Lets host Claude Code sessions, DDEV-container sessions, and their subagents exchange threaded messages — handovers, status, requests — without human relay. All data local; 127.0.0.1 bound only."
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-01"
-  - name: "claude-skills-central"
-    title: "claude-skills-central"
-    description: null
-    language: "Shell"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-01"
-  - name: "pb-graphiti"
-    title: "pb-graphiti"
-    description: "Cross-session, cross-project memory for Claude Code via Graphiti + Neo4j. Ships MCP client config, usage skill, and host docker-compose recipe."
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-26"
-  - name: "claude-skills"
-    title: "claude-skills"
-    description: "Claude skills (experimentation)"
-    language: null
-    topics: []
-    stars_fact: 17
-    first_seen: null
-    last_push: "2026-09-04"
-  - name: "pb-codegraph"
-    title: "pb-codegraph"
-    description: "Cross-module impact analysis for Magento 2 / Mage-OS. Detects blast radius (callers, plugin chains, observers, cron data dependencies) before deploy. LLM-driven v0.1.0; deterministic tree-sitter graph in v0.2+."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-02"
+repos: []
 ---
 
 # ProxiBlue

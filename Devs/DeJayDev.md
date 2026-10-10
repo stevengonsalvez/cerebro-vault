@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "46f3c1d6124190bd"
-pushes_per_week: [1, 2, 1, 1, 1, 0, 0, 0, 1, 0, 0, 0, 0]
+pushes_per_week: [1, 2, 2, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,6 +77,23 @@ reasons:
   - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "DeJayDev"
+    title: "DeJayDev"
+    description: null
+    language: "Go"
+    topics:
+      - "hacktoberfest"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-07"
+  - name: "kiri"
+    title: "kiri"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-03"
   - name: "dotfiles"
     title: "dotfiles"
     description: "dot file : )"
@@ -96,15 +113,6 @@ repos:
     stars_fact: 30
     first_seen: null
     last_push: "2024-09-16"
-  - name: "DeJayDev"
-    title: "DeJayDev"
-    description: null
-    language: "Go"
-    topics:
-      - "hacktoberfest"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-14"
   - name: "kirigo"
     title: "kirigo"
     description: null
@@ -113,14 +121,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-08-26"
-  - name: "kiri"
-    title: "kiri"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-25"
   - name: "claude-peers"
     title: "claude-peers"
     description: "Allow all your Claude Codes to message each other ad-hoc!"

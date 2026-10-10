@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "a5ffcd0a46dd44fd"
-pushes_per_week: [7, 51, 31, 13, 10, 5, 6, 1, 7, 10, 16, 53, 40]
+pushes_per_week: [22, 40, 28, 12, 14, 1, 5, 2, 7, 11, 22, 62, 26]
 windows:
   "7d":
-    pushes: 44
-    distinct_repos: 18
-    active_days: 6
-    repos_not_owned: 8
-    not_owned_basenames: 7
-    not_owned_owners: 5
+    pushes: 35
+    distinct_repos: 15
+    active_days: 5
+    repos_not_owned: 6
+    not_owned_basenames: 6
+    not_owned_owners: 4
   "30d":
-    pushes: 119
+    pushes: 122
     distinct_repos: 33
-    active_days: 25
+    active_days: 26
     repos_not_owned: 11
     not_owned_basenames: 8
     not_owned_owners: 8
   "90d":
-    pushes: 250
+    pushes: 252
     distinct_repos: 42
     active_days: 58
     repos_not_owned: 11
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 8
 automation:
   state: "clear"
-  push_per_day: 4.3103
+  push_per_day: 4.3448
   repo_per_active_day: 0.7241
   not_owned_ratio: 0.2619
   basename_concentration: 0.0952
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 44
-    distinct_repos: 18
-    pushes_per_repo: 2.4444
-    active_days: 6
-    repos_not_owned: 8
-    not_owned_basenames: 7
-    not_owned_owners: 5
+    pushes: 35
+    distinct_repos: 15
+    pushes_per_repo: 2.3333
+    active_days: 5
+    repos_not_owned: 6
+    not_owned_basenames: 6
+    not_owned_owners: 4
   "30d":
-    pushes: 119
+    pushes: 122
     distinct_repos: 33
-    pushes_per_repo: 3.6061
-    active_days: 25
+    pushes_per_repo: 3.6970
+    active_days: 26
     repos_not_owned: 11
     not_owned_basenames: 8
     not_owned_owners: 8
   "90d":
-    pushes: 250
+    pushes: 252
     distinct_repos: 42
-    pushes_per_repo: 5.9524
+    pushes_per_repo: 6.0000
     active_days: 58
     repos_not_owned: 11
     not_owned_basenames: 8
@@ -77,58 +77,58 @@ reasons:
   - "activity: 58 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "agenticlinux"
-    title: "agenticlinux"
-    description: "An agentic distro with OpenClaw, llmman, Docker Sandboxes and Docker Engine pre-installed"
-    language: "Shell"
-    topics: []
-    stars_fact: 37
-    first_seen: null
-    last_push: "2026-09-29"
   - name: "vllm-vulkan"
     title: "vllm-vulkan"
     description: "Community maintained hardware plugin for vLLM via Vulkan"
     language: "Rust"
     topics: []
-    stars_fact: 52
+    stars_fact: 51
     first_seen: null
-    last_push: "2026-09-28"
-  - name: "ericcurtin.github.io"
-    title: "ericcurtin.github.io"
-    description: "Eric Curtin's blog"
-    language: "CSS"
+    last_push: "2026-10-08"
+  - name: "agenticlinux"
+    title: "agenticlinux"
+    description: "An agentic distro with OpenClaw, llmman, Docker Sandboxes and Docker Engine pre-installed"
+    language: "Shell"
+    topics: []
+    stars_fact: 42
+    first_seen: null
+    last_push: "2026-10-10"
+  - name: "sesame"
+    title: "sesame"
+    description: null
+    language: "Rust"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-18"
-  - name: "vmm"
-    title: "vmm"
+    last_push: "2026-10-05"
+  - name: "vmmbox"
+    title: "vmmbox"
     description: null
     language: "Rust"
     topics: []
-    stars_fact: 23
+    stars_fact: 0
     first_seen: null
-    last_push: "2026-01-07"
-  - name: "podman-ollama"
-    title: "podman-ollama"
-    description: null
-    language: "Shell"
+    last_push: "2026-10-04"
+  - name: "scoop-bucket"
+    title: "scoop-bucket"
+    description: "Scoop bucket for vmmbox"
+    language: null
     topics: []
-    stars_fact: 51
+    stars_fact: 0
     first_seen: null
-    last_push: "2025-09-21"
-  - name: "wayoa"
-    title: "wayoa"
-    description: "A Wayland compositor for macOS, using Cocoa as its backend."
-    language: "Rust"
+    last_push: "2026-10-04"
+  - name: "homebrew-tap"
+    title: "homebrew-tap"
+    description: "Homebrew tap for vmmbox"
+    language: "Ruby"
     topics: []
-    stars_fact: 52
+    stars_fact: 0
     first_seen: null
-    last_push: "2026-03-18"
+    last_push: "2026-10-04"
 ---
 
 # ericcurtin
 
-250 pushes across 42 repositories on 58 active days in the last 90 days of public GitHub push activity.
+252 pushes across 42 repositories on 58 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ericcurtin

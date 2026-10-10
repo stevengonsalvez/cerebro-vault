@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [0, 0, 0, 0, 0, 2, 0, 0, 0, 2, 2, 3, 1]
+pushes_per_week: [0, 0, 0, 0, 0, 2, 0, 0, 0, 3, 4, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -84,7 +84,15 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-28"
+    last_push: "2026-10-07"
+  - name: "pipeaudio"
+    title: "pipeaudio"
+    description: null
+    language: "Rust"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-05"
   - name: "TournamentDjangoApp"
     title: "TournamentDjangoApp"
     description: "A Django application for keeping track and administrating sport tournaments. It targets python 3.6 and Django 1.11."

@@ -8,11 +8,11 @@ provenance_repos:
   - "agent-substrate/substrate"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+repos_populated: false
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "a5ffcd0a46dd44fd"
-pushes_per_week: [0, 1, 0, 2, 6, 0, 0, 0, 4, 0, 1, 0, 0]
+pushes_per_week: [0, 1, 2, 2, 4, 0, 0, 0, 4, 1, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 2
-    distinct_repos: 2
-    active_days: 2
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 2
-    distinct_repos: 2
+    pushes: 1
+    distinct_repos: 1
     pushes_per_repo: 1.0000
-    active_days: 2
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -76,46 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 9 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "ClioForge"
-    title: "ClioForge"
-    description: "A self-hosted, open-source research IDE for humans and agents, starting with history and humanities."
-    language: "TypeScript"
-    topics:
-      - "ai-agents"
-      - "cloudflare"
-      - "digital-humanities"
-      - "history"
-      - "research"
-      - "self-hosted"
-      - "typescript"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-27"
-  - name: "scBSP"
-    title: "scBSP"
-    description: "scBSP is a specialized package designed for processing biological data, specifically in the analysis of gene expression and cell coordinates. It efficiently computes p-values for a given set of genes based on input matrices representing cell coordinates and gene expression data."
-    language: "Python"
-    topics: []
-    stars_fact: 22
-    first_seen: null
-    last_push: "2026-07-23"
-  - name: "STORM"
-    title: "STORM"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-07-23"
-  - name: "ray-playground"
-    title: "ray-playground"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2023-09-29"
+repos: []
 ---
 
 # YQ-Wang

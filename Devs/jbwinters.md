@@ -8,11 +8,11 @@ provenance_repos:
   - "jbwinters/jacquard-lang"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+repos_populated: false
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "322930b634f9932d"
-pushes_per_week: [23, 25, 3, 0, 3, 0, 0, 0, 0, 1, 5, 10, 5]
+pushes_per_week: [43, 6, 2, 0, 3, 0, 0, 0, 1, 1, 7, 7, 5]
 windows:
   "7d":
     pushes: 5
@@ -76,65 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 22 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "jacquard-lang"
-    title: "jacquard-lang"
-    description: "Jacquard is a small programming language designed for a regime in which most code is written by machine-learning models and reviewed by people."
-    language: "OCaml"
-    topics:
-      - "algebraic-effects"
-      - "capability-security"
-      - "content-addressing"
-      - "language-design"
-      - "ocaml"
-      - "probabilistic-programming"
-      - "programming-language"
-    stars_fact: 120
-    first_seen: "2026-07-14T06:00:05.414815+00:00"
-    last_push: "2026-10-02"
-  - name: "wave-intelligence-papers"
-    title: "wave-intelligence-papers"
-    description: "Controlled Python replications of traveling-wave sequence memory and local synaptic learning"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-02"
-  - name: "Evidence-Holonomy"
-    title: "Evidence-Holonomy"
-    description: "An information‑geometric way to state the arrow of time—and irreversibility—without referring to any specific physics, coordinates, or observer."
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-26"
-  - name: "embodied-field-intelligence"
-    title: "embodied-field-intelligence"
-    description: "Cellular automata-based adaptive intellgence study"
-    language: "Python"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-25"
-  - name: "acoustic-event-locator"
-    title: "acoustic-event-locator"
-    description: "Acoustic event localization system using Time Difference of Arrival (TDOA) multilateration from unsynchronized videos. Locates gunshots, explosions & impulsive sounds with 4+ microphones. WIP"
-    language: "Python"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-09-04"
-  - name: "tmuxcontrollib"
-    title: "tmuxcontrollib"
-    description: "Python Library and MCP server enabling agents to control and communicate with Tmux sessions"
-    language: "Python"
-    topics:
-      - "mcp"
-      - "mcp-server"
-      - "tmux"
-    stars_fact: 2
-    first_seen: null
-    last_push: "2025-06-13"
+repos: []
 ---
 
 # jbwinters

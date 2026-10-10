@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "4138778ebbc75ba6"
-pushes_per_week: [0, 0, 0, 2, 4, 2, 0, 0, 1, 1, 13, 9, 10]
+pushes_per_week: [0, 0, 0, 2, 5, 1, 0, 1, 0, 1, 19, 6, 7]
 windows:
   "7d":
-    pushes: 10
-    distinct_repos: 3
-    active_days: 4
+    pushes: 9
+    distinct_repos: 2
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 10
-    distinct_repos: 3
-    pushes_per_repo: 3.3333
-    active_days: 4
+    pushes: 9
+    distinct_repos: 2
+    pushes_per_repo: 4.5000
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -77,54 +77,54 @@ reasons:
   - "activity: 16 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "decodmetar"
-    title: "decodmetar"
-    description: "Validador e decodificador de METAR com Expressões Regulares e AFNε (LFA - CESUPA)"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-30"
-  - name: "de-la-do-para"
-    title: "de-la-do-para"
-    description: "De Lá do Pará — loja de produtos paraenses (Spring Boot + Angular, checkout confiável com Kafka). Portfólio local, demonstração."
-    language: "Java"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-30"
-  - name: "Mlp-Som-Seoul-bike-renting"
-    title: "Mlp-Som-Seoul-bike-renting"
-    description: "Projeto para MLP e SOM sobre aluguel de bicicletas na capital de Seoul. Tem com objetivo precisar quantas bicicletas são alugadas por hora por variáveis preditoras como o clima"
-    language: "Jupyter Notebook"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-28"
-  - name: "tucupass"
-    title: "tucupass"
-    description: "Inscrição, ingresso com QR e check-in ao vivo para eventos de comunidade (Phoenix LiveView)"
-    language: "Elixir"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-21"
-  - name: "Gaalbu"
-    title: "Gaalbu"
+  - name: "conty-views-humanas"
+    title: "conty-views-humanas"
     description: null
-    language: null
+    language: "TypeScript"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-20"
-  - name: "heatcode"
-    title: "heatcode"
-    description: "Heat map of technical debt for Java projects"
-    language: "Java"
+    last_push: "2026-10-10"
+  - name: "conty-revisao-video"
+    title: "conty-revisao-video"
+    description: null
+    language: "TypeScript"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-13"
+    last_push: "2026-10-10"
+  - name: "conty-rastreio-produto"
+    title: "conty-rastreio-produto"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-10"
+  - name: "conty-origem-cadastro"
+    title: "conty-origem-cadastro"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-10"
+  - name: "conty-vendas-atribuidas"
+    title: "conty-vendas-atribuidas"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-10"
+  - name: "conty-metricas-redes"
+    title: "conty-metricas-redes"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-10"
 ---
 
 # Gaalbu

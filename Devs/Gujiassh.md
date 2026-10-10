@@ -11,12 +11,12 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "16389f32495280ea"
   - "3c90af76cbde0363"
   - "d1946b21c02e5fa5"
-pushes_per_week: [7, 7, 7, 1, 7, 8, 1, 1, 0, 0, 8, 2, 0]
+pushes_per_week: [10, 5, 6, 1, 12, 3, 1, 1, 0, 0, 8, 2, 0]
 windows:
   "7d":
     pushes: 0
@@ -83,12 +83,20 @@ reasons:
 repos:
   - name: "citeframe"
     title: "citeframe"
-    description: null
+    description: "Citeframe is a self-hosted multimodal AI knowledge workspace for organizing heterogeneous assets, asking evidence-grounded questions, conducting research, and preserving traceable knowledge."
     language: "Python"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-29"
+    last_push: "2026-10-07"
+  - name: "Gujiassh"
+    title: "Gujiassh"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-07"
   - name: "ferricov"
     title: "ferricov"
     description: "Parity-first Rust reimplementation of LCOV 2.5 with a reproducible Oracle; 148-case baseline; environment, tracefile, diagnostics, and 321-entry installation contracts; plus a 531-entry behavior plan."
@@ -157,14 +165,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-07-25"
-  - name: "audio-translate-overlay"
-    title: "audio-translate-overlay"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-04-11"
 ---
 
 # Gujiassh

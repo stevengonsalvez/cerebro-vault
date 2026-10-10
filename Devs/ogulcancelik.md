@@ -10,37 +10,37 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "576c6507cbdd1cf3"
   - "c87b77df69f1bb71"
-pushes_per_week: [9, 13, 18, 17, 16, 8, 7, 0, 2, 4, 4, 6, 5]
+pushes_per_week: [15, 14, 15, 15, 18, 7, 4, 0, 3, 6, 4, 3, 6]
 windows:
   "7d":
-    pushes: 5
+    pushes: 6
     distinct_repos: 1
-    active_days: 1
+    active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 20
+    pushes: 21
     distinct_repos: 3
-    active_days: 11
+    active_days: 12
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 109
+    pushes: 110
     distinct_repos: 13
-    active_days: 49
+    active_days: 50
     repos_not_owned: 11
     not_owned_basenames: 2
     not_owned_owners: 10
 automation:
   state: "clear"
-  push_per_day: 2.2245
-  repo_per_active_day: 0.2653
+  push_per_day: 2.2000
+  repo_per_active_day: 0.2600
   not_owned_ratio: 0.8462
   basename_concentration: 0.8462
   shapes:
@@ -67,42 +67,42 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 5
+    pushes: 6
     distinct_repos: 1
-    pushes_per_repo: 5.0000
-    active_days: 1
+    pushes_per_repo: 6.0000
+    active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 20
+    pushes: 21
     distinct_repos: 3
-    pushes_per_repo: 6.6667
-    active_days: 11
+    pushes_per_repo: 7.0000
+    active_days: 12
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 109
+    pushes: 110
     distinct_repos: 13
-    pushes_per_repo: 8.3846
-    active_days: 49
+    pushes_per_repo: 8.4615
+    active_days: 50
     repos_not_owned: 11
     not_owned_basenames: 2
     not_owned_owners: 10
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 49 active days in 90d — pass"
+  - "activity: 50 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "herdr-plugin-examples"
-    title: "herdr-plugin-examples"
-    description: null
-    language: "JavaScript"
+  - name: "pi-extensions"
+    title: "pi-extensions"
+    description: "Extensions for pi, the terminal-based coding agent"
+    language: "TypeScript"
     topics: []
-    stars_fact: 23
+    stars_fact: 558
     first_seen: null
-    last_push: "2026-06-15"
+    last_push: "2026-10-08"
   - name: "herdr-browser"
     title: "herdr-browser"
     description: "Render a real Chromium view inside a Herdr pane and drive it over CDP."
@@ -115,17 +115,17 @@ repos:
       - "herdr-plugin"
       - "kitty-graphics"
       - "terminal"
-    stars_fact: 356
+    stars_fact: 357
     first_seen: null
     last_push: "2026-08-22"
-  - name: "pi-extensions"
-    title: "pi-extensions"
-    description: "Extensions for pi, the terminal-based coding agent"
-    language: "TypeScript"
+  - name: "herdr-plugin-examples"
+    title: "herdr-plugin-examples"
+    description: null
+    language: "JavaScript"
     topics: []
-    stars_fact: 551
+    stars_fact: 23
     first_seen: null
-    last_push: "2026-09-26"
+    last_push: "2026-06-15"
   - name: "agent-skills"
     title: "agent-skills"
     description: "Small, opinionated, agent-agnostic skills for coding agents"
@@ -160,6 +160,6 @@ repos:
 
 # ogulcancelik
 
-109 pushes across 13 repositories on 49 active days in the last 90 days of public GitHub push activity.
+110 pushes across 13 repositories on 50 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ogulcancelik

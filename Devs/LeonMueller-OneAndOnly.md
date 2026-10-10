@@ -8,11 +8,11 @@ provenance_repos:
   - "anomalyco/opencode"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+repos_populated: false
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [0, 0, 4, 2, 0, 0, 0, 0, 0, 0, 1, 0, 0]
+pushes_per_week: [0, 1, 4, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,55 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "flow-astro-tanstack-start"
-    title: "flow-astro-tanstack-start"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-01"
-  - name: "papercuts-skill"
-    title: "papercuts-skill"
-    description: null
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-04"
-  - name: "OpenCSVinGoogleSheets"
-    title: "OpenCSVinGoogleSheets"
-    description: null
-    language: "Go"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-07-25"
-  - name: "opencode-tsgo-lsp-proxy"
-    title: "opencode-tsgo-lsp-proxy"
-    description: null
-    language: "JavaScript"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-06-02"
-  - name: "react-perf-playground"
-    title: "react-perf-playground"
-    description: null
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-03-15"
-  - name: "rstest-demo-app"
-    title: "rstest-demo-app"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-03-03"
+repos: []
 ---
 
 # LeonMueller-OneAndOnly

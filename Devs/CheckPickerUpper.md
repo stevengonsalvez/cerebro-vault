@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "745308b2b7085095"
-pushes_per_week: [4, 2, 0, 0, 7, 1, 0, 0, 1, 1, 0, 1, 5]
+pushes_per_week: [0, 2, 0, 0, 7, 1, 0, 0, 1, 1, 1, 4, 2]
 windows:
   "7d":
-    pushes: 5
+    pushes: 3
     distinct_repos: 1
     active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 8
+    pushes: 9
     distinct_repos: 3
-    active_days: 6
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 22
+    pushes: 19
     distinct_repos: 6
-    active_days: 11
+    active_days: 10
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.0000
-  repo_per_active_day: 0.5455
+  push_per_day: 1.9000
+  repo_per_active_day: 0.6000
   not_owned_ratio: 0.0000
   basename_concentration: 0.1667
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 5
+    pushes: 3
     distinct_repos: 1
-    pushes_per_repo: 5.0000
+    pushes_per_repo: 3.0000
     active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 8
+    pushes: 9
     distinct_repos: 3
-    pushes_per_repo: 2.6667
-    active_days: 6
+    pushes_per_repo: 3.0000
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 22
+    pushes: 19
     distinct_repos: 6
-    pushes_per_repo: 3.6667
-    active_days: 11
+    pushes_per_repo: 3.1667
+    active_days: 10
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 11 active days in 90d — pass"
+  - "activity: 10 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "skills"
@@ -89,7 +89,23 @@ repos:
       - "skills-sh"
     stars_fact: 6
     first_seen: null
-    last_push: "2026-09-30"
+    last_push: "2026-10-09"
+  - name: "whisper-rs"
+    title: "whisper-rs"
+    description: "whisper-rs 0.16.0 fork adding carry_initial_prompt for Gedō; original: https://codeberg.org/tazz4843/whisper-rs"
+    language: "Rust"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-07"
+  - name: "CheckPickerUpper"
+    title: "CheckPickerUpper"
+    description: "Profile README"
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-05"
   - name: "perfect-typescripter"
     title: "perfect-typescripter"
     description: "Rust-style discipline for TypeScript: Claude Code plugin + ESLint plugin with cross-file rules"
@@ -105,7 +121,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-08-28"
+    last_push: "2026-10-03"
   - name: "reportal"
     title: "reportal"
     description: null
@@ -114,26 +130,10 @@ repos:
     stars_fact: 2
     first_seen: null
     last_push: "2026-08-28"
-  - name: "homebrew-tap"
-    title: "homebrew-tap"
-    description: "Homebrew tap for RePortal CLI"
-    language: "Ruby"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-07-21"
-  - name: "scoop-reportal"
-    title: "scoop-reportal"
-    description: "Scoop bucket for RePortal CLI"
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-07-21"
 ---
 
 # CheckPickerUpper
 
-22 pushes across 6 repositories on 11 active days in the last 90 days of public GitHub push activity.
+19 pushes across 6 repositories on 10 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/CheckPickerUpper

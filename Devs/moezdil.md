@@ -8,39 +8,39 @@ provenance_repos:
   - "agent-substrate/substrate"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+repos_populated: false
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "a5ffcd0a46dd44fd"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 11, 15]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 11, 14]
 windows:
   "7d":
-    pushes: 16
-    distinct_repos: 4
+    pushes: 14
+    distinct_repos: 6
     active_days: 4
-    repos_not_owned: 3
-    not_owned_basenames: 2
-    not_owned_owners: 2
+    repos_not_owned: 6
+    not_owned_basenames: 4
+    not_owned_owners: 4
   "30d":
-    pushes: 26
-    distinct_repos: 11
-    active_days: 9
-    repos_not_owned: 3
-    not_owned_basenames: 2
-    not_owned_owners: 2
+    pushes: 29
+    distinct_repos: 14
+    active_days: 11
+    repos_not_owned: 6
+    not_owned_basenames: 4
+    not_owned_owners: 4
   "90d":
-    pushes: 26
-    distinct_repos: 11
-    active_days: 9
-    repos_not_owned: 3
-    not_owned_basenames: 2
-    not_owned_owners: 2
+    pushes: 29
+    distinct_repos: 14
+    active_days: 11
+    repos_not_owned: 6
+    not_owned_basenames: 4
+    not_owned_owners: 4
 automation:
   state: "clear"
-  push_per_day: 2.8889
-  repo_per_active_day: 1.2222
-  not_owned_ratio: 0.2727
-  basename_concentration: 0.1818
+  push_per_day: 2.6364
+  repo_per_active_day: 1.2727
+  not_owned_ratio: 0.4286
+  basename_concentration: 0.1429
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,117 +49,38 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 16
-    distinct_repos: 4
-    pushes_per_repo: 4.0000
+    pushes: 14
+    distinct_repos: 6
+    pushes_per_repo: 2.3333
     active_days: 4
-    repos_not_owned: 3
-    not_owned_basenames: 2
-    not_owned_owners: 2
+    repos_not_owned: 6
+    not_owned_basenames: 4
+    not_owned_owners: 4
   "30d":
-    pushes: 26
-    distinct_repos: 11
-    pushes_per_repo: 2.3636
-    active_days: 9
-    repos_not_owned: 3
-    not_owned_basenames: 2
-    not_owned_owners: 2
+    pushes: 29
+    distinct_repos: 14
+    pushes_per_repo: 2.0714
+    active_days: 11
+    repos_not_owned: 6
+    not_owned_basenames: 4
+    not_owned_owners: 4
   "90d":
-    pushes: 26
-    distinct_repos: 11
-    pushes_per_repo: 2.3636
-    active_days: 9
-    repos_not_owned: 3
-    not_owned_basenames: 2
-    not_owned_owners: 2
+    pushes: 29
+    distinct_repos: 14
+    pushes_per_repo: 2.0714
+    active_days: 11
+    repos_not_owned: 6
+    not_owned_basenames: 4
+    not_owned_owners: 4
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 9 active days in 90d — pass"
+  - "activity: 11 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "CUDA"
-    title: "CUDA"
-    description: "Learn how a GPU works, then write CUDA code. Plain-English lessons with interactive diagrams."
-    language: "Cuda"
-    topics:
-      - "cpp"
-      - "cuda"
-      - "gpu"
-      - "gpu-computing"
-      - "gpu-optimization"
-      - "gpu-programming"
-      - "learning"
-      - "nvidia"
-      - "parallel-computing"
-    stars_fact: 109
-    first_seen: null
-    last_push: "2026-10-01"
-  - name: "gpuBook-site"
-    title: "gpuBook-site"
-    description: null
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-01"
-  - name: "siltide"
-    title: "siltide"
-    description: "Terminal fleet monitor for GPUs, NPUs, and 13 other accelerator kinds, from utilization down to which pod is using them."
-    language: "Go"
-    topics:
-      - "accelerators"
-      - "amd"
-      - "apple-silicon"
-      - "cli"
-      - "go"
-      - "gpu"
-      - "kubernetes"
-      - "monitoring"
-      - "npu"
-      - "nvidia"
-      - "observability"
-      - "prometheus"
-      - "slurm"
-      - "terminal"
-      - "tui"
-    stars_fact: 6
-    first_seen: null
-    last_push: "2026-09-30"
-  - name: "homebrew-tap"
-    title: "homebrew-tap"
-    description: "Homebrew tap for siltide, the terminal monitor for GPUs, NPUs, and other AI accelerators"
-    language: "Shell"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-30"
-  - name: "myOTel"
-    title: "myOTel"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-26"
-  - name: "mcp-gpu-server"
-    title: "mcp-gpu-server"
-    description: null
-    language: "Python"
-    topics:
-      - "gpu"
-      - "mcp"
-      - "mcp-server"
-      - "model-context-protocol"
-      - "nvidia"
-      - "nvidia-smi"
-      - "nvml"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-26"
+repos: []
 ---
 
 # moezdil
 
-26 pushes across 11 repositories on 9 active days in the last 90 days of public GitHub push activity.
+29 pushes across 14 repositories on 11 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/moezdil

@@ -8,11 +8,11 @@ provenance_repos:
   - "abhigyanpatwari/GitNexus"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+repos_populated: false
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [4, 5, 3, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [5, 4, 4, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,60 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 9 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "ai-dashboard"
-    title: "ai-dashboard"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-02"
-  - name: "kernel-factory"
-    title: "kernel-factory"
-    description: "Auditable CAKE-inspired kernel search control plane for MTT S4000"
-    language: "Python"
-    topics:
-      - "autotuning"
-      - "gpu"
-      - "kernel-optimization"
-      - "musa"
-      - "s4000"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-23"
-  - name: "infinilm-serving-bench"
-    title: "infinilm-serving-bench"
-    description: "InfiniLM 推理服务能力压测工具集（4090 显存自适应，T2-1-2 服务能力优化）"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-06-28"
-  - name: "agentlens"
-    title: "agentlens"
-    description: "AI Agent Evaluation & Observability Platform — LangGraph + Gemini + OTEL + Grafana"
-    language: "Python"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-05-17"
-  - name: "codex-skill-read-open-source-repo"
-    title: "codex-skill-read-open-source-repo"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-04-12"
-  - name: "opensearch-loadtest"
-    title: "opensearch-loadtest"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 6
-    first_seen: null
-    last_push: "2025-11-10"
+repos: []
 ---
 
 # noCharger

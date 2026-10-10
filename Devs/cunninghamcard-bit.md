@@ -9,28 +9,28 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [2, 2, 0, 1, 1, 4, 3, 0, 0, 0, 3, 17, 8]
+pushes_per_week: [1, 1, 0, 1, 3, 2, 3, 0, 0, 0, 6, 19, 5]
 windows:
   "7d":
-    pushes: 9
-    distinct_repos: 3
-    active_days: 6
+    pushes: 7
+    distinct_repos: 2
+    active_days: 5
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 28
+    pushes: 30
     distinct_repos: 3
-    active_days: 14
+    active_days: 15
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
     pushes: 41
-    distinct_repos: 5
+    distinct_repos: 4
     active_days: 24
     repos_not_owned: 2
     not_owned_basenames: 2
@@ -38,9 +38,9 @@ windows:
 automation:
   state: "clear"
   push_per_day: 1.7083
-  repo_per_active_day: 0.2083
-  not_owned_ratio: 0.4000
-  basename_concentration: 0.4000
+  repo_per_active_day: 0.1667
+  not_owned_ratio: 0.5000
+  basename_concentration: 0.5000
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 9
-    distinct_repos: 3
-    pushes_per_repo: 3.0000
-    active_days: 6
+    pushes: 7
+    distinct_repos: 2
+    pushes_per_repo: 3.5000
+    active_days: 5
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 28
+    pushes: 30
     distinct_repos: 3
-    pushes_per_repo: 9.3333
-    active_days: 14
+    pushes_per_repo: 10.0000
+    active_days: 15
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
     pushes: 41
-    distinct_repos: 5
-    pushes_per_repo: 8.2000
+    distinct_repos: 4
+    pushes_per_repo: 10.2500
     active_days: 24
     repos_not_owned: 2
     not_owned_basenames: 2
@@ -77,6 +77,14 @@ reasons:
   - "activity: 24 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "attention"
+    title: "attention"
+    description: "desktop agent workbench"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-07"
   - name: "nehir-niri-dual-monitor"
     title: "nehir-niri-dual-monitor"
     description: "Niri-style Nehir configuration for two side-by-side macOS displays"
@@ -109,14 +117,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-08-17"
-  - name: "attention"
-    title: "attention"
-    description: "desktop agent workbench"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-16"
   - name: "dimagent-bin"
     title: "dimagent-bin"
     description: "AUR package dimagent-bin - DimCode desktop client (auto-updated)"
@@ -129,6 +129,6 @@ repos:
 
 # cunninghamcard-bit
 
-41 pushes across 5 repositories on 24 active days in the last 90 days of public GitHub push activity.
+41 pushes across 4 repositories on 24 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/cunninghamcard-bit

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "46f3c1d6124190bd"
-pushes_per_week: [1, 1, 2, 4, 8, 2, 1, 0, 0, 1, 3, 0, 5]
+pushes_per_week: [1, 1, 3, 4, 8, 1, 1, 0, 0, 1, 3, 0, 5]
 windows:
   "7d":
     pushes: 5
@@ -94,7 +94,44 @@ repos:
       - "symbolic-computation"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-27"
+    last_push: "2026-10-10"
+  - name: "Sode-no-Shita"
+    title: "Sode-no-Shita"
+    description: "[ENG] A lightweight and secure WebRTC file transfer tool that allows bidirectional P2P transfer of files and folders. / [JPN] P2Pで直接ファイルやフォルダを双方向に送受信できる、軽量で安全なWebRTCファイル転送ツール"
+    language: "TypeScript"
+    topics:
+      - "cross-platform"
+      - "desktop-app"
+      - "file-transfer"
+      - "golang"
+      - "p2p"
+      - "react"
+      - "webrtc"
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-10-09"
+  - name: "Yuzuko-TRPG-house-rules"
+    title: "Yuzuko-TRPG-house-rules"
+    description: "【TRPG】ユズコ卓のハウスルールおよびセッション用推奨フォーマット管理リポジトリ"
+    language: null
+    topics:
+      - "coc"
+      - "house-rules"
+      - "markdown"
+      - "tabletop-rpg"
+      - "trpg"
+      - "ttrpg"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-06"
+  - name: "local-issues-skill"
+    title: "local-issues-skill"
+    description: "[ENG] Agent skill to manage local issues and roadmaps for AI-assisted development / [JPN] AIエージェント開発向けにローカルissueとロードマップを管理するエージェントスキル"
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-05"
   - name: "myuujik"
     title: "myuujik"
     description: "[ENG] High-performance, multi-format TUI music player with WASAPI exclusive mode, 10-band EQ, synchronized lyrics, and FFT visualizer / [JPN] WASAPI排他モード・10バンドEQ・歌詞同期・FFTアナライザーを搭載した高性能TUI音楽プレーヤー"
@@ -124,50 +161,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-08-26"
-  - name: "KanColle-Yuzuko-Blog"
-    title: "KanColle-Yuzuko-Blog"
-    description: "ユズコの艦これ個人攻略ブログ"
-    language: "TypeScript"
-    topics:
-      - "blog"
-      - "game-guide"
-      - "kancolle"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-23"
-  - name: "SaborunaCLI"
-    title: "SaborunaCLI"
-    description: "[ENG]TUI TODO manager using Markdown and Ink / [JPN]MarkdownファイルとInkを使用したTUI TODO管理マネージャー"
-    language: "JavaScript"
-    topics:
-      - "cli-app"
-      - "ink"
-      - "markdown"
-      - "nodejs"
-      - "react"
-      - "todo-manager"
-      - "tui"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-23"
-  - name: "continuity-ledger"
-    title: "continuity-ledger"
-    description: "[ENG]A retrospective calendar app that calculates accumulated savings under past assumptions / [JPN]「あの時から貯金し続けていたら」を淡々と計算・表示するカレンダーアプリ"
-    language: "JavaScript"
-    topics:
-      - "bigint"
-      - "calculator"
-      - "calendar"
-      - "canvas"
-      - "i18n"
-      - "javascript"
-      - "ledger"
-      - "localstorage"
-      - "savings"
-      - "vanilla-js"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-20"
 ---
 
 # DovahkiinYuzuko

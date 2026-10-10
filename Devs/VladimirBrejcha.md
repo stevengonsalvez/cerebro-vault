@@ -8,11 +8,11 @@ provenance_repos:
   - "alibaba/open-code-review"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+repos_populated: false
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "c489e6fb5febf2ab"
-pushes_per_week: [11, 2, 0, 0, 2, 1, 2, 0, 1, 0, 0, 0, 2]
+pushes_per_week: [10, 0, 0, 0, 3, 1, 1, 0, 1, 0, 0, 0, 2]
 windows:
   "7d":
     pushes: 2
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 21
+    pushes: 18
     distinct_repos: 3
-    active_days: 12
+    active_days: 10
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.7500
-  repo_per_active_day: 0.2500
+  push_per_day: 1.8000
+  repo_per_active_day: 0.3000
   not_owned_ratio: 1.0000
   basename_concentration: 0.3333
   shapes: []
@@ -65,73 +65,22 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 21
+    pushes: 18
     distinct_repos: 3
-    pushes_per_repo: 7.0000
-    active_days: 12
+    pushes_per_repo: 6.0000
+    active_days: 10
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 12 active days in 90d — pass"
+  - "activity: 10 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "Rise"
-    title: "Rise"
-    description: "Smart Sleep Companion"
-    language: "Swift"
-    topics: []
-    stars_fact: 46
-    first_seen: null
-    last_push: "2023-08-26"
-  - name: "VladimirBrejcha"
-    title: "VladimirBrejcha"
-    description: null
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-23"
-  - name: "SelectableStackView"
-    title: "SelectableStackView"
-    description: "SelectableStackView is a customizable and easy to use UI element for showing and managing selectable elements in a stack written in Swift"
-    language: "Swift"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2020-08-03"
-  - name: "PodlodkaPetProjectChallenge"
-    title: "PodlodkaPetProjectChallenge"
-    description: "Challenging each other to complete pet projects!"
-    language: "Swift"
-    topics:
-      - "challenge"
-      - "pet-project"
-      - "swift"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2021-11-13"
-  - name: "LoadingView"
-    title: "LoadingView"
-    description: "Easy to use, highly customisable, animated view to display a loading"
-    language: "Swift"
-    topics: []
-    stars_fact: 6
-    first_seen: null
-    last_push: "2022-11-25"
-  - name: "LoadingViewExample"
-    title: "LoadingViewExample"
-    description: "an example of LoadingView library usage"
-    language: "Swift"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2022-11-25"
+repos: []
 ---
 
 # VladimirBrejcha
 
-21 pushes across 3 repositories on 12 active days in the last 90 days of public GitHub push activity.
+18 pushes across 3 repositories on 10 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/VladimirBrejcha

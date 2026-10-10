@@ -8,11 +8,11 @@ provenance_repos:
   - "BuilderIO/agent-native"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+repos_populated: false
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "745308b2b7085095"
-pushes_per_week: [7, 0, 2, 0, 0, 0, 2, 0, 1, 5, 0, 2, 0]
+pushes_per_week: [7, 1, 1, 0, 0, 0, 2, 0, 1, 5, 0, 2, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,103 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 9 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "MoveUp"
-    title: "MoveUp"
-    description: "App that encourages you to take breaks and change your body position while using computer through a gamification experience with points and badges. Integrates with Open Smart Desk, which monitors desk time and height."
-    language: "Rust"
-    topics:
-      - "app"
-      - "desk"
-      - "health"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-28"
-  - name: "zentala.eu"
-    title: "zentala.eu"
-    description: "The European Union reform / modernization / innovation ideas in the spirit of Information Economy, 4th Industrial Revolution."
-    language: "MDX"
-    topics:
-      - "blog"
-      - "eu"
-      - "innovation"
-      - "reform"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-26"
-  - name: "pTTY"
-    title: "pTTY"
-    description: "pTTY — persistent virtual terminal for remote AI coding and Linux management via SSH. Keep alive console sessions of Claude, Codex, Gemini, or Pi coding agents, across SSH drops, WiFi glitches, and laptop sleep. Built on tmux with Ctrl+F1–F10 hotkeys for instant switching between 10 terminal sessions."
-    language: "Shell"
-    topics:
-      - "ai-cli"
-      - "ai-coding"
-      - "aider"
-      - "claude-code"
-      - "codex"
-      - "console"
-      - "developer-experience"
-      - "devex"
-      - "persistence"
-      - "presistent-terminal"
-      - "remote"
-      - "remote-control"
-      - "remote-terminal"
-      - "server-management"
-      - "sessions"
-      - "ssh"
-      - "sysadmin"
-      - "terminal"
-      - "tmux"
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-09-15"
-  - name: "wfh-indicator"
-    title: "wfh-indicator"
-    description: "Concept & specs for a visual WFH status indicator for remote workers — to reduce interruptions in shared homes by showing when you're on a call, focused, or available. Open to community-driven development."
-    language: "HTML"
-    topics:
-      - "community-project"
-      - "concept"
-      - "home-office"
-      - "open-hardware"
-      - "open-specification"
-      - "product"
-      - "remote-work"
-      - "smart-home"
-      - "ux-design"
-      - "wfh"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-15"
-  - name: "ulanzi-deck-d200-plugin-example"
-    title: "ulanzi-deck-d200-plugin-example"
-    description: "Three working examples of controlling the Ulanzi Deck D200 — official Plugin SDK (Node.js), direct USB (Python/strmdck), and ADB framebuffer. Plus a complete research write-up."
-    language: "JavaScript"
-    topics:
-      - "adb-framebuffer"
-      - "nodejs"
-      - "plugin-example"
-      - "python"
-      - "rockchip"
-      - "stream-deck"
-      - "strmdck"
-      - "ulanzi-d200"
-      - "ulanzideck"
-      - "ulanzistudio"
-    stars_fact: 4
-    first_seen: null
-    last_push: "2026-09-15"
-  - name: "MTelecom"
-    title: "MTelecom"
-    description: "Simple website for a neighbour’s local business - phone and electronics repair service. Single‑page static, built with Astro, Tailwind CSS, DaisyUI, and SCSS, and deployed serverlessly via GitHub Pages."
-    language: "Astro"
-    topics:
-      - "static-site"
-      - "website"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-15"
+repos: []
 ---
 
 # zentala

@@ -11,11 +11,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "4930e4f9e24bb204"
   - "73468cde177ddae6"
-pushes_per_week: [0, 3, 3, 3, 3, 1, 2, 0, 0, 0, 4, 5, 0]
+pushes_per_week: [0, 3, 3, 3, 4, 1, 1, 0, 0, 2, 5, 2, 0]
 windows:
   "7d":
     pushes: 0
@@ -100,35 +100,9 @@ repos:
       - "opencode-skills"
       - "self-hosted"
       - "skills"
-    stars_fact: 8566
+    stars_fact: 9581
     first_seen: "2026-09-03T06:00:04.259291+00:00"
-    last_push: "2026-09-30"
-  - name: "standards"
-    title: "standards"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-30"
-  - name: "gpui-flow"
-    title: "gpui-flow"
-    description: "visual node editor react flow for gpui"
-    language: "Rust"
-    topics: []
-    stars_fact: 38
-    first_seen: null
-    last_push: "2026-03-23"
-  - name: "pacifio.github.io"
-    title: "pacifio.github.io"
-    description: "My personal website built with Tailwind 💨"
-    language: "HTML"
-    topics:
-      - "portfolio"
-      - "portfolio-website"
-    stars_fact: 3
-    first_seen: null
-    last_push: "2023-06-05"
+    last_push: "2026-10-10"
   - name: "cersei"
     title: "cersei"
     description: "The Rust SDK for building coding agents. Tools, streaming, graph, sub-agent orchestration, MCP — as composable functions"
@@ -142,22 +116,47 @@ repos:
       - "openai"
       - "opencode"
       - "rust"
-    stars_fact: 460
+    stars_fact: 461
     first_seen: null
     last_push: "2026-08-06"
-  - name: "demoji"
-    title: "demoji"
-    description: "A dart library with over 1500+ emojis 😀🎯"
-    language: "Dart"
-    topics:
-      - "dart"
-      - "dart-cli"
-      - "dart-library"
-      - "dart-package"
-      - "dart2"
-    stars_fact: 33
+  - name: "gpui-flow"
+    title: "gpui-flow"
+    description: "visual node editor react flow for gpui"
+    language: "Rust"
+    topics: []
+    stars_fact: 41
     first_seen: null
-    last_push: "2021-08-04"
+    last_push: "2026-03-23"
+  - name: "ui"
+    title: "ui"
+    description: "The shadcn for agent UI. A framework-agnostic design language for dense, AMOLED-black, multi-surface interfaces"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 154
+    first_seen: null
+    last_push: "2026-04-24"
+  - name: "hotel-dashboard"
+    title: "hotel-dashboard"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-05"
+  - name: "unc"
+    title: "unc"
+    description: "HuggingFace transformer compiler for optimised native inference binaries"
+    language: "C++"
+    topics:
+      - "apple"
+      - "apple-silicon"
+      - "compiler"
+      - "gpu"
+      - "metal"
+      - "ml-compiler"
+    stars_fact: 39
+    first_seen: null
+    last_push: "2026-04-01"
 ---
 
 # pacifio

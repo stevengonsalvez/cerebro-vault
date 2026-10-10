@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "48dbbdd8fd0d3029"
 pushes_per_week: [1, 4, 1, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0]
@@ -77,6 +77,22 @@ reasons:
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "cli-meow-help"
+    title: "cli-meow-help"
+    description: "🐈 Generate automagically formatted help text for `meow` CLI app helper."
+    language: "JavaScript"
+    topics:
+      - "cli"
+      - "command-line"
+      - "help"
+      - "javascript"
+      - "kitten"
+      - "meow"
+      - "meow-help"
+      - "nodejs"
+    stars_fact: 38
+    first_seen: null
+    last_push: "2024-08-13"
   - name: "flat-data"
     title: "flat-data"
     description: null
@@ -84,49 +100,44 @@ repos:
     topics: []
     stars_fact: 3
     first_seen: null
-    last_push: "2026-10-01"
-  - name: "shades-of-purple-vscode"
-    title: "shades-of-purple-vscode"
-    description: "🦄 Shades of Purple offers a hand-picked selection of bold and vibrant shades of purple that will transform your code into a visually stunning masterpiece. With its carefully crafted color palette, this theme brings a sense of style, elegance, and whimsy to your favorite code editor, making your coding sessions a delightful journey of creativity."
-    language: null
-    topics:
-      - "hacktoberfest"
-      - "purple"
-      - "shades-of-purple"
-      - "visual-studio"
-      - "vscode"
-      - "vscode-extension"
-      - "vscode-theme"
-    stars_fact: 790
+    last_push: "2026-10-10"
+  - name: "excalidraw-cli"
+    title: "excalidraw-cli"
+    description: "excalidraw-cli — Create hand-drawn Excalidraw diagrams from the command line. Generate .excalidraw files, manage diagram checkpoints, export to excalidraw.com, and reference the complete element format — all without leaving your terminal."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 101
     first_seen: null
-    last_push: "2026-07-23"
-  - name: "gitmark"
-    title: "gitmark"
-    description: "Bookmark links in a git repo"
+    last_push: "2026-02-11"
+  - name: "Emoji-Log"
+    title: "Emoji-Log"
+    description: "Emoji-Log — An Emoji Git commit log messages spec. [ 📦👌🐛📖🚀🤖 ‼️]"
     language: "JavaScript"
-    topics: []
-    stars_fact: 7
-    first_seen: null
-    last_push: "2026-02-13"
-  - name: "awesome-random-stuff"
-    title: "awesome-random-stuff"
-    description: "A running log of interesting discoveries from the web by Ahmad Awais."
-    language: null
     topics:
-      - "awesome"
-      - "awesome-list"
-      - "ideas"
-    stars_fact: 447
+      - "alfred-snippets"
+      - "emoji"
+      - "emoji-log"
+      - "emoji-meaning"
+      - "git"
+      - "vscode"
+      - "workflow"
+    stars_fact: 903
     first_seen: null
-    last_push: "2026-06-23"
-  - name: "stuff"
-    title: "stuff"
-    description: "👀 Random Stuff!"
-    language: "HTML"
-    topics: []
-    stars_fact: 5
+    last_push: "2025-09-22"
+  - name: "create-node-cli"
+    title: "create-node-cli"
+    description: "📟 CLI to create new Node.js CLI applications in minutes not hours."
+    language: "JavaScript"
+    topics:
+      - "cli"
+      - "create"
+      - "hacktoberfest"
+      - "node"
+      - "node-cli"
+      - "nodejs"
+    stars_fact: 674
     first_seen: null
-    last_push: "2026-09-25"
+    last_push: "2024-08-13"
   - name: "chartli"
     title: "chartli"
     description: "CLI that turns plain numbers into terminal charts. ascii, spark, bars, columns, heatmap, unicode, braille, svg."

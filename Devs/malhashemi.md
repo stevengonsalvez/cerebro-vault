@@ -10,16 +10,16 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "745308b2b7085095"
   - "ffccace0ba14fd15"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 2, 1, 1]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 3, 1, 0]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -51,10 +51,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -79,6 +79,47 @@ reasons:
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "opencode-sessions"
+    title: "opencode-sessions"
+    description: "Session management plugin for OpenCode with multi-agent collaboration support"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 179
+    first_seen: null
+    last_push: "2025-10-30"
+  - name: "opencode-gpt-live"
+    title: "opencode-gpt-live"
+    description: "Talk to OpenCode out loud: real-time GPT-Live voice calls on your ChatGPT subscription"
+    language: "TypeScript"
+    topics:
+      - "chatgpt"
+      - "gpt-live"
+      - "opencode"
+      - "opencode-plugin"
+      - "realtime"
+      - "rust"
+      - "tui"
+      - "voice-assistant"
+      - "webrtc"
+    stars_fact: 35
+    first_seen: null
+    last_push: "2026-10-07"
+  - name: "opencode-dynamic-workflows"
+    title: "opencode-dynamic-workflows"
+    description: "Deterministic multi-agent Workflows for OpenCode: TypeScript scripts that fan work out to subagents and combine their typed results."
+    language: "TypeScript"
+    topics:
+      - "ai-agents"
+      - "multi-agent"
+      - "opencode"
+      - "opencode-plugin"
+      - "orchestration"
+      - "subagents"
+      - "typescript"
+      - "workflows"
+    stars_fact: 5
+    first_seen: null
+    last_push: "2026-09-26"
   - name: "opencode-codex-computer-use"
     title: "opencode-codex-computer-use"
     description: "Let OpenCode operate your desktop apps and Chrome tabs with the Codex Computer Use engine already on your machine"
@@ -103,47 +144,6 @@ repos:
     stars_fact: 21
     first_seen: null
     last_push: "2026-10-02"
-  - name: "opencode-gpt-live"
-    title: "opencode-gpt-live"
-    description: "Talk to OpenCode out loud: real-time GPT-Live voice calls on your ChatGPT subscription"
-    language: "TypeScript"
-    topics:
-      - "chatgpt"
-      - "gpt-live"
-      - "opencode"
-      - "opencode-plugin"
-      - "realtime"
-      - "rust"
-      - "tui"
-      - "voice-assistant"
-      - "webrtc"
-    stars_fact: 30
-    first_seen: null
-    last_push: "2026-09-26"
-  - name: "opencode-dynamic-workflows"
-    title: "opencode-dynamic-workflows"
-    description: "Deterministic multi-agent Workflows for OpenCode: TypeScript scripts that fan work out to subagents and combine their typed results."
-    language: "TypeScript"
-    topics:
-      - "ai-agents"
-      - "multi-agent"
-      - "opencode"
-      - "opencode-plugin"
-      - "orchestration"
-      - "subagents"
-      - "typescript"
-      - "workflows"
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-09-26"
-  - name: "opencode-sessions"
-    title: "opencode-sessions"
-    description: "Session management plugin for OpenCode with multi-agent collaboration support"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 178
-    first_seen: null
-    last_push: "2025-10-30"
   - name: "workflow-observer"
     title: "workflow-observer"
     description: "Observe Claude workflows across projects: live phases, session costs, model metadata and recorded evidence. Local-first, powered by Bun."

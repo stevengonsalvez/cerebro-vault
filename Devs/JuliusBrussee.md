@@ -8,16 +8,16 @@ provenance_repos:
   - "JuliusBrussee/caveman"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+repos_populated: false
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "bac657e60ae022eb"
-pushes_per_week: [4, 0, 0, 0, 1, 3, 0, 1, 2, 1, 5, 7, 7]
+pushes_per_week: [4, 0, 0, 0, 2, 2, 1, 0, 2, 1, 11, 1, 7]
 windows:
   "7d":
-    pushes: 8
+    pushes: 7
     distinct_repos: 1
-    active_days: 2
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 8
+    pushes: 7
     distinct_repos: 1
-    pushes_per_repo: 8.0000
-    active_days: 2
+    pushes_per_repo: 7.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -76,78 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 14 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "caveman"
-    title: "caveman"
-    description: "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that cuts 65% of tokens by talking like a caveman."
-    language: "Go"
-    topics:
-      - "ai"
-      - "anthropic"
-      - "caveman"
-      - "claude"
-      - "claude-code"
-      - "llm"
-      - "meme"
-      - "prompt-engineering"
-      - "skill"
-      - "tokens"
-    stars_fact: 108771
-    first_seen: "2026-07-03T06:00:07.803484+00:00"
-    last_push: "2026-10-01"
-  - name: "skills"
-    title: "skills"
-    description: null
-    language: "JavaScript"
-    topics: []
-    stars_fact: 160
-    first_seen: null
-    last_push: "2026-08-07"
-  - name: "cavekit"
-    title: "cavekit"
-    description: "Frozen — compressed spec-driven development plugin for Claude Code. Still works; active development moved to JuliusBrussee/caveman."
-    language: null
-    topics:
-      - "claude-code"
-      - "parallel-agents"
-      - "skills"
-      - "spec-driven-development"
-      - "test-driven-development"
-    stars_fact: 1150
-    first_seen: null
-    last_push: "2026-08-14"
-  - name: "jazz-jackrabbit-remastered"
-    title: "jazz-jackrabbit-remastered"
-    description: "Single-file HTML5 fan remake of Jazz Jackrabbit (1994): 5 worlds, 2 bosses, procedural art and music"
-    language: "HTML"
-    topics: []
-    stars_fact: 4
-    first_seen: null
-    last_push: "2026-09-23"
-  - name: "auto-karpathy"
-    title: "auto-karpathy"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 29
-    first_seen: null
-    last_push: "2026-04-26"
-  - name: "cavemem"
-    title: "cavemem"
-    description: "Frozen — cross-agent persistent memory for coding assistants. Still works; the compressed-memory core now ships inside JuliusBrussee/caveman."
-    language: "TypeScript"
-    topics:
-      - "ai"
-      - "caveman"
-      - "claude"
-      - "claude-code"
-      - "compress"
-      - "memory"
-      - "rag"
-      - "rag-chatbot"
-    stars_fact: 678
-    first_seen: null
-    last_push: "2026-08-14"
+repos: []
 ---
 
 # JuliusBrussee

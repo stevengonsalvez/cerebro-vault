@@ -8,11 +8,11 @@ provenance_repos:
   - "can1357/oh-my-pi"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+repos_populated: false
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [0, 0, 0, 1, 1, 0, 1, 0, 0, 1, 3, 0, 2]
+pushes_per_week: [0, 0, 0, 2, 0, 1, 0, 0, 0, 1, 3, 2, 0]
 windows:
   "7d":
     pushes: 2
@@ -76,72 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "dot-omp"
-    title: "dot-omp"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-25"
-  - name: "cognitive-comfort"
-    title: "cognitive-comfort"
-    description: "Cross-browser extension for calmer, intentional media viewing"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-14"
-  - name: "wallpapers"
-    title: "wallpapers"
-    description: "Curated collection of 40 ultra-high-res 4K Sci-Fi & Speculative desktop wallpapers with full reproducible prompts and metadata (CC BY 4.0)"
-    language: null
-    topics:
-      - "4k-wallpapers"
-      - "ai-art"
-      - "architecture"
-      - "creative-commons"
-      - "desktop-wallpapers"
-      - "megastructures"
-      - "prompt-engineering"
-      - "sci-fi"
-      - "wallpaper"
-      - "wallpapers"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-08-23"
-  - name: "fish-ferry"
-    title: "fish-ferry"
-    description: "Persistent live-path clipboard, helps moving files around filesystem"
-    language: "Shell"
-    topics:
-      - "cli"
-      - "cross-platform"
-      - "fhs"
-      - "fish-shell"
-      - "fisher"
-      - "plugin"
-      - "terminal"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-23"
-  - name: "lastlook"
-    title: "lastlook"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-08-04"
-  - name: "olegpulatov.github.io"
-    title: "olegpulatov.github.io"
-    description: "Personal GitHub Pages site"
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-07-20"
+repos: []
 ---
 
 # olegpulatov

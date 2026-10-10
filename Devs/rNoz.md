@@ -8,11 +8,11 @@ provenance_repos:
   - "chopratejas/headroom"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+repos_populated: false
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "73468cde177ddae6"
-pushes_per_week: [8, 7, 4, 6, 0, 0, 3, 0, 0, 1, 1, 0, 0]
+pushes_per_week: [14, 1, 6, 4, 0, 2, 1, 0, 1, 0, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,85 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 14 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "factory-ai-droid-cli-rnoz"
-    title: "factory-ai-droid-cli-rnoz"
-    description: "Always-fresh, automated packaging for Factory.ai CLI (droid) with zero-waste session titling, cross-harness keybindings and universal CPU support (AVX2 & baseline)"
-    language: "Python"
-    topics:
-      - "agent-harness"
-      - "agentic-systems"
-      - "archlinux"
-      - "aur"
-      - "aur-package"
-      - "aur-packages"
-      - "aurscan"
-      - "cli"
-      - "cli-agent"
-      - "coding-agent"
-      - "developer-tools"
-      - "droid-cli"
-      - "factory-ai"
-      - "harness"
-      - "packaging"
-      - "terminal"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-03"
-  - name: "tokensave-bin"
-    title: "tokensave-bin"
-    description: "Automated packaging for tokensave (Semantic Code Intelligence for AI Coding Agents) as tokensave-bin AUR package (x86_64, aarch64)"
-    language: "Python"
-    topics:
-      - "archlinux"
-      - "aur"
-      - "aur-package"
-      - "aur-packages"
-      - "cli"
-      - "code-intelligence"
-      - "developer-tools"
-      - "knowledge-graph"
-      - "mcp"
-      - "mcp-server"
-      - "packaging"
-      - "terminal"
-      - "tokensave"
-      - "tree-sitter"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-02"
-  - name: "mikrotik-zed"
-    title: "mikrotik-zed"
-    description: "Zed editor extension for MikroTik RouterOS Script (RSC) — syntax highlighting, autocompletion, and hover documentation"
-    language: "Rust"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-21"
-  - name: "mikrotik-rsc-grammar"
-    title: "mikrotik-rsc-grammar"
-    description: "Tree-sitter grammar for MikroTik RouterOS Script (RSC) language"
-    language: "C"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-21"
-  - name: "vue-docsets"
-    title: "vue-docsets"
-    description: "Vue Docsets: vuex, vue-router, quasar."
-    language: "HTML"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2023-01-05"
-  - name: "phoenix-elixir-dokku"
-    title: "phoenix-elixir-dokku"
-    description: null
-    language: "Elixir"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2023-01-06"
+repos: []
 ---
 
 # rNoz

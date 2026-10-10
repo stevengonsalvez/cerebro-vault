@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "73468cde177ddae6"
-pushes_per_week: [7, 1, 1, 1, 0, 0, 1, 0, 0, 0, 1, 0, 1]
+pushes_per_week: [7, 2, 1, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -77,6 +77,48 @@ reasons:
   - "activity: 9 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "hyperpanes"
+    title: "hyperpanes"
+    description: "A native, cross-platform tiling terminal workspace for AI agents — real native terminals (ConPTY / Unix PTYs) in named, color-framed panes you can tear into windows, with idle-agent glow and an opt-in MCP control plane. Built in Rust + Slint; Windows, Linux & macOS."
+    language: "Rust"
+    topics:
+      - "ai"
+      - "ai-agents"
+      - "developer-tools"
+      - "linux"
+      - "llm"
+      - "macos"
+      - "mcp"
+      - "model-context-protocol"
+      - "rust"
+      - "slint"
+      - "terminal"
+      - "terminal-emulator"
+      - "terminal-multiplexer"
+      - "tiling"
+      - "tmux"
+      - "wayland"
+      - "wgpu"
+      - "windows"
+    stars_fact: 6
+    first_seen: null
+    last_push: "2026-10-06"
+  - name: "agent-orchestration-skills"
+    title: "agent-orchestration-skills"
+    description: "Three composable Claude Code skills for spawning and orchestrating parallel Claude agents (use-claude -> use-hyperpanes -> fan-out)."
+    language: "PowerShell"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-05"
+  - name: "jlcpcb-mcp"
+    title: "jlcpcb-mcp"
+    description: "MCP server for JLCPCB/LCSC: catalog search (yaqwsx/jlcparts SQLite) + live stock, pricing, and datasheets from wmsc.lcsc.com"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-06-03"
   - name: "zernio-mcp"
     title: "zernio-mcp"
     description: "Model Context Protocol (MCP) server that gives Claude full access to the Zernio social media management API — 273 tools covering posts, analytics, inbox, ads, contacts, WhatsApp Business, and more across 14+ platforms."
@@ -103,32 +145,6 @@ repos:
     stars_fact: 8
     first_seen: null
     last_push: "2026-06-10"
-  - name: "hyperpanes"
-    title: "hyperpanes"
-    description: "A native, cross-platform tiling terminal workspace for AI agents — real native terminals (ConPTY / Unix PTYs) in named, color-framed panes you can tear into windows, with idle-agent glow and an opt-in MCP control plane. Built in Rust + Slint; Windows, Linux & macOS."
-    language: "Rust"
-    topics:
-      - "ai"
-      - "ai-agents"
-      - "developer-tools"
-      - "linux"
-      - "llm"
-      - "macos"
-      - "mcp"
-      - "model-context-protocol"
-      - "rust"
-      - "slint"
-      - "terminal"
-      - "terminal-emulator"
-      - "terminal-multiplexer"
-      - "tiling"
-      - "tmux"
-      - "wayland"
-      - "wgpu"
-      - "windows"
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-09-23"
   - name: "hearthsmith"
     title: "hearthsmith"
     description: "A pixel-art blacksmith who lives on your desktop, nags you about tasks, watches your terminal panes, and hands work to your coding agents."
@@ -160,40 +176,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-09-23"
-  - name: "dsh-claude-cli-provider"
-    title: "dsh-claude-cli-provider"
-    description: "Claude via the local claude CLI as a DeepSeek Harness LLM provider — subscription OAuth, no Anthropic API key."
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-10"
-  - name: "multilingual-dictionary-mcp"
-    title: "multilingual-dictionary-mcp"
-    description: "MCP server for multilingual dictionary lookups with word relations (synonyms, antonyms, hypernyms, translations, etc.) covering all languages via ConceptNet, Wiktionary, and Datamuse"
-    language: "TypeScript"
-    topics:
-      - "ai"
-      - "anthropic"
-      - "claude"
-      - "conceptnet"
-      - "dictionary"
-      - "embeddings"
-      - "linguistics"
-      - "llm"
-      - "mcp"
-      - "mcp-server"
-      - "model-context-protocol"
-      - "multilingual"
-      - "nlp"
-      - "numberbatch"
-      - "offline-first"
-      - "typescript"
-      - "wiktionary"
-      - "wordnet"
-    stars_fact: 5
-    first_seen: null
-    last_push: "2026-05-03"
 ---
 
 # Eyalm321

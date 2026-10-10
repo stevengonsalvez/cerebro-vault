@@ -8,11 +8,11 @@ provenance_repos:
   - "anthropics/claude-code-action"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-06T06:06:47.636089+00:00"
+repos_populated: false
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "0b22ca37fd3884c9"
-pushes_per_week: [0, 1, 2, 3, 0, 0, 0, 0, 0, 0, 0, 0, 3]
+pushes_per_week: [0, 1, 3, 2, 0, 0, 0, 0, 0, 0, 0, 1, 2]
 windows:
   "7d":
     pushes: 3
@@ -76,55 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 8 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "nix-cache-rs"
-    title: "nix-cache-rs"
-    description: "A personal nix binary cache backed by Cloudflare Workers and R2 storage"
-    language: "Rust"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-04"
-  - name: "piv-agent.nix"
-    title: "piv-agent.nix"
-    description: "home-manager module for https://github.com/smlx/piv-agent"
-    language: "Nix"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-02"
-  - name: "yaner"
-    title: "yaner"
-    description: "Yet another NES emulator in rust"
-    language: "Rust"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-04-28"
-  - name: "spanner-rs"
-    title: "spanner-rs"
-    description: "Spanner Rust Client"
-    language: "Rust"
-    topics: []
-    stars_fact: 5
-    first_seen: null
-    last_push: "2023-03-06"
-  - name: "test-xsdata"
-    title: "test-xsdata"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2023-07-16"
-  - name: "advent-2018"
-    title: "advent-2018"
-    description: "Advent of code 2018 for learning Rust"
-    language: "Rust"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2022-06-07"
+repos: []
 ---
 
 # plaflamme

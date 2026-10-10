@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "3eacb4655aba2497"
-pushes_per_week: [9, 3, 14, 1, 41, 0, 1, 0, 0, 2, 2, 3, 2]
+pushes_per_week: [6, 4, 12, 21, 21, 0, 1, 0, 0, 2, 3, 2, 2]
 windows:
   "7d":
     pushes: 2
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 3
     not_owned_owners: 2
   "90d":
-    pushes: 78
-    distinct_repos: 11
-    active_days: 28
-    repos_not_owned: 9
-    not_owned_basenames: 9
+    pushes: 74
+    distinct_repos: 10
+    active_days: 27
+    repos_not_owned: 8
+    not_owned_basenames: 8
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 2.7857
-  repo_per_active_day: 0.3929
-  not_owned_ratio: 0.8182
-  basename_concentration: 0.0909
+  push_per_day: 2.7407
+  repo_per_active_day: 0.3704
+  not_owned_ratio: 0.8000
+  basename_concentration: 0.1000
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 3
     not_owned_owners: 2
   "90d":
-    pushes: 78
-    distinct_repos: 11
-    pushes_per_repo: 7.0909
-    active_days: 28
-    repos_not_owned: 9
-    not_owned_basenames: 9
+    pushes: 74
+    distinct_repos: 10
+    pushes_per_repo: 7.4000
+    active_days: 27
+    repos_not_owned: 8
+    not_owned_basenames: 8
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 28 active days in 90d — pass"
+  - "activity: 27 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "nat46"
@@ -84,7 +84,23 @@ repos:
     topics: []
     stars_fact: 51
     first_seen: null
-    last_push: "2026-09-15"
+    last_push: "2026-10-05"
+  - name: "homegui"
+    title: "homegui"
+    description: "A simple web GUI + automation to work with zigbee2mqtt"
+    language: "Rust"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-10-04"
+  - name: "aycalc"
+    title: "aycalc"
+    description: "A very simple embeddable calculator"
+    language: "Rust"
+    topics: []
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-03-19"
   - name: "vpp-relops"
     title: "vpp-relops"
     description: "Random VPP release-relatest stuff"
@@ -109,26 +125,10 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-08-15"
-  - name: "oside"
-    title: "oside"
-    description: "Experiment in oxidizing the OSI model"
-    language: "Rust"
-    topics: []
-    stars_fact: 10
-    first_seen: null
-    last_push: "2026-08-15"
-  - name: "homegui"
-    title: "homegui"
-    description: "A simple web GUI + automation to work with zigbee2mqtt"
-    language: "Rust"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-08-11"
 ---
 
 # ayourtch
 
-78 pushes across 11 repositories on 28 active days in the last 90 days of public GitHub push activity.
+74 pushes across 10 repositories on 27 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ayourtch

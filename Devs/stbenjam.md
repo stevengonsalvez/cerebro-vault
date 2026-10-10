@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "01cd6a498d377caf"
   - "03604cccd7e9402d"
@@ -50,6 +50,7 @@ provenance:
   - "860864df5583b9ff"
   - "8eafdf1e65e79a0b"
   - "8f9e2f8ba8bd1533"
+  - "92349bd4a8c11233"
   - "93601d11e4db33a8"
   - "a3ec5261dfb4f2cd"
   - "b56da077d21ad4f4"
@@ -64,16 +65,17 @@ provenance:
   - "d46568f6f6a488d8"
   - "d9b88297cf0d952f"
   - "e2ea6ef4c9fbfceb"
+  - "e75aaf1e12900808"
   - "f672838de330e86f"
   - "f9a1870648a6375a"
   - "fe9e50bf2d5b21fe"
   - "ff1ca072bf39e471"
-pushes_per_week: [1, 4, 18, 4, 14, 2, 1, 7, 0, 0, 4, 12, 1]
+pushes_per_week: [1, 10, 14, 13, 4, 1, 7, 1, 0, 2, 12, 3, 0]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -105,10 +107,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -129,10 +131,34 @@ facets:
     not_owned_basenames: 3
     not_owned_owners: 3
 reasons:
-  - "provenance: 57 vault signal(s) — pass"
+  - "provenance: 59 vault signal(s) — pass"
   - "activity: 28 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "skills"
+    title: "skills"
+    description: "Personal Skills"
+    language: "Python"
+    topics: []
+    stars_fact: 5
+    first_seen: null
+    last_push: "2026-10-08"
+  - name: "homebrew-arbor"
+    title: "homebrew-arbor"
+    description: null
+    language: "Ruby"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-07"
+  - name: "arbor"
+    title: "arbor"
+    description: "Git worktree manager (alpha)"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-07"
   - name: "skillsaw"
     title: "skillsaw"
     description: "Keep your skills sharp. Intelligence for agent context."
@@ -157,45 +183,21 @@ repos:
       - "skills"
     stars_fact: 68
     first_seen: null
-    last_push: "2026-09-28"
-  - name: "jevagotchi"
-    title: "jevagotchi"
-    description: "A tiny virtual pet cared for by TypeSafe Jev through OpenRouter"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-09-18"
+    last_push: "2026-10-05"
   - name: "cronex"
     title: "cronex"
     description: "Implementation for scheduled tasks in Codex CLI"
     language: "Go"
     topics: []
-    stars_fact: 2
+    stars_fact: 1
     first_seen: null
     last_push: "2026-09-27"
-  - name: "skills"
-    title: "skills"
-    description: "Personal Skills"
-    language: "Python"
-    topics: []
-    stars_fact: 5
-    first_seen: null
-    last_push: "2026-09-28"
-  - name: "HyperIcons"
-    title: "HyperIcons"
-    description: "A personal project I use to override HyperOS Icons"
-    language: "Kotlin"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-04-15"
-  - name: "jev-drums"
-    title: "jev-drums"
-    description: "A Jev-powered drum machine with coherent, continuously evolving grooves"
+  - name: "jevagotchi"
+    title: "jevagotchi"
+    description: "A tiny virtual pet cared for by TypeSafe Jev through OpenRouter"
     language: "JavaScript"
     topics: []
-    stars_fact: 0
+    stars_fact: 2
     first_seen: null
     last_push: "2026-09-18"
 ---

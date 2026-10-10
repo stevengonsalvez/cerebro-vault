@@ -8,16 +8,16 @@ provenance_repos:
   - "chopratejas/headroom"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+repos_populated: false
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "73468cde177ddae6"
-pushes_per_week: [0, 5, 7, 3, 2, 3, 0, 0, 5, 9, 6, 18, 2]
+pushes_per_week: [0, 8, 4, 3, 5, 0, 0, 0, 5, 12, 3, 20, 0]
 windows:
   "7d":
-    pushes: 2
-    distinct_repos: 1
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
-    distinct_repos: 1
-    pushes_per_repo: 2.0000
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -76,55 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 18 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "python-utils"
-    title: "python-utils"
-    description: "Python Utils is a module with some convenient utilities not included with the standard Python install"
-    language: "Python"
-    topics: []
-    stars_fact: 98
-    first_seen: null
-    last_push: "2026-10-02"
-  - name: "claude-o-gram"
-    title: "claude-o-gram"
-    description: "Claude-o-Gram: A Telegram bot that mirrors Claude Code sessions to forum topics"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-30"
-  - name: "focus-lock"
-    title: "focus-lock"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-30"
-  - name: "django-admin-generator"
-    title: "django-admin-generator"
-    description: "The Django Admin Generator automatically generates (scaffolds) a fully functioning Django admin by introspecting and querying your models"
-    language: "Python"
-    topics: []
-    stars_fact: 97
-    first_seen: null
-    last_push: "2026-10-01"
-  - name: "python-statsd"
-    title: "python-statsd"
-    description: "Python Client for the Etsy NodeJS Statsd Server"
-    language: "Python"
-    topics: []
-    stars_fact: 110
-    first_seen: null
-    last_push: "2026-09-30"
-  - name: "django-redis-admin"
-    title: "django-redis-admin"
-    description: "A Django Admin interface for Redis servers with optional Redis Sentinel support"
-    language: "Python"
-    topics: []
-    stars_fact: 9
-    first_seen: null
-    last_push: "2026-09-30"
+repos: []
 ---
 
 # wolph

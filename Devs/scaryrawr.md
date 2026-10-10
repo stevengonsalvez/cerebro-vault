@@ -8,39 +8,39 @@ provenance_repos:
   - "anomalyco/opencode"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+repos_populated: false
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [12, 8, 3, 6, 6, 5, 1, 0, 3, 11, 38, 12, 13]
+pushes_per_week: [9, 6, 5, 3, 8, 3, 1, 1, 5, 40, 10, 19, 3]
 windows:
   "7d":
-    pushes: 15
-    distinct_repos: 3
-    active_days: 5
+    pushes: 4
+    distinct_repos: 2
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 76
+    pushes: 75
     distinct_repos: 10
-    active_days: 20
+    active_days: 19
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 118
-    distinct_repos: 19
-    active_days: 46
+    pushes: 113
+    distinct_repos: 18
+    active_days: 45
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.5652
-  repo_per_active_day: 0.4130
+  push_per_day: 2.5111
+  repo_per_active_day: 0.4000
   not_owned_ratio: 0.0000
-  basename_concentration: 0.0526
+  basename_concentration: 0.0556
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,90 +49,38 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 15
-    distinct_repos: 3
-    pushes_per_repo: 5.0000
-    active_days: 5
+    pushes: 4
+    distinct_repos: 2
+    pushes_per_repo: 2.0000
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 76
+    pushes: 75
     distinct_repos: 10
-    pushes_per_repo: 7.6000
-    active_days: 20
+    pushes_per_repo: 7.5000
+    active_days: 19
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 118
-    distinct_repos: 19
-    pushes_per_repo: 6.2105
-    active_days: 46
+    pushes: 113
+    distinct_repos: 18
+    pushes_per_repo: 6.2778
+    active_days: 45
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 46 active days in 90d — pass"
+  - "activity: 45 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "scarypilot"
-    title: "scarypilot"
-    description: "Copilot CLI Plugin Marketplace"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 5
-    first_seen: null
-    last_push: "2026-10-03"
-  - name: "scarydex"
-    title: "scarydex"
-    description: "personal codex marketplace"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-03"
-  - name: "pi-agent-plugins"
-    title: "pi-agent-plugins"
-    description: "agent plugins support for pi"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-30"
-  - name: "copilot-sdk-zig"
-    title: "copilot-sdk-zig"
-    description: "Unofficial Zig SDK for GitHub Copilot CLI"
-    language: "Zig"
-    topics:
-      - "copilot"
-      - "json-rpc"
-      - "sdk"
-      - "zig"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-30"
-  - name: "pi-dynamic-tools"
-    title: "pi-dynamic-tools"
-    description: "dynamic tool search/registration"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-30"
-  - name: "pi-webfetch"
-    title: "pi-webfetch"
-    description: "webfetch for pi"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-30"
+repos: []
 ---
 
 # scaryrawr
 
-118 pushes across 19 repositories on 46 active days in the last 90 days of public GitHub push activity.
+113 pushes across 18 repositories on 45 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/scaryrawr

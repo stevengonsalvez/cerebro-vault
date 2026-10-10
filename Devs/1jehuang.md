@@ -10,38 +10,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "2a7f0fddd2dac162"
-pushes_per_week: [41, 58, 46, 12, 15, 5, 10, 0, 1, 0, 55, 32, 6]
+pushes_per_week: [58, 51, 26, 16, 10, 4, 10, 0, 1, 17, 50, 20, 11]
 windows:
   "7d":
-    pushes: 6
-    distinct_repos: 2
-    active_days: 3
+    pushes: 11
+    distinct_repos: 3
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 93
-    distinct_repos: 9
-    active_days: 14
+    pushes: 98
+    distinct_repos: 10
+    active_days: 16
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 281
-    distinct_repos: 11
-    active_days: 52
+    pushes: 274
+    distinct_repos: 12
+    active_days: 53
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 5.4038
-  repo_per_active_day: 0.2115
-  not_owned_ratio: 0.0909
-  basename_concentration: 0.1818
+  push_per_day: 5.1698
+  repo_per_active_day: 0.2264
+  not_owned_ratio: 0.0833
+  basename_concentration: 0.1667
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -50,32 +50,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 6
-    distinct_repos: 2
-    pushes_per_repo: 3.0000
-    active_days: 3
+    pushes: 11
+    distinct_repos: 3
+    pushes_per_repo: 3.6667
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 93
-    distinct_repos: 9
-    pushes_per_repo: 10.3333
-    active_days: 14
+    pushes: 98
+    distinct_repos: 10
+    pushes_per_repo: 9.8000
+    active_days: 16
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 281
-    distinct_repos: 11
-    pushes_per_repo: 25.5455
-    active_days: 52
+    pushes: 274
+    distinct_repos: 12
+    pushes_per_repo: 22.8333
+    active_days: 53
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 52 active days in 90d — pass"
+  - "activity: 53 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "jcode"
@@ -95,17 +95,33 @@ repos:
       - "rust"
       - "terminal"
       - "tui"
-    stars_fact: 20250
+    stars_fact: 20376
     first_seen: "2026-07-25T06:00:06.342169+00:00"
-    last_push: "2026-10-01"
+    last_push: "2026-10-10"
+  - name: "justrust"
+    title: "justrust"
+    description: "Fast Rust compile for coding agents"
+    language: "Rust"
+    topics: []
+    stars_fact: 7
+    first_seen: null
+    last_push: "2026-10-10"
   - name: "jcode-desktop"
     title: "jcode-desktop"
     description: "Native spatial desktop client for Jcode"
     language: "Rust"
     topics: []
-    stars_fact: 10
+    stars_fact: 13
     first_seen: null
-    last_push: "2026-10-01"
+    last_push: "2026-10-10"
+  - name: "agentgrep"
+    title: "agentgrep"
+    description: "CLI-first code search and retrieval for agents"
+    language: "Rust"
+    topics: []
+    stars_fact: 44
+    first_seen: null
+    last_push: "2026-07-05"
   - name: "mermaid-rs-renderer"
     title: "mermaid-rs-renderer"
     description: "A fast native Rust Mermaid diagram renderer. No browser required. 500-1000x faster than mermaid-cli."
@@ -117,37 +133,28 @@ repos:
       - "mermaid"
       - "rust"
       - "svg"
-    stars_fact: 1744
+    stars_fact: 1757
     first_seen: null
-    last_push: "2026-09-07"
-  - name: "jcode-bench"
-    title: "jcode-bench"
-    description: "The first uncontaminatable benchmark: improve given production-grade primitives, exhaustively verified, deterministically scored"
-    language: "C"
-    topics: []
-    stars_fact: 10
+    last_push: "2026-10-04"
+  - name: "scrollwm"
+    title: "scrollwm"
+    description: "Scrolling window manager for macOS (PaperWM-style strip, Accessibility-only, teleport navigation)"
+    language: "Swift"
+    topics:
+      - "accessibility"
+      - "macos"
+      - "paperwm"
+      - "scrolling-window-manager"
+      - "swift"
+      - "tiling-window-manager"
+      - "window-manager"
+    stars_fact: 29
     first_seen: null
-    last_push: "2026-09-01"
-  - name: "agentgrep"
-    title: "agentgrep"
-    description: "CLI-first code search and retrieval for agents"
-    language: "Rust"
-    topics: []
-    stars_fact: 42
-    first_seen: null
-    last_push: "2026-07-05"
-  - name: "handterm"
-    title: "handterm"
-    description: null
-    language: "Rust"
-    topics: []
-    stars_fact: 79
-    first_seen: null
-    last_push: "2026-09-23"
+    last_push: "2026-06-29"
 ---
 
 # 1jehuang
 
-281 pushes across 11 repositories on 52 active days in the last 90 days of public GitHub push activity.
+274 pushes across 12 repositories on 53 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/1jehuang

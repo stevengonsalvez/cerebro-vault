@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: true
 repos_populated: true
-generated_at: "2026-10-06T06:06:47.636089+00:00"
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "b1a4604cc570de42"
-pushes_per_week: [0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,12 +77,20 @@ reasons:
   - "activity: 2 active days in 90d — below the 5-day line, LABELLED low-n (never suppressed)"
   - "automation: clear — pass"
 repos:
+  - name: "astro-skills"
+    title: "astro-skills"
+    description: "Load and serve Agent Skills from your Astro site, automatically."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 44
+    first_seen: null
+    last_push: "2026-07-09"
   - name: "snowpack"
     title: "snowpack"
     description: "ESM-powered frontend build tool. Instant, lightweight, unbundled development. ✌️"
     language: "JavaScript"
     topics: []
-    stars_fact: 19280
+    stars_fact: 19277
     first_seen: null
     last_push: "2023-03-05"
   - name: "the-node-way"
@@ -93,14 +101,6 @@ repos:
     stars_fact: 1492
     first_seen: null
     last_push: "2016-01-19"
-  - name: "astro-skills"
-    title: "astro-skills"
-    description: "Load and serve Agent Skills from your Astro site, automatically."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 43
-    first_seen: null
-    last_push: "2026-07-09"
   - name: "fflip"
     title: "fflip"
     description: "Flexible Feature Flipping/Flagging for Node.js"

@@ -8,11 +8,11 @@ provenance_repos:
   - "ChromeDevTools/chrome-devtools-mcp"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+repos_populated: false
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "379642deb53f3714"
-pushes_per_week: [1, 0, 1, 0, 0, 0, 0, 0, 2, 2, 2, 2, 0]
+pushes_per_week: [1, 0, 1, 0, 0, 0, 0, 0, 4, 0, 2, 2, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 8
+    pushes: 7
     distinct_repos: 3
-    active_days: 7
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 8
+    pushes: 7
     distinct_repos: 3
-    pushes_per_repo: 2.6667
-    active_days: 7
+    pushes_per_repo: 2.3333
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -76,80 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 9 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "homebrew-tap"
-    title: "homebrew-tap"
-    description: "Homebrew formulae for Thomas Bachem's tools"
-    language: "Ruby"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-01"
-  - name: "git-edit"
-    title: "git-edit"
-    description: "Fast, efficient, and safe Git history rewrites for AI agents"
-    language: "Shell"
-    topics:
-      - "ai-agents"
-      - "claude-code"
-      - "command-line"
-      - "git"
-      - "rebase"
-      - "zsh"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-01"
-  - name: "google-docs-editors-agents-cli"
-    title: "google-docs-editors-agents-cli"
-    description: "Google Sheets and Docs CLIs for AI agents — the official APIs instead of browser automation, many ranges in one call, no Drive scope."
-    language: "Python"
-    topics:
-      - "ai-agents"
-      - "claude-code"
-      - "cli"
-      - "google-docs"
-      - "google-sheets"
-      - "python"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-28"
-  - name: "php-ga"
-    title: "php-ga"
-    description: "Server-Side Google Analytics PHP Client"
-    language: "PHP"
-    topics: []
-    stars_fact: 318
-    first_seen: null
-    last_push: "2020-10-02"
-  - name: "powcal-releases-beta"
-    title: "powcal-releases-beta"
-    description: "PowCal – Beta Releases"
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-26"
-  - name: "powcal-releases"
-    title: "powcal-releases"
-    description: "PowCal – Releases & Feedback"
-    language: null
-    topics:
-      - "app"
-      - "calendar"
-      - "desktop"
-      - "desktop-app"
-      - "electron"
-      - "extension"
-      - "google"
-      - "google-calendar"
-      - "mac"
-      - "macos"
-      - "plugin"
-      - "windows"
-      - "windows-desktop"
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-08-26"
+repos: []
 ---
 
 # thomasbachem

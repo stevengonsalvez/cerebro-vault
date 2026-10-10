@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [14, 7, 11, 0, 6, 1, 6, 2, 0, 0, 2, 0, 2]
+pushes_per_week: [18, 3, 11, 0, 6, 2, 7, 0, 0, 0, 2, 0, 2]
 windows:
   "7d":
     pushes: 2
@@ -77,14 +77,18 @@ reasons:
   - "activity: 22 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "workers-hono-rate-limit"
-    title: "workers-hono-rate-limit"
-    description: "Hono-compatible middleware for rate limiting requests with Cloudflare Workers."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 110
+  - name: "XPIsland"
+    title: "XPIsland"
+    description: "A WoW addon that displays an expandable, dynamic-island like experience (XP) bar with useful stats and accurate time-to-next-level estimates."
+    language: "Lua"
+    topics:
+      - "addon"
+      - "dynamic-island"
+      - "world-of-warcraft"
+      - "wow"
+    stars_fact: 1
     first_seen: null
-    last_push: "2026-08-10"
+    last_push: "2026-10-10"
   - name: "dotfiles"
     title: "dotfiles"
     description: "dotfiles for my macOS & Linux environments ⌨️"
@@ -97,9 +101,17 @@ repos:
       - "stow"
       - "tmux"
       - "zsh"
-    stars_fact: 201
+    stars_fact: 202
     first_seen: null
-    last_push: "2026-09-20"
+    last_push: "2026-10-08"
+  - name: "workers-hono-rate-limit"
+    title: "workers-hono-rate-limit"
+    description: "Hono-compatible middleware for rate limiting requests with Cloudflare Workers."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 110
+    first_seen: null
+    last_push: "2026-08-10"
   - name: "simple-scrypt"
     title: "simple-scrypt"
     description: "A convenience library for generating, comparing and inspecting password hashes using the scrypt KDF in Go 🔑"
@@ -129,22 +141,6 @@ repos:
     stars_fact: 6
     first_seen: null
     last_push: "2026-09-13"
-  - name: "admission-control"
-    title: "admission-control"
-    description: "A helpful micro-framework for writing Kubernetes Admission Controllers 🔎🎟"
-    language: "Go"
-    topics:
-      - "admission"
-      - "admission-controller"
-      - "admission-webhook"
-      - "controller"
-      - "golang"
-      - "k8s"
-      - "kubernetes"
-      - "webhooks"
-    stars_fact: 172
-    first_seen: null
-    last_push: "2023-02-25"
 ---
 
 # elithrar

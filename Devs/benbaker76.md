@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [0, 4, 0, 1, 1, 0, 0, 0, 0, 1, 4, 1, 1]
+pushes_per_week: [0, 4, 1, 0, 1, 0, 0, 0, 0, 2, 4, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -77,14 +77,38 @@ reasons:
   - "activity: 11 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "Pigtail"
+    title: "Pigtail"
+    description: "Anti-stalker and surveillance detection software"
+    language: "C++"
+    topics: []
+    stars_fact: 60
+    first_seen: null
+    last_push: "2026-05-14"
   - name: "Hackintool"
     title: "Hackintool"
     description: "The Swiss army knife of vanilla Hackintoshing"
     language: "Objective-C"
     topics: []
-    stars_fact: 3501
+    stars_fact: 3507
     first_seen: null
     last_push: "2026-03-26"
+  - name: "VortexTracker"
+    title: "VortexTracker"
+    description: "Music tracker for AY/YM chips"
+    language: "C#"
+    topics: []
+    stars_fact: 47
+    first_seen: null
+    last_push: "2026-07-06"
+  - name: "femto8"
+    title: "femto8"
+    description: "femto8 is an open-source reimplementation of the PICO-8 fantasy console, designed specifically for embedded systems."
+    language: "C"
+    topics: []
+    stars_fact: 50
+    first_seen: null
+    last_push: "2026-08-02"
   - name: "PalEdit"
     title: "PalEdit"
     description: "PalEdit is a palette editor which can edit and manipulate various different palette and graphic formats."
@@ -93,14 +117,6 @@ repos:
     stars_fact: 20
     first_seen: null
     last_push: "2026-07-12"
-  - name: "Pigtail"
-    title: "Pigtail"
-    description: "Anti-stalker and surveillance detection software"
-    language: "C++"
-    topics: []
-    stars_fact: 58
-    first_seen: null
-    last_push: "2026-05-14"
   - name: "zxnext_tilemap"
     title: "zxnext_tilemap"
     description: "Tilemap demo for the ZX Spectrum Next."
@@ -109,22 +125,6 @@ repos:
     stars_fact: 6
     first_seen: null
     last_push: "2025-10-03"
-  - name: "zxnext_layer2_tilemap"
-    title: "zxnext_layer2_tilemap"
-    description: "Example using Layer2 tilemap rendering for the ZX Spectrum Next."
-    language: "C"
-    topics: []
-    stars_fact: 6
-    first_seen: null
-    last_push: "2025-10-21"
-  - name: "femto8"
-    title: "femto8"
-    description: "femto8 is an open-source reimplementation of the PICO-8 fantasy console, designed specifically for embedded systems."
-    language: "C"
-    topics: []
-    stars_fact: 49
-    first_seen: null
-    last_push: "2026-08-02"
 ---
 
 # benbaker76

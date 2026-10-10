@@ -9,17 +9,17 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "46f3c1d6124190bd"
-pushes_per_week: [3, 1, 4, 2, 1, 1, 0, 0, 5, 4, 16, 44, 5]
+pushes_per_week: [3, 2, 3, 2, 1, 1, 0, 0, 5, 9, 26, 33, 1]
 windows:
   "7d":
-    pushes: 5
-    distinct_repos: 4
-    active_days: 3
-    repos_not_owned: 3
-    not_owned_basenames: 3
+    pushes: 2
+    distinct_repos: 2
+    active_days: 2
+    repos_not_owned: 1
+    not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
     pushes: 69
@@ -49,12 +49,12 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 5
-    distinct_repos: 4
-    pushes_per_repo: 1.2500
-    active_days: 3
-    repos_not_owned: 3
-    not_owned_basenames: 3
+    pushes: 2
+    distinct_repos: 2
+    pushes_per_repo: 1.0000
+    active_days: 2
+    repos_not_owned: 1
+    not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
     pushes: 69
@@ -84,7 +84,23 @@ repos:
     topics: []
     stars_fact: 2
     first_seen: null
-    last_push: "2026-10-01"
+    last_push: "2026-10-10"
+  - name: "thio.cc.cd"
+    title: "thio.cc.cd"
+    description: null
+    language: "Vue"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-10-08"
+  - name: "palang-merah-remaja"
+    title: "palang-merah-remaja"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-02"
   - name: "gmd2txt"
     title: "gmd2txt"
     description: "Remux your GDShare files into .txt Fresh Files (Simple) gmdtotxt geometry dash online from .gmd, gmd player"
@@ -95,7 +111,7 @@ repos:
       - "txt-files"
     stars_fact: 3
     first_seen: null
-    last_push: "2026-10-01"
+    last_push: "2026-10-02"
   - name: "telegram_to_api"
     title: "telegram_to_api"
     description: "yea, i hate whatsapp. A lightweight Cloudflare-native bridge that turns Telegram Channel posts into a self-hosted JSON API."
@@ -108,22 +124,6 @@ repos:
     title: "nokintosh-by-flessan"
     description: "digicamfx open-source alternative :>"
     language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-27"
-  - name: "dl.thio.cc.cd"
-    title: "dl.thio.cc.cd"
-    description: "Gudang Download"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-22"
-  - name: "lambophp"
-    title: "lambophp"
-    description: "alternatif nya si XAMPP ama Laragon buat jalanin si king"
-    language: "Rust"
     topics: []
     stars_fact: 0
     first_seen: null

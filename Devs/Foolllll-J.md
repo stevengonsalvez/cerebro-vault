@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-07T15:16:07.319356+00:00"
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [1, 3, 1, 2, 0, 0, 1, 1, 1, 0, 5, 1, 0]
+pushes_per_week: [2, 2, 2, 1, 0, 0, 2, 0, 1, 1, 5, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,6 +77,30 @@ reasons:
   - "activity: 14 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "qqbot-gateway"
+    title: "qqbot-gateway"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-08"
+  - name: "astrbot_plugin_reminder"
+    title: "astrbot_plugin_reminder"
+    description: "一款为 AstrBot 设计的定时提醒插件。"
+    language: "Python"
+    topics: []
+    stars_fact: 8
+    first_seen: null
+    last_push: "2026-07-18"
+  - name: "astrbot_plugin_soushuba"
+    title: "astrbot_plugin_soushuba"
+    description: "一款为 AstrBot 设计的搜书吧适配插件。"
+    language: "Python"
+    topics: []
+    stars_fact: 7
+    first_seen: null
+    last_push: "2026-10-02"
   - name: "astrbot_plugin_llm_enhancement"
     title: "astrbot_plugin_llm_enhancement"
     description: "一款为 AstrBot 设计的 LLM 增强插件。"
@@ -101,30 +125,6 @@ repos:
     stars_fact: 12
     first_seen: null
     last_push: "2026-09-26"
-  - name: "astrbot_plugin_magnet_preview"
-    title: "astrbot_plugin_magnet_preview"
-    description: "一款为 AstrBot 设计的磁链预览插件。"
-    language: "Python"
-    topics: []
-    stars_fact: 6
-    first_seen: null
-    last_push: "2026-09-17"
-  - name: "astrbot_plugin_video_analysis"
-    title: "astrbot_plugin_video_analysis"
-    description: "一款为 AstrBot 设计的多平台分享链接解析插件。"
-    language: "Python"
-    topics: []
-    stars_fact: 9
-    first_seen: null
-    last_push: "2026-09-24"
-  - name: "astrbot_plugin_file_checker"
-    title: "astrbot_plugin_file_checker"
-    description: "一款为 AstrBot 设计的新上传文件检查插件。"
-    language: "Python"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-21"
 ---
 
 # Foolllll-J

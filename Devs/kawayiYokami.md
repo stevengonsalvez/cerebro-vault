@@ -8,11 +8,11 @@ provenance_repos:
   - "AstrBotDevs/AstrBot"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+repos_populated: false
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [5, 1, 1, 4, 6, 2, 2, 0, 0, 1, 7, 2, 0]
+pushes_per_week: [3, 1, 2, 4, 5, 2, 2, 0, 0, 3, 7, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 31
+    pushes: 29
     distinct_repos: 6
-    active_days: 23
+    active_days: 21
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.3478
-  repo_per_active_day: 0.2609
+  push_per_day: 1.3810
+  repo_per_active_day: 0.2857
   not_owned_ratio: 0.0000
   basename_concentration: 0.1667
   shapes: []
@@ -65,83 +65,22 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 31
+    pushes: 29
     distinct_repos: 6
-    pushes_per_repo: 5.1667
-    active_days: 23
+    pushes_per_repo: 4.8333
+    active_days: 21
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 23 active days in 90d — pass"
+  - "activity: 21 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "P-ai"
-    title: "P-ai"
-    description: "A ready-to-use self-growing desktop AI assistant for long-running tasks, memory, agents, tool reviews, MCP, and high-concurrency workspace automation. / 开箱即用的自我成长型桌面 AI 助理，面向长期任务、记忆、部门协作、工具审查、MCP 与高并发工作区自动化。"
-    language: "Rust"
-    topics:
-      - "agent"
-      - "ai-agent"
-      - "ai-agents"
-      - "ai-assistant"
-      - "desktop-ai-assistant"
-      - "desktop-app"
-      - "mcp"
-      - "pai"
-      - "productivity"
-      - "rust"
-      - "tauri"
-      - "vue"
-      - "windows"
-    stars_fact: 102
-    first_seen: null
-    last_push: "2026-10-02"
-  - name: "astrbot_plugin_angel_heart"
-    title: "astrbot_plugin_angel_heart"
-    description: "告别“人工智障”式群聊！本插件用【4状态机】教会AI观察时机、判断气氛，实现真人般社交直觉；再以【轻重双AI核】分离思考与决策，保证回复质量的同时大幅降低API成本。"
-    language: "Python"
-    topics: []
-    stars_fact: 133
-    first_seen: null
-    last_push: "2026-09-09"
-  - name: "p-memory"
-    title: "p-memory"
-    description: "Embedded memory, knowledge graph, and note storage for Rust and Python"
-    language: "Rust"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-27"
-  - name: "astrbot_plugin_angel_memory"
-    title: "astrbot_plugin_angel_memory"
-    description: "为AstrBot赋予真正的记忆能力：让AI不仅能记住，还能主动思考、自主进化"
-    language: "Python"
-    topics: []
-    stars_fact: 188
-    first_seen: null
-    last_push: "2026-09-15"
-  - name: "astrbot_plugin_angel_smile"
-    title: "astrbot_plugin_angel_smile"
-    description: "你的表情很可爱，可她接下来就是我的了—— “不知名的表情包大盗天使留言”"
-    language: "Python"
-    topics: []
-    stars_fact: 11
-    first_seen: null
-    last_push: "2026-09-02"
-  - name: "astrbot_plugin_angel_brush"
-    title: "astrbot_plugin_angel_brush"
-    description: "天使的画笔：让机器人会画画、会改图，六家画图服务随便换，配置全在网页上"
-    language: "Python"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-03"
+repos: []
 ---
 
 # kawayiYokami
 
-31 pushes across 6 repositories on 23 active days in the last 90 days of public GitHub push activity.
+29 pushes across 6 repositories on 21 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/kawayiYokami

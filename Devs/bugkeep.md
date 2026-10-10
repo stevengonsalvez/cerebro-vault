@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [37, 35, 5, 3, 1, 7, 0, 0, 2, 0, 0, 0, 0]
+pushes_per_week: [57, 19, 1, 2, 6, 2, 0, 0, 2, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,25 +22,25 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 90
-    distinct_repos: 4
-    active_days: 19
+    pushes: 89
+    distinct_repos: 3
+    active_days: 18
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 4.7368
-  repo_per_active_day: 0.2105
+  push_per_day: 4.9444
+  repo_per_active_day: 0.1667
   not_owned_ratio: 0.0000
-  basename_concentration: 0.2500
+  basename_concentration: 0.3333
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 90
-    distinct_repos: 4
-    pushes_per_repo: 22.5000
-    active_days: 19
+    pushes: 89
+    distinct_repos: 3
+    pushes_per_repo: 29.6667
+    active_days: 18
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 19 active days in 90d — pass"
+  - "activity: 18 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "-tcmalloc-"
@@ -94,7 +94,7 @@ repos:
       - "github-config"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-30"
+    last_push: "2026-10-09"
   - name: "AutoSolver"
     title: "AutoSolver"
     description: "AutoSolver-Evolve: LLM-driven solver evolution system for order-rider assignment problems"
@@ -143,6 +143,6 @@ repos:
 
 # bugkeep
 
-90 pushes across 4 repositories on 19 active days in the last 90 days of public GitHub push activity.
+89 pushes across 3 repositories on 18 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/bugkeep

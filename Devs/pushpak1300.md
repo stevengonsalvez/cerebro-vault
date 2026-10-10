@@ -8,23 +8,23 @@ provenance_repos:
   - "agentskills/agentskills"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+repos_populated: false
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "48dbbdd8fd0d3029"
-pushes_per_week: [15, 12, 3, 2, 41, 7, 4, 0, 3, 9, 10, 7, 16]
+pushes_per_week: [23, 4, 3, 7, 40, 3, 4, 0, 3, 14, 9, 9, 10]
 windows:
   "7d":
-    pushes: 17
+    pushes: 13
     distinct_repos: 8
-    active_days: 6
+    active_days: 4
     repos_not_owned: 7
     not_owned_basenames: 7
     not_owned_owners: 3
   "30d":
-    pushes: 45
+    pushes: 43
     distinct_repos: 15
-    active_days: 19
+    active_days: 18
     repos_not_owned: 12
     not_owned_basenames: 8
     not_owned_owners: 7
@@ -49,18 +49,18 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 17
+    pushes: 13
     distinct_repos: 8
-    pushes_per_repo: 2.1250
-    active_days: 6
+    pushes_per_repo: 1.6250
+    active_days: 4
     repos_not_owned: 7
     not_owned_basenames: 7
     not_owned_owners: 3
   "30d":
-    pushes: 45
+    pushes: 43
     distinct_repos: 15
-    pushes_per_repo: 3.0000
-    active_days: 19
+    pushes_per_repo: 2.8667
+    active_days: 18
     repos_not_owned: 12
     not_owned_basenames: 8
     not_owned_owners: 7
@@ -76,44 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 41 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "pushpak1300"
-    title: "pushpak1300"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-10-01"
-  - name: "pushpak1300.me"
-    title: "pushpak1300.me"
-    description: "Personal Website built from scratch using Nuxt and Tailwind"
-    language: "TypeScript"
-    topics:
-      - "nuxtjs"
-      - "portfolio-website"
-      - "tailwindcss"
-      - "typescript"
-      - "vue"
-    stars_fact: 14
-    first_seen: null
-    last_push: "2026-09-29"
-  - name: "cypress-mailpit"
-    title: "cypress-mailpit"
-    description: "Cypress Commands for Mailpit ✉️"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 19
-    first_seen: null
-    last_push: "2026-10-02"
-  - name: "ai-chat"
-    title: "ai-chat"
-    description: "A modern AI chat starter kit built with Laravel, featuring real-time streaming responses using Prism, Inertia.js, Vue.js, and TailwindCSS."
-    language: "PHP"
-    topics: []
-    stars_fact: 383
-    first_seen: null
-    last_push: "2026-06-22"
+repos: []
 ---
 
 # pushpak1300

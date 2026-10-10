@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [9, 11, 31, 9, 23, 4, 1, 0, 0, 0, 4, 1, 1]
+pushes_per_week: [6, 26, 19, 17, 13, 1, 1, 0, 0, 0, 4, 1, 1]
 windows:
   "7d":
     pushes: 1
@@ -29,7 +29,7 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 94
+    pushes: 89
     distinct_repos: 12
     active_days: 34
     repos_not_owned: 3
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 2.7647
+  push_per_day: 2.6176
   repo_per_active_day: 0.3529
   not_owned_ratio: 0.2500
   basename_concentration: 0.1667
@@ -65,9 +65,9 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 94
+    pushes: 89
     distinct_repos: 12
-    pushes_per_repo: 7.8333
+    pushes_per_repo: 7.4167
     active_days: 34
     repos_not_owned: 3
     not_owned_basenames: 2
@@ -77,25 +77,22 @@ reasons:
   - "activity: 34 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "bragibooks"
-    title: "bragibooks"
-    description: "An audiobook library cleanup and management tool built with Python and Django. Leveraging m4b-merge for audiobook standardization and editing. Ideal for enhancing audiobook library management."
+  - name: "media-archive-sync"
+    title: "media-archive-sync"
+    description: "Download and organize media from web archives"
     language: "Python"
-    topics:
-      - "audible"
-      - "audiobook-cleanup"
-      - "audiobooks"
-      - "audnexus"
-      - "django"
-      - "docker"
-      - "library-management"
-      - "m4b"
-      - "metadata-management"
-      - "metadata-parser"
-      - "python"
-    stars_fact: 218
+    topics: []
+    stars_fact: 0
     first_seen: null
-    last_push: "2026-08-10"
+    last_push: "2026-10-08"
+  - name: "forgejo-cli"
+    title: "forgejo-cli"
+    description: null
+    language: "Shell"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-04"
   - name: "Audnexus.bundle"
     title: "Audnexus.bundle"
     description: "An Audnexus client proof of concept for Plex, providing rich author and audiobook data. Developed in Python, offering enhanced user experiences via Plex's legacy plugin agent system."
@@ -114,9 +111,28 @@ repos:
       - "proof-of-concept"
       - "python"
       - "user-experience"
-    stars_fact: 650
+    stars_fact: 649
     first_seen: null
     last_push: "2026-02-10"
+  - name: "bragibooks"
+    title: "bragibooks"
+    description: "An audiobook library cleanup and management tool built with Python and Django. Leveraging m4b-merge for audiobook standardization and editing. Ideal for enhancing audiobook library management."
+    language: "Python"
+    topics:
+      - "audible"
+      - "audiobook-cleanup"
+      - "audiobooks"
+      - "audnexus"
+      - "django"
+      - "docker"
+      - "library-management"
+      - "m4b"
+      - "metadata-management"
+      - "metadata-parser"
+      - "python"
+    stars_fact: 216
+    first_seen: null
+    last_push: "2026-08-10"
   - name: "annalist"
     title: "annalist"
     description: "Self-hosted AI release notes for GitHub and Forgejo releases"
@@ -143,36 +159,10 @@ repos:
     stars_fact: 2
     first_seen: null
     last_push: "2026-08-09"
-  - name: "m4b-merge"
-    title: "m4b-merge"
-    description: "A high-performance Rust CLI to merge audiobooks into consistently tagged M4B files. Zero runtime deps, native chapter embedding, and 10x faster processing."
-    language: "Rust"
-    topics:
-      - "audible"
-      - "audiobooks"
-      - "audnexus"
-      - "cli"
-      - "docker"
-      - "m4a"
-      - "m4b"
-      - "metadata"
-      - "mp3"
-      - "rust"
-    stars_fact: 92
-    first_seen: null
-    last_push: "2026-09-30"
-  - name: "media-archive-sync"
-    title: "media-archive-sync"
-    description: "Download and organize media from web archives"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-20"
 ---
 
 # djdembeck
 
-94 pushes across 12 repositories on 34 active days in the last 90 days of public GitHub push activity.
+89 pushes across 12 repositories on 34 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/djdembeck

@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "2a7f0fddd2dac162"
-pushes_per_week: [1, 34, 14, 10, 3, 0, 4, 0, 0, 0, 21, 0, 3]
+pushes_per_week: [5, 41, 9, 7, 0, 0, 4, 0, 0, 0, 21, 1, 2]
 windows:
   "7d":
-    pushes: 3
-    distinct_repos: 2
-    active_days: 2
+    pushes: 2
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 3
-    distinct_repos: 2
-    pushes_per_repo: 1.5000
-    active_days: 2
+    pushes: 2
+    distinct_repos: 1
+    pushes_per_repo: 2.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -77,14 +77,6 @@ reasons:
   - "activity: 22 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "clique"
-    title: "clique"
-    description: "HackMIT 2026 - Best Developer Tool Award"
-    language: "Python"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-09-22"
   - name: "gwae"
     title: "gwae"
     description: "Infinite scroll terminal multiplexer and agent orchestrator for macOS"
@@ -105,7 +97,7 @@ repos:
       - "tiling-window-manager"
       - "tui"
       - "windows"
-    stars_fact: 13
+    stars_fact: 14
     first_seen: null
     last_push: "2026-10-02"
   - name: "hwatu"
@@ -132,7 +124,23 @@ repos:
       - "webkitgtk"
     stars_fact: 115
     first_seen: null
-    last_push: "2026-10-02"
+    last_push: "2026-10-03"
+  - name: "emma"
+    title: "emma"
+    description: "Rare Disease Atlas — prototype knowledge-graph atlas connecting rare diseases through genes, phenotypes, mechanisms, pathways, and research."
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-04"
+  - name: "clique"
+    title: "clique"
+    description: "HackMIT 2026 - Best Developer Tool Award"
+    language: "Python"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-09-22"
   - name: "astrophile"
     title: "astrophile"
     description: "Growth toolkit for open-source repos: audit discovery surfaces, generate growth artifacts, measure whether AI assistants recommend you"
@@ -156,14 +164,6 @@ repos:
     stars_fact: 1
     first_seen: null
     last_push: "2026-03-15"
-  - name: "bang"
-    title: "bang"
-    description: "Search from the terminal with engine-native !bangs"
-    language: "Rust"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-07-18"
 ---
 
 # hongnoul

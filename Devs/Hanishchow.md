@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-07T15:16:07.319356+00:00"
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "3cb7ff1cdcf97c6b"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 2, 0, 1, 6, 0, 1, 0]
+pushes_per_week: [0, 0, 0, 0, 0, 1, 1, 0, 2, 5, 0, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 8
-    distinct_repos: 3
-    active_days: 6
+    pushes: 7
+    distinct_repos: 2
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 8
-    distinct_repos: 3
-    pushes_per_repo: 2.6667
-    active_days: 6
+    pushes: 7
+    distinct_repos: 2
+    pushes_per_repo: 3.5000
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -77,6 +77,25 @@ reasons:
   - "activity: 8 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "boom"
+    title: "boom"
+    description: "Celure AI skin-analysis app - Base44 entity schemas for skin profiles, routines, procedures and clinic referrals"
+    language: "JavaScript"
+    topics:
+      - "base44"
+      - "healthtech"
+      - "skincare"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-07"
+  - name: "cityshield-v2"
+    title: "cityshield-v2"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-03"
   - name: "narctrace-frontend"
     title: "narctrace-frontend"
     description: null
@@ -84,7 +103,15 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-30"
+    last_push: "2026-10-02"
+  - name: "narctrace-backend"
+    title: "narctrace-backend"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-02"
   - name: "JellyTech"
     title: "JellyTech"
     description: "College club website - built step by step"
@@ -104,37 +131,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-09-27"
-  - name: "boom"
-    title: "boom"
-    description: "Celure AI skin-analysis app - Base44 entity schemas for skin profiles, routines, procedures and clinic referrals"
-    language: "JavaScript"
-    topics:
-      - "base44"
-      - "healthtech"
-      - "skincare"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-27"
-  - name: "cityshield"
-    title: "cityshield"
-    description: "One emergency incident record that every responding agency in Bengaluru attaches to. React PWA + Fastify API. Prototype."
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-25"
-  - name: "city-shield"
-    title: "city-shield"
-    description: "City Shield - Bengaluru citizen emergency platform. One incident record shared by every responding agency."
-    language: "JavaScript"
-    topics:
-      - "bengaluru"
-      - "civic-tech"
-      - "emergency-response"
-      - "public-safety"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-25"
 ---
 
 # Hanishchow

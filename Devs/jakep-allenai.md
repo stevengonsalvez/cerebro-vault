@@ -9,8 +9,8 @@ provenance_repos:
   - "allenai/olmocr"
 admitted: true
 low_n: true
-repos_populated: true
-generated_at: "2026-09-24T15:17:54.275119+00:00"
+repos_populated: false
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "ae05babd8ff3098f"
 pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]

@@ -8,16 +8,16 @@ provenance_repos:
   - "akitaonrails/ai-memory"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+repos_populated: false
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "4138778ebbc75ba6"
-pushes_per_week: [4, 1, 8, 2, 0, 0, 0, 1, 12, 5, 5, 20, 11]
+pushes_per_week: [0, 2, 9, 0, 0, 0, 0, 1, 13, 4, 5, 21, 11]
 windows:
   "7d":
-    pushes: 12
+    pushes: 11
     distinct_repos: 4
-    active_days: 5
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -29,7 +29,7 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 69
+    pushes: 66
     distinct_repos: 13
     active_days: 24
     repos_not_owned: 1
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.8750
+  push_per_day: 2.7500
   repo_per_active_day: 0.5417
   not_owned_ratio: 0.0769
   basename_concentration: 0.1538
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 12
+    pushes: 11
     distinct_repos: 4
-    pushes_per_repo: 3.0000
-    active_days: 5
+    pushes_per_repo: 2.7500
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -65,9 +65,9 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 69
+    pushes: 66
     distinct_repos: 13
-    pushes_per_repo: 5.3077
+    pushes_per_repo: 5.0769
     active_days: 24
     repos_not_owned: 1
     not_owned_basenames: 1
@@ -76,19 +76,11 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 24 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "oliver-zehentleitner-aigent"
-    title: "oliver-zehentleitner-aigent"
-    description: "AI agent operated by @oliver-zehentleitner"
-    language: null
-    topics: []
-    stars_fact: 27
-    first_seen: null
-    last_push: "2026-08-01"
+repos: []
 ---
 
 # oliver-zehentleitner-aigent
 
-69 pushes across 13 repositories on 24 active days in the last 90 days of public GitHub push activity.
+66 pushes across 13 repositories on 24 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/oliver-zehentleitner-aigent

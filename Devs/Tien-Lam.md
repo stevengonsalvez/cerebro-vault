@@ -8,11 +8,11 @@ provenance_repos:
   - "asgeirtj/system_prompts_leaks"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-06T06:06:47.636089+00:00"
+repos_populated: false
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "716cf9e2237ac9db"
-pushes_per_week: [0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 12]
+pushes_per_week: [0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 2, 10]
 windows:
   "7d":
     pushes: 12
@@ -76,68 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "ChronoShift"
-    title: "ChronoShift"
-    description: "NLP-powered timezone converter for Android. Select text anywhere → converts timestamps to local time."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-05"
-  - name: "context-switch-game"
-    title: "context-switch-game"
-    description: "A terminal-first game about managing fictional coding agents"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-04"
-  - name: "LaunchDeck"
-    title: "LaunchDeck"
-    description: "Xbox Game Bar widget that launches apps, URLs, and Store apps from a configurable tile grid overlay"
-    language: "C#"
-    topics:
-      - "app-launcher"
-      - "game-bar-widget"
-      - "microsoft-store"
-      - "uwp"
-      - "windows"
-      - "xbox-game-bar"
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-07-31"
-  - name: "lenso"
-    title: "lenso"
-    description: "Local-first macOS OCR translator"
-    language: "Swift"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-06-16"
-  - name: "agent-history"
-    title: "agent-history"
-    description: "Cross-platform TUI for viewing and searching AI agent conversation history (Claude Code, Copilot CLI, Gemini CLI, Codex CLI, OpenCode)"
-    language: "Rust"
-    topics:
-      - "ai"
-      - "claude-code"
-      - "cli"
-      - "ratatui"
-      - "rust"
-      - "terminal"
-      - "tui"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-05-29"
-  - name: "Room-Booking"
-    title: "Room-Booking"
-    description: "A redesign of the UTS room booking system on iOS"
-    language: "Swift"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2023-01-11"
+repos: []
 ---
 
 # Tien-Lam

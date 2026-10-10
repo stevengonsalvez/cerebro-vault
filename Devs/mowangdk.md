@@ -8,11 +8,11 @@ provenance_repos:
   - "agent-substrate/substrate"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+repos_populated: false
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "a5ffcd0a46dd44fd"
-pushes_per_week: [10, 6, 1, 0, 1, 0, 1, 0, 0, 1, 2, 0, 0]
+pushes_per_week: [12, 4, 1, 0, 1, 0, 1, 0, 0, 1, 2, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,47 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 11 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "mowangdk"
-    title: "mowangdk"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2023-10-09"
-  - name: "mowangdk.github.io"
-    title: "mowangdk.github.io"
-    description: null
-    language: "CSS"
-    topics: []
-    stars_fact: 5
-    first_seen: null
-    last_push: "2026-04-26"
-  - name: "BusinessIssue"
-    title: "BusinessIssue"
-    description: null
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2019-03-19"
-  - name: "leetcode_question"
-    title: "leetcode_question"
-    description: "leetcode"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2018-09-18"
-  - name: "scrapytest"
-    title: "scrapytest"
-    description: "爬虫练习"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2018-05-17"
+repos: []
 ---
 
 # mowangdk

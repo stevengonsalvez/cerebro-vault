@@ -8,16 +8,16 @@ provenance_repos:
   - "anomalyco/opencode"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-06T06:06:47.636089+00:00"
+repos_populated: false
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [0, 1, 1, 0, 0, 4, 0, 0, 0, 3, 0, 0, 1]
+pushes_per_week: [0, 1, 1, 0, 2, 2, 0, 0, 1, 2, 0, 1, 0]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -76,55 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "pi-fff"
-    title: "pi-fff"
-    description: "A helpful pi extension to improve file search logic in pi"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 86
-    first_seen: null
-    last_push: "2026-09-29"
-  - name: "agent-skills"
-    title: "agent-skills"
-    description: "Portable TypeScript design and workflow skills for coding agents"
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-15"
-  - name: "open-warden"
-    title: "open-warden"
-    description: "OpenWarden a desktop git client that is fast and works"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 19
-    first_seen: null
-    last_push: "2026-07-27"
-  - name: "VimSetup"
-    title: "VimSetup"
-    description: "My vim setup for vscode"
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-03-02"
-  - name: "atlassian-cli"
-    title: "atlassian-cli"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-01-29"
-  - name: "pivot-me"
-    title: "pivot-me"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2025-12-09"
+repos: []
 ---
 
 # ShpetimA

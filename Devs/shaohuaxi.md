@@ -8,11 +8,11 @@ provenance_repos:
   - "agentscope-ai/QwenPaw"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+repos_populated: false
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "541318303a272608"
-pushes_per_week: [0, 1, 0, 0, 0, 1, 0, 0, 0, 3, 4, 1, 0]
+pushes_per_week: [0, 1, 0, 0, 1, 0, 0, 0, 0, 6, 1, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,15 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 9 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "adbpg-ai-openclaw-mem0"
-    title: "adbpg-ai-openclaw-mem0"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-06-04"
+repos: []
 ---
 
 # shaohuaxi

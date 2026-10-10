@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-07T15:16:07.319356+00:00"
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "c1af6b58492f9bf4"
-pushes_per_week: [3, 8, 1, 0, 0, 3, 0, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [7, 3, 1, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 15
+    pushes: 14
     distinct_repos: 7
-    active_days: 8
+    active_days: 7
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 1.8750
-  repo_per_active_day: 0.8750
+  push_per_day: 2.0000
+  repo_per_active_day: 1.0000
   not_owned_ratio: 0.2857
   basename_concentration: 0.1429
   shapes: []
@@ -65,18 +65,34 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 15
+    pushes: 14
     distinct_repos: 7
-    pushes_per_repo: 2.1429
-    active_days: 8
+    pushes_per_repo: 2.0000
+    active_days: 7
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 8 active days in 90d — pass"
+  - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "CSV.js"
+    title: "CSV.js"
+    description: "A simple, blazing-fast CSV parser and encoder. Full RFC 4180 compliance."
+    language: "JavaScript"
+    topics: []
+    stars_fact: 1531
+    first_seen: null
+    last_push: "2016-10-04"
+  - name: "capn-hook"
+    title: "capn-hook"
+    description: "Navigational memory for coding agents: chart discoveries as you explore, cache-bust when files change"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 97
+    first_seen: null
+    last_push: "2026-07-07"
   - name: "next-with-text"
     title: "next-with-text"
     description: "llms.txt, llms-full.txt, and per-page markdown for Next.js — in 2m"
@@ -88,7 +104,7 @@ repos:
       - "nextjs"
     stars_fact: 6
     first_seen: null
-    last_push: "2026-09-30"
+    last_push: "2026-10-05"
   - name: "geocoder"
     title: "geocoder"
     description: "The defacto geocoder for Elixir"
@@ -96,7 +112,7 @@ repos:
     topics: []
     stars_fact: 128
     first_seen: null
-    last_push: "2026-09-30"
+    last_push: "2026-10-01"
   - name: "skill-language-server"
     title: "skill-language-server"
     description: "A language server for agent skills — /skill-name and $skill-name become real symbols"
@@ -115,26 +131,10 @@ repos:
     stars_fact: 99
     first_seen: null
     last_push: "2026-04-28"
-  - name: "capn-hook"
-    title: "capn-hook"
-    description: "Navigational memory for coding agents: chart discoveries as you explore, cache-bust when files change"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 98
-    first_seen: null
-    last_push: "2026-07-07"
-  - name: "CSV.js"
-    title: "CSV.js"
-    description: "A simple, blazing-fast CSV parser and encoder. Full RFC 4180 compliance."
-    language: "JavaScript"
-    topics: []
-    stars_fact: 1532
-    first_seen: null
-    last_push: "2016-10-04"
 ---
 
 # CyrusNuevoDia
 
-15 pushes across 7 repositories on 8 active days in the last 90 days of public GitHub push activity.
+14 pushes across 7 repositories on 7 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/CyrusNuevoDia

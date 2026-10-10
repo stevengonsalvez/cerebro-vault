@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "9d67ce648f6a8919"
-pushes_per_week: [0, 0, 36, 10, 5, 5, 1, 0, 0, 1, 1, 0, 1]
+pushes_per_week: [0, 24, 17, 8, 5, 2, 1, 0, 0, 2, 0, 1, 0]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -77,22 +77,6 @@ reasons:
   - "activity: 21 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "roadpilot"
-    title: "roadpilot"
-    description: null
-    language: "GDScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-01"
-  - name: "simple-chat-app"
-    title: "simple-chat-app"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-26"
   - name: "programs"
     title: "programs"
     description: null
@@ -100,23 +84,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-22"
-  - name: "brocode"
-    title: "brocode"
-    description: "An Lieght Weight Agentic Cli for Developers Build Using java"
-    language: "Java"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-30"
-  - name: "tiny-linux"
-    title: "tiny-linux"
-    description: null
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-24"
+    last_push: "2026-10-09"
   - name: "GITHUB-STATS"
     title: "GITHUB-STATS"
     description: null
@@ -125,6 +93,14 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-09-13"
+  - name: "iamjoyeb"
+    title: "iamjoyeb"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-09"
 ---
 
 # iamjoyeb

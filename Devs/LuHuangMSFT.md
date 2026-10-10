@@ -8,11 +8,11 @@ provenance_repos:
   - "ChromeDevTools/chrome-devtools-mcp"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+repos_populated: false
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "379642deb53f3714"
-pushes_per_week: [0, 2, 1, 2, 0, 0, 0, 0, 0, 0, 4, 0, 0]
+pushes_per_week: [0, 2, 3, 0, 0, 0, 0, 0, 0, 4, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,23 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "LuHuangMSFT.github.io"
-    title: "LuHuangMSFT.github.io"
-    description: null
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-01-12"
-  - name: "pwa"
-    title: "pwa"
-    description: null
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2025-12-10"
+repos: []
 ---
 
 # LuHuangMSFT

@@ -8,11 +8,11 @@ provenance_repos:
   - "agentscope-ai/QwenPaw"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+repos_populated: false
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "541318303a272608"
-pushes_per_week: [0, 4, 10, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [0, 9, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,55 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "UNAD"
-    title: "UNAD"
-    description: "Official implementation of UNAD: Universal Anatomy-initialized Noise Distribution Learning Framework Towards Low-dose CT Denoising"
-    language: "Python"
-    topics: []
-    stars_fact: 18
-    first_seen: null
-    last_push: "2024-03-19"
-  - name: "PPYOLOE_pytorch"
-    title: "PPYOLOE_pytorch"
-    description: "An unofficial implementation of Pytorch version PP-YOLOE,based on Megvii YOLOX training code."
-    language: "Python"
-    topics: []
-    stars_fact: 190
-    first_seen: null
-    last_push: "2022-06-08"
-  - name: "car_deepagent"
-    title: "car_deepagent"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-07-23"
-  - name: "my_demo"
-    title: "my_demo"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-06-14"
-  - name: "rag_eval"
-    title: "rag_eval"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-03-29"
-  - name: "Nioolek"
-    title: "Nioolek"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2023-01-18"
+repos: []
 ---
 
 # Nioolek

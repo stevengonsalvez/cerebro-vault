@@ -8,11 +8,11 @@ provenance_repos:
   - "browser-use/browser-use"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+repos_populated: false
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "c1af6b58492f9bf4"
-pushes_per_week: [0, 25, 27, 0, 0, 0, 2, 0, 0, 3, 16, 0, 0]
+pushes_per_week: [0, 43, 9, 0, 0, 0, 2, 0, 3, 0, 16, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,70 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 11 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "reverse-api-engineer"
-    title: "reverse-api-engineer"
-    description: "The agent that turns websites into APIs!"
-    language: "Python"
-    topics:
-      - "ai"
-      - "ai-agents"
-      - "claude"
-      - "cli"
-      - "mcp"
-      - "openapi"
-      - "playwright"
-      - "scraping"
-      - "web-scraping"
-    stars_fact: 1210
-    first_seen: null
-    last_push: "2026-09-23"
-  - name: "ats-scrapers"
-    title: "ats-scrapers"
-    description: "Open-source ATS job library"
-    language: "Python"
-    topics: []
-    stars_fact: 165
-    first_seen: null
-    last_push: "2026-09-24"
-  - name: "stapply"
-    title: "stapply"
-    description: "Apply to tech jobs in one click"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 106
-    first_seen: null
-    last_push: "2026-05-13"
-  - name: "the-browser-arena"
-    title: "the-browser-arena"
-    description: "A simple way to test different browser agents with multiple models"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 17
-    first_seen: null
-    last_push: "2026-09-28"
-  - name: "map"
-    title: "map"
-    description: "An open-source job-data + geospatial visualization platform for tech roles."
-    language: "TypeScript"
-    topics:
-      - "career"
-      - "data-visualization"
-      - "internship"
-      - "jobs"
-      - "jobsearch"
-      - "map"
-    stars_fact: 25
-    first_seen: null
-    last_push: "2026-06-22"
-  - name: "computer-use-cli"
-    title: "computer-use-cli"
-    description: "Computer-use CLI for coding agents — screenshots, recordings, mouse, keyboard"
-    language: null
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-04-22"
+repos: []
 ---
 
 # kalil0321

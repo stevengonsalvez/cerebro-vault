@@ -8,37 +8,37 @@ provenance_repos:
   - "BigPizzaV3/CodexPlusPlus"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+repos_populated: false
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "90688bf127241ceb"
-pushes_per_week: [11, 1, 5, 0, 2, 0, 2, 0, 0, 0, 3, 1, 0]
+pushes_per_week: [8, 1, 5, 0, 2, 0, 2, 0, 0, 0, 3, 1, 2]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
+    pushes: 2
+    distinct_repos: 1
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 4
+    pushes: 6
     distinct_repos: 1
-    active_days: 4
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 25
+    pushes: 24
     distinct_repos: 3
-    active_days: 17
+    active_days: 18
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.4706
-  repo_per_active_day: 0.1765
+  push_per_day: 1.3333
+  repo_per_active_day: 0.1667
   not_owned_ratio: 0.3333
   basename_concentration: 0.6667
   shapes: []
@@ -49,86 +49,38 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
+    pushes: 2
+    distinct_repos: 1
+    pushes_per_repo: 2.0000
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 4
+    pushes: 6
     distinct_repos: 1
-    pushes_per_repo: 4.0000
-    active_days: 4
+    pushes_per_repo: 6.0000
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 25
+    pushes: 24
     distinct_repos: 3
-    pushes_per_repo: 8.3333
-    active_days: 17
+    pushes_per_repo: 8.0000
+    active_days: 18
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 17 active days in 90d — pass"
+  - "activity: 18 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "nvim"
-    title: "nvim"
-    description: null
-    language: "Lua"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-05-11"
-  - name: "clotho"
-    title: "clotho"
-    description: "Clotho is a Go swarm orchestration runtime that decomposes complex work into replayable tasks and runs them reliably across agents using NATS JetStream (KV/Streams/ObjectStore)."
-    language: "Go"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-03-06"
-  - name: "clawteam"
-    title: "clawteam"
-    description: null
-    language: "Go"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-02-14"
-  - name: "vibe-kanban"
-    title: "vibe-kanban"
-    description: "Get 10X more out of Claude Code, Codex or any coding agent"
-    language: "Rust"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-01-23"
-  - name: "planka-integration"
-    title: "planka-integration"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-01-12"
-  - name: "dotfiles"
-    title: "dotfiles"
-    description: null
-    language: "Lua"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2025-10-10"
+repos: []
 ---
 
 # Zhaoyikaiii
 
-25 pushes across 3 repositories on 17 active days in the last 90 days of public GitHub push activity.
+24 pushes across 3 repositories on 18 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Zhaoyikaiii

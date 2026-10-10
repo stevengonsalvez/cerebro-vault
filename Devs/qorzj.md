@@ -8,11 +8,11 @@ provenance_repos:
   - "agentskills/agentskills"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+repos_populated: false
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "48dbbdd8fd0d3029"
-pushes_per_week: [0, 2, 0, 0, 0, 1, 0, 0, 1, 0, 1, 2, 0]
+pushes_per_week: [2, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 2, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,55 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "saturn-web"
-    title: "saturn-web"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-28"
-  - name: "web_search_cli"
-    title: "web_search_cli"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 16
-    first_seen: null
-    last_push: "2026-05-03"
-  - name: "deepcode-qrcode-benchmark"
-    title: "deepcode-qrcode-benchmark"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-07-07"
-  - name: "snake_game"
-    title: "snake_game"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-04-24"
-  - name: "dockerfiles"
-    title: "dockerfiles"
-    description: null
-    language: "Dockerfile"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-04-17"
-  - name: "claude-code-src"
-    title: "claude-code-src"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 4
-    first_seen: null
-    last_push: "2026-04-01"
+repos: []
 ---
 
 # qorzj

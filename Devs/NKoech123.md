@@ -8,11 +8,11 @@ provenance_repos:
   - "BuilderIO/agent-native"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+repos_populated: false
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "745308b2b7085095"
-pushes_per_week: [2, 1, 3, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [2, 2, 2, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,55 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "mdx-plant-blogs"
-    title: "mdx-plant-blogs"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-07-19"
-  - name: "private-registry-consumer"
-    title: "private-registry-consumer"
-    description: null
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-06-30"
-  - name: "empty-starter"
-    title: "empty-starter"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-06-03"
-  - name: "turbo-two-frontends"
-    title: "turbo-two-frontends"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-06-03"
-  - name: "todo-app-broken-for-testing"
-    title: "todo-app-broken-for-testing"
-    description: "todo-app-broken-for-test"
-    language: "CSS"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-06-03"
-  - name: "isolated-workspace"
-    title: "isolated-workspace"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-06-03"
+repos: []
 ---
 
 # NKoech123

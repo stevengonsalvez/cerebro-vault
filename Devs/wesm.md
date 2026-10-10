@@ -8,38 +8,38 @@ provenance_repos:
   - "kenn-io/agentsview"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+repos_populated: false
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "68551dc8cb2a5ed6"
-pushes_per_week: [122, 174, 95, 110, 188, 107, 35, 6, 21, 29, 50, 93, 56]
+pushes_per_week: [125, 146, 132, 114, 207, 53, 23, 2, 24, 43, 50, 103, 48]
 windows:
   "7d":
-    pushes: 68
-    distinct_repos: 19
-    active_days: 7
-    repos_not_owned: 18
-    not_owned_basenames: 11
-    not_owned_owners: 5
+    pushes: 51
+    distinct_repos: 14
+    active_days: 6
+    repos_not_owned: 13
+    not_owned_basenames: 10
+    not_owned_owners: 2
   "30d":
-    pushes: 233
+    pushes: 249
     distinct_repos: 31
     active_days: 28
     repos_not_owned: 30
     not_owned_basenames: 13
     not_owned_owners: 11
   "90d":
-    pushes: 1086
-    distinct_repos: 64
-    active_days: 79
-    repos_not_owned: 61
+    pushes: 1070
+    distinct_repos: 60
+    active_days: 78
+    repos_not_owned: 57
     not_owned_basenames: 18
-    not_owned_owners: 37
+    not_owned_owners: 34
 automation:
   state: "clear"
-  push_per_day: 13.7468
-  repo_per_active_day: 0.8101
-  not_owned_ratio: 0.9531
+  push_per_day: 13.7179
+  repo_per_active_day: 0.7692
+  not_owned_ratio: 0.9500
   basename_concentration: 0.2500
   shapes: []
   shape_evidence: []
@@ -49,86 +49,38 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 68
-    distinct_repos: 19
-    pushes_per_repo: 3.5789
-    active_days: 7
-    repos_not_owned: 18
-    not_owned_basenames: 11
-    not_owned_owners: 5
+    pushes: 51
+    distinct_repos: 14
+    pushes_per_repo: 3.6429
+    active_days: 6
+    repos_not_owned: 13
+    not_owned_basenames: 10
+    not_owned_owners: 2
   "30d":
-    pushes: 233
+    pushes: 249
     distinct_repos: 31
-    pushes_per_repo: 7.5161
+    pushes_per_repo: 8.0323
     active_days: 28
     repos_not_owned: 30
     not_owned_basenames: 13
     not_owned_owners: 11
   "90d":
-    pushes: 1086
-    distinct_repos: 64
-    pushes_per_repo: 16.9688
-    active_days: 79
-    repos_not_owned: 61
+    pushes: 1070
+    distinct_repos: 60
+    pushes_per_repo: 17.8333
+    active_days: 78
+    repos_not_owned: 57
     not_owned_basenames: 18
-    not_owned_owners: 37
+    not_owned_owners: 34
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 79 active days in 90d — pass"
+  - "activity: 78 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "pydata-book"
-    title: "pydata-book"
-    description: "Materials and IPython notebooks for \"Python for Data Analysis\" by Wes McKinney, published by O'Reilly Media"
-    language: "Jupyter Notebook"
-    topics: []
-    stars_fact: 24992
-    first_seen: null
-    last_push: "2025-10-17"
-  - name: "feather"
-    title: "feather"
-    description: "Feather: fast, interoperable binary data frame storage for Python, R, and more powered by Apache Arrow"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 2757
-    first_seen: null
-    last_push: "2025-12-08"
-  - name: "moneyflow"
-    title: "moneyflow"
-    description: "Moneyflow: Personal Finance Data Interface for Power Users (supporting backends like Monarch Money, YNAB)"
-    language: "Go"
-    topics: []
-    stars_fact: 276
-    first_seen: null
-    last_push: "2026-10-01"
-  - name: "llm-arithmetic-benchmark"
-    title: "llm-arithmetic-benchmark"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 12
-    first_seen: null
-    last_push: "2025-12-01"
-  - name: "wesm"
-    title: "wesm"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 4
-    first_seen: null
-    last_push: "2026-08-09"
-  - name: "strata-sj-2015"
-    title: "strata-sj-2015"
-    description: "Materials for PyData at Strata/Hadoop World San Jose 2015"
-    language: "Python"
-    topics: []
-    stars_fact: 12
-    first_seen: null
-    last_push: "2015-03-09"
+repos: []
 ---
 
 # wesm
 
-1086 pushes across 64 repositories on 79 active days in the last 90 days of public GitHub push activity.
+1070 pushes across 60 repositories on 78 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/wesm

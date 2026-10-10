@@ -8,11 +8,11 @@ provenance_repos:
   - "AlexsJones/llmfit"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-07T15:16:07.319356+00:00"
+repos_populated: false
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [0, 1, 0, 2, 0, 0, 0, 0, 0, 0, 0, 3, 0]
+pushes_per_week: [1, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 3, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,65 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "tldr-free"
-    title: "tldr-free"
-    description: "Local Chrome extension + Python daemon for streaming summaries and Q&A on web pages and YouTube videos. Works with any OpenAI-compatible backend. Nothing leaves your machine."
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-01"
-  - name: "media-scrubber"
-    title: "media-scrubber"
-    description: null
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-29"
-  - name: "voice-assistant"
-    title: "voice-assistant"
-    description: "Self-hosted, offline-first voice assistant for your home — wake-word, streaming ASR (whisper.cpp), local LLM agent with tools (LocalAI/Gemma), streaming XTTS, speaker ID, semantic memory, desktop automation. No cloud API keys."
-    language: "Python"
-    topics:
-      - "gemma"
-      - "home-automation"
-      - "llm"
-      - "localai"
-      - "offline-first"
-      - "privacy"
-      - "self-hosted"
-      - "tts"
-      - "voice-assistant"
-      - "whisper"
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-08-04"
-  - name: "curio"
-    title: "curio"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-14"
-  - name: "coloring"
-    title: "coloring"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-07-23"
-  - name: "quietdesk"
-    title: "quietdesk"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-07-17"
+repos: []
 ---
 
 # melnikaite

@@ -9,18 +9,18 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "1be978947e68d1f2"
   - "98a2deac3e2f9725"
   - "b949a65ff91f9791"
   - "e9879ff70aa53e1e"
-pushes_per_week: [0, 0, 0, 4, 0, 0, 0, 0, 0, 4, 2, 5, 2]
+pushes_per_week: [0, 0, 0, 4, 0, 0, 0, 0, 0, 6, 0, 7, 0]
 windows:
   "7d":
-    pushes: 5
-    distinct_repos: 2
-    active_days: 2
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -52,10 +52,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 5
-    distinct_repos: 2
-    pushes_per_repo: 2.5000
-    active_days: 2
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -87,39 +87,7 @@ repos:
     topics: []
     stars_fact: 11
     first_seen: null
-    last_push: "2026-10-01"
-  - name: "personal_code"
-    title: "personal_code"
-    description: "random code that I have lying around"
-    language: "HTML"
-    topics: []
-    stars_fact: 52
-    first_seen: null
-    last_push: "2026-09-30"
-  - name: "flightguide"
-    title: "flightguide"
-    description: null
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-30"
-  - name: "spireweb"
-    title: "spireweb"
-    description: null
-    language: "Go"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-29"
-  - name: "obsidian_notes"
-    title: "obsidian_notes"
-    description: "Code to turn my obsidian folder into notes.billmill.org"
-    language: "Python"
-    topics: []
-    stars_fact: 49
-    first_seen: null
-    last_push: "2026-09-28"
+    last_push: "2026-10-10"
   - name: "obsidian-archive"
     title: "obsidian-archive"
     description: null
@@ -127,7 +95,39 @@ repos:
     topics: []
     stars_fact: 2
     first_seen: null
-    last_push: "2026-09-26"
+    last_push: "2026-10-08"
+  - name: "caportland"
+    title: "caportland"
+    description: "caportland.me website"
+    language: "HTML"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-08"
+  - name: "brightlantern"
+    title: "brightlantern"
+    description: null
+    language: "Go"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-08"
+  - name: "flightguide"
+    title: "flightguide"
+    description: null
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-08"
+  - name: "homebrew-tap"
+    title: "homebrew-tap"
+    description: null
+    language: "Ruby"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-08"
 ---
 
 # llimllib

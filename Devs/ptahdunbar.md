@@ -8,11 +8,11 @@ provenance_repos:
   - "BuilderIO/agent-native"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-05T06:05:47.512530+00:00"
+repos_populated: false
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "745308b2b7085095"
-pushes_per_week: [0, 0, 1, 2, 0, 0, 1, 0, 0, 0, 1, 1, 0]
+pushes_per_week: [0, 1, 2, 0, 0, 0, 1, 0, 0, 1, 0, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,55 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "wp-skeleton-plugin"
-    title: "wp-skeleton-plugin"
-    description: "A WordPress Skeleton Plugin"
-    language: "PHP"
-    topics: []
-    stars_fact: 182
-    first_seen: null
-    last_push: "2014-02-05"
-  - name: "clawcredit-probe"
-    title: "clawcredit-probe"
-    description: "End-to-end evaluation of the ClawCredit SDK (@t54-labs/clawcredit-sdk) — goal, findings, and reproducible harness"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-04-19"
-  - name: "o11y-as-code-pulumi"
-    title: "o11y-as-code-pulumi"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-04-13"
-  - name: "rps"
-    title: "rps"
-    description: null
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2023-06-01"
-  - name: "o11y-as-code-terraform"
-    title: "o11y-as-code-terraform"
-    description: null
-    language: "Shell"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2023-03-29"
-  - name: "python-newrelic-demo"
-    title: "python-newrelic-demo"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2023-03-01"
+repos: []
 ---
 
 # ptahdunbar

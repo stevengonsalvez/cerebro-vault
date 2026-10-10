@@ -8,16 +8,16 @@ provenance_repos:
   - "chopratejas/headroom"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+repos_populated: false
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "73468cde177ddae6"
-pushes_per_week: [1, 1, 1, 3, 1, 2, 2, 0, 0, 12, 8, 3, 2]
+pushes_per_week: [1, 1, 1, 3, 3, 0, 2, 0, 2, 14, 5, 2, 2]
 windows:
   "7d":
-    pushes: 3
-    distinct_repos: 2
-    active_days: 2
+    pushes: 2
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 3
-    distinct_repos: 2
-    pushes_per_repo: 1.5000
-    active_days: 2
+    pushes: 2
+    distinct_repos: 1
+    pushes_per_repo: 2.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -76,58 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 22 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "dope_wars"
-    title: "dope_wars"
-    description: null
-    language: "Mojo"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-01"
-  - name: "tart_linux_images"
-    title: "tart_linux_images"
-    description: null
-    language: "HCL"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-01"
-  - name: "icarus"
-    title: "icarus"
-    description: "Seed a dokploy project programmatically (IaC!)"
-    language: "Python"
-    topics:
-      - "dokploy"
-      - "python"
-    stars_fact: 4
-    first_seen: null
-    last_push: "2026-09-29"
-  - name: "pi_config"
-    title: "pi_config"
-    description: "pi coding agent config"
-    language: "TypeScript"
-    topics:
-      - "pi"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-28"
-  - name: "ai_skills"
-    title: "ai_skills"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-09-27"
-  - name: "nano_banana"
-    title: "nano_banana"
-    description: "🍌"
-    language: "Python"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-22"
+repos: []
 ---
 
 # pythoninthegrass

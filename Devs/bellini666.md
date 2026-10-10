@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [7, 1, 0, 4, 0, 1, 1, 0, 0, 1, 2, 4, 1]
+pushes_per_week: [7, 1, 3, 1, 0, 1, 1, 0, 0, 3, 1, 3, 2]
 windows:
   "7d":
     pushes: 2
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 8
-    distinct_repos: 4
-    active_days: 7
-    repos_not_owned: 2
+    pushes: 9
+    distinct_repos: 5
+    active_days: 8
+    repos_not_owned: 3
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 22
+    pushes: 23
     distinct_repos: 7
-    active_days: 13
+    active_days: 14
     repos_not_owned: 4
     not_owned_basenames: 2
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 1.6923
-  repo_per_active_day: 0.5385
+  push_per_day: 1.6429
+  repo_per_active_day: 0.5000
   not_owned_ratio: 0.5714
   basename_concentration: 0.2857
   shapes: []
@@ -57,26 +57,36 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 8
-    distinct_repos: 4
-    pushes_per_repo: 2.0000
-    active_days: 7
-    repos_not_owned: 2
+    pushes: 9
+    distinct_repos: 5
+    pushes_per_repo: 1.8000
+    active_days: 8
+    repos_not_owned: 3
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 22
+    pushes: 23
     distinct_repos: 7
-    pushes_per_repo: 3.1429
-    active_days: 13
+    pushes_per_repo: 3.2857
+    active_days: 14
     repos_not_owned: 4
     not_owned_basenames: 2
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 13 active days in 90d — pass"
+  - "activity: 14 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "django-choices-field"
+    title: "django-choices-field"
+    description: "Django field that set/get django's new TextChoices/IntegerChoices enum"
+    language: "Python"
+    topics:
+      - "django"
+      - "enum"
+    stars_fact: 17
+    first_seen: null
+    last_push: "2026-10-07"
   - name: "dotfiles"
     title: "dotfiles"
     description: "My dotfiles"
@@ -89,7 +99,7 @@ repos:
       - "zsh"
     stars_fact: 17
     first_seen: null
-    last_push: "2026-09-30"
+    last_push: "2026-10-06"
   - name: "pytest-language-server"
     title: "pytest-language-server"
     description: "🔥 Pytest Language Server"
@@ -97,7 +107,7 @@ repos:
     topics: []
     stars_fact: 121
     first_seen: null
-    last_push: "2026-09-29"
+    last_push: "2026-10-04"
   - name: "asdf-lua-language-server"
     title: "asdf-lua-language-server"
     description: "lua-language-server plugin for the asdf version manager."
@@ -109,16 +119,6 @@ repos:
     stars_fact: 10
     first_seen: null
     last_push: "2023-03-12"
-  - name: "django-choices-field"
-    title: "django-choices-field"
-    description: "Django field that set/get django's new TextChoices/IntegerChoices enum"
-    language: "Python"
-    topics:
-      - "django"
-      - "enum"
-    stars_fact: 17
-    first_seen: null
-    last_push: "2026-08-19"
   - name: "gnome-shell-notifications-alert"
     title: "gnome-shell-notifications-alert"
     description: "Whenever there is an unread notification (e.g. chat messages), blinks the message in the user's menu with a color chosen by the user."
@@ -143,6 +143,6 @@ repos:
 
 # bellini666
 
-22 pushes across 7 repositories on 13 active days in the last 90 days of public GitHub push activity.
+23 pushes across 7 repositories on 14 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/bellini666

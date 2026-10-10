@@ -8,11 +8,11 @@ provenance_repos:
   - "anthropics/claude-code-action"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-07T15:16:07.319356+00:00"
+repos_populated: false
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "0b22ca37fd3884c9"
-pushes_per_week: [0, 7, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0]
+pushes_per_week: [2, 5, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,60 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "dotfiles"
-    title: "dotfiles"
-    description: null
-    language: "Lua"
-    topics: []
-    stars_fact: 5
-    first_seen: null
-    last_push: "2026-10-02"
-  - name: "freecad-cli"
-    title: "freecad-cli"
-    description: "CLI tool for controlling FreeCAD from AI Agents via XML-RPC"
-    language: "Python"
-    topics: []
-    stars_fact: 10
-    first_seen: null
-    last_push: "2026-04-29"
-  - name: "TsumiZare"
-    title: "TsumiZare"
-    description: "Tetris-inspired block dropping game and React custom hook"
-    language: "TypeScript"
-    topics:
-      - "game"
-      - "nextjs"
-      - "react"
-      - "reactjs"
-      - "tetris"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-30"
-  - name: "hono-kit"
-    title: "hono-kit"
-    description: "Hono routing and renderer toolkit"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-21"
-  - name: "yoshikouki"
-    title: "yoshikouki"
-    description: "Self-introduction"
-    language: "HTML"
-    topics: []
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-07-12"
-  - name: "todai"
-    title: "todai"
-    description: "AI-agent-first self-hosted task management tool"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-09"
+repos: []
 ---
 
 # yoshikouki

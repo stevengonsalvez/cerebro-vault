@@ -9,13 +9,13 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "1be978947e68d1f2"
   - "98a2deac3e2f9725"
   - "b949a65ff91f9791"
   - "e9879ff70aa53e1e"
-pushes_per_week: [5, 1, 2, 1, 7, 6, 1, 0, 0, 1, 27, 1, 0]
+pushes_per_week: [5, 0, 2, 2, 10, 2, 1, 0, 1, 14, 13, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -32,16 +32,16 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 52
+    pushes: 51
     distinct_repos: 2
-    active_days: 18
+    active_days: 17
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.8889
-  repo_per_active_day: 0.1111
+  push_per_day: 3.0000
+  repo_per_active_day: 0.1176
   not_owned_ratio: 1.0000
   basename_concentration: 0.5000
   shapes: []
@@ -68,16 +68,16 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 52
+    pushes: 51
     distinct_repos: 2
-    pushes_per_repo: 26.0000
-    active_days: 18
+    pushes_per_repo: 25.5000
+    active_days: 17
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 reasons:
   - "provenance: 4 vault signal(s) — pass"
-  - "activity: 18 active days in 90d — pass"
+  - "activity: 17 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "safe-debates"
@@ -137,6 +137,6 @@ repos:
 
 # jvmncs
 
-52 pushes across 2 repositories on 18 active days in the last 90 days of public GitHub push activity.
+51 pushes across 2 repositories on 17 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/jvmncs

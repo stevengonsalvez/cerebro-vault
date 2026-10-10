@@ -8,37 +8,37 @@ provenance_repos:
   - "AstrBotDevs/AstrBot"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+repos_populated: false
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [13, 17, 5, 2, 1, 1, 0, 0, 0, 2, 7, 28, 1]
+pushes_per_week: [18, 14, 3, 3, 1, 0, 0, 0, 0, 3, 16, 19, 2]
 windows:
   "7d":
-    pushes: 4
-    distinct_repos: 3
-    active_days: 2
-    repos_not_owned: 3
-    not_owned_basenames: 3
+    pushes: 2
+    distinct_repos: 1
+    active_days: 1
+    repos_not_owned: 1
+    not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 38
+    pushes: 40
     distinct_repos: 4
-    active_days: 14
+    active_days: 15
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 1
   "90d":
-    pushes: 77
+    pushes: 79
     distinct_repos: 11
-    active_days: 31
+    active_days: 32
     repos_not_owned: 8
     not_owned_basenames: 8
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 2.4839
-  repo_per_active_day: 0.3548
+  push_per_day: 2.4688
+  repo_per_active_day: 0.3438
   not_owned_ratio: 0.7273
   basename_concentration: 0.0909
   shapes: []
@@ -49,111 +49,38 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 4
-    distinct_repos: 3
-    pushes_per_repo: 1.3333
-    active_days: 2
-    repos_not_owned: 3
-    not_owned_basenames: 3
+    pushes: 2
+    distinct_repos: 1
+    pushes_per_repo: 2.0000
+    active_days: 1
+    repos_not_owned: 1
+    not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 38
+    pushes: 40
     distinct_repos: 4
-    pushes_per_repo: 9.5000
-    active_days: 14
+    pushes_per_repo: 10.0000
+    active_days: 15
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 1
   "90d":
-    pushes: 77
+    pushes: 79
     distinct_repos: 11
-    pushes_per_repo: 7.0000
-    active_days: 31
+    pushes_per_repo: 7.1818
+    active_days: 32
     repos_not_owned: 8
     not_owned_basenames: 8
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 31 active days in 90d — pass"
+  - "activity: 32 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "free-one-api"
-    title: "free-one-api"
-    description: "LLM 逆向工程接口管理 | 通过标准 OpenAI API 访问 ChatGPT / gpt4free / Bard / Claude / HuggingChat / 通义千问 等 AI 的破解版 || ChatGPT reverse engineering API management | Access all reverse engineered LLM libs by standard OpenAI API format || 免费 ChatGPT Free GPT LLM API | 逆向工程 转 OpenAI API | converts all llm libs to OpenAI API"
-    language: "Python"
-    topics:
-      - "bard"
-      - "chatbot"
-      - "chatgpt"
-      - "claude"
-      - "free"
-      - "free-gpt"
-      - "freechatgpt"
-      - "gpt"
-      - "gpt4free"
-      - "huggingchat"
-      - "one-api"
-      - "openai"
-      - "proxy"
-      - "revchatgpt"
-      - "reverse-engineering"
-      - "tongyiqianwen"
-    stars_fact: 913
-    first_seen: null
-    last_push: "2026-09-25"
-  - name: "awesome-dify-integration"
-    title: "awesome-dify-integration"
-    description: "Collection of projects / apps integrated with dify service API."
-    language: null
-    topics: []
-    stars_fact: 18
-    first_seen: null
-    last_push: "2024-10-20"
-  - name: "RockChinQ"
-    title: "RockChinQ"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 16
-    first_seen: null
-    last_push: "2026-09-28"
-  - name: "WebwlkrPlugin"
-    title: "WebwlkrPlugin"
-    description: "LangBot 项目的WebPilot插件，为其提供联网支持 | 让 ChatGPT 联网"
-    language: "Python"
-    topics:
-      - "chatgpt"
-      - "plugin"
-      - "webpilot"
-    stars_fact: 43
-    first_seen: null
-    last_push: "2023-08-11"
-  - name: "revLibs"
-    title: "revLibs"
-    description: "【已弃用】ChatGPT、Claude QQ 机器人，以插件形式为 QChatGPT 项目接入ChatGPT、Claude、Bard、gpt4free等接口的逆向工程库"
-    language: "Python"
-    topics:
-      - "chatgpt"
-      - "claude"
-      - "gpt4free"
-      - "plugin"
-      - "qchatgpt"
-      - "qq"
-    stars_fact: 200
-    first_seen: null
-    last_push: "2024-01-23"
-  - name: "csdcc_wiki"
-    title: "csdcc_wiki"
-    description: "全国大学生计算机系统能力大赛 非官方 Wiki知识库"
-    language: null
-    topics: []
-    stars_fact: 4
-    first_seen: null
-    last_push: "2024-05-21"
+repos: []
 ---
 
 # RockChinQ
 
-77 pushes across 11 repositories on 31 active days in the last 90 days of public GitHub push activity.
+79 pushes across 11 repositories on 32 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/RockChinQ

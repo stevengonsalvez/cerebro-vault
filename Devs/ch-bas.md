@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "379642deb53f3714"
-pushes_per_week: [3, 3, 9, 6, 6, 4, 0, 0, 2, 1, 7, 17, 0]
+pushes_per_week: [3, 5, 9, 5, 9, 0, 0, 0, 2, 4, 5, 16, 0]
 windows:
   "7d":
-    pushes: 5
-    distinct_repos: 3
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 5
-    distinct_repos: 3
-    pushes_per_repo: 1.6667
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -102,9 +102,9 @@ repos:
       - "rtsp"
       - "security-camera"
       - "surveillance"
-    stars_fact: 274
+    stars_fact: 264
     first_seen: null
-    last_push: "2026-09-30"
+    last_push: "2026-10-08"
   - name: "threejs-sims-house-builder"
     title: "threejs-sims-house-builder"
     description: "A browser-based 3D house builder inspired by The Sims. Design multi-floor homes with furniture, walls, roofs, and walkthrough mode. Built with Three.js + Next.js."
@@ -127,9 +127,9 @@ repos:
       - "threejs"
       - "typescript"
       - "webgl"
-    stars_fact: 93
+    stars_fact: 86
     first_seen: null
-    last_push: "2026-09-30"
+    last_push: "2026-10-09"
   - name: "frontfamily-community"
     title: "frontfamily-community"
     description: "Bug reports, feature requests, and component mapping contributions for FrontFamily"
@@ -147,7 +147,7 @@ repos:
       - "frontend-project"
       - "github-trending"
       - "npm-package"
-    stars_fact: 30
+    stars_fact: 21
     first_seen: null
     last_push: "2026-04-19"
   - name: "kibana-plugin-helper"

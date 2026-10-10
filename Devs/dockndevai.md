@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 5, 0, 0, 6, 4, 3, 0]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 5, 0, 5, 4, 1, 3, 0]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -77,51 +77,25 @@ reasons:
   - "activity: 9 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "mac-attack"
-    title: "mac-attack"
-    description: "A weird little creature in your Mac: the camera turns people into cartoon characters and Laya (a local typed-decision model) directs harmless toy chaos at them. macOS app + real screensaver. All local, no face recognition, no frames stored."
-    language: "Swift"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-09-30"
-  - name: "dockndevai.github.io"
-    title: "dockndevai.github.io"
-    description: "Safe-by-default MCP servers for AI agents — Kubernetes, Kafka, ClickHouse, Azure, OCI, Keycloak, Percona PostgreSQL, and RAG. Read-only by default."
-    language: "HTML"
-    topics: []
+  - name: "keycloak-configurable-theme"
+    title: "keycloak-configurable-theme"
+    description: "Keycloak 26.x SPI: one configurable theme for all realms — layout, colours, logo, favicon, console & email branding via JSON, admin console or REST API"
+    language: "Java"
+    topics:
+      - "branding"
+      - "iam"
+      - "java"
+      - "keycloak"
+      - "keycloak-extension"
+      - "keycloak-spi"
+      - "keycloak-theme"
+      - "login-page"
+      - "multi-tenant"
+      - "sso"
+      - "theming"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-29"
-  - name: "mcp-percona-pg"
-    title: "mcp-percona-pg"
-    description: "MCP server for the Percona Operator for PostgreSQL — manage PostgreSQL + PgBouncer, pooling, backups/PITR, and DR with safe-by-default security flags."
-    language: "TypeScript"
-    topics:
-      - "devops"
-      - "kubernetes"
-      - "mcp"
-      - "model-context-protocol"
-      - "percona"
-      - "pgbouncer"
-      - "postgresql"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-29"
-  - name: "mcp-azure"
-    title: "mcp-azure"
-    description: "MCP server for Azure (Resource Manager) — inventory, tags, VM power, lifecycle — with governance controls (scoping, protected groups, location allowlist, delete gating, confirmation)."
-    language: "TypeScript"
-    topics:
-      - "azure"
-      - "cloud"
-      - "governance"
-      - "llm"
-      - "mcp"
-      - "model-context-protocol"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-29"
+    last_push: "2026-10-08"
   - name: "mcp-clickhouse"
     title: "mcp-clickhouse"
     description: "MCP server for ClickHouse — explore, query, and manage with SQL-classification-based security modes and access-control flags."
@@ -133,13 +107,55 @@ repos:
       - "model-context-protocol"
       - "olap"
       - "sql"
-    stars_fact: 2
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-10-09"
+  - name: "orrin-site"
+    title: "orrin-site"
+    description: "Orrin — a voice & a screen for the Claude Code you already run on your Mac"
+    language: "HTML"
+    topics:
+      - "ai"
+      - "claude"
+      - "orrin"
+      - "otto"
+      - "voice-assistant"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-07"
+  - name: "mcp-cdp"
+    title: "mcp-cdp"
+    description: null
+    language: "TypeScript"
+    topics:
+      - "ai"
+      - "browser-automation"
+      - "cdp"
+      - "chrome-devtools-protocol"
+      - "electron"
+      - "mcp"
+      - "model-context-protocol"
+    stars_fact: 1
     first_seen: null
     last_push: "2026-09-29"
-  - name: "mcp-macos"
-    title: "mcp-macos"
-    description: "Safe-by-default MCP server to observe & operate a Mac — files, processes, apps, shell, AppleScript, GUI."
-    language: "TypeScript"
+  - name: "mac-attack"
+    title: "mac-attack"
+    description: "A weird little creature in your Mac: the camera turns people into cartoon characters and Laya (a local typed-decision model) directs harmless toy chaos at them. macOS app + real screensaver. All local, no face recognition, no frames stored."
+    language: "Swift"
+    topics:
+      - "macos"
+      - "on-device-ai"
+      - "privacy"
+      - "screensaver"
+      - "spritekit"
+      - "swift"
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-10-01"
+  - name: "dockndevai.github.io"
+    title: "dockndevai.github.io"
+    description: "Safe-by-default MCP servers for AI agents — Kubernetes, Kafka, ClickHouse, Azure, OCI, Keycloak, Percona PostgreSQL, and RAG. Read-only by default."
+    language: "HTML"
     topics: []
     stars_fact: 0
     first_seen: null

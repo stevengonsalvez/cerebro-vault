@@ -8,16 +8,16 @@ provenance_repos:
   - "bytedance/deer-flow"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+repos_populated: false
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "16389f32495280ea"
-pushes_per_week: [0, 0, 0, 0, 1, 0, 1, 0, 0, 5, 10, 1, 1]
+pushes_per_week: [0, 0, 0, 0, 1, 0, 1, 0, 0, 15, 0, 1, 1]
 windows:
   "7d":
-    pushes: 2
-    distinct_repos: 2
-    active_days: 2
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
-    distinct_repos: 2
+    pushes: 1
+    distinct_repos: 1
     pushes_per_repo: 1.0000
-    active_days: 2
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -76,60 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 8 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "PeaceMaker-best.github.io"
-    title: "PeaceMaker-best.github.io"
-    description: "Apple-inspired engineering portfolio for PeaceMaker-best."
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-19"
-  - name: "SignalFoundry"
-    title: "SignalFoundry"
-    description: "Data Agent quantitative research and signal generation workspace."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-19"
-  - name: "AetherGateway"
-    title: "AetherGateway"
-    description: "Self-hosted multi-protocol model gateway and control plane."
-    language: "Rust"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-19"
-  - name: "ForgeSentinel"
-    title: "ForgeSentinel"
-    description: "Autonomous repository governance and maintainer workflow system."
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-19"
-  - name: "TideScope"
-    title: "TideScope"
-    description: "潮汐 TideScope | 金融研究与交互式看板 Agent，证据驱动的研究工作台"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-28"
-  - name: "WorkflowIR-Harness"
-    title: "WorkflowIR-Harness"
-    description: "Stable executable workflow generation with Workflow IR, scoped validation, repair, and evaluation."
-    language: "Python"
-    topics:
-      - "ai-agents"
-      - "dify"
-      - "llm-evaluation"
-      - "rag"
-      - "workflow-generation"
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-09-03"
+repos: []
 ---
 
 # PeaceMaker-best

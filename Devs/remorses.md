@@ -8,39 +8,39 @@ provenance_repos:
   - "anomalyco/opencode"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+repos_populated: false
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [4, 7, 4, 1, 6, 0, 6, 1, 1, 3, 4, 3, 0]
+pushes_per_week: [5, 6, 5, 1, 5, 0, 7, 0, 1, 4, 4, 2, 2]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
+    pushes: 2
+    distinct_repos: 2
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 10
-    distinct_repos: 7
-    active_days: 8
+    pushes: 12
+    distinct_repos: 8
+    active_days: 9
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 40
-    distinct_repos: 21
-    active_days: 28
+    pushes: 42
+    distinct_repos: 22
+    active_days: 29
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.4286
-  repo_per_active_day: 0.7500
-  not_owned_ratio: 0.0476
-  basename_concentration: 0.0476
+  push_per_day: 1.4483
+  repo_per_active_day: 0.7586
+  not_owned_ratio: 0.0455
+  basename_concentration: 0.0455
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,90 +49,38 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
+    pushes: 2
+    distinct_repos: 2
+    pushes_per_repo: 1.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 10
-    distinct_repos: 7
-    pushes_per_repo: 1.4286
-    active_days: 8
+    pushes: 12
+    distinct_repos: 8
+    pushes_per_repo: 1.5000
+    active_days: 9
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 40
-    distinct_repos: 21
-    pushes_per_repo: 1.9048
-    active_days: 28
+    pushes: 42
+    distinct_repos: 22
+    pushes_per_repo: 1.9091
+    active_days: 29
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 28 active days in 90d — pass"
+  - "activity: 29 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "playwriter"
-    title: "playwriter"
-    description: "Chrome extension & CLI to let agents control your browser. Runs Playwright snippets in a stateful sandbox. Available as CLI or MCP"
-    language: "TypeScript"
-    topics:
-      - "mcp"
-      - "playwright"
-    stars_fact: 3953
-    first_seen: null
-    last_push: "2026-09-24"
-  - name: "gpuix"
-    title: "gpuix"
-    description: "Node.js & React bindings for Zed’s GPUI. Build memory efficient native apps with React and no Electron"
-    language: "Rust"
-    topics:
-      - "gpui"
-      - "zed"
-    stars_fact: 2505
-    first_seen: null
-    last_push: "2026-09-27"
-  - name: "usecomputer"
-    title: "usecomputer"
-    description: "Fast computer automation CLI for AI agents. Control any desktop with screenshots, clicks, typing, scrolling, and more."
-    language: "Zig"
-    topics: []
-    stars_fact: 333
-    first_seen: null
-    last_push: "2026-09-08"
-  - name: "unframer"
-    title: "unframer"
-    description: "Use Framer components in your React codebase"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 256
-    first_seen: null
-    last_push: "2026-10-01"
-  - name: "tuistory"
-    title: "tuistory"
-    description: "TMUX for agents. let agents control & test terminal user interfaces. Like Playwright & agent-browser but for TUIs"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 366
-    first_seen: null
-    last_push: "2026-08-21"
-  - name: "zele"
-    title: "zele"
-    description: "Email & Calendar CLI. Gmail, Outlook, IMAP/SMTP and Google Calendar from your terminal. For humans & agents"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 298
-    first_seen: null
-    last_push: "2026-10-01"
+repos: []
 ---
 
 # remorses
 
-40 pushes across 21 repositories on 28 active days in the last 90 days of public GitHub push activity.
+42 pushes across 22 repositories on 29 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/remorses

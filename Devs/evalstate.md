@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "48dbbdd8fd0d3029"
-pushes_per_week: [13, 17, 19, 9, 7, 1, 3, 2, 0, 0, 4, 9, 0]
+pushes_per_week: [17, 17, 15, 10, 3, 1, 4, 1, 0, 2, 5, 6, 1]
 windows:
   "7d":
-    pushes: 2
-    distinct_repos: 2
+    pushes: 1
+    distinct_repos: 1
     active_days: 1
-    repos_not_owned: 2
-    not_owned_basenames: 2
-    not_owned_owners: 1
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
-    pushes: 13
+    pushes: 14
     distinct_repos: 4
-    active_days: 8
+    active_days: 9
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 84
-    distinct_repos: 12
-    active_days: 41
-    repos_not_owned: 8
-    not_owned_basenames: 8
-    not_owned_owners: 5
+    pushes: 82
+    distinct_repos: 11
+    active_days: 40
+    repos_not_owned: 7
+    not_owned_basenames: 7
+    not_owned_owners: 4
 automation:
   state: "clear"
-  push_per_day: 2.0488
-  repo_per_active_day: 0.2927
-  not_owned_ratio: 0.6667
-  basename_concentration: 0.0833
+  push_per_day: 2.0500
+  repo_per_active_day: 0.2750
+  not_owned_ratio: 0.6364
+  basename_concentration: 0.0909
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,42 +49,42 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
-    distinct_repos: 2
+    pushes: 1
+    distinct_repos: 1
     pushes_per_repo: 1.0000
     active_days: 1
-    repos_not_owned: 2
-    not_owned_basenames: 2
-    not_owned_owners: 1
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
-    pushes: 13
+    pushes: 14
     distinct_repos: 4
-    pushes_per_repo: 3.2500
-    active_days: 8
+    pushes_per_repo: 3.5000
+    active_days: 9
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 84
-    distinct_repos: 12
-    pushes_per_repo: 7.0000
-    active_days: 41
-    repos_not_owned: 8
-    not_owned_basenames: 8
-    not_owned_owners: 5
+    pushes: 82
+    distinct_repos: 11
+    pushes_per_repo: 7.4545
+    active_days: 40
+    repos_not_owned: 7
+    not_owned_basenames: 7
+    not_owned_owners: 4
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 41 active days in 90d — pass"
+  - "activity: 40 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "mcp-hfspace"
-    title: "mcp-hfspace"
-    description: "MCP Server to Use HuggingFace spaces, easy configuration and Claude Desktop mode."
+  - name: "mcp-webcam"
+    title: "mcp-webcam"
+    description: "Capture live images from your webcam with a tool or resource request"
     language: "TypeScript"
     topics: []
-    stars_fact: 389
+    stars_fact: 123
     first_seen: null
-    last_push: "2025-06-13"
+    last_push: "2025-10-22"
   - name: "fast-agent"
     title: "fast-agent"
     description: "Code, Build and Evaluate agents - excellent Model and Skills/MCP/ACP/A2A Support"
@@ -102,9 +102,17 @@ repos:
       - "python"
       - "skills"
       - "tui"
-    stars_fact: 3925
+    stars_fact: 3928
     first_seen: null
-    last_push: "2026-09-30"
+    last_push: "2026-10-09"
+  - name: "mcp-hfspace"
+    title: "mcp-hfspace"
+    description: "MCP Server to Use HuggingFace spaces, easy configuration and Claude Desktop mode."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 388
+    first_seen: null
+    last_push: "2025-06-13"
   - name: "miscellany"
     title: "miscellany"
     description: null
@@ -121,14 +129,6 @@ repos:
     stars_fact: 33
     first_seen: null
     last_push: "2026-05-10"
-  - name: "mcp-webcam"
-    title: "mcp-webcam"
-    description: "Capture live images from your webcam with a tool or resource request"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 121
-    first_seen: null
-    last_push: "2025-10-22"
   - name: "tb21-run"
     title: "tb21-run"
     description: null
@@ -141,6 +141,6 @@ repos:
 
 # evalstate
 
-84 pushes across 12 repositories on 41 active days in the last 90 days of public GitHub push activity.
+82 pushes across 11 repositories on 40 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/evalstate

@@ -8,11 +8,11 @@ provenance_repos:
   - "JCodesMore/ai-website-cloner-template"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+repos_populated: false
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "624efc8fafcad404"
-pushes_per_week: [8, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0, 1, 0]
+pushes_per_week: [8, 0, 0, 1, 2, 0, 0, 0, 0, 0, 0, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,94 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "ai-website-cloner-template"
-    title: "ai-website-cloner-template"
-    description: "Clone any website with one command using AI coding agents"
-    language: "TypeScript"
-    topics:
-      - "ai"
-      - "ai-agents"
-      - "ai-tools"
-      - "automation"
-      - "boilerplate"
-      - "claude"
-      - "claude-code"
-      - "clone"
-      - "developer-tools"
-      - "nextjs"
-      - "react"
-      - "reverse-engineering"
-      - "shadcn-ui"
-      - "skills"
-      - "tailwindcss"
-      - "template"
-      - "typescript"
-      - "web-scraping"
-      - "website-clone"
-    stars_fact: 35547
-    first_seen: "2026-06-23T06:00:02.599193+00:00"
-    last_push: "2026-09-27"
-  - name: "youtube-for-ai-agents"
-    title: "youtube-for-ai-agents"
-    description: "Your AI agent can now search Youtube, watch videos, create highlight reels, and more"
-    language: "TypeScript"
-    topics:
-      - "agent"
-      - "ai"
-      - "claude"
-      - "claude-code"
-      - "mcp"
-      - "plugin"
-      - "youtube"
-    stars_fact: 51
-    first_seen: null
-    last_push: "2026-04-30"
-  - name: "fix-claude-code"
-    title: "fix-claude-code"
-    description: "Fix and optimize Claude Code performance the easy way"
-    language: null
-    topics:
-      - "ai"
-      - "ai-agents"
-      - "claude"
-      - "claude-code"
-      - "fix"
-      - "performance"
-      - "plugin"
-    stars_fact: 22
-    first_seen: null
-    last_push: "2026-08-15"
-  - name: "agent-recall"
-    title: "agent-recall"
-    description: "Let your AI agents find any conversation you've had across Claude Code, Codex, and OpenCode."
-    language: "JavaScript"
-    topics: []
-    stars_fact: 11
-    first_seen: null
-    last_push: "2026-09-27"
-  - name: "slack-for-ai-agents"
-    title: "slack-for-ai-agents"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 4
-    first_seen: null
-    last_push: "2026-08-15"
-  - name: "discord-for-ai-agents"
-    title: "discord-for-ai-agents"
-    description: "Connect your AI agent to Discord - create servers, moderate, and more"
-    language: "TypeScript"
-    topics:
-      - "agent"
-      - "ai"
-      - "claude-code"
-      - "discord"
-      - "mcp"
-      - "plugin"
-    stars_fact: 11
-    first_seen: null
-    last_push: "2026-05-07"
+repos: []
 ---
 
 # JCodesMore

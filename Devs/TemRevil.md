@@ -8,11 +8,11 @@ provenance_repos:
   - "anthropics/claude-code-action"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+repos_populated: false
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "0b22ca37fd3884c9"
-pushes_per_week: [9, 1, 1, 1, 2, 0, 0, 0, 0, 0, 3, 6, 0]
+pushes_per_week: [5, 1, 1, 3, 0, 0, 0, 0, 0, 1, 6, 2, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 23
-    distinct_repos: 10
-    active_days: 15
+    pushes: 19
+    distinct_repos: 6
+    active_days: 13
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.5333
-  repo_per_active_day: 0.6667
+  push_per_day: 1.4615
+  repo_per_active_day: 0.4615
   not_owned_ratio: 0.0000
-  basename_concentration: 0.1000
+  basename_concentration: 0.1667
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,84 +65,22 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 23
-    distinct_repos: 10
-    pushes_per_repo: 2.3000
-    active_days: 15
+    pushes: 19
+    distinct_repos: 6
+    pushes_per_repo: 3.1667
+    active_days: 13
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 15 active days in 90d — pass"
+  - "activity: 13 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "t-sec"
-    title: "t-sec"
-    description: "Age-encrypted developer secrets CLI with a terminal UI and per-device trust"
-    language: "TypeScript"
-    topics:
-      - "age"
-      - "cli"
-      - "secrets-management"
-      - "terminal-ui"
-      - "typescript"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-04"
-  - name: "revil"
-    title: "revil"
-    description: "Portfolio ✨"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 6
-    first_seen: null
-    last_push: "2026-09-29"
-  - name: "gmrec"
-    title: "gmrec"
-    description: "Chrome extension that records each Google Meet participant into their own MP4, from their real stream — not a screen capture."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-21"
-  - name: "linkedin-auto-poster"
-    title: "linkedin-auto-poster"
-    description: "LinkedIn AI auto-poster self-hostable dashboard"
-    language: "Python"
-    topics:
-      - "autoposter"
-      - "claude"
-      - "claude-code"
-      - "claudecode"
-      - "linkedin"
-      - "poster"
-      - "python"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-24"
-  - name: "Cake"
-    title: "Cake"
-    description: "A little animated birthday cake, made with love."
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-07-13"
-  - name: "TemRevil"
-    title: "TemRevil"
-    description: "Config files for my GitHub profile."
-    language: null
-    topics:
-      - "config"
-      - "github-config"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-05"
+repos: []
 ---
 
 # TemRevil
 
-23 pushes across 10 repositories on 15 active days in the last 90 days of public GitHub push activity.
+19 pushes across 6 repositories on 13 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/TemRevil

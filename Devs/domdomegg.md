@@ -6,15 +6,13 @@ discovered_via_all:
   - "fanout"
 provenance_repos:
   - "ChromeDevTools/chrome-devtools-mcp"
-  - "cline/cline"
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "379642deb53f3714"
-  - "533d51d9d3dea76f"
-pushes_per_week: [1, 5, 9, 0, 6, 1, 4, 0, 1, 1, 0, 1, 1]
+pushes_per_week: [3, 6, 6, 1, 6, 0, 4, 0, 1, 1, 1, 1, 1]
 windows:
   "7d":
     pushes: 1
@@ -24,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 3
+    pushes: 4
     distinct_repos: 3
-    active_days: 3
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 30
+    pushes: 31
     distinct_repos: 15
-    active_days: 16
+    active_days: 17
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 1.8750
-  repo_per_active_day: 0.9375
+  push_per_day: 1.8235
+  repo_per_active_day: 0.8824
   not_owned_ratio: 0.1333
   basename_concentration: 0.0667
   shapes: []
@@ -59,26 +57,34 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 3
+    pushes: 4
     distinct_repos: 3
-    pushes_per_repo: 1.0000
-    active_days: 3
+    pushes_per_repo: 1.3333
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 30
+    pushes: 31
     distinct_repos: 15
-    pushes_per_repo: 2.0000
-    active_days: 16
+    pushes_per_repo: 2.0667
+    active_days: 17
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
 reasons:
-  - "provenance: 2 vault signal(s) — pass"
-  - "activity: 16 active days in 90d — pass"
+  - "provenance: 1 vault signal(s) — pass"
+  - "activity: 17 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "homelab"
+    title: "homelab"
+    description: "🏠 IaC configuration for my homelab"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-08"
   - name: "computer-use-mcp"
     title: "computer-use-mcp"
     description: "💻 Give AI models complete control of your computer (probably a bad idea)"
@@ -86,44 +92,17 @@ repos:
     topics:
       - "mcp-server"
       - "model-context-protocol"
-    stars_fact: 382
+    stars_fact: 383
     first_seen: null
     last_push: "2026-09-09"
-  - name: "mcp-local-tunnel"
-    title: "mcp-local-tunnel"
-    description: "🚇 Expose local MCP servers to remote clients without opening ports"
+  - name: "llm-spelling-experiment"
+    title: "llm-spelling-experiment"
+    description: "✏️😟 Does bad spelling, punctuation and grammar (SPaG) in prompts reduce large language model (LLM) output quality?"
     language: "TypeScript"
     topics: []
-    stars_fact: 6
+    stars_fact: 0
     first_seen: null
-    last_push: "2026-09-29"
-  - name: "airtable-mcp-server"
-    title: "airtable-mcp-server"
-    description: "🗂️🤖 Airtable Model Context Protocol Server, for allowing AI systems to interact with your Airtable bases"
-    language: "TypeScript"
-    topics:
-      - "airtable"
-      - "mcp-server"
-      - "model-context-protocol"
-    stars_fact: 457
-    first_seen: null
-    last_push: "2026-09-09"
-  - name: "postal-vote"
-    title: "postal-vote"
-    description: "🗳📮 Apply for postal votes in England, Scotland and Wales"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-09-30"
-  - name: "aws-ses-v2-local"
-    title: "aws-ses-v2-local"
-    description: "☁📬 A local version of Amazon Simple Email Service (AWS SES) supporting the V1 and V2 API"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 96
-    first_seen: null
-    last_push: "2026-09-30"
+    last_push: "2026-10-08"
   - name: "ts-i18n-webpack-plugin-example"
     title: "ts-i18n-webpack-plugin-example"
     description: "💬🌐 Example project using ts-i18n with webpack"
@@ -131,11 +110,27 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-29"
+    last_push: "2026-10-07"
+  - name: "controller-tutor"
+    title: "controller-tutor"
+    description: "🎮 A web game to learn where the buttons on an Xbox controller are"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-07"
+  - name: "airtable-ts-formula"
+    title: "airtable-ts-formula"
+    description: "⚗️📝 Type-safe, securely-escaped and rename-robust formulae for Airtable (e.g. for filterByFormula)"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 6
+    first_seen: null
+    last_push: "2026-10-06"
 ---
 
 # domdomegg
 
-30 pushes across 15 repositories on 16 active days in the last 90 days of public GitHub push activity.
+31 pushes across 15 repositories on 17 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/domdomegg

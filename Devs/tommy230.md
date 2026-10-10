@@ -8,11 +8,11 @@ provenance_repos:
   - "BuilderIO/agent-native"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+repos_populated: false
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "745308b2b7085095"
-pushes_per_week: [9, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 5, 0]
+pushes_per_week: [9, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 4, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,15 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "nanoshield"
-    title: "nanoshield"
-    description: "NanoShield - Premium automotive film products website"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-03-24"
+repos: []
 ---
 
 # tommy230

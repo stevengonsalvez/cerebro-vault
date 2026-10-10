@@ -10,13 +10,13 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "9d67ce648f6a8919"
-pushes_per_week: [18, 6, 2, 0, 10, 6, 2, 2, 3, 3, 5, 15, 8]
+pushes_per_week: [18, 3, 1, 1, 13, 2, 3, 1, 4, 2, 10, 14, 4]
 windows:
   "7d":
-    pushes: 8
+    pushes: 7
     distinct_repos: 3
     active_days: 3
     repos_not_owned: 2
@@ -30,16 +30,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 6
   "90d":
-    pushes: 80
+    pushes: 76
     distinct_repos: 11
-    active_days: 42
+    active_days: 41
     repos_not_owned: 8
     not_owned_basenames: 1
     not_owned_owners: 8
 automation:
   state: "clear"
-  push_per_day: 1.9048
-  repo_per_active_day: 0.2619
+  push_per_day: 1.8537
+  repo_per_active_day: 0.2683
   not_owned_ratio: 0.7273
   basename_concentration: 0.8182
   shapes:
@@ -66,9 +66,9 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 8
+    pushes: 7
     distinct_repos: 3
-    pushes_per_repo: 2.6667
+    pushes_per_repo: 2.3333
     active_days: 3
     repos_not_owned: 2
     not_owned_basenames: 1
@@ -82,16 +82,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 6
   "90d":
-    pushes: 80
+    pushes: 76
     distinct_repos: 11
-    pushes_per_repo: 7.2727
-    active_days: 42
+    pushes_per_repo: 6.9091
+    active_days: 41
     repos_not_owned: 8
     not_owned_basenames: 1
     not_owned_owners: 8
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 42 active days in 90d — pass"
+  - "activity: 41 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "free-claude-code"
@@ -99,9 +99,9 @@ repos:
     description: "Use Claude Code, Codex, VSCode, Pi, and OpenCode (and 6 other harnesses) for free (1.3B+ free tokens) from your terminal, app, IDE, or phone, and now from the browser with native browser sessions (multi-harness + multi-model) like OpenClaw (voice supported + ToS friendly)"
     language: "Python"
     topics: []
-    stars_fact: 56301
+    stars_fact: 57148
     first_seen: "2026-08-04T06:00:05.827253+00:00"
-    last_push: "2026-10-01"
+    last_push: "2026-10-09"
   - name: "Machine-Learning-Methods-in-Physics"
     title: "Machine-Learning-Methods-in-Physics"
     description: null
@@ -130,6 +130,6 @@ repos:
 
 # Alishahryar1
 
-80 pushes across 11 repositories on 42 active days in the last 90 days of public GitHub push activity.
+76 pushes across 11 repositories on 41 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Alishahryar1

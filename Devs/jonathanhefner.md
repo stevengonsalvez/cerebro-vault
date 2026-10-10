@@ -11,16 +11,16 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "48dbbdd8fd0d3029"
   - "8baedcc9c29d068b"
-pushes_per_week: [2, 10, 3, 1, 4, 5, 0, 0, 0, 3, 0, 2, 0]
+pushes_per_week: [5, 8, 2, 1, 6, 3, 0, 0, 0, 3, 0, 2, 0]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -52,10 +52,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -85,7 +85,7 @@ repos:
     description: null
     language: "TypeScript"
     topics: []
-    stars_fact: 5
+    stars_fact: 6
     first_seen: null
     last_push: "2026-04-05"
   - name: "topcoder__ruby"

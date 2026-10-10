@@ -8,11 +8,11 @@ provenance_repos:
   - "superdesigndev/treg"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+repos_populated: false
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "8b01562a542974d1"
-pushes_per_week: [2, 2, 5, 6, 8, 3, 4, 1, 3, 7, 7, 4, 5]
+pushes_per_week: [2, 1, 11, 0, 8, 3, 4, 1, 3, 12, 4, 2, 5]
 windows:
   "7d":
     pushes: 5
@@ -22,25 +22,25 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 25
+    pushes: 23
     distinct_repos: 1
-    active_days: 14
+    active_days: 12
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 57
-    distinct_repos: 5
-    active_days: 29
-    repos_not_owned: 4
-    not_owned_basenames: 4
-    not_owned_owners: 2
+    pushes: 56
+    distinct_repos: 4
+    active_days: 28
+    repos_not_owned: 3
+    not_owned_basenames: 3
+    not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.9655
-  repo_per_active_day: 0.1724
-  not_owned_ratio: 0.8000
-  basename_concentration: 0.2000
+  push_per_day: 2.0000
+  repo_per_active_day: 0.1429
+  not_owned_ratio: 0.7500
+  basename_concentration: 0.2500
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -57,78 +57,30 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 25
+    pushes: 23
     distinct_repos: 1
-    pushes_per_repo: 25.0000
-    active_days: 14
+    pushes_per_repo: 23.0000
+    active_days: 12
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 57
-    distinct_repos: 5
-    pushes_per_repo: 11.4000
-    active_days: 29
-    repos_not_owned: 4
-    not_owned_basenames: 4
-    not_owned_owners: 2
+    pushes: 56
+    distinct_repos: 4
+    pushes_per_repo: 14.0000
+    active_days: 28
+    repos_not_owned: 3
+    not_owned_basenames: 3
+    not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 29 active days in 90d — pass"
+  - "activity: 28 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "codebase-harness"
-    title: "codebase-harness"
-    description: null
-    language: "Shell"
-    topics: []
-    stars_fact: 29
-    first_seen: null
-    last_push: "2026-06-07"
-  - name: "claude-code-vault"
-    title: "claude-code-vault"
-    description: "Production .claude/ starter kit from the Claude Code 101 course by AI Builder Club"
-    language: "Shell"
-    topics: []
-    stars_fact: 12
-    first_seen: null
-    last_push: "2026-06-12"
-  - name: "microsoft-autogen-experiments"
-    title: "microsoft-autogen-experiments"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 221
-    first_seen: null
-    last_push: "2023-10-03"
-  - name: "research-agents-3.0"
-    title: "research-agents-3.0"
-    description: "Autogen + GPTs - build a swarm AI researchers"
-    language: "Python"
-    topics: []
-    stars_fact: 459
-    first_seen: null
-    last_push: "2023-12-20"
-  - name: "awesome-claude-skills"
-    title: "awesome-claude-skills"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 171
-    first_seen: null
-    last_push: "2025-10-18"
-  - name: "ManyMany.dev"
-    title: "ManyMany.dev"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 63
-    first_seen: null
-    last_push: "2025-09-01"
+repos: []
 ---
 
 # JayZeeDesign
 
-57 pushes across 5 repositories on 29 active days in the last 90 days of public GitHub push activity.
+56 pushes across 4 repositories on 28 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/JayZeeDesign

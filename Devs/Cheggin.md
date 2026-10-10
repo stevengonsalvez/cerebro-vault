@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "c1af6b58492f9bf4"
 pushes_per_week: [4, 1, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0]
@@ -77,6 +77,16 @@ reasons:
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "minecraft-use"
+    title: "minecraft-use"
+    description: "terminals + vs code + agents in minecraft"
+    language: "Java"
+    topics:
+      - "claude-code"
+      - "minecraft"
+    stars_fact: 19
+    first_seen: null
+    last_push: "2026-04-20"
   - name: "Portfolio"
     title: "Portfolio"
     description: "My Personal Website :D"
@@ -117,14 +127,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-06-09"
-  - name: "HackMIT2025"
-    title: "HackMIT2025"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2025-09-14"
 ---
 
 # Cheggin

@@ -8,11 +8,11 @@ provenance_repos:
   - "Canner/WrenAI"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+repos_populated: false
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "dffbb846389f9a26"
-pushes_per_week: [0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 23, 5]
+pushes_per_week: [0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 10, 13, 5]
 windows:
   "7d":
     pushes: 5
@@ -76,51 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 9 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "MohammadHijjawi97"
-    title: "MohammadHijjawi97"
-    description: "Senior AI Engineer. Agentic AI systems, LLM architecture, applied NLP."
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-06"
-  - name: "since-cutoff"
-    title: "since-cutoff"
-    description: "Find which APIs of your pinned Python dependencies changed after your coding model's training cutoff, and give the agent short AGENTS.md / CLAUDE.md notes from a static API diff. No model calls, no API key. CLI, MCP server, Claude Code plugin, GitHub Action."
-    language: "Python"
-    topics:
-      - "agent-skills"
-      - "agents-md"
-      - "ai-agents"
-      - "api-changes"
-      - "breaking-changes"
-      - "claude-code"
-      - "claude-code-plugin"
-      - "claude-skills"
-      - "coding-agents"
-      - "deprecation"
-      - "developer-tools"
-      - "github-actions"
-      - "knowledge-cutoff"
-      - "llm"
-      - "mcp"
-      - "mcp-server"
-      - "model-context-protocol"
-      - "pre-commit-hook"
-      - "python"
-      - "static-analysis"
-    stars_fact: 7
-    first_seen: null
-    last_push: "2026-10-04"
-  - name: "misgrade"
-    title: "misgrade"
-    description: "Conformance tests for the graders ML depends on: find where reward functions, eval answer extractors and verifiers accept wrong answers or reject right ones. No model calls, no API key."
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-01"
+repos: []
 ---
 
 # MohammadHijjawi97

@@ -8,37 +8,37 @@ provenance_repos:
   - "BigPizzaV3/CodexPlusPlus"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+repos_populated: false
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "90688bf127241ceb"
-pushes_per_week: [2, 4, 4, 2, 14, 7, 1, 1, 4, 0, 7, 4, 2]
+pushes_per_week: [3, 3, 4, 3, 16, 4, 1, 1, 4, 4, 7, 0, 3]
 windows:
   "7d":
-    pushes: 2
-    distinct_repos: 1
-    active_days: 1
+    pushes: 3
+    distinct_repos: 2
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 15
-    distinct_repos: 7
+    pushes: 14
+    distinct_repos: 5
     active_days: 8
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 52
+    pushes: 53
     distinct_repos: 11
-    active_days: 29
+    active_days: 30
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.7931
-  repo_per_active_day: 0.3793
+  push_per_day: 1.7667
+  repo_per_active_day: 0.3667
   not_owned_ratio: 0.0000
   basename_concentration: 0.0909
   shapes: []
@@ -49,86 +49,38 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
-    distinct_repos: 1
-    pushes_per_repo: 2.0000
-    active_days: 1
+    pushes: 3
+    distinct_repos: 2
+    pushes_per_repo: 1.5000
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 15
-    distinct_repos: 7
-    pushes_per_repo: 2.1429
+    pushes: 14
+    distinct_repos: 5
+    pushes_per_repo: 2.8000
     active_days: 8
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 52
+    pushes: 53
     distinct_repos: 11
-    pushes_per_repo: 4.7273
-    active_days: 29
+    pushes_per_repo: 4.8182
+    active_days: 30
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 29 active days in 90d — pass"
+  - "activity: 30 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "AgentWiki"
-    title: "AgentWiki"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-02"
-  - name: "SuperPPT"
-    title: "SuperPPT"
-    description: "Create high-detail image-first PPTX decks with versioned planning and editable page revisions."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-27"
-  - name: "ai-image-to-ppt"
-    title: "ai-image-to-ppt"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-27"
-  - name: "WPSComposer"
-    title: "WPSComposer"
-    description: "Agent skill (any agent, Codex plugin packaging included) for generating and editing rich-layout DOCX/PPTX/XLSX/PDF via the real WPS Office engine — COM on Windows, JSAPI bridge on macOS"
-    language: "Python"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-26"
-  - name: "project-taskboard"
-    title: "project-taskboard"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-26"
-  - name: "agentwiki-sync"
-    title: "agentwiki-sync"
-    description: "Obsidian plugin for syncing vaults with AgentWiki"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-25"
+repos: []
 ---
 
 # NeoMei
 
-52 pushes across 11 repositories on 29 active days in the last 90 days of public GitHub push activity.
+53 pushes across 11 repositories on 30 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/NeoMei

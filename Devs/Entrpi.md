@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "3eacb4655aba2497"
-pushes_per_week: [11, 11, 3, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [16, 5, 4, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 29
+    pushes: 28
     distinct_repos: 3
-    active_days: 14
+    active_days: 13
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.0714
-  repo_per_active_day: 0.2143
+  push_per_day: 2.1538
+  repo_per_active_day: 0.2308
   not_owned_ratio: 0.0000
   basename_concentration: 0.3333
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 29
+    pushes: 28
     distinct_repos: 3
-    pushes_per_repo: 9.6667
-    active_days: 14
+    pushes_per_repo: 9.3333
+    active_days: 13
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 14 active days in 90d — pass"
+  - "activity: 13 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "ds4-on-spark"
@@ -91,15 +91,23 @@ repos:
       - "inference"
       - "llm"
       - "moe"
-    stars_fact: 406
+    stars_fact: 409
     first_seen: null
     last_push: "2026-08-27"
+  - name: "microgpt-denovo"
+    title: "microgpt-denovo"
+    description: "A tiny GPT from scratch: GPTception"
+    language: "Julia"
+    topics: []
+    stars_fact: 14
+    first_seen: null
+    last_push: "2026-07-10"
   - name: "eemicrogpt"
     title: "eemicrogpt"
     description: "The most extreme way to train a GPT in pure, dependency-free C. 84000x faster than Python. Optimized for Apple Silicon with SME2."
     language: "C"
     topics: []
-    stars_fact: 64
+    stars_fact: 66
     first_seen: null
     last_push: "2026-07-10"
   - name: "glm-5.3-flash-exl3-2x-spark"
@@ -107,7 +115,7 @@ repos:
     description: "GLM-5.3-Flash (EXL3 4bpw + DFlash2) on 2x NVIDIA DGX Spark: one-shot installer, 33-74 tok/s c1, 1.3M+ context, vision"
     language: "Shell"
     topics: []
-    stars_fact: 43
+    stars_fact: 44
     first_seen: null
     last_push: "2026-09-02"
   - name: "qwen3.5-122B-A10B-on-spark"
@@ -126,18 +134,10 @@ repos:
     stars_fact: 18
     first_seen: null
     last_push: "2026-03-23"
-  - name: "dgx-spark-serving-mode"
-    title: "dgx-spark-serving-mode"
-    description: "Headless / multi-user serving-mode for the DGX Spark: free unified memory for vLLM by paring back the desktop. Companion to qwen3.5-122B-A10B-on-spark."
-    language: "Shell"
-    topics: []
-    stars_fact: 18
-    first_seen: null
-    last_push: "2026-06-29"
 ---
 
 # Entrpi
 
-29 pushes across 3 repositories on 14 active days in the last 90 days of public GitHub push activity.
+28 pushes across 3 repositories on 13 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Entrpi

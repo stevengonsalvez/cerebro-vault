@@ -8,11 +8,11 @@ provenance_repos:
   - "can1357/oh-my-pi"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+repos_populated: false
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [0, 0, 3, 2, 0, 0, 1, 1, 0, 0, 0, 0, 0]
+pushes_per_week: [0, 0, 4, 1, 0, 0, 2, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,55 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "pffft"
-    title: "pffft"
-    description: "A fork of Julien Pommier's Pretty Fast FFT (PFFFT) library, with several additions"
-    language: "C"
-    topics:
-      - "c"
-      - "convolution"
-      - "cpp"
-      - "dsp"
-      - "fast-convolution"
-      - "fft"
-      - "fft-library"
-      - "pffft"
-    stars_fact: 374
-    first_seen: null
-    last_push: "2026-09-29"
-  - name: "acp-probe"
-    title: "acp-probe"
-    description: "A little agent control protocol (ACP) tester tool, to help develop ACP clients"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-07-31"
-  - name: "disiple"
-    title: "disiple"
-    description: "Digital Signal Processing Library for Eigen"
-    language: "C++"
-    topics: []
-    stars_fact: 12
-    first_seen: null
-    last_push: "2023-01-16"
-  - name: "atlassian"
-    title: "atlassian"
-    description: "My Atlassian setup"
-    language: "Dockerfile"
-    topics: []
-    stars_fact: 6
-    first_seen: null
-    last_push: "2018-09-24"
-  - name: "envgineer"
-    title: "envgineer"
-    description: "Pragmatic secrets management via encrypted .env files"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2020-02-25"
+repos: []
 ---
 
 # marton78

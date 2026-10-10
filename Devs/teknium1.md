@@ -11,45 +11,45 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "48dbbdd8fd0d3029"
   - "ec2b8bd43eefd65f"
-pushes_per_week: [44, 79, 108, 30, 80, 107, 43, 11, 25, 107, 333, 98, 123]
+pushes_per_week: [73, 82, 85, 34, 124, 48, 47, 6, 34, 239, 213, 109, 103]
 windows:
   "7d":
-    pushes: 126
-    distinct_repos: 24
-    active_days: 6
-    repos_not_owned: 24
-    not_owned_basenames: 8
-    not_owned_owners: 19
+    pushes: 110
+    distinct_repos: 20
+    active_days: 7
+    repos_not_owned: 20
+    not_owned_basenames: 6
+    not_owned_owners: 16
   "30d":
-    pushes: 666
-    distinct_repos: 62
-    active_days: 27
-    repos_not_owned: 60
+    pushes: 675
+    distinct_repos: 63
+    active_days: 29
+    repos_not_owned: 61
     not_owned_basenames: 9
-    not_owned_owners: 55
+    not_owned_owners: 56
   "90d":
-    pushes: 1188
-    distinct_repos: 70
-    active_days: 73
-    repos_not_owned: 67
+    pushes: 1197
+    distinct_repos: 71
+    active_days: 75
+    repos_not_owned: 68
     not_owned_basenames: 10
-    not_owned_owners: 61
+    not_owned_owners: 62
 automation:
   state: "clear"
-  push_per_day: 16.2740
-  repo_per_active_day: 0.9589
-  not_owned_ratio: 0.9571
-  basename_concentration: 0.7857
+  push_per_day: 15.9600
+  repo_per_active_day: 0.9467
+  not_owned_ratio: 0.9577
+  basename_concentration: 0.7887
   shapes:
     - "high_push_rate"
     - "fork_farm_third_party"
   shape_evidence:
-    - "16.27 pushes per active day over 90d (1188 pushes / 73 active days), above the 15 review line"
-    - "basename concentration 0.7857 (55 of 70 repos share one basename), 67 not owned across 10 basenames — 5 of 5 sampled repos resolved; 5 fork somebody else's repo; upstreams: NousResearch/hermes-agent"
+    - "15.96 pushes per active day over 90d (1197 pushes / 75 active days), above the 15 review line"
+    - "basename concentration 0.7887 (56 of 71 repos share one basename), 68 not owned across 10 basenames — 5 of 5 sampled repos resolved; 5 fork somebody else's repo; upstreams: NousResearch/hermes-agent"
   cleared_by: "e01-builder"
   cleared_on: "2026-08-26"
   fork_provenance:
@@ -70,32 +70,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 126
-    distinct_repos: 24
-    pushes_per_repo: 5.2500
-    active_days: 6
-    repos_not_owned: 24
-    not_owned_basenames: 8
-    not_owned_owners: 19
+    pushes: 110
+    distinct_repos: 20
+    pushes_per_repo: 5.5000
+    active_days: 7
+    repos_not_owned: 20
+    not_owned_basenames: 6
+    not_owned_owners: 16
   "30d":
-    pushes: 666
-    distinct_repos: 62
-    pushes_per_repo: 10.7419
-    active_days: 27
-    repos_not_owned: 60
+    pushes: 675
+    distinct_repos: 63
+    pushes_per_repo: 10.7143
+    active_days: 29
+    repos_not_owned: 61
     not_owned_basenames: 9
-    not_owned_owners: 55
+    not_owned_owners: 56
   "90d":
-    pushes: 1188
-    distinct_repos: 70
-    pushes_per_repo: 16.9714
-    active_days: 73
-    repos_not_owned: 67
+    pushes: 1197
+    distinct_repos: 71
+    pushes_per_repo: 16.8592
+    active_days: 75
+    repos_not_owned: 68
     not_owned_basenames: 10
-    not_owned_owners: 61
+    not_owned_owners: 62
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 73 active days in 90d — pass"
+  - "activity: 75 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "hermes-star-trek-profiles"
@@ -108,55 +108,58 @@ repos:
       - "personas"
       - "profiles"
       - "star-trek"
-    stars_fact: 13
+    stars_fact: 156
     first_seen: null
     last_push: "2026-07-13"
-  - name: "hermetic-codex-tweaks"
-    title: "hermetic-codex-tweaks"
-    description: "Companion client mod for The Hermetic Codex modpack — configurable Cobblemon party HUD position."
-    language: "Java"
+  - name: "hermes-pixel-office"
+    title: "hermes-pixel-office"
+    description: "Pixel-art virtual office for Hermes Agent — watch your agents work as animated pixel characters"
+    language: "Python"
     topics: []
-    stars_fact: 5
+    stars_fact: 85
     first_seen: null
-    last_push: "2026-06-24"
-  - name: "hermetic-codex-docs"
-    title: "hermetic-codex-docs"
-    description: "Documentation site for The Hermetic Codex — a Minecraft 1.21.1 NeoForge modpack."
-    language: null
-    topics: []
-    stars_fact: 4
+    last_push: "2026-08-10"
+  - name: "hermes-starter-profile"
+    title: "hermes-starter-profile"
+    description: "A focused Hermes profile for learning the agent without tool overload"
+    language: "Python"
+    topics:
+      - "ai-agent"
+      - "beginner-friendly"
+      - "hermes-agent"
+      - "profile-distribution"
+      - "starter-template"
+    stars_fact: 42
     first_seen: null
-    last_push: "2026-05-08"
+    last_push: "2026-08-09"
   - name: "nous-discord-archive"
     title: "nous-discord-archive"
     description: "Auto-archived text logs of Nous Research Discord channels (polled every 6h)"
     language: "Python"
     topics: []
-    stars_fact: 57
+    stars_fact: 60
     first_seen: null
     last_push: "2026-08-18"
-  - name: "teknium1"
-    title: "teknium1"
-    description: "Config files for my GitHub profile."
-    language: null
-    topics:
-      - "config"
-      - "github-config"
-    stars_fact: 15
-    first_seen: null
-    last_push: "2026-04-20"
-  - name: "hermes-lang-pl"
-    title: "hermes-lang-pl"
-    description: "Polish (Polski) language pack for Hermes Agent — text-only plugin: core, Desktop and TUI catalogs"
-    language: null
+  - name: "hermes-pixel-office-vscode"
+    title: "hermes-pixel-office-vscode"
+    description: "VS Code extension: watch Hermes agents work as pixel characters in a virtual office"
+    language: "HTML"
     topics: []
-    stars_fact: 0
+    stars_fact: 14
     first_seen: null
-    last_push: "2026-09-28"
+    last_push: "2026-08-10"
+  - name: "genesis-engine"
+    title: "genesis-engine"
+    description: "An open-ended artificial-life substrate that runs entirely in your browser (WebGL2). Fuses mass conservation, an evolvable embedded genome, a metabolic economy, and a novelty drive into one world."
+    language: "JavaScript"
+    topics: []
+    stars_fact: 8
+    first_seen: null
+    last_push: "2026-07-18"
 ---
 
 # teknium1
 
-1188 pushes across 70 repositories on 73 active days in the last 90 days of public GitHub push activity.
+1197 pushes across 71 repositories on 75 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/teknium1

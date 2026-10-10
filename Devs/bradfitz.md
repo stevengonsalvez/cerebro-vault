@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "e2f800cf55605b30"
-pushes_per_week: [20, 5, 3, 2, 1, 0, 0, 1, 1, 3, 10, 11, 1]
+pushes_per_week: [17, 5, 5, 1, 0, 0, 0, 1, 2, 6, 11, 6, 1]
 windows:
   "7d":
-    pushes: 2
-    distinct_repos: 2
-    active_days: 2
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 6
     not_owned_owners: 2
   "90d":
-    pushes: 58
+    pushes: 55
     distinct_repos: 12
-    active_days: 31
+    active_days: 30
     repos_not_owned: 7
     not_owned_basenames: 7
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 1.8710
-  repo_per_active_day: 0.3871
+  push_per_day: 1.8333
+  repo_per_active_day: 0.4000
   not_owned_ratio: 0.5833
   basename_concentration: 0.0833
   shapes: []
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
-    distinct_repos: 2
+    pushes: 1
+    distinct_repos: 1
     pushes_per_repo: 1.0000
-    active_days: 2
+    active_days: 1
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -65,50 +65,58 @@ facets:
     not_owned_basenames: 6
     not_owned_owners: 2
   "90d":
-    pushes: 58
+    pushes: 55
     distinct_repos: 12
-    pushes_per_repo: 4.8333
-    active_days: 31
+    pushes_per_repo: 4.5833
+    active_days: 30
     repos_not_owned: 7
     not_owned_basenames: 7
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 31 active days in 90d — pass"
+  - "activity: 30 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "go-tool-cache"
-    title: "go-tool-cache"
-    description: null
+  - name: "homelab"
+    title: "homelab"
+    description: "Brad's homelab setup"
+    language: null
+    topics: []
+    stars_fact: 2053
+    first_seen: null
+    last_push: "2020-01-30"
+  - name: "tswipoexp"
+    title: "tswipoexp"
+    description: "an experimental & unmaintained & unofficial portable Windows Tailscale client"
     language: "Go"
     topics: []
-    stars_fact: 130
+    stars_fact: 3
     first_seen: null
-    last_push: "2026-10-01"
-  - name: "shotizam"
-    title: "shotizam"
-    description: "Shotizam analyzes the size of Go binaries"
+    last_push: "2026-09-23"
+  - name: "gopglite"
+    title: "gopglite"
+    description: "ALPHA ALPHA AI EXPERIMENT -- Go bindings for pglite (Postgres wasm)"
     language: "Go"
     topics: []
-    stars_fact: 613
+    stars_fact: 14
     first_seen: null
-    last_push: "2026-09-30"
+    last_push: "2026-03-24"
+  - name: "iter"
+    title: "iter"
+    description: "Range over integers [0,n). Seriously, that's it."
+    language: "Go"
+    topics: []
+    stars_fact: 292
+    first_seen: null
+    last_push: "2019-12-30"
   - name: "reco"
     title: "reco"
     description: "experimental reactive computation library"
     language: "Go"
     topics: []
-    stars_fact: 5
+    stars_fact: 7
     first_seen: null
     last_push: "2026-09-29"
-  - name: "guestbd"
-    title: "guestbd"
-    description: "NBD server for ephemeral VMs getting writable forks of base images"
-    language: "Go"
-    topics: []
-    stars_fact: 12
-    first_seen: null
-    last_push: "2026-09-30"
   - name: "gxbm"
     title: "gxbm"
     description: "temp dev fork of Go's x/build/maintner code"
@@ -116,22 +124,11 @@ repos:
     topics: []
     stars_fact: 3
     first_seen: null
-    last_push: "2026-09-28"
-  - name: "gomemcache"
-    title: "gomemcache"
-    description: "Go Memcached client library #golang"
-    language: "Go"
-    topics:
-      - "golang"
-      - "memcache"
-      - "memcached-clients"
-    stars_fact: 1886
-    first_seen: null
-    last_push: "2026-07-12"
+    last_push: "2026-10-01"
 ---
 
 # bradfitz
 
-58 pushes across 12 repositories on 31 active days in the last 90 days of public GitHub push activity.
+55 pushes across 12 repositories on 30 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/bradfitz

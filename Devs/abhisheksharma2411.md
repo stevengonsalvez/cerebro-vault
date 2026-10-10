@@ -10,11 +10,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "4138778ebbc75ba6"
   - "dae9f02535f7c22f"
-pushes_per_week: [0, 0, 0, 0, 3, 1, 1, 0, 0, 2, 6, 5, 0]
+pushes_per_week: [0, 0, 0, 0, 3, 2, 0, 0, 0, 2, 8, 3, 0]
 windows:
   "7d":
     pushes: 0
@@ -79,14 +79,39 @@ reasons:
   - "activity: 12 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "ISO-20022_purpose-code_gaming_benchmark"
-    title: "ISO-20022_purpose-code_gaming_benchmark"
-    description: "Synthetic benchmark and adversarial evaluation for purpose-code gaming in ISO 20022 payments (CEEE 2026)"
-    language: "TeX"
+  - name: "reconstream"
+    title: "reconstream"
+    description: "A temporal correctness contract for streaming financial reconciliation: when is a break real?"
+    language: "Python"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-30"
+    last_push: "2026-10-10"
+  - name: "holdspec"
+    title: "holdspec"
+    description: "Machine-checked TLA+ model and generated conformance suite for the payment authorization hold lifecycle: authorize, partial and multiple capture, void, expiry, and release of held funds."
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-08"
+  - name: "distributed-systems-skills"
+    title: "distributed-systems-skills"
+    description: "Agent skills for production correctness: idempotency, exactly-once effects, failure-mode analysis, and money-movement integrity."
+    language: "JavaScript"
+    topics:
+      - "agent-skills"
+      - "claude-code"
+      - "distributed-systems"
+      - "exactly-once"
+      - "idempotency"
+      - "payments"
+      - "reliability"
+      - "site-reliability-engineering"
+      - "skills"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-07"
   - name: "justonce"
     title: "justonce"
     description: "Make side effects happen exactly once. Idempotency keys, atomic claims, and an effect ledger for code that charges money, sends messages, or mutates state."
@@ -106,48 +131,23 @@ repos:
       - "sqlite"
     stars_fact: 1
     first_seen: null
-    last_push: "2026-09-25"
-  - name: "distributed-systems-skills"
-    title: "distributed-systems-skills"
-    description: "Agent skills for production correctness: idempotency, exactly-once effects, failure-mode analysis, and money-movement integrity."
-    language: "JavaScript"
-    topics:
-      - "agent-skills"
-      - "claude-code"
-      - "distributed-systems"
-      - "exactly-once"
-      - "idempotency"
-      - "payments"
-      - "reliability"
-      - "site-reliability-engineering"
-      - "skills"
+    last_push: "2026-10-07"
+  - name: "abhisheksharma2411.github.io"
+    title: "abhisheksharma2411.github.io"
+    description: null
+    language: "HTML"
+    topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-09-25"
-  - name: "causalloss-fin"
-    title: "causalloss-fin"
-    description: "Splitting financial agent loss between decisions and infrastructure faults: joint counterfactual attribution over agent choices and dropped messages"
-    language: "Python"
+    last_push: "2026-10-06"
+  - name: "abhisheksharma2411"
+    title: "abhisheksharma2411"
+    description: "Profile README"
+    language: null
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-22"
-  - name: "holdspec"
-    title: "holdspec"
-    description: "Machine-checked TLA+ model and generated conformance suite for the payment authorization hold lifecycle: authorize, partial and multiple capture, void, expiry, and release of held funds."
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-16"
-  - name: "finalitybench"
-    title: "finalitybench"
-    description: "An effect-level benchmark for agent decisions under delayed and conflicting financial finality"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-16"
+    last_push: "2026-10-06"
 ---
 
 # abhisheksharma2411

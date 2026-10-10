@@ -8,11 +8,11 @@ provenance_repos:
   - "akitaonrails/ai-memory"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+repos_populated: false
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "4138778ebbc75ba6"
-pushes_per_week: [0, 0, 1, 0, 3, 5, 0, 0, 0, 0, 0, 5, 2]
+pushes_per_week: [0, 0, 1, 0, 6, 2, 0, 0, 0, 0, 1, 4, 2]
 windows:
   "7d":
     pushes: 2
@@ -76,77 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 11 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "rabisco"
-    title: "rabisco"
-    description: "Rabisque a imagem do clipboard no estilo do editor do WhatsApp e cole de volta. App de barra de menus para macOS, em Rust."
-    language: "Rust"
-    topics:
-      - "clipboard"
-      - "egui"
-      - "macos"
-      - "menubar-app"
-      - "rust"
-      - "screenshot"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-01"
-  - name: "grove"
-    title: "grove"
-    description: "Terminal dashboard of your git worktrees: which ones a Claude Code, Codex or OpenCode session is using, how much disk each takes, and removal with git worktree remove"
-    language: "Rust"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-01"
-  - name: "meridian"
-    title: "meridian"
-    description: "Responsive terminal clock with an ASCII world map, city time zones and blinking alarms (Rust + ratatui)"
-    language: "Rust"
-    topics:
-      - "alarm"
-      - "clock"
-      - "ratatui"
-      - "rust"
-      - "terminal"
-      - "tiling-window-manager"
-      - "timezone"
-      - "tui"
-      - "world-map"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-01"
-  - name: "vitals"
-    title: "vitals"
-    description: null
-    language: "Rust"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-01"
-  - name: "cerne"
-    title: "cerne"
-    description: "The code shared by my Rust apps: self-update from GitHub releases, settings saved as JSON, terminal themes and screen pictures"
-    language: "Rust"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-01"
-  - name: "aditor"
-    title: "aditor"
-    description: "Capture tabs. Record demos. Edit videos. A Rust CLI built for AI agents, with JSON output and precise browser capture."
-    language: "Rust"
-    topics:
-      - "ai-agents"
-      - "chrome-devtools-protocol"
-      - "cli"
-      - "ffmpeg"
-      - "rust"
-      - "screen-recording"
-      - "video-editing"
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-09-28"
+repos: []
 ---
 
 # victorlcampos

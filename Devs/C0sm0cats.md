@@ -9,22 +9,22 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "73468cde177ddae6"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 29, 11, 3, 5, 8]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 1, 36, 5, 5, 4, 5]
 windows:
   "7d":
-    pushes: 8
+    pushes: 5
     distinct_repos: 3
-    active_days: 3
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 30
+    pushes: 28
     distinct_repos: 7
-    active_days: 14
+    active_days: 12
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,18 +49,18 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 8
+    pushes: 5
     distinct_repos: 3
-    pushes_per_repo: 2.6667
-    active_days: 3
+    pushes_per_repo: 1.6667
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 30
+    pushes: 28
     distinct_repos: 7
-    pushes_per_repo: 4.2857
-    active_days: 14
+    pushes_per_repo: 4.0000
+    active_days: 12
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -77,20 +77,27 @@ reasons:
   - "activity: 17 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "SnapTess"
-    title: "SnapTess"
-    description: "Automatic window tiling for GNOME Wayland. Visual layouts, drag-to-swap, and independent spaces per display."
-    language: "JavaScript"
+  - name: "lethe"
+    title: "lethe"
+    description: "Browse, resume and forget your Claude Code and Codex sessions from one terminal picker. Never touches a running session."
+    language: "Shell"
     topics:
-      - "gnome-shell-extension"
-      - "javascript"
-      - "linux"
-      - "productivity"
-      - "tiling"
-      - "wayland"
+      - "ai-agents"
+      - "anthropic"
+      - "bash"
+      - "claude-code"
+      - "cleanup"
+      - "cli"
+      - "codex"
+      - "codex-cli"
+      - "developer-tools"
+      - "fzf"
+      - "openai"
+      - "sessions"
+      - "tui"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-03"
+    last_push: "2026-10-10"
   - name: "C0sm0cats"
     title: "C0sm0cats"
     description: "My personal repository"
@@ -98,67 +105,119 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-18"
-  - name: "hors-budget"
-    title: "hors-budget"
-    description: "A satirical side-view platformer about life at an IT services company. Clear three levels, deflect KPIs, and unlock the budget. Play online or offline."
-    language: "JavaScript"
-    topics: []
+    last_push: "2026-10-10"
+  - name: "GDRIVE"
+    title: "GDRIVE"
+    description: "Google Drive in your terminal: two-way sync of the folders you pick across My Drive, shared items and shared drives, with a preview of every change on both sides. Conflicts kept, deletions to the trash, Docs/Sheets/Slides export, Drive trash manager."
+    language: "Python"
+    topics:
+      - "backup"
+      - "bidirectional-sync"
+      - "cli"
+      - "file-sync"
+      - "gdrive"
+      - "google-docs"
+      - "google-drive"
+      - "google-drive-api"
+      - "google-drive-backup"
+      - "google-drive-sync"
+      - "google-drive-trash"
+      - "google-workspace"
+      - "linux"
+      - "oauth2"
+      - "python"
+      - "sync"
+      - "terminal"
+      - "textual"
+      - "tui"
+      - "two-way-sync"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-17"
+    last_push: "2026-10-09"
   - name: "SmartGrid"
     title: "SmartGrid"
-    description: "Dynamic tiling window manager for Windows (pure Python, Win32/DWM, tray + hotkeys)."
+    description: "Automatic tiling window manager for Windows 10/11 — layout studio, custom grids, snap and swap, virtual desktops, hotkeys. Python + Qt."
     language: "Python"
     topics:
       - "dwm"
-      - "hotkeys"
+      - "fancyzones-alternative"
+      - "keyboard-shortcuts"
+      - "layout-manager"
+      - "multi-monitor"
       - "productivity"
+      - "pyside6"
       - "python"
-      - "pywin32"
-      - "system-tray"
+      - "qt"
+      - "snap"
       - "tiling"
       - "tiling-window-manager"
+      - "virtual-desktops"
       - "win32"
+      - "window-layout"
       - "window-manager"
+      - "window-snapping"
       - "windows"
       - "windows-10"
       - "windows-11"
-    stars_fact: 0
+    stars_fact: 1
     first_seen: null
-    last_push: "2026-09-17"
+    last_push: "2026-10-09"
   - name: "GMAIL"
     title: "GMAIL"
-    description: "Gmail → PDF archiver: batch-export labeled emails (attachments + inline images) using Gmail API (OAuth) and Playwright."
+    description: "Gmail in your terminal: browse Inbox, Archived, Sent, Spam and Trash, triage with archive, star, unread, trash and undo, and save emails as PDFs with their attachments. Gmail API (OAuth) + headless Chromium."
     language: "Python"
     topics:
       - "attachments"
-      - "automation"
+      - "cli"
       - "email"
       - "email-archiving"
+      - "email-backup"
+      - "email-client"
+      - "email-to-pdf"
       - "gmail"
       - "gmail-api"
-      - "google-api"
+      - "gmail-client"
       - "google-oauth"
-      - "mail-automation"
+      - "headless-chrome"
+      - "inbox-zero"
       - "oauth2"
       - "pdf"
       - "pdf-generation"
       - "playwright"
-      - "productivity"
       - "python"
+      - "terminal"
+      - "tui"
     stars_fact: 1
     first_seen: null
-    last_push: "2026-09-12"
-  - name: "GDRIVE"
-    title: "GDRIVE"
-    description: "Recursively downloads folders and files from Google Drive."
-    language: "Python"
-    topics: []
+    last_push: "2026-10-08"
+  - name: "SnapTess"
+    title: "SnapTess"
+    description: "GNOME Shell extension for automatic window tiling on Wayland (GNOME 50). Grid & split layouts, drag-to-snap, Layout Studio, linked tile resize, keyboard-driven focus and independent spaces per monitor."
+    language: "JavaScript"
+    topics:
+      - "auto-tiling"
+      - "gjs"
+      - "gnome"
+      - "gnome-50"
+      - "gnome-extension"
+      - "gnome-shell"
+      - "gnome-shell-extension"
+      - "javascript"
+      - "keyboard-shortcuts"
+      - "layout"
+      - "linux"
+      - "linux-desktop"
+      - "multi-monitor"
+      - "productivity"
+      - "tiling"
+      - "tiling-window-manager"
+      - "wayland"
+      - "window-management"
+      - "window-manager"
+      - "window-tiling"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-07-24"
+    last_push: "2026-10-06"
 ---
 
 # C0sm0cats

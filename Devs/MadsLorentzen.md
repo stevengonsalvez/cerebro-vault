@@ -8,11 +8,11 @@ provenance_repos:
   - "MadsLorentzen/ai-job-search"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+repos_populated: false
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "7af184c03e7ab7a7"
-pushes_per_week: [6, 3, 1, 2, 0, 1, 0, 0, 1, 0, 3, 2, 2]
+pushes_per_week: [5, 2, 1, 2, 0, 1, 0, 0, 1, 0, 3, 2, 3]
 windows:
   "7d":
     pushes: 3
@@ -22,14 +22,14 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 8
+    pushes: 9
     distinct_repos: 1
-    active_days: 5
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 21
+    pushes: 20
     distinct_repos: 1
     active_days: 15
     repos_not_owned: 0
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.4000
+  push_per_day: 1.3333
   repo_per_active_day: 0.0667
   not_owned_ratio: 0.0000
   basename_concentration: 1.0000
@@ -57,17 +57,17 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 8
+    pushes: 9
     distinct_repos: 1
-    pushes_per_repo: 8.0000
-    active_days: 5
+    pushes_per_repo: 9.0000
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 21
+    pushes: 20
     distinct_repos: 1
-    pushes_per_repo: 21.0000
+    pushes_per_repo: 20.0000
     active_days: 15
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -76,73 +76,11 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 15 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "ai-job-search"
-    title: "ai-job-search"
-    description: "The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it."
-    language: "Python"
-    topics:
-      - "ai"
-      - "ai-agents"
-      - "career"
-      - "claude-code"
-      - "cover-letter"
-      - "cv"
-      - "interview-preparation"
-      - "job-application"
-      - "job-hunting"
-      - "job-search"
-      - "latex"
-      - "resume"
-    stars_fact: 44726
-    first_seen: "2026-07-21T06:00:01.757189+00:00"
-    last_push: "2026-10-01"
-  - name: "MadsLorentzen"
-    title: "MadsLorentzen"
-    description: "Config files for my GitHub profile."
-    language: null
-    topics:
-      - "config"
-      - "github-config"
-    stars_fact: 11
-    first_seen: null
-    last_push: "2026-04-17"
-  - name: "LOCRETA"
-    title: "LOCRETA"
-    description: "Supervised learning applications to geophysical data from the Lower Cretaceous succession in the Danish North Sea (PhD-era code, 2018-2022)."
-    language: "Python"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-04-30"
-  - name: "superposed-folds"
-    title: "superposed-folds"
-    description: "Interactive Python toolkit for visualizing superposed folds (Ramsay & Lisle 2000; Grasemann et al. 2004). Python port of UCD's MATLAB educational resource."
-    language: "Python"
-    topics: []
-    stars_fact: 9
-    first_seen: null
-    last_push: "2026-05-20"
-  - name: "geophysics_copenhagen"
-    title: "geophysics_copenhagen"
-    description: "Rock physics and AVO modeling notebooks in Python and MATLAB, developed during PhD studies at the University of Copenhagen"
-    language: "Jupyter Notebook"
-    topics: []
-    stars_fact: 9
-    first_seen: null
-    last_push: "2026-04-17"
-  - name: "seis_viz"
-    title: "seis_viz"
-    description: "Interactive visualization and animation of 3D seismic volumes with horizon overlay, using Equinor's Volve dataset"
-    language: "Python"
-    topics: []
-    stars_fact: 15
-    first_seen: null
-    last_push: "2026-04-16"
+repos: []
 ---
 
 # MadsLorentzen
 
-21 pushes across 1 repository on 15 active days in the last 90 days of public GitHub push activity.
+20 pushes across 1 repository on 15 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/MadsLorentzen

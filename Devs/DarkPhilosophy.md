@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [21, 16, 6, 0, 0, 0, 11, 0, 7, 19, 8, 20, 4]
+pushes_per_week: [23, 12, 4, 0, 0, 1, 10, 0, 7, 19, 9, 19, 4]
 windows:
   "7d":
     pushes: 4
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 56
+    pushes: 52
     distinct_repos: 4
-    active_days: 16
+    active_days: 14
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 112
+    pushes: 108
     distinct_repos: 8
-    active_days: 36
+    active_days: 35
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 3.1111
-  repo_per_active_day: 0.2222
+  push_per_day: 3.0857
+  repo_per_active_day: 0.2286
   not_owned_ratio: 0.0000
   basename_concentration: 0.1250
   shapes: []
@@ -57,34 +57,26 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 56
+    pushes: 52
     distinct_repos: 4
-    pushes_per_repo: 14.0000
-    active_days: 16
+    pushes_per_repo: 13.0000
+    active_days: 14
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 112
+    pushes: 108
     distinct_repos: 8
-    pushes_per_repo: 14.0000
-    active_days: 36
+    pushes_per_repo: 13.5000
+    active_days: 35
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 36 active days in 90d — pass"
+  - "activity: 35 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "omp-headroom"
-    title: "omp-headroom"
-    description: "Headroom context-compression integration for Oh My Pi (OMP): extension, proxy stats plugin, GPU-aware installer"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 13
-    first_seen: null
-    last_push: "2026-07-27"
   - name: "v"
     title: "v"
     description: "Custom Vencord plugins (PlatformSpoofer, QuestCompleter) + immersive/auto Translate patch, with a one-line ephemeral installer (builds in /tmp, self-cleans)."
@@ -98,7 +90,23 @@ repos:
       - "vencord-plugins"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-24"
+    last_push: "2026-10-07"
+  - name: "zsh-bench"
+    title: "zsh-bench"
+    description: "ZSH Startup Performance Analyzer - Enhanced benchmarking tool for measuring and profiling ZSH shell startup performance"
+    language: "Shell"
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2025-12-21"
+  - name: "omp-headroom"
+    title: "omp-headroom"
+    description: "Headroom context-compression integration for Oh My Pi (OMP): extension, proxy stats plugin, GPU-aware installer"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 13
+    first_seen: null
+    last_push: "2026-07-27"
   - name: "omp-relay"
     title: "omp-relay"
     description: null
@@ -137,18 +145,10 @@ repos:
     stars_fact: 3
     first_seen: null
     last_push: "2026-08-11"
-  - name: "omp-headlessx"
-    title: "omp-headlessx"
-    description: "HeadlessX self-host integration for OMP with idle Docker lifecycle, automatic API-key bootstrap, and native operator tools."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-07-22"
 ---
 
 # DarkPhilosophy
 
-112 pushes across 8 repositories on 36 active days in the last 90 days of public GitHub push activity.
+108 pushes across 8 repositories on 35 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/DarkPhilosophy

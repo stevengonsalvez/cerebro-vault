@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [7, 10, 19, 3, 5, 2, 9, 2, 1, 0, 18, 4, 1]
+pushes_per_week: [10, 13, 13, 5, 3, 4, 7, 2, 1, 11, 8, 3, 3]
 windows:
   "7d":
-    pushes: 2
-    distinct_repos: 1
+    pushes: 3
+    distinct_repos: 2
     active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 23
+    pushes: 25
     distinct_repos: 2
-    active_days: 9
+    active_days: 10
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 81
+    pushes: 83
     distinct_repos: 6
-    active_days: 36
+    active_days: 37
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 2.2500
-  repo_per_active_day: 0.1667
+  push_per_day: 2.2432
+  repo_per_active_day: 0.1622
   not_owned_ratio: 0.3333
   basename_concentration: 0.3333
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
-    distinct_repos: 1
-    pushes_per_repo: 2.0000
+    pushes: 3
+    distinct_repos: 2
+    pushes_per_repo: 1.5000
     active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 23
+    pushes: 25
     distinct_repos: 2
-    pushes_per_repo: 11.5000
-    active_days: 9
+    pushes_per_repo: 12.5000
+    active_days: 10
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 81
+    pushes: 83
     distinct_repos: 6
-    pushes_per_repo: 13.5000
-    active_days: 36
+    pushes_per_repo: 13.8333
+    active_days: 37
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 36 active days in 90d — pass"
+  - "activity: 37 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "cf-effect-experiment"
@@ -84,29 +84,21 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-30"
-  - name: "apps"
-    title: "apps"
-    description: "vibe coded personal apps"
-    language: "Swift"
+    last_push: "2026-10-10"
+  - name: "alchemy-opencode"
+    title: "alchemy-opencode"
+    description: "Host OpenCode inside an Alchemy Cloudflare Durable Object"
+    language: "TypeScript"
     topics: []
-    stars_fact: 6
+    stars_fact: 0
     first_seen: null
-    last_push: "2026-07-28"
-  - name: "blip"
-    title: "blip"
-    description: "all things screen recording"
-    language: "Rust"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-07-30"
+    last_push: "2026-10-07"
   - name: "swift-rs"
     title: "swift-rs"
     description: "Call Swift functions from Rust with ease!"
     language: "Rust"
     topics: []
-    stars_fact: 339
+    stars_fact: 340
     first_seen: null
     last_push: "2026-08-17"
   - name: "MacroGraph"
@@ -124,7 +116,7 @@ repos:
       - "tauri"
       - "twitch"
       - "vtube-studio"
-    stars_fact: 302
+    stars_fact: 303
     first_seen: null
     last_push: "2026-08-28"
   - name: "vite-plugin-opencode"
@@ -132,13 +124,21 @@ repos:
     description: "Select UI elements in a Vite app and send contextual feedback to OpenCode"
     language: "TypeScript"
     topics: []
-    stars_fact: 6
+    stars_fact: 7
     first_seen: null
     last_push: "2026-09-19"
+  - name: "apps"
+    title: "apps"
+    description: "vibe coded personal apps"
+    language: "Swift"
+    topics: []
+    stars_fact: 6
+    first_seen: null
+    last_push: "2026-07-28"
 ---
 
 # Brendonovich
 
-81 pushes across 6 repositories on 36 active days in the last 90 days of public GitHub push activity.
+83 pushes across 6 repositories on 37 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Brendonovich

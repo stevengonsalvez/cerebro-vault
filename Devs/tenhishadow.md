@@ -8,16 +8,16 @@ provenance_repos:
   - "akitaonrails/ai-memory"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+repos_populated: false
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "4138778ebbc75ba6"
-pushes_per_week: [2, 0, 0, 0, 1, 0, 3, 0, 0, 0, 0, 0, 2]
+pushes_per_week: [2, 0, 0, 0, 1, 0, 3, 0, 0, 0, 0, 2, 0]
 windows:
   "7d":
-    pushes: 2
-    distinct_repos: 1
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
-    distinct_repos: 1
-    pushes_per_repo: 2.0000
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -76,114 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "dotfiles"
-    title: "dotfiles"
-    description: "Arch Linux dotfiles and opt-in workstation automation with Ansible, go-task, uv, and Neovim"
-    language: "Python"
-    topics:
-      - "ansible"
-      - "archlinux"
-      - "browser-policies"
-      - "cli-tools"
-      - "devops"
-      - "dotfiles"
-      - "go-task"
-      - "linux"
-      - "neovim"
-      - "systemd"
-      - "taskfile"
-      - "uv"
-      - "workstation"
-      - "workstation-automation"
-    stars_fact: 4
-    first_seen: null
-    last_push: "2026-10-03"
-  - name: "tenhishadow"
-    title: "tenhishadow"
-    description: null
-    language: null
-    topics:
-      - "devops"
-      - "devsecops"
-      - "github-profile"
-      - "gitops"
-      - "kubernetes"
-      - "platform-engineering"
-      - "profile-readme"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-02"
-  - name: "golden-microservice"
-    title: "golden-microservice"
-    description: "Minimal HTTP service for Docker and Kubernetes deployment testing"
-    language: "Python"
-    topics:
-      - "container"
-      - "docker"
-      - "ghcr"
-      - "healthcheck"
-      - "json-logging"
-      - "kubernetes"
-      - "microservice"
-      - "platform-engineering"
-      - "python"
-      - "smoke-testing"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-02"
-  - name: "mbkp"
-    title: "mbkp"
-    description: "Encrypted MikroTik backup automation over SSH"
-    language: "Shell"
-    topics:
-      - "backup"
-      - "bash"
-      - "cron"
-      - "encrypted-backup"
-      - "linux"
-      - "mikrotik"
-      - "network-automation"
-      - "openssl"
-      - "routeros"
-      - "shell-script"
-      - "ssh"
-    stars_fact: 26
-    first_seen: null
-    last_push: "2026-07-31"
-  - name: "github_actions_templates"
-    title: "github_actions_templates"
-    description: "Reusable GitHub Actions workflows for Taskfile, uv, and Python automation"
-    language: null
-    topics:
-      - "automation"
-      - "ci-cd"
-      - "devops"
-      - "github-actions"
-      - "go-task"
-      - "python"
-      - "reusable-workflows"
-      - "taskfile"
-      - "uv"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-01-22"
-  - name: "lvm_snapshot"
-    title: "lvm_snapshot"
-    description: "Manage lvm snapshots"
-    language: "Shell"
-    topics:
-      - "backup"
-      - "bash"
-      - "filesystem"
-      - "linux"
-      - "lvm"
-      - "lvm2"
-      - "shell-script"
-      - "snapshot"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2017-11-27"
+repos: []
 ---
 
 # tenhishadow

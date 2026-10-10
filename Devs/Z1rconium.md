@@ -8,16 +8,16 @@ provenance_repos:
   - "BigPizzaV3/CodexPlusPlus"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+repos_populated: false
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "90688bf127241ceb"
-pushes_per_week: [1, 3, 1, 2, 2, 0, 0, 0, 0, 1, 2, 4, 1]
+pushes_per_week: [3, 2, 2, 0, 2, 0, 0, 0, 1, 1, 2, 4, 0]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -76,55 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 16 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "gpt-image-panel"
-    title: "gpt-image-panel"
-    description: "Self-hosted web panel for GPT-compatible image generation APIs — generate, edit, and manage your images in one place."
-    language: "Python"
-    topics: []
-    stars_fact: 116
-    first_seen: null
-    last_push: "2026-10-02"
-  - name: "proxy_rules"
-    title: "proxy_rules"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-22"
-  - name: "gargantua"
-    title: "gargantua"
-    description: null
-    language: "JavaScript"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-08-17"
-  - name: "auto-monitor-ip"
-    title: "auto-monitor-ip"
-    description: "A simple script for monitoring dynamic ip."
-    language: "Shell"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-03"
-  - name: "NodeSeek-Rulings-Search"
-    title: "NodeSeek-Rulings-Search"
-    description: "🔍 专注于 NodeSeek 论坛管理记录（Ruling）的抓取与查询工具。支持 Telegram Bot 交互、自动定时抓取、精确/模糊搜索及操作详情自动翻译，内置 SQLite 存储与频率限制。"
-    language: "Python"
-    topics: []
-    stars_fact: 6
-    first_seen: null
-    last_push: "2026-04-19"
-  - name: "auto_download_from_drive"
-    title: "auto_download_from_drive"
-    description: "Watch mounted drives or rclone remotes and download only newly added files. Lightweight Linux daemon with systemd support."
-    language: "Python"
-    topics: []
-    stars_fact: 12
-    first_seen: null
-    last_push: "2026-06-18"
+repos: []
 ---
 
 # Z1rconium

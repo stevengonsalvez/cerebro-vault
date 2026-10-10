@@ -8,37 +8,37 @@ provenance_repos:
   - "Alishahryar1/free-claude-code"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+repos_populated: false
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "9d67ce648f6a8919"
-pushes_per_week: [0, 3, 2, 2, 7, 1, 1, 0, 1, 4, 7, 6, 7]
+pushes_per_week: [1, 3, 1, 5, 4, 1, 1, 0, 2, 4, 8, 7, 6]
 windows:
   "7d":
-    pushes: 9
-    distinct_repos: 5
-    active_days: 4
+    pushes: 6
+    distinct_repos: 3
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 24
+    pushes: 26
     distinct_repos: 10
-    active_days: 15
+    active_days: 16
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 41
+    pushes: 43
     distinct_repos: 18
-    active_days: 30
+    active_days: 31
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.3667
-  repo_per_active_day: 0.6000
+  push_per_day: 1.3871
+  repo_per_active_day: 0.5806
   not_owned_ratio: 0.0556
   basename_concentration: 0.0556
   shapes: []
@@ -49,86 +49,38 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 9
-    distinct_repos: 5
-    pushes_per_repo: 1.8000
-    active_days: 4
+    pushes: 6
+    distinct_repos: 3
+    pushes_per_repo: 2.0000
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 24
+    pushes: 26
     distinct_repos: 10
-    pushes_per_repo: 2.4000
-    active_days: 15
+    pushes_per_repo: 2.6000
+    active_days: 16
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 41
+    pushes: 43
     distinct_repos: 18
-    pushes_per_repo: 2.2778
-    active_days: 30
+    pushes_per_repo: 2.3889
+    active_days: 31
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 30 active days in 90d — pass"
+  - "activity: 31 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "Hackathon-Radar"
-    title: "Hackathon-Radar"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-01"
-  - name: "SEPURI-SAI-KRISHNA"
-    title: "SEPURI-SAI-KRISHNA"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-01"
-  - name: "streamcase"
-    title: "streamcase"
-    description: "Deterministic testing for Apache Spark Structured Streaming pipelines"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-01"
-  - name: "til-everything"
-    title: "til-everything"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-30"
-  - name: "System-design-scenarios"
-    title: "System-design-scenarios"
-    description: "This repo has system design scenario based questions with possible solution"
-    language: null
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-09-12"
-  - name: "twolang-lab"
-    title: "twolang-lab"
-    description: null
-    language: "Jupyter Notebook"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-27"
+repos: []
 ---
 
 # SEPURI-SAI-KRISHNA
 
-41 pushes across 18 repositories on 30 active days in the last 90 days of public GitHub push activity.
+43 pushes across 18 repositories on 31 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/SEPURI-SAI-KRISHNA

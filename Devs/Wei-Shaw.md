@@ -8,43 +8,43 @@ provenance_repos:
   - "Wei-Shaw/sub2api"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+repos_populated: false
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "91526b8597b5b63d"
-pushes_per_week: [40, 31, 8, 7, 17, 7, 5, 2, 3, 7, 12, 8, 4]
+pushes_per_week: [47, 26, 9, 6, 14, 7, 5, 2, 6, 5, 11, 12, 3]
 windows:
   "7d":
-    pushes: 4
+    pushes: 3
     distinct_repos: 2
-    active_days: 1
+    active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 31
-    distinct_repos: 2
-    active_days: 11
-    repos_not_owned: 1
+    pushes: 34
+    distinct_repos: 3
+    active_days: 13
+    repos_not_owned: 2
     not_owned_basenames: 1
-    not_owned_owners: 1
+    not_owned_owners: 2
   "90d":
-    pushes: 151
-    distinct_repos: 13
-    active_days: 43
-    repos_not_owned: 10
+    pushes: 153
+    distinct_repos: 14
+    active_days: 44
+    repos_not_owned: 11
     not_owned_basenames: 2
-    not_owned_owners: 10
+    not_owned_owners: 11
 automation:
   state: "clear"
-  push_per_day: 3.5116
-  repo_per_active_day: 0.3023
-  not_owned_ratio: 0.7692
-  basename_concentration: 0.7692
+  push_per_day: 3.4773
+  repo_per_active_day: 0.3182
+  not_owned_ratio: 0.7857
+  basename_concentration: 0.7857
   shapes:
     - "fork_farm_own_upstream"
   shape_evidence:
-    - "basename concentration 0.7692 (10 of 13 repos share one basename), 10 not owned across 2 basenames — 5 of 5 sampled repos resolved; 5 fork an upstream this account owns; upstreams: Wei-Shaw/sub2api"
+    - "basename concentration 0.7857 (11 of 14 repos share one basename), 11 not owned across 2 basenames — 5 of 5 sampled repos resolved; 5 fork an upstream this account owns; upstreams: Wei-Shaw/sub2api"
   cleared_by: "e01-builder"
   cleared_on: "2026-08-26"
   fork_provenance:
@@ -55,116 +55,48 @@ automation:
     unresolved: 0
     truncated: false
     sampled:
+      - "alfadb/sub2api"
       - "aofee/sub2api"
       - "caigee-cmd/sub2api"
       - "heathermhuang/sub2api"
       - "hongheshan-svg/sub2api"
-      - "jinfeijie/sub2api"
     upstreams:
       - "Wei-Shaw/sub2api"
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 4
+    pushes: 3
     distinct_repos: 2
-    pushes_per_repo: 2.0000
-    active_days: 1
+    pushes_per_repo: 1.5000
+    active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 31
-    distinct_repos: 2
-    pushes_per_repo: 15.5000
-    active_days: 11
-    repos_not_owned: 1
+    pushes: 34
+    distinct_repos: 3
+    pushes_per_repo: 11.3333
+    active_days: 13
+    repos_not_owned: 2
     not_owned_basenames: 1
-    not_owned_owners: 1
+    not_owned_owners: 2
   "90d":
-    pushes: 151
-    distinct_repos: 13
-    pushes_per_repo: 11.6154
-    active_days: 43
-    repos_not_owned: 10
+    pushes: 153
+    distinct_repos: 14
+    pushes_per_repo: 10.9286
+    active_days: 44
+    repos_not_owned: 11
     not_owned_basenames: 2
-    not_owned_owners: 10
+    not_owned_owners: 11
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 43 active days in 90d — pass"
+  - "activity: 44 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "sub2api"
-    title: "sub2api"
-    description: "Sub2API 一站式开源中转服务，让 Claude、Openai 、Gemini、Grok订阅统一接入，支持拼车共享，更高效分摊成本，原生工具无缝使用。"
-    language: "Go"
-    topics:
-      - "2api"
-      - "antigravity2api"
-      - "cc2api"
-      - "claude"
-      - "claude-code"
-      - "codex"
-      - "crs"
-      - "crs2"
-      - "gemini"
-    stars_fact: 43221
-    first_seen: "2026-08-23T06:00:02.900682+00:00"
-    last_push: "2026-10-02"
-  - name: "claude-relay-service"
-    title: "claude-relay-service"
-    description: "CRS-自建Claude Code镜像，一站式开源中转服务，让 Claude、OpenAI、Gemini、Droid 订阅统一接入，支持拼车共享，更高效分摊成本，原生工具无缝使用。"
-    language: "JavaScript"
-    topics:
-      - "claude"
-      - "claude-api"
-      - "claude-code"
-      - "claude-proxy"
-      - "codex-cli"
-      - "crs"
-      - "droid"
-      - "droid-cli"
-      - "droid2api"
-      - "gemini-cli"
-    stars_fact: 12668
-    first_seen: null
-    last_push: "2026-10-02"
-  - name: "model-price-repo"
-    title: "model-price-repo"
-    description: "This repository stores model pricing files for CRS and sub2api projects. It synchronizes remote price files and allows custom price definitions for better flexibility."
-    language: "Python"
-    topics: []
-    stars_fact: 35
-    first_seen: null
-    last_push: "2026-10-02"
-  - name: "rsa-js-php"
-    title: "rsa-js-php"
-    description: "RSA demonstration of Javascript and PHP"
-    language: "JavaScript"
-    topics:
-      - "rsa-js-php"
-    stars_fact: 6
-    first_seen: null
-    last_push: "2018-08-15"
-  - name: "lnmpr"
-    title: "lnmpr"
-    description: "lnmpr一键安装脚本"
-    language: "Shell"
-    topics: []
-    stars_fact: 4
-    first_seen: null
-    last_push: "2018-12-10"
-  - name: "X-header"
-    title: "X-header"
-    description: "Sublime快捷键生成文件头注释"
-    language: "Python"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2018-07-24"
+repos: []
 ---
 
 # Wei-Shaw
 
-151 pushes across 13 repositories on 43 active days in the last 90 days of public GitHub push activity.
+153 pushes across 14 repositories on 44 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Wei-Shaw

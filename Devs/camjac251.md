@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [8, 12, 16, 2, 3, 1, 0, 0, 1, 8, 0, 0, 0]
+pushes_per_week: [13, 15, 9, 3, 2, 0, 0, 0, 3, 6, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -97,9 +97,9 @@ repos:
       - "system-prompts"
       - "terminal"
       - "typescript"
-    stars_fact: 6
+    stars_fact: 7
     first_seen: null
-    last_push: "2026-09-29"
+    last_push: "2026-10-08"
   - name: "homebrew-tap"
     title: "homebrew-tap"
     description: "Homebrew formulae for personal projects"
@@ -129,7 +129,7 @@ repos:
       - "tree-sitter"
     stars_fact: 4
     first_seen: null
-    last_push: "2026-09-29"
+    last_push: "2026-10-10"
   - name: "rust-statusline"
     title: "rust-statusline"
     description: "Lightweight statusline utility for Claude Code - live session cost, usage, burn rate, context, and Git context in one line"
@@ -137,7 +137,7 @@ repos:
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-10-01"
+    last_push: "2026-10-08"
   - name: "power-panel"
     title: "power-panel"
     description: "Remote server power management via Redfish/WoL"
@@ -172,7 +172,7 @@ repos:
       - "xclip"
     stars_fact: 2
     first_seen: null
-    last_push: "2026-09-19"
+    last_push: "2026-10-09"
 ---
 
 # camjac251

@@ -8,16 +8,16 @@ provenance_repos:
   - "AlexsJones/llmfit"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+repos_populated: false
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [0, 4, 3, 4, 10, 2, 11, 0, 1, 5, 6, 10, 6]
+pushes_per_week: [0, 5, 4, 5, 7, 2, 11, 0, 1, 8, 6, 10, 3]
 windows:
   "7d":
-    pushes: 7
-    distinct_repos: 4
-    active_days: 5
+    pushes: 4
+    distinct_repos: 3
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 7
-    distinct_repos: 4
-    pushes_per_repo: 1.7500
-    active_days: 5
+    pushes: 4
+    distinct_repos: 3
+    pushes_per_repo: 1.3333
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -76,31 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 30 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "scoop-bucket"
-    title: "scoop-bucket"
-    description: "Yet another Scoop bucket"
-    language: "PowerShell"
-    topics: []
-    stars_fact: 4
-    first_seen: null
-    last_push: "2026-10-03"
-  - name: "morphe-patches"
-    title: "morphe-patches"
-    description: "Yet another Morphe Patches"
-    language: "Kotlin"
-    topics: []
-    stars_fact: 14
-    first_seen: null
-    last_push: "2026-10-02"
-  - name: "pi-packages"
-    title: "pi-packages"
-    description: "Yet another Pi packages"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-10-01"
+repos: []
 ---
 
 # zeldrisho

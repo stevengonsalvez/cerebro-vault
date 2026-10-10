@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "8311cfc3055f8fea"
-pushes_per_week: [30, 50, 27, 19, 19, 7, 6, 1, 7, 9, 25, 20, 16]
+pushes_per_week: [53, 21, 37, 9, 22, 3, 5, 2, 10, 11, 25, 25, 5]
 windows:
   "7d":
-    pushes: 17
+    pushes: 6
     distinct_repos: 1
-    active_days: 4
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 236
+    pushes: 228
     distinct_repos: 2
-    active_days: 64
+    active_days: 62
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 3.6875
-  repo_per_active_day: 0.0312
+  push_per_day: 3.6774
+  repo_per_active_day: 0.0323
   not_owned_ratio: 0.5000
   basename_concentration: 1.0000
   shapes: []
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 17
+    pushes: 6
     distinct_repos: 1
-    pushes_per_repo: 17.0000
-    active_days: 4
+    pushes_per_repo: 6.0000
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 236
+    pushes: 228
     distinct_repos: 2
-    pushes_per_repo: 118.0000
-    active_days: 64
+    pushes_per_repo: 114.0000
+    active_days: 62
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 64 active days in 90d — pass"
+  - "activity: 62 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "background-agents"
@@ -85,17 +85,25 @@ repos:
       - "background-agents"
       - "cloud-agents"
       - "software-factory"
-    stars_fact: 3300
+    stars_fact: 3345
     first_seen: "2026-07-13T06:00:03.585427+00:00"
-    last_push: "2026-10-01"
+    last_push: "2026-10-10"
   - name: "claude-code-otel"
     title: "claude-code-otel"
     description: "A comprehensive observability solution for monitoring Claude Code usage, performance, and costs."
     language: "Makefile"
     topics: []
-    stars_fact: 508
+    stars_fact: 511
     first_seen: null
     last_push: "2025-06-17"
+  - name: "aws-athena-mcp"
+    title: "aws-athena-mcp"
+    description: "AWS Athena MCP using FastMCP"
+    language: "Python"
+    topics: []
+    stars_fact: 24
+    first_seen: null
+    last_push: "2026-10-05"
   - name: "medium-facenet-tutorial"
     title: "medium-facenet-tutorial"
     description: "Facial Recognition Pipeline using Dlib and Tensorflow"
@@ -107,9 +115,19 @@ repos:
       - "python3"
       - "tensorflow"
       - "tensorflow-tutorials"
-    stars_fact: 218
+    stars_fact: 219
     first_seen: null
     last_push: "2023-03-24"
+  - name: "gmail-llm-labeler"
+    title: "gmail-llm-labeler"
+    description: "An application for labeling Gmail emails with an LLM"
+    language: "Python"
+    topics:
+      - "gmail"
+      - "llm"
+    stars_fact: 13
+    first_seen: null
+    last_push: "2025-10-10"
   - name: "DataLayerSyncSample"
     title: "DataLayerSyncSample"
     description: "This project demonstrates how to send a message using the MessageAPI from the wearable to the handheld. Once the handheld receives the command, it will send over data to the wearable. This sample can be modified easily to allow for data sync between devices"
@@ -118,26 +136,10 @@ repos:
     stars_fact: 1
     first_seen: null
     last_push: "2015-02-17"
-  - name: "chrome-llm-summarizer"
-    title: "chrome-llm-summarizer"
-    description: "Summarize highlighted text with LLMs in chrome right click menu"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 5
-    first_seen: null
-    last_push: "2024-08-19"
-  - name: "auth0-fastapi-example"
-    title: "auth0-fastapi-example"
-    description: "Auth0 FastApi Example Implementation"
-    language: "Python"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2025-09-05"
 ---
 
 # ColeMurray
 
-236 pushes across 2 repositories on 64 active days in the last 90 days of public GitHub push activity.
+228 pushes across 2 repositories on 62 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ColeMurray

@@ -8,37 +8,37 @@ provenance_repos:
   - "antirez/ds4"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+repos_populated: false
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "3eacb4655aba2497"
-pushes_per_week: [9, 5, 4, 13, 9, 1, 3, 0, 0, 0, 5, 39, 18]
+pushes_per_week: [6, 7, 8, 10, 7, 1, 2, 0, 0, 1, 8, 40, 15]
 windows:
   "7d":
-    pushes: 21
-    distinct_repos: 5
+    pushes: 18
+    distinct_repos: 6
     active_days: 6
-    repos_not_owned: 3
-    not_owned_basenames: 2
+    repos_not_owned: 4
+    not_owned_basenames: 3
     not_owned_owners: 2
   "30d":
-    pushes: 62
-    distinct_repos: 5
-    active_days: 15
-    repos_not_owned: 3
-    not_owned_basenames: 2
+    pushes: 64
+    distinct_repos: 6
+    active_days: 17
+    repos_not_owned: 4
+    not_owned_basenames: 3
     not_owned_owners: 2
   "90d":
-    pushes: 106
+    pushes: 105
     distinct_repos: 16
-    active_days: 41
+    active_days: 42
     repos_not_owned: 8
     not_owned_basenames: 6
     not_owned_owners: 4
 automation:
   state: "clear"
-  push_per_day: 2.5854
-  repo_per_active_day: 0.3902
+  push_per_day: 2.5000
+  repo_per_active_day: 0.3810
   not_owned_ratio: 0.5000
   basename_concentration: 0.1250
   shapes: []
@@ -49,95 +49,38 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 21
-    distinct_repos: 5
-    pushes_per_repo: 4.2000
+    pushes: 18
+    distinct_repos: 6
+    pushes_per_repo: 3.0000
     active_days: 6
-    repos_not_owned: 3
-    not_owned_basenames: 2
+    repos_not_owned: 4
+    not_owned_basenames: 3
     not_owned_owners: 2
   "30d":
-    pushes: 62
-    distinct_repos: 5
-    pushes_per_repo: 12.4000
-    active_days: 15
-    repos_not_owned: 3
-    not_owned_basenames: 2
+    pushes: 64
+    distinct_repos: 6
+    pushes_per_repo: 10.6667
+    active_days: 17
+    repos_not_owned: 4
+    not_owned_basenames: 3
     not_owned_owners: 2
   "90d":
-    pushes: 106
+    pushes: 105
     distinct_repos: 16
-    pushes_per_repo: 6.6250
-    active_days: 41
+    pushes_per_repo: 6.5625
+    active_days: 42
     repos_not_owned: 8
     not_owned_basenames: 6
     not_owned_owners: 4
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 41 active days in 90d — pass"
+  - "activity: 42 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "deser"
-    title: "deser"
-    description: "Experimental rust serialization library"
-    language: "Rust"
-    topics:
-      - "rust"
-      - "serialization"
-    stars_fact: 433
-    first_seen: null
-    last_push: "2026-10-01"
-  - name: "agent-stuff"
-    title: "agent-stuff"
-    description: "These are commands I use with agents, mostly Claude"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 3171
-    first_seen: null
-    last_push: "2026-09-27"
-  - name: "insta"
-    title: "insta"
-    description: "A snapshot testing library for rust"
-    language: "Rust"
-    topics:
-      - "rust"
-      - "snapshot-tests"
-      - "vscode-extension"
-    stars_fact: 2970
-    first_seen: null
-    last_push: "2026-10-02"
-  - name: "memo-map"
-    title: "memo-map"
-    description: "A crate implementing a synchronized map for memoization"
-    language: "Rust"
-    topics: []
-    stars_fact: 32
-    first_seen: null
-    last_push: "2026-09-03"
-  - name: "minijinja"
-    title: "minijinja"
-    description: "MiniJinja is a powerful but minimal dependency template engine for Rust compatible with Jinja/Jinja2"
-    language: "Rust"
-    topics:
-      - "jinja"
-      - "jinja2"
-      - "rust"
-      - "templates"
-    stars_fact: 2785
-    first_seen: null
-    last_push: "2026-09-27"
-  - name: "pluginbase"
-    title: "pluginbase"
-    description: "A simple but flexible plugin system for Python."
-    language: "Python"
-    topics: []
-    stars_fact: 1140
-    first_seen: null
-    last_push: "2021-05-16"
+repos: []
 ---
 
 # mitsuhiko
 
-106 pushes across 16 repositories on 41 active days in the last 90 days of public GitHub push activity.
+105 pushes across 16 repositories on 42 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/mitsuhiko

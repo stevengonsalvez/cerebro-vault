@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "c1af6b58492f9bf4"
 pushes_per_week: [3, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 2]
@@ -77,6 +77,18 @@ reasons:
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "unity-livechat"
+    title: "unity-livechat"
+    description: "Twitch chat integration for Unity games"
+    language: "C#"
+    topics:
+      - "livechat"
+      - "streaming"
+      - "twitch"
+      - "unity"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-08"
   - name: "community-use"
     title: "community-use"
     description: "Paid Workflows: Free for Community Use"
@@ -119,30 +131,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-08-25"
-  - name: "StreamDrop"
-    title: "StreamDrop"
-    description: "Stream any website, PyGame, or local HTML file to YouTube 24/7 on a $4/mo Ubuntu Droplet :signal_strength:"
-    language: "Python"
-    topics:
-      - "1-click-deploy"
-      - "24-7-livestream"
-      - "24-7-streaming"
-      - "auto-healing"
-      - "automation"
-      - "facebook-livestreaming"
-      - "interactive-livestream"
-      - "livestream-server"
-      - "livestreaming"
-      - "livestreaming-tools"
-      - "multi-streaming-server"
-      - "restream"
-      - "rtmp-server"
-      - "tiktok-live"
-      - "twitch-streaming"
-      - "youtube-livestream"
-    stars_fact: 6
-    first_seen: null
-    last_push: "2026-07-13"
 ---
 
 # Cfomodz

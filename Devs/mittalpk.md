@@ -8,11 +8,11 @@ provenance_repos:
   - "alibaba/open-code-review"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+repos_populated: false
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "c489e6fb5febf2ab"
-pushes_per_week: [1, 6, 10, 2, 0, 5, 1, 0, 0, 1, 2, 0, 0]
+pushes_per_week: [1, 12, 4, 2, 0, 5, 1, 0, 0, 1, 2, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,55 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 15 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "mittalpk"
-    title: "mittalpk"
-    description: "Praveen Mittal - AI Solutions Architect / Senior AI Engineer"
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-29"
-  - name: "liquidy-agentic-demo"
-    title: "liquidy-agentic-demo"
-    description: "A hackathon showcase demonstrating how Gemini proposes ledger-grounded liquidity actions while deterministic financial engines verify solvency before human approval. Built with Gemini 3.5+, Google GenAI SDK, Vertex AI, and Cloud Run using synthetic data."
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-28"
-  - name: "n8n-enterprise-portfolio"
-    title: "n8n-enterprise-portfolio"
-    description: null
-    language: "Shell"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-20"
-  - name: "ca-entitlement-tracker"
-    title: "ca-entitlement-tracker"
-    description: null
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-18"
-  - name: "ai-model-risk-governance-registry"
-    title: "ai-model-risk-governance-registry"
-    description: null
-    language: "Shell"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-18"
-  - name: "Continuum"
-    title: "Continuum"
-    description: "Continuum is an agentic memory layer for MCP-compatible AI agents, providing tiered working, episodic, and semantic memory on a multi-region CockroachDB cluster configured for REGION-level failure survival. Built for the CockroachDB × AWS \"Build with Agentic Memory\" hackathon."
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-16"
+repos: []
 ---
 
 # mittalpk

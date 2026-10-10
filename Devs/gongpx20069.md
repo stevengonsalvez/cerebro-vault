@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "541318303a272608"
-pushes_per_week: [5, 0, 0, 0, 2, 0, 0, 0, 0, 5, 3, 3, 0]
+pushes_per_week: [5, 0, 0, 0, 2, 0, 0, 0, 0, 5, 4, 2, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,6 +77,22 @@ reasons:
   - "activity: 10 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "hi-mochi"
+    title: "hi-mochi"
+    description: "Turn an old Android phone into an always-ready, voice-first AI companion."
+    language: "Kotlin"
+    topics: []
+    stars_fact: 23
+    first_seen: null
+    last_push: "2026-10-05"
+  - name: "relative-ear"
+    title: "relative-ear"
+    description: "Android singing accuracy, relative pitch training and live monophonic melody detection"
+    language: "Kotlin"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-08"
   - name: "android-agent-link"
     title: "android-agent-link"
     description: "Android-first ACP client and Python bridge for remote coding agents."
@@ -84,15 +100,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-28"
-  - name: "hi-mochi"
-    title: "hi-mochi"
-    description: "Turn an old Android phone into an always-ready, voice-first AI companion."
-    language: "Kotlin"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-09-28"
+    last_push: "2026-10-08"
   - name: "ik-llama-cpp-python"
     title: "ik-llama-cpp-python"
     description: "Python bindings for ik_llama.cpp — high-performance llama.cpp fork"
@@ -117,14 +125,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-06-10"
-  - name: "mmRadar_for_HAR_VS"
-    title: "mmRadar_for_HAR_VS"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 41
-    first_seen: null
-    last_push: "2021-02-15"
 ---
 
 # gongpx20069

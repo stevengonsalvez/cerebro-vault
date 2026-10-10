@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "541318303a272608"
-pushes_per_week: [59, 41, 25, 20, 32, 19, 16, 1, 19, 21, 68, 82, 27]
+pushes_per_week: [62, 38, 30, 12, 36, 12, 15, 1, 21, 33, 63, 85, 20]
 windows:
   "7d":
-    pushes: 29
+    pushes: 23
     distinct_repos: 1
     active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 206
+    pushes: 203
     distinct_repos: 9
     active_days: 27
     repos_not_owned: 7
     not_owned_basenames: 3
     not_owned_owners: 5
   "90d":
-    pushes: 430
+    pushes: 428
     distinct_repos: 12
     active_days: 76
     repos_not_owned: 9
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 6
 automation:
   state: "clear"
-  push_per_day: 5.6579
+  push_per_day: 5.6316
   repo_per_active_day: 0.1579
   not_owned_ratio: 0.7500
   basename_concentration: 0.5833
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 29
+    pushes: 23
     distinct_repos: 1
-    pushes_per_repo: 29.0000
+    pushes_per_repo: 23.0000
     active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 206
+    pushes: 203
     distinct_repos: 9
-    pushes_per_repo: 22.8889
+    pushes_per_repo: 22.5556
     active_days: 27
     repos_not_owned: 7
     not_owned_basenames: 3
     not_owned_owners: 5
   "90d":
-    pushes: 430
+    pushes: 428
     distinct_repos: 12
-    pushes_per_repo: 35.8333
+    pushes_per_repo: 35.6667
     active_days: 76
     repos_not_owned: 9
     not_owned_basenames: 4
@@ -105,6 +105,6 @@ repos:
 
 # DavdGao
 
-430 pushes across 12 repositories on 76 active days in the last 90 days of public GitHub push activity.
+428 pushes across 12 repositories on 76 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/DavdGao

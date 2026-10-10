@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "541318303a272608"
-pushes_per_week: [1, 7, 1, 1, 2, 11, 3, 1, 1, 6, 8, 19, 4]
+pushes_per_week: [3, 5, 1, 2, 9, 5, 1, 1, 3, 5, 10, 18, 3]
 windows:
   "7d":
-    pushes: 12
-    distinct_repos: 3
-    active_days: 5
-    repos_not_owned: 2
+    pushes: 3
+    distinct_repos: 2
+    active_days: 3
+    repos_not_owned: 1
     not_owned_basenames: 1
-    not_owned_owners: 2
+    not_owned_owners: 1
   "30d":
-    pushes: 37
+    pushes: 38
     distinct_repos: 7
-    active_days: 18
+    active_days: 19
     repos_not_owned: 4
     not_owned_basenames: 2
     not_owned_owners: 4
   "90d":
-    pushes: 65
+    pushes: 66
     distinct_repos: 8
-    active_days: 35
+    active_days: 36
     repos_not_owned: 5
     not_owned_basenames: 2
     not_owned_owners: 5
 automation:
   state: "clear"
-  push_per_day: 1.8571
-  repo_per_active_day: 0.2286
+  push_per_day: 1.8333
+  repo_per_active_day: 0.2222
   not_owned_ratio: 0.6250
   basename_concentration: 0.5000
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 12
-    distinct_repos: 3
-    pushes_per_repo: 4.0000
-    active_days: 5
-    repos_not_owned: 2
+    pushes: 3
+    distinct_repos: 2
+    pushes_per_repo: 1.5000
+    active_days: 3
+    repos_not_owned: 1
     not_owned_basenames: 1
-    not_owned_owners: 2
+    not_owned_owners: 1
   "30d":
-    pushes: 37
+    pushes: 38
     distinct_repos: 7
-    pushes_per_repo: 5.2857
-    active_days: 18
+    pushes_per_repo: 5.4286
+    active_days: 19
     repos_not_owned: 4
     not_owned_basenames: 2
     not_owned_owners: 4
   "90d":
-    pushes: 65
+    pushes: 66
     distinct_repos: 8
-    pushes_per_repo: 8.1250
-    active_days: 35
+    pushes_per_repo: 8.2500
+    active_days: 36
     repos_not_owned: 5
     not_owned_basenames: 2
     not_owned_owners: 5
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 35 active days in 90d — pass"
+  - "activity: 36 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "dshfind"
@@ -85,9 +85,20 @@ repos:
       - "deepseek-harness"
       - "dsh"
       - "dsh-plugin"
-    stars_fact: 290
+    stars_fact: 302
     first_seen: null
-    last_push: "2026-10-02"
+    last_push: "2026-10-09"
+  - name: "chat-dataset-baseline"
+    title: "chat-dataset-baseline"
+    description: "人工精调的中文对话数据集和一段chatglm的微调代码"
+    language: "Jupyter Notebook"
+    topics:
+      - "alpaca"
+      - "chatglm"
+      - "dataset"
+    stars_fact: 1191
+    first_seen: null
+    last_push: "2025-05-03"
   - name: "ghfind"
     title: "ghfind"
     description: "Discover the best developers — and become one. Drop a GitHub handle for a 0–100 value & trust score in 30s: see your gaps, discover top devs, get found. Exposes PR farmers, AI bots & fork-hoarders. Deterministic scoring, self-hostable."
@@ -105,15 +116,15 @@ repos:
       - "openai"
       - "roast"
       - "trust-score"
-    stars_fact: 240
+    stars_fact: 251
     first_seen: null
-    last_push: "2026-10-02"
+    last_push: "2026-10-10"
   - name: "openkoto"
     title: "openkoto"
     description: "AI based foreign language reading and learning tool that allows you to learn foreign languages using any text content of interest,TextLingo是一款兴趣驱动的AI外语阅读与学习软件"
     language: "Swift"
     topics: []
-    stars_fact: 453
+    stars_fact: 454
     first_seen: null
     last_push: "2026-10-01"
   - name: "hikariming"
@@ -132,20 +143,10 @@ repos:
     stars_fact: 98
     first_seen: null
     last_push: "2026-05-06"
-  - name: "SynapseHub"
-    title: "SynapseHub"
-    description: "LLM智能路由网关、 Enterprise Intelligent AI-API Distribution Gateway"
-    language: "JavaScript"
-    topics:
-      - "api-gateway"
-      - "openai"
-    stars_fact: 14
-    first_seen: null
-    last_push: "2025-01-24"
 ---
 
 # hikariming
 
-65 pushes across 8 repositories on 35 active days in the last 90 days of public GitHub push activity.
+66 pushes across 8 repositories on 36 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/hikariming

@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "c489e6fb5febf2ab"
-pushes_per_week: [13, 4, 6, 0, 0, 1, 0, 0, 0, 0, 2, 2, 4]
+pushes_per_week: [10, 5, 5, 0, 1, 0, 0, 0, 0, 1, 1, 2, 5]
 windows:
   "7d":
-    pushes: 4
-    distinct_repos: 1
-    active_days: 3
+    pushes: 5
+    distinct_repos: 2
+    active_days: 4
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 8
-    distinct_repos: 1
-    active_days: 7
+    pushes: 9
+    distinct_repos: 2
+    active_days: 8
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 32
-    distinct_repos: 12
-    active_days: 20
+    pushes: 30
+    distinct_repos: 13
+    active_days: 19
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.6000
-  repo_per_active_day: 0.6000
-  not_owned_ratio: 0.0833
-  basename_concentration: 0.0833
+  push_per_day: 1.5789
+  repo_per_active_day: 0.6842
+  not_owned_ratio: 0.0769
+  basename_concentration: 0.0769
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 4
-    distinct_repos: 1
-    pushes_per_repo: 4.0000
-    active_days: 3
+    pushes: 5
+    distinct_repos: 2
+    pushes_per_repo: 2.5000
+    active_days: 4
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 8
-    distinct_repos: 1
-    pushes_per_repo: 8.0000
-    active_days: 7
+    pushes: 9
+    distinct_repos: 2
+    pushes_per_repo: 4.5000
+    active_days: 8
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 32
-    distinct_repos: 12
-    pushes_per_repo: 2.6667
-    active_days: 20
+    pushes: 30
+    distinct_repos: 13
+    pushes_per_repo: 2.3077
+    active_days: 19
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 20 active days in 90d — pass"
+  - "activity: 19 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "amh1k"
@@ -84,7 +84,15 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-01"
+    last_push: "2026-10-10"
+  - name: "mythborn"
+    title: "mythborn"
+    description: "An AI-powered civilization simulator where real-world discoveries shape evolving societies, beliefs, and histories through autonomous agents and durable workflows."
+    language: "Go"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-09"
   - name: "llm-from-scratch"
     title: "llm-from-scratch"
     description: "From-scratch implementation of a high-performance Large Language Model in PyTorch. Features modern architectural enhancements including Rotary Positional Embeddings (RoPE), Causal Multi-Head Attention, and parameter-efficient fine-tuning via LoRA."
@@ -117,24 +125,10 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-08-13"
-  - name: "keepalive-monitoring"
-    title: "keepalive-monitoring"
-    description: "A high-performance, uptime monitoring system built with the T3 Stack. Features sub-second pinging, automated failover notifications via Discord webhooks, and a robust background task architecture"
-    language: "TypeScript"
-    topics:
-      - "bullmq"
-      - "expressjs"
-      - "monitoring-tool"
-      - "nodejs"
-      - "queues"
-      - "typescript"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-08-07"
 ---
 
 # amh1k
 
-32 pushes across 12 repositories on 20 active days in the last 90 days of public GitHub push activity.
+30 pushes across 13 repositories on 19 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/amh1k

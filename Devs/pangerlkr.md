@@ -9,11 +9,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "1df6ea1f1256059e"
   - "edb3a626875732de"
-pushes_per_week: [2, 17, 6, 2, 0, 1, 0, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [8, 13, 4, 2, 0, 1, 0, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -85,7 +85,15 @@ repos:
     topics: []
     stars_fact: 2
     first_seen: null
-    last_push: "2026-10-02"
+    last_push: "2026-10-10"
+  - name: "NEXUSCIPHERGUARD-INDIA"
+    title: "NEXUSCIPHERGUARD-INDIA"
+    description: "Official Website"
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-04"
   - name: "case-intake-suite"
     title: "case-intake-suite"
     description: "Local case intake and evidence pack generator for moderation workflows — CLI + Flask dashboard + Markdown/PDF export"
@@ -119,14 +127,6 @@ repos:
     stars_fact: 2
     first_seen: null
     last_push: "2026-09-05"
-  - name: "awesome-privacy"
-    title: "awesome-privacy"
-    description: "Awesome Privacy - A curated list of services and alternatives that respect your privacy because PRIVACY MATTERS."
-    language: null
-    topics: []
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-08-02"
 ---
 
 # pangerlkr

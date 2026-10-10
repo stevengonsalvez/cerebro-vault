@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [1, 1, 3, 0, 0, 0, 1, 0, 0, 1, 2, 0, 1]
+pushes_per_week: [2, 0, 3, 0, 0, 0, 1, 0, 0, 1, 2, 1, 0]
 windows:
   "7d":
     pushes: 1
@@ -77,6 +77,14 @@ reasons:
   - "activity: 9 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "kdbus"
+    title: "kdbus"
+    description: "Kernel \"dbus-like\" code for the Linux kernel"
+    language: "C"
+    topics: []
+    stars_fact: 261
+    first_seen: null
+    last_push: "2017-01-19"
   - name: "linux"
     title: "linux"
     description: "Linux kernel stable tree mirror"
@@ -84,9 +92,33 @@ repos:
     topics:
       - "kernel"
       - "linux"
-    stars_fact: 717
+    stars_fact: 723
     first_seen: null
-    last_push: "2026-09-28"
+    last_push: "2026-10-09"
+  - name: "usbview"
+    title: "usbview"
+    description: "usb viewer for Linux"
+    language: "C"
+    topics: []
+    stars_fact: 276
+    first_seen: null
+    last_push: "2025-08-17"
+  - name: "kernel-tutorial"
+    title: "kernel-tutorial"
+    description: "Basic \"How to write a Linux kernel patch and submit it\" tutorial"
+    language: null
+    topics: []
+    stars_fact: 1263
+    first_seen: null
+    last_push: "2021-03-26"
+  - name: "usbutils"
+    title: "usbutils"
+    description: "USB utilities for Linux, including lsusb"
+    language: "C"
+    topics: []
+    stars_fact: 458
+    first_seen: null
+    last_push: "2026-10-01"
   - name: "bti"
     title: "bti"
     description: "bash twitter ididocy"
@@ -95,38 +127,6 @@ repos:
     stars_fact: 164
     first_seen: null
     last_push: "2021-11-22"
-  - name: "kernel-development"
-    title: "kernel-development"
-    description: "Presentation on how the Linux kernel is developed"
-    language: "TeX"
-    topics: []
-    stars_fact: 689
-    first_seen: null
-    last_push: "2026-09-17"
-  - name: "adcboard"
-    title: "adcboard"
-    description: "adc linux kernel driver"
-    language: "C"
-    topics: []
-    stars_fact: 9
-    first_seen: null
-    last_push: "2010-03-16"
-  - name: "lsusb"
-    title: "lsusb"
-    description: "lsusb for Linux rewrite"
-    language: "C"
-    topics: []
-    stars_fact: 29
-    first_seen: null
-    last_push: "2010-04-23"
-  - name: "samsung-backlight"
-    title: "samsung-backlight"
-    description: "Linux kernel driver for samsung backlight control"
-    language: "C"
-    topics: []
-    stars_fact: 13
-    first_seen: null
-    last_push: "2011-09-02"
 ---
 
 # gregkh

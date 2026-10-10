@@ -8,16 +8,16 @@ provenance_repos:
   - "AstrBotDevs/AstrBot"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+repos_populated: false
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [0, 2, 1, 0, 1, 0, 0, 0, 0, 2, 0, 5, 1]
+pushes_per_week: [0, 2, 1, 0, 1, 0, 0, 0, 0, 2, 0, 6, 0]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -76,55 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "astrbot_plugin_vision_enhance"
-    title: "astrbot_plugin_vision_enhance"
-    description: "还原 Markdown 内嵌图片、把动图抽帧后再交给模型，让模型真正看见用户发的图片"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-02"
-  - name: "Railgun19457"
-    title: "Railgun19457"
-    description: "Profile page"
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-02"
-  - name: "astrbot_plugin_image_generation"
-    title: "astrbot_plugin_image_generation"
-    description: "通用图像生成插件"
-    language: "Python"
-    topics: []
-    stars_fact: 28
-    first_seen: null
-    last_push: "2026-10-01"
-  - name: "astrbot_plugin_output_enhance"
-    title: "astrbot_plugin_output_enhance"
-    description: "AstrBot输出增强插件"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-28"
-  - name: "hnu-utility-balance"
-    title: "hnu-utility-balance"
-    description: "海南大学「海大售电」水电费查询 Python 库（同步/异步）：余额、充值/消费记录、房间绑定，支持本地扫描提取 openId"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-25"
-  - name: "AstrBotAdapter"
-    title: "AstrBotAdapter"
-    description: "一个用于连接 MC服务器和 AstrBot 的插件，支持消息互通、服务器状态监测和远程指令执行。"
-    language: "Java"
-    topics: []
-    stars_fact: 5
-    first_seen: null
-    last_push: "2026-05-19"
+repos: []
 ---
 
 # Railgun19457

@@ -8,11 +8,11 @@ provenance_repos:
   - "anomalyco/opencode"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+repos_populated: false
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [5, 0, 1, 0, 1, 0, 1, 0, 0, 0, 2, 0, 0]
+pushes_per_week: [5, 1, 0, 0, 1, 1, 0, 0, 0, 2, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,70 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "expenses-app"
-    title: "expenses-app"
-    description: "Expenses App - mostly for myself but feel free to take a look."
-    language: "TypeScript"
-    topics:
-      - "expenses"
-      - "react"
-      - "tanstack-react-query"
-      - "tanstack-start"
-      - "trpc"
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-09-19"
-  - name: "rcmd-lite"
-    title: "rcmd-lite"
-    description: "A lightweight macOS keyboard app switcher built with Swift"
-    language: "Swift"
-    topics:
-      - "app-switcher"
-      - "macos"
-      - "productivity"
-      - "swift"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-24"
-  - name: "josephcampuzano.com"
-    title: "josephcampuzano.com"
-    description: "personal-website deployed on cloudflare using astro"
-    language: "Astro"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-22"
-  - name: "gif-it"
-    title: "gif-it"
-    description: "Native macOS menu-bar app for recording windows as GIF or MP4"
-    language: "Swift"
-    topics:
-      - "gif"
-      - "macos"
-      - "screen-recorder"
-      - "screencapturekit"
-      - "swift"
-      - "swiftui"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-07-25"
-  - name: "diffit"
-    title: "diffit"
-    description: "Desktop diff viewer. Mostly useful for jumping out of the terminal and seeing a diff view of what agents did outside of the terminal or in a dedicated application."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-07-25"
-  - name: "portsy"
-    title: "portsy"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-23"
+repos: []
 ---
 
 # jcampuza

@@ -8,11 +8,11 @@ provenance_repos:
   - "agent-substrate/substrate"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-07T15:16:07.319356+00:00"
+repos_populated: false
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "a5ffcd0a46dd44fd"
-pushes_per_week: [3, 0, 0, 2, 7, 0, 2, 0, 0, 0, 1, 0, 1]
+pushes_per_week: [3, 0, 2, 0, 7, 0, 2, 0, 0, 1, 0, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -76,47 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 8 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "JeffLuoo"
-    title: "JeffLuoo"
-    description: "personal repository"
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-04"
-  - name: "Numerical-Computation"
-    title: "Numerical-Computation"
-    description: "Some implementation of basic Numerical Computation in Matlab"
-    language: "MATLAB"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2020-01-07"
-  - name: "CC3K"
-    title: "CC3K"
-    description: "CC3K"
-    language: "C++"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2018-07-29"
-  - name: "Lintcode"
-    title: "Lintcode"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2019-03-03"
-  - name: "website"
-    title: "website"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2018-07-11"
+repos: []
 ---
 
 # JeffLuoo

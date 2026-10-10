@@ -10,22 +10,22 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "69d1a861b67c373a"
-pushes_per_week: [0, 0, 0, 0, 2, 4, 1, 0, 4, 1, 1, 2, 7]
+pushes_per_week: [0, 0, 0, 0, 2, 4, 1, 0, 4, 1, 1, 8, 1]
 windows:
   "7d":
-    pushes: 8
-    distinct_repos: 2
-    active_days: 4
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 13
+    pushes: 11
     distinct_repos: 2
-    active_days: 8
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -50,18 +50,18 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 8
-    distinct_repos: 2
-    pushes_per_repo: 4.0000
-    active_days: 4
+    pushes: 1
+    distinct_repos: 1
+    pushes_per_repo: 1.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 13
+    pushes: 11
     distinct_repos: 2
-    pushes_per_repo: 6.5000
-    active_days: 8
+    pushes_per_repo: 5.5000
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -80,22 +80,22 @@ reasons:
 repos:
   - name: "mcptoon"
     title: "mcptoon"
-    description: "One zero-dependency CLI for all your MCP tools and agent skills. 99.2% fewer tokens on tool discovery, one config for every agent, nothing pre-installed. | 一个零依赖 CLI，管所有 MCP 工具和 Agent 技能。工具发现省 99.2% token，一份配置通吃所有 Agent，原生不预装。227KB，纯 Python 标准库。"
+    description: "One zero-dependency CLI for every MCP server and agent skill. Token optimization, tool discovery and context compression: 71,929 -> 581 tokens (-99.2%, measured), schemas stay out of context. One config for Claude Code, Codex, Cursor, every agent. 341KB, pure Python. | 零依赖 CLI：管所有 MCP 工具与技能，工具发现省 99.2% token。"
     language: "Python"
     topics:
       - "agent-skills"
-      - "ai-agents"
       - "claude"
       - "claude-code"
-      - "claude-desktop"
       - "cli"
       - "codex"
       - "context-compression"
       - "cursor"
       - "llm"
       - "mcp"
+      - "mcp-cli"
       - "mcp-client"
       - "mcp-server"
+      - "mcp-tools"
       - "model-context-protocol"
       - "python"
       - "skill-management"
@@ -103,17 +103,17 @@ repos:
       - "windows"
       - "windsurf"
       - "zero-dependencies"
-    stars_fact: 206
+    stars_fact: 218
     first_seen: "2026-08-11T06:00:08.519377+00:00"
-    last_push: "2026-09-30"
+    last_push: "2026-10-09"
   - name: "homebrew-mcptoon"
     title: "homebrew-mcptoon"
     description: "Homebrew tap for mcptoon — MCP client with token-efficient tool manifests"
-    language: "Ruby"
+    language: "Python"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-25"
+    last_push: "2026-10-07"
   - name: "dsh-mcptoon"
     title: "dsh-mcptoon"
     description: "DeepSeek Harness bundle: mount mcptoon as an MCP server in one command. Tool discovery 71,929 -> 581 tokens across 255 tools (-99.2%, measured); encoding is lossless."

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [7, 28, 13, 7, 1, 7, 0, 0, 0, 1, 3, 1, 0]
+pushes_per_week: [10, 26, 11, 6, 5, 3, 0, 0, 1, 2, 1, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 68
-    distinct_repos: 22
-    active_days: 27
-    repos_not_owned: 8
-    not_owned_basenames: 8
+    pushes: 66
+    distinct_repos: 20
+    active_days: 25
+    repos_not_owned: 7
+    not_owned_basenames: 7
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 2.5185
-  repo_per_active_day: 0.8148
-  not_owned_ratio: 0.3636
-  basename_concentration: 0.0909
+  push_per_day: 2.6400
+  repo_per_active_day: 0.8000
+  not_owned_ratio: 0.3500
+  basename_concentration: 0.1000
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,18 +65,34 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 68
-    distinct_repos: 22
-    pushes_per_repo: 3.0909
-    active_days: 27
-    repos_not_owned: 8
-    not_owned_basenames: 8
+    pushes: 66
+    distinct_repos: 20
+    pushes_per_repo: 3.3000
+    active_days: 25
+    repos_not_owned: 7
+    not_owned_basenames: 7
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 27 active days in 90d — pass"
+  - "activity: 25 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "why-render"
+    title: "why-render"
+    description: "Created by MARSL"
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-09"
+  - name: "grouplink-ts"
+    title: "grouplink-ts"
+    description: "Render's links page, rebuilt from Notion by a Render Workflow and deployed as a static site."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-09"
   - name: "grouplink-py"
     title: "grouplink-py"
     description: "Render's links page, rebuilt from Notion by a Render Workflow and deployed as a static site."
@@ -84,15 +100,15 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-30"
-  - name: "grouplink-ts"
-    title: "grouplink-ts"
-    description: "Render's links page, rebuilt from Notion by a Render Workflow and deployed as a static site."
-    language: "HTML"
+    last_push: "2026-10-09"
+  - name: "ho1yshif.github.io"
+    title: "ho1yshif.github.io"
+    description: "New portfolio site"
+    language: "JavaScript"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-27"
+    last_push: "2026-10-09"
   - name: "scalekit-render-mtkybajd"
     title: "scalekit-render-mtkybajd"
     description: "Created from render-examples/scalekit-render template"
@@ -109,26 +125,10 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-08-11"
-  - name: "ho1yshif.github.io"
-    title: "ho1yshif.github.io"
-    description: "New portfolio site"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-07-09"
-  - name: "interval-audio"
-    title: "interval-audio"
-    description: "Code for interval audio website"
-    language: "CSS"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-07-05"
 ---
 
 # Ho1yShif
 
-68 pushes across 22 repositories on 27 active days in the last 90 days of public GitHub push activity.
+66 pushes across 20 repositories on 25 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Ho1yShif

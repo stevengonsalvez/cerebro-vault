@@ -8,37 +8,37 @@ provenance_repos:
   - "abhigyanpatwari/GitNexus"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+repos_populated: false
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [11, 17, 10, 12, 17, 27, 0, 0, 3, 14, 17, 10, 4]
+pushes_per_week: [17, 11, 13, 12, 32, 9, 0, 0, 3, 20, 15, 6, 6]
 windows:
   "7d":
-    pushes: 5
+    pushes: 6
     distinct_repos: 3
     active_days: 3
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 47
+    pushes: 49
     distinct_repos: 7
-    active_days: 20
+    active_days: 21
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 1
   "90d":
-    pushes: 142
+    pushes: 144
     distinct_repos: 9
-    active_days: 48
+    active_days: 49
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.9583
-  repo_per_active_day: 0.1875
+  push_per_day: 2.9388
+  repo_per_active_day: 0.1837
   not_owned_ratio: 0.4444
   basename_concentration: 0.1111
   shapes: []
@@ -49,148 +49,38 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 5
+    pushes: 6
     distinct_repos: 3
-    pushes_per_repo: 1.6667
+    pushes_per_repo: 2.0000
     active_days: 3
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 47
+    pushes: 49
     distinct_repos: 7
-    pushes_per_repo: 6.7143
-    active_days: 20
+    pushes_per_repo: 7.0000
+    active_days: 21
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 1
   "90d":
-    pushes: 142
+    pushes: 144
     distinct_repos: 9
-    pushes_per_repo: 15.7778
-    active_days: 48
+    pushes_per_repo: 16.0000
+    active_days: 49
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 48 active days in 90d — pass"
+  - "activity: 49 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "xiaomi-smart-fan-card"
-    title: "xiaomi-smart-fan-card"
-    description: "Capability-aware Lovelace card for Xiaomi and generic Home Assistant fans"
-    language: "TypeScript"
-    topics:
-      - "fan"
-      - "hacs"
-      - "home-assistant"
-      - "lovelace"
-      - "smart-home"
-      - "xiaomi"
-    stars_fact: 10
-    first_seen: null
-    last_push: "2026-10-02"
-  - name: "hassio-addons"
-    title: "hassio-addons"
-    description: "Home Assistant add-on wrappers around upstream projects with automated releases and security gates."
-    language: "Shell"
-    topics:
-      - "ai"
-      - "ai-memory"
-      - "authentik"
-      - "bonds"
-      - "gluetun"
-      - "hassio"
-      - "hindsight"
-      - "home-assistant"
-      - "home-assistant-addon"
-      - "llm"
-      - "n8n"
-      - "stirling-pdf"
-      - "traefik"
-      - "tududi"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-02"
-  - name: "promptscript"
-    title: "promptscript"
-    description: "Prompt-as-Code for Enterprise AI. Standardize, audit, and deploy instructions across any AI coding assistant."
-    language: "TypeScript"
-    topics:
-      - "ai-tools"
-      - "antigravity"
-      - "claude"
-      - "cli"
-      - "cursor"
-      - "developer-experience"
-      - "devtools"
-      - "enterprise"
-      - "github-copilot"
-      - "governance"
-      - "llm"
-      - "prompt-as-code"
-      - "prompt-engineering"
-      - "promptops"
-      - "promptscript"
-      - "typescript"
-    stars_fact: 385
-    first_seen: null
-    last_push: "2026-10-01"
-  - name: "factory-droid-openai"
-    title: "factory-droid-openai"
-    description: "Unofficial OpenAI-compatible bridge for Factory Droid"
-    language: "Python"
-    topics:
-      - "api-bridge"
-      - "chat-completions"
-      - "droid-sdk"
-      - "factory-ai"
-      - "factory-droid"
-      - "fastapi"
-      - "function-calling"
-      - "llm"
-      - "openai"
-      - "openai-compatible"
-      - "python"
-      - "server-sent-events"
-      - "tool-calling"
-    stars_fact: 13
-    first_seen: null
-    last_push: "2026-10-01"
-  - name: "logstrip"
-    title: "logstrip"
-    description: "Library that compresses massive CI/system logs into dense, AI-ready error context, reducing LLM input tokens and filtering noise with streaming-safe parsing."
-    language: "TypeScript"
-    topics:
-      - "ai"
-      - "build-logs"
-      - "ci"
-      - "cicd"
-      - "cli"
-      - "compression"
-      - "context"
-      - "github-actions"
-      - "llm"
-      - "log-parser"
-      - "logs"
-      - "token-reduction"
-      - "zero-dependency"
-    stars_fact: 6
-    first_seen: null
-    last_push: "2026-09-07"
-  - name: "PoolMind"
-    title: "PoolMind"
-    description: "PoolMind — Open-source computer vision system for pool games."
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-07-20"
+repos: []
 ---
 
 # mrwogu
 
-142 pushes across 9 repositories on 48 active days in the last 90 days of public GitHub push activity.
+144 pushes across 9 repositories on 49 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/mrwogu

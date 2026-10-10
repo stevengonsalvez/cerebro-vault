@@ -10,18 +10,18 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "229b322ed982d40b"
   - "c4281af03270173b"
-pushes_per_week: [2, 3, 12, 13, 3, 1, 0, 0, 0, 1, 8, 9, 22]
+pushes_per_week: [2, 5, 21, 3, 2, 1, 0, 0, 0, 4, 5, 10, 21]
 windows:
   "7d":
-    pushes: 29
-    distinct_repos: 8
-    active_days: 4
-    repos_not_owned: 4
-    not_owned_basenames: 3
+    pushes: 21
+    distinct_repos: 5
+    active_days: 2
+    repos_not_owned: 3
+    not_owned_basenames: 2
     not_owned_owners: 2
   "30d":
     pushes: 40
@@ -51,12 +51,12 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 29
-    distinct_repos: 8
-    pushes_per_repo: 3.6250
-    active_days: 4
-    repos_not_owned: 4
-    not_owned_basenames: 3
+    pushes: 21
+    distinct_repos: 5
+    pushes_per_repo: 4.2000
+    active_days: 2
+    repos_not_owned: 3
+    not_owned_basenames: 2
     not_owned_owners: 2
   "30d":
     pushes: 40
@@ -79,6 +79,37 @@ reasons:
   - "activity: 24 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "baymax-medical-pa"
+    title: "baymax-medical-pa"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-05"
+  - name: "openmuse"
+    title: "openmuse"
+    description: "An open-source personal agent with a persistent browser computer, CopilotKit rich chat, and a React Native app."
+    language: "TypeScript"
+    topics:
+      - "ag-ui"
+      - "ai-agents"
+      - "copilotkit"
+      - "expo"
+      - "personal-assistant"
+      - "react-native"
+      - "self-hosted"
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-09-29"
+  - name: "jerelvelarde"
+    title: "jerelvelarde"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-05"
   - name: "demo-skills"
     title: "demo-skills"
     description: "Launch video and UI mockup animation skills for Claude Code and Codex, with a portable GTM video toolkit and Remotion starter."
@@ -86,47 +117,31 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-30"
-  - name: "heycapybara"
-    title: "heycapybara"
-    description: "OpenMuse-inspired macOS companion with a draggable capybara, record-to-skill, AG-UI, and Codex"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-09-28"
-  - name: "jev-copilotkit"
-    title: "jev-copilotkit"
-    description: "CopilotKit and Jev agent arenas: Wikipedia race and visual tool-calling benchmark"
+    last_push: "2026-10-05"
+  - name: "awesome-openbot-agents"
+    title: "awesome-openbot-agents"
+    description: "Coworkers for OpenBot, as files. Configuration travels; capability does not."
     language: "TypeScript"
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-09-24"
-  - name: "generative-ui-london-hackathon-starter"
-    title: "generative-ui-london-hackathon-starter"
-    description: null
+    last_push: "2026-09-04"
+  - name: "agents-everywhere-starter-kit"
+    title: "agents-everywhere-starter-kit"
+    description: "Starter kit for the Agents, Everywhere: Bots, Channels & More global hackathon (AI Tinkerers x OpenAI, 12 Sep 2026). One agent, every surface — Slack/Teams via CopilotKit Channels, zero tunnel."
     language: "TypeScript"
-    topics: []
-    stars_fact: 8
+    topics:
+      - "ag-ui"
+      - "ai-agents"
+      - "copilotkit"
+      - "generative-ui"
+      - "hackathon"
+      - "mcp"
+      - "slack-bot"
+      - "starter-kit"
+    stars_fact: 2
     first_seen: null
-    last_push: "2026-06-13"
-  - name: "heykite"
-    title: "heykite"
-    description: "A macOS AI companion powered by Codex, AG-UI, and CopilotKit Intelligence, with cross-app recording and record-to-skill."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-24"
-  - name: "world-monitor-copilotkit"
-    title: "world-monitor-copilotkit"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 66
-    first_seen: null
-    last_push: "2026-04-01"
+    last_push: "2026-09-12"
 ---
 
 # jerelvelarde

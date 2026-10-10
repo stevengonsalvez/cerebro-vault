@@ -6,17 +6,15 @@ discovered_via_all:
   - "fanout"
 provenance_repos:
   - "addyosmani/agent-skills"
-  - "bytedance/deer-flow"
   - "chopratejas/headroom"
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
-  - "16389f32495280ea"
   - "73468cde177ddae6"
   - "dae9f02535f7c22f"
-pushes_per_week: [7, 1, 0, 1, 2, 0, 0, 0, 2, 1, 1, 6, 2]
+pushes_per_week: [7, 1, 0, 3, 0, 0, 0, 0, 3, 0, 6, 1, 2]
 windows:
   "7d":
     pushes: 2
@@ -77,7 +75,7 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
-  - "provenance: 3 vault signal(s) — pass"
+  - "provenance: 2 vault signal(s) — pass"
   - "activity: 11 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
@@ -91,7 +89,49 @@ repos:
       - "profile-readme"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-01"
+    last_push: "2026-10-10"
+  - name: "bitcoin-mcp"
+    title: "bitcoin-mcp"
+    description: "50 standard Bitcoin tools for MCP agents, with 6 prompts and 8 resources. Uses a local node or explicitly configured compatible API."
+    language: "Python"
+    topics:
+      - "ai-agents"
+      - "anthropic"
+      - "bitcoin"
+      - "bitcoin-api"
+      - "bitcoin-core"
+      - "bitcoin-mcp"
+      - "bitcoin-node"
+      - "blockchain"
+      - "claude"
+      - "claude-desktop"
+      - "cryptocurrency"
+      - "cursor"
+      - "fee-estimation"
+      - "llm"
+      - "mcp"
+      - "mcp-server"
+      - "mempool"
+      - "model-context-protocol"
+      - "python"
+      - "self-hosted"
+    stars_fact: 5
+    first_seen: null
+    last_push: "2026-10-10"
+  - name: "qlib-options"
+    title: "qlib-options"
+    description: "Options chain data collection and factor derivation, compatible with Microsoft qlib"
+    language: "Python"
+    topics:
+      - "data-pipeline"
+      - "finance"
+      - "options"
+      - "python"
+      - "qlib"
+      - "quant"
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-10-08"
   - name: "x402-seller-testkit"
     title: "x402-seller-testkit"
     description: "Seller-side x402 conformance and regression harness."
@@ -107,51 +147,31 @@ repos:
       - "x402"
     stars_fact: 1
     first_seen: null
-    last_push: "2026-09-30"
-  - name: "zero-to-shielded"
-    title: "zero-to-shielded"
-    description: "From zero to your first shielded Zcash transaction"
-    language: "HTML"
-    topics: []
-    stars_fact: 0
+    last_push: "2026-10-07"
+  - name: "hypelens"
+    title: "hypelens"
+    description: "Open-source Hyperliquid wallet analyzer"
+    language: "TypeScript"
+    topics:
+      - "crypto"
+      - "defi"
+      - "hyperliquid"
+      - "nextjs"
+      - "open-source"
+      - "trading-analytics"
+      - "typescript"
+      - "wallet-analyzer"
+    stars_fact: 1
     first_seen: null
-    last_push: "2026-09-29"
-  - name: "shieldcheck"
-    title: "shieldcheck"
-    description: "A regression lab for privacy and order authorization at the Zcash checkout boundary"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-29"
-  - name: "bitcoin-protocol-guide"
-    title: "bitcoin-protocol-guide"
-    description: "Bitcoin protocol internals — UTXOs, Script, SegWit, Taproot, Ordinals. Real transaction examples with CLI verification."
+    last_push: "2026-05-11"
+  - name: "nacht-zombies"
+    title: "nacht-zombies"
+    description: "Nacht der Untoten (World at War zombies) 1:1 in your browser — play at zombies.bitcoinsapi.com"
     language: null
-    topics:
-      - "bitcoin"
-      - "education"
-      - "ordinals"
-      - "protocol"
-      - "segwit"
-      - "taproot"
-      - "utxo"
-    stars_fact: 6
-    first_seen: null
-    last_push: "2026-03-22"
-  - name: "zrunes-toolkit"
-    title: "zrunes-toolkit"
-    description: "Experimental ZRunes decoding and ledger replay for Zcash wallet and product developers"
-    language: "JavaScript"
-    topics:
-      - "blockchain"
-      - "developer-tools"
-      - "experimental"
-      - "zcash"
-      - "zrunes"
+    topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-26"
+    last_push: "2026-10-10"
 ---
 
 # Bortlesboat

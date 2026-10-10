@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [0, 3, 1, 0, 0, 1, 0, 0, 2, 5, 11, 4, 0]
+pushes_per_week: [0, 3, 1, 0, 1, 0, 0, 1, 1, 5, 15, 0, 1]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 20
-    distinct_repos: 4
-    active_days: 5
+    pushes: 21
+    distinct_repos: 5
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 27
-    distinct_repos: 6
-    active_days: 10
+    pushes: 28
+    distinct_repos: 7
+    active_days: 11
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.7000
-  repo_per_active_day: 0.6000
+  push_per_day: 2.5455
+  repo_per_active_day: 0.6364
   not_owned_ratio: 0.0000
-  basename_concentration: 0.1667
+  basename_concentration: 0.1429
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,55 +49,34 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
+    pushes: 1
+    distinct_repos: 1
+    pushes_per_repo: 1.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 20
-    distinct_repos: 4
-    pushes_per_repo: 5.0000
-    active_days: 5
+    pushes: 21
+    distinct_repos: 5
+    pushes_per_repo: 4.2000
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 27
-    distinct_repos: 6
-    pushes_per_repo: 4.5000
-    active_days: 10
+    pushes: 28
+    distinct_repos: 7
+    pushes_per_repo: 4.0000
+    active_days: 11
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 10 active days in 90d — pass"
+  - "activity: 11 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "docshelf.nvim"
-    title: "docshelf.nvim"
-    description: "Offline API documentation inside Neovim — devdocs.io, Hackage, docs.rs, Sphinx sites, pkg.go.dev and DocC (Apple) docs, read and grepped as plain text"
-    language: "Lua"
-    topics:
-      - "devdocs"
-      - "documentation"
-      - "lua"
-      - "neovim"
-      - "neovim-lua"
-      - "neovim-lua-plugin"
-      - "neovim-plugin"
-      - "nvim"
-      - "nvim-lua"
-      - "nvim-plugin"
-      - "offline-documentation"
-      - "snacks-nvim"
-      - "telescope"
-    stars_fact: 5
-    first_seen: null
-    last_push: "2026-09-27"
   - name: "workspace-qdrant-mcp"
     title: "workspace-qdrant-mcp"
     description: "Project-aware collection management based on Qdrant, including a Rust MCP, daemon and CLI: hybrid semantic, pattern and full-text (FTS5) search into single or cross-concerns collection. Dedicated collections for knowledge library, LLM behavioral rules, and an LLM scratchpad"
@@ -123,7 +102,28 @@ repos:
       - "semantic-search"
       - "sparse-vectors"
       - "vector-database"
-    stars_fact: 3
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-09-27"
+  - name: "docshelf.nvim"
+    title: "docshelf.nvim"
+    description: "Offline API documentation inside Neovim — devdocs.io, Hackage, docs.rs, Sphinx sites, pkg.go.dev and DocC (Apple) docs, read and grepped as plain text"
+    language: "Lua"
+    topics:
+      - "devdocs"
+      - "documentation"
+      - "lua"
+      - "neovim"
+      - "neovim-lua"
+      - "neovim-lua-plugin"
+      - "neovim-plugin"
+      - "nvim"
+      - "nvim-lua"
+      - "nvim-plugin"
+      - "offline-documentation"
+      - "snacks-nvim"
+      - "telescope"
+    stars_fact: 5
     first_seen: null
     last_push: "2026-09-27"
   - name: "localdata-mcp"
@@ -182,6 +182,6 @@ repos:
 
 # ChrisGVE
 
-27 pushes across 6 repositories on 10 active days in the last 90 days of public GitHub push activity.
+28 pushes across 7 repositories on 11 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ChrisGVE

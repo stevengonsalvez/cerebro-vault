@@ -11,17 +11,17 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "3cb7ff1cdcf97c6b"
   - "dae9f02535f7c22f"
   - "ffccace0ba14fd15"
-pushes_per_week: [1, 2, 2, 1, 0, 1, 0, 0, 1, 1, 0, 0, 1]
+pushes_per_week: [1, 3, 2, 0, 0, 1, 0, 0, 1, 1, 0, 1, 0]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -53,10 +53,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -88,7 +88,25 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-01"
+    last_push: "2026-10-10"
+  - name: "Movie4fun"
+    title: "Movie4fun"
+    description: "Frontend Website like IMDB using React.JS and Redux, TMDB"
+    language: "TypeScript"
+    topics:
+      - "frontend"
+      - "imdb"
+      - "movie-rating-app"
+      - "movie-recommendation-app"
+      - "movies-app-react"
+      - "reactjs"
+      - "redux"
+      - "scss"
+      - "tmdb-api"
+      - "typescript"
+    stars_fact: 11
+    first_seen: null
+    last_push: "2025-04-12"
   - name: "ReadNote"
     title: "ReadNote"
     description: "upload some read notes"
@@ -121,21 +139,6 @@ repos:
     stars_fact: 1
     first_seen: null
     last_push: "2026-02-15"
-  - name: "Echo-Frontend"
-    title: "Echo-Frontend"
-    description: "Echo Social Frontend using Next.JS and TailwindCSS"
-    language: "TypeScript"
-    topics:
-      - "bun"
-      - "full-stack"
-      - "nextjs"
-      - "social-media"
-      - "tailwindcss"
-      - "typescript"
-      - "webdevelopment"
-    stars_fact: 6
-    first_seen: null
-    last_push: "2026-03-21"
 ---
 
 # zerone0x

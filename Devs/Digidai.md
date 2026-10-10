@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "3cb7ff1cdcf97c6b"
-pushes_per_week: [1, 0, 3, 0, 4, 2, 0, 0, 0, 4, 3, 5, 5]
+pushes_per_week: [1, 1, 2, 2, 3, 1, 0, 0, 0, 4, 3, 6, 4]
 windows:
   "7d":
-    pushes: 6
-    distinct_repos: 5
-    active_days: 4
+    pushes: 4
+    distinct_repos: 3
+    active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 6
-    distinct_repos: 5
-    pushes_per_repo: 1.2000
-    active_days: 4
+    pushes: 4
+    distinct_repos: 3
+    pushes_per_repo: 1.3333
+    active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -77,22 +77,14 @@ reasons:
   - "activity: 21 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "website2markdown"
-    title: "website2markdown"
-    description: "Convert any URL to clean Markdown. Cloudflare Worker with 14 site adapters, MCP Server, Agent Skills, llms.txt. Open source, Apache-2.0."
-    language: "TypeScript"
-    topics:
-      - "ai-agents"
-      - "cloudflare-workers"
-      - "llms-txt"
-      - "markdown"
-      - "mcp"
-      - "typescript"
-      - "url-to-markdown"
-      - "web-scraping"
-    stars_fact: 8
+  - name: "metix-reports"
+    title: "metix-reports"
+    description: "Public catalog of Metix AI talent reports (canonical links to metix.ai)"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
     first_seen: null
-    last_push: "2026-10-01"
+    last_push: "2026-10-09"
   - name: "product-manager-skills"
     title: "product-manager-skills"
     description: "PM skill for Claude Code, Codex, Cursor, and Windsurf: diagnose SaaS metrics, critique PRDs, plan roadmaps, run discovery, and coach PM career transitions."
@@ -118,25 +110,43 @@ repos:
       - "saas-metrics"
       - "skill-md"
       - "windsurf-skill"
-    stars_fact: 183
+    stars_fact: 185
     first_seen: null
     last_push: "2026-04-12"
-  - name: "wenbu"
-    title: "wenbu"
-    description: "Wenbu · 问卜 — free BaZi, I Ching, tarot and Zi Wei tools with MCP, CLI and transparent methods."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-30"
-  - name: "metix-reports"
-    title: "metix-reports"
-    description: "Public catalog of Metix AI talent reports (canonical links to metix.ai)"
+  - name: "asterweft"
+    title: "asterweft"
+    description: "Independent Cloudflare agent platform: full-parity rewrite research, architecture, and acceptance specifications."
     language: "JavaScript"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-30"
+    last_push: "2026-10-07"
+  - name: "writer"
+    title: "writer"
+    description: "A quiet, input-focused writing surface on the Cloudflare stack. You write; an AI agent files everything away."
+    language: "JavaScript"
+    topics:
+      - "ai-agent"
+      - "cloudflare-workers"
+      - "cloudflare-workflows"
+      - "d1"
+      - "kimi"
+      - "markdown-editor"
+      - "r2"
+      - "serverless"
+      - "workers-ai"
+      - "writing-app"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-06"
+  - name: "takeoff"
+    title: "takeoff"
+    description: "A quiet airplane window to 120 cities across six continents."
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-06"
   - name: "recruit-ai-framework"
     title: "recruit-ai-framework"
     description: "Recruit-AI-Framework — Built by Genedai, Co-Founder of OpenJobs AI （https://openjobs-ai.com/）"
@@ -144,33 +154,7 @@ repos:
     topics: []
     stars_fact: 2
     first_seen: null
-    last_push: "2026-09-28"
-  - name: "HireAI"
-    title: "HireAI"
-    description: "HireAI - HR AI Products Collection | Built by Genedai, Co-Founder of OpenJobs AI （https://openjobs-ai.com/）"
-    language: "HTML"
-    topics:
-      - "ai-tools"
-      - "artificial-intelligence"
-      - "ats"
-      - "automation"
-      - "awesome-list"
-      - "chatbot"
-      - "directory"
-      - "hcm"
-      - "hiring"
-      - "hr-software"
-      - "hr-tech"
-      - "human-resources"
-      - "open-source"
-      - "recruiting"
-      - "recruitment"
-      - "saas"
-      - "talent-acquisition"
-      - "talent-management"
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-09-28"
+    last_push: "2026-10-05"
 ---
 
 # Digidai

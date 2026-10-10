@@ -9,41 +9,41 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "97c4e9cb8b163ddb"
   - "c7515e0fa4368a55"
   - "d3abe74726b22711"
   - "e7c647c4d0689526"
-pushes_per_week: [3, 3, 1, 2, 2, 2, 2, 0, 1, 2, 6, 10, 2]
+pushes_per_week: [4, 2, 1, 2, 2, 2, 2, 0, 1, 5, 3, 12, 2]
 windows:
   "7d":
-    pushes: 3
-    distinct_repos: 1
-    active_days: 2
+    pushes: 2
+    distinct_repos: 2
+    active_days: 1
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 20
-    distinct_repos: 4
-    active_days: 10
-    repos_not_owned: 3
-    not_owned_basenames: 3
+    pushes: 22
+    distinct_repos: 6
+    active_days: 11
+    repos_not_owned: 4
+    not_owned_basenames: 4
     not_owned_owners: 2
   "90d":
-    pushes: 36
-    distinct_repos: 9
-    active_days: 22
-    repos_not_owned: 5
-    not_owned_basenames: 5
+    pushes: 38
+    distinct_repos: 10
+    active_days: 23
+    repos_not_owned: 6
+    not_owned_basenames: 6
     not_owned_owners: 4
 automation:
   state: "clear"
-  push_per_day: 1.6364
-  repo_per_active_day: 0.4091
-  not_owned_ratio: 0.5556
-  basename_concentration: 0.1111
+  push_per_day: 1.6522
+  repo_per_active_day: 0.4348
+  not_owned_ratio: 0.6000
+  basename_concentration: 0.1000
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -52,32 +52,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 3
-    distinct_repos: 1
-    pushes_per_repo: 3.0000
-    active_days: 2
+    pushes: 2
+    distinct_repos: 2
+    pushes_per_repo: 1.0000
+    active_days: 1
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 20
-    distinct_repos: 4
-    pushes_per_repo: 5.0000
-    active_days: 10
-    repos_not_owned: 3
-    not_owned_basenames: 3
+    pushes: 22
+    distinct_repos: 6
+    pushes_per_repo: 3.6667
+    active_days: 11
+    repos_not_owned: 4
+    not_owned_basenames: 4
     not_owned_owners: 2
   "90d":
-    pushes: 36
-    distinct_repos: 9
-    pushes_per_repo: 4.0000
-    active_days: 22
-    repos_not_owned: 5
-    not_owned_basenames: 5
+    pushes: 38
+    distinct_repos: 10
+    pushes_per_repo: 3.8000
+    active_days: 23
+    repos_not_owned: 6
+    not_owned_basenames: 6
     not_owned_owners: 4
 reasons:
   - "provenance: 4 vault signal(s) — pass"
-  - "activity: 22 active days in 90d — pass"
+  - "activity: 23 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "rki-abwasser-reports"
@@ -92,7 +92,15 @@ repos:
       - "wastewater-surveillance"
     stars_fact: 1
     first_seen: null
-    last_push: "2026-09-30"
+    last_push: "2026-10-09"
+  - name: "llm-reports"
+    title: "llm-reports"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-08"
   - name: "pango-designation-dates"
     title: "pango-designation-dates"
     description: "Contains dates on which each Pango lineage was designated"
@@ -110,14 +118,6 @@ repos:
     stars_fact: 2
     first_seen: null
     last_push: "2026-05-08"
-  - name: "llm-reports"
-    title: "llm-reports"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-12"
   - name: "pango-sequences"
     title: "pango-sequences"
     description: "Consensus sequences for each Pango lineage"
@@ -138,6 +138,6 @@ repos:
 
 # corneliusroemer
 
-36 pushes across 9 repositories on 22 active days in the last 90 days of public GitHub push activity.
+38 pushes across 10 repositories on 23 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/corneliusroemer

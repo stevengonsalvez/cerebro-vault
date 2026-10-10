@@ -8,39 +8,39 @@ provenance_repos:
   - "antirez/ds4"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+repos_populated: false
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "3eacb4655aba2497"
-pushes_per_week: [6, 2, 4, 0, 6, 3, 2, 1, 1, 4, 5, 4, 1]
+pushes_per_week: [3, 3, 3, 1, 7, 2, 2, 0, 2, 4, 8, 0, 2]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
+    pushes: 2
+    distinct_repos: 2
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 14
-    distinct_repos: 5
-    active_days: 10
+    pushes: 15
+    distinct_repos: 6
+    active_days: 11
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 39
-    distinct_repos: 13
+    pushes: 37
+    distinct_repos: 12
     active_days: 29
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.3448
-  repo_per_active_day: 0.4483
-  not_owned_ratio: 0.0769
-  basename_concentration: 0.0769
+  push_per_day: 1.2759
+  repo_per_active_day: 0.4138
+  not_owned_ratio: 0.0833
+  basename_concentration: 0.0833
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
+    pushes: 2
+    distinct_repos: 2
     pushes_per_repo: 1.0000
-    active_days: 1
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 14
-    distinct_repos: 5
-    pushes_per_repo: 2.8000
-    active_days: 10
+    pushes: 15
+    distinct_repos: 6
+    pushes_per_repo: 2.5000
+    active_days: 11
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 39
-    distinct_repos: 13
-    pushes_per_repo: 3.0000
+    pushes: 37
+    distinct_repos: 12
+    pushes_per_repo: 3.0833
     active_days: 29
     repos_not_owned: 1
     not_owned_basenames: 1
@@ -76,59 +76,11 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 29 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "amd-strix-halo-toolboxes"
-    title: "amd-strix-halo-toolboxes"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 1972
-    first_seen: null
-    last_push: "2026-09-29"
-  - name: "ai-toolbox-cockpit"
-    title: "ai-toolbox-cockpit"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 128
-    first_seen: null
-    last_push: "2026-10-01"
-  - name: "amd-strix-halo-vllm-toolboxes"
-    title: "amd-strix-halo-vllm-toolboxes"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 533
-    first_seen: null
-    last_push: "2026-09-22"
-  - name: "strix-halo-ds4-toolbox"
-    title: "strix-halo-ds4-toolbox"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 90
-    first_seen: null
-    last_push: "2026-10-01"
-  - name: "llama-toolboxes-cockpit"
-    title: "llama-toolboxes-cockpit"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 109
-    first_seen: null
-    last_push: "2026-08-28"
-  - name: "amd-strix-halo-comfyui-toolboxes"
-    title: "amd-strix-halo-comfyui-toolboxes"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 161
-    first_seen: null
-    last_push: "2026-09-02"
+repos: []
 ---
 
 # kyuz0
 
-39 pushes across 13 repositories on 29 active days in the last 90 days of public GitHub push activity.
+37 pushes across 12 repositories on 29 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/kyuz0

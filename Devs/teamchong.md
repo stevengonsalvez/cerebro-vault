@@ -8,11 +8,11 @@ provenance_repos:
   - "teamchong/pxpipe"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+repos_populated: false
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "1320ae46b426dee5"
-pushes_per_week: [6, 15, 7, 3, 11, 2, 0, 0, 0, 0, 0, 1, 0]
+pushes_per_week: [9, 15, 5, 5, 8, 2, 0, 0, 0, 0, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,65 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 22 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "pxpipe"
-    title: "pxpipe"
-    description: "cut Claude Code token usage by rendering text context as images"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 7458
-    first_seen: "2026-07-06T06:00:04.675243+00:00"
-    last_push: "2026-10-01"
-  - name: "turboquant-wasm"
-    title: "turboquant-wasm"
-    description: "TurboQuant WASM SIMD vector compression — 3 bits/dim with fast dot product. Requires relaxed SIMD (Chrome 114+, Firefox 128+, Safari 18+, Node 20+)"
-    language: "Zig"
-    topics: []
-    stars_fact: 323
-    first_seen: null
-    last_push: "2026-04-19"
-  - name: "drawmode"
-    title: "drawmode"
-    description: "Code Mode MCP server for generating Excalidraw architecture diagrams with auto-layout. LLM writes TypeScript, Graphviz handles layout."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 15
-    first_seen: null
-    last_push: "2026-06-01"
-  - name: "vectorjson"
-    title: "vectorjson"
-    description: "O(n) streaming JSON parser for LLM tool calls. Agents act sooner, abort bad outputs early. WASM SIMD, up to 2000× faster than stock AI SDK parsers."
-    language: "JavaScript"
-    topics:
-      - "ai-sdk"
-      - "json"
-      - "llm"
-      - "parser"
-      - "partial-json"
-      - "simd"
-      - "simdjson"
-      - "streaming"
-      - "wasm"
-      - "zig"
-    stars_fact: 18
-    first_seen: null
-    last_push: "2026-03-10"
-  - name: "wardex"
-    title: "wardex"
-    description: "Run any coding-agent CLI (claude, codex, aider, ...) behind two boundaries it can't ignore: a logging/enforcing egress proxy and a zero-install, kernel-enforced filesystem jail."
-    language: "Go"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-04"
-  - name: "gitmode"
-    title: "gitmode"
-    description: "Git server & client as npm package for Cloudflare Workers — Zig/WASM engine with SIMD128, libgit2, R2 chunk storage, Durable Objects (per-repo SQLite)"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-06-01"
+repos: []
 ---
 
 # teamchong

@@ -9,39 +9,39 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "1be978947e68d1f2"
   - "98a2deac3e2f9725"
   - "b949a65ff91f9791"
   - "e9879ff70aa53e1e"
-pushes_per_week: [1, 2, 7, 5, 8, 4, 6, 1, 7, 8, 8, 10, 6]
+pushes_per_week: [1, 4, 5, 6, 9, 3, 5, 1, 7, 11, 5, 16, 3]
 windows:
   "7d":
-    pushes: 11
-    distinct_repos: 5
+    pushes: 3
+    distinct_repos: 3
     active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 33
+    pushes: 35
     distinct_repos: 7
-    active_days: 15
+    active_days: 17
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 73
+    pushes: 76
     distinct_repos: 14
-    active_days: 39
+    active_days: 42
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.8718
-  repo_per_active_day: 0.3590
+  push_per_day: 1.8095
+  repo_per_active_day: 0.3333
   not_owned_ratio: 0.0000
   basename_concentration: 0.0714
   shapes: []
@@ -52,58 +52,34 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 11
-    distinct_repos: 5
-    pushes_per_repo: 2.2000
+    pushes: 3
+    distinct_repos: 3
+    pushes_per_repo: 1.0000
     active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 33
+    pushes: 35
     distinct_repos: 7
-    pushes_per_repo: 4.7143
-    active_days: 15
+    pushes_per_repo: 5.0000
+    active_days: 17
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 73
+    pushes: 76
     distinct_repos: 14
-    pushes_per_repo: 5.2143
-    active_days: 39
+    pushes_per_repo: 5.4286
+    active_days: 42
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 4 vault signal(s) — pass"
-  - "activity: 39 active days in 90d — pass"
+  - "activity: 42 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "fir-exts"
-    title: "fir-exts"
-    description: "fir extensions monorepo"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-01"
-  - name: "fir-dist"
-    title: "fir-dist"
-    description: "Public binary distribution for fir — https://github.com/kfet/fir"
-    language: "Shell"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-01"
-  - name: "fir"
-    title: "fir"
-    description: null
-    language: "Go"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-01"
   - name: "homebrew-ai"
     title: "homebrew-ai"
     description: "Homebrew tap for fir, poe-acp, slack-acp"
@@ -111,7 +87,15 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-30"
+    last_push: "2026-10-10"
+  - name: "fir"
+    title: "fir"
+    description: null
+    language: "Go"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-10"
   - name: "zulip-acp"
     title: "zulip-acp"
     description: "Zulip relay for ACP coding agents — bridges a self-hosted Zulip server to fir/Claude Code over stdio"
@@ -124,19 +108,35 @@ repos:
       - "zulip"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-30"
-  - name: "poe-acp"
-    title: "poe-acp"
-    description: "HTTP relay between Poe server bots and ACP-speaking agents"
+    last_push: "2026-10-10"
+  - name: "fir-dist"
+    title: "fir-dist"
+    description: "Public binary distribution for fir — https://github.com/kfet/fir"
+    language: "Shell"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-10"
+  - name: "acp-kit"
+    title: "acp-kit"
+    description: "Reusable Go packages for ACP-backed chat relays (client, skills, attachments, state, sysprompt, log, paths)."
     language: "Go"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-29"
+    last_push: "2026-10-09"
+  - name: "agent"
+    title: "agent"
+    description: "Small, model-agnostic coding-agent runtime in Go: LLM event loop with retries, steering, follow-ups, abort, thinking-budget clamping, and a standard coding toolbox."
+    language: "Go"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-08"
 ---
 
 # kfet
 
-73 pushes across 14 repositories on 39 active days in the last 90 days of public GitHub push activity.
+76 pushes across 14 repositories on 42 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/kfet

@@ -8,11 +8,11 @@ provenance_repos:
   - "AlexsJones/llmfit"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-07T15:16:07.319356+00:00"
+repos_populated: false
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [1, 5, 1, 1, 0, 1, 0, 0, 0, 0, 0, 2, 1]
+pushes_per_week: [5, 2, 1, 0, 1, 0, 0, 0, 0, 0, 0, 2, 1]
 windows:
   "7d":
     pushes: 1
@@ -76,87 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 8 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "xianxia-companion"
-    title: "xianxia-companion"
-    description: "凡人修仙 Telegram 游戏助手（基于 jiven303toto/xianxia-companion，MIT）"
-    language: "Python"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-03"
-  - name: "ai-code-usage-tray"
-    title: "ai-code-usage-tray"
-    description: "Windows tray monitor for Claude Code and Codex usage, limits, and sessions"
-    language: "JavaScript"
-    topics:
-      - "anthropic"
-      - "claude-code"
-      - "codex"
-      - "electron"
-      - "openai"
-      - "system-tray"
-      - "usage-monitor"
-      - "windows"
-    stars_fact: 4
-    first_seen: null
-    last_push: "2026-09-27"
-  - name: "saime428"
-    title: "saime428"
-    description: "Personal GitHub profile"
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-03"
-  - name: "fxlab"
-    title: "fxlab"
-    description: "Copy-paste web motion patterns with live demos. Zero-deps demos, AI-friendly INDEX + Claude skill."
-    language: "HTML"
-    topics:
-      - "agent-skills"
-      - "claude"
-      - "creative-coding"
-      - "css"
-      - "demo"
-      - "frontend"
-      - "javascript"
-      - "landing-page"
-      - "motion-design"
-      - "opensource"
-      - "pattern-library"
-      - "ui"
-      - "view-transitions"
-      - "web-animation"
-      - "webgl"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-07-28"
-  - name: "agent-archive"
-    title: "agent-archive"
-    description: "Local coding agent core: MCP runtime, multi-provider LLM, sandboxed tools. 988 tests."
-    language: "Python"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-16"
-  - name: "DreamLoop"
-    title: "DreamLoop"
-    description: "Local-first AI dream journal. Pattern discovery with Ollama. Your dreams never leave your machine."
-    language: "Python"
-    topics:
-      - "ai-analysis"
-      - "dream-journal"
-      - "fastapi"
-      - "local-first"
-      - "obsidian"
-      - "ollama"
-      - "privacy"
-      - "python"
-      - "self-hosted"
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-07-27"
+repos: []
 ---
 
 # saime428

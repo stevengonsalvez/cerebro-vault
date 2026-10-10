@@ -8,11 +8,11 @@ provenance_repos:
   - "aws/agent-toolkit-for-aws"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+repos_populated: false
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "a50b0e08dbaee74a"
-pushes_per_week: [16, 5, 2, 7, 23, 1, 1, 0, 0, 0, 0, 1, 0]
+pushes_per_week: [14, 1, 2, 17, 14, 0, 1, 0, 0, 0, 0, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 56
+    pushes: 50
     distinct_repos: 17
-    active_days: 21
+    active_days: 19
     repos_not_owned: 8
     not_owned_basenames: 7
     not_owned_owners: 4
 automation:
   state: "clear"
-  push_per_day: 2.6667
-  repo_per_active_day: 0.8095
+  push_per_day: 2.6316
+  repo_per_active_day: 0.8947
   not_owned_ratio: 0.4706
   basename_concentration: 0.1176
   shapes: []
@@ -65,70 +65,22 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 56
+    pushes: 50
     distinct_repos: 17
-    pushes_per_repo: 3.2941
-    active_days: 21
+    pushes_per_repo: 2.9412
+    active_days: 19
     repos_not_owned: 8
     not_owned_basenames: 7
     not_owned_owners: 4
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 21 active days in 90d — pass"
+  - "activity: 19 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "voice-ai-benchmarks"
-    title: "voice-ai-benchmarks"
-    description: "Compare STT and LLM providers for voice agents"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-01"
-  - name: "slides"
-    title: "slides"
-    description: "Slide decks"
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-29"
-  - name: "sample-agentic-gpu-capacity"
-    title: "sample-agentic-gpu-capacity"
-    description: "Read-only multi-agent GPU capacity planner on Amazon Bedrock AgentCore"
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-11"
-  - name: "pipecat-turn-detection-demo"
-    title: "pipecat-turn-detection-demo"
-    description: "Simple pipecat examples demonstrating barge-in and turn detection with Cartesia STT/TTS and Amazon Bedrock"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-06-25"
-  - name: "model-marketplace-matrix"
-    title: "model-marketplace-matrix"
-    description: "Managed vs open mental model: Bedrock, Fireworks, OpenRouter"
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-03"
-  - name: "0xtechno-toys"
-    title: "0xtechno-toys"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-29"
+repos: []
 ---
 
 # wirjo
 
-56 pushes across 17 repositories on 21 active days in the last 90 days of public GitHub push activity.
+50 pushes across 17 repositories on 19 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/wirjo

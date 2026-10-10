@@ -11,7 +11,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "01cd6a498d377caf"
   - "02eab667df448997"
@@ -53,6 +53,7 @@ provenance:
   - "860864df5583b9ff"
   - "8eafdf1e65e79a0b"
   - "8f9e2f8ba8bd1533"
+  - "92349bd4a8c11233"
   - "93601d11e4db33a8"
   - "a3ec5261dfb4f2cd"
   - "b56da077d21ad4f4"
@@ -67,11 +68,12 @@ provenance:
   - "d46568f6f6a488d8"
   - "d9b88297cf0d952f"
   - "e2ea6ef4c9fbfceb"
+  - "e75aaf1e12900808"
   - "f672838de330e86f"
   - "f9a1870648a6375a"
   - "fe9e50bf2d5b21fe"
   - "ff1ca072bf39e471"
-pushes_per_week: [0, 0, 0, 7, 1, 0, 0, 0, 0, 0, 1, 0, 0]
+pushes_per_week: [0, 0, 4, 3, 1, 0, 0, 0, 0, 0, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -132,20 +134,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
-  - "provenance: 58 vault signal(s) — pass"
+  - "provenance: 60 vault signal(s) — pass"
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "json-schema-to-typescript"
-    title: "json-schema-to-typescript"
-    description: "Compile JSON Schema to TypeScript type declarations"
-    language: "TypeScript"
-    topics:
-      - "json-schema"
-      - "typescript"
-    stars_fact: 3346
-    first_seen: null
-    last_push: "2026-09-07"
   - name: "frontend-interview-questions"
     title: "frontend-interview-questions"
     description: "Answers for https://borischerny.com/javascript/%22functional/programming%22/2017/06/09/Frontend-Interview-Questions.html"
@@ -155,7 +147,7 @@ repos:
       - "interview-practice"
       - "interview-questions"
       - "javascript"
-    stars_fact: 1141
+    stars_fact: 1142
     first_seen: null
     last_push: "2023-01-21"
   - name: "programming-typescript-answers"
@@ -164,25 +156,9 @@ repos:
     language: "TypeScript"
     topics:
       - "typescript"
-    stars_fact: 557
+    stars_fact: 559
     first_seen: null
     last_push: "2021-08-10"
-  - name: "fibonacci"
-    title: "fibonacci"
-    description: "A simple iterative fibonacci spiral generator that demonstrates geometric recursion"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2012-12-11"
-  - name: "bcherny.github.io"
-    title: "bcherny.github.io"
-    description: "My blog"
-    language: "SCSS"
-    topics: []
-    stars_fact: 18
-    first_seen: null
-    last_push: "2026-09-20"
   - name: "undux"
     title: "undux"
     description: "⚡️ Dead simple state for React. Now with Hooks support."
@@ -193,9 +169,35 @@ repos:
       - "redux"
       - "typesafe"
       - "typescript"
-    stars_fact: 1562
+    stars_fact: 1563
     first_seen: null
     last_push: "2025-05-08"
+  - name: "json-schema-to-typescript"
+    title: "json-schema-to-typescript"
+    description: "Compile JSON Schema to TypeScript type declarations"
+    language: "TypeScript"
+    topics:
+      - "json-schema"
+      - "typescript"
+    stars_fact: 3346
+    first_seen: null
+    last_push: "2026-09-07"
+  - name: "bcherny.github.io"
+    title: "bcherny.github.io"
+    description: "My blog"
+    language: "SCSS"
+    topics: []
+    stars_fact: 18
+    first_seen: null
+    last_push: "2026-09-20"
+  - name: "fibonacci"
+    title: "fibonacci"
+    description: "A simple iterative fibonacci spiral generator that demonstrates geometric recursion"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2012-12-11"
 ---
 
 # bcherny

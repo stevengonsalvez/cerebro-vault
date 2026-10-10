@@ -9,28 +9,28 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "379642deb53f3714"
-pushes_per_week: [2, 1, 1, 0, 2, 0, 2, 0, 0, 0, 2, 2, 2]
+pushes_per_week: [1, 1, 1, 1, 1, 0, 2, 0, 0, 0, 2, 2, 3]
 windows:
   "7d":
-    pushes: 2
-    distinct_repos: 2
-    active_days: 1
+    pushes: 3
+    distinct_repos: 3
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 6
-    distinct_repos: 5
-    active_days: 4
+    pushes: 7
+    distinct_repos: 6
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
     pushes: 14
-    distinct_repos: 11
+    distinct_repos: 12
     active_days: 12
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -38,9 +38,9 @@ windows:
 automation:
   state: "clear"
   push_per_day: 1.1667
-  repo_per_active_day: 0.9167
+  repo_per_active_day: 1.0000
   not_owned_ratio: 0.0000
-  basename_concentration: 0.0909
+  basename_concentration: 0.0833
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
-    distinct_repos: 2
+    pushes: 3
+    distinct_repos: 3
     pushes_per_repo: 1.0000
-    active_days: 1
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 6
-    distinct_repos: 5
-    pushes_per_repo: 1.2000
-    active_days: 4
+    pushes: 7
+    distinct_repos: 6
+    pushes_per_repo: 1.1667
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
     pushes: 14
-    distinct_repos: 11
-    pushes_per_repo: 1.2727
+    distinct_repos: 12
+    pushes_per_repo: 1.1667
     active_days: 12
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -87,7 +87,7 @@ repos:
       - "githubprofile"
     stars_fact: 1
     first_seen: null
-    last_push: "2026-10-02"
+    last_push: "2026-10-10"
   - name: "Awesome-Generative-AI-Prompts"
     title: "Awesome-Generative-AI-Prompts"
     description: "A curated, self-updating collection of effective prompts for various generative AI models and clients. This repository automatically updates daily to include the latest and most effective prompts from across the AI ecosystem."
@@ -95,7 +95,7 @@ repos:
     topics: []
     stars_fact: 3
     first_seen: null
-    last_push: "2026-10-02"
+    last_push: "2026-10-10"
   - name: "Awesome-Public-Free-Apis"
     title: "Awesome-Public-Free-Apis"
     description: "🌐 Awesome Public APIs: A self-updating collection of free APIs for developers. Automatically discovers and tracks popular APIs across 40+ categories. Features verified endpoints, comprehensive details (auth, CORS, HTTPS), and community contributions. Star to stay updated!"
@@ -107,40 +107,43 @@ repos:
       - "freeapi"
     stars_fact: 10
     first_seen: null
-    last_push: "2026-10-01"
-  - name: "RepoBridgeForge"
-    title: "RepoBridgeForge"
-    description: "Publish your WordPress content straight from a GitHub repository."
+    last_push: "2026-10-09"
+  - name: "Pixel-Forge"
+    title: "Pixel-Forge"
+    description: "Bulk-convert your media library to WebP and AVIF, with a live progress screen and one-click rollback. Smaller images, your originals untouched, and nothing you can't undo."
     language: "PHP"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-27"
-  - name: "Staticforge-For-Cloudflare-Pages"
-    title: "Staticforge-For-Cloudflare-Pages"
-    description: "Auto-export your WordPress site as static HTML and deploy to Cloudflare Pages on every publish/update."
+    last_push: "2026-10-06"
+  - name: "LoadGate-Forge"
+    title: "LoadGate-Forge"
+    description: "Pick plugins that should not load on certain front-end URLs. Matching runs before WordPress loads plugins, so it only sees the URL, not the page template. Admin, login, REST and cron requests are never affected, and nothing here is permanent."
     language: "PHP"
     topics: []
-    stars_fact: 1
+    stars_fact: 0
     first_seen: null
-    last_push: "2026-09-22"
-  - name: "OffloadForge-Cloud-Media-Offload"
-    title: "OffloadForge-Cloud-Media-Offload"
-    description: "☁️ OffloadForge — offload your WordPress media library to Amazon S3, DigitalOcean Spaces, or Google Cloud Storage and serve it over a CDN"
-    language: "PHP"
+    last_push: "2026-10-06"
+  - name: "BloodTypingGame"
+    title: "BloodTypingGame"
+    description: "An interactive educational web game about blood types, transfusions, and medical science"
+    language: "HTML"
     topics:
-      - "cloud"
-      - "images"
-      - "offload"
-      - "wordpress"
-      - "wordpress-plugin"
+      - "blood"
+      - "blood-type"
+      - "blood-type-calculator"
+      - "blood-types"
+      - "blood-typing"
+      - "blood-typing-game"
+      - "game"
+      - "web-game"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-08-24"
+    last_push: "2026-10-03"
 ---
 
 # gunjanjaswal
 
-14 pushes across 11 repositories on 12 active days in the last 90 days of public GitHub push activity.
+14 pushes across 12 repositories on 12 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/gunjanjaswal

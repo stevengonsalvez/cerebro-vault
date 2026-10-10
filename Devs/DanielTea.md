@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "c1af6b58492f9bf4"
-pushes_per_week: [0, 9, 41, 9, 12, 2, 0, 0, 1, 0, 0, 3, 8]
+pushes_per_week: [0, 12, 41, 8, 11, 1, 0, 0, 1, 0, 3, 0, 8]
 windows:
   "7d":
     pushes: 8
@@ -84,15 +84,20 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-26"
-  - name: "laya-vision-stitch"
-    title: "laya-vision-stitch"
-    description: "Local screenshot-and-goal game agent research on Apple Silicon: Laya + Open-P2P policy trained on public gameplay (D2E), Molmo slow planner with RADIO tracking"
+    last_push: "2026-10-06"
+  - name: "generalgamebench"
+    title: "generalgamebench"
+    description: "“Intelligence is the ability to adapt to new environments.” — We test this. Pixels-only game-agent evaluation and auditable leaderboards."
     language: "Python"
-    topics: []
+    topics:
+      - "ai-agents"
+      - "benchmark"
+      - "game-ai"
+      - "leaderboard"
+      - "vizdoom"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-25"
+    last_push: "2026-10-05"
   - name: "screenquest"
     title: "screenquest"
     description: "A local vision game agent for Apple Silicon. Screenshot perception, Laya/Core ML decisions, Qwen/MLX planning, camera control, loot clicks, and evidence-based review."
@@ -106,9 +111,17 @@ repos:
       - "local-ai"
       - "mlx"
       - "qwen"
-    stars_fact: 0
+    stars_fact: 1
     first_seen: null
     last_push: "2026-09-21"
+  - name: "laya-vision-stitch"
+    title: "laya-vision-stitch"
+    description: "Local screenshot-and-goal game agent research on Apple Silicon: Laya + Open-P2P policy trained on public gameplay (D2E), Molmo slow planner with RADIO tracking"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-25"
   - name: "aerospike-ce"
     title: "aerospike-ce"
     description: "Computational Engineering model: a JSON spec in, an aerospike plug-nozzle geometry out. Built on PicoGK and the LEAP 71 ShapeKernel."
@@ -125,14 +138,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-02-13"
-  - name: "DanielTea.github.io"
-    title: "DanielTea.github.io"
-    description: "Daniel Tremer's personal GitHub Pages site"
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-07-22"
 ---
 
 # DanielTea

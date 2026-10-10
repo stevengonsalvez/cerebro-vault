@@ -8,11 +8,11 @@ provenance_repos:
   - "addyosmani/agent-skills"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+repos_populated: false
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "dae9f02535f7c22f"
-pushes_per_week: [0, 0, 0, 3, 4, 5, 2, 1, 0, 0, 0, 6, 0]
+pushes_per_week: [0, 0, 0, 3, 5, 4, 3, 0, 0, 0, 5, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,88 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 10 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "relation-forge"
-    title: "relation-forge"
-    description: "A Codex skill for deconstructing interaction risks across scams, manipulation, abuse, and bullying—evidence-first, uncertainty-aware, and user-led."
-    language: "Python"
-    topics:
-      - "agent-skills"
-      - "ai-agents"
-      - "claude-code"
-      - "codex"
-      - "evidence-based"
-      - "online-safety"
-      - "relationship-analysis"
-      - "scam-prevention"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-28"
-  - name: "liyuk.github.io"
-    title: "liyuk.github.io"
-    description: "Personal site: writing, research, projects & photography. Bilingual, built with Astro."
-    language: "JavaScript"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-01"
-  - name: "canonloom"
-    title: "canonloom"
-    description: "A command-driven, author-controlled, auditable workflow for long-form fiction."
-    language: "Python"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-08-15"
-  - name: "engineering-decision-skills"
-    title: "engineering-decision-skills"
-    description: "Five independent Agent Skills for frontline engineering planning, technical review, metric decisions, retrospectives, and evidence-based reporting."
-    language: "Python"
-    topics:
-      - "agent-skills"
-      - "ai-agents"
-      - "codex"
-      - "decision-making"
-      - "engineering-management"
-      - "metrics"
-      - "retrospective"
-      - "technical-leadership"
-      - "technical-planning"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-28"
-  - name: "astro-fourfold"
-    title: "astro-fourfold"
-    description: "A static-first personal publication theme for Astro: writing, columns, tags, projects, research, photo essays, search, favorites, RSS, and GitHub Pages support."
-    language: "Astro"
-    topics:
-      - "astro"
-      - "astro-blog"
-      - "astro-starter"
-      - "astro-template"
-      - "astro-theme"
-      - "github-pages"
-      - "markdown"
-      - "personal-blog"
-      - "personal-website"
-      - "static-site-generator"
-    stars_fact: 7
-    first_seen: null
-    last_push: "2026-08-21"
-  - name: "dsh-skin-chatlab"
-    title: "dsh-skin-chatlab"
-    description: "Extensible chat-skin monorepo for the DeepSeek Harness Web GUI: a base registry + plug-in skin packages (Feishu-style chat bubbles), plug-and-play without touching chat logic."
-    language: "JavaScript"
-    topics:
-      - "ai-agents"
-      - "chat-skin"
-      - "deepseek-harness"
-      - "dsh-plugin"
-      - "feishu"
-      - "plugin"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-08-22"
+repos: []
 ---
 
 # Liyuk

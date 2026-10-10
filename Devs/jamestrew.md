@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "01cd6a498d377caf"
   - "03604cccd7e9402d"
@@ -50,6 +50,7 @@ provenance:
   - "860864df5583b9ff"
   - "8eafdf1e65e79a0b"
   - "8f9e2f8ba8bd1533"
+  - "92349bd4a8c11233"
   - "93601d11e4db33a8"
   - "a3ec5261dfb4f2cd"
   - "b56da077d21ad4f4"
@@ -64,37 +65,38 @@ provenance:
   - "d46568f6f6a488d8"
   - "d9b88297cf0d952f"
   - "e2ea6ef4c9fbfceb"
+  - "e75aaf1e12900808"
   - "f672838de330e86f"
   - "f9a1870648a6375a"
   - "fe9e50bf2d5b21fe"
   - "ff1ca072bf39e471"
-pushes_per_week: [10, 6, 6, 2, 1, 1, 7, 0, 0, 3, 1, 7, 2]
+pushes_per_week: [11, 6, 5, 2, 2, 1, 6, 0, 0, 3, 2, 6, 3]
 windows:
   "7d":
-    pushes: 2
+    pushes: 3
     distinct_repos: 1
-    active_days: 1
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 13
+    pushes: 14
     distinct_repos: 1
-    active_days: 8
+    active_days: 9
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 46
+    pushes: 47
     distinct_repos: 2
-    active_days: 28
+    active_days: 29
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.6429
-  repo_per_active_day: 0.0714
+  push_per_day: 1.6207
+  repo_per_active_day: 0.0690
   not_owned_ratio: 0.0000
   basename_concentration: 0.5000
   shapes: []
@@ -105,32 +107,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
+    pushes: 3
     distinct_repos: 1
-    pushes_per_repo: 2.0000
-    active_days: 1
+    pushes_per_repo: 3.0000
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 13
+    pushes: 14
     distinct_repos: 1
-    pushes_per_repo: 13.0000
-    active_days: 8
+    pushes_per_repo: 14.0000
+    active_days: 9
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 46
+    pushes: 47
     distinct_repos: 2
-    pushes_per_repo: 23.0000
-    active_days: 28
+    pushes_per_repo: 23.5000
+    active_days: 29
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
-  - "provenance: 57 vault signal(s) — pass"
-  - "activity: 28 active days in 90d — pass"
+  - "provenance: 59 vault signal(s) — pass"
+  - "activity: 29 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "pi-bites"
@@ -140,7 +142,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-01"
+    last_push: "2026-10-09"
   - name: "nixos-config"
     title: "nixos-config"
     description: "my nixos config"
@@ -188,6 +190,6 @@ repos:
 
 # jamestrew
 
-46 pushes across 2 repositories on 28 active days in the last 90 days of public GitHub push activity.
+47 pushes across 2 repositories on 29 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/jamestrew

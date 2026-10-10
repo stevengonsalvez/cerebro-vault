@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [1, 0, 2, 2, 0, 0, 0, 0, 1, 0, 1, 0, 4]
+pushes_per_week: [1, 0, 4, 0, 0, 0, 0, 0, 1, 0, 1, 0, 4]
 windows:
   "7d":
     pushes: 4
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 6
+    pushes: 5
     distinct_repos: 4
-    active_days: 4
+    active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 6
+    pushes: 5
     distinct_repos: 4
-    pushes_per_repo: 1.5000
-    active_days: 4
+    pushes_per_repo: 1.2500
+    active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -90,17 +90,9 @@ repos:
       - "lsp"
       - "server-side-rendering"
       - "templating-languages"
-    stars_fact: 10565
+    stars_fact: 10571
     first_seen: null
-    last_push: "2026-09-04"
-  - name: "cap"
-    title: "cap"
-    description: null
-    language: "Go"
-    topics: []
-    stars_fact: 4
-    first_seen: null
-    last_push: "2026-09-23"
+    last_push: "2026-10-09"
   - name: "dotfiles"
     title: "dotfiles"
     description: null
@@ -108,7 +100,7 @@ repos:
     topics: []
     stars_fact: 32
     first_seen: null
-    last_push: "2026-09-24"
+    last_push: "2026-10-05"
   - name: "kv"
     title: "kv"
     description: null
@@ -116,7 +108,23 @@ repos:
     topics: []
     stars_fact: 5
     first_seen: null
-    last_push: "2026-09-24"
+    last_push: "2026-10-05"
+  - name: "serve"
+    title: "serve"
+    description: "Serve directories over HTTP."
+    language: "Go"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-05"
+  - name: "cap"
+    title: "cap"
+    description: null
+    language: "Go"
+    topics: []
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-10-05"
   - name: "flakegap"
     title: "flakegap"
     description: "Take a Flake and package it for deployment across an airgap."
@@ -125,14 +133,6 @@ repos:
     stars_fact: 13
     first_seen: null
     last_push: "2026-08-18"
-  - name: "round"
-    title: "round"
-    description: "math.Round for Go"
-    language: "Go"
-    topics: []
-    stars_fact: 12
-    first_seen: null
-    last_push: "2017-07-17"
 ---
 
 # a-h

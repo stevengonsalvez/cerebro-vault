@@ -8,11 +8,11 @@ provenance_repos:
   - "alirezarezvani/claude-skills"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+repos_populated: false
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "3cb7ff1cdcf97c6b"
-pushes_per_week: [2, 11, 20, 2, 6, 10, 1, 0, 1, 0, 1, 1, 3]
+pushes_per_week: [2, 22, 10, 1, 16, 0, 1, 0, 1, 0, 2, 1, 2]
 windows:
   "7d":
     pushes: 3
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 6
-    distinct_repos: 6
-    active_days: 5
+    pushes: 5
+    distinct_repos: 5
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 6
-    distinct_repos: 6
+    pushes: 5
+    distinct_repos: 5
     pushes_per_repo: 1.0000
-    active_days: 5
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -76,117 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 21 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "gleif-mcp-server"
-    title: "gleif-mcp-server"
-    description: "MCP server for GLEIF LEI (Legal Entity Identifier) database access"
-    language: "Go"
-    topics:
-      - "anthropic"
-      - "claude"
-      - "gleif"
-      - "go"
-      - "golang"
-      - "legal-entity-identifier"
-      - "lei"
-      - "mcp"
-      - "mcp-server"
-      - "model-context-protocol"
-    stars_fact: 7
-    first_seen: null
-    last_push: "2026-09-14"
-  - name: "mediawiki-mcp-server"
-    title: "mediawiki-mcp-server"
-    description: "MCP server for MediaWiki wikis - search, read, and edit wiki content from AI assistants"
-    language: "Go"
-    topics:
-      - "anthropic"
-      - "claude"
-      - "go"
-      - "golang"
-      - "mcp"
-      - "mcp-server"
-      - "mediawiki"
-      - "model-context-protocol"
-      - "starred"
-      - "wiki"
-      - "wikipedia"
-    stars_fact: 19
-    first_seen: null
-    last_push: "2026-09-28"
-  - name: "SkillCheck-Free"
-    title: "SkillCheck-Free"
-    description: "Validate Claude Code skills against the agentskills specification (Free tier)"
-    language: null
-    topics:
-      - "agentskills"
-      - "ai-tools"
-      - "claude-code"
-      - "claude-skills"
-      - "linter"
-      - "mcp"
-      - "skill-validation"
-      - "skillsmp"
-    stars_fact: 40
-    first_seen: null
-    last_push: "2026-09-19"
-  - name: "tilbudstrolden-mcp"
-    title: "tilbudstrolden-mcp"
-    description: "MCP server for Nordic grocery deal hunting via the Tjek API (Denmark, Norway, Sweden, Finland)"
-    language: "TypeScript"
-    topics:
-      - "anthropic"
-      - "claude"
-      - "danish"
-      - "deals"
-      - "etilbudsavis"
-      - "finland"
-      - "grocery"
-      - "grocery-deals"
-      - "mcp"
-      - "mcp-server"
-      - "meal-planning"
-      - "model-context-protocol"
-      - "nordic"
-      - "norway"
-      - "price-comparison"
-      - "recipe-manager"
-      - "shopping-list"
-      - "sweden"
-      - "tilbud"
-      - "typescript"
-    stars_fact: 42
-    first_seen: null
-    last_push: "2026-09-28"
-  - name: "nordic-registry-mcp-server"
-    title: "nordic-registry-mcp-server"
-    description: "MCP server for Nordic company registries (Norway, Denmark, Finland, Sweden)"
-    language: "Go"
-    topics:
-      - "anthropic"
-      - "brreg"
-      - "claude"
-      - "company-registry"
-      - "denmark"
-      - "finland"
-      - "go"
-      - "golang"
-      - "mcp"
-      - "mcp-server"
-      - "model-context-protocol"
-      - "norway"
-      - "sweden"
-    stars_fact: 11
-    first_seen: null
-    last_push: "2026-09-14"
-  - name: "olgasafonova"
-    title: "olgasafonova"
-    description: "GitHub profile README"
-    language: null
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-09-26"
+repos: []
 ---
 
 # olgasafonova

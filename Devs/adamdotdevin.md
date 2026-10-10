@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [9, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0]
+pushes_per_week: [7, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 12
-    distinct_repos: 2
-    active_days: 7
-    repos_not_owned: 2
-    not_owned_basenames: 2
+    pushes: 9
+    distinct_repos: 1
+    active_days: 6
+    repos_not_owned: 1
+    not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.7143
-  repo_per_active_day: 0.2857
+  push_per_day: 1.5000
+  repo_per_active_day: 0.1667
   not_owned_ratio: 1.0000
-  basename_concentration: 0.5000
+  basename_concentration: 1.0000
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,18 +65,26 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 12
-    distinct_repos: 2
-    pushes_per_repo: 6.0000
-    active_days: 7
-    repos_not_owned: 2
-    not_owned_basenames: 2
+    pushes: 9
+    distinct_repos: 1
+    pushes_per_repo: 9.0000
+    active_days: 6
+    repos_not_owned: 1
+    not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 7 active days in 90d — pass"
+  - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "good-repo"
+    title: "good-repo"
+    description: "Preeeeetty, pretty good"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 1263
+    first_seen: null
+    last_push: "2023-02-06"
   - name: "dotfiles"
     title: "dotfiles"
     description: "My dotfiles, heyyyy"
@@ -88,14 +96,6 @@ repos:
     stars_fact: 50
     first_seen: null
     last_push: "2026-07-03"
-  - name: "good-repo"
-    title: "good-repo"
-    description: "Preeeeetty, pretty good"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 1264
-    first_seen: null
-    last_push: "2023-02-06"
   - name: "adamdotdev"
     title: "adamdotdev"
     description: "personal site at https://adam.dev"
@@ -132,6 +132,6 @@ repos:
 
 # adamdotdevin
 
-12 pushes across 2 repositories on 7 active days in the last 90 days of public GitHub push activity.
+9 pushes across 1 repository on 6 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/adamdotdevin

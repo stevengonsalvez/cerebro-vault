@@ -8,16 +8,16 @@ provenance_repos:
   - "browser-use/browser-use"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+repos_populated: false
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "c1af6b58492f9bf4"
-pushes_per_week: [5, 1, 3, 3, 1, 5, 5, 0, 0, 0, 0, 0, 4]
+pushes_per_week: [4, 0, 3, 3, 4, 4, 3, 0, 0, 0, 0, 3, 1]
 windows:
   "7d":
-    pushes: 4
-    distinct_repos: 2
-    active_days: 2
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 27
-    distinct_repos: 14
-    active_days: 18
-    repos_not_owned: 8
-    not_owned_basenames: 6
+    pushes: 25
+    distinct_repos: 13
+    active_days: 17
+    repos_not_owned: 7
+    not_owned_basenames: 5
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 1.5000
-  repo_per_active_day: 0.7778
-  not_owned_ratio: 0.5714
-  basename_concentration: 0.2143
+  push_per_day: 1.4706
+  repo_per_active_day: 0.7647
+  not_owned_ratio: 0.5385
+  basename_concentration: 0.2308
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 4
-    distinct_repos: 2
-    pushes_per_repo: 2.0000
-    active_days: 2
+    pushes: 1
+    distinct_repos: 1
+    pushes_per_repo: 1.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -65,95 +65,22 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 27
-    distinct_repos: 14
-    pushes_per_repo: 1.9286
-    active_days: 18
-    repos_not_owned: 8
-    not_owned_basenames: 6
+    pushes: 25
+    distinct_repos: 13
+    pushes_per_repo: 1.9231
+    active_days: 17
+    repos_not_owned: 7
+    not_owned_basenames: 5
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 18 active days in 90d — pass"
+  - "activity: 17 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "flarellm"
-    title: "flarellm"
-    description: "WASM-first LLM inference engine in pure Rust. WebGPU-accelerated, GGUF-native — run LLMs in the browser with zero server costs."
-    language: "Rust"
-    topics: []
-    stars_fact: 10
-    first_seen: null
-    last_push: "2026-10-03"
-  - name: "BrowserAI"
-    title: "BrowserAI"
-    description: "Run local LLMs like llama, deepseek-distill, kokoro and more inside your browser"
-    language: "TypeScript"
-    topics:
-      - "agents"
-      - "ai"
-      - "llama"
-      - "llm"
-      - "llm-inference"
-      - "local"
-      - "localllm"
-      - "tts"
-      - "webgpu"
-    stars_fact: 1451
-    first_seen: null
-    last_push: "2026-07-21"
-  - name: "wcs-analyzer"
-    title: "wcs-analyzer"
-    description: "AI-powered West Coast Swing dance video analyzer with WSDC-style scoring. Uses Gemini for native video+audio analysis."
-    language: "Python"
-    topics:
-      - "ai"
-      - "dance"
-      - "gemini"
-      - "video-analysis"
-      - "wcs"
-      - "west-coast-swing"
-      - "wsdc"
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-09-22"
-  - name: "stepback"
-    title: "stepback"
-    description: "iOS practice tool for learning dance from your own video library. Slow-mo without pitch-shift, loop hard sections, frame-step, and beat-locked step timing. SwiftUI + SwiftData, iOS 17+, zero dependencies."
-    language: "Swift"
-    topics:
-      - "avfoundation"
-      - "beat-detection"
-      - "dance"
-      - "ios"
-      - "practice-tool"
-      - "swiftdata"
-      - "swiftui"
-      - "video-playback"
-      - "west-coast-swing"
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-09-15"
-  - name: "find-pickleball-court-sf"
-    title: "find-pickleball-court-sf"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2025-06-08"
-  - name: "video-use"
-    title: "video-use"
-    description: "A library to convert your video recording to browser automation"
-    language: "Python"
-    topics: []
-    stars_fact: 19
-    first_seen: null
-    last_push: "2025-06-13"
+repos: []
 ---
 
 # sauravpanda
 
-27 pushes across 14 repositories on 18 active days in the last 90 days of public GitHub push activity.
+25 pushes across 13 repositories on 17 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/sauravpanda

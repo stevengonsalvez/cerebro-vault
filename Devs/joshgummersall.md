@@ -8,11 +8,11 @@ provenance_repos:
   - "agavra/tuicr"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+repos_populated: false
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [0, 4, 2, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0]
+pushes_per_week: [0, 5, 1, 0, 0, 0, 0, 0, 0, 1, 2, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,61 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 8 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "skillz"
-    title: "skillz"
-    description: "Generic sink for agent skills to share"
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-01"
-  - name: "homebrew-ankix"
-    title: "homebrew-ankix"
-    description: "Homebrew tap for ankix"
-    language: "Ruby"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-26"
-  - name: "ankix"
-    title: "ankix"
-    description: "Generate contextual Anki translations from Kindle vocab highlights, YouTube transcripts, and web articles, using a local Ollama model"
-    language: "Go"
-    topics:
-      - "anki"
-      - "anki-cards"
-      - "cli"
-      - "flashcards"
-      - "go"
-      - "kindle"
-      - "language-learning"
-      - "llm"
-      - "ollama"
-      - "spaced-repetition"
-      - "vocabulary"
-      - "youtube"
-    stars_fact: 4
-    first_seen: null
-    last_push: "2026-09-26"
-  - name: "homebrew-summond"
-    title: "homebrew-summond"
-    description: "Summond Homebrew Formula"
-    language: "Ruby"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-04"
-  - name: "summond"
-    title: "summond"
-    description: "Schedule macOS background jobs without writing plists — a friendly CLI for launchd LaunchAgents and LaunchDaemons"
-    language: "Go"
-    topics:
-      - "launchctl"
-      - "macos"
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-09-04"
+repos: []
 ---
 
 # joshgummersall

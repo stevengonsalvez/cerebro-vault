@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-06T06:06:47.636089+00:00"
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "1f49d0119cedbc84"
-pushes_per_week: [0, 0, 0, 5, 3, 2, 0, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [0, 0, 2, 3, 3, 2, 0, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -102,9 +102,9 @@ repos:
       - "interactive-courses"
       - "mcp"
       - "prompt-engineering"
-    stars_fact: 53
+    stars_fact: 54
     first_seen: null
-    last_push: "2026-10-01"
+    last_push: "2026-10-10"
   - name: "termcraft"
     title: "termcraft"
     description: null

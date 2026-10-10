@@ -8,8 +8,8 @@ provenance_repos:
   - "agent-substrate/substrate"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-07T15:16:07.319356+00:00"
+repos_populated: false
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "a5ffcd0a46dd44fd"
 pushes_per_week: [0, 0, 0, 1, 0, 0, 0, 0, 1, 2, 3, 0, 0]
@@ -76,60 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "clipway"
-    title: "clipway"
-    description: "Host - Guest clipboard for wlroots Wayland compositors"
-    language: "Nix"
-    topics: []
-    stars_fact: 6
-    first_seen: null
-    last_push: "2026-09-24"
-  - name: "otlpeek"
-    title: "otlpeek"
-    description: "otlpeek is an OpenTelemetry exporter that lets you peek into your otlp streams."
-    language: "Go"
-    topics:
-      - "logging"
-      - "metrics"
-      - "observability"
-      - "opentelemetry"
-      - "otel-collector"
-      - "tracing"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2025-07-28"
-  - name: "nix-bpf-env"
-    title: "nix-bpf-env"
-    description: "My adhoc dev environment for BPF development on NixOS"
-    language: "Nix"
-    topics: []
-    stars_fact: 6
-    first_seen: null
-    last_push: "2023-12-18"
-  - name: "ebpf_capability_exporter"
-    title: "ebpf_capability_exporter"
-    description: "Steps to build an eBPF based capability Prometheus exporter."
-    language: "C"
-    topics:
-      - "capability"
-      - "ebpf"
-      - "ebpf-co-re"
-      - "kernel"
-      - "prometheus-exporter"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2023-03-15"
-  - name: "krisztianfekete"
-    title: "krisztianfekete"
-    description: "Config files for my GitHub profile."
-    language: null
-    topics:
-      - "config"
-      - "github-config"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2022-04-25"
+repos: []
 ---
 
 # krisztianfekete

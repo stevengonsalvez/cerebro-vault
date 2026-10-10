@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "9d67ce648f6a8919"
 pushes_per_week: [1, 0, 0, 2, 0, 0, 1, 0, 0, 0, 0, 1, 0]
@@ -77,6 +77,14 @@ reasons:
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "checkinzzz_bot"
+    title: "checkinzzz_bot"
+    description: "aiogram template with echo-bot"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-08"
   - name: "caddy"
     title: "caddy"
     description: null
@@ -117,14 +125,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-09-27"
-  - name: "5k-discount-bot"
-    title: "5k-discount-bot"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-25"
 ---
 
 # duckinzzz

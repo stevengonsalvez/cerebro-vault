@@ -8,18 +8,18 @@ provenance_repos:
   - "abi/screenshot-to-code"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+repos_populated: false
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "ef17663e884139a8"
-pushes_per_week: [39, 29, 26, 17, 42, 8, 8, 2, 0, 5, 6, 11, 5]
+pushes_per_week: [45, 17, 29, 20, 38, 7, 5, 0, 2, 5, 7, 12, 1]
 windows:
   "7d":
-    pushes: 6
-    distinct_repos: 4
-    active_days: 4
-    repos_not_owned: 2
-    not_owned_basenames: 2
+    pushes: 3
+    distinct_repos: 3
+    active_days: 2
+    repos_not_owned: 1
+    not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
     pushes: 27
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 198
-    distinct_repos: 36
-    active_days: 62
+    pushes: 188
+    distinct_repos: 35
+    active_days: 60
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 3.1935
-  repo_per_active_day: 0.5806
-  not_owned_ratio: 0.1111
-  basename_concentration: 0.0278
+  push_per_day: 3.1333
+  repo_per_active_day: 0.5833
+  not_owned_ratio: 0.1143
+  basename_concentration: 0.0286
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,12 +49,12 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 6
-    distinct_repos: 4
-    pushes_per_repo: 1.5000
-    active_days: 4
-    repos_not_owned: 2
-    not_owned_basenames: 2
+    pushes: 3
+    distinct_repos: 3
+    pushes_per_repo: 1.0000
+    active_days: 2
+    repos_not_owned: 1
+    not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
     pushes: 27
@@ -65,108 +65,22 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 198
-    distinct_repos: 36
-    pushes_per_repo: 5.5000
-    active_days: 62
+    pushes: 188
+    distinct_repos: 35
+    pushes_per_repo: 5.3714
+    active_days: 60
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 62 active days in 90d — pass"
+  - "activity: 60 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "Surge"
-    title: "Surge"
-    description: "Rule Snippet & Rule Set for Surge / Mihomo (Clash.Meta) / Clash Premium (Dreamacro) / sing-box / Surfboard for Android / Stash"
-    language: "TypeScript"
-    topics:
-      - "clash"
-      - "clash-meta"
-      - "clash-premium"
-      - "clash-rules"
-      - "hacktoberfest"
-      - "mihomo"
-      - "mihomo-rules"
-      - "ruleset"
-      - "sing-box"
-      - "sing-box-ruleset"
-      - "stash"
-      - "surfboard"
-      - "surge"
-      - "surge-rules"
-    stars_fact: 4516
-    first_seen: null
-    last_push: "2026-10-02"
-  - name: "cloudflare-block-bad-bot-ruleset"
-    title: "cloudflare-block-bad-bot-ruleset"
-    description: ":vertical_traffic_light: Block malicious crawlers with Cloudflare Firewall Rules"
-    language: null
-    topics:
-      - "cloudflare"
-      - "cloudflare-firewall-rules"
-      - "crawler-detector"
-      - "firewall"
-      - "firewall-rules"
-      - "user-agent"
-    stars_fact: 221
-    first_seen: null
-    last_push: "2020-04-17"
-  - name: "zsh-proxy"
-    title: "zsh-proxy"
-    description: ":nut_and_bolt: An oh-my-zsh plugin to configure proxy"
-    language: "Shell"
-    topics:
-      - "oh-my-zsh"
-      - "oh-my-zsh-plugin"
-      - "proxy"
-      - "zsh"
-    stars_fact: 397
-    first_seen: null
-    last_push: "2025-11-19"
-  - name: "eslint-config-sukka"
-    title: "eslint-config-sukka"
-    description: "ESLint configuration of Sukka"
-    language: "TypeScript"
-    topics:
-      - "eslint"
-      - "eslint-config"
-      - "hacktoberfest"
-      - "sukkaw"
-    stars_fact: 28
-    first_seen: null
-    last_push: "2026-10-02"
-  - name: "eslint-plugin-sukka"
-    title: "eslint-plugin-sukka"
-    description: "SukkaW extended ESLint rules"
-    language: "TypeScript"
-    topics:
-      - "eslint-plugin"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-02"
-  - name: "location-guard-ng"
-    title: "location-guard-ng"
-    description: "A UserScript that hide/spoof your geographic location from websites."
-    language: "TypeScript"
-    topics:
-      - "adguard"
-      - "location-guard"
-      - "location-guard-ng"
-      - "privacy"
-      - "privacy-protection"
-      - "tampermonkey"
-      - "userscript"
-      - "violentmonkey"
-      - "violentmonkey-script"
-    stars_fact: 343
-    first_seen: null
-    last_push: "2026-08-26"
+repos: []
 ---
 
 # SukkaW
 
-198 pushes across 36 repositories on 62 active days in the last 90 days of public GitHub push activity.
+188 pushes across 35 repositories on 60 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/SukkaW

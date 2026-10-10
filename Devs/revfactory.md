@@ -8,11 +8,11 @@ provenance_repos:
   - "revfactory/harness"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+repos_populated: false
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "7def51b1549aee4a"
-pushes_per_week: [1, 1, 0, 7, 2, 0, 0, 0, 0, 0, 2, 0, 1]
+pushes_per_week: [2, 0, 2, 6, 1, 0, 0, 0, 0, 0, 2, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -76,59 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 14 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "harness-engineering-with-cc"
-    title: "harness-engineering-with-cc"
-    description: null
-    language: "HTML"
-    topics: []
-    stars_fact: 111
-    first_seen: null
-    last_push: "2026-05-26"
-  - name: "harness"
-    title: "harness"
-    description: "A meta-skill that designs domain-specific agent teams, defines specialized agents, and generates the skills they use."
-    language: null
-    topics:
-      - "claude-code"
-      - "claude-code-plugin"
-      - "harness"
-      - "harness-engineering"
-    stars_fact: 9110
-    first_seen: "2026-06-25T06:00:02.443471+00:00"
-    last_push: "2026-09-28"
-  - name: "revfactory"
-    title: "revfactory"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 32
-    first_seen: null
-    last_push: "2026-10-02"
-  - name: "iso-reel"
-    title: "iso-reel"
-    description: "건물 하나가 영상 하나인 아이소메트릭 모션그래픽 쇼릴 도시"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-02"
-  - name: "claude-code-harness"
-    title: "claude-code-harness"
-    description: null
-    language: "HTML"
-    topics: []
-    stars_fact: 120
-    first_seen: null
-    last_push: "2026-03-06"
-  - name: "bangtan-cat"
-    title: "bangtan-cat"
-    description: "방이(치즈태비)와 탄이(턱시도)의 1분 모션그래픽 쇼릴과 메이킹 필름 — Remotion"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-01"
+repos: []
 ---
 
 # revfactory

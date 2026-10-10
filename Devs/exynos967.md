@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [22, 6, 1, 0, 3, 4, 0, 0, 0, 0, 6, 1, 2]
+pushes_per_week: [27, 2, 0, 1, 6, 0, 0, 0, 0, 4, 2, 1, 2]
 windows:
   "7d":
     pushes: 2
@@ -77,6 +77,22 @@ reasons:
   - "activity: 15 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "SubMark"
+    title: "SubMark"
+    description: "SubMark — 开源的 Android 订阅管理应用 / Open-source Android subscription tracker"
+    language: "Kotlin"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-08"
+  - name: "x-bookmark-folders"
+    title: "x-bookmark-folders"
+    description: "X(Twitter) 第三方书签文件夹油猴脚本：无需 Premium，支持 WebDAV 跨浏览器同步"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-04"
   - name: "astrbot_zssm_explain"
     title: "astrbot_zssm_explain"
     description: null
@@ -115,22 +131,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-09-22"
-  - name: "astrbot_mcgetter_enhanced"
-    title: "astrbot_mcgetter_enhanced"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 4
-    first_seen: null
-    last_push: "2025-11-06"
-  - name: "astrbot_plugin_zhenxun_economy"
-    title: "astrbot_plugin_zhenxun_economy"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-18"
 ---
 
 # exynos967

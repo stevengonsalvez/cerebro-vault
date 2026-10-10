@@ -8,16 +8,16 @@ provenance_repos:
   - "apache/maka"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+repos_populated: false
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 8, 5]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 11, 2]
 windows:
   "7d":
-    pushes: 8
-    distinct_repos: 3
-    active_days: 5
+    pushes: 3
+    distinct_repos: 1
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 8
-    distinct_repos: 3
-    pushes_per_repo: 2.6667
-    active_days: 5
+    pushes: 3
+    distinct_repos: 1
+    pushes_per_repo: 3.0000
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -76,70 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 9 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "chrome-deepseek-enchance-plugin"
-    title: "chrome-deepseek-enchance-plugin"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-02"
-  - name: "context-port"
-    title: "context-port"
-    description: "A shared knowledge and context workspace for humans and AI agents, with native MCP and REST support."
-    language: "TypeScript"
-    topics:
-      - "agentic-ai"
-      - "ai-agents"
-      - "claude"
-      - "context-management"
-      - "human-in-the-loop"
-      - "llm"
-      - "mcp"
-      - "model-context-protocol"
-      - "nestjs"
-      - "react"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-01"
-  - name: "herdr-done-first"
-    title: "herdr-done-first"
-    description: null
-    language: "Python"
-    topics:
-      - "herdr-plugin"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-27"
-  - name: "figma-design-pilot"
-    title: "figma-design-pilot"
-    description: "An experimental agentic Figma plugin for chatting with and modifying your canvas."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-21"
-  - name: "claude-code-language-coach"
-    title: "claude-code-language-coach"
-    description: "Write Claude Code prompts in languages you're not fluent in — with grammar checks, translation, and back-translation to verify your intent"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 20
-    first_seen: null
-    last_push: "2026-05-27"
-  - name: "whisper.cpp-release"
-    title: "whisper.cpp-release"
-    description: "Prebuilt whisper.cpp binaries for Linux, Windows, and macOS — built and released via GitHub Actions"
-    language: "Python"
-    topics:
-      - "cross-platform"
-      - "speech-to-text"
-      - "whisper"
-      - "whisper-cpp"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-06-15"
+repos: []
 ---
 
 # jiang1997

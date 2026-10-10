@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [0, 0, 2, 26, 12, 4, 1, 0, 0, 0, 0, 1, 0]
+pushes_per_week: [0, 0, 3, 26, 11, 4, 1, 0, 0, 0, 0, 1, 0]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -77,6 +77,22 @@ reasons:
   - "activity: 14 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "dotfiles"
+    title: "dotfiles"
+    description: "Setup and dotfiles"
+    language: "Lua"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-08"
+  - name: "uc-steer"
+    title: "uc-steer"
+    description: "Makes SteerMouse settings work for a mouse used through macOS Universal Control"
+    language: "Swift"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-08"
   - name: "brainforge"
     title: "brainforge"
     description: null
@@ -84,7 +100,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-01"
+    last_push: "2026-10-06"
   - name: "ballast"
     title: "ballast"
     description: "Just another tiling window manager"
@@ -92,31 +108,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-30"
-  - name: "dotfiles"
-    title: "dotfiles"
-    description: "Setup and dotfiles"
-    language: "Shell"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-29"
-  - name: "foreman"
-    title: "foreman"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-09-08"
-  - name: "ollama-runpod"
-    title: "ollama-runpod"
-    description: null
-    language: "Shell"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-18"
+    last_push: "2026-10-09"
   - name: "comfyui-runpod"
     title: "comfyui-runpod"
     description: null
@@ -124,7 +116,15 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-08-18"
+    last_push: "2026-10-05"
+  - name: "comfyui-andypack"
+    title: "comfyui-andypack"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-07-07"
 ---
 
 # andyhite

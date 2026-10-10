@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-07T15:16:07.319356+00:00"
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "1f49d0119cedbc84"
 pushes_per_week: [0, 1, 0, 1, 2, 2, 0, 0, 0, 0, 0, 0, 0]
@@ -77,6 +77,42 @@ reasons:
   - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "sidenote-x"
+    title: "sidenote-x"
+    description: "Private, local notes for people you encounter on X."
+    language: "JavaScript"
+    topics:
+      - "browser-extension"
+      - "chromium-extension"
+      - "manifest-v3"
+      - "privacy"
+      - "productivity"
+      - "twitter"
+      - "x"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-08-05"
+  - name: "agent-fixbot"
+    title: "agent-fixbot"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-07-07"
+  - name: "linkedin-tldr"
+    title: "linkedin-tldr"
+    description: "Chrome extension that blurs long LinkedIn posts and stamps a one-sentence AI summary on top."
+    language: "JavaScript"
+    topics:
+      - "chrome-extension"
+      - "linkedin"
+      - "summarization"
+      - "tldr"
+      - "vercel-ai-gateway"
+    stars_fact: 5
+    first_seen: null
+    last_push: "2026-10-01"
   - name: "postmaker-x"
     title: "postmaker-x"
     description: "Optimize your X (Twitter) posts using the official open-source algorithm. Analyze engagement signals, get AI-powered suggestions, and maximize your reach."
@@ -125,46 +161,6 @@ repos:
     stars_fact: 404
     first_seen: null
     last_push: "2026-06-06"
-  - name: "iStats"
-    title: "iStats"
-    description: null
-    language: "Swift"
-    topics: []
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-09-24"
-  - name: "tr-esign"
-    title: "tr-esign"
-    description: "Türkiye için XAdES + CAdES + PAdES + ASiC elektronik imza kütüphanesi — clean-room; ETSI EN 319 132 / TS 101 733 / EN 319 162 / EN 319 142 uyumlu (Node 20+, TypeScript)"
-    language: "TypeScript"
-    topics:
-      - "asic"
-      - "cades"
-      - "e-fatura"
-      - "e-imza"
-      - "etsi"
-      - "kamusm"
-      - "ma3"
-      - "ocsp"
-      - "pades"
-      - "pdf-signature"
-      - "rfc3161"
-      - "tsp"
-      - "tubitak"
-      - "typescript"
-      - "ubl-tr"
-      - "xades"
-    stars_fact: 12
-    first_seen: null
-    last_push: "2026-05-15"
-  - name: "ralph-wiggum-windows"
-    title: "ralph-wiggum-windows"
-    description: null
-    language: "PowerShell"
-    topics: []
-    stars_fact: 14
-    first_seen: null
-    last_push: "2026-01-07"
 ---
 
 # byigitt

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "73468cde177ddae6"
-pushes_per_week: [2, 1, 3, 0, 0, 0, 0, 0, 0, 1, 2, 1, 0]
+pushes_per_week: [2, 3, 1, 0, 0, 0, 0, 0, 0, 2, 2, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,25 +77,16 @@ reasons:
   - "activity: 9 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "LLM-Finetuning"
-    title: "LLM-Finetuning"
-    description: "LLM Finetuning with peft"
-    language: "Jupyter Notebook"
+  - name: "500-AI-Agents-Projects"
+    title: "500-AI-Agents-Projects"
+    description: "The 500 AI Agents Projects is a curated collection of AI agent use cases across various industries. It showcases practical applications and provides links to open-source projects for implementation, illustrating how AI agents are transforming sectors such as healthcare, finance, education, retail, and more."
+    language: "Python"
     topics:
-      - "falcon"
-      - "fine-tuning"
-      - "huggingface"
-      - "llama"
-      - "llama2"
-      - "llm"
-      - "llms"
-      - "lora"
-      - "peft"
-      - "pytorch"
-      - "text-generation"
-    stars_fact: 2985
+      - "ai-agents"
+      - "genai"
+    stars_fact: 38421
     first_seen: null
-    last_push: "2025-08-01"
+    last_push: "2026-07-27"
   - name: "500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code"
     title: "500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code"
     description: "500 AI Machine learning Deep learning Computer vision NLP Projects with code"
@@ -114,19 +105,61 @@ repos:
       - "nlp"
       - "nlp-projects"
       - "python"
-    stars_fact: 37055
+    stars_fact: 37179
     first_seen: null
     last_push: "2026-09-26"
-  - name: "500-AI-Agents-Projects"
-    title: "500-AI-Agents-Projects"
-    description: "The 500 AI Agents Projects is a curated collection of AI agent use cases across various industries. It showcases practical applications and provides links to open-source projects for implementation, illustrating how AI agents are transforming sectors such as healthcare, finance, education, retail, and more."
-    language: "Python"
+  - name: "Real-time-ML-Project"
+    title: "Real-time-ML-Project"
+    description: "A curated list of applied machine learning and data science notebooks and libraries across different industries."
+    language: null
     topics:
-      - "ai-agents"
-      - "genai"
-    stars_fact: 38212
+      - "application"
+      - "deep-learning"
+      - "deeplearning"
+      - "dl"
+      - "keras"
+      - "machine-learning"
+      - "machine-learning-algorithms"
+      - "machinelearning"
+      - "ml"
+      - "ml-application"
+      - "project"
+      - "pytorch"
+      - "real-time"
+      - "real-time-data"
+      - "rl"
+      - "tensorflow"
+      - "theano"
+    stars_fact: 774
     first_seen: null
-    last_push: "2026-07-27"
+    last_push: "2023-12-12"
+  - name: "Treasure-of-Transformers"
+    title: "Treasure-of-Transformers"
+    description: "💁 Awesome Treasure of Transformers Models for Natural Language processing contains papers, videos, blogs, official repo along with colab Notebooks. 🛫☑️"
+    language: "Jupyter Notebook"
+    topics:
+      - "awesome"
+      - "bert"
+      - "jax"
+      - "language-model"
+      - "language-models"
+      - "model-hub"
+      - "natural-language-generation"
+      - "natural-language-processing"
+      - "natural-language-understanding"
+      - "nlp"
+      - "nlp-library"
+      - "pretrained-models"
+      - "python"
+      - "pytorch"
+      - "pytorch-transformers"
+      - "seq2seq"
+      - "speech-recognition"
+      - "tensorflow"
+      - "transformer"
+    stars_fact: 1183
+    first_seen: null
+    last_push: "2025-08-01"
   - name: "Andrew-NG-Notes"
     title: "Andrew-NG-Notes"
     description: "This is Andrew NG Coursera Handwritten Notes."
@@ -151,54 +184,21 @@ repos:
       - "python"
       - "pytorch"
       - "reinforcement-learning"
-    stars_fact: 3827
+    stars_fact: 3833
     first_seen: null
     last_push: "2025-08-01"
-  - name: "Tools-to-Design-or-Visualize-Architecture-of-Neural-Network"
-    title: "Tools-to-Design-or-Visualize-Architecture-of-Neural-Network"
-    description: "Tools to Design or Visualize Architecture of Neural Network"
+  - name: "DataCo-SMART-SUPPLY-CHAIN-FOR-BIG-DATA-ANALYSIS"
+    title: "DataCo-SMART-SUPPLY-CHAIN-FOR-BIG-DATA-ANALYSIS"
+    description: "DataCo SMART SUPPLY CHAIN FOR BIG DATA ANALYSIS"
     language: null
     topics:
-      - "alexnet"
-      - "cnn"
-      - "deeplearning"
-      - "keras"
-      - "machinelearning"
-      - "resnet"
-      - "resnet-50"
-      - "semantic-segmentation"
-      - "tensorflow"
-      - "tensorflow2"
-      - "tools"
-      - "visu"
-      - "visualization-neural-network"
-      - "visualize"
-      - "visualize-data"
-      - "visualize-networks"
-    stars_fact: 5404
-    first_seen: null
-    last_push: "2025-08-01"
-  - name: "Amazing-Feature-Engineering"
-    title: "Amazing-Feature-Engineering"
-    description: "Feature engineering is the process of using domain knowledge to extract features from raw data via data mining techniques. These features can be used to improve the performance of machine learning algorithms. Feature engineering can be considered as applied machine learning itself."
-    language: "Jupyter Notebook"
-    topics:
-      - "data-analysis"
-      - "data-mining"
       - "data-science"
-      - "data-scientists"
-      - "data-visualization"
-      - "deep-learning"
-      - "feature-engineering"
-      - "feature-extraction"
-      - "feature-scaling"
-      - "feature-selection"
-      - "features"
-      - "machine-learning"
-      - "scikit-learn"
-    stars_fact: 809
+      - "dataset"
+      - "sales-forecasting"
+      - "time-series"
+    stars_fact: 7
     first_seen: null
-    last_push: "2025-06-29"
+    last_push: "2021-11-17"
 ---
 
 # ashishpatel26

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [3, 3, 2, 0, 2, 1, 0, 0, 0, 0, 0, 0, 2]
+pushes_per_week: [3, 4, 1, 0, 3, 0, 0, 0, 0, 0, 0, 1, 1]
 windows:
   "7d":
     pushes: 2
@@ -77,14 +77,6 @@ reasons:
   - "activity: 12 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "astrbot_plugin_skill_guide"
-    title: "astrbot_plugin_skill_guide"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-24"
   - name: "astrbot_plugin_spcode_toolkit"
     title: "astrbot_plugin_spcode_toolkit"
     description: null
@@ -92,7 +84,23 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-17"
+    last_push: "2026-10-08"
+  - name: "astrbot_plugin_tc_memory"
+    title: "astrbot_plugin_tc_memory"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-08"
+  - name: "astrbot_plugin_skill_guide"
+    title: "astrbot_plugin_skill_guide"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-03"
   - name: "astrbot_plugin_compact"
     title: "astrbot_plugin_compact"
     description: null
@@ -117,14 +125,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-08-15"
-  - name: "astrbot_plugin_lightrag"
-    title: "astrbot_plugin_lightrag"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-07-26"
 ---
 
 # elecvoid243

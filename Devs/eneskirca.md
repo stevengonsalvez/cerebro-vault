@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "c7d59e96ede9112e"
-pushes_per_week: [10, 30, 12, 2, 19, 8, 7, 2, 0, 0, 14, 21, 5]
+pushes_per_week: [20, 27, 6, 1, 25, 2, 9, 0, 0, 2, 14, 23, 2]
 windows:
   "7d":
-    pushes: 11
-    distinct_repos: 2
-    active_days: 3
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 2
+    distinct_repos: 1
+    active_days: 2
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
-    pushes: 40
+    pushes: 41
     distinct_repos: 4
-    active_days: 13
+    active_days: 14
     repos_not_owned: 3
     not_owned_basenames: 2
     not_owned_owners: 3
   "90d":
-    pushes: 130
+    pushes: 131
     distinct_repos: 6
-    active_days: 41
+    active_days: 42
     repos_not_owned: 5
     not_owned_basenames: 2
     not_owned_owners: 5
 automation:
   state: "clear"
-  push_per_day: 3.1707
-  repo_per_active_day: 0.1463
+  push_per_day: 3.1190
+  repo_per_active_day: 0.1429
   not_owned_ratio: 0.8333
   basename_concentration: 0.8333
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 11
-    distinct_repos: 2
-    pushes_per_repo: 5.5000
-    active_days: 3
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 2
+    distinct_repos: 1
+    pushes_per_repo: 2.0000
+    active_days: 2
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
-    pushes: 40
+    pushes: 41
     distinct_repos: 4
-    pushes_per_repo: 10.0000
-    active_days: 13
+    pushes_per_repo: 10.2500
+    active_days: 14
     repos_not_owned: 3
     not_owned_basenames: 2
     not_owned_owners: 3
   "90d":
-    pushes: 130
+    pushes: 131
     distinct_repos: 6
-    pushes_per_repo: 21.6667
-    active_days: 41
+    pushes_per_repo: 21.8333
+    active_days: 42
     repos_not_owned: 5
     not_owned_basenames: 2
     not_owned_owners: 5
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 41 active days in 90d — pass"
+  - "activity: 42 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "nodeterm"
@@ -102,9 +102,9 @@ repos:
       - "terminal-multiplexer"
       - "tmux"
       - "workspace-manager"
-    stars_fact: 1920
+    stars_fact: 2016
     first_seen: "2026-08-23T06:00:02.975209+00:00"
-    last_push: "2026-10-01"
+    last_push: "2026-10-09"
   - name: "raw-motion-skill"
     title: "raw-motion-skill"
     description: "Claude skill: make motion-graphics videos with a plain JS seek(t) function. Libraries constrain the model — a simple script works much better."
@@ -151,6 +151,6 @@ repos:
 
 # eneskirca
 
-130 pushes across 6 repositories on 41 active days in the last 90 days of public GitHub push activity.
+131 pushes across 6 repositories on 42 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/eneskirca

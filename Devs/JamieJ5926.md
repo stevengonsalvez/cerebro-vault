@@ -8,8 +8,8 @@ provenance_repos:
   - "can1357/oh-my-pi"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+repos_populated: false
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "de6bf05613f3ae04"
 pushes_per_week: [0, 0, 0, 1, 0, 0, 7, 0, 1, 0, 4, 0, 0]
@@ -76,55 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "rtx-3080-20gb"
-    title: "rtx-3080-20gb"
-    description: "RTX 3080 20GB verification on Omarchy: VRAM walk, burns, LLM timings"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-30"
-  - name: "flash-next-m4-pro"
-    title: "flash-next-m4-pro"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-30"
-  - name: "mr-crabs"
-    title: "mr-crabs"
-    description: "Mr Crabs: a native macOS terminal emulator written in Rust"
-    language: "Rust"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-30"
-  - name: "qwen3.8-27b-uncensored-dflash2-m4-pro"
-    title: "qwen3.8-27b-uncensored-dflash2-m4-pro"
-    description: "Reproducible MLX+DFlash2 benchmark for uncensored Qwen3.8-27B on a 48GB M4 Pro"
-    language: "Shell"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-30"
-  - name: "EveryPlayer-Releases"
-    title: "EveryPlayer-Releases"
-    description: "Signed EveryPlayer release binaries and update metadata"
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-13"
-  - name: "Tauri-Boilerplates"
-    title: "Tauri-Boilerplates"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-07-29"
+repos: []
 ---
 
 # JamieJ5926

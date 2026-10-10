@@ -8,11 +8,11 @@ provenance_repos:
   - "AlexsJones/llmfit"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+repos_populated: false
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [2, 3, 1, 3, 13, 17, 1, 1, 0, 0, 0, 0, 1]
+pushes_per_week: [2, 3, 3, 0, 21, 9, 1, 1, 0, 0, 0, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 42
+    pushes: 41
     distinct_repos: 13
-    active_days: 21
+    active_days: 20
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.0000
-  repo_per_active_day: 0.6190
+  push_per_day: 2.0500
+  repo_per_active_day: 0.6500
   not_owned_ratio: 0.0000
   basename_concentration: 0.0769
   shapes: []
@@ -65,70 +65,22 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 42
+    pushes: 41
     distinct_repos: 13
-    pushes_per_repo: 3.2308
-    active_days: 21
+    pushes_per_repo: 3.1538
+    active_days: 20
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 21 active days in 90d — pass"
+  - "activity: 20 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "blog-assets"
-    title: "blog-assets"
-    description: "Static assets for Ingeniero Mitre's blogs (images, figures)"
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-24"
-  - name: "nextech_today_v1"
-    title: "nextech_today_v1"
-    description: null
-    language: "Swift"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-15"
-  - name: "mcp-client-metadata"
-    title: "mcp-client-metadata"
-    description: "OAuth Client ID Metadata Documents for local MCP bridges"
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-15"
-  - name: "choclift"
-    title: "choclift"
-    description: "ChocLift — turn your iPhone into a control deck: open apps, run Shortcuts, fire webhooks, and launch your Mac over Wi-Fi."
-    language: "Swift"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-15"
-  - name: "app-support-pages"
-    title: "app-support-pages"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-15"
-  - name: "codex-resilient-harness"
-    title: "codex-resilient-harness"
-    description: "A portable, evidence-driven harness for ChatGPT planning and Codex execution, with resilient recovery and privacy-aware workflows."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-13"
+repos: []
 ---
 
 # mitre88
 
-42 pushes across 13 repositories on 21 active days in the last 90 days of public GitHub push activity.
+41 pushes across 13 repositories on 20 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/mitre88

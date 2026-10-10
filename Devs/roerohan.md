@@ -8,11 +8,11 @@ provenance_repos:
   - "anomalyco/opencode"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+repos_populated: false
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [3, 2, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0]
+pushes_per_week: [4, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,60 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "skills"
-    title: "skills"
-    description: null
-    language: "Shell"
-    topics: []
-    stars_fact: 29
-    first_seen: null
-    last_push: "2026-09-04"
-  - name: "automations"
-    title: "automations"
-    description: "Self-hosted Cloudflare automations in independently deployable pnpm workspaces"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-09-27"
-  - name: "react-vnc"
-    title: "react-vnc"
-    description: "A React Component to connect to a websockified VNC server using noVNC."
-    language: "TypeScript"
-    topics:
-      - "hacktoberfest"
-      - "javascript"
-      - "npm-package"
-      - "react"
-      - "typescript"
-    stars_fact: 165
-    first_seen: null
-    last_push: "2025-12-09"
-  - name: ".dotfiles"
-    title: ".dotfiles"
-    description: "Configuration files for my Linux system."
-    language: "Shell"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-08-28"
-  - name: "orng.nvim"
-    title: "orng.nvim"
-    description: "A vibrant, orange-first Neovim colorscheme."
-    language: "Lua"
-    topics: []
-    stars_fact: 4
-    first_seen: null
-    last_push: "2025-12-15"
-  - name: "yet-another-portfolio"
-    title: "yet-another-portfolio"
-    description: "Yet another portfolio website."
-    language: "Astro"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-06"
+repos: []
 ---
 
 # roerohan

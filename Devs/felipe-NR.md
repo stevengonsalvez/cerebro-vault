@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "4138778ebbc75ba6"
-pushes_per_week: [0, 0, 0, 0, 6, 1, 0, 0, 0, 3, 3, 1, 2]
+pushes_per_week: [0, 0, 0, 0, 6, 1, 0, 0, 0, 6, 0, 1, 2]
 windows:
   "7d":
     pushes: 2
@@ -77,6 +77,14 @@ reasons:
   - "activity: 9 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "judoka-assistant"
+    title: "judoka-assistant"
+    description: "Assistente em pt-BR para técnicas, história e regras do judô (Claude + corpus curado)"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-07"
   - name: "felipe-NR"
     title: "felipe-NR"
     description: "Profile README"
@@ -84,7 +92,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-28"
+    last_push: "2026-10-07"
   - name: "english-tutor-claudinho"
     title: "english-tutor-claudinho"
     description: "Adds an English-tutor capability to your coding agent, without removing its coding abilities — a vendor-neutral Agent Plugins package tuned for Brazilian Portuguese speakers."

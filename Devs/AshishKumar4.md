@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [40, 12, 27, 5, 34, 11, 6, 1, 2, 5, 27, 39, 165]
+pushes_per_week: [41, 33, 1, 10, 29, 12, 5, 1, 4, 5, 29, 96, 132]
 windows:
   "7d":
-    pushes: 171
+    pushes: 140
     distinct_repos: 5
     active_days: 6
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
-    pushes: 236
-    distinct_repos: 10
-    active_days: 20
+    pushes: 264
+    distinct_repos: 11
+    active_days: 22
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 374
-    distinct_repos: 15
+    pushes: 398
+    distinct_repos: 16
     active_days: 51
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 7.3333
-  repo_per_active_day: 0.2941
-  not_owned_ratio: 0.0667
-  basename_concentration: 0.0667
+  push_per_day: 7.8039
+  repo_per_active_day: 0.3137
+  not_owned_ratio: 0.0625
+  basename_concentration: 0.0625
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 171
+    pushes: 140
     distinct_repos: 5
-    pushes_per_repo: 34.2000
+    pushes_per_repo: 28.0000
     active_days: 6
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
-    pushes: 236
-    distinct_repos: 10
-    pushes_per_repo: 23.6000
-    active_days: 20
+    pushes: 264
+    distinct_repos: 11
+    pushes_per_repo: 24.0000
+    active_days: 22
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 374
-    distinct_repos: 15
-    pushes_per_repo: 24.9333
+    pushes: 398
+    distinct_repos: 16
+    pushes_per_repo: 24.8750
     active_days: 51
     repos_not_owned: 1
     not_owned_basenames: 1
@@ -77,6 +77,24 @@ reasons:
   - "activity: 51 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "dew"
+    title: "dew"
+    description: "A nice ML framework based on Jax/Flax. Based on https://github.com/AshishKumar4/FlaxDiff"
+    language: "Python"
+    topics:
+      - "diffusion-models"
+      - "distributed-training"
+      - "flax"
+      - "flax-linen"
+      - "fsdp"
+      - "jax"
+      - "jepa"
+      - "llm-training"
+      - "llm-training-from-scratch"
+      - "ml-library"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-10"
   - name: "Nimbus"
     title: "Nimbus"
     description: "Free unlimited POSIX sandboxes on Cloudflare"
@@ -102,41 +120,27 @@ repos:
       - "webassembly"
     stars_fact: 16
     first_seen: null
-    last_push: "2026-10-01"
-  - name: "random-stuff"
-    title: "random-stuff"
-    description: null
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-29"
-  - name: "personal-website"
-    title: "personal-website"
-    description: "My personal website https://ashishkumarsingh.com built by vibesdk"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-29"
-  - name: "dew"
-    title: "dew"
-    description: "A nice ML framework based on Jax/Flax. Based on https://github.com/AshishKumar4/FlaxDiff"
+    last_push: "2026-10-10"
+  - name: "sparx"
+    title: "sparx"
+    description: "Spiky Neural Networks in Jax"
     language: "Python"
     topics:
-      - "diffusion-models"
-      - "distributed-training"
+      - "connectome"
       - "flax"
       - "flax-linen"
-      - "fsdp"
+      - "flybrain"
       - "jax"
-      - "jepa"
-      - "llm-training"
-      - "llm-training-from-scratch"
-      - "ml-library"
+      - "leaky-integrate-and-fire"
+      - "male-cns"
+      - "neural-network"
+      - "spiking-cortical-model"
+      - "spiking-networks"
+      - "spiking-neural-networks"
+      - "spiking-neurons"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-01"
+    last_push: "2026-10-10"
   - name: "kinu"
     title: "kinu"
     description: "Self evolving, Persistent agents for cloud and local workspaces with their own free computers powered by Cloudflare"
@@ -164,35 +168,28 @@ repos:
       - "swarm"
     stars_fact: 1
     first_seen: null
-    last_push: "2026-10-01"
-  - name: "better-compact"
-    title: "better-compact"
-    description: "Staged context pruning for OpenCode, Oh My Pi, pi, and Claude Code."
+    last_push: "2026-10-10"
+  - name: "armada"
+    title: "armada"
+    description: "Fast, mappable compute on Cloudflare Containers"
     language: "TypeScript"
     topics:
-      - "ai"
-      - "ai-agents"
-      - "claude-code"
-      - "claude-code-plugin"
-      - "coding-agent"
-      - "compact"
-      - "compaction"
-      - "context-compression"
-      - "context-engineering"
-      - "context-management"
-      - "context-pruning"
-      - "muilt-agents"
-      - "opencode"
-      - "opencode-plugin"
-      - "pi"
-      - "plugin"
-    stars_fact: 15
+      - "containers"
+    stars_fact: 9
     first_seen: null
-    last_push: "2026-09-24"
+    last_push: "2026-10-09"
+  - name: "personal-website"
+    title: "personal-website"
+    description: "My personal website https://ashishkumarsingh.com built by vibesdk"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-09"
 ---
 
 # AshishKumar4
 
-374 pushes across 15 repositories on 51 active days in the last 90 days of public GitHub push activity.
+398 pushes across 16 repositories on 51 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/AshishKumar4

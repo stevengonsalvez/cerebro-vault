@@ -8,11 +8,11 @@ provenance_repos:
   - "anthropics/claude-code-action"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+repos_populated: false
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "0b22ca37fd3884c9"
-pushes_per_week: [19, 22, 4, 10, 0, 0, 1, 0, 0, 4, 8, 1, 2]
+pushes_per_week: [28, 13, 3, 9, 0, 0, 1, 0, 0, 6, 6, 1, 2]
 windows:
   "7d":
     pushes: 2
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 71
+    pushes: 69
     distinct_repos: 6
-    active_days: 26
+    active_days: 25
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.7308
-  repo_per_active_day: 0.2308
+  push_per_day: 2.7600
+  repo_per_active_day: 0.2400
   not_owned_ratio: 0.1667
   basename_concentration: 0.1667
   shapes: []
@@ -65,78 +65,22 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 71
+    pushes: 69
     distinct_repos: 6
-    pushes_per_repo: 11.8333
-    active_days: 26
+    pushes_per_repo: 11.5000
+    active_days: 25
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 26 active days in 90d — pass"
+  - "activity: 25 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "promptster-teams-cli"
-    title: "promptster-teams-cli"
-    description: "On-device, auditable AI-coding capture for internal engineering teams"
-    language: "Go"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-04"
-  - name: "cc-audit"
-    title: "cc-audit"
-    description: "Local-first CLI that audits Claude Code transcripts for spend by model, avoidable context-carry waste, always-on config cost, and AI-fluency signals. Runs fully offline by default; opt-in tiers gate any egress."
-    language: "TypeScript"
-    topics:
-      - "ai-fluency"
-      - "anthropic"
-      - "claude-code"
-      - "cli"
-      - "cost-analysis"
-      - "developer-tools"
-      - "local-first"
-      - "observability"
-    stars_fact: 9
-    first_seen: null
-    last_push: "2026-09-29"
-  - name: "promptster-vscode"
-    title: "promptster-vscode"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-24"
-  - name: "promptster-cli"
-    title: "promptster-cli"
-    description: "Promptster CLI — candidate environment setup, repo cloning, and AI coding session capture (Claude Code, Cursor, Codex)"
-    language: "Go"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-24"
-  - name: "fine-tuned-computer-use-jev-like-model"
-    title: "fine-tuned-computer-use-jev-like-model"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-19"
-  - name: "threadline-stylist"
-    title: "threadline-stylist"
-    description: "Threadline AI Stylist — candidate take-home: photo→outfit recommender"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-25"
+repos: []
 ---
 
 # pa-arth
 
-71 pushes across 6 repositories on 26 active days in the last 90 days of public GitHub push activity.
+69 pushes across 6 repositories on 25 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/pa-arth

@@ -8,16 +8,16 @@ provenance_repos:
   - "agavra/tuicr"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+repos_populated: false
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [2, 0, 1, 0, 2, 0, 0, 0, 0, 0, 0, 0, 4]
+pushes_per_week: [1, 0, 1, 0, 2, 0, 0, 0, 0, 0, 0, 2, 2]
 windows:
   "7d":
-    pushes: 4
+    pushes: 2
     distinct_repos: 2
-    active_days: 3
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 9
+    pushes: 8
     distinct_repos: 4
-    active_days: 7
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.2857
-  repo_per_active_day: 0.5714
+  push_per_day: 1.3333
+  repo_per_active_day: 0.6667
   not_owned_ratio: 0.0000
   basename_concentration: 0.2500
   shapes: []
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 4
+    pushes: 2
     distinct_repos: 2
-    pushes_per_repo: 2.0000
-    active_days: 3
+    pushes_per_repo: 1.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -65,70 +65,22 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 9
+    pushes: 8
     distinct_repos: 4
-    pushes_per_repo: 2.2500
-    active_days: 7
+    pushes_per_repo: 2.0000
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 7 active days in 90d — pass"
+  - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "homebrew-tap"
-    title: "homebrew-tap"
-    description: null
-    language: "Ruby"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-03"
-  - name: "dq"
-    title: "dq"
-    description: "duckdb powered pipeline CLI"
-    language: "Rust"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-03"
-  - name: "dotfiles"
-    title: "dotfiles"
-    description: "my configs"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-01"
-  - name: "lustre-todomvc"
-    title: "lustre-todomvc"
-    description: "todomvc example with lustre"
-    language: "Gleam"
-    topics: []
-    stars_fact: 23
-    first_seen: null
-    last_push: "2025-04-22"
-  - name: "jsonrpc"
-    title: "jsonrpc"
-    description: null
-    language: "Gleam"
-    topics: []
-    stars_fact: 4
-    first_seen: null
-    last_push: "2025-10-02"
-  - name: "rymi.dev"
-    title: "rymi.dev"
-    description: "personal website"
-    language: "Astro"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-07-04"
+repos: []
 ---
 
 # ryanmiville
 
-9 pushes across 4 repositories on 7 active days in the last 90 days of public GitHub push activity.
+8 pushes across 4 repositories on 6 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ryanmiville

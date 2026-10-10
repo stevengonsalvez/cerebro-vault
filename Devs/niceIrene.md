@@ -8,11 +8,11 @@ provenance_repos:
   - "agentscope-ai/QwenPaw"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+repos_populated: false
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "541318303a272608"
-pushes_per_week: [9, 0, 3, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [7, 2, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 14
+    pushes: 12
     distinct_repos: 2
-    active_days: 10
+    active_days: 8
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.4000
-  repo_per_active_day: 0.2000
+  push_per_day: 1.5000
+  repo_per_active_day: 0.2500
   not_owned_ratio: 0.5000
   basename_concentration: 1.0000
   shapes: []
@@ -65,70 +65,22 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 14
+    pushes: 12
     distinct_repos: 2
-    pushes_per_repo: 7.0000
-    active_days: 10
+    pushes_per_repo: 6.0000
+    active_days: 8
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 10 active days in 90d — pass"
+  - "activity: 8 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "Scroll"
-    title: "Scroll"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-08-26"
-  - name: "niceirene.github.io"
-    title: "niceirene.github.io"
-    description: null
-    language: "HTML"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-08-25"
-  - name: "SMARTFEAT"
-    title: "SMARTFEAT"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 5
-    first_seen: null
-    last_push: "2023-12-12"
-  - name: "remedy"
-    title: "remedy"
-    description: null
-    language: "Jupyter Notebook"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2024-03-01"
-  - name: "Cherry-picked-Generalizations"
-    title: "Cherry-picked-Generalizations"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2022-01-04"
-  - name: "SurveySite"
-    title: "SurveySite"
-    description: null
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2018-08-13"
+repos: []
 ---
 
 # niceIrene
 
-14 pushes across 2 repositories on 10 active days in the last 90 days of public GitHub push activity.
+12 pushes across 2 repositories on 8 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/niceIrene

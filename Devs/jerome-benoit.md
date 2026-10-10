@@ -10,37 +10,37 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "de6bf05613f3ae04"
   - "ffccace0ba14fd15"
-pushes_per_week: [56, 109, 76, 24, 40, 25, 17, 7, 8, 27, 34, 79, 31]
+pushes_per_week: [69, 103, 74, 17, 49, 10, 18, 2, 21, 29, 58, 56, 15]
 windows:
   "7d":
-    pushes: 35
+    pushes: 23
     distinct_repos: 8
-    active_days: 5
+    active_days: 3
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
   "30d":
-    pushes: 174
+    pushes: 173
     distinct_repos: 14
-    active_days: 26
+    active_days: 25
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 4
   "90d":
-    pushes: 533
+    pushes: 521
     distinct_repos: 20
-    active_days: 76
+    active_days: 74
     repos_not_owned: 7
     not_owned_basenames: 5
     not_owned_owners: 6
 automation:
   state: "clear"
-  push_per_day: 7.0132
-  repo_per_active_day: 0.2632
+  push_per_day: 7.0405
+  repo_per_active_day: 0.2703
   not_owned_ratio: 0.3500
   basename_concentration: 0.1500
   shapes: []
@@ -51,32 +51,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 35
+    pushes: 23
     distinct_repos: 8
-    pushes_per_repo: 4.3750
-    active_days: 5
+    pushes_per_repo: 2.8750
+    active_days: 3
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
   "30d":
-    pushes: 174
+    pushes: 173
     distinct_repos: 14
-    pushes_per_repo: 12.4286
-    active_days: 26
+    pushes_per_repo: 12.3571
+    active_days: 25
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 4
   "90d":
-    pushes: 533
+    pushes: 521
     distinct_repos: 20
-    pushes_per_repo: 26.6500
-    active_days: 76
+    pushes_per_repo: 26.0500
+    active_days: 74
     repos_not_owned: 7
     not_owned_basenames: 5
     not_owned_owners: 6
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 76 active days in 90d — pass"
+  - "activity: 74 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "dotfiles"
@@ -86,7 +86,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-01"
+    last_push: "2026-10-10"
   - name: "sap-ai-provider"
     title: "sap-ai-provider"
     description: "Vercel AI Provider for running LLMs on SAP BTP using AI Core"
@@ -94,7 +94,7 @@ repos:
     topics: []
     stars_fact: 6
     first_seen: null
-    last_push: "2026-09-30"
+    last_push: "2026-10-09"
   - name: "benchmarks-js"
     title: "benchmarks-js"
     description: "JS code pattern benchmarks"
@@ -102,15 +102,15 @@ repos:
     topics: []
     stars_fact: 2
     first_seen: null
-    last_push: "2026-09-30"
+    last_push: "2026-10-10"
   - name: "freqai-strategies"
     title: "freqai-strategies"
     description: "Freqtrade FreqAI strategies"
     language: "Python"
     topics: []
-    stars_fact: 60
+    stars_fact: 61
     first_seen: null
-    last_push: "2026-10-01"
+    last_push: "2026-10-10"
   - name: "e-mobility-charging-stations-simulator"
     title: "e-mobility-charging-stations-simulator"
     description: "OCPP-J charging stations simulator"
@@ -135,6 +135,6 @@ repos:
 
 # jerome-benoit
 
-533 pushes across 20 repositories on 76 active days in the last 90 days of public GitHub push activity.
+521 pushes across 20 repositories on 74 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/jerome-benoit

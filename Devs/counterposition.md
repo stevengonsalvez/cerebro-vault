@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-07T15:16:07.319356+00:00"
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [4, 1, 0, 1, 0, 0, 0, 0, 0, 0, 1, 2, 1]
+pushes_per_week: [5, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 2, 1]
 windows:
   "7d":
     pushes: 1
@@ -77,6 +77,22 @@ reasons:
   - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "quick-overview"
+    title: "quick-overview"
+    description: "Claude Code plugin: a quick overview card above the prompt while Claude works on a conversational question"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-10-08"
+  - name: "cloudflare-pi"
+    title: "cloudflare-pi"
+    description: "Run the Pi coding agent as a private web app on your own Cloudflare account"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-06"
   - name: "pi"
     title: "pi"
     description: "Skills, extensions, and packages for the Pi coding agent"
@@ -91,7 +107,7 @@ repos:
       - "web-search"
     stars_fact: 8
     first_seen: null
-    last_push: "2026-09-30"
+    last_push: "2026-10-04"
   - name: "hermes-agent-workshop"
     title: "hermes-agent-workshop"
     description: "Hermes Agent installation script and challenges for the workshop at Wisedocs"
@@ -116,22 +132,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-03-25"
-  - name: "dotfiles"
-    title: "dotfiles"
-    description: null
-    language: "Shell"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-03-22"
-  - name: "learnts"
-    title: "learnts"
-    description: "Learning TypeScript"
-    language: "Nix"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2022-09-22"
 ---
 
 # counterposition

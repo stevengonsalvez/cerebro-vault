@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "16389f32495280ea"
-pushes_per_week: [0, 0, 7, 0, 0, 0, 1, 0, 1, 5, 4, 4, 3]
+pushes_per_week: [0, 0, 7, 0, 0, 0, 1, 0, 2, 4, 4, 4, 3]
 windows:
   "7d":
     pushes: 3
@@ -77,27 +77,6 @@ reasons:
   - "activity: 12 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "wev"
-    title: "wev"
-    description: "Local System-One decision models: typed questions in, calibrated probabilities out. General decisions and browser-agent steps."
-    language: "Python"
-    topics:
-      - "browser-agent"
-      - "decision-model"
-      - "distillation"
-      - "llm"
-      - "qwen"
-    stars_fact: 29
-    first_seen: null
-    last_push: "2026-09-24"
-  - name: "crux"
-    title: "crux"
-    description: "A terminal agent scaffold targeting Terminal-Bench — putting a current-generation DeepSeek model on the official leaderboard, cheaply."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 186
-    first_seen: null
-    last_push: "2026-09-28"
   - name: "alanhuangyoo"
     title: "alanhuangyoo"
     description: "Profile README"
@@ -105,7 +84,39 @@ repos:
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-09-28"
+    last_push: "2026-10-10"
+  - name: "OpenJev"
+    title: "OpenJev"
+    description: "OpenJev: open-source, local alternative to Jev. System-One decision models: typed questions in, calibrated probabilities out; general decisions and browser-agent steps."
+    language: "Python"
+    topics:
+      - "browser-agent"
+      - "decision-model"
+      - "distillation"
+      - "jev"
+      - "jev-alternative"
+      - "llm"
+      - "local-llm"
+      - "openjev"
+      - "qwen"
+      - "system-one"
+    stars_fact: 59
+    first_seen: null
+    last_push: "2026-10-09"
+  - name: "crux"
+    title: "crux"
+    description: "Taking the pi coding agent to Claude Code-level performance: 0.539 → 0.773 pass@1 on Terminal-Bench 2.1 with the same self-hosted 27B model, by re-engineering the agent."
+    language: "TypeScript"
+    topics:
+      - "agent-evaluation"
+      - "ai-agent"
+      - "coding-agent"
+      - "context-engineering"
+      - "llm"
+      - "terminal-bench"
+    stars_fact: 187
+    first_seen: null
+    last_push: "2026-10-07"
   - name: "sandbox"
     title: "sandbox"
     description: null

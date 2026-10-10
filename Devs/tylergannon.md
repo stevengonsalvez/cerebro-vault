@@ -8,39 +8,39 @@ provenance_repos:
   - "anomalyco/opencode"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+repos_populated: false
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [13, 4, 2, 0, 0, 2, 0, 0, 4, 9, 33, 17, 4]
+pushes_per_week: [8, 4, 0, 0, 0, 2, 0, 0, 6, 25, 20, 14, 7]
 windows:
   "7d":
-    pushes: 4
+    pushes: 7
     distinct_repos: 1
     active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 63
+    pushes: 68
     distinct_repos: 4
-    active_days: 20
+    active_days: 22
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 88
-    distinct_repos: 10
-    active_days: 36
+    pushes: 86
+    distinct_repos: 9
+    active_days: 35
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.4444
-  repo_per_active_day: 0.2778
+  push_per_day: 2.4571
+  repo_per_active_day: 0.2571
   not_owned_ratio: 0.0000
-  basename_concentration: 0.1000
+  basename_concentration: 0.1111
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,86 +49,38 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 4
+    pushes: 7
     distinct_repos: 1
-    pushes_per_repo: 4.0000
+    pushes_per_repo: 7.0000
     active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 63
+    pushes: 68
     distinct_repos: 4
-    pushes_per_repo: 15.7500
-    active_days: 20
+    pushes_per_repo: 17.0000
+    active_days: 22
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 88
-    distinct_repos: 10
-    pushes_per_repo: 8.8000
-    active_days: 36
+    pushes: 86
+    distinct_repos: 9
+    pushes_per_repo: 9.5556
+    active_days: 35
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 36 active days in 90d — pass"
+  - "activity: 35 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "skgo"
-    title: "skgo"
-    description: "A Go backend for SvelteKit"
-    language: "Go"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-03"
-  - name: "gimbal"
-    title: "gimbal"
-    description: "Agent orchestration that guides projects toward demonstrable goals."
-    language: "Go"
-    topics: []
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-10-01"
-  - name: "polytype"
-    title: "polytype"
-    description: "Static generation of JSON Schema"
-    language: "Go"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-09-26"
-  - name: "devalue"
-    title: "devalue"
-    description: "Go port of devalue, SvelteKit's serializer: one module per devalue major, each release at parity with one devalue release"
-    language: "Go"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-25"
-  - name: "agents"
-    title: "agents"
-    description: null
-    language: "Go"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-20"
-  - name: "astro-template"
-    title: "astro-template"
-    description: "Astro 7 starter managed by Vite+, with Tailwind, icons, agent skills, and Astro Docs MCP"
-    language: "Svelte"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-18"
+repos: []
 ---
 
 # tylergannon
 
-88 pushes across 10 repositories on 36 active days in the last 90 days of public GitHub push activity.
+86 pushes across 9 repositories on 35 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/tylergannon

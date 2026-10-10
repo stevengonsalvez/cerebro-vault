@@ -8,11 +8,11 @@ provenance_repos:
   - "akitaonrails/ai-memory"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+repos_populated: false
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "4138778ebbc75ba6"
-pushes_per_week: [0, 1, 2, 0, 0, 0, 0, 0, 0, 0, 3, 3, 4]
+pushes_per_week: [1, 0, 2, 0, 0, 0, 0, 0, 0, 1, 3, 5, 1]
 windows:
   "7d":
     pushes: 4
@@ -76,59 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 9 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "viniciusdsandrade"
-    title: "viniciusdsandrade"
-    description: "Config files for my GitHub profile."
-    language: null
-    topics:
-      - "config"
-      - "dev"
-      - "front-end"
-      - "github-config"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-28"
-  - name: "localiza-database-clone-with-postgres"
-    title: "localiza-database-clone-with-postgres"
-    description: null
-    language: "PLpgSQL"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-20"
-  - name: "modebench"
-    title: "modebench"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-20"
-  - name: "foody-delivery-technical-test"
-    title: "foody-delivery-technical-test"
-    description: null
-    language: "Java"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-07-31"
-  - name: "transactional-outbox-and-idempotent-consumer"
-    title: "transactional-outbox-and-idempotent-consumer"
-    description: null
-    language: "Java"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-07-18"
-  - name: "technical-test-senior-software-engineer"
-    title: "technical-test-senior-software-engineer"
-    description: "Senior-grade scalable file-storage architecture in Kotlin/Java for large files using S3 multipart uploads with pre-signed URLs, resumable transfers, CloudFront CDN downloads, Aurora metadata, Redis support, and SNS/SQS event-driven workers for antivirus scanning, OCR, thumbnails, metadata extraction, retries, idempotency, DLQs, and fault tolerance."
-    language: "Kotlin"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-07-08"
+repos: []
 ---
 
 # viniciusdsandrade

@@ -11,18 +11,18 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "1df6ea1f1256059e"
   - "4d1450729e6ff44d"
   - "de6bf05613f3ae04"
   - "edb3a626875732de"
-pushes_per_week: [0, 2, 0, 0, 0, 0, 0, 0, 0, 10, 11, 20, 16]
+pushes_per_week: [0, 2, 0, 0, 0, 0, 0, 0, 2, 13, 10, 25, 7]
 windows:
   "7d":
-    pushes: 21
-    distinct_repos: 8
-    active_days: 6
+    pushes: 13
+    distinct_repos: 7
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -54,10 +54,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 21
-    distinct_repos: 8
-    pushes_per_repo: 2.6250
-    active_days: 6
+    pushes: 13
+    distinct_repos: 7
+    pushes_per_repo: 1.8571
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -89,7 +89,15 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-01"
+    last_push: "2026-10-10"
+  - name: "pi-agent-book"
+    title: "pi-agent-book"
+    description: "《Pi Agent从入门到精通》：面向零基础的中文开源书，基于源码拆解上下文、记忆、工具、扩展与持续进化，附可复现实验。"
+    language: "Python"
+    topics: []
+    stars_fact: 5
+    first_seen: null
+    last_push: "2026-09-29"
   - name: "dan-skills"
     title: "dan-skills"
     description: null
@@ -98,14 +106,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-09-23"
-  - name: "pi-agent-book"
-    title: "pi-agent-book"
-    description: "《Pi Agent从入门到精通》：面向零基础的中文开源书，基于源码拆解上下文、记忆、工具、扩展与持续进化，附可复现实验。"
-    language: "Python"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-29"
   - name: "langgraph-learning-lab"
     title: "langgraph-learning-lab"
     description: "Interactive Chinese LangGraph learning lab with Python/TypeScript examples and a visual execution playground"
@@ -121,7 +121,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-13"
+    last_push: "2026-10-07"
   - name: "glimp-support"
     title: "glimp-support"
     description: "Public support, privacy, and release materials for Glimp — a playful macOS S3 & R2 sharing app."

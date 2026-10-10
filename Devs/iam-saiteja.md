@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-07T15:16:07.319356+00:00"
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [0, 0, 0, 0, 0, 4, 1, 0, 0, 0, 1, 4, 1]
+pushes_per_week: [0, 0, 0, 0, 3, 1, 1, 0, 0, 0, 1, 4, 1]
 windows:
   "7d":
     pushes: 1
@@ -77,6 +77,29 @@ reasons:
   - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "Compute-Pool"
+    title: "Compute-Pool"
+    description: "Pool several Kaggle accounts into one GPU cluster from a CLI. Independent, data-parallel, and pipeline-parallel training over SSH. Rust CLI, Python training runtime."
+    language: "Rust"
+    topics:
+      - "cli"
+      - "cluster"
+      - "data-parallelism"
+      - "deep-learning"
+      - "distributed-computing"
+      - "distributed-training"
+      - "gpu"
+      - "kaggle"
+      - "llm"
+      - "machine-learning"
+      - "mlops"
+      - "pipeline-parallelism"
+      - "pytorch"
+      - "rust"
+      - "ssh"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-07"
   - name: "Zero-Shot-TabPFN"
     title: "Zero-Shot-TabPFN"
     description: null
@@ -117,14 +140,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-09-04"
-  - name: "iam-saiteja"
-    title: "iam-saiteja"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-07-05"
 ---
 
 # iam-saiteja

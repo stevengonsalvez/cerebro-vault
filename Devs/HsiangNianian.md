@@ -10,16 +10,16 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "234088bc43763aa2"
   - "3c90af76cbde0363"
-pushes_per_week: [171, 105, 55, 20, 35, 19, 1, 1, 0, 4, 5, 11, 2]
+pushes_per_week: [172, 78, 47, 15, 38, 7, 1, 1, 2, 3, 5, 11, 1]
 windows:
   "7d":
-    pushes: 2
-    distinct_repos: 2
-    active_days: 2
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -31,18 +31,18 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 3
   "90d":
-    pushes: 429
-    distinct_repos: 19
-    active_days: 52
+    pushes: 381
+    distinct_repos: 18
+    active_days: 50
     repos_not_owned: 6
     not_owned_basenames: 5
     not_owned_owners: 5
 automation:
   state: "clear"
-  push_per_day: 8.2500
-  repo_per_active_day: 0.3654
-  not_owned_ratio: 0.3158
-  basename_concentration: 0.1579
+  push_per_day: 7.6200
+  repo_per_active_day: 0.3600
+  not_owned_ratio: 0.3333
+  basename_concentration: 0.1667
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -51,10 +51,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
-    distinct_repos: 2
+    pushes: 1
+    distinct_repos: 1
     pushes_per_repo: 1.0000
-    active_days: 2
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -67,34 +67,26 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 3
   "90d":
-    pushes: 429
-    distinct_repos: 19
-    pushes_per_repo: 22.5789
-    active_days: 52
+    pushes: 381
+    distinct_repos: 18
+    pushes_per_repo: 21.1667
+    active_days: 50
     repos_not_owned: 6
     not_owned_basenames: 5
     not_owned_owners: 5
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 52 active days in 90d — pass"
+  - "activity: 50 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "jev-turtle-soup"
-    title: "jev-turtle-soup"
-    description: null
-    language: "TypeScript"
+  - name: "Yapshire"
+    title: "Yapshire"
+    description: "Yapshire — a cozy pixel town to walk, jump, and chat together. Rust + Bevy, LAN and online multiplayer."
+    language: "Rust"
     topics: []
-    stars_fact: 3
+    stars_fact: 5
     first_seen: null
-    last_push: "2026-10-02"
-  - name: "HsiangNianian"
-    title: "HsiangNianian"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 7
-    first_seen: null
-    last_push: "2026-10-01"
+    last_push: "2026-10-10"
   - name: "dsh-auto-continue"
     title: "dsh-auto-continue"
     description: "DSH Web UI plugin: auto-sends 「继续」 after non-human interruptions, with error classification, adaptive backoff, pause, idempotency/loop guards, resume templates, and stats—all configurable in settings UI | DSH 前端 UI 插件：非人为中断后自动发送「继续」，支持错误分类、自适应退避、暂停、幂等/循环保护、续跑模板与统计，均可在设置界面配置"
@@ -108,9 +100,27 @@ repos:
       - "dsh-plugin"
       - "plugin"
       - "web-ui"
-    stars_fact: 125
+    stars_fact: 144
     first_seen: null
-    last_push: "2026-09-30"
+    last_push: "2026-10-07"
+  - name: "HsiangNianian"
+    title: "HsiangNianian"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 7
+    first_seen: null
+    last_push: "2026-10-09"
+  - name: "jev-turtle-soup"
+    title: "jev-turtle-soup"
+    description: "一个可以独自推理、邀朋友同桌，也能亲手出题的海龟汤社群——基于 decision model: jev"
+    language: "TypeScript"
+    topics:
+      - "game"
+      - "jev"
+    stars_fact: 5
+    first_seen: null
+    last_push: "2026-10-10"
   - name: "IntelligentMixVideo"
     title: "IntelligentMixVideo"
     description: null
@@ -118,7 +128,7 @@ repos:
     topics: []
     stars_fact: 7
     first_seen: null
-    last_push: "2026-10-01"
+    last_push: "2026-10-10"
   - name: "soon"
     title: "soon"
     description: "A local-first personal terminal agent that learns your routines and predicts the next full command."
@@ -138,34 +148,10 @@ repos:
     stars_fact: 12
     first_seen: null
     last_push: "2026-07-30"
-  - name: "GlyphWeave"
-    title: "GlyphWeave"
-    description: "Infinite-canvas ASCII roguelike tilemap editor. Paint dungeons, weave glyphs. Multi-layer editing, preset rooms, dual themes, minimap, render API, support jev/deepseek generate map realtime."
-    language: "Rust"
-    topics:
-      - "ascii-art"
-      - "canvas"
-      - "dungeon-editor"
-      - "gen-ui"
-      - "glyphweave"
-      - "jev"
-      - "jev-ai"
-      - "konva"
-      - "react"
-      - "roguelike"
-      - "shadcn-ui"
-      - "tailwindcss"
-      - "tilemap-editor"
-      - "typescript"
-      - "vite"
-      - "zustand"
-    stars_fact: 7
-    first_seen: null
-    last_push: "2026-09-20"
 ---
 
 # HsiangNianian
 
-429 pushes across 19 repositories on 52 active days in the last 90 days of public GitHub push activity.
+381 pushes across 18 repositories on 50 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/HsiangNianian

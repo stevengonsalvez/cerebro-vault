@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "46f3c1d6124190bd"
-pushes_per_week: [0, 1, 0, 0, 0, 0, 2, 0, 0, 0, 0, 2, 0]
+pushes_per_week: [0, 1, 0, 0, 0, 1, 1, 0, 0, 0, 1, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,6 +77,14 @@ reasons:
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "haura-music"
+    title: "haura-music"
+    description: null
+    language: "Go"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-05"
   - name: "velka"
     title: "velka"
     description: "Run commands in multiple project folders in parallel."
@@ -121,14 +129,6 @@ repos:
     stars_fact: 1
     first_seen: null
     last_push: "2026-08-27"
-  - name: "pi-ask"
-    title: "pi-ask"
-    description: "Read-only Q&A mode for Pi"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-08-28"
 ---
 
 # datfooldive

@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 3, 5, 0]
+pushes_per_week: [0, 0, 0, 0, 0, 1, 0, 0, 1, 2, 2, 4, 1]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "30d":
-    pushes: 9
-    distinct_repos: 4
-    active_days: 5
-    repos_not_owned: 2
-    not_owned_basenames: 2
-    not_owned_owners: 2
-  "90d":
     pushes: 10
     distinct_repos: 4
     active_days: 6
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
+  "90d":
+    pushes: 11
+    distinct_repos: 4
+    active_days: 7
+    repos_not_owned: 2
+    not_owned_basenames: 2
+    not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 1.6667
-  repo_per_active_day: 0.6667
+  push_per_day: 1.5714
+  repo_per_active_day: 0.5714
   not_owned_ratio: 0.5000
   basename_concentration: 0.5000
   shapes: []
@@ -49,22 +49,14 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    pushes: 1
+    distinct_repos: 1
+    pushes_per_repo: 1.0000
+    active_days: 1
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "30d":
-    pushes: 9
-    distinct_repos: 4
-    pushes_per_repo: 2.2500
-    active_days: 5
-    repos_not_owned: 2
-    not_owned_basenames: 2
-    not_owned_owners: 2
-  "90d":
     pushes: 10
     distinct_repos: 4
     pushes_per_repo: 2.5000
@@ -72,9 +64,17 @@ facets:
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
+  "90d":
+    pushes: 11
+    distinct_repos: 4
+    pushes_per_repo: 2.7500
+    active_days: 7
+    repos_not_owned: 2
+    not_owned_basenames: 2
+    not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 6 active days in 90d — pass"
+  - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "A10_KnowledgeGraph"
@@ -129,6 +129,6 @@ repos:
 
 # EterUltimate
 
-10 pushes across 4 repositories on 6 active days in the last 90 days of public GitHub push activity.
+11 pushes across 4 repositories on 7 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/EterUltimate

@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "dae9f02535f7c22f"
-pushes_per_week: [0, 3, 0, 2, 6, 0, 0, 0, 1, 0, 5, 7, 10]
+pushes_per_week: [2, 1, 0, 2, 6, 0, 0, 0, 1, 2, 5, 6, 12]
 windows:
   "7d":
-    pushes: 10
+    pushes: 12
     distinct_repos: 4
-    active_days: 3
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 22
+    pushes: 25
     distinct_repos: 6
-    active_days: 11
+    active_days: 13
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 34
+    pushes: 37
     distinct_repos: 7
-    active_days: 18
+    active_days: 20
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.8889
-  repo_per_active_day: 0.3889
+  push_per_day: 1.8500
+  repo_per_active_day: 0.3500
   not_owned_ratio: 0.0000
   basename_concentration: 0.1429
   shapes: []
@@ -49,42 +49,34 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 10
+    pushes: 12
     distinct_repos: 4
-    pushes_per_repo: 2.5000
-    active_days: 3
+    pushes_per_repo: 3.0000
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 22
+    pushes: 25
     distinct_repos: 6
-    pushes_per_repo: 3.6667
-    active_days: 11
+    pushes_per_repo: 4.1667
+    active_days: 13
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 34
+    pushes: 37
     distinct_repos: 7
-    pushes_per_repo: 4.8571
-    active_days: 18
+    pushes_per_repo: 5.2857
+    active_days: 20
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 18 active days in 90d — pass"
+  - "activity: 20 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "googlarz"
-    title: "googlarz"
-    description: "GitHub profile README"
-    language: "Python"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-01"
   - name: "proton-mail-bridge-client"
     title: "proton-mail-bridge-client"
     description: "Local-first Proton Mail MCP server and CLI via Proton Bridge. Search, draft, send and organize mail from Claude Desktop, Claude Code or any MCP client. 96 tools, read-only and send-to-self modes."
@@ -110,55 +102,57 @@ repos:
       - "smtp"
       - "sqlite"
       - "typescript"
-    stars_fact: 51
+    stars_fact: 69
     first_seen: null
-    last_push: "2026-10-01"
-  - name: "proton-drive-mcp"
-    title: "proton-drive-mcp"
-    description: "MCP server and CLI that gives Claude full access to Proton Drive — upload, download, share, and manage your end-to-end encrypted files without leaving the conversation."
-    language: "JavaScript"
-    topics:
-      - "claude"
-      - "cli"
-      - "mcp"
-      - "proton"
-      - "protondrive"
-    stars_fact: 2
+    last_push: "2026-10-09"
+  - name: "homebrew-tap"
+    title: "homebrew-tap"
+    description: null
+    language: "Ruby"
+    topics: []
+    stars_fact: 0
     first_seen: null
-    last_push: "2026-10-01"
-  - name: "signal-mcp"
-    title: "signal-mcp"
-    description: "Ask Claude about your Signal conversations. Persistent history, full-text search, and complete signal-cli coverage — 100% local."
-    language: "Python"
-    topics:
-      - "claude"
-      - "claude-code"
-      - "mcp"
-      - "messaging"
-      - "model-context-protocol"
-      - "privacy"
-      - "signal"
-    stars_fact: 9
-    first_seen: null
-    last_push: "2026-09-30"
-  - name: "finance-assistant"
-    title: "finance-assistant"
-    description: "Personal finance copilot — real math, not AI guesses. 6 locales · 13 bank formats · Monte Carlo FIRE. claude.ai · Claude Code · Cowork. Open source, free."
+    last_push: "2026-10-09"
+  - name: "math-skill"
+    title: "math-skill"
+    description: "A Claude skill for rigorously solving math problems — equations, proofs, optimization, geometry, and more, with step-by-step reasoning and verification."
     language: "Python"
     topics:
       - "anthropic"
-      - "budgeting"
       - "claude-code"
-      - "claude-cowork"
-      - "claude-skill"
-      - "mcp"
-      - "personal-finance"
-      - "productivity"
+      - "claude-code-skill"
+      - "education"
+      - "math"
+      - "mathematics"
       - "skill"
-      - "tax"
-    stars_fact: 48
+      - "sympy"
+    stars_fact: 10
     first_seen: null
-    last_push: "2026-09-30"
+    last_push: "2026-03-22"
+  - name: "googlarz"
+    title: "googlarz"
+    description: "GitHub profile README"
+    language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-09"
+  - name: "vinted-mcp-cli"
+    title: "vinted-mcp-cli"
+    description: "Browse, search, and manage Vinted listings from Claude or the terminal — buy, sell, track items, and automate your secondhand workflow"
+    language: "TypeScript"
+    topics:
+      - "claude"
+      - "claude-code"
+      - "ecommerce"
+      - "marketplace"
+      - "mcp"
+      - "model-context-protocol"
+      - "secondhand"
+      - "vinted"
+    stars_fact: 12
+    first_seen: null
+    last_push: "2026-10-07"
   - name: "suunto-mcp"
     title: "suunto-mcp"
     description: "MCP server that connects your Suunto watch data to Claude and other AI assistants"
@@ -172,13 +166,13 @@ repos:
       - "running"
       - "sleep-tracking"
       - "suunto"
-    stars_fact: 30
+    stars_fact: 32
     first_seen: null
-    last_push: "2026-09-29"
+    last_push: "2026-10-08"
 ---
 
 # googlarz
 
-34 pushes across 7 repositories on 18 active days in the last 90 days of public GitHub push activity.
+37 pushes across 7 repositories on 20 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/googlarz

@@ -9,11 +9,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-08T06:04:38.976017+00:00"
+generated_at: "2026-10-10T06:04:44.283147+00:00"
 provenance:
   - "1df6ea1f1256059e"
   - "edb3a626875732de"
-pushes_per_week: [0, 1, 14, 9, 12, 5, 3, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [0, 9, 8, 7, 14, 3, 3, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -85,7 +85,7 @@ repos:
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-09-29"
+    last_push: "2026-10-09"
   - name: "ai-business-map"
     title: "ai-business-map"
     description: "An interactive map of the AI landscape in 2026 for business decisions: what to buy, what to skip, what it costs, and what will get you into trouble"
