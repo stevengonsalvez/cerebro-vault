@@ -8,8 +8,8 @@ provenance_repos:
   - "bytedance/deer-flow"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-10T06:04:44.283147+00:00"
+repos_populated: true
+generated_at: "2026-10-11T06:04:44.624574+00:00"
 provenance:
   - "16389f32495280ea"
 pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 1, 1]
@@ -76,7 +76,59 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "the-way-here-codex"
+    title: "the-way-here-codex"
+    description: "Session-scoped local evidence library for Codex: import ZIPs, notes, and public websites without global configuration."
+    language: "TypeScript"
+    topics:
+      - "codex"
+      - "local-first"
+      - "personal-knowledge-base"
+      - "typescript"
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-09-16"
+  - name: "i-think-in-pictures"
+    title: "i-think-in-pictures"
+    description: "I think in pictures. A skill for clear visual explanations of connections, processes, and changes."
+    language: null
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-09"
+  - name: "18062706139fcz.github.io"
+    title: "18062706139fcz.github.io"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-08-31"
+  - name: "editorial-blog"
+    title: "editorial-blog"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-06-30"
+  - name: "18062706139fcz"
+    title: "18062706139fcz"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-05-26"
+  - name: "npm-ryker-tools"
+    title: "npm-ryker-tools"
+    description: "a useless tools, but i use it publish my npm package throughtly. It's meaningful."
+    language: "JavaScript"
+    topics: []
+    stars_fact: 4
+    first_seen: null
+    last_push: "2022-08-15"
 ---
 
 # RykerFeng

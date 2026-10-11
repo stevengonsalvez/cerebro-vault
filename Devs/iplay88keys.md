@@ -8,8 +8,8 @@ provenance_repos:
   - "agent-substrate/substrate"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-10T06:04:44.283147+00:00"
+repos_populated: true
+generated_at: "2026-10-11T06:04:44.624574+00:00"
 provenance:
   - "a5ffcd0a46dd44fd"
 pushes_per_week: [4, 1, 0, 0, 0, 0, 3, 0, 0, 0, 3, 1, 2]
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 11 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "my-recipe-library"
+    title: "my-recipe-library"
+    description: "A React Redux website for storing recipes"
+    language: "Go"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2025-11-26"
+  - name: "example-tile"
+    title: "example-tile"
+    description: "This is a simple Tanzu Ops Manager tile for example purposes"
+    language: "Shell"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2021-09-24"
+  - name: "CSCI498C-Team"
+    title: "CSCI498C-Team"
+    description: "Semester-long project for Game Development"
+    language: "Game Maker Language"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2016-05-03"
+  - name: "keyboards"
+    title: "keyboards"
+    description: "Keyboard related firmware and files"
+    language: "C"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2024-06-22"
+  - name: "watchtower"
+    title: "watchtower"
+    description: "Watchtower handles running processes, watching various targets and running commands when changes to those targets occur."
+    language: "Go"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2022-10-07"
+  - name: "example-bosh-release"
+    title: "example-bosh-release"
+    description: "This is a simple BOSH release for example purposes"
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2021-09-24"
 ---
 
 # iplay88keys

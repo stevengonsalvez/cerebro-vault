@@ -8,8 +8,8 @@ provenance_repos:
   - "ChromeDevTools/chrome-devtools-mcp"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-10T06:04:44.283147+00:00"
+repos_populated: true
+generated_at: "2026-10-11T06:04:44.624574+00:00"
 provenance:
   - "379642deb53f3714"
 pushes_per_week: [0, 1, 0, 0, 1, 0, 0, 1, 1, 2, 0, 0, 0]
@@ -76,7 +76,70 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "maheshsingh20"
+    title: "maheshsingh20"
+    description: "Config files for my GitHub profile."
+    language: null
+    topics:
+      - "config"
+      - "github-config"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-27"
+  - name: "MerchantRail"
+    title: "MerchantRail"
+    description: null
+    language: "Java"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-12"
+  - name: "Loan-Management-System"
+    title: "Loan-Management-System"
+    description: null
+    language: "Java"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-11"
+  - name: "aegis-crime-bigdata-pipeline"
+    title: "aegis-crime-bigdata-pipeline"
+    description: "Enterprise End-to-End Big Data Crime Hotspot Prediction Platform (HDFS, Spark/Scala, PySpark, Databricks, Delta Lake, AWS S3, MongoDB 2dsphere, Airflow, ReactJS)"
+    language: "Python"
+    topics:
+      - "apache-airflow"
+      - "apache-spark"
+      - "aws-s3"
+      - "big-data"
+      - "databricks"
+      - "delta-lake"
+      - "hadoop-hdfs"
+      - "leaflet"
+      - "machine-learning"
+      - "mongodb"
+      - "pyspark"
+      - "reactjs"
+      - "scala"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-10"
+  - name: "YumDee-MCP-Studio"
+    title: "YumDee-MCP-Studio"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-10"
+  - name: "FreshMart"
+    title: "FreshMart"
+    description: null
+    language: "C#"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-08-31"
 ---
 
 # maheshsingh20

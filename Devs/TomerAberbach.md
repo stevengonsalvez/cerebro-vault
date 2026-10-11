@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: false
-generated_at: "2026-10-10T06:04:44.283147+00:00"
+generated_at: "2026-10-11T06:04:44.624574+00:00"
 provenance:
   - "1be978947e68d1f2"
-pushes_per_week: [18, 11, 2, 7, 10, 5, 1, 0, 2, 1, 9, 11, 0]
+pushes_per_week: [23, 3, 1, 11, 7, 4, 1, 0, 2, 1, 10, 10, 1]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 22
+    pushes: 23
     distinct_repos: 3
-    active_days: 11
+    active_days: 12
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 77
+    pushes: 74
     distinct_repos: 5
     active_days: 34
     repos_not_owned: 0
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.2647
+  push_per_day: 2.1765
   repo_per_active_day: 0.1471
   not_owned_ratio: 0.0000
   basename_concentration: 0.2000
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
+    pushes: 1
+    distinct_repos: 1
+    pushes_per_repo: 1.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 22
+    pushes: 23
     distinct_repos: 3
-    pushes_per_repo: 7.3333
-    active_days: 11
+    pushes_per_repo: 7.6667
+    active_days: 12
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 77
+    pushes: 74
     distinct_repos: 5
-    pushes_per_repo: 15.4000
+    pushes_per_repo: 14.8000
     active_days: 34
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -81,6 +81,6 @@ repos: []
 
 # TomerAberbach
 
-77 pushes across 5 repositories on 34 active days in the last 90 days of public GitHub push activity.
+74 pushes across 5 repositories on 34 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/TomerAberbach

@@ -8,11 +8,11 @@ provenance_repos:
   - "ChromeDevTools/chrome-devtools-mcp"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-10T06:04:44.283147+00:00"
+repos_populated: true
+generated_at: "2026-10-11T06:04:44.624574+00:00"
 provenance:
   - "379642deb53f3714"
-pushes_per_week: [2, 7, 2, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [4, 5, 2, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 8 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "dotfiles"
+    title: "dotfiles"
+    description: "My dotfiles for my dev environment, compromising of tmux, vim, zsh and git."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 255
+    first_seen: null
+    last_push: "2026-10-10"
+  - name: "gulp-load-plugins"
+    title: "gulp-load-plugins"
+    description: "Automatically load in gulp plugins"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 752
+    first_seen: null
+    last_push: "2025-02-07"
+  - name: "pulldown"
+    title: "pulldown"
+    description: "The minimal JavaScript package manager."
+    language: "JavaScript"
+    topics: []
+    stars_fact: 174
+    first_seen: null
+    last_push: "2014-06-22"
+  - name: "the-refactoring-tales"
+    title: "the-refactoring-tales"
+    description: null
+    language: "HTML"
+    topics: []
+    stars_fact: 139
+    first_seen: null
+    last_push: "2018-08-06"
+  - name: "remote-data-js"
+    title: "remote-data-js"
+    description: "Dealing with remote data and all its states properly in JavaScript applications."
+    language: "JavaScript"
+    topics: []
+    stars_fact: 147
+    first_seen: null
+    last_push: "2021-06-29"
+  - name: "demopack"
+    title: "demopack"
+    description: "A prepackaged Webpack for easy frontend demos."
+    language: "JavaScript"
+    topics: []
+    stars_fact: 171
+    first_seen: null
+    last_push: "2017-10-27"
 ---
 
 # jackfranklin

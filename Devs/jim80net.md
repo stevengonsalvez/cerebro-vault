@@ -8,11 +8,11 @@ provenance_repos:
   - "abhigyanpatwari/GitNexus"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-10T06:04:44.283147+00:00"
+repos_populated: true
+generated_at: "2026-10-11T06:04:44.624574+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [64, 20, 5, 20, 2, 0, 0, 0, 1, 0, 0, 0, 0]
+pushes_per_week: [70, 13, 10, 15, 2, 0, 0, 0, 1, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 112
+    pushes: 111
     distinct_repos: 9
-    active_days: 23
+    active_days: 22
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 4.8696
-  repo_per_active_day: 0.3913
+  push_per_day: 5.0455
+  repo_per_active_day: 0.4091
   not_owned_ratio: 0.0000
   basename_concentration: 0.1111
   shapes: []
@@ -65,22 +65,70 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 112
+    pushes: 111
     distinct_repos: 9
-    pushes_per_repo: 12.4444
-    active_days: 23
+    pushes_per_repo: 12.3333
+    active_days: 22
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 23 active days in 90d — pass"
+  - "activity: 22 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "flotilla"
+    title: "flotilla"
+    description: "Run a fleet of AI coding agents from one Chief of Staff — drop-in coordination for the CLIs you already use (Claude Code, Codex, Grok), with a live dashboard, shared memory, and an audited Discord bus."
+    language: "Go"
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-09-08"
+  - name: "gatekeeper-claude"
+    title: "gatekeeper-claude"
+    description: null
+    language: "Go"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-22"
+  - name: "gatekeeper-core"
+    title: "gatekeeper-core"
+    description: "Gatekeeper gatekeeper-core — cross-harness permission gatekeeping (public product family)"
+    language: "Go"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-19"
+  - name: "podcast_reader"
+    title: "podcast_reader"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-17"
+  - name: "memex-grok"
+    title: "memex-grok"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-21"
+  - name: "memex-core"
+    title: "memex-core"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-08-15"
 ---
 
 # jim80net
 
-112 pushes across 9 repositories on 23 active days in the last 90 days of public GitHub push activity.
+111 pushes across 9 repositories on 22 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/jim80net

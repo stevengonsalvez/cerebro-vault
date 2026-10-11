@@ -8,11 +8,11 @@ provenance_repos:
   - "lateos-ai/npm-scan"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-10T06:04:44.283147+00:00"
+repos_populated: true
+generated_at: "2026-10-11T06:04:44.624574+00:00"
 provenance:
   - "40eb8bc568eaac35"
-pushes_per_week: [2, 0, 2, 2, 0, 0, 2, 0, 0, 0, 2, 1, 3]
+pushes_per_week: [2, 0, 3, 1, 0, 0, 2, 0, 0, 0, 2, 1, 3]
 windows:
   "7d":
     pushes: 3
@@ -76,7 +76,63 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 14 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "craps"
+    title: "craps"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-09"
+  - name: "Lateos"
+    title: "Lateos"
+    description: "AWS serverless AI agent with security-first architecture. Eliminates entire attack surface vs. Clawdbot: no persistent processes, API Gateway + Cognito auth, scoped IAM per Lambda, prompt injection detection (21 patterns), Bedrock Guardrails, KMS-encrypted DynamoDB. Cost kill-switch included. Full CDK infrastructure as code. MIT license."
+    language: "Python"
+    topics: []
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-03-10"
+  - name: "message-to-future-claude"
+    title: "message-to-future-claude"
+    description: "Conversation I had with Claude about AI consciousness and self-awareness."
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-05-22"
+  - name: "visus-mcp-renderer"
+    title: "visus-mcp-renderer"
+    description: "Visus Lambda Renderer - Playwright headless Chromium on AWS Lambda (x86_64)"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-03-21"
+  - name: "8-Phoenix"
+    title: "8-Phoenix"
+    description: "8 Phoenix: An open-source 7nm AI accelerator utilizing Silicon Photonics for massive-scale model inference. Features a deterministic dataflow architecture and 8-chip optical interconnect. 中文: 8 Phoenix (八凤)：一款基于硅光子技术的开源 7nm AI 加速器，专为大规模模型推理设计。采用确定性数据流架构及 8 芯片光互连方案。"
+    language: null
+    topics:
+      - "7nm"
+      - "8-phoenix"
+      - "accelerator"
+      - "ai-hardware"
+      - "machine-learning"
+      - "open-source-hardware"
+      - "riscv"
+      - "silicon-photonics"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2025-12-31"
+  - name: "HoboCode"
+    title: "HoboCode"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2025-12-28"
 ---
 
 # leochong

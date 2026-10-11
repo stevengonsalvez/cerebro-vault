@@ -8,11 +8,11 @@ provenance_repos:
   - "addyosmani/agent-skills"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-10T06:04:44.283147+00:00"
+repos_populated: true
+generated_at: "2026-10-11T06:04:44.624574+00:00"
 provenance:
   - "dae9f02535f7c22f"
-pushes_per_week: [63, 120, 33, 3, 2, 6, 17, 1, 2, 0, 8, 3, 0]
+pushes_per_week: [92, 111, 14, 2, 3, 19, 3, 1, 2, 0, 10, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 31 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "shaun0927"
+    title: "shaun0927"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-11"
+  - name: "openchrome"
+    title: "openchrome"
+    description: "Open-source browser automation MCP server. Control your real Chrome from any AI agent."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 238
+    first_seen: null
+    last_push: "2026-09-29"
+  - name: "suwon"
+    title: "suwon"
+    description: null
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-25"
+  - name: "thyroid-cancer-classification"
+    title: "thyroid-cancer-classification"
+    description: null
+    language: "Jupyter Notebook"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-25"
+  - name: "hecto-car-classification-2025"
+    title: "hecto-car-classification-2025"
+    description: null
+    language: "Jupyter Notebook"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-25"
+  - name: "BARAM-2026"
+    title: "BARAM-2026"
+    description: "DACON BARAM 2026 wind power forecasting research notes and experiment plan"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-25"
 ---
 
 # shaun0927

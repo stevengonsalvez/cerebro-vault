@@ -8,11 +8,11 @@ provenance_repos:
   - "github/copilot-sdk"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-10T06:04:44.283147+00:00"
+repos_populated: true
+generated_at: "2026-10-11T06:04:44.624574+00:00"
 provenance:
   - "30c775fdbb4f52bd"
-pushes_per_week: [8, 0, 2, 0, 1, 0, 0, 0, 0, 6, 3, 0, 0]
+pushes_per_week: [8, 0, 2, 0, 1, 0, 0, 0, 2, 6, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,23 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 12 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "MidiSharp"
+    title: "MidiSharp"
+    description: "C# library for reading, writing, and manipulating MIDI (*.mid) files."
+    language: "C#"
+    topics: []
+    stars_fact: 98
+    first_seen: null
+    last_push: "2018-01-20"
+  - name: "playground"
+    title: "playground"
+    description: null
+    language: "C#"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2024-04-05"
 ---
 
 # stephentoub

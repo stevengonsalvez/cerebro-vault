@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-10T06:04:44.283147+00:00"
+generated_at: "2026-10-11T06:04:44.624574+00:00"
 provenance:
   - "48dbbdd8fd0d3029"
-pushes_per_week: [17, 17, 15, 10, 3, 1, 4, 1, 0, 2, 5, 6, 1]
+pushes_per_week: [19, 18, 14, 8, 4, 0, 4, 1, 0, 2, 6, 5, 4]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    pushes: 4
+    distinct_repos: 2
+    active_days: 2
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "30d":
-    pushes: 14
-    distinct_repos: 4
-    active_days: 9
-    repos_not_owned: 2
-    not_owned_basenames: 2
+    pushes: 17
+    distinct_repos: 5
+    active_days: 10
+    repos_not_owned: 3
+    not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 82
-    distinct_repos: 11
-    active_days: 40
-    repos_not_owned: 7
-    not_owned_basenames: 7
+    pushes: 85
+    distinct_repos: 12
+    active_days: 41
+    repos_not_owned: 8
+    not_owned_basenames: 8
     not_owned_owners: 4
 automation:
   state: "clear"
-  push_per_day: 2.0500
-  repo_per_active_day: 0.2750
-  not_owned_ratio: 0.6364
-  basename_concentration: 0.0909
+  push_per_day: 2.0732
+  repo_per_active_day: 0.2927
+  not_owned_ratio: 0.6667
+  basename_concentration: 0.0833
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    pushes: 4
+    distinct_repos: 2
+    pushes_per_repo: 2.0000
+    active_days: 2
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "30d":
-    pushes: 14
-    distinct_repos: 4
-    pushes_per_repo: 3.5000
-    active_days: 9
-    repos_not_owned: 2
-    not_owned_basenames: 2
+    pushes: 17
+    distinct_repos: 5
+    pushes_per_repo: 3.4000
+    active_days: 10
+    repos_not_owned: 3
+    not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 82
-    distinct_repos: 11
-    pushes_per_repo: 7.4545
-    active_days: 40
-    repos_not_owned: 7
-    not_owned_basenames: 7
+    pushes: 85
+    distinct_repos: 12
+    pushes_per_repo: 7.0833
+    active_days: 41
+    repos_not_owned: 8
+    not_owned_basenames: 8
     not_owned_owners: 4
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 40 active days in 90d — pass"
+  - "activity: 41 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "mcp-webcam"
@@ -141,6 +141,6 @@ repos:
 
 # evalstate
 
-82 pushes across 11 repositories on 40 active days in the last 90 days of public GitHub push activity.
+85 pushes across 12 repositories on 41 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/evalstate

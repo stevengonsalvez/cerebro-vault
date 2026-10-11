@@ -8,11 +8,11 @@ provenance_repos:
   - "1jehuang/jcode"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-10T06:04:44.283147+00:00"
+repos_populated: true
+generated_at: "2026-10-11T06:04:44.624574+00:00"
 provenance:
   - "2a7f0fddd2dac162"
-pushes_per_week: [3, 3, 0, 0, 0, 0, 0, 0, 0, 1, 3, 4, 0]
+pushes_per_week: [4, 2, 0, 0, 0, 0, 0, 0, 0, 2, 2, 4, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,33 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 9 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "codex-claude-companion"
+    title: "codex-claude-companion"
+    description: "Codex-native Claude review plugin for read-only, evidence-cited Opus review lanes."
+    language: "JavaScript"
+    topics:
+      - "agentic"
+      - "ai-code-review"
+      - "claude"
+      - "claude-code"
+      - "code-review"
+      - "codex"
+      - "codex-plugin"
+      - "nodejs"
+      - "opus"
+      - "sonnet"
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-09-28"
+  - name: "hermes-desktop-guide"
+    title: "hermes-desktop-guide"
+    description: null
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-06-03"
 ---
 
 # Kenmege

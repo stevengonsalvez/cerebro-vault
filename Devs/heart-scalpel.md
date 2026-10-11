@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-10T06:04:44.283147+00:00"
+generated_at: "2026-10-11T06:04:44.624574+00:00"
 provenance:
   - "16389f32495280ea"
-pushes_per_week: [3, 1, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0]
+pushes_per_week: [2, 1, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,7 +29,7 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 6
+    pushes: 5
     distinct_repos: 1
     active_days: 5
     repos_not_owned: 0
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.2000
+  push_per_day: 1.0000
   repo_per_active_day: 0.2000
   not_owned_ratio: 0.0000
   basename_concentration: 1.0000
@@ -65,9 +65,9 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 6
+    pushes: 5
     distinct_repos: 1
-    pushes_per_repo: 6.0000
+    pushes_per_repo: 5.0000
     active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -105,6 +105,6 @@ repos:
 
 # heart-scalpel
 
-6 pushes across 1 repository on 5 active days in the last 90 days of public GitHub push activity.
+5 pushes across 1 repository on 5 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/heart-scalpel

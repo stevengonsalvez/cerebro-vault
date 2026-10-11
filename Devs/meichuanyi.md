@@ -8,16 +8,16 @@ provenance_repos:
   - "BuilderIO/agent-native"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-10T06:04:44.283147+00:00"
+repos_populated: true
+generated_at: "2026-10-11T06:04:44.624574+00:00"
 provenance:
   - "745308b2b7085095"
-pushes_per_week: [0, 0, 0, 1, 0, 0, 0, 0, 0, 4, 6, 5, 3]
+pushes_per_week: [0, 0, 1, 0, 0, 0, 0, 0, 0, 4, 9, 2, 3]
 windows:
   "7d":
-    pushes: 4
+    pushes: 3
     distinct_repos: 2
-    active_days: 3
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 4
+    pushes: 3
     distinct_repos: 2
-    pushes_per_repo: 2.0000
-    active_days: 3
+    pushes_per_repo: 1.5000
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -76,7 +76,47 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 13 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "HarnessGate"
+    title: "HarnessGate"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-11"
+  - name: "anka"
+    title: "anka"
+    description: "Anka — Anki, reborn. AI-native spaced repetition: Rust core, FSRS scheduling, .apkg compatible, MCP-native."
+    language: "Rust"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-09"
+  - name: "OpenKTV"
+    title: "OpenKTV"
+    description: "基于 junyao-ktv 的家庭KTV增强版:B站/YouTube在线搜歌下载、Demucs AI伴奏分离、双音轨入库"
+    language: "HTML"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-08"
+  - name: "siyuan-plugin-plan-hub"
+    title: "siyuan-plugin-plan-hub"
+    description: "计划中枢 - SiYuan plugin for structured life/annual/weekly planning"
+    language: "Svelte"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-08"
+  - name: "deskcal"
+    title: "deskcal"
+    description: "DeskCal — 一款极简的 Windows 桌面日历应用，支持本地任务管理与 Mindwtr 任务双向同步。Built with Tauri 2 + React + TypeScript."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-02"
 ---
 
 # meichuanyi

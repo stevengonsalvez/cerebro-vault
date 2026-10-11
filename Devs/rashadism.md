@@ -8,11 +8,11 @@ provenance_repos:
   - "agent-substrate/substrate"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-10T06:04:44.283147+00:00"
+repos_populated: true
+generated_at: "2026-10-11T06:04:44.624574+00:00"
 provenance:
   - "a5ffcd0a46dd44fd"
-pushes_per_week: [9, 4, 4, 0, 2, 0, 1, 0, 1, 4, 1, 9, 3]
+pushes_per_week: [9, 4, 4, 0, 2, 0, 1, 0, 1, 4, 3, 7, 3]
 windows:
   "7d":
     pushes: 3
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 20 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "ate-oc"
+    title: "ate-oc"
+    description: null
+    language: "Go"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-05"
+  - name: "test123"
+    title: "test123"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-15"
+  - name: "openchoreo-foundry-selfservice"
+    title: "openchoreo-foundry-selfservice"
+    description: null
+    language: "Go"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-25"
+  - name: "clipstash"
+    title: "clipstash"
+    description: null
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-04"
+  - name: "openchoreo-azure-foundry"
+    title: "openchoreo-azure-foundry"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-07-17"
+  - name: "oc-demo-gitops"
+    title: "oc-demo-gitops"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-07-02"
 ---
 
 # rashadism

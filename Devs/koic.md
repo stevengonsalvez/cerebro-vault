@@ -8,11 +8,11 @@ provenance_repos:
   - "agentskills/agentskills"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-10T06:04:44.283147+00:00"
+repos_populated: true
+generated_at: "2026-10-11T06:04:44.624574+00:00"
 provenance:
   - "48dbbdd8fd0d3029"
-pushes_per_week: [14, 5, 4, 3, 7, 4, 1, 0, 1, 3, 5, 15, 8]
+pushes_per_week: [16, 3, 4, 3, 8, 3, 1, 0, 1, 5, 6, 12, 8]
 windows:
   "7d":
     pushes: 8
@@ -76,7 +76,67 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 39 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "minifyrb"
+    title: "minifyrb"
+    description: "A minifier of Ruby files."
+    language: "Ruby"
+    topics:
+      - "minify"
+      - "minify-ruby"
+      - "ruby"
+      - "uglify"
+    stars_fact: 24
+    first_seen: null
+    last_push: "2025-01-02"
+  - name: "rubocop-faker"
+    title: "rubocop-faker"
+    description: "A RuboCop extension for Faker."
+    language: "Ruby"
+    topics:
+      - "converter"
+      - "faker"
+      - "linter"
+      - "rubocop"
+      - "ruby"
+      - "static-code-analysis"
+    stars_fact: 22
+    first_seen: null
+    last_push: "2025-02-18"
+  - name: "ruby_ast_visualizer"
+    title: "ruby_ast_visualizer"
+    description: ":evergreen_tree: Ruby AST Visualizer. Based on Parser."
+    language: "Ruby"
+    topics:
+      - "ast"
+      - "ruby"
+    stars_fact: 28
+    first_seen: null
+    last_push: "2018-03-23"
+  - name: "dotfiles"
+    title: "dotfiles"
+    description: "koic's dotfiles"
+    language: "Emacs Lisp"
+    topics: []
+    stars_fact: 6
+    first_seen: null
+    last_push: "2024-12-18"
+  - name: "rubocop-oracle"
+    title: "rubocop-oracle"
+    description: "A RuboCop extension for Active Record Oracle enhanced adapter."
+    language: "Ruby"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2025-04-05"
+  - name: "death-command"
+    title: "death-command"
+    description: ":metal: Say \"DEATH\" with death voice."
+    language: "Ruby"
+    topics: []
+    stars_fact: 14
+    first_seen: null
+    last_push: "2022-12-19"
 ---
 
 # koic

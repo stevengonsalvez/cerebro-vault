@@ -8,37 +8,37 @@ provenance_repos:
   - "AlexsJones/llmfit"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-10T06:04:44.283147+00:00"
+repos_populated: true
+generated_at: "2026-10-11T06:04:44.624574+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [1, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 3, 0]
+pushes_per_week: [1, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 3, 1]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 3
-    distinct_repos: 2
-    active_days: 2
+    pushes: 4
+    distinct_repos: 3
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 6
+    pushes: 7
     distinct_repos: 4
-    active_days: 5
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.2000
-  repo_per_active_day: 0.8000
+  push_per_day: 1.1667
+  repo_per_active_day: 0.6667
   not_owned_ratio: 0.0000
   basename_concentration: 0.2500
   shapes: []
@@ -49,38 +49,96 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
+    pushes: 1
+    distinct_repos: 1
+    pushes_per_repo: 1.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 3
-    distinct_repos: 2
-    pushes_per_repo: 1.5000
-    active_days: 2
+    pushes: 4
+    distinct_repos: 3
+    pushes_per_repo: 1.3333
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 6
+    pushes: 7
     distinct_repos: 4
-    pushes_per_repo: 1.5000
-    active_days: 5
+    pushes_per_repo: 1.7500
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 5 active days in 90d — pass"
+  - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "quietdesk"
+    title: "quietdesk"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-10"
+  - name: "voice-assistant"
+    title: "voice-assistant"
+    description: "Self-hosted, offline-first voice assistant for your home — wake-word, streaming ASR (whisper.cpp), local LLM agent with tools (LocalAI/Gemma), streaming XTTS, speaker ID, semantic memory, desktop automation. No cloud API keys."
+    language: "Python"
+    topics:
+      - "gemma"
+      - "home-automation"
+      - "llm"
+      - "localai"
+      - "offline-first"
+      - "privacy"
+      - "self-hosted"
+      - "tts"
+      - "voice-assistant"
+      - "whisper"
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-10-10"
+  - name: "tldr-free"
+    title: "tldr-free"
+    description: "Local Chrome extension + Python daemon for streaming summaries and Q&A on web pages and YouTube videos. Works with any OpenAI-compatible backend. Nothing leaves your machine."
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-04"
+  - name: "media-scrubber"
+    title: "media-scrubber"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-29"
+  - name: "curio"
+    title: "curio"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-14"
+  - name: "coloring"
+    title: "coloring"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-07-23"
 ---
 
 # melnikaite
 
-6 pushes across 4 repositories on 5 active days in the last 90 days of public GitHub push activity.
+7 pushes across 4 repositories on 6 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/melnikaite

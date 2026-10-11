@@ -8,11 +8,11 @@ provenance_repos:
   - "antirez/ds4"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-10T06:04:44.283147+00:00"
+repos_populated: true
+generated_at: "2026-10-11T06:04:44.624574+00:00"
 provenance:
   - "3eacb4655aba2497"
-pushes_per_week: [1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 2, 0, 0]
+pushes_per_week: [1, 0, 0, 0, 0, 0, 0, 0, 1, 2, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 4
+    pushes: 3
     distinct_repos: 2
-    active_days: 4
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 4
+    pushes: 3
     distinct_repos: 2
-    pushes_per_repo: 2.0000
-    active_days: 4
+    pushes_per_repo: 1.5000
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "ds4-v41-m3ultra"
+    title: "ds4-v41-m3ultra"
+    description: "DeepSeek V4.1 Flash on the Apple M3 Ultra: Metal decode and prefill kernels, DSpark speculative decoding, KV disk store. Built on antirez/ds4 (upstream base bd66c40)."
+    language: "C"
+    topics: []
+    stars_fact: 6
+    first_seen: null
+    last_push: "2026-09-19"
+  - name: "mafp8800-fingerprint-driver"
+    title: "mafp8800-fingerprint-driver"
+    description: "Open-source Linux fingerprint driver for the Microarray MAFP8800 sensor (GPD MicroPC 2). Protocol docs, matching algorithm analysis, and full source."
+    language: "C"
+    topics: []
+    stars_fact: 8
+    first_seen: null
+    last_push: "2026-04-13"
+  - name: "skills"
+    title: "skills"
+    description: "Custom Claude Code skills"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-20"
+  - name: "LegrandLC7001"
+    title: "LegrandLC7001"
+    description: "A node server that runs local to your Legrand LC7001 and uses your Anthropic API key to accept natural language commands and manipulate your lights accordingly. This is necessary because Siri is still well below the standards of modern AI so homekit isn't very helpful.."
+    language: "JavaScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2025-12-14"
+  - name: "shorehand"
+    title: "shorehand"
+    description: "Shorehand — the local answer to ChatGPT's agent containers. Open WebUI ↔ deepseek-harness (dsh) bridge: full agent chats against your own locally hosted DeepSeek V4 on Apple Silicon."
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-14"
+  - name: "libfprint-mafp"
+    title: "libfprint-mafp"
+    description: "Open-source Linux fingerprint driver for the Microarray MAFP8800 SPI sensor (GPD MicroPC 2 and others)"
+    language: "C"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-07-16"
 ---
 
 # IngeniousIdiocy

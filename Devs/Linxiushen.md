@@ -8,11 +8,11 @@ provenance_repos:
   - "alibaba/open-code-review"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-10T06:04:44.283147+00:00"
+repos_populated: true
+generated_at: "2026-10-11T06:04:44.624574+00:00"
 provenance:
   - "c489e6fb5febf2ab"
-pushes_per_week: [0, 0, 0, 3, 1, 0, 0, 0, 0, 3, 6, 10, 1]
+pushes_per_week: [0, 0, 0, 3, 1, 0, 0, 0, 0, 3, 8, 8, 1]
 windows:
   "7d":
     pushes: 1
@@ -76,7 +76,71 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 13 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "coding-agent-rule-audit"
+    title: "coding-agent-rule-audit"
+    description: "Reproducible research materials for auditing coding-agent rule updates; exploratory working paper, not a claim of RSI or learned-method superiority."
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-09"
+  - name: "Linxiushen"
+    title: "Linxiushen"
+    description: "Enterprise AI implementation and selected open-source work"
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-04"
+  - name: "dsh-workflow-isolate"
+    title: "dsh-workflow-isolate"
+    description: "QuickJS/WASM-isolated workflow engine for DeepSeek Harness with bounded resource controls"
+    language: "TypeScript"
+    topics:
+      - "agentic-ai"
+      - "deepseek-harness"
+      - "dsh-plugin"
+      - "quickjs"
+      - "sandbox"
+      - "typescript"
+      - "webassembly"
+      - "workflow-engine"
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-10-01"
+  - name: "changesafe-agent-infra"
+    title: "changesafe-agent-infra"
+    description: "Multi-agent change-risk rehearsal, canary verification, and automatic rollback for GOAI Agent Infra."
+    language: "JavaScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-08-03"
+  - name: "precedent"
+    title: "precedent"
+    description: "Self-evolving Claude Code harness with a verified self-modification loop (Apache-2.0)"
+    language: "Python"
+    topics:
+      - "agent-memory"
+      - "agent-skills"
+      - "ai-safety"
+      - "claude-code"
+      - "llm-agents"
+      - "recursive-self-improvement"
+      - "rsi"
+      - "self-improving-agents"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-24"
+  - name: "chatgraph"
+    title: "chatgraph"
+    description: "Turn AI conversations into editable, source-linked knowledge maps. 对话图谱，让思考留下来。"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-22"
 ---
 
 # Linxiushen

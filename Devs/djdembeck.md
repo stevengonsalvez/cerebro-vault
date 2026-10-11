@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-10T06:04:44.283147+00:00"
+generated_at: "2026-10-11T06:04:44.624574+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [6, 26, 19, 17, 13, 1, 1, 0, 0, 0, 4, 1, 1]
+pushes_per_week: [6, 29, 16, 17, 12, 2, 0, 0, 0, 0, 4, 1, 1]
 windows:
   "7d":
     pushes: 1
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 89
+    pushes: 88
     distinct_repos: 12
-    active_days: 34
+    active_days: 33
     repos_not_owned: 3
     not_owned_basenames: 2
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 2.6176
-  repo_per_active_day: 0.3529
+  push_per_day: 2.6667
+  repo_per_active_day: 0.3636
   not_owned_ratio: 0.2500
   basename_concentration: 0.1667
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 89
+    pushes: 88
     distinct_repos: 12
-    pushes_per_repo: 7.4167
-    active_days: 34
+    pushes_per_repo: 7.3333
+    active_days: 33
     repos_not_owned: 3
     not_owned_basenames: 2
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 34 active days in 90d — pass"
+  - "activity: 33 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "media-archive-sync"
@@ -163,6 +163,6 @@ repos:
 
 # djdembeck
 
-89 pushes across 12 repositories on 34 active days in the last 90 days of public GitHub push activity.
+88 pushes across 12 repositories on 33 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/djdembeck

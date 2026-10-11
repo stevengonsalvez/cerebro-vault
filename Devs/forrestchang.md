@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-10T06:04:44.283147+00:00"
+generated_at: "2026-10-11T06:04:44.624574+00:00"
 provenance:
   - "ca6e9330cc1b2a53"
-pushes_per_week: [20, 3, 9, 4, 10, 3, 1, 0, 4, 5, 15, 7, 0]
+pushes_per_week: [18, 3, 9, 4, 11, 3, 0, 0, 4, 7, 20, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 2
   "90d":
-    pushes: 81
+    pushes: 79
     distinct_repos: 5
-    active_days: 30
+    active_days: 29
     repos_not_owned: 3
     not_owned_basenames: 2
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 2.7000
-  repo_per_active_day: 0.1667
+  push_per_day: 2.7241
+  repo_per_active_day: 0.1724
   not_owned_ratio: 0.6000
   basename_concentration: 0.4000
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 2
   "90d":
-    pushes: 81
+    pushes: 79
     distinct_repos: 5
-    pushes_per_repo: 16.2000
-    active_days: 30
+    pushes_per_repo: 15.8000
+    active_days: 29
     repos_not_owned: 3
     not_owned_basenames: 2
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 30 active days in 90d — pass"
+  - "activity: 29 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "worktree-workflow"
@@ -129,6 +129,6 @@ repos:
 
 # forrestchang
 
-81 pushes across 5 repositories on 30 active days in the last 90 days of public GitHub push activity.
+79 pushes across 5 repositories on 29 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/forrestchang

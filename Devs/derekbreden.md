@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-10T06:04:44.283147+00:00"
+generated_at: "2026-10-11T06:04:44.624574+00:00"
 provenance:
   - "0b22ca37fd3884c9"
-pushes_per_week: [33, 29, 28, 52, 60, 23, 55, 7, 7, 62, 71, 41, 38]
+pushes_per_week: [41, 24, 25, 59, 64, 30, 40, 3, 10, 77, 57, 57, 22]
 windows:
   "7d":
-    pushes: 41
+    pushes: 34
     distinct_repos: 1
     active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 215
+    pushes: 219
     distinct_repos: 2
-    active_days: 27
+    active_days: 28
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 506
+    pushes: 509
     distinct_repos: 3
     active_days: 80
     repos_not_owned: 0
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 6.3250
+  push_per_day: 6.3625
   repo_per_active_day: 0.0375
   not_owned_ratio: 0.0000
   basename_concentration: 0.3333
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 41
+    pushes: 34
     distinct_repos: 1
-    pushes_per_repo: 41.0000
+    pushes_per_repo: 34.0000
     active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 215
+    pushes: 219
     distinct_repos: 2
-    pushes_per_repo: 107.5000
-    active_days: 27
+    pushes_per_repo: 109.5000
+    active_days: 28
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 506
+    pushes: 509
     distinct_repos: 3
-    pushes_per_repo: 168.6667
+    pushes_per_repo: 169.6667
     active_days: 80
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -129,6 +129,6 @@ repos:
 
 # derekbreden
 
-506 pushes across 3 repositories on 80 active days in the last 90 days of public GitHub push activity.
+509 pushes across 3 repositories on 80 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/derekbreden

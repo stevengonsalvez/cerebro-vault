@@ -8,37 +8,37 @@ provenance_repos:
   - "rohitg00/ai-engineering-from-scratch"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-10T06:04:44.283147+00:00"
+repos_populated: true
+generated_at: "2026-10-11T06:04:44.624574+00:00"
 provenance:
   - "7b553354eb544407"
-pushes_per_week: [15, 8, 6, 4, 12, 5, 11, 2, 1, 0, 9, 25, 6]
+pushes_per_week: [16, 7, 7, 3, 13, 5, 10, 3, 0, 0, 11, 23, 9]
 windows:
   "7d":
-    pushes: 6
+    pushes: 9
     distinct_repos: 2
-    active_days: 4
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 40
+    pushes: 43
     distinct_repos: 6
-    active_days: 14
+    active_days: 15
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 104
+    pushes: 107
     distinct_repos: 8
-    active_days: 46
+    active_days: 47
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 2.2609
-  repo_per_active_day: 0.1739
+  push_per_day: 2.2766
+  repo_per_active_day: 0.1702
   not_owned_ratio: 0.5000
   basename_concentration: 0.2500
   shapes: []
@@ -49,38 +49,151 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 6
+    pushes: 9
     distinct_repos: 2
-    pushes_per_repo: 3.0000
-    active_days: 4
+    pushes_per_repo: 4.5000
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 40
+    pushes: 43
     distinct_repos: 6
-    pushes_per_repo: 6.6667
-    active_days: 14
+    pushes_per_repo: 7.1667
+    active_days: 15
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 104
+    pushes: 107
     distinct_repos: 8
-    pushes_per_repo: 13.0000
-    active_days: 46
+    pushes_per_repo: 13.3750
+    active_days: 47
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 46 active days in 90d — pass"
+  - "activity: 47 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "ai-engineering-from-scratch"
+    title: "ai-engineering-from-scratch"
+    description: "Learn AI Engineering! Learn it. Build it. Ship it for others."
+    language: "Python"
+    topics:
+      - "agents"
+      - "ai"
+      - "ai-agents"
+      - "ai-engineering"
+      - "computer-vision"
+      - "course"
+      - "deep-learning"
+      - "from-scratch"
+      - "generative-ai"
+      - "llm"
+      - "machine-learning"
+      - "mcp"
+      - "nlp"
+      - "python"
+      - "reinforcement-learning"
+      - "rust"
+      - "swarm-intelligence"
+      - "transformers"
+      - "tutorial"
+      - "typescript"
+    stars_fact: 66903
+    first_seen: "2026-07-21T06:00:01.973180+00:00"
+    last_push: "2026-10-11"
+  - name: "agentmemory"
+    title: "agentmemory"
+    description: "#1 Persistent memory for AI coding agents based on real-world benchmarks"
+    language: "TypeScript"
+    topics:
+      - "agentmemory"
+      - "agents"
+      - "ai"
+      - "claude"
+      - "claudecode"
+      - "codex"
+      - "copilot"
+      - "cursor"
+      - "genai"
+      - "harness"
+      - "hermes"
+      - "memory"
+      - "openclaw"
+    stars_fact: 29295
+    first_seen: null
+    last_push: "2026-10-10"
+  - name: "rohitg00"
+    title: "rohitg00"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 42
+    first_seen: null
+    last_push: "2026-10-11"
+  - name: "awesome-claude-design"
+    title: "awesome-claude-design"
+    description: "Claude Design DESIGN.md prompts by aesthetic family, remix recipes, skills, video teardowns, X signal, honest community takes."
+    language: null
+    topics:
+      - "ai-design"
+      - "anthropic"
+      - "awesome"
+      - "awesome-list"
+      - "claude-code"
+      - "claude-design"
+      - "claude-skills"
+      - "design-md"
+      - "design-system"
+    stars_fact: 1139
+    first_seen: null
+    last_push: "2026-04-23"
+  - name: "awesome-claude-code-toolkit"
+    title: "awesome-claude-code-toolkit"
+    description: "The most comprehensive toolkit for Claude Code -- 135 agents, 35 curated skills, 42 commands, 176+ plugins, 20 hooks, 15 rules, 7 templates, 14 MCP configs, 26 companion apps, 52 ecosystem entries, and more."
+    language: "JavaScript"
+    topics:
+      - "claude"
+      - "claude-code"
+      - "claudecode"
+      - "claudecode-hooks"
+      - "plugins"
+      - "skills"
+    stars_fact: 2687
+    first_seen: null
+    last_push: "2026-05-12"
+  - name: "k8sgames"
+    title: "k8sgames"
+    description: "Learn Kubernetes by playing. Deploy pods, fix CrashLoopBackOff, type real kubectl commands: 3D browser game, no install needed."
+    language: "JavaScript"
+    topics:
+      - "browser-game"
+      - "cka"
+      - "cloud-native"
+      - "containers"
+      - "devops"
+      - "education"
+      - "games"
+      - "gamification"
+      - "k8s"
+      - "k8sgames"
+      - "kubectl"
+      - "kubernetes"
+      - "kubernetes-learning"
+      - "learning"
+      - "simulation"
+      - "sre"
+      - "threejs"
+    stars_fact: 1399
+    first_seen: null
+    last_push: "2026-04-28"
 ---
 
 # rohitg00
 
-104 pushes across 8 repositories on 46 active days in the last 90 days of public GitHub push activity.
+107 pushes across 8 repositories on 47 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/rohitg00

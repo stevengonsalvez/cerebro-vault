@@ -8,16 +8,16 @@ provenance_repos:
   - "AlexsJones/llmfit"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-10T06:04:44.283147+00:00"
+repos_populated: true
+generated_at: "2026-10-11T06:04:44.624574+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [5, 4, 0, 0, 0, 0, 0, 0, 0, 2, 1, 4, 2]
+pushes_per_week: [6, 3, 0, 0, 0, 0, 0, 0, 0, 2, 1, 5, 1]
 windows:
   "7d":
-    pushes: 4
+    pushes: 2
     distinct_repos: 1
-    active_days: 3
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 4
+    pushes: 2
     distinct_repos: 1
-    pushes_per_repo: 4.0000
-    active_days: 3
+    pushes_per_repo: 2.0000
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -76,7 +76,80 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 13 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "givenergy-simulator"
+    title: "givenergy-simulator"
+    description: "Digital twin of a GivEnergy solar + battery plant for testing client apps"
+    language: "Rust"
+    topics: []
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-10-04"
+  - name: "home-energy-manager"
+    title: "home-energy-manager"
+    description: "Desktop app for monitoring and controlling GivEnergy solar inverters over your local network — no cloud account needed"
+    language: "Rust"
+    topics:
+      - "battery"
+      - "energy-monitoring"
+      - "givenergy"
+      - "home-automation"
+      - "inverter"
+      - "modbus"
+      - "solar"
+      - "tauri"
+    stars_fact: 34
+    first_seen: null
+    last_push: "2026-10-09"
+  - name: "milsymbol-sidc"
+    title: "milsymbol-sidc"
+    description: "Fluent TypeScript builder for MIL-STD-2525E / APP-6 numeric (20-character) SIDC strings, for use with the milsymbol library"
+    language: "TypeScript"
+    topics:
+      - "app-6"
+      - "app6"
+      - "builder"
+      - "c2"
+      - "fluent-api"
+      - "joint-military-symbology"
+      - "mil-std-2525"
+      - "military"
+      - "military-symbology"
+      - "milstd2525e"
+      - "milsymbol"
+      - "nato"
+      - "sidc"
+      - "symbol-identification-code"
+      - "symbology"
+      - "tactical-graphics"
+      - "typescript"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-10"
+  - name: "castaway-beacon-defold"
+    title: "castaway-beacon-defold"
+    description: null
+    language: "Lua"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-14"
+  - name: "castaway-beacon"
+    title: "castaway-beacon"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-12"
+  - name: "autonomous-booksmith"
+    title: "autonomous-booksmith"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-04-16"
 ---
 
 # psylsph

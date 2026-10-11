@@ -8,16 +8,16 @@ provenance_repos:
   - "abhigyanpatwari/GitNexus"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-10T06:04:44.283147+00:00"
+repos_populated: true
+generated_at: "2026-10-11T06:04:44.624574+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 5, 6]
+pushes_per_week: [1, 0, 0, 0, 0, 0, 0, 0, 0, 2, 3, 5, 3]
 windows:
   "7d":
-    pushes: 7
+    pushes: 6
     distinct_repos: 3
-    active_days: 4
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 7
+    pushes: 6
     distinct_repos: 3
-    pushes_per_repo: 2.3333
-    active_days: 4
+    pushes_per_repo: 2.0000
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 8 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "computer-remote"
+    title: "computer-remote"
+    description: "computer-remote"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-05"
+  - name: "aidev"
+    title: "aidev"
+    description: null
+    language: "Go"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-05"
+  - name: "Axiom-Office"
+    title: "Axiom-Office"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-05"
+  - name: "chatgpt-lookup"
+    title: "chatgpt-lookup"
+    description: "MCP server: hỏi ChatGPT qua Chrome (Xvfb ẩn UI), mỗi call một profile Chrome riêng — không lỗi singleton đa session"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-04"
+  - name: "WebSift"
+    title: "WebSift"
+    description: null
+    language: "Go"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-22"
+  - name: "translate-pdf"
+    title: "translate-pdf"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-26"
 ---
 
 # rgb-vgx

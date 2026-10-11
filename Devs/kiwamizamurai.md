@@ -8,11 +8,11 @@ provenance_repos:
   - "anthropics/claude-code-action"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-10T06:04:44.283147+00:00"
+repos_populated: true
+generated_at: "2026-10-11T06:04:44.624574+00:00"
 provenance:
   - "0b22ca37fd3884c9"
-pushes_per_week: [0, 2, 0, 0, 0, 0, 0, 0, 0, 1, 4, 1, 4]
+pushes_per_week: [0, 2, 0, 0, 0, 0, 0, 0, 0, 1, 4, 1, 5]
 windows:
   "7d":
     pushes: 5
@@ -22,25 +22,25 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 10
-    distinct_repos: 7
-    active_days: 6
+    pushes: 11
+    distinct_repos: 8
+    active_days: 7
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 12
-    distinct_repos: 8
-    active_days: 8
+    pushes: 13
+    distinct_repos: 9
+    active_days: 9
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.5000
+  push_per_day: 1.4444
   repo_per_active_day: 1.0000
-  not_owned_ratio: 0.1250
-  basename_concentration: 0.1250
+  not_owned_ratio: 0.1111
+  basename_concentration: 0.1111
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -57,30 +57,142 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 10
-    distinct_repos: 7
-    pushes_per_repo: 1.4286
-    active_days: 6
+    pushes: 11
+    distinct_repos: 8
+    pushes_per_repo: 1.3750
+    active_days: 7
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 12
-    distinct_repos: 8
-    pushes_per_repo: 1.5000
-    active_days: 8
+    pushes: 13
+    distinct_repos: 9
+    pushes_per_repo: 1.4444
+    active_days: 9
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 8 active days in 90d — pass"
+  - "activity: 9 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "zero-to-robot"
+    title: "zero-to-robot"
+    description: "ゼロからロボット工学を学ぶ学習リポジトリ。スクラッチ実装 → 数値検算 → 可視化 → Typst による数式証明。17 のサンプルアプリはブラウザでシミュレーションできる"
+    language: "HTML"
+    topics:
+      - "control"
+      - "dynamics"
+      - "github-pages"
+      - "imitation-learning"
+      - "kalman-filter"
+      - "kinematics"
+      - "motion-planning"
+      - "mujoco"
+      - "reinforcement-learning"
+      - "robotics"
+      - "simulation"
+      - "typst"
+      - "webassembly"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-04"
+  - name: "gaming"
+    title: "gaming"
+    description: "中華製携帯ゲーム機を教材に、コンピュータとゲーム、ソフト/ハードウェア、中国語を学ぶ調査まとめ"
+    language: null
+    topics:
+      - "chinese"
+      - "emulation"
+      - "game-development"
+      - "handheld"
+      - "japanese"
+      - "knulli"
+      - "retro-gaming"
+      - "retroid-pocket"
+      - "rocknix"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-03"
+  - name: "dotfiles"
+    title: "dotfiles"
+    description: "my macOS development environment — Stow-managed, one-line installer."
+    language: "Lua"
+    topics:
+      - "aerospace"
+      - "brewfile"
+      - "dotfiles"
+      - "lua"
+      - "macos"
+      - "neovim"
+      - "stow"
+      - "wezterm"
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-10-03"
+  - name: "closing-quest"
+    title: "closing-quest"
+    description: "1年間の経理業務を体験する 3D すごろく（月次決算がサブゴール）"
+    language: "TypeScript"
+    topics:
+      - "accounting"
+      - "board-game"
+      - "bookkeeping"
+      - "browser-game"
+      - "education"
+      - "educational-game"
+      - "japanese"
+      - "sugoroku"
+      - "threejs"
+      - "typescript"
+      - "vite"
+      - "webgl"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-26"
+  - name: "puzzle-drive-gp"
+    title: "puzzle-drive-gp"
+    description: "A turn-based Pyxel/WASM racing game: match-3 puzzle movement, flick-physics duels, gacha driver collection."
+    language: "Python"
+    topics:
+      - "browser-game"
+      - "gacha"
+      - "game"
+      - "procedural-generation"
+      - "puzzle-game"
+      - "python"
+      - "pyxel"
+      - "retro-game"
+      - "wasm"
+      - "webassembly"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-27"
+  - name: "accounting-quest"
+    title: "accounting-quest"
+    description: "A visual novel-style educational game that teaches accounting fundamentals through running a lemonade stand. Built with Phaser 3 and TypeScript."
+    language: "TypeScript"
+    topics:
+      - "accounting"
+      - "bookkeeping"
+      - "double-entry-bookkeeping"
+      - "education"
+      - "educational-game"
+      - "finance"
+      - "game"
+      - "learning"
+      - "phaser"
+      - "phaser3"
+      - "typescript"
+      - "visual-novel"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-26"
 ---
 
 # kiwamizamurai
 
-12 pushes across 8 repositories on 8 active days in the last 90 days of public GitHub push activity.
+13 pushes across 9 repositories on 9 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/kiwamizamurai

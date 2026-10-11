@@ -9,11 +9,11 @@ provenance_repos:
   - "apache/maka"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-10T06:04:44.283147+00:00"
+repos_populated: true
+generated_at: "2026-10-11T06:04:44.624574+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [13, 19, 19, 7, 49, 6, 9, 0, 0, 0, 7, 4, 0]
+pushes_per_week: [17, 15, 19, 15, 41, 8, 7, 0, 0, 1, 8, 2, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,7 +77,67 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 31 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "OpenCLI"
+    title: "OpenCLI"
+    description: "Make Any Website into CLI & Use your logged-in browser by AI agent."
+    language: "JavaScript"
+    topics:
+      - "ai-agent"
+      - "ai-agents"
+      - "ai-tools"
+      - "browser-automation"
+      - "browser-use"
+      - "cli"
+      - "playwright"
+    stars_fact: 30039
+    first_seen: null
+    last_push: "2026-10-10"
+  - name: "xhs-cli"
+    title: "xhs-cli"
+    description: "小红书命令行工具 — 搜索、阅读、点赞、收藏、评论，全在终端完成 | Xiaohongshu CLI"
+    language: "Python"
+    topics:
+      - "cli"
+      - "python"
+      - "redbook"
+      - "xhs"
+      - "xiaohongshu"
+    stars_fact: 666
+    first_seen: null
+    last_push: "2026-10-09"
+  - name: "wx-cli-again"
+    title: "wx-cli-again"
+    description: "WeChat local data CLI (query/decrypt/export) — fresh start from wx-cli"
+    language: "Rust"
+    topics: []
+    stars_fact: 814
+    first_seen: null
+    last_push: "2026-09-14"
+  - name: "xiaohongshu-cli"
+    title: "xiaohongshu-cli"
+    description: "A CLI for Xiaohongshu (小红书) — search, read, interact via reverse-engineered API"
+    language: "Python"
+    topics: []
+    stars_fact: 2663
+    first_seen: null
+    last_push: "2026-03-21"
+  - name: "open-antigravity"
+    title: "open-antigravity"
+    description: "Expose Antigravity as OpenAI & Anthropic compatible API (base_url + key)"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 208
+    first_seen: null
+    last_push: "2026-03-21"
+  - name: "opencli-website"
+    title: "opencli-website"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 7
+    first_seen: null
+    last_push: "2026-10-10"
 ---
 
 # jackwener

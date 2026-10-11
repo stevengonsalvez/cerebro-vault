@@ -8,11 +8,11 @@ provenance_repos:
   - "akitaonrails/ai-memory"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-10T06:04:44.283147+00:00"
+repos_populated: true
+generated_at: "2026-10-11T06:04:44.624574+00:00"
 provenance:
   - "4138778ebbc75ba6"
-pushes_per_week: [2, 0, 0, 0, 1, 0, 0, 0, 2, 8, 24, 6, 3]
+pushes_per_week: [2, 0, 0, 0, 1, 0, 0, 0, 3, 8, 23, 6, 3]
 windows:
   "7d":
     pushes: 3
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 18 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "thinwire"
+    title: "thinwire"
+    description: "Thin multi-protocol desktop messenger (Rust + egui). Experimental unofficial protocol modules — see README."
+    language: "Rust"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-11"
+  - name: "bunderwar"
+    title: "bunderwar"
+    description: "My up-to date docker images with renovate and arm64/amd64 support"
+    language: "Earthly"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-10"
+  - name: "pi-agent-celld-spike"
+    title: "pi-agent-celld-spike"
+    description: "A spike: Pi Durable on celld with OpenSandbox as the execution environment, as one Helm chart. Five agents implement a feature, and a new pod continues the work."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-10"
+  - name: "python-binary-memcached"
+    title: "python-binary-memcached"
+    description: "A pure python module (thread safe) to access memcached via it's binary protocol with SASL auth support."
+    language: "Python"
+    topics: []
+    stars_fact: 167
+    first_seen: null
+    last_push: "2026-10-08"
+  - name: "debug-devices"
+    title: "debug-devices"
+    description: "MCP tools that let a coding agent see and measure real hardware: phone camera, multimeter via webcam + vision model, and boardview files"
+    language: "Python"
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-10-07"
+  - name: "hermes-deepgram-voice-plugin"
+    title: "hermes-deepgram-voice-plugin"
+    description: "Deepgram Aura TTS and Nova STT plugin for Hermes Agent"
+    language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-06"
 ---
 
 # jaysonsantos

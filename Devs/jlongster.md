@@ -8,8 +8,8 @@ provenance_repos:
   - "anomalyco/opencode"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-10T06:04:44.283147+00:00"
+repos_populated: true
+generated_at: "2026-10-11T06:04:44.624574+00:00"
 provenance:
   - "ffccace0ba14fd15"
 pushes_per_week: [12, 19, 4, 1, 4, 0, 8, 0, 0, 5, 0, 4, 2]
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 22 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "absurd-sql"
+    title: "absurd-sql"
+    description: "sqlite3 in ur indexeddb (hopefully a better backend soon)"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 4319
+    first_seen: null
+    last_push: "2023-08-06"
+  - name: "electron-with-server-example"
+    title: "electron-with-server-example"
+    description: "An example Electron app with a backend server all wired up via IPC"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 1015
+    first_seen: null
+    last_push: "2022-12-09"
+  - name: "ghub-media"
+    title: "ghub-media"
+    description: "Media (recordings, screenshots) attached by the ghub GitHub bot. No code."
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-08"
+  - name: "opencode-github-bot"
+    title: "opencode-github-bot"
+    description: "GitHub App bot that answers pull-request and issue comments with durable OpenCode conversations"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-08"
+  - name: "crdt-example-app"
+    title: "crdt-example-app"
+    description: "A full implementation of CRDTs using hybrid logical clocks and a demo app that uses it"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 663
+    first_seen: null
+    last_push: "2022-12-11"
+  - name: "classifications"
+    title: "classifications"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 17
+    first_seen: null
+    last_push: "2026-10-03"
 ---
 
 # jlongster

@@ -9,11 +9,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-10T06:04:44.283147+00:00"
+generated_at: "2026-10-11T06:04:44.624574+00:00"
 provenance:
   - "1df6ea1f1256059e"
   - "edb3a626875732de"
-pushes_per_week: [0, 0, 0, 0, 1, 0, 0, 0, 0, 24, 62, 2, 1]
+pushes_per_week: [0, 0, 0, 0, 1, 0, 0, 0, 2, 22, 62, 2, 1]
 windows:
   "7d":
     pushes: 1
@@ -78,33 +78,22 @@ reasons:
   - "activity: 10 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "agentpay-mcp"
-    title: "agentpay-mcp"
-    description: "Non-custodial x402 MCP payment layer for AI agents — the open-source alternative to Vercel x402-mcp"
+  - name: "webmcp-payments"
+    title: "webmcp-payments"
+    description: "x402 payment gate for WebMCP tools (npm: webmcp-payments). Default fee 0%."
     language: "TypeScript"
-    topics:
-      - "agentpay"
-      - "ai-agents"
-      - "mcp"
-      - "payments"
-      - "x402"
-    stars_fact: 6
+    topics: []
+    stars_fact: 0
     first_seen: null
-    last_push: "2026-10-03"
-  - name: "a0-readytrader-forex-plugin"
-    title: "a0-readytrader-forex-plugin"
-    description: "Agent Zero plugin for automated FOREX trading via ReadyTrader strategy engine"
-    language: "Python"
-    topics:
-      - "agent-zero"
-      - "ai"
-      - "automated-trading"
-      - "forex"
-      - "plugin"
-      - "trading"
-    stars_fact: 1
+    last_push: "2026-10-11"
+  - name: "clawpowers-guardian"
+    title: "clawpowers-guardian"
+    description: "Open-source security framework for AI agent skill ecosystems. Static analysis, behavioral monitoring, and trust scoring for OpenClaw skills and plugins."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
     first_seen: null
-    last_push: "2026-09-26"
+    last_push: "2026-10-11"
   - name: "agent-wallet-sdk"
     title: "agent-wallet-sdk"
     description: "Non-custodial crypto wallets for AI agents with on-chain spending limits. ERC-6551, x402 compatible, Base Mainnet."
@@ -118,48 +107,52 @@ repos:
       - "x402"
     stars_fact: 13
     first_seen: null
-    last_push: "2026-09-28"
-  - name: "ReadyTrader-Stocks"
-    title: "ReadyTrader-Stocks"
-    description: "MCP server for AI-powered stock trading — risk management, paper trading, brokerage integration"
-    language: "Python"
-    topics:
-      - "ai"
-      - "automated-trading"
-      - "stocks"
-      - "trading"
-      - "typescript"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-26"
-  - name: "AgentNexus2"
-    title: "AgentNexus2"
-    description: "AgentNexus2 is Base-native infrastructure for agent-to-agent payments, built around small, deterministic USDC escrow and settlement flows. It is designed for developers integrating autonomous agents and services that require verifiable, non-custodial payment coordination. AgentNexus2 is not a consumer application or marketplace."
+    last_push: "2026-10-11"
+  - name: "agentpay-mcp"
+    title: "agentpay-mcp"
+    description: "Non-custodial x402 MCP payment layer for AI agents — the open-source alternative to Vercel x402-mcp"
     language: "TypeScript"
     topics:
-      - "agent-payments-protocol"
-      - "base-ecosystem"
-      - "cctp-v2"
-      - "crypto-payments"
-      - "erc-4337"
-      - "multichain"
-      - "x402-payment"
-    stars_fact: 0
+      - "agentpay"
+      - "ai-agents"
+      - "mcp"
+      - "payments"
+      - "x402"
+    stars_fact: 8
     first_seen: null
-    last_push: "2026-09-26"
-  - name: "multi-clob-arb-scanner"
-    title: "multi-clob-arb-scanner"
-    description: "Independent multi-CLOB arbitrage scanner for prediction markets (Polymarket + Kalshi). Built after Polymarket acquired Dome."
-    language: "Python"
+    last_push: "2026-10-11"
+  - name: "agentpay-wallet-starter"
+    title: "agentpay-wallet-starter"
+    description: "Starter repo for AgentPay MCP plus Agent Wallet SDK, with a verified controlled paid-tool flow."
+    language: "Shell"
     topics:
-      - "arbitrage"
-      - "clob"
-      - "crypto"
-      - "scanner"
-      - "trading"
+      - "agentpay"
+      - "agentwallet"
+      - "ai-agents"
+      - "claude-desktop"
+      - "cursor"
+      - "mcp"
+      - "openclaw"
+      - "payments"
+      - "starter-repo"
+      - "x402"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-26"
+    last_push: "2026-10-07"
+  - name: "webmcp-sdk"
+    title: "webmcp-sdk"
+    description: "Full WebMCP developer toolkit — core, React, security, testing. Build agent-ready websites with navigator.modelContext"
+    language: "TypeScript"
+    topics:
+      - "ai-agents"
+      - "browser"
+      - "mcp"
+      - "sdk"
+      - "web"
+      - "webmcp"
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-10-07"
 ---
 
 # up2itnow0822

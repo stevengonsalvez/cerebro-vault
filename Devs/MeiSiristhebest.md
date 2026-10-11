@@ -8,11 +8,11 @@ provenance_repos:
   - "alibaba/open-code-review"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-10T06:04:44.283147+00:00"
+repos_populated: true
+generated_at: "2026-10-11T06:04:44.624574+00:00"
 provenance:
   - "c489e6fb5febf2ab"
-pushes_per_week: [5, 20, 36, 3, 5, 5, 5, 0, 2, 8, 4, 9, 3]
+pushes_per_week: [5, 20, 37, 2, 9, 1, 5, 1, 1, 9, 6, 6, 3]
 windows:
   "7d":
     pushes: 3
@@ -76,7 +76,98 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 30 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "MeiSiristhebest"
+    title: "MeiSiristhebest"
+    description: "My GitHub profile readme"
+    language: null
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-10"
+  - name: "inkpi-desktop"
+    title: "inkpi-desktop"
+    description: "Cross-Platform AI-Powered Creative Writing Workstation built with Tauri 2 and React"
+    language: "TypeScript"
+    topics:
+      - "ai-agent"
+      - "creative-writing"
+      - "desktop-app"
+      - "inkpi"
+      - "knowledge-graph"
+      - "novel"
+      - "react"
+      - "tauri"
+      - "tiptap"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-09"
+  - name: "inkpi"
+    title: "inkpi"
+    description: "InkPi - Extensible AI Agent Harness & Workstation Platform"
+    language: "TypeScript"
+    topics:
+      - "agent-harness"
+      - "ai-agent"
+      - "creative-writing"
+      - "developer-tools"
+      - "headless-editor"
+      - "hexagonal-architecture"
+      - "inkpi"
+      - "json-rpc"
+      - "monorepo"
+      - "pnpm"
+      - "prompt-caching"
+      - "sqlite"
+      - "tui"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-09"
+  - name: "opencontrib"
+    title: "opencontrib"
+    description: "The Agent-Native Open Source Contribution Engine — 6-Dimension Weapon Arsenal, 24-Command CLI, Top-K Smart Pointer Triage, 20 MCP Tools & Worktree Sandbox"
+    language: "TypeScript"
+    topics:
+      - "agentic-ai"
+      - "bun"
+      - "developer-tools"
+      - "git-worktree"
+      - "mcp"
+      - "mcp-server"
+      - "monorepo"
+      - "typescript"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-08"
+  - name: "youju"
+    title: "youju"
+    description: "YouJu - AI-powered contract loophole & chat-risk analysis workbench (React + Express + Gemini + Heuristic Engine)"
+    language: "TypeScript"
+    topics:
+      - "contract-analysis"
+      - "ddd"
+      - "express"
+      - "gemini-api"
+      - "react"
+      - "risk-assessment"
+      - "typescript"
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-09-06"
+  - name: "timelog-web"
+    title: "timelog-web"
+    description: "Cross-generational family story preservation & governance web console (Next.js + Supabase)"
+    language: "TypeScript"
+    topics:
+      - "family-stories"
+      - "nextjs"
+      - "react"
+      - "supabase"
+      - "typescript"
+      - "web-console"
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-09-06"
 ---
 
 # MeiSiristhebest

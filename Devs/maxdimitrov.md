@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-10T06:04:44.283147+00:00"
+generated_at: "2026-10-11T06:04:44.624574+00:00"
 provenance:
   - "1df6ea1f1256059e"
   - "edb3a626875732de"
@@ -85,7 +85,15 @@ repos:
     topics: []
     stars_fact: 2
     first_seen: null
-    last_push: "2026-10-01"
+    last_push: "2026-10-09"
+  - name: "netmode-revive"
+    title: "netmode-revive"
+    description: "Restart Docker containers that use network_mode: service:/container: (e.g. behind gluetun) when the parent container restarts"
+    language: "Shell"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-09"
   - name: "oauth-callback"
     title: "oauth-callback"
     description: "Static OAuth2 redirect pages for personal tools"
@@ -93,7 +101,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-24"
+    last_push: "2026-10-09"
 ---
 
 # maxdimitrov

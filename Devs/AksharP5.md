@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-10T06:04:44.283147+00:00"
+generated_at: "2026-10-11T06:04:44.624574+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [10, 12, 10, 0, 11, 3, 1, 1, 0, 1, 13, 15, 15]
+pushes_per_week: [9, 12, 10, 3, 9, 2, 1, 1, 1, 0, 13, 22, 10]
 windows:
   "7d":
-    pushes: 15
-    distinct_repos: 3
-    active_days: 3
+    pushes: 12
+    distinct_repos: 4
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 44
-    distinct_repos: 8
-    active_days: 13
+    pushes: 46
+    distinct_repos: 9
+    active_days: 14
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 92
+    pushes: 93
     distinct_repos: 14
-    active_days: 29
+    active_days: 30
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 3.1724
-  repo_per_active_day: 0.4828
+  push_per_day: 3.1000
+  repo_per_active_day: 0.4667
   not_owned_ratio: 0.0714
   basename_concentration: 0.1429
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 15
-    distinct_repos: 3
-    pushes_per_repo: 5.0000
-    active_days: 3
+    pushes: 12
+    distinct_repos: 4
+    pushes_per_repo: 3.0000
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 44
-    distinct_repos: 8
-    pushes_per_repo: 5.5000
-    active_days: 13
+    pushes: 46
+    distinct_repos: 9
+    pushes_per_repo: 5.1111
+    active_days: 14
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 92
+    pushes: 93
     distinct_repos: 14
-    pushes_per_repo: 6.5714
-    active_days: 29
+    pushes_per_repo: 6.6429
+    active_days: 30
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 29 active days in 90d — pass"
+  - "activity: 30 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "hyfrme"
@@ -137,6 +137,6 @@ repos:
 
 # AksharP5
 
-92 pushes across 14 repositories on 29 active days in the last 90 days of public GitHub push activity.
+93 pushes across 14 repositories on 30 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/AksharP5

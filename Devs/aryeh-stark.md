@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-10T06:04:44.283147+00:00"
+generated_at: "2026-10-11T06:04:44.624574+00:00"
 provenance:
   - "745308b2b7085095"
-pushes_per_week: [48, 25, 24, 4, 6, 3, 0, 0, 1, 30, 11, 13, 2]
+pushes_per_week: [52, 26, 19, 2, 8, 1, 0, 0, 1, 40, 4, 11, 6]
 windows:
   "7d":
-    pushes: 3
+    pushes: 7
     distinct_repos: 2
     active_days: 3
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 57
+    pushes: 62
     distinct_repos: 3
-    active_days: 16
+    active_days: 17
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 167
+    pushes: 170
     distinct_repos: 5
     active_days: 44
     repos_not_owned: 5
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 3.7955
+  push_per_day: 3.8636
   repo_per_active_day: 0.1136
   not_owned_ratio: 1.0000
   basename_concentration: 0.2000
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 3
+    pushes: 7
     distinct_repos: 2
-    pushes_per_repo: 1.5000
+    pushes_per_repo: 3.5000
     active_days: 3
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 57
+    pushes: 62
     distinct_repos: 3
-    pushes_per_repo: 19.0000
-    active_days: 16
+    pushes_per_repo: 20.6667
+    active_days: 17
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 167
+    pushes: 170
     distinct_repos: 5
-    pushes_per_repo: 33.4000
+    pushes_per_repo: 34.0000
     active_days: 44
     repos_not_owned: 5
     not_owned_basenames: 5
@@ -91,6 +91,6 @@ repos:
 
 # aryeh-stark
 
-167 pushes across 5 repositories on 44 active days in the last 90 days of public GitHub push activity.
+170 pushes across 5 repositories on 44 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/aryeh-stark

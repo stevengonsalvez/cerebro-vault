@@ -8,11 +8,11 @@ provenance_repos:
   - "ChromeDevTools/chrome-devtools-mcp"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-10T06:04:44.283147+00:00"
+repos_populated: true
+generated_at: "2026-10-11T06:04:44.624574+00:00"
 provenance:
   - "379642deb53f3714"
-pushes_per_week: [5, 8, 1, 0, 0, 0, 10, 3, 0, 0, 3, 0, 0]
+pushes_per_week: [7, 6, 1, 0, 0, 5, 8, 0, 0, 0, 3, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,111 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 16 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "simulacra"
+    title: "simulacra"
+    description: "Ghost personas review your code before it ships. Find edge cases, race conditions, and business logic bugs before production."
+    language: null
+    topics:
+      - "ai-agents"
+      - "claude-code"
+      - "claude-skill"
+      - "code-review"
+      - "ghost-personas"
+      - "typescript"
+    stars_fact: 47
+    first_seen: null
+    last_push: "2026-05-28"
+  - name: "everything-openai-codex"
+    title: "everything-openai-codex"
+    description: "EOC: open-source operating system for OpenAI Codex workflows with agents, skills, hooks, rules, memory, safety gates, and cross-harness adapters."
+    language: "JavaScript"
+    topics:
+      - "agent-harness"
+      - "agent-skills"
+      - "ai-agents"
+      - "automation"
+      - "cli-tools"
+      - "codex"
+      - "codex-cli"
+      - "codex-plugins"
+      - "coding-assistant"
+      - "copilot"
+      - "cross-platform"
+      - "cursor"
+      - "developer-tools"
+      - "eoc"
+      - "gemini-cli"
+      - "open-source"
+      - "openai-codex"
+      - "security-scanning"
+      - "session-management"
+      - "workflow-automation"
+    stars_fact: 85
+    first_seen: null
+    last_push: "2026-08-24"
+  - name: "promptguard"
+    title: "promptguard"
+    description: "Offline prompt-contract auditor for Hermes, Claude Code, Codex, OpenCode & OpenClaw. Pre-write guard before agents ship vague code. Zero deps. No model API."
+    language: "Python"
+    topics:
+      - "agent-skills"
+      - "ai-agents"
+      - "claude-code"
+      - "cli"
+      - "codex"
+      - "devops"
+      - "guardrails"
+      - "hermes"
+      - "hermes-agent"
+      - "llm-safety"
+      - "offline"
+      - "openclaw"
+      - "opencode"
+      - "pre-write-guard"
+      - "prompt-engineering"
+      - "prompt-linter"
+      - "prompts"
+      - "sarif"
+      - "static-analysis"
+      - "zero-dependencies"
+    stars_fact: 76
+    first_seen: null
+    last_push: "2026-07-22"
+  - name: "awesome-jev-alternatives"
+    title: "awesome-jev-alternatives"
+    description: "Curated, verified list of open alternatives and components for System One style decision models (Jev alternatives)."
+    language: "Python"
+    topics:
+      - "awesome"
+      - "awesome-list"
+      - "calibration"
+      - "decision-making"
+      - "llm"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-27"
+  - name: "awesome-claude-5-5-agents"
+    title: "awesome-claude-5-5-agents"
+    description: "Curated, verified developer setup for the Claude 5.5 family: skills, subagents, plugins, CLAUDE.md patterns and migration tools."
+    language: "Python"
+    topics:
+      - "ai-agents"
+      - "awesome"
+      - "awesome-list"
+      - "claude"
+      - "claude-code"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-27"
+  - name: "mturac"
+    title: "mturac"
+    description: "Agent infrastructure builder. Roundtables, schedulers, prompt contracts, memory."
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-07"
 ---
 
 # mturac

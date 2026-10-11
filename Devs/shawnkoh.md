@@ -8,11 +8,11 @@ provenance_repos:
   - "can1357/oh-my-pi"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-10T06:04:44.283147+00:00"
+repos_populated: true
+generated_at: "2026-10-11T06:04:44.624574+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [0, 0, 0, 0, 5, 1, 0, 0, 0, 1, 2, 7, 2]
+pushes_per_week: [0, 0, 0, 0, 5, 1, 0, 0, 0, 1, 3, 7, 1]
 windows:
   "7d":
     pushes: 2
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 12 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "cs2106-lab1"
+    title: "cs2106-lab1"
+    description: null
+    language: "C"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2022-09-10"
+  - name: "vr-ml-backend"
+    title: "vr-ml-backend"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2022-03-20"
+  - name: "blender"
+    title: "blender"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2022-03-17"
+  - name: "cs4240-assignment-3"
+    title: "cs4240-assignment-3"
+    description: null
+    language: "C#"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2022-03-12"
+  - name: "Temp"
+    title: "Temp"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2022-03-04"
+  - name: "smart-bear"
+    title: "smart-bear"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2023-06-25"
 ---
 
 # shawnkoh

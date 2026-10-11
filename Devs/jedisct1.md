@@ -8,16 +8,16 @@ provenance_repos:
   - "antirez/ds4"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-10T06:04:44.283147+00:00"
+repos_populated: true
+generated_at: "2026-10-11T06:04:44.624574+00:00"
 provenance:
   - "3eacb4655aba2497"
-pushes_per_week: [28, 11, 7, 5, 7, 1, 1, 0, 2, 10, 27, 11, 8]
+pushes_per_week: [30, 8, 8, 5, 6, 1, 1, 0, 4, 13, 23, 16, 2]
 windows:
   "7d":
-    pushes: 11
-    distinct_repos: 7
-    active_days: 4
+    pushes: 8
+    distinct_repos: 5
+    active_days: 3
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 10
     not_owned_owners: 6
   "90d":
-    pushes: 118
+    pushes: 117
     distinct_repos: 58
-    active_days: 42
+    active_days: 41
     repos_not_owned: 22
     not_owned_basenames: 21
     not_owned_owners: 9
 automation:
   state: "clear"
-  push_per_day: 2.8095
-  repo_per_active_day: 1.3810
+  push_per_day: 2.8537
+  repo_per_active_day: 1.4146
   not_owned_ratio: 0.3793
   basename_concentration: 0.0345
   shapes: []
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 11
-    distinct_repos: 7
-    pushes_per_repo: 1.5714
-    active_days: 4
+    pushes: 8
+    distinct_repos: 5
+    pushes_per_repo: 1.6000
+    active_days: 3
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
@@ -65,22 +65,112 @@ facets:
     not_owned_basenames: 10
     not_owned_owners: 6
   "90d":
-    pushes: 118
+    pushes: 117
     distinct_repos: 58
-    pushes_per_repo: 2.0345
-    active_days: 42
+    pushes_per_repo: 2.0172
+    active_days: 41
     repos_not_owned: 22
     not_owned_basenames: 21
     not_owned_owners: 9
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 42 active days in 90d — pass"
+  - "activity: 41 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "pure-ftpd"
+    title: "pure-ftpd"
+    description: "Pure FTP server"
+    language: "C"
+    topics:
+      - "ftp"
+      - "ftpd-server"
+    stars_fact: 763
+    first_seen: null
+    last_push: "2026-09-28"
+  - name: "minisign"
+    title: "minisign"
+    description: "A dead simple tool to sign files and verify digital signatures."
+    language: "C"
+    topics:
+      - "crypto"
+      - "cryptography"
+      - "ed25519"
+      - "gpg"
+      - "pgp"
+      - "signatures"
+      - "zig-package"
+    stars_fact: 2854
+    first_seen: null
+    last_push: "2026-08-26"
+  - name: "c-blind-rsa-signatures"
+    title: "c-blind-rsa-signatures"
+    description: "Blind RSA signatures for OpenSSL/BoringSSL."
+    language: "C"
+    topics:
+      - "blind"
+      - "blind-signatures"
+      - "boringssl"
+      - "openssl"
+      - "rsa"
+      - "rsa-blind-signatures"
+      - "rsa-blinded-signatures"
+      - "signatures"
+    stars_fact: 17
+    first_seen: null
+    last_push: "2026-09-25"
+  - name: "zig-blind-rsa-signatures"
+    title: "zig-blind-rsa-signatures"
+    description: "Blind RSA signatures implementation for Zig."
+    language: "Zig"
+    topics:
+      - "blind"
+      - "blind-signatures"
+      - "rsa"
+      - "rsa-blind-signatures"
+      - "rsa-blinded-signatures"
+      - "signatures"
+      - "zig"
+      - "zig-package"
+    stars_fact: 21
+    first_seen: null
+    last_push: "2026-09-25"
+  - name: "rust-blind-rsa-signatures"
+    title: "rust-blind-rsa-signatures"
+    description: "RSA blind signatures in Rust"
+    language: "Rust"
+    topics:
+      - "blind"
+      - "blind-signatures"
+      - "rsa"
+      - "rsa-blind-signatures"
+      - "rsa-blinded-signatures"
+      - "rust"
+      - "rust-lang"
+    stars_fact: 35
+    first_seen: null
+    last_push: "2026-09-25"
+  - name: "zig-secretstack"
+    title: "zig-secretstack"
+    description: "Run sensitive operations without leaving secrets around."
+    language: "Zig"
+    topics:
+      - "altstack"
+      - "cryptography"
+      - "cryptography-library"
+      - "leakage"
+      - "safet"
+      - "zeroizatio"
+      - "zeroize"
+      - "zig"
+      - "zig-package"
+      - "ziglang"
+    stars_fact: 18
+    first_seen: null
+    last_push: "2026-10-08"
 ---
 
 # jedisct1
 
-118 pushes across 58 repositories on 42 active days in the last 90 days of public GitHub push activity.
+117 pushes across 58 repositories on 41 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/jedisct1

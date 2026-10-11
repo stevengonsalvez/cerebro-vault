@@ -8,11 +8,11 @@ provenance_repos:
   - "anomalyco/opencode"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-10T06:04:44.283147+00:00"
+repos_populated: true
+generated_at: "2026-10-11T06:04:44.624574+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [0, 0, 0, 1, 0, 0, 0, 0, 5, 0, 8, 1, 3]
+pushes_per_week: [0, 0, 0, 1, 0, 0, 0, 0, 5, 0, 9, 0, 3]
 windows:
   "7d":
     pushes: 3
@@ -76,7 +76,63 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 8 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "plex-windows-scaling-fix"
+    title: "plex-windows-scaling-fix"
+    description: "Stop Plex for Windows' UI from shrinking into a corner on mixed-DPI multi-monitor setups."
+    language: "C#"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-09"
+  - name: "tack"
+    title: "tack"
+    description: "Let your agents pin HTML plans, reports and mocks to your own Cloudflare. Secret links, versions, live updates, diffs."
+    language: "TypeScript"
+    topics:
+      - "ai-agents"
+      - "cli"
+      - "cloudflare-r2"
+      - "cloudflare-workers"
+      - "coding-agents"
+      - "durable-objects"
+      - "html"
+      - "self-hosted"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-07"
+  - name: "www"
+    title: "www"
+    description: "personal site @ rex.wf/mridul.sh"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-10-07"
+  - name: "figma-mcp-oauth-bypass"
+    title: "figma-mcp-oauth-bypass"
+    description: "Bypass Figma's client_name restriction to authenticate with their MCP server from any CLI"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-02-27"
+  - name: "kleis"
+    title: "kleis"
+    description: "The OpenCode first OAuth proxy for coding agents"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 7
+    first_seen: null
+    last_push: "2026-10-07"
+  - name: "telegram-desktop-no-ads"
+    title: "telegram-desktop-no-ads"
+    description: "Telegram Desktop for Windows, built from source with the ads stripped out. Nothing else changed."
+    language: null
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-24"
 ---
 
 # rexdotsh

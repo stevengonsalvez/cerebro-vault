@@ -8,11 +8,11 @@ provenance_repos:
   - "browser-use/browser-use"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-10T06:04:44.283147+00:00"
+repos_populated: true
+generated_at: "2026-10-11T06:04:44.624574+00:00"
 provenance:
   - "c1af6b58492f9bf4"
-pushes_per_week: [7, 9, 3, 0, 1, 1, 0, 0, 0, 0, 0, 0, 1]
+pushes_per_week: [8, 9, 2, 0, 1, 1, 0, 0, 0, 0, 0, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 12 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "a365-maf-agent"
+    title: "a365-maf-agent"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-09"
+  - name: "email-intake-agent"
+    title: "email-intake-agent"
+    description: null
+    language: "C#"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-09"
+  - name: "green-screen-agent"
+    title: "green-screen-agent"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-08"
+  - name: "ghc-aw-example1"
+    title: "ghc-aw-example1"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-01"
+  - name: "ai-genius-s4-ep2-speckit"
+    title: "ai-genius-s4-ep2-speckit"
+    description: null
+    language: "PowerShell"
+    topics: []
+    stars_fact: 13
+    first_seen: null
+    last_push: "2026-05-20"
+  - name: "build-vs-buy-agent"
+    title: "build-vs-buy-agent"
+    description: null
+    language: "C#"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-04"
 ---
 
 # qkfang

@@ -8,11 +8,11 @@ provenance_repos:
   - "akitaonrails/ai-memory"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-10T06:04:44.283147+00:00"
+repos_populated: true
+generated_at: "2026-10-11T06:04:44.624574+00:00"
 provenance:
   - "4138778ebbc75ba6"
-pushes_per_week: [9, 0, 1, 3, 1, 0, 0, 1, 1, 0, 0, 2, 0]
+pushes_per_week: [9, 0, 1, 3, 1, 0, 0, 2, 0, 0, 0, 2, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 10 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "NianJiuZst"
+    title: "NianJiuZst"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-06"
+  - name: "farshore-fishing"
+    title: "farshore-fishing"
+    description: "Farshore Fishing — single-player Godot Android fishing game"
+    language: "GDScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-06"
+  - name: "openmeta-cli"
+    title: "openmeta-cli"
+    description: "OpenMeta CLI - Autonomous, local-first open source contribution agent for developers"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 59
+    first_seen: null
+    last_push: "2026-09-04"
+  - name: "tdai-memory-adapter-benchmark-proof"
+    title: "tdai-memory-adapter-benchmark-proof"
+    description: "Benchmark proof bundle for TencentDB Agent Memory issue 235 adapters"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-07-01"
+  - name: "filefinder"
+    title: "filefinder"
+    description: "A blazing fast local file search tool written in Rust"
+    language: "Rust"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-06-29"
+  - name: "DocVault"
+    title: "DocVault"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 10
+    first_seen: null
+    last_push: "2026-04-10"
 ---
 
 # NianJiuZst

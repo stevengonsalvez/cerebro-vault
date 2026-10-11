@@ -8,18 +8,18 @@ provenance_repos:
   - "anomalyco/opencode"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-10T06:04:44.283147+00:00"
+repos_populated: true
+generated_at: "2026-10-11T06:04:44.624574+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [6, 5, 2, 5, 2, 0, 0, 0, 1, 0, 1, 3, 3]
+pushes_per_week: [6, 5, 2, 5, 2, 0, 0, 0, 1, 0, 2, 2, 3]
 windows:
   "7d":
-    pushes: 5
-    distinct_repos: 4
-    active_days: 2
-    repos_not_owned: 3
-    not_owned_basenames: 3
+    pushes: 3
+    distinct_repos: 2
+    active_days: 1
+    repos_not_owned: 1
+    not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
     pushes: 7
@@ -49,12 +49,12 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 5
-    distinct_repos: 4
-    pushes_per_repo: 1.2500
-    active_days: 2
-    repos_not_owned: 3
-    not_owned_basenames: 3
+    pushes: 3
+    distinct_repos: 2
+    pushes_per_repo: 1.5000
+    active_days: 1
+    repos_not_owned: 1
+    not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
     pushes: 7
@@ -76,7 +76,62 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 19 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "sveltekit-search-params"
+    title: "sveltekit-search-params"
+    description: "The easiest way to read and WRITE from query parameters in sveltekit."
+    language: "TypeScript"
+    topics:
+      - "hacktoberfest"
+      - "query-params"
+      - "search-params"
+      - "svelte"
+      - "svelte-store"
+      - "svelte-stores"
+      - "sveltekit"
+    stars_fact: 671
+    first_seen: null
+    last_push: "2026-10-08"
+  - name: "mcp-add"
+    title: "mcp-add"
+    description: "Universal cli to add an MCP server to a variety of clients"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 28
+    first_seen: null
+    last_push: "2026-03-17"
+  - name: "bsky-svelte-feed"
+    title: "bsky-svelte-feed"
+    description: "A bsky feed to aggregate everything svelte related"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-05"
+  - name: "ricciuti.me"
+    title: "ricciuti.me"
+    description: "my personal website"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-27"
+  - name: "tmcp"
+    title: "tmcp"
+    description: "Typescript SDK to build MCP servers in an agnostic way"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 203
+    first_seen: null
+    last_push: "2026-10-10"
+  - name: "embedding-svelte-test"
+    title: "embedding-svelte-test"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-03"
 ---
 
 # paoloricciuti

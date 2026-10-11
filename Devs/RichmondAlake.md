@@ -8,37 +8,37 @@ provenance_repos:
   - "anthropics/claude-cookbooks"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-10T06:04:44.283147+00:00"
+repos_populated: true
+generated_at: "2026-10-11T06:04:44.624574+00:00"
 provenance:
   - "1f49d0119cedbc84"
-pushes_per_week: [2, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 1, 1]
+pushes_per_week: [2, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 1, 2]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
+    pushes: 2
+    distinct_repos: 2
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 2
-    distinct_repos: 2
-    active_days: 2
+    pushes: 3
+    distinct_repos: 3
+    active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 6
+    pushes: 7
     distinct_repos: 3
-    active_days: 5
+    active_days: 6
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.2000
-  repo_per_active_day: 0.6000
+  push_per_day: 1.1667
+  repo_per_active_day: 0.5000
   not_owned_ratio: 0.3333
   basename_concentration: 0.3333
   shapes: []
@@ -49,38 +49,99 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
-  "30d":
     pushes: 2
     distinct_repos: 2
     pushes_per_repo: 1.0000
     active_days: 2
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
+  "30d":
+    pushes: 3
+    distinct_repos: 3
+    pushes_per_repo: 1.0000
+    active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 6
+    pushes: 7
     distinct_repos: 3
-    pushes_per_repo: 2.0000
-    active_days: 5
+    pushes_per_repo: 2.3333
+    active_days: 6
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 5 active days in 90d — pass"
+  - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "homebrew-memorizz"
+    title: "homebrew-memorizz"
+    description: "Homebrew tap for the MemoRizz memory-first agent harness"
+    language: "Ruby"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-10"
+  - name: "memorizz"
+    title: "memorizz"
+    description: "MemoRizz: A Python library serving as a memory layer for AI applications. Leverages popular databases and storage solutions to optimize memory usage. Provides utility classes and methods for efficient data management."
+    language: "Python"
+    topics:
+      - "ai"
+      - "artificial-intelligence"
+      - "data-management"
+      - "mongodb"
+      - "oracle"
+      - "oracle-database"
+      - "python"
+      - "semantic-search"
+    stars_fact: 774
+    first_seen: null
+    last_push: "2026-10-10"
+  - name: "llmcamp_ai_hub"
+    title: "llmcamp_ai_hub"
+    description: "Hands-on agent memory notebooks and an interactive appbook for context engineering."
+    language: "Jupyter Notebook"
+    topics: []
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-10-03"
+  - name: "maven_classes"
+    title: "maven_classes"
+    description: "Private cohort materials for Maven agent memory classes, including executed notebooks and an interactive appbook."
+    language: "Jupyter Notebook"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-02"
+  - name: "agent_harness_course"
+    title: "agent_harness_course"
+    description: "Technical companion to the O'Reilly Harness Engineering for AI Agents workshop"
+    language: "Jupyter Notebook"
+    topics:
+      - "agent-memory"
+      - "ai-agents"
+      - "harness-engineering"
+      - "langgraph"
+      - "python"
+    stars_fact: 34
+    first_seen: null
+    last_push: "2026-09-30"
+  - name: "agent_memory_course"
+    title: "agent_memory_course"
+    description: null
+    language: "Jupyter Notebook"
+    topics: []
+    stars_fact: 70
+    first_seen: null
+    last_push: "2026-08-25"
 ---
 
 # RichmondAlake
 
-6 pushes across 3 repositories on 5 active days in the last 90 days of public GitHub push activity.
+7 pushes across 3 repositories on 6 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/RichmondAlake

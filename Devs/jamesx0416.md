@@ -8,11 +8,11 @@ provenance_repos:
   - "chopratejas/headroom"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-10T06:04:44.283147+00:00"
+repos_populated: true
+generated_at: "2026-10-11T06:04:44.624574+00:00"
 provenance:
   - "73468cde177ddae6"
-pushes_per_week: [12, 3, 3, 2, 0, 0, 0, 0, 0, 1, 2, 0, 0]
+pushes_per_week: [14, 2, 2, 2, 0, 0, 0, 0, 0, 1, 2, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,47 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 11 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "FlightSim"
+    title: "FlightSim"
+    description: "A lightweight, photorealistic, web-based flight simulator based on three geospatial. Very much WIP."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-07"
+  - name: "ChatLink"
+    title: "ChatLink"
+    description: "Local bridge that injects YouTube live chat into Twitch chat/Stream Manager."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 7
+    first_seen: null
+    last_push: "2026-04-19"
+  - name: "jamesx0416"
+    title: "jamesx0416"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-07-04"
+  - name: "ServerDash"
+    title: "ServerDash"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-02-05"
+  - name: "MessHelper"
+    title: "MessHelper"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-01-30"
 ---
 
 # jamesx0416

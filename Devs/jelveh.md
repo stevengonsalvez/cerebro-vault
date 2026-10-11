@@ -8,11 +8,11 @@ provenance_repos:
   - "HeyPuter/puter"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-10T06:04:44.283147+00:00"
+repos_populated: true
+generated_at: "2026-10-11T06:04:44.624574+00:00"
 provenance:
   - "301e50a5ca3d0c34"
-pushes_per_week: [9, 14, 7, 2, 7, 1, 0, 0, 0, 1, 3, 4, 7]
+pushes_per_week: [11, 16, 3, 2, 7, 1, 0, 0, 0, 1, 3, 11, 0]
 windows:
   "7d":
     pushes: 7
@@ -76,7 +76,31 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 24 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "guidelines"
+    title: "guidelines"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2025-06-01"
+  - name: "deploy-from-github"
+    title: "deploy-from-github"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2025-05-29"
+  - name: "epoxy"
+    title: "epoxy"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-03-21"
 ---
 
 # jelveh

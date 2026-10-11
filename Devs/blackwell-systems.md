@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-10T06:04:44.283147+00:00"
+generated_at: "2026-10-11T06:04:44.624574+00:00"
 provenance:
   - "379642deb53f3714"
-pushes_per_week: [105, 6, 8, 6, 6, 6, 0, 0, 1, 0, 25, 98, 28]
+pushes_per_week: [86, 4, 9, 6, 11, 0, 0, 0, 1, 3, 23, 104, 22]
 windows:
   "7d":
     pushes: 29
@@ -22,25 +22,25 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 152
+    pushes: 153
     distinct_repos: 16
-    active_days: 19
+    active_days: 20
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 289
-    distinct_repos: 28
+    pushes: 269
+    distinct_repos: 27
     active_days: 39
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 7.4103
-  repo_per_active_day: 0.7179
-  not_owned_ratio: 0.0357
-  basename_concentration: 0.0357
+  push_per_day: 6.8974
+  repo_per_active_day: 0.6923
+  not_owned_ratio: 0.0370
+  basename_concentration: 0.0370
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -57,17 +57,17 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 152
+    pushes: 153
     distinct_repos: 16
-    pushes_per_repo: 9.5000
-    active_days: 19
+    pushes_per_repo: 9.5625
+    active_days: 20
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 289
-    distinct_repos: 28
-    pushes_per_repo: 10.3214
+    pushes: 269
+    distinct_repos: 27
+    pushes_per_repo: 9.9630
     active_days: 39
     repos_not_owned: 1
     not_owned_basenames: 1
@@ -207,6 +207,6 @@ repos:
 
 # blackwell-systems
 
-289 pushes across 28 repositories on 39 active days in the last 90 days of public GitHub push activity.
+269 pushes across 27 repositories on 39 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/blackwell-systems

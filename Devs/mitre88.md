@@ -8,11 +8,11 @@ provenance_repos:
   - "AlexsJones/llmfit"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-10T06:04:44.283147+00:00"
+repos_populated: true
+generated_at: "2026-10-11T06:04:44.624574+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [2, 3, 3, 0, 21, 9, 1, 1, 0, 0, 0, 0, 1]
+pushes_per_week: [2, 3, 3, 0, 24, 7, 1, 0, 0, 0, 0, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 20 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "ai_cat-"
+    title: "ai_cat-"
+    description: "un gato ensena a tus hijos lo que es y como funciona la inteligencia artificial"
+    language: "Swift"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-10"
+  - name: "samantha-key"
+    title: "samantha-key"
+    description: "Premium iOS voice translation keyboard powered by OpenAI Realtime"
+    language: "Swift"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-08"
+  - name: "duo_calculator-"
+    title: "duo_calculator-"
+    description: "calculadora especifica para el; iphone duo de iphone"
+    language: "Swift"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-08"
+  - name: "app-support-pages"
+    title: "app-support-pages"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-06"
+  - name: "blog-assets"
+    title: "blog-assets"
+    description: "Static assets for Ingeniero Mitre's blogs (images, figures)"
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-24"
+  - name: "nextech_today_v1"
+    title: "nextech_today_v1"
+    description: null
+    language: "Swift"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-15"
 ---
 
 # mitre88

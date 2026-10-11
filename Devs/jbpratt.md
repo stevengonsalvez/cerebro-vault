@@ -8,11 +8,11 @@ provenance_repos:
   - "agent-substrate/substrate"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-10T06:04:44.283147+00:00"
+repos_populated: true
+generated_at: "2026-10-11T06:04:44.624574+00:00"
 provenance:
   - "a5ffcd0a46dd44fd"
-pushes_per_week: [10, 15, 2, 4, 5, 0, 0, 0, 7, 7, 9, 11, 7]
+pushes_per_week: [15, 10, 2, 4, 5, 0, 0, 1, 6, 7, 10, 11, 6]
 windows:
   "7d":
     pushes: 7
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 40
+    pushes: 38
     distinct_repos: 10
-    active_days: 17
+    active_days: 16
     repos_not_owned: 6
     not_owned_basenames: 6
     not_owned_owners: 2
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 40
+    pushes: 38
     distinct_repos: 10
-    pushes_per_repo: 4.0000
-    active_days: 17
+    pushes_per_repo: 3.8000
+    active_days: 16
     repos_not_owned: 6
     not_owned_basenames: 6
     not_owned_owners: 2
@@ -76,7 +76,58 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 38 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "jbpratt"
+    title: "jbpratt"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-10-11"
+  - name: "boto3-client-exceptions"
+    title: "boto3-client-exceptions"
+    description: "generated list of boto3 client exceptions"
+    language: "Python"
+    topics:
+      - "aws"
+      - "boto3"
+      - "exceptions"
+    stars_fact: 27
+    first_seen: null
+    last_push: "2026-10-08"
+  - name: "homelab"
+    title: "homelab"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-09"
+  - name: "pi-experiments"
+    title: "pi-experiments"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-29"
+  - name: "workbox"
+    title: "workbox"
+    description: null
+    language: "Dockerfile"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-29"
+  - name: "tinyoci"
+    title: "tinyoci"
+    description: "🚑 an LLM built this 🚑"
+    language: "Zig"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-04-16"
 ---
 
 # jbpratt

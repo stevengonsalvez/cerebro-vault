@@ -8,16 +8,16 @@ provenance_repos:
   - "abhigyanpatwari/GitNexus"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-10T06:04:44.283147+00:00"
+repos_populated: true
+generated_at: "2026-10-11T06:04:44.624574+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [26, 14, 8, 8, 5, 1, 0, 0, 2, 4, 9, 2, 7]
+pushes_per_week: [28, 10, 9, 7, 5, 1, 0, 0, 2, 8, 5, 3, 6]
 windows:
   "7d":
-    pushes: 8
+    pushes: 7
     distinct_repos: 2
-    active_days: 6
+    active_days: 5
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 86
+    pushes: 84
     distinct_repos: 10
-    active_days: 39
+    active_days: 38
     repos_not_owned: 7
     not_owned_basenames: 6
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 2.2051
-  repo_per_active_day: 0.2564
+  push_per_day: 2.2105
+  repo_per_active_day: 0.2632
   not_owned_ratio: 0.7000
   basename_concentration: 0.2000
   shapes: []
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 8
+    pushes: 7
     distinct_repos: 2
-    pushes_per_repo: 4.0000
-    active_days: 6
+    pushes_per_repo: 3.5000
+    active_days: 5
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
@@ -65,22 +65,70 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 86
+    pushes: 84
     distinct_repos: 10
-    pushes_per_repo: 8.6000
-    active_days: 39
+    pushes_per_repo: 8.4000
+    active_days: 38
     repos_not_owned: 7
     not_owned_basenames: 6
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 39 active days in 90d — pass"
+  - "activity: 38 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "pratyush618"
+    title: "pratyush618"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-11"
+  - name: "singularity-fm"
+    title: "singularity-fm"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-07"
+  - name: "Fidget-Spinner"
+    title: "Fidget-Spinner"
+    description: "RGB coloured fidget spinner"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2020-11-11"
+  - name: "pyfs-watcher"
+    title: "pyfs-watcher"
+    description: "Rust based watchdog"
+    language: "Rust"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-03-04"
+  - name: "doc_loader"
+    title: "doc_loader"
+    description: "Document loader for AI agents"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2025-07-30"
+  - name: "scripts"
+    title: "scripts"
+    description: null
+    language: "Shell"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2025-08-24"
 ---
 
 # pratyush618
 
-86 pushes across 10 repositories on 39 active days in the last 90 days of public GitHub push activity.
+84 pushes across 10 repositories on 38 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/pratyush618

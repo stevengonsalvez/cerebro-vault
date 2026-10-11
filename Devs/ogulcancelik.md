@@ -10,11 +10,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-10T06:04:44.283147+00:00"
+generated_at: "2026-10-11T06:04:44.624574+00:00"
 provenance:
   - "576c6507cbdd1cf3"
   - "c87b77df69f1bb71"
-pushes_per_week: [15, 14, 15, 15, 18, 7, 4, 0, 3, 6, 4, 3, 6]
+pushes_per_week: [18, 14, 14, 15, 15, 7, 4, 1, 4, 4, 5, 2, 6]
 windows:
   "7d":
     pushes: 6
@@ -24,23 +24,23 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 21
-    distinct_repos: 3
-    active_days: 12
-    repos_not_owned: 2
-    not_owned_basenames: 2
+    pushes: 20
+    distinct_repos: 2
+    active_days: 11
+    repos_not_owned: 1
+    not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 110
+    pushes: 109
     distinct_repos: 13
-    active_days: 50
+    active_days: 49
     repos_not_owned: 11
     not_owned_basenames: 2
     not_owned_owners: 10
 automation:
   state: "clear"
-  push_per_day: 2.2000
-  repo_per_active_day: 0.2600
+  push_per_day: 2.2245
+  repo_per_active_day: 0.2653
   not_owned_ratio: 0.8462
   basename_concentration: 0.8462
   shapes:
@@ -75,24 +75,24 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 21
-    distinct_repos: 3
-    pushes_per_repo: 7.0000
-    active_days: 12
-    repos_not_owned: 2
-    not_owned_basenames: 2
+    pushes: 20
+    distinct_repos: 2
+    pushes_per_repo: 10.0000
+    active_days: 11
+    repos_not_owned: 1
+    not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 110
+    pushes: 109
     distinct_repos: 13
-    pushes_per_repo: 8.4615
-    active_days: 50
+    pushes_per_repo: 8.3846
+    active_days: 49
     repos_not_owned: 11
     not_owned_basenames: 2
     not_owned_owners: 10
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 50 active days in 90d — pass"
+  - "activity: 49 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "pi-extensions"
@@ -160,6 +160,6 @@ repos:
 
 # ogulcancelik
 
-110 pushes across 13 repositories on 50 active days in the last 90 days of public GitHub push activity.
+109 pushes across 13 repositories on 49 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ogulcancelik

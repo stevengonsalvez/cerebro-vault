@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: false
-generated_at: "2026-10-10T06:04:44.283147+00:00"
+generated_at: "2026-10-11T06:04:44.624574+00:00"
 provenance:
   - "379642deb53f3714"
-pushes_per_week: [14, 16, 0, 6, 1, 0, 0, 0, 0, 20, 3, 1, 1]
+pushes_per_week: [14, 15, 0, 6, 1, 0, 0, 0, 0, 22, 1, 1, 1]
 windows:
   "7d":
     pushes: 1
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 62
+    pushes: 61
     distinct_repos: 23
-    active_days: 21
+    active_days: 20
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.9524
-  repo_per_active_day: 1.0952
+  push_per_day: 3.0500
+  repo_per_active_day: 1.1500
   not_owned_ratio: 0.0870
   basename_concentration: 0.0435
   shapes: []
@@ -65,22 +65,22 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 62
+    pushes: 61
     distinct_repos: 23
-    pushes_per_repo: 2.6957
-    active_days: 21
+    pushes_per_repo: 2.6522
+    active_days: 20
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 21 active days in 90d — pass"
+  - "activity: 20 active days in 90d — pass"
   - "automation: clear — pass"
 repos: []
 ---
 
 # ZayanKhan-12
 
-62 pushes across 23 repositories on 21 active days in the last 90 days of public GitHub push activity.
+61 pushes across 23 repositories on 20 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ZayanKhan-12

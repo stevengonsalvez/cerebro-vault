@@ -8,37 +8,37 @@ provenance_repos:
   - "AlexsJones/llmfit"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-10T06:04:44.283147+00:00"
+repos_populated: true
+generated_at: "2026-10-11T06:04:44.624574+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [0, 3, 0, 0, 0, 3, 0, 0, 1, 0, 0, 1, 2]
+pushes_per_week: [0, 3, 0, 0, 2, 1, 0, 0, 1, 0, 0, 1, 4]
 windows:
   "7d":
-    pushes: 2
-    distinct_repos: 2
-    active_days: 1
+    pushes: 4
+    distinct_repos: 3
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 4
+    pushes: 6
     distinct_repos: 4
-    active_days: 3
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 10
+    pushes: 12
     distinct_repos: 5
-    active_days: 7
+    active_days: 8
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.4286
-  repo_per_active_day: 0.7143
+  push_per_day: 1.5000
+  repo_per_active_day: 0.6250
   not_owned_ratio: 0.0000
   basename_concentration: 0.2000
   shapes: []
@@ -49,38 +49,99 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
-    distinct_repos: 2
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes: 4
+    distinct_repos: 3
+    pushes_per_repo: 1.3333
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 4
+    pushes: 6
     distinct_repos: 4
-    pushes_per_repo: 1.0000
-    active_days: 3
+    pushes_per_repo: 1.5000
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 10
+    pushes: 12
     distinct_repos: 5
-    pushes_per_repo: 2.0000
-    active_days: 7
+    pushes_per_repo: 2.4000
+    active_days: 8
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 7 active days in 90d — pass"
+  - "activity: 8 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "personal-website"
+    title: "personal-website"
+    description: "Personal portfolio website - Data Engineer | Real-time pipelines, Sports Analytics, ML | jayhemnani.in"
+    language: "TypeScript"
+    topics:
+      - "data-engineering"
+      - "nextjs"
+      - "portfolio"
+      - "react"
+      - "typescript"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-11"
+  - name: "revolu-idea"
+    title: "revolu-idea"
+    description: "CAG Deep Research - AI research automation with LangGraph multi-agent orchestration"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-08"
+  - name: "longitudinal-mets-validation"
+    title: "longitudinal-mets-validation"
+    description: "Longitudinal validation of metabolic syndrome risk scores on NHANES Linked Mortality File"
+    language: "R"
+    topics:
+      - "clinical-prediction"
+      - "epidemiology"
+      - "linked-mortality-file"
+      - "metabolic-syndrome"
+      - "nhanes"
+      - "r"
+      - "reproducible-research"
+      - "survival-analysis"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-07"
+  - name: "jod-skills"
+    title: "jod-skills"
+    description: "Claude Code skills: codebase audit, Hacker News digest, GitHub trending digest, and open-source status"
+    language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-07"
+  - name: "voxt"
+    title: "voxt"
+    description: "Voice-to-text clipboard tool for Linux"
+    language: "Go"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-07"
+  - name: "recognize"
+    title: "recognize"
+    description: "SAM3 (Segment Anything Model) recognition and segmentation"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-07"
 ---
 
 # jayhemnani9910
 
-10 pushes across 5 repositories on 7 active days in the last 90 days of public GitHub push activity.
+12 pushes across 5 repositories on 8 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/jayhemnani9910

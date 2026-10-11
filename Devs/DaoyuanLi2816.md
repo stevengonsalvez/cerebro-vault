@@ -10,17 +10,17 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-10T06:04:44.283147+00:00"
+generated_at: "2026-10-11T06:04:44.624574+00:00"
 provenance:
   - "16389f32495280ea"
   - "50b9cd6dfa9f75d1"
   - "939f60d749009d51"
-pushes_per_week: [10, 6, 13, 9, 10, 1, 0, 0, 1, 1, 1, 2, 2]
+pushes_per_week: [9, 6, 16, 7, 10, 0, 0, 0, 1, 1, 1, 4, 0]
 windows:
   "7d":
-    pushes: 4
-    distinct_repos: 3
-    active_days: 2
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -32,16 +32,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 56
+    pushes: 55
     distinct_repos: 9
-    active_days: 25
+    active_days: 24
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.2400
-  repo_per_active_day: 0.3600
+  push_per_day: 2.2917
+  repo_per_active_day: 0.3750
   not_owned_ratio: 0.0000
   basename_concentration: 0.1111
   shapes: []
@@ -52,10 +52,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 4
-    distinct_repos: 3
-    pushes_per_repo: 1.3333
-    active_days: 2
+    pushes: 1
+    distinct_repos: 1
+    pushes_per_repo: 1.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -68,16 +68,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 56
+    pushes: 55
     distinct_repos: 9
-    pushes_per_repo: 6.2222
-    active_days: 25
+    pushes_per_repo: 6.1111
+    active_days: 24
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 3 vault signal(s) — pass"
-  - "activity: 25 active days in 90d — pass"
+  - "activity: 24 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "mini-verl"
@@ -210,6 +210,6 @@ repos:
 
 # DaoyuanLi2816
 
-56 pushes across 9 repositories on 25 active days in the last 90 days of public GitHub push activity.
+55 pushes across 9 repositories on 24 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/DaoyuanLi2816

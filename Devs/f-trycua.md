@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-10T06:04:44.283147+00:00"
+generated_at: "2026-10-11T06:04:44.624574+00:00"
 provenance:
   - "feacb1c4ff8cc40f"
-pushes_per_week: [46, 38, 28, 28, 11, 4, 4, 1, 18, 21, 30, 47, 16]
+pushes_per_week: [40, 39, 23, 27, 12, 1, 4, 10, 16, 16, 37, 40, 17]
 windows:
   "7d":
-    pushes: 16
+    pushes: 19
     distinct_repos: 1
-    active_days: 5
+    active_days: 7
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 13
   "90d":
-    pushes: 292
+    pushes: 282
     distinct_repos: 22
-    active_days: 62
+    active_days: 63
     repos_not_owned: 21
     not_owned_basenames: 5
     not_owned_owners: 18
 automation:
   state: "clear"
-  push_per_day: 4.7097
-  repo_per_active_day: 0.3548
+  push_per_day: 4.4762
+  repo_per_active_day: 0.3492
   not_owned_ratio: 0.9545
   basename_concentration: 0.8182
   shapes:
@@ -65,10 +65,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 16
+    pushes: 19
     distinct_repos: 1
-    pushes_per_repo: 16.0000
-    active_days: 5
+    pushes_per_repo: 19.0000
+    active_days: 7
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -81,16 +81,16 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 13
   "90d":
-    pushes: 292
+    pushes: 282
     distinct_repos: 22
-    pushes_per_repo: 13.2727
-    active_days: 62
+    pushes_per_repo: 12.8182
+    active_days: 63
     repos_not_owned: 21
     not_owned_basenames: 5
     not_owned_owners: 18
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 62 active days in 90d — pass"
+  - "activity: 63 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "johto-autumn"
@@ -105,6 +105,6 @@ repos:
 
 # f-trycua
 
-292 pushes across 22 repositories on 62 active days in the last 90 days of public GitHub push activity.
+282 pushes across 22 repositories on 63 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/f-trycua

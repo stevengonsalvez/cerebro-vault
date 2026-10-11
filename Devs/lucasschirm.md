@@ -8,11 +8,11 @@ provenance_repos:
   - "AlexsJones/llmfit"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-10T06:04:44.283147+00:00"
+repos_populated: true
+generated_at: "2026-10-11T06:04:44.624574+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [0, 3, 7, 1, 5, 3, 2, 2, 4, 5, 0, 0, 0]
+pushes_per_week: [1, 2, 7, 1, 6, 2, 4, 1, 5, 3, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 20 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "claude-marketplace"
+    title: "claude-marketplace"
+    description: "My collection of claude plugins"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-10"
+  - name: "devinp"
+    title: "devinp"
+    description: "Get current prices for the devin models and give you a summary of best prices per task"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-01"
+  - name: "sqlite-explorer"
+    title: "sqlite-explorer"
+    description: "Built with Freebuff Cloud"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-25"
+  - name: "jsonl-explorer"
+    title: "jsonl-explorer"
+    description: "An local only way to visualize your JSONL files. No downloads, uploads. Everything stay on your browser."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-21"
+  - name: "session-analyzer"
+    title: "session-analyzer"
+    description: "An offline page that create a dashboard with details about your coding agentic sessions."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-23"
+  - name: "litjs-typeahead"
+    title: "litjs-typeahead"
+    description: "An simple LitJS typeahead component."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-17"
 ---
 
 # lucasschirm

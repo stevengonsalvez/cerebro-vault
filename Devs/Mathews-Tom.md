@@ -8,38 +8,38 @@ provenance_repos:
   - "can1357/oh-my-pi"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-10T06:04:44.283147+00:00"
+repos_populated: true
+generated_at: "2026-10-11T06:04:44.624574+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [57, 86, 134, 4, 31, 6, 2, 0, 6, 25, 1, 3, 1]
+pushes_per_week: [88, 52, 133, 4, 36, 1, 2, 3, 3, 25, 2, 3, 2]
 windows:
   "7d":
-    pushes: 1
+    pushes: 2
     distinct_repos: 1
-    active_days: 1
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    active_days: 2
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "30d":
     pushes: 33
-    distinct_repos: 4
-    active_days: 10
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    distinct_repos: 5
+    active_days: 11
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "90d":
-    pushes: 356
+    pushes: 354
     distinct_repos: 13
-    active_days: 41
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    active_days: 42
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 8.6829
-  repo_per_active_day: 0.3171
-  not_owned_ratio: 0.0000
+  push_per_day: 8.4286
+  repo_per_active_day: 0.3095
+  not_owned_ratio: 0.0769
   basename_concentration: 0.1538
   shapes: []
   shape_evidence: []
@@ -49,38 +49,109 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
+    pushes: 2
     distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    pushes_per_repo: 2.0000
+    active_days: 2
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "30d":
     pushes: 33
-    distinct_repos: 4
-    pushes_per_repo: 8.2500
-    active_days: 10
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    distinct_repos: 5
+    pushes_per_repo: 6.6000
+    active_days: 11
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "90d":
-    pushes: 356
+    pushes: 354
     distinct_repos: 13
-    pushes_per_repo: 27.3846
-    active_days: 41
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    pushes_per_repo: 27.2308
+    active_days: 42
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 41 active days in 90d — pass"
+  - "activity: 42 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "armory"
+    title: "armory"
+    description: "Curated, production-grade skills for AI coding agents. Battle-tested workflows for developers who use AI seriously."
+    language: "Python"
+    topics:
+      - "ai-agents"
+      - "claude-code"
+      - "coding-agents"
+      - "open-source"
+      - "skills"
+    stars_fact: 329
+    first_seen: null
+    last_push: "2026-10-06"
+  - name: "Agentic-Design-Patterns"
+    title: "Agentic-Design-Patterns"
+    description: "Agentic Design Patterns"
+    language: null
+    topics: []
+    stars_fact: 1845
+    first_seen: null
+    last_push: "2025-09-05"
+  - name: "archex"
+    title: "archex"
+    description: "Verified code context for agents"
+    language: "Python"
+    topics:
+      - "agents"
+      - "archex"
+      - "ast"
+      - "code-intelligence"
+      - "code-retrieval"
+      - "code-search"
+      - "coding-agents"
+      - "context-engineering"
+      - "context-window-optimization"
+      - "developer-tools"
+      - "local-first"
+      - "mcp"
+      - "pi"
+      - "python"
+      - "retrieval"
+      - "semantic-search"
+      - "token-efficiency"
+      - "tree-sitter"
+    stars_fact: 66
+    first_seen: null
+    last_push: "2026-10-04"
+  - name: "scrybe"
+    title: "scrybe"
+    description: "Open-source meeting transcription and notes. Captures audio without bots, runs on your laptop, your data on disk."
+    language: "Rust"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-24"
+  - name: "laconic"
+    title: "laconic"
+    description: "Private, local runtime codec for coding agents: reduces model-visible tool observations with exact on-demand recovery. OMP-native, provider-neutral, and fail-open."
+    language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-21"
+  - name: "metermaid"
+    title: "metermaid"
+    description: "Background usage tracker for Claude Code and Codex CLI sessions"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-17"
 ---
 
 # Mathews-Tom
 
-356 pushes across 13 repositories on 41 active days in the last 90 days of public GitHub push activity.
+354 pushes across 13 repositories on 42 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Mathews-Tom

@@ -8,25 +8,25 @@ provenance_repos:
   - "agentskills/agentskills"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-10T06:04:44.283147+00:00"
+repos_populated: true
+generated_at: "2026-10-11T06:04:44.624574+00:00"
 provenance:
   - "48dbbdd8fd0d3029"
-pushes_per_week: [5, 2, 5, 5, 17, 4, 6, 2, 2, 4, 6, 13, 16]
+pushes_per_week: [5, 2, 5, 9, 13, 5, 6, 1, 3, 3, 6, 15, 14]
 windows:
   "7d":
-    pushes: 16
+    pushes: 14
     distinct_repos: 5
-    active_days: 5
+    active_days: 4
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 2
   "30d":
-    pushes: 40
-    distinct_repos: 11
-    active_days: 17
-    repos_not_owned: 7
-    not_owned_basenames: 7
+    pushes: 39
+    distinct_repos: 10
+    active_days: 16
+    repos_not_owned: 6
+    not_owned_basenames: 6
     not_owned_owners: 3
   "90d":
     pushes: 87
@@ -49,20 +49,20 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 16
+    pushes: 14
     distinct_repos: 5
-    pushes_per_repo: 3.2000
-    active_days: 5
+    pushes_per_repo: 2.8000
+    active_days: 4
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 2
   "30d":
-    pushes: 40
-    distinct_repos: 11
-    pushes_per_repo: 3.6364
-    active_days: 17
-    repos_not_owned: 7
-    not_owned_basenames: 7
+    pushes: 39
+    distinct_repos: 10
+    pushes_per_repo: 3.9000
+    active_days: 16
+    repos_not_owned: 6
+    not_owned_basenames: 6
     not_owned_owners: 3
   "90d":
     pushes: 87
@@ -76,7 +76,82 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 44 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "riteraft"
+    title: "riteraft"
+    description: "RiteRaft - A raft framework, for regular people"
+    language: "Rust"
+    topics:
+      - "distributed"
+      - "distributed-systems"
+      - "raft"
+      - "raft-framework"
+      - "rust"
+    stars_fact: 332
+    first_seen: null
+    last_push: "2024-02-18"
+  - name: "dohnuts"
+    title: "dohnuts"
+    description: "Dohnuts builds small multimodal models for direct decisions. -> System One model"
+    language: "Python"
+    topics:
+      - "decision-model"
+      - "jev"
+      - "laya"
+      - "llm"
+      - "lora"
+      - "rlcd"
+      - "system-one"
+      - "typesafe"
+    stars_fact: 36
+    first_seen: null
+    last_push: "2026-10-06"
+  - name: "skills"
+    title: "skills"
+    description: "A small, shared skill library by builders, for builders."
+    language: "HTML"
+    topics:
+      - "agent"
+      - "best-practices"
+      - "claude-code"
+      - "codex"
+      - "python"
+      - "rust"
+      - "skills"
+    stars_fact: 173
+    first_seen: null
+    last_push: "2026-09-14"
+  - name: "human"
+    title: "human"
+    description: "Just programming, humans inside"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-01"
+  - name: "databend-internals"
+    title: "databend-internals"
+    description: "Databend 内幕大揭秘"
+    language: "Rust"
+    topics:
+      - "book"
+      - "database"
+      - "databend"
+      - "olap"
+      - "query-engine"
+      - "rust"
+      - "tutorial"
+    stars_fact: 303
+    first_seen: null
+    last_push: "2024-01-26"
+  - name: "brand"
+    title: "brand"
+    description: "logo assets and brand guidelines"
+    language: null
+    topics: []
+    stars_fact: 4
+    first_seen: null
+    last_push: "2023-11-01"
 ---
 
 # PsiACE

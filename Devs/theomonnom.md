@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: false
-generated_at: "2026-10-10T06:04:44.283147+00:00"
+generated_at: "2026-10-11T06:04:44.624574+00:00"
 provenance:
   - "f45867b00b731122"
-pushes_per_week: [1, 0, 2, 11, 4, 2, 0, 1, 0, 0, 0, 0, 1]
+pushes_per_week: [0, 0, 2, 11, 4, 2, 0, 1, 0, 0, 0, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 22
+    pushes: 21
     distinct_repos: 5
-    active_days: 11
+    active_days: 10
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.0000
-  repo_per_active_day: 0.4545
+  push_per_day: 2.1000
+  repo_per_active_day: 0.5000
   not_owned_ratio: 1.0000
   basename_concentration: 0.2000
   shapes: []
@@ -65,22 +65,22 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 22
+    pushes: 21
     distinct_repos: 5
-    pushes_per_repo: 4.4000
-    active_days: 11
+    pushes_per_repo: 4.2000
+    active_days: 10
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 11 active days in 90d — pass"
+  - "activity: 10 active days in 90d — pass"
   - "automation: clear — pass"
 repos: []
 ---
 
 # theomonnom
 
-22 pushes across 5 repositories on 11 active days in the last 90 days of public GitHub push activity.
+21 pushes across 5 repositories on 10 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/theomonnom

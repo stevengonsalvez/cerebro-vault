@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-10T06:04:44.283147+00:00"
+generated_at: "2026-10-11T06:04:44.624574+00:00"
 provenance:
   - "a5e43b1572bfaf36"
-pushes_per_week: [167, 38, 56, 36, 18, 12, 92, 35, 28, 34, 23, 107, 54]
+pushes_per_week: [163, 38, 70, 22, 19, 13, 121, 6, 33, 30, 31, 97, 61]
 windows:
   "7d":
-    pushes: 62
+    pushes: 61
     distinct_repos: 2
-    active_days: 7
+    active_days: 6
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 230
+    pushes: 238
     distinct_repos: 4
-    active_days: 27
+    active_days: 28
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 700
+    pushes: 704
     distinct_repos: 5
     active_days: 79
     repos_not_owned: 3
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 8.8608
+  push_per_day: 8.9114
   repo_per_active_day: 0.0633
   not_owned_ratio: 0.6000
   basename_concentration: 0.2000
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 62
+    pushes: 61
     distinct_repos: 2
-    pushes_per_repo: 31.0000
-    active_days: 7
+    pushes_per_repo: 30.5000
+    active_days: 6
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 230
+    pushes: 238
     distinct_repos: 4
-    pushes_per_repo: 57.5000
-    active_days: 27
+    pushes_per_repo: 59.5000
+    active_days: 28
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 700
+    pushes: 704
     distinct_repos: 5
-    pushes_per_repo: 140.0000
+    pushes_per_repo: 140.8000
     active_days: 79
     repos_not_owned: 3
     not_owned_basenames: 3
@@ -129,6 +129,6 @@ repos:
 
 # cryppadotta
 
-700 pushes across 5 repositories on 79 active days in the last 90 days of public GitHub push activity.
+704 pushes across 5 repositories on 79 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/cryppadotta

@@ -8,8 +8,8 @@ provenance_repos:
   - "BuilderIO/agent-native"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-10T06:04:44.283147+00:00"
+repos_populated: true
+generated_at: "2026-10-11T06:04:44.624574+00:00"
 provenance:
   - "745308b2b7085095"
 pushes_per_week: [0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 2]
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "dotfiles"
+    title: "dotfiles"
+    description: null
+    language: "Shell"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2025-12-22"
+  - name: "hello-world-test"
+    title: "hello-world-test"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2025-12-03"
+  - name: "fdsafdsa"
+    title: "fdsafdsa"
+    description: "fdsafdsa"
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2025-08-06"
+  - name: "nextjs-reject-bug-repro"
+    title: "nextjs-reject-bug-repro"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2025-03-20"
+  - name: "ng-ssr-setup"
+    title: "ng-ssr-setup"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2024-10-02"
+  - name: "expo-50-repro"
+    title: "expo-50-repro"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2024-06-21"
 ---
 
 # samijaber

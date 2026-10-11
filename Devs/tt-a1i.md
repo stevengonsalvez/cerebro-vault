@@ -11,39 +11,39 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-10T06:04:44.283147+00:00"
+generated_at: "2026-10-11T06:04:44.624574+00:00"
 provenance:
   - "26de699d3e5c651e"
   - "4d1450729e6ff44d"
-pushes_per_week: [9, 12, 10, 3, 7, 4, 13, 2, 10, 10, 15, 11, 26]
+pushes_per_week: [7, 13, 11, 1, 7, 11, 8, 0, 11, 14, 14, 21, 16]
 windows:
   "7d":
-    pushes: 26
-    distinct_repos: 4
-    active_days: 5
-    repos_not_owned: 3
-    not_owned_basenames: 1
-    not_owned_owners: 3
+    pushes: 30
+    distinct_repos: 5
+    active_days: 6
+    repos_not_owned: 4
+    not_owned_basenames: 2
+    not_owned_owners: 4
   "30d":
-    pushes: 66
-    distinct_repos: 15
-    active_days: 22
-    repos_not_owned: 12
+    pushes: 70
+    distinct_repos: 16
+    active_days: 23
+    repos_not_owned: 13
     not_owned_basenames: 2
     not_owned_owners: 12
   "90d":
-    pushes: 132
-    distinct_repos: 29
+    pushes: 134
+    distinct_repos: 28
     active_days: 47
-    repos_not_owned: 17
+    repos_not_owned: 18
     not_owned_basenames: 4
     not_owned_owners: 17
 automation:
   state: "clear"
-  push_per_day: 2.8085
-  repo_per_active_day: 0.6170
-  not_owned_ratio: 0.5862
-  basename_concentration: 0.3793
+  push_per_day: 2.8511
+  repo_per_active_day: 0.5957
+  not_owned_ratio: 0.6429
+  basename_concentration: 0.3929
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -52,27 +52,27 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 26
-    distinct_repos: 4
-    pushes_per_repo: 6.5000
-    active_days: 5
-    repos_not_owned: 3
-    not_owned_basenames: 1
-    not_owned_owners: 3
+    pushes: 30
+    distinct_repos: 5
+    pushes_per_repo: 6.0000
+    active_days: 6
+    repos_not_owned: 4
+    not_owned_basenames: 2
+    not_owned_owners: 4
   "30d":
-    pushes: 66
-    distinct_repos: 15
-    pushes_per_repo: 4.4000
-    active_days: 22
-    repos_not_owned: 12
+    pushes: 70
+    distinct_repos: 16
+    pushes_per_repo: 4.3750
+    active_days: 23
+    repos_not_owned: 13
     not_owned_basenames: 2
     not_owned_owners: 12
   "90d":
-    pushes: 132
-    distinct_repos: 29
-    pushes_per_repo: 4.5517
+    pushes: 134
+    distinct_repos: 28
+    pushes_per_repo: 4.7857
     active_days: 47
-    repos_not_owned: 17
+    repos_not_owned: 18
     not_owned_basenames: 4
     not_owned_owners: 17
 reasons:
@@ -176,6 +176,6 @@ repos:
 
 # tt-a1i
 
-132 pushes across 29 repositories on 47 active days in the last 90 days of public GitHub push activity.
+134 pushes across 28 repositories on 47 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/tt-a1i

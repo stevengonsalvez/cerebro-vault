@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: false
-generated_at: "2026-10-10T06:04:44.283147+00:00"
+generated_at: "2026-10-11T06:04:44.624574+00:00"
 provenance:
   - "635453fe3b6ecc12"
-pushes_per_week: [25, 21, 30, 18, 36, 8, 6, 1, 4, 23, 14, 51, 20]
+pushes_per_week: [31, 20, 28, 19, 33, 8, 4, 1, 7, 23, 18, 49, 15]
 windows:
   "7d":
-    pushes: 22
+    pushes: 16
     distinct_repos: 7
-    active_days: 4
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 257
+    pushes: 256
     distinct_repos: 29
-    active_days: 67
+    active_days: 66
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 3.8358
-  repo_per_active_day: 0.4328
+  push_per_day: 3.8788
+  repo_per_active_day: 0.4394
   not_owned_ratio: 0.0000
   basename_concentration: 0.0345
   shapes: []
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 22
+    pushes: 16
     distinct_repos: 7
-    pushes_per_repo: 3.1429
-    active_days: 4
+    pushes_per_repo: 2.2857
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -65,22 +65,22 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 257
+    pushes: 256
     distinct_repos: 29
-    pushes_per_repo: 8.8621
-    active_days: 67
+    pushes_per_repo: 8.8276
+    active_days: 66
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 67 active days in 90d — pass"
+  - "activity: 66 active days in 90d — pass"
   - "automation: clear — pass"
 repos: []
 ---
 
 # xiaolai
 
-257 pushes across 29 repositories on 67 active days in the last 90 days of public GitHub push activity.
+256 pushes across 29 repositories on 66 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/xiaolai

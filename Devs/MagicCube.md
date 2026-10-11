@@ -9,11 +9,11 @@ provenance_repos:
   - "bytedance/deer-flow"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-10T06:04:44.283147+00:00"
+repos_populated: true
+generated_at: "2026-10-11T06:04:44.624574+00:00"
 provenance:
   - "16389f32495280ea"
-pushes_per_week: [23, 7, 10, 8, 1, 2, 0, 0, 1, 2, 1, 1, 0]
+pushes_per_week: [24, 15, 4, 5, 2, 1, 0, 0, 1, 2, 1, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -23,9 +23,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 5
+    pushes: 4
     distinct_repos: 3
-    active_days: 5
+    active_days: 4
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
@@ -58,10 +58,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 5
+    pushes: 4
     distinct_repos: 3
-    pushes_per_repo: 1.6667
-    active_days: 5
+    pushes_per_repo: 1.3333
+    active_days: 4
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
@@ -77,7 +77,77 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 22 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "cli-gpt"
+    title: "cli-gpt"
+    description: "Translate human language to command line using ChatGPT."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 119
+    first_seen: null
+    last_push: "2023-03-15"
+  - name: "helixent"
+    title: "helixent"
+    description: "Helixent is a small library for building ReAct-style AI agent loops based on the Bun stack."
+    language: "TypeScript"
+    topics:
+      - "agent"
+      - "agent-loop"
+      - "ai"
+      - "bun"
+      - "cli"
+      - "coding"
+      - "skills"
+    stars_fact: 681
+    first_seen: null
+    last_push: "2026-05-21"
+  - name: "agentara"
+    title: "agentara"
+    description: "Your 24/7 personal assistant powered by Claude Code and OpenAI Codex. Multi-channel messaging, long-term memory, skills, task scheduling, session management, and more — all running locally."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 516
+    first_seen: null
+    last_push: "2026-05-11"
+  - name: "lang-lens"
+    title: "lang-lens"
+    description: "Yet another UI built for LangGraph."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 12
+    first_seen: null
+    last_push: "2025-11-12"
+  - name: "tensorflow-rex-run"
+    title: "tensorflow-rex-run"
+    description: "A TensorFlow.js based AI player platform for T-Rex Runner. T-Rex Runner is originally an easter egg game inside chrome."
+    language: "JavaScript"
+    topics:
+      - "ai"
+      - "chrome"
+      - "easter-egg"
+      - "es6"
+      - "es7"
+      - "javascript"
+      - "neural-network"
+      - "t-rex-runner"
+      - "tensorflow"
+      - "tensorflow-js"
+    stars_fact: 673
+    first_seen: null
+    last_push: "2023-03-07"
+  - name: "movie-board"
+    title: "movie-board"
+    description: "Re-design and implement Douban Movie with React and Redux."
+    language: "JavaScript"
+    topics:
+      - "douban"
+      - "lolomo"
+      - "movie"
+      - "react"
+      - "redux"
+    stars_fact: 136
+    first_seen: null
+    last_push: "2022-02-12"
 ---
 
 # MagicCube

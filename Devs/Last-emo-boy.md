@@ -8,8 +8,8 @@ provenance_repos:
   - "AstrBotDevs/AstrBot"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-10T06:04:44.283147+00:00"
+repos_populated: true
+generated_at: "2026-10-11T06:04:44.624574+00:00"
 provenance:
   - "78a5846a75cc0fbb"
 pushes_per_week: [16, 2, 0, 0, 2, 1, 3, 0, 7, 1, 0, 0, 0]
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 12 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "oai-skills"
+    title: "oai-skills"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 8
+    first_seen: null
+    last_push: "2026-05-26"
+  - name: "Multisim-MCP"
+    title: "Multisim-MCP"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 16
+    first_seen: null
+    last_push: "2026-05-25"
+  - name: "astrbot_plugin_cr4zyThursday"
+    title: "astrbot_plugin_cr4zyThursday"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 13
+    first_seen: null
+    last_push: "2026-05-02"
+  - name: "HiganVN"
+    title: "HiganVN"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2025-12-08"
+  - name: "astrbot-rs"
+    title: "astrbot-rs"
+    description: null
+    language: "Rust"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-05-20"
+  - name: "WxAppUnpacker"
+    title: "WxAppUnpacker"
+    description: null
+    language: "C#"
+    topics: []
+    stars_fact: 8
+    first_seen: null
+    last_push: "2026-04-06"
 ---
 
 # Last-emo-boy

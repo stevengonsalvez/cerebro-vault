@@ -8,8 +8,8 @@ provenance_repos:
   - "BigPizzaV3/CodexPlusPlus"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-10T06:04:44.283147+00:00"
+repos_populated: true
+generated_at: "2026-10-11T06:04:44.624574+00:00"
 provenance:
   - "90688bf127241ceb"
 pushes_per_week: [8, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "data-report-generator"
+    title: "data-report-generator"
+    description: "Analyze CSV, JSON, and TSV data files - get statistics, trends, and actionable conclusions"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-07-25"
+  - name: "code-review-skill"
+    title: "code-review-skill"
+    description: "Review code for security vulnerabilities, performance issues, and style problems"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-07-25"
+  - name: "slide-deck-generator"
+    title: "slide-deck-generator"
+    description: "Convert notes, text, and code into structured presentation slide decks"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-07-25"
+  - name: "rfc-proposal-writer"
+    title: "rfc-proposal-writer"
+    description: "Generate RFCs, ADRs, and technical proposals from rough ideas"
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-07-25"
+  - name: "technical-article-writer"
+    title: "technical-article-writer"
+    description: "Transform notes, code, and transcripts into publish-ready technical articles"
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-07-25"
+  - name: "creator-os-lite"
+    title: "creator-os-lite"
+    description: "Risk control warning radar for freelance professionals. Open-source Android app with multi-provider AI support."
+    language: "Kotlin"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-06-13"
 ---
 
 # Marnie0415

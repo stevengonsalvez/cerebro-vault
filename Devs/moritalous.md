@@ -8,16 +8,16 @@ provenance_repos:
   - "anthropics/anthropic-sdk-python"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-10T06:04:44.283147+00:00"
+repos_populated: true
+generated_at: "2026-10-11T06:04:44.624574+00:00"
 provenance:
   - "1be978947e68d1f2"
-pushes_per_week: [3, 16, 1, 1, 3, 0, 0, 1, 0, 2, 1, 0, 1]
+pushes_per_week: [5, 14, 2, 0, 3, 0, 1, 0, 1, 1, 1, 1, 0]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 16 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "cost-widget"
+    title: "cost-widget"
+    description: null
+    language: "C#"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-11"
+  - name: "my-jev-playground"
+    title: "my-jev-playground"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-04"
+  - name: "claude-mods-router"
+    title: "claude-mods-router"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-02"
+  - name: "lambda-mcp-adaptor"
+    title: "lambda-mcp-adaptor"
+    description: "An MCP server SDK for AWS serverless architecture with familiar, official SDK-like API design."
+    language: "JavaScript"
+    topics: []
+    stars_fact: 13
+    first_seen: null
+    last_push: "2025-06-15"
+  - name: "lambda-microvm-webapp"
+    title: "lambda-microvm-webapp"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 5
+    first_seen: null
+    last_push: "2026-06-27"
+  - name: "qiita-voice-plugin"
+    title: "qiita-voice-plugin"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-08-27"
 ---
 
 # moritalous

@@ -8,37 +8,37 @@ provenance_repos:
   - "anomalyco/opencode"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-10T06:04:44.283147+00:00"
+repos_populated: true
+generated_at: "2026-10-11T06:04:44.624574+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 20]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 17, 10]
 windows:
   "7d":
-    pushes: 26
+    pushes: 20
     distinct_repos: 1
     active_days: 5
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 26
+    pushes: 27
     distinct_repos: 1
-    active_days: 5
+    active_days: 6
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 26
+    pushes: 27
     distinct_repos: 1
-    active_days: 5
+    active_days: 6
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 5.2000
-  repo_per_active_day: 0.2000
+  push_per_day: 4.5000
+  repo_per_active_day: 0.1667
   not_owned_ratio: 1.0000
   basename_concentration: 1.0000
   shapes: []
@@ -49,38 +49,70 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 26
+    pushes: 20
     distinct_repos: 1
-    pushes_per_repo: 26.0000
+    pushes_per_repo: 20.0000
     active_days: 5
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 26
+    pushes: 27
     distinct_repos: 1
-    pushes_per_repo: 26.0000
-    active_days: 5
+    pushes_per_repo: 27.0000
+    active_days: 6
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 26
+    pushes: 27
     distinct_repos: 1
-    pushes_per_repo: 26.0000
-    active_days: 5
+    pushes_per_repo: 27.0000
+    active_days: 6
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 5 active days in 90d — pass"
+  - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "leap-mcp"
+    title: "leap-mcp"
+    description: null
+    language: "Swift"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-30"
+  - name: "windows-apple-bluetooth-keyboard-battery"
+    title: "windows-apple-bluetooth-keyboard-battery"
+    description: null
+    language: "C#"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-12"
+  - name: "markdown-helper-mcp"
+    title: "markdown-helper-mcp"
+    description: "A Powerful MCP markdown editor for AI agents — document editor, externalized brain, and requirements refinement surface in one tool."
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-05-20"
+  - name: "testcode"
+    title: "testcode"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2024-05-22"
 ---
 
 # ryanwyler
 
-26 pushes across 1 repository on 5 active days in the last 90 days of public GitHub push activity.
+27 pushes across 1 repository on 6 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ryanwyler

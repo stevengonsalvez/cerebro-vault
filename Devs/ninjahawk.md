@@ -8,11 +8,11 @@ provenance_repos:
   - "ninjahawk/livenerf"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-10T06:04:44.283147+00:00"
+repos_populated: true
+generated_at: "2026-10-11T06:04:44.624574+00:00"
 provenance:
   - "9ee133e6f5024f08"
-pushes_per_week: [48, 20, 2, 2, 0, 0, 0, 0, 0, 7, 2, 2, 1]
+pushes_per_week: [53, 16, 2, 1, 0, 0, 0, 0, 0, 7, 2, 2, 1]
 windows:
   "7d":
     pushes: 1
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 18 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "livenerf"
+    title: "livenerf"
+    description: "Benchmark for tracking model capability after release."
+    language: "Python"
+    topics: []
+    stars_fact: 1358
+    first_seen: "2026-09-30T06:02:10.916514+00:00"
+    last_push: "2026-10-06"
+  - name: "crypto"
+    title: "crypto"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-07"
+  - name: "S-and-Poke-500"
+    title: "S-and-Poke-500"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-10-07"
+  - name: "T-Finance"
+    title: "T-Finance"
+    description: null
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-05"
+  - name: "mech"
+    title: "mech"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-06"
+  - name: "hollow-agentOS"
+    title: "hollow-agentOS"
+    description: "Hollow is an open-sourced self-modifying agentic system for consumer hardware"
+    language: "Python"
+    topics: []
+    stars_fact: 309
+    first_seen: null
+    last_push: "2026-07-23"
 ---
 
 # ninjahawk

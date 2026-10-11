@@ -8,11 +8,11 @@ provenance_repos:
   - "browser-use/browser-use"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-10T06:04:44.283147+00:00"
+repos_populated: true
+generated_at: "2026-10-11T06:04:44.624574+00:00"
 provenance:
   - "c1af6b58492f9bf4"
-pushes_per_week: [9, 0, 13, 1, 0, 1, 0, 0, 0, 0, 1, 0, 0]
+pushes_per_week: [8, 0, 13, 1, 1, 0, 0, 0, 0, 0, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,7 +29,7 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 25
+    pushes: 24
     distinct_repos: 2
     active_days: 10
     repos_not_owned: 0
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.5000
+  push_per_day: 2.4000
   repo_per_active_day: 0.2000
   not_owned_ratio: 0.0000
   basename_concentration: 0.5000
@@ -65,9 +65,9 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 25
+    pushes: 24
     distinct_repos: 2
-    pushes_per_repo: 12.5000
+    pushes_per_repo: 12.0000
     active_days: 10
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -76,11 +76,59 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 10 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "SmartManoj"
+    title: "SmartManoj"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-11"
+  - name: "ClaudeCodeTips"
+    title: "ClaudeCodeTips"
+    description: "Daily-updated list of Claude Code spinner tips, extracted from the CLI binary"
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-10"
+  - name: "Better-Gmail-Bot"
+    title: "Better-Gmail-Bot"
+    description: "A Replacement for Telegram Gmail Bot"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-28"
+  - name: "Modern-Proverbs"
+    title: "Modern-Proverbs"
+    description: null
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-23"
+  - name: "smart-claude-md"
+    title: "smart-claude-md"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-29"
+  - name: "RocketReach-MCP"
+    title: "RocketReach-MCP"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-13"
 ---
 
 # SmartManoj
 
-25 pushes across 2 repositories on 10 active days in the last 90 days of public GitHub push activity.
+24 pushes across 2 repositories on 10 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/SmartManoj

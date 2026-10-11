@@ -8,16 +8,16 @@ provenance_repos:
   - "chopratejas/headroom"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-10T06:04:44.283147+00:00"
+repos_populated: true
+generated_at: "2026-10-11T06:04:44.624574+00:00"
 provenance:
   - "73468cde177ddae6"
-pushes_per_week: [7, 2, 0, 1, 1, 0, 0, 0, 0, 0, 2, 0, 1]
+pushes_per_week: [8, 1, 0, 1, 1, 0, 0, 0, 0, 0, 2, 1, 0]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 9 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "neetcode-submissions"
+    title: "neetcode-submissions"
+    description: "My NeetCode.io problem submissions"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-16"
+  - name: "slxng1758.github.io"
+    title: "slxng1758.github.io"
+    description: null
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-05"
+  - name: "distributed-kv-store"
+    title: "distributed-kv-store"
+    description: null
+    language: "C++"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-04"
+  - name: "Wayfinder-Demo"
+    title: "Wayfinder-Demo"
+    description: "Summer 2025 Wayfinder Demo - check out \"SHN Wayfinder\" online"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-04"
+  - name: "DisclosureFlow"
+    title: "DisclosureFlow"
+    description: "SEC filing change detector to eliminate manually diffing hundred-page docs"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-06-26"
+  - name: "Bark"
+    title: "Bark"
+    description: "DataPUPs 2026 Summit Workshop"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-06-26"
 ---
 
 # slxng1758

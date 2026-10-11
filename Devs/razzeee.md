@@ -8,26 +8,26 @@ provenance_repos:
   - "AlexsJones/llmfit"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-10T06:04:44.283147+00:00"
+repos_populated: true
+generated_at: "2026-10-11T06:04:44.624574+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [27, 7, 2, 7, 5, 2, 5, 0, 6, 8, 13, 8, 14]
+pushes_per_week: [28, 6, 2, 7, 6, 4, 2, 1, 5, 12, 10, 15, 6]
 windows:
   "7d":
-    pushes: 16
+    pushes: 13
     distinct_repos: 4
-    active_days: 4
+    active_days: 3
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 3
   "30d":
-    pushes: 44
-    distinct_repos: 13
-    active_days: 19
-    repos_not_owned: 7
-    not_owned_basenames: 7
-    not_owned_owners: 6
+    pushes: 43
+    distinct_repos: 12
+    active_days: 18
+    repos_not_owned: 6
+    not_owned_basenames: 6
+    not_owned_owners: 5
   "90d":
     pushes: 104
     distinct_repos: 25
@@ -49,21 +49,21 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 16
+    pushes: 13
     distinct_repos: 4
-    pushes_per_repo: 4.0000
-    active_days: 4
+    pushes_per_repo: 3.2500
+    active_days: 3
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 3
   "30d":
-    pushes: 44
-    distinct_repos: 13
-    pushes_per_repo: 3.3846
-    active_days: 19
-    repos_not_owned: 7
-    not_owned_basenames: 7
-    not_owned_owners: 6
+    pushes: 43
+    distinct_repos: 12
+    pushes_per_repo: 3.5833
+    active_days: 18
+    repos_not_owned: 6
+    not_owned_basenames: 6
+    not_owned_owners: 5
   "90d":
     pushes: 104
     distinct_repos: 25
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 46 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "flatpak-blackbox-tests"
+    title: "flatpak-blackbox-tests"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-11"
+  - name: "aileron"
+    title: "aileron"
+    description: null
+    language: "Rust"
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-10-09"
+  - name: "flatpak-smoke"
+    title: "flatpak-smoke"
+    description: null
+    language: "Rust"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-11"
+  - name: "window-switching-redux"
+    title: "window-switching-redux"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-25"
+  - name: "gnome-foreground-booster"
+    title: "gnome-foreground-booster"
+    description: null
+    language: "Rust"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-17"
+  - name: "dmemcg-booster"
+    title: "dmemcg-booster"
+    description: null
+    language: "Rust"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-15"
 ---
 
 # razzeee

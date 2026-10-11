@@ -8,37 +8,37 @@ provenance_repos:
   - "can1357/oh-my-pi"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-10T06:04:44.283147+00:00"
+repos_populated: true
+generated_at: "2026-10-11T06:04:44.624574+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [31, 29, 41, 58, 81, 20, 17, 2, 6, 26, 37, 79, 11]
+pushes_per_week: [31, 30, 47, 55, 86, 15, 15, 2, 10, 31, 58, 51, 8]
 windows:
   "7d":
-    pushes: 15
-    distinct_repos: 6
+    pushes: 10
+    distinct_repos: 5
     active_days: 4
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
-    pushes: 157
+    pushes: 154
     distinct_repos: 24
     active_days: 21
     repos_not_owned: 13
     not_owned_basenames: 6
     not_owned_owners: 12
   "90d":
-    pushes: 438
+    pushes: 439
     distinct_repos: 59
-    active_days: 65
+    active_days: 66
     repos_not_owned: 43
     not_owned_basenames: 9
     not_owned_owners: 42
 automation:
   state: "clear"
-  push_per_day: 6.7385
-  repo_per_active_day: 0.9077
+  push_per_day: 6.6515
+  repo_per_active_day: 0.8939
   not_owned_ratio: 0.7288
   basename_concentration: 0.4237
   shapes: []
@@ -49,38 +49,98 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 15
-    distinct_repos: 6
-    pushes_per_repo: 2.5000
+    pushes: 10
+    distinct_repos: 5
+    pushes_per_repo: 2.0000
     active_days: 4
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
-    pushes: 157
+    pushes: 154
     distinct_repos: 24
-    pushes_per_repo: 6.5417
+    pushes_per_repo: 6.4167
     active_days: 21
     repos_not_owned: 13
     not_owned_basenames: 6
     not_owned_owners: 12
   "90d":
-    pushes: 438
+    pushes: 439
     distinct_repos: 59
-    pushes_per_repo: 7.4237
-    active_days: 65
+    pushes_per_repo: 7.4407
+    active_days: 66
     repos_not_owned: 43
     not_owned_basenames: 9
     not_owned_owners: 42
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 65 active days in 90d — pass"
+  - "activity: 66 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "pi-subagents"
+    title: "pi-subagents"
+    description: "Pi extension for async subagent delegation with truncation, artifacts, and session sharing"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 3898
+    first_seen: null
+    last_push: "2026-10-11"
+  - name: "pi-mcp-adapter"
+    title: "pi-mcp-adapter"
+    description: "Token-efficient MCP adapter for Pi coding agent"
+    language: "TypeScript"
+    topics:
+      - "ai"
+      - "claude"
+      - "coding-agent"
+      - "extension"
+      - "llm"
+      - "mcp"
+      - "model-context-protocol"
+      - "pi"
+    stars_fact: 1587
+    first_seen: null
+    last_push: "2026-10-10"
+  - name: "visual-explainer"
+    title: "visual-explainer"
+    description: "Agent skill that generates rich HTML pages or slide decks for diagrams, diff reviews, plan audits, data tables, and project recaps"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 10341
+    first_seen: null
+    last_push: "2026-10-10"
+  - name: "pi-powerline-footer"
+    title: "pi-powerline-footer"
+    description: "Powerline-style status bar extension for pi coding agent"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 456
+    first_seen: null
+    last_push: "2026-10-10"
+  - name: "pi-web-access"
+    title: "pi-web-access"
+    description: "Web search and content extraction extension for Pi coding agent"
+    language: "JavaScript"
+    topics:
+      - "perplexity"
+      - "pi-coding-agent"
+      - "typescript"
+      - "web-search"
+    stars_fact: 1616
+    first_seen: null
+    last_push: "2026-10-09"
+  - name: "pi-intercom"
+    title: "pi-intercom"
+    description: "Inter-session communication extension for pi coding agent"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 533
+    first_seen: null
+    last_push: "2026-10-10"
 ---
 
 # nicobailon
 
-438 pushes across 59 repositories on 65 active days in the last 90 days of public GitHub push activity.
+439 pushes across 59 repositories on 66 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/nicobailon

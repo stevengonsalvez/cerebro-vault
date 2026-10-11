@@ -8,11 +8,11 @@ provenance_repos:
   - "agent-substrate/substrate"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-10T06:04:44.283147+00:00"
+repos_populated: true
+generated_at: "2026-10-11T06:04:44.624574+00:00"
 provenance:
   - "a5ffcd0a46dd44fd"
-pushes_per_week: [5, 24, 0, 0, 2, 0, 2, 0, 4, 0, 8, 0, 0]
+pushes_per_week: [16, 13, 0, 0, 2, 2, 0, 0, 4, 6, 2, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,66 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 12 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "hey"
+    title: "hey"
+    description: "HTTP load generator, ApacheBench (ab) replacement"
+    language: "Go"
+    topics: []
+    stars_fact: 20675
+    first_seen: null
+    last_push: "2026-01-10"
+  - name: "gotest"
+    title: "gotest"
+    description: "go test with colors"
+    language: "Go"
+    topics: []
+    stars_fact: 1391
+    first_seen: null
+    last_push: "2026-01-10"
+  - name: "go-hardware"
+    title: "go-hardware"
+    description: "A directory of hardware related libs, tools, and tutorials for Go"
+    language: "Go"
+    topics:
+      - "cgo"
+      - "embedded"
+      - "go"
+      - "hardware"
+      - "tutorials"
+    stars_fact: 1388
+    first_seen: null
+    last_push: "2019-07-31"
+  - name: "statik"
+    title: "statik"
+    description: "Embed files into a Go executable"
+    language: "Go"
+    topics:
+      - "files"
+      - "go"
+      - "golang"
+      - "http"
+      - "http-server"
+      - "static"
+    stars_fact: 3825
+    first_seen: null
+    last_push: "2026-01-10"
+  - name: "autopprof"
+    title: "autopprof"
+    description: "Pprof made easy at development time for Go"
+    language: "Go"
+    topics: []
+    stars_fact: 756
+    first_seen: null
+    last_push: "2020-10-23"
+  - name: "magicmime"
+    title: "magicmime"
+    description: "Go bindings for libmagic to detect MIME types"
+    language: "Go"
+    topics: []
+    stars_fact: 232
+    first_seen: null
+    last_push: "2024-03-29"
 ---
 
 # rakyll

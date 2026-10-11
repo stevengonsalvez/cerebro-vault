@@ -8,11 +8,11 @@ provenance_repos:
   - "apache/maka"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-10T06:04:44.283147+00:00"
+repos_populated: true
+generated_at: "2026-10-11T06:04:44.624574+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [1, 1, 0, 0, 0, 0, 4, 2, 3, 23, 4, 5, 0]
+pushes_per_week: [1, 1, 0, 0, 0, 0, 6, 0, 14, 12, 4, 5, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 34
+    pushes: 32
     distinct_repos: 6
-    active_days: 11
+    active_days: 10
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 34
+    pushes: 32
     distinct_repos: 6
-    pushes_per_repo: 5.6667
-    active_days: 11
+    pushes_per_repo: 5.3333
+    active_days: 10
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 18 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "HGSparkConnectorExample"
+    title: "HGSparkConnectorExample"
+    description: null
+    language: "Scala"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2023-10-08"
+  - name: "rtd-tutorial"
+    title: "rtd-tutorial"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2023-09-30"
+  - name: "aliyunpan-autosignin"
+    title: "aliyunpan-autosignin"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2023-08-16"
+  - name: "HugeGraphSpark"
+    title: "HugeGraphSpark"
+    description: "Spark 3.2.2 + HugeGraph Client 1.0.0"
+    language: "Java"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2023-07-29"
+  - name: "JVM-Study"
+    title: "JVM-Study"
+    description: null
+    language: "Java"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2021-08-18"
+  - name: "spark3datasourcev2demo"
+    title: "spark3datasourcev2demo"
+    description: null
+    language: "Scala"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2023-05-16"
 ---
 
 # liuxiaocs7

@@ -8,16 +8,16 @@ provenance_repos:
   - "abhigyanpatwari/GitNexus"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-10T06:04:44.283147+00:00"
+repos_populated: true
+generated_at: "2026-10-11T06:04:44.624574+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [4, 0, 1, 10, 9, 7, 9, 1, 4, 6, 44, 59, 15]
+pushes_per_week: [4, 0, 1, 13, 6, 10, 6, 3, 3, 10, 59, 45, 9]
 windows:
   "7d":
-    pushes: 23
-    distinct_repos: 8
-    active_days: 5
+    pushes: 15
+    distinct_repos: 6
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 23
-    distinct_repos: 8
-    pushes_per_repo: 2.8750
-    active_days: 5
+    pushes: 15
+    distinct_repos: 6
+    pushes_per_repo: 2.5000
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -76,7 +76,77 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 41 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "fo4-complexion"
+    title: "fo4-complexion"
+    description: "Complexion: curated LooksMenu skin overlays for every Fallout 4 NPC, chosen for who they are - the replacement for Random Overlay Framework (F4SE, OG/NG/AE through Runtime Database)"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-10"
+  - name: "fo4-ocbpc"
+    title: "fo4-ocbpc"
+    description: "OCBPC (cbp.dll) for Fallout 4, extended: tube collision, run-time genital bones, penis aim, a contact-driven mouth, Rapport face authority and glances"
+    language: "C++"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-10-10"
+  - name: "fo4-rapport"
+    title: "fo4-rapport"
+    description: "F4SE plugin and Papyrus bridge that drives AAF: scene selection, facial expressions, overlays and persistent aftermath for Fallout 4"
+    language: "C++"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-10-10"
+  - name: "fo4-anatomy"
+    title: "fo4-anatomy"
+    description: "Anatomy - CBBE Genitals, Physics and Arousal for Fallout 4: built on the player's PC from their own CBBE, with the fo4-ocbpc engine"
+    language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-09"
+  - name: "fo4-silhouette"
+    title: "fo4-silhouette"
+    description: "Silhouette: OBody NG's body distribution for Fallout 4 - a measured body pool, named characters' own bodies, faction pools, ORefit, an in-game picker and OBody's API (F4SE + LooksMenu BodyGen)"
+    language: "Python"
+    topics:
+      - "bodyslide"
+      - "f4se"
+      - "fallout-4-mod"
+      - "fallout4"
+      - "looksmenu"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-09"
+  - name: "Event-Horizon"
+    title: "Event-Horizon"
+    description: "Vortex extension that installs a collection exactly as its curator built it — every archive checked by SHA-256, the load order pinned — and keeps it that way. Skyrim SE, Fallout 4, Fallout 3, New Vegas, Starfield."
+    language: "TypeScript"
+    topics:
+      - "bethesda"
+      - "collections"
+      - "electron"
+      - "fallout-new-vegas"
+      - "fallout3"
+      - "fallout4"
+      - "load-order"
+      - "loot"
+      - "mod-manager"
+      - "modding"
+      - "nexusmods"
+      - "skyrim"
+      - "skyrim-special-edition"
+      - "starfield"
+      - "typescript"
+      - "vortex"
+      - "vortex-extension"
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-10-09"
 ---
 
 # ReidenXerx

@@ -8,11 +8,11 @@ provenance_repos:
   - "agent-substrate/substrate"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-10T06:04:44.283147+00:00"
+repos_populated: true
+generated_at: "2026-10-11T06:04:44.624574+00:00"
 provenance:
   - "a5ffcd0a46dd44fd"
-pushes_per_week: [7, 0, 1, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [7, 0, 3, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,63 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "bleep"
+    title: "bleep"
+    description: "Bleep! — the forbidden-words party game (marketing site)"
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-10"
+  - name: "stream-mixer"
+    title: "stream-mixer"
+    description: "Free multistream viewer for Twitch, YouTube, and Kick with draggable video and chat layouts."
+    language: "TypeScript"
+    topics:
+      - "astro"
+      - "kick"
+      - "live-streaming"
+      - "multistream"
+      - "multistream-viewer"
+      - "react"
+      - "twitch"
+      - "youtube"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-28"
+  - name: "agent-dotfiles"
+    title: "agent-dotfiles"
+    description: "Portable WSL tmux notifications for Codex CLI and Claude Code"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-13"
+  - name: "bleep-privacy"
+    title: "bleep-privacy"
+    description: null
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-07-30"
+  - name: "nvim-config"
+    title: "nvim-config"
+    description: null
+    language: "Lua"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-07-15"
+  - name: "competitive-programming"
+    title: "competitive-programming"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2025-05-03"
 ---
 
 # Qqkyu

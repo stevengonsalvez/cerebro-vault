@@ -8,11 +8,11 @@ provenance_repos:
   - "antirez/ds4"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-10T06:04:44.283147+00:00"
+repos_populated: true
+generated_at: "2026-10-11T06:04:44.624574+00:00"
 provenance:
   - "3eacb4655aba2497"
-pushes_per_week: [42, 23, 17, 14, 3, 0, 0, 0, 0, 0, 0, 0, 1]
+pushes_per_week: [45, 21, 19, 13, 1, 0, 0, 0, 0, 0, 0, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -76,7 +76,23 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 26 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "accretion"
+    title: "accretion"
+    description: "The accretion disk around DwarfStar — a consumer streaming platform that feeds ds4 experts from NVMe on demand, so 300B-class models serve real work from hardware you can actually buy."
+    language: "C"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-08-10"
+  - name: "Morph"
+    title: "Morph"
+    description: "Replacement for AutoMapper"
+    language: "C#"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-04-17"
 ---
 
 # nexus-cw

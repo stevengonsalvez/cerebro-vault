@@ -8,25 +8,25 @@ provenance_repos:
   - "ChromeDevTools/chrome-devtools-mcp"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-10T06:04:44.283147+00:00"
+repos_populated: true
+generated_at: "2026-10-11T06:04:44.624574+00:00"
 provenance:
   - "379642deb53f3714"
-pushes_per_week: [75, 76, 51, 34, 64, 12, 21, 2, 12, 28, 30, 39, 15]
+pushes_per_week: [93, 62, 53, 32, 60, 12, 19, 4, 17, 24, 36, 34, 13]
 windows:
   "7d":
-    pushes: 21
-    distinct_repos: 9
+    pushes: 17
+    distinct_repos: 8
     active_days: 6
-    repos_not_owned: 4
-    not_owned_basenames: 4
-    not_owned_owners: 3
+    repos_not_owned: 3
+    not_owned_basenames: 3
+    not_owned_owners: 2
   "30d":
-    pushes: 118
-    distinct_repos: 15
+    pushes: 119
+    distinct_repos: 14
     active_days: 29
-    repos_not_owned: 8
-    not_owned_basenames: 8
+    repos_not_owned: 7
+    not_owned_basenames: 7
     not_owned_owners: 5
   "90d":
     pushes: 459
@@ -49,20 +49,20 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 21
-    distinct_repos: 9
-    pushes_per_repo: 2.3333
+    pushes: 17
+    distinct_repos: 8
+    pushes_per_repo: 2.1250
     active_days: 6
-    repos_not_owned: 4
-    not_owned_basenames: 4
-    not_owned_owners: 3
+    repos_not_owned: 3
+    not_owned_basenames: 3
+    not_owned_owners: 2
   "30d":
-    pushes: 118
-    distinct_repos: 15
-    pushes_per_repo: 7.8667
+    pushes: 119
+    distinct_repos: 14
+    pushes_per_repo: 8.5000
     active_days: 29
-    repos_not_owned: 8
-    not_owned_basenames: 8
+    repos_not_owned: 7
+    not_owned_basenames: 7
     not_owned_owners: 5
   "90d":
     pushes: 459
@@ -76,7 +76,58 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 81 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "dotfiles"
+    title: "dotfiles"
+    description: ":wrench: .files, including ~/.macos — sensible hacker defaults for macOS"
+    language: "Shell"
+    topics:
+      - "bash"
+      - "dotfiles"
+      - "macos"
+    stars_fact: 31495
+    first_seen: null
+    last_push: "2024-08-05"
+  - name: "tibia-highscores"
+    title: "tibia-highscores"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 5
+    first_seen: null
+    last_push: "2026-10-11"
+  - name: "tibia-boosted-boss"
+    title: "tibia-boosted-boss"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-10-10"
+  - name: "tibia-boosted-creature"
+    title: "tibia-boosted-creature"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 6
+    first_seen: null
+    last_push: "2026-10-10"
+  - name: "tibia-bosses"
+    title: "tibia-bosses"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 11
+    first_seen: null
+    last_push: "2026-10-10"
+  - name: "tibia-loot-stats"
+    title: "tibia-loot-stats"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-10-10"
 ---
 
 # mathiasbynens

@@ -8,11 +8,11 @@ provenance_repos:
   - "anthropics/claude-code-action"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-10T06:04:44.283147+00:00"
+repos_populated: true
+generated_at: "2026-10-11T06:04:44.624574+00:00"
 provenance:
   - "0b22ca37fd3884c9"
-pushes_per_week: [28, 13, 3, 9, 0, 0, 1, 0, 0, 6, 6, 1, 2]
+pushes_per_week: [28, 13, 4, 8, 0, 0, 1, 0, 1, 7, 4, 1, 2]
 windows:
   "7d":
     pushes: 2
@@ -76,7 +76,63 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 25 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "promptster-teams-cli"
+    title: "promptster-teams-cli"
+    description: "On-device, auditable AI-coding capture for internal engineering teams"
+    language: "Go"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-04"
+  - name: "cc-audit"
+    title: "cc-audit"
+    description: "Local-first CLI that audits Claude Code transcripts for spend by model, avoidable context-carry waste, always-on config cost, and AI-fluency signals. Runs fully offline by default; opt-in tiers gate any egress."
+    language: "TypeScript"
+    topics:
+      - "ai-fluency"
+      - "anthropic"
+      - "claude-code"
+      - "cli"
+      - "cost-analysis"
+      - "developer-tools"
+      - "local-first"
+      - "observability"
+    stars_fact: 9
+    first_seen: null
+    last_push: "2026-09-29"
+  - name: "promptster-vscode"
+    title: "promptster-vscode"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-24"
+  - name: "promptster-cli"
+    title: "promptster-cli"
+    description: "Promptster CLI — candidate environment setup, repo cloning, and AI coding session capture (Claude Code, Cursor, Codex)"
+    language: "Go"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-24"
+  - name: "fine-tuned-computer-use-jev-like-model"
+    title: "fine-tuned-computer-use-jev-like-model"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-19"
+  - name: "threadline-stylist"
+    title: "threadline-stylist"
+    description: "Threadline AI Stylist — candidate take-home: photo→outfit recommender"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-25"
 ---
 
 # pa-arth

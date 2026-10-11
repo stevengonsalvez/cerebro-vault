@@ -8,8 +8,8 @@ provenance_repos:
   - "AstrBotDevs/AstrBot"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-10T06:04:44.283147+00:00"
+repos_populated: true
+generated_at: "2026-10-11T06:04:44.624574+00:00"
 provenance:
   - "78a5846a75cc0fbb"
 pushes_per_week: [0, 3, 10, 1, 5, 0, 0, 0, 1, 1, 0, 1, 0]
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 16 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "ASTR_TEST"
+    title: "ASTR_TEST"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-09"
+  - name: "astrbot_plugin_github_triage"
+    title: "astrbot_plugin_github_triage"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-02"
+  - name: "astrbot_plugin_onebot12"
+    title: "astrbot_plugin_onebot12"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-30"
+  - name: "astrbot_plugin_showcase"
+    title: "astrbot_plugin_showcase"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-30"
+  - name: "astrbot_plugin_sensitivefilter"
+    title: "astrbot_plugin_sensitivefilter"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-08-14"
+  - name: "daily-analysis-report-theme-endfield"
+    title: "daily-analysis-report-theme-endfield"
+    description: null
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-06"
 ---
 
 # lingyun14beta

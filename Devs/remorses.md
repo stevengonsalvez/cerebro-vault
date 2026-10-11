@@ -8,11 +8,11 @@ provenance_repos:
   - "anomalyco/opencode"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-10T06:04:44.283147+00:00"
+repos_populated: true
+generated_at: "2026-10-11T06:04:44.624574+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [5, 6, 5, 1, 5, 0, 7, 0, 1, 4, 4, 2, 2]
+pushes_per_week: [7, 4, 5, 2, 4, 2, 5, 0, 2, 3, 5, 1, 2]
 windows:
   "7d":
     pushes: 2
@@ -76,7 +76,63 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 29 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "gpuix"
+    title: "gpuix"
+    description: "Node.js & Bun bindings for Zed’s GPUI. Build memory efficient native apps with React or Solid.js"
+    language: "Rust"
+    topics:
+      - "gpui"
+      - "react"
+      - "solid"
+      - "zed"
+    stars_fact: 2573
+    first_seen: null
+    last_push: "2026-10-08"
+  - name: "kimaki"
+    title: "kimaki"
+    description: "all opencode features deeply integrated inside Discord. each project is a channel. each session a thread"
+    language: "TypeScript"
+    topics:
+      - "clawdbot"
+      - "discord"
+      - "openclaw-alternative"
+      - "opencode"
+    stars_fact: 1430
+    first_seen: null
+    last_push: "2026-10-10"
+  - name: "holocron-template"
+    title: "holocron-template"
+    description: "Holocron docs site template. Use this as a GitHub template to scaffold a new documentation site."
+    language: "MDX"
+    topics: []
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-08-17"
+  - name: "profano"
+    title: "profano"
+    description: "CLI tool to analyze .cpuprofile files and print top functions by self-time in the terminal. For humans & agents. Includes a SKILL for CPU profiling best practices"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 6
+    first_seen: null
+    last_push: "2026-08-25"
+  - name: "usecomputer"
+    title: "usecomputer"
+    description: "Fast computer automation CLI for AI agents. Control any desktop with screenshots, clicks, typing, scrolling, and more."
+    language: "Zig"
+    topics: []
+    stars_fact: 338
+    first_seen: null
+    last_push: "2026-09-08"
+  - name: "safe-mdx"
+    title: "safe-mdx"
+    description: "React MDX renderer that does not evaluate JavaScript on render. Works in Cloudflare Workers & Vercel Edge."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 123
+    first_seen: null
+    last_push: "2026-08-15"
 ---
 
 # remorses

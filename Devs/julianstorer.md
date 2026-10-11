@@ -8,16 +8,16 @@ provenance_repos:
   - "juggler-ai/juggler"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-10T06:04:44.283147+00:00"
+repos_populated: true
+generated_at: "2026-10-11T06:04:44.624574+00:00"
 provenance:
   - "ffbd582f5e4111de"
-pushes_per_week: [16, 11, 8, 1, 5, 1, 4, 0, 1, 2, 2, 9, 5]
+pushes_per_week: [14, 14, 5, 1, 5, 2, 3, 0, 1, 2, 4, 8, 4]
 windows:
   "7d":
-    pushes: 6
+    pushes: 5
     distinct_repos: 1
-    active_days: 5
+    active_days: 4
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 65
+    pushes: 63
     distinct_repos: 3
-    active_days: 37
+    active_days: 36
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.7568
-  repo_per_active_day: 0.0811
+  push_per_day: 1.7500
+  repo_per_active_day: 0.0833
   not_owned_ratio: 1.0000
   basename_concentration: 0.3333
   shapes: []
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 6
+    pushes: 5
     distinct_repos: 1
-    pushes_per_repo: 6.0000
-    active_days: 5
+    pushes_per_repo: 5.0000
+    active_days: 4
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -65,22 +65,30 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 65
+    pushes: 63
     distinct_repos: 3
-    pushes_per_repo: 21.6667
-    active_days: 37
+    pushes_per_repo: 21.0000
+    active_days: 36
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 37 active days in 90d — pass"
+  - "activity: 36 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "GLADriver"
+    title: "GLADriver"
+    description: "GLA device driver"
+    language: "C++"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-04-29"
 ---
 
 # julianstorer
 
-65 pushes across 3 repositories on 37 active days in the last 90 days of public GitHub push activity.
+63 pushes across 3 repositories on 36 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/julianstorer

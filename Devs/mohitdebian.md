@@ -8,11 +8,11 @@ provenance_repos:
   - "agentscope-ai/QwenPaw"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-10T06:04:44.283147+00:00"
+repos_populated: true
+generated_at: "2026-10-11T06:04:44.624574+00:00"
 provenance:
   - "541318303a272608"
-pushes_per_week: [0, 0, 14, 5, 4, 0, 3, 0, 8, 4, 0, 1, 3]
+pushes_per_week: [0, 0, 15, 7, 1, 3, 0, 0, 8, 4, 1, 0, 3]
 windows:
   "7d":
     pushes: 3
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 15
+    pushes: 14
     distinct_repos: 3
-    active_days: 8
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 15
+    pushes: 14
     distinct_repos: 3
-    pushes_per_repo: 5.0000
-    active_days: 8
+    pushes_per_repo: 4.6667
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 18 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "Relay"
+    title: "Relay"
+    description: "Self-hostable API gateway built for managing API keys, routing, rate limits, and observability."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-18"
+  - name: "AlgoMerge"
+    title: "AlgoMerge"
+    description: "Find the best open-source issues to contribute to — with the lowest competition"
+    language: "HTML"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-08"
+  - name: "ai-knowledge-hub"
+    title: "ai-knowledge-hub"
+    description: "AI-powered knowledge management platform - Full-stack project covering 50+ concepts: React/Next.js, Express, PostgreSQL, MongoDB, Redis, OpenAI, Stripe, Docker, WebSocket, JWT/OAuth, RAG, Multi-step Agent"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-30"
+  - name: "CRY"
+    title: "CRY"
+    description: null
+    language: "Rust"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-27"
+  - name: "Noir-template"
+    title: "Noir-template"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-23"
+  - name: "GitSweep"
+    title: "GitSweep"
+    description: "Bulk delete multiple GitHub repositories from the terminal. A simple Node.js CLI that lists your repos, lets you select multiple, and deletes them safely with confirmation."
+    language: "JavaScript"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-03-08"
 ---
 
 # mohitdebian

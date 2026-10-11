@@ -8,11 +8,11 @@ provenance_repos:
   - "BuilderIO/agent-native"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-10T06:04:44.283147+00:00"
+repos_populated: true
+generated_at: "2026-10-11T06:04:44.624574+00:00"
 provenance:
   - "745308b2b7085095"
-pushes_per_week: [0, 0, 2, 2, 0, 0, 3, 0, 0, 0, 0, 4, 0]
+pushes_per_week: [0, 0, 4, 0, 0, 0, 3, 0, 0, 0, 0, 4, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,66 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "fyldo"
+    title: "fyldo"
+    description: "A settings-page framework for WordPress plugin developers."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-02"
+  - name: "wp-topbar"
+    title: "wp-topbar"
+    description: "A lightweight, fast WordPress plugin that adds a clean announcement bar to the top of your site: custom text, a call-to-action button, an optional image, sticky mode, adjustable height, a dismissible close button with a remembered state, and a display schedule."
+    language: "PHP"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-29"
+  - name: "Mivo"
+    title: "Mivo"
+    description: "A calm, instant new tab for Chrome. Vanilla TypeScript, no framework, no background worker."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-20"
+  - name: "restic-golang"
+    title: "restic-golang"
+    description: "A local web app for managing restic-based incremental backups."
+    language: "Go"
+    topics:
+      - "backup"
+      - "golang"
+      - "restic"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-27"
+  - name: "magic-markdown-viewer"
+    title: "magic-markdown-viewer"
+    description: "A simple split-pane Markdown editor and live preview."
+    language: "JavaScript"
+    topics:
+      - "markdown"
+      - "markdown-editor"
+      - "markdown-to-html"
+      - "markdown-viewer"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-05"
+  - name: "url-to-md"
+    title: "url-to-md"
+    description: "A Cloudflare Worker that takes a URL and hands back the page as Markdown."
+    language: "JavaScript"
+    topics:
+      - "ai"
+      - "cloudflare-workers"
+      - "markdown"
+      - "worker"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-01"
 ---
 
 # SaeedCodez

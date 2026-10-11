@@ -8,11 +8,11 @@ provenance_repos:
   - "jbwinters/jacquard-lang"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-10T06:04:44.283147+00:00"
+repos_populated: true
+generated_at: "2026-10-11T06:04:44.624574+00:00"
 provenance:
   - "322930b634f9932d"
-pushes_per_week: [43, 6, 2, 0, 3, 0, 0, 0, 1, 1, 7, 7, 5]
+pushes_per_week: [43, 7, 0, 0, 3, 0, 0, 0, 1, 1, 9, 6, 4]
 windows:
   "7d":
     pushes: 5
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 75
+    pushes: 74
     distinct_repos: 3
-    active_days: 22
+    active_days: 21
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 3.4091
-  repo_per_active_day: 0.1364
+  push_per_day: 3.5238
+  repo_per_active_day: 0.1429
   not_owned_ratio: 0.0000
   basename_concentration: 0.3333
   shapes: []
@@ -65,22 +65,89 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 75
+    pushes: 74
     distinct_repos: 3
-    pushes_per_repo: 25.0000
-    active_days: 22
+    pushes_per_repo: 24.6667
+    active_days: 21
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 22 active days in 90d — pass"
+  - "activity: 21 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "jacquard-lang"
+    title: "jacquard-lang"
+    description: "Jacquard is a small programming language designed for a regime in which most code is written by machine-learning models and reviewed by people."
+    language: "OCaml"
+    topics:
+      - "algebraic-effects"
+      - "capability-security"
+      - "content-addressing"
+      - "language-design"
+      - "ocaml"
+      - "probabilistic-programming"
+      - "programming-language"
+    stars_fact: 120
+    first_seen: "2026-07-14T06:00:05.414815+00:00"
+    last_push: "2026-10-07"
+  - name: "inkling.nvim"
+    title: "inkling.nvim"
+    description: "Copilot-style inline completions for Neovim with your choice of model (OpenAI, Anthropic, Ollama) and project-aware context"
+    language: "Lua"
+    topics:
+      - "ai"
+      - "anthropic"
+      - "claude"
+      - "code-completion"
+      - "copilot"
+      - "llm"
+      - "lua"
+      - "neovim"
+      - "neovim-plugin"
+      - "nvim"
+      - "ollama"
+      - "openai"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-04"
+  - name: "wave-intelligence-papers"
+    title: "wave-intelligence-papers"
+    description: "Controlled Python replications of traveling-wave sequence memory and local synaptic learning"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-02"
+  - name: "Evidence-Holonomy"
+    title: "Evidence-Holonomy"
+    description: "An information‑geometric way to state the arrow of time—and irreversibility—without referring to any specific physics, coordinates, or observer."
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-26"
+  - name: "embodied-field-intelligence"
+    title: "embodied-field-intelligence"
+    description: "Cellular automata-based adaptive intellgence study"
+    language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-25"
+  - name: "acoustic-event-locator"
+    title: "acoustic-event-locator"
+    description: "Acoustic event localization system using Time Difference of Arrival (TDOA) multilateration from unsynchronized videos. Locates gunshots, explosions & impulsive sounds with 4+ microphones. WIP"
+    language: "Python"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-09-04"
 ---
 
 # jbwinters
 
-75 pushes across 3 repositories on 22 active days in the last 90 days of public GitHub push activity.
+74 pushes across 3 repositories on 21 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/jbwinters

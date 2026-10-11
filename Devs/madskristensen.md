@@ -8,39 +8,39 @@ provenance_repos:
   - "ChromeDevTools/chrome-devtools-mcp"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-10T06:04:44.283147+00:00"
+repos_populated: true
+generated_at: "2026-10-11T06:04:44.624574+00:00"
 provenance:
   - "379642deb53f3714"
-pushes_per_week: [0, 3, 2, 7, 11, 0, 1, 2, 2, 9, 3, 2, 4]
+pushes_per_week: [0, 3, 3, 6, 11, 0, 3, 0, 3, 9, 2, 2, 5]
 windows:
   "7d":
-    pushes: 4
-    distinct_repos: 3
-    active_days: 3
+    pushes: 5
+    distinct_repos: 4
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 20
-    distinct_repos: 10
-    active_days: 14
+    pushes: 21
+    distinct_repos: 11
+    active_days: 15
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 46
-    distinct_repos: 15
-    active_days: 29
+    pushes: 47
+    distinct_repos: 16
+    active_days: 30
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.5862
-  repo_per_active_day: 0.5172
-  not_owned_ratio: 0.0667
-  basename_concentration: 0.0667
+  push_per_day: 1.5667
+  repo_per_active_day: 0.5333
+  not_owned_ratio: 0.0625
+  basename_concentration: 0.0625
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,38 +49,88 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 4
-    distinct_repos: 3
-    pushes_per_repo: 1.3333
-    active_days: 3
+    pushes: 5
+    distinct_repos: 4
+    pushes_per_repo: 1.2500
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 20
-    distinct_repos: 10
-    pushes_per_repo: 2.0000
-    active_days: 14
+    pushes: 21
+    distinct_repos: 11
+    pushes_per_repo: 1.9091
+    active_days: 15
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 46
-    distinct_repos: 15
-    pushes_per_repo: 3.0667
-    active_days: 29
+    pushes: 47
+    distinct_repos: 16
+    pushes_per_repo: 2.9375
+    active_days: 30
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 29 active days in 90d — pass"
+  - "activity: 30 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "Home-town-week"
+    title: "Home-town-week"
+    description: null
+    language: "Ruby"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-11"
+  - name: "afterpickup"
+    title: "afterpickup"
+    description: null
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-11"
+  - name: "TimeScore"
+    title: "TimeScore"
+    description: "Because not all time is equal"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-11"
+  - name: "mathtable"
+    title: "mathtable"
+    description: "A math game for kids"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-10-11"
+  - name: "VsixGallery"
+    title: "VsixGallery"
+    description: "The Open VSIX Gallery"
+    language: "C#"
+    topics:
+      - "extensions"
+      - "visual-studio"
+    stars_fact: 43
+    first_seen: null
+    last_push: "2026-10-10"
+  - name: "BookmarkStudio"
+    title: "BookmarkStudio"
+    description: "A Visual Studio extension"
+    language: "C#"
+    topics: []
+    stars_fact: 28
+    first_seen: null
+    last_push: "2026-09-22"
 ---
 
 # madskristensen
 
-46 pushes across 15 repositories on 29 active days in the last 90 days of public GitHub push activity.
+47 pushes across 16 repositories on 30 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/madskristensen

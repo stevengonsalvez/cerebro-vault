@@ -8,11 +8,11 @@ provenance_repos:
   - "anthropics/claude-code-action"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-10T06:04:44.283147+00:00"
+repos_populated: true
+generated_at: "2026-10-11T06:04:44.624574+00:00"
 provenance:
   - "0b22ca37fd3884c9"
-pushes_per_week: [1, 0, 3, 23, 3, 8, 4, 0, 3, 4, 19, 96, 4]
+pushes_per_week: [1, 0, 7, 19, 5, 7, 3, 0, 3, 5, 23, 91, 4]
 windows:
   "7d":
     pushes: 4
@@ -76,7 +76,81 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 37 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "SMA-arcade"
+    title: "SMA-arcade"
+    description: "ShoeMoney Arcade — free browser games with durable leaderboards. Vue 3 + WebGPU frontend, Node/SQLite score API."
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-04"
+  - name: "sm-karate-kids"
+    title: "sm-karate-kids"
+    description: "Twin-stick point-karate in the browser. WebGPU with a WebGL 2 fallback, mobile-first, MIT."
+    language: "TypeScript"
+    topics:
+      - "browser-game"
+      - "fighting-game"
+      - "game"
+      - "karate"
+      - "mobile-first"
+      - "threejs"
+      - "typescript"
+      - "webgpu"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-04"
+  - name: "streak"
+    title: "streak"
+    description: "🔥 the flame never dies"
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-04"
+  - name: "commander-in-chief"
+    title: "commander-in-chief"
+    description: "Deterministic twin-stick vertical run-and-gun in Godot 4.7 — a modern Ikari Warriors. Render-free 16.16 fixed-point sim, bit-identical across x86_64/arm64, golden-checksum tested."
+    language: "GDScript"
+    topics:
+      - "2d-game"
+      - "arcade-game"
+      - "deterministic"
+      - "fixed-point"
+      - "game"
+      - "gdscript"
+      - "godot"
+      - "godot-4"
+      - "godot-engine"
+      - "indie-game"
+      - "lockstep"
+      - "open-source-game"
+      - "pixel-art"
+      - "retro-gaming"
+      - "run-and-gun"
+      - "top-down-shooter"
+      - "twin-stick-shooter"
+      - "vertical-scroller"
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-10-03"
+  - name: "SMA-smduel"
+    title: "SMA-smduel"
+    description: "smduel. One car, one driver, sixteen cities. A browser vehicular-combat RPG with WebGPU rendering, a deterministic 60Hz sim, and every gameplay constant in a provenance-tagged JSON ruleset."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-03"
+  - name: "paider"
+    title: "paider"
+    description: "A PHP-native AI coding agent. Laravel Zero + Termwind + MCP. Named model tiers, open-weight presets, built in public."
+    language: "PHP"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-01"
 ---
 
 # shoemoney

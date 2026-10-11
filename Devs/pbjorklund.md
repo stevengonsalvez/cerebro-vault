@@ -8,8 +8,8 @@ provenance_repos:
   - "agavra/tuicr"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-10T06:04:44.283147+00:00"
+repos_populated: true
+generated_at: "2026-10-11T06:04:44.624574+00:00"
 provenance:
   - "4a45ac7a449df20e"
 pushes_per_week: [3, 0, 0, 0, 1, 0, 0, 0, 0, 3, 1, 1, 1]
@@ -76,7 +76,60 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 10 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "astro-wysiwyg"
+    title: "astro-wysiwyg"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 5
+    first_seen: null
+    last_push: "2026-08-25"
+  - name: "pi-ollama-decision"
+    title: "pi-ollama-decision"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-08"
+  - name: "pi-web-annotator"
+    title: "pi-web-annotator"
+    description: "Annotate webpage elements or text, send targeted change requests to Pi, or copy them as Markdown."
+    language: "JavaScript"
+    topics:
+      - "developer-tools"
+      - "firefox-extension"
+      - "markdown"
+      - "pi-package"
+      - "web-annotation"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-07"
+  - name: "pi-zellij-tab-status"
+    title: "pi-zellij-tab-status"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-07"
+  - name: "zellij-tabbar"
+    title: "zellij-tabbar"
+    description: null
+    language: "Rust"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-07"
+  - name: "omaip"
+    title: "omaip"
+    description: "Omarchy shell plugin for externally observed exit-IP whitelist and blacklist checks"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-07"
 ---
 
 # pbjorklund

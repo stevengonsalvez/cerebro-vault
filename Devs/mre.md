@@ -8,11 +8,11 @@ provenance_repos:
   - "anthropics/claude-cookbooks"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-10T06:04:44.283147+00:00"
+repos_populated: true
+generated_at: "2026-10-11T06:04:44.624574+00:00"
 provenance:
   - "1f49d0119cedbc84"
-pushes_per_week: [4, 3, 2, 0, 3, 0, 1, 0, 1, 4, 6, 3, 2]
+pushes_per_week: [4, 3, 2, 1, 2, 0, 1, 0, 2, 7, 2, 5, 0]
 windows:
   "7d":
     pushes: 2
@@ -76,7 +76,72 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 17 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "idiomatic-rust"
+    title: "idiomatic-rust"
+    description: "🦀 A peer-reviewed collection of articles/talks/repos which teach concise, idiomatic Rust."
+    language: "Rust"
+    topics:
+      - "ergonomics"
+      - "idiomatic"
+      - "idiomatic-rust"
+      - "rust"
+    stars_fact: 7887
+    first_seen: null
+    last_push: "2026-02-12"
+  - name: "the-coding-interview"
+    title: "the-coding-interview"
+    description: "Programming exercises, code katas and puzzles for your job interview training - or just for fun."
+    language: "Python"
+    topics:
+      - "coding-interview"
+      - "interview-practice"
+      - "interview-test-task"
+      - "language-learning"
+    stars_fact: 1746
+    first_seen: null
+    last_push: "2023-10-30"
+  - name: "oxitrack"
+    title: "oxitrack"
+    description: "Self-hosted, privacy-respecting website traffic tracker"
+    language: "Rust"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-04"
+  - name: "endler.dev"
+    title: "endler.dev"
+    description: "My personal website"
+    language: "HTML"
+    topics: []
+    stars_fact: 111
+    first_seen: null
+    last_push: "2026-10-01"
+  - name: "vscode-snippet"
+    title: "vscode-snippet"
+    description: "🐤 A Visual Studio Code extension for cheat.sh. Quickly and easily find code snippets for any language right inside your IDE."
+    language: "TypeScript"
+    topics:
+      - "cheatsh"
+      - "cheatsheet"
+      - "snippet"
+      - "vscode-extension"
+    stars_fact: 256
+    first_seen: null
+    last_push: "2025-11-18"
+  - name: "cargo-inspect"
+    title: "cargo-inspect"
+    description: "Pssst!... see what Rust is doing behind the curtains 🕵🤫"
+    language: "Rust"
+    topics:
+      - "desugar"
+      - "inspect"
+      - "static-analysis"
+      - "syntactic-sugar"
+      - "unpretty"
+    stars_fact: 384
+    first_seen: null
+    last_push: "2023-02-27"
 ---
 
 # mre

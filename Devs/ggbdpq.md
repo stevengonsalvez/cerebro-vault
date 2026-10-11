@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-10T06:04:44.283147+00:00"
+generated_at: "2026-10-11T06:04:44.624574+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 8, 1, 1, 27, 5]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 8, 2, 7, 21, 6]
 windows:
   "7d":
-    pushes: 5
-    distinct_repos: 3
+    pushes: 7
+    distinct_repos: 4
     active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 37
+    pushes: 38
     distinct_repos: 8
-    active_days: 15
+    active_days: 14
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 42
+    pushes: 44
     distinct_repos: 8
     active_days: 17
     repos_not_owned: 0
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.4706
+  push_per_day: 2.5882
   repo_per_active_day: 0.4706
   not_owned_ratio: 0.0000
   basename_concentration: 0.1250
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 5
-    distinct_repos: 3
-    pushes_per_repo: 1.6667
+    pushes: 7
+    distinct_repos: 4
+    pushes_per_repo: 1.7500
     active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 37
+    pushes: 38
     distinct_repos: 8
-    pushes_per_repo: 4.6250
-    active_days: 15
+    pushes_per_repo: 4.7500
+    active_days: 14
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 42
+    pushes: 44
     distinct_repos: 8
-    pushes_per_repo: 5.2500
+    pushes_per_repo: 5.5000
     active_days: 17
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -146,6 +146,6 @@ repos:
 
 # ggbdpq
 
-42 pushes across 8 repositories on 17 active days in the last 90 days of public GitHub push activity.
+44 pushes across 8 repositories on 17 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ggbdpq

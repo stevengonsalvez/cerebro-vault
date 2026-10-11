@@ -8,39 +8,39 @@ provenance_repos:
   - "can1357/oh-my-pi"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-10T06:04:44.283147+00:00"
+repos_populated: true
+generated_at: "2026-10-11T06:04:44.624574+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [4, 6, 6, 2, 25, 2, 4, 1, 1, 2, 5, 5, 6]
+pushes_per_week: [4, 6, 7, 8, 19, 4, 1, 1, 1, 2, 5, 6, 7]
 windows:
   "7d":
-    pushes: 6
-    distinct_repos: 2
-    active_days: 3
+    pushes: 8
+    distinct_repos: 3
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 18
-    distinct_repos: 4
-    active_days: 13
+    pushes: 20
+    distinct_repos: 5
+    active_days: 14
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 69
-    distinct_repos: 17
-    active_days: 39
+    pushes: 71
+    distinct_repos: 18
+    active_days: 40
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.7692
-  repo_per_active_day: 0.4359
+  push_per_day: 1.7750
+  repo_per_active_day: 0.4500
   not_owned_ratio: 0.0000
-  basename_concentration: 0.0588
+  basename_concentration: 0.0556
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,38 +49,92 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 6
-    distinct_repos: 2
-    pushes_per_repo: 3.0000
-    active_days: 3
+    pushes: 8
+    distinct_repos: 3
+    pushes_per_repo: 2.6667
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 18
-    distinct_repos: 4
-    pushes_per_repo: 4.5000
-    active_days: 13
+    pushes: 20
+    distinct_repos: 5
+    pushes_per_repo: 4.0000
+    active_days: 14
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 69
-    distinct_repos: 17
-    pushes_per_repo: 4.0588
-    active_days: 39
+    pushes: 71
+    distinct_repos: 18
+    pushes_per_repo: 3.9444
+    active_days: 40
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 39 active days in 90d — pass"
+  - "activity: 40 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "mikeei"
+    title: "mikeei"
+    description: "My GitHub profile README"
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-08"
+  - name: "tp-link-pg2400p-reverse-engineering"
+    title: "tp-link-pg2400p-reverse-engineering"
+    description: "TP-Link PG2400P reverse engineering"
+    language: "Python"
+    topics:
+      - "firmware-analysis"
+      - "ghn"
+      - "pg2400p"
+      - "powerline"
+      - "reverse-engineering"
+      - "tp-link"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-08-16"
+  - name: "nuclei-templates"
+    title: "nuclei-templates"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2022-03-30"
+  - name: "project-18plus-image-edit"
+    title: "project-18plus-image-edit"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2025-09-16"
+  - name: "mikeei.github.io"
+    title: "mikeei.github.io"
+    description: null
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2023-08-10"
+  - name: "spodcast"
+    title: "spodcast"
+    description: null
+    language: "PHP"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2024-12-28"
 ---
 
 # MikeeI
 
-69 pushes across 17 repositories on 39 active days in the last 90 days of public GitHub push activity.
+71 pushes across 18 repositories on 40 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/MikeeI

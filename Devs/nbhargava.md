@@ -8,8 +8,8 @@ provenance_repos:
   - "anthropics/anthropic-sdk-python"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-10T06:04:44.283147+00:00"
+repos_populated: true
+generated_at: "2026-10-11T06:04:44.624574+00:00"
 provenance:
   - "1be978947e68d1f2"
 pushes_per_week: [2, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "LeapMouse"
+    title: "LeapMouse"
+    description: "Basic mouse for the Leap Motion Controller"
+    language: "Python"
+    topics: []
+    stars_fact: 5
+    first_seen: null
+    last_push: "2013-02-25"
+  - name: "react-ant-scaffold"
+    title: "react-ant-scaffold"
+    description: null
+    language: "Go"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2023-01-27"
+  - name: "aamas19-booklet-scripts"
+    title: "aamas19-booklet-scripts"
+    description: null
+    language: "TeX"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2024-01-11"
+  - name: "swift-interop-repro"
+    title: "swift-interop-repro"
+    description: null
+    language: "Swift"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2019-12-26"
+  - name: "terraform-k8s-alpine"
+    title: "terraform-k8s-alpine"
+    description: null
+    language: "HCL"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2020-02-24"
+  - name: "gomers"
+    title: "gomers"
+    description: null
+    language: "Go"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2018-12-07"
 ---
 
 # nbhargava

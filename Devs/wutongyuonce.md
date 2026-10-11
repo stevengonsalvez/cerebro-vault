@@ -10,11 +10,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-10T06:04:44.283147+00:00"
+generated_at: "2026-10-11T06:04:44.624574+00:00"
 provenance:
   - "16389f32495280ea"
   - "4d1450729e6ff44d"
-pushes_per_week: [5, 2, 4, 4, 8, 2, 1, 1, 6, 11, 9, 7, 1]
+pushes_per_week: [5, 2, 4, 6, 6, 3, 1, 0, 8, 10, 11, 4, 2]
 windows:
   "7d":
     pushes: 2
@@ -24,23 +24,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 30
+    pushes: 31
     distinct_repos: 13
-    active_days: 16
+    active_days: 17
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 61
+    pushes: 62
     distinct_repos: 20
-    active_days: 34
+    active_days: 35
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.7941
-  repo_per_active_day: 0.5882
+  push_per_day: 1.7714
+  repo_per_active_day: 0.5714
   not_owned_ratio: 0.0000
   basename_concentration: 0.0500
   shapes: []
@@ -59,24 +59,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 30
+    pushes: 31
     distinct_repos: 13
-    pushes_per_repo: 2.3077
-    active_days: 16
+    pushes_per_repo: 2.3846
+    active_days: 17
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 61
+    pushes: 62
     distinct_repos: 20
-    pushes_per_repo: 3.0500
-    active_days: 34
+    pushes_per_repo: 3.1000
+    active_days: 35
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 34 active days in 90d — pass"
+  - "activity: 35 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "YuBlog"
@@ -145,6 +145,6 @@ repos:
 
 # wutongyuonce
 
-61 pushes across 20 repositories on 34 active days in the last 90 days of public GitHub push activity.
+62 pushes across 20 repositories on 35 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/wutongyuonce

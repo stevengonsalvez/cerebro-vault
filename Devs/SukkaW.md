@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: false
-generated_at: "2026-10-10T06:04:44.283147+00:00"
+generated_at: "2026-10-11T06:04:44.624574+00:00"
 provenance:
   - "ef17663e884139a8"
-pushes_per_week: [45, 17, 29, 20, 38, 7, 5, 0, 2, 5, 7, 12, 1]
+pushes_per_week: [43, 19, 24, 25, 32, 7, 4, 0, 2, 6, 10, 8, 2]
 windows:
   "7d":
-    pushes: 3
-    distinct_repos: 3
+    pushes: 2
+    distinct_repos: 1
     active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 27
+    pushes: 28
     distinct_repos: 6
-    active_days: 17
+    active_days: 18
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 188
+    pushes: 182
     distinct_repos: 35
     active_days: 60
     repos_not_owned: 4
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 3.1333
+  push_per_day: 3.0333
   repo_per_active_day: 0.5833
   not_owned_ratio: 0.1143
   basename_concentration: 0.0286
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 3
-    distinct_repos: 3
-    pushes_per_repo: 1.0000
+    pushes: 2
+    distinct_repos: 1
+    pushes_per_repo: 2.0000
     active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 27
+    pushes: 28
     distinct_repos: 6
-    pushes_per_repo: 4.5000
-    active_days: 17
+    pushes_per_repo: 4.6667
+    active_days: 18
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 188
+    pushes: 182
     distinct_repos: 35
-    pushes_per_repo: 5.3714
+    pushes_per_repo: 5.2000
     active_days: 60
     repos_not_owned: 4
     not_owned_basenames: 4
@@ -81,6 +81,6 @@ repos: []
 
 # SukkaW
 
-188 pushes across 35 repositories on 60 active days in the last 90 days of public GitHub push activity.
+182 pushes across 35 repositories on 60 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/SukkaW

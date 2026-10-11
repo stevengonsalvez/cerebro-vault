@@ -8,28 +8,28 @@ provenance_repos:
   - "antirez/ds4"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-10T06:04:44.283147+00:00"
+repos_populated: true
+generated_at: "2026-10-11T06:04:44.624574+00:00"
 provenance:
   - "3eacb4655aba2497"
-pushes_per_week: [3, 19, 35, 27, 36, 5, 13, 3, 16, 36, 62, 111, 40]
+pushes_per_week: [5, 23, 37, 22, 34, 7, 10, 5, 20, 49, 71, 96, 31]
 windows:
   "7d":
-    pushes: 51
+    pushes: 36
     distinct_repos: 3
-    active_days: 7
+    active_days: 6
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
   "30d":
-    pushes: 250
+    pushes: 254
     distinct_repos: 5
     active_days: 26
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 1
   "90d":
-    pushes: 406
+    pushes: 410
     distinct_repos: 5
     active_days: 65
     repos_not_owned: 4
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 6.2462
+  push_per_day: 6.3077
   repo_per_active_day: 0.0769
   not_owned_ratio: 0.8000
   basename_concentration: 0.2000
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 51
+    pushes: 36
     distinct_repos: 3
-    pushes_per_repo: 17.0000
-    active_days: 7
+    pushes_per_repo: 12.0000
+    active_days: 6
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
   "30d":
-    pushes: 250
+    pushes: 254
     distinct_repos: 5
-    pushes_per_repo: 50.0000
+    pushes_per_repo: 50.8000
     active_days: 26
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 1
   "90d":
-    pushes: 406
+    pushes: 410
     distinct_repos: 5
-    pushes_per_repo: 81.2000
+    pushes_per_repo: 82.0000
     active_days: 65
     repos_not_owned: 4
     not_owned_basenames: 4
@@ -76,11 +76,51 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 65 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "llm-interrogation"
+    title: "llm-interrogation"
+    description: "Mossad, CIA and FBI interrogation techniques to extract non-public LLM training data from any model"
+    language: "Python"
+    topics:
+      - "cia"
+      - "fbi"
+      - "interrogator"
+      - "jailbreaking"
+      - "kubark"
+      - "mossad"
+      - "peace"
+      - "reid-techniques"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-01-19"
+  - name: "lowratingsacademyawards.com"
+    title: "lowratingsacademyawards.com"
+    description: "The 1st Annual Low Ratings Academy Awards. \"Virtually Unwatchable.\" Hosted by \"Horrible\" Jimmy Kimmel."
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-02-03"
+  - name: "scanner-app"
+    title: "scanner-app"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2021-07-15"
+  - name: "google-glog"
+    title: "google-glog"
+    description: "Automatically exported from code.google.com/p/google-glog"
+    language: "C++"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2016-01-18"
 ---
 
 # joelteply
 
-406 pushes across 5 repositories on 65 active days in the last 90 days of public GitHub push activity.
+410 pushes across 5 repositories on 65 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/joelteply

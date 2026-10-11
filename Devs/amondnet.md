@@ -10,28 +10,28 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-10T06:04:44.283147+00:00"
+generated_at: "2026-10-11T06:04:44.624574+00:00"
 provenance:
   - "0b22ca37fd3884c9"
   - "c489e6fb5febf2ab"
-pushes_per_week: [110, 17, 14, 6, 10, 3, 3, 0, 20, 35, 12, 16, 13]
+pushes_per_week: [94, 17, 14, 6, 11, 2, 3, 0, 20, 36, 11, 21, 9]
 windows:
   "7d":
-    pushes: 19
+    pushes: 14
     distinct_repos: 4
     active_days: 3
     repos_not_owned: 4
     not_owned_basenames: 4
-    not_owned_owners: 3
+    not_owned_owners: 2
   "30d":
-    pushes: 87
+    pushes: 88
     distinct_repos: 11
-    active_days: 20
+    active_days: 21
     repos_not_owned: 11
     not_owned_basenames: 10
     not_owned_owners: 4
   "90d":
-    pushes: 259
+    pushes: 244
     distinct_repos: 18
     active_days: 46
     repos_not_owned: 18
@@ -39,7 +39,7 @@ windows:
     not_owned_owners: 5
 automation:
   state: "clear"
-  push_per_day: 5.6304
+  push_per_day: 5.3043
   repo_per_active_day: 0.3913
   not_owned_ratio: 1.0000
   basename_concentration: 0.1111
@@ -51,25 +51,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 19
+    pushes: 14
     distinct_repos: 4
-    pushes_per_repo: 4.7500
+    pushes_per_repo: 3.5000
     active_days: 3
     repos_not_owned: 4
     not_owned_basenames: 4
-    not_owned_owners: 3
+    not_owned_owners: 2
   "30d":
-    pushes: 87
+    pushes: 88
     distinct_repos: 11
-    pushes_per_repo: 7.9091
-    active_days: 20
+    pushes_per_repo: 8.0000
+    active_days: 21
     repos_not_owned: 11
     not_owned_basenames: 10
     not_owned_owners: 4
   "90d":
-    pushes: 259
+    pushes: 244
     distinct_repos: 18
-    pushes_per_repo: 14.3889
+    pushes_per_repo: 13.5556
     active_days: 46
     repos_not_owned: 18
     not_owned_basenames: 17
@@ -140,6 +140,6 @@ repos:
 
 # amondnet
 
-259 pushes across 18 repositories on 46 active days in the last 90 days of public GitHub push activity.
+244 pushes across 18 repositories on 46 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/amondnet

@@ -8,11 +8,11 @@ provenance_repos:
   - "can1357/oh-my-pi"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-10T06:04:44.283147+00:00"
+repos_populated: true
+generated_at: "2026-10-11T06:04:44.624574+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [1, 37, 21, 9, 4, 0, 0, 0, 2, 0, 1, 0, 3]
+pushes_per_week: [0, 56, 10, 1, 4, 0, 0, 2, 0, 0, 1, 0, 3]
 windows:
   "7d":
     pushes: 3
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 78
+    pushes: 77
     distinct_repos: 4
-    active_days: 14
+    active_days: 13
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 5.5714
-  repo_per_active_day: 0.2857
+  push_per_day: 5.9231
+  repo_per_active_day: 0.3077
   not_owned_ratio: 0.0000
   basename_concentration: 0.2500
   shapes: []
@@ -65,22 +65,38 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 78
+    pushes: 77
     distinct_repos: 4
-    pushes_per_repo: 19.5000
-    active_days: 14
+    pushes_per_repo: 19.2500
+    active_days: 13
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 14 active days in 90d — pass"
+  - "activity: 13 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "moonlight"
+    title: "moonlight"
+    description: "Public source mirror of the Moonlight foundation packages published to Hackage, from Pale Meridian."
+    language: "Haskell"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-09"
+  - name: "zmk-keyboard-nyx"
+    title: "zmk-keyboard-nyx"
+    description: "Rosalia's folly"
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2025-06-13"
 ---
 
 # PaleRoses
 
-78 pushes across 4 repositories on 14 active days in the last 90 days of public GitHub push activity.
+77 pushes across 4 repositories on 13 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/PaleRoses

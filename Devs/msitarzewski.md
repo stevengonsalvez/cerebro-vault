@@ -8,23 +8,23 @@ provenance_repos:
   - "msitarzewski/agency-agents"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-10T06:04:44.283147+00:00"
+repos_populated: true
+generated_at: "2026-10-11T06:04:44.624574+00:00"
 provenance:
   - "0b6244279772ea4c"
-pushes_per_week: [12, 5, 4, 2, 3, 0, 0, 0, 2, 1, 3, 3, 2]
+pushes_per_week: [12, 4, 4, 4, 1, 0, 0, 0, 2, 1, 5, 2, 2]
 windows:
   "7d":
-    pushes: 2
+    pushes: 3
     distinct_repos: 2
-    active_days: 2
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 11
+    pushes: 12
     distinct_repos: 6
-    active_days: 8
+    active_days: 9
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,18 +49,18 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
+    pushes: 3
     distinct_repos: 2
-    pushes_per_repo: 1.0000
-    active_days: 2
+    pushes_per_repo: 1.5000
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 11
+    pushes: 12
     distinct_repos: 6
-    pushes_per_repo: 1.8333
-    active_days: 8
+    pushes_per_repo: 2.0000
+    active_days: 9
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -76,7 +76,71 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 25 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "agency-agents"
+    title: "agency-agents"
+    description: "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables."
+    language: "Shell"
+    topics: []
+    stars_fact: 158853
+    first_seen: "2026-08-14T06:00:04.069258+00:00"
+    last_push: "2026-10-07"
+  - name: "agency-agents-app"
+    title: "agency-agents-app"
+    description: "Agency Agents is a small, native app for browsing, installing, and tracking the agent personas from msitarzewski/agency-agents across the AI coding tools you actually use."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 692
+    first_seen: null
+    last_push: "2026-10-04"
+  - name: "brew-browser"
+    title: "brew-browser"
+    description: "Homebrew is the standard package manager on macOS. brew-browser gives it a real native GUI."
+    language: "Rust"
+    topics: []
+    stars_fact: 1058
+    first_seen: null
+    last_push: "2026-10-06"
+  - name: "AutoPaper"
+    title: "AutoPaper"
+    description: "Tell your computer what you'd like to see: new AI wallpapers from a few keywords, with moods, memory and echoes. Native apps for macOS, Windows and Linux; your own key or a local model."
+    language: "Rust"
+    topics:
+      - "ai"
+      - "comfyui"
+      - "flatpak"
+      - "gtk4"
+      - "image-generation"
+      - "libadwaita"
+      - "linux"
+      - "macos"
+      - "menu-bar-app"
+      - "ollama"
+      - "rust"
+      - "swiftui"
+      - "uniffi"
+      - "wallpaper"
+      - "windows"
+      - "winui3"
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-10-10"
+  - name: "AGENT-ZERO"
+    title: "AGENT-ZERO"
+    description: "Operational framework and patterns for high-quality, AI-assisted software development. This repository provides a single canonical guide for AGENTS.md and a lightweight workflow for repeatable, auditable, and architecture-first delivery."
+    language: null
+    topics: []
+    stars_fact: 282
+    first_seen: null
+    last_push: "2026-03-05"
+  - name: "homebrew-brew-browser"
+    title: "homebrew-brew-browser"
+    description: "Homebrew tap for brew-browser — a native macOS GUI for Homebrew"
+    language: "Ruby"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-10-06"
 ---
 
 # msitarzewski

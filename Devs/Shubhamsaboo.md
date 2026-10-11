@@ -9,11 +9,11 @@ provenance_repos:
   - "Shubhamsaboo/awesome-llm-apps"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-10T06:04:44.283147+00:00"
+repos_populated: true
+generated_at: "2026-10-11T06:04:44.624574+00:00"
 provenance:
   - "fae31da6c227cfde"
-pushes_per_week: [3, 3, 2, 2, 4, 0, 0, 0, 1, 2, 3, 0, 0]
+pushes_per_week: [4, 2, 4, 3, 1, 0, 0, 0, 2, 3, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -23,9 +23,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 6
+    pushes: 5
     distinct_repos: 2
-    active_days: 5
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -58,10 +58,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 6
+    pushes: 5
     distinct_repos: 2
-    pushes_per_repo: 3.0000
-    active_days: 5
+    pushes_per_repo: 2.5000
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -77,7 +77,59 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 13 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "awesome-llm-apps"
+    title: "awesome-llm-apps"
+    description: "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source."
+    language: "Python"
+    topics:
+      - "agents"
+      - "llms"
+      - "python"
+      - "rag"
+    stars_fact: 141188
+    first_seen: "2026-07-13T06:00:03.578926+00:00"
+    last_push: "2026-09-30"
+  - name: "google-memorybank-plugin"
+    title: "google-memorybank-plugin"
+    description: "Vertex AI Memory Bank Plugin for OpenClaw"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 158
+    first_seen: null
+    last_push: "2026-10-05"
+  - name: "gemini-artboard"
+    title: "gemini-artboard"
+    description: "Self-contained creative coding playground for Gemini 3.1 Pro"
+    language: "HTML"
+    topics: []
+    stars_fact: 74
+    first_seen: null
+    last_push: "2026-02-20"
+  - name: "repotovideo"
+    title: "repotovideo"
+    description: "Turn any GitHub repository into a promo video in just one-click"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 55
+    first_seen: null
+    last_push: "2026-02-20"
+  - name: "Shubhamsaboo"
+    title: "Shubhamsaboo"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 112
+    first_seen: null
+    last_push: "2026-09-09"
+  - name: "ai-teleprompter"
+    title: "ai-teleprompter"
+    description: "Voice-following teleprompter — browser + Gemini Live hybrid speech tracking, glass UI"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 12
+    first_seen: null
+    last_push: "2026-07-25"
 ---
 
 # Shubhamsaboo

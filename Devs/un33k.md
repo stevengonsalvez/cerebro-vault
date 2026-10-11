@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: false
-generated_at: "2026-10-10T06:04:44.283147+00:00"
+generated_at: "2026-10-11T06:04:44.624574+00:00"
 provenance:
   - "dae9f02535f7c22f"
-pushes_per_week: [4, 0, 0, 0, 0, 0, 1, 0, 0, 1, 4, 0, 0]
+pushes_per_week: [3, 0, 0, 0, 0, 0, 1, 0, 0, 1, 4, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 10
-    distinct_repos: 8
-    active_days: 6
-    repos_not_owned: 5
-    not_owned_basenames: 5
+    pushes: 9
+    distinct_repos: 7
+    active_days: 5
+    repos_not_owned: 4
+    not_owned_basenames: 4
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.6667
-  repo_per_active_day: 1.3333
-  not_owned_ratio: 0.6250
-  basename_concentration: 0.1250
+  push_per_day: 1.8000
+  repo_per_active_day: 1.4000
+  not_owned_ratio: 0.5714
+  basename_concentration: 0.1429
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,22 +65,22 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 10
-    distinct_repos: 8
-    pushes_per_repo: 1.2500
-    active_days: 6
-    repos_not_owned: 5
-    not_owned_basenames: 5
+    pushes: 9
+    distinct_repos: 7
+    pushes_per_repo: 1.2857
+    active_days: 5
+    repos_not_owned: 4
+    not_owned_basenames: 4
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 6 active days in 90d — pass"
+  - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
 repos: []
 ---
 
 # un33k
 
-10 pushes across 8 repositories on 6 active days in the last 90 days of public GitHub push activity.
+9 pushes across 7 repositories on 5 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/un33k

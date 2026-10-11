@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-10T06:04:44.283147+00:00"
+generated_at: "2026-10-11T06:04:44.624574+00:00"
 provenance:
   - "1df6ea1f1256059e"
   - "edb3a626875732de"
@@ -78,6 +78,14 @@ reasons:
   - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "wellkilo"
+    title: "wellkilo"
+    description: "Personal profile"
+    language: null
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-10"
   - name: "codex-jev-preflight"
     title: "codex-jev-preflight"
     description: "Fail-open Codex UserPromptSubmit hook that injects TypeSafe Jev pre-task routing metadata."
@@ -94,14 +102,6 @@ repos:
     stars_fact: 2
     first_seen: null
     last_push: "2026-09-22"
-  - name: "wellkilo"
-    title: "wellkilo"
-    description: "project in college"
-    language: null
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-20"
   - name: "conda-helper"
     title: "conda-helper"
     description: "An enhanced, cross-platform CLI on top of conda. One-liner backup, restore, clone, offline pack, batch cleanup, and an interactive panel — plus friendly error hints that translate raw conda stack traces into actionable solutions. Pure Python, single dep (click), tested on Windows / macOS / Linux."

@@ -8,19 +8,19 @@ provenance_repos:
   - "dream-num/univer"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-10T06:04:44.283147+00:00"
+repos_populated: true
+generated_at: "2026-10-11T06:04:44.624574+00:00"
 provenance:
   - "d148e3d2c2843c2b"
-pushes_per_week: [6, 5, 9, 6, 5, 2, 3, 0, 1, 1, 5, 3, 0]
+pushes_per_week: [6, 5, 9, 6, 5, 2, 3, 0, 1, 3, 3, 3, 0]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
     pushes: 10
     distinct_repos: 3
@@ -49,13 +49,13 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
     pushes: 10
     distinct_repos: 3
@@ -76,7 +76,57 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 29 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "ai-tab"
+    title: "ai-tab"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-09"
+  - name: "verso"
+    title: "verso"
+    description: "A release toolkit for modern workspace-driven projects."
+    language: "Rust"
+    topics:
+      - "release"
+      - "releasetool"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-16"
+  - name: "switch-weread"
+    title: "switch-weread"
+    description: null
+    language: "C++"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-08"
+  - name: "doctrine"
+    title: "doctrine"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-31"
+  - name: "mdx"
+    title: "mdx"
+    description: "A native MDX content compiler with Vite and Next adapters"
+    language: "Rust"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-31"
+  - name: "oxlint-config"
+    title: "oxlint-config"
+    description: "Opinionated Oxlint presets and an Oxc initializer."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-31"
 ---
 
 # jikkai

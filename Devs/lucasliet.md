@@ -8,16 +8,16 @@ provenance_repos:
   - "akitaonrails/ai-memory"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-10T06:04:44.283147+00:00"
+repos_populated: true
+generated_at: "2026-10-11T06:04:44.624574+00:00"
 provenance:
   - "4138778ebbc75ba6"
-pushes_per_week: [7, 11, 3, 0, 2, 0, 4, 0, 0, 1, 3, 10, 8]
+pushes_per_week: [9, 8, 3, 1, 1, 1, 3, 0, 0, 1, 3, 14, 4]
 windows:
   "7d":
-    pushes: 9
-    distinct_repos: 4
-    active_days: 4
+    pushes: 6
+    distinct_repos: 2
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 49
-    distinct_repos: 17
-    active_days: 29
+    pushes: 48
+    distinct_repos: 16
+    active_days: 28
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.6897
-  repo_per_active_day: 0.5862
+  push_per_day: 1.7143
+  repo_per_active_day: 0.5714
   not_owned_ratio: 0.0000
-  basename_concentration: 0.0588
+  basename_concentration: 0.0625
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 9
-    distinct_repos: 4
-    pushes_per_repo: 2.2500
-    active_days: 4
+    pushes: 6
+    distinct_repos: 2
+    pushes_per_repo: 3.0000
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -65,22 +65,80 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 49
-    distinct_repos: 17
-    pushes_per_repo: 2.8824
-    active_days: 29
+    pushes: 48
+    distinct_repos: 16
+    pushes_per_repo: 3.0000
+    active_days: 28
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 29 active days in 90d — pass"
+  - "activity: 28 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "arrmate"
+    title: "arrmate"
+    description: "A companion app for Radarr and Sonarr instances."
+    language: "Dart"
+    topics:
+      - "app"
+      - "arr"
+      - "companion"
+      - "flutter"
+      - "radarr"
+      - "rudarr"
+      - "sonarr"
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-10-10"
+  - name: "ps5-custom-payloads"
+    title: "ps5-custom-payloads"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-10"
+  - name: "chatgpt-openai-proxy"
+    title: "chatgpt-openai-proxy"
+    description: "Use your chatgpt plan as an openai compatible api"
+    language: "Python"
+    topics:
+      - "api"
+      - "chatgpt"
+      - "openai"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-08"
+  - name: "opencode-aiusage-plugin"
+    title: "opencode-aiusage-plugin"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-08"
+  - name: "opencode-mem"
+    title: "opencode-mem"
+    description: "Memory persistence between sessions in project scope for opencode"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-06-03"
+  - name: "opencode-classifier-plugin"
+    title: "opencode-classifier-plugin"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-08"
 ---
 
 # lucasliet
 
-49 pushes across 17 repositories on 29 active days in the last 90 days of public GitHub push activity.
+48 pushes across 16 repositories on 28 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/lucasliet

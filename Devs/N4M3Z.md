@@ -8,11 +8,11 @@ provenance_repos:
   - "agavra/tuicr"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-10T06:04:44.283147+00:00"
+repos_populated: true
+generated_at: "2026-10-11T06:04:44.624574+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [21, 0, 14, 34, 26, 1, 6, 0, 0, 6, 20, 1, 1]
+pushes_per_week: [13, 1, 23, 24, 26, 1, 6, 0, 1, 18, 7, 1, 1]
 windows:
   "7d":
     pushes: 1
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 5
     not_owned_owners: 1
   "90d":
-    pushes: 130
-    distinct_repos: 13
-    active_days: 32
+    pushes: 122
+    distinct_repos: 12
+    active_days: 31
     repos_not_owned: 7
     not_owned_basenames: 7
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 4.0625
-  repo_per_active_day: 0.4062
-  not_owned_ratio: 0.5385
-  basename_concentration: 0.1538
+  push_per_day: 3.9355
+  repo_per_active_day: 0.3871
+  not_owned_ratio: 0.5833
+  basename_concentration: 0.1667
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,22 +65,70 @@ facets:
     not_owned_basenames: 5
     not_owned_owners: 1
   "90d":
-    pushes: 130
-    distinct_repos: 13
-    pushes_per_repo: 10.0000
-    active_days: 32
+    pushes: 122
+    distinct_repos: 12
+    pushes_per_repo: 10.1667
+    active_days: 31
     repos_not_owned: 7
     not_owned_basenames: 7
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 32 active days in 90d — pass"
+  - "activity: 31 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "homebrew-tap"
+    title: "homebrew-tap"
+    description: "Personal Homebrew tap (proton-drive-cli: official Proton Drive CLI binary)"
+    language: "Shell"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-10-09"
+  - name: "forge-core"
+    title: "forge-core"
+    description: "Module-building skills for your AI ecosystem — build skills, build agents, architect repositories into modules and plugins in a scaffolding of your choice"
+    language: "Python"
+    topics: []
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-08-19"
+  - name: "forge-dev"
+    title: "forge-dev"
+    description: "Developer discipline skills for the forge ecosystem"
+    language: "Shell"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-08-04"
+  - name: "forge-council"
+    title: "forge-council"
+    description: "Multi-agent council orchestration via Claude Code agent teams"
+    language: "Shell"
+    topics: []
+    stars_fact: 9
+    first_seen: null
+    last_push: "2026-07-13"
+  - name: "forge-cli"
+    title: "forge-cli"
+    description: "Assemble, validate, and deploy markdown content across AI coding providers"
+    language: "Rust"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-07-13"
+  - name: "dotfiles"
+    title: "dotfiles"
+    description: "chezmoi-managed dotfiles"
+    language: "Shell"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-22"
 ---
 
 # N4M3Z
 
-130 pushes across 13 repositories on 32 active days in the last 90 days of public GitHub push activity.
+122 pushes across 12 repositories on 31 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/N4M3Z

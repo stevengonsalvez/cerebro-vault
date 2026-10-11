@@ -8,11 +8,11 @@ provenance_repos:
   - "ayghri/i-have-adhd"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-10T06:04:44.283147+00:00"
+repos_populated: true
+generated_at: "2026-10-11T06:04:44.624574+00:00"
 provenance:
   - "46f3c1d6124190bd"
-pushes_per_week: [18, 36, 13, 3, 0, 1, 0, 0, 0, 7, 1, 8, 0]
+pushes_per_week: [19, 39, 9, 3, 0, 1, 0, 0, 0, 7, 1, 8, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 27 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "render-sandboxes-plugin"
+    title: "render-sandboxes-plugin"
+    description: "Cursor plugin for Render Sandboxes and a self-hosted Cloud Agent pool."
+    language: "Shell"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-07"
+  - name: "render-sandboxes-agents-api"
+    title: "render-sandboxes-agents-api"
+    description: "Community Agents API plugin for Python and JavaScript tasks on Render Sandboxes, with live integration tests."
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-07"
+  - name: "renderpg"
+    title: "renderpg"
+    description: "Account-ownership training scenario compiled on Render"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-01"
+  - name: "beat-jev"
+    title: "beat-jev"
+    description: "A penalty shootout powered by Render Workflows, TypeSafe Jev, and Render Postgres. Python and TypeScript examples."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-21"
+  - name: "seefood"
+    title: "seefood"
+    description: "SeeFood: take a photo, Render Workflows + Jev say hotdog or not hotdog"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-18"
+  - name: "route-lab"
+    title: "route-lab"
+    description: "Watch TypeSafe choose an OpenRouter model through Render Workflows. Independent TypeScript and Python examples."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-18"
 ---
 
 # ojusave

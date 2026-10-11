@@ -8,8 +8,8 @@ provenance_repos:
   - "Alishahryar1/free-claude-code"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-10T06:04:44.283147+00:00"
+repos_populated: true
+generated_at: "2026-10-11T06:04:44.624574+00:00"
 provenance:
   - "9d67ce648f6a8919"
 pushes_per_week: [1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 5, 0]
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "FreeProxy-Router"
+    title: "FreeProxy-Router"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-07"
+  - name: "myapps"
+    title: "myapps"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-05"
+  - name: "valencystudio"
+    title: "valencystudio"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-07-30"
+  - name: "luci-theme-rtawrt"
+    title: "luci-theme-rtawrt"
+    description: "Theme OpenWrt Based NeoBird"
+    language: "CSS"
+    topics: []
+    stars_fact: 10
+    first_seen: null
+    last_push: "2025-05-15"
+  - name: "rizkimotor-pos-nexjs"
+    title: "rizkimotor-pos-nexjs"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-06-30"
+  - name: "New-folder--3-"
+    title: "New-folder--3-"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-05-10"
 ---
 
 # rizkikotet-dev

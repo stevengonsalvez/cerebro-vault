@@ -8,11 +8,11 @@ provenance_repos:
   - "chopratejas/headroom"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-10T06:04:44.283147+00:00"
+repos_populated: true
+generated_at: "2026-10-11T06:04:44.624574+00:00"
 provenance:
   - "73468cde177ddae6"
-pushes_per_week: [1, 1, 1, 3, 3, 0, 2, 0, 2, 14, 5, 2, 2]
+pushes_per_week: [0, 1, 1, 3, 3, 1, 1, 0, 7, 9, 5, 2, 2]
 windows:
   "7d":
     pushes: 2
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 36
-    distinct_repos: 16
-    active_days: 22
+    pushes: 35
+    distinct_repos: 15
+    active_days: 21
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.6364
-  repo_per_active_day: 0.7273
-  not_owned_ratio: 0.1875
-  basename_concentration: 0.1250
+  push_per_day: 1.6667
+  repo_per_active_day: 0.7143
+  not_owned_ratio: 0.2000
+  basename_concentration: 0.1333
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,22 +65,71 @@ facets:
     not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 36
-    distinct_repos: 16
-    pushes_per_repo: 2.2500
-    active_days: 22
+    pushes: 35
+    distinct_repos: 15
+    pushes_per_repo: 2.3333
+    active_days: 21
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 22 active days in 90d — pass"
+  - "activity: 21 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "dope_wars"
+    title: "dope_wars"
+    description: null
+    language: "Mojo"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-11"
+  - name: "ai_agent_test"
+    title: "ai_agent_test"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-10"
+  - name: "pi_config"
+    title: "pi_config"
+    description: "pi coding agent config"
+    language: "TypeScript"
+    topics:
+      - "pi"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-09"
+  - name: "xeno_mods"
+    title: "xeno_mods"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-06"
+  - name: "maki_config"
+    title: "maki_config"
+    description: null
+    language: "Lua"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-11"
+  - name: "tart_linux_images"
+    title: "tart_linux_images"
+    description: null
+    language: "HCL"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-01"
 ---
 
 # pythoninthegrass
 
-36 pushes across 16 repositories on 22 active days in the last 90 days of public GitHub push activity.
+35 pushes across 15 repositories on 21 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/pythoninthegrass

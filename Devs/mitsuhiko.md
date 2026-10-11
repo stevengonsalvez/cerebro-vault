@@ -8,16 +8,16 @@ provenance_repos:
   - "antirez/ds4"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-10T06:04:44.283147+00:00"
+repos_populated: true
+generated_at: "2026-10-11T06:04:44.624574+00:00"
 provenance:
   - "3eacb4655aba2497"
-pushes_per_week: [6, 7, 8, 10, 7, 1, 2, 0, 0, 1, 8, 40, 15]
+pushes_per_week: [8, 6, 8, 10, 6, 2, 1, 0, 0, 2, 19, 37, 6]
 windows:
   "7d":
-    pushes: 18
+    pushes: 15
     distinct_repos: 6
-    active_days: 6
+    active_days: 5
     repos_not_owned: 4
     not_owned_basenames: 3
     not_owned_owners: 2
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 18
+    pushes: 15
     distinct_repos: 6
-    pushes_per_repo: 3.0000
-    active_days: 6
+    pushes_per_repo: 2.5000
+    active_days: 5
     repos_not_owned: 4
     not_owned_basenames: 3
     not_owned_owners: 2
@@ -76,7 +76,64 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 42 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "gh-issue-sync"
+    title: "gh-issue-sync"
+    description: "A github issue sync tool for working with issues locally"
+    language: "Go"
+    topics: []
+    stars_fact: 169
+    first_seen: null
+    last_push: "2026-03-31"
+  - name: "minijinja"
+    title: "minijinja"
+    description: "MiniJinja is a powerful but minimal dependency template engine for Rust compatible with Jinja/Jinja2"
+    language: "Rust"
+    topics:
+      - "jinja"
+      - "jinja2"
+      - "rust"
+      - "templates"
+    stars_fact: 2794
+    first_seen: null
+    last_push: "2026-10-09"
+  - name: "agent-stuff"
+    title: "agent-stuff"
+    description: "These are commands I use with agents, mostly Claude"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 3182
+    first_seen: null
+    last_push: "2026-09-27"
+  - name: "insta"
+    title: "insta"
+    description: "A snapshot testing library for rust"
+    language: "Rust"
+    topics:
+      - "rust"
+      - "snapshot-tests"
+      - "vscode-extension"
+    stars_fact: 2974
+    first_seen: null
+    last_push: "2026-10-10"
+  - name: "deser"
+    title: "deser"
+    description: "Experimental rust serialization library"
+    language: "Rust"
+    topics:
+      - "rust"
+      - "serialization"
+    stars_fact: 456
+    first_seen: null
+    last_push: "2026-10-07"
+  - name: "python-geoip"
+    title: "python-geoip"
+    description: "GeoIP database access for Python under a BSD license."
+    language: "Python"
+    topics: []
+    stars_fact: 244
+    first_seen: null
+    last_push: "2014-02-21"
 ---
 
 # mitsuhiko

@@ -8,8 +8,8 @@ provenance_repos:
   - "agent-substrate/substrate"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-10T06:04:44.283147+00:00"
+repos_populated: true
+generated_at: "2026-10-11T06:04:44.624574+00:00"
 provenance:
   - "a5ffcd0a46dd44fd"
 pushes_per_week: [0, 1, 3, 0, 2, 0, 0, 0, 0, 0, 0, 2, 0]
@@ -76,7 +76,47 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "network-policy-benchmarking"
+    title: "network-policy-benchmarking"
+    description: null
+    language: "Shell"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-17"
+  - name: "test_tcp"
+    title: "test_tcp"
+    description: "Tests functionality of netlink to retrieve important tcp metrics in Go"
+    language: "Go"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2021-07-26"
+  - name: "PhoenixTestApp"
+    title: "PhoenixTestApp"
+    description: "MindSumo Jeopardy App"
+    language: "Elixir"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2024-08-28"
+  - name: "TermProject"
+    title: "TermProject"
+    description: "Term Project for 112"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2018-12-06"
+  - name: "hack112"
+    title: "hack112"
+    description: "Hack112 Project"
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2018-11-10"
 ---
 
 # michaelasp

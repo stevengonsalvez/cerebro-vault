@@ -8,16 +8,16 @@ provenance_repos:
   - "PrefectHQ/fastmcp"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-10T06:04:44.283147+00:00"
+repos_populated: true
+generated_at: "2026-10-11T06:04:44.624574+00:00"
 provenance:
   - "2bd11e9b6557176e"
-pushes_per_week: [30, 59, 24, 1, 0, 0, 1, 0, 0, 0, 0, 2, 25]
+pushes_per_week: [53, 43, 17, 1, 0, 0, 1, 0, 0, 0, 0, 14, 13]
 windows:
   "7d":
-    pushes: 26
+    pushes: 25
     distinct_repos: 6
-    active_days: 4
+    active_days: 3
     repos_not_owned: 6
     not_owned_basenames: 1
     not_owned_owners: 6
@@ -65,10 +65,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 26
+    pushes: 25
     distinct_repos: 6
-    pushes_per_repo: 4.3333
-    active_days: 4
+    pushes_per_repo: 4.1667
+    active_days: 3
     repos_not_owned: 6
     not_owned_basenames: 1
     not_owned_owners: 6
@@ -92,7 +92,68 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 18 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "vibecheck"
+    title: "vibecheck"
+    description: "✨✅ The easiest decisions your code will ever make."
+    language: "Python"
+    topics:
+      - "ai"
+      - "decision-model"
+      - "jev"
+      - "llm"
+      - "python"
+    stars_fact: 42
+    first_seen: null
+    last_push: "2026-09-24"
+  - name: "copychat"
+    title: "copychat"
+    description: "📋💬 Simple code-to-context utility"
+    language: "Python"
+    topics:
+      - "ai"
+      - "aiengineering"
+      - "llm"
+      - "prompt"
+    stars_fact: 57
+    first_seen: null
+    last_push: "2025-06-19"
+  - name: "aimages"
+    title: "aimages"
+    description: "Generate images with hidden text"
+    language: "Python"
+    topics: []
+    stars_fact: 86
+    first_seen: null
+    last_push: "2024-03-25"
+  - name: "claude-wt"
+    title: "claude-wt"
+    description: "🌴 Simple utility for managing parallel Claude Code instances"
+    language: "Python"
+    topics:
+      - "agent"
+      - "claude"
+      - "claude-ai"
+      - "claude-code"
+    stars_fact: 44
+    first_seen: null
+    last_push: "2025-07-07"
+  - name: "jlowin"
+    title: "jlowin"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-06-19"
+  - name: "ai-labeler"
+    title: "ai-labeler"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 29
+    first_seen: null
+    last_push: "2024-12-03"
 ---
 
 # jlowin

@@ -8,16 +8,16 @@ provenance_repos:
   - "agavra/tuicr"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-10T06:04:44.283147+00:00"
+repos_populated: true
+generated_at: "2026-10-11T06:04:44.624574+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [1, 0, 1, 0, 2, 0, 0, 0, 0, 0, 0, 2, 2]
+pushes_per_week: [1, 0, 1, 0, 2, 0, 0, 0, 0, 0, 0, 4, 0]
 windows:
   "7d":
-    pushes: 2
-    distinct_repos: 2
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
-    distinct_repos: 2
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "homebrew-tap"
+    title: "homebrew-tap"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-06"
+  - name: "dq"
+    title: "dq"
+    description: "duckdb powered pipeline CLI"
+    language: "Rust"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-04"
+  - name: "lustre-todomvc"
+    title: "lustre-todomvc"
+    description: "todomvc example with lustre"
+    language: "Gleam"
+    topics: []
+    stars_fact: 23
+    first_seen: null
+    last_push: "2025-04-22"
+  - name: "jsonrpc"
+    title: "jsonrpc"
+    description: null
+    language: "Gleam"
+    topics: []
+    stars_fact: 4
+    first_seen: null
+    last_push: "2025-10-02"
+  - name: "rymi.dev"
+    title: "rymi.dev"
+    description: "personal website"
+    language: "Astro"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-07-04"
+  - name: "kaf"
+    title: "kaf"
+    description: null
+    language: "Rust"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-06-08"
 ---
 
 # ryanmiville

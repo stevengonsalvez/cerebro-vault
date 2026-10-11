@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: false
-generated_at: "2026-10-10T06:04:44.283147+00:00"
+generated_at: "2026-10-11T06:04:44.624574+00:00"
 provenance:
   - "dc9094c987231bcf"
-pushes_per_week: [16, 7, 9, 4, 2, 1, 1, 0, 5, 79, 93, 138, 94]
+pushes_per_week: [13, 9, 8, 4, 1, 2, 0, 0, 23, 71, 116, 133, 78]
 windows:
   "7d":
-    pushes: 118
+    pushes: 98
     distinct_repos: 1
     active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 407
+    pushes: 419
     distinct_repos: 2
-    active_days: 28
+    active_days: 29
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 449
+    pushes: 458
     distinct_repos: 3
     active_days: 52
     repos_not_owned: 0
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 8.6346
+  push_per_day: 8.8077
   repo_per_active_day: 0.0577
   not_owned_ratio: 0.0000
   basename_concentration: 0.3333
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 118
+    pushes: 98
     distinct_repos: 1
-    pushes_per_repo: 118.0000
+    pushes_per_repo: 98.0000
     active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 407
+    pushes: 419
     distinct_repos: 2
-    pushes_per_repo: 203.5000
-    active_days: 28
+    pushes_per_repo: 209.5000
+    active_days: 29
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 449
+    pushes: 458
     distinct_repos: 3
-    pushes_per_repo: 149.6667
+    pushes_per_repo: 152.6667
     active_days: 52
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -81,6 +81,6 @@ repos: []
 
 # yotamleo
 
-449 pushes across 3 repositories on 52 active days in the last 90 days of public GitHub push activity.
+458 pushes across 3 repositories on 52 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/yotamleo

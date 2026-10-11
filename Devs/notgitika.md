@@ -8,8 +8,8 @@ provenance_repos:
   - "aws/agent-toolkit-for-aws"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-10T06:04:44.283147+00:00"
+repos_populated: true
+generated_at: "2026-10-11T06:04:44.624574+00:00"
 provenance:
   - "a50b0e08dbaee74a"
 pushes_per_week: [4, 2, 7, 0, 3, 1, 2, 0, 0, 0, 2, 3, 0]
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 14 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "notgitika"
+    title: "notgitika"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2025-12-07"
+  - name: "agentcore-testing"
+    title: "agentcore-testing"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2025-09-29"
+  - name: "leetcode"
+    title: "leetcode"
+    description: "Compilation of my work on leetcode"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2025-08-16"
+  - name: "notgitika.github.io"
+    title: "notgitika.github.io"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2024-06-25"
+  - name: "event-planning-assistant"
+    title: "event-planning-assistant"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2024-06-03"
+  - name: "team-katara"
+    title: "team-katara"
+    description: null
+    language: "Jupyter Notebook"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2024-02-18"
 ---
 
 # notgitika

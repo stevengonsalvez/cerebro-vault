@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-10T06:04:44.283147+00:00"
+generated_at: "2026-10-11T06:04:44.624574+00:00"
 provenance:
   - "dae9f02535f7c22f"
-pushes_per_week: [88, 69, 61, 66, 93, 10, 11, 3, 16, 93, 127, 181, 32]
+pushes_per_week: [83, 60, 90, 40, 90, 10, 13, 1, 19, 101, 155, 142, 33]
 windows:
   "7d":
-    pushes: 32
+    pushes: 33
     distinct_repos: 17
-    active_days: 4
+    active_days: 5
     repos_not_owned: 17
     not_owned_basenames: 17
     not_owned_owners: 1
   "30d":
-    pushes: 444
+    pushes: 443
     distinct_repos: 89
     active_days: 26
     repos_not_owned: 84
     not_owned_basenames: 82
     not_owned_owners: 3
   "90d":
-    pushes: 850
+    pushes: 837
     distinct_repos: 119
     active_days: 75
     repos_not_owned: 111
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 11.3333
+  push_per_day: 11.1600
   repo_per_active_day: 1.5867
   not_owned_ratio: 0.9328
   basename_concentration: 0.0168
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 32
+    pushes: 33
     distinct_repos: 17
-    pushes_per_repo: 1.8824
-    active_days: 4
+    pushes_per_repo: 1.9412
+    active_days: 5
     repos_not_owned: 17
     not_owned_basenames: 17
     not_owned_owners: 1
   "30d":
-    pushes: 444
+    pushes: 443
     distinct_repos: 89
-    pushes_per_repo: 4.9888
+    pushes_per_repo: 4.9775
     active_days: 26
     repos_not_owned: 84
     not_owned_basenames: 82
     not_owned_owners: 3
   "90d":
-    pushes: 850
+    pushes: 837
     distinct_repos: 119
-    pushes_per_repo: 7.1429
+    pushes_per_repo: 7.0336
     active_days: 75
     repos_not_owned: 111
     not_owned_basenames: 109
@@ -161,6 +161,6 @@ repos:
 
 # CybotTM
 
-850 pushes across 119 repositories on 75 active days in the last 90 days of public GitHub push activity.
+837 pushes across 119 repositories on 75 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/CybotTM

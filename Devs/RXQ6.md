@@ -8,11 +8,11 @@ provenance_repos:
   - "bytedance/deer-flow"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-10T06:04:44.283147+00:00"
+repos_populated: true
+generated_at: "2026-10-11T06:04:44.624574+00:00"
 provenance:
   - "16389f32495280ea"
-pushes_per_week: [0, 0, 0, 1, 4, 0, 0, 0, 1, 0, 2, 0, 3]
+pushes_per_week: [0, 0, 0, 1, 4, 0, 0, 0, 1, 0, 2, 1, 2]
 windows:
   "7d":
     pushes: 3
@@ -76,7 +76,39 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 9 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "TinyCode"
+    title: "TinyCode"
+    description: "A TypeScript coding agent workbench with Electron and React, real file and test tools, and replayable read-edit-test-repair workflows."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-11"
+  - name: "Visor-Analyx"
+    title: "Visor-Analyx"
+    description: "一个支持 CSV/XLSX 文件上传与自然语言提问的数据分析 Agent。它能自动选择受控分析工具，基于真实数据完成统计与分析，并输出有依据、可验证的结论。"
+    language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-04"
+  - name: "CiteFin"
+    title: "CiteFin"
+    description: "An evidence-driven financial agent that analyzes annual reports, calculates key metrics, identifies risks, and generates traceable, independently verified reports."
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-13"
+  - name: "linguaflow-skill"
+    title: "linguaflow-skill"
+    description: "Multilingual near-realtime interpretation and bilingual translation — audio via ASR → translate → optional TTS; text as immediate bilingual output. Auto-detects the source language, defaults to zh↔en. Triggers like \"live translate\", \"interpret this\", or /realtime-translate."
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-11"
 ---
 
 # RXQ6

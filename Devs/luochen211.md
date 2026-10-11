@@ -8,23 +8,23 @@ provenance_repos:
   - "ChromeDevTools/chrome-devtools-mcp"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-10T06:04:44.283147+00:00"
+repos_populated: true
+generated_at: "2026-10-11T06:04:44.624574+00:00"
 provenance:
   - "379642deb53f3714"
-pushes_per_week: [10, 6, 3, 3, 20, 1, 1, 0, 1, 0, 16, 7, 8]
+pushes_per_week: [12, 4, 3, 3, 21, 1, 0, 0, 1, 0, 17, 8, 6]
 windows:
   "7d":
-    pushes: 11
-    distinct_repos: 4
-    active_days: 7
+    pushes: 8
+    distinct_repos: 3
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 32
-    distinct_repos: 10
-    active_days: 15
+    pushes: 31
+    distinct_repos: 9
+    active_days: 14
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,18 +49,18 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 11
-    distinct_repos: 4
-    pushes_per_repo: 2.7500
-    active_days: 7
+    pushes: 8
+    distinct_repos: 3
+    pushes_per_repo: 2.6667
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 32
-    distinct_repos: 10
-    pushes_per_repo: 3.2000
-    active_days: 15
+    pushes: 31
+    distinct_repos: 9
+    pushes_per_repo: 3.4444
+    active_days: 14
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 32 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "hardware"
+    title: "hardware"
+    description: null
+    language: "C"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-10"
+  - name: "ppt-ops"
+    title: "ppt-ops"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-10"
+  - name: "career-ops-plugin-gmail"
+    title: "career-ops-plugin-gmail"
+    description: "Opt-in read-only Gmail leads and employer reply review for career-ops"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-30"
+  - name: "a2a"
+    title: "a2a"
+    description: "A2A protocol learning, interoperability experiments, and reliable agent orchestration."
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-27"
+  - name: "neighborhood-exchange"
+    title: "neighborhood-exchange"
+    description: "邻里闲置：面向社区内部的轻量闲置物品流转 Web 应用"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-27"
+  - name: "luochen211"
+    title: "luochen211"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-22"
 ---
 
 # luochen211

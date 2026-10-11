@@ -10,16 +10,16 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-10T06:04:44.283147+00:00"
+generated_at: "2026-10-11T06:04:44.624574+00:00"
 provenance:
   - "9d67ce648f6a8919"
   - "c489e6fb5febf2ab"
-pushes_per_week: [57, 44, 40, 18, 25, 17, 21, 5, 14, 40, 48, 53, 20]
+pushes_per_week: [52, 47, 38, 17, 26, 19, 16, 8, 19, 44, 43, 52, 14]
 windows:
   "7d":
-    pushes: 27
-    distinct_repos: 7
-    active_days: 5
+    pushes: 20
+    distinct_repos: 6
+    active_days: 4
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
@@ -31,16 +31,16 @@ windows:
     not_owned_basenames: 3
     not_owned_owners: 2
   "90d":
-    pushes: 402
+    pushes: 395
     distinct_repos: 24
-    active_days: 77
+    active_days: 76
     repos_not_owned: 7
     not_owned_basenames: 7
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 5.2208
-  repo_per_active_day: 0.3117
+  push_per_day: 5.1974
+  repo_per_active_day: 0.3158
   not_owned_ratio: 0.2917
   basename_concentration: 0.0417
   shapes: []
@@ -51,10 +51,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 27
-    distinct_repos: 7
-    pushes_per_repo: 3.8571
-    active_days: 5
+    pushes: 20
+    distinct_repos: 6
+    pushes_per_repo: 3.3333
+    active_days: 4
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
@@ -67,16 +67,16 @@ facets:
     not_owned_basenames: 3
     not_owned_owners: 2
   "90d":
-    pushes: 402
+    pushes: 395
     distinct_repos: 24
-    pushes_per_repo: 16.7500
-    active_days: 77
+    pushes_per_repo: 16.4583
+    active_days: 76
     repos_not_owned: 7
     not_owned_basenames: 7
     not_owned_owners: 2
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 77 active days in 90d — pass"
+  - "activity: 76 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "miroshark-aeon"
@@ -179,6 +179,6 @@ repos:
 
 # aaronjmars
 
-402 pushes across 24 repositories on 77 active days in the last 90 days of public GitHub push activity.
+395 pushes across 24 repositories on 76 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/aaronjmars

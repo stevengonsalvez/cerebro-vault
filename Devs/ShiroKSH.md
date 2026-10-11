@@ -11,12 +11,12 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-10T06:04:44.283147+00:00"
+generated_at: "2026-10-11T06:04:44.624574+00:00"
 provenance:
   - "6d3bd03b49986330"
   - "716cf9e2237ac9db"
   - "dae9f02535f7c22f"
-pushes_per_week: [8, 0, 12, 10, 13, 0, 0, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [7, 0, 16, 7, 12, 0, 0, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -33,18 +33,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 43
-    distinct_repos: 15
+    pushes: 42
+    distinct_repos: 14
     active_days: 12
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 3.5833
-  repo_per_active_day: 1.2500
+  push_per_day: 3.5000
+  repo_per_active_day: 1.1667
   not_owned_ratio: 0.0000
-  basename_concentration: 0.0667
+  basename_concentration: 0.0714
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -69,9 +69,9 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 43
-    distinct_repos: 15
-    pushes_per_repo: 2.8667
+    pushes: 42
+    distinct_repos: 14
+    pushes_per_repo: 3.0000
     active_days: 12
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -186,6 +186,6 @@ repos:
 
 # ShiroKSH
 
-43 pushes across 15 repositories on 12 active days in the last 90 days of public GitHub push activity.
+42 pushes across 14 repositories on 12 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ShiroKSH

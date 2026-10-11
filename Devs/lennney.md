@@ -10,16 +10,16 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-10T06:04:44.283147+00:00"
+generated_at: "2026-10-11T06:04:44.624574+00:00"
 provenance:
   - "73468cde177ddae6"
   - "90688bf127241ceb"
-pushes_per_week: [9, 9, 5, 0, 3, 2, 0, 0, 0, 2, 0, 3, 0]
+pushes_per_week: [6, 9, 5, 0, 3, 2, 0, 0, 0, 2, 0, 3, 0]
 windows:
   "7d":
-    pushes: 2
-    distinct_repos: 1
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -31,16 +31,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 33
+    pushes: 30
     distinct_repos: 8
-    active_days: 19
+    active_days: 17
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.7368
-  repo_per_active_day: 0.4211
+  push_per_day: 1.7647
+  repo_per_active_day: 0.4706
   not_owned_ratio: 0.0000
   basename_concentration: 0.1250
   shapes: []
@@ -51,10 +51,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
-    distinct_repos: 1
-    pushes_per_repo: 2.0000
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -67,16 +67,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 33
+    pushes: 30
     distinct_repos: 8
-    pushes_per_repo: 4.1250
-    active_days: 19
+    pushes_per_repo: 3.7500
+    active_days: 17
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 19 active days in 90d — pass"
+  - "activity: 17 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "stop-that-shit"
@@ -181,6 +181,6 @@ repos:
 
 # lennney
 
-33 pushes across 8 repositories on 19 active days in the last 90 days of public GitHub push activity.
+30 pushes across 8 repositories on 17 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/lennney

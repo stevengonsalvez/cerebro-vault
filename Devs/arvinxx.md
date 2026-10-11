@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-10T06:04:44.283147+00:00"
+generated_at: "2026-10-11T06:04:44.624574+00:00"
 provenance:
   - "51d6155061d60774"
-pushes_per_week: [54, 28, 13, 20, 23, 17, 3, 3, 8, 20, 59, 90, 60]
+pushes_per_week: [41, 29, 13, 25, 20, 15, 2, 3, 13, 32, 82, 66, 51]
 windows:
   "7d":
-    pushes: 65
+    pushes: 62
     distinct_repos: 1
     active_days: 7
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 233
+    pushes: 240
     distinct_repos: 3
-    active_days: 27
+    active_days: 28
     repos_not_owned: 3
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 398
+    pushes: 392
     distinct_repos: 3
     active_days: 70
     repos_not_owned: 3
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 5.6857
+  push_per_day: 5.6000
   repo_per_active_day: 0.0429
   not_owned_ratio: 1.0000
   basename_concentration: 0.6667
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 65
+    pushes: 62
     distinct_repos: 1
-    pushes_per_repo: 65.0000
+    pushes_per_repo: 62.0000
     active_days: 7
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 233
+    pushes: 240
     distinct_repos: 3
-    pushes_per_repo: 77.6667
-    active_days: 27
+    pushes_per_repo: 80.0000
+    active_days: 28
     repos_not_owned: 3
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 398
+    pushes: 392
     distinct_repos: 3
-    pushes_per_repo: 132.6667
+    pushes_per_repo: 130.6667
     active_days: 70
     repos_not_owned: 3
     not_owned_basenames: 2
@@ -138,6 +138,6 @@ repos:
 
 # arvinxx
 
-398 pushes across 3 repositories on 70 active days in the last 90 days of public GitHub push activity.
+392 pushes across 3 repositories on 70 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/arvinxx

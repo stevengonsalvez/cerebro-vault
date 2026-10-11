@@ -8,8 +8,8 @@ provenance_repos:
   - "anthropics/skills"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-10T06:04:44.283147+00:00"
+repos_populated: true
+generated_at: "2026-10-11T06:04:44.624574+00:00"
 provenance:
   - "82a901da1b9bedec"
 pushes_per_week: [3, 4, 5, 2, 2, 0, 0, 0, 1, 4, 0, 0, 0]
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 13 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "packtrack"
+    title: "packtrack"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-04"
+  - name: "on-demand-remote-agent"
+    title: "on-demand-remote-agent"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-04"
+  - name: "quuu-frontend-design-skill"
+    title: "quuu-frontend-design-skill"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-02-14"
+  - name: "minimal-next-16-botid"
+    title: "minimal-next-16-botid"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-02-21"
+  - name: "deploy-with-passport"
+    title: "deploy-with-passport"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-06-16"
+  - name: "gitbench"
+    title: "gitbench"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-07-11"
 ---
 
 # quuu

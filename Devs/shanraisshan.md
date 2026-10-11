@@ -8,37 +8,37 @@ provenance_repos:
   - "shanraisshan/claude-code-best-practice"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-10T06:04:44.283147+00:00"
+repos_populated: true
+generated_at: "2026-10-11T06:04:44.624574+00:00"
 provenance:
   - "beef767476532531"
-pushes_per_week: [5, 1, 10, 2, 12, 2, 1, 0, 1, 4, 4, 5, 6]
+pushes_per_week: [5, 2, 9, 3, 11, 2, 1, 0, 4, 3, 3, 6, 5]
 windows:
   "7d":
     pushes: 6
     distinct_repos: 1
-    active_days: 5
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 19
+    pushes: 20
     distinct_repos: 1
-    active_days: 13
+    active_days: 14
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 53
+    pushes: 54
     distinct_repos: 1
-    active_days: 36
+    active_days: 37
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.4722
-  repo_per_active_day: 0.0278
+  push_per_day: 1.4595
+  repo_per_active_day: 0.0270
   not_owned_ratio: 0.0000
   basename_concentration: 1.0000
   shapes: []
@@ -52,35 +52,157 @@ facets:
     pushes: 6
     distinct_repos: 1
     pushes_per_repo: 6.0000
-    active_days: 5
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 19
+    pushes: 20
     distinct_repos: 1
-    pushes_per_repo: 19.0000
-    active_days: 13
+    pushes_per_repo: 20.0000
+    active_days: 14
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 53
+    pushes: 54
     distinct_repos: 1
-    pushes_per_repo: 53.0000
-    active_days: 36
+    pushes_per_repo: 54.0000
+    active_days: 37
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 36 active days in 90d — pass"
+  - "activity: 37 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "claude-code-best-practice"
+    title: "claude-code-best-practice"
+    description: "from vibe coding to agentic engineering - practice makes claude perfect"
+    language: "HTML"
+    topics:
+      - "agentic-ai"
+      - "agentic-coding"
+      - "agentic-engineering"
+      - "agentic-workflow"
+      - "ai"
+      - "ai-agents"
+      - "anthropic"
+      - "best-practices"
+      - "boris"
+      - "claude"
+      - "claude-ai"
+      - "claude-code"
+      - "claude-code-agents"
+      - "claude-code-best-practices"
+      - "claude-code-commands"
+      - "claude-code-skills"
+      - "context-engineering"
+      - "pakistan"
+      - "pakistani-developer"
+      - "vibe-coding"
+    stars_fact: 67364
+    first_seen: "2026-06-26T06:00:06.940898+00:00"
+    last_push: "2026-10-11"
+  - name: "codex-cli-best-practice"
+    title: "codex-cli-best-practice"
+    description: "from vibe coding to agentic engineering - practice makes codex perfect"
+    language: "Python"
+    topics:
+      - "agentic-ai"
+      - "agentic-coding"
+      - "agentic-engineering"
+      - "agentic-workflow"
+      - "ai"
+      - "ai-agents"
+      - "codex"
+      - "codex-ai"
+      - "codex-cli"
+      - "codex-cli-agents"
+      - "codex-cli-best-practices"
+      - "codex-cli-commands"
+      - "codex-cli-skills"
+      - "codex-hooks"
+      - "context-engineering"
+      - "hooks"
+      - "openai"
+      - "pakistan"
+      - "pakistani-developer"
+      - "vibe-coding"
+    stars_fact: 1009
+    first_seen: null
+    last_push: "2026-06-04"
+  - name: "claude-code-hooks"
+    title: "claude-code-hooks"
+    description: "claude code hooks - adding voice on each hook"
+    language: "HTML"
+    topics:
+      - "agentic-ai"
+      - "agentic-coding"
+      - "agentic-engineering"
+      - "agentic-workflow"
+      - "ai"
+      - "ai-agents"
+      - "anthropic"
+      - "claude"
+      - "claude-ai"
+      - "claude-code"
+      - "claude-code-agents"
+      - "claude-code-best-practices"
+      - "claude-code-commands"
+      - "claude-code-skills"
+      - "claude-hooks"
+      - "context-engineering"
+      - "hooks"
+      - "pakistan"
+      - "pakistani-developer"
+      - "vibe-coding"
+    stars_fact: 555
+    first_seen: null
+    last_push: "2026-06-04"
+  - name: "frontend-template"
+    title: "frontend-template"
+    description: "a starter template for next js project using agents best practices"
+    language: "Python"
+    topics: []
+    stars_fact: 4
+    first_seen: null
+    last_push: "2025-11-23"
+  - name: "gemini-cli-best-practice"
+    title: "gemini-cli-best-practice"
+    description: "from vibe coding to agentic engineering - practice makes gemini perfect"
+    language: "Python"
+    topics:
+      - "agentic-ai"
+      - "agentic-engineering"
+      - "agentic-workflows"
+      - "ai"
+      - "pakistan"
+      - "vibe-coding"
+    stars_fact: 78
+    first_seen: null
+    last_push: "2026-05-26"
+  - name: "draw-json-architecture-skill"
+    title: "draw-json-architecture-skill"
+    description: "A skill that explains any code architecture as an interactive viewer — Graph + JSON + HTML, 100% driven by JSON — and saves the self-contained `.html` to your repo's root `architecture/` folder."
+    language: "HTML"
+    topics:
+      - "ai"
+      - "ai-skills"
+      - "claude"
+      - "claude-code"
+      - "codex"
+      - "codex-cli"
+      - "pakistan"
+      - "skilla"
+    stars_fact: 10
+    first_seen: null
+    last_push: "2026-06-01"
 ---
 
 # shanraisshan
 
-53 pushes across 1 repository on 36 active days in the last 90 days of public GitHub push activity.
+54 pushes across 1 repository on 37 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/shanraisshan

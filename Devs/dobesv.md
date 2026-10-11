@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-10T06:04:44.283147+00:00"
+generated_at: "2026-10-11T06:04:44.624574+00:00"
 provenance:
   - "379642deb53f3714"
-pushes_per_week: [36, 22, 13, 7, 4, 2, 1, 1, 0, 19, 25, 23, 7]
+pushes_per_week: [41, 16, 14, 7, 4, 1, 1, 1, 4, 24, 20, 19, 7]
 windows:
   "7d":
     pushes: 7
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 160
+    pushes: 159
     distinct_repos: 3
-    active_days: 50
+    active_days: 49
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 3.2000
-  repo_per_active_day: 0.0600
+  push_per_day: 3.2449
+  repo_per_active_day: 0.0612
   not_owned_ratio: 0.3333
   basename_concentration: 0.3333
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 160
+    pushes: 159
     distinct_repos: 3
-    pushes_per_repo: 53.3333
-    active_days: 50
+    pushes_per_repo: 53.0000
+    active_days: 49
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 50 active days in 90d — pass"
+  - "activity: 49 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "harnx"
@@ -129,6 +129,6 @@ repos:
 
 # dobesv
 
-160 pushes across 3 repositories on 50 active days in the last 90 days of public GitHub push activity.
+159 pushes across 3 repositories on 49 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/dobesv

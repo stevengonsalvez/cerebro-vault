@@ -8,11 +8,11 @@ provenance_repos:
   - "anomalyco/opencode"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-10T06:04:44.283147+00:00"
+repos_populated: true
+generated_at: "2026-10-11T06:04:44.624574+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [1, 0, 1, 1, 5, 3, 0, 0, 0, 0, 3, 5, 2]
+pushes_per_week: [1, 0, 2, 0, 8, 0, 0, 0, 0, 0, 3, 5, 2]
 windows:
   "7d":
     pushes: 2
@@ -76,7 +76,59 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 12 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "DataSense-Site"
+    title: "DataSense-Site"
+    description: "Open-source AI-powered data insight engine. Turn raw data into actionable intelligence with natural language."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2025-12-10"
+  - name: "labvision-report"
+    title: "labvision-report"
+    description: "高校实验室管理平台数据报告项目"
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2025-08-20"
+  - name: "robot-competition-website"
+    title: "robot-competition-website"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2025-03-20"
+  - name: "rich-text-editor"
+    title: "rich-text-editor"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2025-01-11"
+  - name: "docs"
+    title: "docs"
+    description: null
+    language: "MDX"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2025-01-09"
+  - name: "brownie_fund_me"
+    title: "brownie_fund_me"
+    description: "Smart Contract Application"
+    language: "Solidity"
+    topics:
+      - "brownie"
+      - "chainlink"
+      - "python"
+      - "solidity"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2022-04-27"
 ---
 
 # MrMushrooooom

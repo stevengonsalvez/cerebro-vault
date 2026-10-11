@@ -8,11 +8,11 @@ provenance_repos:
   - "chopratejas/headroom"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-10T06:04:44.283147+00:00"
+repos_populated: true
+generated_at: "2026-10-11T06:04:44.624574+00:00"
 provenance:
   - "73468cde177ddae6"
-pushes_per_week: [10, 0, 1, 0, 1, 1, 0, 0, 0, 0, 1, 0, 0]
+pushes_per_week: [9, 0, 1, 0, 1, 1, 0, 0, 0, 0, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 14
-    distinct_repos: 7
-    active_days: 8
+    pushes: 13
+    distinct_repos: 6
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.7500
-  repo_per_active_day: 0.8750
+  push_per_day: 1.8571
+  repo_per_active_day: 0.8571
   not_owned_ratio: 0.0000
-  basename_concentration: 0.1429
+  basename_concentration: 0.1667
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,22 +65,77 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 14
-    distinct_repos: 7
-    pushes_per_repo: 2.0000
-    active_days: 8
+    pushes: 13
+    distinct_repos: 6
+    pushes_per_repo: 2.1667
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 8 active days in 90d — pass"
+  - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "aims2026-phantom-measurement"
+    title: "aims2026-phantom-measurement"
+    description: "Offline reproduction artifact for the accepted AIMS 2026 measurement case study."
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-22"
+  - name: "Krishnachaitanyakc.github.io"
+    title: "Krishnachaitanyakc.github.io"
+    description: null
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-25"
+  - name: "agent-monitor-validity"
+    title: "agent-monitor-validity"
+    description: "A validity audit of trace-based failure detectors for LLM agents: human-grounded labels, preregistered analysis, open corpus"
+    language: "Python"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-08-03"
+  - name: "aisq-diagnostic-lineage-replay"
+    title: "aisq-diagnostic-lineage-replay"
+    description: "Reproducibility artifact for a release pinned diagnostic lineage replay of OpenInference Agno 0.1.1 and 0.1.2."
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-14"
+  - name: "AgentTelemetry"
+    title: "AgentTelemetry"
+    description: null
+    language: "TeX"
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-07-14"
+  - name: "temporal-postgres-visibility"
+    title: "temporal-postgres-visibility"
+    description: "Community maintenance tooling for the Temporal PostgreSQL visibility store: partial-index migration, benchmark, and REINDEX/autovacuum runbook (temporalio/temporal#10145)."
+    language: "PLpgSQL"
+    topics:
+      - "database-maintenance"
+      - "index-bloat"
+      - "partial-index"
+      - "postgresql"
+      - "reindex"
+      - "temporal"
+      - "visibility"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-07-11"
 ---
 
 # Krishnachaitanyakc
 
-14 pushes across 7 repositories on 8 active days in the last 90 days of public GitHub push activity.
+13 pushes across 6 repositories on 7 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Krishnachaitanyakc
