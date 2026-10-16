@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-10T06:04:44.283147+00:00"
+generated_at: "2026-10-16T08:30:18.142355+00:00"
 provenance:
   - "01cd6a498d377caf"
   - "03604cccd7e9402d"
@@ -39,6 +39,7 @@ provenance:
   - "44423c0a85b4d691"
   - "557818547b5e5732"
   - "5744b97e5a176886"
+  - "5dc7e9d03eb17a01"
   - "69930101e09d4f35"
   - "6d9f931d3f4a007e"
   - "7389d4b9c5e1318a"
@@ -64,13 +65,15 @@ provenance:
   - "d320458473217aca"
   - "d46568f6f6a488d8"
   - "d9b88297cf0d952f"
+  - "dca7cce8dcd1782c"
   - "e2ea6ef4c9fbfceb"
   - "e75aaf1e12900808"
   - "f672838de330e86f"
   - "f9a1870648a6375a"
+  - "fd1cb9e783625459"
   - "fe9e50bf2d5b21fe"
   - "ff1ca072bf39e471"
-pushes_per_week: [2, 0, 0, 0, 2, 0, 0, 0, 0, 0, 2, 2, 0]
+pushes_per_week: [0, 0, 0, 0, 2, 0, 0, 0, 0, 2, 2, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -87,18 +90,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 8
-    distinct_repos: 4
-    active_days: 6
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 6
+    distinct_repos: 3
+    active_days: 5
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.3333
-  repo_per_active_day: 0.6667
-  not_owned_ratio: 0.2500
-  basename_concentration: 0.2500
+  push_per_day: 1.2000
+  repo_per_active_day: 0.6000
+  not_owned_ratio: 0.0000
+  basename_concentration: 0.3333
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -123,18 +126,26 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 8
-    distinct_repos: 4
+    pushes: 6
+    distinct_repos: 3
     pushes_per_repo: 2.0000
-    active_days: 6
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    active_days: 5
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
 reasons:
-  - "provenance: 59 vault signal(s) — pass"
-  - "activity: 6 active days in 90d — pass"
+  - "provenance: 62 vault signal(s) — pass"
+  - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "saadiq.xyz"
+    title: "saadiq.xyz"
+    description: "Personal website"
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-13"
   - name: "network-monitor"
     title: "network-monitor"
     description: "Terminal network health monitor for flaky Wi-Fi (macOS, Bun, zero deps)"
@@ -151,14 +162,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-09-28"
-  - name: "saadiq.xyz"
-    title: "saadiq.xyz"
-    description: "Personal website"
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-25"
   - name: "times_table_tutor"
     title: "times_table_tutor"
     description: "A calm, anxiety-free web app for learning times tables through adaptive practice and a progressive scene reveal reward system"
@@ -202,6 +205,6 @@ repos:
 
 # saadiq
 
-8 pushes across 4 repositories on 6 active days in the last 90 days of public GitHub push activity.
+6 pushes across 3 repositories on 5 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/saadiq

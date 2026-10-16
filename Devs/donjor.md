@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-11T06:04:44.624574+00:00"
+generated_at: "2026-10-16T08:30:18.142355+00:00"
 provenance:
   - "73468cde177ddae6"
-pushes_per_week: [2, 0, 0, 0, 0, 2, 9, 4, 21, 22, 25, 68, 13]
+pushes_per_week: [0, 0, 0, 0, 0, 8, 4, 5, 35, 21, 44, 43, 15]
 windows:
   "7d":
-    pushes: 15
+    pushes: 16
     distinct_repos: 1
     active_days: 6
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 147
+    pushes: 132
     distinct_repos: 1
-    active_days: 24
+    active_days: 23
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 166
-    distinct_repos: 2
-    active_days: 36
+    pushes: 175
+    distinct_repos: 1
+    active_days: 37
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 4.6111
-  repo_per_active_day: 0.0556
-  not_owned_ratio: 0.5000
-  basename_concentration: 0.5000
+  push_per_day: 4.7297
+  repo_per_active_day: 0.0270
+  not_owned_ratio: 1.0000
+  basename_concentration: 1.0000
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 15
+    pushes: 16
     distinct_repos: 1
-    pushes_per_repo: 15.0000
+    pushes_per_repo: 16.0000
     active_days: 6
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 147
+    pushes: 132
     distinct_repos: 1
-    pushes_per_repo: 147.0000
-    active_days: 24
+    pushes_per_repo: 132.0000
+    active_days: 23
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 166
-    distinct_repos: 2
-    pushes_per_repo: 83.0000
-    active_days: 36
+    pushes: 175
+    distinct_repos: 1
+    pushes_per_repo: 175.0000
+    active_days: 37
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 36 active days in 90d — pass"
+  - "activity: 37 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "r3f-examples"
@@ -136,6 +136,6 @@ repos:
 
 # donjor
 
-166 pushes across 2 repositories on 36 active days in the last 90 days of public GitHub push activity.
+175 pushes across 1 repository on 37 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/donjor

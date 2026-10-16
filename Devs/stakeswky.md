@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-11T06:04:44.624574+00:00"
+generated_at: "2026-10-16T08:30:18.142355+00:00"
 provenance:
   - "0b22ca37fd3884c9"
-pushes_per_week: [11, 7, 0, 0, 1, 0, 1, 0, 0, 7, 4, 0, 0]
+pushes_per_week: [9, 2, 0, 1, 0, 1, 0, 0, 6, 5, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 31
+    pushes: 24
     distinct_repos: 3
-    active_days: 16
+    active_days: 13
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.9375
-  repo_per_active_day: 0.1875
+  push_per_day: 1.8462
+  repo_per_active_day: 0.2308
   not_owned_ratio: 0.0000
   basename_concentration: 0.3333
   shapes: []
@@ -65,18 +65,26 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 31
+    pushes: 24
     distinct_repos: 3
-    pushes_per_repo: 10.3333
-    active_days: 16
+    pushes_per_repo: 8.0000
+    active_days: 13
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 16 active days in 90d — pass"
+  - "activity: 13 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "fastgpt-admin"
+    title: "fastgpt-admin"
+    description: "fastgpt项目的简略后台"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 80
+    first_seen: null
+    last_push: "2023-06-12"
   - name: "awesome-dsh"
     title: "awesome-dsh"
     description: "DSH 插件生态导航：GitHub topic dsh-plugin 全量目录，自动抓取 + Workers AI 中文翻译 + 按需检索 skill｜Auto-updating catalog of 2600+ DeepSeek Harness plugins"
@@ -130,18 +138,10 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-06-20"
-  - name: "fastgpt-admin"
-    title: "fastgpt-admin"
-    description: "fastgpt项目的简略后台"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 79
-    first_seen: null
-    last_push: "2023-06-12"
 ---
 
 # stakeswky
 
-31 pushes across 3 repositories on 16 active days in the last 90 days of public GitHub push activity.
+24 pushes across 3 repositories on 13 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/stakeswky

@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-11T06:04:44.624574+00:00"
+generated_at: "2026-10-16T08:30:18.142355+00:00"
 provenance:
   - "4138778ebbc75ba6"
-pushes_per_week: [18, 18, 13, 7, 31, 5, 4, 0, 6, 4, 1, 6, 17]
+pushes_per_week: [8, 23, 5, 33, 4, 5, 0, 4, 3, 4, 2, 14, 11]
 windows:
   "7d":
-    pushes: 19
+    pushes: 11
     distinct_repos: 4
-    active_days: 6
+    active_days: 5
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 30
-    distinct_repos: 8
-    active_days: 13
+    pushes: 31
+    distinct_repos: 7
+    active_days: 14
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 130
-    distinct_repos: 11
-    active_days: 44
-    repos_not_owned: 3
-    not_owned_basenames: 3
-    not_owned_owners: 3
+    pushes: 116
+    distinct_repos: 10
+    active_days: 42
+    repos_not_owned: 2
+    not_owned_basenames: 2
+    not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 2.9545
-  repo_per_active_day: 0.2500
-  not_owned_ratio: 0.2727
-  basename_concentration: 0.1818
+  push_per_day: 2.7619
+  repo_per_active_day: 0.2381
+  not_owned_ratio: 0.2000
+  basename_concentration: 0.1000
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 19
+    pushes: 11
     distinct_repos: 4
-    pushes_per_repo: 4.7500
-    active_days: 6
+    pushes_per_repo: 2.7500
+    active_days: 5
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 30
-    distinct_repos: 8
-    pushes_per_repo: 3.7500
-    active_days: 13
+    pushes: 31
+    distinct_repos: 7
+    pushes_per_repo: 4.4286
+    active_days: 14
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 130
-    distinct_repos: 11
-    pushes_per_repo: 11.8182
-    active_days: 44
-    repos_not_owned: 3
-    not_owned_basenames: 3
-    not_owned_owners: 3
+    pushes: 116
+    distinct_repos: 10
+    pushes_per_repo: 11.6000
+    active_days: 42
+    repos_not_owned: 2
+    not_owned_basenames: 2
+    not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 44 active days in 90d — pass"
+  - "activity: 42 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "lich"
@@ -141,6 +141,6 @@ repos:
 
 # omartelo
 
-130 pushes across 11 repositories on 44 active days in the last 90 days of public GitHub push activity.
+116 pushes across 10 repositories on 42 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/omartelo

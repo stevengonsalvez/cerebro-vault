@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-11T06:04:44.624574+00:00"
+generated_at: "2026-10-16T08:30:18.142355+00:00"
 provenance:
   - "dffbb846389f9a26"
-pushes_per_week: [0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 4, 2, 1]
+pushes_per_week: [0, 0, 2, 0, 0, 0, 0, 0, 0, 4, 1, 2, 2]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
+    pushes: 3
+    distinct_repos: 2
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 7
+    pushes: 9
     distinct_repos: 5
-    active_days: 5
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 9
+    pushes: 11
     distinct_repos: 6
-    active_days: 6
+    active_days: 8
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.5000
-  repo_per_active_day: 1.0000
+  push_per_day: 1.3750
+  repo_per_active_day: 0.7500
   not_owned_ratio: 0.0000
   basename_concentration: 0.1667
   shapes: []
@@ -49,50 +49,34 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes: 3
+    distinct_repos: 2
+    pushes_per_repo: 1.5000
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 7
+    pushes: 9
     distinct_repos: 5
-    pushes_per_repo: 1.4000
-    active_days: 5
+    pushes_per_repo: 1.8000
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 9
+    pushes: 11
     distinct_repos: 6
-    pushes_per_repo: 1.5000
-    active_days: 6
+    pushes_per_repo: 1.8333
+    active_days: 8
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 6 active days in 90d — pass"
+  - "activity: 8 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "mmp"
-    title: "mmp"
-    description: "Better TUI For Pi"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-04"
-  - name: "Wayne-Skills"
-    title: "Wayne-Skills"
-    description: "Claude Code skills for first-principles architecture thinking via GPT-5.x"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-03"
   - name: "ai-harness-notes"
     title: "ai-harness-notes"
     description: "AI harness / skills / MCP 中文深度归档（论文与项目解读）"
@@ -100,35 +84,51 @@ repos:
     topics: []
     stars_fact: 3
     first_seen: null
-    last_push: "2026-10-02"
-  - name: "mdterm"
-    title: "mdterm"
-    description: "Terminal Markdown for Yazi: narrow-pane preview, full-width pager, mermaid as box art."
-    language: "Python"
+    last_push: "2026-10-16"
+  - name: "epi"
+    title: "epi"
+    description: "Epi — your own layer on Pi"
+    language: "JavaScript"
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-09-10"
-  - name: "dude"
-    title: "dude"
-    description: null
+    last_push: "2026-10-10"
+  - name: "whale-pet-plugin"
+    title: "whale-pet-plugin"
+    description: "DSH plugin: whale-pet-plugin"
     language: "HTML"
     topics: []
-    stars_fact: 1
+    stars_fact: 0
     first_seen: null
-    last_push: "2026-09-30"
-  - name: "mmd2txt"
-    title: "mmd2txt"
-    description: "Render a Mermaid diagram as Unicode box art for the terminal. One command, Node 20+."
+    last_push: "2026-10-09"
+  - name: "web-fetch-plugin"
+    title: "web-fetch-plugin"
+    description: "DSH plugin: web-fetch-plugin"
     language: "JavaScript"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-10"
+    last_push: "2026-10-09"
+  - name: "usage-plugin"
+    title: "usage-plugin"
+    description: "DSH plugin: usage-plugin"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-09"
+  - name: "skills-center-plugin"
+    title: "skills-center-plugin"
+    description: "DSH plugin: skills-center-plugin"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-09"
 ---
 
 # RoacherM
 
-9 pushes across 6 repositories on 6 active days in the last 90 days of public GitHub push activity.
+11 pushes across 6 repositories on 8 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/RoacherM

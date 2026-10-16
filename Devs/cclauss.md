@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-11T06:04:44.624574+00:00"
+generated_at: "2026-10-16T08:30:18.142355+00:00"
 provenance:
   - "c1af6b58492f9bf4"
-pushes_per_week: [28, 5, 29, 13, 10, 5, 1, 2, 33, 24, 34, 4, 1]
+pushes_per_week: [16, 11, 31, 7, 7, 2, 0, 16, 34, 35, 10, 3, 1]
 windows:
   "7d":
-    pushes: 2
-    distinct_repos: 2
-    active_days: 2
-    repos_not_owned: 2
-    not_owned_basenames: 2
-    not_owned_owners: 2
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "30d":
-    pushes: 82
-    distinct_repos: 53
-    active_days: 20
-    repos_not_owned: 47
+    pushes: 59
+    distinct_repos: 44
+    active_days: 18
+    repos_not_owned: 38
     not_owned_basenames: 8
-    not_owned_owners: 47
+    not_owned_owners: 37
   "90d":
-    pushes: 189
-    distinct_repos: 77
-    active_days: 52
+    pushes: 173
+    distinct_repos: 76
+    active_days: 48
     repos_not_owned: 54
     not_owned_basenames: 13
     not_owned_owners: 53
 automation:
   state: "clear"
-  push_per_day: 3.6346
-  repo_per_active_day: 1.4808
-  not_owned_ratio: 0.7013
-  basename_concentration: 0.5584
+  push_per_day: 3.6042
+  repo_per_active_day: 1.5833
+  not_owned_ratio: 0.7105
+  basename_concentration: 0.5658
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
-    distinct_repos: 2
+    pushes: 1
+    distinct_repos: 1
     pushes_per_repo: 1.0000
-    active_days: 2
-    repos_not_owned: 2
-    not_owned_basenames: 2
-    not_owned_owners: 2
+    active_days: 1
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "30d":
-    pushes: 82
-    distinct_repos: 53
-    pushes_per_repo: 1.5472
-    active_days: 20
-    repos_not_owned: 47
+    pushes: 59
+    distinct_repos: 44
+    pushes_per_repo: 1.3409
+    active_days: 18
+    repos_not_owned: 38
     not_owned_basenames: 8
-    not_owned_owners: 47
+    not_owned_owners: 37
   "90d":
-    pushes: 189
-    distinct_repos: 77
-    pushes_per_repo: 2.4545
-    active_days: 52
+    pushes: 173
+    distinct_repos: 76
+    pushes_per_repo: 2.2763
+    active_days: 48
     repos_not_owned: 54
     not_owned_basenames: 13
     not_owned_owners: 53
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 52 active days in 90d — pass"
+  - "activity: 48 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "Personal-Digital-Assistant"
@@ -135,6 +135,6 @@ repos:
 
 # cclauss
 
-189 pushes across 77 repositories on 52 active days in the last 90 days of public GitHub push activity.
+173 pushes across 76 repositories on 48 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/cclauss

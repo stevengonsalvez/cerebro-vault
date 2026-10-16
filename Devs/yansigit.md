@@ -8,39 +8,39 @@ provenance_repos:
   - "1jehuang/jcode"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-11T06:04:44.624574+00:00"
+repos_populated: true
+generated_at: "2026-10-16T08:30:18.142355+00:00"
 provenance:
   - "2a7f0fddd2dac162"
-pushes_per_week: [0, 1, 0, 1, 5, 7, 9, 3, 5, 3, 0, 4, 0]
+pushes_per_week: [1, 0, 1, 0, 8, 12, 1, 7, 4, 0, 0, 4, 5]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
+    pushes: 5
+    distinct_repos: 1
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 10
-    distinct_repos: 4
-    active_days: 5
+    pushes: 11
+    distinct_repos: 3
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 38
-    distinct_repos: 9
-    active_days: 20
+    pushes: 43
+    distinct_repos: 10
+    active_days: 22
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.9000
-  repo_per_active_day: 0.4500
+  push_per_day: 1.9545
+  repo_per_active_day: 0.4545
   not_owned_ratio: 0.0000
-  basename_concentration: 0.1111
+  basename_concentration: 0.1000
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,38 +49,96 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
+    pushes: 5
+    distinct_repos: 1
+    pushes_per_repo: 5.0000
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 10
-    distinct_repos: 4
-    pushes_per_repo: 2.5000
-    active_days: 5
+    pushes: 11
+    distinct_repos: 3
+    pushes_per_repo: 3.6667
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 38
-    distinct_repos: 9
-    pushes_per_repo: 4.2222
-    active_days: 20
+    pushes: 43
+    distinct_repos: 10
+    pushes_per_repo: 4.3000
+    active_days: 22
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 20 active days in 90d — pass"
+  - "activity: 22 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "gsd-codex-plugin"
+    title: "gsd-codex-plugin"
+    description: "Community-maintained GSD Core plugin for Codex"
+    language: "JavaScript"
+    topics:
+      - "codex"
+      - "gsd"
+      - "plugin"
+      - "spec-driven-development"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-15"
+  - name: "cmd-gpt"
+    title: "cmd-gpt"
+    description: "A Tiny AI Terminal Assistant"
+    language: "Go"
+    topics:
+      - "bash"
+      - "chatgpt"
+      - "gpt"
+      - "llm"
+      - "powershell"
+      - "terminal"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2025-01-13"
+  - name: "tabby-wake-proxy"
+    title: "tabby-wake-proxy"
+    description: "Rust proxy that wakes tabbyAPI on demand and stops its Docker container after inactivity."
+    language: "Rust"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-09"
+  - name: "ios-fastlane-ci"
+    title: "ios-fastlane-ci"
+    description: "Reusable iOS CI/CD (GitHub Actions workflow_call + shared fastlane lanes)"
+    language: "Ruby"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-07-22"
+  - name: "google-photos-takeout-metadata-resolver"
+    title: "google-photos-takeout-metadata-resolver"
+    description: "A Go CLI tool that merges separated JSON metadata from Google Photos Takeout exports back into the actual photo/video files as EXIF/XMP tags."
+    language: "Go"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-03-08"
+  - name: "ModelGarden"
+    title: "ModelGarden"
+    description: "A Swift library and application for running large language models (LLMs) and vision language models (VLMs) locally on Apple devices using MLX"
+    language: "Swift"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-04-09"
 ---
 
 # yansigit
 
-38 pushes across 9 repositories on 20 active days in the last 90 days of public GitHub push activity.
+43 pushes across 10 repositories on 22 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/yansigit

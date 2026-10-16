@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-11T06:04:44.624574+00:00"
+generated_at: "2026-10-16T08:30:18.142355+00:00"
 provenance:
   - "3eacb4655aba2497"
-pushes_per_week: [5, 23, 37, 22, 34, 7, 10, 5, 20, 49, 71, 96, 31]
+pushes_per_week: [16, 37, 22, 42, 6, 12, 5, 16, 26, 55, 113, 55, 44]
 windows:
   "7d":
-    pushes: 36
-    distinct_repos: 3
+    pushes: 45
+    distinct_repos: 4
     active_days: 6
-    repos_not_owned: 3
-    not_owned_basenames: 3
+    repos_not_owned: 4
+    not_owned_basenames: 4
     not_owned_owners: 1
   "30d":
-    pushes: 254
-    distinct_repos: 5
-    active_days: 26
-    repos_not_owned: 4
-    not_owned_basenames: 4
+    pushes: 280
+    distinct_repos: 6
+    active_days: 27
+    repos_not_owned: 5
+    not_owned_basenames: 5
     not_owned_owners: 1
   "90d":
-    pushes: 410
-    distinct_repos: 5
-    active_days: 65
-    repos_not_owned: 4
-    not_owned_basenames: 4
+    pushes: 449
+    distinct_repos: 6
+    active_days: 69
+    repos_not_owned: 5
+    not_owned_basenames: 5
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 6.3077
-  repo_per_active_day: 0.0769
-  not_owned_ratio: 0.8000
-  basename_concentration: 0.2000
+  push_per_day: 6.5072
+  repo_per_active_day: 0.0870
+  not_owned_ratio: 0.8333
+  basename_concentration: 0.1667
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 36
-    distinct_repos: 3
-    pushes_per_repo: 12.0000
+    pushes: 45
+    distinct_repos: 4
+    pushes_per_repo: 11.2500
     active_days: 6
-    repos_not_owned: 3
-    not_owned_basenames: 3
+    repos_not_owned: 4
+    not_owned_basenames: 4
     not_owned_owners: 1
   "30d":
-    pushes: 254
-    distinct_repos: 5
-    pushes_per_repo: 50.8000
-    active_days: 26
-    repos_not_owned: 4
-    not_owned_basenames: 4
+    pushes: 280
+    distinct_repos: 6
+    pushes_per_repo: 46.6667
+    active_days: 27
+    repos_not_owned: 5
+    not_owned_basenames: 5
     not_owned_owners: 1
   "90d":
-    pushes: 410
-    distinct_repos: 5
-    pushes_per_repo: 82.0000
-    active_days: 65
-    repos_not_owned: 4
-    not_owned_basenames: 4
+    pushes: 449
+    distinct_repos: 6
+    pushes_per_repo: 74.8333
+    active_days: 69
+    repos_not_owned: 5
+    not_owned_basenames: 5
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 65 active days in 90d — pass"
+  - "activity: 69 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "llm-interrogation"
@@ -121,6 +121,6 @@ repos:
 
 # joelteply
 
-410 pushes across 5 repositories on 65 active days in the last 90 days of public GitHub push activity.
+449 pushes across 6 repositories on 69 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/joelteply

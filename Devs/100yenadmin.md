@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-11T06:04:44.624574+00:00"
+generated_at: "2026-10-16T08:30:18.142355+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [197, 73, 66, 7, 33, 45, 20, 5, 8, 3, 32, 63, 32]
+pushes_per_week: [82, 70, 14, 22, 21, 56, 4, 6, 7, 21, 53, 48, 55]
 windows:
   "7d":
-    pushes: 47
-    distinct_repos: 7
+    pushes: 55
+    distinct_repos: 10
     active_days: 5
-    repos_not_owned: 3
-    not_owned_basenames: 3
+    repos_not_owned: 4
+    not_owned_basenames: 4
     not_owned_owners: 1
   "30d":
-    pushes: 134
-    distinct_repos: 13
-    active_days: 22
-    repos_not_owned: 6
-    not_owned_basenames: 6
+    pushes: 179
+    distinct_repos: 16
+    active_days: 24
+    repos_not_owned: 7
+    not_owned_basenames: 7
     not_owned_owners: 1
   "90d":
-    pushes: 584
-    distinct_repos: 28
-    active_days: 69
-    repos_not_owned: 14
-    not_owned_basenames: 14
+    pushes: 459
+    distinct_repos: 29
+    active_days: 68
+    repos_not_owned: 13
+    not_owned_basenames: 13
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 8.4638
-  repo_per_active_day: 0.4058
-  not_owned_ratio: 0.5000
-  basename_concentration: 0.0714
+  push_per_day: 6.7500
+  repo_per_active_day: 0.4265
+  not_owned_ratio: 0.4483
+  basename_concentration: 0.0690
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 47
-    distinct_repos: 7
-    pushes_per_repo: 6.7143
+    pushes: 55
+    distinct_repos: 10
+    pushes_per_repo: 5.5000
     active_days: 5
-    repos_not_owned: 3
-    not_owned_basenames: 3
+    repos_not_owned: 4
+    not_owned_basenames: 4
     not_owned_owners: 1
   "30d":
-    pushes: 134
-    distinct_repos: 13
-    pushes_per_repo: 10.3077
-    active_days: 22
-    repos_not_owned: 6
-    not_owned_basenames: 6
+    pushes: 179
+    distinct_repos: 16
+    pushes_per_repo: 11.1875
+    active_days: 24
+    repos_not_owned: 7
+    not_owned_basenames: 7
     not_owned_owners: 1
   "90d":
-    pushes: 584
-    distinct_repos: 28
-    pushes_per_repo: 20.8571
-    active_days: 69
-    repos_not_owned: 14
-    not_owned_basenames: 14
+    pushes: 459
+    distinct_repos: 29
+    pushes_per_repo: 15.8276
+    active_days: 68
+    repos_not_owned: 13
+    not_owned_basenames: 13
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 69 active days in 90d — pass"
+  - "activity: 68 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "hermes-teammates"
@@ -167,6 +167,6 @@ repos:
 
 # 100yenadmin
 
-584 pushes across 28 repositories on 69 active days in the last 90 days of public GitHub push activity.
+459 pushes across 29 repositories on 68 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/100yenadmin

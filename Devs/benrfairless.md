@@ -9,13 +9,13 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-11T06:04:44.624574+00:00"
+generated_at: "2026-10-16T08:30:18.142355+00:00"
 provenance:
   - "3cb7ff1cdcf97c6b"
-pushes_per_week: [3, 11, 6, 5, 35, 10, 5, 3, 2, 3, 0, 0, 2]
+pushes_per_week: [10, 7, 5, 35, 10, 5, 0, 4, 4, 0, 0, 2, 4]
 windows:
   "7d":
-    pushes: 2
+    pushes: 4
     distinct_repos: 2
     active_days: 1
     repos_not_owned: 2
@@ -23,22 +23,22 @@ windows:
     not_owned_owners: 1
   "30d":
     pushes: 6
-    distinct_repos: 5
-    active_days: 3
-    repos_not_owned: 5
-    not_owned_basenames: 5
+    distinct_repos: 2
+    active_days: 2
+    repos_not_owned: 2
+    not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 85
+    pushes: 86
     distinct_repos: 29
-    active_days: 29
+    active_days: 27
     repos_not_owned: 28
     not_owned_basenames: 27
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 2.9310
-  repo_per_active_day: 1.0000
+  push_per_day: 3.1852
+  repo_per_active_day: 1.0741
   not_owned_ratio: 0.9655
   basename_concentration: 0.0690
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
+    pushes: 4
     distinct_repos: 2
-    pushes_per_repo: 1.0000
+    pushes_per_repo: 2.0000
     active_days: 1
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
     pushes: 6
-    distinct_repos: 5
-    pushes_per_repo: 1.2000
-    active_days: 3
-    repos_not_owned: 5
-    not_owned_basenames: 5
+    distinct_repos: 2
+    pushes_per_repo: 3.0000
+    active_days: 2
+    repos_not_owned: 2
+    not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 85
+    pushes: 86
     distinct_repos: 29
-    pushes_per_repo: 2.9310
-    active_days: 29
+    pushes_per_repo: 2.9655
+    active_days: 27
     repos_not_owned: 28
     not_owned_basenames: 27
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 29 active days in 90d — pass"
+  - "activity: 27 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "user-profile-migration"
@@ -129,6 +129,6 @@ repos:
 
 # benrfairless
 
-85 pushes across 29 repositories on 29 active days in the last 90 days of public GitHub push activity.
+86 pushes across 29 repositories on 27 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/benrfairless

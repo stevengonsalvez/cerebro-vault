@@ -10,20 +10,20 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-11T06:04:44.624574+00:00"
+generated_at: "2026-10-16T08:30:18.142355+00:00"
 provenance:
   - "1df6ea1f1256059e"
   - "745308b2b7085095"
   - "edb3a626875732de"
-pushes_per_week: [0, 0, 0, 1, 1, 0, 1, 0, 0, 0, 6, 11, 0]
+pushes_per_week: [0, 0, 0, 2, 0, 1, 0, 0, 0, 4, 9, 4, 0]
 windows:
   "7d":
-    pushes: 4
-    distinct_repos: 4
-    active_days: 1
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
     pushes: 17
     distinct_repos: 7
@@ -52,13 +52,13 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 4
-    distinct_repos: 4
-    pushes_per_repo: 1.0000
-    active_days: 1
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
     pushes: 17
     distinct_repos: 7
@@ -101,7 +101,7 @@ repos:
       - "security-tools"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-04"
+    last_push: "2026-10-11"
   - name: "mcp-drift-check"
     title: "mcp-drift-check"
     description: "Static MCP package-reference mutability checker: Python CLI and GitHub Action. No discovered server execution. Broader config/baseline tools: Orynval Labs."
@@ -128,7 +128,7 @@ repos:
       - "windsurf"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-04"
+    last_push: "2026-10-11"
 ---
 
 # tomelias10

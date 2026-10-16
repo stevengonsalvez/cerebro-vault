@@ -8,39 +8,39 @@ provenance_repos:
   - "ayghri/i-have-adhd"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-11T06:04:44.624574+00:00"
+repos_populated: true
+generated_at: "2026-10-16T08:30:18.142355+00:00"
 provenance:
   - "46f3c1d6124190bd"
-pushes_per_week: [3, 1, 0, 0, 0, 1, 0, 0, 0, 4, 1, 1, 0]
+pushes_per_week: [1, 0, 0, 0, 0, 1, 0, 0, 1, 4, 0, 1, 2]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
+    pushes: 2
+    distinct_repos: 2
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 6
+    pushes: 7
     distinct_repos: 4
-    active_days: 5
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 11
-    distinct_repos: 7
-    active_days: 8
+    pushes: 10
+    distinct_repos: 6
+    active_days: 9
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.3750
-  repo_per_active_day: 0.8750
+  push_per_day: 1.1111
+  repo_per_active_day: 0.6667
   not_owned_ratio: 0.0000
-  basename_concentration: 0.1429
+  basename_concentration: 0.1667
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,38 +49,86 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
+    pushes: 2
+    distinct_repos: 2
     pushes_per_repo: 1.0000
-    active_days: 1
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 6
+    pushes: 7
     distinct_repos: 4
-    pushes_per_repo: 1.5000
-    active_days: 5
+    pushes_per_repo: 1.7500
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 11
-    distinct_repos: 7
-    pushes_per_repo: 1.5714
-    active_days: 8
+    pushes: 10
+    distinct_repos: 6
+    pushes_per_repo: 1.6667
+    active_days: 9
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 8 active days in 90d — pass"
+  - "activity: 9 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "ExpensePilot"
+    title: "ExpensePilot"
+    description: "ExpensePilot is a smart, full‑stack expense tracking application that helps users take control of their personal finances. It combines a powerful backend with an intuitive frontend to make expense management effortless and insightful."
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-14"
+  - name: "DB_vault"
+    title: "DB_vault"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-11"
+  - name: "vardhans07"
+    title: "vardhans07"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-07"
+  - name: "spend-tracker"
+    title: "spend-tracker"
+    description: "Mini Spend Tracker REST API and UI for Backend Engineer evaluation"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-21"
+  - name: "algos-and-structures"
+    title: "algos-and-structures"
+    description: "solutions to Leetcode problems"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-16"
+  - name: "Python_vault"
+    title: "Python_vault"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-07-24"
 ---
 
 # vardhans07
 
-11 pushes across 7 repositories on 8 active days in the last 90 days of public GitHub push activity.
+10 pushes across 6 repositories on 9 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/vardhans07

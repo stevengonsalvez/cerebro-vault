@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-11T06:04:44.624574+00:00"
+generated_at: "2026-10-16T08:30:18.142355+00:00"
 provenance:
   - "16389f32495280ea"
-pushes_per_week: [55, 14, 5, 8, 6, 3, 3, 1, 8, 27, 37, 23, 18]
+pushes_per_week: [33, 6, 7, 9, 3, 2, 1, 3, 15, 38, 37, 16, 47]
 windows:
   "7d":
-    pushes: 21
-    distinct_repos: 2
-    active_days: 5
+    pushes: 48
+    distinct_repos: 1
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 111
+    pushes: 142
     distinct_repos: 4
     active_days: 24
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 208
+    pushes: 217
     distinct_repos: 4
-    active_days: 54
+    active_days: 53
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 3.8519
-  repo_per_active_day: 0.0741
+  push_per_day: 4.0943
+  repo_per_active_day: 0.0755
   not_owned_ratio: 0.2500
   basename_concentration: 0.5000
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 21
-    distinct_repos: 2
-    pushes_per_repo: 10.5000
-    active_days: 5
+    pushes: 48
+    distinct_repos: 1
+    pushes_per_repo: 48.0000
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 111
+    pushes: 142
     distinct_repos: 4
-    pushes_per_repo: 27.7500
+    pushes_per_repo: 35.5000
     active_days: 24
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 208
+    pushes: 217
     distinct_repos: 4
-    pushes_per_repo: 52.0000
-    active_days: 54
+    pushes_per_repo: 54.2500
+    active_days: 53
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 54 active days in 90d — pass"
+  - "activity: 53 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "profile-summary-cards"
@@ -177,6 +177,6 @@ repos:
 
 # blueberrycongee
 
-208 pushes across 4 repositories on 54 active days in the last 90 days of public GitHub push activity.
+217 pushes across 4 repositories on 53 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/blueberrycongee

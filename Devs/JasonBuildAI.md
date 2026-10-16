@@ -6,41 +6,45 @@ discovered_via_all:
   - "fanout"
 provenance_repos:
   - "agentscope-ai/QwenPaw"
+  - "apache/maka"
+  - "bytedance/deer-flow"
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-11T06:04:44.624574+00:00"
+generated_at: "2026-10-16T08:30:18.142355+00:00"
 provenance:
+  - "16389f32495280ea"
+  - "4d1450729e6ff44d"
   - "541318303a272608"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 4, 4, 9]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 1, 2, 4, 3, 33]
 windows:
   "7d":
-    pushes: 9
-    distinct_repos: 4
-    active_days: 3
+    pushes: 33
+    distinct_repos: 10
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 18
-    distinct_repos: 8
-    active_days: 8
+    pushes: 43
+    distinct_repos: 13
+    active_days: 11
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 18
-    distinct_repos: 8
-    active_days: 8
+    pushes: 43
+    distinct_repos: 13
+    active_days: 11
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.2500
-  repo_per_active_day: 1.0000
+  push_per_day: 3.9091
+  repo_per_active_day: 1.1818
   not_owned_ratio: 0.0000
-  basename_concentration: 0.1250
+  basename_concentration: 0.0769
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,32 +53,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 9
-    distinct_repos: 4
-    pushes_per_repo: 2.2500
-    active_days: 3
+    pushes: 33
+    distinct_repos: 10
+    pushes_per_repo: 3.3000
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 18
-    distinct_repos: 8
-    pushes_per_repo: 2.2500
-    active_days: 8
+    pushes: 43
+    distinct_repos: 13
+    pushes_per_repo: 3.3077
+    active_days: 11
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 18
-    distinct_repos: 8
-    pushes_per_repo: 2.2500
-    active_days: 8
+    pushes: 43
+    distinct_repos: 13
+    pushes_per_repo: 3.3077
+    active_days: 11
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
-  - "provenance: 1 vault signal(s) — pass"
-  - "activity: 8 active days in 90d — pass"
+  - "provenance: 3 vault signal(s) — pass"
+  - "activity: 11 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "GoldMind"
@@ -84,7 +88,7 @@ repos:
     topics: []
     stars_fact: 66
     first_seen: null
-    last_push: "2026-10-03"
+    last_push: "2026-10-15"
   - name: "agents-md-playbook"
     title: "agents-md-playbook"
     description: "AGENTS.md playbook: a general-purpose how-to-work charter for AI coding agents (Codex, Claude Code, etc.) - single source of truth, commit only when green, gates and a staged process. Bilingual: Chinese and English."
@@ -139,6 +143,6 @@ repos:
 
 # JasonBuildAI
 
-18 pushes across 8 repositories on 8 active days in the last 90 days of public GitHub push activity.
+43 pushes across 13 repositories on 11 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/JasonBuildAI

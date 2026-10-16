@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-11T06:04:44.624574+00:00"
+generated_at: "2026-10-16T08:30:18.142355+00:00"
 provenance:
   - "0b22ca37fd3884c9"
-pushes_per_week: [12, 6, 6, 1, 2, 1, 0, 4, 0, 1, 0, 3, 0]
+pushes_per_week: [7, 7, 0, 3, 0, 1, 1, 3, 1, 0, 0, 3, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 4
-    distinct_repos: 3
-    active_days: 2
+    pushes: 3
+    distinct_repos: 2
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 36
+    pushes: 26
     distinct_repos: 6
-    active_days: 19
+    active_days: 16
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 1.8947
-  repo_per_active_day: 0.3158
+  push_per_day: 1.6250
+  repo_per_active_day: 0.3750
   not_owned_ratio: 0.3333
   basename_concentration: 0.3333
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 4
-    distinct_repos: 3
-    pushes_per_repo: 1.3333
-    active_days: 2
+    pushes: 3
+    distinct_repos: 2
+    pushes_per_repo: 1.5000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 36
+    pushes: 26
     distinct_repos: 6
-    pushes_per_repo: 6.0000
-    active_days: 19
+    pushes_per_repo: 4.3333
+    active_days: 16
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 19 active days in 90d — pass"
+  - "activity: 16 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "homebrew-tap"
@@ -84,7 +84,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-03"
+    last_push: "2026-10-12"
   - name: "marginalia"
     title: "marginalia"
     description: "Talk to AI in the margins of your ebooks — local‑first, bilingual ePub/PDF reader with contextual assistants."
@@ -98,9 +98,17 @@ repos:
       - "local-first"
       - "react"
       - "typescript"
-    stars_fact: 5
+    stars_fact: 8
     first_seen: null
-    last_push: "2026-10-03"
+    last_push: "2026-10-12"
+  - name: "anki-connect"
+    title: "anki-connect"
+    description: "AnkiConnect mirror with local patches for Anki 25.x (upstream: git.sr.ht/~foosoft/anki-connect, GPL-3.0)"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-07"
   - name: "Lyrisland"
     title: "Lyrisland"
     description: "A macOS Dynamic Island-style floating widget that displays real-time synced lyrics for Spotify. No login required."
@@ -111,7 +119,7 @@ repos:
       - "lyrics"
       - "macos-app"
       - "spotify"
-    stars_fact: 11
+    stars_fact: 12
     first_seen: null
     last_push: "2026-09-16"
   - name: "paper-manager"
@@ -130,18 +138,10 @@ repos:
     stars_fact: 8
     first_seen: null
     last_push: "2025-05-06"
-  - name: "tick"
-    title: "tick"
-    description: "Local Agent-First Issue Tracker — serverless CLI for single-developer multi-agent workflows"
-    language: "Rust"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-04-13"
 ---
 
 # EurFelux
 
-36 pushes across 6 repositories on 19 active days in the last 90 days of public GitHub push activity.
+26 pushes across 6 repositories on 16 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/EurFelux

@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-11T06:04:44.624574+00:00"
+generated_at: "2026-10-16T08:30:18.142355+00:00"
 provenance:
   - "1be978947e68d1f2"
-pushes_per_week: [168, 40, 15, 33, 82, 47, 30, 7, 30, 41, 31, 20, 12]
+pushes_per_week: [41, 27, 18, 79, 50, 45, 4, 20, 35, 43, 19, 16, 35]
 windows:
   "7d":
-    pushes: 16
+    pushes: 35
     distinct_repos: 1
-    active_days: 6
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 120
+    pushes: 128
     distinct_repos: 1
-    active_days: 25
+    active_days: 24
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 556
+    pushes: 432
     distinct_repos: 2
-    active_days: 74
+    active_days: 72
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 7.5135
-  repo_per_active_day: 0.0270
+  push_per_day: 6.0000
+  repo_per_active_day: 0.0278
   not_owned_ratio: 0.0000
   basename_concentration: 0.5000
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 16
+    pushes: 35
     distinct_repos: 1
-    pushes_per_repo: 16.0000
-    active_days: 6
+    pushes_per_repo: 35.0000
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 120
+    pushes: 128
     distinct_repos: 1
-    pushes_per_repo: 120.0000
-    active_days: 25
+    pushes_per_repo: 128.0000
+    active_days: 24
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 556
+    pushes: 432
     distinct_repos: 2
-    pushes_per_repo: 278.0000
-    active_days: 74
+    pushes_per_repo: 216.0000
+    active_days: 72
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 74 active days in 90d — pass"
+  - "activity: 72 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "fak"
@@ -104,7 +104,7 @@ repos:
       - "yagni"
     stars_fact: 41
     first_seen: null
-    last_push: "2026-10-06"
+    last_push: "2026-10-16"
   - name: "dos-kernel"
     title: "dos-kernel"
     description: "Catch your AI agents when they lie about what they shipped — verifies claims against git instead of believing the agent."
@@ -168,6 +168,6 @@ repos:
 
 # anthony-chaudhary
 
-556 pushes across 2 repositories on 74 active days in the last 90 days of public GitHub push activity.
+432 pushes across 2 repositories on 72 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/anthony-chaudhary

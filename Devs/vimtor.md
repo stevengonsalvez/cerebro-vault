@@ -8,39 +8,39 @@ provenance_repos:
   - "anomalyco/opencode"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-11T06:04:44.624574+00:00"
+repos_populated: true
+generated_at: "2026-10-16T08:30:18.142355+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [1, 0, 0, 0, 1, 0, 0, 0, 0, 1, 4, 2, 1]
+pushes_per_week: [0, 0, 0, 1, 0, 0, 0, 0, 1, 3, 3, 1, 5]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
-  "30d":
-    pushes: 8
-    distinct_repos: 4
-    active_days: 6
+    pushes: 5
+    distinct_repos: 3
+    active_days: 3
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
+  "30d":
+    pushes: 13
+    distinct_repos: 5
+    active_days: 9
+    repos_not_owned: 3
+    not_owned_basenames: 3
+    not_owned_owners: 1
   "90d":
-    pushes: 10
-    distinct_repos: 4
-    active_days: 8
-    repos_not_owned: 2
-    not_owned_basenames: 2
+    pushes: 14
+    distinct_repos: 5
+    active_days: 10
+    repos_not_owned: 3
+    not_owned_basenames: 3
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.2500
+  push_per_day: 1.4000
   repo_per_active_day: 0.5000
-  not_owned_ratio: 0.5000
-  basename_concentration: 0.2500
+  not_owned_ratio: 0.6000
+  basename_concentration: 0.2000
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,38 +49,91 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
-  "30d":
-    pushes: 8
-    distinct_repos: 4
-    pushes_per_repo: 2.0000
-    active_days: 6
+    pushes: 5
+    distinct_repos: 3
+    pushes_per_repo: 1.6667
+    active_days: 3
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
+  "30d":
+    pushes: 13
+    distinct_repos: 5
+    pushes_per_repo: 2.6000
+    active_days: 9
+    repos_not_owned: 3
+    not_owned_basenames: 3
+    not_owned_owners: 1
   "90d":
-    pushes: 10
-    distinct_repos: 4
-    pushes_per_repo: 2.5000
-    active_days: 8
-    repos_not_owned: 2
-    not_owned_basenames: 2
+    pushes: 14
+    distinct_repos: 5
+    pushes_per_repo: 2.8000
+    active_days: 10
+    repos_not_owned: 3
+    not_owned_basenames: 3
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 8 active days in 90d — pass"
+  - "activity: 10 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "opencode-plugins"
+    title: "opencode-plugins"
+    description: "My personal OpenCode plugins."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 10
+    first_seen: null
+    last_push: "2026-10-15"
+  - name: "eleventy-plugin-external-links"
+    title: "eleventy-plugin-external-links"
+    description: "Eleventy plugin to make all external links open securely in a new tab"
+    language: "JavaScript"
+    topics:
+      - "eleventy"
+      - "eleventy-plugin"
+    stars_fact: 11
+    first_seen: null
+    last_push: "2024-12-31"
+  - name: "action-zip"
+    title: "action-zip"
+    description: "🗄️ Action for zipping files easily"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 96
+    first_seen: null
+    last_push: "2026-03-19"
+  - name: "pulumi-cloudflare-upgrade-bug"
+    title: "pulumi-cloudflare-upgrade-bug"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-02-18"
+  - name: "terraform-cloudflare-placement-bug"
+    title: "terraform-cloudflare-placement-bug"
+    description: null
+    language: "HCL"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-02-18"
+  - name: "gh-vet"
+    title: "gh-vet"
+    description: "GitHub CLI extension for GitHub contribution stats"
+    language: "TypeScript"
+    topics:
+      - "github-cli"
+      - "open-source"
+      - "pull-requests"
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-02-06"
 ---
 
 # vimtor
 
-10 pushes across 4 repositories on 8 active days in the last 90 days of public GitHub push activity.
+14 pushes across 5 repositories on 10 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/vimtor

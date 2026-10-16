@@ -9,12 +9,13 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-11T06:04:44.624574+00:00"
+generated_at: "2026-10-16T08:30:18.142355+00:00"
 provenance:
   - "0388a4f55f4206c8"
   - "0577669e18ed3998"
   - "094c4918ba5c2d38"
   - "2204ba57be324ff7"
+  - "255cde9f48a82982"
   - "3509861ced217170"
   - "396d5f6b9bc0a0f2"
   - "546861447eb67d73"
@@ -32,12 +33,12 @@ provenance:
   - "c6b4a874521ceb02"
   - "cf565721454d59f8"
   - "e26852201e6f38fc"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 5, 1]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 2, 0]
 windows:
   "7d":
-    pushes: 2
-    distinct_repos: 1
-    active_days: 2
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -69,10 +70,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
-    distinct_repos: 1
-    pushes_per_repo: 2.0000
-    active_days: 2
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -93,7 +94,7 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
-  - "provenance: 21 vault signal(s) — pass"
+  - "provenance: 22 vault signal(s) — pass"
   - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
@@ -104,7 +105,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-05"
+    last_push: "2026-10-10"
   - name: "codex-gradle-test"
     title: "codex-gradle-test"
     description: null

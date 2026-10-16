@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-11T06:04:44.624574+00:00"
+generated_at: "2026-10-16T08:30:18.142355+00:00"
 provenance:
   - "41883ae726050c68"
-pushes_per_week: [19, 10, 1, 4, 1, 0, 0, 0, 0, 5, 1, 2, 5]
+pushes_per_week: [12, 2, 0, 5, 0, 0, 0, 0, 5, 1, 1, 6, 2]
 windows:
   "7d":
-    pushes: 6
-    distinct_repos: 3
-    active_days: 3
-    repos_not_owned: 3
+    pushes: 3
+    distinct_repos: 1
+    active_days: 2
+    repos_not_owned: 1
     not_owned_basenames: 1
-    not_owned_owners: 3
+    not_owned_owners: 1
   "30d":
-    pushes: 13
+    pushes: 15
     distinct_repos: 5
-    active_days: 7
+    active_days: 8
     repos_not_owned: 5
     not_owned_basenames: 2
     not_owned_owners: 4
   "90d":
-    pushes: 48
-    distinct_repos: 7
-    active_days: 22
-    repos_not_owned: 7
+    pushes: 34
+    distinct_repos: 6
+    active_days: 18
+    repos_not_owned: 6
     not_owned_basenames: 2
-    not_owned_owners: 6
+    not_owned_owners: 5
 automation:
   state: "clear"
-  push_per_day: 2.1818
-  repo_per_active_day: 0.3182
+  push_per_day: 1.8889
+  repo_per_active_day: 0.3333
   not_owned_ratio: 1.0000
-  basename_concentration: 0.8571
+  basename_concentration: 0.8333
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 6
-    distinct_repos: 3
-    pushes_per_repo: 2.0000
-    active_days: 3
-    repos_not_owned: 3
+    pushes: 3
+    distinct_repos: 1
+    pushes_per_repo: 3.0000
+    active_days: 2
+    repos_not_owned: 1
     not_owned_basenames: 1
-    not_owned_owners: 3
+    not_owned_owners: 1
   "30d":
-    pushes: 13
+    pushes: 15
     distinct_repos: 5
-    pushes_per_repo: 2.6000
-    active_days: 7
+    pushes_per_repo: 3.0000
+    active_days: 8
     repos_not_owned: 5
     not_owned_basenames: 2
     not_owned_owners: 4
   "90d":
-    pushes: 48
-    distinct_repos: 7
-    pushes_per_repo: 6.8571
-    active_days: 22
-    repos_not_owned: 7
+    pushes: 34
+    distinct_repos: 6
+    pushes_per_repo: 5.6667
+    active_days: 18
+    repos_not_owned: 6
     not_owned_basenames: 2
-    not_owned_owners: 6
+    not_owned_owners: 5
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 22 active days in 90d — pass"
+  - "activity: 18 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "vlc_sync"
@@ -129,6 +129,6 @@ repos:
 
 # opcode81
 
-48 pushes across 7 repositories on 22 active days in the last 90 days of public GitHub push activity.
+34 pushes across 6 repositories on 18 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/opcode81

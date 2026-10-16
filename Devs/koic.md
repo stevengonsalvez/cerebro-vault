@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-11T06:04:44.624574+00:00"
+generated_at: "2026-10-16T08:30:18.142355+00:00"
 provenance:
   - "48dbbdd8fd0d3029"
-pushes_per_week: [16, 3, 4, 3, 8, 3, 1, 0, 1, 5, 6, 12, 8]
+pushes_per_week: [4, 4, 1, 9, 4, 2, 0, 1, 2, 6, 15, 8, 14]
 windows:
   "7d":
-    pushes: 8
-    distinct_repos: 3
-    active_days: 3
+    pushes: 14
+    distinct_repos: 4
+    active_days: 4
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
   "30d":
-    pushes: 31
+    pushes: 44
     distinct_repos: 4
-    active_days: 15
+    active_days: 18
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
     pushes: 70
-    distinct_repos: 16
-    active_days: 39
-    repos_not_owned: 9
-    not_owned_basenames: 9
-    not_owned_owners: 4
+    distinct_repos: 13
+    active_days: 38
+    repos_not_owned: 7
+    not_owned_basenames: 7
+    not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 1.7949
-  repo_per_active_day: 0.4103
-  not_owned_ratio: 0.5625
-  basename_concentration: 0.1250
+  push_per_day: 1.8421
+  repo_per_active_day: 0.3421
+  not_owned_ratio: 0.5385
+  basename_concentration: 0.1538
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 8
-    distinct_repos: 3
-    pushes_per_repo: 2.6667
-    active_days: 3
+    pushes: 14
+    distinct_repos: 4
+    pushes_per_repo: 3.5000
+    active_days: 4
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
   "30d":
-    pushes: 31
+    pushes: 44
     distinct_repos: 4
-    pushes_per_repo: 7.7500
-    active_days: 15
+    pushes_per_repo: 11.0000
+    active_days: 18
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
     pushes: 70
-    distinct_repos: 16
-    pushes_per_repo: 4.3750
-    active_days: 39
-    repos_not_owned: 9
-    not_owned_basenames: 9
-    not_owned_owners: 4
+    distinct_repos: 13
+    pushes_per_repo: 5.3846
+    active_days: 38
+    repos_not_owned: 7
+    not_owned_basenames: 7
+    not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 39 active days in 90d — pass"
+  - "activity: 38 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "minifyrb"
@@ -141,6 +141,6 @@ repos:
 
 # koic
 
-70 pushes across 16 repositories on 39 active days in the last 90 days of public GitHub push activity.
+70 pushes across 13 repositories on 38 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/koic

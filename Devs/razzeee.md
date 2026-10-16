@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-11T06:04:44.624574+00:00"
+generated_at: "2026-10-16T08:30:18.142355+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [28, 6, 2, 7, 6, 4, 2, 1, 5, 12, 10, 15, 6]
+pushes_per_week: [10, 2, 7, 2, 5, 5, 0, 6, 7, 12, 8, 16, 20]
 windows:
   "7d":
-    pushes: 13
-    distinct_repos: 4
-    active_days: 3
-    repos_not_owned: 3
-    not_owned_basenames: 3
-    not_owned_owners: 3
+    pushes: 20
+    distinct_repos: 8
+    active_days: 4
+    repos_not_owned: 4
+    not_owned_basenames: 4
+    not_owned_owners: 4
   "30d":
-    pushes: 43
-    distinct_repos: 12
-    active_days: 18
-    repos_not_owned: 6
-    not_owned_basenames: 6
+    pushes: 61
+    distinct_repos: 16
+    active_days: 21
+    repos_not_owned: 8
+    not_owned_basenames: 8
     not_owned_owners: 5
   "90d":
-    pushes: 104
-    distinct_repos: 25
-    active_days: 46
-    repos_not_owned: 10
-    not_owned_basenames: 10
+    pushes: 100
+    distinct_repos: 22
+    active_days: 45
+    repos_not_owned: 11
+    not_owned_basenames: 11
     not_owned_owners: 6
 automation:
   state: "clear"
-  push_per_day: 2.2609
-  repo_per_active_day: 0.5435
-  not_owned_ratio: 0.4000
-  basename_concentration: 0.0800
+  push_per_day: 2.2222
+  repo_per_active_day: 0.4889
+  not_owned_ratio: 0.5000
+  basename_concentration: 0.0909
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 13
-    distinct_repos: 4
-    pushes_per_repo: 3.2500
-    active_days: 3
-    repos_not_owned: 3
-    not_owned_basenames: 3
-    not_owned_owners: 3
+    pushes: 20
+    distinct_repos: 8
+    pushes_per_repo: 2.5000
+    active_days: 4
+    repos_not_owned: 4
+    not_owned_basenames: 4
+    not_owned_owners: 4
   "30d":
-    pushes: 43
-    distinct_repos: 12
-    pushes_per_repo: 3.5833
-    active_days: 18
-    repos_not_owned: 6
-    not_owned_basenames: 6
+    pushes: 61
+    distinct_repos: 16
+    pushes_per_repo: 3.8125
+    active_days: 21
+    repos_not_owned: 8
+    not_owned_basenames: 8
     not_owned_owners: 5
   "90d":
-    pushes: 104
-    distinct_repos: 25
-    pushes_per_repo: 4.1600
-    active_days: 46
-    repos_not_owned: 10
-    not_owned_basenames: 10
+    pushes: 100
+    distinct_repos: 22
+    pushes_per_repo: 4.5455
+    active_days: 45
+    repos_not_owned: 11
+    not_owned_basenames: 11
     not_owned_owners: 6
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 46 active days in 90d — pass"
+  - "activity: 45 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "flatpak-blackbox-tests"
@@ -129,6 +129,6 @@ repos:
 
 # razzeee
 
-104 pushes across 25 repositories on 46 active days in the last 90 days of public GitHub push activity.
+100 pushes across 22 repositories on 45 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/razzeee

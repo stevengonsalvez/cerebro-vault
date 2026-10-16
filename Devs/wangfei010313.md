@@ -8,11 +8,11 @@ provenance_repos:
   - "agentscope-ai/QwenPaw"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-10T06:04:44.283147+00:00"
+repos_populated: true
+generated_at: "2026-10-16T08:30:18.142355+00:00"
 provenance:
   - "541318303a272608"
-pushes_per_week: [12, 2, 2, 4, 6, 3, 1, 0, 0, 1, 1, 0, 0]
+pushes_per_week: [2, 0, 6, 5, 4, 1, 0, 0, 1, 1, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 32
+    pushes: 20
     distinct_repos: 1
-    active_days: 16
+    active_days: 13
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.0000
-  repo_per_active_day: 0.0625
+  push_per_day: 1.5385
+  repo_per_active_day: 0.0769
   not_owned_ratio: 0.0000
   basename_concentration: 1.0000
   shapes: []
@@ -65,22 +65,30 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 32
+    pushes: 20
     distinct_repos: 1
-    pushes_per_repo: 32.0000
-    active_days: 16
+    pushes_per_repo: 20.0000
+    active_days: 13
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 16 active days in 90d — pass"
+  - "activity: 13 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "MyQwenPaw"
+    title: "MyQwenPaw"
+    description: "Backup repository for QwenPaw"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-05-29"
 ---
 
 # wangfei010313
 
-32 pushes across 1 repository on 16 active days in the last 90 days of public GitHub push activity.
+20 pushes across 1 repository on 13 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/wangfei010313

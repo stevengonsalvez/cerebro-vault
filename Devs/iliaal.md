@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-11T06:04:44.624574+00:00"
+generated_at: "2026-10-16T08:30:18.142355+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [42, 33, 25, 11, 6, 6, 4, 2, 0, 16, 28, 44, 33]
+pushes_per_week: [34, 27, 9, 8, 3, 6, 1, 2, 9, 23, 39, 48, 28]
 windows:
   "7d":
-    pushes: 45
-    distinct_repos: 13
+    pushes: 29
+    distinct_repos: 17
     active_days: 6
-    repos_not_owned: 5
+    repos_not_owned: 2
     not_owned_basenames: 2
-    not_owned_owners: 5
+    not_owned_owners: 2
   "30d":
-    pushes: 121
-    distinct_repos: 24
-    active_days: 22
+    pushes: 147
+    distinct_repos: 29
+    active_days: 26
     repos_not_owned: 5
     not_owned_basenames: 2
     not_owned_owners: 5
   "90d":
-    pushes: 250
-    distinct_repos: 30
-    active_days: 53
+    pushes: 237
+    distinct_repos: 32
+    active_days: 52
     repos_not_owned: 5
     not_owned_basenames: 2
     not_owned_owners: 5
 automation:
   state: "clear"
-  push_per_day: 4.7170
-  repo_per_active_day: 0.5660
-  not_owned_ratio: 0.1667
-  basename_concentration: 0.1667
+  push_per_day: 4.5577
+  repo_per_active_day: 0.6154
+  not_owned_ratio: 0.1562
+  basename_concentration: 0.1562
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 45
-    distinct_repos: 13
-    pushes_per_repo: 3.4615
+    pushes: 29
+    distinct_repos: 17
+    pushes_per_repo: 1.7059
     active_days: 6
-    repos_not_owned: 5
+    repos_not_owned: 2
     not_owned_basenames: 2
-    not_owned_owners: 5
+    not_owned_owners: 2
   "30d":
-    pushes: 121
-    distinct_repos: 24
-    pushes_per_repo: 5.0417
-    active_days: 22
+    pushes: 147
+    distinct_repos: 29
+    pushes_per_repo: 5.0690
+    active_days: 26
     repos_not_owned: 5
     not_owned_basenames: 2
     not_owned_owners: 5
   "90d":
-    pushes: 250
-    distinct_repos: 30
-    pushes_per_repo: 8.3333
-    active_days: 53
+    pushes: 237
+    distinct_repos: 32
+    pushes_per_repo: 7.4062
+    active_days: 52
     repos_not_owned: 5
     not_owned_basenames: 2
     not_owned_owners: 5
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 53 active days in 90d — pass"
+  - "activity: 52 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "php_excel"
@@ -180,6 +180,6 @@ repos:
 
 # iliaal
 
-250 pushes across 30 repositories on 53 active days in the last 90 days of public GitHub push activity.
+237 pushes across 32 repositories on 52 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/iliaal

@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-11T06:04:44.624574+00:00"
+generated_at: "2026-10-16T08:30:18.142355+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [3, 4, 2, 5, 6, 0, 0, 4, 1, 2, 7, 33, 22]
+pushes_per_week: [5, 1, 4, 9, 0, 0, 0, 5, 2, 1, 26, 31, 21]
 windows:
   "7d":
-    pushes: 27
-    distinct_repos: 14
-    active_days: 7
+    pushes: 23
+    distinct_repos: 13
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 64
-    distinct_repos: 21
-    active_days: 15
+    pushes: 80
+    distinct_repos: 24
+    active_days: 18
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 89
-    distinct_repos: 24
-    active_days: 31
+    pushes: 105
+    distinct_repos: 27
+    active_days: 33
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.8710
-  repo_per_active_day: 0.7742
+  push_per_day: 3.1818
+  repo_per_active_day: 0.8182
   not_owned_ratio: 0.0000
-  basename_concentration: 0.0417
+  basename_concentration: 0.0370
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 27
-    distinct_repos: 14
-    pushes_per_repo: 1.9286
-    active_days: 7
+    pushes: 23
+    distinct_repos: 13
+    pushes_per_repo: 1.7692
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 64
-    distinct_repos: 21
-    pushes_per_repo: 3.0476
-    active_days: 15
+    pushes: 80
+    distinct_repos: 24
+    pushes_per_repo: 3.3333
+    active_days: 18
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 89
-    distinct_repos: 24
-    pushes_per_repo: 3.7083
-    active_days: 31
+    pushes: 105
+    distinct_repos: 27
+    pushes_per_repo: 3.8889
+    active_days: 33
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 31 active days in 90d — pass"
+  - "activity: 33 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "MinidoracatUIFor42"
@@ -129,6 +129,6 @@ repos:
 
 # Minidoracat
 
-89 pushes across 24 repositories on 31 active days in the last 90 days of public GitHub push activity.
+105 pushes across 27 repositories on 33 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Minidoracat

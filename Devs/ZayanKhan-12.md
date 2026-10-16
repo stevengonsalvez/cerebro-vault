@@ -8,11 +8,11 @@ provenance_repos:
   - "ChromeDevTools/chrome-devtools-mcp"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-11T06:04:44.624574+00:00"
+repos_populated: true
+generated_at: "2026-10-16T08:30:18.142355+00:00"
 provenance:
   - "379642deb53f3714"
-pushes_per_week: [14, 15, 0, 6, 1, 0, 0, 0, 0, 22, 1, 1, 1]
+pushes_per_week: [16, 0, 1, 6, 0, 0, 0, 0, 10, 12, 2, 1, 1]
 windows:
   "7d":
     pushes: 1
@@ -23,24 +23,24 @@ windows:
     not_owned_owners: 0
   "30d":
     pushes: 25
-    distinct_repos: 7
+    distinct_repos: 6
     active_days: 8
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 61
-    distinct_repos: 23
-    active_days: 20
-    repos_not_owned: 2
-    not_owned_basenames: 2
+    pushes: 49
+    distinct_repos: 22
+    active_days: 17
+    repos_not_owned: 1
+    not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 3.0500
-  repo_per_active_day: 1.1500
-  not_owned_ratio: 0.0870
-  basename_concentration: 0.0435
+  push_per_day: 2.8824
+  repo_per_active_day: 1.2941
+  not_owned_ratio: 0.0455
+  basename_concentration: 0.0455
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -58,29 +58,37 @@ facets:
     not_owned_owners: 0
   "30d":
     pushes: 25
-    distinct_repos: 7
-    pushes_per_repo: 3.5714
+    distinct_repos: 6
+    pushes_per_repo: 4.1667
     active_days: 8
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 61
-    distinct_repos: 23
-    pushes_per_repo: 2.6522
-    active_days: 20
-    repos_not_owned: 2
-    not_owned_basenames: 2
+    pushes: 49
+    distinct_repos: 22
+    pushes_per_repo: 2.2273
+    active_days: 17
+    repos_not_owned: 1
+    not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 20 active days in 90d — pass"
+  - "activity: 17 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "ZayanKhan-12"
+    title: "ZayanKhan-12"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-07"
 ---
 
 # ZayanKhan-12
 
-61 pushes across 23 repositories on 20 active days in the last 90 days of public GitHub push activity.
+49 pushes across 22 repositories on 17 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ZayanKhan-12

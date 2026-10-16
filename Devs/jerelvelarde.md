@@ -10,39 +10,39 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-11T06:04:44.624574+00:00"
+generated_at: "2026-10-16T08:30:18.142355+00:00"
 provenance:
   - "229b322ed982d40b"
   - "c4281af03270173b"
-pushes_per_week: [2, 5, 21, 5, 0, 1, 0, 0, 0, 4, 5, 22, 9]
+pushes_per_week: [5, 20, 3, 3, 1, 0, 0, 0, 4, 5, 10, 21, 0]
 windows:
   "7d":
-    pushes: 21
-    distinct_repos: 5
-    active_days: 2
-    repos_not_owned: 3
-    not_owned_basenames: 2
-    not_owned_owners: 2
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
-    pushes: 40
+    pushes: 39
     distinct_repos: 10
-    active_days: 10
+    active_days: 9
     repos_not_owned: 4
     not_owned_basenames: 3
     not_owned_owners: 2
   "90d":
-    pushes: 74
-    distinct_repos: 17
-    active_days: 24
+    pushes: 72
+    distinct_repos: 15
+    active_days: 22
     repos_not_owned: 7
     not_owned_basenames: 6
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 3.0833
-  repo_per_active_day: 0.7083
-  not_owned_ratio: 0.4118
-  basename_concentration: 0.1765
+  push_per_day: 3.2727
+  repo_per_active_day: 0.6818
+  not_owned_ratio: 0.4667
+  basename_concentration: 0.2000
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -51,32 +51,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 21
-    distinct_repos: 5
-    pushes_per_repo: 4.2000
-    active_days: 2
-    repos_not_owned: 3
-    not_owned_basenames: 2
-    not_owned_owners: 2
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
-    pushes: 40
+    pushes: 39
     distinct_repos: 10
-    pushes_per_repo: 4.0000
-    active_days: 10
+    pushes_per_repo: 3.9000
+    active_days: 9
     repos_not_owned: 4
     not_owned_basenames: 3
     not_owned_owners: 2
   "90d":
-    pushes: 74
-    distinct_repos: 17
-    pushes_per_repo: 4.3529
-    active_days: 24
+    pushes: 72
+    distinct_repos: 15
+    pushes_per_repo: 4.8000
+    active_days: 22
     repos_not_owned: 7
     not_owned_basenames: 6
     not_owned_owners: 3
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 24 active days in 90d — pass"
+  - "activity: 22 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "baymax-medical-pa"
@@ -146,6 +146,6 @@ repos:
 
 # jerelvelarde
 
-74 pushes across 17 repositories on 24 active days in the last 90 days of public GitHub push activity.
+72 pushes across 15 repositories on 22 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/jerelvelarde

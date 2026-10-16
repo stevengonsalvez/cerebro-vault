@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-11T06:04:44.624574+00:00"
+generated_at: "2026-10-16T08:30:18.142355+00:00"
 provenance:
   - "379642deb53f3714"
-pushes_per_week: [0, 0, 0, 0, 10, 0, 0, 0, 0, 0, 8, 11, 1]
+pushes_per_week: [0, 0, 0, 10, 0, 0, 0, 0, 0, 0, 16, 4, 0]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -80,11 +80,33 @@ repos:
   - name: "Boulea7"
     title: "Boulea7"
     description: "A simple personal introduction about Boulea7."
-    language: null
+    language: "Python"
     topics: []
-    stars_fact: 1
+    stars_fact: 2
     first_seen: null
-    last_push: "2026-10-05"
+    last_push: "2026-10-16"
+  - name: "shellpier"
+    title: "shellpier"
+    description: "Temporary SSH access, interactive terminals and file operations for your own machines. A native CLI for people and AI agents."
+    language: "Go"
+    topics:
+      - "ai-agents"
+      - "cli"
+      - "golang"
+      - "linux"
+      - "macos"
+      - "pty"
+      - "remote-access"
+      - "self-hosted"
+      - "sftp"
+      - "ssh"
+      - "temporary-access"
+      - "terminal"
+      - "websocket"
+      - "windows"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-15"
   - name: "agy-mcp"
     title: "agy-mcp"
     description: "Use Google Antigravity (agy) as an agent backend from Claude Code / OpenAI Codex / Cursor / any MCP client. MCP server with 10 typed tools + Skill bundles, hybrid backend, capability detection, long-task supervisor, worktree-isolated execute."
@@ -102,17 +124,25 @@ repos:
       - "mcp-server"
       - "openai-codex"
       - "python"
-    stars_fact: 22
+    stars_fact: 24
     first_seen: null
-    last_push: "2026-10-04"
-  - name: "Codex-Auto-Memory"
-    title: "Codex-Auto-Memory"
-    description: "一个为 Codex 设计的自动记忆插件，用于沉淀项目上下文、用户偏好、关键决策与长期 规则，让 Codex 在跨会话协作中保持连续性。"
+    last_push: "2026-10-14"
+  - name: "renovate-reproduction-25961"
+    title: "renovate-reproduction-25961"
+    description: "Minimal real Maven Central reproduction for renovatebot/renovate#25961 and #46719"
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-11"
+  - name: "agent-worktree"
+    title: "agent-worktree"
+    description: "A worktree-inspired orchestration framework for coding agents to explore multiple solution branches in parallel and merge the best result."
     language: "TypeScript"
     topics: []
-    stars_fact: 30
+    stars_fact: 3
     first_seen: null
-    last_push: "2026-10-02"
+    last_push: "2026-04-14"
   - name: "Clipulse"
     title: "Clipulse"
     description: null
@@ -120,38 +150,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-05"
-  - name: "ccswitch-terminal"
-    title: "ccswitch-terminal"
-    description: "在终端中一键切换并管理 Claude Code、Codex CLI、Gemini CLI、OpenCode、OpenClaw 的 provider 与 API Key，适合服务器、CI/CD 等无 GUI 环境"
-    language: "Python"
-    topics:
-      - "anthropic"
-      - "api-key-management"
-      - "claude"
-      - "claudecode"
-      - "cli"
-      - "codex"
-      - "command-line-tool"
-      - "developer-tools"
-      - "gemini"
-      - "openai"
-      - "openclaw"
-      - "opencode"
-      - "provider-switching"
-      - "python"
-      - "zero-dependency"
-    stars_fact: 4
-    first_seen: null
-    last_push: "2026-10-02"
-  - name: "ohmyclaude"
-    title: "ohmyclaude"
-    description: "One-click Claude Code configuration toolkit with presets, multi-model templates, and AI workflow automation"
-    language: "Python"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-03-19"
+    last_push: "2026-10-07"
 ---
 
 # Boulea7

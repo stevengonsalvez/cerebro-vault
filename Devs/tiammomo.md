@@ -8,11 +8,11 @@ provenance_repos:
   - "bytedance/deer-flow"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-11T06:04:44.624574+00:00"
+repos_populated: true
+generated_at: "2026-10-16T08:30:18.142355+00:00"
 provenance:
   - "16389f32495280ea"
-pushes_per_week: [18, 0, 2, 10, 4, 5, 1, 1, 2, 6, 3, 0, 0]
+pushes_per_week: [2, 1, 2, 13, 1, 5, 0, 3, 3, 6, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 52
-    distinct_repos: 16
-    active_days: 23
+    pushes: 36
+    distinct_repos: 10
+    active_days: 18
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.2609
-  repo_per_active_day: 0.6957
-  not_owned_ratio: 0.0625
-  basename_concentration: 0.1250
+  push_per_day: 2.0000
+  repo_per_active_day: 0.5556
+  not_owned_ratio: 0.1000
+  basename_concentration: 0.2000
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,22 +65,70 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 52
-    distinct_repos: 16
-    pushes_per_repo: 3.2500
-    active_days: 23
+    pushes: 36
+    distinct_repos: 10
+    pushes_per_repo: 3.6000
+    active_days: 18
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 23 active days in 90d — pass"
+  - "activity: 18 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "QuantPilot"
+    title: "QuantPilot"
+    description: "AI-native quantitative research workspace powered by MoAgent, turning natural-language requests into evidence-backed stock analysis, screening, backtests, portfolio insights, and interactive financial dashboards."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 10
+    first_seen: null
+    last_push: "2026-09-24"
+  - name: "RepoSteward"
+    title: "RepoSteward"
+    description: "Local-first, policy-gated control plane for turning GitHub issues into verified, human-reviewed pull requests with coding agents."
+    language: "Python"
+    topics: []
+    stars_fact: 29
+    first_seen: null
+    last_push: "2026-09-24"
+  - name: "ecommerce-bi-workbench"
+    title: "ecommerce-bi-workbench"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-29"
+  - name: "tiammomo"
+    title: "tiammomo"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-19"
+  - name: "ModelPort"
+    title: "ModelPort"
+    description: "ModelPort is a self-hosted Anthropic-compatible model gateway for Claude Code, VS Code Claude, and team-controlled provider routing."
+    language: "Rust"
+    topics: []
+    stars_fact: 11
+    first_seen: null
+    last_push: "2026-09-20"
+  - name: "Mamoji"
+    title: "Mamoji"
+    description: "An integrated operations and BI platform for SMEs and households, covering finance, budgeting, tax, approvals, payroll, analytics, and data protection."
+    language: "Java"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-09-06"
 ---
 
 # tiammomo
 
-52 pushes across 16 repositories on 23 active days in the last 90 days of public GitHub push activity.
+36 pushes across 10 repositories on 18 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/tiammomo

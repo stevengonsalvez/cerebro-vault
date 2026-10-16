@@ -10,38 +10,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-11T06:04:44.624574+00:00"
+generated_at: "2026-10-16T08:30:18.142355+00:00"
 provenance:
   - "fb0827c68cc0b5d0"
-pushes_per_week: [31, 19, 9, 0, 2, 2, 1, 0, 4, 1, 6, 13, 11]
+pushes_per_week: [25, 9, 0, 1, 1, 3, 0, 3, 2, 4, 6, 20, 1]
 windows:
   "7d":
-    pushes: 15
+    pushes: 1
     distinct_repos: 1
-    active_days: 3
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 32
+    pushes: 31
     distinct_repos: 2
-    active_days: 12
+    active_days: 11
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 99
-    distinct_repos: 12
-    active_days: 32
+    pushes: 75
+    distinct_repos: 8
+    active_days: 28
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 3.0938
-  repo_per_active_day: 0.3750
-  not_owned_ratio: 0.0833
-  basename_concentration: 0.0833
+  push_per_day: 2.6786
+  repo_per_active_day: 0.2857
+  not_owned_ratio: 0.1250
+  basename_concentration: 0.1250
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -50,32 +50,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 15
+    pushes: 1
     distinct_repos: 1
-    pushes_per_repo: 15.0000
-    active_days: 3
+    pushes_per_repo: 1.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 32
+    pushes: 31
     distinct_repos: 2
-    pushes_per_repo: 16.0000
-    active_days: 12
+    pushes_per_repo: 15.5000
+    active_days: 11
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 99
-    distinct_repos: 12
-    pushes_per_repo: 8.2500
-    active_days: 32
+    pushes: 75
+    distinct_repos: 8
+    pushes_per_repo: 9.3750
+    active_days: 28
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 32 active days in 90d — pass"
+  - "activity: 28 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "slotstream"
@@ -170,6 +170,6 @@ repos:
 
 # carloslfu
 
-99 pushes across 12 repositories on 32 active days in the last 90 days of public GitHub push activity.
+75 pushes across 8 repositories on 28 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/carloslfu

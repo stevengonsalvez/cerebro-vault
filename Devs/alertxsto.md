@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-11T06:04:44.624574+00:00"
+generated_at: "2026-10-16T08:30:18.142355+00:00"
 provenance:
   - "9e2ff10d772b1e71"
-pushes_per_week: [12, 6, 4, 1, 6, 18, 0, 0, 0, 2, 1, 0, 1]
+pushes_per_week: [5, 1, 5, 1, 23, 0, 0, 0, 0, 3, 0, 1, 0]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 51
-    distinct_repos: 14
-    active_days: 14
+    pushes: 39
+    distinct_repos: 13
+    active_days: 12
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 3.6429
-  repo_per_active_day: 1.0000
+  push_per_day: 3.2500
+  repo_per_active_day: 1.0833
   not_owned_ratio: 0.0000
-  basename_concentration: 0.0714
+  basename_concentration: 0.0769
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 51
-    distinct_repos: 14
-    pushes_per_repo: 3.6429
-    active_days: 14
+    pushes: 39
+    distinct_repos: 13
+    pushes_per_repo: 3.0000
+    active_days: 12
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 14 active days in 90d — pass"
+  - "activity: 12 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "rose-agent"
@@ -149,6 +149,6 @@ repos:
 
 # alertxsto
 
-51 pushes across 14 repositories on 14 active days in the last 90 days of public GitHub push activity.
+39 pushes across 13 repositories on 12 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/alertxsto

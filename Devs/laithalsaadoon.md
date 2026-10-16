@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-11T06:04:44.624574+00:00"
+generated_at: "2026-10-16T08:30:18.142355+00:00"
 provenance:
   - "a50b0e08dbaee74a"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 3, 2, 13, 9, 9]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 1, 3, 14, 9, 9, 17]
 windows:
   "7d":
-    pushes: 9
-    distinct_repos: 5
-    active_days: 3
+    pushes: 17
+    distinct_repos: 4
+    active_days: 4
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 35
+    pushes: 49
     distinct_repos: 6
-    active_days: 15
+    active_days: 17
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 36
+    pushes: 53
     distinct_repos: 7
-    active_days: 16
+    active_days: 20
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.2500
-  repo_per_active_day: 0.4375
+  push_per_day: 2.6500
+  repo_per_active_day: 0.3500
   not_owned_ratio: 0.2857
   basename_concentration: 0.1429
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 9
-    distinct_repos: 5
-    pushes_per_repo: 1.8000
-    active_days: 3
+    pushes: 17
+    distinct_repos: 4
+    pushes_per_repo: 4.2500
+    active_days: 4
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 35
+    pushes: 49
     distinct_repos: 6
-    pushes_per_repo: 5.8333
-    active_days: 15
+    pushes_per_repo: 8.1667
+    active_days: 17
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 36
+    pushes: 53
     distinct_repos: 7
-    pushes_per_repo: 5.1429
-    active_days: 16
+    pushes_per_repo: 7.5714
+    active_days: 20
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 16 active days in 90d — pass"
+  - "activity: 20 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "microvms-agentd"
@@ -165,6 +165,6 @@ repos:
 
 # laithalsaadoon
 
-36 pushes across 7 repositories on 16 active days in the last 90 days of public GitHub push activity.
+53 pushes across 7 repositories on 20 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/laithalsaadoon

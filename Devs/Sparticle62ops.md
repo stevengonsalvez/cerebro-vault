@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-11T06:04:44.624574+00:00"
+generated_at: "2026-10-16T08:30:18.142355+00:00"
 provenance:
   - "cf64edd36b9e7709"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 10, 2, 0]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 2, 2, 10, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -79,12 +79,18 @@ reasons:
 repos:
   - name: "pssa"
     title: "pssa"
-    description: "A custom AI architecture being developed in rust"
+    description: "PSSA: a non-transformer language model written from scratch in Rust. Recurrent state-space layer, episodic memory, self-modifying weights, CUDA training, and a full terminal dashboard."
     language: "Rust"
-    topics: []
-    stars_fact: 102
+    topics:
+      - "cuda"
+      - "language-model"
+      - "machine-learning"
+      - "rust"
+      - "state-space-model"
+      - "tui"
+    stars_fact: 115
     first_seen: "2026-09-30T06:02:10.916657+00:00"
-    last_push: "2026-10-07"
+    last_push: "2026-10-15"
   - name: "Syl"
     title: "Syl"
     description: "Syl is a compiled systems programming language that uses strict, deterministic English syntax. It maps natural language to a proprietary, memory-safe Base-52 bytecode (Helix IR) before compiling to native C. Zero AI at runtime, zero boilerplate, Rust-level speed."
@@ -93,14 +99,6 @@ repos:
     stars_fact: 2
     first_seen: null
     last_push: "2026-10-06"
-  - name: "DastemOS"
-    title: "DastemOS"
-    description: "An operating system written in Rust :)"
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-07-30"
 ---
 
 # Sparticle62ops

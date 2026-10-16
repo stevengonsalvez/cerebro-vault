@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-11T06:04:44.624574+00:00"
+generated_at: "2026-10-16T08:30:18.142355+00:00"
 provenance:
   - "9d67ce648f6a8919"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 1, 0]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 2, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -82,9 +82,9 @@ repos:
     description: "Find the junctions a city can't live without - then simulate what happens when they fail. Road-network resilience analysis from OpenStreetMap and satellite imagery."
     language: "Python"
     topics: []
-    stars_fact: 0
+    stars_fact: 1
     first_seen: null
-    last_push: "2026-08-24"
+    last_push: "2026-10-12"
 ---
 
 # rodricksz4h5

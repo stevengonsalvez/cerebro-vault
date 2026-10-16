@@ -8,29 +8,29 @@ provenance_repos:
   - "anthropics/claude-code-action"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-11T06:04:44.624574+00:00"
+repos_populated: true
+generated_at: "2026-10-16T08:30:18.142355+00:00"
 provenance:
   - "0b22ca37fd3884c9"
-pushes_per_week: [4, 1, 1, 3, 0, 0, 0, 0, 0, 2, 5, 2, 0]
+pushes_per_week: [1, 1, 2, 1, 0, 0, 0, 0, 0, 7, 2, 0, 4]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
+    pushes: 4
+    distinct_repos: 1
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 9
+    pushes: 13
     distinct_repos: 2
-    active_days: 5
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
     pushes: 18
-    distinct_repos: 5
+    distinct_repos: 4
     active_days: 12
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -38,9 +38,9 @@ windows:
 automation:
   state: "clear"
   push_per_day: 1.5000
-  repo_per_active_day: 0.4167
+  repo_per_active_day: 0.3333
   not_owned_ratio: 0.0000
-  basename_concentration: 0.2000
+  basename_concentration: 0.2500
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
+    pushes: 4
+    distinct_repos: 1
+    pushes_per_repo: 4.0000
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 9
+    pushes: 13
     distinct_repos: 2
-    pushes_per_repo: 4.5000
-    active_days: 5
+    pushes_per_repo: 6.5000
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
     pushes: 18
-    distinct_repos: 5
-    pushes_per_repo: 3.6000
+    distinct_repos: 4
+    pushes_per_repo: 4.5000
     active_days: 12
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -76,11 +76,73 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 12 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "revil"
+    title: "revil"
+    description: "Portfolio ✨"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 6
+    first_seen: null
+    last_push: "2026-10-12"
+  - name: "t-sec"
+    title: "t-sec"
+    description: "Age-encrypted developer secrets CLI with a terminal UI and per-device trust"
+    language: "TypeScript"
+    topics:
+      - "age"
+      - "cli"
+      - "secrets-management"
+      - "terminal-ui"
+      - "typescript"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-04"
+  - name: "gmrec"
+    title: "gmrec"
+    description: "Chrome extension that records each Google Meet participant into their own MP4, from their real stream — not a screen capture."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-21"
+  - name: "linkedin-auto-poster"
+    title: "linkedin-auto-poster"
+    description: "LinkedIn AI auto-poster self-hostable dashboard"
+    language: "Python"
+    topics:
+      - "autoposter"
+      - "claude"
+      - "claude-code"
+      - "claudecode"
+      - "linkedin"
+      - "poster"
+      - "python"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-24"
+  - name: "Cake"
+    title: "Cake"
+    description: "A little animated birthday cake, made with love."
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-07-13"
+  - name: "TemRevil"
+    title: "TemRevil"
+    description: "Config files for my GitHub profile."
+    language: null
+    topics:
+      - "config"
+      - "github-config"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-16"
 ---
 
 # TemRevil
 
-18 pushes across 5 repositories on 12 active days in the last 90 days of public GitHub push activity.
+18 pushes across 4 repositories on 12 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/TemRevil

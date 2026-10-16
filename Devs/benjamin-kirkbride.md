@@ -9,30 +9,30 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-11T06:04:44.624574+00:00"
+generated_at: "2026-10-16T08:30:18.142355+00:00"
 provenance:
   - "97c4e9cb8b163ddb"
   - "c7515e0fa4368a55"
   - "d3abe74726b22711"
   - "e7c647c4d0689526"
-pushes_per_week: [1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7, 5]
+pushes_per_week: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 5, 5]
 windows:
   "7d":
-    pushes: 6
+    pushes: 5
     distinct_repos: 1
-    active_days: 5
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 12
+    pushes: 14
     distinct_repos: 1
-    active_days: 8
+    active_days: 9
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 14
+    pushes: 15
     distinct_repos: 2
     active_days: 10
     repos_not_owned: 0
@@ -40,7 +40,7 @@ windows:
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.4000
+  push_per_day: 1.5000
   repo_per_active_day: 0.2000
   not_owned_ratio: 0.0000
   basename_concentration: 0.5000
@@ -52,25 +52,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 6
+    pushes: 5
     distinct_repos: 1
-    pushes_per_repo: 6.0000
-    active_days: 5
+    pushes_per_repo: 5.0000
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 12
+    pushes: 14
     distinct_repos: 1
-    pushes_per_repo: 12.0000
-    active_days: 8
+    pushes_per_repo: 14.0000
+    active_days: 9
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 14
+    pushes: 15
     distinct_repos: 2
-    pushes_per_repo: 7.0000
+    pushes_per_repo: 7.5000
     active_days: 10
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -87,7 +87,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-04"
+    last_push: "2026-10-16"
   - name: "conductor"
     title: "conductor"
     description: "AI agent orchestration via the Claude Agent SDK"
@@ -132,6 +132,6 @@ repos:
 
 # benjamin-kirkbride
 
-14 pushes across 2 repositories on 10 active days in the last 90 days of public GitHub push activity.
+15 pushes across 2 repositories on 10 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/benjamin-kirkbride

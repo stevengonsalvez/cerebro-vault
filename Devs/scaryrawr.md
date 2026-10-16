@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-11T06:04:44.624574+00:00"
+generated_at: "2026-10-16T08:30:18.142355+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [8, 6, 6, 2, 8, 4, 0, 1, 11, 38, 10, 16, 2]
+pushes_per_week: [7, 4, 4, 8, 3, 1, 0, 4, 29, 21, 19, 5, 2]
 windows:
   "7d":
     pushes: 2
-    distinct_repos: 1
+    distinct_repos: 2
     active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 75
-    distinct_repos: 10
-    active_days: 19
+    pushes: 66
+    distinct_repos: 11
+    active_days: 16
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 112
-    distinct_repos: 18
-    active_days: 44
+    pushes: 107
+    distinct_repos: 16
+    active_days: 43
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.5455
-  repo_per_active_day: 0.4091
+  push_per_day: 2.4884
+  repo_per_active_day: 0.3721
   not_owned_ratio: 0.0000
-  basename_concentration: 0.0556
+  basename_concentration: 0.0625
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -50,31 +50,31 @@ automation:
 facets:
   "7d":
     pushes: 2
-    distinct_repos: 1
-    pushes_per_repo: 2.0000
+    distinct_repos: 2
+    pushes_per_repo: 1.0000
     active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 75
-    distinct_repos: 10
-    pushes_per_repo: 7.5000
-    active_days: 19
+    pushes: 66
+    distinct_repos: 11
+    pushes_per_repo: 6.0000
+    active_days: 16
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 112
-    distinct_repos: 18
-    pushes_per_repo: 6.2222
-    active_days: 44
+    pushes: 107
+    distinct_repos: 16
+    pushes_per_repo: 6.6875
+    active_days: 43
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 44 active days in 90d — pass"
+  - "activity: 43 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "homebrew-formulae"
@@ -129,6 +129,6 @@ repos:
 
 # scaryrawr
 
-112 pushes across 18 repositories on 44 active days in the last 90 days of public GitHub push activity.
+107 pushes across 16 repositories on 43 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/scaryrawr

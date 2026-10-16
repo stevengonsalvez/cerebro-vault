@@ -8,11 +8,11 @@ provenance_repos:
   - "ChromeDevTools/chrome-devtools-mcp"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-10T06:04:44.283147+00:00"
+repos_populated: true
+generated_at: "2026-10-16T08:30:18.142355+00:00"
 provenance:
   - "379642deb53f3714"
-pushes_per_week: [0, 4, 4, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0]
+pushes_per_week: [4, 2, 2, 0, 1, 0, 0, 0, 1, 1, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 9 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "knowledge-base"
+    title: "knowledge-base"
+    description: "Yusheng's personal knowledge base."
+    language: "Shell"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-15"
+  - name: "lomessage"
+    title: "lomessage"
+    description: "Sending text messages, images, videos, and arbitrary files to individual recipients and group chats on a local area network (LAN)."
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-28"
+  - name: "book-website"
+    title: "book-website"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-28"
+  - name: "knowledge-base-website"
+    title: "knowledge-base-website"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-10"
+  - name: "memstress"
+    title: "memstress"
+    description: null
+    language: "C"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-14"
+  - name: "metrics"
+    title: "metrics"
+    description: "Kubernetes metrics API type definitions and clients."
+    language: "Go"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-04"
 ---
 
 # yshngg

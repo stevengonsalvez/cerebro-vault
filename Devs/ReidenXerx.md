@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-11T06:04:44.624574+00:00"
+generated_at: "2026-10-16T08:30:18.142355+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [4, 0, 1, 13, 6, 10, 6, 3, 3, 10, 59, 45, 9]
+pushes_per_week: [0, 1, 6, 13, 5, 11, 0, 5, 4, 31, 66, 23, 3]
 windows:
   "7d":
-    pushes: 15
-    distinct_repos: 6
-    active_days: 4
+    pushes: 3
+    distinct_repos: 2
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 124
+    pushes: 126
     distinct_repos: 17
     active_days: 22
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 169
-    distinct_repos: 23
-    active_days: 41
+    pushes: 168
+    distinct_repos: 22
+    active_days: 40
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 4.1220
-  repo_per_active_day: 0.5610
-  not_owned_ratio: 0.1304
-  basename_concentration: 0.0435
+  push_per_day: 4.2000
+  repo_per_active_day: 0.5500
+  not_owned_ratio: 0.1364
+  basename_concentration: 0.0455
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 15
-    distinct_repos: 6
-    pushes_per_repo: 2.5000
-    active_days: 4
+    pushes: 3
+    distinct_repos: 2
+    pushes_per_repo: 1.5000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 124
+    pushes: 126
     distinct_repos: 17
-    pushes_per_repo: 7.2941
+    pushes_per_repo: 7.4118
     active_days: 22
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 169
-    distinct_repos: 23
-    pushes_per_repo: 7.3478
-    active_days: 41
+    pushes: 168
+    distinct_repos: 22
+    pushes_per_repo: 7.6364
+    active_days: 40
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 41 active days in 90d — pass"
+  - "activity: 40 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "fo4-complexion"
@@ -151,6 +151,6 @@ repos:
 
 # ReidenXerx
 
-169 pushes across 23 repositories on 41 active days in the last 90 days of public GitHub push activity.
+168 pushes across 22 repositories on 40 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ReidenXerx

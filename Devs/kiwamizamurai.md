@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-11T06:04:44.624574+00:00"
+generated_at: "2026-10-16T08:30:18.142355+00:00"
 provenance:
   - "0b22ca37fd3884c9"
-pushes_per_week: [0, 2, 0, 0, 0, 0, 0, 0, 0, 1, 4, 1, 5]
+pushes_per_week: [2, 0, 0, 0, 0, 0, 0, 0, 1, 0, 4, 5, 5]
 windows:
   "7d":
     pushes: 5
-    distinct_repos: 5
-    active_days: 4
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    distinct_repos: 3
+    active_days: 3
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
-    pushes: 11
+    pushes: 15
     distinct_repos: 8
-    active_days: 7
+    active_days: 9
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 13
+    pushes: 17
     distinct_repos: 9
-    active_days: 9
+    active_days: 11
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.4444
-  repo_per_active_day: 1.0000
+  push_per_day: 1.5455
+  repo_per_active_day: 0.8182
   not_owned_ratio: 0.1111
   basename_concentration: 0.1111
   shapes: []
@@ -50,54 +50,100 @@ automation:
 facets:
   "7d":
     pushes: 5
-    distinct_repos: 5
-    pushes_per_repo: 1.0000
-    active_days: 4
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    distinct_repos: 3
+    pushes_per_repo: 1.6667
+    active_days: 3
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
-    pushes: 11
+    pushes: 15
     distinct_repos: 8
-    pushes_per_repo: 1.3750
-    active_days: 7
+    pushes_per_repo: 1.8750
+    active_days: 9
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 13
+    pushes: 17
     distinct_repos: 9
-    pushes_per_repo: 1.4444
-    active_days: 9
+    pushes_per_repo: 1.8889
+    active_days: 11
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 9 active days in 90d — pass"
+  - "activity: 11 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "zero-to-robot"
-    title: "zero-to-robot"
-    description: "ゼロからロボット工学を学ぶ学習リポジトリ。スクラッチ実装 → 数値検算 → 可視化 → Typst による数式証明。17 のサンプルアプリはブラウザでシミュレーションできる"
-    language: "HTML"
+  - name: "boki-algebra-book"
+    title: "boki-algebra-book"
+    description: "A textbook that teaches university mathematics through double-entry bookkeeping, with the main theorems formalized in Lean 4."
+    language: "TeX"
     topics:
-      - "control"
-      - "dynamics"
-      - "github-pages"
-      - "imitation-learning"
-      - "kalman-filter"
-      - "kinematics"
-      - "motion-planning"
-      - "mujoco"
-      - "reinforcement-learning"
-      - "robotics"
-      - "simulation"
-      - "typst"
-      - "webassembly"
+      - "abstract-algebra"
+      - "accounting"
+      - "bookkeeping"
+      - "category-theory"
+      - "double-entry-accounting"
+      - "double-entry-bookkeeping"
+      - "education"
+      - "formal-verification"
+      - "graph-theory"
+      - "group-theory"
+      - "lean4"
+      - "linear-algebra"
+      - "mathematics"
+      - "mathlib"
+      - "open-textbook"
+      - "quarto"
+      - "quarto-book"
+      - "textbook"
+      - "theorem-proving"
+      - "undergraduate"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-04"
+    last_push: "2026-10-15"
+  - name: "washi"
+    title: "washi"
+    description: "A small macOS app that opens Markdown, Typst, LaTeX and Mermaid files for reading, redraws when they are saved, and edits with a live preview."
+    language: "Rust"
+    topics:
+      - "document-viewer"
+      - "hot-reload"
+      - "latex"
+      - "live-preview"
+      - "markdown"
+      - "markdown-editor"
+      - "markdown-preview"
+      - "markdown-viewer"
+      - "mermaid"
+      - "pandoc"
+      - "tex"
+      - "tikz"
+      - "typst"
+      - "typst-preview"
+      - "viewer"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-14"
+  - name: "homebrew-tap"
+    title: "homebrew-tap"
+    description: "🍺 Homebrew tap for kiwamizamurai's CLI tools"
+    language: "Ruby"
+    topics:
+      - "cli"
+      - "cli-tools"
+      - "developer-tools"
+      - "github"
+      - "homebrew"
+      - "homebrew-formula"
+      - "homebrew-tap"
+      - "macos"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-14"
   - name: "gaming"
     title: "gaming"
     description: "中華製携帯ゲーム機を教材に、コンピュータとゲーム、ソフト/ハードウェア、中国語を学ぶ調査まとめ"
@@ -114,85 +160,27 @@ repos:
       - "rocknix"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-03"
-  - name: "dotfiles"
-    title: "dotfiles"
-    description: "my macOS development environment — Stow-managed, one-line installer."
-    language: "Lua"
-    topics:
-      - "aerospace"
-      - "brewfile"
-      - "dotfiles"
-      - "lua"
-      - "macos"
-      - "neovim"
-      - "stow"
-      - "wezterm"
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-10-03"
-  - name: "closing-quest"
-    title: "closing-quest"
-    description: "1年間の経理業務を体験する 3D すごろく（月次決算がサブゴール）"
-    language: "TypeScript"
-    topics:
-      - "accounting"
-      - "board-game"
-      - "bookkeeping"
-      - "browser-game"
-      - "education"
-      - "educational-game"
-      - "japanese"
-      - "sugoroku"
-      - "threejs"
-      - "typescript"
-      - "vite"
-      - "webgl"
+    last_push: "2026-10-14"
+  - name: "homelab"
+    title: "homelab"
+    description: null
+    language: null
+    topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-09-26"
-  - name: "puzzle-drive-gp"
-    title: "puzzle-drive-gp"
-    description: "A turn-based Pyxel/WASM racing game: match-3 puzzle movement, flick-physics duels, gacha driver collection."
-    language: "Python"
-    topics:
-      - "browser-game"
-      - "gacha"
-      - "game"
-      - "procedural-generation"
-      - "puzzle-game"
-      - "python"
-      - "pyxel"
-      - "retro-game"
-      - "wasm"
-      - "webassembly"
+    last_push: "2026-10-12"
+  - name: "snowflake-again"
+    title: "snowflake-again"
+    description: null
+    language: null
+    topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-27"
-  - name: "accounting-quest"
-    title: "accounting-quest"
-    description: "A visual novel-style educational game that teaches accounting fundamentals through running a lemonade stand. Built with Phaser 3 and TypeScript."
-    language: "TypeScript"
-    topics:
-      - "accounting"
-      - "bookkeeping"
-      - "double-entry-bookkeeping"
-      - "education"
-      - "educational-game"
-      - "finance"
-      - "game"
-      - "learning"
-      - "phaser"
-      - "phaser3"
-      - "typescript"
-      - "visual-novel"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-26"
+    last_push: "2026-10-12"
 ---
 
 # kiwamizamurai
 
-13 pushes across 9 repositories on 9 active days in the last 90 days of public GitHub push activity.
+17 pushes across 9 repositories on 11 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/kiwamizamurai

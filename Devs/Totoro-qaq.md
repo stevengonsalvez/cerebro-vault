@@ -10,39 +10,39 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-11T06:04:44.624574+00:00"
+generated_at: "2026-10-16T08:30:18.142355+00:00"
 provenance:
   - "16389f32495280ea"
   - "4d1450729e6ff44d"
-pushes_per_week: [2, 0, 16, 2, 7, 2, 3, 0, 2, 4, 3, 1, 1]
+pushes_per_week: [0, 0, 16, 9, 2, 3, 0, 2, 3, 3, 2, 0, 5]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
+    pushes: 5
+    distinct_repos: 2
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 9
+    pushes: 12
     distinct_repos: 5
-    active_days: 8
+    active_days: 10
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 43
-    distinct_repos: 8
-    active_days: 23
+    pushes: 45
+    distinct_repos: 7
+    active_days: 25
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.8696
-  repo_per_active_day: 0.3478
+  push_per_day: 1.8000
+  repo_per_active_day: 0.2800
   not_owned_ratio: 0.0000
-  basename_concentration: 0.1250
+  basename_concentration: 0.1429
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -51,32 +51,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes: 5
+    distinct_repos: 2
+    pushes_per_repo: 2.5000
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 9
+    pushes: 12
     distinct_repos: 5
-    pushes_per_repo: 1.8000
-    active_days: 8
+    pushes_per_repo: 2.4000
+    active_days: 10
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 43
-    distinct_repos: 8
-    pushes_per_repo: 5.3750
-    active_days: 23
+    pushes: 45
+    distinct_repos: 7
+    pushes_per_repo: 6.4286
+    active_days: 25
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 23 active days in 90d — pass"
+  - "activity: 25 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "hermes-jot"
@@ -178,6 +178,6 @@ repos:
 
 # Totoro-qaq
 
-43 pushes across 8 repositories on 23 active days in the last 90 days of public GitHub push activity.
+45 pushes across 7 repositories on 25 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Totoro-qaq

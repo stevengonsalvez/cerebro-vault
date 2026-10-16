@@ -8,16 +8,16 @@ provenance_repos:
   - "BigPizzaV3/CodexPlusPlus"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-11T06:04:44.624574+00:00"
+repos_populated: true
+generated_at: "2026-10-16T08:30:18.142355+00:00"
 provenance:
   - "90688bf127241ceb"
-pushes_per_week: [3, 1, 2, 0, 2, 0, 0, 0, 1, 1, 4, 2, 0]
+pushes_per_week: [1, 2, 1, 2, 0, 0, 0, 1, 1, 2, 4, 0, 1]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 16
+    pushes: 15
     distinct_repos: 3
-    active_days: 15
+    active_days: 14
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.0667
-  repo_per_active_day: 0.2000
+  push_per_day: 1.0714
+  repo_per_active_day: 0.2143
   not_owned_ratio: 0.0000
   basename_concentration: 0.3333
   shapes: []
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
+    pushes: 1
+    distinct_repos: 1
+    pushes_per_repo: 1.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -65,22 +65,70 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 16
+    pushes: 15
     distinct_repos: 3
-    pushes_per_repo: 5.3333
-    active_days: 15
+    pushes_per_repo: 5.0000
+    active_days: 14
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 15 active days in 90d — pass"
+  - "activity: 14 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "gpt-image-panel"
+    title: "gpt-image-panel"
+    description: "Self-hosted web panel for GPT-compatible image generation APIs — generate, edit, and manage your images in one place."
+    language: "Python"
+    topics: []
+    stars_fact: 122
+    first_seen: null
+    last_push: "2026-10-16"
+  - name: "proxy_rules"
+    title: "proxy_rules"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-13"
+  - name: "gargantua"
+    title: "gargantua"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-08-17"
+  - name: "stash-override"
+    title: "stash-override"
+    description: "Stash 覆写：流媒体解锁检测（移植自 MediaUnlockTest）"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-12"
+  - name: "auto-monitor-ip"
+    title: "auto-monitor-ip"
+    description: "A simple script for monitoring dynamic ip."
+    language: "Shell"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-03"
+  - name: "NodeSeek-Rulings-Search"
+    title: "NodeSeek-Rulings-Search"
+    description: "🔍 专注于 NodeSeek 论坛管理记录（Ruling）的抓取与查询工具。支持 Telegram Bot 交互、自动定时抓取、精确/模糊搜索及操作详情自动翻译，内置 SQLite 存储与频率限制。"
+    language: "Python"
+    topics: []
+    stars_fact: 6
+    first_seen: null
+    last_push: "2026-04-19"
 ---
 
 # Z1rconium
 
-16 pushes across 3 repositories on 15 active days in the last 90 days of public GitHub push activity.
+15 pushes across 3 repositories on 14 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Z1rconium

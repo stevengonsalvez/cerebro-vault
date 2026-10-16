@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-11T06:04:44.624574+00:00"
+generated_at: "2026-10-16T08:30:18.142355+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [16, 2, 0, 0, 2, 1, 3, 0, 7, 1, 0, 0, 0]
+pushes_per_week: [2, 0, 0, 2, 1, 3, 0, 7, 1, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,25 +22,25 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
-    pushes: 32
-    distinct_repos: 22
-    active_days: 12
-    repos_not_owned: 18
-    not_owned_basenames: 18
+    pushes: 16
+    distinct_repos: 13
+    active_days: 9
+    repos_not_owned: 11
+    not_owned_basenames: 11
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.6667
-  repo_per_active_day: 1.8333
-  not_owned_ratio: 0.8182
-  basename_concentration: 0.0455
+  push_per_day: 1.7778
+  repo_per_active_day: 1.4444
+  not_owned_ratio: 0.8462
+  basename_concentration: 0.0769
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
-    pushes: 32
-    distinct_repos: 22
-    pushes_per_repo: 1.4545
-    active_days: 12
-    repos_not_owned: 18
-    not_owned_basenames: 18
+    pushes: 16
+    distinct_repos: 13
+    pushes_per_repo: 1.2308
+    active_days: 9
+    repos_not_owned: 11
+    not_owned_basenames: 11
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 12 active days in 90d — pass"
+  - "activity: 9 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "oai-skills"
@@ -129,6 +129,6 @@ repos:
 
 # Last-emo-boy
 
-32 pushes across 22 repositories on 12 active days in the last 90 days of public GitHub push activity.
+16 pushes across 13 repositories on 9 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Last-emo-boy

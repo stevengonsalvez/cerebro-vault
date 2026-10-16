@@ -10,37 +10,37 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-11T06:04:44.624574+00:00"
+generated_at: "2026-10-16T08:30:18.142355+00:00"
 provenance:
   - "4d1450729e6ff44d"
   - "dae9f02535f7c22f"
-pushes_per_week: [0, 0, 2, 12, 15, 1, 2, 1, 9, 46, 42, 76, 21]
+pushes_per_week: [0, 2, 10, 15, 3, 2, 0, 4, 30, 41, 55, 63, 8]
 windows:
   "7d":
-    pushes: 40
-    distinct_repos: 22
+    pushes: 10
+    distinct_repos: 9
     active_days: 5
-    repos_not_owned: 2
-    not_owned_basenames: 2
-    not_owned_owners: 2
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
-    pushes: 193
-    distinct_repos: 44
-    active_days: 22
+    pushes: 184
+    distinct_repos: 42
+    active_days: 21
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 5
   "90d":
-    pushes: 227
+    pushes: 233
     distinct_repos: 62
-    active_days: 39
+    active_days: 42
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 5
 automation:
   state: "clear"
-  push_per_day: 5.8205
-  repo_per_active_day: 1.5897
+  push_per_day: 5.5476
+  repo_per_active_day: 1.4762
   not_owned_ratio: 0.0806
   basename_concentration: 0.0323
   shapes: []
@@ -51,32 +51,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 40
-    distinct_repos: 22
-    pushes_per_repo: 1.8182
+    pushes: 10
+    distinct_repos: 9
+    pushes_per_repo: 1.1111
     active_days: 5
-    repos_not_owned: 2
-    not_owned_basenames: 2
-    not_owned_owners: 2
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
-    pushes: 193
-    distinct_repos: 44
-    pushes_per_repo: 4.3864
-    active_days: 22
+    pushes: 184
+    distinct_repos: 42
+    pushes_per_repo: 4.3810
+    active_days: 21
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 5
   "90d":
-    pushes: 227
+    pushes: 233
     distinct_repos: 62
-    pushes_per_repo: 3.6613
-    active_days: 39
+    pushes_per_repo: 3.7581
+    active_days: 42
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 5
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 39 active days in 90d — pass"
+  - "activity: 42 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "driftcheck"
@@ -218,6 +218,6 @@ repos:
 
 # yunaremaia
 
-227 pushes across 62 repositories on 39 active days in the last 90 days of public GitHub push activity.
+233 pushes across 62 repositories on 42 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/yunaremaia

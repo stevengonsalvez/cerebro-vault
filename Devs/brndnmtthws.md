@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-11T06:04:44.624574+00:00"
+generated_at: "2026-10-16T08:30:18.142355+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [2, 1, 1, 0, 2, 0, 0, 0, 1, 7, 73, 3, 0]
+pushes_per_week: [1, 1, 0, 2, 0, 0, 0, 0, 8, 10, 66, 0, 5]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
+    pushes: 5
+    distinct_repos: 2
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 84
-    distinct_repos: 6
+    pushes: 85
+    distinct_repos: 5
     active_days: 13
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 90
+    pushes: 93
     distinct_repos: 6
     active_days: 19
     repos_not_owned: 1
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 4.7368
+  push_per_day: 4.8947
   repo_per_active_day: 0.3158
   not_owned_ratio: 0.1667
   basename_concentration: 0.1667
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
+    pushes: 5
+    distinct_repos: 2
+    pushes_per_repo: 2.5000
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 84
-    distinct_repos: 6
-    pushes_per_repo: 14.0000
+    pushes: 85
+    distinct_repos: 5
+    pushes_per_repo: 17.0000
     active_days: 13
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 90
+    pushes: 93
     distinct_repos: 6
-    pushes_per_repo: 15.0000
+    pushes_per_repo: 15.5000
     active_days: 19
     repos_not_owned: 1
     not_owned_basenames: 1
@@ -170,6 +170,6 @@ repos:
 
 # brndnmtthws
 
-90 pushes across 6 repositories on 19 active days in the last 90 days of public GitHub push activity.
+93 pushes across 6 repositories on 19 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/brndnmtthws

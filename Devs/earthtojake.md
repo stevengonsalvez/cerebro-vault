@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-11T06:04:44.624574+00:00"
+generated_at: "2026-10-16T08:30:18.142355+00:00"
 provenance:
   - "05a74004d0aa7653"
-pushes_per_week: [0, 0, 5, 8, 35, 6, 0, 1, 1, 13, 15, 22, 14]
+pushes_per_week: [0, 5, 4, 32, 12, 1, 1, 0, 10, 5, 28, 22, 1]
 windows:
   "7d":
-    pushes: 15
+    pushes: 1
     distinct_repos: 1
-    active_days: 4
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 65
+    pushes: 64
     distinct_repos: 1
-    active_days: 18
+    active_days: 17
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 120
+    pushes: 121
     distinct_repos: 5
-    active_days: 34
+    active_days: 35
     repos_not_owned: 3
     not_owned_basenames: 1
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 3.5294
-  repo_per_active_day: 0.1471
+  push_per_day: 3.4571
+  repo_per_active_day: 0.1429
   not_owned_ratio: 0.6000
   basename_concentration: 0.8000
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 15
+    pushes: 1
     distinct_repos: 1
-    pushes_per_repo: 15.0000
-    active_days: 4
+    pushes_per_repo: 1.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 65
+    pushes: 64
     distinct_repos: 1
-    pushes_per_repo: 65.0000
-    active_days: 18
+    pushes_per_repo: 64.0000
+    active_days: 17
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 120
+    pushes: 121
     distinct_repos: 5
-    pushes_per_repo: 24.0000
-    active_days: 34
+    pushes_per_repo: 24.2000
+    active_days: 35
     repos_not_owned: 3
     not_owned_basenames: 1
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 34 active days in 90d — pass"
+  - "activity: 35 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "text-to-cad"
@@ -91,9 +91,9 @@ repos:
       - "stl"
       - "stp"
       - "text-to-cad"
-    stars_fact: 16977
+    stars_fact: 20818
     first_seen: "2026-10-05T06:00:40.753623+00:00"
-    last_push: "2026-10-05"
+    last_push: "2026-10-16"
   - name: "step.parts"
     title: "step.parts"
     description: "12,000+ open source STEP parts for your next CAD project"
@@ -108,9 +108,17 @@ repos:
       - "open-source"
       - "skills"
       - "step"
-    stars_fact: 368
+    stars_fact: 384
     first_seen: null
     last_push: "2026-06-13"
+  - name: "earthtojake.com"
+    title: "earthtojake.com"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 9
+    first_seen: null
+    last_push: "2026-08-27"
   - name: "implicit.js"
     title: "implicit.js"
     description: "A library for modelling 3D objects with mathematical primitives"
@@ -120,7 +128,7 @@ repos:
       - "cad"
       - "implicits"
       - "threejs"
-    stars_fact: 61
+    stars_fact: 62
     first_seen: null
     last_push: "2026-06-03"
   - name: "remotehost-skill"
@@ -128,7 +136,7 @@ repos:
     description: "A skill to expose localhost and dev-server ports to Codex and Claude mobile apps using Tailscale"
     language: "Shell"
     topics: []
-    stars_fact: 15
+    stars_fact: 16
     first_seen: null
     last_push: "2026-05-19"
   - name: "robot-arm"
@@ -139,18 +147,10 @@ repos:
     stars_fact: 3
     first_seen: null
     last_push: "2018-11-15"
-  - name: "earthtojake.com"
-    title: "earthtojake.com"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 8
-    first_seen: null
-    last_push: "2026-08-27"
 ---
 
 # earthtojake
 
-120 pushes across 5 repositories on 34 active days in the last 90 days of public GitHub push activity.
+121 pushes across 5 repositories on 35 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/earthtojake

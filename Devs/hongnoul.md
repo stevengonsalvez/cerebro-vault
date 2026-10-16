@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-11T06:04:44.624574+00:00"
+generated_at: "2026-10-16T08:30:18.142355+00:00"
 provenance:
   - "2a7f0fddd2dac162"
-pushes_per_week: [9, 37, 10, 6, 0, 0, 4, 0, 0, 3, 18, 3, 0]
+pushes_per_week: [36, 10, 8, 3, 0, 4, 0, 0, 0, 21, 1, 2, 0]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 90
-    distinct_repos: 12
-    active_days: 22
+    pushes: 85
+    distinct_repos: 9
+    active_days: 20
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 4.0909
-  repo_per_active_day: 0.5455
-  not_owned_ratio: 0.1667
-  basename_concentration: 0.0833
+  push_per_day: 4.2500
+  repo_per_active_day: 0.4500
+  not_owned_ratio: 0.2222
+  basename_concentration: 0.1111
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 90
-    distinct_repos: 12
-    pushes_per_repo: 7.5000
-    active_days: 22
+    pushes: 85
+    distinct_repos: 9
+    pushes_per_repo: 9.4444
+    active_days: 20
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 22 active days in 90d — pass"
+  - "activity: 20 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "gwae"
@@ -168,6 +168,6 @@ repos:
 
 # hongnoul
 
-90 pushes across 12 repositories on 22 active days in the last 90 days of public GitHub push activity.
+85 pushes across 9 repositories on 20 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/hongnoul

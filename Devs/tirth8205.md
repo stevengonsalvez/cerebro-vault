@@ -8,28 +8,28 @@ provenance_repos:
   - "tirth8205/code-review-graph"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-11T06:04:44.624574+00:00"
+repos_populated: true
+generated_at: "2026-10-16T08:30:18.142355+00:00"
 provenance:
   - "344d46b0f790a3ec"
-pushes_per_week: [20, 5, 16, 0, 1, 0, 0, 0, 1, 14, 0, 0, 3]
+pushes_per_week: [0, 21, 0, 1, 0, 0, 0, 0, 15, 0, 0, 3, 8]
 windows:
   "7d":
-    pushes: 3
+    pushes: 10
     distinct_repos: 1
     active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 18
+    pushes: 24
     distinct_repos: 3
-    active_days: 7
+    active_days: 6
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 60
+    pushes: 48
     distinct_repos: 5
     active_days: 13
     repos_not_owned: 3
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 4.6154
+  push_per_day: 3.6923
   repo_per_active_day: 0.3846
   not_owned_ratio: 0.6000
   basename_concentration: 0.6000
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 3
+    pushes: 10
     distinct_repos: 1
-    pushes_per_repo: 3.0000
+    pushes_per_repo: 10.0000
     active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 18
+    pushes: 24
     distinct_repos: 3
-    pushes_per_repo: 6.0000
-    active_days: 7
+    pushes_per_repo: 8.0000
+    active_days: 6
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 60
+    pushes: 48
     distinct_repos: 5
-    pushes_per_repo: 12.0000
+    pushes_per_repo: 9.6000
     active_days: 13
     repos_not_owned: 3
     not_owned_basenames: 2
@@ -76,11 +76,83 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 13 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "code-review-graph"
+    title: "code-review-graph"
+    description: "Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read only what matters, with benchmarked context reductions on reviews and large-repo workflows."
+    language: "Python"
+    topics:
+      - "ai-coding"
+      - "claude"
+      - "claude-code"
+      - "code-review"
+      - "graphrag"
+      - "incremental"
+      - "knowledge-graph"
+      - "llm"
+      - "mcp"
+      - "python"
+      - "static-analysis"
+      - "tree-sitter"
+    stars_fact: 32184
+    first_seen: "2026-08-07T06:00:03.620287+00:00"
+    last_push: "2026-10-15"
+  - name: "tirth8205"
+    title: "tirth8205"
+    description: "My Personal Repository"
+    language: null
+    topics: []
+    stars_fact: 5
+    first_seen: null
+    last_push: "2026-10-13"
+  - name: "GraphMinds"
+    title: "GraphMinds"
+    description: "GraphMinds: A Python project exploring graph-based algorithms and AI models."
+    language: "Python"
+    topics:
+      - "knowledge-graph"
+      - "nlp"
+      - "prompt-engineering"
+      - "rag"
+    stars_fact: 8
+    first_seen: null
+    last_push: "2025-05-29"
+  - name: "claude-games"
+    title: "claude-games"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 6
+    first_seen: null
+    last_push: "2026-04-13"
+  - name: "Jailbreak-Eval"
+    title: "Jailbreak-Eval"
+    description: "Production-grade LLM red-teaming framework with multi-agent swarm, GCG, PAIR, mutation engine, and Streamlit dashboard — for defensive AI safety research only."
+    language: "Python"
+    topics:
+      - "adversarial-attacks"
+      - "ai-safety"
+      - "jailbreak"
+      - "llm"
+      - "python"
+      - "red-teaming"
+      - "security-research"
+      - "streamlit"
+    stars_fact: 8
+    first_seen: null
+    last_push: "2026-04-11"
+  - name: "MERIT"
+    title: "MERIT"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-03-13"
 ---
 
 # tirth8205
 
-60 pushes across 5 repositories on 13 active days in the last 90 days of public GitHub push activity.
+48 pushes across 5 repositories on 13 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/tirth8205

@@ -10,39 +10,39 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-11T06:04:44.624574+00:00"
+generated_at: "2026-10-16T08:30:18.142355+00:00"
 provenance:
   - "541318303a272608"
   - "73468cde177ddae6"
-pushes_per_week: [5, 1, 0, 1, 0, 0, 0, 0, 0, 2, 1, 2, 4]
+pushes_per_week: [1, 0, 1, 0, 0, 0, 0, 0, 1, 2, 0, 6, 4]
 windows:
   "7d":
     pushes: 4
-    distinct_repos: 3
+    distinct_repos: 2
     active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 9
-    distinct_repos: 4
-    active_days: 6
+    pushes: 12
+    distinct_repos: 5
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 16
-    distinct_repos: 8
-    active_days: 11
+    pushes: 15
+    distinct_repos: 6
+    active_days: 10
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.4545
-  repo_per_active_day: 0.7273
+  push_per_day: 1.5000
+  repo_per_active_day: 0.6000
   not_owned_ratio: 0.0000
-  basename_concentration: 0.1250
+  basename_concentration: 0.1667
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -52,31 +52,31 @@ automation:
 facets:
   "7d":
     pushes: 4
-    distinct_repos: 3
-    pushes_per_repo: 1.3333
+    distinct_repos: 2
+    pushes_per_repo: 2.0000
     active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 9
-    distinct_repos: 4
-    pushes_per_repo: 2.2500
-    active_days: 6
+    pushes: 12
+    distinct_repos: 5
+    pushes_per_repo: 2.4000
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 16
-    distinct_repos: 8
-    pushes_per_repo: 2.0000
-    active_days: 11
+    pushes: 15
+    distinct_repos: 6
+    pushes_per_repo: 2.5000
+    active_days: 10
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 11 active days in 90d — pass"
+  - "activity: 10 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "axelray-dev"
@@ -91,6 +91,6 @@ repos:
 
 # axelray-dev
 
-16 pushes across 8 repositories on 11 active days in the last 90 days of public GitHub push activity.
+15 pushes across 6 repositories on 10 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/axelray-dev

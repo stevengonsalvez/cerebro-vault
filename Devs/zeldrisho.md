@@ -8,37 +8,37 @@ provenance_repos:
   - "AlexsJones/llmfit"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-11T06:04:44.624574+00:00"
+repos_populated: true
+generated_at: "2026-10-16T08:30:18.142355+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [4, 1, 4, 6, 7, 9, 3, 0, 1, 8, 8, 10, 1]
+pushes_per_week: [4, 3, 4, 10, 2, 11, 0, 1, 6, 5, 12, 4, 3]
 windows:
   "7d":
     pushes: 3
-    distinct_repos: 3
-    active_days: 2
+    distinct_repos: 2
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 27
-    distinct_repos: 10
-    active_days: 14
+    pushes: 26
+    distinct_repos: 7
+    active_days: 16
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 62
+    pushes: 65
     distinct_repos: 19
-    active_days: 30
+    active_days: 33
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.0667
-  repo_per_active_day: 0.6333
+  push_per_day: 1.9697
+  repo_per_active_day: 0.5758
   not_owned_ratio: 0.0000
   basename_concentration: 0.0526
   shapes: []
@@ -50,37 +50,77 @@ automation:
 facets:
   "7d":
     pushes: 3
-    distinct_repos: 3
-    pushes_per_repo: 1.0000
-    active_days: 2
+    distinct_repos: 2
+    pushes_per_repo: 1.5000
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 27
-    distinct_repos: 10
-    pushes_per_repo: 2.7000
-    active_days: 14
+    pushes: 26
+    distinct_repos: 7
+    pushes_per_repo: 3.7143
+    active_days: 16
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 62
+    pushes: 65
     distinct_repos: 19
-    pushes_per_repo: 3.2632
-    active_days: 30
+    pushes_per_repo: 3.4211
+    active_days: 33
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 30 active days in 90d — pass"
+  - "activity: 33 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "fedora-copr"
+    title: "fedora-copr"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-16"
+  - name: "scoop-bucket"
+    title: "scoop-bucket"
+    description: "Yet another Scoop bucket"
+    language: "PowerShell"
+    topics: []
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-10-16"
+  - name: "UnityVietnameseFontSync"
+    title: "UnityVietnameseFontSync"
+    description: "BepInEx 5 plugin for Vietnamese glyph fallback and targeted TextMeshPro font replacement in Unity Mono games."
+    language: "C#"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-15"
+  - name: "morphe-patches"
+    title: "morphe-patches"
+    description: "Yet another Morphe Patches"
+    language: "Kotlin"
+    topics: []
+    stars_fact: 20
+    first_seen: null
+    last_push: "2026-10-08"
+  - name: "pi-packages"
+    title: "pi-packages"
+    description: "Yet another Pi packages"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-10-12"
 ---
 
 # zeldrisho
 
-62 pushes across 19 repositories on 30 active days in the last 90 days of public GitHub push activity.
+65 pushes across 19 repositories on 33 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/zeldrisho

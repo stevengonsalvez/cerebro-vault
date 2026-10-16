@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-11T06:04:44.624574+00:00"
+generated_at: "2026-10-16T08:30:18.142355+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [17, 12, 13, 11, 37, 4, 0, 1, 7, 20, 10, 6, 6]
+pushes_per_week: [17, 12, 10, 28, 16, 0, 0, 3, 17, 14, 10, 6, 0]
 windows:
   "7d":
-    pushes: 6
-    distinct_repos: 3
-    active_days: 3
-    repos_not_owned: 2
-    not_owned_basenames: 2
-    not_owned_owners: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
-    pushes: 47
+    pushes: 39
     distinct_repos: 6
-    active_days: 20
+    active_days: 17
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 144
+    pushes: 133
     distinct_repos: 9
-    active_days: 49
+    active_days: 47
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.9388
-  repo_per_active_day: 0.1837
+  push_per_day: 2.8298
+  repo_per_active_day: 0.1915
   not_owned_ratio: 0.4444
   basename_concentration: 0.1111
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 6
-    distinct_repos: 3
-    pushes_per_repo: 2.0000
-    active_days: 3
-    repos_not_owned: 2
-    not_owned_basenames: 2
-    not_owned_owners: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
-    pushes: 47
+    pushes: 39
     distinct_repos: 6
-    pushes_per_repo: 7.8333
-    active_days: 20
+    pushes_per_repo: 6.5000
+    active_days: 17
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 144
+    pushes: 133
     distinct_repos: 9
-    pushes_per_repo: 16.0000
-    active_days: 49
+    pushes_per_repo: 14.7778
+    active_days: 47
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 49 active days in 90d — pass"
+  - "activity: 47 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "hassio-addons"
@@ -191,6 +191,6 @@ repos:
 
 # mrwogu
 
-144 pushes across 9 repositories on 49 active days in the last 90 days of public GitHub push activity.
+133 pushes across 9 repositories on 47 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/mrwogu

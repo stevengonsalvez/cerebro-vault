@@ -8,39 +8,39 @@ provenance_repos:
   - "ayghri/i-have-adhd"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-11T06:04:44.624574+00:00"
+repos_populated: true
+generated_at: "2026-10-16T08:30:18.142355+00:00"
 provenance:
   - "46f3c1d6124190bd"
-pushes_per_week: [5, 4, 3, 3, 2, 4, 0, 0, 8, 32, 11, 9, 1]
+pushes_per_week: [4, 3, 2, 3, 0, 4, 0, 0, 26, 21, 9, 5, 6]
 windows:
   "7d":
-    pushes: 3
-    distinct_repos: 2
+    pushes: 6
+    distinct_repos: 5
     active_days: 2
-    repos_not_owned: 2
-    not_owned_basenames: 2
+    repos_not_owned: 1
+    not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 61
-    distinct_repos: 13
-    active_days: 19
+    pushes: 47
+    distinct_repos: 16
+    active_days: 17
     repos_not_owned: 8
     not_owned_basenames: 8
     not_owned_owners: 2
   "90d":
-    pushes: 82
-    distinct_repos: 21
-    active_days: 31
-    repos_not_owned: 10
-    not_owned_basenames: 10
+    pushes: 83
+    distinct_repos: 23
+    active_days: 30
+    repos_not_owned: 9
+    not_owned_basenames: 9
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 2.6452
-  repo_per_active_day: 0.6774
-  not_owned_ratio: 0.4762
-  basename_concentration: 0.0476
+  push_per_day: 2.7667
+  repo_per_active_day: 0.7667
+  not_owned_ratio: 0.3913
+  basename_concentration: 0.0435
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,38 +49,94 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 3
-    distinct_repos: 2
-    pushes_per_repo: 1.5000
+    pushes: 6
+    distinct_repos: 5
+    pushes_per_repo: 1.2000
     active_days: 2
-    repos_not_owned: 2
-    not_owned_basenames: 2
+    repos_not_owned: 1
+    not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 61
-    distinct_repos: 13
-    pushes_per_repo: 4.6923
-    active_days: 19
+    pushes: 47
+    distinct_repos: 16
+    pushes_per_repo: 2.9375
+    active_days: 17
     repos_not_owned: 8
     not_owned_basenames: 8
     not_owned_owners: 2
   "90d":
-    pushes: 82
-    distinct_repos: 21
-    pushes_per_repo: 3.9048
-    active_days: 31
-    repos_not_owned: 10
-    not_owned_basenames: 10
+    pushes: 83
+    distinct_repos: 23
+    pushes_per_repo: 3.6087
+    active_days: 30
+    repos_not_owned: 9
+    not_owned_basenames: 9
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 31 active days in 90d — pass"
+  - "activity: 30 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "webdevtodayjason"
+    title: "webdevtodayjason"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-13"
+  - name: "mct2032"
+    title: "mct2032"
+    description: "ESP32 Pen Testing Dev Project"
+    language: "C++"
+    topics:
+      - "cybersecurity"
+      - "esp32"
+      - "penetration-testing"
+      - "pentesting"
+    stars_fact: 22
+    first_seen: null
+    last_push: "2025-06-02"
+  - name: "hermes"
+    title: "hermes"
+    description: "Hermes Familiar — ESP32-S3 desk companion, a native Hermes gateway plugin: live agent state, tap-to-approve, desk pings, cron/vitals pages"
+    language: "C"
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-07-06"
+  - name: "A2AMCP"
+    title: "A2AMCP"
+    description: "A2AMCP is a Agent2Agent MCP communication Server taking the concept from Google's Agent2Agent Protocol (A2A)"
+    language: "Python"
+    topics: []
+    stars_fact: 21
+    first_seen: null
+    last_push: "2025-06-09"
+  - name: "tiinyengineer"
+    title: "tiinyengineer"
+    description: "A dependable operations watcher for endpoints, jobs, backups, containers, and devices."
+    language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-03"
+  - name: "subctl"
+    title: "subctl"
+    description: "Subscription Central — unified CLI/TUI/dashboard for AI subscriptions you're paying for. Multi-account, rate-limit-aware, tmux team launcher, web dashboard. Phase 1: Anthropic Claude."
+    language: "TypeScript"
+    topics:
+      - "ai-agents"
+      - "ai-cli"
+      - "ai-tools"
+      - "claude-code"
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-06-12"
 ---
 
 # webdevtodayjason
 
-82 pushes across 21 repositories on 31 active days in the last 90 days of public GitHub push activity.
+83 pushes across 23 repositories on 30 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/webdevtodayjason

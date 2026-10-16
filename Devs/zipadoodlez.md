@@ -8,11 +8,11 @@ provenance_repos:
   - "1jehuang/jcode"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-11T06:04:44.624574+00:00"
+repos_populated: true
+generated_at: "2026-10-16T08:30:18.142355+00:00"
 provenance:
   - "2a7f0fddd2dac162"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 3, 2, 1]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 2, 1, 1]
 windows:
   "7d":
     pushes: 1
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 7
+    pushes: 8
     distinct_repos: 4
-    active_days: 7
+    active_days: 8
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 7
+    pushes: 8
     distinct_repos: 4
-    active_days: 7
+    active_days: 8
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
   push_per_day: 1.0000
-  repo_per_active_day: 0.5714
+  repo_per_active_day: 0.5000
   not_owned_ratio: 0.0000
   basename_concentration: 0.2500
   shapes: []
@@ -57,30 +57,78 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 7
+    pushes: 8
     distinct_repos: 4
-    pushes_per_repo: 1.7500
-    active_days: 7
+    pushes_per_repo: 2.0000
+    active_days: 8
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 7
+    pushes: 8
     distinct_repos: 4
-    pushes_per_repo: 1.7500
-    active_days: 7
+    pushes_per_repo: 2.0000
+    active_days: 8
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 7 active days in 90d — pass"
+  - "activity: 8 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "maki-session-index"
+    title: "maki-session-index"
+    description: "Search and read your other maki chat sessions"
+    language: "Lua"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-13"
+  - name: "safe-ish-yolo"
+    title: "safe-ish-yolo"
+    description: null
+    language: "Lua"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-10"
+  - name: "kcode"
+    title: "kcode"
+    description: "a lean fork of jcode"
+    language: "Rust"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-04"
+  - name: "kgrep"
+    title: "kgrep"
+    description: null
+    language: "Rust"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-04"
+  - name: "git-test"
+    title: "git-test"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2023-11-10"
+  - name: "README.md"
+    title: "README.md"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2023-11-10"
 ---
 
 # zipadoodlez
 
-7 pushes across 4 repositories on 7 active days in the last 90 days of public GitHub push activity.
+8 pushes across 4 repositories on 8 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/zipadoodlez

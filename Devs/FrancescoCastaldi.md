@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-11T06:04:44.624574+00:00"
+generated_at: "2026-10-16T08:30:18.142355+00:00"
 provenance:
   - "dffbb846389f9a26"
-pushes_per_week: [7, 1, 2, 2, 1, 0, 0, 1, 3, 5, 2, 7, 4]
+pushes_per_week: [2, 2, 1, 2, 0, 0, 1, 3, 3, 4, 4, 7, 9]
 windows:
   "7d":
-    pushes: 4
-    distinct_repos: 4
-    active_days: 3
+    pushes: 9
+    distinct_repos: 2
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 19
+    pushes: 27
     distinct_repos: 8
-    active_days: 9
+    active_days: 12
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 35
-    distinct_repos: 12
-    active_days: 19
+    pushes: 38
+    distinct_repos: 11
+    active_days: 21
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.8421
-  repo_per_active_day: 0.6316
+  push_per_day: 1.8095
+  repo_per_active_day: 0.5238
   not_owned_ratio: 0.0000
-  basename_concentration: 0.0833
+  basename_concentration: 0.0909
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 4
-    distinct_repos: 4
-    pushes_per_repo: 1.0000
-    active_days: 3
+    pushes: 9
+    distinct_repos: 2
+    pushes_per_repo: 4.5000
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 19
+    pushes: 27
     distinct_repos: 8
-    pushes_per_repo: 2.3750
-    active_days: 9
+    pushes_per_repo: 3.3750
+    active_days: 12
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 35
-    distinct_repos: 12
-    pushes_per_repo: 2.9167
-    active_days: 19
+    pushes: 38
+    distinct_repos: 11
+    pushes_per_repo: 3.4545
+    active_days: 21
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 19 active days in 90d — pass"
+  - "activity: 21 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "FrancescoCastaldi"
@@ -129,6 +129,6 @@ repos:
 
 # FrancescoCastaldi
 
-35 pushes across 12 repositories on 19 active days in the last 90 days of public GitHub push activity.
+38 pushes across 11 repositories on 21 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/FrancescoCastaldi

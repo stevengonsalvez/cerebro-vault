@@ -8,11 +8,11 @@ provenance_repos:
   - "chaitanyagiri/munder-difflin"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-11T06:04:44.624574+00:00"
+repos_populated: true
+generated_at: "2026-10-16T08:30:18.142355+00:00"
 provenance:
   - "e5b23adc376a62a9"
-pushes_per_week: [37, 13, 12, 4, 8, 1, 0, 1, 1, 2, 0, 1, 0]
+pushes_per_week: [6, 18, 7, 5, 4, 0, 1, 1, 2, 0, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 80
+    pushes: 45
     distinct_repos: 11
-    active_days: 28
+    active_days: 23
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.8571
-  repo_per_active_day: 0.3929
+  push_per_day: 1.9565
+  repo_per_active_day: 0.4783
   not_owned_ratio: 0.0000
   basename_concentration: 0.0909
   shapes: []
@@ -65,22 +65,87 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 80
+    pushes: 45
     distinct_repos: 11
-    pushes_per_repo: 7.2727
-    active_days: 28
+    pushes_per_repo: 4.0909
+    active_days: 23
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 28 active days in 90d — pass"
+  - "activity: 23 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "xxiaoxiong"
+    title: "xxiaoxiong"
+    description: "我的 github 介绍页"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-16"
+  - name: "learn-deepseek-harness"
+    title: "learn-deepseek-harness"
+    description: "DeepSeek Harness 架构与源码深度课程：28 章、6 层、64 个源码锚点，通俗拆解 Agent runtime、Cordis 插件系统、工具管线与可恢复执行。中英双语互动站点。"
+    language: "TypeScript"
+    topics:
+      - "agent"
+      - "agent-architecture"
+      - "ai-agents"
+      - "deepseek"
+      - "deepseek-chat"
+      - "deepseek-harness"
+      - "harness"
+      - "harness-engineering"
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-08-15"
+  - name: "WanderMind"
+    title: "WanderMind"
+    description: "WanderMind 是一个能够基于用户已有知识、经历、问题和零碎想法，进行持续思维漫游、跨领域联想、自主提问、探索和洞察，并筛选出真正值得用户继续思考的新想法的智能体。"
+    language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-07"
+  - name: "human-knowledge-model"
+    title: "human-knowledge-model"
+    description: "平时我们接触到问题后的分解都是基于经验归纳总结得出认知范围内的满意解，现在提出一种方法能够以推理演绎的方式、从系统论角度出发找到问题的所有解，再去找最优解，后者的思考方式和科学研究的思考方式如出一辙，但如果将这种思考方式和求解方式迁移到工程与现实问题，我觉得是很有意思的事情。"
+    language: "Python"
+    topics:
+      - "deduct-think"
+      - "multi-model"
+      - "thinking-model"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-29"
+  - name: "My-Harness"
+    title: "My-Harness"
+    description: "My-Harness"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-13"
+  - name: "dsh-prometheus"
+    title: "dsh-prometheus"
+    description: "Privacy-conscious Prometheus metrics and Grafana dashboards for DeepSeek Harness"
+    language: "TypeScript"
+    topics:
+      - "ai-agents"
+      - "deepseek-harness"
+      - "dsh-plugin"
+      - "grafana"
+      - "observability"
+      - "prometheus"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-08-22"
 ---
 
 # xxiaoxiong
 
-80 pushes across 11 repositories on 28 active days in the last 90 days of public GitHub push activity.
+45 pushes across 11 repositories on 23 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/xxiaoxiong

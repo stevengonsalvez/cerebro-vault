@@ -10,37 +10,37 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-11T06:04:44.624574+00:00"
+generated_at: "2026-10-16T08:30:18.142355+00:00"
 provenance:
   - "576c6507cbdd1cf3"
   - "c87b77df69f1bb71"
-pushes_per_week: [18, 14, 14, 15, 15, 7, 4, 1, 4, 4, 5, 2, 6]
+pushes_per_week: [12, 15, 16, 19, 5, 7, 0, 3, 3, 4, 6, 6, 3]
 windows:
   "7d":
-    pushes: 6
-    distinct_repos: 1
-    active_days: 2
-    repos_not_owned: 1
-    not_owned_basenames: 1
+    pushes: 3
+    distinct_repos: 2
+    active_days: 3
+    repos_not_owned: 2
+    not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 20
-    distinct_repos: 2
+    pushes: 19
+    distinct_repos: 3
     active_days: 11
-    repos_not_owned: 1
-    not_owned_basenames: 1
+    repos_not_owned: 2
+    not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 109
+    pushes: 99
     distinct_repos: 13
-    active_days: 49
+    active_days: 48
     repos_not_owned: 11
     not_owned_basenames: 2
     not_owned_owners: 10
 automation:
   state: "clear"
-  push_per_day: 2.2245
-  repo_per_active_day: 0.2653
+  push_per_day: 2.0625
+  repo_per_active_day: 0.2708
   not_owned_ratio: 0.8462
   basename_concentration: 0.8462
   shapes:
@@ -67,32 +67,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 6
-    distinct_repos: 1
-    pushes_per_repo: 6.0000
-    active_days: 2
-    repos_not_owned: 1
-    not_owned_basenames: 1
+    pushes: 3
+    distinct_repos: 2
+    pushes_per_repo: 1.5000
+    active_days: 3
+    repos_not_owned: 2
+    not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 20
-    distinct_repos: 2
-    pushes_per_repo: 10.0000
+    pushes: 19
+    distinct_repos: 3
+    pushes_per_repo: 6.3333
     active_days: 11
-    repos_not_owned: 1
-    not_owned_basenames: 1
+    repos_not_owned: 2
+    not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 109
+    pushes: 99
     distinct_repos: 13
-    pushes_per_repo: 8.3846
-    active_days: 49
+    pushes_per_repo: 7.6154
+    active_days: 48
     repos_not_owned: 11
     not_owned_basenames: 2
     not_owned_owners: 10
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 49 active days in 90d — pass"
+  - "activity: 48 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "pi-extensions"
@@ -160,6 +160,6 @@ repos:
 
 # ogulcancelik
 
-109 pushes across 13 repositories on 49 active days in the last 90 days of public GitHub push activity.
+99 pushes across 13 repositories on 48 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ogulcancelik

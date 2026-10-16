@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-11T06:04:44.624574+00:00"
+generated_at: "2026-10-16T08:30:18.142355+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [88, 52, 133, 4, 36, 1, 2, 3, 3, 25, 2, 3, 2]
+pushes_per_week: [102, 119, 19, 30, 7, 2, 0, 6, 22, 4, 3, 1, 26]
 windows:
   "7d":
-    pushes: 2
-    distinct_repos: 1
-    active_days: 2
+    pushes: 26
+    distinct_repos: 5
+    active_days: 5
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 33
-    distinct_repos: 5
-    active_days: 11
+    pushes: 56
+    distinct_repos: 9
+    active_days: 13
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 354
-    distinct_repos: 13
-    active_days: 42
+    pushes: 341
+    distinct_repos: 14
+    active_days: 41
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 8.4286
-  repo_per_active_day: 0.3095
-  not_owned_ratio: 0.0769
-  basename_concentration: 0.1538
+  push_per_day: 8.3171
+  repo_per_active_day: 0.3415
+  not_owned_ratio: 0.0714
+  basename_concentration: 0.1429
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
-    distinct_repos: 1
-    pushes_per_repo: 2.0000
-    active_days: 2
+    pushes: 26
+    distinct_repos: 5
+    pushes_per_repo: 5.2000
+    active_days: 5
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 33
-    distinct_repos: 5
-    pushes_per_repo: 6.6000
-    active_days: 11
+    pushes: 56
+    distinct_repos: 9
+    pushes_per_repo: 6.2222
+    active_days: 13
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 354
-    distinct_repos: 13
-    pushes_per_repo: 27.2308
-    active_days: 42
+    pushes: 341
+    distinct_repos: 14
+    pushes_per_repo: 24.3571
+    active_days: 41
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 42 active days in 90d — pass"
+  - "activity: 41 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "armory"
@@ -152,6 +152,6 @@ repos:
 
 # Mathews-Tom
 
-354 pushes across 13 repositories on 42 active days in the last 90 days of public GitHub push activity.
+341 pushes across 14 repositories on 41 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Mathews-Tom

@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-11T06:04:44.624574+00:00"
+generated_at: "2026-10-16T08:30:18.142355+00:00"
 provenance:
   - "541318303a272608"
-pushes_per_week: [16, 5, 1, 0, 7, 2, 4, 1, 1, 5, 4, 4, 0]
+pushes_per_week: [8, 2, 0, 5, 3, 5, 1, 1, 1, 4, 8, 0, 2]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
+    pushes: 2
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 13
+    pushes: 14
     distinct_repos: 5
     active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 50
-    distinct_repos: 11
-    active_days: 25
+    pushes: 40
+    distinct_repos: 9
+    active_days: 22
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.0000
-  repo_per_active_day: 0.4400
-  not_owned_ratio: 0.0909
-  basename_concentration: 0.0909
+  push_per_day: 1.8182
+  repo_per_active_day: 0.4091
+  not_owned_ratio: 0.1111
+  basename_concentration: 0.1111
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
+    pushes: 2
+    distinct_repos: 1
+    pushes_per_repo: 2.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 13
+    pushes: 14
     distinct_repos: 5
-    pushes_per_repo: 2.6000
+    pushes_per_repo: 2.8000
     active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 50
-    distinct_repos: 11
-    pushes_per_repo: 4.5455
-    active_days: 25
+    pushes: 40
+    distinct_repos: 9
+    pushes_per_repo: 4.4444
+    active_days: 22
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 25 active days in 90d — pass"
+  - "activity: 22 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "douban-cli"
@@ -154,6 +154,6 @@ repos:
 
 # AaronZ345
 
-50 pushes across 11 repositories on 25 active days in the last 90 days of public GitHub push activity.
+40 pushes across 9 repositories on 22 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/AaronZ345

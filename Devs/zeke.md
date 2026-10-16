@@ -8,37 +8,37 @@ provenance_repos:
   - "anomalyco/opencode"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-11T06:04:44.624574+00:00"
+repos_populated: true
+generated_at: "2026-10-16T08:30:18.142355+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [15, 5, 5, 8, 7, 4, 0, 0, 1, 5, 4, 5, 5]
+pushes_per_week: [6, 5, 6, 10, 2, 2, 0, 0, 4, 5, 5, 6, 2]
 windows:
   "7d":
-    pushes: 6
-    distinct_repos: 3
-    active_days: 4
-    repos_not_owned: 2
-    not_owned_basenames: 2
-    not_owned_owners: 2
+    pushes: 2
+    distinct_repos: 2
+    active_days: 1
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "30d":
-    pushes: 20
-    distinct_repos: 6
-    active_days: 16
+    pushes: 19
+    distinct_repos: 7
+    active_days: 14
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
   "90d":
-    pushes: 64
+    pushes: 53
     distinct_repos: 11
-    active_days: 40
+    active_days: 37
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 1.6000
-  repo_per_active_day: 0.2750
+  push_per_day: 1.4324
+  repo_per_active_day: 0.2973
   not_owned_ratio: 0.2727
   basename_concentration: 0.1818
   shapes: []
@@ -49,38 +49,94 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 6
-    distinct_repos: 3
-    pushes_per_repo: 2.0000
-    active_days: 4
-    repos_not_owned: 2
-    not_owned_basenames: 2
-    not_owned_owners: 2
+    pushes: 2
+    distinct_repos: 2
+    pushes_per_repo: 1.0000
+    active_days: 1
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "30d":
-    pushes: 20
-    distinct_repos: 6
-    pushes_per_repo: 3.3333
-    active_days: 16
+    pushes: 19
+    distinct_repos: 7
+    pushes_per_repo: 2.7143
+    active_days: 14
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
   "90d":
-    pushes: 64
+    pushes: 53
     distinct_repos: 11
-    pushes_per_repo: 5.8182
-    active_days: 40
+    pushes_per_repo: 4.8182
+    active_days: 37
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 40 active days in 90d — pass"
+  - "activity: 37 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "small-app-gardener"
+    title: "small-app-gardener"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-16"
+  - name: "skills"
+    title: "skills"
+    description: "A catalog of public agent skill packages I maintain and use"
+    language: null
+    topics: []
+    stars_fact: 13
+    first_seen: null
+    last_push: "2026-10-15"
+  - name: "paper-app-skill"
+    title: "paper-app-skill"
+    description: "Agent skill for working in the Paper design app through its MCP server"
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-15"
+  - name: "swiss-design-skill"
+    title: "swiss-design-skill"
+    description: "A Swiss International Style design system skill for AI agents"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 157
+    first_seen: null
+    last_push: "2026-09-24"
+  - name: "slop.how"
+    title: "slop.how"
+    description: "A fast and free API for detecting sloppy text"
+    language: "TypeScript"
+    topics:
+      - "ai-writing"
+      - "clef"
+      - "cloudflare-workers"
+      - "hono"
+      - "llms-txt"
+      - "slop"
+      - "workers-ai"
+      - "writing"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-15"
+  - name: "agents.md"
+    title: "agents.md"
+    description: "My global instructions for AI agents like OpenCode"
+    language: null
+    topics: []
+    stars_fact: 156
+    first_seen: null
+    last_push: "2026-10-13"
 ---
 
 # zeke
 
-64 pushes across 11 repositories on 40 active days in the last 90 days of public GitHub push activity.
+53 pushes across 11 repositories on 37 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/zeke

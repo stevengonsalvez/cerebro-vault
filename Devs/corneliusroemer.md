@@ -9,40 +9,40 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-11T06:04:44.624574+00:00"
+generated_at: "2026-10-16T08:30:18.142355+00:00"
 provenance:
   - "97c4e9cb8b163ddb"
   - "c7515e0fa4368a55"
   - "d3abe74726b22711"
   - "e7c647c4d0689526"
-pushes_per_week: [4, 3, 0, 2, 2, 2, 2, 0, 1, 5, 7, 8, 2]
+pushes_per_week: [2, 1, 2, 2, 2, 2, 0, 1, 5, 3, 12, 2, 2]
 windows:
   "7d":
     pushes: 2
     distinct_repos: 2
     active_days: 1
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
-  "30d":
-    pushes: 22
-    distinct_repos: 6
-    active_days: 11
-    repos_not_owned: 4
-    not_owned_basenames: 4
+    repos_not_owned: 2
+    not_owned_basenames: 2
     not_owned_owners: 2
+  "30d":
+    pushes: 23
+    distinct_repos: 7
+    active_days: 11
+    repos_not_owned: 5
+    not_owned_basenames: 5
+    not_owned_owners: 3
   "90d":
-    pushes: 38
+    pushes: 36
     distinct_repos: 10
-    active_days: 23
-    repos_not_owned: 6
-    not_owned_basenames: 6
-    not_owned_owners: 4
+    active_days: 22
+    repos_not_owned: 7
+    not_owned_basenames: 7
+    not_owned_owners: 5
 automation:
   state: "clear"
-  push_per_day: 1.6522
-  repo_per_active_day: 0.4348
-  not_owned_ratio: 0.6000
+  push_per_day: 1.6364
+  repo_per_active_day: 0.4545
+  not_owned_ratio: 0.7000
   basename_concentration: 0.1000
   shapes: []
   shape_evidence: []
@@ -56,28 +56,28 @@ facets:
     distinct_repos: 2
     pushes_per_repo: 1.0000
     active_days: 1
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
-  "30d":
-    pushes: 22
-    distinct_repos: 6
-    pushes_per_repo: 3.6667
-    active_days: 11
-    repos_not_owned: 4
-    not_owned_basenames: 4
+    repos_not_owned: 2
+    not_owned_basenames: 2
     not_owned_owners: 2
+  "30d":
+    pushes: 23
+    distinct_repos: 7
+    pushes_per_repo: 3.2857
+    active_days: 11
+    repos_not_owned: 5
+    not_owned_basenames: 5
+    not_owned_owners: 3
   "90d":
-    pushes: 38
+    pushes: 36
     distinct_repos: 10
-    pushes_per_repo: 3.8000
-    active_days: 23
-    repos_not_owned: 6
-    not_owned_basenames: 6
-    not_owned_owners: 4
+    pushes_per_repo: 3.6000
+    active_days: 22
+    repos_not_owned: 7
+    not_owned_basenames: 7
+    not_owned_owners: 5
 reasons:
   - "provenance: 4 vault signal(s) — pass"
-  - "activity: 23 active days in 90d — pass"
+  - "activity: 22 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "rki-abwasser-reports"
@@ -138,6 +138,6 @@ repos:
 
 # corneliusroemer
 
-38 pushes across 10 repositories on 23 active days in the last 90 days of public GitHub push activity.
+36 pushes across 10 repositories on 22 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/corneliusroemer

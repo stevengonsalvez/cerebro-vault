@@ -8,39 +8,39 @@ provenance_repos:
   - "agentscope-ai/QwenPaw"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-11T06:04:44.624574+00:00"
+repos_populated: true
+generated_at: "2026-10-16T08:30:18.142355+00:00"
 provenance:
   - "541318303a272608"
-pushes_per_week: [77, 12, 21, 8, 21, 1, 1, 1, 1, 1, 0, 7, 7]
+pushes_per_week: [33, 17, 14, 21, 2, 2, 0, 2, 1, 0, 3, 11, 2]
 windows:
   "7d":
-    pushes: 7
-    distinct_repos: 5
-    active_days: 3
+    pushes: 2
+    distinct_repos: 2
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 15
-    distinct_repos: 9
-    active_days: 7
+    pushes: 17
+    distinct_repos: 10
+    active_days: 9
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 158
-    distinct_repos: 25
-    active_days: 42
+    pushes: 108
+    distinct_repos: 26
+    active_days: 39
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 3.7619
-  repo_per_active_day: 0.5952
+  push_per_day: 2.7692
+  repo_per_active_day: 0.6667
   not_owned_ratio: 0.0000
-  basename_concentration: 0.0800
+  basename_concentration: 0.0769
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,38 +49,160 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 7
-    distinct_repos: 5
-    pushes_per_repo: 1.4000
-    active_days: 3
+    pushes: 2
+    distinct_repos: 2
+    pushes_per_repo: 1.0000
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 15
-    distinct_repos: 9
-    pushes_per_repo: 1.6667
-    active_days: 7
+    pushes: 17
+    distinct_repos: 10
+    pushes_per_repo: 1.7000
+    active_days: 9
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 158
-    distinct_repos: 25
-    pushes_per_repo: 6.3200
-    active_days: 42
+    pushes: 108
+    distinct_repos: 26
+    pushes_per_repo: 4.1538
+    active_days: 39
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 42 active days in 90d — pass"
+  - "activity: 39 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "Yigtwxx"
+    title: "Yigtwxx"
+    description: null
+    language: null
+    topics:
+      - "deep-learning"
+      - "docker"
+      - "llm"
+      - "machine-learning"
+      - "nlp"
+      - "pandas"
+      - "python"
+      - "pytorch"
+      - "rag"
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-10-16"
+  - name: "awesome-rag-production"
+    title: "awesome-rag-production"
+    description: "A curated list of battle-tested tools, frameworks, and best practices for building scalable, production-grade Retrieval-Augmented Generation (RAG) systems."
+    language: "Python"
+    topics:
+      - "ai"
+      - "ai-engineering"
+      - "artificial-intelligence"
+      - "awesome"
+      - "awesome-list"
+      - "curated-list"
+      - "embeddings"
+      - "generative-ai"
+      - "langchain"
+      - "large-language-models"
+      - "list"
+      - "llm"
+      - "llmops"
+      - "machine-learning"
+      - "mlops"
+      - "production"
+      - "python"
+      - "rag"
+      - "retrieval-augmented-generation"
+      - "vector-database"
+    stars_fact: 281
+    first_seen: null
+    last_push: "2026-10-15"
+  - name: "J.A.R.V.I.S"
+    title: "J.A.R.V.I.S"
+    description: "J.A.R.V.I.S: An AI-powered Open Source Intelligence (OSINT) system. It orchestrates deep web scraping and local LLMs to autonomously generate comprehensive intelligence dossiers."
+    language: "Python"
+    topics:
+      - "agent"
+      - "ai"
+      - "ai-assistant"
+      - "automation"
+      - "beautifulsoup"
+      - "fastapi"
+      - "intelligence"
+      - "jarvis"
+      - "local-llm"
+      - "local-llms"
+      - "nextjs"
+      - "ollama"
+      - "osint"
+      - "postgresql"
+      - "python"
+      - "react"
+      - "typescript"
+      - "web-scraping"
+    stars_fact: 9
+    first_seen: null
+    last_push: "2026-10-15"
+  - name: "aydin-university-map"
+    title: "aydin-university-map"
+    description: "3D map of İstanbul Aydın University's Florya campus, reconstructed from its 360° tour, with shortest walking routes, 360° walkthroughs and an AI assistant."
+    language: "TypeScript"
+    topics:
+      - "360-panorama"
+      - "3d-reconstruction"
+      - "campus-map"
+      - "colmap"
+      - "fastapi"
+      - "istanbul"
+      - "nextjs"
+      - "openstreetmap"
+      - "photogrammetry"
+      - "rag"
+      - "react-three-fiber"
+      - "shortest-path"
+      - "structure-from-motion"
+      - "wayfinding"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-16"
+  - name: "spiyweb"
+    title: "spiyweb"
+    description: "Graph-based retrieval for RAG — spreading-activation over a multi-layer vector graph, with redundancy-to-vote dedup and honesty outputs"
+    language: "Python"
+    topics:
+      - "ai"
+      - "embeddings"
+      - "python"
+      - "rag"
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-10-04"
+  - name: "WaterPulse"
+    title: "WaterPulse"
+    description: "WaterPulse — A cross-platform hydration tracker with smart reminders, clean UI, and a FastAPI + PostgreSQL backend. Built with Flutter for a fast, smooth mobile experience."
+    language: "Dart"
+    topics:
+      - "app"
+      - "dart"
+      - "fastapi"
+      - "flutter"
+      - "mobile-app"
+      - "postgresql"
+      - "productivity"
+      - "python"
+      - "sqlite"
+    stars_fact: 6
+    first_seen: null
+    last_push: "2025-12-28"
 ---
 
 # Yigtwxx
 
-158 pushes across 25 repositories on 42 active days in the last 90 days of public GitHub push activity.
+108 pushes across 26 repositories on 39 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Yigtwxx

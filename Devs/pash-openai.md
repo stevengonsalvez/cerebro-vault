@@ -9,12 +9,13 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-11T06:04:44.624574+00:00"
+generated_at: "2026-10-16T08:30:18.142355+00:00"
 provenance:
   - "0388a4f55f4206c8"
   - "0577669e18ed3998"
   - "094c4918ba5c2d38"
   - "2204ba57be324ff7"
+  - "255cde9f48a82982"
   - "3509861ced217170"
   - "396d5f6b9bc0a0f2"
   - "546861447eb67d73"
@@ -32,7 +33,7 @@ provenance:
   - "c6b4a874521ceb02"
   - "cf565721454d59f8"
   - "e26852201e6f38fc"
-pushes_per_week: [2, 1, 0, 1, 0, 0, 1, 0, 1, 4, 1, 0, 0]
+pushes_per_week: [1, 0, 1, 0, 0, 1, 0, 1, 4, 1, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -49,16 +50,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 11
+    pushes: 9
     distinct_repos: 1
-    active_days: 8
+    active_days: 7
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.3750
-  repo_per_active_day: 0.1250
+  push_per_day: 1.2857
+  repo_per_active_day: 0.1429
   not_owned_ratio: 1.0000
   basename_concentration: 1.0000
   shapes: []
@@ -85,22 +86,22 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 11
+    pushes: 9
     distinct_repos: 1
-    pushes_per_repo: 11.0000
-    active_days: 8
+    pushes_per_repo: 9.0000
+    active_days: 7
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
-  - "provenance: 21 vault signal(s) — pass"
-  - "activity: 8 active days in 90d — pass"
+  - "provenance: 22 vault signal(s) — pass"
+  - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
 repos: []
 ---
 
 # pash-openai
 
-11 pushes across 1 repository on 8 active days in the last 90 days of public GitHub push activity.
+9 pushes across 1 repository on 7 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/pash-openai

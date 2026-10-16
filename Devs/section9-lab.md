@@ -3,17 +3,16 @@ login: "section9-lab"
 name: null
 discovered_via: "vault"
 discovered_via_all:
-  - "fanout"
   - "vault"
 provenance_repos:
   - "citrolabs/ego-lite"
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-11T06:04:44.624574+00:00"
+generated_at: "2026-10-16T08:30:18.142355+00:00"
 provenance:
   - "dbbcb182b33b2dd8"
-pushes_per_week: [0, 3, 2, 1, 6, 0, 0, 0, 0, 1, 4, 0, 0]
+pushes_per_week: [1, 4, 1, 6, 0, 0, 0, 0, 1, 4, 0, 0, 0]
 windows:
   "7d":
     pushes: 0

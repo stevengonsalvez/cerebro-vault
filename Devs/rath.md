@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-11T06:04:44.624574+00:00"
+generated_at: "2026-10-16T08:30:18.142355+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 14, 7]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 11, 9, 7]
 windows:
   "7d":
-    pushes: 9
-    distinct_repos: 5
-    active_days: 5
+    pushes: 8
+    distinct_repos: 4
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 21
+    pushes: 27
     distinct_repos: 7
-    active_days: 9
+    active_days: 11
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 22
-    distinct_repos: 8
-    active_days: 10
+    pushes: 27
+    distinct_repos: 7
+    active_days: 11
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.2000
-  repo_per_active_day: 0.8000
+  push_per_day: 2.4545
+  repo_per_active_day: 0.6364
   not_owned_ratio: 0.0000
-  basename_concentration: 0.1250
+  basename_concentration: 0.1429
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,65 +49,42 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 9
-    distinct_repos: 5
-    pushes_per_repo: 1.8000
-    active_days: 5
+    pushes: 8
+    distinct_repos: 4
+    pushes_per_repo: 2.0000
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 21
+    pushes: 27
     distinct_repos: 7
-    pushes_per_repo: 3.0000
-    active_days: 9
+    pushes_per_repo: 3.8571
+    active_days: 11
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 22
-    distinct_repos: 8
-    pushes_per_repo: 2.7500
-    active_days: 10
+    pushes: 27
+    distinct_repos: 7
+    pushes_per_repo: 3.8571
+    active_days: 11
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 10 active days in 90d — pass"
+  - "activity: 11 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "vtamp"
-    title: "vtamp"
-    description: "A terminal music player that keeps playing when you detach. Built with Rust, with rich album art, themes, and an agent-friendly CLI."
-    language: "Rust"
+  - name: "macos-tmux-ime"
+    title: "macos-tmux-ime"
+    description: "macOS에서 한글 입력 중에도 tmux 단축키를 편하게. 별도 상주 앱 없이 prefix를 누르면 영문 입력기로 자동 전환합니다."
+    language: "Python"
     topics: []
-    stars_fact: 2
+    stars_fact: 1
     first_seen: null
-    last_push: "2026-10-03"
-  - name: "homebrew-tap"
-    title: "homebrew-tap"
-    description: "Homebrew formulae by Jang-Ho Hwang"
-    language: "Ruby"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-03"
-  - name: "Vimdow"
-    title: "Vimdow"
-    description: "Keyboard-driven window manager for macOS with Vim-style hjkl commands, counts, and undo."
-    language: "Swift"
-    topics:
-      - "hjkl"
-      - "keyboard-driven"
-      - "macos"
-      - "swift"
-      - "vim"
-      - "window-management"
-      - "window-manager"
-    stars_fact: 24
-    first_seen: null
-    last_push: "2026-10-02"
+    last_push: "2026-10-14"
   - name: "portway"
     title: "portway"
     description: "Delta-compressing HTTP proxy for LLM agents: each turn ships only the bytes added since the last request."
@@ -125,38 +102,58 @@ repos:
       - "zstd"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-02"
-  - name: "iotap"
-    title: "iotap"
-    description: "Trace the file and network I/O of chosen processes on macOS and Linux: every read and write with size, latency, and target."
+    last_push: "2026-10-14"
+  - name: "candy"
+    title: "candy"
+    description: "A native macOS image utility with a fast Rust CLI and a lightweight visual editor."
     language: "Rust"
     topics:
+      - "appkit"
       - "cli"
-      - "ebpf"
-      - "kdebug"
-      - "linux"
+      - "image-editor"
+      - "image-processing"
       - "macos"
-      - "network-monitoring"
+      - "ocr"
       - "rust"
-      - "strace"
-      - "syscalls"
-      - "tracing"
-      - "tui"
+      - "swift"
     stars_fact: 1
     first_seen: null
-    last_push: "2026-10-02"
+    last_push: "2026-10-14"
+  - name: "homebrew-tap"
+    title: "homebrew-tap"
+    description: "Homebrew formulae by Jang-Ho Hwang"
+    language: "Ruby"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-14"
+  - name: "Vimdow"
+    title: "Vimdow"
+    description: "Keyboard-driven window manager for macOS with Vim-style hjkl commands, counts, and undo."
+    language: "Swift"
+    topics:
+      - "hjkl"
+      - "keyboard-driven"
+      - "macos"
+      - "swift"
+      - "vim"
+      - "window-management"
+      - "window-manager"
+    stars_fact: 25
+    first_seen: null
+    last_push: "2026-10-14"
   - name: "orrery"
     title: "orrery"
     description: "서버 없이 브라우저에서 동작하는 사주팔자·자미두수·출생차트 계산기. 십신, 대운, 명반, 사화까지 한 번에."
     language: "TypeScript"
     topics: []
-    stars_fact: 155
+    stars_fact: 157
     first_seen: null
     last_push: "2026-09-20"
 ---
 
 # rath
 
-22 pushes across 8 repositories on 10 active days in the last 90 days of public GitHub push activity.
+27 pushes across 7 repositories on 11 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/rath

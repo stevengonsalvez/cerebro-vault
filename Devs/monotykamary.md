@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-11T06:04:44.624574+00:00"
+generated_at: "2026-10-16T08:30:18.142355+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [51, 30, 56, 23, 45, 10, 15, 6, 2, 28, 12, 24, 6]
+pushes_per_week: [31, 46, 33, 28, 29, 18, 6, 2, 6, 31, 23, 10, 19]
 windows:
   "7d":
-    pushes: 9
-    distinct_repos: 9
+    pushes: 19
+    distinct_repos: 11
     active_days: 5
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 71
-    distinct_repos: 45
-    active_days: 20
+    pushes: 88
+    distinct_repos: 50
+    active_days: 23
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 308
-    distinct_repos: 95
+    pushes: 282
+    distinct_repos: 98
     active_days: 66
     repos_not_owned: 5
     not_owned_basenames: 4
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 4.6667
-  repo_per_active_day: 1.4394
-  not_owned_ratio: 0.0526
-  basename_concentration: 0.0316
+  push_per_day: 4.2727
+  repo_per_active_day: 1.4848
+  not_owned_ratio: 0.0510
+  basename_concentration: 0.0306
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 9
-    distinct_repos: 9
-    pushes_per_repo: 1.0000
+    pushes: 19
+    distinct_repos: 11
+    pushes_per_repo: 1.7273
     active_days: 5
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 71
-    distinct_repos: 45
-    pushes_per_repo: 1.5778
-    active_days: 20
+    pushes: 88
+    distinct_repos: 50
+    pushes_per_repo: 1.7600
+    active_days: 23
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 308
-    distinct_repos: 95
-    pushes_per_repo: 3.2421
+    pushes: 282
+    distinct_repos: 98
+    pushes_per_repo: 2.8776
     active_days: 66
     repos_not_owned: 5
     not_owned_basenames: 4
@@ -77,63 +77,58 @@ reasons:
   - "activity: 66 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "monotykamary"
-    title: "monotykamary"
+  - name: "pi-opencode-go-provider"
+    title: "pi-opencode-go-provider"
     description: null
-    language: "Shell"
+    language: "TypeScript"
     topics: []
-    stars_fact: 0
+    stars_fact: 9
     first_seen: null
-    last_push: "2026-10-04"
-  - name: "pi-parasail-provider"
-    title: "pi-parasail-provider"
-    description: "Parasail provider extension for pi - Access DeepSeek, Qwen, GLM, Kimi, Llama, Gemma, Mistral and more through the Parasail API"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-04"
+    last_push: "2026-10-16"
   - name: "pi-io-provider"
     title: "pi-io-provider"
     description: "A pi extension that adds IO Intelligence as a custom model provider."
-    language: "JavaScript"
+    language: "TypeScript"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-04"
-  - name: "pi-neuralwatt-provider"
-    title: "pi-neuralwatt-provider"
-    description: "A pi extension that adds Neuralwatt as a custom model provider."
+    last_push: "2026-10-16"
+  - name: "pi-baseten-provider"
+    title: "pi-baseten-provider"
+    description: "A pi extension that adds Baseten as a custom model provider."
     language: "TypeScript"
     topics: []
-    stars_fact: 18
+    stars_fact: 3
     first_seen: null
-    last_push: "2026-10-02"
-  - name: "math-skill"
-    title: "math-skill"
-    description: "Research-partner skill for deriving mathematics: falsifiable conjectures before explanations, complete proofs, a journal of claims, and Lean 4 as the verifier. Includes a mathlib sandbox and seven reference cases from EWMA to K41 turbulence."
-    language: "Python"
-    topics:
-      - "agentskills"
-      - "lean4"
-      - "mathematics"
-      - "pi-skills"
-      - "proof-verification"
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-10-03"
-  - name: "pi-messenger-swarm"
-    title: "pi-messenger-swarm"
-    description: "Swarm-first multi-agent messaging and task orchestration extension for Pi"
+    last_push: "2026-10-16"
+  - name: "pi-fireworks-provider"
+    title: "pi-fireworks-provider"
+    description: null
     language: "TypeScript"
     topics: []
-    stars_fact: 41
+    stars_fact: 1
     first_seen: null
-    last_push: "2026-10-01"
+    last_push: "2026-10-16"
+  - name: "pi-wafer-provider"
+    title: "pi-wafer-provider"
+    description: "A pi extension that adds wafer.ai as a custom model provider."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-10-16"
+  - name: "pi-hypercharm-provider"
+    title: "pi-hypercharm-provider"
+    description: "HyperCharm provider extension for pi — Access DeepSeek, GLM, Kimi, Qwen, MiniMax, Gemma, GPT-OSS, and Llama models through the Charm Hyper API"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-16"
 ---
 
 # monotykamary
 
-308 pushes across 95 repositories on 66 active days in the last 90 days of public GitHub push activity.
+282 pushes across 98 repositories on 66 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/monotykamary

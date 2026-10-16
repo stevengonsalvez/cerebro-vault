@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-11T06:04:44.624574+00:00"
+generated_at: "2026-10-16T08:30:18.142355+00:00"
 provenance:
   - "dae9f02535f7c22f"
-pushes_per_week: [1, 0, 2, 3, 0, 0, 1, 0, 1, 3, 0, 11, 2]
+pushes_per_week: [0, 1, 2, 2, 0, 0, 1, 0, 3, 1, 8, 5, 5]
 windows:
   "7d":
-    pushes: 4
+    pushes: 5
     distinct_repos: 1
-    active_days: 2
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 17
+    pushes: 21
     distinct_repos: 3
     active_days: 11
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 24
+    pushes: 28
     distinct_repos: 5
     active_days: 17
     repos_not_owned: 2
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 1.4118
+  push_per_day: 1.6471
   repo_per_active_day: 0.2941
   not_owned_ratio: 0.4000
   basename_concentration: 0.2000
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 4
+    pushes: 5
     distinct_repos: 1
-    pushes_per_repo: 4.0000
-    active_days: 2
+    pushes_per_repo: 5.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 17
+    pushes: 21
     distinct_repos: 3
-    pushes_per_repo: 5.6667
+    pushes_per_repo: 7.0000
     active_days: 11
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 24
+    pushes: 28
     distinct_repos: 5
-    pushes_per_repo: 4.8000
+    pushes_per_repo: 5.6000
     active_days: 17
     repos_not_owned: 2
     not_owned_basenames: 2
@@ -147,6 +147,6 @@ repos:
 
 # nucliweb
 
-24 pushes across 5 repositories on 17 active days in the last 90 days of public GitHub push activity.
+28 pushes across 5 repositories on 17 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/nucliweb

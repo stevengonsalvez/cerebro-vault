@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-11T06:04:44.624574+00:00"
+generated_at: "2026-10-16T08:30:18.142355+00:00"
 provenance:
   - "541318303a272608"
-pushes_per_week: [10, 10, 4, 2, 16, 2, 1, 0, 3, 5, 5, 11, 4]
+pushes_per_week: [9, 5, 2, 16, 2, 1, 0, 1, 5, 7, 7, 6, 13]
 windows:
   "7d":
-    pushes: 7
-    distinct_repos: 5
+    pushes: 13
+    distinct_repos: 4
     active_days: 5
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
   "30d":
-    pushes: 27
+    pushes: 36
     distinct_repos: 6
-    active_days: 16
+    active_days: 17
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
   "90d":
-    pushes: 73
+    pushes: 74
     distinct_repos: 8
-    active_days: 39
+    active_days: 38
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 1.8718
-  repo_per_active_day: 0.2051
+  push_per_day: 1.9474
+  repo_per_active_day: 0.2105
   not_owned_ratio: 0.5000
   basename_concentration: 0.2500
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 7
-    distinct_repos: 5
-    pushes_per_repo: 1.4000
+    pushes: 13
+    distinct_repos: 4
+    pushes_per_repo: 3.2500
     active_days: 5
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
   "30d":
-    pushes: 27
+    pushes: 36
     distinct_repos: 6
-    pushes_per_repo: 4.5000
-    active_days: 16
+    pushes_per_repo: 6.0000
+    active_days: 17
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
   "90d":
-    pushes: 73
+    pushes: 74
     distinct_repos: 8
-    pushes_per_repo: 9.1250
-    active_days: 39
+    pushes_per_repo: 9.2500
+    active_days: 38
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 39 active days in 90d — pass"
+  - "activity: 38 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "YahooCrawler"
@@ -129,6 +129,6 @@ repos:
 
 # jinliyl
 
-73 pushes across 8 repositories on 39 active days in the last 90 days of public GitHub push activity.
+74 pushes across 8 repositories on 38 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/jinliyl

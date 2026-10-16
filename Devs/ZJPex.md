@@ -8,37 +8,37 @@ provenance_repos:
   - "bytedance/deer-flow"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-11T06:04:44.624574+00:00"
+repos_populated: true
+generated_at: "2026-10-16T08:30:18.142355+00:00"
 provenance:
   - "16389f32495280ea"
-pushes_per_week: [0, 0, 0, 0, 2, 1, 0, 0, 0, 3, 5, 9, 8]
+pushes_per_week: [0, 0, 0, 2, 1, 0, 0, 0, 0, 5, 10, 8, 11]
 windows:
   "7d":
-    pushes: 9
-    distinct_repos: 1
-    active_days: 5
+    pushes: 12
+    distinct_repos: 2
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 25
+    pushes: 34
     distinct_repos: 2
-    active_days: 13
+    active_days: 17
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 28
+    pushes: 37
     distinct_repos: 3
-    active_days: 16
+    active_days: 20
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.7500
-  repo_per_active_day: 0.1875
+  push_per_day: 1.8500
+  repo_per_active_day: 0.1500
   not_owned_ratio: 0.0000
   basename_concentration: 0.3333
   shapes: []
@@ -49,38 +49,70 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 9
-    distinct_repos: 1
-    pushes_per_repo: 9.0000
-    active_days: 5
+    pushes: 12
+    distinct_repos: 2
+    pushes_per_repo: 6.0000
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 25
+    pushes: 34
     distinct_repos: 2
-    pushes_per_repo: 12.5000
-    active_days: 13
+    pushes_per_repo: 17.0000
+    active_days: 17
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 28
+    pushes: 37
     distinct_repos: 3
-    pushes_per_repo: 9.3333
-    active_days: 16
+    pushes_per_repo: 12.3333
+    active_days: 20
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 16 active days in 90d — pass"
+  - "activity: 20 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "ZJPex"
+    title: "ZJPex"
+    description: "周峻锋 / ZJPex · AI 应用与 Agent 开发"
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-16"
+  - name: "llm-wiki-organizer"
+    title: "llm-wiki-organizer"
+    description: "LLM Wiki 外置 Raw 整理器：内容命名、主题分类与安全迁移"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-11"
+  - name: "LLMRouter"
+    title: "LLMRouter"
+    description: null
+    language: "Rust"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-07-24"
+  - name: "AlphaPilot"
+    title: "AlphaPilot"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-07-14"
 ---
 
 # ZJPex
 
-28 pushes across 3 repositories on 16 active days in the last 90 days of public GitHub push activity.
+37 pushes across 3 repositories on 20 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ZJPex

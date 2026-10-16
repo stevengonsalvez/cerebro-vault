@@ -8,39 +8,39 @@ provenance_repos:
   - "ChromeDevTools/chrome-devtools-mcp"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-11T06:04:44.624574+00:00"
+repos_populated: true
+generated_at: "2026-10-16T08:30:18.142355+00:00"
 provenance:
   - "379642deb53f3714"
-pushes_per_week: [4, 3, 13, 2, 4, 2, 12, 2, 12, 17, 7, 0, 4]
+pushes_per_week: [3, 13, 1, 4, 2, 11, 2, 11, 8, 18, 1, 3, 7]
 windows:
   "7d":
-    pushes: 4
+    pushes: 7
     distinct_repos: 3
-    active_days: 4
-    repos_not_owned: 2
-    not_owned_basenames: 2
-    not_owned_owners: 1
+    active_days: 2
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
     pushes: 32
-    distinct_repos: 16
-    active_days: 16
-    repos_not_owned: 5
-    not_owned_basenames: 5
-    not_owned_owners: 3
+    distinct_repos: 14
+    active_days: 13
+    repos_not_owned: 4
+    not_owned_basenames: 4
+    not_owned_owners: 2
   "90d":
-    pushes: 82
-    distinct_repos: 24
-    active_days: 39
+    pushes: 84
+    distinct_repos: 25
+    active_days: 36
     repos_not_owned: 10
     not_owned_basenames: 10
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 2.1026
-  repo_per_active_day: 0.6154
-  not_owned_ratio: 0.4167
-  basename_concentration: 0.0833
+  push_per_day: 2.3333
+  repo_per_active_day: 0.6944
+  not_owned_ratio: 0.4000
+  basename_concentration: 0.0800
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,38 +49,86 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 4
+    pushes: 7
     distinct_repos: 3
-    pushes_per_repo: 1.3333
-    active_days: 4
-    repos_not_owned: 2
-    not_owned_basenames: 2
-    not_owned_owners: 1
+    pushes_per_repo: 2.3333
+    active_days: 2
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
     pushes: 32
-    distinct_repos: 16
-    pushes_per_repo: 2.0000
-    active_days: 16
-    repos_not_owned: 5
-    not_owned_basenames: 5
-    not_owned_owners: 3
+    distinct_repos: 14
+    pushes_per_repo: 2.2857
+    active_days: 13
+    repos_not_owned: 4
+    not_owned_basenames: 4
+    not_owned_owners: 2
   "90d":
-    pushes: 82
-    distinct_repos: 24
-    pushes_per_repo: 3.4167
-    active_days: 39
+    pushes: 84
+    distinct_repos: 25
+    pushes_per_repo: 3.3600
+    active_days: 36
     repos_not_owned: 10
     not_owned_basenames: 10
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 39 active days in 90d — pass"
+  - "activity: 36 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "bot-harness"
+    title: "bot-harness"
+    description: "Minimal harness: run a mineflayer bot detached and exec code against it from the shell"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-15"
+  - name: "watchnote"
+    title: "watchnote"
+    description: "Watch GitHub issues & PRs and get emailed when they change — with your note about why you saved them. Go + SQLite, Helm chart included."
+    language: "Go"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-03"
+  - name: "releaseway"
+    title: "releaseway"
+    description: null
+    language: "Rust"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-28"
+  - name: "vite-symlinked-entry-repro"
+    title: "vite-symlinked-entry-repro"
+    description: "vite build fails when the html entry is a symlink out of root"
+    language: "Shell"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-25"
+  - name: "unoroyale"
+    title: "unoroyale"
+    description: "Card Royale: privacy policy, support, and the game bundles the app updates from"
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-27"
+  - name: "bakery"
+    title: "bakery"
+    description: "Jason's Bakery phone ordering: Bun API and GPT-Live voice agent"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-15"
 ---
 
 # u9g
 
-82 pushes across 24 repositories on 39 active days in the last 90 days of public GitHub push activity.
+84 pushes across 25 repositories on 36 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/u9g

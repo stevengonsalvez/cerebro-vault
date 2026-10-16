@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-11T06:04:44.624574+00:00"
+generated_at: "2026-10-16T08:30:18.142355+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [15, 12, 0, 0, 4, 1, 2, 1, 2, 4, 4, 0, 2]
+pushes_per_week: [15, 0, 0, 3, 1, 3, 1, 2, 2, 5, 1, 1, 8]
 windows:
   "7d":
-    pushes: 2
-    distinct_repos: 2
-    active_days: 2
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    pushes: 8
+    distinct_repos: 3
+    active_days: 5
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "30d":
-    pushes: 10
+    pushes: 15
     distinct_repos: 6
-    active_days: 8
+    active_days: 10
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 47
+    pushes: 42
     distinct_repos: 10
     active_days: 27
     repos_not_owned: 7
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 1.7407
+  push_per_day: 1.5556
   repo_per_active_day: 0.3704
   not_owned_ratio: 0.7000
   basename_concentration: 0.2000
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
-    distinct_repos: 2
-    pushes_per_repo: 1.0000
-    active_days: 2
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    pushes: 8
+    distinct_repos: 3
+    pushes_per_repo: 2.6667
+    active_days: 5
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "30d":
-    pushes: 10
+    pushes: 15
     distinct_repos: 6
-    pushes_per_repo: 1.6667
-    active_days: 8
+    pushes_per_repo: 2.5000
+    active_days: 10
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 47
+    pushes: 42
     distinct_repos: 10
-    pushes_per_repo: 4.7000
+    pushes_per_repo: 4.2000
     active_days: 27
     repos_not_owned: 7
     not_owned_basenames: 6
@@ -115,6 +115,6 @@ repos:
 
 # mantoujun12
 
-47 pushes across 10 repositories on 27 active days in the last 90 days of public GitHub push activity.
+42 pushes across 10 repositories on 27 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/mantoujun12

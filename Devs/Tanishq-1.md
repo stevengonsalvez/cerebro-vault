@@ -8,37 +8,37 @@ provenance_repos:
   - "Alishahryar1/free-claude-code"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-11T06:04:44.624574+00:00"
+repos_populated: true
+generated_at: "2026-10-16T08:30:18.142355+00:00"
 provenance:
   - "9d67ce648f6a8919"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 2, 0, 1, 6, 4, 1, 0]
+pushes_per_week: [0, 0, 0, 0, 0, 2, 0, 1, 0, 9, 2, 0, 2]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
+    pushes: 2
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 11
+    pushes: 13
     distinct_repos: 1
-    active_days: 6
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 14
+    pushes: 16
     distinct_repos: 1
-    active_days: 9
+    active_days: 10
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.5556
-  repo_per_active_day: 0.1111
+  push_per_day: 1.6000
+  repo_per_active_day: 0.1000
   not_owned_ratio: 0.0000
   basename_concentration: 1.0000
   shapes: []
@@ -49,38 +49,67 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
+    pushes: 2
+    distinct_repos: 1
+    pushes_per_repo: 2.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 11
+    pushes: 13
     distinct_repos: 1
-    pushes_per_repo: 11.0000
-    active_days: 6
+    pushes_per_repo: 13.0000
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 14
+    pushes: 16
     distinct_repos: 1
-    pushes_per_repo: 14.0000
-    active_days: 9
+    pushes_per_repo: 16.0000
+    active_days: 10
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 9 active days in 90d — pass"
+  - "activity: 10 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "all-global-plugin"
+    title: "all-global-plugin"
+    description: "One organized home for AI agent skills/plugins — vendored, validated, synced cross-tool"
+    language: "TypeScript"
+    topics:
+      - "agentic-coding"
+      - "claude"
+      - "mcp"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-19"
+  - name: "Tanishq-1"
+    title: "Tanishq-1"
+    description: "Config files for my GitHub profile."
+    language: null
+    topics:
+      - "config"
+      - "github-config"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2021-09-15"
+  - name: "Page-replacement-algo"
+    title: "Page-replacement-algo"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2019-04-22"
 ---
 
 # Tanishq-1
 
-14 pushes across 1 repository on 9 active days in the last 90 days of public GitHub push activity.
+16 pushes across 1 repository on 10 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Tanishq-1

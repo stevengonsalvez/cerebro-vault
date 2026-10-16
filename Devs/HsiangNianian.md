@@ -10,39 +10,39 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-11T06:04:44.624574+00:00"
+generated_at: "2026-10-16T08:30:18.142355+00:00"
 provenance:
   - "234088bc43763aa2"
   - "3c90af76cbde0363"
-pushes_per_week: [170, 72, 41, 23, 34, 3, 1, 1, 2, 4, 10, 5, 1]
+pushes_per_week: [89, 48, 16, 42, 10, 1, 1, 0, 5, 5, 11, 1, 3]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    pushes: 3
+    distinct_repos: 3
+    active_days: 2
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "30d":
     pushes: 22
-    distinct_repos: 7
+    distinct_repos: 9
     active_days: 14
-    repos_not_owned: 3
-    not_owned_basenames: 2
-    not_owned_owners: 3
+    repos_not_owned: 4
+    not_owned_basenames: 3
+    not_owned_owners: 4
   "90d":
-    pushes: 367
-    distinct_repos: 18
-    active_days: 49
+    pushes: 232
+    distinct_repos: 17
+    active_days: 46
     repos_not_owned: 6
     not_owned_basenames: 5
     not_owned_owners: 5
 automation:
   state: "clear"
-  push_per_day: 7.4898
-  repo_per_active_day: 0.3673
-  not_owned_ratio: 0.3333
-  basename_concentration: 0.1667
+  push_per_day: 5.0435
+  repo_per_active_day: 0.3696
+  not_owned_ratio: 0.3529
+  basename_concentration: 0.1765
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -51,32 +51,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
+    pushes: 3
+    distinct_repos: 3
     pushes_per_repo: 1.0000
-    active_days: 1
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    active_days: 2
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "30d":
     pushes: 22
-    distinct_repos: 7
-    pushes_per_repo: 3.1429
+    distinct_repos: 9
+    pushes_per_repo: 2.4444
     active_days: 14
-    repos_not_owned: 3
-    not_owned_basenames: 2
-    not_owned_owners: 3
+    repos_not_owned: 4
+    not_owned_basenames: 3
+    not_owned_owners: 4
   "90d":
-    pushes: 367
-    distinct_repos: 18
-    pushes_per_repo: 20.3889
-    active_days: 49
+    pushes: 232
+    distinct_repos: 17
+    pushes_per_repo: 13.6471
+    active_days: 46
     repos_not_owned: 6
     not_owned_basenames: 5
     not_owned_owners: 5
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 49 active days in 90d — pass"
+  - "activity: 46 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "Yapshire"
@@ -152,6 +152,6 @@ repos:
 
 # HsiangNianian
 
-367 pushes across 18 repositories on 49 active days in the last 90 days of public GitHub push activity.
+232 pushes across 17 repositories on 46 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/HsiangNianian

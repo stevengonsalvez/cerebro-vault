@@ -11,37 +11,37 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-11T06:04:44.624574+00:00"
+generated_at: "2026-10-16T08:30:18.142355+00:00"
 provenance:
   - "c1af6b58492f9bf4"
   - "ddd7486148a91958"
-pushes_per_week: [1, 12, 4, 5, 7, 4, 1, 1, 4, 2, 5, 5, 6]
+pushes_per_week: [12, 0, 9, 2, 6, 3, 2, 3, 3, 4, 6, 6, 0]
 windows:
   "7d":
-    pushes: 6
-    distinct_repos: 4
-    active_days: 1
-    repos_not_owned: 4
-    not_owned_basenames: 1
-    not_owned_owners: 4
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
-    pushes: 19
-    distinct_repos: 11
-    active_days: 7
+    pushes: 16
+    distinct_repos: 9
+    active_days: 5
     repos_not_owned: 7
     not_owned_basenames: 4
     not_owned_owners: 4
   "90d":
-    pushes: 57
+    pushes: 56
     distinct_repos: 15
-    active_days: 20
+    active_days: 19
     repos_not_owned: 11
     not_owned_basenames: 5
     not_owned_owners: 7
 automation:
   state: "clear"
-  push_per_day: 2.8500
-  repo_per_active_day: 0.7500
+  push_per_day: 2.9474
+  repo_per_active_day: 0.7895
   not_owned_ratio: 0.7333
   basename_concentration: 0.3333
   shapes: []
@@ -52,32 +52,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 6
-    distinct_repos: 4
-    pushes_per_repo: 1.5000
-    active_days: 1
-    repos_not_owned: 4
-    not_owned_basenames: 1
-    not_owned_owners: 4
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
-    pushes: 19
-    distinct_repos: 11
-    pushes_per_repo: 1.7273
-    active_days: 7
+    pushes: 16
+    distinct_repos: 9
+    pushes_per_repo: 1.7778
+    active_days: 5
     repos_not_owned: 7
     not_owned_basenames: 4
     not_owned_owners: 4
   "90d":
-    pushes: 57
+    pushes: 56
     distinct_repos: 15
-    pushes_per_repo: 3.8000
-    active_days: 20
+    pushes_per_repo: 3.7333
+    active_days: 19
     repos_not_owned: 11
     not_owned_basenames: 5
     not_owned_owners: 7
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 20 active days in 90d — pass"
+  - "activity: 19 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "sensor-calibration"
@@ -132,6 +132,6 @@ repos:
 
 # MagMueller
 
-57 pushes across 15 repositories on 20 active days in the last 90 days of public GitHub push activity.
+56 pushes across 15 repositories on 19 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/MagMueller

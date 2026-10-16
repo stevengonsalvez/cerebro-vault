@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-11T06:04:44.624574+00:00"
+generated_at: "2026-10-16T08:30:18.142355+00:00"
 provenance:
   - "9ee133e6f5024f08"
-pushes_per_week: [53, 16, 2, 1, 0, 0, 0, 0, 0, 7, 2, 2, 1]
+pushes_per_week: [23, 2, 2, 0, 0, 0, 0, 0, 7, 2, 1, 2, 0]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 84
+    pushes: 39
     distinct_repos: 13
-    active_days: 18
+    active_days: 15
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 4.6667
-  repo_per_active_day: 0.7222
+  push_per_day: 2.6000
+  repo_per_active_day: 0.8667
   not_owned_ratio: 0.1538
   basename_concentration: 0.0769
   shapes: []
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -65,34 +65,18 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 84
+    pushes: 39
     distinct_repos: 13
-    pushes_per_repo: 6.4615
-    active_days: 18
+    pushes_per_repo: 3.0000
+    active_days: 15
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 18 active days in 90d — pass"
+  - "activity: 15 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "livenerf"
-    title: "livenerf"
-    description: "Benchmark for tracking model capability after release."
-    language: "Python"
-    topics: []
-    stars_fact: 1358
-    first_seen: "2026-09-30T06:02:10.916514+00:00"
-    last_push: "2026-10-06"
-  - name: "crypto"
-    title: "crypto"
-    description: null
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-07"
   - name: "S-and-Poke-500"
     title: "S-and-Poke-500"
     description: null
@@ -100,23 +84,39 @@ repos:
     topics: []
     stars_fact: 2
     first_seen: null
-    last_push: "2026-10-07"
-  - name: "T-Finance"
-    title: "T-Finance"
+    last_push: "2026-10-16"
+  - name: "ninjahawk.github.io"
+    title: "ninjahawk.github.io"
     description: null
     language: "HTML"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-05"
-  - name: "mech"
-    title: "mech"
+    last_push: "2026-10-16"
+  - name: "livenerf"
+    title: "livenerf"
+    description: "Benchmark for tracking model capability after release."
+    language: "Python"
+    topics: []
+    stars_fact: 1507
+    first_seen: "2026-09-30T06:02:10.916514+00:00"
+    last_push: "2026-10-16"
+  - name: "crypto"
+    title: "crypto"
     description: null
-    language: null
+    language: "JavaScript"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-06"
+    last_push: "2026-10-16"
+  - name: "glemton"
+    title: "glemton"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-14"
   - name: "hollow-agentOS"
     title: "hollow-agentOS"
     description: "Hollow is an open-sourced self-modifying agentic system for consumer hardware"
@@ -124,11 +124,11 @@ repos:
     topics: []
     stars_fact: 309
     first_seen: null
-    last_push: "2026-07-23"
+    last_push: "2026-10-14"
 ---
 
 # ninjahawk
 
-84 pushes across 13 repositories on 18 active days in the last 90 days of public GitHub push activity.
+39 pushes across 13 repositories on 15 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ninjahawk

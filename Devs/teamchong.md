@@ -8,11 +8,11 @@ provenance_repos:
   - "teamchong/pxpipe"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-11T06:04:44.624574+00:00"
+repos_populated: true
+generated_at: "2026-10-16T08:30:18.142355+00:00"
 provenance:
   - "1320ae46b426dee5"
-pushes_per_week: [12, 12, 6, 8, 5, 1, 0, 0, 0, 0, 1, 0, 0]
+pushes_per_week: [16, 6, 2, 11, 2, 0, 0, 0, 0, 1, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 45
-    distinct_repos: 9
-    active_days: 22
-    repos_not_owned: 4
+    pushes: 38
+    distinct_repos: 8
+    active_days: 20
+    repos_not_owned: 3
     not_owned_basenames: 2
-    not_owned_owners: 4
+    not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 2.0455
-  repo_per_active_day: 0.4091
-  not_owned_ratio: 0.4444
-  basename_concentration: 0.4444
+  push_per_day: 1.9000
+  repo_per_active_day: 0.4000
+  not_owned_ratio: 0.3750
+  basename_concentration: 0.3750
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,22 +65,81 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 45
-    distinct_repos: 9
-    pushes_per_repo: 5.0000
-    active_days: 22
-    repos_not_owned: 4
+    pushes: 38
+    distinct_repos: 8
+    pushes_per_repo: 4.7500
+    active_days: 20
+    repos_not_owned: 3
     not_owned_basenames: 2
-    not_owned_owners: 4
+    not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 22 active days in 90d — pass"
+  - "activity: 20 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "pxpipe"
+    title: "pxpipe"
+    description: "cut Claude Code token usage by rendering text context as images"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 7516
+    first_seen: "2026-07-06T06:00:04.675243+00:00"
+    last_push: "2026-10-14"
+  - name: "json-literal-types"
+    title: "json-literal-types"
+    description: "TypeScript library for validating and parsing JSON string literals"
+    language: "TypeScript"
+    topics:
+      - "typescript-library"
+    stars_fact: 4
+    first_seen: null
+    last_push: "2024-06-22"
+  - name: "teamchong"
+    title: "teamchong"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2023-05-24"
+  - name: "turboquant-wasm"
+    title: "turboquant-wasm"
+    description: "TurboQuant WASM SIMD vector compression — 3 bits/dim with fast dot product. Requires relaxed SIMD (Chrome 114+, Firefox 128+, Safari 18+, Node 20+)"
+    language: "Zig"
+    topics: []
+    stars_fact: 323
+    first_seen: null
+    last_push: "2026-04-19"
+  - name: "drawmode"
+    title: "drawmode"
+    description: "Code Mode MCP server for generating Excalidraw architecture diagrams with auto-layout. LLM writes TypeScript, Graphviz handles layout."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 15
+    first_seen: null
+    last_push: "2026-06-01"
+  - name: "vectorjson"
+    title: "vectorjson"
+    description: "O(n) streaming JSON parser for LLM tool calls. Agents act sooner, abort bad outputs early. WASM SIMD, up to 2000× faster than stock AI SDK parsers."
+    language: "JavaScript"
+    topics:
+      - "ai-sdk"
+      - "json"
+      - "llm"
+      - "parser"
+      - "partial-json"
+      - "simd"
+      - "simdjson"
+      - "streaming"
+      - "wasm"
+      - "zig"
+    stars_fact: 18
+    first_seen: null
+    last_push: "2026-03-10"
 ---
 
 # teamchong
 
-45 pushes across 9 repositories on 22 active days in the last 90 days of public GitHub push activity.
+38 pushes across 8 repositories on 20 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/teamchong

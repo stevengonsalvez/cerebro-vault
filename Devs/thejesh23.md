@@ -13,7 +13,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-11T06:04:44.624574+00:00"
+generated_at: "2026-10-16T08:30:18.142355+00:00"
 provenance:
   - "1df6ea1f1256059e"
   - "46f3c1d6124190bd"
@@ -21,7 +21,7 @@ provenance:
   - "635453fe3b6ecc12"
   - "73468cde177ddae6"
   - "edb3a626875732de"
-pushes_per_week: [10, 87, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [89, 2, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -38,18 +38,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 98
-    distinct_repos: 13
-    active_days: 10
+    pushes: 92
+    distinct_repos: 9
+    active_days: 7
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 9.8000
-  repo_per_active_day: 1.3000
-  not_owned_ratio: 0.0769
-  basename_concentration: 0.1538
+  push_per_day: 13.1429
+  repo_per_active_day: 1.2857
+  not_owned_ratio: 0.1111
+  basename_concentration: 0.2222
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -74,16 +74,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 98
-    distinct_repos: 13
-    pushes_per_repo: 7.5385
-    active_days: 10
+    pushes: 92
+    distinct_repos: 9
+    pushes_per_repo: 10.2222
+    active_days: 7
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 6 vault signal(s) — pass"
-  - "activity: 10 active days in 90d — pass"
+  - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "ai-plugin-rankings"
@@ -106,6 +106,6 @@ repos:
 
 # thejesh23
 
-98 pushes across 13 repositories on 10 active days in the last 90 days of public GitHub push activity.
+92 pushes across 9 repositories on 7 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/thejesh23

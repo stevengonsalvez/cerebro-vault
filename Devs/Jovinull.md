@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-11T06:04:44.624574+00:00"
+generated_at: "2026-10-16T08:30:18.142355+00:00"
 provenance:
   - "4138778ebbc75ba6"
-pushes_per_week: [5, 41, 12, 0, 6, 3, 24, 0, 0, 2, 7, 11, 1]
+pushes_per_week: [33, 23, 2, 0, 7, 25, 1, 0, 2, 6, 10, 3, 1]
 windows:
   "7d":
     pushes: 1
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 21
+    pushes: 22
     distinct_repos: 8
-    active_days: 11
+    active_days: 12
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 112
+    pushes: 113
     distinct_repos: 12
-    active_days: 33
+    active_days: 34
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 3.3939
-  repo_per_active_day: 0.3636
+  push_per_day: 3.3235
+  repo_per_active_day: 0.3529
   not_owned_ratio: 0.1667
   basename_concentration: 0.1667
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 21
+    pushes: 22
     distinct_repos: 8
-    pushes_per_repo: 2.6250
-    active_days: 11
+    pushes_per_repo: 2.7500
+    active_days: 12
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 112
+    pushes: 113
     distinct_repos: 12
-    pushes_per_repo: 9.3333
-    active_days: 33
+    pushes_per_repo: 9.4167
+    active_days: 34
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 33 active days in 90d — pass"
+  - "activity: 34 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "sonicheroes"
@@ -196,6 +196,6 @@ repos:
 
 # Jovinull
 
-112 pushes across 12 repositories on 33 active days in the last 90 days of public GitHub push activity.
+113 pushes across 12 repositories on 34 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Jovinull

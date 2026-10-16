@@ -9,28 +9,28 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-11T06:04:44.624574+00:00"
+generated_at: "2026-10-16T08:30:18.142355+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [1, 5, 2, 4, 13, 2, 0, 0, 3, 4, 14, 3, 0]
+pushes_per_week: [5, 2, 4, 13, 0, 2, 0, 3, 2, 12, 7, 0, 1]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
     pushes: 21
-    distinct_repos: 8
+    distinct_repos: 9
     active_days: 11
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
     pushes: 51
-    distinct_repos: 9
+    distinct_repos: 10
     active_days: 27
     repos_not_owned: 2
     not_owned_basenames: 2
@@ -38,9 +38,9 @@ windows:
 automation:
   state: "clear"
   push_per_day: 1.8889
-  repo_per_active_day: 0.3333
-  not_owned_ratio: 0.2222
-  basename_concentration: 0.2222
+  repo_per_active_day: 0.3704
+  not_owned_ratio: 0.2000
+  basename_concentration: 0.2000
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
+    pushes: 1
+    distinct_repos: 1
+    pushes_per_repo: 1.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
     pushes: 21
-    distinct_repos: 8
-    pushes_per_repo: 2.6250
+    distinct_repos: 9
+    pushes_per_repo: 2.3333
     active_days: 11
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
     pushes: 51
-    distinct_repos: 9
-    pushes_per_repo: 5.6667
+    distinct_repos: 10
+    pushes_per_repo: 5.1000
     active_days: 27
     repos_not_owned: 2
     not_owned_basenames: 2
@@ -129,6 +129,6 @@ repos:
 
 # RC-CHN
 
-51 pushes across 9 repositories on 27 active days in the last 90 days of public GitHub push activity.
+51 pushes across 10 repositories on 27 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/RC-CHN

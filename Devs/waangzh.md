@@ -8,37 +8,37 @@ provenance_repos:
   - "BigPizzaV3/CodexPlusPlus"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-11T06:04:44.624574+00:00"
+repos_populated: true
+generated_at: "2026-10-16T08:30:18.142355+00:00"
 provenance:
   - "90688bf127241ceb"
-pushes_per_week: [15, 17, 0, 2, 1, 1, 0, 0, 2, 0, 0, 2, 2]
+pushes_per_week: [19, 0, 0, 3, 0, 1, 0, 2, 0, 0, 1, 3, 1]
 windows:
   "7d":
-    pushes: 3
+    pushes: 1
     distinct_repos: 1
-    active_days: 3
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 4
-    distinct_repos: 1
-    active_days: 4
+    pushes: 5
+    distinct_repos: 2
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 42
+    pushes: 30
     distinct_repos: 6
-    active_days: 19
+    active_days: 15
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.2105
-  repo_per_active_day: 0.3158
+  push_per_day: 2.0000
+  repo_per_active_day: 0.4000
   not_owned_ratio: 0.0000
   basename_concentration: 0.1667
   shapes: []
@@ -49,38 +49,88 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 3
+    pushes: 1
     distinct_repos: 1
-    pushes_per_repo: 3.0000
-    active_days: 3
+    pushes_per_repo: 1.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 4
-    distinct_repos: 1
-    pushes_per_repo: 4.0000
-    active_days: 4
+    pushes: 5
+    distinct_repos: 2
+    pushes_per_repo: 2.5000
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 42
+    pushes: 30
     distinct_repos: 6
-    pushes_per_repo: 7.0000
-    active_days: 19
+    pushes_per_repo: 5.0000
+    active_days: 15
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 19 active days in 90d — pass"
+  - "activity: 15 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "RepoGuardian"
+    title: "RepoGuardian"
+    description: "Pull Request 代码审查 Agent"
+    language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-16"
+  - name: "re-bookmarks"
+    title: "re-bookmarks"
+    description: "智能整理浏览器书签插件"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 23
+    first_seen: null
+    last_push: "2026-10-13"
+  - name: "waangzh.github.io"
+    title: "waangzh.github.io"
+    description: null
+    language: "CSS"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-11"
+  - name: "Intelligent-Power-Inspection"
+    title: "Intelligent-Power-Inspection"
+    description: null
+    language: "Java"
+    topics: []
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-08-09"
+  - name: "healing-planet"
+    title: "healing-planet"
+    description: "面向绿植爱好者的智能养植与绿植社区平台"
+    language: "Java"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-12"
+  - name: "waangzh"
+    title: "waangzh"
+    description: "Config files for my GitHub profile."
+    language: null
+    topics:
+      - "config"
+      - "github-config"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-15"
 ---
 
 # waangzh
 
-42 pushes across 6 repositories on 19 active days in the last 90 days of public GitHub push activity.
+30 pushes across 6 repositories on 15 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/waangzh

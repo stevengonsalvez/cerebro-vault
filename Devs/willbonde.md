@@ -8,16 +8,16 @@ provenance_repos:
   - "browser-use/browser-use"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-11T06:04:44.624574+00:00"
+repos_populated: true
+generated_at: "2026-10-16T08:30:18.142355+00:00"
 provenance:
   - "c1af6b58492f9bf4"
-pushes_per_week: [11, 6, 10, 5, 4, 0, 0, 0, 0, 0, 0, 0, 1]
+pushes_per_week: [11, 11, 3, 6, 0, 0, 0, 0, 0, 0, 0, 1, 0]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 37
+    pushes: 32
     distinct_repos: 2
-    active_days: 18
+    active_days: 15
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.0556
-  repo_per_active_day: 0.1111
+  push_per_day: 2.1333
+  repo_per_active_day: 0.1333
   not_owned_ratio: 0.5000
   basename_concentration: 0.5000
   shapes: []
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -65,22 +65,46 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 37
+    pushes: 32
     distinct_repos: 2
-    pushes_per_repo: 18.5000
-    active_days: 18
+    pushes_per_repo: 16.0000
+    active_days: 15
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 18 active days in 90d — pass"
+  - "activity: 15 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "bootstrapping-a-company-notes"
+    title: "bootstrapping-a-company-notes"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-05"
+  - name: "docs"
+    title: "docs"
+    description: null
+    language: "MDX"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2025-10-28"
+  - name: "homebrew-gobii-cli"
+    title: "homebrew-gobii-cli"
+    description: "Homebrew formula for Gobii CLI"
+    language: "Ruby"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2025-05-27"
 ---
 
 # willbonde
 
-37 pushes across 2 repositories on 18 active days in the last 90 days of public GitHub push activity.
+32 pushes across 2 repositories on 15 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/willbonde

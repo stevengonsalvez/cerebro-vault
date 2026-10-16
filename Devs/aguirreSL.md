@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-11T06:04:44.624574+00:00"
+generated_at: "2026-10-16T08:30:18.142355+00:00"
 provenance:
   - "4138778ebbc75ba6"
-pushes_per_week: [0, 7, 0, 0, 0, 0, 0, 0, 0, 0, 3, 7, 0]
+pushes_per_week: [7, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,6 +77,14 @@ reasons:
   - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "golden"
+    title: "golden"
+    description: null
+    language: "MATLAB"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-09"
   - name: "Iceberg"
     title: "Iceberg"
     description: "This is an example of use to the hybrid auralization method with VBAP and Ambisonics (1st order)"

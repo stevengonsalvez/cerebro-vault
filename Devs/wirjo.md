@@ -8,39 +8,39 @@ provenance_repos:
   - "aws/agent-toolkit-for-aws"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-11T06:04:44.624574+00:00"
+repos_populated: true
+generated_at: "2026-10-16T08:30:18.142355+00:00"
 provenance:
   - "a50b0e08dbaee74a"
-pushes_per_week: [14, 1, 3, 19, 11, 0, 1, 0, 0, 0, 0, 1, 0]
+pushes_per_week: [1, 2, 10, 21, 0, 1, 0, 0, 0, 0, 1, 0, 4]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    pushes: 4
+    distinct_repos: 2
+    active_days: 2
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "30d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    pushes: 5
+    distinct_repos: 3
+    active_days: 3
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "90d":
-    pushes: 50
-    distinct_repos: 17
-    active_days: 19
+    pushes: 40
+    distinct_repos: 16
+    active_days: 16
     repos_not_owned: 8
     not_owned_basenames: 7
     not_owned_owners: 4
 automation:
   state: "clear"
-  push_per_day: 2.6316
-  repo_per_active_day: 0.8947
-  not_owned_ratio: 0.4706
-  basename_concentration: 0.1176
+  push_per_day: 2.5000
+  repo_per_active_day: 1.0000
+  not_owned_ratio: 0.5000
+  basename_concentration: 0.1250
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,38 +49,86 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    pushes: 4
+    distinct_repos: 2
+    pushes_per_repo: 2.0000
+    active_days: 2
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "30d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    pushes: 5
+    distinct_repos: 3
+    pushes_per_repo: 1.6667
+    active_days: 3
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "90d":
-    pushes: 50
-    distinct_repos: 17
-    pushes_per_repo: 2.9412
-    active_days: 19
+    pushes: 40
+    distinct_repos: 16
+    pushes_per_repo: 2.5000
+    active_days: 16
     repos_not_owned: 8
     not_owned_basenames: 7
     not_owned_owners: 4
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 19 active days in 90d — pass"
+  - "activity: 16 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "sample-claude-for-industries"
+    title: "sample-claude-for-industries"
+    description: "Sample Claude for Industries"
+    language: null
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-03"
+  - name: "voice-ai-benchmarks"
+    title: "voice-ai-benchmarks"
+    description: "Compare STT and LLM providers for voice agents"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-01"
+  - name: "slides"
+    title: "slides"
+    description: "Slide decks"
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-29"
+  - name: "sample-agentic-gpu-capacity"
+    title: "sample-agentic-gpu-capacity"
+    description: "Read-only multi-agent GPU capacity planner on Amazon Bedrock AgentCore"
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-11"
+  - name: "pipecat-turn-detection-demo"
+    title: "pipecat-turn-detection-demo"
+    description: "Simple pipecat examples demonstrating barge-in and turn detection with Cartesia STT/TTS and Amazon Bedrock"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-06-25"
+  - name: "model-marketplace-matrix"
+    title: "model-marketplace-matrix"
+    description: "Managed vs open mental model: Bedrock, Fireworks, OpenRouter"
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-03"
 ---
 
 # wirjo
 
-50 pushes across 17 repositories on 19 active days in the last 90 days of public GitHub push activity.
+40 pushes across 16 repositories on 16 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/wirjo

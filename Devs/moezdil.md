@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-11T06:04:44.624574+00:00"
+generated_at: "2026-10-16T08:30:18.142355+00:00"
 provenance:
   - "a5ffcd0a46dd44fd"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 10, 17]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 14, 14, 23]
 windows:
   "7d":
-    pushes: 17
-    distinct_repos: 8
-    active_days: 5
+    pushes: 24
+    distinct_repos: 10
+    active_days: 6
     repos_not_owned: 7
     not_owned_basenames: 5
-    not_owned_owners: 4
+    not_owned_owners: 3
   "30d":
-    pushes: 32
-    distinct_repos: 16
-    active_days: 12
-    repos_not_owned: 7
-    not_owned_basenames: 5
-    not_owned_owners: 4
+    pushes: 52
+    distinct_repos: 20
+    active_days: 16
+    repos_not_owned: 10
+    not_owned_basenames: 6
+    not_owned_owners: 5
   "90d":
-    pushes: 32
-    distinct_repos: 16
-    active_days: 12
-    repos_not_owned: 7
-    not_owned_basenames: 5
-    not_owned_owners: 4
+    pushes: 52
+    distinct_repos: 20
+    active_days: 16
+    repos_not_owned: 10
+    not_owned_basenames: 6
+    not_owned_owners: 5
 automation:
   state: "clear"
-  push_per_day: 2.6667
-  repo_per_active_day: 1.3333
-  not_owned_ratio: 0.4375
-  basename_concentration: 0.1875
+  push_per_day: 3.2500
+  repo_per_active_day: 1.2500
+  not_owned_ratio: 0.5000
+  basename_concentration: 0.2000
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 17
-    distinct_repos: 8
-    pushes_per_repo: 2.1250
-    active_days: 5
+    pushes: 24
+    distinct_repos: 10
+    pushes_per_repo: 2.4000
+    active_days: 6
     repos_not_owned: 7
     not_owned_basenames: 5
-    not_owned_owners: 4
+    not_owned_owners: 3
   "30d":
-    pushes: 32
-    distinct_repos: 16
-    pushes_per_repo: 2.0000
-    active_days: 12
-    repos_not_owned: 7
-    not_owned_basenames: 5
-    not_owned_owners: 4
+    pushes: 52
+    distinct_repos: 20
+    pushes_per_repo: 2.6000
+    active_days: 16
+    repos_not_owned: 10
+    not_owned_basenames: 6
+    not_owned_owners: 5
   "90d":
-    pushes: 32
-    distinct_repos: 16
-    pushes_per_repo: 2.0000
-    active_days: 12
-    repos_not_owned: 7
-    not_owned_basenames: 5
-    not_owned_owners: 4
+    pushes: 52
+    distinct_repos: 20
+    pushes_per_repo: 2.6000
+    active_days: 16
+    repos_not_owned: 10
+    not_owned_basenames: 6
+    not_owned_owners: 5
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 12 active days in 90d — pass"
+  - "activity: 16 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "siltide"
@@ -160,6 +160,6 @@ repos:
 
 # moezdil
 
-32 pushes across 16 repositories on 12 active days in the last 90 days of public GitHub push activity.
+52 pushes across 20 repositories on 16 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/moezdil

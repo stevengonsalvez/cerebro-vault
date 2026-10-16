@@ -8,37 +8,37 @@ provenance_repos:
   - "1jehuang/jcode"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-11T06:04:44.624574+00:00"
+repos_populated: true
+generated_at: "2026-10-16T08:30:18.142355+00:00"
 provenance:
   - "2a7f0fddd2dac162"
-pushes_per_week: [0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 5, 7, 0]
+pushes_per_week: [0, 1, 0, 0, 0, 0, 1, 0, 0, 3, 7, 2, 3]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
+    pushes: 3
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 12
+    pushes: 15
     distinct_repos: 3
-    active_days: 8
+    active_days: 9
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 14
+    pushes: 17
     distinct_repos: 5
-    active_days: 10
+    active_days: 11
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.4000
-  repo_per_active_day: 0.5000
+  push_per_day: 1.5455
+  repo_per_active_day: 0.4545
   not_owned_ratio: 0.0000
   basename_concentration: 0.2000
   shapes: []
@@ -49,38 +49,129 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
+    pushes: 3
+    distinct_repos: 1
+    pushes_per_repo: 3.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 12
+    pushes: 15
     distinct_repos: 3
-    pushes_per_repo: 4.0000
-    active_days: 8
+    pushes_per_repo: 5.0000
+    active_days: 9
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 14
+    pushes: 17
     distinct_repos: 5
-    pushes_per_repo: 2.8000
-    active_days: 10
+    pushes_per_repo: 3.4000
+    active_days: 11
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 10 active days in 90d — pass"
+  - "activity: 11 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "superbigcup325"
+    title: "superbigcup325"
+    description: "GitHub profile — 每天由 pokefetch 随机画一只宝可梦"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-16"
+  - name: "jumbit"
+    title: "jumbit"
+    description: "A MoonBit rewrite of zoxide — jump to directories in a few keystrokes. Frecency-ranked, 9-shell integration, agent-friendly JSON/TSV output."
+    language: "MoonBit"
+    topics:
+      - "ai-agents"
+      - "bash"
+      - "cli"
+      - "developer-tools"
+      - "directory-jumper"
+      - "elvish"
+      - "fish"
+      - "frecency"
+      - "fzf"
+      - "jump"
+      - "moonbit"
+      - "nushell"
+      - "powershell"
+      - "sesh"
+      - "shell"
+      - "tcsh"
+      - "xonsh"
+      - "yazi"
+      - "zoxide"
+      - "zsh"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-15"
+  - name: "moonlake"
+    title: "moonlake"
+    description: "A pure-MoonBit, zero-FFI columnar SQL engine over CSV/Parquet — all 22 TPC-H queries pass against DuckDB, native and WebAssembly from one codebase."
+    language: "MoonBit"
+    topics:
+      - "analytics"
+      - "columnar"
+      - "csv"
+      - "database"
+      - "embedded"
+      - "moonbit"
+      - "olap"
+      - "parquet"
+      - "query-engine"
+      - "sql"
+      - "sql-engine"
+      - "tpc-h"
+      - "vectorized"
+      - "wasm"
+      - "webassembly"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-14"
+  - name: "Pokefetch"
+    title: "Pokefetch"
+    description: null
+    language: "Rust"
+    topics:
+      - "cli"
+      - "fastfetch"
+      - "fetch"
+      - "neofetch"
+      - "pokemon"
+      - "rust"
+      - "system-info"
+      - "terminal"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-02"
+  - name: "sukima"
+    title: "sukima"
+    description: null
+    language: "Rust"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-25"
+  - name: "galchat"
+    title: "galchat"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-22"
 ---
 
 # superbigcup325
 
-14 pushes across 5 repositories on 10 active days in the last 90 days of public GitHub push activity.
+17 pushes across 5 repositories on 11 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/superbigcup325

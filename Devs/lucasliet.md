@@ -9,28 +9,28 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-11T06:04:44.624574+00:00"
+generated_at: "2026-10-16T08:30:18.142355+00:00"
 provenance:
   - "4138778ebbc75ba6"
-pushes_per_week: [9, 8, 3, 1, 1, 1, 3, 0, 0, 1, 3, 14, 4]
+pushes_per_week: [12, 3, 0, 2, 0, 4, 0, 0, 1, 3, 9, 9, 5]
 windows:
   "7d":
-    pushes: 6
-    distinct_repos: 2
+    pushes: 5
+    distinct_repos: 3
     active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 22
-    distinct_repos: 9
-    active_days: 12
+    pushes: 27
+    distinct_repos: 11
+    active_days: 15
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
     pushes: 48
-    distinct_repos: 16
+    distinct_repos: 17
     active_days: 28
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -38,9 +38,9 @@ windows:
 automation:
   state: "clear"
   push_per_day: 1.7143
-  repo_per_active_day: 0.5714
+  repo_per_active_day: 0.6071
   not_owned_ratio: 0.0000
-  basename_concentration: 0.0625
+  basename_concentration: 0.0588
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 6
-    distinct_repos: 2
-    pushes_per_repo: 3.0000
+    pushes: 5
+    distinct_repos: 3
+    pushes_per_repo: 1.6667
     active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 22
-    distinct_repos: 9
-    pushes_per_repo: 2.4444
-    active_days: 12
+    pushes: 27
+    distinct_repos: 11
+    pushes_per_repo: 2.4545
+    active_days: 15
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
     pushes: 48
-    distinct_repos: 16
-    pushes_per_repo: 3.0000
+    distinct_repos: 17
+    pushes_per_repo: 2.8235
     active_days: 28
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -139,6 +139,6 @@ repos:
 
 # lucasliet
 
-48 pushes across 16 repositories on 28 active days in the last 90 days of public GitHub push activity.
+48 pushes across 17 repositories on 28 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/lucasliet

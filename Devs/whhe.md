@@ -8,11 +8,11 @@ provenance_repos:
   - "bytedance/deer-flow"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-10T06:04:44.283147+00:00"
+repos_populated: true
+generated_at: "2026-10-16T08:30:18.142355+00:00"
 provenance:
   - "16389f32495280ea"
-pushes_per_week: [2, 0, 0, 1, 1, 0, 0, 0, 0, 0, 1, 0, 1]
+pushes_per_week: [0, 0, 1, 1, 0, 0, 0, 0, 0, 1, 0, 1, 1]
 windows:
   "7d":
     pushes: 1
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 2
+    pushes: 3
     distinct_repos: 2
-    active_days: 2
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 6
+    pushes: 5
     distinct_repos: 3
-    active_days: 6
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
   push_per_day: 1.0000
-  repo_per_active_day: 0.5000
+  repo_per_active_day: 0.6000
   not_owned_ratio: 0.0000
   basename_concentration: 0.3333
   shapes: []
@@ -57,30 +57,64 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 2
+    pushes: 3
     distinct_repos: 2
-    pushes_per_repo: 1.0000
-    active_days: 2
+    pushes_per_repo: 1.5000
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 6
+    pushes: 5
     distinct_repos: 3
-    pushes_per_repo: 2.0000
-    active_days: 6
+    pushes_per_repo: 1.6667
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 6 active days in 90d — pass"
+  - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "code-review-bot"
+    title: "code-review-bot"
+    description: "Extensible AI code review bot with pluggable coding agents, review skills, and Git platform adapters (GitLab & GitHub)."
+    language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-13"
+  - name: "ai-workshop"
+    title: "ai-workshop"
+    description: "My coding configurations and skills."
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-30"
+  - name: "whhe"
+    title: "whhe"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-19"
+  - name: "docker-images-downloader"
+    title: "docker-images-downloader"
+    description: "Use GitHub Action to cache Docker image files."
+    language: null
+    topics:
+      - "docker-hub"
+      - "docker-image"
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-08-13"
 ---
 
 # whhe
 
-6 pushes across 3 repositories on 6 active days in the last 90 days of public GitHub push activity.
+5 pushes across 3 repositories on 5 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/whhe

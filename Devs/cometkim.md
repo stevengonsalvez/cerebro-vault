@@ -9,28 +9,28 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-11T06:04:44.624574+00:00"
+generated_at: "2026-10-16T08:30:18.142355+00:00"
 provenance:
   - "c489e6fb5febf2ab"
-pushes_per_week: [1, 15, 4, 0, 3, 6, 2, 0, 4, 7, 0, 3, 0]
+pushes_per_week: [13, 6, 0, 3, 1, 7, 0, 4, 7, 0, 3, 0, 1]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 10
-    distinct_repos: 2
+    pushes: 7
+    distinct_repos: 3
     active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
     pushes: 45
-    distinct_repos: 11
+    distinct_repos: 12
     active_days: 21
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -38,9 +38,9 @@ windows:
 automation:
   state: "clear"
   push_per_day: 2.1429
-  repo_per_active_day: 0.5238
+  repo_per_active_day: 0.5714
   not_owned_ratio: 0.0000
-  basename_concentration: 0.0909
+  basename_concentration: 0.0833
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
+    pushes: 1
+    distinct_repos: 1
+    pushes_per_repo: 1.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 10
-    distinct_repos: 2
-    pushes_per_repo: 5.0000
+    pushes: 7
+    distinct_repos: 3
+    pushes_per_repo: 2.3333
     active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
     pushes: 45
-    distinct_repos: 11
-    pushes_per_repo: 4.0909
+    distinct_repos: 12
+    pushes_per_repo: 3.7500
     active_days: 21
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -153,6 +153,6 @@ repos:
 
 # cometkim
 
-45 pushes across 11 repositories on 21 active days in the last 90 days of public GitHub push activity.
+45 pushes across 12 repositories on 21 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/cometkim

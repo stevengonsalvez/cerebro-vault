@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-11T06:04:44.624574+00:00"
+generated_at: "2026-10-16T08:30:18.142355+00:00"
 provenance:
   - "541318303a272608"
-pushes_per_week: [5, 0, 0, 0, 2, 0, 0, 0, 0, 5, 6, 0, 0]
+pushes_per_week: [0, 0, 0, 2, 0, 0, 0, 0, 5, 4, 2, 0, 2]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
+    pushes: 2
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
     pushes: 11
     distinct_repos: 3
-    active_days: 7
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 18
+    pushes: 15
     distinct_repos: 4
-    active_days: 10
+    active_days: 9
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.8000
-  repo_per_active_day: 0.4000
+  push_per_day: 1.6667
+  repo_per_active_day: 0.4444
   not_owned_ratio: 0.0000
   basename_concentration: 0.2500
   shapes: []
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
+    pushes: 2
+    distinct_repos: 1
+    pushes_per_repo: 2.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -60,21 +60,21 @@ facets:
     pushes: 11
     distinct_repos: 3
     pushes_per_repo: 3.6667
-    active_days: 7
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 18
+    pushes: 15
     distinct_repos: 4
-    pushes_per_repo: 4.5000
-    active_days: 10
+    pushes_per_repo: 3.7500
+    active_days: 9
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 10 active days in 90d — pass"
+  - "activity: 9 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "hi-mochi"
@@ -129,6 +129,6 @@ repos:
 
 # gongpx20069
 
-18 pushes across 4 repositories on 10 active days in the last 90 days of public GitHub push activity.
+15 pushes across 4 repositories on 9 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/gongpx20069

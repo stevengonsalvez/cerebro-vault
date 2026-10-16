@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-11T06:04:44.624574+00:00"
+generated_at: "2026-10-16T08:30:18.142355+00:00"
 provenance:
   - "dffbb846389f9a26"
-pushes_per_week: [0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 15, 13, 1]
+pushes_per_week: [0, 0, 0, 1, 0, 0, 0, 0, 0, 10, 14, 5, 1]
 windows:
   "7d":
-    pushes: 5
-    distinct_repos: 3
-    active_days: 2
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 5
-    distinct_repos: 3
-    pushes_per_repo: 1.6667
-    active_days: 2
+    pushes: 1
+    distinct_repos: 1
+    pushes_per_repo: 1.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -84,7 +84,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-06"
+    last_push: "2026-10-15"
   - name: "since-cutoff"
     title: "since-cutoff"
     description: "Find which APIs of your pinned Python dependencies changed after your coding model's training cutoff, and give the agent short AGENTS.md / CLAUDE.md notes from a static API diff. No model calls, no API key. CLI, MCP server, Claude Code plugin, GitHub Action."
@@ -101,18 +101,18 @@ repos:
       - "coding-agents"
       - "deprecation"
       - "developer-tools"
+      - "gemini-cli-extension"
       - "github-actions"
       - "knowledge-cutoff"
-      - "llm"
       - "mcp"
       - "mcp-server"
       - "model-context-protocol"
       - "pre-commit-hook"
       - "python"
       - "static-analysis"
-    stars_fact: 7
+    stars_fact: 8
     first_seen: null
-    last_push: "2026-10-04"
+    last_push: "2026-10-11"
   - name: "misgrade"
     title: "misgrade"
     description: "Conformance tests for the graders ML depends on: find where reward functions, eval answer extractors and verifiers accept wrong answers or reject right ones. No model calls, no API key."
@@ -120,7 +120,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-01"
+    last_push: "2026-10-15"
 ---
 
 # MohammadHijjawi97

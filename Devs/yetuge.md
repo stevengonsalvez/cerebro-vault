@@ -8,39 +8,39 @@ provenance_repos:
   - "bytedance/deer-flow"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-11T06:04:44.624574+00:00"
+repos_populated: true
+generated_at: "2026-10-16T08:30:18.142355+00:00"
 provenance:
   - "16389f32495280ea"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 1, 7, 0]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 1, 2, 5, 2, 1]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 10
-    distinct_repos: 6
-    active_days: 8
+    pushes: 11
+    distinct_repos: 7
+    active_days: 9
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 10
-    distinct_repos: 6
-    active_days: 8
+    pushes: 11
+    distinct_repos: 7
+    active_days: 9
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.2500
-  repo_per_active_day: 0.7500
+  push_per_day: 1.2222
+  repo_per_active_day: 0.7778
   not_owned_ratio: 0.0000
-  basename_concentration: 0.1667
+  basename_concentration: 0.1429
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,38 +49,112 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
+    pushes: 1
+    distinct_repos: 1
+    pushes_per_repo: 1.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 10
-    distinct_repos: 6
-    pushes_per_repo: 1.6667
-    active_days: 8
+    pushes: 11
+    distinct_repos: 7
+    pushes_per_repo: 1.5714
+    active_days: 9
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 10
-    distinct_repos: 6
-    pushes_per_repo: 1.6667
-    active_days: 8
+    pushes: 11
+    distinct_repos: 7
+    pushes_per_repo: 1.5714
+    active_days: 9
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 8 active days in 90d — pass"
+  - "activity: 9 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "yetuge"
+    title: "yetuge"
+    description: "Profile README: auto-refreshed list of merged pull requests"
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-15"
+  - name: "alphadesk"
+    title: "alphadesk"
+    description: "本地优先的 AI 原生投资研究工作台:结构化行情数据、证据支撑的 Agent 投研副驾,持续追踪什么变了、为什么重要。"
+    language: "TypeScript"
+    topics:
+      - "ai-agent"
+      - "copilot"
+      - "desktop-app"
+      - "electron"
+      - "evaluation"
+      - "finance"
+      - "fintech"
+      - "investment-research"
+      - "langfuse"
+      - "local-first"
+      - "macos"
+      - "market-data"
+      - "react"
+      - "typescript"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-07"
+  - name: "yetuge.github.io"
+    title: "yetuge.github.io"
+    description: "个人博客 · Astro"
+    language: "Astro"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-29"
+  - name: "tinycode"
+    title: "tinycode"
+    description: "A minimal but complete coding agent harness — every subsystem of a production agent, small enough to read in an afternoon"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-26"
+  - name: "TalkMate-AI"
+    title: "TalkMate-AI"
+    description: "AI 英语口语陪练 · Scenario-based English speaking coach with streaming chat, instant grammar feedback and post-session reports"
+    language: "TypeScript"
+    topics:
+      - "ai-agent"
+      - "deepseek"
+      - "english-learning"
+      - "language-learning"
+      - "nextjs"
+      - "react"
+      - "speaking-practice"
+      - "sse"
+      - "supabase"
+      - "tailwindcss"
+      - "typescript"
+      - "web-speech-api"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-22"
+  - name: "movie-recommendation-demo"
+    title: "movie-recommendation-demo"
+    description: "电影推荐系统demo"
+    language: "Java"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-05-20"
 ---
 
 # yetuge
 
-10 pushes across 6 repositories on 8 active days in the last 90 days of public GitHub push activity.
+11 pushes across 7 repositories on 9 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/yetuge

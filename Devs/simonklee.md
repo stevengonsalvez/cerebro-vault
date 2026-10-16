@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-11T06:04:44.624574+00:00"
+generated_at: "2026-10-16T08:30:18.142355+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [12, 5, 3, 1, 8, 6, 1, 0, 0, 1, 4, 2, 4]
+pushes_per_week: [7, 2, 2, 7, 3, 4, 1, 0, 1, 4, 2, 3, 7]
 windows:
   "7d":
-    pushes: 4
-    distinct_repos: 4
-    active_days: 3
-    repos_not_owned: 3
-    not_owned_basenames: 3
+    pushes: 7
+    distinct_repos: 2
+    active_days: 5
+    repos_not_owned: 2
+    not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 11
+    pushes: 17
     distinct_repos: 4
-    active_days: 6
+    active_days: 10
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 47
+    pushes: 43
     distinct_repos: 6
     active_days: 28
     repos_not_owned: 5
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 1.6786
+  push_per_day: 1.5357
   repo_per_active_day: 0.2143
   not_owned_ratio: 0.8333
   basename_concentration: 0.5000
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 4
-    distinct_repos: 4
-    pushes_per_repo: 1.0000
-    active_days: 3
-    repos_not_owned: 3
-    not_owned_basenames: 3
+    pushes: 7
+    distinct_repos: 2
+    pushes_per_repo: 3.5000
+    active_days: 5
+    repos_not_owned: 2
+    not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 11
+    pushes: 17
     distinct_repos: 4
-    pushes_per_repo: 2.7500
-    active_days: 6
+    pushes_per_repo: 4.2500
+    active_days: 10
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 47
+    pushes: 43
     distinct_repos: 6
-    pushes_per_repo: 7.8333
+    pushes_per_repo: 7.1667
     active_days: 28
     repos_not_owned: 5
     not_owned_basenames: 3
@@ -129,6 +129,6 @@ repos:
 
 # simonklee
 
-47 pushes across 6 repositories on 28 active days in the last 90 days of public GitHub push activity.
+43 pushes across 6 repositories on 28 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/simonklee

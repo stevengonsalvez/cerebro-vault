@@ -12,38 +12,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-11T06:04:44.624574+00:00"
+generated_at: "2026-10-16T08:30:18.142355+00:00"
 provenance:
   - "06b6387dd3484f1c"
   - "c133b93b912dffd6"
   - "de6bf05613f3ae04"
-pushes_per_week: [6, 4, 5, 4, 13, 1, 1, 1, 1, 3, 2, 4, 0]
+pushes_per_week: [4, 5, 3, 12, 3, 1, 1, 0, 4, 2, 3, 1, 3]
 windows:
   "7d":
-    pushes: 1
+    pushes: 3
     distinct_repos: 1
     active_days: 1
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 10
+    pushes: 11
     distinct_repos: 1
-    active_days: 9
+    active_days: 8
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 45
+    pushes: 42
     distinct_repos: 3
-    active_days: 30
+    active_days: 27
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.5000
-  repo_per_active_day: 0.1000
+  push_per_day: 1.5556
+  repo_per_active_day: 0.1111
   not_owned_ratio: 0.6667
   basename_concentration: 0.6667
   shapes: []
@@ -54,32 +54,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
+    pushes: 3
     distinct_repos: 1
-    pushes_per_repo: 1.0000
+    pushes_per_repo: 3.0000
     active_days: 1
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 10
+    pushes: 11
     distinct_repos: 1
-    pushes_per_repo: 10.0000
-    active_days: 9
+    pushes_per_repo: 11.0000
+    active_days: 8
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 45
+    pushes: 42
     distinct_repos: 3
-    pushes_per_repo: 15.0000
-    active_days: 30
+    pushes_per_repo: 14.0000
+    active_days: 27
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 reasons:
   - "provenance: 3 vault signal(s) — pass"
-  - "activity: 30 active days in 90d — pass"
+  - "activity: 27 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "pi-subagent"
@@ -134,6 +134,6 @@ repos:
 
 # badlogic
 
-45 pushes across 3 repositories on 30 active days in the last 90 days of public GitHub push activity.
+42 pushes across 3 repositories on 27 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/badlogic

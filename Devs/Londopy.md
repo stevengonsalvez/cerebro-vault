@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-11T06:04:44.624574+00:00"
+generated_at: "2026-10-16T08:30:18.142355+00:00"
 provenance:
   - "2a7f0fddd2dac162"
-pushes_per_week: [4, 0, 9, 10, 1, 0, 0, 0, 2, 27, 40, 3, 1]
+pushes_per_week: [3, 1, 18, 1, 0, 0, 0, 0, 2, 65, 5, 1, 0]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 73
-    distinct_repos: 19
-    active_days: 11
+    pushes: 71
+    distinct_repos: 18
+    active_days: 10
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 97
+    pushes: 96
     distinct_repos: 27
-    active_days: 18
+    active_days: 17
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 5.3889
-  repo_per_active_day: 1.5000
+  push_per_day: 5.6471
+  repo_per_active_day: 1.5882
   not_owned_ratio: 0.0370
   basename_concentration: 0.0741
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 73
-    distinct_repos: 19
-    pushes_per_repo: 3.8421
-    active_days: 11
+    pushes: 71
+    distinct_repos: 18
+    pushes_per_repo: 3.9444
+    active_days: 10
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 97
+    pushes: 96
     distinct_repos: 27
-    pushes_per_repo: 3.5926
-    active_days: 18
+    pushes_per_repo: 3.5556
+    active_days: 17
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 18 active days in 90d — pass"
+  - "activity: 17 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "Londopy"
@@ -84,7 +84,7 @@ repos:
     topics: []
     stars_fact: 2
     first_seen: null
-    last_push: "2026-10-07"
+    last_push: "2026-10-16"
   - name: "the-long-fork"
     title: "the-long-fork"
     description: "A repo whose only purpose is to be forked, one link at a time, as deep as possible. Fork the tip, add one line, pass it on."
@@ -102,7 +102,15 @@ repos:
       - "social-experiment"
     stars_fact: 1
     first_seen: null
-    last_push: "2026-10-06"
+    last_push: "2026-10-15"
+  - name: "capture-bypass"
+    title: "capture-bypass"
+    description: "DLL injection tool to bypass screen-capture protection on Windows 10/11"
+    language: "Rust"
+    topics: []
+    stars_fact: 44
+    first_seen: null
+    last_push: "2026-07-12"
   - name: "nexium"
     title: "nexium"
     description: "The Nexium Programming Language"
@@ -115,51 +123,27 @@ repos:
       - "programming-language"
     stars_fact: 3
     first_seen: null
-    last_push: "2026-10-05"
-  - name: "nxtls"
-    title: "nxtls"
-    description: "Cryptography and a TLS 1.3 client in pure Nexium: X25519, ChaCha20-Poly1305, Ed25519, ECDSA P-256/P-384 and RSA verification, X.509 chain checks, SHA-2, HMAC, HKDF. No C, no unsafe."
-    language: "Zig"
-    topics:
-      - "chacha20-poly1305"
-      - "constant-time"
-      - "cryptography"
-      - "ecdsa"
-      - "ed25519"
-      - "hkdf"
-      - "hmac"
-      - "nexium"
-      - "rsa"
-      - "sha256"
-      - "sha512"
-      - "tls"
-      - "tls-client"
-      - "tls13"
-      - "x25519"
-      - "x509"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-05"
-  - name: "scoop-bucket"
-    title: "scoop-bucket"
-    description: "Scoop bucket for my apps — scoop bucket add londopy https://github.com/Londopy/scoop-bucket"
-    language: null
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-04"
+    last_push: "2026-10-12"
   - name: "HideDesktopApps"
     title: "HideDesktopApps"
     description: "Lightweight Windows system-tray app to hide/show desktop icons, taskbar & all windows via hotkeys. Perfect for ricing, streamers, Wallpaper Engine fans & focus tools."
     language: "Rust"
     topics: []
-    stars_fact: 3
+    stars_fact: 4
     first_seen: null
     last_push: "2026-10-03"
+  - name: "blog"
+    title: "blog"
+    description: "Notes on security, systems, radio, and building things. Hugo + PaperMod on GitHub Pages."
+    language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-09"
 ---
 
 # Londopy
 
-97 pushes across 27 repositories on 18 active days in the last 90 days of public GitHub push activity.
+96 pushes across 27 repositories on 17 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Londopy

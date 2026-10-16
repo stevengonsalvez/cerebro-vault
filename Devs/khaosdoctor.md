@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-11T06:04:44.624574+00:00"
+generated_at: "2026-10-16T08:30:18.142355+00:00"
 provenance:
   - "73468cde177ddae6"
-pushes_per_week: [8, 11, 3, 5, 4, 4, 0, 3, 2, 0, 10, 20, 4]
+pushes_per_week: [12, 3, 6, 3, 4, 1, 1, 3, 1, 0, 25, 9, 9]
 windows:
   "7d":
-    pushes: 5
-    distinct_repos: 4
+    pushes: 9
+    distinct_repos: 3
     active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 35
+    pushes: 43
     distinct_repos: 9
-    active_days: 11
+    active_days: 13
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
   "90d":
-    pushes: 74
+    pushes: 77
     distinct_repos: 14
-    active_days: 36
+    active_days: 35
     repos_not_owned: 3
     not_owned_basenames: 2
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 2.0556
-  repo_per_active_day: 0.3889
+  push_per_day: 2.2000
+  repo_per_active_day: 0.4000
   not_owned_ratio: 0.2143
   basename_concentration: 0.2143
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 5
-    distinct_repos: 4
-    pushes_per_repo: 1.2500
+    pushes: 9
+    distinct_repos: 3
+    pushes_per_repo: 3.0000
     active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 35
+    pushes: 43
     distinct_repos: 9
-    pushes_per_repo: 3.8889
-    active_days: 11
+    pushes_per_repo: 4.7778
+    active_days: 13
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
   "90d":
-    pushes: 74
+    pushes: 77
     distinct_repos: 14
-    pushes_per_repo: 5.2857
-    active_days: 36
+    pushes_per_repo: 5.5000
+    active_days: 35
     repos_not_owned: 3
     not_owned_basenames: 2
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 36 active days in 90d — pass"
+  - "activity: 35 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "proton-drive-linux-fs"
@@ -149,6 +149,6 @@ repos:
 
 # khaosdoctor
 
-74 pushes across 14 repositories on 36 active days in the last 90 days of public GitHub push activity.
+77 pushes across 14 repositories on 35 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/khaosdoctor

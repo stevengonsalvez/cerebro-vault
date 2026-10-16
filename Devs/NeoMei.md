@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-11T06:04:44.624574+00:00"
+generated_at: "2026-10-16T08:30:18.142355+00:00"
 provenance:
   - "90688bf127241ceb"
-pushes_per_week: [5, 3, 2, 4, 16, 4, 0, 2, 3, 6, 5, 2, 1]
+pushes_per_week: [3, 4, 3, 15, 5, 1, 1, 4, 1, 8, 2, 3, 4]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
+    pushes: 4
+    distinct_repos: 2
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 14
-    distinct_repos: 5
-    active_days: 8
+    pushes: 18
+    distinct_repos: 6
+    active_days: 10
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 53
-    distinct_repos: 11
+    pushes: 54
+    distinct_repos: 10
     active_days: 30
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.7667
-  repo_per_active_day: 0.3667
+  push_per_day: 1.8000
+  repo_per_active_day: 0.3333
   not_owned_ratio: 0.0000
-  basename_concentration: 0.0909
+  basename_concentration: 0.1000
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes: 4
+    distinct_repos: 2
+    pushes_per_repo: 2.0000
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 14
-    distinct_repos: 5
-    pushes_per_repo: 2.8000
-    active_days: 8
+    pushes: 18
+    distinct_repos: 6
+    pushes_per_repo: 3.0000
+    active_days: 10
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 53
-    distinct_repos: 11
-    pushes_per_repo: 4.8182
+    pushes: 54
+    distinct_repos: 10
+    pushes_per_repo: 5.4000
     active_days: 30
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -131,6 +131,6 @@ repos:
 
 # NeoMei
 
-53 pushes across 11 repositories on 30 active days in the last 90 days of public GitHub push activity.
+54 pushes across 10 repositories on 30 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/NeoMei

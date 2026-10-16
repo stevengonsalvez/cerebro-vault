@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-11T06:04:44.624574+00:00"
+generated_at: "2026-10-16T08:30:18.142355+00:00"
 provenance:
   - "c489e6fb5febf2ab"
-pushes_per_week: [4, 2, 0, 3, 3, 3, 0, 0, 3, 0, 0, 0, 0]
+pushes_per_week: [1, 1, 2, 3, 4, 0, 0, 1, 2, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,25 +22,25 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 2
-    distinct_repos: 2
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 18
-    distinct_repos: 15
-    active_days: 12
+    pushes: 14
+    distinct_repos: 13
+    active_days: 11
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.5000
-  repo_per_active_day: 1.2500
+  push_per_day: 1.2727
+  repo_per_active_day: 1.1818
   not_owned_ratio: 0.0000
-  basename_concentration: 0.0667
+  basename_concentration: 0.0769
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 2
-    distinct_repos: 2
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 18
-    distinct_repos: 15
-    pushes_per_repo: 1.2000
-    active_days: 12
+    pushes: 14
+    distinct_repos: 13
+    pushes_per_repo: 1.0769
+    active_days: 11
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 12 active days in 90d — pass"
+  - "activity: 11 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "Veltriz"
@@ -140,6 +140,6 @@ repos:
 
 # Itachi7011
 
-18 pushes across 15 repositories on 12 active days in the last 90 days of public GitHub push activity.
+14 pushes across 13 repositories on 11 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Itachi7011

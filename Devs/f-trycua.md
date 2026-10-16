@@ -9,42 +9,42 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-11T06:04:44.624574+00:00"
+generated_at: "2026-10-16T08:30:18.142355+00:00"
 provenance:
   - "feacb1c4ff8cc40f"
-pushes_per_week: [40, 39, 23, 27, 12, 1, 4, 10, 16, 16, 37, 40, 17]
+pushes_per_week: [45, 24, 34, 7, 8, 3, 1, 19, 16, 23, 59, 16, 22]
 windows:
   "7d":
-    pushes: 19
+    pushes: 22
     distinct_repos: 1
-    active_days: 7
+    active_days: 5
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 117
-    distinct_repos: 13
-    active_days: 21
-    repos_not_owned: 13
+    pushes: 129
+    distinct_repos: 10
+    active_days: 23
+    repos_not_owned: 10
     not_owned_basenames: 2
-    not_owned_owners: 13
+    not_owned_owners: 10
   "90d":
-    pushes: 282
-    distinct_repos: 22
-    active_days: 63
+    pushes: 277
+    distinct_repos: 21
+    active_days: 61
     repos_not_owned: 21
     not_owned_basenames: 5
     not_owned_owners: 18
 automation:
   state: "clear"
-  push_per_day: 4.4762
-  repo_per_active_day: 0.3492
-  not_owned_ratio: 0.9545
-  basename_concentration: 0.8182
+  push_per_day: 4.5410
+  repo_per_active_day: 0.3443
+  not_owned_ratio: 1.0000
+  basename_concentration: 0.8095
   shapes:
     - "fork_farm_third_party"
   shape_evidence:
-    - "basename concentration 0.8182 (18 of 22 repos share one basename), 21 not owned across 5 basenames — 5 of 5 sampled repos resolved; 5 fork somebody else's repo; upstreams: trycua/cua"
+    - "basename concentration 0.8095 (17 of 21 repos share one basename), 21 not owned across 5 basenames — 5 of 5 sampled repos resolved; 5 fork somebody else's repo; upstreams: trycua/cua"
   cleared_by: "e01-builder"
   cleared_on: "2026-08-26"
   fork_provenance:
@@ -65,32 +65,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 19
+    pushes: 22
     distinct_repos: 1
-    pushes_per_repo: 19.0000
-    active_days: 7
+    pushes_per_repo: 22.0000
+    active_days: 5
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 117
-    distinct_repos: 13
-    pushes_per_repo: 9.0000
-    active_days: 21
-    repos_not_owned: 13
+    pushes: 129
+    distinct_repos: 10
+    pushes_per_repo: 12.9000
+    active_days: 23
+    repos_not_owned: 10
     not_owned_basenames: 2
-    not_owned_owners: 13
+    not_owned_owners: 10
   "90d":
-    pushes: 282
-    distinct_repos: 22
-    pushes_per_repo: 12.8182
-    active_days: 63
+    pushes: 277
+    distinct_repos: 21
+    pushes_per_repo: 13.1905
+    active_days: 61
     repos_not_owned: 21
     not_owned_basenames: 5
     not_owned_owners: 18
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 63 active days in 90d — pass"
+  - "activity: 61 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "johto-autumn"
@@ -105,6 +105,6 @@ repos:
 
 # f-trycua
 
-282 pushes across 22 repositories on 63 active days in the last 90 days of public GitHub push activity.
+277 pushes across 21 repositories on 61 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/f-trycua

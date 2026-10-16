@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-11T06:04:44.624574+00:00"
+generated_at: "2026-10-16T08:30:18.142355+00:00"
 provenance:
   - "0b22ca37fd3884c9"
-pushes_per_week: [14, 7, 6, 2, 4, 0, 3, 0, 0, 4, 0, 2, 1]
+pushes_per_week: [13, 6, 0, 6, 0, 3, 0, 0, 4, 0, 2, 0, 4]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
+    pushes: 4
+    distinct_repos: 3
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 7
-    distinct_repos: 7
-    active_days: 4
+    pushes: 10
+    distinct_repos: 9
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 43
-    distinct_repos: 21
-    active_days: 21
+    pushes: 38
+    distinct_repos: 23
+    active_days: 19
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.0476
-  repo_per_active_day: 1.0000
+  push_per_day: 2.0000
+  repo_per_active_day: 1.2105
   not_owned_ratio: 0.0000
-  basename_concentration: 0.0476
+  basename_concentration: 0.0435
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,111 +49,34 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes: 4
+    distinct_repos: 3
+    pushes_per_repo: 1.3333
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 7
-    distinct_repos: 7
-    pushes_per_repo: 1.0000
-    active_days: 4
+    pushes: 10
+    distinct_repos: 9
+    pushes_per_repo: 1.1111
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 43
-    distinct_repos: 21
-    pushes_per_repo: 2.0476
-    active_days: 21
+    pushes: 38
+    distinct_repos: 23
+    pushes_per_repo: 1.6522
+    active_days: 19
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 21 active days in 90d — pass"
+  - "activity: 19 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "ridge"
-    title: "ridge"
-    description: "Spreadsheet analysis you can audit. Stats computed locally, before any AI touches your data."
-    language: "JavaScript"
-    topics:
-      - "anthropic"
-      - "csv"
-      - "data-analysis"
-      - "data-quality"
-      - "data-visualization"
-      - "excel"
-      - "express"
-      - "llm"
-      - "nodejs"
-      - "spreadsheet-analysis"
-      - "statistics"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-29"
-  - name: "mohammedalkindi"
-    title: "mohammedalkindi"
-    description: "My GitHub profile README."
-    language: null
-    topics:
-      - "github-profile"
-      - "profile-readme"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-23"
-  - name: "alkindix"
-    title: "alkindix"
-    description: "My personal site: projects, research, photography, and writing."
-    language: "HTML"
-    topics:
-      - "html"
-      - "personal-website"
-      - "portfolio"
-      - "static-site"
-      - "typescript"
-      - "vercel"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-15"
-  - name: "contextbill"
-    title: "contextbill"
-    description: "See what your Claude Code sessions actually cost, computed locally from your own transcripts."
-    language: "TypeScript"
-    topics:
-      - "claude-code"
-      - "cli"
-      - "cost-analysis"
-      - "developer-tools"
-      - "nextjs"
-      - "observability"
-      - "token-usage"
-      - "typescript"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-09"
-  - name: "quant"
-    title: "quant"
-    description: "Out-of-sample, cost-aware backtesting for trading signals, served over a keyless FastAPI endpoint."
-    language: "Python"
-    topics:
-      - "algorithmic-trading"
-      - "backtesting"
-      - "fastapi"
-      - "numpy"
-      - "pandas"
-      - "python"
-      - "quantitative-finance"
-      - "research"
-      - "time-series"
-      - "trading-strategies"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-08-18"
   - name: "proofx"
     title: "proofx"
     description: "Hunts counterexamples to number-theory conjectures and publishes seeded, replayable search ledgers."
@@ -170,11 +93,88 @@ repos:
       - "research-tool"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-05"
+    last_push: "2026-10-16"
+  - name: "alkindix"
+    title: "alkindix"
+    description: "My personal site: projects, research, photography, and writing."
+    language: "HTML"
+    topics:
+      - "html"
+      - "personal-website"
+      - "portfolio"
+      - "static-site"
+      - "typescript"
+      - "vercel"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-15"
+  - name: "mohammedalkindi"
+    title: "mohammedalkindi"
+    description: "My GitHub profile README."
+    language: null
+    topics:
+      - "github-profile"
+      - "profile-readme"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-12"
+  - name: "receipt"
+    title: "receipt"
+    description: "Reads bank statements and summarizes your spending in plain English, locally."
+    language: "Python"
+    topics:
+      - "anthropic"
+      - "cli"
+      - "clustering"
+      - "data-analysis"
+      - "fintech"
+      - "llm"
+      - "personal-finance"
+      - "python"
+      - "sqlite"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-08"
+  - name: "sahurlock"
+    title: "sahurlock"
+    description: "Locks your screen when you look away, using face tracking that runs in the browser."
+    language: "TypeScript"
+    topics:
+      - "computer-vision"
+      - "face-tracking"
+      - "focus-timer"
+      - "mediapipe"
+      - "nextjs"
+      - "privacy"
+      - "productivity"
+      - "react"
+      - "typescript"
+      - "webcam"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-08"
+  - name: "pulse"
+    title: "pulse"
+    description: "A weekly summary of your Gmail, GitHub and Notion activity, built locally."
+    language: "Python"
+    topics:
+      - "cli"
+      - "github-api"
+      - "gmail-api"
+      - "llm"
+      - "local-first"
+      - "notion-api"
+      - "personal-agent"
+      - "productivity"
+      - "python"
+      - "sqlite"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-08"
 ---
 
 # MohammedAlkindi
 
-43 pushes across 21 repositories on 21 active days in the last 90 days of public GitHub push activity.
+38 pushes across 23 repositories on 19 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/MohammedAlkindi

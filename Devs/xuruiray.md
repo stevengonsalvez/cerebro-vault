@@ -8,11 +8,11 @@ provenance_repos:
   - "apache/maka"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-11T06:04:44.624574+00:00"
+repos_populated: true
+generated_at: "2026-10-16T08:30:18.142355+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [3, 4, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0]
+pushes_per_week: [7, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,63 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "information"
+    title: "information"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-10-16"
+  - name: "stackchan-local"
+    title: "stackchan-local"
+    description: "Local-first desktop daemon and firmware overlay for a Codex-connected StackChan robot."
+    language: "C++"
+    topics:
+      - "esp32"
+      - "m5stack"
+      - "react"
+      - "stackchan"
+    stars_fact: 8
+    first_seen: null
+    last_push: "2026-06-02"
+  - name: "magicstick"
+    title: "magicstick"
+    description: null
+    language: "C"
+    topics:
+      - "bluetooth"
+      - "esp32"
+      - "input-device"
+      - "vibecoding"
+    stars_fact: 7
+    first_seen: null
+    last_push: "2026-06-05"
+  - name: "Stopwatch-Micro"
+    title: "Stopwatch-Micro"
+    description: "Dedicated M5Stack StopWatch firmware with an unofficial Codex Micro compatibility layer"
+    language: "C++"
+    topics: []
+    stars_fact: 5
+    first_seen: null
+    last_push: "2026-07-18"
+  - name: "Ratchet-StopWatch"
+    title: "Ratchet-StopWatch"
+    description: "Ratchet Mooncake app extracted from M5StopWatch-UserDemo"
+    language: "C"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-06-15"
+  - name: "Schulte-StopWatch"
+    title: "Schulte-StopWatch"
+    description: null
+    language: "C"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-06-15"
 ---
 
 # xuruiray

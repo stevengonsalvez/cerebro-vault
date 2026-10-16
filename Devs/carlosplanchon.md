@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-11T06:04:44.624574+00:00"
+generated_at: "2026-10-16T08:30:18.142355+00:00"
 provenance:
   - "c1af6b58492f9bf4"
-pushes_per_week: [10, 0, 7, 5, 2, 2, 1, 0, 1, 3, 7, 16, 1]
+pushes_per_week: [0, 6, 6, 2, 2, 1, 0, 0, 1, 6, 14, 6, 9]
 windows:
   "7d":
-    pushes: 2
-    distinct_repos: 2
-    active_days: 2
+    pushes: 9
+    distinct_repos: 4
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 28
-    distinct_repos: 13
-    active_days: 13
+    pushes: 35
+    distinct_repos: 15
+    active_days: 15
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
   "90d":
-    pushes: 55
+    pushes: 53
     distinct_repos: 22
     active_days: 26
     repos_not_owned: 3
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 2.1154
+  push_per_day: 2.0385
   repo_per_active_day: 0.8462
   not_owned_ratio: 0.1364
   basename_concentration: 0.0455
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
-    distinct_repos: 2
-    pushes_per_repo: 1.0000
-    active_days: 2
+    pushes: 9
+    distinct_repos: 4
+    pushes_per_repo: 2.2500
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 28
-    distinct_repos: 13
-    pushes_per_repo: 2.1538
-    active_days: 13
+    pushes: 35
+    distinct_repos: 15
+    pushes_per_repo: 2.3333
+    active_days: 15
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
   "90d":
-    pushes: 55
+    pushes: 53
     distinct_repos: 22
-    pushes_per_repo: 2.5000
+    pushes_per_repo: 2.4091
     active_days: 26
     repos_not_owned: 3
     not_owned_basenames: 3
@@ -174,6 +174,6 @@ repos:
 
 # carlosplanchon
 
-55 pushes across 22 repositories on 26 active days in the last 90 days of public GitHub push activity.
+53 pushes across 22 repositories on 26 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/carlosplanchon

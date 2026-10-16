@@ -8,11 +8,11 @@ provenance_repos:
   - "anthropics/claude-code-action"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-11T06:04:44.624574+00:00"
+repos_populated: true
+generated_at: "2026-10-16T08:30:18.142355+00:00"
 provenance:
   - "0b22ca37fd3884c9"
-pushes_per_week: [6, 0, 0, 2, 0, 14, 4, 0, 0, 0, 10, 0, 0]
+pushes_per_week: [1, 0, 2, 0, 4, 14, 0, 0, 0, 0, 10, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 36
+    pushes: 31
     distinct_repos: 13
-    active_days: 10
+    active_days: 9
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 3.6000
-  repo_per_active_day: 1.3000
+  push_per_day: 3.4444
+  repo_per_active_day: 1.4444
   not_owned_ratio: 0.0000
   basename_concentration: 0.0769
   shapes: []
@@ -65,22 +65,86 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 36
+    pushes: 31
     distinct_repos: 13
-    pushes_per_repo: 2.7692
-    active_days: 10
+    pushes_per_repo: 2.3846
+    active_days: 9
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 10 active days in 90d — pass"
+  - "activity: 9 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "universal-copy"
+    title: "universal-copy"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-26"
+  - name: "legal-templates"
+    title: "legal-templates"
+    description: "Open Access UK: legal-templates"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-26"
+  - name: "salary-boost-uk-site"
+    title: "salary-boost-uk-site"
+    description: null
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-26"
+  - name: "open-access-uk"
+    title: "open-access-uk"
+    description: "Open Access UK suite workspace linking the seven project repos"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-01"
+  - name: "PageLumen"
+    title: "PageLumen"
+    description: "Native macOS accessibility-first reader for PDFs, screenshots, scans, and visual documents."
+    language: "Swift"
+    topics:
+      - "accessibility"
+      - "macos"
+      - "ocr"
+      - "pdf"
+      - "swiftui"
+      - "vision"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-30"
+  - name: "ai-switchboard"
+    title: "ai-switchboard"
+    description: "Local-first Mac AI work switchboard for Headroom, RTK, Codex, Claude Code, MarkItDown, Ponytail, and Repo Intelligence"
+    language: "Rust"
+    topics:
+      - "claude-code"
+      - "codex"
+      - "headroom"
+      - "local-first"
+      - "macos"
+      - "markitdown"
+      - "ponytail"
+      - "repo-intelligence"
+      - "rtk"
+      - "tauri"
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-09-26"
 ---
 
 # tarunag10
 
-36 pushes across 13 repositories on 10 active days in the last 90 days of public GitHub push activity.
+31 pushes across 13 repositories on 9 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/tarunag10

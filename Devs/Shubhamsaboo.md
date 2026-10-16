@@ -10,10 +10,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-11T06:04:44.624574+00:00"
+generated_at: "2026-10-16T08:30:18.142355+00:00"
 provenance:
   - "fae31da6c227cfde"
-pushes_per_week: [4, 2, 4, 3, 1, 0, 0, 0, 2, 3, 1, 0, 0]
+pushes_per_week: [1, 4, 2, 4, 0, 0, 0, 1, 2, 2, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -23,23 +23,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 5
-    distinct_repos: 2
-    active_days: 4
+    pushes: 3
+    distinct_repos: 1
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 20
+    pushes: 17
     distinct_repos: 4
-    active_days: 13
+    active_days: 11
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.5385
-  repo_per_active_day: 0.3077
+  push_per_day: 1.5455
+  repo_per_active_day: 0.3636
   not_owned_ratio: 0.0000
   basename_concentration: 0.2500
   shapes: []
@@ -58,24 +58,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 5
-    distinct_repos: 2
-    pushes_per_repo: 2.5000
-    active_days: 4
+    pushes: 3
+    distinct_repos: 1
+    pushes_per_repo: 3.0000
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 20
+    pushes: 17
     distinct_repos: 4
-    pushes_per_repo: 5.0000
-    active_days: 13
+    pushes_per_repo: 4.2500
+    active_days: 11
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 13 active days in 90d — pass"
+  - "activity: 11 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "awesome-llm-apps"
@@ -134,6 +134,6 @@ repos:
 
 # Shubhamsaboo
 
-20 pushes across 4 repositories on 13 active days in the last 90 days of public GitHub push activity.
+17 pushes across 4 repositories on 11 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Shubhamsaboo

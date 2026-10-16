@@ -5,46 +5,49 @@ discovered_via: "fanout"
 discovered_via_all:
   - "fanout"
 provenance_repos:
+  - "affaan-m/ECC"
   - "alibaba/open-code-review"
   - "ayghri/i-have-adhd"
   - "chaitanyagiri/munder-difflin"
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-11T06:04:44.624574+00:00"
+generated_at: "2026-10-16T08:30:18.142355+00:00"
 provenance:
+  - "1df6ea1f1256059e"
   - "46f3c1d6124190bd"
   - "c489e6fb5febf2ab"
   - "e5b23adc376a62a9"
-pushes_per_week: [9, 2, 0, 2, 13, 2, 3, 0, 4, 2, 1, 6, 1]
+  - "edb3a626875732de"
+pushes_per_week: [2, 0, 2, 13, 2, 3, 0, 4, 2, 0, 7, 0, 12]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
-  "30d":
-    pushes: 10
-    distinct_repos: 9
-    active_days: 6
+    pushes: 12
+    distinct_repos: 7
+    active_days: 3
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
+  "30d":
+    pushes: 21
+    distinct_repos: 14
+    active_days: 8
+    repos_not_owned: 3
+    not_owned_basenames: 3
+    not_owned_owners: 1
   "90d":
-    pushes: 45
-    distinct_repos: 21
+    pushes: 47
+    distinct_repos: 22
     active_days: 21
     repos_not_owned: 7
     not_owned_basenames: 7
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 2.1429
-  repo_per_active_day: 1.0000
-  not_owned_ratio: 0.3333
-  basename_concentration: 0.0952
+  push_per_day: 2.2381
+  repo_per_active_day: 1.0476
+  not_owned_ratio: 0.3182
+  basename_concentration: 0.0909
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -53,31 +56,31 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
-  "30d":
-    pushes: 10
-    distinct_repos: 9
-    pushes_per_repo: 1.1111
-    active_days: 6
+    pushes: 12
+    distinct_repos: 7
+    pushes_per_repo: 1.7143
+    active_days: 3
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
+  "30d":
+    pushes: 21
+    distinct_repos: 14
+    pushes_per_repo: 1.5000
+    active_days: 8
+    repos_not_owned: 3
+    not_owned_basenames: 3
+    not_owned_owners: 1
   "90d":
-    pushes: 45
-    distinct_repos: 21
-    pushes_per_repo: 2.1429
+    pushes: 47
+    distinct_repos: 22
+    pushes_per_repo: 2.1364
     active_days: 21
     repos_not_owned: 7
     not_owned_basenames: 7
     not_owned_owners: 2
 reasons:
-  - "provenance: 3 vault signal(s) — pass"
+  - "provenance: 5 vault signal(s) — pass"
   - "activity: 21 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
@@ -134,6 +137,6 @@ repos:
 
 # FenjuFu
 
-45 pushes across 21 repositories on 21 active days in the last 90 days of public GitHub push activity.
+47 pushes across 22 repositories on 21 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/FenjuFu

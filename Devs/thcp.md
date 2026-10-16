@@ -8,39 +8,39 @@ provenance_repos:
   - "stemdeckapp/stemdeck"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-11T06:04:44.624574+00:00"
+repos_populated: true
+generated_at: "2026-10-16T08:30:18.142355+00:00"
 provenance:
   - "f067a4ae268cdf65"
-pushes_per_week: [9, 2, 0, 3, 7, 0, 1, 0, 1, 1, 1, 5, 2]
+pushes_per_week: [0, 2, 0, 10, 0, 0, 1, 1, 0, 2, 3, 4, 1]
 windows:
   "7d":
-    pushes: 4
+    pushes: 1
     distinct_repos: 1
-    active_days: 2
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    active_days: 1
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
-    pushes: 9
-    distinct_repos: 2
-    active_days: 7
+    pushes: 10
+    distinct_repos: 3
+    active_days: 8
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 32
-    distinct_repos: 2
-    active_days: 18
+    pushes: 24
+    distinct_repos: 3
+    active_days: 15
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.7778
-  repo_per_active_day: 0.1111
-  not_owned_ratio: 0.5000
-  basename_concentration: 0.5000
+  push_per_day: 1.6000
+  repo_per_active_day: 0.2000
+  not_owned_ratio: 0.3333
+  basename_concentration: 0.3333
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,38 +49,86 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 4
+    pushes: 1
     distinct_repos: 1
-    pushes_per_repo: 4.0000
-    active_days: 2
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes_per_repo: 1.0000
+    active_days: 1
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
-    pushes: 9
-    distinct_repos: 2
-    pushes_per_repo: 4.5000
-    active_days: 7
+    pushes: 10
+    distinct_repos: 3
+    pushes_per_repo: 3.3333
+    active_days: 8
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 32
-    distinct_repos: 2
-    pushes_per_repo: 16.0000
-    active_days: 18
+    pushes: 24
+    distinct_repos: 3
+    pushes_per_repo: 8.0000
+    active_days: 15
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 18 active days in 90d — pass"
+  - "activity: 15 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "phloem"
+    title: "phloem"
+    description: "Watch a git repository's history grow as a glowing, branching vein network in 3D."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 10
+    first_seen: null
+    last_push: "2026-10-11"
+  - name: "netbattle"
+    title: "netbattle"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-10"
+  - name: "phronesis"
+    title: "phronesis"
+    description: "Replies from your AI coding agent that are easy to read and easy to act on: the answer first, one step at a time, nothing left to guess. Designed around attention and clarity."
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-15"
+  - name: "my-awesome-list"
+    title: "my-awesome-list"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-30"
+  - name: "PedalBoardManager"
+    title: "PedalBoardManager"
+    description: "Create, organize, and manage pedalboard profiles and signal chains."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-08-08"
+  - name: "dockerclaw"
+    title: "dockerclaw"
+    description: "OpenClaw On Docker"
+    language: "Shell"
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-03-29"
 ---
 
 # thcp
 
-32 pushes across 2 repositories on 18 active days in the last 90 days of public GitHub push activity.
+24 pushes across 3 repositories on 15 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/thcp

@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-11T06:04:44.624574+00:00"
+generated_at: "2026-10-16T08:30:18.142355+00:00"
 provenance:
   - "3eacb4655aba2497"
-pushes_per_week: [0, 0, 0, 1, 3, 1, 1, 0, 3, 1, 0, 1, 2]
+pushes_per_week: [0, 0, 0, 3, 2, 1, 0, 1, 2, 1, 0, 2, 6]
 windows:
   "7d":
-    pushes: 3
-    distinct_repos: 1
-    active_days: 3
+    pushes: 6
+    distinct_repos: 2
+    active_days: 4
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 6
+    pushes: 9
     distinct_repos: 3
-    active_days: 5
+    active_days: 7
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 13
+    pushes: 18
     distinct_repos: 7
-    active_days: 12
+    active_days: 15
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.0833
-  repo_per_active_day: 0.5833
+  push_per_day: 1.2000
+  repo_per_active_day: 0.4667
   not_owned_ratio: 0.1429
   basename_concentration: 0.1429
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 3
-    distinct_repos: 1
+    pushes: 6
+    distinct_repos: 2
     pushes_per_repo: 3.0000
-    active_days: 3
+    active_days: 4
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 6
+    pushes: 9
     distinct_repos: 3
-    pushes_per_repo: 2.0000
-    active_days: 5
+    pushes_per_repo: 3.0000
+    active_days: 7
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 13
+    pushes: 18
     distinct_repos: 7
-    pushes_per_repo: 1.8571
-    active_days: 12
+    pushes_per_repo: 2.5714
+    active_days: 15
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 12 active days in 90d — pass"
+  - "activity: 15 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "strix-rdma"
@@ -154,6 +154,6 @@ repos:
 
 # jyatesdotdev
 
-13 pushes across 7 repositories on 12 active days in the last 90 days of public GitHub push activity.
+18 pushes across 7 repositories on 15 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/jyatesdotdev

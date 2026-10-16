@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-11T06:04:44.624574+00:00"
+generated_at: "2026-10-16T08:30:18.142355+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 3, 3]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 2, 2, 10]
 windows:
   "7d":
-    pushes: 4
-    distinct_repos: 2
+    pushes: 10
+    distinct_repos: 3
     active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 7
-    distinct_repos: 3
-    active_days: 6
+    pushes: 15
+    distinct_repos: 4
+    active_days: 8
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 7
-    distinct_repos: 3
-    active_days: 6
+    pushes: 15
+    distinct_repos: 4
+    active_days: 8
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.1667
+  push_per_day: 1.8750
   repo_per_active_day: 0.5000
   not_owned_ratio: 0.0000
-  basename_concentration: 0.3333
+  basename_concentration: 0.2500
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,34 +49,42 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 4
-    distinct_repos: 2
-    pushes_per_repo: 2.0000
+    pushes: 10
+    distinct_repos: 3
+    pushes_per_repo: 3.3333
     active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 7
-    distinct_repos: 3
-    pushes_per_repo: 2.3333
-    active_days: 6
+    pushes: 15
+    distinct_repos: 4
+    pushes_per_repo: 3.7500
+    active_days: 8
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 7
-    distinct_repos: 3
-    pushes_per_repo: 2.3333
-    active_days: 6
+    pushes: 15
+    distinct_repos: 4
+    pushes_per_repo: 3.7500
+    active_days: 8
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 6 active days in 90d — pass"
+  - "activity: 8 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "urbz-recomp"
+    title: "urbz-recomp"
+    description: "Static recompilation port scaffold for the original Xbox game The Urbz: Sims in the City (USA), built on XboxXBERecomp. No game data."
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-16"
   - name: "omp-greppy"
     title: "omp-greppy"
     description: "greppy code-graph tools for Oh My Pi (omp) and pi: definitions, callers, impact, call chains, local semantic search, and a per-prompt <greppy-tools> note"
@@ -122,18 +130,10 @@ repos:
     stars_fact: 3
     first_seen: null
     last_push: "2026-07-28"
-  - name: "pixelforge"
-    title: "pixelforge"
-    description: "3D-to-pixel-art desktop tool: glTF -> palette/dither -> PNG / sprite sheets, with a 2D image-editor mode."
-    language: "Rust"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-05-07"
 ---
 
 # abilliontokens
 
-7 pushes across 3 repositories on 6 active days in the last 90 days of public GitHub push activity.
+15 pushes across 4 repositories on 8 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/abilliontokens

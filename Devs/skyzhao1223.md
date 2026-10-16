@@ -9,28 +9,28 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-11T06:04:44.624574+00:00"
+generated_at: "2026-10-16T08:30:18.142355+00:00"
 provenance:
   - "e5b23adc376a62a9"
-pushes_per_week: [1, 0, 0, 0, 0, 0, 3, 0, 3, 7, 6, 0, 12]
+pushes_per_week: [0, 0, 0, 0, 0, 3, 0, 3, 3, 10, 0, 11, 2]
 windows:
   "7d":
-    pushes: 12
-    distinct_repos: 5
+    pushes: 4
+    distinct_repos: 4
     active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 25
-    distinct_repos: 8
-    active_days: 7
+    pushes: 26
+    distinct_repos: 9
+    active_days: 8
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
     pushes: 32
-    distinct_repos: 9
+    distinct_repos: 10
     active_days: 10
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -38,9 +38,9 @@ windows:
 automation:
   state: "clear"
   push_per_day: 3.2000
-  repo_per_active_day: 0.9000
+  repo_per_active_day: 1.0000
   not_owned_ratio: 0.0000
-  basename_concentration: 0.1111
+  basename_concentration: 0.1000
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 12
-    distinct_repos: 5
-    pushes_per_repo: 2.4000
+    pushes: 4
+    distinct_repos: 4
+    pushes_per_repo: 1.0000
     active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 25
-    distinct_repos: 8
-    pushes_per_repo: 3.1250
-    active_days: 7
+    pushes: 26
+    distinct_repos: 9
+    pushes_per_repo: 2.8889
+    active_days: 8
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
     pushes: 32
-    distinct_repos: 9
-    pushes_per_repo: 3.5556
+    distinct_repos: 10
+    pushes_per_repo: 3.2000
     active_days: 10
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -186,6 +186,6 @@ repos:
 
 # skyzhao1223
 
-32 pushes across 9 repositories on 10 active days in the last 90 days of public GitHub push activity.
+32 pushes across 10 repositories on 10 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/skyzhao1223

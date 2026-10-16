@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-11T06:04:44.624574+00:00"
+generated_at: "2026-10-16T08:30:18.142355+00:00"
 provenance:
   - "2a7f0fddd2dac162"
-pushes_per_week: [18, 27, 23, 10, 12, 0, 3, 0, 7, 16, 38, 36, 5]
+pushes_per_week: [14, 30, 9, 19, 0, 3, 0, 4, 3, 38, 36, 21, 14]
 windows:
   "7d":
-    pushes: 13
+    pushes: 15
     distinct_repos: 2
     active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 98
+    pushes: 109
     distinct_repos: 4
-    active_days: 20
+    active_days: 22
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 195
+    pushes: 191
     distinct_repos: 4
-    active_days: 45
+    active_days: 44
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 4.3333
-  repo_per_active_day: 0.0889
+  push_per_day: 4.3409
+  repo_per_active_day: 0.0909
   not_owned_ratio: 0.0000
   basename_concentration: 0.2500
   shapes: []
@@ -49,42 +49,50 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 13
+    pushes: 15
     distinct_repos: 2
-    pushes_per_repo: 6.5000
+    pushes_per_repo: 7.5000
     active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 98
+    pushes: 109
     distinct_repos: 4
-    pushes_per_repo: 24.5000
-    active_days: 20
+    pushes_per_repo: 27.2500
+    active_days: 22
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 195
+    pushes: 191
     distinct_repos: 4
-    pushes_per_repo: 48.7500
-    active_days: 45
+    pushes_per_repo: 47.7500
+    active_days: 44
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 45 active days in 90d — pass"
+  - "activity: 44 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "herdr-webui"
     title: "herdr-webui"
     description: "Standalone browser WebUI for Herdr sessions, with workspace/worktree navigation, terminal attach, agent status, settings, and macOS install/update support. New* Includes a built-in backend."
-    language: "Rust"
+    language: "JavaScript"
     topics: []
-    stars_fact: 34
+    stars_fact: 37
     first_seen: null
-    last_push: "2026-10-05"
+    last_push: "2026-10-16"
+  - name: "openwrt_microsocks_luci"
+    title: "openwrt_microsocks_luci"
+    description: "A microsocks repackage with luci interface for openwrt (ax3600 , be7000 etc) arm."
+    language: "Shell"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-14"
   - name: "businessbar"
     title: "businessbar"
     description: "A unified macOS menu bar application combining three essential functionalities: Next Meeting->Shows upcoming calendar events with countdown, one-click join, and notifications 2.Notification Badges->icon badges for selected apps as menu bar icons. 3->NoSleep, Prevents the computer from sleeping"
@@ -114,14 +122,6 @@ repos:
     stars_fact: 22
     first_seen: null
     last_push: "2023-07-10"
-  - name: "openwrt_microsocks_luci"
-    title: "openwrt_microsocks_luci"
-    description: "A microsocks repackage with luci interface for openwrt (ax3600 , be7000 etc) arm."
-    language: "Shell"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-03-29"
   - name: "mapreduce_minhash_lsh"
     title: "mapreduce_minhash_lsh"
     description: "A simple implementation of minHash LSH in hadoop mapreduce"
@@ -134,6 +134,6 @@ repos:
 
 # alecuba16
 
-195 pushes across 4 repositories on 45 active days in the last 90 days of public GitHub push activity.
+191 pushes across 4 repositories on 44 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/alecuba16

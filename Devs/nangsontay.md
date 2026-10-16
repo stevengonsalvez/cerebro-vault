@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-11T06:04:44.624574+00:00"
+generated_at: "2026-10-16T08:30:18.142355+00:00"
 provenance:
   - "73468cde177ddae6"
-pushes_per_week: [9, 5, 5, 1, 5, 0, 1, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [5, 4, 2, 5, 0, 1, 0, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 26
+    pushes: 17
     distinct_repos: 2
-    active_days: 12
+    active_days: 9
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.1667
-  repo_per_active_day: 0.1667
+  push_per_day: 1.8889
+  repo_per_active_day: 0.2222
   not_owned_ratio: 0.0000
   basename_concentration: 0.5000
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 26
+    pushes: 17
     distinct_repos: 2
-    pushes_per_repo: 13.0000
-    active_days: 12
+    pushes_per_repo: 8.5000
+    active_days: 9
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 12 active days in 90d — pass"
+  - "activity: 9 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "AlphaZero-Gomoku"
@@ -129,6 +129,6 @@ repos:
 
 # nangsontay
 
-26 pushes across 2 repositories on 12 active days in the last 90 days of public GitHub push activity.
+17 pushes across 2 repositories on 9 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/nangsontay

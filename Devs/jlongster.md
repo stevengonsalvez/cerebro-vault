@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-11T06:04:44.624574+00:00"
+generated_at: "2026-10-16T08:30:18.142355+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [12, 19, 4, 1, 4, 0, 8, 0, 0, 5, 0, 4, 2]
+pushes_per_week: [18, 5, 1, 4, 0, 8, 0, 0, 5, 0, 4, 2, 1]
 windows:
   "7d":
-    pushes: 2
-    distinct_repos: 2
-    active_days: 2
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
     pushes: 11
-    distinct_repos: 3
+    distinct_repos: 4
     active_days: 7
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 59
-    distinct_repos: 6
-    active_days: 22
+    pushes: 48
+    distinct_repos: 7
+    active_days: 20
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.6818
-  repo_per_active_day: 0.2727
-  not_owned_ratio: 0.6667
-  basename_concentration: 0.1667
+  push_per_day: 2.4000
+  repo_per_active_day: 0.3500
+  not_owned_ratio: 0.5714
+  basename_concentration: 0.1429
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
-    distinct_repos: 2
+    pushes: 1
+    distinct_repos: 1
     pushes_per_repo: 1.0000
-    active_days: 2
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    active_days: 1
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
     pushes: 11
-    distinct_repos: 3
-    pushes_per_repo: 3.6667
+    distinct_repos: 4
+    pushes_per_repo: 2.7500
     active_days: 7
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 59
-    distinct_repos: 6
-    pushes_per_repo: 9.8333
-    active_days: 22
+    pushes: 48
+    distinct_repos: 7
+    pushes_per_repo: 6.8571
+    active_days: 20
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 22 active days in 90d — pass"
+  - "activity: 20 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "absurd-sql"
@@ -129,6 +129,6 @@ repos:
 
 # jlongster
 
-59 pushes across 6 repositories on 22 active days in the last 90 days of public GitHub push activity.
+48 pushes across 7 repositories on 20 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/jlongster

@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: true
 repos_populated: true
-generated_at: "2026-10-11T06:04:44.624574+00:00"
+generated_at: "2026-10-16T08:30:18.142355+00:00"
 provenance:
   - "593d8a1dc9504a09"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 1, 5]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 6, 1]
 windows:
   "7d":
-    pushes: 5
+    pushes: 1
     distinct_repos: 1
     active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 9
+    pushes: 10
     distinct_repos: 1
-    active_days: 3
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 9
+    pushes: 10
     distinct_repos: 1
-    active_days: 3
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 3.0000
-  repo_per_active_day: 0.3333
+  push_per_day: 2.5000
+  repo_per_active_day: 0.2500
   not_owned_ratio: 0.0000
   basename_concentration: 1.0000
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 5
+    pushes: 1
     distinct_repos: 1
-    pushes_per_repo: 5.0000
+    pushes_per_repo: 1.0000
     active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 9
+    pushes: 10
     distinct_repos: 1
-    pushes_per_repo: 9.0000
-    active_days: 3
+    pushes_per_repo: 10.0000
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 9
+    pushes: 10
     distinct_repos: 1
-    pushes_per_repo: 9.0000
-    active_days: 3
+    pushes_per_repo: 10.0000
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 3 active days in 90d — below the 5-day line, LABELLED low-n (never suppressed)"
+  - "activity: 4 active days in 90d — below the 5-day line, LABELLED low-n (never suppressed)"
   - "automation: clear — pass"
 repos:
   - name: "easy-dataset"
@@ -153,6 +153,6 @@ repos:
 
 # ConardLi
 
-9 pushes across 1 repository on 3 active days in the last 90 days of public GitHub push activity.
+10 pushes across 1 repository on 4 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ConardLi

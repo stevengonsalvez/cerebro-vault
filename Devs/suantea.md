@@ -8,39 +8,39 @@ provenance_repos:
   - "agentscope-ai/QwenPaw"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-11T06:04:44.624574+00:00"
+repos_populated: true
+generated_at: "2026-10-16T08:30:18.142355+00:00"
 provenance:
   - "541318303a272608"
-pushes_per_week: [0, 0, 0, 5, 7, 5, 3, 0, 0, 4, 7, 0, 1]
+pushes_per_week: [0, 0, 4, 6, 4, 6, 0, 0, 2, 9, 0, 1, 7]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
+    pushes: 7
+    distinct_repos: 2
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 12
-    distinct_repos: 3
-    active_days: 7
+    pushes: 19
+    distinct_repos: 4
+    active_days: 10
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 32
-    distinct_repos: 5
-    active_days: 19
+    pushes: 39
+    distinct_repos: 6
+    active_days: 22
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.6842
-  repo_per_active_day: 0.2632
+  push_per_day: 1.7727
+  repo_per_active_day: 0.2727
   not_owned_ratio: 0.0000
-  basename_concentration: 0.2000
+  basename_concentration: 0.1667
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,38 +49,54 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes: 7
+    distinct_repos: 2
+    pushes_per_repo: 3.5000
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 12
-    distinct_repos: 3
-    pushes_per_repo: 4.0000
-    active_days: 7
+    pushes: 19
+    distinct_repos: 4
+    pushes_per_repo: 4.7500
+    active_days: 10
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 32
-    distinct_repos: 5
-    pushes_per_repo: 6.4000
-    active_days: 19
+    pushes: 39
+    distinct_repos: 6
+    pushes_per_repo: 6.5000
+    active_days: 22
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 19 active days in 90d — pass"
+  - "activity: 22 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "dsh-official-patch-empty"
+    title: "dsh-official-patch-empty"
+    description: "DSH Desktop official-build patch script: drag non-image files into chat as local @path file references (backup + inject + resign, rerun after official updates)"
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-03"
+  - name: "suantea"
+    title: "suantea"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-09"
 ---
 
 # suantea
 
-32 pushes across 5 repositories on 19 active days in the last 90 days of public GitHub push activity.
+39 pushes across 6 repositories on 22 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/suantea

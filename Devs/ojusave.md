@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-11T06:04:44.624574+00:00"
+generated_at: "2026-10-16T08:30:18.142355+00:00"
 provenance:
   - "46f3c1d6124190bd"
-pushes_per_week: [19, 39, 9, 3, 0, 1, 0, 0, 0, 7, 1, 8, 0]
+pushes_per_week: [36, 14, 3, 0, 1, 0, 0, 0, 7, 1, 8, 0, 12]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
+    pushes: 12
+    distinct_repos: 8
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 16
-    distinct_repos: 8
-    active_days: 7
+    pushes: 27
+    distinct_repos: 12
+    active_days: 8
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 87
-    distinct_repos: 33
-    active_days: 27
-    repos_not_owned: 6
-    not_owned_basenames: 6
+    pushes: 82
+    distinct_repos: 28
+    active_days: 25
+    repos_not_owned: 3
+    not_owned_basenames: 3
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 3.2222
-  repo_per_active_day: 1.2222
-  not_owned_ratio: 0.1818
-  basename_concentration: 0.0606
+  push_per_day: 3.2800
+  repo_per_active_day: 1.1200
+  not_owned_ratio: 0.1071
+  basename_concentration: 0.0714
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
+    pushes: 12
+    distinct_repos: 8
+    pushes_per_repo: 1.5000
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 16
-    distinct_repos: 8
-    pushes_per_repo: 2.0000
-    active_days: 7
+    pushes: 27
+    distinct_repos: 12
+    pushes_per_repo: 2.2500
+    active_days: 8
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 87
-    distinct_repos: 33
-    pushes_per_repo: 2.6364
-    active_days: 27
-    repos_not_owned: 6
-    not_owned_basenames: 6
+    pushes: 82
+    distinct_repos: 28
+    pushes_per_repo: 2.9286
+    active_days: 25
+    repos_not_owned: 3
+    not_owned_basenames: 3
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 27 active days in 90d — pass"
+  - "activity: 25 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "render-sandboxes-plugin"
@@ -129,6 +129,6 @@ repos:
 
 # ojusave
 
-87 pushes across 33 repositories on 27 active days in the last 90 days of public GitHub push activity.
+82 pushes across 28 repositories on 25 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ojusave

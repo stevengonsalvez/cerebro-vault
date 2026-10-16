@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-11T06:04:44.624574+00:00"
+generated_at: "2026-10-16T08:30:18.142355+00:00"
 provenance:
   - "541318303a272608"
-pushes_per_week: [4, 4, 2, 1, 9, 5, 1, 1, 3, 6, 11, 17, 2]
+pushes_per_week: [7, 1, 2, 6, 6, 3, 1, 3, 4, 11, 17, 4, 4]
 windows:
   "7d":
-    pushes: 3
-    distinct_repos: 2
+    pushes: 5
+    distinct_repos: 1
     active_days: 3
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
-    pushes: 36
+    pushes: 38
     distinct_repos: 7
-    active_days: 18
+    active_days: 19
     repos_not_owned: 4
     not_owned_basenames: 2
     not_owned_owners: 4
   "90d":
-    pushes: 66
+    pushes: 69
     distinct_repos: 8
-    active_days: 36
+    active_days: 37
     repos_not_owned: 5
     not_owned_basenames: 2
     not_owned_owners: 5
 automation:
   state: "clear"
-  push_per_day: 1.8333
-  repo_per_active_day: 0.2222
+  push_per_day: 1.8649
+  repo_per_active_day: 0.2162
   not_owned_ratio: 0.6250
   basename_concentration: 0.5000
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 3
-    distinct_repos: 2
-    pushes_per_repo: 1.5000
+    pushes: 5
+    distinct_repos: 1
+    pushes_per_repo: 5.0000
     active_days: 3
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
-    pushes: 36
+    pushes: 38
     distinct_repos: 7
-    pushes_per_repo: 5.1429
-    active_days: 18
+    pushes_per_repo: 5.4286
+    active_days: 19
     repos_not_owned: 4
     not_owned_basenames: 2
     not_owned_owners: 4
   "90d":
-    pushes: 66
+    pushes: 69
     distinct_repos: 8
-    pushes_per_repo: 8.2500
-    active_days: 36
+    pushes_per_repo: 8.6250
+    active_days: 37
     repos_not_owned: 5
     not_owned_basenames: 2
     not_owned_owners: 5
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 36 active days in 90d — pass"
+  - "activity: 37 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "dshfind"
@@ -147,6 +147,6 @@ repos:
 
 # hikariming
 
-66 pushes across 8 repositories on 36 active days in the last 90 days of public GitHub push activity.
+69 pushes across 8 repositories on 37 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/hikariming

@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-11T06:04:44.624574+00:00"
+generated_at: "2026-10-16T08:30:18.142355+00:00"
 provenance:
   - "1be978947e68d1f2"
-pushes_per_week: [8, 13, 10, 3, 26, 4, 0, 0, 0, 2, 3, 6, 4]
+pushes_per_week: [13, 9, 1, 25, 8, 0, 0, 0, 2, 3, 6, 4, 4]
 windows:
   "7d":
     pushes: 4
-    distinct_repos: 4
+    distinct_repos: 2
     active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 15
+    pushes: 19
     distinct_repos: 12
-    active_days: 8
+    active_days: 10
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 79
-    distinct_repos: 28
-    active_days: 32
+    pushes: 75
+    distinct_repos: 26
+    active_days: 31
     repos_not_owned: 11
     not_owned_basenames: 11
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 2.4688
-  repo_per_active_day: 0.8750
-  not_owned_ratio: 0.3929
-  basename_concentration: 0.0714
+  push_per_day: 2.4194
+  repo_per_active_day: 0.8387
+  not_owned_ratio: 0.4231
+  basename_concentration: 0.0769
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -50,31 +50,31 @@ automation:
 facets:
   "7d":
     pushes: 4
-    distinct_repos: 4
-    pushes_per_repo: 1.0000
+    distinct_repos: 2
+    pushes_per_repo: 2.0000
     active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 15
+    pushes: 19
     distinct_repos: 12
-    pushes_per_repo: 1.2500
-    active_days: 8
+    pushes_per_repo: 1.5833
+    active_days: 10
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 79
-    distinct_repos: 28
-    pushes_per_repo: 2.8214
-    active_days: 32
+    pushes: 75
+    distinct_repos: 26
+    pushes_per_repo: 2.8846
+    active_days: 31
     repos_not_owned: 11
     not_owned_basenames: 11
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 32 active days in 90d — pass"
+  - "activity: 31 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "deep-agents-oracle-ai-database"
@@ -129,6 +129,6 @@ repos:
 
 # fede-kamel
 
-79 pushes across 28 repositories on 32 active days in the last 90 days of public GitHub push activity.
+75 pushes across 26 repositories on 31 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/fede-kamel

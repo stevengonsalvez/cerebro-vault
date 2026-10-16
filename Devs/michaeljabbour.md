@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-11T06:04:44.624574+00:00"
+generated_at: "2026-10-16T08:30:18.142355+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [4, 33, 8, 3, 27, 4, 2, 1, 0, 8, 7, 10, 10]
+pushes_per_week: [22, 19, 2, 28, 3, 3, 0, 1, 4, 11, 10, 10, 0]
 windows:
   "7d":
-    pushes: 10
-    distinct_repos: 2
-    active_days: 2
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 117
+    pushes: 113
     distinct_repos: 16
-    active_days: 37
+    active_days: 35
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 3.1622
-  repo_per_active_day: 0.4324
+  push_per_day: 3.2286
+  repo_per_active_day: 0.4571
   not_owned_ratio: 0.0625
   basename_concentration: 0.0625
   shapes: []
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 10
-    distinct_repos: 2
-    pushes_per_repo: 5.0000
-    active_days: 2
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 117
+    pushes: 113
     distinct_repos: 16
-    pushes_per_repo: 7.3125
-    active_days: 37
+    pushes_per_repo: 7.0625
+    active_days: 35
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 37 active days in 90d — pass"
+  - "activity: 35 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "amplifier-bundle-fast-decisions"
@@ -140,6 +140,6 @@ repos:
 
 # michaeljabbour
 
-117 pushes across 16 repositories on 37 active days in the last 90 days of public GitHub push activity.
+113 pushes across 16 repositories on 35 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/michaeljabbour

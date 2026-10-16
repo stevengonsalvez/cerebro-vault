@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-11T06:04:44.624574+00:00"
+generated_at: "2026-10-16T08:30:18.142355+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1]
+pushes_per_week: [0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 1, 2, 0]
 windows:
   "7d":
-    pushes: 2
-    distinct_repos: 1
-    active_days: 2
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
-    distinct_repos: 1
-    pushes_per_repo: 2.0000
-    active_days: 2
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -84,7 +84,15 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-05"
+    last_push: "2026-10-15"
+  - name: "perl-pod-fabulous"
+    title: "perl-pod-fabulous"
+    description: null
+    language: "Perl"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-11"
   - name: "perl-clay-xs"
     title: "perl-clay-xs"
     description: null
@@ -92,23 +100,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-05"
-  - name: "perl-getopt-pad"
-    title: "perl-getopt-pad"
-    description: null
-    language: "Perl"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-05"
-  - name: "perl-imager-sixel"
-    title: "perl-imager-sixel"
-    description: null
-    language: "Perl"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-04"
+    last_push: "2026-10-11"
   - name: "perl-kdl-xs"
     title: "perl-kdl-xs"
     description: null
@@ -116,19 +108,23 @@ repos:
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-09-26"
-  - name: "hana"
-    title: "hana"
-    description: "A native, browser-free viewer for Home Assistant dashboards"
-    language: "C++"
-    topics:
-      - "dashboard"
-      - "home-assistant"
-      - "native-app"
-      - "sdl3"
+    last_push: "2026-10-15"
+  - name: "BonsaiTrees"
+    title: "BonsaiTrees"
+    description: "A Minecraft mod adding a block that grows small trees"
+    language: "Java"
+    topics: []
+    stars_fact: 42
+    first_seen: null
+    last_push: "2025-12-23"
+  - name: "perl-sdl3-xs"
+    title: "perl-sdl3-xs"
+    description: "Low-level Perl XS binding for SDL3, generated from its headers by perl-create-sdl3-bindings"
+    language: "Perl"
+    topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-14"
+    last_push: "2026-10-09"
 ---
 
 # davenonymous

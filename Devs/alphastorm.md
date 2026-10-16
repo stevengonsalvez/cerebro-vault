@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-11T06:04:44.624574+00:00"
+generated_at: "2026-10-16T08:30:18.142355+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [1, 19, 6, 1, 0, 4, 2, 0, 19, 16, 28, 26, 8]
+pushes_per_week: [16, 8, 1, 1, 1, 4, 1, 1, 29, 18, 41, 6, 6]
 windows:
   "7d":
-    pushes: 8
+    pushes: 6
     distinct_repos: 4
     active_days: 4
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "30d":
-    pushes: 97
-    distinct_repos: 9
-    active_days: 23
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    pushes: 79
+    distinct_repos: 10
+    active_days: 22
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "90d":
-    pushes: 130
+    pushes: 133
     distinct_repos: 12
-    active_days: 40
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    active_days: 42
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 3.2500
-  repo_per_active_day: 0.3000
-  not_owned_ratio: 0.0000
-  basename_concentration: 0.0833
+  push_per_day: 3.1667
+  repo_per_active_day: 0.2857
+  not_owned_ratio: 0.0833
+  basename_concentration: 0.1667
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 8
+    pushes: 6
     distinct_repos: 4
-    pushes_per_repo: 2.0000
+    pushes_per_repo: 1.5000
     active_days: 4
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "30d":
-    pushes: 97
-    distinct_repos: 9
-    pushes_per_repo: 10.7778
-    active_days: 23
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    pushes: 79
+    distinct_repos: 10
+    pushes_per_repo: 7.9000
+    active_days: 22
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "90d":
-    pushes: 130
+    pushes: 133
     distinct_repos: 12
-    pushes_per_repo: 10.8333
-    active_days: 40
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    pushes_per_repo: 11.0833
+    active_days: 42
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 40 active days in 90d — pass"
+  - "activity: 42 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "omp-strata"
@@ -177,6 +177,6 @@ repos:
 
 # alphastorm
 
-130 pushes across 12 repositories on 40 active days in the last 90 days of public GitHub push activity.
+133 pushes across 12 repositories on 42 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/alphastorm

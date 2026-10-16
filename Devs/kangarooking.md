@@ -7,12 +7,12 @@ discovered_via_all:
 provenance_repos:
   - "kangarooking/cangjie-skill"
 admitted: true
-low_n: false
+low_n: true
 repos_populated: true
-generated_at: "2026-10-11T06:04:44.624574+00:00"
+generated_at: "2026-10-16T08:30:18.142355+00:00"
 provenance:
   - "9b860e389365bd38"
-pushes_per_week: [2, 2, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0]
+pushes_per_week: [2, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 5
+    pushes: 3
     distinct_repos: 3
-    active_days: 5
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
   push_per_day: 1.0000
-  repo_per_active_day: 0.6000
+  repo_per_active_day: 1.0000
   not_owned_ratio: 0.0000
   basename_concentration: 0.3333
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 5
+    pushes: 3
     distinct_repos: 3
-    pushes_per_repo: 1.6667
-    active_days: 5
+    pushes_per_repo: 1.0000
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 5 active days in 90d — pass"
+  - "activity: 3 active days in 90d — below the 5-day line, LABELLED low-n (never suppressed)"
   - "automation: clear — pass"
 repos:
   - name: "director-skills"
@@ -177,6 +177,6 @@ repos:
 
 # kangarooking
 
-5 pushes across 3 repositories on 5 active days in the last 90 days of public GitHub push activity.
+3 pushes across 3 repositories on 3 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/kangarooking

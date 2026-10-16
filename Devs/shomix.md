@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-11T06:04:44.624574+00:00"
+generated_at: "2026-10-16T08:30:18.142355+00:00"
 provenance:
   - "745308b2b7085095"
-pushes_per_week: [13, 2, 3, 0, 0, 1, 0, 0, 1, 0, 3, 4, 1]
+pushes_per_week: [2, 3, 0, 0, 0, 1, 0, 1, 0, 3, 4, 1, 4]
 windows:
   "7d":
-    pushes: 1
+    pushes: 4
     distinct_repos: 1
-    active_days: 1
+    active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 8
+    pushes: 12
     distinct_repos: 1
-    active_days: 7
+    active_days: 9
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 28
+    pushes: 19
     distinct_repos: 1
-    active_days: 17
+    active_days: 14
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.6471
-  repo_per_active_day: 0.0588
+  push_per_day: 1.3571
+  repo_per_active_day: 0.0714
   not_owned_ratio: 1.0000
   basename_concentration: 1.0000
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
+    pushes: 4
     distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes_per_repo: 4.0000
+    active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 8
+    pushes: 12
     distinct_repos: 1
-    pushes_per_repo: 8.0000
-    active_days: 7
+    pushes_per_repo: 12.0000
+    active_days: 9
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 28
+    pushes: 19
     distinct_repos: 1
-    pushes_per_repo: 28.0000
-    active_days: 17
+    pushes_per_repo: 19.0000
+    active_days: 14
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 17 active days in 90d — pass"
+  - "activity: 14 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "simple-hash-router"
@@ -121,6 +121,6 @@ repos:
 
 # shomix
 
-28 pushes across 1 repository on 17 active days in the last 90 days of public GitHub push activity.
+19 pushes across 1 repository on 14 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/shomix

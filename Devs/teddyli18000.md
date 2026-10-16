@@ -8,39 +8,39 @@ provenance_repos:
   - "alibaba/open-code-review"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-11T06:04:44.624574+00:00"
+repos_populated: true
+generated_at: "2026-10-16T08:30:18.142355+00:00"
 provenance:
   - "c489e6fb5febf2ab"
-pushes_per_week: [0, 0, 0, 14, 8, 4, 3, 2, 0, 0, 5, 11, 15]
+pushes_per_week: [0, 0, 0, 22, 0, 7, 2, 0, 0, 3, 2, 26, 12]
 windows:
   "7d":
-    pushes: 23
-    distinct_repos: 2
-    active_days: 5
+    pushes: 13
+    distinct_repos: 3
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 31
-    distinct_repos: 5
-    active_days: 9
+    pushes: 43
+    distinct_repos: 7
+    active_days: 12
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 62
-    distinct_repos: 9
-    active_days: 18
+    pushes: 74
+    distinct_repos: 10
+    active_days: 21
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 3.4444
-  repo_per_active_day: 0.5000
+  push_per_day: 3.5238
+  repo_per_active_day: 0.4762
   not_owned_ratio: 0.0000
-  basename_concentration: 0.1111
+  basename_concentration: 0.1000
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,38 +49,94 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 23
-    distinct_repos: 2
-    pushes_per_repo: 11.5000
-    active_days: 5
+    pushes: 13
+    distinct_repos: 3
+    pushes_per_repo: 4.3333
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 31
-    distinct_repos: 5
-    pushes_per_repo: 6.2000
-    active_days: 9
+    pushes: 43
+    distinct_repos: 7
+    pushes_per_repo: 6.1429
+    active_days: 12
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 62
-    distinct_repos: 9
-    pushes_per_repo: 6.8889
-    active_days: 18
+    pushes: 74
+    distinct_repos: 10
+    pushes_per_repo: 7.4000
+    active_days: 21
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 18 active days in 90d — pass"
+  - "activity: 21 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "web-ingest"
+    title: "web-ingest"
+    description: null
+    language: "HTML"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-10-16"
+  - name: "teddyli18000"
+    title: "teddyli18000"
+    description: "A living GitHub profile README."
+    language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-16"
+  - name: "mimo-web-proxy"
+    title: "mimo-web-proxy"
+    description: "把小米 MiMo AI Studio 网页端反代为 OpenAI / Anthropic 兼容 API 的本地网关。单 exe 双击即用。Turn MiMo web chat into an OpenAI/Anthropic compatible API."
+    language: "Go"
+    topics:
+      - "ai-gateway"
+      - "anthropic-api"
+      - "golang"
+      - "llm"
+      - "mimo"
+      - "openai-api"
+      - "proxy"
+      - "xiaomi"
+    stars_fact: 9
+    first_seen: null
+    last_push: "2026-09-26"
+  - name: "ms-todo-mcp"
+    title: "ms-todo-mcp"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-13"
+  - name: "vitrual_browser"
+    title: "vitrual_browser"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-08"
+  - name: "dsh-approval-gate"
+    title: "dsh-approval-gate"
+    description: "DSH approval gate development"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-09-26"
 ---
 
 # teddyli18000
 
-62 pushes across 9 repositories on 18 active days in the last 90 days of public GitHub push activity.
+74 pushes across 10 repositories on 21 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/teddyli18000

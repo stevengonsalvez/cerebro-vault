@@ -9,22 +9,22 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-11T06:04:44.624574+00:00"
+generated_at: "2026-10-16T08:30:18.142355+00:00"
 provenance:
   - "46f3c1d6124190bd"
-pushes_per_week: [0, 0, 0, 0, 1, 0, 0, 0, 2, 0, 0, 1, 5]
+pushes_per_week: [0, 0, 0, 1, 0, 0, 0, 2, 0, 0, 1, 5, 0]
 windows:
   "7d":
-    pushes: 5
-    distinct_repos: 4
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 7
-    distinct_repos: 6
-    active_days: 3
+    pushes: 6
+    distinct_repos: 5
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,18 +49,18 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 5
-    distinct_repos: 4
-    pushes_per_repo: 1.2500
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 7
-    distinct_repos: 6
-    pushes_per_repo: 1.1667
-    active_days: 3
+    pushes: 6
+    distinct_repos: 5
+    pushes_per_repo: 1.2000
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -77,6 +77,20 @@ reasons:
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "cachekill"
+    title: "cachekill"
+    description: "Classify macOS/Linux caches SAFE / CHECK / SKIP before you delete. Dry-run by default, app-liveness aware, stdlib-only Python. Because 6.4 GB of cache clearing can be silently offset by one Docker VM image."
+    language: "Python"
+    topics:
+      - "cache"
+      - "cli"
+      - "developer-tools"
+      - "disk-usage"
+      - "macos"
+      - "python"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-06"
   - name: "ctxpack"
     title: "ctxpack"
     description: "Pack any codebase into a token-budgeted context bundle. Zero dependencies, fitted token counting, honest budgets."
@@ -90,20 +104,6 @@ repos:
     description: "Differential test harness for ruff binaries: catches convergence failures and fix-fights that snapshot tests miss"
     language: "Python"
     topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-06"
-  - name: "cachekill"
-    title: "cachekill"
-    description: "Classify macOS/Linux caches SAFE / CHECK / SKIP before you delete. Dry-run by default, app-liveness aware, stdlib-only Python. Because 6.4 GB of cache clearing can be silently offset by one Docker VM image."
-    language: "Python"
-    topics:
-      - "cache"
-      - "cli"
-      - "developer-tools"
-      - "disk-usage"
-      - "macos"
-      - "python"
     stars_fact: 0
     first_seen: null
     last_push: "2026-10-06"

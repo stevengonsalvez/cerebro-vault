@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-11T06:04:44.624574+00:00"
+generated_at: "2026-10-16T08:30:18.142355+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [0, 4, 0, 0, 2, 0, 0, 1, 1, 1, 2, 3, 2]
+pushes_per_week: [2, 2, 0, 2, 0, 0, 0, 2, 1, 2, 3, 1, 3]
 windows:
   "7d":
-    pushes: 2
+    pushes: 3
     distinct_repos: 1
-    active_days: 2
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 8
+    pushes: 10
     distinct_repos: 1
-    active_days: 7
+    active_days: 9
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 16
+    pushes: 18
     distinct_repos: 2
-    active_days: 12
+    active_days: 14
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.3333
-  repo_per_active_day: 0.1667
+  push_per_day: 1.2857
+  repo_per_active_day: 0.1429
   not_owned_ratio: 0.0000
   basename_concentration: 0.5000
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
+    pushes: 3
     distinct_repos: 1
-    pushes_per_repo: 2.0000
-    active_days: 2
+    pushes_per_repo: 3.0000
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 8
+    pushes: 10
     distinct_repos: 1
-    pushes_per_repo: 8.0000
-    active_days: 7
+    pushes_per_repo: 10.0000
+    active_days: 9
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 16
+    pushes: 18
     distinct_repos: 2
-    pushes_per_repo: 8.0000
-    active_days: 12
+    pushes_per_repo: 9.0000
+    active_days: 14
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 12 active days in 90d — pass"
+  - "activity: 14 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "memplex"
@@ -99,7 +99,7 @@ repos:
       - "semantic-search"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-03"
+    last_push: "2026-10-16"
   - name: "claude-mem-gateway-sync"
     title: "claude-mem-gateway-sync"
     description: "Fix claude-mem silent failures in dynamic gateway environments (codefuse, ccSwitch, LiteLLM). Gateway-agnostic credential sync hooks + diagnostic tools."
@@ -144,6 +144,6 @@ repos:
 
 # articultur
 
-16 pushes across 2 repositories on 12 active days in the last 90 days of public GitHub push activity.
+18 pushes across 2 repositories on 14 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/articultur

@@ -8,23 +8,23 @@ provenance_repos:
   - "ymichael/bb"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-11T06:04:44.624574+00:00"
+repos_populated: true
+generated_at: "2026-10-16T08:30:18.142355+00:00"
 provenance:
   - "419a4253687fd7a1"
-pushes_per_week: [0, 0, 0, 19, 48, 12, 1, 2, 12, 14, 22, 46, 24]
+pushes_per_week: [0, 0, 18, 48, 13, 1, 0, 12, 12, 24, 47, 25, 0]
 windows:
   "7d":
-    pushes: 24
-    distinct_repos: 1
-    active_days: 4
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
-    pushes: 108
+    pushes: 101
     distinct_repos: 2
-    active_days: 21
+    active_days: 18
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
@@ -65,18 +65,18 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 24
-    distinct_repos: 1
-    pushes_per_repo: 24.0000
-    active_days: 4
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
-    pushes: 108
+    pushes: 101
     distinct_repos: 2
-    pushes_per_repo: 54.0000
-    active_days: 21
+    pushes_per_repo: 50.5000
+    active_days: 18
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
@@ -92,7 +92,58 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 43 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "bb-plugins"
+    title: "bb-plugins"
+    description: "BB plugins by Michael Yong"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 5
+    first_seen: null
+    last_push: "2026-09-25"
+  - name: "cprofilev"
+    title: "cprofilev"
+    description: ":fire: An easier way to use cProfile"
+    language: "Python"
+    topics: []
+    stars_fact: 424
+    first_seen: null
+    last_push: "2016-02-01"
+  - name: "WidgetSpinner"
+    title: "WidgetSpinner"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2022-07-29"
+  - name: "dotfiles"
+    title: "dotfiles"
+    description: null
+    language: "Shell"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-20"
+  - name: "everdell"
+    title: "everdell"
+    description: "🐿️ Play Everdell Online!"
+    language: "TypeScript"
+    topics:
+      - "board-game"
+      - "everdell"
+      - "game"
+    stars_fact: 45
+    first_seen: null
+    last_push: "2025-03-18"
+  - name: "mill-timezone-app"
+    title: "mill-timezone-app"
+    description: null
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-02-05"
 ---
 
 # ymichael

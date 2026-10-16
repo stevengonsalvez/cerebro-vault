@@ -13,30 +13,30 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-11T06:04:44.624574+00:00"
+generated_at: "2026-10-16T08:30:18.142355+00:00"
 provenance:
   - "00b3deb7a8bc08be"
   - "25a420d2612019d0"
   - "637c99109af31ed2"
   - "b22ecd25e4a0f368"
-pushes_per_week: [19, 6, 5, 4, 6, 3, 2, 0, 0, 1, 13, 2, 27]
+pushes_per_week: [6, 5, 3, 4, 3, 5, 0, 0, 1, 11, 4, 25, 39]
 windows:
   "7d":
-    pushes: 27
-    distinct_repos: 2
-    active_days: 5
+    pushes: 45
+    distinct_repos: 1
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 43
+    pushes: 79
     distinct_repos: 3
-    active_days: 12
+    active_days: 15
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 88
+    pushes: 106
     distinct_repos: 4
     active_days: 32
     repos_not_owned: 1
@@ -44,7 +44,7 @@ windows:
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.7500
+  push_per_day: 3.3125
   repo_per_active_day: 0.1250
   not_owned_ratio: 0.2500
   basename_concentration: 0.2500
@@ -56,25 +56,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 27
-    distinct_repos: 2
-    pushes_per_repo: 13.5000
-    active_days: 5
+    pushes: 45
+    distinct_repos: 1
+    pushes_per_repo: 45.0000
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 43
+    pushes: 79
     distinct_repos: 3
-    pushes_per_repo: 14.3333
-    active_days: 12
+    pushes_per_repo: 26.3333
+    active_days: 15
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 88
+    pushes: 106
     distinct_repos: 4
-    pushes_per_repo: 22.0000
+    pushes_per_repo: 26.5000
     active_days: 32
     repos_not_owned: 1
     not_owned_basenames: 1
@@ -138,6 +138,6 @@ repos:
 
 # mattpocock
 
-88 pushes across 4 repositories on 32 active days in the last 90 days of public GitHub push activity.
+106 pushes across 4 repositories on 32 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/mattpocock

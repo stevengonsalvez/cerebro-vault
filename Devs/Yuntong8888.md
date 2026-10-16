@@ -8,23 +8,23 @@ provenance_repos:
   - "Tencent/TencentDB-Agent-Memory"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-11T06:04:44.624574+00:00"
+repos_populated: true
+generated_at: "2026-10-16T08:30:18.142355+00:00"
 provenance:
   - "b599dd2f1ad43e10"
-pushes_per_week: [2, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 1, 1]
+pushes_per_week: [1, 0, 0, 2, 0, 0, 0, 0, 0, 0, 1, 1, 1]
 windows:
   "7d":
-    pushes: 1
+    pushes: 2
     distinct_repos: 1
-    active_days: 1
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 2
+    pushes: 3
     distinct_repos: 1
-    active_days: 2
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,18 +49,18 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
-  "30d":
     pushes: 2
     distinct_repos: 1
     pushes_per_repo: 2.0000
     active_days: 2
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
+  "30d":
+    pushes: 3
+    distinct_repos: 1
+    pushes_per_repo: 3.0000
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0

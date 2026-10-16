@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-11T06:04:44.624574+00:00"
+generated_at: "2026-10-16T08:30:18.142355+00:00"
 provenance:
   - "745308b2b7085095"
-pushes_per_week: [0, 0, 0, 0, 1, 1, 1, 0, 1, 1, 1, 3, 1]
+pushes_per_week: [0, 0, 0, 1, 0, 2, 0, 1, 1, 1, 3, 1, 1]
 windows:
   "7d":
     pushes: 1
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 10
+    pushes: 11
     distinct_repos: 1
-    active_days: 9
+    active_days: 10
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.1111
-  repo_per_active_day: 0.1111
+  push_per_day: 1.1000
+  repo_per_active_day: 0.1000
   not_owned_ratio: 1.0000
   basename_concentration: 1.0000
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 10
+    pushes: 11
     distinct_repos: 1
-    pushes_per_repo: 10.0000
-    active_days: 9
+    pushes_per_repo: 11.0000
+    active_days: 10
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 9 active days in 90d — pass"
+  - "activity: 10 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "enzoames"
@@ -129,6 +129,6 @@ repos:
 
 # enzoames
 
-10 pushes across 1 repository on 9 active days in the last 90 days of public GitHub push activity.
+11 pushes across 1 repository on 10 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/enzoames

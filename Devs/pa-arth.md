@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-11T06:04:44.624574+00:00"
+generated_at: "2026-10-16T08:30:18.142355+00:00"
 provenance:
   - "0b22ca37fd3884c9"
-pushes_per_week: [28, 13, 4, 8, 0, 0, 1, 0, 1, 7, 4, 1, 2]
+pushes_per_week: [22, 4, 9, 0, 0, 1, 0, 0, 6, 6, 1, 2, 0]
 windows:
   "7d":
-    pushes: 2
-    distinct_repos: 1
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 15
+    pushes: 13
     distinct_repos: 2
-    active_days: 9
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 69
-    distinct_repos: 6
-    active_days: 25
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 51
+    distinct_repos: 4
+    active_days: 22
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.7600
-  repo_per_active_day: 0.2400
-  not_owned_ratio: 0.1667
-  basename_concentration: 0.1667
+  push_per_day: 2.3182
+  repo_per_active_day: 0.1818
+  not_owned_ratio: 0.0000
+  basename_concentration: 0.2500
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,34 +49,42 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
-    distinct_repos: 1
-    pushes_per_repo: 2.0000
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 15
+    pushes: 13
     distinct_repos: 2
-    pushes_per_repo: 7.5000
-    active_days: 9
+    pushes_per_repo: 6.5000
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 69
-    distinct_repos: 6
-    pushes_per_repo: 11.5000
-    active_days: 25
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 51
+    distinct_repos: 4
+    pushes_per_repo: 12.7500
+    active_days: 22
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 25 active days in 90d — pass"
+  - "activity: 22 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "promptster-vscode"
+    title: "promptster-vscode"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-15"
   - name: "promptster-teams-cli"
     title: "promptster-teams-cli"
     description: "On-device, auditable AI-coding capture for internal engineering teams"
@@ -84,7 +92,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-04"
+    last_push: "2026-10-14"
   - name: "cc-audit"
     title: "cc-audit"
     description: "Local-first CLI that audits Claude Code transcripts for spend by model, avoidable context-carry waste, always-on config cost, and AI-fluency signals. Runs fully offline by default; opt-in tiers gate any egress."
@@ -100,15 +108,7 @@ repos:
       - "observability"
     stars_fact: 9
     first_seen: null
-    last_push: "2026-09-29"
-  - name: "promptster-vscode"
-    title: "promptster-vscode"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-24"
+    last_push: "2026-10-10"
   - name: "promptster-cli"
     title: "promptster-cli"
     description: "Promptster CLI — candidate environment setup, repo cloning, and AI coding session capture (Claude Code, Cursor, Codex)"
@@ -116,7 +116,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-24"
+    last_push: "2026-10-10"
   - name: "fine-tuned-computer-use-jev-like-model"
     title: "fine-tuned-computer-use-jev-like-model"
     description: null
@@ -137,6 +137,6 @@ repos:
 
 # pa-arth
 
-69 pushes across 6 repositories on 25 active days in the last 90 days of public GitHub push activity.
+51 pushes across 4 repositories on 22 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/pa-arth

@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-11T06:04:44.624574+00:00"
+generated_at: "2026-10-16T08:30:18.142355+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [23, 11, 27, 21, 79, 32, 16, 4, 15, 279, 333, 87, 68]
+pushes_per_week: [9, 29, 9, 74, 37, 28, 5, 6, 170, 404, 116, 55, 81]
 windows:
   "7d":
-    pushes: 74
-    distinct_repos: 10
+    pushes: 84
+    distinct_repos: 7
     active_days: 6
-    repos_not_owned: 6
-    not_owned_basenames: 6
+    repos_not_owned: 3
+    not_owned_basenames: 3
     not_owned_owners: 1
   "30d":
-    pushes: 780
-    distinct_repos: 28
-    active_days: 29
-    repos_not_owned: 15
-    not_owned_basenames: 13
+    pushes: 745
+    distinct_repos: 30
+    active_days: 28
+    repos_not_owned: 16
+    not_owned_basenames: 14
     not_owned_owners: 4
   "90d":
-    pushes: 995
-    distinct_repos: 52
-    active_days: 74
-    repos_not_owned: 18
-    not_owned_basenames: 14
+    pushes: 1023
+    distinct_repos: 51
+    active_days: 73
+    repos_not_owned: 19
+    not_owned_basenames: 15
     not_owned_owners: 6
 automation:
   state: "clear"
-  push_per_day: 13.4459
-  repo_per_active_day: 0.7027
-  not_owned_ratio: 0.3462
-  basename_concentration: 0.1154
+  push_per_day: 14.0137
+  repo_per_active_day: 0.6986
+  not_owned_ratio: 0.3725
+  basename_concentration: 0.1176
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 74
-    distinct_repos: 10
-    pushes_per_repo: 7.4000
+    pushes: 84
+    distinct_repos: 7
+    pushes_per_repo: 12.0000
     active_days: 6
-    repos_not_owned: 6
-    not_owned_basenames: 6
+    repos_not_owned: 3
+    not_owned_basenames: 3
     not_owned_owners: 1
   "30d":
-    pushes: 780
-    distinct_repos: 28
-    pushes_per_repo: 27.8571
-    active_days: 29
-    repos_not_owned: 15
-    not_owned_basenames: 13
+    pushes: 745
+    distinct_repos: 30
+    pushes_per_repo: 24.8333
+    active_days: 28
+    repos_not_owned: 16
+    not_owned_basenames: 14
     not_owned_owners: 4
   "90d":
-    pushes: 995
-    distinct_repos: 52
-    pushes_per_repo: 19.1346
-    active_days: 74
-    repos_not_owned: 18
-    not_owned_basenames: 14
+    pushes: 1023
+    distinct_repos: 51
+    pushes_per_repo: 20.0588
+    active_days: 73
+    repos_not_owned: 19
+    not_owned_basenames: 15
     not_owned_owners: 6
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 74 active days in 90d — pass"
+  - "activity: 73 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "x-quality-growth"
@@ -141,6 +141,6 @@ repos:
 
 # LIghtJUNction
 
-995 pushes across 52 repositories on 74 active days in the last 90 days of public GitHub push activity.
+1023 pushes across 51 repositories on 73 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/LIghtJUNction

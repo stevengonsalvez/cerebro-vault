@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-11T06:04:44.624574+00:00"
+generated_at: "2026-10-16T08:30:18.142355+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [7, 4, 5, 2, 4, 2, 5, 0, 2, 3, 5, 1, 2]
+pushes_per_week: [6, 4, 1, 6, 0, 6, 1, 1, 4, 4, 2, 2, 1]
 windows:
   "7d":
-    pushes: 2
+    pushes: 3
     distinct_repos: 2
-    active_days: 1
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 12
-    distinct_repos: 8
-    active_days: 9
+    pushes: 11
+    distinct_repos: 7
+    active_days: 8
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 42
-    distinct_repos: 22
-    active_days: 29
+    pushes: 38
+    distinct_repos: 20
+    active_days: 27
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.4483
-  repo_per_active_day: 0.7586
-  not_owned_ratio: 0.0455
-  basename_concentration: 0.0455
+  push_per_day: 1.4074
+  repo_per_active_day: 0.7407
+  not_owned_ratio: 0.0500
+  basename_concentration: 0.0500
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
+    pushes: 3
     distinct_repos: 2
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes_per_repo: 1.5000
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 12
-    distinct_repos: 8
-    pushes_per_repo: 1.5000
-    active_days: 9
+    pushes: 11
+    distinct_repos: 7
+    pushes_per_repo: 1.5714
+    active_days: 8
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 42
-    distinct_repos: 22
-    pushes_per_repo: 1.9091
-    active_days: 29
+    pushes: 38
+    distinct_repos: 20
+    pushes_per_repo: 1.9000
+    active_days: 27
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 29 active days in 90d — pass"
+  - "activity: 27 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "gpuix"
@@ -137,6 +137,6 @@ repos:
 
 # remorses
 
-42 pushes across 22 repositories on 29 active days in the last 90 days of public GitHub push activity.
+38 pushes across 20 repositories on 27 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/remorses

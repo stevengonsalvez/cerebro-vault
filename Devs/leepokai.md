@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-11T06:04:44.624574+00:00"
+generated_at: "2026-10-16T08:30:18.142355+00:00"
 provenance:
   - "0b22ca37fd3884c9"
-pushes_per_week: [0, 0, 1, 2, 0, 0, 0, 0, 0, 7, 5, 24, 10]
+pushes_per_week: [0, 1, 2, 0, 0, 0, 0, 0, 3, 6, 22, 13, 10]
 windows:
   "7d":
-    pushes: 12
+    pushes: 10
     distinct_repos: 4
     active_days: 5
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 46
-    distinct_repos: 11
-    active_days: 18
+    pushes: 54
+    distinct_repos: 12
+    active_days: 22
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 49
-    distinct_repos: 14
-    active_days: 21
+    pushes: 57
+    distinct_repos: 15
+    active_days: 25
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.3333
-  repo_per_active_day: 0.6667
-  not_owned_ratio: 0.0714
-  basename_concentration: 0.1429
+  push_per_day: 2.2800
+  repo_per_active_day: 0.6000
+  not_owned_ratio: 0.0667
+  basename_concentration: 0.1333
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,77 +49,62 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 12
+    pushes: 10
     distinct_repos: 4
-    pushes_per_repo: 3.0000
+    pushes_per_repo: 2.5000
     active_days: 5
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 46
-    distinct_repos: 11
-    pushes_per_repo: 4.1818
-    active_days: 18
+    pushes: 54
+    distinct_repos: 12
+    pushes_per_repo: 4.5000
+    active_days: 22
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 49
-    distinct_repos: 14
-    pushes_per_repo: 3.5000
-    active_days: 21
+    pushes: 57
+    distinct_repos: 15
+    pushes_per_repo: 3.8000
+    active_days: 25
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 21 active days in 90d — pass"
+  - "activity: 25 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "Codync"
     title: "Codync"
-    description: "Open-source 1:1 alternative to Grok Bot and Muse: message your coding agents (Claude Code, Codex, Cursor, Gemini…) as bots from iPhone, Mac, Linux or terminal. Rust host, native apps."
+    description: "The open-source Grok Bot alternative: message Claude Code, Codex, Cursor, Gemini and 40+ AI agents as bots on your own computer, from iPhone, Mac, Windows, Linux or terminal. Free. Also a Muse and Dots alternative. Built in Rust."
     language: "Rust"
     topics:
       - "acp"
       - "agent-client-protocol"
+      - "ai-agents"
+      - "claude"
       - "claude-code"
       - "codex"
       - "coding-agents"
-      - "gtk4"
+      - "cursor"
+      - "electron"
+      - "gemini"
+      - "grok-bot-alternative"
       - "ios"
+      - "iphone"
       - "linux"
       - "macos"
       - "open-source"
       - "remote-desktop"
       - "rust"
+      - "self-hosted"
       - "swiftui"
-    stars_fact: 170
+    stars_fact: 438
     first_seen: null
-    last_push: "2026-10-04"
-  - name: "claude-mod-cutroom"
-    title: "claude-mod-cutroom"
-    description: "Cutroom: a cutting-room pane for HyperFrames videos inside Claude Code — frame preview, timeline, trim/split/move/undo, Studio selection, ask Claude to edit."
-    language: "TypeScript"
-    topics:
-      - "claude-code"
-      - "claude-code-plugin"
-      - "claude-mod"
-      - "hyperframes"
-      - "tui"
-      - "video-editing"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-04"
-  - name: "homebrew-codync"
-    title: "homebrew-codync"
-    description: "Homebrew tap for Codync — message your coding agents as bots"
-    language: "Ruby"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-04"
+    last_push: "2026-10-16"
   - name: "jev-guard"
     title: "jev-guard"
     description: "Auto mode for every coding agent, built on Jev: risk-scores every tool call with session context (deny / ask / allow), flags prompt injection in results, checks skills and plugins. Claude Code, Codex, Copilot, Gemini, Cursor, pi, OpenCode, ACP."
@@ -135,35 +120,51 @@ repos:
       - "opencode"
       - "prompt-injection"
       - "security"
-    stars_fact: 58
+    stars_fact: 70
     first_seen: null
     last_push: "2026-10-02"
-  - name: "nimplex"
-    title: "nimplex"
-    description: "Durable coding-agent harness built on top of Pi: runs survive dead workers and sandboxes, every model call is accounted for once, any run can be killed. SQLite locally, PostgreSQL hosted."
-    language: "TypeScript"
-    topics:
-      - "agent-harness"
-      - "coding-agent"
-      - "durable-execution"
-      - "pi"
-      - "sandbox"
-      - "typescript"
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-09-26"
   - name: "llm-prompt-techniques-on-jev"
     title: "llm-prompt-techniques-on-jev"
     description: "Chain-of-thought and self-refinement for TypeSafe's Jev: feed its typed answers back as state and ask again. Benchmarks vs TypeSafe's own cookbook numbers."
     language: "Python"
     topics: []
-    stars_fact: 2
+    stars_fact: 4
     first_seen: null
     last_push: "2026-09-19"
+  - name: "homebrew-codync"
+    title: "homebrew-codync"
+    description: "Homebrew tap for Codync — message your coding agents as bots"
+    language: "Ruby"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-15"
+  - name: "VendingMachine"
+    title: "VendingMachine"
+    description: "FPGA vending machine in Verilog for the Arty A7, with VGA UI, payment and change making — built spec-first with Claude Code"
+    language: "Verilog"
+    topics:
+      - "arty-a7"
+      - "claude-code"
+      - "fpga"
+      - "verilog"
+      - "vga"
+      - "vivado"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-15"
+  - name: "pi-wasm-kit"
+    title: "pi-wasm-kit"
+    description: "Pi Durable inside QuickJS WebAssembly, with browser and Node hosts. Inspired by PiDurableKit."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-10-12"
 ---
 
 # leepokai
 
-49 pushes across 14 repositories on 21 active days in the last 90 days of public GitHub push activity.
+57 pushes across 15 repositories on 25 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/leepokai

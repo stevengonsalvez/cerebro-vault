@@ -8,39 +8,39 @@ provenance_repos:
   - "AstrBotDevs/AstrBot"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-11T06:04:44.624574+00:00"
+repos_populated: true
+generated_at: "2026-10-16T08:30:18.142355+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [4, 2, 2, 9, 1, 1, 0, 0, 1, 16, 3, 7, 4]
+pushes_per_week: [1, 2, 5, 6, 1, 0, 0, 1, 5, 13, 6, 4, 10]
 windows:
   "7d":
-    pushes: 4
-    distinct_repos: 2
-    active_days: 3
+    pushes: 10
+    distinct_repos: 4
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 31
-    distinct_repos: 5
-    active_days: 14
+    pushes: 36
+    distinct_repos: 7
+    active_days: 16
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 50
-    distinct_repos: 7
-    active_days: 26
+    pushes: 54
+    distinct_repos: 9
+    active_days: 28
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.9231
-  repo_per_active_day: 0.2692
+  push_per_day: 1.9286
+  repo_per_active_day: 0.3214
   not_owned_ratio: 0.0000
-  basename_concentration: 0.1429
+  basename_concentration: 0.1111
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,38 +49,113 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 4
-    distinct_repos: 2
-    pushes_per_repo: 2.0000
-    active_days: 3
+    pushes: 10
+    distinct_repos: 4
+    pushes_per_repo: 2.5000
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 31
-    distinct_repos: 5
-    pushes_per_repo: 6.2000
-    active_days: 14
+    pushes: 36
+    distinct_repos: 7
+    pushes_per_repo: 5.1429
+    active_days: 16
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 50
-    distinct_repos: 7
-    pushes_per_repo: 7.1429
-    active_days: 26
+    pushes: 54
+    distinct_repos: 9
+    pushes_per_repo: 6.0000
+    active_days: 28
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 26 active days in 90d — pass"
+  - "activity: 28 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "wcqqq1214"
+    title: "wcqqq1214"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-16"
+  - name: "astrbot_plugin_openai_oauth"
+    title: "astrbot_plugin_openai_oauth"
+    description: "用 ChatGPT 订阅聊天的 AstrBot 插件，无需 API Key。 | An AstrBot plugin for chatting with your ChatGPT subscription—no API key needed."
+    language: "Python"
+    topics:
+      - "astrbot"
+      - "astrbot-plugin"
+      - "chatgpt"
+      - "codex"
+      - "oauth"
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-10-15"
+  - name: "ragdoll-progress"
+    title: "ragdoll-progress"
+    description: "Fanqie the ragdoll on your video progress bar. A Chrome extension for YouTube, Bilibili, Douyin, and TikTok."
+    language: "JavaScript"
+    topics:
+      - "bilibili"
+      - "chrome-extension"
+      - "douyin"
+      - "progress-bar"
+      - "ragdoll-cat"
+      - "tiktok"
+      - "youtube"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-15"
+  - name: "codex-dot-send-motion"
+    title: "codex-dot-send-motion"
+    description: "Reusable React message-send animation inspired by Codex Dot."
+    language: "TypeScript"
+    topics:
+      - "animation"
+      - "chat-ui"
+      - "react"
+      - "web-animations-api"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-14"
+  - name: "gxu-campus-3d"
+    title: "gxu-campus-3d"
+    description: "广西大学三维校园地图 An interactive 3D campus map of Guangxi University."
+    language: "Python"
+    topics:
+      - "3d-campus"
+      - "blender"
+      - "guangxi-university"
+      - "gxu"
+      - "openstreetmap"
+      - "threejs"
+      - "virtual-tour"
+    stars_fact: 21
+    first_seen: null
+    last_push: "2026-10-15"
+  - name: "abceed-ai-translator"
+    title: "abceed-ai-translator"
+    description: "为 abceed 提供 AI 日文翻译、英文查词与发音、听力快捷键。"
+    language: "JavaScript"
+    topics:
+      - "abceed"
+      - "ai-translation"
+      - "tampermonkey"
+      - "toeic"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-13"
 ---
 
 # wcqqq1214
 
-50 pushes across 7 repositories on 26 active days in the last 90 days of public GitHub push activity.
+54 pushes across 9 repositories on 28 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/wcqqq1214

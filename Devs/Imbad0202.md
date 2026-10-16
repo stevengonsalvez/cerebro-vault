@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-11T06:04:44.624574+00:00"
+generated_at: "2026-10-16T08:30:18.142355+00:00"
 provenance:
   - "f458b196520daad6"
-pushes_per_week: [48, 18, 21, 6, 4, 8, 0, 0, 0, 1, 6, 2, 2]
+pushes_per_week: [12, 30, 4, 6, 8, 0, 0, 0, 1, 6, 2, 0, 2]
 windows:
   "7d":
     pushes: 2
@@ -22,25 +22,25 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 11
-    distinct_repos: 5
-    active_days: 7
+    pushes: 10
+    distinct_repos: 4
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 116
-    distinct_repos: 8
-    active_days: 32
+    pushes: 71
+    distinct_repos: 7
+    active_days: 26
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 3.6250
-  repo_per_active_day: 0.2500
+  push_per_day: 2.7308
+  repo_per_active_day: 0.2692
   not_owned_ratio: 0.0000
-  basename_concentration: 0.1250
+  basename_concentration: 0.1429
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 11
-    distinct_repos: 5
-    pushes_per_repo: 2.2000
-    active_days: 7
+    pushes: 10
+    distinct_repos: 4
+    pushes_per_repo: 2.5000
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 116
-    distinct_repos: 8
-    pushes_per_repo: 14.5000
-    active_days: 32
+    pushes: 71
+    distinct_repos: 7
+    pushes_per_repo: 10.1429
+    active_days: 26
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 32 active days in 90d — pass"
+  - "activity: 26 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "academic-research-skills"
@@ -166,6 +166,6 @@ repos:
 
 # Imbad0202
 
-116 pushes across 8 repositories on 32 active days in the last 90 days of public GitHub push activity.
+71 pushes across 7 repositories on 26 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Imbad0202
