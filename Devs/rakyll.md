@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-16T08:30:18.142355+00:00"
+generated_at: "2026-10-17T06:04:44.015278+00:00"
 provenance:
   - "a5ffcd0a46dd44fd"
-pushes_per_week: [24, 0, 0, 2, 0, 2, 0, 0, 4, 7, 1, 0, 0]
+pushes_per_week: [17, 0, 0, 2, 0, 2, 0, 4, 0, 8, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,7 +29,7 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 40
+    pushes: 33
     distinct_repos: 8
     active_days: 11
     repos_not_owned: 2
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 3.6364
+  push_per_day: 3.0000
   repo_per_active_day: 0.7273
   not_owned_ratio: 0.2500
   basename_concentration: 0.1250
@@ -65,9 +65,9 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 40
+    pushes: 33
     distinct_repos: 8
-    pushes_per_repo: 5.0000
+    pushes_per_repo: 4.1250
     active_days: 11
     repos_not_owned: 2
     not_owned_basenames: 2
@@ -140,6 +140,6 @@ repos:
 
 # rakyll
 
-40 pushes across 8 repositories on 11 active days in the last 90 days of public GitHub push activity.
+33 pushes across 8 repositories on 11 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/rakyll

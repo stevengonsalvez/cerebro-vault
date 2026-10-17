@@ -9,13 +9,13 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-16T08:30:18.142355+00:00"
+generated_at: "2026-10-17T06:04:44.015278+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [1, 8, 11, 9, 2, 12, 0, 1, 0, 7, 6, 4, 40]
+pushes_per_week: [0, 10, 9, 10, 2, 11, 0, 1, 2, 5, 6, 15, 29]
 windows:
   "7d":
-    pushes: 40
+    pushes: 37
     distinct_repos: 11
     active_days: 4
     repos_not_owned: 8
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 9
     not_owned_owners: 1
   "90d":
-    pushes: 101
-    distinct_repos: 16
-    active_days: 37
-    repos_not_owned: 11
+    pushes: 100
+    distinct_repos: 15
+    active_days: 36
+    repos_not_owned: 10
     not_owned_basenames: 9
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 2.7297
-  repo_per_active_day: 0.4324
-  not_owned_ratio: 0.6875
-  basename_concentration: 0.1250
+  push_per_day: 2.7778
+  repo_per_active_day: 0.4167
+  not_owned_ratio: 0.6667
+  basename_concentration: 0.1333
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,9 +49,9 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 40
+    pushes: 37
     distinct_repos: 11
-    pushes_per_repo: 3.6364
+    pushes_per_repo: 3.3636
     active_days: 4
     repos_not_owned: 8
     not_owned_basenames: 8
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 9
     not_owned_owners: 1
   "90d":
-    pushes: 101
-    distinct_repos: 16
-    pushes_per_repo: 6.3125
-    active_days: 37
-    repos_not_owned: 11
+    pushes: 100
+    distinct_repos: 15
+    pushes_per_repo: 6.6667
+    active_days: 36
+    repos_not_owned: 10
     not_owned_basenames: 9
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 37 active days in 90d — pass"
+  - "activity: 36 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "homebrew-tap"
@@ -129,6 +129,6 @@ repos:
 
 # mattwilkinsonn
 
-101 pushes across 16 repositories on 37 active days in the last 90 days of public GitHub push activity.
+100 pushes across 15 repositories on 36 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/mattwilkinsonn

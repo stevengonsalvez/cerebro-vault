@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-16T08:30:18.142355+00:00"
+generated_at: "2026-10-17T06:04:44.015278+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [31, 46, 33, 28, 29, 18, 6, 2, 6, 31, 23, 10, 19]
+pushes_per_week: [32, 48, 27, 42, 17, 16, 6, 2, 22, 14, 24, 10, 18]
 windows:
   "7d":
     pushes: 19
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 282
+    pushes: 278
     distinct_repos: 98
-    active_days: 66
+    active_days: 65
     repos_not_owned: 5
     not_owned_basenames: 4
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 4.2727
-  repo_per_active_day: 1.4848
+  push_per_day: 4.2769
+  repo_per_active_day: 1.5077
   not_owned_ratio: 0.0510
   basename_concentration: 0.0306
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 282
+    pushes: 278
     distinct_repos: 98
-    pushes_per_repo: 2.8776
-    active_days: 66
+    pushes_per_repo: 2.8367
+    active_days: 65
     repos_not_owned: 5
     not_owned_basenames: 4
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 66 active days in 90d — pass"
+  - "activity: 65 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "pi-opencode-go-provider"
@@ -129,6 +129,6 @@ repos:
 
 # monotykamary
 
-282 pushes across 98 repositories on 66 active days in the last 90 days of public GitHub push activity.
+278 pushes across 98 repositories on 65 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/monotykamary

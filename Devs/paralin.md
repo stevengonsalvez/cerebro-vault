@@ -9,13 +9,13 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-16T08:30:18.142355+00:00"
+generated_at: "2026-10-17T06:04:44.015278+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [51, 78, 54, 47, 2, 24, 1, 8, 8, 54, 86, 75, 70]
+pushes_per_week: [51, 70, 65, 34, 13, 13, 1, 8, 11, 67, 100, 48, 67]
 windows:
   "7d":
-    pushes: 70
+    pushes: 69
     distinct_repos: 6
     active_days: 5
     repos_not_owned: 4
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 13
     not_owned_owners: 3
   "90d":
-    pushes: 558
+    pushes: 548
     distinct_repos: 27
-    active_days: 63
+    active_days: 62
     repos_not_owned: 17
     not_owned_basenames: 17
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 8.8571
-  repo_per_active_day: 0.4286
+  push_per_day: 8.8387
+  repo_per_active_day: 0.4355
   not_owned_ratio: 0.6296
   basename_concentration: 0.0370
   shapes: []
@@ -49,9 +49,9 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 70
+    pushes: 69
     distinct_repos: 6
-    pushes_per_repo: 11.6667
+    pushes_per_repo: 11.5000
     active_days: 5
     repos_not_owned: 4
     not_owned_basenames: 4
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 13
     not_owned_owners: 3
   "90d":
-    pushes: 558
+    pushes: 548
     distinct_repos: 27
-    pushes_per_repo: 20.6667
-    active_days: 63
+    pushes_per_repo: 20.2963
+    active_days: 62
     repos_not_owned: 17
     not_owned_basenames: 17
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 63 active days in 90d — pass"
+  - "activity: 62 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "modlock"
@@ -129,6 +129,6 @@ repos:
 
 # paralin
 
-558 pushes across 27 repositories on 63 active days in the last 90 days of public GitHub push activity.
+548 pushes across 27 repositories on 62 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/paralin

@@ -10,11 +10,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-16T08:30:18.142355+00:00"
+generated_at: "2026-10-17T06:04:44.015278+00:00"
 provenance:
   - "48dbbdd8fd0d3029"
   - "de6bf05613f3ae04"
-pushes_per_week: [14, 7, 5, 7, 4, 3, 0, 0, 5, 3, 6, 4, 0]
+pushes_per_week: [13, 7, 5, 7, 4, 3, 0, 0, 6, 6, 3, 3, 0]
 windows:
   "7d":
     pushes: 0
@@ -24,23 +24,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 17
-    distinct_repos: 11
-    active_days: 12
+    pushes: 16
+    distinct_repos: 10
+    active_days: 11
     repos_not_owned: 6
     not_owned_basenames: 6
     not_owned_owners: 3
   "90d":
-    pushes: 58
+    pushes: 57
     distinct_repos: 29
-    active_days: 33
+    active_days: 32
     repos_not_owned: 13
     not_owned_basenames: 11
     not_owned_owners: 5
 automation:
   state: "clear"
-  push_per_day: 1.7576
-  repo_per_active_day: 0.8788
+  push_per_day: 1.7812
+  repo_per_active_day: 0.9062
   not_owned_ratio: 0.4483
   basename_concentration: 0.1034
   shapes: []
@@ -59,24 +59,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 17
-    distinct_repos: 11
-    pushes_per_repo: 1.5455
-    active_days: 12
+    pushes: 16
+    distinct_repos: 10
+    pushes_per_repo: 1.6000
+    active_days: 11
     repos_not_owned: 6
     not_owned_basenames: 6
     not_owned_owners: 3
   "90d":
-    pushes: 58
+    pushes: 57
     distinct_repos: 29
-    pushes_per_repo: 2.0000
-    active_days: 33
+    pushes_per_repo: 1.9655
+    active_days: 32
     repos_not_owned: 13
     not_owned_basenames: 11
     not_owned_owners: 5
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 33 active days in 90d — pass"
+  - "activity: 32 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "ida-pro-mcp"
@@ -184,6 +184,6 @@ repos:
 
 # mrexodia
 
-58 pushes across 29 repositories on 33 active days in the last 90 days of public GitHub push activity.
+57 pushes across 29 repositories on 32 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/mrexodia

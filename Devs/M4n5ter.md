@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-16T08:30:18.142355+00:00"
+generated_at: "2026-10-17T06:04:44.015278+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [9, 7, 3, 26, 9, 22, 3, 2, 3, 20, 11, 0, 5]
+pushes_per_week: [8, 8, 4, 27, 9, 20, 2, 2, 9, 14, 11, 0, 5]
 windows:
   "7d":
     pushes: 5
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 38
+    pushes: 37
     distinct_repos: 4
     active_days: 12
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 120
+    pushes: 119
     distinct_repos: 13
-    active_days: 45
+    active_days: 44
     repos_not_owned: 10
     not_owned_basenames: 3
     not_owned_owners: 9
 automation:
   state: "clear"
-  push_per_day: 2.6667
-  repo_per_active_day: 0.2889
+  push_per_day: 2.7045
+  repo_per_active_day: 0.2955
   not_owned_ratio: 0.7692
   basename_concentration: 0.4615
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 38
+    pushes: 37
     distinct_repos: 4
-    pushes_per_repo: 9.5000
+    pushes_per_repo: 9.2500
     active_days: 12
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 120
+    pushes: 119
     distinct_repos: 13
-    pushes_per_repo: 9.2308
-    active_days: 45
+    pushes_per_repo: 9.1538
+    active_days: 44
     repos_not_owned: 10
     not_owned_basenames: 3
     not_owned_owners: 9
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 45 active days in 90d — pass"
+  - "activity: 44 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "opencode-gateway"
@@ -154,6 +154,6 @@ repos:
 
 # M4n5ter
 
-120 pushes across 13 repositories on 45 active days in the last 90 days of public GitHub push activity.
+119 pushes across 13 repositories on 44 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/M4n5ter

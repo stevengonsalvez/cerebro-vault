@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-16T08:30:18.142355+00:00"
+generated_at: "2026-10-17T06:04:44.015278+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [28, 37, 14, 83, 6, 20, 3, 0, 7, 6, 9, 23, 17]
+pushes_per_week: [22, 42, 18, 75, 3, 21, 2, 0, 8, 5, 10, 23, 16]
 windows:
   "7d":
     pushes: 17
@@ -22,25 +22,25 @@ windows:
     not_owned_basenames: 4
     not_owned_owners: 1
   "30d":
-    pushes: 60
+    pushes: 59
     distinct_repos: 12
-    active_days: 18
+    active_days: 17
     repos_not_owned: 8
     not_owned_basenames: 8
     not_owned_owners: 1
   "90d":
-    pushes: 253
-    distinct_repos: 21
-    active_days: 52
+    pushes: 245
+    distinct_repos: 20
+    active_days: 51
     repos_not_owned: 9
     not_owned_basenames: 9
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 4.8654
-  repo_per_active_day: 0.4038
-  not_owned_ratio: 0.4286
-  basename_concentration: 0.0952
+  push_per_day: 4.8039
+  repo_per_active_day: 0.3922
+  not_owned_ratio: 0.4500
+  basename_concentration: 0.1000
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 4
     not_owned_owners: 1
   "30d":
-    pushes: 60
+    pushes: 59
     distinct_repos: 12
-    pushes_per_repo: 5.0000
-    active_days: 18
+    pushes_per_repo: 4.9167
+    active_days: 17
     repos_not_owned: 8
     not_owned_basenames: 8
     not_owned_owners: 1
   "90d":
-    pushes: 253
-    distinct_repos: 21
-    pushes_per_repo: 12.0476
-    active_days: 52
+    pushes: 245
+    distinct_repos: 20
+    pushes_per_repo: 12.2500
+    active_days: 51
     repos_not_owned: 9
     not_owned_basenames: 9
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 52 active days in 90d — pass"
+  - "activity: 51 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "motel"
@@ -139,6 +139,6 @@ repos:
 
 # kitlangton
 
-253 pushes across 21 repositories on 52 active days in the last 90 days of public GitHub push activity.
+245 pushes across 20 repositories on 51 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/kitlangton

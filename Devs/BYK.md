@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-16T08:30:18.142355+00:00"
+generated_at: "2026-10-17T06:04:44.015278+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [35, 39, 22, 5, 4, 1, 0, 4, 16, 16, 28, 12, 5]
+pushes_per_week: [35, 42, 17, 7, 1, 1, 0, 6, 16, 20, 23, 11, 5]
 windows:
   "7d":
     pushes: 5
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 69
+    pushes: 66
     distinct_repos: 9
-    active_days: 24
+    active_days: 22
     repos_not_owned: 6
     not_owned_basenames: 6
     not_owned_owners: 1
   "90d":
-    pushes: 187
+    pushes: 184
     distinct_repos: 15
-    active_days: 58
+    active_days: 57
     repos_not_owned: 8
     not_owned_basenames: 8
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 3.2241
-  repo_per_active_day: 0.2586
+  push_per_day: 3.2281
+  repo_per_active_day: 0.2632
   not_owned_ratio: 0.5333
   basename_concentration: 0.0667
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 69
+    pushes: 66
     distinct_repos: 9
-    pushes_per_repo: 7.6667
-    active_days: 24
+    pushes_per_repo: 7.3333
+    active_days: 22
     repos_not_owned: 6
     not_owned_basenames: 6
     not_owned_owners: 1
   "90d":
-    pushes: 187
+    pushes: 184
     distinct_repos: 15
-    pushes_per_repo: 12.4667
-    active_days: 58
+    pushes_per_repo: 12.2667
+    active_days: 57
     repos_not_owned: 8
     not_owned_basenames: 8
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 58 active days in 90d — pass"
+  - "activity: 57 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "loreai"
@@ -132,6 +132,6 @@ repos:
 
 # BYK
 
-187 pushes across 15 repositories on 58 active days in the last 90 days of public GitHub push activity.
+184 pushes across 15 repositories on 57 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/BYK

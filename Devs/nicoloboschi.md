@@ -9,17 +9,17 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-16T08:30:18.142355+00:00"
+generated_at: "2026-10-17T06:04:44.015278+00:00"
 provenance:
   - "ef1d62b18b98cdd0"
-pushes_per_week: [89, 30, 12, 40, 19, 6, 5, 20, 12, 38, 22, 30, 16]
+pushes_per_week: [84, 26, 20, 39, 12, 6, 5, 20, 14, 37, 21, 30, 16]
 windows:
   "7d":
-    pushes: 17
-    distinct_repos: 5
-    active_days: 4
-    repos_not_owned: 3
-    not_owned_basenames: 3
+    pushes: 16
+    distinct_repos: 4
+    active_days: 3
+    repos_not_owned: 2
+    not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
     pushes: 115
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 3
     not_owned_owners: 8
   "90d":
-    pushes: 339
+    pushes: 330
     distinct_repos: 24
-    active_days: 63
+    active_days: 62
     repos_not_owned: 17
     not_owned_basenames: 5
     not_owned_owners: 13
 automation:
   state: "clear"
-  push_per_day: 5.3810
-  repo_per_active_day: 0.3810
+  push_per_day: 5.3226
+  repo_per_active_day: 0.3871
   not_owned_ratio: 0.7083
   basename_concentration: 0.5417
   shapes: []
@@ -49,12 +49,12 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 17
-    distinct_repos: 5
-    pushes_per_repo: 3.4000
-    active_days: 4
-    repos_not_owned: 3
-    not_owned_basenames: 3
+    pushes: 16
+    distinct_repos: 4
+    pushes_per_repo: 4.0000
+    active_days: 3
+    repos_not_owned: 2
+    not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
     pushes: 115
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 3
     not_owned_owners: 8
   "90d":
-    pushes: 339
+    pushes: 330
     distinct_repos: 24
-    pushes_per_repo: 14.1250
-    active_days: 63
+    pushes_per_repo: 13.7500
+    active_days: 62
     repos_not_owned: 17
     not_owned_basenames: 5
     not_owned_owners: 13
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 63 active days in 90d — pass"
+  - "activity: 62 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "giotto"
@@ -132,6 +132,6 @@ repos:
 
 # nicoloboschi
 
-339 pushes across 24 repositories on 63 active days in the last 90 days of public GitHub push activity.
+330 pushes across 24 repositories on 62 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/nicoloboschi

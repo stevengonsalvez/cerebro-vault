@@ -12,13 +12,13 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-16T08:30:18.142355+00:00"
+generated_at: "2026-10-17T06:04:44.015278+00:00"
 provenance:
   - "1be978947e68d1f2"
   - "1f49d0119cedbc84"
   - "dffbb846389f9a26"
   - "ef17663e884139a8"
-pushes_per_week: [7, 3, 1, 4, 2, 1, 0, 0, 0, 1, 2, 1, 0]
+pushes_per_week: [6, 3, 2, 3, 2, 1, 0, 0, 1, 0, 3, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -35,16 +35,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 22
+    pushes: 21
     distinct_repos: 13
-    active_days: 18
+    active_days: 17
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 1.2222
-  repo_per_active_day: 0.7222
+  push_per_day: 1.2353
+  repo_per_active_day: 0.7647
   not_owned_ratio: 0.1538
   basename_concentration: 0.1538
   shapes: []
@@ -71,16 +71,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 22
+    pushes: 21
     distinct_repos: 13
-    pushes_per_repo: 1.6923
-    active_days: 18
+    pushes_per_repo: 1.6154
+    active_days: 17
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
 reasons:
   - "provenance: 4 vault signal(s) — pass"
-  - "activity: 18 active days in 90d — pass"
+  - "activity: 17 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "solpulse"
@@ -180,6 +180,6 @@ repos:
 
 # eltociear
 
-22 pushes across 13 repositories on 18 active days in the last 90 days of public GitHub push activity.
+21 pushes across 13 repositories on 17 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/eltociear

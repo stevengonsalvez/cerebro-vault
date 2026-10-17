@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-16T08:30:18.142355+00:00"
+generated_at: "2026-10-17T06:04:44.015278+00:00"
 provenance:
   - "01cd6a498d377caf"
   - "03604cccd7e9402d"
@@ -53,6 +53,7 @@ provenance:
   - "8f9e2f8ba8bd1533"
   - "92349bd4a8c11233"
   - "93601d11e4db33a8"
+  - "9951decf1ff354d0"
   - "a3ec5261dfb4f2cd"
   - "b56da077d21ad4f4"
   - "b7b96dd0ccd56642"
@@ -73,7 +74,7 @@ provenance:
   - "fd1cb9e783625459"
   - "fe9e50bf2d5b21fe"
   - "ff1ca072bf39e471"
-pushes_per_week: [6, 5, 2, 1, 2, 6, 0, 0, 3, 1, 7, 3, 0]
+pushes_per_week: [3, 5, 2, 2, 1, 6, 0, 0, 3, 2, 6, 3, 0]
 windows:
   "7d":
     pushes: 0
@@ -90,16 +91,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 36
+    pushes: 33
     distinct_repos: 2
-    active_days: 24
+    active_days: 23
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.5000
-  repo_per_active_day: 0.0833
+  push_per_day: 1.4348
+  repo_per_active_day: 0.0870
   not_owned_ratio: 0.0000
   basename_concentration: 0.5000
   shapes: []
@@ -126,16 +127,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 36
+    pushes: 33
     distinct_repos: 2
-    pushes_per_repo: 18.0000
-    active_days: 24
+    pushes_per_repo: 16.5000
+    active_days: 23
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
-  - "provenance: 62 vault signal(s) — pass"
-  - "activity: 24 active days in 90d — pass"
+  - "provenance: 63 vault signal(s) — pass"
+  - "activity: 23 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "pi-bites"
@@ -193,6 +194,6 @@ repos:
 
 # jamestrew
 
-36 pushes across 2 repositories on 24 active days in the last 90 days of public GitHub push activity.
+33 pushes across 2 repositories on 23 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/jamestrew

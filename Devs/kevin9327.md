@@ -7,16 +7,14 @@ discovered_via_all:
 provenance_repos:
   - "akitaonrails/ai-memory"
   - "alibaba/open-code-review"
-  - "ChromeDevTools/chrome-devtools-mcp"
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-16T08:30:18.142355+00:00"
+generated_at: "2026-10-17T06:04:44.015278+00:00"
 provenance:
-  - "379642deb53f3714"
   - "4138778ebbc75ba6"
   - "c489e6fb5febf2ab"
-pushes_per_week: [10, 8, 6, 6, 42, 2, 3, 1, 42, 10, 6, 2, 0]
+pushes_per_week: [10, 11, 3, 7, 42, 2, 2, 1, 42, 10, 6, 2, 0]
 windows:
   "7d":
     pushes: 0
@@ -26,9 +24,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 23
+    pushes: 22
     distinct_repos: 13
-    active_days: 10
+    active_days: 9
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -61,10 +59,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 23
+    pushes: 22
     distinct_repos: 13
-    pushes_per_repo: 1.7692
-    active_days: 10
+    pushes_per_repo: 1.6923
+    active_days: 9
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -77,7 +75,7 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
-  - "provenance: 3 vault signal(s) — pass"
+  - "provenance: 2 vault signal(s) — pass"
   - "activity: 35 active days in 90d — pass"
   - "automation: clear — pass"
 repos:

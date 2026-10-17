@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-16T08:30:18.142355+00:00"
+generated_at: "2026-10-17T06:04:44.015278+00:00"
 provenance:
   - "716cf9e2237ac9db"
-pushes_per_week: [4, 5, 1, 6, 1, 1, 0, 0, 0, 0, 0, 2, 1]
+pushes_per_week: [3, 5, 1, 6, 1, 1, 0, 0, 0, 0, 0, 2, 1]
 windows:
   "7d":
     pushes: 1
@@ -29,7 +29,7 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 21
+    pushes: 20
     distinct_repos: 1
     active_days: 15
     repos_not_owned: 0
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.4000
+  push_per_day: 1.3333
   repo_per_active_day: 0.0667
   not_owned_ratio: 0.0000
   basename_concentration: 1.0000
@@ -65,9 +65,9 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 21
+    pushes: 20
     distinct_repos: 1
-    pushes_per_repo: 21.0000
+    pushes_per_repo: 20.0000
     active_days: 15
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -129,6 +129,6 @@ repos:
 
 # dbyale
 
-21 pushes across 1 repository on 15 active days in the last 90 days of public GitHub push activity.
+20 pushes across 1 repository on 15 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/dbyale

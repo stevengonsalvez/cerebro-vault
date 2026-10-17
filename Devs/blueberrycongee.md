@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-16T08:30:18.142355+00:00"
+generated_at: "2026-10-17T06:04:44.015278+00:00"
 provenance:
   - "16389f32495280ea"
-pushes_per_week: [33, 6, 7, 9, 3, 2, 1, 3, 15, 38, 37, 16, 47]
+pushes_per_week: [16, 8, 8, 6, 3, 3, 1, 2, 24, 44, 22, 21, 42]
 windows:
   "7d":
-    pushes: 48
+    pushes: 46
     distinct_repos: 1
-    active_days: 6
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 217
+    pushes: 200
     distinct_repos: 4
-    active_days: 53
+    active_days: 52
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 4.0943
-  repo_per_active_day: 0.0755
+  push_per_day: 3.8462
+  repo_per_active_day: 0.0769
   not_owned_ratio: 0.2500
   basename_concentration: 0.5000
   shapes: []
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 48
+    pushes: 46
     distinct_repos: 1
-    pushes_per_repo: 48.0000
-    active_days: 6
+    pushes_per_repo: 46.0000
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 217
+    pushes: 200
     distinct_repos: 4
-    pushes_per_repo: 54.2500
-    active_days: 53
+    pushes_per_repo: 50.0000
+    active_days: 52
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 53 active days in 90d — pass"
+  - "activity: 52 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "profile-summary-cards"
@@ -177,6 +177,6 @@ repos:
 
 # blueberrycongee
 
-217 pushes across 4 repositories on 53 active days in the last 90 days of public GitHub push activity.
+200 pushes across 4 repositories on 52 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/blueberrycongee

@@ -9,13 +9,13 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-16T08:30:18.142355+00:00"
+generated_at: "2026-10-17T06:04:44.015278+00:00"
 provenance:
   - "97c4e9cb8b163ddb"
   - "c7515e0fa4368a55"
   - "d3abe74726b22711"
   - "e7c647c4d0689526"
-pushes_per_week: [1, 4, 15, 3, 2, 0, 0, 3, 49, 29, 39, 1, 0]
+pushes_per_week: [0, 4, 15, 4, 1, 0, 0, 10, 43, 33, 35, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -25,25 +25,25 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 93
+    pushes: 91
     distinct_repos: 38
-    active_days: 15
+    active_days: 14
     repos_not_owned: 27
     not_owned_basenames: 27
     not_owned_owners: 1
   "90d":
-    pushes: 146
-    distinct_repos: 48
-    active_days: 32
-    repos_not_owned: 36
-    not_owned_basenames: 36
+    pushes: 145
+    distinct_repos: 47
+    active_days: 31
+    repos_not_owned: 35
+    not_owned_basenames: 35
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 4.5625
-  repo_per_active_day: 1.5000
-  not_owned_ratio: 0.7500
-  basename_concentration: 0.0417
+  push_per_day: 4.6774
+  repo_per_active_day: 1.5161
+  not_owned_ratio: 0.7447
+  basename_concentration: 0.0426
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -60,24 +60,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 93
+    pushes: 91
     distinct_repos: 38
-    pushes_per_repo: 2.4474
-    active_days: 15
+    pushes_per_repo: 2.3947
+    active_days: 14
     repos_not_owned: 27
     not_owned_basenames: 27
     not_owned_owners: 1
   "90d":
-    pushes: 146
-    distinct_repos: 48
-    pushes_per_repo: 3.0417
-    active_days: 32
-    repos_not_owned: 36
-    not_owned_basenames: 36
+    pushes: 145
+    distinct_repos: 47
+    pushes_per_repo: 3.0851
+    active_days: 31
+    repos_not_owned: 35
+    not_owned_basenames: 35
     not_owned_owners: 1
 reasons:
   - "provenance: 4 vault signal(s) — pass"
-  - "activity: 32 active days in 90d — pass"
+  - "activity: 31 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "agent-trash-guard"
@@ -233,6 +233,6 @@ repos:
 
 # roli-lpci
 
-146 pushes across 48 repositories on 32 active days in the last 90 days of public GitHub push activity.
+145 pushes across 47 repositories on 31 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/roli-lpci

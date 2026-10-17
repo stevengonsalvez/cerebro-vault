@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-16T08:30:18.142355+00:00"
+generated_at: "2026-10-17T06:04:44.015278+00:00"
 provenance:
   - "ef17663e884139a8"
-pushes_per_week: [20, 26, 16, 45, 7, 6, 1, 0, 6, 6, 12, 3, 4]
+pushes_per_week: [17, 29, 20, 38, 7, 5, 0, 2, 5, 7, 12, 2, 3]
 windows:
   "7d":
     pushes: 4
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 2
   "30d":
-    pushes: 28
+    pushes: 27
     distinct_repos: 5
-    active_days: 19
+    active_days: 18
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
   "90d":
-    pushes: 152
+    pushes: 147
     distinct_repos: 33
-    active_days: 57
+    active_days: 56
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 2.6667
-  repo_per_active_day: 0.5789
+  push_per_day: 2.6250
+  repo_per_active_day: 0.5893
   not_owned_ratio: 0.1515
   basename_concentration: 0.0606
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 2
   "30d":
-    pushes: 28
+    pushes: 27
     distinct_repos: 5
-    pushes_per_repo: 5.6000
-    active_days: 19
+    pushes_per_repo: 5.4000
+    active_days: 18
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
   "90d":
-    pushes: 152
+    pushes: 147
     distinct_repos: 33
-    pushes_per_repo: 4.6061
-    active_days: 57
+    pushes_per_repo: 4.4545
+    active_days: 56
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 57 active days in 90d — pass"
+  - "activity: 56 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "Surge"
@@ -164,6 +164,6 @@ repos:
 
 # SukkaW
 
-152 pushes across 33 repositories on 57 active days in the last 90 days of public GitHub push activity.
+147 pushes across 33 repositories on 56 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/SukkaW

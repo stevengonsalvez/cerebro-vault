@@ -11,20 +11,20 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-16T08:30:18.142355+00:00"
+generated_at: "2026-10-17T06:04:44.015278+00:00"
 provenance:
   - "16389f32495280ea"
   - "234088bc43763aa2"
   - "4d1450729e6ff44d"
-pushes_per_week: [34, 19, 18, 53, 20, 9, 2, 8, 4, 8, 10, 6, 5]
+pushes_per_week: [31, 12, 18, 60, 17, 5, 2, 8, 9, 4, 10, 6, 4]
 windows:
   "7d":
-    pushes: 5
-    distinct_repos: 4
-    active_days: 5
-    repos_not_owned: 2
-    not_owned_basenames: 2
-    not_owned_owners: 2
+    pushes: 4
+    distinct_repos: 3
+    active_days: 4
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "30d":
     pushes: 29
     distinct_repos: 11
@@ -33,16 +33,16 @@ windows:
     not_owned_basenames: 4
     not_owned_owners: 2
   "90d":
-    pushes: 196
+    pushes: 186
     distinct_repos: 48
-    active_days: 56
+    active_days: 55
     repos_not_owned: 6
     not_owned_basenames: 6
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 3.5000
-  repo_per_active_day: 0.8571
+  push_per_day: 3.3818
+  repo_per_active_day: 0.8727
   not_owned_ratio: 0.1250
   basename_concentration: 0.0417
   shapes: []
@@ -53,13 +53,13 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 5
-    distinct_repos: 4
-    pushes_per_repo: 1.2500
-    active_days: 5
-    repos_not_owned: 2
-    not_owned_basenames: 2
-    not_owned_owners: 2
+    pushes: 4
+    distinct_repos: 3
+    pushes_per_repo: 1.3333
+    active_days: 4
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "30d":
     pushes: 29
     distinct_repos: 11
@@ -69,16 +69,16 @@ facets:
     not_owned_basenames: 4
     not_owned_owners: 2
   "90d":
-    pushes: 196
+    pushes: 186
     distinct_repos: 48
-    pushes_per_repo: 4.0833
-    active_days: 56
+    pushes_per_repo: 3.8750
+    active_days: 55
     repos_not_owned: 6
     not_owned_basenames: 6
     not_owned_owners: 3
 reasons:
   - "provenance: 3 vault signal(s) — pass"
-  - "activity: 56 active days in 90d — pass"
+  - "activity: 55 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "ctxgo"
@@ -134,6 +134,6 @@ repos:
 
 # luojiyin1987
 
-196 pushes across 48 repositories on 56 active days in the last 90 days of public GitHub push activity.
+186 pushes across 48 repositories on 55 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/luojiyin1987

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-16T08:30:18.142355+00:00"
+generated_at: "2026-10-17T06:04:44.015278+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [4, 6, 2, 6, 0, 5, 0, 2, 0, 1, 1, 0, 0]
+pushes_per_week: [4, 5, 4, 4, 2, 3, 0, 2, 0, 1, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 27
+    pushes: 26
     distinct_repos: 9
-    active_days: 21
+    active_days: 20
     repos_not_owned: 9
     not_owned_basenames: 9
     not_owned_owners: 5
 automation:
   state: "clear"
-  push_per_day: 1.2857
-  repo_per_active_day: 0.4286
+  push_per_day: 1.3000
+  repo_per_active_day: 0.4500
   not_owned_ratio: 1.0000
   basename_concentration: 0.1111
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 27
+    pushes: 26
     distinct_repos: 9
-    pushes_per_repo: 3.0000
-    active_days: 21
+    pushes_per_repo: 2.8889
+    active_days: 20
     repos_not_owned: 9
     not_owned_basenames: 9
     not_owned_owners: 5
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 21 active days in 90d — pass"
+  - "activity: 20 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "moreduomoreduogreen"
@@ -113,6 +113,6 @@ repos:
 
 # shangxueink
 
-27 pushes across 9 repositories on 21 active days in the last 90 days of public GitHub push activity.
+26 pushes across 9 repositories on 20 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/shangxueink

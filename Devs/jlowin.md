@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-16T08:30:18.142355+00:00"
+generated_at: "2026-10-17T06:04:44.015278+00:00"
 provenance:
   - "2bd11e9b6557176e"
-pushes_per_week: [77, 24, 1, 0, 0, 1, 0, 0, 0, 0, 0, 27, 0]
+pushes_per_week: [52, 24, 1, 0, 0, 1, 0, 0, 0, 0, 2, 25, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,22 +29,22 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 6
   "90d":
-    pushes: 130
-    distinct_repos: 11
-    active_days: 17
-    repos_not_owned: 11
+    pushes: 105
+    distinct_repos: 8
+    active_days: 16
+    repos_not_owned: 8
     not_owned_basenames: 1
-    not_owned_owners: 11
+    not_owned_owners: 8
 automation:
   state: "clear"
-  push_per_day: 7.6471
-  repo_per_active_day: 0.6471
+  push_per_day: 6.5625
+  repo_per_active_day: 0.5000
   not_owned_ratio: 1.0000
   basename_concentration: 1.0000
   shapes:
     - "fork_farm_third_party"
   shape_evidence:
-    - "basename concentration 1.0000 (11 of 11 repos share one basename), 11 not owned across 1 basenames — 5 of 5 sampled repos resolved; 5 fork somebody else's repo; upstreams: PrefectHQ/fastmcp"
+    - "basename concentration 1.0000 (8 of 8 repos share one basename), 8 not owned across 1 basenames — 5 of 5 sampled repos resolved; 5 fork somebody else's repo; upstreams: PrefectHQ/fastmcp"
   cleared_by: "e01-builder"
   cleared_on: "2026-08-26"
   fork_provenance:
@@ -81,16 +81,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 6
   "90d":
-    pushes: 130
-    distinct_repos: 11
-    pushes_per_repo: 11.8182
-    active_days: 17
-    repos_not_owned: 11
+    pushes: 105
+    distinct_repos: 8
+    pushes_per_repo: 13.1250
+    active_days: 16
+    repos_not_owned: 8
     not_owned_basenames: 1
-    not_owned_owners: 11
+    not_owned_owners: 8
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 17 active days in 90d — pass"
+  - "activity: 16 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "vibecheck"
@@ -158,6 +158,6 @@ repos:
 
 # jlowin
 
-130 pushes across 11 repositories on 17 active days in the last 90 days of public GitHub push activity.
+105 pushes across 8 repositories on 16 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/jlowin

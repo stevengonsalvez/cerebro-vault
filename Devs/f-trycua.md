@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-16T08:30:18.142355+00:00"
+generated_at: "2026-10-17T06:04:44.015278+00:00"
 provenance:
   - "feacb1c4ff8cc40f"
-pushes_per_week: [45, 24, 34, 7, 8, 3, 1, 19, 16, 23, 59, 16, 22]
+pushes_per_week: [32, 28, 28, 11, 4, 4, 1, 18, 21, 30, 47, 18, 20]
 windows:
   "7d":
     pushes: 22
@@ -29,22 +29,22 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 10
   "90d":
-    pushes: 277
-    distinct_repos: 21
-    active_days: 61
-    repos_not_owned: 21
-    not_owned_basenames: 5
+    pushes: 262
+    distinct_repos: 20
+    active_days: 60
+    repos_not_owned: 20
+    not_owned_basenames: 4
     not_owned_owners: 18
 automation:
   state: "clear"
-  push_per_day: 4.5410
-  repo_per_active_day: 0.3443
+  push_per_day: 4.3667
+  repo_per_active_day: 0.3333
   not_owned_ratio: 1.0000
-  basename_concentration: 0.8095
+  basename_concentration: 0.8500
   shapes:
     - "fork_farm_third_party"
   shape_evidence:
-    - "basename concentration 0.8095 (17 of 21 repos share one basename), 21 not owned across 5 basenames — 5 of 5 sampled repos resolved; 5 fork somebody else's repo; upstreams: trycua/cua"
+    - "basename concentration 0.8500 (17 of 20 repos share one basename), 20 not owned across 4 basenames — 5 of 5 sampled repos resolved; 5 fork somebody else's repo; upstreams: trycua/cua"
   cleared_by: "e01-builder"
   cleared_on: "2026-08-26"
   fork_provenance:
@@ -81,16 +81,16 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 10
   "90d":
-    pushes: 277
-    distinct_repos: 21
-    pushes_per_repo: 13.1905
-    active_days: 61
-    repos_not_owned: 21
-    not_owned_basenames: 5
+    pushes: 262
+    distinct_repos: 20
+    pushes_per_repo: 13.1000
+    active_days: 60
+    repos_not_owned: 20
+    not_owned_basenames: 4
     not_owned_owners: 18
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 61 active days in 90d — pass"
+  - "activity: 60 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "johto-autumn"
@@ -105,6 +105,6 @@ repos:
 
 # f-trycua
 
-277 pushes across 21 repositories on 61 active days in the last 90 days of public GitHub push activity.
+262 pushes across 20 repositories on 60 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/f-trycua

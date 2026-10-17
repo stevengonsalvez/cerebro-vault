@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-16T08:30:18.142355+00:00"
+generated_at: "2026-10-17T06:04:44.015278+00:00"
 provenance:
   - "1be978947e68d1f2"
-pushes_per_week: [11, 2, 6, 11, 5, 1, 0, 1, 2, 5, 14, 1, 5]
+pushes_per_week: [7, 2, 7, 10, 5, 1, 0, 2, 1, 9, 11, 1, 4]
 windows:
   "7d":
     pushes: 5
@@ -29,7 +29,7 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 64
+    pushes: 60
     distinct_repos: 5
     active_days: 31
     repos_not_owned: 0
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.0645
+  push_per_day: 1.9355
   repo_per_active_day: 0.1613
   not_owned_ratio: 0.0000
   basename_concentration: 0.2000
@@ -65,9 +65,9 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 64
+    pushes: 60
     distinct_repos: 5
-    pushes_per_repo: 12.8000
+    pushes_per_repo: 12.0000
     active_days: 31
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -171,6 +171,6 @@ repos:
 
 # TomerAberbach
 
-64 pushes across 5 repositories on 31 active days in the last 90 days of public GitHub push activity.
+60 pushes across 5 repositories on 31 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/TomerAberbach

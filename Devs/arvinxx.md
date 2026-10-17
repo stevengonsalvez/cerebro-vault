@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-16T08:30:18.142355+00:00"
+generated_at: "2026-10-17T06:04:44.015278+00:00"
 provenance:
   - "51d6155061d60774"
-pushes_per_week: [29, 13, 11, 26, 24, 2, 4, 6, 15, 56, 94, 65, 64]
+pushes_per_week: [28, 13, 20, 23, 17, 3, 3, 8, 20, 59, 90, 65, 58]
 windows:
   "7d":
-    pushes: 66
+    pushes: 63
     distinct_repos: 1
-    active_days: 6
+    active_days: 5
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 409
+    pushes: 407
     distinct_repos: 3
-    active_days: 68
+    active_days: 67
     repos_not_owned: 3
     not_owned_basenames: 2
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 6.0147
-  repo_per_active_day: 0.0441
+  push_per_day: 6.0746
+  repo_per_active_day: 0.0448
   not_owned_ratio: 1.0000
   basename_concentration: 0.6667
   shapes: []
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 66
+    pushes: 63
     distinct_repos: 1
-    pushes_per_repo: 66.0000
-    active_days: 6
+    pushes_per_repo: 63.0000
+    active_days: 5
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 409
+    pushes: 407
     distinct_repos: 3
-    pushes_per_repo: 136.3333
-    active_days: 68
+    pushes_per_repo: 135.6667
+    active_days: 67
     repos_not_owned: 3
     not_owned_basenames: 2
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 68 active days in 90d — pass"
+  - "activity: 67 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "zotero-engine-list"
@@ -138,6 +138,6 @@ repos:
 
 # arvinxx
 
-409 pushes across 3 repositories on 68 active days in the last 90 days of public GitHub push activity.
+407 pushes across 3 repositories on 67 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/arvinxx

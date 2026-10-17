@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: true
 repos_populated: true
-generated_at: "2026-10-11T06:04:44.624574+00:00"
+generated_at: "2026-10-17T06:04:44.015278+00:00"
 provenance:
   - "438a9b54b319a0a7"
-pushes_per_week: [0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0

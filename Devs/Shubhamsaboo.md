@@ -10,10 +10,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-16T08:30:18.142355+00:00"
+generated_at: "2026-10-17T06:04:44.015278+00:00"
 provenance:
   - "fae31da6c227cfde"
-pushes_per_week: [1, 4, 2, 4, 0, 0, 0, 1, 2, 2, 1, 0, 0]
+pushes_per_week: [2, 2, 2, 4, 0, 0, 0, 1, 2, 3, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -30,16 +30,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 17
+    pushes: 16
     distinct_repos: 4
-    active_days: 11
+    active_days: 10
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.5455
-  repo_per_active_day: 0.3636
+  push_per_day: 1.6000
+  repo_per_active_day: 0.4000
   not_owned_ratio: 0.0000
   basename_concentration: 0.2500
   shapes: []
@@ -66,16 +66,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 17
+    pushes: 16
     distinct_repos: 4
-    pushes_per_repo: 4.2500
-    active_days: 11
+    pushes_per_repo: 4.0000
+    active_days: 10
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 11 active days in 90d — pass"
+  - "activity: 10 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "awesome-llm-apps"
@@ -134,6 +134,6 @@ repos:
 
 # Shubhamsaboo
 
-17 pushes across 4 repositories on 11 active days in the last 90 days of public GitHub push activity.
+16 pushes across 4 repositories on 10 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Shubhamsaboo

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-16T08:30:18.142355+00:00"
+generated_at: "2026-10-17T06:04:44.015278+00:00"
 provenance:
   - "541318303a272608"
-pushes_per_week: [33, 17, 14, 21, 2, 2, 0, 2, 1, 0, 3, 11, 2]
+pushes_per_week: [18, 21, 10, 22, 0, 2, 0, 2, 1, 0, 7, 7, 2]
 windows:
   "7d":
     pushes: 2
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 108
-    distinct_repos: 26
-    active_days: 39
+    pushes: 92
+    distinct_repos: 25
+    active_days: 38
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.7692
-  repo_per_active_day: 0.6667
+  push_per_day: 2.4211
+  repo_per_active_day: 0.6579
   not_owned_ratio: 0.0000
-  basename_concentration: 0.0769
+  basename_concentration: 0.0800
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 108
-    distinct_repos: 26
-    pushes_per_repo: 4.1538
-    active_days: 39
+    pushes: 92
+    distinct_repos: 25
+    pushes_per_repo: 3.6800
+    active_days: 38
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 39 active days in 90d — pass"
+  - "activity: 38 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "Yigtwxx"
@@ -203,6 +203,6 @@ repos:
 
 # Yigtwxx
 
-108 pushes across 26 repositories on 39 active days in the last 90 days of public GitHub push activity.
+92 pushes across 25 repositories on 38 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Yigtwxx

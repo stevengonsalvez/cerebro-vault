@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-16T08:30:18.142355+00:00"
+generated_at: "2026-10-17T06:04:44.015278+00:00"
 provenance:
   - "a5ffcd0a46dd44fd"
-pushes_per_week: [16, 2, 4, 5, 0, 0, 0, 6, 8, 9, 11, 7, 4]
+pushes_per_week: [15, 2, 4, 5, 0, 0, 0, 7, 7, 9, 11, 7, 4]
 windows:
   "7d":
-    pushes: 5
-    distinct_repos: 4
-    active_days: 4
+    pushes: 4
+    distinct_repos: 3
+    active_days: 3
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 7
     not_owned_owners: 3
   "90d":
-    pushes: 72
+    pushes: 71
     distinct_repos: 15
-    active_days: 37
+    active_days: 36
     repos_not_owned: 10
     not_owned_basenames: 9
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 1.9459
-  repo_per_active_day: 0.4054
+  push_per_day: 1.9722
+  repo_per_active_day: 0.4167
   not_owned_ratio: 0.6667
   basename_concentration: 0.2000
   shapes: []
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 5
-    distinct_repos: 4
-    pushes_per_repo: 1.2500
-    active_days: 4
+    pushes: 4
+    distinct_repos: 3
+    pushes_per_repo: 1.3333
+    active_days: 3
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 7
     not_owned_owners: 3
   "90d":
-    pushes: 72
+    pushes: 71
     distinct_repos: 15
-    pushes_per_repo: 4.8000
-    active_days: 37
+    pushes_per_repo: 4.7333
+    active_days: 36
     repos_not_owned: 10
     not_owned_basenames: 9
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 37 active days in 90d — pass"
+  - "activity: 36 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "jbpratt"
@@ -132,6 +132,6 @@ repos:
 
 # jbpratt
 
-72 pushes across 15 repositories on 37 active days in the last 90 days of public GitHub push activity.
+71 pushes across 15 repositories on 36 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/jbpratt

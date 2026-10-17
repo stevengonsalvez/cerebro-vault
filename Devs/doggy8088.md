@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-16T08:30:18.142355+00:00"
+generated_at: "2026-10-17T06:04:44.015278+00:00"
 provenance:
   - "745308b2b7085095"
-pushes_per_week: [11, 22, 0, 3, 2, 7, 0, 4, 6, 6, 14, 3, 18]
+pushes_per_week: [7, 22, 1, 3, 2, 6, 0, 5, 7, 6, 13, 5, 15]
 windows:
   "7d":
-    pushes: 19
+    pushes: 18
     distinct_repos: 7
-    active_days: 6
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 96
-    distinct_repos: 28
-    active_days: 44
+    pushes: 92
+    distinct_repos: 27
+    active_days: 43
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.1818
-  repo_per_active_day: 0.6364
+  push_per_day: 2.1395
+  repo_per_active_day: 0.6279
   not_owned_ratio: 0.0000
-  basename_concentration: 0.0357
+  basename_concentration: 0.0370
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 19
+    pushes: 18
     distinct_repos: 7
-    pushes_per_repo: 2.7143
-    active_days: 6
+    pushes_per_repo: 2.5714
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 96
-    distinct_repos: 28
-    pushes_per_repo: 3.4286
-    active_days: 44
+    pushes: 92
+    distinct_repos: 27
+    pushes_per_repo: 3.4074
+    active_days: 43
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 44 active days in 90d — pass"
+  - "activity: 43 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "opencc-cli"
@@ -137,6 +137,6 @@ repos:
 
 # doggy8088
 
-96 pushes across 28 repositories on 44 active days in the last 90 days of public GitHub push activity.
+92 pushes across 27 repositories on 43 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/doggy8088

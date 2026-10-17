@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-16T08:30:18.142355+00:00"
+generated_at: "2026-10-17T06:04:44.015278+00:00"
 provenance:
   - "c1af6b58492f9bf4"
-pushes_per_week: [16, 11, 31, 7, 7, 2, 0, 16, 34, 35, 10, 3, 1]
+pushes_per_week: [11, 20, 22, 9, 5, 2, 0, 20, 34, 37, 5, 2, 1]
 windows:
   "7d":
     pushes: 1
@@ -22,25 +22,25 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 59
+    pushes: 57
     distinct_repos: 44
-    active_days: 18
+    active_days: 17
     repos_not_owned: 38
     not_owned_basenames: 8
     not_owned_owners: 37
   "90d":
-    pushes: 173
-    distinct_repos: 76
-    active_days: 48
+    pushes: 168
+    distinct_repos: 74
+    active_days: 47
     repos_not_owned: 54
     not_owned_basenames: 13
     not_owned_owners: 53
 automation:
   state: "clear"
-  push_per_day: 3.6042
-  repo_per_active_day: 1.5833
-  not_owned_ratio: 0.7105
-  basename_concentration: 0.5658
+  push_per_day: 3.5745
+  repo_per_active_day: 1.5745
+  not_owned_ratio: 0.7297
+  basename_concentration: 0.5811
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 59
+    pushes: 57
     distinct_repos: 44
-    pushes_per_repo: 1.3409
-    active_days: 18
+    pushes_per_repo: 1.2955
+    active_days: 17
     repos_not_owned: 38
     not_owned_basenames: 8
     not_owned_owners: 37
   "90d":
-    pushes: 173
-    distinct_repos: 76
-    pushes_per_repo: 2.2763
-    active_days: 48
+    pushes: 168
+    distinct_repos: 74
+    pushes_per_repo: 2.2703
+    active_days: 47
     repos_not_owned: 54
     not_owned_basenames: 13
     not_owned_owners: 53
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 48 active days in 90d — pass"
+  - "activity: 47 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "Personal-Digital-Assistant"
@@ -135,6 +135,6 @@ repos:
 
 # cclauss
 
-173 pushes across 76 repositories on 48 active days in the last 90 days of public GitHub push activity.
+168 pushes across 74 repositories on 47 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/cclauss

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-16T08:30:18.142355+00:00"
+generated_at: "2026-10-17T06:04:44.015278+00:00"
 provenance:
   - "a5ffcd0a46dd44fd"
-pushes_per_week: [47, 32, 12, 14, 1, 5, 1, 8, 10, 17, 58, 36, 34]
+pushes_per_week: [33, 28, 12, 14, 1, 5, 2, 7, 11, 22, 62, 28, 32]
 windows:
   "7d":
     pushes: 34
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 2
   "30d":
-    pushes: 149
+    pushes: 148
     distinct_repos: 39
-    active_days: 27
+    active_days: 26
     repos_not_owned: 12
     not_owned_basenames: 8
     not_owned_owners: 9
   "90d":
-    pushes: 275
+    pushes: 257
     distinct_repos: 45
-    active_days: 60
+    active_days: 59
     repos_not_owned: 12
     not_owned_basenames: 8
     not_owned_owners: 9
 automation:
   state: "clear"
-  push_per_day: 4.5833
-  repo_per_active_day: 0.7500
+  push_per_day: 4.3559
+  repo_per_active_day: 0.7627
   not_owned_ratio: 0.2667
   basename_concentration: 0.0889
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 2
   "30d":
-    pushes: 149
+    pushes: 148
     distinct_repos: 39
-    pushes_per_repo: 3.8205
-    active_days: 27
+    pushes_per_repo: 3.7949
+    active_days: 26
     repos_not_owned: 12
     not_owned_basenames: 8
     not_owned_owners: 9
   "90d":
-    pushes: 275
+    pushes: 257
     distinct_repos: 45
-    pushes_per_repo: 6.1111
-    active_days: 60
+    pushes_per_repo: 5.7111
+    active_days: 59
     repos_not_owned: 12
     not_owned_basenames: 8
     not_owned_owners: 9
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 60 active days in 90d — pass"
+  - "activity: 59 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "vllm-vulkan"
@@ -129,6 +129,6 @@ repos:
 
 # ericcurtin
 
-275 pushes across 45 repositories on 60 active days in the last 90 days of public GitHub push activity.
+257 pushes across 45 repositories on 59 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ericcurtin

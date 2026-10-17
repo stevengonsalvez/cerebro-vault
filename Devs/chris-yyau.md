@@ -9,11 +9,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-16T08:30:18.142355+00:00"
+generated_at: "2026-10-17T06:04:44.015278+00:00"
 provenance:
   - "1df6ea1f1256059e"
   - "edb3a626875732de"
-pushes_per_week: [59, 26, 11, 32, 5, 11, 2, 3, 1, 9, 9, 3, 9]
+pushes_per_week: [56, 25, 13, 29, 8, 7, 2, 3, 5, 5, 10, 3, 8]
 windows:
   "7d":
     pushes: 9
@@ -30,18 +30,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 180
-    distinct_repos: 5
-    active_days: 52
+    pushes: 174
+    distinct_repos: 4
+    active_days: 51
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 3.4615
-  repo_per_active_day: 0.0962
+  push_per_day: 3.4118
+  repo_per_active_day: 0.0784
   not_owned_ratio: 0.0000
-  basename_concentration: 0.2000
+  basename_concentration: 0.2500
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -66,16 +66,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 180
-    distinct_repos: 5
-    pushes_per_repo: 36.0000
-    active_days: 52
+    pushes: 174
+    distinct_repos: 4
+    pushes_per_repo: 43.5000
+    active_days: 51
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 52 active days in 90d — pass"
+  - "activity: 51 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "busdriver"
@@ -114,6 +114,6 @@ repos:
 
 # chris-yyau
 
-180 pushes across 5 repositories on 52 active days in the last 90 days of public GitHub push activity.
+174 pushes across 4 repositories on 51 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/chris-yyau

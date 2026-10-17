@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-16T08:30:18.142355+00:00"
+generated_at: "2026-10-17T06:04:44.015278+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [17, 9, 2, 7, 4, 1, 0, 1, 2, 9, 12, 3, 7]
+pushes_per_week: [20, 5, 3, 8, 2, 1, 0, 1, 4, 10, 9, 5, 5]
 windows:
   "7d":
     pushes: 7
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 74
+    pushes: 73
     distinct_repos: 23
-    active_days: 38
+    active_days: 37
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.9474
-  repo_per_active_day: 0.6053
+  push_per_day: 1.9730
+  repo_per_active_day: 0.6216
   not_owned_ratio: 0.0870
   basename_concentration: 0.0435
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 74
+    pushes: 73
     distinct_repos: 23
-    pushes_per_repo: 3.2174
-    active_days: 38
+    pushes_per_repo: 3.1739
+    active_days: 37
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 38 active days in 90d — pass"
+  - "activity: 37 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "astrbot_plugin_gemini_image_generation"
@@ -139,6 +139,6 @@ repos:
 
 # piexian
 
-74 pushes across 23 repositories on 38 active days in the last 90 days of public GitHub push activity.
+73 pushes across 23 repositories on 37 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/piexian

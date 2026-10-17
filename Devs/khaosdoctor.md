@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-16T08:30:18.142355+00:00"
+generated_at: "2026-10-17T06:04:44.015278+00:00"
 provenance:
   - "73468cde177ddae6"
-pushes_per_week: [12, 3, 6, 3, 4, 1, 1, 3, 1, 0, 25, 9, 9]
+pushes_per_week: [11, 3, 5, 3, 5, 0, 2, 2, 1, 0, 29, 5, 9]
 windows:
   "7d":
     pushes: 9
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 2
   "90d":
-    pushes: 77
-    distinct_repos: 14
-    active_days: 35
+    pushes: 75
+    distinct_repos: 13
+    active_days: 34
     repos_not_owned: 3
     not_owned_basenames: 2
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 2.2000
-  repo_per_active_day: 0.4000
-  not_owned_ratio: 0.2143
-  basename_concentration: 0.2143
+  push_per_day: 2.2059
+  repo_per_active_day: 0.3824
+  not_owned_ratio: 0.2308
+  basename_concentration: 0.2308
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 2
   "90d":
-    pushes: 77
-    distinct_repos: 14
-    pushes_per_repo: 5.5000
-    active_days: 35
+    pushes: 75
+    distinct_repos: 13
+    pushes_per_repo: 5.7692
+    active_days: 34
     repos_not_owned: 3
     not_owned_basenames: 2
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 35 active days in 90d — pass"
+  - "activity: 34 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "proton-drive-linux-fs"
@@ -149,6 +149,6 @@ repos:
 
 # khaosdoctor
 
-77 pushes across 14 repositories on 35 active days in the last 90 days of public GitHub push activity.
+75 pushes across 13 repositories on 34 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/khaosdoctor

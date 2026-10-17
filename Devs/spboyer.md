@@ -6,20 +6,18 @@ discovered_via_all:
   - "fanout"
 provenance_repos:
   - "addyosmani/agent-skills"
-  - "ChromeDevTools/chrome-devtools-mcp"
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-16T08:30:18.142355+00:00"
+generated_at: "2026-10-17T06:04:44.015278+00:00"
 provenance:
-  - "379642deb53f3714"
   - "dae9f02535f7c22f"
-pushes_per_week: [4, 8, 3, 5, 2, 4, 1, 0, 0, 1, 7, 3, 13]
+pushes_per_week: [4, 8, 3, 5, 2, 4, 1, 0, 0, 1, 7, 4, 12]
 windows:
   "7d":
-    pushes: 13
+    pushes: 12
     distinct_repos: 1
-    active_days: 4
+    active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -51,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 13
+    pushes: 12
     distinct_repos: 1
-    pushes_per_repo: 13.0000
-    active_days: 4
+    pushes_per_repo: 12.0000
+    active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -75,7 +73,7 @@ facets:
     not_owned_basenames: 3
     not_owned_owners: 2
 reasons:
-  - "provenance: 2 vault signal(s) — pass"
+  - "provenance: 1 vault signal(s) — pass"
   - "activity: 17 active days in 90d — pass"
   - "automation: clear — pass"
 repos:

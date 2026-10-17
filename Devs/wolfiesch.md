@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-16T08:30:18.142355+00:00"
+generated_at: "2026-10-17T06:04:44.015278+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [86, 79, 7, 10, 2, 3, 6, 0, 0, 3, 1, 9, 2]
+pushes_per_week: [69, 66, 3, 10, 2, 3, 6, 0, 1, 2, 2, 8, 2]
 windows:
   "7d":
     pushes: 2
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 208
-    distinct_repos: 18
-    active_days: 33
+    pushes: 174
+    distinct_repos: 17
+    active_days: 32
     repos_not_owned: 7
     not_owned_basenames: 5
     not_owned_owners: 5
 automation:
   state: "clear"
-  push_per_day: 6.3030
-  repo_per_active_day: 0.5455
-  not_owned_ratio: 0.3889
-  basename_concentration: 0.2222
+  push_per_day: 5.4375
+  repo_per_active_day: 0.5312
+  not_owned_ratio: 0.4118
+  basename_concentration: 0.2353
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 208
-    distinct_repos: 18
-    pushes_per_repo: 11.5556
-    active_days: 33
+    pushes: 174
+    distinct_repos: 17
+    pushes_per_repo: 10.2353
+    active_days: 32
     repos_not_owned: 7
     not_owned_basenames: 5
     not_owned_owners: 5
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 33 active days in 90d — pass"
+  - "activity: 32 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "omp-cua"
@@ -161,6 +161,6 @@ repos:
 
 # wolfiesch
 
-208 pushes across 18 repositories on 33 active days in the last 90 days of public GitHub push activity.
+174 pushes across 17 repositories on 32 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/wolfiesch

@@ -10,20 +10,18 @@ provenance_repos:
   - "affaan-m/ECC"
   - "akitaonrails/ai-memory"
   - "AlexsJones/llmfit"
-  - "ChromeDevTools/chrome-devtools-mcp"
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-16T08:30:18.142355+00:00"
+generated_at: "2026-10-17T06:04:44.015278+00:00"
 provenance:
   - "1df6ea1f1256059e"
   - "234088bc43763aa2"
   - "2a7f0fddd2dac162"
-  - "379642deb53f3714"
   - "4138778ebbc75ba6"
   - "dae9f02535f7c22f"
   - "edb3a626875732de"
-pushes_per_week: [45, 79, 2, 28, 1, 6, 3, 19, 8, 25, 128, 37, 0]
+pushes_per_week: [60, 65, 7, 22, 2, 6, 3, 18, 8, 33, 129, 28, 0]
 windows:
   "7d":
     pushes: 0
@@ -84,7 +82,7 @@ facets:
     not_owned_basenames: 15
     not_owned_owners: 1
 reasons:
-  - "provenance: 7 vault signal(s) — pass"
+  - "provenance: 6 vault signal(s) — pass"
   - "activity: 52 active days in 90d — pass"
   - "automation: clear — pass"
 repos:

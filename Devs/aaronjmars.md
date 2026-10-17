@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-16T08:30:18.142355+00:00"
+generated_at: "2026-10-17T06:04:44.015278+00:00"
 provenance:
   - "9d67ce648f6a8919"
-pushes_per_week: [44, 41, 17, 25, 15, 24, 6, 15, 31, 50, 53, 27, 21]
+pushes_per_week: [44, 40, 18, 25, 17, 21, 5, 14, 40, 48, 53, 20, 21]
 windows:
   "7d":
     pushes: 21
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 3
     not_owned_owners: 2
   "90d":
-    pushes: 369
+    pushes: 366
     distinct_repos: 22
-    active_days: 74
+    active_days: 73
     repos_not_owned: 6
     not_owned_basenames: 6
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 4.9865
-  repo_per_active_day: 0.2973
+  push_per_day: 5.0137
+  repo_per_active_day: 0.3014
   not_owned_ratio: 0.2727
   basename_concentration: 0.0455
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 3
     not_owned_owners: 2
   "90d":
-    pushes: 369
+    pushes: 366
     distinct_repos: 22
-    pushes_per_repo: 16.7727
-    active_days: 74
+    pushes_per_repo: 16.6364
+    active_days: 73
     repos_not_owned: 6
     not_owned_basenames: 6
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 74 active days in 90d — pass"
+  - "activity: 73 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "miroshark-aeon"
@@ -177,6 +177,6 @@ repos:
 
 # aaronjmars
 
-369 pushes across 22 repositories on 74 active days in the last 90 days of public GitHub push activity.
+366 pushes across 22 repositories on 73 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/aaronjmars

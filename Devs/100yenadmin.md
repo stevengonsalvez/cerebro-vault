@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-16T08:30:18.142355+00:00"
+generated_at: "2026-10-17T06:04:44.015278+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [82, 70, 14, 22, 21, 56, 4, 6, 7, 21, 53, 48, 55]
+pushes_per_week: [69, 65, 13, 28, 17, 53, 4, 6, 7, 26, 52, 49, 50]
 windows:
   "7d":
     pushes: 55
@@ -22,25 +22,25 @@ windows:
     not_owned_basenames: 4
     not_owned_owners: 1
   "30d":
-    pushes: 179
+    pushes: 178
     distinct_repos: 16
-    active_days: 24
+    active_days: 23
     repos_not_owned: 7
     not_owned_basenames: 7
     not_owned_owners: 1
   "90d":
-    pushes: 459
-    distinct_repos: 29
-    active_days: 68
-    repos_not_owned: 13
-    not_owned_basenames: 13
+    pushes: 439
+    distinct_repos: 27
+    active_days: 67
+    repos_not_owned: 12
+    not_owned_basenames: 12
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 6.7500
-  repo_per_active_day: 0.4265
-  not_owned_ratio: 0.4483
-  basename_concentration: 0.0690
+  push_per_day: 6.5522
+  repo_per_active_day: 0.4030
+  not_owned_ratio: 0.4444
+  basename_concentration: 0.0370
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 4
     not_owned_owners: 1
   "30d":
-    pushes: 179
+    pushes: 178
     distinct_repos: 16
-    pushes_per_repo: 11.1875
-    active_days: 24
+    pushes_per_repo: 11.1250
+    active_days: 23
     repos_not_owned: 7
     not_owned_basenames: 7
     not_owned_owners: 1
   "90d":
-    pushes: 459
-    distinct_repos: 29
-    pushes_per_repo: 15.8276
-    active_days: 68
-    repos_not_owned: 13
-    not_owned_basenames: 13
+    pushes: 439
+    distinct_repos: 27
+    pushes_per_repo: 16.2593
+    active_days: 67
+    repos_not_owned: 12
+    not_owned_basenames: 12
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 68 active days in 90d — pass"
+  - "activity: 67 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "hermes-teammates"
@@ -167,6 +167,6 @@ repos:
 
 # 100yenadmin
 
-459 pushes across 29 repositories on 68 active days in the last 90 days of public GitHub push activity.
+439 pushes across 27 repositories on 67 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/100yenadmin

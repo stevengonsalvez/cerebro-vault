@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-16T08:30:18.142355+00:00"
+generated_at: "2026-10-17T06:04:44.015278+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [10, 2, 7, 2, 5, 5, 0, 6, 7, 12, 8, 16, 20]
+pushes_per_week: [6, 2, 7, 5, 2, 5, 0, 6, 8, 13, 8, 14, 20]
 windows:
   "7d":
     pushes: 20
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 8
     not_owned_owners: 5
   "90d":
-    pushes: 100
+    pushes: 96
     distinct_repos: 22
-    active_days: 45
+    active_days: 43
     repos_not_owned: 11
     not_owned_basenames: 11
     not_owned_owners: 6
 automation:
   state: "clear"
-  push_per_day: 2.2222
-  repo_per_active_day: 0.4889
+  push_per_day: 2.2326
+  repo_per_active_day: 0.5116
   not_owned_ratio: 0.5000
   basename_concentration: 0.0909
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 8
     not_owned_owners: 5
   "90d":
-    pushes: 100
+    pushes: 96
     distinct_repos: 22
-    pushes_per_repo: 4.5455
-    active_days: 45
+    pushes_per_repo: 4.3636
+    active_days: 43
     repos_not_owned: 11
     not_owned_basenames: 11
     not_owned_owners: 6
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 45 active days in 90d — pass"
+  - "activity: 43 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "flatpak-blackbox-tests"
@@ -129,6 +129,6 @@ repos:
 
 # razzeee
 
-100 pushes across 22 repositories on 45 active days in the last 90 days of public GitHub push activity.
+96 pushes across 22 repositories on 43 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/razzeee

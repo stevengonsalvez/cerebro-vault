@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-16T08:30:18.142355+00:00"
+generated_at: "2026-10-17T06:04:44.015278+00:00"
 provenance:
   - "3eacb4655aba2497"
-pushes_per_week: [13, 6, 5, 8, 1, 1, 0, 2, 10, 27, 8, 11, 20]
+pushes_per_week: [11, 7, 5, 7, 1, 1, 0, 2, 10, 27, 11, 8, 20]
 windows:
   "7d":
-    pushes: 21
+    pushes: 20
     distinct_repos: 11
-    active_days: 5
+    active_days: 4
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 4
   "30d":
-    pushes: 69
+    pushes: 68
     distinct_repos: 40
-    active_days: 18
+    active_days: 17
     repos_not_owned: 13
     not_owned_basenames: 12
     not_owned_owners: 7
   "90d":
-    pushes: 112
+    pushes: 110
     distinct_repos: 59
-    active_days: 41
+    active_days: 40
     repos_not_owned: 21
     not_owned_basenames: 20
     not_owned_owners: 10
 automation:
   state: "clear"
-  push_per_day: 2.7317
-  repo_per_active_day: 1.4390
+  push_per_day: 2.7500
+  repo_per_active_day: 1.4750
   not_owned_ratio: 0.3559
   basename_concentration: 0.0339
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 21
+    pushes: 20
     distinct_repos: 11
-    pushes_per_repo: 1.9091
-    active_days: 5
+    pushes_per_repo: 1.8182
+    active_days: 4
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 4
   "30d":
-    pushes: 69
+    pushes: 68
     distinct_repos: 40
-    pushes_per_repo: 1.7250
-    active_days: 18
+    pushes_per_repo: 1.7000
+    active_days: 17
     repos_not_owned: 13
     not_owned_basenames: 12
     not_owned_owners: 7
   "90d":
-    pushes: 112
+    pushes: 110
     distinct_repos: 59
-    pushes_per_repo: 1.8983
-    active_days: 41
+    pushes_per_repo: 1.8644
+    active_days: 40
     repos_not_owned: 21
     not_owned_basenames: 20
     not_owned_owners: 10
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 41 active days in 90d — pass"
+  - "activity: 40 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "pure-ftpd"
@@ -171,6 +171,6 @@ repos:
 
 # jedisct1
 
-112 pushes across 59 repositories on 41 active days in the last 90 days of public GitHub push activity.
+110 pushes across 59 repositories on 40 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/jedisct1

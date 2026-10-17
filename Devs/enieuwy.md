@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-16T08:30:18.142355+00:00"
+generated_at: "2026-10-17T06:04:44.015278+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [38, 2, 5, 14, 2, 4, 2, 5, 1, 7, 2, 1, 7]
+pushes_per_week: [28, 6, 6, 9, 2, 4, 2, 5, 1, 8, 1, 3, 5]
 windows:
   "7d":
     pushes: 7
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 18
-    distinct_repos: 10
-    active_days: 10
+    pushes: 17
+    distinct_repos: 9
+    active_days: 9
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 1
   "90d":
-    pushes: 90
+    pushes: 80
     distinct_repos: 17
-    active_days: 32
+    active_days: 31
     repos_not_owned: 6
     not_owned_basenames: 6
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.8125
-  repo_per_active_day: 0.5312
+  push_per_day: 2.5806
+  repo_per_active_day: 0.5484
   not_owned_ratio: 0.3529
   basename_concentration: 0.0588
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 18
-    distinct_repos: 10
-    pushes_per_repo: 1.8000
-    active_days: 10
+    pushes: 17
+    distinct_repos: 9
+    pushes_per_repo: 1.8889
+    active_days: 9
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 1
   "90d":
-    pushes: 90
+    pushes: 80
     distinct_repos: 17
-    pushes_per_repo: 5.2941
-    active_days: 32
+    pushes_per_repo: 4.7059
+    active_days: 31
     repos_not_owned: 6
     not_owned_basenames: 6
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 32 active days in 90d — pass"
+  - "activity: 31 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "showy-quota"
@@ -162,6 +162,6 @@ repos:
 
 # enieuwy
 
-90 pushes across 17 repositories on 32 active days in the last 90 days of public GitHub push activity.
+80 pushes across 17 repositories on 31 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/enieuwy

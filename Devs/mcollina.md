@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-16T08:30:18.142355+00:00"
+generated_at: "2026-10-17T06:04:44.015278+00:00"
 provenance:
   - "3eacb4655aba2497"
-pushes_per_week: [24, 20, 9, 8, 6, 6, 0, 1, 7, 14, 8, 11, 16]
+pushes_per_week: [22, 18, 6, 9, 5, 6, 0, 1, 8, 17, 6, 9, 16]
 windows:
   "7d":
     pushes: 16
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 12
     not_owned_owners: 8
   "90d":
-    pushes: 130
-    distinct_repos: 33
-    active_days: 48
-    repos_not_owned: 25
-    not_owned_basenames: 23
+    pushes: 123
+    distinct_repos: 31
+    active_days: 47
+    repos_not_owned: 23
+    not_owned_basenames: 21
     not_owned_owners: 10
 automation:
   state: "clear"
-  push_per_day: 2.7083
-  repo_per_active_day: 0.6875
-  not_owned_ratio: 0.7576
-  basename_concentration: 0.0909
+  push_per_day: 2.6170
+  repo_per_active_day: 0.6596
+  not_owned_ratio: 0.7419
+  basename_concentration: 0.0968
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 12
     not_owned_owners: 8
   "90d":
-    pushes: 130
-    distinct_repos: 33
-    pushes_per_repo: 3.9394
-    active_days: 48
-    repos_not_owned: 25
-    not_owned_basenames: 23
+    pushes: 123
+    distinct_repos: 31
+    pushes_per_repo: 3.9677
+    active_days: 47
+    repos_not_owned: 23
+    not_owned_basenames: 21
     not_owned_owners: 10
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 48 active days in 90d — pass"
+  - "activity: 47 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "autocannon"
@@ -129,6 +129,6 @@ repos:
 
 # mcollina
 
-130 pushes across 33 repositories on 48 active days in the last 90 days of public GitHub push activity.
+123 pushes across 31 repositories on 47 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/mcollina

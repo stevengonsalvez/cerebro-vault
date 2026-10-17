@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-16T08:30:18.142355+00:00"
+generated_at: "2026-10-17T06:04:44.015278+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [15, 0, 0, 3, 1, 3, 1, 2, 2, 5, 1, 1, 8]
+pushes_per_week: [13, 0, 0, 3, 1, 3, 1, 2, 3, 4, 1, 2, 7]
 windows:
   "7d":
     pushes: 8
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 42
+    pushes: 40
     distinct_repos: 10
-    active_days: 27
+    active_days: 26
     repos_not_owned: 7
     not_owned_basenames: 6
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 1.5556
-  repo_per_active_day: 0.3704
+  push_per_day: 1.5385
+  repo_per_active_day: 0.3846
   not_owned_ratio: 0.7000
   basename_concentration: 0.2000
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 42
+    pushes: 40
     distinct_repos: 10
-    pushes_per_repo: 4.2000
-    active_days: 27
+    pushes_per_repo: 4.0000
+    active_days: 26
     repos_not_owned: 7
     not_owned_basenames: 6
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 27 active days in 90d — pass"
+  - "activity: 26 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "astrbot_plugin_qq_custom_command_panel"
@@ -115,6 +115,6 @@ repos:
 
 # mantoujun12
 
-42 pushes across 10 repositories on 27 active days in the last 90 days of public GitHub push activity.
+40 pushes across 10 repositories on 26 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/mantoujun12

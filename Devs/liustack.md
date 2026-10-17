@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-16T08:30:18.142355+00:00"
+generated_at: "2026-10-17T06:04:44.015278+00:00"
 provenance:
   - "6df1aababb3856e0"
-pushes_per_week: [24, 15, 5, 19, 4, 3, 1, 0, 0, 4, 18, 4, 5]
+pushes_per_week: [29, 8, 5, 19, 5, 2, 1, 0, 0, 4, 18, 6, 3]
 windows:
   "7d":
     pushes: 5
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 102
+    pushes: 100
     distinct_repos: 11
-    active_days: 34
+    active_days: 33
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 3.0000
-  repo_per_active_day: 0.3235
+  push_per_day: 3.0303
+  repo_per_active_day: 0.3333
   not_owned_ratio: 0.0000
   basename_concentration: 0.0909
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 102
+    pushes: 100
     distinct_repos: 11
-    pushes_per_repo: 9.2727
-    active_days: 34
+    pushes_per_repo: 9.0909
+    active_days: 33
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 34 active days in 90d — pass"
+  - "activity: 33 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "modlens"
@@ -199,6 +199,6 @@ repos:
 
 # liustack
 
-102 pushes across 11 repositories on 34 active days in the last 90 days of public GitHub push activity.
+100 pushes across 11 repositories on 33 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/liustack

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-16T08:30:18.142355+00:00"
+generated_at: "2026-10-17T06:04:44.015278+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [11, 5, 2, 3, 2, 2, 1, 0, 3, 2, 8, 6, 2]
+pushes_per_week: [12, 3, 3, 2, 2, 2, 1, 0, 4, 2, 8, 5, 2]
 windows:
   "7d":
     pushes: 2
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 47
+    pushes: 46
     distinct_repos: 10
-    active_days: 30
+    active_days: 29
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.5667
-  repo_per_active_day: 0.3333
+  push_per_day: 1.5862
+  repo_per_active_day: 0.3448
   not_owned_ratio: 0.0000
   basename_concentration: 0.1000
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 47
+    pushes: 46
     distinct_repos: 10
-    pushes_per_repo: 4.7000
-    active_days: 30
+    pushes_per_repo: 4.6000
+    active_days: 29
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 30 active days in 90d — pass"
+  - "activity: 29 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "nixos-config"
@@ -129,6 +129,6 @@ repos:
 
 # ReStranger
 
-47 pushes across 10 repositories on 30 active days in the last 90 days of public GitHub push activity.
+46 pushes across 10 repositories on 29 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ReStranger

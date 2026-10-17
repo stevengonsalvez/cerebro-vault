@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-16T08:30:18.142355+00:00"
+generated_at: "2026-10-17T06:04:44.015278+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [4, 11, 0, 6, 1, 8, 0, 0, 0, 2, 0, 2, 4]
+pushes_per_week: [3, 11, 0, 6, 2, 7, 0, 0, 0, 2, 0, 2, 4]
 windows:
   "7d":
     pushes: 4
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 38
+    pushes: 37
     distinct_repos: 13
-    active_days: 19
+    active_days: 18
     repos_not_owned: 4
     not_owned_basenames: 3
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 2.0000
-  repo_per_active_day: 0.6842
+  push_per_day: 2.0556
+  repo_per_active_day: 0.7222
   not_owned_ratio: 0.3077
   basename_concentration: 0.1538
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 38
+    pushes: 37
     distinct_repos: 13
-    pushes_per_repo: 2.9231
-    active_days: 19
+    pushes_per_repo: 2.8462
+    active_days: 18
     repos_not_owned: 4
     not_owned_basenames: 3
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 19 active days in 90d — pass"
+  - "activity: 18 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "XPIsland"
@@ -145,6 +145,6 @@ repos:
 
 # elithrar
 
-38 pushes across 13 repositories on 19 active days in the last 90 days of public GitHub push activity.
+37 pushes across 13 repositories on 18 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/elithrar

@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-16T08:30:18.142355+00:00"
+generated_at: "2026-10-17T06:04:44.015278+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [9, 29, 9, 74, 37, 28, 5, 6, 170, 404, 116, 55, 81]
+pushes_per_week: [8, 30, 10, 87, 24, 25, 5, 8, 234, 356, 111, 74, 49]
 windows:
   "7d":
-    pushes: 84
-    distinct_repos: 7
-    active_days: 6
+    pushes: 74
+    distinct_repos: 6
+    active_days: 5
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
   "30d":
-    pushes: 745
-    distinct_repos: 30
-    active_days: 28
+    pushes: 718
+    distinct_repos: 29
+    active_days: 27
     repos_not_owned: 16
     not_owned_basenames: 14
     not_owned_owners: 4
   "90d":
-    pushes: 1023
+    pushes: 1021
     distinct_repos: 51
-    active_days: 73
+    active_days: 72
     repos_not_owned: 19
     not_owned_basenames: 15
     not_owned_owners: 6
 automation:
   state: "clear"
-  push_per_day: 14.0137
-  repo_per_active_day: 0.6986
+  push_per_day: 14.1806
+  repo_per_active_day: 0.7083
   not_owned_ratio: 0.3725
   basename_concentration: 0.1176
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 84
-    distinct_repos: 7
-    pushes_per_repo: 12.0000
-    active_days: 6
+    pushes: 74
+    distinct_repos: 6
+    pushes_per_repo: 12.3333
+    active_days: 5
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
   "30d":
-    pushes: 745
-    distinct_repos: 30
-    pushes_per_repo: 24.8333
-    active_days: 28
+    pushes: 718
+    distinct_repos: 29
+    pushes_per_repo: 24.7586
+    active_days: 27
     repos_not_owned: 16
     not_owned_basenames: 14
     not_owned_owners: 4
   "90d":
-    pushes: 1023
+    pushes: 1021
     distinct_repos: 51
-    pushes_per_repo: 20.0588
-    active_days: 73
+    pushes_per_repo: 20.0196
+    active_days: 72
     repos_not_owned: 19
     not_owned_basenames: 15
     not_owned_owners: 6
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 73 active days in 90d — pass"
+  - "activity: 72 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "x-quality-growth"
@@ -141,6 +141,6 @@ repos:
 
 # LIghtJUNction
 
-1023 pushes across 51 repositories on 73 active days in the last 90 days of public GitHub push activity.
+1021 pushes across 51 repositories on 72 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/LIghtJUNction

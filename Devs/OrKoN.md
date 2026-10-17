@@ -3,14 +3,13 @@ login: "OrKoN"
 name: null
 discovered_via: "vault"
 discovered_via_all:
-  - "fanout"
   - "vault"
 provenance_repos:
   - "ChromeDevTools/chrome-devtools-mcp"
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-16T08:30:18.142355+00:00"
+generated_at: "2026-10-17T06:04:44.015278+00:00"
 provenance:
   - "379642deb53f3714"
 pushes_per_week: [4, 3, 1, 3, 0, 5, 0, 3, 0, 4, 4, 0, 1]

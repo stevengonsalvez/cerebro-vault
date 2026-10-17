@@ -7,16 +7,14 @@ discovered_via_all:
 provenance_repos:
   - "alibaba/page-agent"
   - "browser-use/browser-use"
-  - "ChromeDevTools/chrome-devtools-mcp"
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-16T08:30:18.142355+00:00"
+generated_at: "2026-10-17T06:04:44.015278+00:00"
 provenance:
-  - "379642deb53f3714"
   - "c1af6b58492f9bf4"
   - "d1946b21c02e5fa5"
-pushes_per_week: [1, 1, 0, 8, 3, 0, 4, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [1, 1, 0, 8, 3, 2, 2, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,7 +75,7 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 1
 reasons:
-  - "provenance: 3 vault signal(s) — pass"
+  - "provenance: 2 vault signal(s) — pass"
   - "activity: 8 active days in 90d — pass"
   - "automation: clear — pass"
 repos:

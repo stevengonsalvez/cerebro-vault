@@ -10,11 +10,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-16T08:30:18.142355+00:00"
+generated_at: "2026-10-17T06:04:44.015278+00:00"
 provenance:
   - "dae9f02535f7c22f"
   - "de6bf05613f3ae04"
-pushes_per_week: [45, 56, 48, 46, 19, 19, 2, 4, 25, 24, 78, 44, 56]
+pushes_per_week: [46, 81, 21, 44, 18, 15, 2, 6, 23, 30, 87, 32, 53]
 windows:
   "7d":
     pushes: 56
@@ -24,23 +24,23 @@ windows:
     not_owned_basenames: 3
     not_owned_owners: 2
   "30d":
-    pushes: 218
+    pushes: 217
     distinct_repos: 15
-    active_days: 26
+    active_days: 25
     repos_not_owned: 6
     not_owned_basenames: 6
     not_owned_owners: 4
   "90d":
-    pushes: 466
+    pushes: 458
     distinct_repos: 27
-    active_days: 75
+    active_days: 74
     repos_not_owned: 9
     not_owned_basenames: 9
     not_owned_owners: 4
 automation:
   state: "clear"
-  push_per_day: 6.2133
-  repo_per_active_day: 0.3600
+  push_per_day: 6.1892
+  repo_per_active_day: 0.3649
   not_owned_ratio: 0.3333
   basename_concentration: 0.0741
   shapes: []
@@ -59,24 +59,24 @@ facets:
     not_owned_basenames: 3
     not_owned_owners: 2
   "30d":
-    pushes: 218
+    pushes: 217
     distinct_repos: 15
-    pushes_per_repo: 14.5333
-    active_days: 26
+    pushes_per_repo: 14.4667
+    active_days: 25
     repos_not_owned: 6
     not_owned_basenames: 6
     not_owned_owners: 4
   "90d":
-    pushes: 466
+    pushes: 458
     distinct_repos: 27
-    pushes_per_repo: 17.2593
-    active_days: 75
+    pushes_per_repo: 16.9630
+    active_days: 74
     repos_not_owned: 9
     not_owned_basenames: 9
     not_owned_owners: 4
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 75 active days in 90d — pass"
+  - "activity: 74 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "integration-ci"
@@ -149,6 +149,6 @@ repos:
 
 # andrebrait
 
-466 pushes across 27 repositories on 75 active days in the last 90 days of public GitHub push activity.
+458 pushes across 27 repositories on 74 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/andrebrait

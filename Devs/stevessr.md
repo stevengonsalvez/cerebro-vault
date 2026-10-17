@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-16T08:30:18.142355+00:00"
+generated_at: "2026-10-17T06:04:44.015278+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [11, 33, 3, 3, 3, 13, 8, 8, 43, 63, 47, 148, 193]
+pushes_per_week: [16, 27, 3, 3, 4, 17, 3, 15, 79, 22, 68, 129, 189]
 windows:
   "7d":
-    pushes: 199
+    pushes: 190
     distinct_repos: 10
-    active_days: 6
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 459
+    pushes: 458
     distinct_repos: 16
-    active_days: 25
+    active_days: 24
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 576
+    pushes: 575
     distinct_repos: 23
-    active_days: 61
+    active_days: 60
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 9.4426
-  repo_per_active_day: 0.3770
+  push_per_day: 9.5833
+  repo_per_active_day: 0.3833
   not_owned_ratio: 0.0870
   basename_concentration: 0.0870
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 199
+    pushes: 190
     distinct_repos: 10
-    pushes_per_repo: 19.9000
-    active_days: 6
+    pushes_per_repo: 19.0000
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 459
+    pushes: 458
     distinct_repos: 16
-    pushes_per_repo: 28.6875
-    active_days: 25
+    pushes_per_repo: 28.6250
+    active_days: 24
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 576
+    pushes: 575
     distinct_repos: 23
-    pushes_per_repo: 25.0435
-    active_days: 61
+    pushes_per_repo: 25.0000
+    active_days: 60
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 61 active days in 90d — pass"
+  - "activity: 60 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "agent-ebpf-filter"
@@ -131,6 +131,6 @@ repos:
 
 # stevessr
 
-576 pushes across 23 repositories on 61 active days in the last 90 days of public GitHub push activity.
+575 pushes across 23 repositories on 60 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/stevessr

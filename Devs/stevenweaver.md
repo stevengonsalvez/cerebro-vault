@@ -9,13 +9,13 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-16T08:30:18.142355+00:00"
+generated_at: "2026-10-17T06:04:44.015278+00:00"
 provenance:
   - "97c4e9cb8b163ddb"
   - "c7515e0fa4368a55"
   - "d3abe74726b22711"
   - "e7c647c4d0689526"
-pushes_per_week: [1, 1, 2, 9, 1, 0, 0, 0, 15, 0, 1, 2, 1]
+pushes_per_week: [0, 1, 2, 9, 1, 0, 0, 0, 15, 0, 1, 3, 0]
 windows:
   "7d":
     pushes: 1
@@ -32,16 +32,16 @@ windows:
     not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 33
+    pushes: 32
     distinct_repos: 7
-    active_days: 14
+    active_days: 13
     repos_not_owned: 7
     not_owned_basenames: 7
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.3571
-  repo_per_active_day: 0.5000
+  push_per_day: 2.4615
+  repo_per_active_day: 0.5385
   not_owned_ratio: 1.0000
   basename_concentration: 0.1429
   shapes: []
@@ -68,16 +68,16 @@ facets:
     not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 33
+    pushes: 32
     distinct_repos: 7
-    pushes_per_repo: 4.7143
-    active_days: 14
+    pushes_per_repo: 4.5714
+    active_days: 13
     repos_not_owned: 7
     not_owned_basenames: 7
     not_owned_owners: 1
 reasons:
   - "provenance: 4 vault signal(s) — pass"
-  - "activity: 14 active days in 90d — pass"
+  - "activity: 13 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "kmer-diversity-sieve"
@@ -142,6 +142,6 @@ repos:
 
 # stevenweaver
 
-33 pushes across 7 repositories on 14 active days in the last 90 days of public GitHub push activity.
+32 pushes across 7 repositories on 13 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/stevenweaver

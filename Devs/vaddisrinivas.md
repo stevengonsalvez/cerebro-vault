@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-16T08:30:18.142355+00:00"
+generated_at: "2026-10-17T06:04:44.015278+00:00"
 provenance:
   - "3cb7ff1cdcf97c6b"
-pushes_per_week: [26, 20, 2, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [23, 20, 2, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 51
+    pushes: 48
     distinct_repos: 5
-    active_days: 12
+    active_days: 11
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 4.2500
-  repo_per_active_day: 0.4167
+  push_per_day: 4.3636
+  repo_per_active_day: 0.4545
   not_owned_ratio: 0.0000
   basename_concentration: 0.2000
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 51
+    pushes: 48
     distinct_repos: 5
-    pushes_per_repo: 10.2000
-    active_days: 12
+    pushes_per_repo: 9.6000
+    active_days: 11
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 12 active days in 90d — pass"
+  - "activity: 11 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "vaddisrinivas"
@@ -152,6 +152,6 @@ repos:
 
 # vaddisrinivas
 
-51 pushes across 5 repositories on 12 active days in the last 90 days of public GitHub push activity.
+48 pushes across 5 repositories on 11 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/vaddisrinivas

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-16T08:30:18.142355+00:00"
+generated_at: "2026-10-17T06:04:44.015278+00:00"
 provenance:
   - "91526b8597b5b63d"
-pushes_per_week: [29, 11, 7, 14, 7, 5, 2, 4, 6, 12, 12, 3, 3]
+pushes_per_week: [26, 9, 6, 14, 7, 5, 2, 6, 5, 11, 12, 3, 3]
 windows:
   "7d":
     pushes: 3
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 3
   "90d":
-    pushes: 115
+    pushes: 109
     distinct_repos: 11
-    active_days: 41
+    active_days: 40
     repos_not_owned: 8
     not_owned_basenames: 2
     not_owned_owners: 8
 automation:
   state: "clear"
-  push_per_day: 2.8049
-  repo_per_active_day: 0.2683
+  push_per_day: 2.7250
+  repo_per_active_day: 0.2750
   not_owned_ratio: 0.7273
   basename_concentration: 0.7273
   shapes:
@@ -81,16 +81,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 3
   "90d":
-    pushes: 115
+    pushes: 109
     distinct_repos: 11
-    pushes_per_repo: 10.4545
-    active_days: 41
+    pushes_per_repo: 9.9091
+    active_days: 40
     repos_not_owned: 8
     not_owned_basenames: 2
     not_owned_owners: 8
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 41 active days in 90d — pass"
+  - "activity: 40 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "sub2api"
@@ -165,6 +165,6 @@ repos:
 
 # Wei-Shaw
 
-115 pushes across 11 repositories on 41 active days in the last 90 days of public GitHub push activity.
+109 pushes across 11 repositories on 40 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Wei-Shaw

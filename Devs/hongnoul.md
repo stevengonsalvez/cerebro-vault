@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-16T08:30:18.142355+00:00"
+generated_at: "2026-10-17T06:04:44.015278+00:00"
 provenance:
   - "2a7f0fddd2dac162"
-pushes_per_week: [36, 10, 8, 3, 0, 4, 0, 0, 0, 21, 1, 2, 0]
+pushes_per_week: [39, 9, 7, 0, 0, 4, 0, 0, 0, 21, 1, 2, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,7 +29,7 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 85
+    pushes: 83
     distinct_repos: 9
     active_days: 20
     repos_not_owned: 2
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 4.2500
+  push_per_day: 4.1500
   repo_per_active_day: 0.4500
   not_owned_ratio: 0.2222
   basename_concentration: 0.1111
@@ -65,9 +65,9 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 85
+    pushes: 83
     distinct_repos: 9
-    pushes_per_repo: 9.4444
+    pushes_per_repo: 9.2222
     active_days: 20
     repos_not_owned: 2
     not_owned_basenames: 2
@@ -168,6 +168,6 @@ repos:
 
 # hongnoul
 
-85 pushes across 9 repositories on 20 active days in the last 90 days of public GitHub push activity.
+83 pushes across 9 repositories on 20 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/hongnoul

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-16T08:30:18.142355+00:00"
+generated_at: "2026-10-17T06:04:44.015278+00:00"
 provenance:
   - "745308b2b7085095"
-pushes_per_week: [12, 7, 4, 4, 1, 0, 0, 1, 1, 2, 8, 2, 9]
+pushes_per_week: [9, 5, 6, 3, 0, 0, 0, 1, 1, 2, 8, 2, 9]
 windows:
   "7d":
     pushes: 9
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 51
+    pushes: 46
     distinct_repos: 6
-    active_days: 26
+    active_days: 25
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.9615
-  repo_per_active_day: 0.2308
+  push_per_day: 1.8400
+  repo_per_active_day: 0.2400
   not_owned_ratio: 0.6667
   basename_concentration: 0.1667
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 51
+    pushes: 46
     distinct_repos: 6
-    pushes_per_repo: 8.5000
-    active_days: 26
+    pushes_per_repo: 7.6667
+    active_days: 25
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 26 active days in 90d — pass"
+  - "activity: 25 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "notion-voice-notes"
@@ -105,6 +105,6 @@ repos:
 
 # keithce
 
-51 pushes across 6 repositories on 26 active days in the last 90 days of public GitHub push activity.
+46 pushes across 6 repositories on 25 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/keithce

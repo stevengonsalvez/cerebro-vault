@@ -9,11 +9,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-16T08:30:18.142355+00:00"
+generated_at: "2026-10-17T06:04:44.015278+00:00"
 provenance:
   - "1df6ea1f1256059e"
   - "edb3a626875732de"
-pushes_per_week: [2, 3, 0, 0, 1, 0, 0, 0, 0, 2, 0, 0, 0]
+pushes_per_week: [1, 3, 0, 0, 1, 0, 0, 0, 0, 2, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -30,7 +30,7 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 8
+    pushes: 7
     distinct_repos: 4
     active_days: 6
     repos_not_owned: 0
@@ -38,7 +38,7 @@ windows:
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.3333
+  push_per_day: 1.1667
   repo_per_active_day: 0.6667
   not_owned_ratio: 0.0000
   basename_concentration: 0.2500
@@ -66,9 +66,9 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 8
+    pushes: 7
     distinct_repos: 4
-    pushes_per_repo: 2.0000
+    pushes_per_repo: 1.7500
     active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -165,6 +165,6 @@ repos:
 
 # lamenting-hawthorn
 
-8 pushes across 4 repositories on 6 active days in the last 90 days of public GitHub push activity.
+7 pushes across 4 repositories on 6 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/lamenting-hawthorn

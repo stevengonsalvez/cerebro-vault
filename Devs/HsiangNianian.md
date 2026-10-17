@@ -10,11 +10,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-16T08:30:18.142355+00:00"
+generated_at: "2026-10-17T06:04:44.015278+00:00"
 provenance:
   - "234088bc43763aa2"
   - "3c90af76cbde0363"
-pushes_per_week: [89, 48, 16, 42, 10, 1, 1, 0, 5, 5, 11, 1, 3]
+pushes_per_week: [74, 47, 15, 38, 7, 1, 1, 2, 3, 5, 11, 1, 3]
 windows:
   "7d":
     pushes: 3
@@ -31,16 +31,16 @@ windows:
     not_owned_basenames: 3
     not_owned_owners: 4
   "90d":
-    pushes: 232
+    pushes: 208
     distinct_repos: 17
-    active_days: 46
+    active_days: 45
     repos_not_owned: 6
     not_owned_basenames: 5
     not_owned_owners: 5
 automation:
   state: "clear"
-  push_per_day: 5.0435
-  repo_per_active_day: 0.3696
+  push_per_day: 4.6222
+  repo_per_active_day: 0.3778
   not_owned_ratio: 0.3529
   basename_concentration: 0.1765
   shapes: []
@@ -67,16 +67,16 @@ facets:
     not_owned_basenames: 3
     not_owned_owners: 4
   "90d":
-    pushes: 232
+    pushes: 208
     distinct_repos: 17
-    pushes_per_repo: 13.6471
-    active_days: 46
+    pushes_per_repo: 12.2353
+    active_days: 45
     repos_not_owned: 6
     not_owned_basenames: 5
     not_owned_owners: 5
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 46 active days in 90d — pass"
+  - "activity: 45 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "Yapshire"
@@ -152,6 +152,6 @@ repos:
 
 # HsiangNianian
 
-232 pushes across 17 repositories on 46 active days in the last 90 days of public GitHub push activity.
+208 pushes across 17 repositories on 45 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/HsiangNianian

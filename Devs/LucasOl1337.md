@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-16T08:30:18.142355+00:00"
+generated_at: "2026-10-17T06:04:44.015278+00:00"
 provenance:
   - "2a7f0fddd2dac162"
-pushes_per_week: [33, 6, 4, 5, 1, 1, 0, 1, 10, 19, 8, 5, 1]
+pushes_per_week: [23, 6, 4, 5, 1, 1, 0, 4, 7, 19, 11, 2, 1]
 windows:
   "7d":
     pushes: 1
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 35
+    pushes: 34
     distinct_repos: 9
-    active_days: 16
+    active_days: 15
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 94
+    pushes: 84
     distinct_repos: 16
-    active_days: 35
+    active_days: 34
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.6857
-  repo_per_active_day: 0.4571
+  push_per_day: 2.4706
+  repo_per_active_day: 0.4706
   not_owned_ratio: 0.0000
   basename_concentration: 0.0625
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 35
+    pushes: 34
     distinct_repos: 9
-    pushes_per_repo: 3.8889
-    active_days: 16
+    pushes_per_repo: 3.7778
+    active_days: 15
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 94
+    pushes: 84
     distinct_repos: 16
-    pushes_per_repo: 5.8750
-    active_days: 35
+    pushes_per_repo: 5.2500
+    active_days: 34
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 35 active days in 90d — pass"
+  - "activity: 34 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "LUCA-AI"
@@ -150,6 +150,6 @@ repos:
 
 # LucasOl1337
 
-94 pushes across 16 repositories on 35 active days in the last 90 days of public GitHub push activity.
+84 pushes across 16 repositories on 34 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/LucasOl1337

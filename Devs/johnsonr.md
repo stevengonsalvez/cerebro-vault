@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-16T08:30:18.142355+00:00"
+generated_at: "2026-10-17T06:04:44.015278+00:00"
 provenance:
   - "406a85b388590eb0"
-pushes_per_week: [6, 2, 0, 9, 3, 6, 0, 1, 8, 8, 13, 25, 1]
+pushes_per_week: [3, 2, 2, 8, 2, 6, 0, 2, 8, 8, 20, 17, 1]
 windows:
   "7d":
     pushes: 1
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 8
     not_owned_owners: 1
   "90d":
-    pushes: 82
-    distinct_repos: 22
-    active_days: 34
-    repos_not_owned: 13
-    not_owned_basenames: 13
+    pushes: 79
+    distinct_repos: 20
+    active_days: 33
+    repos_not_owned: 12
+    not_owned_basenames: 12
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 2.4118
-  repo_per_active_day: 0.6471
-  not_owned_ratio: 0.5909
-  basename_concentration: 0.0909
+  push_per_day: 2.3939
+  repo_per_active_day: 0.6061
+  not_owned_ratio: 0.6000
+  basename_concentration: 0.1000
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 8
     not_owned_owners: 1
   "90d":
-    pushes: 82
-    distinct_repos: 22
-    pushes_per_repo: 3.7273
-    active_days: 34
-    repos_not_owned: 13
-    not_owned_basenames: 13
+    pushes: 79
+    distinct_repos: 20
+    pushes_per_repo: 3.9500
+    active_days: 33
+    repos_not_owned: 12
+    not_owned_basenames: 12
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 34 active days in 90d — pass"
+  - "activity: 33 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "devoxx-demo"
@@ -129,6 +129,6 @@ repos:
 
 # johnsonr
 
-82 pushes across 22 repositories on 34 active days in the last 90 days of public GitHub push activity.
+79 pushes across 20 repositories on 33 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/johnsonr

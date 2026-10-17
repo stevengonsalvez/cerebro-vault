@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-16T08:30:18.142355+00:00"
+generated_at: "2026-10-17T06:04:44.015278+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [26, 77, 36, 67, 27, 11, 12, 55, 64, 82, 228, 151, 131]
+pushes_per_week: [32, 80, 29, 64, 29, 11, 11, 60, 61, 94, 268, 111, 116]
 windows:
   "7d":
     pushes: 131
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 3
     not_owned_owners: 5
   "30d":
-    pushes: 608
+    pushes: 605
     distinct_repos: 27
-    active_days: 28
+    active_days: 27
     repos_not_owned: 18
     not_owned_basenames: 5
     not_owned_owners: 14
   "90d":
-    pushes: 967
+    pushes: 966
     distinct_repos: 51
-    active_days: 81
+    active_days: 80
     repos_not_owned: 32
     not_owned_basenames: 7
     not_owned_owners: 25
 automation:
   state: "clear"
-  push_per_day: 11.9383
-  repo_per_active_day: 0.6296
+  push_per_day: 12.0750
+  repo_per_active_day: 0.6375
   not_owned_ratio: 0.6275
   basename_concentration: 0.2941
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 3
     not_owned_owners: 5
   "30d":
-    pushes: 608
+    pushes: 605
     distinct_repos: 27
-    pushes_per_repo: 22.5185
-    active_days: 28
+    pushes_per_repo: 22.4074
+    active_days: 27
     repos_not_owned: 18
     not_owned_basenames: 5
     not_owned_owners: 14
   "90d":
-    pushes: 967
+    pushes: 966
     distinct_repos: 51
-    pushes_per_repo: 18.9608
-    active_days: 81
+    pushes_per_repo: 18.9412
+    active_days: 80
     repos_not_owned: 32
     not_owned_basenames: 7
     not_owned_owners: 25
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 81 active days in 90d — pass"
+  - "activity: 80 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "oh-my-openagent"
@@ -170,6 +170,6 @@ repos:
 
 # code-yeongyu
 
-967 pushes across 51 repositories on 81 active days in the last 90 days of public GitHub push activity.
+966 pushes across 51 repositories on 80 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/code-yeongyu

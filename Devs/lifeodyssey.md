@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-16T08:30:18.142355+00:00"
+generated_at: "2026-10-17T06:04:44.015278+00:00"
 provenance:
   - "73468cde177ddae6"
-pushes_per_week: [20, 26, 55, 56, 5, 12, 0, 14, 20, 18, 2, 3, 0]
+pushes_per_week: [5, 33, 55, 53, 3, 10, 2, 12, 22, 16, 2, 3, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 37
+    pushes: 32
     distinct_repos: 2
-    active_days: 11
+    active_days: 10
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 231
+    pushes: 216
     distinct_repos: 3
-    active_days: 47
+    active_days: 46
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 4.9149
-  repo_per_active_day: 0.0638
+  push_per_day: 4.6957
+  repo_per_active_day: 0.0652
   not_owned_ratio: 0.0000
   basename_concentration: 0.3333
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 37
+    pushes: 32
     distinct_repos: 2
-    pushes_per_repo: 18.5000
-    active_days: 11
+    pushes_per_repo: 16.0000
+    active_days: 10
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 231
+    pushes: 216
     distinct_repos: 3
-    pushes_per_repo: 77.0000
-    active_days: 47
+    pushes_per_repo: 72.0000
+    active_days: 46
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 47 active days in 90d — pass"
+  - "activity: 46 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "lifeodyssey"
@@ -165,6 +165,6 @@ repos:
 
 # lifeodyssey
 
-231 pushes across 3 repositories on 47 active days in the last 90 days of public GitHub push activity.
+216 pushes across 3 repositories on 46 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/lifeodyssey

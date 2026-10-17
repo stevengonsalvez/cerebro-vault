@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-16T08:30:18.142355+00:00"
+generated_at: "2026-10-17T06:04:44.015278+00:00"
 provenance:
   - "dffbb846389f9a26"
-pushes_per_week: [7, 3, 6, 6, 2, 1, 0, 1, 3, 1, 3, 4, 5]
+pushes_per_week: [7, 2, 7, 6, 1, 1, 0, 1, 3, 2, 2, 6, 3]
 windows:
   "7d":
     pushes: 5
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 15
+    pushes: 14
     distinct_repos: 6
-    active_days: 10
+    active_days: 9
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 42
+    pushes: 41
     distinct_repos: 11
-    active_days: 34
+    active_days: 33
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.2353
-  repo_per_active_day: 0.3235
+  push_per_day: 1.2424
+  repo_per_active_day: 0.3333
   not_owned_ratio: 0.0909
   basename_concentration: 0.0909
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 15
+    pushes: 14
     distinct_repos: 6
-    pushes_per_repo: 2.5000
-    active_days: 10
+    pushes_per_repo: 2.3333
+    active_days: 9
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 42
+    pushes: 41
     distinct_repos: 11
-    pushes_per_repo: 3.8182
-    active_days: 34
+    pushes_per_repo: 3.7273
+    active_days: 33
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 34 active days in 90d — pass"
+  - "activity: 33 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "string_to_code_action"
@@ -146,6 +146,6 @@ repos:
 
 # vil02
 
-42 pushes across 11 repositories on 34 active days in the last 90 days of public GitHub push activity.
+41 pushes across 11 repositories on 33 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/vil02

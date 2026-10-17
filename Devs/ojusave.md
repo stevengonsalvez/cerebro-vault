@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-16T08:30:18.142355+00:00"
+generated_at: "2026-10-17T06:04:44.015278+00:00"
 provenance:
   - "46f3c1d6124190bd"
-pushes_per_week: [36, 14, 3, 0, 1, 0, 0, 0, 7, 1, 8, 0, 12]
+pushes_per_week: [36, 13, 3, 0, 1, 0, 0, 0, 7, 1, 8, 0, 12]
 windows:
   "7d":
     pushes: 12
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 82
-    distinct_repos: 28
-    active_days: 25
+    pushes: 81
+    distinct_repos: 27
+    active_days: 24
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 3.2800
-  repo_per_active_day: 1.1200
-  not_owned_ratio: 0.1071
-  basename_concentration: 0.0714
+  push_per_day: 3.3750
+  repo_per_active_day: 1.1250
+  not_owned_ratio: 0.1111
+  basename_concentration: 0.0741
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 82
-    distinct_repos: 28
-    pushes_per_repo: 2.9286
-    active_days: 25
+    pushes: 81
+    distinct_repos: 27
+    pushes_per_repo: 3.0000
+    active_days: 24
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 25 active days in 90d — pass"
+  - "activity: 24 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "render-sandboxes-plugin"
@@ -129,6 +129,6 @@ repos:
 
 # ojusave
 
-82 pushes across 28 repositories on 25 active days in the last 90 days of public GitHub push activity.
+81 pushes across 27 repositories on 24 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ojusave

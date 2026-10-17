@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-16T08:30:18.142355+00:00"
+generated_at: "2026-10-17T06:04:44.015278+00:00"
 provenance:
   - "6d3bd03b49986330"
-pushes_per_week: [22, 14, 0, 0, 8, 4, 0, 3, 0, 19, 4, 16, 0]
+pushes_per_week: [14, 0, 0, 0, 8, 4, 1, 2, 1, 19, 16, 3, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 90
-    distinct_repos: 22
-    active_days: 20
+    pushes: 68
+    distinct_repos: 20
+    active_days: 19
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 4.5000
-  repo_per_active_day: 1.1000
-  not_owned_ratio: 0.0455
-  basename_concentration: 0.0455
+  push_per_day: 3.5789
+  repo_per_active_day: 1.0526
+  not_owned_ratio: 0.0500
+  basename_concentration: 0.0500
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 90
-    distinct_repos: 22
-    pushes_per_repo: 4.0909
-    active_days: 20
+    pushes: 68
+    distinct_repos: 20
+    pushes_per_repo: 3.4000
+    active_days: 19
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 20 active days in 90d — pass"
+  - "activity: 19 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "agentic-trading"
@@ -129,6 +129,6 @@ repos:
 
 # kweinmeister
 
-90 pushes across 22 repositories on 20 active days in the last 90 days of public GitHub push activity.
+68 pushes across 20 repositories on 19 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/kweinmeister
