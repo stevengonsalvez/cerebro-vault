@@ -9,13 +9,13 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [1, 0, 1, 3, 2, 3, 0, 0, 0, 6, 19, 5, 30]
+pushes_per_week: [1, 0, 1, 4, 1, 3, 0, 0, 0, 9, 17, 13, 21]
 windows:
   "7d":
-    pushes: 30
+    pushes: 28
     distinct_repos: 4
     active_days: 4
     repos_not_owned: 2
@@ -49,9 +49,9 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 30
+    pushes: 28
     distinct_repos: 4
-    pushes_per_repo: 7.5000
+    pushes_per_repo: 7.0000
     active_days: 4
     repos_not_owned: 2
     not_owned_basenames: 2
@@ -84,7 +84,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-07"
+    last_push: "2026-10-16"
   - name: "nehir-niri-dual-monitor"
     title: "nehir-niri-dual-monitor"
     description: "Niri-style Nehir configuration for two side-by-side macOS displays"

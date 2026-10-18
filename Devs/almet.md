@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "97c4e9cb8b163ddb"
   - "c7515e0fa4368a55"
@@ -25,9 +25,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 2
+    pushes: 1
     distinct_repos: 1
-    active_days: 2
+    active_days: 1
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -60,10 +60,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 2
+    pushes: 1
     distinct_repos: 1
-    pushes_per_repo: 2.0000
-    active_days: 2
+    pushes_per_repo: 1.0000
+    active_days: 1
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -85,9 +85,9 @@ repos:
     description: "Use Signal without a smartphone!"
     language: "Rust"
     topics: []
-    stars_fact: 77
+    stars_fact: 78
     first_seen: null
-    last_push: "2026-10-02"
+    last_push: "2026-10-16"
   - name: "django-auth-ldap"
     title: "django-auth-ldap"
     description: "git clone of https://bitbucket.org/psagers/django-auth-ldap/ with some patches for the latest django"

@@ -8,23 +8,23 @@ provenance_repos:
   - "agavra/tuicr"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+repos_populated: false
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [0, 0, 0, 2, 0, 1, 0, 2, 36, 35, 31, 18, 2]
+pushes_per_week: [0, 0, 0, 2, 0, 1, 0, 12, 26, 45, 23, 17, 1]
 windows:
   "7d":
-    pushes: 5
-    distinct_repos: 3
-    active_days: 3
+    pushes: 2
+    distinct_repos: 2
+    active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 96
+    pushes: 88
     distinct_repos: 17
-    active_days: 23
+    active_days: 22
     repos_not_owned: 9
     not_owned_basenames: 9
     not_owned_owners: 3
@@ -49,18 +49,18 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 5
-    distinct_repos: 3
-    pushes_per_repo: 1.6667
-    active_days: 3
+    pushes: 2
+    distinct_repos: 2
+    pushes_per_repo: 1.0000
+    active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 96
+    pushes: 88
     distinct_repos: 17
-    pushes_per_repo: 5.6471
-    active_days: 23
+    pushes_per_repo: 5.1765
+    active_days: 22
     repos_not_owned: 9
     not_owned_basenames: 9
     not_owned_owners: 3
@@ -76,55 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 31 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "mdroots"
-    title: "mdroots"
-    description: "A zero-config markdown (and org) language server and Rust library."
-    language: "Rust"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-11"
-  - name: "ramble"
-    title: "ramble"
-    description: "Read your notes in the terminal, and follow them wherever they link."
-    language: "Rust"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-10"
-  - name: "debrief"
-    title: "debrief"
-    description: null
-    language: "Rust"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-10"
-  - name: "dotfiles"
-    title: "dotfiles"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-10-10"
-  - name: "hexclack"
-    title: "hexclack"
-    description: "I have given up on elgato software"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-09"
-  - name: "vecgrep"
-    title: "vecgrep"
-    description: "Semantic grep — like ripgrep, but with vector search"
-    language: "Rust"
-    topics: []
-    stars_fact: 11
-    first_seen: null
-    last_push: "2026-09-12"
+repos: []
 ---
 
 # martintrojer

@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "234088bc43763aa2"
 pushes_per_week: [4, 1, 0, 1, 0, 0, 0, 0, 2, 4, 0, 1, 0]
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 7
-    distinct_repos: 5
-    active_days: 6
+    pushes: 5
+    distinct_repos: 3
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 7
-    distinct_repos: 5
-    pushes_per_repo: 1.4000
-    active_days: 6
+    pushes: 5
+    distinct_repos: 3
+    pushes_per_repo: 1.6667
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -77,6 +77,30 @@ reasons:
   - "activity: 11 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "Hackintool"
+    title: "Hackintool"
+    description: "The Swiss army knife of vanilla Hackintoshing"
+    language: "Objective-C"
+    topics: []
+    stars_fact: 3519
+    first_seen: null
+    last_push: "2026-03-26"
+  - name: "TexturePacker"
+    title: "TexturePacker"
+    description: "Texture Packer is a program that packs images into textures for use in OpenGL and DirectX applications."
+    language: "C#"
+    topics: []
+    stars_fact: 9
+    first_seen: null
+    last_push: "2025-06-28"
+  - name: "femto8"
+    title: "femto8"
+    description: "femto8 is an open-source reimplementation of the PICO-8 fantasy console, designed specifically for embedded systems."
+    language: "C"
+    topics: []
+    stars_fact: 51
+    first_seen: null
+    last_push: "2026-08-02"
   - name: "Pigtail"
     title: "Pigtail"
     description: "Anti-stalker and surveillance detection software"
@@ -85,14 +109,6 @@ repos:
     stars_fact: 60
     first_seen: null
     last_push: "2026-05-14"
-  - name: "Hackintool"
-    title: "Hackintool"
-    description: "The Swiss army knife of vanilla Hackintoshing"
-    language: "Objective-C"
-    topics: []
-    stars_fact: 3507
-    first_seen: null
-    last_push: "2026-03-26"
   - name: "VortexTracker"
     title: "VortexTracker"
     description: "Music tracker for AY/YM chips"
@@ -101,14 +117,6 @@ repos:
     stars_fact: 47
     first_seen: null
     last_push: "2026-07-06"
-  - name: "femto8"
-    title: "femto8"
-    description: "femto8 is an open-source reimplementation of the PICO-8 fantasy console, designed specifically for embedded systems."
-    language: "C"
-    topics: []
-    stars_fact: 50
-    first_seen: null
-    last_push: "2026-08-02"
   - name: "PalEdit"
     title: "PalEdit"
     description: "PalEdit is a palette editor which can edit and manipulate various different palette and graphic formats."
@@ -117,14 +125,6 @@ repos:
     stars_fact: 20
     first_seen: null
     last_push: "2026-07-12"
-  - name: "zxnext_tilemap"
-    title: "zxnext_tilemap"
-    description: "Tilemap demo for the ZX Spectrum Next."
-    language: "C"
-    topics: []
-    stars_fact: 6
-    first_seen: null
-    last_push: "2025-10-03"
 ---
 
 # benbaker76

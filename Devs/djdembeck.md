@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [25, 19, 17, 13, 1, 1, 0, 0, 0, 4, 1, 1, 1]
+pushes_per_week: [29, 16, 17, 12, 2, 0, 0, 0, 0, 4, 1, 1, 1]
 windows:
   "7d":
     pushes: 1
@@ -77,22 +77,33 @@ reasons:
   - "activity: 30 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "media-archive-sync"
-    title: "media-archive-sync"
-    description: "Download and organize media from web archives"
+  - name: "pi-session-title"
+    title: "pi-session-title"
+    description: "Pi extension for session title generation"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-04-14"
+  - name: "bragibooks"
+    title: "bragibooks"
+    description: "An audiobook library cleanup and management tool built with Python and Django. Leveraging m4b-merge for audiobook standardization and editing. Ideal for enhancing audiobook library management."
     language: "Python"
-    topics: []
-    stars_fact: 0
+    topics:
+      - "audible"
+      - "audiobook-cleanup"
+      - "audiobooks"
+      - "audnexus"
+      - "django"
+      - "docker"
+      - "library-management"
+      - "m4b"
+      - "metadata-management"
+      - "metadata-parser"
+      - "python"
+    stars_fact: 217
     first_seen: null
-    last_push: "2026-10-08"
-  - name: "forgejo-cli"
-    title: "forgejo-cli"
-    description: null
-    language: "Shell"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-04"
+    last_push: "2026-10-15"
   - name: "Audnexus.bundle"
     title: "Audnexus.bundle"
     description: "An Audnexus client proof of concept for Plex, providing rich author and audiobook data. Developed in Python, offering enhanced user experiences via Plex's legacy plugin agent system."
@@ -111,28 +122,25 @@ repos:
       - "proof-of-concept"
       - "python"
       - "user-experience"
-    stars_fact: 649
+    stars_fact: 650
     first_seen: null
     last_push: "2026-02-10"
-  - name: "bragibooks"
-    title: "bragibooks"
-    description: "An audiobook library cleanup and management tool built with Python and Django. Leveraging m4b-merge for audiobook standardization and editing. Ideal for enhancing audiobook library management."
-    language: "Python"
-    topics:
-      - "audible"
-      - "audiobook-cleanup"
-      - "audiobooks"
-      - "audnexus"
-      - "django"
-      - "docker"
-      - "library-management"
-      - "m4b"
-      - "metadata-management"
-      - "metadata-parser"
-      - "python"
-    stars_fact: 216
+  - name: "forgejo-cli"
+    title: "forgejo-cli"
+    description: null
+    language: "Shell"
+    topics: []
+    stars_fact: 1
     first_seen: null
-    last_push: "2026-08-10"
+    last_push: "2026-09-04"
+  - name: "media-archive-sync"
+    title: "media-archive-sync"
+    description: "Download and organize media from web archives"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-15"
   - name: "annalist"
     title: "annalist"
     description: "Self-hosted AI release notes for GitHub and Forgejo releases"
@@ -151,14 +159,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-09-23"
-  - name: "reddit-upvote-media-downloader"
-    title: "reddit-upvote-media-downloader"
-    description: "A lightweight, efficient Reddit media downloader written in Go. Fetches upvoted and saved posts, downloads images and videos (including from external sites), and tracks downloads to avoid duplicates."
-    language: "Go"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-08-09"
 ---
 
 # djdembeck

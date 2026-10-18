@@ -8,11 +8,11 @@ provenance_repos:
   - "apache/maka"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+repos_populated: false
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [0, 1, 2, 1, 0, 0, 0, 0, 0, 0, 0, 1, 10]
+pushes_per_week: [0, 1, 2, 1, 0, 0, 0, 0, 0, 0, 0, 2, 9]
 windows:
   "7d":
     pushes: 10
@@ -76,55 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 9 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "RailMind"
-    title: "RailMind"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-28"
-  - name: "1YiShiZhuXing"
-    title: "1YiShiZhuXing"
-    description: null
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-26"
-  - name: "Tarot"
-    title: "Tarot"
-    description: "be better one"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-26"
-  - name: "1mp3tomd"
-    title: "1mp3tomd"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-26"
-  - name: "0PaChongBili"
-    title: "0PaChongBili"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-15"
-  - name: "0TongueFace"
-    title: "0TongueFace"
-    description: "精神面貌个人健康自私化监测"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-15"
+repos: []
 ---
 
 # woyue2

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [3, 11, 0, 6, 2, 7, 0, 0, 0, 2, 0, 2, 4]
+pushes_per_week: [7, 7, 0, 6, 2, 7, 0, 0, 2, 0, 2, 2, 2]
 windows:
   "7d":
     pushes: 4
@@ -77,18 +77,17 @@ reasons:
   - "activity: 18 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "XPIsland"
-    title: "XPIsland"
-    description: "A WoW addon that displays an expandable, dynamic-island like experience (XP) bar with useful stats and accurate time-to-next-level estimates."
+  - name: "AsTheCrowFlies"
+    title: "AsTheCrowFlies"
+    description: "A World of Warcraft addon for finding the nearest flight path to wherever you need to go. Like Google Maps, but for Azeroth."
     language: "Lua"
     topics:
       - "addon"
-      - "dynamic-island"
+      - "navigation"
       - "world-of-warcraft"
-      - "wow"
-    stars_fact: 1
+    stars_fact: 0
     first_seen: null
-    last_push: "2026-10-10"
+    last_push: "2026-10-18"
   - name: "dotfiles"
     title: "dotfiles"
     description: "dotfiles for my macOS & Linux environments ⌨️"
@@ -101,46 +100,57 @@ repos:
       - "stow"
       - "tmux"
       - "zsh"
-    stars_fact: 202
+    stars_fact: 214
     first_seen: null
-    last_push: "2026-10-08"
-  - name: "workers-hono-rate-limit"
-    title: "workers-hono-rate-limit"
-    description: "Hono-compatible middleware for rate limiting requests with Cloudflare Workers."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 110
-    first_seen: null
-    last_push: "2026-08-10"
-  - name: "simple-scrypt"
-    title: "simple-scrypt"
-    description: "A convenience library for generating, comparing and inspecting password hashes using the scrypt KDF in Go 🔑"
-    language: "Go"
+    last_push: "2026-10-17"
+  - name: "FindAnUpgrade"
+    title: "FindAnUpgrade"
+    description: "Find that next upgrade and which quest NPC or chain has it. Filter by zone, level range, dungeon quests and (missing!) slot. Get a waypoint to the NPC, compare vs your equipped items, and find that next weapon upgrade!"
+    language: "Lua"
     topics:
-      - "go"
-      - "hash"
-      - "password"
-      - "password-hash"
-      - "scrypt"
-    stars_fact: 204
+      - "addon"
+      - "world-of-warcraft"
+      - "world-of-warcraft-addon"
+      - "wow-forever"
+    stars_fact: 0
     first_seen: null
-    last_push: "2026-08-10"
-  - name: "artifacts-starter"
-    title: "artifacts-starter"
-    description: "Quick demo of Cloudflare Artifacts https://developers.cloudflare.com/artifacts/"
+    last_push: "2026-10-17"
+  - name: "XPIsland"
+    title: "XPIsland"
+    description: "A WoW addon that displays an expandable, dynamic-island like experience (XP) bar with useful stats and accurate time-to-next-level estimates."
+    language: "Lua"
+    topics:
+      - "addon"
+      - "dynamic-island"
+      - "world-of-warcraft"
+      - "wow"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-17"
+  - name: "artifacts-sync"
+    title: "artifacts-sync"
+    description: "Sync Cloudflare Artifacts repos from GitHub repos. Or vice-versa. You choose."
     language: "TypeScript"
-    topics: []
-    stars_fact: 20
+    topics:
+      - "cloudflare-artifacts"
+      - "git"
+      - "github"
+      - "workers"
+    stars_fact: 10
     first_seen: null
-    last_push: "2026-04-17"
-  - name: "elithrar.github.io"
-    title: "elithrar.github.io"
-    description: "GitHub Pages repo for my technical blog."
-    language: "CSS"
-    topics: []
-    stars_fact: 6
+    last_push: "2026-10-15"
+  - name: "greyUI"
+    title: "greyUI"
+    description: "A greyscale UI component library, built on BaseUI and inspired by BeOS, HaikuOS and operating systems of old."
+    language: "TypeScript"
+    topics:
+      - "baseui"
+      - "beos"
+      - "components"
+      - "haikuos"
+    stars_fact: 5
     first_seen: null
-    last_push: "2026-09-13"
+    last_push: "2026-10-15"
 ---
 
 # elithrar

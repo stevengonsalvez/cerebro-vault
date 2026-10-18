@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "46f3c1d6124190bd"
-pushes_per_week: [1, 3, 4, 8, 1, 1, 0, 0, 1, 3, 0, 6, 0]
+pushes_per_week: [1, 4, 3, 9, 0, 1, 0, 1, 0, 3, 0, 6, 0]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -94,7 +94,18 @@ repos:
       - "symbolic-computation"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-10"
+    last_push: "2026-10-17"
+  - name: "KanColle-Yuzuko-Blog"
+    title: "KanColle-Yuzuko-Blog"
+    description: "ユズコの艦これ個人攻略ブログ"
+    language: "TypeScript"
+    topics:
+      - "blog"
+      - "game-guide"
+      - "kancolle"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-12"
   - name: "Sode-no-Shita"
     title: "Sode-no-Shita"
     description: "[ENG] A lightweight and secure WebRTC file transfer tool that allows bidirectional P2P transfer of files and folders. / [JPN] P2Pで直接ファイルやフォルダを双方向に送受信できる、軽量で安全なWebRTCファイル転送ツール"
@@ -153,14 +164,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-09-03"
-  - name: "easy-rickroll-generator"
-    title: "easy-rickroll-generator"
-    description: null
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-26"
 ---
 
 # DovahkiinYuzuko

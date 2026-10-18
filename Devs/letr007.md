@@ -8,11 +8,11 @@ provenance_repos:
   - "AstrBotDevs/AstrBot"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+repos_populated: false
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [3, 5, 0, 2, 0, 0, 0, 1, 1, 0, 2, 0, 0]
+pushes_per_week: [4, 4, 0, 2, 0, 0, 0, 2, 0, 0, 2, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,71 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 12 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "CCTVVideoDownloader"
-    title: "CCTVVideoDownloader"
-    description: "一款适用于央视网的网络视频流解析处理工具"
-    language: "C++"
-    topics:
-      - "cctv"
-      - "cpp"
-      - "downloader"
-      - "ffmpeg"
-      - "mulithreading"
-      - "qt6"
-      - "web-scraping"
-      - "windows"
-    stars_fact: 680
-    first_seen: null
-    last_push: "2026-09-29"
-  - name: "letcode"
-    title: "letcode"
-    description: "A Coding Agent written in Rust."
-    language: "Rust"
-    topics:
-      - "agent"
-      - "coding-agent"
-      - "ratatui"
-      - "rust"
-    stars_fact: 6
-    first_seen: null
-    last_push: "2026-10-10"
-  - name: "SleepDown"
-    title: "SleepDown"
-    description: "本地课程表 · Android · Kotlin Multiplatform, Jetpack Compose"
-    language: "Kotlin"
-    topics: []
-    stars_fact: 7
-    first_seen: null
-    last_push: "2026-10-08"
-  - name: "letr007.github.io"
-    title: "letr007.github.io"
-    description: "个人博客Pages托管页"
-    language: "HTML"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-16"
-  - name: "letr007"
-    title: "letr007"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-24"
-  - name: "cctv_api"
-    title: "cctv_api"
-    description: "央视网API整理"
-    language: null
-    topics:
-      - "api"
-      - "cctv"
-      - "json"
-      - "markdown"
-    stars_fact: 9
-    first_seen: null
-    last_push: "2024-06-22"
+repos: []
 ---
 
 # letr007

@@ -8,16 +8,16 @@ provenance_repos:
   - "browser-use/browser-use"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+repos_populated: false
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "c1af6b58492f9bf4"
-pushes_per_week: [5, 6, 10, 0, 1, 0, 0, 2, 7, 29, 6, 1, 2]
+pushes_per_week: [5, 7, 9, 0, 1, 0, 0, 4, 29, 5, 6, 2, 1]
 windows:
   "7d":
-    pushes: 2
+    pushes: 1
     distinct_repos: 1
-    active_days: 2
+    active_days: 1
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
+    pushes: 1
     distinct_repos: 1
-    pushes_per_repo: 2.0000
-    active_days: 2
+    pushes_per_repo: 1.0000
+    active_days: 1
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -76,62 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 30 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "hackspain"
-    title: "hackspain"
-    description: "CINTA — Class-agnostic INline Transport Analyzer"
-    language: "Python"
-    topics:
-      - "ai"
-      - "classifier"
-      - "hardware"
-      - "robotics"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-20"
-  - name: "prodex-js"
-    title: "prodex-js"
-    description: "The ultimate vide coding MCP!"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 7
-    first_seen: null
-    last_push: "2025-03-26"
-  - name: "blog"
-    title: "blog"
-    description: null
-    language: "MDX"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-05-27"
-  - name: "zig-docker"
-    title: "zig-docker"
-    description: "Zig Lang Dockerfile"
-    language: "Zig"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2020-04-16"
-  - name: "mes-u"
-    title: "mes-u"
-    description: "Més U"
-    language: "TypeScript"
-    topics:
-      - "catalan"
-      - "game"
-      - "resistencia"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-03-09"
-  - name: "poker-wars"
-    title: "poker-wars"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-01-03"
+repos: []
 ---
 
 # tarasyarema

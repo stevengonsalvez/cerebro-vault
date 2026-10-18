@@ -10,7 +10,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "541318303a272608"
   - "78a5846a75cc0fbb"
@@ -86,7 +86,7 @@ repos:
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-10-10"
+    last_push: "2026-10-18"
   - name: "Codex-Pet-Live"
     title: "Codex-Pet-Live"
     description: "面向 Windows 桌面的 Codex 宠物运行时，用于承载、展示与驱动由 Codex 生成的桌面宠物交互体验。"
@@ -101,7 +101,7 @@ repos:
       - "interactive-ui"
       - "productivity"
       - "windows"
-    stars_fact: 7
+    stars_fact: 8
     first_seen: null
     last_push: "2026-07-04"
   - name: "KnowFoundry-RAG-Console"

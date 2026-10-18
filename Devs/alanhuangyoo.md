@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-16T08:30:18.142355+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "16389f32495280ea"
-pushes_per_week: [0, 7, 0, 0, 0, 1, 0, 2, 4, 4, 4, 3, 0]
+pushes_per_week: [0, 7, 0, 0, 0, 1, 0, 5, 1, 4, 4, 3, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,14 +77,20 @@ reasons:
   - "activity: 12 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "alanhuangyoo"
-    title: "alanhuangyoo"
-    description: "Profile README"
-    language: "Python"
-    topics: []
-    stars_fact: 1
+  - name: "crux"
+    title: "crux"
+    description: "Taking the pi coding agent to Claude Code-level performance: 0.539 → 0.773 pass@1 on Terminal-Bench 2.1 with the same self-hosted 27B model, by re-engineering the agent."
+    language: "TypeScript"
+    topics:
+      - "agent-evaluation"
+      - "ai-agent"
+      - "coding-agent"
+      - "context-engineering"
+      - "llm"
+      - "terminal-bench"
+    stars_fact: 186
     first_seen: null
-    last_push: "2026-10-10"
+    last_push: "2026-10-07"
   - name: "OpenJev"
     title: "OpenJev"
     description: "OpenJev: open-source, local alternative to Jev. System-One decision models: typed questions in, calibrated probabilities out; general decisions and browser-agent steps."
@@ -100,23 +106,17 @@ repos:
       - "openjev"
       - "qwen"
       - "system-one"
-    stars_fact: 59
+    stars_fact: 66
     first_seen: null
     last_push: "2026-10-09"
-  - name: "crux"
-    title: "crux"
-    description: "Taking the pi coding agent to Claude Code-level performance: 0.539 → 0.773 pass@1 on Terminal-Bench 2.1 with the same self-hosted 27B model, by re-engineering the agent."
-    language: "TypeScript"
-    topics:
-      - "agent-evaluation"
-      - "ai-agent"
-      - "coding-agent"
-      - "context-engineering"
-      - "llm"
-      - "terminal-bench"
-    stars_fact: 187
+  - name: "alanhuangyoo"
+    title: "alanhuangyoo"
+    description: "Profile README"
+    language: "Python"
+    topics: []
+    stars_fact: 1
     first_seen: null
-    last_push: "2026-10-07"
+    last_push: "2026-10-10"
   - name: "sandbox"
     title: "sandbox"
     description: null

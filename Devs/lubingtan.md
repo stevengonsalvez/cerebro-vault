@@ -8,11 +8,11 @@ provenance_repos:
   - "agent-substrate/substrate"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-16T08:30:18.142355+00:00"
+repos_populated: false
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "a5ffcd0a46dd44fd"
-pushes_per_week: [0, 0, 0, 0, 0, 1, 0, 0, 3, 5, 1, 2, 1]
+pushes_per_week: [0, 0, 0, 0, 0, 1, 0, 2, 1, 5, 1, 2, 1]
 windows:
   "7d":
     pushes: 1
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 10
+    pushes: 9
     distinct_repos: 2
-    active_days: 6
+    active_days: 5
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 10
+    pushes: 9
     distinct_repos: 2
-    pushes_per_repo: 5.0000
-    active_days: 6
+    pushes_per_repo: 4.5000
+    active_days: 5
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -76,57 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 8 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "lubingtan"
-    title: "lubingtan"
-    description: "Config files for my GitHub profile."
-    language: null
-    topics:
-      - "config"
-      - "github-config"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-11"
-  - name: "lubingtan.github.io"
-    title: "lubingtan.github.io"
-    description: "https://lubingtan.github.io/"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-08"
-  - name: "modelCC"
-    title: "modelCC"
-    description: null
-    language: "C"
-    topics: []
-    stars_fact: 4
-    first_seen: null
-    last_push: "2018-11-30"
-  - name: "ChatGPT-Next-Web"
-    title: "ChatGPT-Next-Web"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2024-01-15"
-  - name: "docker-library"
-    title: "docker-library"
-    description: null
-    language: "Dockerfile"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2022-12-12"
-  - name: "MLPackage"
-    title: "MLPackage"
-    description: "machine learning algorithm implementation"
-    language: "C++"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2018-03-30"
+repos: []
 ---
 
 # lubingtan

@@ -8,11 +8,11 @@ provenance_repos:
   - "anthropics/claude-cookbooks"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+repos_populated: false
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "1f49d0119cedbc84"
-pushes_per_week: [5, 11, 6, 5, 2, 0, 1, 5, 10, 11, 9, 3, 5]
+pushes_per_week: [5, 11, 6, 6, 1, 1, 0, 7, 8, 13, 7, 3, 5]
 windows:
   "7d":
     pushes: 5
@@ -76,47 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 40 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "salmanmkc"
-    title: "salmanmkc"
-    description: "+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"
-    language: null
-    topics: []
-    stars_fact: 4
-    first_seen: null
-    last_push: "2026-10-11"
-  - name: "salmanmkc.github.io"
-    title: "salmanmkc.github.io"
-    description: null
-    language: "Astro"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-15"
-  - name: "multimodal-brain-computer-interface-inference"
-    title: "multimodal-brain-computer-interface-inference"
-    description: "🧠 Real-time multi-modal inference system fusing EEG, PPG & CV signals for neural state estimation | Made at MIT"
-    language: "C#"
-    topics: []
-    stars_fact: 7
-    first_seen: null
-    last_push: "2025-02-10"
-  - name: "devin-self-heal-dashboard"
-    title: "devin-self-heal-dashboard"
-    description: null
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-07-30"
-  - name: "agentverse"
-    title: "agentverse"
-    description: "1st place at UCL agentverse (AI agent hackathon)"
-    language: "Python"
-    topics: []
-    stars_fact: 6
-    first_seen: null
-    last_push: "2025-11-03"
+repos: []
 ---
 
 # salmanmkc

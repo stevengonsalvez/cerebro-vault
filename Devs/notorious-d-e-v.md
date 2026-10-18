@@ -9,11 +9,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "1df6ea1f1256059e"
   - "edb3a626875732de"
-pushes_per_week: [0, 5, 1, 0, 0, 1, 0, 0, 5, 3, 2, 0, 0]
+pushes_per_week: [0, 5, 1, 0, 1, 0, 0, 1, 6, 2, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -23,12 +23,12 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 8
-    distinct_repos: 5
-    active_days: 7
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 7
+    distinct_repos: 4
+    active_days: 6
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
     pushes: 17
     distinct_repos: 9
@@ -58,13 +58,13 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 8
-    distinct_repos: 5
-    pushes_per_repo: 1.6000
-    active_days: 7
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 7
+    distinct_repos: 4
+    pushes_per_repo: 1.7500
+    active_days: 6
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
     pushes: 17
     distinct_repos: 9
@@ -78,6 +78,14 @@ reasons:
   - "activity: 13 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "agent-skills"
+    title: "agent-skills"
+    description: "Reusable skills for AI agents. Install only the workflows you need."
+    language: "Ruby"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-15"
   - name: "hey-ai"
     title: "hey-ai"
     description: "Say “Hey Chatty”, “Hey Codex”, “Hey Claude” or “Hey Claude Code” and that assistant opens on your Mac, voice already on. On-device speech, nothing recorded. One-line install."
@@ -112,14 +120,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-09-22"
-  - name: "agent-skills"
-    title: "agent-skills"
-    description: "Reusable skills for AI agents. Install only the workflows you need."
-    language: "Ruby"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-15"
   - name: "claudeye"
     title: "claudeye"
     description: "Web rendering for AI agents — see through JavaScript. Pay per page via x402 micropayments."

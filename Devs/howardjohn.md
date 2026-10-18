@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "a5ffcd0a46dd44fd"
-pushes_per_week: [20, 11, 15, 10, 2, 1, 0, 1, 5, 6, 14, 4, 10]
+pushes_per_week: [20, 11, 15, 10, 2, 1, 0, 1, 5, 7, 13, 4, 10]
 windows:
   "7d":
     pushes: 10
@@ -77,14 +77,31 @@ reasons:
   - "activity: 36 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "registry-redirector"
+    title: "registry-redirector"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-10-16"
   - name: "gateway-api-bench"
     title: "gateway-api-bench"
     description: "Gateway API Benchmarks provides a common set of tests to evaluate a Gateway API implementation."
     language: "Go"
     topics: []
-    stars_fact: 832
+    stars_fact: 836
     first_seen: null
     last_push: "2025-12-29"
+  - name: "pilot-load"
+    title: "pilot-load"
+    description: "Deploys many lightweight XDS clients to generate load on an XDS server (Pilot)"
+    language: "Go"
+    topics:
+      - "istio"
+    stars_fact: 45
+    first_seen: null
+    last_push: "2026-10-15"
   - name: "pprof-alloc"
     title: "pprof-alloc"
     description: "A Rust `GlobalAlloc` that adds observability around any allocator with `pprof` support"
@@ -93,14 +110,6 @@ repos:
     stars_fact: 4
     first_seen: null
     last_push: "2026-10-02"
-  - name: "registry-redirector"
-    title: "registry-redirector"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-08-10"
   - name: "git-restore-mtime-action"
     title: "git-restore-mtime-action"
     description: null
@@ -117,15 +126,6 @@ repos:
     stars_fact: 52
     first_seen: null
     last_push: "2022-03-23"
-  - name: "pilot-load"
-    title: "pilot-load"
-    description: "Deploys many lightweight XDS clients to generate load on an XDS server (Pilot)"
-    language: "Go"
-    topics:
-      - "istio"
-    stars_fact: 44
-    first_seen: null
-    last_push: "2026-04-23"
 ---
 
 # howardjohn

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [2, 0, 0, 0, 0, 0, 0, 0, 1, 0, 6, 0, 1]
+pushes_per_week: [2, 0, 0, 0, 0, 0, 0, 0, 1, 1, 5, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 8
-    distinct_repos: 3
-    active_days: 7
+    pushes: 7
+    distinct_repos: 2
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 8
-    distinct_repos: 3
-    pushes_per_repo: 2.6667
-    active_days: 7
+    pushes: 7
+    distinct_repos: 2
+    pushes_per_repo: 3.5000
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -84,15 +84,15 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-10"
+    last_push: "2026-10-16"
   - name: "pi-config"
     title: "pi-config"
     description: null
-    language: null
+    language: "Python"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-09"
+    last_push: "2026-10-15"
   - name: "torrnado"
     title: "torrnado"
     description: null

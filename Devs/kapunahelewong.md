@@ -8,8 +8,8 @@ provenance_repos:
   - "BuilderIO/agent-native"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-16T08:30:18.142355+00:00"
+repos_populated: false
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "745308b2b7085095"
 pushes_per_week: [2, 4, 1, 1, 0, 1, 0, 0, 1, 0, 1, 0, 1]
@@ -76,57 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 9 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "ts-ladders-demo"
-    title: "ts-ladders-demo"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-05"
-  - name: "kapunahelewong.github.io"
-    title: "kapunahelewong.github.io"
-    description: "My site that showcases some of my favorite work and projects."
-    language: "CSS"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-23"
-  - name: "ci-cd-demo"
-    title: "ci-cd-demo"
-    description: "Companion repo for a GitHub Actions CI/CD series, covering matrices, artifacts, and a docs generation pipeline"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-07-07"
-  - name: "explore-openapi"
-    title: "explore-openapi"
-    description: "Explore and learn OpenAPI"
-    language: "Python"
-    topics:
-      - "openapi-specification"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-07-05"
-  - name: "stripe-openapi-demo"
-    title: "stripe-openapi-demo"
-    description: "Static Stripe API reference site, built by parsing Stripe's OpenAPI spec from scratch and deploying to GitHub Pages."
-    language: "TypeScript"
-    topics:
-      - "openapi-specification"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-07-03"
-  - name: "pepa"
-    title: "pepa"
-    description: "Full-featured docs platform. API docs ready for OpenAPI, Reference docs, Diátaxis-friendly"
-    language: "CSS"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-07-04"
+repos: []
 ---
 
 # kapunahelewong

@@ -9,13 +9,13 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "73468cde177ddae6"
-pushes_per_week: [0, 0, 0, 0, 6, 5, 0, 9, 1, 4, 9, 36, 73]
+pushes_per_week: [0, 0, 0, 0, 7, 4, 3, 6, 1, 4, 18, 53, 47]
 windows:
   "7d":
-    pushes: 73
+    pushes: 71
     distinct_repos: 3
     active_days: 4
     repos_not_owned: 0
@@ -49,9 +49,9 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 73
+    pushes: 71
     distinct_repos: 3
-    pushes_per_repo: 24.3333
+    pushes_per_repo: 23.6667
     active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -77,29 +77,6 @@ reasons:
   - "activity: 27 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "caprock"
-    title: "caprock"
-    description: "Mission control for your coding agents: run Claude Code, Codex and OpenCode in one window, see cost per repo and plan limits, approve from your phone. Local-first."
-    language: "Go"
-    topics:
-      - "agent-monitoring"
-      - "ai-agents"
-      - "claude"
-      - "claude-code"
-      - "codex"
-      - "cost-tracking"
-      - "developer-tools"
-      - "golang"
-      - "llm"
-      - "llm-cost"
-      - "llm-observability"
-      - "local-first"
-      - "opencode"
-      - "self-hosted"
-      - "tauri"
-    stars_fact: 17
-    first_seen: null
-    last_push: "2026-10-10"
   - name: "homebrew-tap"
     title: "homebrew-tap"
     description: "Homebrew tap for Caprock — mission control for Claude Code (brew install dspv/tap/caprock)"
@@ -110,7 +87,7 @@ repos:
       - "homebrew-tap"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-10"
+    last_push: "2026-10-18"
   - name: "scoop-bucket"
     title: "scoop-bucket"
     description: "Scoop bucket for Caprock — mission control for Claude Code (Windows)"
@@ -121,7 +98,33 @@ repos:
       - "scoop-bucket"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-10"
+    last_push: "2026-10-18"
+  - name: "caprock"
+    title: "caprock"
+    description: "Agentic development environment: run Claude Code, Codex, OpenCode and Gemini CLI side by side, and follow every PR from agent to release with its cost. Desktop app for macOS, Windows and Linux. Local, free."
+    language: "TypeScript"
+    topics:
+      - "agentic-development"
+      - "ai-agents"
+      - "claude"
+      - "claude-code"
+      - "claude-code-desktop"
+      - "codex"
+      - "coding-agents"
+      - "cost-tracking"
+      - "developer-tools"
+      - "gemini-cli"
+      - "golang"
+      - "hermes-agent"
+      - "llm"
+      - "llm-cost"
+      - "local-first"
+      - "opencode"
+      - "self-hosted"
+      - "tauri"
+    stars_fact: 23
+    first_seen: null
+    last_push: "2026-10-18"
   - name: "planet101-web"
     title: "planet101-web"
     description: "PlanetWalk: sourced facts about real worlds, the content pipeline and the website"
@@ -129,7 +132,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-09"
+    last_push: "2026-10-17"
   - name: "dyson-sphere-program-ai-mecha"
     title: "dyson-sphere-program-ai-mecha"
     description: "Trying to make AI play DSP (Dyson Sphere Program) for fun"

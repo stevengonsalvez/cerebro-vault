@@ -10,13 +10,13 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "9d67ce648f6a8919"
-pushes_per_week: [3, 1, 1, 13, 2, 3, 1, 4, 2, 10, 14, 4, 6]
+pushes_per_week: [3, 1, 2, 12, 2, 4, 1, 3, 4, 12, 11, 5, 4]
 windows:
   "7d":
-    pushes: 6
+    pushes: 5
     distinct_repos: 2
     active_days: 3
     repos_not_owned: 1
@@ -66,9 +66,9 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 6
+    pushes: 5
     distinct_repos: 2
-    pushes_per_repo: 3.0000
+    pushes_per_repo: 2.5000
     active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
@@ -99,9 +99,9 @@ repos:
     description: "Use Claude Code, Codex, VSCode, Pi, and OpenCode (and 6 other harnesses) for free (1.3B+ free tokens) from your terminal, app, IDE, or phone, and now from the browser with native browser sessions (multi-harness + multi-model) like OpenClaw (voice supported + ToS friendly)"
     language: "Python"
     topics: []
-    stars_fact: 57148
+    stars_fact: 61331
     first_seen: "2026-08-04T06:00:05.827253+00:00"
-    last_push: "2026-10-09"
+    last_push: "2026-10-18"
   - name: "Machine-Learning-Methods-in-Physics"
     title: "Machine-Learning-Methods-in-Physics"
     description: null
@@ -125,7 +125,7 @@ repos:
     topics: []
     stars_fact: 5
     first_seen: null
-    last_push: "2026-09-28"
+    last_push: "2026-10-12"
 ---
 
 # Alishahryar1

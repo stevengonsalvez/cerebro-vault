@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [7, 0, 1, 7, 1, 0, 0, 2, 1, 8, 0, 1, 12]
+pushes_per_week: [6, 0, 1, 7, 1, 0, 0, 2, 1, 8, 0, 1, 12]
 windows:
   "7d":
-    pushes: 13
-    distinct_repos: 2
-    active_days: 4
+    pushes: 12
+    distinct_repos: 1
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 40
+    pushes: 39
     distinct_repos: 3
-    active_days: 24
+    active_days: 23
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.6667
-  repo_per_active_day: 0.1250
+  push_per_day: 1.6957
+  repo_per_active_day: 0.1304
   not_owned_ratio: 0.3333
   basename_concentration: 0.3333
   shapes: []
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 13
-    distinct_repos: 2
-    pushes_per_repo: 6.5000
-    active_days: 4
+    pushes: 12
+    distinct_repos: 1
+    pushes_per_repo: 12.0000
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -65,18 +65,45 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 40
+    pushes: 39
     distinct_repos: 3
-    pushes_per_repo: 13.3333
-    active_days: 24
+    pushes_per_repo: 13.0000
+    active_days: 23
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 24 active days in 90d — pass"
+  - "activity: 23 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "Cedarflake-Lab"
+    title: "Cedarflake-Lab"
+    description: "Personal monorepo for experiments, apps, packages, and local workbench projects."
+    language: "TypeScript"
+    topics:
+      - "monorepo"
+      - "python"
+      - "tools"
+      - "typescript"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-18"
+  - name: "Cedarflake-Ame"
+    title: "Cedarflake-Ame"
+    description: "A Windows app for browsing and organizing large personal image libraries locally, designed around my own workflow."
+    language: "Rust"
+    topics:
+      - "desktop-app"
+      - "flutter"
+      - "image-library"
+      - "local-first"
+      - "photo-management"
+      - "rust"
+      - "windows"
+    stars_fact: 13
+    first_seen: null
+    last_push: "2026-10-18"
   - name: "Cedarflake-Nami"
     title: "Cedarflake-Nami"
     description: "Personal edge redirect playground with a database-backed control plane, WebUI, optional analytics, and compile-time adapters for Cloudflare, Vercel, and Netlify."
@@ -97,18 +124,6 @@ repos:
     stars_fact: 13
     first_seen: null
     last_push: "2026-10-08"
-  - name: "Cedarflake-Lab"
-    title: "Cedarflake-Lab"
-    description: "Personal monorepo for experiments, apps, packages, and local workbench projects."
-    language: "TypeScript"
-    topics:
-      - "monorepo"
-      - "python"
-      - "tools"
-      - "typescript"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-10"
   - name: "InFalsusTouch"
     title: "InFalsusTouch"
     description: "把 Android 手机或平板变成 In Falsus 触控手台：通过 USB 连接电脑，在手机上看谱、滑动 Field、点按或长按六键，支持多设备分工合作游玩。"
@@ -133,21 +148,6 @@ repos:
     stars_fact: 3
     first_seen: null
     last_push: "2026-09-29"
-  - name: "Cedarflake-Ame"
-    title: "Cedarflake-Ame"
-    description: "A Windows app for browsing and organizing large personal image libraries locally, designed around my own workflow."
-    language: "Dart"
-    topics:
-      - "desktop-app"
-      - "flutter"
-      - "image-library"
-      - "local-first"
-      - "photo-management"
-      - "rust"
-      - "windows"
-    stars_fact: 13
-    first_seen: null
-    last_push: "2026-10-10"
   - name: "Cedarflake"
     title: "Cedarflake"
     description: null
@@ -160,6 +160,6 @@ repos:
 
 # Cedarflake
 
-40 pushes across 3 repositories on 24 active days in the last 90 days of public GitHub push activity.
+39 pushes across 3 repositories on 23 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Cedarflake

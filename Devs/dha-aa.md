@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "c1af6b58492f9bf4"
-pushes_per_week: [2, 0, 3, 2, 5, 4, 0, 0, 3, 0, 0, 2, 1]
+pushes_per_week: [2, 3, 0, 3, 5, 3, 0, 2, 1, 0, 0, 2, 1]
 windows:
   "7d":
-    pushes: 2
+    pushes: 1
     distinct_repos: 1
-    active_days: 2
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
+    pushes: 1
     distinct_repos: 1
-    pushes_per_repo: 2.0000
-    active_days: 2
+    pushes_per_repo: 1.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -90,7 +90,33 @@ repos:
       - "vercel"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-10"
+    last_push: "2026-10-17"
+  - name: "ae-motion"
+    title: "ae-motion"
+    description: "MCP server that lets Claude and other AI assistants build, animate, preview and render motion graphics in a live Adobe After Effects project: 77 tools for comps, layers, keyframes, springs, text reveals, transitions, masks, effects, layout, 3D cameras, beat-synced audio and checked aerender renders."
+    language: "TypeScript"
+    topics:
+      - "adobe"
+      - "adobe-after-effects"
+      - "aerender"
+      - "after-effects"
+      - "ai-agent"
+      - "ai-tools"
+      - "animation"
+      - "cep"
+      - "claude"
+      - "claude-code"
+      - "extendscript"
+      - "mcp"
+      - "mcp-server"
+      - "model-context-protocol"
+      - "motion-design"
+      - "motion-graphics"
+      - "typescript"
+      - "video-editing"
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-10-16"
   - name: "dropair"
     title: "dropair"
     description: "A simple file sharing application with CLI support for easy global access. Upload, share, and download files with QR code generation."
@@ -103,26 +129,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-09-19"
-  - name: "ae-motion"
-    title: "ae-motion"
-    description: "MCP server that lets Claude and other AI assistants build, animate, preview and render motion graphics in a live Adobe After Effects project: 65 tools for comps, layers, keyframes, text, masks, effects, layout, 3D cameras and lights, and aerender."
-    language: "TypeScript"
-    topics:
-      - "adobe-after-effects"
-      - "after-effects"
-      - "ai-tools"
-      - "animation"
-      - "cep"
-      - "claude"
-      - "extendscript"
-      - "mcp"
-      - "mcp-server"
-      - "model-context-protocol"
-      - "motion-graphics"
-      - "typescript"
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-10-09"
 ---
 
 # dha-aa

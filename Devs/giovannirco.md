@@ -9,13 +9,13 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-16T08:30:18.142355+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "4138778ebbc75ba6"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 2, 0, 14, 1, 1, 3]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 1, 1, 0, 14, 1, 4, 0]
 windows:
   "7d":
-    pushes: 3
+    pushes: 2
     distinct_repos: 2
     active_days: 1
     repos_not_owned: 0
@@ -49,9 +49,9 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 3
+    pushes: 2
     distinct_repos: 2
-    pushes_per_repo: 1.5000
+    pushes_per_repo: 1.0000
     active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -77,22 +77,53 @@ reasons:
   - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "arith-ruby"
-    title: "arith-ruby"
-    description: "Integer arithmetic over HTTP in Ruby (Rails API on Puma): four endpoints, a page, metrics, Helm and Kustomize."
-    language: "Ruby"
+  - name: "heatbar"
+    title: "heatbar"
+    description: "Menu bar switch that stresses the CPU and GPU of the Mac it is running on."
+    language: "Swift"
+    topics:
+      - "macos"
+      - "menubar"
+      - "metal"
+      - "swift"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-17"
+  - name: "platen"
+    title: "platen"
+    description: "Your printer and scanner for people, programs and AI agents: web UI, REST API and a built-in MCP server. Prints PDFs on raster-only printers, scans to Paperless-ngx. One Go binary, no CUPS."
+    language: "Go"
+    topics:
+      - "airprint"
+      - "escl"
+      - "golang"
+      - "homelab"
+      - "ipp"
+      - "mcp"
+      - "mcp-server"
+      - "paperless-ngx"
+      - "printing"
+      - "scanner"
+      - "self-hosted"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-03"
+  - name: "agentic-homelab"
+    title: "agentic-homelab"
+    description: "AI-first homelab path: Proxmox, Talos, GitOps, Hermes/agents, skills, and lessons learned"
+    language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-11"
+  - name: "giovanni-dev-br-public"
+    title: "giovanni-dev-br-public"
+    description: "A compact Three.js orrery portfolio. Fly between projects, read their dossiers, and talk to COMM about where you are."
+    language: "JavaScript"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-09"
-  - name: "arith-ts"
-    title: "arith-ts"
-    description: "Integer arithmetic over HTTP in TypeScript (Fastify on Node 24): four endpoints, a page, metrics, Helm and Kustomize."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-09"
+    last_push: "2026-10-11"
   - name: "arith-rust"
     title: "arith-rust"
     description: "Integer arithmetic over HTTP in Rust (axum): four endpoints, a page, metrics, Helm and Kustomize."
@@ -100,31 +131,15 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-09"
-  - name: "tetra-ruby"
-    title: "tetra-ruby"
-    description: "Tetra in Ruby (Sinatra + Puma): a four-operation arithmetic API with live three.js request telemetry, Prometheus SLO alerts, Grafana and a hardened container"
+    last_push: "2026-10-11"
+  - name: "arith-ruby"
+    title: "arith-ruby"
+    description: "Integer arithmetic over HTTP in Ruby (Rails API on Puma): four endpoints, a page, metrics, Helm and Kustomize."
     language: "Ruby"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-08"
-  - name: "tetra-ts"
-    title: "tetra-ts"
-    description: "Tetra in TypeScript (Fastify): a four-operation arithmetic API with live three.js request telemetry, Prometheus SLO alerts, Grafana and a hardened container"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-08"
-  - name: "tetra-node"
-    title: "tetra-node"
-    description: "Tetra in Node.js: a four-operation arithmetic API with live three.js request telemetry, Prometheus SLO alerts, Grafana and a hardened container"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-08"
+    last_push: "2026-10-11"
 ---
 
 # giovannirco

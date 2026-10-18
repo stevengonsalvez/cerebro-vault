@@ -9,18 +9,18 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "46f3c1d6124190bd"
-pushes_per_week: [2, 3, 2, 1, 1, 0, 0, 5, 9, 26, 33, 2, 6]
+pushes_per_week: [5, 1, 1, 1, 1, 0, 0, 7, 9, 43, 14, 5, 3]
 windows:
   "7d":
-    pushes: 7
-    distinct_repos: 4
-    active_days: 5
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 5
+    distinct_repos: 2
+    active_days: 4
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
     pushes: 72
     distinct_repos: 16
@@ -49,13 +49,13 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 7
-    distinct_repos: 4
-    pushes_per_repo: 1.7500
-    active_days: 5
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 5
+    distinct_repos: 2
+    pushes_per_repo: 2.5000
+    active_days: 4
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
     pushes: 72
     distinct_repos: 16
@@ -84,23 +84,31 @@ repos:
     topics: []
     stars_fact: 2
     first_seen: null
-    last_push: "2026-10-10"
-  - name: "thio.cc.cd"
-    title: "thio.cc.cd"
-    description: null
-    language: "Vue"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-10-08"
-  - name: "palang-merah-remaja"
-    title: "palang-merah-remaja"
-    description: null
-    language: "JavaScript"
+    last_push: "2026-10-18"
+  - name: "kontekstual"
+    title: "kontekstual"
+    description: "Word-based Indonesian programming language"
+    language: "Rust"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-02"
+    last_push: "2026-10-17"
+  - name: "ANTO-LTG"
+    title: "ANTO-LTG"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-10-14"
+  - name: "nokintosh-by-flessan"
+    title: "nokintosh-by-flessan"
+    description: "digicamfx open-source alternative :>"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-27"
   - name: "gmd2txt"
     title: "gmd2txt"
     description: "Remux your GDShare files into .txt Fresh Files (Simple) gmdtotxt geometry dash online from .gmd, gmd player"
@@ -111,23 +119,15 @@ repos:
       - "txt-files"
     stars_fact: 3
     first_seen: null
-    last_push: "2026-10-02"
-  - name: "telegram_to_api"
-    title: "telegram_to_api"
-    description: "yea, i hate whatsapp. A lightweight Cloudflare-native bridge that turns Telegram Channel posts into a self-hosted JSON API."
-    language: "JavaScript"
+    last_push: "2026-10-11"
+  - name: "thio.cc.cd"
+    title: "thio.cc.cd"
+    description: null
+    language: "Vue"
     topics: []
     stars_fact: 2
     first_seen: null
-    last_push: "2026-09-27"
-  - name: "nokintosh-by-flessan"
-    title: "nokintosh-by-flessan"
-    description: "digicamfx open-source alternative :>"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-27"
+    last_push: "2026-10-08"
 ---
 
 # flessan

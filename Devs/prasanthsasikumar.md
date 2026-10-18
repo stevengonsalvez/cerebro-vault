@@ -8,11 +8,11 @@ provenance_repos:
   - "calesthio/OpenMontage"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+repos_populated: false
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "6d3bd03b49986330"
-pushes_per_week: [0, 4, 1, 2, 0, 0, 0, 0, 4, 2, 9, 8, 9]
+pushes_per_week: [0, 4, 3, 0, 0, 0, 0, 0, 4, 5, 7, 13, 3]
 windows:
   "7d":
     pushes: 9
@@ -76,87 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 18 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "openclicky"
-    title: "openclicky"
-    description: "Open-source macOS voice companion (an open Clicky): talk to it about what's on screen, it points at things, dictates, and hands real work to a Codex agent. Bring your own key or use an invite. MIT."
-    language: "Swift"
-    topics:
-      - "ai-agent"
-      - "codex"
-      - "macos"
-      - "open-source"
-      - "openai-realtime"
-      - "swift"
-      - "voice-assistant"
-    stars_fact: 8
-    first_seen: null
-    last_push: "2026-10-10"
-  - name: "FindCars-NZ"
-    title: "FindCars-NZ"
-    description: "🚗 Automated car auction data scraper and analytics platform for New Zealand's Manheim auctions. Features daily data collection, trend analysis, and interactive dashboards."
-    language: "HTML"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-10-10"
-  - name: "AISEE-BIN"
-    title: "AISEE-BIN"
-    description: "Hands-free indoor navigation for blind and low-vision visitors in botanical greenhouses. ARKit world tracking for position, A* routing, and turn-by-turn guidance by voice and haptics — plus a web map editor for authoring the space."
-    language: "Swift"
-    topics:
-      - "accessibility"
-      - "arkit"
-      - "blind-assistive-technology"
-      - "indoor-navigation"
-      - "ios"
-      - "supabase"
-      - "swift"
-      - "swiftui"
-      - "wayfinding"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-05"
-  - name: "hermes-glasses"
-    title: "hermes-glasses"
-    description: "Voice + vision AI assistant for smart glasses — Meta Ray-Ban and AiSee / Realtek-based glasses: live on-device transcription, glasses camera capture, button mapping, and an optional Hermes Agent bridge."
-    language: "Swift"
-    topics:
-      - "computer-vision"
-      - "ios"
-      - "meta-rayban"
-      - "sidekick"
-      - "smart-glasses"
-      - "swiftui"
-      - "voice-assistant"
-    stars_fact: 21
-    first_seen: null
-    last_push: "2026-10-07"
-  - name: "prasanthsasikumar.github.io"
-    title: "prasanthsasikumar.github.io"
-    description: "Personal site: XR and wearable AI research, shipped as products for smart glasses"
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-07"
-  - name: "garage-assets"
-    title: "garage-assets"
-    description: "Web-optimized photo registry and JSON manifest behind The Garage on prasanthsasikumar.com — 56 vehicles, 900+ images synced from Google Drive."
-    language: "Python"
-    topics:
-      - "assets"
-      - "car-photography"
-      - "cars"
-      - "garage"
-      - "image-optimization"
-      - "motorcycles"
-      - "new-zealand"
-      - "nuxt"
-      - "photo-gallery"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-06"
+repos: []
 ---
 
 # prasanthsasikumar

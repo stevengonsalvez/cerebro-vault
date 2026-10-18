@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "322930b634f9932d"
-pushes_per_week: [6, 2, 0, 3, 0, 0, 0, 1, 1, 7, 7, 5, 0]
+pushes_per_week: [6, 0, 0, 3, 0, 0, 0, 1, 1, 9, 6, 4, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 32
+    pushes: 30
     distinct_repos: 2
-    active_days: 18
+    active_days: 17
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.7778
-  repo_per_active_day: 0.1111
+  push_per_day: 1.7647
+  repo_per_active_day: 0.1176
   not_owned_ratio: 0.0000
   basename_concentration: 0.5000
   shapes: []
@@ -65,18 +65,26 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 32
+    pushes: 30
     distinct_repos: 2
-    pushes_per_repo: 16.0000
-    active_days: 18
+    pushes_per_repo: 15.0000
+    active_days: 17
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 18 active days in 90d — pass"
+  - "activity: 17 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "jacquard-host"
+    title: "jacquard-host"
+    description: "Language-neutral host integrations and adapters for Jacquard"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-17"
   - name: "jacquard-lang"
     title: "jacquard-lang"
     description: "Jacquard is a small programming language designed for a regime in which most code is written by machine-learning models and reviewed by people."
@@ -89,7 +97,7 @@ repos:
       - "ocaml"
       - "probabilistic-programming"
       - "programming-language"
-    stars_fact: 120
+    stars_fact: 121
     first_seen: "2026-07-14T06:00:05.414815+00:00"
     last_push: "2026-10-07"
   - name: "inkling.nvim"
@@ -136,18 +144,10 @@ repos:
     stars_fact: 1
     first_seen: null
     last_push: "2026-09-25"
-  - name: "acoustic-event-locator"
-    title: "acoustic-event-locator"
-    description: "Acoustic event localization system using Time Difference of Arrival (TDOA) multilateration from unsynchronized videos. Locates gunshots, explosions & impulsive sounds with 4+ microphones. WIP"
-    language: "Python"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-09-04"
 ---
 
 # jbwinters
 
-32 pushes across 2 repositories on 18 active days in the last 90 days of public GitHub push activity.
+30 pushes across 2 repositories on 17 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/jbwinters

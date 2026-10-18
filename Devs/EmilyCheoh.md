@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "78a5846a75cc0fbb"
 pushes_per_week: [0, 0, 1, 0, 0, 1, 0, 0, 1, 1, 1, 1, 0]
@@ -77,6 +77,14 @@ reasons:
   - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "astrbot_plugin_lorebook"
+    title: "astrbot_plugin_lorebook"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-16"
   - name: "astrbot-frontend"
     title: "astrbot-frontend"
     description: null
@@ -84,7 +92,15 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-10"
+    last_push: "2026-10-14"
+  - name: "astrbot_plugin_cache_pulse"
+    title: "astrbot_plugin_cache_pulse"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-11"
   - name: "astrbot_plugin_show_reasoning"
     title: "astrbot_plugin_show_reasoning"
     description: null
@@ -109,22 +125,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-09-14"
-  - name: "astrbot_plugin_lorebook"
-    title: "astrbot_plugin_lorebook"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-02"
-  - name: "astrbot_plugin_cache_pulse"
-    title: "astrbot_plugin_cache_pulse"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-30"
 ---
 
 # EmilyCheoh

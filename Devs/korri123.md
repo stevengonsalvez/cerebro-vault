@@ -8,11 +8,11 @@ provenance_repos:
   - "can1357/oh-my-pi"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+repos_populated: false
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [2, 1, 0, 0, 0, 0, 0, 1, 0, 0, 1, 1, 0]
+pushes_per_week: [3, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,55 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "omp-plugin-duplicate-detector"
-    title: "omp-plugin-duplicate-detector"
-    description: "Real-time duplicate code detection for oh-my-pi (omp), built on jscpd."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-09-06"
-  - name: "kNVSE"
-    title: "kNVSE"
-    description: null
-    language: "C++"
-    topics: []
-    stars_fact: 15
-    first_seen: null
-    last_push: "2026-05-17"
-  - name: "bun-dap-x"
-    title: "bun-dap-x"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-06-27"
-  - name: "fnv-blender-niftools-addon"
-    title: "fnv-blender-niftools-addon"
-    description: "Blender Niftools Addon adapted for Fallout New Vegas"
-    language: "Python"
-    topics: []
-    stars_fact: 10
-    first_seen: null
-    last_push: "2021-09-27"
-  - name: "react-aria-issue"
-    title: "react-aria-issue"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2025-08-13"
-  - name: "Improved-Console-NVSE"
-    title: "Improved-Console-NVSE"
-    description: null
-    language: "C++"
-    topics: []
-    stars_fact: 6
-    first_seen: null
-    last_push: "2023-12-18"
+repos: []
 ---
 
 # korri123

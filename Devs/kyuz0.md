@@ -8,11 +8,11 @@ provenance_repos:
   - "antirez/ds4"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+repos_populated: false
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "3eacb4655aba2497"
-pushes_per_week: [3, 3, 1, 7, 2, 2, 0, 2, 4, 8, 0, 2, 3]
+pushes_per_week: [5, 1, 1, 7, 2, 2, 0, 3, 3, 8, 0, 2, 3]
 windows:
   "7d":
     pushes: 3
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 16
-    distinct_repos: 7
-    active_days: 10
+    pushes: 14
+    distinct_repos: 6
+    active_days: 9
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 16
-    distinct_repos: 7
-    pushes_per_repo: 2.2857
-    active_days: 10
+    pushes: 14
+    distinct_repos: 6
+    pushes_per_repo: 2.3333
+    active_days: 9
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -76,55 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 28 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "amd-strix-halo-toolboxes"
-    title: "amd-strix-halo-toolboxes"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 1985
-    first_seen: null
-    last_push: "2026-10-09"
-  - name: "ai-toolbox-cockpit"
-    title: "ai-toolbox-cockpit"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 152
-    first_seen: null
-    last_push: "2026-10-10"
-  - name: "amd-strix-halo-comfyui-toolboxes"
-    title: "amd-strix-halo-comfyui-toolboxes"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 164
-    first_seen: null
-    last_push: "2026-09-02"
-  - name: "amd-strix-halo-vllm-toolboxes"
-    title: "amd-strix-halo-vllm-toolboxes"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 534
-    first_seen: null
-    last_push: "2026-10-04"
-  - name: "amd-r9700-vllm-toolboxes"
-    title: "amd-r9700-vllm-toolboxes"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 203
-    first_seen: null
-    last_push: "2026-10-05"
-  - name: "amd-r9700-ai-toolboxes"
-    title: "amd-r9700-ai-toolboxes"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 114
-    first_seen: null
-    last_push: "2026-10-05"
+repos: []
 ---
 
 # kyuz0

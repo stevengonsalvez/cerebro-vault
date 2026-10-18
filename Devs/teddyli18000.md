@@ -8,11 +8,11 @@ provenance_repos:
   - "alibaba/open-code-review"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+repos_populated: false
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "c489e6fb5febf2ab"
-pushes_per_week: [0, 0, 0, 22, 0, 7, 2, 0, 0, 5, 3, 23, 12]
+pushes_per_week: [0, 0, 14, 8, 4, 3, 2, 0, 0, 5, 11, 20, 7]
 windows:
   "7d":
     pushes: 12
@@ -76,63 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 21 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "web-ingest"
-    title: "web-ingest"
-    description: null
-    language: "HTML"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-10-16"
-  - name: "teddyli18000"
-    title: "teddyli18000"
-    description: "A living GitHub profile README."
-    language: "Python"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-16"
-  - name: "mimo-web-proxy"
-    title: "mimo-web-proxy"
-    description: "把小米 MiMo AI Studio 网页端反代为 OpenAI / Anthropic 兼容 API 的本地网关。单 exe 双击即用。Turn MiMo web chat into an OpenAI/Anthropic compatible API."
-    language: "Go"
-    topics:
-      - "ai-gateway"
-      - "anthropic-api"
-      - "golang"
-      - "llm"
-      - "mimo"
-      - "openai-api"
-      - "proxy"
-      - "xiaomi"
-    stars_fact: 9
-    first_seen: null
-    last_push: "2026-09-26"
-  - name: "ms-todo-mcp"
-    title: "ms-todo-mcp"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-13"
-  - name: "vitrual_browser"
-    title: "vitrual_browser"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-08"
-  - name: "dsh-approval-gate"
-    title: "dsh-approval-gate"
-    description: "DSH approval gate development"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-09-26"
+repos: []
 ---
 
 # teddyli18000

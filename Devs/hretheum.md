@@ -9,11 +9,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-16T08:30:18.142355+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "1df6ea1f1256059e"
   - "edb3a626875732de"
-pushes_per_week: [0, 2, 1, 0, 0, 0, 0, 2, 0, 0, 14, 1, 0]
+pushes_per_week: [0, 3, 0, 0, 0, 0, 0, 2, 0, 2, 12, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -78,44 +78,6 @@ reasons:
   - "activity: 10 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "exocortex-public"
-    title: "exocortex-public"
-    description: "Exocortex engine and lab: public record of AI R&D (PL/EN). Private until the publishing gate is proven."
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-05"
-  - name: "lab-site-repo"
-    title: "lab-site-repo"
-    description: null
-    language: "CSS"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-29"
-  - name: "skillforge"
-    title: "skillforge"
-    description: "Composable skills engine for agent pipelines — MCP server + CLI"
-    language: "JavaScript"
-    topics:
-      - "ai-agents"
-      - "claude"
-      - "mcp"
-      - "model-context-protocol"
-      - "skillforge"
-      - "skills"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-27"
-  - name: "second-brain"
-    title: "second-brain"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-04-30"
   - name: "ds-demo-tokens"
     title: "ds-demo-tokens"
     description: "Przykładowy kanon DTCG: jeden rdzeń, trzy marki, 13 celowo zasianych rozjazdów. Sklonuj i uruchom jedną komendę, żeby zobaczyć raport na własnym terminalu."
@@ -127,25 +89,47 @@ repos:
       - "multi-brand"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-27"
-  - name: "halvern"
-    title: "halvern"
-    description: "Meeting notes that never leave your machine. Local recording, transcription and summarisation for macOS."
-    language: "Rust"
-    topics:
-      - "local-first"
-      - "macos"
-      - "meeting-notes"
-      - "privacy"
-      - "rust"
-      - "self-hosted"
-      - "speech-to-text"
-      - "tauri"
-      - "transcription"
-      - "whisper"
+    last_push: "2026-10-17"
+  - name: "detektr"
+    title: "detektr"
+    description: null
+    language: "Python"
+    topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-05"
+    last_push: "2026-10-15"
+  - name: "ai_oracle"
+    title: "ai_oracle"
+    description: null
+    language: "Shell"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-15"
+  - name: "dataplatform-demo"
+    title: "dataplatform-demo"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-15"
+  - name: "vector-wave-ideas"
+    title: "vector-wave-ideas"
+    description: "Ideas bank and creative concepts for content generation"
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-15"
+  - name: "vector-wave-content"
+    title: "vector-wave-content"
+    description: "Generated content materials, articles, and social media posts"
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-15"
 ---
 
 # hretheum

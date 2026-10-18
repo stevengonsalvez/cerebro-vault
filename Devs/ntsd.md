@@ -8,16 +8,16 @@ provenance_repos:
   - "abi/screenshot-to-code"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+repos_populated: false
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "ef17663e884139a8"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 4, 22, 9, 17, 9, 14]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 1, 10, 17, 10, 17, 13, 7]
 windows:
   "7d":
-    pushes: 17
+    pushes: 14
     distinct_repos: 4
-    active_days: 4
+    active_days: 3
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 17
+    pushes: 14
     distinct_repos: 4
-    pushes_per_repo: 4.2500
-    active_days: 4
+    pushes_per_repo: 3.5000
+    active_days: 3
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
@@ -76,86 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 26 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "ntsd"
-    title: "ntsd"
-    description: "My Github Profile"
-    language: null
-    topics:
-      - "github-profile"
-      - "github-profile-readme"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-11"
-  - name: "zero-share"
-    title: "zero-share"
-    description: "A secure P2P file sharing using WebRTC without server-side need."
-    language: "Svelte"
-    topics:
-      - "astro"
-      - "data-sharing"
-      - "data-transfer"
-      - "file-sharing"
-      - "file-transfer"
-      - "hacktoberfest"
-      - "p2p"
-      - "svelte"
-      - "webrtc"
-    stars_fact: 150
-    first_seen: null
-    last_push: "2026-10-10"
-  - name: "svelte-tex"
-    title: "svelte-tex"
-    description: "Svelte component to convert TeX/LaTeX to MathML or SVG, Supports both Svelte 4 and Svelte 5"
-    language: "TypeScript"
-    topics:
-      - "hacktoberfest"
-      - "latex"
-      - "math"
-      - "mathml"
-      - "svelte"
-      - "svg"
-      - "tex"
-    stars_fact: 10
-    first_seen: null
-    last_push: "2026-10-06"
-  - name: "sdp-compact"
-    title: "sdp-compact"
-    description: "shorten WebRTC Session Description Protocol (SDP) based on Unified Plan SDP"
-    language: "TypeScript"
-    topics:
-      - "hacktoberfest"
-      - "p2p"
-      - "sdp"
-      - "webrtc"
-    stars_fact: 11
-    first_seen: null
-    last_push: "2026-10-06"
-  - name: "my-hermes"
-    title: "my-hermes"
-    description: "My hermes profiles driven by hermes-profile-manager"
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-05"
-  - name: "zero-market-radar"
-    title: "zero-market-radar"
-    description: "Real-time stock news sentiment and alerter powered by a System One decision model (Jev) for ultra-fast."
-    language: "TypeScript"
-    topics:
-      - "financial-data"
-      - "finnhub"
-      - "jev"
-      - "jev-model"
-      - "market-analysis"
-      - "market-news"
-      - "sentiment-analysis"
-      - "stocks"
-      - "system-one"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-04"
+repos: []
 ---
 
 # ntsd

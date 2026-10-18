@@ -13,18 +13,18 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "00b3deb7a8bc08be"
   - "25a420d2612019d0"
   - "637c99109af31ed2"
   - "b22ecd25e4a0f368"
-pushes_per_week: [6, 5, 3, 7, 0, 5, 0, 0, 1, 13, 2, 27, 37]
+pushes_per_week: [6, 5, 4, 6, 3, 2, 0, 0, 1, 13, 2, 36, 28]
 windows:
   "7d":
-    pushes: 39
+    pushes: 37
     distinct_repos: 1
-    active_days: 5
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -56,10 +56,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 39
+    pushes: 37
     distinct_repos: 1
-    pushes_per_repo: 39.0000
-    active_days: 5
+    pushes_per_repo: 37.0000
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -89,51 +89,52 @@ repos:
     description: "Skills for Real Engineers. Straight from my .agents directory."
     language: "Shell"
     topics: []
-    stars_fact: 283134
+    stars_fact: 295331
     first_seen: "2026-07-31T06:00:08.910931+00:00"
-    last_push: "2026-10-09"
-  - name: "mattpocock"
-    title: "mattpocock"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 524
-    first_seen: null
-    last_push: "2026-06-22"
-  - name: "dictionary-of-ai-coding"
-    title: "dictionary-of-ai-coding"
-    description: "AI coding jargon, explained in plain English."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 5018
-    first_seen: null
-    last_push: "2026-09-24"
+    last_push: "2026-10-13"
   - name: "sandcastle"
     title: "sandcastle"
     description: "Orchestrate sandboxed coding agents in TypeScript with sandcastle.run()"
     language: "TypeScript"
     topics: []
-    stars_fact: 8343
+    stars_fact: 8504
     first_seen: "2026-10-03T06:01:20.490195+00:00"
-    last_push: "2026-10-08"
-  - name: "course-video-manager"
-    title: "course-video-manager"
-    description: null
+    last_push: "2026-10-16"
+  - name: "dictionary-of-ai-coding"
+    title: "dictionary-of-ai-coding"
+    description: "AI coding jargon, explained in plain English."
     language: "TypeScript"
     topics: []
-    stars_fact: 791
+    stars_fact: 5151
     first_seen: null
-    last_push: "2026-10-09"
-  - name: "ts-reset"
-    title: "ts-reset"
-    description: "A 'CSS reset' for TypeScript, improving types for common JavaScript API's"
+    last_push: "2026-09-24"
+  - name: "evalite"
+    title: "evalite"
+    description: "Evaluate your LLM-powered apps with TypeScript"
     language: "TypeScript"
     topics:
-      - "reset"
+      - "ai"
+      - "evals"
       - "typescript"
-    stars_fact: 8614
+    stars_fact: 1718
     first_seen: null
-    last_push: "2026-04-01"
+    last_push: "2026-04-28"
+  - name: "ts-error-translator"
+    title: "ts-error-translator"
+    description: "VSCode extension to turn TypeScript errors into plain English"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 2456
+    first_seen: null
+    last_push: "2024-08-05"
+  - name: "mattpocock"
+    title: "mattpocock"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 565
+    first_seen: null
+    last_push: "2026-06-22"
 ---
 
 # mattpocock

@@ -8,8 +8,8 @@ provenance_repos:
   - "agent-substrate/substrate"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-16T08:30:18.142355+00:00"
+repos_populated: false
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "a5ffcd0a46dd44fd"
 pushes_per_week: [0, 1, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0, 3]
@@ -76,55 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "aws-lambda-testing"
-    title: "aws-lambda-testing"
-    description: null
-    language: "Shell"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2025-03-06"
-  - name: "kgateway-import-test"
-    title: "kgateway-import-test"
-    description: null
-    language: "Go"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2025-02-11"
-  - name: "postgres-metering-runner"
-    title: "postgres-metering-runner"
-    description: "Expiremental metering + postgres integration."
-    language: "Go"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2020-11-03"
-  - name: "kubectl-catalog-plugin"
-    title: "kubectl-catalog-plugin"
-    description: "An expiremental kubectl custom plugin for interacting with OLM's newest file-based catalog (FBC) packaging format in dev environments."
-    language: "Go"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2022-05-31"
-  - name: "kubectl-rukpak-plugin"
-    title: "kubectl-rukpak-plugin"
-    description: "A rukpak plugin for gaining visibility into unpacked Bundle contents"
-    language: "Go"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2022-03-11"
-  - name: "manifests-to-csv"
-    title: "manifests-to-csv"
-    description: "Generate an OLM CSV from a raw Kubernetes manifest directory"
-    language: "Go"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2022-01-21"
+repos: []
 ---
 
 # timflannagan

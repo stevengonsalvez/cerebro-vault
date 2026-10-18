@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "3eacb4655aba2497"
-pushes_per_week: [0, 3, 4, 3, 0, 2, 0, 0, 2, 5, 1, 1, 0]
+pushes_per_week: [0, 4, 3, 3, 0, 2, 0, 0, 3, 4, 1, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -82,15 +82,15 @@ repos:
     description: "Pi Gui"
     language: "Rust"
     topics: []
-    stars_fact: 14
+    stars_fact: 15
     first_seen: null
-    last_push: "2026-10-10"
+    last_push: "2026-10-18"
   - name: "CVE-2025-55182-research"
     title: "CVE-2025-55182-research"
     description: "CVE-2025-55182 POC"
     language: "JavaScript"
     topics: []
-    stars_fact: 791
+    stars_fact: 790
     first_seen: null
     last_push: "2025-12-08"
   - name: "serval"

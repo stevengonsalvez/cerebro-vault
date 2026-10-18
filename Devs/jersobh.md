@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "c1af6b58492f9bf4"
-pushes_per_week: [4, 4, 0, 0, 0, 0, 0, 0, 2, 0, 0, 1, 0]
+pushes_per_week: [6, 1, 0, 0, 0, 0, 0, 0, 2, 0, 0, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 11
+    pushes: 10
     distinct_repos: 2
-    active_days: 8
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.3750
-  repo_per_active_day: 0.2500
+  push_per_day: 1.4286
+  repo_per_active_day: 0.2857
   not_owned_ratio: 0.0000
   basename_concentration: 0.5000
   shapes: []
@@ -65,18 +65,26 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 11
+    pushes: 10
     distinct_repos: 2
-    pushes_per_repo: 5.5000
-    active_days: 8
+    pushes_per_repo: 5.0000
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 8 active days in 90d — pass"
+  - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "epochdb-server"
+    title: "epochdb-server"
+    description: "EpochDB Distributed Server is an asynchronous, high-concurrency memory and vector database server designed for agentic workloads. It supports multi-node clustering with automatic horizontal sharding, consistent hashing write distribution, and direct prefix-based routing."
+    language: "Python"
+    topics: []
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-10-13"
   - name: "the-office-crewai"
     title: "the-office-crewai"
     description: "A 3d office with agents that do actual work."
@@ -92,15 +100,7 @@ repos:
     topics: []
     stars_fact: 24
     first_seen: null
-    last_push: "2026-10-07"
-  - name: "epochdb-server"
-    title: "epochdb-server"
-    description: "EpochDB Distributed Server is an asynchronous, high-concurrency memory and vector database server designed for agentic workloads. It supports multi-node clustering with automatic horizontal sharding, consistent hashing write distribution, and direct prefix-based routing."
-    language: "Python"
-    topics: []
-    stars_fact: 4
-    first_seen: null
-    last_push: "2026-08-03"
+    last_push: "2026-10-14"
   - name: "aiowirecard"
     title: "aiowirecard"
     description: "Wirecard/Moip API asyncio wrapper"
@@ -129,6 +129,6 @@ repos:
 
 # jersobh
 
-11 pushes across 2 repositories on 8 active days in the last 90 days of public GitHub push activity.
+10 pushes across 2 repositories on 7 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/jersobh

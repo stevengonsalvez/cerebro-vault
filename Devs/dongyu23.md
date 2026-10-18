@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "90688bf127241ceb"
 pushes_per_week: [0, 5, 0, 1, 0, 0, 0, 0, 2, 0, 0, 1, 1]
@@ -77,6 +77,14 @@ reasons:
   - "activity: 8 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "ACL4SSR-Luyuyun"
+    title: "ACL4SSR-Luyuyun"
+    description: "基于ACL4SSR订阅地址-针对鹿语云机场定制的订阅转换文件，主要新增鹿语云emby节点解析与规则引流"
+    language: null
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-17"
   - name: "bilibili-copy-subtitles"
     title: "bilibili-copy-subtitles"
     description: "Bilibili 一键复制纯文字字幕的 Tampermonkey 用户脚本"
@@ -84,15 +92,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-09"
-  - name: "bilibili-copy-subtitles-v2"
-    title: "bilibili-copy-subtitles-v2"
-    description: "一键复制 B 站/YouTube/视频号字幕的油猴脚本 v2：章节选择、流式分段识别、断点续传、独立工作标签页"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-09"
+    last_push: "2026-10-15"
   - name: "knowsense"
     title: "knowsense"
     description: null
@@ -101,14 +101,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-05-26"
-  - name: "ACL4SSR-Luyuyun"
-    title: "ACL4SSR-Luyuyun"
-    description: "基于ACL4SSR订阅地址-针对鹿语云机场定制的订阅转换文件，主要新增鹿语云emby节点解析与规则引流"
-    language: null
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-18"
   - name: "xiguang"
     title: "xiguang"
     description: "隙光是一款私人多媒体碎片记录与回看工具，让日常的细碎感受不再分散丢失，而是在时间河流中自然沉淀成只属于自己的内在脉络。"
@@ -116,7 +108,7 @@ repos:
     topics: []
     stars_fact: 4
     first_seen: null
-    last_push: "2026-09-16"
+    last_push: "2026-10-14"
   - name: "hermes-installer-skill"
     title: "hermes-installer-skill"
     description: "Hermes Agent Installer Skill for OpenClaw"
@@ -125,6 +117,14 @@ repos:
     stars_fact: 4
     first_seen: null
     last_push: "2026-04-11"
+  - name: "ai-driven-develop-skills"
+    title: "ai-driven-develop-skills"
+    description: "让 Claude Code 像一支纪律严明的工程团队，从需求到部署分步推进、每步验收，可靠交付完整项目。"
+    language: null
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-05-11"
 ---
 
 # dongyu23

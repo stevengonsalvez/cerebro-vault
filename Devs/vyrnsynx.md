@@ -8,16 +8,16 @@ provenance_repos:
   - "apache/maka"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+repos_populated: false
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 4, 2]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 5, 1]
 windows:
   "7d":
-    pushes: 3
+    pushes: 2
     distinct_repos: 1
-    active_days: 3
+    active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 3
+    pushes: 2
     distinct_repos: 1
-    pushes_per_repo: 3.0000
-    active_days: 3
+    pushes_per_repo: 2.0000
+    active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -76,31 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "tufty-arm-create"
-    title: "tufty-arm-create"
-    description: "Arm Create conference firmware for the Pimoroni Tufty 2350 only. The with-filesystem image of MicroPython bw-1.28.0-3 restores the firmware plus the badge apps and pictures. Not the stock release from pimoroni/tufty2350."
-    language: "Python"
-    topics: []
-    stars_fact: 51
-    first_seen: null
-    last_push: "2026-09-28"
-  - name: "dotfield"
-    title: "dotfield"
-    description: null
-    language: "Astro"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-30"
-  - name: "vyrnsynx"
-    title: "vyrnsynx"
-    description: "Profile README"
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-22"
+repos: []
 ---
 
 # vyrnsynx

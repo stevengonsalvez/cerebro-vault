@@ -8,16 +8,16 @@ provenance_repos:
   - "can1357/oh-my-pi"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+repos_populated: false
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [29, 41, 58, 81, 20, 17, 2, 6, 26, 37, 79, 12, 15]
+pushes_per_week: [30, 47, 55, 86, 15, 15, 2, 10, 31, 58, 51, 12, 11]
 windows:
   "7d":
-    pushes: 16
-    distinct_repos: 8
-    active_days: 4
+    pushes: 15
+    distinct_repos: 7
+    active_days: 3
     repos_not_owned: 3
     not_owned_basenames: 2
     not_owned_owners: 3
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 16
-    distinct_repos: 8
-    pushes_per_repo: 2.0000
-    active_days: 4
+    pushes: 15
+    distinct_repos: 7
+    pushes_per_repo: 2.1429
+    active_days: 3
     repos_not_owned: 3
     not_owned_basenames: 2
     not_owned_owners: 3
@@ -76,67 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 65 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "pi-subagents"
-    title: "pi-subagents"
-    description: "Pi extension for async subagent delegation with truncation, artifacts, and session sharing"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 3898
-    first_seen: null
-    last_push: "2026-10-11"
-  - name: "pi-mcp-adapter"
-    title: "pi-mcp-adapter"
-    description: "Token-efficient MCP adapter for Pi coding agent"
-    language: "TypeScript"
-    topics:
-      - "ai"
-      - "claude"
-      - "coding-agent"
-      - "extension"
-      - "llm"
-      - "mcp"
-      - "model-context-protocol"
-      - "pi"
-    stars_fact: 1587
-    first_seen: null
-    last_push: "2026-10-10"
-  - name: "visual-explainer"
-    title: "visual-explainer"
-    description: "Agent skill that generates rich HTML pages or slide decks for diagrams, diff reviews, plan audits, data tables, and project recaps"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 10341
-    first_seen: null
-    last_push: "2026-10-10"
-  - name: "pi-powerline-footer"
-    title: "pi-powerline-footer"
-    description: "Powerline-style status bar extension for pi coding agent"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 456
-    first_seen: null
-    last_push: "2026-10-10"
-  - name: "pi-web-access"
-    title: "pi-web-access"
-    description: "Web search and content extraction extension for Pi coding agent"
-    language: "JavaScript"
-    topics:
-      - "perplexity"
-      - "pi-coding-agent"
-      - "typescript"
-      - "web-search"
-    stars_fact: 1616
-    first_seen: null
-    last_push: "2026-10-09"
-  - name: "pi-intercom"
-    title: "pi-intercom"
-    description: "Inter-session communication extension for pi coding agent"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 533
-    first_seen: null
-    last_push: "2026-10-10"
+repos: []
 ---
 
 # nicobailon

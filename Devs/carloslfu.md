@@ -10,10 +10,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "fb0827c68cc0b5d0"
-pushes_per_week: [19, 9, 0, 1, 1, 3, 0, 3, 2, 6, 9, 15, 1]
+pushes_per_week: [19, 9, 0, 2, 2, 1, 0, 4, 1, 6, 13, 11, 1]
 windows:
   "7d":
     pushes: 1
@@ -101,9 +101,9 @@ repos:
       - "qwen"
       - "qwen3"
       - "swift"
-    stars_fact: 453
+    stars_fact: 477
     first_seen: "2026-09-02T06:00:06.666008+00:00"
-    last_push: "2026-10-07"
+    last_push: "2026-10-16"
   - name: "rewire"
     title: "rewire"
     description: "A browser language model laboratory. Chat, teach, and take apart real models on your device."

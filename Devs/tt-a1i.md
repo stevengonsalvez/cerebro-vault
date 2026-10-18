@@ -11,19 +11,19 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "26de699d3e5c651e"
   - "4d1450729e6ff44d"
-pushes_per_week: [12, 10, 3, 7, 4, 13, 2, 10, 10, 15, 11, 30, 12]
+pushes_per_week: [13, 11, 1, 7, 11, 8, 0, 11, 14, 14, 21, 16, 12]
 windows:
   "7d":
-    pushes: 16
-    distinct_repos: 4
-    active_days: 3
-    repos_not_owned: 3
-    not_owned_basenames: 2
-    not_owned_owners: 3
+    pushes: 12
+    distinct_repos: 3
+    active_days: 2
+    repos_not_owned: 2
+    not_owned_basenames: 1
+    not_owned_owners: 2
   "30d":
     pushes: 69
     distinct_repos: 11
@@ -52,13 +52,13 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 16
-    distinct_repos: 4
+    pushes: 12
+    distinct_repos: 3
     pushes_per_repo: 4.0000
-    active_days: 3
-    repos_not_owned: 3
-    not_owned_basenames: 2
-    not_owned_owners: 3
+    active_days: 2
+    repos_not_owned: 2
+    not_owned_basenames: 1
+    not_owned_owners: 2
   "30d":
     pushes: 69
     distinct_repos: 11
@@ -105,30 +105,53 @@ repos:
       - "software-architecture"
       - "system-design"
       - "visualization"
-    stars_fact: 81350
+    stars_fact: 85008
     first_seen: "2026-08-15T06:00:05.480092+00:00"
-    last_push: "2026-10-10"
-  - name: "tt-a1i"
-    title: "tt-a1i"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 4
-    first_seen: null
-    last_push: "2026-10-10"
-  - name: "test-value"
-    title: "test-value"
-    description: "An agent skill for tests worth maintaining. Improve regression protection, feedback speed, and maintenance cost."
-    language: null
+    last_push: "2026-10-18"
+  - name: "simplify-codebase"
+    title: "simplify-codebase"
+    description: "Prove and remove accidental codebase complexity without breaking behavior."
+    language: "HTML"
     topics:
       - "agent-skills"
       - "ai-agents"
+      - "code-quality"
+      - "codebase"
+      - "codex"
       - "developer-tools"
-      - "test-automation"
-      - "testing"
-    stars_fact: 2
+      - "refactoring"
+    stars_fact: 507
+    first_seen: null
+    last_push: "2026-09-04"
+  - name: "matt-skills-with-to-goal"
+    title: "matt-skills-with-to-goal"
+    description: "Planning → verifiable goals → fresh-session implementation for AI coding agents. Based on mattpocock/skills v1.1."
+    language: "Shell"
+    topics:
+      - "agent-skills"
+      - "ai-agents"
+      - "claude-code"
+      - "codex"
+      - "coding-agents"
+      - "developer-tools"
+      - "workflow"
+    stars_fact: 185
     first_seen: null
     last_push: "2026-10-10"
+  - name: "skillroster"
+    title: "skillroster"
+    description: "Turn scattered, duplicated AI-agent Skills into per-Agent Rosters—with evidence, receipts, and exact undo."
+    language: "Rust"
+    topics:
+      - "ai-agents"
+      - "cli"
+      - "developer-tools"
+      - "local-first"
+      - "rust"
+      - "skill-management"
+    stars_fact: 54
+    first_seen: null
+    last_push: "2026-10-15"
   - name: "hive"
     title: "hive"
     description: "Browser-native hive-mind for CLI coding agents — Claude Code, Codex, Gemini, and OpenCode collaborate as real PTY processes via a team protocol."
@@ -146,32 +169,22 @@ repos:
       - "nodejs"
       - "pty"
       - "typescript"
-    stars_fact: 563
+    stars_fact: 572
     first_seen: null
     last_push: "2026-10-03"
-  - name: "simplify-codebase"
-    title: "simplify-codebase"
-    description: "Prove and remove accidental codebase complexity without breaking behavior."
-    language: "HTML"
+  - name: "test-value"
+    title: "test-value"
+    description: "An agent skill for tests worth maintaining. Improve regression protection, feedback speed, and maintenance cost."
+    language: null
     topics:
       - "agent-skills"
       - "ai-agents"
-      - "code-quality"
-      - "codebase"
-      - "codex"
       - "developer-tools"
-      - "refactoring"
-    stars_fact: 505
+      - "test-automation"
+      - "testing"
+    stars_fact: 3
     first_seen: null
-    last_push: "2026-09-04"
-  - name: "claude-hud"
-    title: "claude-hud"
-    description: "Customized Claude Code HUD statusline plugin (fork of jarrodwatts/claude-hud)"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 4
-    first_seen: null
-    last_push: "2026-08-31"
+    last_push: "2026-10-16"
 ---
 
 # tt-a1i

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [6, 3, 1, 5, 1, 0, 0, 2, 0, 3, 0, 1, 1]
+pushes_per_week: [6, 2, 1, 6, 0, 0, 0, 2, 1, 2, 0, 2, 0]
 windows:
   "7d":
     pushes: 1
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 23
+    pushes: 22
     distinct_repos: 6
-    active_days: 21
+    active_days: 20
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.0952
-  repo_per_active_day: 0.2857
+  push_per_day: 1.1000
+  repo_per_active_day: 0.3000
   not_owned_ratio: 0.0000
   basename_concentration: 0.1667
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 23
+    pushes: 22
     distinct_repos: 6
-    pushes_per_repo: 3.8333
-    active_days: 21
+    pushes_per_repo: 3.6667
+    active_days: 20
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 21 active days in 90d — pass"
+  - "activity: 20 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "fcm-hosts-next"
@@ -84,7 +84,23 @@ repos:
     topics: []
     stars_fact: 58
     first_seen: null
-    last_push: "2026-10-09"
+    last_push: "2026-10-18"
+  - name: "cagedbird043"
+    title: "cagedbird043"
+    description: "Profile source for CagedBird — systems, games, and upstream work."
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-16"
+  - name: "kiro-relay"
+    title: "kiro-relay"
+    description: "Minimal Kiro reverse proxy in Bun and TypeScript"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-15"
   - name: "brilliant-sort"
     title: "brilliant-sort"
     description: "Deterministic Brilliant Sort core, Harness & playable web demo / 确定性核心、Harness 与可玩 Web Demo"
@@ -109,26 +125,10 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-08-17"
-  - name: "cagedbird.cn"
-    title: "cagedbird.cn"
-    description: "CagedBird's personal engineering blog and lab notes."
-    language: "HTML"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-14"
-  - name: "upstream-work"
-    title: "upstream-work"
-    description: "Curated, evidence-linked upstream contributions that landed."
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-07-17"
 ---
 
 # cagedbird043
 
-23 pushes across 6 repositories on 21 active days in the last 90 days of public GitHub push activity.
+22 pushes across 6 repositories on 20 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/cagedbird043

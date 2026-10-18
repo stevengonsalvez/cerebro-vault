@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "73468cde177ddae6"
-pushes_per_week: [1, 1, 3, 19, 0, 1, 1, 3, 0, 10, 11, 8, 4]
+pushes_per_week: [1, 1, 3, 19, 0, 1, 2, 2, 0, 11, 11, 8, 3]
 windows:
   "7d":
     pushes: 4
@@ -100,15 +100,15 @@ repos:
       - "windows"
       - "windows-app"
       - "windows-desktop"
-    stars_fact: 593
+    stars_fact: 605
     first_seen: null
-    last_push: "2026-10-09"
+    last_push: "2026-10-18"
   - name: "headroom-animation"
     title: "headroom-animation"
     description: "Two 51-second explainer films for Headroom, drawn, animated and scored entirely in JavaScript on canvas"
     language: "JavaScript"
     topics: []
-    stars_fact: 2
+    stars_fact: 4
     first_seen: null
     last_push: "2026-09-26"
   - name: "Semantic-Similarity-Prototype"

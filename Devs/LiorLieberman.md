@@ -8,11 +8,11 @@ provenance_repos:
   - "agent-substrate/substrate"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-16T08:30:18.142355+00:00"
+repos_populated: false
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "a5ffcd0a46dd44fd"
-pushes_per_week: [0, 3, 1, 0, 0, 0, 0, 0, 2, 2, 3, 3, 0]
+pushes_per_week: [0, 3, 1, 0, 0, 0, 0, 0, 2, 2, 5, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,47 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 10 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "substrate-gcp-secrets-manager-plugin"
-    title: "substrate-gcp-secrets-manager-plugin"
-    description: "GCP secrets manager plugin that implements substrate credential provider protos"
-    language: "Go"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-28"
-  - name: "ext-proc-server-subsets-example"
-    title: "ext-proc-server-subsets-example"
-    description: null
-    language: "Go"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2025-03-06"
-  - name: "grafana-dashboards-helm"
-    title: "grafana-dashboards-helm"
-    description: "This chart will convert json files in the dashboards directory to a Kubernetes configmap that eventually will be a dashboard in grafana"
-    language: "Mustache"
-    topics: []
-    stars_fact: 4
-    first_seen: null
-    last_push: "2022-04-25"
-  - name: "identity-based-authorization"
-    title: "identity-based-authorization"
-    description: "This repository holds new Kubernetes APIs to provide identity-based authorization in Kubernetes."
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2024-10-03"
-  - name: "go-templates-training"
-    title: "go-templates-training"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2021-06-18"
+repos: []
 ---
 
 # LiorLieberman

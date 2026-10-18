@@ -8,11 +8,11 @@ provenance_repos:
   - "AstrBotDevs/AstrBot"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+repos_populated: false
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [3, 5, 1, 3, 1, 0, 0, 0, 1, 0, 1, 0, 0]
+pushes_per_week: [3, 6, 0, 3, 1, 0, 0, 1, 0, 0, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,56 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 11 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "lxfight"
-    title: "lxfight"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 4
-    first_seen: null
-    last_push: "2026-10-11"
-  - name: "astrbot2github"
-    title: "astrbot2github"
-    description: "为AstrBot实现的基于deno的github加速访问服务"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 316
-    first_seen: null
-    last_push: "2025-06-06"
-  - name: "astrbot_plugin_mnemosyne"
-    title: "astrbot_plugin_mnemosyne"
-    description: "一个AstrBot插件，实现基于RAG技术的长期记忆功能。"
-    language: "Python"
-    topics:
-      - "astrbot-plugin"
-    stars_fact: 254
-    first_seen: null
-    last_push: "2026-09-15"
-  - name: "astrbot_plugin_live2d_adapter"
-    title: "astrbot_plugin_live2d_adapter"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 14
-    first_seen: null
-    last_push: "2026-06-12"
-  - name: "astrbot_plugin_memoir"
-    title: "astrbot_plugin_memoir"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 4
-    first_seen: null
-    last_push: "2026-09-13"
-  - name: "astrbot-live2d-desktop"
-    title: "astrbot-live2d-desktop"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 25
-    first_seen: null
-    last_push: "2026-08-19"
+repos: []
 ---
 
 # lxfight

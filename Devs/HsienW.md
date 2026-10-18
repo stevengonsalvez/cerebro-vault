@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "e5b23adc376a62a9"
-pushes_per_week: [0, 1, 0, 1, 3, 2, 0, 0, 0, 2, 4, 2, 2]
+pushes_per_week: [0, 1, 0, 1, 5, 0, 0, 0, 0, 2, 4, 3, 1]
 windows:
   "7d":
-    pushes: 3
+    pushes: 2
     distinct_repos: 2
-    active_days: 3
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 3
+    pushes: 2
     distinct_repos: 2
-    pushes_per_repo: 1.5000
-    active_days: 3
+    pushes_per_repo: 1.0000
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -77,6 +77,14 @@ reasons:
   - "activity: 15 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "HsienW"
+    title: "HsienW"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-17"
   - name: "chat-gun"
     title: "chat-gun"
     description: "🤖 A full-stack Agent Chat Runtime for pre-production validation, built with act, TypeScript, and LangGraph JS combining streaming, multimodal, HITL, and tools with durable Task/Step execution, retry budgets, idempotency, compensation, distributed locks, context governance, OpenTelemetry tracing, model fallback, cost tracking, and Opik evaluation."
@@ -91,29 +99,7 @@ repos:
       - "qwen"
     stars_fact: 143
     first_seen: null
-    last_push: "2026-10-04"
-  - name: "ai-agent-coding-solution-kit"
-    title: "ai-agent-coding-solution-kit"
-    description: "📗Reusable docs, prompts, templates, and engineering practices for AI-agent coding, agent design, OpenSpec/SDD, context engineering, prompt engineering, and agent workflows."
-    language: "Vim Snippet"
-    topics:
-      - "agentic-coding"
-      - "ai-agent"
-      - "ai-coding"
-      - "development"
-      - "skills"
-      - "workflow"
-    stars_fact: 49
-    first_seen: null
-    last_push: "2026-09-12"
-  - name: "gun-harness-packages"
-    title: "gun-harness-packages"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-09"
+    last_push: "2026-10-17"
   - name: "gun-harness-engineering"
     title: "gun-harness-engineering"
     description: "Curated knowledge, design principles, and architectural mental models for AI Agent Harness for business engineering."
@@ -125,15 +111,29 @@ repos:
       - "harness-engineering"
     stars_fact: 1
     first_seen: null
-    last_push: "2026-10-07"
-  - name: "HsienW"
-    title: "HsienW"
+    last_push: "2026-10-14"
+  - name: "gun-harness-packages"
+    title: "gun-harness-packages"
     description: null
-    language: null
+    language: "TypeScript"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-05"
+    last_push: "2026-10-13"
+  - name: "ai-agent-coding-solution-kit"
+    title: "ai-agent-coding-solution-kit"
+    description: "📗Reusable docs, prompts, templates, and engineering practices for AI-agent coding, agent design, OpenSpec/SDD, context engineering, prompt engineering, and agent workflows."
+    language: "Vim Snippet"
+    topics:
+      - "agentic-coding"
+      - "ai-agent"
+      - "ai-coding"
+      - "development"
+      - "skills"
+      - "workflow"
+    stars_fact: 50
+    first_seen: null
+    last_push: "2026-09-12"
   - name: "natrix"
     title: "natrix"
     description: "🐍Framework-free browser game runtime built on vanilla JS - fixed-timestep simulation, deterministic replay (seeded RNG + tick-indexed commands), explicit lifecycle state machine, and a swappable DOM/Canvas/Null renderer contract. Demoed via a local 2P Snake game."

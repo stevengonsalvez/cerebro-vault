@@ -9,22 +9,22 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [20, 40, 15, 45, 19, 23, 7, 27, 44, 246, 135, 71, 93]
+pushes_per_week: [22, 39, 17, 51, 15, 21, 6, 28, 92, 262, 82, 85, 65]
 windows:
   "7d":
-    pushes: 99
-    distinct_repos: 10
-    active_days: 5
+    pushes: 85
+    distinct_repos: 8
+    active_days: 4
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 1
   "30d":
-    pushes: 579
+    pushes: 578
     distinct_repos: 53
-    active_days: 26
+    active_days: 25
     repos_not_owned: 29
     not_owned_basenames: 29
     not_owned_owners: 1
@@ -49,18 +49,18 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 99
-    distinct_repos: 10
-    pushes_per_repo: 9.9000
-    active_days: 5
+    pushes: 85
+    distinct_repos: 8
+    pushes_per_repo: 10.6250
+    active_days: 4
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 1
   "30d":
-    pushes: 579
+    pushes: 578
     distinct_repos: 53
-    pushes_per_repo: 10.9245
-    active_days: 26
+    pushes_per_repo: 10.9057
+    active_days: 25
     repos_not_owned: 29
     not_owned_basenames: 29
     not_owned_owners: 1
@@ -77,90 +77,80 @@ reasons:
   - "activity: 75 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "layby"
-    title: "layby"
-    description: "Layby: place idle LLM sessions' KV cache by when they come back. Cost rule, Layby-Dwell, vLLM and SGLang adapters, ReturnBench."
-    language: "Python"
-    topics: []
-    stars_fact: 0
+  - name: "glidemq-hono"
+    title: "glidemq-hono"
+    description: "Hono middleware for glide-mq — REST API + SSE events for queue management"
+    language: "TypeScript"
+    topics:
+      - "glide-mq"
+      - "hono"
+      - "job-queue"
+      - "message-queue"
+      - "middleware"
+      - "nodejs"
+      - "redis"
+      - "rest-api"
+      - "sse"
+      - "typescript"
+      - "valkey"
+      - "web-framework"
+    stars_fact: 13
     first_seen: null
-    last_push: "2026-10-09"
-  - name: "signbridge"
-    title: "signbridge"
-    description: "Real-time ASL signing overlay for Telegram calls — open source Android app for deaf users"
-    language: "Python"
+    last_push: "2026-10-18"
+  - name: "glidemq-fastify"
+    title: "glidemq-fastify"
+    description: "Fastify plugin for glide-mq queue management"
+    language: "TypeScript"
     topics: []
-    stars_fact: 0
+    stars_fact: 3
     first_seen: null
-    last_push: "2026-10-09"
-  - name: "avifenesh"
-    title: "avifenesh"
-    description: null
-    language: null
+    last_push: "2026-10-18"
+  - name: "glidemq-dashboard"
+    title: "glidemq-dashboard"
+    description: "Web dashboard for glide-mq — real-time queue monitoring and management"
+    language: "HTML"
+    topics:
+      - "admin"
+      - "dashboard"
+      - "express"
+      - "glide-mq"
+      - "job-queue"
+      - "message-queue"
+      - "monitoring"
+      - "nodejs"
+      - "queue"
+      - "real-time"
+      - "redis"
+      - "typescript"
+      - "valkey"
+      - "web-ui"
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-10-18"
+  - name: "hermes-android-app"
+    title: "hermes-android-app"
+    description: "Native Android client for a self-hosted Hermes Agent gateway"
+    language: "Kotlin"
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-10-09"
-  - name: "tools"
-    title: "tools"
-    description: "harness - Agent tools (read, write, grep, glob, bash, webfetch, lsp, skill) with Rust and TS parity. Designed for real LLMs usage."
-    language: "TypeScript"
-    topics:
-      - "agents"
-      - "bash"
-      - "cargo"
-      - "fetch"
-      - "general-purpose"
-      - "glob"
-      - "grep"
-      - "harness"
-      - "llm"
-      - "lsp"
-      - "npm"
-      - "read"
-      - "research"
-      - "rust"
-      - "skills"
-      - "tools"
-      - "ts"
-      - "unix"
-      - "windows"
-      - "write"
-    stars_fact: 7
-    first_seen: null
-    last_push: "2026-10-08"
-  - name: "revuto"
-    title: "revuto"
-    description: "Local, supplier-agnostic, repo-agnostic autonomous PR reviewer that learns from maintainer feedback into graduated skills (any OpenAI-compatible model; Obsidian vault; SurrealDB/SQLite)."
-    language: "TypeScript"
+    last_push: "2026-10-18"
+  - name: "openslot"
+    title: "openslot"
+    description: "Free self-hosted scheduling with bring-your-own-agent MCP/API access and website embeds. An independent Calnode fork."
+    language: "Go"
     topics: []
-    stars_fact: 4
+    stars_fact: 0
     first_seen: null
-    last_push: "2026-10-08"
-  - name: "scrump"
-    title: "scrump"
-    description: "Fast, format-aware secret scrubber for binary capture artifacts (perf.data, nsys-rep, ELF core, hprof, JFR, pcap, SQLite, tar/zip)."
+    last_push: "2026-10-18"
+  - name: "speedkey"
+    title: "speedkey"
+    description: null
     language: "Rust"
-    topics:
-      - "core-dump"
-      - "data-loss-prevention"
-      - "hprof"
-      - "jfr"
-      - "nsys"
-      - "observability"
-      - "pcap"
-      - "perf"
-      - "pii"
-      - "profiling"
-      - "redaction"
-      - "rust"
-      - "secret-scanning"
-      - "secrets"
-      - "security"
-      - "sqlite"
-    stars_fact: 2
+    topics: []
+    stars_fact: 1
     first_seen: null
-    last_push: "2026-10-08"
+    last_push: "2026-10-18"
 ---
 
 # avifenesh

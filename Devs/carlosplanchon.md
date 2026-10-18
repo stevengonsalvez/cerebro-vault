@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "c1af6b58492f9bf4"
-pushes_per_week: [0, 7, 5, 2, 2, 1, 0, 1, 0, 10, 15, 1, 9]
+pushes_per_week: [0, 7, 5, 2, 2, 1, 0, 1, 3, 7, 16, 1, 8]
 windows:
   "7d":
-    pushes: 9
+    pushes: 8
     distinct_repos: 4
-    active_days: 4
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 9
+    pushes: 8
     distinct_repos: 4
-    pushes_per_repo: 2.2500
-    active_days: 4
+    pushes_per_repo: 2.0000
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -77,78 +77,6 @@ reasons:
   - "activity: 26 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "parsel_text"
-    title: "parsel_text"
-    description: "Module to get_selector_text from parsel.Selector objects."
-    language: "Python"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-10-10"
-  - name: "rsyscall-ng"
-    title: "rsyscall-ng"
-    description: "Process-independent, type-safe Linux syscalls for Python: a modernized rsyscall with a clean-room Rust native side"
-    language: "Python"
-    topics:
-      - "distributed-systems"
-      - "ipc"
-      - "linux"
-      - "process-management"
-      - "python"
-      - "remote-execution"
-      - "rust"
-      - "syscalls"
-      - "systems-programming"
-      - "trio"
-      - "unix"
-      - "x86-64"
-    stars_fact: 5
-    first_seen: null
-    last_push: "2026-10-03"
-  - name: "firmauy-mcp-inspect"
-    title: "firmauy-mcp-inspect"
-    description: "Read-only MCP server that brings FirmaUY signature inspection to your AI assistant. Offline, no smart card, no signing, redacted by default."
-    language: "Python"
-    topics:
-      - "ai"
-      - "cades"
-      - "cedula"
-      - "digital-signature"
-      - "electronic-signature"
-      - "firmauy"
-      - "mcp"
-      - "mcp-server"
-      - "model-context-protocol"
-      - "pades"
-      - "pdf-signature"
-      - "signature-verification"
-      - "uruguay"
-      - "x509"
-      - "xades"
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-10-09"
-  - name: "firmauy"
-    title: "firmauy"
-    description: "Sign and verify PDF (PAdES), XML (XAdES) and arbitrary files (CAdES/.p7s) with the Uruguayan cédula via PKCS#11."
-    language: "Python"
-    topics:
-      - "cades"
-      - "cedula"
-      - "civic-tech"
-      - "digital-signature"
-      - "eid"
-      - "middleware"
-      - "opensc"
-      - "p7s"
-      - "pades"
-      - "pkcs11"
-      - "smartcard"
-      - "uruguay"
-      - "xades"
-    stars_fact: 8
-    first_seen: null
-    last_push: "2026-10-09"
   - name: "betterhtmlchunking"
     title: "betterhtmlchunking"
     description: "BetterHTMLChunking is a Python library for intelligent HTML segmentation. It builds a DOM tree from raw HTML and extracts content-rich regions of interest, making content analysis effortless. Great for LLM based processing."
@@ -159,17 +87,56 @@ repos:
       - "html"
       - "llm"
       - "splitting"
-    stars_fact: 56
+    stars_fact: 57
     first_seen: null
     last_push: "2026-07-05"
-  - name: "carlosplanchon"
-    title: "carlosplanchon"
-    description: "That's me!"
-    language: null
+  - name: "nanosaas"
+    title: "nanosaas"
+    description: "Lightweight microservice platform for managing and tracking computational tasks. Designed with simplicity and scalability in mind."
+    language: "Python"
+    topics:
+      - "alpinejs"
+      - "fastapi"
+      - "jinja2"
+      - "nanosaas"
+      - "python"
+      - "saas"
+      - "web"
+    stars_fact: 8
+    first_seen: null
+    last_push: "2026-10-17"
+  - name: "webscreencap"
+    title: "webscreencap"
+    description: "A microservice for capturing full-page screenshots and HTML from any URL asynchronously using FastAPI, Celery, and Node.js (Playwright). Results are uploaded to an S3-compatible storage."
+    language: "Python"
+    topics: []
+    stars_fact: 7
+    first_seen: null
+    last_push: "2026-10-17"
+  - name: "ai-url-aggregator"
+    title: "ai-url-aggregator"
+    description: "Python tool that uses Perplexity and OpenAI to search the internet for relevant URLs, then filters, deduplicates, and verifies each link’s availability, all in one streamlined workflow."
+    language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-16"
+  - name: "playwright-splash"
+    title: "playwright-splash"
+    description: "Simple Playwright scraper which receives an URL and returns the website code."
+    language: "JavaScript"
+    topics: []
+    stars_fact: 6
+    first_seen: null
+    last_push: "2026-10-16"
+  - name: "fastapi-lowjs-auth"
+    title: "fastapi-lowjs-auth"
+    description: "FastAPI LowJS auth system with backend and frontend. FastAPI + fastapi-users + fastapi-sso / HTML + TailwindCSS + AlpineJS"
+    language: "Python"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-04"
+    last_push: "2026-10-18"
 ---
 
 # carlosplanchon

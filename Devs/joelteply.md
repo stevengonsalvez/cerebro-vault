@@ -8,23 +8,23 @@ provenance_repos:
   - "antirez/ds4"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+repos_populated: false
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "3eacb4655aba2497"
-pushes_per_week: [17, 35, 27, 36, 5, 13, 3, 16, 36, 62, 111, 44, 39]
+pushes_per_week: [23, 37, 22, 34, 7, 10, 5, 20, 49, 71, 96, 41, 29]
 windows:
   "7d":
-    pushes: 43
+    pushes: 39
     distinct_repos: 4
-    active_days: 5
+    active_days: 4
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 1
   "30d":
-    pushes: 275
+    pushes: 271
     distinct_repos: 6
-    active_days: 26
+    active_days: 25
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 1
@@ -49,18 +49,18 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 43
+    pushes: 39
     distinct_repos: 4
-    pushes_per_repo: 10.7500
-    active_days: 5
+    pushes_per_repo: 9.7500
+    active_days: 4
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 1
   "30d":
-    pushes: 275
+    pushes: 271
     distinct_repos: 6
-    pushes_per_repo: 45.8333
-    active_days: 26
+    pushes_per_repo: 45.1667
+    active_days: 25
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 1
@@ -76,47 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 67 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "llm-interrogation"
-    title: "llm-interrogation"
-    description: "Mossad, CIA and FBI interrogation techniques to extract non-public LLM training data from any model"
-    language: "Python"
-    topics:
-      - "cia"
-      - "fbi"
-      - "interrogator"
-      - "jailbreaking"
-      - "kubark"
-      - "mossad"
-      - "peace"
-      - "reid-techniques"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-01-19"
-  - name: "lowratingsacademyawards.com"
-    title: "lowratingsacademyawards.com"
-    description: "The 1st Annual Low Ratings Academy Awards. \"Virtually Unwatchable.\" Hosted by \"Horrible\" Jimmy Kimmel."
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-02-03"
-  - name: "scanner-app"
-    title: "scanner-app"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2021-07-15"
-  - name: "google-glog"
-    title: "google-glog"
-    description: "Automatically exported from code.google.com/p/google-glog"
-    language: "C++"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2016-01-18"
+repos: []
 ---
 
 # joelteply

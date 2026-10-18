@@ -9,13 +9,13 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "97c4e9cb8b163ddb"
   - "c7515e0fa4368a55"
   - "d3abe74726b22711"
   - "e7c647c4d0689526"
-pushes_per_week: [16, 12, 3, 9, 11, 0, 1, 3, 12, 16, 16, 0, 2]
+pushes_per_week: [20, 3, 4, 9, 10, 1, 0, 5, 15, 17, 10, 0, 2]
 windows:
   "7d":
     pushes: 2
@@ -32,16 +32,16 @@ windows:
     not_owned_basenames: 13
     not_owned_owners: 2
   "90d":
-    pushes: 101
+    pushes: 96
     distinct_repos: 21
-    active_days: 38
+    active_days: 37
     repos_not_owned: 18
     not_owned_basenames: 18
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 2.6579
-  repo_per_active_day: 0.5526
+  push_per_day: 2.5946
+  repo_per_active_day: 0.5676
   not_owned_ratio: 0.8571
   basename_concentration: 0.0476
   shapes: []
@@ -68,16 +68,16 @@ facets:
     not_owned_basenames: 13
     not_owned_owners: 2
   "90d":
-    pushes: 101
+    pushes: 96
     distinct_repos: 21
-    pushes_per_repo: 4.8095
-    active_days: 38
+    pushes_per_repo: 4.5714
+    active_days: 37
     repos_not_owned: 18
     not_owned_basenames: 18
     not_owned_owners: 2
 reasons:
   - "provenance: 4 vault signal(s) — pass"
-  - "activity: 38 active days in 90d — pass"
+  - "activity: 37 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "ito"
@@ -95,7 +95,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-01"
+    last_push: "2026-10-14"
   - name: "filegardener"
     title: "filegardener"
     description: "File gardener - file maintenance utilities - file dedup, only copy detection, prune empty dirs"
@@ -132,6 +132,6 @@ repos:
 
 # smorin
 
-101 pushes across 21 repositories on 38 active days in the last 90 days of public GitHub push activity.
+96 pushes across 21 repositories on 37 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/smorin

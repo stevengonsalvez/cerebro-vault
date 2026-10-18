@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: true
 repos_populated: true
-generated_at: "2026-10-16T08:30:18.142355+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "daa338753d6df9fd"
 pushes_per_week: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
@@ -77,6 +77,14 @@ reasons:
   - "activity: 1 active days in 90d — below the 5-day line, LABELLED low-n (never suppressed)"
   - "automation: clear — pass"
 repos:
+  - name: "agent-shell-skill"
+    title: "agent-shell-skill"
+    description: null
+    language: "Emacs Lisp"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-14"
   - name: "claude-thermos"
     title: "claude-thermos"
     description: "Keeps your Claude session warm for you"
@@ -84,7 +92,7 @@ repos:
     topics:
       - "ai-agents"
       - "claude-code"
-    stars_fact: 233
+    stars_fact: 234
     first_seen: "2026-07-24T06:00:05.187645+00:00"
     last_push: "2026-07-27"
   - name: "pittacus"
@@ -119,14 +127,6 @@ repos:
     stars_fact: 15
     first_seen: null
     last_push: "2026-01-03"
-  - name: "sqlglot-tokenizer"
-    title: "sqlglot-tokenizer"
-    description: null
-    language: "Rust"
-    topics: []
-    stars_fact: 4
-    first_seen: null
-    last_push: "2023-12-05"
 ---
 
 # izeigerman

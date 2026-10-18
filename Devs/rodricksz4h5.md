@@ -8,11 +8,11 @@ provenance_repos:
   - "Alishahryar1/free-claude-code"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-16T08:30:18.142355+00:00"
+repos_populated: false
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "9d67ce648f6a8919"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 2, 0, 0]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,15 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "titan-arch"
-    title: "titan-arch"
-    description: "Find the junctions a city can't live without - then simulate what happens when they fail. Road-network resilience analysis from OpenStreetMap and satellite imagery."
-    language: "Python"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-12"
+repos: []
 ---
 
 # rodricksz4h5

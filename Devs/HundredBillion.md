@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "e5b23adc376a62a9"
-pushes_per_week: [0, 0, 1, 0, 1, 3, 0, 3, 5, 5, 1, 1, 2]
+pushes_per_week: [0, 0, 1, 0, 3, 1, 0, 3, 9, 1, 2, 0, 2]
 windows:
   "7d":
     pushes: 2
@@ -77,14 +77,38 @@ reasons:
   - "activity: 12 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "prism.nvim"
+    title: "prism.nvim"
+    description: "An adaptive Neovim diff viewer for reading and reviewing agent-written code."
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-16"
+  - name: "VSVim"
+    title: "VSVim"
+    description: "An independent Neovim distribution for reviewing agent-written code."
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-17"
+  - name: "dmi_superpowers"
+    title: "dmi_superpowers"
+    description: "David Lee's personal consolidation of obra/superpowers and mattpocock/skills — a methodology engine of skills/plugins (PRD/TSP vocabulary, Matt's TDD, grill-with-docs)."
+    language: "JavaScript"
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-10-16"
   - name: "Sprite"
     title: "Sprite"
     description: null
     language: "Rust"
     topics: []
-    stars_fact: 0
+    stars_fact: 1
     first_seen: null
-    last_push: "2026-10-10"
+    last_push: "2026-10-17"
   - name: "UltimateVocalRemover"
     title: "UltimateVocalRemover"
     description: "This is a continuation of UVR5"
@@ -100,31 +124,7 @@ repos:
     topics: []
     stars_fact: 31
     first_seen: null
-    last_push: "2026-09-24"
-  - name: "promiseKits"
-    title: "promiseKits"
-    description: "promiseKits website"
-    language: "Ruby"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-21"
-  - name: "dmi_superpowers"
-    title: "dmi_superpowers"
-    description: "David Lee's personal consolidation of obra/superpowers and mattpocock/skills — a methodology engine of skills/plugins (PRD/TSP vocabulary, Matt's TDD, grill-with-docs)."
-    language: "JavaScript"
-    topics: []
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-09-20"
-  - name: "sprite.nvim"
-    title: "sprite.nvim"
-    description: "Neovim plugin that draws Neovim through Sprite's native Surfaces"
-    language: "Lua"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-19"
+    last_push: "2026-10-17"
 ---
 
 # HundredBillion

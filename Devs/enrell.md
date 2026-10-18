@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "4138778ebbc75ba6"
-pushes_per_week: [5, 6, 0, 0, 0, 0, 0, 0, 4, 3, 8, 2, 1]
+pushes_per_week: [6, 5, 0, 0, 0, 0, 0, 0, 4, 3, 8, 2, 1]
 windows:
   "7d":
     pushes: 1
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 18
+    pushes: 17
     distinct_repos: 6
-    active_days: 10
+    active_days: 9
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 18
+    pushes: 17
     distinct_repos: 6
-    pushes_per_repo: 3.0000
-    active_days: 10
+    pushes_per_repo: 2.8333
+    active_days: 9
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
@@ -77,32 +77,22 @@ reasons:
   - "activity: 17 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "enrell"
-    title: "enrell"
-    description: "Config files for my GitHub profile."
-    language: null
-    topics:
-      - "config"
-      - "github-config"
+  - name: "loom"
+    title: "loom"
+    description: null
+    language: "Rust"
+    topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-06"
-  - name: "lain"
-    title: "lain"
-    description: "Local-first media server in Go: replaceable plugins over a tiny core, embedded SPA, direct-play streaming, metadata enrichment and ffmpeg thumbnails."
-    language: "Go"
-    topics:
-      - "go"
-      - "home-media"
-      - "local-first"
-      - "media-server"
-      - "plugin-architecture"
-      - "self-hosted"
-      - "streaming"
-      - "svelte"
-    stars_fact: 1
+    last_push: "2026-10-16"
+  - name: "openvfs"
+    title: "openvfs"
+    description: "Layered, pluggable virtual file system for Rust: memory, host dir, mounts and copy-on-write overlays. Zero dependencies, MIT."
+    language: "Rust"
+    topics: []
+    stars_fact: 0
     first_seen: null
-    last_push: "2026-10-05"
+    last_push: "2026-10-16"
   - name: "nebula"
     title: "nebula"
     description: "Native Qt Quick workspace for terminal AI agents (Claude Code, Codex, opencode...) with a built-in operator"
@@ -115,24 +105,32 @@ repos:
       - "qml"
       - "qt6"
       - "terminal"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-03"
-  - name: "lain-desktop"
-    title: "lain-desktop"
-    description: "Native desktop client for the Lain media server - Qt 6/QML + libmpv."
-    language: "QML"
-    topics:
-      - "cpp"
-      - "desktop-app"
-      - "libmpv"
-      - "linux"
-      - "media-player"
-      - "qml"
-      - "qt6"
     stars_fact: 1
     first_seen: null
-    last_push: "2026-10-01"
+    last_push: "2026-10-14"
+  - name: "audio-enhancer"
+    title: "audio-enhancer"
+    description: "Advanced audio reconstruction pipeline with neural super-resolution and denoising"
+    language: "Python"
+    topics: []
+    stars_fact: 5
+    first_seen: null
+    last_push: "2026-02-07"
+  - name: "matrix"
+    title: "matrix"
+    description: "Rust kernel for spatiotemporal component composition, with language-independent plugins and local or remote execution"
+    language: "Rust"
+    topics:
+      - "ai-agents"
+      - "components"
+      - "composition"
+      - "distributed-systems"
+      - "kernel"
+      - "plugins"
+      - "rust"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-11"
   - name: "laira"
     title: "laira"
     description: "Self-hostable end-to-end encrypted voice and screen/game streaming (SFrame over mediasoup)"
@@ -140,15 +138,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-30"
-  - name: "relayhop"
-    title: "relayhop"
-    description: "Libera a transmissão de tela do Discord em 1 clique"
-    language: "Rust"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-11"
+    last_push: "2026-10-11"
 ---
 
 # enrell

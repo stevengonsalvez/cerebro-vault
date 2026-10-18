@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "b7bec34541d2ddb0"
-pushes_per_week: [35, 21, 17, 25, 19, 1, 2, 3, 2, 20, 5, 5, 0]
+pushes_per_week: [26, 23, 14, 27, 14, 2, 1, 5, 0, 22, 7, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 155
+    pushes: 142
     distinct_repos: 3
-    active_days: 43
+    active_days: 42
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 3.6047
-  repo_per_active_day: 0.0698
+  push_per_day: 3.3810
+  repo_per_active_day: 0.0714
   not_owned_ratio: 0.6667
   basename_concentration: 0.6667
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 155
+    pushes: 142
     distinct_repos: 3
-    pushes_per_repo: 51.6667
-    active_days: 43
+    pushes_per_repo: 47.3333
+    active_days: 42
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 43 active days in 90d — pass"
+  - "activity: 42 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "anatomy"
@@ -106,6 +106,14 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-06-30"
+  - name: "eveoy-mcp"
+    title: "eveoy-mcp"
+    description: "Ask about Eveoy and book pilots from any AI · $24.99 per real customer · 100% refunded for no-shows"
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-06-30"
   - name: "unihodl"
     title: "unihodl"
     description: "UNIHODL Agent Handoff SDK — pass human session context to AI agents (Claude, Gemini, OpenAI, MCP)."
@@ -118,6 +126,6 @@ repos:
 
 # FutureEnterprises
 
-155 pushes across 3 repositories on 43 active days in the last 90 days of public GitHub push activity.
+142 pushes across 3 repositories on 42 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/FutureEnterprises

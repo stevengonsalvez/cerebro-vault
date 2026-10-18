@@ -9,22 +9,22 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [5, 8, 3, 14, 18, 3, 0, 7, 7, 5, 2, 9, 7]
+pushes_per_week: [5, 8, 7, 16, 13, 2, 0, 13, 1, 5, 7, 5, 6]
 windows:
   "7d":
-    pushes: 7
-    distinct_repos: 3
-    active_days: 3
+    pushes: 6
+    distinct_repos: 2
+    active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 24
+    pushes: 23
     distinct_repos: 8
-    active_days: 13
+    active_days: 12
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -49,18 +49,18 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 7
-    distinct_repos: 3
-    pushes_per_repo: 2.3333
-    active_days: 3
+    pushes: 6
+    distinct_repos: 2
+    pushes_per_repo: 3.0000
+    active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 24
+    pushes: 23
     distinct_repos: 8
-    pushes_per_repo: 3.0000
-    active_days: 13
+    pushes_per_repo: 2.8750
+    active_days: 12
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -77,6 +77,30 @@ reasons:
   - "activity: 34 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "zero-bridge-desktop"
+    title: "zero-bridge-desktop"
+    description: "Desktop shell for zero-bridge: Electron sidecar, tray, notifications. Bridge core stays in zero-bridge (Go, stdlib)."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-18"
+  - name: "zero-bridge"
+    title: "zero-bridge"
+    description: "Local HTTP/SSE bridge and web UI for zero ACP (personal, experimental)"
+    language: "Go"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-18"
+  - name: "zero-handoff"
+    title: "zero-handoff"
+    description: "Opt-in Zero plugin: /remember, /remind and a deterministic sessionEnd log tied to --resume"
+    language: "Go"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-14"
   - name: "selenium-robots"
     title: "selenium-robots"
     description: "Selenium Applications for monitoring robots"
@@ -101,30 +125,6 @@ repos:
     stars_fact: 1
     first_seen: null
     last_push: "2024-02-02"
-  - name: "poc-api-siscomex-rfb"
-    title: "poc-api-siscomex-rfb"
-    description: "POC de consumos das APIs Siscomex no portal da RFB"
-    language: "Python"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2024-02-02"
-  - name: "go-rest-api"
-    title: "go-rest-api"
-    description: "Curso de go, para criar uma API rest simples"
-    language: "Go"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-04-16"
-  - name: "tmux-configs"
-    title: "tmux-configs"
-    description: "Personal tmux"
-    language: "Shell"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-04-13"
 ---
 
 # FabioLeitao

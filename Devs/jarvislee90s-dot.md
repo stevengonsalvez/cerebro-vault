@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "90688bf127241ceb"
-pushes_per_week: [5, 0, 1, 1, 1, 0, 0, 1, 3, 4, 6, 2, 6]
+pushes_per_week: [5, 1, 0, 1, 1, 0, 0, 1, 5, 2, 7, 3, 4]
 windows:
   "7d":
     pushes: 6
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 20
+    pushes: 19
     distinct_repos: 4
-    active_days: 11
+    active_days: 10
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 20
+    pushes: 19
     distinct_repos: 4
-    pushes_per_repo: 5.0000
-    active_days: 11
+    pushes_per_repo: 4.7500
+    active_days: 10
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -90,9 +90,25 @@ repos:
       - "react"
       - "rust"
       - "tauri"
+    stars_fact: 41
+    first_seen: null
+    last_push: "2026-10-18"
+  - name: "tuvis-website"
+    title: "tuvis-website"
+    description: null
+    language: "TypeScript"
+    topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-11"
+    last_push: "2026-10-17"
+  - name: "VideoToDoc-skills"
+    title: "VideoToDoc-skills"
+    description: "三个协同工作的 Skill，实现从视频到飞书文档的自动化转换。"
+    language: "Python"
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-10-12"
   - name: "dsh-foxbell-pet"
     title: "dsh-foxbell-pet"
     description: "Foxbell 桌宠：DSH Web 右下角可拖拽小狐狸，多项目状态监控 + 完成语音提醒 + 显隐开关"
@@ -122,22 +138,6 @@ repos:
     stars_fact: 5
     first_seen: null
     last_push: "2026-08-16"
-  - name: "VideoDownloader"
-    title: "VideoDownloader"
-    description: "视频下载队列工具：yt-dlp + Flask 网页前端，支持链接贴入识别，多任务串行和断点续传。"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-14"
-  - name: "VideoToDoc-skills"
-    title: "VideoToDoc-skills"
-    description: "三个协同工作的 Skill，实现从视频到飞书文档的自动化转换。"
-    language: "Python"
-    topics: []
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-09-14"
 ---
 
 # jarvislee90s-dot

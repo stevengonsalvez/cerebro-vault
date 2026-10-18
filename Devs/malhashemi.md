@@ -10,11 +10,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "745308b2b7085095"
   - "ffccace0ba14fd15"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 2, 3, 1, 0, 0]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 2, 0, 3, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -79,12 +79,36 @@ reasons:
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "dotfiles"
+    title: "dotfiles"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 21
+    first_seen: null
+    last_push: "2026-10-18"
+  - name: "opencode-dynamic-workflows"
+    title: "opencode-dynamic-workflows"
+    description: "Deterministic multi-agent Workflows for OpenCode: TypeScript scripts that fan work out to subagents and combine their typed results."
+    language: "TypeScript"
+    topics:
+      - "ai-agents"
+      - "multi-agent"
+      - "opencode"
+      - "opencode-plugin"
+      - "orchestration"
+      - "subagents"
+      - "typescript"
+      - "workflows"
+    stars_fact: 7
+    first_seen: null
+    last_push: "2026-09-26"
   - name: "opencode-sessions"
     title: "opencode-sessions"
     description: "Session management plugin for OpenCode with multi-agent collaboration support"
     language: "TypeScript"
     topics: []
-    stars_fact: 179
+    stars_fact: 180
     first_seen: null
     last_push: "2025-10-30"
   - name: "opencode-gpt-live"
@@ -104,22 +128,6 @@ repos:
     stars_fact: 35
     first_seen: null
     last_push: "2026-10-07"
-  - name: "opencode-dynamic-workflows"
-    title: "opencode-dynamic-workflows"
-    description: "Deterministic multi-agent Workflows for OpenCode: TypeScript scripts that fan work out to subagents and combine their typed results."
-    language: "TypeScript"
-    topics:
-      - "ai-agents"
-      - "multi-agent"
-      - "opencode"
-      - "opencode-plugin"
-      - "orchestration"
-      - "subagents"
-      - "typescript"
-      - "workflows"
-    stars_fact: 5
-    first_seen: null
-    last_push: "2026-09-26"
   - name: "opencode-codex-computer-use"
     title: "opencode-codex-computer-use"
     description: "Let OpenCode operate your desktop apps and Chrome tabs with the Codex Computer Use engine already on your machine"
@@ -133,17 +141,9 @@ repos:
       - "macos"
       - "opencode"
       - "opencode-plugin"
-    stars_fact: 2
+    stars_fact: 3
     first_seen: null
-    last_push: "2026-10-02"
-  - name: "dotfiles"
-    title: "dotfiles"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 21
-    first_seen: null
-    last_push: "2026-10-02"
+    last_push: "2026-10-16"
   - name: "workflow-observer"
     title: "workflow-observer"
     description: "Observe Claude workflows across projects: live phases, session costs, model metadata and recorded evidence. Local-first, powered by Bun."

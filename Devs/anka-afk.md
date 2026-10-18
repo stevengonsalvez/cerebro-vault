@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "78a5846a75cc0fbb"
 pushes_per_week: [3, 0, 2, 0, 0, 0, 0, 1, 1, 2, 0, 0, 0]
@@ -86,24 +86,32 @@ repos:
       - "github-config"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-10"
-  - name: "astrbot_sowing_discord"
-    title: "astrbot_sowing_discord"
-    description: "搬史自动化新时代!"
-    language: "Python"
-    topics: []
-    stars_fact: 597
-    first_seen: null
-    last_push: "2026-05-28"
+    last_push: "2026-10-18"
   - name: "astrbot_plugin_meme_manager"
     title: "astrbot_plugin_meme_manager"
     description: "一个功能强大的 AstrBot 表情包管理插件，支持 🤖 AI 智能发送与自动收集表情、🖥️ WebUI 管理界面、☁️ 云端同步等特性。"
     language: "Python"
     topics:
       - "astrbot"
-    stars_fact: 407
+    stars_fact: 410
     first_seen: null
     last_push: "2026-09-26"
+  - name: "sowing_discord_center"
+    title: "sowing_discord_center"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-14"
+  - name: "astrbot_sowing_discord"
+    title: "astrbot_sowing_discord"
+    description: "搬史自动化新时代!"
+    language: "Python"
+    topics: []
+    stars_fact: 601
+    first_seen: null
+    last_push: "2026-05-28"
   - name: "astrbot-meme-pack-index"
     title: "astrbot-meme-pack-index"
     description: "Astrbot mememanager 表情包广场索引, 如果你需要提交表情包, 请在此填写并提交 pr"
@@ -120,14 +128,6 @@ repos:
     stars_fact: 1
     first_seen: null
     last_push: "2026-09-26"
-  - name: "deepseek-fanart-meme-pack"
-    title: "deepseek-fanart-meme-pack"
-    description: "DeepSeek 二创表情包，适配 AstrBot Meme Manager"
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-25"
 ---
 
 # anka-afk

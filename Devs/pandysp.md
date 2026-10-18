@@ -8,16 +8,16 @@ provenance_repos:
   - "antirez/ds4"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+repos_populated: false
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "3eacb4655aba2497"
-pushes_per_week: [2, 13, 7, 2, 1, 0, 0, 0, 3, 9, 20, 26, 3]
+pushes_per_week: [4, 14, 5, 2, 0, 0, 0, 0, 3, 9, 34, 15, 0]
 windows:
   "7d":
-    pushes: 4
+    pushes: 3
     distinct_repos: 2
-    active_days: 2
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 4
+    pushes: 3
     distinct_repos: 2
-    pushes_per_repo: 2.0000
-    active_days: 2
+    pushes_per_repo: 1.5000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -76,61 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 24 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "openclaw-infra"
-    title: "openclaw-infra"
-    description: "Secure self-hosted OpenClaw deployment on Hetzner Cloud with Tailscale"
-    language: "Python"
-    topics: []
-    stars_fact: 22
-    first_seen: null
-    last_push: "2026-10-10"
-  - name: "openclaw-staging-workspace"
-    title: "openclaw-staging-workspace"
-    description: "Staging workspace for openclaw-infra phoenix test pipeline (main agent)"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-10"
-  - name: "openclaw-staging-workspace-test"
-    title: "openclaw-staging-workspace-test"
-    description: "Staging workspace for openclaw-infra phoenix test pipeline (test agent)"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-08"
-  - name: "pi-idle-compact"
-    title: "pi-idle-compact"
-    description: "Compacts a pi session once its prompt cache has expired, never while pi's cache warming keeps it alive"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-07"
-  - name: "pi-hydra"
-    title: "pi-hydra"
-    description: "Extra heads for your pi coding agent: live oversight through prompt-cache replay"
-    language: "TypeScript"
-    topics:
-      - "code-review"
-      - "pi"
-      - "pi-coding-agent"
-      - "pi-extension"
-      - "pi-package"
-      - "prompt-caching"
-    stars_fact: 14
-    first_seen: null
-    last_push: "2026-10-07"
-  - name: "claude-plugins"
-    title: "claude-plugins"
-    description: null
-    language: "JavaScript"
-    topics: []
-    stars_fact: 6
-    first_seen: null
-    last_push: "2026-10-06"
+repos: []
 ---
 
 # pandysp

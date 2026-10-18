@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [0, 1, 0, 0, 1, 1, 0, 0, 1, 0, 1, 1, 0]
+pushes_per_week: [1, 0, 0, 0, 1, 1, 0, 0, 1, 0, 1, 1, 0]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -77,22 +77,38 @@ reasons:
   - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "dsh-white"
-    title: "dsh-white"
-    description: "DeepSeek Harness 非官方桌面发行版——免 Node 环境、免构建，下载即用的编码 Agent 桌面应用（Windows / macOS / Linux）"
-    language: "JavaScript"
+  - name: "deskhand-mcp"
+    title: "deskhand-mcp"
+    description: null
+    language: "Python"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-11"
+    last_push: "2026-10-16"
   - name: "I.R.M.I.A"
     title: "I.R.M.I.A"
     description: "IRMIA — Individual Resident Mind & Identity Agent: a resident, local-first agent with its own identity, memory and capability boundary."
     language: "TypeScript"
     topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-10-15"
+  - name: "irmia-onebot11-mcp"
+    title: "irmia-onebot11-mcp"
+    description: "适配 I.R.M.I.A 框架的 OneBot 协议功能补充 MCP —— 目前仅适配 SnowLuma"
+    language: "JavaScript"
+    topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-10"
+    last_push: "2026-10-15"
+  - name: "irmia_devkit_open"
+    title: "irmia_devkit_open"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 42
+    first_seen: null
+    last_push: "2026-10-17"
   - name: "dsh-irmia-devkit"
     title: "dsh-irmia-devkit"
     description: null
@@ -113,22 +129,6 @@ repos:
     stars_fact: 3
     first_seen: null
     last_push: "2026-09-29"
-  - name: "irmia_devkit_open"
-    title: "irmia_devkit_open"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 42
-    first_seen: null
-    last_push: "2026-09-24"
-  - name: "astrbot_plugin_deskhand"
-    title: "astrbot_plugin_deskhand"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-16"
 ---
 
 # irmia2026

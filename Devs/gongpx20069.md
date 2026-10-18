@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "541318303a272608"
-pushes_per_week: [0, 0, 0, 2, 0, 0, 0, 0, 5, 4, 2, 0, 2]
+pushes_per_week: [0, 0, 0, 2, 0, 0, 0, 0, 5, 6, 0, 2, 0]
 windows:
   "7d":
     pushes: 2
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 10
-    distinct_repos: 3
-    active_days: 6
+    pushes: 8
+    distinct_repos: 2
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 10
-    distinct_repos: 3
-    pushes_per_repo: 3.3333
-    active_days: 6
+    pushes: 8
+    distinct_repos: 2
+    pushes_per_repo: 4.0000
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -82,7 +82,7 @@ repos:
     description: "Turn an old Android phone into an always-ready, voice-first AI companion."
     language: "Kotlin"
     topics: []
-    stars_fact: 23
+    stars_fact: 32
     first_seen: null
     last_push: "2026-10-05"
   - name: "relative-ear"
@@ -92,7 +92,7 @@ repos:
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-10-08"
+    last_push: "2026-10-11"
   - name: "android-agent-link"
     title: "android-agent-link"
     description: "Android-first ACP client and Python bridge for remote coding agents."
@@ -100,7 +100,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-08"
+    last_push: "2026-10-11"
   - name: "ik-llama-cpp-python"
     title: "ik-llama-cpp-python"
     description: "Python bindings for ik_llama.cpp — high-performance llama.cpp fork"

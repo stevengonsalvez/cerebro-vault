@@ -8,8 +8,8 @@ provenance_repos:
   - "browser-use/browser-use"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+repos_populated: false
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "c1af6b58492f9bf4"
 pushes_per_week: [0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 2, 2, 3]
@@ -76,59 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "StreamAttn"
-    title: "StreamAttn"
-    description: "A high-performance attention mechanism that computes softmax normalization in a single streaming pass using running accumulators (online softmax)."
-    language: "Python"
-    topics:
-      - "cuda"
-      - "llms"
-      - "rl"
-      - "triton"
-    stars_fact: 32
-    first_seen: null
-    last_push: "2026-10-13"
-  - name: "llama3-8b-efficient-finetune"
-    title: "llama3-8b-efficient-finetune"
-    description: null
-    language: "Jupyter Notebook"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2024-11-22"
-  - name: "deepseek-r1-reverse"
-    title: "deepseek-r1-reverse"
-    description: null
-    language: "Jupyter Notebook"
-    topics: []
-    stars_fact: 3
-    first_seen: null
-    last_push: "2025-01-26"
-  - name: "repoagent-hiring-hackathon"
-    title: "repoagent-hiring-hackathon"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-06-07"
-  - name: "social-rag-assignment"
-    title: "social-rag-assignment"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-06-04"
-  - name: "assistant-bakeoff"
-    title: "assistant-bakeoff"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-05-24"
+repos: []
 ---
 
 # MagellaX

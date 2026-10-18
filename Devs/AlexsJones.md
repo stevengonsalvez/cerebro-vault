@@ -10,10 +10,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [11, 4, 10, 19, 1, 1, 1, 20, 22, 20, 7, 15, 1]
+pushes_per_week: [8, 7, 12, 14, 1, 1, 2, 23, 26, 13, 12, 9, 1]
 windows:
   "7d":
     pushes: 1
@@ -23,23 +23,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 54
+    pushes: 52
     distinct_repos: 15
-    active_days: 15
+    active_days: 14
     repos_not_owned: 13
     not_owned_basenames: 6
     not_owned_owners: 9
   "90d":
-    pushes: 132
+    pushes: 129
     distinct_repos: 18
-    active_days: 44
+    active_days: 43
     repos_not_owned: 15
     not_owned_basenames: 7
     not_owned_owners: 10
 automation:
   state: "clear"
   push_per_day: 3.0000
-  repo_per_active_day: 0.4091
+  repo_per_active_day: 0.4186
   not_owned_ratio: 0.8333
   basename_concentration: 0.5000
   shapes: []
@@ -58,24 +58,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 54
+    pushes: 52
     distinct_repos: 15
-    pushes_per_repo: 3.6000
-    active_days: 15
+    pushes_per_repo: 3.4667
+    active_days: 14
     repos_not_owned: 13
     not_owned_basenames: 6
     not_owned_owners: 9
   "90d":
-    pushes: 132
+    pushes: 129
     distinct_repos: 18
-    pushes_per_repo: 7.3333
-    active_days: 44
+    pushes_per_repo: 7.1667
+    active_days: 43
     repos_not_owned: 15
     not_owned_basenames: 7
     not_owned_owners: 10
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 44 active days in 90d — pass"
+  - "activity: 43 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "llmfit"
@@ -89,17 +89,9 @@ repos:
       - "mlx"
       - "skill"
       - "unsloth"
-    stars_fact: 37765
+    stars_fact: 38044
     first_seen: "2026-08-18T06:00:11.656121+00:00"
-    last_push: "2026-10-09"
-  - name: "homebrew-llmfit"
-    title: "homebrew-llmfit"
-    description: null
-    language: "Ruby"
-    topics: []
-    stars_fact: 17
-    first_seen: null
-    last_push: "2026-10-08"
+    last_push: "2026-10-17"
   - name: "llmserve"
     title: "llmserve"
     description: "A simple TUI for serving local LLM models. Pick a model, pick a backend, serve it"
@@ -122,7 +114,23 @@ repos:
       - "repository-management"
     stars_fact: 30
     first_seen: null
-    last_push: "2026-09-26"
+    last_push: "2026-10-15"
+  - name: "kflow"
+    title: "kflow"
+    description: "Like top for Kubernetes networking"
+    language: "Rust"
+    topics: []
+    stars_fact: 63
+    first_seen: null
+    last_push: "2026-02-19"
+  - name: "homebrew-llmfit"
+    title: "homebrew-llmfit"
+    description: null
+    language: "Ruby"
+    topics: []
+    stars_fact: 17
+    first_seen: null
+    last_push: "2026-10-08"
   - name: "rostrum"
     title: "rostrum"
     description: "Push-to-talk voice input for coding agents, driven by a mic's Transmit button"
@@ -131,18 +139,10 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-10-05"
-  - name: "website"
-    title: "website"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-02"
 ---
 
 # AlexsJones
 
-132 pushes across 18 repositories on 44 active days in the last 90 days of public GitHub push activity.
+129 pushes across 18 repositories on 43 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/AlexsJones

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [0, 4, 0, 0, 0, 0, 0, 1, 0, 1, 0, 4, 0]
+pushes_per_week: [0, 4, 0, 0, 0, 0, 0, 1, 0, 1, 2, 2, 0]
 windows:
   "7d":
     pushes: 0
@@ -90,9 +90,25 @@ repos:
       - "lsp"
       - "server-side-rendering"
       - "templating-languages"
-    stars_fact: 10571
+    stars_fact: 10582
     first_seen: null
-    last_push: "2026-10-09"
+    last_push: "2026-10-16"
+  - name: "generate"
+    title: "generate"
+    description: "Generates Go (golang) Structs from JSON schema."
+    language: "Go"
+    topics: []
+    stars_fact: 451
+    first_seen: null
+    last_push: "2024-04-02"
+  - name: "pico_usb_kbd_mouse"
+    title: "pico_usb_kbd_mouse"
+    description: "Minimal example of a Raspberry Pi Pico as a USB host accepting keboard and mouse input."
+    language: "C"
+    topics: []
+    stars_fact: 40
+    first_seen: null
+    last_push: "2023-11-27"
   - name: "dotfiles"
     title: "dotfiles"
     description: null
@@ -117,22 +133,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-10-05"
-  - name: "cap"
-    title: "cap"
-    description: null
-    language: "Go"
-    topics: []
-    stars_fact: 4
-    first_seen: null
-    last_push: "2026-10-05"
-  - name: "flakegap"
-    title: "flakegap"
-    description: "Take a Flake and package it for deployment across an airgap."
-    language: "Go"
-    topics: []
-    stars_fact: 13
-    first_seen: null
-    last_push: "2026-08-18"
 ---
 
 # a-h

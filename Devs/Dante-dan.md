@@ -11,13 +11,13 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "1df6ea1f1256059e"
   - "4d1450729e6ff44d"
   - "de6bf05613f3ae04"
   - "edb3a626875732de"
-pushes_per_week: [2, 0, 0, 0, 0, 0, 0, 2, 13, 10, 25, 7, 11]
+pushes_per_week: [2, 0, 0, 0, 0, 0, 0, 5, 11, 12, 23, 7, 10]
 windows:
   "7d":
     pushes: 11
@@ -89,13 +89,13 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-10"
+    last_push: "2026-10-18"
   - name: "pi-agent-book"
     title: "pi-agent-book"
     description: "《Pi Agent从入门到精通》：面向零基础的中文开源书，基于源码拆解上下文、记忆、工具、扩展与持续进化，附可复现实验。"
     language: "Python"
     topics: []
-    stars_fact: 5
+    stars_fact: 18
     first_seen: null
     last_push: "2026-09-29"
   - name: "dan-skills"

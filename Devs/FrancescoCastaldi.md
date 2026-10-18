@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "dffbb846389f9a26"
-pushes_per_week: [2, 2, 2, 1, 0, 0, 1, 3, 3, 4, 7, 4, 9]
+pushes_per_week: [1, 2, 2, 1, 0, 0, 1, 3, 5, 2, 7, 6, 7]
 windows:
   "7d":
     pushes: 9
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 27
-    distinct_repos: 8
-    active_days: 12
+    pushes: 24
+    distinct_repos: 7
+    active_days: 11
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 38
+    pushes: 37
     distinct_repos: 11
-    active_days: 21
+    active_days: 20
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.8095
-  repo_per_active_day: 0.5238
+  push_per_day: 1.8500
+  repo_per_active_day: 0.5500
   not_owned_ratio: 0.0000
   basename_concentration: 0.0909
   shapes: []
@@ -57,34 +57,26 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 27
-    distinct_repos: 8
-    pushes_per_repo: 3.3750
-    active_days: 12
+    pushes: 24
+    distinct_repos: 7
+    pushes_per_repo: 3.4286
+    active_days: 11
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 38
+    pushes: 37
     distinct_repos: 11
-    pushes_per_repo: 3.4545
-    active_days: 21
+    pushes_per_repo: 3.3636
+    active_days: 20
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 21 active days in 90d — pass"
+  - "activity: 20 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "FrancescoCastaldi"
-    title: "FrancescoCastaldi"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-09"
   - name: "superset-plugin-chart-hierarchical-table"
     title: "superset-plugin-chart-hierarchical-table"
     description: "Apache Superset 6.1.0 Hierarchical Table & Matrix Grid Chart Plugin (Backend + Frontend)"
@@ -92,7 +84,15 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-08"
+    last_push: "2026-10-15"
+  - name: "FrancescoCastaldi"
+    title: "FrancescoCastaldi"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-12"
   - name: "superset-plugin-chart-stratum-heatmap"
     title: "superset-plugin-chart-stratum-heatmap"
     description: null
@@ -129,6 +129,6 @@ repos:
 
 # FrancescoCastaldi
 
-38 pushes across 11 repositories on 21 active days in the last 90 days of public GitHub push activity.
+37 pushes across 11 repositories on 20 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/FrancescoCastaldi

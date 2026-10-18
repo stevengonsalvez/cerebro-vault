@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [40, 40, 46, 33, 18, 25, 2, 5, 39, 41, 19, 2, 5]
+pushes_per_week: [39, 44, 48, 24, 27, 16, 2, 10, 41, 48, 4, 3, 4]
 windows:
   "7d":
-    pushes: 6
+    pushes: 5
     distinct_repos: 2
-    active_days: 4
+    active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 83
+    pushes: 77
     distinct_repos: 5
-    active_days: 17
+    active_days: 16
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 315
-    distinct_repos: 8
-    active_days: 65
+    pushes: 310
+    distinct_repos: 7
+    active_days: 64
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 4.8462
-  repo_per_active_day: 0.1231
-  not_owned_ratio: 0.3750
-  basename_concentration: 0.2500
+  push_per_day: 4.8438
+  repo_per_active_day: 0.1094
+  not_owned_ratio: 0.4286
+  basename_concentration: 0.2857
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 6
+    pushes: 5
     distinct_repos: 2
-    pushes_per_repo: 3.0000
-    active_days: 4
+    pushes_per_repo: 2.5000
+    active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 83
+    pushes: 77
     distinct_repos: 5
-    pushes_per_repo: 16.6000
-    active_days: 17
+    pushes_per_repo: 15.4000
+    active_days: 16
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 315
-    distinct_repos: 8
-    pushes_per_repo: 39.3750
-    active_days: 65
+    pushes: 310
+    distinct_repos: 7
+    pushes_per_repo: 44.2857
+    active_days: 64
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 65 active days in 90d — pass"
+  - "activity: 64 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "karpathy-llm-wiki"
@@ -95,9 +95,22 @@ repos:
       - "personal-knowledge-base"
       - "productivity"
       - "rag-alternative"
-    stars_fact: 2451
+    stars_fact: 2511
     first_seen: null
     last_push: "2026-07-23"
+  - name: "opencode-bell"
+    title: "opencode-bell"
+    description: "OpenCode plugin: privacy-friendly terminal bell notifications"
+    language: "JavaScript"
+    topics:
+      - "javascript"
+      - "notifications"
+      - "opencode"
+      - "plugin"
+      - "terminal"
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-06-26"
   - name: "pawwork"
     title: "pawwork"
     description: "PawWork — free, open-source desktop AI agent for macOS and Windows, built on DeepSeek Harness (DSH). Free models included, no API key or terminal. Office files, web search, and scheduled automations out of the box. An open alternative to Codex App and Claude Cowork."
@@ -125,7 +138,15 @@ repos:
       - "windows"
     stars_fact: 201
     first_seen: null
-    last_push: "2026-10-05"
+    last_push: "2026-10-12"
+  - name: "skills"
+    title: "skills"
+    description: "Personal agent skills for careful reasoning, evidence-driven coding, and clean session closeout."
+    language: "Python"
+    topics: []
+    stars_fact: 12
+    first_seen: null
+    last_push: "2026-10-12"
   - name: "claude-pace"
     title: "claude-pace"
     description: "Claude Code statusline and rate limit tracker with pace-aware quota monitoring. Pure Bash + jq, single file."
@@ -146,7 +167,7 @@ repos:
       - "terminal"
       - "usage-monitor"
       - "usage-tracking"
-    stars_fact: 235
+    stars_fact: 236
     first_seen: null
     last_push: "2026-09-24"
   - name: "jev-harness"
@@ -157,42 +178,10 @@ repos:
     stars_fact: 6
     first_seen: null
     last_push: "2026-09-22"
-  - name: "quantclass-sync"
-    title: "quantclass-sync"
-    description: "QuantClass（邢不行量化课）数据增量同步工具，macOS，CLI + GUI"
-    language: "Python"
-    topics:
-      - "cli"
-      - "data-sync"
-      - "macos"
-      - "python"
-      - "quantitative-finance"
-    stars_fact: 16
-    first_seen: null
-    last_push: "2026-04-12"
-  - name: "diffpane"
-    title: "diffpane"
-    description: "Real-time TUI diff viewer for AI coding agents"
-    language: "Go"
-    topics:
-      - "ai-coding"
-      - "bubbletea"
-      - "claude-code"
-      - "cli"
-      - "code-review"
-      - "codex"
-      - "developer-tools"
-      - "diff"
-      - "git-diff"
-      - "terminal"
-      - "tui"
-    stars_fact: 43
-    first_seen: null
-    last_push: "2026-04-01"
 ---
 
 # Astro-Han
 
-315 pushes across 8 repositories on 65 active days in the last 90 days of public GitHub push activity.
+310 pushes across 7 repositories on 64 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Astro-Han

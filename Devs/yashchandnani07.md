@@ -8,16 +8,16 @@ provenance_repos:
   - "AlexsJones/llmfit"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+repos_populated: false
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [0, 0, 4, 0, 0, 0, 0, 0, 0, 2, 1, 0, 3]
+pushes_per_week: [0, 0, 4, 0, 0, 0, 0, 0, 0, 2, 1, 3, 0]
 windows:
   "7d":
-    pushes: 3
-    distinct_repos: 1
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 3
-    distinct_repos: 1
-    pushes_per_repo: 3.0000
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -76,60 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "shoplite"
-    title: "shoplite"
-    description: "ShopLite: demo target app for CausalDeploy (gateway -> orders -> payments)"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-14"
-  - name: "SIT-DocGenerater"
-    title: "SIT-DocGenerater"
-    description: "ZCode skill that formats assignments & lab reports into polished SIT-format academic PDF/DOCX — signature cover page, auto TOC, navy zebra tables"
-    language: "Python"
-    topics:
-      - "docx"
-      - "pdf"
-      - "report-generator"
-      - "skill"
-      - "zcode"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-11"
-  - name: "Nexon"
-    title: "Nexon"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-09"
-  - name: "AXIS---Agentic-eXecution-Infrastructure-as-a-Service"
-    title: "AXIS---Agentic-eXecution-Infrastructure-as-a-Service"
-    description: "Autonomous Agentic DevOps Engineer"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-27"
-  - name: "yashchandnani07.github.io"
-    title: "yashchandnani07.github.io"
-    description: "Just my resume playground"
-    language: "CSS"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-07-18"
-  - name: "Code-Ignite"
-    title: "Code-Ignite"
-    description: "Open Source Lovable alternative based on BYOK model"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-07-18"
+repos: []
 ---
 
 # yashchandnani07

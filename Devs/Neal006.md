@@ -8,11 +8,11 @@ provenance_repos:
   - "anthropics/claude-code-action"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+repos_populated: false
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "0b22ca37fd3884c9"
-pushes_per_week: [4, 0, 1, 2, 0, 0, 0, 0, 2, 0, 0, 0, 0]
+pushes_per_week: [4, 0, 1, 2, 0, 0, 0, 2, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,75 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "Thirst"
-    title: "Thirst"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-11"
-  - name: "neal-portfolio"
-    title: "neal-portfolio"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-09"
-  - name: "minutes"
-    title: "minutes"
-    description: "AI meeting notes: record (desktop + web), live transcription, action items, search, and ask-your-meetings. Built as a mini-Circleback."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-26"
-  - name: "cudacommandos"
-    title: "cudacommandos"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-28"
-  - name: "CHEFX"
-    title: "CHEFX"
-    description: null
-    language: "HTML"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2025-04-05"
-  - name: "memorylens-bench"
-    title: "memorylens-bench"
-    description: "The open-source benchmark for LLM memory decay. Measure how Naive, RAG, Chunked RAG, Cascading, and SummaryMemory degrade over 100 conversation turns. Ebbinghaus forgetting curves, 5-provider LLM eval, multi-seed CI. No API key needed."
-    language: "Python"
-    topics:
-      - "ai-evaluation"
-      - "benchmarking"
-      - "chatbot"
-      - "conversation-memory"
-      - "ebbinghaus"
-      - "evaluation"
-      - "large-language-models"
-      - "llm"
-      - "llm-benchmark"
-      - "llm-memory"
-      - "machine-learning"
-      - "memory"
-      - "memory-decay"
-      - "memory-evaluation"
-      - "nlp"
-      - "python"
-      - "rag"
-      - "rag-evaluation"
-      - "streamlit"
-      - "temporal-decay"
-    stars_fact: 11
-    first_seen: null
-    last_push: "2026-09-01"
+repos: []
 ---
 
 # Neal006

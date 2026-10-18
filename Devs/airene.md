@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "16389f32495280ea"
 pushes_per_week: [1, 1, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0, 0]
@@ -77,14 +77,14 @@ reasons:
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "airene.github.io"
-    title: "airene.github.io"
-    description: "ti.bi"
-    language: "Vue"
+  - name: "opensource-version"
+    title: "opensource-version"
+    description: "常用软件版本"
+    language: "JavaScript"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-21"
+    last_push: "2026-10-14"
   - name: "vitepress-blog-pure"
     title: "vitepress-blog-pure"
     description: "a vitepress theme for blog, demo ↓"
@@ -95,9 +95,17 @@ repos:
       - "vitepress"
       - "vitepress-blog"
       - "vitepress-theme"
-    stars_fact: 289
+    stars_fact: 288
     first_seen: null
-    last_push: "2026-09-21"
+    last_push: "2026-10-14"
+  - name: "airene.github.io"
+    title: "airene.github.io"
+    description: "ti.bi"
+    language: "Vue"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-14"
   - name: "algo-ner"
     title: "algo-ner"
     description: "ner 模型的例子"
@@ -106,14 +114,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-09-19"
-  - name: "opensource-version"
-    title: "opensource-version"
-    description: "常用软件版本"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-29"
   - name: "server-status"
     title: "server-status"
     description: "服务器状态监控"

@@ -10,10 +10,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [19, 19, 7, 49, 6, 9, 0, 0, 0, 7, 4, 0, 1]
+pushes_per_week: [15, 19, 15, 41, 8, 7, 0, 0, 1, 8, 2, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -30,16 +30,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 121
+    pushes: 117
     distinct_repos: 13
-    active_days: 27
+    active_days: 26
     repos_not_owned: 10
     not_owned_basenames: 4
     not_owned_owners: 9
 automation:
   state: "clear"
-  push_per_day: 4.4815
-  repo_per_active_day: 0.4815
+  push_per_day: 4.5000
+  repo_per_active_day: 0.5000
   not_owned_ratio: 0.7692
   basename_concentration: 0.6154
   shapes:
@@ -82,16 +82,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 121
+    pushes: 117
     distinct_repos: 13
-    pushes_per_repo: 9.3077
-    active_days: 27
+    pushes_per_repo: 9.0000
+    active_days: 26
     repos_not_owned: 10
     not_owned_basenames: 4
     not_owned_owners: 9
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 27 active days in 90d — pass"
+  - "activity: 26 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "OpenCLI"
@@ -106,9 +106,33 @@ repos:
       - "browser-use"
       - "cli"
       - "playwright"
-    stars_fact: 30039
+    stars_fact: 30388
     first_seen: null
-    last_push: "2026-10-10"
+    last_push: "2026-10-17"
+  - name: "xiaohongshu-cli"
+    title: "xiaohongshu-cli"
+    description: "A CLI for Xiaohongshu (小红书) — search, read, interact via reverse-engineered API"
+    language: "Python"
+    topics: []
+    stars_fact: 2681
+    first_seen: null
+    last_push: "2026-03-21"
+  - name: "wechat-article-to-markdown"
+    title: "wechat-article-to-markdown"
+    description: "微信公众号文章抓取 & Markdown 转换工具"
+    language: "Python"
+    topics: []
+    stars_fact: 1062
+    first_seen: null
+    last_push: "2026-03-22"
+  - name: "wx-cli-again"
+    title: "wx-cli-again"
+    description: "WeChat local data CLI (query/decrypt/export) — fresh start from wx-cli"
+    language: "Rust"
+    topics: []
+    stars_fact: 845
+    first_seen: null
+    last_push: "2026-09-14"
   - name: "xhs-cli"
     title: "xhs-cli"
     description: "小红书命令行工具 — 搜索、阅读、点赞、收藏、评论，全在终端完成 | Xiaohongshu CLI"
@@ -119,45 +143,21 @@ repos:
       - "redbook"
       - "xhs"
       - "xiaohongshu"
-    stars_fact: 666
+    stars_fact: 669
     first_seen: null
     last_push: "2026-10-09"
-  - name: "wx-cli-again"
-    title: "wx-cli-again"
-    description: "WeChat local data CLI (query/decrypt/export) — fresh start from wx-cli"
-    language: "Rust"
-    topics: []
-    stars_fact: 814
-    first_seen: null
-    last_push: "2026-09-14"
-  - name: "xiaohongshu-cli"
-    title: "xiaohongshu-cli"
-    description: "A CLI for Xiaohongshu (小红书) — search, read, interact via reverse-engineered API"
+  - name: "boss-cli"
+    title: "boss-cli"
+    description: "A CLI for BOSS 直聘 — search jobs, view recommendations, manage applications via reverse-engineered API"
     language: "Python"
     topics: []
-    stars_fact: 2663
+    stars_fact: 992
     first_seen: null
-    last_push: "2026-03-21"
-  - name: "open-antigravity"
-    title: "open-antigravity"
-    description: "Expose Antigravity as OpenAI & Anthropic compatible API (base_url + key)"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 208
-    first_seen: null
-    last_push: "2026-03-21"
-  - name: "opencli-website"
-    title: "opencli-website"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 7
-    first_seen: null
-    last_push: "2026-10-10"
+    last_push: "2026-10-09"
 ---
 
 # jackwener
 
-121 pushes across 13 repositories on 27 active days in the last 90 days of public GitHub push activity.
+117 pushes across 13 repositories on 26 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/jackwener

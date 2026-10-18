@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "541318303a272608"
-pushes_per_week: [4, 1, 2, 9, 5, 1, 1, 3, 5, 10, 18, 3, 4]
+pushes_per_week: [4, 2, 1, 9, 5, 1, 1, 3, 6, 11, 17, 2, 4]
 windows:
   "7d":
     pushes: 4
@@ -77,28 +77,14 @@ reasons:
   - "activity: 35 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "dshfind"
-    title: "dshfind"
-    description: "DSH (DeepSeek Harness) 原理学习、插件市场与最佳实践 · Learn DSH principles, plugin marketplace & best practices"
-    language: "TypeScript"
-    topics:
-      - "deepseek-harness"
-      - "dsh"
-      - "dsh-plugin"
-    stars_fact: 302
+  - name: "openkoto"
+    title: "openkoto"
+    description: "AI based foreign language reading and learning tool that allows you to learn foreign languages using any text content of interest,TextLingo是一款兴趣驱动的AI外语阅读与学习软件"
+    language: "Swift"
+    topics: []
+    stars_fact: 464
     first_seen: null
-    last_push: "2026-10-09"
-  - name: "chat-dataset-baseline"
-    title: "chat-dataset-baseline"
-    description: "人工精调的中文对话数据集和一段chatglm的微调代码"
-    language: "Jupyter Notebook"
-    topics:
-      - "alpaca"
-      - "chatglm"
-      - "dataset"
-    stars_fact: 1191
-    first_seen: null
-    last_push: "2025-05-03"
+    last_push: "2026-10-01"
   - name: "ghfind"
     title: "ghfind"
     description: "Discover the best developers — and become one. Drop a GitHub handle for a 0–100 value & trust score in 30s: see your gaps, discover top devs, get found. Exposes PR farmers, AI bots & fork-hoarders. Deterministic scoring, self-hostable."
@@ -116,17 +102,31 @@ repos:
       - "openai"
       - "roast"
       - "trust-score"
-    stars_fact: 251
+    stars_fact: 255
     first_seen: null
-    last_push: "2026-10-10"
-  - name: "openkoto"
-    title: "openkoto"
-    description: "AI based foreign language reading and learning tool that allows you to learn foreign languages using any text content of interest,TextLingo是一款兴趣驱动的AI外语阅读与学习软件"
-    language: "Swift"
-    topics: []
-    stars_fact: 454
+    last_push: "2026-10-17"
+  - name: "dshfind"
+    title: "dshfind"
+    description: "DSH (DeepSeek Harness) 原理学习、插件市场与最佳实践 · Learn DSH principles, plugin marketplace & best practices"
+    language: "TypeScript"
+    topics:
+      - "deepseek-harness"
+      - "dsh"
+      - "dsh-plugin"
+    stars_fact: 309
     first_seen: null
-    last_push: "2026-10-01"
+    last_push: "2026-10-17"
+  - name: "chat-dataset-baseline"
+    title: "chat-dataset-baseline"
+    description: "人工精调的中文对话数据集和一段chatglm的微调代码"
+    language: "Jupyter Notebook"
+    topics:
+      - "alpaca"
+      - "chatglm"
+      - "dataset"
+    stars_fact: 1191
+    first_seen: null
+    last_push: "2025-05-03"
   - name: "hikariming"
     title: "hikariming"
     description: "GitHub profile README for akou — AI builder, product research, and open source projects."

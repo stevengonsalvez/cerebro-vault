@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "d1946b21c02e5fa5"
-pushes_per_week: [3, 3, 2, 3, 1, 0, 0, 1, 0, 3, 9, 1, 1]
+pushes_per_week: [3, 3, 2, 3, 1, 0, 0, 1, 0, 4, 8, 1, 1]
 windows:
   "7d":
     pushes: 1
@@ -77,30 +77,6 @@ reasons:
   - "activity: 19 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "bg-eraser"
-    title: "bg-eraser"
-    description: "Background Eraser tool fully on device"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-08"
-  - name: "Voxal"
-    title: "Voxal"
-    description: "Serverless P2P push-to-talk voice chat — no accounts, no server. Works on desktop (macOS), iOS, Android, and web."
-    language: "JavaScript"
-    topics: []
-    stars_fact: 13
-    first_seen: null
-    last_push: "2026-10-06"
-  - name: "erwann"
-    title: "erwann"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-05"
   - name: "TrampoVision"
     title: "TrampoVision"
     description: null
@@ -108,27 +84,45 @@ repos:
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-10-04"
+    last_push: "2026-10-16"
+  - name: "glowgrid"
+    title: "glowgrid"
+    description: null
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-16"
+  - name: "bg-eraser"
+    title: "bg-eraser"
+    description: "Background Eraser tool fully on device"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-16"
+  - name: "erwann"
+    title: "erwann"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-16"
+  - name: "Voxal"
+    title: "Voxal"
+    description: "Serverless P2P push-to-talk voice chat — no accounts, no server. Works on desktop (macOS), iOS, Android, and web."
+    language: "JavaScript"
+    topics: []
+    stars_fact: 13
+    first_seen: null
+    last_push: "2026-10-16"
   - name: "erwannrobin.github.io"
     title: "erwannrobin.github.io"
     description: "to serve as erwannrobin.github.io public page"
     language: "HTML"
     topics: []
     stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-28"
-  - name: "awale-web"
-    title: "awale-web"
-    description: null
-    language: "TypeScript"
-    topics:
-      - "awale"
-      - "awari"
-      - "awele"
-      - "board-game"
-      - "mancala"
-      - "oware"
-    stars_fact: 1
     first_seen: null
     last_push: "2026-09-28"
 ---

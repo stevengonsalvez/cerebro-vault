@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [5, 11, 5, 1, 0, 1, 1, 4, 3, 7, 23, 7, 2]
+pushes_per_week: [3, 13, 3, 1, 0, 1, 1, 4, 4, 6, 28, 2, 2]
 windows:
   "7d":
     pushes: 2
@@ -22,14 +22,14 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 40
+    pushes: 39
     distinct_repos: 1
-    active_days: 14
+    active_days: 13
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 70
+    pushes: 68
     distinct_repos: 1
     active_days: 30
     repos_not_owned: 0
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.3333
+  push_per_day: 2.2667
   repo_per_active_day: 0.0333
   not_owned_ratio: 0.0000
   basename_concentration: 1.0000
@@ -57,17 +57,17 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 40
+    pushes: 39
     distinct_repos: 1
-    pushes_per_repo: 40.0000
-    active_days: 14
+    pushes_per_repo: 39.0000
+    active_days: 13
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 70
+    pushes: 68
     distinct_repos: 1
-    pushes_per_repo: 70.0000
+    pushes_per_repo: 68.0000
     active_days: 30
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -84,7 +84,22 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-10"
+    last_push: "2026-10-17"
+  - name: "wecom-alert-suite"
+    title: "wecom-alert-suite"
+    description: "WeCom (企业微信) local chat history read-only decrypt & query toolkit for Windows — agent skill included. For personal backup & security research only."
+    language: "Python"
+    topics:
+      - "agent-skill"
+      - "claude-skills"
+      - "decrypt"
+      - "wechat-work"
+      - "wecom"
+      - "wxsqlite3"
+      - "wxwork"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-16"
   - name: "talk2role"
     title: "talk2role"
     description: "Talk2Role: Doubao-powered real-time voice role agent"
@@ -117,18 +132,10 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-01-22"
-  - name: "bilibili-subtitle"
-    title: "bilibili-subtitle"
-    description: "Download subtitles from Bilibili videos without downloading entire video"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-01-18"
 ---
 
 # 99Gaoxiaoqi
 
-70 pushes across 1 repository on 30 active days in the last 90 days of public GitHub push activity.
+68 pushes across 1 repository on 30 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/99Gaoxiaoqi

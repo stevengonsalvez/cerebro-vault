@@ -8,11 +8,11 @@ provenance_repos:
   - "anthropics/claude-code-action"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+repos_populated: false
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "0b22ca37fd3884c9"
-pushes_per_week: [1, 3, 2, 0, 0, 0, 0, 0, 0, 0, 1, 2, 0]
+pushes_per_week: [1, 5, 0, 0, 0, 0, 0, 0, 0, 0, 2, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,55 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 8 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "nix-cache-rs"
-    title: "nix-cache-rs"
-    description: "A personal nix binary cache backed by Cloudflare Workers and R2 storage"
-    language: "Rust"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-15"
-  - name: "yaner"
-    title: "yaner"
-    description: "Yet another NES emulator in rust"
-    language: "Rust"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-13"
-  - name: "piv-agent.nix"
-    title: "piv-agent.nix"
-    description: "home-manager module for https://github.com/smlx/piv-agent"
-    language: "Nix"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-02"
-  - name: "test-xsdata"
-    title: "test-xsdata"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2023-07-16"
-  - name: "advent-2018"
-    title: "advent-2018"
-    description: "Advent of code 2018 for learning Rust"
-    language: "Rust"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2022-06-07"
-  - name: "bin-deps-wasm"
-    title: "bin-deps-wasm"
-    description: null
-    language: "Rust"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2022-03-03"
+repos: []
 ---
 
 # plaflamme

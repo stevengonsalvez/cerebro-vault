@@ -8,11 +8,11 @@ provenance_repos:
   - "apache/maka"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+repos_populated: false
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [1, 1, 2, 9, 8, 6, 0, 4, 4, 7, 12, 0, 2]
+pushes_per_week: [0, 1, 2, 9, 10, 4, 3, 2, 3, 13, 6, 0, 2]
 windows:
   "7d":
     pushes: 2
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 56
+    pushes: 55
     distinct_repos: 3
-    active_days: 30
+    active_days: 29
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 1.8667
-  repo_per_active_day: 0.1000
+  push_per_day: 1.8966
+  repo_per_active_day: 0.1034
   not_owned_ratio: 0.6667
   basename_concentration: 0.6667
   shapes: []
@@ -65,70 +65,22 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 56
+    pushes: 55
     distinct_repos: 3
-    pushes_per_repo: 18.6667
-    active_days: 30
+    pushes_per_repo: 18.3333
+    active_days: 29
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 30 active days in 90d — pass"
+  - "activity: 29 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "echo-ui"
-    title: "echo-ui"
-    description: null
-    language: "Vue"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2024-09-25"
-  - name: "echo"
-    title: "echo"
-    description: null
-    language: "Go"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2024-09-25"
-  - name: "cola"
-    title: "cola"
-    description: null
-    language: "Go"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2024-08-17"
-  - name: "gouge"
-    title: "gouge"
-    description: null
-    language: "Go"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2023-12-23"
-  - name: "slurm-client"
-    title: "slurm-client"
-    description: null
-    language: "Go"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2025-10-24"
-  - name: "forge"
-    title: "forge"
-    description: null
-    language: "Go"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2025-09-26"
+repos: []
 ---
 
 # me2seeks
 
-56 pushes across 3 repositories on 30 active days in the last 90 days of public GitHub push activity.
+55 pushes across 3 repositories on 29 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/me2seeks

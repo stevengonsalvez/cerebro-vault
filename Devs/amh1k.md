@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "c489e6fb5febf2ab"
-pushes_per_week: [5, 5, 0, 1, 0, 0, 0, 0, 1, 1, 2, 5, 4]
+pushes_per_week: [4, 5, 0, 1, 0, 0, 0, 0, 1, 1, 3, 6, 2]
 windows:
   "7d":
     pushes: 4
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 24
+    pushes: 23
     distinct_repos: 10
-    active_days: 17
+    active_days: 16
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.4118
-  repo_per_active_day: 0.5882
+  push_per_day: 1.4375
+  repo_per_active_day: 0.6250
   not_owned_ratio: 0.1000
   basename_concentration: 0.1000
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 24
+    pushes: 23
     distinct_repos: 10
-    pushes_per_repo: 2.4000
-    active_days: 17
+    pushes_per_repo: 2.3000
+    active_days: 16
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 17 active days in 90d — pass"
+  - "activity: 16 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "amh1k"
@@ -84,7 +84,15 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-10"
+    last_push: "2026-10-18"
+  - name: "lockin"
+    title: "lockin"
+    description: "LockIn is a Chrome extension that uses local, open-weight AI to decide whether a webpage supports your current focus goal, blocking distractions while allowing useful research."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-16"
   - name: "mythborn"
     title: "mythborn"
     description: "An AI-powered civilization simulator where real-world discoveries shape evolving societies, beliefs, and histories through autonomous agents and durable workflows."
@@ -92,7 +100,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-09"
+    last_push: "2026-10-11"
   - name: "llm-from-scratch"
     title: "llm-from-scratch"
     description: "From-scratch implementation of a high-performance Large Language Model in PyTorch. Features modern architectural enhancements including Rotary Positional Embeddings (RoPE), Causal Multi-Head Attention, and parameter-efficient fine-tuning via LoRA."
@@ -117,18 +125,10 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-08-31"
-  - name: "amh1k.github.io"
-    title: "amh1k.github.io"
-    description: "My Portfolio"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-13"
 ---
 
 # amh1k
 
-24 pushes across 10 repositories on 17 active days in the last 90 days of public GitHub push activity.
+23 pushes across 10 repositories on 16 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/amh1k

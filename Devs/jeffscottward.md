@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [5, 6, 0, 5, 0, 2, 0, 0, 0, 0, 3, 1, 0]
+pushes_per_week: [7, 4, 0, 5, 0, 2, 0, 0, 0, 0, 3, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,6 +77,14 @@ reasons:
   - "activity: 11 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "omp-discord-bridge"
+    title: "omp-discord-bridge"
+    description: "Owner-only Discord bridge for the omp coding agent: threads, queue, voice mode, slash commands, sandboxed runs"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-15"
   - name: "omarchy-boot"
     title: "omarchy-boot"
     description: "Sanitized documentation for reconstructing Omarchy on x86_64 and Apple Silicon Linux"
@@ -84,7 +92,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-08"
+    last_push: "2026-10-15"
   - name: "darkfactory"
     title: "darkfactory"
     description: "A modular, Postgres-first, AI-native application foundation."
@@ -102,7 +110,7 @@ repos:
       - "typescript"
     stars_fact: 4
     first_seen: null
-    last_push: "2026-10-10"
+    last_push: "2026-10-17"
   - name: "gzdoom-brutality"
     title: "gzdoom-brutality"
     description: "Play GZDoom + Project Brutality while your OMP coding agent works; shows your K/D when it replies"
@@ -127,14 +135,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-09-24"
-  - name: "xbox-360-dash"
-    title: "xbox-360-dash"
-    description: "Xbox 360 Dashboard in HTML5"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 5
-    first_seen: null
-    last_push: "2012-11-24"
 ---
 
 # jeffscottward

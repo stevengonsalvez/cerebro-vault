@@ -8,11 +8,11 @@ provenance_repos:
   - "can1357/oh-my-pi"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+repos_populated: false
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [13, 10, 6, 9, 2, 5, 1, 9, 0, 2, 4, 4, 8]
+pushes_per_week: [14, 11, 6, 7, 4, 3, 2, 8, 0, 4, 2, 5, 7]
 windows:
   "7d":
     pushes: 8

@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-16T08:30:18.142355+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "fb0827c68cc0b5d0"
 pushes_per_week: [0, 0, 0, 0, 2, 1, 0, 0, 1, 0, 1, 0, 2]
@@ -93,9 +93,17 @@ repos:
       - "self-evolution"
       - "self-improving"
       - "self-improving-agents"
-    stars_fact: 9
+    stars_fact: 12
     first_seen: null
-    last_push: "2026-10-08"
+    last_push: "2026-10-14"
+  - name: "lark-rust"
+    title: "lark-rust"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-15"
   - name: "awesome-ai-kb"
     title: "awesome-ai-kb"
     description: "Curated list of knowledge base tools for AI agents"
@@ -138,14 +146,6 @@ repos:
     stars_fact: 1
     first_seen: null
     last_push: "2025-12-09"
-  - name: "oneleaf.vim"
-    title: "oneleaf.vim"
-    description: null
-    language: "Vim Script"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2025-09-02"
 ---
 
 # jasen215

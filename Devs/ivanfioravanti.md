@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "3eacb4655aba2497"
 pushes_per_week: [2, 1, 2, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0]
@@ -89,6 +89,14 @@ repos:
     stars_fact: 274
     first_seen: null
     last_push: "2025-12-31"
+  - name: "chatbot-ollama"
+    title: "chatbot-ollama"
+    description: "Chatbot Ollama is an open source chat UI for Ollama."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 1895
+    first_seen: null
+    last_push: "2025-09-05"
   - name: "llm_context_benchmarks"
     title: "llm_context_benchmarks"
     description: "📊 LLM Context Benchmarks - A comprehensive benchmarking tool for testing LLMs with varying context sizes using Ollama. Features dual benchmark modes (API/CLI), automatic hardware detection (optimized for Apple Silicon), visual performance charts."
@@ -97,15 +105,15 @@ repos:
       - "ai"
       - "benchmarking"
       - "llms"
-    stars_fact: 101
+    stars_fact: 102
     first_seen: null
-    last_push: "2026-09-28"
+    last_push: "2026-10-15"
   - name: "fasterliveportrait-mlx"
     title: "fasterliveportrait-mlx"
     description: "Apple MLX port of FasterLivePortrait for Apple Silicon"
     language: "Python"
     topics: []
-    stars_fact: 40
+    stars_fact: 41
     first_seen: null
     last_push: "2026-06-24"
   - name: "hn_local_image"
@@ -116,14 +124,6 @@ repos:
     stars_fact: 35
     first_seen: null
     last_push: "2026-08-03"
-  - name: "chatbot-ollama"
-    title: "chatbot-ollama"
-    description: "Chatbot Ollama is an open source chat UI for Ollama."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 1894
-    first_seen: null
-    last_push: "2025-09-05"
   - name: "XPoll"
     title: "XPoll"
     description: "Self-hosted, privacy-conscious 'pick up to N' community poll with live results"

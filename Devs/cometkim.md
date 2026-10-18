@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "c489e6fb5febf2ab"
-pushes_per_week: [13, 6, 0, 3, 3, 5, 0, 4, 7, 0, 3, 0, 1]
+pushes_per_week: [15, 4, 0, 3, 6, 2, 0, 4, 7, 0, 3, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 5
-    distinct_repos: 3
-    active_days: 4
+    pushes: 4
+    distinct_repos: 2
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 5
-    distinct_repos: 3
-    pushes_per_repo: 1.6667
-    active_days: 4
+    pushes: 4
+    distinct_repos: 2
+    pushes_per_repo: 2.0000
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -77,6 +77,19 @@ reasons:
   - "activity: 21 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "unicode-segmenter"
+    title: "unicode-segmenter"
+    description: "A lightweight implementation of the Unicode Text Segmentation (UAX #29)"
+    language: "JavaScript"
+    topics:
+      - "emoji"
+      - "grapheme"
+      - "grapheme-cluster"
+      - "uax29"
+      - "unicode"
+    stars_fact: 113
+    first_seen: null
+    last_push: "2026-07-29"
   - name: "rescript-vitest"
     title: "rescript-vitest"
     description: "ReScript bindings to Vitest"
@@ -126,7 +139,7 @@ repos:
       - "rust-cli"
     stars_fact: 39
     first_seen: null
-    last_push: "2026-10-09"
+    last_push: "2026-10-15"
   - name: "cc-monitor-worker"
     title: "cc-monitor-worker"
     description: "Claude Code monitoring with Cloudflare Workers & Workers Analytics Engine"
@@ -138,17 +151,6 @@ repos:
     stars_fact: 22
     first_seen: null
     last_push: "2026-08-12"
-  - name: "dotfiles"
-    title: "dotfiles"
-    description: "My OS configuration files"
-    language: "Shell"
-    topics:
-      - "dotfiles"
-      - "macos"
-      - "ubuntu"
-    stars_fact: 18
-    first_seen: null
-    last_push: "2026-09-04"
 ---
 
 # cometkim

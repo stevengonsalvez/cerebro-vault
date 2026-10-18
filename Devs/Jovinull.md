@@ -8,11 +8,11 @@ provenance_repos:
   - "akitaonrails/ai-memory"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+repos_populated: false
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "4138778ebbc75ba6"
-pushes_per_week: [36, 22, 0, 2, 5, 26, 0, 0, 2, 6, 12, 1, 1]
+pushes_per_week: [37, 12, 0, 6, 3, 24, 0, 0, 2, 7, 11, 1, 1]
 windows:
   "7d":
     pushes: 1
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 21
+    pushes: 20
     distinct_repos: 8
-    active_days: 11
+    active_days: 10
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 113
+    pushes: 104
     distinct_repos: 12
-    active_days: 34
+    active_days: 33
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 3.3235
-  repo_per_active_day: 0.3529
+  push_per_day: 3.1515
+  repo_per_active_day: 0.3636
   not_owned_ratio: 0.1667
   basename_concentration: 0.1667
   shapes: []
@@ -57,145 +57,30 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 21
+    pushes: 20
     distinct_repos: 8
-    pushes_per_repo: 2.6250
-    active_days: 11
+    pushes_per_repo: 2.5000
+    active_days: 10
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 113
+    pushes: 104
     distinct_repos: 12
-    pushes_per_repo: 9.4167
-    active_days: 34
+    pushes_per_repo: 8.6667
+    active_days: 33
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 34 active days in 90d — pass"
+  - "activity: 33 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "sonicheroes"
-    title: "sonicheroes"
-    description: "Decompilation of Sonic Heroes for the Nintendo GameCube"
-    language: "C++"
-    topics:
-      - "c"
-      - "codewarrior"
-      - "decompilation"
-      - "game-preservation"
-      - "gamecube"
-      - "matching-decomp"
-      - "powerpc"
-      - "reverse-engineering"
-      - "sega"
-      - "sonic"
-      - "sonic-heroes"
-    stars_fact: 26
-    first_seen: null
-    last_push: "2026-10-09"
-  - name: "RegionReveal"
-    title: "RegionReveal"
-    description: "Cube World Alpha mod: walk into a named area and every label in it appears on the world map - cities, castles, dungeons, ruins, mountains. No terrain spoilers, no save changes. Drop-in dinput8.dll."
-    language: "C++"
-    topics:
-      - "cpp"
-      - "cpp17"
-      - "cube-world"
-      - "cube-world-alpha"
-      - "cubeworld"
-      - "cubeworld-alpha"
-      - "dinput8"
-      - "dll"
-      - "game-mod"
-      - "game-modding"
-      - "mod"
-      - "modding"
-      - "reverse-engineering"
-      - "windows"
-      - "world-map"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-05"
-  - name: "FactoryScope"
-    title: "FactoryScope"
-    description: "Read-only diagnostics and troubleshooting for Mindustry factories."
-    language: "Java"
-    topics:
-      - "debugging"
-      - "diagnostics"
-      - "factory"
-      - "java"
-      - "mindustry"
-      - "mindustry-mod"
-      - "mindustry-v8"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-05"
-  - name: "idle-mine-beyond"
-    title: "idle-mine-beyond"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-04"
-  - name: "Chestwise"
-    title: "Chestwise"
-    description: "Multiplatform Minecraft storage mod: search, move, craft, and organize items across chests without cables, power, or disks"
-    language: "Java"
-    topics:
-      - "fabric-mod"
-      - "gradle"
-      - "inventory-management"
-      - "item-management"
-      - "java"
-      - "minecraft"
-      - "minecraft-forge"
-      - "minecraft-mod"
-      - "modding"
-      - "multiloader"
-      - "neoforge"
-      - "quilt"
-      - "stonecutter"
-      - "storage"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-07"
-  - name: "vernaculo"
-    title: "vernaculo"
-    description: "Camadas de linguagem regional para qualquer IA (assistentes, tutores, personagens, atendimento): especificação aberta, self-hosted e independente de provedor, começando pelo português brasileiro. Sem servidor, sem caricatura."
-    language: "TypeScript"
-    topics:
-      - "agent-skills"
-      - "agentes-de-ia"
-      - "auto-hospedado"
-      - "brasil"
-      - "codigo-aberto"
-      - "engenharia-de-prompt"
-      - "ia-generativa"
-      - "inteligencia-artificial"
-      - "linguistica"
-      - "llm"
-      - "localizacao"
-      - "nordeste"
-      - "openai"
-      - "personas"
-      - "portugues-brasileiro"
-      - "pt-br"
-      - "regionalismos"
-      - "sociolinguistica"
-      - "typescript"
-      - "variacao-linguistica"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-30"
+repos: []
 ---
 
 # Jovinull
 
-113 pushes across 12 repositories on 34 active days in the last 90 days of public GitHub push activity.
+104 pushes across 12 repositories on 33 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Jovinull

@@ -8,11 +8,11 @@ provenance_repos:
   - "antirez/ds4"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-16T08:30:18.142355+00:00"
+repos_populated: false
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "3eacb4655aba2497"
-pushes_per_week: [0, 0, 0, 0, 0, 1, 0, 0, 0, 2, 5, 1, 0]
+pushes_per_week: [0, 0, 0, 0, 0, 1, 0, 0, 0, 3, 4, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,78 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "dotfiles"
-    title: "dotfiles"
-    description: "User-specific application configuration is traditionally stored in so called dotfiles, these are my own."
-    language: "Lua"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-11"
-  - name: "pi-pkg"
-    title: "pi-pkg"
-    description: "Personal Pi package — extensions, skills, prompts, and themes."
-    language: "JavaScript"
-    topics:
-      - "pi"
-      - "pi-coding-agent"
-      - "pi-package"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-10"
-  - name: "asdf-k3d"
-    title: "asdf-k3d"
-    description: "k3d plugin for asdf version manager"
-    language: "Shell"
-    topics:
-      - "asdf"
-      - "asdf-plugin"
-      - "asdf-vm"
-      - "k3d"
-      - "kubernetes"
-    stars_fact: 10
-    first_seen: null
-    last_push: "2026-06-19"
-  - name: "asdf-vector"
-    title: "asdf-vector"
-    description: "Vector plugin for asdf version manager"
-    language: "Shell"
-    topics:
-      - "asdf"
-      - "asdf-plugin"
-      - "asdf-vm"
-      - "observability"
-      - "vector"
-    stars_fact: 4
-    first_seen: null
-    last_push: "2025-11-20"
-  - name: "asdf-gitsign"
-    title: "asdf-gitsign"
-    description: "Gitsign plugin for asdf version manager"
-    language: "Shell"
-    topics:
-      - "asdf"
-      - "asdf-plugin"
-      - "asdf-vm"
-      - "gitsign"
-      - "sigstore"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2025-11-21"
-  - name: "asdf-protolint"
-    title: "asdf-protolint"
-    description: "protolint plugin for asdf version manager"
-    language: "Shell"
-    topics:
-      - "asdf"
-      - "asdf-plugin"
-      - "asdf-vm"
-      - "protobuf"
-      - "protolint"
-    stars_fact: 3
-    first_seen: null
-    last_push: "2024-09-13"
+repos: []
 ---
 
 # spencergilbert

@@ -8,11 +8,11 @@ provenance_repos:
   - "dream-num/univer"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+repos_populated: false
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "d148e3d2c2843c2b"
-pushes_per_week: [5, 9, 6, 5, 2, 3, 0, 1, 1, 5, 3, 0, 2]
+pushes_per_week: [5, 9, 6, 5, 2, 3, 0, 1, 3, 3, 3, 0, 2]
 windows:
   "7d":
     pushes: 2
@@ -76,57 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 26 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "ai-tab"
-    title: "ai-tab"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-09"
-  - name: "verso"
-    title: "verso"
-    description: "A release toolkit for modern workspace-driven projects."
-    language: "Rust"
-    topics:
-      - "release"
-      - "releasetool"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-16"
-  - name: "switch-weread"
-    title: "switch-weread"
-    description: null
-    language: "C++"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-08"
-  - name: "doctrine"
-    title: "doctrine"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-31"
-  - name: "mdx"
-    title: "mdx"
-    description: "A native MDX content compiler with Vite and Next adapters"
-    language: "Rust"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-31"
-  - name: "oxlint-config"
-    title: "oxlint-config"
-    description: "Opinionated Oxlint presets and an Oxc initializer."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-31"
+repos: []
 ---
 
 # jikkai

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "a5ffcd0a46dd44fd"
-pushes_per_week: [15, 2, 4, 5, 0, 0, 0, 7, 7, 9, 11, 7, 4]
+pushes_per_week: [9, 2, 4, 5, 0, 0, 1, 6, 7, 10, 11, 6, 4]
 windows:
   "7d":
     pushes: 4
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 2
   "30d":
-    pushes: 38
+    pushes: 36
     distinct_repos: 12
-    active_days: 17
+    active_days: 16
     repos_not_owned: 8
     not_owned_basenames: 7
     not_owned_owners: 3
   "90d":
-    pushes: 71
+    pushes: 65
     distinct_repos: 15
-    active_days: 36
+    active_days: 35
     repos_not_owned: 10
     not_owned_basenames: 9
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 1.9722
-  repo_per_active_day: 0.4167
+  push_per_day: 1.8571
+  repo_per_active_day: 0.4286
   not_owned_ratio: 0.6667
   basename_concentration: 0.2000
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 2
   "30d":
-    pushes: 38
+    pushes: 36
     distinct_repos: 12
-    pushes_per_repo: 3.1667
-    active_days: 17
+    pushes_per_repo: 3.0000
+    active_days: 16
     repos_not_owned: 8
     not_owned_basenames: 7
     not_owned_owners: 3
   "90d":
-    pushes: 71
+    pushes: 65
     distinct_repos: 15
-    pushes_per_repo: 4.7333
-    active_days: 36
+    pushes_per_repo: 4.3333
+    active_days: 35
     repos_not_owned: 10
     not_owned_basenames: 9
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 36 active days in 90d — pass"
+  - "activity: 35 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "jbpratt"
@@ -84,7 +84,7 @@ repos:
     topics: []
     stars_fact: 2
     first_seen: null
-    last_push: "2026-10-11"
+    last_push: "2026-10-18"
   - name: "boto3-client-exceptions"
     title: "boto3-client-exceptions"
     description: "generated list of boto3 client exceptions"
@@ -93,9 +93,9 @@ repos:
       - "aws"
       - "boto3"
       - "exceptions"
-    stars_fact: 27
+    stars_fact: 26
     first_seen: null
-    last_push: "2026-10-08"
+    last_push: "2026-10-13"
   - name: "homelab"
     title: "homelab"
     description: null
@@ -103,7 +103,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-09"
+    last_push: "2026-10-16"
   - name: "pi-experiments"
     title: "pi-experiments"
     description: null
@@ -119,7 +119,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-08-29"
+    last_push: "2026-10-18"
   - name: "tinyoci"
     title: "tinyoci"
     description: "🚑 an LLM built this 🚑"
@@ -132,6 +132,6 @@ repos:
 
 # jbpratt
 
-71 pushes across 15 repositories on 36 active days in the last 90 days of public GitHub push activity.
+65 pushes across 15 repositories on 35 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/jbpratt

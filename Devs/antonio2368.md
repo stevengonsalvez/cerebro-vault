@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-16T08:30:18.142355+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "4a45ac7a449df20e"
 pushes_per_week: [0, 0, 1, 3, 0, 0, 0, 6, 2, 1, 1, 2, 0]
@@ -84,7 +84,7 @@ repos:
     topics: []
     stars_fact: 2
     first_seen: null
-    last_push: "2026-10-09"
+    last_push: "2026-10-16"
   - name: "clickhouseingest"
     title: "clickhouseingest"
     description: null

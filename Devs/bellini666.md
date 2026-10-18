@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [1, 3, 1, 0, 1, 1, 0, 0, 3, 1, 3, 3, 2]
+pushes_per_week: [1, 3, 1, 0, 1, 1, 0, 1, 2, 1, 4, 2, 2]
 windows:
   "7d":
-    pushes: 3
-    distinct_repos: 2
-    active_days: 2
+    pushes: 2
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 3
-    distinct_repos: 2
-    pushes_per_repo: 1.5000
-    active_days: 2
+    pushes: 2
+    distinct_repos: 1
+    pushes_per_repo: 2.0000
+    active_days: 1
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -77,6 +77,14 @@ reasons:
   - "activity: 15 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "pytest-language-server"
+    title: "pytest-language-server"
+    description: "🔥 Pytest Language Server"
+    language: "Rust"
+    topics: []
+    stars_fact: 121
+    first_seen: null
+    last_push: "2026-10-17"
   - name: "django-choices-field"
     title: "django-choices-field"
     description: "Django field that set/get django's new TextChoices/IntegerChoices enum"
@@ -100,14 +108,6 @@ repos:
     stars_fact: 17
     first_seen: null
     last_push: "2026-10-06"
-  - name: "pytest-language-server"
-    title: "pytest-language-server"
-    description: "🔥 Pytest Language Server"
-    language: "Rust"
-    topics: []
-    stars_fact: 121
-    first_seen: null
-    last_push: "2026-10-04"
   - name: "asdf-lua-language-server"
     title: "asdf-lua-language-server"
     description: "lua-language-server plugin for the asdf version manager."

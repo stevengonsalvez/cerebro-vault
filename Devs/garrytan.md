@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "b321d228efd2bc14"
-pushes_per_week: [0, 0, 2, 34, 14, 5, 1, 2, 4, 25, 69, 185, 89]
+pushes_per_week: [0, 0, 7, 39, 4, 6, 1, 1, 7, 23, 109, 167, 66]
 windows:
   "7d":
-    pushes: 93
+    pushes: 80
     distinct_repos: 3
-    active_days: 5
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 93
+    pushes: 80
     distinct_repos: 3
-    pushes_per_repo: 31.0000
-    active_days: 5
+    pushes_per_repo: 26.6667
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -82,25 +82,25 @@ repos:
     description: "Garry's Opinionated OpenClaw/Hermes Agent Brain"
     language: "TypeScript"
     topics: []
-    stars_fact: 30735
+    stars_fact: 30962
     first_seen: null
-    last_push: "2026-10-10"
+    last_push: "2026-10-18"
   - name: "gstack"
     title: "gstack"
     description: "Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA"
     language: "TypeScript"
     topics: []
-    stars_fact: 135756
+    stars_fact: 136803
     first_seen: "2026-06-23T06:00:02.592383+00:00"
-    last_push: "2026-10-09"
+    last_push: "2026-10-18"
   - name: "gbrain-evals"
     title: "gbrain-evals"
     description: null
     language: "TypeScript"
     topics: []
-    stars_fact: 434
+    stars_fact: 441
     first_seen: null
-    last_push: "2026-10-10"
+    last_push: "2026-10-18"
   - name: "bel-doom"
     title: "bel-doom"
     description: null

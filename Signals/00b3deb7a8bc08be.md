@@ -1,8 +1,8 @@
 ---
 title: "mattpocock/sandcastle: Orchestrate sandboxed coding agents in TypeScript with sandcastle.run()"
 category: coding-agents-llm
-tags: [ai/agents, cerebro/signal, developer/mattpocock, github/cracked-dev, repo/mattpocock/sandcastle, vibe-coding]
-topic_tags: [ai/agents, vibe-coding]
+tags: [ai/agents, cerebro/signal, developer/mattpocock, github/cracked-dev, repo/mattpocock/sandcastle]
+topic_tags: [ai/agents]
 source_tags: [github/cracked-dev]
 entity_tags: [developer/mattpocock, repo/mattpocock/sandcastle]
 artifact_tags: [cerebro/signal]
@@ -10,15 +10,15 @@ workflow_tags: []
 source: github
 url: https://github.com/mattpocock/sandcastle
 score: 0.85
-reason: "Agentic orchestration framework, novel TypeScript pattern"
-stars: 8235
+reason: "Sandboxed coding agent orchestration in TypeScript"
+stars: 8503
 language: "TypeScript"
 captured: 2026-10-03T06:01:20.490195+00:00
 rating:
 ---
 # mattpocock/sandcastle: Orchestrate sandboxed coding agents in TypeScript with sandcastle.run()
 
-> Agentic orchestration framework, novel TypeScript pattern
+> Sandboxed coding agent orchestration in TypeScript
 
 A TypeScript library for orchestrating AI coding agents in isolated sandboxes:
 - You invoke agents with a single sandcastle.run() .

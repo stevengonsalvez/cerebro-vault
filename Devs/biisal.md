@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "745308b2b7085095"
-pushes_per_week: [1, 0, 0, 0, 0, 2, 0, 4, 0, 1, 1, 1, 0]
+pushes_per_week: [1, 0, 0, 0, 2, 0, 0, 4, 1, 1, 0, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -84,15 +84,31 @@ repos:
     topics: []
     stars_fact: 5
     first_seen: null
-    last_push: "2026-10-09"
+    last_push: "2026-10-18"
+  - name: "fast-stream-bot"
+    title: "fast-stream-bot"
+    description: "A lightweight fast telegram file streaming bot in go"
+    language: "Go"
+    topics: []
+    stars_fact: 17
+    first_seen: null
+    last_push: "2026-03-23"
   - name: "bai"
     title: "bai"
     description: null
     language: "Go"
     topics: []
-    stars_fact: 4
+    stars_fact: 7
     first_seen: null
-    last_push: "2026-10-08"
+    last_push: "2026-10-17"
+  - name: "biisal"
+    title: "biisal"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-15"
   - name: "biisal-filter-bot"
     title: "biisal-filter-bot"
     description: "A Advance Auto Filter Bot made with Pyrofork"
@@ -109,22 +125,6 @@ repos:
     stars_fact: 20
     first_seen: null
     last_push: "2026-06-12"
-  - name: "dotfiles-mac"
-    title: "dotfiles-mac"
-    description: "dotfiles for my mac"
-    language: "Shell"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-10"
-  - name: "synction"
-    title: "synction"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-08"
 ---
 
 # biisal

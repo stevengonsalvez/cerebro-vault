@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "51d6155061d60774"
-pushes_per_week: [28, 13, 20, 23, 17, 3, 3, 8, 20, 59, 90, 65, 58]
+pushes_per_week: [25, 13, 25, 20, 15, 2, 3, 13, 32, 82, 66, 79, 28]
 windows:
   "7d":
-    pushes: 63
+    pushes: 56
     distinct_repos: 1
-    active_days: 5
+    active_days: 4
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 282
+    pushes: 281
     distinct_repos: 3
-    active_days: 26
+    active_days: 25
     repos_not_owned: 3
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 407
+    pushes: 403
     distinct_repos: 3
     active_days: 67
     repos_not_owned: 3
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 6.0746
+  push_per_day: 6.0149
   repo_per_active_day: 0.0448
   not_owned_ratio: 1.0000
   basename_concentration: 0.6667
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 63
+    pushes: 56
     distinct_repos: 1
-    pushes_per_repo: 63.0000
-    active_days: 5
+    pushes_per_repo: 56.0000
+    active_days: 4
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 282
+    pushes: 281
     distinct_repos: 3
-    pushes_per_repo: 94.0000
-    active_days: 26
+    pushes_per_repo: 93.6667
+    active_days: 25
     repos_not_owned: 3
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 407
+    pushes: 403
     distinct_repos: 3
-    pushes_per_repo: 135.6667
+    pushes_per_repo: 134.3333
     active_days: 67
     repos_not_owned: 3
     not_owned_basenames: 2
@@ -77,6 +77,14 @@ reasons:
   - "activity: 67 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "power-yuque"
+    title: "power-yuque"
+    description: "语雀的增强插件"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 57
+    first_seen: null
+    last_push: "2022-12-03"
   - name: "zotero-engine-list"
     title: "zotero-engine-list"
     description: "一份实用的 Zotero 检索引擎"
@@ -124,20 +132,10 @@ repos:
     stars_fact: 1
     first_seen: null
     last_push: "2026-07-16"
-  - name: "airtable-app-mind-flow"
-    title: "airtable-app-mind-flow"
-    description: "MindFlow"
-    language: "TypeScript"
-    topics:
-      - "airtable"
-      - "airtable-app"
-    stars_fact: 37
-    first_seen: null
-    last_push: "2022-06-26"
 ---
 
 # arvinxx
 
-407 pushes across 3 repositories on 67 active days in the last 90 days of public GitHub push activity.
+403 pushes across 3 repositories on 67 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/arvinxx

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "73468cde177ddae6"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 1, 36, 5, 5, 4, 5, 8]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 10, 27, 5, 5, 4, 7, 6]
 windows:
   "7d":
     pushes: 8
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 25
-    distinct_repos: 7
-    active_days: 13
+    pushes: 23
+    distinct_repos: 6
+    active_days: 11
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 25
-    distinct_repos: 7
-    pushes_per_repo: 3.5714
-    active_days: 13
+    pushes: 23
+    distinct_repos: 6
+    pushes_per_repo: 3.8333
+    active_days: 11
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -77,6 +77,62 @@ reasons:
   - "activity: 20 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "GMAIL"
+    title: "GMAIL"
+    description: "Gmail in your terminal: browse Inbox, Archived, Sent, Spam and Trash, triage with archive, star, unread, trash and undo, and save emails as PDFs with their attachments. Gmail API (OAuth) + headless Chromium."
+    language: "Python"
+    topics:
+      - "attachments"
+      - "cli"
+      - "email"
+      - "email-archiving"
+      - "email-backup"
+      - "email-client"
+      - "email-to-pdf"
+      - "gmail"
+      - "gmail-api"
+      - "gmail-client"
+      - "google-oauth"
+      - "headless-chrome"
+      - "inbox-zero"
+      - "oauth2"
+      - "pdf"
+      - "pdf-generation"
+      - "playwright"
+      - "python"
+      - "terminal"
+      - "tui"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-17"
+  - name: "SnapTess"
+    title: "SnapTess"
+    description: "GNOME Shell extension for automatic window tiling on Wayland (GNOME 50). Grid & split layouts, drag-to-snap, Layout Studio, linked tile resize, keyboard-driven focus and independent spaces per monitor."
+    language: "JavaScript"
+    topics:
+      - "auto-tiling"
+      - "gjs"
+      - "gnome"
+      - "gnome-50"
+      - "gnome-extension"
+      - "gnome-shell"
+      - "gnome-shell-extension"
+      - "javascript"
+      - "keyboard-shortcuts"
+      - "layout"
+      - "linux"
+      - "linux-desktop"
+      - "multi-monitor"
+      - "productivity"
+      - "tiling"
+      - "tiling-window-manager"
+      - "wayland"
+      - "window-management"
+      - "window-manager"
+      - "window-tiling"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-17"
   - name: "lethe"
     title: "lethe"
     description: "Browse, resume and forget your Claude Code and Codex sessions from one terminal picker. Never touches a running session."
@@ -97,15 +153,35 @@ repos:
       - "tui"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-10"
-  - name: "C0sm0cats"
-    title: "C0sm0cats"
-    description: "My personal repository"
-    language: null
-    topics: []
-    stars_fact: 0
+    last_push: "2026-10-14"
+  - name: "SmartGrid"
+    title: "SmartGrid"
+    description: "Automatic tiling window manager for Windows 10/11 — layout studio, custom grids, snap and swap, virtual desktops, hotkeys. Python + Qt."
+    language: "Python"
+    topics:
+      - "dwm"
+      - "fancyzones-alternative"
+      - "keyboard-shortcuts"
+      - "layout-manager"
+      - "multi-monitor"
+      - "productivity"
+      - "pyside6"
+      - "python"
+      - "qt"
+      - "snap"
+      - "tiling"
+      - "tiling-window-manager"
+      - "virtual-desktops"
+      - "win32"
+      - "window-layout"
+      - "window-manager"
+      - "window-snapping"
+      - "windows"
+      - "windows-10"
+      - "windows-11"
+    stars_fact: 1
     first_seen: null
-    last_push: "2026-10-10"
+    last_push: "2026-10-13"
   - name: "GDRIVE"
     title: "GDRIVE"
     description: "Google Drive in your terminal: two-way sync of the folders you pick across My Drive, shared items and shared drives, with a preview of every change on both sides. Conflicts kept, deletions to the trash, Docs/Sheets/Slides export, Drive trash manager."
@@ -134,90 +210,14 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-10-09"
-  - name: "SmartGrid"
-    title: "SmartGrid"
-    description: "Automatic tiling window manager for Windows 10/11 — layout studio, custom grids, snap and swap, virtual desktops, hotkeys. Python + Qt."
-    language: "Python"
-    topics:
-      - "dwm"
-      - "fancyzones-alternative"
-      - "keyboard-shortcuts"
-      - "layout-manager"
-      - "multi-monitor"
-      - "productivity"
-      - "pyside6"
-      - "python"
-      - "qt"
-      - "snap"
-      - "tiling"
-      - "tiling-window-manager"
-      - "virtual-desktops"
-      - "win32"
-      - "window-layout"
-      - "window-manager"
-      - "window-snapping"
-      - "windows"
-      - "windows-10"
-      - "windows-11"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-09"
-  - name: "GMAIL"
-    title: "GMAIL"
-    description: "Gmail in your terminal: browse Inbox, Archived, Sent, Spam and Trash, triage with archive, star, unread, trash and undo, and save emails as PDFs with their attachments. Gmail API (OAuth) + headless Chromium."
-    language: "Python"
-    topics:
-      - "attachments"
-      - "cli"
-      - "email"
-      - "email-archiving"
-      - "email-backup"
-      - "email-client"
-      - "email-to-pdf"
-      - "gmail"
-      - "gmail-api"
-      - "gmail-client"
-      - "google-oauth"
-      - "headless-chrome"
-      - "inbox-zero"
-      - "oauth2"
-      - "pdf"
-      - "pdf-generation"
-      - "playwright"
-      - "python"
-      - "terminal"
-      - "tui"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-08"
-  - name: "SnapTess"
-    title: "SnapTess"
-    description: "GNOME Shell extension for automatic window tiling on Wayland (GNOME 50). Grid & split layouts, drag-to-snap, Layout Studio, linked tile resize, keyboard-driven focus and independent spaces per monitor."
-    language: "JavaScript"
-    topics:
-      - "auto-tiling"
-      - "gjs"
-      - "gnome"
-      - "gnome-50"
-      - "gnome-extension"
-      - "gnome-shell"
-      - "gnome-shell-extension"
-      - "javascript"
-      - "keyboard-shortcuts"
-      - "layout"
-      - "linux"
-      - "linux-desktop"
-      - "multi-monitor"
-      - "productivity"
-      - "tiling"
-      - "tiling-window-manager"
-      - "wayland"
-      - "window-management"
-      - "window-manager"
-      - "window-tiling"
+  - name: "C0sm0cats"
+    title: "C0sm0cats"
+    description: "My personal repository"
+    language: null
+    topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-06"
+    last_push: "2026-10-10"
 ---
 
 # C0sm0cats

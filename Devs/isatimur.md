@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "46f3c1d6124190bd"
-pushes_per_week: [12, 44, 7, 2, 0, 0, 0, 0, 4, 1, 4, 1, 0]
+pushes_per_week: [16, 44, 3, 2, 0, 0, 0, 1, 4, 0, 5, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 9
+    pushes: 7
     distinct_repos: 4
-    active_days: 7
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 9
+    pushes: 7
     distinct_repos: 4
-    pushes_per_repo: 2.2500
-    active_days: 7
+    pushes_per_repo: 1.7500
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -77,6 +77,76 @@ reasons:
   - "activity: 22 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "excalidraw-skill-pack"
+    title: "excalidraw-skill-pack"
+    description: "Make your AI agent argue visually. Universal skill pack for Excalidraw diagrams across Claude Code, Cursor, Codex, Gemini CLI, and any MCP-compatible agent."
+    language: "TypeScript"
+    topics:
+      - "ai-agents"
+      - "ai-tools"
+      - "anthropic"
+      - "claude"
+      - "claude-code"
+      - "claude-code-plugin"
+      - "claude-plugin"
+      - "claude-skills"
+      - "cursor"
+      - "diagram-as-code"
+      - "diagrams"
+      - "excalidraw"
+      - "mcp"
+      - "model-context-protocol"
+      - "themes"
+      - "visualization"
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-10-17"
+  - name: "braga-3d"
+    title: "braga-3d"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-13"
+  - name: "ai-engineering-book-lab"
+    title: "ai-engineering-book-lab"
+    description: "A source-anchored book on AI engineering, auto-researched from 794 practitioner talks. Every claim links to the exact second of the video it came from; every chapter is graded by a panel of three rival LLMs (no model grades its own style). Live at fromcopilottocolleague.com"
+    language: "HTML"
+    topics:
+      - "ai-agents"
+      - "ai-book"
+      - "ai-engineering"
+      - "autoresearch"
+      - "book"
+      - "claims-ledger"
+      - "llm"
+      - "methodology"
+      - "practitioner"
+      - "production-ai"
+      - "source-anchors"
+    stars_fact: 5
+    first_seen: null
+    last_push: "2026-10-13"
+  - name: "archigram.me"
+    title: "archigram.me"
+    description: "Mermaid Online Tool"
+    language: "TypeScript"
+    topics:
+      - "architecture"
+      - "design"
+      - "systems"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-13"
+  - name: "porto-3d"
+    title: "porto-3d"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-12"
   - name: "de-slop"
     title: "de-slop"
     description: "Portable Claude Code skill that de-slops AI prose — detect, rewrite to a real point of view, self-score, iterate. Fidelity-first; flags hollow spans instead of faking them."
@@ -101,76 +171,6 @@ repos:
     stars_fact: 4
     first_seen: null
     last_push: "2026-07-19"
-  - name: "ai-engineering-book-lab"
-    title: "ai-engineering-book-lab"
-    description: "A source-anchored book on AI engineering, auto-researched from 794 practitioner talks. Every claim links to the exact second of the video it came from; every chapter is graded by a panel of three rival LLMs (no model grades its own style). Live at fromcopilottocolleague.com"
-    language: "HTML"
-    topics:
-      - "ai-agents"
-      - "ai-book"
-      - "ai-engineering"
-      - "autoresearch"
-      - "book"
-      - "claims-ledger"
-      - "llm"
-      - "methodology"
-      - "practitioner"
-      - "production-ai"
-      - "source-anchors"
-    stars_fact: 5
-    first_seen: null
-    last_push: "2026-10-10"
-  - name: "porto-3d"
-    title: "porto-3d"
-    description: null
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-10"
-  - name: "excalidraw-skill-pack"
-    title: "excalidraw-skill-pack"
-    description: "Make your AI agent argue visually. Universal skill pack for Excalidraw diagrams across Claude Code, Cursor, Codex, Gemini CLI, and any MCP-compatible agent."
-    language: "TypeScript"
-    topics:
-      - "ai-agents"
-      - "ai-tools"
-      - "anthropic"
-      - "claude"
-      - "claude-code"
-      - "claude-code-plugin"
-      - "claude-plugin"
-      - "claude-skills"
-      - "cursor"
-      - "diagram-as-code"
-      - "diagrams"
-      - "excalidraw"
-      - "mcp"
-      - "model-context-protocol"
-      - "themes"
-      - "visualization"
-    stars_fact: 4
-    first_seen: null
-    last_push: "2026-10-10"
-  - name: "agentic-sdlc"
-    title: "agentic-sdlc"
-    description: "A two-page agentic software development lifecycle for small teams, with the GitHub files that make it mechanical: the gate lives on the remote."
-    language: "Shell"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-09"
-  - name: "archigram.me"
-    title: "archigram.me"
-    description: "Mermaid Online Tool"
-    language: "TypeScript"
-    topics:
-      - "architecture"
-      - "design"
-      - "systems"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-08"
 ---
 
 # isatimur

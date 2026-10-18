@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [12, 10, 0, 11, 3, 1, 1, 0, 1, 13, 15, 15, 6]
+pushes_per_week: [12, 10, 3, 9, 2, 1, 1, 1, 0, 13, 22, 10, 4]
 windows:
   "7d":
-    pushes: 6
-    distinct_repos: 3
-    active_days: 3
+    pushes: 4
+    distinct_repos: 2
+    active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 6
-    distinct_repos: 3
+    pushes: 4
+    distinct_repos: 2
     pushes_per_repo: 2.0000
-    active_days: 3
+    active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -77,14 +77,6 @@ reasons:
   - "activity: 31 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "hyfrme"
-    title: "hyfrme"
-    description: "Cinematic motion components ported from Remotion to HyperFrames"
-    language: "HTML"
-    topics: []
-    stars_fact: 5
-    first_seen: null
-    last_push: "2026-10-09"
   - name: "omarchy-radio-atlas"
     title: "omarchy-radio-atlas"
     description: "Explore live radio on a rotatable globe from the Omarchy bar."
@@ -98,33 +90,17 @@ repos:
       - "quickshell"
       - "radio-browser"
       - "wayland"
-    stars_fact: 89
+    stars_fact: 93
     first_seen: null
-    last_push: "2026-10-08"
+    last_push: "2026-10-17"
   - name: "cohall"
     title: "cohall"
     description: "Let coding agents delegate work across your own devices."
     language: "TypeScript"
     topics: []
-    stars_fact: 6
+    stars_fact: 7
     first_seen: null
-    last_push: "2026-10-08"
-  - name: "frameyard"
-    title: "frameyard"
-    description: "Local video and motion editing with editable layers and coding agents."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-07"
-  - name: "skillsync"
-    title: "skillsync"
-    description: "Local-first GitHub-backed skill manager for AI agent skills"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-04"
+    last_push: "2026-10-17"
   - name: "homebrew-tap"
     title: "homebrew-tap"
     description: null
@@ -132,7 +108,31 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-04"
+    last_push: "2026-10-15"
+  - name: "skillsync"
+    title: "skillsync"
+    description: "Local-first GitHub-backed skill manager for AI agent skills"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-15"
+  - name: "blippy"
+    title: "blippy"
+    description: "GitHub in your terminal"
+    language: "Rust"
+    topics: []
+    stars_fact: 25
+    first_seen: null
+    last_push: "2026-10-15"
+  - name: "hyfrme"
+    title: "hyfrme"
+    description: "Cinematic motion components ported from Remotion to HyperFrames"
+    language: "HTML"
+    topics: []
+    stars_fact: 6
+    first_seen: null
+    last_push: "2026-10-15"
 ---
 
 # AksharP5

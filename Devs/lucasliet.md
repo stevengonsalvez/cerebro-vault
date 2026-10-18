@@ -8,11 +8,11 @@ provenance_repos:
   - "akitaonrails/ai-memory"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+repos_populated: false
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "4138778ebbc75ba6"
-pushes_per_week: [11, 3, 0, 2, 0, 4, 0, 0, 1, 3, 10, 8, 5]
+pushes_per_week: [8, 3, 1, 1, 1, 3, 0, 0, 1, 3, 14, 5, 4]
 windows:
   "7d":
     pushes: 5
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 47
+    pushes: 44
     distinct_repos: 17
-    active_days: 27
+    active_days: 26
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.7407
-  repo_per_active_day: 0.6296
+  push_per_day: 1.6923
+  repo_per_active_day: 0.6538
   not_owned_ratio: 0.0000
   basename_concentration: 0.0588
   shapes: []
@@ -65,80 +65,22 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 47
+    pushes: 44
     distinct_repos: 17
-    pushes_per_repo: 2.7647
-    active_days: 27
+    pushes_per_repo: 2.5882
+    active_days: 26
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 27 active days in 90d — pass"
+  - "activity: 26 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "arrmate"
-    title: "arrmate"
-    description: "A companion app for Radarr and Sonarr instances."
-    language: "Dart"
-    topics:
-      - "app"
-      - "arr"
-      - "companion"
-      - "flutter"
-      - "radarr"
-      - "rudarr"
-      - "sonarr"
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-10-10"
-  - name: "ps5-custom-payloads"
-    title: "ps5-custom-payloads"
-    description: null
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-10"
-  - name: "chatgpt-openai-proxy"
-    title: "chatgpt-openai-proxy"
-    description: "Use your chatgpt plan as an openai compatible api"
-    language: "Python"
-    topics:
-      - "api"
-      - "chatgpt"
-      - "openai"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-08"
-  - name: "opencode-aiusage-plugin"
-    title: "opencode-aiusage-plugin"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-08"
-  - name: "opencode-mem"
-    title: "opencode-mem"
-    description: "Memory persistence between sessions in project scope for opencode"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-06-03"
-  - name: "opencode-classifier-plugin"
-    title: "opencode-classifier-plugin"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-08"
+repos: []
 ---
 
 # lucasliet
 
-47 pushes across 17 repositories on 27 active days in the last 90 days of public GitHub push activity.
+44 pushes across 17 repositories on 26 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/lucasliet

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-16T08:30:18.142355+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [1, 0, 1, 4, 0, 0, 0, 0, 0, 3, 1, 0, 0]
+pushes_per_week: [1, 1, 0, 4, 0, 0, 0, 0, 0, 4, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,6 +77,46 @@ reasons:
   - "activity: 8 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "drydock"
+    title: "drydock"
+    description: null
+    language: "Go"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-18"
+  - name: ".github"
+    title: ".github"
+    description: null
+    language: "Nushell"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-17"
+  - name: "CodexBar-flake"
+    title: "CodexBar-flake"
+    description: "Nix flake packaging the Linux CodexBar CLI, with automated updates from upstream GitHub releases."
+    language: "Nix"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-17"
+  - name: "0xferrous.github.io"
+    title: "0xferrous.github.io"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-15"
+  - name: "my-nix"
+    title: "my-nix"
+    description: "My public nix config, with some reusable modules"
+    language: "Nix"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-15"
   - name: "ash"
     title: "ash"
     description: "ash is a CLI for spawning, attaching to, suspending, resuming, mounting into, and deleting NixOS agent VMs through virtle."
@@ -91,56 +131,6 @@ repos:
     stars_fact: 3
     first_seen: null
     last_push: "2026-10-10"
-  - name: "0xferrous.github.io"
-    title: "0xferrous.github.io"
-    description: null
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-09"
-  - name: ".github"
-    title: ".github"
-    description: null
-    language: "Nushell"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-09"
-  - name: "my-nix"
-    title: "my-nix"
-    description: "My public nix config, with some reusable modules"
-    language: "Nix"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-09"
-  - name: "agent-box"
-    title: "agent-box"
-    description: "Sandboxed containers for AI coding agents with disposable Git/Jujutsu workspaces"
-    language: "Rust"
-    topics:
-      - "agent-sandbox"
-      - "claude-code"
-      - "codex"
-      - "codex-cli"
-      - "coding-agents"
-      - "docker"
-      - "nix"
-      - "pi-coding-agent"
-      - "podman"
-      - "sandbox"
-    stars_fact: 39
-    first_seen: null
-    last_push: "2026-05-17"
-  - name: "plankevm-flake"
-    title: "plankevm-flake"
-    description: "Flake for plankc, nightly and stable releases."
-    language: "Nix"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-08"
 ---
 
 # 0xferrous

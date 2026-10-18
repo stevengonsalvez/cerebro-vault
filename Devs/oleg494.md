@@ -8,11 +8,11 @@ provenance_repos:
   - "can1357/oh-my-pi"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+repos_populated: false
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [6, 1, 0, 0, 0, 0, 0, 4, 1, 2, 0, 2, 0]
+pushes_per_week: [6, 1, 0, 0, 0, 0, 2, 3, 1, 1, 0, 2, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,52 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 11 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "coding-kit"
-    title: "coding-kit"
-    description: "Portable agent-brain kit: superpowers methodology, YAGNI minimalism, cross-chat SQLite FTS5 memory, adversarial trap-suite evals. Hermes-compatible skills for OMP/Claude Code/Gemini CLI/Hermes/Antigravity/ZCode."
-    language: "Python"
-    topics:
-      - "agent-skills"
-      - "ai-agents"
-      - "claude-code"
-      - "evals"
-      - "gemini-cli"
-      - "hermes"
-      - "prompt-engineering"
-      - "sqlite-fts5"
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-10-08"
-  - name: "tg2notebooklm"
-    title: "tg2notebooklm"
-    description: "Convert Telegram Desktop JSON/HTML exports into source-budgeted Gemini Notebook (NotebookLM) files — CLI + local browser edition"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-13"
-  - name: "local-mcp-easy"
-    title: "local-mcp-easy"
-    description: "Local developer MCP server with Streamable HTTP, OAuth 2.1, filesystem tools, commands and Git repository context."
-    language: "Python"
-    topics:
-      - "ai-agent"
-      - "developer-tools"
-      - "filesystem"
-      - "hyperagent"
-      - "mcp"
-      - "mcp-server"
-      - "model-context-protocol"
-      - "notion"
-      - "oauth2"
-      - "python"
-      - "self-hosted"
-      - "streamable-http"
-      - "windows"
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-09-28"
+repos: []
 ---
 
 # oleg494

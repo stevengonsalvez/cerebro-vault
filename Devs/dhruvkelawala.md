@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "745308b2b7085095"
-pushes_per_week: [2, 0, 1, 29, 6, 2, 1, 4, 7, 0, 5, 4, 1]
+pushes_per_week: [2, 0, 1, 30, 5, 2, 1, 10, 1, 0, 5, 4, 1]
 windows:
   "7d":
     pushes: 1
@@ -77,14 +77,6 @@ reasons:
   - "activity: 22 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "skills"
-    title: "skills"
-    description: "Pi agent skills — clawpatch automated code review and more"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-06"
   - name: "sumocode"
     title: "sumocode"
     description: "Personal Pi extension — OpenCode visual language, persistent memory, preattentive status signals"
@@ -102,7 +94,15 @@ repos:
       - "typescript"
     stars_fact: 2
     first_seen: null
-    last_push: "2026-10-09"
+    last_push: "2026-10-12"
+  - name: "skills"
+    title: "skills"
+    description: "Pi agent skills — clawpatch automated code review and more"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-06"
   - name: "task-dispatch"
     title: "task-dispatch"
     description: "Dispatch-native task management for OpenClaw ACP agents — Kanban, DAG dependencies, automated QA pipeline"

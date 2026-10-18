@@ -8,11 +8,11 @@ provenance_repos:
   - "BuilderIO/agent-native"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+repos_populated: false
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "745308b2b7085095"
-pushes_per_week: [0, 0, 0, 2, 1, 2, 0, 4, 4, 7, 13, 6, 6]
+pushes_per_week: [0, 0, 0, 2, 1, 2, 0, 4, 4, 12, 8, 7, 5]
 windows:
   "7d":
     pushes: 6
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 36
+    pushes: 35
     distinct_repos: 1
-    active_days: 11
+    active_days: 10
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 36
+    pushes: 35
     distinct_repos: 1
-    pushes_per_repo: 36.0000
-    active_days: 11
+    pushes_per_repo: 35.0000
+    active_days: 10
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -76,39 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 18 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "skills"
-    title: "skills"
-    description: "A collection of agent skills I use on a regular basis"
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-05-03"
-  - name: "claude-skill-finder"
-    title: "claude-skill-finder"
-    description: "A skill that allows users to quickly and easily find and install skills for Claude"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-03-27"
-  - name: "fastsearch"
-    title: "fastsearch"
-    description: "Fast, instant, client side search and navigation for Hugo"
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2024-05-21"
-  - name: "shortcut-manager"
-    title: "shortcut-manager"
-    description: "Framer prototype of the Unity shortcut manager"
-    language: "CoffeeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2018-10-27"
+repos: []
 ---
 
 # shawnmcclelland

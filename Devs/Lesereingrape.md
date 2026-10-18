@@ -8,11 +8,11 @@ provenance_repos:
   - "bytedance/deer-flow"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+repos_populated: false
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "16389f32495280ea"
-pushes_per_week: [1, 0, 0, 0, 0, 0, 0, 0, 0, 20, 7, 2, 0]
+pushes_per_week: [1, 0, 0, 0, 0, 0, 0, 0, 1, 23, 4, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,78 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 11 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "Lesereingrape"
-    title: "Lesereingrape"
-    description: "Merged upstream pull requests, rendered from the GitHub API"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-11"
-  - name: "lagent"
-    title: "lagent"
-    description: "Local-first ReAct tool-use agent with a measured scaffold ablation: identical behaviour-cloned weights, four harnesses, ground-truth verifier. CPU-only tiny transformer."
-    language: "Python"
-    topics:
-      - "agents"
-      - "behaviour-cloning"
-      - "llm"
-      - "local-first"
-      - "multi-agent"
-      - "pytorch"
-      - "react"
-      - "tool-use"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-26"
-  - name: "starlab"
-    title: "starlab"
-    description: "CPU-reproducible STaR self-improvement: a ~100k-param transformer bootstraps column-addition reasoning from its own verifier-checked chains, with a matched-compute control."
-    language: "Python"
-    topics:
-      - "chain-of-thought"
-      - "large-language-models"
-      - "post-training"
-      - "pytorch"
-      - "reproducible-research"
-      - "self-improvement"
-      - "star"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-26"
-  - name: "align-lab"
-    title: "align-lab"
-    description: "CPU-only post-training study: SFT vs DPO vs ORPO vs SimPO on a verifiable digit-addition task. Multi-seed; shows DPO/SimPO win-rate climbing to ~0.99 while real generation accuracy collapses (likelihood displacement)."
-    language: "Python"
-    topics:
-      - "alignment"
-      - "dpo"
-      - "llm"
-      - "orpo"
-      - "post-training"
-      - "preference-optimization"
-      - "pytorch"
-      - "simpo"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-26"
-  - name: "research-relay-lab"
-    title: "research-relay-lab"
-    description: "CPU-only, multi-seed measurement of where a deep-research pipeline loses the evidence it found: one frozen 142k-parameter policy run through six researcher-to-reporter harnesses on a task with an exact verifier, with every README number rendered from a committed artifact."
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-28"
-  - name: "system-one-lab"
-    title: "system-one-lab"
-    description: "CPU-only, multi-seed measurement of what an agent decision layer is sensitive to: a typed Choice/Score/Noul judge vs a prose judge vs a prompt-flattened control, on synthetic findings with an exact verifier."
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-26"
+repos: []
 ---
 
 # Lesereingrape

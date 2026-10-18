@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "716cf9e2237ac9db"
-pushes_per_week: [2, 0, 2, 3, 0, 0, 0, 0, 0, 0, 4, 3, 0]
+pushes_per_week: [2, 0, 2, 3, 0, 0, 0, 0, 0, 0, 7, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,6 +77,24 @@ reasons:
   - "activity: 9 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "open-docs"
+    title: "open-docs"
+    description: "This repository contains documentation created to better understand the open project"
+    language: null
+    topics:
+      - "anthropic"
+      - "claude-code"
+      - "cli"
+      - "codex"
+      - "codex-cli"
+      - "documentation"
+      - "documentations"
+      - "gemini"
+      - "gemini-cli"
+      - "llm"
+    stars_fact: 517
+    first_seen: null
+    last_push: "2026-01-20"
   - name: "octocode"
     title: "octocode"
     description: "Code research platform for AI agents; find, understand, and prove context across your code and all of GitHub, in a fraction of the tokens. One toolset, MCP or CLI"
@@ -102,27 +120,17 @@ repos:
       - "octocode"
       - "semantic-search"
       - "vibe-coding"
-    stars_fact: 949
+    stars_fact: 950
     first_seen: null
-    last_push: "2026-10-09"
-  - name: "open-docs"
-    title: "open-docs"
-    description: "This repository contains documentation created to better understand the open project"
-    language: null
-    topics:
-      - "anthropic"
-      - "claude-code"
-      - "cli"
-      - "codex"
-      - "codex-cli"
-      - "documentation"
-      - "documentations"
-      - "gemini"
-      - "gemini-cli"
-      - "llm"
-    stars_fact: 514
+    last_push: "2026-10-17"
+  - name: "octocode-workshop"
+    title: "octocode-workshop"
+    description: null
+    language: "HTML"
+    topics: []
+    stars_fact: 1
     first_seen: null
-    last_push: "2026-01-20"
+    last_push: "2026-10-13"
   - name: "FreeLlama"
     title: "FreeLlama"
     description: null
@@ -147,14 +155,6 @@ repos:
     stars_fact: 4
     first_seen: null
     last_push: "2026-09-29"
-  - name: "local-mcp-vault"
-    title: "local-mcp-vault"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-07-23"
 ---
 
 # bgauryy

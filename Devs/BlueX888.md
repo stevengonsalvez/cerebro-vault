@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "16389f32495280ea"
-pushes_per_week: [0, 0, 1, 0, 0, 0, 0, 0, 8, 6, 0, 0, 7]
+pushes_per_week: [0, 0, 1, 0, 0, 0, 0, 2, 7, 5, 0, 1, 6]
 windows:
   "7d":
     pushes: 7
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 19
+    pushes: 18
     distinct_repos: 12
-    active_days: 10
+    active_days: 9
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 19
+    pushes: 18
     distinct_repos: 12
-    pushes_per_repo: 1.5833
-    active_days: 10
+    pushes_per_repo: 1.5000
+    active_days: 9
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -84,7 +84,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-09"
+    last_push: "2026-10-18"
   - name: "mastra-mcp-media-repro"
     title: "mastra-mcp-media-repro"
     description: "Minimal repro: MCP image tool results reach the AI SDK v5 model prompt as spec-v3 image-data instead of a media part (@mastra/core)"
@@ -92,7 +92,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-09"
+    last_push: "2026-10-11"
   - name: "BlueX888.github.io"
     title: "BlueX888.github.io"
     description: "朝然的个人博客"

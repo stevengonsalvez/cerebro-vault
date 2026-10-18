@@ -8,11 +8,11 @@ provenance_repos:
   - "virgiliojr94/book-to-skill"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+repos_populated: false
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "16a73b8e53c5832a"
-pushes_per_week: [1, 4, 2, 4, 2, 1, 0, 0, 2, 0, 0, 1, 5]
+pushes_per_week: [1, 4, 2, 4, 3, 0, 0, 0, 2, 0, 0, 5, 1]
 windows:
   "7d":
     pushes: 5
@@ -76,68 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 14 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "book-to-skill"
-    title: "book-to-skill"
-    description: "Turn any technical book PDF into a Claude Code skill — ready to study, reference, and use while you work."
-    language: "Python"
-    topics:
-      - "agent-skills"
-      - "ai-agents"
-      - "book-to-skill"
-      - "context-engineering"
-      - "document-processing"
-      - "edtech"
-      - "knowledge-base"
-      - "knowledge-management"
-      - "llm"
-      - "pdf-to-markdown"
-      - "rag"
-      - "self-study"
-      - "study-tools"
-    stars_fact: 35017
-    first_seen: "2026-08-15T06:00:05.480011+00:00"
-    last_push: "2026-10-12"
-  - name: "iteam-react-modulo-04"
-    title: "iteam-react-modulo-04"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-14"
-  - name: "localpdf.io"
-    title: "localpdf.io"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 273
-    first_seen: null
-    last_push: "2026-05-11"
-  - name: "x-to-skill"
-    title: "x-to-skill"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 20
-    first_seen: null
-    last_push: "2026-08-27"
-  - name: "virgiliojr94"
-    title: "virgiliojr94"
-    description: "my profile README"
-    language: null
-    topics: []
-    stars_fact: 5
-    first_seen: null
-    last_push: "2026-10-11"
-  - name: "book-to-skill-library"
-    title: "book-to-skill-library"
-    description: null
-    language: "Shell"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-09"
+repos: []
 ---
 
 # virgiliojr94

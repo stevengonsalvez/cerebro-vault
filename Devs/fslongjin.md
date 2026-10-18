@@ -10,11 +10,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "022c4327710cbfe7"
   - "b599dd2f1ad43e10"
-pushes_per_week: [13, 3, 1, 5, 1, 4, 3, 2, 3, 6, 5, 4, 6]
+pushes_per_week: [13, 3, 1, 5, 2, 4, 2, 2, 3, 6, 5, 4, 6]
 windows:
   "7d":
     pushes: 6
@@ -24,12 +24,12 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 2
   "30d":
-    pushes: 23
-    distinct_repos: 7
-    active_days: 13
-    repos_not_owned: 5
+    pushes: 21
+    distinct_repos: 6
+    active_days: 12
+    repos_not_owned: 4
     not_owned_basenames: 2
-    not_owned_owners: 5
+    not_owned_owners: 4
   "90d":
     pushes: 56
     distinct_repos: 10
@@ -59,13 +59,13 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 2
   "30d":
-    pushes: 23
-    distinct_repos: 7
-    pushes_per_repo: 3.2857
-    active_days: 13
-    repos_not_owned: 5
+    pushes: 21
+    distinct_repos: 6
+    pushes_per_repo: 3.5000
+    active_days: 12
+    repos_not_owned: 4
     not_owned_basenames: 2
-    not_owned_owners: 5
+    not_owned_owners: 4
   "90d":
     pushes: 56
     distinct_repos: 10
@@ -84,7 +84,7 @@ repos:
     description: "这个仓库有1426个star，不信你试试"
     language: "Python"
     topics: []
-    stars_fact: 1418
+    stars_fact: 1417
     first_seen: null
     last_push: "2022-09-13"
   - name: "My-Easy-Pic-Bed"

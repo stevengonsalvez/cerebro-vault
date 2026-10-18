@@ -8,11 +8,11 @@ provenance_repos:
   - "addyosmani/agent-skills"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+repos_populated: false
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "dae9f02535f7c22f"
-pushes_per_week: [0, 1, 0, 0, 0, 1, 0, 0, 1, 4, 1, 2, 2]
+pushes_per_week: [0, 1, 0, 0, 1, 0, 0, 0, 1, 4, 1, 4, 0]
 windows:
   "7d":
     pushes: 2
@@ -76,15 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 10 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "mavericksea-ai"
-    title: "mavericksea-ai"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-10"
+repos: []
 ---
 
 # mavericksea-ai

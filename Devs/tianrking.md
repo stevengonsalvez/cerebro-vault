@@ -8,16 +8,16 @@ provenance_repos:
   - "calesthio/OpenMontage"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+repos_populated: false
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "6d3bd03b49986330"
-pushes_per_week: [20, 3, 6, 17, 1, 2, 0, 1, 27, 7, 43, 30, 0]
+pushes_per_week: [19, 5, 8, 10, 1, 2, 0, 12, 17, 18, 48, 13, 0]
 windows:
   "7d":
-    pushes: 2
-    distinct_repos: 1
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 157
+    pushes: 153
     distinct_repos: 28
-    active_days: 35
+    active_days: 34
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 4.4857
-  repo_per_active_day: 0.8000
+  push_per_day: 4.5000
+  repo_per_active_day: 0.8235
   not_owned_ratio: 0.0000
   basename_concentration: 0.0357
   shapes: []
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
-    distinct_repos: 1
-    pushes_per_repo: 2.0000
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -65,78 +65,22 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 157
+    pushes: 153
     distinct_repos: 28
-    pushes_per_repo: 5.6071
-    active_days: 35
+    pushes_per_repo: 5.4643
+    active_days: 34
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 35 active days in 90d — pass"
+  - "activity: 34 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "AirBridge"
-    title: "AirBridge"
-    description: "Independent ESP32-S3 AWDL bridge for Windows. ESP-IDF 6.1 protocol implementation with native Apple discovery qualification; desktop and file transfer under development."
-    language: "C++"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-16"
-  - name: "tianrking.github.io"
-    title: "tianrking.github.io"
-    description: "w0x7ce 的個人工程工作台：嵌入式系統、Local AI 與基礎設施的實作筆記、專案與實驗。"
-    language: "MDX"
-    topics:
-      - "docusaurus"
-      - "embedded-systems"
-      - "infrastructure"
-      - "local-ai"
-      - "technical-blog"
-      - "traditional-chinese"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-16"
-  - name: "muse-workers-relay"
-    title: "muse-workers-relay"
-    description: "Self-hosted Cloudflare Workers relay for Muse account APIs and encrypted Noise WebSockets, with an optional Mori React chat client."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-15"
-  - name: "tianrking"
-    title: "tianrking"
-    description: "Config files for my GitHub profile."
-    language: null
-    topics:
-      - "config"
-      - "github-config"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-15"
-  - name: "Re_edgetunnel"
-    title: "Re_edgetunnel"
-    description: null
-    language: "JavaScript"
-    topics: []
-    stars_fact: 151
-    first_seen: null
-    last_push: "2026-08-11"
-  - name: "EdgeMirror"
-    title: "EdgeMirror"
-    description: null
-    language: "JavaScript"
-    topics: []
-    stars_fact: 267
-    first_seen: null
-    last_push: "2026-09-11"
+repos: []
 ---
 
 # tianrking
 
-157 pushes across 28 repositories on 35 active days in the last 90 days of public GitHub push activity.
+153 pushes across 28 repositories on 34 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/tianrking

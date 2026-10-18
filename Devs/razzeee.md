@@ -8,11 +8,11 @@ provenance_repos:
   - "AlexsJones/llmfit"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+repos_populated: false
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [6, 2, 7, 5, 2, 5, 0, 6, 8, 13, 8, 14, 20]
+pushes_per_week: [6, 2, 7, 6, 4, 2, 1, 5, 12, 10, 15, 12, 14]
 windows:
   "7d":
     pushes: 20
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 4
     not_owned_owners: 4
   "30d":
-    pushes: 61
-    distinct_repos: 16
-    active_days: 21
+    pushes: 59
+    distinct_repos: 15
+    active_days: 20
     repos_not_owned: 8
     not_owned_basenames: 8
     not_owned_owners: 5
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 4
     not_owned_owners: 4
   "30d":
-    pushes: 61
-    distinct_repos: 16
-    pushes_per_repo: 3.8125
-    active_days: 21
+    pushes: 59
+    distinct_repos: 15
+    pushes_per_repo: 3.9333
+    active_days: 20
     repos_not_owned: 8
     not_owned_basenames: 8
     not_owned_owners: 5
@@ -76,55 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 43 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "flatpak-blackbox-tests"
-    title: "flatpak-blackbox-tests"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-11"
-  - name: "aileron"
-    title: "aileron"
-    description: null
-    language: "Rust"
-    topics: []
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-10-09"
-  - name: "flatpak-smoke"
-    title: "flatpak-smoke"
-    description: null
-    language: "Rust"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-11"
-  - name: "window-switching-redux"
-    title: "window-switching-redux"
-    description: null
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-25"
-  - name: "gnome-foreground-booster"
-    title: "gnome-foreground-booster"
-    description: null
-    language: "Rust"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-17"
-  - name: "dmemcg-booster"
-    title: "dmemcg-booster"
-    description: null
-    language: "Rust"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-15"
+repos: []
 ---
 
 # razzeee

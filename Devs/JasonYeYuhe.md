@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [1, 7, 5, 6, 1, 5, 2, 2, 10, 2, 31, 6, 2]
+pushes_per_week: [2, 7, 5, 4, 2, 4, 3, 2, 9, 6, 27, 6, 2]
 windows:
   "7d":
-    pushes: 3
-    distinct_repos: 2
-    active_days: 2
+    pushes: 2
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 47
-    distinct_repos: 10
-    active_days: 12
+    pushes: 41
+    distinct_repos: 9
+    active_days: 11
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 1
   "90d":
-    pushes: 80
+    pushes: 79
     distinct_repos: 12
-    active_days: 35
+    active_days: 34
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.2857
-  repo_per_active_day: 0.3429
+  push_per_day: 2.3235
+  repo_per_active_day: 0.3529
   not_owned_ratio: 0.3333
   basename_concentration: 0.0833
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 3
-    distinct_repos: 2
-    pushes_per_repo: 1.5000
-    active_days: 2
+    pushes: 2
+    distinct_repos: 1
+    pushes_per_repo: 2.0000
+    active_days: 1
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 47
-    distinct_repos: 10
-    pushes_per_repo: 4.7000
-    active_days: 12
+    pushes: 41
+    distinct_repos: 9
+    pushes_per_repo: 4.5556
+    active_days: 11
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 1
   "90d":
-    pushes: 80
+    pushes: 79
     distinct_repos: 12
-    pushes_per_repo: 6.6667
-    active_days: 35
+    pushes_per_repo: 6.5833
+    active_days: 34
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 35 active days in 90d — pass"
+  - "activity: 34 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "Stride"
@@ -84,7 +84,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-11"
+    last_push: "2026-10-17"
   - name: "nihongo-ride-app"
     title: "nihongo-ride-app"
     description: "Nihongo Ride — Japanese typing-practice app for macOS & iOS (private source)"
@@ -92,7 +92,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-08"
+    last_push: "2026-10-15"
   - name: "Soundpost"
     title: "Soundpost"
     description: "Soundpost — capture how a moment sounds, seal it, and let your future self open it like a postcard. SwiftUI / SwiftData / StoreKit 2 / CloudKit."
@@ -100,7 +100,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-07"
+    last_push: "2026-10-15"
   - name: "stride-site"
     title: "stride-site"
     description: "Stride - Habit Tracker legal and support pages"
@@ -129,6 +129,6 @@ repos:
 
 # JasonYeYuhe
 
-80 pushes across 12 repositories on 35 active days in the last 90 days of public GitHub push activity.
+79 pushes across 12 repositories on 34 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/JasonYeYuhe

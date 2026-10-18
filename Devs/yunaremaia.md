@@ -10,22 +10,22 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "4d1450729e6ff44d"
   - "dae9f02535f7c22f"
-pushes_per_week: [0, 2, 11, 16, 1, 2, 0, 10, 39, 47, 54, 45, 6]
+pushes_per_week: [0, 2, 12, 15, 1, 2, 1, 9, 46, 42, 76, 24, 3]
 windows:
   "7d":
-    pushes: 8
-    distinct_repos: 7
-    active_days: 4
+    pushes: 6
+    distinct_repos: 5
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 182
-    distinct_repos: 41
+    pushes: 174
+    distinct_repos: 40
     active_days: 20
     repos_not_owned: 5
     not_owned_basenames: 5
@@ -51,17 +51,17 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 8
-    distinct_repos: 7
-    pushes_per_repo: 1.1429
-    active_days: 4
+    pushes: 6
+    distinct_repos: 5
+    pushes_per_repo: 1.2000
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 182
-    distinct_repos: 41
-    pushes_per_repo: 4.4390
+    pushes: 174
+    distinct_repos: 40
+    pushes_per_repo: 4.3500
     active_days: 20
     repos_not_owned: 5
     not_owned_basenames: 5
@@ -79,141 +79,119 @@ reasons:
   - "activity: 42 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "driftcheck"
-    title: "driftcheck"
-    description: "Detect version drift between docs and toolchain files (README vs rust-toolchain.toml etc.)"
+  - name: "vibeguard"
+    title: "vibeguard"
+    description: "Static security scanner for AI-generated code — finds hardcoded secrets, SQL injection, dangerous eval/exec and CORS wildcards before they ship."
     language: "Python"
     topics:
+      - "ai-agents"
+      - "ai-generated-code"
       - "ci-cd"
       - "cli"
-      - "developer-tools"
-      - "devops"
-      - "docker"
-      - "documentation"
-      - "documentation-tools"
-      - "drift-detection"
-      - "github-actions"
-      - "linters"
-      - "monorepo"
-      - "nodejs"
-      - "pre-commit"
-      - "pypi"
-      - "python"
-      - "readme-lint"
-      - "rust"
-      - "sast"
-      - "static-analysis"
-      - "version-drift"
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-10-10"
-  - name: "agentcost"
-    title: "agentcost"
-    description: "Token usage tracker for multi-agent AI sessions"
-    language: "Python"
-    topics:
-      - "ai-agents"
-      - "budget"
-      - "cli"
-      - "cost-optimization"
-      - "cost-tracking"
-      - "finops"
-      - "github-actions"
-      - "llm"
-      - "llmops"
-      - "multi-agent"
-      - "observability"
-      - "pre-commit"
-      - "python"
-      - "token-usage"
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-10-09"
-  - name: "agent-guard"
-    title: "agent-guard"
-    description: "Policy-as-code for AI agent permissions. Define bounded permissions in YAML, enforce at runtime."
-    language: "Python"
-    topics:
-      - "agent-security"
-      - "ai-agents"
-      - "authorization"
-      - "cli"
+      - "code-scanner"
       - "devsecops"
-      - "guardrails"
-      - "least-privilege"
-      - "permissions"
-      - "policy-as-code"
-      - "python"
-      - "rbac"
-      - "security"
-      - "yaml"
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-10-09"
-  - name: "taintrace"
-    title: "taintrace"
-    description: "Typosquat detector for AI coding agent dependencies"
-    language: "Python"
-    topics:
-      - "ai-agents"
-      - "cargo"
-      - "cli"
       - "github-actions"
-      - "llm-security"
-      - "lockfile"
-      - "npm"
-      - "package-security"
-      - "pypi"
       - "python"
-      - "rust"
       - "sarif"
+      - "sast"
+      - "secret-scanning"
       - "security"
+      - "static-analysis"
+      - "vulnerability-detection"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-18"
+  - name: "yunaremaia"
+    title: "yunaremaia"
+    description: "Open-source developer from Mossoro, RN, Brazil - drift detection and supply-chain guardrails"
+    language: "Python"
+    topics:
+      - "developer"
+      - "drift-detection"
+      - "open-source"
+      - "profile"
+      - "readme"
       - "supply-chain"
-      - "supply-chain-security"
-      - "typosquat-detection"
-      - "typosquatting"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-09"
-  - name: "memwatch"
-    title: "memwatch"
-    description: "Agent Memory Health Monitor — scan AI agent memory stores for rot, contradictions, and duplicates"
-    language: "Python"
-    topics:
-      - "agent-memory"
-      - "ai-agents"
-      - "cli"
-      - "debugging"
-      - "llmops"
-      - "memory"
-      - "memory-management"
-      - "monitoring"
-      - "observability"
-      - "python"
-      - "vector-database"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-09"
-  - name: "agent-undo"
-    title: "agent-undo"
-    description: "Record and rollback AI agent operations — file writes, shell commands, git ops, API calls. Time-machine for AI agent actions."
-    language: "Python"
-    topics:
-      - "ai-agents"
-      - "cli"
-      - "developer-tools"
-      - "git"
-      - "observability"
-      - "python"
-      - "recovery"
-      - "rollback"
-      - "safety"
-      - "sqlite"
-      - "tooling"
-      - "undo"
     stars_fact: 0
     first_seen: null
+    last_push: "2026-10-17"
+  - name: "pixi-tagged-text-numeric-valign"
+    title: "pixi-tagged-text-numeric-valign"
+    description: "pixi-tagged-text with numeric vertical alignment support"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-13"
+  - name: "context-bridge"
+    title: "context-bridge"
+    description: "Manages LLM context windows and bridges between agent systems, preserving state across sessions."
+    language: "Python"
+    topics:
+      - "ai-agents"
+      - "cli"
+      - "coding-agents"
+      - "coding-assistant"
+      - "context-window"
+      - "developer-tools"
+      - "llm"
+      - "memory"
+      - "prompt-engineering"
+      - "python"
+      - "session"
+      - "session-management"
+      - "sqlite"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-17"
+  - name: "ci-test-gate"
+    title: "ci-test-gate"
+    description: "Intelligent CI gate that selects and runs the minimal test subset needed for each change."
+    language: "Python"
+    topics:
+      - "ai-agents"
+      - "ci"
+      - "ci-cd"
+      - "cli"
+      - "code-coverage"
+      - "developer-tools"
+      - "devops"
+      - "github-actions"
+      - "impact-analysis"
+      - "llm"
+      - "pypi"
+      - "python"
+      - "test-optimization"
+      - "test-selection"
+      - "testing"
+    stars_fact: 1
+    first_seen: null
     last_push: "2026-10-09"
+  - name: "diff-contract"
+    title: "diff-contract"
+    description: "Verifies API contract differences between contract versions, preventing breaking changes."
+    language: "Python"
+    topics:
+      - "ai-agents"
+      - "ai-generated"
+      - "ai-generated-code"
+      - "ci-cd"
+      - "cli"
+      - "code-quality"
+      - "code-review"
+      - "contract"
+      - "diff"
+      - "github-actions"
+      - "guardrails"
+      - "policy-as-code"
+      - "pre-commit"
+      - "pull-request"
+      - "pypi"
+      - "python"
+      - "sarif"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-11"
 ---
 
 # yunaremaia

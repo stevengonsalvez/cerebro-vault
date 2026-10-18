@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "48dbbdd8fd0d3029"
-pushes_per_week: [0, 5, 2, 2, 1, 0, 0, 0, 1, 6, 2, 1, 0]
+pushes_per_week: [0, 5, 2, 2, 1, 0, 0, 0, 3, 4, 2, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,6 +77,47 @@ reasons:
   - "activity: 15 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "plugin-marketplace-starter"
+    title: "plugin-marketplace-starter"
+    description: "A starter template for team plugin marketplaces using Agent Plugins 1.0 and GitHub Copilot extensions."
+    language: "JavaScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-16"
+  - name: "mcp-apps-playground"
+    title: "mcp-apps-playground"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 74
+    first_seen: null
+    last_push: "2026-01-28"
+  - name: "mx-keypad-ahp-bridge"
+    title: "mx-keypad-ahp-bridge"
+    description: "Direct-HID Logitech MX Creative Keypad console for Agent Host Protocol sessions"
+    language: "TypeScript"
+    topics:
+      - "agent-host-protocol"
+      - "ahp"
+      - "hid"
+      - "logitech"
+      - "macos"
+      - "typescript"
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-09-28"
+  - name: "proto-vibes-playground"
+    title: "proto-vibes-playground"
+    description: null
+    language: "TypeScript"
+    topics:
+      - "prototype"
+      - "ux"
+      - "vscode"
+    stars_fact: 9
+    first_seen: null
+    last_push: "2026-10-14"
   - name: "slides"
     title: "slides"
     description: "Published presentation slides"
@@ -93,52 +134,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-09-28"
-  - name: "ctrl-slash"
-    title: "ctrl-slash"
-    description: "Unofficial fan art: a Fruit Ninja-style slicer starring VS Code's Buddy pet and its 17 hats. Mobile-first, confetti gore."
-    language: "JavaScript"
-    topics:
-      - "canvas"
-      - "fruit-ninja"
-      - "game"
-      - "html5-game"
-      - "vscode"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-24"
-  - name: "mx-keypad-ahp-bridge"
-    title: "mx-keypad-ahp-bridge"
-    description: "Direct-HID Logitech MX Creative Keypad console for Agent Host Protocol sessions"
-    language: "TypeScript"
-    topics:
-      - "agent-host-protocol"
-      - "ahp"
-      - "hid"
-      - "logitech"
-      - "macos"
-      - "typescript"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-28"
-  - name: "proto-vibes-playground"
-    title: "proto-vibes-playground"
-    description: null
-    language: "TypeScript"
-    topics:
-      - "prototype"
-      - "ux"
-      - "vscode"
-    stars_fact: 9
-    first_seen: null
-    last_push: "2026-09-14"
-  - name: "mcp-apps-playground"
-    title: "mcp-apps-playground"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 74
-    first_seen: null
-    last_push: "2026-01-28"
 ---
 
 # digitarald

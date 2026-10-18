@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-16T08:30:18.142355+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "e21378f22db2cf25"
 pushes_per_week: [0, 0, 1, 0, 0, 0, 1, 0, 0, 1, 1, 2, 0]
@@ -84,7 +84,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-09"
+    last_push: "2026-10-13"
   - name: "skyrl-wheels"
     title: "skyrl-wheels"
     description: "Prebuilt CUDA extension wheels for SkyRL (torch 2.13 + CUDA 13.0), stopgap until Astral publishes torch.2.13 builds"

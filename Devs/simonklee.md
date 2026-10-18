@@ -8,16 +8,16 @@ provenance_repos:
   - "anomalyco/opencode"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+repos_populated: false
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [7, 2, 2, 8, 3, 4, 0, 0, 1, 4, 2, 4, 6]
+pushes_per_week: [5, 3, 1, 8, 6, 1, 0, 0, 1, 4, 2, 5, 5]
 windows:
   "7d":
-    pushes: 7
+    pushes: 6
     distinct_repos: 2
-    active_days: 5
+    active_days: 4
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 43
+    pushes: 41
     distinct_repos: 6
-    active_days: 28
+    active_days: 27
     repos_not_owned: 5
     not_owned_basenames: 3
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 1.5357
-  repo_per_active_day: 0.2143
+  push_per_day: 1.5185
+  repo_per_active_day: 0.2222
   not_owned_ratio: 0.8333
   basename_concentration: 0.5000
   shapes: []
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 7
+    pushes: 6
     distinct_repos: 2
-    pushes_per_repo: 3.5000
-    active_days: 5
+    pushes_per_repo: 3.0000
+    active_days: 4
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
@@ -65,70 +65,22 @@ facets:
     not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 43
+    pushes: 41
     distinct_repos: 6
-    pushes_per_repo: 7.1667
-    active_days: 28
+    pushes_per_repo: 6.8333
+    active_days: 27
     repos_not_owned: 5
     not_owned_basenames: 3
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 28 active days in 90d — pass"
+  - "activity: 27 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "opentui-bench"
-    title: "opentui-bench"
-    description: null
-    language: "Go"
-    topics: []
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-10-09"
-  - name: "godis"
-    title: "godis"
-    description: "godis - an old Redis client for Go"
-    language: "Go"
-    topics: []
-    stars_fact: 87
-    first_seen: null
-    last_push: "2020-02-17"
-  - name: "opentui-tex"
-    title: "opentui-tex"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-03"
-  - name: "node-demo"
-    title: "node-demo"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-07-09"
-  - name: "tigerstyle"
-    title: "tigerstyle"
-    description: null
-    language: "HTML"
-    topics: []
-    stars_fact: 44
-    first_seen: null
-    last_push: "2025-11-29"
-  - name: "noeqd"
-    title: "noeqd"
-    description: null
-    language: "Go"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2013-12-15"
+repos: []
 ---
 
 # simonklee
 
-43 pushes across 6 repositories on 28 active days in the last 90 days of public GitHub push activity.
+41 pushes across 6 repositories on 27 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/simonklee

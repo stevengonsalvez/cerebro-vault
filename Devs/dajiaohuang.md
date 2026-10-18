@@ -13,7 +13,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "1df6ea1f1256059e"
   - "234088bc43763aa2"
@@ -21,7 +21,7 @@ provenance:
   - "4138778ebbc75ba6"
   - "dae9f02535f7c22f"
   - "edb3a626875732de"
-pushes_per_week: [60, 65, 7, 22, 2, 6, 3, 18, 8, 33, 129, 28, 0]
+pushes_per_week: [82, 42, 7, 22, 3, 7, 3, 19, 8, 39, 134, 14, 0]
 windows:
   "7d":
     pushes: 0
@@ -38,16 +38,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 381
+    pushes: 380
     distinct_repos: 78
-    active_days: 52
+    active_days: 51
     repos_not_owned: 15
     not_owned_basenames: 15
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 7.3269
-  repo_per_active_day: 1.5000
+  push_per_day: 7.4510
+  repo_per_active_day: 1.5294
   not_owned_ratio: 0.1923
   basename_concentration: 0.0128
   shapes: []
@@ -74,16 +74,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 381
+    pushes: 380
     distinct_repos: 78
-    pushes_per_repo: 4.8846
-    active_days: 52
+    pushes_per_repo: 4.8718
+    active_days: 51
     repos_not_owned: 15
     not_owned_basenames: 15
     not_owned_owners: 1
 reasons:
   - "provenance: 6 vault signal(s) — pass"
-  - "activity: 52 active days in 90d — pass"
+  - "activity: 51 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "repostew"
@@ -103,6 +103,6 @@ repos:
 
 # dajiaohuang
 
-381 pushes across 78 repositories on 52 active days in the last 90 days of public GitHub push activity.
+380 pushes across 78 repositories on 51 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/dajiaohuang

@@ -11,11 +11,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "4930e4f9e24bb204"
   - "73468cde177ddae6"
-pushes_per_week: [3, 3, 3, 4, 1, 1, 0, 0, 2, 5, 2, 0, 1]
+pushes_per_week: [3, 5, 1, 4, 1, 1, 0, 0, 2, 5, 2, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -100,9 +100,25 @@ repos:
       - "opencode-skills"
       - "self-hosted"
       - "skills"
-    stars_fact: 9581
+    stars_fact: 9615
     first_seen: "2026-09-03T06:00:04.259291+00:00"
-    last_push: "2026-10-10"
+    last_push: "2026-10-18"
+  - name: "gpui-flow"
+    title: "gpui-flow"
+    description: "visual node editor react flow for gpui"
+    language: "Rust"
+    topics: []
+    stars_fact: 43
+    first_seen: null
+    last_push: "2026-03-23"
+  - name: "ui"
+    title: "ui"
+    description: "The shadcn for agent UI. A framework-agnostic design language for dense, AMOLED-black, multi-surface interfaces"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 154
+    first_seen: null
+    last_push: "2026-04-24"
   - name: "cersei"
     title: "cersei"
     description: "The Rust SDK for building coding agents. Tools, streaming, graph, sub-agent orchestration, MCP — as composable functions"
@@ -119,22 +135,14 @@ repos:
     stars_fact: 461
     first_seen: null
     last_push: "2026-08-06"
-  - name: "gpui-flow"
-    title: "gpui-flow"
-    description: "visual node editor react flow for gpui"
-    language: "Rust"
+  - name: "libembedding"
+    title: "libembedding"
+    description: "A C/C++ header-only library for generating text embeddings, sparse embeddings, image embeddings, and document reranking using ONNX Runtime"
+    language: "C++"
     topics: []
-    stars_fact: 41
+    stars_fact: 14
     first_seen: null
-    last_push: "2026-03-23"
-  - name: "ui"
-    title: "ui"
-    description: "The shadcn for agent UI. A framework-agnostic design language for dense, AMOLED-black, multi-surface interfaces"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 154
-    first_seen: null
-    last_push: "2026-04-24"
+    last_push: "2026-04-01"
   - name: "hotel-dashboard"
     title: "hotel-dashboard"
     description: null
@@ -143,20 +151,6 @@ repos:
     stars_fact: 1
     first_seen: null
     last_push: "2026-10-05"
-  - name: "unc"
-    title: "unc"
-    description: "HuggingFace transformer compiler for optimised native inference binaries"
-    language: "C++"
-    topics:
-      - "apple"
-      - "apple-silicon"
-      - "compiler"
-      - "gpu"
-      - "metal"
-      - "ml-compiler"
-    stars_fact: 39
-    first_seen: null
-    last_push: "2026-04-01"
 ---
 
 # pacifio

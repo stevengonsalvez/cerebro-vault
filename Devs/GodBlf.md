@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "16389f32495280ea"
-pushes_per_week: [1, 1, 0, 0, 2, 0, 0, 0, 6, 0, 2, 4, 2]
+pushes_per_week: [1, 1, 0, 0, 2, 0, 0, 3, 3, 1, 2, 3, 2]
 windows:
   "7d":
     pushes: 2
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 9
+    pushes: 8
     distinct_repos: 5
-    active_days: 7
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 9
+    pushes: 8
     distinct_repos: 5
-    pushes_per_repo: 1.8000
-    active_days: 7
+    pushes_per_repo: 1.6000
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -77,6 +77,22 @@ reasons:
   - "activity: 12 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "issue-watch"
+    title: "issue-watch"
+    description: "Self-hosted GitHub issue monitoring with QQ bot notifications, built in Rust"
+    language: "Rust"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-10-15"
+  - name: "golden-window"
+    title: "golden-window"
+    description: "Golden-ratio macOS windows with Hammerspoon. Made for Stage Manager, just for fun."
+    language: "Shell"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-14"
   - name: "agent-gate"
     title: "agent-gate"
     description: null
@@ -85,14 +101,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-10-09"
-  - name: "issue-watch"
-    title: "issue-watch"
-    description: "Self-hosted GitHub issue monitoring with QQ bot notifications, built in Rust"
-    language: "Rust"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-10-07"
   - name: "GodBlf"
     title: "GodBlf"
     description: "my profile"
@@ -117,14 +125,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-09-24"
-  - name: "subagents-games"
-    title: "subagents-games"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-16"
 ---
 
 # GodBlf

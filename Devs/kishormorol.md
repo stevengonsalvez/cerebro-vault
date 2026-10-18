@@ -9,11 +9,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "1df6ea1f1256059e"
   - "edb3a626875732de"
-pushes_per_week: [12, 5, 0, 1, 2, 0, 0, 2, 7, 8, 3, 0, 2]
+pushes_per_week: [12, 3, 0, 1, 2, 0, 0, 2, 7, 9, 2, 0, 2]
 windows:
   "7d":
     pushes: 2
@@ -23,14 +23,14 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 18
+    pushes: 17
     distinct_repos: 10
-    active_days: 9
+    active_days: 8
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 42
+    pushes: 40
     distinct_repos: 13
     active_days: 21
     repos_not_owned: 0
@@ -38,7 +38,7 @@ windows:
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.0000
+  push_per_day: 1.9048
   repo_per_active_day: 0.6190
   not_owned_ratio: 0.0000
   basename_concentration: 0.0769
@@ -58,17 +58,17 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 18
+    pushes: 17
     distinct_repos: 10
-    pushes_per_repo: 1.8000
-    active_days: 9
+    pushes_per_repo: 1.7000
+    active_days: 8
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 42
+    pushes: 40
     distinct_repos: 13
-    pushes_per_repo: 3.2308
+    pushes_per_repo: 3.0769
     active_days: 21
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -101,9 +101,9 @@ repos:
       - "research-gaps"
       - "research-intelligence"
       - "research-tools"
-    stars_fact: 111
+    stars_fact: 112
     first_seen: null
-    last_push: "2026-10-09"
+    last_push: "2026-10-17"
   - name: "kishormorol"
     title: "kishormorol"
     description: null
@@ -111,7 +111,7 @@ repos:
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-10-09"
+    last_push: "2026-10-17"
   - name: "cli-faq-shortcuts"
     title: "cli-faq-shortcuts"
     description: "Turn repeated Claude Code, Codex, and Cursor prompts into reusable slash commands. Local Python history extractor + Agent Skill."
@@ -137,9 +137,34 @@ repos:
       - "skill"
       - "slash-commands"
       - "workflow-automation"
-    stars_fact: 127
+    stars_fact: 131
     first_seen: null
     last_push: "2026-10-03"
+  - name: "thinkdiff"
+    title: "thinkdiff"
+    description: "Comparative visualization of LLM reasoning traces — see how Claude, DeepSeek, and GPT think about the same problem"
+    language: "TypeScript"
+    topics:
+      - "chain-of-thought"
+      - "claude"
+      - "deepseek"
+      - "hci"
+      - "llm"
+      - "nextjs"
+      - "openai"
+      - "reasoning"
+      - "visualization"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-15"
+  - name: "vibescope"
+    title: "vibescope"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-15"
   - name: "bangla-multimodal-political-stance"
     title: "bangla-multimodal-political-stance"
     description: "Political stance detection in Bangla news from headline and image: dataset pipeline, text and vision-language baselines, and the evaluation protocol behind the paper."
@@ -147,53 +172,11 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-04"
-  - name: "CiteLens"
-    title: "CiteLens"
-    description: "Discover the citing papers that matter most — ranked by impact, relevance, and influence"
-    language: "TypeScript"
-    topics:
-      - "academic"
-      - "academic-search"
-      - "arxiv"
-      - "bibliometrics"
-      - "citation-analysis"
-      - "doi"
-      - "fastapi"
-      - "knowledge-graph"
-      - "literature-review"
-      - "machine-learning"
-      - "nlp"
-      - "openalex"
-      - "paper-recommendation"
-      - "react"
-      - "research-tools"
-      - "scientific-literature"
-      - "semantic-scholar"
-      - "typescript"
-    stars_fact: 22
-    first_seen: null
-    last_push: "2026-09-18"
-  - name: "alexa-language-bridge"
-    title: "alexa-language-bridge"
-    description: "An Alexa+ MCP add-on that gives a household member who does not speak English the run of the house — lists, reminders, devices and messages, each rendered in the language and script of whoever is asking."
-    language: "TypeScript"
-    topics:
-      - "accessibility"
-      - "alexa"
-      - "amazon-bedrock"
-      - "hackathon"
-      - "mcp"
-      - "model-context-protocol"
-      - "oauth2"
-      - "typescript"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-27"
+    last_push: "2026-10-14"
 ---
 
 # kishormorol
 
-42 pushes across 13 repositories on 21 active days in the last 90 days of public GitHub push activity.
+40 pushes across 13 repositories on 21 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/kishormorol

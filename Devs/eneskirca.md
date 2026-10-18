@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "c7d59e96ede9112e"
-pushes_per_week: [27, 6, 1, 25, 2, 9, 0, 0, 2, 14, 23, 2, 5]
+pushes_per_week: [22, 5, 2, 25, 7, 3, 0, 0, 3, 14, 22, 2, 5]
 windows:
   "7d":
     pushes: 5
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 3
   "90d":
-    pushes: 116
+    pushes: 110
     distinct_repos: 6
-    active_days: 39
+    active_days: 38
     repos_not_owned: 5
     not_owned_basenames: 2
     not_owned_owners: 5
 automation:
   state: "clear"
-  push_per_day: 2.9744
-  repo_per_active_day: 0.1538
+  push_per_day: 2.8947
+  repo_per_active_day: 0.1579
   not_owned_ratio: 0.8333
   basename_concentration: 0.8333
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 3
   "90d":
-    pushes: 116
+    pushes: 110
     distinct_repos: 6
-    pushes_per_repo: 19.3333
-    active_days: 39
+    pushes_per_repo: 18.3333
+    active_days: 38
     repos_not_owned: 5
     not_owned_basenames: 2
     not_owned_owners: 5
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 39 active days in 90d — pass"
+  - "activity: 38 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "nodeterm"
@@ -102,9 +102,31 @@ repos:
       - "terminal-multiplexer"
       - "tmux"
       - "workspace-manager"
-    stars_fact: 2016
+    stars_fact: 2037
     first_seen: "2026-08-23T06:00:02.975209+00:00"
-    last_push: "2026-10-09"
+    last_push: "2026-10-18"
+  - name: "raw-motion"
+    title: "raw-motion"
+    description: "Motion graphics an AI can actually write. No animation library — one seek(t) function, rendered at 60fps with real motion blur and a synthesized soundtrack."
+    language: "JavaScript"
+    topics:
+      - "ai"
+      - "animation"
+      - "claude"
+      - "javascript"
+      - "motion-graphics"
+      - "video"
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-09-27"
+  - name: "linkedinpostgenerator"
+    title: "linkedinpostgenerator"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2025-05-16"
   - name: "raw-motion-skill"
     title: "raw-motion-skill"
     description: "Claude skill: make motion-graphics videos with a plain JS seek(t) function. Libraries constrain the model — a simple script works much better."
@@ -117,28 +139,6 @@ repos:
     stars_fact: 1
     first_seen: null
     last_push: "2026-09-27"
-  - name: "raw-motion"
-    title: "raw-motion"
-    description: "Motion graphics an AI can actually write. No animation library — one seek(t) function, rendered at 60fps with real motion blur and a synthesized soundtrack."
-    language: "JavaScript"
-    topics:
-      - "ai"
-      - "animation"
-      - "claude"
-      - "javascript"
-      - "motion-graphics"
-      - "video"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-27"
-  - name: "linkedinpostgenerator"
-    title: "linkedinpostgenerator"
-    description: null
-    language: "JavaScript"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2025-05-16"
   - name: "test"
     title: "test"
     description: null
@@ -151,6 +151,6 @@ repos:
 
 # eneskirca
 
-116 pushes across 6 repositories on 39 active days in the last 90 days of public GitHub push activity.
+110 pushes across 6 repositories on 38 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/eneskirca

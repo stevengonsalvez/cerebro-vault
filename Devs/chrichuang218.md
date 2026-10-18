@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "90688bf127241ceb"
-pushes_per_week: [1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 3, 0, 1]
+pushes_per_week: [1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 3, 1, 0]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -77,30 +77,14 @@ reasons:
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "codex-windows-cn"
-    title: "codex-windows-cn"
-    description: "Codex Windows 中文一键安装、更新、启动与卸载助手"
-    language: "Rust"
-    topics: []
-    stars_fact: 69
-    first_seen: null
-    last_push: "2026-10-09"
   - name: "claude-desktop-cn"
     title: "claude-desktop-cn"
     description: "Windows 与 macOS 上的 Claude Desktop 管理与简体中文助手：官方安装更新、Cowork 兼容汉化、恢复原样。"
     language: "Rust"
     topics: []
-    stars_fact: 39
+    stars_fact: 45
     first_seen: null
     last_push: "2026-10-07"
-  - name: "how-codex-works"
-    title: "how-codex-works"
-    description: "Start with 你好, Codex's Hello World. Inspect real Codex Desktop requests, responses, and the full context visible in recorded requests, using a simple TypeScript project."
-    language: "JavaScript"
-    topics: []
-    stars_fact: 8
-    first_seen: null
-    last_push: "2026-10-03"
   - name: "ai-learning-coach"
     title: "ai-learning-coach"
     description: "AI private learning coach for Codex: learn through real projects, adaptive dialogue, debugging, evidence-based mastery, and visible progress."
@@ -116,25 +100,46 @@ repos:
       - "developer-tools"
       - "learning-coach"
       - "project-based-learning"
-    stars_fact: 223
+    stars_fact: 226
     first_seen: null
-    last_push: "2026-09-26"
-  - name: "codex-plugin-repair-windows-skill"
-    title: "codex-plugin-repair-windows-skill"
-    description: "Repair Windows Codex bundled Chrome and Computer Use plugin state after app updates."
-    language: "PowerShell"
+    last_push: "2026-10-17"
+  - name: "agent-dev-foundations"
+    title: "agent-dev-foundations"
+    description: "面向后端程序员的 Agent 开发基础知识：HTML、JavaScript、ES6、TypeScript 与项目配置"
+    language: "Astro"
     topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-10-17"
+  - name: "codex-windows-cn"
+    title: "codex-windows-cn"
+    description: "Codex Windows 中文一键安装、更新、启动与卸载助手"
+    language: "Rust"
+    topics: []
+    stars_fact: 75
+    first_seen: null
+    last_push: "2026-10-17"
+  - name: "awesome-ui-design"
+    title: "awesome-ui-design"
+    description: "A curated UI design guide: discover inspiration, tools, components and AI skills by task. 前端 UI 设计资源与 Skills 选择指南。"
+    language: "JavaScript"
+    topics:
+      - "agent-skills"
+      - "awesome-list"
+      - "design-resources"
+      - "frontend"
+      - "ui-design"
     stars_fact: 30
     first_seen: null
-    last_push: "2026-06-21"
-  - name: "claude-desktop-windows-updater"
-    title: "claude-desktop-windows-updater"
-    description: "Claude Desktop Windows updater"
-    language: "Rust"
+    last_push: "2026-09-26"
+  - name: "how-codex-works"
+    title: "how-codex-works"
+    description: "Start with 你好, Codex's Hello World. Inspect real Codex Desktop requests, responses, and the full context visible in recorded requests, using a simple TypeScript project."
+    language: "JavaScript"
     topics: []
     stars_fact: 9
     first_seen: null
-    last_push: "2026-09-14"
+    last_push: "2026-10-11"
 ---
 
 # chrichuang218

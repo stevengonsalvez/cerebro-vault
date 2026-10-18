@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "01cd6a498d377caf"
   - "03604cccd7e9402d"
@@ -74,7 +74,7 @@ provenance:
   - "fd1cb9e783625459"
   - "fe9e50bf2d5b21fe"
   - "ff1ca072bf39e471"
-pushes_per_week: [0, 0, 0, 0, 0, 1, 7, 0, 1, 2, 1, 0, 0]
+pushes_per_week: [0, 0, 0, 0, 0, 1, 7, 0, 2, 1, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -139,20 +139,36 @@ reasons:
   - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "tynogels"
-    title: "tynogels"
-    description: "A modern, await-based DynamoDB data mapper built on runtime types."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 11
-    first_seen: null
-    last_push: "2026-09-01"
   - name: "hkt-toolbelt"
     title: "hkt-toolbelt"
     description: "✨Functional and composable type utilities"
     language: "TypeScript"
     topics: []
     stars_fact: 305
+    first_seen: null
+    last_push: "2026-09-01"
+  - name: "CBL"
+    title: "CBL"
+    description: "A C++ library for manipulating protein imaging data using conventional image processing techniques"
+    language: "C++"
+    topics: []
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-09-01"
+  - name: "gpt3-cli"
+    title: "gpt3-cli"
+    description: "Typescript CLI and API to OpenAI's state-of-the-art machine learning platform."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 64
+    first_seen: null
+    last_push: "2026-09-01"
+  - name: "tynogels"
+    title: "tynogels"
+    description: "A modern, await-based DynamoDB data mapper built on runtime types."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 12
     first_seen: null
     last_push: "2026-09-01"
   - name: "cryptanalysis-tools"
@@ -171,22 +187,6 @@ repos:
     stars_fact: 3
     first_seen: null
     last_push: "2025-09-11"
-  - name: "graph-ts"
-    title: "graph-ts"
-    description: "A collection of algorithms for graph traversal and computation"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-09-01"
-  - name: "shunting-yard-typescript"
-    title: "shunting-yard-typescript"
-    description: "Pedagogical implementation of Dijkstra's shunting yard algorithm in Typescript."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-01"
 ---
 
 # poteat

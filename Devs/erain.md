@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-16T08:30:18.142355+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "a5ffcd0a46dd44fd"
 pushes_per_week: [2, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 3, 1]
@@ -77,6 +77,38 @@ reasons:
   - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "skills"
+    title: "skills"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-14"
+  - name: "summary-slides"
+    title: "summary-slides"
+    description: null
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-13"
+  - name: "ax-terminal-bench-demo"
+    title: "ax-terminal-bench-demo"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-13"
+  - name: "erain"
+    title: "erain"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-12"
   - name: "substrate-ax-firsthand"
     title: "substrate-ax-firsthand"
     description: "Hands-on Agent Substrate and AX tutorial: Docker and Go to a Kind lab, actors, snapshots, and workspaces."
@@ -85,14 +117,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-10-08"
-  - name: "erain"
-    title: "erain"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-28"
   - name: "YMacs"
     title: "YMacs"
     description: "Personal emacs configs from scratch."
@@ -101,40 +125,6 @@ repos:
     stars_fact: 1
     first_seen: null
     last_push: "2026-08-19"
-  - name: "glue"
-    title: "glue"
-    description: "A small Go agent framework — provider-agnostic loop, typed tools, four providers, optional persistence + FTS5 search. Two reference agents on top."
-    language: "Go"
-    topics:
-      - "agent-framework"
-      - "agents"
-      - "ai-agents"
-      - "codex"
-      - "gemini"
-      - "go"
-      - "golang"
-      - "llm"
-      - "mcp"
-      - "openrouter"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-07-19"
-  - name: "glue-coding-agent-site"
-    title: "glue-coding-agent-site"
-    description: "Homepage for the glue coding agent — a terminal coding agent on any model (Gemini, ChatGPT subscription, open-weights)."
-    language: "Astro"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-06-10"
-  - name: "glue-framework-site"
-    title: "glue-framework-site"
-    description: "Marketing homepage for glue — a Go agent framework."
-    language: "Astro"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-06-10"
 ---
 
 # erain

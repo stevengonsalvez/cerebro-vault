@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [8, 4, 4, 2, 0, 2, 2, 0, 1, 2, 2, 0, 1]
+pushes_per_week: [8, 1, 5, 1, 2, 1, 1, 0, 3, 0, 2, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -22,14 +22,14 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 6
-    distinct_repos: 4
-    active_days: 4
+    pushes: 5
+    distinct_repos: 3
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 28
+    pushes: 25
     distinct_repos: 7
     active_days: 16
     repos_not_owned: 0
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.7500
+  push_per_day: 1.5625
   repo_per_active_day: 0.4375
   not_owned_ratio: 0.0000
   basename_concentration: 0.1429
@@ -57,17 +57,17 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 6
-    distinct_repos: 4
-    pushes_per_repo: 1.5000
-    active_days: 4
+    pushes: 5
+    distinct_repos: 3
+    pushes_per_repo: 1.6667
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 28
+    pushes: 25
     distinct_repos: 7
-    pushes_per_repo: 4.0000
+    pushes_per_repo: 3.5714
     active_days: 16
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -105,6 +105,6 @@ repos:
 
 # CasualDeveloper
 
-28 pushes across 7 repositories on 16 active days in the last 90 days of public GitHub push activity.
+25 pushes across 7 repositories on 16 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/CasualDeveloper

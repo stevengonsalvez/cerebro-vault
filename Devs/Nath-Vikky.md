@@ -8,11 +8,11 @@ provenance_repos:
   - "BuilderIO/agent-native"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+repos_populated: false
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "745308b2b7085095"
-pushes_per_week: [0, 0, 0, 6, 1, 0, 1, 1, 5, 3, 0, 0, 0]
+pushes_per_week: [0, 0, 0, 6, 1, 1, 0, 1, 6, 2, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,55 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 12 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "UEProjectIntelligence"
-    title: "UEProjectIntelligence"
-    description: "The MCP of Unreal Engine(Ver 2.0 For Reading and Writing)[Wating for refactoring]"
-    language: "C++"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-22"
-  - name: "dsh-codekin"
-    title: "dsh-codekin"
-    description: "Codekin: a creature-collection and match-three RPG for DeepSeek Harness Web."
-    language: "TypeScript"
-    topics:
-      - "creature-collector"
-      - "deepseek-harness"
-      - "dsh-plugin"
-      - "pixel-art"
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-10-05"
-  - name: "dsh-fisher"
-    title: "dsh-fisher"
-    description: "摸鱼海岸：面向 DeepSeek Harness 的轻操作钓鱼与收藏娱乐插件。"
-    language: "TypeScript"
-    topics:
-      - "deepseek-harness-plugin"
-      - "dsh"
-      - "dsh-plugin"
-      - "dsh-plugins"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-20"
-  - name: "UEAgentBackend"
-    title: "UEAgentBackend"
-    description: "Agent Backend"
-    language: "Python"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-08-17"
-  - name: "UEAgentTool"
-    title: "UEAgentTool"
-    description: "Connect the UE Editor Plugin to the backend"
-    language: "C++"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-06-10"
+repos: []
 ---
 
 # Nath-Vikky

@@ -8,11 +8,11 @@ provenance_repos:
   - "akitaonrails/ai-memory"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+repos_populated: false
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "4138778ebbc75ba6"
-pushes_per_week: [0, 2, 0, 0, 0, 0, 0, 0, 1, 3, 5, 1, 9]
+pushes_per_week: [0, 2, 0, 0, 0, 0, 0, 0, 2, 2, 6, 5, 4]
 windows:
   "7d":
     pushes: 9
@@ -76,59 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 11 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "lan-remote-ios"
-    title: "lan-remote-ios"
-    description: "Local network remote control application for iOS"
-    language: "Swift"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-16"
-  - name: "lan-remote-android"
-    title: "lan-remote-android"
-    description: "Local network remote control application for Android"
-    language: "Kotlin"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-16"
-  - name: "viniciusdsandrade"
-    title: "viniciusdsandrade"
-    description: "Config files for my GitHub profile."
-    language: null
-    topics:
-      - "config"
-      - "dev"
-      - "front-end"
-      - "github-config"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-12"
-  - name: "localiza-database-clone-with-postgres"
-    title: "localiza-database-clone-with-postgres"
-    description: null
-    language: "PLpgSQL"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-20"
-  - name: "modebench"
-    title: "modebench"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-20"
-  - name: "foody-delivery-technical-test"
-    title: "foody-delivery-technical-test"
-    description: null
-    language: "Java"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-07-31"
+repos: []
 ---
 
 # viniciusdsandrade

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "3cb7ff1cdcf97c6b"
-pushes_per_week: [1, 2, 2, 3, 1, 0, 0, 0, 4, 3, 6, 4, 0]
+pushes_per_week: [3, 0, 2, 4, 0, 0, 0, 1, 4, 4, 4, 4, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 14
+    pushes: 13
     distinct_repos: 9
-    active_days: 11
+    active_days: 10
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 14
+    pushes: 13
     distinct_repos: 9
-    pushes_per_repo: 1.5556
-    active_days: 11
+    pushes_per_repo: 1.4444
+    active_days: 10
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
@@ -84,7 +84,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-09"
+    last_push: "2026-10-17"
   - name: "product-manager-skills"
     title: "product-manager-skills"
     description: "PM skill for Claude Code, Codex, Cursor, and Windsurf: diagnose SaaS metrics, critique PRDs, plan roadmaps, run discovery, and coach PM career transitions."
@@ -110,9 +110,25 @@ repos:
       - "saas-metrics"
       - "skill-md"
       - "windsurf-skill"
-    stars_fact: 185
+    stars_fact: 186
     first_seen: null
     last_push: "2026-04-12"
+  - name: "recruit-ai-framework"
+    title: "recruit-ai-framework"
+    description: "Recruit-AI-Framework — Built by Genedai, Co-Founder of OpenJobs AI （https://openjobs-ai.com/）"
+    language: "Python"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-10-12"
+  - name: "project-watchtower"
+    title: "project-watchtower"
+    description: "Bounded health monitoring for Digidai public projects"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-01"
   - name: "asterweft"
     title: "asterweft"
     description: "Independent Cloudflare agent platform: full-parity rewrite research, architecture, and acceptance specifications."
@@ -139,22 +155,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-10-06"
-  - name: "takeoff"
-    title: "takeoff"
-    description: "A quiet airplane window to 120 cities across six continents."
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-06"
-  - name: "recruit-ai-framework"
-    title: "recruit-ai-framework"
-    description: "Recruit-AI-Framework — Built by Genedai, Co-Founder of OpenJobs AI （https://openjobs-ai.com/）"
-    language: "Python"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-10-05"
 ---
 
 # Digidai

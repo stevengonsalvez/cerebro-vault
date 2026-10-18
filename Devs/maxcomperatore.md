@@ -1,18 +1,18 @@
 ---
-login: "chuenchen309"
+login: "maxcomperatore"
 name: null
 discovered_via: "fanout"
 discovered_via_all:
   - "fanout"
 provenance_repos:
-  - "bytedance/deer-flow"
+  - "browser-use/browser-use"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+repos_populated: false
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
-  - "16389f32495280ea"
-pushes_per_week: [3, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  - "c1af6b58492f9bf4"
+pushes_per_week: [0, 0, 0, 0, 0, 1, 1, 2, 17, 2, 2, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
+    pushes: 11
+    distinct_repos: 4
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 6
+    pushes: 26
     distinct_repos: 6
-    active_days: 5
+    active_days: 13
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.2000
-  repo_per_active_day: 1.2000
+  push_per_day: 2.0000
+  repo_per_active_day: 0.4615
   not_owned_ratio: 0.0000
   basename_concentration: 0.1667
   shapes: []
@@ -57,38 +57,30 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
+    pushes: 11
+    distinct_repos: 4
+    pushes_per_repo: 2.7500
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 6
+    pushes: 26
     distinct_repos: 6
-    pushes_per_repo: 1.0000
-    active_days: 5
+    pushes_per_repo: 4.3333
+    active_days: 13
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 5 active days in 90d — pass"
+  - "activity: 13 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "chuenchen309"
-    title: "chuenchen309"
-    description: "Profile"
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-07-20"
+repos: []
 ---
 
-# chuenchen309
+# maxcomperatore
 
-6 pushes across 6 repositories on 5 active days in the last 90 days of public GitHub push activity.
+26 pushes across 6 repositories on 13 active days in the last 90 days of public GitHub push activity.
 
-https://github.com/chuenchen309
+https://github.com/maxcomperatore

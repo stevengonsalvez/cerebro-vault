@@ -10,7 +10,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "1f49d0119cedbc84"
   - "82a901da1b9bedec"
@@ -79,6 +79,14 @@ reasons:
   - "activity: 15 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "eve-mcp-events-template"
+    title: "eve-mcp-events-template"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-15"
   - name: "deeplearning-fall-2025-homework-1"
     title: "deeplearning-fall-2025-homework-1"
     description: null
@@ -119,14 +127,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2024-04-09"
-  - name: "descope-nextjs-13-sample-app"
-    title: "descope-nextjs-13-sample-app"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2023-11-30"
 ---
 
 # allenzhou101

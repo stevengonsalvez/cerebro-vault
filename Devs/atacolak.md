@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [1, 7, 2, 0, 6, 1, 3, 12, 16, 15, 5, 0, 0]
+pushes_per_week: [2, 6, 2, 0, 6, 1, 3, 16, 14, 16, 2, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 29
+    pushes: 27
     distinct_repos: 3
-    active_days: 11
+    active_days: 10
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 29
+    pushes: 27
     distinct_repos: 3
-    pushes_per_repo: 9.6667
-    active_days: 11
+    pushes_per_repo: 9.0000
+    active_days: 10
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -80,11 +80,27 @@ repos:
   - name: "xr"
     title: "xr"
     description: "portable spatial computing around optical XR glasses + phone. lab, device harness, and a Luma Ultra RGB field recorder."
-    language: "Java"
+    language: "Python"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-08"
+    last_push: "2026-10-15"
+  - name: "nixos-config"
+    title: "nixos-config"
+    description: "declarations of my computing environment"
+    language: "Shell"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-15"
+  - name: "android-dev"
+    title: "android-dev"
+    description: "isolated android dev environment"
+    language: "Shell"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-10"
   - name: "colak-sh"
     title: "colak-sh"
     description: "terminal-native public portfolio. visitor and agent share one browser-local shell."
@@ -108,27 +124,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-24"
-  - name: "rimworld-modpack"
-    title: "rimworld-modpack"
-    description: "RimWorld 1.6 campaign lock: 49 mods + all DLC. Colony groups, plumbing, oil, nukes, androids, CE, outposts, gravship. Subscribe the collection, drop ModsConfig.xml in. No binaries."
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-19"
-  - name: "voicecat"
-    title: "voicecat"
-    description: "spoken call loop: discord or browser SmallWebRTC into speech-core, OMP/CPA, leftover qwentts. one live audio path."
-    language: "Python"
-    topics:
-      - "pipecat"
-      - "speech"
-      - "voice"
-      - "webrtc"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-06"
+    last_push: "2026-10-16"
 ---
 
 # atacolak

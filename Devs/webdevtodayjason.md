@@ -8,11 +8,11 @@ provenance_repos:
   - "ayghri/i-have-adhd"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+repos_populated: false
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "46f3c1d6124190bd"
-pushes_per_week: [4, 3, 3, 2, 4, 0, 0, 3, 28, 20, 7, 3, 6]
+pushes_per_week: [4, 3, 3, 2, 4, 0, 0, 8, 32, 11, 9, 1, 6]
 windows:
   "7d":
     pushes: 6
@@ -22,7 +22,7 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 44
+    pushes: 43
     distinct_repos: 15
     active_days: 15
     repos_not_owned: 7
@@ -57,9 +57,9 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 44
+    pushes: 43
     distinct_repos: 15
-    pushes_per_repo: 2.9333
+    pushes_per_repo: 2.8667
     active_days: 15
     repos_not_owned: 7
     not_owned_basenames: 7
@@ -76,63 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 30 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "webdevtodayjason"
-    title: "webdevtodayjason"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-13"
-  - name: "mct2032"
-    title: "mct2032"
-    description: "ESP32 Pen Testing Dev Project"
-    language: "C++"
-    topics:
-      - "cybersecurity"
-      - "esp32"
-      - "penetration-testing"
-      - "pentesting"
-    stars_fact: 22
-    first_seen: null
-    last_push: "2025-06-02"
-  - name: "hermes"
-    title: "hermes"
-    description: "Hermes Familiar — ESP32-S3 desk companion, a native Hermes gateway plugin: live agent state, tap-to-approve, desk pings, cron/vitals pages"
-    language: "C"
-    topics: []
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-07-06"
-  - name: "A2AMCP"
-    title: "A2AMCP"
-    description: "A2AMCP is a Agent2Agent MCP communication Server taking the concept from Google's Agent2Agent Protocol (A2A)"
-    language: "Python"
-    topics: []
-    stars_fact: 21
-    first_seen: null
-    last_push: "2025-06-09"
-  - name: "tiinyengineer"
-    title: "tiinyengineer"
-    description: "A dependable operations watcher for endpoints, jobs, backups, containers, and devices."
-    language: "Python"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-03"
-  - name: "subctl"
-    title: "subctl"
-    description: "Subscription Central — unified CLI/TUI/dashboard for AI subscriptions you're paying for. Multi-account, rate-limit-aware, tmux team launcher, web dashboard. Phase 1: Anthropic Claude."
-    language: "TypeScript"
-    topics:
-      - "ai-agents"
-      - "ai-cli"
-      - "ai-tools"
-      - "claude-code"
-    stars_fact: 4
-    first_seen: null
-    last_push: "2026-06-12"
+repos: []
 ---
 
 # webdevtodayjason

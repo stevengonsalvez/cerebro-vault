@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-16T08:30:18.142355+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "1f49d0119cedbc84"
-pushes_per_week: [1, 0, 1, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [1, 0, 2, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,6 +77,55 @@ reasons:
   - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "doi2pdf"
+    title: "doi2pdf"
+    description: "Download PDFs from DOI, support downloads from direct doi, name, url & batch downloads!"
+    language: "Python"
+    topics: []
+    stars_fact: 17
+    first_seen: null
+    last_push: "2025-05-15"
+  - name: "egomac"
+    title: "egomac"
+    description: "Native macOS menu bar app for tracking Ankara EGO buses · EGO Cep'te-themed UI · 5-min-before-arrival notifications"
+    language: "Swift"
+    topics:
+      - "ankara"
+      - "appkit"
+      - "bus-tracker"
+      - "ego"
+      - "macos"
+      - "menu-bar-app"
+      - "public-transit"
+      - "swift"
+      - "swiftui"
+      - "turkish"
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-05-10"
+  - name: "freya-build-the-builder"
+    title: "freya-build-the-builder"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-11"
+  - name: "visa-checker"
+    title: "visa-checker"
+    description: "Schengen vizesi randevularını otomatik takip eden ve Telegram üzerinden bildirim gönderen bot."
+    language: "TypeScript"
+    topics:
+      - "bildirim"
+      - "bot"
+      - "randevu"
+      - "schengen"
+      - "takip"
+      - "telegram"
+      - "vize"
+    stars_fact: 405
+    first_seen: null
+    last_push: "2026-06-06"
   - name: "sidenote-x"
     title: "sidenote-x"
     description: "Private, local notes for people you encounter on X."
@@ -100,67 +149,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-07-07"
-  - name: "linkedin-tldr"
-    title: "linkedin-tldr"
-    description: "Chrome extension that blurs long LinkedIn posts and stamps a one-sentence AI summary on top."
-    language: "JavaScript"
-    topics:
-      - "chrome-extension"
-      - "linkedin"
-      - "summarization"
-      - "tldr"
-      - "vercel-ai-gateway"
-    stars_fact: 5
-    first_seen: null
-    last_push: "2026-10-01"
-  - name: "postmaker-x"
-    title: "postmaker-x"
-    description: "Optimize your X (Twitter) posts using the official open-source algorithm. Analyze engagement signals, get AI-powered suggestions, and maximize your reach."
-    language: "TypeScript"
-    topics:
-      - "engagement"
-      - "gemini-ai"
-      - "nodejs"
-      - "open-source"
-      - "optimization"
-      - "post-analyzer"
-      - "react"
-      - "social-media"
-      - "twitter"
-      - "typescript"
-      - "x-algorithm"
-    stars_fact: 78
-    first_seen: null
-    last_push: "2026-01-20"
-  - name: "url"
-    title: "url"
-    description: "discord vanity url spammer"
-    language: "JavaScript"
-    topics:
-      - "discord-bot"
-      - "discord-js"
-      - "discord-url"
-      - "discord-url-spammer"
-      - "discord-vanity"
-      - "discord-vanity-url"
-    stars_fact: 24
-    first_seen: null
-    last_push: "2024-09-17"
-  - name: "visa-checker"
-    title: "visa-checker"
-    description: "Schengen vizesi randevularını otomatik takip eden ve Telegram üzerinden bildirim gönderen bot."
-    language: "TypeScript"
-    topics:
-      - "bildirim"
-      - "bot"
-      - "randevu"
-      - "schengen"
-      - "takip"
-      - "telegram"
-      - "vize"
-    stars_fact: 404
-    first_seen: null
-    last_push: "2026-06-06"
 ---
 
 # byigitt

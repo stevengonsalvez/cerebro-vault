@@ -8,8 +8,8 @@ provenance_repos:
   - "Panniantong/Agent-Reach"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+repos_populated: false
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "b6bb9341088f0954"
 pushes_per_week: [0, 2, 1, 3, 0, 1, 0, 0, 1, 2, 1, 0, 0]
@@ -76,72 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 9 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "Agent-Reach"
-    title: "Agent-Reach"
-    description: "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees."
-    language: "Python"
-    topics:
-      - "agent-infrastructure"
-      - "ai-agent"
-      - "ai-search"
-      - "automation"
-      - "bilibili"
-      - "claude-code"
-      - "cli"
-      - "cursor"
-      - "free-api"
-      - "llm-tools"
-      - "mcp"
-      - "python"
-      - "reddit-scraper"
-      - "twitter-scraper"
-      - "web-scraper"
-      - "xiaohongshu"
-      - "youtube-transcript"
-    stars_fact: 95559
-    first_seen: "2026-08-03T06:00:03.956190+00:00"
-    last_push: "2026-10-08"
-  - name: "Panniantong"
-    title: "Panniantong"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 20
-    first_seen: null
-    last_push: "2026-10-11"
-  - name: "WechatBot"
-    title: "WechatBot"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2023-01-02"
-  - name: "agent-vault-backup"
-    title: "agent-vault-backup"
-    description: "🔐 Automated backup for OpenClaw agents. One sentence to set up, runs forever."
-    language: "Shell"
-    topics: []
-    stars_fact: 25
-    first_seen: null
-    last_push: "2026-03-10"
-  - name: "neoob-images"
-    title: "neoob-images"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2025-07-27"
-  - name: "RD_everything"
-    title: "RD_everything"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2025-02-21"
+repos: []
 ---
 
 # Panniantong

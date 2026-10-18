@@ -8,11 +8,11 @@ provenance_repos:
   - "BuilderIO/agent-native"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+repos_populated: false
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "745308b2b7085095"
-pushes_per_week: [9, 5, 6, 3, 0, 0, 0, 1, 1, 2, 8, 2, 9]
+pushes_per_week: [11, 3, 5, 3, 0, 0, 0, 1, 3, 0, 9, 1, 9]
 windows:
   "7d":
     pushes: 9
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 46
+    pushes: 45
     distinct_repos: 6
-    active_days: 25
+    active_days: 24
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.8400
-  repo_per_active_day: 0.2400
+  push_per_day: 1.8750
+  repo_per_active_day: 0.2500
   not_owned_ratio: 0.6667
   basename_concentration: 0.1667
   shapes: []
@@ -65,46 +65,22 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 46
+    pushes: 45
     distinct_repos: 6
-    pushes_per_repo: 7.6667
-    active_days: 25
+    pushes_per_repo: 7.5000
+    active_days: 24
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 25 active days in 90d — pass"
+  - "activity: 24 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "notion-voice-notes"
-    title: "notion-voice-notes"
-    description: "CLI tool to transcribe audio files and create Notion pages with AI summaries"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-30"
-  - name: "declination-living"
-    title: "declination-living"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-07-26"
-  - name: "keithce"
-    title: "keithce"
-    description: "Profile Repository"
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-04-19"
+repos: []
 ---
 
 # keithce
 
-46 pushes across 6 repositories on 25 active days in the last 90 days of public GitHub push activity.
+45 pushes across 6 repositories on 24 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/keithce

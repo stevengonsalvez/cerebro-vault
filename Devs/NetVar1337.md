@@ -8,11 +8,11 @@ provenance_repos:
   - "anthropics/claude-code-action"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+repos_populated: false
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "0b22ca37fd3884c9"
-pushes_per_week: [1, 0, 1, 4, 0, 0, 0, 1, 1, 4, 1, 1, 0]
+pushes_per_week: [1, 0, 3, 2, 0, 0, 0, 1, 1, 4, 2, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,82 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 11 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "agent-skill-canon"
-    title: "agent-skill-canon"
-    description: "Master skill canon + agent instruction set for the NetVar1337 workstation. Source of truth synced to opencode/claude/codex/pi/omo harness roots via sync-skills.ps1."
-    language: "Python"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-08-26"
-  - name: "claude-for-firefox"
-    title: "claude-for-firefox"
-    description: "Claude for Firefox - community browser extension with sidebar chat and automation"
-    language: "JavaScript"
-    topics:
-      - "ai-assistant"
-      - "browser-extension"
-      - "claude"
-      - "firefox"
-      - "javascript"
-      - "webextension"
-    stars_fact: 19
-    first_seen: null
-    last_push: "2026-05-09"
-  - name: "Kevlar-Ultimate"
-    title: "Kevlar-Ultimate"
-    description: "Unified KEVLAR Windows kernel-driver emulation and analysis harness"
-    language: "C++"
-    topics: []
-    stars_fact: 4
-    first_seen: null
-    last_push: "2026-09-15"
-  - name: "NetVar1337"
-    title: "NetVar1337"
-    description: "Independent game-security research: FPS cheat taxonomy, SQL match-integrity, explainable detections."
-    language: null
-    topics:
-      - "anti-cheat"
-      - "detection-engineering"
-      - "game-security"
-      - "reverse-engineering"
-      - "security-research"
-      - "windows-internals"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-16"
-  - name: "cheat-intel"
-    title: "cheat-intel"
-    description: "Cheat-community intelligence: monitoring methodology, trend reports, and the intel -> detection feedback loop for FPS anti-cheat teams."
-    language: null
-    topics:
-      - "anti-cheat"
-      - "game-security"
-      - "osint"
-      - "security-research"
-      - "threat-intelligence"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-05"
-  - name: "apex-anticheat-lab"
-    title: "apex-anticheat-lab"
-    description: "FPS anti-cheat lab: runnable synthetic fixture, explainable aim scoring, match-integrity SQL. Not a live detection system."
-    language: "Python"
-    topics:
-      - "anti-cheat"
-      - "apex-legends"
-      - "cheating"
-      - "detection-engineering"
-      - "fps"
-      - "game-security"
-      - "security-research"
-      - "sql"
-      - "telemetry"
-      - "yara"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-05"
+repos: []
 ---
 
 # NetVar1337

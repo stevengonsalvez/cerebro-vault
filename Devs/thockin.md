@@ -8,11 +8,11 @@ provenance_repos:
   - "agent-substrate/substrate"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+repos_populated: false
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "a5ffcd0a46dd44fd"
-pushes_per_week: [0, 4, 2, 1, 3, 1, 1, 0, 0, 0, 0, 4, 2]
+pushes_per_week: [0, 5, 1, 1, 4, 0, 1, 0, 0, 0, 2, 3, 1]
 windows:
   "7d":
     pushes: 2
@@ -76,55 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 15 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "go-build-template"
-    title: "go-build-template"
-    description: "A Makefile/Dockerfile example for Go projects."
-    language: "Makefile"
-    topics: []
-    stars_fact: 3332
-    first_seen: null
-    last_push: "2026-09-25"
-  - name: "dotfiles"
-    title: "dotfiles"
-    description: "My dotfiles"
-    language: "Vim Script"
-    topics: []
-    stars_fact: 12
-    first_seen: null
-    last_push: "2026-10-14"
-  - name: "go-vanity-import"
-    title: "go-vanity-import"
-    description: null
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-07"
-  - name: "exploding-clusters-online"
-    title: "exploding-clusters-online"
-    description: "exploding-clusters-online"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 4
-    first_seen: null
-    last_push: "2026-09-25"
-  - name: "homebins"
-    title: "homebins"
-    description: "Accumulated stuff I keep in $HOME/bin"
-    language: "Perl"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-06-23"
-  - name: "work-in-progress"
-    title: "work-in-progress"
-    description: "Random stuff I don't want to lose"
-    language: "Dockerfile"
-    topics: []
-    stars_fact: 4
-    first_seen: null
-    last_push: "2023-07-25"
+repos: []
 ---
 
 # thockin

@@ -9,22 +9,22 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "fae7e9e22c64821d"
-pushes_per_week: [45, 31, 9, 12, 4, 6, 7, 14, 20, 47, 34, 13, 11]
+pushes_per_week: [46, 32, 7, 14, 2, 6, 15, 11, 19, 49, 30, 15, 7]
 windows:
   "7d":
-    pushes: 13
+    pushes: 8
     distinct_repos: 1
-    active_days: 5
+    active_days: 4
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 115
+    pushes: 112
     distinct_repos: 1
-    active_days: 27
+    active_days: 26
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -49,18 +49,18 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 13
+    pushes: 8
     distinct_repos: 1
-    pushes_per_repo: 13.0000
-    active_days: 5
+    pushes_per_repo: 8.0000
+    active_days: 4
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 115
+    pushes: 112
     distinct_repos: 1
-    pushes_per_repo: 115.0000
-    active_days: 27
+    pushes_per_repo: 112.0000
+    active_days: 26
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -82,7 +82,7 @@ repos:
     description: "Browser automation for OpenCode via Chrome extension. Inspired by Claude in Chrome."
     language: "JavaScript"
     topics: []
-    stars_fact: 41
+    stars_fact: 42
     first_seen: null
     last_push: "2026-01-04"
   - name: "digital-empire"

@@ -8,11 +8,11 @@ provenance_repos:
   - "BuilderIO/agent-native"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+repos_populated: false
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "745308b2b7085095"
-pushes_per_week: [0, 0, 1, 0, 0, 0, 0, 0, 4, 6, 5, 3, 1]
+pushes_per_week: [0, 1, 0, 0, 0, 0, 0, 0, 4, 9, 2, 4, 0]
 windows:
   "7d":
     pushes: 1
@@ -76,47 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 14 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "HarnessGate"
-    title: "HarnessGate"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-11"
-  - name: "anka"
-    title: "anka"
-    description: "Anka — Anki, reborn. AI-native spaced repetition: Rust core, FSRS scheduling, .apkg compatible, MCP-native."
-    language: "Rust"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-09"
-  - name: "OpenKTV"
-    title: "OpenKTV"
-    description: "基于 junyao-ktv 的家庭KTV增强版:B站/YouTube在线搜歌下载、Demucs AI伴奏分离、双音轨入库"
-    language: "HTML"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-08"
-  - name: "siyuan-plugin-plan-hub"
-    title: "siyuan-plugin-plan-hub"
-    description: "计划中枢 - SiYuan plugin for structured life/annual/weekly planning"
-    language: "Svelte"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-08"
-  - name: "deskcal"
-    title: "deskcal"
-    description: "DeskCal — 一款极简的 Windows 桌面日历应用，支持本地任务管理与 Mindwtr 任务双向同步。Built with Tauri 2 + React + TypeScript."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-02"
+repos: []
 ---
 
 # meichuanyi

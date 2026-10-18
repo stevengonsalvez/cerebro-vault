@@ -8,11 +8,11 @@ provenance_repos:
   - "anthropics/claude-cookbooks"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+repos_populated: false
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "1f49d0119cedbc84"
-pushes_per_week: [3, 2, 0, 3, 0, 1, 0, 1, 4, 6, 3, 2, 6]
+pushes_per_week: [3, 2, 1, 2, 0, 1, 0, 2, 7, 2, 5, 5, 1]
 windows:
   "7d":
     pushes: 6
@@ -22,11 +22,11 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 20
-    distinct_repos: 9
-    active_days: 10
-    repos_not_owned: 7
-    not_owned_basenames: 6
+    pushes: 19
+    distinct_repos: 8
+    active_days: 9
+    repos_not_owned: 6
+    not_owned_basenames: 5
     not_owned_owners: 4
   "90d":
     pushes: 31
@@ -57,12 +57,12 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 20
-    distinct_repos: 9
-    pushes_per_repo: 2.2222
-    active_days: 10
-    repos_not_owned: 7
-    not_owned_basenames: 6
+    pushes: 19
+    distinct_repos: 8
+    pushes_per_repo: 2.3750
+    active_days: 9
+    repos_not_owned: 6
+    not_owned_basenames: 5
     not_owned_owners: 4
   "90d":
     pushes: 31
@@ -76,72 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 18 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "idiomatic-rust"
-    title: "idiomatic-rust"
-    description: "🦀 A peer-reviewed collection of articles/talks/repos which teach concise, idiomatic Rust."
-    language: "Rust"
-    topics:
-      - "ergonomics"
-      - "idiomatic"
-      - "idiomatic-rust"
-      - "rust"
-    stars_fact: 7887
-    first_seen: null
-    last_push: "2026-02-12"
-  - name: "the-coding-interview"
-    title: "the-coding-interview"
-    description: "Programming exercises, code katas and puzzles for your job interview training - or just for fun."
-    language: "Python"
-    topics:
-      - "coding-interview"
-      - "interview-practice"
-      - "interview-test-task"
-      - "language-learning"
-    stars_fact: 1746
-    first_seen: null
-    last_push: "2023-10-30"
-  - name: "oxitrack"
-    title: "oxitrack"
-    description: "Self-hosted, privacy-respecting website traffic tracker"
-    language: "Rust"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-04"
-  - name: "endler.dev"
-    title: "endler.dev"
-    description: "My personal website"
-    language: "HTML"
-    topics: []
-    stars_fact: 111
-    first_seen: null
-    last_push: "2026-10-01"
-  - name: "vscode-snippet"
-    title: "vscode-snippet"
-    description: "🐤 A Visual Studio Code extension for cheat.sh. Quickly and easily find code snippets for any language right inside your IDE."
-    language: "TypeScript"
-    topics:
-      - "cheatsh"
-      - "cheatsheet"
-      - "snippet"
-      - "vscode-extension"
-    stars_fact: 256
-    first_seen: null
-    last_push: "2025-11-18"
-  - name: "cargo-inspect"
-    title: "cargo-inspect"
-    description: "Pssst!... see what Rust is doing behind the curtains 🕵🤫"
-    language: "Rust"
-    topics:
-      - "desugar"
-      - "inspect"
-      - "static-analysis"
-      - "syntactic-sugar"
-      - "unpretty"
-    stars_fact: 384
-    first_seen: null
-    last_push: "2023-02-27"
+repos: []
 ---
 
 # mre

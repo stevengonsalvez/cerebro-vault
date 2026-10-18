@@ -9,13 +9,13 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "97c4e9cb8b163ddb"
   - "c7515e0fa4368a55"
   - "d3abe74726b22711"
   - "e7c647c4d0689526"
-pushes_per_week: [0, 0, 4, 2, 1, 0, 1, 4, 5, 10, 6, 1, 0]
+pushes_per_week: [0, 0, 4, 2, 1, 0, 1, 4, 6, 13, 3, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -80,6 +80,22 @@ reasons:
   - "activity: 21 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "oabrowser"
+    title: "oabrowser"
+    description: "WebGL-based anatomy atlas browser"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 36
+    first_seen: null
+    last_push: "2018-10-04"
+  - name: "LNQ-citations"
+    title: "LNQ-citations"
+    description: "Citation tree for lymph node quantification in lung cancer staging"
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-11"
   - name: "thalweg"
     title: "thalweg"
     description: "Centerlines, branches and wall geometry of tubular structures, read from a segmentation model's field (a field-based vmtk successor)"
@@ -96,14 +112,6 @@ repos:
     stars_fact: 21
     first_seen: null
     last_push: "2017-12-12"
-  - name: "oabrowser"
-    title: "oabrowser"
-    description: "WebGL-based anatomy atlas browser"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 35
-    first_seen: null
-    last_push: "2018-10-04"
   - name: "haversack"
     title: "haversack"
     description: "Medical-image segmentation models, many families behind one door - TotalSegmentator, MOOSE, MRSegmentator, stock nnU-Net and more - on MPS, CUDA or CPU, with a CLI and a local REST server"
@@ -115,14 +123,6 @@ repos:
   - name: "feldglas"
     title: "feldglas"
     description: "Embedding fields of medical images: read them, gate them with any mask, and find what is unlike normal tissue. The receiving end of haversack's encoders."
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-06"
-  - name: "rankfield"
-    title: "rankfield"
-    description: "A per-class field kept as ranks: the encoding, its decoders, and the restore (alpha)"
     language: "Python"
     topics: []
     stars_fact: 0

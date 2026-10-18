@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [2, 2, 8, 15, 0, 0, 0, 0, 1, 16, 9, 0, 1]
+pushes_per_week: [4, 0, 8, 15, 0, 0, 0, 0, 2, 21, 3, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -77,6 +77,14 @@ reasons:
   - "activity: 19 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "astrbot_plugin_galplayer"
+    title: "astrbot_plugin_galplayer"
+    description: "Astrbot的推galgame插件"
+    language: "Python"
+    topics: []
+    stars_fact: 9
+    first_seen: null
+    last_push: "2026-05-02"
   - name: "qflarebot-plugin-qqadmin"
     title: "qflarebot-plugin-qqadmin"
     description: "QFlareBot 群管插件：禁言、撤回、违禁词、刷屏检测、投票禁言、进群审核与欢迎（移植自 AstrBot 插件 astrbot_plugin_qqadmin）"
@@ -115,15 +123,6 @@ repos:
   - name: "qflarebot-plugin-pixiv"
     title: "qflarebot-plugin-pixiv"
     description: "Pixiv 随机美图 / 作品详情查询（pixiv.yuki.sh 第三方图床）— qqbot-workers 插件"
-    language: "TypeScript"
-    topics:
-      - "qflarebot-plugin"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-28"
-  - name: "qflarebot-plugin-jrys"
-    title: "qflarebot-plugin-jrys"
-    description: "QQ 机器人今日运势海报生成插件，支持 T2I 渲染、每日固定运势与节假日爆率加权"
     language: "TypeScript"
     topics:
       - "qflarebot-plugin"

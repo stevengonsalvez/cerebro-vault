@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-16T08:30:18.142355+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [3, 0, 1, 2, 0, 0, 0, 3, 0, 2, 0, 0, 1]
+pushes_per_week: [2, 1, 0, 2, 0, 0, 0, 3, 0, 2, 0, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 12
+    pushes: 11
     distinct_repos: 5
-    active_days: 8
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.5000
-  repo_per_active_day: 0.6250
+  push_per_day: 1.5714
+  repo_per_active_day: 0.7143
   not_owned_ratio: 0.0000
   basename_concentration: 0.2000
   shapes: []
@@ -65,26 +65,34 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 12
+    pushes: 11
     distinct_repos: 5
-    pushes_per_repo: 2.4000
-    active_days: 8
+    pushes_per_repo: 2.2000
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 8 active days in 90d — pass"
+  - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "paperdeck"
     title: "paperdeck"
     description: "문제집을 카드로 바꿔 풀고 채점하는 학습 도구"
-    language: "Python"
+    language: "JavaScript"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-01"
+    last_push: "2026-10-17"
+  - name: "heeoneie"
+    title: "heeoneie"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-13"
   - name: "analyze-review"
     title: "analyze-review"
     description: "쿠팡·배달앱 리뷰를 LLM으로 분석해 핵심 문제를 진단하고 답글까지 생성하는 서비스 (Python · Docker)"
@@ -93,14 +101,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-09-29"
-  - name: "heeoneie"
-    title: "heeoneie"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-23"
   - name: "music-experiment-001"
     title: "music-experiment-001"
     description: "AI 음악 분석·생성 가능성을 7일간 검증한 실험 프로젝트"
@@ -129,6 +129,6 @@ repos:
 
 # heeoneie
 
-12 pushes across 5 repositories on 8 active days in the last 90 days of public GitHub push activity.
+11 pushes across 5 repositories on 7 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/heeoneie

@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "a5ffcd0a46dd44fd"
 pushes_per_week: [0, 0, 0, 2, 0, 0, 0, 1, 2, 1, 2, 0, 3]
@@ -77,6 +77,22 @@ reasons:
   - "activity: 10 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "row-major.net"
+    title: "row-major.net"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-17"
+  - name: "tinycert"
+    title: "tinycert"
+    description: "Toy certificate system to demonstrate Pod Certificates and Cluster Trust Bundles"
+    language: "Go"
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-08-07"
   - name: "pga-test"
     title: "pga-test"
     description: null
@@ -85,14 +101,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-09-15"
-  - name: "tinycert"
-    title: "tinycert"
-    description: "Toy certificate system to demonstrate Pod Certificates and Cluster Trust Bundles"
-    language: "Go"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-08-07"
   - name: "mesh-example"
     title: "mesh-example"
     description: null
@@ -117,14 +125,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-03-12"
-  - name: "row-major.net"
-    title: "row-major.net"
-    description: null
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2025-12-30"
 ---
 
 # ahmedtd

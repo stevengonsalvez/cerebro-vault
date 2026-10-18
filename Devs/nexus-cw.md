@@ -8,11 +8,11 @@ provenance_repos:
   - "antirez/ds4"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+repos_populated: false
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "3eacb4655aba2497"
-pushes_per_week: [21, 17, 14, 3, 0, 0, 0, 0, 0, 0, 0, 1, 2]
+pushes_per_week: [19, 19, 13, 1, 0, 0, 0, 0, 0, 0, 0, 1, 2]
 windows:
   "7d":
     pushes: 2
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 58
+    pushes: 55
     distinct_repos: 7
-    active_days: 21
+    active_days: 19
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.7619
-  repo_per_active_day: 0.3333
+  push_per_day: 2.8947
+  repo_per_active_day: 0.3684
   not_owned_ratio: 0.7143
   basename_concentration: 0.1429
   shapes: []
@@ -65,38 +65,22 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 58
+    pushes: 55
     distinct_repos: 7
-    pushes_per_repo: 8.2857
-    active_days: 21
+    pushes_per_repo: 7.8571
+    active_days: 19
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 21 active days in 90d — pass"
+  - "activity: 19 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "accretion"
-    title: "accretion"
-    description: "The accretion disk around DwarfStar — a consumer streaming platform that feeds ds4 experts from NVMe on demand, so 300B-class models serve real work from hardware you can actually buy."
-    language: "C"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-08-10"
-  - name: "Morph"
-    title: "Morph"
-    description: "Replacement for AutoMapper"
-    language: "C#"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-04-17"
+repos: []
 ---
 
 # nexus-cw
 
-58 pushes across 7 repositories on 21 active days in the last 90 days of public GitHub push activity.
+55 pushes across 7 repositories on 19 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/nexus-cw

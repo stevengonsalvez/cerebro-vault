@@ -10,23 +10,23 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "16389f32495280ea"
   - "4d1450729e6ff44d"
-pushes_per_week: [2, 4, 4, 8, 2, 1, 1, 6, 11, 9, 7, 2, 4]
+pushes_per_week: [2, 4, 6, 6, 3, 1, 0, 8, 10, 11, 4, 2, 4]
 windows:
   "7d":
-    pushes: 5
+    pushes: 4
     distinct_repos: 3
-    active_days: 4
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 27
-    distinct_repos: 10
-    active_days: 16
+    pushes: 25
+    distinct_repos: 9
+    active_days: 15
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -51,18 +51,18 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 5
+    pushes: 4
     distinct_repos: 3
-    pushes_per_repo: 1.6667
-    active_days: 4
+    pushes_per_repo: 1.3333
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 27
-    distinct_repos: 10
-    pushes_per_repo: 2.7000
-    active_days: 16
+    pushes: 25
+    distinct_repos: 9
+    pushes_per_repo: 2.7778
+    active_days: 15
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -87,49 +87,18 @@ repos:
       - "astro"
       - "blog"
       - "minimalist"
-    stars_fact: 47
+    stars_fact: 39
     first_seen: null
-    last_push: "2026-10-09"
-  - name: "wutongyuonce"
-    title: "wutongyuonce"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-09"
-  - name: "pi-deep-dive"
-    title: "pi-deep-dive"
-    description: null
-    language: "TypeScript"
-    topics:
-      - "agent"
-      - "pi"
-      - "tutorial"
-    stars_fact: 14
-    first_seen: null
-    last_push: "2026-07-25"
-  - name: "pi-zen-mode"
-    title: "pi-zen-mode"
-    description: "Distraction-free focus mode for Pi — nothing while it runs, only the final answer when it's done. 运行中只显示转圈,结束后只留答案。"
-    language: "TypeScript"
-    topics:
-      - "focus-mode"
-      - "pi-agent"
-      - "pi-extension"
-      - "tui"
-    stars_fact: 13
-    first_seen: null
-    last_push: "2026-09-14"
+    last_push: "2026-10-17"
   - name: "skills"
     title: "skills"
     description: "我的个人 AI Agent Skills 集合，覆盖开发、设计、研究"
     language: "HTML"
     topics:
       - "skills"
-    stars_fact: 2
+    stars_fact: 1
     first_seen: null
-    last_push: "2026-10-08"
+    last_push: "2026-10-17"
   - name: "Pai"
     title: "Pai"
     description: "用 Python 从零搭建一个完整的 AI 编程助手系统：统一 LLM 调用 + Agent 编排内核 + 飞书 IM 桥接"
@@ -138,9 +107,36 @@ repos:
       - "agent"
       - "feishu"
       - "python"
-    stars_fact: 64
+    stars_fact: 56
     first_seen: null
     last_push: "2026-09-25"
+  - name: "video2article"
+    title: "video2article"
+    description: "把视频/播客重写成「阅读版本」文章的 Agent Skill：YouTube 字幕、小宇宙官方逐字稿、本地 ASR"
+    language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-15"
+  - name: "wutongyuonce"
+    title: "wutongyuonce"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-15"
+  - name: "pi-extensions"
+    title: "pi-extensions"
+    description: "pi-extensions 集合"
+    language: "TypeScript"
+    topics:
+      - "agent"
+      - "pi"
+      - "pi-extension"
+    stars_fact: 5
+    first_seen: null
+    last_push: "2026-10-15"
 ---
 
 # wutongyuonce

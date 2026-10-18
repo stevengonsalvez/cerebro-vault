@@ -8,11 +8,11 @@ provenance_repos:
   - "ayghri/i-have-adhd"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+repos_populated: false
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "46f3c1d6124190bd"
-pushes_per_week: [5, 8, 0, 0, 2, 0, 0, 1, 1, 1, 0, 0, 0]
+pushes_per_week: [4, 7, 0, 1, 1, 0, 0, 2, 0, 1, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 18
-    distinct_repos: 6
-    active_days: 11
-    repos_not_owned: 4
+    pushes: 16
+    distinct_repos: 5
+    active_days: 10
+    repos_not_owned: 3
     not_owned_basenames: 1
-    not_owned_owners: 4
+    not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 1.6364
-  repo_per_active_day: 0.5455
-  not_owned_ratio: 0.6667
-  basename_concentration: 0.8333
+  push_per_day: 1.6000
+  repo_per_active_day: 0.5000
+  not_owned_ratio: 0.6000
+  basename_concentration: 0.8000
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,70 +65,22 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 18
-    distinct_repos: 6
-    pushes_per_repo: 3.0000
-    active_days: 11
-    repos_not_owned: 4
+    pushes: 16
+    distinct_repos: 5
+    pushes_per_repo: 3.2000
+    active_days: 10
+    repos_not_owned: 3
     not_owned_basenames: 1
-    not_owned_owners: 4
+    not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 11 active days in 90d — pass"
+  - "activity: 10 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "gemini-teacher"
-    title: "gemini-teacher"
-    description: "English pronunciation correction teacher built with gemini"
-    language: "Python"
-    topics: []
-    stars_fact: 1209
-    first_seen: null
-    last_push: "2026-08-31"
-  - name: "moss"
-    title: "moss"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 84
-    first_seen: null
-    last_push: "2026-10-14"
-  - name: "neurom"
-    title: "neurom"
-    description: null
-    language: "JavaScript"
-    topics: []
-    stars_fact: 6
-    first_seen: null
-    last_push: "2026-10-10"
-  - name: "fomomo"
-    title: "fomomo"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 46
-    first_seen: null
-    last_push: "2026-09-17"
-  - name: "pow-erc20"
-    title: "pow-erc20"
-    description: "A minter for PowerERC20 by rust"
-    language: "Rust"
-    topics: []
-    stars_fact: 131
-    first_seen: null
-    last_push: "2023-12-12"
-  - name: "zktls-ai"
-    title: "zktls-ai"
-    description: "Primus zkTLS proof of real DeepSeek requests with Monad escrow settlement"
-    language: "Solidity"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-07"
+repos: []
 ---
 
 # nishuzumi
 
-18 pushes across 6 repositories on 11 active days in the last 90 days of public GitHub push activity.
+16 pushes across 5 repositories on 10 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/nishuzumi

@@ -8,11 +8,11 @@ provenance_repos:
   - "agentscope-ai/QwenPaw"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-16T08:30:18.142355+00:00"
+repos_populated: false
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "541318303a272608"
-pushes_per_week: [3, 1, 5, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0]
+pushes_per_week: [2, 1, 5, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 11
+    pushes: 10
     distinct_repos: 4
-    active_days: 7
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.5714
-  repo_per_active_day: 0.5714
+  push_per_day: 1.6667
+  repo_per_active_day: 0.6667
   not_owned_ratio: 0.0000
   basename_concentration: 0.2500
   shapes: []
@@ -65,46 +65,22 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 11
+    pushes: 10
     distinct_repos: 4
-    pushes_per_repo: 2.7500
-    active_days: 7
+    pushes_per_repo: 2.5000
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 7 active days in 90d — pass"
+  - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "adblock-rules"
-    title: "adblock-rules"
-    description: "自动更新的广告过滤规则（dnsmasq格式），供OpenWrt定时拉取"
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-10"
-  - name: "gx-iptv"
-    title: "gx-iptv"
-    description: "广西移动 IPv6 直播源，每6小时自动同步"
-    language: "Python"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-07-09"
-  - name: "roundtable-pro"
-    title: "roundtable-pro"
-    description: "QwenPaw plugin: Multi-agent roundtable discussion with concurrent LLM debate & comparison"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-07-18"
+repos: []
 ---
 
 # lecheng2018
 
-11 pushes across 4 repositories on 7 active days in the last 90 days of public GitHub push activity.
+10 pushes across 4 repositories on 6 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/lecheng2018

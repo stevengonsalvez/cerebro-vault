@@ -8,11 +8,11 @@ provenance_repos:
   - "alibaba/open-code-review"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+repos_populated: false
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "c489e6fb5febf2ab"
-pushes_per_week: [0, 3, 8, 12, 3, 3, 0, 0, 2, 0, 20, 4, 13]
+pushes_per_week: [0, 3, 14, 6, 4, 2, 0, 0, 2, 0, 22, 2, 13]
 windows:
   "7d":
     pushes: 13
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 39
-    distinct_repos: 4
-    active_days: 13
+    pushes: 38
+    distinct_repos: 3
+    active_days: 12
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 39
-    distinct_repos: 4
-    pushes_per_repo: 9.7500
-    active_days: 13
+    pushes: 38
+    distinct_repos: 3
+    pushes_per_repo: 12.6667
+    active_days: 12
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -76,31 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 28 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "cpay"
-    title: "cpay"
-    description: "cpay payments on Breez SDK (Spark)"
-    language: "PLpgSQL"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-16"
-  - name: "parvez-ai"
-    title: "parvez-ai"
-    description: "Parvez AI — public AI assistant platform with multi-provider API router, encrypted API Vault, Jarvis-style dashboard, and chat proxy. Built by Parvez Mosharaf."
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-09"
-  - name: "cpay-wallet"
-    title: "cpay-wallet"
-    description: "CPay wallet. One app for phone, tablet, and desktop."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-06"
+repos: []
 ---
 
 # parvezmosharafvu

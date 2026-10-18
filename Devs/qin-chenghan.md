@@ -8,11 +8,11 @@ provenance_repos:
   - "bytedance/deer-flow"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+repos_populated: false
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "16389f32495280ea"
-pushes_per_week: [4, 1, 0, 0, 0, 0, 0, 0, 2, 2, 2, 0, 2]
+pushes_per_week: [4, 1, 0, 0, 0, 0, 0, 0, 3, 1, 2, 0, 2]
 windows:
   "7d":
     pushes: 2
@@ -76,15 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 10 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "kunpeng-affinity-plugin"
-    title: "kunpeng-affinity-plugin"
-    description: "Portable Linux PCIe and NUMA affinity plugin core for GPU inference frameworks"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-10"
+repos: []
 ---
 
 # qin-chenghan

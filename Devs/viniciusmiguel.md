@@ -8,16 +8,16 @@ provenance_repos:
   - "akitaonrails/ai-memory"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+repos_populated: false
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "4138778ebbc75ba6"
-pushes_per_week: [0, 1, 6, 0, 2, 2, 0, 0, 0, 1, 0, 10, 32]
+pushes_per_week: [0, 1, 6, 0, 2, 2, 0, 0, 0, 1, 0, 35, 7]
 windows:
   "7d":
-    pushes: 42
+    pushes: 28
     distinct_repos: 4
-    active_days: 4
+    active_days: 3
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 1
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 42
+    pushes: 28
     distinct_repos: 4
-    pushes_per_repo: 10.5000
-    active_days: 4
+    pushes_per_repo: 7.0000
+    active_days: 3
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 1
@@ -76,55 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 13 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "OpenVTOLPlane"
-    title: "OpenVTOLPlane"
-    description: "Open Hardware and Source VTOL airplane"
-    language: null
-    topics: []
-    stars_fact: 4
-    first_seen: null
-    last_push: "2017-08-06"
-  - name: "HappyPumi"
-    title: "HappyPumi"
-    description: "An Open Source version of Pulumi Cloud"
-    language: "C#"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-07-02"
-  - name: "Photogrammetry-iphone"
-    title: "Photogrammetry-iphone"
-    description: null
-    language: "Swift"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-05-31"
-  - name: "stm32f469-lvgl"
-    title: "stm32f469-lvgl"
-    description: null
-    language: "C++"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2021-04-01"
-  - name: "Simplify"
-    title: "Simplify"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2025-12-07"
-  - name: "GraphicsLessons"
-    title: "GraphicsLessons"
-    description: null
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2025-12-04"
+repos: []
 ---
 
 # viniciusmiguel

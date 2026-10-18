@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [0, 0, 0, 0, 0, 5, 0, 5, 4, 1, 3, 1, 2]
+pushes_per_week: [0, 0, 0, 0, 4, 1, 0, 5, 4, 2, 2, 1, 2]
 windows:
   "7d":
-    pushes: 3
-    distinct_repos: 3
-    active_days: 2
+    pushes: 2
+    distinct_repos: 2
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 3
-    distinct_repos: 3
+    pushes: 2
+    distinct_repos: 2
     pushes_per_repo: 1.0000
-    active_days: 2
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -77,81 +77,6 @@ reasons:
   - "activity: 11 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "keycloak-configurable-theme"
-    title: "keycloak-configurable-theme"
-    description: "Keycloak 26.x SPI: one configurable theme for all realms — layout, colours, logo, favicon, console & email branding via JSON, admin console or REST API"
-    language: "Java"
-    topics:
-      - "branding"
-      - "iam"
-      - "java"
-      - "keycloak"
-      - "keycloak-extension"
-      - "keycloak-spi"
-      - "keycloak-theme"
-      - "login-page"
-      - "multi-tenant"
-      - "sso"
-      - "theming"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-08"
-  - name: "mcp-clickhouse"
-    title: "mcp-clickhouse"
-    description: "MCP server for ClickHouse — explore, query, and manage with SQL-classification-based security modes and access-control flags."
-    language: "TypeScript"
-    topics:
-      - "clickhouse"
-      - "llm"
-      - "mcp"
-      - "model-context-protocol"
-      - "olap"
-      - "sql"
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-10-09"
-  - name: "orrin-site"
-    title: "orrin-site"
-    description: "Orrin — a voice & a screen for the Claude Code you already run on your Mac"
-    language: "HTML"
-    topics:
-      - "ai"
-      - "claude"
-      - "orrin"
-      - "otto"
-      - "voice-assistant"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-07"
-  - name: "mcp-cdp"
-    title: "mcp-cdp"
-    description: null
-    language: "TypeScript"
-    topics:
-      - "ai"
-      - "browser-automation"
-      - "cdp"
-      - "chrome-devtools-protocol"
-      - "electron"
-      - "mcp"
-      - "model-context-protocol"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-29"
-  - name: "mac-attack"
-    title: "mac-attack"
-    description: "A weird little creature in your Mac: the camera turns people into cartoon characters and Laya (a local typed-decision model) directs harmless toy chaos at them. macOS app + real screensaver. All local, no face recognition, no frames stored."
-    language: "Swift"
-    topics:
-      - "macos"
-      - "on-device-ai"
-      - "privacy"
-      - "screensaver"
-      - "spritekit"
-      - "swift"
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-10-01"
   - name: "dockndevai.github.io"
     title: "dockndevai.github.io"
     description: "Safe-by-default MCP servers for AI agents — Kubernetes, Kafka, ClickHouse, Azure, OCI, Keycloak, Percona PostgreSQL, and RAG. Read-only by default."
@@ -159,7 +84,74 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-29"
+    last_push: "2026-10-15"
+  - name: "mcp-core"
+    title: "mcp-core"
+    description: "Shared safe-by-default governance library for the dockndevai MCP server suite: capability/mode gating, resource allowlist + protected resources + opt-in flags, human-in-the-loop elicitation, symlink-safe path canonicalization, audit, and a buildServer + create-mcp-server scaffold."
+    language: "TypeScript"
+    topics:
+      - "governance"
+      - "library"
+      - "mcp"
+      - "model-context-protocol"
+      - "typescript"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-15"
+  - name: "mcp-macos"
+    title: "mcp-macos"
+    description: "Safe-by-default MCP server to observe & operate a Mac — files, processes, apps, shell, AppleScript, GUI."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-15"
+  - name: "mcp-android"
+    title: "mcp-android"
+    description: "MCP server to control an Android device over ADB — screenshots, taps, typing, app launch, alarms, notifications — safe-by-default with access modes and gated destructive ops."
+    language: "TypeScript"
+    topics:
+      - "adb"
+      - "android"
+      - "device-control"
+      - "llm"
+      - "mcp"
+      - "mobile"
+      - "model-context-protocol"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-14"
+  - name: "mcp-ios"
+    title: "mcp-ios"
+    description: "MCP server to drive a physical iPhone/iPad over Appium + WebDriverAgent (XCUITest) — safe-by-default with access modes and gated destructive ops."
+    language: "TypeScript"
+    topics:
+      - "appium"
+      - "device-control"
+      - "ios"
+      - "llm"
+      - "mcp"
+      - "mobile"
+      - "model-context-protocol"
+      - "webdriveragent"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-14"
+  - name: "laya-guard"
+    title: "laya-guard"
+    description: null
+    language: "Python"
+    topics:
+      - "ai-safety"
+      - "guardrails"
+      - "laya"
+      - "mcp"
+      - "policy"
+      - "python"
+      - "security"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-12"
 ---
 
 # dockndevai

@@ -8,11 +8,11 @@ provenance_repos:
   - "chopratejas/headroom"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+repos_populated: false
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "73468cde177ddae6"
-pushes_per_week: [1, 0, 2, 8, 3, 5, 0, 2, 3, 4, 2, 0, 0]
+pushes_per_week: [0, 0, 2, 8, 3, 5, 1, 1, 3, 4, 2, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 4
     not_owned_owners: 2
   "90d":
-    pushes: 30
+    pushes: 29
     distinct_repos: 17
-    active_days: 20
+    active_days: 19
     repos_not_owned: 16
     not_owned_basenames: 15
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 1.5000
-  repo_per_active_day: 0.8500
+  push_per_day: 1.5263
+  repo_per_active_day: 0.8947
   not_owned_ratio: 0.9412
   basename_concentration: 0.1176
   shapes: []
@@ -65,110 +65,22 @@ facets:
     not_owned_basenames: 4
     not_owned_owners: 2
   "90d":
-    pushes: 30
+    pushes: 29
     distinct_repos: 17
-    pushes_per_repo: 1.7647
-    active_days: 20
+    pushes_per_repo: 1.7059
+    active_days: 19
     repos_not_owned: 16
     not_owned_basenames: 15
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 20 active days in 90d — pass"
+  - "activity: 19 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "hotspot-ttl"
-    title: "hotspot-ttl"
-    description: "macOS menu-bar app that auto-masks carrier tethering detection — sets IP TTL/hop-limit to 65 on iPhone/Android hotspots and restores your default otherwise. Native Swift, event-driven, zero dependencies."
-    language: "Swift"
-    topics:
-      - "android"
-      - "hotspot"
-      - "iphone"
-      - "launchd"
-      - "macos"
-      - "macos-app"
-      - "menubar"
-      - "menubar-app"
-      - "networking"
-      - "privacy"
-      - "swift"
-      - "sysctl"
-      - "tethering"
-      - "ttl"
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-07-20"
-  - name: "opensecretmask"
-    title: "opensecretmask"
-    description: "Secret masking for Claude Code. Every credential becomes a format-preserving fake before the model reads it, and the real value is restored on the way into a tool call — so Claude keeps working, without ever seeing your keys."
-    language: "TypeScript"
-    topics:
-      - "ai-agents"
-      - "anthropic"
-      - "api-keys"
-      - "claude"
-      - "claude-code"
-      - "claude-code-plugin"
-      - "credentials"
-      - "data-masking"
-      - "developer-tools"
-      - "dlp"
-      - "llm"
-      - "privacy"
-      - "redaction"
-      - "secret-detection"
-      - "secrets"
-      - "secrets-management"
-      - "security"
-      - "typescript"
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-10-01"
-  - name: "test-nextjs-hello-world"
-    title: "test-nextjs-hello-world"
-    description: null
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-25"
-  - name: "skills"
-    title: "skills"
-    description: null
-    language: "Shell"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-05-05"
-  - name: "opencode-redactor"
-    title: "opencode-redactor"
-    description: "OpenCode plugin that masks secrets (API keys/PII) in chat + tool outputs before sending to LLM providers"
-    language: "TypeScript"
-    topics:
-      - "bun"
-      - "masking"
-      - "opencode"
-      - "opencode-plugin"
-      - "pii"
-      - "secrets"
-      - "security"
-      - "typescript"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-02-22"
-  - name: "go-s3-rbac-proxy"
-    title: "go-s3-rbac-proxy"
-    description: null
-    language: "Go"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-03-11"
+repos: []
 ---
 
 # pratikbin
 
-30 pushes across 17 repositories on 20 active days in the last 90 days of public GitHub push activity.
+29 pushes across 17 repositories on 19 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/pratikbin

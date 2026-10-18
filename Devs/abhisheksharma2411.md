@@ -10,11 +10,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-16T08:30:18.142355+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "4138778ebbc75ba6"
   - "dae9f02535f7c22f"
-pushes_per_week: [0, 0, 0, 3, 2, 0, 0, 0, 2, 8, 3, 0, 0]
+pushes_per_week: [0, 0, 1, 3, 1, 0, 0, 0, 2, 8, 3, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -79,59 +79,6 @@ reasons:
   - "activity: 12 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "reconstream"
-    title: "reconstream"
-    description: "A temporal correctness contract for streaming financial reconciliation: when is a break real?"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-10"
-  - name: "holdspec"
-    title: "holdspec"
-    description: "Machine-checked TLA+ model and generated conformance suite for the payment authorization hold lifecycle: authorize, partial and multiple capture, void, expiry, and release of held funds."
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-08"
-  - name: "distributed-systems-skills"
-    title: "distributed-systems-skills"
-    description: "Agent skills for production correctness: idempotency, exactly-once effects, failure-mode analysis, and money-movement integrity."
-    language: "JavaScript"
-    topics:
-      - "agent-skills"
-      - "claude-code"
-      - "distributed-systems"
-      - "exactly-once"
-      - "idempotency"
-      - "payments"
-      - "reliability"
-      - "site-reliability-engineering"
-      - "skills"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-07"
-  - name: "justonce"
-    title: "justonce"
-    description: "Make side effects happen exactly once. Idempotency keys, atomic claims, and an effect ledger for code that charges money, sends messages, or mutates state."
-    language: "Python"
-    topics:
-      - "deduplication"
-      - "distributed-systems"
-      - "exactly-once"
-      - "fintech"
-      - "idempotency"
-      - "payments"
-      - "postgres"
-      - "python"
-      - "reconciliation"
-      - "reliability"
-      - "retry"
-      - "sqlite"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-07"
   - name: "abhisheksharma2411.github.io"
     title: "abhisheksharma2411.github.io"
     description: null
@@ -139,15 +86,47 @@ repos:
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-10-06"
-  - name: "abhisheksharma2411"
-    title: "abhisheksharma2411"
-    description: "Profile README"
+    last_push: "2026-10-15"
+  - name: "article-diagrams"
+    title: "article-diagrams"
+    description: "Figures for the Production Systems on Google Cloud article series. Published so Medium can fetch and rehost them on paste; disposable once that is done."
     language: null
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-06"
+    last_push: "2026-10-15"
+  - name: "gcp-payment-platform-reference"
+    title: "gcp-payment-platform-reference"
+    description: "Reference modules for payment platforms on Google Cloud: an end-to-end payment platform, and multi-provider orchestration with capability contracts, deterministic routing and failover permitted only from a proven-safe outcome. Zero runtime dependencies."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-14"
+  - name: "gcp-secure-decision-systems-lab"
+    title: "gcp-secure-decision-systems-lab"
+    description: "Runnable labs for secure decision systems on Google Cloud: deadline-aware fraud decisioning, authorization-aware RAG, a PCI-aware token boundary, and a real-time fraud platform reference. Zero runtime dependencies, no cloud project required."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-14"
+  - name: "gcp-failure-driven-operations-lab"
+    title: "gcp-failure-driven-operations-lab"
+    description: "Runnable labs for Failure-Driven Architecture on Google Cloud: safe global releases, an out-of-band recovery plane, tested disaster recovery, a zero-trust landing zone, and money-movement observability. Zero runtime dependencies, no cloud project required."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-14"
+  - name: "gcp-transaction-correctness-lab"
+    title: "gcp-transaction-correctness-lab"
+    description: "Runnable labs for transaction correctness on Google Cloud: retry safety, idempotency, durable state, ledger invariants, event lineage, and reconciliation."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-14"
 ---
 
 # abhisheksharma2411

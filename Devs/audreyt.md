@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "3eacb4655aba2497"
-pushes_per_week: [23, 3, 5, 12, 4, 8, 1, 2, 8, 7, 15, 6, 4]
+pushes_per_week: [23, 0, 9, 8, 8, 4, 1, 2, 9, 10, 14, 7, 0]
 windows:
   "7d":
     pushes: 4
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 98
-    distinct_repos: 25
-    active_days: 42
+    pushes: 95
+    distinct_repos: 24
+    active_days: 41
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 2.3333
-  repo_per_active_day: 0.5952
-  not_owned_ratio: 0.1200
-  basename_concentration: 0.0400
+  push_per_day: 2.3171
+  repo_per_active_day: 0.5854
+  not_owned_ratio: 0.1250
+  basename_concentration: 0.0417
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,70 +65,70 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 98
-    distinct_repos: 25
-    pushes_per_repo: 3.9200
-    active_days: 42
+    pushes: 95
+    distinct_repos: 24
+    pushes_per_repo: 3.9583
+    active_days: 41
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 42 active days in 90d — pass"
+  - "activity: 41 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "node-webworker-threads"
-    title: "node-webworker-threads"
-    description: "Lightweight Web Worker API implementation with native threads"
-    language: "C++"
+  - name: "omo-mnemon"
+    title: "omo-mnemon"
+    description: "Mnemon long-term memory for omo and other senpi/pi coding agents: recall, remember and link tools plus quiet high-confidence auto-recall."
+    language: "TypeScript"
     topics: []
-    stars_fact: 2273
+    stars_fact: 0
     first_seen: null
-    last_push: "2021-09-14"
-  - name: "civic.ai"
-    title: "civic.ai"
-    description: "A governance framework by Audrey Tang and Dr Caroline Emmer De Albuquerque Green that translates Joan Tronto's care ethics into six machine-codeable design primitives for Civic AI — bounded, place-specific AI stewards engineered for relational health, not unbounded optimisation."
-    language: "JavaScript"
-    topics: []
-    stars_fact: 26
-    first_seen: null
-    last_push: "2026-10-08"
+    last_push: "2026-10-15"
   - name: "ethercalc"
     title: "ethercalc"
     description: "Node.js port of Multi-user SocialCalc"
     language: "TypeScript"
     topics: []
-    stars_fact: 3053
+    stars_fact: 3056
     first_seen: null
     last_push: "2026-09-15"
-  - name: "reversealignment.ai"
-    title: "reversealignment.ai"
-    description: "Reverse Alignment website"
-    language: "TypeScript"
+  - name: "lingua-sinica-perlyuyan"
+    title: "lingua-sinica-perlyuyan"
+    description: "Perl in Classical Chinese in Perl"
+    language: "Perl"
     topics: []
-    stars_fact: 3
+    stars_fact: 294
     first_seen: null
-    last_push: "2026-09-24"
-  - name: "samhljomur"
-    title: "samhljomur"
-    description: "Íslandsmedley from Samtal's open data / an Iceland medley"
-    language: "HTML"
+    last_push: "2015-01-10"
+  - name: "civic.ai"
+    title: "civic.ai"
+    description: "A governance framework by Audrey Tang and Dr Caroline Emmer De Albuquerque Green that translates Joan Tronto's care ethics into six machine-codeable design primitives for Civic AI — bounded, place-specific AI stewards engineered for relational health, not unbounded optimisation."
+    language: "JavaScript"
     topics: []
-    stars_fact: 0
+    stars_fact: 27
     first_seen: null
-    last_push: "2026-10-05"
-  - name: "regex-genex"
-    title: "regex-genex"
-    description: "Given a list of regexes, generate all possible strings that matches all of them."
-    language: "Haskell"
+    last_push: "2026-10-13"
+  - name: "parse-afp"
+    title: "parse-afp"
+    description: "Parser for IBM's Advanced Function Printing document format"
+    language: "Perl"
     topics: []
-    stars_fact: 147
+    stars_fact: 5
     first_seen: null
-    last_push: "2015-09-24"
+    last_push: "2015-12-05"
+  - name: "node-webworker-threads"
+    title: "node-webworker-threads"
+    description: "Lightweight Web Worker API implementation with native threads"
+    language: "C++"
+    topics: []
+    stars_fact: 2275
+    first_seen: null
+    last_push: "2021-09-14"
 ---
 
 # audreyt
 
-98 pushes across 25 repositories on 42 active days in the last 90 days of public GitHub push activity.
+95 pushes across 24 repositories on 41 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/audreyt

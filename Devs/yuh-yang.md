@@ -10,7 +10,7 @@ provenance_repos:
 admitted: true
 low_n: true
 repos_populated: true
-generated_at: "2026-10-16T08:30:18.142355+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "1b56cc9447a6475c"
   - "5dd922e14c0ccf9b"
@@ -79,6 +79,16 @@ reasons:
   - "activity: 2 active days in 90d — below the 5-day line, LABELLED low-n (never suppressed)"
   - "automation: clear — pass"
 repos:
+  - name: "MBHT-KDD22"
+    title: "MBHT-KDD22"
+    description: "[KDD'22] Multi-Behavior Hypergraph-Enhanced Transformer for Next-Item Recommendation"
+    language: "Python"
+    topics:
+      - "deep-learning"
+      - "pytorch"
+    stars_fact: 72
+    first_seen: null
+    last_push: "2023-05-09"
   - name: "yuh-yang.github.io"
     title: "yuh-yang.github.io"
     description: null
@@ -87,16 +97,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-09-29"
-  - name: "MBHT-KDD22"
-    title: "MBHT-KDD22"
-    description: "[KDD'22] Multi-Behavior Hypergraph-Enhanced Transformer for Next-Item Recommendation"
-    language: "Python"
-    topics:
-      - "deep-learning"
-      - "pytorch"
-    stars_fact: 71
-    first_seen: null
-    last_push: "2023-05-09"
   - name: "GraphPL"
     title: "GraphPL"
     description: null

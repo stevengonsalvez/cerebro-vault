@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "3eacb4655aba2497"
-pushes_per_week: [1, 1, 2, 5, 1, 1, 1, 1, 1, 3, 3, 1, 2]
+pushes_per_week: [1, 1, 2, 5, 1, 1, 2, 0, 1, 5, 1, 1, 2]
 windows:
   "7d":
     pushes: 2
@@ -104,7 +104,7 @@ repos:
       - "vulnerability-detection"
     stars_fact: 63
     first_seen: null
-    last_push: "2026-10-08"
+    last_push: "2026-10-17"
   - name: "ager-app"
     title: "ager-app"
     description: "AGER — link-first Italian civic news aggregator (web + mobile frontend)"

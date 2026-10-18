@@ -8,16 +8,16 @@ provenance_repos:
   - "agentskills/agentskills"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+repos_populated: false
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "48dbbdd8fd0d3029"
-pushes_per_week: [0, 2, 1, 0, 0, 0, 0, 0, 0, 8, 5, 1, 3]
+pushes_per_week: [0, 2, 1, 0, 0, 0, 0, 0, 1, 8, 4, 1, 3]
 windows:
   "7d":
-    pushes: 4
-    distinct_repos: 3
-    active_days: 2
+    pushes: 3
+    distinct_repos: 2
+    active_days: 1
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 4
-    distinct_repos: 3
-    pushes_per_repo: 1.3333
-    active_days: 2
+    pushes: 3
+    distinct_repos: 2
+    pushes_per_repo: 1.5000
+    active_days: 1
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -76,62 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 14 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "playground-flight-booking"
-    title: "playground-flight-booking"
-    description: "Spring AI powered expert system demo"
-    language: "Java"
-    topics:
-      - "artificial-intelligence"
-      - "expert-system"
-      - "generative-ai"
-    stars_fact: 370
-    first_seen: null
-    last_push: "2026-02-14"
-  - name: "voxxeddays2026-demo"
-    title: "voxxeddays2026-demo"
-    description: null
-    language: "Java"
-    topics: []
-    stars_fact: 50
-    first_seen: null
-    last_push: "2026-10-12"
-  - name: "spring-ai-mcp-blogpost"
-    title: "spring-ai-mcp-blogpost"
-    description: "Companion example for the Spring AI MCP Intro blog post"
-    language: "Java"
-    topics: []
-    stars_fact: 30
-    first_seen: null
-    last_push: "2025-09-28"
-  - name: "geode-dashboard"
-    title: "geode-dashboard"
-    description: "Grafana dashboards for querying, visualizing and analysing Apache Geode (GemFire) historical and real-time metrics and statistics"
-    language: "Java"
-    topics: []
-    stars_fact: 36
-    first_seen: null
-    last_push: "2018-01-31"
-  - name: "tensorflow-spring-cloud-stream-app-starters"
-    title: "tensorflow-spring-cloud-stream-app-starters"
-    description: "TensorFlow Processor for Spring Cloud Dataflow"
-    language: "Java"
-    topics: []
-    stars_fact: 24
-    first_seen: null
-    last_push: "2017-05-30"
-  - name: "spring-ai-cli-chatbot"
-    title: "spring-ai-cli-chatbot"
-    description: "A command-line chatbot built with Spring AI that demonstrates Retrieval-Augmented Generation (RAG) and conversational memory capabilities."
-    language: "Java"
-    topics:
-      - "chatmemory"
-      - "rag"
-      - "spring-boot"
-      - "springai"
-    stars_fact: 68
-    first_seen: null
-    last_push: "2026-01-03"
+repos: []
 ---
 
 # tzolov

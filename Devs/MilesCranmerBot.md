@@ -8,11 +8,11 @@ provenance_repos:
   - "can1357/oh-my-pi"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+repos_populated: false
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [1, 3, 8, 17, 5, 2, 0, 1, 2, 8, 7, 3, 11]
+pushes_per_week: [1, 3, 11, 14, 7, 0, 0, 1, 7, 6, 4, 3, 11]
 windows:
   "7d":
     pushes: 11
@@ -76,55 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 29 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "infosys"
-    title: "infosys"
-    description: "Self-contained Colab notebooks for the Infosys Digital Immersion LLM sessions"
-    language: "Jupyter Notebook"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-14"
-  - name: "FakeJuliaReleasePkg"
-    title: "FakeJuliaReleasePkg"
-    description: "Test repo for Julia release-please end-to-end validation"
-    language: "Julia"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-03-22"
-  - name: "GeneralTestRegistry"
-    title: "GeneralTestRegistry"
-    description: "Test repo for Julia release-please end-to-end validation"
-    language: "Julia"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-11"
-  - name: "SR_alt"
-    title: "SR_alt"
-    description: null
-    language: "Julia"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-06-12"
-  - name: "pysr-sr-monorepo"
-    title: "pysr-sr-monorepo"
-    description: null
-    language: "Julia"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-02-23"
-  - name: "dqdeq-units-bundle"
-    title: "dqdeq-units-bundle"
-    description: null
-    language: "Julia"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-03-02"
+repos: []
 ---
 
 # MilesCranmerBot

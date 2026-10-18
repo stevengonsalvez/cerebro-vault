@@ -9,13 +9,13 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "97c4e9cb8b163ddb"
   - "c7515e0fa4368a55"
   - "d3abe74726b22711"
   - "e7c647c4d0689526"
-pushes_per_week: [1, 0, 2, 2, 0, 0, 0, 0, 2, 2, 6, 1, 0]
+pushes_per_week: [1, 0, 2, 2, 0, 0, 0, 2, 0, 3, 6, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -85,17 +85,17 @@ repos:
     description: "AI desktop toolkit for novel translation, glossary management, and batch text replacement."
     language: "Python"
     topics: []
-    stars_fact: 73
+    stars_fact: 75
     first_seen: null
-    last_push: "2026-10-09"
-  - name: "ContentForge"
-    title: "ContentForge"
+    last_push: "2026-10-13"
+  - name: "InkTether"
+    title: "InkTether"
     description: null
-    language: "Python"
+    language: "Swift"
     topics: []
-    stars_fact: 14
+    stars_fact: 0
     first_seen: null
-    last_push: "2026-09-28"
+    last_push: "2026-10-12"
   - name: "oodadoudou"
     title: "oodadoudou"
     description: null

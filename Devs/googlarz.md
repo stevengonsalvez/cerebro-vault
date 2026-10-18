@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "dae9f02535f7c22f"
-pushes_per_week: [1, 0, 2, 6, 0, 0, 0, 1, 2, 5, 6, 12, 5]
+pushes_per_week: [1, 0, 2, 6, 0, 0, 0, 1, 3, 4, 6, 12, 5]
 windows:
   "7d":
     pushes: 5
@@ -102,41 +102,9 @@ repos:
       - "smtp"
       - "sqlite"
       - "typescript"
-    stars_fact: 69
+    stars_fact: 75
     first_seen: null
-    last_push: "2026-10-09"
-  - name: "homebrew-tap"
-    title: "homebrew-tap"
-    description: null
-    language: "Ruby"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-09"
-  - name: "math-skill"
-    title: "math-skill"
-    description: "A Claude skill for rigorously solving math problems — equations, proofs, optimization, geometry, and more, with step-by-step reasoning and verification."
-    language: "Python"
-    topics:
-      - "anthropic"
-      - "claude-code"
-      - "claude-code-skill"
-      - "education"
-      - "math"
-      - "mathematics"
-      - "skill"
-      - "sympy"
-    stars_fact: 10
-    first_seen: null
-    last_push: "2026-03-22"
-  - name: "googlarz"
-    title: "googlarz"
-    description: "GitHub profile README"
-    language: "Python"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-09"
+    last_push: "2026-10-18"
   - name: "vinted-mcp-cli"
     title: "vinted-mcp-cli"
     description: "Browse, search, and manage Vinted listings from Claude or the terminal — buy, sell, track items, and automate your secondhand workflow"
@@ -150,25 +118,58 @@ repos:
       - "model-context-protocol"
       - "secondhand"
       - "vinted"
-    stars_fact: 12
+    stars_fact: 15
     first_seen: null
     last_push: "2026-10-07"
-  - name: "suunto-mcp"
-    title: "suunto-mcp"
-    description: "MCP server that connects your Suunto watch data to Claude and other AI assistants"
-    language: "TypeScript"
+  - name: "health-skill"
+    title: "health-skill"
+    description: "A health workspace and longevity companion for Claude — connects your labs, training, sleep, and family history so every conversation builds on the last."
+    language: "Python"
     topics:
-      - "fitness"
+      - "anthropic"
+      - "care-navigation"
+      - "claude"
+      - "claude-code"
+      - "claude-code-skill"
+      - "family-health"
       - "health"
-      - "hrv"
-      - "mcp"
-      - "model-context-protocol"
-      - "running"
-      - "sleep-tracking"
-      - "suunto"
-    stars_fact: 32
+      - "local-first"
+      - "longevity"
+      - "productivity"
+      - "wearables"
+    stars_fact: 14
     first_seen: null
-    last_push: "2026-10-08"
+    last_push: "2026-09-25"
+  - name: "googlarz"
+    title: "googlarz"
+    description: "GitHub profile README"
+    language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-17"
+  - name: "fashion-skill"
+    title: "fashion-skill"
+    description: "Personal AI stylist skill for Claude Code and Claude Cowork — wardrobe inventory, outfit recommendations, pre-purchase checks, in-store mode, and more."
+    language: null
+    topics:
+      - "anthropic"
+      - "claude-code"
+      - "claude-code-skill"
+      - "fashion"
+      - "style"
+      - "wardrobe"
+    stars_fact: 17
+    first_seen: null
+    last_push: "2026-05-18"
+  - name: "homebrew-tap"
+    title: "homebrew-tap"
+    description: null
+    language: "Ruby"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-16"
 ---
 
 # googlarz

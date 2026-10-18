@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-16T08:30:18.142355+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "6d3bd03b49986330"
-pushes_per_week: [4, 0, 1, 6, 2, 0, 1, 0, 1, 0, 0, 2, 1]
+pushes_per_week: [4, 0, 1, 8, 0, 0, 1, 1, 0, 0, 2, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -84,7 +84,7 @@ repos:
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-09-13"
+    last_push: "2026-10-13"
   - name: "rag-system"
     title: "rag-system"
     description: "A self-evaluating RAG engine: detects contradicting/stale sources, verifies its own citations, learns from failed searches, and asks for clarification instead of guessing. Hybrid + hierarchical + graph-boosted retrieval, 5-state confidence model, real eval benchmark."
@@ -126,7 +126,7 @@ repos:
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-10-10"
+    last_push: "2026-10-18"
   - name: "claude-token-operator-kit"
     title: "claude-token-operator-kit"
     description: "Run Claude Code professionally on $20/month. CLAUDE.md accuracy rules, skills, memory system, and 50-75% token savings via fff + jMunch."

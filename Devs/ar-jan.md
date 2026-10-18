@@ -9,13 +9,13 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "97c4e9cb8b163ddb"
   - "c7515e0fa4368a55"
   - "d3abe74726b22711"
   - "e7c647c4d0689526"
-pushes_per_week: [2, 0, 0, 0, 0, 1, 0, 0, 2, 4, 0, 0, 1]
+pushes_per_week: [2, 0, 0, 0, 0, 1, 0, 0, 4, 2, 0, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -25,9 +25,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 7
+    pushes: 6
     distinct_repos: 3
-    active_days: 6
+    active_days: 5
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -60,10 +60,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 7
+    pushes: 6
     distinct_repos: 3
-    pushes_per_repo: 2.3333
-    active_days: 6
+    pushes_per_repo: 2.0000
+    active_days: 5
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -80,6 +80,14 @@ reasons:
   - "activity: 8 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "cache22"
+    title: "cache22"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-12"
   - name: "llm-venice"
     title: "llm-venice"
     description: "LLM plugin for Venice AI"
@@ -94,14 +102,6 @@ repos:
     stars_fact: 29
     first_seen: null
     last_push: "2026-08-24"
-  - name: "cache22"
-    title: "cache22"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-25"
   - name: "podman-healthcheckd"
     title: "podman-healthcheckd"
     description: "Supervised shell runner for Podman healthchecks on non-systemd systems"

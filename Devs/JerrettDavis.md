@@ -9,22 +9,22 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "73468cde177ddae6"
-pushes_per_week: [38, 9, 33, 70, 4, 6, 3, 4, 17, 38, 83, 58, 24]
+pushes_per_week: [38, 9, 33, 70, 4, 6, 3, 5, 16, 40, 83, 56, 24]
 windows:
   "7d":
-    pushes: 27
-    distinct_repos: 7
-    active_days: 4
+    pushes: 24
+    distinct_repos: 6
+    active_days: 3
     repos_not_owned: 5
     not_owned_basenames: 1
     not_owned_owners: 5
   "30d":
-    pushes: 206
+    pushes: 205
     distinct_repos: 69
-    active_days: 23
+    active_days: 22
     repos_not_owned: 48
     not_owned_basenames: 2
     not_owned_owners: 48
@@ -49,18 +49,18 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 27
-    distinct_repos: 7
-    pushes_per_repo: 3.8571
-    active_days: 4
+    pushes: 24
+    distinct_repos: 6
+    pushes_per_repo: 4.0000
+    active_days: 3
     repos_not_owned: 5
     not_owned_basenames: 1
     not_owned_owners: 5
   "30d":
-    pushes: 206
+    pushes: 205
     distinct_repos: 69
-    pushes_per_repo: 2.9855
-    active_days: 23
+    pushes_per_repo: 2.9710
+    active_days: 22
     repos_not_owned: 48
     not_owned_basenames: 2
     not_owned_owners: 48
@@ -77,6 +77,32 @@ reasons:
   - "activity: 56 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "StableDiffusionStudio"
+    title: "StableDiffusionStudio"
+    description: "Local-first .NET 10 Blazor app for AI image generation. Supports SD 1.5, SDXL, and Flux with model management, img2img, inpainting, and NSFW safety."
+    language: "C#"
+    topics:
+      - "aspire"
+      - "blazor"
+      - "csharp"
+      - "dotnet"
+      - "flux"
+      - "image-generation"
+      - "local-ai"
+      - "mudblazor"
+      - "sdxl"
+      - "stable-diffusion"
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-10-18"
+  - name: "Voron24-Klipper"
+    title: "Voron24-Klipper"
+    description: "The klipper configuration for my Voron 2.4r2 with Klicky, Purge Bucket, and ERCF"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-15"
   - name: "3dprint4me"
     title: "3dprint4me"
     description: "Custom fabrication storefront and private project intake for 3dprint4.me"
@@ -87,81 +113,45 @@ repos:
       - "3d-printing"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-10"
-  - name: "JD.Efcpt.Build"
-    title: "JD.Efcpt.Build"
-    description: "MSBuild/SDK NuGet package that automates database-first EF Core model generation from DACPAC, SQL projects, or live databases. .NET 8+"
-    language: "C#"
-    topics:
-      - "automation"
-      - "ci-cd"
-      - "code-generation"
-      - "csharp"
-      - "dacpac"
-      - "database-first"
-      - "dotnet"
-      - "ef-core"
-      - "ef-core-power-tools"
-      - "entity-framework-core"
-      - "msbuild"
-      - "msbuild-task"
-      - "nuget"
-      - "reverse-engineering"
-      - "sqlproj"
-    stars_fact: 15
-    first_seen: null
-    last_push: "2026-10-10"
-  - name: "BetBlocker"
-    title: "BetBlocker"
-    description: "Cross-platform gambling blocking that actually works."
-    language: "Rust"
-    topics:
-      - "ad-blocker"
-      - "blocking"
-      - "browser-extension"
-      - "privacy"
-      - "rust"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-09"
-  - name: "WrapGod"
-    title: "WrapGod"
-    description: "Version-aware .NET wrapper and source-generation platform for third-party APIs."
-    language: "C#"
-    topics:
-      - "api-wrapper"
-      - "code-generation"
-      - "csharp"
-      - "dotnet"
-      - "facade"
-      - "nuget"
-      - "source-generators"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-09"
-  - name: "Slncs"
-    title: "Slncs"
-    description: "MSBuild SDK wrapper that generates .slnx from fluent .slncs.cs and forwards build."
-    language: "C#"
-    topics:
-      - "csharp"
-      - "csharp-library"
-      - "dotnet"
-      - "dotnet-core"
-      - "msbuild"
-      - "slncs"
-      - "slnx"
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-10-09"
-  - name: "FlowLedger"
-    title: "FlowLedger"
-    description: "FlowLedger — financial ledger & forecasting platform (.NET 10, Blazor/MudBlazor, EF Core/Postgres, Aspire). Pluggable bank-data providers (MX + simulated)."
+    last_push: "2026-10-15"
+  - name: "DotnetSdkManager"
+    title: "DotnetSdkManager"
+    description: "A user-scoped, secure .NET SDK version manager (install, update, and switch multiple .NET SDKs; PoC)"
     language: "C#"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-09"
+    last_push: "2026-10-14"
+  - name: "QuickApiMapper"
+    title: "QuickApiMapper"
+    description: "Configurable ASP.NET Core gateway for mapping JSON and XML payloads between upstream and downstream APIs."
+    language: "C#"
+    topics:
+      - "api-gateway"
+      - "aspnet-core"
+      - "csharp"
+      - "dotnet"
+      - "integration"
+      - "json"
+      - "xml"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-14"
+  - name: "ExperimentFramework"
+    title: "ExperimentFramework"
+    description: ".NET framework for A/B testing, feature flags, trial fallback, and observability."
+    language: "C#"
+    topics:
+      - "ab-testing"
+      - "csharp"
+      - "dotnet"
+      - "experimentation"
+      - "feature-flags"
+      - "nuget"
+      - "observability"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-14"
 ---
 
 # JerrettDavis

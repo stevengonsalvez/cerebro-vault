@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-16T08:30:18.142355+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "d1946b21c02e5fa5"
 pushes_per_week: [0, 0, 0, 0, 0, 1, 0, 1, 0, 2, 1, 4, 1]
@@ -97,17 +97,9 @@ repos:
       - "rate-limits"
       - "typescript"
       - "usage-monitor"
-    stars_fact: 1
+    stars_fact: 2
     first_seen: null
-    last_push: "2026-10-09"
-  - name: "Adonis0123"
-    title: "Adonis0123"
-    description: null
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-09"
+    last_push: "2026-10-18"
   - name: "adonis-skills"
     title: "adonis-skills"
     description: "Agent-agnostic skills for coding agents: review loops, workflow gates, MCP setup, Git delivery and environment audits"
@@ -124,9 +116,38 @@ repos:
       - "machine-learning"
       - "mcp"
       - "skills"
-    stars_fact: 3
+    stars_fact: 4
     first_seen: null
-    last_push: "2026-10-08"
+    last_push: "2026-10-18"
+  - name: "hermes-kit"
+    title: "hermes-kit"
+    description: "Plugins, skills and field notes for running Hermes Agent day to day, plus docs for a patched Hermes fork. Skills also install into Claude Code and Codex."
+    language: "Python"
+    topics:
+      - "agent-skills"
+      - "claude-code"
+      - "codex"
+      - "hermes-agent"
+      - "plugins"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-15"
+  - name: "mcd-cooldown"
+    title: "mcd-cooldown"
+    description: "终端里的麦当劳 MCP 安全网关：AI 额度冷却、饭点提醒，只核价，确认后才下单 · M-CODE 2026"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-15"
+  - name: "Adonis0123"
+    title: "Adonis0123"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-17"
   - name: "gemini-chrome-autoinstall"
     title: "gemini-chrome-autoinstall"
     description: "Self-healing wrapper that keeps Gemini-in-Chrome working after Chrome updates: watches for version changes and repairs Local State only when it is safe to write. macOS & Windows."
@@ -143,27 +164,6 @@ repos:
     stars_fact: 7
     first_seen: null
     last_push: "2026-10-04"
-  - name: "hermes-kit"
-    title: "hermes-kit"
-    description: "Plugins, skills and field notes for running Hermes Agent day to day, plus docs for a patched Hermes fork. Skills also install into Claude Code and Codex."
-    language: "Python"
-    topics:
-      - "agent-skills"
-      - "claude-code"
-      - "codex"
-      - "hermes-agent"
-      - "plugins"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-02"
-  - name: "til-garden"
-    title: "til-garden"
-    description: "Today I Learned notes on AI agents, frontend and developer tools"
-    language: "MDX"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-07-14"
 ---
 
 # Adonis0123

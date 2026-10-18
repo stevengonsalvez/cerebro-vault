@@ -10,11 +10,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "4138778ebbc75ba6"
   - "c489e6fb5febf2ab"
-pushes_per_week: [10, 11, 3, 7, 42, 2, 2, 1, 42, 10, 6, 2, 0]
+pushes_per_week: [10, 10, 3, 12, 37, 4, 1, 36, 9, 7, 8, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -24,23 +24,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 22
+    pushes: 21
     distinct_repos: 13
-    active_days: 9
+    active_days: 8
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 138
+    pushes: 137
     distinct_repos: 21
-    active_days: 35
+    active_days: 34
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 3.9429
-  repo_per_active_day: 0.6000
+  push_per_day: 4.0294
+  repo_per_active_day: 0.6176
   not_owned_ratio: 0.0000
   basename_concentration: 0.0476
   shapes: []
@@ -59,50 +59,89 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 22
+    pushes: 21
     distinct_repos: 13
-    pushes_per_repo: 1.6923
-    active_days: 9
+    pushes_per_repo: 1.6154
+    active_days: 8
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 138
+    pushes: 137
     distinct_repos: 21
-    pushes_per_repo: 6.5714
-    active_days: 35
+    pushes_per_repo: 6.5238
+    active_days: 34
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 35 active days in 90d — pass"
+  - "activity: 34 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "kevin9327"
     title: "kevin9327"
     description: "Profile README: Blender-rendered hero loop, self-hosted stats card, animated 3D contribution graph, snake and Pac-Man"
     language: "Python"
-    topics: []
-    stars_fact: 1
+    topics:
+      - "blender"
+      - "github-profile"
+      - "profile-readme"
+      - "remotion"
+    stars_fact: 2
     first_seen: null
-    last_push: "2026-10-10"
+    last_push: "2026-10-18"
   - name: "github-trending-daily"
     title: "github-trending-daily"
     description: "A daily auto-refreshed digest of GitHub Trending, curated for learning"
     language: "JavaScript"
-    topics: []
+    topics:
+      - "daily-digest"
+      - "github-actions"
+      - "github-trending"
+      - "open-source"
     stars_fact: 2
     first_seen: null
-    last_push: "2026-10-10"
+    last_push: "2026-10-18"
+  - name: "OpenSourceHiggsfield"
+    title: "OpenSourceHiggsfield"
+    description: "OpenSourceHiggsfield (#OpenSourceHiggsfield) — 100% Open-Weights 3-in-1 AI Cinema & Video Direction Platform (Cinematic Studio, 3D Video Re-Shoot with CVGEO1 & Sim(3) Verification, OpenJutsu) built on ComfyUI, comfy-sdk v0.5.0, comfy-api-proxy v0.1.6, LTX-2.5 22B & FLUX.3"
+    language: "Python"
+    topics:
+      - "3d-camera-control"
+      - "ai-cinema"
+      - "comfy-sdk"
+      - "comfyui"
+      - "flux"
+      - "ltx-video"
+      - "opensourcehiggsfield"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-17"
   - name: "kevin9327.github.io"
     title: "kevin9327.github.io"
     description: "A year of commits as a live WebGL city: real contribution data, three.js, refreshed daily"
     language: "JavaScript"
-    topics: []
+    topics:
+      - "data-visualization"
+      - "github-contributions"
+      - "threejs"
+      - "webgl"
     stars_fact: 1
     first_seen: null
-    last_push: "2026-10-09"
+    last_push: "2026-10-17"
+  - name: "balju-radar"
+    title: "balju-radar"
+    description: "Weekly lead report on public tenders for AI training and software builds"
+    language: "HTML"
+    topics:
+      - "korea"
+      - "lead-generation"
+      - "public-procurement"
+      - "tenders"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-12"
   - name: "patent-intel"
     title: "patent-intel"
     description: "Ask patent questions in plain language, get measured answers — Claude Code skill + zero-key CLI for patent landscapes, leaderboards, and trends"
@@ -118,36 +157,11 @@ repos:
       - "prior-art"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-05"
-  - name: "balju-radar"
-    title: "balju-radar"
-    description: "Weekly lead report on public tenders for AI training and software builds"
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-05"
-  - name: "pawpaw-arena"
-    title: "pawpaw-arena"
-    description: "Cats, dogs and pigs brawl in a tiny real-time .io arena. Browser + Android, bots keep every room full, one RevenueCat IAP. RevenueCat Shipaton 2026 entry."
-    language: "JavaScript"
-    topics:
-      - "android"
-      - "canvas"
-      - "game"
-      - "io-game"
-      - "multiplayer"
-      - "realtime"
-      - "revenuecat"
-      - "websocket"
-      - "webview"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-05"
+    last_push: "2026-10-12"
 ---
 
 # kevin9327
 
-138 pushes across 21 repositories on 35 active days in the last 90 days of public GitHub push activity.
+137 pushes across 21 repositories on 34 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/kevin9327

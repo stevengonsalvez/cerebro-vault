@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-16T08:30:18.142355+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "90688bf127241ceb"
-pushes_per_week: [0, 2, 0, 0, 1, 1, 1, 0, 0, 1, 1, 1, 4]
+pushes_per_week: [0, 2, 0, 0, 1, 1, 1, 0, 0, 2, 0, 1, 4]
 windows:
   "7d":
     pushes: 4
@@ -79,7 +79,7 @@ reasons:
 repos:
   - name: "dsh-github-flow"
     title: "dsh-github-flow"
-    description: "基于 GitHub CLI (gh) 为 DeepSeek Harness (DSH) 打造的现代化原生工作流集成插件。 深度打通本地 Git 仓库开发与远程 GitHub 协作（PR、Issue、Actions CI 诊断与代码审查），兼备 Agent 模型工具、人类 Slash 指令以及原生 Web UI 双重视图。"
+    description: "让 DeepSeek Harness Agent 拥有操作 GitHub 的原生手脚！零 Token 泄露复用宿主机 gh 凭据，内置 18 大领域工具矩阵（104 Action，覆盖率 87%）：支持 PR 自动审查合并、CI 报错秒级修复、Copilot 智能体调度、Discussions 社区讨论、Projects v2 看板及 SWR 0ms 秒开全景工作台。"
     language: "JavaScript"
     topics:
       - "agent-tools"
@@ -92,9 +92,9 @@ repos:
       - "github-cli"
       - "github-flow"
       - "workflow-automation"
-    stars_fact: 1
+    stars_fact: 7
     first_seen: null
-    last_push: "2026-10-09"
+    last_push: "2026-10-18"
   - name: "windows-scripting-standards-skill"
     title: "windows-scripting-standards-skill"
     description: "专为现代 AI Agent（如 Claude Code, OpenAI Codex, Cursor, Windsurf, Trae, Antigravity 等）打造的 Windows Shell 命令行执行与脚本工程化通用标准规范。"
@@ -111,32 +111,6 @@ repos:
     stars_fact: 1
     first_seen: null
     last_push: "2026-09-20"
-  - name: "java-springboot-standards-skill"
-    title: "java-springboot-standards-skill"
-    description: "一套面向 Java Spring Boot 的跨平台通用 Agent 开发规范 Skill，遵循开放的 Agent Skills 标准（SKILL.md），可被 Claude Code、Codex、Cursor、Cline 等主流 Agent 直接加载使用。"
-    language: null
-    topics:
-      - "agent-skill"
-      - "agent-skills"
-      - "claude-code-skill"
-      - "claude-skills"
-      - "codex-skill"
-      - "codex-skills"
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-09-27"
-  - name: "frontend-universal-standards-skill"
-    title: "frontend-universal-standards-skill"
-    description: "遵循 Agent Skills 开放标准（SKILL.md）构建的企业级通用前端全栈工程规范与代码审查 Skill，旨在指导 AI Agent 在编码、脚手架搭建与 Code Review 时提供高度工业化、可执行且无过度设计的前端交付方案。"
-    language: null
-    topics:
-      - "agent-skill"
-      - "agent-skills"
-      - "codex-skill"
-      - "codex-skills"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-22"
   - name: "cogninote-agent-design"
     title: "cogninote-agent-design"
     description: "把本地文档沉淀为可检索、可追问、可溯源的个人知识库。"
@@ -153,6 +127,22 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-07-06"
+  - name: "climb-the-class"
+    title: "climb-the-class"
+    description: "一个用于下载和转换加密 M3U8 流媒体视频为 MP4 格式的工具，特别针对小鹅通平台的加密视频流。"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2025-11-14"
+  - name: "online-notes"
+    title: "online-notes"
+    description: "一个基于纯静态技术的轻量级笔记博客系统，支持Markdown，PDF，Word，专为GitHub Pages设计。"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 9
+    first_seen: null
+    last_push: "2025-12-28"
 ---
 
 # ItQianChen

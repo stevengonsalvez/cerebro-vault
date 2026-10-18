@@ -13,7 +13,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "1df6ea1f1256059e"
   - "46f3c1d6124190bd"
@@ -21,7 +21,7 @@ provenance:
   - "635453fe3b6ecc12"
   - "73468cde177ddae6"
   - "edb3a626875732de"
-pushes_per_week: [90, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [87, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -38,18 +38,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 92
-    distinct_repos: 9
-    active_days: 7
+    pushes: 88
+    distinct_repos: 8
+    active_days: 6
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 13.1429
-  repo_per_active_day: 1.2857
-  not_owned_ratio: 0.1111
-  basename_concentration: 0.2222
+  push_per_day: 14.6667
+  repo_per_active_day: 1.3333
+  not_owned_ratio: 0.1250
+  basename_concentration: 0.2500
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -74,16 +74,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 92
-    distinct_repos: 9
-    pushes_per_repo: 10.2222
-    active_days: 7
+    pushes: 88
+    distinct_repos: 8
+    pushes_per_repo: 11.0000
+    active_days: 6
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 6 vault signal(s) — pass"
-  - "activity: 7 active days in 90d — pass"
+  - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "ai-plugin-rankings"
@@ -93,7 +93,7 @@ repos:
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-10-09"
+    last_push: "2026-10-17"
   - name: "first-oss-contribution"
     title: "first-oss-contribution"
     description: "Make your first open source contribution — a practice repo for students and beginners."
@@ -106,6 +106,6 @@ repos:
 
 # thejesh23
 
-92 pushes across 9 repositories on 7 active days in the last 90 days of public GitHub push activity.
+88 pushes across 8 repositories on 6 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/thejesh23

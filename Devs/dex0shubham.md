@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "73468cde177ddae6"
-pushes_per_week: [0, 0, 0, 3, 0, 1, 0, 1, 0, 0, 1, 3, 1]
+pushes_per_week: [0, 0, 0, 3, 0, 1, 0, 1, 0, 0, 1, 4, 0]
 windows:
   "7d":
-    pushes: 3
+    pushes: 1
     distinct_repos: 1
-    active_days: 2
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 3
+    pushes: 1
     distinct_repos: 1
-    pushes_per_repo: 3.0000
-    active_days: 2
+    pushes_per_repo: 1.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -79,12 +79,22 @@ reasons:
 repos:
   - name: "pith"
     title: "pith"
-    description: "Self-hosted proxy for the Claude and OpenAI APIs that cuts output-token spend: it learns the shortest answer each route can give without losing information, pins it, and proves it with judged replays."
+    description: "Cut LLM output-token spend without losing information. Judged replays decide; it refuses when the saving drops content."
     language: "Python"
-    topics: []
-    stars_fact: 0
+    topics:
+      - "anthropic"
+      - "cost-optimization"
+      - "litellm"
+      - "llm"
+      - "llmops"
+      - "openai"
+      - "portkey"
+      - "proxy"
+      - "python"
+      - "token-optimization"
+    stars_fact: 1
     first_seen: null
-    last_push: "2026-10-09"
+    last_push: "2026-10-14"
   - name: "intern-decision-mlx"
     title: "intern-decision-mlx"
     description: "Screenshot + questions in, calibrated typed decisions out. Intern-Decision on Apple silicon: 0.9 s per 1080p screenshot on an 8 GB M2 MacBook Air, offline."

@@ -10,16 +10,16 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "16389f32495280ea"
   - "4d1450729e6ff44d"
-pushes_per_week: [0, 13, 4, 8, 2, 3, 0, 2, 4, 3, 1, 0, 5]
+pushes_per_week: [0, 16, 2, 7, 2, 3, 0, 2, 4, 3, 1, 1, 4]
 windows:
   "7d":
-    pushes: 5
-    distinct_repos: 2
-    active_days: 4
+    pushes: 4
+    distinct_repos: 1
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -51,10 +51,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 5
-    distinct_repos: 2
-    pushes_per_repo: 2.5000
-    active_days: 4
+    pushes: 4
+    distinct_repos: 1
+    pushes_per_repo: 4.0000
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -79,22 +79,29 @@ reasons:
   - "activity: 25 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "hermes-jot"
-    title: "hermes-jot"
-    description: "Notes, checklists and documents for Hermes Desktop, with optional agent collaboration."
-    language: "TypeScript"
-    topics:
-      - "ai-collaboration"
-      - "desktop"
-      - "hermes-agent"
-      - "hermes-plugin"
-      - "note-taking"
-      - "notes"
-      - "rich-text-editor"
-      - "todo"
-    stars_fact: 2
+  - name: "dsh-plugin-index"
+    title: "dsh-plugin-index"
+    description: "Author-maintained DeepSeek Harness plugin index for Jot and Bridge."
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
     first_seen: null
-    last_push: "2026-10-07"
+    last_push: "2026-10-18"
+  - name: "dsh-plugin-bridge"
+    title: "dsh-plugin-bridge"
+    description: "DeepSeek Harness plugin for previewable cross-preset session migration. Fixed-schema handoffs preserve state, source-model intent, and unresolved images; the original session stays untouched."
+    language: "JavaScript"
+    topics:
+      - "context-migration"
+      - "cordis"
+      - "deepseek-harness"
+      - "dsh"
+      - "dsh-plugin"
+      - "preset-migration"
+      - "session-migration"
+    stars_fact: 163
+    first_seen: null
+    last_push: "2026-10-18"
   - name: "dsh-jot"
     title: "dsh-jot"
     description: "Human-editable notes, todos and documents for DeepSeek Harness, with search, tables, attachments, export and optional agent collaboration."
@@ -116,7 +123,23 @@ repos:
       - "typescript"
     stars_fact: 1
     first_seen: null
-    last_push: "2026-10-07"
+    last_push: "2026-10-17"
+  - name: "hermes-jot"
+    title: "hermes-jot"
+    description: "Notes, checklists and documents for Hermes Desktop, with optional agent collaboration."
+    language: "TypeScript"
+    topics:
+      - "ai-collaboration"
+      - "desktop"
+      - "hermes-agent"
+      - "hermes-plugin"
+      - "note-taking"
+      - "notes"
+      - "rich-text-editor"
+      - "todo"
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-10-15"
   - name: "Totoro-qaq"
     title: "Totoro-qaq"
     description: "GitHub profile README"
@@ -124,7 +147,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-09"
+    last_push: "2026-10-17"
   - name: "Cobsidian"
     title: "Cobsidian"
     description: "Agent-agnostic workflow skill for maintaining Obsidian knowledge bases"
@@ -140,40 +163,6 @@ repos:
     stars_fact: 13
     first_seen: null
     last_push: "2026-08-17"
-  - name: "dsh-plugin-bridge"
-    title: "dsh-plugin-bridge"
-    description: "DeepSeek Harness plugin for previewable cross-preset session migration. Fixed-schema handoffs preserve state, source-model intent, and unresolved images; the original session stays untouched."
-    language: "JavaScript"
-    topics:
-      - "context-migration"
-      - "cordis"
-      - "deepseek-harness"
-      - "dsh"
-      - "dsh-plugin"
-      - "preset-migration"
-      - "session-migration"
-    stars_fact: 165
-    first_seen: null
-    last_push: "2026-10-06"
-  - name: "restork"
-    title: "restork"
-    description: "A desktop agent you can trust with files: preview every write, sandbox MCP tools, and keep Markdown local."
-    language: "Rust"
-    topics:
-      - "ai-agent"
-      - "ai-assistant"
-      - "desktop-app"
-      - "knowledge-management"
-      - "local-first"
-      - "mcp"
-      - "obsidian"
-      - "productivity"
-      - "research"
-      - "rust"
-      - "tauri"
-    stars_fact: 4
-    first_seen: null
-    last_push: "2026-09-01"
 ---
 
 # Totoro-qaq

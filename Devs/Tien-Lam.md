@@ -8,16 +8,16 @@ provenance_repos:
   - "asgeirtj/system_prompts_leaks"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+repos_populated: false
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "716cf9e2237ac9db"
-pushes_per_week: [0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 2, 11, 2]
+pushes_per_week: [0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 8, 5, 2]
 windows:
   "7d":
-    pushes: 3
+    pushes: 2
     distinct_repos: 1
-    active_days: 3
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 3
+    pushes: 2
     distinct_repos: 1
-    pushes_per_repo: 3.0000
-    active_days: 3
+    pushes_per_repo: 2.0000
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -76,68 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 8 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "time-to-local"
-    title: "time-to-local"
-    description: "Private timezone converter that works offline. Paste a message, convert times to your timezone, and keep your text on your device."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-16"
-  - name: "LaunchDeck"
-    title: "LaunchDeck"
-    description: "Xbox Game Bar widget that launches apps, URLs, and Store apps from a configurable tile grid overlay"
-    language: "C#"
-    topics:
-      - "app-launcher"
-      - "game-bar-widget"
-      - "microsoft-store"
-      - "uwp"
-      - "windows"
-      - "xbox-game-bar"
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-10-08"
-  - name: "context-switch-game"
-    title: "context-switch-game"
-    description: "A terminal-first game about managing fictional coding agents"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-08"
-  - name: "lenso"
-    title: "lenso"
-    description: "Local-first macOS OCR translator"
-    language: "Swift"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-06-16"
-  - name: "agent-history"
-    title: "agent-history"
-    description: "Cross-platform TUI for viewing and searching AI agent conversation history (Claude Code, Copilot CLI, Gemini CLI, Codex CLI, OpenCode)"
-    language: "Rust"
-    topics:
-      - "ai"
-      - "claude-code"
-      - "cli"
-      - "ratatui"
-      - "rust"
-      - "terminal"
-      - "tui"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-05-29"
-  - name: "Room-Booking"
-    title: "Room-Booking"
-    description: "A redesign of the UTS room booking system on iOS"
-    language: "Swift"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2023-01-11"
+repos: []
 ---
 
 # Tien-Lam

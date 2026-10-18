@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "745308b2b7085095"
-pushes_per_week: [7, 22, 1, 3, 2, 6, 0, 5, 7, 6, 13, 5, 15]
+pushes_per_week: [8, 20, 1, 3, 5, 3, 1, 8, 3, 7, 12, 8, 12]
 windows:
   "7d":
-    pushes: 18
-    distinct_repos: 7
-    active_days: 5
+    pushes: 15
+    distinct_repos: 4
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 92
+    pushes: 91
     distinct_repos: 27
-    active_days: 43
+    active_days: 42
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.1395
-  repo_per_active_day: 0.6279
+  push_per_day: 2.1667
+  repo_per_active_day: 0.6429
   not_owned_ratio: 0.0000
   basename_concentration: 0.0370
   shapes: []
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 18
-    distinct_repos: 7
-    pushes_per_repo: 2.5714
-    active_days: 5
+    pushes: 15
+    distinct_repos: 4
+    pushes_per_repo: 3.7500
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 92
+    pushes: 91
     distinct_repos: 27
-    pushes_per_repo: 3.4074
-    active_days: 43
+    pushes_per_repo: 3.3704
+    active_days: 42
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 43 active days in 90d — pass"
+  - "activity: 42 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "opencc-cli"
@@ -137,6 +137,6 @@ repos:
 
 # doggy8088
 
-92 pushes across 27 repositories on 43 active days in the last 90 days of public GitHub push activity.
+91 pushes across 27 repositories on 42 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/doggy8088

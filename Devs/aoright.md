@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "dae9f02535f7c22f"
 pushes_per_week: [0, 1, 0, 5, 0, 0, 0, 0, 6, 20, 3, 0, 0]
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 29
+    pushes: 28
     distinct_repos: 7
-    active_days: 9
+    active_days: 8
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 29
+    pushes: 28
     distinct_repos: 7
-    pushes_per_repo: 4.1429
-    active_days: 9
+    pushes_per_repo: 4.0000
+    active_days: 8
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -77,6 +77,21 @@ reasons:
   - "activity: 15 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "agent0mem"
+    title: "agent0mem"
+    description: "High-precision agent memory system solving context pollution, lost-in-the-middle degradation, and temporal conflicts for AML benchmarks"
+    language: "Python"
+    topics:
+      - "agent-memory"
+      - "benchmark"
+      - "context-pollution"
+      - "llm-agents"
+      - "memory-systems"
+      - "python"
+      - "rag"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-15"
   - name: "AgentMesh"
     title: "AgentMesh"
     description: "Enterprise production-grade resilient agent mesh and deterministic runtime framework for durable multi-agent execution"
@@ -154,20 +169,6 @@ repos:
       - "javascript"
       - "sorting-algorithms"
     stars_fact: 2
-    first_seen: null
-    last_push: "2026-10-01"
-  - name: "Co-Echo"
-    title: "Co-Echo"
-    description: "Real-time collaborative spatial audio sandbox and sound synthesis system built on Web Audio API"
-    language: "JavaScript"
-    topics:
-      - "audio-synthesis"
-      - "collaborative"
-      - "interactive"
-      - "javascript"
-      - "spatial-audio"
-      - "web-audio-api"
-    stars_fact: 0
     first_seen: null
     last_push: "2026-10-01"
 ---

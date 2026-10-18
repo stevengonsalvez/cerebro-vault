@@ -10,12 +10,12 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "16389f32495280ea"
   - "50b9cd6dfa9f75d1"
   - "939f60d749009d51"
-pushes_per_week: [6, 13, 9, 10, 1, 0, 0, 1, 1, 1, 2, 2, 1]
+pushes_per_week: [6, 16, 7, 10, 0, 0, 0, 1, 1, 1, 4, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -80,6 +80,22 @@ reasons:
   - "activity: 22 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "RepoGuardBench"
+    title: "RepoGuardBench"
+    description: "Benchmarking repository-borne prompt injection attacks and lightweight defenses for local coding agents. DL4C @ ICML 2026."
+    language: "Python"
+    topics:
+      - "ai-security"
+      - "benchmark"
+      - "coding-agents"
+      - "llm-security"
+      - "local-llm"
+      - "prompt-injection"
+      - "reproducible-research"
+      - "software-engineering"
+    stars_fact: 73
+    first_seen: null
+    last_push: "2026-10-03"
   - name: "mini-verl"
     title: "mini-verl"
     description: "verl for a single consumer GPU. PPO, GRPO and on-policy distillation on NVIDIA GPUs."
@@ -103,9 +119,28 @@ repos:
       - "single-gpu"
       - "tool-use"
       - "verl"
-    stars_fact: 306
+    stars_fact: 307
     first_seen: null
     last_push: "2026-09-15"
+  - name: "labelbank"
+    title: "labelbank"
+    description: "Retrieve + rerank over a closed label bank: LLM bi-encoders with self-mined hard negatives and a generative listwise reranker. Generalized from a silver-medal solution to Kaggle Eedi — Mining Misconceptions in Mathematics."
+    language: "Python"
+    topics:
+      - "contrastive-learning"
+      - "dense-retrieval"
+      - "education-ai"
+      - "hard-negative-mining"
+      - "information-retrieval"
+      - "kaggle-competition"
+      - "kaggle-solution"
+      - "llm"
+      - "lora"
+      - "reranking"
+      - "silver-medal"
+    stars_fact: 21
+    first_seen: null
+    last_push: "2026-07-11"
   - name: "molgen"
     title: "molgen"
     description: "Lightweight toolkit for de novo molecular generation: SMILES & SELFIES tokenizers, CharRNN / MolGPT / VAE models, training, sampling, and MOSES-style metrics."
@@ -167,45 +202,6 @@ repos:
     stars_fact: 170
     first_seen: null
     last_push: "2026-10-09"
-  - name: "laptop-llm-cn"
-    title: "laptop-llm-cn"
-    description: "前沿 LLM 中文代码教材：KDA、AttnRes、MSA、mHC、Engram、MTP、Muon、Agent RL、多教师蒸馏、FP4 与本地 Serving · 18 章课程 · 无需云资源"
-    language: "Python"
-    topics:
-      - "agent-rl"
-      - "chinese"
-      - "dpo"
-      - "education"
-      - "fastapi"
-      - "grpo"
-      - "kda"
-      - "knowledge-distillation"
-      - "laptop"
-      - "llm"
-      - "llm-training"
-      - "moe"
-      - "pytorch"
-      - "quantization"
-      - "rlhf"
-      - "sparse-attention"
-      - "speculative-decoding"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-04"
-  - name: "delta-mfp-local-agents"
-    title: "delta-mfp-local-agents"
-    description: "Delta-MFP: counterfactual-replay failure diagnosis for local tool-use agents (FAGEN @ ICML 2026)"
-    language: "Python"
-    topics:
-      - "ai-agents"
-      - "counterfactual-replay"
-      - "failure-analysis"
-      - "local-llm"
-      - "reproducible-research"
-      - "tool-use"
-    stars_fact: 51
-    first_seen: null
-    last_push: "2026-10-03"
 ---
 
 # DaoyuanLi2816

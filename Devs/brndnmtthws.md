@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [1, 1, 0, 2, 0, 0, 0, 1, 7, 30, 46, 0, 5]
+pushes_per_week: [1, 1, 0, 2, 0, 0, 0, 1, 7, 73, 3, 0, 5]
 windows:
   "7d":
     pushes: 5
@@ -77,51 +77,6 @@ reasons:
   - "activity: 19 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "cracking-the-coding-interview-rust"
-    title: "cracking-the-coding-interview-rust"
-    description: "Cracking the Coding Interview problem solutions in Rust"
-    language: "Rust"
-    topics:
-      - "cracking-the-coding-interview"
-      - "interview-practice"
-      - "interview-questions"
-      - "learn-to-code"
-      - "rust"
-      - "rust-lang"
-      - "twitch"
-      - "youtube"
-    stars_fact: 439
-    first_seen: null
-    last_push: "2026-02-09"
-  - name: "conky"
-    title: "conky"
-    description: "Light-weight system monitor for X, Wayland, and other things, too"
-    language: "C++"
-    topics:
-      - "c-plus-plus"
-      - "cairo"
-      - "conky"
-      - "imlib2"
-      - "linux"
-      - "lua"
-      - "system-monitoring"
-      - "wayland"
-    stars_fact: 8531
-    first_seen: null
-    last_push: "2026-10-09"
-  - name: "hessboost"
-    title: "hessboost"
-    description: "Fast, deterministic gradient boosting in Rust (with Python bindings)"
-    language: "Rust"
-    topics:
-      - "gradient-boosting"
-      - "machine-learning"
-      - "ml"
-      - "rust"
-      - "xgboost"
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-10-09"
   - name: "thetagang"
     title: "thetagang"
     description: "ThetaGang is an IBKR bot for collecting money"
@@ -135,20 +90,55 @@ repos:
       - "strategy"
       - "thetagang"
       - "trading-bot"
-    stars_fact: 2743
+    stars_fact: 2750
     first_seen: null
-    last_push: "2026-10-02"
-  - name: "genserver"
-    title: "genserver"
-    description: "Elixir inspired async actor library for Rust"
+    last_push: "2026-10-16"
+  - name: "conky"
+    title: "conky"
+    description: "Light-weight system monitor for X, Wayland, and other things, too"
+    language: "C++"
+    topics:
+      - "c-plus-plus"
+      - "cairo"
+      - "conky"
+      - "imlib2"
+      - "linux"
+      - "lua"
+      - "system-monitoring"
+      - "wayland"
+    stars_fact: 8540
+    first_seen: null
+    last_push: "2026-10-17"
+  - name: "omp-council"
+    title: "omp-council"
+    description: "Multi-model council for oh-my-pi: several models debate one problem until they unanimously accept and independently verify one proposal"
+    language: "TypeScript"
+    topics:
+      - "consensus"
+      - "llm"
+      - "multi-agent"
+      - "oh-my-pi"
+      - "omp"
+      - "omp-plugin"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-16"
+  - name: "cracking-the-coding-interview-rust"
+    title: "cracking-the-coding-interview-rust"
+    description: "Cracking the Coding Interview problem solutions in Rust"
     language: "Rust"
     topics:
-      - "actors"
-      - "genserver"
+      - "cracking-the-coding-interview"
+      - "interview-practice"
+      - "interview-questions"
+      - "learn-to-code"
       - "rust"
-    stars_fact: 23
+      - "rust-lang"
+      - "twitch"
+      - "youtube"
+    stars_fact: 441
     first_seen: null
-    last_push: "2025-11-24"
+    last_push: "2026-02-09"
   - name: "dryoc"
     title: "dryoc"
     description: "Don't Roll Your Own Crypto: fast, type-safe, pure-Rust cryptography with post-quantum support"
@@ -165,7 +155,20 @@ repos:
       - "wasm"
     stars_fact: 345
     first_seen: null
-    last_push: "2026-09-28"
+    last_push: "2026-10-14"
+  - name: "hessboost"
+    title: "hessboost"
+    description: "Fast, deterministic gradient boosting in Rust (with Python bindings)"
+    language: "Rust"
+    topics:
+      - "gradient-boosting"
+      - "machine-learning"
+      - "ml"
+      - "rust"
+      - "xgboost"
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-10-14"
 ---
 
 # brndnmtthws

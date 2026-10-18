@@ -9,13 +9,13 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "97c4e9cb8b163ddb"
   - "c7515e0fa4368a55"
   - "d3abe74726b22711"
   - "e7c647c4d0689526"
-pushes_per_week: [2, 1, 2, 2, 2, 2, 0, 1, 5, 3, 12, 2, 2]
+pushes_per_week: [3, 0, 2, 2, 2, 2, 0, 1, 5, 7, 8, 2, 2]
 windows:
   "7d":
     pushes: 2
@@ -92,7 +92,15 @@ repos:
       - "wastewater-surveillance"
     stars_fact: 1
     first_seen: null
-    last_push: "2026-10-09"
+    last_push: "2026-10-16"
+  - name: "pango-designation-dates"
+    title: "pango-designation-dates"
+    description: "Contains dates on which each Pango lineage was designated"
+    language: "Python"
+    topics: []
+    stars_fact: 9
+    first_seen: null
+    last_push: "2026-10-13"
   - name: "llm-reports"
     title: "llm-reports"
     description: null
@@ -101,14 +109,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-10-08"
-  - name: "pango-designation-dates"
-    title: "pango-designation-dates"
-    description: "Contains dates on which each Pango lineage was designated"
-    language: "Python"
-    topics: []
-    stars_fact: 9
-    first_seen: null
-    last_push: "2026-09-07"
   - name: "gh-rerun-failed"
     title: "gh-rerun-failed"
     description: "Conveniently rerun failed actions across multiple commits/branches/PRs"

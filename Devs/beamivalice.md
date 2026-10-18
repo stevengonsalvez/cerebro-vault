@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "3eacb4655aba2497"
-pushes_per_week: [0, 0, 0, 0, 0, 1, 0, 2, 6, 6, 13, 10, 6]
+pushes_per_week: [0, 0, 0, 0, 0, 1, 2, 2, 4, 9, 13, 10, 3]
 windows:
   "7d":
     pushes: 6
@@ -82,9 +82,17 @@ repos:
     description: "Sushi engine runs very high quality quant model in Apple Silicon, using hybrid affine/exl3 with special expert tuning techniques."
     language: "Zig"
     topics: []
-    stars_fact: 190
+    stars_fact: 277
     first_seen: null
-    last_push: "2026-10-09"
+    last_push: "2026-10-18"
+  - name: "homebrew-tap"
+    title: "homebrew-tap"
+    description: "Homebrew tap for sushi"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-15"
   - name: "PonyExl3"
     title: "PonyExl3"
     description: "Convert and Run Exl3 format LLM quant on Apple Silicon."
@@ -93,14 +101,6 @@ repos:
     stars_fact: 58
     first_seen: null
     last_push: "2026-08-24"
-  - name: "homebrew-tap"
-    title: "homebrew-tap"
-    description: "Homebrew tap for sushi"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-07"
   - name: "m5gpu"
     title: "m5gpu"
     description: null

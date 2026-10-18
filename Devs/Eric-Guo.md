@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [27, 35, 15, 30, 5, 6, 2, 14, 26, 33, 33, 23, 5]
+pushes_per_week: [26, 33, 17, 27, 6, 5, 5, 16, 25, 32, 37, 18, 3]
 windows:
   "7d":
-    pushes: 9
-    distinct_repos: 4
-    active_days: 3
+    pushes: 4
+    distinct_repos: 3
+    active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 109
+    pushes: 106
     distinct_repos: 16
-    active_days: 24
+    active_days: 23
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 1
   "90d":
-    pushes: 254
+    pushes: 250
     distinct_repos: 25
-    active_days: 69
+    active_days: 67
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 3.6812
-  repo_per_active_day: 0.3623
+  push_per_day: 3.7313
+  repo_per_active_day: 0.3731
   not_owned_ratio: 0.2000
   basename_concentration: 0.0400
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 9
-    distinct_repos: 4
-    pushes_per_repo: 2.2500
-    active_days: 3
+    pushes: 4
+    distinct_repos: 3
+    pushes_per_repo: 1.3333
+    active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 109
+    pushes: 106
     distinct_repos: 16
-    pushes_per_repo: 6.8125
-    active_days: 24
+    pushes_per_repo: 6.6250
+    active_days: 23
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 1
   "90d":
-    pushes: 254
+    pushes: 250
     distinct_repos: 25
-    pushes_per_repo: 10.1600
-    active_days: 69
+    pushes_per_repo: 10.0000
+    active_days: 67
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 69 active days in 90d — pass"
+  - "activity: 67 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "opencode-agent-7777"
@@ -84,15 +84,16 @@ repos:
     topics: []
     stars_fact: 3
     first_seen: null
-    last_push: "2026-10-10"
-  - name: "opencode-desktop-tab"
-    title: "opencode-desktop-tab"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
+    last_push: "2026-10-18"
+  - name: "opencode-db-viewer"
+    title: "opencode-db-viewer"
+    description: ".local/share/opencode/opencode.db Viewer in Rails 7.2"
+    language: "Ruby"
+    topics:
+      - "opencode"
+    stars_fact: 1
     first_seen: null
-    last_push: "2026-10-09"
+    last_push: "2026-10-15"
   - name: "coreui4-rails-starter"
     title: "coreui4-rails-starter"
     description: "The CoreUI 5 Rails starter"
@@ -103,35 +104,45 @@ repos:
       - "template"
     stars_fact: 13
     first_seen: null
-    last_push: "2026-10-07"
-  - name: "restore-cloud-workstation-skill"
-    title: "restore-cloud-workstation-skill"
+    last_push: "2026-10-15"
+  - name: "wechat"
+    title: "wechat"
+    description: "API, command and message handling for WeChat in Rails"
+    language: "Ruby"
+    topics:
+      - "wechat"
+      - "wechat-framework"
+      - "wechat-oauth"
+      - "wechat-sdk"
+    stars_fact: 1349
+    first_seen: null
+    last_push: "2026-07-03"
+  - name: "vali-admin-rails"
+    title: "vali-admin-rails"
+    description: "Starting using vali-admin, an Free Bootstrap 4 Admin Template in Rails 5.2"
+    language: "Ruby"
+    topics:
+      - "admin-dashboard"
+      - "bootstrap"
+      - "bootstrap4"
+      - "rails"
+      - "template"
+      - "vali-admin"
+    stars_fact: 10
+    first_seen: null
+    last_push: "2024-01-07"
+  - name: "opencode-desktop-tab"
+    title: "opencode-desktop-tab"
     description: null
-    language: "Python"
+    language: "TypeScript"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-05"
-  - name: "git-absorb-commit-skill"
-    title: "git-absorb-commit-skill"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-05"
-  - name: "opencode-memory-investigation"
-    title: "opencode-memory-investigation"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-05"
+    last_push: "2026-10-10"
 ---
 
 # Eric-Guo
 
-254 pushes across 25 repositories on 69 active days in the last 90 days of public GitHub push activity.
+250 pushes across 25 repositories on 67 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Eric-Guo

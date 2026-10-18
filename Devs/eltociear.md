@@ -12,13 +12,13 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "1be978947e68d1f2"
   - "1f49d0119cedbc84"
   - "dffbb846389f9a26"
   - "ef17663e884139a8"
-pushes_per_week: [6, 3, 2, 3, 2, 1, 0, 0, 1, 0, 3, 0, 0]
+pushes_per_week: [6, 4, 2, 3, 1, 1, 0, 0, 1, 0, 3, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -90,7 +90,7 @@ repos:
     topics: []
     stars_fact: 2
     first_seen: null
-    last_push: "2026-10-10"
+    last_push: "2026-10-18"
   - name: "awesome-AI-driven-development"
     title: "awesome-AI-driven-development"
     description: "Awesome list of AI-Driven Development."
@@ -110,9 +110,45 @@ repos:
       - "spec-driven-development"
       - "vibe-coding"
       - "vibecoding"
-    stars_fact: 551
+    stars_fact: 560
     first_seen: null
-    last_push: "2026-10-07"
+    last_push: "2026-10-12"
+  - name: "eltociear"
+    title: "eltociear"
+    description: "introduction"
+    language: null
+    topics: []
+    stars_fact: 5
+    first_seen: null
+    last_push: "2026-10-16"
+  - name: "awesome-molt-ecosystem"
+    title: "awesome-molt-ecosystem"
+    description: "The brutally honest map of where AI-agent money actually flows. Every number measured, dated, and re-checked — including the ones that turned out to be wrong. Lifetime external income: $2.40. 1 of 18 awesome-list submissions ever merged."
+    language: "Dockerfile"
+    topics:
+      - "agent-economy"
+      - "ai-agent"
+      - "ai-agents"
+      - "aiagent"
+      - "awesome"
+      - "awesome-list"
+      - "bug-bounty"
+      - "ecosystem"
+      - "marketplace"
+      - "mcp"
+      - "moltbook"
+      - "moltbot"
+      - "molty"
+      - "openclaw"
+      - "polar-sh"
+      - "skill-audit-mcp"
+      - "story-protocol"
+      - "usdc"
+      - "web3"
+      - "x402"
+    stars_fact: 65
+    first_seen: null
+    last_push: "2026-10-03"
   - name: "x402-approval-guard"
     title: "x402-approval-guard"
     description: "Stop your AI agent from signing dangerous ERC20 approvals. Calls contract-guard (x402) to flag unlimited/risky allowances before approve(). Forkable x402 example agent."
@@ -135,45 +171,6 @@ repos:
     language: "Python"
     topics: []
     stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-19"
-  - name: "skill-audit-mcp"
-    title: "skill-audit-mcp"
-    description: "Static security scanner for MCP servers, agent skills & plugins: 17 attack patterns / 60 regex signatures, calibrated to a 1% false-positive rate over 196 public MCP servers. In the official MCP Registry: io.github.eltociear/skill-audit-mcp. Also a pay-per-call x402 API."
-    language: "Python"
-    topics:
-      - "ai-agent-security"
-      - "claude-skills"
-      - "devsecops"
-      - "github-action"
-      - "mcp"
-      - "mcp-server"
-      - "prompt-injection"
-      - "sarif"
-      - "security"
-      - "static-analysis"
-      - "supply-chain-security"
-      - "vulnerability-scanner"
-    stars_fact: 5
-    first_seen: null
-    last_push: "2026-09-30"
-  - name: "awesome-AI_web3"
-    title: "awesome-AI_web3"
-    description: "Awesome list of AI/Web 3.0."
-    language: null
-    topics:
-      - "agent"
-      - "ai"
-      - "aiagent"
-      - "awesome"
-      - "blockchain"
-      - "crypto"
-      - "cryptocurrency"
-      - "decentralized"
-      - "depin"
-      - "nft"
-      - "web3"
-    stars_fact: 4
     first_seen: null
     last_push: "2026-08-19"
 ---

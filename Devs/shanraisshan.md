@@ -8,16 +8,16 @@ provenance_repos:
   - "shanraisshan/claude-code-best-practice"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+repos_populated: false
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "beef767476532531"
-pushes_per_week: [1, 10, 2, 12, 2, 1, 0, 1, 4, 4, 5, 6, 4]
+pushes_per_week: [2, 9, 3, 11, 2, 1, 0, 4, 3, 3, 6, 5, 3]
 windows:
   "7d":
-    pushes: 4
+    pushes: 3
     distinct_repos: 1
-    active_days: 4
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 4
+    pushes: 3
     distinct_repos: 1
-    pushes_per_repo: 4.0000
-    active_days: 4
+    pushes_per_repo: 3.0000
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -76,129 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 37 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "claude-code-best-practice"
-    title: "claude-code-best-practice"
-    description: "from vibe coding to agentic engineering - practice makes claude perfect"
-    language: "HTML"
-    topics:
-      - "agentic-ai"
-      - "agentic-coding"
-      - "agentic-engineering"
-      - "agentic-workflow"
-      - "ai"
-      - "ai-agents"
-      - "anthropic"
-      - "best-practices"
-      - "boris"
-      - "claude"
-      - "claude-ai"
-      - "claude-code"
-      - "claude-code-agents"
-      - "claude-code-best-practices"
-      - "claude-code-commands"
-      - "claude-code-skills"
-      - "context-engineering"
-      - "pakistan"
-      - "pakistani-developer"
-      - "vibe-coding"
-    stars_fact: 67364
-    first_seen: "2026-06-26T06:00:06.940898+00:00"
-    last_push: "2026-10-11"
-  - name: "codex-cli-best-practice"
-    title: "codex-cli-best-practice"
-    description: "from vibe coding to agentic engineering - practice makes codex perfect"
-    language: "Python"
-    topics:
-      - "agentic-ai"
-      - "agentic-coding"
-      - "agentic-engineering"
-      - "agentic-workflow"
-      - "ai"
-      - "ai-agents"
-      - "codex"
-      - "codex-ai"
-      - "codex-cli"
-      - "codex-cli-agents"
-      - "codex-cli-best-practices"
-      - "codex-cli-commands"
-      - "codex-cli-skills"
-      - "codex-hooks"
-      - "context-engineering"
-      - "hooks"
-      - "openai"
-      - "pakistan"
-      - "pakistani-developer"
-      - "vibe-coding"
-    stars_fact: 1009
-    first_seen: null
-    last_push: "2026-06-04"
-  - name: "claude-code-hooks"
-    title: "claude-code-hooks"
-    description: "claude code hooks - adding voice on each hook"
-    language: "HTML"
-    topics:
-      - "agentic-ai"
-      - "agentic-coding"
-      - "agentic-engineering"
-      - "agentic-workflow"
-      - "ai"
-      - "ai-agents"
-      - "anthropic"
-      - "claude"
-      - "claude-ai"
-      - "claude-code"
-      - "claude-code-agents"
-      - "claude-code-best-practices"
-      - "claude-code-commands"
-      - "claude-code-skills"
-      - "claude-hooks"
-      - "context-engineering"
-      - "hooks"
-      - "pakistan"
-      - "pakistani-developer"
-      - "vibe-coding"
-    stars_fact: 555
-    first_seen: null
-    last_push: "2026-06-04"
-  - name: "frontend-template"
-    title: "frontend-template"
-    description: "a starter template for next js project using agents best practices"
-    language: "Python"
-    topics: []
-    stars_fact: 4
-    first_seen: null
-    last_push: "2025-11-23"
-  - name: "gemini-cli-best-practice"
-    title: "gemini-cli-best-practice"
-    description: "from vibe coding to agentic engineering - practice makes gemini perfect"
-    language: "Python"
-    topics:
-      - "agentic-ai"
-      - "agentic-engineering"
-      - "agentic-workflows"
-      - "ai"
-      - "pakistan"
-      - "vibe-coding"
-    stars_fact: 78
-    first_seen: null
-    last_push: "2026-05-26"
-  - name: "draw-json-architecture-skill"
-    title: "draw-json-architecture-skill"
-    description: "A skill that explains any code architecture as an interactive viewer — Graph + JSON + HTML, 100% driven by JSON — and saves the self-contained `.html` to your repo's root `architecture/` folder."
-    language: "HTML"
-    topics:
-      - "ai"
-      - "ai-skills"
-      - "claude"
-      - "claude-code"
-      - "codex"
-      - "codex-cli"
-      - "pakistan"
-      - "skilla"
-    stars_fact: 10
-    first_seen: null
-    last_push: "2026-06-01"
+repos: []
 ---
 
 # shanraisshan

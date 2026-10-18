@@ -8,11 +8,11 @@ provenance_repos:
   - "AstrBotDevs/AstrBot"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+repos_populated: false
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 3, 3, 0, 12, 18, 9, 0]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 3, 3, 0, 15, 17, 7, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,107 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 16 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "Merriv"
-    title: "Merriv"
-    description: "Vendor-neutral release evidence for deployable AI models."
-    language: "Python"
-    topics:
-      - "ai-infrastructure"
-      - "machine-learning"
-      - "mlops"
-      - "model-evaluation"
-      - "model-governance"
-      - "model-release"
-      - "onnx"
-      - "release-engineering"
-      - "supply-chain-security"
-      - "tensorrt"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-10"
-  - name: "niansia.github.io"
-    title: "niansia.github.io"
-    description: "Personal research portfolio for graduate applications, built with Quarto."
-    language: "HTML"
-    topics:
-      - "academic-website"
-      - "github-pages"
-      - "multilingual"
-      - "quarto"
-      - "research-portfolio"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-08"
-  - name: "niansia"
-    title: "niansia"
-    description: "GitHub profile and research portfolio for Niansia."
-    language: "Python"
-    topics:
-      - "ai-security"
-      - "computer-vision"
-      - "github-profile"
-      - "research-portfolio"
-      - "vision-language-models"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-10"
-  - name: "taiwan-exam"
-    title: "taiwan-exam"
-    description: "讓 AI 出一份原創的學測模擬考：命題、解題驗算、套用大考正式版面，交付題目與答案詳解兩份 PDF。支援 Claude、ChatGPT、Gemini；學測七科可用，會考與分科測驗規劃中。"
-    language: "Python"
-    topics:
-      - "ai-education"
-      - "chatgpt"
-      - "claude-skills"
-      - "education"
-      - "exam"
-      - "gemini"
-      - "gsat"
-      - "mock-exam"
-      - "pdf"
-      - "taiwan"
-    stars_fact: 18
-    first_seen: null
-    last_push: "2026-09-29"
-  - name: "LumiGrid"
-    title: "LumiGrid"
-    description: "Luminance-guided curve grids for low-light image enhancement (Zero-DCE curves in a bilateral grid + NAFNet refiner) — 24.6 dB on held-out NTIRE 2025 LLIE pairs"
-    language: "Python"
-    topics:
-      - "bilateral-grid"
-      - "computer-vision"
-      - "image-enhancement"
-      - "low-light-image-enhancement"
-      - "nafnet"
-      - "ntire-2025"
-      - "onnx"
-      - "pytorch"
-      - "webgpu"
-      - "zero-dce"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-29"
-  - name: "PSG"
-    title: "PSG"
-    description: "Persistent task boundaries, project decisions, and evidence-based ship gates for AI coding agents."
-    language: "Python"
-    topics:
-      - "agent-skills"
-      - "ai-agents"
-      - "claude-code"
-      - "codex"
-      - "coding-agents"
-      - "developer-tools"
-      - "gemini-cli"
-      - "mcp"
-      - "model-context-protocol"
-      - "project-state"
-      - "python"
-      - "task-governance"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-29"
+repos: []
 ---
 
 # niansia

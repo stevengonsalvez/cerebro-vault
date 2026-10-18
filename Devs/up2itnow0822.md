@@ -9,11 +9,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "1df6ea1f1256059e"
   - "edb3a626875732de"
-pushes_per_week: [0, 0, 0, 1, 0, 0, 0, 0, 24, 62, 2, 1, 8]
+pushes_per_week: [0, 0, 0, 1, 0, 0, 0, 2, 22, 62, 2, 8, 1]
 windows:
   "7d":
     pushes: 8
@@ -78,67 +78,28 @@ reasons:
   - "activity: 12 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "webmcp-payments"
-    title: "webmcp-payments"
-    description: "x402 payment gate for WebMCP tools (npm: webmcp-payments). Default fee 0%."
+  - name: "clawpowers-site"
+    title: "clawpowers-site"
+    description: "Launch site scaffold for ClawPowers on clawpowers.ai"
     language: "TypeScript"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-11"
-  - name: "clawpowers-guardian"
-    title: "clawpowers-guardian"
-    description: "Open-source security framework for AI agent skill ecosystems. Static analysis, behavioral monitoring, and trust scoring for OpenClaw skills and plugins."
-    language: "TypeScript"
-    topics: []
+    last_push: "2026-10-18"
+  - name: "up2itnow0822"
+    title: "up2itnow0822"
+    description: "👋 Building the AI agent economy — RSI agents, automated trading, and agent payment infrastructure"
+    language: null
+    topics:
+      - "agents"
+      - "ai"
+      - "crypto"
+      - "open-source"
+      - "rsi"
+      - "trading"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-11"
-  - name: "agent-wallet-sdk"
-    title: "agent-wallet-sdk"
-    description: "Non-custodial crypto wallets for AI agents with on-chain spending limits. ERC-6551, x402 compatible, Base Mainnet."
-    language: "TypeScript"
-    topics:
-      - "agent-wallet"
-      - "ai-agents"
-      - "payments"
-      - "sdk"
-      - "typescript"
-      - "x402"
-    stars_fact: 13
-    first_seen: null
-    last_push: "2026-10-11"
-  - name: "agentpay-mcp"
-    title: "agentpay-mcp"
-    description: "Non-custodial x402 MCP payment layer for AI agents — the open-source alternative to Vercel x402-mcp"
-    language: "TypeScript"
-    topics:
-      - "agentpay"
-      - "ai-agents"
-      - "mcp"
-      - "payments"
-      - "x402"
-    stars_fact: 8
-    first_seen: null
-    last_push: "2026-10-11"
-  - name: "agentpay-wallet-starter"
-    title: "agentpay-wallet-starter"
-    description: "Starter repo for AgentPay MCP plus Agent Wallet SDK, with a verified controlled paid-tool flow."
-    language: "Shell"
-    topics:
-      - "agentpay"
-      - "agentwallet"
-      - "ai-agents"
-      - "claude-desktop"
-      - "cursor"
-      - "mcp"
-      - "openclaw"
-      - "payments"
-      - "starter-repo"
-      - "x402"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-07"
+    last_push: "2026-10-17"
   - name: "webmcp-sdk"
     title: "webmcp-sdk"
     description: "Full WebMCP developer toolkit — core, React, security, testing. Build agent-ready websites with navigator.modelContext"
@@ -152,7 +113,52 @@ repos:
       - "webmcp"
     stars_fact: 2
     first_seen: null
-    last_push: "2026-10-07"
+    last_push: "2026-10-17"
+  - name: "ClawPowers-Skills"
+    title: "ClawPowers-Skills"
+    description: "Capability library for AI agents: payments, memory, RSI, wallet, parallel swarm, and ITP for OpenClaw-compatible runtimes."
+    language: "TypeScript"
+    topics:
+      - "ai-agent"
+      - "memory"
+      - "openclaw"
+      - "payments"
+      - "rsi"
+      - "typescript"
+      - "wasm"
+      - "x402"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-17"
+  - name: "ClawPowers-Agent"
+    title: "ClawPowers-Agent"
+    description: "Thin OpenClaw wrapper runtime for ClawPowers: autonomous task execution, payments, memory, RSI, and skill orchestration."
+    language: "TypeScript"
+    topics:
+      - "ai-agent"
+      - "autonomous-agent"
+      - "memory"
+      - "openclaw"
+      - "payments"
+      - "rsi"
+      - "typescript"
+      - "x402"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-17"
+  - name: "a0-parallel-swarm-plugin"
+    title: "a0-parallel-swarm-plugin"
+    description: "Run multiple Agent Zero agents in parallel. Fan-out tasks, token budgets, shared memory, model routing."
+    language: "Python"
+    topics:
+      - "agent-zero"
+      - "ai"
+      - "multi-agent"
+      - "plugin"
+      - "swarm"
+    stars_fact: 8
+    first_seen: null
+    last_push: "2026-09-26"
 ---
 
 # up2itnow0822

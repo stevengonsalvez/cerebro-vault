@@ -10,10 +10,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "716cf9e2237ac9db"
-pushes_per_week: [5, 1, 0, 1, 2, 0, 0, 0, 0, 1, 6, 0, 2]
+pushes_per_week: [6, 0, 0, 1, 2, 0, 0, 0, 1, 2, 4, 0, 2]
 windows:
   "7d":
     pushes: 2
@@ -103,9 +103,9 @@ repos:
       - "prompt-engineering"
       - "system-prompt"
       - "system-prompts"
-    stars_fact: 69277
+    stars_fact: 69821
     first_seen: "2026-07-14T06:00:06.632654+00:00"
-    last_push: "2026-10-10"
+    last_push: "2026-10-16"
 ---
 
 # asgeirtj

@@ -10,11 +10,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "234088bc43763aa2"
   - "3c90af76cbde0363"
-pushes_per_week: [74, 47, 15, 38, 7, 1, 1, 2, 3, 5, 11, 1, 3]
+pushes_per_week: [67, 41, 23, 34, 3, 1, 1, 2, 4, 10, 5, 1, 3]
 windows:
   "7d":
     pushes: 3
@@ -24,25 +24,25 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 22
+    pushes: 21
     distinct_repos: 9
-    active_days: 14
+    active_days: 13
     repos_not_owned: 4
     not_owned_basenames: 3
     not_owned_owners: 4
   "90d":
-    pushes: 208
-    distinct_repos: 17
-    active_days: 45
+    pushes: 195
+    distinct_repos: 16
+    active_days: 44
     repos_not_owned: 6
     not_owned_basenames: 5
     not_owned_owners: 5
 automation:
   state: "clear"
-  push_per_day: 4.6222
-  repo_per_active_day: 0.3778
-  not_owned_ratio: 0.3529
-  basename_concentration: 0.1765
+  push_per_day: 4.4318
+  repo_per_active_day: 0.3636
+  not_owned_ratio: 0.3750
+  basename_concentration: 0.1875
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -59,34 +59,26 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 22
+    pushes: 21
     distinct_repos: 9
-    pushes_per_repo: 2.4444
-    active_days: 14
+    pushes_per_repo: 2.3333
+    active_days: 13
     repos_not_owned: 4
     not_owned_basenames: 3
     not_owned_owners: 4
   "90d":
-    pushes: 208
-    distinct_repos: 17
-    pushes_per_repo: 12.2353
-    active_days: 45
+    pushes: 195
+    distinct_repos: 16
+    pushes_per_repo: 12.1875
+    active_days: 44
     repos_not_owned: 6
     not_owned_basenames: 5
     not_owned_owners: 5
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 45 active days in 90d — pass"
+  - "activity: 44 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "Yapshire"
-    title: "Yapshire"
-    description: "Yapshire — a cozy pixel town to walk, jump, and chat together. Rust + Bevy, LAN and online multiplayer."
-    language: "Rust"
-    topics: []
-    stars_fact: 5
-    first_seen: null
-    last_push: "2026-10-10"
   - name: "dsh-auto-continue"
     title: "dsh-auto-continue"
     description: "DSH Web UI plugin: auto-sends 「继续」 after non-human interruptions, with error classification, adaptive backoff, pause, idempotency/loop guards, resume templates, and stats—all configurable in settings UI | DSH 前端 UI 插件：非人为中断后自动发送「继续」，支持错误分类、自适应退避、暂停、幂等/循环保护、续跑模板与统计，均可在设置界面配置"
@@ -100,7 +92,7 @@ repos:
       - "dsh-plugin"
       - "plugin"
       - "web-ui"
-    stars_fact: 144
+    stars_fact: 154
     first_seen: null
     last_push: "2026-10-07"
   - name: "HsiangNianian"
@@ -110,7 +102,23 @@ repos:
     topics: []
     stars_fact: 7
     first_seen: null
-    last_push: "2026-10-09"
+    last_push: "2026-10-17"
+  - name: "IntelligentMixVideo"
+    title: "IntelligentMixVideo"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 8
+    first_seen: null
+    last_push: "2026-10-16"
+  - name: "Yapshire"
+    title: "Yapshire"
+    description: "Yapshire — a cozy pixel town to walk, jump, and chat together. Rust + Bevy, LAN and online multiplayer."
+    language: "Rust"
+    topics: []
+    stars_fact: 6
+    first_seen: null
+    last_push: "2026-10-13"
   - name: "jev-turtle-soup"
     title: "jev-turtle-soup"
     description: "一个可以独自推理、邀朋友同桌，也能亲手出题的海龟汤社群——基于 decision model: jev"
@@ -120,15 +128,7 @@ repos:
       - "jev"
     stars_fact: 5
     first_seen: null
-    last_push: "2026-10-10"
-  - name: "IntelligentMixVideo"
-    title: "IntelligentMixVideo"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 7
-    first_seen: null
-    last_push: "2026-10-10"
+    last_push: "2026-10-18"
   - name: "soon"
     title: "soon"
     description: "A local-first personal terminal agent that learns your routines and predicts the next full command."
@@ -152,6 +152,6 @@ repos:
 
 # HsiangNianian
 
-208 pushes across 17 repositories on 45 active days in the last 90 days of public GitHub push activity.
+195 pushes across 16 repositories on 44 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/HsiangNianian

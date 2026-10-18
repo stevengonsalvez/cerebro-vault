@@ -8,11 +8,11 @@ provenance_repos:
   - "chopratejas/headroom"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+repos_populated: false
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "73468cde177ddae6"
-pushes_per_week: [5, 33, 55, 53, 3, 10, 2, 12, 22, 16, 2, 3, 0]
+pushes_per_week: [7, 29, 58, 51, 5, 7, 3, 14, 19, 16, 4, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 32
+    pushes: 30
     distinct_repos: 2
-    active_days: 10
+    active_days: 9
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 216
+    pushes: 214
     distinct_repos: 3
-    active_days: 46
+    active_days: 45
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 4.6957
-  repo_per_active_day: 0.0652
+  push_per_day: 4.7556
+  repo_per_active_day: 0.0667
   not_owned_ratio: 0.0000
   basename_concentration: 0.3333
   shapes: []
@@ -57,114 +57,30 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 32
+    pushes: 30
     distinct_repos: 2
-    pushes_per_repo: 16.0000
-    active_days: 10
+    pushes_per_repo: 15.0000
+    active_days: 9
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 216
+    pushes: 214
     distinct_repos: 3
-    pushes_per_repo: 72.0000
-    active_days: 46
+    pushes_per_repo: 71.3333
+    active_days: 45
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 46 active days in 90d — pass"
+  - "activity: 45 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "lifeodyssey"
-    title: "lifeodyssey"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-10"
-  - name: "animichi"
-    title: "animichi"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-10-09"
-  - name: "retypeset-odyssey"
-    title: "retypeset-odyssey"
-    description: "Trilingual Astro theme: typography-first, MDX, Cloudflare Pages, YAML config, one-line install."
-    language: "HTML"
-    topics:
-      - "astro"
-      - "astro-theme"
-      - "blog"
-      - "cloudflare-pages"
-      - "hexo-migration"
-      - "i18n"
-      - "mdx"
-      - "multilingual"
-      - "retypeset"
-      - "typography"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-08"
-  - name: "share-html"
-    title: "share-html"
-    description: "Share sandboxed HTML previews with public-unlisted or access-key private links. Includes a remote MCP server for AI agents."
-    language: "TypeScript"
-    topics:
-      - "a2a-protocol"
-      - "agent-ready"
-      - "ai-agents"
-      - "cloudflare-workers"
-      - "html-preview"
-      - "html-sharing"
-      - "mcp-server"
-      - "private-sharing"
-      - "r2"
-      - "react"
-      - "supabase"
-      - "typescript"
-      - "vite"
-      - "webmcp"
-    stars_fact: 5
-    first_seen: null
-    last_push: "2026-09-25"
-  - name: "animal-island-ui-tailwind"
-    title: "animal-island-ui-tailwind"
-    description: "Animal Crossing-themed React component library — Tailwind CSS v4 + Radix UI"
-    language: "TypeScript"
-    topics:
-      - "animal-crossing"
-      - "component-library"
-      - "radix-ui"
-      - "react"
-      - "storybook"
-      - "tailwindcss"
-      - "ui"
-    stars_fact: 6
-    first_seen: null
-    last_push: "2026-10-11"
-  - name: "craftsmanship-skills"
-    title: "craftsmanship-skills"
-    description: "Agent Skills distilled from Clean Code & Refactoring. Install: npx skills add lifeodyssey/craftsmanship-skills"
-    language: null
-    topics:
-      - "agent-skills"
-      - "claude-code"
-      - "clean-code"
-      - "codex"
-      - "refactoring"
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-04-23"
+repos: []
 ---
 
 # lifeodyssey
 
-216 pushes across 3 repositories on 46 active days in the last 90 days of public GitHub push activity.
+214 pushes across 3 repositories on 45 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/lifeodyssey

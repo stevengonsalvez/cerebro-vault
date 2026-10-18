@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-16T08:30:18.142355+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "dffbb846389f9a26"
 pushes_per_week: [4, 2, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
@@ -97,7 +97,7 @@ repos:
       - "vector-database"
     stars_fact: 2
     first_seen: null
-    last_push: "2026-10-10"
+    last_push: "2026-10-16"
   - name: "cnpip"
     title: "cnpip"
     description: "面向中国网络环境的 Python 包管理镜像配置 CLI，支持 pip、uv、PDM、Poetry 和 Conda。"
@@ -124,7 +124,7 @@ repos:
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-10-09"
+    last_push: "2026-10-17"
   - name: "MermZen"
     title: "MermZen"
     description: "A clean, lightweight Mermaid diagram editor — hand-drawn style, live preview, and one-click export."

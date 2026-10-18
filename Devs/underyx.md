@@ -8,11 +8,11 @@ provenance_repos:
   - "anthropics/knowledge-work-plugins"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+repos_populated: false
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "2d6ba8fc0269fd52"
-pushes_per_week: [3, 11, 0, 0, 0, 0, 0, 1, 0, 1, 5, 2, 6]
+pushes_per_week: [1, 11, 0, 0, 0, 0, 0, 1, 0, 1, 5, 8, 0]
 windows:
   "7d":
     pushes: 6
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 29
+    pushes: 27
     distinct_repos: 3
-    active_days: 13
+    active_days: 12
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.2308
-  repo_per_active_day: 0.2308
+  push_per_day: 2.2500
+  repo_per_active_day: 0.2500
   not_owned_ratio: 0.0000
   basename_concentration: 0.3333
   shapes: []
@@ -65,77 +65,22 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 29
+    pushes: 27
     distinct_repos: 3
-    pushes_per_repo: 9.6667
-    active_days: 13
+    pushes_per_repo: 9.0000
+    active_days: 12
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 13 active days in 90d — pass"
+  - "activity: 12 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "visawhen"
-    title: "visawhen"
-    description: "Data on US visa wait times at the National Visa Center and at US consulates."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 33
-    first_seen: null
-    last_push: "2026-10-14"
-  - name: "bence.dev"
-    title: "bence.dev"
-    description: "The thingies behind underyx.me"
-    language: "Astro"
-    topics:
-      - "blog"
-      - "gatsby"
-      - "html"
-      - "personal-website"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-11"
-  - name: "ponpong"
-    title: "ponpong"
-    description: null
-    language: "GDScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-10"
-  - name: "flask-redis"
-    title: "flask-redis"
-    description: "A Flask extension for using Redis"
-    language: "Python"
-    topics:
-      - "flask"
-      - "python"
-      - "redis"
-    stars_fact: 438
-    first_seen: null
-    last_push: "2024-03-04"
-  - name: "getmatter-mcp-server"
-    title: "getmatter-mcp-server"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-08-23"
-  - name: "wanikani-mcp"
-    title: "wanikani-mcp"
-    description: "MCP server for the WaniKani API"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-14"
+repos: []
 ---
 
 # underyx
 
-29 pushes across 3 repositories on 13 active days in the last 90 days of public GitHub push activity.
+27 pushes across 3 repositories on 12 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/underyx

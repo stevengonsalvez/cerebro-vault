@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [3, 1, 0, 1, 0, 0, 1, 1, 5, 15, 0, 1, 0]
+pushes_per_week: [3, 1, 0, 1, 0, 0, 2, 0, 15, 5, 0, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 21
-    distinct_repos: 5
-    active_days: 6
+    pushes: 16
+    distinct_repos: 4
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 21
-    distinct_repos: 5
-    pushes_per_repo: 4.2000
-    active_days: 6
+    pushes: 16
+    distinct_repos: 4
+    pushes_per_repo: 4.0000
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -77,6 +77,42 @@ reasons:
   - "activity: 11 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "localdata-mcp"
+    title: "localdata-mcp"
+    description: "MCP server giving LLM agents access to databases, files, graphs, and a full data science toolkit — 52 tools across 13 database types and 20+ file formats"
+    language: "Python"
+    topics:
+      - "ai-tools"
+      - "claude-code"
+      - "claude-desktop"
+      - "data-analytics"
+      - "data-science"
+      - "duckdb"
+      - "fastmcp"
+      - "graph-database"
+      - "mcp"
+      - "mcp-server"
+      - "model-context-protocol"
+      - "mongodb"
+      - "mysql"
+      - "postgresql"
+      - "python"
+      - "rdf"
+      - "sparql"
+      - "sqlite"
+      - "statistics"
+      - "time-series"
+    stars_fact: 6
+    first_seen: null
+    last_push: "2026-08-14"
+  - name: "pivot_panes.wezterm"
+    title: "pivot_panes.wezterm"
+    description: "Simple plugins for Wezterm to rotate the panes in a window"
+    language: "Lua"
+    topics: []
+    stars_fact: 6
+    first_seen: null
+    last_push: "2026-03-06"
   - name: "workspace-qdrant-mcp"
     title: "workspace-qdrant-mcp"
     description: "Project-aware collection management based on Qdrant, including a Rust MCP, daemon and CLI: hybrid semantic, pattern and full-text (FTS5) search into single or cross-concerns collection. Dedicated collections for knowledge library, LLM behavioral rules, and an LLM scratchpad"
@@ -126,34 +162,6 @@ repos:
     stars_fact: 5
     first_seen: null
     last_push: "2026-09-27"
-  - name: "localdata-mcp"
-    title: "localdata-mcp"
-    description: "MCP server giving LLM agents access to databases, files, graphs, and a full data science toolkit — 52 tools across 13 database types and 20+ file formats"
-    language: "Python"
-    topics:
-      - "ai-tools"
-      - "claude-code"
-      - "claude-desktop"
-      - "data-analytics"
-      - "data-science"
-      - "duckdb"
-      - "fastmcp"
-      - "graph-database"
-      - "mcp"
-      - "mcp-server"
-      - "model-context-protocol"
-      - "mongodb"
-      - "mysql"
-      - "postgresql"
-      - "python"
-      - "rdf"
-      - "sparql"
-      - "sqlite"
-      - "statistics"
-      - "time-series"
-    stars_fact: 4
-    first_seen: null
-    last_push: "2026-08-14"
   - name: "mathlex"
     title: "mathlex"
     description: "Mathematical expression parser for LaTeX and plain text notation, producing a language-agnostic AST"
@@ -170,14 +178,6 @@ repos:
     stars_fact: 5
     first_seen: null
     last_push: "2026-06-10"
-  - name: "PlotSwift"
-    title: "PlotSwift"
-    description: "Data visualization library for Swift"
-    language: "Swift"
-    topics: []
-    stars_fact: 4
-    first_seen: null
-    last_push: "2026-05-26"
 ---
 
 # ChrisGVE

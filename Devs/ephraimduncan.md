@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [0, 3, 0, 2, 1, 5, 0, 2, 1, 2, 3, 1, 0]
+pushes_per_week: [0, 3, 1, 1, 1, 5, 1, 1, 1, 2, 4, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -82,7 +82,7 @@ repos:
     description: "An open-source library of UI blocks. Built with React, Tailwind and shadcn/ui"
     language: "TypeScript"
     topics: []
-    stars_fact: 1839
+    stars_fact: 1848
     first_seen: null
     last_push: "2026-10-07"
   - name: "opencode-cursor"
@@ -90,17 +90,25 @@ repos:
     description: "Use your cursor subscription in opencode"
     language: "TypeScript"
     topics: []
-    stars_fact: 280
+    stars_fact: 282
     first_seen: null
     last_push: "2026-08-21"
-  - name: "minimal.so"
-    title: "minimal.so"
-    description: "simple bookmarking for everyone"
+  - name: "duncan.land"
+    title: "duncan.land"
+    description: "✨ My personal website. Built using Next.js and deployed on Vercel."
     language: "TypeScript"
-    topics: []
-    stars_fact: 166
+    topics:
+      - "contentlayer"
+      - "mdx"
+      - "nextjs"
+      - "portfolio"
+      - "react"
+      - "tailwindcss"
+      - "typescript"
+      - "vercel"
+    stars_fact: 40
     first_seen: null
-    last_push: "2026-06-12"
+    last_push: "2026-10-16"
   - name: "minimal-youtube"
     title: "minimal-youtube"
     description: "Minimal YouTube is an extension that replaces the YouTube UI with a minimal design containing no recommendations, shorts, or distractions."
@@ -113,9 +121,17 @@ repos:
       - "chrome-extension"
       - "firefox"
       - "firefox-extension"
-    stars_fact: 299
+    stars_fact: 301
     first_seen: null
     last_push: "2024-06-23"
+  - name: "minimal.so"
+    title: "minimal.so"
+    description: "simple bookmarking for everyone"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 167
+    first_seen: null
+    last_push: "2026-06-12"
   - name: "weekday"
     title: "weekday"
     description: "open source google calendar"
@@ -124,14 +140,6 @@ repos:
     stars_fact: 190
     first_seen: null
     last_push: "2026-09-01"
-  - name: "flowcast-releases"
-    title: "flowcast-releases"
-    description: "Downloads and updates of Flowcast, church presentation software for scripture"
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-03"
 ---
 
 # ephraimduncan

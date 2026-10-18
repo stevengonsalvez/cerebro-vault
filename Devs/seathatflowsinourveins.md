@@ -8,16 +8,16 @@ provenance_repos:
   - "akitaonrails/ai-memory"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+repos_populated: false
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "4138778ebbc75ba6"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 2, 89, 115, 97, 71]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 11, 106, 109, 97, 51]
 windows:
   "7d":
-    pushes: 76
+    pushes: 66
     distinct_repos: 2
-    active_days: 5
+    active_days: 4
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 76
+    pushes: 66
     distinct_repos: 2
-    pushes_per_repo: 38.0000
-    active_days: 5
+    pushes_per_repo: 33.0000
+    active_days: 4
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -76,23 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 25 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "native-agent-stack"
-    title: "native-agent-stack"
-    description: "Evidence-led convergence for native Codex and Claude: scoped context, isolated workers, pinned upstream decisions, reproducible qualification and recovery."
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-11"
-  - name: "eddyline"
-    title: "eddyline"
-    description: "Reproducible research tooling and evidence receipts. Synthetic and public data only."
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-11"
+repos: []
 ---
 
 # seathatflowsinourveins

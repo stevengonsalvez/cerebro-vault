@@ -8,11 +8,11 @@ provenance_repos:
   - "Unclecheng-li/VulnClaw"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+repos_populated: false
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "135bded64aec62fb"
-pushes_per_week: [1, 1, 5, 6, 0, 1, 0, 1, 2, 0, 1, 7, 0]
+pushes_per_week: [2, 0, 10, 1, 0, 1, 0, 1, 2, 1, 1, 6, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,108 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 13 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "AI_Animation"
-    title: "AI_Animation"
-    description: "本项目整理了用于生成[炫酷 HTML 动画网页]的 AI Prompts，涵盖动画效果、3D 可视化、PPT 风格演示、UI 美化等多个类别。"
-    language: "HTML"
-    topics:
-      - "ai"
-      - "ai-agents"
-      - "css"
-      - "dsh-plugin"
-      - "dsh-plugins"
-      - "front-end"
-      - "html5"
-      - "javascript"
-      - "ppt"
-      - "prompt"
-      - "prompt-engineering"
-      - "skill"
-      - "skills"
-    stars_fact: 1550
-    first_seen: null
-    last_push: "2026-10-05"
-  - name: "DeepSec"
-    title: "DeepSec"
-    description: "DeepSec — AI Security Offense & Defense Platform. Shield audits AI-generated code for hallucinated packages, missing safeguards & AI pattern errors in real time. Spear automates authorized penetration testing with 40+ skill packs, from recon to PoC."
-    language: "Python"
-    topics:
-      - "agent"
-      - "ai"
-      - "ai-agents"
-      - "aisecurity"
-      - "cybersecurity"
-      - "dsh"
-      - "dsh-bundle"
-      - "dsh-plugin"
-      - "dsh-plugin-desktop"
-      - "dsh-plugin-market"
-      - "dsh-plugin-verify"
-      - "dsh-plugins"
-      - "dsh-skill"
-      - "hacker"
-      - "plugin"
-      - "redteam"
-      - "security"
-      - "vscode"
-      - "vulnerabilities"
-      - "vulnerability"
-    stars_fact: 486
-    first_seen: null
-    last_push: "2026-08-24"
-  - name: "AI-Animation-Skill"
-    title: "AI-Animation-Skill"
-    description: "使用 AI 生成 HTML 演示动画的工具集，让视频创作者能够快速将科普文本转换为炫酷的演示动画。"
-    language: "HTML"
-    topics:
-      - "css"
-      - "css3"
-      - "front-end"
-      - "html5"
-      - "html5-css3"
-      - "html5-css3-javascript"
-      - "javascript"
-      - "ppt"
-    stars_fact: 577
-    first_seen: null
-    last_push: "2026-04-16"
-  - name: "cybersecurity-daily"
-    title: "cybersecurity-daily"
-    description: "网络安全日报—每日推送；Daily updated report on cybersecurity hotspots"
-    language: "HTML"
-    topics:
-      - "cybersecurity"
-      - "hacker-news"
-      - "html"
-      - "security"
-      - "vulnerability"
-    stars_fact: 134
-    first_seen: null
-    last_push: "2026-10-16"
-  - name: "note-skill"
-    title: "note-skill"
-    description: "生成手写笔记本风格的单文件 HTML 学习笔记。当用户需要将技术内容、漏洞分析、知识总结等转化为视觉精美的网页笔记时使用。"
-    language: "HTML"
-    topics: []
-    stars_fact: 196
-    first_seen: null
-    last_push: "2026-06-12"
-  - name: "poc-lab"
-    title: "poc-lab"
-    description: "Recent CVE PoC & reproduction scripts. Focused on high-severity vulnerabilities across Linux kernel, Windows, macOS and more."
-    language: "C"
-    topics:
-      - "c"
-      - "cybersecurity"
-      - "linux"
-      - "poc"
-      - "python"
-      - "python3"
-      - "vulnerability"
-    stars_fact: 813
-    first_seen: null
-    last_push: "2026-09-02"
+repos: []
 ---
 
 # Unclecheng-li

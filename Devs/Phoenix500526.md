@@ -8,11 +8,11 @@ provenance_repos:
   - "apache/maka"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+repos_populated: false
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [4, 1, 5, 0, 1, 0, 1, 1, 5, 3, 0, 2, 0]
+pushes_per_week: [4, 2, 4, 0, 1, 0, 1, 3, 3, 3, 0, 2, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,55 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 18 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "Phoenix500526"
-    title: "Phoenix500526"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-10-10"
-  - name: "Phoenix500526.github.io"
-    title: "Phoenix500526.github.io"
-    description: null
-    language: "JavaScript"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-05-27"
-  - name: "2048"
-    title: "2048"
-    description: "My project"
-    language: "C"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2014-10-31"
-  - name: "Tmuduo"
-    title: "Tmuduo"
-    description: null
-    language: "C++"
-    topics: []
-    stars_fact: 3
-    first_seen: null
-    last_push: "2020-12-09"
-  - name: "TinyORM"
-    title: "TinyORM"
-    description: null
-    language: "C++"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2021-03-04"
-  - name: "rust-practice"
-    title: "rust-practice"
-    description: null
-    language: "Rust"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2023-01-22"
+repos: []
 ---
 
 # Phoenix500526

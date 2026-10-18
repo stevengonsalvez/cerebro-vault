@@ -8,11 +8,11 @@ provenance_repos:
   - "can1357/oh-my-pi"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+repos_populated: false
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [2, 11, 12, 10, 1, 4, 0, 3, 15, 24, 25, 25, 3]
+pushes_per_week: [2, 11, 12, 10, 1, 4, 0, 3, 15, 34, 31, 9, 3]
 windows:
   "7d":
     pushes: 3
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 81
+    pushes: 80
     distinct_repos: 16
-    active_days: 17
+    active_days: 16
     repos_not_owned: 5
     not_owned_basenames: 4
     not_owned_owners: 3
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 81
+    pushes: 80
     distinct_repos: 16
-    pushes_per_repo: 5.0625
-    active_days: 17
+    pushes_per_repo: 5.0000
+    active_days: 16
     repos_not_owned: 5
     not_owned_basenames: 4
     not_owned_owners: 3
@@ -76,63 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 40 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "strml.net"
-    title: "strml.net"
-    description: "STRML: Projects & Work"
-    language: "JavaScript"
-    topics:
-      - "homepage"
-      - "javascript"
-    stars_fact: 2641
-    first_seen: null
-    last_push: "2026-09-27"
-  - name: "autodream"
-    title: "autodream"
-    description: "Nightly review of your coding-agent sessions. Reads Claude Code and Oh My Pi transcripts, ranks recurring patterns, writes one report. Formerly cc-autodream; omp-autodream is merged in."
-    language: "Shell"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-07"
-  - name: "cc-debate"
-    title: "cc-debate"
-    description: "Multi-AI Plan Debate Skill for Claude Code. Rope in Codex and Gemini to make your plans rock-solid."
-    language: "Shell"
-    topics: []
-    stars_fact: 10
-    first_seen: null
-    last_push: "2026-10-06"
-  - name: "cc-clear-handoff"
-    title: "cc-clear-handoff"
-    description: "An un-loseable alternative to /compact for Claude Code: /clear-handoff saves a focused, copy-pasteable handoff and arms a one-shot SessionStart hook that auto-loads it after /clear. Safe to run while subagents are working."
-    language: "Python"
-    topics:
-      - "claude"
-      - "claude-code"
-      - "claude-code-plugin"
-      - "compact"
-      - "developer-tools"
-      - "handoff"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-05"
-  - name: "omp-classifier"
-    title: "omp-classifier"
-    description: "Model-judged permission gate for OMP: classifies bash commands and spawn-bearing eval payloads before they run, prompts on risk, fails closed"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-05"
-  - name: "cc-skills"
-    title: "cc-skills"
-    description: "Claude Code slash commands and skills I actually use"
-    language: "HTML"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-05"
+repos: []
 ---
 
 # STRML

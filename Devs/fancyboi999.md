@@ -11,12 +11,12 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "16389f32495280ea"
   - "541318303a272608"
   - "d1946b21c02e5fa5"
-pushes_per_week: [0, 3, 0, 0, 0, 0, 0, 1, 4, 5, 1, 1, 2]
+pushes_per_week: [0, 3, 0, 0, 0, 0, 0, 1, 6, 3, 1, 1, 2]
 windows:
   "7d":
     pushes: 2
@@ -26,9 +26,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 13
+    pushes: 10
     distinct_repos: 6
-    active_days: 8
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -61,10 +61,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 13
+    pushes: 10
     distinct_repos: 6
-    pushes_per_repo: 2.1667
-    active_days: 8
+    pushes_per_repo: 1.6667
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -97,37 +97,9 @@ repos:
       - "typer"
       - "websocket"
       - "xianyu"
-    stars_fact: 309
+    stars_fact: 331
     first_seen: null
-    last_push: "2026-10-10"
-  - name: "ai-engineering-from-scratch-zh"
-    title: "ai-engineering-from-scratch-zh"
-    description: "Agent工程师最全学习路径 · 从零精通 AI 工程 · 20 阶段 503 课 · 中文全量翻译 + 配套站点 + 动画讲解视频 · 如何成为 AI Agent 工程师的修成指南"
-    language: "Python"
-    topics:
-      - "agents"
-      - "ai"
-      - "ai-agents"
-      - "ai-engineering"
-      - "chinese"
-      - "chinese-translation"
-      - "computer-vision"
-      - "course"
-      - "deep-learning"
-      - "from-scratch"
-      - "generative-ai"
-      - "learn-ai"
-      - "llm"
-      - "machine-learning"
-      - "mcp"
-      - "nlp"
-      - "python"
-      - "reinforcement-learning"
-      - "transformers"
-      - "tutorial"
-    stars_fact: 1204
-    first_seen: null
-    last_push: "2026-10-09"
+    last_push: "2026-10-12"
   - name: "Loomic"
     title: "Loomic"
     description: "Open-source AI canvas design agent — alternative to Lovart / CapCut Video Studio / Canva AI. Chat-driven image & video generation on an infinite canvas."
@@ -153,25 +125,9 @@ repos:
       - "text-to-video"
       - "typescript"
       - "video-generation"
-    stars_fact: 279
+    stars_fact: 286
     first_seen: null
     last_push: "2026-09-30"
-  - name: "JobPilot"
-    title: "JobPilot"
-    description: null
-    language: "JavaScript"
-    topics: []
-    stars_fact: 7
-    first_seen: null
-    last_push: "2026-03-19"
-  - name: "weixin_search_mcp"
-    title: "weixin_search_mcp"
-    description: "微信公众号搜索，及文章内容获取，大模型mcp服务"
-    language: "Python"
-    topics: []
-    stars_fact: 187
-    first_seen: null
-    last_push: "2026-08-17"
   - name: "open-tag"
     title: "open-tag"
     description: "Open-source, self-hostable alternative to Claude Tag — a Slack-style workspace where your team and its AI agents (Claude Code, Codex, GitHub Copilot, and more) work as teammates in channels, threads, DMs, and shared tasks. Your data stays on your machines."
@@ -194,9 +150,58 @@ repos:
       - "slack-alternative"
       - "typescript"
       - "websocket"
-    stars_fact: 203
+    stars_fact: 212
     first_seen: null
     last_push: "2026-08-22"
+  - name: "ai-engineering-from-scratch-zh"
+    title: "ai-engineering-from-scratch-zh"
+    description: "Agent工程师最全学习路径 · 从零精通 AI 工程 · 20 阶段 503 课 · 中文全量翻译 + 配套站点 + 动画讲解视频 · 如何成为 AI Agent 工程师的修成指南"
+    language: "Python"
+    topics:
+      - "agents"
+      - "ai"
+      - "ai-agents"
+      - "ai-engineering"
+      - "chinese"
+      - "chinese-translation"
+      - "computer-vision"
+      - "course"
+      - "deep-learning"
+      - "from-scratch"
+      - "generative-ai"
+      - "learn-ai"
+      - "llm"
+      - "machine-learning"
+      - "mcp"
+      - "nlp"
+      - "python"
+      - "reinforcement-learning"
+      - "transformers"
+      - "tutorial"
+    stars_fact: 1251
+    first_seen: null
+    last_push: "2026-10-16"
+  - name: "weixin_search_mcp"
+    title: "weixin_search_mcp"
+    description: "微信公众号搜索，及文章内容获取，大模型mcp服务"
+    language: "Python"
+    topics: []
+    stars_fact: 189
+    first_seen: null
+    last_push: "2026-08-17"
+  - name: "claude-style-illustration"
+    title: "claude-style-illustration"
+    description: "Claude-inspired editorial illustrations: one idea, a few bold marks. An Agent Skill with seven original examples."
+    language: null
+    topics:
+      - "agent-skills"
+      - "claude"
+      - "codex"
+      - "illustration"
+      - "image-generation"
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-09-07"
 ---
 
 # fancyboi999

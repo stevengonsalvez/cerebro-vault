@@ -8,11 +8,11 @@ provenance_repos:
   - "anomalyco/opencode"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+repos_populated: false
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [5, 5, 7, 8, 3, 1, 0, 0, 5, 5, 4, 6, 2]
+pushes_per_week: [5, 5, 8, 7, 4, 0, 0, 1, 5, 4, 5, 5, 2]
 windows:
   "7d":
     pushes: 2
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 19
+    pushes: 18
     distinct_repos: 7
-    active_days: 14
+    active_days: 13
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 19
+    pushes: 18
     distinct_repos: 7
-    pushes_per_repo: 2.7143
-    active_days: 14
+    pushes_per_repo: 2.5714
+    active_days: 13
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
@@ -76,63 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 36 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "small-app-gardener"
-    title: "small-app-gardener"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-16"
-  - name: "skills"
-    title: "skills"
-    description: "A catalog of public agent skill packages I maintain and use"
-    language: null
-    topics: []
-    stars_fact: 13
-    first_seen: null
-    last_push: "2026-10-15"
-  - name: "paper-app-skill"
-    title: "paper-app-skill"
-    description: "Agent skill for working in the Paper design app through its MCP server"
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-15"
-  - name: "swiss-design-skill"
-    title: "swiss-design-skill"
-    description: "A Swiss International Style design system skill for AI agents"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 157
-    first_seen: null
-    last_push: "2026-09-24"
-  - name: "slop.how"
-    title: "slop.how"
-    description: "A fast and free API for detecting sloppy text"
-    language: "TypeScript"
-    topics:
-      - "ai-writing"
-      - "clef"
-      - "cloudflare-workers"
-      - "hono"
-      - "llms-txt"
-      - "slop"
-      - "workers-ai"
-      - "writing"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-15"
-  - name: "agents.md"
-    title: "agents.md"
-    description: "My global instructions for AI agents like OpenCode"
-    language: null
-    topics: []
-    stars_fact: 156
-    first_seen: null
-    last_push: "2026-10-13"
+repos: []
 ---
 
 # zeke

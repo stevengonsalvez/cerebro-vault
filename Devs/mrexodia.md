@@ -10,11 +10,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "48dbbdd8fd0d3029"
   - "de6bf05613f3ae04"
-pushes_per_week: [13, 7, 5, 7, 4, 3, 0, 0, 6, 6, 3, 3, 0]
+pushes_per_week: [9, 6, 8, 3, 7, 0, 0, 1, 5, 8, 1, 3, 0]
 windows:
   "7d":
     pushes: 0
@@ -24,25 +24,25 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 16
+    pushes: 15
     distinct_repos: 10
-    active_days: 11
+    active_days: 10
     repos_not_owned: 6
     not_owned_basenames: 6
     not_owned_owners: 3
   "90d":
-    pushes: 57
-    distinct_repos: 29
-    active_days: 32
+    pushes: 51
+    distinct_repos: 27
+    active_days: 31
     repos_not_owned: 13
     not_owned_basenames: 11
     not_owned_owners: 5
 automation:
   state: "clear"
-  push_per_day: 1.7812
-  repo_per_active_day: 0.9062
-  not_owned_ratio: 0.4483
-  basename_concentration: 0.1034
+  push_per_day: 1.6452
+  repo_per_active_day: 0.8710
+  not_owned_ratio: 0.4815
+  basename_concentration: 0.1111
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -59,26 +59,39 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 16
+    pushes: 15
     distinct_repos: 10
-    pushes_per_repo: 1.6000
-    active_days: 11
+    pushes_per_repo: 1.5000
+    active_days: 10
     repos_not_owned: 6
     not_owned_basenames: 6
     not_owned_owners: 3
   "90d":
-    pushes: 57
-    distinct_repos: 29
-    pushes_per_repo: 1.9655
-    active_days: 32
+    pushes: 51
+    distinct_repos: 27
+    pushes_per_repo: 1.8889
+    active_days: 31
     repos_not_owned: 13
     not_owned_basenames: 11
     not_owned_owners: 5
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 32 active days in 90d — pass"
+  - "activity: 31 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "TitanHide"
+    title: "TitanHide"
+    description: "Hiding kernel-driver for x86/x64."
+    language: "C"
+    topics:
+      - "anti-debugging"
+      - "driver"
+      - "hacktoberfest"
+      - "rootkit"
+      - "windows"
+    stars_fact: 2908
+    first_seen: null
+    last_push: "2026-07-18"
   - name: "ida-pro-mcp"
     title: "ida-pro-mcp"
     description: "AI-powered reverse engineering assistant that bridges IDA Pro with language models through MCP."
@@ -93,22 +106,9 @@ repos:
       - "mcp-server"
       - "modelcontextprotocol"
       - "reverse-engineering"
-    stars_fact: 12599
+    stars_fact: 12989
     first_seen: null
     last_push: "2026-09-26"
-  - name: "TitanHide"
-    title: "TitanHide"
-    description: "Hiding kernel-driver for x86/x64."
-    language: "C"
-    topics:
-      - "anti-debugging"
-      - "driver"
-      - "hacktoberfest"
-      - "rootkit"
-      - "windows"
-    stars_fact: 2897
-    first_seen: null
-    last_push: "2026-07-18"
   - name: "toilet-pi"
     title: "toilet-pi"
     description: "Control pi sessions across machines with your browser (or mobile PWA)."
@@ -118,72 +118,35 @@ repos:
       - "pi-extension"
     stars_fact: 37
     first_seen: null
-    last_push: "2026-10-09"
-  - name: "dumpulator"
-    title: "dumpulator"
-    description: "An easy-to-use library for emulating memory dumps. Useful for malware analysis (config extraction, unpacking) and dynamic analysis in general (sandboxing)."
-    language: "C"
-    topics:
-      - "cross-platform"
-      - "debugging-tools"
-      - "easy-to-use"
-      - "emulator"
-      - "hacktoberfest"
-      - "malware"
-      - "malware-analysis"
-      - "malware-analyzer"
-      - "malware-research"
-      - "minidump"
-      - "python"
-      - "python3"
-      - "reverse-engineering"
-      - "sandbox"
-      - "unicorn"
-      - "unpacking"
-      - "windows"
-      - "windows-internals"
-      - "x64"
-    stars_fact: 886
-    first_seen: null
-    last_push: "2024-02-02"
-  - name: "phnt-single-header"
-    title: "phnt-single-header"
-    description: "Single header version of System Informer's phnt library."
-    language: "CMake"
-    topics:
-      - "debugger"
-      - "native"
-      - "processhacker"
-      - "sdk"
-      - "security"
-      - "systeminformer"
-      - "wdk"
-      - "windows"
-      - "windows-internals"
-    stars_fact: 253
-    first_seen: null
-    last_push: "2026-03-27"
-  - name: "rosetta-multipass"
-    title: "rosetta-multipass"
-    description: "Use Rosetta to run amd64 binaries on your M1 with Multipass."
+    last_push: "2026-10-17"
+  - name: "ida-mcp-docker"
+    title: "ida-mcp-docker"
+    description: "Example Docker setup to analyze binaries with IDA Nexus MCP."
     language: "Python"
-    topics:
-      - "amd64"
-      - "m1"
-      - "m1-mac"
-      - "macos"
-      - "multipass"
-      - "rosetta"
-      - "virtualization"
-      - "x86"
-      - "x86-64"
-    stars_fact: 42
+    topics: []
+    stars_fact: 10
     first_seen: null
-    last_push: "2023-03-28"
+    last_push: "2026-10-17"
+  - name: "sage-miasm"
+    title: "sage-miasm"
+    description: "[Slop] Implementation of SAGE on top of miasm."
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-17"
+  - name: "DarkSouls3.TextViewer"
+    title: "DarkSouls3.TextViewer"
+    description: "This tool helps you view all in-game text of Dark Souls 3."
+    language: "C#"
+    topics: []
+    stars_fact: 13
+    first_seen: null
+    last_push: "2017-03-30"
 ---
 
 # mrexodia
 
-57 pushes across 29 repositories on 32 active days in the last 90 days of public GitHub push activity.
+51 pushes across 27 repositories on 31 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/mrexodia

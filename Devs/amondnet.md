@@ -10,23 +10,23 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "0b22ca37fd3884c9"
   - "c489e6fb5febf2ab"
-pushes_per_week: [17, 14, 6, 10, 3, 3, 0, 20, 35, 12, 16, 14, 6]
+pushes_per_week: [17, 14, 6, 11, 2, 3, 0, 20, 36, 11, 21, 9, 6]
 windows:
   "7d":
-    pushes: 7
-    distinct_repos: 4
-    active_days: 4
-    repos_not_owned: 3
-    not_owned_basenames: 3
-    not_owned_owners: 2
+    pushes: 6
+    distinct_repos: 3
+    active_days: 3
+    repos_not_owned: 2
+    not_owned_basenames: 2
+    not_owned_owners: 1
   "30d":
-    pushes: 58
+    pushes: 54
     distinct_repos: 12
-    active_days: 19
+    active_days: 18
     repos_not_owned: 11
     not_owned_basenames: 10
     not_owned_owners: 4
@@ -51,18 +51,18 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 7
-    distinct_repos: 4
-    pushes_per_repo: 1.7500
-    active_days: 4
-    repos_not_owned: 3
-    not_owned_basenames: 3
-    not_owned_owners: 2
+    pushes: 6
+    distinct_repos: 3
+    pushes_per_repo: 2.0000
+    active_days: 3
+    repos_not_owned: 2
+    not_owned_basenames: 2
+    not_owned_owners: 1
   "30d":
-    pushes: 58
+    pushes: 54
     distinct_repos: 12
-    pushes_per_repo: 4.8333
-    active_days: 19
+    pushes_per_repo: 4.5000
+    active_days: 18
     repos_not_owned: 11
     not_owned_basenames: 10
     not_owned_owners: 4
@@ -86,7 +86,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-10"
+    last_push: "2026-10-17"
   - name: "vercel-action"
     title: "vercel-action"
     description: "This action make a deployment with github actions instead of Vercel builder."

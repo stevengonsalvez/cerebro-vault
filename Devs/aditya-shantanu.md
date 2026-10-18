@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "a5ffcd0a46dd44fd"
-pushes_per_week: [21, 3, 0, 3, 0, 0, 0, 0, 2, 5, 11, 8, 0]
+pushes_per_week: [20, 3, 0, 3, 0, 0, 0, 0, 2, 5, 11, 8, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,7 +29,7 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 53
+    pushes: 52
     distinct_repos: 6
     active_days: 21
     repos_not_owned: 1
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.5238
+  push_per_day: 2.4762
   repo_per_active_day: 0.2857
   not_owned_ratio: 0.1667
   basename_concentration: 0.1667
@@ -65,9 +65,9 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 53
+    pushes: 52
     distinct_repos: 6
-    pushes_per_repo: 8.8333
+    pushes_per_repo: 8.6667
     active_days: 21
     repos_not_owned: 1
     not_owned_basenames: 1
@@ -84,19 +84,19 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-10"
+    last_push: "2026-10-15"
   - name: "ai-agent-service"
     title: "ai-agent-service"
     description: null
     language: "Go"
     topics: []
-    stars_fact: 2
+    stars_fact: 3
     first_seen: null
     last_push: "2026-07-23"
 ---
 
 # aditya-shantanu
 
-53 pushes across 6 repositories on 21 active days in the last 90 days of public GitHub push activity.
+52 pushes across 6 repositories on 21 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/aditya-shantanu

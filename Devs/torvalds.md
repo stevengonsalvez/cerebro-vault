@@ -8,11 +8,11 @@ provenance_repos:
   - "torvalds/linux"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+repos_populated: false
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "8a1948cc7f7c09c4"
-pushes_per_week: [4, 5, 0, 2, 3, 1, 0, 0, 2, 3, 3, 3, 3]
+pushes_per_week: [4, 5, 0, 3, 2, 1, 0, 0, 3, 3, 5, 2, 1]
 windows:
   "7d":
     pushes: 3
@@ -76,55 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 22 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "linux"
-    title: "linux"
-    description: "Linux kernel source tree"
-    language: "C"
-    topics: []
-    stars_fact: 252095
-    first_seen: "2026-08-23T06:00:01.522669+00:00"
-    last_push: "2026-10-15"
-  - name: "AudioNoise"
-    title: "AudioNoise"
-    description: "Random digital audio effects"
-    language: "C"
-    topics: []
-    stars_fact: 4513
-    first_seen: null
-    last_push: "2026-05-08"
-  - name: "ScrollWheel"
-    title: "ScrollWheel"
-    description: "Minimalist RP2350 magnetic sensor scroll wheel toy project"
-    language: "C"
-    topics: []
-    stars_fact: 381
-    first_seen: null
-    last_push: "2026-06-02"
-  - name: "GuitarPedal"
-    title: "GuitarPedal"
-    description: "Linus learns analog circuits"
-    language: "C"
-    topics: []
-    stars_fact: 2457
-    first_seen: null
-    last_push: "2026-10-15"
-  - name: "HunspellColorize"
-    title: "HunspellColorize"
-    description: "Wrapper around 'less' to colorize spelling mistakes using Hunspell"
-    language: "C"
-    topics: []
-    stars_fact: 391
-    first_seen: null
-    last_push: "2026-01-19"
-  - name: "uemacs"
-    title: "uemacs"
-    description: "Random version of microemacs with my private modificatons"
-    language: "C"
-    topics: []
-    stars_fact: 2168
-    first_seen: null
-    last_push: "2026-08-06"
+repos: []
 ---
 
 # torvalds

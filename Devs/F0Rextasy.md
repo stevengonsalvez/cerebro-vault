@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 3, 0, 20, 8, 31, 0]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 3, 0, 28, 7, 24, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,113 +77,102 @@ reasons:
   - "activity: 10 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "omp-laya-judge"
-    title: "omp-laya-judge"
-    description: "Local Laya System-1 judge MCP server + skill for oh-my-pi: typed decisions in milliseconds, zero LLM tokens"
-    language: "HTML"
+  - name: "enlyai-bulk-apikey"
+    title: "enlyai-bulk-apikey"
+    description: "Bulk-create EnlyAI accounts with auto-generated API keys — OpenAI-compatible inference + 9Router connector."
+    language: "JavaScript"
     topics:
-      - "agent-skills"
-      - "ai-agents"
-      - "claude-code"
+      - "9router"
+      - "api-keys"
+      - "bulk"
+      - "enlyai"
+      - "openai-compatible"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-18"
+  - name: "ptero-bulk-apikey"
+    title: "ptero-bulk-apikey"
+    description: "Bulk-mint ptero.pro identities (no signup) and serve deepseek-v4.1-flash through a local OpenAI shim — 9Router connector"
+    language: "JavaScript"
+    topics:
+      - "9router"
+      - "api-keys"
+      - "bulk"
+      - "deepseek"
       - "llm"
-      - "local-llm"
-      - "mcp"
-      - "mcp-server"
-      - "model-context-protocol"
-      - "oh-my-pi"
-    stars_fact: 7
-    first_seen: null
-    last_push: "2026-09-26"
-  - name: "llms-audit"
-    title: "llms-audit"
-    description: "Audit any site for the AI-answer era: llms.txt, schema, sitemap → score + fix list."
-    language: "TypeScript"
-    topics:
-      - "ai-search"
-      - "audit"
-      - "cli"
-      - "geo"
-      - "llms-txt"
-      - "mcp"
-      - "seo"
-      - "sitemap"
-      - "structured-data"
-      - "web"
+      - "no-signup"
+      - "nodejs"
+      - "openai-compatible"
+      - "proxy"
+      - "ptero"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-25"
-  - name: "llm-receipts"
-    title: "llm-receipts"
-    description: "Every LLM call gets a local receipt: per-command showback, budget caps, monthly diff."
-    language: "TypeScript"
+    last_push: "2026-10-17"
+  - name: "codiv-bulk-apikey"
+    title: "codiv-bulk-apikey"
+    description: "Bulk-create codiv.ai accounts + API keys (100M free tokens each) — 9Router connector"
+    language: "JavaScript"
     topics:
-      - "budget"
-      - "claude-code"
-      - "cli"
-      - "codex"
-      - "cost-tracking"
-      - "finops"
+      - "9router"
+      - "api-keys"
+      - "bulk"
+      - "codiv"
+      - "openai-compatible"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-17"
+  - name: "cline-bulk-apikey"
+    title: "cline-bulk-apikey"
+    description: "Bulk-create Cline API keys (workos bearer) — 9Router connector"
+    language: "JavaScript"
+    topics:
+      - "9router"
+      - "api-keys"
+      - "bulk"
+      - "cline"
+      - "openai-compatible"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-17"
+  - name: "leostudio-bulk-apikey"
+    title: "leostudio-bulk-apikey"
+    description: "Bulk-create Leo Studio accounts with auto-generated API keys — OpenAI-compatible inference + 9Router connector."
+    language: "JavaScript"
+    topics:
+      - "9router"
+      - "ai"
+      - "api-key"
+      - "bulk"
+      - "leostudio"
       - "llm"
-      - "offline-first"
-      - "showback"
-      - "sqlite"
+      - "newapi"
+      - "openai-compatible"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-25"
-  - name: "devline"
-    title: "devline"
-    description: "Offline dev timeline: shell+editor+agent hooks into one SQLite file; ask what you did Friday."
-    language: "Python"
+    last_push: "2026-10-16"
+  - name: "dahl-bulk-apikey"
+    title: "dahl-bulk-apikey"
+    description: "Bulk-create Dahl Inference accounts with auto-generated API keys — OpenAI-compatible inference + 9Router connector."
+    language: "JavaScript"
     topics:
+      - "9router"
+      - "account-generator"
+      - "ai"
+      - "api-key"
+      - "bulk"
+      - "bulk-registration"
       - "cli"
-      - "devtools"
-      - "local-first"
-      - "mcp"
-      - "offline"
-      - "productivity"
-      - "python"
-      - "sqlite"
-      - "time-tracking"
-      - "windows"
+      - "dahl"
+      - "inference"
+      - "launcher"
+      - "llm"
+      - "newapi"
+      - "nodejs"
+      - "openai-compatible"
+      - "proxy"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-25"
-  - name: "clipcut"
-    title: "clipcut"
-    description: "Long MP4 in, viral clips + chapters + captions out — CPU-only, no editor, no GPU."
-    language: "Python"
-    topics:
-      - "captions"
-      - "cli"
-      - "content-creation"
-      - "cpu-only"
-      - "ffmpeg"
-      - "offline-first"
-      - "shorts"
-      - "video"
-      - "whisper"
-      - "windows"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-25"
-  - name: "afftest"
-    title: "afftest"
-    description: "git diff in, blocking test list out: repo-agnostic GHA test picker with saved-minutes estimate."
-    language: "TypeScript"
-    topics:
-      - "ci-cd"
-      - "cli"
-      - "developer-tools"
-      - "devops"
-      - "git"
-      - "github-actions"
-      - "monorepo"
-      - "offline-first"
-      - "test-automation"
-      - "testing"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-25"
+    last_push: "2026-10-16"
 ---
 
 # F0Rextasy

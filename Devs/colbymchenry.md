@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "5ae8aede20b52732"
-pushes_per_week: [7, 0, 0, 0, 0, 0, 0, 0, 2, 3, 35, 9, 5]
+pushes_per_week: [4, 0, 0, 0, 0, 0, 0, 0, 2, 18, 20, 9, 5]
 windows:
   "7d":
-    pushes: 6
+    pushes: 5
     distinct_repos: 1
-    active_days: 4
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 61
+    pushes: 58
     distinct_repos: 2
-    active_days: 19
+    active_days: 17
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 3.2105
-  repo_per_active_day: 0.1053
+  push_per_day: 3.4118
+  repo_per_active_day: 0.1176
   not_owned_ratio: 0.0000
   basename_concentration: 0.5000
   shapes: []
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 6
+    pushes: 5
     distinct_repos: 1
-    pushes_per_repo: 6.0000
-    active_days: 4
+    pushes_per_repo: 5.0000
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 61
+    pushes: 58
     distinct_repos: 2
-    pushes_per_repo: 30.5000
-    active_days: 19
+    pushes_per_repo: 29.0000
+    active_days: 17
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 19 active days in 90d — pass"
+  - "activity: 17 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "codegraph"
@@ -82,9 +82,17 @@ repos:
     description: "Pre-indexed code knowledge graph, auto syncs on code changes, for Claude Code, Codex, Gemini, Cursor, OpenCode, AntiGravity, Kiro, CoPilot, and Hermes Agent — fewer tokens, fewer tool calls, 100% local"
     language: "C"
     topics: []
-    stars_fact: 73637
+    stars_fact: 74345
     first_seen: "2026-10-01T06:00:50.112518+00:00"
-    last_push: "2026-10-10"
+    last_push: "2026-10-17"
+  - name: "claude-context-menu"
+    title: "claude-context-menu"
+    description: null
+    language: "Shell"
+    topics: []
+    stars_fact: 8
+    first_seen: null
+    last_push: "2026-02-19"
   - name: "frontend-audit-skill"
     title: "frontend-audit-skill"
     description: "Measured visual-regression gate for frontends. Compares live renders to design PNGs."
@@ -101,14 +109,6 @@ repos:
     stars_fact: 20
     first_seen: null
     last_push: "2026-03-24"
-  - name: "claude-context-menu"
-    title: "claude-context-menu"
-    description: null
-    language: "Shell"
-    topics: []
-    stars_fact: 7
-    first_seen: null
-    last_push: "2026-02-19"
   - name: "n8n-gcp-firebase"
     title: "n8n-gcp-firebase"
     description: "Deploy an n8n instance to Cloud Run"
@@ -129,6 +129,6 @@ repos:
 
 # colbymchenry
 
-61 pushes across 2 repositories on 19 active days in the last 90 days of public GitHub push activity.
+58 pushes across 2 repositories on 17 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/colbymchenry

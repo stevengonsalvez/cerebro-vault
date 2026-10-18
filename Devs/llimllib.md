@@ -9,13 +9,13 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-16T08:30:18.142355+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "1be978947e68d1f2"
   - "98a2deac3e2f9725"
   - "b949a65ff91f9791"
   - "e9879ff70aa53e1e"
-pushes_per_week: [0, 0, 4, 0, 0, 0, 0, 0, 6, 0, 7, 0, 4]
+pushes_per_week: [0, 1, 3, 0, 0, 0, 0, 4, 2, 0, 7, 1, 3]
 windows:
   "7d":
     pushes: 4
@@ -83,11 +83,11 @@ repos:
   - name: "nba_data"
     title: "nba_data"
     description: "Up to date NBA data dumps from stats.nba.com and ESPN Analytics"
-    language: "Jupyter Notebook"
+    language: "Python"
     topics: []
     stars_fact: 11
     first_seen: null
-    last_push: "2026-10-10"
+    last_push: "2026-10-18"
   - name: "obsidian-archive"
     title: "obsidian-archive"
     description: null
@@ -95,39 +95,39 @@ repos:
     topics: []
     stars_fact: 2
     first_seen: null
-    last_push: "2026-10-08"
-  - name: "caportland"
-    title: "caportland"
-    description: "caportland.me website"
+    last_push: "2026-10-18"
+  - name: "netmon"
+    title: "netmon"
+    description: null
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-14"
+  - name: "hyzer.cloud"
+    title: "hyzer.cloud"
+    description: null
     language: "HTML"
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-10-08"
-  - name: "brightlantern"
-    title: "brightlantern"
+    last_push: "2026-10-14"
+  - name: "transcribe"
+    title: "transcribe"
     description: null
-    language: "Go"
+    language: "Swift"
     topics: []
-    stars_fact: 0
+    stars_fact: 4
     first_seen: null
-    last_push: "2026-10-08"
-  - name: "flightguide"
-    title: "flightguide"
-    description: null
+    last_push: "2026-10-01"
+  - name: "personal_code"
+    title: "personal_code"
+    description: "random code that I have lying around"
     language: "HTML"
     topics: []
-    stars_fact: 0
+    stars_fact: 52
     first_seen: null
-    last_push: "2026-10-08"
-  - name: "homebrew-tap"
-    title: "homebrew-tap"
-    description: null
-    language: "Ruby"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-08"
+    last_push: "2026-10-13"
 ---
 
 # llimllib

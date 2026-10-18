@@ -11,12 +11,12 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "16389f32495280ea"
   - "234088bc43763aa2"
   - "4d1450729e6ff44d"
-pushes_per_week: [31, 12, 18, 60, 17, 5, 2, 8, 9, 4, 10, 6, 4]
+pushes_per_week: [25, 14, 19, 58, 16, 4, 1, 11, 6, 4, 11, 6, 3]
 windows:
   "7d":
     pushes: 4
@@ -33,16 +33,16 @@ windows:
     not_owned_basenames: 4
     not_owned_owners: 2
   "90d":
-    pushes: 186
+    pushes: 178
     distinct_repos: 48
-    active_days: 55
+    active_days: 54
     repos_not_owned: 6
     not_owned_basenames: 6
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 3.3818
-  repo_per_active_day: 0.8727
+  push_per_day: 3.2963
+  repo_per_active_day: 0.8889
   not_owned_ratio: 0.1250
   basename_concentration: 0.0417
   shapes: []
@@ -69,18 +69,26 @@ facets:
     not_owned_basenames: 4
     not_owned_owners: 2
   "90d":
-    pushes: 186
+    pushes: 178
     distinct_repos: 48
-    pushes_per_repo: 3.8750
-    active_days: 55
+    pushes_per_repo: 3.7083
+    active_days: 54
     repos_not_owned: 6
     not_owned_basenames: 6
     not_owned_owners: 3
 reasons:
   - "provenance: 3 vault signal(s) — pass"
-  - "activity: 55 active days in 90d — pass"
+  - "activity: 54 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "lint-md-moejs"
+    title: "lint-md-moejs"
+    description: "验证能否在不依赖 Node.js 运行时的情况下，复用 lint-md 的 JavaScript 解析器和规则引擎。"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-14"
   - name: "ctxgo"
     title: "ctxgo"
     description: "A lightweight, local-first context runtime for AI coding agents, built in Go."
@@ -113,7 +121,7 @@ repos:
       - "learn"
     stars_fact: 1
     first_seen: null
-    last_push: "2026-10-02"
+    last_push: "2026-10-16"
   - name: "Agent-Harness-Runtime"
     title: "Agent-Harness-Runtime"
     description: null
@@ -122,18 +130,10 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-09-11"
-  - name: "itea.fit"
-    title: "itea.fit"
-    description: "iTea Tools is the navigation site for the online tools"
-    language: "HTML"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-04"
 ---
 
 # luojiyin1987
 
-186 pushes across 48 repositories on 55 active days in the last 90 days of public GitHub push activity.
+178 pushes across 48 repositories on 54 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/luojiyin1987

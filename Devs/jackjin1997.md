@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-16T08:30:18.142355+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "dffbb846389f9a26"
-pushes_per_week: [0, 4, 0, 0, 0, 0, 0, 1, 4, 1, 0, 0, 0]
+pushes_per_week: [2, 2, 0, 0, 0, 0, 1, 1, 4, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,6 +77,14 @@ reasons:
   - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "github-trending-analyzer"
+    title: "github-trending-analyzer"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-12"
   - name: "douban-mcp"
     title: "douban-mcp"
     description: "面向 agent 的豆瓣 MCP server + CLI：电影/图书查询、个人收藏管理；同时支持 Claude Desktop (stdio/SSE) 与 Claude Code/OpenClaw 等命令行 agent。"
@@ -93,14 +101,6 @@ repos:
     stars_fact: 12
     first_seen: null
     last_push: "2026-07-25"
-  - name: "github-trending-analyzer"
-    title: "github-trending-analyzer"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-05"
   - name: "ClawForge"
     title: "ClawForge"
     description: "🦞 The Ultimate Resource for OpenClaw: Skills, MCP Servers, and Agentic Intelligence. Powering the next generation of personal AI assistants."

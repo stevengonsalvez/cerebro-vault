@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "01cd6a498d377caf"
   - "03604cccd7e9402d"
@@ -74,7 +74,7 @@ provenance:
   - "fd1cb9e783625459"
   - "fe9e50bf2d5b21fe"
   - "ff1ca072bf39e471"
-pushes_per_week: [3, 5, 2, 2, 1, 6, 0, 0, 3, 2, 6, 3, 0]
+pushes_per_week: [4, 5, 0, 2, 3, 4, 0, 1, 2, 2, 6, 3, 0]
 windows:
   "7d":
     pushes: 0
@@ -91,16 +91,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 33
+    pushes: 32
     distinct_repos: 2
-    active_days: 23
+    active_days: 22
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.4348
-  repo_per_active_day: 0.0870
+  push_per_day: 1.4545
+  repo_per_active_day: 0.0909
   not_owned_ratio: 0.0000
   basename_concentration: 0.5000
   shapes: []
@@ -127,34 +127,18 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 33
+    pushes: 32
     distinct_repos: 2
-    pushes_per_repo: 16.5000
-    active_days: 23
+    pushes_per_repo: 16.0000
+    active_days: 22
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 63 vault signal(s) — pass"
-  - "activity: 23 active days in 90d — pass"
+  - "activity: 22 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "pi-bites"
-    title: "pi-bites"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-09"
-  - name: "nixos-config"
-    title: "nixos-config"
-    description: "my nixos config"
-    language: "Python"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-26"
   - name: "nvim"
     title: "nvim"
     description: "BLAZINGLY typical, personal neovim config"
@@ -165,7 +149,23 @@ repos:
       - "neovim-configuration"
     stars_fact: 13
     first_seen: null
-    last_push: "2026-09-04"
+    last_push: "2026-10-18"
+  - name: "nixos-config"
+    title: "nixos-config"
+    description: "my nixos config"
+    language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-18"
+  - name: "pi-bites"
+    title: "pi-bites"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-15"
   - name: "rustwasm-sweeper"
     title: "rustwasm-sweeper"
     description: "minesweeper in the browser using full rust with wasm"
@@ -194,6 +194,6 @@ repos:
 
 # jamestrew
 
-33 pushes across 2 repositories on 23 active days in the last 90 days of public GitHub push activity.
+32 pushes across 2 repositories on 22 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/jamestrew

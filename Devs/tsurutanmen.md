@@ -8,11 +8,11 @@ provenance_repos:
   - "chaitanyagiri/munder-difflin"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+repos_populated: false
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "e5b23adc376a62a9"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 2, 1, 1, 3, 1]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 2, 0, 1, 3, 1, 1]
 windows:
   "7d":
     pushes: 1
@@ -76,81 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "pocketgpu-setup"
-    title: "pocketgpu-setup"
-    description: "Setup and repair tools for PocketGPU (phone as a second GPU, webcam and mic for Windows)"
-    language: "PowerShell"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-15"
-  - name: "lang-keeper"
-    title: "lang-keeper"
-    description: "Keeps Claude Code's replies and progress notes in the language you write in"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-04"
-  - name: "session-bridge"
-    title: "session-bridge"
-    description: "Talk to your Claude Code sessions from other sessions, your voice, or any local program. Meetings between two sessions, and a talk button."
-    language: "TypeScript"
-    topics:
-      - "claude"
-      - "claude-code"
-      - "claude-code-mod"
-      - "claude-code-plugin"
-      - "multi-agent"
-      - "voice-assistant"
-      - "windows"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-04"
-  - name: "claude-desk"
-    title: "claude-desk"
-    description: "Say ヘイ、クロード to talk to your Claude Code sessions, plus a wallpaper that shows them (Windows, Japanese)"
-    language: "Python"
-    topics:
-      - "claude"
-      - "claude-code"
-      - "voice-assistant"
-      - "voicevox"
-      - "vosk"
-      - "wake-word"
-      - "wallpaper-engine"
-      - "windows"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-04"
-  - name: "session-dash"
-    title: "session-dash"
-    description: "Claude Code mod: usage limits above the prompt, background work and every open session in a pane"
-    language: "TypeScript"
-    topics:
-      - "claude"
-      - "claude-code"
-      - "claude-code-mod"
-      - "claude-code-plugin"
-      - "statusline"
-      - "usage-limits"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-04"
-  - name: "homedot-panel"
-    title: "homedot-panel"
-    description: "homedot agents and your 5-hour limit in Claude Code's status line, plus a /dots pane."
-    language: "TypeScript"
-    topics:
-      - "claude"
-      - "claude-code"
-      - "claude-code-mod"
-      - "claude-code-plugin"
-      - "statusline"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-03"
+repos: []
 ---
 
 # tsurutanmen

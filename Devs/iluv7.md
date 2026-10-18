@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "c489e6fb5febf2ab"
-pushes_per_week: [2, 0, 5, 1, 1, 0, 0, 1, 0, 2, 3, 1, 0]
+pushes_per_week: [2, 0, 6, 0, 1, 0, 0, 1, 0, 2, 3, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,6 +77,14 @@ reasons:
   - "activity: 13 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "DiegoC-Harness-2.0"
+    title: "DiegoC-Harness-2.0"
+    description: "Deterministic multi-agent software delivery pipeline built on AgentScope"
+    language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-08-09"
   - name: "DiegoC-Agent"
     title: "DiegoC-Agent"
     description: "A CLI AI agent with MCP tools support, featuring interactive mode and customizable skills"
@@ -84,7 +92,7 @@ repos:
     topics: []
     stars_fact: 3
     first_seen: null
-    last_push: "2026-10-10"
+    last_push: "2026-10-17"
   - name: "agentscope-eval"
     title: "agentscope-eval"
     description: "Evaluation layer for AgentScope: execution status, tool correctness, and answer quality, powered by DeepEval."
@@ -101,14 +109,6 @@ repos:
     stars_fact: 3
     first_seen: null
     last_push: "2026-08-29"
-  - name: "DiegoC-workflow"
-    title: "DiegoC-workflow"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-22"
   - name: "DiegoC-Harness"
     title: "DiegoC-Harness"
     description: "纯提示词驱动的Agent Team Harness"
@@ -117,14 +117,14 @@ repos:
     stars_fact: 31
     first_seen: null
     last_push: "2026-07-31"
-  - name: "DiegoC-Harness-2.0"
-    title: "DiegoC-Harness-2.0"
-    description: "Deterministic multi-agent software delivery pipeline built on AgentScope"
-    language: "Python"
+  - name: "iluv7"
+    title: "iluv7"
+    description: null
+    language: null
     topics: []
-    stars_fact: 2
+    stars_fact: 1
     first_seen: null
-    last_push: "2026-08-09"
+    last_push: "2026-10-18"
 ---
 
 # iluv7

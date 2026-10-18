@@ -9,22 +9,22 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [4, 6, 3, 2, 0, 6, 4, 4, 18, 13, 16, 20, 4]
+pushes_per_week: [5, 5, 3, 2, 1, 7, 4, 3, 19, 12, 29, 7, 3]
 windows:
   "7d":
-    pushes: 4
+    pushes: 3
     distinct_repos: 1
-    active_days: 3
+    active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 70
-    distinct_repos: 17
-    active_days: 19
+    pushes: 67
+    distinct_repos: 16
+    active_days: 18
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 2
@@ -49,18 +49,18 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 4
+    pushes: 3
     distinct_repos: 1
-    pushes_per_repo: 4.0000
-    active_days: 3
+    pushes_per_repo: 3.0000
+    active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 70
-    distinct_repos: 17
-    pushes_per_repo: 4.1176
-    active_days: 19
+    pushes: 67
+    distinct_repos: 16
+    pushes_per_repo: 4.1875
+    active_days: 18
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 2
@@ -77,22 +77,6 @@ reasons:
   - "activity: 41 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "CapsuleDB"
-    title: "CapsuleDB"
-    description: "A TypeScript library for adding isolated, typed data modules and migrations to your app's existing database."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-08"
-  - name: "pi-extensions"
-    title: "pi-extensions"
-    description: "Pi extension for running Executor tools inside Pi"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-10-06"
   - name: "pagegraph"
     title: "pagegraph"
     description: "Route-declared SEO graph and audit toolkit for TanStack Start: sitemap/robots, React head, JSON-LD, Vite coverage gate, live audit, and Jev-backed link decisions."
@@ -110,15 +94,47 @@ repos:
       - "vite"
     stars_fact: 1
     first_seen: null
-    last_push: "2026-10-05"
-  - name: "effect-platform-cloudflare"
-    title: "effect-platform-cloudflare"
-    description: null
+    last_push: "2026-10-17"
+  - name: "pi-extensions"
+    title: "pi-extensions"
+    description: "Pi extension for running Executor tools inside Pi"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-10-17"
+  - name: "opencode-codex-control"
+    title: "opencode-codex-control"
+    description: "OpenCode plugin exposing Codex Computer Use and Chrome as native tools"
     language: "TypeScript"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-03"
+    last_push: "2026-10-16"
+  - name: "coding-agent-plugins"
+    title: "coding-agent-plugins"
+    description: "Collection of plugins for Claude Code and OpenCode"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-10-16"
+  - name: "opencode-plugin-executor"
+    title: "opencode-plugin-executor"
+    description: "OpenCode plugin that exposes the Executor tool catalog natively in Code Mode"
+    language: "TypeScript"
+    topics:
+      - "bun"
+      - "code-mode"
+      - "effect"
+      - "effect-ts"
+      - "executor"
+      - "opencode"
+      - "opencode-plugin"
+      - "typescript"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-16"
   - name: "wt"
     title: "wt"
     description: "Git worktree helper — create worktrees with gitignored file sync and automatic dependency install"
@@ -133,15 +149,7 @@ repos:
       - "worktree"
     stars_fact: 1
     first_seen: null
-    last_push: "2026-10-02"
-  - name: "coding-agent-plugins"
-    title: "coding-agent-plugins"
-    description: "Collection of plugins for Claude Code and OpenCode"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-09-23"
+    last_push: "2026-10-16"
 ---
 
 # aryasaatvik

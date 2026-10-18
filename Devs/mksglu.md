@@ -8,8 +8,8 @@ provenance_repos:
   - "mksglu/context-mode"
 admitted: true
 low_n: true
-repos_populated: true
-generated_at: "2026-10-16T08:30:18.142355+00:00"
+repos_populated: false
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "cfe6b1639c3c3094"
 pushes_per_week: [0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 10]
@@ -76,78 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 3 active days in 90d — below the 5-day line, LABELLED low-n (never suppressed)"
   - "automation: clear — pass"
-repos:
-  - name: "context-mode"
-    title: "context-mode"
-    description: "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks."
-    language: "TypeScript"
-    topics:
-      - "antigravity"
-      - "claude"
-      - "claude-code"
-      - "claude-code-hooks"
-      - "claude-code-plugins"
-      - "claude-code-skill"
-      - "codex"
-      - "codex-cli"
-      - "context-mode"
-      - "copilot"
-      - "cursor-plugin"
-      - "kiro"
-      - "mcp"
-      - "mcp-server"
-      - "mcp-tools"
-      - "openclaw"
-      - "opencode"
-      - "pi-agent"
-      - "skills"
-      - "zed-extension"
-    stars_fact: 26427
-    first_seen: "2026-10-01T06:00:50.107677+00:00"
-    last_push: "2026-10-11"
-  - name: "hatice"
-    title: "hatice"
-    description: "Hatice is an autonomous coding agent orchestration system."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 161
-    first_seen: null
-    last_push: "2026-05-15"
-  - name: "seclawai"
-    title: "seclawai"
-    description: "Secure autonomous AI agents in 60 seconds."
-    language: "TypeScript"
-    topics:
-      - "openclaw"
-    stars_fact: 33
-    first_seen: null
-    last_push: "2026-02-20"
-  - name: "workflais"
-    title: "workflais"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 13
-    first_seen: null
-    last_push: "2026-03-01"
-  - name: "browsirai"
-    title: "browsirai"
-    description: "Your browser. Your sessions. Your agent."
-    language: "TypeScript"
-    topics:
-      - "browser"
-      - "cdp"
-    stars_fact: 50
-    first_seen: null
-    last_push: "2026-03-26"
-  - name: "sequelize-ts"
-    title: "sequelize-ts"
-    description: "Starter Kit: Node JS, PostgreSQL, Express JS, TypeScript, Sequelize, TDD, Docker"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 28
-    first_seen: null
-    last_push: "2019-05-28"
+repos: []
 ---
 
 # mksglu

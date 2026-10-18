@@ -9,13 +9,13 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "97c4e9cb8b163ddb"
   - "c7515e0fa4368a55"
   - "d3abe74726b22711"
   - "e7c647c4d0689526"
-pushes_per_week: [0, 12, 0, 0, 0, 0, 0, 0, 2, 3, 2, 1, 0]
+pushes_per_week: [0, 12, 0, 0, 0, 0, 0, 0, 2, 3, 3, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -80,6 +80,16 @@ reasons:
   - "activity: 10 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "learning-papers"
+    title: "learning-papers"
+    description: "Landmark Papers in Machine Learning"
+    language: null
+    topics:
+      - "machine-learning"
+      - "papers"
+    stars_fact: 727
+    first_seen: null
+    last_push: "2026-07-08"
   - name: "dotfiles"
     title: "dotfiles"
     description: "Dan's dotfiles, deployed with GNU Stow"
@@ -96,16 +106,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-10-03"
-  - name: "learning-papers"
-    title: "learning-papers"
-    description: "Landmark Papers in Machine Learning"
-    language: null
-    topics:
-      - "machine-learning"
-      - "papers"
-    stars_fact: 726
-    first_seen: null
-    last_push: "2026-07-08"
   - name: "dt31"
     title: "dt31"
     description: "A toy assembly language implemented in Python."

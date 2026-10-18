@@ -10,13 +10,13 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "90688bf127241ceb"
-pushes_per_week: [2, 0, 1, 6, 2, 1, 0, 0, 1, 0, 3, 1, 4]
+pushes_per_week: [2, 0, 1, 8, 1, 0, 0, 0, 1, 0, 3, 3, 2]
 windows:
   "7d":
-    pushes: 4
+    pushes: 3
     distinct_repos: 1
     active_days: 2
     repos_not_owned: 0
@@ -50,9 +50,9 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 4
+    pushes: 3
     distinct_repos: 1
-    pushes_per_repo: 4.0000
+    pushes_per_repo: 3.0000
     active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -83,17 +83,9 @@ repos:
     description: "An enhanced tool for CodexApp, striving to make Codex better to use and more comfortable 一个CodexApp的增强工具，努力让Codex变得更好用更舒服"
     language: "Rust"
     topics: []
-    stars_fact: 31951
+    stars_fact: 32306
     first_seen: "2026-06-27T06:00:03.973664+00:00"
-    last_push: "2026-10-09"
-  - name: "CodexPlusPlusScriptMarket"
-    title: "CodexPlusPlusScriptMarket"
-    description: null
-    language: "JavaScript"
-    topics: []
-    stars_fact: 44
-    first_seen: null
-    last_push: "2026-09-30"
+    last_push: "2026-10-18"
   - name: "Ad-List"
     title: "Ad-List"
     description: null
@@ -101,7 +93,35 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-08"
+    last_push: "2026-10-15"
+  - name: "ai-status-monitor"
+    title: "ai-status-monitor"
+    description: "Lightweight self-hosted AI endpoint status monitor with real model checks"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-08-19"
+  - name: "CodexPlusPlusScriptMarket"
+    title: "CodexPlusPlusScriptMarket"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 47
+    first_seen: null
+    last_push: "2026-10-12"
+  - name: "dsh-session-delete"
+    title: "dsh-session-delete"
+    description: "Unofficial delete-session plugin for DeepSeek Harness (dsh): Session menu row + in-app dialog, host Fetch route on the authenticated /api channel, and queued deletion for mounted sessions. Ships offline host/client tests."
+    language: "JavaScript"
+    topics:
+      - "cordis"
+      - "deepseek-harness"
+      - "dsh"
+      - "plugin"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-13"
   - name: "CodexPlusPlusPluginCache"
     title: "CodexPlusPlusPluginCache"
     description: "Redistributable Codex plugin package cache and Git marketplace, with API-key installation validation"
@@ -110,26 +130,6 @@ repos:
     stars_fact: 1
     first_seen: null
     last_push: "2026-10-08"
-  - name: "CodexPlusPlus-Themes"
-    title: "CodexPlusPlus-Themes"
-    description: "Codex++ 社区主题市场：浏览、安装和通过 Pull Request 投稿 Dream Skin 主题"
-    language: "JavaScript"
-    topics:
-      - "codex"
-      - "codexplusplus"
-      - "dream-skin"
-      - "themes"
-    stars_fact: 7
-    first_seen: null
-    last_push: "2026-09-16"
-  - name: "ai-status-monitor"
-    title: "ai-status-monitor"
-    description: "Lightweight self-hosted AI endpoint status monitor with real model checks"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-08-19"
 ---
 
 # BigPizzaV3

@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [16, 9, 1, 0, 2, 3, 1, 4, 26, 26, 33, 8, 4]
+pushes_per_week: [13, 6, 1, 0, 4, 2, 0, 19, 16, 28, 26, 9, 3]
 windows:
   "7d":
-    pushes: 5
-    distinct_repos: 4
-    active_days: 4
+    pushes: 4
+    distinct_repos: 3
+    active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -29,7 +29,7 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 133
+    pushes: 127
     distinct_repos: 12
     active_days: 42
     repos_not_owned: 1
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 3.1667
+  push_per_day: 3.0238
   repo_per_active_day: 0.2857
   not_owned_ratio: 0.0833
   basename_concentration: 0.1667
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 5
-    distinct_repos: 4
-    pushes_per_repo: 1.2500
-    active_days: 4
+    pushes: 4
+    distinct_repos: 3
+    pushes_per_repo: 1.3333
+    active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -65,9 +65,9 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 133
+    pushes: 127
     distinct_repos: 12
-    pushes_per_repo: 11.0833
+    pushes_per_repo: 10.5833
     active_days: 42
     repos_not_owned: 1
     not_owned_basenames: 1
@@ -104,7 +104,7 @@ repos:
       - "windows"
     stars_fact: 1
     first_seen: null
-    last_push: "2026-10-10"
+    last_push: "2026-10-18"
   - name: "dotfiles-ng"
     title: "dotfiles-ng"
     description: "🔥💯 these are my dotfiles (v2). there are many like them, but these ones are mine."
@@ -115,7 +115,7 @@ repos:
       - "zsh"
     stars_fact: 1
     first_seen: null
-    last_push: "2026-10-09"
+    last_push: "2026-10-17"
   - name: "omp-ninfer"
     title: "omp-ninfer"
     description: "Durable local inference for Oh My Pi: NInfer + Qwen3.8 27B on one RTX 3090/4090/5090, with restart-resumable OpenAI Responses state."
@@ -141,9 +141,9 @@ repos:
       - "self-hosted"
       - "speculative-decoding"
       - "stateful-inference"
-    stars_fact: 43
+    stars_fact: 45
     first_seen: null
-    last_push: "2026-10-07"
+    last_push: "2026-10-17"
   - name: "alphastorm.github.io"
     title: "alphastorm.github.io"
     description: "my personal website."
@@ -164,7 +164,7 @@ repos:
       - "speculative-decoding"
     stars_fact: 1
     first_seen: null
-    last_push: "2026-10-03"
+    last_push: "2026-10-11"
   - name: "slither-import-breaking"
     title: "slither-import-breaking"
     description: null
@@ -177,6 +177,6 @@ repos:
 
 # alphastorm
 
-133 pushes across 12 repositories on 42 active days in the last 90 days of public GitHub push activity.
+127 pushes across 12 repositories on 42 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/alphastorm

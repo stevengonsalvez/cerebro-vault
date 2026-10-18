@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: true
 repos_populated: true
-generated_at: "2026-10-16T08:30:18.142355+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "b1a4604cc570de42"
 pushes_per_week: [1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
@@ -77,6 +77,14 @@ reasons:
   - "activity: 2 active days in 90d — below the 5-day line, LABELLED low-n (never suppressed)"
   - "automation: clear — pass"
 repos:
+  - name: "snowpack"
+    title: "snowpack"
+    description: "ESM-powered frontend build tool. Instant, lightweight, unbundled development. ✌️"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 19276
+    first_seen: null
+    last_push: "2023-03-05"
   - name: "astro-skills"
     title: "astro-skills"
     description: "Load and serve Agent Skills from your Astro site, automatically."
@@ -85,14 +93,6 @@ repos:
     stars_fact: 44
     first_seen: null
     last_push: "2026-07-09"
-  - name: "snowpack"
-    title: "snowpack"
-    description: "ESM-powered frontend build tool. Instant, lightweight, unbundled development. ✌️"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 19277
-    first_seen: null
-    last_push: "2023-03-05"
   - name: "the-node-way"
     title: "the-node-way"
     description: "Design patterns and best practices for building scaleable, maintainable and beautiful Node.js applications. Now with website! -->"

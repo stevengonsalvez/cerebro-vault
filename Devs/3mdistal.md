@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "745308b2b7085095"
-pushes_per_week: [55, 26, 8, 15, 2, 2, 0, 4, 7, 10, 43, 41, 15]
+pushes_per_week: [35, 23, 7, 13, 2, 2, 0, 4, 10, 23, 28, 46, 9]
 windows:
   "7d":
-    pushes: 19
+    pushes: 14
     distinct_repos: 2
-    active_days: 4
+    active_days: 3
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
   "30d":
-    pushes: 113
+    pushes: 109
     distinct_repos: 2
-    active_days: 22
+    active_days: 20
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
   "90d":
-    pushes: 228
+    pushes: 202
     distinct_repos: 4
-    active_days: 48
+    active_days: 47
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 4.7500
-  repo_per_active_day: 0.0833
+  push_per_day: 4.2979
+  repo_per_active_day: 0.0851
   not_owned_ratio: 0.5000
   basename_concentration: 0.7500
   shapes: []
@@ -49,42 +49,42 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 19
+    pushes: 14
     distinct_repos: 2
-    pushes_per_repo: 9.5000
-    active_days: 4
+    pushes_per_repo: 7.0000
+    active_days: 3
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
   "30d":
-    pushes: 113
+    pushes: 109
     distinct_repos: 2
-    pushes_per_repo: 56.5000
-    active_days: 22
+    pushes_per_repo: 54.5000
+    active_days: 20
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
   "90d":
-    pushes: 228
+    pushes: 202
     distinct_repos: 4
-    pushes_per_repo: 57.0000
-    active_days: 48
+    pushes_per_repo: 50.5000
+    active_days: 47
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 48 active days in 90d — pass"
+  - "activity: 47 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "alicealexandra.com"
     title: "alicealexandra.com"
     description: "My personal portfolio, blog, and catch-all project."
-    language: "Svelte"
+    language: "TypeScript"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-04"
+    last_push: "2026-10-10"
   - name: "bwrb"
     title: "bwrb"
     description: "Schema-driven note management for markdown vaults."
@@ -129,6 +129,6 @@ repos:
 
 # 3mdistal
 
-228 pushes across 4 repositories on 48 active days in the last 90 days of public GitHub push activity.
+202 pushes across 4 repositories on 47 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/3mdistal

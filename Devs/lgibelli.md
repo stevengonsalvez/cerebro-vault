@@ -8,8 +8,8 @@ provenance_repos:
   - "allenai/olmocr"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-16T08:30:18.142355+00:00"
+repos_populated: false
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "ae05babd8ff3098f"
 pushes_per_week: [0, 0, 1, 0, 0, 0, 0, 0, 0, 2, 0, 2, 13]
@@ -76,31 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "idlewild"
-    title: "idlewild"
-    description: null
-    language: "Swift"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-25"
-  - name: "espresso-macchiato"
-    title: "espresso-macchiato"
-    description: "macOS menu bar caffeinate app (Coca replacement) written in Swift"
-    language: "Swift"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-13"
-  - name: "marie-lookapp-releases"
-    title: "marie-lookapp-releases"
-    description: "Binary releases & auto-update feed for Marie LookApp (tray snippet lookup). Source lives in a private repo."
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-06-08"
+repos: []
 ---
 
 # lgibelli

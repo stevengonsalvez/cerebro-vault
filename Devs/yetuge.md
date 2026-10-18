@@ -8,11 +8,11 @@ provenance_repos:
   - "bytedance/deer-flow"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+repos_populated: false
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "16389f32495280ea"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 1, 2, 6, 1, 1]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 2, 1, 7, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -76,81 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 9 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "yetuge"
-    title: "yetuge"
-    description: "Profile README: auto-refreshed list of merged pull requests"
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-15"
-  - name: "alphadesk"
-    title: "alphadesk"
-    description: "本地优先的 AI 原生投资研究工作台:结构化行情数据、证据支撑的 Agent 投研副驾,持续追踪什么变了、为什么重要。"
-    language: "TypeScript"
-    topics:
-      - "ai-agent"
-      - "copilot"
-      - "desktop-app"
-      - "electron"
-      - "evaluation"
-      - "finance"
-      - "fintech"
-      - "investment-research"
-      - "langfuse"
-      - "local-first"
-      - "macos"
-      - "market-data"
-      - "react"
-      - "typescript"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-07"
-  - name: "yetuge.github.io"
-    title: "yetuge.github.io"
-    description: "个人博客 · Astro"
-    language: "Astro"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-29"
-  - name: "tinycode"
-    title: "tinycode"
-    description: "A minimal but complete coding agent harness — every subsystem of a production agent, small enough to read in an afternoon"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-26"
-  - name: "TalkMate-AI"
-    title: "TalkMate-AI"
-    description: "AI 英语口语陪练 · Scenario-based English speaking coach with streaming chat, instant grammar feedback and post-session reports"
-    language: "TypeScript"
-    topics:
-      - "ai-agent"
-      - "deepseek"
-      - "english-learning"
-      - "language-learning"
-      - "nextjs"
-      - "react"
-      - "speaking-practice"
-      - "sse"
-      - "supabase"
-      - "tailwindcss"
-      - "typescript"
-      - "web-speech-api"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-22"
-  - name: "movie-recommendation-demo"
-    title: "movie-recommendation-demo"
-    description: "电影推荐系统demo"
-    language: "Java"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-05-20"
+repos: []
 ---
 
 # yetuge

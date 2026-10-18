@@ -8,37 +8,37 @@ provenance_repos:
   - "abhigyanpatwari/GitNexus"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+repos_populated: false
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [21, 14, 2, 11, 3, 0, 2, 2, 9, 12, 12, 8, 13]
+pushes_per_week: [19, 14, 2, 11, 3, 0, 2, 5, 8, 14, 9, 8, 12]
 windows:
   "7d":
-    pushes: 14
+    pushes: 13
     distinct_repos: 5
-    active_days: 4
+    active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 49
+    pushes: 47
     distinct_repos: 16
-    active_days: 20
+    active_days: 19
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 2
   "90d":
-    pushes: 109
+    pushes: 107
     distinct_repos: 18
-    active_days: 44
+    active_days: 43
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 2.4773
-  repo_per_active_day: 0.4091
+  push_per_day: 2.4884
+  repo_per_active_day: 0.4186
   not_owned_ratio: 0.2222
   basename_concentration: 0.1111
   shapes: []
@@ -49,86 +49,38 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 14
+    pushes: 13
     distinct_repos: 5
-    pushes_per_repo: 2.8000
-    active_days: 4
+    pushes_per_repo: 2.6000
+    active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 49
+    pushes: 47
     distinct_repos: 16
-    pushes_per_repo: 3.0625
-    active_days: 20
+    pushes_per_repo: 2.9375
+    active_days: 19
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 2
   "90d":
-    pushes: 109
+    pushes: 107
     distinct_repos: 18
-    pushes_per_repo: 6.0556
-    active_days: 44
+    pushes_per_repo: 5.9444
+    active_days: 43
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 44 active days in 90d — pass"
+  - "activity: 43 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "powershell-git-prompt"
-    title: "powershell-git-prompt"
-    description: null
-    language: "PowerShell"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-05"
-  - name: "PuterJS-UI"
-    title: "PuterJS-UI"
-    description: "Experiment to implement simple HTML UI for https://developer.puter.com/ services."
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-01"
-  - name: "copilot-prompts"
-    title: "copilot-prompts"
-    description: "VS Code Copilot prompt/instructions repository: agents, skills, instructions, and prompt files for advanced Copilot customization."
-    language: "Shell"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-29"
-  - name: "BlackBox_CSV_Render"
-    title: "BlackBox_CSV_Render"
-    description: null
-    language: "Rust"
-    topics: []
-    stars_fact: 4
-    first_seen: null
-    last_push: "2026-09-29"
-  - name: "SPRACINGH7EF"
-    title: "SPRACINGH7EF"
-    description: "Backup, repair, restore and flashing knowledge for the SP Racing H7EF flight controller (owned hardware): flash map, bootloader, scripts, factory data, case study."
-    language: "Shell"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-27"
-  - name: "ELRS-Finder-Pro"
-    title: "ELRS-Finder-Pro"
-    description: "Lost-model finder for ExpressLRS/EdgeTX with automatic TX power management"
-    language: "Lua"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-31"
+repos: []
 ---
 
 # nerdCopter
 
-109 pushes across 18 repositories on 44 active days in the last 90 days of public GitHub push activity.
+107 pushes across 18 repositories on 43 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/nerdCopter

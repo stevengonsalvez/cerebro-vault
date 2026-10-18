@@ -8,28 +8,28 @@ provenance_repos:
   - "AgriciDaniel/claude-obsidian"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+repos_populated: false
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "dc9094c987231bcf"
-pushes_per_week: [7, 9, 4, 2, 1, 1, 0, 5, 79, 93, 138, 99, 117]
+pushes_per_week: [8, 8, 4, 1, 2, 0, 0, 23, 71, 116, 133, 116, 72]
 windows:
   "7d":
-    pushes: 122
+    pushes: 109
     distinct_repos: 1
-    active_days: 5
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 503
+    pushes: 500
     distinct_repos: 1
-    active_days: 27
+    active_days: 26
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 555
+    pushes: 554
     distinct_repos: 3
     active_days: 51
     repos_not_owned: 0
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 10.8824
+  push_per_day: 10.8627
   repo_per_active_day: 0.0588
   not_owned_ratio: 0.0000
   basename_concentration: 0.3333
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 122
+    pushes: 109
     distinct_repos: 1
-    pushes_per_repo: 122.0000
-    active_days: 5
+    pushes_per_repo: 109.0000
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 503
+    pushes: 500
     distinct_repos: 1
-    pushes_per_repo: 503.0000
-    active_days: 27
+    pushes_per_repo: 500.0000
+    active_days: 26
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 555
+    pushes: 554
     distinct_repos: 3
-    pushes_per_repo: 185.0000
+    pushes_per_repo: 184.6667
     active_days: 51
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -76,19 +76,11 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 51 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "Himmel"
-    title: "Himmel"
-    description: "A managed, orchestrated harness for running Claude Code as a safe, repeatable agent: hooks, guardrails, slash commands, a Jira CLI, and a cross-session handover system."
-    language: "Shell"
-    topics: []
-    stars_fact: 15
-    first_seen: null
-    last_push: "2026-10-16"
+repos: []
 ---
 
 # yotamleo
 
-555 pushes across 3 repositories on 51 active days in the last 90 days of public GitHub push activity.
+554 pushes across 3 repositories on 51 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/yotamleo

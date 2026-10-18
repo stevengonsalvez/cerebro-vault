@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "b5590ec052a4f771"
-pushes_per_week: [30, 19, 32, 48, 17, 5, 1, 9, 18, 79, 130, 56, 123]
+pushes_per_week: [30, 17, 42, 42, 14, 3, 3, 12, 18, 115, 108, 76, 84]
 windows:
   "7d":
-    pushes: 128
+    pushes: 114
     distinct_repos: 6
-    active_days: 5
+    active_days: 4
     repos_not_owned: 3
     not_owned_basenames: 1
     not_owned_owners: 3
   "30d":
-    pushes: 399
+    pushes: 391
     distinct_repos: 7
-    active_days: 26
+    active_days: 25
     repos_not_owned: 4
     not_owned_basenames: 1
     not_owned_owners: 4
   "90d":
-    pushes: 567
+    pushes: 564
     distinct_repos: 8
-    active_days: 67
+    active_days: 66
     repos_not_owned: 4
     not_owned_basenames: 1
     not_owned_owners: 4
 automation:
   state: "clear"
-  push_per_day: 8.4627
-  repo_per_active_day: 0.1194
+  push_per_day: 8.5455
+  repo_per_active_day: 0.1212
   not_owned_ratio: 0.5000
   basename_concentration: 0.6250
   shapes:
@@ -65,34 +65,57 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 128
+    pushes: 114
     distinct_repos: 6
-    pushes_per_repo: 21.3333
-    active_days: 5
+    pushes_per_repo: 19.0000
+    active_days: 4
     repos_not_owned: 3
     not_owned_basenames: 1
     not_owned_owners: 3
   "30d":
-    pushes: 399
+    pushes: 391
     distinct_repos: 7
-    pushes_per_repo: 57.0000
-    active_days: 26
+    pushes_per_repo: 55.8571
+    active_days: 25
     repos_not_owned: 4
     not_owned_basenames: 1
     not_owned_owners: 4
   "90d":
-    pushes: 567
+    pushes: 564
     distinct_repos: 8
-    pushes_per_repo: 70.8750
-    active_days: 67
+    pushes_per_repo: 70.5000
+    active_days: 66
     repos_not_owned: 4
     not_owned_basenames: 1
     not_owned_owners: 4
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 67 active days in 90d — pass"
+  - "activity: 66 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "estella"
+    title: "estella"
+    description: "A fast 2D and 3D game engine — TypeScript SDK, C++/WebAssembly core, visual editor. Ship one project to web, desktop, WeChat MiniGames, playable ads, and native Android / iOS."
+    language: "TypeScript"
+    topics:
+      - "2d-game-engine"
+      - "3d"
+      - "3d-game-engine"
+      - "android"
+      - "cpp"
+      - "ecs"
+      - "game-editor"
+      - "game-engine"
+      - "gamedev"
+      - "ios"
+      - "typescript"
+      - "webassembly"
+      - "webgl"
+      - "webgpu"
+      - "wechat-minigame"
+    stars_fact: 693
+    first_seen: null
+    last_push: "2026-10-18"
   - name: "DeepSeek-Reasonix"
     title: "DeepSeek-Reasonix"
     description: "A reliable coding agent for complex software engineering tasks."
@@ -116,30 +139,17 @@ repos:
       - "tool-use"
       - "tui"
       - "typescript"
-    stars_fact: 35749
+    stars_fact: 35837
     first_seen: "2026-08-03T06:00:03.957834+00:00"
-    last_push: "2026-10-10"
-  - name: "estella"
-    title: "estella"
-    description: "A fast 2D game engine — TypeScript SDK, C++/WebAssembly core, visual editor. Ship one project to web, desktop, WeChat MiniGames, playable ads, and native Android / iOS."
-    language: "TypeScript"
-    topics:
-      - "2d-game-engine"
-      - "android"
-      - "cpp"
-      - "ecs"
-      - "game-editor"
-      - "game-engine"
-      - "gamedev"
-      - "ios"
-      - "typescript"
-      - "webassembly"
-      - "webgl"
-      - "webgpu"
-      - "wechat-minigame"
-    stars_fact: 685
+    last_push: "2026-10-18"
+  - name: "homebrew-reasonix"
+    title: "homebrew-reasonix"
+    description: "Homebrew tap for Reasonix — the cache-first DeepSeek coding agent."
+    language: "Ruby"
+    topics: []
+    stars_fact: 2
     first_seen: null
-    last_push: "2026-10-10"
+    last_push: "2026-10-18"
   - name: "esengine"
     title: "esengine"
     description: "ESEngine - High-performance TypeScript ECS Framework for Game Development"
@@ -159,17 +169,23 @@ repos:
       - "typescript"
       - "wasm"
       - "webgl"
-    stars_fact: 925
+    stars_fact: 926
     first_seen: null
     last_push: "2026-07-30"
-  - name: "homebrew-reasonix"
-    title: "homebrew-reasonix"
-    description: "Homebrew tap for Reasonix — the cache-first DeepSeek coding agent."
-    language: "Ruby"
-    topics: []
-    stars_fact: 2
+  - name: "BehaviourTree-ai"
+    title: "BehaviourTree-ai"
+    description: "一个高性能的TypeScript AI系统库，包含行为树（Behavior Tree）、实用AI（Utility AI）和有限状态机（FSM），适用于Cocos/Laya"
+    language: "TypeScript"
+    topics:
+      - "behaviourtree"
+      - "cocos"
+      - "egret"
+      - "fsm"
+      - "laya"
+      - "selector"
+    stars_fact: 150
     first_seen: null
-    last_push: "2026-10-09"
+    last_push: "2026-02-23"
   - name: "HiveMind"
     title: "HiveMind"
     description: "A self-evolving, personalized AI system with federated learning"
@@ -185,18 +201,10 @@ repos:
     stars_fact: 3
     first_seen: null
     last_push: "2026-01-19"
-  - name: "lawn-mower-demo"
-    title: "lawn-mower-demo"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 24
-    first_seen: null
-    last_push: "2025-12-31"
 ---
 
 # esengine
 
-567 pushes across 8 repositories on 67 active days in the last 90 days of public GitHub push activity.
+564 pushes across 8 repositories on 66 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/esengine

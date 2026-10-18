@@ -10,10 +10,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "6d3bd03b49986330"
-pushes_per_week: [2, 0, 0, 13, 1, 0, 0, 0, 0, 0, 1, 0, 5]
+pushes_per_week: [1, 0, 0, 13, 1, 0, 0, 0, 0, 0, 1, 0, 5]
 windows:
   "7d":
     pushes: 5
@@ -30,16 +30,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 22
+    pushes: 21
     distinct_repos: 10
-    active_days: 6
+    active_days: 5
     repos_not_owned: 9
     not_owned_basenames: 1
     not_owned_owners: 9
 automation:
   state: "clear"
-  push_per_day: 3.6667
-  repo_per_active_day: 1.6667
+  push_per_day: 4.2000
+  repo_per_active_day: 2.0000
   not_owned_ratio: 0.9000
   basename_concentration: 1.0000
   shapes:
@@ -82,16 +82,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 22
+    pushes: 21
     distinct_repos: 10
-    pushes_per_repo: 2.2000
-    active_days: 6
+    pushes_per_repo: 2.1000
+    active_days: 5
     repos_not_owned: 9
     not_owned_basenames: 1
     not_owned_owners: 9
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 6 active days in 90d — pass"
+  - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "OpenMontage"
@@ -118,9 +118,20 @@ repos:
       - "text-to-video"
       - "video-generation"
       - "video-production"
-    stars_fact: 65920
+    stars_fact: 69262
     first_seen: "2026-06-19T17:17:11.400096+00:00"
-    last_push: "2026-10-03"
+    last_push: "2026-10-16"
+  - name: "Crucix"
+    title: "Crucix"
+    description: "Your personal intelligence agent. Watches the world from multiple data sources and pings you when something changes."
+    language: "JavaScript"
+    topics:
+      - "ai"
+      - "intelligence"
+      - "osint"
+    stars_fact: 12129
+    first_seen: null
+    last_push: "2026-05-20"
   - name: "generative-media-skills"
     title: "generative-media-skills"
     description: "Research-backed agent skills and tools for premium image, video, audio, voice, and generative media production across AI coding assistants."
@@ -146,20 +157,17 @@ repos:
       - "text-to-video"
       - "video-generation"
       - "video-production"
-    stars_fact: 197
+    stars_fact: 205
     first_seen: null
     last_push: "2026-07-14"
-  - name: "Crucix"
-    title: "Crucix"
-    description: "Your personal intelligence agent. Watches the world from multiple data sources and pings you when something changes."
-    language: "JavaScript"
-    topics:
-      - "ai"
-      - "intelligence"
-      - "osint"
-    stars_fact: 12091
+  - name: "BreakoutAnalysis"
+    title: "BreakoutAnalysis"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 279
     first_seen: null
-    last_push: "2026-05-20"
+    last_push: "2026-02-23"
   - name: "Resonant"
     title: "Resonant"
     description: "Free, local AI music studio for Windows—generate songs, play instruments, arrange, mix, export WAV, and connect Codex or Claude through MCP."
@@ -176,33 +184,9 @@ repos:
       - "open-source"
       - "typescript"
       - "windows"
-    stars_fact: 159
+    stars_fact: 161
     first_seen: null
     last_push: "2026-08-07"
-  - name: "OptionsCanvas"
-    title: "OptionsCanvas"
-    description: "Stop getting your stops hunted. SL/TP never touch your broker - only fires when the underlying actually breaches your level. And skip the options chain: drag your levels on the chart, we auto-pick the strike + DTE + contracts. The first open-source platform that does both."
-    language: "Python"
-    topics:
-      - "0dte"
-      - "algorithmic-trading"
-      - "alpaca"
-      - "charting"
-      - "day-trading"
-      - "fintech"
-      - "flask"
-      - "lightweight-charts"
-      - "local-first"
-      - "open-source"
-      - "options"
-      - "options-trading"
-      - "python"
-      - "self-hosted"
-      - "trading-platform"
-      - "vanilla-js"
-    stars_fact: 70
-    first_seen: null
-    last_push: "2026-05-28"
   - name: "PhantomReach"
     title: "PhantomReach"
     description: "Free, open-source local business intelligence audits for marketers and agencies. Run on your machine with real public data, and agentic workflow"
@@ -225,13 +209,13 @@ repos:
       - "seo"
       - "sqlite"
       - "typescript"
-    stars_fact: 65
+    stars_fact: 67
     first_seen: null
     last_push: "2026-06-27"
 ---
 
 # calesthio
 
-22 pushes across 10 repositories on 6 active days in the last 90 days of public GitHub push activity.
+21 pushes across 10 repositories on 5 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/calesthio

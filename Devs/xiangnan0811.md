@@ -8,37 +8,37 @@ provenance_repos:
   - "can1357/oh-my-pi"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+repos_populated: false
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [2, 2, 2, 0, 8, 1, 0, 3, 7, 5, 15, 7, 7]
+pushes_per_week: [1, 2, 2, 1, 7, 1, 2, 1, 7, 10, 12, 5, 7]
 windows:
   "7d":
-    pushes: 8
+    pushes: 7
     distinct_repos: 3
-    active_days: 4
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 38
+    pushes: 36
     distinct_repos: 5
-    active_days: 21
+    active_days: 20
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 59
+    pushes: 58
     distinct_repos: 5
-    active_days: 33
+    active_days: 32
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.7879
-  repo_per_active_day: 0.1515
+  push_per_day: 1.8125
+  repo_per_active_day: 0.1562
   not_owned_ratio: 0.0000
   basename_concentration: 0.2000
   shapes: []
@@ -49,90 +49,38 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 8
+    pushes: 7
     distinct_repos: 3
-    pushes_per_repo: 2.6667
-    active_days: 4
+    pushes_per_repo: 2.3333
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 38
+    pushes: 36
     distinct_repos: 5
-    pushes_per_repo: 7.6000
-    active_days: 21
+    pushes_per_repo: 7.2000
+    active_days: 20
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 59
+    pushes: 58
     distinct_repos: 5
-    pushes_per_repo: 11.8000
-    active_days: 33
+    pushes_per_repo: 11.6000
+    active_days: 32
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 33 active days in 90d — pass"
+  - "activity: 32 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "xirang"
-    title: "xirang"
-    description: "轻量、易部署的服务器运维管理平台。"
-    language: "Go"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-10-16"
-  - name: "houfeng"
-    title: "houfeng"
-    description: null
-    language: "Go"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-16"
-  - name: "dsh-clinepass"
-    title: "dsh-clinepass"
-    description: "DeepSeek Harness plugin for ClinePass: models, API key, and usage limits."
-    language: "JavaScript"
-    topics:
-      - "clinepass"
-      - "deepseek-harness"
-      - "dsh"
-      - "dsh-plugin"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-03"
-  - name: "omp-session-cost"
-    title: "omp-session-cost"
-    description: null
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-24"
-  - name: "gwt"
-    title: "gwt"
-    description: null
-    language: "Go"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-16"
-  - name: "coolapk_crawler"
-    title: "coolapk_crawler"
-    description: "coolapk_crawler"
-    language: "Python"
-    topics: []
-    stars_fact: 6
-    first_seen: null
-    last_push: "2020-11-04"
+repos: []
 ---
 
 # xiangnan0811
 
-59 pushes across 5 repositories on 33 active days in the last 90 days of public GitHub push activity.
+58 pushes across 5 repositories on 32 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/xiangnan0811

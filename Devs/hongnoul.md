@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "2a7f0fddd2dac162"
-pushes_per_week: [39, 9, 7, 0, 0, 4, 0, 0, 0, 21, 1, 2, 0]
+pushes_per_week: [37, 10, 6, 0, 0, 4, 0, 0, 3, 18, 3, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 83
+    pushes: 81
     distinct_repos: 9
-    active_days: 20
+    active_days: 19
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 4.1500
-  repo_per_active_day: 0.4500
+  push_per_day: 4.2632
+  repo_per_active_day: 0.4737
   not_owned_ratio: 0.2222
   basename_concentration: 0.1111
   shapes: []
@@ -65,41 +65,18 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 83
+    pushes: 81
     distinct_repos: 9
-    pushes_per_repo: 9.2222
-    active_days: 20
+    pushes_per_repo: 9.0000
+    active_days: 19
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 20 active days in 90d — pass"
+  - "activity: 19 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "gwae"
-    title: "gwae"
-    description: "Infinite scroll terminal multiplexer and agent orchestrator for macOS"
-    language: "Rust"
-    topics:
-      - "ai-agents"
-      - "claude-code"
-      - "cli-agents"
-      - "conpty"
-      - "developer-tools"
-      - "gwae"
-      - "macos"
-      - "multiplexer"
-      - "niri"
-      - "rust"
-      - "terminal"
-      - "terminal-multiplexer"
-      - "tiling-window-manager"
-      - "tui"
-      - "windows"
-    stars_fact: 14
-    first_seen: null
-    last_push: "2026-10-02"
   - name: "hwatu"
     title: "hwatu"
     description: "Headless verification browser for AI coding agents: 35 ms one-call checks, pixel diffs, live human hand-off"
@@ -122,9 +99,40 @@ repos:
       - "wayland"
       - "webkit"
       - "webkitgtk"
-    stars_fact: 115
+    stars_fact: 116
     first_seen: null
-    last_push: "2026-10-03"
+    last_push: "2026-10-17"
+  - name: "hongnoul.github.io"
+    title: "hongnoul.github.io"
+    description: null
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-17"
+  - name: "gwae"
+    title: "gwae"
+    description: "Infinite scroll terminal multiplexer and agent orchestrator for macOS"
+    language: "Rust"
+    topics:
+      - "ai-agents"
+      - "claude-code"
+      - "cli-agents"
+      - "conpty"
+      - "developer-tools"
+      - "gwae"
+      - "macos"
+      - "multiplexer"
+      - "niri"
+      - "rust"
+      - "terminal"
+      - "terminal-multiplexer"
+      - "tiling-window-manager"
+      - "tui"
+      - "windows"
+    stars_fact: 14
+    first_seen: null
+    last_push: "2026-10-17"
   - name: "emma"
     title: "emma"
     description: "Rare Disease Atlas — prototype knowledge-graph atlas connecting rare diseases through genes, phenotypes, mechanisms, pathways, and research."
@@ -156,18 +164,10 @@ repos:
     stars_fact: 2
     first_seen: null
     last_push: "2026-07-19"
-  - name: "mit-dining-mcp"
-    title: "mit-dining-mcp"
-    description: "MCP server for MIT dining hall menus (Bon Appétit)"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-03-15"
 ---
 
 # hongnoul
 
-83 pushes across 9 repositories on 20 active days in the last 90 days of public GitHub push activity.
+81 pushes across 9 repositories on 19 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/hongnoul

@@ -8,11 +8,11 @@ provenance_repos:
   - "agentskills/agentskills"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+repos_populated: false
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "48dbbdd8fd0d3029"
-pushes_per_week: [62, 42, 22, 27, 3, 7, 3, 5, 23, 23, 47, 3, 6]
+pushes_per_week: [65, 42, 20, 25, 3, 8, 2, 5, 23, 24, 46, 3, 6]
 windows:
   "7d":
     pushes: 6
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 4
     not_owned_owners: 13
   "90d":
-    pushes: 273
+    pushes: 272
     distinct_repos: 37
-    active_days: 51
+    active_days: 50
     repos_not_owned: 32
     not_owned_basenames: 11
     not_owned_owners: 23
 automation:
   state: "clear"
-  push_per_day: 5.3529
-  repo_per_active_day: 0.7255
+  push_per_day: 5.4400
+  repo_per_active_day: 0.7400
   not_owned_ratio: 0.8649
   basename_concentration: 0.5135
   shapes: []
@@ -65,70 +65,22 @@ facets:
     not_owned_basenames: 4
     not_owned_owners: 13
   "90d":
-    pushes: 273
+    pushes: 272
     distinct_repos: 37
-    pushes_per_repo: 7.3784
-    active_days: 51
+    pushes_per_repo: 7.3514
+    active_days: 50
     repos_not_owned: 32
     not_owned_basenames: 11
     not_owned_owners: 23
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 51 active days in 90d — pass"
+  - "activity: 50 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "skills"
-    title: "skills"
-    description: "My personal agent skills"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-05"
-  - name: "viz-explain"
-    title: "viz-explain"
-    description: "Editable Excalidraw patterns and agent skill for explaining software systems"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-04"
-  - name: "Patrick-Erichsen.github.io"
-    title: "Patrick-Erichsen.github.io"
-    description: null
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-04"
-  - name: "openclaw-barnacle-fixture-131619-maintainer"
-    title: "openclaw-barnacle-fixture-131619-maintainer"
-    description: "Disposable live GitHub fixture for OpenClaw PR #131619"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-01"
-  - name: "skill-evaluator-cassette"
-    title: "skill-evaluator-cassette"
-    description: "A tapes cassette for skill evaluation using DSPy GEPA optimizers"
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-19"
-  - name: "patrickerichsen.com"
-    title: "patrickerichsen.com"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-14"
+repos: []
 ---
 
 # Patrick-Erichsen
 
-273 pushes across 37 repositories on 51 active days in the last 90 days of public GitHub push activity.
+272 pushes across 37 repositories on 50 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Patrick-Erichsen

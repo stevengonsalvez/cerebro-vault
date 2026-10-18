@@ -8,11 +8,11 @@ provenance_repos:
   - "ayghri/i-have-adhd"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+repos_populated: false
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "46f3c1d6124190bd"
-pushes_per_week: [1, 0, 0, 0, 0, 1, 0, 0, 3, 2, 0, 1, 2]
+pushes_per_week: [1, 0, 0, 0, 1, 0, 0, 0, 4, 1, 1, 0, 2]
 windows:
   "7d":
     pushes: 2
@@ -76,55 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 9 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "ExpensePilot"
-    title: "ExpensePilot"
-    description: "ExpensePilot is a smart, full‑stack expense tracking application that helps users take control of their personal finances. It combines a powerful backend with an intuitive frontend to make expense management effortless and insightful."
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-14"
-  - name: "DB_vault"
-    title: "DB_vault"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-11"
-  - name: "vardhans07"
-    title: "vardhans07"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-07"
-  - name: "spend-tracker"
-    title: "spend-tracker"
-    description: "Mini Spend Tracker REST API and UI for Backend Engineer evaluation"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-21"
-  - name: "algos-and-structures"
-    title: "algos-and-structures"
-    description: "solutions to Leetcode problems"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-16"
-  - name: "Python_vault"
-    title: "Python_vault"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-07-24"
+repos: []
 ---
 
 # vardhans07

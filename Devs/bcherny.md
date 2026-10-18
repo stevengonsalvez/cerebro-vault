@@ -11,7 +11,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "01cd6a498d377caf"
   - "02eab667df448997"
@@ -77,7 +77,7 @@ provenance:
   - "fd1cb9e783625459"
   - "fe9e50bf2d5b21fe"
   - "ff1ca072bf39e471"
-pushes_per_week: [0, 4, 3, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0]
+pushes_per_week: [0, 6, 1, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -142,6 +142,25 @@ reasons:
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "json-schema-to-typescript"
+    title: "json-schema-to-typescript"
+    description: "Compile JSON Schema to TypeScript type declarations"
+    language: "TypeScript"
+    topics:
+      - "json-schema"
+      - "typescript"
+    stars_fact: 3346
+    first_seen: null
+    last_push: "2026-09-07"
+  - name: "programming-typescript-answers"
+    title: "programming-typescript-answers"
+    description: "Official answers for exercises from Orielly's Programming TypeScript"
+    language: "TypeScript"
+    topics:
+      - "typescript"
+    stars_fact: 560
+    first_seen: null
+    last_push: "2021-08-10"
   - name: "frontend-interview-questions"
     title: "frontend-interview-questions"
     description: "Answers for https://borischerny.com/javascript/%22functional/programming%22/2017/06/09/Frontend-Interview-Questions.html"
@@ -154,15 +173,6 @@ repos:
     stars_fact: 1142
     first_seen: null
     last_push: "2023-01-21"
-  - name: "programming-typescript-answers"
-    title: "programming-typescript-answers"
-    description: "Official answers for exercises from Orielly's Programming TypeScript"
-    language: "TypeScript"
-    topics:
-      - "typescript"
-    stars_fact: 559
-    first_seen: null
-    last_push: "2021-08-10"
   - name: "undux"
     title: "undux"
     description: "⚡️ Dead simple state for React. Now with Hooks support."
@@ -176,16 +186,6 @@ repos:
     stars_fact: 1563
     first_seen: null
     last_push: "2025-05-08"
-  - name: "json-schema-to-typescript"
-    title: "json-schema-to-typescript"
-    description: "Compile JSON Schema to TypeScript type declarations"
-    language: "TypeScript"
-    topics:
-      - "json-schema"
-      - "typescript"
-    stars_fact: 3346
-    first_seen: null
-    last_push: "2026-09-07"
   - name: "bcherny.github.io"
     title: "bcherny.github.io"
     description: "My blog"

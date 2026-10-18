@@ -10,11 +10,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "541318303a272608"
   - "c489e6fb5febf2ab"
-pushes_per_week: [0, 34, 20, 13, 0, 0, 0, 0, 0, 3, 4, 3, 1]
+pushes_per_week: [0, 34, 20, 13, 0, 0, 0, 0, 1, 2, 4, 3, 1]
 windows:
   "7d":
     pushes: 1
@@ -86,7 +86,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-29"
+    last_push: "2026-10-15"
 ---
 
 # RerankerGuo

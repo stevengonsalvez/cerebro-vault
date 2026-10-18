@@ -10,11 +10,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "c1af6b58492f9bf4"
   - "ddd7486148a91958"
-pushes_per_week: [1, 0, 1, 4, 4, 0, 0, 0, 1, 9, 0, 1, 2]
+pushes_per_week: [1, 0, 1, 4, 4, 0, 0, 0, 2, 8, 0, 2, 1]
 windows:
   "7d":
     pushes: 2
@@ -88,25 +88,35 @@ repos:
       - "ai"
       - "automation"
       - "developer-tools"
-    stars_fact: 3208
+      - "mobile-ai"
+      - "mobile-development"
+    stars_fact: 3772
     first_seen: null
-    last_push: "2026-10-10"
+    last_push: "2026-10-17"
   - name: "smux"
     title: "smux"
     description: "tmux config with built-in terminal automation and agent-to-agent communication."
     language: "Shell"
     topics: []
-    stars_fact: 1529
+    stars_fact: 1531
     first_seen: null
     last_push: "2026-10-05"
-  - name: "screenstudio-cli"
-    title: "screenstudio-cli"
-    description: "an agent-ready CLI tool to automate Screen Studio"
-    language: "TypeScript"
+  - name: "personal-portfolio"
+    title: "personal-portfolio"
+    description: "A personal portfolio using Three.js"
+    language: "JavaScript"
     topics: []
-    stars_fact: 22
+    stars_fact: 1
     first_seen: null
-    last_push: "2026-04-12"
+    last_push: "2026-10-12"
+  - name: "ShawnPana"
+    title: "ShawnPana"
+    description: "profile-maxxing"
+    language: null
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-10-12"
   - name: "shanframe"
     title: "shanframe"
     description: "Your machines, from anywhere — for you and your agents. The shanframe agent + CLI."
@@ -119,23 +129,15 @@ repos:
       - "webrtc"
     stars_fact: 15
     first_seen: null
-    last_push: "2026-10-02"
-  - name: "aurl"
-    title: "aurl"
-    description: "A command line tool for turning any API into a CLI command, supporting OpenAPI 3.0, OpenAPI 3.1, Swagger 2.0, and GraphQL. aurl auto-detects authentication, validates requests against the spec, and generates documentation from introspection."
-    language: "Go"
+    last_push: "2026-10-10"
+  - name: "screenstudio-cli"
+    title: "screenstudio-cli"
+    description: "an agent-ready CLI tool to automate Screen Studio"
+    language: "TypeScript"
     topics: []
-    stars_fact: 168
+    stars_fact: 22
     first_seen: null
-    last_push: "2026-03-21"
-  - name: "ShawnPana"
-    title: "ShawnPana"
-    description: "profile-maxxing"
-    language: null
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-08-09"
+    last_push: "2026-04-12"
 ---
 
 # ShawnPana

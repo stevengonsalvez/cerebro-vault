@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [28, 6, 6, 9, 2, 4, 2, 5, 1, 8, 1, 3, 5]
+pushes_per_week: [18, 6, 6, 10, 5, 2, 1, 4, 1, 8, 1, 3, 5]
 windows:
   "7d":
-    pushes: 7
-    distinct_repos: 4
-    active_days: 3
+    pushes: 5
+    distinct_repos: 3
+    active_days: 2
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 4
     not_owned_owners: 1
   "90d":
-    pushes: 80
-    distinct_repos: 17
-    active_days: 31
+    pushes: 70
+    distinct_repos: 15
+    active_days: 30
     repos_not_owned: 6
     not_owned_basenames: 6
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.5806
-  repo_per_active_day: 0.5484
-  not_owned_ratio: 0.3529
-  basename_concentration: 0.0588
+  push_per_day: 2.3333
+  repo_per_active_day: 0.5000
+  not_owned_ratio: 0.4000
+  basename_concentration: 0.0667
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 7
-    distinct_repos: 4
-    pushes_per_repo: 1.7500
-    active_days: 3
+    pushes: 5
+    distinct_repos: 3
+    pushes_per_repo: 1.6667
+    active_days: 2
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 4
     not_owned_owners: 1
   "90d":
-    pushes: 80
-    distinct_repos: 17
-    pushes_per_repo: 4.7059
-    active_days: 31
+    pushes: 70
+    distinct_repos: 15
+    pushes_per_repo: 4.6667
+    active_days: 30
     repos_not_owned: 6
     not_owned_basenames: 6
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 31 active days in 90d — pass"
+  - "activity: 30 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "showy-quota"
@@ -98,7 +98,7 @@ repos:
       - "statusline"
       - "tmux"
       - "zellij"
-    stars_fact: 21
+    stars_fact: 25
     first_seen: null
     last_push: "2026-10-08"
   - name: "immich-shuttle"
@@ -162,6 +162,6 @@ repos:
 
 # enieuwy
 
-80 pushes across 17 repositories on 31 active days in the last 90 days of public GitHub push activity.
+70 pushes across 15 repositories on 30 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/enieuwy

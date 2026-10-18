@@ -9,23 +9,23 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "1df6ea1f1256059e"
   - "edb3a626875732de"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 4, 6, 5, 3, 5, 6]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 5, 7, 5, 1, 8, 3]
 windows:
   "7d":
-    pushes: 7
+    pushes: 6
     distinct_repos: 4
-    active_days: 4
+    active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 23
+    pushes: 21
     distinct_repos: 7
-    active_days: 14
+    active_days: 13
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -50,18 +50,18 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 7
+    pushes: 6
     distinct_repos: 4
-    pushes_per_repo: 1.7500
-    active_days: 4
+    pushes_per_repo: 1.5000
+    active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 23
+    pushes: 21
     distinct_repos: 7
-    pushes_per_repo: 3.2857
-    active_days: 14
+    pushes_per_repo: 3.0000
+    active_days: 13
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -78,6 +78,14 @@ reasons:
   - "activity: 19 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "toolcage"
+    title: "toolcage"
+    description: "Local-first runtime for securely executing AI agent tools, with capability-based authorization, credential isolation, controlled network egress, and tamper-evident audit logs."
+    language: "Rust"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-17"
   - name: "AstralProject"
     title: "AstralProject"
     description: "An open, reproducible measurement layer for crypto markets. Deterministic replay, honest cost models, reproducible results."
@@ -85,7 +93,7 @@ repos:
     topics: []
     stars_fact: 2
     first_seen: null
-    last_push: "2026-10-10"
+    last_push: "2026-10-16"
   - name: "VarunGore36"
     title: "VarunGore36"
     description: "GitHub Readme"
@@ -118,14 +126,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-09-09"
-  - name: "ChessEngine"
-    title: "ChessEngine"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2025-12-12"
 ---
 
 # VarunGore36

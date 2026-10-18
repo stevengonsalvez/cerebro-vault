@@ -8,16 +8,16 @@ provenance_repos:
   - "liustack/modlens"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+repos_populated: false
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "6df1aababb3856e0"
-pushes_per_week: [29, 8, 5, 19, 5, 2, 1, 0, 0, 4, 18, 6, 3]
+pushes_per_week: [31, 6, 3, 22, 3, 2, 0, 0, 0, 17, 5, 6, 3]
 windows:
   "7d":
-    pushes: 5
+    pushes: 3
     distinct_repos: 2
-    active_days: 4
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 100
+    pushes: 98
     distinct_repos: 11
-    active_days: 33
+    active_days: 32
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 3.0303
-  repo_per_active_day: 0.3333
+  push_per_day: 3.0625
+  repo_per_active_day: 0.3438
   not_owned_ratio: 0.0000
   basename_concentration: 0.0909
   shapes: []
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 5
+    pushes: 3
     distinct_repos: 2
-    pushes_per_repo: 2.5000
-    active_days: 4
+    pushes_per_repo: 1.5000
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -65,140 +65,22 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 100
+    pushes: 98
     distinct_repos: 11
-    pushes_per_repo: 9.0909
-    active_days: 33
+    pushes_per_repo: 8.9091
+    active_days: 32
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 33 active days in 90d — pass"
+  - "activity: 32 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "modlens"
-    title: "modlens"
-    description: "The first vision plugin for DeepSeek Harness, and the vision bridge for every text-only coding agent. Paste an image, get structured JSON evidence (OCR, layout, semantics). | 全网最强 DeepSeek Harness 外挂视觉插件，为 DeepSeek、GLM 等纯文本模型外挂视觉能力，粘贴图片即得结构化 JSON 证据（OCR、版面、语义）。"
-    language: "TypeScript"
-    topics:
-      - "agent-skills"
-      - "claude-code"
-      - "claude-skills"
-      - "codex"
-      - "cordis"
-      - "deepseek"
-      - "dsh"
-      - "dsh-plugin"
-      - "glm"
-      - "harness"
-      - "harness-engineering"
-      - "hermes-agent"
-      - "image-to-text"
-      - "multimodal"
-      - "ocr"
-      - "openclaw"
-      - "pi-agent"
-      - "text-only-llm"
-      - "vision"
-      - "vision-transformer"
-    stars_fact: 4196
-    first_seen: "2026-08-25T06:00:04.386196+00:00"
-    last_push: "2026-10-04"
-  - name: "modsearch"
-    title: "modsearch"
-    description: "🥇 The strongest free web search plugin for DeepSeek Harness, and the search bridge for every model without native web access. Free, no signup, no API key. Ask the web or X, get structured JSON evidence. | 🥇 全网最强的 DeepSeek Harness 免费联网搜索插件，免费免注册免 API key。为不能联网的模型补上搜索，问网页或 X，拿回结构化 JSON 证据（搜索、抓取、引用）。"
-    language: "TypeScript"
-    topics:
-      - "agent-skills"
-      - "agentic-workflow"
-      - "claude-code"
-      - "claude-skills"
-      - "codex"
-      - "cordis"
-      - "deepseek"
-      - "deepseek-harness"
-      - "dsh"
-      - "dsh-plugin"
-      - "glm"
-      - "harness"
-      - "harness-engineering"
-      - "hermes-agent"
-      - "openclaw"
-      - "opencode"
-      - "pi-agent"
-      - "web-fetch"
-      - "web-search"
-    stars_fact: 622
-    first_seen: null
-    last_push: "2026-10-04"
-  - name: "pptwise"
-    title: "pptwise"
-    description: "A real PowerPoint, not HTML. Tell your AI what to cover and pptwise builds an editable deck on your own machine. Agent skill + DSH plugin, no account and no API key to render. | 真正的 PPT，不是 HTML。跟 AI 说要讲什么，pptwise 在你自己电脑上做出一份能改的 PPT。Agent skill + DSH 插件，不用注册，渲染不用 API key。"
-    language: "TypeScript"
-    topics:
-      - "agent-skill"
-      - "agent-skills"
-      - "ai-agent"
-      - "claude-code"
-      - "claude-skills"
-      - "codex"
-      - "cordis"
-      - "deck-generation"
-      - "deepseek"
-      - "drawingml"
-      - "dsh"
-      - "dsh-plugin"
-      - "harness"
-      - "powerpoint"
-      - "pptx"
-      - "presentation"
-      - "slides"
-    stars_fact: 19
-    first_seen: null
-    last_push: "2026-10-10"
-  - name: "vibemaster"
-    title: "vibemaster"
-    description: "The lighter, stronger Superpowers alternative: four skills, one working loop. Shape it, code it, dig it, snapshot it."
-    language: "Python"
-    topics:
-      - "agent-skills"
-      - "claude-code"
-      - "codex"
-      - "debugging"
-      - "superpowers-alternative"
-      - "tdd"
-    stars_fact: 13
-    first_seen: null
-    last_push: "2026-08-14"
-  - name: "flipbook"
-    title: "flipbook"
-    description: "Agent skill that turns one sentence into a verified MP4 animation: frame-by-frame deterministic rendering, a paper-textured hand-drawn look, music and sound, and automatic checks before delivery. 让 agent 从一句话做出一条验收过的动画。"
-    language: "TypeScript"
-    topics:
-      - "agent-skill"
-      - "animation"
-      - "canvas"
-      - "claude-code"
-      - "codex"
-      - "ffmpeg"
-      - "playwright"
-      - "video"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-02"
-  - name: "awesome-opus-5-5-videos"
-    title: "awesome-opus-5-5-videos"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-27"
+repos: []
 ---
 
 # liustack
 
-100 pushes across 11 repositories on 33 active days in the last 90 days of public GitHub push activity.
+98 pushes across 11 repositories on 32 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/liustack

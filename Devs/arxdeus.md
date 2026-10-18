@@ -9,22 +9,22 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "2a7f0fddd2dac162"
-pushes_per_week: [2, 3, 7, 12, 4, 5, 0, 0, 4, 12, 0, 10, 5]
+pushes_per_week: [4, 1, 7, 12, 6, 3, 0, 1, 7, 8, 4, 9, 2]
 windows:
   "7d":
-    pushes: 6
+    pushes: 5
     distinct_repos: 2
-    active_days: 4
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 29
-    distinct_repos: 7
-    active_days: 15
+    pushes: 28
+    distinct_repos: 6
+    active_days: 14
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,18 +49,18 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 6
+    pushes: 5
     distinct_repos: 2
-    pushes_per_repo: 3.0000
-    active_days: 4
+    pushes_per_repo: 2.5000
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 29
-    distinct_repos: 7
-    pushes_per_repo: 4.1429
-    active_days: 15
+    pushes: 28
+    distinct_repos: 6
+    pushes_per_repo: 4.6667
+    active_days: 14
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -79,9 +79,11 @@ reasons:
 repos:
   - name: "xcross"
     title: "xcross"
-    description: "Run and hot-reload Flutter iOS apps from Linux - no Xcode, no macOS"
+    description: "Run and debug cross-platform (Flutter/CMP) iOS apps from Windows or Linux - no Xcode, no macOS"
     language: "Dart"
     topics:
+      - "cmp"
+      - "compose-multiplatform"
       - "dart"
       - "flutter"
       - "hot-reload"
@@ -91,17 +93,40 @@ repos:
       - "wsl"
       - "xcode"
       - "xtool"
-    stars_fact: 60
+    stars_fact: 108
     first_seen: null
-    last_push: "2026-10-10"
+    last_push: "2026-10-16"
   - name: "xcross_gen_snapshot"
     title: "xcross_gen_snapshot"
     description: "Prebuilt iOS AOT gen_snapshot compilers for Linux and Windows hosts, used by xcross"
     language: "Dart"
     topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-13"
+  - name: "pureflow"
+    title: "pureflow"
+    description: "A reactive state management library for Dart and Flutter, provides a minimal and type-safe reactive state management solution"
+    language: "Dart"
+    topics:
+      - "dart"
+      - "flutter"
+      - "pipeline"
+      - "reactive"
+      - "state"
+      - "state-management"
+      - "stream"
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-08-30"
+  - name: "xcross_examples"
+    title: "xcross_examples"
+    description: "Example apps for xcross CI"
+    language: "Dart"
+    topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-09"
+    last_push: "2026-10-10"
   - name: "mcp-utm"
     title: "mcp-utm"
     description: "MCP server for UTM virtual machine management via AppleScript"
@@ -110,14 +135,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-10-09"
-  - name: "xcross_examples"
-    title: "xcross_examples"
-    description: "Example apps for xcross CI"
-    language: "Dart"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-07"
   - name: "maki-claude-oauth"
     title: "maki-claude-oauth"
     description: "Maki dynamic provider that reuses your Claude Code OAuth session — no separate Anthropic API key or browser login"
@@ -134,23 +151,6 @@ repos:
     stars_fact: 3
     first_seen: null
     last_push: "2026-08-07"
-  - name: "openai-autoreset"
-    title: "openai-autoreset"
-    description: "Unofficial macOS CLI to monitor Codex weekly usage and automatically redeem banked reset credits only at 0–1% remaining. Read-only by default, with background polling."
-    language: "Dart"
-    topics:
-      - "automation"
-      - "chatgpt"
-      - "cli"
-      - "codex"
-      - "macos"
-      - "openai"
-      - "python"
-      - "reset-credits"
-      - "usage-monitoring"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-04"
 ---
 
 # arxdeus

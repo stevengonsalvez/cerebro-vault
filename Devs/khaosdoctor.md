@@ -8,11 +8,11 @@ provenance_repos:
   - "chopratejas/headroom"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+repos_populated: false
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "73468cde177ddae6"
-pushes_per_week: [11, 3, 5, 3, 5, 0, 2, 2, 1, 0, 29, 5, 9]
+pushes_per_week: [11, 3, 5, 4, 4, 0, 3, 2, 0, 10, 20, 4, 9]
 windows:
   "7d":
     pushes: 9
@@ -76,75 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 34 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "proton-drive-linux-fs"
-    title: "proton-drive-linux-fs"
-    description: "FUSE virtual filesystem for Proton Drive on Linux. Mount your drive as a local folder with on-demand file download."
-    language: "Go"
-    topics:
-      - "filesystem"
-      - "fuse"
-      - "golang"
-      - "linux"
-      - "privacy"
-      - "proton"
-      - "proton-drive"
-      - "virtual-filesystem"
-    stars_fact: 14
-    first_seen: null
-    last_push: "2026-10-06"
-  - name: "scriba"
-    title: "scriba"
-    description: "Handles my journaling in obsidian"
-    language: "TypeScript"
-    topics:
-      - "journal"
-      - "markdown"
-      - "obsidian"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-10"
-  - name: "personal-website"
-    title: "personal-website"
-    description: "My personal website"
-    language: "HTML"
-    topics:
-      - "curriculum"
-      - "personal-website"
-      - "website"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-10"
-  - name: "dontquotetheai"
-    title: "dontquotetheai"
-    description: "Don't paste the ai response at me, please"
-    language: "HTML"
-    topics:
-      - "ai"
-      - "fun"
-      - "satire-sites"
-      - "slop"
-    stars_fact: 162
-    first_seen: null
-    last_push: "2026-09-27"
-  - name: "dotfiles"
-    title: "dotfiles"
-    description: "My dotFiles"
-    language: "CSS"
-    topics:
-      - "dotfiles"
-      - "personal"
-    stars_fact: 12
-    first_seen: null
-    last_push: "2026-10-09"
-  - name: "homebrew-tap"
-    title: "homebrew-tap"
-    description: "Homebrew formulae"
-    language: "Ruby"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-05"
+repos: []
 ---
 
 # khaosdoctor

@@ -8,11 +8,11 @@ provenance_repos:
   - "anthropics/claude-cookbooks"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+repos_populated: false
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "1f49d0119cedbc84"
-pushes_per_week: [5, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1]
+pushes_per_week: [7, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0]
 windows:
   "7d":
     pushes: 1
@@ -76,65 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 8 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "zero-copy-rag"
-    title: "zero-copy-rag"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-10"
-  - name: "mongodb-rag-v1"
-    title: "mongodb-rag-v1"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 5
-    first_seen: null
-    last_push: "2026-07-20"
-  - name: "mongodb-mastra-ai-qs"
-    title: "mongodb-mastra-ai-qs"
-    description: "MongoDB x Mastra Quickstart"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-07-12"
-  - name: "agent-engineering-skills"
-    title: "agent-engineering-skills"
-    description: "Engineering discipline for AI coding agents. Spec-driven development, CI/CD, and documentation as composable skills built on the Workflow Router pattern."
-    language: "Shell"
-    topics:
-      - "agent-skills"
-      - "ai-coding-agents"
-      - "claude-code"
-      - "cursor"
-      - "diataxis"
-      - "documentation"
-      - "github-actions"
-      - "skills"
-      - "spec-driven-development"
-      - "tdd"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-07-08"
-  - name: "langchain-mongodb-agent-log"
-    title: "langchain-mongodb-agent-log"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-06-02"
-  - name: "mongodb-rag-v2"
-    title: "mongodb-rag-v2"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-05-19"
+repos: []
 ---
 
 # mohammaddaoudfarooqi

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [1, 3, 0, 3, 0, 0, 0, 0, 0, 0, 1, 0, 0]
+pushes_per_week: [1, 3, 0, 3, 0, 0, 0, 0, 0, 1, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -82,7 +82,7 @@ repos:
     description: "A task based orchestration TUI for oh-my-pi agent harness enabling highly parallel agentic development."
     language: "TypeScript"
     topics: []
-    stars_fact: 25
+    stars_fact: 26
     first_seen: null
     last_push: "2026-02-21"
   - name: "claude-loop"

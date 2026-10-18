@@ -11,7 +11,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-16T08:30:18.142355+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "36da1b921f121c1d"
   - "386c24cf5e18fd90"
@@ -81,22 +81,22 @@ reasons:
   - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "lanparty"
-    title: "lanparty"
-    description: "Netboot a fleet of desktop machines from a single base image"
-    language: "Shell"
-    topics: []
-    stars_fact: 972
-    first_seen: null
-    last_push: "2026-08-28"
   - name: "kvmonitor"
     title: "kvmonitor"
     description: "My homebrew baby monitor"
     language: "C++"
     topics: []
-    stars_fact: 71
+    stars_fact: 72
     first_seen: null
     last_push: "2026-09-01"
+  - name: "lanparty"
+    title: "lanparty"
+    description: "Netboot a fleet of desktop machines from a single base image"
+    language: "Shell"
+    topics: []
+    stars_fact: 973
+    first_seen: null
+    last_push: "2026-08-28"
   - name: "private-ca"
     title: "private-ca"
     description: "Scripts to create a private CA and sign certificates with it using OpenSSL"

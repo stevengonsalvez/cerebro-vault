@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "4138778ebbc75ba6"
-pushes_per_week: [0, 0, 0, 1, 0, 0, 0, 2, 8, 24, 6, 3, 8]
+pushes_per_week: [0, 0, 0, 1, 0, 0, 0, 3, 8, 23, 6, 3, 8]
 windows:
   "7d":
     pushes: 8
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 45
+    pushes: 43
     distinct_repos: 7
-    active_days: 14
+    active_days: 13
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 45
+    pushes: 43
     distinct_repos: 7
-    pushes_per_repo: 6.4286
-    active_days: 14
+    pushes_per_repo: 6.1429
+    active_days: 13
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -84,7 +84,15 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-11"
+    last_push: "2026-10-18"
+  - name: "pi-agent-celld-spike"
+    title: "pi-agent-celld-spike"
+    description: "A spike: Pi Durable on celld with OpenSandbox as the execution environment, as one Helm chart. Five agents implement a feature, and a new pod continues the work."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-10-16"
   - name: "bunderwar"
     title: "bunderwar"
     description: "My up-to date docker images with renovate and arm64/amd64 support"
@@ -92,39 +100,31 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-10"
-  - name: "pi-agent-celld-spike"
-    title: "pi-agent-celld-spike"
-    description: "A spike: Pi Durable on celld with OpenSandbox as the execution environment, as one Helm chart. Five agents implement a feature, and a new pod continues the work."
-    language: "TypeScript"
+    last_push: "2026-10-17"
+  - name: "blog"
+    title: "blog"
+    description: "Personal blog: Astro static site on Cloudflare Workers"
+    language: "Astro"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-10"
-  - name: "python-binary-memcached"
-    title: "python-binary-memcached"
-    description: "A pure python module (thread safe) to access memcached via it's binary protocol with SASL auth support."
-    language: "Python"
+    last_push: "2026-10-17"
+  - name: "fastest-scan"
+    title: "fastest-scan"
+    description: "Make a PDF from a phone video of the pages of a book: cropped, flat, and without glare. A Zig library and a command-line program."
+    language: "Zig"
     topics: []
-    stars_fact: 167
+    stars_fact: 1
     first_seen: null
-    last_push: "2026-10-08"
-  - name: "debug-devices"
-    title: "debug-devices"
-    description: "MCP tools that let a coding agent see and measure real hardware: phone camera, multimeter via webcam + vision model, and boardview files"
-    language: "Python"
-    topics: []
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-10-07"
-  - name: "hermes-deepgram-voice-plugin"
-    title: "hermes-deepgram-voice-plugin"
-    description: "Deepgram Aura TTS and Nova STT plugin for Hermes Agent"
+    last_push: "2026-10-16"
+  - name: "scanwich"
+    title: "scanwich"
+    description: "Make image-based PDFs searchable with pluggable OCR backends"
     language: "Python"
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-10-06"
+    last_push: "2026-10-18"
 ---
 
 # jaysonsantos

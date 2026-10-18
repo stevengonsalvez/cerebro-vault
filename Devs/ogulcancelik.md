@@ -10,11 +10,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "576c6507cbdd1cf3"
   - "c87b77df69f1bb71"
-pushes_per_week: [12, 15, 15, 18, 7, 4, 0, 3, 6, 4, 3, 6, 3]
+pushes_per_week: [13, 14, 15, 15, 7, 4, 1, 4, 4, 5, 2, 6, 3]
 windows:
   "7d":
     pushes: 3
@@ -31,16 +31,16 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 96
+    pushes: 93
     distinct_repos: 13
-    active_days: 47
+    active_days: 45
     repos_not_owned: 11
     not_owned_basenames: 2
     not_owned_owners: 10
 automation:
   state: "clear"
-  push_per_day: 2.0426
-  repo_per_active_day: 0.2766
+  push_per_day: 2.0667
+  repo_per_active_day: 0.2889
   not_owned_ratio: 0.8462
   basename_concentration: 0.8462
   shapes:
@@ -83,26 +83,18 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 96
+    pushes: 93
     distinct_repos: 13
-    pushes_per_repo: 7.3846
-    active_days: 47
+    pushes_per_repo: 7.1538
+    active_days: 45
     repos_not_owned: 11
     not_owned_basenames: 2
     not_owned_owners: 10
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 47 active days in 90d — pass"
+  - "activity: 45 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "pi-extensions"
-    title: "pi-extensions"
-    description: "Extensions for pi, the terminal-based coding agent"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 558
-    first_seen: null
-    last_push: "2026-10-08"
   - name: "herdr-browser"
     title: "herdr-browser"
     description: "Render a real Chromium view inside a Herdr pane and drive it over CDP."
@@ -115,17 +107,33 @@ repos:
       - "herdr-plugin"
       - "kitty-graphics"
       - "terminal"
-    stars_fact: 357
+    stars_fact: 358
     first_seen: null
     last_push: "2026-08-22"
+  - name: "pi-extensions"
+    title: "pi-extensions"
+    description: "Extensions for pi, the terminal-based coding agent"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 561
+    first_seen: null
+    last_push: "2026-10-08"
   - name: "herdr-plugin-examples"
     title: "herdr-plugin-examples"
     description: null
     language: "JavaScript"
     topics: []
-    stars_fact: 23
+    stars_fact: 22
     first_seen: null
     last_push: "2026-06-15"
+  - name: "unity-bridge"
+    title: "unity-bridge"
+    description: "Minimal HTTP bridge for AI-driven Unity Editor control. Single C# file, no dependencies."
+    language: "C#"
+    topics: []
+    stars_fact: 49
+    first_seen: null
+    last_push: "2026-03-23"
   - name: "agent-skills"
     title: "agent-skills"
     description: "Small, opinionated, agent-agnostic skills for coding agents"
@@ -148,18 +156,10 @@ repos:
     stars_fact: 34
     first_seen: null
     last_push: "2024-07-22"
-  - name: "unity-bridge"
-    title: "unity-bridge"
-    description: "Minimal HTTP bridge for AI-driven Unity Editor control. Single C# file, no dependencies."
-    language: "C#"
-    topics: []
-    stars_fact: 50
-    first_seen: null
-    last_push: "2026-03-23"
 ---
 
 # ogulcancelik
 
-96 pushes across 13 repositories on 47 active days in the last 90 days of public GitHub push activity.
+93 pushes across 13 repositories on 45 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ogulcancelik

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-16T08:30:18.142355+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [0, 3, 3, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [1, 2, 3, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,6 +77,14 @@ reasons:
   - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "elder_friendly_launcher"
+    title: "elder_friendly_launcher"
+    description: "A user-friendly Android launcher for seniors, featuring a built-in intelligent voice assistant based on an AI Agent."
+    language: "Dart"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-04-20"
   - name: "MisideTrainer"
     title: "MisideTrainer"
     description: "A game modifier for MiSide that offers useful features such as changing the probability of the alternative menu (secrect menu) and alternative menu music to 100% to set it to always show, providing modifications to almost all built-in mini-games. The tool supports multiple languages, including English, Simplified Chinese and Russian"
@@ -131,14 +139,6 @@ repos:
     stars_fact: 2
     first_seen: null
     last_push: "2026-01-13"
-  - name: "meditation-mcp"
-    title: "meditation-mcp"
-    description: null
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2025-12-02"
 ---
 
 # CN-Scars

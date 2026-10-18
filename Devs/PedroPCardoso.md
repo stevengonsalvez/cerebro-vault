@@ -8,8 +8,8 @@ provenance_repos:
   - "akitaonrails/ai-memory"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+repos_populated: false
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "4138778ebbc75ba6"
 pushes_per_week: [12, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0]
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -76,92 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "PedroPCardoso"
-    title: "PedroPCardoso"
-    description: "Readme"
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-10"
-  - name: "metrics-kit"
-    title: "metrics-kit"
-    description: "Metrics and Trends for you project"
-    language: "TypeScript"
-    topics:
-      - "analytics"
-      - "charts"
-      - "drizzle"
-      - "metrics"
-      - "mysql"
-      - "nestjs"
-      - "nextjs"
-      - "postgresql"
-      - "prisma"
-      - "sqlite"
-      - "typeorm"
-      - "typescript"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-22"
-  - name: "ecommerce-saga"
-    title: "ecommerce-saga"
-    description: "SAGA coreografada sobre Kafka — 5 microserviços NestJS, Docker/Kubernetes, C4"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-18"
-  - name: "startup-kit-users"
-    title: "startup-kit-users"
-    description: "Startup Kit — Users module"
-    language: "PHP"
-    topics:
-      - "cqrs"
-      - "ddd"
-      - "hexagonal-architecture"
-      - "laravel"
-      - "php"
-      - "saas"
-      - "user-management"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-07-29"
-  - name: "startup-kit-core"
-    title: "startup-kit-core"
-    description: "Startup Kit — Core: primitives, value objects, contracts, and cross-cutting infrastructure"
-    language: "PHP"
-    topics:
-      - "cqrs"
-      - "ddd"
-      - "event-driven"
-      - "hexagonal-architecture"
-      - "laravel"
-      - "outbox-pattern"
-      - "php"
-      - "resilience"
-      - "saas"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-07-29"
-  - name: "startup-kit-payments"
-    title: "startup-kit-payments"
-    description: "Startup Kit — Payments module"
-    language: "PHP"
-    topics:
-      - "cqrs"
-      - "ddd"
-      - "hexagonal-architecture"
-      - "laravel"
-      - "mercadopago"
-      - "payments"
-      - "php"
-      - "saas"
-      - "stripe"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-07-29"
+repos: []
 ---
 
 # PedroPCardoso

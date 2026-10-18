@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [2, 0, 1, 6, 0, 0, 0, 0, 4, 2, 1, 3, 4]
+pushes_per_week: [2, 0, 1, 6, 0, 0, 0, 0, 4, 2, 3, 3, 2]
 windows:
   "7d":
-    pushes: 5
-    distinct_repos: 3
-    active_days: 4
+    pushes: 4
+    distinct_repos: 2
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 5
-    distinct_repos: 3
-    pushes_per_repo: 1.6667
-    active_days: 4
+    pushes: 4
+    distinct_repos: 2
+    pushes_per_repo: 2.0000
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -77,6 +77,14 @@ reasons:
   - "activity: 14 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "EdgeCloud-Bench"
+    title: "EdgeCloud-Bench"
+    description: null
+    language: "Go"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-17"
   - name: "SubMark"
     title: "SubMark"
     description: "SubMark — 开源的 Android 订阅管理应用 / Open-source Android subscription tracker"
@@ -84,7 +92,7 @@ repos:
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-10-08"
+    last_push: "2026-10-16"
   - name: "x-bookmark-folders"
     title: "x-bookmark-folders"
     description: "X(Twitter) 第三方书签文件夹油猴脚本：无需 Premium，支持 WebDAV 跨浏览器同步"
@@ -99,14 +107,6 @@ repos:
     language: "Python"
     topics: []
     stars_fact: 25
-    first_seen: null
-    last_push: "2026-09-30"
-  - name: "EdgeCloud-Bench"
-    title: "EdgeCloud-Bench"
-    description: null
-    language: "Go"
-    topics: []
-    stars_fact: 1
     first_seen: null
     last_push: "2026-09-30"
   - name: "astrbot_plugin_memorix"

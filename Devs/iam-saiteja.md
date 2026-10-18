@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-16T08:30:18.142355+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [0, 0, 0, 3, 1, 1, 0, 0, 0, 1, 4, 1, 3]
+pushes_per_week: [0, 0, 0, 4, 1, 0, 0, 0, 1, 3, 1, 3, 1]
 windows:
   "7d":
     pushes: 3
@@ -77,6 +77,38 @@ reasons:
   - "activity: 9 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "NCM"
+    title: "NCM"
+    description: "Native Cognitive Memory - Tensor-based episodic memory with state-conditioned retrieval for AI systems"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-14"
+  - name: "HGDM-Hierarchical-Gated-Delta-Memory"
+    title: "HGDM-Hierarchical-Gated-Delta-Memory"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-06-22"
+  - name: "Zero-Shot-TabPFN"
+    title: "Zero-Shot-TabPFN"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-13"
+  - name: "iam-saiteja"
+    title: "iam-saiteja"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-11"
   - name: "Compute-Pool"
     title: "Compute-Pool"
     description: "Pool several Kaggle accounts into one GPU cluster from a CLI. Independent, data-parallel, and pipeline-parallel training over SSH. Rust CLI, Python training runtime."
@@ -100,14 +132,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-10-07"
-  - name: "Zero-Shot-TabPFN"
-    title: "Zero-Shot-TabPFN"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-30"
   - name: "pitchme"
     title: "pitchme"
     description: null
@@ -116,30 +140,6 @@ repos:
     stars_fact: 1
     first_seen: null
     last_push: "2026-08-19"
-  - name: "HGDM-Hierarchical-Gated-Delta-Memory"
-    title: "HGDM-Hierarchical-Gated-Delta-Memory"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-06-22"
-  - name: "elevatebox"
-    title: "elevatebox"
-    description: null
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-26"
-  - name: "NCM"
-    title: "NCM"
-    description: "Native Cognitive Memory - Tensor-based episodic memory with state-conditioned retrieval for AI systems"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-04"
 ---
 
 # iam-saiteja

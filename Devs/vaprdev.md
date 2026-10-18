@@ -8,16 +8,16 @@ provenance_repos:
   - "anomalyco/opencode"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+repos_populated: false
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [0, 2, 0, 0, 0, 0, 0, 0, 0, 2, 1, 1, 5]
+pushes_per_week: [0, 2, 0, 0, 0, 0, 0, 0, 0, 2, 1, 3, 3]
 windows:
   "7d":
-    pushes: 6
+    pushes: 3
     distinct_repos: 1
-    active_days: 4
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 6
+    pushes: 3
     distinct_repos: 1
-    pushes_per_repo: 6.0000
-    active_days: 4
+    pushes_per_repo: 3.0000
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -76,55 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "opencode-wallpapers"
-    title: "opencode-wallpapers"
-    description: "Animated wallpapers for the OpenCode terminal UI"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 6
-    first_seen: null
-    last_push: "2026-10-15"
-  - name: "nakamura-case-file"
-    title: "nakamura-case-file"
-    description: null
-    language: "CSS"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-24"
-  - name: "kora"
-    title: "kora"
-    description: "Modern NoSQL + Graph database that facilitates real-time data syncing between online or offline devices and servers. Eliminates the need for API servers between database and client"
-    language: "Elixir"
-    topics: []
-    stars_fact: 3
-    first_seen: null
-    last_push: "2017-11-27"
-  - name: "opencode-themes"
-    title: "opencode-themes"
-    description: "Independent community themes for OpenCode"
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-07-27"
-  - name: "gloop-mode"
-    title: "gloop-mode"
-    description: "A breathing, flubbery 90s-organic mode for OpenCode."
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-07-11"
-  - name: "opencode-instructions"
-    title: "opencode-instructions"
-    description: "Personal opencode instruction files for careful, simple software engineering"
-    language: null
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-07-10"
+repos: []
 ---
 
 # vaprdev

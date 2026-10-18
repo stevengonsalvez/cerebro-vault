@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "c489e6fb5febf2ab"
-pushes_per_week: [5, 1, 0, 10, 22, 0, 1, 2, 0, 1, 1, 2, 27]
+pushes_per_week: [2, 1, 3, 7, 22, 0, 1, 2, 0, 1, 2, 9, 19]
 windows:
   "7d":
     pushes: 27
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 72
+    pushes: 69
     distinct_repos: 11
-    active_days: 22
+    active_days: 21
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 3.2727
-  repo_per_active_day: 0.5000
+  push_per_day: 3.2857
+  repo_per_active_day: 0.5238
   not_owned_ratio: 0.0000
   basename_concentration: 0.0909
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 72
+    pushes: 69
     distinct_repos: 11
-    pushes_per_repo: 6.5455
-    active_days: 22
+    pushes_per_repo: 6.2727
+    active_days: 21
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 22 active days in 90d — pass"
+  - "activity: 21 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "sidescreen"
@@ -92,7 +92,26 @@ repos:
       - "virtual-display"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-10"
+    last_push: "2026-10-17"
+  - name: "openmail"
+    title: "openmail"
+    description: "Keyboard-first macOS mail client that keeps your mail in a local SQLite database. AI agents read it over MCP and change it only with your approval."
+    language: "TypeScript"
+    topics:
+      - "effect-ts"
+      - "electron"
+      - "email"
+      - "gmail"
+      - "imap"
+      - "local-first"
+      - "macos"
+      - "mail-client"
+      - "mcp"
+      - "outlook"
+      - "sqlite"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-17"
   - name: "homebrew-sidescreen"
     title: "homebrew-sidescreen"
     description: "Homebrew tap for Sidescreen"
@@ -100,7 +119,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-10"
+    last_push: "2026-10-16"
   - name: "repo-wizard"
     title: "repo-wizard"
     description: "A professional tool to safely and efficiently apply LLM-suggested code changes to your local codebase in a controllable, reviewable way."
@@ -129,7 +148,7 @@ repos:
       - "react"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-08"
+    last_push: "2026-10-11"
   - name: "erainfra"
     title: "erainfra"
     description: "EraInfra — run GitHub Actions on your own machines and manage your own infra. Convex control plane, no public IP needed, per-job isolation, drop-in runs-on."
@@ -138,25 +157,10 @@ repos:
     stars_fact: 1
     first_seen: null
     last_push: "2026-09-07"
-  - name: "cupertino-datetime-picker"
-    title: "cupertino-datetime-picker"
-    description: "The iOS 14+ compact date & time picker for React: inline calendar with month/year wheels, time wheels that also take typing. shadcn/ui + Base UI + Tailwind, no date library."
-    language: "TypeScript"
-    topics:
-      - "base-ui"
-      - "date-picker"
-      - "ios"
-      - "react"
-      - "shadcn"
-      - "tailwind"
-      - "time-picker"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-05"
 ---
 
 # Fanzzzd
 
-72 pushes across 11 repositories on 22 active days in the last 90 days of public GitHub push activity.
+69 pushes across 11 repositories on 21 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Fanzzzd

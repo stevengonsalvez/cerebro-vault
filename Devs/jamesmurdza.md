@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [1, 9, 4, 3, 0, 0, 0, 0, 6, 1, 23, 1, 4]
+pushes_per_week: [2, 9, 6, 0, 0, 0, 0, 1, 5, 18, 6, 1, 4]
 windows:
   "7d":
     pushes: 4
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 34
-    distinct_repos: 4
-    active_days: 8
+    pushes: 29
+    distinct_repos: 3
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 34
-    distinct_repos: 4
-    pushes_per_repo: 8.5000
-    active_days: 8
+    pushes: 29
+    distinct_repos: 3
+    pushes_per_repo: 9.6667
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -77,6 +77,14 @@ reasons:
   - "activity: 17 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "awesome-ai-devtools"
+    title: "awesome-ai-devtools"
+    description: "Curated list of AI-powered developer tools."
+    language: null
+    topics: []
+    stars_fact: 3962
+    first_seen: null
+    last_push: "2026-08-27"
   - name: "background-agents"
     title: "background-agents"
     description: "Run AI coding agents in isolated sandboxes connected to your GitHub repositories"
@@ -86,17 +94,25 @@ repos:
       - "claude-code"
       - "codex"
       - "opencode"
-    stars_fact: 66
+    stars_fact: 78
     first_seen: null
-    last_push: "2026-10-09"
-  - name: "awesome-ai-devtools"
-    title: "awesome-ai-devtools"
-    description: "Curated list of AI-powered developer tools."
-    language: null
+    last_push: "2026-10-17"
+  - name: "applied-math-study-guides"
+    title: "applied-math-study-guides"
+    description: null
+    language: "JavaScript"
     topics: []
-    stars_fact: 3958
+    stars_fact: 0
     first_seen: null
-    last_push: "2026-08-27"
+    last_push: "2026-10-17"
+  - name: "dream-summer-school"
+    title: "dream-summer-school"
+    description: "A dream summer school we built together!"
+    language: "HTML"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-08-08"
   - name: "gh-issue-rag-pipeline"
     title: "gh-issue-rag-pipeline"
     description: null
@@ -113,22 +129,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-09-18"
-  - name: "codechain"
-    title: "codechain"
-    description: "Code generation with LLMs 🔗"
-    language: "Python"
-    topics: []
-    stars_fact: 51
-    first_seen: null
-    last_push: "2023-08-04"
-  - name: "dijkstras-algorithm-demo"
-    title: "dijkstras-algorithm-demo"
-    description: null
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-23"
 ---
 
 # jamesmurdza

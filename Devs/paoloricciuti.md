@@ -8,11 +8,11 @@ provenance_repos:
   - "anomalyco/opencode"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+repos_populated: false
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [5, 2, 5, 2, 0, 0, 0, 1, 0, 1, 3, 3, 0]
+pushes_per_week: [5, 2, 5, 2, 0, 0, 0, 1, 0, 2, 2, 3, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,62 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 15 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "sveltekit-search-params"
-    title: "sveltekit-search-params"
-    description: "The easiest way to read and WRITE from query parameters in sveltekit."
-    language: "TypeScript"
-    topics:
-      - "hacktoberfest"
-      - "query-params"
-      - "search-params"
-      - "svelte"
-      - "svelte-store"
-      - "svelte-stores"
-      - "sveltekit"
-    stars_fact: 671
-    first_seen: null
-    last_push: "2026-10-08"
-  - name: "mcp-add"
-    title: "mcp-add"
-    description: "Universal cli to add an MCP server to a variety of clients"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 28
-    first_seen: null
-    last_push: "2026-03-17"
-  - name: "bsky-svelte-feed"
-    title: "bsky-svelte-feed"
-    description: "A bsky feed to aggregate everything svelte related"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-05"
-  - name: "ricciuti.me"
-    title: "ricciuti.me"
-    description: "my personal website"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-27"
-  - name: "tmcp"
-    title: "tmcp"
-    description: "Typescript SDK to build MCP servers in an agnostic way"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 203
-    first_seen: null
-    last_push: "2026-10-10"
-  - name: "embedding-svelte-test"
-    title: "embedding-svelte-test"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-03"
+repos: []
 ---
 
 # paoloricciuti

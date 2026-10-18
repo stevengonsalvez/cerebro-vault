@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "1f49d0119cedbc84"
-pushes_per_week: [0, 1, 0, 0, 0, 0, 0, 4, 2, 0, 1, 1, 0]
+pushes_per_week: [1, 0, 0, 0, 0, 0, 0, 6, 0, 0, 1, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,12 +77,30 @@ reasons:
   - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "pointman-karpathy"
+    title: "pointman-karpathy"
+    description: "Message Board behaviour: seven rules for how agents work, after Karpathy's notes on coding agents"
+    language: null
+    topics:
+      - "pointman-extension"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-18"
+  - name: "pointman-youtube"
+    title: "pointman-youtube"
+    description: "Message Board behaviour: research, titles, description, chapters, tags and thumbnails for a YouTube upload"
+    language: "Python"
+    topics:
+      - "pointman-extension"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-18"
   - name: "transformers"
     title: "transformers"
     description: null
     language: "Jupyter Notebook"
     topics: []
-    stars_fact: 596
+    stars_fact: 595
     first_seen: null
     last_push: "2023-10-30"
   - name: "visionary"
@@ -109,22 +127,6 @@ repos:
     stars_fact: 1
     first_seen: null
     last_push: "2026-09-08"
-  - name: "neo-reviewr.nvim"
-    title: "neo-reviewr.nvim"
-    description: null
-    language: "Lua"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-08"
-  - name: "uvm"
-    title: "uvm"
-    description: null
-    language: "Go"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-09"
 ---
 
 # jamescalam

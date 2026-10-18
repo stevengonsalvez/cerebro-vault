@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "16389f32495280ea"
-pushes_per_week: [2, 3, 2, 0, 0, 0, 0, 0, 2, 0, 2, 2, 1]
+pushes_per_week: [3, 2, 2, 0, 0, 0, 0, 0, 2, 1, 1, 2, 1]
 windows:
   "7d":
     pushes: 1
@@ -84,7 +84,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-09"
+    last_push: "2026-10-17"
   - name: "merlion-radar"
     title: "merlion-radar"
     description: "Singapore-first configurable static GitHub Pages opportunity radar for any career focus"
@@ -92,7 +92,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-05"
+    last_push: "2026-10-12"
   - name: "vulnweave"
     title: "vulnweave"
     description: "Local-first vulnerability research graph for source-code review, proof planning, and finding-vault workflows"

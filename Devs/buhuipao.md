@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-16T08:30:18.142355+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "ef17663e884139a8"
-pushes_per_week: [0, 1, 1, 0, 0, 0, 0, 0, 2, 1, 0, 0, 1]
+pushes_per_week: [0, 1, 1, 0, 0, 0, 0, 1, 1, 1, 0, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -77,15 +77,6 @@ reasons:
   - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "Raspberry-pie-monitoring"
-    title: "Raspberry-pie-monitoring"
-    description: "自己的毕业设计，基于树莓派的寝室小监控系统"
-    language: "Python"
-    topics:
-      - "python"
-    stars_fact: 30
-    first_seen: null
-    last_push: "2017-04-23"
   - name: "agent-console"
     title: "agent-console"
     description: "A local terminal control plane for Codex, Claude Code, and pi sessions—discover, monitor, resume, and work beside persistent workspace shells."
@@ -102,17 +93,9 @@ repos:
       - "session-manager"
       - "terminal-ui"
       - "tui"
-    stars_fact: 34
+    stars_fact: 35
     first_seen: null
-    last_push: "2026-09-20"
-  - name: "buhuipao.github.io"
-    title: "buhuipao.github.io"
-    description: "新的开始"
-    language: "HTML"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-23"
+    last_push: "2026-10-14"
   - name: "anyproxy"
     title: "anyproxy"
     description: "Expose your local network and services to public safely"
@@ -124,9 +107,26 @@ repos:
       - "proxy"
       - "router"
       - "tunnel"
-    stars_fact: 104
+    stars_fact: 105
     first_seen: null
     last_push: "2025-07-20"
+  - name: "Raspberry-pie-monitoring"
+    title: "Raspberry-pie-monitoring"
+    description: "自己的毕业设计，基于树莓派的寝室小监控系统"
+    language: "Python"
+    topics:
+      - "python"
+    stars_fact: 30
+    first_seen: null
+    last_push: "2017-04-23"
+  - name: "buhuipao.github.io"
+    title: "buhuipao.github.io"
+    description: "新的开始"
+    language: "HTML"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-23"
   - name: "dailyclaw"
     title: "dailyclaw"
     description: "An extendable personal life assistant that lives in your Telegram"

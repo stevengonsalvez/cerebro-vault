@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-16T08:30:18.142355+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [2, 0, 1, 12, 2, 5, 0, 0, 10, 2, 8, 11, 10]
+pushes_per_week: [2, 0, 1, 12, 2, 5, 0, 0, 10, 2, 11, 8, 10]
 windows:
   "7d":
     pushes: 10
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 38
+    pushes: 33
     distinct_repos: 2
-    active_days: 11
+    active_days: 10
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 38
+    pushes: 33
     distinct_repos: 2
-    pushes_per_repo: 19.0000
-    active_days: 11
+    pushes_per_repo: 16.5000
+    active_days: 10
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -85,9 +85,17 @@ repos:
       - "bilingual-reader"
       - "bilingualism"
       - "reader"
-    stars_fact: 66
+    stars_fact: 67
     first_seen: null
     last_push: "2026-09-30"
+  - name: "demo-support-agent"
+    title: "demo-support-agent"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-14"
   - name: "GabrielDrapor.github.io"
     title: "GabrielDrapor.github.io"
     description: "Just some nag"
@@ -120,14 +128,6 @@ repos:
     stars_fact: 1
     first_seen: null
     last_push: "2026-04-29"
-  - name: "railway-xray"
-    title: "railway-xray"
-    description: null
-    language: "Shell"
-    topics: []
-    stars_fact: 4
-    first_seen: null
-    last_push: "2026-02-09"
 ---
 
 # GabrielDrapor

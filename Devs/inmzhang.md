@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [1, 0, 0, 9, 2, 0, 0, 0, 0, 0, 0, 0, 3]
+pushes_per_week: [1, 0, 3, 6, 2, 0, 0, 0, 0, 0, 0, 3, 0]
 windows:
   "7d":
     pushes: 3
@@ -81,8 +81,32 @@ repos:
     title: "bloq"
     description: "Dynamic Clifford+T surface code compiler"
     language: "Rust"
+    topics:
+      - "compiler"
+      - "quantum-error-correction"
+      - "surface-code"
+    stars_fact: 15
+    first_seen: null
+    last_push: "2026-10-18"
+  - name: "website-cloner"
+    title: "website-cloner"
+    description: "Local replication of staryuki.com with a terminal access flow"
+    language: "TypeScript"
     topics: []
-    stars_fact: 11
+    stars_fact: 9
+    first_seen: null
+    last_push: "2026-10-11"
+  - name: "stim-rs"
+    title: "stim-rs"
+    description: "Safe Rust bindings for Stim"
+    language: "Rust"
+    topics:
+      - "cpp"
+      - "quantum"
+      - "quantum-computing"
+      - "quantum-error-correction"
+      - "rust"
+    stars_fact: 7
     first_seen: null
     last_push: "2026-10-11"
   - name: "transession"
@@ -100,7 +124,7 @@ repos:
     topics: []
     stars_fact: 5
     first_seen: null
-    last_push: "2026-10-10"
+    last_push: "2026-10-15"
   - name: "dotfiles"
     title: "dotfiles"
     description: "dotfiles for configuration"
@@ -109,26 +133,6 @@ repos:
     stars_fact: 1
     first_seen: null
     last_push: "2026-09-27"
-  - name: "qrab"
-    title: "qrab"
-    description: "Creating quantum circuit diagrams in LaTeX/Typst"
-    language: "Rust"
-    topics:
-      - "latex"
-      - "quantum-circuit"
-      - "quantum-computing"
-      - "typst"
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-09-02"
-  - name: "codex-markdown-preview"
-    title: "codex-markdown-preview"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-04"
 ---
 
 # inmzhang

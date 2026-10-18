@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: true
 repos_populated: true
-generated_at: "2026-10-16T08:30:18.142355+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "1437405ffd8a6211"
 pushes_per_week: [0, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
@@ -77,14 +77,6 @@ reasons:
   - "activity: 2 active days in 90d — below the 5-day line, LABELLED low-n (never suppressed)"
   - "automation: clear — pass"
 repos:
-  - name: "react-confirm-email"
-    title: "react-confirm-email"
-    description: "Email confirmation with React and Node"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 96
-    first_seen: null
-    last_push: "2026-07-13"
   - name: "claude-code-merge-queue"
     title: "claude-code-merge-queue"
     description: "Local merge queue for parallel Claude Code agents"
@@ -97,9 +89,17 @@ repos:
       - "merge-queue"
       - "monorepo-tooling"
       - "parallel-agents"
-    stars_fact: 128
+    stars_fact: 130
     first_seen: "2026-07-30T06:00:04.087790+00:00"
     last_push: "2026-08-24"
+  - name: "react-confirm-email"
+    title: "react-confirm-email"
+    description: "Email confirmation with React and Node"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 96
+    first_seen: null
+    last_push: "2026-07-13"
   - name: "react-auth-client"
     title: "react-auth-client"
     description: "Social authentication with React and Node"

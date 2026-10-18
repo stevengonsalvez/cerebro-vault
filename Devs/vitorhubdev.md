@@ -8,11 +8,11 @@ provenance_repos:
   - "apache/maka"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+repos_populated: false
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [0, 0, 0, 1, 0, 0, 0, 0, 8, 17, 52, 12, 0]
+pushes_per_week: [0, 0, 0, 1, 0, 0, 0, 0, 9, 26, 45, 9, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 86
+    pushes: 83
     distinct_repos: 5
-    active_days: 17
+    active_days: 16
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 86
+    pushes: 83
     distinct_repos: 5
-    pushes_per_repo: 17.2000
-    active_days: 17
+    pushes_per_repo: 16.6000
+    active_days: 16
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -76,28 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 19 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "WebBrief"
-    title: "WebBrief"
-    description: "WebBrief — structured project briefs and agent kits (PT/EN)"
-    language: "TypeScript"
-    topics:
-      - "agent-kit"
-      - "brief"
-      - "opensource"
-      - "react"
-      - "vite"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-26"
-  - name: "IPV6Shutdown"
-    title: "IPV6Shutdown"
-    description: "Desativa IPv6 no Windows (bindings, firewall, watchdog). Preserva Tailscale e prefere IPv4 em sites dual-stack."
-    language: "C#"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-30"
+repos: []
 ---
 
 # vitorhubdev

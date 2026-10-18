@@ -12,12 +12,12 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "06b6387dd3484f1c"
   - "c133b93b912dffd6"
   - "de6bf05613f3ae04"
-pushes_per_week: [4, 5, 4, 13, 1, 1, 1, 0, 4, 2, 3, 1, 3]
+pushes_per_week: [4, 5, 4, 13, 1, 1, 1, 1, 3, 2, 4, 0, 3]
 windows:
   "7d":
     pushes: 3
@@ -82,38 +82,46 @@ reasons:
   - "activity: 27 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "pi-subagent"
-    title: "pi-subagent"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 174
-    first_seen: null
-    last_push: "2026-09-30"
-  - name: "pi"
-    title: "pi"
-    description: "CLI tool for managing vLLM deployments on GPU pods from Prime Intellect, Vast.ai, DataCrunch, etc."
-    language: "JavaScript"
-    topics: []
-    stars_fact: 99
-    first_seen: null
-    last_push: "2025-08-09"
-  - name: "sitegeist"
-    title: "sitegeist"
-    description: "An AI assistant that lives in your browser. Built for collaboration, not autonomy theater. You guide, it executes. Automate repetitive web tasks, extract data from any website, and transform it into whatever you need."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 894
-    first_seen: null
-    last_push: "2026-03-18"
   - name: "pi-skills"
     title: "pi-skills"
     description: "Skills for pi coding agent (compatible with Claude Code and Codex CLI)"
     language: "JavaScript"
     topics: []
-    stars_fact: 2596
+    stars_fact: 2617
     first_seen: null
     last_push: "2026-06-06"
+  - name: "pi-subagent"
+    title: "pi-subagent"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 230
+    first_seen: null
+    last_push: "2026-09-30"
+  - name: "pi-terminal-bench"
+    title: "pi-terminal-bench"
+    description: "Harbor agent adapter for pi coding agent to run Terminal-Bench evaluations"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 32
+    first_seen: null
+    last_push: "2025-12-01"
+  - name: "sitegeist"
+    title: "sitegeist"
+    description: "An AI assistant that lives in your browser. Built for collaboration, not autonomy theater. You guide, it executes. Automate repetitive web tasks, extract data from any website, and transform it into whatever you need."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 905
+    first_seen: null
+    last_push: "2026-03-18"
+  - name: "mini-lit"
+    title: "mini-lit"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 102
+    first_seen: null
+    last_push: "2025-11-12"
   - name: "pi-telegram"
     title: "pi-telegram"
     description: "Telegram DM bridge extension for pi"
@@ -122,14 +130,6 @@ repos:
     stars_fact: 313
     first_seen: null
     last_push: "2026-04-04"
-  - name: "lemmy"
-    title: "lemmy"
-    description: "Wrapper around tool using LLMs for agentic workflows"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 1646
-    first_seen: null
-    last_push: "2025-08-13"
 ---
 
 # badlogic

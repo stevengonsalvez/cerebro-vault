@@ -8,11 +8,11 @@ provenance_repos:
   - "agavra/tuicr"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-16T08:30:18.142355+00:00"
+repos_populated: false
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [1, 5, 0, 3, 3, 1, 0, 0, 1, 0, 0, 0, 1]
+pushes_per_week: [3, 3, 0, 5, 1, 1, 0, 0, 1, 0, 0, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -76,61 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 10 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "dotfiles"
-    title: "dotfiles"
-    description: null
-    language: "C#"
-    topics: []
-    stars_fact: 7
-    first_seen: null
-    last_push: "2026-10-10"
-  - name: "uplink"
-    title: "uplink"
-    description: "GitHub Copilot CLI remote control using ACP and devtunnels"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 47
-    first_seen: null
-    last_push: "2026-03-17"
-  - name: "desknav"
-    title: "desknav"
-    description: "Keyboard-first Windows desktop navigation with Kanata, Komorebi, UI Automation, and .NET."
-    language: "C#"
-    topics:
-      - "dotnet"
-      - "kanata"
-      - "keyboard-navigation"
-      - "komorebi"
-      - "ui-automation"
-      - "windows"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-10"
-  - name: "MattKotsenas"
-    title: "MattKotsenas"
-    description: "My personal site"
-    language: "C#"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-09-10"
-  - name: "agent-plugins"
-    title: "agent-plugins"
-    description: null
-    language: "PowerShell"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-09-02"
-  - name: "SymbolFilterServer"
-    title: "SymbolFilterServer"
-    description: "A small SymSrv symbol server proxy to download just the symbols you want. From https://blogs.msdn.microsoft.com/ricom/2017/02/03/symbol-filter-redux/"
-    language: "C#"
-    topics: []
-    stars_fact: 6
-    first_seen: null
-    last_push: "2022-06-01"
+repos: []
 ---
 
 # MattKotsenas

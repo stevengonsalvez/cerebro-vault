@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [0, 0, 0, 6, 1, 0, 1, 0, 1, 0, 0, 2, 3]
+pushes_per_week: [0, 0, 0, 7, 0, 0, 1, 0, 1, 0, 0, 2, 3]
 windows:
   "7d":
     pushes: 3
@@ -84,7 +84,7 @@ repos:
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-10-10"
+    last_push: "2026-10-18"
   - name: "Repo-of-the-day"
     title: "Repo-of-the-day"
     description: null
@@ -92,7 +92,23 @@ repos:
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-10-09"
+    last_push: "2026-10-17"
+  - name: "codex-skill-creator"
+    title: "codex-skill-creator"
+    description: "Codex skills"
+    language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-17"
+  - name: "codex-skill-msa-gage-rr-builder"
+    title: "codex-skill-msa-gage-rr-builder"
+    description: "Codex skill for balanced crossed Gauge R&R: tested ANOVA, validated JSON and accessible HTML reports. Derived from a Claude skill; MIT."
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-13"
   - name: "GitHub-Contribution-Agent"
     title: "GitHub-Contribution-Agent"
     description: "Auto contribution agent"
@@ -109,22 +125,6 @@ repos:
     stars_fact: 1
     first_seen: null
     last_push: "2026-09-04"
-  - name: "quant-github-scout"
-    title: "quant-github-scout"
-    description: "Top Github repos on Quant, Trading, Crypto etc"
-    language: "Python"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-08-17"
-  - name: "Bounty-Radar"
-    title: "Bounty-Radar"
-    description: "Search code bounties, bug bounties, OSS issue bounties, and freelance platform bounties, rank them by prize money, difficulty, freshness, trust, and competition, then publish the best results to a Telegram channel."
-    language: "Python"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-08-17"
 ---
 
 # gkmraju

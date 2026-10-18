@@ -8,11 +8,11 @@ provenance_repos:
   - "agavra/tuicr"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+repos_populated: false
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [0, 14, 34, 26, 1, 6, 0, 0, 6, 20, 1, 1, 0]
+pushes_per_week: [1, 23, 24, 26, 1, 6, 0, 1, 18, 7, 1, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,55 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 29 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "homebrew-tap"
-    title: "homebrew-tap"
-    description: "Personal Homebrew tap (proton-drive-cli: official Proton Drive CLI binary)"
-    language: "Shell"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-10-09"
-  - name: "forge-core"
-    title: "forge-core"
-    description: "Module-building skills for your AI ecosystem — build skills, build agents, architect repositories into modules and plugins in a scaffolding of your choice"
-    language: "Python"
-    topics: []
-    stars_fact: 4
-    first_seen: null
-    last_push: "2026-08-19"
-  - name: "forge-dev"
-    title: "forge-dev"
-    description: "Developer discipline skills for the forge ecosystem"
-    language: "Shell"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-08-04"
-  - name: "forge-council"
-    title: "forge-council"
-    description: "Multi-agent council orchestration via Claude Code agent teams"
-    language: "Shell"
-    topics: []
-    stars_fact: 9
-    first_seen: null
-    last_push: "2026-07-13"
-  - name: "forge-cli"
-    title: "forge-cli"
-    description: "Assemble, validate, and deploy markdown content across AI coding providers"
-    language: "Rust"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-07-13"
-  - name: "dotfiles"
-    title: "dotfiles"
-    description: "chezmoi-managed dotfiles"
-    language: "Shell"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-22"
+repos: []
 ---
 
 # N4M3Z

@@ -8,11 +8,11 @@ provenance_repos:
   - "bytedance/deer-flow"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-16T08:30:18.142355+00:00"
+repos_populated: false
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "16389f32495280ea"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 2, 1, 0, 2, 0, 2]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 2, 1, 2, 0, 0, 2]
 windows:
   "7d":
     pushes: 2
@@ -76,62 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "poker-table"
-    title: "poker-table"
-    description: "Self-hosted, no-signup Texas Hold'em table for playing with friends. No accounts, no database, no build step."
-    language: "JavaScript"
-    topics:
-      - "multiplayer-game"
-      - "nodejs"
-      - "poker"
-      - "self-hosted"
-      - "texas-holdem"
-      - "vanilla-js"
-      - "websocket"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-09"
-  - name: "wedding"
-    title: "wedding"
-    description: "金正旭 · 刘俊懿 婚礼邀请函 — 静态请柬页 + 零依赖 Node 后端（回执 / 留言墙 / 管理后台）"
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-07"
-  - name: "agentic"
-    title: "agentic"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-05-06"
-  - name: "hermes-workflow"
-    title: "hermes-workflow"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-05-21"
-  - name: "Fword-skill"
-    title: "Fword-skill"
-    description: "Claude Code skill: AI-powered bidirectional Word ↔ LaTeX converter"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-03-25"
-  - name: "Fword"
-    title: "Fword"
-    description: "AI-powered Word to LaTeX converter — because Word should die."
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-03-25"
+repos: []
 ---
 
 # Jinzhengxu

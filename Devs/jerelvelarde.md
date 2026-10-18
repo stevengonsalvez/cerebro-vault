@@ -10,11 +10,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "229b322ed982d40b"
   - "c4281af03270173b"
-pushes_per_week: [5, 21, 3, 2, 1, 0, 0, 0, 4, 5, 10, 21, 0]
+pushes_per_week: [5, 21, 5, 0, 1, 0, 0, 0, 4, 5, 22, 9, 0]
 windows:
   "7d":
     pushes: 0
@@ -79,14 +79,22 @@ reasons:
   - "activity: 22 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "baymax-medical-pa"
-    title: "baymax-medical-pa"
-    description: null
+  - name: "BrainBob"
+    title: "BrainBob"
+    description: "An agent memory loop on Crusoe, with CopilotKit and a 3D brain that visualizes and retraces memory management."
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-18"
+  - name: "fast-forward-spatial-shop"
+    title: "fast-forward-spatial-shop"
+    description: "Fast Forward Virtual Hackathon entry: a voice-driven Shopify catalog agent with a WebXR spatial showroom."
     language: "TypeScript"
     topics: []
-    stars_fact: 1
+    stars_fact: 0
     first_seen: null
-    last_push: "2026-10-05"
+    last_push: "2026-10-14"
   - name: "openmuse"
     title: "openmuse"
     description: "An open-source personal agent with a persistent browser computer, CopilotKit rich chat, and a React Native app."
@@ -99,9 +107,17 @@ repos:
       - "personal-assistant"
       - "react-native"
       - "self-hosted"
-    stars_fact: 2
+    stars_fact: 4
     first_seen: null
     last_push: "2026-09-29"
+  - name: "baymax-medical-pa"
+    title: "baymax-medical-pa"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-05"
   - name: "jerelvelarde"
     title: "jerelvelarde"
     description: null
@@ -118,30 +134,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-10-05"
-  - name: "awesome-openbot-agents"
-    title: "awesome-openbot-agents"
-    description: "Coworkers for OpenBot, as files. Configuration travels; capability does not."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-04"
-  - name: "agents-everywhere-starter-kit"
-    title: "agents-everywhere-starter-kit"
-    description: "Starter kit for the Agents, Everywhere: Bots, Channels & More global hackathon (AI Tinkerers x OpenAI, 12 Sep 2026). One agent, every surface — Slack/Teams via CopilotKit Channels, zero tunnel."
-    language: "TypeScript"
-    topics:
-      - "ag-ui"
-      - "ai-agents"
-      - "copilotkit"
-      - "generative-ui"
-      - "hackathon"
-      - "mcp"
-      - "slack-bot"
-      - "starter-kit"
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-09-12"
 ---
 
 # jerelvelarde

@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "01cd6a498d377caf"
   - "03604cccd7e9402d"
@@ -74,7 +74,7 @@ provenance:
   - "fd1cb9e783625459"
   - "fe9e50bf2d5b21fe"
   - "ff1ca072bf39e471"
-pushes_per_week: [10, 14, 13, 4, 1, 7, 1, 0, 2, 12, 3, 0, 0]
+pushes_per_week: [16, 8, 13, 4, 1, 8, 0, 0, 4, 11, 2, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -84,8 +84,8 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 17
-    distinct_repos: 8
+    pushes: 16
+    distinct_repos: 7
     active_days: 7
     repos_not_owned: 2
     not_owned_basenames: 2
@@ -119,9 +119,9 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 17
-    distinct_repos: 8
-    pushes_per_repo: 2.1250
+    pushes: 16
+    distinct_repos: 7
+    pushes_per_repo: 2.2857
     active_days: 7
     repos_not_owned: 2
     not_owned_basenames: 2
@@ -139,30 +139,6 @@ reasons:
   - "activity: 27 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "skills"
-    title: "skills"
-    description: "Personal Skills"
-    language: "Python"
-    topics: []
-    stars_fact: 5
-    first_seen: null
-    last_push: "2026-10-08"
-  - name: "homebrew-arbor"
-    title: "homebrew-arbor"
-    description: null
-    language: "Ruby"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-07"
-  - name: "arbor"
-    title: "arbor"
-    description: "Git worktree manager (alpha)"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-07"
   - name: "skillsaw"
     title: "skillsaw"
     description: "Keep your skills sharp. Intelligence for agent context."
@@ -185,9 +161,33 @@ repos:
       - "skill"
       - "skill-md"
       - "skills"
-    stars_fact: 68
+    stars_fact: 67
     first_seen: null
-    last_push: "2026-10-05"
+    last_push: "2026-10-16"
+  - name: "skills"
+    title: "skills"
+    description: "Personal Skills"
+    language: "Python"
+    topics: []
+    stars_fact: 5
+    first_seen: null
+    last_push: "2026-10-15"
+  - name: "homebrew-arbor"
+    title: "homebrew-arbor"
+    description: null
+    language: "Ruby"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-07"
+  - name: "arbor"
+    title: "arbor"
+    description: "Git worktree manager (alpha)"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-07"
   - name: "cronex"
     title: "cronex"
     description: "Implementation for scheduled tasks in Codex CLI"

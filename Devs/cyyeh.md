@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "dffbb846389f9a26"
 pushes_per_week: [0, 1, 0, 1, 0, 0, 0, 0, 2, 0, 2, 0, 0]
@@ -77,6 +77,22 @@ reasons:
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "cyyeh"
+    title: "cyyeh"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-18"
+  - name: "cyyeh.github.io"
+    title: "cyyeh.github.io"
+    description: "A 3D portfolio in the style of Henry Heffernan's site, modelled on my real desk: a walnut standing desk with a 27\" monitor on an arm, a MacBook Pro, an NVIDIA DGX Spark and a Reachy Mini."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-18"
   - name: "jit-learning-loop"
     title: "jit-learning-loop"
     description: "An Agent Skill for learning what the task needs, while doing the task. It works with any coding agent that supports the Agent Skills spec: Claude Code, Codex, Cursor, Gemini CLI, GitHub Copilot, OpenCode and more."
@@ -85,14 +101,6 @@ repos:
     stars_fact: 1
     first_seen: null
     last_push: "2026-10-01"
-  - name: "cyyeh"
-    title: "cyyeh"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-24"
   - name: "laya-demo"
     title: "laya-demo"
     description: null
@@ -117,14 +125,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-09-12"
-  - name: "MIT6.031_Software_Construction"
-    title: "MIT6.031_Software_Construction"
-    description: "This repository consists of notes taken from class readings and personal/team-based projects."
-    language: "Java"
-    topics: []
-    stars_fact: 20
-    first_seen: null
-    last_push: "2018-11-28"
 ---
 
 # cyyeh

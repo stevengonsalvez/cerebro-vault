@@ -8,11 +8,11 @@ provenance_repos:
   - "apache/maka"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+repos_populated: false
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 11, 2, 2]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 10, 3, 1]
 windows:
   "7d":
     pushes: 2
@@ -76,73 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 11 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "context-port"
-    title: "context-port"
-    description: "A shared knowledge and context workspace for humans and AI agents, with native MCP and REST support."
-    language: "TypeScript"
-    topics:
-      - "agentic-ai"
-      - "ai-agents"
-      - "claude"
-      - "context-management"
-      - "human-in-the-loop"
-      - "llm"
-      - "mcp"
-      - "model-context-protocol"
-      - "nestjs"
-      - "react"
-    stars_fact: 6
-    first_seen: null
-    last_push: "2026-10-10"
-  - name: "Echo"
-    title: "Echo"
-    description: "Echo helps you improve expression in your target language while communicating with Claude Code and Codex CLI. Grammar feedback, translation, and back-translation stay in the UI and never enter your active conversation’s model context."
-    language: "JavaScript"
-    topics: []
-    stars_fact: 20
-    first_seen: null
-    last_push: "2026-10-10"
-  - name: "chrome-deepseek-enchance-plugin"
-    title: "chrome-deepseek-enchance-plugin"
-    description: "Chrome extension to quote selected DeepSeek response text into your message draft with one click. Runs locally, with no tracking."
-    language: "TypeScript"
-    topics:
-      - "chrome-extension"
-      - "deepseek"
-      - "local-first"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-09"
-  - name: "whisper.cpp-release"
-    title: "whisper.cpp-release"
-    description: "Prebuilt whisper.cpp binaries for Linux, Windows, and macOS — built and released via GitHub Actions"
-    language: "Python"
-    topics:
-      - "cross-platform"
-      - "speech-to-text"
-      - "whisper"
-      - "whisper-cpp"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-06-15"
-  - name: "herdr-done-first"
-    title: "herdr-done-first"
-    description: null
-    language: "Python"
-    topics:
-      - "herdr-plugin"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-27"
-  - name: "figma-design-pilot"
-    title: "figma-design-pilot"
-    description: "An experimental agentic Figma plugin for chatting with and modifying your canvas."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-21"
+repos: []
 ---
 
 # jiang1997

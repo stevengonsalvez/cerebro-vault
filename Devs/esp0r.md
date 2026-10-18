@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: true
 repos_populated: true
-generated_at: "2026-10-16T08:30:18.142355+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "ded4e7e6458f4aee"
-pushes_per_week: [0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1]
+pushes_per_week: [0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0]
 windows:
   "7d":
     pushes: 1
@@ -77,6 +77,14 @@ reasons:
   - "activity: 2 active days in 90d — below the 5-day line, LABELLED low-n (never suppressed)"
   - "automation: clear — pass"
 repos:
+  - name: "soniox_chrome_extension"
+    title: "soniox_chrome_extension"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-12"
   - name: "trace_gil_ebpf"
     title: "trace_gil_ebpf"
     description: null
@@ -93,14 +101,6 @@ repos:
     stars_fact: 1
     first_seen: null
     last_push: "2026-04-10"
-  - name: "soniox_chrome_extension"
-    title: "soniox_chrome_extension"
-    description: null
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-03-11"
   - name: "booktoki_crawler"
     title: "booktoki_crawler"
     description: null

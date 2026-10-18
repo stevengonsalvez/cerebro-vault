@@ -9,13 +9,13 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "97c4e9cb8b163ddb"
   - "c7515e0fa4368a55"
   - "d3abe74726b22711"
   - "e7c647c4d0689526"
-pushes_per_week: [1, 0, 0, 1, 2, 2, 1, 1, 3, 0, 0, 2, 0]
+pushes_per_week: [1, 0, 0, 1, 3, 2, 0, 1, 3, 0, 1, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -25,7 +25,7 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 4
+    pushes: 3
     distinct_repos: 3
     active_days: 3
     repos_not_owned: 0
@@ -60,9 +60,9 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 4
+    pushes: 3
     distinct_repos: 3
-    pushes_per_repo: 1.3333
+    pushes_per_repo: 1.0000
     active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -87,7 +87,7 @@ repos:
     topics: []
     stars_fact: 4
     first_seen: null
-    last_push: "2026-10-09"
+    last_push: "2026-10-18"
   - name: "mameikagou"
     title: "mameikagou"
     description: null
@@ -95,7 +95,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-08"
+    last_push: "2026-10-17"
   - name: "cedar"
     title: "cedar"
     description: "Cedar — vanilla HTML/CSS/JavaScript frontend, FastAPI + uv backend, PostgreSQL"
@@ -120,14 +120,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-06-12"
-  - name: "llm-wiki"
-    title: "llm-wiki"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-05-31"
 ---
 
 # mameikagou

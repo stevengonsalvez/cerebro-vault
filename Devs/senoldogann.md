@@ -9,11 +9,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "1df6ea1f1256059e"
   - "edb3a626875732de"
-pushes_per_week: [0, 2, 0, 6, 0, 0, 1, 33, 9, 6, 9, 1, 25]
+pushes_per_week: [2, 0, 0, 6, 0, 0, 2, 37, 6, 6, 8, 5, 20]
 windows:
   "7d":
     pushes: 25
@@ -78,6 +78,14 @@ reasons:
   - "activity: 27 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "Dot"
+    title: "Dot"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-18"
   - name: "LLM-Context-Manager"
     title: "LLM-Context-Manager"
     description: "Bridge the gap between your codebase and your AI editor. CCM transforms static source code into a dynamic, queryable Knowledge Graph, enabling AI agents to navigate, understand, and reason about your project with surgical precision"
@@ -85,7 +93,7 @@ repos:
     topics: []
     stars_fact: 61
     first_seen: null
-    last_push: "2026-10-10"
+    last_push: "2026-10-12"
   - name: "chatgpt-system"
     title: "chatgpt-system"
     description: "Secure local MCP authority gateway for controlled filesystem, Git, process, and future computer-use access from ChatGPT-compatible MCP clients."
@@ -93,7 +101,7 @@ repos:
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-10-08"
+    last_push: "2026-10-13"
   - name: "CimriHook"
     title: "CimriHook"
     description: "CimriHook stops AI coding agents from paying again and again for context they no longer need."
@@ -127,14 +135,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-09-28"
-  - name: "WatchYourDay"
-    title: "WatchYourDay"
-    description: "WatchYourDay is a native macOS activity tracker built for privacy and automation. It runs silently in the background, capturing your work history and providing insights without sending a single byte of data to the cloud."
-    language: "Swift"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-01-15"
 ---
 
 # senoldogann

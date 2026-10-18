@@ -8,8 +8,8 @@ provenance_repos:
   - "browser-use/browser-use"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-16T08:30:18.142355+00:00"
+repos_populated: false
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "c1af6b58492f9bf4"
 pushes_per_week: [4, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0]
@@ -76,47 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "llm-threader"
-    title: "llm-threader"
-    description: "Efficiently run many local LLM calls on limited hardware without overheating or freezing your machine."
-    language: "JavaScript"
-    topics: []
-    stars_fact: 9
-    first_seen: null
-    last_push: "2025-11-29"
-  - name: "browser-automation"
-    title: "browser-automation"
-    description: null
-    language: "JavaScript"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2025-04-16"
-  - name: "smux"
-    title: "smux"
-    description: null
-    language: "Shell"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-04-12"
-  - name: "ofac-enforcement-actions"
-    title: "ofac-enforcement-actions"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2025-12-03"
-  - name: "quickcomplete-app"
-    title: "quickcomplete-app"
-    description: "Automate web and OS tasks with AI. Electron app."
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2025-04-16"
+repos: []
 ---
 
 # laithrw

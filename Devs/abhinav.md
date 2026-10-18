@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [3, 14, 5, 15, 1, 6, 1, 1, 1, 1, 1, 0, 4]
+pushes_per_week: [2, 17, 3, 14, 3, 5, 1, 0, 1, 1, 1, 0, 4]
 windows:
   "7d":
     pushes: 4
@@ -29,7 +29,7 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 53
+    pushes: 52
     distinct_repos: 6
     active_days: 22
     repos_not_owned: 1
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.4091
+  push_per_day: 2.3636
   repo_per_active_day: 0.2727
   not_owned_ratio: 0.1667
   basename_concentration: 0.3333
@@ -65,9 +65,9 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 53
+    pushes: 52
     distinct_repos: 6
-    pushes_per_repo: 8.8333
+    pushes_per_repo: 8.6667
     active_days: 22
     repos_not_owned: 1
     not_owned_basenames: 1
@@ -77,6 +77,14 @@ reasons:
   - "activity: 22 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "test-repo"
+    title: "test-repo"
+    description: "Repository used to test https://github.com/abhinav/git-spice"
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-18"
   - name: "git-spice"
     title: "git-spice"
     description: "Manage stacked Git branches"
@@ -84,9 +92,9 @@ repos:
     topics:
       - "developer-tools"
       - "git"
-    stars_fact: 773
+    stars_fact: 776
     first_seen: null
-    last_push: "2026-10-05"
+    last_push: "2026-10-18"
   - name: "home"
     title: "home"
     description: null
@@ -94,49 +102,38 @@ repos:
     topics: []
     stars_fact: 14
     first_seen: null
-    last_push: "2026-10-04"
-  - name: "tmux-fastcopy"
-    title: "tmux-fastcopy"
-    description: "easymotion-style text copying for tmux."
-    language: "Go"
-    topics:
-      - "tmux"
-    stars_fact: 99
+    last_push: "2026-10-18"
+  - name: "homebrew-tap"
+    title: "homebrew-tap"
+    description: null
+    language: "Ruby"
+    topics: []
+    stars_fact: 0
     first_seen: null
-    last_push: "2026-10-05"
-  - name: "goldmark-wikilink"
-    title: "goldmark-wikilink"
-    description: "An extension for goldmark Markdown parser adding support for parsing and rendering wikilinks."
+    last_push: "2026-10-13"
+  - name: "requiredfield"
+    title: "requiredfield"
+    description: "Go linter that checks for required fields in structs."
     language: "Go"
     topics:
       - "golang"
-      - "markdown"
-      - "obsidian"
-    stars_fact: 36
+      - "lint"
+    stars_fact: 34
     first_seen: null
-    last_push: "2026-10-05"
-  - name: "cardamom"
-    title: "cardamom"
-    description: "Work tracker for agents with visibility for humans."
-    language: "Go"
-    topics: []
-    stars_fact: 8
-    first_seen: null
-    last_push: "2026-09-26"
-  - name: "goldmark-anchor"
-    title: "goldmark-anchor"
-    description: "Generates anchors next to headings in a Markdown document."
+    last_push: "2026-10-13"
+  - name: "stitchmd"
+    title: "stitchmd"
+    description: "Stitch multiple Markdown files together into a single document."
     language: "Go"
     topics:
-      - "goldmark"
       - "markdown"
-    stars_fact: 11
+    stars_fact: 66
     first_seen: null
-    last_push: "2026-10-05"
+    last_push: "2026-10-12"
 ---
 
 # abhinav
 
-53 pushes across 6 repositories on 22 active days in the last 90 days of public GitHub push activity.
+52 pushes across 6 repositories on 22 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/abhinav

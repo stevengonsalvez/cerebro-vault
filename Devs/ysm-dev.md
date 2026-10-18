@@ -8,11 +8,11 @@ provenance_repos:
   - "anomalyco/opencode"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+repos_populated: false
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 4, 2, 8, 7, 2]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 4, 2, 10, 5, 2]
 windows:
   "7d":
     pushes: 2
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 20
+    pushes: 19
     distinct_repos: 5
-    active_days: 11
+    active_days: 10
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 20
+    pushes: 19
     distinct_repos: 5
-    pushes_per_repo: 4.0000
-    active_days: 11
+    pushes_per_repo: 3.8000
+    active_days: 10
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -76,63 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 13 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "atom"
-    title: "atom"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-16"
-  - name: "opencode-stats"
-    title: "opencode-stats"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-15"
-  - name: "ts-template"
-    title: "ts-template"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-14"
-  - name: "movie-noti"
-    title: "movie-noti"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-14"
-  - name: "cpdown"
-    title: "cpdown"
-    description: "📥 cpdown - Copy to clipboard any webpage content/youtube subtitle as clean markdown with one click or shortcut"
-    language: "TypeScript"
-    topics:
-      - "extension"
-      - "llm"
-      - "markdown"
-      - "productivity"
-      - "react"
-      - "subtitle"
-      - "wxt"
-      - "youtube"
-    stars_fact: 582
-    first_seen: null
-    last_push: "2026-10-12"
-  - name: "opencode-codex-websearch"
-    title: "opencode-codex-websearch"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-13"
+repos: []
 ---
 
 # ysm-dev

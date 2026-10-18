@@ -9,18 +9,18 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "a8880d67c967e370"
-pushes_per_week: [11, 0, 0, 4, 1, 2, 0, 0, 13, 10, 50, 47, 30]
+pushes_per_week: [6, 0, 0, 5, 0, 2, 0, 3, 10, 18, 59, 37, 23]
 windows:
   "7d":
-    pushes: 31
-    distinct_repos: 4
-    active_days: 5
-    repos_not_owned: 2
+    pushes: 29
+    distinct_repos: 3
+    active_days: 4
+    repos_not_owned: 1
     not_owned_basenames: 1
-    not_owned_owners: 2
+    not_owned_owners: 1
   "30d":
     pushes: 142
     distinct_repos: 9
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 2
   "90d":
-    pushes: 168
-    distinct_repos: 13
-    active_days: 34
+    pushes: 163
+    distinct_repos: 12
+    active_days: 33
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 4.9412
-  repo_per_active_day: 0.3824
-  not_owned_ratio: 0.1538
-  basename_concentration: 0.2308
+  push_per_day: 4.9394
+  repo_per_active_day: 0.3636
+  not_owned_ratio: 0.1667
+  basename_concentration: 0.2500
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,13 +49,13 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 31
-    distinct_repos: 4
-    pushes_per_repo: 7.7500
-    active_days: 5
-    repos_not_owned: 2
+    pushes: 29
+    distinct_repos: 3
+    pushes_per_repo: 9.6667
+    active_days: 4
+    repos_not_owned: 1
     not_owned_basenames: 1
-    not_owned_owners: 2
+    not_owned_owners: 1
   "30d":
     pushes: 142
     distinct_repos: 9
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 2
   "90d":
-    pushes: 168
-    distinct_repos: 13
-    pushes_per_repo: 12.9231
-    active_days: 34
+    pushes: 163
+    distinct_repos: 12
+    pushes_per_repo: 13.5833
+    active_days: 33
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 34 active days in 90d — pass"
+  - "activity: 33 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "tuios"
@@ -155,6 +155,6 @@ repos:
 
 # Gaurav-Gosain
 
-168 pushes across 13 repositories on 34 active days in the last 90 days of public GitHub push activity.
+163 pushes across 12 repositories on 33 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Gaurav-Gosain

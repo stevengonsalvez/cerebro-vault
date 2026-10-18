@@ -9,17 +9,17 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "0b22ca37fd3884c9"
-pushes_per_week: [23, 8, 6, 1, 2, 0, 0, 0, 7, 16, 6, 6, 11]
+pushes_per_week: [20, 8, 6, 1, 2, 0, 0, 0, 8, 16, 8, 5, 9]
 windows:
   "7d":
-    pushes: 12
-    distinct_repos: 9
-    active_days: 5
-    repos_not_owned: 9
-    not_owned_basenames: 9
+    pushes: 10
+    distinct_repos: 8
+    active_days: 4
+    repos_not_owned: 8
+    not_owned_basenames: 8
     not_owned_owners: 2
   "30d":
     pushes: 45
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 11
     not_owned_owners: 3
   "90d":
-    pushes: 86
-    distinct_repos: 17
+    pushes: 83
+    distinct_repos: 16
     active_days: 34
-    repos_not_owned: 15
-    not_owned_basenames: 14
+    repos_not_owned: 14
+    not_owned_basenames: 13
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 2.5294
-  repo_per_active_day: 0.5000
-  not_owned_ratio: 0.8824
-  basename_concentration: 0.1176
+  push_per_day: 2.4412
+  repo_per_active_day: 0.4706
+  not_owned_ratio: 0.8750
+  basename_concentration: 0.1250
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,12 +49,12 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 12
-    distinct_repos: 9
-    pushes_per_repo: 1.3333
-    active_days: 5
-    repos_not_owned: 9
-    not_owned_basenames: 9
+    pushes: 10
+    distinct_repos: 8
+    pushes_per_repo: 1.2500
+    active_days: 4
+    repos_not_owned: 8
+    not_owned_basenames: 8
     not_owned_owners: 2
   "30d":
     pushes: 45
@@ -65,12 +65,12 @@ facets:
     not_owned_basenames: 11
     not_owned_owners: 3
   "90d":
-    pushes: 86
-    distinct_repos: 17
-    pushes_per_repo: 5.0588
+    pushes: 83
+    distinct_repos: 16
+    pushes_per_repo: 5.1875
     active_days: 34
-    repos_not_owned: 15
-    not_owned_basenames: 14
+    repos_not_owned: 14
+    not_owned_basenames: 13
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
@@ -132,6 +132,6 @@ repos:
 
 # DaleSeo
 
-86 pushes across 17 repositories on 34 active days in the last 90 days of public GitHub push activity.
+83 pushes across 16 repositories on 34 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/DaleSeo

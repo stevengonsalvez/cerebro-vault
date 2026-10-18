@@ -8,11 +8,11 @@ provenance_repos:
   - "can1357/oh-my-pi"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+repos_populated: false
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [1, 0, 0, 2, 0, 0, 0, 0, 3, 3, 2, 1, 0]
+pushes_per_week: [1, 0, 0, 2, 0, 0, 0, 1, 2, 5, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,65 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 10 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "noble"
-    title: "noble"
-    description: "A retro-futurist HUD terminal workspace: real shells, git projects, system sensors and AI coding quota in one cockpit. Rust + ratatui."
-    language: "Rust"
-    topics:
-      - "claude-code"
-      - "codex"
-      - "developer-tools"
-      - "ratatui"
-      - "rust"
-      - "terminal"
-      - "terminal-emulator"
-      - "tui"
-      - "windows"
-      - "workspace"
-    stars_fact: 6
-    first_seen: null
-    last_push: "2026-10-08"
-  - name: "Portfolio"
-    title: "Portfolio"
-    description: "A clean and modern portfolio to showcase my projects and skills."
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-08"
-  - name: "MertSoylu"
-    title: "MertSoylu"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-11"
-  - name: "cv-orman"
-    title: "cv-orman"
-    description: "See my project in 3D forest"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-07-27"
-  - name: "aislopfixer"
-    title: "aislopfixer"
-    description: "Terminal TUI that finds and fixes AI-generated slop in local web projects. Fully offline, rule-based, no API keys"
-    language: "Python"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-08-01"
-  - name: "WalkKittie_App"
-    title: "WalkKittie_App"
-    description: "WalkKittie Source Codes"
-    language: "Kotlin"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-05-14"
+repos: []
 ---
 
 # MertSoylu

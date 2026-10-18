@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [0, 0, 0, 0, 2, 0, 0, 1, 3, 9, 8, 2, 1]
+pushes_per_week: [0, 0, 0, 1, 1, 0, 0, 2, 2, 9, 9, 2, 0]
 windows:
   "7d":
     pushes: 1
@@ -77,6 +77,23 @@ reasons:
   - "activity: 13 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "Nativerate"
+    title: "Nativerate"
+    description: "Bit-perfect Apple Music for macOS: each track plays at its native sample rate on your DAC."
+    language: "Swift"
+    topics:
+      - "apple-music"
+      - "audio"
+      - "bit-perfect"
+      - "dac"
+      - "lossless"
+      - "macos"
+      - "menu-bar-app"
+      - "sample-rate"
+      - "swift"
+    stars_fact: 5
+    first_seen: null
+    last_push: "2026-10-17"
   - name: "overflow"
     title: "overflow"
     description: "OBS Studio plugin that sends program video and audio to Apple TVs and Roku TVs in other rooms over AirPlay. For overflow rooms, lobbies and multi-room church AV."
@@ -99,24 +116,7 @@ repos:
       - "windows"
     stars_fact: 1
     first_seen: null
-    last_push: "2026-10-08"
-  - name: "Nativerate"
-    title: "Nativerate"
-    description: "Bit-perfect Apple Music for macOS: each track plays at its native sample rate on your DAC."
-    language: "Swift"
-    topics:
-      - "apple-music"
-      - "audio"
-      - "bit-perfect"
-      - "dac"
-      - "lossless"
-      - "macos"
-      - "menu-bar-app"
-      - "sample-rate"
-      - "swift"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-08"
+    last_push: "2026-10-17"
   - name: "projection-mirror"
     title: "projection-mirror"
     description: "Mirror a Mac display to Panasonic PT-F300-family network projectors over LAN — independent, unofficial interoperability tool"

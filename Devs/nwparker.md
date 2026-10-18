@@ -11,37 +11,37 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "0a8884baa5f55aa6"
   - "2a7f0fddd2dac162"
-pushes_per_week: [88, 108, 44, 109, 36, 35, 7, 44, 134, 69, 164, 92, 113]
+pushes_per_week: [100, 100, 59, 99, 43, 20, 14, 64, 115, 95, 153, 76, 104]
 windows:
   "7d":
-    pushes: 117
+    pushes: 110
     distinct_repos: 1
-    active_days: 5
+    active_days: 4
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 521
+    pushes: 509
     distinct_repos: 21
-    active_days: 27
+    active_days: 26
     repos_not_owned: 20
     not_owned_basenames: 1
     not_owned_owners: 20
   "90d":
-    pushes: 1043
+    pushes: 1042
     distinct_repos: 36
-    active_days: 81
+    active_days: 80
     repos_not_owned: 35
     not_owned_basenames: 2
     not_owned_owners: 35
 automation:
   state: "clear"
-  push_per_day: 12.8765
-  repo_per_active_day: 0.4444
+  push_per_day: 13.0250
+  repo_per_active_day: 0.4500
   not_owned_ratio: 0.9722
   basename_concentration: 0.9722
   shapes:
@@ -68,32 +68,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 117
+    pushes: 110
     distinct_repos: 1
-    pushes_per_repo: 117.0000
-    active_days: 5
+    pushes_per_repo: 110.0000
+    active_days: 4
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 521
+    pushes: 509
     distinct_repos: 21
-    pushes_per_repo: 24.8095
-    active_days: 27
+    pushes_per_repo: 24.2381
+    active_days: 26
     repos_not_owned: 20
     not_owned_basenames: 1
     not_owned_owners: 20
   "90d":
-    pushes: 1043
+    pushes: 1042
     distinct_repos: 36
-    pushes_per_repo: 28.9722
-    active_days: 81
+    pushes_per_repo: 28.9444
+    active_days: 80
     repos_not_owned: 35
     not_owned_basenames: 2
     not_owned_owners: 35
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 81 active days in 90d — pass"
+  - "activity: 80 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "chain-trigger"
@@ -148,6 +148,6 @@ repos:
 
 # nwparker
 
-1043 pushes across 36 repositories on 81 active days in the last 90 days of public GitHub push activity.
+1042 pushes across 36 repositories on 80 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/nwparker

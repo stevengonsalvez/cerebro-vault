@@ -12,7 +12,7 @@ provenance_repos:
 admitted: true
 low_n: true
 repos_populated: true
-generated_at: "2026-10-16T08:30:18.142355+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "47417b643909abb5"
   - "afe9ef77456d9360"
@@ -81,54 +81,54 @@ reasons:
   - "activity: 1 active days in 90d — below the 5-day line, LABELLED low-n (never suppressed)"
   - "automation: clear — pass"
 repos:
-  - name: "codex-subscription-router"
-    title: "codex-subscription-router"
-    description: null
-    language: "Go"
-    topics: []
-    stars_fact: 415
-    first_seen: "2026-09-04T06:00:06.750937+00:00"
-    last_push: "2026-10-04"
-  - name: "agent-fingerprint"
-    title: "agent-fingerprint"
-    description: "Browser fingerprint evidence and heuristic agent/provider classification for Next.js"
+  - name: "codex-plusplus"
+    title: "codex-plusplus"
+    description: "Codex++ tweak system for the Codex desktop app"
     language: "JavaScript"
     topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-08"
+    stars_fact: 3760
+    first_seen: "2026-10-16T08:25:05.455247+00:00"
+    last_push: "2026-10-15"
   - name: "electron-extensions"
     title: "electron-extensions"
     description: "Signed update feed for Extensions Anywhere for macOS. No public app release is available yet."
     language: "Swift"
     topics: []
-    stars_fact: 1
+    stars_fact: 2
     first_seen: null
     last_push: "2026-09-13"
-  - name: "codex-plusplus-ios-simulator"
-    title: "codex-plusplus-ios-simulator"
-    description: "iOS Simulator tweak for Codex++ — embeds a headless, mirrored simulator in Codex's right panel."
-    language: "JavaScript"
-    topics: []
-    stars_fact: 570
-    first_seen: null
-    last_push: "2026-05-07"
-  - name: "codex-apple-watch"
-    title: "codex-apple-watch"
+  - name: "codex-subscription-router"
+    title: "codex-subscription-router"
     description: null
-    language: "Swift"
+    language: "Go"
     topics: []
-    stars_fact: 104
-    first_seen: null
-    last_push: "2026-05-24"
+    stars_fact: 414
+    first_seen: "2026-09-04T06:00:06.750937+00:00"
+    last_push: "2026-10-11"
   - name: "appstore-monitor"
     title: "appstore-monitor"
     description: "Tool for tracking updates to apps on the Apple App Store and Google Play Store. Notifies via Discord."
     language: "Go"
     topics: []
-    stars_fact: 5
+    stars_fact: 6
     first_seen: null
     last_push: "2026-09-06"
+  - name: "codex-apple-watch"
+    title: "codex-apple-watch"
+    description: null
+    language: "Swift"
+    topics: []
+    stars_fact: 105
+    first_seen: null
+    last_push: "2026-05-24"
+  - name: "agent-fingerprint"
+    title: "agent-fingerprint"
+    description: "Browser fingerprint evidence and heuristic agent/provider classification for Next.js"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-08"
 ---
 
 # b-nnett

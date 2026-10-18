@@ -8,16 +8,16 @@ provenance_repos:
   - "anthropics/anthropic-sdk-python"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+repos_populated: false
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "1be978947e68d1f2"
-pushes_per_week: [7, 2, 7, 10, 5, 1, 0, 2, 1, 9, 11, 1, 4]
+pushes_per_week: [1, 1, 11, 7, 4, 1, 0, 2, 1, 10, 10, 2, 3]
 windows:
   "7d":
-    pushes: 5
+    pushes: 4
     distinct_repos: 2
-    active_days: 3
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 60
+    pushes: 53
     distinct_repos: 5
-    active_days: 31
+    active_days: 29
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.9355
-  repo_per_active_day: 0.1613
+  push_per_day: 1.8276
+  repo_per_active_day: 0.1724
   not_owned_ratio: 0.0000
   basename_concentration: 0.2000
   shapes: []
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 5
+    pushes: 4
     distinct_repos: 2
-    pushes_per_repo: 2.5000
-    active_days: 3
+    pushes_per_repo: 2.0000
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -65,112 +65,22 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 60
+    pushes: 53
     distinct_repos: 5
-    pushes_per_repo: 12.0000
-    active_days: 31
+    pushes_per_repo: 10.6000
+    active_days: 29
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 31 active days in 90d — pass"
+  - "activity: 29 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "profiler-md"
-    title: "profiler-md"
-    description: "🔥 Converts performance profiles to human and LLM friendly Markdown."
-    language: "TypeScript"
-    topics:
-      - "cli"
-      - "markdown"
-      - "performance"
-      - "performance-analysis"
-      - "performance-optimization"
-      - "profiler-data"
-    stars_fact: 12
-    first_seen: null
-    last_push: "2026-10-16"
-  - name: "sorted-ranges"
-    title: "sorted-ranges"
-    description: "⚖️ A lightweight and performant sorted range map and set."
-    language: "TypeScript"
-    topics:
-      - "javascript"
-      - "node-module"
-      - "nodejs"
-      - "npm-module"
-      - "range-map"
-      - "range-set"
-      - "sorting-algorithms"
-    stars_fact: 4
-    first_seen: null
-    last_push: "2025-09-01"
-  - name: "grfn"
-    title: "grfn"
-    description: "🦅 A tiny (~315B) utility that executes a dependency graph of async functions as concurrently as possible."
-    language: "TypeScript"
-    topics:
-      - "async"
-      - "concurrency"
-      - "graph"
-      - "node-module"
-      - "node-package"
-      - "package"
-    stars_fact: 631
-    first_seen: null
-    last_push: "2025-09-01"
-  - name: "cover-letter"
-    title: "cover-letter"
-    description: "📄 A LaTeX document for my cover letters."
-    language: "TeX"
-    topics:
-      - "cover-letter"
-      - "cover-letter-templates"
-      - "cover-letters"
-      - "document"
-      - "latex"
-      - "latex-document"
-      - "overleaf"
-      - "pdf"
-      - "tex"
-      - "ubuntu"
-    stars_fact: 17
-    first_seen: null
-    last_push: "2024-10-15"
-  - name: "quetie"
-    title: "quetie"
-    description: "🎀 Just the cutest and tiniest queue/deque implementation!"
-    language: "TypeScript"
-    topics:
-      - "amortized-array"
-      - "data-structures"
-      - "deque"
-      - "double-ended-queue"
-      - "npm-module"
-      - "npm-package"
-      - "queue"
-      - "stack"
-    stars_fact: 116
-    first_seen: null
-    last_push: "2025-09-01"
-  - name: "claude-config"
-    title: "claude-config"
-    description: "🤖 My Claude Code config!"
-    language: "Shell"
-    topics:
-      - "claude"
-      - "claude-code"
-      - "claude-code-config"
-      - "claude-code-skills"
-      - "claude-config"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-11"
+repos: []
 ---
 
 # TomerAberbach
 
-60 pushes across 5 repositories on 31 active days in the last 90 days of public GitHub push activity.
+53 pushes across 5 repositories on 29 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/TomerAberbach

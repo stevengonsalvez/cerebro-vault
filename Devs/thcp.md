@@ -8,11 +8,11 @@ provenance_repos:
   - "stemdeckapp/stemdeck"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+repos_populated: false
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "f067a4ae268cdf65"
-pushes_per_week: [2, 0, 1, 9, 0, 1, 0, 1, 0, 2, 3, 4, 1]
+pushes_per_week: [2, 0, 3, 7, 0, 1, 0, 1, 1, 1, 5, 3, 0]
 windows:
   "7d":
     pushes: 1
@@ -76,55 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 15 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "phloem"
-    title: "phloem"
-    description: "Watch a git repository's history grow as a glowing, branching vein network in 3D."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 10
-    first_seen: null
-    last_push: "2026-10-11"
-  - name: "netbattle"
-    title: "netbattle"
-    description: null
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-10"
-  - name: "phronesis"
-    title: "phronesis"
-    description: "Replies from your AI coding agent that are easy to read and easy to act on: the answer first, one step at a time, nothing left to guess. Designed around attention and clarity."
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-15"
-  - name: "my-awesome-list"
-    title: "my-awesome-list"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-30"
-  - name: "PedalBoardManager"
-    title: "PedalBoardManager"
-    description: "Create, organize, and manage pedalboard profiles and signal chains."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-08-08"
-  - name: "dockerclaw"
-    title: "dockerclaw"
-    description: "OpenClaw On Docker"
-    language: "Shell"
-    topics: []
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-03-29"
+repos: []
 ---
 
 # thcp

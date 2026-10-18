@@ -8,11 +8,11 @@ provenance_repos:
   - "anthropics/claude-code-action"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+repos_populated: false
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "0b22ca37fd3884c9"
-pushes_per_week: [0, 3, 23, 3, 8, 4, 0, 3, 4, 19, 96, 4, 0]
+pushes_per_week: [0, 7, 19, 5, 7, 3, 0, 3, 5, 23, 91, 4, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 123
-    distinct_repos: 24
-    active_days: 17
+    pushes: 122
+    distinct_repos: 23
+    active_days: 16
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 123
-    distinct_repos: 24
-    pushes_per_repo: 5.1250
-    active_days: 17
+    pushes: 122
+    distinct_repos: 23
+    pushes_per_repo: 5.3043
+    active_days: 16
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -76,80 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 36 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "streak"
-    title: "streak"
-    description: "🔥 the flame never dies"
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-15"
-  - name: "shoemoneyx"
-    title: "shoemoneyx"
-    description: "SMX · an open-source crypto paper-trading desk. Backtest farm, walk-forward optimizer, built-in AI agent, 110 exchanges, schema v2 strategies."
-    language: "PHP"
-    topics:
-      - "algo-trading"
-      - "backtesting"
-      - "ccxt"
-      - "coinbase"
-      - "crypto"
-      - "laravel"
-      - "open-source"
-      - "paper-trading"
-      - "trading"
-      - "vue"
-    stars_fact: 26
-    first_seen: null
-    last_push: "2026-10-12"
-  - name: "after-adderall"
-    title: "after-adderall"
-    description: "📖 After Adderall: Overprescribed, Unraveled, and Rebuilt from Scratch. A free memoir about adult ADHD, Adderall dependence, and recovery. Free PDF + EPUB."
-    language: null
-    topics:
-      - "adderall"
-      - "addiction-recovery"
-      - "adhd"
-      - "burnout"
-      - "ebook"
-      - "epub"
-      - "free-book"
-      - "memoir"
-      - "mental-health"
-      - "neurodiversity"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-08"
-  - name: "jev-the-spire2"
-    title: "jev-the-spire2"
-    description: "An agent plays Slay the Spire 2. Single-call factored decisions via TypeSafe Jev: 15x faster and 259x cheaper than Claude on identical state. Fork of alexmeckes/jev-the-spire (MIT)."
-    language: "JavaScript"
-    topics:
-      - "ai-agent"
-      - "decision-model"
-      - "mcp"
-      - "slay-the-spire-2"
-      - "typesafe-jev"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-01"
-  - name: "OpenSnap"
-    title: "OpenSnap"
-    description: "Native AppKit reconstruction of Skitch 1.0.12 for Apple Silicon Macs"
-    language: "Swift"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-12"
-  - name: "aigate"
-    title: "aigate"
-    description: "Safe multi-account load balancer for Claude Code — encrypted token vault, usage-aware routing, live dashboard. Official binary + hooks, no relay/proxy."
-    language: "JavaScript"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-10-15"
+repos: []
 ---
 
 # shoemoney

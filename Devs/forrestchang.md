@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "ca6e9330cc1b2a53"
-pushes_per_week: [3, 9, 4, 10, 3, 1, 0, 4, 5, 15, 7, 0, 0]
+pushes_per_week: [3, 9, 4, 11, 3, 0, 0, 4, 7, 20, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,6 +77,34 @@ reasons:
   - "activity: 25 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: ".doom.d"
+    title: ".doom.d"
+    description: "Personal doom emacs configs"
+    language: "Emacs Lisp"
+    topics:
+      - "doom-emacs"
+      - "editor"
+      - "elisp"
+      - "emacs"
+    stars_fact: 23
+    first_seen: null
+    last_push: "2021-12-20"
+  - name: "gptlang"
+    title: "gptlang"
+    description: "A new programming language implemented by GPT-4."
+    language: "Python"
+    topics: []
+    stars_fact: 346
+    first_seen: null
+    last_push: "2023-03-15"
+  - name: "practical-python-programming-cn"
+    title: "practical-python-programming-cn"
+    description: "翻译 Practical Python Programming https://dabeaz-course.github.io/practical-python/"
+    language: null
+    topics: []
+    stars_fact: 32
+    first_seen: null
+    last_push: "2020-06-30"
   - name: "worktree-workflow"
     title: "worktree-workflow"
     description: "A toolkit for parallel development with git worktrees, designed for Claude Code"
@@ -101,30 +129,6 @@ repos:
     stars_fact: 30
     first_seen: null
     last_push: "2026-02-03"
-  - name: "forrestchang"
-    title: "forrestchang"
-    description: "Jiayuan Zhang's GitHub Profile"
-    language: null
-    topics: []
-    stars_fact: 27
-    first_seen: null
-    last_push: "2026-04-01"
-  - name: "practical-python-programming-cn"
-    title: "practical-python-programming-cn"
-    description: "翻译 Practical Python Programming https://dabeaz-course.github.io/practical-python/"
-    language: null
-    topics: []
-    stars_fact: 33
-    first_seen: null
-    last_push: "2020-06-30"
-  - name: "roam-research-cli"
-    title: "roam-research-cli"
-    description: "A CLI wrapper for the Roam Research APIs (Backend + Append + Desktop Local), built for AI agents and shell pipelines."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 10
-    first_seen: null
-    last_push: "2026-08-01"
 ---
 
 # forrestchang

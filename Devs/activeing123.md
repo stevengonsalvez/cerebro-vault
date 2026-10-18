@@ -10,10 +10,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "69d1a861b67c373a"
-pushes_per_week: [0, 0, 0, 2, 4, 1, 0, 4, 1, 1, 8, 1, 2]
+pushes_per_week: [0, 0, 0, 2, 4, 1, 0, 4, 1, 1, 9, 0, 2]
 windows:
   "7d":
     pushes: 2
@@ -23,9 +23,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 13
+    pushes: 12
     distinct_repos: 2
-    active_days: 9
+    active_days: 8
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -58,10 +58,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 13
+    pushes: 12
     distinct_repos: 2
-    pushes_per_repo: 6.5000
-    active_days: 9
+    pushes_per_repo: 6.0000
+    active_days: 8
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -103,9 +103,25 @@ repos:
       - "windows"
       - "windsurf"
       - "zero-dependencies"
-    stars_fact: 218
+    stars_fact: 285
     first_seen: "2026-08-11T06:00:08.519377+00:00"
-    last_push: "2026-10-09"
+    last_push: "2026-10-18"
+  - name: "toondeck"
+    title: "toondeck"
+    description: "One deck for every agent — MCP tools, skills, models and API keys. GUI console for mcptoon."
+    language: "TypeScript"
+    topics:
+      - "agent"
+      - "dashboard"
+      - "fastapi"
+      - "gui"
+      - "keyring"
+      - "llm"
+      - "mcp"
+      - "mcptoon"
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-09-06"
   - name: "homebrew-mcptoon"
     title: "homebrew-mcptoon"
     description: "Homebrew tap for mcptoon — MCP client with token-efficient tool manifests"
@@ -113,7 +129,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-07"
+    last_push: "2026-10-17"
   - name: "dsh-mcptoon"
     title: "dsh-mcptoon"
     description: "DeepSeek Harness bundle: mount mcptoon as an MCP server in one command. Tool discovery 71,929 -> 581 tokens across 255 tools (-99.2%, measured); encoding is lossless."
@@ -125,7 +141,7 @@ repos:
       - "mcptoon"
       - "model-context-protocol"
       - "token-compression"
-    stars_fact: 1
+    stars_fact: 2
     first_seen: null
     last_push: "2026-09-16"
   - name: "choco-mcptoon"
@@ -150,14 +166,6 @@ repos:
     stars_fact: 1
     first_seen: null
     last_push: "2026-08-18"
-  - name: "activeing123"
-    title: "activeing123"
-    description: "My GitHub profile"
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-11"
 ---
 
 # activeing123

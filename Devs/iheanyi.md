@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "4a45ac7a449df20e"
 pushes_per_week: [0, 5, 0, 10, 0, 1, 1, 1, 0, 0, 1, 0, 1]
@@ -77,6 +77,22 @@ reasons:
   - "activity: 11 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "IrishSearch"
+    title: "IrishSearch"
+    description: "Irish Search for Android"
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-14"
+  - name: "nexus-w3mm-bridge"
+    title: "nexus-w3mm-bridge"
+    description: "Nexus Mods downloads, live Witcher 3 Mod Manager inventory, and file-specific update review for Windows"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-11"
   - name: "nexusmods-mcp"
     title: "nexusmods-mcp"
     description: "TypeScript MCP server for Nexus Mods with Vortex session reuse and local mod management"
@@ -114,22 +130,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-09-25"
-  - name: "frame"
-    title: "frame"
-    description: "Local Android capture and editing studio for desktop and the browser. Powered by scrcpy and Tango ADB."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-09"
-  - name: "coda-bandcamp"
-    title: "coda-bandcamp"
-    description: "Fast cross-platform Bandcamp desktop player with a persistent queue."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-05"
 ---
 
 # iheanyi

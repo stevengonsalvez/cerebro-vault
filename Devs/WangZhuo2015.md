@@ -8,14 +8,14 @@ provenance_repos:
   - "BigPizzaV3/CodexPlusPlus"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+repos_populated: false
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "90688bf127241ceb"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 9, 49, 4, 0, 2]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 1, 12, 45, 4, 2, 0]
 windows:
   "7d":
-    pushes: 2
+    pushes: 1
     distinct_repos: 1
     active_days: 1
     repos_not_owned: 0
@@ -49,9 +49,9 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
+    pushes: 1
     distinct_repos: 1
-    pushes_per_repo: 2.0000
+    pushes_per_repo: 1.0000
     active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -76,55 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 10 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "baby_panel_for_cecilia"
-    title: "baby_panel_for_cecilia"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-06"
-  - name: "growdesk-server"
-    title: "growdesk-server"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-04"
-  - name: "agy-switch"
-    title: "agy-switch"
-    description: "Multi-Account Switcher & Real-Time Quota Dashboard for Google Antigravity CLI"
-    language: "Shell"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-30"
-  - name: "droiddeck-support"
-    title: "droiddeck-support"
-    description: "DroidDeck support and privacy information"
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-24"
-  - name: "antigravity-cli-delegate"
-    title: "antigravity-cli-delegate"
-    description: "Low-context Gemini delegation skill with event-driven MCP progress, compact results, and no polling"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-11"
-  - name: "st-card-translate"
-    title: "st-card-translate"
-    description: null
-    language: "Rust"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-07-22"
+repos: []
 ---
 
 # WangZhuo2015

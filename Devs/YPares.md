@@ -8,11 +8,11 @@ provenance_repos:
   - "agavra/tuicr"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+repos_populated: false
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [4, 0, 0, 0, 0, 1, 0, 0, 2, 1, 1, 0, 2]
+pushes_per_week: [3, 0, 0, 0, 0, 1, 0, 2, 0, 1, 1, 0, 2]
 windows:
   "7d":
     pushes: 2
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 11
+    pushes: 10
     distinct_repos: 4
-    active_days: 8
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.3750
-  repo_per_active_day: 0.5000
+  push_per_day: 1.4286
+  repo_per_active_day: 0.5714
   not_owned_ratio: 0.0000
   basename_concentration: 0.2500
   shapes: []
@@ -65,108 +65,22 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 11
+    pushes: 10
     distinct_repos: 4
-    pushes_per_repo: 2.7500
-    active_days: 8
+    pushes_per_repo: 2.5000
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 8 active days in 90d — pass"
+  - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "agent-skills"
-    title: "agent-skills"
-    description: "Various skills for AI coding assistants"
-    language: "Shell"
-    topics:
-      - "agent-rig-system"
-      - "claude"
-      - "jj"
-      - "nix"
-      - "skills"
-      - "typst"
-    stars_fact: 30
-    first_seen: null
-    last_push: "2026-10-16"
-  - name: "rigup.nix"
-    title: "rigup.nix"
-    description: "AI agents and Nix: parametrable skills/instructions and tools, packaged together in a reproducible and modular fashion"
-    language: "Nix"
-    topics:
-      - "agent-rig-system"
-      - "ai-agents"
-      - "claude-code"
-      - "claude-skills"
-      - "harness"
-      - "llm-agents"
-      - "nix"
-      - "nix-flake"
-      - "nix-modules"
-      - "opencode"
-      - "pi"
-      - "riglets"
-      - "skills"
-    stars_fact: 95
-    first_seen: null
-    last_push: "2026-10-16"
-  - name: "nushellWith"
-    title: "nushellWith"
-    description: "Isolated nushell envs with specific plugins and libraries (with Nix)"
-    language: "Nix"
-    topics:
-      - "nix"
-      - "nix-flakes"
-      - "nu"
-      - "nushell"
-    stars_fact: 50
-    first_seen: null
-    last_push: "2026-10-16"
-  - name: "typstware"
-    title: "typstware"
-    description: "Typst libraries monorepo"
-    language: "Typst"
-    topics:
-      - "typesetting"
-      - "typst"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-10"
-  - name: "nih-faust-jit"
-    title: "nih-faust-jit"
-    description: "Rust VST3/CLAP plugin to load Faust DSP scripts"
-    language: "Rust"
-    topics: []
-    stars_fact: 42
-    first_seen: null
-    last_push: "2024-11-10"
-  - name: "arpligner"
-    title: "arpligner"
-    description: "A multi-track & polyphonic arpeggiator plugin that takes both chords and arp patterns as live MIDI data"
-    language: "C++"
-    topics:
-      - "arpeggiator"
-      - "juce"
-      - "juce-application"
-      - "juce-plugins"
-      - "ladspa-plugin"
-      - "lv2-plugin"
-      - "midi"
-      - "midi-plugin"
-      - "midi-processing"
-      - "music"
-      - "protoplug"
-      - "vst"
-      - "vst3-plugin"
-    stars_fact: 46
-    first_seen: null
-    last_push: "2023-10-11"
+repos: []
 ---
 
 # YPares
 
-11 pushes across 4 repositories on 8 active days in the last 90 days of public GitHub push activity.
+10 pushes across 4 repositories on 7 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/YPares

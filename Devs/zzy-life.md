@@ -8,11 +8,11 @@ provenance_repos:
   - "alibaba/page-agent"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-16T08:30:18.142355+00:00"
+repos_populated: false
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "d1946b21c02e5fa5"
-pushes_per_week: [1, 0, 1, 5, 0, 0, 0, 0, 0, 0, 0, 0, 1]
+pushes_per_week: [1, 0, 2, 4, 0, 0, 0, 0, 0, 0, 0, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -76,59 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "pcm-test"
-    title: "pcm-test"
-    description: null
-    language: "Java"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-14"
-  - name: "Claude-Code"
-    title: "Claude-Code"
-    description: "可运行的Claude Code源码"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-08"
-  - name: "DesktopNotes"
-    title: "DesktopNotes"
-    description: "Windows桌面便签，520kb极简，支持置顶显示"
-    language: "C#"
-    topics: []
-    stars_fact: 56
-    first_seen: null
-    last_push: "2026-03-23"
-  - name: "document-converter"
-    title: "document-converter"
-    description: "Document Converter Server made with Go & LibreOffice"
-    language: "Go"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-03-27"
-  - name: "contentgrid"
-    title: "contentgrid"
-    description: "contentgrid Use WebGL and three.js technology to achieve impressive transition effects, adapted to the mobile terminal. It can help your website or application to add beautiful transition effects to enhance user experience."
-    language: "Vue"
-    topics:
-      - "threejs"
-      - "vue"
-      - "vuejs"
-      - "webgl"
-    stars_fact: 54
-    first_seen: null
-    last_push: "2023-04-17"
-  - name: "kilo-draft"
-    title: "kilo-draft"
-    description: "Kilo is the all-in-one agentic engineering platform. Build, ship, and iterate faster with the most popular open source coding agent."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-15"
+repos: []
 ---
 
 # zzy-life

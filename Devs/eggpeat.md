@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [8, 0, 0, 2, 9, 0, 0, 0, 3, 1, 7, 1, 4]
+pushes_per_week: [8, 0, 0, 11, 0, 0, 0, 0, 3, 1, 7, 1, 4]
 windows:
   "7d":
     pushes: 4
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 16
+    pushes: 13
     distinct_repos: 1
-    active_days: 9
+    active_days: 8
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 16
+    pushes: 13
     distinct_repos: 1
-    pushes_per_repo: 16.0000
-    active_days: 9
+    pushes_per_repo: 13.0000
+    active_days: 8
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -82,7 +82,7 @@ repos:
     description: "Sanitized role-based multi-agent workflow for Oh My Pi (OMP)"
     language: "Python"
     topics: []
-    stars_fact: 4
+    stars_fact: 5
     first_seen: null
     last_push: "2026-08-21"
   - name: "OMP-RoleBench"

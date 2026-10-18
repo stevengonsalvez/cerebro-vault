@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [3, 0, 0, 0, 3, 0, 0, 1, 0, 0, 1, 4, 5]
+pushes_per_week: [3, 0, 0, 2, 1, 0, 0, 1, 0, 0, 1, 4, 5]
 windows:
   "7d":
-    pushes: 7
+    pushes: 5
     distinct_repos: 4
-    active_days: 4
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 7
+    pushes: 5
     distinct_repos: 4
-    pushes_per_repo: 1.7500
-    active_days: 4
+    pushes_per_repo: 1.2500
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -89,7 +89,15 @@ repos:
       - "typescript"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-11"
+    last_push: "2026-10-18"
+  - name: "jayhemnani9910"
+    title: "jayhemnani9910"
+    description: "GitHub profile README"
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-18"
   - name: "revolu-idea"
     title: "revolu-idea"
     description: "CAG Deep Research - AI research automation with LangGraph multi-agent orchestration"
@@ -126,14 +134,6 @@ repos:
     title: "voxt"
     description: "Voice-to-text clipboard tool for Linux"
     language: "Go"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-07"
-  - name: "recognize"
-    title: "recognize"
-    description: "SAM3 (Segment Anything Model) recognition and segmentation"
-    language: "Python"
     topics: []
     stars_fact: 0
     first_seen: null

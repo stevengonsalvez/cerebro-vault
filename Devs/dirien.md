@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "48dbbdd8fd0d3029"
-pushes_per_week: [0, 1, 0, 2, 0, 0, 0, 1, 3, 1, 0, 0, 4]
+pushes_per_week: [0, 1, 0, 2, 0, 0, 0, 2, 2, 1, 0, 0, 4]
 windows:
   "7d":
     pushes: 4
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 6
-    distinct_repos: 4
-    active_days: 4
+    pushes: 5
+    distinct_repos: 3
+    active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 6
-    distinct_repos: 4
-    pushes_per_repo: 1.5000
-    active_days: 4
+    pushes: 5
+    distinct_repos: 3
+    pushes_per_repo: 1.6667
+    active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -84,28 +84,15 @@ repos:
     topics: []
     stars_fact: 9
     first_seen: null
-    last_push: "2026-10-10"
-  - name: "infrastructure-sandbox-kit"
-    title: "infrastructure-sandbox-kit"
-    description: "Docker Sandboxes template + kit: an IaC (Pulumi/Terraform/OpenTofu + AWS/Azure/GCP CLIs) Claude Code workstation with APM baked into the agent home."
-    language: "Shell"
+    last_push: "2026-10-18"
+  - name: "claude-skills"
+    title: "claude-skills"
+    description: "Custom Claude Code skills for Pulumi infrastructure as code"
+    language: "Python"
     topics: []
-    stars_fact: 2
+    stars_fact: 13
     first_seen: null
-    last_push: "2026-10-09"
-  - name: "my-claude-apm-setup"
-    title: "my-claude-apm-setup"
-    description: "A self-contained APM-managed Claude Code + Codex setup — pinned skills, agents, guardrail hooks, MCP, LSP, and single-source generated context."
-    language: "Shell"
-    topics:
-      - "agent-package-manager"
-      - "ai-agents"
-      - "apm"
-      - "claude-code"
-      - "codex"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-09"
+    last_push: "2026-10-16"
   - name: "jev-router"
     title: "jev-router"
     description: "Pass-through model router for Claude Code and Codex CLI that picks a model tier per human turn with Jev, TypeSafe AI's decision model"
@@ -118,27 +105,43 @@ repos:
       - "model-router"
       - "ollama"
       - "typesafe"
-    stars_fact: 14
+    stars_fact: 17
     first_seen: null
-    last_push: "2026-10-08"
-  - name: "pulumi-vultr"
-    title: "pulumi-vultr"
-    description: "Pulumi provider for Vultr"
-    language: "Python"
+    last_push: "2026-10-15"
+  - name: "pulumi-docker-agent"
+    title: "pulumi-docker-agent"
+    description: "Pulumi provider for Docker Agent: typed agent configs, OCI-shared agents, in-process agent runs"
+    language: "Go"
     topics:
+      - "ai-agents"
+      - "docker"
+      - "docker-agent"
       - "pulumi"
-      - "vultr"
-    stars_fact: 26
+      - "pulumi-provider"
+    stars_fact: 0
     first_seen: null
-    last_push: "2026-02-01"
-  - name: "devcontainer-feature-codex"
-    title: "devcontainer-feature-codex"
-    description: "Dev Container feature to install OpenAI Codex CLI"
+    last_push: "2026-10-18"
+  - name: "infrastructure-sandbox-kit"
+    title: "infrastructure-sandbox-kit"
+    description: "Docker Sandboxes template + kit: an IaC (Pulumi/Terraform/OpenTofu + AWS/Azure/GCP CLIs) Claude Code workstation with APM baked into the agent home."
     language: "Shell"
     topics: []
-    stars_fact: 7
+    stars_fact: 2
     first_seen: null
-    last_push: "2026-10-05"
+    last_push: "2026-10-15"
+  - name: "my-claude-apm-setup"
+    title: "my-claude-apm-setup"
+    description: "A self-contained APM-managed Claude Code + Codex setup — pinned skills, agents, guardrail hooks, MCP, LSP, and single-source generated context."
+    language: "Shell"
+    topics:
+      - "agent-package-manager"
+      - "ai-agents"
+      - "apm"
+      - "claude-code"
+      - "codex"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-14"
 ---
 
 # dirien

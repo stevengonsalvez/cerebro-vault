@@ -8,39 +8,39 @@ provenance_repos:
   - "can1357/oh-my-pi"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+repos_populated: false
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [346, 71, 0, 0, 17, 23, 0, 19, 93, 116, 15, 25, 32]
+pushes_per_week: [295, 58, 0, 0, 26, 14, 0, 42, 71, 115, 25, 16, 31]
 windows:
   "7d":
-    pushes: 33
+    pushes: 32
     distinct_repos: 4
-    active_days: 5
+    active_days: 4
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 248
+    pushes: 238
     distinct_repos: 14
-    active_days: 24
+    active_days: 23
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
   "90d":
-    pushes: 757
-    distinct_repos: 24
-    active_days: 52
-    repos_not_owned: 8
-    not_owned_basenames: 8
+    pushes: 693
+    distinct_repos: 22
+    active_days: 51
+    repos_not_owned: 6
+    not_owned_basenames: 6
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 14.5577
-  repo_per_active_day: 0.4615
-  not_owned_ratio: 0.3333
-  basename_concentration: 0.0417
+  push_per_day: 13.5882
+  repo_per_active_day: 0.4314
+  not_owned_ratio: 0.2727
+  basename_concentration: 0.0455
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,86 +49,38 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 33
+    pushes: 32
     distinct_repos: 4
-    pushes_per_repo: 8.2500
-    active_days: 5
+    pushes_per_repo: 8.0000
+    active_days: 4
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 248
+    pushes: 238
     distinct_repos: 14
-    pushes_per_repo: 17.7143
-    active_days: 24
+    pushes_per_repo: 17.0000
+    active_days: 23
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
   "90d":
-    pushes: 757
-    distinct_repos: 24
-    pushes_per_repo: 31.5417
-    active_days: 52
-    repos_not_owned: 8
-    not_owned_basenames: 8
+    pushes: 693
+    distinct_repos: 22
+    pushes_per_repo: 31.5000
+    active_days: 51
+    repos_not_owned: 6
+    not_owned_basenames: 6
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 52 active days in 90d — pass"
+  - "activity: 51 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "agentic-packages"
-    title: "agentic-packages"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-16"
-  - name: "omp-plugins"
-    title: "omp-plugins"
-    description: "OMP-native skills, agents, rules, hooks and marketplace catalog (migrated from srobroek/agentic-packages)"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-16"
-  - name: "slopvac"
-    title: "slopvac"
-    description: "Deterministic linter for AI writing patterns and documentation quality."
-    language: "Python"
-    topics: []
-    stars_fact: 12
-    first_seen: null
-    last_push: "2026-10-15"
-  - name: "speckit-roadmap"
-    title: "speckit-roadmap"
-    description: "GitHub Spec Kit extension: a durable spec roadmap written after the constitution and reviewed before/after each spec is implemented."
-    language: "Shell"
-    topics: []
-    stars_fact: 9
-    first_seen: null
-    last_push: "2026-10-10"
-  - name: "beads-talk"
-    title: "beads-talk"
-    description: "Reproducible Beads durable-agent orchestration demo"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-10"
-  - name: "sabot"
-    title: "sabot"
-    description: "Agentic Offensive auditing, fuzzing, and chaos engineering."
-    language: "Python"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-08"
+repos: []
 ---
 
 # srobroek
 
-757 pushes across 24 repositories on 52 active days in the last 90 days of public GitHub push activity.
+693 pushes across 22 repositories on 51 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/srobroek

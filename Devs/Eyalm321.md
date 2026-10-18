@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-16T08:30:18.142355+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "73468cde177ddae6"
-pushes_per_week: [2, 1, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1, 0]
+pushes_per_week: [1, 1, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 2
+    pushes: 1
     distinct_repos: 1
-    active_days: 2
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 6
+    pushes: 5
     distinct_repos: 3
-    active_days: 6
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
   push_per_day: 1.0000
-  repo_per_active_day: 0.5000
+  repo_per_active_day: 0.6000
   not_owned_ratio: 0.0000
   basename_concentration: 0.3333
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 2
+    pushes: 1
     distinct_repos: 1
-    pushes_per_repo: 2.0000
-    active_days: 2
+    pushes_per_repo: 1.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 6
+    pushes: 5
     distinct_repos: 3
-    pushes_per_repo: 2.0000
-    active_days: 6
+    pushes_per_repo: 1.6667
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 6 active days in 90d — pass"
+  - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "hyperpanes"
@@ -145,21 +145,6 @@ repos:
     stars_fact: 8
     first_seen: null
     last_push: "2026-06-10"
-  - name: "hearthsmith"
-    title: "hearthsmith"
-    description: "A pixel-art blacksmith who lives on your desktop, nags you about tasks, watches your terminal panes, and hands work to your coding agents."
-    language: "Python"
-    topics:
-      - "claude-code"
-      - "coding-agents"
-      - "desktop-pet"
-      - "hyperpanes"
-      - "mcp"
-      - "pixel-art"
-      - "task-manager"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-23"
   - name: "serena-shared-bridge"
     title: "serena-shared-bridge"
     description: "One shared serena language server per project, shared across all your agents instead of one-per-agent — with an idle/orphan reaper and serena-free worktree/$HOME handling. Drop-in for Claude Code (Linux + systemd)."
@@ -176,10 +161,18 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-09-23"
+  - name: "dsh-claude-cli-provider"
+    title: "dsh-claude-cli-provider"
+    description: "Claude via the local claude CLI as a DeepSeek Harness LLM provider — subscription OAuth, no Anthropic API key."
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-10"
 ---
 
 # Eyalm321
 
-6 pushes across 3 repositories on 6 active days in the last 90 days of public GitHub push activity.
+5 pushes across 3 repositories on 5 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Eyalm321

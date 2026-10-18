@@ -9,22 +9,22 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "48dbbdd8fd0d3029"
-pushes_per_week: [6, 0, 1, 2, 1, 3, 0, 1, 1, 4, 5, 4, 4]
+pushes_per_week: [6, 0, 2, 1, 2, 2, 0, 1, 1, 6, 5, 3, 3]
 windows:
   "7d":
-    pushes: 5
+    pushes: 4
     distinct_repos: 2
-    active_days: 5
+    active_days: 4
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
   "30d":
-    pushes: 18
+    pushes: 17
     distinct_repos: 4
-    active_days: 14
+    active_days: 13
     repos_not_owned: 4
     not_owned_basenames: 3
     not_owned_owners: 2
@@ -49,18 +49,18 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 5
+    pushes: 4
     distinct_repos: 2
-    pushes_per_repo: 2.5000
-    active_days: 5
+    pushes_per_repo: 2.0000
+    active_days: 4
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
   "30d":
-    pushes: 18
+    pushes: 17
     distinct_repos: 4
-    pushes_per_repo: 4.5000
-    active_days: 14
+    pushes_per_repo: 4.2500
+    active_days: 13
     repos_not_owned: 4
     not_owned_basenames: 3
     not_owned_owners: 2
@@ -86,7 +86,7 @@ repos:
       - "claude-code-system-prompts"
       - "system-prompts"
       - "tweakcc"
-    stars_fact: 42
+    stars_fact: 43
     first_seen: null
     last_push: "2025-11-23"
   - name: "temp_release"

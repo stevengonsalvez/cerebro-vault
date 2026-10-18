@@ -9,13 +9,13 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "1be978947e68d1f2"
   - "98a2deac3e2f9725"
   - "b949a65ff91f9791"
   - "e9879ff70aa53e1e"
-pushes_per_week: [4, 5, 6, 9, 3, 5, 1, 7, 11, 5, 16, 3, 4]
+pushes_per_week: [4, 9, 7, 5, 4, 3, 2, 6, 13, 5, 14, 3, 4]
 windows:
   "7d":
     pushes: 4
@@ -25,9 +25,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 34
+    pushes: 31
     distinct_repos: 7
-    active_days: 17
+    active_days: 16
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -60,10 +60,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 34
+    pushes: 31
     distinct_repos: 7
-    pushes_per_repo: 4.8571
-    active_days: 17
+    pushes_per_repo: 4.4286
+    active_days: 16
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -87,7 +87,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-10"
+    last_push: "2026-10-16"
   - name: "fir"
     title: "fir"
     description: null
@@ -95,7 +95,7 @@ repos:
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-10-10"
+    last_push: "2026-10-17"
   - name: "zulip-acp"
     title: "zulip-acp"
     description: "Zulip relay for ACP coding agents — bridges a self-hosted Zulip server to fir/Claude Code over stdio"
@@ -108,7 +108,7 @@ repos:
       - "zulip"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-10"
+    last_push: "2026-10-16"
   - name: "fir-dist"
     title: "fir-dist"
     description: "Public binary distribution for fir — https://github.com/kfet/fir"
@@ -116,7 +116,7 @@ repos:
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-10-10"
+    last_push: "2026-10-16"
   - name: "acp-kit"
     title: "acp-kit"
     description: "Reusable Go packages for ACP-backed chat relays (client, skills, attachments, state, sysprompt, log, paths)."

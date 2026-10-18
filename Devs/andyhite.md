@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [0, 3, 26, 11, 4, 1, 0, 0, 0, 0, 1, 0, 1]
+pushes_per_week: [0, 3, 27, 10, 4, 1, 0, 0, 0, 0, 1, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -84,7 +84,15 @@ repos:
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-10-08"
+    last_push: "2026-10-16"
+  - name: "tern-plotroom"
+    title: "tern-plotroom"
+    description: null
+    language: "Luau"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-16"
   - name: "uc-steer"
     title: "uc-steer"
     description: "Makes SteerMouse settings work for a mouse used through macOS Universal Control"
@@ -117,14 +125,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-10-05"
-  - name: "comfyui-andypack"
-    title: "comfyui-andypack"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-07-07"
 ---
 
 # andyhite

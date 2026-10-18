@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "4138778ebbc75ba6"
-pushes_per_week: [0, 0, 2, 5, 1, 0, 1, 0, 1, 19, 6, 7, 4]
+pushes_per_week: [0, 0, 4, 4, 0, 0, 1, 1, 4, 15, 6, 7, 4]
 windows:
   "7d":
     pushes: 4
@@ -77,6 +77,36 @@ reasons:
   - "activity: 17 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "Gaalbu"
+    title: "Gaalbu"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-15"
+  - name: "hacktoberfest-encomenda-certa"
+    title: "hacktoberfest-encomenda-certa"
+    description: "Review changes in confectionery orders with Gemma, message evidence and human confirmation."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-13"
+  - name: "algebra-tiles"
+    title: "algebra-tiles"
+    description: "Interactive algebra-learning environment built with React and TypeScript using draggable algebra tiles."
+    language: "TypeScript"
+    topics:
+      - "algebra"
+      - "drag-and-drop"
+      - "education"
+      - "react"
+      - "typescript"
+      - "vite"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-13"
   - name: "conty-views-humanas"
     title: "conty-views-humanas"
     description: null
@@ -84,15 +114,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-10"
-  - name: "conty-revisao-video"
-    title: "conty-revisao-video"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-10"
+    last_push: "2026-10-12"
   - name: "conty-rastreio-produto"
     title: "conty-rastreio-produto"
     description: null
@@ -100,7 +122,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-10"
+    last_push: "2026-10-12"
   - name: "conty-origem-cadastro"
     title: "conty-origem-cadastro"
     description: null
@@ -108,23 +130,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-10"
-  - name: "conty-vendas-atribuidas"
-    title: "conty-vendas-atribuidas"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-10"
-  - name: "conty-metricas-redes"
-    title: "conty-metricas-redes"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-10"
+    last_push: "2026-10-12"
 ---
 
 # Gaalbu

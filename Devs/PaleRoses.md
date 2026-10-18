@@ -8,11 +8,11 @@ provenance_repos:
   - "can1357/oh-my-pi"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+repos_populated: false
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [37, 21, 9, 4, 0, 0, 0, 2, 0, 1, 0, 3, 0]
+pushes_per_week: [56, 10, 1, 4, 0, 0, 2, 0, 0, 1, 0, 3, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,23 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 13 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "moonlight"
-    title: "moonlight"
-    description: "Public source mirror of the Moonlight foundation packages published to Hackage, from Pale Meridian."
-    language: "Haskell"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-09"
-  - name: "zmk-keyboard-nyx"
-    title: "zmk-keyboard-nyx"
-    description: "Rosalia's folly"
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2025-06-13"
+repos: []
 ---
 
 # PaleRoses

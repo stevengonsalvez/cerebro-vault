@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "3cb7ff1cdcf97c6b"
-pushes_per_week: [0, 0, 0, 0, 1, 1, 0, 2, 5, 0, 1, 0, 0]
+pushes_per_week: [0, 0, 0, 0, 2, 0, 0, 5, 2, 1, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -87,7 +87,26 @@ repos:
       - "skincare"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-07"
+    last_push: "2026-10-18"
+  - name: "hanishchow.github.io"
+    title: "hanishchow.github.io"
+    description: "Personal portfolio — a WebGL handheld console you scroll through. Static, no build step."
+    language: "JavaScript"
+    topics:
+      - "personal-website"
+      - "portfolio"
+      - "webgl"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-25"
+  - name: "Hanishchow"
+    title: "Hanishchow"
+    description: "Profile README for Hanish Chowdary N"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-25"
   - name: "cityshield-v2"
     title: "cityshield-v2"
     description: null
@@ -112,25 +131,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-10-02"
-  - name: "JellyTech"
-    title: "JellyTech"
-    description: "College club website - built step by step"
-    language: "JavaScript"
-    topics:
-      - "club-website"
-      - "web"
-      - "webdesign"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-27"
-  - name: "jt"
-    title: "jt"
-    description: "JellyTech QR redirect — stable URL for printed materials"
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-27"
 ---
 
 # Hanishchow

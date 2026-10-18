@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "c1af6b58492f9bf4"
-pushes_per_week: [12, 41, 8, 11, 1, 0, 0, 1, 0, 3, 0, 8, 0]
+pushes_per_week: [12, 41, 8, 11, 1, 0, 0, 1, 0, 3, 2, 6, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,27 +77,6 @@ reasons:
   - "activity: 24 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "professional-cv-profile"
-    title: "professional-cv-profile"
-    description: "Professional CV Profile - Interactive HTML resume with real work experience, recommendations, and company logos"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-06"
-  - name: "generalgamebench"
-    title: "generalgamebench"
-    description: "“Intelligence is the ability to adapt to new environments.” — We test this. Pixels-only game-agent evaluation and auditable leaderboards."
-    language: "Python"
-    topics:
-      - "ai-agents"
-      - "benchmark"
-      - "game-ai"
-      - "leaderboard"
-      - "vizdoom"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-05"
   - name: "screenquest"
     title: "screenquest"
     description: "A local vision game agent for Apple Silicon. Screenshot perception, Laya/Core ML decisions, Qwen/MLX planning, camera control, loot clicks, and evidence-based review."
@@ -111,9 +90,46 @@ repos:
       - "local-ai"
       - "mlx"
       - "qwen"
-    stars_fact: 1
+    stars_fact: 2
     first_seen: null
     last_push: "2026-09-21"
+  - name: "DanielTea"
+    title: "DanielTea"
+    description: "My GitHub profile README"
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-14"
+  - name: "generalgamebench"
+    title: "generalgamebench"
+    description: "“Intelligence is the ability to adapt to new environments.” — We test this. Pixels-only game-agent evaluation and auditable leaderboards."
+    language: "Python"
+    topics:
+      - "ai-agents"
+      - "benchmark"
+      - "game-ai"
+      - "leaderboard"
+      - "vizdoom"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-05"
+  - name: "aerospike-ce"
+    title: "aerospike-ce"
+    description: "Computational Engineering model: a JSON spec in, an aerospike plug-nozzle geometry out. Built on PicoGK and the LEAP 71 ShapeKernel."
+    language: "Python"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-08-22"
+  - name: "professional-cv-profile"
+    title: "professional-cv-profile"
+    description: "Professional CV Profile - Interactive HTML resume with real work experience, recommendations, and company logos"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-06"
   - name: "laya-vision-stitch"
     title: "laya-vision-stitch"
     description: "Local screenshot-and-goal game agent research on Apple Silicon: Laya + Open-P2P policy trained on public gameplay (D2E), Molmo slow planner with RADIO tracking"
@@ -122,22 +138,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-09-25"
-  - name: "aerospike-ce"
-    title: "aerospike-ce"
-    description: "Computational Engineering model: a JSON spec in, an aerospike plug-nozzle geometry out. Built on PicoGK and the LEAP 71 ShapeKernel."
-    language: "Python"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-08-22"
-  - name: "3DRocketEngine_Simulator"
-    title: "3DRocketEngine_Simulator"
-    description: "Interactive browser-based simulator for designing, analyzing, and 3D-printing liquid rocket engines. Real-time thermodynamics, regenerative cooling, evolutionary optimization, and STL export."
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-02-13"
 ---
 
 # DanielTea

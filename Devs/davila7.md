@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "25bff0b4a0ece6bc"
-pushes_per_week: [2, 7, 3, 3, 0, 3, 0, 1, 5, 6, 7, 6, 4]
+pushes_per_week: [2, 7, 3, 3, 1, 2, 0, 2, 5, 5, 10, 5, 2]
 windows:
   "7d":
-    pushes: 6
+    pushes: 3
     distinct_repos: 3
-    active_days: 4
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 6
+    pushes: 3
     distinct_repos: 3
-    pushes_per_repo: 2.0000
-    active_days: 4
+    pushes_per_repo: 1.0000
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -86,51 +86,51 @@ repos:
       - "anthropic-claude"
       - "claude"
       - "claude-code"
-    stars_fact: 32510
+    stars_fact: 32718
     first_seen: "2026-07-11T06:00:03.582945+00:00"
-    last_push: "2026-10-10"
+    last_push: "2026-10-18"
   - name: "chaos-monkey-coding-agents"
     title: "chaos-monkey-coding-agents"
     description: "Chaos Monkey Benchmark for Coding Agents"
-    language: "TypeScript"
+    language: "Python"
     topics:
       - "benchmark"
       - "coding-agent"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-10"
+    last_push: "2026-10-18"
+  - name: "jev-explained"
+    title: "jev-explained"
+    description: "Jev Explained"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 35
+    first_seen: null
+    last_push: "2026-09-20"
+  - name: "fintual_mcp_server"
+    title: "fintual_mcp_server"
+    description: "Fintual MCP Server"
+    language: "Python"
+    topics: []
+    stars_fact: 22
+    first_seen: null
+    last_push: "2025-05-23"
   - name: "davila7"
     title: "davila7"
     description: "Profile"
     language: null
     topics: []
-    stars_fact: 33
+    stars_fact: 35
     first_seen: null
-    last_push: "2026-10-09"
-  - name: "Ingenier-a-de-Soluciones-con-Inteligencia-Artificial"
-    title: "Ingenier-a-de-Soluciones-con-Inteligencia-Artificial"
-    description: "Ingeniería de Soluciones con Inteligencia Artificial"
-    language: "Jupyter Notebook"
-    topics: []
-    stars_fact: 67
-    first_seen: null
-    last_push: "2025-09-11"
-  - name: "gemini-cli-templates"
-    title: "gemini-cli-templates"
-    description: "Gemini CLI Local Dashboard"
+    last_push: "2026-10-16"
+  - name: "repo-planets"
+    title: "repo-planets"
+    description: "Repo Planets"
     language: "JavaScript"
     topics: []
-    stars_fact: 40
+    stars_fact: 4
     first_seen: null
-    last_push: "2025-08-04"
-  - name: "mcp-courses"
-    title: "mcp-courses"
-    description: "MCP: Build Rich-Context AI Apps with Anthropic"
-    language: "Python"
-    topics: []
-    stars_fact: 71
-    first_seen: null
-    last_push: "2025-06-25"
+    last_push: "2026-06-10"
 ---
 
 # davila7

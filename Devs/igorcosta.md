@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "48dbbdd8fd0d3029"
-pushes_per_week: [6, 1, 1, 4, 0, 0, 0, 5, 0, 8, 11, 0, 4]
+pushes_per_week: [5, 1, 1, 4, 0, 0, 0, 5, 0, 10, 9, 1, 3]
 windows:
   "7d":
     pushes: 4
@@ -29,7 +29,7 @@ windows:
     not_owned_basenames: 6
     not_owned_owners: 1
   "90d":
-    pushes: 40
+    pushes: 39
     distinct_repos: 11
     active_days: 20
     repos_not_owned: 11
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.0000
+  push_per_day: 1.9500
   repo_per_active_day: 0.5500
   not_owned_ratio: 1.0000
   basename_concentration: 0.0909
@@ -65,9 +65,9 @@ facets:
     not_owned_basenames: 6
     not_owned_owners: 1
   "90d":
-    pushes: 40
+    pushes: 39
     distinct_repos: 11
-    pushes_per_repo: 3.6364
+    pushes_per_repo: 3.5455
     active_days: 20
     repos_not_owned: 11
     not_owned_basenames: 11
@@ -77,6 +77,14 @@ reasons:
   - "activity: 20 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "flex-maps"
+    title: "flex-maps"
+    description: "the definitive solution for maps in Apache Flex"
+    language: "ActionScript"
+    topics: []
+    stars_fact: 13
+    first_seen: null
+    last_push: "2013-03-20"
   - name: "wekaone"
     title: "wekaone"
     description: "Jev look like in a very rudimentary way, great for indie hackers."
@@ -105,6 +113,6 @@ repos:
 
 # igorcosta
 
-40 pushes across 11 repositories on 20 active days in the last 90 days of public GitHub push activity.
+39 pushes across 11 repositories on 20 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/igorcosta

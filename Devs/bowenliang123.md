@@ -9,22 +9,22 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "541318303a272608"
-pushes_per_week: [2, 0, 6, 17, 1, 3, 0, 2, 5, 6, 6, 6, 10]
+pushes_per_week: [2, 0, 6, 18, 1, 2, 0, 2, 5, 7, 6, 8, 7]
 windows:
   "7d":
-    pushes: 11
+    pushes: 10
     distinct_repos: 1
-    active_days: 4
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 29
+    pushes: 28
     distinct_repos: 2
-    active_days: 15
+    active_days: 14
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -49,18 +49,18 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 11
+    pushes: 10
     distinct_repos: 1
-    pushes_per_repo: 11.0000
-    active_days: 4
+    pushes_per_repo: 10.0000
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 29
+    pushes: 28
     distinct_repos: 2
-    pushes_per_repo: 14.5000
-    active_days: 15
+    pushes_per_repo: 14.0000
+    active_days: 14
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -79,7 +79,7 @@ reasons:
 repos:
   - name: "dsh-context"
     title: "dsh-context"
-    description: "The best DeepSeek Harness plugin for context insight and management, with context dashboard / browser / sidebar and context command, for context statistics, composition, breakdown, evolution details, understanding how the context is made of, and how it evolves. 一站式 DeepSeek Harness 上下文可视化插件，Context 面板及浏览器和侧边栏与 Context 命令，透视上下文组成、演进、压缩、剪枝等事件与动作。"
+    description: "The best DeepSeek Harness plugin for context insight and management, with context dashboard / browser / sidebar and context command, for context statistics, composition, breakdown, evolution details, agent teams, understanding how the context is made of, and how it evolves. 一站式 DeepSeek Harness 上下文可视化插件，Context 面板、浏览器、侧栏、命令，透视上下文组成、演进、压缩、多 Agent等。"
     language: "TypeScript"
     topics:
       - "cordis-plugin"
@@ -88,9 +88,9 @@ repos:
       - "dsh-external"
       - "dsh-plugin"
       - "dsh-plugins"
-    stars_fact: 1957
+    stars_fact: 2263
     first_seen: null
-    last_push: "2026-10-10"
+    last_push: "2026-10-18"
   - name: "markdown-exporter"
     title: "markdown-exporter"
     description: "An Agent Skill and Dify plugin to transform Markdown to files of DOCX, PPTX, XLSX, PNG, PDF, HTML, MD, CSV, JSON, XML."
@@ -100,7 +100,7 @@ repos:
       - "dify"
       - "dify-plugin"
       - "markdown"
-    stars_fact: 272
+    stars_fact: 273
     first_seen: null
     last_push: "2026-08-13"
   - name: "dify-grafana-dashboard"

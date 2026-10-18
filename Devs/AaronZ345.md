@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "541318303a272608"
-pushes_per_week: [9, 1, 0, 6, 2, 5, 1, 1, 1, 4, 8, 0, 2]
+pushes_per_week: [5, 1, 0, 7, 2, 4, 1, 1, 5, 4, 4, 0, 2]
 windows:
   "7d":
     pushes: 2
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 40
+    pushes: 36
     distinct_repos: 9
-    active_days: 22
+    active_days: 21
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.8182
-  repo_per_active_day: 0.4091
+  push_per_day: 1.7143
+  repo_per_active_day: 0.4286
   not_owned_ratio: 0.1111
   basename_concentration: 0.1111
   shapes: []
@@ -65,29 +65,18 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 40
+    pushes: 36
     distinct_repos: 9
-    pushes_per_repo: 4.4444
-    active_days: 22
+    pushes_per_repo: 4.0000
+    active_days: 21
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 22 active days in 90d — pass"
+  - "activity: 21 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "douban-cli"
-    title: "douban-cli"
-    description: "豆瓣命令行工具：书影查询、豆列、评分与短评管理；提供供 Dots 使用的本地技能和 MCP 接口"
-    language: "TypeScript"
-    topics:
-      - "cli"
-      - "douban"
-      - "mcp"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-10"
   - name: "xiaoheihe-cli"
     title: "xiaoheihe-cli"
     description: "小黑盒游戏记录、个人评分与短评、社区内容操作 CLI，支持 SDK、REST 和 MCP"
@@ -99,9 +88,20 @@ repos:
       - "mcp"
       - "python"
       - "xiaoheihe"
-    stars_fact: 1
+    stars_fact: 34
     first_seen: null
-    last_push: "2026-10-10"
+    last_push: "2026-10-12"
+  - name: "douban-cli"
+    title: "douban-cli"
+    description: "豆瓣命令行工具：书影查询、豆列、评分与短评管理；提供供 Dots 使用的本地技能和 MCP 接口"
+    language: "TypeScript"
+    topics:
+      - "cli"
+      - "douban"
+      - "mcp"
+    stars_fact: 34
+    first_seen: null
+    last_push: "2026-10-12"
   - name: "AaronZ345"
     title: "AaronZ345"
     description: null
@@ -109,22 +109,37 @@ repos:
     topics: []
     stars_fact: 2
     first_seen: null
-    last_push: "2026-10-09"
-  - name: "TCSinger2"
-    title: "TCSinger2"
-    description: "PyTorch Implementation of TCSinger 2(ACL 2025): Customizable Multilingual Zero-shot Singing Voice Synthesis"
+    last_push: "2026-10-17"
+  - name: "VersBand"
+    title: "VersBand"
+    description: "PyTorch Implementation of VersBand(EMNLP 2025): Versatile Framework for Song Generation with Prompt-based Control"
     language: "Python"
     topics:
-      - "cross-lingual"
-      - "singing"
+      - "lyric-generation"
+      - "melody-generation"
+      - "music-generation"
       - "singing-voice-synthesis"
-      - "speech-to-sing"
-      - "style-control"
-      - "style-transfer"
-      - "zero-shot"
-    stars_fact: 186
+      - "song-generation"
+      - "songs"
+    stars_fact: 226
     first_seen: null
     last_push: "2026-04-19"
+  - name: "Athena-personal-academic-page"
+    title: "Athena-personal-academic-page"
+    description: "A modern personal academic page framework built with React and Vite."
+    language: "JavaScript"
+    topics:
+      - "academic-portfolio"
+      - "academic-website"
+      - "github-pages"
+      - "personal-website"
+      - "react"
+      - "research"
+      - "typescript"
+      - "vite"
+    stars_fact: 211
+    first_seen: null
+    last_push: "2026-10-15"
   - name: "GTSinger"
     title: "GTSinger"
     description: "Dataset and code of GTSinger(NeurIPS 2024 Spotlight): A Global Multi-Technique Singing Corpus with Realistic Music Scores for All Singing Tasks"
@@ -139,21 +154,13 @@ repos:
       - "style-control"
       - "style-transfer"
       - "technique-detection"
-    stars_fact: 531
+    stars_fact: 532
     first_seen: null
     last_push: "2026-10-06"
-  - name: "AaronZ345.github.io"
-    title: "AaronZ345.github.io"
-    description: "Personal academic homepage"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-03"
 ---
 
 # AaronZ345
 
-40 pushes across 9 repositories on 22 active days in the last 90 days of public GitHub push activity.
+36 pushes across 9 repositories on 21 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/AaronZ345

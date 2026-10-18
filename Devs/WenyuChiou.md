@@ -8,11 +8,11 @@ provenance_repos:
   - "BuilderIO/agent-native"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+repos_populated: false
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "745308b2b7085095"
-pushes_per_week: [2, 9, 4, 10, 1, 9, 2, 1, 3, 8, 20, 23, 13]
+pushes_per_week: [2, 10, 3, 10, 4, 6, 3, 0, 3, 10, 21, 26, 7]
 windows:
   "7d":
     pushes: 13
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 67
+    pushes: 65
     distinct_repos: 8
-    active_days: 21
+    active_days: 19
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 67
+    pushes: 65
     distinct_repos: 8
-    pushes_per_repo: 8.3750
-    active_days: 21
+    pushes_per_repo: 8.1250
+    active_days: 19
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -76,114 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 42 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "awesome-agentic-ai-zh"
-    title: "awesome-agentic-ai-zh"
-    description: "A trilingual (繁中 / English / 简中) learning roadmap for agentic AI: from LLM basics to multi-agent systems, with 240+ curated resources and hands-on examples. 中文 AI agent 學習地圖。"
-    language: "Python"
-    topics:
-      - "agentic-ai"
-      - "agentic-workflows"
-      - "ai-agent"
-      - "ai-agents"
-      - "awesome-list"
-      - "chinese-llm"
-      - "claude-code"
-      - "claude-skills"
-      - "cli"
-      - "learning-roadmap"
-      - "llm"
-      - "llm-agents"
-      - "mcp"
-      - "model-context-protocol"
-      - "multi-agent-systems"
-      - "prompt-engineering"
-      - "rag"
-      - "trilingual"
-      - "tutorial"
-    stars_fact: 7700
-    first_seen: null
-    last_push: "2026-10-16"
-  - name: "academic-writing-skills"
-    title: "academic-writing-skills"
-    description: "Claude Code skill for rigorous academic paper writing, revision, and submission. Field-agnostic with per-paper journal overrides."
-    language: "Python"
-    topics: []
-    stars_fact: 106
-    first_seen: null
-    last_push: "2026-10-16"
-  - name: "moodring"
-    title: "moodring"
-    description: "MoodRing is a daily sentiment scoring system for 5 equity markets (US, TW, JP, KR, EU). Measures retail investor mood on a daily scale using market-derived signals and compares against 16 years of historical patterns."
-    language: "Python"
-    topics: []
-    stars_fact: 14
-    first_seen: null
-    last_push: "2026-10-16"
-  - name: "ai-research-skills"
-    title: "ai-research-skills"
-    description: "Universal SKILL.md catalog for research workflows: literature review, research design, project memory, manuscript writing, and cross-agent delegation for Claude Code, Codex, Gemini, Cursor, OpenClaw, and generic AI clients."
-    language: "Python"
-    topics:
-      - "academic-writing"
-      - "agentic-ai"
-      - "agentskills"
-      - "ai-research"
-      - "ai-skills"
-      - "claude-code"
-      - "claude-skills"
-      - "codex"
-      - "cursor"
-      - "gemini"
-      - "literature-review"
-      - "marketplace"
-      - "multi-agent"
-      - "notebooklm"
-      - "obsidian"
-      - "openclaw"
-      - "research"
-      - "research-workflow"
-      - "skill-md"
-      - "zotero"
-    stars_fact: 384
-    first_seen: null
-    last_push: "2026-10-16"
-  - name: "research-hub"
-    title: "research-hub"
-    description: "AI-operable research workspace for Zotero, Obsidian, and NotebookLM. Use any two, or all three, through CLI, MCP, REST, and dashboard."
-    language: "Python"
-    topics:
-      - "academic-research"
-      - "ai-agents"
-      - "ai-research"
-      - "citation-management"
-      - "claude"
-      - "cli"
-      - "codex"
-      - "cursor"
-      - "gemini"
-      - "knowledge-management"
-      - "literature-review"
-      - "mcp"
-      - "mcp-server"
-      - "notebooklm"
-      - "obsidian"
-      - "openclaw"
-      - "python"
-      - "rag"
-      - "research"
-      - "zotero"
-    stars_fact: 64
-    first_seen: null
-    last_push: "2026-10-16"
-  - name: "WenyuChiou"
-    title: "WenyuChiou"
-    description: "GitHub profile README for @WenyuChiou — Wenyu Chiou, PhD candidate at Lehigh (CEE / Catastrophe Modeling & Resilience)"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-15"
+repos: []
 ---
 
 # WenyuChiou

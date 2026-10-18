@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: true
 repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "624efc8fafcad404"
-pushes_per_week: [0, 0, 1, 2, 0, 0, 0, 0, 0, 0, 1, 0, 0]
+pushes_per_week: [0, 0, 1, 2, 0, 0, 0, 0, 0, 1, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -101,41 +101,9 @@ repos:
       - "typescript"
       - "web-scraping"
       - "website-clone"
-    stars_fact: 36453
+    stars_fact: 36942
     first_seen: "2026-06-23T06:00:02.599193+00:00"
     last_push: "2026-10-05"
-  - name: "agent-recall"
-    title: "agent-recall"
-    description: "Let your AI agents find any conversation you've had across Claude Code, Codex, and OpenCode."
-    language: "JavaScript"
-    topics: []
-    stars_fact: 14
-    first_seen: null
-    last_push: "2026-09-27"
-  - name: "jcodesmore-plugins"
-    title: "jcodesmore-plugins"
-    description: "All my plugins for AI agents"
-    language: null
-    topics: []
-    stars_fact: 16
-    first_seen: null
-    last_push: "2026-08-15"
-  - name: "ai-animated-website"
-    title: "ai-animated-website"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 32
-    first_seen: null
-    last_push: "2026-01-22"
-  - name: "Powerful-Websites-You-Should-Know-About"
-    title: "Powerful-Websites-You-Should-Know-About"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 30
-    first_seen: null
-    last_push: "2026-04-30"
   - name: "youtube-for-ai-agents"
     title: "youtube-for-ai-agents"
     description: "Your AI agent can now search Youtube, watch videos, create highlight reels, and more"
@@ -148,9 +116,41 @@ repos:
       - "mcp"
       - "plugin"
       - "youtube"
-    stars_fact: 54
+    stars_fact: 55
     first_seen: null
     last_push: "2026-04-30"
+  - name: "Powerful-Websites-You-Should-Know-About"
+    title: "Powerful-Websites-You-Should-Know-About"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 31
+    first_seen: null
+    last_push: "2026-04-30"
+  - name: "ai-animated-website"
+    title: "ai-animated-website"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 33
+    first_seen: null
+    last_push: "2026-01-22"
+  - name: "agent-recall"
+    title: "agent-recall"
+    description: "Let your AI agents find any conversation you've had across Claude Code, Codex, and OpenCode."
+    language: "JavaScript"
+    topics: []
+    stars_fact: 15
+    first_seen: null
+    last_push: "2026-09-27"
+  - name: "jcodesmore-plugins"
+    title: "jcodesmore-plugins"
+    description: "All my plugins for AI agents"
+    language: null
+    topics: []
+    stars_fact: 16
+    first_seen: null
+    last_push: "2026-08-15"
 ---
 
 # JCodesMore

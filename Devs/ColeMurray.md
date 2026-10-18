@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "8311cfc3055f8fea"
-pushes_per_week: [9, 37, 9, 22, 3, 5, 2, 10, 11, 25, 25, 5, 8]
+pushes_per_week: [12, 32, 10, 22, 2, 4, 4, 10, 21, 16, 27, 1, 7]
 windows:
   "7d":
     pushes: 8
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 69
+    pushes: 68
     distinct_repos: 2
     active_days: 20
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 171
+    pushes: 168
     distinct_repos: 2
-    active_days: 58
+    active_days: 57
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.9483
-  repo_per_active_day: 0.0345
+  push_per_day: 2.9474
+  repo_per_active_day: 0.0351
   not_owned_ratio: 0.5000
   basename_concentration: 1.0000
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 69
+    pushes: 68
     distinct_repos: 2
-    pushes_per_repo: 34.5000
+    pushes_per_repo: 34.0000
     active_days: 20
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 171
+    pushes: 168
     distinct_repos: 2
-    pushes_per_repo: 85.5000
-    active_days: 58
+    pushes_per_repo: 84.0000
+    active_days: 57
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 58 active days in 90d — pass"
+  - "activity: 57 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "background-agents"
@@ -85,15 +85,27 @@ repos:
       - "background-agents"
       - "cloud-agents"
       - "software-factory"
-    stars_fact: 3345
+    stars_fact: 3370
     first_seen: "2026-07-13T06:00:03.585427+00:00"
-    last_push: "2026-10-10"
+    last_push: "2026-10-16"
+  - name: "aws-rag-s3-vectors"
+    title: "aws-rag-s3-vectors"
+    description: "AWS RAG Application Using AWS S3 Vectors and AWS Bedrock"
+    language: "Python"
+    topics:
+      - "artificial-intelligence"
+      - "aws"
+      - "llm"
+      - "rag"
+    stars_fact: 7
+    first_seen: null
+    last_push: "2025-08-01"
   - name: "claude-code-otel"
     title: "claude-code-otel"
     description: "A comprehensive observability solution for monitoring Claude Code usage, performance, and costs."
     language: "Makefile"
     topics: []
-    stars_fact: 511
+    stars_fact: 512
     first_seen: null
     last_push: "2025-06-17"
   - name: "aws-athena-mcp"
@@ -103,7 +115,7 @@ repos:
     topics: []
     stars_fact: 24
     first_seen: null
-    last_push: "2026-10-05"
+    last_push: "2026-10-13"
   - name: "medium-facenet-tutorial"
     title: "medium-facenet-tutorial"
     description: "Facial Recognition Pipeline using Dlib and Tensorflow"
@@ -128,18 +140,10 @@ repos:
     stars_fact: 13
     first_seen: null
     last_push: "2025-10-10"
-  - name: "DataLayerSyncSample"
-    title: "DataLayerSyncSample"
-    description: "This project demonstrates how to send a message using the MessageAPI from the wearable to the handheld. Once the handheld receives the command, it will send over data to the wearable. This sample can be modified easily to allow for data sync between devices"
-    language: "Java"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2015-02-17"
 ---
 
 # ColeMurray
 
-171 pushes across 2 repositories on 58 active days in the last 90 days of public GitHub push activity.
+168 pushes across 2 repositories on 57 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ColeMurray

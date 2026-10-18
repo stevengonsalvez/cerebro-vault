@@ -8,11 +8,11 @@ provenance_repos:
   - "chopratejas/headroom"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+repos_populated: false
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "73468cde177ddae6"
-pushes_per_week: [3, 5, 5, 2, 2, 0, 0, 0, 0, 0, 2, 1, 3]
+pushes_per_week: [4, 4, 5, 2, 2, 0, 0, 0, 0, 1, 1, 2, 2]
 windows:
   "7d":
     pushes: 3
@@ -76,69 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 16 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "cymatix-receipts"
-    title: "cymatix-receipts"
-    description: "Benchmark receipts, research captures, and archived knowledge-store samples for Cymatix Context"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-10"
-  - name: "Cymatix-Context"
-    title: "Cymatix-Context"
-    description: "Same query, same answer: deterministic RAG for agents. Local-first: one SQLite knowledge store, no LLM call on the retrieval path, CLI + HTTP + MCP, and a know/miss contract on every response."
-    language: "Python"
-    topics:
-      - "agent-index"
-      - "agent-mcp"
-      - "context-engineering"
-      - "deterministic"
-      - "idf"
-      - "knowledge-base"
-      - "llm-agents"
-      - "mcp"
-      - "model-context-protocol"
-      - "python"
-      - "rag"
-      - "retrieval-augmented-generation"
-      - "semantic-search"
-      - "sqlite"
-    stars_fact: 7
-    first_seen: null
-    last_push: "2026-10-11"
-  - name: "scorerift"
-    title: "scorerift"
-    description: "Dual-layer audit system: automated scoring + manual grading + reconciliation"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-16"
-  - name: "AAtrial"
-    title: "AAtrial"
-    description: "AAtrial"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-01"
-  - name: "MaxExpressKit"
-    title: "MaxExpressKit"
-    description: "Three guardrails for Claude Code: compliance, drift, ledger."
-    language: "Python"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-07-27"
-  - name: "mbachaud"
-    title: "mbachaud"
-    description: "Profile README"
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-07-27"
+repos: []
 ---
 
 # mbachaud

@@ -8,11 +8,11 @@ provenance_repos:
   - "abhigyanpatwari/GitNexus"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+repos_populated: false
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 5, 6, 3]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 2, 3, 5, 6, 0]
 windows:
   "7d":
     pushes: 3
@@ -76,55 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 8 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "Axiom-Office"
-    title: "Axiom-Office"
-    description: null
-    language: "Go"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-13"
-  - name: "aidev"
-    title: "aidev"
-    description: null
-    language: "Go"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-11"
-  - name: "computer-remote"
-    title: "computer-remote"
-    description: "computer-remote"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-08"
-  - name: "Open-Knowledge"
-    title: "Open-Knowledge"
-    description: null
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-21"
-  - name: "chatgpt-lookup"
-    title: "chatgpt-lookup"
-    description: "MCP server: hỏi ChatGPT qua Chrome (Xvfb ẩn UI), mỗi call một profile Chrome riêng — không lỗi singleton đa session"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-04"
-  - name: "WebSift"
-    title: "WebSift"
-    description: null
-    language: "Go"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-22"
+repos: []
 ---
 
 # rgb-vgx

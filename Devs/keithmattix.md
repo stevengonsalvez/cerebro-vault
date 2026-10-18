@@ -8,8 +8,8 @@ provenance_repos:
   - "agent-substrate/substrate"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+repos_populated: false
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "a5ffcd0a46dd44fd"
 pushes_per_week: [10, 1, 8, 3, 2, 3, 0, 2, 2, 2, 0, 1, 0]
@@ -76,55 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 21 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "substrate-nginx"
-    title: "substrate-nginx"
-    description: "Substrate ingress + egress implemented via nginx"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-07-20"
-  - name: "keithmattix.github.io"
-    title: "keithmattix.github.io"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-04-12"
-  - name: "krt-demos"
-    title: "krt-demos"
-    description: "Demo examples of Istio's krt (Kubernetes Declarative Controller Runtime) framework"
-    language: "Go"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-02-17"
-  - name: "istio-multicluster-inference-demo"
-    title: "istio-multicluster-inference-demo"
-    description: "A script to test GAIE Body-Based-Router demo with Istio"
-    language: "Shell"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2025-12-15"
-  - name: "istio-wasm-demo"
-    title: "istio-wasm-demo"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 3
-    first_seen: null
-    last_push: "2023-09-06"
-  - name: "windows-redirection-test"
-    title: "windows-redirection-test"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2024-09-13"
+repos: []
 ---
 
 # keithmattix

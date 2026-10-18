@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-16T08:30:18.142355+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "9d67ce648f6a8919"
 pushes_per_week: [0, 0, 2, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1]
@@ -77,6 +77,14 @@ reasons:
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "linkinzzz-bot"
+    title: "linkinzzz-bot"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-14"
   - name: "checkinzzz_bot"
     title: "checkinzzz_bot"
     description: "aiogram template with echo-bot"
@@ -117,14 +125,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-09-29"
-  - name: "gym-pass-bot"
-    title: "gym-pass-bot"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-27"
 ---
 
 # duckinzzz

@@ -9,13 +9,13 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "97c4e9cb8b163ddb"
   - "c7515e0fa4368a55"
   - "d3abe74726b22711"
   - "e7c647c4d0689526"
-pushes_per_week: [0, 18, 0, 0, 1, 0, 0, 1, 1, 1, 2, 2, 0]
+pushes_per_week: [0, 18, 0, 0, 1, 0, 0, 1, 2, 0, 2, 2, 0]
 windows:
   "7d":
     pushes: 0
@@ -80,6 +80,19 @@ reasons:
   - "activity: 9 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "open-source-scout"
+    title: "open-source-scout"
+    description: "Research open-source solutions before development: validate candidates, compare reuse with building from scratch, and deliver an implementation plan. Agent skill for Codex and Claude Code."
+    language: null
+    topics:
+      - "agent-skills"
+      - "claude-code"
+      - "codex"
+      - "open-source"
+      - "skills-sh"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-10"
   - name: "codex-profiles"
     title: "codex-profiles"
     description: "Independent Codex accounts on one Mac. Named desktop launchers and account-scoped CLI profiles."
@@ -94,7 +107,7 @@ repos:
       - "swift"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-09"
+    last_push: "2026-10-16"
   - name: "learn-pi"
     title: "learn-pi"
     description: "A bilingual TypeScript course for extending the real Pi coding agent, with runnable labs and integration tests."
@@ -102,7 +115,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-09"
+    last_push: "2026-10-16"
   - name: "patch-witness"
     title: "patch-witness"
     description: "Per-test evidence that the same head unittest fails before a fix and passes after it; stdlib, Git snapshots, no model calls."
@@ -110,7 +123,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-09"
+    last_push: "2026-10-16"
   - name: "learn-codex"
     title: "learn-codex"
     description: "A bilingual, runnable Codex course with Taskboard exercises, offline labs and real protocol checks"
@@ -118,7 +131,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-09"
+    last_push: "2026-10-16"
   - name: "repo-workbench"
     title: "repo-workbench"
     description: "Read-only delivery checks across local Git repositories: clean worktree, exact remote HEAD, and commit-specific CI"
@@ -126,15 +139,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-09"
-  - name: "agent-serving-lab"
-    title: "agent-serving-lab"
-    description: "Client-admission scheduling experiments for agent-shaped LLM workloads"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-09"
+    last_push: "2026-10-16"
 ---
 
 # original4422

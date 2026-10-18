@@ -8,37 +8,37 @@ provenance_repos:
   - "chopratejas/headroom"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+repos_populated: false
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "73468cde177ddae6"
-pushes_per_week: [61, 45, 12, 11, 16, 7, 1, 5, 12, 18, 49, 40, 75]
+pushes_per_week: [61, 44, 15, 13, 12, 3, 2, 4, 14, 18, 52, 51, 59]
 windows:
   "7d":
-    pushes: 78
+    pushes: 73
     distinct_repos: 12
-    active_days: 5
+    active_days: 4
     repos_not_owned: 10
     not_owned_basenames: 5
     not_owned_owners: 6
   "30d":
-    pushes: 188
+    pushes: 183
     distinct_repos: 25
-    active_days: 25
+    active_days: 24
     repos_not_owned: 17
     not_owned_basenames: 7
     not_owned_owners: 10
   "90d":
-    pushes: 352
+    pushes: 348
     distinct_repos: 33
-    active_days: 64
+    active_days: 63
     repos_not_owned: 17
     not_owned_basenames: 7
     not_owned_owners: 10
 automation:
   state: "clear"
-  push_per_day: 5.5000
-  repo_per_active_day: 0.5156
+  push_per_day: 5.5238
+  repo_per_active_day: 0.5238
   not_owned_ratio: 0.5152
   basename_concentration: 0.2424
   shapes: []
@@ -49,86 +49,38 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 78
+    pushes: 73
     distinct_repos: 12
-    pushes_per_repo: 6.5000
-    active_days: 5
+    pushes_per_repo: 6.0833
+    active_days: 4
     repos_not_owned: 10
     not_owned_basenames: 5
     not_owned_owners: 6
   "30d":
-    pushes: 188
+    pushes: 183
     distinct_repos: 25
-    pushes_per_repo: 7.5200
-    active_days: 25
+    pushes_per_repo: 7.3200
+    active_days: 24
     repos_not_owned: 17
     not_owned_basenames: 7
     not_owned_owners: 10
   "90d":
-    pushes: 352
+    pushes: 348
     distinct_repos: 33
-    pushes_per_repo: 10.6667
-    active_days: 64
+    pushes_per_repo: 10.5455
+    active_days: 63
     repos_not_owned: 17
     not_owned_basenames: 7
     not_owned_owners: 10
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 64 active days in 90d — pass"
+  - "activity: 63 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "basedin.nyc"
-    title: "basedin.nyc"
-    description: null
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-10"
-  - name: "rodboev"
-    title: "rodboev"
-    description: "GitHub profile README"
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-07"
-  - name: "ticker"
-    title: "ticker"
-    description: "Real-time Claude Code statusline with cache countdown, rate tracking, and adaptive refresh"
-    language: "PowerShell"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-17"
-  - name: "AHK"
-    title: "AHK"
-    description: null
-    language: "AutoHotkey"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-15"
-  - name: "GPO-PolicySync"
-    title: "GPO-PolicySync"
-    description: "Sync registry-based policy values back into local Group Policy (registry.pol) files"
-    language: "PowerShell"
-    topics: []
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-05-22"
-  - name: "EditorWorkspace"
-    title: "EditorWorkspace"
-    description: "Windhawk EditorWorkspace"
-    language: "C++"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-06-12"
+repos: []
 ---
 
 # rodboev
 
-352 pushes across 33 repositories on 64 active days in the last 90 days of public GitHub push activity.
+348 pushes across 33 repositories on 63 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/rodboev

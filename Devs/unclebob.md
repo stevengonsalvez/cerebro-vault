@@ -8,16 +8,16 @@ provenance_repos:
   - "unclebob/swarm-forge"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+repos_populated: false
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "91ad171deae90329"
-pushes_per_week: [1, 16, 1, 0, 4, 1, 1, 0, 3, 0, 2, 2, 1]
+pushes_per_week: [2, 15, 1, 0, 4, 1, 1, 0, 3, 0, 2, 2, 1]
 windows:
   "7d":
-    pushes: 2
-    distinct_repos: 2
-    active_days: 2
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
-    distinct_repos: 2
+    pushes: 1
+    distinct_repos: 1
     pushes_per_repo: 1.0000
-    active_days: 2
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -76,55 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 20 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "swarm-forge"
-    title: "swarm-forge"
-    description: "A simple tool for coordinating several AI agents."
-    language: "Clojure"
-    topics: []
-    stars_fact: 4004
-    first_seen: "2026-08-09T06:00:06.430133+00:00"
-    last_push: "2026-09-07"
-  - name: "bookwriter"
-    title: "bookwriter"
-    description: "A small writing application for one long book"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 89
-    first_seen: null
-    last_push: "2026-10-15"
-  - name: "scrap"
-    title: "scrap"
-    description: "Tool for assessing whether, where, and how speclj specs should be refactored."
-    language: "Clojure"
-    topics: []
-    stars_fact: 23
-    first_seen: null
-    last_push: "2026-03-17"
-  - name: "uml-viewer"
-    title: "uml-viewer"
-    description: "Live Quil UML class-diagram viewer driven by EDN"
-    language: "Clojure"
-    topics: []
-    stars_fact: 439
-    first_seen: null
-    last_push: "2026-10-07"
-  - name: "scriptwriter"
-    title: "scriptwriter"
-    description: "A plain screenplay editor."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 7
-    first_seen: null
-    last_push: "2026-10-15"
-  - name: "crap4java"
-    title: "crap4java"
-    description: "Crap analyzer for my java projects."
-    language: "Java"
-    topics: []
-    stars_fact: 331
-    first_seen: null
-    last_push: "2026-03-13"
+repos: []
 ---
 
 # unclebob

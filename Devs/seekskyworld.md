@@ -8,26 +8,26 @@ provenance_repos:
   - "apache/maka"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+repos_populated: false
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "4d1450729e6ff44d"
 pushes_per_week: [0, 0, 1, 0, 0, 2, 0, 2, 2, 2, 0, 1, 0]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 5
-    distinct_repos: 3
-    active_days: 3
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 3
+    distinct_repos: 2
+    active_days: 2
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
     pushes: 10
     distinct_repos: 5
@@ -49,21 +49,21 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 5
-    distinct_repos: 3
-    pushes_per_repo: 1.6667
-    active_days: 3
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 3
+    distinct_repos: 2
+    pushes_per_repo: 1.5000
+    active_days: 2
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
     pushes: 10
     distinct_repos: 5
@@ -76,46 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "cloud-agent"
-    title: "cloud-agent"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 17
-    first_seen: null
-    last_push: "2026-10-09"
-  - name: "openapp"
-    title: "openapp"
-    description: "Open-source control plane for turning existing single-user web apps into independent multi-user workspaces through versioned Adapters."
-    language: "TypeScript"
-    topics:
-      - "adapters"
-      - "control-plane"
-      - "docker"
-      - "multi-user"
-      - "open-source"
-      - "openapp"
-      - "self-hosted"
-    stars_fact: 27
-    first_seen: null
-    last_push: "2026-10-06"
-  - name: "CreatPPT"
-    title: "CreatPPT"
-    description: "Agent-first web presentation workspace: turn briefs into editable slide decks and export native PPTX on demand."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 148
-    first_seen: null
-    last_push: "2026-08-27"
-  - name: "openos"
-    title: "openos"
-    description: "OpenOS is an open-source AI runtime where every app is generated in real time by large language models. Instead of installing software, users describe what they need, and OpenOS creates the interface, logic, and interactions on demand."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 18
-    first_seen: null
-    last_push: "2026-08-03"
+repos: []
 ---
 
 # seekskyworld

@@ -11,7 +11,7 @@ provenance_repos:
 admitted: true
 low_n: true
 repos_populated: true
-generated_at: "2026-10-16T08:30:18.142355+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "1be978947e68d1f2"
   - "ef17663e884139a8"
@@ -85,7 +85,7 @@ repos:
     description: "Drop in a screenshot and convert it to clean code (HTML/Tailwind/React/Vue)"
     language: "Python"
     topics: []
-    stars_fact: 80146
+    stars_fact: 80450
     first_seen: "2026-08-29T06:00:06.819639+00:00"
     last_push: "2026-10-09"
   - name: "secret-llama"
@@ -93,7 +93,7 @@ repos:
     description: "Fully private LLM chatbot that runs entirely with a browser with no server needed. Supports Mistral and LLama 3."
     language: "TypeScript"
     topics: []
-    stars_fact: 2675
+    stars_fact: 2674
     first_seen: null
     last_push: "2024-06-05"
   - name: "aero"

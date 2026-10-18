@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [6, 4, 0, 4, 2, 0, 0, 1, 2, 3, 3, 6, 6]
+pushes_per_week: [7, 3, 0, 4, 2, 0, 0, 3, 1, 4, 5, 3, 5]
 windows:
   "7d":
     pushes: 6
@@ -84,7 +84,15 @@ repos:
     topics: []
     stars_fact: 3
     first_seen: null
-    last_push: "2026-10-09"
+    last_push: "2026-10-14"
+  - name: "omp-prompt-stash"
+    title: "omp-prompt-stash"
+    description: "Persistent per-session prompt stash plugin for Oh My Pi"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-08-07"
   - name: "omp-cache-miss-oof"
     title: "omp-cache-miss-oof"
     description: "OMP extension that plays rotating original damage and oof sounds on prompt-cache misses"
@@ -101,14 +109,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-09-08"
-  - name: "omp-prompt-stash"
-    title: "omp-prompt-stash"
-    description: "Persistent per-session prompt stash plugin for Oh My Pi"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-08-07"
   - name: "siegert-scatter"
     title: "siegert-scatter"
     description: "Compute radial (partial-wave) Schrödinger scattering using the Siegert pseudostate (SPS) method. This library produces S-matrices, cross sections, Wigner time delays, and scattering lengths for user-defined potentials."

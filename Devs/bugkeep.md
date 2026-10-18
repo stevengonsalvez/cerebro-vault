@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [15, 1, 2, 6, 2, 0, 0, 2, 0, 0, 0, 0, 0]
+pushes_per_week: [12, 1, 2, 7, 1, 0, 0, 2, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 28
-    distinct_repos: 3
-    active_days: 13
+    pushes: 25
+    distinct_repos: 2
+    active_days: 11
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.1538
-  repo_per_active_day: 0.2308
+  push_per_day: 2.2727
+  repo_per_active_day: 0.1818
   not_owned_ratio: 0.0000
-  basename_concentration: 0.3333
+  basename_concentration: 0.5000
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,18 +65,26 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 28
-    distinct_repos: 3
-    pushes_per_repo: 9.3333
-    active_days: 13
+    pushes: 25
+    distinct_repos: 2
+    pushes_per_repo: 12.5000
+    active_days: 11
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 13 active days in 90d — pass"
+  - "activity: 11 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "agent-infra-eval"
+    title: "agent-infra-eval"
+    description: "A unified benchmarking and experimentation platform for Agent infrastructure components, including context, memory, tools, orchestration, and recovery."
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-11"
   - name: "-tcmalloc-"
     title: "-tcmalloc-"
     description: "博客参考：https://blog.csdn.net/m0_62782700/article/details/135443352"
@@ -94,7 +102,7 @@ repos:
       - "github-config"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-09"
+    last_push: "2026-10-17"
   - name: "AutoSolver"
     title: "AutoSolver"
     description: "AutoSolver-Evolve: LLM-driven solver evolution system for order-rider assignment problems"
@@ -119,30 +127,10 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-04-24"
-  - name: "tower-vib"
-    title: "tower-vib"
-    description: "Industrial-grade video vibrometry: phase-based subpixel displacement, no-GT consistency metrics, and robustness benchmarks."
-    language: "Python"
-    topics:
-      - "benchmark"
-      - "computer-vision"
-      - "no-ground-truth"
-      - "phase-correlation"
-      - "python"
-      - "robustness"
-      - "signal-processing"
-      - "subpixel"
-      - "time-series"
-      - "vibration"
-      - "vibrometry"
-      - "video-analysis"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-01-23"
 ---
 
 # bugkeep
 
-28 pushes across 3 repositories on 13 active days in the last 90 days of public GitHub push activity.
+25 pushes across 2 repositories on 11 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/bugkeep

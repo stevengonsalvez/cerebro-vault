@@ -10,7 +10,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "73468cde177ddae6"
   - "90688bf127241ceb"
@@ -99,9 +99,29 @@ repos:
       - "overengineering"
       - "scope-control"
       - "yagni"
-    stars_fact: 2529
+    stars_fact: 2726
     first_seen: null
-    last_push: "2026-10-07"
+    last_push: "2026-10-15"
+  - name: "mcp-slim-guard"
+    title: "mcp-slim-guard"
+    description: "Context compression for MCP. Same upstream call, exact results recoverable."
+    language: "TypeScript"
+    topics:
+      - "ai-agent"
+      - "compression"
+      - "context-compression"
+      - "mcp"
+      - "mcp-compression"
+      - "model-context-protocol"
+      - "nodejs"
+      - "payload-compression"
+      - "schema-compression"
+      - "token-optimization"
+      - "tool-discovery"
+      - "typescript"
+    stars_fact: 186
+    first_seen: null
+    last_push: "2026-08-14"
   - name: "agent-search-mcp"
     title: "agent-search-mcp"
     description: "Free-first Chinese and English web search MCP using zero-key sources and inspectable evidence."
@@ -127,29 +147,9 @@ repos:
       - "web-search"
       - "zero-api-key"
       - "zero-config"
-    stars_fact: 110
+    stars_fact: 111
     first_seen: null
     last_push: "2026-09-21"
-  - name: "mcp-slim-guard"
-    title: "mcp-slim-guard"
-    description: "Context compression for MCP. Same upstream call, exact results recoverable."
-    language: "TypeScript"
-    topics:
-      - "ai-agent"
-      - "compression"
-      - "context-compression"
-      - "mcp"
-      - "mcp-compression"
-      - "model-context-protocol"
-      - "nodejs"
-      - "payload-compression"
-      - "schema-compression"
-      - "token-optimization"
-      - "tool-discovery"
-      - "typescript"
-    stars_fact: 186
-    first_seen: null
-    last_push: "2026-08-14"
   - name: "lennney"
     title: "lennney"
     description: "lennney's profile"

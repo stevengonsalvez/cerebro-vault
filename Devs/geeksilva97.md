@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-16T08:30:18.142355+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "4138778ebbc75ba6"
 pushes_per_week: [4, 2, 0, 5, 0, 0, 0, 0, 0, 0, 2, 1, 0]
@@ -77,6 +77,14 @@ reasons:
   - "activity: 9 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "checkout-workshop"
+    title: "checkout-workshop"
+    description: "Workshop de specs com agentes: cupom num checkout. Constituição → spec → implementar → validar."
+    language: "JavaScript"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-10-13"
   - name: "brk"
     title: "brk"
     description: "Tutored, constrained coding-dojo plugins for Claude Code + the dojo CLI (install or start right away)."
@@ -117,14 +125,6 @@ repos:
     stars_fact: 10
     first_seen: null
     last_push: "2026-07-15"
-  - name: "ractory"
-    title: "ractory"
-    description: "Ruby 4.0+ Ractors dojo: actor-model basics through a supervised, connection-per-Ractor mini server"
-    language: "Shell"
-    topics: []
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-07-13"
 ---
 
 # geeksilva97

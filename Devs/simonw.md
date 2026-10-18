@@ -23,7 +23,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "0726bc457d4dcf89"
   - "1be978947e68d1f2"
@@ -43,7 +43,7 @@ provenance:
   - "e9879ff70aa53e1e"
   - "f37003b32e1952f4"
   - "f5034dade94eb802"
-pushes_per_week: [7, 22, 9, 21, 2, 0, 0, 2, 12, 3, 3, 5, 10]
+pushes_per_week: [8, 24, 6, 21, 2, 0, 0, 2, 13, 2, 4, 4, 10]
 windows:
   "7d":
     pushes: 10
@@ -115,7 +115,7 @@ repos:
     topics: []
     stars_fact: 14
     first_seen: null
-    last_push: "2026-10-10"
+    last_push: "2026-10-18"
   - name: "scrape-florida-outages"
     title: "scrape-florida-outages"
     description: null
@@ -123,7 +123,7 @@ repos:
     topics: []
     stars_fact: 14
     first_seen: null
-    last_push: "2026-10-10"
+    last_push: "2026-10-18"
   - name: "scrape-fema-shelters"
     title: "scrape-fema-shelters"
     description: null
@@ -132,47 +132,34 @@ repos:
       - "git-scraping"
     stars_fact: 16
     first_seen: null
-    last_push: "2026-10-10"
-  - name: "scrape-roads-dot-ca-gov"
-    title: "scrape-roads-dot-ca-gov"
-    description: "Scrape highway information from https://roads.dot.ca.gov/"
-    language: "HTML"
-    topics:
-      - "git-scraping"
-    stars_fact: 12
-    first_seen: null
-    last_push: "2026-10-10"
-  - name: "simonw"
-    title: "simonw"
-    description: "https://simonwillison.net/2020/Jul/10/self-updating-profile-readme/"
+    last_push: "2026-10-18"
+  - name: "llm"
+    title: "llm"
+    description: "Access large language models from the command-line"
     language: "Python"
     topics:
-      - "github-actions"
-      - "github-api"
-      - "graphql"
-      - "profile-readme"
-    stars_fact: 446
-    first_seen: null
-    last_push: "2026-10-10"
-  - name: "datasette"
-    title: "datasette"
-    description: "An open source multi-tool for exploring and publishing data"
+      - "ai"
+      - "llms"
+      - "openai"
+    stars_fact: 12636
+    first_seen: "2026-07-31T06:00:06.780986+00:00"
+    last_push: "2026-10-15"
+  - name: "simonwillisonblog-backup"
+    title: "simonwillisonblog-backup"
+    description: "Backups of the database for simonwillison.net"
     language: "Python"
-    topics:
-      - "asgi"
-      - "automatic-api"
-      - "csv"
-      - "datasets"
-      - "datasette"
-      - "datasette-io"
-      - "docker"
-      - "json"
-      - "python"
-      - "sql"
-      - "sqlite"
-    stars_fact: 11512
+    topics: []
+    stars_fact: 50
     first_seen: null
-    last_push: "2026-10-08"
+    last_push: "2026-10-18"
+  - name: "inaturalist-clumps"
+    title: "inaturalist-clumps"
+    description: "Runs inaturalist-clumper"
+    language: null
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-10-18"
 ---
 
 # simonw

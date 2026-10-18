@@ -8,11 +8,11 @@ provenance_repos:
   - "antirez/ds4"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-16T08:30:18.142355+00:00"
+repos_populated: false
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "3eacb4655aba2497"
-pushes_per_week: [7, 0, 1, 1, 0, 0, 0, 1, 4, 1, 1, 1, 3]
+pushes_per_week: [3, 0, 1, 1, 0, 0, 0, 3, 2, 1, 1, 3, 1]
 windows:
   "7d":
     pushes: 3
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 20
-    distinct_repos: 8
-    active_days: 13
-    repos_not_owned: 4
+    pushes: 16
+    distinct_repos: 7
+    active_days: 11
+    repos_not_owned: 3
     not_owned_basenames: 3
-    not_owned_owners: 2
+    not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.5385
-  repo_per_active_day: 0.6154
-  not_owned_ratio: 0.5000
-  basename_concentration: 0.2500
+  push_per_day: 1.4545
+  repo_per_active_day: 0.6364
+  not_owned_ratio: 0.4286
+  basename_concentration: 0.1429
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,79 +65,22 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 20
-    distinct_repos: 8
-    pushes_per_repo: 2.5000
-    active_days: 13
-    repos_not_owned: 4
+    pushes: 16
+    distinct_repos: 7
+    pushes_per_repo: 2.2857
+    active_days: 11
+    repos_not_owned: 3
     not_owned_basenames: 3
-    not_owned_owners: 2
+    not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 13 active days in 90d — pass"
+  - "activity: 11 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "pi-boss"
-    title: "pi-boss"
-    description: "Spawn and manage sub-agents in visible tmux panes — the orchestrator that makes multi-agent boss mode work for pi coding agent."
-    language: "TypeScript"
-    topics:
-      - "ai-agent"
-      - "boss-mode"
-      - "multi-agent"
-      - "orchestration"
-      - "parallel-agents"
-      - "pi-coding-agent"
-      - "sub-agent"
-      - "tmux"
-      - "typescript"
-    stars_fact: 12
-    first_seen: null
-    last_push: "2026-04-25"
-  - name: "jev-browser"
-    title: "jev-browser"
-    description: null
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-20"
-  - name: "agenthook"
-    title: "agenthook"
-    description: "A webhook inbox for coding agents. Runs locally & remotely."
-    language: "JavaScript"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-09-18"
-  - name: "skyfallsin.github.io"
-    title: "skyfallsin.github.io"
-    description: null
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-15"
-  - name: "flyiverse"
-    title: "flyiverse"
-    description: null
-    language: "Astro"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-10"
-  - name: "pi-projects"
-    title: "pi-projects"
-    description: "Self-contained project directories for the pi coding agent"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-10"
+repos: []
 ---
 
 # skyfallsin
 
-20 pushes across 8 repositories on 13 active days in the last 90 days of public GitHub push activity.
+16 pushes across 7 repositories on 11 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/skyfallsin

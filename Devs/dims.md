@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+generated_at: "2026-10-18T06:04:36.280265+00:00"
 provenance:
   - "a5ffcd0a46dd44fd"
-pushes_per_week: [8, 5, 6, 3, 3, 0, 0, 1, 2, 20, 18, 3, 17]
+pushes_per_week: [8, 7, 4, 4, 2, 0, 0, 1, 2, 31, 7, 3, 17]
 windows:
   "7d":
-    pushes: 18
-    distinct_repos: 5
-    active_days: 4
+    pushes: 17
+    distinct_repos: 4
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 18
-    distinct_repos: 5
-    pushes_per_repo: 3.6000
-    active_days: 4
+    pushes: 17
+    distinct_repos: 4
+    pushes_per_repo: 4.2500
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -77,6 +77,14 @@ reasons:
   - "activity: 34 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "gym-substrate"
+    title: "gym-substrate"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-14"
   - name: "openshell-driver-substrate"
     title: "openshell-driver-substrate"
     description: "OpenShell ComputeDriver targeting Agent Substrate (gVisor + checkpoint/restore via runsc) plus the substrate-aware supervisor wrapper binary"
@@ -117,14 +125,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-05-28"
-  - name: "rdma_topo"
-    title: "rdma_topo"
-    description: null
-    language: "Go"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-05-14"
 ---
 
 # dims
