@@ -8,11 +8,11 @@ provenance_repos:
   - "BuilderIO/agent-native"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-18T06:04:36.280265+00:00"
+repos_populated: true
+generated_at: "2026-10-19T06:04:45.439728+00:00"
 provenance:
   - "745308b2b7085095"
-pushes_per_week: [1, 4, 7, 0, 11, 0, 0, 0, 4, 3, 4, 5, 0]
+pushes_per_week: [2, 5, 5, 0, 11, 0, 0, 0, 4, 3, 7, 2, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 16
+    pushes: 15
     distinct_repos: 3
-    active_days: 9
+    active_days: 8
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 16
+    pushes: 15
     distinct_repos: 3
-    pushes_per_repo: 5.3333
-    active_days: 9
+    pushes_per_repo: 5.0000
+    active_days: 8
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -76,7 +76,61 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 19 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "lexicalunit"
+    title: "lexicalunit"
+    description: "About me"
+    language: "TeX"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-19"
+  - name: "spellbot"
+    title: "spellbot"
+    description: "The Discord bot for Webcam Magic"
+    language: "Python"
+    topics:
+      - "discord-bot"
+      - "gaming"
+      - "lfg"
+      - "magic"
+      - "magic-the-gathering"
+      - "spelltable"
+    stars_fact: 37
+    first_seen: null
+    last_push: "2026-10-14"
+  - name: "dotfiles"
+    title: "dotfiles"
+    description: "Install applications and development environment on a macOS or Linux machine."
+    language: "Shell"
+    topics: []
+    stars_fact: 15
+    first_seen: null
+    last_push: "2026-10-11"
+  - name: "yeti-mute"
+    title: "yeti-mute"
+    description: "Mute passthru audio from Yeti Blue microphones"
+    language: "Shell"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-03"
+  - name: "landcalc"
+    title: "landcalc"
+    description: "Recommend how many lands a Commander deck should run."
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-07-23"
+  - name: "mtgir"
+    title: "mtgir"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2024-11-12"
 ---
 
 # lexicalunit

@@ -8,37 +8,37 @@ provenance_repos:
   - "can1357/oh-my-pi"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-18T06:04:36.280265+00:00"
+repos_populated: true
+generated_at: "2026-10-19T06:04:45.439728+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [0, 13, 9, 7, 4, 9, 1, 0, 4, 6, 5, 29, 13]
+pushes_per_week: [0, 13, 11, 5, 7, 6, 1, 0, 4, 7, 6, 29, 14]
 windows:
   "7d":
-    pushes: 28
-    distinct_repos: 8
-    active_days: 3
-    repos_not_owned: 5
-    not_owned_basenames: 5
+    pushes: 15
+    distinct_repos: 6
+    active_days: 4
+    repos_not_owned: 4
+    not_owned_basenames: 4
     not_owned_owners: 1
   "30d":
-    pushes: 57
+    pushes: 60
     distinct_repos: 12
-    active_days: 14
+    active_days: 16
     repos_not_owned: 9
     not_owned_basenames: 9
     not_owned_owners: 1
   "90d":
-    pushes: 100
+    pushes: 103
     distinct_repos: 15
-    active_days: 36
+    active_days: 38
     repos_not_owned: 10
     not_owned_basenames: 9
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 2.7778
-  repo_per_active_day: 0.4167
+  push_per_day: 2.7105
+  repo_per_active_day: 0.3947
   not_owned_ratio: 0.6667
   basename_concentration: 0.1333
   shapes: []
@@ -49,38 +49,86 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 28
-    distinct_repos: 8
-    pushes_per_repo: 3.5000
-    active_days: 3
-    repos_not_owned: 5
-    not_owned_basenames: 5
+    pushes: 15
+    distinct_repos: 6
+    pushes_per_repo: 2.5000
+    active_days: 4
+    repos_not_owned: 4
+    not_owned_basenames: 4
     not_owned_owners: 1
   "30d":
-    pushes: 57
+    pushes: 60
     distinct_repos: 12
-    pushes_per_repo: 4.7500
-    active_days: 14
+    pushes_per_repo: 5.0000
+    active_days: 16
     repos_not_owned: 9
     not_owned_basenames: 9
     not_owned_owners: 1
   "90d":
-    pushes: 100
+    pushes: 103
     distinct_repos: 15
-    pushes_per_repo: 6.6667
-    active_days: 36
+    pushes_per_repo: 6.8667
+    active_days: 38
     repos_not_owned: 10
     not_owned_basenames: 9
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 36 active days in 90d — pass"
+  - "activity: 38 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "jj-hooks"
+    title: "jj-hooks"
+    description: "Use your pre-commit/pre-push hook runner with jj."
+    language: "Rust"
+    topics: []
+    stars_fact: 8
+    first_seen: null
+    last_push: "2026-10-17"
+  - name: "tessera"
+    title: "tessera"
+    description: "Tessera Window Manager - write your tiling window manger config in TypeScript and use it cross platform with Yabai (macOS), Hyperlnd (Linux)"
+    language: "Go"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-17"
+  - name: "dev-shared"
+    title: "dev-shared"
+    description: "Shared dev tooling for mattwilkinsonn tool repos: devenv module, setup-devenv composite action, reusable Rust CI workflow, Renovate preset."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-13"
+  - name: "homebrew-tap"
+    title: "homebrew-tap"
+    description: "Homebrew tap for personal projects."
+    language: "Ruby"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-12"
+  - name: "jj-gt-live-tests"
+    title: "jj-gt-live-tests"
+    description: "Live-test fixture for jj-gt. Do not delete."
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-05-26"
+  - name: "configs"
+    title: "configs"
+    description: "Public config files."
+    language: "Lua"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-05-19"
 ---
 
 # mattwilkinsonn
 
-100 pushes across 15 repositories on 36 active days in the last 90 days of public GitHub push activity.
+103 pushes across 15 repositories on 38 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/mattwilkinsonn

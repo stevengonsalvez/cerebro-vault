@@ -8,11 +8,11 @@ provenance_repos:
   - "aws/agent-toolkit-for-aws"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-18T06:04:36.280265+00:00"
+repos_populated: true
+generated_at: "2026-10-19T06:04:45.439728+00:00"
 provenance:
   - "a50b0e08dbaee74a"
-pushes_per_week: [0, 9, 2, 1, 0, 1, 0, 0, 0, 2, 0, 3, 3]
+pushes_per_week: [1, 8, 2, 1, 0, 1, 0, 0, 0, 2, 2, 2, 2]
 windows:
   "7d":
     pushes: 3
@@ -76,7 +76,68 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 14 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "projen-projects"
+    title: "projen-projects"
+    description: "Opinionated projen project types for everyone."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 12
+    first_seen: null
+    last_push: "2026-10-19"
+  - name: "cdk-esbuild"
+    title: "cdk-esbuild"
+    description: "CDK constructs for esbuild, an extremely fast JavaScript bundler"
+    language: "TypeScript"
+    topics:
+      - "aws-cdk"
+      - "aws-lambda"
+      - "aws-synthetics-canary"
+      - "bundler"
+      - "cdk-construct"
+      - "esbuild"
+      - "lambda"
+      - "static-website"
+    stars_fact: 138
+    first_seen: null
+    last_push: "2026-10-19"
+  - name: "cdk-esbuild-go"
+    title: "cdk-esbuild-go"
+    description: "Go bindings for cdk-esbuild"
+    language: "Go"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-01"
+  - name: "jsii-struct-builder"
+    title: "jsii-struct-builder"
+    description: "Build jsii structs with ease."
+    language: "TypeScript"
+    topics:
+      - "jsii"
+      - "projen"
+    stars_fact: 34
+    first_seen: null
+    last_push: "2026-09-14"
+  - name: "streamlink-serverless"
+    title: "streamlink-serverless"
+    description: "Streamlink as a Serverless Service"
+    language: "TypeScript"
+    topics:
+      - "iptv"
+      - "serverless"
+      - "streamlink"
+    stars_fact: 10
+    first_seen: null
+    last_push: "2024-07-01"
+  - name: "cdk-examples"
+    title: "cdk-examples"
+    description: "Public collection of examples for using the AWS CDK"
+    language: null
+    topics: []
+    stars_fact: 8
+    first_seen: null
+    last_push: "2023-03-13"
 ---
 
 # mrgrain

@@ -8,11 +8,11 @@ provenance_repos:
   - "AlexsJones/llmfit"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-18T06:04:36.280265+00:00"
+repos_populated: true
+generated_at: "2026-10-19T06:04:45.439728+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [4, 6, 0, 7, 2, 1, 0, 4, 3, 1, 3, 0, 0]
+pushes_per_week: [4, 6, 0, 8, 1, 1, 0, 4, 3, 2, 2, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 6
+    pushes: 5
     distinct_repos: 4
-    active_days: 6
+    active_days: 5
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 6
+    pushes: 5
     distinct_repos: 4
-    pushes_per_repo: 1.5000
-    active_days: 6
+    pushes_per_repo: 1.2500
+    active_days: 5
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -76,7 +76,74 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 22 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "raviz"
+    title: "raviz"
+    description: "High-performance audio-reactive 3D visualizer for Linux"
+    language: "C"
+    topics:
+      - "3d"
+      - "audio"
+      - "audio-visualizer"
+      - "c"
+      - "linux"
+      - "opengl"
+      - "opengl3"
+      - "pulseaudio"
+      - "sphere"
+      - "toml"
+      - "wayland"
+      - "x11"
+    stars_fact: 5
+    first_seen: null
+    last_push: "2026-02-22"
+  - name: "goggles"
+    title: "goggles"
+    description: "Multi-account social browser"
+    language: "Go"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-05"
+  - name: "java-interview-handbook"
+    title: "java-interview-handbook"
+    description: "Java Interview Handbook"
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-04"
+  - name: "rookwm"
+    title: "rookwm"
+    description: "A minimal, fast, X11 tiling window manager written in Rust."
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-02"
+  - name: "synelle.me"
+    title: "synelle.me"
+    description: "Personal website for Synelle, my AI documenting life from its point of view."
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-29"
+  - name: "rezumate"
+    title: "rezumate"
+    description: "Native iOS resume optimization powered by a FastAPI analysis backend."
+    language: "Kotlin"
+    topics:
+      - "ats"
+      - "ats-optimization"
+      - "fastapi"
+      - "ios"
+      - "resume-optimization"
+      - "resume-parser"
+      - "swift"
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-09-28"
 ---
 
 # maskedsyntax

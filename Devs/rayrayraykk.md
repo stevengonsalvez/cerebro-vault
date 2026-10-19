@@ -8,11 +8,11 @@ provenance_repos:
   - "agentscope-ai/QwenPaw"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-18T06:04:36.280265+00:00"
+repos_populated: true
+generated_at: "2026-10-19T06:04:45.439728+00:00"
 provenance:
   - "541318303a272608"
-pushes_per_week: [7, 0, 0, 3, 1, 2, 0, 1, 7, 7, 1, 4, 4]
+pushes_per_week: [4, 0, 0, 3, 1, 2, 0, 1, 8, 7, 0, 4, 4]
 windows:
   "7d":
     pushes: 4
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 2
   "90d":
-    pushes: 37
+    pushes: 34
     distinct_repos: 3
-    active_days: 21
+    active_days: 20
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 1.7619
-  repo_per_active_day: 0.1429
+  push_per_day: 1.7000
+  repo_per_active_day: 0.1500
   not_owned_ratio: 0.6667
   basename_concentration: 0.6667
   shapes: []
@@ -65,22 +65,70 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 2
   "90d":
-    pushes: 37
+    pushes: 34
     distinct_repos: 3
-    pushes_per_repo: 12.3333
-    active_days: 21
+    pushes_per_repo: 11.3333
+    active_days: 20
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 21 active days in 90d — pass"
+  - "activity: 20 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "homepage"
+    title: "homepage"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-07-18"
+  - name: "rayrayraykk"
+    title: "rayrayraykk"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-04-20"
+  - name: "aone"
+    title: "aone"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2023-11-27"
+  - name: "test_comment"
+    title: "test_comment"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2024-11-28"
+  - name: "star"
+    title: "star"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2024-03-28"
+  - name: "local_llama"
+    title: "local_llama"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2023-12-11"
 ---
 
 # rayrayraykk
 
-37 pushes across 3 repositories on 21 active days in the last 90 days of public GitHub push activity.
+34 pushes across 3 repositories on 20 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/rayrayraykk

@@ -8,8 +8,8 @@ provenance_repos:
   - "petergpt/doomql"
 admitted: true
 low_n: true
-repos_populated: false
-generated_at: "2026-10-18T06:04:36.280265+00:00"
+repos_populated: true
+generated_at: "2026-10-19T06:04:45.439728+00:00"
 provenance:
   - "fef1723d0079f86e"
 pushes_per_week: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
@@ -76,7 +76,60 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 1 active days in 90d — below the 5-day line, LABELLED low-n (never suppressed)"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "bullshit-benchmark"
+    title: "bullshit-benchmark"
+    description: "BullshitBench measures whether AI models challenge nonsensical prompts instead of confidently answering them, created by Peter Gostev."
+    language: "Python"
+    topics: []
+    stars_fact: 1894
+    first_seen: null
+    last_push: "2026-10-19"
+  - name: "3d-prompt-collection"
+    title: "3d-prompt-collection"
+    description: "A presentation-order collection of 3D prompts for copying and reuse."
+    language: null
+    topics: []
+    stars_fact: 309
+    first_seen: null
+    last_push: "2026-07-02"
+  - name: "doomql"
+    title: "doomql"
+    description: "A playable terminal FPS whose simulation and framebuffer are calculated in SQLite."
+    language: "Python"
+    topics: []
+    stars_fact: 64
+    first_seen: "2026-07-14T06:00:04.766426+00:00"
+    last_push: "2026-07-13"
+  - name: "models-learning-chess"
+    title: "models-learning-chess"
+    description: "Language models learning chess: six runs, games, conversation and tool logs, workspace snapshots, and experiment structure."
+    language: "HTML"
+    topics:
+      - "ai-agents"
+      - "benchmark"
+      - "chess"
+      - "dataset"
+      - "language-models"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-15"
+  - name: "Live-YT-Translator"
+    title: "Live-YT-Translator"
+    description: "A Chrome extension for live YouTube translation with OpenAI Realtime."
+    language: "JavaScript"
+    topics: []
+    stars_fact: 61
+    first_seen: null
+    last_push: "2026-05-07"
+  - name: "transformer-architecture"
+    title: "transformer-architecture"
+    description: "Explore the original Transformer and DeepSeek V4.1 Flash in interactive 3D."
+    language: "JavaScript"
+    topics: []
+    stars_fact: 85
+    first_seen: null
+    last_push: "2026-09-11"
 ---
 
 # petergpt

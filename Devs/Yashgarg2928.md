@@ -8,8 +8,8 @@ provenance_repos:
   - "abhigyanpatwari/GitNexus"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-18T06:04:36.280265+00:00"
+repos_populated: true
+generated_at: "2026-10-19T06:04:45.439728+00:00"
 provenance:
   - "3c90af76cbde0363"
 pushes_per_week: [5, 0, 0, 1, 0, 0, 0, 2, 0, 0, 2, 0, 0]
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "Streak"
+    title: "Streak"
+    description: null
+    language: "Makefile"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-10-08"
+  - name: "Content-factory"
+    title: "Content-factory"
+    description: null
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-25"
+  - name: "streak-android"
+    title: "streak-android"
+    description: null
+    language: "Kotlin"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-07-23"
+  - name: "context-aware-gateway"
+    title: "context-aware-gateway"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-06-26"
+  - name: "orcym-dashboard"
+    title: "orcym-dashboard"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-06-02"
+  - name: "restaurant-lead-generator"
+    title: "restaurant-lead-generator"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-04-20"
 ---
 
 # Yashgarg2928

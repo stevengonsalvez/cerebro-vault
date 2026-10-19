@@ -8,11 +8,11 @@ provenance_repos:
   - "asgeirtj/system_prompts_leaks"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-18T06:04:36.280265+00:00"
+repos_populated: true
+generated_at: "2026-10-19T06:04:45.439728+00:00"
 provenance:
   - "716cf9e2237ac9db"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 6, 0, 1, 0, 0]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 6, 1, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,76 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "clipsync"
+    title: "clipsync"
+    description: "Keeps one clipboard in sync across your Android devices and your Windows PC, with text, images and files all supported"
+    language: "Kotlin"
+    topics: []
+    stars_fact: 9
+    first_seen: null
+    last_push: "2026-10-15"
+  - name: "ma2-parser"
+    title: "ma2-parser"
+    description: "An ma2 to simai converter, the reverse companion to maidata-parser."
+    language: null
+    topics:
+      - "ma2"
+      - "maimai"
+      - "rhythm-game"
+      - "rhythm-game-chart-parser"
+      - "rhythm-game-editor"
+      - "simai"
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-07-15"
+  - name: "essential-queue"
+    title: "essential-queue"
+    description: "Batch launcher for Leica Essential on Xiaomi Leitzphone"
+    language: "Kotlin"
+    topics:
+      - "accessibility-service"
+      - "android"
+      - "hyperos"
+      - "jetpack-compose"
+      - "kotlin"
+      - "leica"
+      - "material3-expressive"
+      - "photography"
+      - "xiaomi"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-28"
+  - name: "onnxruntime-dml-java"
+    title: "onnxruntime-dml-java"
+    description: "ONNX Runtime for Java with DirectML provider"
+    language: "Java"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-30"
+  - name: "maidata-parser"
+    title: "maidata-parser"
+    description: "A fast, strict simai chart parser that converts maidata notation to .ma2 format."
+    language: null
+    topics:
+      - "ma2"
+      - "maimai"
+      - "rhythm-game"
+      - "rhythm-game-chart-parser"
+      - "rhythm-game-editor"
+      - "simai"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-03"
+  - name: "bc7e"
+    title: "bc7e"
+    description: "Encode RGBA images to BC7"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-12"
 ---
 
 # lcebot

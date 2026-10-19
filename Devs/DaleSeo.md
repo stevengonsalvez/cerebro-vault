@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-18T06:04:36.280265+00:00"
+generated_at: "2026-10-19T06:04:45.439728+00:00"
 provenance:
   - "0b22ca37fd3884c9"
-pushes_per_week: [20, 8, 6, 1, 2, 0, 0, 0, 8, 16, 8, 5, 9]
+pushes_per_week: [13, 9, 5, 2, 1, 0, 0, 1, 7, 21, 4, 5, 8]
 windows:
   "7d":
-    pushes: 10
-    distinct_repos: 8
-    active_days: 4
-    repos_not_owned: 8
-    not_owned_basenames: 8
+    pushes: 9
+    distinct_repos: 7
+    active_days: 3
+    repos_not_owned: 7
+    not_owned_basenames: 7
     not_owned_owners: 2
   "30d":
-    pushes: 45
+    pushes: 39
     distinct_repos: 12
-    active_days: 17
+    active_days: 15
     repos_not_owned: 12
     not_owned_basenames: 11
     not_owned_owners: 3
   "90d":
-    pushes: 83
+    pushes: 76
     distinct_repos: 16
-    active_days: 34
+    active_days: 32
     repos_not_owned: 14
     not_owned_basenames: 13
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 2.4412
-  repo_per_active_day: 0.4706
+  push_per_day: 2.3750
+  repo_per_active_day: 0.5000
   not_owned_ratio: 0.8750
   basename_concentration: 0.1250
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 10
-    distinct_repos: 8
-    pushes_per_repo: 1.2500
-    active_days: 4
-    repos_not_owned: 8
-    not_owned_basenames: 8
+    pushes: 9
+    distinct_repos: 7
+    pushes_per_repo: 1.2857
+    active_days: 3
+    repos_not_owned: 7
+    not_owned_basenames: 7
     not_owned_owners: 2
   "30d":
-    pushes: 45
+    pushes: 39
     distinct_repos: 12
-    pushes_per_repo: 3.7500
-    active_days: 17
+    pushes_per_repo: 3.2500
+    active_days: 15
     repos_not_owned: 12
     not_owned_basenames: 11
     not_owned_owners: 3
   "90d":
-    pushes: 83
+    pushes: 76
     distinct_repos: 16
-    pushes_per_repo: 5.1875
-    active_days: 34
+    pushes_per_repo: 4.7500
+    active_days: 32
     repos_not_owned: 14
     not_owned_basenames: 13
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 34 active days in 90d — pass"
+  - "activity: 32 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "korean-skills"
@@ -132,6 +132,6 @@ repos:
 
 # DaleSeo
 
-83 pushes across 16 repositories on 34 active days in the last 90 days of public GitHub push activity.
+76 pushes across 16 repositories on 32 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/DaleSeo

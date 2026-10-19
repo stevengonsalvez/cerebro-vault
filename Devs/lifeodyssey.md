@@ -8,11 +8,11 @@ provenance_repos:
   - "chopratejas/headroom"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-18T06:04:36.280265+00:00"
+repos_populated: true
+generated_at: "2026-10-19T06:04:45.439728+00:00"
 provenance:
   - "73468cde177ddae6"
-pushes_per_week: [7, 29, 58, 51, 5, 7, 3, 14, 19, 16, 4, 1, 0]
+pushes_per_week: [4, 40, 51, 47, 6, 6, 9, 8, 19, 16, 5, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 30
+    pushes: 22
     distinct_repos: 2
-    active_days: 9
+    active_days: 8
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 214
+    pushes: 211
     distinct_repos: 3
-    active_days: 45
+    active_days: 44
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 4.7556
-  repo_per_active_day: 0.0667
+  push_per_day: 4.7955
+  repo_per_active_day: 0.0682
   not_owned_ratio: 0.0000
   basename_concentration: 0.3333
   shapes: []
@@ -57,30 +57,102 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 30
+    pushes: 22
     distinct_repos: 2
-    pushes_per_repo: 15.0000
-    active_days: 9
+    pushes_per_repo: 11.0000
+    active_days: 8
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 214
+    pushes: 211
     distinct_repos: 3
-    pushes_per_repo: 71.3333
-    active_days: 45
+    pushes_per_repo: 70.3333
+    active_days: 44
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 45 active days in 90d — pass"
+  - "activity: 44 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "lifeodyssey"
+    title: "lifeodyssey"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-18"
+  - name: "dsh-compressor"
+    title: "dsh-compressor"
+    description: "DeepSeek Harness plugin: compress tool output, cut up to 20% of context, without touching the context cache or agent performance."
+    language: "Rust"
+    topics:
+      - "context-compression"
+      - "deepseek"
+      - "dsh-plugin"
+    stars_fact: 7
+    first_seen: null
+    last_push: "2026-08-15"
+  - name: "animichi"
+    title: "animichi"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-10-15"
+  - name: "share-html"
+    title: "share-html"
+    description: "Share sandboxed HTML previews with public-unlisted or access-key private links. Includes a remote MCP server for AI agents."
+    language: "TypeScript"
+    topics:
+      - "a2a-protocol"
+      - "agent-ready"
+      - "ai-agents"
+      - "cloudflare-workers"
+      - "html-preview"
+      - "html-sharing"
+      - "mcp-server"
+      - "private-sharing"
+      - "r2"
+      - "react"
+      - "supabase"
+      - "typescript"
+      - "vite"
+      - "webmcp"
+    stars_fact: 6
+    first_seen: null
+    last_push: "2026-09-25"
+  - name: "context-compression-demo"
+    title: "context-compression-demo"
+    description: "Demo shop project and reproduction scripts for the context-compression article"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-13"
+  - name: "animal-island-ui-tailwind"
+    title: "animal-island-ui-tailwind"
+    description: "Animal Crossing-themed React component library — Tailwind CSS v4 + Radix UI"
+    language: "TypeScript"
+    topics:
+      - "animal-crossing"
+      - "component-library"
+      - "radix-ui"
+      - "react"
+      - "storybook"
+      - "tailwindcss"
+      - "ui"
+    stars_fact: 6
+    first_seen: null
+    last_push: "2026-10-19"
 ---
 
 # lifeodyssey
 
-214 pushes across 3 repositories on 45 active days in the last 90 days of public GitHub push activity.
+211 pushes across 3 repositories on 44 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/lifeodyssey

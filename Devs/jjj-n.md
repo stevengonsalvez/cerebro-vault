@@ -8,11 +8,11 @@ provenance_repos:
   - "apache/maka"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-18T06:04:36.280265+00:00"
+repos_populated: true
+generated_at: "2026-10-19T06:04:45.439728+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [1, 2, 0, 0, 1, 3, 0, 1, 0, 1, 0, 2, 0]
+pushes_per_week: [1, 2, 0, 0, 2, 2, 1, 0, 0, 1, 1, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,39 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 11 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "DoVideoAI"
+    title: "DoVideoAI"
+    description: "一个面向长视频内容理解的 Video Agent 平台"
+    language: "Java"
+    topics: []
+    stars_fact: 5
+    first_seen: null
+    last_push: "2026-10-05"
+  - name: "jjj-n"
+    title: "jjj-n"
+    description: "GitHub profile README"
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-21"
+  - name: "CivicMind"
+    title: "CivicMind"
+    description: null
+    language: "Java"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-07-27"
+  - name: "ygo-ai-agent"
+    title: "ygo-ai-agent"
+    description: null
+    language: "C"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-05-23"
 ---
 
 # jjj-n

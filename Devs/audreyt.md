@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-18T06:04:36.280265+00:00"
+generated_at: "2026-10-19T06:04:45.439728+00:00"
 provenance:
   - "3eacb4655aba2497"
-pushes_per_week: [23, 0, 9, 8, 8, 4, 1, 2, 9, 10, 14, 7, 0]
+pushes_per_week: [22, 0, 9, 9, 8, 3, 2, 4, 8, 9, 15, 5, 0]
 windows:
   "7d":
-    pushes: 4
-    distinct_repos: 1
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 36
+    pushes: 34
     distinct_repos: 14
-    active_days: 18
+    active_days: 17
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 95
+    pushes: 94
     distinct_repos: 24
-    active_days: 41
+    active_days: 40
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 2.3171
-  repo_per_active_day: 0.5854
+  push_per_day: 2.3500
+  repo_per_active_day: 0.6000
   not_owned_ratio: 0.1250
   basename_concentration: 0.0417
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 4
-    distinct_repos: 1
-    pushes_per_repo: 4.0000
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 36
+    pushes: 34
     distinct_repos: 14
-    pushes_per_repo: 2.5714
-    active_days: 18
+    pushes_per_repo: 2.4286
+    active_days: 17
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 95
+    pushes: 94
     distinct_repos: 24
-    pushes_per_repo: 3.9583
-    active_days: 41
+    pushes_per_repo: 3.9167
+    active_days: 40
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 41 active days in 90d — pass"
+  - "activity: 40 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "omo-mnemon"
@@ -129,6 +129,6 @@ repos:
 
 # audreyt
 
-95 pushes across 24 repositories on 41 active days in the last 90 days of public GitHub push activity.
+94 pushes across 24 repositories on 40 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/audreyt

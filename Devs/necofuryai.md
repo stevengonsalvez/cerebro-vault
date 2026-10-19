@@ -8,11 +8,11 @@ provenance_repos:
   - "anthropics/claude-code-action"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-18T06:04:36.280265+00:00"
+repos_populated: true
+generated_at: "2026-10-19T06:04:45.439728+00:00"
 provenance:
   - "0b22ca37fd3884c9"
-pushes_per_week: [12, 5, 1, 6, 2, 0, 1, 1, 0, 1, 2, 4, 0]
+pushes_per_week: [9, 5, 1, 6, 1, 1, 0, 1, 0, 1, 2, 4, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 35
+    pushes: 31
     distinct_repos: 5
-    active_days: 22
+    active_days: 21
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.5909
-  repo_per_active_day: 0.2273
+  push_per_day: 1.4762
+  repo_per_active_day: 0.2381
   not_owned_ratio: 0.0000
   basename_concentration: 0.2000
   shapes: []
@@ -65,22 +65,73 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 35
+    pushes: 31
     distinct_repos: 5
-    pushes_per_repo: 7.0000
-    active_days: 22
+    pushes_per_repo: 6.2000
+    active_days: 21
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 22 active days in 90d — pass"
+  - "activity: 21 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "necofuryai"
+    title: "necofuryai"
+    description: "necofuryai GitHub profile"
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-16"
+  - name: "dotfiles"
+    title: "dotfiles"
+    description: "Personal macOS configuration, managed with chezmoi"
+    language: "Shell"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-15"
+  - name: "necofuryai.dev"
+    title: "necofuryai.dev"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-14"
+  - name: "genko-zed"
+    title: "genko-zed"
+    description: "Lightweight writing tools for Japanese fiction and technical articles (Zed extension)"
+    language: "C"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-13"
+  - name: "agent-skills"
+    title: "agent-skills"
+    description: "Agent skills for Claude Code and Codex"
+    language: "Python"
+    topics:
+      - "agent-skills"
+      - "claude-code"
+      - "codex"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-02"
+  - name: "depatrol"
+    title: "depatrol"
+    description: "Read-only control plane for dependency update bots (Dependabot/Renovate)"
+    language: "Go"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-09"
 ---
 
 # necofuryai
 
-35 pushes across 5 repositories on 22 active days in the last 90 days of public GitHub push activity.
+31 pushes across 5 repositories on 21 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/necofuryai

@@ -8,11 +8,11 @@ provenance_repos:
   - "Panniantong/Agent-Reach"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-18T06:04:36.280265+00:00"
+repos_populated: true
+generated_at: "2026-10-19T06:04:45.439728+00:00"
 provenance:
   - "b6bb9341088f0954"
-pushes_per_week: [0, 2, 1, 3, 0, 1, 0, 0, 1, 2, 1, 0, 0]
+pushes_per_week: [2, 0, 1, 3, 0, 1, 0, 0, 1, 3, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 4
+    pushes: 3
     distinct_repos: 2
-    active_days: 3
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 4
+    pushes: 3
     distinct_repos: 2
-    pushes_per_repo: 2.0000
-    active_days: 3
+    pushes_per_repo: 1.5000
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -76,7 +76,72 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 9 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "Agent-Reach"
+    title: "Agent-Reach"
+    description: "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees."
+    language: "Python"
+    topics:
+      - "agent-infrastructure"
+      - "ai-agent"
+      - "ai-search"
+      - "automation"
+      - "bilibili"
+      - "claude-code"
+      - "cli"
+      - "cursor"
+      - "free-api"
+      - "llm-tools"
+      - "mcp"
+      - "python"
+      - "reddit-scraper"
+      - "twitter-scraper"
+      - "web-scraper"
+      - "xiaohongshu"
+      - "youtube-transcript"
+    stars_fact: 99198
+    first_seen: "2026-08-03T06:00:03.956190+00:00"
+    last_push: "2026-10-15"
+  - name: "Panniantong"
+    title: "Panniantong"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 21
+    first_seen: null
+    last_push: "2026-10-19"
+  - name: "agent-vault-backup"
+    title: "agent-vault-backup"
+    description: "🔐 Automated backup for OpenClaw agents. One sentence to set up, runs forever."
+    language: "Shell"
+    topics: []
+    stars_fact: 26
+    first_seen: null
+    last_push: "2026-03-10"
+  - name: "WechatBot"
+    title: "WechatBot"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2023-01-02"
+  - name: "neoob-images"
+    title: "neoob-images"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2025-07-27"
+  - name: "RD_everything"
+    title: "RD_everything"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2025-02-21"
 ---
 
 # Panniantong

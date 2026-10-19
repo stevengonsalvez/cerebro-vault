@@ -8,8 +8,8 @@ provenance_repos:
   - "apache/maka"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-18T06:04:36.280265+00:00"
+repos_populated: true
+generated_at: "2026-10-19T06:04:45.439728+00:00"
 provenance:
   - "4d1450729e6ff44d"
 pushes_per_week: [2, 1, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0, 0]
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 2
-    distinct_repos: 1
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 2
-    distinct_repos: 1
-    pushes_per_repo: 2.0000
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "translip"
+    title: "translip"
+    description: "Speaker-aware multilingual video dubbing pipeline."
+    language: "Python"
+    topics: []
+    stars_fact: 5
+    first_seen: null
+    last_push: "2026-07-29"
+  - name: "agent-session-bridge"
+    title: "agent-session-bridge"
+    description: null
+    language: "Rust"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-10-10"
+  - name: "envmatrix"
+    title: "envmatrix"
+    description: null
+    language: "Swift"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-18"
+  - name: "grok-imagine-skill"
+    title: "grok-imagine-skill"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-14"
+  - name: "dl-go"
+    title: "dl-go"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-01"
+  - name: "nativesubtitle"
+    title: "nativesubtitle"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-07-13"
 ---
 
 # MasamiYui

@@ -8,23 +8,23 @@ provenance_repos:
   - "embabel/embabel-agent"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-18T06:04:36.280265+00:00"
+repos_populated: true
+generated_at: "2026-10-19T06:04:45.439728+00:00"
 provenance:
   - "406a85b388590eb0"
-pushes_per_week: [3, 2, 2, 9, 1, 6, 0, 6, 5, 9, 29, 7, 0]
+pushes_per_week: [3, 2, 2, 9, 3, 4, 0, 7, 6, 7, 33, 3, 0]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
-    pushes: 48
+    pushes: 47
     distinct_repos: 8
-    active_days: 17
+    active_days: 16
     repos_not_owned: 8
     not_owned_basenames: 8
     not_owned_owners: 1
@@ -49,18 +49,18 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
-    pushes: 48
+    pushes: 47
     distinct_repos: 8
-    pushes_per_repo: 6.0000
-    active_days: 17
+    pushes_per_repo: 5.8750
+    active_days: 16
     repos_not_owned: 8
     not_owned_basenames: 8
     not_owned_owners: 1
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 33 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "devoxx-demo"
+    title: "devoxx-demo"
+    description: "Embabel Agent demo for Devoxx: agentic RAG, GOAP planning and sandboxed skills over the Sherlock Holmes corpus"
+    language: "Java"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-09"
+  - name: "instrumented-rag"
+    title: "instrumented-rag"
+    description: "RAG demo for Spring One with local and remote models"
+    language: "Kotlin"
+    topics: []
+    stars_fact: 26
+    first_seen: null
+    last_push: "2024-08-31"
+  - name: "xkgit-webapp"
+    title: "xkgit-webapp"
+    description: "xkgit: latest xkcd comic + embabel/embabel-agent open issues"
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-04-10"
+  - name: "xkcd-openapi-client"
+    title: "xkcd-openapi-client"
+    description: "OpenAPI 3.0.3 spec and Python client for the xkcd API"
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-04-10"
+  - name: "xkcd-api-client"
+    title: "xkcd-api-client"
+    description: "XKCD API client using Python stdlib"
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-04-10"
+  - name: "arxiv-search-quantum-error-correction"
+    title: "arxiv-search-quantum-error-correction"
+    description: "Search results for recent quantum error correction papers from arXiv via Semantic Scholar API"
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-04-10"
 ---
 
 # johnsonr

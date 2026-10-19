@@ -8,14 +8,14 @@ provenance_repos:
   - "akitaonrails/ai-memory"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-18T06:04:36.280265+00:00"
+repos_populated: true
+generated_at: "2026-10-19T06:04:45.439728+00:00"
 provenance:
   - "4138778ebbc75ba6"
-pushes_per_week: [0, 2, 0, 0, 0, 0, 0, 0, 2, 2, 6, 5, 4]
+pushes_per_week: [0, 2, 0, 0, 0, 0, 0, 0, 2, 4, 4, 6, 4]
 windows:
   "7d":
-    pushes: 9
+    pushes: 5
     distinct_repos: 5
     active_days: 3
     repos_not_owned: 0
@@ -23,24 +23,24 @@ windows:
     not_owned_owners: 0
   "30d":
     pushes: 19
-    distinct_repos: 8
+    distinct_repos: 9
     active_days: 10
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 21
-    distinct_repos: 9
-    active_days: 11
+    pushes: 22
+    distinct_repos: 10
+    active_days: 12
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.9091
-  repo_per_active_day: 0.8182
+  push_per_day: 1.8333
+  repo_per_active_day: 0.8333
   not_owned_ratio: 0.0000
-  basename_concentration: 0.1111
+  basename_concentration: 0.1000
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,38 +49,90 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 9
+    pushes: 5
     distinct_repos: 5
-    pushes_per_repo: 1.8000
+    pushes_per_repo: 1.0000
     active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
     pushes: 19
-    distinct_repos: 8
-    pushes_per_repo: 2.3750
+    distinct_repos: 9
+    pushes_per_repo: 2.1111
     active_days: 10
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 21
-    distinct_repos: 9
-    pushes_per_repo: 2.3333
-    active_days: 11
+    pushes: 22
+    distinct_repos: 10
+    pushes_per_repo: 2.2000
+    active_days: 12
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 11 active days in 90d — pass"
+  - "activity: 12 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "lan-remote-ios"
+    title: "lan-remote-ios"
+    description: "Local network remote control application for iOS"
+    language: "Swift"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-16"
+  - name: "lan-remote-android"
+    title: "lan-remote-android"
+    description: "Local network remote control application for Android"
+    language: "Kotlin"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-16"
+  - name: "viniciusdsandrade"
+    title: "viniciusdsandrade"
+    description: "Config files for my GitHub profile."
+    language: null
+    topics:
+      - "config"
+      - "dev"
+      - "front-end"
+      - "github-config"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-12"
+  - name: "localiza-database-clone-with-postgres"
+    title: "localiza-database-clone-with-postgres"
+    description: null
+    language: "PLpgSQL"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-20"
+  - name: "modebench"
+    title: "modebench"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-20"
+  - name: "foody-delivery-technical-test"
+    title: "foody-delivery-technical-test"
+    description: null
+    language: "Java"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-07-31"
 ---
 
 # viniciusdsandrade
 
-21 pushes across 9 repositories on 11 active days in the last 90 days of public GitHub push activity.
+22 pushes across 10 repositories on 12 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/viniciusdsandrade

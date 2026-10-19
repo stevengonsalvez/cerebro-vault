@@ -8,11 +8,11 @@ provenance_repos:
   - "apache/maka"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-18T06:04:36.280265+00:00"
+repos_populated: true
+generated_at: "2026-10-19T06:04:45.439728+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [3, 0, 4, 4, 4, 1, 0, 2, 7, 0, 2, 0, 1]
+pushes_per_week: [3, 0, 4, 4, 4, 1, 0, 2, 7, 1, 1, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -22,7 +22,7 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 8
+    pushes: 6
     distinct_repos: 2
     active_days: 4
     repos_not_owned: 0
@@ -57,9 +57,9 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 8
+    pushes: 6
     distinct_repos: 2
-    pushes_per_repo: 4.0000
+    pushes_per_repo: 3.0000
     active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 17 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "Joob1n"
+    title: "Joob1n"
+    description: "Yunpei Zhou personal profile"
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-13"
+  - name: "wloby-web"
+    title: "wloby-web"
+    description: null
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-09"
+  - name: "StarRocksDev"
+    title: "StarRocksDev"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-07-14"
+  - name: "6.824"
+    title: "6.824"
+    description: "MIT 6.824 code"
+    language: "Go"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2022-06-16"
+  - name: "mtor-om"
+    title: "mtor-om"
+    description: "Incremental migration from mysql to Redis"
+    language: "Go"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2022-08-18"
+  - name: "mtor"
+    title: "mtor"
+    description: "A script can cold migrate data from Mysql to redis"
+    language: "Go"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2022-02-14"
 ---
 
 # Joob1n

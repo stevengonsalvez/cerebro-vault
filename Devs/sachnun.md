@@ -8,23 +8,23 @@ provenance_repos:
   - "anomalyco/opencode"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-18T06:04:36.280265+00:00"
+repos_populated: true
+generated_at: "2026-10-19T06:04:45.439728+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [2, 7, 17, 4, 4, 8, 2, 5, 24, 17, 17, 11, 8]
+pushes_per_week: [3, 7, 17, 3, 6, 6, 3, 4, 25, 20, 19, 8, 5]
 windows:
   "7d":
-    pushes: 10
+    pushes: 7
     distinct_repos: 3
-    active_days: 4
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 62
+    pushes: 59
     distinct_repos: 6
-    active_days: 21
+    active_days: 20
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,18 +49,18 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 10
+    pushes: 7
     distinct_repos: 3
-    pushes_per_repo: 3.3333
-    active_days: 4
+    pushes_per_repo: 2.3333
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 62
+    pushes: 59
     distinct_repos: 6
-    pushes_per_repo: 10.3333
-    active_days: 21
+    pushes_per_repo: 9.8333
+    active_days: 20
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -76,7 +76,67 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 47 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "opendum"
+    title: "opendum"
+    description: "Your dummy, one proxy."
+    language: "TypeScript"
+    topics:
+      - "anthropic"
+      - "openai"
+      - "proxy"
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-10-19"
+  - name: "nimeplay"
+    title: "nimeplay"
+    description: "Minimal anime streaming."
+    language: "TypeScript"
+    topics:
+      - "cloudflare"
+      - "nuxt"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-18"
+  - name: "dotfiles"
+    title: "dotfiles"
+    description: "Personal dotfiles."
+    language: "TypeScript"
+    topics:
+      - "chezmoi"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-17"
+  - name: "pi-opendum"
+    title: "pi-opendum"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-16"
+  - name: "unroxy"
+    title: "unroxy"
+    description: "Universal rotating proxy."
+    language: "Rust"
+    topics:
+      - "proxy"
+      - "psiphon-core"
+      - "rust"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-15"
+  - name: "gdrive-s3"
+    title: "gdrive-s3"
+    description: "Google Drive S3 in Workers."
+    language: "TypeScript"
+    topics:
+      - "h3"
+      - "s3"
+      - "workers"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-03"
 ---
 
 # sachnun

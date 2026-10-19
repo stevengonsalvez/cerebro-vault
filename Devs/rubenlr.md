@@ -8,11 +8,11 @@ provenance_repos:
   - "akitaonrails/ai-memory"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-18T06:04:36.280265+00:00"
+repos_populated: true
+generated_at: "2026-10-19T06:04:45.439728+00:00"
 provenance:
   - "4138778ebbc75ba6"
-pushes_per_week: [0, 2, 0, 0, 2, 0, 0, 1, 4, 6, 0, 0, 0]
+pushes_per_week: [0, 2, 0, 0, 2, 0, 0, 1, 5, 5, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 10
+    pushes: 9
     distinct_repos: 1
-    active_days: 7
+    active_days: 6
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 10
+    pushes: 9
     distinct_repos: 1
-    pushes_per_repo: 10.0000
-    active_days: 7
+    pushes_per_repo: 9.0000
+    active_days: 6
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 10 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "workpot"
+    title: "workpot"
+    description: "Assist engineers that need to switch across multiple repositories every day"
+    language: "Rust"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-02"
+  - name: "homebrew-workpot"
+    title: "homebrew-workpot"
+    description: "homebrew tap for workpot"
+    language: "Ruby"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-01"
+  - name: "chezmoi-dotfiles"
+    title: "chezmoi-dotfiles"
+    description: null
+    language: "Shell"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-05-01"
+  - name: "finance-tracker-widget"
+    title: "finance-tracker-widget"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-01-09"
+  - name: "android"
+    title: "android"
+    description: "Tests on android"
+    language: "Kotlin"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2025-01-27"
+  - name: "face-encoding-test-task"
+    title: "face-encoding-test-task"
+    description: "Test project using face encoding from Verrif"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2024-11-03"
 ---
 
 # rubenlr

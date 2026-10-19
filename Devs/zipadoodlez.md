@@ -8,11 +8,11 @@ provenance_repos:
   - "1jehuang/jcode"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-18T06:04:36.280265+00:00"
+repos_populated: true
+generated_at: "2026-10-19T06:04:45.439728+00:00"
 provenance:
   - "2a7f0fddd2dac162"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 1, 3, 2, 1, 1]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 1, 4, 1, 2, 0]
 windows:
   "7d":
     pushes: 1
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 8 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "maki-session-index"
+    title: "maki-session-index"
+    description: "Search and read your other maki chat sessions"
+    language: "Lua"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-13"
+  - name: "safe-ish-yolo"
+    title: "safe-ish-yolo"
+    description: null
+    language: "Lua"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-10"
+  - name: "kcode"
+    title: "kcode"
+    description: "a lean fork of jcode"
+    language: "Rust"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-04"
+  - name: "kgrep"
+    title: "kgrep"
+    description: null
+    language: "Rust"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-04"
+  - name: "git-test"
+    title: "git-test"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2023-11-10"
+  - name: "README.md"
+    title: "README.md"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2023-11-10"
 ---
 
 # zipadoodlez

@@ -8,11 +8,11 @@ provenance_repos:
   - "juggler-ai/juggler"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-18T06:04:36.280265+00:00"
+repos_populated: true
+generated_at: "2026-10-19T06:04:45.439728+00:00"
 provenance:
   - "ffbd582f5e4111de"
-pushes_per_week: [14, 5, 1, 5, 2, 3, 0, 1, 2, 4, 8, 4, 3]
+pushes_per_week: [13, 6, 0, 5, 3, 2, 0, 2, 1, 6, 7, 4, 2]
 windows:
   "7d":
     pushes: 3
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 20
+    pushes: 19
     distinct_repos: 2
-    active_days: 13
+    active_days: 12
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 52
+    pushes: 51
     distinct_repos: 2
-    active_days: 32
+    active_days: 31
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.6250
-  repo_per_active_day: 0.0625
+  push_per_day: 1.6452
+  repo_per_active_day: 0.0645
   not_owned_ratio: 1.0000
   basename_concentration: 0.5000
   shapes: []
@@ -57,30 +57,38 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 20
+    pushes: 19
     distinct_repos: 2
-    pushes_per_repo: 10.0000
-    active_days: 13
+    pushes_per_repo: 9.5000
+    active_days: 12
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 52
+    pushes: 51
     distinct_repos: 2
-    pushes_per_repo: 26.0000
-    active_days: 32
+    pushes_per_repo: 25.5000
+    active_days: 31
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 32 active days in 90d — pass"
+  - "activity: 31 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "GLADriver"
+    title: "GLADriver"
+    description: "GLA device driver"
+    language: "C++"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-04-29"
 ---
 
 # julianstorer
 
-52 pushes across 2 repositories on 32 active days in the last 90 days of public GitHub push activity.
+51 pushes across 2 repositories on 31 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/julianstorer

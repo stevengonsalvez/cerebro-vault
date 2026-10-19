@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-18T06:04:36.280265+00:00"
+generated_at: "2026-10-19T06:04:45.439728+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [13, 13, 5, 3, 6, 5, 3, 0, 11, 8, 3, 4, 4]
+pushes_per_week: [14, 10, 7, 2, 7, 5, 1, 0, 11, 9, 3, 3, 4]
 windows:
   "7d":
-    pushes: 5
+    pushes: 4
     distinct_repos: 2
-    active_days: 2
+    active_days: 1
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 30
+    pushes: 24
     distinct_repos: 2
-    active_days: 12
+    active_days: 11
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 78
+    pushes: 76
     distinct_repos: 5
-    active_days: 34
+    active_days: 33
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 2.2941
-  repo_per_active_day: 0.1471
+  push_per_day: 2.3030
+  repo_per_active_day: 0.1515
   not_owned_ratio: 0.4000
   basename_concentration: 0.4000
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 5
+    pushes: 4
     distinct_repos: 2
-    pushes_per_repo: 2.5000
-    active_days: 2
+    pushes_per_repo: 2.0000
+    active_days: 1
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 30
+    pushes: 24
     distinct_repos: 2
-    pushes_per_repo: 15.0000
-    active_days: 12
+    pushes_per_repo: 12.0000
+    active_days: 11
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 78
+    pushes: 76
     distinct_repos: 5
-    pushes_per_repo: 15.6000
-    active_days: 34
+    pushes_per_repo: 15.2000
+    active_days: 33
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 34 active days in 90d — pass"
+  - "activity: 33 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "vite-plugin-opencode"
@@ -139,6 +139,6 @@ repos:
 
 # Brendonovich
 
-78 pushes across 5 repositories on 34 active days in the last 90 days of public GitHub push activity.
+76 pushes across 5 repositories on 33 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Brendonovich

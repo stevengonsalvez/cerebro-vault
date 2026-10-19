@@ -8,11 +8,11 @@ provenance_repos:
   - "alibaba/open-code-review"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-18T06:04:36.280265+00:00"
+repos_populated: true
+generated_at: "2026-10-19T06:04:45.439728+00:00"
 provenance:
   - "c489e6fb5febf2ab"
-pushes_per_week: [0, 0, 0, 1, 0, 0, 0, 16, 1, 6, 3, 0, 2]
+pushes_per_week: [0, 0, 1, 0, 0, 0, 1, 15, 2, 5, 3, 1, 1]
 windows:
   "7d":
     pushes: 2
@@ -76,7 +76,65 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 11 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "Hackintosh-Nvidia-RTX"
+    title: "Hackintosh-Nvidia-RTX"
+    description: "EFI for AMD Ryzen CPU + Nvidia RTX GPU to run MacOS"
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-19"
+  - name: "META-Verse"
+    title: "META-Verse"
+    description: "A modern Payload for newer Android devices !! (educational purposes only)"
+    language: "Smali"
+    topics:
+      - "androrat"
+      - "metavas"
+      - "payload"
+    stars_fact: 15
+    first_seen: null
+    last_push: "2026-05-20"
+  - name: "AppsPorter"
+    title: "AppsPorter"
+    description: "Tool for porting OEM specific apps on every devices"
+    language: "Smali"
+    topics:
+      - "oem"
+      - "oem-apps-port"
+      - "port"
+    stars_fact: 69
+    first_seen: null
+    last_push: "2026-09-03"
+  - name: "Hydra-ESP"
+    title: "Hydra-ESP"
+    description: "HydraESP - A Wi-Fi and BT testing firmware for ESP32"
+    language: "C"
+    topics:
+      - "deauther"
+      - "esp32"
+      - "esp32-deauther"
+      - "hydra-esp"
+    stars_fact: 230
+    first_seen: null
+    last_push: "2026-10-16"
+  - name: "InsaneGitStatsGen"
+    title: "InsaneGitStatsGen"
+    description: "Great looking github stats which will make huge impact on your git readme."
+    language: null
+    topics: []
+    stars_fact: 18
+    first_seen: null
+    last_push: "2026-09-07"
+  - name: "StudentPCPayloads"
+    title: "StudentPCPayloads"
+    description: "Safe payloads for Windows10 and 11 for school, college and University Lab PCs with student account"
+    language: "Batchfile"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-17"
 ---
 
 # SameerAlSahab

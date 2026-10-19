@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-18T06:04:36.280265+00:00"
+generated_at: "2026-10-19T06:04:45.439728+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [2, 0, 1, 1, 1, 3, 1, 8, 5, 6, 6, 2, 5]
+pushes_per_week: [1, 0, 1, 1, 2, 2, 4, 5, 6, 6, 6, 2, 4]
 windows:
   "7d":
     pushes: 5
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 20
+    pushes: 19
     distinct_repos: 3
-    active_days: 14
+    active_days: 13
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 41
+    pushes: 40
     distinct_repos: 6
-    active_days: 29
+    active_days: 28
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.4138
-  repo_per_active_day: 0.2069
+  push_per_day: 1.4286
+  repo_per_active_day: 0.2143
   not_owned_ratio: 0.0000
   basename_concentration: 0.1667
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 20
+    pushes: 19
     distinct_repos: 3
-    pushes_per_repo: 6.6667
-    active_days: 14
+    pushes_per_repo: 6.3333
+    active_days: 13
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 41
+    pushes: 40
     distinct_repos: 6
-    pushes_per_repo: 6.8333
-    active_days: 29
+    pushes_per_repo: 6.6667
+    active_days: 28
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 29 active days in 90d — pass"
+  - "activity: 28 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "CAICAIIs"
@@ -129,6 +129,6 @@ repos:
 
 # CAICAIIs
 
-41 pushes across 6 repositories on 29 active days in the last 90 days of public GitHub push activity.
+40 pushes across 6 repositories on 28 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/CAICAIIs

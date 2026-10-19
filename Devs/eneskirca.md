@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-18T06:04:36.280265+00:00"
+generated_at: "2026-10-19T06:04:45.439728+00:00"
 provenance:
   - "c7d59e96ede9112e"
-pushes_per_week: [22, 5, 2, 25, 7, 3, 0, 0, 3, 14, 22, 2, 5]
+pushes_per_week: [19, 4, 3, 24, 7, 3, 0, 0, 3, 17, 20, 6, 0]
 windows:
   "7d":
     pushes: 5
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 46
+    pushes: 45
     distinct_repos: 4
-    active_days: 15
+    active_days: 14
     repos_not_owned: 3
     not_owned_basenames: 2
     not_owned_owners: 3
   "90d":
-    pushes: 110
+    pushes: 106
     distinct_repos: 6
-    active_days: 38
+    active_days: 37
     repos_not_owned: 5
     not_owned_basenames: 2
     not_owned_owners: 5
 automation:
   state: "clear"
-  push_per_day: 2.8947
-  repo_per_active_day: 0.1579
+  push_per_day: 2.8649
+  repo_per_active_day: 0.1622
   not_owned_ratio: 0.8333
   basename_concentration: 0.8333
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 46
+    pushes: 45
     distinct_repos: 4
-    pushes_per_repo: 11.5000
-    active_days: 15
+    pushes_per_repo: 11.2500
+    active_days: 14
     repos_not_owned: 3
     not_owned_basenames: 2
     not_owned_owners: 3
   "90d":
-    pushes: 110
+    pushes: 106
     distinct_repos: 6
-    pushes_per_repo: 18.3333
-    active_days: 38
+    pushes_per_repo: 17.6667
+    active_days: 37
     repos_not_owned: 5
     not_owned_basenames: 2
     not_owned_owners: 5
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 38 active days in 90d — pass"
+  - "activity: 37 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "nodeterm"
@@ -151,6 +151,6 @@ repos:
 
 # eneskirca
 
-110 pushes across 6 repositories on 38 active days in the last 90 days of public GitHub push activity.
+106 pushes across 6 repositories on 37 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/eneskirca

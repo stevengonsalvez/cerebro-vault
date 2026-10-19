@@ -8,14 +8,14 @@ provenance_repos:
   - "chopratejas/headroom"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-18T06:04:36.280265+00:00"
+repos_populated: true
+generated_at: "2026-10-19T06:04:45.439728+00:00"
 provenance:
   - "73468cde177ddae6"
-pushes_per_week: [11, 3, 5, 4, 4, 0, 3, 2, 0, 10, 20, 4, 9]
+pushes_per_week: [11, 7, 1, 5, 3, 1, 3, 1, 0, 13, 20, 4, 6]
 windows:
   "7d":
-    pushes: 9
+    pushes: 7
     distinct_repos: 3
     active_days: 3
     repos_not_owned: 0
@@ -49,9 +49,9 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 9
+    pushes: 7
     distinct_repos: 3
-    pushes_per_repo: 3.0000
+    pushes_per_repo: 2.3333
     active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -76,7 +76,81 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 34 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "personal-website"
+    title: "personal-website"
+    description: "My personal website"
+    language: "HTML"
+    topics:
+      - "curriculum"
+      - "personal-website"
+      - "website"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-19"
+  - name: "dotfiles"
+    title: "dotfiles"
+    description: "My dotFiles"
+    language: "CSS"
+    topics:
+      - "dotfiles"
+      - "personal"
+    stars_fact: 12
+    first_seen: null
+    last_push: "2026-10-19"
+  - name: "dontquotetheai"
+    title: "dontquotetheai"
+    description: "Don't paste the ai response at me, please"
+    language: "HTML"
+    topics:
+      - "ai"
+      - "fun"
+      - "satire-sites"
+      - "slop"
+    stars_fact: 164
+    first_seen: null
+    last_push: "2026-09-27"
+  - name: "proton-drive-linux-fs"
+    title: "proton-drive-linux-fs"
+    description: "FUSE virtual filesystem for Proton Drive on Linux. Mount your drive as a local folder with on-demand file download."
+    language: "Go"
+    topics:
+      - "filesystem"
+      - "fuse"
+      - "golang"
+      - "linux"
+      - "privacy"
+      - "proton"
+      - "proton-drive"
+      - "virtual-filesystem"
+    stars_fact: 16
+    first_seen: null
+    last_push: "2026-10-11"
+  - name: "blog"
+    title: "blog"
+    description: "My personal blog, revamped"
+    language: "TypeScript"
+    topics:
+      - "astro"
+      - "blog"
+      - "github-pages"
+      - "mdx"
+      - "obsidian"
+      - "static-site"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-17"
+  - name: "scriba"
+    title: "scriba"
+    description: "Handles my journaling in obsidian"
+    language: "TypeScript"
+    topics:
+      - "journal"
+      - "markdown"
+      - "obsidian"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-15"
 ---
 
 # khaosdoctor

@@ -8,23 +8,23 @@ provenance_repos:
   - "Alishahryar1/free-claude-code"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-18T06:04:36.280265+00:00"
+repos_populated: true
+generated_at: "2026-10-19T06:04:45.439728+00:00"
 provenance:
   - "9d67ce648f6a8919"
-pushes_per_week: [1, 1, 7, 2, 1, 1, 0, 3, 4, 7, 10, 7, 4]
+pushes_per_week: [1, 2, 6, 2, 2, 0, 1, 2, 6, 5, 10, 7, 4]
 windows:
   "7d":
-    pushes: 7
-    distinct_repos: 4
-    active_days: 3
+    pushes: 4
+    distinct_repos: 3
+    active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 30
+    pushes: 29
     distinct_repos: 9
-    active_days: 16
+    active_days: 15
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -49,18 +49,18 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 7
-    distinct_repos: 4
-    pushes_per_repo: 1.7500
-    active_days: 3
+    pushes: 4
+    distinct_repos: 3
+    pushes_per_repo: 1.3333
+    active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 30
+    pushes: 29
     distinct_repos: 9
-    pushes_per_repo: 3.3333
-    active_days: 16
+    pushes_per_repo: 3.2222
+    active_days: 15
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 31 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "Hackathon-Radar"
+    title: "Hackathon-Radar"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-19"
+  - name: "SEPURI-SAI-KRISHNA"
+    title: "SEPURI-SAI-KRISHNA"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-19"
+  - name: "twolang-lab"
+    title: "twolang-lab"
+    description: null
+    language: "Jupyter Notebook"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-18"
+  - name: "streamcase"
+    title: "streamcase"
+    description: "Deterministic testing for Apache Spark Structured Streaming pipelines"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-17"
+  - name: "importtime-check"
+    title: "importtime-check"
+    description: "A CI gate for detecting Python import-time regressions."
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-19"
+  - name: "til-everything"
+    title: "til-everything"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-30"
 ---
 
 # SEPURI-SAI-KRISHNA

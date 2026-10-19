@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-18T06:04:36.280265+00:00"
+generated_at: "2026-10-19T06:04:45.439728+00:00"
 provenance:
   - "51d6155061d60774"
-pushes_per_week: [25, 13, 25, 20, 15, 2, 3, 13, 32, 82, 66, 79, 28]
+pushes_per_week: [24, 10, 24, 23, 13, 3, 4, 10, 37, 106, 56, 80, 12]
 windows:
   "7d":
-    pushes: 56
+    pushes: 26
     distinct_repos: 1
-    active_days: 4
+    active_days: 5
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 281
+    pushes: 283
     distinct_repos: 3
-    active_days: 25
+    active_days: 26
     repos_not_owned: 3
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 403
+    pushes: 402
     distinct_repos: 3
-    active_days: 67
+    active_days: 68
     repos_not_owned: 3
     not_owned_basenames: 2
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 6.0149
-  repo_per_active_day: 0.0448
+  push_per_day: 5.9118
+  repo_per_active_day: 0.0441
   not_owned_ratio: 1.0000
   basename_concentration: 0.6667
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 56
+    pushes: 26
     distinct_repos: 1
-    pushes_per_repo: 56.0000
-    active_days: 4
+    pushes_per_repo: 26.0000
+    active_days: 5
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 281
+    pushes: 283
     distinct_repos: 3
-    pushes_per_repo: 93.6667
-    active_days: 25
+    pushes_per_repo: 94.3333
+    active_days: 26
     repos_not_owned: 3
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 403
+    pushes: 402
     distinct_repos: 3
-    pushes_per_repo: 134.3333
-    active_days: 67
+    pushes_per_repo: 134.0000
+    active_days: 68
     repos_not_owned: 3
     not_owned_basenames: 2
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 67 active days in 90d — pass"
+  - "activity: 68 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "power-yuque"
@@ -136,6 +136,6 @@ repos:
 
 # arvinxx
 
-403 pushes across 3 repositories on 67 active days in the last 90 days of public GitHub push activity.
+402 pushes across 3 repositories on 68 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/arvinxx

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-18T06:04:36.280265+00:00"
+generated_at: "2026-10-19T06:04:45.439728+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [23, 9, 8, 9, 6, 1, 3, 3, 8, 7, 10, 3, 0]
+pushes_per_week: [22, 7, 11, 6, 6, 2, 3, 3, 7, 7, 12, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 23
+    pushes: 22
     distinct_repos: 5
-    active_days: 12
+    active_days: 11
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 90
+    pushes: 87
     distinct_repos: 10
-    active_days: 41
+    active_days: 40
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.1951
-  repo_per_active_day: 0.2439
+  push_per_day: 2.1750
+  repo_per_active_day: 0.2500
   not_owned_ratio: 0.0000
   basename_concentration: 0.1000
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 23
+    pushes: 22
     distinct_repos: 5
-    pushes_per_repo: 4.6000
-    active_days: 12
+    pushes_per_repo: 4.4000
+    active_days: 11
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 90
+    pushes: 87
     distinct_repos: 10
-    pushes_per_repo: 9.0000
-    active_days: 41
+    pushes_per_repo: 8.7000
+    active_days: 40
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 41 active days in 90d — pass"
+  - "activity: 40 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "k3s-cluster-apps"
@@ -149,6 +149,6 @@ repos:
 
 # dkarter
 
-90 pushes across 10 repositories on 41 active days in the last 90 days of public GitHub push activity.
+87 pushes across 10 repositories on 40 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/dkarter

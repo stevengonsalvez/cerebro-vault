@@ -8,11 +8,11 @@ provenance_repos:
   - "vectorize-io/hindsight"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-18T06:04:36.280265+00:00"
+repos_populated: true
+generated_at: "2026-10-19T06:04:45.439728+00:00"
 provenance:
   - "ef1d62b18b98cdd0"
-pushes_per_week: [78, 26, 25, 37, 10, 5, 5, 20, 15, 36, 21, 30, 16]
+pushes_per_week: [67, 23, 26, 33, 12, 7, 15, 7, 18, 32, 32, 32, 2]
 windows:
   "7d":
     pushes: 16
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 112
+    pushes: 106
     distinct_repos: 13
-    active_days: 21
+    active_days: 20
     repos_not_owned: 10
     not_owned_basenames: 3
     not_owned_owners: 8
   "90d":
-    pushes: 324
+    pushes: 306
     distinct_repos: 24
-    active_days: 61
+    active_days: 60
     repos_not_owned: 17
     not_owned_basenames: 5
     not_owned_owners: 13
 automation:
   state: "clear"
-  push_per_day: 5.3115
-  repo_per_active_day: 0.3934
+  push_per_day: 5.1000
+  repo_per_active_day: 0.4000
   not_owned_ratio: 0.7083
   basename_concentration: 0.5417
   shapes: []
@@ -57,30 +57,78 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 112
+    pushes: 106
     distinct_repos: 13
-    pushes_per_repo: 8.6154
-    active_days: 21
+    pushes_per_repo: 8.1538
+    active_days: 20
     repos_not_owned: 10
     not_owned_basenames: 3
     not_owned_owners: 8
   "90d":
-    pushes: 324
+    pushes: 306
     distinct_repos: 24
-    pushes_per_repo: 13.5000
-    active_days: 61
+    pushes_per_repo: 12.7500
+    active_days: 60
     repos_not_owned: 17
     not_owned_basenames: 5
     not_owned_owners: 13
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 61 active days in 90d — pass"
+  - "activity: 60 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "aiagentmemory-site"
+    title: "aiagentmemory-site"
+    description: "Built static site for aiagentmemory.org (deployed from the private aiagentmemory repo)"
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-19"
+  - name: "sheepit"
+    title: "sheepit"
+    description: "Your machine, anywhere. A full-featured terminal in your browser."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 18
+    first_seen: null
+    last_push: "2026-10-18"
+  - name: "giotto"
+    title: "giotto"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 20
+    first_seen: null
+    last_push: "2026-10-13"
+  - name: "gh-stars"
+    title: "gh-stars"
+    description: "alternative to https://github.com/star-history/star-history"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 10
+    first_seen: null
+    last_push: "2026-08-04"
+  - name: "hindsight-desktop"
+    title: "hindsight-desktop"
+    description: null
+    language: "Rust"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-06-16"
+  - name: "blog"
+    title: "blog"
+    description: "Blog"
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-13"
 ---
 
 # nicoloboschi
 
-324 pushes across 24 repositories on 61 active days in the last 90 days of public GitHub push activity.
+306 pushes across 24 repositories on 60 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/nicoloboschi

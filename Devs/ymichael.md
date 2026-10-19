@@ -8,11 +8,11 @@ provenance_repos:
   - "ymichael/bb"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-18T06:04:36.280265+00:00"
+repos_populated: true
+generated_at: "2026-10-19T06:04:45.439728+00:00"
 provenance:
   - "419a4253687fd7a1"
-pushes_per_week: [0, 0, 19, 48, 12, 1, 2, 12, 14, 22, 46, 24, 0]
+pushes_per_week: [0, 3, 20, 47, 9, 1, 4, 12, 12, 26, 60, 6, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 98
+    pushes: 93
     distinct_repos: 2
-    active_days: 17
+    active_days: 16
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
@@ -73,10 +73,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 98
+    pushes: 93
     distinct_repos: 2
-    pushes_per_repo: 49.0000
-    active_days: 17
+    pushes_per_repo: 46.5000
+    active_days: 16
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
@@ -92,7 +92,58 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 43 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "bb-plugins"
+    title: "bb-plugins"
+    description: "BB plugins by Michael Yong"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 5
+    first_seen: null
+    last_push: "2026-09-25"
+  - name: "cprofilev"
+    title: "cprofilev"
+    description: ":fire: An easier way to use cProfile"
+    language: "Python"
+    topics: []
+    stars_fact: 424
+    first_seen: null
+    last_push: "2016-02-01"
+  - name: "WidgetSpinner"
+    title: "WidgetSpinner"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2022-07-29"
+  - name: "dotfiles"
+    title: "dotfiles"
+    description: null
+    language: "Shell"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-20"
+  - name: "everdell"
+    title: "everdell"
+    description: "🐿️ Play Everdell Online!"
+    language: "TypeScript"
+    topics:
+      - "board-game"
+      - "everdell"
+      - "game"
+    stars_fact: 45
+    first_seen: null
+    last_push: "2025-03-18"
+  - name: "mill-timezone-app"
+    title: "mill-timezone-app"
+    description: null
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-02-05"
 ---
 
 # ymichael

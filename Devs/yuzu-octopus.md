@@ -8,16 +8,16 @@ provenance_repos:
   - "can1357/oh-my-pi"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-18T06:04:36.280265+00:00"
+repos_populated: true
+generated_at: "2026-10-19T06:04:45.439728+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [0, 0, 4, 0, 1, 0, 0, 7, 1, 2, 8, 8, 14]
+pushes_per_week: [0, 0, 4, 0, 1, 0, 3, 5, 0, 5, 6, 12, 9]
 windows:
   "7d":
-    pushes: 15
+    pushes: 12
     distinct_repos: 2
-    active_days: 4
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 15
+    pushes: 12
     distinct_repos: 2
-    pushes_per_repo: 7.5000
-    active_days: 4
+    pushes_per_repo: 6.0000
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -76,7 +76,64 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 19 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "RsaWebTool"
+    title: "RsaWebTool"
+    description: "RSA CTF Cryptanalysis Tool - 47 attacks with SageMath execution and KaTeX proofs"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-09-12"
+  - name: "mcp-pool"
+    title: "mcp-pool"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-10-10"
+  - name: "glimpse"
+    title: "glimpse"
+    description: "A self-hosted, glance-inspired dashboard. YAML-configured widgets, all external data fetched server-side — API keys never reach the browser."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-08"
+  - name: "astryx-dracula"
+    title: "astryx-dracula"
+    description: "Pure Dracula brand kit for Astryx sites. Full token system, syntax highlighting, chart colors. Prebuilt CSS, zero runtime cost."
+    language: "TypeScript"
+    topics:
+      - "astryx"
+      - "astryx-design"
+      - "dracula"
+      - "dracula-color-scheme"
+      - "dracula-theme"
+      - "stylex"
+      - "stylex-react"
+      - "stylex-vite"
+      - "stylexjs"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-08"
+  - name: "dotfiles"
+    title: "dotfiles"
+    description: "My dotfiles and config files"
+    language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-07"
+  - name: "omp-stats-tui"
+    title: "omp-stats-tui"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-10-07"
 ---
 
 # yuzu-octopus

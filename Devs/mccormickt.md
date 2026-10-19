@@ -8,16 +8,16 @@ provenance_repos:
   - "agent-substrate/substrate"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-18T06:04:36.280265+00:00"
+repos_populated: true
+generated_at: "2026-10-19T06:04:45.439728+00:00"
 provenance:
   - "a5ffcd0a46dd44fd"
-pushes_per_week: [13, 2, 2, 0, 1, 4, 0, 0, 0, 0, 2, 1, 2]
+pushes_per_week: [13, 2, 2, 0, 1, 4, 0, 0, 0, 2, 0, 2, 1]
 windows:
   "7d":
-    pushes: 2
+    pushes: 1
     distinct_repos: 1
-    active_days: 2
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
+    pushes: 1
     distinct_repos: 1
-    pushes_per_repo: 2.0000
-    active_days: 2
+    pushes_per_repo: 1.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 13 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "rig-ext"
+    title: "rig-ext"
+    description: "Extensions and integrations for the Rig agent framework."
+    language: "Rust"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-16"
+  - name: "cloudflared-gateway"
+    title: "cloudflared-gateway"
+    description: "Kubernetes Gateway API controller for Cloudflare Tunnels"
+    language: "Go"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-11"
+  - name: "mccormickt.github.io"
+    title: "mccormickt.github.io"
+    description: "Personal blog"
+    language: "HTML"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-10"
+  - name: "tabletop-atlas"
+    title: "tabletop-atlas"
+    description: "Intelligent Tools for Board Game Enthusiasts"
+    language: "Rust"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-10-13"
+  - name: "freemaild"
+    title: "freemaild"
+    description: "SMTP relay for sending emails via Gmail API"
+    language: "Go"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-09"
+  - name: "swamp-extensions"
+    title: "swamp-extensions"
+    description: "Swamp extensions monorepo"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-09"
 ---
 
 # mccormickt

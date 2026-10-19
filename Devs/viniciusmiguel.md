@@ -8,37 +8,37 @@ provenance_repos:
   - "akitaonrails/ai-memory"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-18T06:04:36.280265+00:00"
+repos_populated: true
+generated_at: "2026-10-19T06:04:45.439728+00:00"
 provenance:
   - "4138778ebbc75ba6"
-pushes_per_week: [0, 1, 6, 0, 2, 2, 0, 0, 0, 1, 0, 35, 7]
+pushes_per_week: [0, 1, 6, 0, 3, 1, 0, 0, 0, 1, 0, 40, 3]
 windows:
   "7d":
-    pushes: 28
-    distinct_repos: 4
-    active_days: 3
-    repos_not_owned: 4
-    not_owned_basenames: 4
+    pushes: 3
+    distinct_repos: 1
+    active_days: 2
+    repos_not_owned: 1
+    not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 43
+    pushes: 44
     distinct_repos: 4
-    active_days: 5
+    active_days: 6
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 1
   "90d":
-    pushes: 54
+    pushes: 55
     distinct_repos: 10
-    active_days: 13
+    active_days: 14
     repos_not_owned: 10
     not_owned_basenames: 9
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 4.1538
-  repo_per_active_day: 0.7692
+  push_per_day: 3.9286
+  repo_per_active_day: 0.7143
   not_owned_ratio: 1.0000
   basename_concentration: 0.2000
   shapes: []
@@ -49,38 +49,86 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 28
-    distinct_repos: 4
-    pushes_per_repo: 7.0000
-    active_days: 3
-    repos_not_owned: 4
-    not_owned_basenames: 4
+    pushes: 3
+    distinct_repos: 1
+    pushes_per_repo: 3.0000
+    active_days: 2
+    repos_not_owned: 1
+    not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 43
+    pushes: 44
     distinct_repos: 4
-    pushes_per_repo: 10.7500
-    active_days: 5
+    pushes_per_repo: 11.0000
+    active_days: 6
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 1
   "90d":
-    pushes: 54
+    pushes: 55
     distinct_repos: 10
-    pushes_per_repo: 5.4000
-    active_days: 13
+    pushes_per_repo: 5.5000
+    active_days: 14
     repos_not_owned: 10
     not_owned_basenames: 9
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 13 active days in 90d — pass"
+  - "activity: 14 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "OpenVTOLPlane"
+    title: "OpenVTOLPlane"
+    description: "Open Hardware and Source VTOL airplane"
+    language: null
+    topics: []
+    stars_fact: 4
+    first_seen: null
+    last_push: "2017-08-06"
+  - name: "HappyPumi"
+    title: "HappyPumi"
+    description: "An Open Source version of Pulumi Cloud"
+    language: "C#"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-07-02"
+  - name: "Photogrammetry-iphone"
+    title: "Photogrammetry-iphone"
+    description: null
+    language: "Swift"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-05-31"
+  - name: "stm32f469-lvgl"
+    title: "stm32f469-lvgl"
+    description: null
+    language: "C++"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2021-04-01"
+  - name: "Simplify"
+    title: "Simplify"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2025-12-07"
+  - name: "GraphicsLessons"
+    title: "GraphicsLessons"
+    description: null
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2025-12-04"
 ---
 
 # viniciusmiguel
 
-54 pushes across 10 repositories on 13 active days in the last 90 days of public GitHub push activity.
+55 pushes across 10 repositories on 14 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/viniciusmiguel

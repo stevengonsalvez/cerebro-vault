@@ -8,11 +8,11 @@ provenance_repos:
   - "alibaba/open-code-review"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-18T06:04:36.280265+00:00"
+repos_populated: true
+generated_at: "2026-10-19T06:04:45.439728+00:00"
 provenance:
   - "c489e6fb5febf2ab"
-pushes_per_week: [3, 3, 2, 1, 0, 2, 0, 3, 3, 0, 2, 0, 0]
+pushes_per_week: [3, 1, 2, 1, 1, 1, 0, 3, 3, 1, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 19
-    distinct_repos: 14
-    active_days: 14
+    pushes: 17
+    distinct_repos: 13
+    active_days: 13
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.3571
+  push_per_day: 1.3077
   repo_per_active_day: 1.0000
   not_owned_ratio: 0.0000
-  basename_concentration: 0.0714
+  basename_concentration: 0.0769
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,22 +65,70 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 19
-    distinct_repos: 14
-    pushes_per_repo: 1.3571
-    active_days: 14
+    pushes: 17
+    distinct_repos: 13
+    pushes_per_repo: 1.3077
+    active_days: 13
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 14 active days in 90d — pass"
+  - "activity: 13 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "mern-miniproject"
+    title: "mern-miniproject"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-12"
+  - name: "AIRLOCK"
+    title: "AIRLOCK"
+    description: "AIRLOCK is a release-authority layer for autonomous agents. It binds authority to one exact release, proves the release evidence cross-chain, issues bounded capabilities, and enforces every action through a typed router and vault."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-13"
+  - name: "strait-outta-hormuz"
+    title: "strait-outta-hormuz"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-18"
+  - name: "DeploySeal"
+    title: "DeploySeal"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-16"
+  - name: "Overlook"
+    title: "Overlook"
+    description: "A real-time collaborative code editor with terminal aesthetics, AI assistance, and security testing capabilities. Built with React, Node.js, and Socket.IO for secure, hacker-themed collaborative development."
+    language: "JavaScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2025-10-05"
+  - name: "LEASH"
+    title: "LEASH"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-09"
 ---
 
 # Shaurya2k06
 
-19 pushes across 14 repositories on 14 active days in the last 90 days of public GitHub push activity.
+17 pushes across 13 repositories on 13 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Shaurya2k06

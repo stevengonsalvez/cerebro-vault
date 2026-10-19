@@ -8,11 +8,11 @@ provenance_repos:
   - "AlexsJones/llmfit"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-18T06:04:36.280265+00:00"
+repos_populated: true
+generated_at: "2026-10-19T06:04:45.439728+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [0, 4, 6, 10, 5, 1, 0, 1, 0, 1, 0, 0, 3]
+pushes_per_week: [0, 4, 6, 11, 5, 0, 0, 1, 0, 1, 0, 0, 3]
 windows:
   "7d":
     pushes: 3

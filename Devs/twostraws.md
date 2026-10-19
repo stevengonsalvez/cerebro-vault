@@ -8,11 +8,11 @@ provenance_repos:
   - "twostraws/SwiftUI-Agent-Skill"
 admitted: true
 low_n: true
-repos_populated: false
-generated_at: "2026-10-18T06:04:36.280265+00:00"
+repos_populated: true
+generated_at: "2026-10-19T06:04:45.439728+00:00"
 provenance:
   - "1ee39ec6496bfca4"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0]
 windows:
   "7d":
     pushes: 1
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 1 active days in 90d — below the 5-day line, LABELLED low-n (never suppressed)"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "SwiftUI-Agent-Skill"
+    title: "SwiftUI-Agent-Skill"
+    description: "SwiftUI agent skill for Claude Code, Codex, and other AI tools."
+    language: null
+    topics: []
+    stars_fact: 6139
+    first_seen: "2026-10-10T06:01:25.363111+00:00"
+    last_push: "2026-10-07"
+  - name: "HackingWithSwift"
+    title: "HackingWithSwift"
+    description: "The project source code for Hacking with iOS."
+    language: "Swift"
+    topics: []
+    stars_fact: 6393
+    first_seen: null
+    last_push: "2025-06-22"
+  - name: "Swift-Testing-Agent-Skill"
+    title: "Swift-Testing-Agent-Skill"
+    description: "Swift Testing agent skill for Claude Code, Codex, and other AI tools."
+    language: null
+    topics: []
+    stars_fact: 463
+    first_seen: null
+    last_push: "2026-05-17"
+  - name: "Ignite"
+    title: "Ignite"
+    description: "A static site generator for Swift developers."
+    language: "Swift"
+    topics: []
+    stars_fact: 2274
+    first_seen: null
+    last_push: "2026-10-15"
+  - name: "Swift-Agent-Skills"
+    title: "Swift-Agent-Skills"
+    description: "A curated directory of open-source AI agent skills for Swift and Apple platform development."
+    language: null
+    topics: []
+    stars_fact: 2877
+    first_seen: null
+    last_push: "2026-09-04"
+  - name: "KickstartSDK"
+    title: "KickstartSDK"
+    description: "Tools to help indie developer succeed on the App Store."
+    language: "Swift"
+    topics: []
+    stars_fact: 37
+    first_seen: null
+    last_push: "2026-10-15"
 ---
 
 # twostraws

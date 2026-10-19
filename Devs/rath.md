@@ -8,16 +8,16 @@ provenance_repos:
   - "can1357/oh-my-pi"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-18T06:04:36.280265+00:00"
+repos_populated: true
+generated_at: "2026-10-19T06:04:45.439728+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 14, 11, 2]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 17, 8, 2]
 windows:
   "7d":
-    pushes: 6
-    distinct_repos: 3
-    active_days: 3
+    pushes: 2
+    distinct_repos: 2
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 6
-    distinct_repos: 3
-    pushes_per_repo: 2.0000
-    active_days: 3
+    pushes: 2
+    distinct_repos: 2
+    pushes_per_repo: 1.0000
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -76,7 +76,80 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 11 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "macos-tmux-ime"
+    title: "macos-tmux-ime"
+    description: "macOS에서 한글 입력 중에도 tmux 단축키를 편하게. 별도 상주 앱 없이 prefix를 누르면 영문 입력기로 자동 전환합니다."
+    language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-14"
+  - name: "portway"
+    title: "portway"
+    description: "Delta-compressing HTTP proxy for LLM agents: each turn ships only the bytes added since the last request."
+    language: "Rust"
+    topics:
+      - "ai-agent"
+      - "cli"
+      - "coding-agents"
+      - "compression"
+      - "delta-compression"
+      - "http-proxy"
+      - "llm"
+      - "proxy"
+      - "rust"
+      - "zstd"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-14"
+  - name: "candy"
+    title: "candy"
+    description: "A native macOS image utility with a fast Rust CLI and a lightweight visual editor."
+    language: "Rust"
+    topics:
+      - "appkit"
+      - "cli"
+      - "image-editor"
+      - "image-processing"
+      - "macos"
+      - "ocr"
+      - "rust"
+      - "swift"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-14"
+  - name: "homebrew-tap"
+    title: "homebrew-tap"
+    description: "Homebrew formulae by Jang-Ho Hwang"
+    language: "Ruby"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-14"
+  - name: "Vimdow"
+    title: "Vimdow"
+    description: "Keyboard-driven window manager for macOS with Vim-style hjkl commands, counts, and undo."
+    language: "Swift"
+    topics:
+      - "hjkl"
+      - "keyboard-driven"
+      - "macos"
+      - "swift"
+      - "vim"
+      - "window-management"
+      - "window-manager"
+    stars_fact: 25
+    first_seen: null
+    last_push: "2026-10-14"
+  - name: "orrery"
+    title: "orrery"
+    description: "서버 없이 브라우저에서 동작하는 사주팔자·자미두수·출생차트 계산기. 십신, 대운, 명반, 사화까지 한 번에."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 157
+    first_seen: null
+    last_push: "2026-09-20"
 ---
 
 # rath

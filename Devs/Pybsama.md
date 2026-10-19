@@ -8,8 +8,8 @@ provenance_repos:
   - "carloslfu/slotstream"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-18T06:04:36.280265+00:00"
+repos_populated: true
+generated_at: "2026-10-19T06:04:45.439728+00:00"
 provenance:
   - "fb0827c68cc0b5d0"
 pushes_per_week: [11, 1, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0]
@@ -76,7 +76,69 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "CodexQuotaMonitor"
+    title: "CodexQuotaMonitor"
+    description: "Privacy-conscious SwiftUI/AppKit quota monitor for Codex on macOS, with a floating edge panel, two-account snapshots, and optional alerts. Source only."
+    language: "Swift"
+    topics:
+      - "appkit"
+      - "apple-silicon"
+      - "codex"
+      - "developer-tools"
+      - "floating-panel"
+      - "macos"
+      - "open-source"
+      - "openai-codex"
+      - "privacy"
+      - "quota-monitor"
+      - "rate-limits"
+      - "swift"
+      - "swiftui"
+      - "usage-monitor"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-08-21"
+  - name: "zarathustra-critical-guide"
+    title: "zarathustra-critical-guide"
+    description: "A trilingual critical guide to Nietzsche's Thus Spoke Zarathustra"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-07-30"
+  - name: "tongji-calculus-ch10-bilingual-workbook"
+    title: "tongji-calculus-ch10-bilingual-workbook"
+    description: "Bilingual Tongji Calculus Chapter 10 workbook: 100 exercises, detailed solutions, reproducible PDFs, and KaTeX-validated formulas."
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-07-26"
+  - name: "tongji-calculus-ch9-bilingual-workbook"
+    title: "tongji-calculus-ch9-bilingual-workbook"
+    description: "Bilingual Tongji Calculus Chapter 9 workbook: 100 exercises, detailed solutions, reproducible PDFs, and KaTeX-validated formulas."
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-07-26"
+  - name: "tongji-calculus-ch12-bilingual-workbook"
+    title: "tongji-calculus-ch12-bilingual-workbook"
+    description: "Bilingual Tongji Calculus Chapter 12 workbook: 100 exercises, detailed solutions, reproducible PDFs, and KaTeX-validated formulas."
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-07-26"
+  - name: "tongji-calculus-ch11-bilingual-workbook"
+    title: "tongji-calculus-ch11-bilingual-workbook"
+    description: "Source-available bilingual Chapter 11 workbook aligned to Tongji Advanced Mathematics (7th ed.), with 100 graded problems, detailed solutions, LaTeX/KaTeX QA, and reproducible PDFs."
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-07-26"
 ---
 
 # Pybsama

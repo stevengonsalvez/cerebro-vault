@@ -8,23 +8,23 @@ provenance_repos:
   - "bytedance/deer-flow"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-18T06:04:36.280265+00:00"
+repos_populated: true
+generated_at: "2026-10-19T06:04:45.439728+00:00"
 provenance:
   - "16389f32495280ea"
-pushes_per_week: [0, 0, 0, 2, 1, 0, 0, 0, 3, 5, 9, 13, 4]
+pushes_per_week: [0, 0, 0, 3, 0, 0, 0, 0, 3, 5, 10, 13, 3]
 windows:
   "7d":
-    pushes: 7
+    pushes: 4
     distinct_repos: 2
-    active_days: 4
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 34
+    pushes: 31
     distinct_repos: 2
-    active_days: 17
+    active_days: 16
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,18 +49,18 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 7
+    pushes: 4
     distinct_repos: 2
-    pushes_per_repo: 3.5000
-    active_days: 4
+    pushes_per_repo: 2.0000
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 34
+    pushes: 31
     distinct_repos: 2
-    pushes_per_repo: 17.0000
-    active_days: 17
+    pushes_per_repo: 15.5000
+    active_days: 16
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -76,7 +76,39 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 20 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "ZJPex"
+    title: "ZJPex"
+    description: "周峻锋 / ZJPex · AI 应用与 Agent 开发"
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-16"
+  - name: "llm-wiki-organizer"
+    title: "llm-wiki-organizer"
+    description: "LLM Wiki 外置 Raw 整理器：内容命名、主题分类与安全迁移"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-11"
+  - name: "LLMRouter"
+    title: "LLMRouter"
+    description: null
+    language: "Rust"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-07-24"
+  - name: "AlphaPilot"
+    title: "AlphaPilot"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-07-14"
 ---
 
 # ZJPex

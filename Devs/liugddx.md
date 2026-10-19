@@ -8,11 +8,11 @@ provenance_repos:
   - "apache/maka"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-18T06:04:36.280265+00:00"
+repos_populated: true
+generated_at: "2026-10-19T06:04:45.439728+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [0, 1, 8, 15, 1, 4, 1, 1, 0, 1, 1, 1, 0]
+pushes_per_week: [0, 3, 7, 15, 3, 1, 1, 1, 0, 1, 1, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,60 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 20 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "awesome_llm_benchmark"
+    title: "awesome_llm_benchmark"
+    description: null
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-06-15"
+  - name: "info_collect"
+    title: "info_collect"
+    description: "一个基于 Python 和 Flask 构建的信息收集工具，用于自动聚合来自多个主流网站的文章。该工具支持关键词检索、查看文章来源、每日推荐最热文章，并提供友好的用户界面。通过插件化设计，您可以轻松扩展和集成更多的数据源。"
+    language: "Python"
+    topics:
+      - "collection"
+      - "news"
+      - "wiki"
+    stars_fact: 4
+    first_seen: null
+    last_push: "2024-12-26"
+  - name: "local_code_agent"
+    title: "local_code_agent"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2025-07-09"
+  - name: "llm-demo"
+    title: "llm-demo"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2025-02-07"
+  - name: "gpu_resource_calculator"
+    title: "gpu_resource_calculator"
+    description: null
+    language: "HTML"
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2024-10-02"
+  - name: "liugddx"
+    title: "liugddx"
+    description: "Config files for my GitHub profile."
+    language: null
+    topics:
+      - "config"
+      - "github-config"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2024-11-10"
 ---
 
 # liugddx

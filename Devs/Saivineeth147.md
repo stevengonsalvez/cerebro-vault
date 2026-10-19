@@ -8,11 +8,11 @@ provenance_repos:
   - "Saivineeth147/lora-speedrun"
 admitted: true
 low_n: true
-repos_populated: false
-generated_at: "2026-10-18T06:04:36.280265+00:00"
+repos_populated: true
+generated_at: "2026-10-19T06:04:45.439728+00:00"
 provenance:
   - "8cd2b09735411bfb"
-pushes_per_week: [3, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 5
+    pushes: 2
     distinct_repos: 1
-    active_days: 4
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.2500
-  repo_per_active_day: 0.2500
+  push_per_day: 1.0000
+  repo_per_active_day: 0.5000
   not_owned_ratio: 0.0000
   basename_concentration: 1.0000
   shapes: []
@@ -65,22 +65,106 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 5
+    pushes: 2
     distinct_repos: 1
-    pushes_per_repo: 5.0000
-    active_days: 4
+    pushes_per_repo: 2.0000
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 4 active days in 90d — below the 5-day line, LABELLED low-n (never suppressed)"
+  - "activity: 2 active days in 90d — below the 5-day line, LABELLED low-n (never suppressed)"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "lora-speedrun"
+    title: "lora-speedrun"
+    description: "Speedrunning LoRA fine-tuning: frozen task, frozen hardware, public wall-clock leaderboard. modded-nanogpt for fine-tuning."
+    language: "Python"
+    topics:
+      - "benchmark"
+      - "fine-tuning"
+      - "leaderboard"
+      - "llm"
+      - "lora"
+      - "peft"
+      - "qlora"
+      - "speedrun"
+    stars_fact: 149
+    first_seen: "2026-07-20T06:00:02.127739+00:00"
+    last_push: "2026-09-12"
+  - name: "cognivox-record"
+    title: "cognivox-record"
+    description: "Record a running app into a test suite, replay it with no database. HTTP, HTTPS, Postgres, Redis, MongoDB at the wire level — no eBPF, no root, any OS. MIT."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-18"
+  - name: "skeptic"
+    title: "skeptic"
+    description: "A coding agent in 5 files, plus a skeptic that catches it faking the fix — verify AI code with a check the agent never saw. Runs on any model (OpenRouter/OpenAI/Ollama)."
+    language: "Python"
+    topics:
+      - "agent"
+      - "agentic-ai"
+      - "ai"
+      - "ai-agents"
+      - "autonomous-agents"
+      - "claude"
+      - "code-generation"
+      - "code-review"
+      - "coding-agent"
+      - "developer-tools"
+      - "from-scratch"
+      - "harness-engineering"
+      - "llm"
+      - "llm-agents"
+      - "machine-learning"
+      - "ollama"
+      - "openai"
+      - "openrouter"
+      - "python"
+      - "tutorial"
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-07-23"
+  - name: "glovebox"
+    title: "glovebox"
+    description: "Computer-use automation for legacy back-office applications"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-15"
+  - name: "wontfly"
+    title: "wontfly"
+    description: "Catch the CI failures a linter can't see — before you push. Verifies action versions, inputs, and secrets against live GitHub; pins actions to SHAs."
+    language: "Rust"
+    topics:
+      - "ci"
+      - "cli"
+      - "developer-tools"
+      - "devops"
+      - "github-actions"
+      - "linter"
+      - "rust"
+      - "supply-chain-security"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-07-25"
+  - name: "portfolio-assistant"
+    title: "portfolio-assistant"
+    description: "RAG-powered document chatbot - Upload your resume, portfolio, or documents and chat with them. Built with React, FastAPI, FAISS, and Groq/HuggingFace LLMs."
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2025-12-31"
 ---
 
 # Saivineeth147
 
-5 pushes across 1 repository on 4 active days in the last 90 days of public GitHub push activity.
+2 pushes across 1 repository on 2 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Saivineeth147

@@ -8,11 +8,11 @@ provenance_repos:
   - "1jehuang/jcode"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-18T06:04:36.280265+00:00"
+repos_populated: true
+generated_at: "2026-10-19T06:04:45.439728+00:00"
 provenance:
   - "2a7f0fddd2dac162"
-pushes_per_week: [1, 0, 1, 5, 7, 9, 3, 5, 3, 0, 4, 0, 5]
+pushes_per_week: [1, 0, 1, 6, 7, 8, 4, 4, 3, 0, 4, 0, 5]
 windows:
   "7d":
     pushes: 5
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 11
-    distinct_repos: 3
-    active_days: 4
+    pushes: 9
+    distinct_repos: 2
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 11
-    distinct_repos: 3
-    pushes_per_repo: 3.6667
-    active_days: 4
+    pushes: 9
+    distinct_repos: 2
+    pushes_per_repo: 4.5000
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -76,7 +76,65 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 22 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "gsd-codex-plugin"
+    title: "gsd-codex-plugin"
+    description: "Community-maintained GSD Core plugin for Codex"
+    language: "JavaScript"
+    topics:
+      - "codex"
+      - "gsd"
+      - "plugin"
+      - "spec-driven-development"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-15"
+  - name: "cmd-gpt"
+    title: "cmd-gpt"
+    description: "A Tiny AI Terminal Assistant"
+    language: "Go"
+    topics:
+      - "bash"
+      - "chatgpt"
+      - "gpt"
+      - "llm"
+      - "powershell"
+      - "terminal"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2025-01-13"
+  - name: "tabby-wake-proxy"
+    title: "tabby-wake-proxy"
+    description: "Rust proxy that wakes tabbyAPI on demand and stops its Docker container after inactivity."
+    language: "Rust"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-09"
+  - name: "ios-fastlane-ci"
+    title: "ios-fastlane-ci"
+    description: "Reusable iOS CI/CD (GitHub Actions workflow_call + shared fastlane lanes)"
+    language: "Ruby"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-07-22"
+  - name: "google-photos-takeout-metadata-resolver"
+    title: "google-photos-takeout-metadata-resolver"
+    description: "A Go CLI tool that merges separated JSON metadata from Google Photos Takeout exports back into the actual photo/video files as EXIF/XMP tags."
+    language: "Go"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-03-08"
+  - name: "ModelGarden"
+    title: "ModelGarden"
+    description: "A Swift library and application for running large language models (LLMs) and vision language models (VLMs) locally on Apple devices using MLX"
+    language: "Swift"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-04-09"
 ---
 
 # yansigit

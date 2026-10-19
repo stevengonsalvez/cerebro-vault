@@ -8,8 +8,8 @@ provenance_repos:
   - "google-labs-code/stitch-skills"
 admitted: true
 low_n: true
-repos_populated: false
-generated_at: "2026-10-18T06:04:36.280265+00:00"
+repos_populated: true
+generated_at: "2026-10-19T06:04:45.439728+00:00"
 provenance:
   - "c87cd13d69aef691"
 pushes_per_week: [2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
@@ -76,7 +76,15 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 1 active days in 90d — below the 5-day line, LABELLED low-n (never suppressed)"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "stitch-eval-apps"
+    title: "stitch-eval-apps"
+    description: "Apps used for stitch eval"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-04-27"
 ---
 
 # JLXIA

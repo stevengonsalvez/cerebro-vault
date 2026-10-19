@@ -8,11 +8,11 @@ provenance_repos:
   - "AgriciDaniel/claude-obsidian"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-18T06:04:36.280265+00:00"
+repos_populated: true
+generated_at: "2026-10-19T06:04:45.439728+00:00"
 provenance:
   - "dc9094c987231bcf"
-pushes_per_week: [0, 2, 3, 8, 1, 2, 0, 1, 5, 0, 0, 0, 0]
+pushes_per_week: [0, 2, 4, 8, 1, 1, 0, 1, 5, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 4
+    pushes: 2
     distinct_repos: 1
-    active_days: 3
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 4
+    pushes: 2
     distinct_repos: 1
-    pushes_per_repo: 4.0000
-    active_days: 3
+    pushes_per_repo: 2.0000
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 17 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "strava"
+    title: "strava"
+    description: "Python wrapper for the Strava (http://www.strava.com) API"
+    language: "Python"
+    topics: []
+    stars_fact: 24
+    first_seen: null
+    last_push: "2017-11-25"
+  - name: "onetab-to-bookmarks"
+    title: "onetab-to-bookmarks"
+    description: "Convert a OneTab bookmark export to the standard HTML bookmark export format"
+    language: "Python"
+    topics: []
+    stars_fact: 8
+    first_seen: null
+    last_push: "2019-07-27"
+  - name: "experiments"
+    title: "experiments"
+    description: null
+    language: "Go"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-05"
+  - name: "prairie-pip"
+    title: "prairie-pip"
+    description: "Prairie Pip — a tiny 2.5D browser adventure about an adorable prairie dog and his jump-yipping town"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-07"
+  - name: "packetslave-hugo"
+    title: "packetslave-hugo"
+    description: null
+    language: "SCSS"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2023-08-02"
+  - name: "bitfield"
+    title: "bitfield"
+    description: "Python library for representing a set of bits"
+    language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2013-11-02"
 ---
 
 # Packetslave

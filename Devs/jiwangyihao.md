@@ -8,11 +8,11 @@ provenance_repos:
   - "can1357/oh-my-pi"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-18T06:04:36.280265+00:00"
+repos_populated: true
+generated_at: "2026-10-19T06:04:45.439728+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [0, 1, 0, 36, 7, 5, 1, 24, 34, 1, 0, 0, 0]
+pushes_per_week: [0, 1, 1, 36, 6, 6, 6, 18, 34, 1, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,11 +22,11 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 35
-    distinct_repos: 35
-    active_days: 3
-    repos_not_owned: 35
-    not_owned_basenames: 35
+    pushes: 2
+    distinct_repos: 2
+    active_days: 2
+    repos_not_owned: 2
+    not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
     pushes: 109
@@ -57,12 +57,12 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 35
-    distinct_repos: 35
+    pushes: 2
+    distinct_repos: 2
     pushes_per_repo: 1.0000
-    active_days: 3
-    repos_not_owned: 35
-    not_owned_basenames: 35
+    active_days: 2
+    repos_not_owned: 2
+    not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
     pushes: 109
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 16 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "source-j-legado"
+    title: "source-j-legado"
+    description: "My book source set for legado, mainly focused on light novels and maybe later manga (?)"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 669
+    first_seen: null
+    last_push: "2026-10-17"
+  - name: "tern-omp-client-bridge"
+    title: "tern-omp-client-bridge"
+    description: "A Tern/OMP client bridge for native tools, files, and user-driven transfers on Windows and macOS."
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-15"
+  - name: "new-api"
+    title: "new-api"
+    description: "Downstream deployment fork of new-api"
+    language: "Go"
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-10-11"
+  - name: "gtp-runtime"
+    title: "gtp-runtime"
+    description: "Evidence-driven Android game translation runtime research"
+    language: "Java"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-08-31"
+  - name: "omp-acp"
+    title: "omp-acp"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-05-12"
+  - name: "fireworks-pdf-compressor-ml"
+    title: "fireworks-pdf-compressor-ml"
+    description: null
+    language: "PostScript"
+    topics: []
+    stars_fact: 7
+    first_seen: null
+    last_push: "2026-03-05"
 ---
 
 # jiwangyihao

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-18T06:04:36.280265+00:00"
+generated_at: "2026-10-19T06:04:45.439728+00:00"
 provenance:
   - "c1af6b58492f9bf4"
-pushes_per_week: [5, 29, 13, 10, 5, 1, 2, 33, 24, 34, 4, 1, 1]
+pushes_per_week: [4, 40, 3, 9, 5, 1, 7, 28, 28, 30, 5, 1, 0]
 windows:
   "7d":
     pushes: 1
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 50
+    pushes: 49
     distinct_repos: 40
-    active_days: 16
+    active_days: 15
     repos_not_owned: 34
     not_owned_basenames: 7
     not_owned_owners: 33
   "90d":
-    pushes: 162
+    pushes: 161
     distinct_repos: 73
-    active_days: 46
+    active_days: 45
     repos_not_owned: 54
     not_owned_basenames: 13
     not_owned_owners: 53
 automation:
   state: "clear"
-  push_per_day: 3.5217
-  repo_per_active_day: 1.5870
+  push_per_day: 3.5778
+  repo_per_active_day: 1.6222
   not_owned_ratio: 0.7397
   basename_concentration: 0.5890
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 50
+    pushes: 49
     distinct_repos: 40
-    pushes_per_repo: 1.2500
-    active_days: 16
+    pushes_per_repo: 1.2250
+    active_days: 15
     repos_not_owned: 34
     not_owned_basenames: 7
     not_owned_owners: 33
   "90d":
-    pushes: 162
+    pushes: 161
     distinct_repos: 73
-    pushes_per_repo: 2.2192
-    active_days: 46
+    pushes_per_repo: 2.2055
+    active_days: 45
     repos_not_owned: 54
     not_owned_basenames: 13
     not_owned_owners: 53
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 46 active days in 90d — pass"
+  - "activity: 45 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "itinerant-tester"
@@ -135,6 +135,6 @@ repos:
 
 # cclauss
 
-162 pushes across 73 repositories on 46 active days in the last 90 days of public GitHub push activity.
+161 pushes across 73 repositories on 45 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/cclauss

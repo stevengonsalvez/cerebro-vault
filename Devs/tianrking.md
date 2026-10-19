@@ -8,11 +8,11 @@ provenance_repos:
   - "calesthio/OpenMontage"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-18T06:04:36.280265+00:00"
+repos_populated: true
+generated_at: "2026-10-19T06:04:45.439728+00:00"
 provenance:
   - "6d3bd03b49986330"
-pushes_per_week: [19, 5, 8, 10, 1, 2, 0, 12, 17, 18, 48, 13, 0]
+pushes_per_week: [19, 6, 9, 8, 1, 2, 1, 19, 9, 32, 40, 7, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,63 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 34 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "AirBridge"
+    title: "AirBridge"
+    description: "Independent ESP32-S3 AWDL bridge for Windows. ESP-IDF 6.1 protocol implementation with native Apple discovery qualification; desktop and file transfer under development."
+    language: "C++"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-16"
+  - name: "tianrking.github.io"
+    title: "tianrking.github.io"
+    description: "w0x7ce 的個人工程工作台：嵌入式系統、Local AI 與基礎設施的實作筆記、專案與實驗。"
+    language: "MDX"
+    topics:
+      - "docusaurus"
+      - "embedded-systems"
+      - "infrastructure"
+      - "local-ai"
+      - "technical-blog"
+      - "traditional-chinese"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-16"
+  - name: "muse-workers-relay"
+    title: "muse-workers-relay"
+    description: "Self-hosted Cloudflare Workers relay for Muse account APIs and encrypted Noise WebSockets, with an optional Mori React chat client."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-15"
+  - name: "tianrking"
+    title: "tianrking"
+    description: "Config files for my GitHub profile."
+    language: null
+    topics:
+      - "config"
+      - "github-config"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-15"
+  - name: "Re_edgetunnel"
+    title: "Re_edgetunnel"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 151
+    first_seen: null
+    last_push: "2026-08-11"
+  - name: "EdgeMirror"
+    title: "EdgeMirror"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 267
+    first_seen: null
+    last_push: "2026-09-11"
 ---
 
 # tianrking

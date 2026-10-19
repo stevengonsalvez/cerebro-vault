@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-18T06:04:36.280265+00:00"
+generated_at: "2026-10-19T06:04:45.439728+00:00"
 provenance:
   - "322930b634f9932d"
-pushes_per_week: [6, 0, 0, 3, 0, 0, 0, 1, 1, 9, 6, 4, 0]
+pushes_per_week: [4, 0, 1, 2, 0, 0, 0, 1, 1, 14, 3, 2, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 30
+    pushes: 28
     distinct_repos: 2
-    active_days: 17
+    active_days: 15
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.7647
-  repo_per_active_day: 0.1176
+  push_per_day: 1.8667
+  repo_per_active_day: 0.1333
   not_owned_ratio: 0.0000
   basename_concentration: 0.5000
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 30
+    pushes: 28
     distinct_repos: 2
-    pushes_per_repo: 15.0000
-    active_days: 17
+    pushes_per_repo: 14.0000
+    active_days: 15
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 17 active days in 90d — pass"
+  - "activity: 15 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "jacquard-host"
@@ -148,6 +148,6 @@ repos:
 
 # jbwinters
 
-30 pushes across 2 repositories on 17 active days in the last 90 days of public GitHub push activity.
+28 pushes across 2 repositories on 15 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/jbwinters

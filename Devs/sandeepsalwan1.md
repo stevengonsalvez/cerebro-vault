@@ -8,11 +8,11 @@ provenance_repos:
   - "browser-use/browser-use"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-18T06:04:36.280265+00:00"
+repos_populated: true
+generated_at: "2026-10-19T06:04:45.439728+00:00"
 provenance:
   - "c1af6b58492f9bf4"
-pushes_per_week: [20, 8, 2, 0, 0, 1, 0, 0, 0, 3, 6, 3, 0]
+pushes_per_week: [19, 8, 2, 0, 0, 1, 0, 0, 1, 5, 6, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,7 +29,7 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 43
+    pushes: 42
     distinct_repos: 4
     active_days: 17
     repos_not_owned: 0
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.5294
+  push_per_day: 2.4706
   repo_per_active_day: 0.2353
   not_owned_ratio: 0.0000
   basename_concentration: 0.2500
@@ -65,9 +65,9 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 43
+    pushes: 42
     distinct_repos: 4
-    pushes_per_repo: 10.7500
+    pushes_per_repo: 10.5000
     active_days: 17
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -76,11 +76,64 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 17 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "mac-setup"
+    title: "mac-setup"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-16"
+  - name: "sandeepsalwan1.github.io"
+    title: "sandeepsalwan1.github.io"
+    description: "Web"
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-21"
+  - name: "saveFoster"
+    title: "saveFoster"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-06"
+  - name: "Vet"
+    title: "Vet"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-16"
+  - name: "lastpage"
+    title: "lastpage"
+    description: "Your PDFs remember where you stopped reading. Local-first resume and recent-close history."
+    language: "JavaScript"
+    topics:
+      - "local-first"
+      - "pdf-reader"
+      - "pdfjs"
+      - "privacy"
+      - "reading-progress"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-07"
+  - name: "AgentHackathon"
+    title: "AgentHackathon"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-07-04"
 ---
 
 # sandeepsalwan1
 
-43 pushes across 4 repositories on 17 active days in the last 90 days of public GitHub push activity.
+42 pushes across 4 repositories on 17 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/sandeepsalwan1

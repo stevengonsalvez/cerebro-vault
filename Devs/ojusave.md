@@ -8,11 +8,11 @@ provenance_repos:
   - "ayghri/i-have-adhd"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-18T06:04:36.280265+00:00"
+repos_populated: true
+generated_at: "2026-10-19T06:04:45.439728+00:00"
 provenance:
   - "46f3c1d6124190bd"
-pushes_per_week: [39, 9, 3, 0, 1, 0, 0, 0, 7, 1, 8, 0, 12]
+pushes_per_week: [33, 8, 3, 0, 1, 0, 0, 0, 7, 2, 7, 0, 12]
 windows:
   "7d":
     pushes: 12
@@ -22,25 +22,25 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 26
-    distinct_repos: 11
-    active_days: 8
+    pushes: 21
+    distinct_repos: 9
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 80
-    distinct_repos: 26
-    active_days: 23
+    pushes: 73
+    distinct_repos: 25
+    active_days: 22
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 3.4783
-  repo_per_active_day: 1.1304
-  not_owned_ratio: 0.1154
-  basename_concentration: 0.0769
+  push_per_day: 3.3182
+  repo_per_active_day: 1.1364
+  not_owned_ratio: 0.1200
+  basename_concentration: 0.0800
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -57,30 +57,78 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 26
-    distinct_repos: 11
-    pushes_per_repo: 2.3636
-    active_days: 8
+    pushes: 21
+    distinct_repos: 9
+    pushes_per_repo: 2.3333
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 80
-    distinct_repos: 26
-    pushes_per_repo: 3.0769
-    active_days: 23
+    pushes: 73
+    distinct_repos: 25
+    pushes_per_repo: 2.9200
+    active_days: 22
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 23 active days in 90d — pass"
+  - "activity: 22 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "deepgram-render-sandbox"
+    title: "deepgram-render-sandbox"
+    description: "Voice and text CSV analysis with Deepgram Voice Agent and Render Sandboxes"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-14"
+  - name: "render-hermes-plugin"
+    title: "render-hermes-plugin"
+    description: "Render skills and MCP tools for Hermes Agent. Uses the original render-oss/skills content."
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-15"
+  - name: "hermes-plugin-render"
+    title: "hermes-plugin-render"
+    description: "Development preview: run Hermes command, file, and Python tools in Render Sandboxes."
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-14"
+  - name: "hermes-render-mv8kko8y"
+    title: "hermes-render-mv8kko8y"
+    description: "Created from render-examples/hermes-render template"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-14"
+  - name: "tanstack-render-atlas"
+    title: "tanstack-render-atlas"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-14"
+  - name: "exa-render-sandboxes"
+    title: "exa-render-sandboxes"
+    description: "Compare code repair with and without Exa Search using Python and TypeScript on Render Sandboxes."
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-14"
 ---
 
 # ojusave
 
-80 pushes across 26 repositories on 23 active days in the last 90 days of public GitHub push activity.
+73 pushes across 25 repositories on 22 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ojusave

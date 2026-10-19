@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-18T06:04:36.280265+00:00"
+generated_at: "2026-10-19T06:04:45.439728+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [2, 9, 6, 0, 0, 0, 0, 1, 5, 18, 6, 1, 4]
+pushes_per_week: [1, 9, 6, 0, 0, 0, 0, 1, 5, 24, 1, 0, 6]
 windows:
   "7d":
-    pushes: 4
-    distinct_repos: 1
-    active_days: 2
+    pushes: 6
+    distinct_repos: 2
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 29
-    distinct_repos: 3
-    active_days: 6
+    pushes: 31
+    distinct_repos: 4
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 52
-    distinct_repos: 7
+    pushes: 53
+    distinct_repos: 8
     active_days: 17
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 3.0588
-  repo_per_active_day: 0.4118
-  not_owned_ratio: 0.1429
-  basename_concentration: 0.1429
+  push_per_day: 3.1176
+  repo_per_active_day: 0.4706
+  not_owned_ratio: 0.1250
+  basename_concentration: 0.1250
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 4
-    distinct_repos: 1
-    pushes_per_repo: 4.0000
-    active_days: 2
+    pushes: 6
+    distinct_repos: 2
+    pushes_per_repo: 3.0000
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 29
-    distinct_repos: 3
-    pushes_per_repo: 9.6667
-    active_days: 6
+    pushes: 31
+    distinct_repos: 4
+    pushes_per_repo: 7.7500
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 52
-    distinct_repos: 7
-    pushes_per_repo: 7.4286
+    pushes: 53
+    distinct_repos: 8
+    pushes_per_repo: 6.6250
     active_days: 17
     repos_not_owned: 1
     not_owned_basenames: 1
@@ -133,6 +133,6 @@ repos:
 
 # jamesmurdza
 
-52 pushes across 7 repositories on 17 active days in the last 90 days of public GitHub push activity.
+53 pushes across 8 repositories on 17 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/jamesmurdza

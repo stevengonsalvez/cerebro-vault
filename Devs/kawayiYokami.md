@@ -8,11 +8,11 @@ provenance_repos:
   - "AstrBotDevs/AstrBot"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-18T06:04:36.280265+00:00"
+repos_populated: true
+generated_at: "2026-10-19T06:04:45.439728+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [0, 2, 7, 4, 2, 0, 0, 0, 4, 6, 0, 0, 1]
+pushes_per_week: [0, 2, 7, 4, 2, 0, 0, 0, 7, 3, 0, 1, 0]
 windows:
   "7d":
     pushes: 1
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 10
-    distinct_repos: 4
-    active_days: 8
+    pushes: 9
+    distinct_repos: 3
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 10
-    distinct_repos: 4
-    pushes_per_repo: 2.5000
-    active_days: 8
+    pushes: 9
+    distinct_repos: 3
+    pushes_per_repo: 3.0000
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -76,7 +76,70 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 18 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "P-ai"
+    title: "P-ai"
+    description: "A ready-to-use self-growing desktop AI assistant for long-running tasks, memory, agents, tool reviews, MCP, and high-concurrency workspace automation. / 开箱即用的自我成长型桌面 AI 助理，面向长期任务、记忆、部门协作、工具审查、MCP 与高并发工作区自动化。"
+    language: "Rust"
+    topics:
+      - "agent"
+      - "ai-agent"
+      - "ai-agents"
+      - "ai-assistant"
+      - "desktop-ai-assistant"
+      - "desktop-app"
+      - "mcp"
+      - "pai"
+      - "productivity"
+      - "rust"
+      - "tauri"
+      - "vue"
+      - "windows"
+    stars_fact: 105
+    first_seen: null
+    last_push: "2026-10-18"
+  - name: "astrbot_plugin_angel_heart"
+    title: "astrbot_plugin_angel_heart"
+    description: "告别“人工智障”式群聊！本插件用【4状态机】教会AI观察时机、判断气氛，实现真人般社交直觉；再以【轻重双AI核】分离思考与决策，保证回复质量的同时大幅降低API成本。"
+    language: "Python"
+    topics: []
+    stars_fact: 136
+    first_seen: null
+    last_push: "2026-10-02"
+  - name: "p-memory"
+    title: "p-memory"
+    description: "Embedded memory, knowledge graph, and note storage for Rust and Python"
+    language: "Rust"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-27"
+  - name: "MangaReader"
+    title: "MangaReader"
+    description: "一款专为漫画收藏爱好者设计的管理器与阅读器。它能自动扫描、解析和组织您的漫画收藏，通过强大的元数据和标签系统提供极致的浏览体验，并集成了可选的翻译功能。"
+    language: "Python"
+    topics:
+      - "manga-reader"
+      - "manga-translator"
+    stars_fact: 10
+    first_seen: null
+    last_push: "2026-03-20"
+  - name: "astrbot_plugin_angel_memory"
+    title: "astrbot_plugin_angel_memory"
+    description: "为AstrBot赋予真正的记忆能力：让AI不仅能记住，还能主动思考、自主进化"
+    language: "Python"
+    topics: []
+    stars_fact: 187
+    first_seen: null
+    last_push: "2026-09-15"
+  - name: "astrbot_plugin_angel_smile"
+    title: "astrbot_plugin_angel_smile"
+    description: "你的表情很可爱，可她接下来就是我的了—— “不知名的表情包大盗天使留言”"
+    language: "Python"
+    topics: []
+    stars_fact: 11
+    first_seen: null
+    last_push: "2026-09-02"
 ---
 
 # kawayiYokami

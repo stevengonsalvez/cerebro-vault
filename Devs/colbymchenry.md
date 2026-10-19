@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-18T06:04:36.280265+00:00"
+generated_at: "2026-10-19T06:04:45.439728+00:00"
 provenance:
   - "5ae8aede20b52732"
-pushes_per_week: [4, 0, 0, 0, 0, 0, 0, 0, 2, 18, 20, 9, 5]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 2, 19, 21, 9, 3]
 windows:
   "7d":
     pushes: 5
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 58
+    pushes: 54
     distinct_repos: 2
-    active_days: 17
+    active_days: 16
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 3.4118
-  repo_per_active_day: 0.1176
+  push_per_day: 3.3750
+  repo_per_active_day: 0.1250
   not_owned_ratio: 0.0000
   basename_concentration: 0.5000
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 58
+    pushes: 54
     distinct_repos: 2
-    pushes_per_repo: 29.0000
-    active_days: 17
+    pushes_per_repo: 27.0000
+    active_days: 16
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 17 active days in 90d — pass"
+  - "activity: 16 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "codegraph"
@@ -129,6 +129,6 @@ repos:
 
 # colbymchenry
 
-58 pushes across 2 repositories on 17 active days in the last 90 days of public GitHub push activity.
+54 pushes across 2 repositories on 16 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/colbymchenry

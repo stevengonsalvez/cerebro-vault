@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-18T06:04:36.280265+00:00"
+generated_at: "2026-10-19T06:04:45.439728+00:00"
 provenance:
   - "73468cde177ddae6"
-pushes_per_week: [0, 0, 0, 0, 7, 4, 3, 6, 1, 4, 18, 53, 47]
+pushes_per_week: [0, 0, 0, 0, 9, 2, 3, 6, 1, 4, 32, 47, 40]
 windows:
   "7d":
-    pushes: 71
+    pushes: 46
     distinct_repos: 3
     active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 123
+    pushes: 124
     distinct_repos: 7
-    active_days: 16
+    active_days: 17
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 143
+    pushes: 144
     distinct_repos: 7
-    active_days: 27
+    active_days: 28
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 5.2963
-  repo_per_active_day: 0.2593
+  push_per_day: 5.1429
+  repo_per_active_day: 0.2500
   not_owned_ratio: 0.2857
   basename_concentration: 0.2857
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 71
+    pushes: 46
     distinct_repos: 3
-    pushes_per_repo: 23.6667
+    pushes_per_repo: 15.3333
     active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 123
+    pushes: 124
     distinct_repos: 7
-    pushes_per_repo: 17.5714
-    active_days: 16
+    pushes_per_repo: 17.7143
+    active_days: 17
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 143
+    pushes: 144
     distinct_repos: 7
-    pushes_per_repo: 20.4286
-    active_days: 27
+    pushes_per_repo: 20.5714
+    active_days: 28
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 27 active days in 90d — pass"
+  - "activity: 28 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "homebrew-tap"
@@ -153,6 +153,6 @@ repos:
 
 # dspv
 
-143 pushes across 7 repositories on 27 active days in the last 90 days of public GitHub push activity.
+144 pushes across 7 repositories on 28 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/dspv

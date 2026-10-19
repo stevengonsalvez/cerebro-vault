@@ -8,28 +8,28 @@ provenance_repos:
   - "can1357/oh-my-pi"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-18T06:04:36.280265+00:00"
+repos_populated: true
+generated_at: "2026-10-19T06:04:45.439728+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [48, 133, 4, 36, 1, 2, 3, 3, 25, 2, 3, 7, 19]
+pushes_per_week: [87, 84, 2, 37, 1, 1, 3, 3, 25, 2, 3, 17, 10]
 windows:
   "7d":
-    pushes: 24
+    pushes: 19
     distinct_repos: 4
     active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 43
+    pushes: 33
     distinct_repos: 8
     active_days: 11
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 286
+    pushes: 275
     distinct_repos: 14
     active_days: 39
     repos_not_owned: 1
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 7.3333
+  push_per_day: 7.0513
   repo_per_active_day: 0.3590
   not_owned_ratio: 0.0714
   basename_concentration: 0.1429
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 24
+    pushes: 19
     distinct_repos: 4
-    pushes_per_repo: 6.0000
+    pushes_per_repo: 4.7500
     active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 43
+    pushes: 33
     distinct_repos: 8
-    pushes_per_repo: 5.3750
+    pushes_per_repo: 4.1250
     active_days: 11
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 286
+    pushes: 275
     distinct_repos: 14
-    pushes_per_repo: 20.4286
+    pushes_per_repo: 19.6429
     active_days: 39
     repos_not_owned: 1
     not_owned_basenames: 1
@@ -76,11 +76,90 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 39 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "enginery-qualification-calc"
+    title: "enginery-qualification-calc"
+    description: "Synthetic qualification target for Enginery live harness qualification (standard-library calculator)"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-19"
+  - name: "armory"
+    title: "armory"
+    description: "Curated, production-grade skills for AI coding agents. Battle-tested workflows for developers who use AI seriously."
+    language: "Python"
+    topics:
+      - "ai-agents"
+      - "claude-code"
+      - "coding-agents"
+      - "open-source"
+      - "skills"
+    stars_fact: 332
+    first_seen: null
+    last_push: "2026-10-19"
+  - name: "Enginery"
+    title: "Enginery"
+    description: "Engineer the system that engineers software."
+    language: "Python"
+    topics:
+      - "ai-agents"
+      - "automation"
+      - "developer-tools"
+      - "python"
+      - "software-engineering"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-19"
+  - name: "Agentic-Design-Patterns"
+    title: "Agentic-Design-Patterns"
+    description: "Agentic Design Patterns"
+    language: null
+    topics: []
+    stars_fact: 1850
+    first_seen: null
+    last_push: "2025-09-05"
+  - name: "archex"
+    title: "archex"
+    description: "Verified code context for agents"
+    language: "Python"
+    topics:
+      - "agents"
+      - "archex"
+      - "ast"
+      - "code-intelligence"
+      - "code-retrieval"
+      - "code-search"
+      - "coding-agents"
+      - "context-engineering"
+      - "context-window-optimization"
+      - "developer-tools"
+      - "local-first"
+      - "mcp"
+      - "pi"
+      - "python"
+      - "retrieval"
+      - "semantic-search"
+      - "token-efficiency"
+      - "tree-sitter"
+    stars_fact: 66
+    first_seen: null
+    last_push: "2026-10-15"
+  - name: "VaultMind"
+    title: "VaultMind"
+    description: "AI-powered personal knowledge management built on Obsidian"
+    language: "Python"
+    topics:
+      - "ai-powered"
+      - "obsidian"
+      - "personal-knowledge-management"
+    stars_fact: 10
+    first_seen: null
+    last_push: "2026-10-12"
 ---
 
 # Mathews-Tom
 
-286 pushes across 14 repositories on 39 active days in the last 90 days of public GitHub push activity.
+275 pushes across 14 repositories on 39 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Mathews-Tom

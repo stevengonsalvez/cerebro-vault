@@ -8,11 +8,11 @@ provenance_repos:
   - "chopratejas/headroom"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-18T06:04:36.280265+00:00"
+repos_populated: true
+generated_at: "2026-10-19T06:04:45.439728+00:00"
 provenance:
   - "73468cde177ddae6"
-pushes_per_week: [0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 5, 1, 0]
+pushes_per_week: [0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 6, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "feed-sure"
+    title: "feed-sure"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-12"
+  - name: "rajatnagda45"
+    title: "rajatnagda45"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-30"
+  - name: "doosri-raay"
+    title: "doosri-raay"
+    description: "Doosri Raay: the outsider agent against digital-arrest scams. WeMakeDevs x AWS First Commit 2026."
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-20"
+  - name: "RevenueShield"
+    title: "RevenueShield"
+    description: "AI Revenue Recovery that proves what it recovered"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-05"
+  - name: "Quick-Cart"
+    title: "Quick-Cart"
+    description: "A full-stack, real-time grocery delivery platform : Shop groceries, pay online, and watch your order travel to your door — live on a map."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-30"
+  - name: "TripVerse-AI"
+    title: "TripVerse-AI"
+    description: "Modern AI-powered travel planning platform that generates personalized itineraries based on your mood, budget, and preferences."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-04-01"
 ---
 
 # rajatnagda45

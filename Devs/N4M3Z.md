@@ -8,11 +8,11 @@ provenance_repos:
   - "agavra/tuicr"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-18T06:04:36.280265+00:00"
+repos_populated: true
+generated_at: "2026-10-19T06:04:45.439728+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [1, 23, 24, 26, 1, 6, 0, 1, 18, 7, 1, 1, 0]
+pushes_per_week: [1, 28, 20, 25, 2, 5, 0, 2, 17, 8, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 29 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "lsrules"
+    title: "lsrules"
+    description: "Little Snitch policy references and offline validators."
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-17"
+  - name: "dotfiles"
+    title: "dotfiles"
+    description: "chezmoi-managed dotfiles"
+    language: "Shell"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-17"
+  - name: "forge-provision"
+    title: "forge-provision"
+    description: "Best-practice provisioning for developer machines — macOS, Linux, Windows"
+    language: "Shell"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-17"
+  - name: "homebrew-tap"
+    title: "homebrew-tap"
+    description: "Personal Homebrew tap (proton-drive-cli: official Proton Drive CLI binary)"
+    language: "Shell"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-10-18"
+  - name: "forge-core"
+    title: "forge-core"
+    description: "Module-building skills for your AI ecosystem — build skills, build agents, architect repositories into modules and plugins in a scaffolding of your choice"
+    language: "Python"
+    topics: []
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-08-19"
+  - name: "forge-dev"
+    title: "forge-dev"
+    description: "Developer discipline skills for the forge ecosystem"
+    language: "Shell"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-08-04"
 ---
 
 # N4M3Z

@@ -8,11 +8,11 @@ provenance_repos:
   - "anomalyco/opencode"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-18T06:04:36.280265+00:00"
+repos_populated: true
+generated_at: "2026-10-19T06:04:45.439728+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 17, 10, 0]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 18, 9, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,39 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "leap-mcp"
+    title: "leap-mcp"
+    description: null
+    language: "Swift"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-30"
+  - name: "windows-apple-bluetooth-keyboard-battery"
+    title: "windows-apple-bluetooth-keyboard-battery"
+    description: null
+    language: "C#"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-12"
+  - name: "markdown-helper-mcp"
+    title: "markdown-helper-mcp"
+    description: "A Powerful MCP markdown editor for AI agents — document editor, externalized brain, and requirements refinement surface in one tool."
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-05-20"
+  - name: "testcode"
+    title: "testcode"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2024-05-22"
 ---
 
 # ryanwyler

@@ -8,16 +8,16 @@ provenance_repos:
   - "akitaonrails/ai-memory"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-18T06:04:36.280265+00:00"
+repos_populated: true
+generated_at: "2026-10-19T06:04:45.439728+00:00"
 provenance:
   - "4138778ebbc75ba6"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 11, 106, 109, 97, 51]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 14, 112, 140, 80, 28]
 windows:
   "7d":
-    pushes: 66
+    pushes: 46
     distinct_repos: 2
-    active_days: 4
+    active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 66
+    pushes: 46
     distinct_repos: 2
-    pushes_per_repo: 33.0000
-    active_days: 4
+    pushes_per_repo: 23.0000
+    active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1

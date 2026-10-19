@@ -8,11 +8,11 @@ provenance_repos:
   - "anthropics/claude-cookbooks"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-18T06:04:36.280265+00:00"
+repos_populated: true
+generated_at: "2026-10-19T06:04:45.439728+00:00"
 provenance:
   - "1f49d0119cedbc84"
-pushes_per_week: [0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 1, 2, 1]
+pushes_per_week: [0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 1, 3, 0]
 windows:
   "7d":
     pushes: 1
@@ -76,7 +76,68 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "homebrew-memorizz"
+    title: "homebrew-memorizz"
+    description: "Homebrew tap for the MemoRizz memory-first agent harness"
+    language: "Ruby"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-18"
+  - name: "memorizz"
+    title: "memorizz"
+    description: "MemoRizz: A Python library serving as a memory layer for AI applications. Leverages popular databases and storage solutions to optimize memory usage. Provides utility classes and methods for efficient data management."
+    language: "Python"
+    topics:
+      - "ai"
+      - "artificial-intelligence"
+      - "data-management"
+      - "mongodb"
+      - "oracle"
+      - "oracle-database"
+      - "python"
+      - "semantic-search"
+    stars_fact: 774
+    first_seen: null
+    last_push: "2026-10-18"
+  - name: "agent_harness_course"
+    title: "agent_harness_course"
+    description: "Technical companion to the O'Reilly Harness Engineering for AI Agents workshop"
+    language: "Jupyter Notebook"
+    topics:
+      - "agent-memory"
+      - "ai-agents"
+      - "harness-engineering"
+      - "langgraph"
+      - "python"
+    stars_fact: 35
+    first_seen: null
+    last_push: "2026-09-30"
+  - name: "llmcamp_ai_hub"
+    title: "llmcamp_ai_hub"
+    description: "Hands-on agent memory notebooks and an interactive appbook for context engineering."
+    language: "Jupyter Notebook"
+    topics: []
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-10-17"
+  - name: "maven_classes"
+    title: "maven_classes"
+    description: "Private cohort materials for Maven agent memory classes, including executed notebooks and an interactive appbook."
+    language: "Jupyter Notebook"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-02"
+  - name: "agent_memory_course"
+    title: "agent_memory_course"
+    description: null
+    language: "Jupyter Notebook"
+    topics: []
+    stars_fact: 70
+    first_seen: null
+    last_push: "2026-08-25"
 ---
 
 # RichmondAlake

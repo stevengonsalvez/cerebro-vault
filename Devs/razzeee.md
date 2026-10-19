@@ -8,21 +8,21 @@ provenance_repos:
   - "AlexsJones/llmfit"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-18T06:04:36.280265+00:00"
+repos_populated: true
+generated_at: "2026-10-19T06:04:45.439728+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [6, 2, 7, 6, 4, 2, 1, 5, 12, 10, 15, 12, 14]
+pushes_per_week: [4, 4, 5, 7, 3, 2, 4, 4, 12, 10, 16, 20, 5]
 windows:
   "7d":
-    pushes: 20
-    distinct_repos: 8
+    pushes: 15
+    distinct_repos: 6
     active_days: 4
-    repos_not_owned: 4
-    not_owned_basenames: 4
-    not_owned_owners: 4
+    repos_not_owned: 3
+    not_owned_basenames: 3
+    not_owned_owners: 3
   "30d":
-    pushes: 59
+    pushes: 58
     distinct_repos: 15
     active_days: 20
     repos_not_owned: 8
@@ -49,17 +49,17 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 20
-    distinct_repos: 8
+    pushes: 15
+    distinct_repos: 6
     pushes_per_repo: 2.5000
     active_days: 4
-    repos_not_owned: 4
-    not_owned_basenames: 4
-    not_owned_owners: 4
+    repos_not_owned: 3
+    not_owned_basenames: 3
+    not_owned_owners: 3
   "30d":
-    pushes: 59
+    pushes: 58
     distinct_repos: 15
-    pushes_per_repo: 3.9333
+    pushes_per_repo: 3.8667
     active_days: 20
     repos_not_owned: 8
     not_owned_basenames: 8
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 43 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "aileron"
+    title: "aileron"
+    description: null
+    language: "Rust"
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-10-18"
+  - name: "flatpak-blackbox-tests"
+    title: "flatpak-blackbox-tests"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-18"
+  - name: "flatpak-smoke"
+    title: "flatpak-smoke"
+    description: null
+    language: "Rust"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-18"
+  - name: "window-switching-redux"
+    title: "window-switching-redux"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-25"
+  - name: "gnome-foreground-booster"
+    title: "gnome-foreground-booster"
+    description: null
+    language: "Rust"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-17"
+  - name: "dmemcg-booster"
+    title: "dmemcg-booster"
+    description: null
+    language: "Rust"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-15"
 ---
 
 # razzeee

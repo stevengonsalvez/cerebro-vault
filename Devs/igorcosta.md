@@ -9,17 +9,17 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-18T06:04:36.280265+00:00"
+generated_at: "2026-10-19T06:04:45.439728+00:00"
 provenance:
   - "48dbbdd8fd0d3029"
-pushes_per_week: [5, 1, 1, 4, 0, 0, 0, 5, 0, 10, 9, 1, 3]
+pushes_per_week: [4, 1, 1, 4, 0, 0, 2, 3, 0, 17, 2, 2, 2]
 windows:
   "7d":
-    pushes: 4
-    distinct_repos: 4
-    active_days: 3
-    repos_not_owned: 4
-    not_owned_basenames: 4
+    pushes: 3
+    distinct_repos: 3
+    active_days: 2
+    repos_not_owned: 3
+    not_owned_basenames: 3
     not_owned_owners: 1
   "30d":
     pushes: 23
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 6
     not_owned_owners: 1
   "90d":
-    pushes: 39
+    pushes: 38
     distinct_repos: 11
-    active_days: 20
+    active_days: 19
     repos_not_owned: 11
     not_owned_basenames: 11
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.9500
-  repo_per_active_day: 0.5500
+  push_per_day: 2.0000
+  repo_per_active_day: 0.5789
   not_owned_ratio: 1.0000
   basename_concentration: 0.0909
   shapes: []
@@ -49,12 +49,12 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 4
-    distinct_repos: 4
+    pushes: 3
+    distinct_repos: 3
     pushes_per_repo: 1.0000
-    active_days: 3
-    repos_not_owned: 4
-    not_owned_basenames: 4
+    active_days: 2
+    repos_not_owned: 3
+    not_owned_basenames: 3
     not_owned_owners: 1
   "30d":
     pushes: 23
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 6
     not_owned_owners: 1
   "90d":
-    pushes: 39
+    pushes: 38
     distinct_repos: 11
-    pushes_per_repo: 3.5455
-    active_days: 20
+    pushes_per_repo: 3.4545
+    active_days: 19
     repos_not_owned: 11
     not_owned_basenames: 11
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 20 active days in 90d — pass"
+  - "activity: 19 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "flex-maps"
@@ -113,6 +113,6 @@ repos:
 
 # igorcosta
 
-39 pushes across 11 repositories on 20 active days in the last 90 days of public GitHub push activity.
+38 pushes across 11 repositories on 19 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/igorcosta

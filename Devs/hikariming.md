@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-18T06:04:36.280265+00:00"
+generated_at: "2026-10-19T06:04:45.439728+00:00"
 provenance:
   - "541318303a272608"
-pushes_per_week: [4, 2, 1, 9, 5, 1, 1, 3, 6, 11, 17, 2, 4]
+pushes_per_week: [0, 2, 1, 11, 3, 2, 1, 2, 6, 13, 16, 4, 2]
 windows:
   "7d":
-    pushes: 4
+    pushes: 5
     distinct_repos: 1
-    active_days: 2
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 36
+    pushes: 37
     distinct_repos: 7
-    active_days: 17
+    active_days: 18
     repos_not_owned: 4
     not_owned_basenames: 2
     not_owned_owners: 4
   "90d":
-    pushes: 66
+    pushes: 63
     distinct_repos: 8
-    active_days: 35
+    active_days: 34
     repos_not_owned: 5
     not_owned_basenames: 2
     not_owned_owners: 5
 automation:
   state: "clear"
-  push_per_day: 1.8857
-  repo_per_active_day: 0.2286
+  push_per_day: 1.8529
+  repo_per_active_day: 0.2353
   not_owned_ratio: 0.6250
   basename_concentration: 0.5000
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 4
+    pushes: 5
     distinct_repos: 1
-    pushes_per_repo: 4.0000
-    active_days: 2
+    pushes_per_repo: 5.0000
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 36
+    pushes: 37
     distinct_repos: 7
-    pushes_per_repo: 5.1429
-    active_days: 17
+    pushes_per_repo: 5.2857
+    active_days: 18
     repos_not_owned: 4
     not_owned_basenames: 2
     not_owned_owners: 4
   "90d":
-    pushes: 66
+    pushes: 63
     distinct_repos: 8
-    pushes_per_repo: 8.2500
-    active_days: 35
+    pushes_per_repo: 7.8750
+    active_days: 34
     repos_not_owned: 5
     not_owned_basenames: 2
     not_owned_owners: 5
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 35 active days in 90d — pass"
+  - "activity: 34 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "openkoto"
@@ -147,6 +147,6 @@ repos:
 
 # hikariming
 
-66 pushes across 8 repositories on 35 active days in the last 90 days of public GitHub push activity.
+63 pushes across 8 repositories on 34 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/hikariming

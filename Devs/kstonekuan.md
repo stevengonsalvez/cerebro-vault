@@ -8,11 +8,11 @@ provenance_repos:
   - "Hebbian-Robotics/hflow"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-18T06:04:36.280265+00:00"
+repos_populated: true
+generated_at: "2026-10-19T06:04:45.439728+00:00"
 provenance:
   - "c5d31b731e2b133d"
-pushes_per_week: [0, 0, 0, 0, 3, 6, 3, 1, 5, 6, 3, 0, 1]
+pushes_per_week: [0, 0, 0, 0, 6, 3, 3, 1, 5, 6, 3, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 13
+    pushes: 11
     distinct_repos: 1
-    active_days: 10
+    active_days: 8
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 13
+    pushes: 11
     distinct_repos: 1
-    pushes_per_repo: 13.0000
-    active_days: 10
+    pushes_per_repo: 11.0000
+    active_days: 8
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -76,7 +76,91 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 19 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "digital-twin-proxy"
+    title: "digital-twin-proxy"
+    description: "A forward proxy to turn network traffic into personal memory for AI agents"
+    language: "Rust"
+    topics:
+      - "context"
+      - "memory"
+      - "proxy"
+      - "rust"
+    stars_fact: 39
+    first_seen: null
+    last_push: "2026-03-30"
+  - name: "tambourine-voice"
+    title: "tambourine-voice"
+    description: "Your personal voice interface for any app. Speak naturally and your words appear wherever your cursor is, with fully customizable AI voice dictation. Open source alternative to Wispr Flow."
+    language: "Rust"
+    topics:
+      - "accessibility"
+      - "cross-platform"
+      - "macos"
+      - "pipecat"
+      - "python"
+      - "rust"
+      - "speech-to-text"
+      - "tauri"
+      - "typescript"
+      - "voice-ai"
+      - "webrtc"
+      - "whisper"
+      - "windows"
+    stars_fact: 389
+    first_seen: null
+    last_push: "2026-07-17"
+  - name: "simple-chromium-ai"
+    title: "simple-chromium-ai"
+    description: "TypeScript library for Local LLM in Chromium browsers"
+    language: "TypeScript"
+    topics:
+      - "browser-extension"
+      - "chrome"
+      - "chrome-extension"
+      - "chromium"
+      - "gemini-nano-in-chrome"
+      - "local-llm"
+      - "typescript"
+    stars_fact: 269
+    first_seen: null
+    last_push: "2026-08-11"
+  - name: "gemini-cli-voice-extension"
+    title: "gemini-cli-voice-extension"
+    description: "Voice mode for Gemini CLI"
+    language: "TypeScript"
+    topics:
+      - "gemini-cli"
+      - "gemini-cli-extension"
+      - "gemini-extension"
+      - "gemini-live-api"
+      - "voice"
+    stars_fact: 24
+    first_seen: null
+    last_push: "2026-03-18"
+  - name: "voice-rtc-bench"
+    title: "voice-rtc-bench"
+    description: "A distributed benchmarking system for comparing WebRTC voice AI platforms (Daily vs LiveKit) across multiple geographic locations and time periods."
+    language: "Python"
+    topics: []
+    stars_fact: 17
+    first_seen: null
+    last_push: "2025-11-24"
+  - name: "splatter-mcp-app"
+    title: "splatter-mcp-app"
+    description: "MCP app for generating and viewing 3D models using 3D Gaussian Splatting"
+    language: "TypeScript"
+    topics:
+      - "3dgs"
+      - "chatgpt"
+      - "gaussian-splatting"
+      - "mcp"
+      - "mcp-apps"
+      - "mcp-server"
+      - "threejs"
+    stars_fact: 12
+    first_seen: null
+    last_push: "2026-02-24"
 ---
 
 # kstonekuan

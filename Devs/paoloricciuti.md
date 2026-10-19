@@ -8,11 +8,11 @@ provenance_repos:
   - "anomalyco/opencode"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-18T06:04:36.280265+00:00"
+repos_populated: true
+generated_at: "2026-10-19T06:04:45.439728+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [5, 2, 5, 2, 0, 0, 0, 1, 0, 2, 2, 3, 0]
+pushes_per_week: [4, 1, 5, 2, 0, 0, 1, 0, 0, 2, 2, 3, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 4
     not_owned_owners: 3
   "90d":
-    pushes: 22
-    distinct_repos: 10
-    active_days: 15
-    repos_not_owned: 7
-    not_owned_basenames: 6
-    not_owned_owners: 4
+    pushes: 20
+    distinct_repos: 9
+    active_days: 14
+    repos_not_owned: 6
+    not_owned_basenames: 5
+    not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 1.4667
-  repo_per_active_day: 0.6667
-  not_owned_ratio: 0.7000
-  basename_concentration: 0.2000
+  push_per_day: 1.4286
+  repo_per_active_day: 0.6429
+  not_owned_ratio: 0.6667
+  basename_concentration: 0.2222
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,22 +65,77 @@ facets:
     not_owned_basenames: 4
     not_owned_owners: 3
   "90d":
-    pushes: 22
-    distinct_repos: 10
-    pushes_per_repo: 2.2000
-    active_days: 15
-    repos_not_owned: 7
-    not_owned_basenames: 6
-    not_owned_owners: 4
+    pushes: 20
+    distinct_repos: 9
+    pushes_per_repo: 2.2222
+    active_days: 14
+    repos_not_owned: 6
+    not_owned_basenames: 5
+    not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 15 active days in 90d — pass"
+  - "activity: 14 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "sveltekit-search-params"
+    title: "sveltekit-search-params"
+    description: "The easiest way to read and WRITE from query parameters in sveltekit."
+    language: "TypeScript"
+    topics:
+      - "hacktoberfest"
+      - "query-params"
+      - "search-params"
+      - "svelte"
+      - "svelte-store"
+      - "svelte-stores"
+      - "sveltekit"
+    stars_fact: 672
+    first_seen: null
+    last_push: "2026-10-13"
+  - name: "optimistikit"
+    title: "optimistikit"
+    description: "Optimistic UI in sveltekit made easy"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 75
+    first_seen: null
+    last_push: "2026-10-01"
+  - name: "tmcp"
+    title: "tmcp"
+    description: "Typescript SDK to build MCP servers in an agnostic way"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 205
+    first_seen: null
+    last_push: "2026-10-16"
+  - name: "mcp-add"
+    title: "mcp-add"
+    description: "Universal cli to add an MCP server to a variety of clients"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 28
+    first_seen: null
+    last_push: "2026-03-17"
+  - name: "bsky-svelte-feed"
+    title: "bsky-svelte-feed"
+    description: "A bsky feed to aggregate everything svelte related"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-05"
+  - name: "ricciuti.me"
+    title: "ricciuti.me"
+    description: "my personal website"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-18"
 ---
 
 # paoloricciuti
 
-22 pushes across 10 repositories on 15 active days in the last 90 days of public GitHub push activity.
+20 pushes across 9 repositories on 14 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/paoloricciuti

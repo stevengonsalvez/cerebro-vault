@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-18T06:04:36.280265+00:00"
+generated_at: "2026-10-19T06:04:45.439728+00:00"
 provenance:
   - "73468cde177ddae6"
-pushes_per_week: [38, 9, 33, 70, 4, 6, 3, 5, 16, 40, 83, 56, 24]
+pushes_per_week: [34, 9, 36, 67, 4, 5, 4, 5, 15, 48, 91, 44, 20]
 windows:
   "7d":
     pushes: 24
@@ -22,25 +22,25 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 5
   "30d":
-    pushes: 205
+    pushes: 203
     distinct_repos: 69
-    active_days: 22
+    active_days: 21
     repos_not_owned: 48
     not_owned_basenames: 2
     not_owned_owners: 48
   "90d":
-    pushes: 387
-    distinct_repos: 125
+    pushes: 382
+    distinct_repos: 121
     active_days: 56
-    repos_not_owned: 68
+    repos_not_owned: 64
     not_owned_basenames: 2
-    not_owned_owners: 68
+    not_owned_owners: 64
 automation:
   state: "clear"
-  push_per_day: 6.9107
-  repo_per_active_day: 2.2321
-  not_owned_ratio: 0.5440
-  basename_concentration: 0.5440
+  push_per_day: 6.8214
+  repo_per_active_day: 2.1607
+  not_owned_ratio: 0.5289
+  basename_concentration: 0.5289
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -57,21 +57,21 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 5
   "30d":
-    pushes: 205
+    pushes: 203
     distinct_repos: 69
-    pushes_per_repo: 2.9710
-    active_days: 22
+    pushes_per_repo: 2.9420
+    active_days: 21
     repos_not_owned: 48
     not_owned_basenames: 2
     not_owned_owners: 48
   "90d":
-    pushes: 387
-    distinct_repos: 125
-    pushes_per_repo: 3.0960
+    pushes: 382
+    distinct_repos: 121
+    pushes_per_repo: 3.1570
     active_days: 56
-    repos_not_owned: 68
+    repos_not_owned: 64
     not_owned_basenames: 2
-    not_owned_owners: 68
+    not_owned_owners: 64
 reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 56 active days in 90d — pass"
@@ -156,6 +156,6 @@ repos:
 
 # JerrettDavis
 
-387 pushes across 125 repositories on 56 active days in the last 90 days of public GitHub push activity.
+382 pushes across 121 repositories on 56 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/JerrettDavis

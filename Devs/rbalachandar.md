@@ -8,11 +8,11 @@ provenance_repos:
   - "apache/maka"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-18T06:04:36.280265+00:00"
+repos_populated: true
+generated_at: "2026-10-19T06:04:45.439728+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [0, 3, 3, 5, 1, 0, 0, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [0, 4, 2, 5, 1, 0, 0, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,75 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 11 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "rbalachandar.github.io"
+    title: "rbalachandar.github.io"
+    description: "github.io page"
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-13"
+  - name: "artificial-senescence"
+    title: "artificial-senescence"
+    description: "Designing AI that learns, forgets, and ages"
+    language: null
+    topics:
+      - "artificial-intelligence"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-15"
+  - name: "rbalachandar"
+    title: "rbalachandar"
+    description: "AI & Data Engineering"
+    language: null
+    topics:
+      - "ai"
+      - "context-engineering"
+      - "context-management"
+      - "data-engineering"
+      - "data-science"
+      - "llm-inference"
+      - "llmops"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-20"
+  - name: "llm-learning-sim"
+    title: "llm-learning-sim"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-16"
+  - name: "vetgeno"
+    title: "vetgeno"
+    description: "A Python CLI tool for veterinary professionals and researchers to analyze tumor DNA sequences, search veterinary literature, and generate comprehensive evidence-based reports using AI-powered agentic workflows."
+    language: "Python"
+    topics:
+      - "agentic-ai"
+      - "genome-analysis"
+      - "pubmed"
+      - "vep"
+      - "veterinary"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-04-27"
+  - name: "autoresearch"
+    title: "autoresearch"
+    description: "General-purpose autonomous research framework for AI agents. Inspired by Andrej Karpathy's autoresearch."
+    language: "Python"
+    topics:
+      - "agent"
+      - "auto-research"
+      - "autoresearch"
+      - "claude"
+      - "claude-code"
+      - "optimization"
+      - "python"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-03-15"
 ---
 
 # rbalachandar

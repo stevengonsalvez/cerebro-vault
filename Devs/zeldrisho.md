@@ -8,23 +8,23 @@ provenance_repos:
   - "AlexsJones/llmfit"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-18T06:04:36.280265+00:00"
+repos_populated: true
+generated_at: "2026-10-19T06:04:45.439728+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [1, 4, 6, 7, 9, 3, 0, 1, 8, 8, 10, 2, 2]
+pushes_per_week: [3, 3, 8, 5, 11, 0, 1, 4, 5, 11, 7, 2, 1]
 windows:
   "7d":
-    pushes: 3
-    distinct_repos: 2
-    active_days: 3
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 25
+    pushes: 23
     distinct_repos: 7
-    active_days: 15
+    active_days: 14
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,18 +49,18 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 3
-    distinct_repos: 2
-    pushes_per_repo: 1.5000
-    active_days: 3
+    pushes: 1
+    distinct_repos: 1
+    pushes_per_repo: 1.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 25
+    pushes: 23
     distinct_repos: 7
-    pushes_per_repo: 3.5714
-    active_days: 15
+    pushes_per_repo: 3.2857
+    active_days: 14
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -76,7 +76,47 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 32 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "fedora-copr"
+    title: "fedora-copr"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-16"
+  - name: "scoop-bucket"
+    title: "scoop-bucket"
+    description: "Yet another Scoop bucket"
+    language: "PowerShell"
+    topics: []
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-10-16"
+  - name: "UnityVietnameseFontSync"
+    title: "UnityVietnameseFontSync"
+    description: "BepInEx 5 plugin for Vietnamese glyph fallback and targeted TextMeshPro font replacement in Unity Mono games."
+    language: "C#"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-15"
+  - name: "morphe-patches"
+    title: "morphe-patches"
+    description: "Yet another Morphe Patches"
+    language: "Kotlin"
+    topics: []
+    stars_fact: 20
+    first_seen: null
+    last_push: "2026-10-08"
+  - name: "pi-packages"
+    title: "pi-packages"
+    description: "Yet another Pi packages"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-10-12"
 ---
 
 # zeldrisho

@@ -8,11 +8,11 @@ provenance_repos:
   - "akitaonrails/ai-memory"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-18T06:04:36.280265+00:00"
+repos_populated: true
+generated_at: "2026-10-19T06:04:45.439728+00:00"
 provenance:
   - "4138778ebbc75ba6"
-pushes_per_week: [15, 9, 0, 1, 0, 2, 0, 5, 16, 21, 18, 13, 15]
+pushes_per_week: [15, 8, 0, 1, 0, 2, 4, 1, 16, 23, 19, 18, 7]
 windows:
   "7d":
     pushes: 15
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 70
-    distinct_repos: 12
-    active_days: 22
+    pushes: 68
+    distinct_repos: 11
+    active_days: 21
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 115
+    pushes: 114
     distinct_repos: 23
-    active_days: 37
+    active_days: 36
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 3.1081
-  repo_per_active_day: 0.6216
+  push_per_day: 3.1667
+  repo_per_active_day: 0.6389
   not_owned_ratio: 0.0870
   basename_concentration: 0.0870
   shapes: []
@@ -57,30 +57,78 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 70
-    distinct_repos: 12
-    pushes_per_repo: 5.8333
-    active_days: 22
+    pushes: 68
+    distinct_repos: 11
+    pushes_per_repo: 6.1818
+    active_days: 21
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 115
+    pushes: 114
     distinct_repos: 23
-    pushes_per_repo: 5.0000
-    active_days: 37
+    pushes_per_repo: 4.9565
+    active_days: 36
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 37 active days in 90d — pass"
+  - "activity: 36 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "shvia-desktop"
+    title: "shvia-desktop"
+    description: "ShvIA Desktop"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-18"
+  - name: "samirhv-site"
+    title: "samirhv-site"
+    description: "Claude, Grok, Gemma4, GLM, Minimax, GPT"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-18"
+  - name: "ai-benchmark"
+    title: "ai-benchmark"
+    description: "AI BENCHMARK"
+    language: "PHP"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-18"
+  - name: "blue3-debian-custom-iso"
+    title: "blue3-debian-custom-iso"
+    description: "Blue3 Debian Custom ISO"
+    language: "Shell"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-16"
+  - name: "blue3-rpi"
+    title: "blue3-rpi"
+    description: null
+    language: "Shell"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-16"
+  - name: "tura-notes"
+    title: "tura-notes"
+    description: "A local-first Markdown note-taking app — your folder, your .md files, no proprietary format and no account"
+    language: "Rust"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-16"
 ---
 
 # samirhvbr
 
-115 pushes across 23 repositories on 37 active days in the last 90 days of public GitHub push activity.
+114 pushes across 23 repositories on 36 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/samirhvbr

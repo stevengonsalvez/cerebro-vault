@@ -8,11 +8,11 @@ provenance_repos:
   - "BigPizzaV3/CodexPlusPlus"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-18T06:04:36.280265+00:00"
+repos_populated: true
+generated_at: "2026-10-19T06:04:45.439728+00:00"
 provenance:
   - "90688bf127241ceb"
-pushes_per_week: [3, 2, 4, 16, 4, 0, 2, 3, 6, 5, 2, 1, 4]
+pushes_per_week: [5, 0, 5, 15, 4, 1, 2, 2, 6, 5, 2, 3, 2]
 windows:
   "7d":
     pushes: 4
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 18
+    pushes: 17
     distinct_repos: 6
-    active_days: 10
+    active_days: 9
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 18
+    pushes: 17
     distinct_repos: 6
-    pushes_per_repo: 3.0000
-    active_days: 10
+    pushes_per_repo: 2.8333
+    active_days: 9
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -76,7 +76,62 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 29 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "AgentWiki"
+    title: "AgentWiki"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-10-17"
+  - name: "agentwiki-sync"
+    title: "agentwiki-sync"
+    description: "Obsidian plugin for syncing vaults with AgentWiki"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-17"
+  - name: "WPSComposer"
+    title: "WPSComposer"
+    description: "Agent skill (any agent, Codex plugin packaging included) for generating and editing rich-layout DOCX/PPTX/XLSX/PDF via the real WPS Office engine — COM on Windows, JSAPI bridge on macOS"
+    language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-14"
+  - name: "projectsitedemo"
+    title: "projectsitedemo"
+    description: null
+    language: "Shell"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-12"
+  - name: "opencode-feishu"
+    title: "opencode-feishu"
+    description: "OpenCode Feishu/Lark integration plugin — AI assistant bridge with streaming output, tool status, and multi-profile support"
+    language: "TypeScript"
+    topics:
+      - "agentsoul"
+      - "ai-bot"
+      - "chatbot"
+      - "feishu"
+      - "lark"
+      - "nodejs"
+      - "opencode"
+    stars_fact: 11
+    first_seen: null
+    last_push: "2026-06-24"
+  - name: "image-to-editable-pptx"
+    title: "image-to-editable-pptx"
+    description: "Convert slide images into high-fidelity PPTX files with editable text and selected elements."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-10-09"
 ---
 
 # NeoMei

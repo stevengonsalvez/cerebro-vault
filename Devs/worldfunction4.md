@@ -8,16 +8,16 @@ provenance_repos:
   - "addyosmani/agent-skills"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-18T06:04:36.280265+00:00"
+repos_populated: true
+generated_at: "2026-10-19T06:04:45.439728+00:00"
 provenance:
   - "dae9f02535f7c22f"
 pushes_per_week: [0, 0, 0, 1, 0, 0, 0, 1, 1, 0, 0, 1, 2]
 windows:
   "7d":
-    pushes: 3
+    pushes: 2
     distinct_repos: 1
-    active_days: 2
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 3
+    pushes: 2
     distinct_repos: 1
-    pushes_per_repo: 3.0000
-    active_days: 2
+    pushes_per_repo: 2.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -76,7 +76,39 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "StudyProject"
+    title: "StudyProject"
+    description: "既是学习也是给自己写的工具"
+    language: "C++"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-15"
+  - name: "NetGuard"
+    title: "NetGuard"
+    description: "这是面向中小型企业网络，实现设备自动发现(暂无)——配置备份——安全基线检查——拓扑可视化（暂无）——巡检报告生成的一站式运维平台"
+    language: "Python"
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-09-25"
+  - name: "LiveFace"
+    title: "LiveFace"
+    description: "毕业设计"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-23"
+  - name: "worldfunction4.github.io"
+    title: "worldfunction4.github.io"
+    description: "泪叶丝的学习博客"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-16"
 ---
 
 # worldfunction4

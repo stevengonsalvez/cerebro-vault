@@ -8,16 +8,16 @@ provenance_repos:
   - "AstrBotDevs/AstrBot"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-18T06:04:36.280265+00:00"
+repos_populated: true
+generated_at: "2026-10-19T06:04:45.439728+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [2, 0, 2, 2, 0, 0, 0, 0, 0, 5, 23, 15, 9]
+pushes_per_week: [2, 0, 2, 2, 0, 0, 0, 0, 0, 10, 18, 20, 4]
 windows:
   "7d":
-    pushes: 15
-    distinct_repos: 3
-    active_days: 4
+    pushes: 7
+    distinct_repos: 2
+    active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 15
-    distinct_repos: 3
-    pushes_per_repo: 5.0000
-    active_days: 4
+    pushes: 7
+    distinct_repos: 2
+    pushes_per_repo: 3.5000
+    active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 22 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "bellis"
+    title: "bellis"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-18"
+  - name: "astrbot_plugin_iris_memory"
+    title: "astrbot_plugin_iris_memory"
+    description: "A memory plugin for astrbot"
+    language: "Python"
+    topics: []
+    stars_fact: 34
+    first_seen: null
+    last_push: "2026-10-17"
+  - name: "astrbot_plugin_message_recorder"
+    title: "astrbot_plugin_message_recorder"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-09"
+  - name: "astrbot_plugin_iris_chat_memory"
+    title: "astrbot_plugin_iris_chat_memory"
+    description: "For Astrbot, Smart 3 tier long term memory, completed memory circle."
+    language: "Python"
+    topics: []
+    stars_fact: 21
+    first_seen: null
+    last_push: "2026-09-12"
+  - name: "hoyo_subscribe"
+    title: "hoyo_subscribe"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-09"
+  - name: "astrbot_plugin_cost_control"
+    title: "astrbot_plugin_cost_control"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 7
+    first_seen: null
+    last_push: "2026-10-06"
 ---
 
 # leafliber

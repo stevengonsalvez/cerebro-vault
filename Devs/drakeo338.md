@@ -11,41 +11,41 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-18T06:04:36.280265+00:00"
+generated_at: "2026-10-19T06:04:45.439728+00:00"
 provenance:
   - "1df6ea1f1256059e"
   - "3c90af76cbde0363"
   - "4d1450729e6ff44d"
   - "edb3a626875732de"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 1, 3, 13, 6, 3]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 1, 6, 15, 3, 2]
 windows:
   "7d":
-    pushes: 3
-    distinct_repos: 3
-    active_days: 2
+    pushes: 4
+    distinct_repos: 4
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 26
-    distinct_repos: 18
-    active_days: 14
+    pushes: 27
+    distinct_repos: 19
+    active_days: 15
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 26
-    distinct_repos: 18
-    active_days: 14
+    pushes: 27
+    distinct_repos: 19
+    active_days: 15
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.8571
-  repo_per_active_day: 1.2857
+  push_per_day: 1.8000
+  repo_per_active_day: 1.2667
   not_owned_ratio: 0.0000
-  basename_concentration: 0.0556
+  basename_concentration: 0.0526
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -54,32 +54,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 3
-    distinct_repos: 3
+    pushes: 4
+    distinct_repos: 4
     pushes_per_repo: 1.0000
-    active_days: 2
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 26
-    distinct_repos: 18
-    pushes_per_repo: 1.4444
-    active_days: 14
+    pushes: 27
+    distinct_repos: 19
+    pushes_per_repo: 1.4211
+    active_days: 15
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 26
-    distinct_repos: 18
-    pushes_per_repo: 1.4444
-    active_days: 14
+    pushes: 27
+    distinct_repos: 19
+    pushes_per_repo: 1.4211
+    active_days: 15
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 4 vault signal(s) — pass"
-  - "activity: 14 active days in 90d — pass"
+  - "activity: 15 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "drakeo338"
@@ -94,6 +94,6 @@ repos:
 
 # drakeo338
 
-26 pushes across 18 repositories on 14 active days in the last 90 days of public GitHub push activity.
+27 pushes across 19 repositories on 15 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/drakeo338

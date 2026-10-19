@@ -8,11 +8,11 @@ provenance_repos:
   - "antirez/ds4"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-18T06:04:36.280265+00:00"
+repos_populated: true
+generated_at: "2026-10-19T06:04:45.439728+00:00"
 provenance:
   - "3eacb4655aba2497"
-pushes_per_week: [22, 18, 6, 10, 6, 4, 0, 2, 9, 15, 6, 9, 16]
+pushes_per_week: [18, 19, 5, 14, 2, 4, 0, 3, 8, 15, 7, 12, 12]
 windows:
   "7d":
     pushes: 16
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 4
     not_owned_owners: 4
   "30d":
-    pushes: 52
-    distinct_repos: 18
-    active_days: 18
-    repos_not_owned: 13
-    not_owned_basenames: 12
+    pushes: 49
+    distinct_repos: 17
+    active_days: 17
+    repos_not_owned: 12
+    not_owned_basenames: 11
     not_owned_owners: 8
   "90d":
-    pushes: 123
+    pushes: 119
     distinct_repos: 31
-    active_days: 47
+    active_days: 46
     repos_not_owned: 23
     not_owned_basenames: 21
     not_owned_owners: 10
 automation:
   state: "clear"
-  push_per_day: 2.6170
-  repo_per_active_day: 0.6596
+  push_per_day: 2.5870
+  repo_per_active_day: 0.6739
   not_owned_ratio: 0.7419
   basename_concentration: 0.0968
   shapes: []
@@ -57,30 +57,78 @@ facets:
     not_owned_basenames: 4
     not_owned_owners: 4
   "30d":
-    pushes: 52
-    distinct_repos: 18
-    pushes_per_repo: 2.8889
-    active_days: 18
-    repos_not_owned: 13
-    not_owned_basenames: 12
+    pushes: 49
+    distinct_repos: 17
+    pushes_per_repo: 2.8824
+    active_days: 17
+    repos_not_owned: 12
+    not_owned_basenames: 11
     not_owned_owners: 8
   "90d":
-    pushes: 123
+    pushes: 119
     distinct_repos: 31
-    pushes_per_repo: 3.9677
-    active_days: 47
+    pushes_per_repo: 3.8387
+    active_days: 46
     repos_not_owned: 23
     not_owned_basenames: 21
     not_owned_owners: 10
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 47 active days in 90d — pass"
+  - "activity: 46 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "msgpack5"
+    title: "msgpack5"
+    description: "A msgpack v5 implementation for node.js, with extension points / msgpack.org[Node]"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 504
+    first_seen: null
+    last_push: "2026-10-18"
+  - name: "skills"
+    title: "skills"
+    description: "My own collection of skills for modern Node.js development"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 1953
+    first_seen: null
+    last_push: "2026-10-18"
+  - name: "mcp-ripgrep"
+    title: "mcp-ripgrep"
+    description: "An MCP server to wrap ripgrep"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 78
+    first_seen: null
+    last_push: "2025-04-29"
+  - name: "close-with-grace"
+    title: "close-with-grace"
+    description: "Exit your process, gracefully (if possible) - for Node.js"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 305
+    first_seen: null
+    last_push: "2026-05-13"
+  - name: "autocannon"
+    title: "autocannon"
+    description: "fast HTTP/1.1 benchmarking tool written in Node.js"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 8530
+    first_seen: null
+    last_push: "2026-05-16"
+  - name: "make-promises-safe"
+    title: "make-promises-safe"
+    description: "A node.js module to make the use of promises safe"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 663
+    first_seen: null
+    last_push: "2024-12-21"
 ---
 
 # mcollina
 
-123 pushes across 31 repositories on 47 active days in the last 90 days of public GitHub push activity.
+119 pushes across 31 repositories on 46 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/mcollina

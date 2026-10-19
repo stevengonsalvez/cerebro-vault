@@ -8,11 +8,11 @@ provenance_repos:
   - "AstrBotDevs/AstrBot"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-18T06:04:36.280265+00:00"
+repos_populated: true
+generated_at: "2026-10-19T06:04:45.439728+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [12, 3, 3, 1, 0, 0, 0, 0, 4, 19, 15, 3, 3]
+pushes_per_week: [9, 3, 3, 1, 0, 0, 0, 0, 5, 27, 6, 4, 2]
 windows:
   "7d":
     pushes: 3
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 4
     not_owned_owners: 1
   "90d":
-    pushes: 63
+    pushes: 60
     distinct_repos: 7
-    active_days: 29
+    active_days: 28
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.1724
-  repo_per_active_day: 0.2414
+  push_per_day: 2.1429
+  repo_per_active_day: 0.2500
   not_owned_ratio: 0.7143
   basename_concentration: 0.1429
   shapes: []
@@ -65,22 +65,95 @@ facets:
     not_owned_basenames: 4
     not_owned_owners: 1
   "90d":
-    pushes: 63
+    pushes: 60
     distinct_repos: 7
-    pushes_per_repo: 9.0000
-    active_days: 29
+    pushes_per_repo: 8.5714
+    active_days: 28
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 29 active days in 90d — pass"
+  - "activity: 28 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "free-one-api"
+    title: "free-one-api"
+    description: "LLM 逆向工程接口管理 | 通过标准 OpenAI API 访问 ChatGPT / gpt4free / Bard / Claude / HuggingChat / 通义千问 等 AI 的破解版 || ChatGPT reverse engineering API management | Access all reverse engineered LLM libs by standard OpenAI API format || 免费 ChatGPT Free GPT LLM API | 逆向工程 转 OpenAI API | converts all llm libs to OpenAI API"
+    language: "Rust"
+    topics:
+      - "bard"
+      - "chatbot"
+      - "chatgpt"
+      - "claude"
+      - "free"
+      - "free-gpt"
+      - "freechatgpt"
+      - "gpt"
+      - "gpt4free"
+      - "huggingchat"
+      - "one-api"
+      - "openai"
+      - "proxy"
+      - "revchatgpt"
+      - "reverse-engineering"
+      - "tongyiqianwen"
+    stars_fact: 927
+    first_seen: null
+    last_push: "2026-10-17"
+  - name: "awesome-dify-integration"
+    title: "awesome-dify-integration"
+    description: "Collection of projects / apps integrated with dify service API."
+    language: null
+    topics: []
+    stars_fact: 18
+    first_seen: null
+    last_push: "2024-10-20"
+  - name: "RockChinQ"
+    title: "RockChinQ"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 16
+    first_seen: null
+    last_push: "2026-09-28"
+  - name: "WebwlkrPlugin"
+    title: "WebwlkrPlugin"
+    description: "LangBot 项目的WebPilot插件，为其提供联网支持 | 让 ChatGPT 联网"
+    language: "Python"
+    topics:
+      - "chatgpt"
+      - "plugin"
+      - "webpilot"
+    stars_fact: 43
+    first_seen: null
+    last_push: "2023-08-11"
+  - name: "revLibs"
+    title: "revLibs"
+    description: "【已弃用】ChatGPT、Claude QQ 机器人，以插件形式为 QChatGPT 项目接入ChatGPT、Claude、Bard、gpt4free等接口的逆向工程库"
+    language: "Python"
+    topics:
+      - "chatgpt"
+      - "claude"
+      - "gpt4free"
+      - "plugin"
+      - "qchatgpt"
+      - "qq"
+    stars_fact: 200
+    first_seen: null
+    last_push: "2024-01-23"
+  - name: "csdcc_wiki"
+    title: "csdcc_wiki"
+    description: "全国大学生计算机系统能力大赛 非官方 Wiki知识库"
+    language: null
+    topics: []
+    stars_fact: 4
+    first_seen: null
+    last_push: "2024-05-21"
 ---
 
 # RockChinQ
 
-63 pushes across 7 repositories on 29 active days in the last 90 days of public GitHub push activity.
+60 pushes across 7 repositories on 28 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/RockChinQ

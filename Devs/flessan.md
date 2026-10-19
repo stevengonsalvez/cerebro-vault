@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-18T06:04:36.280265+00:00"
+generated_at: "2026-10-19T06:04:45.439728+00:00"
 provenance:
   - "46f3c1d6124190bd"
-pushes_per_week: [5, 1, 1, 1, 1, 0, 0, 7, 9, 43, 14, 5, 3]
+pushes_per_week: [4, 2, 0, 1, 1, 0, 5, 4, 11, 43, 11, 5, 2]
 windows:
   "7d":
-    pushes: 5
-    distinct_repos: 2
-    active_days: 4
+    pushes: 2
+    distinct_repos: 1
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 72
-    distinct_repos: 16
-    active_days: 21
+    pushes: 68
+    distinct_repos: 15
+    active_days: 20
     repos_not_owned: 6
     not_owned_basenames: 6
     not_owned_owners: 3
   "90d":
-    pushes: 90
+    pushes: 89
     distinct_repos: 22
-    active_days: 31
+    active_days: 30
     repos_not_owned: 6
     not_owned_basenames: 6
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 2.9032
-  repo_per_active_day: 0.7097
+  push_per_day: 2.9667
+  repo_per_active_day: 0.7333
   not_owned_ratio: 0.2727
   basename_concentration: 0.0455
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 5
-    distinct_repos: 2
-    pushes_per_repo: 2.5000
-    active_days: 4
+    pushes: 2
+    distinct_repos: 1
+    pushes_per_repo: 2.0000
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 72
-    distinct_repos: 16
-    pushes_per_repo: 4.5000
-    active_days: 21
+    pushes: 68
+    distinct_repos: 15
+    pushes_per_repo: 4.5333
+    active_days: 20
     repos_not_owned: 6
     not_owned_basenames: 6
     not_owned_owners: 3
   "90d":
-    pushes: 90
+    pushes: 89
     distinct_repos: 22
-    pushes_per_repo: 4.0909
-    active_days: 31
+    pushes_per_repo: 4.0455
+    active_days: 30
     repos_not_owned: 6
     not_owned_basenames: 6
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 31 active days in 90d — pass"
+  - "activity: 30 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "flessan"
@@ -132,6 +132,6 @@ repos:
 
 # flessan
 
-90 pushes across 22 repositories on 31 active days in the last 90 days of public GitHub push activity.
+89 pushes across 22 repositories on 30 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/flessan

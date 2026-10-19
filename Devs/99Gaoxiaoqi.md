@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-18T06:04:36.280265+00:00"
+generated_at: "2026-10-19T06:04:45.439728+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [3, 13, 3, 1, 0, 1, 1, 4, 4, 6, 28, 2, 2]
+pushes_per_week: [2, 12, 3, 1, 0, 1, 4, 2, 3, 7, 28, 2, 1]
 windows:
   "7d":
     pushes: 2
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 68
+    pushes: 66
     distinct_repos: 1
-    active_days: 30
+    active_days: 29
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.2667
-  repo_per_active_day: 0.0333
+  push_per_day: 2.2759
+  repo_per_active_day: 0.0345
   not_owned_ratio: 0.0000
   basename_concentration: 1.0000
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 68
+    pushes: 66
     distinct_repos: 1
-    pushes_per_repo: 68.0000
-    active_days: 30
+    pushes_per_repo: 66.0000
+    active_days: 29
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 30 active days in 90d — pass"
+  - "activity: 29 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "pico-harness"
@@ -136,6 +136,6 @@ repos:
 
 # 99Gaoxiaoqi
 
-68 pushes across 1 repository on 30 active days in the last 90 days of public GitHub push activity.
+66 pushes across 1 repository on 29 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/99Gaoxiaoqi

@@ -8,8 +8,8 @@ provenance_repos:
   - "abhigyanpatwari/GitNexus"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-18T06:04:36.280265+00:00"
+repos_populated: true
+generated_at: "2026-10-19T06:04:45.439728+00:00"
 provenance:
   - "3c90af76cbde0363"
 pushes_per_week: [0, 1, 0, 2, 3, 0, 0, 2, 1, 1, 2, 0, 2]
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 12 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "claude-skills-central"
+    title: "claude-skills-central"
+    description: null
+    language: "Shell"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-15"
+  - name: "claude-skills"
+    title: "claude-skills"
+    description: "Claude skills (experimentation)"
+    language: null
+    topics: []
+    stars_fact: 18
+    first_seen: null
+    last_push: "2026-10-13"
+  - name: "pb-hcf"
+    title: "pb-hcf"
+    description: "Context-wire bundle for HCF: to add in custom playbook into v2 hook to extend capabilities"
+    language: "Shell"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-10-13"
+  - name: "pb-chatroom"
+    title: "pb-chatroom"
+    description: "Self-hosted multi-Claude coordination chatroom. FastAPI + SQLite + MCP tools. Lets host Claude Code sessions, DDEV-container sessions, and their subagents exchange threaded messages — handovers, status, requests — without human relay. All data local; 127.0.0.1 bound only."
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-07"
+  - name: "pb-graphiti"
+    title: "pb-graphiti"
+    description: "Cross-session, cross-project memory for Claude Code via Graphiti + Neo4j. Ships MCP client config, usage skill, and host docker-compose recipe."
+    language: "Python"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-09-26"
+  - name: "pb-codegraph"
+    title: "pb-codegraph"
+    description: "Cross-module impact analysis for Magento 2 / Mage-OS. Detects blast radius (callers, plugin chains, observers, cron data dependencies) before deploy. LLM-driven v0.1.0; deterministic tree-sitter graph in v0.2+."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-02"
 ---
 
 # ProxiBlue

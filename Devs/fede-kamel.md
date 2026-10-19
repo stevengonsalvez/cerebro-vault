@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-18T06:04:36.280265+00:00"
+generated_at: "2026-10-19T06:04:45.439728+00:00"
 provenance:
   - "1be978947e68d1f2"
-pushes_per_week: [13, 10, 3, 26, 4, 0, 0, 0, 2, 3, 6, 4, 4]
+pushes_per_week: [11, 9, 5, 25, 3, 0, 0, 0, 2, 4, 6, 5, 2]
 windows:
   "7d":
     pushes: 4
@@ -22,25 +22,25 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 19
-    distinct_repos: 12
-    active_days: 10
+    pushes: 17
+    distinct_repos: 10
+    active_days: 9
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 75
-    distinct_repos: 26
-    active_days: 31
+    pushes: 72
+    distinct_repos: 25
+    active_days: 30
     repos_not_owned: 11
     not_owned_basenames: 11
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 2.4194
-  repo_per_active_day: 0.8387
-  not_owned_ratio: 0.4231
-  basename_concentration: 0.0769
+  push_per_day: 2.4000
+  repo_per_active_day: 0.8333
+  not_owned_ratio: 0.4400
+  basename_concentration: 0.0800
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 19
-    distinct_repos: 12
-    pushes_per_repo: 1.5833
-    active_days: 10
+    pushes: 17
+    distinct_repos: 10
+    pushes_per_repo: 1.7000
+    active_days: 9
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 75
-    distinct_repos: 26
-    pushes_per_repo: 2.8846
-    active_days: 31
+    pushes: 72
+    distinct_repos: 25
+    pushes_per_repo: 2.8800
+    active_days: 30
     repos_not_owned: 11
     not_owned_basenames: 11
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 31 active days in 90d — pass"
+  - "activity: 30 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "deep-agents-oracle-ai-database"
@@ -129,6 +129,6 @@ repos:
 
 # fede-kamel
 
-75 pushes across 26 repositories on 31 active days in the last 90 days of public GitHub push activity.
+72 pushes across 25 repositories on 30 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/fede-kamel

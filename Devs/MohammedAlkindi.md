@@ -8,11 +8,11 @@ provenance_repos:
   - "anthropics/claude-code-action"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-18T06:04:36.280265+00:00"
+repos_populated: true
+generated_at: "2026-10-19T06:04:45.439728+00:00"
 provenance:
   - "0b22ca37fd3884c9"
-pushes_per_week: [7, 6, 2, 4, 0, 3, 0, 0, 4, 0, 2, 1, 3]
+pushes_per_week: [8, 5, 4, 2, 1, 2, 0, 0, 4, 0, 2, 3, 1]
 windows:
   "7d":
     pushes: 3
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 10
-    distinct_repos: 9
-    active_days: 6
+    pushes: 6
+    distinct_repos: 5
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 10
-    distinct_repos: 9
-    pushes_per_repo: 1.1111
-    active_days: 6
+    pushes: 6
+    distinct_repos: 5
+    pushes_per_repo: 1.2000
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -76,7 +76,101 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 17 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "proofx"
+    title: "proofx"
+    description: "Hunts counterexamples to number-theory conjectures and publishes seeded, replayable search ledgers."
+    language: "Python"
+    topics:
+      - "computational-mathematics"
+      - "conjectures"
+      - "formal-verification"
+      - "lean4"
+      - "mathematics"
+      - "number-theory"
+      - "python"
+      - "reproducible-research"
+      - "research-tool"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-16"
+  - name: "alkindix"
+    title: "alkindix"
+    description: "My personal site: projects, research, photography, and writing."
+    language: "HTML"
+    topics:
+      - "html"
+      - "personal-website"
+      - "portfolio"
+      - "static-site"
+      - "typescript"
+      - "vercel"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-15"
+  - name: "mohammedalkindi"
+    title: "mohammedalkindi"
+    description: "My GitHub profile README."
+    language: null
+    topics:
+      - "github-profile"
+      - "profile-readme"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-12"
+  - name: "receipt"
+    title: "receipt"
+    description: "Reads bank statements and summarizes your spending in plain English, locally."
+    language: "Python"
+    topics:
+      - "anthropic"
+      - "cli"
+      - "clustering"
+      - "data-analysis"
+      - "fintech"
+      - "llm"
+      - "personal-finance"
+      - "python"
+      - "sqlite"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-08"
+  - name: "sahurlock"
+    title: "sahurlock"
+    description: "Locks your screen when you look away, using face tracking that runs in the browser."
+    language: "TypeScript"
+    topics:
+      - "computer-vision"
+      - "face-tracking"
+      - "focus-timer"
+      - "mediapipe"
+      - "nextjs"
+      - "privacy"
+      - "productivity"
+      - "react"
+      - "typescript"
+      - "webcam"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-08"
+  - name: "pulse"
+    title: "pulse"
+    description: "A weekly summary of your Gmail, GitHub and Notion activity, built locally."
+    language: "Python"
+    topics:
+      - "cli"
+      - "github-api"
+      - "gmail-api"
+      - "llm"
+      - "local-first"
+      - "notion-api"
+      - "personal-agent"
+      - "productivity"
+      - "python"
+      - "sqlite"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-08"
 ---
 
 # MohammedAlkindi

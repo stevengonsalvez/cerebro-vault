@@ -8,14 +8,14 @@ provenance_repos:
   - "apache/maka"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-18T06:04:36.280265+00:00"
+repos_populated: true
+generated_at: "2026-10-19T06:04:45.439728+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [0, 3, 0, 2, 0, 2, 0, 0, 3, 3, 0, 0, 7]
+pushes_per_week: [0, 3, 0, 2, 1, 1, 0, 0, 4, 2, 0, 3, 4]
 windows:
   "7d":
-    pushes: 7
+    pushes: 6
     distinct_repos: 2
     active_days: 2
     repos_not_owned: 1
@@ -49,9 +49,9 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 7
+    pushes: 6
     distinct_repos: 2
-    pushes_per_repo: 3.5000
+    pushes_per_repo: 3.0000
     active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
@@ -76,7 +76,39 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 14 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "search_lun"
+    title: "search_lun"
+    description: "wip"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-04-05"
+  - name: "test_ai"
+    title: "test_ai"
+    description: "test_ai"
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-03-12"
+  - name: "AIScreenshotAssi"
+    title: "AIScreenshotAssi"
+    description: "(🚧 WIP)"
+    language: "Rust"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-03-02"
+  - name: "xxhZs"
+    title: "xxhZs"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2022-08-09"
 ---
 
 # xxhZs

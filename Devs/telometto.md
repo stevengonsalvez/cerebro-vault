@@ -8,21 +8,21 @@ provenance_repos:
   - "alirezarezvani/claude-skills"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-18T06:04:36.280265+00:00"
+repos_populated: true
+generated_at: "2026-10-19T06:04:45.439728+00:00"
 provenance:
   - "3cb7ff1cdcf97c6b"
-pushes_per_week: [7, 14, 5, 13, 3, 3, 0, 1, 5, 5, 7, 3, 3]
+pushes_per_week: [9, 13, 4, 14, 2, 3, 1, 1, 5, 6, 5, 5, 1]
 windows:
   "7d":
-    pushes: 5
+    pushes: 2
     distinct_repos: 1
-    active_days: 3
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 20
+    pushes: 19
     distinct_repos: 1
     active_days: 13
     repos_not_owned: 0
@@ -49,17 +49,17 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 5
+    pushes: 2
     distinct_repos: 1
-    pushes_per_repo: 5.0000
-    active_days: 3
+    pushes_per_repo: 2.0000
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 20
+    pushes: 19
     distinct_repos: 1
-    pushes_per_repo: 20.0000
+    pushes_per_repo: 19.0000
     active_days: 13
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -76,7 +76,56 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 40 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "nix-config"
+    title: "nix-config"
+    description: "Personal Nix repo. Claude was introduced May 2026."
+    language: "Nix"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-16"
+  - name: "homelab-apps"
+    title: "homelab-apps"
+    description: null
+    language: "Shell"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-05-17"
+  - name: "telometto"
+    title: "telometto"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-05-15"
+  - name: "libvibrant"
+    title: "libvibrant"
+    description: null
+    language: "C"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2021-08-21"
+  - name: "ansible-personal"
+    title: "ansible-personal"
+    description: "Personal ansible setup to get up and running hassle-free."
+    language: null
+    topics:
+      - "ansible"
+    stars_fact: 2
+    first_seen: null
+    last_push: "2024-06-30"
+  - name: "HelloWorld"
+    title: "HelloWorld"
+    description: null
+    language: "Kotlin"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2023-10-18"
 ---
 
 # telometto

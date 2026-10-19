@@ -8,28 +8,28 @@ provenance_repos:
   - "1jehuang/jcode"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-18T06:04:36.280265+00:00"
+repos_populated: true
+generated_at: "2026-10-19T06:04:45.439728+00:00"
 provenance:
   - "2a7f0fddd2dac162"
-pushes_per_week: [86, 77, 11, 68, 24, 4, 5, 6, 31, 40, 40, 19, 10]
+pushes_per_week: [92, 65, 9, 70, 25, 5, 1, 9, 40, 31, 39, 21, 9]
 windows:
   "7d":
-    pushes: 11
+    pushes: 10
     distinct_repos: 7
     active_days: 4
-    repos_not_owned: 4
-    not_owned_basenames: 4
+    repos_not_owned: 5
+    not_owned_basenames: 5
     not_owned_owners: 1
   "30d":
-    pushes: 122
-    distinct_repos: 50
+    pushes: 123
+    distinct_repos: 51
     active_days: 26
-    repos_not_owned: 18
-    not_owned_basenames: 18
+    repos_not_owned: 19
+    not_owned_basenames: 19
     not_owned_owners: 1
   "90d":
-    pushes: 421
+    pushes: 416
     distinct_repos: 89
     active_days: 64
     repos_not_owned: 25
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 6.5781
+  push_per_day: 6.5000
   repo_per_active_day: 1.3906
   not_owned_ratio: 0.2809
   basename_concentration: 0.0225
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 11
+    pushes: 10
     distinct_repos: 7
-    pushes_per_repo: 1.5714
+    pushes_per_repo: 1.4286
     active_days: 4
-    repos_not_owned: 4
-    not_owned_basenames: 4
+    repos_not_owned: 5
+    not_owned_basenames: 5
     not_owned_owners: 1
   "30d":
-    pushes: 122
-    distinct_repos: 50
-    pushes_per_repo: 2.4400
+    pushes: 123
+    distinct_repos: 51
+    pushes_per_repo: 2.4118
     active_days: 26
-    repos_not_owned: 18
-    not_owned_basenames: 18
+    repos_not_owned: 19
+    not_owned_basenames: 19
     not_owned_owners: 1
   "90d":
-    pushes: 421
+    pushes: 416
     distinct_repos: 89
-    pushes_per_repo: 4.7303
+    pushes_per_repo: 4.6742
     active_days: 64
     repos_not_owned: 25
     not_owned_basenames: 25
@@ -76,11 +76,59 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 64 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "ishigama-search"
+    title: "ishigama-search"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-16"
+  - name: "gha-dashboard"
+    title: "gha-dashboard"
+    description: null
+    language: "Rust"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-16"
+  - name: "mygha"
+    title: "mygha"
+    description: "自分用GitHub Actions集"
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-16"
+  - name: "takumi3488"
+    title: "takumi3488"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-16"
+  - name: "cookiejar-server"
+    title: "cookiejar-server"
+    description: null
+    language: "Go"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-16"
+  - name: "ical2s3grpc"
+    title: "ical2s3grpc"
+    description: null
+    language: "C#"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-15"
 ---
 
 # takumi3488
 
-421 pushes across 89 repositories on 64 active days in the last 90 days of public GitHub push activity.
+416 pushes across 89 repositories on 64 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/takumi3488

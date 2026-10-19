@@ -8,11 +8,11 @@ provenance_repos:
   - "agentscope-ai/QwenPaw"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-18T06:04:36.280265+00:00"
+repos_populated: true
+generated_at: "2026-10-19T06:04:45.439728+00:00"
 provenance:
   - "541318303a272608"
-pushes_per_week: [0, 15, 7, 1, 3, 0, 0, 8, 4, 1, 0, 3, 4]
+pushes_per_week: [0, 18, 5, 0, 3, 0, 0, 9, 3, 1, 0, 5, 2]
 windows:
   "7d":
     pushes: 4
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 20 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "AgentGate"
+    title: "AgentGate"
+    description: "Out-of-process authorization proxy and safety gateway for autonomous AI agent tool execution."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-15"
+  - name: "Relay"
+    title: "Relay"
+    description: "Self-hostable API gateway built for managing API keys, routing, rate limits, and observability."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-18"
+  - name: "AlgoMerge"
+    title: "AlgoMerge"
+    description: "Find the best open-source issues to contribute to — with the lowest competition"
+    language: "HTML"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-08"
+  - name: "ai-knowledge-hub"
+    title: "ai-knowledge-hub"
+    description: "AI-powered knowledge management platform - Full-stack project covering 50+ concepts: React/Next.js, Express, PostgreSQL, MongoDB, Redis, OpenAI, Stripe, Docker, WebSocket, JWT/OAuth, RAG, Multi-step Agent"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-30"
+  - name: "CRY"
+    title: "CRY"
+    description: null
+    language: "Rust"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-27"
+  - name: "Noir-template"
+    title: "Noir-template"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-23"
 ---
 
 # mohitdebian

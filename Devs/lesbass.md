@@ -8,16 +8,16 @@ provenance_repos:
   - "alibaba/open-code-review"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-18T06:04:36.280265+00:00"
+repos_populated: true
+generated_at: "2026-10-19T06:04:45.439728+00:00"
 provenance:
   - "c489e6fb5febf2ab"
-pushes_per_week: [2, 0, 0, 0, 0, 0, 0, 1, 1, 0, 3, 3, 2]
+pushes_per_week: [1, 0, 0, 0, 0, 0, 0, 1, 1, 0, 3, 4, 1]
 windows:
   "7d":
-    pushes: 3
+    pushes: 1
     distinct_repos: 1
-    active_days: 3
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 12
+    pushes: 11
     distinct_repos: 3
-    active_days: 10
+    active_days: 9
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.2000
-  repo_per_active_day: 0.3000
+  push_per_day: 1.2222
+  repo_per_active_day: 0.3333
   not_owned_ratio: 0.3333
   basename_concentration: 0.3333
   shapes: []
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 3
+    pushes: 1
     distinct_repos: 1
-    pushes_per_repo: 3.0000
-    active_days: 3
+    pushes_per_repo: 1.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -65,22 +65,70 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 12
+    pushes: 11
     distinct_repos: 3
-    pushes_per_repo: 4.0000
-    active_days: 10
+    pushes_per_repo: 3.6667
+    active_days: 9
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 10 active days in 90d — pass"
+  - "activity: 9 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "ai-newsroom"
+    title: "ai-newsroom"
+    description: "Autonomous AI news website with strict editorial quality gates."
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-13"
+  - name: "cc-autopilot"
+    title: "cc-autopilot"
+    description: "Cron + watchdog for unattended AI coding agents. Schedule Codex, Claude Code, Gemini CLI or any command with retries, timeouts, silent-failure detection and health logs."
+    language: null
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-07-13"
+  - name: "notion-2-ical"
+    title: "notion-2-ical"
+    description: "This is a small class library intended to be used with a web api/website in order to expose an iCal feed to be imported in apps such as Google Calendar or Microsoft Outlook. It maps the way I arranged the structure of my task items in Notion, so it should be adapted based on your specific way of using Notion."
+    language: "C#"
+    topics: []
+    stars_fact: 8
+    first_seen: null
+    last_push: "2026-07-03"
+  - name: "agent-plugins"
+    title: "agent-plugins"
+    description: "Claude Code plugin: 3-agent parallel code reviewer (Geddy/Alex/Neil) covering security, architecture, and testability dimensions."
+    language: "Shell"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-05-05"
+  - name: "pippo-baudo-extension"
+    title: "pippo-baudo-extension"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-02-23"
+  - name: "multi-agent-poc"
+    title: "multi-agent-poc"
+    description: null
+    language: "C#"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2025-11-20"
 ---
 
 # lesbass
 
-12 pushes across 3 repositories on 10 active days in the last 90 days of public GitHub push activity.
+11 pushes across 3 repositories on 9 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/lesbass

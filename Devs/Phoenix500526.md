@@ -8,11 +8,11 @@ provenance_repos:
   - "apache/maka"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-18T06:04:36.280265+00:00"
+repos_populated: true
+generated_at: "2026-10-19T06:04:45.439728+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [4, 2, 4, 0, 1, 0, 1, 3, 3, 3, 0, 2, 0]
+pushes_per_week: [3, 3, 3, 0, 1, 1, 1, 3, 2, 3, 0, 2, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 7
+    pushes: 6
     distinct_repos: 2
-    active_days: 5
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 23
+    pushes: 22
     distinct_repos: 5
-    active_days: 18
+    active_days: 17
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.2778
-  repo_per_active_day: 0.2778
+  push_per_day: 1.2941
+  repo_per_active_day: 0.2941
   not_owned_ratio: 0.0000
   basename_concentration: 0.2000
   shapes: []
@@ -57,30 +57,78 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 7
+    pushes: 6
     distinct_repos: 2
-    pushes_per_repo: 3.5000
-    active_days: 5
+    pushes_per_repo: 3.0000
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 23
+    pushes: 22
     distinct_repos: 5
-    pushes_per_repo: 4.6000
-    active_days: 18
+    pushes_per_repo: 4.4000
+    active_days: 17
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 18 active days in 90d — pass"
+  - "activity: 17 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "Phoenix500526"
+    title: "Phoenix500526"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-10-18"
+  - name: "Phoenix500526.github.io"
+    title: "Phoenix500526.github.io"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-05-27"
+  - name: "2048"
+    title: "2048"
+    description: "My project"
+    language: "C"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2014-10-31"
+  - name: "Tmuduo"
+    title: "Tmuduo"
+    description: null
+    language: "C++"
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2020-12-09"
+  - name: "TinyORM"
+    title: "TinyORM"
+    description: null
+    language: "C++"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2021-03-04"
+  - name: "rust-practice"
+    title: "rust-practice"
+    description: null
+    language: "Rust"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2023-01-22"
 ---
 
 # Phoenix500526
 
-23 pushes across 5 repositories on 18 active days in the last 90 days of public GitHub push activity.
+22 pushes across 5 repositories on 17 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Phoenix500526

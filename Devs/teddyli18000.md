@@ -8,16 +8,16 @@ provenance_repos:
   - "alibaba/open-code-review"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-18T06:04:36.280265+00:00"
+repos_populated: true
+generated_at: "2026-10-19T06:04:45.439728+00:00"
 provenance:
   - "c489e6fb5febf2ab"
-pushes_per_week: [0, 0, 14, 8, 4, 3, 2, 0, 0, 5, 11, 20, 7]
+pushes_per_week: [0, 0, 15, 7, 5, 4, 0, 0, 0, 5, 18, 13, 7]
 windows:
   "7d":
-    pushes: 12
+    pushes: 7
     distinct_repos: 2
-    active_days: 3
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 12
+    pushes: 7
     distinct_repos: 2
-    pushes_per_repo: 6.0000
-    active_days: 3
+    pushes_per_repo: 3.5000
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -76,7 +76,63 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 21 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "web-ingest"
+    title: "web-ingest"
+    description: null
+    language: "HTML"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-10-16"
+  - name: "teddyli18000"
+    title: "teddyli18000"
+    description: "A living GitHub profile README."
+    language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-16"
+  - name: "mimo-web-proxy"
+    title: "mimo-web-proxy"
+    description: "把小米 MiMo AI Studio 网页端反代为 OpenAI / Anthropic 兼容 API 的本地网关。单 exe 双击即用。Turn MiMo web chat into an OpenAI/Anthropic compatible API."
+    language: "Go"
+    topics:
+      - "ai-gateway"
+      - "anthropic-api"
+      - "golang"
+      - "llm"
+      - "mimo"
+      - "openai-api"
+      - "proxy"
+      - "xiaomi"
+    stars_fact: 9
+    first_seen: null
+    last_push: "2026-09-26"
+  - name: "ms-todo-mcp"
+    title: "ms-todo-mcp"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-13"
+  - name: "vitrual_browser"
+    title: "vitrual_browser"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-08"
+  - name: "dsh-approval-gate"
+    title: "dsh-approval-gate"
+    description: "DSH approval gate development"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-09-26"
 ---
 
 # teddyli18000

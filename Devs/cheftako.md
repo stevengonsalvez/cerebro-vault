@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-17T06:04:44.015278+00:00"
+generated_at: "2026-10-19T06:04:45.439728+00:00"
 provenance:
   - "a5ffcd0a46dd44fd"
-pushes_per_week: [3, 2, 1, 0, 0, 0, 0, 0, 1, 0, 1, 1, 1]
+pushes_per_week: [2, 3, 0, 0, 0, 0, 0, 0, 1, 0, 1, 1, 1]
 windows:
   "7d":
     pushes: 1
@@ -22,25 +22,25 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 4
+    pushes: 3
     distinct_repos: 3
-    active_days: 4
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 10
-    distinct_repos: 4
+    pushes: 9
+    distinct_repos: 3
     active_days: 9
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.1111
-  repo_per_active_day: 0.4444
+  push_per_day: 1.0000
+  repo_per_active_day: 0.3333
   not_owned_ratio: 0.0000
-  basename_concentration: 0.2500
+  basename_concentration: 0.3333
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -57,17 +57,17 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 4
+    pushes: 3
     distinct_repos: 3
-    pushes_per_repo: 1.3333
-    active_days: 4
+    pushes_per_repo: 1.0000
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 10
-    distinct_repos: 4
-    pushes_per_repo: 2.5000
+    pushes: 9
+    distinct_repos: 3
+    pushes_per_repo: 3.0000
     active_days: 9
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -97,6 +97,6 @@ repos:
 
 # cheftako
 
-10 pushes across 4 repositories on 9 active days in the last 90 days of public GitHub push activity.
+9 pushes across 3 repositories on 9 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/cheftako

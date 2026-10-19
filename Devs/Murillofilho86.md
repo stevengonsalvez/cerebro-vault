@@ -8,8 +8,8 @@ provenance_repos:
   - "akitaonrails/ai-memory"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-18T06:04:36.280265+00:00"
+repos_populated: true
+generated_at: "2026-10-19T06:04:45.439728+00:00"
 provenance:
   - "4138778ebbc75ba6"
 pushes_per_week: [1, 1, 1, 0, 0, 0, 0, 3, 0, 0, 0, 0, 0]
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "neetcode-submissions"
+    title: "neetcode-submissions"
+    description: "My NeetCode.io problem submissions"
+    language: "C#"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-02"
+  - name: "codecrafters-claude-code-python"
+    title: "codecrafters-claude-code-python"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-11"
+  - name: "codecrafters-shell-csharp"
+    title: "codecrafters-shell-csharp"
+    description: null
+    language: "Shell"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-30"
+  - name: "vertical-slice-template"
+    title: "vertical-slice-template"
+    description: null
+    language: "C#"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-14"
+  - name: "mcp-git-server"
+    title: "mcp-git-server"
+    description: "Ferramenta de estudo para certificação Anthropic"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-07-30"
+  - name: "git-integration-agent"
+    title: "git-integration-agent"
+    description: "O Git Analysis Agent é um agente inteligente que analisa branches antigas e obsoletas para determinar o que pode ser reaproveitado, atualizado ou integrado nas branches QA ou Develop. Automatize a gestão de débitos técnicos do seu Git com análises inteligentes de ciclo de vida de código e IA."
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-07-24"
 ---
 
 # Murillofilho86

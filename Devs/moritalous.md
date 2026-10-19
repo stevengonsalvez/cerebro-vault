@@ -8,11 +8,11 @@ provenance_repos:
   - "anthropics/anthropic-sdk-python"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-18T06:04:36.280265+00:00"
+repos_populated: true
+generated_at: "2026-10-19T06:04:45.439728+00:00"
 provenance:
   - "1be978947e68d1f2"
-pushes_per_week: [10, 2, 0, 3, 0, 1, 0, 1, 1, 1, 1, 0, 0]
+pushes_per_week: [8, 1, 2, 1, 0, 1, 0, 1, 2, 0, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 3
-    distinct_repos: 3
-    active_days: 3
+    pushes: 2
+    distinct_repos: 2
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 20
+    pushes: 17
     distinct_repos: 8
-    active_days: 13
+    active_days: 12
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.5385
-  repo_per_active_day: 0.6154
+  push_per_day: 1.4167
+  repo_per_active_day: 0.6667
   not_owned_ratio: 0.0000
   basename_concentration: 0.1250
   shapes: []
@@ -57,30 +57,78 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 3
-    distinct_repos: 3
+    pushes: 2
+    distinct_repos: 2
     pushes_per_repo: 1.0000
-    active_days: 3
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 20
+    pushes: 17
     distinct_repos: 8
-    pushes_per_repo: 2.5000
-    active_days: 13
+    pushes_per_repo: 2.1250
+    active_days: 12
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 13 active days in 90d — pass"
+  - "activity: 12 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "cost-widget"
+    title: "cost-widget"
+    description: null
+    language: "C#"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-19"
+  - name: "my-jev-playground"
+    title: "my-jev-playground"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-04"
+  - name: "claude-mods-router"
+    title: "claude-mods-router"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-02"
+  - name: "lambda-mcp-adaptor"
+    title: "lambda-mcp-adaptor"
+    description: "An MCP server SDK for AWS serverless architecture with familiar, official SDK-like API design."
+    language: "JavaScript"
+    topics: []
+    stars_fact: 13
+    first_seen: null
+    last_push: "2025-06-15"
+  - name: "lambda-microvm-webapp"
+    title: "lambda-microvm-webapp"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 5
+    first_seen: null
+    last_push: "2026-06-27"
+  - name: "qiita-voice-plugin"
+    title: "qiita-voice-plugin"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-08-27"
 ---
 
 # moritalous
 
-20 pushes across 8 repositories on 13 active days in the last 90 days of public GitHub push activity.
+17 pushes across 8 repositories on 12 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/moritalous

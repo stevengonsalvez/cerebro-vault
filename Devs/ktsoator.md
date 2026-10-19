@@ -8,11 +8,11 @@ provenance_repos:
   - "agent-substrate/substrate"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-18T06:04:36.280265+00:00"
+repos_populated: true
+generated_at: "2026-10-19T06:04:45.439728+00:00"
 provenance:
   - "a5ffcd0a46dd44fd"
-pushes_per_week: [6, 4, 2, 8, 0, 2, 0, 1, 3, 2, 3, 1, 4]
+pushes_per_week: [6, 3, 4, 6, 1, 1, 1, 1, 2, 4, 1, 4, 1]
 windows:
   "7d":
     pushes: 4
@@ -29,7 +29,7 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 2
   "90d":
-    pushes: 36
+    pushes: 35
     distinct_repos: 8
     active_days: 25
     repos_not_owned: 2
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 1.4400
+  push_per_day: 1.4000
   repo_per_active_day: 0.3200
   not_owned_ratio: 0.2500
   basename_concentration: 0.2500
@@ -65,9 +65,9 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 2
   "90d":
-    pushes: 36
+    pushes: 35
     distinct_repos: 8
-    pushes_per_repo: 4.5000
+    pushes_per_repo: 4.3750
     active_days: 25
     repos_not_owned: 2
     not_owned_basenames: 1
@@ -76,11 +76,19 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 25 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "ktsoator"
+    title: "ktsoator"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-15"
 ---
 
 # ktsoator
 
-36 pushes across 8 repositories on 25 active days in the last 90 days of public GitHub push activity.
+35 pushes across 8 repositories on 25 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ktsoator

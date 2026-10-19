@@ -8,8 +8,8 @@ provenance_repos:
   - "Nutlope/hallmark"
 admitted: true
 low_n: true
-repos_populated: false
-generated_at: "2026-10-18T06:04:36.280265+00:00"
+repos_populated: true
+generated_at: "2026-10-19T06:04:45.439728+00:00"
 provenance:
   - "56ed6f5b1a23b5b5"
 pushes_per_week: [0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 1 active days in 90d — below the 5-day line, LABELLED low-n (never suppressed)"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "hallmark"
+    title: "hallmark"
+    description: "Anti-AI-slop design skill for Claude Code, Cursor, and Codex."
+    language: "CSS"
+    topics: []
+    stars_fact: 30351
+    first_seen: "2026-09-04T06:00:17.162493+00:00"
+    last_push: "2026-08-06"
+  - name: "gloss"
+    title: "gloss"
+    description: "A reader that writes answers in the margin. Select any line, ask, and an open model on Together AI answers beside it."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 296
+    first_seen: null
+    last_push: "2026-10-15"
+  - name: "self.so"
+    title: "self.so"
+    description: "LinkedIn -> personal site generator"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 3087
+    first_seen: null
+    last_push: "2026-09-04"
+  - name: "logocreator"
+    title: "logocreator"
+    description: "A free + OSS logo generator powered by Flux on Together AI"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 8866
+    first_seen: null
+    last_push: "2026-08-03"
+  - name: "llamacoder"
+    title: "llamacoder"
+    description: "Open source Claude Artifacts – built with Llama 3.1 405B"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 7137
+    first_seen: null
+    last_push: "2026-10-15"
+  - name: "make-comics"
+    title: "make-comics"
+    description: "Create full comics with AI in seconds"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 517
+    first_seen: null
+    last_push: "2026-07-30"
 ---
 
 # Nutlope

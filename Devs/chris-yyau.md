@@ -9,11 +9,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-18T06:04:36.280265+00:00"
+generated_at: "2026-10-19T06:04:45.439728+00:00"
 provenance:
   - "1df6ea1f1256059e"
   - "edb3a626875732de"
-pushes_per_week: [47, 24, 20, 21, 10, 4, 2, 3, 6, 8, 6, 3, 8]
+pushes_per_week: [54, 16, 22, 20, 9, 6, 2, 1, 6, 9, 6, 5, 5]
 windows:
   "7d":
     pushes: 8
@@ -23,23 +23,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 31
+    pushes: 28
     distinct_repos: 3
-    active_days: 16
+    active_days: 15
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 162
+    pushes: 161
     distinct_repos: 4
-    active_days: 50
+    active_days: 49
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 3.2400
-  repo_per_active_day: 0.0800
+  push_per_day: 3.2857
+  repo_per_active_day: 0.0816
   not_owned_ratio: 0.0000
   basename_concentration: 0.2500
   shapes: []
@@ -58,24 +58,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 31
+    pushes: 28
     distinct_repos: 3
-    pushes_per_repo: 10.3333
-    active_days: 16
+    pushes_per_repo: 9.3333
+    active_days: 15
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 162
+    pushes: 161
     distinct_repos: 4
-    pushes_per_repo: 40.5000
-    active_days: 50
+    pushes_per_repo: 40.2500
+    active_days: 49
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 50 active days in 90d — pass"
+  - "activity: 49 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "busdriver"
@@ -114,6 +114,6 @@ repos:
 
 # chris-yyau
 
-162 pushes across 4 repositories on 50 active days in the last 90 days of public GitHub push activity.
+161 pushes across 4 repositories on 49 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/chris-yyau

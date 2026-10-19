@@ -8,39 +8,39 @@ provenance_repos:
   - "BuilderIO/agent-native"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-18T06:04:36.280265+00:00"
+repos_populated: true
+generated_at: "2026-10-19T06:04:45.439728+00:00"
 provenance:
   - "745308b2b7085095"
-pushes_per_week: [11, 3, 5, 3, 0, 0, 0, 1, 3, 0, 9, 1, 9]
+pushes_per_week: [8, 6, 2, 3, 0, 0, 0, 2, 2, 0, 10, 6, 4]
 windows:
   "7d":
-    pushes: 9
-    distinct_repos: 2
-    active_days: 3
-    repos_not_owned: 2
-    not_owned_basenames: 2
+    pushes: 7
+    distinct_repos: 3
+    active_days: 4
+    repos_not_owned: 3
+    not_owned_basenames: 3
     not_owned_owners: 1
   "30d":
-    pushes: 21
-    distinct_repos: 2
-    active_days: 10
-    repos_not_owned: 2
-    not_owned_basenames: 2
+    pushes: 22
+    distinct_repos: 3
+    active_days: 11
+    repos_not_owned: 3
+    not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 45
-    distinct_repos: 6
+    pushes: 43
+    distinct_repos: 7
     active_days: 24
-    repos_not_owned: 4
-    not_owned_basenames: 4
+    repos_not_owned: 5
+    not_owned_basenames: 5
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.8750
-  repo_per_active_day: 0.2500
-  not_owned_ratio: 0.6667
-  basename_concentration: 0.1667
+  push_per_day: 1.7917
+  repo_per_active_day: 0.2917
+  not_owned_ratio: 0.7143
+  basename_concentration: 0.1429
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,38 +49,62 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 9
-    distinct_repos: 2
-    pushes_per_repo: 4.5000
-    active_days: 3
-    repos_not_owned: 2
-    not_owned_basenames: 2
+    pushes: 7
+    distinct_repos: 3
+    pushes_per_repo: 2.3333
+    active_days: 4
+    repos_not_owned: 3
+    not_owned_basenames: 3
     not_owned_owners: 1
   "30d":
-    pushes: 21
-    distinct_repos: 2
-    pushes_per_repo: 10.5000
-    active_days: 10
-    repos_not_owned: 2
-    not_owned_basenames: 2
+    pushes: 22
+    distinct_repos: 3
+    pushes_per_repo: 7.3333
+    active_days: 11
+    repos_not_owned: 3
+    not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 45
-    distinct_repos: 6
-    pushes_per_repo: 7.5000
+    pushes: 43
+    distinct_repos: 7
+    pushes_per_repo: 6.1429
     active_days: 24
-    repos_not_owned: 4
-    not_owned_basenames: 4
+    repos_not_owned: 5
+    not_owned_basenames: 5
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 24 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "notion-voice-notes"
+    title: "notion-voice-notes"
+    description: "CLI tool to transcribe audio files and create Notion pages with AI summaries"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-30"
+  - name: "declination-living"
+    title: "declination-living"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-07-26"
+  - name: "keithce"
+    title: "keithce"
+    description: "Profile Repository"
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-04-19"
 ---
 
 # keithce
 
-45 pushes across 6 repositories on 24 active days in the last 90 days of public GitHub push activity.
+43 pushes across 7 repositories on 24 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/keithce

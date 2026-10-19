@@ -8,19 +8,19 @@ provenance_repos:
   - "antirez/ds4"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-18T06:04:36.280265+00:00"
+repos_populated: true
+generated_at: "2026-10-19T06:04:45.439728+00:00"
 provenance:
   - "3eacb4655aba2497"
-pushes_per_week: [19, 19, 13, 1, 0, 0, 0, 0, 0, 0, 0, 1, 2]
+pushes_per_week: [25, 17, 9, 1, 0, 0, 0, 0, 0, 0, 0, 3, 0]
 windows:
   "7d":
-    pushes: 2
-    distinct_repos: 2
-    active_days: 1
-    repos_not_owned: 2
-    not_owned_basenames: 2
-    not_owned_owners: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
     pushes: 3
     distinct_repos: 3
@@ -49,13 +49,13 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
-    distinct_repos: 2
-    pushes_per_repo: 1.0000
-    active_days: 1
-    repos_not_owned: 2
-    not_owned_basenames: 2
-    not_owned_owners: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
     pushes: 3
     distinct_repos: 3
@@ -76,7 +76,23 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 19 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "accretion"
+    title: "accretion"
+    description: "The accretion disk around DwarfStar — a consumer streaming platform that feeds ds4 experts from NVMe on demand, so 300B-class models serve real work from hardware you can actually buy."
+    language: "C"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-08-10"
+  - name: "Morph"
+    title: "Morph"
+    description: "Replacement for AutoMapper"
+    language: "C#"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-04-17"
 ---
 
 # nexus-cw

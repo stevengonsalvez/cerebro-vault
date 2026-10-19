@@ -8,11 +8,11 @@ provenance_repos:
   - "calesthio/OpenMontage"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-18T06:04:36.280265+00:00"
+repos_populated: true
+generated_at: "2026-10-19T06:04:45.439728+00:00"
 provenance:
   - "6d3bd03b49986330"
-pushes_per_week: [7, 0, 2, 1, 0, 2, 0, 1, 0, 1, 3, 4, 1]
+pushes_per_week: [6, 1, 1, 1, 1, 1, 0, 1, 0, 1, 4, 3, 1]
 windows:
   "7d":
     pushes: 1
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 22
+    pushes: 21
     distinct_repos: 7
-    active_days: 18
+    active_days: 17
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.2222
-  repo_per_active_day: 0.3889
+  push_per_day: 1.2353
+  repo_per_active_day: 0.4118
   not_owned_ratio: 0.1429
   basename_concentration: 0.1429
   shapes: []
@@ -65,22 +65,89 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 22
+    pushes: 21
     distinct_repos: 7
-    pushes_per_repo: 3.1429
-    active_days: 18
+    pushes_per_repo: 3.0000
+    active_days: 17
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 18 active days in 90d — pass"
+  - "activity: 17 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "sentinel-core"
+    title: "sentinel-core"
+    description: null
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-18"
+  - name: "pixelpets"
+    title: "pixelpets"
+    description: "A cute pixel cat or dog that lives on your desktop. It watches your cursor, reacts when you type, purrs or pants when you pet it, and plays fetch on its own. 14 cat coats and a Black Lab, 100% original art and procedural sound. Try it in your browser, no install."
+    language: "JavaScript"
+    topics:
+      - "cat"
+      - "cats"
+      - "desktop-companion"
+      - "desktop-pet"
+      - "electron"
+      - "javascript"
+      - "kawaii"
+      - "macos"
+      - "pixel-art"
+      - "pomodoro"
+      - "procedural-generation"
+      - "productivity"
+      - "shimeji"
+      - "virtual-pet"
+      - "web-audio"
+      - "windows"
+    stars_fact: 13
+    first_seen: null
+    last_push: "2026-10-16"
+  - name: "vesper"
+    title: "vesper"
+    description: "A voice copilot driven by the Claude Code CLI. Local speech in and out, ambient machine awareness, no API key."
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-14"
+  - name: "Echo_FLOW"
+    title: "Echo_FLOW"
+    description: "Local-first voice dictation for Windows. Whisper transcription + on-device LLM cleanup that learns your voice; offline by default, with a 1577-test suite."
+    language: "Python"
+    topics:
+      - "llm"
+      - "local-first"
+      - "ollama"
+      - "privacy"
+      - "python"
+      - "speech-to-text"
+      - "voice-dictation"
+      - "whisper"
+      - "windows"
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-10-14"
+  - name: "JOhnsonKC201"
+    title: "JOhnsonKC201"
+    description: "Config files for my GitHub profile."
+    language: null
+    topics:
+      - "config"
+      - "github-config"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-14"
 ---
 
 # JOhnsonKC201
 
-22 pushes across 7 repositories on 18 active days in the last 90 days of public GitHub push activity.
+21 pushes across 7 repositories on 17 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/JOhnsonKC201

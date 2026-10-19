@@ -8,8 +8,8 @@ provenance_repos:
   - "agent-substrate/substrate"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-18T06:04:36.280265+00:00"
+repos_populated: true
+generated_at: "2026-10-19T06:04:45.439728+00:00"
 provenance:
   - "a5ffcd0a46dd44fd"
 pushes_per_week: [0, 3, 9, 4, 0, 0, 0, 0, 2, 0, 2, 0, 2]
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 5
+    pushes: 4
     distinct_repos: 1
-    active_days: 4
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 5
+    pushes: 4
     distinct_repos: 1
-    pushes_per_repo: 5.0000
-    active_days: 4
+    pushes_per_repo: 4.0000
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 14 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "dice"
+    title: "dice"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-12"
+  - name: "atepg-change-feed-perf"
+    title: "atepg-change-feed-perf"
+    description: null
+    language: "Shell"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-20"
+  - name: "apiserver-storm"
+    title: "apiserver-storm"
+    description: null
+    language: "Go"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-07-17"
+  - name: "validation-gen"
+    title: "validation-gen"
+    description: "Dev branch for declarative validation"
+    language: "Go"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-02-20"
+  - name: "shoelaces"
+    title: "shoelaces"
+    description: "empty shell using bootstrap + scala play + gson + script oauth + facebook"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2012-07-20"
+  - name: "validation-admission-policy-examples"
+    title: "validation-admission-policy-examples"
+    description: "A directory of various validating admission policies"
+    language: "Shell"
+    topics: []
+    stars_fact: 6
+    first_seen: null
+    last_push: "2022-12-02"
 ---
 
 # jpbetz

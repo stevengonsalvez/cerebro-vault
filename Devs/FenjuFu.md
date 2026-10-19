@@ -12,40 +12,40 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-18T06:04:36.280265+00:00"
+generated_at: "2026-10-19T06:04:45.439728+00:00"
 provenance:
   - "1df6ea1f1256059e"
   - "46f3c1d6124190bd"
   - "c489e6fb5febf2ab"
   - "e5b23adc376a62a9"
   - "edb3a626875732de"
-pushes_per_week: [2, 0, 2, 13, 2, 3, 0, 4, 2, 1, 6, 1, 11]
+pushes_per_week: [2, 0, 3, 14, 1, 2, 2, 2, 2, 3, 4, 4, 9]
 windows:
   "7d":
-    pushes: 11
-    distinct_repos: 7
+    pushes: 9
+    distinct_repos: 5
     active_days: 2
-    repos_not_owned: 2
-    not_owned_basenames: 2
+    repos_not_owned: 1
+    not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 21
-    distinct_repos: 14
+    pushes: 20
+    distinct_repos: 13
     active_days: 8
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 47
+    pushes: 48
     distinct_repos: 22
-    active_days: 21
+    active_days: 22
     repos_not_owned: 7
     not_owned_basenames: 7
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 2.2381
-  repo_per_active_day: 1.0476
+  push_per_day: 2.1818
+  repo_per_active_day: 1.0000
   not_owned_ratio: 0.3182
   basename_concentration: 0.0909
   shapes: []
@@ -56,32 +56,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 11
-    distinct_repos: 7
-    pushes_per_repo: 1.5714
+    pushes: 9
+    distinct_repos: 5
+    pushes_per_repo: 1.8000
     active_days: 2
-    repos_not_owned: 2
-    not_owned_basenames: 2
+    repos_not_owned: 1
+    not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 21
-    distinct_repos: 14
-    pushes_per_repo: 1.5000
+    pushes: 20
+    distinct_repos: 13
+    pushes_per_repo: 1.5385
     active_days: 8
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 47
+    pushes: 48
     distinct_repos: 22
-    pushes_per_repo: 2.1364
-    active_days: 21
+    pushes_per_repo: 2.1818
+    active_days: 22
     repos_not_owned: 7
     not_owned_basenames: 7
     not_owned_owners: 2
 reasons:
   - "provenance: 5 vault signal(s) — pass"
-  - "activity: 21 active days in 90d — pass"
+  - "activity: 22 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "xhtoken-images"
@@ -137,6 +137,6 @@ repos:
 
 # FenjuFu
 
-47 pushes across 22 repositories on 21 active days in the last 90 days of public GitHub push activity.
+48 pushes across 22 repositories on 22 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/FenjuFu

@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-18T06:04:36.280265+00:00"
+generated_at: "2026-10-19T06:04:45.439728+00:00"
 provenance:
   - "01cd6a498d377caf"
   - "03604cccd7e9402d"
@@ -69,12 +69,13 @@ provenance:
   - "dca7cce8dcd1782c"
   - "e2ea6ef4c9fbfceb"
   - "e75aaf1e12900808"
+  - "ed610e0dc54be0b1"
   - "f672838de330e86f"
   - "f9a1870648a6375a"
   - "fd1cb9e783625459"
   - "fe9e50bf2d5b21fe"
   - "ff1ca072bf39e471"
-pushes_per_week: [4, 5, 0, 2, 3, 4, 0, 1, 2, 2, 6, 3, 0]
+pushes_per_week: [4, 4, 0, 2, 6, 1, 0, 2, 1, 7, 1, 3, 0]
 windows:
   "7d":
     pushes: 0
@@ -91,16 +92,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 32
+    pushes: 31
     distinct_repos: 2
-    active_days: 22
+    active_days: 21
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.4545
-  repo_per_active_day: 0.0909
+  push_per_day: 1.4762
+  repo_per_active_day: 0.0952
   not_owned_ratio: 0.0000
   basename_concentration: 0.5000
   shapes: []
@@ -127,16 +128,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 32
+    pushes: 31
     distinct_repos: 2
-    pushes_per_repo: 16.0000
-    active_days: 22
+    pushes_per_repo: 15.5000
+    active_days: 21
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
-  - "provenance: 63 vault signal(s) — pass"
-  - "activity: 22 active days in 90d — pass"
+  - "provenance: 64 vault signal(s) — pass"
+  - "activity: 21 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "nvim"
@@ -194,6 +195,6 @@ repos:
 
 # jamestrew
 
-32 pushes across 2 repositories on 22 active days in the last 90 days of public GitHub push activity.
+31 pushes across 2 repositories on 21 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/jamestrew

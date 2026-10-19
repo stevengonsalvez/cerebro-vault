@@ -8,11 +8,11 @@ provenance_repos:
   - "apache/maka"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-18T06:04:36.280265+00:00"
+repos_populated: true
+generated_at: "2026-10-19T06:04:45.439728+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [2, 1, 1, 1, 0, 0, 0, 0, 1, 0, 1, 1, 1]
+pushes_per_week: [2, 1, 1, 1, 0, 0, 0, 1, 0, 0, 1, 1, 1]
 windows:
   "7d":
     pushes: 1
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 9 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "workout_page"
+    title: "workout_page"
+    description: "Make Your Own Workouts Page (Inspired by running_page)"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-10-14"
+  - name: "Dotfiles"
+    title: "Dotfiles"
+    description: null
+    language: "Shell"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-16"
+  - name: "XmchxUp"
+    title: "XmchxUp"
+    description: "GitHub Personal README"
+    language: null
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-10-16"
+  - name: "who-unfollow-you"
+    title: "who-unfollow-you"
+    description: "🛠️ who has unfollow your GitHub."
+    language: "Go"
+    topics: []
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-10-06"
+  - name: "bili-live-danmu-analyzer"
+    title: "bili-live-danmu-analyzer"
+    description: "B 站直播弹幕实时分析工作台。它面向直播场控、主播助理和运营人员：实时接入直播间弹幕，聚合互动指标，识别高频问题和异常信号，并给出当前行动提示。"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-05-01"
+  - name: "aoc"
+    title: "aoc"
+    description: "🎄 Advent of Code (2015-now)"
+    language: "Rust"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2025-12-23"
 ---
 
 # XmchxUp

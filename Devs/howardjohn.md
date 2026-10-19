@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-18T06:04:36.280265+00:00"
+generated_at: "2026-10-19T06:04:45.439728+00:00"
 provenance:
   - "a5ffcd0a46dd44fd"
-pushes_per_week: [20, 11, 15, 10, 2, 1, 0, 1, 5, 7, 13, 4, 10]
+pushes_per_week: [20, 11, 14, 10, 1, 1, 0, 1, 5, 8, 13, 10, 3]
 windows:
   "7d":
     pushes: 10
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 2
   "30d":
-    pushes: 36
+    pushes: 34
     distinct_repos: 6
-    active_days: 14
+    active_days: 13
     repos_not_owned: 3
     not_owned_basenames: 1
     not_owned_owners: 3
   "90d":
-    pushes: 99
+    pushes: 97
     distinct_repos: 13
-    active_days: 36
+    active_days: 35
     repos_not_owned: 6
     not_owned_basenames: 2
     not_owned_owners: 6
 automation:
   state: "clear"
-  push_per_day: 2.7500
-  repo_per_active_day: 0.3611
+  push_per_day: 2.7714
+  repo_per_active_day: 0.3714
   not_owned_ratio: 0.4615
   basename_concentration: 0.4615
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 2
   "30d":
-    pushes: 36
+    pushes: 34
     distinct_repos: 6
-    pushes_per_repo: 6.0000
-    active_days: 14
+    pushes_per_repo: 5.6667
+    active_days: 13
     repos_not_owned: 3
     not_owned_basenames: 1
     not_owned_owners: 3
   "90d":
-    pushes: 99
+    pushes: 97
     distinct_repos: 13
-    pushes_per_repo: 7.6154
-    active_days: 36
+    pushes_per_repo: 7.4615
+    active_days: 35
     repos_not_owned: 6
     not_owned_basenames: 2
     not_owned_owners: 6
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 36 active days in 90d — pass"
+  - "activity: 35 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "registry-redirector"
@@ -130,6 +130,6 @@ repos:
 
 # howardjohn
 
-99 pushes across 13 repositories on 36 active days in the last 90 days of public GitHub push activity.
+97 pushes across 13 repositories on 35 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/howardjohn

@@ -8,11 +8,11 @@ provenance_repos:
   - "agent-substrate/substrate"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-18T06:04:36.280265+00:00"
+repos_populated: true
+generated_at: "2026-10-19T06:04:45.439728+00:00"
 provenance:
   - "a5ffcd0a46dd44fd"
-pushes_per_week: [1, 6, 2, 6, 1, 0, 0, 0, 1, 0, 0, 1, 2]
+pushes_per_week: [2, 5, 2, 6, 1, 0, 0, 0, 1, 0, 0, 3, 0]
 windows:
   "7d":
     pushes: 2

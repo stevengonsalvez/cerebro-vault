@@ -10,10 +10,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-18T06:04:36.280265+00:00"
+generated_at: "2026-10-19T06:04:45.439728+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [15, 19, 15, 41, 8, 7, 0, 0, 1, 8, 2, 0, 1]
+pushes_per_week: [13, 20, 14, 39, 14, 1, 0, 0, 1, 10, 0, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -30,16 +30,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 117
+    pushes: 113
     distinct_repos: 13
-    active_days: 26
+    active_days: 25
     repos_not_owned: 10
     not_owned_basenames: 4
     not_owned_owners: 9
 automation:
   state: "clear"
-  push_per_day: 4.5000
-  repo_per_active_day: 0.5000
+  push_per_day: 4.5200
+  repo_per_active_day: 0.5200
   not_owned_ratio: 0.7692
   basename_concentration: 0.6154
   shapes:
@@ -82,16 +82,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 117
+    pushes: 113
     distinct_repos: 13
-    pushes_per_repo: 9.0000
-    active_days: 26
+    pushes_per_repo: 8.6923
+    active_days: 25
     repos_not_owned: 10
     not_owned_basenames: 4
     not_owned_owners: 9
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 26 active days in 90d — pass"
+  - "activity: 25 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "OpenCLI"
@@ -158,6 +158,6 @@ repos:
 
 # jackwener
 
-117 pushes across 13 repositories on 26 active days in the last 90 days of public GitHub push activity.
+113 pushes across 13 repositories on 25 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/jackwener

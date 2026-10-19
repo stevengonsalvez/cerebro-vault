@@ -8,11 +8,11 @@ provenance_repos:
   - "abhigyanpatwari/GitNexus"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-18T06:04:36.280265+00:00"
+repos_populated: true
+generated_at: "2026-10-19T06:04:45.439728+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [4, 4, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [1, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 9
+    pushes: 6
     distinct_repos: 3
-    active_days: 6
+    active_days: 5
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.5000
-  repo_per_active_day: 0.5000
+  push_per_day: 1.2000
+  repo_per_active_day: 0.6000
   not_owned_ratio: 0.3333
   basename_concentration: 0.6667
   shapes: []
@@ -65,22 +65,75 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 9
+    pushes: 6
     distinct_repos: 3
-    pushes_per_repo: 3.0000
-    active_days: 6
+    pushes_per_repo: 2.0000
+    active_days: 5
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 6 active days in 90d — pass"
+  - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "ai-dashboard"
+    title: "ai-dashboard"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-19"
+  - name: "kernel-factory"
+    title: "kernel-factory"
+    description: "Auditable CAKE-inspired kernel search control plane for MTT S4000"
+    language: "Python"
+    topics:
+      - "autotuning"
+      - "gpu"
+      - "kernel-optimization"
+      - "musa"
+      - "s4000"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-23"
+  - name: "infinilm-serving-bench"
+    title: "infinilm-serving-bench"
+    description: "InfiniLM 推理服务能力压测工具集（4090 显存自适应，T2-1-2 服务能力优化）"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-06-28"
+  - name: "agentlens"
+    title: "agentlens"
+    description: "AI Agent Evaluation & Observability Platform — LangGraph + Gemini + OTEL + Grafana"
+    language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-05-17"
+  - name: "codex-skill-read-open-source-repo"
+    title: "codex-skill-read-open-source-repo"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-04-12"
+  - name: "opensearch-loadtest"
+    title: "opensearch-loadtest"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 6
+    first_seen: null
+    last_push: "2025-11-10"
 ---
 
 # noCharger
 
-9 pushes across 3 repositories on 6 active days in the last 90 days of public GitHub push activity.
+6 pushes across 3 repositories on 5 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/noCharger

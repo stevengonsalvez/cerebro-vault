@@ -8,23 +8,23 @@ provenance_repos:
   - "apache/maka"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-18T06:04:36.280265+00:00"
+repos_populated: true
+generated_at: "2026-10-19T06:04:45.439728+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [14, 45, 14, 41, 3, 4, 3, 2, 13, 27, 32, 10, 6]
+pushes_per_week: [19, 40, 18, 37, 3, 4, 4, 2, 12, 27, 33, 12, 3]
 windows:
   "7d":
-    pushes: 8
-    distinct_repos: 3
-    active_days: 3
+    pushes: 5
+    distinct_repos: 2
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 86
+    pushes: 78
     distinct_repos: 10
-    active_days: 20
+    active_days: 19
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
@@ -49,18 +49,18 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 8
-    distinct_repos: 3
-    pushes_per_repo: 2.6667
-    active_days: 3
+    pushes: 5
+    distinct_repos: 2
+    pushes_per_repo: 2.5000
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 86
+    pushes: 78
     distinct_repos: 10
-    pushes_per_repo: 8.6000
-    active_days: 20
+    pushes_per_repo: 7.8000
+    active_days: 19
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
@@ -76,7 +76,75 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 51 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "rove"
+    title: "rove"
+    description: "Rove — the agent multiplexer for your terminal. Run coding agents on parallel tasks with isolated worktrees and persistent sessions."
+    language: "TypeScript"
+    topics:
+      - "agentic-ai"
+      - "ai"
+      - "ai-agents"
+      - "ai-coding-assistant"
+      - "anthropic"
+      - "bun"
+      - "claude-code"
+      - "cli"
+      - "codex"
+      - "coding-agent"
+      - "developer-tools"
+      - "git-worktree"
+      - "github-copilot"
+      - "llm"
+      - "multiplexer"
+      - "openai"
+      - "parallel-agents"
+      - "terminal"
+      - "tui"
+      - "typescript"
+    stars_fact: 176
+    first_seen: null
+    last_push: "2026-10-18"
+  - name: ".dotfiles"
+    title: ".dotfiles"
+    description: null
+    language: "Shell"
+    topics: []
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-10-18"
+  - name: "agent-hub"
+    title: "agent-hub"
+    description: "One panel for every Claude Code session on your machine: what each agent needs from you, and what each one got done."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-17"
+  - name: "sma1lboy.me"
+    title: "sma1lboy.me"
+    description: "personal introduction website"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 7
+    first_seen: null
+    last_push: "2026-10-16"
+  - name: "claude-mods"
+    title: "claude-mods"
+    description: "Mods for Claude Code: plugins built on function hooks"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-10-12"
+  - name: "ptcg-shop"
+    title: "ptcg-shop"
+    description: "欧气卡铺：宝可梦卡牌开包模拟 + 卡店放置经营 + 欧气检测（three.js）"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-08"
 ---
 
 # Sma1lboy

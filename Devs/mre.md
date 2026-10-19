@@ -8,23 +8,23 @@ provenance_repos:
   - "anthropics/claude-cookbooks"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-18T06:04:36.280265+00:00"
+repos_populated: true
+generated_at: "2026-10-19T06:04:45.439728+00:00"
 provenance:
   - "1f49d0119cedbc84"
-pushes_per_week: [3, 2, 1, 2, 0, 1, 0, 2, 7, 2, 5, 5, 1]
+pushes_per_week: [3, 2, 1, 2, 0, 1, 1, 1, 7, 2, 5, 6, 0]
 windows:
   "7d":
-    pushes: 6
+    pushes: 1
     distinct_repos: 1
-    active_days: 2
+    active_days: 1
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 19
+    pushes: 18
     distinct_repos: 8
-    active_days: 9
+    active_days: 8
     repos_not_owned: 6
     not_owned_basenames: 5
     not_owned_owners: 4
@@ -49,18 +49,18 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 6
+    pushes: 1
     distinct_repos: 1
-    pushes_per_repo: 6.0000
-    active_days: 2
+    pushes_per_repo: 1.0000
+    active_days: 1
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 19
+    pushes: 18
     distinct_repos: 8
-    pushes_per_repo: 2.3750
-    active_days: 9
+    pushes_per_repo: 2.2500
+    active_days: 8
     repos_not_owned: 6
     not_owned_basenames: 5
     not_owned_owners: 4
@@ -76,7 +76,68 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 18 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "idiomatic-rust"
+    title: "idiomatic-rust"
+    description: "🦀 A peer-reviewed collection of articles/talks/repos which teach concise, idiomatic Rust."
+    language: "Rust"
+    topics:
+      - "ergonomics"
+      - "idiomatic"
+      - "idiomatic-rust"
+      - "rust"
+    stars_fact: 7887
+    first_seen: null
+    last_push: "2026-02-12"
+  - name: "cargo-inspect"
+    title: "cargo-inspect"
+    description: "Pssst!... see what Rust is doing behind the curtains 🕵🤫"
+    language: "Rust"
+    topics:
+      - "desugar"
+      - "inspect"
+      - "static-analysis"
+      - "syntactic-sugar"
+      - "unpretty"
+    stars_fact: 383
+    first_seen: null
+    last_push: "2023-02-27"
+  - name: "svg-metadata"
+    title: "svg-metadata"
+    description: "Read metadata information of an SVG file (e.g. viewBox size)"
+    language: "Rust"
+    topics: []
+    stars_fact: 10
+    first_seen: null
+    last_push: "2026-06-22"
+  - name: "the-coding-interview"
+    title: "the-coding-interview"
+    description: "Programming exercises, code katas and puzzles for your job interview training - or just for fun."
+    language: "Python"
+    topics:
+      - "coding-interview"
+      - "interview-practice"
+      - "interview-test-task"
+      - "language-learning"
+    stars_fact: 1746
+    first_seen: null
+    last_push: "2023-10-30"
+  - name: "oxitrack"
+    title: "oxitrack"
+    description: "Self-hosted, privacy-respecting website traffic tracker"
+    language: "Rust"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-04"
+  - name: "endler.dev"
+    title: "endler.dev"
+    description: "My personal website"
+    language: "HTML"
+    topics: []
+    stars_fact: 111
+    first_seen: null
+    last_push: "2026-10-01"
 ---
 
 # mre

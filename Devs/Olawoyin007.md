@@ -8,11 +8,11 @@ provenance_repos:
   - "AlexsJones/llmfit"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-18T06:04:36.280265+00:00"
+repos_populated: true
+generated_at: "2026-10-19T06:04:45.439728+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [1, 0, 0, 1, 0, 0, 0, 1, 4, 0, 0, 0, 2]
+pushes_per_week: [1, 0, 0, 1, 0, 0, 0, 1, 4, 0, 0, 2, 0]
 windows:
   "7d":
     pushes: 2
@@ -76,7 +76,73 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "localai-blog"
+    title: "localai-blog"
+    description: null
+    language: "HTML"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-13"
+  - name: "empathySync"
+    title: "empathySync"
+    description: "Help that knows when to stop."
+    language: "Python"
+    topics:
+      - "ai-assistant"
+      - "anti-engagement"
+      - "humane-tech"
+      - "local-first"
+      - "mental-health"
+      - "ollama"
+      - "privacy"
+      - "streamlit"
+    stars_fact: 16
+    first_seen: null
+    last_push: "2026-10-13"
+  - name: "intentKeeper"
+    title: "intentKeeper"
+    description: "Labels social media posts by the manipulation patterns they use. Runs locally via Ollama, no cloud."
+    language: "Python"
+    topics:
+      - "anti-engagement"
+      - "chrome-extension"
+      - "content-moderation"
+      - "humane-tech"
+      - "local-first"
+      - "ollama"
+      - "privacy"
+      - "twitter"
+    stars_fact: 11
+    first_seen: null
+    last_push: "2026-10-15"
+  - name: "Olawoyin007"
+    title: "Olawoyin007"
+    description: "Config files for my GitHub profile."
+    language: null
+    topics:
+      - "config"
+      - "github-config"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-20"
+  - name: "dags-testing"
+    title: "dags-testing"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2025-05-21"
+  - name: "Data-Engineering-Mentorship"
+    title: "Data-Engineering-Mentorship"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 5
+    first_seen: null
+    last_push: "2024-09-17"
 ---
 
 # Olawoyin007

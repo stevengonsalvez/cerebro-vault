@@ -8,11 +8,11 @@ provenance_repos:
   - "apache/maka"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-18T06:04:36.280265+00:00"
+repos_populated: true
+generated_at: "2026-10-19T06:04:45.439728+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [1, 3, 5, 20, 0, 0, 0, 3, 1, 1, 0, 1, 0]
+pushes_per_week: [1, 3, 7, 18, 0, 0, 0, 3, 2, 0, 0, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,67 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 17 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "simple-fill-image-edit"
+    title: "simple-fill-image-edit"
+    description: "Semantic local image editing with SAM3, native-mask image editing, and Inpaint Anything crop restoration."
+    language: "Python"
+    topics:
+      - "computer-vision"
+      - "fastapi"
+      - "image-editing"
+      - "inpainting"
+      - "sam3"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-03"
+  - name: "build-code-graph"
+    title: "build-code-graph"
+    description: "Evidence-backed, drill-down architecture graphs for coding agents"
+    language: "JavaScript"
+    topics:
+      - "claude-code"
+      - "code-graph"
+      - "codex"
+      - "coding-agents"
+      - "software-architecture"
+      - "static-analysis"
+      - "visualization"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-07-31"
+  - name: "xiaoba-memory-branch-sim"
+    title: "xiaoba-memory-branch-sim"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-06-27"
+  - name: "professor-secretary-agent"
+    title: "professor-secretary-agent"
+    description: "Proactive professor secretary agent demo with schedule reminders, profile memory, browser observation, and dashboard."
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-06-06"
+  - name: "Gatito-agent"
+    title: "Gatito-agent"
+    description: null
+    language: "HTML"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-05-13"
+  - name: "user-profile-demo"
+    title: "user-profile-demo"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-04-28"
 ---
 
 # Nobody-ly

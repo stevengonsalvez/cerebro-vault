@@ -8,16 +8,16 @@ provenance_repos:
   - "chopratejas/headroom"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-18T06:04:36.280265+00:00"
+repos_populated: true
+generated_at: "2026-10-19T06:04:45.439728+00:00"
 provenance:
   - "73468cde177ddae6"
-pushes_per_week: [4, 4, 5, 2, 2, 0, 0, 0, 0, 1, 1, 2, 2]
+pushes_per_week: [6, 2, 4, 4, 0, 0, 0, 0, 0, 1, 1, 4, 0]
 windows:
   "7d":
-    pushes: 3
+    pushes: 2
     distinct_repos: 1
-    active_days: 2
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 23
-    distinct_repos: 3
-    active_days: 16
+    pushes: 22
+    distinct_repos: 2
+    active_days: 15
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.4375
-  repo_per_active_day: 0.1875
+  push_per_day: 1.4667
+  repo_per_active_day: 0.1333
   not_owned_ratio: 0.0000
-  basename_concentration: 0.3333
+  basename_concentration: 0.5000
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 3
+    pushes: 2
     distinct_repos: 1
-    pushes_per_repo: 3.0000
-    active_days: 2
+    pushes_per_repo: 2.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -65,22 +65,84 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 23
-    distinct_repos: 3
-    pushes_per_repo: 7.6667
-    active_days: 16
+    pushes: 22
+    distinct_repos: 2
+    pushes_per_repo: 11.0000
+    active_days: 15
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 16 active days in 90d — pass"
+  - "activity: 15 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "Cymatix-Context"
+    title: "Cymatix-Context"
+    description: "Same query, same answer: deterministic RAG for agents. Local-first: one SQLite knowledge store, no LLM call on the retrieval path, CLI + HTTP + MCP, and a know/miss contract on every response."
+    language: "Python"
+    topics:
+      - "agent-index"
+      - "agent-mcp"
+      - "context-engineering"
+      - "deterministic"
+      - "idf"
+      - "knowledge-base"
+      - "llm-agents"
+      - "mcp"
+      - "model-context-protocol"
+      - "python"
+      - "rag"
+      - "retrieval-augmented-generation"
+      - "semantic-search"
+      - "sqlite"
+    stars_fact: 7
+    first_seen: null
+    last_push: "2026-10-19"
+  - name: "cymatix-receipts"
+    title: "cymatix-receipts"
+    description: "Benchmark receipts, research captures, and archived knowledge-store samples for Cymatix Context"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-12"
+  - name: "scorerift"
+    title: "scorerift"
+    description: "Dual-layer audit system: automated scoring + manual grading + reconciliation"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-16"
+  - name: "AAtrial"
+    title: "AAtrial"
+    description: "AAtrial"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-01"
+  - name: "MaxExpressKit"
+    title: "MaxExpressKit"
+    description: "Three guardrails for Claude Code: compliance, drift, ledger."
+    language: "Python"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-07-27"
+  - name: "mbachaud"
+    title: "mbachaud"
+    description: "Profile README"
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-07-27"
 ---
 
 # mbachaud
 
-23 pushes across 3 repositories on 16 active days in the last 90 days of public GitHub push activity.
+22 pushes across 2 repositories on 15 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/mbachaud

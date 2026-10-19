@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-18T06:04:36.280265+00:00"
+generated_at: "2026-10-19T06:04:45.439728+00:00"
 provenance:
   - "2a7f0fddd2dac162"
-pushes_per_week: [1, 0, 0, 0, 1, 1, 0, 4, 33, 31, 27, 14, 4]
+pushes_per_week: [1, 0, 0, 1, 1, 0, 0, 8, 35, 26, 26, 14, 5]
 windows:
   "7d":
-    pushes: 12
-    distinct_repos: 3
+    pushes: 5
+    distinct_repos: 2
     active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 89
+    pushes: 85
     distinct_repos: 5
-    active_days: 18
+    active_days: 17
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 116
+    pushes: 117
     distinct_repos: 5
-    active_days: 27
+    active_days: 28
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 4.2963
-  repo_per_active_day: 0.1852
+  push_per_day: 4.1786
+  repo_per_active_day: 0.1786
   not_owned_ratio: 0.0000
   basename_concentration: 0.2000
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 12
-    distinct_repos: 3
-    pushes_per_repo: 4.0000
+    pushes: 5
+    distinct_repos: 2
+    pushes_per_repo: 2.5000
     active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 89
+    pushes: 85
     distinct_repos: 5
-    pushes_per_repo: 17.8000
-    active_days: 18
+    pushes_per_repo: 17.0000
+    active_days: 17
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 116
+    pushes: 117
     distinct_repos: 5
-    pushes_per_repo: 23.2000
-    active_days: 27
+    pushes_per_repo: 23.4000
+    active_days: 28
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 27 active days in 90d — pass"
+  - "activity: 28 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "cq-toolkit"
@@ -129,6 +129,6 @@ repos:
 
 # camerontaylor
 
-116 pushes across 5 repositories on 27 active days in the last 90 days of public GitHub push activity.
+117 pushes across 5 repositories on 28 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/camerontaylor

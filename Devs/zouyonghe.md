@@ -8,16 +8,16 @@ provenance_repos:
   - "AstrBotDevs/AstrBot"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-18T06:04:36.280265+00:00"
+repos_populated: true
+generated_at: "2026-10-19T06:04:45.439728+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [3, 0, 4, 6, 1, 0, 0, 0, 1, 1, 0, 5, 2]
+pushes_per_week: [3, 0, 7, 3, 1, 0, 0, 1, 1, 0, 0, 5, 2]
 windows:
   "7d":
-    pushes: 3
+    pushes: 2
     distinct_repos: 1
-    active_days: 2
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 3
+    pushes: 2
     distinct_repos: 1
-    pushes_per_repo: 3.0000
-    active_days: 2
+    pushes_per_repo: 2.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 15 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "auto-aur-update"
+    title: "auto-aur-update"
+    description: "auto-aur-update"
+    language: "Shell"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-16"
+  - name: "PixelTerm-C"
+    title: "PixelTerm-C"
+    description: "A high-performance terminal image/video/book browser based on Chafa."
+    language: "C"
+    topics: []
+    stars_fact: 29
+    first_seen: null
+    last_push: "2026-09-29"
+  - name: "replayfence"
+    title: "replayfence"
+    description: "Reproducible experiments for safe recovery of interrupted agent tool calls"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-10"
+  - name: "astrbot_plugin_ebooks"
+    title: "astrbot_plugin_ebooks"
+    description: "一个功能强大的电子书插件，支持多平台电子书搜索和下载。"
+    language: "Python"
+    topics: []
+    stars_fact: 31
+    first_seen: null
+    last_push: "2026-06-08"
+  - name: "PixelTerm"
+    title: "PixelTerm"
+    description: "A terminal image viewer just for test."
+    language: "Python"
+    topics: []
+    stars_fact: 7
+    first_seen: null
+    last_push: "2026-09-13"
+  - name: "remove-duplicate-files"
+    title: "remove-duplicate-files"
+    description: "A safe and efficient PowerShell utility for finding and removing duplicate files"
+    language: "PowerShell"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-03"
 ---
 
 # zouyonghe

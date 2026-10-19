@@ -8,11 +8,11 @@ provenance_repos:
   - "antirez/ds4"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-18T06:04:36.280265+00:00"
+repos_populated: true
+generated_at: "2026-10-19T06:04:45.439728+00:00"
 provenance:
   - "3eacb4655aba2497"
-pushes_per_week: [5, 1, 1, 7, 2, 2, 0, 3, 3, 8, 0, 2, 3]
+pushes_per_week: [5, 0, 2, 6, 3, 1, 1, 2, 3, 8, 1, 1, 3]
 windows:
   "7d":
     pushes: 3
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 37
+    pushes: 36
     distinct_repos: 12
-    active_days: 28
+    active_days: 27
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.3214
-  repo_per_active_day: 0.4286
+  push_per_day: 1.3333
+  repo_per_active_day: 0.4444
   not_owned_ratio: 0.0833
   basename_concentration: 0.0833
   shapes: []
@@ -65,22 +65,70 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 37
+    pushes: 36
     distinct_repos: 12
-    pushes_per_repo: 3.0833
-    active_days: 28
+    pushes_per_repo: 3.0000
+    active_days: 27
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 28 active days in 90d — pass"
+  - "activity: 27 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "amd-strix-halo-gfx1151-toolboxes"
+    title: "amd-strix-halo-gfx1151-toolboxes"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 64
+    first_seen: null
+    last_push: "2026-10-03"
+  - name: "strix-halo-ds4-toolbox"
+    title: "strix-halo-ds4-toolbox"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 93
+    first_seen: null
+    last_push: "2026-10-01"
+  - name: "amd-strix-halo-comfyui-toolboxes"
+    title: "amd-strix-halo-comfyui-toolboxes"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 170
+    first_seen: null
+    last_push: "2026-09-02"
+  - name: "ai-toolbox-cockpit"
+    title: "ai-toolbox-cockpit"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 164
+    first_seen: null
+    last_push: "2026-10-18"
+  - name: "amd-strix-halo-vllm-toolboxes"
+    title: "amd-strix-halo-vllm-toolboxes"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 537
+    first_seen: null
+    last_push: "2026-10-18"
+  - name: "amd-strix-halo-toolboxes"
+    title: "amd-strix-halo-toolboxes"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 1999
+    first_seen: null
+    last_push: "2026-10-17"
 ---
 
 # kyuz0
 
-37 pushes across 12 repositories on 28 active days in the last 90 days of public GitHub push activity.
+36 pushes across 12 repositories on 27 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/kyuz0

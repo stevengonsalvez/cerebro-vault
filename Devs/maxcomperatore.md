@@ -8,11 +8,11 @@ provenance_repos:
   - "browser-use/browser-use"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-18T06:04:36.280265+00:00"
+repos_populated: true
+generated_at: "2026-10-19T06:04:45.439728+00:00"
 provenance:
   - "c1af6b58492f9bf4"
-pushes_per_week: [0, 0, 0, 0, 0, 1, 1, 2, 17, 2, 2, 1, 0]
+pushes_per_week: [0, 0, 0, 0, 0, 1, 1, 4, 15, 3, 1, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 11
-    distinct_repos: 4
-    active_days: 7
+    pushes: 10
+    distinct_repos: 3
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 11
-    distinct_repos: 4
-    pushes_per_repo: 2.7500
-    active_days: 7
+    pushes: 10
+    distinct_repos: 3
+    pushes_per_repo: 3.3333
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -76,7 +76,54 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 13 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "bipluk"
+    title: "bipluk"
+    description: "Web-based MIDI SysEx librarian, patch vault, and hardware synth bridge for DX7, Juno-106, D-50, and vintage synthesizers."
+    language: "HTML"
+    topics:
+      - "dx7"
+      - "hardware-synths"
+      - "juno-106"
+      - "midi"
+      - "music-production"
+      - "patch-librarian"
+      - "roland"
+      - "synthesizer"
+      - "sysex"
+      - "web-midi"
+      - "yamaha-dx7"
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-10-19"
+  - name: "rubrol"
+    title: "rubrol"
+    description: "Sub-millisecond dynamic PDF/A document engine powered by Typst. Replaces Headless Chrome, Puppeteer & Gotenberg with 96% less memory. Native HTTP sidecar."
+    language: "HTML"
+    topics:
+      - "docker"
+      - "e-invoicing"
+      - "electronic-invoicing"
+      - "en16931"
+      - "factur-x"
+      - "gotenberg-alternative"
+      - "invoicing"
+      - "microservice"
+      - "pdf"
+      - "pdf-generator"
+      - "pdfa"
+      - "pdfa-3"
+      - "peppol"
+      - "puppeteer-alternative"
+      - "rust"
+      - "sidecar"
+      - "typst"
+      - "typst-template"
+      - "xrechnung"
+      - "zugferd"
+    stars_fact: 21
+    first_seen: null
+    last_push: "2026-10-09"
 ---
 
 # maxcomperatore

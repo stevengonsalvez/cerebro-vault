@@ -8,16 +8,16 @@ provenance_repos:
   - "AlexsJones/llmfit"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-18T06:04:36.280265+00:00"
+repos_populated: true
+generated_at: "2026-10-19T06:04:45.439728+00:00"
 provenance:
   - "234088bc43763aa2"
 pushes_per_week: [1, 0, 2, 0, 0, 1, 0, 0, 0, 1, 2, 1, 0]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -76,7 +76,47 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 8 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "oytech"
+    title: "oytech"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-04"
+  - name: "simplecv"
+    title: "simplecv"
+    description: "Minimalistic template for creating CV with Markdown and LaTeX"
+    language: "TeX"
+    topics:
+      - "cv"
+      - "latex"
+      - "markdown"
+      - "resume"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-07-07"
+  - name: "github-contributions"
+    title: "github-contributions"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-06-26"
+  - name: "PortStatus"
+    title: "PortStatus"
+    description: "PoC macOS menu bar app showing status of installed MacPorts packages (ports)"
+    language: "Swift"
+    topics:
+      - "macos"
+      - "macports"
+      - "swift"
+      - "swiftui"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2025-09-09"
 ---
 
 # oytech

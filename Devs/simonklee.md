@@ -8,23 +8,23 @@ provenance_repos:
   - "anomalyco/opencode"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-18T06:04:36.280265+00:00"
+repos_populated: true
+generated_at: "2026-10-19T06:04:45.439728+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [5, 3, 1, 8, 6, 1, 0, 0, 1, 4, 2, 5, 5]
+pushes_per_week: [6, 2, 2, 8, 5, 1, 0, 0, 1, 4, 3, 6, 3]
 windows:
   "7d":
-    pushes: 6
+    pushes: 4
     distinct_repos: 2
-    active_days: 4
+    active_days: 3
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 17
+    pushes: 16
     distinct_repos: 4
-    active_days: 10
+    active_days: 9
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
@@ -49,18 +49,18 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 6
+    pushes: 4
     distinct_repos: 2
-    pushes_per_repo: 3.0000
-    active_days: 4
+    pushes_per_repo: 2.0000
+    active_days: 3
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 17
+    pushes: 16
     distinct_repos: 4
-    pushes_per_repo: 4.2500
-    active_days: 10
+    pushes_per_repo: 4.0000
+    active_days: 9
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 27 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "opentui-bench"
+    title: "opentui-bench"
+    description: null
+    language: "Go"
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-10-12"
+  - name: "godis"
+    title: "godis"
+    description: "godis - an old Redis client for Go"
+    language: "Go"
+    topics: []
+    stars_fact: 87
+    first_seen: null
+    last_push: "2020-02-17"
+  - name: "opentui-tex"
+    title: "opentui-tex"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-03"
+  - name: "node-demo"
+    title: "node-demo"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-07-09"
+  - name: "tigerstyle"
+    title: "tigerstyle"
+    description: null
+    language: "HTML"
+    topics: []
+    stars_fact: 44
+    first_seen: null
+    last_push: "2025-11-29"
+  - name: "noeqd"
+    title: "noeqd"
+    description: null
+    language: "Go"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2013-12-15"
 ---
 
 # simonklee

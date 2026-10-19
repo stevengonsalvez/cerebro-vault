@@ -8,11 +8,11 @@ provenance_repos:
   - "anthropics/claude-code-action"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-18T06:04:36.280265+00:00"
+repos_populated: true
+generated_at: "2026-10-19T06:04:45.439728+00:00"
 provenance:
   - "0b22ca37fd3884c9"
-pushes_per_week: [0, 0, 0, 2, 0, 1, 0, 0, 1, 7, 1, 0, 2]
+pushes_per_week: [0, 0, 0, 2, 1, 0, 0, 0, 1, 7, 1, 2, 0]
 windows:
   "7d":
     pushes: 2
@@ -76,7 +76,61 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 9 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "SocialAgent-Team10"
+    title: "SocialAgent-Team10"
+    description: "oh who wants coffee"
+    language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-14"
+  - name: "mario-rl"
+    title: "mario-rl"
+    description: "Double-DQN Super Mario Bros agent: CPU/WSL, frame-dedup replay buffer, resumable training, memorization-aware eval"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-29"
+  - name: "relay"
+    title: "relay"
+    description: "Prompt-deployment platform: author prompts collaboratively, A/B-test with feature flags, track cost & latency per variant. Rust + TypeScript + Python monorepo."
+    language: "Python"
+    topics:
+      - "fastapi"
+      - "monorepo"
+      - "nextjs"
+      - "python"
+      - "rust"
+      - "typescript"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-06"
+  - name: "NickNojiri"
+    title: "NickNojiri"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-17"
+  - name: "prof-out-reach"
+    title: "prof-out-reach"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-15"
+  - name: "portfolio"
+    title: "portfolio"
+    description: "Personal portfolio website — each project shown as its real, interactive data pipeline. Vanilla HTML/CSS/JS, no build step."
+    language: "CSS"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-07-15"
 ---
 
 # NickNojiri

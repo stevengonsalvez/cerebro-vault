@@ -8,28 +8,28 @@ provenance_repos:
   - "alibaba/open-code-review"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-18T06:04:36.280265+00:00"
+repos_populated: true
+generated_at: "2026-10-19T06:04:45.439728+00:00"
 provenance:
   - "c489e6fb5febf2ab"
-pushes_per_week: [8, 5, 5, 10, 0, 3, 1, 0, 4, 3, 6, 7, 5]
+pushes_per_week: [5, 6, 5, 9, 2, 1, 1, 0, 5, 3, 8, 6, 5]
 windows:
   "7d":
     pushes: 6
-    distinct_repos: 2
-    active_days: 3
+    distinct_repos: 3
+    active_days: 4
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 25
+    pushes: 24
     distinct_repos: 4
-    active_days: 15
+    active_days: 16
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 57
+    pushes: 56
     distinct_repos: 13
     active_days: 34
     repos_not_owned: 5
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 1.6765
+  push_per_day: 1.6471
   repo_per_active_day: 0.3824
   not_owned_ratio: 0.3846
   basename_concentration: 0.0769
@@ -50,24 +50,24 @@ automation:
 facets:
   "7d":
     pushes: 6
-    distinct_repos: 2
-    pushes_per_repo: 3.0000
-    active_days: 3
+    distinct_repos: 3
+    pushes_per_repo: 2.0000
+    active_days: 4
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 25
+    pushes: 24
     distinct_repos: 4
-    pushes_per_repo: 6.2500
-    active_days: 15
+    pushes_per_repo: 6.0000
+    active_days: 16
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 57
+    pushes: 56
     distinct_repos: 13
-    pushes_per_repo: 4.3846
+    pushes_per_repo: 4.3077
     active_days: 34
     repos_not_owned: 5
     not_owned_basenames: 5
@@ -76,11 +76,59 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 34 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "Qiyuanqiii"
+    title: "Qiyuanqiii"
+    description: "Profile README · Go · AI Agents · Cybersecurity · Open Source"
+    language: null
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-10-18"
+  - name: "ocr-behavior-review"
+    title: "ocr-behavior-review"
+    description: "An opt-in behavior contract and counterexample review policy for OpenCodeReview."
+    language: "Go"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-13"
+  - name: "VulnGym-T2"
+    title: "VulnGym-T2"
+    description: "2026 腾讯开源 VulnGym赛道 T2选题 双证+奖金"
+    language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-18"
+  - name: "VulnGym-bv2-private"
+    title: "VulnGym-bv2-private"
+    description: "Private engineering repository for the VulnGym T1 x T2 B-v2 automation loop"
+    language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-09"
+  - name: "Jump-Terminator"
+    title: "Jump-Terminator"
+    description: "Jump Terminator Android 跨应用跳转控制工具（S0 技术可行性验证）"
+    language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-08-09"
+  - name: "codex-401-doctor"
+    title: "codex-401-doctor"
+    description: "Diagnose and repair common Codex 401 Unauthorized issues on Windows"
+    language: "PowerShell"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-08-29"
 ---
 
 # Qiyuanqiii
 
-57 pushes across 13 repositories on 34 active days in the last 90 days of public GitHub push activity.
+56 pushes across 13 repositories on 34 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Qiyuanqiii

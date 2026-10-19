@@ -8,16 +8,16 @@ provenance_repos:
   - "agavra/tuicr"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-18T06:04:36.280265+00:00"
+repos_populated: true
+generated_at: "2026-10-19T06:04:45.439728+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [3, 3, 3, 2, 0, 0, 0, 0, 0, 1, 0, 22, 57]
+pushes_per_week: [5, 1, 3, 2, 0, 0, 0, 0, 0, 1, 0, 42, 37]
 windows:
   "7d":
-    pushes: 78
+    pushes: 57
     distinct_repos: 1
-    active_days: 4
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 78
+    pushes: 57
     distinct_repos: 1
-    pushes_per_repo: 78.0000
-    active_days: 4
+    pushes_per_repo: 57.0000
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -76,7 +76,31 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 15 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "heart-atlas"
+    title: "heart-atlas"
+    description: null
+    language: "MDX"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-14"
+  - name: "universal-news-digest"
+    title: "universal-news-digest"
+    description: "Config-driven collector and renderer for recurring news digests on any topic"
+    language: "Python"
+    topics:
+      - "automation"
+      - "cron"
+      - "hermes-agent"
+      - "llm"
+      - "news-digest"
+      - "python"
+      - "rss"
+      - "telegram"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-23"
 ---
 
 # w3lld1

@@ -8,11 +8,11 @@ provenance_repos:
   - "BuilderIO/agent-native"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-18T06:04:36.280265+00:00"
+repos_populated: true
+generated_at: "2026-10-19T06:04:45.439728+00:00"
 provenance:
   - "745308b2b7085095"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 16, 1, 0]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 16, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,15 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "shlawp"
+    title: "shlawp"
+    description: "Funny AI chat tribute to youtuber Ryan George's 2026-09-11 video \"Your Boss Who Has AI Psychosis\""
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-14"
 ---
 
 # timmilazzo

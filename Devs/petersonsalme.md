@@ -8,15 +8,15 @@ provenance_repos:
   - "akitaonrails/ai-memory"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-18T06:04:36.280265+00:00"
+repos_populated: true
+generated_at: "2026-10-19T06:04:45.439728+00:00"
 provenance:
   - "4138778ebbc75ba6"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 4, 0, 7]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 3, 6, 1]
 windows:
   "7d":
-    pushes: 7
-    distinct_repos: 5
+    pushes: 4
+    distinct_repos: 4
     active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -49,9 +49,9 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 7
-    distinct_repos: 5
-    pushes_per_repo: 1.4000
+    pushes: 4
+    distinct_repos: 4
+    pushes_per_repo: 1.0000
     active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -76,7 +76,85 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "blockchain-with-go"
+    title: "blockchain-with-go"
+    description: "A custom blockchain implementation in Go."
+    language: "Go"
+    topics:
+      - "blockchain"
+      - "crypto"
+      - "ginkgo"
+      - "go"
+      - "golang"
+      - "gomega"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-15"
+  - name: "petersonsalme"
+    title: "petersonsalme"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-14"
+  - name: "microservices-for-java-developers"
+    title: "microservices-for-java-developers"
+    description: "A polyglot microservices ecosystem featuring Spring Boot, Apache Camel, Microprofile, and Node.js to showcase modern backend system design."
+    language: "Java"
+    topics:
+      - "apache-camel"
+      - "api-gateway"
+      - "java"
+      - "microprofile"
+      - "microservices"
+      - "nodejs"
+      - "spring-boot"
+      - "system-design"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-14"
+  - name: "bulletin-api"
+    title: "bulletin-api"
+    description: "A high-performance RESTful API built with Go and the Gin framework, featuring database migrations, Docker, and Kubernetes orchestration."
+    language: "Go"
+    topics:
+      - "docker"
+      - "gin-framework"
+      - "go"
+      - "golang"
+      - "k8s"
+      - "kubernetes"
+      - "postgresql"
+      - "rest-api"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-14"
+  - name: "rest-api-with-jwt"
+    title: "rest-api-with-jwt"
+    description: "A RESTful API built with Go showcasing JWT authentication."
+    language: "Go"
+    topics:
+      - "authentication"
+      - "go"
+      - "golang"
+      - "jwt"
+      - "rest-api"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-14"
+  - name: "grpc-microservices"
+    title: "grpc-microservices"
+    description: "A demonstration of microservices architecture using gRPC and Go."
+    language: "Go"
+    topics:
+      - "go"
+      - "grpc"
+      - "microservices"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-14"
 ---
 
 # petersonsalme

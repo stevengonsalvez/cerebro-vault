@@ -8,11 +8,11 @@ provenance_repos:
   - "can1357/oh-my-pi"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-18T06:04:36.280265+00:00"
+repos_populated: true
+generated_at: "2026-10-19T06:04:45.439728+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [8, 14, 5, 12, 1, 0, 0, 0, 0, 1, 5, 0, 2]
+pushes_per_week: [8, 16, 6, 9, 1, 0, 0, 0, 0, 1, 5, 1, 1]
 windows:
   "7d":
     pushes: 2
@@ -76,7 +76,58 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 23 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "tau"
+    title: "tau"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 10
+    first_seen: null
+    last_push: "2026-10-19"
+  - name: "go-opinionatedevents"
+    title: "go-opinionatedevents"
+    description: null
+    language: "Go"
+    topics:
+      - "golang"
+      - "postgresql"
+      - "pubsub"
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-10-17"
+  - name: "go-opinionatedsagas"
+    title: "go-opinionatedsagas"
+    description: null
+    language: "Go"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-17"
+  - name: "pt"
+    title: "pt"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-02"
+  - name: "ship"
+    title: "ship"
+    description: null
+    language: "Go"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-30"
+  - name: "iota"
+    title: "iota"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2025-12-25"
 ---
 
 # markusylisiurunen

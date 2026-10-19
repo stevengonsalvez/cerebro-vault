@@ -8,19 +8,19 @@ provenance_repos:
   - "can1357/oh-my-pi"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-18T06:04:36.280265+00:00"
+repos_populated: true
+generated_at: "2026-10-19T06:04:45.439728+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [30, 47, 55, 86, 15, 15, 2, 10, 31, 58, 51, 12, 11]
+pushes_per_week: [29, 51, 53, 82, 16, 14, 2, 14, 31, 64, 46, 9, 9]
 windows:
   "7d":
-    pushes: 15
-    distinct_repos: 7
-    active_days: 3
-    repos_not_owned: 3
+    pushes: 9
+    distinct_repos: 6
+    active_days: 1
+    repos_not_owned: 2
     not_owned_basenames: 2
-    not_owned_owners: 3
+    not_owned_owners: 2
   "30d":
     pushes: 156
     distinct_repos: 26
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 6
     not_owned_owners: 14
   "90d":
-    pushes: 423
-    distinct_repos: 55
-    active_days: 65
-    repos_not_owned: 39
+    pushes: 420
+    distinct_repos: 54
+    active_days: 63
+    repos_not_owned: 38
     not_owned_basenames: 9
-    not_owned_owners: 38
+    not_owned_owners: 37
 automation:
   state: "clear"
-  push_per_day: 6.5077
-  repo_per_active_day: 0.8462
-  not_owned_ratio: 0.7091
-  basename_concentration: 0.3455
+  push_per_day: 6.6667
+  repo_per_active_day: 0.8571
+  not_owned_ratio: 0.7037
+  basename_concentration: 0.3333
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,13 +49,13 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 15
-    distinct_repos: 7
-    pushes_per_repo: 2.1429
-    active_days: 3
-    repos_not_owned: 3
+    pushes: 9
+    distinct_repos: 6
+    pushes_per_repo: 1.5000
+    active_days: 1
+    repos_not_owned: 2
     not_owned_basenames: 2
-    not_owned_owners: 3
+    not_owned_owners: 2
   "30d":
     pushes: 156
     distinct_repos: 26
@@ -65,22 +65,82 @@ facets:
     not_owned_basenames: 6
     not_owned_owners: 14
   "90d":
-    pushes: 423
-    distinct_repos: 55
-    pushes_per_repo: 7.6909
-    active_days: 65
-    repos_not_owned: 39
+    pushes: 420
+    distinct_repos: 54
+    pushes_per_repo: 7.7778
+    active_days: 63
+    repos_not_owned: 38
     not_owned_basenames: 9
-    not_owned_owners: 38
+    not_owned_owners: 37
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 65 active days in 90d — pass"
+  - "activity: 63 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "visual-explainer"
+    title: "visual-explainer"
+    description: "Agent skill that generates rich HTML pages or slide decks for diagrams, diff reviews, plan audits, data tables, and project recaps"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 10522
+    first_seen: null
+    last_push: "2026-10-19"
+  - name: "pi-subagents"
+    title: "pi-subagents"
+    description: "Pi extension for async subagent delegation with truncation, artifacts, and session sharing"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 3958
+    first_seen: null
+    last_push: "2026-10-18"
+  - name: "pi-web-access"
+    title: "pi-web-access"
+    description: "Web search and content extraction extension for Pi coding agent"
+    language: "JavaScript"
+    topics:
+      - "perplexity"
+      - "pi-coding-agent"
+      - "typescript"
+      - "web-search"
+    stars_fact: 1652
+    first_seen: null
+    last_push: "2026-10-17"
+  - name: "pi-mcp-adapter"
+    title: "pi-mcp-adapter"
+    description: "Token-efficient MCP adapter for Pi coding agent"
+    language: "TypeScript"
+    topics:
+      - "ai"
+      - "claude"
+      - "coding-agent"
+      - "extension"
+      - "llm"
+      - "mcp"
+      - "model-context-protocol"
+      - "pi"
+    stars_fact: 1597
+    first_seen: null
+    last_push: "2026-10-18"
+  - name: "pi-powerline-footer"
+    title: "pi-powerline-footer"
+    description: "Powerline-style status bar extension for pi coding agent"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 457
+    first_seen: null
+    last_push: "2026-10-17"
+  - name: "pi-interactive-shell"
+    title: "pi-interactive-shell"
+    description: "Pi coding agent extension that allows Pi to autonomously control interactive CLIs in an observable overlay. Full PTY emulation, no tmux, token efficient. User can take over anytime."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 595
+    first_seen: null
+    last_push: "2026-10-13"
 ---
 
 # nicobailon
 
-423 pushes across 55 repositories on 65 active days in the last 90 days of public GitHub push activity.
+420 pushes across 54 repositories on 63 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/nicobailon

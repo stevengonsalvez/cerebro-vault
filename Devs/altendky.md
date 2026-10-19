@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-18T06:04:36.280265+00:00"
+generated_at: "2026-10-19T06:04:45.439728+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [5, 3, 3, 0, 0, 0, 0, 2, 9, 7, 1, 9, 14]
+pushes_per_week: [5, 3, 3, 0, 0, 0, 0, 2, 10, 6, 2, 14, 12]
 windows:
   "7d":
     pushes: 17
-    distinct_repos: 4
+    distinct_repos: 5
     active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 32
+    pushes: 36
     distinct_repos: 6
-    active_days: 14
+    active_days: 15
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 53
+    pushes: 57
     distinct_repos: 10
-    active_days: 26
+    active_days: 27
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.0385
-  repo_per_active_day: 0.3846
+  push_per_day: 2.1111
+  repo_per_active_day: 0.3704
   not_owned_ratio: 0.0000
   basename_concentration: 0.1000
   shapes: []
@@ -50,31 +50,31 @@ automation:
 facets:
   "7d":
     pushes: 17
-    distinct_repos: 4
-    pushes_per_repo: 4.2500
+    distinct_repos: 5
+    pushes_per_repo: 3.4000
     active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 32
+    pushes: 36
     distinct_repos: 6
-    pushes_per_repo: 5.3333
-    active_days: 14
+    pushes_per_repo: 6.0000
+    active_days: 15
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 53
+    pushes: 57
     distinct_repos: 10
-    pushes_per_repo: 5.3000
-    active_days: 26
+    pushes_per_repo: 5.7000
+    active_days: 27
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 26 active days in 90d — pass"
+  - "activity: 27 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "tachiai"
@@ -151,6 +151,6 @@ repos:
 
 # altendky
 
-53 pushes across 10 repositories on 26 active days in the last 90 days of public GitHub push activity.
+57 pushes across 10 repositories on 27 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/altendky

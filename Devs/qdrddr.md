@@ -8,11 +8,11 @@ provenance_repos:
   - "Canner/WrenAI"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-18T06:04:36.280265+00:00"
+repos_populated: true
+generated_at: "2026-10-19T06:04:45.439728+00:00"
 provenance:
   - "dffbb846389f9a26"
-pushes_per_week: [5, 19, 1, 1, 0, 0, 0, 0, 4, 3, 3, 0, 0]
+pushes_per_week: [5, 17, 2, 0, 0, 0, 0, 1, 3, 6, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 36
+    pushes: 34
     distinct_repos: 3
-    active_days: 19
+    active_days: 18
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.8947
-  repo_per_active_day: 0.1579
+  push_per_day: 1.8889
+  repo_per_active_day: 0.1667
   not_owned_ratio: 0.0000
   basename_concentration: 0.3333
   shapes: []
@@ -65,22 +65,96 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 36
+    pushes: 34
     distinct_repos: 3
-    pushes_per_repo: 12.0000
-    active_days: 19
+    pushes_per_repo: 11.3333
+    active_days: 18
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 19 active days in 90d — pass"
+  - "activity: 18 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "clear-your-tools"
+    title: "clear-your-tools"
+    description: "Cut input tokens by 30% while preserving LLM focus and pruning irrelevant MCP tools"
+    language: "Python"
+    topics:
+      - "mcp"
+      - "mcp-tools"
+      - "proxy-server"
+    stars_fact: 19
+    first_seen: null
+    last_push: "2026-09-28"
+  - name: "chunk-your-tools"
+    title: "chunk-your-tools"
+    description: "Chunk MCP tools: Tool with required properties; optional Properties and Enums"
+    language: "Rust"
+    topics:
+      - "chunk"
+      - "chunker"
+      - "chunking"
+      - "chunking-algorithm"
+      - "chunks"
+      - "mcp"
+      - "mcp-tools"
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-08-02"
+  - name: "chunk-your-skills"
+    title: "chunk-your-skills"
+    description: "Chunk Skills: Frontmatter; Index of markdown headers 2 nodes; recompose with PageIndex natural page form"
+    language: "Rust"
+    topics:
+      - "chunk"
+      - "chunker"
+      - "chunking"
+      - "chunking-algorithm"
+      - "chunks"
+      - "markdown"
+      - "skill"
+      - "skill-md"
+      - "skills"
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-08-02"
+  - name: "WrenAi-k8s"
+    title: "WrenAi-k8s"
+    description: "Deployment of WrenAi app in your K8s using ArgoCD"
+    language: null
+    topics: []
+    stars_fact: 7
+    first_seen: null
+    last_push: "2025-01-16"
+  - name: "kubectl-keychain"
+    title: "kubectl-keychain"
+    description: "A kubectl exec plugin that securely stores your kubeconfig credentials in the macOS Keychain and retrieves them on-demand."
+    language: "Python"
+    topics:
+      - "k8s"
+      - "keychain"
+      - "kubectl"
+      - "kubectl-commands"
+      - "kubectl-plugins"
+      - "kubernetes"
+      - "macos"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-02-05"
+  - name: "damien-ai-4friends"
+    title: "damien-ai-4friends"
+    description: "A bootstrap guides in AI for friends from Damien"
+    language: null
+    topics: []
+    stars_fact: 15
+    first_seen: null
+    last_push: "2025-08-20"
 ---
 
 # qdrddr
 
-36 pushes across 3 repositories on 19 active days in the last 90 days of public GitHub push activity.
+34 pushes across 3 repositories on 18 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/qdrddr

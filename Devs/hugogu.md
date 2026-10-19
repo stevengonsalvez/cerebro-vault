@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-18T06:04:36.280265+00:00"
+generated_at: "2026-10-19T06:04:45.439728+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [7, 1, 3, 0, 4, 3, 0, 3, 8, 5, 14, 5, 2]
+pushes_per_week: [5, 1, 3, 0, 5, 2, 1, 2, 10, 6, 12, 4, 3]
 windows:
   "7d":
-    pushes: 4
+    pushes: 3
     distinct_repos: 2
     active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 34
+    pushes: 31
     distinct_repos: 4
-    active_days: 14
+    active_days: 15
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 55
-    distinct_repos: 6
+    pushes: 54
+    distinct_repos: 5
     active_days: 29
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.8966
-  repo_per_active_day: 0.2069
+  push_per_day: 1.8621
+  repo_per_active_day: 0.1724
   not_owned_ratio: 0.0000
-  basename_concentration: 0.1667
+  basename_concentration: 0.2000
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 4
+    pushes: 3
     distinct_repos: 2
-    pushes_per_repo: 2.0000
+    pushes_per_repo: 1.5000
     active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 34
+    pushes: 31
     distinct_repos: 4
-    pushes_per_repo: 8.5000
-    active_days: 14
+    pushes_per_repo: 7.7500
+    active_days: 15
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 55
-    distinct_repos: 6
-    pushes_per_repo: 9.1667
+    pushes: 54
+    distinct_repos: 5
+    pushes_per_repo: 10.8000
     active_days: 29
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -169,6 +169,6 @@ repos:
 
 # hugogu
 
-55 pushes across 6 repositories on 29 active days in the last 90 days of public GitHub push activity.
+54 pushes across 5 repositories on 29 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/hugogu

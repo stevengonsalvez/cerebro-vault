@@ -8,11 +8,11 @@ provenance_repos:
   - "browser-use/browser-use"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-18T06:04:36.280265+00:00"
+repos_populated: true
+generated_at: "2026-10-19T06:04:45.439728+00:00"
 provenance:
   - "c1af6b58492f9bf4"
-pushes_per_week: [5, 7, 9, 0, 1, 0, 0, 4, 29, 5, 6, 2, 1]
+pushes_per_week: [6, 7, 8, 0, 1, 0, 1, 3, 29, 6, 6, 1, 1]
 windows:
   "7d":
     pushes: 1
@@ -76,7 +76,62 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 30 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "hackspain"
+    title: "hackspain"
+    description: "CINTA — Class-agnostic INline Transport Analyzer"
+    language: "Python"
+    topics:
+      - "ai"
+      - "classifier"
+      - "hardware"
+      - "robotics"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-20"
+  - name: "prodex-js"
+    title: "prodex-js"
+    description: "The ultimate vide coding MCP!"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 7
+    first_seen: null
+    last_push: "2025-03-26"
+  - name: "blog"
+    title: "blog"
+    description: null
+    language: "MDX"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-05-27"
+  - name: "zig-docker"
+    title: "zig-docker"
+    description: "Zig Lang Dockerfile"
+    language: "Zig"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2020-04-16"
+  - name: "mes-u"
+    title: "mes-u"
+    description: "Més U"
+    language: "TypeScript"
+    topics:
+      - "catalan"
+      - "game"
+      - "resistencia"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-03-09"
+  - name: "poker-wars"
+    title: "poker-wars"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-01-03"
 ---
 
 # tarasyarema

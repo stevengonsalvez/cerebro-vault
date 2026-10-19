@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-18T06:04:36.280265+00:00"
+generated_at: "2026-10-19T06:04:45.439728+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [2, 17, 3, 14, 3, 5, 1, 0, 1, 1, 1, 0, 4]
+pushes_per_week: [0, 17, 3, 14, 7, 1, 1, 0, 1, 1, 1, 1, 4]
 windows:
   "7d":
-    pushes: 4
+    pushes: 5
     distinct_repos: 2
-    active_days: 2
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 52
-    distinct_repos: 6
+    pushes: 51
+    distinct_repos: 5
     active_days: 22
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.3636
-  repo_per_active_day: 0.2727
-  not_owned_ratio: 0.1667
-  basename_concentration: 0.3333
+  push_per_day: 2.3182
+  repo_per_active_day: 0.2273
+  not_owned_ratio: 0.0000
+  basename_concentration: 0.2000
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 4
+    pushes: 5
     distinct_repos: 2
-    pushes_per_repo: 2.0000
-    active_days: 2
+    pushes_per_repo: 2.5000
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -65,13 +65,13 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 52
-    distinct_repos: 6
-    pushes_per_repo: 8.6667
+    pushes: 51
+    distinct_repos: 5
+    pushes_per_repo: 10.2000
     active_days: 22
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 22 active days in 90d — pass"
@@ -134,6 +134,6 @@ repos:
 
 # abhinav
 
-52 pushes across 6 repositories on 22 active days in the last 90 days of public GitHub push activity.
+51 pushes across 5 repositories on 22 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/abhinav

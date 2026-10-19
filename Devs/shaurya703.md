@@ -8,8 +8,8 @@ provenance_repos:
   - "alibaba/open-code-review"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-18T06:04:36.280265+00:00"
+repos_populated: true
+generated_at: "2026-10-19T06:04:45.439728+00:00"
 provenance:
   - "c489e6fb5febf2ab"
 pushes_per_week: [0, 0, 0, 1, 2, 0, 0, 0, 0, 0, 0, 0, 2]
@@ -76,7 +76,91 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "lawline-ai"
+    title: "lawline-ai"
+    description: "LawLine AI: knowledge-graph-augmented hybrid RAG for Indian legal QA — fine-tuned retriever, 1,810-query benchmark, FastAPI + Streamlit"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-15"
+  - name: "hidden-mutual-fund-fees"
+    title: "hidden-mutual-fund-fees"
+    description: "What Regular mutual fund plans quietly cost Indians: 1,084 matched fund pairs, 2013–2026 — Direct wins 99% of the time; ~₹27 lakh lost on a 20-yr SIP"
+    language: "Jupyter Notebook"
+    topics:
+      - "data-analysis"
+      - "fintech"
+      - "india"
+      - "mutual-funds"
+      - "pandas"
+      - "personal-finance"
+      - "statistics"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-13"
+  - name: "devboard"
+    title: "devboard"
+    description: "Real-time collaborative Kanban — Socket.IO live sync, optimistic drag-and-drop with rollback, JWT refresh rotation, RBAC. React/TS + Express + Prisma"
+    language: "TypeScript"
+    topics:
+      - "jwt-authentication"
+      - "kanban"
+      - "postgresql"
+      - "prisma"
+      - "react"
+      - "realtime"
+      - "socket-io"
+      - "typescript"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-13"
+  - name: "credit-risk-explainer"
+    title: "credit-risk-explainer"
+    description: "Loan-default prediction where every score is explained — calibrated XGBoost (ROC-AUC 0.871), per-applicant SHAP, cost-based threshold. FastAPI + Streamlit"
+    language: "Jupyter Notebook"
+    topics:
+      - "credit-risk"
+      - "explainable-ai"
+      - "fastapi"
+      - "machine-learning"
+      - "scikit-learn"
+      - "shap"
+      - "streamlit"
+      - "xgboost"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-13"
+  - name: "schemefinder"
+    title: "schemefinder"
+    description: "Find Indian government schemes you qualify for — transparent eligibility engine over a verified 50-scheme dataset"
+    language: "Python"
+    topics:
+      - "fastapi"
+      - "government-schemes"
+      - "india"
+      - "postgresql"
+      - "react"
+      - "rules-engine"
+      - "typescript"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-13"
+  - name: "jalcheck"
+    title: "jalcheck"
+    description: "What's contaminating your area's groundwater (arsenic/fluoride/nitrate/uranium), what it does, and how to remove it — from real CGWB & Jal Shakti data"
+    language: "Python"
+    topics:
+      - "civic-tech"
+      - "fastapi"
+      - "india"
+      - "public-health"
+      - "react"
+      - "water-quality"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-13"
 ---
 
 # shaurya703

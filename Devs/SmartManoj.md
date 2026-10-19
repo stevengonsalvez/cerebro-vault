@@ -8,11 +8,11 @@ provenance_repos:
   - "browser-use/browser-use"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-18T06:04:36.280265+00:00"
+repos_populated: true
+generated_at: "2026-10-19T06:04:45.439728+00:00"
 provenance:
   - "c1af6b58492f9bf4"
-pushes_per_week: [0, 13, 1, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0]
+pushes_per_week: [6, 8, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,61 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "SmartManoj"
+    title: "SmartManoj"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-19"
+  - name: "Smart-Userscripts"
+    title: "Smart-Userscripts"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-10-18"
+  - name: "ClaudeCodeTips"
+    title: "ClaudeCodeTips"
+    description: "Daily-updated list of Claude Code spinner tips, extracted from the CLI binary"
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-18"
+  - name: "ClipSmith"
+    title: "ClipSmith"
+    description: "Cross-platform clipboard enhancer: auto-cleans copied text (e.g. strips trailing slash from URLs) and keeps Win+V history tidy"
+    language: "Python"
+    topics:
+      - "clipboard"
+      - "linux"
+      - "macos"
+      - "python"
+      - "win-v"
+      - "windows"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-15"
+  - name: "share-via-telegram"
+    title: "share-via-telegram"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-15"
+  - name: "Better-Gmail-Bot"
+    title: "Better-Gmail-Bot"
+    description: "A Replacement for Telegram Gmail Bot"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-28"
 ---
 
 # SmartManoj

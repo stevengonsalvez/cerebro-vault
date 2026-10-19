@@ -8,11 +8,11 @@ provenance_repos:
   - "alibaba/open-code-review"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-18T06:04:36.280265+00:00"
+repos_populated: true
+generated_at: "2026-10-19T06:04:45.439728+00:00"
 provenance:
   - "c489e6fb5febf2ab"
-pushes_per_week: [1, 0, 0, 3, 0, 0, 0, 0, 2, 6, 2, 1, 0]
+pushes_per_week: [1, 0, 0, 3, 0, 0, 0, 0, 2, 8, 0, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,77 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 9 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "track-b2"
+    title: "track-b2"
+    description: null
+    language: "Rust"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-14"
+  - name: "muse-familiar"
+    title: "muse-familiar"
+    description: null
+    language: "Python"
+    topics:
+      - "ai"
+      - "arduino"
+      - "desk-pet"
+      - "iot"
+      - "led-matrix"
+      - "muse"
+      - "muse-gadget"
+      - "qualcomm"
+      - "zephyr"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-06"
+  - name: "lumen"
+    title: "lumen"
+    description: "Lightweight, pluggable, MCP-first SEO toolkit. Local site audits, keyword ideas, rank checks, CWV reports — CLI + MCP server + Cloudflare Worker. Free services only, BYOK, provenance on every number."
+    language: "TypeScript"
+    topics:
+      - "ai-agents"
+      - "cli"
+      - "cloudflare-workers"
+      - "developer-tools"
+      - "llm"
+      - "mcp"
+      - "model-context-protocol"
+      - "nodejs"
+      - "open-source"
+      - "seo"
+      - "seo-audit"
+      - "site-audit"
+      - "typescript"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-17"
+  - name: "lumen-plugin-template"
+    title: "lumen-plugin-template"
+    description: "Starter template for lumen audit-rule plugins."
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-01"
+  - name: "res-blog"
+    title: "res-blog"
+    description: "Nitish Personal Portfolio/Blog"
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-28"
+  - name: "minimal-editor"
+    title: "minimal-editor"
+    description: "Minimal, fast, VS Code-familiar editor for reviewing code changes. No extensions, no telemetry, no agent upsell."
+    language: "Rust"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-25"
 ---
 
 # nitishagar

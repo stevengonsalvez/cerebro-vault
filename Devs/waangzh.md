@@ -8,11 +8,11 @@ provenance_repos:
   - "BigPizzaV3/CodexPlusPlus"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-18T06:04:36.280265+00:00"
+repos_populated: true
+generated_at: "2026-10-19T06:04:45.439728+00:00"
 provenance:
   - "90688bf127241ceb"
-pushes_per_week: [16, 0, 2, 1, 1, 0, 0, 2, 0, 0, 2, 2, 1]
+pushes_per_week: [13, 0, 2, 1, 1, 0, 2, 0, 0, 0, 3, 1, 1]
 windows:
   "7d":
     pushes: 1
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 27
+    pushes: 24
     distinct_repos: 6
-    active_days: 14
+    active_days: 13
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.9286
-  repo_per_active_day: 0.4286
+  push_per_day: 1.8462
+  repo_per_active_day: 0.4615
   not_owned_ratio: 0.0000
   basename_concentration: 0.1667
   shapes: []
@@ -65,22 +65,72 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 27
+    pushes: 24
     distinct_repos: 6
-    pushes_per_repo: 4.5000
-    active_days: 14
+    pushes_per_repo: 4.0000
+    active_days: 13
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 14 active days in 90d — pass"
+  - "activity: 13 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "RepoGuardian"
+    title: "RepoGuardian"
+    description: "Pull Request 代码审查 Agent"
+    language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-16"
+  - name: "re-bookmarks"
+    title: "re-bookmarks"
+    description: "智能整理浏览器书签插件"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 23
+    first_seen: null
+    last_push: "2026-10-13"
+  - name: "waangzh.github.io"
+    title: "waangzh.github.io"
+    description: null
+    language: "CSS"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-11"
+  - name: "Intelligent-Power-Inspection"
+    title: "Intelligent-Power-Inspection"
+    description: null
+    language: "Java"
+    topics: []
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-08-09"
+  - name: "healing-planet"
+    title: "healing-planet"
+    description: "面向绿植爱好者的智能养植与绿植社区平台"
+    language: "Java"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-12"
+  - name: "waangzh"
+    title: "waangzh"
+    description: "Config files for my GitHub profile."
+    language: null
+    topics:
+      - "config"
+      - "github-config"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-15"
 ---
 
 # waangzh
 
-27 pushes across 6 repositories on 14 active days in the last 90 days of public GitHub push activity.
+24 pushes across 6 repositories on 13 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/waangzh

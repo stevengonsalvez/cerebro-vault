@@ -8,8 +8,8 @@ provenance_repos:
   - "BuilderIO/agent-native"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-18T06:04:36.280265+00:00"
+repos_populated: true
+generated_at: "2026-10-19T06:04:45.439728+00:00"
 provenance:
   - "745308b2b7085095"
 pushes_per_week: [0, 1, 0, 2, 0, 0, 0, 0, 9, 5, 3, 0, 1]
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 13
+    pushes: 11
     distinct_repos: 2
-    active_days: 8
+    active_days: 7
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 13
+    pushes: 11
     distinct_repos: 2
-    pushes_per_repo: 6.5000
-    active_days: 8
+    pushes_per_repo: 5.5000
+    active_days: 7
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
@@ -76,7 +76,57 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 13 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "site"
+    title: "site"
+    description: "sobre mi"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-29"
+  - name: "nomad"
+    title: "nomad"
+    description: "Agent-native residency and tax-presence cockpit for digital nomads"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-09-07"
+  - name: "paprikaf"
+    title: "paprikaf"
+    description: "Config files for my GitHub profile."
+    language: null
+    topics:
+      - "config"
+      - "github-config"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2025-10-26"
+  - name: "shakepay-stats"
+    title: "shakepay-stats"
+    description: "Upload your Shakepay transaction's history and visualize gains and losses"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2025-02-28"
+  - name: "builder-migration-script-demo"
+    title: "builder-migration-script-demo"
+    description: "builder migration script demo"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2025-01-28"
+  - name: "builder-m3-angular-bp"
+    title: "builder-m3-angular-bp"
+    description: "A boilerplate for Angular Builder projects using Material UI M3 for components, design systems"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2024-12-20"
 ---
 
 # paprikaf

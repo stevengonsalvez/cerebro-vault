@@ -8,23 +8,23 @@ provenance_repos:
   - "alibaba/open-code-review"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-18T06:04:36.280265+00:00"
+repos_populated: true
+generated_at: "2026-10-19T06:04:45.439728+00:00"
 provenance:
   - "c489e6fb5febf2ab"
-pushes_per_week: [7, 9, 2, 21, 2, 0, 0, 1, 4, 11, 8, 8, 1]
+pushes_per_week: [7, 9, 3, 20, 2, 0, 0, 1, 5, 10, 9, 7, 1]
 windows:
   "7d":
-    pushes: 2
-    distinct_repos: 2
-    active_days: 2
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 31
+    pushes: 28
     distinct_repos: 8
-    active_days: 12
+    active_days: 11
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -49,18 +49,18 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
-    distinct_repos: 2
+    pushes: 1
+    distinct_repos: 1
     pushes_per_repo: 1.0000
-    active_days: 2
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 31
+    pushes: 28
     distinct_repos: 8
-    pushes_per_repo: 3.8750
-    active_days: 12
+    pushes_per_repo: 3.5000
+    active_days: 11
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -76,7 +76,56 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 31 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "wu21-web"
+    title: "wu21-web"
+    description: "wu21-web's ReadMe"
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-16"
+  - name: "atri-signin"
+    title: "atri-signin"
+    description: "免费b站/网易云会员签到网站自动签到"
+    language: "Go"
+    topics:
+      - "bilibili"
+      - "neteasemusic"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-06"
+  - name: "conv"
+    title: "conv"
+    description: "All in one file conversions through FFmpeg, ImageMagick's magick, and Pandoc."
+    language: "Go"
+    topics:
+      - "compacted"
+      - "converter"
+      - "ffmpeg"
+      - "gunzip"
+      - "imagemagick"
+      - "pandoc"
+      - "tar"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-03"
+  - name: "gh-pfp"
+    title: "gh-pfp"
+    description: "Github Style Profile Picture Generator + API + Web + Command Line"
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-08"
+  - name: "authcore"
+    title: "authcore"
+    description: "Core of an authenticator on the command line."
+    language: "Go"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-23"
 ---
 
 # wu21-web
