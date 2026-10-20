@@ -9,39 +9,39 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-19T06:04:45.439728+00:00"
+generated_at: "2026-10-20T06:04:57.914428+00:00"
 provenance:
   - "1df6ea1f1256059e"
   - "edb3a626875732de"
-pushes_per_week: [5, 10, 1, 2, 0, 0, 1, 0, 0, 3, 7, 1, 0]
+pushes_per_week: [5, 10, 1, 2, 0, 0, 1, 0, 0, 3, 7, 1, 2]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
+    pushes: 2
+    distinct_repos: 1
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 11
-    distinct_repos: 2
-    active_days: 4
+    pushes: 13
+    distinct_repos: 3
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 30
-    distinct_repos: 6
-    active_days: 14
+    pushes: 32
+    distinct_repos: 7
+    active_days: 16
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.1429
-  repo_per_active_day: 0.4286
-  not_owned_ratio: 0.3333
-  basename_concentration: 0.1667
+  push_per_day: 2.0000
+  repo_per_active_day: 0.4375
+  not_owned_ratio: 0.2857
+  basename_concentration: 0.1429
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -50,32 +50,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
+    pushes: 2
+    distinct_repos: 1
+    pushes_per_repo: 2.0000
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 11
-    distinct_repos: 2
-    pushes_per_repo: 5.5000
-    active_days: 4
+    pushes: 13
+    distinct_repos: 3
+    pushes_per_repo: 4.3333
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 30
-    distinct_repos: 6
-    pushes_per_repo: 5.0000
-    active_days: 14
+    pushes: 32
+    distinct_repos: 7
+    pushes_per_repo: 4.5714
+    active_days: 16
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 14 active days in 90d — pass"
+  - "activity: 16 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "uii-skripsi-research"
@@ -146,6 +146,6 @@ repos:
 
 # zakyirsyaad
 
-30 pushes across 6 repositories on 14 active days in the last 90 days of public GitHub push activity.
+32 pushes across 7 repositories on 16 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/zakyirsyaad

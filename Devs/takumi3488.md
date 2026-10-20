@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-19T06:04:45.439728+00:00"
+generated_at: "2026-10-20T06:04:57.914428+00:00"
 provenance:
   - "2a7f0fddd2dac162"
-pushes_per_week: [92, 65, 9, 70, 25, 5, 1, 9, 40, 31, 39, 21, 9]
+pushes_per_week: [88, 62, 8, 83, 12, 6, 2, 7, 45, 30, 42, 19, 22]
 windows:
   "7d":
-    pushes: 10
-    distinct_repos: 7
+    pushes: 25
+    distinct_repos: 6
     active_days: 4
-    repos_not_owned: 5
-    not_owned_basenames: 5
+    repos_not_owned: 4
+    not_owned_basenames: 4
     not_owned_owners: 1
   "30d":
-    pushes: 123
+    pushes: 134
     distinct_repos: 51
     active_days: 26
     repos_not_owned: 19
     not_owned_basenames: 19
     not_owned_owners: 1
   "90d":
-    pushes: 416
+    pushes: 426
     distinct_repos: 89
     active_days: 64
     repos_not_owned: 25
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 6.5000
+  push_per_day: 6.6562
   repo_per_active_day: 1.3906
   not_owned_ratio: 0.2809
   basename_concentration: 0.0225
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 10
-    distinct_repos: 7
-    pushes_per_repo: 1.4286
+    pushes: 25
+    distinct_repos: 6
+    pushes_per_repo: 4.1667
     active_days: 4
-    repos_not_owned: 5
-    not_owned_basenames: 5
+    repos_not_owned: 4
+    not_owned_basenames: 4
     not_owned_owners: 1
   "30d":
-    pushes: 123
+    pushes: 134
     distinct_repos: 51
-    pushes_per_repo: 2.4118
+    pushes_per_repo: 2.6275
     active_days: 26
     repos_not_owned: 19
     not_owned_basenames: 19
     not_owned_owners: 1
   "90d":
-    pushes: 416
+    pushes: 426
     distinct_repos: 89
-    pushes_per_repo: 4.6742
+    pushes_per_repo: 4.7865
     active_days: 64
     repos_not_owned: 25
     not_owned_basenames: 25
@@ -129,6 +129,6 @@ repos:
 
 # takumi3488
 
-416 pushes across 89 repositories on 64 active days in the last 90 days of public GitHub push activity.
+426 pushes across 89 repositories on 64 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/takumi3488

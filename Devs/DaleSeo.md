@@ -9,18 +9,18 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-19T06:04:45.439728+00:00"
+generated_at: "2026-10-20T06:04:57.914428+00:00"
 provenance:
   - "0b22ca37fd3884c9"
-pushes_per_week: [13, 9, 5, 2, 1, 0, 0, 1, 7, 21, 4, 5, 8]
+pushes_per_week: [17, 5, 6, 2, 0, 0, 0, 1, 7, 21, 5, 9, 4]
 windows:
   "7d":
     pushes: 9
     distinct_repos: 7
     active_days: 3
     repos_not_owned: 7
-    not_owned_basenames: 7
-    not_owned_owners: 2
+    not_owned_basenames: 6
+    not_owned_owners: 3
   "30d":
     pushes: 39
     distinct_repos: 12
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 11
     not_owned_owners: 3
   "90d":
-    pushes: 76
+    pushes: 77
     distinct_repos: 16
-    active_days: 32
+    active_days: 33
     repos_not_owned: 14
     not_owned_basenames: 13
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 2.3750
-  repo_per_active_day: 0.5000
+  push_per_day: 2.3333
+  repo_per_active_day: 0.4848
   not_owned_ratio: 0.8750
   basename_concentration: 0.1250
   shapes: []
@@ -54,8 +54,8 @@ facets:
     pushes_per_repo: 1.2857
     active_days: 3
     repos_not_owned: 7
-    not_owned_basenames: 7
-    not_owned_owners: 2
+    not_owned_basenames: 6
+    not_owned_owners: 3
   "30d":
     pushes: 39
     distinct_repos: 12
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 11
     not_owned_owners: 3
   "90d":
-    pushes: 76
+    pushes: 77
     distinct_repos: 16
-    pushes_per_repo: 4.7500
-    active_days: 32
+    pushes_per_repo: 4.8125
+    active_days: 33
     repos_not_owned: 14
     not_owned_basenames: 13
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 32 active days in 90d — pass"
+  - "activity: 33 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "korean-skills"
@@ -132,6 +132,6 @@ repos:
 
 # DaleSeo
 
-76 pushes across 16 repositories on 32 active days in the last 90 days of public GitHub push activity.
+77 pushes across 16 repositories on 33 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/DaleSeo

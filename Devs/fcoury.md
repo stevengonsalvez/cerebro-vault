@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-19T06:04:45.439728+00:00"
+generated_at: "2026-10-20T06:04:57.914428+00:00"
 provenance:
   - "0388a4f55f4206c8"
   - "0577669e18ed3998"
@@ -33,35 +33,35 @@ provenance:
   - "c6b4a874521ceb02"
   - "cf565721454d59f8"
   - "e26852201e6f38fc"
-pushes_per_week: [11, 4, 2, 30, 3, 1, 0, 0, 1, 8, 0, 1, 3]
+pushes_per_week: [10, 4, 2, 32, 1, 1, 0, 0, 1, 8, 0, 3, 3]
 windows:
   "7d":
     pushes: 4
     distinct_repos: 2
     active_days: 3
-    repos_not_owned: 2
-    not_owned_basenames: 2
+    repos_not_owned: 1
+    not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 13
-    distinct_repos: 3
+    pushes: 14
+    distinct_repos: 4
     active_days: 7
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 64
-    distinct_repos: 8
+    pushes: 65
+    distinct_repos: 9
     active_days: 24
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.6667
-  repo_per_active_day: 0.3333
-  not_owned_ratio: 0.3750
-  basename_concentration: 0.1250
+  push_per_day: 2.7083
+  repo_per_active_day: 0.3750
+  not_owned_ratio: 0.3333
+  basename_concentration: 0.1111
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -74,21 +74,21 @@ facets:
     distinct_repos: 2
     pushes_per_repo: 2.0000
     active_days: 3
-    repos_not_owned: 2
-    not_owned_basenames: 2
+    repos_not_owned: 1
+    not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 13
-    distinct_repos: 3
-    pushes_per_repo: 4.3333
+    pushes: 14
+    distinct_repos: 4
+    pushes_per_repo: 3.5000
     active_days: 7
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 64
-    distinct_repos: 8
-    pushes_per_repo: 8.0000
+    pushes: 65
+    distinct_repos: 9
+    pushes_per_repo: 7.2222
     active_days: 24
     repos_not_owned: 3
     not_owned_basenames: 3
@@ -155,6 +155,6 @@ repos:
 
 # fcoury
 
-64 pushes across 8 repositories on 24 active days in the last 90 days of public GitHub push activity.
+65 pushes across 9 repositories on 24 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/fcoury

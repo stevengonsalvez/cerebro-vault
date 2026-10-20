@@ -9,13 +9,13 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-19T06:04:45.439728+00:00"
+generated_at: "2026-10-20T06:04:57.914428+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [11, 8, 5, 9, 15, 4, 1, 24, 21, 77, 24, 10, 2]
+pushes_per_week: [8, 8, 4, 23, 3, 2, 1, 26, 19, 79, 22, 11, 2]
 windows:
   "7d":
-    pushes: 6
+    pushes: 3
     distinct_repos: 1
     active_days: 3
     repos_not_owned: 0
@@ -29,7 +29,7 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 211
+    pushes: 208
     distinct_repos: 16
     active_days: 55
     repos_not_owned: 4
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 3.8364
+  push_per_day: 3.7818
   repo_per_active_day: 0.2909
   not_owned_ratio: 0.2500
   basename_concentration: 0.1250
@@ -49,9 +49,9 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 6
+    pushes: 3
     distinct_repos: 1
-    pushes_per_repo: 6.0000
+    pushes_per_repo: 3.0000
     active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -65,9 +65,9 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 211
+    pushes: 208
     distinct_repos: 16
-    pushes_per_repo: 13.1875
+    pushes_per_repo: 13.0000
     active_days: 55
     repos_not_owned: 4
     not_owned_basenames: 4
@@ -137,6 +137,6 @@ repos:
 
 # sjawhar
 
-211 pushes across 16 repositories on 55 active days in the last 90 days of public GitHub push activity.
+208 pushes across 16 repositories on 55 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/sjawhar

@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-19T06:04:45.439728+00:00"
+generated_at: "2026-10-20T06:04:57.914428+00:00"
 provenance:
   - "01cd6a498d377caf"
   - "03604cccd7e9402d"
@@ -40,6 +40,7 @@ provenance:
   - "557818547b5e5732"
   - "5744b97e5a176886"
   - "5dc7e9d03eb17a01"
+  - "637ddeb38167e8ce"
   - "69930101e09d4f35"
   - "6d9f931d3f4a007e"
   - "7389d4b9c5e1318a"
@@ -75,15 +76,15 @@ provenance:
   - "fd1cb9e783625459"
   - "fe9e50bf2d5b21fe"
   - "ff1ca072bf39e471"
-pushes_per_week: [5, 0, 3, 27, 0, 0, 0, 0, 5, 0, 1, 1, 0]
+pushes_per_week: [5, 0, 6, 24, 0, 0, 0, 0, 5, 1, 0, 1, 1]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "30d":
     pushes: 3
     distinct_repos: 2
@@ -92,16 +93,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 42
+    pushes: 43
     distinct_repos: 2
-    active_days: 16
+    active_days: 17
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.6250
-  repo_per_active_day: 0.1250
+  push_per_day: 2.5294
+  repo_per_active_day: 0.1176
   not_owned_ratio: 0.5000
   basename_concentration: 0.5000
   shapes: []
@@ -112,13 +113,13 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    pushes: 1
+    distinct_repos: 1
+    pushes_per_repo: 1.0000
+    active_days: 1
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "30d":
     pushes: 3
     distinct_repos: 2
@@ -128,16 +129,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 42
+    pushes: 43
     distinct_repos: 2
-    pushes_per_repo: 21.0000
-    active_days: 16
+    pushes_per_repo: 21.5000
+    active_days: 17
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
-  - "provenance: 64 vault signal(s) — pass"
-  - "activity: 16 active days in 90d — pass"
+  - "provenance: 65 vault signal(s) — pass"
+  - "activity: 17 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "claude-code-xtras"
@@ -190,6 +191,6 @@ repos:
 
 # rquintino
 
-42 pushes across 2 repositories on 16 active days in the last 90 days of public GitHub push activity.
+43 pushes across 2 repositories on 17 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/rquintino

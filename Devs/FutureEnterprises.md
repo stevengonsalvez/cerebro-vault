@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-19T06:04:45.439728+00:00"
+generated_at: "2026-10-20T06:04:57.914428+00:00"
 provenance:
   - "b7bec34541d2ddb0"
-pushes_per_week: [25, 20, 16, 32, 8, 2, 0, 5, 0, 23, 7, 0, 0]
+pushes_per_week: [23, 14, 22, 26, 8, 2, 0, 5, 0, 23, 7, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 138
+    pushes: 130
     distinct_repos: 3
-    active_days: 41
+    active_days: 40
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 3.3659
-  repo_per_active_day: 0.0732
+  push_per_day: 3.2500
+  repo_per_active_day: 0.0750
   not_owned_ratio: 0.6667
   basename_concentration: 0.6667
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 138
+    pushes: 130
     distinct_repos: 3
-    pushes_per_repo: 46.0000
-    active_days: 41
+    pushes_per_repo: 43.3333
+    active_days: 40
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 41 active days in 90d — pass"
+  - "activity: 40 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "anatomy"
@@ -126,6 +126,6 @@ repos:
 
 # FutureEnterprises
 
-138 pushes across 3 repositories on 41 active days in the last 90 days of public GitHub push activity.
+130 pushes across 3 repositories on 40 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/FutureEnterprises

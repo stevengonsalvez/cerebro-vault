@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-19T06:04:45.439728+00:00"
+generated_at: "2026-10-20T06:04:57.914428+00:00"
 provenance:
   - "48dbbdd8fd0d3029"
-pushes_per_week: [4, 1, 1, 4, 0, 0, 2, 3, 0, 17, 2, 2, 2]
+pushes_per_week: [2, 0, 5, 0, 0, 0, 4, 1, 1, 18, 0, 2, 3]
 windows:
   "7d":
     pushes: 3
@@ -22,25 +22,25 @@ windows:
     not_owned_basenames: 3
     not_owned_owners: 1
   "30d":
-    pushes: 23
+    pushes: 24
     distinct_repos: 6
-    active_days: 11
+    active_days: 12
     repos_not_owned: 6
     not_owned_basenames: 6
     not_owned_owners: 1
   "90d":
-    pushes: 38
-    distinct_repos: 11
+    pushes: 36
+    distinct_repos: 10
     active_days: 19
-    repos_not_owned: 11
-    not_owned_basenames: 11
+    repos_not_owned: 10
+    not_owned_basenames: 10
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.0000
-  repo_per_active_day: 0.5789
+  push_per_day: 1.8947
+  repo_per_active_day: 0.5263
   not_owned_ratio: 1.0000
-  basename_concentration: 0.0909
+  basename_concentration: 0.1000
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -57,20 +57,20 @@ facets:
     not_owned_basenames: 3
     not_owned_owners: 1
   "30d":
-    pushes: 23
+    pushes: 24
     distinct_repos: 6
-    pushes_per_repo: 3.8333
-    active_days: 11
+    pushes_per_repo: 4.0000
+    active_days: 12
     repos_not_owned: 6
     not_owned_basenames: 6
     not_owned_owners: 1
   "90d":
-    pushes: 38
-    distinct_repos: 11
-    pushes_per_repo: 3.4545
+    pushes: 36
+    distinct_repos: 10
+    pushes_per_repo: 3.6000
     active_days: 19
-    repos_not_owned: 11
-    not_owned_basenames: 11
+    repos_not_owned: 10
+    not_owned_basenames: 10
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
@@ -113,6 +113,6 @@ repos:
 
 # igorcosta
 
-38 pushes across 11 repositories on 19 active days in the last 90 days of public GitHub push activity.
+36 pushes across 10 repositories on 19 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/igorcosta

@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-19T06:04:45.439728+00:00"
+generated_at: "2026-10-20T06:04:57.914428+00:00"
 provenance:
   - "a5ffcd0a46dd44fd"
-pushes_per_week: [20, 11, 14, 10, 1, 1, 0, 1, 5, 8, 13, 10, 3]
+pushes_per_week: [23, 11, 9, 10, 1, 1, 0, 4, 3, 8, 12, 11, 5]
 windows:
   "7d":
-    pushes: 10
-    distinct_repos: 4
-    active_days: 3
-    repos_not_owned: 2
+    pushes: 6
+    distinct_repos: 2
+    active_days: 4
+    repos_not_owned: 1
     not_owned_basenames: 1
-    not_owned_owners: 2
+    not_owned_owners: 1
   "30d":
-    pushes: 34
+    pushes: 37
     distinct_repos: 6
-    active_days: 13
+    active_days: 15
     repos_not_owned: 3
     not_owned_basenames: 1
     not_owned_owners: 3
   "90d":
-    pushes: 97
+    pushes: 98
     distinct_repos: 13
-    active_days: 35
+    active_days: 36
     repos_not_owned: 6
     not_owned_basenames: 2
     not_owned_owners: 6
 automation:
   state: "clear"
-  push_per_day: 2.7714
-  repo_per_active_day: 0.3714
+  push_per_day: 2.7222
+  repo_per_active_day: 0.3611
   not_owned_ratio: 0.4615
   basename_concentration: 0.4615
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 10
-    distinct_repos: 4
-    pushes_per_repo: 2.5000
-    active_days: 3
-    repos_not_owned: 2
+    pushes: 6
+    distinct_repos: 2
+    pushes_per_repo: 3.0000
+    active_days: 4
+    repos_not_owned: 1
     not_owned_basenames: 1
-    not_owned_owners: 2
+    not_owned_owners: 1
   "30d":
-    pushes: 34
+    pushes: 37
     distinct_repos: 6
-    pushes_per_repo: 5.6667
-    active_days: 13
+    pushes_per_repo: 6.1667
+    active_days: 15
     repos_not_owned: 3
     not_owned_basenames: 1
     not_owned_owners: 3
   "90d":
-    pushes: 97
+    pushes: 98
     distinct_repos: 13
-    pushes_per_repo: 7.4615
-    active_days: 35
+    pushes_per_repo: 7.5385
+    active_days: 36
     repos_not_owned: 6
     not_owned_basenames: 2
     not_owned_owners: 6
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 35 active days in 90d — pass"
+  - "activity: 36 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "registry-redirector"
@@ -130,6 +130,6 @@ repos:
 
 # howardjohn
 
-97 pushes across 13 repositories on 35 active days in the last 90 days of public GitHub push activity.
+98 pushes across 13 repositories on 36 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/howardjohn

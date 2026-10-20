@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-19T06:04:45.439728+00:00"
+generated_at: "2026-10-20T06:04:57.914428+00:00"
 provenance:
   - "c489e6fb5febf2ab"
-pushes_per_week: [0, 0, 1, 0, 0, 0, 1, 15, 2, 5, 3, 1, 1]
+pushes_per_week: [0, 0, 1, 0, 0, 0, 1, 15, 2, 5, 3, 1, 2]
 windows:
   "7d":
     pushes: 2
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 29
-    distinct_repos: 8
-    active_days: 11
+    pushes: 30
+    distinct_repos: 9
+    active_days: 12
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.6364
-  repo_per_active_day: 0.7273
-  not_owned_ratio: 0.1250
-  basename_concentration: 0.1250
+  push_per_day: 2.5000
+  repo_per_active_day: 0.7500
+  not_owned_ratio: 0.1111
+  basename_concentration: 0.1111
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 29
-    distinct_repos: 8
-    pushes_per_repo: 3.6250
-    active_days: 11
+    pushes: 30
+    distinct_repos: 9
+    pushes_per_repo: 3.3333
+    active_days: 12
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 11 active days in 90d — pass"
+  - "activity: 12 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "Hackintosh-Nvidia-RTX"
@@ -139,6 +139,6 @@ repos:
 
 # SameerAlSahab
 
-29 pushes across 8 repositories on 11 active days in the last 90 days of public GitHub push activity.
+30 pushes across 9 repositories on 12 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/SameerAlSahab

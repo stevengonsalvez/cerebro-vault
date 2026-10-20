@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-19T06:04:45.439728+00:00"
+generated_at: "2026-10-20T06:04:57.914428+00:00"
 provenance:
   - "01cd6a498d377caf"
   - "03604cccd7e9402d"
@@ -40,6 +40,7 @@ provenance:
   - "557818547b5e5732"
   - "5744b97e5a176886"
   - "5dc7e9d03eb17a01"
+  - "637ddeb38167e8ce"
   - "69930101e09d4f35"
   - "6d9f931d3f4a007e"
   - "7389d4b9c5e1318a"
@@ -75,7 +76,7 @@ provenance:
   - "fd1cb9e783625459"
   - "fe9e50bf2d5b21fe"
   - "ff1ca072bf39e471"
-pushes_per_week: [14, 8, 13, 5, 0, 8, 0, 0, 4, 12, 1, 0, 0]
+pushes_per_week: [15, 6, 13, 5, 1, 7, 0, 0, 4, 12, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -92,16 +93,16 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 65
+    pushes: 64
     distinct_repos: 17
-    active_days: 26
+    active_days: 25
     repos_not_owned: 4
     not_owned_basenames: 3
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 2.5000
-  repo_per_active_day: 0.6538
+  push_per_day: 2.5600
+  repo_per_active_day: 0.6800
   not_owned_ratio: 0.2353
   basename_concentration: 0.1765
   shapes: []
@@ -128,16 +129,16 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 65
+    pushes: 64
     distinct_repos: 17
-    pushes_per_repo: 3.8235
-    active_days: 26
+    pushes_per_repo: 3.7647
+    active_days: 25
     repos_not_owned: 4
     not_owned_basenames: 3
     not_owned_owners: 3
 reasons:
-  - "provenance: 64 vault signal(s) — pass"
-  - "activity: 26 active days in 90d — pass"
+  - "provenance: 65 vault signal(s) — pass"
+  - "activity: 25 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "skillsaw"
@@ -209,6 +210,6 @@ repos:
 
 # stbenjam
 
-65 pushes across 17 repositories on 26 active days in the last 90 days of public GitHub push activity.
+64 pushes across 17 repositories on 25 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/stbenjam

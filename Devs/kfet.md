@@ -9,41 +9,41 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-19T06:04:45.439728+00:00"
+generated_at: "2026-10-20T06:04:57.914428+00:00"
 provenance:
   - "1be978947e68d1f2"
   - "98a2deac3e2f9725"
   - "b949a65ff91f9791"
   - "e9879ff70aa53e1e"
-pushes_per_week: [6, 8, 7, 5, 4, 3, 6, 1, 14, 6, 12, 3, 4]
+pushes_per_week: [8, 6, 7, 5, 5, 2, 6, 4, 12, 6, 11, 7, 3]
 windows:
   "7d":
-    pushes: 4
-    distinct_repos: 3
-    active_days: 1
+    pushes: 5
+    distinct_repos: 2
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 29
-    distinct_repos: 7
+    pushes: 30
+    distinct_repos: 8
     active_days: 15
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 79
-    distinct_repos: 14
-    active_days: 42
+    pushes: 82
+    distinct_repos: 15
+    active_days: 43
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.8810
-  repo_per_active_day: 0.3333
+  push_per_day: 1.9070
+  repo_per_active_day: 0.3488
   not_owned_ratio: 0.0000
-  basename_concentration: 0.0714
+  basename_concentration: 0.0667
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -52,32 +52,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 4
-    distinct_repos: 3
-    pushes_per_repo: 1.3333
-    active_days: 1
+    pushes: 5
+    distinct_repos: 2
+    pushes_per_repo: 2.5000
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 29
-    distinct_repos: 7
-    pushes_per_repo: 4.1429
+    pushes: 30
+    distinct_repos: 8
+    pushes_per_repo: 3.7500
     active_days: 15
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 79
-    distinct_repos: 14
-    pushes_per_repo: 5.6429
-    active_days: 42
+    pushes: 82
+    distinct_repos: 15
+    pushes_per_repo: 5.4667
+    active_days: 43
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 4 vault signal(s) — pass"
-  - "activity: 42 active days in 90d — pass"
+  - "activity: 43 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "homebrew-ai"
@@ -137,6 +137,6 @@ repos:
 
 # kfet
 
-79 pushes across 14 repositories on 42 active days in the last 90 days of public GitHub push activity.
+82 pushes across 15 repositories on 43 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/kfet

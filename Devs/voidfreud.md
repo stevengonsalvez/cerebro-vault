@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-19T06:04:45.439728+00:00"
+generated_at: "2026-10-20T06:04:57.914428+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [11, 2, 0, 1, 4, 0, 3, 0, 0, 0, 1, 0, 0]
+pushes_per_week: [10, 1, 0, 1, 4, 0, 3, 0, 0, 0, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 22
+    pushes: 20
     distinct_repos: 6
-    active_days: 13
+    active_days: 12
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.6923
-  repo_per_active_day: 0.4615
+  push_per_day: 1.6667
+  repo_per_active_day: 0.5000
   not_owned_ratio: 0.0000
   basename_concentration: 0.1667
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 22
+    pushes: 20
     distinct_repos: 6
-    pushes_per_repo: 3.6667
-    active_days: 13
+    pushes_per_repo: 3.3333
+    active_days: 12
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 13 active days in 90d — pass"
+  - "activity: 12 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "mcpshape"
@@ -89,6 +89,6 @@ repos:
 
 # voidfreud
 
-22 pushes across 6 repositories on 13 active days in the last 90 days of public GitHub push activity.
+20 pushes across 6 repositories on 12 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/voidfreud

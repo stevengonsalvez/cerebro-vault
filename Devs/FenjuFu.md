@@ -12,31 +12,31 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-19T06:04:45.439728+00:00"
+generated_at: "2026-10-20T06:04:57.914428+00:00"
 provenance:
   - "1df6ea1f1256059e"
   - "46f3c1d6124190bd"
   - "c489e6fb5febf2ab"
   - "e5b23adc376a62a9"
   - "edb3a626875732de"
-pushes_per_week: [2, 0, 3, 14, 1, 2, 2, 2, 2, 3, 4, 4, 9]
+pushes_per_week: [2, 0, 7, 10, 2, 1, 4, 0, 2, 4, 3, 4, 10]
 windows:
   "7d":
-    pushes: 9
-    distinct_repos: 5
+    pushes: 10
+    distinct_repos: 6
     active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 20
-    distinct_repos: 13
+    pushes: 21
+    distinct_repos: 14
     active_days: 8
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 48
+    pushes: 49
     distinct_repos: 22
     active_days: 22
     repos_not_owned: 7
@@ -44,7 +44,7 @@ windows:
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 2.1818
+  push_per_day: 2.2273
   repo_per_active_day: 1.0000
   not_owned_ratio: 0.3182
   basename_concentration: 0.0909
@@ -56,25 +56,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 9
-    distinct_repos: 5
-    pushes_per_repo: 1.8000
+    pushes: 10
+    distinct_repos: 6
+    pushes_per_repo: 1.6667
     active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 20
-    distinct_repos: 13
-    pushes_per_repo: 1.5385
+    pushes: 21
+    distinct_repos: 14
+    pushes_per_repo: 1.5000
     active_days: 8
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 48
+    pushes: 49
     distinct_repos: 22
-    pushes_per_repo: 2.1818
+    pushes_per_repo: 2.2273
     active_days: 22
     repos_not_owned: 7
     not_owned_basenames: 7
@@ -137,6 +137,6 @@ repos:
 
 # FenjuFu
 
-48 pushes across 22 repositories on 22 active days in the last 90 days of public GitHub push activity.
+49 pushes across 22 repositories on 22 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/FenjuFu

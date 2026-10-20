@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-19T06:04:45.439728+00:00"
+generated_at: "2026-10-20T06:04:57.914428+00:00"
 provenance:
   - "0b22ca37fd3884c9"
-pushes_per_week: [1, 0, 3, 2, 0, 0, 0, 1, 1, 4, 2, 0, 0]
+pushes_per_week: [1, 1, 3, 1, 0, 0, 0, 2, 3, 1, 2, 0, 1]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
-  "30d":
-    pushes: 6
-    distinct_repos: 5
-    active_days: 4
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
-  "90d":
-    pushes: 14
-    distinct_repos: 10
-    active_days: 11
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
+  "30d":
+    pushes: 7
+    distinct_repos: 6
+    active_days: 5
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
+  "90d":
+    pushes: 15
+    distinct_repos: 11
+    active_days: 12
+    repos_not_owned: 2
+    not_owned_basenames: 2
+    not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 1.2727
-  repo_per_active_day: 0.9091
-  not_owned_ratio: 0.1000
-  basename_concentration: 0.1000
+  push_per_day: 1.2500
+  repo_per_active_day: 0.9167
+  not_owned_ratio: 0.1818
+  basename_concentration: 0.0909
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
-  "30d":
-    pushes: 6
-    distinct_repos: 5
-    pushes_per_repo: 1.2000
-    active_days: 4
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
-  "90d":
-    pushes: 14
-    distinct_repos: 10
-    pushes_per_repo: 1.4000
-    active_days: 11
+    pushes: 1
+    distinct_repos: 1
+    pushes_per_repo: 1.0000
+    active_days: 1
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
+  "30d":
+    pushes: 7
+    distinct_repos: 6
+    pushes_per_repo: 1.1667
+    active_days: 5
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
+  "90d":
+    pushes: 15
+    distinct_repos: 11
+    pushes_per_repo: 1.3636
+    active_days: 12
+    repos_not_owned: 2
+    not_owned_basenames: 2
+    not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 11 active days in 90d — pass"
+  - "activity: 12 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "agent-skill-canon"
@@ -156,6 +156,6 @@ repos:
 
 # NetVar1337
 
-14 pushes across 10 repositories on 11 active days in the last 90 days of public GitHub push activity.
+15 pushes across 11 repositories on 12 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/NetVar1337

@@ -10,10 +10,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-19T06:04:45.439728+00:00"
+generated_at: "2026-10-20T06:04:57.914428+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [5, 7, 15, 11, 1, 2, 10, 19, 22, 12, 19, 3, 0]
+pushes_per_week: [2, 7, 18, 8, 1, 2, 12, 18, 21, 12, 21, 1, 1]
 windows:
   "7d":
     pushes: 1
@@ -23,25 +23,25 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 52
-    distinct_repos: 15
+    pushes: 44
+    distinct_repos: 16
     active_days: 14
     repos_not_owned: 13
     not_owned_basenames: 6
     not_owned_owners: 9
   "90d":
-    pushes: 126
-    distinct_repos: 18
+    pushes: 124
+    distinct_repos: 19
     active_days: 42
     repos_not_owned: 15
     not_owned_basenames: 7
     not_owned_owners: 10
 automation:
   state: "clear"
-  push_per_day: 3.0000
-  repo_per_active_day: 0.4286
-  not_owned_ratio: 0.8333
-  basename_concentration: 0.5000
+  push_per_day: 2.9524
+  repo_per_active_day: 0.4524
+  not_owned_ratio: 0.7895
+  basename_concentration: 0.4737
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -58,17 +58,17 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 52
-    distinct_repos: 15
-    pushes_per_repo: 3.4667
+    pushes: 44
+    distinct_repos: 16
+    pushes_per_repo: 2.7500
     active_days: 14
     repos_not_owned: 13
     not_owned_basenames: 6
     not_owned_owners: 9
   "90d":
-    pushes: 126
-    distinct_repos: 18
-    pushes_per_repo: 7.0000
+    pushes: 124
+    distinct_repos: 19
+    pushes_per_repo: 6.5263
     active_days: 42
     repos_not_owned: 15
     not_owned_basenames: 7
@@ -143,6 +143,6 @@ repos:
 
 # AlexsJones
 
-126 pushes across 18 repositories on 42 active days in the last 90 days of public GitHub push activity.
+124 pushes across 19 repositories on 42 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/AlexsJones

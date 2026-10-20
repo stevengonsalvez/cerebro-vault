@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-19T06:04:45.439728+00:00"
+generated_at: "2026-10-20T06:04:57.914428+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [2, 4, 14, 9, 7, 0, 0, 1, 7, 7, 5, 2, 13]
+pushes_per_week: [2, 6, 11, 9, 7, 0, 0, 1, 7, 7, 5, 11, 4]
 windows:
   "7d":
     pushes: 13
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 32
+    pushes: 31
     distinct_repos: 5
     active_days: 12
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 71
+    pushes: 70
     distinct_repos: 9
-    active_days: 30
+    active_days: 29
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.3667
-  repo_per_active_day: 0.3000
+  push_per_day: 2.4138
+  repo_per_active_day: 0.3103
   not_owned_ratio: 0.0000
   basename_concentration: 0.1111
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 32
+    pushes: 31
     distinct_repos: 5
-    pushes_per_repo: 6.4000
+    pushes_per_repo: 6.2000
     active_days: 12
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 71
+    pushes: 70
     distinct_repos: 9
-    pushes_per_repo: 7.8889
-    active_days: 30
+    pushes_per_repo: 7.7778
+    active_days: 29
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 30 active days in 90d — pass"
+  - "activity: 29 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "infosys"
@@ -129,6 +129,6 @@ repos:
 
 # MilesCranmerBot
 
-71 pushes across 9 repositories on 30 active days in the last 90 days of public GitHub push activity.
+70 pushes across 9 repositories on 29 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/MilesCranmerBot

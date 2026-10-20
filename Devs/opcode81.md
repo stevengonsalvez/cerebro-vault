@@ -9,18 +9,18 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-19T06:04:45.439728+00:00"
+generated_at: "2026-10-20T06:04:57.914428+00:00"
 provenance:
   - "41883ae726050c68"
-pushes_per_week: [9, 1, 4, 1, 0, 0, 0, 0, 5, 1, 2, 7, 0]
+pushes_per_week: [7, 1, 4, 1, 0, 0, 0, 0, 5, 1, 6, 3, 0]
 windows:
   "7d":
-    pushes: 2
-    distinct_repos: 1
-    active_days: 1
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
     pushes: 10
     distinct_repos: 5
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 4
   "90d":
-    pushes: 30
+    pushes: 28
     distinct_repos: 6
-    active_days: 16
+    active_days: 15
     repos_not_owned: 6
     not_owned_basenames: 2
     not_owned_owners: 5
 automation:
   state: "clear"
-  push_per_day: 1.8750
-  repo_per_active_day: 0.3750
+  push_per_day: 1.8667
+  repo_per_active_day: 0.4000
   not_owned_ratio: 1.0000
   basename_concentration: 0.8333
   shapes: []
@@ -49,13 +49,13 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
-    distinct_repos: 1
-    pushes_per_repo: 2.0000
-    active_days: 1
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
     pushes: 10
     distinct_repos: 5
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 4
   "90d":
-    pushes: 30
+    pushes: 28
     distinct_repos: 6
-    pushes_per_repo: 5.0000
-    active_days: 16
+    pushes_per_repo: 4.6667
+    active_days: 15
     repos_not_owned: 6
     not_owned_basenames: 2
     not_owned_owners: 5
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 16 active days in 90d — pass"
+  - "activity: 15 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "vlc_sync"
@@ -129,6 +129,6 @@ repos:
 
 # opcode81
 
-30 pushes across 6 repositories on 16 active days in the last 90 days of public GitHub push activity.
+28 pushes across 6 repositories on 15 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/opcode81

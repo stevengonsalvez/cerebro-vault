@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-19T06:04:45.439728+00:00"
+generated_at: "2026-10-20T06:04:57.914428+00:00"
 provenance:
   - "6d3bd03b49986330"
-pushes_per_week: [19, 6, 9, 8, 1, 2, 1, 19, 9, 32, 40, 7, 0]
+pushes_per_week: [17, 6, 11, 6, 1, 2, 1, 19, 9, 34, 39, 6, 5]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
+    pushes: 5
+    distinct_repos: 3
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 80
-    distinct_repos: 11
+    pushes: 84
+    distinct_repos: 13
     active_days: 14
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 153
-    distinct_repos: 28
+    pushes: 156
+    distinct_repos: 29
     active_days: 34
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 4.5000
-  repo_per_active_day: 0.8235
+  push_per_day: 4.5882
+  repo_per_active_day: 0.8529
   not_owned_ratio: 0.0000
-  basename_concentration: 0.0357
+  basename_concentration: 0.0345
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
+    pushes: 5
+    distinct_repos: 3
+    pushes_per_repo: 1.6667
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 80
-    distinct_repos: 11
-    pushes_per_repo: 7.2727
+    pushes: 84
+    distinct_repos: 13
+    pushes_per_repo: 6.4615
     active_days: 14
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 153
-    distinct_repos: 28
-    pushes_per_repo: 5.4643
+    pushes: 156
+    distinct_repos: 29
+    pushes_per_repo: 5.3793
     active_days: 34
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -137,6 +137,6 @@ repos:
 
 # tianrking
 
-153 pushes across 28 repositories on 34 active days in the last 90 days of public GitHub push activity.
+156 pushes across 29 repositories on 34 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/tianrking

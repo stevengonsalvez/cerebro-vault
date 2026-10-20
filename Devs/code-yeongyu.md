@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-19T06:04:45.439728+00:00"
+generated_at: "2026-10-20T06:04:57.914428+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [51, 68, 28, 65, 17, 17, 21, 67, 52, 182, 223, 136, 40]
+pushes_per_week: [57, 57, 36, 59, 12, 18, 34, 57, 68, 190, 213, 134, 66]
 windows:
   "7d":
     pushes: 77
     distinct_repos: 8
     active_days: 5
-    repos_not_owned: 4
-    not_owned_basenames: 2
-    not_owned_owners: 4
+    repos_not_owned: 3
+    not_owned_basenames: 3
+    not_owned_owners: 3
   "30d":
-    pushes: 599
+    pushes: 638
     distinct_repos: 27
     active_days: 27
     repos_not_owned: 18
     not_owned_basenames: 5
     not_owned_owners: 14
   "90d":
-    pushes: 967
+    pushes: 1001
     distinct_repos: 49
     active_days: 80
     repos_not_owned: 31
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 24
 automation:
   state: "clear"
-  push_per_day: 12.0875
+  push_per_day: 12.5125
   repo_per_active_day: 0.6125
   not_owned_ratio: 0.6327
   basename_concentration: 0.3061
@@ -53,21 +53,21 @@ facets:
     distinct_repos: 8
     pushes_per_repo: 9.6250
     active_days: 5
-    repos_not_owned: 4
-    not_owned_basenames: 2
-    not_owned_owners: 4
+    repos_not_owned: 3
+    not_owned_basenames: 3
+    not_owned_owners: 3
   "30d":
-    pushes: 599
+    pushes: 638
     distinct_repos: 27
-    pushes_per_repo: 22.1852
+    pushes_per_repo: 23.6296
     active_days: 27
     repos_not_owned: 18
     not_owned_basenames: 5
     not_owned_owners: 14
   "90d":
-    pushes: 967
+    pushes: 1001
     distinct_repos: 49
-    pushes_per_repo: 19.7347
+    pushes_per_repo: 20.4286
     active_days: 80
     repos_not_owned: 31
     not_owned_basenames: 7
@@ -195,6 +195,6 @@ repos:
 
 # code-yeongyu
 
-967 pushes across 49 repositories on 80 active days in the last 90 days of public GitHub push activity.
+1001 pushes across 49 repositories on 80 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/code-yeongyu

@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-19T06:04:45.439728+00:00"
+generated_at: "2026-10-20T06:04:57.914428+00:00"
 provenance:
   - "c1af6b58492f9bf4"
-pushes_per_week: [4, 40, 3, 9, 5, 1, 7, 28, 28, 30, 5, 1, 0]
+pushes_per_week: [11, 35, 2, 11, 3, 0, 15, 24, 34, 21, 4, 1, 2]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
+    pushes: 2
+    distinct_repos: 2
     active_days: 1
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    repos_not_owned: 2
+    not_owned_basenames: 2
+    not_owned_owners: 2
   "30d":
-    pushes: 49
-    distinct_repos: 40
+    pushes: 47
+    distinct_repos: 39
     active_days: 15
     repos_not_owned: 34
-    not_owned_basenames: 7
+    not_owned_basenames: 8
     not_owned_owners: 33
   "90d":
-    pushes: 161
+    pushes: 163
     distinct_repos: 73
-    active_days: 45
+    active_days: 46
     repos_not_owned: 54
     not_owned_basenames: 13
     not_owned_owners: 53
 automation:
   state: "clear"
-  push_per_day: 3.5778
-  repo_per_active_day: 1.6222
+  push_per_day: 3.5435
+  repo_per_active_day: 1.5870
   not_owned_ratio: 0.7397
   basename_concentration: 0.5890
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
+    pushes: 2
+    distinct_repos: 2
     pushes_per_repo: 1.0000
     active_days: 1
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    repos_not_owned: 2
+    not_owned_basenames: 2
+    not_owned_owners: 2
   "30d":
-    pushes: 49
-    distinct_repos: 40
-    pushes_per_repo: 1.2250
+    pushes: 47
+    distinct_repos: 39
+    pushes_per_repo: 1.2051
     active_days: 15
     repos_not_owned: 34
-    not_owned_basenames: 7
+    not_owned_basenames: 8
     not_owned_owners: 33
   "90d":
-    pushes: 161
+    pushes: 163
     distinct_repos: 73
-    pushes_per_repo: 2.2055
-    active_days: 45
+    pushes_per_repo: 2.2329
+    active_days: 46
     repos_not_owned: 54
     not_owned_basenames: 13
     not_owned_owners: 53
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 45 active days in 90d — pass"
+  - "activity: 46 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "itinerant-tester"
@@ -135,6 +135,6 @@ repos:
 
 # cclauss
 
-161 pushes across 73 repositories on 45 active days in the last 90 days of public GitHub push activity.
+163 pushes across 73 repositories on 46 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/cclauss

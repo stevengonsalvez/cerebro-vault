@@ -9,18 +9,18 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-19T06:04:45.439728+00:00"
+generated_at: "2026-10-20T06:04:57.914428+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [24, 7, 2, 14, 0, 1, 1, 5, 8, 15, 11, 13, 5]
+pushes_per_week: [24, 7, 3, 12, 0, 1, 1, 6, 8, 17, 9, 16, 1]
 windows:
   "7d":
-    pushes: 13
-    distinct_repos: 4
-    active_days: 3
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 5
+    distinct_repos: 2
+    active_days: 2
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
     pushes: 46
     distinct_repos: 15
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 4
     not_owned_owners: 2
   "90d":
-    pushes: 106
+    pushes: 105
     distinct_repos: 17
-    active_days: 43
+    active_days: 42
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 2.4651
-  repo_per_active_day: 0.3953
+  push_per_day: 2.5000
+  repo_per_active_day: 0.4048
   not_owned_ratio: 0.2353
   basename_concentration: 0.1176
   shapes: []
@@ -49,13 +49,13 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 13
-    distinct_repos: 4
-    pushes_per_repo: 3.2500
-    active_days: 3
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 5
+    distinct_repos: 2
+    pushes_per_repo: 2.5000
+    active_days: 2
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
     pushes: 46
     distinct_repos: 15
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 4
     not_owned_owners: 2
   "90d":
-    pushes: 106
+    pushes: 105
     distinct_repos: 17
-    pushes_per_repo: 6.2353
-    active_days: 43
+    pushes_per_repo: 6.1765
+    active_days: 42
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 43 active days in 90d — pass"
+  - "activity: 42 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "multirotor-esc-handbook"
@@ -129,6 +129,6 @@ repos:
 
 # nerdCopter
 
-106 pushes across 17 repositories on 43 active days in the last 90 days of public GitHub push activity.
+105 pushes across 17 repositories on 42 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/nerdCopter

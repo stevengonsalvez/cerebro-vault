@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-19T06:04:45.439728+00:00"
+generated_at: "2026-10-20T06:04:57.914428+00:00"
 provenance:
   - "533d51d9d3dea76f"
-pushes_per_week: [36, 37, 26, 26, 4, 1, 0, 3, 4, 9, 5, 0, 2]
+pushes_per_week: [19, 40, 21, 26, 2, 1, 0, 3, 5, 8, 5, 1, 2]
 windows:
   "7d":
-    pushes: 2
+    pushes: 3
     distinct_repos: 2
-    active_days: 2
+    active_days: 3
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 153
-    distinct_repos: 4
+    pushes: 133
+    distinct_repos: 2
     active_days: 37
-    repos_not_owned: 4
-    not_owned_basenames: 3
-    not_owned_owners: 2
+    repos_not_owned: 2
+    not_owned_basenames: 2
+    not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 4.1351
-  repo_per_active_day: 0.1081
+  push_per_day: 3.5946
+  repo_per_active_day: 0.0541
   not_owned_ratio: 1.0000
   basename_concentration: 0.5000
   shapes: []
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
+    pushes: 3
     distinct_repos: 2
-    pushes_per_repo: 1.0000
-    active_days: 2
+    pushes_per_repo: 1.5000
+    active_days: 3
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
@@ -65,13 +65,13 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 153
-    distinct_repos: 4
-    pushes_per_repo: 38.2500
+    pushes: 133
+    distinct_repos: 2
+    pushes_per_repo: 66.5000
     active_days: 37
-    repos_not_owned: 4
-    not_owned_basenames: 3
-    not_owned_owners: 2
+    repos_not_owned: 2
+    not_owned_basenames: 2
+    not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 37 active days in 90d — pass"
@@ -159,6 +159,6 @@ repos:
 
 # saoudrizwan
 
-153 pushes across 4 repositories on 37 active days in the last 90 days of public GitHub push activity.
+133 pushes across 2 repositories on 37 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/saoudrizwan

@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-19T06:04:45.439728+00:00"
+generated_at: "2026-10-20T06:04:57.914428+00:00"
 provenance:
   - "c489e6fb5febf2ab"
-pushes_per_week: [0, 3, 14, 6, 5, 1, 0, 0, 2, 0, 23, 8, 6]
+pushes_per_week: [0, 3, 18, 2, 6, 0, 0, 0, 2, 7, 16, 12, 9]
 windows:
   "7d":
     pushes: 13
     distinct_repos: 1
-    active_days: 3
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 37
+    pushes: 44
     distinct_repos: 2
-    active_days: 11
+    active_days: 13
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 68
+    pushes: 75
     distinct_repos: 6
-    active_days: 28
+    active_days: 30
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.4286
-  repo_per_active_day: 0.2143
+  push_per_day: 2.5000
+  repo_per_active_day: 0.2000
   not_owned_ratio: 0.1667
   basename_concentration: 0.3333
   shapes: []
@@ -52,29 +52,29 @@ facets:
     pushes: 13
     distinct_repos: 1
     pushes_per_repo: 13.0000
-    active_days: 3
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 37
+    pushes: 44
     distinct_repos: 2
-    pushes_per_repo: 18.5000
-    active_days: 11
+    pushes_per_repo: 22.0000
+    active_days: 13
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 68
+    pushes: 75
     distinct_repos: 6
-    pushes_per_repo: 11.3333
-    active_days: 28
+    pushes_per_repo: 12.5000
+    active_days: 30
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 28 active days in 90d — pass"
+  - "activity: 30 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "cpay"
@@ -105,6 +105,6 @@ repos:
 
 # parvezmosharafvu
 
-68 pushes across 6 repositories on 28 active days in the last 90 days of public GitHub push activity.
+75 pushes across 6 repositories on 30 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/parvezmosharafvu

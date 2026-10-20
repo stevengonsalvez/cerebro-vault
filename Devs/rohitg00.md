@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-19T06:04:45.439728+00:00"
+generated_at: "2026-10-20T06:04:57.914428+00:00"
 provenance:
   - "7b553354eb544407"
-pushes_per_week: [6, 8, 2, 14, 11, 5, 1, 0, 0, 15, 21, 7, 5]
+pushes_per_week: [7, 8, 4, 12, 11, 4, 1, 0, 0, 17, 21, 10, 3]
 windows:
   "7d":
-    pushes: 5
+    pushes: 7
     distinct_repos: 2
-    active_days: 1
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 48
+    pushes: 51
     distinct_repos: 7
-    active_days: 16
+    active_days: 17
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 95
+    pushes: 98
     distinct_repos: 8
-    active_days: 41
+    active_days: 42
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 2.3171
-  repo_per_active_day: 0.1951
+  push_per_day: 2.3333
+  repo_per_active_day: 0.1905
   not_owned_ratio: 0.3750
   basename_concentration: 0.2500
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 5
+    pushes: 7
     distinct_repos: 2
-    pushes_per_repo: 2.5000
-    active_days: 1
+    pushes_per_repo: 3.5000
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 48
+    pushes: 51
     distinct_repos: 7
-    pushes_per_repo: 6.8571
-    active_days: 16
+    pushes_per_repo: 7.2857
+    active_days: 17
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 95
+    pushes: 98
     distinct_repos: 8
-    pushes_per_repo: 11.8750
-    active_days: 41
+    pushes_per_repo: 12.2500
+    active_days: 42
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 41 active days in 90d — pass"
+  - "activity: 42 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "ai-engineering-from-scratch"
@@ -181,6 +181,6 @@ repos:
 
 # rohitg00
 
-95 pushes across 8 repositories on 41 active days in the last 90 days of public GitHub push activity.
+98 pushes across 8 repositories on 42 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/rohitg00

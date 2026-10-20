@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-19T06:04:45.439728+00:00"
+generated_at: "2026-10-20T06:04:57.914428+00:00"
 provenance:
   - "0b22ca37fd3884c9"
-pushes_per_week: [0, 0, 2, 0, 17, 1, 0, 0, 0, 10, 0, 0, 0]
+pushes_per_week: [0, 0, 2, 0, 18, 0, 0, 0, 0, 10, 0, 0, 1]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
-  "30d":
-    pushes: 10
-    distinct_repos: 10
+    pushes: 1
+    distinct_repos: 1
     active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
+  "30d":
+    pushes: 11
+    distinct_repos: 11
+    active_days: 2
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
-    pushes: 30
-    distinct_repos: 12
-    active_days: 8
+    pushes: 31
+    distinct_repos: 13
+    active_days: 9
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 3.7500
-  repo_per_active_day: 1.5000
+  push_per_day: 3.4444
+  repo_per_active_day: 1.4444
   not_owned_ratio: 0.0000
-  basename_concentration: 0.0833
+  basename_concentration: 0.0769
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
-  "30d":
-    pushes: 10
-    distinct_repos: 10
+    pushes: 1
+    distinct_repos: 1
     pushes_per_repo: 1.0000
     active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
+  "30d":
+    pushes: 11
+    distinct_repos: 11
+    pushes_per_repo: 1.0000
+    active_days: 2
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
-    pushes: 30
-    distinct_repos: 12
-    pushes_per_repo: 2.5000
-    active_days: 8
+    pushes: 31
+    distinct_repos: 13
+    pushes_per_repo: 2.3846
+    active_days: 9
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 8 active days in 90d — pass"
+  - "activity: 9 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "universal-copy"
@@ -145,6 +145,6 @@ repos:
 
 # tarunag10
 
-30 pushes across 12 repositories on 8 active days in the last 90 days of public GitHub push activity.
+31 pushes across 13 repositories on 9 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/tarunag10

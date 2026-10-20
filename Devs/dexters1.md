@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-19T06:04:45.439728+00:00"
+generated_at: "2026-10-20T06:04:57.914428+00:00"
 provenance:
   - "d399d99ef4e490b6"
-pushes_per_week: [3, 16, 4, 30, 0, 0, 1, 3, 10, 4, 15, 3, 2]
+pushes_per_week: [4, 13, 6, 28, 0, 0, 2, 2, 10, 8, 14, 1, 1]
 windows:
   "7d":
     pushes: 2
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 91
+    pushes: 89
     distinct_repos: 2
-    active_days: 32
+    active_days: 31
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.8438
-  repo_per_active_day: 0.0625
+  push_per_day: 2.8710
+  repo_per_active_day: 0.0645
   not_owned_ratio: 1.0000
   basename_concentration: 0.5000
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 91
+    pushes: 89
     distinct_repos: 2
-    pushes_per_repo: 45.5000
-    active_days: 32
+    pushes_per_repo: 44.5000
+    active_days: 31
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 32 active days in 90d — pass"
+  - "activity: 31 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "Task-Scheduling-Based-on-Genetic-Algorithms"
@@ -129,6 +129,6 @@ repos:
 
 # dexters1
 
-91 pushes across 2 repositories on 32 active days in the last 90 days of public GitHub push activity.
+89 pushes across 2 repositories on 31 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/dexters1

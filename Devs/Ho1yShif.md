@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-19T06:04:45.439728+00:00"
+generated_at: "2026-10-20T06:04:57.914428+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [21, 12, 5, 6, 2, 0, 0, 1, 2, 2, 0, 0, 2]
+pushes_per_week: [17, 8, 6, 7, 0, 0, 0, 1, 2, 2, 0, 2, 0]
 windows:
   "7d":
     pushes: 2
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 53
-    distinct_repos: 16
-    active_days: 20
-    repos_not_owned: 6
-    not_owned_basenames: 6
+    pushes: 45
+    distinct_repos: 14
+    active_days: 19
+    repos_not_owned: 4
+    not_owned_basenames: 4
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 2.6500
-  repo_per_active_day: 0.8000
-  not_owned_ratio: 0.3750
-  basename_concentration: 0.1250
+  push_per_day: 2.3684
+  repo_per_active_day: 0.7368
+  not_owned_ratio: 0.2857
+  basename_concentration: 0.1429
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 53
-    distinct_repos: 16
-    pushes_per_repo: 3.3125
-    active_days: 20
-    repos_not_owned: 6
-    not_owned_basenames: 6
+    pushes: 45
+    distinct_repos: 14
+    pushes_per_repo: 3.2143
+    active_days: 19
+    repos_not_owned: 4
+    not_owned_basenames: 4
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 20 active days in 90d — pass"
+  - "activity: 19 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "why-render"
@@ -129,6 +129,6 @@ repos:
 
 # Ho1yShif
 
-53 pushes across 16 repositories on 20 active days in the last 90 days of public GitHub push activity.
+45 pushes across 14 repositories on 19 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Ho1yShif

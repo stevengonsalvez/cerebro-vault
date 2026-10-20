@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-19T06:04:45.439728+00:00"
+generated_at: "2026-10-20T06:04:57.914428+00:00"
 provenance:
   - "3eacb4655aba2497"
-pushes_per_week: [22, 0, 9, 9, 8, 3, 2, 4, 8, 9, 15, 5, 0]
+pushes_per_week: [20, 0, 13, 5, 9, 2, 2, 4, 10, 10, 12, 5, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 34
-    distinct_repos: 14
-    active_days: 17
+    pushes: 32
+    distinct_repos: 12
+    active_days: 16
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 94
+    pushes: 92
     distinct_repos: 24
-    active_days: 40
+    active_days: 39
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 2.3500
-  repo_per_active_day: 0.6000
+  push_per_day: 2.3590
+  repo_per_active_day: 0.6154
   not_owned_ratio: 0.1250
   basename_concentration: 0.0417
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 34
-    distinct_repos: 14
-    pushes_per_repo: 2.4286
-    active_days: 17
+    pushes: 32
+    distinct_repos: 12
+    pushes_per_repo: 2.6667
+    active_days: 16
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 94
+    pushes: 92
     distinct_repos: 24
-    pushes_per_repo: 3.9167
-    active_days: 40
+    pushes_per_repo: 3.8333
+    active_days: 39
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 40 active days in 90d — pass"
+  - "activity: 39 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "omo-mnemon"
@@ -129,6 +129,6 @@ repos:
 
 # audreyt
 
-94 pushes across 24 repositories on 40 active days in the last 90 days of public GitHub push activity.
+92 pushes across 24 repositories on 39 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/audreyt

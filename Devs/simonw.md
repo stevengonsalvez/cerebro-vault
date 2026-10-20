@@ -23,7 +23,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-19T06:04:45.439728+00:00"
+generated_at: "2026-10-20T06:04:57.914428+00:00"
 provenance:
   - "0726bc457d4dcf89"
   - "1be978947e68d1f2"
@@ -43,33 +43,33 @@ provenance:
   - "e9879ff70aa53e1e"
   - "f37003b32e1952f4"
   - "f5034dade94eb802"
-pushes_per_week: [14, 18, 7, 19, 2, 0, 0, 5, 10, 2, 4, 10, 5]
+pushes_per_week: [13, 19, 7, 18, 2, 0, 1, 7, 7, 3, 4, 12, 2]
 windows:
   "7d":
-    pushes: 11
-    distinct_repos: 9
-    active_days: 4
+    pushes: 5
+    distinct_repos: 4
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 26
-    distinct_repos: 19
-    active_days: 14
-    repos_not_owned: 2
-    not_owned_basenames: 2
-    not_owned_owners: 2
+    pushes: 21
+    distinct_repos: 16
+    active_days: 12
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "90d":
-    pushes: 96
+    pushes: 95
     distinct_repos: 35
-    active_days: 40
+    active_days: 39
     repos_not_owned: 7
     not_owned_basenames: 7
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 2.4000
-  repo_per_active_day: 0.8750
+  push_per_day: 2.4359
+  repo_per_active_day: 0.8974
   not_owned_ratio: 0.2000
   basename_concentration: 0.0571
   shapes: []
@@ -80,32 +80,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 11
-    distinct_repos: 9
-    pushes_per_repo: 1.2222
-    active_days: 4
+    pushes: 5
+    distinct_repos: 4
+    pushes_per_repo: 1.2500
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 26
-    distinct_repos: 19
-    pushes_per_repo: 1.3684
-    active_days: 14
-    repos_not_owned: 2
-    not_owned_basenames: 2
-    not_owned_owners: 2
+    pushes: 21
+    distinct_repos: 16
+    pushes_per_repo: 1.3125
+    active_days: 12
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "90d":
-    pushes: 96
+    pushes: 95
     distinct_repos: 35
-    pushes_per_repo: 2.7429
-    active_days: 40
+    pushes_per_repo: 2.7143
+    active_days: 39
     repos_not_owned: 7
     not_owned_basenames: 7
     not_owned_owners: 3
 reasons:
   - "provenance: 18 vault signal(s) — pass"
-  - "activity: 40 active days in 90d — pass"
+  - "activity: 39 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "usgs-scraper"
@@ -164,6 +164,6 @@ repos:
 
 # simonw
 
-96 pushes across 35 repositories on 40 active days in the last 90 days of public GitHub push activity.
+95 pushes across 35 repositories on 39 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/simonw

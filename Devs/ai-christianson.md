@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-19T06:04:45.439728+00:00"
+generated_at: "2026-10-20T06:04:57.914428+00:00"
 provenance:
   - "c1af6b58492f9bf4"
-pushes_per_week: [48, 27, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [51, 21, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 76
+    pushes: 73
     distinct_repos: 2
-    active_days: 14
+    active_days: 13
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 5.4286
-  repo_per_active_day: 0.1429
+  push_per_day: 5.6154
+  repo_per_active_day: 0.1538
   not_owned_ratio: 0.5000
   basename_concentration: 0.5000
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 76
+    pushes: 73
     distinct_repos: 2
-    pushes_per_repo: 38.0000
-    active_days: 14
+    pushes_per_repo: 36.5000
+    active_days: 13
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 14 active days in 90d — pass"
+  - "activity: 13 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "RA.Aid"
@@ -132,6 +132,6 @@ repos:
 
 # ai-christianson
 
-76 pushes across 2 repositories on 14 active days in the last 90 days of public GitHub push activity.
+73 pushes across 2 repositories on 13 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ai-christianson

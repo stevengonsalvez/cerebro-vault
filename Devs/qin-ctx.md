@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-19T06:04:45.439728+00:00"
+generated_at: "2026-10-20T06:04:57.914428+00:00"
 provenance:
   - "876fe6c1edb8596c"
-pushes_per_week: [5, 5, 2, 1, 4, 2, 0, 4, 10, 9, 2, 4, 2]
+pushes_per_week: [5, 3, 2, 3, 3, 1, 3, 3, 9, 10, 0, 4, 2]
 windows:
   "7d":
-    pushes: 5
+    pushes: 2
     distinct_repos: 2
-    active_days: 2
+    active_days: 1
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 3
   "90d":
-    pushes: 50
+    pushes: 48
     distinct_repos: 6
-    active_days: 26
+    active_days: 25
     repos_not_owned: 6
     not_owned_basenames: 1
     not_owned_owners: 6
 automation:
   state: "clear"
-  push_per_day: 1.9231
-  repo_per_active_day: 0.2308
+  push_per_day: 1.9200
+  repo_per_active_day: 0.2400
   not_owned_ratio: 1.0000
   basename_concentration: 1.0000
   shapes: []
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 5
+    pushes: 2
     distinct_repos: 2
-    pushes_per_repo: 2.5000
-    active_days: 2
+    pushes_per_repo: 1.0000
+    active_days: 1
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 3
   "90d":
-    pushes: 50
+    pushes: 48
     distinct_repos: 6
-    pushes_per_repo: 8.3333
-    active_days: 26
+    pushes_per_repo: 8.0000
+    active_days: 25
     repos_not_owned: 6
     not_owned_basenames: 1
     not_owned_owners: 6
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 26 active days in 90d — pass"
+  - "activity: 25 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "qin-ctx"
@@ -113,6 +113,6 @@ repos:
 
 # qin-ctx
 
-50 pushes across 6 repositories on 26 active days in the last 90 days of public GitHub push activity.
+48 pushes across 6 repositories on 25 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/qin-ctx

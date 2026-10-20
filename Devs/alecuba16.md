@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-19T06:04:45.439728+00:00"
+generated_at: "2026-10-20T06:04:57.914428+00:00"
 provenance:
   - "2a7f0fddd2dac162"
-pushes_per_week: [29, 20, 16, 6, 1, 2, 2, 5, 19, 38, 36, 10, 7]
+pushes_per_week: [27, 20, 18, 4, 1, 2, 2, 5, 21, 38, 35, 14, 8]
 windows:
   "7d":
-    pushes: 7
+    pushes: 10
     distinct_repos: 2
-    active_days: 3
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 110
+    pushes: 108
     distinct_repos: 4
-    active_days: 23
+    active_days: 24
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 191
+    pushes: 195
     distinct_repos: 4
-    active_days: 44
+    active_days: 45
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 4.3409
-  repo_per_active_day: 0.0909
+  push_per_day: 4.3333
+  repo_per_active_day: 0.0889
   not_owned_ratio: 0.0000
   basename_concentration: 0.2500
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 7
+    pushes: 10
     distinct_repos: 2
-    pushes_per_repo: 3.5000
-    active_days: 3
+    pushes_per_repo: 5.0000
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 110
+    pushes: 108
     distinct_repos: 4
-    pushes_per_repo: 27.5000
-    active_days: 23
+    pushes_per_repo: 27.0000
+    active_days: 24
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 191
+    pushes: 195
     distinct_repos: 4
-    pushes_per_repo: 47.7500
-    active_days: 44
+    pushes_per_repo: 48.7500
+    active_days: 45
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 44 active days in 90d — pass"
+  - "activity: 45 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "herdr-webui"
@@ -134,6 +134,6 @@ repos:
 
 # alecuba16
 
-191 pushes across 4 repositories on 44 active days in the last 90 days of public GitHub push activity.
+195 pushes across 4 repositories on 45 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/alecuba16

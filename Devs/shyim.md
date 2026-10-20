@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-19T06:04:45.439728+00:00"
+generated_at: "2026-10-20T06:04:57.914428+00:00"
 provenance:
   - "c489e6fb5febf2ab"
-pushes_per_week: [7, 14, 6, 11, 3, 3, 1, 12, 4, 14, 12, 7, 3]
+pushes_per_week: [7, 14, 6, 10, 3, 3, 2, 12, 4, 14, 13, 6, 7]
 windows:
   "7d":
-    pushes: 5
-    distinct_repos: 4
+    pushes: 7
+    distinct_repos: 5
     active_days: 3
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 2
   "30d":
-    pushes: 38
-    distinct_repos: 14
-    active_days: 17
-    repos_not_owned: 11
-    not_owned_basenames: 11
+    pushes: 43
+    distinct_repos: 16
+    active_days: 19
+    repos_not_owned: 12
+    not_owned_basenames: 12
     not_owned_owners: 4
   "90d":
-    pushes: 97
+    pushes: 101
     distinct_repos: 28
-    active_days: 49
+    active_days: 50
     repos_not_owned: 15
     not_owned_basenames: 15
     not_owned_owners: 4
 automation:
   state: "clear"
-  push_per_day: 1.9796
-  repo_per_active_day: 0.5714
+  push_per_day: 2.0200
+  repo_per_active_day: 0.5600
   not_owned_ratio: 0.5357
   basename_concentration: 0.0714
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 5
-    distinct_repos: 4
-    pushes_per_repo: 1.2500
+    pushes: 7
+    distinct_repos: 5
+    pushes_per_repo: 1.4000
     active_days: 3
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 2
   "30d":
-    pushes: 38
-    distinct_repos: 14
-    pushes_per_repo: 2.7143
-    active_days: 17
-    repos_not_owned: 11
-    not_owned_basenames: 11
+    pushes: 43
+    distinct_repos: 16
+    pushes_per_repo: 2.6875
+    active_days: 19
+    repos_not_owned: 12
+    not_owned_basenames: 12
     not_owned_owners: 4
   "90d":
-    pushes: 97
+    pushes: 101
     distinct_repos: 28
-    pushes_per_repo: 3.4643
-    active_days: 49
+    pushes_per_repo: 3.6071
+    active_days: 50
     repos_not_owned: 15
     not_owned_basenames: 15
     not_owned_owners: 4
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 49 active days in 90d — pass"
+  - "activity: 50 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "docker-backup"
@@ -142,6 +142,6 @@ repos:
 
 # shyim
 
-97 pushes across 28 repositories on 49 active days in the last 90 days of public GitHub push activity.
+101 pushes across 28 repositories on 50 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/shyim

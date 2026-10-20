@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-19T06:04:45.439728+00:00"
+generated_at: "2026-10-20T06:04:57.914428+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [212, 44, 0, 9, 21, 10, 0, 46, 83, 107, 20, 20, 24]
+pushes_per_week: [176, 34, 0, 11, 24, 5, 1, 45, 117, 78, 17, 36, 11]
 windows:
   "7d":
-    pushes: 30
+    pushes: 29
     distinct_repos: 3
-    active_days: 3
+    active_days: 4
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 221
-    distinct_repos: 14
-    active_days: 22
+    pushes: 193
+    distinct_repos: 11
+    active_days: 23
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
   "90d":
-    pushes: 596
+    pushes: 555
     distinct_repos: 22
-    active_days: 50
+    active_days: 51
     repos_not_owned: 6
     not_owned_basenames: 6
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 11.9200
-  repo_per_active_day: 0.4400
+  push_per_day: 10.8824
+  repo_per_active_day: 0.4314
   not_owned_ratio: 0.2727
   basename_concentration: 0.0455
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 30
+    pushes: 29
     distinct_repos: 3
-    pushes_per_repo: 10.0000
-    active_days: 3
+    pushes_per_repo: 9.6667
+    active_days: 4
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 221
-    distinct_repos: 14
-    pushes_per_repo: 15.7857
-    active_days: 22
+    pushes: 193
+    distinct_repos: 11
+    pushes_per_repo: 17.5455
+    active_days: 23
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
   "90d":
-    pushes: 596
+    pushes: 555
     distinct_repos: 22
-    pushes_per_repo: 27.0909
-    active_days: 50
+    pushes_per_repo: 25.2273
+    active_days: 51
     repos_not_owned: 6
     not_owned_basenames: 6
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 50 active days in 90d — pass"
+  - "activity: 51 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "agentic-packages"
@@ -129,6 +129,6 @@ repos:
 
 # srobroek
 
-596 pushes across 22 repositories on 50 active days in the last 90 days of public GitHub push activity.
+555 pushes across 22 repositories on 51 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/srobroek

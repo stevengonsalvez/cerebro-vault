@@ -9,17 +9,17 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-19T06:04:45.439728+00:00"
+generated_at: "2026-10-20T06:04:57.914428+00:00"
 provenance:
   - "83e0e833f0504fcd"
-pushes_per_week: [6, 4, 6, 8, 3, 0, 1, 0, 3, 7, 1, 2, 1]
+pushes_per_week: [5, 5, 7, 5, 3, 0, 1, 0, 4, 6, 1, 2, 1]
 windows:
   "7d":
-    pushes: 2
-    distinct_repos: 2
-    active_days: 2
-    repos_not_owned: 2
-    not_owned_basenames: 2
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
+    repos_not_owned: 1
+    not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
     pushes: 12
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 4
     not_owned_owners: 1
   "90d":
-    pushes: 42
+    pushes: 40
     distinct_repos: 9
-    active_days: 25
+    active_days: 24
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 1.6800
-  repo_per_active_day: 0.3600
+  push_per_day: 1.6667
+  repo_per_active_day: 0.3750
   not_owned_ratio: 0.5556
   basename_concentration: 0.2222
   shapes: []
@@ -49,12 +49,12 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
-    distinct_repos: 2
+    pushes: 1
+    distinct_repos: 1
     pushes_per_repo: 1.0000
-    active_days: 2
-    repos_not_owned: 2
-    not_owned_basenames: 2
+    active_days: 1
+    repos_not_owned: 1
+    not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
     pushes: 12
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 4
     not_owned_owners: 1
   "90d":
-    pushes: 42
+    pushes: 40
     distinct_repos: 9
-    pushes_per_repo: 4.6667
-    active_days: 25
+    pushes_per_repo: 4.4444
+    active_days: 24
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 25 active days in 90d — pass"
+  - "activity: 24 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "defuddle"
@@ -183,6 +183,6 @@ repos:
 
 # kepano
 
-42 pushes across 9 repositories on 25 active days in the last 90 days of public GitHub push activity.
+40 pushes across 9 repositories on 24 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/kepano

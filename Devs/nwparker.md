@@ -11,28 +11,28 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-19T06:04:45.439728+00:00"
+generated_at: "2026-10-20T06:04:57.914428+00:00"
 provenance:
   - "0a8884baa5f55aa6"
   - "2a7f0fddd2dac162"
-pushes_per_week: [110, 95, 57, 100, 39, 18, 25, 57, 119, 104, 167, 60, 94]
+pushes_per_week: [126, 80, 68, 93, 38, 12, 33, 56, 113, 110, 179, 65, 99]
 windows:
   "7d":
-    pushes: 104
+    pushes: 121
     distinct_repos: 1
     active_days: 5
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 475
-    distinct_repos: 20
+    pushes: 474
+    distinct_repos: 19
     active_days: 27
-    repos_not_owned: 19
+    repos_not_owned: 18
     not_owned_basenames: 1
-    not_owned_owners: 19
+    not_owned_owners: 18
   "90d":
-    pushes: 1045
+    pushes: 1072
     distinct_repos: 36
     active_days: 82
     repos_not_owned: 35
@@ -40,7 +40,7 @@ windows:
     not_owned_owners: 35
 automation:
   state: "clear"
-  push_per_day: 12.7439
+  push_per_day: 13.0732
   repo_per_active_day: 0.4390
   not_owned_ratio: 0.9722
   basename_concentration: 0.9722
@@ -68,25 +68,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 104
+    pushes: 121
     distinct_repos: 1
-    pushes_per_repo: 104.0000
+    pushes_per_repo: 121.0000
     active_days: 5
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 475
-    distinct_repos: 20
-    pushes_per_repo: 23.7500
+    pushes: 474
+    distinct_repos: 19
+    pushes_per_repo: 24.9474
     active_days: 27
-    repos_not_owned: 19
+    repos_not_owned: 18
     not_owned_basenames: 1
-    not_owned_owners: 19
+    not_owned_owners: 18
   "90d":
-    pushes: 1045
+    pushes: 1072
     distinct_repos: 36
-    pushes_per_repo: 29.0278
+    pushes_per_repo: 29.7778
     active_days: 82
     repos_not_owned: 35
     not_owned_basenames: 2
@@ -148,6 +148,6 @@ repos:
 
 # nwparker
 
-1045 pushes across 36 repositories on 82 active days in the last 90 days of public GitHub push activity.
+1072 pushes across 36 repositories on 82 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/nwparker

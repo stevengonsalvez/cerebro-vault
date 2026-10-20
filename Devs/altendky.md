@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-19T06:04:45.439728+00:00"
+generated_at: "2026-10-20T06:04:57.914428+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [5, 3, 3, 0, 0, 0, 0, 2, 10, 6, 2, 14, 12]
+pushes_per_week: [4, 3, 3, 0, 0, 0, 1, 2, 9, 7, 3, 18, 6]
 windows:
   "7d":
-    pushes: 17
-    distinct_repos: 5
-    active_days: 4
+    pushes: 11
+    distinct_repos: 4
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 36
-    distinct_repos: 6
-    active_days: 15
+    pushes: 35
+    distinct_repos: 5
+    active_days: 14
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 57
+    pushes: 56
     distinct_repos: 10
     active_days: 27
     repos_not_owned: 0
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.1111
+  push_per_day: 2.0741
   repo_per_active_day: 0.3704
   not_owned_ratio: 0.0000
   basename_concentration: 0.1000
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 17
-    distinct_repos: 5
-    pushes_per_repo: 3.4000
-    active_days: 4
+    pushes: 11
+    distinct_repos: 4
+    pushes_per_repo: 2.7500
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 36
-    distinct_repos: 6
-    pushes_per_repo: 6.0000
-    active_days: 15
+    pushes: 35
+    distinct_repos: 5
+    pushes_per_repo: 7.0000
+    active_days: 14
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 57
+    pushes: 56
     distinct_repos: 10
-    pushes_per_repo: 5.7000
+    pushes_per_repo: 5.6000
     active_days: 27
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -151,6 +151,6 @@ repos:
 
 # altendky
 
-57 pushes across 10 repositories on 27 active days in the last 90 days of public GitHub push activity.
+56 pushes across 10 repositories on 27 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/altendky

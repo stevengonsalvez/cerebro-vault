@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-19T06:04:45.439728+00:00"
+generated_at: "2026-10-20T06:04:57.914428+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [41, 15, 10, 8, 4, 4, 2, 0, 16, 32, 42, 45, 12]
+pushes_per_week: [41, 18, 8, 8, 4, 3, 2, 0, 19, 42, 46, 37, 5]
 windows:
   "7d":
-    pushes: 17
-    distinct_repos: 10
+    pushes: 14
+    distinct_repos: 8
     active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 138
+    pushes: 139
     distinct_repos: 28
-    active_days: 23
+    active_days: 24
     repos_not_owned: 5
     not_owned_basenames: 2
     not_owned_owners: 5
   "90d":
-    pushes: 231
+    pushes: 233
     distinct_repos: 32
-    active_days: 49
+    active_days: 50
     repos_not_owned: 5
     not_owned_basenames: 2
     not_owned_owners: 5
 automation:
   state: "clear"
-  push_per_day: 4.7143
-  repo_per_active_day: 0.6531
+  push_per_day: 4.6600
+  repo_per_active_day: 0.6400
   not_owned_ratio: 0.1562
   basename_concentration: 0.1562
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 17
-    distinct_repos: 10
-    pushes_per_repo: 1.7000
+    pushes: 14
+    distinct_repos: 8
+    pushes_per_repo: 1.7500
     active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 138
+    pushes: 139
     distinct_repos: 28
-    pushes_per_repo: 4.9286
-    active_days: 23
+    pushes_per_repo: 4.9643
+    active_days: 24
     repos_not_owned: 5
     not_owned_basenames: 2
     not_owned_owners: 5
   "90d":
-    pushes: 231
+    pushes: 233
     distinct_repos: 32
-    pushes_per_repo: 7.2188
-    active_days: 49
+    pushes_per_repo: 7.2812
+    active_days: 50
     repos_not_owned: 5
     not_owned_basenames: 2
     not_owned_owners: 5
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 49 active days in 90d — pass"
+  - "activity: 50 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "pdo_duckdb"
@@ -172,6 +172,6 @@ repos:
 
 # iliaal
 
-231 pushes across 32 repositories on 49 active days in the last 90 days of public GitHub push activity.
+233 pushes across 32 repositories on 50 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/iliaal

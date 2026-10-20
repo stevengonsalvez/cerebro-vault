@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-19T06:04:45.439728+00:00"
+generated_at: "2026-10-20T06:04:57.914428+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [6, 6, 1, 9, 3, 0, 1, 12, 37, 12, 14, 3, 1]
+pushes_per_week: [4, 6, 5, 5, 3, 0, 2, 12, 38, 10, 15, 2, 1]
 windows:
   "7d":
     pushes: 1
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 40
-    distinct_repos: 10
-    active_days: 15
+    pushes: 32
+    distinct_repos: 9
+    active_days: 14
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 105
+    pushes: 103
     distinct_repos: 16
-    active_days: 41
+    active_days: 40
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.5610
-  repo_per_active_day: 0.3902
+  push_per_day: 2.5750
+  repo_per_active_day: 0.4000
   not_owned_ratio: 0.0000
   basename_concentration: 0.0625
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 40
-    distinct_repos: 10
-    pushes_per_repo: 4.0000
-    active_days: 15
+    pushes: 32
+    distinct_repos: 9
+    pushes_per_repo: 3.5556
+    active_days: 14
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 105
+    pushes: 103
     distinct_repos: 16
-    pushes_per_repo: 6.5625
-    active_days: 41
+    pushes_per_repo: 6.4375
+    active_days: 40
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 41 active days in 90d — pass"
+  - "activity: 40 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "homebrew-formulae"
@@ -129,6 +129,6 @@ repos:
 
 # scaryrawr
 
-105 pushes across 16 repositories on 41 active days in the last 90 days of public GitHub push activity.
+103 pushes across 16 repositories on 40 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/scaryrawr

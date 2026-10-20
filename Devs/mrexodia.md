@@ -10,11 +10,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-19T06:04:45.439728+00:00"
+generated_at: "2026-10-20T06:04:57.914428+00:00"
 provenance:
   - "48dbbdd8fd0d3029"
   - "de6bf05613f3ae04"
-pushes_per_week: [9, 6, 9, 4, 5, 0, 0, 1, 5, 8, 1, 3, 0]
+pushes_per_week: [8, 7, 8, 6, 3, 0, 0, 1, 5, 8, 2, 2, 0]
 windows:
   "7d":
     pushes: 0
@@ -24,23 +24,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 13
-    distinct_repos: 10
-    active_days: 9
-    repos_not_owned: 6
-    not_owned_basenames: 6
-    not_owned_owners: 3
+    pushes: 12
+    distinct_repos: 9
+    active_days: 8
+    repos_not_owned: 5
+    not_owned_basenames: 5
+    not_owned_owners: 2
   "90d":
-    pushes: 51
+    pushes: 50
     distinct_repos: 27
-    active_days: 31
+    active_days: 30
     repos_not_owned: 13
     not_owned_basenames: 11
     not_owned_owners: 5
 automation:
   state: "clear"
-  push_per_day: 1.6452
-  repo_per_active_day: 0.8710
+  push_per_day: 1.6667
+  repo_per_active_day: 0.9000
   not_owned_ratio: 0.4815
   basename_concentration: 0.1111
   shapes: []
@@ -59,24 +59,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 13
-    distinct_repos: 10
-    pushes_per_repo: 1.3000
-    active_days: 9
-    repos_not_owned: 6
-    not_owned_basenames: 6
-    not_owned_owners: 3
+    pushes: 12
+    distinct_repos: 9
+    pushes_per_repo: 1.3333
+    active_days: 8
+    repos_not_owned: 5
+    not_owned_basenames: 5
+    not_owned_owners: 2
   "90d":
-    pushes: 51
+    pushes: 50
     distinct_repos: 27
-    pushes_per_repo: 1.8889
-    active_days: 31
+    pushes_per_repo: 1.8519
+    active_days: 30
     repos_not_owned: 13
     not_owned_basenames: 11
     not_owned_owners: 5
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 31 active days in 90d — pass"
+  - "activity: 30 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "TitanHide"
@@ -147,6 +147,6 @@ repos:
 
 # mrexodia
 
-51 pushes across 27 repositories on 31 active days in the last 90 days of public GitHub push activity.
+50 pushes across 27 repositories on 30 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/mrexodia

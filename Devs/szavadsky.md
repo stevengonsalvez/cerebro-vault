@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-19T06:04:45.439728+00:00"
+generated_at: "2026-10-20T06:04:57.914428+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [1, 5, 7, 5, 8, 2, 2, 8, 5, 2, 3, 0, 4]
+pushes_per_week: [1, 4, 10, 2, 8, 2, 2, 9, 4, 2, 3, 4, 0]
 windows:
   "7d":
-    pushes: 4
+    pushes: 1
     distinct_repos: 1
     active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 11
+    pushes: 9
     distinct_repos: 1
-    active_days: 4
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 52
-    distinct_repos: 2
-    active_days: 26
+    pushes: 51
+    distinct_repos: 1
+    active_days: 25
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.0000
-  repo_per_active_day: 0.0769
+  push_per_day: 2.0400
+  repo_per_active_day: 0.0400
   not_owned_ratio: 0.0000
-  basename_concentration: 0.5000
+  basename_concentration: 1.0000
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 4
+    pushes: 1
     distinct_repos: 1
-    pushes_per_repo: 4.0000
+    pushes_per_repo: 1.0000
     active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 11
+    pushes: 9
     distinct_repos: 1
-    pushes_per_repo: 11.0000
-    active_days: 4
+    pushes_per_repo: 9.0000
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 52
-    distinct_repos: 2
-    pushes_per_repo: 26.0000
-    active_days: 26
+    pushes: 51
+    distinct_repos: 1
+    pushes_per_repo: 51.0000
+    active_days: 25
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 26 active days in 90d — pass"
+  - "activity: 25 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "agentic-swarm"
@@ -105,6 +105,6 @@ repos:
 
 # szavadsky
 
-52 pushes across 2 repositories on 26 active days in the last 90 days of public GitHub push activity.
+51 pushes across 1 repository on 25 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/szavadsky

@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-19T06:04:45.439728+00:00"
+generated_at: "2026-10-20T06:04:57.914428+00:00"
 provenance:
   - "745308b2b7085095"
-pushes_per_week: [2, 3, 0, 0, 1, 0, 1, 0, 0, 4, 4, 0, 4]
+pushes_per_week: [0, 3, 0, 0, 1, 0, 1, 0, 1, 3, 4, 3, 2]
 windows:
   "7d":
-    pushes: 4
+    pushes: 5
     distinct_repos: 1
-    active_days: 2
+    active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 12
+    pushes: 13
     distinct_repos: 1
-    active_days: 9
+    active_days: 10
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 19
+    pushes: 18
     distinct_repos: 1
     active_days: 14
     repos_not_owned: 1
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.3571
+  push_per_day: 1.2857
   repo_per_active_day: 0.0714
   not_owned_ratio: 1.0000
   basename_concentration: 1.0000
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 4
+    pushes: 5
     distinct_repos: 1
-    pushes_per_repo: 4.0000
-    active_days: 2
+    pushes_per_repo: 5.0000
+    active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 12
+    pushes: 13
     distinct_repos: 1
-    pushes_per_repo: 12.0000
-    active_days: 9
+    pushes_per_repo: 13.0000
+    active_days: 10
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 19
+    pushes: 18
     distinct_repos: 1
-    pushes_per_repo: 19.0000
+    pushes_per_repo: 18.0000
     active_days: 14
     repos_not_owned: 1
     not_owned_basenames: 1
@@ -121,6 +121,6 @@ repos:
 
 # shomix
 
-19 pushes across 1 repository on 14 active days in the last 90 days of public GitHub push activity.
+18 pushes across 1 repository on 14 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/shomix

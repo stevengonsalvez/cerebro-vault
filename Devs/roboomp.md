@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-19T06:04:45.439728+00:00"
+generated_at: "2026-10-20T06:04:57.914428+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [16, 10, 5, 7, 4, 3, 3, 7, 0, 5, 1, 7, 6]
+pushes_per_week: [14, 11, 8, 3, 6, 1, 5, 5, 0, 5, 4, 7, 4]
 windows:
   "7d":
-    pushes: 8
+    pushes: 6
     distinct_repos: 1
-    active_days: 4
+    active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 19
+    pushes: 20
     distinct_repos: 1
     active_days: 12
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 74
+    pushes: 73
     distinct_repos: 1
-    active_days: 43
+    active_days: 42
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.7209
-  repo_per_active_day: 0.0233
+  push_per_day: 1.7381
+  repo_per_active_day: 0.0238
   not_owned_ratio: 1.0000
   basename_concentration: 1.0000
   shapes: []
@@ -49,38 +49,38 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 8
+    pushes: 6
     distinct_repos: 1
-    pushes_per_repo: 8.0000
-    active_days: 4
+    pushes_per_repo: 6.0000
+    active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 19
+    pushes: 20
     distinct_repos: 1
-    pushes_per_repo: 19.0000
+    pushes_per_repo: 20.0000
     active_days: 12
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 74
+    pushes: 73
     distinct_repos: 1
-    pushes_per_repo: 74.0000
-    active_days: 43
+    pushes_per_repo: 73.0000
+    active_days: 42
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 43 active days in 90d — pass"
+  - "activity: 42 active days in 90d — pass"
   - "automation: clear — pass"
 repos: []
 ---
 
 # roboomp
 
-74 pushes across 1 repository on 43 active days in the last 90 days of public GitHub push activity.
+73 pushes across 1 repository on 42 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/roboomp

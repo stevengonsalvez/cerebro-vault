@@ -9,37 +9,37 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-19T06:04:45.439728+00:00"
+generated_at: "2026-10-20T06:04:57.914428+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [69, 59, 5, 32, 55, 12, 3, 8, 4, 45, 67, 30, 42]
+pushes_per_week: [57, 48, 7, 29, 58, 10, 4, 7, 7, 42, 74, 41, 30]
 windows:
   "7d":
     pushes: 47
-    distinct_repos: 9
+    distinct_repos: 11
     active_days: 5
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
   "30d":
-    pushes: 185
-    distinct_repos: 16
-    active_days: 24
+    pushes: 192
+    distinct_repos: 18
+    active_days: 25
     repos_not_owned: 7
     not_owned_basenames: 7
     not_owned_owners: 1
   "90d":
-    pushes: 431
+    pushes: 414
     distinct_repos: 27
     active_days: 67
-    repos_not_owned: 12
-    not_owned_basenames: 12
+    repos_not_owned: 11
+    not_owned_basenames: 11
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 6.4328
+  push_per_day: 6.1791
   repo_per_active_day: 0.4030
-  not_owned_ratio: 0.4444
+  not_owned_ratio: 0.4074
   basename_concentration: 0.0370
   shapes: []
   shape_evidence: []
@@ -50,27 +50,27 @@ automation:
 facets:
   "7d":
     pushes: 47
-    distinct_repos: 9
-    pushes_per_repo: 5.2222
+    distinct_repos: 11
+    pushes_per_repo: 4.2727
     active_days: 5
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
   "30d":
-    pushes: 185
-    distinct_repos: 16
-    pushes_per_repo: 11.5625
-    active_days: 24
+    pushes: 192
+    distinct_repos: 18
+    pushes_per_repo: 10.6667
+    active_days: 25
     repos_not_owned: 7
     not_owned_basenames: 7
     not_owned_owners: 1
   "90d":
-    pushes: 431
+    pushes: 414
     distinct_repos: 27
-    pushes_per_repo: 15.9630
+    pushes_per_repo: 15.3333
     active_days: 67
-    repos_not_owned: 12
-    not_owned_basenames: 12
+    repos_not_owned: 11
+    not_owned_basenames: 11
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
@@ -162,6 +162,6 @@ repos:
 
 # 100yenadmin
 
-431 pushes across 27 repositories on 67 active days in the last 90 days of public GitHub push activity.
+414 pushes across 27 repositories on 67 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/100yenadmin

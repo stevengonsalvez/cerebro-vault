@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-19T06:04:45.439728+00:00"
+generated_at: "2026-10-20T06:04:57.914428+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [188, 59, 13, 17, 34, 0, 26, 36, 57, 182, 45, 87, 40]
+pushes_per_week: [115, 52, 1, 21, 30, 1, 31, 31, 61, 188, 57, 81, 40]
 windows:
   "7d":
-    pushes: 61
-    distinct_repos: 4
+    pushes: 54
+    distinct_repos: 3
     active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 389
-    distinct_repos: 12
+    pushes: 382
+    distinct_repos: 11
     active_days: 25
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 784
+    pushes: 709
     distinct_repos: 22
     active_days: 64
     repos_not_owned: 2
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 12.2500
+  push_per_day: 11.0781
   repo_per_active_day: 0.3438
   not_owned_ratio: 0.0909
   basename_concentration: 0.0455
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 61
-    distinct_repos: 4
-    pushes_per_repo: 15.2500
+    pushes: 54
+    distinct_repos: 3
+    pushes_per_repo: 18.0000
     active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 389
-    distinct_repos: 12
-    pushes_per_repo: 32.4167
+    pushes: 382
+    distinct_repos: 11
+    pushes_per_repo: 34.7273
     active_days: 25
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 784
+    pushes: 709
     distinct_repos: 22
-    pushes_per_repo: 35.6364
+    pushes_per_repo: 32.2273
     active_days: 64
     repos_not_owned: 2
     not_owned_basenames: 2
@@ -129,6 +129,6 @@ repos:
 
 # pedropaulovc
 
-784 pushes across 22 repositories on 64 active days in the last 90 days of public GitHub push activity.
+709 pushes across 22 repositories on 64 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/pedropaulovc

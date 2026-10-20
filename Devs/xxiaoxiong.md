@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-19T06:04:45.439728+00:00"
+generated_at: "2026-10-20T06:04:57.914428+00:00"
 provenance:
   - "e5b23adc376a62a9"
-pushes_per_week: [12, 15, 1, 9, 0, 0, 2, 0, 2, 0, 1, 0, 0]
+pushes_per_week: [15, 12, 1, 8, 0, 1, 1, 0, 2, 1, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,7 +29,7 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 42
+    pushes: 41
     distinct_repos: 10
     active_days: 21
     repos_not_owned: 0
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.0000
+  push_per_day: 1.9524
   repo_per_active_day: 0.4762
   not_owned_ratio: 0.0000
   basename_concentration: 0.1000
@@ -65,9 +65,9 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 42
+    pushes: 41
     distinct_repos: 10
-    pushes_per_repo: 4.2000
+    pushes_per_repo: 4.1000
     active_days: 21
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -146,6 +146,6 @@ repos:
 
 # xxiaoxiong
 
-42 pushes across 10 repositories on 21 active days in the last 90 days of public GitHub push activity.
+41 pushes across 10 repositories on 21 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/xxiaoxiong

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-19T06:04:45.439728+00:00"
+generated_at: "2026-10-20T06:04:57.914428+00:00"
 provenance:
   - "a50b0e08dbaee74a"
-pushes_per_week: [13, 6, 7, 14, 2, 4, 1, 4, 4, 2, 0, 2, 1]
+pushes_per_week: [14, 4, 10, 11, 5, 1, 1, 4, 6, 0, 1, 2, 0]
 windows:
   "7d":
     pushes: 1
@@ -29,7 +29,7 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 60
+    pushes: 59
     distinct_repos: 7
     active_days: 32
     repos_not_owned: 2
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.8750
+  push_per_day: 1.8438
   repo_per_active_day: 0.2188
   not_owned_ratio: 0.2857
   basename_concentration: 0.1429
@@ -65,9 +65,9 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 60
+    pushes: 59
     distinct_repos: 7
-    pushes_per_repo: 8.5714
+    pushes_per_repo: 8.4286
     active_days: 32
     repos_not_owned: 2
     not_owned_basenames: 2
@@ -81,6 +81,6 @@ repos: []
 
 # satyakigh
 
-60 pushes across 7 repositories on 32 active days in the last 90 days of public GitHub push activity.
+59 pushes across 7 repositories on 32 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/satyakigh

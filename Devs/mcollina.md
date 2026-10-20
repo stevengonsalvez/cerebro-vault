@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-19T06:04:45.439728+00:00"
+generated_at: "2026-10-20T06:04:57.914428+00:00"
 provenance:
   - "3eacb4655aba2497"
-pushes_per_week: [18, 19, 5, 14, 2, 4, 0, 3, 8, 15, 7, 12, 12]
+pushes_per_week: [18, 16, 5, 14, 2, 4, 0, 3, 10, 14, 10, 12, 10]
 windows:
   "7d":
-    pushes: 16
+    pushes: 14
     distinct_repos: 6
     active_days: 3
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 4
   "30d":
-    pushes: 49
+    pushes: 50
     distinct_repos: 17
     active_days: 17
     repos_not_owned: 12
     not_owned_basenames: 11
     not_owned_owners: 8
   "90d":
-    pushes: 119
+    pushes: 118
     distinct_repos: 31
     active_days: 46
     repos_not_owned: 23
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 10
 automation:
   state: "clear"
-  push_per_day: 2.5870
+  push_per_day: 2.5652
   repo_per_active_day: 0.6739
   not_owned_ratio: 0.7419
   basename_concentration: 0.0968
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 16
+    pushes: 14
     distinct_repos: 6
-    pushes_per_repo: 2.6667
+    pushes_per_repo: 2.3333
     active_days: 3
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 4
   "30d":
-    pushes: 49
+    pushes: 50
     distinct_repos: 17
-    pushes_per_repo: 2.8824
+    pushes_per_repo: 2.9412
     active_days: 17
     repos_not_owned: 12
     not_owned_basenames: 11
     not_owned_owners: 8
   "90d":
-    pushes: 119
+    pushes: 118
     distinct_repos: 31
-    pushes_per_repo: 3.8387
+    pushes_per_repo: 3.8065
     active_days: 46
     repos_not_owned: 23
     not_owned_basenames: 21
@@ -129,6 +129,6 @@ repos:
 
 # mcollina
 
-119 pushes across 31 repositories on 46 active days in the last 90 days of public GitHub push activity.
+118 pushes across 31 repositories on 46 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/mcollina

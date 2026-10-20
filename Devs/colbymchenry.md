@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-19T06:04:45.439728+00:00"
+generated_at: "2026-10-20T06:04:57.914428+00:00"
 provenance:
   - "5ae8aede20b52732"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 2, 19, 21, 9, 3]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 1, 3, 20, 24, 4, 7]
 windows:
   "7d":
-    pushes: 5
+    pushes: 7
     distinct_repos: 1
     active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 52
+    pushes: 57
     distinct_repos: 1
-    active_days: 14
+    active_days: 16
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 54
+    pushes: 59
     distinct_repos: 2
-    active_days: 16
+    active_days: 18
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 3.3750
-  repo_per_active_day: 0.1250
+  push_per_day: 3.2778
+  repo_per_active_day: 0.1111
   not_owned_ratio: 0.0000
   basename_concentration: 0.5000
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 5
+    pushes: 7
     distinct_repos: 1
-    pushes_per_repo: 5.0000
+    pushes_per_repo: 7.0000
     active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 52
+    pushes: 57
     distinct_repos: 1
-    pushes_per_repo: 52.0000
-    active_days: 14
+    pushes_per_repo: 57.0000
+    active_days: 16
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 54
+    pushes: 59
     distinct_repos: 2
-    pushes_per_repo: 27.0000
-    active_days: 16
+    pushes_per_repo: 29.5000
+    active_days: 18
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 16 active days in 90d — pass"
+  - "activity: 18 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "codegraph"
@@ -129,6 +129,6 @@ repos:
 
 # colbymchenry
 
-54 pushes across 2 repositories on 16 active days in the last 90 days of public GitHub push activity.
+59 pushes across 2 repositories on 18 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/colbymchenry

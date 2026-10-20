@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-19T06:04:45.439728+00:00"
+generated_at: "2026-10-20T06:04:57.914428+00:00"
 provenance:
   - "6d3bd03b49986330"
-pushes_per_week: [0, 1, 1, 0, 0, 0, 0, 1, 5, 11, 4, 5, 9]
+pushes_per_week: [0, 1, 1, 0, 0, 0, 0, 1, 5, 11, 4, 8, 7]
 windows:
   "7d":
-    pushes: 11
-    distinct_repos: 2
+    pushes: 9
+    distinct_repos: 1
     active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 31
+    pushes: 30
     distinct_repos: 2
     active_days: 14
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 37
+    pushes: 38
     distinct_repos: 6
-    active_days: 18
+    active_days: 19
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.0556
-  repo_per_active_day: 0.3333
+  push_per_day: 2.0000
+  repo_per_active_day: 0.3158
   not_owned_ratio: 0.0000
   basename_concentration: 0.1667
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 11
-    distinct_repos: 2
-    pushes_per_repo: 5.5000
+    pushes: 9
+    distinct_repos: 1
+    pushes_per_repo: 9.0000
     active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 31
+    pushes: 30
     distinct_repos: 2
-    pushes_per_repo: 15.5000
+    pushes_per_repo: 15.0000
     active_days: 14
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 37
+    pushes: 38
     distinct_repos: 6
-    pushes_per_repo: 6.1667
-    active_days: 18
+    pushes_per_repo: 6.3333
+    active_days: 19
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 18 active days in 90d — pass"
+  - "activity: 19 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "GAgent"
@@ -129,6 +129,6 @@ repos:
 
 # yiyabo
 
-37 pushes across 6 repositories on 18 active days in the last 90 days of public GitHub push activity.
+38 pushes across 6 repositories on 19 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/yiyabo

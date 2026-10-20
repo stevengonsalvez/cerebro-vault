@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-19T06:04:45.439728+00:00"
+generated_at: "2026-10-20T06:04:57.914428+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [4, 0, 0, 2, 0, 0, 0, 0, 2, 1, 2, 4, 0]
+pushes_per_week: [3, 0, 0, 2, 0, 0, 0, 0, 2, 2, 2, 3, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 15
+    pushes: 14
     distinct_repos: 9
-    active_days: 13
+    active_days: 12
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 1.1538
-  repo_per_active_day: 0.6923
+  push_per_day: 1.1667
+  repo_per_active_day: 0.7500
   not_owned_ratio: 0.5556
   basename_concentration: 0.1111
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 15
+    pushes: 14
     distinct_repos: 9
-    pushes_per_repo: 1.6667
-    active_days: 13
+    pushes_per_repo: 1.5556
+    active_days: 12
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 13 active days in 90d — pass"
+  - "activity: 12 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "kindly-deploy-backend"
@@ -129,6 +129,6 @@ repos:
 
 # garvit-arora
 
-15 pushes across 9 repositories on 13 active days in the last 90 days of public GitHub push activity.
+14 pushes across 9 repositories on 12 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/garvit-arora

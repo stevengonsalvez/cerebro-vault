@@ -9,13 +9,13 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-19T06:04:45.439728+00:00"
+generated_at: "2026-10-20T06:04:57.914428+00:00"
 provenance:
   - "48dbbdd8fd0d3029"
-pushes_per_week: [1, 2, 14, 35, 1, 4, 0, 6, 13, 7, 15, 9, 8]
+pushes_per_week: [3, 0, 23, 26, 4, 1, 2, 4, 15, 6, 18, 7, 7]
 windows:
   "7d":
-    pushes: 10
+    pushes: 9
     distinct_repos: 9
     active_days: 3
     repos_not_owned: 9
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 16
     not_owned_owners: 7
   "90d":
-    pushes: 115
+    pushes: 116
     distinct_repos: 29
-    active_days: 39
+    active_days: 40
     repos_not_owned: 26
     not_owned_basenames: 17
     not_owned_owners: 14
 automation:
   state: "clear"
-  push_per_day: 2.9487
-  repo_per_active_day: 0.7436
+  push_per_day: 2.9000
+  repo_per_active_day: 0.7250
   not_owned_ratio: 0.8966
   basename_concentration: 0.2414
   shapes: []
@@ -49,9 +49,9 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 10
+    pushes: 9
     distinct_repos: 9
-    pushes_per_repo: 1.1111
+    pushes_per_repo: 1.0000
     active_days: 3
     repos_not_owned: 9
     not_owned_basenames: 8
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 16
     not_owned_owners: 7
   "90d":
-    pushes: 115
+    pushes: 116
     distinct_repos: 29
-    pushes_per_repo: 3.9655
-    active_days: 39
+    pushes_per_repo: 4.0000
+    active_days: 40
     repos_not_owned: 26
     not_owned_basenames: 17
     not_owned_owners: 14
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 39 active days in 90d — pass"
+  - "activity: 40 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "pushpak1300.me"
@@ -118,6 +118,6 @@ repos:
 
 # pushpak1300
 
-115 pushes across 29 repositories on 39 active days in the last 90 days of public GitHub push activity.
+116 pushes across 29 repositories on 40 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/pushpak1300

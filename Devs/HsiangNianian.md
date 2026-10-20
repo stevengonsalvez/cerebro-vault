@@ -5,22 +5,24 @@ discovered_via: "fanout"
 discovered_via_all:
   - "fanout"
 provenance_repos:
+  - "abhigyanpatwari/GitNexus"
   - "AlexsJones/llmfit"
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-19T06:04:45.439728+00:00"
+generated_at: "2026-10-20T06:04:57.914428+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [68, 35, 25, 35, 0, 2, 0, 2, 5, 10, 5, 1, 2]
+  - "3c90af76cbde0363"
+pushes_per_week: [52, 28, 30, 30, 0, 2, 0, 3, 4, 12, 3, 3, 0]
 windows:
   "7d":
-    pushes: 3
-    distinct_repos: 3
-    active_days: 2
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
     pushes: 20
     distinct_repos: 9
@@ -29,16 +31,16 @@ windows:
     not_owned_basenames: 3
     not_owned_owners: 4
   "90d":
-    pushes: 190
+    pushes: 167
     distinct_repos: 16
-    active_days: 43
+    active_days: 42
     repos_not_owned: 6
     not_owned_basenames: 5
     not_owned_owners: 5
 automation:
   state: "clear"
-  push_per_day: 4.4186
-  repo_per_active_day: 0.3721
+  push_per_day: 3.9762
+  repo_per_active_day: 0.3810
   not_owned_ratio: 0.3750
   basename_concentration: 0.1875
   shapes: []
@@ -49,13 +51,13 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 3
-    distinct_repos: 3
-    pushes_per_repo: 1.0000
-    active_days: 2
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
     pushes: 20
     distinct_repos: 9
@@ -65,16 +67,16 @@ facets:
     not_owned_basenames: 3
     not_owned_owners: 4
   "90d":
-    pushes: 190
+    pushes: 167
     distinct_repos: 16
-    pushes_per_repo: 11.8750
-    active_days: 43
+    pushes_per_repo: 10.4375
+    active_days: 42
     repos_not_owned: 6
     not_owned_basenames: 5
     not_owned_owners: 5
 reasons:
-  - "provenance: 1 vault signal(s) — pass"
-  - "activity: 43 active days in 90d — pass"
+  - "provenance: 2 vault signal(s) — pass"
+  - "activity: 42 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "dsh-auto-continue"
@@ -150,6 +152,6 @@ repos:
 
 # HsiangNianian
 
-190 pushes across 16 repositories on 43 active days in the last 90 days of public GitHub push activity.
+167 pushes across 16 repositories on 42 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/HsiangNianian

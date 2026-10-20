@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-19T06:04:45.439728+00:00"
+generated_at: "2026-10-20T06:04:57.914428+00:00"
 provenance:
   - "46f3c1d6124190bd"
-pushes_per_week: [14, 46, 2, 1, 0, 0, 0, 1, 4, 0, 5, 0, 0]
+pushes_per_week: [9, 46, 2, 1, 0, 0, 0, 1, 4, 1, 4, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 73
-    distinct_repos: 10
+    pushes: 68
+    distinct_repos: 9
     active_days: 21
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 3.4762
-  repo_per_active_day: 0.4762
+  push_per_day: 3.2381
+  repo_per_active_day: 0.4286
   not_owned_ratio: 0.0000
-  basename_concentration: 0.1000
+  basename_concentration: 0.1111
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,9 +65,9 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 73
-    distinct_repos: 10
-    pushes_per_repo: 7.3000
+    pushes: 68
+    distinct_repos: 9
+    pushes_per_repo: 7.5556
     active_days: 21
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -175,6 +175,6 @@ repos:
 
 # isatimur
 
-73 pushes across 10 repositories on 21 active days in the last 90 days of public GitHub push activity.
+68 pushes across 9 repositories on 21 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/isatimur

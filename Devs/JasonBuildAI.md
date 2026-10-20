@@ -6,43 +6,45 @@ discovered_via_all:
   - "fanout"
 provenance_repos:
   - "agentscope-ai/QwenPaw"
+  - "alibaba/open-code-review"
   - "apache/maka"
   - "bytedance/deer-flow"
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-19T06:04:45.439728+00:00"
+generated_at: "2026-10-20T06:04:57.914428+00:00"
 provenance:
   - "16389f32495280ea"
   - "4d1450729e6ff44d"
   - "541318303a272608"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 3, 2, 4, 24, 11]
+  - "c489e6fb5febf2ab"
+pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 3, 2, 4, 30, 7]
 windows:
   "7d":
-    pushes: 11
+    pushes: 10
     distinct_repos: 6
-    active_days: 3
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 43
+    pushes: 45
     distinct_repos: 13
-    active_days: 11
+    active_days: 13
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 44
+    pushes: 46
     distinct_repos: 13
-    active_days: 12
+    active_days: 14
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 3.6667
-  repo_per_active_day: 1.0833
+  push_per_day: 3.2857
+  repo_per_active_day: 0.9286
   not_owned_ratio: 0.0000
   basename_concentration: 0.0769
   shapes: []
@@ -53,32 +55,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 11
+    pushes: 10
     distinct_repos: 6
-    pushes_per_repo: 1.8333
-    active_days: 3
+    pushes_per_repo: 1.6667
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 43
+    pushes: 45
     distinct_repos: 13
-    pushes_per_repo: 3.3077
-    active_days: 11
+    pushes_per_repo: 3.4615
+    active_days: 13
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 44
+    pushes: 46
     distinct_repos: 13
-    pushes_per_repo: 3.3846
-    active_days: 12
+    pushes_per_repo: 3.5385
+    active_days: 14
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
-  - "provenance: 3 vault signal(s) — pass"
-  - "activity: 12 active days in 90d — pass"
+  - "provenance: 4 vault signal(s) — pass"
+  - "activity: 14 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "GoldMind"
@@ -143,6 +145,6 @@ repos:
 
 # JasonBuildAI
 
-44 pushes across 13 repositories on 12 active days in the last 90 days of public GitHub push activity.
+46 pushes across 13 repositories on 14 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/JasonBuildAI

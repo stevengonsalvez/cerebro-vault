@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-19T06:04:45.439728+00:00"
+generated_at: "2026-10-20T06:04:57.914428+00:00"
 provenance:
   - "9e2ff10d772b1e71"
-pushes_per_week: [10, 3, 10, 15, 0, 1, 0, 1, 2, 3, 1, 3, 1]
+pushes_per_week: [3, 5, 14, 9, 0, 1, 0, 1, 4, 1, 1, 4, 0]
 windows:
   "7d":
-    pushes: 2
-    distinct_repos: 2
-    active_days: 2
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 50
-    distinct_repos: 23
-    active_days: 24
+    pushes: 43
+    distinct_repos: 19
+    active_days: 22
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.0833
-  repo_per_active_day: 0.9583
+  push_per_day: 1.9545
+  repo_per_active_day: 0.8636
   not_owned_ratio: 0.0000
-  basename_concentration: 0.0435
+  basename_concentration: 0.0526
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
-    distinct_repos: 2
-    pushes_per_repo: 1.0000
-    active_days: 2
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 50
-    distinct_repos: 23
-    pushes_per_repo: 2.1739
-    active_days: 24
+    pushes: 43
+    distinct_repos: 19
+    pushes_per_repo: 2.2632
+    active_days: 22
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 24 active days in 90d — pass"
+  - "activity: 22 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "xianjianlf2"
@@ -170,6 +170,6 @@ repos:
 
 # xianjianlf2
 
-50 pushes across 23 repositories on 24 active days in the last 90 days of public GitHub push activity.
+43 pushes across 19 repositories on 22 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/xianjianlf2

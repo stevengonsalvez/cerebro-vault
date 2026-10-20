@@ -10,10 +10,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-19T06:04:45.439728+00:00"
+generated_at: "2026-10-20T06:04:57.914428+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [13, 20, 14, 39, 14, 1, 0, 0, 1, 10, 0, 0, 1]
+pushes_per_week: [7, 20, 45, 8, 15, 0, 0, 0, 3, 8, 0, 1, 0]
 windows:
   "7d":
     pushes: 1
@@ -23,23 +23,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 12
+    pushes: 11
     distinct_repos: 3
-    active_days: 8
+    active_days: 7
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 113
+    pushes: 107
     distinct_repos: 13
-    active_days: 25
+    active_days: 24
     repos_not_owned: 10
     not_owned_basenames: 4
     not_owned_owners: 9
 automation:
   state: "clear"
-  push_per_day: 4.5200
-  repo_per_active_day: 0.5200
+  push_per_day: 4.4583
+  repo_per_active_day: 0.5417
   not_owned_ratio: 0.7692
   basename_concentration: 0.6154
   shapes:
@@ -74,24 +74,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 12
+    pushes: 11
     distinct_repos: 3
-    pushes_per_repo: 4.0000
-    active_days: 8
+    pushes_per_repo: 3.6667
+    active_days: 7
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 113
+    pushes: 107
     distinct_repos: 13
-    pushes_per_repo: 8.6923
-    active_days: 25
+    pushes_per_repo: 8.2308
+    active_days: 24
     repos_not_owned: 10
     not_owned_basenames: 4
     not_owned_owners: 9
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 25 active days in 90d — pass"
+  - "activity: 24 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "OpenCLI"
@@ -158,6 +158,6 @@ repos:
 
 # jackwener
 
-113 pushes across 13 repositories on 25 active days in the last 90 days of public GitHub push activity.
+107 pushes across 13 repositories on 24 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/jackwener

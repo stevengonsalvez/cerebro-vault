@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-19T06:04:45.439728+00:00"
+generated_at: "2026-10-20T06:04:57.914428+00:00"
 provenance:
   - "46f3c1d6124190bd"
-pushes_per_week: [33, 8, 3, 0, 1, 0, 0, 0, 7, 2, 7, 0, 12]
+pushes_per_week: [14, 9, 1, 1, 0, 0, 0, 1, 6, 4, 5, 10, 2]
 windows:
   "7d":
     pushes: 12
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 73
-    distinct_repos: 25
-    active_days: 22
+    pushes: 53
+    distinct_repos: 23
+    active_days: 21
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 3.3182
-  repo_per_active_day: 1.1364
-  not_owned_ratio: 0.1200
-  basename_concentration: 0.0800
+  push_per_day: 2.5238
+  repo_per_active_day: 1.0952
+  not_owned_ratio: 0.1304
+  basename_concentration: 0.0870
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 73
-    distinct_repos: 25
-    pushes_per_repo: 2.9200
-    active_days: 22
+    pushes: 53
+    distinct_repos: 23
+    pushes_per_repo: 2.3043
+    active_days: 21
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 22 active days in 90d — pass"
+  - "activity: 21 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "deepgram-render-sandbox"
@@ -129,6 +129,6 @@ repos:
 
 # ojusave
 
-73 pushes across 25 repositories on 22 active days in the last 90 days of public GitHub push activity.
+53 pushes across 23 repositories on 21 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ojusave

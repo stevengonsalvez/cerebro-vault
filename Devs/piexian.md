@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-19T06:04:45.439728+00:00"
+generated_at: "2026-10-20T06:04:57.914428+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [15, 5, 5, 7, 1, 1, 1, 1, 5, 14, 3, 5, 6]
+pushes_per_week: [14, 6, 6, 6, 0, 1, 1, 2, 4, 16, 2, 8, 2]
 windows:
   "7d":
     pushes: 6
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 32
+    pushes: 30
     distinct_repos: 12
-    active_days: 17
+    active_days: 16
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 69
+    pushes: 68
     distinct_repos: 23
-    active_days: 37
+    active_days: 36
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.8649
-  repo_per_active_day: 0.6216
+  push_per_day: 1.8889
+  repo_per_active_day: 0.6389
   not_owned_ratio: 0.0870
   basename_concentration: 0.0435
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 32
+    pushes: 30
     distinct_repos: 12
-    pushes_per_repo: 2.6667
-    active_days: 17
+    pushes_per_repo: 2.5000
+    active_days: 16
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 69
+    pushes: 68
     distinct_repos: 23
-    pushes_per_repo: 3.0000
-    active_days: 37
+    pushes_per_repo: 2.9565
+    active_days: 36
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 37 active days in 90d — pass"
+  - "activity: 36 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "pi-providers-manager"
@@ -136,6 +136,6 @@ repos:
 
 # piexian
 
-69 pushes across 23 repositories on 37 active days in the last 90 days of public GitHub push activity.
+68 pushes across 23 repositories on 36 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/piexian

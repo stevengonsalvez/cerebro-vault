@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-19T06:04:45.439728+00:00"
+generated_at: "2026-10-20T06:04:57.914428+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [4, 6, 0, 8, 1, 1, 0, 4, 3, 2, 2, 0, 0]
+pushes_per_week: [3, 4, 0, 8, 1, 1, 0, 4, 3, 3, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 31
-    distinct_repos: 16
-    active_days: 22
+    pushes: 28
+    distinct_repos: 14
+    active_days: 21
     repos_not_owned: 6
     not_owned_basenames: 6
     not_owned_owners: 4
 automation:
   state: "clear"
-  push_per_day: 1.4091
-  repo_per_active_day: 0.7273
-  not_owned_ratio: 0.3750
-  basename_concentration: 0.1250
+  push_per_day: 1.3333
+  repo_per_active_day: 0.6667
+  not_owned_ratio: 0.4286
+  basename_concentration: 0.0714
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 31
-    distinct_repos: 16
-    pushes_per_repo: 1.9375
-    active_days: 22
+    pushes: 28
+    distinct_repos: 14
+    pushes_per_repo: 2.0000
+    active_days: 21
     repos_not_owned: 6
     not_owned_basenames: 6
     not_owned_owners: 4
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 22 active days in 90d — pass"
+  - "activity: 21 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "raviz"
@@ -148,6 +148,6 @@ repos:
 
 # maskedsyntax
 
-31 pushes across 16 repositories on 22 active days in the last 90 days of public GitHub push activity.
+28 pushes across 14 repositories on 21 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/maskedsyntax

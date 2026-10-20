@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-19T06:04:45.439728+00:00"
+generated_at: "2026-10-20T06:04:57.914428+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [2, 19, 5, 9, 0, 4, 0, 4, 14, 35, 36, 3, 3]
+pushes_per_week: [3, 17, 7, 7, 3, 1, 1, 5, 15, 34, 37, 0, 5]
 windows:
   "7d":
-    pushes: 3
-    distinct_repos: 3
-    active_days: 1
+    pushes: 5
+    distinct_repos: 4
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -29,7 +29,7 @@ windows:
     not_owned_basenames: 4
     not_owned_owners: 3
   "90d":
-    pushes: 134
+    pushes: 135
     distinct_repos: 23
     active_days: 40
     repos_not_owned: 6
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 4
 automation:
   state: "clear"
-  push_per_day: 3.3500
+  push_per_day: 3.3750
   repo_per_active_day: 0.5750
   not_owned_ratio: 0.2609
   basename_concentration: 0.0870
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 3
-    distinct_repos: 3
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes: 5
+    distinct_repos: 4
+    pushes_per_repo: 1.2500
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -65,9 +65,9 @@ facets:
     not_owned_basenames: 4
     not_owned_owners: 3
   "90d":
-    pushes: 134
+    pushes: 135
     distinct_repos: 23
-    pushes_per_repo: 5.8261
+    pushes_per_repo: 5.8696
     active_days: 40
     repos_not_owned: 6
     not_owned_basenames: 5
@@ -129,6 +129,6 @@ repos:
 
 # STRML
 
-134 pushes across 23 repositories on 40 active days in the last 90 days of public GitHub push activity.
+135 pushes across 23 repositories on 40 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/STRML

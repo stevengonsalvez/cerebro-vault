@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-19T06:04:45.439728+00:00"
+generated_at: "2026-10-20T06:04:57.914428+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [1, 0, 0, 0, 0, 4, 13, 9, 37, 26, 12, 8, 4]
+pushes_per_week: [1, 0, 0, 0, 0, 5, 12, 11, 38, 28, 7, 10, 5]
 windows:
   "7d":
     pushes: 7
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 64
+    pushes: 60
     distinct_repos: 3
     active_days: 17
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 114
+    pushes: 117
     distinct_repos: 4
-    active_days: 31
+    active_days: 32
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 3.6774
-  repo_per_active_day: 0.1290
+  push_per_day: 3.6562
+  repo_per_active_day: 0.1250
   not_owned_ratio: 0.0000
   basename_concentration: 0.2500
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 64
+    pushes: 60
     distinct_repos: 3
-    pushes_per_repo: 21.3333
+    pushes_per_repo: 20.0000
     active_days: 17
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 114
+    pushes: 117
     distinct_repos: 4
-    pushes_per_repo: 28.5000
-    active_days: 31
+    pushes_per_repo: 29.2500
+    active_days: 32
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 31 active days in 90d — pass"
+  - "activity: 32 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "ystack"
@@ -128,6 +128,6 @@ repos:
 
 # yihanzhu
 
-114 pushes across 4 repositories on 31 active days in the last 90 days of public GitHub push activity.
+117 pushes across 4 repositories on 32 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/yihanzhu

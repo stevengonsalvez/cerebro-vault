@@ -10,39 +10,39 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-19T06:04:45.439728+00:00"
+generated_at: "2026-10-20T06:04:57.914428+00:00"
 provenance:
   - "022c4327710cbfe7"
   - "b599dd2f1ad43e10"
-pushes_per_week: [11, 3, 1, 6, 1, 6, 0, 2, 7, 3, 4, 8, 2]
+pushes_per_week: [10, 1, 3, 4, 3, 4, 1, 1, 7, 5, 2, 9, 4]
 windows:
   "7d":
-    pushes: 6
-    distinct_repos: 4
-    active_days: 3
+    pushes: 5
+    distinct_repos: 2
+    active_days: 4
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
   "30d":
-    pushes: 21
+    pushes: 24
     distinct_repos: 6
-    active_days: 12
+    active_days: 14
     repos_not_owned: 4
     not_owned_basenames: 2
     not_owned_owners: 4
   "90d":
     pushes: 54
-    distinct_repos: 10
-    active_days: 32
-    repos_not_owned: 8
+    distinct_repos: 9
+    active_days: 33
+    repos_not_owned: 7
     not_owned_basenames: 3
-    not_owned_owners: 7
+    not_owned_owners: 6
 automation:
   state: "clear"
-  push_per_day: 1.6875
-  repo_per_active_day: 0.3125
-  not_owned_ratio: 0.8000
-  basename_concentration: 0.4000
+  push_per_day: 1.6364
+  repo_per_active_day: 0.2727
+  not_owned_ratio: 0.7778
+  basename_concentration: 0.4444
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -51,32 +51,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 6
-    distinct_repos: 4
-    pushes_per_repo: 1.5000
-    active_days: 3
+    pushes: 5
+    distinct_repos: 2
+    pushes_per_repo: 2.5000
+    active_days: 4
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
   "30d":
-    pushes: 21
+    pushes: 24
     distinct_repos: 6
-    pushes_per_repo: 3.5000
-    active_days: 12
+    pushes_per_repo: 4.0000
+    active_days: 14
     repos_not_owned: 4
     not_owned_basenames: 2
     not_owned_owners: 4
   "90d":
     pushes: 54
-    distinct_repos: 10
-    pushes_per_repo: 5.4000
-    active_days: 32
-    repos_not_owned: 8
+    distinct_repos: 9
+    pushes_per_repo: 6.0000
+    active_days: 33
+    repos_not_owned: 7
     not_owned_basenames: 3
-    not_owned_owners: 7
+    not_owned_owners: 6
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 32 active days in 90d — pass"
+  - "activity: 33 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "This-repo-has-1426-stars"
@@ -131,6 +131,6 @@ repos:
 
 # fslongjin
 
-54 pushes across 10 repositories on 32 active days in the last 90 days of public GitHub push activity.
+54 pushes across 9 repositories on 33 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/fslongjin

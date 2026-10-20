@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-19T06:04:45.439728+00:00"
+generated_at: "2026-10-20T06:04:57.914428+00:00"
 provenance:
   - "a5ffcd0a46dd44fd"
-pushes_per_week: [10, 0, 0, 2, 2, 0, 0, 4, 7, 1, 0, 0, 0]
+pushes_per_week: [9, 0, 0, 2, 2, 0, 0, 4, 7, 1, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,25 +22,25 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 8
-    distinct_repos: 4
-    active_days: 3
-    repos_not_owned: 2
-    not_owned_basenames: 2
-    not_owned_owners: 2
+    pushes: 2
+    distinct_repos: 2
+    active_days: 2
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "90d":
-    pushes: 26
-    distinct_repos: 7
+    pushes: 25
+    distinct_repos: 6
     active_days: 8
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 3.2500
-  repo_per_active_day: 0.8750
-  not_owned_ratio: 0.2857
-  basename_concentration: 0.1429
+  push_per_day: 3.1250
+  repo_per_active_day: 0.7500
+  not_owned_ratio: 0.3333
+  basename_concentration: 0.1667
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -57,17 +57,17 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 8
-    distinct_repos: 4
-    pushes_per_repo: 2.0000
-    active_days: 3
-    repos_not_owned: 2
-    not_owned_basenames: 2
-    not_owned_owners: 2
+    pushes: 2
+    distinct_repos: 2
+    pushes_per_repo: 1.0000
+    active_days: 2
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "90d":
-    pushes: 26
-    distinct_repos: 7
-    pushes_per_repo: 3.7143
+    pushes: 25
+    distinct_repos: 6
+    pushes_per_repo: 4.1667
     active_days: 8
     repos_not_owned: 2
     not_owned_basenames: 2
@@ -135,6 +135,6 @@ repos:
 
 # rakyll
 
-26 pushes across 7 repositories on 8 active days in the last 90 days of public GitHub push activity.
+25 pushes across 6 repositories on 8 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/rakyll

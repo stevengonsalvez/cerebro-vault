@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-19T06:04:45.439728+00:00"
+generated_at: "2026-10-20T06:04:57.914428+00:00"
 provenance:
   - "73468cde177ddae6"
-pushes_per_week: [34, 9, 36, 67, 4, 5, 4, 5, 15, 48, 91, 44, 20]
+pushes_per_week: [19, 8, 37, 62, 6, 5, 1, 14, 13, 48, 103, 43, 7]
 windows:
   "7d":
-    pushes: 24
-    distinct_repos: 6
-    active_days: 3
-    repos_not_owned: 5
+    pushes: 16
+    distinct_repos: 9
+    active_days: 4
+    repos_not_owned: 3
     not_owned_basenames: 1
-    not_owned_owners: 5
+    not_owned_owners: 3
   "30d":
-    pushes: 203
-    distinct_repos: 69
-    active_days: 21
+    pushes: 208
+    distinct_repos: 73
+    active_days: 23
     repos_not_owned: 48
     not_owned_basenames: 2
     not_owned_owners: 48
   "90d":
-    pushes: 382
-    distinct_repos: 121
-    active_days: 56
+    pushes: 366
+    distinct_repos: 115
+    active_days: 57
     repos_not_owned: 64
     not_owned_basenames: 2
     not_owned_owners: 64
 automation:
   state: "clear"
-  push_per_day: 6.8214
-  repo_per_active_day: 2.1607
-  not_owned_ratio: 0.5289
-  basename_concentration: 0.5289
+  push_per_day: 6.4211
+  repo_per_active_day: 2.0175
+  not_owned_ratio: 0.5565
+  basename_concentration: 0.5565
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 24
-    distinct_repos: 6
-    pushes_per_repo: 4.0000
-    active_days: 3
-    repos_not_owned: 5
+    pushes: 16
+    distinct_repos: 9
+    pushes_per_repo: 1.7778
+    active_days: 4
+    repos_not_owned: 3
     not_owned_basenames: 1
-    not_owned_owners: 5
+    not_owned_owners: 3
   "30d":
-    pushes: 203
-    distinct_repos: 69
-    pushes_per_repo: 2.9420
-    active_days: 21
+    pushes: 208
+    distinct_repos: 73
+    pushes_per_repo: 2.8493
+    active_days: 23
     repos_not_owned: 48
     not_owned_basenames: 2
     not_owned_owners: 48
   "90d":
-    pushes: 382
-    distinct_repos: 121
-    pushes_per_repo: 3.1570
-    active_days: 56
+    pushes: 366
+    distinct_repos: 115
+    pushes_per_repo: 3.1826
+    active_days: 57
     repos_not_owned: 64
     not_owned_basenames: 2
     not_owned_owners: 64
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 56 active days in 90d — pass"
+  - "activity: 57 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "StableDiffusionStudio"
@@ -156,6 +156,6 @@ repos:
 
 # JerrettDavis
 
-382 pushes across 121 repositories on 56 active days in the last 90 days of public GitHub push activity.
+366 pushes across 115 repositories on 57 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/JerrettDavis

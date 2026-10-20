@@ -9,11 +9,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-19T06:04:45.439728+00:00"
+generated_at: "2026-10-20T06:04:57.914428+00:00"
 provenance:
   - "1df6ea1f1256059e"
   - "edb3a626875732de"
-pushes_per_week: [8, 3, 1, 0, 2, 0, 2, 0, 7, 9, 2, 0, 2]
+pushes_per_week: [7, 3, 1, 2, 0, 0, 2, 1, 9, 6, 2, 0, 2]
 windows:
   "7d":
     pushes: 2
@@ -30,16 +30,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 36
+    pushes: 35
     distinct_repos: 13
-    active_days: 20
+    active_days: 19
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.8000
-  repo_per_active_day: 0.6500
+  push_per_day: 1.8421
+  repo_per_active_day: 0.6842
   not_owned_ratio: 0.0000
   basename_concentration: 0.0769
   shapes: []
@@ -66,16 +66,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 36
+    pushes: 35
     distinct_repos: 13
-    pushes_per_repo: 2.7692
-    active_days: 20
+    pushes_per_repo: 2.6923
+    active_days: 19
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 20 active days in 90d — pass"
+  - "activity: 19 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "ResearchScope"
@@ -177,6 +177,6 @@ repos:
 
 # kishormorol
 
-36 pushes across 13 repositories on 20 active days in the last 90 days of public GitHub push activity.
+35 pushes across 13 repositories on 19 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/kishormorol

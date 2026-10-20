@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-19T06:04:45.439728+00:00"
+generated_at: "2026-10-20T06:04:57.914428+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [4, 6, 0, 1, 4, 0, 1, 4, 0, 18, 5, 6, 3]
+pushes_per_week: [5, 5, 1, 0, 4, 0, 1, 4, 0, 19, 4, 8, 4]
 windows:
   "7d":
-    pushes: 4
-    distinct_repos: 3
+    pushes: 6
+    distinct_repos: 2
     active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 32
+    pushes: 35
     distinct_repos: 7
-    active_days: 14
+    active_days: 15
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 1
   "90d":
-    pushes: 52
+    pushes: 55
     distinct_repos: 10
-    active_days: 26
+    active_days: 27
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.0000
-  repo_per_active_day: 0.3846
+  push_per_day: 2.0370
+  repo_per_active_day: 0.3704
   not_owned_ratio: 0.5000
   basename_concentration: 0.1000
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 4
-    distinct_repos: 3
-    pushes_per_repo: 1.3333
+    pushes: 6
+    distinct_repos: 2
+    pushes_per_repo: 3.0000
     active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 32
+    pushes: 35
     distinct_repos: 7
-    pushes_per_repo: 4.5714
-    active_days: 14
+    pushes_per_repo: 5.0000
+    active_days: 15
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 1
   "90d":
-    pushes: 52
+    pushes: 55
     distinct_repos: 10
-    pushes_per_repo: 5.2000
-    active_days: 26
+    pushes_per_repo: 5.5000
+    active_days: 27
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 26 active days in 90d — pass"
+  - "activity: 27 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "systems"
@@ -129,6 +129,6 @@ repos:
 
 # sigma
 
-52 pushes across 10 repositories on 26 active days in the last 90 days of public GitHub push activity.
+55 pushes across 10 repositories on 27 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/sigma

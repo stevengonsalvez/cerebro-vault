@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-19T06:04:45.439728+00:00"
+generated_at: "2026-10-20T06:04:57.914428+00:00"
 provenance:
   - "4138778ebbc75ba6"
-pushes_per_week: [7, 4, 0, 0, 0, 0, 0, 0, 4, 4, 9, 0, 1]
+pushes_per_week: [6, 4, 0, 0, 0, 0, 0, 0, 4, 6, 7, 1, 0]
 windows:
   "7d":
     pushes: 1
@@ -22,14 +22,14 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 16
+    pushes: 14
     distinct_repos: 5
-    active_days: 8
+    active_days: 7
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 29
+    pushes: 28
     distinct_repos: 8
     active_days: 17
     repos_not_owned: 2
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.7059
+  push_per_day: 1.6471
   repo_per_active_day: 0.4706
   not_owned_ratio: 0.2500
   basename_concentration: 0.1250
@@ -57,17 +57,17 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 16
+    pushes: 14
     distinct_repos: 5
-    pushes_per_repo: 3.2000
-    active_days: 8
+    pushes_per_repo: 2.8000
+    active_days: 7
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 29
+    pushes: 28
     distinct_repos: 8
-    pushes_per_repo: 3.6250
+    pushes_per_repo: 3.5000
     active_days: 17
     repos_not_owned: 2
     not_owned_basenames: 2
@@ -143,6 +143,6 @@ repos:
 
 # enrell
 
-29 pushes across 8 repositories on 17 active days in the last 90 days of public GitHub push activity.
+28 pushes across 8 repositories on 17 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/enrell

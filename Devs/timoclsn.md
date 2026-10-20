@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-19T06:04:45.439728+00:00"
+generated_at: "2026-10-20T06:04:57.914428+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [2, 0, 1, 1, 0, 0, 0, 0, 2, 3, 4, 0, 1]
+pushes_per_week: [2, 0, 2, 0, 0, 0, 0, 0, 2, 3, 4, 1, 1]
 windows:
   "7d":
-    pushes: 1
+    pushes: 2
     distinct_repos: 1
-    active_days: 1
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 9
+    pushes: 10
     distinct_repos: 1
-    active_days: 6
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 14
+    pushes: 15
     distinct_repos: 1
-    active_days: 10
+    active_days: 11
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.4000
-  repo_per_active_day: 0.1000
+  push_per_day: 1.3636
+  repo_per_active_day: 0.0909
   not_owned_ratio: 0.0000
   basename_concentration: 1.0000
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
+    pushes: 2
     distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes_per_repo: 2.0000
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 9
+    pushes: 10
     distinct_repos: 1
-    pushes_per_repo: 9.0000
-    active_days: 6
+    pushes_per_repo: 10.0000
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 14
+    pushes: 15
     distinct_repos: 1
-    pushes_per_repo: 14.0000
-    active_days: 10
+    pushes_per_repo: 15.0000
+    active_days: 11
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 10 active days in 90d — pass"
+  - "activity: 11 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "dotfiles"
@@ -162,6 +162,6 @@ repos:
 
 # timoclsn
 
-14 pushes across 1 repository on 10 active days in the last 90 days of public GitHub push activity.
+15 pushes across 1 repository on 11 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/timoclsn

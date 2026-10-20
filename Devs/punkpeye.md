@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-19T06:04:45.439728+00:00"
+generated_at: "2026-10-20T06:04:57.914428+00:00"
 provenance:
   - "61a57c93de29a252"
-pushes_per_week: [53, 5, 6, 9, 3, 2, 33, 8, 54, 21, 1, 21, 0]
+pushes_per_week: [48, 5, 7, 7, 4, 1, 34, 17, 44, 21, 1, 21, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 216
+    pushes: 210
     distinct_repos: 13
-    active_days: 32
+    active_days: 31
     repos_not_owned: 9
     not_owned_basenames: 6
     not_owned_owners: 7
 automation:
   state: "clear"
-  push_per_day: 6.7500
-  repo_per_active_day: 0.4062
+  push_per_day: 6.7742
+  repo_per_active_day: 0.4194
   not_owned_ratio: 0.6923
   basename_concentration: 0.3846
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 216
+    pushes: 210
     distinct_repos: 13
-    pushes_per_repo: 16.6154
-    active_days: 32
+    pushes_per_repo: 16.1538
+    active_days: 31
     repos_not_owned: 9
     not_owned_basenames: 6
     not_owned_owners: 7
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 32 active days in 90d — pass"
+  - "activity: 31 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "awesome-mcp-servers"
@@ -139,6 +139,6 @@ repos:
 
 # punkpeye
 
-216 pushes across 13 repositories on 32 active days in the last 90 days of public GitHub push activity.
+210 pushes across 13 repositories on 31 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/punkpeye

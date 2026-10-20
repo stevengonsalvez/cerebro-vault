@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-19T06:04:45.439728+00:00"
+generated_at: "2026-10-20T06:04:57.914428+00:00"
 provenance:
   - "419a4253687fd7a1"
-pushes_per_week: [0, 3, 20, 47, 9, 1, 4, 12, 12, 26, 60, 6, 0]
+pushes_per_week: [0, 3, 34, 35, 8, 0, 8, 11, 11, 28, 60, 2, 4]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    pushes: 4
+    distinct_repos: 1
+    active_days: 1
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "30d":
-    pushes: 93
+    pushes: 96
     distinct_repos: 2
     active_days: 16
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
   "90d":
-    pushes: 200
+    pushes: 204
     distinct_repos: 9
-    active_days: 43
+    active_days: 44
     repos_not_owned: 8
     not_owned_basenames: 2
     not_owned_owners: 7
 automation:
   state: "clear"
-  push_per_day: 4.6512
-  repo_per_active_day: 0.2093
+  push_per_day: 4.6364
+  repo_per_active_day: 0.2045
   not_owned_ratio: 0.8889
   basename_concentration: 0.8889
   shapes:
@@ -65,32 +65,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    pushes: 4
+    distinct_repos: 1
+    pushes_per_repo: 4.0000
+    active_days: 1
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "30d":
-    pushes: 93
+    pushes: 96
     distinct_repos: 2
-    pushes_per_repo: 46.5000
+    pushes_per_repo: 48.0000
     active_days: 16
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
   "90d":
-    pushes: 200
+    pushes: 204
     distinct_repos: 9
-    pushes_per_repo: 22.2222
-    active_days: 43
+    pushes_per_repo: 22.6667
+    active_days: 44
     repos_not_owned: 8
     not_owned_basenames: 2
     not_owned_owners: 7
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 43 active days in 90d — pass"
+  - "activity: 44 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "bb-plugins"
@@ -148,6 +148,6 @@ repos:
 
 # ymichael
 
-200 pushes across 9 repositories on 43 active days in the last 90 days of public GitHub push activity.
+204 pushes across 9 repositories on 44 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ymichael

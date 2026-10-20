@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-19T06:04:45.439728+00:00"
+generated_at: "2026-10-20T06:04:57.914428+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [1, 28, 20, 25, 2, 5, 0, 2, 17, 8, 1, 0, 0]
+pushes_per_week: [2, 35, 14, 23, 2, 5, 0, 4, 18, 5, 1, 0, 2]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    pushes: 2
+    distinct_repos: 2
+    active_days: 1
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "30d":
-    pushes: 24
+    pushes: 18
     distinct_repos: 6
     active_days: 7
-    repos_not_owned: 4
-    not_owned_basenames: 4
+    repos_not_owned: 3
+    not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 109
-    distinct_repos: 10
-    active_days: 29
+    pushes: 111
+    distinct_repos: 11
+    active_days: 30
     repos_not_owned: 7
     not_owned_basenames: 7
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 3.7586
-  repo_per_active_day: 0.3448
-  not_owned_ratio: 0.7000
-  basename_concentration: 0.2000
+  push_per_day: 3.7000
+  repo_per_active_day: 0.3667
+  not_owned_ratio: 0.6364
+  basename_concentration: 0.1818
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    pushes: 2
+    distinct_repos: 2
+    pushes_per_repo: 1.0000
+    active_days: 1
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "30d":
-    pushes: 24
+    pushes: 18
     distinct_repos: 6
-    pushes_per_repo: 4.0000
+    pushes_per_repo: 3.0000
     active_days: 7
-    repos_not_owned: 4
-    not_owned_basenames: 4
+    repos_not_owned: 3
+    not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 109
-    distinct_repos: 10
-    pushes_per_repo: 10.9000
-    active_days: 29
+    pushes: 111
+    distinct_repos: 11
+    pushes_per_repo: 10.0909
+    active_days: 30
     repos_not_owned: 7
     not_owned_basenames: 7
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 29 active days in 90d — pass"
+  - "activity: 30 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "lsrules"
@@ -129,6 +129,6 @@ repos:
 
 # N4M3Z
 
-109 pushes across 10 repositories on 29 active days in the last 90 days of public GitHub push activity.
+111 pushes across 11 repositories on 30 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/N4M3Z
