@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-20T06:04:57.914428+00:00"
+generated_at: "2026-10-21T06:05:19.754690+00:00"
 provenance:
   - "8b01562a542974d1"
-pushes_per_week: [2, 10, 3, 8, 4, 1, 2, 6, 8, 5, 5, 1, 3]
+pushes_per_week: [5, 6, 3, 8, 4, 1, 3, 7, 7, 4, 5, 3, 1]
 windows:
   "7d":
-    pushes: 3
-    distinct_repos: 2
-    active_days: 2
-    repos_not_owned: 2
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
+    repos_not_owned: 1
     not_owned_basenames: 1
-    not_owned_owners: 2
+    not_owned_owners: 1
   "30d":
-    pushes: 15
+    pushes: 14
     distinct_repos: 2
-    active_days: 10
+    active_days: 9
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
   "90d":
-    pushes: 58
+    pushes: 57
     distinct_repos: 4
-    active_days: 29
+    active_days: 28
     repos_not_owned: 4
     not_owned_basenames: 3
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 2.0000
-  repo_per_active_day: 0.1379
+  push_per_day: 2.0357
+  repo_per_active_day: 0.1429
   not_owned_ratio: 1.0000
   basename_concentration: 0.5000
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 3
-    distinct_repos: 2
-    pushes_per_repo: 1.5000
-    active_days: 2
-    repos_not_owned: 2
+    pushes: 1
+    distinct_repos: 1
+    pushes_per_repo: 1.0000
+    active_days: 1
+    repos_not_owned: 1
     not_owned_basenames: 1
-    not_owned_owners: 2
+    not_owned_owners: 1
   "30d":
-    pushes: 15
+    pushes: 14
     distinct_repos: 2
-    pushes_per_repo: 7.5000
-    active_days: 10
+    pushes_per_repo: 7.0000
+    active_days: 9
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
   "90d":
-    pushes: 58
+    pushes: 57
     distinct_repos: 4
-    pushes_per_repo: 14.5000
-    active_days: 29
+    pushes_per_repo: 14.2500
+    active_days: 28
     repos_not_owned: 4
     not_owned_basenames: 3
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 29 active days in 90d — pass"
+  - "activity: 28 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "research-agents-3.0"
@@ -129,6 +129,6 @@ repos:
 
 # JayZeeDesign
 
-58 pushes across 4 repositories on 29 active days in the last 90 days of public GitHub push activity.
+57 pushes across 4 repositories on 28 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/JayZeeDesign

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-20T06:04:57.914428+00:00"
+generated_at: "2026-10-21T06:05:19.754690+00:00"
 provenance:
   - "1be978947e68d1f2"
-pushes_per_week: [10, 7, 10, 22, 1, 0, 0, 0, 4, 2, 9, 4, 0]
+pushes_per_week: [7, 5, 16, 16, 1, 0, 0, 0, 4, 3, 8, 4, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 69
+    pushes: 64
     distinct_repos: 25
-    active_days: 29
+    active_days: 28
     repos_not_owned: 11
     not_owned_basenames: 11
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 2.3793
-  repo_per_active_day: 0.8621
+  push_per_day: 2.2857
+  repo_per_active_day: 0.8929
   not_owned_ratio: 0.4400
   basename_concentration: 0.0800
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 69
+    pushes: 64
     distinct_repos: 25
-    pushes_per_repo: 2.7600
-    active_days: 29
+    pushes_per_repo: 2.5600
+    active_days: 28
     repos_not_owned: 11
     not_owned_basenames: 11
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 29 active days in 90d — pass"
+  - "activity: 28 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "deep-agents-oracle-ai-database"
@@ -129,6 +129,6 @@ repos:
 
 # fede-kamel
 
-69 pushes across 25 repositories on 29 active days in the last 90 days of public GitHub push activity.
+64 pushes across 25 repositories on 28 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/fede-kamel

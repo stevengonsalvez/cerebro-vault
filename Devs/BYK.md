@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-20T06:04:57.914428+00:00"
+generated_at: "2026-10-21T06:05:19.754690+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [33, 35, 11, 4, 1, 1, 4, 8, 17, 25, 21, 5, 1]
+pushes_per_week: [36, 31, 11, 4, 1, 0, 4, 9, 19, 24, 19, 6, 1]
 windows:
   "7d":
-    pushes: 2
-    distinct_repos: 2
-    active_days: 2
-    repos_not_owned: 2
-    not_owned_basenames: 2
-    not_owned_owners: 1
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
-    pushes: 59
+    pushes: 60
     distinct_repos: 8
-    active_days: 20
+    active_days: 21
     repos_not_owned: 6
     not_owned_basenames: 6
     not_owned_owners: 1
   "90d":
-    pushes: 166
+    pushes: 165
     distinct_repos: 14
     active_days: 54
     repos_not_owned: 8
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 3.0741
+  push_per_day: 3.0556
   repo_per_active_day: 0.2593
   not_owned_ratio: 0.5714
   basename_concentration: 0.0714
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
-    distinct_repos: 2
+    pushes: 1
+    distinct_repos: 1
     pushes_per_repo: 1.0000
-    active_days: 2
-    repos_not_owned: 2
-    not_owned_basenames: 2
-    not_owned_owners: 1
+    active_days: 1
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
-    pushes: 59
+    pushes: 60
     distinct_repos: 8
-    pushes_per_repo: 7.3750
-    active_days: 20
+    pushes_per_repo: 7.5000
+    active_days: 21
     repos_not_owned: 6
     not_owned_basenames: 6
     not_owned_owners: 1
   "90d":
-    pushes: 166
+    pushes: 165
     distinct_repos: 14
-    pushes_per_repo: 11.8571
+    pushes_per_repo: 11.7857
     active_days: 54
     repos_not_owned: 8
     not_owned_basenames: 8
@@ -135,6 +135,6 @@ repos:
 
 # BYK
 
-166 pushes across 14 repositories on 54 active days in the last 90 days of public GitHub push activity.
+165 pushes across 14 repositories on 54 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/BYK

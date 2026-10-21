@@ -3,7 +3,6 @@ login: "chopratejas"
 name: null
 discovered_via: "vault"
 discovered_via_all:
-  - "fanout"
   - "vault"
 provenance_repos:
   - "chopratejas/headroom"
@@ -11,11 +10,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-20T06:04:57.914428+00:00"
+generated_at: "2026-10-21T06:05:19.754690+00:00"
 provenance:
   - "668711a6e1072822"
   - "73468cde177ddae6"
-pushes_per_week: [15, 18, 5, 9, 2, 0, 1, 3, 4, 4, 7, 18, 0]
+pushes_per_week: [17, 15, 10, 5, 1, 0, 1, 3, 7, 1, 7, 18, 0]
 windows:
   "7d":
     pushes: 0
@@ -32,16 +31,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 86
+    pushes: 85
     distinct_repos: 5
-    active_days: 35
+    active_days: 34
     repos_not_owned: 4
     not_owned_basenames: 1
     not_owned_owners: 4
 automation:
   state: "clear"
-  push_per_day: 2.4571
-  repo_per_active_day: 0.1429
+  push_per_day: 2.5000
+  repo_per_active_day: 0.1471
   not_owned_ratio: 0.8000
   basename_concentration: 0.8000
   shapes: []
@@ -68,16 +67,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 86
+    pushes: 85
     distinct_repos: 5
-    pushes_per_repo: 17.2000
-    active_days: 35
+    pushes_per_repo: 17.0000
+    active_days: 34
     repos_not_owned: 4
     not_owned_basenames: 1
     not_owned_owners: 4
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 35 active days in 90d — pass"
+  - "activity: 34 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "headroom-workshop-kit"
@@ -142,6 +141,6 @@ repos:
 
 # chopratejas
 
-86 pushes across 5 repositories on 35 active days in the last 90 days of public GitHub push activity.
+85 pushes across 5 repositories on 34 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/chopratejas

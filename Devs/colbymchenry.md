@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-20T06:04:57.914428+00:00"
+generated_at: "2026-10-21T06:05:19.754690+00:00"
 provenance:
   - "5ae8aede20b52732"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 1, 3, 20, 24, 4, 7]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 2, 3, 27, 16, 6, 15]
 windows:
   "7d":
-    pushes: 7
-    distinct_repos: 1
-    active_days: 3
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
-  "30d":
-    pushes: 57
-    distinct_repos: 1
-    active_days: 16
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
-  "90d":
-    pushes: 59
+    pushes: 17
     distinct_repos: 2
-    active_days: 18
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    active_days: 4
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
+  "30d":
+    pushes: 67
+    distinct_repos: 2
+    active_days: 17
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
+  "90d":
+    pushes: 69
+    distinct_repos: 3
+    active_days: 19
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 3.2778
-  repo_per_active_day: 0.1111
-  not_owned_ratio: 0.0000
-  basename_concentration: 0.5000
+  push_per_day: 3.6316
+  repo_per_active_day: 0.1579
+  not_owned_ratio: 0.3333
+  basename_concentration: 0.6667
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 7
-    distinct_repos: 1
-    pushes_per_repo: 7.0000
-    active_days: 3
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
-  "30d":
-    pushes: 57
-    distinct_repos: 1
-    pushes_per_repo: 57.0000
-    active_days: 16
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
-  "90d":
-    pushes: 59
+    pushes: 17
     distinct_repos: 2
-    pushes_per_repo: 29.5000
-    active_days: 18
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    pushes_per_repo: 8.5000
+    active_days: 4
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
+  "30d":
+    pushes: 67
+    distinct_repos: 2
+    pushes_per_repo: 33.5000
+    active_days: 17
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
+  "90d":
+    pushes: 69
+    distinct_repos: 3
+    pushes_per_repo: 23.0000
+    active_days: 19
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 18 active days in 90d — pass"
+  - "activity: 19 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "codegraph"
@@ -129,6 +129,6 @@ repos:
 
 # colbymchenry
 
-59 pushes across 2 repositories on 18 active days in the last 90 days of public GitHub push activity.
+69 pushes across 3 repositories on 19 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/colbymchenry

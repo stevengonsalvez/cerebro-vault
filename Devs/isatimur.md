@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-20T06:04:57.914428+00:00"
+generated_at: "2026-10-21T06:05:19.754690+00:00"
 provenance:
   - "46f3c1d6124190bd"
-pushes_per_week: [9, 46, 2, 1, 0, 0, 0, 1, 4, 1, 4, 0, 0]
+pushes_per_week: [9, 44, 2, 1, 0, 0, 0, 1, 4, 1, 4, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 6
-    distinct_repos: 4
-    active_days: 5
+    pushes: 5
+    distinct_repos: 3
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 68
+    pushes: 66
     distinct_repos: 9
-    active_days: 21
+    active_days: 20
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 3.2381
-  repo_per_active_day: 0.4286
+  push_per_day: 3.3000
+  repo_per_active_day: 0.4500
   not_owned_ratio: 0.0000
   basename_concentration: 0.1111
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 6
-    distinct_repos: 4
-    pushes_per_repo: 1.5000
-    active_days: 5
+    pushes: 5
+    distinct_repos: 3
+    pushes_per_repo: 1.6667
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 68
+    pushes: 66
     distinct_repos: 9
-    pushes_per_repo: 7.5556
-    active_days: 21
+    pushes_per_repo: 7.3333
+    active_days: 20
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 21 active days in 90d — pass"
+  - "activity: 20 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "excalidraw-skill-pack"
@@ -175,6 +175,6 @@ repos:
 
 # isatimur
 
-68 pushes across 9 repositories on 21 active days in the last 90 days of public GitHub push activity.
+66 pushes across 9 repositories on 20 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/isatimur

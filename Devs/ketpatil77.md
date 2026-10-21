@@ -7,13 +7,11 @@ discovered_via_all:
 provenance_repos:
   - "AgriciDaniel/claude-obsidian"
   - "BuilderIO/agent-native"
-  - "chopratejas/headroom"
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-20T06:04:57.914428+00:00"
+generated_at: "2026-10-21T06:05:19.754690+00:00"
 provenance:
-  - "73468cde177ddae6"
   - "745308b2b7085095"
   - "dc9094c987231bcf"
 pushes_per_week: [0, 0, 0, 0, 0, 2, 15, 1, 0, 0, 0, 0, 0]
@@ -77,7 +75,7 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
-  - "provenance: 3 vault signal(s) — pass"
+  - "provenance: 2 vault signal(s) — pass"
   - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
 repos:

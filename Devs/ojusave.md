@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-20T06:04:57.914428+00:00"
+generated_at: "2026-10-21T06:05:19.754690+00:00"
 provenance:
   - "46f3c1d6124190bd"
-pushes_per_week: [14, 9, 1, 1, 0, 0, 0, 1, 6, 4, 5, 10, 2]
+pushes_per_week: [9, 9, 0, 1, 0, 0, 0, 1, 6, 6, 3, 12, 0]
 windows:
   "7d":
-    pushes: 12
-    distinct_repos: 8
-    active_days: 2
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 53
-    distinct_repos: 23
-    active_days: 21
+    pushes: 47
+    distinct_repos: 22
+    active_days: 20
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.5238
-  repo_per_active_day: 1.0952
-  not_owned_ratio: 0.1304
-  basename_concentration: 0.0870
+  push_per_day: 2.3500
+  repo_per_active_day: 1.1000
+  not_owned_ratio: 0.1364
+  basename_concentration: 0.0909
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 12
-    distinct_repos: 8
-    pushes_per_repo: 1.5000
-    active_days: 2
+    pushes: 1
+    distinct_repos: 1
+    pushes_per_repo: 1.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 53
-    distinct_repos: 23
-    pushes_per_repo: 2.3043
-    active_days: 21
+    pushes: 47
+    distinct_repos: 22
+    pushes_per_repo: 2.1364
+    active_days: 20
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 21 active days in 90d — pass"
+  - "activity: 20 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "deepgram-render-sandbox"
@@ -129,6 +129,6 @@ repos:
 
 # ojusave
 
-53 pushes across 23 repositories on 21 active days in the last 90 days of public GitHub push activity.
+47 pushes across 22 repositories on 20 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ojusave

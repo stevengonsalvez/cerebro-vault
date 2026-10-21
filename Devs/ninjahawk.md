@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-20T06:04:57.914428+00:00"
+generated_at: "2026-10-21T06:05:19.754690+00:00"
 provenance:
   - "9ee133e6f5024f08"
-pushes_per_week: [13, 2, 0, 0, 0, 0, 0, 0, 8, 1, 3, 0, 3]
+pushes_per_week: [5, 2, 0, 0, 0, 0, 0, 0, 8, 1, 3, 0, 3]
 windows:
   "7d":
     pushes: 3
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 30
-    distinct_repos: 11
-    active_days: 14
+    pushes: 22
+    distinct_repos: 8
+    active_days: 12
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.1429
-  repo_per_active_day: 0.7857
-  not_owned_ratio: 0.0909
-  basename_concentration: 0.0909
+  push_per_day: 1.8333
+  repo_per_active_day: 0.6667
+  not_owned_ratio: 0.1250
+  basename_concentration: 0.1250
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 30
-    distinct_repos: 11
-    pushes_per_repo: 2.7273
-    active_days: 14
+    pushes: 22
+    distinct_repos: 8
+    pushes_per_repo: 2.7500
+    active_days: 12
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 14 active days in 90d — pass"
+  - "activity: 12 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "S-and-Poke-500"
@@ -129,6 +129,6 @@ repos:
 
 # ninjahawk
 
-30 pushes across 11 repositories on 14 active days in the last 90 days of public GitHub push activity.
+22 pushes across 8 repositories on 12 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ninjahawk

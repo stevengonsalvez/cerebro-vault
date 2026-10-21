@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-20T06:04:57.914428+00:00"
+generated_at: "2026-10-21T06:05:19.754690+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [14, 20, 39, 72, 27, 10, 3, 66, 302, 296, 68, 95, 11]
+pushes_per_week: [23, 14, 41, 69, 26, 9, 3, 99, 310, 261, 62, 97, 10]
 windows:
   "7d":
-    pushes: 13
+    pushes: 12
     distinct_repos: 6
     active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 589
+    pushes: 540
     distinct_repos: 31
     active_days: 26
     repos_not_owned: 16
     not_owned_basenames: 14
     not_owned_owners: 4
   "90d":
-    pushes: 1023
+    pushes: 1024
     distinct_repos: 53
-    active_days: 71
+    active_days: 72
     repos_not_owned: 19
     not_owned_basenames: 15
     not_owned_owners: 6
 automation:
   state: "clear"
-  push_per_day: 14.4085
-  repo_per_active_day: 0.7465
+  push_per_day: 14.2222
+  repo_per_active_day: 0.7361
   not_owned_ratio: 0.3585
   basename_concentration: 0.1132
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 13
+    pushes: 12
     distinct_repos: 6
-    pushes_per_repo: 2.1667
+    pushes_per_repo: 2.0000
     active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 589
+    pushes: 540
     distinct_repos: 31
-    pushes_per_repo: 19.0000
+    pushes_per_repo: 17.4194
     active_days: 26
     repos_not_owned: 16
     not_owned_basenames: 14
     not_owned_owners: 4
   "90d":
-    pushes: 1023
+    pushes: 1024
     distinct_repos: 53
-    pushes_per_repo: 19.3019
-    active_days: 71
+    pushes_per_repo: 19.3208
+    active_days: 72
     repos_not_owned: 19
     not_owned_basenames: 15
     not_owned_owners: 6
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 71 active days in 90d — pass"
+  - "activity: 72 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "OniMods"
@@ -131,6 +131,6 @@ repos:
 
 # LIghtJUNction
 
-1023 pushes across 53 repositories on 71 active days in the last 90 days of public GitHub push activity.
+1024 pushes across 53 repositories on 72 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/LIghtJUNction

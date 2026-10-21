@@ -11,28 +11,28 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-20T06:04:57.914428+00:00"
+generated_at: "2026-10-21T06:05:19.754690+00:00"
 provenance:
   - "0a8884baa5f55aa6"
   - "2a7f0fddd2dac162"
-pushes_per_week: [126, 80, 68, 93, 38, 12, 33, 56, 113, 110, 179, 65, 99]
+pushes_per_week: [118, 75, 82, 80, 39, 10, 36, 60, 114, 106, 175, 126, 63]
 windows:
   "7d":
-    pushes: 121
+    pushes: 100
     distinct_repos: 1
     active_days: 5
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 474
+    pushes: 483
     distinct_repos: 19
     active_days: 27
     repos_not_owned: 18
     not_owned_basenames: 1
     not_owned_owners: 18
   "90d":
-    pushes: 1072
+    pushes: 1084
     distinct_repos: 36
     active_days: 82
     repos_not_owned: 35
@@ -40,7 +40,7 @@ windows:
     not_owned_owners: 35
 automation:
   state: "clear"
-  push_per_day: 13.0732
+  push_per_day: 13.2195
   repo_per_active_day: 0.4390
   not_owned_ratio: 0.9722
   basename_concentration: 0.9722
@@ -68,25 +68,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 121
+    pushes: 100
     distinct_repos: 1
-    pushes_per_repo: 121.0000
+    pushes_per_repo: 100.0000
     active_days: 5
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 474
+    pushes: 483
     distinct_repos: 19
-    pushes_per_repo: 24.9474
+    pushes_per_repo: 25.4211
     active_days: 27
     repos_not_owned: 18
     not_owned_basenames: 1
     not_owned_owners: 18
   "90d":
-    pushes: 1072
+    pushes: 1084
     distinct_repos: 36
-    pushes_per_repo: 29.7778
+    pushes_per_repo: 30.1111
     active_days: 82
     repos_not_owned: 35
     not_owned_basenames: 2
@@ -148,6 +148,6 @@ repos:
 
 # nwparker
 
-1072 pushes across 36 repositories on 82 active days in the last 90 days of public GitHub push activity.
+1084 pushes across 36 repositories on 82 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/nwparker

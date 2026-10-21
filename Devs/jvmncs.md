@@ -9,39 +9,39 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-20T06:04:57.914428+00:00"
+generated_at: "2026-10-21T06:05:19.754690+00:00"
 provenance:
   - "1be978947e68d1f2"
   - "98a2deac3e2f9725"
   - "b949a65ff91f9791"
   - "e9879ff70aa53e1e"
-pushes_per_week: [0, 2, 5, 9, 1, 0, 0, 1, 26, 1, 1, 0, 0]
+pushes_per_week: [0, 3, 4, 9, 1, 0, 0, 1, 26, 2, 0, 0, 1]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "30d":
-    pushes: 8
+    pushes: 3
     distinct_repos: 2
     active_days: 3
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 46
+    pushes: 47
     distinct_repos: 2
-    active_days: 14
+    active_days: 15
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 3.2857
-  repo_per_active_day: 0.1429
+  push_per_day: 3.1333
+  repo_per_active_day: 0.1333
   not_owned_ratio: 1.0000
   basename_concentration: 0.5000
   shapes: []
@@ -52,32 +52,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    pushes: 1
+    distinct_repos: 1
+    pushes_per_repo: 1.0000
+    active_days: 1
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "30d":
-    pushes: 8
+    pushes: 3
     distinct_repos: 2
-    pushes_per_repo: 4.0000
+    pushes_per_repo: 1.5000
     active_days: 3
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 46
+    pushes: 47
     distinct_repos: 2
-    pushes_per_repo: 23.0000
-    active_days: 14
+    pushes_per_repo: 23.5000
+    active_days: 15
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 reasons:
   - "provenance: 4 vault signal(s) — pass"
-  - "activity: 14 active days in 90d — pass"
+  - "activity: 15 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "safe-debates"
@@ -137,6 +137,6 @@ repos:
 
 # jvmncs
 
-46 pushes across 2 repositories on 14 active days in the last 90 days of public GitHub push activity.
+47 pushes across 2 repositories on 15 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/jvmncs

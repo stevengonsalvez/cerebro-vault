@@ -9,18 +9,18 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-20T06:04:57.914428+00:00"
+generated_at: "2026-10-21T06:05:19.754690+00:00"
 provenance:
   - "a5ffcd0a46dd44fd"
-pushes_per_week: [24, 28, 13, 6, 6, 1, 7, 7, 11, 49, 52, 31, 8]
+pushes_per_week: [23, 25, 10, 6, 6, 1, 7, 8, 17, 50, 44, 37, 4]
 windows:
   "7d":
-    pushes: 17
-    distinct_repos: 8
+    pushes: 6
+    distinct_repos: 4
     active_days: 4
-    repos_not_owned: 2
+    repos_not_owned: 1
     not_owned_basenames: 1
-    not_owned_owners: 2
+    not_owned_owners: 1
   "30d":
     pushes: 146
     distinct_repos: 37
@@ -29,7 +29,7 @@ windows:
     not_owned_basenames: 8
     not_owned_owners: 9
   "90d":
-    pushes: 243
+    pushes: 238
     distinct_repos: 45
     active_days: 58
     repos_not_owned: 12
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 9
 automation:
   state: "clear"
-  push_per_day: 4.1897
+  push_per_day: 4.1034
   repo_per_active_day: 0.7759
   not_owned_ratio: 0.2667
   basename_concentration: 0.0889
@@ -49,13 +49,13 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 17
-    distinct_repos: 8
-    pushes_per_repo: 2.1250
+    pushes: 6
+    distinct_repos: 4
+    pushes_per_repo: 1.5000
     active_days: 4
-    repos_not_owned: 2
+    repos_not_owned: 1
     not_owned_basenames: 1
-    not_owned_owners: 2
+    not_owned_owners: 1
   "30d":
     pushes: 146
     distinct_repos: 37
@@ -65,9 +65,9 @@ facets:
     not_owned_basenames: 8
     not_owned_owners: 9
   "90d":
-    pushes: 243
+    pushes: 238
     distinct_repos: 45
-    pushes_per_repo: 5.4000
+    pushes_per_repo: 5.2889
     active_days: 58
     repos_not_owned: 12
     not_owned_basenames: 8
@@ -129,6 +129,6 @@ repos:
 
 # ericcurtin
 
-243 pushes across 45 repositories on 58 active days in the last 90 days of public GitHub push activity.
+238 pushes across 45 repositories on 58 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ericcurtin

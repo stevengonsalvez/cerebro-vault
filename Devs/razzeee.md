@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-20T06:04:57.914428+00:00"
+generated_at: "2026-10-21T06:05:19.754690+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [4, 4, 4, 7, 3, 2, 5, 3, 14, 8, 16, 22, 5]
+pushes_per_week: [1, 5, 4, 6, 3, 2, 5, 3, 15, 7, 16, 23, 8]
 windows:
   "7d":
-    pushes: 7
-    distinct_repos: 4
+    pushes: 9
+    distinct_repos: 6
     active_days: 4
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
   "30d":
-    pushes: 57
-    distinct_repos: 15
+    pushes: 58
+    distinct_repos: 16
     active_days: 20
     repos_not_owned: 8
     not_owned_basenames: 8
     not_owned_owners: 5
   "90d":
-    pushes: 97
-    distinct_repos: 22
+    pushes: 98
+    distinct_repos: 23
     active_days: 43
     repos_not_owned: 11
     not_owned_basenames: 11
     not_owned_owners: 6
 automation:
   state: "clear"
-  push_per_day: 2.2558
-  repo_per_active_day: 0.5116
-  not_owned_ratio: 0.5000
-  basename_concentration: 0.0909
+  push_per_day: 2.2791
+  repo_per_active_day: 0.5349
+  not_owned_ratio: 0.4783
+  basename_concentration: 0.0870
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 7
-    distinct_repos: 4
-    pushes_per_repo: 1.7500
+    pushes: 9
+    distinct_repos: 6
+    pushes_per_repo: 1.5000
     active_days: 4
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
   "30d":
-    pushes: 57
-    distinct_repos: 15
-    pushes_per_repo: 3.8000
+    pushes: 58
+    distinct_repos: 16
+    pushes_per_repo: 3.6250
     active_days: 20
     repos_not_owned: 8
     not_owned_basenames: 8
     not_owned_owners: 5
   "90d":
-    pushes: 97
-    distinct_repos: 22
-    pushes_per_repo: 4.4091
+    pushes: 98
+    distinct_repos: 23
+    pushes_per_repo: 4.2609
     active_days: 43
     repos_not_owned: 11
     not_owned_basenames: 11
@@ -129,6 +129,6 @@ repos:
 
 # razzeee
 
-97 pushes across 22 repositories on 43 active days in the last 90 days of public GitHub push activity.
+98 pushes across 23 repositories on 43 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/razzeee

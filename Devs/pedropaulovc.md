@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-20T06:04:57.914428+00:00"
+generated_at: "2026-10-21T06:05:19.754690+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [115, 52, 1, 21, 30, 1, 31, 31, 61, 188, 57, 81, 40]
+pushes_per_week: [73, 49, 0, 23, 28, 1, 31, 32, 76, 178, 51, 94, 60]
 windows:
   "7d":
-    pushes: 54
+    pushes: 61
     distinct_repos: 3
     active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 382
+    pushes: 407
     distinct_repos: 11
     active_days: 25
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 709
+    pushes: 696
     distinct_repos: 22
     active_days: 64
     repos_not_owned: 2
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 11.0781
+  push_per_day: 10.8750
   repo_per_active_day: 0.3438
   not_owned_ratio: 0.0909
   basename_concentration: 0.0455
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 54
+    pushes: 61
     distinct_repos: 3
-    pushes_per_repo: 18.0000
+    pushes_per_repo: 20.3333
     active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 382
+    pushes: 407
     distinct_repos: 11
-    pushes_per_repo: 34.7273
+    pushes_per_repo: 37.0000
     active_days: 25
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 709
+    pushes: 696
     distinct_repos: 22
-    pushes_per_repo: 32.2273
+    pushes_per_repo: 31.6364
     active_days: 64
     repos_not_owned: 2
     not_owned_basenames: 2
@@ -129,6 +129,6 @@ repos:
 
 # pedropaulovc
 
-709 pushes across 22 repositories on 64 active days in the last 90 days of public GitHub push activity.
+696 pushes across 22 repositories on 64 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/pedropaulovc

@@ -9,39 +9,39 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-20T06:04:57.914428+00:00"
+generated_at: "2026-10-21T06:05:19.754690+00:00"
 provenance:
   - "1df6ea1f1256059e"
   - "edb3a626875732de"
-pushes_per_week: [0, 0, 4, 12, 4, 0, 0, 0, 0, 0, 0, 1, 1]
+pushes_per_week: [0, 0, 15, 1, 4, 0, 0, 0, 0, 0, 0, 2, 2]
 windows:
   "7d":
-    pushes: 2
+    pushes: 3
     distinct_repos: 2
     active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 2
-    distinct_repos: 2
-    active_days: 2
+    pushes: 4
+    distinct_repos: 3
+    active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 22
-    distinct_repos: 9
-    active_days: 8
+    pushes: 24
+    distinct_repos: 10
+    active_days: 9
     repos_not_owned: 8
     not_owned_basenames: 8
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 2.7500
-  repo_per_active_day: 1.1250
-  not_owned_ratio: 0.8889
-  basename_concentration: 0.1111
+  push_per_day: 2.6667
+  repo_per_active_day: 1.1111
+  not_owned_ratio: 0.8000
+  basename_concentration: 0.1000
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -50,32 +50,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
+    pushes: 3
     distinct_repos: 2
-    pushes_per_repo: 1.0000
+    pushes_per_repo: 1.5000
     active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 2
-    distinct_repos: 2
-    pushes_per_repo: 1.0000
-    active_days: 2
+    pushes: 4
+    distinct_repos: 3
+    pushes_per_repo: 1.3333
+    active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 22
-    distinct_repos: 9
-    pushes_per_repo: 2.4444
-    active_days: 8
+    pushes: 24
+    distinct_repos: 10
+    pushes_per_repo: 2.4000
+    active_days: 9
     repos_not_owned: 8
     not_owned_basenames: 8
     not_owned_owners: 2
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 8 active days in 90d — pass"
+  - "activity: 9 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "t0kubetsu"
@@ -127,6 +127,6 @@ repos:
 
 # t0kubetsu
 
-22 pushes across 9 repositories on 8 active days in the last 90 days of public GitHub push activity.
+24 pushes across 10 repositories on 9 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/t0kubetsu

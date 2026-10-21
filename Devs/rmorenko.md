@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-20T06:04:57.914428+00:00"
+generated_at: "2026-10-21T06:05:19.754690+00:00"
 provenance:
   - "2a7f0fddd2dac162"
-pushes_per_week: [0, 0, 2, 5, 5, 2, 5, 7, 17, 14, 16, 13, 2]
+pushes_per_week: [0, 1, 2, 5, 5, 1, 5, 7, 18, 14, 15, 13, 5]
 windows:
   "7d":
     pushes: 5
     distinct_repos: 1
-    active_days: 2
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 51
+    pushes: 49
     distinct_repos: 1
     active_days: 21
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 88
+    pushes: 91
     distinct_repos: 2
-    active_days: 42
+    active_days: 44
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.0952
-  repo_per_active_day: 0.0476
+  push_per_day: 2.0682
+  repo_per_active_day: 0.0455
   not_owned_ratio: 0.0000
   basename_concentration: 0.5000
   shapes: []
@@ -52,29 +52,29 @@ facets:
     pushes: 5
     distinct_repos: 1
     pushes_per_repo: 5.0000
-    active_days: 2
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 51
+    pushes: 49
     distinct_repos: 1
-    pushes_per_repo: 51.0000
+    pushes_per_repo: 49.0000
     active_days: 21
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 88
+    pushes: 91
     distinct_repos: 2
-    pushes_per_repo: 44.0000
-    active_days: 42
+    pushes_per_repo: 45.5000
+    active_days: 44
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 42 active days in 90d — pass"
+  - "activity: 44 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "oxidelica"
@@ -129,6 +129,6 @@ repos:
 
 # rmorenko
 
-88 pushes across 2 repositories on 42 active days in the last 90 days of public GitHub push activity.
+91 pushes across 2 repositories on 44 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/rmorenko

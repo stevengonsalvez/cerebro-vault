@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-20T06:04:57.914428+00:00"
+generated_at: "2026-10-21T06:05:19.754690+00:00"
 provenance:
   - "6d3bd03b49986330"
-pushes_per_week: [39, 25, 29, 47, 21, 4, 1, 1, 0, 0, 0, 3, 0]
+pushes_per_week: [37, 23, 37, 39, 22, 3, 1, 1, 0, 0, 0, 3, 0]
 windows:
   "7d":
-    pushes: 2
-    distinct_repos: 1
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 170
+    pushes: 166
     distinct_repos: 2
-    active_days: 37
+    active_days: 36
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 4.5946
-  repo_per_active_day: 0.0541
+  push_per_day: 4.6111
+  repo_per_active_day: 0.0556
   not_owned_ratio: 0.0000
   basename_concentration: 0.5000
   shapes: []
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
-    distinct_repos: 1
-    pushes_per_repo: 2.0000
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 170
+    pushes: 166
     distinct_repos: 2
-    pushes_per_repo: 85.0000
-    active_days: 37
+    pushes_per_repo: 83.0000
+    active_days: 36
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 37 active days in 90d — pass"
+  - "activity: 36 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "guoapp"
@@ -133,6 +133,6 @@ repos:
 
 # ziyu4huang
 
-170 pushes across 2 repositories on 37 active days in the last 90 days of public GitHub push activity.
+166 pushes across 2 repositories on 36 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ziyu4huang

@@ -9,18 +9,18 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-20T06:04:57.914428+00:00"
+generated_at: "2026-10-21T06:05:19.754690+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [3, 4, 0, 8, 1, 1, 0, 4, 3, 3, 1, 0, 0]
+pushes_per_week: [4, 2, 1, 7, 2, 0, 0, 4, 3, 3, 1, 0, 1]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "30d":
     pushes: 5
     distinct_repos: 4
@@ -30,17 +30,17 @@ windows:
     not_owned_owners: 1
   "90d":
     pushes: 28
-    distinct_repos: 14
+    distinct_repos: 13
     active_days: 21
-    repos_not_owned: 6
-    not_owned_basenames: 6
-    not_owned_owners: 4
+    repos_not_owned: 5
+    not_owned_basenames: 5
+    not_owned_owners: 3
 automation:
   state: "clear"
   push_per_day: 1.3333
-  repo_per_active_day: 0.6667
-  not_owned_ratio: 0.4286
-  basename_concentration: 0.0714
+  repo_per_active_day: 0.6190
+  not_owned_ratio: 0.3846
+  basename_concentration: 0.0769
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,13 +49,13 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    pushes: 1
+    distinct_repos: 1
+    pushes_per_repo: 1.0000
+    active_days: 1
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "30d":
     pushes: 5
     distinct_repos: 4
@@ -66,12 +66,12 @@ facets:
     not_owned_owners: 1
   "90d":
     pushes: 28
-    distinct_repos: 14
-    pushes_per_repo: 2.0000
+    distinct_repos: 13
+    pushes_per_repo: 2.1538
     active_days: 21
-    repos_not_owned: 6
-    not_owned_basenames: 6
-    not_owned_owners: 4
+    repos_not_owned: 5
+    not_owned_basenames: 5
+    not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 21 active days in 90d — pass"
@@ -148,6 +148,6 @@ repos:
 
 # maskedsyntax
 
-28 pushes across 14 repositories on 21 active days in the last 90 days of public GitHub push activity.
+28 pushes across 13 repositories on 21 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/maskedsyntax

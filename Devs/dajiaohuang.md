@@ -13,7 +13,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-20T06:04:57.914428+00:00"
+generated_at: "2026-10-21T06:05:19.754690+00:00"
 provenance:
   - "1df6ea1f1256059e"
   - "234088bc43763aa2"
@@ -21,35 +21,35 @@ provenance:
   - "4138778ebbc75ba6"
   - "dae9f02535f7c22f"
   - "edb3a626875732de"
-pushes_per_week: [99, 26, 11, 17, 3, 7, 7, 19, 9, 50, 125, 7, 4]
+pushes_per_week: [89, 16, 20, 9, 2, 7, 11, 15, 20, 43, 121, 7, 10]
 windows:
   "7d":
-    pushes: 4
-    distinct_repos: 4
-    active_days: 2
+    pushes: 10
+    distinct_repos: 8
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 194
-    distinct_repos: 54
+    pushes: 197
+    distinct_repos: 53
     active_days: 19
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 384
-    distinct_repos: 81
+    pushes: 370
+    distinct_repos: 83
     active_days: 53
     repos_not_owned: 15
     not_owned_basenames: 15
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 7.2453
-  repo_per_active_day: 1.5283
-  not_owned_ratio: 0.1852
-  basename_concentration: 0.0123
+  push_per_day: 6.9811
+  repo_per_active_day: 1.5660
+  not_owned_ratio: 0.1807
+  basename_concentration: 0.0120
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -58,25 +58,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 4
-    distinct_repos: 4
-    pushes_per_repo: 1.0000
-    active_days: 2
+    pushes: 10
+    distinct_repos: 8
+    pushes_per_repo: 1.2500
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 194
-    distinct_repos: 54
-    pushes_per_repo: 3.5926
+    pushes: 197
+    distinct_repos: 53
+    pushes_per_repo: 3.7170
     active_days: 19
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 384
-    distinct_repos: 81
-    pushes_per_repo: 4.7407
+    pushes: 370
+    distinct_repos: 83
+    pushes_per_repo: 4.4578
     active_days: 53
     repos_not_owned: 15
     not_owned_basenames: 15
@@ -103,6 +103,6 @@ repos:
 
 # dajiaohuang
 
-384 pushes across 81 repositories on 53 active days in the last 90 days of public GitHub push activity.
+370 pushes across 83 repositories on 53 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/dajiaohuang

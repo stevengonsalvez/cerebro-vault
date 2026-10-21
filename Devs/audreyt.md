@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-20T06:04:57.914428+00:00"
+generated_at: "2026-10-21T06:05:19.754690+00:00"
 provenance:
   - "3eacb4655aba2497"
-pushes_per_week: [20, 0, 13, 5, 9, 2, 2, 4, 10, 10, 12, 5, 0]
+pushes_per_week: [10, 2, 11, 5, 9, 2, 2, 5, 10, 10, 11, 5, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,25 +22,25 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 32
-    distinct_repos: 12
-    active_days: 16
+    pushes: 31
+    distinct_repos: 11
+    active_days: 15
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 92
-    distinct_repos: 24
-    active_days: 39
+    pushes: 82
+    distinct_repos: 23
+    active_days: 38
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 2.3590
-  repo_per_active_day: 0.6154
-  not_owned_ratio: 0.1250
-  basename_concentration: 0.0417
+  push_per_day: 2.1579
+  repo_per_active_day: 0.6053
+  not_owned_ratio: 0.1304
+  basename_concentration: 0.0435
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 32
-    distinct_repos: 12
-    pushes_per_repo: 2.6667
-    active_days: 16
+    pushes: 31
+    distinct_repos: 11
+    pushes_per_repo: 2.8182
+    active_days: 15
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 92
-    distinct_repos: 24
-    pushes_per_repo: 3.8333
-    active_days: 39
+    pushes: 82
+    distinct_repos: 23
+    pushes_per_repo: 3.5652
+    active_days: 38
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 39 active days in 90d — pass"
+  - "activity: 38 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "omo-mnemon"
@@ -129,6 +129,6 @@ repos:
 
 # audreyt
 
-92 pushes across 24 repositories on 39 active days in the last 90 days of public GitHub push activity.
+82 pushes across 23 repositories on 38 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/audreyt

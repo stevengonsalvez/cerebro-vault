@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-20T06:04:57.914428+00:00"
+generated_at: "2026-10-21T06:05:19.754690+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [2, 2, 0, 0, 1, 1, 1, 0, 2, 4, 0, 0, 0]
+pushes_per_week: [1, 2, 0, 0, 1, 1, 1, 0, 5, 1, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 13
-    distinct_repos: 8
-    active_days: 11
+    pushes: 12
+    distinct_repos: 7
+    active_days: 10
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 1.1818
-  repo_per_active_day: 0.7273
-  not_owned_ratio: 0.2500
-  basename_concentration: 0.1250
+  push_per_day: 1.2000
+  repo_per_active_day: 0.7000
+  not_owned_ratio: 0.2857
+  basename_concentration: 0.1429
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 13
-    distinct_repos: 8
-    pushes_per_repo: 1.6250
-    active_days: 11
+    pushes: 12
+    distinct_repos: 7
+    pushes_per_repo: 1.7143
+    active_days: 10
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 11 active days in 90d — pass"
+  - "activity: 10 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "astrbot_plugin_keywords_reply"
@@ -129,6 +129,6 @@ repos:
 
 # Foolllll-J
 
-13 pushes across 8 repositories on 11 active days in the last 90 days of public GitHub push activity.
+12 pushes across 7 repositories on 10 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Foolllll-J

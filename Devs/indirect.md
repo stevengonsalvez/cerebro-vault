@@ -9,21 +9,21 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-20T06:04:57.914428+00:00"
+generated_at: "2026-10-21T06:05:19.754690+00:00"
 provenance:
   - "97c4e9cb8b163ddb"
   - "c7515e0fa4368a55"
   - "d3abe74726b22711"
   - "e7c647c4d0689526"
-pushes_per_week: [7, 1, 1, 0, 0, 0, 0, 0, 3, 7, 0, 0, 1]
+pushes_per_week: [2, 1, 0, 0, 0, 0, 0, 0, 3, 7, 0, 1, 0]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
     pushes: 10
     distinct_repos: 3
@@ -32,16 +32,16 @@ windows:
     not_owned_basenames: 3
     not_owned_owners: 2
   "90d":
-    pushes: 20
+    pushes: 14
     distinct_repos: 6
-    active_days: 11
+    active_days: 9
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 1.8182
-  repo_per_active_day: 0.5455
+  push_per_day: 1.5556
+  repo_per_active_day: 0.6667
   not_owned_ratio: 0.8333
   basename_concentration: 0.1667
   shapes: []
@@ -52,13 +52,13 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
     pushes: 10
     distinct_repos: 3
@@ -68,16 +68,16 @@ facets:
     not_owned_basenames: 3
     not_owned_owners: 2
   "90d":
-    pushes: 20
+    pushes: 14
     distinct_repos: 6
-    pushes_per_repo: 3.3333
-    active_days: 11
+    pushes_per_repo: 2.3333
+    active_days: 9
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 2
 reasons:
   - "provenance: 4 vault signal(s) — pass"
-  - "activity: 11 active days in 90d — pass"
+  - "activity: 9 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "rails-footnotes"
@@ -133,6 +133,6 @@ repos:
 
 # indirect
 
-20 pushes across 6 repositories on 11 active days in the last 90 days of public GitHub push activity.
+14 pushes across 6 repositories on 9 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/indirect

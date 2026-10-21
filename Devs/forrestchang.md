@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-20T06:04:57.914428+00:00"
+generated_at: "2026-10-21T06:05:19.754690+00:00"
 provenance:
   - "ca6e9330cc1b2a53"
-pushes_per_week: [3, 11, 2, 13, 1, 0, 3, 4, 4, 20, 0, 0, 0]
+pushes_per_week: [4, 9, 6, 8, 1, 0, 3, 6, 6, 16, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 22
+    pushes: 20
     distinct_repos: 1
-    active_days: 5
+    active_days: 4
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 61
+    pushes: 59
     distinct_repos: 4
-    active_days: 25
+    active_days: 24
     repos_not_owned: 3
     not_owned_basenames: 2
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 2.4400
-  repo_per_active_day: 0.1600
+  push_per_day: 2.4583
+  repo_per_active_day: 0.1667
   not_owned_ratio: 0.7500
   basename_concentration: 0.5000
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 22
+    pushes: 20
     distinct_repos: 1
-    pushes_per_repo: 22.0000
-    active_days: 5
+    pushes_per_repo: 20.0000
+    active_days: 4
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 61
+    pushes: 59
     distinct_repos: 4
-    pushes_per_repo: 15.2500
-    active_days: 25
+    pushes_per_repo: 14.7500
+    active_days: 24
     repos_not_owned: 3
     not_owned_basenames: 2
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 25 active days in 90d — pass"
+  - "activity: 24 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: ".doom.d"
@@ -133,6 +133,6 @@ repos:
 
 # forrestchang
 
-61 pushes across 4 repositories on 25 active days in the last 90 days of public GitHub push activity.
+59 pushes across 4 repositories on 24 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/forrestchang

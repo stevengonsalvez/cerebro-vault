@@ -11,17 +11,17 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-20T06:04:57.914428+00:00"
+generated_at: "2026-10-21T06:05:19.754690+00:00"
 provenance:
   - "16389f32495280ea"
   - "234088bc43763aa2"
   - "4d1450729e6ff44d"
-pushes_per_week: [24, 15, 22, 61, 10, 3, 6, 5, 7, 8, 7, 7, 2]
+pushes_per_week: [27, 11, 26, 56, 9, 3, 7, 5, 6, 8, 7, 8, 1]
 windows:
   "7d":
-    pushes: 3
-    distinct_repos: 3
-    active_days: 3
+    pushes: 2
+    distinct_repos: 2
+    active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -33,18 +33,18 @@ windows:
     not_owned_basenames: 4
     not_owned_owners: 2
   "90d":
-    pushes: 177
-    distinct_repos: 48
-    active_days: 53
+    pushes: 174
+    distinct_repos: 47
+    active_days: 52
     repos_not_owned: 6
     not_owned_basenames: 6
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 3.3396
-  repo_per_active_day: 0.9057
-  not_owned_ratio: 0.1250
-  basename_concentration: 0.0417
+  push_per_day: 3.3462
+  repo_per_active_day: 0.9038
+  not_owned_ratio: 0.1277
+  basename_concentration: 0.0426
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -53,10 +53,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 3
-    distinct_repos: 3
+    pushes: 2
+    distinct_repos: 2
     pushes_per_repo: 1.0000
-    active_days: 3
+    active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -69,16 +69,16 @@ facets:
     not_owned_basenames: 4
     not_owned_owners: 2
   "90d":
-    pushes: 177
-    distinct_repos: 48
-    pushes_per_repo: 3.6875
-    active_days: 53
+    pushes: 174
+    distinct_repos: 47
+    pushes_per_repo: 3.7021
+    active_days: 52
     repos_not_owned: 6
     not_owned_basenames: 6
     not_owned_owners: 3
 reasons:
   - "provenance: 3 vault signal(s) — pass"
-  - "activity: 53 active days in 90d — pass"
+  - "activity: 52 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "lint-md-moejs"
@@ -134,6 +134,6 @@ repos:
 
 # luojiyin1987
 
-177 pushes across 48 repositories on 53 active days in the last 90 days of public GitHub push activity.
+174 pushes across 47 repositories on 52 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/luojiyin1987

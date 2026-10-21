@@ -9,41 +9,41 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-20T06:04:57.914428+00:00"
+generated_at: "2026-10-21T06:05:19.754690+00:00"
 provenance:
   - "97c4e9cb8b163ddb"
   - "c7515e0fa4368a55"
   - "d3abe74726b22711"
   - "e7c647c4d0689526"
-pushes_per_week: [2, 7, 4, 12, 0, 2, 6, 8, 54, 15, 85, 7, 1]
+pushes_per_week: [5, 4, 5, 11, 0, 2, 6, 9, 53, 16, 84, 8, 1]
 windows:
   "7d":
     pushes: 2
-    distinct_repos: 1
+    distinct_repos: 2
     active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 124
-    distinct_repos: 15
+    pushes: 115
+    distinct_repos: 16
     active_days: 17
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 203
-    distinct_repos: 28
-    active_days: 39
+    pushes: 204
+    distinct_repos: 29
+    active_days: 40
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 5.2051
-  repo_per_active_day: 0.7179
+  push_per_day: 5.1000
+  repo_per_active_day: 0.7250
   not_owned_ratio: 0.0000
-  basename_concentration: 0.0357
+  basename_concentration: 0.0345
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -53,31 +53,31 @@ automation:
 facets:
   "7d":
     pushes: 2
-    distinct_repos: 1
-    pushes_per_repo: 2.0000
+    distinct_repos: 2
+    pushes_per_repo: 1.0000
     active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 124
-    distinct_repos: 15
-    pushes_per_repo: 8.2667
+    pushes: 115
+    distinct_repos: 16
+    pushes_per_repo: 7.1875
     active_days: 17
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 203
-    distinct_repos: 28
-    pushes_per_repo: 7.2500
-    active_days: 39
+    pushes: 204
+    distinct_repos: 29
+    pushes_per_repo: 7.0345
+    active_days: 40
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 4 vault signal(s) — pass"
-  - "activity: 39 active days in 90d — pass"
+  - "activity: 40 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "context-m"
@@ -150,6 +150,6 @@ repos:
 
 # ssmurfgg04-gif
 
-203 pushes across 28 repositories on 39 active days in the last 90 days of public GitHub push activity.
+204 pushes across 29 repositories on 40 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ssmurfgg04-gif

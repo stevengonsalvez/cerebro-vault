@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-20T06:04:57.914428+00:00"
+generated_at: "2026-10-21T06:05:19.754690+00:00"
 provenance:
   - "a5ffcd0a46dd44fd"
-pushes_per_week: [4, 4, 0, 2, 1, 0, 1, 0, 4, 8, 5, 3, 0]
+pushes_per_week: [1, 4, 0, 2, 1, 0, 1, 0, 5, 8, 4, 3, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 32
+    pushes: 29
     distinct_repos: 10
-    active_days: 17
+    active_days: 16
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.8824
-  repo_per_active_day: 0.5882
+  push_per_day: 1.8125
+  repo_per_active_day: 0.6250
   not_owned_ratio: 0.2000
   basename_concentration: 0.2000
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 32
+    pushes: 29
     distinct_repos: 10
-    pushes_per_repo: 3.2000
-    active_days: 17
+    pushes_per_repo: 2.9000
+    active_days: 16
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 17 active days in 90d — pass"
+  - "activity: 16 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "grocery-assistant"
@@ -129,6 +129,6 @@ repos:
 
 # rashadism
 
-32 pushes across 10 repositories on 17 active days in the last 90 days of public GitHub push activity.
+29 pushes across 10 repositories on 16 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/rashadism

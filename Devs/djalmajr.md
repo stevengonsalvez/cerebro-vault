@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-20T06:04:57.914428+00:00"
+generated_at: "2026-10-21T06:05:19.754690+00:00"
 provenance:
   - "4138778ebbc75ba6"
-pushes_per_week: [2, 5, 0, 4, 1, 4, 0, 1, 5, 25, 24, 14, 9]
+pushes_per_week: [0, 5, 0, 4, 3, 2, 1, 0, 5, 26, 23, 15, 9]
 windows:
   "7d":
     pushes: 9
     distinct_repos: 2
-    active_days: 3
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 76
-    distinct_repos: 13
-    active_days: 24
+    pushes: 74
+    distinct_repos: 12
+    active_days: 22
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 94
+    pushes: 93
     distinct_repos: 17
-    active_days: 36
+    active_days: 34
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.6111
-  repo_per_active_day: 0.4722
+  push_per_day: 2.7353
+  repo_per_active_day: 0.5000
   not_owned_ratio: 0.0000
   basename_concentration: 0.0588
   shapes: []
@@ -52,29 +52,29 @@ facets:
     pushes: 9
     distinct_repos: 2
     pushes_per_repo: 4.5000
-    active_days: 3
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 76
-    distinct_repos: 13
-    pushes_per_repo: 5.8462
-    active_days: 24
+    pushes: 74
+    distinct_repos: 12
+    pushes_per_repo: 6.1667
+    active_days: 22
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 94
+    pushes: 93
     distinct_repos: 17
-    pushes_per_repo: 5.5294
-    active_days: 36
+    pushes_per_repo: 5.4706
+    active_days: 34
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 36 active days in 90d — pass"
+  - "activity: 34 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "pinar"
@@ -137,6 +137,6 @@ repos:
 
 # djalmajr
 
-94 pushes across 17 repositories on 36 active days in the last 90 days of public GitHub push activity.
+93 pushes across 17 repositories on 34 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/djalmajr

@@ -9,39 +9,39 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-20T06:04:57.914428+00:00"
+generated_at: "2026-10-21T06:05:19.754690+00:00"
 provenance:
   - "1df6ea1f1256059e"
   - "edb3a626875732de"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 1, 5, 6, 5, 4, 7, 1]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 3, 3, 6, 6, 3, 8, 1]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
+    pushes: 2
+    distinct_repos: 2
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 19
+    pushes: 18
     distinct_repos: 6
     active_days: 11
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 29
-    distinct_repos: 9
-    active_days: 19
+    pushes: 30
+    distinct_repos: 10
+    active_days: 20
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.5263
-  repo_per_active_day: 0.4737
-  not_owned_ratio: 0.1111
-  basename_concentration: 0.1111
+  push_per_day: 1.5000
+  repo_per_active_day: 0.5000
+  not_owned_ratio: 0.1000
+  basename_concentration: 0.1000
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -50,32 +50,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
+    pushes: 2
+    distinct_repos: 2
     pushes_per_repo: 1.0000
-    active_days: 1
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 19
+    pushes: 18
     distinct_repos: 6
-    pushes_per_repo: 3.1667
+    pushes_per_repo: 3.0000
     active_days: 11
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 29
-    distinct_repos: 9
-    pushes_per_repo: 3.2222
-    active_days: 19
+    pushes: 30
+    distinct_repos: 10
+    pushes_per_repo: 3.0000
+    active_days: 20
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 19 active days in 90d — pass"
+  - "activity: 20 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "toolcage"
@@ -130,6 +130,6 @@ repos:
 
 # VarunGore36
 
-29 pushes across 9 repositories on 19 active days in the last 90 days of public GitHub push activity.
+30 pushes across 10 repositories on 20 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/VarunGore36

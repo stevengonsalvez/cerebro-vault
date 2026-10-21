@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-20T06:04:57.914428+00:00"
+generated_at: "2026-10-21T06:05:19.754690+00:00"
 provenance:
   - "c489e6fb5febf2ab"
-pushes_per_week: [7, 6, 6, 17, 2, 0, 0, 1, 6, 9, 15, 1, 2]
+pushes_per_week: [10, 2, 7, 15, 2, 0, 0, 2, 6, 8, 15, 2, 1]
 windows:
   "7d":
     pushes: 2
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 29
+    pushes: 28
     distinct_repos: 8
-    active_days: 12
+    active_days: 11
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 72
+    pushes: 70
     distinct_repos: 13
-    active_days: 31
+    active_days: 30
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.3226
-  repo_per_active_day: 0.4194
+  push_per_day: 2.3333
+  repo_per_active_day: 0.4333
   not_owned_ratio: 0.0769
   basename_concentration: 0.1538
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 29
+    pushes: 28
     distinct_repos: 8
-    pushes_per_repo: 3.6250
-    active_days: 12
+    pushes_per_repo: 3.5000
+    active_days: 11
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 72
+    pushes: 70
     distinct_repos: 13
-    pushes_per_repo: 5.5385
-    active_days: 31
+    pushes_per_repo: 5.3846
+    active_days: 30
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 31 active days in 90d — pass"
+  - "activity: 30 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "wu21-web"
@@ -130,6 +130,6 @@ repos:
 
 # wu21-web
 
-72 pushes across 13 repositories on 31 active days in the last 90 days of public GitHub push activity.
+70 pushes across 13 repositories on 30 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/wu21-web

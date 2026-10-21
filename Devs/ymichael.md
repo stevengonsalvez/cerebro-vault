@@ -9,42 +9,42 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-20T06:04:57.914428+00:00"
+generated_at: "2026-10-21T06:05:19.754690+00:00"
 provenance:
   - "419a4253687fd7a1"
-pushes_per_week: [0, 3, 34, 35, 8, 0, 8, 11, 11, 28, 60, 2, 4]
+pushes_per_week: [0, 4, 52, 18, 6, 0, 11, 8, 15, 29, 55, 2, 12]
 windows:
   "7d":
-    pushes: 4
-    distinct_repos: 1
-    active_days: 1
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
-  "30d":
-    pushes: 96
+    pushes: 12
     distinct_repos: 2
-    active_days: 16
+    active_days: 2
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
+  "30d":
+    pushes: 104
+    distinct_repos: 3
+    active_days: 17
+    repos_not_owned: 3
+    not_owned_basenames: 1
+    not_owned_owners: 3
   "90d":
-    pushes: 204
-    distinct_repos: 9
-    active_days: 44
-    repos_not_owned: 8
+    pushes: 212
+    distinct_repos: 10
+    active_days: 45
+    repos_not_owned: 9
     not_owned_basenames: 2
-    not_owned_owners: 7
+    not_owned_owners: 8
 automation:
   state: "clear"
-  push_per_day: 4.6364
-  repo_per_active_day: 0.2045
-  not_owned_ratio: 0.8889
-  basename_concentration: 0.8889
+  push_per_day: 4.7111
+  repo_per_active_day: 0.2222
+  not_owned_ratio: 0.9000
+  basename_concentration: 0.9000
   shapes:
     - "fork_farm_third_party"
   shape_evidence:
-    - "basename concentration 0.8889 (8 of 9 repos share one basename), 8 not owned across 2 basenames — 5 of 5 sampled repos resolved; 4 fork somebody else's repo; 1 are not forks at all; upstreams: get-bb/bb"
+    - "basename concentration 0.9000 (9 of 10 repos share one basename), 9 not owned across 2 basenames — 5 of 5 sampled repos resolved; 4 fork somebody else's repo; 1 are not forks at all; upstreams: get-bb/bb"
   cleared_by: "e01-builder"
   cleared_on: "2026-08-26"
   fork_provenance:
@@ -55,42 +55,42 @@ automation:
     unresolved: 0
     truncated: false
     sampled:
+      - "dillonzq/bb"
       - "fgrehm/bb"
       - "galligan/bb"
       - "get-bb/bb"
       - "jerrison/bb"
-      - "maheen-ejaz/bb"
     upstreams:
       - "get-bb/bb"
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 4
-    distinct_repos: 1
-    pushes_per_repo: 4.0000
-    active_days: 1
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
-  "30d":
-    pushes: 96
+    pushes: 12
     distinct_repos: 2
-    pushes_per_repo: 48.0000
-    active_days: 16
+    pushes_per_repo: 6.0000
+    active_days: 2
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
+  "30d":
+    pushes: 104
+    distinct_repos: 3
+    pushes_per_repo: 34.6667
+    active_days: 17
+    repos_not_owned: 3
+    not_owned_basenames: 1
+    not_owned_owners: 3
   "90d":
-    pushes: 204
-    distinct_repos: 9
-    pushes_per_repo: 22.6667
-    active_days: 44
-    repos_not_owned: 8
+    pushes: 212
+    distinct_repos: 10
+    pushes_per_repo: 21.2000
+    active_days: 45
+    repos_not_owned: 9
     not_owned_basenames: 2
-    not_owned_owners: 7
+    not_owned_owners: 8
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 44 active days in 90d — pass"
+  - "activity: 45 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "bb-plugins"
@@ -148,6 +148,6 @@ repos:
 
 # ymichael
 
-204 pushes across 9 repositories on 44 active days in the last 90 days of public GitHub push activity.
+212 pushes across 10 repositories on 45 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ymichael

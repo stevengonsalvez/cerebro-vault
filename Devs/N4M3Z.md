@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-20T06:04:57.914428+00:00"
+generated_at: "2026-10-21T06:05:19.754690+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [2, 35, 14, 23, 2, 5, 0, 4, 18, 5, 1, 0, 2]
+pushes_per_week: [2, 46, 9, 17, 5, 2, 0, 4, 21, 2, 1, 0, 3]
 windows:
   "7d":
-    pushes: 2
-    distinct_repos: 2
-    active_days: 1
+    pushes: 3
+    distinct_repos: 3
+    active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 18
-    distinct_repos: 6
+    pushes: 12
+    distinct_repos: 5
     active_days: 7
-    repos_not_owned: 3
-    not_owned_basenames: 3
+    repos_not_owned: 2
+    not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 111
+    pushes: 112
     distinct_repos: 11
-    active_days: 30
+    active_days: 31
     repos_not_owned: 7
     not_owned_basenames: 7
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 3.7000
-  repo_per_active_day: 0.3667
+  push_per_day: 3.6129
+  repo_per_active_day: 0.3548
   not_owned_ratio: 0.6364
   basename_concentration: 0.1818
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
-    distinct_repos: 2
+    pushes: 3
+    distinct_repos: 3
     pushes_per_repo: 1.0000
-    active_days: 1
+    active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 18
-    distinct_repos: 6
-    pushes_per_repo: 3.0000
+    pushes: 12
+    distinct_repos: 5
+    pushes_per_repo: 2.4000
     active_days: 7
-    repos_not_owned: 3
-    not_owned_basenames: 3
+    repos_not_owned: 2
+    not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 111
+    pushes: 112
     distinct_repos: 11
-    pushes_per_repo: 10.0909
-    active_days: 30
+    pushes_per_repo: 10.1818
+    active_days: 31
     repos_not_owned: 7
     not_owned_basenames: 7
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 30 active days in 90d — pass"
+  - "activity: 31 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "lsrules"
@@ -129,6 +129,6 @@ repos:
 
 # N4M3Z
 
-111 pushes across 11 repositories on 30 active days in the last 90 days of public GitHub push activity.
+112 pushes across 11 repositories on 31 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/N4M3Z

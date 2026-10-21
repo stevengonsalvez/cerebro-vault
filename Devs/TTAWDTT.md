@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-20T06:04:57.914428+00:00"
+generated_at: "2026-10-21T06:05:19.754690+00:00"
 provenance:
   - "e5b23adc376a62a9"
-pushes_per_week: [0, 2, 1, 2, 0, 0, 0, 10, 5, 47, 13, 17, 0]
+pushes_per_week: [0, 2, 2, 1, 0, 0, 1, 10, 4, 49, 11, 17, 1]
 windows:
   "7d":
-    pushes: 5
-    distinct_repos: 2
+    pushes: 1
+    distinct_repos: 1
     active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 81
+    pushes: 78
     distinct_repos: 8
     active_days: 14
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 97
-    distinct_repos: 11
-    active_days: 26
+    pushes: 98
+    distinct_repos: 12
+    active_days: 27
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 3.7308
-  repo_per_active_day: 0.4231
+  push_per_day: 3.6296
+  repo_per_active_day: 0.4444
   not_owned_ratio: 0.0000
-  basename_concentration: 0.0909
+  basename_concentration: 0.0833
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 5
-    distinct_repos: 2
-    pushes_per_repo: 2.5000
+    pushes: 1
+    distinct_repos: 1
+    pushes_per_repo: 1.0000
     active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 81
+    pushes: 78
     distinct_repos: 8
-    pushes_per_repo: 10.1250
+    pushes_per_repo: 9.7500
     active_days: 14
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 97
-    distinct_repos: 11
-    pushes_per_repo: 8.8182
-    active_days: 26
+    pushes: 98
+    distinct_repos: 12
+    pushes_per_repo: 8.1667
+    active_days: 27
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 26 active days in 90d — pass"
+  - "activity: 27 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "ZhenMode"
@@ -133,6 +133,6 @@ repos:
 
 # TTAWDTT
 
-97 pushes across 11 repositories on 26 active days in the last 90 days of public GitHub push activity.
+98 pushes across 12 repositories on 27 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/TTAWDTT

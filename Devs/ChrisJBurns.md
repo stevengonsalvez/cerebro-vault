@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-20T06:04:57.914428+00:00"
+generated_at: "2026-10-21T06:05:19.754690+00:00"
 provenance:
   - "0b22ca37fd3884c9"
-pushes_per_week: [17, 1, 1, 1, 0, 1, 0, 0, 0, 3, 2, 1, 0]
+pushes_per_week: [10, 1, 1, 1, 1, 0, 0, 0, 0, 3, 2, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 27
+    pushes: 20
     distinct_repos: 3
-    active_days: 12
+    active_days: 11
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.2500
-  repo_per_active_day: 0.2500
+  push_per_day: 1.8182
+  repo_per_active_day: 0.2727
   not_owned_ratio: 0.6667
   basename_concentration: 0.3333
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 27
+    pushes: 20
     distinct_repos: 3
-    pushes_per_repo: 9.0000
-    active_days: 12
+    pushes_per_repo: 6.6667
+    active_days: 11
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 12 active days in 90d — pass"
+  - "activity: 11 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "ChrisJBurns"
@@ -129,6 +129,6 @@ repos:
 
 # ChrisJBurns
 
-27 pushes across 3 repositories on 12 active days in the last 90 days of public GitHub push activity.
+20 pushes across 3 repositories on 11 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ChrisJBurns

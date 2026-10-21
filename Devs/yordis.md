@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-20T06:04:57.914428+00:00"
+generated_at: "2026-10-21T06:05:19.754690+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [33, 27, 10, 12, 3, 2, 2, 45, 31, 27, 36, 35, 16]
+pushes_per_week: [31, 26, 8, 12, 3, 2, 2, 47, 31, 26, 35, 40, 14]
 windows:
   "7d":
-    pushes: 23
+    pushes: 17
     distinct_repos: 7
     active_days: 4
-    repos_not_owned: 6
-    not_owned_basenames: 5
+    repos_not_owned: 7
+    not_owned_basenames: 6
     not_owned_owners: 2
   "30d":
-    pushes: 124
+    pushes: 125
     distinct_repos: 25
     active_days: 25
     repos_not_owned: 19
     not_owned_basenames: 18
     not_owned_owners: 4
   "90d":
-    pushes: 279
+    pushes: 277
     distinct_repos: 42
     active_days: 61
     repos_not_owned: 31
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 8
 automation:
   state: "clear"
-  push_per_day: 4.5738
+  push_per_day: 4.5410
   repo_per_active_day: 0.6885
   not_owned_ratio: 0.7381
   basename_concentration: 0.0714
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 23
+    pushes: 17
     distinct_repos: 7
-    pushes_per_repo: 3.2857
+    pushes_per_repo: 2.4286
     active_days: 4
-    repos_not_owned: 6
-    not_owned_basenames: 5
+    repos_not_owned: 7
+    not_owned_basenames: 6
     not_owned_owners: 2
   "30d":
-    pushes: 124
+    pushes: 125
     distinct_repos: 25
-    pushes_per_repo: 4.9600
+    pushes_per_repo: 5.0000
     active_days: 25
     repos_not_owned: 19
     not_owned_basenames: 18
     not_owned_owners: 4
   "90d":
-    pushes: 279
+    pushes: 277
     distinct_repos: 42
-    pushes_per_repo: 6.6429
+    pushes_per_repo: 6.5952
     active_days: 61
     repos_not_owned: 31
     not_owned_basenames: 28
@@ -109,6 +109,6 @@ repos:
 
 # yordis
 
-279 pushes across 42 repositories on 61 active days in the last 90 days of public GitHub push activity.
+277 pushes across 42 repositories on 61 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/yordis

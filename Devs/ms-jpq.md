@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-20T06:04:57.914428+00:00"
+generated_at: "2026-10-21T06:05:19.754690+00:00"
 provenance:
   - "1be978947e68d1f2"
-pushes_per_week: [8, 10, 17, 12, 10, 6, 3, 2, 2, 5, 19, 5, 7]
+pushes_per_week: [7, 10, 19, 11, 11, 4, 3, 2, 2, 5, 19, 8, 4]
 windows:
   "7d":
-    pushes: 7
+    pushes: 4
     distinct_repos: 2
-    active_days: 2
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 106
+    pushes: 105
     distinct_repos: 5
-    active_days: 41
+    active_days: 40
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.5854
-  repo_per_active_day: 0.1220
+  push_per_day: 2.6250
+  repo_per_active_day: 0.1250
   not_owned_ratio: 0.0000
   basename_concentration: 0.2000
   shapes: []
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 7
+    pushes: 4
     distinct_repos: 2
-    pushes_per_repo: 3.5000
-    active_days: 2
+    pushes_per_repo: 2.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 106
+    pushes: 105
     distinct_repos: 5
-    pushes_per_repo: 21.2000
-    active_days: 41
+    pushes_per_repo: 21.0000
+    active_days: 40
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 41 active days in 90d — pass"
+  - "activity: 40 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "ai"
@@ -132,6 +132,6 @@ repos:
 
 # ms-jpq
 
-106 pushes across 5 repositories on 41 active days in the last 90 days of public GitHub push activity.
+105 pushes across 5 repositories on 40 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ms-jpq

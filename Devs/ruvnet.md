@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-20T06:04:57.914428+00:00"
+generated_at: "2026-10-21T06:05:19.754690+00:00"
 provenance:
   - "c60b77ce50fb8910"
-pushes_per_week: [16, 45, 20, 28, 15, 8, 8, 23, 19, 60, 54, 66, 15]
+pushes_per_week: [19, 43, 28, 19, 17, 6, 9, 29, 14, 64, 48, 75, 7]
 windows:
   "7d":
-    pushes: 25
-    distinct_repos: 11
-    active_days: 4
+    pushes: 16
+    distinct_repos: 6
+    active_days: 3
     repos_not_owned: 4
     not_owned_basenames: 2
     not_owned_owners: 4
   "30d":
     pushes: 199
     distinct_repos: 18
-    active_days: 24
+    active_days: 23
     repos_not_owned: 5
     not_owned_basenames: 2
     not_owned_owners: 5
   "90d":
-    pushes: 377
+    pushes: 378
     distinct_repos: 37
     active_days: 68
     repos_not_owned: 7
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 6
 automation:
   state: "clear"
-  push_per_day: 5.5441
+  push_per_day: 5.5588
   repo_per_active_day: 0.5441
   not_owned_ratio: 0.1892
   basename_concentration: 0.1351
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 25
-    distinct_repos: 11
-    pushes_per_repo: 2.2727
-    active_days: 4
+    pushes: 16
+    distinct_repos: 6
+    pushes_per_repo: 2.6667
+    active_days: 3
     repos_not_owned: 4
     not_owned_basenames: 2
     not_owned_owners: 4
@@ -60,14 +60,14 @@ facets:
     pushes: 199
     distinct_repos: 18
     pushes_per_repo: 11.0556
-    active_days: 24
+    active_days: 23
     repos_not_owned: 5
     not_owned_basenames: 2
     not_owned_owners: 5
   "90d":
-    pushes: 377
+    pushes: 378
     distinct_repos: 37
-    pushes_per_repo: 10.1892
+    pushes_per_repo: 10.2162
     active_days: 68
     repos_not_owned: 7
     not_owned_basenames: 4
@@ -187,6 +187,6 @@ repos:
 
 # ruvnet
 
-377 pushes across 37 repositories on 68 active days in the last 90 days of public GitHub push activity.
+378 pushes across 37 repositories on 68 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ruvnet

@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-20T06:04:57.914428+00:00"
+generated_at: "2026-10-21T06:05:19.754690+00:00"
 provenance:
   - "1f49d0119cedbc84"
-pushes_per_week: [1, 0, 0, 0, 0, 0, 1, 5, 0, 1, 0, 1, 3]
+pushes_per_week: [1, 0, 0, 0, 0, 0, 1, 5, 0, 1, 0, 1, 8]
 windows:
   "7d":
-    pushes: 3
-    distinct_repos: 2
-    active_days: 2
-    repos_not_owned: 2
-    not_owned_basenames: 2
-    not_owned_owners: 2
-  "30d":
-    pushes: 5
-    distinct_repos: 4
-    active_days: 4
-    repos_not_owned: 4
-    not_owned_basenames: 4
-    not_owned_owners: 3
-  "90d":
-    pushes: 12
-    distinct_repos: 7
-    active_days: 8
-    repos_not_owned: 5
+    pushes: 8
+    distinct_repos: 6
+    active_days: 3
+    repos_not_owned: 6
     not_owned_basenames: 5
-    not_owned_owners: 3
+    not_owned_owners: 5
+  "30d":
+    pushes: 10
+    distinct_repos: 8
+    active_days: 5
+    repos_not_owned: 8
+    not_owned_basenames: 6
+    not_owned_owners: 5
+  "90d":
+    pushes: 17
+    distinct_repos: 11
+    active_days: 9
+    repos_not_owned: 9
+    not_owned_basenames: 7
+    not_owned_owners: 5
 automation:
   state: "clear"
-  push_per_day: 1.5000
-  repo_per_active_day: 0.8750
-  not_owned_ratio: 0.7143
-  basename_concentration: 0.1429
+  push_per_day: 1.8889
+  repo_per_active_day: 1.2222
+  not_owned_ratio: 0.8182
+  basename_concentration: 0.2727
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 3
-    distinct_repos: 2
-    pushes_per_repo: 1.5000
-    active_days: 2
-    repos_not_owned: 2
-    not_owned_basenames: 2
-    not_owned_owners: 2
-  "30d":
-    pushes: 5
-    distinct_repos: 4
-    pushes_per_repo: 1.2500
-    active_days: 4
-    repos_not_owned: 4
-    not_owned_basenames: 4
-    not_owned_owners: 3
-  "90d":
-    pushes: 12
-    distinct_repos: 7
-    pushes_per_repo: 1.7143
-    active_days: 8
-    repos_not_owned: 5
+    pushes: 8
+    distinct_repos: 6
+    pushes_per_repo: 1.3333
+    active_days: 3
+    repos_not_owned: 6
     not_owned_basenames: 5
-    not_owned_owners: 3
+    not_owned_owners: 5
+  "30d":
+    pushes: 10
+    distinct_repos: 8
+    pushes_per_repo: 1.2500
+    active_days: 5
+    repos_not_owned: 8
+    not_owned_basenames: 6
+    not_owned_owners: 5
+  "90d":
+    pushes: 17
+    distinct_repos: 11
+    pushes_per_repo: 1.5455
+    active_days: 9
+    repos_not_owned: 9
+    not_owned_basenames: 7
+    not_owned_owners: 5
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 8 active days in 90d — pass"
+  - "activity: 9 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "pointman-karpathy"
@@ -131,6 +131,6 @@ repos:
 
 # jamescalam
 
-12 pushes across 7 repositories on 8 active days in the last 90 days of public GitHub push activity.
+17 pushes across 11 repositories on 9 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/jamescalam

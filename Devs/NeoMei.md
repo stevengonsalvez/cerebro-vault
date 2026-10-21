@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-20T06:04:57.914428+00:00"
+generated_at: "2026-10-21T06:05:19.754690+00:00"
 provenance:
   - "90688bf127241ceb"
-pushes_per_week: [5, 0, 7, 16, 1, 1, 4, 0, 7, 4, 2, 3, 4]
+pushes_per_week: [5, 1, 15, 7, 1, 1, 4, 0, 7, 4, 2, 5, 3]
 windows:
   "7d":
-    pushes: 4
-    distinct_repos: 2
-    active_days: 2
+    pushes: 5
+    distinct_repos: 3
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 16
+    pushes: 15
     distinct_repos: 6
     active_days: 9
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 54
-    distinct_repos: 10
-    active_days: 30
+    pushes: 55
+    distinct_repos: 11
+    active_days: 31
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.8000
-  repo_per_active_day: 0.3333
+  push_per_day: 1.7742
+  repo_per_active_day: 0.3548
   not_owned_ratio: 0.0000
-  basename_concentration: 0.1000
+  basename_concentration: 0.0909
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 4
-    distinct_repos: 2
-    pushes_per_repo: 2.0000
-    active_days: 2
+    pushes: 5
+    distinct_repos: 3
+    pushes_per_repo: 1.6667
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 16
+    pushes: 15
     distinct_repos: 6
-    pushes_per_repo: 2.6667
+    pushes_per_repo: 2.5000
     active_days: 9
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 54
-    distinct_repos: 10
-    pushes_per_repo: 5.4000
-    active_days: 30
+    pushes: 55
+    distinct_repos: 11
+    pushes_per_repo: 5.0000
+    active_days: 31
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 30 active days in 90d — pass"
+  - "activity: 31 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "AgentWiki"
@@ -136,6 +136,6 @@ repos:
 
 # NeoMei
 
-54 pushes across 10 repositories on 30 active days in the last 90 days of public GitHub push activity.
+55 pushes across 11 repositories on 31 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/NeoMei

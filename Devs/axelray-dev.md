@@ -6,18 +6,16 @@ discovered_via_all:
   - "fanout"
 provenance_repos:
   - "agentscope-ai/QwenPaw"
-  - "chopratejas/headroom"
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-20T06:04:57.914428+00:00"
+generated_at: "2026-10-21T06:05:19.754690+00:00"
 provenance:
   - "541318303a272608"
-  - "73468cde177ddae6"
-pushes_per_week: [1, 0, 1, 0, 0, 0, 0, 0, 2, 1, 6, 1, 3]
+pushes_per_week: [1, 0, 1, 0, 0, 0, 0, 1, 1, 1, 6, 4, 0]
 windows:
   "7d":
-    pushes: 3
+    pushes: 2
     distinct_repos: 2
     active_days: 1
     repos_not_owned: 0
@@ -51,9 +49,9 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 3
+    pushes: 2
     distinct_repos: 2
-    pushes_per_repo: 1.5000
+    pushes_per_repo: 1.0000
     active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -75,7 +73,7 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
-  - "provenance: 2 vault signal(s) — pass"
+  - "provenance: 1 vault signal(s) — pass"
   - "activity: 10 active days in 90d — pass"
   - "automation: clear — pass"
 repos:

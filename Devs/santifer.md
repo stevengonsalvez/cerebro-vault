@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-20T06:04:57.914428+00:00"
+generated_at: "2026-10-21T06:05:19.754690+00:00"
 provenance:
   - "b68d90c0788819fd"
-pushes_per_week: [16, 14, 6, 28, 4, 5, 1, 1, 29, 20, 8, 17, 5]
+pushes_per_week: [15, 12, 9, 25, 4, 5, 1, 1, 30, 20, 7, 22, 1]
 windows:
   "7d":
-    pushes: 10
-    distinct_repos: 3
+    pushes: 6
+    distinct_repos: 4
     active_days: 2
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
   "30d":
-    pushes: 59
+    pushes: 60
     distinct_repos: 17
-    active_days: 19
+    active_days: 20
     repos_not_owned: 15
     not_owned_basenames: 3
     not_owned_owners: 12
   "90d":
-    pushes: 154
+    pushes: 152
     distinct_repos: 32
     active_days: 48
     repos_not_owned: 28
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 25
 automation:
   state: "clear"
-  push_per_day: 3.2083
+  push_per_day: 3.1667
   repo_per_active_day: 0.6667
   not_owned_ratio: 0.8750
   basename_concentration: 0.7188
@@ -65,25 +65,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 10
-    distinct_repos: 3
-    pushes_per_repo: 3.3333
+    pushes: 6
+    distinct_repos: 4
+    pushes_per_repo: 1.5000
     active_days: 2
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
   "30d":
-    pushes: 59
+    pushes: 60
     distinct_repos: 17
-    pushes_per_repo: 3.4706
-    active_days: 19
+    pushes_per_repo: 3.5294
+    active_days: 20
     repos_not_owned: 15
     not_owned_basenames: 3
     not_owned_owners: 12
   "90d":
-    pushes: 154
+    pushes: 152
     distinct_repos: 32
-    pushes_per_repo: 4.8125
+    pushes_per_repo: 4.7500
     active_days: 48
     repos_not_owned: 28
     not_owned_basenames: 4
@@ -182,6 +182,6 @@ repos:
 
 # santifer
 
-154 pushes across 32 repositories on 48 active days in the last 90 days of public GitHub push activity.
+152 pushes across 32 repositories on 48 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/santifer

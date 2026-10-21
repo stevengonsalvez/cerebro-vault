@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-20T06:04:57.914428+00:00"
+generated_at: "2026-10-21T06:05:19.754690+00:00"
 provenance:
   - "4138778ebbc75ba6"
-pushes_per_week: [0, 2, 5, 1, 2, 1, 0, 0, 0, 1, 0, 40, 3]
+pushes_per_week: [0, 3, 4, 1, 2, 1, 0, 0, 0, 1, 0, 42, 3]
 windows:
   "7d":
-    pushes: 3
+    pushes: 5
     distinct_repos: 1
-    active_days: 2
+    active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 44
+    pushes: 46
     distinct_repos: 4
-    active_days: 6
+    active_days: 7
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 1
   "90d":
-    pushes: 55
+    pushes: 57
     distinct_repos: 10
-    active_days: 14
+    active_days: 15
     repos_not_owned: 10
     not_owned_basenames: 9
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 3.9286
-  repo_per_active_day: 0.7143
+  push_per_day: 3.8000
+  repo_per_active_day: 0.6667
   not_owned_ratio: 1.0000
   basename_concentration: 0.2000
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 3
+    pushes: 5
     distinct_repos: 1
-    pushes_per_repo: 3.0000
-    active_days: 2
+    pushes_per_repo: 5.0000
+    active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 44
+    pushes: 46
     distinct_repos: 4
-    pushes_per_repo: 11.0000
-    active_days: 6
+    pushes_per_repo: 11.5000
+    active_days: 7
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 1
   "90d":
-    pushes: 55
+    pushes: 57
     distinct_repos: 10
-    pushes_per_repo: 5.5000
-    active_days: 14
+    pushes_per_repo: 5.7000
+    active_days: 15
     repos_not_owned: 10
     not_owned_basenames: 9
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 14 active days in 90d — pass"
+  - "activity: 15 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "OpenVTOLPlane"
@@ -129,6 +129,6 @@ repos:
 
 # viniciusmiguel
 
-55 pushes across 10 repositories on 14 active days in the last 90 days of public GitHub push activity.
+57 pushes across 10 repositories on 15 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/viniciusmiguel

@@ -10,15 +10,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-20T06:04:57.914428+00:00"
+generated_at: "2026-10-21T06:05:19.754690+00:00"
 provenance:
   - "a5ffcd0a46dd44fd"
-pushes_per_week: [4, 0, 2, 5, 1, 1, 0, 0, 1, 2, 1, 1, 4]
+pushes_per_week: [3, 1, 2, 4, 1, 1, 0, 1, 0, 2, 1, 5, 0]
 windows:
   "7d":
-    pushes: 4
-    distinct_repos: 1
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -30,16 +30,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 22
+    pushes: 21
     distinct_repos: 2
-    active_days: 17
+    active_days: 16
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.2941
-  repo_per_active_day: 0.1176
+  push_per_day: 1.3125
+  repo_per_active_day: 0.1250
   not_owned_ratio: 0.5000
   basename_concentration: 1.0000
   shapes: []
@@ -50,10 +50,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 4
-    distinct_repos: 1
-    pushes_per_repo: 4.0000
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -66,16 +66,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 22
+    pushes: 21
     distinct_repos: 2
-    pushes_per_repo: 11.0000
-    active_days: 17
+    pushes_per_repo: 10.5000
+    active_days: 16
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 17 active days in 90d — pass"
+  - "activity: 16 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "dotfiles"
@@ -131,6 +131,6 @@ repos:
 
 # BenTheElder
 
-22 pushes across 2 repositories on 17 active days in the last 90 days of public GitHub push activity.
+21 pushes across 2 repositories on 16 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/BenTheElder

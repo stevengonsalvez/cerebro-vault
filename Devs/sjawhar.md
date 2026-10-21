@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-20T06:04:57.914428+00:00"
+generated_at: "2026-10-21T06:05:19.754690+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [8, 8, 4, 23, 3, 2, 1, 26, 19, 79, 22, 11, 2]
+pushes_per_week: [5, 8, 3, 24, 3, 1, 2, 28, 20, 77, 20, 12, 1]
 windows:
   "7d":
-    pushes: 3
+    pushes: 2
     distinct_repos: 1
-    active_days: 3
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 117
-    distinct_repos: 5
-    active_days: 22
+    pushes: 114
+    distinct_repos: 4
+    active_days: 21
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 208
-    distinct_repos: 16
-    active_days: 55
-    repos_not_owned: 4
-    not_owned_basenames: 4
-    not_owned_owners: 2
+    pushes: 204
+    distinct_repos: 15
+    active_days: 54
+    repos_not_owned: 3
+    not_owned_basenames: 3
+    not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 3.7818
-  repo_per_active_day: 0.2909
-  not_owned_ratio: 0.2500
-  basename_concentration: 0.1250
+  push_per_day: 3.7778
+  repo_per_active_day: 0.2778
+  not_owned_ratio: 0.2000
+  basename_concentration: 0.1333
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 3
+    pushes: 2
     distinct_repos: 1
-    pushes_per_repo: 3.0000
-    active_days: 3
+    pushes_per_repo: 2.0000
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 117
-    distinct_repos: 5
-    pushes_per_repo: 23.4000
-    active_days: 22
+    pushes: 114
+    distinct_repos: 4
+    pushes_per_repo: 28.5000
+    active_days: 21
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 208
-    distinct_repos: 16
-    pushes_per_repo: 13.0000
-    active_days: 55
-    repos_not_owned: 4
-    not_owned_basenames: 4
-    not_owned_owners: 2
+    pushes: 204
+    distinct_repos: 15
+    pushes_per_repo: 13.6000
+    active_days: 54
+    repos_not_owned: 3
+    not_owned_basenames: 3
+    not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 55 active days in 90d — pass"
+  - "activity: 54 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "dotfiles"
@@ -137,6 +137,6 @@ repos:
 
 # sjawhar
 
-208 pushes across 16 repositories on 55 active days in the last 90 days of public GitHub push activity.
+204 pushes across 15 repositories on 54 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/sjawhar

@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-20T06:04:57.914428+00:00"
+generated_at: "2026-10-21T06:05:19.754690+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [6, 0, 0, 4, 2, 2, 1, 2, 3, 4, 1, 7, 1]
+pushes_per_week: [5, 0, 0, 4, 2, 2, 2, 2, 2, 4, 1, 8, 0]
 windows:
   "7d":
-    pushes: 2
-    distinct_repos: 2
-    active_days: 2
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 14
-    distinct_repos: 6
-    active_days: 9
-    repos_not_owned: 3
-    not_owned_basenames: 3
+    pushes: 13
+    distinct_repos: 5
+    active_days: 8
+    repos_not_owned: 2
+    not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 33
-    distinct_repos: 9
-    active_days: 23
-    repos_not_owned: 6
-    not_owned_basenames: 6
-    not_owned_owners: 2
+    pushes: 32
+    distinct_repos: 8
+    active_days: 22
+    repos_not_owned: 5
+    not_owned_basenames: 5
+    not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.4348
-  repo_per_active_day: 0.3913
-  not_owned_ratio: 0.6667
-  basename_concentration: 0.1111
+  push_per_day: 1.4545
+  repo_per_active_day: 0.3636
+  not_owned_ratio: 0.6250
+  basename_concentration: 0.1250
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
-    distinct_repos: 2
+    pushes: 1
+    distinct_repos: 1
     pushes_per_repo: 1.0000
-    active_days: 2
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 14
-    distinct_repos: 6
-    pushes_per_repo: 2.3333
-    active_days: 9
-    repos_not_owned: 3
-    not_owned_basenames: 3
+    pushes: 13
+    distinct_repos: 5
+    pushes_per_repo: 2.6000
+    active_days: 8
+    repos_not_owned: 2
+    not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 33
-    distinct_repos: 9
-    pushes_per_repo: 3.6667
-    active_days: 23
-    repos_not_owned: 6
-    not_owned_basenames: 6
-    not_owned_owners: 2
+    pushes: 32
+    distinct_repos: 8
+    pushes_per_repo: 4.0000
+    active_days: 22
+    repos_not_owned: 5
+    not_owned_basenames: 5
+    not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 23 active days in 90d — pass"
+  - "activity: 22 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "astrbot_plugin_qq_custom_menu"
@@ -115,6 +115,6 @@ repos:
 
 # mantoujun12
 
-33 pushes across 9 repositories on 23 active days in the last 90 days of public GitHub push activity.
+32 pushes across 8 repositories on 22 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/mantoujun12

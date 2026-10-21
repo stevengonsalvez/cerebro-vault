@@ -5,16 +5,14 @@ discovered_via: "fanout"
 discovered_via_all:
   - "fanout"
 provenance_repos:
-  - "abhigyanpatwari/GitNexus"
   - "AlexsJones/llmfit"
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-20T06:04:57.914428+00:00"
+generated_at: "2026-10-21T06:05:19.754690+00:00"
 provenance:
   - "234088bc43763aa2"
-  - "3c90af76cbde0363"
-pushes_per_week: [52, 28, 30, 30, 0, 2, 0, 3, 4, 12, 3, 3, 0]
+pushes_per_week: [51, 24, 32, 24, 0, 2, 0, 3, 6, 11, 2, 3, 0]
 windows:
   "7d":
     pushes: 0
@@ -24,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 20
+    pushes: 18
     distinct_repos: 9
-    active_days: 12
+    active_days: 10
     repos_not_owned: 4
     not_owned_basenames: 3
     not_owned_owners: 4
   "90d":
-    pushes: 167
+    pushes: 158
     distinct_repos: 16
-    active_days: 42
+    active_days: 41
     repos_not_owned: 6
     not_owned_basenames: 5
     not_owned_owners: 5
 automation:
   state: "clear"
-  push_per_day: 3.9762
-  repo_per_active_day: 0.3810
+  push_per_day: 3.8537
+  repo_per_active_day: 0.3902
   not_owned_ratio: 0.3750
   basename_concentration: 0.1875
   shapes: []
@@ -59,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 20
+    pushes: 18
     distinct_repos: 9
-    pushes_per_repo: 2.2222
-    active_days: 12
+    pushes_per_repo: 2.0000
+    active_days: 10
     repos_not_owned: 4
     not_owned_basenames: 3
     not_owned_owners: 4
   "90d":
-    pushes: 167
+    pushes: 158
     distinct_repos: 16
-    pushes_per_repo: 10.4375
-    active_days: 42
+    pushes_per_repo: 9.8750
+    active_days: 41
     repos_not_owned: 6
     not_owned_basenames: 5
     not_owned_owners: 5
 reasons:
-  - "provenance: 2 vault signal(s) — pass"
-  - "activity: 42 active days in 90d — pass"
+  - "provenance: 1 vault signal(s) — pass"
+  - "activity: 41 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "dsh-auto-continue"
@@ -152,6 +150,6 @@ repos:
 
 # HsiangNianian
 
-167 pushes across 16 repositories on 42 active days in the last 90 days of public GitHub push activity.
+158 pushes across 16 repositories on 41 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/HsiangNianian

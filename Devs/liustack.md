@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-20T06:04:57.914428+00:00"
+generated_at: "2026-10-21T06:05:19.754690+00:00"
 provenance:
   - "6df1aababb3856e0"
-pushes_per_week: [28, 4, 3, 23, 3, 1, 0, 0, 0, 20, 6, 4, 2]
+pushes_per_week: [29, 4, 4, 20, 3, 1, 0, 0, 0, 20, 6, 5, 2]
 windows:
   "7d":
     pushes: 3
@@ -22,15 +22,15 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 32
-    distinct_repos: 4
-    active_days: 13
+    pushes: 33
+    distinct_repos: 5
+    active_days: 14
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
     pushes: 94
-    distinct_repos: 11
+    distinct_repos: 12
     active_days: 32
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -38,9 +38,9 @@ windows:
 automation:
   state: "clear"
   push_per_day: 2.9375
-  repo_per_active_day: 0.3438
+  repo_per_active_day: 0.3750
   not_owned_ratio: 0.0000
-  basename_concentration: 0.0909
+  basename_concentration: 0.0833
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -57,17 +57,17 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 32
-    distinct_repos: 4
-    pushes_per_repo: 8.0000
-    active_days: 13
+    pushes: 33
+    distinct_repos: 5
+    pushes_per_repo: 6.6000
+    active_days: 14
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
     pushes: 94
-    distinct_repos: 11
-    pushes_per_repo: 8.5455
+    distinct_repos: 12
+    pushes_per_repo: 7.8333
     active_days: 32
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -208,6 +208,6 @@ repos:
 
 # liustack
 
-94 pushes across 11 repositories on 32 active days in the last 90 days of public GitHub push activity.
+94 pushes across 12 repositories on 32 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/liustack

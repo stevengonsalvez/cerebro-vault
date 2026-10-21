@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-20T06:04:57.914428+00:00"
+generated_at: "2026-10-21T06:05:19.754690+00:00"
 provenance:
   - "9d67ce648f6a8919"
-pushes_per_week: [0, 6, 2, 3, 0, 0, 0, 2, 4, 6, 4, 2, 4]
+pushes_per_week: [0, 7, 1, 3, 0, 0, 0, 2, 4, 6, 4, 3, 4]
 windows:
   "7d":
-    pushes: 4
-    distinct_repos: 4
-    active_days: 2
+    pushes: 5
+    distinct_repos: 5
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 19
-    distinct_repos: 13
-    active_days: 10
+    pushes: 20
+    distinct_repos: 14
+    active_days: 11
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 33
-    distinct_repos: 23
-    active_days: 18
+    pushes: 34
+    distinct_repos: 24
+    active_days: 19
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.8333
-  repo_per_active_day: 1.2778
+  push_per_day: 1.7895
+  repo_per_active_day: 1.2632
   not_owned_ratio: 0.0000
-  basename_concentration: 0.0435
+  basename_concentration: 0.0417
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 4
-    distinct_repos: 4
+    pushes: 5
+    distinct_repos: 5
     pushes_per_repo: 1.0000
-    active_days: 2
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 19
-    distinct_repos: 13
-    pushes_per_repo: 1.4615
-    active_days: 10
+    pushes: 20
+    distinct_repos: 14
+    pushes_per_repo: 1.4286
+    active_days: 11
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 33
-    distinct_repos: 23
-    pushes_per_repo: 1.4348
-    active_days: 18
+    pushes: 34
+    distinct_repos: 24
+    pushes_per_repo: 1.4167
+    active_days: 19
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 18 active days in 90d — pass"
+  - "activity: 19 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "NIMStats"
@@ -150,6 +150,6 @@ repos:
 
 # MauroDruwel
 
-33 pushes across 23 repositories on 18 active days in the last 90 days of public GitHub push activity.
+34 pushes across 24 repositories on 19 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/MauroDruwel

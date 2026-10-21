@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-20T06:04:57.914428+00:00"
+generated_at: "2026-10-21T06:05:19.754690+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [87, 71, 15, 24, 1, 1, 3, 3, 25, 4, 1, 25, 5]
+pushes_per_week: [98, 58, 17, 20, 1, 1, 3, 5, 23, 4, 1, 26, 9]
 windows:
   "7d":
-    pushes: 11
-    distinct_repos: 4
-    active_days: 4
+    pushes: 9
+    distinct_repos: 2
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 35
+    pushes: 40
     distinct_repos: 8
     active_days: 11
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 265
-    distinct_repos: 15
-    active_days: 39
+    pushes: 266
+    distinct_repos: 14
+    active_days: 38
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 6.7949
-  repo_per_active_day: 0.3846
-  not_owned_ratio: 0.0667
-  basename_concentration: 0.1333
+  push_per_day: 7.0000
+  repo_per_active_day: 0.3684
+  not_owned_ratio: 0.0714
+  basename_concentration: 0.1429
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 11
-    distinct_repos: 4
-    pushes_per_repo: 2.7500
-    active_days: 4
+    pushes: 9
+    distinct_repos: 2
+    pushes_per_repo: 4.5000
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 35
+    pushes: 40
     distinct_repos: 8
-    pushes_per_repo: 4.3750
+    pushes_per_repo: 5.0000
     active_days: 11
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 265
-    distinct_repos: 15
-    pushes_per_repo: 17.6667
-    active_days: 39
+    pushes: 266
+    distinct_repos: 14
+    pushes_per_repo: 19.0000
+    active_days: 38
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 39 active days in 90d — pass"
+  - "activity: 38 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "enginery-qualification-calc"
@@ -160,6 +160,6 @@ repos:
 
 # Mathews-Tom
 
-265 pushes across 15 repositories on 39 active days in the last 90 days of public GitHub push activity.
+266 pushes across 14 repositories on 38 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Mathews-Tom

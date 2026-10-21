@@ -9,37 +9,37 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-20T06:04:57.914428+00:00"
+generated_at: "2026-10-21T06:05:19.754690+00:00"
 provenance:
   - "1df6ea1f1256059e"
   - "edb3a626875732de"
-pushes_per_week: [2, 0, 4, 2, 0, 0, 24, 18, 3, 9, 5, 23, 7]
+pushes_per_week: [2, 0, 6, 0, 0, 0, 30, 12, 3, 9, 5, 25, 13]
 windows:
   "7d":
-    pushes: 10
+    pushes: 15
     distinct_repos: 1
     active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 46
+    pushes: 52
     distinct_repos: 6
     active_days: 16
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 97
+    pushes: 105
     distinct_repos: 13
-    active_days: 30
+    active_days: 31
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 3.2333
-  repo_per_active_day: 0.4333
+  push_per_day: 3.3871
+  repo_per_active_day: 0.4194
   not_owned_ratio: 0.0000
   basename_concentration: 0.0769
   shapes: []
@@ -50,32 +50,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 10
+    pushes: 15
     distinct_repos: 1
-    pushes_per_repo: 10.0000
+    pushes_per_repo: 15.0000
     active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 46
+    pushes: 52
     distinct_repos: 6
-    pushes_per_repo: 7.6667
+    pushes_per_repo: 8.6667
     active_days: 16
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 97
+    pushes: 105
     distinct_repos: 13
-    pushes_per_repo: 7.4615
-    active_days: 30
+    pushes_per_repo: 8.0769
+    active_days: 31
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 30 active days in 90d — pass"
+  - "activity: 31 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "Dot"
@@ -139,6 +139,6 @@ repos:
 
 # senoldogann
 
-97 pushes across 13 repositories on 30 active days in the last 90 days of public GitHub push activity.
+105 pushes across 13 repositories on 31 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/senoldogann

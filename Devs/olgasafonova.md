@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-20T06:04:57.914428+00:00"
+generated_at: "2026-10-21T06:05:19.754690+00:00"
 provenance:
   - "3cb7ff1cdcf97c6b"
-pushes_per_week: [19, 8, 0, 16, 0, 1, 0, 1, 0, 2, 3, 3, 3]
+pushes_per_week: [18, 4, 6, 10, 0, 1, 1, 0, 0, 2, 3, 5, 2]
 windows:
   "7d":
-    pushes: 3
-    distinct_repos: 2
-    active_days: 2
+    pushes: 4
+    distinct_repos: 3
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 11
+    pushes: 12
     distinct_repos: 6
-    active_days: 8
+    active_days: 9
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 56
+    pushes: 52
     distinct_repos: 12
     active_days: 21
     repos_not_owned: 0
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.6667
+  push_per_day: 2.4762
   repo_per_active_day: 0.5714
   not_owned_ratio: 0.0000
   basename_concentration: 0.0833
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 3
-    distinct_repos: 2
-    pushes_per_repo: 1.5000
-    active_days: 2
+    pushes: 4
+    distinct_repos: 3
+    pushes_per_repo: 1.3333
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 11
+    pushes: 12
     distinct_repos: 6
-    pushes_per_repo: 1.8333
-    active_days: 8
+    pushes_per_repo: 2.0000
+    active_days: 9
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 56
+    pushes: 52
     distinct_repos: 12
-    pushes_per_repo: 4.6667
+    pushes_per_repo: 4.3333
     active_days: 21
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -192,6 +192,6 @@ repos:
 
 # olgasafonova
 
-56 pushes across 12 repositories on 21 active days in the last 90 days of public GitHub push activity.
+52 pushes across 12 repositories on 21 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/olgasafonova

@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-20T06:04:57.914428+00:00"
+generated_at: "2026-10-21T06:05:19.754690+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [25, 31, 36, 59, 8, 16, 0, 1, 11, 1, 31, 13, 24]
+pushes_per_week: [23, 28, 55, 38, 9, 15, 0, 3, 10, 1, 30, 18, 42]
 windows:
   "7d":
-    pushes: 31
+    pushes: 46
     distinct_repos: 5
     active_days: 4
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 1
   "30d":
-    pushes: 70
+    pushes: 93
     distinct_repos: 13
-    active_days: 16
+    active_days: 17
     repos_not_owned: 8
     not_owned_basenames: 8
     not_owned_owners: 1
   "90d":
-    pushes: 256
-    distinct_repos: 20
+    pushes: 272
+    distinct_repos: 19
     active_days: 51
-    repos_not_owned: 9
-    not_owned_basenames: 9
+    repos_not_owned: 8
+    not_owned_basenames: 8
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 5.0196
-  repo_per_active_day: 0.3922
-  not_owned_ratio: 0.4500
-  basename_concentration: 0.1000
+  push_per_day: 5.3333
+  repo_per_active_day: 0.3725
+  not_owned_ratio: 0.4211
+  basename_concentration: 0.1053
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,28 +49,28 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 31
+    pushes: 46
     distinct_repos: 5
-    pushes_per_repo: 6.2000
+    pushes_per_repo: 9.2000
     active_days: 4
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 1
   "30d":
-    pushes: 70
+    pushes: 93
     distinct_repos: 13
-    pushes_per_repo: 5.3846
-    active_days: 16
+    pushes_per_repo: 7.1538
+    active_days: 17
     repos_not_owned: 8
     not_owned_basenames: 8
     not_owned_owners: 1
   "90d":
-    pushes: 256
-    distinct_repos: 20
-    pushes_per_repo: 12.8000
+    pushes: 272
+    distinct_repos: 19
+    pushes_per_repo: 14.3158
     active_days: 51
-    repos_not_owned: 9
-    not_owned_basenames: 9
+    repos_not_owned: 8
+    not_owned_basenames: 8
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
@@ -152,6 +152,6 @@ repos:
 
 # kitlangton
 
-256 pushes across 20 repositories on 51 active days in the last 90 days of public GitHub push activity.
+272 pushes across 19 repositories on 51 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/kitlangton

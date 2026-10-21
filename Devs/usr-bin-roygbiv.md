@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-20T06:04:57.914428+00:00"
+generated_at: "2026-10-21T06:05:19.754690+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [201, 84, 30, 15, 0, 1, 0, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [183, 79, 31, 14, 0, 1, 0, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 331
+    pushes: 308
     distinct_repos: 13
-    active_days: 23
+    active_days: 22
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 14.3913
-  repo_per_active_day: 0.5652
+  push_per_day: 14.0000
+  repo_per_active_day: 0.5909
   not_owned_ratio: 0.0000
   basename_concentration: 0.0769
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 331
+    pushes: 308
     distinct_repos: 13
-    pushes_per_repo: 25.4615
-    active_days: 23
+    pushes_per_repo: 23.6923
+    active_days: 22
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 23 active days in 90d — pass"
+  - "activity: 22 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "remote-tech-jobs"
@@ -160,6 +160,6 @@ repos:
 
 # usr-bin-roygbiv
 
-331 pushes across 13 repositories on 23 active days in the last 90 days of public GitHub push activity.
+308 pushes across 13 repositories on 22 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/usr-bin-roygbiv

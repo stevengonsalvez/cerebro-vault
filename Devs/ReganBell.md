@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-20T06:04:57.914428+00:00"
+generated_at: "2026-10-21T06:05:19.754690+00:00"
 provenance:
   - "872178780cb4ed91"
-pushes_per_week: [0, 16, 0, 23, 0, 0, 1, 2, 42, 11, 40, 25, 26]
+pushes_per_week: [3, 13, 0, 23, 0, 0, 1, 13, 34, 12, 36, 36, 26]
 windows:
   "7d":
-    pushes: 37
+    pushes: 28
     distinct_repos: 1
-    active_days: 4
+    active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 111
+    pushes: 120
     distinct_repos: 1
     active_days: 17
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 186
+    pushes: 197
     distinct_repos: 1
     active_days: 28
     repos_not_owned: 1
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 6.6429
+  push_per_day: 7.0357
   repo_per_active_day: 0.0357
   not_owned_ratio: 1.0000
   basename_concentration: 1.0000
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 37
+    pushes: 28
     distinct_repos: 1
-    pushes_per_repo: 37.0000
-    active_days: 4
+    pushes_per_repo: 28.0000
+    active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 111
+    pushes: 120
     distinct_repos: 1
-    pushes_per_repo: 111.0000
+    pushes_per_repo: 120.0000
     active_days: 17
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 186
+    pushes: 197
     distinct_repos: 1
-    pushes_per_repo: 186.0000
+    pushes_per_repo: 197.0000
     active_days: 28
     repos_not_owned: 1
     not_owned_basenames: 1
@@ -129,6 +129,6 @@ repos:
 
 # ReganBell
 
-186 pushes across 1 repository on 28 active days in the last 90 days of public GitHub push activity.
+197 pushes across 1 repository on 28 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ReganBell

@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-20T06:04:57.914428+00:00"
+generated_at: "2026-10-21T06:05:19.754690+00:00"
 provenance:
   - "16389f32495280ea"
-pushes_per_week: [0, 4, 2, 1, 1, 1, 0, 1, 15, 8, 4, 1, 0]
+pushes_per_week: [0, 5, 1, 1, 2, 0, 0, 1, 17, 6, 4, 1, 1]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
-  "30d":
-    pushes: 17
+    pushes: 1
     distinct_repos: 1
-    active_days: 12
+    active_days: 1
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
+  "30d":
+    pushes: 16
+    distinct_repos: 2
+    active_days: 12
+    repos_not_owned: 2
+    not_owned_basenames: 2
+    not_owned_owners: 1
   "90d":
-    pushes: 38
-    distinct_repos: 8
-    active_days: 24
-    repos_not_owned: 4
-    not_owned_basenames: 4
+    pushes: 39
+    distinct_repos: 9
+    active_days: 25
+    repos_not_owned: 5
+    not_owned_basenames: 5
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 1.5833
-  repo_per_active_day: 0.3333
-  not_owned_ratio: 0.5000
-  basename_concentration: 0.1250
+  push_per_day: 1.5600
+  repo_per_active_day: 0.3600
+  not_owned_ratio: 0.5556
+  basename_concentration: 0.1111
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
-  "30d":
-    pushes: 17
+    pushes: 1
     distinct_repos: 1
-    pushes_per_repo: 17.0000
-    active_days: 12
+    pushes_per_repo: 1.0000
+    active_days: 1
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
+  "30d":
+    pushes: 16
+    distinct_repos: 2
+    pushes_per_repo: 8.0000
+    active_days: 12
+    repos_not_owned: 2
+    not_owned_basenames: 2
+    not_owned_owners: 1
   "90d":
-    pushes: 38
-    distinct_repos: 8
-    pushes_per_repo: 4.7500
-    active_days: 24
-    repos_not_owned: 4
-    not_owned_basenames: 4
+    pushes: 39
+    distinct_repos: 9
+    pushes_per_repo: 4.3333
+    active_days: 25
+    repos_not_owned: 5
+    not_owned_basenames: 5
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 24 active days in 90d — pass"
+  - "activity: 25 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "comic-alpha"
@@ -129,6 +129,6 @@ repos:
 
 # hetaoBackend
 
-38 pushes across 8 repositories on 24 active days in the last 90 days of public GitHub push activity.
+39 pushes across 9 repositories on 25 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/hetaoBackend

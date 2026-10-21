@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-20T06:04:57.914428+00:00"
+generated_at: "2026-10-21T06:05:19.754690+00:00"
 provenance:
   - "16389f32495280ea"
-pushes_per_week: [9, 6, 9, 7, 1, 2, 3, 10, 26, 37, 24, 47, 18]
+pushes_per_week: [6, 8, 8, 4, 1, 2, 3, 11, 30, 36, 20, 56, 10]
 windows:
   "7d":
-    pushes: 22
+    pushes: 17
     distinct_repos: 1
     active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 133
+    pushes: 130
     distinct_repos: 3
     active_days: 23
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 199
+    pushes: 195
     distinct_repos: 4
-    active_days: 51
+    active_days: 50
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 3.9020
-  repo_per_active_day: 0.0784
+  push_per_day: 3.9000
+  repo_per_active_day: 0.0800
   not_owned_ratio: 0.2500
   basename_concentration: 0.5000
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 22
+    pushes: 17
     distinct_repos: 1
-    pushes_per_repo: 22.0000
+    pushes_per_repo: 17.0000
     active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 133
+    pushes: 130
     distinct_repos: 3
-    pushes_per_repo: 44.3333
+    pushes_per_repo: 43.3333
     active_days: 23
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 199
+    pushes: 195
     distinct_repos: 4
-    pushes_per_repo: 49.7500
-    active_days: 51
+    pushes_per_repo: 48.7500
+    active_days: 50
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 51 active days in 90d — pass"
+  - "activity: 50 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "wuu"
@@ -171,6 +171,6 @@ repos:
 
 # blueberrycongee
 
-199 pushes across 4 repositories on 51 active days in the last 90 days of public GitHub push activity.
+195 pushes across 4 repositories on 50 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/blueberrycongee

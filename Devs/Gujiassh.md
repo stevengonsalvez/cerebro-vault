@@ -11,38 +11,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-20T06:04:57.914428+00:00"
+generated_at: "2026-10-21T06:05:19.754690+00:00"
 provenance:
   - "16389f32495280ea"
   - "3c90af76cbde0363"
   - "d1946b21c02e5fa5"
-pushes_per_week: [6, 2, 0, 13, 3, 1, 0, 0, 2, 8, 0, 0, 0]
+pushes_per_week: [7, 1, 2, 12, 2, 1, 0, 0, 7, 3, 0, 0, 2]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
+    pushes: 2
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 10
-    distinct_repos: 4
+    pushes: 11
+    distinct_repos: 3
     active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 35
+    pushes: 37
     distinct_repos: 8
-    active_days: 18
+    active_days: 19
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.9444
-  repo_per_active_day: 0.4444
+  push_per_day: 1.9474
+  repo_per_active_day: 0.4211
   not_owned_ratio: 0.0000
   basename_concentration: 0.1250
   shapes: []
@@ -53,32 +53,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
+    pushes: 2
+    distinct_repos: 1
+    pushes_per_repo: 2.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 10
-    distinct_repos: 4
-    pushes_per_repo: 2.5000
+    pushes: 11
+    distinct_repos: 3
+    pushes_per_repo: 3.6667
     active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 35
+    pushes: 37
     distinct_repos: 8
-    pushes_per_repo: 4.3750
-    active_days: 18
+    pushes_per_repo: 4.6250
+    active_days: 19
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 3 vault signal(s) — pass"
-  - "activity: 18 active days in 90d — pass"
+  - "activity: 19 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "citeframe"
@@ -169,6 +169,6 @@ repos:
 
 # Gujiassh
 
-35 pushes across 8 repositories on 18 active days in the last 90 days of public GitHub push activity.
+37 pushes across 8 repositories on 19 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Gujiassh

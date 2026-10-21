@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-20T06:04:57.914428+00:00"
+generated_at: "2026-10-21T06:05:19.754690+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [10, 1, 3, 1, 0, 0, 0, 0, 5, 27, 6, 5, 4]
+pushes_per_week: [8, 0, 3, 1, 0, 0, 0, 1, 5, 28, 4, 6, 3]
 windows:
   "7d":
-    pushes: 5
+    pushes: 4
     distinct_repos: 2
-    active_days: 3
+    active_days: 2
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
   "30d":
-    pushes: 44
+    pushes: 43
     distinct_repos: 5
-    active_days: 17
+    active_days: 16
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 2
   "90d":
-    pushes: 62
+    pushes: 59
     distinct_repos: 8
-    active_days: 28
+    active_days: 27
     repos_not_owned: 6
     not_owned_basenames: 6
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 2.2143
-  repo_per_active_day: 0.2857
+  push_per_day: 2.1852
+  repo_per_active_day: 0.2963
   not_owned_ratio: 0.7500
   basename_concentration: 0.1250
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 5
+    pushes: 4
     distinct_repos: 2
-    pushes_per_repo: 2.5000
-    active_days: 3
+    pushes_per_repo: 2.0000
+    active_days: 2
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
   "30d":
-    pushes: 44
+    pushes: 43
     distinct_repos: 5
-    pushes_per_repo: 8.8000
-    active_days: 17
+    pushes_per_repo: 8.6000
+    active_days: 16
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 2
   "90d":
-    pushes: 62
+    pushes: 59
     distinct_repos: 8
-    pushes_per_repo: 7.7500
-    active_days: 28
+    pushes_per_repo: 7.3750
+    active_days: 27
     repos_not_owned: 6
     not_owned_basenames: 6
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 28 active days in 90d — pass"
+  - "activity: 27 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "free-one-api"
@@ -154,6 +154,6 @@ repos:
 
 # RockChinQ
 
-62 pushes across 8 repositories on 28 active days in the last 90 days of public GitHub push activity.
+59 pushes across 8 repositories on 27 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/RockChinQ

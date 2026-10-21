@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-20T06:04:57.914428+00:00"
+generated_at: "2026-10-21T06:05:19.754690+00:00"
 provenance:
   - "46f3c1d6124190bd"
-pushes_per_week: [4, 4, 2, 2, 4, 0, 0, 18, 28, 9, 5, 7, 0]
+pushes_per_week: [6, 1, 3, 1, 4, 0, 0, 21, 25, 9, 5, 7, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 28
+    pushes: 23
     distinct_repos: 13
-    active_days: 13
+    active_days: 11
     repos_not_owned: 6
     not_owned_basenames: 6
     not_owned_owners: 2
   "90d":
-    pushes: 83
+    pushes: 82
     distinct_repos: 23
-    active_days: 30
+    active_days: 29
     repos_not_owned: 9
     not_owned_basenames: 9
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 2.7667
-  repo_per_active_day: 0.7667
+  push_per_day: 2.8276
+  repo_per_active_day: 0.7931
   not_owned_ratio: 0.3913
   basename_concentration: 0.0435
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 28
+    pushes: 23
     distinct_repos: 13
-    pushes_per_repo: 2.1538
-    active_days: 13
+    pushes_per_repo: 1.7692
+    active_days: 11
     repos_not_owned: 6
     not_owned_basenames: 6
     not_owned_owners: 2
   "90d":
-    pushes: 83
+    pushes: 82
     distinct_repos: 23
-    pushes_per_repo: 3.6087
-    active_days: 30
+    pushes_per_repo: 3.5652
+    active_days: 29
     repos_not_owned: 9
     not_owned_basenames: 9
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 30 active days in 90d — pass"
+  - "activity: 29 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "webdevtodayjason"
@@ -137,6 +137,6 @@ repos:
 
 # webdevtodayjason
 
-83 pushes across 23 repositories on 30 active days in the last 90 days of public GitHub push activity.
+82 pushes across 23 repositories on 29 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/webdevtodayjason

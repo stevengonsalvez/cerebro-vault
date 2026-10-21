@@ -11,11 +11,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-20T06:04:57.914428+00:00"
+generated_at: "2026-10-21T06:05:19.754690+00:00"
 provenance:
   - "48dbbdd8fd0d3029"
   - "8baedcc9c29d068b"
-pushes_per_week: [5, 2, 1, 8, 0, 0, 0, 3, 0, 1, 1, 0, 0]
+pushes_per_week: [3, 2, 1, 8, 0, 0, 0, 3, 0, 1, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -32,16 +32,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 21
+    pushes: 19
     distinct_repos: 5
-    active_days: 14
+    active_days: 13
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 1.5000
-  repo_per_active_day: 0.3571
+  push_per_day: 1.4615
+  repo_per_active_day: 0.3846
   not_owned_ratio: 0.6000
   basename_concentration: 0.4000
   shapes: []
@@ -68,16 +68,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 21
+    pushes: 19
     distinct_repos: 5
-    pushes_per_repo: 4.2000
-    active_days: 14
+    pushes_per_repo: 3.8000
+    active_days: 13
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 14 active days in 90d — pass"
+  - "activity: 13 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "agentskills-build-for-well-known"
@@ -155,6 +155,6 @@ repos:
 
 # jonathanhefner
 
-21 pushes across 5 repositories on 14 active days in the last 90 days of public GitHub push activity.
+19 pushes across 5 repositories on 13 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/jonathanhefner

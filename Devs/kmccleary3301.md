@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-20T06:04:57.914428+00:00"
+generated_at: "2026-10-21T06:05:19.754690+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [16, 17, 4, 17, 7, 9, 0, 1, 2, 12, 1, 4, 2]
+pushes_per_week: [17, 17, 8, 11, 7, 9, 0, 1, 5, 9, 1, 6, 0]
 windows:
   "7d":
-    pushes: 5
+    pushes: 1
     distinct_repos: 1
-    active_days: 2
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 92
+    pushes: 91
     distinct_repos: 5
-    active_days: 33
+    active_days: 32
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.7879
-  repo_per_active_day: 0.1515
+  push_per_day: 2.8438
+  repo_per_active_day: 0.1562
   not_owned_ratio: 0.0000
   basename_concentration: 0.2000
   shapes: []
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 5
+    pushes: 1
     distinct_repos: 1
-    pushes_per_repo: 5.0000
-    active_days: 2
+    pushes_per_repo: 1.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 92
+    pushes: 91
     distinct_repos: 5
-    pushes_per_repo: 18.4000
-    active_days: 33
+    pushes_per_repo: 18.2000
+    active_days: 32
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 33 active days in 90d — pass"
+  - "activity: 32 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "nested_learning"
@@ -129,6 +129,6 @@ repos:
 
 # kmccleary3301
 
-92 pushes across 5 repositories on 33 active days in the last 90 days of public GitHub push activity.
+91 pushes across 5 repositories on 32 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/kmccleary3301

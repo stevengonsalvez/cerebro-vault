@@ -9,30 +9,30 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-20T06:04:57.914428+00:00"
+generated_at: "2026-10-21T06:05:19.754690+00:00"
 provenance:
   - "1be978947e68d1f2"
   - "98a2deac3e2f9725"
   - "b949a65ff91f9791"
   - "e9879ff70aa53e1e"
-pushes_per_week: [8, 6, 7, 5, 5, 2, 6, 4, 12, 6, 11, 7, 3]
+pushes_per_week: [6, 6, 8, 4, 5, 2, 7, 3, 13, 5, 11, 7, 4]
 windows:
   "7d":
-    pushes: 5
-    distinct_repos: 2
+    pushes: 4
+    distinct_repos: 3
     active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 30
+    pushes: 29
     distinct_repos: 8
-    active_days: 15
+    active_days: 14
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 82
+    pushes: 81
     distinct_repos: 15
     active_days: 43
     repos_not_owned: 0
@@ -40,7 +40,7 @@ windows:
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.9070
+  push_per_day: 1.8837
   repo_per_active_day: 0.3488
   not_owned_ratio: 0.0000
   basename_concentration: 0.0667
@@ -52,25 +52,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 5
-    distinct_repos: 2
-    pushes_per_repo: 2.5000
+    pushes: 4
+    distinct_repos: 3
+    pushes_per_repo: 1.3333
     active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 30
+    pushes: 29
     distinct_repos: 8
-    pushes_per_repo: 3.7500
-    active_days: 15
+    pushes_per_repo: 3.6250
+    active_days: 14
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 82
+    pushes: 81
     distinct_repos: 15
-    pushes_per_repo: 5.4667
+    pushes_per_repo: 5.4000
     active_days: 43
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -137,6 +137,6 @@ repos:
 
 # kfet
 
-82 pushes across 15 repositories on 43 active days in the last 90 days of public GitHub push activity.
+81 pushes across 15 repositories on 43 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/kfet

@@ -9,70 +9,70 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-20T06:04:57.914428+00:00"
+generated_at: "2026-10-21T06:05:19.754690+00:00"
 provenance:
   - "0b5c4741d1c147be"
-pushes_per_week: [628, 488, 685, 680, 125, 159, 240, 478, 1096, 1204, 917, 1018, 370]
+pushes_per_week: [654, 410, 802, 552, 157, 109, 247, 553, 1144, 1166, 825, 1210, 303]
 windows:
   "7d":
-    pushes: 603
-    distinct_repos: 41
+    pushes: 412
+    distinct_repos: 38
     active_days: 5
-    repos_not_owned: 36
-    not_owned_basenames: 17
-    not_owned_owners: 21
+    repos_not_owned: 32
+    not_owned_basenames: 20
+    not_owned_owners: 14
   "30d":
-    pushes: 3971
-    distinct_repos: 151
+    pushes: 3845
+    distinct_repos: 147
     active_days: 27
-    repos_not_owned: 131
+    repos_not_owned: 126
     not_owned_basenames: 53
-    not_owned_owners: 74
+    not_owned_owners: 70
   "90d":
-    pushes: 8088
-    distinct_repos: 319
+    pushes: 8132
+    distinct_repos: 320
     active_days: 84
-    repos_not_owned: 276
-    not_owned_basenames: 81
+    repos_not_owned: 277
+    not_owned_basenames: 82
     not_owned_owners: 183
 automation:
   state: "clear"
-  push_per_day: 96.2857
-  repo_per_active_day: 3.7976
-  not_owned_ratio: 0.8652
-  basename_concentration: 0.2853
+  push_per_day: 96.8095
+  repo_per_active_day: 3.8095
+  not_owned_ratio: 0.8656
+  basename_concentration: 0.2812
   shapes:
     - "high_push_rate"
   shape_evidence:
-    - "96.29 pushes per active day over 90d (8088 pushes / 84 active days), above the 15 review line"
+    - "96.81 pushes per active day over 90d (8132 pushes / 84 active days), above the 15 review line"
   cleared_by: "e01-builder"
   cleared_on: "2026-08-26"
   fork_provenance: null
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 603
-    distinct_repos: 41
-    pushes_per_repo: 14.7073
+    pushes: 412
+    distinct_repos: 38
+    pushes_per_repo: 10.8421
     active_days: 5
-    repos_not_owned: 36
-    not_owned_basenames: 17
-    not_owned_owners: 21
+    repos_not_owned: 32
+    not_owned_basenames: 20
+    not_owned_owners: 14
   "30d":
-    pushes: 3971
-    distinct_repos: 151
-    pushes_per_repo: 26.2980
+    pushes: 3845
+    distinct_repos: 147
+    pushes_per_repo: 26.1565
     active_days: 27
-    repos_not_owned: 131
+    repos_not_owned: 126
     not_owned_basenames: 53
-    not_owned_owners: 74
+    not_owned_owners: 70
   "90d":
-    pushes: 8088
-    distinct_repos: 319
-    pushes_per_repo: 25.3542
+    pushes: 8132
+    distinct_repos: 320
+    pushes_per_repo: 25.4125
     active_days: 84
-    repos_not_owned: 276
-    not_owned_basenames: 81
+    repos_not_owned: 277
+    not_owned_basenames: 82
     not_owned_owners: 183
 reasons:
   - "provenance: 1 vault signal(s) — pass"
@@ -152,6 +152,6 @@ repos:
 
 # steipete
 
-8088 pushes across 319 repositories on 84 active days in the last 90 days of public GitHub push activity.
+8132 pushes across 320 repositories on 84 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/steipete

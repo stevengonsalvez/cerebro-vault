@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-20T06:04:57.914428+00:00"
+generated_at: "2026-10-21T06:05:19.754690+00:00"
 provenance:
   - "dffbb846389f9a26"
-pushes_per_week: [3, 0, 2, 1, 0, 1, 2, 1, 7, 0, 10, 9, 2]
+pushes_per_week: [2, 0, 2, 1, 0, 1, 2, 1, 7, 0, 10, 10, 1]
 windows:
   "7d":
-    pushes: 5
+    pushes: 2
     distinct_repos: 2
-    active_days: 3
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 25
+    pushes: 23
     distinct_repos: 8
-    active_days: 12
+    active_days: 11
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 38
-    distinct_repos: 12
-    active_days: 21
+    pushes: 37
+    distinct_repos: 11
+    active_days: 20
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.8095
-  repo_per_active_day: 0.5714
+  push_per_day: 1.8500
+  repo_per_active_day: 0.5500
   not_owned_ratio: 0.0000
-  basename_concentration: 0.0833
+  basename_concentration: 0.0909
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 5
+    pushes: 2
     distinct_repos: 2
-    pushes_per_repo: 2.5000
-    active_days: 3
+    pushes_per_repo: 1.0000
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 25
+    pushes: 23
     distinct_repos: 8
-    pushes_per_repo: 3.1250
-    active_days: 12
+    pushes_per_repo: 2.8750
+    active_days: 11
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 38
-    distinct_repos: 12
-    pushes_per_repo: 3.1667
-    active_days: 21
+    pushes: 37
+    distinct_repos: 11
+    pushes_per_repo: 3.3636
+    active_days: 20
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 21 active days in 90d — pass"
+  - "activity: 20 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "superset-plugin-chart-hierarchical-table"
@@ -129,6 +129,6 @@ repos:
 
 # FrancescoCastaldi
 
-38 pushes across 12 repositories on 21 active days in the last 90 days of public GitHub push activity.
+37 pushes across 11 repositories on 20 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/FrancescoCastaldi

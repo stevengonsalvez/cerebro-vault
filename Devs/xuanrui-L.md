@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-20T06:04:57.914428+00:00"
+generated_at: "2026-10-21T06:05:19.754690+00:00"
 provenance:
   - "541318303a272608"
-pushes_per_week: [3, 14, 9, 2, 3, 1, 0, 5, 4, 0, 0, 0, 0]
+pushes_per_week: [6, 13, 7, 0, 3, 1, 0, 5, 4, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 41
+    pushes: 39
     distinct_repos: 3
-    active_days: 22
+    active_days: 20
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 1.8636
-  repo_per_active_day: 0.1364
+  push_per_day: 1.9500
+  repo_per_active_day: 0.1500
   not_owned_ratio: 0.6667
   basename_concentration: 1.0000
   shapes: []
@@ -65,22 +65,22 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 41
+    pushes: 39
     distinct_repos: 3
-    pushes_per_repo: 13.6667
-    active_days: 22
+    pushes_per_repo: 13.0000
+    active_days: 20
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 22 active days in 90d — pass"
+  - "activity: 20 active days in 90d — pass"
   - "automation: clear — pass"
 repos: []
 ---
 
 # xuanrui-L
 
-41 pushes across 3 repositories on 22 active days in the last 90 days of public GitHub push activity.
+39 pushes across 3 repositories on 20 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/xuanrui-L

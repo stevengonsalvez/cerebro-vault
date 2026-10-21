@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-20T06:04:57.914428+00:00"
+generated_at: "2026-10-21T06:05:19.754690+00:00"
 provenance:
   - "406a85b388590eb0"
-pushes_per_week: [5, 0, 3, 9, 2, 4, 1, 7, 6, 6, 35, 1, 1]
+pushes_per_week: [5, 0, 3, 9, 6, 0, 1, 7, 8, 5, 34, 1, 3]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
-    repos_not_owned: 1
-    not_owned_basenames: 1
+    pushes: 3
+    distinct_repos: 2
+    active_days: 2
+    repos_not_owned: 2
+    not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
     pushes: 46
-    distinct_repos: 8
+    distinct_repos: 9
     active_days: 15
-    repos_not_owned: 8
-    not_owned_basenames: 8
+    repos_not_owned: 9
+    not_owned_basenames: 9
     not_owned_owners: 1
   "90d":
-    pushes: 80
-    distinct_repos: 20
-    active_days: 34
-    repos_not_owned: 12
-    not_owned_basenames: 12
+    pushes: 82
+    distinct_repos: 21
+    active_days: 35
+    repos_not_owned: 13
+    not_owned_basenames: 13
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 2.3529
-  repo_per_active_day: 0.5882
-  not_owned_ratio: 0.6000
-  basename_concentration: 0.1000
+  push_per_day: 2.3429
+  repo_per_active_day: 0.6000
+  not_owned_ratio: 0.6190
+  basename_concentration: 0.0952
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
-    repos_not_owned: 1
-    not_owned_basenames: 1
+    pushes: 3
+    distinct_repos: 2
+    pushes_per_repo: 1.5000
+    active_days: 2
+    repos_not_owned: 2
+    not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
     pushes: 46
-    distinct_repos: 8
-    pushes_per_repo: 5.7500
+    distinct_repos: 9
+    pushes_per_repo: 5.1111
     active_days: 15
-    repos_not_owned: 8
-    not_owned_basenames: 8
+    repos_not_owned: 9
+    not_owned_basenames: 9
     not_owned_owners: 1
   "90d":
-    pushes: 80
-    distinct_repos: 20
-    pushes_per_repo: 4.0000
-    active_days: 34
-    repos_not_owned: 12
-    not_owned_basenames: 12
+    pushes: 82
+    distinct_repos: 21
+    pushes_per_repo: 3.9048
+    active_days: 35
+    repos_not_owned: 13
+    not_owned_basenames: 13
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 34 active days in 90d — pass"
+  - "activity: 35 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "devoxx-demo"
@@ -129,6 +129,6 @@ repos:
 
 # johnsonr
 
-80 pushes across 20 repositories on 34 active days in the last 90 days of public GitHub push activity.
+82 pushes across 21 repositories on 35 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/johnsonr

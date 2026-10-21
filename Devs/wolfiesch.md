@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-20T06:04:57.914428+00:00"
+generated_at: "2026-10-21T06:05:19.754690+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [50, 47, 10, 0, 5, 6, 0, 0, 1, 2, 5, 7, 0]
+pushes_per_week: [52, 41, 10, 1, 4, 6, 0, 0, 1, 2, 5, 7, 1]
 windows:
   "7d":
-    pushes: 2
+    pushes: 1
     distinct_repos: 1
     active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 14
-    distinct_repos: 5
-    active_days: 8
+    pushes: 15
+    distinct_repos: 6
+    active_days: 9
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 133
+    pushes: 130
     distinct_repos: 13
     active_days: 29
     repos_not_owned: 4
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 4.5862
+  push_per_day: 4.4828
   repo_per_active_day: 0.4483
   not_owned_ratio: 0.3077
   basename_concentration: 0.0769
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
+    pushes: 1
     distinct_repos: 1
-    pushes_per_repo: 2.0000
+    pushes_per_repo: 1.0000
     active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 14
-    distinct_repos: 5
-    pushes_per_repo: 2.8000
-    active_days: 8
+    pushes: 15
+    distinct_repos: 6
+    pushes_per_repo: 2.5000
+    active_days: 9
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 133
+    pushes: 130
     distinct_repos: 13
-    pushes_per_repo: 10.2308
+    pushes_per_repo: 10.0000
     active_days: 29
     repos_not_owned: 4
     not_owned_basenames: 4
@@ -161,6 +161,6 @@ repos:
 
 # wolfiesch
 
-133 pushes across 13 repositories on 29 active days in the last 90 days of public GitHub push activity.
+130 pushes across 13 repositories on 29 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/wolfiesch

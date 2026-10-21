@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-20T06:04:57.914428+00:00"
+generated_at: "2026-10-21T06:05:19.754690+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [8, 17, 6, 12, 2, 7, 0, 10, 26, 37, 29, 19, 0]
+pushes_per_week: [18, 11, 1, 12, 2, 7, 0, 18, 28, 28, 28, 19, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 95
-    distinct_repos: 5
-    active_days: 23
-    repos_not_owned: 4
-    not_owned_basenames: 4
-    not_owned_owners: 2
+    pushes: 93
+    distinct_repos: 4
+    active_days: 22
+    repos_not_owned: 3
+    not_owned_basenames: 3
+    not_owned_owners: 1
   "90d":
-    pushes: 173
+    pushes: 172
     distinct_repos: 10
-    active_days: 51
+    active_days: 50
     repos_not_owned: 9
     not_owned_basenames: 5
     not_owned_owners: 6
 automation:
   state: "clear"
-  push_per_day: 3.3922
-  repo_per_active_day: 0.1961
+  push_per_day: 3.4400
+  repo_per_active_day: 0.2000
   not_owned_ratio: 0.9000
   basename_concentration: 0.5000
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 95
-    distinct_repos: 5
-    pushes_per_repo: 19.0000
-    active_days: 23
-    repos_not_owned: 4
-    not_owned_basenames: 4
-    not_owned_owners: 2
+    pushes: 93
+    distinct_repos: 4
+    pushes_per_repo: 23.2500
+    active_days: 22
+    repos_not_owned: 3
+    not_owned_basenames: 3
+    not_owned_owners: 1
   "90d":
-    pushes: 173
+    pushes: 172
     distinct_repos: 10
-    pushes_per_repo: 17.3000
-    active_days: 51
+    pushes_per_repo: 17.2000
+    active_days: 50
     repos_not_owned: 9
     not_owned_basenames: 5
     not_owned_owners: 6
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 51 active days in 90d — pass"
+  - "activity: 50 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "personal-site"
@@ -129,6 +129,6 @@ repos:
 
 # RhysSullivan
 
-173 pushes across 10 repositories on 51 active days in the last 90 days of public GitHub push activity.
+172 pushes across 10 repositories on 50 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/RhysSullivan

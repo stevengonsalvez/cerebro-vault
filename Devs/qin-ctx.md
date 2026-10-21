@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-20T06:04:57.914428+00:00"
+generated_at: "2026-10-21T06:05:19.754690+00:00"
 provenance:
   - "876fe6c1edb8596c"
-pushes_per_week: [5, 3, 2, 3, 3, 1, 3, 3, 9, 10, 0, 4, 2]
+pushes_per_week: [4, 2, 3, 2, 3, 1, 3, 5, 11, 6, 0, 6, 1]
 windows:
   "7d":
-    pushes: 2
+    pushes: 3
     distinct_repos: 2
-    active_days: 1
+    active_days: 2
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
   "30d":
-    pushes: 23
-    distinct_repos: 3
+    pushes: 19
+    distinct_repos: 2
     active_days: 9
-    repos_not_owned: 3
+    repos_not_owned: 2
     not_owned_basenames: 1
-    not_owned_owners: 3
+    not_owned_owners: 2
   "90d":
-    pushes: 48
-    distinct_repos: 6
-    active_days: 25
-    repos_not_owned: 6
+    pushes: 47
+    distinct_repos: 5
+    active_days: 24
+    repos_not_owned: 5
     not_owned_basenames: 1
-    not_owned_owners: 6
+    not_owned_owners: 5
 automation:
   state: "clear"
-  push_per_day: 1.9200
-  repo_per_active_day: 0.2400
+  push_per_day: 1.9583
+  repo_per_active_day: 0.2083
   not_owned_ratio: 1.0000
   basename_concentration: 1.0000
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
+    pushes: 3
     distinct_repos: 2
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes_per_repo: 1.5000
+    active_days: 2
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
   "30d":
-    pushes: 23
-    distinct_repos: 3
-    pushes_per_repo: 7.6667
+    pushes: 19
+    distinct_repos: 2
+    pushes_per_repo: 9.5000
     active_days: 9
-    repos_not_owned: 3
+    repos_not_owned: 2
     not_owned_basenames: 1
-    not_owned_owners: 3
+    not_owned_owners: 2
   "90d":
-    pushes: 48
-    distinct_repos: 6
-    pushes_per_repo: 8.0000
-    active_days: 25
-    repos_not_owned: 6
+    pushes: 47
+    distinct_repos: 5
+    pushes_per_repo: 9.4000
+    active_days: 24
+    repos_not_owned: 5
     not_owned_basenames: 1
-    not_owned_owners: 6
+    not_owned_owners: 5
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 25 active days in 90d — pass"
+  - "activity: 24 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "qin-ctx"
@@ -113,6 +113,6 @@ repos:
 
 # qin-ctx
 
-48 pushes across 6 repositories on 25 active days in the last 90 days of public GitHub push activity.
+47 pushes across 5 repositories on 24 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/qin-ctx

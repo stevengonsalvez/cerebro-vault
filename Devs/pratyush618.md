@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-20T06:04:57.914428+00:00"
+generated_at: "2026-10-21T06:05:19.754690+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [8, 7, 8, 4, 0, 0, 2, 1, 8, 4, 7, 4, 1]
+pushes_per_week: [7, 6, 9, 2, 0, 0, 2, 1, 8, 5, 6, 4, 1]
 windows:
   "7d":
     pushes: 1
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 21
+    pushes: 17
     distinct_repos: 2
-    active_days: 15
+    active_days: 14
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 54
+    pushes: 51
     distinct_repos: 8
-    active_days: 35
+    active_days: 34
     repos_not_owned: 6
     not_owned_basenames: 5
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 1.5429
-  repo_per_active_day: 0.2286
+  push_per_day: 1.5000
+  repo_per_active_day: 0.2353
   not_owned_ratio: 0.7500
   basename_concentration: 0.2500
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 21
+    pushes: 17
     distinct_repos: 2
-    pushes_per_repo: 10.5000
-    active_days: 15
+    pushes_per_repo: 8.5000
+    active_days: 14
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 54
+    pushes: 51
     distinct_repos: 8
-    pushes_per_repo: 6.7500
-    active_days: 35
+    pushes_per_repo: 6.3750
+    active_days: 34
     repos_not_owned: 6
     not_owned_basenames: 5
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 35 active days in 90d — pass"
+  - "activity: 34 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "pratyush618"
@@ -129,6 +129,6 @@ repos:
 
 # pratyush618
 
-54 pushes across 8 repositories on 35 active days in the last 90 days of public GitHub push activity.
+51 pushes across 8 repositories on 34 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/pratyush618

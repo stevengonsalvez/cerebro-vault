@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-20T06:04:57.914428+00:00"
+generated_at: "2026-10-21T06:05:19.754690+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 3, 0, 3, 9, 1, 7, 2]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 3, 1, 2, 9, 1, 9, 1]
 windows:
   "7d":
-    pushes: 4
+    pushes: 3
     distinct_repos: 2
     active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 19
+    pushes: 20
     distinct_repos: 8
-    active_days: 11
+    active_days: 12
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 25
+    pushes: 26
     distinct_repos: 9
-    active_days: 16
+    active_days: 17
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.5625
-  repo_per_active_day: 0.5625
+  push_per_day: 1.5294
+  repo_per_active_day: 0.5294
   not_owned_ratio: 0.0000
   basename_concentration: 0.1111
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 4
+    pushes: 3
     distinct_repos: 2
-    pushes_per_repo: 2.0000
+    pushes_per_repo: 1.5000
     active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 19
+    pushes: 20
     distinct_repos: 8
-    pushes_per_repo: 2.3750
-    active_days: 11
+    pushes_per_repo: 2.5000
+    active_days: 12
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 25
+    pushes: 26
     distinct_repos: 9
-    pushes_per_repo: 2.7778
-    active_days: 16
+    pushes_per_repo: 2.8889
+    active_days: 17
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 16 active days in 90d — pass"
+  - "activity: 17 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "evolve-router"
@@ -186,6 +186,6 @@ repos:
 
 # holny
 
-25 pushes across 9 repositories on 16 active days in the last 90 days of public GitHub push activity.
+26 pushes across 9 repositories on 17 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/holny

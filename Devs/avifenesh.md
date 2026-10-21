@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-20T06:04:57.914428+00:00"
+generated_at: "2026-10-21T06:05:19.754690+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [21, 36, 22, 47, 20, 15, 17, 20, 128, 238, 92, 114, 24]
+pushes_per_week: [20, 32, 39, 30, 23, 12, 21, 17, 168, 204, 85, 122, 25]
 windows:
   "7d":
-    pushes: 52
-    distinct_repos: 4
+    pushes: 27
+    distinct_repos: 6
     active_days: 5
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 548
+    pushes: 506
     distinct_repos: 54
     active_days: 27
     repos_not_owned: 29
     not_owned_basenames: 29
     not_owned_owners: 1
   "90d":
-    pushes: 794
+    pushes: 798
     distinct_repos: 62
     active_days: 76
     repos_not_owned: 29
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 10.4474
+  push_per_day: 10.5000
   repo_per_active_day: 0.8158
   not_owned_ratio: 0.4677
   basename_concentration: 0.0161
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 52
-    distinct_repos: 4
-    pushes_per_repo: 13.0000
+    pushes: 27
+    distinct_repos: 6
+    pushes_per_repo: 4.5000
     active_days: 5
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 548
+    pushes: 506
     distinct_repos: 54
-    pushes_per_repo: 10.1481
+    pushes_per_repo: 9.3704
     active_days: 27
     repos_not_owned: 29
     not_owned_basenames: 29
     not_owned_owners: 1
   "90d":
-    pushes: 794
+    pushes: 798
     distinct_repos: 62
-    pushes_per_repo: 12.8065
+    pushes_per_repo: 12.8710
     active_days: 76
     repos_not_owned: 29
     not_owned_basenames: 29
@@ -155,6 +155,6 @@ repos:
 
 # avifenesh
 
-794 pushes across 62 repositories on 76 active days in the last 90 days of public GitHub push activity.
+798 pushes across 62 repositories on 76 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/avifenesh
