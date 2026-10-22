@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-21T06:05:19.754690+00:00"
+generated_at: "2026-10-22T06:05:29.861706+00:00"
 provenance:
   - "ef1d62b18b98cdd0"
-pushes_per_week: [49, 16, 38, 28, 6, 6, 17, 6, 34, 23, 37, 21, 8]
+pushes_per_week: [45, 8, 42, 23, 6, 6, 18, 8, 35, 21, 39, 17, 10]
 windows:
   "7d":
-    pushes: 9
-    distinct_repos: 2
+    pushes: 10
+    distinct_repos: 3
     active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 111
-    distinct_repos: 14
+    pushes: 108
+    distinct_repos: 15
     active_days: 20
     repos_not_owned: 10
     not_owned_basenames: 3
     not_owned_owners: 8
   "90d":
-    pushes: 289
-    distinct_repos: 25
+    pushes: 278
+    distinct_repos: 26
     active_days: 60
     repos_not_owned: 17
     not_owned_basenames: 5
     not_owned_owners: 13
 automation:
   state: "clear"
-  push_per_day: 4.8167
-  repo_per_active_day: 0.4167
-  not_owned_ratio: 0.6800
-  basename_concentration: 0.5200
+  push_per_day: 4.6333
+  repo_per_active_day: 0.4333
+  not_owned_ratio: 0.6538
+  basename_concentration: 0.5000
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 9
-    distinct_repos: 2
-    pushes_per_repo: 4.5000
+    pushes: 10
+    distinct_repos: 3
+    pushes_per_repo: 3.3333
     active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 111
-    distinct_repos: 14
-    pushes_per_repo: 7.9286
+    pushes: 108
+    distinct_repos: 15
+    pushes_per_repo: 7.2000
     active_days: 20
     repos_not_owned: 10
     not_owned_basenames: 3
     not_owned_owners: 8
   "90d":
-    pushes: 289
-    distinct_repos: 25
-    pushes_per_repo: 11.5600
+    pushes: 278
+    distinct_repos: 26
+    pushes_per_repo: 10.6923
     active_days: 60
     repos_not_owned: 17
     not_owned_basenames: 5
@@ -129,6 +129,6 @@ repos:
 
 # nicoloboschi
 
-289 pushes across 25 repositories on 60 active days in the last 90 days of public GitHub push activity.
+278 pushes across 26 repositories on 60 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/nicoloboschi

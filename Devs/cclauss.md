@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-21T06:05:19.754690+00:00"
+generated_at: "2026-10-22T06:05:29.861706+00:00"
 provenance:
   - "c1af6b58492f9bf4"
-pushes_per_week: [10, 35, 3, 10, 3, 0, 15, 27, 39, 13, 4, 1, 4]
+pushes_per_week: [8, 34, 6, 8, 2, 0, 16, 31, 37, 10, 4, 1, 5]
 windows:
   "7d":
-    pushes: 4
-    distinct_repos: 3
-    active_days: 1
+    pushes: 5
+    distinct_repos: 4
+    active_days: 2
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 3
   "30d":
-    pushes: 44
-    distinct_repos: 35
+    pushes: 33
+    distinct_repos: 25
     active_days: 14
-    repos_not_owned: 30
+    repos_not_owned: 19
     not_owned_basenames: 9
-    not_owned_owners: 29
+    not_owned_owners: 18
   "90d":
-    pushes: 164
+    pushes: 162
     distinct_repos: 74
     active_days: 45
     repos_not_owned: 55
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 54
 automation:
   state: "clear"
-  push_per_day: 3.6444
+  push_per_day: 3.6000
   repo_per_active_day: 1.6444
   not_owned_ratio: 0.7432
   basename_concentration: 0.5811
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 4
-    distinct_repos: 3
-    pushes_per_repo: 1.3333
-    active_days: 1
+    pushes: 5
+    distinct_repos: 4
+    pushes_per_repo: 1.2500
+    active_days: 2
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 3
   "30d":
-    pushes: 44
-    distinct_repos: 35
-    pushes_per_repo: 1.2571
+    pushes: 33
+    distinct_repos: 25
+    pushes_per_repo: 1.3200
     active_days: 14
-    repos_not_owned: 30
+    repos_not_owned: 19
     not_owned_basenames: 9
-    not_owned_owners: 29
+    not_owned_owners: 18
   "90d":
-    pushes: 164
+    pushes: 162
     distinct_repos: 74
-    pushes_per_repo: 2.2162
+    pushes_per_repo: 2.1892
     active_days: 45
     repos_not_owned: 55
     not_owned_basenames: 14
@@ -135,6 +135,6 @@ repos:
 
 # cclauss
 
-164 pushes across 74 repositories on 45 active days in the last 90 days of public GitHub push activity.
+162 pushes across 74 repositories on 45 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/cclauss

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-21T06:05:19.754690+00:00"
+generated_at: "2026-10-22T06:05:29.861706+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [51, 24, 32, 24, 0, 2, 0, 3, 6, 11, 2, 3, 0]
+pushes_per_week: [52, 20, 35, 19, 1, 1, 0, 4, 5, 11, 2, 3, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 3
     not_owned_owners: 4
   "90d":
-    pushes: 158
+    pushes: 153
     distinct_repos: 16
-    active_days: 41
+    active_days: 40
     repos_not_owned: 6
     not_owned_basenames: 5
     not_owned_owners: 5
 automation:
   state: "clear"
-  push_per_day: 3.8537
-  repo_per_active_day: 0.3902
+  push_per_day: 3.8250
+  repo_per_active_day: 0.4000
   not_owned_ratio: 0.3750
   basename_concentration: 0.1875
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 3
     not_owned_owners: 4
   "90d":
-    pushes: 158
+    pushes: 153
     distinct_repos: 16
-    pushes_per_repo: 9.8750
-    active_days: 41
+    pushes_per_repo: 9.5625
+    active_days: 40
     repos_not_owned: 6
     not_owned_basenames: 5
     not_owned_owners: 5
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 41 active days in 90d — pass"
+  - "activity: 40 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "dsh-auto-continue"
@@ -150,6 +150,6 @@ repos:
 
 # HsiangNianian
 
-158 pushes across 16 repositories on 41 active days in the last 90 days of public GitHub push activity.
+153 pushes across 16 repositories on 40 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/HsiangNianian

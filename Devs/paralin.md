@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-21T06:05:19.754690+00:00"
+generated_at: "2026-10-22T06:05:29.861706+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [81, 58, 48, 10, 25, 2, 8, 7, 33, 84, 97, 72, 8]
+pushes_per_week: [90, 57, 49, 2, 25, 1, 8, 7, 47, 82, 87, 70, 17]
 windows:
   "7d":
-    pushes: 20
-    distinct_repos: 7
+    pushes: 17
+    distinct_repos: 8
     active_days: 5
-    repos_not_owned: 5
-    not_owned_basenames: 5
+    repos_not_owned: 6
+    not_owned_basenames: 6
     not_owned_owners: 3
   "30d":
-    pushes: 289
-    distinct_repos: 21
-    active_days: 25
-    repos_not_owned: 15
-    not_owned_basenames: 15
+    pushes: 295
+    distinct_repos: 22
+    active_days: 26
+    repos_not_owned: 17
+    not_owned_basenames: 17
     not_owned_owners: 3
   "90d":
-    pushes: 533
-    distinct_repos: 28
-    active_days: 61
-    repos_not_owned: 18
-    not_owned_basenames: 18
+    pushes: 542
+    distinct_repos: 30
+    active_days: 62
+    repos_not_owned: 20
+    not_owned_basenames: 20
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 8.7377
-  repo_per_active_day: 0.4590
-  not_owned_ratio: 0.6429
-  basename_concentration: 0.0357
+  push_per_day: 8.7419
+  repo_per_active_day: 0.4839
+  not_owned_ratio: 0.6667
+  basename_concentration: 0.0333
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 20
-    distinct_repos: 7
-    pushes_per_repo: 2.8571
+    pushes: 17
+    distinct_repos: 8
+    pushes_per_repo: 2.1250
     active_days: 5
-    repos_not_owned: 5
-    not_owned_basenames: 5
+    repos_not_owned: 6
+    not_owned_basenames: 6
     not_owned_owners: 3
   "30d":
-    pushes: 289
-    distinct_repos: 21
-    pushes_per_repo: 13.7619
-    active_days: 25
-    repos_not_owned: 15
-    not_owned_basenames: 15
+    pushes: 295
+    distinct_repos: 22
+    pushes_per_repo: 13.4091
+    active_days: 26
+    repos_not_owned: 17
+    not_owned_basenames: 17
     not_owned_owners: 3
   "90d":
-    pushes: 533
-    distinct_repos: 28
-    pushes_per_repo: 19.0357
-    active_days: 61
-    repos_not_owned: 18
-    not_owned_basenames: 18
+    pushes: 542
+    distinct_repos: 30
+    pushes_per_repo: 18.0667
+    active_days: 62
+    repos_not_owned: 20
+    not_owned_basenames: 20
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 61 active days in 90d — pass"
+  - "activity: 62 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "modlock"
@@ -129,6 +129,6 @@ repos:
 
 # paralin
 
-533 pushes across 28 repositories on 61 active days in the last 90 days of public GitHub push activity.
+542 pushes across 30 repositories on 62 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/paralin

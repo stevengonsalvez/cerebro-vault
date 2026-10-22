@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-21T06:05:19.754690+00:00"
+generated_at: "2026-10-22T06:05:29.861706+00:00"
 provenance:
   - "c7d59e96ede9112e"
-pushes_per_week: [13, 4, 16, 10, 8, 2, 0, 0, 14, 15, 11, 6, 0]
+pushes_per_week: [12, 2, 19, 8, 7, 2, 0, 0, 14, 21, 6, 5, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 3
   "90d":
-    pushes: 99
+    pushes: 96
     distinct_repos: 6
-    active_days: 36
+    active_days: 35
     repos_not_owned: 5
     not_owned_basenames: 2
     not_owned_owners: 5
 automation:
   state: "clear"
-  push_per_day: 2.7500
-  repo_per_active_day: 0.1667
+  push_per_day: 2.7429
+  repo_per_active_day: 0.1714
   not_owned_ratio: 0.8333
   basename_concentration: 0.8333
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 3
   "90d":
-    pushes: 99
+    pushes: 96
     distinct_repos: 6
-    pushes_per_repo: 16.5000
-    active_days: 36
+    pushes_per_repo: 16.0000
+    active_days: 35
     repos_not_owned: 5
     not_owned_basenames: 2
     not_owned_owners: 5
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 36 active days in 90d — pass"
+  - "activity: 35 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "nodeterm"
@@ -151,6 +151,6 @@ repos:
 
 # eneskirca
 
-99 pushes across 6 repositories on 36 active days in the last 90 days of public GitHub push activity.
+96 pushes across 6 repositories on 35 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/eneskirca

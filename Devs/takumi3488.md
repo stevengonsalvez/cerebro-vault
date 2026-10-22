@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-21T06:05:19.754690+00:00"
+generated_at: "2026-10-22T06:05:29.861706+00:00"
 provenance:
   - "2a7f0fddd2dac162"
-pushes_per_week: [57, 39, 14, 77, 12, 6, 3, 6, 46, 32, 39, 20, 37]
+pushes_per_week: [64, 28, 19, 73, 11, 6, 5, 14, 40, 44, 26, 17, 55]
 windows:
   "7d":
-    pushes: 38
-    distinct_repos: 8
+    pushes: 55
+    distinct_repos: 12
     active_days: 4
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 1
   "30d":
-    pushes: 138
+    pushes: 151
     distinct_repos: 50
     active_days: 26
     repos_not_owned: 18
     not_owned_basenames: 18
     not_owned_owners: 1
   "90d":
-    pushes: 388
+    pushes: 402
     distinct_repos: 85
     active_days: 64
     repos_not_owned: 23
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 6.0625
+  push_per_day: 6.2812
   repo_per_active_day: 1.3281
   not_owned_ratio: 0.2706
   basename_concentration: 0.0235
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 38
-    distinct_repos: 8
-    pushes_per_repo: 4.7500
+    pushes: 55
+    distinct_repos: 12
+    pushes_per_repo: 4.5833
     active_days: 4
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 1
   "30d":
-    pushes: 138
+    pushes: 151
     distinct_repos: 50
-    pushes_per_repo: 2.7600
+    pushes_per_repo: 3.0200
     active_days: 26
     repos_not_owned: 18
     not_owned_basenames: 18
     not_owned_owners: 1
   "90d":
-    pushes: 388
+    pushes: 402
     distinct_repos: 85
-    pushes_per_repo: 4.5647
+    pushes_per_repo: 4.7294
     active_days: 64
     repos_not_owned: 23
     not_owned_basenames: 23
@@ -129,6 +129,6 @@ repos:
 
 # takumi3488
 
-388 pushes across 85 repositories on 64 active days in the last 90 days of public GitHub push activity.
+402 pushes across 85 repositories on 64 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/takumi3488

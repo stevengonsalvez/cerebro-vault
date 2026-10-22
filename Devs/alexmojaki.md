@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-21T06:05:19.754690+00:00"
+generated_at: "2026-10-22T06:05:29.861706+00:00"
 provenance:
   - "1be978947e68d1f2"
-pushes_per_week: [34, 1, 2, 5, 0, 1, 0, 0, 0, 1, 0, 3, 6]
+pushes_per_week: [33, 1, 2, 5, 1, 0, 0, 0, 0, 1, 2, 1, 6]
 windows:
   "7d":
     pushes: 6
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 53
+    pushes: 52
     distinct_repos: 6
-    active_days: 15
+    active_days: 14
     repos_not_owned: 5
     not_owned_basenames: 3
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 3.5333
-  repo_per_active_day: 0.4000
+  push_per_day: 3.7143
+  repo_per_active_day: 0.4286
   not_owned_ratio: 0.8333
   basename_concentration: 0.5000
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 53
+    pushes: 52
     distinct_repos: 6
-    pushes_per_repo: 8.8333
-    active_days: 15
+    pushes_per_repo: 8.6667
+    active_days: 14
     repos_not_owned: 5
     not_owned_basenames: 3
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 15 active days in 90d — pass"
+  - "activity: 14 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "snoop"
@@ -155,6 +155,6 @@ repos:
 
 # alexmojaki
 
-53 pushes across 6 repositories on 15 active days in the last 90 days of public GitHub push activity.
+52 pushes across 6 repositories on 14 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/alexmojaki

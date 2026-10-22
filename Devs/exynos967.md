@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-21T06:05:19.754690+00:00"
+generated_at: "2026-10-22T06:05:29.861706+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [2, 0, 1, 6, 0, 0, 0, 0, 6, 1, 2, 5, 0]
+pushes_per_week: [1, 0, 3, 4, 0, 0, 0, 0, 6, 1, 2, 5, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 9
-    distinct_repos: 7
-    active_days: 7
+    pushes: 8
+    distinct_repos: 6
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 23
+    pushes: 22
     distinct_repos: 15
-    active_days: 14
+    active_days: 13
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.6429
-  repo_per_active_day: 1.0714
+  push_per_day: 1.6923
+  repo_per_active_day: 1.1538
   not_owned_ratio: 0.0000
   basename_concentration: 0.0667
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 9
-    distinct_repos: 7
-    pushes_per_repo: 1.2857
-    active_days: 7
+    pushes: 8
+    distinct_repos: 6
+    pushes_per_repo: 1.3333
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 23
+    pushes: 22
     distinct_repos: 15
-    pushes_per_repo: 1.5333
-    active_days: 14
+    pushes_per_repo: 1.4667
+    active_days: 13
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 14 active days in 90d — pass"
+  - "activity: 13 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "EdgeCloud-Bench"
@@ -135,6 +135,6 @@ repos:
 
 # exynos967
 
-23 pushes across 15 repositories on 14 active days in the last 90 days of public GitHub push activity.
+22 pushes across 15 repositories on 13 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/exynos967

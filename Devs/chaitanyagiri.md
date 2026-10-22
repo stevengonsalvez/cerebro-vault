@@ -10,36 +10,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-21T06:05:19.754690+00:00"
+generated_at: "2026-10-22T06:05:29.861706+00:00"
 provenance:
   - "e5b23adc376a62a9"
-pushes_per_week: [0, 3, 2, 6, 1, 0, 1, 1, 0, 2, 8, 11, 0]
+pushes_per_week: [0, 3, 6, 2, 1, 0, 1, 1, 0, 3, 8, 10, 1]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "30d":
-    pushes: 21
+    pushes: 22
     distinct_repos: 2
-    active_days: 10
+    active_days: 11
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 35
+    pushes: 36
     distinct_repos: 2
-    active_days: 18
+    active_days: 19
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.9444
-  repo_per_active_day: 0.1111
+  push_per_day: 1.8947
+  repo_per_active_day: 0.1053
   not_owned_ratio: 0.5000
   basename_concentration: 1.0000
   shapes: []
@@ -50,32 +50,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    pushes: 1
+    distinct_repos: 1
+    pushes_per_repo: 1.0000
+    active_days: 1
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "30d":
-    pushes: 21
+    pushes: 22
     distinct_repos: 2
-    pushes_per_repo: 10.5000
-    active_days: 10
+    pushes_per_repo: 11.0000
+    active_days: 11
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 35
+    pushes: 36
     distinct_repos: 2
-    pushes_per_repo: 17.5000
-    active_days: 18
+    pushes_per_repo: 18.0000
+    active_days: 19
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 18 active days in 90d — pass"
+  - "activity: 19 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "higgsfieldautomation"
@@ -133,6 +133,6 @@ repos:
 
 # chaitanyagiri
 
-35 pushes across 2 repositories on 18 active days in the last 90 days of public GitHub push activity.
+36 pushes across 2 repositories on 19 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/chaitanyagiri

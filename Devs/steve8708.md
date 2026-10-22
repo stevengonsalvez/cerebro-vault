@@ -10,27 +10,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-21T06:05:19.754690+00:00"
+generated_at: "2026-10-22T06:05:29.861706+00:00"
 provenance:
   - "745308b2b7085095"
-pushes_per_week: [73, 27, 66, 51, 29, 34, 9, 371, 995, 514, 88, 140, 38]
+pushes_per_week: [60, 22, 68, 48, 45, 17, 24, 423, 1065, 397, 96, 112, 49]
 windows:
   "7d":
-    pushes: 42
+    pushes: 49
     distinct_repos: 3
     active_days: 5
     repos_not_owned: 3
     not_owned_basenames: 1
     not_owned_owners: 3
   "30d":
-    pushes: 988
+    pushes: 966
     distinct_repos: 5
     active_days: 26
     repos_not_owned: 5
     not_owned_basenames: 1
     not_owned_owners: 5
   "90d":
-    pushes: 2435
+    pushes: 2426
     distinct_repos: 5
     active_days: 75
     repos_not_owned: 5
@@ -38,39 +38,39 @@ windows:
     not_owned_owners: 5
 automation:
   state: "clear"
-  push_per_day: 32.4667
+  push_per_day: 32.3467
   repo_per_active_day: 0.0667
   not_owned_ratio: 1.0000
   basename_concentration: 1.0000
   shapes:
     - "high_push_rate"
   shape_evidence:
-    - "32.47 pushes per active day over 90d (2435 pushes / 75 active days), above the 15 review line"
+    - "32.35 pushes per active day over 90d (2426 pushes / 75 active days), above the 15 review line"
   cleared_by: "e01-builder"
   cleared_on: "2026-08-26"
   fork_provenance: null
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 42
+    pushes: 49
     distinct_repos: 3
-    pushes_per_repo: 14.0000
+    pushes_per_repo: 16.3333
     active_days: 5
     repos_not_owned: 3
     not_owned_basenames: 1
     not_owned_owners: 3
   "30d":
-    pushes: 988
+    pushes: 966
     distinct_repos: 5
-    pushes_per_repo: 197.6000
+    pushes_per_repo: 193.2000
     active_days: 26
     repos_not_owned: 5
     not_owned_basenames: 1
     not_owned_owners: 5
   "90d":
-    pushes: 2435
+    pushes: 2426
     distinct_repos: 5
-    pushes_per_repo: 487.0000
+    pushes_per_repo: 485.2000
     active_days: 75
     repos_not_owned: 5
     not_owned_basenames: 1
@@ -132,6 +132,6 @@ repos:
 
 # steve8708
 
-2435 pushes across 5 repositories on 75 active days in the last 90 days of public GitHub push activity.
+2426 pushes across 5 repositories on 75 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/steve8708

@@ -11,12 +11,12 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-21T06:05:19.754690+00:00"
+generated_at: "2026-10-22T06:05:29.861706+00:00"
 provenance:
   - "3cb7ff1cdcf97c6b"
   - "dae9f02535f7c22f"
   - "ffccace0ba14fd15"
-pushes_per_week: [1, 2, 0, 1, 0, 0, 1, 1, 0, 0, 1, 1, 1]
+pushes_per_week: [1, 1, 0, 1, 0, 0, 1, 1, 0, 0, 1, 1, 1]
 windows:
   "7d":
     pushes: 1
@@ -33,16 +33,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 9
+    pushes: 8
     distinct_repos: 2
-    active_days: 9
+    active_days: 8
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
   push_per_day: 1.0000
-  repo_per_active_day: 0.2222
+  repo_per_active_day: 0.2500
   not_owned_ratio: 0.5000
   basename_concentration: 0.5000
   shapes: []
@@ -69,16 +69,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 9
+    pushes: 8
     distinct_repos: 2
-    pushes_per_repo: 4.5000
-    active_days: 9
+    pushes_per_repo: 4.0000
+    active_days: 8
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 3 vault signal(s) — pass"
-  - "activity: 9 active days in 90d — pass"
+  - "activity: 8 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "zerone0x"
@@ -143,6 +143,6 @@ repos:
 
 # zerone0x
 
-9 pushes across 2 repositories on 9 active days in the last 90 days of public GitHub push activity.
+8 pushes across 2 repositories on 8 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/zerone0x

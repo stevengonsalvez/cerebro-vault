@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-21T06:05:19.754690+00:00"
+generated_at: "2026-10-22T06:05:29.861706+00:00"
 provenance:
   - "3eacb4655aba2497"
-pushes_per_week: [10, 2, 11, 5, 9, 2, 2, 5, 10, 10, 11, 5, 0]
+pushes_per_week: [9, 2, 11, 5, 9, 2, 2, 5, 11, 13, 8, 4, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 31
+    pushes: 29
     distinct_repos: 11
-    active_days: 15
+    active_days: 14
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 82
+    pushes: 81
     distinct_repos: 23
-    active_days: 38
+    active_days: 37
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 2.1579
-  repo_per_active_day: 0.6053
+  push_per_day: 2.1892
+  repo_per_active_day: 0.6216
   not_owned_ratio: 0.1304
   basename_concentration: 0.0435
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 31
+    pushes: 29
     distinct_repos: 11
-    pushes_per_repo: 2.8182
-    active_days: 15
+    pushes_per_repo: 2.6364
+    active_days: 14
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 82
+    pushes: 81
     distinct_repos: 23
-    pushes_per_repo: 3.5652
-    active_days: 38
+    pushes_per_repo: 3.5217
+    active_days: 37
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 38 active days in 90d — pass"
+  - "activity: 37 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "omo-mnemon"
@@ -129,6 +129,6 @@ repos:
 
 # audreyt
 
-82 pushes across 23 repositories on 38 active days in the last 90 days of public GitHub push activity.
+81 pushes across 23 repositories on 37 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/audreyt

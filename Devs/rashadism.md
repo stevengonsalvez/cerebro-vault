@@ -9,28 +9,28 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-21T06:05:19.754690+00:00"
+generated_at: "2026-10-22T06:05:29.861706+00:00"
 provenance:
   - "a5ffcd0a46dd44fd"
-pushes_per_week: [1, 4, 0, 2, 1, 0, 1, 0, 5, 8, 4, 3, 0]
+pushes_per_week: [4, 0, 0, 2, 1, 0, 1, 1, 4, 8, 4, 3, 1]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 16
-    distinct_repos: 6
-    active_days: 9
+    pushes: 17
+    distinct_repos: 7
+    active_days: 10
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
     pushes: 29
-    distinct_repos: 10
+    distinct_repos: 9
     active_days: 16
     repos_not_owned: 2
     not_owned_basenames: 2
@@ -38,9 +38,9 @@ windows:
 automation:
   state: "clear"
   push_per_day: 1.8125
-  repo_per_active_day: 0.6250
-  not_owned_ratio: 0.2000
-  basename_concentration: 0.2000
+  repo_per_active_day: 0.5625
+  not_owned_ratio: 0.2222
+  basename_concentration: 0.2222
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
+    pushes: 1
+    distinct_repos: 1
+    pushes_per_repo: 1.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 16
-    distinct_repos: 6
-    pushes_per_repo: 2.6667
-    active_days: 9
+    pushes: 17
+    distinct_repos: 7
+    pushes_per_repo: 2.4286
+    active_days: 10
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
     pushes: 29
-    distinct_repos: 10
-    pushes_per_repo: 2.9000
+    distinct_repos: 9
+    pushes_per_repo: 3.2222
     active_days: 16
     repos_not_owned: 2
     not_owned_basenames: 2
@@ -129,6 +129,6 @@ repos:
 
 # rashadism
 
-29 pushes across 10 repositories on 16 active days in the last 90 days of public GitHub push activity.
+29 pushes across 9 repositories on 16 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/rashadism

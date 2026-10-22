@@ -9,81 +9,65 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-21T06:05:19.754690+00:00"
+generated_at: "2026-10-22T06:05:29.861706+00:00"
 provenance:
   - "b5590ec052a4f771"
-pushes_per_week: [21, 16, 58, 28, 8, 2, 6, 9, 34, 141, 85, 140, 22]
+pushes_per_week: [25, 8, 62, 23, 9, 1, 7, 13, 42, 140, 78, 135, 30]
 windows:
   "7d":
-    pushes: 39
+    pushes: 30
     distinct_repos: 2
     active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 402
+    pushes: 406
     distinct_repos: 7
     active_days: 27
     repos_not_owned: 4
     not_owned_basenames: 1
     not_owned_owners: 4
   "90d":
-    pushes: 570
-    distinct_repos: 8
+    pushes: 573
+    distinct_repos: 7
     active_days: 67
     repos_not_owned: 4
     not_owned_basenames: 1
     not_owned_owners: 4
 automation:
   state: "clear"
-  push_per_day: 8.5075
-  repo_per_active_day: 0.1194
-  not_owned_ratio: 0.5000
-  basename_concentration: 0.6250
-  shapes:
-    - "fork_farm"
-  shape_evidence:
-    - "basename concentration 0.6250 (5 of 8 repos share one basename), 4 not owned across 1 basenames"
+  push_per_day: 8.5522
+  repo_per_active_day: 0.1045
+  not_owned_ratio: 0.5714
+  basename_concentration: 0.7143
+  shapes: []
+  shape_evidence: []
   cleared_by: "e01-builder"
   cleared_on: "2026-08-26"
-  fork_provenance:
-    checked: 5
-    own_upstream: 4
-    third_party: 0
-    no_upstream: 1
-    unresolved: 0
-    truncated: false
-    sampled:
-      - "Guan0923/DeepSeek-Reasonix"
-      - "keeyangyy/DeepSeek-Reasonix"
-      - "KHG420/DeepSeek-Reasonix"
-      - "xxoingr/DeepSeek-Reasonix"
-      - "esengine/DeepSeek-Reasonix"
-    upstreams:
-      - "esengine/DeepSeek-Reasonix"
+  fork_provenance: null
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 39
+    pushes: 30
     distinct_repos: 2
-    pushes_per_repo: 19.5000
+    pushes_per_repo: 15.0000
     active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 402
+    pushes: 406
     distinct_repos: 7
-    pushes_per_repo: 57.4286
+    pushes_per_repo: 58.0000
     active_days: 27
     repos_not_owned: 4
     not_owned_basenames: 1
     not_owned_owners: 4
   "90d":
-    pushes: 570
-    distinct_repos: 8
-    pushes_per_repo: 71.2500
+    pushes: 573
+    distinct_repos: 7
+    pushes_per_repo: 81.8571
     active_days: 67
     repos_not_owned: 4
     not_owned_basenames: 1
@@ -205,6 +189,6 @@ repos:
 
 # esengine
 
-570 pushes across 8 repositories on 67 active days in the last 90 days of public GitHub push activity.
+573 pushes across 7 repositories on 67 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/esengine

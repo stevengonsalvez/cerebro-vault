@@ -9,11 +9,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-21T06:05:19.754690+00:00"
+generated_at: "2026-10-22T06:05:29.861706+00:00"
 provenance:
   - "1df6ea1f1256059e"
   - "edb3a626875732de"
-pushes_per_week: [5, 7, 1, 2, 0, 0, 1, 0, 0, 3, 7, 1, 6]
+pushes_per_week: [8, 3, 1, 2, 0, 0, 1, 0, 0, 3, 7, 1, 6]
 windows:
   "7d":
     pushes: 6
@@ -30,16 +30,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 33
+    pushes: 32
     distinct_repos: 7
-    active_days: 16
+    active_days: 15
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.0625
-  repo_per_active_day: 0.4375
+  push_per_day: 2.1333
+  repo_per_active_day: 0.4667
   not_owned_ratio: 0.2857
   basename_concentration: 0.1429
   shapes: []
@@ -66,16 +66,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 33
+    pushes: 32
     distinct_repos: 7
-    pushes_per_repo: 4.7143
-    active_days: 16
+    pushes_per_repo: 4.5714
+    active_days: 15
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 16 active days in 90d — pass"
+  - "activity: 15 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "uii-skripsi-research"
@@ -146,6 +146,6 @@ repos:
 
 # zakyirsyaad
 
-33 pushes across 7 repositories on 16 active days in the last 90 days of public GitHub push activity.
+32 pushes across 7 repositories on 15 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/zakyirsyaad

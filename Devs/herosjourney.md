@@ -10,15 +10,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-21T06:05:19.754690+00:00"
+generated_at: "2026-10-22T06:05:29.861706+00:00"
 provenance:
   - "a50b0e08dbaee74a"
-pushes_per_week: [5, 0, 0, 6, 0, 0, 0, 3, 9, 8, 9, 21, 1]
+pushes_per_week: [3, 0, 4, 2, 0, 0, 0, 4, 8, 10, 7, 21, 1]
 windows:
   "7d":
-    pushes: 2
+    pushes: 1
     distinct_repos: 1
-    active_days: 2
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -30,16 +30,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 62
+    pushes: 60
     distinct_repos: 3
-    active_days: 23
+    active_days: 22
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.6957
-  repo_per_active_day: 0.1304
+  push_per_day: 2.7273
+  repo_per_active_day: 0.1364
   not_owned_ratio: 0.3333
   basename_concentration: 0.6667
   shapes: []
@@ -50,10 +50,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
+    pushes: 1
     distinct_repos: 1
-    pushes_per_repo: 2.0000
-    active_days: 2
+    pushes_per_repo: 1.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -66,16 +66,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 62
+    pushes: 60
     distinct_repos: 3
-    pushes_per_repo: 20.6667
-    active_days: 23
+    pushes_per_repo: 20.0000
+    active_days: 22
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 23 active days in 90d — pass"
+  - "activity: 22 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "migration-watchdog"
@@ -130,6 +130,6 @@ repos:
 
 # herosjourney
 
-62 pushes across 3 repositories on 23 active days in the last 90 days of public GitHub push activity.
+60 pushes across 3 repositories on 22 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/herosjourney

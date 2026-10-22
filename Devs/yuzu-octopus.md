@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-21T06:05:19.754690+00:00"
+generated_at: "2026-10-22T06:05:29.861706+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [0, 0, 4, 0, 1, 0, 6, 2, 0, 5, 10, 17, 66]
+pushes_per_week: [0, 0, 4, 0, 1, 0, 6, 2, 0, 5, 11, 16, 123]
 windows:
   "7d":
-    pushes: 66
-    distinct_repos: 1
-    active_days: 3
+    pushes: 123
+    distinct_repos: 2
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 98
+    pushes: 155
     distinct_repos: 8
-    active_days: 14
+    active_days: 15
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 111
+    pushes: 168
     distinct_repos: 11
-    active_days: 22
+    active_days: 23
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 5.0455
-  repo_per_active_day: 0.5000
+  push_per_day: 7.3043
+  repo_per_active_day: 0.4783
   not_owned_ratio: 0.0909
   basename_concentration: 0.0909
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 66
-    distinct_repos: 1
-    pushes_per_repo: 66.0000
-    active_days: 3
+    pushes: 123
+    distinct_repos: 2
+    pushes_per_repo: 61.5000
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 98
+    pushes: 155
     distinct_repos: 8
-    pushes_per_repo: 12.2500
-    active_days: 14
+    pushes_per_repo: 19.3750
+    active_days: 15
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 111
+    pushes: 168
     distinct_repos: 11
-    pushes_per_repo: 10.0909
-    active_days: 22
+    pushes_per_repo: 15.2727
+    active_days: 23
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 22 active days in 90d — pass"
+  - "activity: 23 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "RsaWebTool"
@@ -138,6 +138,6 @@ repos:
 
 # yuzu-octopus
 
-111 pushes across 11 repositories on 22 active days in the last 90 days of public GitHub push activity.
+168 pushes across 11 repositories on 23 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/yuzu-octopus

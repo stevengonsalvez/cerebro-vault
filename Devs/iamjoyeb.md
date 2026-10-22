@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-21T06:05:19.754690+00:00"
+generated_at: "2026-10-22T06:05:29.861706+00:00"
 provenance:
   - "9d67ce648f6a8919"
-pushes_per_week: [34, 10, 7, 5, 1, 0, 0, 0, 2, 0, 1, 1, 0]
+pushes_per_week: [34, 10, 5, 5, 1, 0, 0, 1, 1, 0, 1, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,7 +29,7 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 61
+    pushes: 59
     distinct_repos: 13
     active_days: 22
     repos_not_owned: 0
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.7727
+  push_per_day: 2.6818
   repo_per_active_day: 0.5909
   not_owned_ratio: 0.0000
   basename_concentration: 0.0769
@@ -65,9 +65,9 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 61
+    pushes: 59
     distinct_repos: 13
-    pushes_per_repo: 4.6923
+    pushes_per_repo: 4.5385
     active_days: 22
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -105,6 +105,6 @@ repos:
 
 # iamjoyeb
 
-61 pushes across 13 repositories on 22 active days in the last 90 days of public GitHub push activity.
+59 pushes across 13 repositories on 22 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/iamjoyeb

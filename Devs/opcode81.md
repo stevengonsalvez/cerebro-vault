@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-21T06:05:19.754690+00:00"
+generated_at: "2026-10-22T06:05:29.861706+00:00"
 provenance:
   - "41883ae726050c68"
-pushes_per_week: [5, 0, 4, 1, 0, 0, 0, 0, 6, 0, 6, 3, 0]
+pushes_per_week: [2, 0, 5, 0, 0, 0, 0, 4, 2, 0, 6, 3, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 4
   "90d":
-    pushes: 25
+    pushes: 22
     distinct_repos: 6
-    active_days: 14
+    active_days: 12
     repos_not_owned: 6
     not_owned_basenames: 2
     not_owned_owners: 5
 automation:
   state: "clear"
-  push_per_day: 1.7857
-  repo_per_active_day: 0.4286
+  push_per_day: 1.8333
+  repo_per_active_day: 0.5000
   not_owned_ratio: 1.0000
   basename_concentration: 0.8333
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 4
   "90d":
-    pushes: 25
+    pushes: 22
     distinct_repos: 6
-    pushes_per_repo: 4.1667
-    active_days: 14
+    pushes_per_repo: 3.6667
+    active_days: 12
     repos_not_owned: 6
     not_owned_basenames: 2
     not_owned_owners: 5
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 14 active days in 90d — pass"
+  - "activity: 12 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "vlc_sync"
@@ -129,6 +129,6 @@ repos:
 
 # opcode81
 
-25 pushes across 6 repositories on 14 active days in the last 90 days of public GitHub push activity.
+22 pushes across 6 repositories on 12 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/opcode81

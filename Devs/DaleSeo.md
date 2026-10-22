@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-21T06:05:19.754690+00:00"
+generated_at: "2026-10-22T06:05:29.861706+00:00"
 provenance:
   - "0b22ca37fd3884c9"
-pushes_per_week: [15, 3, 5, 2, 0, 0, 0, 1, 16, 12, 5, 12, 2]
+pushes_per_week: [13, 2, 5, 2, 0, 0, 0, 1, 18, 10, 5, 12, 4]
 windows:
   "7d":
-    pushes: 3
+    pushes: 4
     distinct_repos: 3
     active_days: 3
-    repos_not_owned: 3
-    not_owned_basenames: 3
-    not_owned_owners: 2
+    repos_not_owned: 2
+    not_owned_basenames: 2
+    not_owned_owners: 1
   "30d":
-    pushes: 40
-    distinct_repos: 12
-    active_days: 16
+    pushes: 42
+    distinct_repos: 13
+    active_days: 17
     repos_not_owned: 12
     not_owned_basenames: 11
     not_owned_owners: 3
   "90d":
-    pushes: 73
-    distinct_repos: 16
+    pushes: 72
+    distinct_repos: 17
     active_days: 33
     repos_not_owned: 14
     not_owned_basenames: 13
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 2.2121
-  repo_per_active_day: 0.4848
-  not_owned_ratio: 0.8750
-  basename_concentration: 0.1250
+  push_per_day: 2.1818
+  repo_per_active_day: 0.5152
+  not_owned_ratio: 0.8235
+  basename_concentration: 0.1176
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 3
+    pushes: 4
     distinct_repos: 3
-    pushes_per_repo: 1.0000
+    pushes_per_repo: 1.3333
     active_days: 3
-    repos_not_owned: 3
-    not_owned_basenames: 3
-    not_owned_owners: 2
+    repos_not_owned: 2
+    not_owned_basenames: 2
+    not_owned_owners: 1
   "30d":
-    pushes: 40
-    distinct_repos: 12
-    pushes_per_repo: 3.3333
-    active_days: 16
+    pushes: 42
+    distinct_repos: 13
+    pushes_per_repo: 3.2308
+    active_days: 17
     repos_not_owned: 12
     not_owned_basenames: 11
     not_owned_owners: 3
   "90d":
-    pushes: 73
-    distinct_repos: 16
-    pushes_per_repo: 4.5625
+    pushes: 72
+    distinct_repos: 17
+    pushes_per_repo: 4.2353
     active_days: 33
     repos_not_owned: 14
     not_owned_basenames: 13
@@ -132,6 +132,6 @@ repos:
 
 # DaleSeo
 
-73 pushes across 16 repositories on 33 active days in the last 90 days of public GitHub push activity.
+72 pushes across 17 repositories on 33 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/DaleSeo

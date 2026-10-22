@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-21T06:05:19.754690+00:00"
+generated_at: "2026-10-22T06:05:29.861706+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [73, 49, 0, 23, 28, 1, 31, 32, 76, 178, 51, 94, 60]
+pushes_per_week: [52, 45, 5, 18, 28, 1, 32, 35, 88, 175, 44, 88, 99]
 windows:
   "7d":
-    pushes: 61
-    distinct_repos: 3
+    pushes: 99
+    distinct_repos: 5
     active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 407
-    distinct_repos: 11
+    pushes: 442
+    distinct_repos: 13
     active_days: 25
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 696
-    distinct_repos: 22
+    pushes: 710
+    distinct_repos: 23
     active_days: 64
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 10.8750
-  repo_per_active_day: 0.3438
-  not_owned_ratio: 0.0909
-  basename_concentration: 0.0455
+  push_per_day: 11.0938
+  repo_per_active_day: 0.3594
+  not_owned_ratio: 0.0870
+  basename_concentration: 0.0435
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 61
-    distinct_repos: 3
-    pushes_per_repo: 20.3333
+    pushes: 99
+    distinct_repos: 5
+    pushes_per_repo: 19.8000
     active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 407
-    distinct_repos: 11
-    pushes_per_repo: 37.0000
+    pushes: 442
+    distinct_repos: 13
+    pushes_per_repo: 34.0000
     active_days: 25
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 696
-    distinct_repos: 22
-    pushes_per_repo: 31.6364
+    pushes: 710
+    distinct_repos: 23
+    pushes_per_repo: 30.8696
     active_days: 64
     repos_not_owned: 2
     not_owned_basenames: 2
@@ -129,6 +129,6 @@ repos:
 
 # pedropaulovc
 
-696 pushes across 22 repositories on 64 active days in the last 90 days of public GitHub push activity.
+710 pushes across 23 repositories on 64 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/pedropaulovc

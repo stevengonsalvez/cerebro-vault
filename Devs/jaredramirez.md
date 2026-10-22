@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-21T06:05:19.754690+00:00"
+generated_at: "2026-10-22T06:05:29.861706+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [3, 1, 3, 1, 0, 0, 0, 2, 3, 1, 3, 0, 0]
+pushes_per_week: [3, 1, 2, 1, 0, 0, 1, 4, 0, 1, 3, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 17
+    pushes: 16
     distinct_repos: 2
-    active_days: 12
+    active_days: 11
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.4167
-  repo_per_active_day: 0.1667
+  push_per_day: 1.4545
+  repo_per_active_day: 0.1818
   not_owned_ratio: 0.5000
   basename_concentration: 0.5000
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 17
+    pushes: 16
     distinct_repos: 2
-    pushes_per_repo: 8.5000
-    active_days: 12
+    pushes_per_repo: 8.0000
+    active_days: 11
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 12 active days in 90d — pass"
+  - "activity: 11 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "roc-nix-nightly"
@@ -136,6 +136,6 @@ repos:
 
 # jaredramirez
 
-17 pushes across 2 repositories on 12 active days in the last 90 days of public GitHub push activity.
+16 pushes across 2 repositories on 11 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/jaredramirez

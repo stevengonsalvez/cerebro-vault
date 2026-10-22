@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-21T06:05:19.754690+00:00"
+generated_at: "2026-10-22T06:05:29.861706+00:00"
 provenance:
   - "a5e43b1572bfaf36"
-pushes_per_week: [36, 57, 24, 15, 9, 122, 17, 28, 36, 67, 70, 146, 34]
+pushes_per_week: [35, 63, 17, 12, 11, 120, 17, 30, 37, 74, 77, 129, 59]
 windows:
   "7d":
-    pushes: 42
+    pushes: 59
     distinct_repos: 2
     active_days: 4
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 332
+    pushes: 357
     distinct_repos: 4
-    active_days: 24
+    active_days: 25
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 661
+    pushes: 681
     distinct_repos: 5
     active_days: 76
     repos_not_owned: 3
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 8.6974
+  push_per_day: 8.9605
   repo_per_active_day: 0.0658
   not_owned_ratio: 0.6000
   basename_concentration: 0.2000
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 42
+    pushes: 59
     distinct_repos: 2
-    pushes_per_repo: 21.0000
+    pushes_per_repo: 29.5000
     active_days: 4
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 332
+    pushes: 357
     distinct_repos: 4
-    pushes_per_repo: 83.0000
-    active_days: 24
+    pushes_per_repo: 89.2500
+    active_days: 25
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 661
+    pushes: 681
     distinct_repos: 5
-    pushes_per_repo: 132.2000
+    pushes_per_repo: 136.2000
     active_days: 76
     repos_not_owned: 3
     not_owned_basenames: 3
@@ -129,6 +129,6 @@ repos:
 
 # cryppadotta
 
-661 pushes across 5 repositories on 76 active days in the last 90 days of public GitHub push activity.
+681 pushes across 5 repositories on 76 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/cryppadotta

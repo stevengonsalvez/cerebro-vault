@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-21T06:05:19.754690+00:00"
+generated_at: "2026-10-22T06:05:29.861706+00:00"
 provenance:
   - "48dbbdd8fd0d3029"
-pushes_per_week: [1, 1, 4, 0, 0, 0, 4, 1, 2, 17, 0, 4, 1]
+pushes_per_week: [1, 1, 4, 0, 0, 0, 4, 1, 5, 14, 0, 4, 3]
 windows:
   "7d":
     pushes: 3
-    distinct_repos: 3
+    distinct_repos: 2
     active_days: 2
-    repos_not_owned: 3
-    not_owned_basenames: 3
+    repos_not_owned: 2
+    not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 24
-    distinct_repos: 6
+    pushes: 25
+    distinct_repos: 7
     active_days: 12
-    repos_not_owned: 6
-    not_owned_basenames: 6
+    repos_not_owned: 7
+    not_owned_basenames: 7
     not_owned_owners: 1
   "90d":
-    pushes: 35
-    distinct_repos: 10
-    active_days: 18
-    repos_not_owned: 10
-    not_owned_basenames: 10
+    pushes: 37
+    distinct_repos: 11
+    active_days: 19
+    repos_not_owned: 11
+    not_owned_basenames: 11
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.9444
-  repo_per_active_day: 0.5556
+  push_per_day: 1.9474
+  repo_per_active_day: 0.5789
   not_owned_ratio: 1.0000
-  basename_concentration: 0.1000
+  basename_concentration: 0.0909
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -50,31 +50,31 @@ automation:
 facets:
   "7d":
     pushes: 3
-    distinct_repos: 3
-    pushes_per_repo: 1.0000
+    distinct_repos: 2
+    pushes_per_repo: 1.5000
     active_days: 2
-    repos_not_owned: 3
-    not_owned_basenames: 3
+    repos_not_owned: 2
+    not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 24
-    distinct_repos: 6
-    pushes_per_repo: 4.0000
+    pushes: 25
+    distinct_repos: 7
+    pushes_per_repo: 3.5714
     active_days: 12
-    repos_not_owned: 6
-    not_owned_basenames: 6
+    repos_not_owned: 7
+    not_owned_basenames: 7
     not_owned_owners: 1
   "90d":
-    pushes: 35
-    distinct_repos: 10
-    pushes_per_repo: 3.5000
-    active_days: 18
-    repos_not_owned: 10
-    not_owned_basenames: 10
+    pushes: 37
+    distinct_repos: 11
+    pushes_per_repo: 3.3636
+    active_days: 19
+    repos_not_owned: 11
+    not_owned_basenames: 11
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 18 active days in 90d — pass"
+  - "activity: 19 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "flex-maps"
@@ -113,6 +113,6 @@ repos:
 
 # igorcosta
 
-35 pushes across 10 repositories on 18 active days in the last 90 days of public GitHub push activity.
+37 pushes across 11 repositories on 19 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/igorcosta

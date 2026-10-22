@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-21T06:05:19.754690+00:00"
+generated_at: "2026-10-22T06:05:29.861706+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [18, 5, 5, 3, 9, 2, 1, 0, 16, 5, 2, 7, 0]
+pushes_per_week: [16, 3, 5, 2, 9, 2, 1, 0, 18, 4, 3, 5, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 73
+    pushes: 68
     distinct_repos: 5
-    active_days: 32
+    active_days: 31
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 2.2812
-  repo_per_active_day: 0.1562
+  push_per_day: 2.1935
+  repo_per_active_day: 0.1613
   not_owned_ratio: 0.4000
   basename_concentration: 0.4000
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 73
+    pushes: 68
     distinct_repos: 5
-    pushes_per_repo: 14.6000
-    active_days: 32
+    pushes_per_repo: 13.6000
+    active_days: 31
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 32 active days in 90d — pass"
+  - "activity: 31 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "vite-plugin-opencode"
@@ -139,6 +139,6 @@ repos:
 
 # Brendonovich
 
-73 pushes across 5 repositories on 32 active days in the last 90 days of public GitHub push activity.
+68 pushes across 5 repositories on 31 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Brendonovich

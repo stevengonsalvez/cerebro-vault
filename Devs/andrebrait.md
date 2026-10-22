@@ -10,39 +10,39 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-21T06:05:19.754690+00:00"
+generated_at: "2026-10-22T06:05:29.861706+00:00"
 provenance:
   - "dae9f02535f7c22f"
   - "de6bf05613f3ae04"
-pushes_per_week: [66, 48, 26, 42, 18, 6, 3, 11, 30, 57, 69, 61, 22]
+pushes_per_week: [60, 47, 39, 26, 19, 5, 4, 14, 31, 62, 62, 58, 31]
 windows:
   "7d":
-    pushes: 27
-    distinct_repos: 7
+    pushes: 31
+    distinct_repos: 8
     active_days: 4
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
   "30d":
-    pushes: 221
-    distinct_repos: 19
-    active_days: 25
+    pushes: 230
+    distinct_repos: 20
+    active_days: 26
     repos_not_owned: 8
     not_owned_basenames: 8
     not_owned_owners: 5
   "90d":
-    pushes: 459
-    distinct_repos: 30
+    pushes: 458
+    distinct_repos: 31
     active_days: 73
     repos_not_owned: 11
     not_owned_basenames: 11
     not_owned_owners: 5
 automation:
   state: "clear"
-  push_per_day: 6.2877
-  repo_per_active_day: 0.4110
-  not_owned_ratio: 0.3667
-  basename_concentration: 0.0667
+  push_per_day: 6.2740
+  repo_per_active_day: 0.4247
+  not_owned_ratio: 0.3548
+  basename_concentration: 0.0645
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -51,25 +51,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 27
-    distinct_repos: 7
-    pushes_per_repo: 3.8571
+    pushes: 31
+    distinct_repos: 8
+    pushes_per_repo: 3.8750
     active_days: 4
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
   "30d":
-    pushes: 221
-    distinct_repos: 19
-    pushes_per_repo: 11.6316
-    active_days: 25
+    pushes: 230
+    distinct_repos: 20
+    pushes_per_repo: 11.5000
+    active_days: 26
     repos_not_owned: 8
     not_owned_basenames: 8
     not_owned_owners: 5
   "90d":
-    pushes: 459
-    distinct_repos: 30
-    pushes_per_repo: 15.3000
+    pushes: 458
+    distinct_repos: 31
+    pushes_per_repo: 14.7742
     active_days: 73
     repos_not_owned: 11
     not_owned_basenames: 11
@@ -145,6 +145,6 @@ repos:
 
 # andrebrait
 
-459 pushes across 30 repositories on 73 active days in the last 90 days of public GitHub push activity.
+458 pushes across 31 repositories on 73 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/andrebrait

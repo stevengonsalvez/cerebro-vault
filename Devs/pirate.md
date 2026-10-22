@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-21T06:05:19.754690+00:00"
+generated_at: "2026-10-22T06:05:29.861706+00:00"
 provenance:
   - "c1af6b58492f9bf4"
-pushes_per_week: [81, 34, 24, 63, 2, 7, 3, 5, 183, 117, 64, 98, 16]
+pushes_per_week: [83, 23, 49, 38, 2, 7, 3, 7, 183, 115, 67, 95, 16]
 windows:
   "7d":
-    pushes: 17
-    distinct_repos: 5
-    active_days: 3
-    repos_not_owned: 5
-    not_owned_basenames: 5
+    pushes: 16
+    distinct_repos: 4
+    active_days: 2
+    repos_not_owned: 4
+    not_owned_basenames: 4
     not_owned_owners: 1
   "30d":
-    pushes: 341
+    pushes: 324
     distinct_repos: 17
-    active_days: 21
+    active_days: 20
     repos_not_owned: 14
     not_owned_basenames: 14
     not_owned_owners: 1
   "90d":
-    pushes: 697
+    pushes: 688
     distinct_repos: 28
-    active_days: 55
+    active_days: 53
     repos_not_owned: 18
     not_owned_basenames: 18
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 12.6727
-  repo_per_active_day: 0.5091
+  push_per_day: 12.9811
+  repo_per_active_day: 0.5283
   not_owned_ratio: 0.6429
   basename_concentration: 0.0357
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 17
-    distinct_repos: 5
-    pushes_per_repo: 3.4000
-    active_days: 3
-    repos_not_owned: 5
-    not_owned_basenames: 5
+    pushes: 16
+    distinct_repos: 4
+    pushes_per_repo: 4.0000
+    active_days: 2
+    repos_not_owned: 4
+    not_owned_basenames: 4
     not_owned_owners: 1
   "30d":
-    pushes: 341
+    pushes: 324
     distinct_repos: 17
-    pushes_per_repo: 20.0588
-    active_days: 21
+    pushes_per_repo: 19.0588
+    active_days: 20
     repos_not_owned: 14
     not_owned_basenames: 14
     not_owned_owners: 1
   "90d":
-    pushes: 697
+    pushes: 688
     distinct_repos: 28
-    pushes_per_repo: 24.8929
-    active_days: 55
+    pushes_per_repo: 24.5714
+    active_days: 53
     repos_not_owned: 18
     not_owned_basenames: 18
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 55 active days in 90d — pass"
+  - "activity: 53 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "internet-archiving-talk"
@@ -200,6 +200,6 @@ repos:
 
 # pirate
 
-697 pushes across 28 repositories on 55 active days in the last 90 days of public GitHub push activity.
+688 pushes across 28 repositories on 53 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/pirate

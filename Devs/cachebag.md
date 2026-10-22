@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-21T06:05:19.754690+00:00"
+generated_at: "2026-10-22T06:05:29.861706+00:00"
 provenance:
   - "9612918e3494c974"
-pushes_per_week: [4, 5, 8, 1, 2, 0, 1, 0, 1, 6, 3, 5, 0]
+pushes_per_week: [5, 4, 8, 1, 2, 0, 1, 0, 2, 6, 2, 5, 1]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "30d":
-    pushes: 14
+    pushes: 15
     distinct_repos: 8
-    active_days: 9
+    active_days: 10
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 36
+    pushes: 37
     distinct_repos: 17
-    active_days: 25
+    active_days: 26
     repos_not_owned: 5
     not_owned_basenames: 4
     not_owned_owners: 4
 automation:
   state: "clear"
-  push_per_day: 1.4400
-  repo_per_active_day: 0.6800
+  push_per_day: 1.4231
+  repo_per_active_day: 0.6538
   not_owned_ratio: 0.2941
   basename_concentration: 0.1176
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    pushes: 1
+    distinct_repos: 1
+    pushes_per_repo: 1.0000
+    active_days: 1
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "30d":
-    pushes: 14
+    pushes: 15
     distinct_repos: 8
-    pushes_per_repo: 1.7500
-    active_days: 9
+    pushes_per_repo: 1.8750
+    active_days: 10
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 36
+    pushes: 37
     distinct_repos: 17
-    pushes_per_repo: 2.1176
-    active_days: 25
+    pushes_per_repo: 2.1765
+    active_days: 26
     repos_not_owned: 5
     not_owned_basenames: 4
     not_owned_owners: 4
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 25 active days in 90d — pass"
+  - "activity: 26 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "spools"
@@ -129,6 +129,6 @@ repos:
 
 # cachebag
 
-36 pushes across 17 repositories on 25 active days in the last 90 days of public GitHub push activity.
+37 pushes across 17 repositories on 26 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/cachebag

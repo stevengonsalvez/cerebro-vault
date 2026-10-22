@@ -11,28 +11,28 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-21T06:05:19.754690+00:00"
+generated_at: "2026-10-22T06:05:29.861706+00:00"
 provenance:
   - "48dbbdd8fd0d3029"
   - "ec2b8bd43eefd65f"
-pushes_per_week: [123, 36, 41, 145, 44, 13, 23, 85, 338, 113, 127, 75, 26]
+pushes_per_week: [98, 30, 80, 107, 43, 11, 25, 107, 333, 98, 128, 70, 31]
 windows:
   "7d":
-    pushes: 32
+    pushes: 31
     distinct_repos: 6
     active_days: 5
     repos_not_owned: 6
     not_owned_basenames: 2
     not_owned_owners: 5
   "30d":
-    pushes: 395
-    distinct_repos: 65
+    pushes: 394
+    distinct_repos: 64
     active_days: 26
-    repos_not_owned: 64
+    repos_not_owned: 63
     not_owned_basenames: 10
-    not_owned_owners: 58
+    not_owned_owners: 57
   "90d":
-    pushes: 1189
+    pushes: 1161
     distinct_repos: 90
     active_days: 73
     repos_not_owned: 88
@@ -40,7 +40,7 @@ windows:
     not_owned_owners: 81
 automation:
   state: "clear"
-  push_per_day: 16.2877
+  push_per_day: 15.9041
   repo_per_active_day: 1.2329
   not_owned_ratio: 0.9778
   basename_concentration: 0.8111
@@ -48,7 +48,7 @@ automation:
     - "high_push_rate"
     - "fork_farm_third_party"
   shape_evidence:
-    - "16.29 pushes per active day over 90d (1189 pushes / 73 active days), above the 15 review line"
+    - "15.90 pushes per active day over 90d (1161 pushes / 73 active days), above the 15 review line"
     - "basename concentration 0.8111 (73 of 90 repos share one basename), 88 not owned across 11 basenames — 5 of 5 sampled repos resolved; 5 fork somebody else's repo; upstreams: NousResearch/hermes-agent"
   cleared_by: "e01-builder"
   cleared_on: "2026-08-26"
@@ -61,34 +61,34 @@ automation:
     truncated: false
     sampled:
       - "0x7s0lt1/hermes-agent"
-      - "ajensenwaud/hermes-agent"
+      - "amekala/hermes-agent"
       - "AndreasHiltner/hermes-agent"
+      - "anpicasso/hermes-agent"
       - "AtakanGs/hermes-agent"
-      - "BrokeSkill/hermes-agent"
     upstreams:
       - "NousResearch/hermes-agent"
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 32
+    pushes: 31
     distinct_repos: 6
-    pushes_per_repo: 5.3333
+    pushes_per_repo: 5.1667
     active_days: 5
     repos_not_owned: 6
     not_owned_basenames: 2
     not_owned_owners: 5
   "30d":
-    pushes: 395
-    distinct_repos: 65
-    pushes_per_repo: 6.0769
+    pushes: 394
+    distinct_repos: 64
+    pushes_per_repo: 6.1562
     active_days: 26
-    repos_not_owned: 64
+    repos_not_owned: 63
     not_owned_basenames: 10
-    not_owned_owners: 58
+    not_owned_owners: 57
   "90d":
-    pushes: 1189
+    pushes: 1161
     distinct_repos: 90
-    pushes_per_repo: 13.2111
+    pushes_per_repo: 12.9000
     active_days: 73
     repos_not_owned: 88
     not_owned_basenames: 11
@@ -162,6 +162,6 @@ repos:
 
 # teknium1
 
-1189 pushes across 90 repositories on 73 active days in the last 90 days of public GitHub push activity.
+1161 pushes across 90 repositories on 73 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/teknium1

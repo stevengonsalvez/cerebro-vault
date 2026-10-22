@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-21T06:05:19.754690+00:00"
+generated_at: "2026-10-22T06:05:29.861706+00:00"
 provenance:
   - "1be978947e68d1f2"
-pushes_per_week: [7, 5, 16, 16, 1, 0, 0, 0, 4, 3, 8, 4, 0]
+pushes_per_week: [6, 5, 19, 13, 1, 0, 0, 0, 4, 3, 8, 4, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 17
-    distinct_repos: 10
-    active_days: 9
-    repos_not_owned: 2
-    not_owned_basenames: 2
+    pushes: 15
+    distinct_repos: 9
+    active_days: 8
+    repos_not_owned: 1
+    not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 64
+    pushes: 63
     distinct_repos: 25
-    active_days: 28
+    active_days: 27
     repos_not_owned: 11
     not_owned_basenames: 11
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 2.2857
-  repo_per_active_day: 0.8929
+  push_per_day: 2.3333
+  repo_per_active_day: 0.9259
   not_owned_ratio: 0.4400
   basename_concentration: 0.0800
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 17
-    distinct_repos: 10
-    pushes_per_repo: 1.7000
-    active_days: 9
-    repos_not_owned: 2
-    not_owned_basenames: 2
+    pushes: 15
+    distinct_repos: 9
+    pushes_per_repo: 1.6667
+    active_days: 8
+    repos_not_owned: 1
+    not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 64
+    pushes: 63
     distinct_repos: 25
-    pushes_per_repo: 2.5600
-    active_days: 28
+    pushes_per_repo: 2.5200
+    active_days: 27
     repos_not_owned: 11
     not_owned_basenames: 11
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 28 active days in 90d — pass"
+  - "activity: 27 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "deep-agents-oracle-ai-database"
@@ -129,6 +129,6 @@ repos:
 
 # fede-kamel
 
-64 pushes across 25 repositories on 28 active days in the last 90 days of public GitHub push activity.
+63 pushes across 25 repositories on 27 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/fede-kamel

@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-21T06:05:19.754690+00:00"
+generated_at: "2026-10-22T06:05:29.861706+00:00"
 provenance:
   - "dae9f02535f7c22f"
-pushes_per_week: [1, 3, 0, 1, 2, 1, 6, 2, 14, 9, 17, 6, 4]
+pushes_per_week: [1, 3, 0, 1, 3, 0, 7, 1, 16, 14, 15, 1, 8]
 windows:
   "7d":
-    pushes: 4
-    distinct_repos: 3
-    active_days: 2
-    repos_not_owned: 3
-    not_owned_basenames: 3
+    pushes: 8
+    distinct_repos: 4
+    active_days: 3
+    repos_not_owned: 4
+    not_owned_basenames: 4
     not_owned_owners: 1
   "30d":
-    pushes: 44
+    pushes: 43
     distinct_repos: 12
     active_days: 14
     repos_not_owned: 8
     not_owned_basenames: 8
     not_owned_owners: 1
   "90d":
-    pushes: 66
+    pushes: 70
     distinct_repos: 18
-    active_days: 26
+    active_days: 27
     repos_not_owned: 14
     not_owned_basenames: 12
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 2.5385
-  repo_per_active_day: 0.6923
+  push_per_day: 2.5926
+  repo_per_active_day: 0.6667
   not_owned_ratio: 0.7778
   basename_concentration: 0.1667
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 4
-    distinct_repos: 3
-    pushes_per_repo: 1.3333
-    active_days: 2
-    repos_not_owned: 3
-    not_owned_basenames: 3
+    pushes: 8
+    distinct_repos: 4
+    pushes_per_repo: 2.0000
+    active_days: 3
+    repos_not_owned: 4
+    not_owned_basenames: 4
     not_owned_owners: 1
   "30d":
-    pushes: 44
+    pushes: 43
     distinct_repos: 12
-    pushes_per_repo: 3.6667
+    pushes_per_repo: 3.5833
     active_days: 14
     repos_not_owned: 8
     not_owned_basenames: 8
     not_owned_owners: 1
   "90d":
-    pushes: 66
+    pushes: 70
     distinct_repos: 18
-    pushes_per_repo: 3.6667
-    active_days: 26
+    pushes_per_repo: 3.8889
+    active_days: 27
     repos_not_owned: 14
     not_owned_basenames: 12
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 26 active days in 90d — pass"
+  - "activity: 27 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "obelisk-390"
@@ -129,6 +129,6 @@ repos:
 
 # CahidArda
 
-66 pushes across 18 repositories on 26 active days in the last 90 days of public GitHub push activity.
+70 pushes across 18 repositories on 27 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/CahidArda

@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-21T06:05:19.754690+00:00"
+generated_at: "2026-10-22T06:05:29.861706+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [0, 0, 0, 0, 0, 1, 0, 0, 0, 4, 7, 12, 1]
+pushes_per_week: [0, 0, 0, 0, 0, 1, 0, 0, 1, 5, 5, 12, 6]
 windows:
   "7d":
-    pushes: 3
-    distinct_repos: 2
-    active_days: 2
+    pushes: 6
+    distinct_repos: 5
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 24
-    distinct_repos: 16
-    active_days: 11
+    pushes: 29
+    distinct_repos: 17
+    active_days: 13
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 25
-    distinct_repos: 16
-    active_days: 12
+    pushes: 30
+    distinct_repos: 17
+    active_days: 14
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.0833
-  repo_per_active_day: 1.3333
+  push_per_day: 2.1429
+  repo_per_active_day: 1.2143
   not_owned_ratio: 0.0000
-  basename_concentration: 0.0625
+  basename_concentration: 0.0588
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 3
-    distinct_repos: 2
-    pushes_per_repo: 1.5000
-    active_days: 2
+    pushes: 6
+    distinct_repos: 5
+    pushes_per_repo: 1.2000
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 24
-    distinct_repos: 16
-    pushes_per_repo: 1.5000
-    active_days: 11
+    pushes: 29
+    distinct_repos: 17
+    pushes_per_repo: 1.7059
+    active_days: 13
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 25
-    distinct_repos: 16
-    pushes_per_repo: 1.5625
-    active_days: 12
+    pushes: 30
+    distinct_repos: 17
+    pushes_per_repo: 1.7647
+    active_days: 14
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 12 active days in 90d — pass"
+  - "activity: 14 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "daily-lab"
@@ -144,6 +144,6 @@ repos:
 
 # stanleys12
 
-25 pushes across 16 repositories on 12 active days in the last 90 days of public GitHub push activity.
+30 pushes across 17 repositories on 14 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/stanleys12

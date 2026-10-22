@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-21T06:05:19.754690+00:00"
+generated_at: "2026-10-22T06:05:29.861706+00:00"
 provenance:
   - "47dca59f5e85d3b9"
-pushes_per_week: [51, 24, 22, 61, 12, 0, 1, 8, 14, 12, 14, 4, 4]
+pushes_per_week: [39, 23, 36, 47, 11, 0, 2, 8, 14, 13, 13, 3, 7]
 windows:
   "7d":
-    pushes: 5
+    pushes: 7
     distinct_repos: 4
     active_days: 3
     repos_not_owned: 2
     not_owned_basenames: 2
-    not_owned_owners: 1
+    not_owned_owners: 2
   "30d":
-    pushes: 37
+    pushes: 39
     distinct_repos: 8
     active_days: 17
     repos_not_owned: 5
     not_owned_basenames: 3
     not_owned_owners: 4
   "90d":
-    pushes: 227
+    pushes: 216
     distinct_repos: 31
     active_days: 57
     repos_not_owned: 24
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 19
 automation:
   state: "clear"
-  push_per_day: 3.9825
+  push_per_day: 3.7895
   repo_per_active_day: 0.5439
   not_owned_ratio: 0.7742
   basename_concentration: 0.3226
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 5
+    pushes: 7
     distinct_repos: 4
-    pushes_per_repo: 1.2500
+    pushes_per_repo: 1.7500
     active_days: 3
     repos_not_owned: 2
     not_owned_basenames: 2
-    not_owned_owners: 1
+    not_owned_owners: 2
   "30d":
-    pushes: 37
+    pushes: 39
     distinct_repos: 8
-    pushes_per_repo: 4.6250
+    pushes_per_repo: 4.8750
     active_days: 17
     repos_not_owned: 5
     not_owned_basenames: 3
     not_owned_owners: 4
   "90d":
-    pushes: 227
+    pushes: 216
     distinct_repos: 31
-    pushes_per_repo: 7.3226
+    pushes_per_repo: 6.9677
     active_days: 57
     repos_not_owned: 24
     not_owned_basenames: 4
@@ -140,6 +140,6 @@ repos:
 
 # tmchow
 
-227 pushes across 31 repositories on 57 active days in the last 90 days of public GitHub push activity.
+216 pushes across 31 repositories on 57 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/tmchow

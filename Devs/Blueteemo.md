@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-21T06:05:19.754690+00:00"
+generated_at: "2026-10-22T06:05:29.861706+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 5, 0, 2, 1, 7]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 5, 0, 2, 1, 25]
 windows:
   "7d":
-    pushes: 7
+    pushes: 25
     distinct_repos: 1
-    active_days: 2
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 11
+    pushes: 29
     distinct_repos: 4
-    active_days: 5
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 15
+    pushes: 33
     distinct_repos: 6
-    active_days: 6
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.5000
-  repo_per_active_day: 1.0000
+  push_per_day: 4.7143
+  repo_per_active_day: 0.8571
   not_owned_ratio: 0.0000
   basename_concentration: 0.1667
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 7
+    pushes: 25
     distinct_repos: 1
-    pushes_per_repo: 7.0000
-    active_days: 2
+    pushes_per_repo: 25.0000
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 11
+    pushes: 29
     distinct_repos: 4
-    pushes_per_repo: 2.7500
-    active_days: 5
+    pushes_per_repo: 7.2500
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 15
+    pushes: 33
     distinct_repos: 6
-    pushes_per_repo: 2.5000
-    active_days: 6
+    pushes_per_repo: 5.5000
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 6 active days in 90d — pass"
+  - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "Blueteemo"
@@ -129,6 +129,6 @@ repos:
 
 # Blueteemo
 
-15 pushes across 6 repositories on 6 active days in the last 90 days of public GitHub push activity.
+33 pushes across 6 repositories on 7 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Blueteemo

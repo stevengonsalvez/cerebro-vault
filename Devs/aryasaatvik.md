@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-21T06:05:19.754690+00:00"
+generated_at: "2026-10-22T06:05:29.861706+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [9, 2, 3, 1, 5, 4, 5, 1, 23, 14, 27, 6, 5]
+pushes_per_week: [9, 1, 4, 0, 5, 4, 5, 4, 20, 14, 29, 4, 5]
 windows:
   "7d":
     pushes: 5
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 56
+    pushes: 54
     distinct_repos: 14
-    active_days: 18
+    active_days: 17
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 2
   "90d":
-    pushes: 105
+    pushes: 104
     distinct_repos: 21
-    active_days: 44
+    active_days: 43
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 2.3864
-  repo_per_active_day: 0.4773
+  push_per_day: 2.4186
+  repo_per_active_day: 0.4884
   not_owned_ratio: 0.2381
   basename_concentration: 0.0476
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 56
+    pushes: 54
     distinct_repos: 14
-    pushes_per_repo: 4.0000
-    active_days: 18
+    pushes_per_repo: 3.8571
+    active_days: 17
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 2
   "90d":
-    pushes: 105
+    pushes: 104
     distinct_repos: 21
-    pushes_per_repo: 5.0000
-    active_days: 44
+    pushes_per_repo: 4.9524
+    active_days: 43
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 44 active days in 90d — pass"
+  - "activity: 43 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "pagegraph"
@@ -154,6 +154,6 @@ repos:
 
 # aryasaatvik
 
-105 pushes across 21 repositories on 44 active days in the last 90 days of public GitHub push activity.
+104 pushes across 21 repositories on 43 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/aryasaatvik

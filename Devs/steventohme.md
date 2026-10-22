@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-21T06:05:19.754690+00:00"
+generated_at: "2026-10-22T06:05:29.861706+00:00"
 provenance:
   - "0af70dc4df451a55"
-pushes_per_week: [10, 14, 5, 1, 4, 1, 0, 4, 8, 5, 10, 2, 1]
+pushes_per_week: [5, 11, 5, 1, 4, 1, 0, 4, 8, 6, 11, 0, 3]
 windows:
   "7d":
-    pushes: 1
+    pushes: 3
     distinct_repos: 1
-    active_days: 1
+    active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 21
+    pushes: 22
     distinct_repos: 1
     active_days: 13
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 65
+    pushes: 59
     distinct_repos: 2
-    active_days: 33
+    active_days: 32
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 1.9697
-  repo_per_active_day: 0.0606
+  push_per_day: 1.8438
+  repo_per_active_day: 0.0625
   not_owned_ratio: 1.0000
   basename_concentration: 1.0000
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
+    pushes: 3
     distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes_per_repo: 3.0000
+    active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 21
+    pushes: 22
     distinct_repos: 1
-    pushes_per_repo: 21.0000
+    pushes_per_repo: 22.0000
     active_days: 13
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 65
+    pushes: 59
     distinct_repos: 2
-    pushes_per_repo: 32.5000
-    active_days: 33
+    pushes_per_repo: 29.5000
+    active_days: 32
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 33 active days in 90d — pass"
+  - "activity: 32 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "darya"
@@ -129,6 +129,6 @@ repos:
 
 # steventohme
 
-65 pushes across 2 repositories on 33 active days in the last 90 days of public GitHub push activity.
+59 pushes across 2 repositories on 32 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/steventohme

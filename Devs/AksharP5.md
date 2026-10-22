@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-21T06:05:19.754690+00:00"
+generated_at: "2026-10-22T06:05:29.861706+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [10, 8, 6, 8, 1, 1, 0, 1, 6, 12, 23, 8, 0]
+pushes_per_week: [8, 7, 9, 5, 1, 1, 0, 1, 9, 16, 18, 6, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 84
-    distinct_repos: 15
-    active_days: 30
+    pushes: 81
+    distinct_repos: 14
+    active_days: 29
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 2.8000
-  repo_per_active_day: 0.5000
-  not_owned_ratio: 0.1333
-  basename_concentration: 0.2000
+  push_per_day: 2.7931
+  repo_per_active_day: 0.4828
+  not_owned_ratio: 0.1429
+  basename_concentration: 0.2143
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 84
-    distinct_repos: 15
-    pushes_per_repo: 5.6000
-    active_days: 30
+    pushes: 81
+    distinct_repos: 14
+    pushes_per_repo: 5.7857
+    active_days: 29
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 30 active days in 90d — pass"
+  - "activity: 29 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "omarchy-radio-atlas"
@@ -137,6 +137,6 @@ repos:
 
 # AksharP5
 
-84 pushes across 15 repositories on 30 active days in the last 90 days of public GitHub push activity.
+81 pushes across 14 repositories on 29 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/AksharP5

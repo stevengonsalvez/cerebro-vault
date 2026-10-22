@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-21T06:05:19.754690+00:00"
+generated_at: "2026-10-22T06:05:29.861706+00:00"
 provenance:
   - "9d67ce648f6a8919"
-pushes_per_week: [2, 2, 7, 1, 1, 0, 1, 4, 6, 5, 9, 10, 1]
+pushes_per_week: [1, 2, 7, 1, 1, 0, 1, 4, 7, 6, 7, 10, 1]
 windows:
   "7d":
-    pushes: 3
-    distinct_repos: 3
-    active_days: 2
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
-    pushes: 29
+    pushes: 26
     distinct_repos: 10
-    active_days: 15
+    active_days: 14
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 49
-    distinct_repos: 19
-    active_days: 32
+    pushes: 48
+    distinct_repos: 18
+    active_days: 31
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 1.5312
-  repo_per_active_day: 0.5938
-  not_owned_ratio: 0.1053
-  basename_concentration: 0.0526
+  push_per_day: 1.5484
+  repo_per_active_day: 0.5806
+  not_owned_ratio: 0.1111
+  basename_concentration: 0.0556
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 3
-    distinct_repos: 3
+    pushes: 1
+    distinct_repos: 1
     pushes_per_repo: 1.0000
-    active_days: 2
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    active_days: 1
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
-    pushes: 29
+    pushes: 26
     distinct_repos: 10
-    pushes_per_repo: 2.9000
-    active_days: 15
+    pushes_per_repo: 2.6000
+    active_days: 14
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 49
-    distinct_repos: 19
-    pushes_per_repo: 2.5789
-    active_days: 32
+    pushes: 48
+    distinct_repos: 18
+    pushes_per_repo: 2.6667
+    active_days: 31
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 32 active days in 90d — pass"
+  - "activity: 31 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "Hackathon-Radar"
@@ -129,6 +129,6 @@ repos:
 
 # SEPURI-SAI-KRISHNA
 
-49 pushes across 19 repositories on 32 active days in the last 90 days of public GitHub push activity.
+48 pushes across 18 repositories on 31 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/SEPURI-SAI-KRISHNA

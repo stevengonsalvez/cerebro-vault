@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-21T06:05:19.754690+00:00"
+generated_at: "2026-10-22T06:05:29.861706+00:00"
 provenance:
   - "16389f32495280ea"
-pushes_per_week: [6, 8, 8, 4, 1, 2, 3, 11, 30, 36, 20, 56, 10]
+pushes_per_week: [7, 7, 8, 4, 1, 2, 3, 14, 28, 46, 15, 50, 12]
 windows:
   "7d":
-    pushes: 17
+    pushes: 12
     distinct_repos: 1
-    active_days: 4
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 130
+    pushes: 131
     distinct_repos: 3
     active_days: 23
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 195
+    pushes: 197
     distinct_repos: 4
     active_days: 50
     repos_not_owned: 1
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 3.9000
+  push_per_day: 3.9400
   repo_per_active_day: 0.0800
   not_owned_ratio: 0.2500
   basename_concentration: 0.5000
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 17
+    pushes: 12
     distinct_repos: 1
-    pushes_per_repo: 17.0000
-    active_days: 4
+    pushes_per_repo: 12.0000
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 130
+    pushes: 131
     distinct_repos: 3
-    pushes_per_repo: 43.3333
+    pushes_per_repo: 43.6667
     active_days: 23
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 195
+    pushes: 197
     distinct_repos: 4
-    pushes_per_repo: 48.7500
+    pushes_per_repo: 49.2500
     active_days: 50
     repos_not_owned: 1
     not_owned_basenames: 1
@@ -171,6 +171,6 @@ repos:
 
 # blueberrycongee
 
-195 pushes across 4 repositories on 50 active days in the last 90 days of public GitHub push activity.
+197 pushes across 4 repositories on 50 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/blueberrycongee

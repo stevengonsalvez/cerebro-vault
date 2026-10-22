@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-21T06:05:19.754690+00:00"
+generated_at: "2026-10-22T06:05:29.861706+00:00"
 provenance:
   - "beef767476532531"
-pushes_per_week: [5, 6, 6, 8, 2, 0, 1, 4, 4, 3, 6, 6, 1]
+pushes_per_week: [5, 6, 9, 5, 2, 0, 1, 4, 4, 3, 7, 5, 2]
 windows:
   "7d":
     pushes: 2
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 52
+    pushes: 53
     distinct_repos: 1
-    active_days: 37
+    active_days: 38
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.4054
-  repo_per_active_day: 0.0270
+  push_per_day: 1.3947
+  repo_per_active_day: 0.0263
   not_owned_ratio: 0.0000
   basename_concentration: 1.0000
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 52
+    pushes: 53
     distinct_repos: 1
-    pushes_per_repo: 52.0000
-    active_days: 37
+    pushes_per_repo: 53.0000
+    active_days: 38
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 37 active days in 90d — pass"
+  - "activity: 38 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "claude-code-best-practice"
@@ -229,6 +229,6 @@ repos:
 
 # shanraisshan
 
-52 pushes across 1 repository on 37 active days in the last 90 days of public GitHub push activity.
+53 pushes across 1 repository on 38 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/shanraisshan

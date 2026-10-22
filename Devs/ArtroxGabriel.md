@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-21T06:05:19.754690+00:00"
+generated_at: "2026-10-22T06:05:29.861706+00:00"
 provenance:
   - "4138778ebbc75ba6"
-pushes_per_week: [7, 1, 0, 0, 0, 0, 0, 1, 5, 2, 0, 0, 1]
+pushes_per_week: [5, 0, 0, 0, 0, 0, 0, 1, 5, 2, 0, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -22,25 +22,25 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 7
-    distinct_repos: 6
-    active_days: 5
+    pushes: 6
+    distinct_repos: 5
+    active_days: 4
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 17
-    distinct_repos: 10
-    active_days: 13
+    pushes: 14
+    distinct_repos: 9
+    active_days: 11
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.3077
-  repo_per_active_day: 0.7692
-  not_owned_ratio: 0.3000
-  basename_concentration: 0.1000
+  push_per_day: 1.2727
+  repo_per_active_day: 0.8182
+  not_owned_ratio: 0.3333
+  basename_concentration: 0.1111
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 7
-    distinct_repos: 6
-    pushes_per_repo: 1.1667
-    active_days: 5
+    pushes: 6
+    distinct_repos: 5
+    pushes_per_repo: 1.2000
+    active_days: 4
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 17
-    distinct_repos: 10
-    pushes_per_repo: 1.7000
-    active_days: 13
+    pushes: 14
+    distinct_repos: 9
+    pushes_per_repo: 1.5556
+    active_days: 11
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 13 active days in 90d — pass"
+  - "activity: 11 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "ArtroxGabriel"
@@ -134,6 +134,6 @@ repos:
 
 # ArtroxGabriel
 
-17 pushes across 10 repositories on 13 active days in the last 90 days of public GitHub push activity.
+14 pushes across 9 repositories on 11 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ArtroxGabriel

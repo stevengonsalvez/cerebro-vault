@@ -7,12 +7,12 @@ discovered_via_all:
 provenance_repos:
   - "onecli/onecli"
 admitted: true
-low_n: false
+low_n: true
 repos_populated: true
-generated_at: "2026-10-20T06:04:57.914428+00:00"
+generated_at: "2026-10-22T06:05:29.861706+00:00"
 provenance:
   - "aca7847db12030b3"
-pushes_per_week: [2, 0, 0, 0, 2, 0, 1, 0, 0, 0, 1, 0, 0]
+pushes_per_week: [1, 0, 0, 0, 2, 0, 1, 0, 0, 0, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 6
+    pushes: 5
     distinct_repos: 2
-    active_days: 5
+    active_days: 4
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 1.2000
-  repo_per_active_day: 0.4000
+  push_per_day: 1.2500
+  repo_per_active_day: 0.5000
   not_owned_ratio: 1.0000
   basename_concentration: 1.0000
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 6
+    pushes: 5
     distinct_repos: 2
-    pushes_per_repo: 3.0000
-    active_days: 5
+    pushes_per_repo: 2.5000
+    active_days: 4
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 5 active days in 90d — pass"
+  - "activity: 4 active days in 90d — below the 5-day line, LABELLED low-n (never suppressed)"
   - "automation: clear — pass"
 repos:
   - name: "proxy-env"
@@ -121,6 +121,6 @@ repos:
 
 # guyb1
 
-6 pushes across 2 repositories on 5 active days in the last 90 days of public GitHub push activity.
+5 pushes across 2 repositories on 4 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/guyb1

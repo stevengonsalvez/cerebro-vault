@@ -10,39 +10,39 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-21T06:05:19.754690+00:00"
+generated_at: "2026-10-22T06:05:29.861706+00:00"
 provenance:
   - "668711a6e1072822"
   - "73468cde177ddae6"
-pushes_per_week: [17, 15, 10, 5, 1, 0, 1, 3, 7, 1, 7, 18, 0]
+pushes_per_week: [16, 16, 10, 4, 1, 0, 1, 4, 6, 4, 4, 18, 2]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    pushes: 2
+    distinct_repos: 2
+    active_days: 1
+    repos_not_owned: 2
+    not_owned_basenames: 2
+    not_owned_owners: 1
   "30d":
-    pushes: 29
-    distinct_repos: 1
-    active_days: 7
-    repos_not_owned: 1
-    not_owned_basenames: 1
+    pushes: 31
+    distinct_repos: 2
+    active_days: 8
+    repos_not_owned: 2
+    not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 85
-    distinct_repos: 5
+    pushes: 86
+    distinct_repos: 6
     active_days: 34
-    repos_not_owned: 4
-    not_owned_basenames: 1
+    repos_not_owned: 5
+    not_owned_basenames: 2
     not_owned_owners: 4
 automation:
   state: "clear"
-  push_per_day: 2.5000
-  repo_per_active_day: 0.1471
-  not_owned_ratio: 0.8000
-  basename_concentration: 0.8000
+  push_per_day: 2.5294
+  repo_per_active_day: 0.1765
+  not_owned_ratio: 0.8333
+  basename_concentration: 0.6667
   shapes: []
   shape_evidence: []
   cleared_by: "e01-builder"
@@ -51,28 +51,28 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    pushes: 2
+    distinct_repos: 2
+    pushes_per_repo: 1.0000
+    active_days: 1
+    repos_not_owned: 2
+    not_owned_basenames: 2
+    not_owned_owners: 1
   "30d":
-    pushes: 29
-    distinct_repos: 1
-    pushes_per_repo: 29.0000
-    active_days: 7
-    repos_not_owned: 1
-    not_owned_basenames: 1
+    pushes: 31
+    distinct_repos: 2
+    pushes_per_repo: 15.5000
+    active_days: 8
+    repos_not_owned: 2
+    not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 85
-    distinct_repos: 5
-    pushes_per_repo: 17.0000
+    pushes: 86
+    distinct_repos: 6
+    pushes_per_repo: 14.3333
     active_days: 34
-    repos_not_owned: 4
-    not_owned_basenames: 1
+    repos_not_owned: 5
+    not_owned_basenames: 2
     not_owned_owners: 4
 reasons:
   - "provenance: 2 vault signal(s) — pass"
@@ -141,6 +141,6 @@ repos:
 
 # chopratejas
 
-85 pushes across 5 repositories on 34 active days in the last 90 days of public GitHub push activity.
+86 pushes across 6 repositories on 34 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/chopratejas

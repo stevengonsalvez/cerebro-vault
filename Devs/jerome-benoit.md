@@ -10,39 +10,39 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-21T06:05:19.754690+00:00"
+generated_at: "2026-10-22T06:05:29.861706+00:00"
 provenance:
   - "de6bf05613f3ae04"
   - "ffccace0ba14fd15"
-pushes_per_week: [75, 36, 30, 36, 16, 8, 6, 28, 33, 76, 36, 21, 6]
+pushes_per_week: [76, 24, 40, 25, 17, 7, 8, 27, 34, 79, 31, 21, 7]
 windows:
   "7d":
     pushes: 7
-    distinct_repos: 6
+    distinct_repos: 5
     active_days: 4
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
   "30d":
-    pushes: 149
+    pushes: 148
     distinct_repos: 16
     active_days: 23
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 3
   "90d":
-    pushes: 407
-    distinct_repos: 20
+    pushes: 396
+    distinct_repos: 19
     active_days: 71
     repos_not_owned: 7
     not_owned_basenames: 7
     not_owned_owners: 4
 automation:
   state: "clear"
-  push_per_day: 5.7324
-  repo_per_active_day: 0.2817
-  not_owned_ratio: 0.3500
-  basename_concentration: 0.1000
+  push_per_day: 5.5775
+  repo_per_active_day: 0.2676
+  not_owned_ratio: 0.3684
+  basename_concentration: 0.1053
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -52,24 +52,24 @@ automation:
 facets:
   "7d":
     pushes: 7
-    distinct_repos: 6
-    pushes_per_repo: 1.1667
+    distinct_repos: 5
+    pushes_per_repo: 1.4000
     active_days: 4
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
   "30d":
-    pushes: 149
+    pushes: 148
     distinct_repos: 16
-    pushes_per_repo: 9.3125
+    pushes_per_repo: 9.2500
     active_days: 23
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 3
   "90d":
-    pushes: 407
-    distinct_repos: 20
-    pushes_per_repo: 20.3500
+    pushes: 396
+    distinct_repos: 19
+    pushes_per_repo: 20.8421
     active_days: 71
     repos_not_owned: 7
     not_owned_basenames: 7
@@ -135,6 +135,6 @@ repos:
 
 # jerome-benoit
 
-407 pushes across 20 repositories on 71 active days in the last 90 days of public GitHub push activity.
+396 pushes across 19 repositories on 71 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/jerome-benoit

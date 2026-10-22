@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-21T06:05:19.754690+00:00"
+generated_at: "2026-10-22T06:05:29.861706+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [1, 1, 14, 9, 11, 0, 5, 3, 18, 56, 41, 9, 1]
+pushes_per_week: [1, 3, 12, 9, 11, 0, 5, 3, 19, 69, 33, 3, 2]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
+    pushes: 2
+    distinct_repos: 2
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 169
+    pushes: 170
     distinct_repos: 22
-    active_days: 41
+    active_days: 42
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 4.1220
-  repo_per_active_day: 0.5366
+  push_per_day: 4.0476
+  repo_per_active_day: 0.5238
   not_owned_ratio: 0.1364
   basename_concentration: 0.0455
   shapes: []
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
+    pushes: 2
+    distinct_repos: 2
     pushes_per_repo: 1.0000
-    active_days: 1
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 169
+    pushes: 170
     distinct_repos: 22
-    pushes_per_repo: 7.6818
-    active_days: 41
+    pushes_per_repo: 7.7273
+    active_days: 42
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 41 active days in 90d — pass"
+  - "activity: 42 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "fo4-silhouette"
@@ -151,6 +151,6 @@ repos:
 
 # ReidenXerx
 
-169 pushes across 22 repositories on 41 active days in the last 90 days of public GitHub push activity.
+170 pushes across 22 repositories on 42 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ReidenXerx

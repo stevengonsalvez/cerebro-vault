@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-21T06:05:19.754690+00:00"
+generated_at: "2026-10-22T06:05:29.861706+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [16, 5, 6, 5, 0, 1, 1, 2, 4, 16, 2, 9, 1]
+pushes_per_week: [16, 5, 6, 5, 0, 1, 1, 2, 6, 14, 3, 8, 2]
 windows:
   "7d":
     pushes: 2
     distinct_repos: 2
     active_days: 2
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "30d":
-    pushes: 28
+    pushes: 29
     distinct_repos: 12
-    active_days: 14
+    active_days: 15
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 68
+    pushes: 69
     distinct_repos: 23
-    active_days: 36
+    active_days: 37
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.8889
-  repo_per_active_day: 0.6389
+  push_per_day: 1.8649
+  repo_per_active_day: 0.6216
   not_owned_ratio: 0.0870
   basename_concentration: 0.0435
   shapes: []
@@ -53,28 +53,28 @@ facets:
     distinct_repos: 2
     pushes_per_repo: 1.0000
     active_days: 2
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "30d":
-    pushes: 28
+    pushes: 29
     distinct_repos: 12
-    pushes_per_repo: 2.3333
-    active_days: 14
+    pushes_per_repo: 2.4167
+    active_days: 15
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 68
+    pushes: 69
     distinct_repos: 23
-    pushes_per_repo: 2.9565
-    active_days: 36
+    pushes_per_repo: 3.0000
+    active_days: 37
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 36 active days in 90d — pass"
+  - "activity: 37 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "pi-providers-manager"
@@ -136,6 +136,6 @@ repos:
 
 # piexian
 
-68 pushes across 23 repositories on 36 active days in the last 90 days of public GitHub push activity.
+69 pushes across 23 repositories on 37 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/piexian

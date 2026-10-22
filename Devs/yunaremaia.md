@@ -10,37 +10,37 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-21T06:05:19.754690+00:00"
+generated_at: "2026-10-22T06:05:29.861706+00:00"
 provenance:
   - "4d1450729e6ff44d"
   - "dae9f02535f7c22f"
-pushes_per_week: [0, 10, 12, 8, 2, 0, 2, 17, 50, 32, 85, 15, 6]
+pushes_per_week: [2, 8, 14, 6, 2, 0, 2, 17, 50, 57, 61, 14, 13]
 windows:
   "7d":
-    pushes: 6
-    distinct_repos: 5
-    active_days: 3
+    pushes: 13
+    distinct_repos: 10
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 145
+    pushes: 152
     distinct_repos: 40
-    active_days: 19
+    active_days: 20
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 5
   "90d":
-    pushes: 239
+    pushes: 246
     distinct_repos: 64
-    active_days: 45
+    active_days: 46
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 5
 automation:
   state: "clear"
-  push_per_day: 5.3111
-  repo_per_active_day: 1.4222
+  push_per_day: 5.3478
+  repo_per_active_day: 1.3913
   not_owned_ratio: 0.0781
   basename_concentration: 0.0312
   shapes: []
@@ -51,32 +51,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 6
-    distinct_repos: 5
-    pushes_per_repo: 1.2000
-    active_days: 3
+    pushes: 13
+    distinct_repos: 10
+    pushes_per_repo: 1.3000
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 145
+    pushes: 152
     distinct_repos: 40
-    pushes_per_repo: 3.6250
-    active_days: 19
+    pushes_per_repo: 3.8000
+    active_days: 20
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 5
   "90d":
-    pushes: 239
+    pushes: 246
     distinct_repos: 64
-    pushes_per_repo: 3.7344
-    active_days: 45
+    pushes_per_repo: 3.8438
+    active_days: 46
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 5
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 45 active days in 90d — pass"
+  - "activity: 46 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "vibeguard"
@@ -196,6 +196,6 @@ repos:
 
 # yunaremaia
 
-239 pushes across 64 repositories on 45 active days in the last 90 days of public GitHub push activity.
+246 pushes across 64 repositories on 46 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/yunaremaia

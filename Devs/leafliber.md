@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-21T06:05:19.754690+00:00"
+generated_at: "2026-10-22T06:05:29.861706+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [1, 0, 3, 1, 0, 0, 0, 0, 2, 12, 16, 22, 0]
+pushes_per_week: [0, 0, 4, 0, 0, 0, 0, 0, 2, 16, 16, 18, 0]
 windows:
   "7d":
-    pushes: 2
-    distinct_repos: 1
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 57
+    pushes: 56
     distinct_repos: 7
-    active_days: 21
+    active_days: 20
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 2.7143
-  repo_per_active_day: 0.3333
+  push_per_day: 2.8000
+  repo_per_active_day: 0.3500
   not_owned_ratio: 0.2857
   basename_concentration: 0.1429
   shapes: []
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
-    distinct_repos: 1
-    pushes_per_repo: 2.0000
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 57
+    pushes: 56
     distinct_repos: 7
-    pushes_per_repo: 8.1429
-    active_days: 21
+    pushes_per_repo: 8.0000
+    active_days: 20
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 21 active days in 90d — pass"
+  - "activity: 20 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "bellis"
@@ -129,6 +129,6 @@ repos:
 
 # leafliber
 
-57 pushes across 7 repositories on 21 active days in the last 90 days of public GitHub push activity.
+56 pushes across 7 repositories on 20 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/leafliber

@@ -10,38 +10,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-21T06:05:19.754690+00:00"
+generated_at: "2026-10-22T06:05:29.861706+00:00"
 provenance:
   - "4138778ebbc75ba6"
-pushes_per_week: [23, 26, 11, 15, 9, 1, 8, 10, 39, 29, 11, 44, 12]
+pushes_per_week: [37, 10, 11, 15, 9, 1, 9, 12, 38, 31, 9, 42, 17]
 windows:
   "7d":
-    pushes: 12
-    distinct_repos: 9
-    active_days: 4
+    pushes: 17
+    distinct_repos: 12
+    active_days: 5
     repos_not_owned: 3
     not_owned_basenames: 1
     not_owned_owners: 3
   "30d":
-    pushes: 107
-    distinct_repos: 28
+    pushes: 110
+    distinct_repos: 29
     active_days: 25
     repos_not_owned: 7
     not_owned_basenames: 2
     not_owned_owners: 7
   "90d":
-    pushes: 238
-    distinct_repos: 38
+    pushes: 241
+    distinct_repos: 39
     active_days: 63
     repos_not_owned: 13
     not_owned_basenames: 2
     not_owned_owners: 13
 automation:
   state: "clear"
-  push_per_day: 3.7778
-  repo_per_active_day: 0.6032
-  not_owned_ratio: 0.3421
-  basename_concentration: 0.2895
+  push_per_day: 3.8254
+  repo_per_active_day: 0.6190
+  not_owned_ratio: 0.3333
+  basename_concentration: 0.2821
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -50,25 +50,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 12
-    distinct_repos: 9
-    pushes_per_repo: 1.3333
-    active_days: 4
+    pushes: 17
+    distinct_repos: 12
+    pushes_per_repo: 1.4167
+    active_days: 5
     repos_not_owned: 3
     not_owned_basenames: 1
     not_owned_owners: 3
   "30d":
-    pushes: 107
-    distinct_repos: 28
-    pushes_per_repo: 3.8214
+    pushes: 110
+    distinct_repos: 29
+    pushes_per_repo: 3.7931
     active_days: 25
     repos_not_owned: 7
     not_owned_basenames: 2
     not_owned_owners: 7
   "90d":
-    pushes: 238
-    distinct_repos: 38
-    pushes_per_repo: 6.2632
+    pushes: 241
+    distinct_repos: 39
+    pushes_per_repo: 6.1795
     active_days: 63
     repos_not_owned: 13
     not_owned_basenames: 2
@@ -130,6 +130,6 @@ repos:
 
 # akitaonrails
 
-238 pushes across 38 repositories on 63 active days in the last 90 days of public GitHub push activity.
+241 pushes across 39 repositories on 63 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/akitaonrails

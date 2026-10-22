@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-21T06:05:19.754690+00:00"
+generated_at: "2026-10-22T06:05:29.861706+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [31, 58, 19, 38, 14, 12, 2, 1, 35, 13, 19, 21, 9]
+pushes_per_week: [42, 48, 20, 35, 19, 7, 2, 3, 33, 22, 12, 19, 10]
 windows:
   "7d":
     pushes: 10
@@ -22,8 +22,8 @@ windows:
     not_owned_basenames: 3
     not_owned_owners: 3
   "30d":
-    pushes: 68
-    distinct_repos: 41
+    pushes: 65
+    distinct_repos: 38
     active_days: 23
     repos_not_owned: 3
     not_owned_basenames: 3
@@ -31,14 +31,14 @@ windows:
   "90d":
     pushes: 272
     distinct_repos: 101
-    active_days: 65
+    active_days: 66
     repos_not_owned: 6
     not_owned_basenames: 5
     not_owned_owners: 5
 automation:
   state: "clear"
-  push_per_day: 4.1846
-  repo_per_active_day: 1.5538
+  push_per_day: 4.1212
+  repo_per_active_day: 1.5303
   not_owned_ratio: 0.0594
   basename_concentration: 0.0297
   shapes: []
@@ -57,9 +57,9 @@ facets:
     not_owned_basenames: 3
     not_owned_owners: 3
   "30d":
-    pushes: 68
-    distinct_repos: 41
-    pushes_per_repo: 1.6585
+    pushes: 65
+    distinct_repos: 38
+    pushes_per_repo: 1.7105
     active_days: 23
     repos_not_owned: 3
     not_owned_basenames: 3
@@ -68,13 +68,13 @@ facets:
     pushes: 272
     distinct_repos: 101
     pushes_per_repo: 2.6931
-    active_days: 65
+    active_days: 66
     repos_not_owned: 6
     not_owned_basenames: 5
     not_owned_owners: 5
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 65 active days in 90d — pass"
+  - "activity: 66 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "pi-opencode-go-provider"
@@ -129,6 +129,6 @@ repos:
 
 # monotykamary
 
-272 pushes across 101 repositories on 65 active days in the last 90 days of public GitHub push activity.
+272 pushes across 101 repositories on 66 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/monotykamary

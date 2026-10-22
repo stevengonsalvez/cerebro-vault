@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-21T06:05:19.754690+00:00"
+generated_at: "2026-10-22T06:05:29.861706+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [31, 9, 19, 9, 1, 0, 0, 0, 3, 2, 1, 1, 2]
+pushes_per_week: [30, 9, 23, 4, 1, 0, 0, 0, 4, 1, 1, 1, 2]
 windows:
   "7d":
     pushes: 2
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 78
+    pushes: 76
     distinct_repos: 12
-    active_days: 28
+    active_days: 27
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 2.7857
-  repo_per_active_day: 0.4286
+  push_per_day: 2.8148
+  repo_per_active_day: 0.4444
   not_owned_ratio: 0.2500
   basename_concentration: 0.1667
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 78
+    pushes: 76
     distinct_repos: 12
-    pushes_per_repo: 6.5000
-    active_days: 28
+    pushes_per_repo: 6.3333
+    active_days: 27
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 28 active days in 90d — pass"
+  - "activity: 27 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "pi-session-title"
@@ -163,6 +163,6 @@ repos:
 
 # djdembeck
 
-78 pushes across 12 repositories on 28 active days in the last 90 days of public GitHub push activity.
+76 pushes across 12 repositories on 27 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/djdembeck

@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-21T06:05:19.754690+00:00"
+generated_at: "2026-10-22T06:05:29.861706+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [20, 7, 2, 12, 0, 1, 1, 6, 11, 17, 6, 16, 2]
+pushes_per_week: [20, 4, 9, 5, 0, 1, 3, 6, 9, 17, 8, 14, 6]
 windows:
   "7d":
-    pushes: 2
-    distinct_repos: 2
-    active_days: 2
+    pushes: 6
+    distinct_repos: 4
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 45
-    distinct_repos: 14
-    active_days: 19
+    pushes: 49
+    distinct_repos: 15
+    active_days: 20
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 2
   "90d":
-    pushes: 101
-    distinct_repos: 17
+    pushes: 102
+    distinct_repos: 18
     active_days: 42
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 2.4048
-  repo_per_active_day: 0.4048
-  not_owned_ratio: 0.2353
-  basename_concentration: 0.1176
+  push_per_day: 2.4286
+  repo_per_active_day: 0.4286
+  not_owned_ratio: 0.2222
+  basename_concentration: 0.1111
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
-    distinct_repos: 2
-    pushes_per_repo: 1.0000
-    active_days: 2
+    pushes: 6
+    distinct_repos: 4
+    pushes_per_repo: 1.5000
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 45
-    distinct_repos: 14
-    pushes_per_repo: 3.2143
-    active_days: 19
+    pushes: 49
+    distinct_repos: 15
+    pushes_per_repo: 3.2667
+    active_days: 20
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 2
   "90d":
-    pushes: 101
-    distinct_repos: 17
-    pushes_per_repo: 5.9412
+    pushes: 102
+    distinct_repos: 18
+    pushes_per_repo: 5.6667
     active_days: 42
     repos_not_owned: 4
     not_owned_basenames: 4
@@ -129,6 +129,6 @@ repos:
 
 # nerdCopter
 
-101 pushes across 17 repositories on 42 active days in the last 90 days of public GitHub push activity.
+102 pushes across 18 repositories on 42 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/nerdCopter

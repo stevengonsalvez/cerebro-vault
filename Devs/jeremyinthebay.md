@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-21T06:05:19.754690+00:00"
+generated_at: "2026-10-22T06:05:29.861706+00:00"
 provenance:
   - "46f3c1d6124190bd"
-pushes_per_week: [37, 9, 2, 6, 0, 0, 0, 0, 0, 0, 0, 0, 1]
+pushes_per_week: [35, 7, 3, 5, 0, 0, 0, 0, 0, 0, 0, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 55
+    pushes: 51
     distinct_repos: 5
-    active_days: 18
+    active_days: 17
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 3.0556
-  repo_per_active_day: 0.2778
+  push_per_day: 3.0000
+  repo_per_active_day: 0.2941
   not_owned_ratio: 0.2000
   basename_concentration: 0.4000
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 55
+    pushes: 51
     distinct_repos: 5
-    pushes_per_repo: 11.0000
-    active_days: 18
+    pushes_per_repo: 10.2000
+    active_days: 17
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 18 active days in 90d — pass"
+  - "activity: 17 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "jw-marriott-transfer-form"
@@ -109,6 +109,6 @@ repos:
 
 # jeremyinthebay
 
-55 pushes across 5 repositories on 18 active days in the last 90 days of public GitHub push activity.
+51 pushes across 5 repositories on 17 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/jeremyinthebay

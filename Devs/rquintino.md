@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-21T06:05:19.754690+00:00"
+generated_at: "2026-10-22T06:05:29.861706+00:00"
 provenance:
   - "01cd6a498d377caf"
   - "03604cccd7e9402d"
@@ -24,6 +24,7 @@ provenance:
   - "11a9e9aebb65d4c7"
   - "13d96f6971fff698"
   - "199f1aeef5f0463c"
+  - "1f4559e41bf13b35"
   - "20cf339db543fe6b"
   - "2180229dc69461fd"
   - "228dddec5b6b8ab4"
@@ -78,7 +79,7 @@ provenance:
   - "fd1cb9e783625459"
   - "fe9e50bf2d5b21fe"
   - "ff1ca072bf39e471"
-pushes_per_week: [5, 0, 7, 23, 0, 0, 0, 0, 5, 1, 0, 1, 1]
+pushes_per_week: [4, 0, 27, 3, 0, 0, 0, 0, 5, 1, 1, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -95,16 +96,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 43
+    pushes: 42
     distinct_repos: 2
-    active_days: 17
+    active_days: 16
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.5294
-  repo_per_active_day: 0.1176
+  push_per_day: 2.6250
+  repo_per_active_day: 0.1250
   not_owned_ratio: 0.5000
   basename_concentration: 0.5000
   shapes: []
@@ -131,16 +132,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 43
+    pushes: 42
     distinct_repos: 2
-    pushes_per_repo: 21.5000
-    active_days: 17
+    pushes_per_repo: 21.0000
+    active_days: 16
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
-  - "provenance: 67 vault signal(s) — pass"
-  - "activity: 17 active days in 90d — pass"
+  - "provenance: 68 vault signal(s) — pass"
+  - "activity: 16 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "claude-code-xtras"
@@ -193,6 +194,6 @@ repos:
 
 # rquintino
 
-43 pushes across 2 repositories on 17 active days in the last 90 days of public GitHub push activity.
+42 pushes across 2 repositories on 16 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/rquintino

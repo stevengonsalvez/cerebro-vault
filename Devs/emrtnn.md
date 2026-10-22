@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-20T06:04:57.914428+00:00"
+generated_at: "2026-10-22T06:05:29.861706+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [2, 0, 0, 0, 0, 0, 0, 0, 1, 4, 2, 1, 1]
+pushes_per_week: [2, 0, 0, 0, 0, 0, 0, 1, 0, 4, 2, 1, 2]
 windows:
   "7d":
-    pushes: 1
+    pushes: 2
     distinct_repos: 1
-    active_days: 1
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 8
+    pushes: 9
     distinct_repos: 2
-    active_days: 7
+    active_days: 8
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 11
+    pushes: 12
     distinct_repos: 4
-    active_days: 9
+    active_days: 10
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.2222
-  repo_per_active_day: 0.4444
+  push_per_day: 1.2000
+  repo_per_active_day: 0.4000
   not_owned_ratio: 0.0000
   basename_concentration: 0.2500
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
+    pushes: 2
     distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes_per_repo: 2.0000
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 8
+    pushes: 9
     distinct_repos: 2
-    pushes_per_repo: 4.0000
-    active_days: 7
+    pushes_per_repo: 4.5000
+    active_days: 8
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 11
+    pushes: 12
     distinct_repos: 4
-    pushes_per_repo: 2.7500
-    active_days: 9
+    pushes_per_repo: 3.0000
+    active_days: 10
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 9 active days in 90d — pass"
+  - "activity: 10 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "nixconfig"
@@ -121,6 +121,6 @@ repos:
 
 # emrtnn
 
-11 pushes across 4 repositories on 9 active days in the last 90 days of public GitHub push activity.
+12 pushes across 4 repositories on 10 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/emrtnn

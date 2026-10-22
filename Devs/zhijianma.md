@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-21T06:05:19.754690+00:00"
+generated_at: "2026-10-22T06:05:29.861706+00:00"
 provenance:
   - "541318303a272608"
-pushes_per_week: [0, 2, 3, 0, 2, 0, 2, 2, 13, 5, 9, 8, 4]
+pushes_per_week: [0, 3, 2, 0, 2, 0, 2, 8, 7, 11, 6, 5, 7]
 windows:
   "7d":
-    pushes: 5
+    pushes: 7
     distinct_repos: 2
-    active_days: 3
+    active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 30
+    pushes: 33
     distinct_repos: 2
     active_days: 12
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 50
+    pushes: 53
     distinct_repos: 2
     active_days: 25
     repos_not_owned: 1
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.0000
+  push_per_day: 2.1200
   repo_per_active_day: 0.0800
   not_owned_ratio: 0.5000
   basename_concentration: 1.0000
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 5
+    pushes: 7
     distinct_repos: 2
-    pushes_per_repo: 2.5000
-    active_days: 3
+    pushes_per_repo: 3.5000
+    active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 30
+    pushes: 33
     distinct_repos: 2
-    pushes_per_repo: 15.0000
+    pushes_per_repo: 16.5000
     active_days: 12
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 50
+    pushes: 53
     distinct_repos: 2
-    pushes_per_repo: 25.0000
+    pushes_per_repo: 26.5000
     active_days: 25
     repos_not_owned: 1
     not_owned_basenames: 1
@@ -81,6 +81,6 @@ repos: []
 
 # zhijianma
 
-50 pushes across 2 repositories on 25 active days in the last 90 days of public GitHub push activity.
+53 pushes across 2 repositories on 25 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/zhijianma

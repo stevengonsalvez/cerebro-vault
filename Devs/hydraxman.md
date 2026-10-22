@@ -10,11 +10,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-21T06:05:19.754690+00:00"
+generated_at: "2026-10-22T06:05:29.861706+00:00"
 provenance:
   - "4a45ac7a449df20e"
   - "4d1450729e6ff44d"
-pushes_per_week: [4, 2, 2, 6, 2, 0, 1, 2, 0, 2, 2, 0, 0]
+pushes_per_week: [3, 1, 3, 5, 2, 0, 1, 2, 0, 2, 2, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -31,18 +31,18 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 23
-    distinct_repos: 8
-    active_days: 19
+    pushes: 21
+    distinct_repos: 7
+    active_days: 18
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.2105
-  repo_per_active_day: 0.4211
-  not_owned_ratio: 0.2500
-  basename_concentration: 0.1250
+  push_per_day: 1.1667
+  repo_per_active_day: 0.3889
+  not_owned_ratio: 0.2857
+  basename_concentration: 0.1429
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -67,16 +67,16 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 23
-    distinct_repos: 8
-    pushes_per_repo: 2.8750
-    active_days: 19
+    pushes: 21
+    distinct_repos: 7
+    pushes_per_repo: 3.0000
+    active_days: 18
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 19 active days in 90d — pass"
+  - "activity: 18 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "PianoGo"
@@ -142,6 +142,6 @@ repos:
 
 # hydraxman
 
-23 pushes across 8 repositories on 19 active days in the last 90 days of public GitHub push activity.
+21 pushes across 7 repositories on 18 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/hydraxman

@@ -9,20 +9,20 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-21T06:05:19.754690+00:00"
+generated_at: "2026-10-22T06:05:29.861706+00:00"
 provenance:
   - "4138778ebbc75ba6"
-pushes_per_week: [2, 1, 3, 1, 2, 0, 0, 1, 0, 0, 4, 12, 6]
+pushes_per_week: [2, 1, 2, 1, 2, 0, 0, 1, 0, 0, 4, 12, 7]
 windows:
   "7d":
-    pushes: 10
+    pushes: 7
     distinct_repos: 4
-    active_days: 3
+    active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 22
+    pushes: 23
     distinct_repos: 8
     active_days: 8
     repos_not_owned: 1
@@ -31,14 +31,14 @@ windows:
   "90d":
     pushes: 32
     distinct_repos: 10
-    active_days: 18
+    active_days: 17
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 1.7778
-  repo_per_active_day: 0.5556
+  push_per_day: 1.8824
+  repo_per_active_day: 0.5882
   not_owned_ratio: 0.2000
   basename_concentration: 0.2000
   shapes: []
@@ -49,17 +49,17 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 10
+    pushes: 7
     distinct_repos: 4
-    pushes_per_repo: 2.5000
-    active_days: 3
+    pushes_per_repo: 1.7500
+    active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 22
+    pushes: 23
     distinct_repos: 8
-    pushes_per_repo: 2.7500
+    pushes_per_repo: 2.8750
     active_days: 8
     repos_not_owned: 1
     not_owned_basenames: 1
@@ -68,13 +68,13 @@ facets:
     pushes: 32
     distinct_repos: 10
     pushes_per_repo: 3.2000
-    active_days: 18
+    active_days: 17
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 18 active days in 90d — pass"
+  - "activity: 17 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "awesome-go"
@@ -146,6 +146,6 @@ repos:
 
 # avelino
 
-32 pushes across 10 repositories on 18 active days in the last 90 days of public GitHub push activity.
+32 pushes across 10 repositories on 17 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/avelino

@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-21T06:05:19.754690+00:00"
+generated_at: "2026-10-22T06:05:29.861706+00:00"
 provenance:
   - "cb8f252ccaaf10b0"
-pushes_per_week: [44, 7, 15, 19, 18, 4, 10, 7, 10, 20, 37, 11, 3]
+pushes_per_week: [40, 7, 15, 19, 22, 0, 10, 8, 11, 24, 31, 11, 5]
 windows:
   "7d":
-    pushes: 3
+    pushes: 5
     distinct_repos: 2
-    active_days: 2
+    active_days: 3
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 79
+    pushes: 81
     distinct_repos: 3
-    active_days: 16
+    active_days: 17
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 205
+    pushes: 203
     distinct_repos: 3
     active_days: 45
     repos_not_owned: 3
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 4.5556
+  push_per_day: 4.5111
   repo_per_active_day: 0.0667
   not_owned_ratio: 1.0000
   basename_concentration: 0.3333
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 3
+    pushes: 5
     distinct_repos: 2
-    pushes_per_repo: 1.5000
-    active_days: 2
+    pushes_per_repo: 2.5000
+    active_days: 3
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 79
+    pushes: 81
     distinct_repos: 3
-    pushes_per_repo: 26.3333
-    active_days: 16
+    pushes_per_repo: 27.0000
+    active_days: 17
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 205
+    pushes: 203
     distinct_repos: 3
-    pushes_per_repo: 68.3333
+    pushes_per_repo: 67.6667
     active_days: 45
     repos_not_owned: 3
     not_owned_basenames: 3
@@ -144,6 +144,6 @@ repos:
 
 # cliffhall
 
-205 pushes across 3 repositories on 45 active days in the last 90 days of public GitHub push activity.
+203 pushes across 3 repositories on 45 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/cliffhall

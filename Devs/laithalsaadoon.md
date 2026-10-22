@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-21T06:05:19.754690+00:00"
+generated_at: "2026-10-22T06:05:29.861706+00:00"
 provenance:
   - "a50b0e08dbaee74a"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 4, 6, 16, 6, 21, 1]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 1, 3, 12, 10, 10, 17, 3]
 windows:
   "7d":
     pushes: 3
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 49
+    pushes: 50
     distinct_repos: 6
     active_days: 17
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 54
+    pushes: 56
     distinct_repos: 7
-    active_days: 21
+    active_days: 22
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.5714
-  repo_per_active_day: 0.3333
+  push_per_day: 2.5455
+  repo_per_active_day: 0.3182
   not_owned_ratio: 0.2857
   basename_concentration: 0.1429
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 49
+    pushes: 50
     distinct_repos: 6
-    pushes_per_repo: 8.1667
+    pushes_per_repo: 8.3333
     active_days: 17
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 54
+    pushes: 56
     distinct_repos: 7
-    pushes_per_repo: 7.7143
-    active_days: 21
+    pushes_per_repo: 8.0000
+    active_days: 22
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 21 active days in 90d — pass"
+  - "activity: 22 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "microvms-agentd"
@@ -165,6 +165,6 @@ repos:
 
 # laithalsaadoon
 
-54 pushes across 7 repositories on 21 active days in the last 90 days of public GitHub push activity.
+56 pushes across 7 repositories on 22 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/laithalsaadoon

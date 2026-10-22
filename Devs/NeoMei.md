@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-21T06:05:19.754690+00:00"
+generated_at: "2026-10-22T06:05:29.861706+00:00"
 provenance:
   - "90688bf127241ceb"
-pushes_per_week: [5, 1, 15, 7, 1, 1, 4, 0, 7, 4, 2, 5, 3]
+pushes_per_week: [4, 2, 14, 7, 1, 1, 4, 0, 7, 4, 3, 4, 5]
 windows:
   "7d":
     pushes: 5
-    distinct_repos: 3
+    distinct_repos: 2
     active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 15
+    pushes: 17
     distinct_repos: 6
-    active_days: 9
+    active_days: 10
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 55
-    distinct_repos: 11
+    pushes: 56
+    distinct_repos: 10
     active_days: 31
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.7742
-  repo_per_active_day: 0.3548
+  push_per_day: 1.8065
+  repo_per_active_day: 0.3226
   not_owned_ratio: 0.0000
-  basename_concentration: 0.0909
+  basename_concentration: 0.1000
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -50,24 +50,24 @@ automation:
 facets:
   "7d":
     pushes: 5
-    distinct_repos: 3
-    pushes_per_repo: 1.6667
+    distinct_repos: 2
+    pushes_per_repo: 2.5000
     active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 15
+    pushes: 17
     distinct_repos: 6
-    pushes_per_repo: 2.5000
-    active_days: 9
+    pushes_per_repo: 2.8333
+    active_days: 10
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 55
-    distinct_repos: 11
-    pushes_per_repo: 5.0000
+    pushes: 56
+    distinct_repos: 10
+    pushes_per_repo: 5.6000
     active_days: 31
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -136,6 +136,6 @@ repos:
 
 # NeoMei
 
-55 pushes across 11 repositories on 31 active days in the last 90 days of public GitHub push activity.
+56 pushes across 10 repositories on 31 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/NeoMei

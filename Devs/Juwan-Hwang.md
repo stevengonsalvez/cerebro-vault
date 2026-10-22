@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-21T06:05:19.754690+00:00"
+generated_at: "2026-10-22T06:05:29.861706+00:00"
 provenance:
   - "0b22ca37fd3884c9"
-pushes_per_week: [17, 4, 17, 10, 4, 0, 1, 0, 0, 1, 1, 11, 15]
+pushes_per_week: [12, 4, 19, 8, 4, 0, 1, 0, 0, 1, 1, 11, 34]
 windows:
   "7d":
-    pushes: 17
+    pushes: 34
     distinct_repos: 3
     active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 28
+    pushes: 47
     distinct_repos: 5
-    active_days: 12
+    active_days: 13
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 81
+    pushes: 95
     distinct_repos: 13
     active_days: 33
     repos_not_owned: 1
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.4545
+  push_per_day: 2.8788
   repo_per_active_day: 0.3939
   not_owned_ratio: 0.0769
   basename_concentration: 0.0769
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 17
+    pushes: 34
     distinct_repos: 3
-    pushes_per_repo: 5.6667
+    pushes_per_repo: 11.3333
     active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 28
+    pushes: 47
     distinct_repos: 5
-    pushes_per_repo: 5.6000
-    active_days: 12
+    pushes_per_repo: 9.4000
+    active_days: 13
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 81
+    pushes: 95
     distinct_repos: 13
-    pushes_per_repo: 6.2308
+    pushes_per_repo: 7.3077
     active_days: 33
     repos_not_owned: 1
     not_owned_basenames: 1
@@ -157,6 +157,6 @@ repos:
 
 # Juwan-Hwang
 
-81 pushes across 13 repositories on 33 active days in the last 90 days of public GitHub push activity.
+95 pushes across 13 repositories on 33 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Juwan-Hwang

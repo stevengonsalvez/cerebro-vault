@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-21T06:05:19.754690+00:00"
+generated_at: "2026-10-22T06:05:29.861706+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [0, 1, 1, 4, 3, 0, 0, 0, 2, 16, 9, 33, 17]
+pushes_per_week: [0, 1, 1, 4, 3, 0, 0, 0, 3, 17, 9, 31, 20]
 windows:
   "7d":
-    pushes: 18
-    distinct_repos: 3
+    pushes: 20
+    distinct_repos: 2
     active_days: 3
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 77
+    pushes: 80
     distinct_repos: 4
-    active_days: 21
+    active_days: 22
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 86
+    pushes: 89
     distinct_repos: 5
-    active_days: 28
+    active_days: 29
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 3.0714
-  repo_per_active_day: 0.1786
+  push_per_day: 3.0690
+  repo_per_active_day: 0.1724
   not_owned_ratio: 0.4000
   basename_concentration: 0.4000
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 18
-    distinct_repos: 3
-    pushes_per_repo: 6.0000
+    pushes: 20
+    distinct_repos: 2
+    pushes_per_repo: 10.0000
     active_days: 3
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 77
+    pushes: 80
     distinct_repos: 4
-    pushes_per_repo: 19.2500
-    active_days: 21
+    pushes_per_repo: 20.0000
+    active_days: 22
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 86
+    pushes: 89
     distinct_repos: 5
-    pushes_per_repo: 17.2000
-    active_days: 28
+    pushes_per_repo: 17.8000
+    active_days: 29
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 28 active days in 90d — pass"
+  - "activity: 29 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "attention"
@@ -129,6 +129,6 @@ repos:
 
 # cunninghamcard-bit
 
-86 pushes across 5 repositories on 28 active days in the last 90 days of public GitHub push activity.
+89 pushes across 5 repositories on 29 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/cunninghamcard-bit

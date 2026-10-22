@@ -10,36 +10,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-21T06:05:19.754690+00:00"
+generated_at: "2026-10-22T06:05:29.861706+00:00"
 provenance:
   - "9d67ce648f6a8919"
-pushes_per_week: [2, 1, 7, 9, 2, 2, 3, 2, 6, 14, 9, 6, 0]
+pushes_per_week: [2, 0, 10, 6, 2, 2, 3, 3, 5, 15, 8, 6, 0]
 windows:
   "7d":
-    pushes: 2
-    distinct_repos: 2
-    active_days: 1
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
-    pushes: 31
+    pushes: 30
     distinct_repos: 9
-    active_days: 14
+    active_days: 13
     repos_not_owned: 7
     not_owned_basenames: 1
     not_owned_owners: 7
   "90d":
-    pushes: 63
+    pushes: 62
     distinct_repos: 11
-    active_days: 36
+    active_days: 35
     repos_not_owned: 8
     not_owned_basenames: 1
     not_owned_owners: 8
 automation:
   state: "clear"
-  push_per_day: 1.7500
-  repo_per_active_day: 0.3056
+  push_per_day: 1.7714
+  repo_per_active_day: 0.3143
   not_owned_ratio: 0.7273
   basename_concentration: 0.8182
   shapes:
@@ -66,32 +66,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
-    distinct_repos: 2
-    pushes_per_repo: 1.0000
-    active_days: 1
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
-    pushes: 31
+    pushes: 30
     distinct_repos: 9
-    pushes_per_repo: 3.4444
-    active_days: 14
+    pushes_per_repo: 3.3333
+    active_days: 13
     repos_not_owned: 7
     not_owned_basenames: 1
     not_owned_owners: 7
   "90d":
-    pushes: 63
+    pushes: 62
     distinct_repos: 11
-    pushes_per_repo: 5.7273
-    active_days: 36
+    pushes_per_repo: 5.6364
+    active_days: 35
     repos_not_owned: 8
     not_owned_basenames: 1
     not_owned_owners: 8
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 36 active days in 90d — pass"
+  - "activity: 35 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "free-claude-code"
@@ -130,6 +130,6 @@ repos:
 
 # Alishahryar1
 
-63 pushes across 11 repositories on 36 active days in the last 90 days of public GitHub push activity.
+62 pushes across 11 repositories on 35 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Alishahryar1
