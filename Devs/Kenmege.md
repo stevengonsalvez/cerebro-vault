@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-22T06:05:29.861706+00:00"
+generated_at: "2026-10-24T06:05:01.431039+00:00"
 provenance:
   - "2a7f0fddd2dac162"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 4, 4, 0, 1, 0]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 1, 3, 4, 0, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,24 +77,6 @@ reasons:
   - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "codex-claude-companion"
-    title: "codex-claude-companion"
-    description: "Codex-native Claude review plugin for read-only, evidence-cited Opus review lanes."
-    language: "JavaScript"
-    topics:
-      - "agentic"
-      - "ai-code-review"
-      - "claude"
-      - "claude-code"
-      - "code-review"
-      - "codex"
-      - "codex-plugin"
-      - "nodejs"
-      - "opus"
-      - "sonnet"
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-10-12"
   - name: "hermes-desktop-guide"
     title: "hermes-desktop-guide"
     description: null

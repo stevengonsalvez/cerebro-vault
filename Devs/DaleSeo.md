@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-22T06:05:29.861706+00:00"
+generated_at: "2026-10-24T06:05:01.431039+00:00"
 provenance:
   - "0b22ca37fd3884c9"
-pushes_per_week: [13, 2, 5, 2, 0, 0, 0, 1, 18, 10, 5, 12, 4]
+pushes_per_week: [8, 6, 1, 2, 0, 0, 0, 7, 16, 6, 6, 11, 4]
 windows:
   "7d":
     pushes: 4
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 42
+    pushes: 31
     distinct_repos: 13
-    active_days: 17
+    active_days: 15
     repos_not_owned: 12
     not_owned_basenames: 11
     not_owned_owners: 3
   "90d":
-    pushes: 72
+    pushes: 67
     distinct_repos: 17
-    active_days: 33
+    active_days: 31
     repos_not_owned: 14
     not_owned_basenames: 13
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 2.1818
-  repo_per_active_day: 0.5152
+  push_per_day: 2.1613
+  repo_per_active_day: 0.5484
   not_owned_ratio: 0.8235
   basename_concentration: 0.1176
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 42
+    pushes: 31
     distinct_repos: 13
-    pushes_per_repo: 3.2308
-    active_days: 17
+    pushes_per_repo: 2.3846
+    active_days: 15
     repos_not_owned: 12
     not_owned_basenames: 11
     not_owned_owners: 3
   "90d":
-    pushes: 72
+    pushes: 67
     distinct_repos: 17
-    pushes_per_repo: 4.2353
-    active_days: 33
+    pushes_per_repo: 3.9412
+    active_days: 31
     repos_not_owned: 14
     not_owned_basenames: 13
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 33 active days in 90d — pass"
+  - "activity: 31 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "korean-skills"
@@ -85,7 +85,7 @@ repos:
       - "agent-skills"
       - "humanizer"
       - "korean"
-    stars_fact: 226
+    stars_fact: 232
     first_seen: null
     last_push: "2026-05-05"
   - name: "github-actions-secrets"
@@ -111,7 +111,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-12"
+    last_push: "2026-10-19"
   - name: "DaleSeo.github.io"
     title: "DaleSeo.github.io"
     description: "Engineering Blog by Dale Seo"
@@ -132,6 +132,6 @@ repos:
 
 # DaleSeo
 
-72 pushes across 17 repositories on 33 active days in the last 90 days of public GitHub push activity.
+67 pushes across 17 repositories on 31 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/DaleSeo

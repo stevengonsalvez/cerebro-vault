@@ -9,11 +9,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-20T06:04:57.914428+00:00"
+generated_at: "2026-10-24T06:05:01.431039+00:00"
 provenance:
   - "1df6ea1f1256059e"
   - "edb3a626875732de"
-pushes_per_week: [0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 2, 5, 0]
+pushes_per_week: [0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 2, 5, 0]
 windows:
   "7d":
     pushes: 0
@@ -85,7 +85,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-15"
+    last_push: "2026-10-22"
   - name: "tailnet-sentry"
     title: "tailnet-sentry"
     description: "Scan your own tailnet, mark known devices healthy, flag the anomaly, quarantine it. Defensive Go CLI over the Tailscale API."
@@ -93,7 +93,15 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-15"
+    last_push: "2026-10-21"
+  - name: "agent-harness"
+    title: "agent-harness"
+    description: "Portable memory & token-efficiency harness for coding agents — queryable code graphs, human-approval gates, and one-command install for Claude Code, Codex, and Gemini."
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-19"
   - name: "elevate-hrg"
     title: "elevate-hrg"
     description: "Website for Elevate HRG, a home exterior contractor in Wallington NJ: Next.js on Netlify with tested lead capture."
@@ -124,21 +132,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-10-12"
-  - name: "compute-pool"
-    title: "compute-pool"
-    description: "Share CPU between your own devices over Tailscale: run commands on the least-loaded device, fan out tasks, live dashboard"
-    language: "Go"
-    topics:
-      - "cli"
-      - "developer-tools"
-      - "distributed-computing"
-      - "go"
-      - "homelab"
-      - "tailscale"
-      - "task-runner"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-16"
 ---
 
 # montjeffrey

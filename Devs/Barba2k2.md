@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-22T06:05:29.861706+00:00"
+generated_at: "2026-10-24T06:05:01.431039+00:00"
 provenance:
   - "4138778ebbc75ba6"
-pushes_per_week: [3, 3, 9, 0, 0, 0, 0, 1, 1, 0, 1, 0, 0]
+pushes_per_week: [5, 8, 2, 0, 0, 0, 1, 1, 0, 0, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,54 +77,54 @@ reasons:
   - "activity: 8 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "SystemCleanUp"
-    title: "SystemCleanUp"
+  - name: "Cpp-APi"
+    title: "Cpp-APi"
     description: null
-    language: "Rust"
+    language: "C++"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-05"
-  - name: "natomada"
-    title: "natomada"
+    last_push: "2026-10-22"
+  - name: "completa_ai_backend"
+    title: "completa_ai_backend"
     description: null
-    language: "Java"
+    language: "Go"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-13"
-  - name: "ugreen-cam"
-    title: "ugreen-cam"
-    description: "Tauri + Rust app to control UVC webcam settings (color, exposure, focus) with presets"
+    last_push: "2026-10-18"
+  - name: "todo-app"
+    title: "todo-app"
+    description: null
+    language: "Kotlin"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-18"
+  - name: "http_status"
+    title: "http_status"
+    description: null
+    language: "Dart"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-18"
+  - name: "project1"
+    title: "project1"
+    description: null
+    language: "PHP"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-18"
+  - name: "order-management-challenge-node"
+    title: "order-management-challenge-node"
+    description: null
     language: "TypeScript"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-11"
-  - name: "darmoshark-m3-configurator"
-    title: "darmoshark-m3-configurator"
-    description: "Configurador aberto para o mouse Darmoshark M3 (Attack Shark M3) no macOS — DPI, taxa de resposta e ajustes via USB, sem o software oficial"
-    language: "Rust"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-11"
-  - name: "claude-plugins-viewer"
-    title: "claude-plugins-viewer"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-08-25"
-  - name: "LocalVault"
-    title: "LocalVault"
-    description: null
-    language: "Swift"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-07"
+    last_push: "2026-10-18"
 ---
 
 # Barba2k2

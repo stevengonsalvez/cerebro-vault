@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-22T06:05:29.861706+00:00"
+generated_at: "2026-10-24T06:05:01.431039+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 3, 1, 4, 13, 2, 0]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 4, 2, 8, 7, 2, 0]
 windows:
   "7d":
     pushes: 0
@@ -84,23 +84,7 @@ repos:
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-10-16"
-  - name: "opencode-stats"
-    title: "opencode-stats"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-15"
-  - name: "ts-template"
-    title: "ts-template"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-14"
+    last_push: "2026-10-24"
   - name: "movie-noti"
     title: "movie-noti"
     description: null
@@ -108,7 +92,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-14"
+    last_push: "2026-10-24"
   - name: "cpdown"
     title: "cpdown"
     description: "📥 cpdown - Copy to clipboard any webpage content/youtube subtitle as clean markdown with one click or shortcut"
@@ -124,15 +108,31 @@ repos:
       - "youtube"
     stars_fact: 582
     first_seen: null
-    last_push: "2026-10-12"
-  - name: "opencode-codex-websearch"
-    title: "opencode-codex-websearch"
+    last_push: "2026-10-19"
+  - name: "wachi"
+    title: "wachi"
+    description: "Subscribe any link and get notified on change"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-22"
+  - name: "opencode-translate"
+    title: "opencode-translate"
+    description: "Use opencode in your native language. LLM always hears English."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 9
+    first_seen: null
+    last_push: "2026-10-22"
+  - name: "oc-discord"
+    title: "oc-discord"
     description: null
     language: "TypeScript"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-13"
+    last_push: "2026-10-20"
 ---
 
 # ysm-dev

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-22T06:05:29.861706+00:00"
+generated_at: "2026-10-24T06:05:01.431039+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 1, 4, 3, 12, 28, 11]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 2, 3, 7, 10, 26, 11]
 windows:
   "7d":
     pushes: 11
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 57
+    pushes: 55
     distinct_repos: 3
-    active_days: 18
+    active_days: 17
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 57
+    pushes: 55
     distinct_repos: 3
-    pushes_per_repo: 19.0000
-    active_days: 18
+    pushes_per_repo: 18.3333
+    active_days: 17
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -91,7 +91,7 @@ repos:
       - "typescript"
     stars_fact: 3
     first_seen: null
-    last_push: "2026-10-16"
+    last_push: "2026-10-24"
   - name: "Thinkya1.github.io"
     title: "Thinkya1.github.io"
     description: "个人博客"
@@ -99,7 +99,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-15"
+    last_push: "2026-10-18"
   - name: "biny-web"
     title: "biny-web"
     description: "Biny 官网：产品介绍、macOS 下载、使用文档与交互演示。"
@@ -107,7 +107,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-13"
+    last_push: "2026-10-18"
   - name: "binyouo"
     title: "binyouo"
     description: "兴趣使然者"

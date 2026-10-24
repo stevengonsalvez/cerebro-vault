@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-22T06:05:29.861706+00:00"
+generated_at: "2026-10-24T06:05:01.431039+00:00"
 provenance:
   - "90688bf127241ceb"
-pushes_per_week: [2, 4, 14, 5, 1, 0, 7, 6, 8, 0, 0, 1, 1]
+pushes_per_week: [3, 5, 13, 4, 1, 0, 7, 8, 6, 0, 0, 1, 1]
 windows:
   "7d":
     pushes: 1
@@ -84,13 +84,13 @@ repos:
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-10-16"
+    last_push: "2026-10-24"
   - name: "ip_derper"
     title: "ip_derper"
     description: "无需域名的 derper"
     language: "Dockerfile"
     topics: []
-    stars_fact: 460
+    stars_fact: 461
     first_seen: null
     last_push: "2025-02-16"
   - name: "k8s-knowledge"

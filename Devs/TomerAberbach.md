@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-22T06:05:29.861706+00:00"
+generated_at: "2026-10-24T06:05:01.431039+00:00"
 provenance:
   - "1be978947e68d1f2"
-pushes_per_week: [2, 3, 14, 5, 1, 0, 1, 1, 6, 14, 1, 5, 0]
+pushes_per_week: [1, 7, 10, 5, 1, 0, 2, 1, 9, 11, 1, 4, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 23
+    pushes: 20
     distinct_repos: 2
-    active_days: 11
+    active_days: 10
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 53
+    pushes: 52
     distinct_repos: 5
-    active_days: 29
+    active_days: 28
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.8276
-  repo_per_active_day: 0.1724
+  push_per_day: 1.8571
+  repo_per_active_day: 0.1786
   not_owned_ratio: 0.0000
   basename_concentration: 0.2000
   shapes: []
@@ -57,26 +57,46 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 23
+    pushes: 20
     distinct_repos: 2
-    pushes_per_repo: 11.5000
-    active_days: 11
+    pushes_per_repo: 10.0000
+    active_days: 10
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 53
+    pushes: 52
     distinct_repos: 5
-    pushes_per_repo: 10.6000
-    active_days: 29
+    pushes_per_repo: 10.4000
+    active_days: 28
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 29 active days in 90d — pass"
+  - "activity: 28 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "lfi"
+    title: "lfi"
+    description: "🦥 A lazy functional iteration library supporting sync, async, and concurrent iteration."
+    language: "TypeScript"
+    topics:
+      - "async"
+      - "concurrent"
+      - "functional-programming"
+      - "generator"
+      - "iterable"
+      - "iterator"
+      - "javascript"
+      - "lazy"
+      - "npm-module"
+      - "npm-package"
+      - "promise"
+      - "sync"
+    stars_fact: 351
+    first_seen: null
+    last_push: "2025-12-16"
   - name: "profiler-md"
     title: "profiler-md"
     description: "🔥 Converts performance profiles to human and LLM friendly Markdown."
@@ -90,7 +110,39 @@ repos:
       - "profiler-data"
     stars_fact: 12
     first_seen: null
-    last_push: "2026-10-16"
+    last_push: "2026-10-23"
+  - name: "quetie"
+    title: "quetie"
+    description: "🎀 Just the cutest and tiniest queue/deque implementation!"
+    language: "TypeScript"
+    topics:
+      - "amortized-array"
+      - "data-structures"
+      - "deque"
+      - "double-ended-queue"
+      - "npm-module"
+      - "npm-package"
+      - "queue"
+      - "stack"
+    stars_fact: 115
+    first_seen: null
+    last_push: "2025-09-01"
+  - name: "limit-concur"
+    title: "limit-concur"
+    description: "⚖️ Limit an async function's concurrency with ease!"
+    language: "TypeScript"
+    topics:
+      - "async"
+      - "concurrency"
+      - "javascript"
+      - "nodejs"
+      - "npm-module"
+      - "npm-package"
+      - "promise"
+      - "rate-limiting"
+    stars_fact: 28
+    first_seen: null
+    last_push: "2025-09-01"
   - name: "sorted-ranges"
     title: "sorted-ranges"
     description: "⚖️ A lightweight and performant sorted range map and set."
@@ -120,57 +172,10 @@ repos:
     stars_fact: 631
     first_seen: null
     last_push: "2025-09-01"
-  - name: "cover-letter"
-    title: "cover-letter"
-    description: "📄 A LaTeX document for my cover letters."
-    language: "TeX"
-    topics:
-      - "cover-letter"
-      - "cover-letter-templates"
-      - "cover-letters"
-      - "document"
-      - "latex"
-      - "latex-document"
-      - "overleaf"
-      - "pdf"
-      - "tex"
-      - "ubuntu"
-    stars_fact: 17
-    first_seen: null
-    last_push: "2024-10-15"
-  - name: "quetie"
-    title: "quetie"
-    description: "🎀 Just the cutest and tiniest queue/deque implementation!"
-    language: "TypeScript"
-    topics:
-      - "amortized-array"
-      - "data-structures"
-      - "deque"
-      - "double-ended-queue"
-      - "npm-module"
-      - "npm-package"
-      - "queue"
-      - "stack"
-    stars_fact: 116
-    first_seen: null
-    last_push: "2025-09-01"
-  - name: "claude-config"
-    title: "claude-config"
-    description: "🤖 My Claude Code config!"
-    language: "Shell"
-    topics:
-      - "claude"
-      - "claude-code"
-      - "claude-code-config"
-      - "claude-code-skills"
-      - "claude-config"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-11"
 ---
 
 # TomerAberbach
 
-53 pushes across 5 repositories on 29 active days in the last 90 days of public GitHub push activity.
+52 pushes across 5 repositories on 28 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/TomerAberbach

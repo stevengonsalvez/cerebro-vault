@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-22T06:05:29.861706+00:00"
+generated_at: "2026-10-24T06:05:01.431039+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 6, 3, 1, 0, 1, 1]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 1, 8, 0, 1, 1, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -84,7 +84,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-22"
+    last_push: "2026-10-21"
   - name: "Hyindex"
     title: "Hyindex"
     description: "Headless Hytale modding knowledge indexer and MCP server"
@@ -92,7 +92,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-18"
+    last_push: "2026-10-17"
   - name: "pxpipe"
     title: "pxpipe"
     description: null

@@ -9,28 +9,28 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-22T06:05:29.861706+00:00"
+generated_at: "2026-10-24T06:05:01.431039+00:00"
 provenance:
   - "46f3c1d6124190bd"
-pushes_per_week: [4, 2, 1, 1, 0, 0, 5, 4, 16, 44, 5, 7, 1]
+pushes_per_week: [3, 2, 1, 1, 0, 0, 5, 9, 26, 33, 2, 6, 2]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
+    pushes: 2
+    distinct_repos: 2
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 62
+    pushes: 58
     distinct_repos: 12
-    active_days: 18
-    repos_not_owned: 5
-    not_owned_basenames: 5
+    active_days: 17
+    repos_not_owned: 4
+    not_owned_basenames: 4
     not_owned_owners: 2
   "90d":
     pushes: 90
-    distinct_repos: 23
+    distinct_repos: 24
     active_days: 31
     repos_not_owned: 6
     not_owned_basenames: 6
@@ -38,9 +38,9 @@ windows:
 automation:
   state: "clear"
   push_per_day: 2.9032
-  repo_per_active_day: 0.7419
-  not_owned_ratio: 0.2609
-  basename_concentration: 0.0435
+  repo_per_active_day: 0.7742
+  not_owned_ratio: 0.2500
+  basename_concentration: 0.0417
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
+    pushes: 2
+    distinct_repos: 2
     pushes_per_repo: 1.0000
-    active_days: 1
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 62
+    pushes: 58
     distinct_repos: 12
-    pushes_per_repo: 5.1667
-    active_days: 18
-    repos_not_owned: 5
-    not_owned_basenames: 5
+    pushes_per_repo: 4.8333
+    active_days: 17
+    repos_not_owned: 4
+    not_owned_basenames: 4
     not_owned_owners: 2
   "90d":
     pushes: 90
-    distinct_repos: 23
-    pushes_per_repo: 3.9130
+    distinct_repos: 24
+    pushes_per_repo: 3.7500
     active_days: 31
     repos_not_owned: 6
     not_owned_basenames: 6
@@ -132,6 +132,6 @@ repos:
 
 # flessan
 
-90 pushes across 23 repositories on 31 active days in the last 90 days of public GitHub push activity.
+90 pushes across 24 repositories on 31 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/flessan

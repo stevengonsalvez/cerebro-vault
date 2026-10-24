@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-22T06:05:29.861706+00:00"
+generated_at: "2026-10-24T06:05:01.431039+00:00"
 provenance:
   - "541318303a272608"
-pushes_per_week: [3, 0, 5, 3, 5, 1, 1, 1, 4, 8, 0, 2, 0]
+pushes_per_week: [1, 0, 6, 2, 5, 1, 1, 1, 4, 8, 0, 2, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 33
-    distinct_repos: 9
-    active_days: 20
+    pushes: 31
+    distinct_repos: 8
+    active_days: 18
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.6500
-  repo_per_active_day: 0.4500
-  not_owned_ratio: 0.1111
-  basename_concentration: 0.1111
+  push_per_day: 1.7222
+  repo_per_active_day: 0.4444
+  not_owned_ratio: 0.1250
+  basename_concentration: 0.1250
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 33
-    distinct_repos: 9
-    pushes_per_repo: 3.6667
-    active_days: 20
+    pushes: 31
+    distinct_repos: 8
+    pushes_per_repo: 3.8750
+    active_days: 18
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 20 active days in 90d — pass"
+  - "activity: 18 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "xiaoheihe-cli"
@@ -161,6 +161,6 @@ repos:
 
 # AaronZ345
 
-33 pushes across 9 repositories on 20 active days in the last 90 days of public GitHub push activity.
+31 pushes across 8 repositories on 18 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/AaronZ345

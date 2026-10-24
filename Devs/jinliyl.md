@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-22T06:05:29.861706+00:00"
+generated_at: "2026-10-24T06:05:01.431039+00:00"
 provenance:
   - "541318303a272608"
-pushes_per_week: [4, 4, 13, 5, 1, 0, 0, 6, 7, 2, 10, 14, 2]
+pushes_per_week: [4, 2, 16, 2, 1, 0, 2, 4, 7, 8, 6, 12, 2]
 windows:
   "7d":
     pushes: 2
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 31
+    pushes: 28
     distinct_repos: 6
-    active_days: 14
+    active_days: 13
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
   "90d":
-    pushes: 68
+    pushes: 66
     distinct_repos: 8
-    active_days: 36
+    active_days: 34
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 1.8889
-  repo_per_active_day: 0.2222
+  push_per_day: 1.9412
+  repo_per_active_day: 0.2353
   not_owned_ratio: 0.5000
   basename_concentration: 0.2500
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 31
+    pushes: 28
     distinct_repos: 6
-    pushes_per_repo: 5.1667
-    active_days: 14
+    pushes_per_repo: 4.6667
+    active_days: 13
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
   "90d":
-    pushes: 68
+    pushes: 66
     distinct_repos: 8
-    pushes_per_repo: 8.5000
-    active_days: 36
+    pushes_per_repo: 8.2500
+    active_days: 34
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 36 active days in 90d — pass"
+  - "activity: 34 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "YahooCrawler"
@@ -129,6 +129,6 @@ repos:
 
 # jinliyl
 
-68 pushes across 8 repositories on 36 active days in the last 90 days of public GitHub push activity.
+66 pushes across 8 repositories on 34 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/jinliyl

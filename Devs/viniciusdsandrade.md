@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-22T06:05:29.861706+00:00"
+generated_at: "2026-10-24T06:05:01.431039+00:00"
 provenance:
   - "4138778ebbc75ba6"
-pushes_per_week: [2, 0, 0, 0, 0, 0, 0, 0, 3, 3, 4, 9, 4]
+pushes_per_week: [2, 0, 0, 0, 0, 0, 0, 1, 3, 5, 1, 9, 5]
 windows:
   "7d":
-    pushes: 4
+    pushes: 5
     distinct_repos: 4
-    active_days: 3
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 25
+    pushes: 26
     distinct_repos: 11
-    active_days: 14
+    active_days: 15
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.7857
-  repo_per_active_day: 0.7857
+  push_per_day: 1.7333
+  repo_per_active_day: 0.7333
   not_owned_ratio: 0.0000
   basename_concentration: 0.0909
   shapes: []
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 4
+    pushes: 5
     distinct_repos: 4
-    pushes_per_repo: 1.0000
-    active_days: 3
+    pushes_per_repo: 1.2500
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -65,34 +65,18 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 25
+    pushes: 26
     distinct_repos: 11
-    pushes_per_repo: 2.2727
-    active_days: 14
+    pushes_per_repo: 2.3636
+    active_days: 15
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 14 active days in 90d — pass"
+  - "activity: 15 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "lan-remote-ios"
-    title: "lan-remote-ios"
-    description: "Local network remote control application for iOS"
-    language: "Swift"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-16"
-  - name: "lan-remote-android"
-    title: "lan-remote-android"
-    description: "Local network remote control application for Android"
-    language: "Kotlin"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-16"
   - name: "viniciusdsandrade"
     title: "viniciusdsandrade"
     description: "Config files for my GitHub profile."
@@ -104,35 +88,51 @@ repos:
       - "github-config"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-12"
-  - name: "localiza-database-clone-with-postgres"
-    title: "localiza-database-clone-with-postgres"
-    description: null
-    language: "PLpgSQL"
+    last_push: "2026-10-24"
+  - name: "lan-cameras-mac"
+    title: "lan-cameras-mac"
+    description: "App nativo para macOS que mostra e controla câmeras IP XiongMai pela rede local, sem depender da nuvem"
+    language: "Swift"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-20"
-  - name: "modebench"
-    title: "modebench"
-    description: null
-    language: "Python"
+    last_push: "2026-10-24"
+  - name: "lan-cameras-android"
+    title: "lan-cameras-android"
+    description: "App Android para câmeras IP XiongMai na rede local (RTSP, ONVIF e DVRIP), sem a nuvem do fabricante"
+    language: "Kotlin"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-20"
-  - name: "foody-delivery-technical-test"
-    title: "foody-delivery-technical-test"
-    description: null
-    language: "Java"
+    last_push: "2026-10-23"
+  - name: "lan-cameras-ios"
+    title: "lan-cameras-ios"
+    description: "App nativo para iPhone que mostra e controla câmeras IP XiongMai pela rede local, sem depender da nuvem"
+    language: "Swift"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-07-31"
+    last_push: "2026-10-23"
+  - name: "lan-remote-android"
+    title: "lan-remote-android"
+    description: "Local network remote control application for Android"
+    language: "Kotlin"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-21"
+  - name: "lan-remote-ios"
+    title: "lan-remote-ios"
+    description: "Local network remote control application for iOS"
+    language: "Swift"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-21"
 ---
 
 # viniciusdsandrade
 
-25 pushes across 11 repositories on 14 active days in the last 90 days of public GitHub push activity.
+26 pushes across 11 repositories on 15 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/viniciusdsandrade

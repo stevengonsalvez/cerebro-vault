@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-22T06:05:29.861706+00:00"
+generated_at: "2026-10-24T06:05:01.431039+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [6, 4, 3, 6, 7, 0, 3, 15, 15, 11, 13, 18, 1]
+pushes_per_week: [7, 3, 8, 7, 0, 0, 3, 22, 11, 12, 12, 15, 1]
 windows:
   "7d":
     pushes: 1
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 51
-    distinct_repos: 23
-    active_days: 15
+    pushes: 43
+    distinct_repos: 21
+    active_days: 13
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 2
   "90d":
-    pushes: 102
+    pushes: 101
     distinct_repos: 29
-    active_days: 35
+    active_days: 34
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 2.9143
-  repo_per_active_day: 0.8286
+  push_per_day: 2.9706
+  repo_per_active_day: 0.8529
   not_owned_ratio: 0.1724
   basename_concentration: 0.0345
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 51
-    distinct_repos: 23
-    pushes_per_repo: 2.2174
-    active_days: 15
+    pushes: 43
+    distinct_repos: 21
+    pushes_per_repo: 2.0476
+    active_days: 13
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 2
   "90d":
-    pushes: 102
+    pushes: 101
     distinct_repos: 29
-    pushes_per_repo: 3.5172
-    active_days: 35
+    pushes_per_repo: 3.4828
+    active_days: 34
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 35 active days in 90d — pass"
+  - "activity: 34 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "TypeIt4Me"
@@ -129,6 +129,6 @@ repos:
 
 # Avicennasis
 
-102 pushes across 29 repositories on 35 active days in the last 90 days of public GitHub push activity.
+101 pushes across 29 repositories on 34 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Avicennasis

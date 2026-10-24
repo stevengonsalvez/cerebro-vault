@@ -11,11 +11,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-22T06:05:29.861706+00:00"
+generated_at: "2026-10-24T06:05:01.431039+00:00"
 provenance:
   - "c1af6b58492f9bf4"
   - "ddd7486148a91958"
-pushes_per_week: [1, 9, 2, 6, 3, 2, 3, 3, 3, 2, 5, 6, 0]
+pushes_per_week: [0, 9, 7, 4, 0, 2, 3, 3, 4, 6, 6, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -25,23 +25,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 16
+    pushes: 15
     distinct_repos: 9
     active_days: 5
     repos_not_owned: 7
     not_owned_basenames: 4
     not_owned_owners: 4
   "90d":
-    pushes: 45
+    pushes: 44
     distinct_repos: 15
-    active_days: 17
+    active_days: 16
     repos_not_owned: 11
     not_owned_basenames: 5
     not_owned_owners: 7
 automation:
   state: "clear"
-  push_per_day: 2.6471
-  repo_per_active_day: 0.8824
+  push_per_day: 2.7500
+  repo_per_active_day: 0.9375
   not_owned_ratio: 0.7333
   basename_concentration: 0.3333
   shapes: []
@@ -60,24 +60,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 16
+    pushes: 15
     distinct_repos: 9
-    pushes_per_repo: 1.7778
+    pushes_per_repo: 1.6667
     active_days: 5
     repos_not_owned: 7
     not_owned_basenames: 4
     not_owned_owners: 4
   "90d":
-    pushes: 45
+    pushes: 44
     distinct_repos: 15
-    pushes_per_repo: 3.0000
-    active_days: 17
+    pushes_per_repo: 2.9333
+    active_days: 16
     repos_not_owned: 11
     not_owned_basenames: 5
     not_owned_owners: 7
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 17 active days in 90d — pass"
+  - "activity: 16 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "sensor-calibration"
@@ -132,6 +132,6 @@ repos:
 
 # MagMueller
 
-45 pushes across 15 repositories on 17 active days in the last 90 days of public GitHub push activity.
+44 pushes across 15 repositories on 16 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/MagMueller

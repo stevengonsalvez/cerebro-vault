@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-22T06:05:29.861706+00:00"
+generated_at: "2026-10-24T06:05:01.431039+00:00"
 provenance:
   - "d1946b21c02e5fa5"
-pushes_per_week: [0, 1, 3, 2, 0, 0, 0, 0, 0, 0, 0, 1, 0]
+pushes_per_week: [0, 1, 5, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,6 +77,14 @@ reasons:
   - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "Claude-Code"
+    title: "Claude-Code"
+    description: "可运行的Claude Code源码"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-22"
   - name: "pcm-test"
     title: "pcm-test"
     description: null
@@ -84,15 +92,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-14"
-  - name: "Claude-Code"
-    title: "Claude-Code"
-    description: "可运行的Claude Code源码"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-08"
+    last_push: "2026-10-24"
   - name: "DesktopNotes"
     title: "DesktopNotes"
     description: "Windows桌面便签，520kb极简，支持置顶显示"

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-22T06:05:29.861706+00:00"
+generated_at: "2026-10-24T06:05:01.431039+00:00"
 provenance:
   - "e5b23adc376a62a9"
-pushes_per_week: [0, 2, 2, 1, 0, 0, 2, 9, 4, 50, 14, 13, 1]
+pushes_per_week: [1, 1, 2, 1, 0, 0, 6, 5, 16, 39, 13, 13, 1]
 windows:
   "7d":
     pushes: 1
@@ -77,6 +77,46 @@ reasons:
   - "activity: 27 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "medium-cli"
+    title: "medium-cli"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-23"
+  - name: "programming-exam"
+    title: "programming-exam"
+    description: "Java 17 programming examination: library borrowing system, fine ledger review, tests, and original requirements."
+    language: "Java"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-21"
+  - name: "blog-skill"
+    title: "blog-skill"
+    description: "Cursor skill: research → outline → Chinese blog"
+    language: null
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-10-21"
+  - name: "skill-arena"
+    title: "skill-arena"
+    description: "Collect and A/B-evaluate Agent Skills (baseline vs with-skill) using AGIHub ModelHub"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-20"
+  - name: "Palimpsest"
+    title: "Palimpsest"
+    description: "Image origin research through digital propagation and physical recapture."
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-17"
   - name: "ZhenMode"
     title: "ZhenMode"
     description: "Spectral-method ocean model solving hydrostatic primitive equations"
@@ -85,50 +125,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-10-14"
-  - name: "skill-writer"
-    title: "skill-writer"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 9
-    first_seen: null
-    last_push: "2026-03-15"
-  - name: "Palimpsest"
-    title: "Palimpsest"
-    description: "Image origin research through digital propagation and physical recapture."
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-11"
-  - name: "nahida"
-    title: "nahida"
-    description: "Unofficial Nahida character roleplay skill for AI agents."
-    language: "Python"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-06-07"
-  - name: "CNOP"
-    title: "CNOP"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-03"
-  - name: "Tacit"
-    title: "Tacit"
-    description: "Researching efficient, reliable communication between LLM agents without assuming a new language wins."
-    language: "Python"
-    topics:
-      - "emergent-communication"
-      - "llm-communication"
-      - "multi-agent-systems"
-      - "rate-distortion"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-30"
 ---
 
 # TTAWDTT

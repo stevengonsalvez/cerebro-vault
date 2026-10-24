@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-22T06:05:29.861706+00:00"
+generated_at: "2026-10-24T06:05:01.431039+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 2, 10, 4]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 1, 2, 4, 8, 4]
 windows:
   "7d":
     pushes: 4
@@ -77,59 +77,54 @@ reasons:
   - "activity: 11 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "urbz-recomp"
-    title: "urbz-recomp"
-    description: "Static recompilation port scaffold for the original Xbox game The Urbz: Sims in the City (USA), built on XboxXBERecomp. No game data."
+  - name: "bmx-xxx-recomp"
+    title: "bmx-xxx-recomp"
+    description: "An unofficial native PC port of the original Xbox release of BMX XXX (USA), produced by statically recompiling the game's x86 XBE with the XboxXBERecomp SDK. Windows uses Direct3D 12 and XAudio2; Linux is a native Vulkan and SDL3 build, no Wine. No game code or assets: bring your own disc."
     language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-16"
-  - name: "omp-greppy"
-    title: "omp-greppy"
-    description: "greppy code-graph tools for Oh My Pi (omp) and pi: definitions, callers, impact, call chains, local semantic search, and a per-prompt <greppy-tools> note"
-    language: "TypeScript"
-    topics:
-      - "code-graph"
-      - "greppy"
-      - "oh-my-pi"
-      - "pi-coding-agent"
-      - "semantic-search"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-25"
-  - name: "omp-discord-presence"
-    title: "omp-discord-presence"
-    description: "Discord Rich Presence plugin for Oh My Pi coding sessions"
-    language: "TypeScript"
     topics: []
     stars_fact: 2
     first_seen: null
-    last_push: "2026-06-07"
-  - name: "s8box-movement"
-    title: "s8box-movement"
-    description: null
-    language: null
+    last_push: "2026-10-21"
+  - name: "urbz-recomp"
+    title: "urbz-recomp"
+    description: "Static recompilation port scaffold for the original Xbox game The Urbz: Sims in the City (USA), built on XboxXBERecomp. No game data."
+    language: "C++"
     topics: []
-    stars_fact: 1
+    stars_fact: 16
     first_seen: null
-    last_push: "2026-04-29"
-  - name: "oh-my-switcher"
-    title: "oh-my-switcher"
-    description: "Operational dashboard and OpenAI-compatible gateway switcher for local LLM providers"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-06-27"
-  - name: "dither-next"
-    title: "dither-next"
-    description: "Dithered UI toolkit ported to Next.js 15 / React 19 — composable ordered-dither charts, avatars, gradients, buttons, and a full Studio editor. Vue 3 → React port."
-    language: "TypeScript"
+    last_push: "2026-10-20"
+  - name: "sims1-recomp"
+    title: "sims1-recomp"
+    description: "The Sims (original Xbox) statically recompiled for Linux and Windows — native Vulkan/SDL3 and D3D12/XAudio2, XDK 5233"
+    language: "Python"
     topics: []
     stars_fact: 3
     first_seen: null
-    last_push: "2026-07-28"
+    last_push: "2026-10-21"
+  - name: "bustinout-recomp"
+    title: "bustinout-recomp"
+    description: "An unofficial native PC port of the original Xbox release of The Sims: Bustin' Out (USA), produced by statically recompiling the game's x86 XBE with the XboxXBERecomp SDK. Windows uses Direct3D 12 and XAudio2; Linux is a native Vulkan and SDL3 build, no Wine. No game code or assets: bring your own disc."
+    language: "C++"
+    topics: []
+    stars_fact: 6
+    first_seen: null
+    last_push: "2026-10-19"
+  - name: "sims2-recomp"
+    title: "sims2-recomp"
+    description: "An unofficial native PC port of the original Xbox release of The Sims 2 (USA), produced by statically recompiling the game's x86 XBE with the XboxXBERecomp SDK. No game code or assets: bring your own disc."
+    language: "C++"
+    topics: []
+    stars_fact: 9
+    first_seen: null
+    last_push: "2026-10-20"
+  - name: "fuzionfrenzy-recomp"
+    title: "fuzionfrenzy-recomp"
+    description: "An unofficial native PC port of the original Xbox release of Fuzion Frenzy (USA), produced by statically recompiling the game's x86 XBE with the XboxXBERecomp SDK. Windows uses Direct3D 12 and XAudio2; Linux is a native Vulkan and SDL3 build, no Wine. No game code or assets: bring your own disc."
+    language: "Python"
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-10-20"
 ---
 
 # abilliontokens

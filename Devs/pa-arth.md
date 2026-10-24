@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-22T06:05:29.861706+00:00"
+generated_at: "2026-10-24T06:05:01.431039+00:00"
 provenance:
   - "0b22ca37fd3884c9"
-pushes_per_week: [4, 10, 0, 0, 1, 0, 0, 4, 8, 1, 2, 0, 3]
+pushes_per_week: [3, 9, 0, 0, 1, 0, 0, 6, 6, 1, 2, 0, 3]
 windows:
   "7d":
     pushes: 3
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 33
-    distinct_repos: 4
-    active_days: 20
+    pushes: 31
+    distinct_repos: 3
+    active_days: 18
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.6500
-  repo_per_active_day: 0.2000
+  push_per_day: 1.7222
+  repo_per_active_day: 0.1667
   not_owned_ratio: 0.0000
-  basename_concentration: 0.2500
+  basename_concentration: 0.3333
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,26 +65,18 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 33
-    distinct_repos: 4
-    pushes_per_repo: 8.2500
-    active_days: 20
+    pushes: 31
+    distinct_repos: 3
+    pushes_per_repo: 10.3333
+    active_days: 18
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 20 active days in 90d — pass"
+  - "activity: 18 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "promptster-vscode"
-    title: "promptster-vscode"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-15"
   - name: "promptster-teams-cli"
     title: "promptster-teams-cli"
     description: "On-device, auditable AI-coding capture for internal engineering teams"
@@ -92,7 +84,31 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-14"
+    last_push: "2026-10-22"
+  - name: "promptster-cli"
+    title: "promptster-cli"
+    description: "Promptster CLI — candidate environment setup, repo cloning, and AI coding session capture (Claude Code, Cursor, Codex)"
+    language: "Go"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-19"
+  - name: "promptster-vscode"
+    title: "promptster-vscode"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-19"
+  - name: "promptster-docs"
+    title: "promptster-docs"
+    description: "Documentation for the Promptster platform."
+    language: "MDX"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-18"
   - name: "cc-audit"
     title: "cc-audit"
     description: "Local-first CLI that audits Claude Code transcripts for spend by model, avoidable context-carry waste, always-on config cost, and AI-fluency signals. Runs fully offline by default; opt-in tiers gate any egress."
@@ -108,15 +124,7 @@ repos:
       - "observability"
     stars_fact: 9
     first_seen: null
-    last_push: "2026-10-10"
-  - name: "promptster-cli"
-    title: "promptster-cli"
-    description: "Promptster CLI — candidate environment setup, repo cloning, and AI coding session capture (Claude Code, Cursor, Codex)"
-    language: "Go"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-10"
+    last_push: "2026-10-16"
   - name: "fine-tuned-computer-use-jev-like-model"
     title: "fine-tuned-computer-use-jev-like-model"
     description: null
@@ -125,18 +133,10 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-09-19"
-  - name: "threadline-stylist"
-    title: "threadline-stylist"
-    description: "Threadline AI Stylist — candidate take-home: photo→outfit recommender"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-25"
 ---
 
 # pa-arth
 
-33 pushes across 4 repositories on 20 active days in the last 90 days of public GitHub push activity.
+31 pushes across 3 repositories on 18 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/pa-arth

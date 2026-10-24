@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-22T06:05:29.861706+00:00"
+generated_at: "2026-10-24T06:05:01.431039+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 3, 1, 3, 8, 1, 9, 2]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 3, 3, 3, 6, 2, 8, 2]
 windows:
   "7d":
     pushes: 2
@@ -100,9 +100,9 @@ repos:
       - "proxy"
       - "router"
       - "self-hosting"
-    stars_fact: 2
+    stars_fact: 3
     first_seen: null
-    last_push: "2026-10-16"
+    last_push: "2026-10-23"
   - name: "homebrew-evolve"
     title: "homebrew-evolve"
     description: "Homebrew tap: EvolveRouter — local LLM routing gateway with a native macOS menu-bar panel"
@@ -110,7 +110,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-16"
+    last_push: "2026-10-23"
   - name: "Agent-Harness-Develop-Book"
     title: "Agent-Harness-Develop-Book"
     description: "Agent Harness (Loop Engineering) dev guide — complete architecture & core modules, based on production-grade agent source: Claude Code, DeepSeek Harness, OpenCode, Pi, Codex, OpenClaw & Hermes. English & 中文"

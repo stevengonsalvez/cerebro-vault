@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-22T06:05:29.861706+00:00"
+generated_at: "2026-10-24T06:05:01.431039+00:00"
 provenance:
   - "16389f32495280ea"
-pushes_per_week: [11, 3, 0, 3, 1, 0, 2, 0, 2, 2, 0, 0, 0]
+pushes_per_week: [6, 2, 1, 2, 1, 0, 2, 0, 2, 2, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 4
+    pushes: 3
     distinct_repos: 1
-    active_days: 4
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 24
+    pushes: 18
     distinct_repos: 1
-    active_days: 18
+    active_days: 15
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.3333
-  repo_per_active_day: 0.0556
+  push_per_day: 1.2000
+  repo_per_active_day: 0.0667
   not_owned_ratio: 0.0000
   basename_concentration: 1.0000
   shapes: []
@@ -57,26 +57,42 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 4
+    pushes: 3
     distinct_repos: 1
-    pushes_per_repo: 4.0000
-    active_days: 4
+    pushes_per_repo: 3.0000
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 24
+    pushes: 18
     distinct_repos: 1
-    pushes_per_repo: 24.0000
-    active_days: 18
+    pushes_per_repo: 18.0000
+    active_days: 15
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 18 active days in 90d — pass"
+  - "activity: 15 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "wego"
+    title: "wego"
+    description: "The browser you and your agents share — Linux-native agent browser with isolated, watchable task spaces (ego-lite for Linux)"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-23"
+  - name: "hai-zero-day-detection"
+    title: "hai-zero-day-detection"
+    description: "Unsupervised zero-day attack detection in an industrial control system"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-19"
   - name: "HistoryAnalyst"
     title: "HistoryAnalyst"
     description: null
@@ -109,26 +125,10 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-03-23"
-  - name: "pintos"
-    title: "pintos"
-    description: null
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2025-10-22"
-  - name: "network_lab3"
-    title: "network_lab3"
-    description: null
-    language: "C++"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2025-09-22"
 ---
 
 # Vanzeren
 
-24 pushes across 1 repository on 18 active days in the last 90 days of public GitHub push activity.
+18 pushes across 1 repository on 15 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Vanzeren

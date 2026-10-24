@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-22T06:05:29.861706+00:00"
+generated_at: "2026-10-24T06:05:01.431039+00:00"
 provenance:
   - "6d3bd03b49986330"
-pushes_per_week: [39, 19, 39, 35, 22, 3, 2, 0, 0, 0, 0, 3, 0]
+pushes_per_week: [31, 17, 52, 19, 16, 2, 2, 0, 0, 0, 0, 3, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 162
+    pushes: 142
     distinct_repos: 2
-    active_days: 35
+    active_days: 33
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 4.6286
-  repo_per_active_day: 0.0571
+  push_per_day: 4.3030
+  repo_per_active_day: 0.0606
   not_owned_ratio: 0.0000
   basename_concentration: 0.5000
   shapes: []
@@ -65,18 +65,26 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 162
+    pushes: 142
     distinct_repos: 2
-    pushes_per_repo: 81.0000
-    active_days: 35
+    pushes_per_repo: 71.0000
+    active_days: 33
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 35 active days in 90d — pass"
+  - "activity: 33 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "rust-cad-suite"
+    title: "rust-cad-suite"
+    description: "Rust-only reimplementation of the oss-cad-suite toolset — Phase 1: rverilator, a Verilator-equivalent Verilog-2005 simulator (E2E 100% vs Verilator oracle) + rVPI"
+    language: "Rust"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-24"
   - name: "guoapp"
     title: "guoapp"
     description: "红果短剧桌面客户端（Rust 重写）：CLI + 原生 GUI（egui），目录 / 搜索 / 取流 / 下载 / 在线播放，单文件无运行时依赖"
@@ -86,9 +94,9 @@ repos:
       - "egui"
       - "rust"
       - "short-drama"
-    stars_fact: 3
+    stars_fact: 8
     first_seen: null
-    last_push: "2026-10-14"
+    last_push: "2026-10-17"
   - name: "video_generation"
     title: "video_generation"
     description: null
@@ -121,18 +129,10 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-04-07"
-  - name: "ziyu4huang.github.io"
-    title: "ziyu4huang.github.io"
-    description: null
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2025-10-04"
 ---
 
 # ziyu4huang
 
-162 pushes across 2 repositories on 35 active days in the last 90 days of public GitHub push activity.
+142 pushes across 2 repositories on 33 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ziyu4huang

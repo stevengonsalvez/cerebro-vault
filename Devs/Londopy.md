@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-22T06:05:29.861706+00:00"
+generated_at: "2026-10-24T06:05:01.431039+00:00"
 provenance:
   - "2a7f0fddd2dac162"
-pushes_per_week: [1, 18, 1, 0, 0, 0, 0, 2, 60, 10, 1, 0, 0]
+pushes_per_week: [1, 18, 1, 0, 0, 0, 0, 14, 55, 3, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 22
-    distinct_repos: 6
-    active_days: 7
+    pushes: 16
+    distinct_repos: 4
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 22
-    distinct_repos: 6
-    pushes_per_repo: 3.6667
-    active_days: 7
+    pushes: 16
+    distinct_repos: 4
+    pushes_per_repo: 4.0000
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -84,7 +84,7 @@ repos:
     topics: []
     stars_fact: 2
     first_seen: null
-    last_push: "2026-10-16"
+    last_push: "2026-10-24"
   - name: "the-long-fork"
     title: "the-long-fork"
     description: "A repo whose only purpose is to be forked, one link at a time, as deep as possible. Fork the tip, add one line, pass it on."
@@ -102,44 +102,48 @@ repos:
       - "social-experiment"
     stars_fact: 1
     first_seen: null
-    last_push: "2026-10-15"
+    last_push: "2026-10-23"
   - name: "capture-bypass"
     title: "capture-bypass"
     description: "DLL injection tool to bypass screen-capture protection on Windows 10/11"
     language: "Rust"
     topics: []
-    stars_fact: 44
+    stars_fact: 48
     first_seen: null
     last_push: "2026-07-12"
-  - name: "nexium"
-    title: "nexium"
-    description: "The Nexium Programming Language"
-    language: "Zig"
-    topics:
-      - "compiler"
-      - "language"
-      - "nexium"
-      - "nexium-language"
-      - "programming-language"
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-10-12"
-  - name: "HideDesktopApps"
-    title: "HideDesktopApps"
-    description: "Lightweight Windows system-tray app to hide/show desktop icons, taskbar & all windows via hotkeys. Perfect for ricing, streamers, Wallpaper Engine fans & focus tools."
+  - name: "EraSwitch"
+    title: "EraSwitch"
+    description: "Switch your Windows 11 desktop to a Windows XP look and back with one click. Tray app driving RetroBar + Open-Shell, with a snapshot that puts everything back."
     language: "Rust"
-    topics: []
-    stars_fact: 4
+    topics:
+      - "open-shell"
+      - "retro"
+      - "retrobar"
+      - "ricing"
+      - "rust"
+      - "tray-app"
+      - "windows"
+      - "windows-11"
+      - "windows-xp"
+    stars_fact: 1
     first_seen: null
-    last_push: "2026-10-03"
-  - name: "blog"
-    title: "blog"
-    description: "Notes on security, systems, radio, and building things. Hugo + PaperMod on GitHub Pages."
+    last_push: "2026-10-21"
+  - name: "Snappy"
+    title: "Snappy"
+    description: "Snapchat spammer"
     language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2024-03-14"
+  - name: "scoop-bucket"
+    title: "scoop-bucket"
+    description: "Scoop bucket for my apps — scoop bucket add londopy https://github.com/Londopy/scoop-bucket"
+    language: null
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-10-09"
+    last_push: "2026-10-21"
 ---
 
 # Londopy

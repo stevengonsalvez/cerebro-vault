@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-22T06:05:29.861706+00:00"
+generated_at: "2026-10-24T06:05:01.431039+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [0, 1, 0, 1, 5, 2, 1, 5, 3, 1, 2, 3, 0]
+pushes_per_week: [1, 0, 0, 4, 4, 0, 4, 3, 2, 3, 0, 3, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,41 +77,6 @@ reasons:
   - "activity: 15 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "anykey-ai"
-    title: "anykey-ai"
-    description: "RK R87 Pro AI 键盘自定义功能键 + 麦克风桥接工具（Electron，逆向协议，Win/macOS，无需官方软件）"
-    language: "JavaScript"
-    topics:
-      - "electron"
-      - "hid"
-      - "hotkeys"
-      - "keyboard"
-      - "macos"
-      - "mechanical-keyboard"
-      - "microphone"
-      - "noise-suppression"
-      - "reverse-engineering"
-      - "rk-r87-pro"
-      - "windows"
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-10-15"
-  - name: "astrbot_plugin_qq_group_daily_analysis"
-    title: "astrbot_plugin_qq_group_daily_analysis"
-    description: "xms 定制版群聊分析插件：管理员私聊推送 + 信息差主题。基于 SXP-Simon/astrbot_plugin_qq_group_daily_analysis fork（私有定制）"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-15"
-  - name: "fan-tune"
-    title: "fan-tune"
-    description: "Windows fan controller for Nuvoton NCT6779D..6799D EC chips — curve engine, closed-loop budget thermostat, and an ENE 6k7750 ARGB controller"
-    language: "Rust"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-15"
   - name: "dsh-backup"
     title: "dsh-backup"
     description: "一条命令备份/恢复/迁移 DSH 全部数据（~/.dsh）：升级前快照、换机迁移（会话/插件/MCP/技能）、会话日志修复、进程外救援、凭据脱敏。One-command backup / restore / migration for DeepSeek Harness."
@@ -136,9 +101,44 @@ repos:
       - "session-repair"
       - "skills"
       - "snapshot"
-    stars_fact: 27
+    stars_fact: 32
     first_seen: null
-    last_push: "2026-10-14"
+    last_push: "2026-10-16"
+  - name: "anykey-ai"
+    title: "anykey-ai"
+    description: "RK R87 Pro AI 键盘自定义功能键 + 麦克风桥接工具（Electron，逆向协议，Win/macOS，无需官方软件）"
+    language: "JavaScript"
+    topics:
+      - "electron"
+      - "hid"
+      - "hotkeys"
+      - "keyboard"
+      - "macos"
+      - "mechanical-keyboard"
+      - "microphone"
+      - "noise-suppression"
+      - "reverse-engineering"
+      - "rk-r87-pro"
+      - "windows"
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-10-20"
+  - name: "astrbot_plugin_qq_group_daily_analysis"
+    title: "astrbot_plugin_qq_group_daily_analysis"
+    description: "xms 定制版群聊分析插件：管理员私聊推送 + 信息差主题。基于 SXP-Simon/astrbot_plugin_qq_group_daily_analysis fork（私有定制）"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-15"
+  - name: "fan-tune"
+    title: "fan-tune"
+    description: "Windows fan controller for Nuvoton NCT6779D..6799D EC chips — curve engine, closed-loop budget thermostat, and an ENE 6k7750 ARGB controller"
+    language: "Rust"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-15"
   - name: "gallai-path-decomposition"
     title: "gallai-path-decomposition"
     description: "Verified constructions, a classification programme, and conditional reductions for Gallai's path decomposition conjecture"

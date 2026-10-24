@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-22T06:05:29.861706+00:00"
+generated_at: "2026-10-24T06:05:01.431039+00:00"
 provenance:
   - "16a73b8e53c5832a"
 pushes_per_week: [4, 2, 4, 2, 1, 0, 0, 2, 0, 0, 1, 5, 0]
@@ -95,9 +95,37 @@ repos:
       - "rag"
       - "self-study"
       - "study-tools"
-    stars_fact: 35017
+    stars_fact: 35907
     first_seen: "2026-08-15T06:00:05.480011+00:00"
-    last_push: "2026-10-12"
+    last_push: "2026-10-18"
+  - name: "book-to-skill-use-cases"
+    title: "book-to-skill-use-cases"
+    description: "Community use cases for book-to-skill — one line here, the full account in the author's own Gist. No generated skills, no book content."
+    language: null
+    topics:
+      - "agent-skills"
+      - "book-to-skill"
+      - "showcase"
+      - "use-cases"
+    stars_fact: 19
+    first_seen: null
+    last_push: "2026-09-15"
+  - name: "virgiliojr94"
+    title: "virgiliojr94"
+    description: "my profile README"
+    language: null
+    topics: []
+    stars_fact: 5
+    first_seen: null
+    last_push: "2026-10-18"
+  - name: "x-to-skill"
+    title: "x-to-skill"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 21
+    first_seen: null
+    last_push: "2026-08-27"
   - name: "iteam-react-modulo-04"
     title: "iteam-react-modulo-04"
     description: null
@@ -114,30 +142,6 @@ repos:
     stars_fact: 273
     first_seen: null
     last_push: "2026-05-11"
-  - name: "x-to-skill"
-    title: "x-to-skill"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 20
-    first_seen: null
-    last_push: "2026-08-27"
-  - name: "virgiliojr94"
-    title: "virgiliojr94"
-    description: "my profile README"
-    language: null
-    topics: []
-    stars_fact: 5
-    first_seen: null
-    last_push: "2026-10-11"
-  - name: "book-to-skill-library"
-    title: "book-to-skill-library"
-    description: null
-    language: "Shell"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-09"
 ---
 
 # virgiliojr94

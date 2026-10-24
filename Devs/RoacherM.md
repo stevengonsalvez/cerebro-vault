@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-22T06:05:29.861706+00:00"
+generated_at: "2026-10-24T06:05:01.431039+00:00"
 provenance:
   - "dffbb846389f9a26"
-pushes_per_week: [0, 2, 0, 0, 0, 0, 0, 0, 4, 1, 1, 3, 2]
+pushes_per_week: [0, 2, 0, 0, 0, 0, 0, 0, 4, 1, 2, 2, 2]
 windows:
   "7d":
     pushes: 2
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 8
-    distinct_repos: 7
-    active_days: 8
+    pushes: 7
+    distinct_repos: 6
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 8
-    distinct_repos: 7
-    pushes_per_repo: 1.1429
-    active_days: 8
+    pushes: 7
+    distinct_repos: 6
+    pushes_per_repo: 1.1667
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -77,6 +77,34 @@ reasons:
   - "activity: 10 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "pi-extensions"
+    title: "pi-extensions"
+    description: "Opt-in extensions for Pi and Epi. First: layerfs, isolated LayerFS branches for agent file tools and shell commands."
+    language: "TypeScript"
+    topics:
+      - "coding-agent"
+      - "layerfs"
+      - "pi-extension"
+      - "pi-package"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-23"
+  - name: "Wayne-Skills"
+    title: "Wayne-Skills"
+    description: "Claude Code skills for first-principles architecture thinking via GPT-5.x"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-23"
+  - name: "epi"
+    title: "epi"
+    description: "Epi — your own layer on Pi"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-10-23"
   - name: "ai-harness-notes"
     title: "ai-harness-notes"
     description: "AI harness / skills / MCP 中文深度归档（论文与项目解读）"
@@ -84,47 +112,23 @@ repos:
     topics: []
     stars_fact: 3
     first_seen: null
-    last_push: "2026-10-16"
-  - name: "epi"
-    title: "epi"
-    description: "Epi — your own layer on Pi"
-    language: "JavaScript"
+    last_push: "2026-10-23"
+  - name: "dsh-plugins"
+    title: "dsh-plugins"
+    description: "My DeepSeek Harness plugin bundles"
+    language: null
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-10-10"
-  - name: "whale-pet-plugin"
-    title: "whale-pet-plugin"
-    description: "DSH plugin: whale-pet-plugin"
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-09"
-  - name: "web-fetch-plugin"
-    title: "web-fetch-plugin"
-    description: "DSH plugin: web-fetch-plugin"
+    last_push: "2026-10-21"
+  - name: "trajecable-plugin"
+    title: "trajecable-plugin"
+    description: "DSH plugin Formula: daily race log of local coding agents and a live chat HUD whose speed is tokens per second"
     language: "JavaScript"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-09"
-  - name: "usage-plugin"
-    title: "usage-plugin"
-    description: "DSH plugin: usage-plugin"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-09"
-  - name: "skills-center-plugin"
-    title: "skills-center-plugin"
-    description: "DSH plugin: skills-center-plugin"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-09"
+    last_push: "2026-10-21"
 ---
 
 # RoacherM

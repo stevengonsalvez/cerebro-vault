@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-22T06:05:29.861706+00:00"
+generated_at: "2026-10-24T06:05:01.431039+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [2, 0, 4, 2, 0, 0, 0, 0, 0, 0, 1, 2, 1]
+pushes_per_week: [2, 0, 5, 1, 0, 0, 0, 0, 0, 0, 1, 2, 1]
 windows:
   "7d":
     pushes: 1
@@ -77,6 +77,22 @@ reasons:
   - "activity: 10 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "pi-web"
+    title: "pi-web"
+    description: "Fetch and search the web from Pi"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-19"
+  - name: "pic-pick"
+    title: "pic-pick"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-16"
   - name: "pi-quiet"
     title: "pi-quiet"
     description: null
@@ -109,22 +125,6 @@ repos:
     stars_fact: 2
     first_seen: null
     last_push: "2026-10-08"
-  - name: "pic-pick"
-    title: "pic-pick"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-07"
-  - name: "my_dotfiles"
-    title: "my_dotfiles"
-    description: "my user configs"
-    language: "Shell"
-    topics: []
-    stars_fact: 4
-    first_seen: null
-    last_push: "2026-10-05"
 ---
 
 # yuhua99

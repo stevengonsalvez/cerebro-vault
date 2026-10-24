@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-22T06:05:29.861706+00:00"
+generated_at: "2026-10-24T06:05:01.431039+00:00"
 provenance:
   - "0b22ca37fd3884c9"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 1, 4, 5, 5, 0]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 1, 4, 1, 5, 4, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,6 +77,18 @@ reasons:
   - "activity: 9 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "image2grid"
+    title: "image2grid"
+    description: "Grid-like images/gifs for Pinned Gists"
+    language: "Python"
+    topics:
+      - "crop-image"
+      - "github-readme"
+      - "pinned-gist"
+      - "profile"
+    stars_fact: 8
+    first_seen: null
+    last_push: "2026-05-19"
   - name: "boki-algebra-book"
     title: "boki-algebra-book"
     description: "A textbook that teaches university mathematics through double-entry bookkeeping, with the main theorems formalized in Lean 4."
@@ -104,7 +116,7 @@ repos:
       - "undergraduate"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-15"
+    last_push: "2026-10-17"
   - name: "washi"
     title: "washi"
     description: "A small macOS app that opens Markdown, Typst, LaTeX and Mermaid files for reading, redraws when they are saved, and edits with a live preview."
@@ -167,14 +179,6 @@ repos:
     language: null
     topics: []
     stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-12"
-  - name: "snowflake-again"
-    title: "snowflake-again"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 0
     first_seen: null
     last_push: "2026-10-12"
 ---

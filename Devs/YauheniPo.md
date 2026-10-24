@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-22T06:05:29.861706+00:00"
+generated_at: "2026-10-24T06:05:01.431039+00:00"
 provenance:
   - "0b22ca37fd3884c9"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 1, 3, 17, 15, 6, 6, 2]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 1, 7, 21, 11, 4, 4, 2]
 windows:
   "7d":
     pushes: 2
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 39
+    pushes: 33
     distinct_repos: 2
-    active_days: 18
+    active_days: 16
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 39
+    pushes: 33
     distinct_repos: 2
-    pushes_per_repo: 19.5000
-    active_days: 18
+    pushes_per_repo: 16.5000
+    active_days: 16
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -84,7 +84,7 @@ repos:
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-10-16"
+    last_push: "2026-10-24"
   - name: "popot-bot-2.0"
     title: "popot-bot-2.0"
     description: "Self-hosted Telegram AI operator for Debian/Ubuntu VPS with Hermes Agent, Ansible provisioning, monitoring, backups, and a privacy-first Telegram user info bot."
@@ -92,7 +92,7 @@ repos:
     topics: []
     stars_fact: 2
     first_seen: null
-    last_push: "2026-10-16"
+    last_push: "2026-10-22"
   - name: "YauheniPo"
     title: "YauheniPo"
     description: null

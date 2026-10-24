@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-22T06:05:29.861706+00:00"
+generated_at: "2026-10-24T06:05:01.431039+00:00"
 provenance:
   - "dffbb846389f9a26"
-pushes_per_week: [0, 0, 1, 0, 0, 0, 0, 0, 1, 23, 5, 1, 1]
+pushes_per_week: [0, 0, 1, 0, 0, 0, 0, 1, 10, 13, 6, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -77,14 +77,6 @@ reasons:
   - "activity: 11 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "MohammadHijjawi97"
-    title: "MohammadHijjawi97"
-    description: "Senior AI Engineer. Agentic AI systems, LLM architecture, applied NLP."
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-15"
   - name: "since-cutoff"
     title: "since-cutoff"
     description: "Find which APIs of your pinned Python dependencies changed after your coding model's training cutoff, and give the agent short AGENTS.md / CLAUDE.md notes from a static API diff. No model calls, no API key. CLI, MCP server, Claude Code plugin, GitHub Action."
@@ -110,9 +102,17 @@ repos:
       - "pre-commit-hook"
       - "python"
       - "static-analysis"
-    stars_fact: 8
+    stars_fact: 10
     first_seen: null
-    last_push: "2026-10-11"
+    last_push: "2026-10-18"
+  - name: "MohammadHijjawi97"
+    title: "MohammadHijjawi97"
+    description: "Senior AI Engineer. Agentic AI systems, LLM architecture, applied NLP."
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-15"
   - name: "misgrade"
     title: "misgrade"
     description: "Conformance tests for the graders ML depends on: find where reward functions, eval answer extractors and verifiers accept wrong answers or reject right ones. No model calls, no API key."
@@ -120,7 +120,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-15"
+    last_push: "2026-10-22"
 ---
 
 # MohammadHijjawi97

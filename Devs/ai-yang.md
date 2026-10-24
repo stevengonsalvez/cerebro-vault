@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-22T06:05:29.861706+00:00"
+generated_at: "2026-10-24T06:05:01.431039+00:00"
 provenance:
   - "c489e6fb5febf2ab"
-pushes_per_week: [0, 2, 2, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0]
+pushes_per_week: [0, 3, 1, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -82,9 +82,9 @@ repos:
     description: "NEW [🔥 updating...]LLM 驱动的股票量化因子挖掘与交易平台，现在支持MCP接入Codex、Claude Code。支持A股:多 Agent + 公式化挖掘、Qlib 回测、Web 门户、日频信号、Telegram/飞书 通知。"
     language: "Python"
     topics: []
-    stars_fact: 28
+    stars_fact: 29
     first_seen: null
-    last_push: "2026-10-13"
+    last_push: "2026-10-21"
   - name: "alphapilot-mcp"
     title: "alphapilot-mcp"
     description: "Independent TypeScript MCP research workbench for AlphaPilot; stdio and Streamable HTTP"

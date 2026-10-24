@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-22T06:05:29.861706+00:00"
+generated_at: "2026-10-24T06:05:01.431039+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [0, 1, 1, 0, 0, 0, 0, 1, 3, 2, 3, 1, 1]
+pushes_per_week: [0, 1, 1, 0, 0, 0, 0, 1, 4, 1, 3, 1, 1]
 windows:
   "7d":
     pushes: 1
@@ -88,7 +88,7 @@ repos:
       - "zsh"
     stars_fact: 7
     first_seen: null
-    last_push: "2026-10-15"
+    last_push: "2026-10-23"
   - name: "agents-dashboard"
     title: "agents-dashboard"
     description: "A TUI/CLI tool for monitoring AI coding agents (Claude, Codex, OpenCode) running across tmux sessions."

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-22T06:05:29.861706+00:00"
+generated_at: "2026-10-24T06:05:01.431039+00:00"
 provenance:
   - "0b22ca37fd3884c9"
-pushes_per_week: [0, 1, 4, 0, 0, 0, 0, 2, 3, 1, 2, 0, 3]
+pushes_per_week: [0, 1, 4, 0, 0, 0, 1, 1, 4, 1, 1, 0, 3]
 windows:
   "7d":
     pushes: 3
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 9
-    distinct_repos: 6
-    active_days: 6
+    pushes: 6
+    distinct_repos: 4
+    active_days: 5
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 9
-    distinct_repos: 6
+    pushes: 6
+    distinct_repos: 4
     pushes_per_repo: 1.5000
-    active_days: 6
+    active_days: 5
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -77,40 +77,10 @@ reasons:
   - "activity: 12 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "agent-skill-canon"
-    title: "agent-skill-canon"
-    description: "Master skill canon + agent instruction set for the NetVar1337 workstation. Source of truth synced to opencode/claude/codex/pi/omo harness roots via sync-skills.ps1."
-    language: "Python"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-08-26"
-  - name: "claude-for-firefox"
-    title: "claude-for-firefox"
-    description: "Claude for Firefox - community browser extension with sidebar chat and automation"
-    language: "JavaScript"
-    topics:
-      - "ai-assistant"
-      - "browser-extension"
-      - "claude"
-      - "firefox"
-      - "javascript"
-      - "webextension"
-    stars_fact: 19
-    first_seen: null
-    last_push: "2026-05-09"
-  - name: "Kevlar-Ultimate"
-    title: "Kevlar-Ultimate"
-    description: "Unified KEVLAR Windows kernel-driver emulation and analysis harness"
-    language: "C++"
-    topics: []
-    stars_fact: 4
-    first_seen: null
-    last_push: "2026-09-15"
   - name: "NetVar1337"
     title: "NetVar1337"
-    description: "Independent game-security research: FPS cheat taxonomy, SQL match-integrity, explainable detections."
-    language: null
+    description: "Security research, reverse engineering, AI/ML and Web3 - autonomous security agents, detection engineering, and open-source tooling."
+    language: "Python"
     topics:
       - "anti-cheat"
       - "detection-engineering"
@@ -120,38 +90,92 @@ repos:
       - "windows-internals"
     stars_fact: 1
     first_seen: null
-    last_push: "2026-10-16"
-  - name: "cheat-intel"
-    title: "cheat-intel"
-    description: "Cheat-community intelligence: monitoring methodology, trend reports, and the intel -> detection feedback loop for FPS anti-cheat teams."
-    language: null
+    last_push: "2026-10-24"
+  - name: "vibe-island"
+    title: "vibe-island"
+    description: "Dynamic Island for AI coding tools - macOS, Windows, Linux (Hyprland/Sway/GNOME/KDE)"
+    language: "Rust"
     topics:
-      - "anti-cheat"
-      - "game-security"
-      - "osint"
+      - "ai-tools"
+      - "cross-platform"
+      - "desktop"
+      - "developer-tools"
+      - "dynamic-island"
+      - "linux"
+      - "macos"
+      - "rust"
+      - "windows"
+    stars_fact: 71
+    first_seen: null
+    last_push: "2026-07-21"
+  - name: "Kevlar-Ultimate"
+    title: "Kevlar-Ultimate"
+    description: "Unified KEVLAR Windows kernel-driver emulation and analysis harness"
+    language: "C++"
+    topics:
+      - "cpp"
+      - "driver"
+      - "emulation"
+      - "kernel"
+      - "malware-analysis"
+      - "reverse-engineering"
       - "security-research"
-      - "threat-intelligence"
+      - "unicorn"
+      - "windows"
+      - "windows-internals"
+    stars_fact: 6
+    first_seen: null
+    last_push: "2026-09-15"
+  - name: "glm-tight"
+    title: "glm-tight"
+    description: "Portable prompt profiles and a zero-dependency CLI for concise GLM coding-agent execution"
+    language: "JavaScript"
+    topics:
+      - "ai-agents"
+      - "cli"
+      - "developer-tools"
+      - "glm"
+      - "javascript"
+      - "prompt-engineering"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-05"
-  - name: "apex-anticheat-lab"
-    title: "apex-anticheat-lab"
-    description: "FPS anti-cheat lab: runnable synthetic fixture, explainable aim scoring, match-integrity SQL. Not a live detection system."
+    last_push: "2026-08-26"
+  - name: "agent-skill-canon"
+    title: "agent-skill-canon"
+    description: "Master skill canon + agent instruction set for the NetVar1337 workstation. Source of truth synced to opencode/claude/codex/pi/omo harness roots via sync-skills.ps1."
     language: "Python"
     topics:
-      - "anti-cheat"
-      - "apex-legends"
-      - "cheating"
-      - "detection-engineering"
-      - "fps"
-      - "game-security"
+      - "agent-skills"
+      - "ai-agents"
+      - "claude-code"
+      - "codex"
+      - "developer-tools"
+      - "opencode"
+      - "security"
+      - "skills"
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-08-26"
+  - name: "audit-findings-skills"
+    title: "audit-findings-skills"
+    description: "Smart contract security skills & audit playbooks: 23,625 audit findings synthesized into reusable SKILL.md playbooks for Solidity/EVM reviewers."
+    language: "Solidity"
+    topics:
+      - "agent-skills"
+      - "ai-agents"
+      - "audit"
+      - "code4rena"
+      - "evm"
+      - "security"
       - "security-research"
-      - "sql"
-      - "telemetry"
-      - "yara"
+      - "sherlock"
+      - "smart-contracts"
+      - "solidity"
+      - "vulnerability-research"
+      - "web3"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-05"
+    last_push: "2026-09-04"
 ---
 
 # NetVar1337

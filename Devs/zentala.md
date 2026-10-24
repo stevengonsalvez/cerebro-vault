@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-22T06:05:29.861706+00:00"
+generated_at: "2026-10-24T06:05:01.431039+00:00"
 provenance:
   - "745308b2b7085095"
-pushes_per_week: [2, 0, 0, 0, 2, 0, 1, 5, 0, 2, 0, 0, 1]
+pushes_per_week: [1, 0, 0, 0, 2, 0, 1, 5, 0, 2, 0, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 13
-    distinct_repos: 9
-    active_days: 9
+    pushes: 12
+    distinct_repos: 8
+    active_days: 8
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.4444
+  push_per_day: 1.5000
   repo_per_active_day: 1.0000
-  not_owned_ratio: 0.1111
-  basename_concentration: 0.1111
+  not_owned_ratio: 0.1250
+  basename_concentration: 0.1250
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,26 +65,18 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 13
-    distinct_repos: 9
-    pushes_per_repo: 1.4444
-    active_days: 9
+    pushes: 12
+    distinct_repos: 8
+    pushes_per_repo: 1.5000
+    active_days: 8
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 9 active days in 90d — pass"
+  - "activity: 8 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "zentala"
-    title: "zentala"
-    description: "My GitHub profile pinned README"
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-13"
   - name: "MoveUp"
     title: "MoveUp"
     description: "App that encourages you to take breaks and change your body position while using computer through a gamification experience with points and badges. Integrates with Open Smart Desk, which monitors desk time and height."
@@ -95,7 +87,38 @@ repos:
       - "health"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-10"
+    last_push: "2026-10-22"
+  - name: "nocookie"
+    title: "nocookie"
+    description: "Open standard + Chrome extension for automatic cookie consent management"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-19"
+  - name: "mdpad"
+    title: "mdpad"
+    description: "Markdown editor & viewer for CLI, desktop and server"
+    language: "TypeScript"
+    topics:
+      - "markdown"
+      - "markdown-editor"
+      - "markdown-to-html"
+      - "markdown-to-pdf"
+      - "markdown-viewer"
+      - "md"
+      - "mdx"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-19"
+  - name: "zentala"
+    title: "zentala"
+    description: "My GitHub profile pinned README"
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-13"
   - name: "zentala.eu"
     title: "zentala.eu"
     description: "The European Union reform / modernization / innovation ideas in the spirit of Information Economy, 4th Industrial Revolution."
@@ -135,46 +158,10 @@ repos:
     stars_fact: 3
     first_seen: null
     last_push: "2026-09-15"
-  - name: "wfh-indicator"
-    title: "wfh-indicator"
-    description: "Concept & specs for a visual WFH status indicator for remote workers — to reduce interruptions in shared homes by showing when you're on a call, focused, or available. Open to community-driven development."
-    language: "HTML"
-    topics:
-      - "community-project"
-      - "concept"
-      - "home-office"
-      - "open-hardware"
-      - "open-specification"
-      - "product"
-      - "remote-work"
-      - "smart-home"
-      - "ux-design"
-      - "wfh"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-15"
-  - name: "ulanzi-deck-d200-plugin-example"
-    title: "ulanzi-deck-d200-plugin-example"
-    description: "Three working examples of controlling the Ulanzi Deck D200 — official Plugin SDK (Node.js), direct USB (Python/strmdck), and ADB framebuffer. Plus a complete research write-up."
-    language: "JavaScript"
-    topics:
-      - "adb-framebuffer"
-      - "nodejs"
-      - "plugin-example"
-      - "python"
-      - "rockchip"
-      - "stream-deck"
-      - "strmdck"
-      - "ulanzi-d200"
-      - "ulanzideck"
-      - "ulanzistudio"
-    stars_fact: 4
-    first_seen: null
-    last_push: "2026-09-15"
 ---
 
 # zentala
 
-13 pushes across 9 repositories on 9 active days in the last 90 days of public GitHub push activity.
+12 pushes across 8 repositories on 8 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/zentala

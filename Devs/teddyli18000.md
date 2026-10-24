@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-22T06:05:29.861706+00:00"
+generated_at: "2026-10-24T06:05:01.431039+00:00"
 provenance:
   - "c489e6fb5febf2ab"
-pushes_per_week: [0, 0, 20, 2, 7, 2, 0, 0, 2, 3, 24, 14, 17]
+pushes_per_week: [0, 0, 22, 0, 7, 2, 0, 0, 5, 3, 23, 12, 17]
 windows:
   "7d":
     pushes: 17
@@ -84,7 +84,7 @@ repos:
     topics: []
     stars_fact: 2
     first_seen: null
-    last_push: "2026-10-16"
+    last_push: "2026-10-24"
   - name: "teddyli18000"
     title: "teddyli18000"
     description: "A living GitHub profile README."
@@ -92,47 +92,39 @@ repos:
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-10-16"
-  - name: "mimo-web-proxy"
-    title: "mimo-web-proxy"
-    description: "把小米 MiMo AI Studio 网页端反代为 OpenAI / Anthropic 兼容 API 的本地网关。单 exe 双击即用。Turn MiMo web chat into an OpenAI/Anthropic compatible API."
-    language: "Go"
-    topics:
-      - "ai-gateway"
-      - "anthropic-api"
-      - "golang"
-      - "llm"
-      - "mimo"
-      - "openai-api"
-      - "proxy"
-      - "xiaomi"
-    stars_fact: 9
-    first_seen: null
-    last_push: "2026-09-26"
-  - name: "ms-todo-mcp"
-    title: "ms-todo-mcp"
+    last_push: "2026-10-24"
+  - name: "uu-cli"
+    title: "uu-cli"
     description: null
-    language: "TypeScript"
+    language: "Rust"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-13"
-  - name: "vitrual_browser"
-    title: "vitrual_browser"
+    last_push: "2026-10-21"
+  - name: "SDAutoLogin"
+    title: "SDAutoLogin"
     description: null
-    language: "TypeScript"
+    language: "Go"
     topics: []
-    stars_fact: 1
+    stars_fact: 0
     first_seen: null
-    last_push: "2026-10-08"
-  - name: "dsh-approval-gate"
-    title: "dsh-approval-gate"
-    description: "DSH approval gate development"
-    language: "JavaScript"
+    last_push: "2026-10-20"
+  - name: "screenquiet"
+    title: "screenquiet"
+    description: "Silent Lenovo Fn+F9 screen-off with physical-input wake. Parsec VDD, Raw Input, and ThinkBook / UU remote-control implementation notes."
+    language: "C#"
     topics: []
-    stars_fact: 3
+    stars_fact: 0
     first_seen: null
-    last_push: "2026-09-26"
+    last_push: "2026-10-20"
+  - name: "LocalType"
+    title: "LocalType"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-18"
 ---
 
 # teddyli18000

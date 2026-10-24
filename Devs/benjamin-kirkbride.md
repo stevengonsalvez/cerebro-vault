@@ -9,13 +9,13 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-22T06:05:29.861706+00:00"
+generated_at: "2026-10-24T06:05:01.431039+00:00"
 provenance:
   - "97c4e9cb8b163ddb"
   - "c7515e0fa4368a55"
   - "d3abe74726b22711"
   - "e7c647c4d0689526"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 6, 5, 0]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 6, 3, 0]
 windows:
   "7d":
     pushes: 0
@@ -82,12 +82,12 @@ reasons:
 repos:
   - name: "Seraph-Horizons"
     title: "Seraph-Horizons"
-    description: null
+    description: "Hard-mode, immersive modpack with custom machines, eidolons and 1800s-accurate ore processing."
     language: "C#"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-16"
+    last_push: "2026-10-23"
   - name: "conductor"
     title: "conductor"
     description: "AI agent orchestration via the Claude Agent SDK"

@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-22T06:05:29.861706+00:00"
+generated_at: "2026-10-24T06:05:01.431039+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [0, 4, 1, 0, 0, 0, 1, 6, 0, 0, 0, 1, 1]
+pushes_per_week: [0, 5, 0, 0, 0, 0, 4, 3, 0, 0, 1, 0, 3]
 windows:
   "7d":
-    pushes: 1
+    pushes: 3
     distinct_repos: 1
     active_days: 1
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 2
+    pushes: 4
     distinct_repos: 2
     active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 14
+    pushes: 16
     distinct_repos: 7
     active_days: 9
     repos_not_owned: 2
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 1.5556
+  push_per_day: 1.7778
   repo_per_active_day: 0.7778
   not_owned_ratio: 0.2857
   basename_concentration: 0.1429
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
+    pushes: 3
     distinct_repos: 1
-    pushes_per_repo: 1.0000
+    pushes_per_repo: 3.0000
     active_days: 1
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 2
+    pushes: 4
     distinct_repos: 2
-    pushes_per_repo: 1.0000
+    pushes_per_repo: 2.0000
     active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 14
+    pushes: 16
     distinct_repos: 7
-    pushes_per_repo: 2.0000
+    pushes_per_repo: 2.2857
     active_days: 9
     repos_not_owned: 2
     not_owned_basenames: 2
@@ -84,7 +84,22 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-16"
+    last_push: "2026-10-24"
+  - name: "velorag"
+    title: "velorag"
+    description: "🚀 Production-grade RAG framework — hybrid search + knowledge graph + agent canvas + multi-tenant KB. 开源名舰级 RAG 引擎."
+    language: "Python"
+    topics:
+      - "agent"
+      - "ai"
+      - "knowledge-graph"
+      - "llm"
+      - "python"
+      - "rag"
+      - "retrieval-augmented-generation"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-19"
   - name: "bci-motor-imagery"
     title: "bci-motor-imagery"
     description: null
@@ -117,18 +132,10 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-09-16"
-  - name: "astrbot_plugin_wuwa_echo"
-    title: "astrbot_plugin_wuwa_echo"
-    description: "鸣潮声骸评分 AstrBot 插件"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-16"
 ---
 
 # yunyancuo
 
-14 pushes across 7 repositories on 9 active days in the last 90 days of public GitHub push activity.
+16 pushes across 7 repositories on 9 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/yunyancuo

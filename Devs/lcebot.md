@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-22T06:05:29.861706+00:00"
+generated_at: "2026-10-24T06:05:01.431039+00:00"
 provenance:
   - "716cf9e2237ac9db"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 1, 5, 1, 0, 0, 0]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 5, 1, 1, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -82,9 +82,17 @@ repos:
     description: "Keeps one clipboard in sync across your Android devices and your Windows PC, with text, images and files all supported"
     language: "Kotlin"
     topics: []
-    stars_fact: 9
+    stars_fact: 12
     first_seen: null
     last_push: "2026-10-15"
+  - name: "mi-scanner-enhanced"
+    title: "mi-scanner-enhanced"
+    description: "Removes content censorship and the unnecessary location permission prompt from Xiaomi Scanner"
+    language: "Kotlin"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-17"
   - name: "ma2-parser"
     title: "ma2-parser"
     description: "An ma2 to simai converter, the reverse companion to maidata-parser."
@@ -138,14 +146,6 @@ repos:
     stars_fact: 1
     first_seen: null
     last_push: "2026-10-03"
-  - name: "bc7e"
-    title: "bc7e"
-    description: "Encode RGBA images to BC7"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-12"
 ---
 
 # lcebot

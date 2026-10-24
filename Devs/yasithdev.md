@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-22T06:05:29.861706+00:00"
+generated_at: "2026-10-24T06:05:01.431039+00:00"
 provenance:
   - "c1af6b58492f9bf4"
-pushes_per_week: [11, 7, 3, 0, 2, 2, 2, 21, 22, 31, 19, 3, 1]
+pushes_per_week: [6, 9, 0, 2, 0, 2, 4, 24, 25, 36, 6, 3, 1]
 windows:
   "7d":
     pushes: 1
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 70
-    distinct_repos: 8
-    active_days: 18
-    repos_not_owned: 8
-    not_owned_basenames: 8
+    pushes: 58
+    distinct_repos: 7
+    active_days: 16
+    repos_not_owned: 7
+    not_owned_basenames: 7
     not_owned_owners: 3
   "90d":
-    pushes: 124
+    pushes: 118
     distinct_repos: 11
-    active_days: 40
+    active_days: 37
     repos_not_owned: 11
     not_owned_basenames: 10
     not_owned_owners: 4
 automation:
   state: "clear"
-  push_per_day: 3.1000
-  repo_per_active_day: 0.2750
+  push_per_day: 3.1892
+  repo_per_active_day: 0.2973
   not_owned_ratio: 1.0000
   basename_concentration: 0.1818
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 70
-    distinct_repos: 8
-    pushes_per_repo: 8.7500
-    active_days: 18
-    repos_not_owned: 8
-    not_owned_basenames: 8
+    pushes: 58
+    distinct_repos: 7
+    pushes_per_repo: 8.2857
+    active_days: 16
+    repos_not_owned: 7
+    not_owned_basenames: 7
     not_owned_owners: 3
   "90d":
-    pushes: 124
+    pushes: 118
     distinct_repos: 11
-    pushes_per_repo: 11.2727
-    active_days: 40
+    pushes_per_repo: 10.7273
+    active_days: 37
     repos_not_owned: 11
     not_owned_basenames: 10
     not_owned_owners: 4
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 40 active days in 90d — pass"
+  - "activity: 37 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "yasithdev.github.io"
@@ -130,6 +130,6 @@ repos:
 
 # yasithdev
 
-124 pushes across 11 repositories on 40 active days in the last 90 days of public GitHub push activity.
+118 pushes across 11 repositories on 37 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/yasithdev

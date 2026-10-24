@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-22T06:05:29.861706+00:00"
+generated_at: "2026-10-24T06:05:01.431039+00:00"
 provenance:
   - "0b22ca37fd3884c9"
-pushes_per_week: [3, 20, 3, 11, 3, 1, 2, 2, 7, 107, 6, 2, 1]
+pushes_per_week: [3, 23, 3, 8, 4, 0, 3, 4, 19, 96, 4, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 118
-    distinct_repos: 21
-    active_days: 14
+    pushes: 116
+    distinct_repos: 19
+    active_days: 12
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 118
-    distinct_repos: 21
-    pushes_per_repo: 5.6190
-    active_days: 14
+    pushes: 116
+    distinct_repos: 19
+    pushes_per_repo: 6.1053
+    active_days: 12
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -77,14 +77,6 @@ reasons:
   - "activity: 37 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "streak"
-    title: "streak"
-    description: "🔥 the flame never dies"
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-15"
   - name: "shoemoneyx"
     title: "shoemoneyx"
     description: "SMX · an open-source crypto paper-trading desk. Backtest farm, walk-forward optimizer, built-in AI agent, 110 exchanges, schema v2 strategies."
@@ -102,54 +94,65 @@ repos:
       - "vue"
     stars_fact: 26
     first_seen: null
-    last_push: "2026-10-12"
-  - name: "after-adderall"
-    title: "after-adderall"
-    description: "📖 After Adderall: Overprescribed, Unraveled, and Rebuilt from Scratch. A free memoir about adult ADHD, Adderall dependence, and recovery. Free PDF + EPUB."
-    language: null
-    topics:
-      - "adderall"
-      - "addiction-recovery"
-      - "adhd"
-      - "burnout"
-      - "ebook"
-      - "epub"
-      - "free-book"
-      - "memoir"
-      - "mental-health"
-      - "neurodiversity"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-08"
-  - name: "jev-the-spire2"
-    title: "jev-the-spire2"
-    description: "An agent plays Slay the Spire 2. Single-call factored decisions via TypeSafe Jev: 15x faster and 259x cheaper than Claude on identical state. Fork of alexmeckes/jev-the-spire (MIT)."
-    language: "JavaScript"
-    topics:
-      - "ai-agent"
-      - "decision-model"
-      - "mcp"
-      - "slay-the-spire-2"
-      - "typesafe-jev"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-01"
-  - name: "OpenSnap"
-    title: "OpenSnap"
-    description: "Native AppKit reconstruction of Skitch 1.0.12 for Apple Silicon Macs"
-    language: "Swift"
+    last_push: "2026-10-22"
+  - name: "shoplifter"
+    title: "shoplifter"
+    description: "🚁 Shoplifter — an original 2D helicopter rescue game for the browser (WebGPU + TypeScript). Spiritual successor to the 1982 classic: finite civilians, weighty flight, rescue over destruction."
+    language: "TypeScript"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-12"
+    last_push: "2026-10-22"
+  - name: "sm-karate-kids"
+    title: "sm-karate-kids"
+    description: "Twin-stick point-karate in the browser. WebGPU with a WebGL 2 fallback, mobile-first, MIT."
+    language: "TypeScript"
+    topics:
+      - "browser-game"
+      - "fighting-game"
+      - "game"
+      - "karate"
+      - "mobile-first"
+      - "threejs"
+      - "typescript"
+      - "webgpu"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-22"
   - name: "aigate"
     title: "aigate"
     description: "Safe multi-account load balancer for Claude Code — encrypted token vault, usage-aware routing, live dashboard. Official binary + hooks, no relay/proxy."
     language: "JavaScript"
     topics: []
-    stars_fact: 2
+    stars_fact: 3
     first_seen: null
     last_push: "2026-10-15"
+  - name: "paider"
+    title: "paider"
+    description: "A PHP-native AI coding agent. Laravel Zero + Termwind + MCP. Named model tiers, open-weight presets, built in public."
+    language: "PHP"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-22"
+  - name: "eldritchdm"
+    title: "eldritchdm"
+    description: "Local-first, self-hostable Discord bot that runs full D&D 5e games end-to-end with an AI Dungeon Master persona (ShoeGPT). Three-brain architecture: oMLX (narration) + dm20 MCP (rules engine) + discord.py (orchestrator). The LLM never computes game math."
+    language: "Python"
+    topics:
+      - "ai-dungeon-master"
+      - "apple-silicon"
+      - "discord-bot"
+      - "discord-py"
+      - "dnd-5e"
+      - "llm"
+      - "mcp"
+      - "python"
+      - "self-hostable"
+      - "tabletop-rpg"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-22"
 ---
 
 # shoemoney

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-22T06:05:29.861706+00:00"
+generated_at: "2026-10-24T06:05:01.431039+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [3, 4, 7, 1, 0, 0, 0, 3, 16, 6, 4, 10, 1]
+pushes_per_week: [3, 8, 2, 1, 0, 0, 1, 8, 10, 8, 4, 8, 1]
 windows:
   "7d":
     pushes: 1
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 55
+    pushes: 54
     distinct_repos: 9
-    active_days: 29
+    active_days: 28
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.8966
-  repo_per_active_day: 0.3103
+  push_per_day: 1.9286
+  repo_per_active_day: 0.3214
   not_owned_ratio: 0.0000
   basename_concentration: 0.1111
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 55
+    pushes: 54
     distinct_repos: 9
-    pushes_per_repo: 6.1111
-    active_days: 29
+    pushes_per_repo: 6.0000
+    active_days: 28
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 29 active days in 90d — pass"
+  - "activity: 28 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "wcqqq1214"
@@ -84,7 +84,22 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-16"
+    last_push: "2026-10-24"
+  - name: "gxu-campus-3d"
+    title: "gxu-campus-3d"
+    description: "广西大学三维校园地图 An interactive 3D campus map of Guangxi University."
+    language: "Python"
+    topics:
+      - "3d-campus"
+      - "blender"
+      - "guangxi-university"
+      - "gxu"
+      - "openstreetmap"
+      - "threejs"
+      - "virtual-tour"
+    stars_fact: 23
+    first_seen: null
+    last_push: "2026-10-22"
   - name: "astrbot_plugin_openai_oauth"
     title: "astrbot_plugin_openai_oauth"
     description: "用 ChatGPT 订阅聊天的 AstrBot 插件，无需 API Key。 | An AstrBot plugin for chatting with your ChatGPT subscription—no API key needed."
@@ -97,7 +112,7 @@ repos:
       - "oauth"
     stars_fact: 3
     first_seen: null
-    last_push: "2026-10-15"
+    last_push: "2026-10-20"
   - name: "ragdoll-progress"
     title: "ragdoll-progress"
     description: "Fanqie the ragdoll on your video progress bar. A Chrome extension for YouTube, Bilibili, Douyin, and TikTok."
@@ -125,21 +140,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-10-14"
-  - name: "gxu-campus-3d"
-    title: "gxu-campus-3d"
-    description: "广西大学三维校园地图 An interactive 3D campus map of Guangxi University."
-    language: "Python"
-    topics:
-      - "3d-campus"
-      - "blender"
-      - "guangxi-university"
-      - "gxu"
-      - "openstreetmap"
-      - "threejs"
-      - "virtual-tour"
-    stars_fact: 21
-    first_seen: null
-    last_push: "2026-10-15"
   - name: "abceed-ai-translator"
     title: "abceed-ai-translator"
     description: "为 abceed 提供 AI 日文翻译、英文查词与发音、听力快捷键。"
@@ -156,6 +156,6 @@ repos:
 
 # wcqqq1214
 
-55 pushes across 9 repositories on 29 active days in the last 90 days of public GitHub push activity.
+54 pushes across 9 repositories on 28 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/wcqqq1214

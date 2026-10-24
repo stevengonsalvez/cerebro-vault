@@ -10,22 +10,22 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-22T06:05:29.861706+00:00"
+generated_at: "2026-10-24T06:05:01.431039+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [9, 14, 53, 0, 15, 0, 0, 0, 6, 5, 0, 1, 0]
+pushes_per_week: [19, 7, 49, 6, 9, 0, 0, 0, 7, 4, 0, 1, 1]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 11
-    distinct_repos: 3
-    active_days: 7
+    pushes: 8
+    distinct_repos: 4
+    active_days: 6
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -33,19 +33,19 @@ windows:
     pushes: 103
     distinct_repos: 13
     active_days: 23
-    repos_not_owned: 10
-    not_owned_basenames: 4
+    repos_not_owned: 9
+    not_owned_basenames: 3
     not_owned_owners: 9
 automation:
   state: "clear"
   push_per_day: 4.4783
   repo_per_active_day: 0.5652
-  not_owned_ratio: 0.7692
+  not_owned_ratio: 0.6923
   basename_concentration: 0.6154
   shapes:
     - "fork_farm_own_upstream"
   shape_evidence:
-    - "basename concentration 0.6154 (8 of 13 repos share one basename), 10 not owned across 4 basenames — 5 of 5 sampled repos resolved; 5 fork an upstream this account owns; upstreams: jackwener/OpenCLI"
+    - "basename concentration 0.6154 (8 of 13 repos share one basename), 9 not owned across 3 basenames — 5 of 5 sampled repos resolved; 5 fork an upstream this account owns; upstreams: jackwener/OpenCLI"
   cleared_by: "e01-builder"
   cleared_on: "2026-08-26"
   fork_provenance:
@@ -66,18 +66,18 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
+    pushes: 1
+    distinct_repos: 1
+    pushes_per_repo: 1.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 11
-    distinct_repos: 3
-    pushes_per_repo: 3.6667
-    active_days: 7
+    pushes: 8
+    distinct_repos: 4
+    pushes_per_repo: 2.0000
+    active_days: 6
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -86,8 +86,8 @@ facets:
     distinct_repos: 13
     pushes_per_repo: 7.9231
     active_days: 23
-    repos_not_owned: 10
-    not_owned_basenames: 4
+    repos_not_owned: 9
+    not_owned_basenames: 3
     not_owned_owners: 9
 reasons:
   - "provenance: 1 vault signal(s) — pass"

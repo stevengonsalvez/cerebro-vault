@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-22T06:05:29.861706+00:00"
+generated_at: "2026-10-24T06:05:01.431039+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [4, 3, 1, 0, 0, 0, 0, 0, 2, 1, 0, 0, 0]
+pushes_per_week: [7, 0, 1, 0, 0, 0, 0, 0, 2, 1, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,7 +22,7 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 3
+    pushes: 2
     distinct_repos: 2
     active_days: 2
     repos_not_owned: 0
@@ -57,9 +57,9 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 3
+    pushes: 2
     distinct_repos: 2
-    pushes_per_repo: 1.5000
+    pushes_per_repo: 1.0000
     active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -77,6 +77,14 @@ reasons:
   - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "astrcode-pr-review-agent"
+    title: "astrcode-pr-review-agent"
+    description: "Astrcodey 的自动化 GitHub PR 审查插件"
+    language: "Rust"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-22"
   - name: "astrcodey"
     title: "astrcodey"
     description: "一个开源的rust code agent，可扩展性非常强，与deepseek-harness架构同源并且比它早写两个月"
@@ -101,14 +109,6 @@ repos:
     stars_fact: 1
     first_seen: null
     last_push: "2026-09-07"
-  - name: "astrcode-pr-review-agent"
-    title: "astrcode-pr-review-agent"
-    description: "Astrcodey 的自动化 GitHub PR 审查插件"
-    language: "Rust"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-24"
   - name: "HexGridSystem"
     title: "HexGridSystem"
     description: null

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-22T06:05:29.861706+00:00"
+generated_at: "2026-10-24T06:05:01.431039+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [5, 8, 3, 24, 3, 1, 4, 31, 21, 75, 18, 10, 3]
+pushes_per_week: [7, 8, 1, 23, 4, 0, 11, 32, 40, 55, 13, 8, 3]
 windows:
   "7d":
     pushes: 3
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 116
+    pushes: 109
     distinct_repos: 4
-    active_days: 22
+    active_days: 21
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 206
+    pushes: 205
     distinct_repos: 15
-    active_days: 55
+    active_days: 54
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 3.7455
-  repo_per_active_day: 0.2727
+  push_per_day: 3.7963
+  repo_per_active_day: 0.2778
   not_owned_ratio: 0.2000
   basename_concentration: 0.1333
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 116
+    pushes: 109
     distinct_repos: 4
-    pushes_per_repo: 29.0000
-    active_days: 22
+    pushes_per_repo: 27.2500
+    active_days: 21
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 206
+    pushes: 205
     distinct_repos: 15
-    pushes_per_repo: 13.7333
-    active_days: 55
+    pushes_per_repo: 13.6667
+    active_days: 54
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 55 active days in 90d — pass"
+  - "activity: 54 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "dotfiles"
@@ -137,6 +137,6 @@ repos:
 
 # sjawhar
 
-206 pushes across 15 repositories on 55 active days in the last 90 days of public GitHub push activity.
+205 pushes across 15 repositories on 54 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/sjawhar

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-22T06:05:29.861706+00:00"
+generated_at: "2026-10-24T06:05:01.431039+00:00"
 provenance:
   - "16389f32495280ea"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 1, 10, 3, 3, 0]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 1, 13, 0, 3, 0]
 windows:
   "7d":
     pushes: 0
@@ -82,9 +82,17 @@ repos:
     description: "CODING — 一款以本地优先为核心的AI编程代理，支持基于代码仓库的规划、执行、验证与交付。"
     language: "Python"
     topics: []
-    stars_fact: 211
+    stars_fact: 199
     first_seen: null
     last_push: "2026-10-02"
+  - name: "Guo-Yixin"
+    title: "Guo-Yixin"
+    description: "AI Agents, RAG, and reliable execution — open-source contributions and projects"
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-17"
   - name: "AgentDock"
     title: "AgentDock"
     description: "本地 AI 编程任务指挥台"

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-22T06:05:29.861706+00:00"
+generated_at: "2026-10-24T06:05:01.431039+00:00"
 provenance:
   - "4138778ebbc75ba6"
-pushes_per_week: [0, 0, 0, 0, 1, 0, 1, 2, 2, 2, 1, 1, 0]
+pushes_per_week: [0, 0, 0, 0, 1, 0, 1, 4, 1, 1, 1, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -84,7 +84,15 @@ repos:
     topics: []
     stars_fact: 5
     first_seen: null
-    last_push: "2026-10-15"
+    last_push: "2026-10-24"
+  - name: "ai4s"
+    title: "ai4s"
+    description: "为企业员工提供统一、安全、可治理的 LLM API 出口：聚合多渠道上游；请求经内容级 DLP 脱敏/阻断与智能路由；员工 Key 审批签发、按档限额、全程可审计。"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-10-16"
   - name: "teamclaw"
     title: "teamclaw"
     description: "TeamClaw 是面向企业内部 AI Agent 落地的 operations control plane。它把运行时实例、Agent、Skills、模型资源、知识库、权限、审计和对话体验收口到一个多租户平台里，让团队可以在同一套界面里管理多个实例、多个部门、多个 Agent 和多个 runtime。"
@@ -93,14 +101,6 @@ repos:
     stars_fact: 112
     first_seen: null
     last_push: "2026-08-17"
-  - name: "ai4s"
-    title: "ai4s"
-    description: "为企业员工提供统一、安全、可治理的 LLM API 出口：聚合多渠道上游；请求经内容级 DLP 脱敏/阻断与智能路由；员工 Key 审批签发、按档限额、全程可审计。"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-10-13"
   - name: "Comic-skill"
     title: "Comic-skill"
     description: "小镜 · 彩色手绘中文正文配图 skill（Claude + Codex 双兼容）"

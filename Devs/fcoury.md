@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-22T06:05:29.861706+00:00"
+generated_at: "2026-10-24T06:05:01.431039+00:00"
 provenance:
   - "0388a4f55f4206c8"
   - "0577669e18ed3998"
@@ -29,12 +29,13 @@ provenance:
   - "9ba6f4189d8fbd6b"
   - "9f28e3e9d3a9b17b"
   - "a8d513fb104884f5"
+  - "b28a06ef950a1f61"
   - "b6ce910accbcbcac"
   - "bca8f082890e2800"
   - "c6b4a874521ceb02"
   - "cf565721454d59f8"
   - "e26852201e6f38fc"
-pushes_per_week: [11, 3, 12, 22, 2, 0, 0, 0, 1, 8, 0, 4, 2]
+pushes_per_week: [5, 2, 27, 7, 2, 0, 0, 1, 4, 4, 0, 4, 2]
 windows:
   "7d":
     pushes: 2
@@ -51,18 +52,18 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 65
-    distinct_repos: 9
-    active_days: 24
+    pushes: 58
+    distinct_repos: 8
+    active_days: 22
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.7083
-  repo_per_active_day: 0.3750
-  not_owned_ratio: 0.3333
-  basename_concentration: 0.1111
+  push_per_day: 2.6364
+  repo_per_active_day: 0.3636
+  not_owned_ratio: 0.3750
+  basename_concentration: 0.1250
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -87,16 +88,16 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 65
-    distinct_repos: 9
-    pushes_per_repo: 7.2222
-    active_days: 24
+    pushes: 58
+    distinct_repos: 8
+    pushes_per_repo: 7.2500
+    active_days: 22
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
 reasons:
-  - "provenance: 23 vault signal(s) — pass"
-  - "activity: 24 active days in 90d — pass"
+  - "provenance: 24 vault signal(s) — pass"
+  - "activity: 22 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "oxide"
@@ -156,6 +157,6 @@ repos:
 
 # fcoury
 
-65 pushes across 9 repositories on 24 active days in the last 90 days of public GitHub push activity.
+58 pushes across 8 repositories on 22 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/fcoury

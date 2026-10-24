@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-22T06:05:29.861706+00:00"
+generated_at: "2026-10-24T06:05:01.431039+00:00"
 provenance:
   - "a5ffcd0a46dd44fd"
-pushes_per_week: [19, 17, 9, 2, 2, 0, 1, 3, 8, 10, 8, 10, 7]
+pushes_per_week: [11, 15, 10, 2, 1, 0, 1, 5, 6, 14, 4, 10, 7]
 windows:
   "7d":
     pushes: 7
@@ -22,25 +22,25 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 41
+    pushes: 35
     distinct_repos: 6
-    active_days: 17
+    active_days: 15
     repos_not_owned: 3
     not_owned_basenames: 1
     not_owned_owners: 3
   "90d":
-    pushes: 96
-    distinct_repos: 12
-    active_days: 36
-    repos_not_owned: 6
+    pushes: 86
+    distinct_repos: 11
+    active_days: 35
+    repos_not_owned: 5
     not_owned_basenames: 2
-    not_owned_owners: 6
+    not_owned_owners: 5
 automation:
   state: "clear"
-  push_per_day: 2.6667
-  repo_per_active_day: 0.3333
-  not_owned_ratio: 0.5000
-  basename_concentration: 0.5000
+  push_per_day: 2.4571
+  repo_per_active_day: 0.3143
+  not_owned_ratio: 0.4545
+  basename_concentration: 0.4545
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 41
+    pushes: 35
     distinct_repos: 6
-    pushes_per_repo: 6.8333
-    active_days: 17
+    pushes_per_repo: 5.8333
+    active_days: 15
     repos_not_owned: 3
     not_owned_basenames: 1
     not_owned_owners: 3
   "90d":
-    pushes: 96
-    distinct_repos: 12
-    pushes_per_repo: 8.0000
-    active_days: 36
-    repos_not_owned: 6
+    pushes: 86
+    distinct_repos: 11
+    pushes_per_repo: 7.8182
+    active_days: 35
+    repos_not_owned: 5
     not_owned_basenames: 2
-    not_owned_owners: 6
+    not_owned_owners: 5
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 36 active days in 90d — pass"
+  - "activity: 35 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "registry-redirector"
@@ -130,6 +130,6 @@ repos:
 
 # howardjohn
 
-96 pushes across 12 repositories on 36 active days in the last 90 days of public GitHub push activity.
+86 pushes across 11 repositories on 35 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/howardjohn

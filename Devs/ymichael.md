@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-22T06:05:29.861706+00:00"
+generated_at: "2026-10-24T06:05:01.431039+00:00"
 provenance:
   - "419a4253687fd7a1"
-pushes_per_week: [0, 7, 57, 13, 3, 0, 11, 10, 18, 31, 49, 1, 15]
+pushes_per_week: [0, 19, 48, 12, 1, 0, 14, 14, 22, 46, 24, 0, 16]
 windows:
   "7d":
-    pushes: 15
+    pushes: 16
     distinct_repos: 2
-    active_days: 3
+    active_days: 4
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
   "30d":
-    pushes: 107
+    pushes: 102
     distinct_repos: 3
-    active_days: 18
+    active_days: 17
     repos_not_owned: 3
     not_owned_basenames: 1
     not_owned_owners: 3
   "90d":
-    pushes: 215
+    pushes: 216
     distinct_repos: 10
-    active_days: 46
+    active_days: 47
     repos_not_owned: 9
     not_owned_basenames: 2
     not_owned_owners: 8
 automation:
   state: "clear"
-  push_per_day: 4.6739
-  repo_per_active_day: 0.2174
+  push_per_day: 4.5957
+  repo_per_active_day: 0.2128
   not_owned_ratio: 0.9000
   basename_concentration: 0.9000
   shapes:
@@ -65,32 +65,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 15
+    pushes: 16
     distinct_repos: 2
-    pushes_per_repo: 7.5000
-    active_days: 3
+    pushes_per_repo: 8.0000
+    active_days: 4
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
   "30d":
-    pushes: 107
+    pushes: 102
     distinct_repos: 3
-    pushes_per_repo: 35.6667
-    active_days: 18
+    pushes_per_repo: 34.0000
+    active_days: 17
     repos_not_owned: 3
     not_owned_basenames: 1
     not_owned_owners: 3
   "90d":
-    pushes: 215
+    pushes: 216
     distinct_repos: 10
-    pushes_per_repo: 21.5000
-    active_days: 46
+    pushes_per_repo: 21.6000
+    active_days: 47
     repos_not_owned: 9
     not_owned_basenames: 2
     not_owned_owners: 8
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 46 active days in 90d — pass"
+  - "activity: 47 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "bb-plugins"
@@ -148,6 +148,6 @@ repos:
 
 # ymichael
 
-215 pushes across 10 repositories on 46 active days in the last 90 days of public GitHub push activity.
+216 pushes across 10 repositories on 47 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ymichael

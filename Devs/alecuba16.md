@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-22T06:05:29.861706+00:00"
+generated_at: "2026-10-24T06:05:01.431039+00:00"
 provenance:
   - "2a7f0fddd2dac162"
-pushes_per_week: [36, 6, 21, 1, 1, 2, 4, 3, 29, 38, 27, 15, 23]
+pushes_per_week: [28, 10, 12, 0, 3, 0, 7, 8, 36, 37, 14, 14, 27]
 windows:
   "7d":
-    pushes: 23
+    pushes: 27
     distinct_repos: 2
-    active_days: 4
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 113
+    pushes: 112
     distinct_repos: 3
-    active_days: 23
+    active_days: 22
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 206
+    pushes: 196
     distinct_repos: 4
-    active_days: 44
+    active_days: 43
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 4.6818
-  repo_per_active_day: 0.0909
+  push_per_day: 4.5581
+  repo_per_active_day: 0.0930
   not_owned_ratio: 0.0000
   basename_concentration: 0.2500
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 23
+    pushes: 27
     distinct_repos: 2
-    pushes_per_repo: 11.5000
-    active_days: 4
+    pushes_per_repo: 13.5000
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 113
+    pushes: 112
     distinct_repos: 3
-    pushes_per_repo: 37.6667
-    active_days: 23
+    pushes_per_repo: 37.3333
+    active_days: 22
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 206
+    pushes: 196
     distinct_repos: 4
-    pushes_per_repo: 51.5000
-    active_days: 44
+    pushes_per_repo: 49.0000
+    active_days: 43
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 44 active days in 90d — pass"
+  - "activity: 43 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "herdr-webui"
@@ -82,9 +82,17 @@ repos:
     description: "Standalone browser WebUI for Herdr sessions, with workspace/worktree navigation, terminal attach, agent status, settings, and macOS install/update support. New* Includes a built-in backend."
     language: "JavaScript"
     topics: []
-    stars_fact: 37
+    stars_fact: 41
     first_seen: null
-    last_push: "2026-10-16"
+    last_push: "2026-10-22"
+  - name: "businessbar"
+    title: "businessbar"
+    description: "A unified macOS menu bar application combining three essential functionalities: Next Meeting->Shows upcoming calendar events with countdown, one-click join, and notifications 2.Notification Badges->icon badges for selected apps as menu bar icons. 3->NoSleep, Prevents the computer from sleeping"
+    language: "Swift"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-22"
   - name: "openwrt_microsocks_luci"
     title: "openwrt_microsocks_luci"
     description: "A microsocks repackage with luci interface for openwrt (ax3600 , be7000 etc) arm."
@@ -93,14 +101,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-10-14"
-  - name: "businessbar"
-    title: "businessbar"
-    description: "A unified macOS menu bar application combining three essential functionalities: Next Meeting->Shows upcoming calendar events with countdown, one-click join, and notifications 2.Notification Badges->icon badges for selected apps as menu bar icons. 3->NoSleep, Prevents the computer from sleeping"
-    language: "Swift"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-03"
   - name: "smarthomerust_app"
     title: "smarthomerust_app"
     description: "Android client for SmartHomeRust"
@@ -134,6 +134,6 @@ repos:
 
 # alecuba16
 
-206 pushes across 4 repositories on 44 active days in the last 90 days of public GitHub push activity.
+196 pushes across 4 repositories on 43 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/alecuba16

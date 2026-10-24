@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-21T06:05:19.754690+00:00"
+generated_at: "2026-10-24T06:05:01.431039+00:00"
 provenance:
   - "c489e6fb5febf2ab"
-pushes_per_week: [0, 1, 0, 3, 1, 0, 0, 0, 2, 1, 0, 0, 0]
+pushes_per_week: [0, 1, 2, 1, 1, 0, 0, 1, 1, 1, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,14 +77,6 @@ reasons:
   - "activity: 8 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "rust-ffmpeg"
-    title: "rust-ffmpeg"
-    description: "Safe FFmpeg wrapper."
-    language: "Rust"
-    topics: []
-    stars_fact: 2015
-    first_seen: null
-    last_push: "2026-10-09"
   - name: "repocards"
     title: "repocards"
     description: "Auto-generate GitHub-style repository cards with GitHub Actions"
@@ -92,7 +84,15 @@ repos:
     topics: []
     stars_fact: 4
     first_seen: null
-    last_push: "2026-10-16"
+    last_push: "2026-10-23"
+  - name: "rust-ffmpeg"
+    title: "rust-ffmpeg"
+    description: "Safe FFmpeg wrapper."
+    language: "Rust"
+    topics: []
+    stars_fact: 2021
+    first_seen: null
+    last_push: "2026-10-09"
   - name: "rust-ffmpeg-sys"
     title: "rust-ffmpeg-sys"
     description: "FFmpeg bindings for Rust."

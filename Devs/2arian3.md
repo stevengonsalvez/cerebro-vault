@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-22T06:05:29.861706+00:00"
+generated_at: "2026-10-24T06:05:01.431039+00:00"
 provenance:
   - "46f3c1d6124190bd"
-pushes_per_week: [1, 0, 1, 0, 1, 0, 1, 2, 1, 2, 1, 1, 0]
+pushes_per_week: [1, 1, 0, 0, 1, 0, 1, 2, 2, 1, 1, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,14 +77,6 @@ reasons:
   - "activity: 11 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "neetcode-submissions"
-    title: "neetcode-submissions"
-    description: "My NeetCode.io problem submissions"
-    language: "C++"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-15"
   - name: "2arian3"
     title: "2arian3"
     description: null
@@ -92,7 +84,23 @@ repos:
     topics: []
     stars_fact: 2
     first_seen: null
-    last_push: "2026-10-15"
+    last_push: "2026-10-23"
+  - name: "T15-A4I2026"
+    title: "T15-A4I2026"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-20"
+  - name: "neetcode-submissions"
+    title: "neetcode-submissions"
+    description: "My NeetCode.io problem submissions"
+    language: "C++"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-18"
   - name: "2arian3.github.io"
     title: "2arian3.github.io"
     description: "This repo contains and hosts all of my personal website documents."
@@ -129,22 +137,6 @@ repos:
     stars_fact: 5
     first_seen: null
     last_push: "2026-09-08"
-  - name: "Cool-Programming-Challenges"
-    title: "Cool-Programming-Challenges"
-    description: "Cool programming challenges solved in different languages."
-    language: "Python"
-    topics:
-      - "base64"
-      - "conways-game-of-life"
-      - "matplotlib"
-      - "numpy"
-      - "pygame"
-      - "sorting-algorithms"
-      - "tetris"
-      - "tic-tac-toe"
-    stars_fact: 9
-    first_seen: null
-    last_push: "2026-07-01"
 ---
 
 # 2arian3

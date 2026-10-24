@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: true
 repos_populated: true
-generated_at: "2026-10-22T06:05:29.861706+00:00"
+generated_at: "2026-10-24T06:05:01.431039+00:00"
 provenance:
   - "4733c40b13667822"
-pushes_per_week: [0, 2, 1, 0, 2, 1, 0, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [2, 1, 0, 2, 1, 0, 0, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -100,27 +100,9 @@ repos:
       - "prompt-engineering"
       - "tree-of-thought"
       - "typescript"
-    stars_fact: 4423
+    stars_fact: 4456
     first_seen: "2026-07-29T08:03:14.562931+00:00"
     last_push: "2026-10-05"
-  - name: "cdaf"
-    title: "cdaf"
-    description: "CDAF (Cached Descriptive Asset Files) - open sidecar format for video so AI agents stop re-analyzing the same footage. Spec, CLI, agent skill, reproducible benchmark."
-    language: "Python"
-    topics:
-      - "agentic-ai"
-      - "ai-agents"
-      - "file-format"
-      - "gemini"
-      - "llm"
-      - "remotion"
-      - "sidecar"
-      - "token-optimization"
-      - "video"
-      - "video-understanding"
-    stars_fact: 221
-    first_seen: null
-    last_push: "2026-08-28"
   - name: "neuroarxiv"
     title: "neuroarxiv"
     description: "A skill to kill from-scratch coding — Claude checks real arXiv prior art before it designs a new architecture."
@@ -134,7 +116,7 @@ repos:
       - "reasoning-language-models"
       - "reasoning-models"
       - "workflow"
-    stars_fact: 436
+    stars_fact: 438
     first_seen: null
     last_push: "2026-09-17"
   - name: "quicksilver"
@@ -151,9 +133,40 @@ repos:
       - "skill"
       - "tokens"
       - "typesafe"
-    stars_fact: 122
+    stars_fact: 126
     first_seen: null
     last_push: "2026-09-25"
+  - name: "brane-code"
+    title: "brane-code"
+    description: "Claude Code but Better"
+    language: "TypeScript"
+    topics:
+      - "ai"
+      - "claude"
+      - "claude-code"
+      - "claudecode"
+      - "coding"
+    stars_fact: 97
+    first_seen: null
+    last_push: "2026-03-31"
+  - name: "cdaf"
+    title: "cdaf"
+    description: "CDAF (Cached Descriptive Asset Files) - open sidecar format for video so AI agents stop re-analyzing the same footage. Spec, CLI, agent skill, reproducible benchmark."
+    language: "Python"
+    topics:
+      - "agentic-ai"
+      - "ai-agents"
+      - "file-format"
+      - "gemini"
+      - "llm"
+      - "remotion"
+      - "sidecar"
+      - "token-optimization"
+      - "video"
+      - "video-understanding"
+    stars_fact: 224
+    first_seen: null
+    last_push: "2026-08-28"
   - name: "branerail"
     title: "branerail"
     description: "CTO-level architectural skill for Claude Code"
@@ -165,19 +178,6 @@ repos:
     stars_fact: 51
     first_seen: null
     last_push: "2026-04-27"
-  - name: "brane-code"
-    title: "brane-code"
-    description: "Claude Code but Better"
-    language: "TypeScript"
-    topics:
-      - "ai"
-      - "claude"
-      - "claude-code"
-      - "claudecode"
-      - "coding"
-    stars_fact: 98
-    first_seen: null
-    last_push: "2026-03-31"
 ---
 
 # UditAkhourii

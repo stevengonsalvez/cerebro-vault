@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-20T06:04:57.914428+00:00"
+generated_at: "2026-10-24T06:05:01.431039+00:00"
 provenance:
   - "0b22ca37fd3884c9"
-pushes_per_week: [2, 3, 0, 0, 0, 0, 0, 0, 0, 0, 3, 0, 0]
+pushes_per_week: [3, 2, 0, 0, 0, 0, 0, 0, 0, 1, 2, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -84,7 +84,15 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-15"
+    last_push: "2026-10-23"
+  - name: "keyroost-agent"
+    title: "keyroost-agent"
+    description: null
+    language: "Rust"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-16"
   - name: "yaner"
     title: "yaner"
     description: "Yet another NES emulator in rust"
@@ -117,14 +125,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2022-06-07"
-  - name: "bin-deps-wasm"
-    title: "bin-deps-wasm"
-    description: null
-    language: "Rust"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2022-03-03"
 ---
 
 # plaflamme

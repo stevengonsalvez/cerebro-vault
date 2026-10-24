@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: true
 repos_populated: true
-generated_at: "2026-10-22T06:05:29.861706+00:00"
+generated_at: "2026-10-24T06:05:01.431039+00:00"
 provenance:
   - "626a5e4fcb233d8d"
 pushes_per_week: [0, 0, 0, 0, 0, 1, 0, 0, 1, 1, 0, 0, 0]
@@ -85,9 +85,17 @@ repos:
       - "agentic-framework"
       - "finance"
       - "harness"
-    stars_fact: 201
+    stars_fact: 207
     first_seen: null
     last_push: "2026-08-22"
+  - name: "Yijia-Xiao"
+    title: "Yijia-Xiao"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 6
+    first_seen: null
+    last_push: "2023-12-26"
   - name: "Protein-LLM-Survey"
     title: "Protein-LLM-Survey"
     description: "Large Language Models in Protein: A Comprehensive Survey"
@@ -104,14 +112,6 @@ repos:
     stars_fact: 198
     first_seen: null
     last_push: "2025-04-02"
-  - name: "Yijia-Xiao"
-    title: "Yijia-Xiao"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 6
-    first_seen: null
-    last_push: "2023-12-26"
   - name: "PrivacyMind"
     title: "PrivacyMind"
     description: "Large Language Models Can Be Contextual Privacy Protection Learners"

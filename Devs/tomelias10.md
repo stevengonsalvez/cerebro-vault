@@ -10,12 +10,12 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-22T06:05:29.861706+00:00"
+generated_at: "2026-10-24T06:05:01.431039+00:00"
 provenance:
   - "1df6ea1f1256059e"
   - "745308b2b7085095"
   - "edb3a626875732de"
-pushes_per_week: [0, 0, 2, 0, 1, 0, 0, 0, 0, 13, 4, 0, 0]
+pushes_per_week: [0, 0, 2, 0, 1, 0, 0, 0, 4, 9, 4, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -80,28 +80,6 @@ reasons:
   - "activity: 9 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "orynval-labs"
-    title: "orynval-labs"
-    description: "Local security tools for AI agents: review MCP configs, detect baseline drift, inspect identities, and draft evidence-backed security answers."
-    language: "Go"
-    topics:
-      - "ai-agents"
-      - "ai-security"
-      - "cli"
-      - "cybersecurity"
-      - "developer-security"
-      - "devsecops"
-      - "golang"
-      - "identity-security"
-      - "mcp"
-      - "model-context-protocol"
-      - "non-human-identities"
-      - "open-source"
-      - "sarif"
-      - "security-tools"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-11"
   - name: "mcp-drift-check"
     title: "mcp-drift-check"
     description: "Static MCP package-reference mutability checker: Python CLI and GitHub Action. No discovered server execution. Broader config/baseline tools: Orynval Labs."
@@ -126,6 +104,28 @@ repos:
       - "security"
       - "supply-chain-security"
       - "windsurf"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-21"
+  - name: "orynval-labs"
+    title: "orynval-labs"
+    description: "Local security tools for AI agents: review MCP configs, detect baseline drift, inspect identities, and draft evidence-backed security answers."
+    language: "Go"
+    topics:
+      - "ai-agents"
+      - "ai-security"
+      - "cli"
+      - "cybersecurity"
+      - "developer-security"
+      - "devsecops"
+      - "golang"
+      - "identity-security"
+      - "mcp"
+      - "model-context-protocol"
+      - "non-human-identities"
+      - "open-source"
+      - "sarif"
+      - "security-tools"
     stars_fact: 0
     first_seen: null
     last_push: "2026-10-11"

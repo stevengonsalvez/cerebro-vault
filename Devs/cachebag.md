@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-22T06:05:29.861706+00:00"
+generated_at: "2026-10-24T06:05:01.431039+00:00"
 provenance:
   - "9612918e3494c974"
-pushes_per_week: [5, 4, 8, 1, 2, 0, 1, 0, 2, 6, 2, 5, 1]
+pushes_per_week: [6, 7, 5, 0, 2, 1, 0, 1, 3, 5, 1, 5, 1]
 windows:
   "7d":
     pushes: 1
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 15
-    distinct_repos: 8
-    active_days: 10
+    pushes: 14
+    distinct_repos: 7
+    active_days: 9
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 15
-    distinct_repos: 8
-    pushes_per_repo: 1.8750
-    active_days: 10
+    pushes: 14
+    distinct_repos: 7
+    pushes_per_repo: 2.0000
+    active_days: 9
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
@@ -77,6 +77,30 @@ reasons:
   - "activity: 26 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "dotfiles"
+    title: "dotfiles"
+    description: null
+    language: "QML"
+    topics: []
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-10-23"
+  - name: "payme"
+    title: "payme"
+    description: "Personal finance tracking application."
+    language: "Rust"
+    topics: []
+    stars_fact: 386
+    first_seen: null
+    last_push: "2026-10-23"
+  - name: "rlox"
+    title: "rlox"
+    description: "Rust implementation of Lox from \"Crafting Interpreters\" by Robert Nystrom."
+    language: "Rust"
+    topics: []
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-06-06"
   - name: "spools"
     title: "spools"
     description: null
@@ -85,14 +109,6 @@ repos:
     stars_fact: 1
     first_seen: null
     last_push: "2026-10-15"
-  - name: "payme"
-    title: "payme"
-    description: "Personal finance tracking application."
-    language: "Rust"
-    topics: []
-    stars_fact: 387
-    first_seen: null
-    last_push: "2026-10-13"
   - name: "wedding-rsvp"
     title: "wedding-rsvp"
     description: "Website to host my wedding RSVP and registry."
@@ -101,14 +117,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-10-09"
-  - name: "dotfiles"
-    title: "dotfiles"
-    description: null
-    language: "QML"
-    topics: []
-    stars_fact: 4
-    first_seen: null
-    last_push: "2026-10-03"
   - name: "self"
     title: "self"
     description: "Personal site/blog."
@@ -117,14 +125,6 @@ repos:
     stars_fact: 1
     first_seen: null
     last_push: "2026-09-25"
-  - name: "nvim-tcss"
-    title: "nvim-tcss"
-    description: "A Neovim plugin for Textual CSS (.tcss) syntax highlighting as seen on www.github.com/Textualize/transcendent-textual"
-    language: "Vim Script"
-    topics: []
-    stars_fact: 26
-    first_seen: null
-    last_push: "2025-02-08"
 ---
 
 # cachebag

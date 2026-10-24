@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-22T06:05:29.861706+00:00"
+generated_at: "2026-10-24T06:05:01.431039+00:00"
 provenance:
   - "a5babe6eb0c3a37f"
-pushes_per_week: [2, 6, 0, 0, 0, 0, 0, 0, 1, 26, 98, 42, 50]
+pushes_per_week: [2, 6, 0, 0, 0, 0, 0, 0, 2, 59, 66, 40, 52]
 windows:
   "7d":
-    pushes: 50
+    pushes: 52
     distinct_repos: 2
     active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 217
+    pushes: 218
     distinct_repos: 5
-    active_days: 24
+    active_days: 23
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 225
+    pushes: 227
     distinct_repos: 7
     active_days: 29
     repos_not_owned: 0
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 7.7586
+  push_per_day: 7.8276
   repo_per_active_day: 0.2414
   not_owned_ratio: 0.0000
   basename_concentration: 0.1429
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 50
+    pushes: 52
     distinct_repos: 2
-    pushes_per_repo: 25.0000
+    pushes_per_repo: 26.0000
     active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 217
+    pushes: 218
     distinct_repos: 5
-    pushes_per_repo: 43.4000
-    active_days: 24
+    pushes_per_repo: 43.6000
+    active_days: 23
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 225
+    pushes: 227
     distinct_repos: 7
-    pushes_per_repo: 32.1429
+    pushes_per_repo: 32.4286
     active_days: 29
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -93,33 +93,41 @@ repos:
       - "multi-agent-systems"
       - "tmux"
       - "typescript"
-    stars_fact: 7526
+    stars_fact: 8143
     first_seen: "2026-09-28T06:01:28.341049+00:00"
-    last_push: "2026-10-16"
-  - name: "openrig-registry"
-    title: "openrig-registry"
-    description: null
-    language: "JavaScript"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-08"
+    last_push: "2026-10-24"
   - name: "openrig-world"
     title: "openrig-world"
     description: "Project world for building OpenRig with coding agents: a context pack and a small contributor rig."
     language: "JavaScript"
     topics: []
-    stars_fact: 9
+    stars_fact: 15
     first_seen: null
-    last_push: "2026-10-08"
+    last_push: "2026-10-23"
+  - name: "openrig-registry"
+    title: "openrig-registry"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-10-23"
+  - name: "openrig-studio-apps"
+    title: "openrig-studio-apps"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-10-23"
   - name: "openrig-studio"
     title: "openrig-studio"
     description: "Official OpenRig Studio SDK (@openrig/studio)"
     language: "JavaScript"
     topics: []
-    stars_fact: 12
+    stars_fact: 13
     first_seen: null
-    last_push: "2026-08-09"
+    last_push: "2026-10-23"
   - name: "mvschwarz"
     title: "mvschwarz"
     description: "Profile README"
@@ -128,18 +136,10 @@ repos:
     stars_fact: 4
     first_seen: null
     last_push: "2026-10-01"
-  - name: "gnosis-gpt"
-    title: "gnosis-gpt"
-    description: "Gnosis GPT - Streamlit app to use OpenAI and Anthropic to chat with your private documents"
-    language: "Python"
-    topics: []
-    stars_fact: 4
-    first_seen: null
-    last_push: "2024-06-12"
 ---
 
 # mvschwarz
 
-225 pushes across 7 repositories on 29 active days in the last 90 days of public GitHub push activity.
+227 pushes across 7 repositories on 29 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/mvschwarz

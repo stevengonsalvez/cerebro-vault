@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-22T06:05:29.861706+00:00"
+generated_at: "2026-10-24T06:05:01.431039+00:00"
 provenance:
   - "135bded64aec62fb"
-pushes_per_week: [2, 5, 6, 0, 0, 1, 1, 2, 0, 1, 7, 0, 1]
+pushes_per_week: [1, 5, 6, 0, 1, 0, 1, 2, 0, 1, 7, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 26
+    pushes: 25
     distinct_repos: 8
-    active_days: 14
+    active_days: 13
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.8571
-  repo_per_active_day: 0.5714
+  push_per_day: 1.9231
+  repo_per_active_day: 0.6154
   not_owned_ratio: 0.1250
   basename_concentration: 0.2500
   shapes: []
@@ -65,39 +65,18 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 26
+    pushes: 25
     distinct_repos: 8
-    pushes_per_repo: 3.2500
-    active_days: 14
+    pushes_per_repo: 3.1250
+    active_days: 13
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 14 active days in 90d — pass"
+  - "activity: 13 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "AI_Animation"
-    title: "AI_Animation"
-    description: "本项目整理了用于生成[炫酷 HTML 动画网页]的 AI Prompts，涵盖动画效果、3D 可视化、PPT 风格演示、UI 美化等多个类别。"
-    language: "HTML"
-    topics:
-      - "ai"
-      - "ai-agents"
-      - "css"
-      - "dsh-plugin"
-      - "dsh-plugins"
-      - "front-end"
-      - "html5"
-      - "javascript"
-      - "ppt"
-      - "prompt"
-      - "prompt-engineering"
-      - "skill"
-      - "skills"
-    stars_fact: 1550
-    first_seen: null
-    last_push: "2026-10-05"
   - name: "DeepSec"
     title: "DeepSec"
     description: "DeepSec — AI Security Offense & Defense Platform. Shield audits AI-generated code for hallucinated packages, missing safeguards & AI pattern errors in real time. Spear automates authorized penetration testing with 40+ skill packs, from recon to PoC."
@@ -123,9 +102,22 @@ repos:
       - "vscode"
       - "vulnerabilities"
       - "vulnerability"
-    stars_fact: 486
+    stars_fact: 494
     first_seen: null
     last_push: "2026-08-24"
+  - name: "cybersecurity-daily"
+    title: "cybersecurity-daily"
+    description: "网络安全日报—每日推送；Daily updated report on cybersecurity hotspots"
+    language: "HTML"
+    topics:
+      - "cybersecurity"
+      - "hacker-news"
+      - "html"
+      - "security"
+      - "vulnerability"
+    stars_fact: 135
+    first_seen: null
+    last_push: "2026-10-24"
   - name: "AI-Animation-Skill"
     title: "AI-Animation-Skill"
     description: "使用 AI 生成 HTML 演示动画的工具集，让视频创作者能够快速将科普文本转换为炫酷的演示动画。"
@@ -139,30 +131,50 @@ repos:
       - "html5-css3-javascript"
       - "javascript"
       - "ppt"
-    stars_fact: 577
+    stars_fact: 592
     first_seen: null
     last_push: "2026-04-16"
-  - name: "cybersecurity-daily"
-    title: "cybersecurity-daily"
-    description: "网络安全日报—每日推送；Daily updated report on cybersecurity hotspots"
+  - name: "AI_Animation"
+    title: "AI_Animation"
+    description: "本项目整理了用于生成[炫酷 HTML 动画网页]的 AI Prompts，涵盖动画效果、3D 可视化、PPT 风格演示、UI 美化等多个类别。"
     language: "HTML"
     topics:
-      - "cybersecurity"
-      - "hacker-news"
-      - "html"
-      - "security"
-      - "vulnerability"
-    stars_fact: 134
+      - "ai"
+      - "ai-agents"
+      - "css"
+      - "dsh-plugin"
+      - "dsh-plugins"
+      - "front-end"
+      - "html5"
+      - "javascript"
+      - "ppt"
+      - "prompt"
+      - "prompt-engineering"
+      - "skill"
+      - "skills"
+    stars_fact: 1609
     first_seen: null
-    last_push: "2026-10-16"
-  - name: "note-skill"
-    title: "note-skill"
-    description: "生成手写笔记本风格的单文件 HTML 学习笔记。当用户需要将技术内容、漏洞分析、知识总结等转化为视觉精美的网页笔记时使用。"
-    language: "HTML"
-    topics: []
-    stars_fact: 196
+    last_push: "2026-10-20"
+  - name: "starlit"
+    title: "starlit"
+    description: "自托管 QQ AI 伴侣：有记忆、有情绪、有自己的生活，会主动找你说话。NapCat / OneBot 11 双通道，支持自定义角色与热情/好感关系参数。"
+    language: "Python"
+    topics:
+      - "ai-companion"
+      - "asyncio"
+      - "blue-archive"
+      - "chatbot"
+      - "deepseek"
+      - "llm"
+      - "napcat"
+      - "onebot11"
+      - "python"
+      - "qq-bot"
+      - "self-hosted"
+      - "sqlite"
+    stars_fact: 1
     first_seen: null
-    last_push: "2026-06-12"
+    last_push: "2026-10-24"
   - name: "poc-lab"
     title: "poc-lab"
     description: "Recent CVE PoC & reproduction scripts. Focused on high-severity vulnerabilities across Linux kernel, Windows, macOS and more."
@@ -175,13 +187,13 @@ repos:
       - "python"
       - "python3"
       - "vulnerability"
-    stars_fact: 813
+    stars_fact: 815
     first_seen: null
     last_push: "2026-09-02"
 ---
 
 # Unclecheng-li
 
-26 pushes across 8 repositories on 14 active days in the last 90 days of public GitHub push activity.
+25 pushes across 8 repositories on 13 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Unclecheng-li

@@ -9,9 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-22T06:05:29.861706+00:00"
+generated_at: "2026-10-24T06:05:01.431039+00:00"
 provenance:
   - "01cd6a498d377caf"
+  - "0307ec1244417a61"
   - "03604cccd7e9402d"
   - "0754e13e69e8f4d3"
   - "0880c239db0357ef"
@@ -56,6 +57,7 @@ provenance:
   - "8f9e2f8ba8bd1533"
   - "92349bd4a8c11233"
   - "93601d11e4db33a8"
+  - "97c5df49eed3f0cf"
   - "9951decf1ff354d0"
   - "a3ec5261dfb4f2cd"
   - "b56da077d21ad4f4"
@@ -79,7 +81,7 @@ provenance:
   - "fd1cb9e783625459"
   - "fe9e50bf2d5b21fe"
   - "ff1ca072bf39e471"
-pushes_per_week: [0, 0, 0, 2, 0, 0, 0, 0, 2, 2, 0, 0, 0]
+pushes_per_week: [0, 0, 2, 0, 0, 0, 0, 0, 2, 2, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -89,9 +91,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 4
-    distinct_repos: 3
-    active_days: 4
+    pushes: 2
+    distinct_repos: 2
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -124,10 +126,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 4
-    distinct_repos: 3
-    pushes_per_repo: 1.3333
-    active_days: 4
+    pushes: 2
+    distinct_repos: 2
+    pushes_per_repo: 1.0000
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -140,7 +142,7 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
-  - "provenance: 68 vault signal(s) — pass"
+  - "provenance: 70 vault signal(s) — pass"
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
@@ -151,7 +153,15 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-13"
+    last_push: "2026-10-23"
+  - name: "pixel-hunt"
+    title: "pixel-hunt"
+    description: "A mobile-first pixel-art puzzle game: send ant squads to eat the picture, one colour at a time."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-23"
   - name: "network-monitor"
     title: "network-monitor"
     description: "Terminal network health monitor for flaky Wi-Fi (macOS, Bun, zero deps)"
@@ -199,14 +209,6 @@ repos:
     stars_fact: 1
     first_seen: null
     last_push: "2026-08-20"
-  - name: "interval-timer"
-    title: "interval-timer"
-    description: "A customizable workout interval timer application built with Next.js that supports various workout formats including circuits, AMRAP (As Many Rounds As Possible), Tabata, and EMOM (Every Minute On the Minute)."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-15"
 ---
 
 # saadiq

@@ -10,10 +10,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-22T06:05:29.861706+00:00"
+generated_at: "2026-10-24T06:05:01.431039+00:00"
 provenance:
   - "635453fe3b6ecc12"
-pushes_per_week: [3, 5, 2, 7, 0, 0, 0, 5, 73, 0, 0, 2, 0]
+pushes_per_week: [3, 2, 9, 0, 0, 0, 0, 50, 28, 0, 0, 2, 0]
 windows:
   "7d":
     pushes: 0
@@ -23,23 +23,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 29
-    distinct_repos: 21
-    active_days: 3
-    repos_not_owned: 7
-    not_owned_basenames: 7
-    not_owned_owners: 5
+    pushes: 2
+    distinct_repos: 1
+    active_days: 2
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "90d":
-    pushes: 97
+    pushes: 94
     distinct_repos: 37
-    active_days: 16
+    active_days: 15
     repos_not_owned: 10
     not_owned_basenames: 10
     not_owned_owners: 6
 automation:
   state: "clear"
-  push_per_day: 6.0625
-  repo_per_active_day: 2.3125
+  push_per_day: 6.2667
+  repo_per_active_day: 2.4667
   not_owned_ratio: 0.2703
   basename_concentration: 0.0270
   shapes: []
@@ -58,24 +58,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 29
-    distinct_repos: 21
-    pushes_per_repo: 1.3810
-    active_days: 3
-    repos_not_owned: 7
-    not_owned_basenames: 7
-    not_owned_owners: 5
+    pushes: 2
+    distinct_repos: 1
+    pushes_per_repo: 2.0000
+    active_days: 2
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "90d":
-    pushes: 97
+    pushes: 94
     distinct_repos: 37
-    pushes_per_repo: 2.6216
-    active_days: 16
+    pushes_per_repo: 2.5405
+    active_days: 15
     repos_not_owned: 10
     not_owned_basenames: 10
     not_owned_owners: 6
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 16 active days in 90d — pass"
+  - "activity: 15 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "awesome-hermes-agent"
@@ -190,6 +190,6 @@ repos:
 
 # 0xNyk
 
-97 pushes across 37 repositories on 16 active days in the last 90 days of public GitHub push activity.
+94 pushes across 37 repositories on 15 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/0xNyk

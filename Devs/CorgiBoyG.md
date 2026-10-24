@@ -1,30 +1,30 @@
 ---
-login: "omeryahud"
+login: "CorgiBoyG"
 name: null
 discovered_via: "fanout"
 discovered_via_all:
   - "fanout"
 provenance_repos:
-  - "agent-substrate/substrate"
+  - "bytedance/deer-flow"
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-22T06:05:29.861706+00:00"
+generated_at: "2026-10-24T06:05:01.431039+00:00"
 provenance:
-  - "a5ffcd0a46dd44fd"
-pushes_per_week: [6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  - "16389f32495280ea"
+pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 1, 0, 3, 0, 0, 2]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
+    pushes: 2
+    distinct_repos: 1
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
+    pushes: 5
+    distinct_repos: 3
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,18 +49,18 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
+    pushes: 2
+    distinct_repos: 1
+    pushes_per_repo: 2.0000
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
+    pushes: 5
+    distinct_repos: 3
+    pushes_per_repo: 1.6667
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -77,58 +77,60 @@ reasons:
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "cav"
-    title: "cav"
-    description: "custom claude agents view"
-    language: "Go"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-15"
-  - name: "need-api"
-    title: "need-api"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2022-06-20"
-  - name: "people-app"
-    title: "people-app"
-    description: null
-    language: "Go"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2020-07-19"
-  - name: "ginkgo-tutorial"
-    title: "ginkgo-tutorial"
-    description: null
+  - name: "HowToUse"
+    title: "HowToUse"
+    description: "深度学习"
     language: null
     topics: []
-    stars_fact: 0
+    stars_fact: 2
     first_seen: null
-    last_push: "2019-12-29"
-  - name: "cache"
-    title: "cache"
-    description: "A Golang package for in memory caching"
-    language: "Go"
+    last_push: "2022-08-15"
+  - name: "group-buy-market"
+    title: "group-buy-market"
+    description: "拼团营销系统&&用增促活服务-营销中心"
+    language: "Java"
     topics: []
-    stars_fact: 0
+    stars_fact: 10
     first_seen: null
-    last_push: "2021-01-25"
-  - name: "kubevirt-ansible-ssp-operator"
-    title: "kubevirt-ansible-ssp-operator"
+    last_push: "2025-11-22"
+  - name: "mcp-server-csdn"
+    title: "mcp-server-csdn"
     description: null
+    language: "Java"
+    topics: []
+    stars_fact: 9
+    first_seen: null
+    last_push: "2025-11-22"
+  - name: "mcp-server-weixin"
+    title: "mcp-server-weixin"
+    description: null
+    language: "Java"
+    topics: []
+    stars_fact: 10
+    first_seen: null
+    last_push: "2025-11-22"
+  - name: "base-llm"
+    title: "base-llm"
+    description: "base-llm-learning"
     language: null
     topics: []
-    stars_fact: 0
+    stars_fact: 2
     first_seen: null
-    last_push: "2020-07-19"
+    last_push: "2026-01-18"
+  - name: "CorgiBoyG"
+    title: "CorgiBoyG"
+    description: "Config files for my GitHub profile."
+    language: null
+    topics:
+      - "config"
+      - "github-config"
+    stars_fact: 3
+    first_seen: null
+    last_push: "2024-10-27"
 ---
 
-# omeryahud
+# CorgiBoyG
 
 6 pushes across 3 repositories on 5 active days in the last 90 days of public GitHub push activity.
 
-https://github.com/omeryahud
+https://github.com/CorgiBoyG

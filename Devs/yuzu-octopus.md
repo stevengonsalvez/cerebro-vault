@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-22T06:05:29.861706+00:00"
+generated_at: "2026-10-24T06:05:01.431039+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [0, 0, 4, 0, 1, 0, 6, 2, 0, 5, 11, 16, 123]
+pushes_per_week: [0, 2, 2, 0, 1, 0, 7, 1, 0, 9, 7, 16, 126]
 windows:
   "7d":
-    pushes: 123
-    distinct_repos: 2
+    pushes: 126
+    distinct_repos: 3
     active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 155
+    pushes: 158
     distinct_repos: 8
     active_days: 15
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 168
+    pushes: 171
     distinct_repos: 11
     active_days: 23
     repos_not_owned: 1
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 7.3043
+  push_per_day: 7.4348
   repo_per_active_day: 0.4783
   not_owned_ratio: 0.0909
   basename_concentration: 0.0909
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 123
-    distinct_repos: 2
-    pushes_per_repo: 61.5000
+    pushes: 126
+    distinct_repos: 3
+    pushes_per_repo: 42.0000
     active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 155
+    pushes: 158
     distinct_repos: 8
-    pushes_per_repo: 19.3750
+    pushes_per_repo: 19.7500
     active_days: 15
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 168
+    pushes: 171
     distinct_repos: 11
-    pushes_per_repo: 15.2727
+    pushes_per_repo: 15.5455
     active_days: 23
     repos_not_owned: 1
     not_owned_basenames: 1
@@ -77,6 +77,31 @@ reasons:
   - "activity: 23 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "astryx-dracula"
+    title: "astryx-dracula"
+    description: "Pure Dracula brand kit for Astryx sites. Full token system, syntax highlighting, chart colors. Prebuilt CSS, zero runtime cost."
+    language: "TypeScript"
+    topics:
+      - "astryx"
+      - "astryx-design"
+      - "dracula"
+      - "dracula-color-scheme"
+      - "dracula-theme"
+      - "stylex"
+      - "stylex-react"
+      - "stylex-vite"
+      - "stylexjs"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-22"
+  - name: "dotfiles"
+    title: "dotfiles"
+    description: "My dotfiles and config files"
+    language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-17"
   - name: "RsaWebTool"
     title: "RsaWebTool"
     description: "RSA CTF Cryptanalysis Tool - 47 attacks with SageMath execution and KaTeX proofs"
@@ -101,31 +126,6 @@ repos:
     stars_fact: 1
     first_seen: null
     last_push: "2026-10-08"
-  - name: "astryx-dracula"
-    title: "astryx-dracula"
-    description: "Pure Dracula brand kit for Astryx sites. Full token system, syntax highlighting, chart colors. Prebuilt CSS, zero runtime cost."
-    language: "TypeScript"
-    topics:
-      - "astryx"
-      - "astryx-design"
-      - "dracula"
-      - "dracula-color-scheme"
-      - "dracula-theme"
-      - "stylex"
-      - "stylex-react"
-      - "stylex-vite"
-      - "stylexjs"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-08"
-  - name: "dotfiles"
-    title: "dotfiles"
-    description: "My dotfiles and config files"
-    language: "Python"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-07"
   - name: "omp-stats-tui"
     title: "omp-stats-tui"
     description: null
@@ -138,6 +138,6 @@ repos:
 
 # yuzu-octopus
 
-168 pushes across 11 repositories on 23 active days in the last 90 days of public GitHub push activity.
+171 pushes across 11 repositories on 23 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/yuzu-octopus

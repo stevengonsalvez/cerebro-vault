@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-22T06:05:29.861706+00:00"
+generated_at: "2026-10-24T06:05:01.431039+00:00"
 provenance:
   - "3c90af76cbde0363"
 pushes_per_week: [4, 0, 1, 0, 0, 0, 1, 0, 2, 1, 0, 0, 1]
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 3
-    distinct_repos: 3
-    active_days: 3
+    pushes: 2
+    distinct_repos: 2
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 3
-    distinct_repos: 3
+    pushes: 2
+    distinct_repos: 2
     pushes_per_repo: 1.0000
-    active_days: 3
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -77,6 +77,14 @@ reasons:
   - "activity: 10 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "y4ho0.github.io"
+    title: "y4ho0.github.io"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-23"
   - name: "assume-zero"
     title: "assume-zero"
     description: "Test finite project commands against controlled machine-environment changes and report evidence-backed hidden assumptions."
@@ -95,14 +103,6 @@ repos:
     stars_fact: 2
     first_seen: null
     last_push: "2026-10-13"
-  - name: "y4ho0.github.io"
-    title: "y4ho0.github.io"
-    description: null
-    language: "Astro"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-09"
   - name: "reprobrief"
     title: "reprobrief"
     description: "Create previewable, privacy-conscious reproduction briefs for bug reports."

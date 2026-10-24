@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-22T06:05:29.861706+00:00"
+generated_at: "2026-10-24T06:05:01.431039+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [20, 10, 15, 5, 8, 7, 0, 1, 7, 8, 0, 6, 1]
+pushes_per_week: [11, 9, 15, 6, 11, 2, 1, 2, 10, 3, 0, 6, 1]
 windows:
   "7d":
     pushes: 1
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 20
+    pushes: 17
     distinct_repos: 3
-    active_days: 10
+    active_days: 9
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 88
+    pushes: 77
     distinct_repos: 6
-    active_days: 33
+    active_days: 31
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.6667
-  repo_per_active_day: 0.1818
+  push_per_day: 2.4839
+  repo_per_active_day: 0.1935
   not_owned_ratio: 0.0000
   basename_concentration: 0.1667
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 20
+    pushes: 17
     distinct_repos: 3
-    pushes_per_repo: 6.6667
-    active_days: 10
+    pushes_per_repo: 5.6667
+    active_days: 9
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 88
+    pushes: 77
     distinct_repos: 6
-    pushes_per_repo: 14.6667
-    active_days: 33
+    pushes_per_repo: 12.8333
+    active_days: 31
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 33 active days in 90d — pass"
+  - "activity: 31 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "nested_learning"
@@ -129,6 +129,6 @@ repos:
 
 # kmccleary3301
 
-88 pushes across 6 repositories on 33 active days in the last 90 days of public GitHub push activity.
+77 pushes across 6 repositories on 31 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/kmccleary3301

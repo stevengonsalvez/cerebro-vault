@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-22T06:05:29.861706+00:00"
+generated_at: "2026-10-24T06:05:01.431039+00:00"
 provenance:
   - "4138778ebbc75ba6"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 1, 3, 1, 7, 3]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 1, 0, 3, 1, 7, 3]
 windows:
   "7d":
     pushes: 3
@@ -79,18 +79,18 @@ reasons:
 repos:
   - name: "blockchain-with-go"
     title: "blockchain-with-go"
-    description: "A custom blockchain implementation in Go."
+    description: "Old personal learning project on blockchain in Go, now a pilot for AI-agent tooling (Paperclip). Recent changes are AI-generated suggestions. Educational only, not production code, unrelated to my employer or clients."
     language: "Go"
     topics:
       - "blockchain"
-      - "crypto"
+      - "educational"
       - "ginkgo"
       - "go"
       - "golang"
       - "gomega"
     stars_fact: 1
     first_seen: null
-    last_push: "2026-10-15"
+    last_push: "2026-10-24"
   - name: "petersonsalme"
     title: "petersonsalme"
     description: null
@@ -98,7 +98,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-14"
+    last_push: "2026-10-19"
   - name: "microservices-for-java-developers"
     title: "microservices-for-java-developers"
     description: "A polyglot microservices ecosystem featuring Spring Boot, Apache Camel, Microprofile, and Node.js to showcase modern backend system design."

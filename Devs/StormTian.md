@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-22T06:05:29.861706+00:00"
+generated_at: "2026-10-24T06:05:01.431039+00:00"
 provenance:
   - "16389f32495280ea"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 2, 2, 1]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 3, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -77,6 +77,22 @@ reasons:
   - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "StormTian"
+    title: "StormTian"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-24"
+  - name: "witcher-quest-atlas"
+    title: "witcher-quest-atlas"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-18"
   - name: "codebase-to-mastery"
     title: "codebase-to-mastery"
     description: "Source-grounded learning from architecture to tracing, rebuilding, verified extension and teach-back. Portable Agent Skill for Codex, Claude Code and other clients."
@@ -85,22 +101,6 @@ repos:
     stars_fact: 1
     first_seen: null
     last_push: "2026-10-02"
-  - name: "StormTian"
-    title: "StormTian"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-09"
-  - name: "witcher-quest-atlas"
-    title: "witcher-quest-atlas"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-07"
   - name: "agent-engineering-book"
     title: "agent-engineering-book"
     description: "中文 Agent 源码教程：十二个开源项目的执行循环、上下文、工具、编排、记忆、恢复与权限拆解，含交互课程和离线下载。"

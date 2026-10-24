@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-22T06:05:29.861706+00:00"
+generated_at: "2026-10-24T06:05:01.431039+00:00"
 provenance:
   - "3eacb4655aba2497"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 3, 3, 3, 8, 0]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 4, 2, 4, 7, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 16
-    distinct_repos: 4
-    active_days: 11
+    pushes: 14
+    distinct_repos: 3
+    active_days: 9
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 16
-    distinct_repos: 4
-    pushes_per_repo: 4.0000
-    active_days: 11
+    pushes: 14
+    distinct_repos: 3
+    pushes_per_repo: 4.6667
+    active_days: 9
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -84,7 +84,7 @@ repos:
     topics: []
     stars_fact: 6
     first_seen: null
-    last_push: "2026-10-14"
+    last_push: "2026-10-23"
   - name: "sf-q3-8flash"
     title: "sf-q3-8flash"
     description: null

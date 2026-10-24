@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-22T06:05:29.861706+00:00"
+generated_at: "2026-10-24T06:05:01.431039+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [31, 5, 2, 3, 8, 14, 6, 38, 63, 36, 135, 224, 19]
+pushes_per_week: [25, 3, 3, 4, 17, 3, 15, 79, 22, 68, 129, 189, 22]
 windows:
   "7d":
-    pushes: 19
-    distinct_repos: 4
-    active_days: 5
+    pushes: 22
+    distinct_repos: 5
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
     pushes: 419
-    distinct_repos: 16
-    active_days: 26
+    distinct_repos: 17
+    active_days: 25
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 584
-    distinct_repos: 21
+    pushes: 579
+    distinct_repos: 22
     active_days: 62
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 9.4194
-  repo_per_active_day: 0.3387
-  not_owned_ratio: 0.0476
-  basename_concentration: 0.0952
+  push_per_day: 9.3387
+  repo_per_active_day: 0.3548
+  not_owned_ratio: 0.0455
+  basename_concentration: 0.0909
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 19
-    distinct_repos: 4
-    pushes_per_repo: 4.7500
-    active_days: 5
+    pushes: 22
+    distinct_repos: 5
+    pushes_per_repo: 4.4000
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
     pushes: 419
-    distinct_repos: 16
-    pushes_per_repo: 26.1875
-    active_days: 26
+    distinct_repos: 17
+    pushes_per_repo: 24.6471
+    active_days: 25
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 584
-    distinct_repos: 21
-    pushes_per_repo: 27.8095
+    pushes: 579
+    distinct_repos: 22
+    pushes_per_repo: 26.3182
     active_days: 62
     repos_not_owned: 1
     not_owned_basenames: 1
@@ -131,6 +131,6 @@ repos:
 
 # stevessr
 
-584 pushes across 21 repositories on 62 active days in the last 90 days of public GitHub push activity.
+579 pushes across 22 repositories on 62 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/stevessr

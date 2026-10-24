@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-22T06:05:29.861706+00:00"
+generated_at: "2026-10-24T06:05:01.431039+00:00"
 provenance:
   - "6eb73169f84ce43f"
-pushes_per_week: [4, 0, 5, 4, 2, 0, 5, 20, 13, 11, 5, 2, 9]
+pushes_per_week: [3, 0, 7, 3, 1, 2, 4, 25, 15, 7, 1, 2, 9]
 windows:
   "7d":
     pushes: 9
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 29
+    pushes: 27
     distinct_repos: 2
-    active_days: 12
+    active_days: 11
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 80
+    pushes: 79
     distinct_repos: 6
-    active_days: 33
+    active_days: 32
     repos_not_owned: 6
     not_owned_basenames: 2
     not_owned_owners: 6
 automation:
   state: "clear"
-  push_per_day: 2.4242
-  repo_per_active_day: 0.1818
+  push_per_day: 2.4688
+  repo_per_active_day: 0.1875
   not_owned_ratio: 1.0000
   basename_concentration: 0.8333
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 29
+    pushes: 27
     distinct_repos: 2
-    pushes_per_repo: 14.5000
-    active_days: 12
+    pushes_per_repo: 13.5000
+    active_days: 11
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 80
+    pushes: 79
     distinct_repos: 6
-    pushes_per_repo: 13.3333
-    active_days: 33
+    pushes_per_repo: 13.1667
+    active_days: 32
     repos_not_owned: 6
     not_owned_basenames: 2
     not_owned_owners: 6
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 33 active days in 90d — pass"
+  - "activity: 32 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "literate-engine"
@@ -97,6 +97,6 @@ repos:
 
 # drew
 
-80 pushes across 6 repositories on 33 active days in the last 90 days of public GitHub push activity.
+79 pushes across 6 repositories on 32 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/drew

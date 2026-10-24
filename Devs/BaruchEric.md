@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-22T06:05:29.861706+00:00"
+generated_at: "2026-10-24T06:05:01.431039+00:00"
 provenance:
   - "745308b2b7085095"
-pushes_per_week: [4, 1, 3, 2, 0, 0, 0, 24, 4, 1, 2, 2, 0]
+pushes_per_week: [2, 1, 5, 0, 0, 0, 0, 28, 0, 1, 3, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 43
-    distinct_repos: 9
-    active_days: 14
+    pushes: 41
+    distinct_repos: 7
+    active_days: 13
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 3.0714
-  repo_per_active_day: 0.6429
+  push_per_day: 3.1538
+  repo_per_active_day: 0.5385
   not_owned_ratio: 0.0000
-  basename_concentration: 0.1111
+  basename_concentration: 0.1429
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 43
-    distinct_repos: 9
-    pushes_per_repo: 4.7778
-    active_days: 14
+    pushes: 41
+    distinct_repos: 7
+    pushes_per_repo: 5.8571
+    active_days: 13
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 14 active days in 90d — pass"
+  - "activity: 13 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "canopy"
@@ -140,6 +140,6 @@ repos:
 
 # BaruchEric
 
-43 pushes across 9 repositories on 14 active days in the last 90 days of public GitHub push activity.
+41 pushes across 7 repositories on 13 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/BaruchEric

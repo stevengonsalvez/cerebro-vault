@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-22T06:05:29.861706+00:00"
+generated_at: "2026-10-24T06:05:01.431039+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [1, 4, 7, 2, 0, 0, 5, 2, 1, 25, 30, 23, 16]
+pushes_per_week: [3, 3, 8, 0, 0, 1, 4, 2, 3, 32, 25, 19, 17]
 windows:
   "7d":
-    pushes: 16
+    pushes: 17
     distinct_repos: 11
     active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 95
+    pushes: 96
     distinct_repos: 26
     active_days: 22
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 116
+    pushes: 117
     distinct_repos: 29
     active_days: 35
     repos_not_owned: 0
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 3.3143
+  push_per_day: 3.3429
   repo_per_active_day: 0.8286
   not_owned_ratio: 0.0000
   basename_concentration: 0.0345
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 16
+    pushes: 17
     distinct_repos: 11
-    pushes_per_repo: 1.4545
+    pushes_per_repo: 1.5455
     active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 95
+    pushes: 96
     distinct_repos: 26
-    pushes_per_repo: 3.6538
+    pushes_per_repo: 3.6923
     active_days: 22
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 116
+    pushes: 117
     distinct_repos: 29
-    pushes_per_repo: 4.0000
+    pushes_per_repo: 4.0345
     active_days: 35
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -138,6 +138,6 @@ repos:
 
 # Minidoracat
 
-116 pushes across 29 repositories on 35 active days in the last 90 days of public GitHub push activity.
+117 pushes across 29 repositories on 35 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Minidoracat

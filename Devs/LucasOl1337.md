@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-22T06:05:29.861706+00:00"
+generated_at: "2026-10-24T06:05:01.431039+00:00"
 provenance:
   - "2a7f0fddd2dac162"
-pushes_per_week: [8, 4, 5, 0, 2, 0, 0, 10, 18, 7, 8, 1, 12]
+pushes_per_week: [6, 4, 5, 1, 1, 0, 4, 7, 19, 11, 2, 1, 13]
 windows:
   "7d":
-    pushes: 12
+    pushes: 13
     distinct_repos: 2
-    active_days: 2
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 43
+    pushes: 32
     distinct_repos: 9
-    active_days: 15
+    active_days: 14
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 75
+    pushes: 74
     distinct_repos: 12
     active_days: 32
     repos_not_owned: 0
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.3438
+  push_per_day: 2.3125
   repo_per_active_day: 0.3750
   not_owned_ratio: 0.0000
   basename_concentration: 0.0833
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 12
+    pushes: 13
     distinct_repos: 2
-    pushes_per_repo: 6.0000
-    active_days: 2
+    pushes_per_repo: 6.5000
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 43
+    pushes: 32
     distinct_repos: 9
-    pushes_per_repo: 4.7778
-    active_days: 15
+    pushes_per_repo: 3.5556
+    active_days: 14
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 75
+    pushes: 74
     distinct_repos: 12
-    pushes_per_repo: 6.2500
+    pushes_per_repo: 6.1667
     active_days: 32
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -84,7 +84,7 @@ repos:
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-10-16"
+    last_push: "2026-10-24"
   - name: "pontape"
     title: "pontape"
     description: "ONG open source: acha quem quer mudar de vida, dá o básico, conecta com trabalho e IA, com transparência ao vivo. (nome provisório)"
@@ -92,7 +92,36 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-15"
+    last_push: "2026-10-23"
+  - name: "omarchy-machines-radar"
+    title: "omarchy-machines-radar"
+    description: "Radar de máquinas (PC, notebook e VPS) na barra do Omarchy: CPU, RAM, disco, containers e avisos por SSH"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-23"
+  - name: "sussurro"
+    title: "sussurro"
+    description: "Local dictation for Windows and Linux: Silero VAD + faster-whisper on CUDA, text typed or pasted where the cursor is. No audio leaves the machine."
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-23"
+  - name: "ponte"
+    title: "ponte"
+    description: "Android touch controls and live monitor views for an Omarchy desktop, over Tailscale. English by default, Portuguese optional."
+    language: "JavaScript"
+    topics:
+      - "android"
+      - "hyprland"
+      - "omarchy"
+      - "remote-control"
+      - "tailscale"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-20"
   - name: "RamDog"
     title: "RamDog"
     description: "Process manager that answers \"who is using my machine?\": apps grouped on one row, PSS memory that adds up, and where each process came from. Built for Omarchy/Hyprland; also Windows and macOS."
@@ -116,40 +145,11 @@ repos:
       - "windows"
     stars_fact: 4
     first_seen: null
-    last_push: "2026-10-14"
-  - name: "sussurro"
-    title: "sussurro"
-    description: "Local dictation for Windows and Linux: Silero VAD + faster-whisper on CUDA, text typed or pasted where the cursor is. No audio leaves the machine."
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-10"
-  - name: "ponte"
-    title: "ponte"
-    description: "Android touch controls and live monitor views for an Omarchy desktop, over Tailscale. English by default, Portuguese optional."
-    language: "JavaScript"
-    topics:
-      - "android"
-      - "hyprland"
-      - "omarchy"
-      - "remote-control"
-      - "tailscale"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-10"
-  - name: "omarchy-device-pulse"
-    title: "omarchy-device-pulse"
-    description: "Bateria e configurações de mouse, teclado e fone na barra do Omarchy. Histórico, alertas, DPI e polling rate nos modelos suportados."
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-07"
+    last_push: "2026-10-18"
 ---
 
 # LucasOl1337
 
-75 pushes across 12 repositories on 32 active days in the last 90 days of public GitHub push activity.
+74 pushes across 12 repositories on 32 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/LucasOl1337

@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-22T06:05:29.861706+00:00"
+generated_at: "2026-10-24T06:05:01.431039+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [9, 1, 4, 0, 5, 4, 5, 4, 20, 14, 29, 4, 5]
+pushes_per_week: [6, 3, 2, 0, 6, 4, 4, 18, 13, 16, 20, 4, 7]
 windows:
   "7d":
-    pushes: 5
-    distinct_repos: 2
-    active_days: 3
-    repos_not_owned: 2
-    not_owned_basenames: 2
-    not_owned_owners: 1
+    pushes: 7
+    distinct_repos: 3
+    active_days: 4
+    repos_not_owned: 3
+    not_owned_basenames: 3
+    not_owned_owners: 2
   "30d":
     pushes: 54
-    distinct_repos: 14
+    distinct_repos: 13
     active_days: 17
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 2
   "90d":
-    pushes: 104
+    pushes: 103
     distinct_repos: 21
-    active_days: 43
+    active_days: 42
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 2.4186
-  repo_per_active_day: 0.4884
+  push_per_day: 2.4524
+  repo_per_active_day: 0.5000
   not_owned_ratio: 0.2381
   basename_concentration: 0.0476
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 5
-    distinct_repos: 2
-    pushes_per_repo: 2.5000
-    active_days: 3
-    repos_not_owned: 2
-    not_owned_basenames: 2
-    not_owned_owners: 1
+    pushes: 7
+    distinct_repos: 3
+    pushes_per_repo: 2.3333
+    active_days: 4
+    repos_not_owned: 3
+    not_owned_basenames: 3
+    not_owned_owners: 2
   "30d":
     pushes: 54
-    distinct_repos: 14
-    pushes_per_repo: 3.8571
+    distinct_repos: 13
+    pushes_per_repo: 4.1538
     active_days: 17
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 2
   "90d":
-    pushes: 104
+    pushes: 103
     distinct_repos: 21
-    pushes_per_repo: 4.9524
-    active_days: 43
+    pushes_per_repo: 4.9048
+    active_days: 42
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 43 active days in 90d — pass"
+  - "activity: 42 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "pagegraph"
@@ -154,6 +154,6 @@ repos:
 
 # aryasaatvik
 
-104 pushes across 21 repositories on 43 active days in the last 90 days of public GitHub push activity.
+103 pushes across 21 repositories on 42 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/aryasaatvik

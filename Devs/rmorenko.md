@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-22T06:05:29.861706+00:00"
+generated_at: "2026-10-24T06:05:01.431039+00:00"
 provenance:
   - "2a7f0fddd2dac162"
-pushes_per_week: [0, 1, 3, 4, 5, 1, 7, 6, 18, 13, 16, 12, 6]
+pushes_per_week: [0, 1, 3, 7, 3, 0, 11, 12, 13, 18, 8, 10, 6]
 windows:
   "7d":
     pushes: 6
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 50
+    pushes: 47
     distinct_repos: 1
-    active_days: 21
+    active_days: 18
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 50
+    pushes: 47
     distinct_repos: 1
-    pushes_per_repo: 50.0000
-    active_days: 21
+    pushes_per_repo: 47.0000
+    active_days: 18
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -84,7 +84,7 @@ repos:
     topics: []
     stars_fact: 2
     first_seen: null
-    last_push: "2026-10-16"
+    last_push: "2026-10-24"
   - name: "thulr"
     title: "thulr"
     description: "A workspace index that answers the questions grep cannot: plain-English search across several repositories, settings traced from config to code across spellings, and definitions traced to the commits that wrote them."
@@ -92,7 +92,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-27"
+    last_push: "2026-10-18"
   - name: "wsindex"
     title: "wsindex"
     description: "WSIndex — a learning-first Python CLI that indexes a developer workspace (code/configs via AST, docs as text) using Tensorus v1 as the vector DB."
@@ -100,7 +100,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-01"
+    last_push: "2026-10-20"
   - name: "holofs"
     title: "holofs"
     description: null

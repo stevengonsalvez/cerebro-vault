@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-22T06:05:29.861706+00:00"
+generated_at: "2026-10-24T06:05:01.431039+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [52, 20, 35, 19, 1, 1, 0, 4, 5, 11, 2, 3, 0]
+pushes_per_week: [46, 15, 38, 7, 1, 1, 2, 3, 5, 11, 1, 3, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 18
-    distinct_repos: 9
-    active_days: 10
+    pushes: 16
+    distinct_repos: 8
+    active_days: 9
     repos_not_owned: 4
     not_owned_basenames: 3
     not_owned_owners: 4
   "90d":
-    pushes: 153
+    pushes: 133
     distinct_repos: 16
-    active_days: 40
+    active_days: 38
     repos_not_owned: 6
     not_owned_basenames: 5
     not_owned_owners: 5
 automation:
   state: "clear"
-  push_per_day: 3.8250
-  repo_per_active_day: 0.4000
+  push_per_day: 3.5000
+  repo_per_active_day: 0.4211
   not_owned_ratio: 0.3750
   basename_concentration: 0.1875
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 18
-    distinct_repos: 9
+    pushes: 16
+    distinct_repos: 8
     pushes_per_repo: 2.0000
-    active_days: 10
+    active_days: 9
     repos_not_owned: 4
     not_owned_basenames: 3
     not_owned_owners: 4
   "90d":
-    pushes: 153
+    pushes: 133
     distinct_repos: 16
-    pushes_per_repo: 9.5625
-    active_days: 40
+    pushes_per_repo: 8.3125
+    active_days: 38
     repos_not_owned: 6
     not_owned_basenames: 5
     not_owned_owners: 5
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 40 active days in 90d — pass"
+  - "activity: 38 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "dsh-auto-continue"
@@ -150,6 +150,6 @@ repos:
 
 # HsiangNianian
 
-153 pushes across 16 repositories on 40 active days in the last 90 days of public GitHub push activity.
+133 pushes across 16 repositories on 38 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/HsiangNianian

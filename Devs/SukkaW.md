@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-22T06:05:29.861706+00:00"
+generated_at: "2026-10-24T06:05:01.431039+00:00"
 provenance:
   - "ef17663e884139a8"
-pushes_per_week: [26, 17, 42, 8, 8, 2, 0, 5, 6, 11, 5, 4, 5]
+pushes_per_week: [27, 20, 38, 7, 5, 0, 2, 5, 7, 12, 2, 3, 5]
 windows:
   "7d":
     pushes: 5
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 27
+    pushes: 25
     distinct_repos: 5
-    active_days: 16
+    active_days: 15
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
   "90d":
-    pushes: 139
+    pushes: 133
     distinct_repos: 33
-    active_days: 54
+    active_days: 52
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 2.5741
-  repo_per_active_day: 0.6111
+  push_per_day: 2.5577
+  repo_per_active_day: 0.6346
   not_owned_ratio: 0.1515
   basename_concentration: 0.0606
   shapes: []
@@ -57,26 +57,42 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 27
+    pushes: 25
     distinct_repos: 5
-    pushes_per_repo: 5.4000
-    active_days: 16
+    pushes_per_repo: 5.0000
+    active_days: 15
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
   "90d":
-    pushes: 139
+    pushes: 133
     distinct_repos: 33
-    pushes_per_repo: 4.2121
-    active_days: 54
+    pushes_per_repo: 4.0303
+    active_days: 52
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 54 active days in 90d — pass"
+  - "activity: 52 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "speed.skk.moe"
+    title: "speed.skk.moe"
+    description: "The source code of the https://speed.skk.moe"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 91
+    first_seen: null
+    last_push: "2026-10-23"
+  - name: "Make-Bilibili-Great-Than-Ever-Before"
+    title: "Make-Bilibili-Great-Than-Ever-Before"
+    description: "A fork of the userscript \"Make Bilibili Great Again\", but with some experimental features"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 770
+    first_seen: null
+    last_push: "2026-10-21"
   - name: "Surge"
     title: "Surge"
     description: "Rule Snippet & Rule Set for Surge / Mihomo (Clash.Meta) / Clash Premium (Dreamacro) / sing-box / Surfboard for Android / Stash"
@@ -96,31 +112,29 @@ repos:
       - "surfboard"
       - "surge"
       - "surge-rules"
-    stars_fact: 4562
+    stars_fact: 4592
     first_seen: null
-    last_push: "2026-10-15"
-  - name: "Make-Bilibili-Great-Than-Ever-Before"
-    title: "Make-Bilibili-Great-Than-Ever-Before"
-    description: "A fork of the userscript \"Make Bilibili Great Again\", but with some experimental features"
-    language: "TypeScript"
+    last_push: "2026-10-23"
+  - name: "speedtest-net-servers"
+    title: "speedtest-net-servers"
+    description: "A list of all known and public Ookla(R) Speedtest(R) servers."
+    language: "HTML"
     topics: []
-    stars_fact: 740
+    stars_fact: 12
     first_seen: null
-    last_push: "2026-10-15"
-  - name: "react-compiler-webpack"
-    title: "react-compiler-webpack"
-    description: "The webpack/rspack loader for React Compiler"
+    last_push: "2026-10-23"
+  - name: "foxts"
+    title: "foxts"
+    description: "Opinionated collection of common JavaScript / TypeScript utils"
     language: "TypeScript"
     topics:
-      - "react"
-      - "react-compiler"
-      - "rspack"
-      - "rspack-loader"
-      - "webpack"
-      - "webpack-loader"
-    stars_fact: 122
+      - "hacktoberfest"
+      - "hacktoberfest-accepted"
+      - "javascript"
+      - "typescript"
+    stars_fact: 24
     first_seen: null
-    last_push: "2026-09-05"
+    last_push: "2026-10-22"
   - name: "location-guard-ng"
     title: "location-guard-ng"
     description: "A UserScript that hide/spoof your geographic location from websites."
@@ -135,35 +149,13 @@ repos:
       - "userscript"
       - "violentmonkey"
       - "violentmonkey-script"
-    stars_fact: 347
+    stars_fact: 350
     first_seen: null
     last_push: "2026-08-26"
-  - name: "fast-escape-regexp"
-    title: "fast-escape-regexp"
-    description: "Fastest, plain JavaScript-based, regexp escaping library for JavaScript, works in both Node.js and browser."
-    language: "TypeScript"
-    topics:
-      - "escape-regexp"
-      - "escape-string-regexp"
-      - "regexp"
-    stars_fact: 45
-    first_seen: null
-    last_push: "2026-09-02"
-  - name: "foxact"
-    title: "foxact"
-    description: "React Hooks/Utils done right. For Browser, SSR, and React Server Components."
-    language: "TypeScript"
-    topics:
-      - "react"
-      - "react-hooks"
-      - "react-server-components"
-    stars_fact: 453
-    first_seen: null
-    last_push: "2026-09-24"
 ---
 
 # SukkaW
 
-139 pushes across 33 repositories on 54 active days in the last 90 days of public GitHub push activity.
+133 pushes across 33 repositories on 52 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/SukkaW

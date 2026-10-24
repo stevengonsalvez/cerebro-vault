@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-22T06:05:29.861706+00:00"
+generated_at: "2026-10-24T06:05:01.431039+00:00"
 provenance:
   - "c60b77ce50fb8910"
-pushes_per_week: [25, 39, 34, 11, 21, 2, 11, 33, 9, 69, 44, 73, 16]
+pushes_per_week: [33, 38, 31, 13, 16, 3, 12, 32, 42, 52, 37, 62, 18]
 windows:
   "7d":
-    pushes: 16
+    pushes: 18
     distinct_repos: 5
-    active_days: 3
+    active_days: 4
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 6
   "90d":
-    pushes: 387
+    pushes: 389
     distinct_repos: 38
-    active_days: 69
+    active_days: 70
     repos_not_owned: 8
     not_owned_basenames: 4
     not_owned_owners: 7
 automation:
   state: "clear"
-  push_per_day: 5.6087
-  repo_per_active_day: 0.5507
+  push_per_day: 5.5571
+  repo_per_active_day: 0.5429
   not_owned_ratio: 0.2105
   basename_concentration: 0.1579
   shapes: []
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 16
+    pushes: 18
     distinct_repos: 5
-    pushes_per_repo: 3.2000
-    active_days: 3
+    pushes_per_repo: 3.6000
+    active_days: 4
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 6
   "90d":
-    pushes: 387
+    pushes: 389
     distinct_repos: 38
-    pushes_per_repo: 10.1842
-    active_days: 69
+    pushes_per_repo: 10.2368
+    active_days: 70
     repos_not_owned: 8
     not_owned_basenames: 4
     not_owned_owners: 7
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 69 active days in 90d — pass"
+  - "activity: 70 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "ruflo"
@@ -187,6 +187,6 @@ repos:
 
 # ruvnet
 
-387 pushes across 38 repositories on 69 active days in the last 90 days of public GitHub push activity.
+389 pushes across 38 repositories on 70 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ruvnet

@@ -10,11 +10,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-22T06:05:29.861706+00:00"
+generated_at: "2026-10-24T06:05:01.431039+00:00"
 provenance:
   - "229b322ed982d40b"
   - "c4281af03270173b"
-pushes_per_week: [12, 13, 3, 1, 0, 0, 0, 1, 8, 9, 22, 0, 2]
+pushes_per_week: [21, 3, 2, 1, 0, 0, 0, 4, 5, 10, 21, 0, 2]
 windows:
   "7d":
     pushes: 2
@@ -24,23 +24,23 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 38
+    pushes: 36
     distinct_repos: 10
-    active_days: 10
+    active_days: 9
     repos_not_owned: 4
     not_owned_basenames: 3
     not_owned_owners: 2
   "90d":
-    pushes: 71
+    pushes: 69
     distinct_repos: 15
-    active_days: 22
+    active_days: 21
     repos_not_owned: 7
     not_owned_basenames: 6
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 3.2273
-  repo_per_active_day: 0.6818
+  push_per_day: 3.2857
+  repo_per_active_day: 0.7143
   not_owned_ratio: 0.4667
   basename_concentration: 0.2000
   shapes: []
@@ -59,24 +59,24 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 38
+    pushes: 36
     distinct_repos: 10
-    pushes_per_repo: 3.8000
-    active_days: 10
+    pushes_per_repo: 3.6000
+    active_days: 9
     repos_not_owned: 4
     not_owned_basenames: 3
     not_owned_owners: 2
   "90d":
-    pushes: 71
+    pushes: 69
     distinct_repos: 15
-    pushes_per_repo: 4.7333
-    active_days: 22
+    pushes_per_repo: 4.6000
+    active_days: 21
     repos_not_owned: 7
     not_owned_basenames: 6
     not_owned_owners: 3
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 22 active days in 90d — pass"
+  - "activity: 21 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "BrainBob"
@@ -138,6 +138,6 @@ repos:
 
 # jerelvelarde
 
-71 pushes across 15 repositories on 22 active days in the last 90 days of public GitHub push activity.
+69 pushes across 15 repositories on 21 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/jerelvelarde

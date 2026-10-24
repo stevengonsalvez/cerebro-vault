@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-22T06:05:29.861706+00:00"
+generated_at: "2026-10-24T06:05:01.431039+00:00"
 provenance:
   - "90688bf127241ceb"
-pushes_per_week: [5, 0, 2, 0, 2, 0, 0, 0, 3, 1, 1, 5, 0]
+pushes_per_week: [5, 0, 2, 0, 2, 0, 0, 0, 3, 1, 2, 4, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 8
+    pushes: 7
     distinct_repos: 1
-    active_days: 6
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 8
+    pushes: 7
     distinct_repos: 1
-    pushes_per_repo: 8.0000
-    active_days: 6
+    pushes_per_repo: 7.0000
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -77,6 +77,14 @@ reasons:
   - "activity: 15 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "nvim"
+    title: "nvim"
+    description: null
+    language: "Lua"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-23"
   - name: "clotho"
     title: "clotho"
     description: "Clotho is a Go swarm orchestration runtime that decomposes complex work into replayable tasks and runs them reliably across agents using NATS JetStream (KV/Streams/ObjectStore)."
@@ -85,14 +93,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-03-06"
-  - name: "nvim"
-    title: "nvim"
-    description: null
-    language: "Lua"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-05-11"
   - name: "clawteam"
     title: "clawteam"
     description: null

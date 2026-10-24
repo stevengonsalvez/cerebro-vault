@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-22T06:05:29.861706+00:00"
+generated_at: "2026-10-24T06:05:01.431039+00:00"
 provenance:
   - "a5ffcd0a46dd44fd"
-pushes_per_week: [1, 7, 11, 5, 7, 2, 3, 15, 16, 11, 5, 12, 2]
+pushes_per_week: [0, 7, 11, 6, 7, 1, 9, 14, 11, 15, 3, 10, 2]
 windows:
   "7d":
     pushes: 2
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 2
   "30d":
-    pushes: 36
-    distinct_repos: 12
-    active_days: 14
-    repos_not_owned: 11
+    pushes: 30
+    distinct_repos: 9
+    active_days: 12
+    repos_not_owned: 8
     not_owned_basenames: 4
-    not_owned_owners: 9
+    not_owned_owners: 6
   "90d":
-    pushes: 97
+    pushes: 96
     distinct_repos: 24
-    active_days: 40
+    active_days: 39
     repos_not_owned: 23
     not_owned_basenames: 10
     not_owned_owners: 15
 automation:
   state: "clear"
-  push_per_day: 2.4250
-  repo_per_active_day: 0.6000
+  push_per_day: 2.4615
+  repo_per_active_day: 0.6154
   not_owned_ratio: 0.9583
   basename_concentration: 0.5833
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 2
   "30d":
-    pushes: 36
-    distinct_repos: 12
-    pushes_per_repo: 3.0000
-    active_days: 14
-    repos_not_owned: 11
+    pushes: 30
+    distinct_repos: 9
+    pushes_per_repo: 3.3333
+    active_days: 12
+    repos_not_owned: 8
     not_owned_basenames: 4
-    not_owned_owners: 9
+    not_owned_owners: 6
   "90d":
-    pushes: 97
+    pushes: 96
     distinct_repos: 24
-    pushes_per_repo: 4.0417
-    active_days: 40
+    pushes_per_repo: 4.0000
+    active_days: 39
     repos_not_owned: 23
     not_owned_basenames: 10
     not_owned_owners: 15
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 40 active days in 90d — pass"
+  - "activity: 39 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "cluster"
@@ -143,6 +143,6 @@ repos:
 
 # mchmarny
 
-97 pushes across 24 repositories on 40 active days in the last 90 days of public GitHub push activity.
+96 pushes across 24 repositories on 39 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/mchmarny

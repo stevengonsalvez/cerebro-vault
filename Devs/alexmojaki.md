@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-22T06:05:29.861706+00:00"
+generated_at: "2026-10-24T06:05:01.431039+00:00"
 provenance:
   - "1be978947e68d1f2"
-pushes_per_week: [33, 1, 2, 5, 1, 0, 0, 0, 0, 1, 2, 1, 6]
+pushes_per_week: [24, 1, 3, 4, 1, 0, 0, 0, 0, 1, 2, 1, 6]
 windows:
   "7d":
     pushes: 6
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 52
+    pushes: 43
     distinct_repos: 6
-    active_days: 14
+    active_days: 13
     repos_not_owned: 5
     not_owned_basenames: 3
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 3.7143
-  repo_per_active_day: 0.4286
+  push_per_day: 3.3077
+  repo_per_active_day: 0.4615
   not_owned_ratio: 0.8333
   basename_concentration: 0.5000
   shapes: []
@@ -65,18 +65,47 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 52
+    pushes: 43
     distinct_repos: 6
-    pushes_per_repo: 8.6667
-    active_days: 14
+    pushes_per_repo: 7.1667
+    active_days: 13
     repos_not_owned: 5
     not_owned_basenames: 3
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 14 active days in 90d — pass"
+  - "activity: 13 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "executing"
+    title: "executing"
+    description: "Get information about what a Python frame is currently doing, particularly the AST node being executed"
+    language: "Python"
+    topics:
+      - "python"
+    stars_fact: 403
+    first_seen: null
+    last_push: "2026-10-23"
+  - name: "futurecoder"
+    title: "futurecoder"
+    description: "100% free and interactive Python course for beginners"
+    language: "Python"
+    topics:
+      - "education"
+      - "learning"
+      - "learning-by-doing"
+      - "python"
+    stars_fact: 1546
+    first_seen: null
+    last_push: "2026-05-09"
+  - name: "stack_data"
+    title: "stack_data"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 51
+    first_seen: null
+    last_push: "2026-10-16"
   - name: "snoop"
     title: "snoop"
     description: "A powerful set of Python debugging tools, based on PySnooper"
@@ -104,18 +133,6 @@ repos:
     stars_fact: 1775
     first_seen: null
     last_push: "2026-01-11"
-  - name: "futurecoder"
-    title: "futurecoder"
-    description: "100% free and interactive Python course for beginners"
-    language: "Python"
-    topics:
-      - "education"
-      - "learning"
-      - "learning-by-doing"
-      - "python"
-    stars_fact: 1545
-    first_seen: null
-    last_push: "2026-05-09"
   - name: "instant_api"
     title: "instant_api"
     description: "Instantly create an HTTP API with automatic type conversions, JSON RPC, and a Swagger UI. Just add methods!"
@@ -131,30 +148,10 @@ repos:
     stars_fact: 133
     first_seen: null
     last_push: "2020-07-02"
-  - name: "executing"
-    title: "executing"
-    description: "Get information about what a Python frame is currently doing, particularly the AST node being executed"
-    language: "Python"
-    topics:
-      - "python"
-    stars_fact: 403
-    first_seen: null
-    last_push: "2026-10-10"
-  - name: "heartrate"
-    title: "heartrate"
-    description: "Simple real time visualisation of the execution of a Python program."
-    language: "Python"
-    topics:
-      - "debugger"
-      - "python"
-      - "visualization"
-    stars_fact: 1843
-    first_seen: null
-    last_push: "2021-11-13"
 ---
 
 # alexmojaki
 
-52 pushes across 6 repositories on 14 active days in the last 90 days of public GitHub push activity.
+43 pushes across 6 repositories on 13 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/alexmojaki

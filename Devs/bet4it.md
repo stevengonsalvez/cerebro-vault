@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-22T06:05:29.861706+00:00"
+generated_at: "2026-10-24T06:05:01.431039+00:00"
 provenance:
   - "4138778ebbc75ba6"
-pushes_per_week: [2, 1, 10, 6, 9, 0, 0, 2, 6, 3, 4, 2, 2]
+pushes_per_week: [2, 5, 10, 2, 9, 0, 0, 5, 3, 5, 2, 2, 2]
 windows:
   "7d":
     pushes: 2
@@ -84,7 +84,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-16"
+    last_push: "2026-10-23"
   - name: "udbserver"
     title: "udbserver"
     description: "Unicorn Emulator Debug Server - Written in Rust, with bindings for C, Go, Java and Python"
@@ -104,7 +104,7 @@ repos:
       - "riscv"
       - "rust-ffi"
       - "x86"
-    stars_fact: 435
+    stars_fact: 436
     first_seen: null
     last_push: "2026-07-27"
   - name: "build-an-efficient-pwn-environment"

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-22T06:05:29.861706+00:00"
+generated_at: "2026-10-24T06:05:01.431039+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [23, 16, 8, 3, 6, 1, 2, 7, 20, 39, 52, 29, 8]
+pushes_per_week: [27, 9, 8, 5, 5, 0, 2, 9, 26, 41, 45, 26, 8]
 windows:
   "7d":
     pushes: 8
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 138
-    distinct_repos: 26
-    active_days: 25
+    pushes: 131
+    distinct_repos: 25
+    active_days: 23
     repos_not_owned: 5
     not_owned_basenames: 2
     not_owned_owners: 5
   "90d":
-    pushes: 214
+    pushes: 211
     distinct_repos: 31
-    active_days: 50
+    active_days: 49
     repos_not_owned: 5
     not_owned_basenames: 2
     not_owned_owners: 5
 automation:
   state: "clear"
-  push_per_day: 4.2800
-  repo_per_active_day: 0.6200
+  push_per_day: 4.3061
+  repo_per_active_day: 0.6327
   not_owned_ratio: 0.1613
   basename_concentration: 0.1613
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 138
-    distinct_repos: 26
-    pushes_per_repo: 5.3077
-    active_days: 25
+    pushes: 131
+    distinct_repos: 25
+    pushes_per_repo: 5.2400
+    active_days: 23
     repos_not_owned: 5
     not_owned_basenames: 2
     not_owned_owners: 5
   "90d":
-    pushes: 214
+    pushes: 211
     distinct_repos: 31
-    pushes_per_repo: 6.9032
-    active_days: 50
+    pushes_per_repo: 6.8065
+    active_days: 49
     repos_not_owned: 5
     not_owned_basenames: 2
     not_owned_owners: 5
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 50 active days in 90d — pass"
+  - "activity: 49 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "pdo_duckdb"
@@ -172,6 +172,6 @@ repos:
 
 # iliaal
 
-214 pushes across 31 repositories on 50 active days in the last 90 days of public GitHub push activity.
+211 pushes across 31 repositories on 49 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/iliaal

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-22T06:05:29.861706+00:00"
+generated_at: "2026-10-24T06:05:01.431039+00:00"
 provenance:
   - "feacb1c4ff8cc40f"
-pushes_per_week: [29, 35, 9, 7, 3, 2, 18, 11, 18, 67, 18, 23, 18]
+pushes_per_week: [23, 28, 11, 4, 4, 1, 18, 21, 30, 47, 18, 20, 18]
 windows:
   "7d":
     pushes: 18
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 128
+    pushes: 127
     distinct_repos: 11
     active_days: 23
     repos_not_owned: 11
     not_owned_basenames: 3
     not_owned_owners: 10
   "90d":
-    pushes: 258
+    pushes: 243
     distinct_repos: 20
-    active_days: 60
+    active_days: 58
     repos_not_owned: 20
     not_owned_basenames: 5
     not_owned_owners: 17
 automation:
   state: "clear"
-  push_per_day: 4.3000
-  repo_per_active_day: 0.3333
+  push_per_day: 4.1897
+  repo_per_active_day: 0.3448
   not_owned_ratio: 1.0000
   basename_concentration: 0.8000
   shapes:
@@ -73,24 +73,24 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 128
+    pushes: 127
     distinct_repos: 11
-    pushes_per_repo: 11.6364
+    pushes_per_repo: 11.5455
     active_days: 23
     repos_not_owned: 11
     not_owned_basenames: 3
     not_owned_owners: 10
   "90d":
-    pushes: 258
+    pushes: 243
     distinct_repos: 20
-    pushes_per_repo: 12.9000
-    active_days: 60
+    pushes_per_repo: 12.1500
+    active_days: 58
     repos_not_owned: 20
     not_owned_basenames: 5
     not_owned_owners: 17
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 60 active days in 90d — pass"
+  - "activity: 58 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "johto-autumn"
@@ -105,6 +105,6 @@ repos:
 
 # f-trycua
 
-258 pushes across 20 repositories on 60 active days in the last 90 days of public GitHub push activity.
+243 pushes across 20 repositories on 58 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/f-trycua

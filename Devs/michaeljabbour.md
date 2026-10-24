@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-22T06:05:29.861706+00:00"
+generated_at: "2026-10-24T06:05:01.431039+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [23, 2, 21, 9, 4, 0, 1, 2, 6, 15, 12, 0, 3]
+pushes_per_week: [14, 2, 28, 3, 3, 0, 1, 4, 11, 10, 10, 0, 3]
 windows:
   "7d":
     pushes: 3
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 98
+    pushes: 89
     distinct_repos: 18
-    active_days: 32
+    active_days: 30
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 3.0625
-  repo_per_active_day: 0.5625
+  push_per_day: 2.9667
+  repo_per_active_day: 0.6000
   not_owned_ratio: 0.0556
   basename_concentration: 0.0556
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 98
+    pushes: 89
     distinct_repos: 18
-    pushes_per_repo: 5.4444
-    active_days: 32
+    pushes_per_repo: 4.9444
+    active_days: 30
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 32 active days in 90d — pass"
+  - "activity: 30 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "amplifier-skill-taste"
@@ -140,6 +140,6 @@ repos:
 
 # michaeljabbour
 
-98 pushes across 18 repositories on 32 active days in the last 90 days of public GitHub push activity.
+89 pushes across 18 repositories on 30 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/michaeljabbour

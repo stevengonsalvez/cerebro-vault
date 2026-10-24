@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-22T06:05:29.861706+00:00"
+generated_at: "2026-10-24T06:05:01.431039+00:00"
 provenance:
   - "57ecd5833b895331"
-pushes_per_week: [23, 3, 0, 0, 2, 3, 4, 4, 25, 25, 49, 13, 3]
+pushes_per_week: [14, 1, 0, 1, 4, 1, 4, 5, 25, 43, 37, 5, 3]
 windows:
   "7d":
     pushes: 3
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 110
-    distinct_repos: 14
-    active_days: 21
+    pushes: 91
+    distinct_repos: 13
+    active_days: 19
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
   "90d":
-    pushes: 154
+    pushes: 143
     distinct_repos: 16
-    active_days: 41
+    active_days: 39
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 3.7561
-  repo_per_active_day: 0.3902
+  push_per_day: 3.6667
+  repo_per_active_day: 0.4103
   not_owned_ratio: 0.1250
   basename_concentration: 0.1875
   shapes: []
@@ -57,29 +57,29 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 110
-    distinct_repos: 14
-    pushes_per_repo: 7.8571
-    active_days: 21
+    pushes: 91
+    distinct_repos: 13
+    pushes_per_repo: 7.0000
+    active_days: 19
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
   "90d":
-    pushes: 154
+    pushes: 143
     distinct_repos: 16
-    pushes_per_repo: 9.6250
-    active_days: 41
+    pushes_per_repo: 8.9375
+    active_days: 39
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 41 active days in 90d — pass"
+  - "activity: 39 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "pstack-claude"
     title: "pstack-claude"
-    description: "Claude Code, Codex, Copilot, Pi, OpenCode, Gemini, and Prime Agent versions of Poteto's pstack. Rigorous agent workflows with Cursor primitives translated for other harnesses."
+    description: "Claude Code, Codex, Copilot, Pi, OpenCode, Muse, Gemini, and Prime Agent versions of Poteto's pstack. Rigorous agent workflows with Cursor primitives translated for other harnesses."
     language: "JavaScript"
     topics:
       - "agent-plugin"
@@ -98,13 +98,13 @@ repos:
       - "codex-plugin"
       - "codex-skills"
       - "coding-agent"
-      - "developer-tools"
       - "gemini-cli"
+      - "muse-plugin"
       - "opencode"
       - "pstack"
-    stars_fact: 2555
+    stars_fact: 3348
     first_seen: "2026-10-05T06:00:40.760152+00:00"
-    last_push: "2026-10-15"
+    last_push: "2026-10-22"
   - name: "agent-formal-verify"
     title: "agent-formal-verify"
     description: "TLA+ model checking and Lean proofs for coding agents, with explicit tool setup."
@@ -118,14 +118,61 @@ repos:
       - "claude-code"
       - "claude-plugin"
       - "codex"
+      - "codex-plugin"
       - "lean"
       - "skills"
       - "tla"
       - "verification"
       - "verify"
-    stars_fact: 11
+    stars_fact: 21
     first_seen: null
-    last_push: "2026-10-15"
+    last_push: "2026-10-22"
+  - name: "fast-beagle-5.5"
+    title: "fast-beagle-5.5"
+    description: "Fast standalone C port of Beagle 5.5 genotype phasing and imputation, byte-identical output to the Java release (27Feb25.75f).."
+    language: "Java"
+    topics:
+      - "beagle"
+      - "bgen"
+      - "bioinformatics"
+      - "genomics"
+      - "imputation"
+      - "phasing"
+      - "vcf"
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-10-22"
+  - name: "memory-mcp"
+    title: "memory-mcp"
+    description: "Engram-inspired memory MCP server with hot cache and pattern mining"
+    language: "Python"
+    topics:
+      - "agent-plugin"
+      - "agent-skills"
+      - "claude-code"
+      - "claude-plugin"
+    stars_fact: 14
+    first_seen: null
+    last_push: "2026-10-14"
+  - name: "black-box-unlock"
+    title: "black-box-unlock"
+    description: "Agentic code forensics and analysis tool - investigate your codebase like a crime scene"
+    language: "Python"
+    topics:
+      - "agent-plugin"
+      - "claude-code"
+      - "claude-plugin"
+      - "clean-code"
+      - "code-forensics"
+      - "code-insights"
+      - "code-review"
+      - "codex-plugin"
+      - "git-analysis"
+      - "hotspots"
+      - "technical-debt"
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-10-23"
   - name: "pyLocusZoom"
     title: "pyLocusZoom"
     description: "pyLocusZoom -- publication-ready GWAS visualization in Python: LocusZoom-style regional association plots with LD coloring, gene tracks and recombination overlays, plus Manhattan, QQ, Miami, eQTL, fine-mapping, PheWAS and forest plots. Dog and cat genomes built in."
@@ -150,43 +197,11 @@ repos:
       - "visualization"
     stars_fact: 2
     first_seen: null
-    last_push: "2026-10-15"
-  - name: "jamma-lean-proofs"
-    title: "jamma-lean-proofs"
-    description: null
-    language: "Lean"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-14"
-  - name: "fast-beagle-5.5"
-    title: "fast-beagle-5.5"
-    description: "Fast standalone C port of Beagle 5.5 genotype phasing and imputation, byte-identical output to the Java release (27Feb25.75f).."
-    language: "Java"
-    topics:
-      - "beagle"
-      - "bgen"
-      - "bioinformatics"
-      - "genomics"
-      - "imputation"
-      - "phasing"
-      - "vcf"
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-10-13"
-  - name: "swift-agent"
-    title: "swift-agent"
-    description: "Claude Code subagent for local ukisai models on Apple Silicon through splash, including Swift 1.5 and Swift Bonsai 2, with an auto-starting server"
-    language: "Python"
-    topics:
-      - "claude-code"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-13"
+    last_push: "2026-10-20"
 ---
 
 # michael-denyer
 
-154 pushes across 16 repositories on 41 active days in the last 90 days of public GitHub push activity.
+143 pushes across 16 repositories on 39 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/michael-denyer

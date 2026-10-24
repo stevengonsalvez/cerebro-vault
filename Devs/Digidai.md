@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-22T06:05:29.861706+00:00"
+generated_at: "2026-10-24T06:05:01.431039+00:00"
 provenance:
   - "3cb7ff1cdcf97c6b"
-pushes_per_week: [3, 0, 4, 2, 0, 0, 0, 4, 3, 5, 5, 0, 0]
+pushes_per_week: [2, 2, 3, 1, 0, 0, 0, 4, 3, 6, 4, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 11
-    distinct_repos: 8
-    active_days: 8
+    pushes: 10
+    distinct_repos: 7
+    active_days: 7
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 26
+    pushes: 25
     distinct_repos: 11
-    active_days: 20
+    active_days: 19
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 1.3000
-  repo_per_active_day: 0.5500
+  push_per_day: 1.3158
+  repo_per_active_day: 0.5789
   not_owned_ratio: 0.1818
   basename_concentration: 0.1818
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 11
-    distinct_repos: 8
-    pushes_per_repo: 1.3750
-    active_days: 8
+    pushes: 10
+    distinct_repos: 7
+    pushes_per_repo: 1.4286
+    active_days: 7
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 26
+    pushes: 25
     distinct_repos: 11
-    pushes_per_repo: 2.3636
-    active_days: 20
+    pushes_per_repo: 2.2727
+    active_days: 19
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 20 active days in 90d — pass"
+  - "activity: 19 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "metix-reports"
@@ -159,6 +159,6 @@ repos:
 
 # Digidai
 
-26 pushes across 11 repositories on 20 active days in the last 90 days of public GitHub push activity.
+25 pushes across 11 repositories on 19 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Digidai

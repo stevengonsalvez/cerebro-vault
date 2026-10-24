@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-22T06:05:29.861706+00:00"
+generated_at: "2026-10-24T06:05:01.431039+00:00"
 provenance:
   - "0b22ca37fd3884c9"
-pushes_per_week: [0, 1, 1, 1, 17, 0, 0, 0, 0, 10, 0, 0, 1]
+pushes_per_week: [0, 2, 0, 4, 14, 0, 0, 0, 10, 0, 0, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -77,6 +77,14 @@ reasons:
   - "activity: 9 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "ExactDraft"
+    title: "ExactDraft"
+    description: "ExactDraft: local-first document hash attestations on Monad testnet"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-21"
   - name: "universal-copy"
     title: "universal-copy"
     description: null
@@ -123,24 +131,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-09-30"
-  - name: "ai-switchboard"
-    title: "ai-switchboard"
-    description: "Local-first Mac AI work switchboard for Headroom, RTK, Codex, Claude Code, MarkItDown, Ponytail, and Repo Intelligence"
-    language: "Rust"
-    topics:
-      - "claude-code"
-      - "codex"
-      - "headroom"
-      - "local-first"
-      - "macos"
-      - "markitdown"
-      - "ponytail"
-      - "repo-intelligence"
-      - "rtk"
-      - "tauri"
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-09-26"
 ---
 
 # tarunag10

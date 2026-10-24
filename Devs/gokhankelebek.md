@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-22T06:05:29.861706+00:00"
+generated_at: "2026-10-24T06:05:01.431039+00:00"
 provenance:
   - "9d67ce648f6a8919"
-pushes_per_week: [1, 0, 2, 0, 0, 0, 0, 0, 7, 10, 2, 2, 1]
+pushes_per_week: [1, 0, 2, 0, 0, 0, 0, 4, 9, 6, 0, 2, 1]
 windows:
   "7d":
     pushes: 1
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 17
+    pushes: 16
     distinct_repos: 4
-    active_days: 10
+    active_days: 9
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 17
+    pushes: 16
     distinct_repos: 4
-    pushes_per_repo: 4.2500
-    active_days: 10
+    pushes_per_repo: 4.0000
+    active_days: 9
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -77,6 +77,22 @@ reasons:
   - "activity: 15 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "woodworks"
+    title: "woodworks"
+    description: null
+    language: "Astro"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-23"
+  - name: "aliendoner"
+    title: "aliendoner"
+    description: "🛸 Alien Döner — space-themed halal Turkish restaurant site. Static, SEO-optimized, multi-page (Astro-free), deployed on Vercel."
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-21"
   - name: "limra-website"
     title: "limra-website"
     description: null
@@ -84,7 +100,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-15"
+    last_push: "2026-10-19"
   - name: "grapher"
     title: "grapher"
     description: "grapher"
@@ -108,23 +124,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-05"
-  - name: "puff2"
-    title: "puff2"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-03"
-  - name: "aliendoner"
-    title: "aliendoner"
-    description: "🛸 Alien Döner — space-themed halal Turkish restaurant site. Static, SEO-optimized, multi-page (Astro-free), deployed on Vercel."
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-26"
+    last_push: "2026-10-23"
 ---
 
 # gokhankelebek

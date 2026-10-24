@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-22T06:05:29.861706+00:00"
+generated_at: "2026-10-24T06:05:01.431039+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [1, 3, 0, 8, 1, 0, 2, 6, 6, 12, 9, 9, 1]
+pushes_per_week: [2, 2, 0, 8, 1, 0, 3, 7, 5, 15, 7, 7, 1]
 windows:
   "7d":
     pushes: 1
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 35
+    pushes: 32
     distinct_repos: 5
-    active_days: 20
+    active_days: 18
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 35
+    pushes: 32
     distinct_repos: 5
-    pushes_per_repo: 7.0000
-    active_days: 20
+    pushes_per_repo: 6.4000
+    active_days: 18
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -77,14 +77,6 @@ reasons:
   - "activity: 32 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "xirang"
-    title: "xirang"
-    description: "轻量、易部署的服务器运维管理平台。"
-    language: "Go"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-10-16"
   - name: "houfeng"
     title: "houfeng"
     description: null
@@ -92,7 +84,15 @@ repos:
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-10-16"
+    last_push: "2026-10-23"
+  - name: "xirang"
+    title: "xirang"
+    description: "轻量、易部署的服务器运维管理平台。"
+    language: "Go"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-10-22"
   - name: "dsh-clinepass"
     title: "dsh-clinepass"
     description: "DeepSeek Harness plugin for ClinePass: models, API key, and usage limits."
@@ -104,7 +104,7 @@ repos:
       - "dsh-plugin"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-03"
+    last_push: "2026-10-19"
   - name: "omp-session-cost"
     title: "omp-session-cost"
     description: null

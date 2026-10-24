@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-22T06:05:29.861706+00:00"
+generated_at: "2026-10-24T06:05:01.431039+00:00"
 provenance:
   - "a5ffcd0a46dd44fd"
 pushes_per_week: [2, 5, 6, 2, 1, 0, 0, 0, 2, 0, 1, 0, 1]
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 4
+    pushes: 2
     distinct_repos: 2
-    active_days: 4
+    active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 4
+    pushes: 2
     distinct_repos: 2
-    pushes_per_repo: 2.0000
-    active_days: 4
+    pushes_per_repo: 1.0000
+    active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -93,9 +93,17 @@ repos:
       - "terminal-graphics"
       - "terminal-ui"
       - "typescript"
-    stars_fact: 2177
+    stars_fact: 2181
     first_seen: null
-    last_push: "2026-10-10"
+    last_push: "2026-10-23"
+  - name: "homebrew-tap"
+    title: "homebrew-tap"
+    description: null
+    language: "Ruby"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-23"
   - name: "supreme-gg-gg"
     title: "supreme-gg-gg"
     description: "Config files for my GitHub profile."
@@ -145,25 +153,6 @@ repos:
     stars_fact: 4
     first_seen: null
     last_push: "2024-10-06"
-  - name: "corpo-lingo"
-    title: "corpo-lingo"
-    description: "Buzzword your way to the top!"
-    language: "JavaScript"
-    topics:
-      - "css"
-      - "employment-opportunities"
-      - "express-js"
-      - "gemini-api"
-      - "html"
-      - "huggingface-transformers"
-      - "javascript"
-      - "llm-inference"
-      - "node-js"
-      - "socket-io"
-      - "websocket"
-    stars_fact: 3
-    first_seen: null
-    last_push: "2024-10-28"
 ---
 
 # supreme-gg-gg

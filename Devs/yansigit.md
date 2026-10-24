@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-22T06:05:29.861706+00:00"
+generated_at: "2026-10-24T06:05:01.431039+00:00"
 provenance:
   - "2a7f0fddd2dac162"
-pushes_per_week: [0, 1, 0, 8, 10, 3, 4, 5, 2, 0, 4, 5, 0]
+pushes_per_week: [0, 1, 5, 5, 11, 1, 6, 4, 0, 0, 4, 5, 0]
 windows:
   "7d":
     pushes: 0
@@ -88,7 +88,15 @@ repos:
       - "spec-driven-development"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-15"
+    last_push: "2026-10-23"
+  - name: "gjc-cursor-sdk"
+    title: "gjc-cursor-sdk"
+    description: "GJC provider adapter using @cursor/sdk, with GJC-owned tool execution."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-21"
   - name: "cmd-gpt"
     title: "cmd-gpt"
     description: "A Tiny AI Terminal Assistant"
@@ -102,7 +110,15 @@ repos:
       - "terminal"
     stars_fact: 1
     first_seen: null
-    last_push: "2025-01-13"
+    last_push: "2026-10-16"
+  - name: "ios-fastlane-ci"
+    title: "ios-fastlane-ci"
+    description: "Reusable iOS CI/CD (GitHub Actions workflow_call + shared fastlane lanes)"
+    language: "Ruby"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-16"
   - name: "tabby-wake-proxy"
     title: "tabby-wake-proxy"
     description: "Rust proxy that wakes tabbyAPI on demand and stops its Docker container after inactivity."
@@ -111,14 +127,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-09-09"
-  - name: "ios-fastlane-ci"
-    title: "ios-fastlane-ci"
-    description: "Reusable iOS CI/CD (GitHub Actions workflow_call + shared fastlane lanes)"
-    language: "Ruby"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-07-22"
   - name: "google-photos-takeout-metadata-resolver"
     title: "google-photos-takeout-metadata-resolver"
     description: "A Go CLI tool that merges separated JSON metadata from Google Photos Takeout exports back into the actual photo/video files as EXIF/XMP tags."
@@ -127,14 +135,6 @@ repos:
     stars_fact: 1
     first_seen: null
     last_push: "2026-03-08"
-  - name: "ModelGarden"
-    title: "ModelGarden"
-    description: "A Swift library and application for running large language models (LLMs) and vision language models (VLMs) locally on Apple devices using MLX"
-    language: "Swift"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-04-09"
 ---
 
 # yansigit

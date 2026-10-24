@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-22T06:05:29.861706+00:00"
+generated_at: "2026-10-24T06:05:01.431039+00:00"
 provenance:
   - "16389f32495280ea"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 2, 1, 3, 7, 2, 0]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 2, 3, 6, 3, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 13
+    pushes: 12
     distinct_repos: 6
-    active_days: 8
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 13
+    pushes: 12
     distinct_repos: 6
-    pushes_per_repo: 2.1667
-    active_days: 8
+    pushes_per_repo: 2.0000
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -84,15 +84,39 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-16"
+    last_push: "2026-10-23"
   - name: "hermes-purge"
     title: "hermes-purge"
     description: "Hermes 指令权威性清洗插件（移植自 dsh-purge）：提示词层 + 行为策略 + 审批默认重写 + 多规则集切换，全部可回滚"
     language: "Python"
     topics: []
-    stars_fact: 6
+    stars_fact: 8
     first_seen: null
     last_push: "2026-09-17"
+  - name: "skin-craft"
+    title: "skin-craft"
+    description: "Agent skill for reference-to-code frontends: AI-generated UI assets, custom themes, real component integration and browser verification."
+    language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-08"
+  - name: "douyin-clone"
+    title: "douyin-clone"
+    description: "FastVideo: 独立实现（clean-room）的抖音风格短视频平台，Web + Windows(Electron) + Android(WebView) 三端，Node 24 零依赖后端"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-18"
+  - name: "theater-personal-archive"
+    title: "theater-personal-archive"
+    description: "Cinematic personal portfolio, Markdown blog and native motion studies"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-19"
   - name: "Theater-ahyeon.github.io"
     title: "Theater-ahyeon.github.io"
     description: null
@@ -100,31 +124,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-11"
-  - name: "latex-resume-template"
-    title: "latex-resume-template"
-    description: "Anonymized editable XeLaTeX resume template"
-    language: "TeX"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-27"
-  - name: "-KnowledgeStage-"
-    title: "-KnowledgeStage-"
-    description: "本项目旨在为高中生和大学生提供一个高效的自学平台，帮助他们在没有传统课堂环境的情况下自主学习并提高学术水平。平台通过整合优质的学习资源、智能推荐、自动答疑、互动交流等功能，支持学生在备考高考、提升学科能力的过程中取得优异成绩。同时，平台通过提供心理调节与学习反馈功能，帮助学生解决备考中的情绪波动和学习焦虑，增强自学过程中的信心与动力。"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-04-11"
-  - name: "skin-craft"
-    title: "skin-craft"
-    description: "Agent skill for reference-to-code frontends: AI-generated UI assets, custom themes, real component integration and browser verification."
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-08"
+    last_push: "2026-10-18"
 ---
 
 # Theater-ahyeon

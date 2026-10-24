@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-22T06:05:29.861706+00:00"
+generated_at: "2026-10-24T06:05:01.431039+00:00"
 provenance:
   - "1be978947e68d1f2"
-pushes_per_week: [27, 15, 61, 70, 43, 7, 19, 29, 50, 17, 18, 35, 6]
+pushes_per_week: [24, 26, 80, 50, 37, 5, 23, 42, 31, 24, 15, 31, 7]
 windows:
   "7d":
-    pushes: 6
+    pushes: 7
     distinct_repos: 1
-    active_days: 1
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 92
+    pushes: 80
     distinct_repos: 1
-    active_days: 19
+    active_days: 18
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 397
+    pushes: 395
     distinct_repos: 2
     active_days: 67
     repos_not_owned: 0
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 5.9254
+  push_per_day: 5.8955
   repo_per_active_day: 0.0299
   not_owned_ratio: 0.0000
   basename_concentration: 0.5000
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 6
+    pushes: 7
     distinct_repos: 1
-    pushes_per_repo: 6.0000
-    active_days: 1
+    pushes_per_repo: 7.0000
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 92
+    pushes: 80
     distinct_repos: 1
-    pushes_per_repo: 92.0000
-    active_days: 19
+    pushes_per_repo: 80.0000
+    active_days: 18
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 397
+    pushes: 395
     distinct_repos: 2
-    pushes_per_repo: 198.5000
+    pushes_per_repo: 197.5000
     active_days: 67
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -102,9 +102,9 @@ repos:
       - "self-hosted"
       - "token-optimization"
       - "yagni"
-    stars_fact: 41
+    stars_fact: 42
     first_seen: null
-    last_push: "2026-10-16"
+    last_push: "2026-10-24"
   - name: "dos-kernel"
     title: "dos-kernel"
     description: "Catch your AI agents when they lie about what they shipped — verifies claims against git instead of believing the agent."
@@ -168,6 +168,6 @@ repos:
 
 # anthony-chaudhary
 
-397 pushes across 2 repositories on 67 active days in the last 90 days of public GitHub push activity.
+395 pushes across 2 repositories on 67 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/anthony-chaudhary

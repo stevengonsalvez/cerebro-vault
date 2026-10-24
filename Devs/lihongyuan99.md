@@ -10,11 +10,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-21T06:05:19.754690+00:00"
+generated_at: "2026-10-24T06:05:01.431039+00:00"
 provenance:
   - "16389f32495280ea"
   - "dffbb846389f9a26"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 1, 12, 6, 6, 4]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 5, 12, 2, 6, 4]
 windows:
   "7d":
     pushes: 4
@@ -24,9 +24,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 29
+    pushes: 28
     distinct_repos: 6
-    active_days: 14
+    active_days: 13
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -59,10 +59,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 29
+    pushes: 28
     distinct_repos: 6
-    pushes_per_repo: 4.8333
-    active_days: 14
+    pushes_per_repo: 4.6667
+    active_days: 13
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -86,7 +86,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-09"
+    last_push: "2026-10-24"
   - name: "intentforge"
     title: "intentforge"
     description: "Reproducible post-training pipeline for agent intent / tool routing on Apple Silicon: 3 public benchmarks, one fixed eval protocol, keyword-router -> TF-IDF -> zero-shot -> LoRA compared on the same machine."

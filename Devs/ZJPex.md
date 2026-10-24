@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-22T06:05:29.861706+00:00"
+generated_at: "2026-10-24T06:05:01.431039+00:00"
 provenance:
   - "16389f32495280ea"
-pushes_per_week: [0, 0, 1, 2, 0, 0, 0, 0, 5, 9, 7, 13, 1]
+pushes_per_week: [0, 0, 2, 1, 0, 0, 0, 3, 2, 11, 9, 9, 1]
 windows:
   "7d":
     pushes: 1
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 32
+    pushes: 31
     distinct_repos: 2
-    active_days: 17
+    active_days: 16
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 32
+    pushes: 31
     distinct_repos: 2
-    pushes_per_repo: 16.0000
-    active_days: 17
+    pushes_per_repo: 15.5000
+    active_days: 16
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -84,7 +84,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-16"
+    last_push: "2026-10-24"
   - name: "llm-wiki-organizer"
     title: "llm-wiki-organizer"
     description: "LLM Wiki 外置 Raw 整理器：内容命名、主题分类与安全迁移"

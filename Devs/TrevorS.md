@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-22T06:05:29.861706+00:00"
+generated_at: "2026-10-24T06:05:01.431039+00:00"
 provenance:
   - "3eacb4655aba2497"
-pushes_per_week: [32, 20, 3, 1, 5, 0, 0, 1, 57, 18, 9, 6, 0]
+pushes_per_week: [42, 10, 4, 1, 4, 0, 0, 27, 36, 18, 4, 6, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 57
+    pushes: 36
     distinct_repos: 3
-    active_days: 14
+    active_days: 12
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 57
+    pushes: 36
     distinct_repos: 3
-    pushes_per_repo: 19.0000
-    active_days: 14
+    pushes_per_repo: 12.0000
+    active_days: 12
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -77,6 +77,14 @@ reasons:
   - "activity: 33 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "gemma-4-abliteration"
+    title: "gemma-4-abliteration"
+    description: "Gemma 4 abliteration research: biprojection + EGA for E2B, E4B, 12B, 26B MoE, 31B"
+    language: "Python"
+    topics: []
+    stars_fact: 142
+    first_seen: null
+    last_push: "2026-06-13"
   - name: "qwen3-tts-rs"
     title: "qwen3-tts-rs"
     description: "Rust implementation of Qwen3-TTS speech synthesis"
@@ -109,14 +117,6 @@ repos:
     stars_fact: 824
     first_seen: null
     last_push: "2026-10-12"
-  - name: "gemma-4-abliteration"
-    title: "gemma-4-abliteration"
-    description: "Gemma 4 abliteration research: biprojection + EGA for E2B, E4B, 12B, 26B MoE, 31B"
-    language: "Python"
-    topics: []
-    stars_fact: 142
-    first_seen: null
-    last_push: "2026-06-13"
   - name: "slurper"
     title: "slurper"
     description: "macOS CLI: YouTube or audio file transcription and vocals/drums/bass/horns/other stems generation"

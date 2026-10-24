@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-22T06:05:29.861706+00:00"
+generated_at: "2026-10-24T06:05:01.431039+00:00"
 provenance:
   - "1320ae46b426dee5"
-pushes_per_week: [6, 3, 11, 2, 0, 0, 0, 0, 0, 1, 0, 0, 6]
+pushes_per_week: [5, 5, 8, 2, 0, 0, 0, 0, 1, 0, 0, 0, 6]
 windows:
   "7d":
     pushes: 6
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 29
+    pushes: 27
     distinct_repos: 6
-    active_days: 17
+    active_days: 15
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.7059
-  repo_per_active_day: 0.3529
+  push_per_day: 1.8000
+  repo_per_active_day: 0.4000
   not_owned_ratio: 0.1667
   basename_concentration: 0.3333
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 29
+    pushes: 27
     distinct_repos: 6
-    pushes_per_repo: 4.8333
-    active_days: 17
+    pushes_per_repo: 4.5000
+    active_days: 15
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 17 active days in 90d — pass"
+  - "activity: 15 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "pxpipe"
@@ -82,9 +82,9 @@ repos:
     description: "cut Claude Code token usage by rendering text context as images"
     language: "TypeScript"
     topics: []
-    stars_fact: 7516
+    stars_fact: 7553
     first_seen: "2026-07-06T06:00:04.675243+00:00"
-    last_push: "2026-10-14"
+    last_push: "2026-10-21"
   - name: "json-literal-types"
     title: "json-literal-types"
     description: "TypeScript library for validating and parsing JSON string literals"
@@ -140,6 +140,6 @@ repos:
 
 # teamchong
 
-29 pushes across 6 repositories on 17 active days in the last 90 days of public GitHub push activity.
+27 pushes across 6 repositories on 15 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/teamchong

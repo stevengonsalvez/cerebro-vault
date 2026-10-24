@@ -10,12 +10,12 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-22T06:05:29.861706+00:00"
+generated_at: "2026-10-24T06:05:01.431039+00:00"
 provenance:
   - "1df6ea1f1256059e"
   - "dae9f02535f7c22f"
   - "edb3a626875732de"
-pushes_per_week: [15, 10, 17, 13, 15, 1, 0, 3, 4, 4, 7, 0, 0]
+pushes_per_week: [19, 6, 22, 7, 11, 1, 0, 6, 1, 6, 5, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -25,23 +25,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 12
-    distinct_repos: 8
-    active_days: 9
+    pushes: 11
+    distinct_repos: 7
+    active_days: 8
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 89
+    pushes: 84
     distinct_repos: 27
-    active_days: 40
+    active_days: 38
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.2250
-  repo_per_active_day: 0.6750
+  push_per_day: 2.2105
+  repo_per_active_day: 0.7105
   not_owned_ratio: 0.0000
   basename_concentration: 0.0370
   shapes: []
@@ -60,24 +60,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 12
-    distinct_repos: 8
-    pushes_per_repo: 1.5000
-    active_days: 9
+    pushes: 11
+    distinct_repos: 7
+    pushes_per_repo: 1.5714
+    active_days: 8
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 89
+    pushes: 84
     distinct_repos: 27
-    pushes_per_repo: 3.2963
-    active_days: 40
+    pushes_per_repo: 3.1111
+    active_days: 38
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 3 vault signal(s) — pass"
-  - "activity: 40 active days in 90d — pass"
+  - "activity: 38 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "santhiprakash"
@@ -129,6 +129,6 @@ repos:
 
 # santhiprakash
 
-89 pushes across 27 repositories on 40 active days in the last 90 days of public GitHub push activity.
+84 pushes across 27 repositories on 38 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/santhiprakash

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-22T06:05:29.861706+00:00"
+generated_at: "2026-10-24T06:05:01.431039+00:00"
 provenance:
   - "541318303a272608"
-pushes_per_week: [18, 12, 22, 3, 2, 0, 2, 1, 0, 3, 11, 2, 0]
+pushes_per_week: [21, 10, 22, 0, 2, 0, 2, 1, 0, 7, 7, 2, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 76
-    distinct_repos: 21
-    active_days: 34
+    pushes: 74
+    distinct_repos: 20
+    active_days: 32
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.2353
-  repo_per_active_day: 0.6176
+  push_per_day: 2.3125
+  repo_per_active_day: 0.6250
   not_owned_ratio: 0.0000
-  basename_concentration: 0.0952
+  basename_concentration: 0.1000
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 76
-    distinct_repos: 21
-    pushes_per_repo: 3.6190
-    active_days: 34
+    pushes: 74
+    distinct_repos: 20
+    pushes_per_repo: 3.7000
+    active_days: 32
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 34 active days in 90d — pass"
+  - "activity: 32 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "Yigtwxx"
@@ -93,35 +93,63 @@ repos:
       - "rag"
     stars_fact: 3
     first_seen: null
-    last_push: "2026-10-16"
-  - name: "awesome-rag-production"
-    title: "awesome-rag-production"
-    description: "A curated list of battle-tested tools, frameworks, and best practices for building scalable, production-grade Retrieval-Augmented Generation (RAG) systems."
+    last_push: "2026-10-24"
+  - name: "Maestro"
+    title: "Maestro"
+    description: "Orchestrate armies of AI agents from a single prompt. Open-core, bring-your-own-key, and self-hostable — Orchestrator routes, specialists execute, a reviewer keeps them honest."
+    language: "Python"
+    topics:
+      - "agent-framework"
+      - "agent-orchestration"
+      - "agentic-ai"
+      - "agentic-workflow"
+      - "ai-agents"
+      - "anthropic"
+      - "byok"
+      - "fastapi"
+      - "gemini"
+      - "llm"
+      - "multi-agent-systems"
+      - "nextjs"
+      - "ollama"
+      - "orchestration"
+      - "python"
+      - "qdrant"
+      - "rag"
+      - "self-hosted"
+      - "typescript"
+      - "websocket"
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-10-21"
+  - name: "OracleX"
+    title: "OracleX"
+    description: "Open-source financial intelligence terminal for equities, Borsa İstanbul and digital assets. Real-time market data, LLM news analysis and a ChromaDB vector memory on a provider-agnostic reasoning layer — local via Ollama or a dozen cloud providers. Next.js 15 and FastAPI."
     language: "Python"
     topics:
       - "ai"
-      - "ai-engineering"
-      - "artificial-intelligence"
-      - "awesome"
-      - "awesome-list"
-      - "curated-list"
-      - "embeddings"
-      - "generative-ai"
-      - "langchain"
-      - "large-language-models"
-      - "list"
+      - "ai-finance"
+      - "chromadb"
+      - "cryptocurrency"
+      - "fastapi"
+      - "financial-analysis"
       - "llm"
-      - "llmops"
-      - "machine-learning"
-      - "mlops"
-      - "production"
+      - "market-data"
+      - "nextjs"
+      - "ollama"
       - "python"
       - "rag"
-      - "retrieval-augmented-generation"
+      - "sentiment-analysis"
+      - "stocks"
+      - "supabase"
+      - "trading"
+      - "tradingview"
+      - "typescript"
       - "vector-database"
-    stars_fact: 281
+      - "websocket"
+    stars_fact: 2
     first_seen: null
-    last_push: "2026-10-15"
+    last_push: "2026-10-20"
   - name: "J.A.R.V.I.S"
     title: "J.A.R.V.I.S"
     description: "J.A.R.V.I.S: An AI-powered Open Source Intelligence (OSINT) system. It orchestrates deep web scraping and local LLMs to autonomously generate comprehensive intelligence dossiers."
@@ -147,29 +175,35 @@ repos:
       - "web-scraping"
     stars_fact: 9
     first_seen: null
-    last_push: "2026-10-15"
-  - name: "aydin-university-map"
-    title: "aydin-university-map"
-    description: "3D map of İstanbul Aydın University's Florya campus, reconstructed from its 360° tour, with shortest walking routes, 360° walkthroughs and an AI assistant."
-    language: "TypeScript"
+    last_push: "2026-10-19"
+  - name: "awesome-rag-production"
+    title: "awesome-rag-production"
+    description: "A curated list of battle-tested tools, frameworks, and best practices for building scalable, production-grade Retrieval-Augmented Generation (RAG) systems."
+    language: "Python"
     topics:
-      - "360-panorama"
-      - "3d-reconstruction"
-      - "campus-map"
-      - "colmap"
-      - "fastapi"
-      - "istanbul"
-      - "nextjs"
-      - "openstreetmap"
-      - "photogrammetry"
+      - "ai"
+      - "ai-engineering"
+      - "artificial-intelligence"
+      - "awesome"
+      - "awesome-list"
+      - "curated-list"
+      - "embeddings"
+      - "generative-ai"
+      - "langchain"
+      - "large-language-models"
+      - "list"
+      - "llm"
+      - "llmops"
+      - "machine-learning"
+      - "mlops"
+      - "production"
+      - "python"
       - "rag"
-      - "react-three-fiber"
-      - "shortest-path"
-      - "structure-from-motion"
-      - "wayfinding"
-    stars_fact: 1
+      - "retrieval-augmented-generation"
+      - "vector-database"
+    stars_fact: 283
     first_seen: null
-    last_push: "2026-10-16"
+    last_push: "2026-10-15"
   - name: "spiyweb"
     title: "spiyweb"
     description: "Graph-based retrieval for RAG — spreading-activation over a multi-layer vector graph, with redundancy-to-vote dedup and honesty outputs"
@@ -182,27 +216,10 @@ repos:
     stars_fact: 2
     first_seen: null
     last_push: "2026-10-04"
-  - name: "WaterPulse"
-    title: "WaterPulse"
-    description: "WaterPulse — A cross-platform hydration tracker with smart reminders, clean UI, and a FastAPI + PostgreSQL backend. Built with Flutter for a fast, smooth mobile experience."
-    language: "Dart"
-    topics:
-      - "app"
-      - "dart"
-      - "fastapi"
-      - "flutter"
-      - "mobile-app"
-      - "postgresql"
-      - "productivity"
-      - "python"
-      - "sqlite"
-    stars_fact: 6
-    first_seen: null
-    last_push: "2025-12-28"
 ---
 
 # Yigtwxx
 
-76 pushes across 21 repositories on 34 active days in the last 90 days of public GitHub push activity.
+74 pushes across 20 repositories on 32 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Yigtwxx

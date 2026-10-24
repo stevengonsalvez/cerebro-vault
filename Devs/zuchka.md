@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-22T06:05:29.861706+00:00"
+generated_at: "2026-10-24T06:05:01.431039+00:00"
 provenance:
   - "745308b2b7085095"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 1, 3, 2, 9, 0]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 3, 1, 5, 6, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 15
+    pushes: 14
     distinct_repos: 5
-    active_days: 10
+    active_days: 9
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 15
+    pushes: 14
     distinct_repos: 5
-    pushes_per_repo: 3.0000
-    active_days: 10
+    pushes_per_repo: 2.8000
+    active_days: 9
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
@@ -84,23 +84,7 @@ repos:
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-10-15"
-  - name: "mars-fan-scout"
-    title: "mars-fan-scout"
-    description: "Roboflow-assisted Mars polar fan discovery, review, and historical dust-direction demo"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-14"
-  - name: "zuchka.dev"
-    title: "zuchka.dev"
-    description: "Personal portfolio and blog at zuchka.dev. Hand-written HTML, no build step."
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-12"
+    last_push: "2026-10-24"
   - name: "remove-markdown"
     title: "remove-markdown"
     description: "Strip Markdown stuff from text"
@@ -109,9 +93,9 @@ repos:
       - "javascript"
       - "markdown"
       - "nodejs"
-    stars_fact: 378
+    stars_fact: 379
     first_seen: null
-    last_push: "2026-10-10"
+    last_push: "2026-10-21"
   - name: "free-design-md"
     title: "free-design-md"
     description: null
@@ -119,15 +103,31 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-10"
-  - name: "mcp-doctor"
-    title: "mcp-doctor"
-    description: "A deterministic quality lab for MCP server interfaces"
-    language: "Python"
+    last_push: "2026-10-21"
+  - name: "dogs-in-the-details"
+    title: "dogs-in-the-details"
+    description: "Find and inspect dogs in paintings with hosted Roboflow RF-DETR, React, and Cloudflare Workers."
+    language: "TypeScript"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-23"
+    last_push: "2026-10-16"
+  - name: "mars-fan-scout"
+    title: "mars-fan-scout"
+    description: "Roboflow-assisted Mars polar fan discovery, review, and historical dust-direction demo"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-23"
+  - name: "zuchka.dev"
+    title: "zuchka.dev"
+    description: "Personal portfolio and blog at zuchka.dev. Hand-written HTML, no build step."
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-12"
 ---
 
 # zuchka

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-22T06:05:29.861706+00:00"
+generated_at: "2026-10-24T06:05:01.431039+00:00"
 provenance:
   - "cf64edd36b9e7709"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 4, 10, 0, 0, 3]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 2, 8, 4, 0, 0, 3]
 windows:
   "7d":
     pushes: 3
@@ -22,7 +22,7 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 15
+    pushes: 14
     distinct_repos: 3
     active_days: 6
     repos_not_owned: 0
@@ -57,9 +57,9 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 15
+    pushes: 14
     distinct_repos: 3
-    pushes_per_repo: 5.0000
+    pushes_per_repo: 4.6667
     active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -77,6 +77,22 @@ reasons:
   - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "pssa-site-v2-draft"
+    title: "pssa-site-v2-draft"
+    description: null
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-24"
+  - name: "pssa-site"
+    title: "pssa-site"
+    description: "PSSA: a plastic state-space architecture. Project page."
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-24"
   - name: "pssa"
     title: "pssa"
     description: "PSSA: a non-transformer language model written from scratch in Rust. Recurrent state-space layer, episodic memory, self-modifying weights, CUDA training, and a full terminal dashboard."
@@ -88,9 +104,9 @@ repos:
       - "rust"
       - "state-space-model"
       - "tui"
-    stars_fact: 115
+    stars_fact: 116
     first_seen: "2026-09-30T06:02:10.916657+00:00"
-    last_push: "2026-10-15"
+    last_push: "2026-10-24"
   - name: "Syl"
     title: "Syl"
     description: "Syl is a compiled systems programming language that uses strict, deterministic English syntax. It maps natural language to a proprietary, memory-safe Base-52 bytecode (Helix IR) before compiling to native C. Zero AI at runtime, zero boilerplate, Rust-level speed."

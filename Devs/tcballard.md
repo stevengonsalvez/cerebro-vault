@@ -10,11 +10,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-22T06:05:29.861706+00:00"
+generated_at: "2026-10-24T06:05:01.431039+00:00"
 provenance:
   - "c954be1eb1223fa4"
   - "eb166180687b6629"
-pushes_per_week: [35, 25, 24, 2, 6, 10, 3, 20, 35, 26, 14, 16, 4]
+pushes_per_week: [29, 27, 16, 2, 5, 11, 4, 26, 34, 21, 13, 15, 4]
 windows:
   "7d":
     pushes: 4
@@ -24,25 +24,25 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 77
-    distinct_repos: 22
-    active_days: 22
+    pushes: 62
+    distinct_repos: 17
+    active_days: 20
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 220
-    distinct_repos: 61
-    active_days: 64
-    repos_not_owned: 14
+    pushes: 207
+    distinct_repos: 60
+    active_days: 62
+    repos_not_owned: 13
     not_owned_basenames: 13
-    not_owned_owners: 3
+    not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 3.4375
-  repo_per_active_day: 0.9531
-  not_owned_ratio: 0.2295
-  basename_concentration: 0.0328
+  push_per_day: 3.3387
+  repo_per_active_day: 0.9677
+  not_owned_ratio: 0.2167
+  basename_concentration: 0.0333
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -59,24 +59,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 77
-    distinct_repos: 22
-    pushes_per_repo: 3.5000
-    active_days: 22
+    pushes: 62
+    distinct_repos: 17
+    pushes_per_repo: 3.6471
+    active_days: 20
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 220
-    distinct_repos: 61
-    pushes_per_repo: 3.6066
-    active_days: 64
-    repos_not_owned: 14
+    pushes: 207
+    distinct_repos: 60
+    pushes_per_repo: 3.4500
+    active_days: 62
+    repos_not_owned: 13
     not_owned_basenames: 13
-    not_owned_owners: 3
+    not_owned_owners: 2
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 64 active days in 90d — pass"
+  - "activity: 62 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "omarchy-theme-tokyo-roadster"
@@ -131,6 +131,6 @@ repos:
 
 # tcballard
 
-220 pushes across 61 repositories on 64 active days in the last 90 days of public GitHub push activity.
+207 pushes across 60 repositories on 62 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/tcballard

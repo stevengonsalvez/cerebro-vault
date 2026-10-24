@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-22T06:05:29.861706+00:00"
+generated_at: "2026-10-24T06:05:01.431039+00:00"
 provenance:
   - "0b22ca37fd3884c9"
-pushes_per_week: [0, 1, 3, 0, 1, 1, 0, 0, 0, 7, 4, 0, 0]
+pushes_per_week: [0, 2, 2, 0, 1, 1, 0, 0, 4, 5, 2, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,6 +77,14 @@ reasons:
   - "activity: 13 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "isomorphic-react-example"
+    title: "isomorphic-react-example"
+    description: "Deprecated! ReactJS + NodeJS ( express ) demo tutorial with video. Universal/Isomorphic JS = Shared JavaScript that runs on both the client & server."
+    language: "JavaScript"
+    topics: []
+    stars_fact: 1667
+    first_seen: null
+    last_push: "2017-10-30"
   - name: "analytics"
     title: "analytics"
     description: "Lightweight analytics abstraction layer for tracking page views, custom events, & identifying visitors"
@@ -88,25 +96,17 @@ repos:
       - "metrics"
       - "telemetry"
       - "wired"
-    stars_fact: 2667
+    stars_fact: 2668
     first_seen: null
     last_push: "2026-06-27"
-  - name: "isomorphic-react-example"
-    title: "isomorphic-react-example"
-    description: "Deprecated! ReactJS + NodeJS ( express ) demo tutorial with video. Universal/Isomorphic JS = Shared JavaScript that runs on both the client & server."
-    language: "JavaScript"
-    topics: []
-    stars_fact: 1668
-    first_seen: null
-    last_push: "2017-10-30"
   - name: "stars"
     title: "stars"
     description: "Automatically indexed GitHub stars"
     language: "JavaScript"
     topics: []
-    stars_fact: 35
+    stars_fact: 37
     first_seen: null
-    last_push: "2026-10-11"
+    last_push: "2026-10-18"
   - name: "configorama"
     title: "configorama"
     description: "⚙️ ${variable} support for config files"

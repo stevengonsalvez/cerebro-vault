@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-22T06:05:29.861706+00:00"
+generated_at: "2026-10-24T06:05:01.431039+00:00"
 provenance:
   - "4138778ebbc75ba6"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 4, 0, 1]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 1, 9, 0, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -77,14 +77,23 @@ reasons:
   - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "golden"
-    title: "golden"
-    description: null
-    language: "MATLAB"
-    topics: []
+  - name: "iceberg-cpp"
+    title: "iceberg-cpp"
+    description: "Iceberg: loudspeaker-based room auralization for auditory research, as a C++ library and a standalone app for macOS, Windows and Linux"
+    language: "C++"
+    topics:
+      - "ambisonics"
+      - "audiological"
+      - "auralization"
+      - "cpp"
+      - "hearing-research"
+      - "iceberg"
+      - "juce"
+      - "room-acoustics"
+      - "vbap"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-09"
+    last_push: "2026-10-21"
   - name: "Iceberg"
     title: "Iceberg"
     description: "This is an example of use to the hybrid auralization method with VBAP and Ambisonics (1st order)"
@@ -95,9 +104,17 @@ repos:
       - "auralization"
       - "iceberg"
       - "vbap"
-    stars_fact: 9
+    stars_fact: 12
     first_seen: null
-    last_push: "2026-09-14"
+    last_push: "2026-10-21"
+  - name: "golden"
+    title: "golden"
+    description: null
+    language: "MATLAB"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-09"
   - name: "renameTagMp3"
     title: "renameTagMp3"
     description: null
@@ -122,14 +139,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-03-11"
-  - name: "rustCraw"
-    title: "rustCraw"
-    description: null
-    language: "Rust"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2024-10-10"
 ---
 
 # aguirreSL

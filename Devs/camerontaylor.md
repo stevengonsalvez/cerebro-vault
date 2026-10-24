@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-22T06:05:29.861706+00:00"
+generated_at: "2026-10-24T06:05:01.431039+00:00"
 provenance:
   - "2a7f0fddd2dac162"
-pushes_per_week: [0, 0, 0, 1, 1, 0, 0, 24, 25, 27, 21, 16, 3]
+pushes_per_week: [0, 0, 0, 1, 1, 0, 1, 28, 37, 21, 12, 14, 3]
 windows:
   "7d":
     pushes: 3
@@ -84,7 +84,15 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-16"
+    last_push: "2026-10-24"
+  - name: "cq-fixtures"
+    title: "cq-fixtures"
+    description: "Scored per-role task suites, fixtures, schemas and eval runner for cq-toolkit (plan §3.2; ws-j). Public MIT from day one."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-18"
   - name: "cq-scratch-v11-adversarial"
     title: "cq-scratch-v11-adversarial"
     description: "Isolated cq-toolkit v1.1 adversarial validation; retain for G2 audit"
@@ -93,14 +101,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-09-30"
-  - name: "cq-fixtures"
-    title: "cq-fixtures"
-    description: "Scored per-role task suites, fixtures, schemas and eval runner for cq-toolkit (plan §3.2; ws-j). Public MIT from day one."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-04"
   - name: "cq-scratch-v11-rs11-trials"
     title: "cq-scratch-v11-rs11-trials"
     description: "RS-11 scratch trials (identity/tokens), run=v11"

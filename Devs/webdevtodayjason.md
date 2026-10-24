@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-22T06:05:29.861706+00:00"
+generated_at: "2026-10-24T06:05:01.431039+00:00"
 provenance:
   - "46f3c1d6124190bd"
-pushes_per_week: [6, 1, 4, 0, 4, 0, 0, 23, 24, 8, 6, 6, 0]
+pushes_per_week: [3, 3, 2, 4, 0, 0, 3, 28, 20, 7, 3, 6, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 6
     not_owned_owners: 2
   "90d":
-    pushes: 82
+    pushes: 79
     distinct_repos: 23
-    active_days: 29
+    active_days: 28
     repos_not_owned: 9
     not_owned_basenames: 9
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 2.8276
-  repo_per_active_day: 0.7931
+  push_per_day: 2.8214
+  repo_per_active_day: 0.8214
   not_owned_ratio: 0.3913
   basename_concentration: 0.0435
   shapes: []
@@ -65,26 +65,44 @@ facets:
     not_owned_basenames: 6
     not_owned_owners: 2
   "90d":
-    pushes: 82
+    pushes: 79
     distinct_repos: 23
-    pushes_per_repo: 3.5652
-    active_days: 29
+    pushes_per_repo: 3.4348
+    active_days: 28
     repos_not_owned: 9
     not_owned_basenames: 9
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 29 active days in 90d — pass"
+  - "activity: 28 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "webdevtodayjason"
-    title: "webdevtodayjason"
-    description: null
-    language: null
+  - name: "titanium-plugins"
+    title: "titanium-plugins"
+    description: "Professional Claude Code plugins with voice-enhanced AI workflows"
+    language: "Python"
+    topics: []
+    stars_fact: 8
+    first_seen: null
+    last_push: "2026-01-31"
+  - name: "tc-Inventory"
+    title: "tc-Inventory"
+    description: "MSP Inventory system"
+    language: "HTML"
+    topics:
+      - "inventory-management"
+      - "msp"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-21"
+  - name: "turn-clock"
+    title: "turn-clock"
+    description: "Hermes plugin: a re-entry brief (elapsed time + behavior cue) when a session resumes after a gap. Silent during a continuous conversation."
+    language: "Python"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-13"
+    last_push: "2026-10-20"
   - name: "mct2032"
     title: "mct2032"
     description: "ESP32 Pen Testing Dev Project"
@@ -94,49 +112,29 @@ repos:
       - "esp32"
       - "penetration-testing"
       - "pentesting"
-    stars_fact: 22
+    stars_fact: 23
     first_seen: null
     last_push: "2025-06-02"
-  - name: "hermes"
-    title: "hermes"
-    description: "Hermes Familiar — ESP32-S3 desk companion, a native Hermes gateway plugin: live agent state, tap-to-approve, desk pings, cron/vitals pages"
-    language: "C"
-    topics: []
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-07-06"
-  - name: "A2AMCP"
-    title: "A2AMCP"
-    description: "A2AMCP is a Agent2Agent MCP communication Server taking the concept from Google's Agent2Agent Protocol (A2A)"
+  - name: "onelane"
+    title: "onelane"
+    description: "Two apps, one Tiiny, no collisions. A cross-process device lock so your second inference waits its turn instead of failing with error 150004. One file, stdlib only."
     language: "Python"
     topics: []
-    stars_fact: 21
-    first_seen: null
-    last_push: "2025-06-09"
-  - name: "tiinyengineer"
-    title: "tiinyengineer"
-    description: "A dependable operations watcher for endpoints, jobs, backups, containers, and devices."
-    language: "Python"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-03"
-  - name: "subctl"
-    title: "subctl"
-    description: "Subscription Central — unified CLI/TUI/dashboard for AI subscriptions you're paying for. Multi-account, rate-limit-aware, tmux team launcher, web dashboard. Phase 1: Anthropic Claude."
-    language: "TypeScript"
-    topics:
-      - "ai-agents"
-      - "ai-cli"
-      - "ai-tools"
-      - "claude-code"
     stars_fact: 4
     first_seen: null
-    last_push: "2026-06-12"
+    last_push: "2026-09-14"
+  - name: "webdevtodayjason"
+    title: "webdevtodayjason"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-13"
 ---
 
 # webdevtodayjason
 
-82 pushes across 23 repositories on 29 active days in the last 90 days of public GitHub push activity.
+79 pushes across 23 repositories on 28 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/webdevtodayjason

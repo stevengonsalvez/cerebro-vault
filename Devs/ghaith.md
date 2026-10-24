@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-22T06:05:29.861706+00:00"
+generated_at: "2026-10-24T06:05:01.431039+00:00"
 provenance:
   - "4a45ac7a449df20e"
 pushes_per_week: [2, 0, 0, 1, 1, 0, 2, 1, 0, 3, 1, 0, 1]
@@ -77,20 +77,20 @@ reasons:
   - "activity: 11 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "zmk-config"
-    title: "zmk-config"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-09"
   - name: "dotfiles"
     title: "dotfiles"
     description: "Dot files on my local Desktop"
     language: "TypeScript"
     topics: []
     stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-23"
+  - name: "zmk-config"
+    title: "zmk-config"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
     first_seen: null
     last_push: "2026-09-09"
   - name: "gcs_characters"

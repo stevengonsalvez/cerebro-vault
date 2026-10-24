@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-22T06:05:29.861706+00:00"
+generated_at: "2026-10-24T06:05:01.431039+00:00"
 provenance:
   - "dae9f02535f7c22f"
 pushes_per_week: [0, 0, 0, 0, 0, 0, 2, 1, 1, 5, 0, 3, 0]
@@ -80,11 +80,27 @@ repos:
   - name: "ODIN-TURBO-PASCAL"
     title: "ODIN-TURBO-PASCAL"
     description: null
-    language: "Rust"
+    language: "Pascal"
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-10-16"
+    last_push: "2026-10-23"
+  - name: "SIMANABOS"
+    title: "SIMANABOS"
+    description: null
+    language: "PHP"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-23"
+  - name: "mDonatur"
+    title: "mDonatur"
+    description: null
+    language: "Dart"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-22"
   - name: "SAKIPRO"
     title: "SAKIPRO"
     description: "SAKIPRO adalah AI CLI Agent untuk Kasubbag Perencanaan OPD yang membantu membaca folder dokumen SAKIP, mengecek indikator, cascading, PK, LKjIP, evidence, lalu menyusun rekomendasi dan laporan perbaikan secara cepat di laptop kantor."
@@ -109,22 +125,6 @@ repos:
     stars_fact: 2
     first_seen: null
     last_push: "2026-07-11"
-  - name: "sikap-360"
-    title: "sikap-360"
-    description: null
-    language: "PHP"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-09"
-  - name: "smart-Humas"
-    title: "smart-Humas"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-11"
 ---
 
 # Syamsuddin

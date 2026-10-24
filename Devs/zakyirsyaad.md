@@ -9,11 +9,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-22T06:05:29.861706+00:00"
+generated_at: "2026-10-24T06:05:01.431039+00:00"
 provenance:
   - "1df6ea1f1256059e"
   - "edb3a626875732de"
-pushes_per_week: [8, 3, 1, 2, 0, 0, 1, 0, 0, 3, 7, 1, 6]
+pushes_per_week: [11, 0, 1, 2, 0, 0, 1, 0, 0, 3, 7, 1, 6]
 windows:
   "7d":
     pushes: 6
@@ -78,6 +78,32 @@ reasons:
   - "activity: 15 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "zorvo"
+    title: "zorvo"
+    description: "A macOS desktop app for the coding agents you already use: Qwen Code, Claude Code and Codex over ACP, and terminal agents like Aider."
+    language: "TypeScript"
+    topics:
+      - "agent-client-protocol"
+      - "claude-code"
+      - "codex"
+      - "coding-agents"
+      - "desktop-app"
+      - "macos"
+      - "qwen-code"
+      - "react"
+      - "rust"
+      - "tauri"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-23"
+  - name: "antigravity-bridge"
+    title: "antigravity-bridge"
+    description: "Universal Multi-Account AI Gateway & Proxy for Google Antigravity (CloudCode) with Zero-Downtime Auto-Failover"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-10-17"
   - name: "uii-skripsi-research"
     title: "uii-skripsi-research"
     description: "Plugin Claude Code untuk skripsi Informatika UII. Memverifikasi sitasi ke Crossref/OpenAlex/DataCite, mencari literatur, mengaudit daftar pustaka, memeriksa kata baku dengan KBBI Edisi IV, dan menjaga konteks antar-sesi."
@@ -94,22 +120,6 @@ repos:
     stars_fact: 2
     first_seen: null
     last_push: "2026-09-07"
-  - name: "antigravity-bridge"
-    title: "antigravity-bridge"
-    description: "Universal Multi-Account AI Gateway & Proxy for Google Antigravity (CloudCode) with Zero-Downtime Auto-Failover"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-10-15"
-  - name: "agent-desktop"
-    title: "agent-desktop"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-14"
   - name: "monagent"
     title: "monagent"
     description: "MetaMask Agent Wallet Plugin for Monad A2A Commerce & Trust (Metropolis Hackathon)"

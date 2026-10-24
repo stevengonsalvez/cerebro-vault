@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-22T06:05:29.861706+00:00"
+generated_at: "2026-10-24T06:05:01.431039+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 11, 8, 0]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 12, 8, 7, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,14 +77,14 @@ reasons:
   - "activity: 11 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "macos-tmux-ime"
-    title: "macos-tmux-ime"
-    description: "macOS에서 한글 입력 중에도 tmux 단축키를 편하게. 별도 상주 앱 없이 prefix를 누르면 영문 입력기로 자동 전환합니다."
-    language: "Python"
+  - name: "homebrew-tap"
+    title: "homebrew-tap"
+    description: "Homebrew formulae by Jang-Ho Hwang"
+    language: "Ruby"
     topics: []
-    stars_fact: 1
+    stars_fact: 0
     first_seen: null
-    last_push: "2026-10-14"
+    last_push: "2026-10-23"
   - name: "portway"
     title: "portway"
     description: "Delta-compressing HTTP proxy for LLM agents: each turn ships only the bytes added since the last request."
@@ -100,9 +100,17 @@ repos:
       - "proxy"
       - "rust"
       - "zstd"
-    stars_fact: 0
+    stars_fact: 1
     first_seen: null
-    last_push: "2026-10-14"
+    last_push: "2026-10-23"
+  - name: "orrery"
+    title: "orrery"
+    description: "서버 없이 브라우저에서 동작하는 사주팔자·자미두수·출생차트 계산기. 십신, 대운, 명반, 사화까지 한 번에."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 156
+    first_seen: null
+    last_push: "2026-09-20"
   - name: "candy"
     title: "candy"
     description: "A native macOS image utility with a fast Rust CLI and a lightweight visual editor."
@@ -118,38 +126,34 @@ repos:
       - "swift"
     stars_fact: 1
     first_seen: null
-    last_push: "2026-10-14"
-  - name: "homebrew-tap"
-    title: "homebrew-tap"
-    description: "Homebrew formulae by Jang-Ho Hwang"
-    language: "Ruby"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-14"
-  - name: "Vimdow"
-    title: "Vimdow"
-    description: "Keyboard-driven window manager for macOS with Vim-style hjkl commands, counts, and undo."
-    language: "Swift"
+    last_push: "2026-10-21"
+  - name: "iotap"
+    title: "iotap"
+    description: "Trace the file and network I/O of chosen processes on macOS and Linux: every read and write with size, latency, and target."
+    language: "Rust"
     topics:
-      - "hjkl"
-      - "keyboard-driven"
+      - "cli"
+      - "ebpf"
+      - "kdebug"
+      - "linux"
       - "macos"
-      - "swift"
-      - "vim"
-      - "window-management"
-      - "window-manager"
-    stars_fact: 25
+      - "network-monitoring"
+      - "rust"
+      - "strace"
+      - "syscalls"
+      - "tracing"
+      - "tui"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-17"
+  - name: "macos-tmux-ime"
+    title: "macos-tmux-ime"
+    description: "macOS에서 한글 입력 중에도 tmux 단축키를 편하게. 별도 상주 앱 없이 prefix를 누르면 영문 입력기로 자동 전환합니다."
+    language: "Python"
+    topics: []
+    stars_fact: 1
     first_seen: null
     last_push: "2026-10-14"
-  - name: "orrery"
-    title: "orrery"
-    description: "서버 없이 브라우저에서 동작하는 사주팔자·자미두수·출생차트 계산기. 십신, 대운, 명반, 사화까지 한 번에."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 157
-    first_seen: null
-    last_push: "2026-09-20"
 ---
 
 # rath

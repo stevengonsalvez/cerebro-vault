@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-22T06:05:29.861706+00:00"
+generated_at: "2026-10-24T06:05:01.431039+00:00"
 provenance:
   - "6d3bd03b49986330"
-pushes_per_week: [0, 2, 0, 0, 0, 0, 0, 4, 7, 7, 3, 10, 11]
+pushes_per_week: [0, 2, 0, 0, 0, 0, 0, 6, 10, 5, 2, 8, 11]
 windows:
   "7d":
     pushes: 11
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 36
+    pushes: 32
     distinct_repos: 2
-    active_days: 15
+    active_days: 14
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 36
+    pushes: 32
     distinct_repos: 2
-    pushes_per_repo: 18.0000
-    active_days: 15
+    pushes_per_repo: 16.0000
+    active_days: 14
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -84,7 +84,7 @@ repos:
     topics: []
     stars_fact: 21
     first_seen: null
-    last_push: "2026-10-16"
+    last_push: "2026-10-24"
   - name: "DropStation"
     title: "DropStation"
     description: "macOS 文件中转站：拖拽文件时晃动鼠标即可暂存，随时拖出"
@@ -92,7 +92,7 @@ repos:
     topics: []
     stars_fact: 10
     first_seen: null
-    last_push: "2026-10-04"
+    last_push: "2026-10-17"
   - name: "latex-ide"
     title: "latex-ide"
     description: "AI-assisted LaTeX writing workbench — compile, literature search, and reviewable-diff AI edits as a Tauri desktop app"

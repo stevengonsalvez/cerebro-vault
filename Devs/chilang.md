@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-22T06:05:29.861706+00:00"
+generated_at: "2026-10-24T06:05:01.431039+00:00"
 provenance:
   - "48dbbdd8fd0d3029"
-pushes_per_week: [2, 22, 3, 0, 0, 0, 0, 0, 5, 13, 43, 0, 8]
+pushes_per_week: [11, 13, 3, 0, 0, 0, 0, 0, 5, 38, 18, 0, 10]
 windows:
   "7d":
-    pushes: 8
-    distinct_repos: 2
-    active_days: 2
-    repos_not_owned: 2
-    not_owned_basenames: 2
-    not_owned_owners: 2
+    pushes: 10
+    distinct_repos: 3
+    active_days: 3
+    repos_not_owned: 3
+    not_owned_basenames: 3
+    not_owned_owners: 3
   "30d":
-    pushes: 69
+    pushes: 66
     distinct_repos: 4
-    active_days: 13
+    active_days: 12
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 3
   "90d":
-    pushes: 96
+    pushes: 98
     distinct_repos: 4
-    active_days: 22
+    active_days: 23
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 4.3636
-  repo_per_active_day: 0.1818
+  push_per_day: 4.2609
+  repo_per_active_day: 0.1739
   not_owned_ratio: 1.0000
   basename_concentration: 0.2500
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 8
-    distinct_repos: 2
-    pushes_per_repo: 4.0000
-    active_days: 2
-    repos_not_owned: 2
-    not_owned_basenames: 2
-    not_owned_owners: 2
+    pushes: 10
+    distinct_repos: 3
+    pushes_per_repo: 3.3333
+    active_days: 3
+    repos_not_owned: 3
+    not_owned_basenames: 3
+    not_owned_owners: 3
   "30d":
-    pushes: 69
+    pushes: 66
     distinct_repos: 4
-    pushes_per_repo: 17.2500
-    active_days: 13
+    pushes_per_repo: 16.5000
+    active_days: 12
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 3
   "90d":
-    pushes: 96
+    pushes: 98
     distinct_repos: 4
-    pushes_per_repo: 24.0000
-    active_days: 22
+    pushes_per_repo: 24.5000
+    active_days: 23
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 22 active days in 90d — pass"
+  - "activity: 23 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "constructpro"
@@ -129,6 +129,6 @@ repos:
 
 # chilang
 
-96 pushes across 4 repositories on 22 active days in the last 90 days of public GitHub push activity.
+98 pushes across 4 repositories on 23 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/chilang

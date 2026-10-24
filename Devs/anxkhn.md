@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-22T06:05:29.861706+00:00"
+generated_at: "2026-10-24T06:05:01.431039+00:00"
 provenance:
   - "e5b23adc376a62a9"
-pushes_per_week: [16, 3, 13, 2, 1, 0, 0, 1, 5, 1, 1, 2, 0]
+pushes_per_week: [17, 2, 13, 2, 1, 0, 0, 6, 0, 2, 0, 2, 0]
 windows:
   "7d":
     pushes: 0
@@ -84,7 +84,15 @@ repos:
     topics: []
     stars_fact: 11
     first_seen: null
-    last_push: "2026-10-16"
+    last_push: "2026-10-24"
+  - name: "httptoolkit-pro-patcher"
+    title: "httptoolkit-pro-patcher"
+    description: "Basic program that patches pro version to HTTP Toolkit"
+    language: null
+    topics: []
+    stars_fact: 37
+    first_seen: null
+    last_push: "2024-03-28"
   - name: "hp1020-driver-mac"
     title: "hp1020-driver-mac"
     description: "Minimal HP LaserJet 1020 driver for modern macOS"
@@ -97,9 +105,37 @@ repos:
       - "macos-sequoia"
       - "printer-driver"
       - "printing"
-    stars_fact: 46
+    stars_fact: 47
     first_seen: null
     last_push: "2026-05-12"
+  - name: "azure-ai-900-exam-prep"
+    title: "azure-ai-900-exam-prep"
+    description: "Notes and previous questions which helped me pass the AI-900 exam on the first attempt, for free. Includes cram and preparation strategies."
+    language: "HTML"
+    topics:
+      - "ai-900-braindumps"
+      - "ai-900-exam-questions"
+      - "ai-900-practice-questions"
+      - "ai-fundamentals"
+      - "azure"
+      - "cram-strategy"
+      - "preparation-guide"
+    stars_fact: 307
+    first_seen: null
+    last_push: "2025-05-31"
+  - name: "bitmoji"
+    title: "bitmoji"
+    description: "A user-friendly web application that simplifies the process of generating and searching Bitmojis and Friendmojis directly from Snapchat servers. Say goodbye to low-quality screenshots and non-transparent backgrounds. Customize, search, and download high-quality Bitmojis effortlessly."
+    language: "HTML"
+    topics:
+      - "bitmoji"
+      - "friendmoji"
+      - "html"
+      - "snapchat"
+      - "webapp"
+    stars_fact: 30
+    first_seen: null
+    last_push: "2024-05-20"
   - name: "LastMinuteNotes"
     title: "LastMinuteNotes"
     description: "Core CS Last Minute Notes for Interviews - CN, DBMS & SQL , OOPS, OS and Interview Questions."
@@ -112,57 +148,9 @@ repos:
       - "object-oriented-programming"
       - "operating-system"
       - "sql"
-    stars_fact: 122
+    stars_fact: 124
     first_seen: null
     last_push: "2025-09-09"
-  - name: "JevPlaysPokemon"
-    title: "JevPlaysPokemon"
-    description: "Jev plays Generation 3 Pokémon via Showdown and a real FireRed ROM."
-    language: "HTML"
-    topics:
-      - "firered"
-      - "mgba"
-      - "pokemon"
-      - "showdown"
-      - "typesafe"
-    stars_fact: 11
-    first_seen: null
-    last_push: "2026-09-18"
-  - name: "cali-display"
-    title: "cali-display"
-    description: "Cali Display, a heavy irregular display face."
-    language: "HTML"
-    topics:
-      - "display-font"
-      - "font"
-      - "opentype"
-      - "otf"
-      - "svg"
-      - "ttf"
-      - "typeface"
-      - "woff2"
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-09-11"
-  - name: "omnigent-zcode"
-    title: "omnigent-zcode"
-    description: "Community ZCode print-mode harness for Omnigent"
-    language: "Python"
-    topics:
-      - "agent-harness"
-      - "ai-agent"
-      - "cli"
-      - "coding-agent"
-      - "community-plugin"
-      - "glm"
-      - "llm"
-      - "omnigent"
-      - "python"
-      - "zai"
-      - "zcode"
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-10-12"
 ---
 
 # anxkhn

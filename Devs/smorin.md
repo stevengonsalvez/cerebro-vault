@@ -9,13 +9,13 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-22T06:05:29.861706+00:00"
+generated_at: "2026-10-24T06:05:01.431039+00:00"
 provenance:
   - "97c4e9cb8b163ddb"
   - "c7515e0fa4368a55"
   - "d3abe74726b22711"
   - "e7c647c4d0689526"
-pushes_per_week: [15, 1, 10, 11, 1, 1, 2, 6, 17, 20, 2, 2, 0]
+pushes_per_week: [8, 3, 9, 11, 0, 1, 3, 12, 16, 16, 0, 2, 0]
 windows:
   "7d":
     pushes: 0
@@ -25,23 +25,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 25
+    pushes: 24
     distinct_repos: 9
-    active_days: 8
+    active_days: 7
     repos_not_owned: 7
     not_owned_basenames: 7
     not_owned_owners: 2
   "90d":
-    pushes: 88
+    pushes: 81
     distinct_repos: 20
-    active_days: 33
+    active_days: 32
     repos_not_owned: 18
     not_owned_basenames: 18
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 2.6667
-  repo_per_active_day: 0.6061
+  push_per_day: 2.5312
+  repo_per_active_day: 0.6250
   not_owned_ratio: 0.9000
   basename_concentration: 0.0500
   shapes: []
@@ -60,24 +60,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 25
+    pushes: 24
     distinct_repos: 9
-    pushes_per_repo: 2.7778
-    active_days: 8
+    pushes_per_repo: 2.6667
+    active_days: 7
     repos_not_owned: 7
     not_owned_basenames: 7
     not_owned_owners: 2
   "90d":
-    pushes: 88
+    pushes: 81
     distinct_repos: 20
-    pushes_per_repo: 4.4000
-    active_days: 33
+    pushes_per_repo: 4.0500
+    active_days: 32
     repos_not_owned: 18
     not_owned_basenames: 18
     not_owned_owners: 2
 reasons:
   - "provenance: 4 vault signal(s) — pass"
-  - "activity: 33 active days in 90d — pass"
+  - "activity: 32 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "ito"
@@ -132,6 +132,6 @@ repos:
 
 # smorin
 
-88 pushes across 20 repositories on 33 active days in the last 90 days of public GitHub push activity.
+81 pushes across 20 repositories on 32 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/smorin

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-22T06:05:29.861706+00:00"
+generated_at: "2026-10-24T06:05:01.431039+00:00"
 provenance:
   - "c1af6b58492f9bf4"
-pushes_per_week: [83, 23, 49, 38, 2, 7, 3, 7, 183, 115, 67, 95, 16]
+pushes_per_week: [83, 4, 81, 6, 8, 1, 3, 75, 169, 67, 69, 87, 16]
 windows:
   "7d":
     pushes: 16
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 4
     not_owned_owners: 1
   "30d":
-    pushes: 324
-    distinct_repos: 17
-    active_days: 20
+    pushes: 293
+    distinct_repos: 16
+    active_days: 17
     repos_not_owned: 14
     not_owned_basenames: 14
     not_owned_owners: 1
   "90d":
-    pushes: 688
+    pushes: 669
     distinct_repos: 28
-    active_days: 53
+    active_days: 52
     repos_not_owned: 18
     not_owned_basenames: 18
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 12.9811
-  repo_per_active_day: 0.5283
+  push_per_day: 12.8654
+  repo_per_active_day: 0.5385
   not_owned_ratio: 0.6429
   basename_concentration: 0.0357
   shapes: []
@@ -57,97 +57,34 @@ facets:
     not_owned_basenames: 4
     not_owned_owners: 1
   "30d":
-    pushes: 324
-    distinct_repos: 17
-    pushes_per_repo: 19.0588
-    active_days: 20
+    pushes: 293
+    distinct_repos: 16
+    pushes_per_repo: 18.3125
+    active_days: 17
     repos_not_owned: 14
     not_owned_basenames: 14
     not_owned_owners: 1
   "90d":
-    pushes: 688
+    pushes: 669
     distinct_repos: 28
-    pushes_per_repo: 24.5714
-    active_days: 53
+    pushes_per_repo: 23.8929
+    active_days: 52
     repos_not_owned: 18
     not_owned_basenames: 18
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 53 active days in 90d — pass"
+  - "activity: 52 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "internet-archiving-talk"
-    title: "internet-archiving-talk"
-    description: "🎭 An introduction to the Internet Archiving ecosystem, tooling, and some of the ethical dilemmas that the community faces."
-    language: "JavaScript"
-    topics:
-      - "archivebox"
-      - "censorship"
-      - "ethics"
-      - "internet-archiving"
-      - "slideshow"
-      - "talks"
-      - "warc"
-      - "web-archiving"
-      - "wget"
-    stars_fact: 59
+  - name: "pirate"
+    title: "pirate"
+    description: "Profile README"
+    language: null
+    topics: []
+    stars_fact: 0
     first_seen: null
-    last_push: "2024-08-15"
-  - name: "wikipedia-mirror"
-    title: "wikipedia-mirror"
-    description: "🌐 Guide and tools to run a full offline mirror of Wikipedia.org with three different approaches: Nginx caching proxy, Kiwix + ZIM dump, and MediaWiki/XOWA + XML dump"
-    language: "PLpgSQL"
-    topics:
-      - "archiving"
-      - "datascience"
-      - "docker"
-      - "docker-compose"
-      - "html"
-      - "internet-archiving"
-      - "kiwix"
-      - "kiwix-offline-wikipedia"
-      - "mediawiki"
-      - "mwdumper"
-      - "nginx"
-      - "openzim"
-      - "wiki"
-      - "wikipedia"
-      - "wikipedia-dump"
-      - "wikipedia-mirror"
-      - "xowa"
-      - "zim"
-    stars_fact: 553
-    first_seen: null
-    last_push: "2025-03-25"
-  - name: "django-concurrency-talk"
-    title: "django-concurrency-talk"
-    description: "🎭 Database Integrity in Django: Safely Handling Critical Data in Distributed Systems"
-    language: "JavaScript"
-    topics:
-      - "ansi"
-      - "banking"
-      - "concurrency"
-      - "database-schema"
-      - "databases"
-      - "distributed-systems"
-      - "django"
-      - "django-channels"
-      - "django-orm"
-      - "immutable"
-      - "lock"
-      - "log-structured"
-      - "money"
-      - "newsql"
-      - "orm"
-      - "pyconco"
-      - "pygotham"
-      - "python"
-      - "sql"
-      - "types"
-    stars_fact: 60
-    first_seen: null
-    last_push: "2024-07-11"
+    last_push: "2026-10-24"
   - name: "wireguard-docs"
     title: "wireguard-docs"
     description: "📖 Unofficial WireGuard Documentation: Setup, Usage, Configuration, and full example setups for VPNs supporting both servers & roaming clients."
@@ -166,9 +103,27 @@ repos:
       - "vpn"
       - "vpn-solution"
       - "wireguard"
-    stars_fact: 5054
+    stars_fact: 5058
     first_seen: null
     last_push: "2026-03-21"
+  - name: "bash-utils"
+    title: "bash-utils"
+    description: "A collection of hand-crafted bash scripts for various common tasks."
+    language: "Shell"
+    topics:
+      - "bash"
+      - "bash-library"
+      - "bash-scripting"
+      - "cloudflare"
+      - "dns"
+      - "dotfiles"
+      - "letsencrypt"
+      - "shell-scripts"
+      - "tools"
+      - "unix"
+    stars_fact: 315
+    first_seen: null
+    last_push: "2026-04-08"
   - name: "zfsify"
     title: "zfsify"
     description: "⚡ Live reformat an Ubuntu VPS's main / disk from ext4 to ZFS, without losing data!"
@@ -185,21 +140,47 @@ repos:
       - "vps"
       - "zfs"
       - "zfsbootmenu"
-    stars_fact: 16
+    stars_fact: 17
     first_seen: null
-    last_push: "2026-10-12"
-  - name: "zervice.stalwart"
-    title: "zervice.stalwart"
-    description: "Self-hosted Stalwart mail stack configuration"
+    last_push: "2026-10-17"
+  - name: "security-growler"
+    title: "security-growler"
+    description: ":satellite: A Mac menubar app that notifies you whenever SSH, VNC, sudo, or other auth events occur."
+    language: "Python"
+    topics:
+      - "alerts"
+      - "ids"
+      - "logfile"
+      - "mac"
+      - "menubar"
+      - "monitoring-tool"
+      - "python"
+      - "security"
+      - "snitch"
+    stars_fact: 873
+    first_seen: null
+    last_push: "2025-12-06"
+  - name: "internet-archiving-talk"
+    title: "internet-archiving-talk"
+    description: "🎭 An introduction to the Internet Archiving ecosystem, tooling, and some of the ethical dilemmas that the community faces."
     language: "JavaScript"
-    topics: []
-    stars_fact: 0
+    topics:
+      - "archivebox"
+      - "censorship"
+      - "ethics"
+      - "internet-archiving"
+      - "slideshow"
+      - "talks"
+      - "warc"
+      - "web-archiving"
+      - "wget"
+    stars_fact: 59
     first_seen: null
-    last_push: "2026-10-11"
+    last_push: "2024-08-15"
 ---
 
 # pirate
 
-688 pushes across 28 repositories on 53 active days in the last 90 days of public GitHub push activity.
+669 pushes across 28 repositories on 52 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/pirate

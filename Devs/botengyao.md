@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-22T06:05:29.861706+00:00"
+generated_at: "2026-10-24T06:05:01.431039+00:00"
 provenance:
   - "a5ffcd0a46dd44fd"
-pushes_per_week: [3, 0, 6, 1, 1, 0, 0, 1, 2, 2, 0, 2, 1]
+pushes_per_week: [2, 2, 5, 0, 1, 0, 0, 2, 2, 1, 0, 2, 1]
 windows:
   "7d":
     pushes: 1
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 6
+    pushes: 5
     distinct_repos: 3
-    active_days: 6
+    active_days: 5
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 19
+    pushes: 18
     distinct_repos: 3
-    active_days: 16
+    active_days: 15
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.1875
-  repo_per_active_day: 0.1875
+  push_per_day: 1.2000
+  repo_per_active_day: 0.2000
   not_owned_ratio: 0.3333
   basename_concentration: 0.6667
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 6
+    pushes: 5
     distinct_repos: 3
-    pushes_per_repo: 2.0000
-    active_days: 6
+    pushes_per_repo: 1.6667
+    active_days: 5
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 19
+    pushes: 18
     distinct_repos: 3
-    pushes_per_repo: 6.3333
-    active_days: 16
+    pushes_per_repo: 6.0000
+    active_days: 15
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 16 active days in 90d — pass"
+  - "activity: 15 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "botengyao.github.io"
@@ -132,6 +132,6 @@ repos:
 
 # botengyao
 
-19 pushes across 3 repositories on 16 active days in the last 90 days of public GitHub push activity.
+18 pushes across 3 repositories on 15 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/botengyao

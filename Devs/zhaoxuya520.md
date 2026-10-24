@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: true
 repos_populated: true
-generated_at: "2026-10-19T06:04:45.439728+00:00"
+generated_at: "2026-10-24T06:05:01.431039+00:00"
 provenance:
   - "0396398dad51ec9d"
-pushes_per_week: [0, 1, 0, 0, 2, 1, 0, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [1, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -82,9 +82,17 @@ repos:
     description: "Reverse Engineering / Authorized Penetration Testing / Security Research Skill Router Pack AI-powered routing + On-demand toolchain bootstrapping + Self-evolving knowledge base Supports Claude Code, Kiro, Cursor, Cline, and other AI coding clients 逆向/渗透/安全技能路由包 - AI 自动路由 + 按需自举工具链 + 自动进化经验库 | 支持 Claude Code / Kiro / Cursor / Cline 等代码 AI 客户端"
     language: "PowerShell"
     topics: []
-    stars_fact: 42223
+    stars_fact: 43168
     first_seen: "2026-08-07T06:00:03.597556+00:00"
     last_push: "2026-09-22"
+  - name: "AI-Fullstack-Delivery-Workflow"
+    title: "AI-Fullstack-Delivery-Workflow"
+    description: "AI 全栈交付工作流总控系统 — 17 个岗位工作流 + 100+ Skills + 自举脚本，AI 读一遍 README 就能自动配置环境并执行完整软件项目交付。覆盖产品/设计/前端/后端/测试/DevOps/SRE/安全/数据/AI集成/逆向渗透。"
+    language: "PowerShell"
+    topics: []
+    stars_fact: 53
+    first_seen: null
+    last_push: "2026-05-19"
   - name: "MeshLAN"
     title: "MeshLAN"
     description: "Self-hosted P2P-first virtual LAN, service sharing, multi-relay and AI automation built on Nebula."
@@ -100,17 +108,9 @@ repos:
       - "virtual-lan"
       - "vpn"
       - "windows"
-    stars_fact: 229
+    stars_fact: 235
     first_seen: null
     last_push: "2026-08-30"
-  - name: "AI-Fullstack-Delivery-Workflow"
-    title: "AI-Fullstack-Delivery-Workflow"
-    description: "AI 全栈交付工作流总控系统 — 17 个岗位工作流 + 100+ Skills + 自举脚本，AI 读一遍 README 就能自动配置环境并执行完整软件项目交付。覆盖产品/设计/前端/后端/测试/DevOps/SRE/安全/数据/AI集成/逆向渗透。"
-    language: "PowerShell"
-    topics: []
-    stars_fact: 54
-    first_seen: null
-    last_push: "2026-05-19"
   - name: "kernary-code"
     title: "kernary-code"
     description: "Terminal-native multi-agent AI coding harness in Rust"
@@ -122,7 +122,7 @@ repos:
       - "mcp"
       - "multi-agent"
       - "rust"
-    stars_fact: 5
+    stars_fact: 6
     first_seen: null
     last_push: "2026-08-30"
   - name: "Claude-Desktop-Chinese-patched"

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-22T06:05:29.861706+00:00"
+generated_at: "2026-10-24T06:05:01.431039+00:00"
 provenance:
   - "c489e6fb5febf2ab"
-pushes_per_week: [9, 1, 14, 8, 2, 0, 1, 1, 6, 8, 15, 2, 1]
+pushes_per_week: [9, 2, 20, 3, 0, 0, 1, 4, 4, 12, 10, 2, 1]
 windows:
   "7d":
     pushes: 1
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 28
+    pushes: 26
     distinct_repos: 8
-    active_days: 11
+    active_days: 9
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 28
+    pushes: 26
     distinct_repos: 8
-    pushes_per_repo: 3.5000
-    active_days: 11
+    pushes_per_repo: 3.2500
+    active_days: 9
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -84,7 +84,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-16"
+    last_push: "2026-10-24"
   - name: "atri-signin"
     title: "atri-signin"
     description: "免费b站/网易云会员签到网站自动签到"

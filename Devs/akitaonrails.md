@@ -10,10 +10,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-22T06:05:29.861706+00:00"
+generated_at: "2026-10-24T06:05:01.431039+00:00"
 provenance:
   - "4138778ebbc75ba6"
-pushes_per_week: [37, 10, 11, 15, 9, 1, 9, 12, 38, 31, 9, 42, 17]
+pushes_per_week: [37, 6, 15, 9, 8, 4, 10, 24, 30, 26, 15, 33, 17]
 windows:
   "7d":
     pushes: 17
@@ -23,23 +23,23 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 3
   "30d":
-    pushes: 110
-    distinct_repos: 29
-    active_days: 25
+    pushes: 101
+    distinct_repos: 27
+    active_days: 23
     repos_not_owned: 7
     not_owned_basenames: 2
     not_owned_owners: 7
   "90d":
-    pushes: 241
+    pushes: 234
     distinct_repos: 39
-    active_days: 63
+    active_days: 62
     repos_not_owned: 13
     not_owned_basenames: 2
     not_owned_owners: 13
 automation:
   state: "clear"
-  push_per_day: 3.8254
-  repo_per_active_day: 0.6190
+  push_per_day: 3.7742
+  repo_per_active_day: 0.6290
   not_owned_ratio: 0.3333
   basename_concentration: 0.2821
   shapes: []
@@ -58,24 +58,24 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 3
   "30d":
-    pushes: 110
-    distinct_repos: 29
-    pushes_per_repo: 3.7931
-    active_days: 25
+    pushes: 101
+    distinct_repos: 27
+    pushes_per_repo: 3.7407
+    active_days: 23
     repos_not_owned: 7
     not_owned_basenames: 2
     not_owned_owners: 7
   "90d":
-    pushes: 241
+    pushes: 234
     distinct_repos: 39
-    pushes_per_repo: 6.1795
-    active_days: 63
+    pushes_per_repo: 6.0000
+    active_days: 62
     repos_not_owned: 13
     not_owned_basenames: 2
     not_owned_owners: 13
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 63 active days in 90d — pass"
+  - "activity: 62 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "ai-memory"
@@ -130,6 +130,6 @@ repos:
 
 # akitaonrails
 
-241 pushes across 39 repositories on 63 active days in the last 90 days of public GitHub push activity.
+234 pushes across 39 repositories on 62 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/akitaonrails

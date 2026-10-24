@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-20T06:04:57.914428+00:00"
+generated_at: "2026-10-24T06:05:01.431039+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [0, 1, 4, 5, 0, 0, 0, 1, 0, 0, 2, 3, 0]
+pushes_per_week: [0, 1, 6, 3, 0, 0, 0, 1, 0, 0, 2, 3, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,54 +77,54 @@ reasons:
   - "activity: 11 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "astrbot_plugin_relationship"
+    title: "astrbot_plugin_relationship"
+    description: "[仅aiocqhttp] bot人际关系管理器！包括查看好友列表、查看群列表、审批好友申请、审批群邀请、删好友、退群"
+    language: "Python"
+    topics: []
+    stars_fact: 58
+    first_seen: null
+    last_push: "2026-10-06"
   - name: "astrbot_plugin_router"
     title: "astrbot_plugin_router"
     description: "将不同用户路由到不同模型，闲聊者用反应快的模型，开发者用干活强的模型"
     language: "Python"
     topics: []
-    stars_fact: 1
+    stars_fact: 2
     first_seen: null
-    last_push: "2026-10-16"
-  - name: "astrbot_plugin_afdian"
-    title: "astrbot_plugin_afdian"
-    description: "爱发电对接插件，接受用户打赏，实时推送订单情况"
+    last_push: "2026-10-17"
+  - name: "astrbot_plugin_outputpro"
+    title: "astrbot_plugin_outputpro"
+    description: "Astrbot输出管道：图片外显 → 报错处理 → 消息拦截 → 解析艾特 → 文本清洗 → 文本替换 → 错字模拟 → 文转语音 → 文转图片 → 智能引用 → 合并转发 → 自动撤回 → 分段回复"
     language: "Python"
     topics: []
-    stars_fact: 10
+    stars_fact: 81
     first_seen: null
-    last_push: "2026-10-09"
-  - name: "astrbot_plugin_music"
-    title: "astrbot_plugin_music"
-    description: "高内聚、低耦合、可扩展的点歌插件"
+    last_push: "2026-10-23"
+  - name: "astrbot_plugin_qzone"
+    title: "astrbot_plugin_qzone"
+    description: "QQ空间对接插件, 可自动发说说、表白墙投稿审核、查看说说、点赞、评论等"
     language: "Python"
     topics: []
-    stars_fact: 221
+    stars_fact: 173
     first_seen: null
-    last_push: "2026-10-10"
-  - name: "astrbot_plugin_zhalslar"
-    title: "astrbot_plugin_zhalslar"
-    description: "Zhalslar插件整合包，四十几个插件一键安装，统一管理，相互配合无冲突"
+    last_push: "2026-10-23"
+  - name: "astrbot_plugin_worldbook"
+    title: "astrbot_plugin_worldbook"
+    description: "基于正则触发的 system_prompt 注入插件，用于构建和管理 AI 的世界书规则"
     language: "Python"
     topics: []
-    stars_fact: 6
+    stars_fact: 63
     first_seen: null
-    last_push: "2026-10-15"
-  - name: "astrbot_plugin_apis"
-    title: "astrbot_plugin_apis"
-    description: "API聚合插件，海量免费API动态添加，热门API：看看腿、看看腹肌..."
-    language: "JavaScript"
-    topics: []
-    stars_fact: 277
-    first_seen: null
-    last_push: "2026-08-22"
-  - name: "astrbot_plugin_qqadmin"
-    title: "astrbot_plugin_qqadmin"
-    description: "[仅aiocqhttp]群管插件，功能包括：禁言、全体禁言、踢人、拉黑、改群昵称、改头衔、设管理员、设精华、撤回消息、改群头像、改群名、发群公告、整理群友信息、宵禁、违禁词等等"
+    last_push: "2026-10-19"
+  - name: "astrbot_plugin_lmarena"
+    title: "astrbot_plugin_lmarena"
+    description: "对接lmarena将图片手办化（支持nano_banana模型）"
     language: "Python"
     topics: []
-    stars_fact: 179
+    stars_fact: 165
     first_seen: null
-    last_push: "2026-10-15"
+    last_push: "2025-12-19"
 ---
 
 # Zhalslar

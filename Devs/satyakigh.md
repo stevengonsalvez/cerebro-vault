@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-22T06:05:29.861706+00:00"
+generated_at: "2026-10-24T06:05:01.431039+00:00"
 provenance:
   - "a50b0e08dbaee74a"
-pushes_per_week: [10, 3, 13, 8, 3, 1, 2, 5, 4, 0, 2, 1, 0]
+pushes_per_week: [9, 5, 15, 4, 4, 0, 3, 5, 3, 0, 2, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 4
+    pushes: 3
     distinct_repos: 3
-    active_days: 4
+    active_days: 3
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 52
+    pushes: 51
     distinct_repos: 7
-    active_days: 30
+    active_days: 29
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.7333
-  repo_per_active_day: 0.2333
+  push_per_day: 1.7586
+  repo_per_active_day: 0.2414
   not_owned_ratio: 0.2857
   basename_concentration: 0.1429
   shapes: []
@@ -57,30 +57,30 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 4
+    pushes: 3
     distinct_repos: 3
-    pushes_per_repo: 1.3333
-    active_days: 4
+    pushes_per_repo: 1.0000
+    active_days: 3
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 52
+    pushes: 51
     distinct_repos: 7
-    pushes_per_repo: 7.4286
-    active_days: 30
+    pushes_per_repo: 7.2857
+    active_days: 29
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 30 active days in 90d — pass"
+  - "activity: 29 active days in 90d — pass"
   - "automation: clear — pass"
 repos: []
 ---
 
 # satyakigh
 
-52 pushes across 7 repositories on 30 active days in the last 90 days of public GitHub push activity.
+51 pushes across 7 repositories on 29 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/satyakigh

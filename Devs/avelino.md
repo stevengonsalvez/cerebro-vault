@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-22T06:05:29.861706+00:00"
+generated_at: "2026-10-24T06:05:01.431039+00:00"
 provenance:
   - "4138778ebbc75ba6"
-pushes_per_week: [2, 1, 2, 1, 2, 0, 0, 1, 0, 0, 4, 12, 7]
+pushes_per_week: [2, 2, 1, 2, 1, 0, 1, 0, 0, 2, 2, 12, 7]
 windows:
   "7d":
     pushes: 7
@@ -88,9 +88,9 @@ repos:
       - "golang"
       - "golang-library"
       - "hacktoberfest"
-    stars_fact: 188665
+    stars_fact: 190030
     first_seen: null
-    last_push: "2026-10-15"
+    last_push: "2026-10-23"
   - name: "avelino.run"
     title: "avelino.run"
     description: "My personal blog"
@@ -101,7 +101,15 @@ repos:
       - "personal-website"
     stars_fact: 18
     first_seen: null
-    last_push: "2026-10-16"
+    last_push: "2026-10-23"
+  - name: "dotagent"
+    title: "dotagent"
+    description: "Polyglot agent orchestrator. Write your agent in any language, handles scheduling, heartbeats, retries, timeouts, health, and notifications"
+    language: "Rust"
+    topics: []
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-10-23"
   - name: "mcp"
     title: "mcp"
     description: "CLI that turns MCP servers into terminal commands, single binary"
@@ -110,9 +118,9 @@ repos:
       - "cli"
       - "mcp"
       - "mcp-server"
-    stars_fact: 68
+    stars_fact: 71
     first_seen: null
-    last_push: "2026-10-15"
+    last_push: "2026-10-21"
   - name: "chrondb"
     title: "chrondb"
     description: "Chronological key/value Database built on Git architecture with complete version history"
@@ -120,28 +128,21 @@ repos:
     topics: []
     stars_fact: 98
     first_seen: null
-    last_push: "2026-10-14"
-  - name: "mads"
-    title: "mads"
-    description: "Describe your business in a TOML file. mads asks an LLM to plan the account and build the campaigns, checks every limit Google enforces, and writes the CSV files you upload in Google Ads."
-    language: "Rust"
+    last_push: "2026-10-22"
+  - name: "airtraffic"
+    title: "airtraffic"
+    description: "Automatic URL routing for Firefox containers and Chrome tab groups. Define URL patterns, assign them to a destination, and tabs land in the right place automatically"
+    language: "TypeScript"
     topics:
-      - "ad-management"
-      - "ad-manager"
-      - "ads"
-      - "campaign-management"
-      - "google-ads"
-    stars_fact: 1
+      - "chrome"
+      - "chrome-extension"
+      - "chromium"
+      - "firefox"
+      - "firefox-addon"
+      - "zen-browser"
+    stars_fact: 20
     first_seen: null
-    last_push: "2026-10-15"
-  - name: "roam-tui"
-    title: "roam-tui"
-    description: "Roam Research TUI: client for terminal, cli and rust sdk"
-    language: "Rust"
-    topics: []
-    stars_fact: 22
-    first_seen: null
-    last_push: "2026-10-15"
+    last_push: "2026-10-22"
 ---
 
 # avelino

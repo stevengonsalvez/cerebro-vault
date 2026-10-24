@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-22T06:05:29.861706+00:00"
+generated_at: "2026-10-24T06:05:01.431039+00:00"
 provenance:
   - "a5ffcd0a46dd44fd"
-pushes_per_week: [3, 3, 0, 3, 2, 1, 0, 0, 0, 0, 4, 2, 1]
+pushes_per_week: [4, 2, 1, 3, 1, 1, 0, 0, 0, 0, 4, 2, 1]
 windows:
   "7d":
     pushes: 1
@@ -82,9 +82,9 @@ repos:
     description: "A Makefile/Dockerfile example for Go projects."
     language: "Makefile"
     topics: []
-    stars_fact: 3332
+    stars_fact: 3334
     first_seen: null
-    last_push: "2026-09-25"
+    last_push: "2026-10-20"
   - name: "dotfiles"
     title: "dotfiles"
     description: "My dotfiles"
@@ -92,15 +92,7 @@ repos:
     topics: []
     stars_fact: 12
     first_seen: null
-    last_push: "2026-10-14"
-  - name: "go-vanity-import"
-    title: "go-vanity-import"
-    description: null
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-07"
+    last_push: "2026-10-17"
   - name: "exploding-clusters-online"
     title: "exploding-clusters-online"
     description: "exploding-clusters-online"
@@ -125,6 +117,14 @@ repos:
     stars_fact: 4
     first_seen: null
     last_push: "2023-07-25"
+  - name: "micro-demos"
+    title: "micro-demos"
+    description: "Scripted automation for live CLI demos"
+    language: "Shell"
+    topics: []
+    stars_fact: 191
+    first_seen: null
+    last_push: "2024-08-01"
 ---
 
 # thockin

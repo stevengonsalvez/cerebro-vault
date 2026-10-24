@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-22T06:05:29.861706+00:00"
+generated_at: "2026-10-24T06:05:01.431039+00:00"
 provenance:
   - "9ee133e6f5024f08"
-pushes_per_week: [2, 2, 0, 0, 0, 0, 0, 0, 9, 1, 2, 0, 3]
+pushes_per_week: [2, 2, 0, 0, 0, 0, 0, 7, 2, 2, 1, 0, 3]
 windows:
   "7d":
     pushes: 3
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 8
+    pushes: 7
     distinct_repos: 4
-    active_days: 6
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 8
+    pushes: 7
     distinct_repos: 4
-    pushes_per_repo: 2.0000
-    active_days: 6
+    pushes_per_repo: 1.7500
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -84,23 +84,7 @@ repos:
     topics: []
     stars_fact: 2
     first_seen: null
-    last_push: "2026-10-16"
-  - name: "ninjahawk.github.io"
-    title: "ninjahawk.github.io"
-    description: null
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-16"
-  - name: "livenerf"
-    title: "livenerf"
-    description: "Benchmark for tracking model capability after release."
-    language: "Python"
-    topics: []
-    stars_fact: 1507
-    first_seen: "2026-09-30T06:02:10.916514+00:00"
-    last_push: "2026-10-16"
+    last_push: "2026-10-24"
   - name: "crypto"
     title: "crypto"
     description: null
@@ -108,23 +92,46 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-16"
-  - name: "glemton"
-    title: "glemton"
-    description: null
+    last_push: "2026-10-24"
+  - name: "livenerf"
+    title: "livenerf"
+    description: "Benchmark for tracking model capability after release."
     language: "Python"
+    topics: []
+    stars_fact: 1579
+    first_seen: "2026-09-30T06:02:10.916514+00:00"
+    last_push: "2026-10-23"
+  - name: "blog"
+    title: "blog"
+    description: null
+    language: "HTML"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-14"
-  - name: "hollow-agentOS"
-    title: "hollow-agentOS"
-    description: "Hollow is an open-sourced self-modifying agentic system for consumer hardware"
+    last_push: "2026-10-22"
+  - name: "Subtext"
+    title: "Subtext"
+    description: "To know what models don't say out loud."
+    language: "HTML"
+    topics:
+      - "interpretability"
+      - "llm"
+      - "mechanistic-interpretability"
+      - "pytorch"
+      - "qwen"
+      - "transformers"
+      - "visualization"
+    stars_fact: 246
+    first_seen: null
+    last_push: "2026-07-23"
+  - name: "intratexxxt"
+    title: "intratexxxt"
+    description: null
     language: "Python"
     topics: []
-    stars_fact: 309
+    stars_fact: 1
     first_seen: null
-    last_push: "2026-10-14"
+    last_push: "2026-10-03"
 ---
 
 # ninjahawk

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-22T06:05:29.861706+00:00"
+generated_at: "2026-10-24T06:05:01.431039+00:00"
 provenance:
   - "46f3c1d6124190bd"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 18, 9, 1]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 15, 4, 1]
 windows:
   "7d":
     pushes: 1
@@ -84,7 +84,15 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-14"
+    last_push: "2026-10-23"
+  - name: "nlp-naive-bayes-assignment6"
+    title: "nlp-naive-bayes-assignment6"
+    description: "Assignment 1 - Naive Bayes Text Classification"
+    language: "Jupyter Notebook"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-21"
   - name: "FekyBaz"
     title: "FekyBaz"
     description: null
@@ -100,7 +108,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-15"
+    last_push: "2026-10-18"
   - name: "sre-incident-assistant"
     title: "sre-incident-assistant"
     description: null
@@ -117,14 +125,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-09-11"
-  - name: "quran-data-audit"
-    title: "quran-data-audit"
-    description: "Verse-level text-integrity audit for quran.com translations"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-10"
 ---
 
 # FekyBaz

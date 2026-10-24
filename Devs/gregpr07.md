@@ -10,11 +10,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-21T06:05:19.754690+00:00"
+generated_at: "2026-10-24T06:05:01.431039+00:00"
 provenance:
   - "c1af6b58492f9bf4"
   - "ddd7486148a91958"
-pushes_per_week: [10, 0, 0, 2, 0, 0, 8, 0, 4, 12, 1, 4, 0]
+pushes_per_week: [9, 0, 1, 1, 0, 0, 8, 3, 8, 5, 1, 4, 0]
 windows:
   "7d":
     pushes: 0
@@ -31,7 +31,7 @@ windows:
     not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 41
+    pushes: 40
     distinct_repos: 7
     active_days: 17
     repos_not_owned: 7
@@ -39,7 +39,7 @@ windows:
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.4118
+  push_per_day: 2.3529
   repo_per_active_day: 0.4118
   not_owned_ratio: 1.0000
   basename_concentration: 0.1429
@@ -67,9 +67,9 @@ facets:
     not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 41
+    pushes: 40
     distinct_repos: 7
-    pushes_per_repo: 5.8571
+    pushes_per_repo: 5.7143
     active_days: 17
     repos_not_owned: 7
     not_owned_basenames: 7
@@ -131,6 +131,6 @@ repos:
 
 # gregpr07
 
-41 pushes across 7 repositories on 17 active days in the last 90 days of public GitHub push activity.
+40 pushes across 7 repositories on 17 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/gregpr07

@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-22T06:05:29.861706+00:00"
+generated_at: "2026-10-24T06:05:01.431039+00:00"
 provenance:
   - "2a7f0fddd2dac162"
 pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 4, 2, 1, 1, 0]
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 7
+    pushes: 5
     distinct_repos: 4
-    active_days: 7
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 7
+    pushes: 5
     distinct_repos: 4
-    pushes_per_repo: 1.7500
-    active_days: 7
+    pushes_per_repo: 1.2500
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -77,6 +77,22 @@ reasons:
   - "activity: 8 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "safe-ish-yolo"
+    title: "safe-ish-yolo"
+    description: null
+    language: "Lua"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-10"
+  - name: "kcode"
+    title: "kcode"
+    description: "a lean fork of jcode"
+    language: "Rust"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-10-04"
   - name: "maki-session-index"
     title: "maki-session-index"
     description: "Search and read your other maki chat sessions"
@@ -85,22 +101,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-10-13"
-  - name: "safe-ish-yolo"
-    title: "safe-ish-yolo"
-    description: null
-    language: "Lua"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-10"
-  - name: "kcode"
-    title: "kcode"
-    description: "a lean fork of jcode"
-    language: "Rust"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-04"
   - name: "kgrep"
     title: "kgrep"
     description: null

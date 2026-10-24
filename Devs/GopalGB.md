@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-22T06:05:29.861706+00:00"
+generated_at: "2026-10-24T06:05:01.431039+00:00"
 provenance:
   - "1be978947e68d1f2"
 pushes_per_week: [1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 5, 0]
@@ -77,6 +77,14 @@ reasons:
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "officehub"
+    title: "officehub"
+    description: "Self-hosted Notion-like office workspace — projects, timelines, enhancements, manager rollup. Next.js 15 + Postgres + Docker."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-23"
   - name: "GopalGB"
     title: "GopalGB"
     description: "AI Agent Builder | Autonomous Systems Architect | Building MAX HQ — JARVIS-style AI command center with 6 departments and 39 agents"
@@ -90,7 +98,7 @@ repos:
       - "python"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-16"
+    last_push: "2026-10-23"
   - name: "price-planning"
     title: "price-planning"
     description: "Excel-like multi-user price planning web app (code only)"
@@ -141,14 +149,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-07-16"
-  - name: "codex-upgrade"
-    title: "codex-upgrade"
-    description: "Portable zero-MCP power kit for OpenAI Codex CLI — expert skills (big-Excel/PPTX/PDF/research/patents/ML/Python), /prompts:* slash commands, and an operating-law AGENTS.md. One install wires it into every project."
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-07-07"
 ---
 
 # GopalGB

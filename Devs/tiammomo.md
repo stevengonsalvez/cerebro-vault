@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-21T06:05:19.754690+00:00"
+generated_at: "2026-10-24T06:05:01.431039+00:00"
 provenance:
   - "16389f32495280ea"
-pushes_per_week: [0, 3, 13, 1, 5, 0, 3, 0, 9, 0, 0, 0, 0]
+pushes_per_week: [1, 7, 8, 1, 5, 0, 3, 6, 3, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,12 +22,12 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 3
-    distinct_repos: 2
-    active_days: 2
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
     pushes: 34
     distinct_repos: 10
@@ -57,13 +57,13 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 3
-    distinct_repos: 2
-    pushes_per_repo: 1.5000
-    active_days: 2
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
     pushes: 34
     distinct_repos: 10
@@ -77,20 +77,28 @@ reasons:
   - "activity: 17 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "QuantPilot"
-    title: "QuantPilot"
-    description: "AI-native quantitative research workspace powered by MoAgent, turning natural-language requests into evidence-backed stock analysis, screening, backtests, portfolio insights, and interactive financial dashboards."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 10
-    first_seen: null
-    last_push: "2026-09-24"
   - name: "RepoSteward"
     title: "RepoSteward"
     description: "Local-first, policy-gated control plane for turning GitHub issues into verified, human-reviewed pull requests with coding agents."
     language: "Python"
     topics: []
     stars_fact: 29
+    first_seen: null
+    last_push: "2026-10-22"
+  - name: "RoutePilot"
+    title: "RoutePilot"
+    description: "Artifact-first multi-agent travel assistant for evidence-backed Q&A, itinerary planning, validation, and versioned replanning."
+    language: "Python"
+    topics: []
+    stars_fact: 17
+    first_seen: null
+    last_push: "2026-09-18"
+  - name: "QuantPilot"
+    title: "QuantPilot"
+    description: "AI-native quantitative research workspace powered by MoAgent, turning natural-language requests into evidence-backed stock analysis, screening, backtests, portfolio insights, and interactive financial dashboards."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 10
     first_seen: null
     last_push: "2026-09-24"
   - name: "ecommerce-bi-workbench"
@@ -116,15 +124,7 @@ repos:
     topics: []
     stars_fact: 11
     first_seen: null
-    last_push: "2026-09-20"
-  - name: "Mamoji"
-    title: "Mamoji"
-    description: "An integrated operations and BI platform for SMEs and households, covering finance, budgeting, tax, approvals, payroll, analytics, and data protection."
-    language: "Java"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-09-06"
+    last_push: "2026-10-22"
 ---
 
 # tiammomo

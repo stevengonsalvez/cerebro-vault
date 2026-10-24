@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-22T06:05:29.861706+00:00"
+generated_at: "2026-10-24T06:05:01.431039+00:00"
 provenance:
   - "c489e6fb5febf2ab"
-pushes_per_week: [4, 1, 3, 0, 1, 0, 1, 5, 0, 0, 0, 0, 0]
+pushes_per_week: [5, 0, 3, 0, 1, 0, 2, 4, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -94,7 +94,15 @@ repos:
       - "wordpress-plugin"
     stars_fact: 5
     first_seen: null
-    last_push: "2026-10-15"
+    last_push: "2026-10-23"
+  - name: "bae-website"
+    title: "bae-website"
+    description: null
+    language: "CSS"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-19"
   - name: "tldr"
     title: "tldr"
     description: "Too long; didn't read — for AI coding agents. A skill that makes Claude Code, Cursor, Codex, Gemini CLI and 16 more lead with a 3-line TL;DR and fold the detail instead of burying the answer. Measured on Sonnet and Opus, every run published — including the ones that failed. Demote, don't delete."
@@ -161,7 +169,7 @@ repos:
       - "verification"
     stars_fact: 5
     first_seen: null
-    last_push: "2026-10-14"
+    last_push: "2026-10-20"
   - name: "TCGiant-Pricing"
     title: "TCGiant-Pricing"
     description: null
@@ -170,24 +178,6 @@ repos:
     stars_fact: 3
     first_seen: null
     last_push: "2026-08-13"
-  - name: "onetone-wordpress-theme"
-    title: "onetone-wordpress-theme"
-    description: "Security-patched builds of the abandoned OneTone and OneTone Pro one-page WordPress themes — ready-to-install archives, maintained by Surefire Studios."
-    language: null
-    topics:
-      - "bootstrap"
-      - "legacy-maintenance"
-      - "one-page"
-      - "onetone"
-      - "php"
-      - "responsive-design"
-      - "security-patch"
-      - "woocommerce"
-      - "wordpress"
-      - "wordpress-theme"
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-09-09"
 ---
 
 # SurefireStudios

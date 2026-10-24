@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-21T06:05:19.754690+00:00"
+generated_at: "2026-10-24T06:05:01.431039+00:00"
 provenance:
   - "2d6ba8fc0269fd52"
-pushes_per_week: [10, 1, 0, 0, 0, 0, 0, 1, 0, 5, 1, 8, 1]
+pushes_per_week: [11, 0, 0, 0, 0, 0, 1, 0, 1, 5, 2, 6, 1]
 windows:
   "7d":
     pushes: 1
@@ -84,7 +84,7 @@ repos:
     topics: []
     stars_fact: 33
     first_seen: null
-    last_push: "2026-10-14"
+    last_push: "2026-10-24"
   - name: "bence.dev"
     title: "bence.dev"
     description: "The thingies behind underyx.me"
@@ -131,7 +131,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-14"
+    last_push: "2026-10-21"
 ---
 
 # underyx

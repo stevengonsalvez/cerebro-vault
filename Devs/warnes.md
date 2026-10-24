@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-22T06:05:29.861706+00:00"
+generated_at: "2026-10-24T06:05:01.431039+00:00"
 provenance:
   - "3cb7ff1cdcf97c6b"
-pushes_per_week: [5, 3, 2, 0, 0, 1, 2, 1, 2, 3, 0, 2, 1]
+pushes_per_week: [8, 0, 2, 0, 0, 1, 3, 1, 2, 2, 2, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -84,7 +84,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-20"
+    last_push: "2026-10-20"
   - name: "markdown-table-aligner"
     title: "markdown-table-aligner"
     description: "A Python package for aligning markdown table columns to uniform widths"

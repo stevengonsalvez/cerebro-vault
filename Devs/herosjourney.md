@@ -10,10 +10,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-22T06:05:29.861706+00:00"
+generated_at: "2026-10-24T06:05:01.431039+00:00"
 provenance:
   - "a50b0e08dbaee74a"
-pushes_per_week: [3, 0, 4, 2, 0, 0, 0, 4, 8, 10, 7, 21, 1]
+pushes_per_week: [0, 0, 5, 1, 0, 0, 0, 11, 1, 14, 4, 20, 1]
 windows:
   "7d":
     pushes: 1
@@ -23,23 +23,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 40
-    distinct_repos: 3
-    active_days: 14
+    pushes: 39
+    distinct_repos: 2
+    active_days: 13
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 60
+    pushes: 57
     distinct_repos: 3
-    active_days: 22
+    active_days: 21
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.7273
-  repo_per_active_day: 0.1364
+  push_per_day: 2.7143
+  repo_per_active_day: 0.1429
   not_owned_ratio: 0.3333
   basename_concentration: 0.6667
   shapes: []
@@ -58,26 +58,34 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 40
-    distinct_repos: 3
-    pushes_per_repo: 13.3333
-    active_days: 14
+    pushes: 39
+    distinct_repos: 2
+    pushes_per_repo: 19.5000
+    active_days: 13
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 60
+    pushes: 57
     distinct_repos: 3
-    pushes_per_repo: 20.0000
-    active_days: 22
+    pushes_per_repo: 19.0000
+    active_days: 21
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 22 active days in 90d — pass"
+  - "activity: 21 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "sf-beach-terraform"
+    title: "sf-beach-terraform"
+    description: "This is the Terraform for the SF Beach rating app running on GCP"
+    language: "HCL"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2025-12-08"
   - name: "migration-watchdog"
     title: "migration-watchdog"
     description: null
@@ -86,14 +94,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-06-29"
-  - name: "sf-beach-terraform"
-    title: "sf-beach-terraform"
-    description: "This is the Terraform for the SF Beach rating app running on GCP"
-    language: "HCL"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2025-12-08"
   - name: "sst-config-generator"
     title: "sst-config-generator"
     description: "A quick deploy site for AWS front ends"
@@ -130,6 +130,6 @@ repos:
 
 # herosjourney
 
-60 pushes across 3 repositories on 22 active days in the last 90 days of public GitHub push activity.
+57 pushes across 3 repositories on 21 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/herosjourney

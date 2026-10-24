@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-22T06:05:29.861706+00:00"
+generated_at: "2026-10-24T06:05:01.431039+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [6, 5, 2, 0, 0, 0, 0, 0, 0, 2, 2, 15, 1]
+pushes_per_week: [6, 1, 2, 0, 0, 0, 0, 0, 0, 3, 1, 15, 2]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
+    pushes: 2
+    distinct_repos: 2
+    active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 20
+    pushes: 21
     distinct_repos: 5
-    active_days: 8
+    active_days: 9
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 33
+    pushes: 30
     distinct_repos: 8
-    active_days: 16
+    active_days: 15
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 2.0625
-  repo_per_active_day: 0.5000
+  push_per_day: 2.0000
+  repo_per_active_day: 0.5333
   not_owned_ratio: 0.2500
   basename_concentration: 0.1250
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
+    pushes: 2
+    distinct_repos: 2
     pushes_per_repo: 1.0000
-    active_days: 1
+    active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 20
+    pushes: 21
     distinct_repos: 5
-    pushes_per_repo: 4.0000
-    active_days: 8
+    pushes_per_repo: 4.2000
+    active_days: 9
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 33
+    pushes: 30
     distinct_repos: 8
-    pushes_per_repo: 4.1250
-    active_days: 16
+    pushes_per_repo: 3.7500
+    active_days: 15
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 16 active days in 90d — pass"
+  - "activity: 15 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "superlocal"
@@ -153,6 +153,6 @@ repos:
 
 # R44VC0RP
 
-33 pushes across 8 repositories on 16 active days in the last 90 days of public GitHub push activity.
+30 pushes across 8 repositories on 15 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/R44VC0RP

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-22T06:05:29.861706+00:00"
+generated_at: "2026-10-24T06:05:01.431039+00:00"
 provenance:
   - "541318303a272608"
-pushes_per_week: [3, 0, 0, 1, 0, 0, 0, 0, 0, 0, 5, 4, 1]
+pushes_per_week: [0, 0, 1, 0, 0, 0, 0, 0, 0, 2, 3, 4, 1]
 windows:
   "7d":
     pushes: 1
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 14
-    distinct_repos: 6
-    active_days: 10
+    pushes: 11
+    distinct_repos: 5
+    active_days: 9
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.4000
-  repo_per_active_day: 0.6000
+  push_per_day: 1.2222
+  repo_per_active_day: 0.5556
   not_owned_ratio: 0.0000
-  basename_concentration: 0.1667
+  basename_concentration: 0.2000
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,30 +65,18 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 14
-    distinct_repos: 6
-    pushes_per_repo: 2.3333
-    active_days: 10
+    pushes: 11
+    distinct_repos: 5
+    pushes_per_repo: 2.2000
+    active_days: 9
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 10 active days in 90d — pass"
+  - "activity: 9 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "emoubarak.github.io"
-    title: "emoubarak.github.io"
-    description: null
-    language: "Astro"
-    topics:
-      - "astro"
-      - "cv"
-      - "personal-website"
-      - "portfolio"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-15"
   - name: "signal-bot"
     title: "signal-bot"
     description: null
@@ -102,7 +90,51 @@ repos:
       - "signal"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-14"
+    last_push: "2026-10-19"
+  - name: "jev-voice"
+    title: "jev-voice"
+    description: "Talk to your browser: Claude plans the command, Jev carries it out in your own Chromium profile. A side-panel extension with no chrome.debugger and no remote-debugging port."
+    language: "Python"
+    topics:
+      - "ai-agent"
+      - "browser-agent"
+      - "browser-automation"
+      - "chrome-extension"
+      - "claude-code"
+      - "jev"
+      - "native-messaging"
+      - "speech-to-text"
+      - "voice-control"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-09"
+  - name: "emoubarak.github.io"
+    title: "emoubarak.github.io"
+    description: null
+    language: "Astro"
+    topics:
+      - "astro"
+      - "cv"
+      - "personal-website"
+      - "portfolio"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-18"
+  - name: "strata-flash-next-egpu"
+    title: "strata-flash-next-egpu"
+    description: "Qwen3.8-Flash-Next 180B (Strata Q2_0) on RTX 3060 Ti 8 GB over OCuLink Gen4: full config, dated benchmarks, reproduce scripts"
+    language: "Python"
+    topics:
+      - "benchmark"
+      - "egpu"
+      - "llama-cpp"
+      - "local-llm"
+      - "moe"
+      - "oculink"
+      - "qwen"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-18"
   - name: "jev-check"
     title: "jev-check"
     description: "AI browser agent testing for staging apps: sign in as a real account state (free, paid, lapsed, team), follow a plain-English goal, verify against the database. Agent skill for Claude Code, Codex."
@@ -123,23 +155,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-10-04"
-  - name: "jev-voice"
-    title: "jev-voice"
-    description: "Talk to your browser: Claude plans the command, Jev carries it out in your own Chromium profile. A side-panel extension with no chrome.debugger and no remote-debugging port."
-    language: "Python"
-    topics:
-      - "ai-agent"
-      - "browser-agent"
-      - "browser-automation"
-      - "chrome-extension"
-      - "claude-code"
-      - "jev"
-      - "native-messaging"
-      - "speech-to-text"
-      - "voice-control"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-09"
   - name: "prompt-to-short-video-generator"
     title: "prompt-to-short-video-generator"
     description: null
@@ -153,25 +168,10 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2024-01-19"
-  - name: "strata-flash-next-egpu"
-    title: "strata-flash-next-egpu"
-    description: "Qwen3.8-Flash-Next 180B (Strata Q2_0) on RTX 3060 Ti 8 GB over OCuLink Gen4: full config, dated benchmarks, reproduce scripts"
-    language: "Python"
-    topics:
-      - "benchmark"
-      - "egpu"
-      - "llama-cpp"
-      - "local-llm"
-      - "moe"
-      - "oculink"
-      - "qwen"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-14"
 ---
 
 # emoubarak
 
-14 pushes across 6 repositories on 10 active days in the last 90 days of public GitHub push activity.
+11 pushes across 5 repositories on 9 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/emoubarak

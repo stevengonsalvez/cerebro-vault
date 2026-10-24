@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-22T06:05:29.861706+00:00"
+generated_at: "2026-10-24T06:05:01.431039+00:00"
 provenance:
   - "16389f32495280ea"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 3, 3, 4, 1, 1]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 1, 2, 6, 1, 1, 1]
 windows:
   "7d":
     pushes: 1
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 10
+    pushes: 9
     distinct_repos: 5
-    active_days: 8
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 10
+    pushes: 9
     distinct_repos: 5
-    pushes_per_repo: 2.0000
-    active_days: 8
+    pushes_per_repo: 1.8000
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -77,14 +77,6 @@ reasons:
   - "activity: 10 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "yetuge"
-    title: "yetuge"
-    description: "Profile README: auto-refreshed list of merged pull requests"
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-15"
   - name: "alphadesk"
     title: "alphadesk"
     description: "本地优先的 AI 原生投资研究工作台:结构化行情数据、证据支撑的 Agent 投研副驾,持续追踪什么变了、为什么重要。"
@@ -106,7 +98,15 @@ repos:
       - "typescript"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-07"
+    last_push: "2026-10-21"
+  - name: "yetuge"
+    title: "yetuge"
+    description: "Profile README: auto-refreshed list of merged pull requests"
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-19"
   - name: "yetuge.github.io"
     title: "yetuge.github.io"
     description: "个人博客 · Astro"

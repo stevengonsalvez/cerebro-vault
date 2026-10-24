@@ -9,9 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-22T06:05:29.861706+00:00"
+generated_at: "2026-10-24T06:05:01.431039+00:00"
 provenance:
   - "01cd6a498d377caf"
+  - "0307ec1244417a61"
   - "03604cccd7e9402d"
   - "0754e13e69e8f4d3"
   - "0880c239db0357ef"
@@ -56,6 +57,7 @@ provenance:
   - "8f9e2f8ba8bd1533"
   - "92349bd4a8c11233"
   - "93601d11e4db33a8"
+  - "97c5df49eed3f0cf"
   - "9951decf1ff354d0"
   - "a3ec5261dfb4f2cd"
   - "b56da077d21ad4f4"
@@ -79,7 +81,7 @@ provenance:
   - "fd1cb9e783625459"
   - "fe9e50bf2d5b21fe"
   - "ff1ca072bf39e471"
-pushes_per_week: [18, 4, 14, 2, 1, 7, 0, 0, 4, 12, 1, 0, 0]
+pushes_per_week: [11, 13, 4, 1, 7, 1, 0, 2, 12, 3, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -96,16 +98,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 63
+    pushes: 54
     distinct_repos: 17
-    active_days: 24
+    active_days: 23
     repos_not_owned: 4
     not_owned_basenames: 3
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 2.6250
-  repo_per_active_day: 0.7083
+  push_per_day: 2.3478
+  repo_per_active_day: 0.7391
   not_owned_ratio: 0.2353
   basename_concentration: 0.1765
   shapes: []
@@ -132,16 +134,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 63
+    pushes: 54
     distinct_repos: 17
-    pushes_per_repo: 3.7059
-    active_days: 24
+    pushes_per_repo: 3.1765
+    active_days: 23
     repos_not_owned: 4
     not_owned_basenames: 3
     not_owned_owners: 3
 reasons:
-  - "provenance: 68 vault signal(s) — pass"
-  - "activity: 24 active days in 90d — pass"
+  - "provenance: 70 vault signal(s) — pass"
+  - "activity: 23 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "skillsaw"
@@ -213,6 +215,6 @@ repos:
 
 # stbenjam
 
-63 pushes across 17 repositories on 24 active days in the last 90 days of public GitHub push activity.
+54 pushes across 17 repositories on 23 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/stbenjam

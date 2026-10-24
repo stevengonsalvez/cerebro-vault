@@ -9,28 +9,28 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-22T06:05:29.861706+00:00"
+generated_at: "2026-10-24T06:05:01.431039+00:00"
 provenance:
   - "3eacb4655aba2497"
-pushes_per_week: [4, 0, 6, 3, 2, 1, 1, 4, 5, 4, 1, 4, 0]
+pushes_per_week: [3, 1, 7, 2, 2, 0, 2, 4, 8, 0, 2, 3, 1]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 13
-    distinct_repos: 6
-    active_days: 8
+    pushes: 12
+    distinct_repos: 7
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
     pushes: 35
-    distinct_repos: 11
+    distinct_repos: 12
     active_days: 26
     repos_not_owned: 1
     not_owned_basenames: 1
@@ -38,9 +38,9 @@ windows:
 automation:
   state: "clear"
   push_per_day: 1.3462
-  repo_per_active_day: 0.4231
-  not_owned_ratio: 0.0909
-  basename_concentration: 0.0909
+  repo_per_active_day: 0.4615
+  not_owned_ratio: 0.0833
+  basename_concentration: 0.0833
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
+    pushes: 1
+    distinct_repos: 1
+    pushes_per_repo: 1.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 13
-    distinct_repos: 6
-    pushes_per_repo: 2.1667
-    active_days: 8
+    pushes: 12
+    distinct_repos: 7
+    pushes_per_repo: 1.7143
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
     pushes: 35
-    distinct_repos: 11
-    pushes_per_repo: 3.1818
+    distinct_repos: 12
+    pushes_per_repo: 2.9167
     active_days: 26
     repos_not_owned: 1
     not_owned_basenames: 1
@@ -129,6 +129,6 @@ repos:
 
 # kyuz0
 
-35 pushes across 11 repositories on 26 active days in the last 90 days of public GitHub push activity.
+35 pushes across 12 repositories on 26 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/kyuz0

@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-22T06:05:29.861706+00:00"
+generated_at: "2026-10-24T06:05:01.431039+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [51, 34, 43, 17, 16, 5, 10, 17, 30, 32, 20, 27, 51]
+pushes_per_week: [50, 23, 43, 14, 17, 2, 13, 23, 27, 33, 15, 25, 52]
 windows:
   "7d":
-    pushes: 51
+    pushes: 52
     distinct_repos: 4
     active_days: 4
     repos_not_owned: 4
     not_owned_basenames: 3
     not_owned_owners: 2
   "30d":
-    pushes: 147
-    distinct_repos: 6
-    active_days: 25
+    pushes: 134
+    distinct_repos: 5
+    active_days: 23
     repos_not_owned: 5
     not_owned_basenames: 4
     not_owned_owners: 3
   "90d":
-    pushes: 353
+    pushes: 337
     distinct_repos: 9
-    active_days: 71
+    active_days: 69
     repos_not_owned: 8
     not_owned_basenames: 4
     not_owned_owners: 6
 automation:
   state: "clear"
-  push_per_day: 4.9718
-  repo_per_active_day: 0.1268
+  push_per_day: 4.8841
+  repo_per_active_day: 0.1304
   not_owned_ratio: 0.8889
   basename_concentration: 0.4444
   shapes: []
@@ -49,34 +49,42 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 51
+    pushes: 52
     distinct_repos: 4
-    pushes_per_repo: 12.7500
+    pushes_per_repo: 13.0000
     active_days: 4
     repos_not_owned: 4
     not_owned_basenames: 3
     not_owned_owners: 2
   "30d":
-    pushes: 147
-    distinct_repos: 6
-    pushes_per_repo: 24.5000
-    active_days: 25
+    pushes: 134
+    distinct_repos: 5
+    pushes_per_repo: 26.8000
+    active_days: 23
     repos_not_owned: 5
     not_owned_basenames: 4
     not_owned_owners: 3
   "90d":
-    pushes: 353
+    pushes: 337
     distinct_repos: 9
-    pushes_per_repo: 39.2222
-    active_days: 71
+    pushes_per_repo: 37.4444
+    active_days: 69
     repos_not_owned: 8
     not_owned_basenames: 4
     not_owned_owners: 6
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 71 active days in 90d — pass"
+  - "activity: 69 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "dotfiles"
+    title: "dotfiles"
+    description: "Chezmoi + Brew to replicate my development setup easily"
+    language: "Shell"
+    topics: []
+    stars_fact: 14
+    first_seen: null
+    last_push: "2026-10-23"
   - name: "skills"
     title: "skills"
     description: null
@@ -85,14 +93,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-09-18"
-  - name: "dotfiles"
-    title: "dotfiles"
-    description: "Chezmoi + Brew to replicate my development setup easily"
-    language: "Shell"
-    topics: []
-    stars_fact: 14
-    first_seen: null
-    last_push: "2026-06-20"
   - name: "blinkgo"
     title: "blinkgo"
     description: "Simple SDK for interacting with blink cameras, mainly: authentication, listing devices/networks/clips, and downloading clips from local storage"
@@ -137,6 +137,6 @@ repos:
 
 # rekram1-node
 
-353 pushes across 9 repositories on 71 active days in the last 90 days of public GitHub push activity.
+337 pushes across 9 repositories on 69 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/rekram1-node

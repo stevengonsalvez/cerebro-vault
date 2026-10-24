@@ -10,10 +10,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-22T06:05:29.861706+00:00"
+generated_at: "2026-10-24T06:05:01.431039+00:00"
 provenance:
   - "9d67ce648f6a8919"
-pushes_per_week: [2, 0, 10, 6, 2, 2, 3, 3, 5, 15, 8, 6, 0]
+pushes_per_week: [1, 1, 13, 2, 3, 1, 4, 2, 10, 14, 4, 6, 0]
 windows:
   "7d":
     pushes: 0
@@ -23,23 +23,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 30
-    distinct_repos: 9
-    active_days: 13
-    repos_not_owned: 7
+    pushes: 29
+    distinct_repos: 8
+    active_days: 12
+    repos_not_owned: 6
     not_owned_basenames: 1
-    not_owned_owners: 7
+    not_owned_owners: 6
   "90d":
-    pushes: 62
+    pushes: 61
     distinct_repos: 11
-    active_days: 35
+    active_days: 34
     repos_not_owned: 8
     not_owned_basenames: 1
     not_owned_owners: 8
 automation:
   state: "clear"
-  push_per_day: 1.7714
-  repo_per_active_day: 0.3143
+  push_per_day: 1.7941
+  repo_per_active_day: 0.3235
   not_owned_ratio: 0.7273
   basename_concentration: 0.8182
   shapes:
@@ -74,24 +74,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 30
-    distinct_repos: 9
-    pushes_per_repo: 3.3333
-    active_days: 13
-    repos_not_owned: 7
+    pushes: 29
+    distinct_repos: 8
+    pushes_per_repo: 3.6250
+    active_days: 12
+    repos_not_owned: 6
     not_owned_basenames: 1
-    not_owned_owners: 7
+    not_owned_owners: 6
   "90d":
-    pushes: 62
+    pushes: 61
     distinct_repos: 11
-    pushes_per_repo: 5.6364
-    active_days: 35
+    pushes_per_repo: 5.5455
+    active_days: 34
     repos_not_owned: 8
     not_owned_basenames: 1
     not_owned_owners: 8
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 35 active days in 90d — pass"
+  - "activity: 34 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "free-claude-code"
@@ -130,6 +130,6 @@ repos:
 
 # Alishahryar1
 
-62 pushes across 11 repositories on 35 active days in the last 90 days of public GitHub push activity.
+61 pushes across 11 repositories on 34 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Alishahryar1

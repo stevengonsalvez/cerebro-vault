@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-22T06:05:29.861706+00:00"
+generated_at: "2026-10-24T06:05:01.431039+00:00"
 provenance:
   - "0b22ca37fd3884c9"
-pushes_per_week: [1, 1, 1, 0, 0, 0, 0, 3, 5, 15, 21, 10, 4]
+pushes_per_week: [1, 2, 0, 0, 0, 0, 0, 6, 4, 24, 12, 8, 6]
 windows:
   "7d":
-    pushes: 4
+    pushes: 6
     distinct_repos: 2
-    active_days: 2
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 51
-    distinct_repos: 8
+    pushes: 52
+    distinct_repos: 7
     active_days: 21
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 61
+    pushes: 63
     distinct_repos: 15
-    active_days: 27
+    active_days: 28
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.2593
-  repo_per_active_day: 0.5556
+  push_per_day: 2.2500
+  repo_per_active_day: 0.5357
   not_owned_ratio: 0.0667
   basename_concentration: 0.1333
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 4
+    pushes: 6
     distinct_repos: 2
-    pushes_per_repo: 2.0000
-    active_days: 2
+    pushes_per_repo: 3.0000
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 51
-    distinct_repos: 8
-    pushes_per_repo: 6.3750
+    pushes: 52
+    distinct_repos: 7
+    pushes_per_repo: 7.4286
     active_days: 21
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 61
+    pushes: 63
     distinct_repos: 15
-    pushes_per_repo: 4.0667
-    active_days: 27
+    pushes_per_repo: 4.2000
+    active_days: 28
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 27 active days in 90d — pass"
+  - "activity: 28 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "Codync"
@@ -102,9 +102,9 @@ repos:
       - "rust"
       - "self-hosted"
       - "swiftui"
-    stars_fact: 438
+    stars_fact: 766
     first_seen: null
-    last_push: "2026-10-16"
+    last_push: "2026-10-24"
   - name: "jev-guard"
     title: "jev-guard"
     description: "Auto mode for every coding agent, built on Jev: risk-scores every tool call with session context (deny / ask / allow), flags prompt injection in results, checks skills and plugins. Claude Code, Codex, Copilot, Gemini, Cursor, pi, OpenCode, ACP."
@@ -120,17 +120,9 @@ repos:
       - "opencode"
       - "prompt-injection"
       - "security"
-    stars_fact: 70
+    stars_fact: 121
     first_seen: null
     last_push: "2026-10-02"
-  - name: "llm-prompt-techniques-on-jev"
-    title: "llm-prompt-techniques-on-jev"
-    description: "Chain-of-thought and self-refinement for TypeSafe's Jev: feed its typed answers back as state and ask again. Benchmarks vs TypeSafe's own cookbook numbers."
-    language: "Python"
-    topics: []
-    stars_fact: 4
-    first_seen: null
-    last_push: "2026-09-19"
   - name: "homebrew-codync"
     title: "homebrew-codync"
     description: "Homebrew tap for Codync — message your coding agents as bots"
@@ -138,33 +130,47 @@ repos:
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-10-15"
-  - name: "VendingMachine"
-    title: "VendingMachine"
-    description: "FPGA vending machine in Verilog for the Arty A7, with VGA UI, payment and change making — built spec-first with Claude Code"
-    language: "Verilog"
-    topics:
-      - "arty-a7"
-      - "claude-code"
-      - "fpga"
-      - "verilog"
-      - "vga"
-      - "vivado"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-15"
-  - name: "pi-wasm-kit"
-    title: "pi-wasm-kit"
-    description: "Pi Durable inside QuickJS WebAssembly, with browser and Node hosts. Inspired by PiDurableKit."
-    language: "TypeScript"
+    last_push: "2026-10-23"
+  - name: "codync-mem"
+    title: "codync-mem"
+    description: "Memory for coding-agent bots: one store, the rules for who may write it, and what each session sees. Read-only mirror of Codync's host/crates/memory."
+    language: "Rust"
     topics: []
+    stars_fact: 5
+    first_seen: null
+    last_push: "2026-10-23"
+  - name: "launchboard"
+    title: "launchboard"
+    description: "A native macOS menu bar dashboard for launchd jobs and local AI agent processes."
+    language: "Swift"
+    topics:
+      - "claude-code"
+      - "codex"
+      - "launchd"
+      - "macos"
+      - "menu-bar"
+      - "swiftui"
+    stars_fact: 8
+    first_seen: null
+    last_push: "2026-09-09"
+  - name: "anyplex"
+    title: "anyplex"
+    description: "LiteLLM for managed agents: one session interface over Anthropic Managed Agents, OpenAI Agents API, Gemini Managed Agents, and Cursor Cloud Agents"
+    language: "TypeScript"
+    topics:
+      - "agents"
+      - "anthropic"
+      - "gemini"
+      - "managed-agents"
+      - "openai"
+      - "typescript"
     stars_fact: 4
     first_seen: null
-    last_push: "2026-10-12"
+    last_push: "2026-09-14"
 ---
 
 # leepokai
 
-61 pushes across 15 repositories on 27 active days in the last 90 days of public GitHub push activity.
+63 pushes across 15 repositories on 28 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/leepokai

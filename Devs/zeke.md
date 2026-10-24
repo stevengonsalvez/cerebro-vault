@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-22T06:05:29.861706+00:00"
+generated_at: "2026-10-24T06:05:01.431039+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [4, 5, 12, 2, 2, 0, 0, 4, 4, 6, 6, 2, 1]
+pushes_per_week: [5, 7, 8, 3, 1, 0, 0, 5, 5, 4, 6, 2, 1]
 windows:
   "7d":
     pushes: 1
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 17
-    distinct_repos: 8
-    active_days: 12
+    pushes: 15
+    distinct_repos: 7
+    active_days: 10
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
   "90d":
-    pushes: 48
+    pushes: 47
     distinct_repos: 12
-    active_days: 34
+    active_days: 33
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 1.4118
-  repo_per_active_day: 0.3529
+  push_per_day: 1.4242
+  repo_per_active_day: 0.3636
   not_owned_ratio: 0.2500
   basename_concentration: 0.1667
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 17
-    distinct_repos: 8
-    pushes_per_repo: 2.1250
-    active_days: 12
+    pushes: 15
+    distinct_repos: 7
+    pushes_per_repo: 2.1429
+    active_days: 10
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
   "90d":
-    pushes: 48
+    pushes: 47
     distinct_repos: 12
-    pushes_per_repo: 4.0000
-    active_days: 34
+    pushes_per_repo: 3.9167
+    active_days: 33
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 34 active days in 90d — pass"
+  - "activity: 33 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "small-app-gardener"
@@ -84,59 +84,51 @@ repos:
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-10-16"
-  - name: "skills"
-    title: "skills"
-    description: "A catalog of public agent skill packages I maintain and use"
-    language: null
+    last_push: "2026-10-24"
+  - name: "semantic-pull-requests"
+    title: "semantic-pull-requests"
+    description: ":robot: Let the robots take care of the semantic versioning"
+    language: "JavaScript"
     topics: []
-    stars_fact: 13
+    stars_fact: 1231
     first_seen: null
-    last_push: "2026-10-15"
-  - name: "paper-app-skill"
-    title: "paper-app-skill"
-    description: "Agent skill for working in the Paper design app through its MCP server"
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-15"
+    last_push: "2022-05-30"
   - name: "swiss-design-skill"
     title: "swiss-design-skill"
     description: "A Swiss International Style design system skill for AI agents"
     language: "TypeScript"
     topics: []
-    stars_fact: 157
+    stars_fact: 159
     first_seen: null
     last_push: "2026-09-24"
-  - name: "slop.how"
-    title: "slop.how"
-    description: "A fast and free API for detecting sloppy text"
+  - name: "github-digest"
+    title: "github-digest"
+    description: "Scheduled Flue agent that emails you a daily GitHub digest"
     language: "TypeScript"
-    topics:
-      - "ai-writing"
-      - "clef"
-      - "cloudflare-workers"
-      - "hono"
-      - "llms-txt"
-      - "slop"
-      - "workers-ai"
-      - "writing"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-15"
-  - name: "agents.md"
-    title: "agents.md"
-    description: "My global instructions for AI agents like OpenCode"
-    language: null
     topics: []
-    stars_fact: 156
+    stars_fact: 9
     first_seen: null
     last_push: "2026-10-13"
+  - name: "dots-on-cloudflare"
+    title: "dots-on-cloudflare"
+    description: "Exploring an always-on personal agent, like OpenAI dots, built on Cloudflare"
+    language: null
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-21"
+  - name: "collignon"
+    title: "collignon"
+    description: "French insults from Amélie"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-21"
 ---
 
 # zeke
 
-48 pushes across 12 repositories on 34 active days in the last 90 days of public GitHub push activity.
+47 pushes across 12 repositories on 33 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/zeke

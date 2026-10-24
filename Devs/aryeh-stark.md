@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-22T06:05:29.861706+00:00"
+generated_at: "2026-10-24T06:05:01.431039+00:00"
 provenance:
   - "745308b2b7085095"
-pushes_per_week: [36, 5, 4, 4, 1, 0, 0, 10, 31, 8, 8, 11, 1]
+pushes_per_week: [22, 4, 6, 3, 0, 0, 1, 30, 11, 13, 7, 6, 1]
 windows:
   "7d":
     pushes: 1
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 4
     not_owned_owners: 2
   "90d":
-    pushes: 119
-    distinct_repos: 7
-    active_days: 38
-    repos_not_owned: 7
-    not_owned_basenames: 7
+    pushes: 104
+    distinct_repos: 6
+    active_days: 36
+    repos_not_owned: 6
+    not_owned_basenames: 6
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 3.1316
-  repo_per_active_day: 0.1842
+  push_per_day: 2.8889
+  repo_per_active_day: 0.1667
   not_owned_ratio: 1.0000
-  basename_concentration: 0.1429
+  basename_concentration: 0.1667
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 4
     not_owned_owners: 2
   "90d":
-    pushes: 119
-    distinct_repos: 7
-    pushes_per_repo: 17.0000
-    active_days: 38
-    repos_not_owned: 7
-    not_owned_basenames: 7
+    pushes: 104
+    distinct_repos: 6
+    pushes_per_repo: 17.3333
+    active_days: 36
+    repos_not_owned: 6
+    not_owned_basenames: 6
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 38 active days in 90d — pass"
+  - "activity: 36 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "aryeh-stark"
@@ -91,6 +91,6 @@ repos:
 
 # aryeh-stark
 
-119 pushes across 7 repositories on 38 active days in the last 90 days of public GitHub push activity.
+104 pushes across 6 repositories on 36 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/aryeh-stark

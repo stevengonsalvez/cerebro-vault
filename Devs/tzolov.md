@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-22T06:05:29.861706+00:00"
+generated_at: "2026-10-24T06:05:01.431039+00:00"
 provenance:
   - "48dbbdd8fd0d3029"
-pushes_per_week: [2, 0, 1, 0, 0, 0, 0, 0, 7, 4, 2, 4, 0]
+pushes_per_week: [2, 1, 0, 0, 0, 0, 0, 0, 8, 5, 1, 3, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 16
+    pushes: 11
     distinct_repos: 6
-    active_days: 10
+    active_days: 8
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 2
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 16
+    pushes: 11
     distinct_repos: 6
-    pushes_per_repo: 2.6667
-    active_days: 10
+    pushes_per_repo: 1.8333
+    active_days: 8
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 2
@@ -77,6 +77,18 @@ reasons:
   - "activity: 14 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "spring-ai-cli-chatbot"
+    title: "spring-ai-cli-chatbot"
+    description: "A command-line chatbot built with Spring AI that demonstrates Retrieval-Augmented Generation (RAG) and conversational memory capabilities."
+    language: "Java"
+    topics:
+      - "chatmemory"
+      - "rag"
+      - "spring-boot"
+      - "springai"
+    stars_fact: 69
+    first_seen: null
+    last_push: "2026-01-03"
   - name: "playground-flight-booking"
     title: "playground-flight-booking"
     description: "Spring AI powered expert system demo"
@@ -120,18 +132,6 @@ repos:
     stars_fact: 24
     first_seen: null
     last_push: "2017-05-30"
-  - name: "spring-ai-cli-chatbot"
-    title: "spring-ai-cli-chatbot"
-    description: "A command-line chatbot built with Spring AI that demonstrates Retrieval-Augmented Generation (RAG) and conversational memory capabilities."
-    language: "Java"
-    topics:
-      - "chatmemory"
-      - "rag"
-      - "spring-boot"
-      - "springai"
-    stars_fact: 68
-    first_seen: null
-    last_push: "2026-01-03"
 ---
 
 # tzolov

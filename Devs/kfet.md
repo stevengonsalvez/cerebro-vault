@@ -9,13 +9,13 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-22T06:05:29.861706+00:00"
+generated_at: "2026-10-24T06:05:01.431039+00:00"
 provenance:
   - "1be978947e68d1f2"
   - "98a2deac3e2f9725"
   - "b949a65ff91f9791"
   - "e9879ff70aa53e1e"
-pushes_per_week: [7, 5, 8, 4, 6, 1, 7, 8, 8, 10, 7, 6, 5]
+pushes_per_week: [5, 6, 9, 3, 5, 1, 7, 11, 5, 16, 3, 4, 5]
 windows:
   "7d":
     pushes: 5
@@ -25,23 +25,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 29
+    pushes: 28
     distinct_repos: 9
-    active_days: 14
+    active_days: 13
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 82
+    pushes: 80
     distinct_repos: 15
-    active_days: 44
+    active_days: 42
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.8636
-  repo_per_active_day: 0.3409
+  push_per_day: 1.9048
+  repo_per_active_day: 0.3571
   not_owned_ratio: 0.0000
   basename_concentration: 0.0667
   shapes: []
@@ -60,24 +60,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 29
+    pushes: 28
     distinct_repos: 9
-    pushes_per_repo: 3.2222
-    active_days: 14
+    pushes_per_repo: 3.1111
+    active_days: 13
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 82
+    pushes: 80
     distinct_repos: 15
-    pushes_per_repo: 5.4667
-    active_days: 44
+    pushes_per_repo: 5.3333
+    active_days: 42
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 4 vault signal(s) — pass"
-  - "activity: 44 active days in 90d — pass"
+  - "activity: 42 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "homebrew-ai"
@@ -137,6 +137,6 @@ repos:
 
 # kfet
 
-82 pushes across 15 repositories on 44 active days in the last 90 days of public GitHub push activity.
+80 pushes across 15 repositories on 42 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/kfet

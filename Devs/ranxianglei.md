@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-22T06:05:29.861706+00:00"
+generated_at: "2026-10-24T06:05:01.431039+00:00"
 provenance:
   - "44bf92228a9e42f2"
-pushes_per_week: [49, 28, 67, 26, 17, 3, 11, 26, 73, 95, 65, 97, 49]
+pushes_per_week: [53, 25, 70, 18, 10, 3, 16, 53, 73, 81, 60, 84, 52]
 windows:
   "7d":
-    pushes: 49
+    pushes: 52
     distinct_repos: 7
     active_days: 5
     repos_not_owned: 5
     not_owned_basenames: 1
     not_owned_owners: 5
   "30d":
-    pushes: 320
+    pushes: 310
     distinct_repos: 19
-    active_days: 27
+    active_days: 25
     repos_not_owned: 12
     not_owned_basenames: 4
     not_owned_owners: 12
   "90d":
-    pushes: 606
+    pushes: 598
     distinct_repos: 37
-    active_days: 76
+    active_days: 74
     repos_not_owned: 19
     not_owned_basenames: 4
     not_owned_owners: 18
 automation:
   state: "clear"
-  push_per_day: 7.9737
-  repo_per_active_day: 0.4868
+  push_per_day: 8.0811
+  repo_per_active_day: 0.5000
   not_owned_ratio: 0.5135
   basename_concentration: 0.3784
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 49
+    pushes: 52
     distinct_repos: 7
-    pushes_per_repo: 7.0000
+    pushes_per_repo: 7.4286
     active_days: 5
     repos_not_owned: 5
     not_owned_basenames: 1
     not_owned_owners: 5
   "30d":
-    pushes: 320
+    pushes: 310
     distinct_repos: 19
-    pushes_per_repo: 16.8421
-    active_days: 27
+    pushes_per_repo: 16.3158
+    active_days: 25
     repos_not_owned: 12
     not_owned_basenames: 4
     not_owned_owners: 12
   "90d":
-    pushes: 606
+    pushes: 598
     distinct_repos: 37
-    pushes_per_repo: 16.3784
-    active_days: 76
+    pushes_per_repo: 16.1622
+    active_days: 74
     repos_not_owned: 19
     not_owned_basenames: 4
     not_owned_owners: 18
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 76 active days in 90d — pass"
+  - "activity: 74 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "billion-context-pi"
@@ -130,6 +130,6 @@ repos:
 
 # ranxianglei
 
-606 pushes across 37 repositories on 76 active days in the last 90 days of public GitHub push activity.
+598 pushes across 37 repositories on 74 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ranxianglei

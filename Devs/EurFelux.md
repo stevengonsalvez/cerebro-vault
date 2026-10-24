@@ -9,22 +9,22 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-22T06:05:29.861706+00:00"
+generated_at: "2026-10-24T06:05:01.431039+00:00"
 provenance:
   - "0b22ca37fd3884c9"
-pushes_per_week: [6, 1, 3, 0, 1, 1, 3, 1, 0, 0, 3, 0, 1]
+pushes_per_week: [6, 1, 2, 1, 0, 1, 3, 1, 0, 3, 0, 0, 2]
 windows:
   "7d":
-    pushes: 1
+    pushes: 2
     distinct_repos: 1
-    active_days: 1
+    active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 4
+    pushes: 5
     distinct_repos: 3
-    active_days: 2
+    active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -49,18 +49,18 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
+    pushes: 2
     distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes_per_repo: 2.0000
+    active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 4
+    pushes: 5
     distinct_repos: 3
-    pushes_per_repo: 1.3333
-    active_days: 2
+    pushes_per_repo: 1.6667
+    active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -77,14 +77,6 @@ reasons:
   - "activity: 14 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "homebrew-tap"
-    title: "homebrew-tap"
-    description: "Homebrew tap for EurFelux's apps — Lyrisland, Marginalia"
-    language: "Ruby"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-12"
   - name: "marginalia"
     title: "marginalia"
     description: "Talk to AI in the margins of your ebooks — local‑first, bilingual ePub/PDF reader with contextual assistants."
@@ -98,17 +90,9 @@ repos:
       - "local-first"
       - "react"
       - "typescript"
-    stars_fact: 8
+    stars_fact: 9
     first_seen: null
-    last_push: "2026-10-12"
-  - name: "anki-connect"
-    title: "anki-connect"
-    description: "AnkiConnect mirror with local patches for Anki 25.x (upstream: git.sr.ht/~foosoft/anki-connect, GPL-3.0)"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-07"
+    last_push: "2026-10-17"
   - name: "Lyrisland"
     title: "Lyrisland"
     description: "A macOS Dynamic Island-style floating widget that displays real-time synced lyrics for Spotify. No login required."
@@ -119,9 +103,25 @@ repos:
       - "lyrics"
       - "macos-app"
       - "spotify"
-    stars_fact: 12
+    stars_fact: 13
     first_seen: null
     last_push: "2026-09-16"
+  - name: "homebrew-tap"
+    title: "homebrew-tap"
+    description: "Homebrew tap for EurFelux's apps — Lyrisland, Marginalia"
+    language: "Ruby"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-17"
+  - name: "anki-connect"
+    title: "anki-connect"
+    description: "AnkiConnect mirror with local patches for Anki 25.x (upstream: git.sr.ht/~foosoft/anki-connect, GPL-3.0)"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-07"
   - name: "paper-manager"
     title: "paper-manager"
     description: "A CLI tool for managing academic papers with knowledge base and vector search support. Designed for AI agents."
