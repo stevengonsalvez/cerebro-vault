@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-24T06:05:01.431039+00:00"
+generated_at: "2026-10-25T07:04:46.004956+00:00"
 provenance:
   - "2a7f0fddd2dac162"
-pushes_per_week: [28, 10, 12, 0, 3, 0, 7, 8, 36, 37, 14, 14, 27]
+pushes_per_week: [23, 10, 12, 0, 3, 0, 7, 16, 38, 36, 13, 7, 27]
 windows:
   "7d":
-    pushes: 27
+    pushes: 28
     distinct_repos: 2
-    active_days: 5
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 112
+    pushes: 108
     distinct_repos: 3
     active_days: 22
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 196
+    pushes: 192
     distinct_repos: 4
     active_days: 43
     repos_not_owned: 0
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 4.5581
+  push_per_day: 4.4651
   repo_per_active_day: 0.0930
   not_owned_ratio: 0.0000
   basename_concentration: 0.2500
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 27
+    pushes: 28
     distinct_repos: 2
-    pushes_per_repo: 13.5000
-    active_days: 5
+    pushes_per_repo: 14.0000
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 112
+    pushes: 108
     distinct_repos: 3
-    pushes_per_repo: 37.3333
+    pushes_per_repo: 36.0000
     active_days: 22
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 196
+    pushes: 192
     distinct_repos: 4
-    pushes_per_repo: 49.0000
+    pushes_per_repo: 48.0000
     active_days: 43
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -134,6 +134,6 @@ repos:
 
 # alecuba16
 
-196 pushes across 4 repositories on 43 active days in the last 90 days of public GitHub push activity.
+192 pushes across 4 repositories on 43 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/alecuba16

@@ -10,15 +10,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-24T06:05:01.431039+00:00"
+generated_at: "2026-10-25T07:04:46.004956+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [2, 0, 2, 0, 1, 0, 0, 2, 1, 1, 0, 0, 0]
+pushes_per_week: [2, 0, 2, 0, 1, 0, 0, 2, 1, 1, 0, 0, 1]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -30,16 +30,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 9
+    pushes: 10
     distinct_repos: 2
-    active_days: 8
+    active_days: 9
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.1250
-  repo_per_active_day: 0.2500
+  push_per_day: 1.1111
+  repo_per_active_day: 0.2222
   not_owned_ratio: 0.0000
   basename_concentration: 0.5000
   shapes: []
@@ -50,10 +50,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
+    pushes: 1
+    distinct_repos: 1
+    pushes_per_repo: 1.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -66,16 +66,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 9
+    pushes: 10
     distinct_repos: 2
-    pushes_per_repo: 4.5000
-    active_days: 8
+    pushes_per_repo: 5.0000
+    active_days: 9
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 8 active days in 90d — pass"
+  - "activity: 9 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "GitNexus"
@@ -130,6 +130,6 @@ repos:
 
 # abhigyanpatwari
 
-9 pushes across 2 repositories on 8 active days in the last 90 days of public GitHub push activity.
+10 pushes across 2 repositories on 9 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/abhigyanpatwari

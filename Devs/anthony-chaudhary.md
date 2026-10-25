@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-24T06:05:01.431039+00:00"
+generated_at: "2026-10-25T07:04:46.004956+00:00"
 provenance:
   - "1be978947e68d1f2"
-pushes_per_week: [24, 26, 80, 50, 37, 5, 23, 42, 31, 24, 15, 31, 7]
+pushes_per_week: [14, 33, 82, 47, 30, 7, 30, 41, 31, 20, 17, 24, 8]
 windows:
   "7d":
-    pushes: 7
+    pushes: 8
     distinct_repos: 1
-    active_days: 2
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 80
+    pushes: 78
     distinct_repos: 1
     active_days: 18
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 395
+    pushes: 384
     distinct_repos: 2
     active_days: 67
     repos_not_owned: 0
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 5.8955
+  push_per_day: 5.7313
   repo_per_active_day: 0.0299
   not_owned_ratio: 0.0000
   basename_concentration: 0.5000
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 7
+    pushes: 8
     distinct_repos: 1
-    pushes_per_repo: 7.0000
-    active_days: 2
+    pushes_per_repo: 8.0000
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 80
+    pushes: 78
     distinct_repos: 1
-    pushes_per_repo: 80.0000
+    pushes_per_repo: 78.0000
     active_days: 18
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 395
+    pushes: 384
     distinct_repos: 2
-    pushes_per_repo: 197.5000
+    pushes_per_repo: 192.0000
     active_days: 67
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -168,6 +168,6 @@ repos:
 
 # anthony-chaudhary
 
-395 pushes across 2 repositories on 67 active days in the last 90 days of public GitHub push activity.
+384 pushes across 2 repositories on 67 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/anthony-chaudhary

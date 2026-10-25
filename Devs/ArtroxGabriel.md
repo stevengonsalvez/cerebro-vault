@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-24T06:05:01.431039+00:00"
+generated_at: "2026-10-25T07:04:46.004956+00:00"
 provenance:
   - "4138778ebbc75ba6"
-pushes_per_week: [3, 0, 0, 0, 0, 0, 0, 2, 4, 2, 0, 0, 1]
+pushes_per_week: [2, 0, 0, 0, 0, 0, 1, 1, 4, 2, 0, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 12
-    distinct_repos: 9
-    active_days: 10
+    pushes: 11
+    distinct_repos: 8
+    active_days: 9
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.2000
-  repo_per_active_day: 0.9000
-  not_owned_ratio: 0.3333
-  basename_concentration: 0.1111
+  push_per_day: 1.2222
+  repo_per_active_day: 0.8889
+  not_owned_ratio: 0.3750
+  basename_concentration: 0.1250
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 12
-    distinct_repos: 9
-    pushes_per_repo: 1.3333
-    active_days: 10
+    pushes: 11
+    distinct_repos: 8
+    pushes_per_repo: 1.3750
+    active_days: 9
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 10 active days in 90d — pass"
+  - "activity: 9 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "ArtroxGabriel"
@@ -134,6 +134,6 @@ repos:
 
 # ArtroxGabriel
 
-12 pushes across 9 repositories on 10 active days in the last 90 days of public GitHub push activity.
+11 pushes across 8 repositories on 9 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ArtroxGabriel

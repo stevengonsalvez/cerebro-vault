@@ -9,28 +9,28 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-24T06:05:01.431039+00:00"
+generated_at: "2026-10-25T07:04:46.004956+00:00"
 provenance:
   - "3eacb4655aba2497"
-pushes_per_week: [8, 10, 7, 1, 2, 0, 0, 1, 8, 40, 15, 4, 5]
+pushes_per_week: [8, 10, 6, 2, 1, 0, 0, 2, 19, 37, 6, 4, 6]
 windows:
   "7d":
-    pushes: 5
-    distinct_repos: 3
-    active_days: 2
+    pushes: 6
+    distinct_repos: 4
+    active_days: 3
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 68
-    distinct_repos: 8
-    active_days: 17
+    pushes: 69
+    distinct_repos: 9
+    active_days: 18
     repos_not_owned: 5
     not_owned_basenames: 4
     not_owned_owners: 2
   "90d":
     pushes: 101
-    distinct_repos: 16
+    distinct_repos: 17
     active_days: 39
     repos_not_owned: 9
     not_owned_basenames: 7
@@ -38,9 +38,9 @@ windows:
 automation:
   state: "clear"
   push_per_day: 2.5897
-  repo_per_active_day: 0.4103
-  not_owned_ratio: 0.5625
-  basename_concentration: 0.1250
+  repo_per_active_day: 0.4359
+  not_owned_ratio: 0.5294
+  basename_concentration: 0.1176
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 5
-    distinct_repos: 3
-    pushes_per_repo: 1.6667
-    active_days: 2
+    pushes: 6
+    distinct_repos: 4
+    pushes_per_repo: 1.5000
+    active_days: 3
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 68
-    distinct_repos: 8
-    pushes_per_repo: 8.5000
-    active_days: 17
+    pushes: 69
+    distinct_repos: 9
+    pushes_per_repo: 7.6667
+    active_days: 18
     repos_not_owned: 5
     not_owned_basenames: 4
     not_owned_owners: 2
   "90d":
     pushes: 101
-    distinct_repos: 16
-    pushes_per_repo: 6.3125
+    distinct_repos: 17
+    pushes_per_repo: 5.9412
     active_days: 39
     repos_not_owned: 9
     not_owned_basenames: 7
@@ -139,6 +139,6 @@ repos:
 
 # mitsuhiko
 
-101 pushes across 16 repositories on 39 active days in the last 90 days of public GitHub push activity.
+101 pushes across 17 repositories on 39 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/mitsuhiko

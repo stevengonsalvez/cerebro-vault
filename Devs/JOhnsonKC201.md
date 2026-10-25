@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-24T06:05:01.431039+00:00"
+generated_at: "2026-10-25T07:04:46.004956+00:00"
 provenance:
   - "6d3bd03b49986330"
-pushes_per_week: [1, 2, 1, 0, 2, 0, 1, 0, 1, 3, 4, 1, 0]
+pushes_per_week: [0, 2, 1, 0, 2, 0, 1, 0, 1, 3, 4, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 9
-    distinct_repos: 5
-    active_days: 8
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 8
+    distinct_repos: 4
+    active_days: 7
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
-    pushes: 16
+    pushes: 15
     distinct_repos: 6
-    active_days: 15
+    active_days: 14
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.0667
-  repo_per_active_day: 0.4000
+  push_per_day: 1.0714
+  repo_per_active_day: 0.4286
   not_owned_ratio: 0.1667
   basename_concentration: 0.1667
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 9
-    distinct_repos: 5
-    pushes_per_repo: 1.8000
-    active_days: 8
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 8
+    distinct_repos: 4
+    pushes_per_repo: 2.0000
+    active_days: 7
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
-    pushes: 16
+    pushes: 15
     distinct_repos: 6
-    pushes_per_repo: 2.6667
-    active_days: 15
+    pushes_per_repo: 2.5000
+    active_days: 14
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 15 active days in 90d — pass"
+  - "activity: 14 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "sentinel-core"
@@ -148,6 +148,6 @@ repos:
 
 # JOhnsonKC201
 
-16 pushes across 6 repositories on 15 active days in the last 90 days of public GitHub push activity.
+15 pushes across 6 repositories on 14 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/JOhnsonKC201

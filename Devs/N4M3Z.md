@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-24T06:05:01.431039+00:00"
+generated_at: "2026-10-25T07:04:46.004956+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [14, 34, 26, 1, 6, 0, 0, 6, 20, 1, 1, 0, 4]
+pushes_per_week: [23, 24, 26, 1, 6, 0, 1, 18, 7, 1, 1, 0, 4]
 windows:
   "7d":
     pushes: 4
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 113
+    pushes: 112
     distinct_repos: 12
-    active_days: 32
+    active_days: 31
     repos_not_owned: 7
     not_owned_basenames: 7
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 3.5312
-  repo_per_active_day: 0.3750
+  push_per_day: 3.6129
+  repo_per_active_day: 0.3871
   not_owned_ratio: 0.5833
   basename_concentration: 0.1667
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 113
+    pushes: 112
     distinct_repos: 12
-    pushes_per_repo: 9.4167
-    active_days: 32
+    pushes_per_repo: 9.3333
+    active_days: 31
     repos_not_owned: 7
     not_owned_basenames: 7
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 32 active days in 90d — pass"
+  - "activity: 31 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "lsrules"
@@ -129,6 +129,6 @@ repos:
 
 # N4M3Z
 
-113 pushes across 12 repositories on 32 active days in the last 90 days of public GitHub push activity.
+112 pushes across 12 repositories on 31 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/N4M3Z

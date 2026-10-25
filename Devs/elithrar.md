@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-24T06:05:01.431039+00:00"
+generated_at: "2026-10-25T07:04:46.004956+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [11, 0, 6, 2, 7, 0, 0, 0, 2, 0, 2, 4, 0]
+pushes_per_week: [5, 0, 6, 2, 7, 0, 0, 2, 0, 2, 2, 2, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 34
+    pushes: 28
     distinct_repos: 13
-    active_days: 16
+    active_days: 14
     repos_not_owned: 4
     not_owned_basenames: 3
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 2.1250
-  repo_per_active_day: 0.8125
+  push_per_day: 2.0000
+  repo_per_active_day: 0.9286
   not_owned_ratio: 0.3077
   basename_concentration: 0.1538
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 34
+    pushes: 28
     distinct_repos: 13
-    pushes_per_repo: 2.6154
-    active_days: 16
+    pushes_per_repo: 2.1538
+    active_days: 14
     repos_not_owned: 4
     not_owned_basenames: 3
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 16 active days in 90d — pass"
+  - "activity: 14 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "AsTheCrowFlies"
@@ -155,6 +155,6 @@ repos:
 
 # elithrar
 
-34 pushes across 13 repositories on 16 active days in the last 90 days of public GitHub push activity.
+28 pushes across 13 repositories on 14 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/elithrar

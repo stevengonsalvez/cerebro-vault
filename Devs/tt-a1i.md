@@ -11,21 +11,21 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-24T06:05:01.431039+00:00"
+generated_at: "2026-10-25T07:04:46.004956+00:00"
 provenance:
   - "26de699d3e5c651e"
   - "4d1450729e6ff44d"
-pushes_per_week: [10, 3, 7, 4, 13, 2, 10, 10, 15, 11, 30, 12, 1]
+pushes_per_week: [10, 1, 7, 11, 8, 0, 11, 14, 14, 21, 16, 12, 3]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
+    pushes: 3
+    distinct_repos: 2
+    active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 56
+    pushes: 57
     distinct_repos: 9
     active_days: 16
     repos_not_owned: 8
@@ -33,7 +33,7 @@ windows:
     not_owned_owners: 8
   "90d":
     pushes: 128
-    distinct_repos: 25
+    distinct_repos: 24
     active_days: 45
     repos_not_owned: 17
     not_owned_basenames: 3
@@ -41,9 +41,9 @@ windows:
 automation:
   state: "clear"
   push_per_day: 2.8444
-  repo_per_active_day: 0.5556
-  not_owned_ratio: 0.6800
-  basename_concentration: 0.4400
+  repo_per_active_day: 0.5333
+  not_owned_ratio: 0.7083
+  basename_concentration: 0.4583
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -52,25 +52,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes: 3
+    distinct_repos: 2
+    pushes_per_repo: 1.5000
+    active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 56
+    pushes: 57
     distinct_repos: 9
-    pushes_per_repo: 6.2222
+    pushes_per_repo: 6.3333
     active_days: 16
     repos_not_owned: 8
     not_owned_basenames: 2
     not_owned_owners: 8
   "90d":
     pushes: 128
-    distinct_repos: 25
-    pushes_per_repo: 5.1200
+    distinct_repos: 24
+    pushes_per_repo: 5.3333
     active_days: 45
     repos_not_owned: 17
     not_owned_basenames: 3
@@ -189,6 +189,6 @@ repos:
 
 # tt-a1i
 
-128 pushes across 25 repositories on 45 active days in the last 90 days of public GitHub push activity.
+128 pushes across 24 repositories on 45 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/tt-a1i

@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-24T06:05:01.431039+00:00"
+generated_at: "2026-10-25T07:04:46.004956+00:00"
 provenance:
   - "a5ffcd0a46dd44fd"
-pushes_per_week: [0, 0, 2, 0, 2, 0, 4, 0, 8, 0, 0, 0, 2]
+pushes_per_week: [0, 0, 2, 2, 0, 0, 4, 6, 2, 0, 0, 0, 4]
 windows:
   "7d":
-    pushes: 2
+    pushes: 4
     distinct_repos: 2
     active_days: 2
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
   "30d":
-    pushes: 3
+    pushes: 5
     distinct_repos: 2
     active_days: 3
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 18
+    pushes: 20
     distinct_repos: 7
     active_days: 8
     repos_not_owned: 3
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 2.2500
+  push_per_day: 2.5000
   repo_per_active_day: 0.8750
   not_owned_ratio: 0.4286
   basename_concentration: 0.1429
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
+    pushes: 4
     distinct_repos: 2
-    pushes_per_repo: 1.0000
+    pushes_per_repo: 2.0000
     active_days: 2
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
   "30d":
-    pushes: 3
+    pushes: 5
     distinct_repos: 2
-    pushes_per_repo: 1.5000
+    pushes_per_repo: 2.5000
     active_days: 3
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 18
+    pushes: 20
     distinct_repos: 7
-    pushes_per_repo: 2.5714
+    pushes_per_repo: 2.8571
     active_days: 8
     repos_not_owned: 3
     not_owned_basenames: 3
@@ -135,6 +135,6 @@ repos:
 
 # rakyll
 
-18 pushes across 7 repositories on 8 active days in the last 90 days of public GitHub push activity.
+20 pushes across 7 repositories on 8 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/rakyll

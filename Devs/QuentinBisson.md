@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-24T06:05:01.431039+00:00"
+generated_at: "2026-10-25T07:04:46.004956+00:00"
 provenance:
   - "a5ffcd0a46dd44fd"
-pushes_per_week: [1, 0, 0, 1, 1, 0, 1, 16, 22, 41, 25, 6, 28]
+pushes_per_week: [0, 0, 0, 1, 1, 0, 1, 16, 22, 41, 25, 7, 27]
 windows:
   "7d":
     pushes: 28
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 10
     not_owned_owners: 1
   "30d":
-    pushes: 114
+    pushes: 107
     distinct_repos: 22
-    active_days: 17
+    active_days: 16
     repos_not_owned: 18
     not_owned_basenames: 18
     not_owned_owners: 2
   "90d":
-    pushes: 142
+    pushes: 141
     distinct_repos: 29
-    active_days: 29
+    active_days: 28
     repos_not_owned: 25
     not_owned_basenames: 25
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 4.8966
-  repo_per_active_day: 1.0000
+  push_per_day: 5.0357
+  repo_per_active_day: 1.0357
   not_owned_ratio: 0.8621
   basename_concentration: 0.0690
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 10
     not_owned_owners: 1
   "30d":
-    pushes: 114
+    pushes: 107
     distinct_repos: 22
-    pushes_per_repo: 5.1818
-    active_days: 17
+    pushes_per_repo: 4.8636
+    active_days: 16
     repos_not_owned: 18
     not_owned_basenames: 18
     not_owned_owners: 2
   "90d":
-    pushes: 142
+    pushes: 141
     distinct_repos: 29
-    pushes_per_repo: 4.8966
-    active_days: 29
+    pushes_per_repo: 4.8621
+    active_days: 28
     repos_not_owned: 25
     not_owned_basenames: 25
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 29 active days in 90d — pass"
+  - "activity: 28 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "grafana-orgswitch-repro"
@@ -129,6 +129,6 @@ repos:
 
 # QuentinBisson
 
-142 pushes across 29 repositories on 29 active days in the last 90 days of public GitHub push activity.
+141 pushes across 29 repositories on 28 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/QuentinBisson

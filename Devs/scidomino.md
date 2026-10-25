@@ -1,18 +1,18 @@
 ---
-login: "Ant39140"
+login: "scidomino"
 name: null
-discovered_via: "fanout"
+discovered_via: "vault"
 discovered_via_all:
-  - "fanout"
+  - "vault"
 provenance_repos:
-  - "can1357/oh-my-pi"
+  - "google-gemini/gemini-cli"
 admitted: true
-low_n: false
+low_n: true
 repos_populated: true
-generated_at: "2026-10-24T06:05:01.431039+00:00"
+generated_at: "2026-10-25T07:04:46.004956+00:00"
 provenance:
-  - "de6bf05613f3ae04"
-pushes_per_week: [2, 0, 4, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0]
+  - "24684c1ecca249c0"
+pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 7
-    distinct_repos: 2
-    active_days: 5
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.4000
-  repo_per_active_day: 0.4000
+  push_per_day: 0.0000
+  repo_per_active_day: 0.0000
   not_owned_ratio: 0.0000
-  basename_concentration: 0.5000
+  basename_concentration: 0.0000
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,30 +65,30 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 7
-    distinct_repos: 2
-    pushes_per_repo: 3.5000
-    active_days: 5
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 5 active days in 90d — pass"
+  - "activity: 0 active days in 90d — below the 5-day line, LABELLED low-n (never suppressed)"
   - "automation: clear — pass"
 repos:
-  - name: "wechat_meme_export"
-    title: "wechat_meme_export"
-    description: "轻量友好的带有GUI界面的微信已收藏表情包导出工具"
-    language: "Python"
+  - name: "pippop"
+    title: "pippop"
+    description: "A bubble physics simulation game"
+    language: "Rust"
     topics: []
-    stars_fact: 5
+    stars_fact: 9
     first_seen: null
-    last_push: "2026-05-21"
+    last_push: "2026-06-08"
 ---
 
-# Ant39140
+# scidomino
 
-7 pushes across 2 repositories on 5 active days in the last 90 days of public GitHub push activity.
+no pushes attributed in the last 90 days of public GitHub push activity.
 
-https://github.com/Ant39140
+https://github.com/scidomino

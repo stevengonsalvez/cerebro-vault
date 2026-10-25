@@ -11,12 +11,12 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-24T06:05:01.431039+00:00"
+generated_at: "2026-10-25T07:04:46.004956+00:00"
 provenance:
   - "16389f32495280ea"
   - "234088bc43763aa2"
   - "4d1450729e6ff44d"
-pushes_per_week: [11, 18, 60, 17, 5, 2, 8, 9, 4, 10, 6, 4, 3]
+pushes_per_week: [14, 19, 58, 16, 4, 1, 11, 6, 4, 11, 6, 3, 3]
 windows:
   "7d":
     pushes: 3
@@ -33,16 +33,16 @@ windows:
     not_owned_basenames: 3
     not_owned_owners: 2
   "90d":
-    pushes: 157
+    pushes: 156
     distinct_repos: 44
-    active_days: 50
+    active_days: 49
     repos_not_owned: 6
     not_owned_basenames: 6
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 3.1400
-  repo_per_active_day: 0.8800
+  push_per_day: 3.1837
+  repo_per_active_day: 0.8980
   not_owned_ratio: 0.1364
   basename_concentration: 0.0455
   shapes: []
@@ -69,16 +69,16 @@ facets:
     not_owned_basenames: 3
     not_owned_owners: 2
   "90d":
-    pushes: 157
+    pushes: 156
     distinct_repos: 44
-    pushes_per_repo: 3.5682
-    active_days: 50
+    pushes_per_repo: 3.5455
+    active_days: 49
     repos_not_owned: 6
     not_owned_basenames: 6
     not_owned_owners: 3
 reasons:
   - "provenance: 3 vault signal(s) — pass"
-  - "activity: 50 active days in 90d — pass"
+  - "activity: 49 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "lint-md-moejs"
@@ -134,6 +134,6 @@ repos:
 
 # luojiyin1987
 
-157 pushes across 44 repositories on 50 active days in the last 90 days of public GitHub push activity.
+156 pushes across 44 repositories on 49 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/luojiyin1987

@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-24T06:05:01.431039+00:00"
+generated_at: "2026-10-25T07:04:46.004956+00:00"
 provenance:
   - "dae9f02535f7c22f"
-pushes_per_week: [61, 66, 93, 10, 11, 3, 16, 93, 127, 181, 33, 6, 53]
+pushes_per_week: [90, 40, 90, 10, 13, 1, 19, 101, 155, 142, 38, 9, 52]
 windows:
   "7d":
-    pushes: 53
-    distinct_repos: 21
-    active_days: 5
-    repos_not_owned: 20
-    not_owned_basenames: 18
+    pushes: 60
+    distinct_repos: 24
+    active_days: 7
+    repos_not_owned: 23
+    not_owned_basenames: 21
     not_owned_owners: 3
   "30d":
-    pushes: 315
-    distinct_repos: 68
-    active_days: 20
-    repos_not_owned: 66
-    not_owned_basenames: 63
+    pushes: 304
+    distinct_repos: 66
+    active_days: 21
+    repos_not_owned: 64
+    not_owned_basenames: 61
     not_owned_owners: 4
   "90d":
-    pushes: 753
-    distinct_repos: 112
-    active_days: 69
-    repos_not_owned: 105
-    not_owned_basenames: 101
+    pushes: 760
+    distinct_repos: 113
+    active_days: 71
+    repos_not_owned: 106
+    not_owned_basenames: 102
     not_owned_owners: 5
 automation:
   state: "clear"
-  push_per_day: 10.9130
-  repo_per_active_day: 1.6232
-  not_owned_ratio: 0.9375
-  basename_concentration: 0.0179
+  push_per_day: 10.7042
+  repo_per_active_day: 1.5915
+  not_owned_ratio: 0.9381
+  basename_concentration: 0.0177
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 53
-    distinct_repos: 21
-    pushes_per_repo: 2.5238
-    active_days: 5
-    repos_not_owned: 20
-    not_owned_basenames: 18
+    pushes: 60
+    distinct_repos: 24
+    pushes_per_repo: 2.5000
+    active_days: 7
+    repos_not_owned: 23
+    not_owned_basenames: 21
     not_owned_owners: 3
   "30d":
-    pushes: 315
-    distinct_repos: 68
-    pushes_per_repo: 4.6324
-    active_days: 20
-    repos_not_owned: 66
-    not_owned_basenames: 63
+    pushes: 304
+    distinct_repos: 66
+    pushes_per_repo: 4.6061
+    active_days: 21
+    repos_not_owned: 64
+    not_owned_basenames: 61
     not_owned_owners: 4
   "90d":
-    pushes: 753
-    distinct_repos: 112
-    pushes_per_repo: 6.7232
-    active_days: 69
-    repos_not_owned: 105
-    not_owned_basenames: 101
+    pushes: 760
+    distinct_repos: 113
+    pushes_per_repo: 6.7257
+    active_days: 71
+    repos_not_owned: 106
+    not_owned_basenames: 102
     not_owned_owners: 5
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 69 active days in 90d — pass"
+  - "activity: 71 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "CybotTM"
@@ -161,6 +161,6 @@ repos:
 
 # CybotTM
 
-753 pushes across 112 repositories on 69 active days in the last 90 days of public GitHub push activity.
+760 pushes across 113 repositories on 71 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/CybotTM

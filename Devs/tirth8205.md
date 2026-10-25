@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-24T06:05:01.431039+00:00"
+generated_at: "2026-10-25T07:04:46.004956+00:00"
 provenance:
   - "344d46b0f790a3ec"
-pushes_per_week: [17, 0, 1, 0, 0, 0, 1, 14, 0, 0, 3, 8, 4]
+pushes_per_week: [16, 0, 1, 0, 0, 0, 1, 14, 0, 0, 3, 8, 4]
 windows:
   "7d":
     pushes: 4
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 48
+    pushes: 47
     distinct_repos: 5
-    active_days: 14
+    active_days: 13
     repos_not_owned: 3
     not_owned_basenames: 2
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 3.4286
-  repo_per_active_day: 0.3571
+  push_per_day: 3.6154
+  repo_per_active_day: 0.3846
   not_owned_ratio: 0.6000
   basename_concentration: 0.6000
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 48
+    pushes: 47
     distinct_repos: 5
-    pushes_per_repo: 9.6000
-    active_days: 14
+    pushes_per_repo: 9.4000
+    active_days: 13
     repos_not_owned: 3
     not_owned_basenames: 2
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 14 active days in 90d — pass"
+  - "activity: 13 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "code-review-graph"
@@ -155,6 +155,6 @@ repos:
 
 # tirth8205
 
-48 pushes across 5 repositories on 14 active days in the last 90 days of public GitHub push activity.
+47 pushes across 5 repositories on 13 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/tirth8205

@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-24T06:05:01.431039+00:00"
+generated_at: "2026-10-25T07:04:46.004956+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [134, 4, 31, 6, 2, 0, 6, 25, 1, 3, 2, 25, 13]
+pushes_per_week: [107, 4, 36, 1, 2, 3, 3, 25, 2, 3, 7, 20, 13]
 windows:
   "7d":
-    pushes: 13
-    distinct_repos: 4
-    active_days: 4
+    pushes: 14
+    distinct_repos: 5
+    active_days: 5
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 44
+    pushes: 45
     distinct_repos: 9
-    active_days: 13
+    active_days: 14
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 252
-    distinct_repos: 15
+    pushes: 226
+    distinct_repos: 14
     active_days: 38
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 6.6316
-  repo_per_active_day: 0.3947
-  not_owned_ratio: 0.1333
-  basename_concentration: 0.1333
+  push_per_day: 5.9474
+  repo_per_active_day: 0.3684
+  not_owned_ratio: 0.1429
+  basename_concentration: 0.1429
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 13
-    distinct_repos: 4
-    pushes_per_repo: 3.2500
-    active_days: 4
+    pushes: 14
+    distinct_repos: 5
+    pushes_per_repo: 2.8000
+    active_days: 5
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 44
+    pushes: 45
     distinct_repos: 9
-    pushes_per_repo: 4.8889
-    active_days: 13
+    pushes_per_repo: 5.0000
+    active_days: 14
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 252
-    distinct_repos: 15
-    pushes_per_repo: 16.8000
+    pushes: 226
+    distinct_repos: 14
+    pushes_per_repo: 16.1429
     active_days: 38
     repos_not_owned: 2
     not_owned_basenames: 2
@@ -160,6 +160,6 @@ repos:
 
 # Mathews-Tom
 
-252 pushes across 15 repositories on 38 active days in the last 90 days of public GitHub push activity.
+226 pushes across 14 repositories on 38 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Mathews-Tom

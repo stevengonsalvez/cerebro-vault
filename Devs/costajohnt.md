@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-24T06:05:01.431039+00:00"
+generated_at: "2026-10-25T07:04:46.004956+00:00"
 provenance:
   - "2a7f0fddd2dac162"
-pushes_per_week: [5, 23, 10, 3, 0, 1, 1, 28, 8, 2, 12, 1, 1]
+pushes_per_week: [5, 24, 9, 3, 0, 1, 1, 29, 7, 2, 13, 0, 7]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
+    pushes: 7
+    distinct_repos: 5
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 17
-    distinct_repos: 11
-    active_days: 8
+    pushes: 23
+    distinct_repos: 12
+    active_days: 9
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 95
+    pushes: 101
     distinct_repos: 23
-    active_days: 28
+    active_days: 29
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 3.3929
-  repo_per_active_day: 0.8214
+  push_per_day: 3.4828
+  repo_per_active_day: 0.7931
   not_owned_ratio: 0.0435
   basename_concentration: 0.0435
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes: 7
+    distinct_repos: 5
+    pushes_per_repo: 1.4000
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 17
-    distinct_repos: 11
-    pushes_per_repo: 1.5455
-    active_days: 8
+    pushes: 23
+    distinct_repos: 12
+    pushes_per_repo: 1.9167
+    active_days: 9
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 95
+    pushes: 101
     distinct_repos: 23
-    pushes_per_repo: 4.1304
-    active_days: 28
+    pushes_per_repo: 4.3913
+    active_days: 29
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 28 active days in 90d — pass"
+  - "activity: 29 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "costajohnt.github.io"
@@ -165,6 +165,6 @@ repos:
 
 # costajohnt
 
-95 pushes across 23 repositories on 28 active days in the last 90 days of public GitHub push activity.
+101 pushes across 23 repositories on 29 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/costajohnt

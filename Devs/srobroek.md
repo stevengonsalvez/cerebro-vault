@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-24T06:05:01.431039+00:00"
+generated_at: "2026-10-25T07:04:46.004956+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [68, 0, 0, 17, 23, 0, 19, 93, 116, 15, 25, 32, 27]
+pushes_per_week: [58, 0, 0, 26, 14, 0, 42, 71, 115, 25, 16, 31, 27]
 windows:
   "7d":
     pushes: 27
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 139
+    pushes: 112
     distinct_repos: 10
-    active_days: 21
+    active_days: 20
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
   "90d":
-    pushes: 435
+    pushes: 425
     distinct_repos: 22
-    active_days: 49
+    active_days: 48
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 8.8776
-  repo_per_active_day: 0.4490
+  push_per_day: 8.8542
+  repo_per_active_day: 0.4583
   not_owned_ratio: 0.2273
   basename_concentration: 0.0455
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 139
+    pushes: 112
     distinct_repos: 10
-    pushes_per_repo: 13.9000
-    active_days: 21
+    pushes_per_repo: 11.2000
+    active_days: 20
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
   "90d":
-    pushes: 435
+    pushes: 425
     distinct_repos: 22
-    pushes_per_repo: 19.7727
-    active_days: 49
+    pushes_per_repo: 19.3182
+    active_days: 48
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 49 active days in 90d — pass"
+  - "activity: 48 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "omp-plugins"
@@ -137,6 +137,6 @@ repos:
 
 # srobroek
 
-435 pushes across 22 repositories on 49 active days in the last 90 days of public GitHub push activity.
+425 pushes across 22 repositories on 48 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/srobroek

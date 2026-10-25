@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-24T06:05:01.431039+00:00"
+generated_at: "2026-10-25T07:04:46.004956+00:00"
 provenance:
   - "716cf9e2237ac9db"
-pushes_per_week: [7, 2, 1, 2, 0, 0, 2, 2, 0, 0, 0, 1, 0]
+pushes_per_week: [2, 2, 1, 2, 0, 0, 3, 1, 0, 0, 0, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 17
-    distinct_repos: 6
-    active_days: 10
-    repos_not_owned: 3
-    not_owned_basenames: 3
-    not_owned_owners: 3
+    pushes: 12
+    distinct_repos: 4
+    active_days: 9
+    repos_not_owned: 2
+    not_owned_basenames: 2
+    not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 1.7000
-  repo_per_active_day: 0.6000
+  push_per_day: 1.3333
+  repo_per_active_day: 0.4444
   not_owned_ratio: 0.5000
-  basename_concentration: 0.3333
+  basename_concentration: 0.5000
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 17
-    distinct_repos: 6
-    pushes_per_repo: 2.8333
-    active_days: 10
-    repos_not_owned: 3
-    not_owned_basenames: 3
-    not_owned_owners: 3
+    pushes: 12
+    distinct_repos: 4
+    pushes_per_repo: 3.0000
+    active_days: 9
+    repos_not_owned: 2
+    not_owned_basenames: 2
+    not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 10 active days in 90d — pass"
+  - "activity: 9 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "gizmo-ai-unlimited"
@@ -149,6 +149,6 @@ repos:
 
 # alexey-max-fedorov
 
-17 pushes across 6 repositories on 10 active days in the last 90 days of public GitHub push activity.
+12 pushes across 4 repositories on 9 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/alexey-max-fedorov

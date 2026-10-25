@@ -11,43 +11,43 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-24T06:05:01.431039+00:00"
+generated_at: "2026-10-25T07:04:46.004956+00:00"
 provenance:
   - "0a8884baa5f55aa6"
   - "2a7f0fddd2dac162"
-pushes_per_week: [106, 44, 109, 36, 35, 7, 44, 134, 69, 164, 92, 113, 117]
+pushes_per_week: [94, 59, 99, 43, 20, 14, 64, 115, 95, 153, 76, 107, 139]
 windows:
   "7d":
-    pushes: 117
-    distinct_repos: 4
-    active_days: 6
-    repos_not_owned: 3
-    not_owned_basenames: 1
-    not_owned_owners: 3
+    pushes: 142
+    distinct_repos: 7
+    active_days: 7
+    repos_not_owned: 6
+    not_owned_basenames: 3
+    not_owned_owners: 4
   "30d":
-    pushes: 517
-    distinct_repos: 19
-    active_days: 25
-    repos_not_owned: 18
-    not_owned_basenames: 1
-    not_owned_owners: 18
+    pushes: 540
+    distinct_repos: 22
+    active_days: 27
+    repos_not_owned: 21
+    not_owned_basenames: 3
+    not_owned_owners: 19
   "90d":
-    pushes: 1070
+    pushes: 1078
     distinct_repos: 33
-    active_days: 81
+    active_days: 82
     repos_not_owned: 32
-    not_owned_basenames: 2
-    not_owned_owners: 32
+    not_owned_basenames: 4
+    not_owned_owners: 30
 automation:
   state: "clear"
-  push_per_day: 13.2099
-  repo_per_active_day: 0.4074
+  push_per_day: 13.1463
+  repo_per_active_day: 0.4024
   not_owned_ratio: 0.9697
-  basename_concentration: 0.9697
+  basename_concentration: 0.9091
   shapes:
     - "fork_farm_third_party"
   shape_evidence:
-    - "basename concentration 0.9697 (32 of 33 repos share one basename), 32 not owned across 2 basenames — 5 of 5 sampled repos resolved; 5 fork somebody else's repo; upstreams: stablyai/orca"
+    - "basename concentration 0.9091 (30 of 33 repos share one basename), 32 not owned across 4 basenames — 5 of 5 sampled repos resolved; 5 fork somebody else's repo; upstreams: stablyai/orca"
   cleared_by: "e01-builder"
   cleared_on: "2026-08-26"
   fork_provenance:
@@ -68,32 +68,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 117
-    distinct_repos: 4
-    pushes_per_repo: 29.2500
-    active_days: 6
-    repos_not_owned: 3
-    not_owned_basenames: 1
-    not_owned_owners: 3
+    pushes: 142
+    distinct_repos: 7
+    pushes_per_repo: 20.2857
+    active_days: 7
+    repos_not_owned: 6
+    not_owned_basenames: 3
+    not_owned_owners: 4
   "30d":
-    pushes: 517
-    distinct_repos: 19
-    pushes_per_repo: 27.2105
-    active_days: 25
-    repos_not_owned: 18
-    not_owned_basenames: 1
-    not_owned_owners: 18
+    pushes: 540
+    distinct_repos: 22
+    pushes_per_repo: 24.5455
+    active_days: 27
+    repos_not_owned: 21
+    not_owned_basenames: 3
+    not_owned_owners: 19
   "90d":
-    pushes: 1070
+    pushes: 1078
     distinct_repos: 33
-    pushes_per_repo: 32.4242
-    active_days: 81
+    pushes_per_repo: 32.6667
+    active_days: 82
     repos_not_owned: 32
-    not_owned_basenames: 2
-    not_owned_owners: 32
+    not_owned_basenames: 4
+    not_owned_owners: 30
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 81 active days in 90d — pass"
+  - "activity: 82 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "chain-trigger"
@@ -148,6 +148,6 @@ repos:
 
 # nwparker
 
-1070 pushes across 33 repositories on 81 active days in the last 90 days of public GitHub push activity.
+1078 pushes across 33 repositories on 82 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/nwparker

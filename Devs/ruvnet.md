@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-24T06:05:01.431039+00:00"
+generated_at: "2026-10-25T07:04:46.004956+00:00"
 provenance:
   - "c60b77ce50fb8910"
-pushes_per_week: [33, 38, 31, 13, 16, 3, 12, 32, 42, 52, 37, 62, 18]
+pushes_per_week: [40, 28, 33, 14, 11, 2, 24, 21, 50, 52, 47, 43, 27]
 windows:
   "7d":
-    pushes: 18
-    distinct_repos: 5
-    active_days: 4
-    repos_not_owned: 2
-    not_owned_basenames: 1
-    not_owned_owners: 2
-  "30d":
-    pushes: 205
-    distinct_repos: 19
-    active_days: 23
-    repos_not_owned: 6
+    pushes: 27
+    distinct_repos: 8
+    active_days: 6
+    repos_not_owned: 3
     not_owned_basenames: 2
-    not_owned_owners: 6
-  "90d":
-    pushes: 389
-    distinct_repos: 38
-    active_days: 70
-    repos_not_owned: 8
-    not_owned_basenames: 4
+    not_owned_owners: 3
+  "30d":
+    pushes: 213
+    distinct_repos: 21
+    active_days: 24
+    repos_not_owned: 7
+    not_owned_basenames: 3
     not_owned_owners: 7
+  "90d":
+    pushes: 392
+    distinct_repos: 40
+    active_days: 71
+    repos_not_owned: 9
+    not_owned_basenames: 5
+    not_owned_owners: 8
 automation:
   state: "clear"
-  push_per_day: 5.5571
-  repo_per_active_day: 0.5429
-  not_owned_ratio: 0.2105
-  basename_concentration: 0.1579
+  push_per_day: 5.5211
+  repo_per_active_day: 0.5634
+  not_owned_ratio: 0.2250
+  basename_concentration: 0.1500
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 18
-    distinct_repos: 5
-    pushes_per_repo: 3.6000
-    active_days: 4
-    repos_not_owned: 2
-    not_owned_basenames: 1
-    not_owned_owners: 2
-  "30d":
-    pushes: 205
-    distinct_repos: 19
-    pushes_per_repo: 10.7895
-    active_days: 23
-    repos_not_owned: 6
+    pushes: 27
+    distinct_repos: 8
+    pushes_per_repo: 3.3750
+    active_days: 6
+    repos_not_owned: 3
     not_owned_basenames: 2
-    not_owned_owners: 6
-  "90d":
-    pushes: 389
-    distinct_repos: 38
-    pushes_per_repo: 10.2368
-    active_days: 70
-    repos_not_owned: 8
-    not_owned_basenames: 4
+    not_owned_owners: 3
+  "30d":
+    pushes: 213
+    distinct_repos: 21
+    pushes_per_repo: 10.1429
+    active_days: 24
+    repos_not_owned: 7
+    not_owned_basenames: 3
     not_owned_owners: 7
+  "90d":
+    pushes: 392
+    distinct_repos: 40
+    pushes_per_repo: 9.8000
+    active_days: 71
+    repos_not_owned: 9
+    not_owned_basenames: 5
+    not_owned_owners: 8
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 70 active days in 90d — pass"
+  - "activity: 71 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "ruflo"
@@ -187,6 +187,6 @@ repos:
 
 # ruvnet
 
-389 pushes across 38 repositories on 70 active days in the last 90 days of public GitHub push activity.
+392 pushes across 40 repositories on 71 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ruvnet

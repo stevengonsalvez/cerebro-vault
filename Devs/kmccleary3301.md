@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-24T06:05:01.431039+00:00"
+generated_at: "2026-10-25T07:04:46.004956+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [11, 9, 15, 6, 11, 2, 1, 2, 10, 3, 0, 6, 1]
+pushes_per_week: [11, 9, 18, 7, 7, 2, 1, 2, 10, 3, 0, 6, 3]
 windows:
   "7d":
-    pushes: 1
+    pushes: 3
     distinct_repos: 1
-    active_days: 1
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 17
+    pushes: 16
     distinct_repos: 3
     active_days: 9
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 77
+    pushes: 79
     distinct_repos: 6
-    active_days: 31
+    active_days: 32
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.4839
-  repo_per_active_day: 0.1935
+  push_per_day: 2.4688
+  repo_per_active_day: 0.1875
   not_owned_ratio: 0.0000
   basename_concentration: 0.1667
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
+    pushes: 3
     distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes_per_repo: 3.0000
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 17
+    pushes: 16
     distinct_repos: 3
-    pushes_per_repo: 5.6667
+    pushes_per_repo: 5.3333
     active_days: 9
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 77
+    pushes: 79
     distinct_repos: 6
-    pushes_per_repo: 12.8333
-    active_days: 31
+    pushes_per_repo: 13.1667
+    active_days: 32
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 31 active days in 90d — pass"
+  - "activity: 32 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "nested_learning"
@@ -129,6 +129,6 @@ repos:
 
 # kmccleary3301
 
-77 pushes across 6 repositories on 31 active days in the last 90 days of public GitHub push activity.
+79 pushes across 6 repositories on 32 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/kmccleary3301

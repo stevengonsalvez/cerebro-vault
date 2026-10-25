@@ -10,27 +10,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-24T06:05:01.431039+00:00"
+generated_at: "2026-10-25T07:04:46.004956+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [13, 8, 4, 0, 2, 1, 2, 5, 5, 15, 6, 5, 3]
+pushes_per_week: [17, 2, 4, 0, 2, 1, 2, 5, 15, 5, 6, 5, 4]
 windows:
   "7d":
-    pushes: 3
+    pushes: 4
     distinct_repos: 1
-    active_days: 2
+    active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
     pushes: 34
     distinct_repos: 4
-    active_days: 14
+    active_days: 15
     repos_not_owned: 4
     not_owned_basenames: 3
     not_owned_owners: 2
   "90d":
-    pushes: 69
+    pushes: 68
     distinct_repos: 6
     active_days: 30
     repos_not_owned: 6
@@ -38,7 +38,7 @@ windows:
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 2.3000
+  push_per_day: 2.2667
   repo_per_active_day: 0.2000
   not_owned_ratio: 1.0000
   basename_concentration: 0.5000
@@ -50,10 +50,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 3
+    pushes: 4
     distinct_repos: 1
-    pushes_per_repo: 3.0000
-    active_days: 2
+    pushes_per_repo: 4.0000
+    active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -61,14 +61,14 @@ facets:
     pushes: 34
     distinct_repos: 4
     pushes_per_repo: 8.5000
-    active_days: 14
+    active_days: 15
     repos_not_owned: 4
     not_owned_basenames: 3
     not_owned_owners: 2
   "90d":
-    pushes: 69
+    pushes: 68
     distinct_repos: 6
-    pushes_per_repo: 11.5000
+    pushes_per_repo: 11.3333
     active_days: 30
     repos_not_owned: 6
     not_owned_basenames: 4
@@ -130,6 +130,6 @@ repos:
 
 # Soulter
 
-69 pushes across 6 repositories on 30 active days in the last 90 days of public GitHub push activity.
+68 pushes across 6 repositories on 30 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Soulter

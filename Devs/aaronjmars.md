@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-24T06:05:01.431039+00:00"
+generated_at: "2026-10-25T07:04:46.004956+00:00"
 provenance:
   - "9d67ce648f6a8919"
-pushes_per_week: [40, 18, 25, 17, 21, 5, 14, 40, 48, 53, 20, 21, 12]
+pushes_per_week: [37, 17, 26, 19, 16, 8, 19, 44, 43, 52, 14, 24, 10]
 windows:
   "7d":
-    pushes: 12
+    pushes: 13
     distinct_repos: 3
-    active_days: 5
+    active_days: 6
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
   "30d":
-    pushes: 123
-    distinct_repos: 16
+    pushes: 119
+    distinct_repos: 15
     active_days: 22
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 2
   "90d":
-    pushes: 334
+    pushes: 329
     distinct_repos: 23
     active_days: 71
     repos_not_owned: 7
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 4.7042
+  push_per_day: 4.6338
   repo_per_active_day: 0.3239
   not_owned_ratio: 0.3043
   basename_concentration: 0.0870
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 12
+    pushes: 13
     distinct_repos: 3
-    pushes_per_repo: 4.0000
-    active_days: 5
+    pushes_per_repo: 4.3333
+    active_days: 6
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
   "30d":
-    pushes: 123
-    distinct_repos: 16
-    pushes_per_repo: 7.6875
+    pushes: 119
+    distinct_repos: 15
+    pushes_per_repo: 7.9333
     active_days: 22
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 2
   "90d":
-    pushes: 334
+    pushes: 329
     distinct_repos: 23
-    pushes_per_repo: 14.5217
+    pushes_per_repo: 14.3043
     active_days: 71
     repos_not_owned: 7
     not_owned_basenames: 7
@@ -178,6 +178,6 @@ repos:
 
 # aaronjmars
 
-334 pushes across 23 repositories on 71 active days in the last 90 days of public GitHub push activity.
+329 pushes across 23 repositories on 71 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/aaronjmars

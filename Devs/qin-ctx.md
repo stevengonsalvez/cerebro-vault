@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-24T06:05:01.431039+00:00"
+generated_at: "2026-10-25T07:04:46.004956+00:00"
 provenance:
   - "876fe6c1edb8596c"
-pushes_per_week: [6, 0, 3, 2, 3, 1, 3, 5, 13, 4, 0, 6, 1]
+pushes_per_week: [5, 0, 3, 2, 3, 1, 3, 8, 10, 4, 0, 6, 1]
 windows:
   "7d":
     pushes: 1
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 13
+    pushes: 11
     distinct_repos: 2
-    active_days: 6
+    active_days: 5
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
   "90d":
-    pushes: 47
+    pushes: 46
     distinct_repos: 5
-    active_days: 24
+    active_days: 23
     repos_not_owned: 5
     not_owned_basenames: 1
     not_owned_owners: 5
 automation:
   state: "clear"
-  push_per_day: 1.9583
-  repo_per_active_day: 0.2083
+  push_per_day: 2.0000
+  repo_per_active_day: 0.2174
   not_owned_ratio: 1.0000
   basename_concentration: 1.0000
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 13
+    pushes: 11
     distinct_repos: 2
-    pushes_per_repo: 6.5000
-    active_days: 6
+    pushes_per_repo: 5.5000
+    active_days: 5
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
   "90d":
-    pushes: 47
+    pushes: 46
     distinct_repos: 5
-    pushes_per_repo: 9.4000
-    active_days: 24
+    pushes_per_repo: 9.2000
+    active_days: 23
     repos_not_owned: 5
     not_owned_basenames: 1
     not_owned_owners: 5
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 24 active days in 90d — pass"
+  - "activity: 23 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "qin-ctx"
@@ -113,6 +113,6 @@ repos:
 
 # qin-ctx
 
-47 pushes across 5 repositories on 24 active days in the last 90 days of public GitHub push activity.
+46 pushes across 5 repositories on 23 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/qin-ctx

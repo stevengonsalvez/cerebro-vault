@@ -10,27 +10,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-24T06:05:01.431039+00:00"
+generated_at: "2026-10-25T07:04:46.004956+00:00"
 provenance:
   - "dd9400311fbaa816"
-pushes_per_week: [28, 35, 29, 2, 10, 2, 13, 14, 32, 26, 29, 96, 62]
+pushes_per_week: [20, 52, 10, 2, 10, 9, 6, 14, 34, 26, 60, 68, 64]
 windows:
   "7d":
-    pushes: 62
+    pushes: 69
     distinct_repos: 3
     active_days: 7
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 244
-    distinct_repos: 5
+    pushes: 242
+    distinct_repos: 4
     active_days: 26
-    repos_not_owned: 4
-    not_owned_basenames: 3
+    repos_not_owned: 3
+    not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 378
+    pushes: 375
     distinct_repos: 7
     active_days: 61
     repos_not_owned: 5
@@ -38,7 +38,7 @@ windows:
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 6.1967
+  push_per_day: 6.1475
   repo_per_active_day: 0.1148
   not_owned_ratio: 0.7143
   basename_concentration: 0.2857
@@ -50,25 +50,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 62
+    pushes: 69
     distinct_repos: 3
-    pushes_per_repo: 20.6667
+    pushes_per_repo: 23.0000
     active_days: 7
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 244
-    distinct_repos: 5
-    pushes_per_repo: 48.8000
+    pushes: 242
+    distinct_repos: 4
+    pushes_per_repo: 60.5000
     active_days: 26
-    repos_not_owned: 4
-    not_owned_basenames: 3
+    repos_not_owned: 3
+    not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 378
+    pushes: 375
     distinct_repos: 7
-    pushes_per_repo: 54.0000
+    pushes_per_repo: 53.5714
     active_days: 61
     repos_not_owned: 5
     not_owned_basenames: 4
@@ -136,6 +136,6 @@ repos:
 
 # t3dotgg
 
-378 pushes across 7 repositories on 61 active days in the last 90 days of public GitHub push activity.
+375 pushes across 7 repositories on 61 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/t3dotgg

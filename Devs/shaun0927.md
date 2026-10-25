@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-24T06:05:01.431039+00:00"
+generated_at: "2026-10-25T07:04:46.004956+00:00"
 provenance:
   - "dae9f02535f7c22f"
-pushes_per_week: [30, 3, 2, 6, 17, 1, 2, 0, 8, 3, 0, 1, 3]
+pushes_per_week: [11, 2, 3, 19, 3, 1, 2, 0, 10, 1, 0, 1, 3]
 windows:
   "7d":
     pushes: 3
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 76
-    distinct_repos: 23
-    active_days: 23
-    repos_not_owned: 13
-    not_owned_basenames: 10
-    not_owned_owners: 5
+    pushes: 56
+    distinct_repos: 14
+    active_days: 21
+    repos_not_owned: 4
+    not_owned_basenames: 4
+    not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 3.3043
-  repo_per_active_day: 1.0000
-  not_owned_ratio: 0.5652
-  basename_concentration: 0.2174
+  push_per_day: 2.6667
+  repo_per_active_day: 0.6667
+  not_owned_ratio: 0.2857
+  basename_concentration: 0.1429
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 76
-    distinct_repos: 23
-    pushes_per_repo: 3.3043
-    active_days: 23
-    repos_not_owned: 13
-    not_owned_basenames: 10
-    not_owned_owners: 5
+    pushes: 56
+    distinct_repos: 14
+    pushes_per_repo: 4.0000
+    active_days: 21
+    repos_not_owned: 4
+    not_owned_basenames: 4
+    not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 23 active days in 90d — pass"
+  - "activity: 21 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "shaun0927"
@@ -129,6 +129,6 @@ repos:
 
 # shaun0927
 
-76 pushes across 23 repositories on 23 active days in the last 90 days of public GitHub push activity.
+56 pushes across 14 repositories on 21 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/shaun0927

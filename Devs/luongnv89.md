@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-24T06:05:01.431039+00:00"
+generated_at: "2026-10-25T07:04:46.004956+00:00"
 provenance:
   - "98a99d0df7599b35"
-pushes_per_week: [9, 7, 11, 17, 19, 4, 19, 74, 41, 11, 24, 16, 13]
+pushes_per_week: [7, 7, 11, 21, 17, 3, 26, 72, 37, 10, 24, 15, 14]
 windows:
   "7d":
-    pushes: 13
-    distinct_repos: 5
-    active_days: 3
+    pushes: 14
+    distinct_repos: 6
+    active_days: 4
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 89
+    pushes: 81
     distinct_repos: 25
     active_days: 20
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 3
   "90d":
-    pushes: 265
+    pushes: 264
     distinct_repos: 44
     active_days: 62
     repos_not_owned: 9
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 4.2742
+  push_per_day: 4.2581
   repo_per_active_day: 0.7097
   not_owned_ratio: 0.2045
   basename_concentration: 0.0455
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 13
-    distinct_repos: 5
-    pushes_per_repo: 2.6000
-    active_days: 3
+    pushes: 14
+    distinct_repos: 6
+    pushes_per_repo: 2.3333
+    active_days: 4
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 89
+    pushes: 81
     distinct_repos: 25
-    pushes_per_repo: 3.5600
+    pushes_per_repo: 3.2400
     active_days: 20
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 3
   "90d":
-    pushes: 265
+    pushes: 264
     distinct_repos: 44
-    pushes_per_repo: 6.0227
+    pushes_per_repo: 6.0000
     active_days: 62
     repos_not_owned: 9
     not_owned_basenames: 9
@@ -134,6 +134,6 @@ repos:
 
 # luongnv89
 
-265 pushes across 44 repositories on 62 active days in the last 90 days of public GitHub push activity.
+264 pushes across 44 repositories on 62 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/luongnv89

@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-24T06:05:01.431039+00:00"
+generated_at: "2026-10-25T07:04:46.004956+00:00"
 provenance:
   - "4138778ebbc75ba6"
-pushes_per_week: [1, 6, 0, 2, 2, 0, 0, 0, 1, 0, 10, 32, 3]
+pushes_per_week: [1, 6, 0, 2, 2, 0, 0, 0, 1, 0, 35, 8, 6]
 windows:
   "7d":
-    pushes: 3
-    distinct_repos: 1
-    active_days: 2
-    repos_not_owned: 1
-    not_owned_basenames: 1
+    pushes: 7
+    distinct_repos: 3
+    active_days: 4
+    repos_not_owned: 3
+    not_owned_basenames: 3
     not_owned_owners: 1
   "30d":
-    pushes: 45
-    distinct_repos: 4
-    active_days: 6
-    repos_not_owned: 4
-    not_owned_basenames: 4
+    pushes: 49
+    distinct_repos: 5
+    active_days: 8
+    repos_not_owned: 5
+    not_owned_basenames: 5
     not_owned_owners: 1
   "90d":
-    pushes: 57
-    distinct_repos: 10
-    active_days: 15
-    repos_not_owned: 10
-    not_owned_basenames: 9
+    pushes: 61
+    distinct_repos: 11
+    active_days: 17
+    repos_not_owned: 11
+    not_owned_basenames: 10
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 3.8000
-  repo_per_active_day: 0.6667
+  push_per_day: 3.5882
+  repo_per_active_day: 0.6471
   not_owned_ratio: 1.0000
-  basename_concentration: 0.2000
+  basename_concentration: 0.1818
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 3
-    distinct_repos: 1
-    pushes_per_repo: 3.0000
-    active_days: 2
-    repos_not_owned: 1
-    not_owned_basenames: 1
+    pushes: 7
+    distinct_repos: 3
+    pushes_per_repo: 2.3333
+    active_days: 4
+    repos_not_owned: 3
+    not_owned_basenames: 3
     not_owned_owners: 1
   "30d":
-    pushes: 45
-    distinct_repos: 4
-    pushes_per_repo: 11.2500
-    active_days: 6
-    repos_not_owned: 4
-    not_owned_basenames: 4
+    pushes: 49
+    distinct_repos: 5
+    pushes_per_repo: 9.8000
+    active_days: 8
+    repos_not_owned: 5
+    not_owned_basenames: 5
     not_owned_owners: 1
   "90d":
-    pushes: 57
-    distinct_repos: 10
-    pushes_per_repo: 5.7000
-    active_days: 15
-    repos_not_owned: 10
-    not_owned_basenames: 9
+    pushes: 61
+    distinct_repos: 11
+    pushes_per_repo: 5.5455
+    active_days: 17
+    repos_not_owned: 11
+    not_owned_basenames: 10
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 15 active days in 90d — pass"
+  - "activity: 17 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "OpenVTOLPlane"
@@ -129,6 +129,6 @@ repos:
 
 # viniciusmiguel
 
-57 pushes across 10 repositories on 15 active days in the last 90 days of public GitHub push activity.
+61 pushes across 11 repositories on 17 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/viniciusmiguel

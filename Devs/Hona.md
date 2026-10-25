@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-24T06:05:01.431039+00:00"
+generated_at: "2026-10-25T07:04:46.004956+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [9, 8, 34, 7, 26, 3, 9, 16, 15, 6, 18, 12, 11]
+pushes_per_week: [8, 8, 34, 7, 28, 5, 5, 20, 11, 11, 14, 12, 10]
 windows:
   "7d":
     pushes: 11
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 174
+    pushes: 173
     distinct_repos: 12
-    active_days: 52
+    active_days: 51
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 3.3462
-  repo_per_active_day: 0.2308
+  push_per_day: 3.3922
+  repo_per_active_day: 0.2353
   not_owned_ratio: 0.1667
   basename_concentration: 0.1667
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 174
+    pushes: 173
     distinct_repos: 12
-    pushes_per_repo: 14.5000
-    active_days: 52
+    pushes_per_repo: 14.4167
+    active_days: 51
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 52 active days in 90d — pass"
+  - "activity: 51 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "quantum-cava-hrtp-paper"
@@ -129,6 +129,6 @@ repos:
 
 # Hona
 
-174 pushes across 12 repositories on 52 active days in the last 90 days of public GitHub push activity.
+173 pushes across 12 repositories on 51 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Hona

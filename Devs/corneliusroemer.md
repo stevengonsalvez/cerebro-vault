@@ -9,13 +9,13 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-24T06:05:01.431039+00:00"
+generated_at: "2026-10-25T07:04:46.004956+00:00"
 provenance:
   - "97c4e9cb8b163ddb"
   - "c7515e0fa4368a55"
   - "d3abe74726b22711"
   - "e7c647c4d0689526"
-pushes_per_week: [1, 2, 2, 2, 2, 0, 1, 5, 3, 12, 2, 2, 0]
+pushes_per_week: [0, 2, 2, 2, 2, 0, 1, 5, 7, 8, 2, 2, 0]
 windows:
   "7d":
     pushes: 0
@@ -32,18 +32,18 @@ windows:
     not_owned_basenames: 5
     not_owned_owners: 3
   "90d":
-    pushes: 34
-    distinct_repos: 9
-    active_days: 20
+    pushes: 33
+    distinct_repos: 8
+    active_days: 19
     repos_not_owned: 6
     not_owned_basenames: 6
     not_owned_owners: 4
 automation:
   state: "clear"
-  push_per_day: 1.7000
-  repo_per_active_day: 0.4500
-  not_owned_ratio: 0.6667
-  basename_concentration: 0.1111
+  push_per_day: 1.7368
+  repo_per_active_day: 0.4211
+  not_owned_ratio: 0.7500
+  basename_concentration: 0.1250
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -68,16 +68,16 @@ facets:
     not_owned_basenames: 5
     not_owned_owners: 3
   "90d":
-    pushes: 34
-    distinct_repos: 9
-    pushes_per_repo: 3.7778
-    active_days: 20
+    pushes: 33
+    distinct_repos: 8
+    pushes_per_repo: 4.1250
+    active_days: 19
     repos_not_owned: 6
     not_owned_basenames: 6
     not_owned_owners: 4
 reasons:
   - "provenance: 4 vault signal(s) — pass"
-  - "activity: 20 active days in 90d — pass"
+  - "activity: 19 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "rki-abwasser-reports"
@@ -138,6 +138,6 @@ repos:
 
 # corneliusroemer
 
-34 pushes across 9 repositories on 20 active days in the last 90 days of public GitHub push activity.
+33 pushes across 8 repositories on 19 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/corneliusroemer

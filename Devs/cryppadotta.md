@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-24T06:05:01.431039+00:00"
+generated_at: "2026-10-25T07:04:46.004956+00:00"
 provenance:
   - "a5e43b1572bfaf36"
-pushes_per_week: [56, 36, 18, 12, 92, 35, 28, 34, 23, 107, 60, 111, 60]
+pushes_per_week: [70, 22, 19, 13, 121, 6, 33, 30, 31, 97, 73, 97, 63]
 windows:
   "7d":
-    pushes: 60
+    pushes: 63
     distinct_repos: 2
-    active_days: 4
+    active_days: 5
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 672
+    pushes: 675
     distinct_repos: 5
-    active_days: 74
+    active_days: 75
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 9.0811
-  repo_per_active_day: 0.0676
+  push_per_day: 9.0000
+  repo_per_active_day: 0.0667
   not_owned_ratio: 0.6000
   basename_concentration: 0.2000
   shapes: []
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 60
+    pushes: 63
     distinct_repos: 2
-    pushes_per_repo: 30.0000
-    active_days: 4
+    pushes_per_repo: 31.5000
+    active_days: 5
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 672
+    pushes: 675
     distinct_repos: 5
-    pushes_per_repo: 134.4000
-    active_days: 74
+    pushes_per_repo: 135.0000
+    active_days: 75
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 74 active days in 90d — pass"
+  - "activity: 75 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "dotta-license"
@@ -129,6 +129,6 @@ repos:
 
 # cryppadotta
 
-672 pushes across 5 repositories on 74 active days in the last 90 days of public GitHub push activity.
+675 pushes across 5 repositories on 75 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/cryppadotta

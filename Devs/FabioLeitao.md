@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-24T06:05:01.431039+00:00"
+generated_at: "2026-10-25T07:04:46.004956+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [8, 3, 14, 18, 3, 0, 7, 7, 5, 2, 9, 7, 6]
+pushes_per_week: [8, 7, 16, 13, 2, 0, 13, 1, 5, 7, 5, 6, 7]
 windows:
   "7d":
-    pushes: 6
-    distinct_repos: 3
-    active_days: 3
+    pushes: 7
+    distinct_repos: 4
+    active_days: 4
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
     pushes: 26
-    distinct_repos: 10
+    distinct_repos: 11
     active_days: 13
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 89
-    distinct_repos: 11
-    active_days: 35
+    pushes: 90
+    distinct_repos: 12
+    active_days: 36
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.5429
-  repo_per_active_day: 0.3143
-  not_owned_ratio: 0.1818
-  basename_concentration: 0.0909
+  push_per_day: 2.5000
+  repo_per_active_day: 0.3333
+  not_owned_ratio: 0.1667
+  basename_concentration: 0.0833
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 6
-    distinct_repos: 3
-    pushes_per_repo: 2.0000
-    active_days: 3
+    pushes: 7
+    distinct_repos: 4
+    pushes_per_repo: 1.7500
+    active_days: 4
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
     pushes: 26
-    distinct_repos: 10
-    pushes_per_repo: 2.6000
+    distinct_repos: 11
+    pushes_per_repo: 2.3636
     active_days: 13
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 89
-    distinct_repos: 11
-    pushes_per_repo: 8.0909
-    active_days: 35
+    pushes: 90
+    distinct_repos: 12
+    pushes_per_repo: 7.5000
+    active_days: 36
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 35 active days in 90d — pass"
+  - "activity: 36 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "zero-bridge-desktop"
@@ -129,6 +129,6 @@ repos:
 
 # FabioLeitao
 
-89 pushes across 11 repositories on 35 active days in the last 90 days of public GitHub push activity.
+90 pushes across 12 repositories on 36 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/FabioLeitao

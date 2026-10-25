@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-24T06:05:01.431039+00:00"
+generated_at: "2026-10-25T07:04:46.004956+00:00"
 provenance:
   - "02eab667df448997"
-pushes_per_week: [2, 2, 2, 0, 3, 0, 1, 3, 15, 2, 1, 1, 3]
+pushes_per_week: [1, 2, 2, 0, 3, 0, 1, 3, 15, 2, 1, 1, 3]
 windows:
   "7d":
     pushes: 3
@@ -22,14 +22,14 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 18
+    pushes: 16
     distinct_repos: 4
-    active_days: 7
+    active_days: 6
     repos_not_owned: 4
     not_owned_basenames: 3
     not_owned_owners: 2
   "90d":
-    pushes: 35
+    pushes: 34
     distinct_repos: 5
     active_days: 17
     repos_not_owned: 5
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 2.0588
+  push_per_day: 2.0000
   repo_per_active_day: 0.2941
   not_owned_ratio: 1.0000
   basename_concentration: 0.4000
@@ -57,17 +57,17 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 18
+    pushes: 16
     distinct_repos: 4
-    pushes_per_repo: 4.5000
-    active_days: 7
+    pushes_per_repo: 4.0000
+    active_days: 6
     repos_not_owned: 4
     not_owned_basenames: 3
     not_owned_owners: 2
   "90d":
-    pushes: 35
+    pushes: 34
     distinct_repos: 5
-    pushes_per_repo: 7.0000
+    pushes_per_repo: 6.8000
     active_days: 17
     repos_not_owned: 5
     not_owned_basenames: 4
@@ -129,6 +129,6 @@ repos:
 
 # twishabansal
 
-35 pushes across 5 repositories on 17 active days in the last 90 days of public GitHub push activity.
+34 pushes across 5 repositories on 17 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/twishabansal

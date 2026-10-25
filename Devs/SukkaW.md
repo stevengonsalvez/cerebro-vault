@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-24T06:05:01.431039+00:00"
+generated_at: "2026-10-25T07:04:46.004956+00:00"
 provenance:
   - "ef17663e884139a8"
-pushes_per_week: [27, 20, 38, 7, 5, 0, 2, 5, 7, 12, 2, 3, 5]
+pushes_per_week: [22, 25, 32, 7, 4, 0, 2, 6, 10, 8, 3, 2, 5]
 windows:
   "7d":
     pushes: 5
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 3
     not_owned_owners: 2
   "90d":
-    pushes: 133
-    distinct_repos: 33
-    active_days: 52
+    pushes: 126
+    distinct_repos: 32
+    active_days: 51
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 2.5577
-  repo_per_active_day: 0.6346
-  not_owned_ratio: 0.1515
-  basename_concentration: 0.0606
+  push_per_day: 2.4706
+  repo_per_active_day: 0.6275
+  not_owned_ratio: 0.1562
+  basename_concentration: 0.0625
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 3
     not_owned_owners: 2
   "90d":
-    pushes: 133
-    distinct_repos: 33
-    pushes_per_repo: 4.0303
-    active_days: 52
+    pushes: 126
+    distinct_repos: 32
+    pushes_per_repo: 3.9375
+    active_days: 51
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 52 active days in 90d — pass"
+  - "activity: 51 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "speed.skk.moe"
@@ -156,6 +156,6 @@ repos:
 
 # SukkaW
 
-133 pushes across 33 repositories on 52 active days in the last 90 days of public GitHub push activity.
+126 pushes across 32 repositories on 51 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/SukkaW

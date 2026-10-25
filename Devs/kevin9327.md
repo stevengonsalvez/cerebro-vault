@@ -10,39 +10,39 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-24T06:05:01.431039+00:00"
+generated_at: "2026-10-25T07:04:46.004956+00:00"
 provenance:
   - "4138778ebbc75ba6"
   - "c489e6fb5febf2ab"
-pushes_per_week: [11, 3, 7, 42, 2, 2, 1, 42, 10, 6, 2, 0, 5]
+pushes_per_week: [10, 3, 12, 37, 4, 1, 36, 9, 7, 8, 0, 0, 8]
 windows:
   "7d":
-    pushes: 5
-    distinct_repos: 4
-    active_days: 2
+    pushes: 8
+    distinct_repos: 6
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 17
-    distinct_repos: 13
+    pushes: 18
+    distinct_repos: 15
     active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 133
-    distinct_repos: 23
+    pushes: 135
+    distinct_repos: 25
     active_days: 33
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 4.0303
-  repo_per_active_day: 0.6970
+  push_per_day: 4.0909
+  repo_per_active_day: 0.7576
   not_owned_ratio: 0.0000
-  basename_concentration: 0.0435
+  basename_concentration: 0.0400
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -51,25 +51,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 5
-    distinct_repos: 4
-    pushes_per_repo: 1.2500
-    active_days: 2
+    pushes: 8
+    distinct_repos: 6
+    pushes_per_repo: 1.3333
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 17
-    distinct_repos: 13
-    pushes_per_repo: 1.3077
+    pushes: 18
+    distinct_repos: 15
+    pushes_per_repo: 1.2000
     active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 133
-    distinct_repos: 23
-    pushes_per_repo: 5.7826
+    pushes: 135
+    distinct_repos: 25
+    pushes_per_repo: 5.4000
     active_days: 33
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -162,6 +162,6 @@ repos:
 
 # kevin9327
 
-133 pushes across 23 repositories on 33 active days in the last 90 days of public GitHub push activity.
+135 pushes across 25 repositories on 33 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/kevin9327

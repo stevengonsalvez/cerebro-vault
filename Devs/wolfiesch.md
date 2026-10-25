@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-24T06:05:01.431039+00:00"
+generated_at: "2026-10-25T07:04:46.004956+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [62, 3, 10, 2, 3, 6, 0, 1, 2, 2, 8, 2, 7]
+pushes_per_week: [56, 1, 10, 2, 3, 6, 0, 1, 2, 4, 6, 2, 7]
 windows:
   "7d":
     pushes: 7
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 108
+    pushes: 100
     distinct_repos: 13
-    active_days: 27
+    active_days: 26
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 4.0000
-  repo_per_active_day: 0.4815
+  push_per_day: 3.8462
+  repo_per_active_day: 0.5000
   not_owned_ratio: 0.2308
   basename_concentration: 0.0769
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 108
+    pushes: 100
     distinct_repos: 13
-    pushes_per_repo: 8.3077
-    active_days: 27
+    pushes_per_repo: 7.6923
+    active_days: 26
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 27 active days in 90d — pass"
+  - "activity: 26 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "agenttab"
@@ -169,6 +169,6 @@ repos:
 
 # wolfiesch
 
-108 pushes across 13 repositories on 27 active days in the last 90 days of public GitHub push activity.
+100 pushes across 13 repositories on 26 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/wolfiesch

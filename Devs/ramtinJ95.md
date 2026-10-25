@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-24T06:05:01.431039+00:00"
+generated_at: "2026-10-25T07:04:46.004956+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [4, 2, 3, 1, 3, 0, 5, 0, 1, 0, 1, 6, 2]
+pushes_per_week: [4, 4, 1, 2, 2, 1, 4, 1, 0, 0, 2, 5, 3]
 windows:
   "7d":
-    pushes: 2
-    distinct_repos: 1
-    active_days: 2
+    pushes: 3
+    distinct_repos: 2
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 9
-    distinct_repos: 5
-    active_days: 6
+    pushes: 10
+    distinct_repos: 6
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 28
-    distinct_repos: 9
-    active_days: 19
+    pushes: 29
+    distinct_repos: 10
+    active_days: 20
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.4737
-  repo_per_active_day: 0.4737
+  push_per_day: 1.4500
+  repo_per_active_day: 0.5000
   not_owned_ratio: 0.0000
-  basename_concentration: 0.1111
+  basename_concentration: 0.1000
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
-    distinct_repos: 1
-    pushes_per_repo: 2.0000
-    active_days: 2
+    pushes: 3
+    distinct_repos: 2
+    pushes_per_repo: 1.5000
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 9
-    distinct_repos: 5
-    pushes_per_repo: 1.8000
-    active_days: 6
+    pushes: 10
+    distinct_repos: 6
+    pushes_per_repo: 1.6667
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 28
-    distinct_repos: 9
-    pushes_per_repo: 3.1111
-    active_days: 19
+    pushes: 29
+    distinct_repos: 10
+    pushes_per_repo: 2.9000
+    active_days: 20
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 19 active days in 90d — pass"
+  - "activity: 20 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "macarchy"
@@ -134,6 +134,6 @@ repos:
 
 # ramtinJ95
 
-28 pushes across 9 repositories on 19 active days in the last 90 days of public GitHub push activity.
+29 pushes across 10 repositories on 20 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ramtinJ95

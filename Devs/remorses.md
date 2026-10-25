@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-24T06:05:01.431039+00:00"
+generated_at: "2026-10-25T07:04:46.004956+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [5, 1, 5, 0, 7, 0, 1, 4, 4, 2, 2, 1, 1]
+pushes_per_week: [3, 2, 4, 2, 5, 0, 2, 3, 5, 1, 2, 1, 1]
 windows:
   "7d":
     pushes: 1
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 33
-    distinct_repos: 18
-    active_days: 23
+    pushes: 31
+    distinct_repos: 17
+    active_days: 22
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.4348
-  repo_per_active_day: 0.7826
-  not_owned_ratio: 0.0556
-  basename_concentration: 0.0556
+  push_per_day: 1.4091
+  repo_per_active_day: 0.7727
+  not_owned_ratio: 0.0588
+  basename_concentration: 0.0588
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 33
-    distinct_repos: 18
-    pushes_per_repo: 1.8333
-    active_days: 23
+    pushes: 31
+    distinct_repos: 17
+    pushes_per_repo: 1.8235
+    active_days: 22
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 23 active days in 90d — pass"
+  - "activity: 22 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "holocron"
@@ -142,6 +142,6 @@ repos:
 
 # remorses
 
-33 pushes across 18 repositories on 23 active days in the last 90 days of public GitHub push activity.
+31 pushes across 17 repositories on 22 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/remorses

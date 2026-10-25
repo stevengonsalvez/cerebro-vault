@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-24T06:05:01.431039+00:00"
+generated_at: "2026-10-25T07:04:46.004956+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [10, 0, 11, 3, 1, 1, 0, 1, 13, 15, 15, 6, 1]
+pushes_per_week: [10, 3, 9, 2, 1, 1, 1, 0, 13, 22, 10, 4, 16]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
+    pushes: 16
+    distinct_repos: 6
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 44
-    distinct_repos: 9
-    active_days: 14
+    pushes: 56
+    distinct_repos: 12
+    active_days: 15
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 77
-    distinct_repos: 14
-    active_days: 29
+    pushes: 92
+    distinct_repos: 16
+    active_days: 31
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 2.6552
-  repo_per_active_day: 0.4828
-  not_owned_ratio: 0.1429
-  basename_concentration: 0.2143
+  push_per_day: 2.9677
+  repo_per_active_day: 0.5161
+  not_owned_ratio: 0.1250
+  basename_concentration: 0.1875
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes: 16
+    distinct_repos: 6
+    pushes_per_repo: 2.6667
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 44
-    distinct_repos: 9
-    pushes_per_repo: 4.8889
-    active_days: 14
+    pushes: 56
+    distinct_repos: 12
+    pushes_per_repo: 4.6667
+    active_days: 15
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 77
-    distinct_repos: 14
-    pushes_per_repo: 5.5000
-    active_days: 29
+    pushes: 92
+    distinct_repos: 16
+    pushes_per_repo: 5.7500
+    active_days: 31
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 29 active days in 90d — pass"
+  - "activity: 31 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "omarchy-radio-atlas"
@@ -137,6 +137,6 @@ repos:
 
 # AksharP5
 
-77 pushes across 14 repositories on 29 active days in the last 90 days of public GitHub push activity.
+92 pushes across 16 repositories on 31 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/AksharP5

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-24T06:05:01.431039+00:00"
+generated_at: "2026-10-25T07:04:46.004956+00:00"
 provenance:
   - "c1af6b58492f9bf4"
-pushes_per_week: [83, 4, 81, 6, 8, 1, 3, 75, 169, 67, 69, 87, 16]
+pushes_per_week: [81, 1, 83, 3, 8, 1, 4, 139, 133, 82, 30, 86, 12]
 windows:
   "7d":
     pushes: 16
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 4
     not_owned_owners: 1
   "30d":
-    pushes: 293
+    pushes: 292
     distinct_repos: 16
     active_days: 17
     repos_not_owned: 14
     not_owned_basenames: 14
     not_owned_owners: 1
   "90d":
-    pushes: 669
+    pushes: 663
     distinct_repos: 28
-    active_days: 52
+    active_days: 51
     repos_not_owned: 18
     not_owned_basenames: 18
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 12.8654
-  repo_per_active_day: 0.5385
+  push_per_day: 13.0000
+  repo_per_active_day: 0.5490
   not_owned_ratio: 0.6429
   basename_concentration: 0.0357
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 4
     not_owned_owners: 1
   "30d":
-    pushes: 293
+    pushes: 292
     distinct_repos: 16
-    pushes_per_repo: 18.3125
+    pushes_per_repo: 18.2500
     active_days: 17
     repos_not_owned: 14
     not_owned_basenames: 14
     not_owned_owners: 1
   "90d":
-    pushes: 669
+    pushes: 663
     distinct_repos: 28
-    pushes_per_repo: 23.8929
-    active_days: 52
+    pushes_per_repo: 23.6786
+    active_days: 51
     repos_not_owned: 18
     not_owned_basenames: 18
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 52 active days in 90d — pass"
+  - "activity: 51 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "pirate"
@@ -181,6 +181,6 @@ repos:
 
 # pirate
 
-669 pushes across 28 repositories on 52 active days in the last 90 days of public GitHub push activity.
+663 pushes across 28 repositories on 51 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/pirate

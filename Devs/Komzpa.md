@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-24T06:05:01.431039+00:00"
+generated_at: "2026-10-25T07:04:46.004956+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [77, 38, 56, 9, 7, 0, 60, 3, 12, 54, 21, 38, 20]
+pushes_per_week: [72, 32, 61, 3, 5, 1, 60, 2, 14, 66, 8, 37, 20]
 windows:
   "7d":
     pushes: 20
@@ -22,25 +22,25 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 145
+    pushes: 142
     distinct_repos: 14
-    active_days: 20
+    active_days: 19
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 3
   "90d":
-    pushes: 395
-    distinct_repos: 32
-    active_days: 50
+    pushes: 381
+    distinct_repos: 31
+    active_days: 49
     repos_not_owned: 11
     not_owned_basenames: 7
     not_owned_owners: 8
 automation:
   state: "clear"
-  push_per_day: 7.9000
-  repo_per_active_day: 0.6400
-  not_owned_ratio: 0.3438
-  basename_concentration: 0.1875
+  push_per_day: 7.7755
+  repo_per_active_day: 0.6327
+  not_owned_ratio: 0.3548
+  basename_concentration: 0.1935
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 145
+    pushes: 142
     distinct_repos: 14
-    pushes_per_repo: 10.3571
-    active_days: 20
+    pushes_per_repo: 10.1429
+    active_days: 19
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 3
   "90d":
-    pushes: 395
-    distinct_repos: 32
-    pushes_per_repo: 12.3438
-    active_days: 50
+    pushes: 381
+    distinct_repos: 31
+    pushes_per_repo: 12.2903
+    active_days: 49
     repos_not_owned: 11
     not_owned_basenames: 7
     not_owned_owners: 8
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 50 active days in 90d — pass"
+  - "activity: 49 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "rtl-antenna-picker"
@@ -148,6 +148,6 @@ repos:
 
 # Komzpa
 
-395 pushes across 32 repositories on 50 active days in the last 90 days of public GitHub push activity.
+381 pushes across 31 repositories on 49 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Komzpa

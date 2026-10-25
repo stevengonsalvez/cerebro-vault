@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-24T06:05:01.431039+00:00"
+generated_at: "2026-10-25T07:04:46.004956+00:00"
 provenance:
   - "0241e600b90d751e"
-pushes_per_week: [9, 1, 1, 1, 0, 0, 1, 25, 6, 5, 1, 5, 1]
+pushes_per_week: [7, 1, 2, 0, 0, 1, 7, 18, 6, 5, 1, 5, 1]
 windows:
   "7d":
     pushes: 1
@@ -22,14 +22,14 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 14
+    pushes: 12
     distinct_repos: 1
-    active_days: 9
+    active_days: 8
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 56
+    pushes: 54
     distinct_repos: 1
     active_days: 26
     repos_not_owned: 1
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.1538
+  push_per_day: 2.0769
   repo_per_active_day: 0.0385
   not_owned_ratio: 1.0000
   basename_concentration: 1.0000
@@ -57,17 +57,17 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 14
+    pushes: 12
     distinct_repos: 1
-    pushes_per_repo: 14.0000
-    active_days: 9
+    pushes_per_repo: 12.0000
+    active_days: 8
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 56
+    pushes: 54
     distinct_repos: 1
-    pushes_per_repo: 56.0000
+    pushes_per_repo: 54.0000
     active_days: 26
     repos_not_owned: 1
     not_owned_basenames: 1
@@ -105,6 +105,6 @@ repos:
 
 # thrgreenwald
 
-56 pushes across 1 repository on 26 active days in the last 90 days of public GitHub push activity.
+54 pushes across 1 repository on 26 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/thrgreenwald

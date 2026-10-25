@@ -10,11 +10,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-24T06:05:01.431039+00:00"
+generated_at: "2026-10-25T07:04:46.004956+00:00"
 provenance:
   - "48dbbdd8fd0d3029"
   - "de6bf05613f3ae04"
-pushes_per_week: [7, 5, 7, 4, 3, 0, 0, 6, 6, 3, 3, 0, 1]
+pushes_per_week: [6, 8, 3, 7, 0, 0, 1, 5, 8, 1, 3, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -31,18 +31,18 @@ windows:
     not_owned_basenames: 5
     not_owned_owners: 2
   "90d":
-    pushes: 45
-    distinct_repos: 26
-    active_days: 28
+    pushes: 43
+    distinct_repos: 24
+    active_days: 27
     repos_not_owned: 12
     not_owned_basenames: 10
     not_owned_owners: 5
 automation:
   state: "clear"
-  push_per_day: 1.6071
-  repo_per_active_day: 0.9286
-  not_owned_ratio: 0.4615
-  basename_concentration: 0.1154
+  push_per_day: 1.5926
+  repo_per_active_day: 0.8889
+  not_owned_ratio: 0.5000
+  basename_concentration: 0.1250
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -67,16 +67,16 @@ facets:
     not_owned_basenames: 5
     not_owned_owners: 2
   "90d":
-    pushes: 45
-    distinct_repos: 26
-    pushes_per_repo: 1.7308
-    active_days: 28
+    pushes: 43
+    distinct_repos: 24
+    pushes_per_repo: 1.7917
+    active_days: 27
     repos_not_owned: 12
     not_owned_basenames: 10
     not_owned_owners: 5
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 28 active days in 90d — pass"
+  - "activity: 27 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "TitanHide"
@@ -147,6 +147,6 @@ repos:
 
 # mrexodia
 
-45 pushes across 26 repositories on 28 active days in the last 90 days of public GitHub push activity.
+43 pushes across 24 repositories on 27 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/mrexodia

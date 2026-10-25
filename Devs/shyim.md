@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-24T06:05:01.431039+00:00"
+generated_at: "2026-10-25T07:04:46.004956+00:00"
 provenance:
   - "c489e6fb5febf2ab"
-pushes_per_week: [10, 11, 9, 5, 3, 2, 5, 9, 11, 15, 5, 7, 6]
+pushes_per_week: [9, 12, 10, 3, 3, 2, 5, 9, 12, 14, 6, 6, 7]
 windows:
   "7d":
-    pushes: 6
-    distinct_repos: 5
-    active_days: 2
-    repos_not_owned: 4
-    not_owned_basenames: 4
+    pushes: 7
+    distinct_repos: 6
+    active_days: 3
+    repos_not_owned: 5
+    not_owned_basenames: 5
     not_owned_owners: 2
   "30d":
-    pushes: 33
+    pushes: 34
     distinct_repos: 13
-    active_days: 16
+    active_days: 17
     repos_not_owned: 10
     not_owned_basenames: 10
     not_owned_owners: 2
   "90d":
     pushes: 98
     distinct_repos: 28
-    active_days: 47
+    active_days: 48
     repos_not_owned: 15
     not_owned_basenames: 15
     not_owned_owners: 4
 automation:
   state: "clear"
-  push_per_day: 2.0851
-  repo_per_active_day: 0.5957
+  push_per_day: 2.0417
+  repo_per_active_day: 0.5833
   not_owned_ratio: 0.5357
   basename_concentration: 0.0714
   shapes: []
@@ -49,18 +49,18 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 6
-    distinct_repos: 5
-    pushes_per_repo: 1.2000
-    active_days: 2
-    repos_not_owned: 4
-    not_owned_basenames: 4
+    pushes: 7
+    distinct_repos: 6
+    pushes_per_repo: 1.1667
+    active_days: 3
+    repos_not_owned: 5
+    not_owned_basenames: 5
     not_owned_owners: 2
   "30d":
-    pushes: 33
+    pushes: 34
     distinct_repos: 13
-    pushes_per_repo: 2.5385
-    active_days: 16
+    pushes_per_repo: 2.6154
+    active_days: 17
     repos_not_owned: 10
     not_owned_basenames: 10
     not_owned_owners: 2
@@ -68,13 +68,13 @@ facets:
     pushes: 98
     distinct_repos: 28
     pushes_per_repo: 3.5000
-    active_days: 47
+    active_days: 48
     repos_not_owned: 15
     not_owned_basenames: 15
     not_owned_owners: 4
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 47 active days in 90d — pass"
+  - "activity: 48 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "docker-backup"
@@ -142,6 +142,6 @@ repos:
 
 # shyim
 
-98 pushes across 28 repositories on 47 active days in the last 90 days of public GitHub push activity.
+98 pushes across 28 repositories on 48 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/shyim

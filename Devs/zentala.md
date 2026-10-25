@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-24T06:05:01.431039+00:00"
+generated_at: "2026-10-25T07:04:46.004956+00:00"
 provenance:
   - "745308b2b7085095"
-pushes_per_week: [1, 0, 0, 0, 2, 0, 1, 5, 0, 2, 0, 0, 1]
+pushes_per_week: [1, 0, 0, 0, 2, 1, 2, 3, 0, 2, 0, 0, 2]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
-  "30d":
-    pushes: 3
+    pushes: 2
     distinct_repos: 1
     active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
+  "30d":
+    pushes: 4
+    distinct_repos: 1
+    active_days: 3
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
-    pushes: 12
+    pushes: 13
     distinct_repos: 8
-    active_days: 8
+    active_days: 9
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.5000
-  repo_per_active_day: 1.0000
+  push_per_day: 1.4444
+  repo_per_active_day: 0.8889
   not_owned_ratio: 0.1250
   basename_concentration: 0.1250
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
+    pushes: 2
     distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
-  "30d":
-    pushes: 3
-    distinct_repos: 1
-    pushes_per_repo: 3.0000
+    pushes_per_repo: 2.0000
     active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
+  "30d":
+    pushes: 4
+    distinct_repos: 1
+    pushes_per_repo: 4.0000
+    active_days: 3
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
-    pushes: 12
+    pushes: 13
     distinct_repos: 8
-    pushes_per_repo: 1.5000
-    active_days: 8
+    pushes_per_repo: 1.6250
+    active_days: 9
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 8 active days in 90d — pass"
+  - "activity: 9 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "MoveUp"
@@ -162,6 +162,6 @@ repos:
 
 # zentala
 
-12 pushes across 8 repositories on 8 active days in the last 90 days of public GitHub push activity.
+13 pushes across 8 repositories on 9 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/zentala

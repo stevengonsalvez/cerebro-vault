@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-24T06:05:01.431039+00:00"
+generated_at: "2026-10-25T07:04:46.004956+00:00"
 provenance:
   - "fae7e9e22c64821d"
-pushes_per_week: [31, 9, 12, 4, 6, 7, 14, 20, 47, 34, 13, 11, 12]
+pushes_per_week: [32, 7, 14, 2, 6, 15, 11, 19, 49, 30, 15, 16, 3]
 windows:
   "7d":
     pushes: 12
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 84
+    pushes: 80
     distinct_repos: 1
-    active_days: 23
+    active_days: 22
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 220
+    pushes: 219
     distinct_repos: 1
-    active_days: 59
+    active_days: 58
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 3.7288
-  repo_per_active_day: 0.0169
+  push_per_day: 3.7759
+  repo_per_active_day: 0.0172
   not_owned_ratio: 1.0000
   basename_concentration: 1.0000
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 84
+    pushes: 80
     distinct_repos: 1
-    pushes_per_repo: 84.0000
-    active_days: 23
+    pushes_per_repo: 80.0000
+    active_days: 22
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 220
+    pushes: 219
     distinct_repos: 1
-    pushes_per_repo: 220.0000
-    active_days: 59
+    pushes_per_repo: 219.0000
+    active_days: 58
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 59 active days in 90d — pass"
+  - "activity: 58 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "opencode-browser"
@@ -132,6 +132,6 @@ repos:
 
 # benjaminshafii
 
-220 pushes across 1 repository on 59 active days in the last 90 days of public GitHub push activity.
+219 pushes across 1 repository on 58 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/benjaminshafii

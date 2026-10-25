@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-24T06:05:01.431039+00:00"
+generated_at: "2026-10-25T07:04:46.004956+00:00"
 provenance:
   - "623376f479d42fb7"
-pushes_per_week: [0, 5, 3, 0, 0, 0, 0, 0, 9, 14, 6, 4, 7]
+pushes_per_week: [0, 7, 1, 0, 0, 0, 0, 0, 9, 15, 8, 1, 8]
 windows:
   "7d":
-    pushes: 7
+    pushes: 8
     distinct_repos: 1
-    active_days: 2
+    active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 33
+    pushes: 34
     distinct_repos: 2
-    active_days: 12
+    active_days: 13
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 48
+    pushes: 49
     distinct_repos: 2
-    active_days: 18
+    active_days: 19
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.6667
-  repo_per_active_day: 0.1111
+  push_per_day: 2.5789
+  repo_per_active_day: 0.1053
   not_owned_ratio: 1.0000
   basename_concentration: 0.5000
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 7
+    pushes: 8
     distinct_repos: 1
-    pushes_per_repo: 7.0000
-    active_days: 2
+    pushes_per_repo: 8.0000
+    active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 33
+    pushes: 34
     distinct_repos: 2
-    pushes_per_repo: 16.5000
-    active_days: 12
+    pushes_per_repo: 17.0000
+    active_days: 13
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 48
+    pushes: 49
     distinct_repos: 2
-    pushes_per_repo: 24.0000
-    active_days: 18
+    pushes_per_repo: 24.5000
+    active_days: 19
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 18 active days in 90d — pass"
+  - "activity: 19 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "superlinked-movies"
@@ -113,6 +113,6 @@ repos:
 
 # svonava
 
-48 pushes across 2 repositories on 18 active days in the last 90 days of public GitHub push activity.
+49 pushes across 2 repositories on 19 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/svonava

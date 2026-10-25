@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-24T06:05:01.431039+00:00"
+generated_at: "2026-10-25T07:04:46.004956+00:00"
 provenance:
   - "1be978947e68d1f2"
-pushes_per_week: [10, 12, 22, 1, 15, 0, 3, 3, 1, 18, 7, 7, 7]
+pushes_per_week: [7, 14, 20, 4, 12, 0, 3, 3, 2, 17, 8, 6, 7]
 windows:
   "7d":
     pushes: 7
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 106
+    pushes: 103
     distinct_repos: 5
-    active_days: 40
+    active_days: 38
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.6500
-  repo_per_active_day: 0.1250
+  push_per_day: 2.7105
+  repo_per_active_day: 0.1316
   not_owned_ratio: 0.0000
   basename_concentration: 0.2000
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 106
+    pushes: 103
     distinct_repos: 5
-    pushes_per_repo: 21.2000
-    active_days: 40
+    pushes_per_repo: 20.6000
+    active_days: 38
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 40 active days in 90d — pass"
+  - "activity: 38 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "ai"
@@ -132,6 +132,6 @@ repos:
 
 # ms-jpq
 
-106 pushes across 5 repositories on 40 active days in the last 90 days of public GitHub push activity.
+103 pushes across 5 repositories on 38 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ms-jpq

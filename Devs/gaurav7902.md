@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-24T06:05:01.431039+00:00"
+generated_at: "2026-10-25T07:04:46.004956+00:00"
 provenance:
   - "3cb7ff1cdcf97c6b"
-pushes_per_week: [2, 0, 3, 0, 0, 0, 0, 0, 2, 0, 1, 1, 0]
+pushes_per_week: [2, 0, 3, 0, 0, 0, 0, 0, 2, 0, 2, 0, 1]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 4
-    distinct_repos: 4
-    active_days: 3
+    pushes: 5
+    distinct_repos: 5
+    active_days: 4
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 9
-    distinct_repos: 8
-    active_days: 6
+    pushes: 10
+    distinct_repos: 9
+    active_days: 7
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 1.5000
-  repo_per_active_day: 1.3333
-  not_owned_ratio: 0.3750
-  basename_concentration: 0.1250
+  push_per_day: 1.4286
+  repo_per_active_day: 1.2857
+  not_owned_ratio: 0.3333
+  basename_concentration: 0.1111
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
+    pushes: 1
+    distinct_repos: 1
+    pushes_per_repo: 1.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 4
-    distinct_repos: 4
+    pushes: 5
+    distinct_repos: 5
     pushes_per_repo: 1.0000
-    active_days: 3
+    active_days: 4
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 9
-    distinct_repos: 8
-    pushes_per_repo: 1.1250
-    active_days: 6
+    pushes: 10
+    distinct_repos: 9
+    pushes_per_repo: 1.1111
+    active_days: 7
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 6 active days in 90d — pass"
+  - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "The-Movies-Hub"
@@ -135,6 +135,6 @@ repos:
 
 # gaurav7902
 
-9 pushes across 8 repositories on 6 active days in the last 90 days of public GitHub push activity.
+10 pushes across 9 repositories on 7 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/gaurav7902

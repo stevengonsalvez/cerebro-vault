@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-24T06:05:01.431039+00:00"
+generated_at: "2026-10-25T07:04:46.004956+00:00"
 provenance:
   - "48dbbdd8fd0d3029"
-pushes_per_week: [42, 22, 27, 3, 7, 3, 5, 23, 23, 47, 3, 6, 11]
+pushes_per_week: [42, 20, 25, 3, 8, 2, 5, 23, 24, 46, 3, 6, 11]
 windows:
   "7d":
     pushes: 11
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 3
     not_owned_owners: 1
   "30d":
-    pushes: 83
+    pushes: 81
     distinct_repos: 16
     active_days: 14
     repos_not_owned: 15
     not_owned_basenames: 5
     not_owned_owners: 12
   "90d":
-    pushes: 222
+    pushes: 218
     distinct_repos: 34
-    active_days: 47
+    active_days: 46
     repos_not_owned: 30
     not_owned_basenames: 10
     not_owned_owners: 22
 automation:
   state: "clear"
-  push_per_day: 4.7234
-  repo_per_active_day: 0.7234
+  push_per_day: 4.7391
+  repo_per_active_day: 0.7391
   not_owned_ratio: 0.8824
   basename_concentration: 0.5588
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 3
     not_owned_owners: 1
   "30d":
-    pushes: 83
+    pushes: 81
     distinct_repos: 16
-    pushes_per_repo: 5.1875
+    pushes_per_repo: 5.0625
     active_days: 14
     repos_not_owned: 15
     not_owned_basenames: 5
     not_owned_owners: 12
   "90d":
-    pushes: 222
+    pushes: 218
     distinct_repos: 34
-    pushes_per_repo: 6.5294
-    active_days: 47
+    pushes_per_repo: 6.4118
+    active_days: 46
     repos_not_owned: 30
     not_owned_basenames: 10
     not_owned_owners: 22
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 47 active days in 90d — pass"
+  - "activity: 46 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "skills"
@@ -129,6 +129,6 @@ repos:
 
 # Patrick-Erichsen
 
-222 pushes across 34 repositories on 47 active days in the last 90 days of public GitHub push activity.
+218 pushes across 34 repositories on 46 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Patrick-Erichsen

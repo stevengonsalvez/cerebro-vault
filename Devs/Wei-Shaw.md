@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-24T06:05:01.431039+00:00"
+generated_at: "2026-10-25T07:04:46.004956+00:00"
 provenance:
   - "91526b8597b5b63d"
-pushes_per_week: [9, 6, 14, 7, 5, 2, 6, 5, 11, 12, 3, 3, 2]
+pushes_per_week: [5, 7, 13, 7, 5, 2, 6, 7, 9, 12, 3, 3, 2]
 windows:
   "7d":
     pushes: 2
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 3
   "90d":
-    pushes: 85
+    pushes: 81
     distinct_repos: 7
-    active_days: 36
+    active_days: 35
     repos_not_owned: 6
     not_owned_basenames: 1
     not_owned_owners: 6
 automation:
   state: "clear"
-  push_per_day: 2.3611
-  repo_per_active_day: 0.1944
+  push_per_day: 2.3143
+  repo_per_active_day: 0.2000
   not_owned_ratio: 0.8571
   basename_concentration: 1.0000
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 3
   "90d":
-    pushes: 85
+    pushes: 81
     distinct_repos: 7
-    pushes_per_repo: 12.1429
-    active_days: 36
+    pushes_per_repo: 11.5714
+    active_days: 35
     repos_not_owned: 6
     not_owned_basenames: 1
     not_owned_owners: 6
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 36 active days in 90d — pass"
+  - "activity: 35 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "claude-relay-service"
@@ -149,6 +149,6 @@ repos:
 
 # Wei-Shaw
 
-85 pushes across 7 repositories on 36 active days in the last 90 days of public GitHub push activity.
+81 pushes across 7 repositories on 35 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Wei-Shaw
